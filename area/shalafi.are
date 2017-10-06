@@ -1,0 +1,311 @@
+#AREA	
+shalafi.are~
+Shalafi~
+{90 100} Asena Tower of the Arcane Arts~
+530 539
+
+#MOBILES
+#530
+Seneschal~
+The Seneschal~
+The Seneschal of magic is here.
+~
+A ghostly figure floats above you, ready to unleash magical death on all
+that are against his lords. The creature is formed entirely of flames and
+some other magical materials. 
+~
+elf~
+ABJKRVe FHDe 0 0
+92 30 2d500+25000 1d1+3999 10d25+90 slice
+-79 -79 -79 -40
+FKIN ABH C 0
+stand stand male 0
+A ABCDE medium 0
+
+#531
+healer adept cabal shalafi~
+an adept~
+An adept and healer of the Arcane Arts is here.
+~
+  He is an old, wise cleric blessing his old friends of the Maters of Five 
+Magic to destroy all undisciplined heros at Realms of Anatolia. He has
+beatiful long white hair and is wearing a white dress that reaches down to
+the floor. He has a nice smile on his face.
+~
+human~
+ABQVae DFH 1000 0
+90 10 1d1+28999 1d1+999 2d4+30 divine
+-75 -75 -75 -55
+FHIK ABC D 0
+stand stand male 1000
+0 0 medium 0
+#532
+fiery red demon~
+a fiery demon~
+A red, fiery demon is looking around very angry.
+~
+An aggressive looking fiery demon stands in the flame. It is quite angry
+to have been summoned. The demon has fiery flaming red skin, two heads,
+red scales, sharp teeth, 2 arms with long razorlike claws and two muscular
+legs. Narrow red eyes like burning coal in a small cave. Two muscular arms
+sprout from either side of the broad torso, ending in wickedly sharp black
+talons.
+~
+unique~
+AB JZ -1000 0
+40 0 1d1+2000 1d1+1 2d4+20 slash
+-15 -15 -15 -15
+FHI H 0 0
+stand stand male 0
+0 0 medium 0
+
+#0
+
+
+
+#OBJECTS
+#530
+spider altar~
+a huge violet altar carved as a spider~
+A hude spider shaped altar is standing at the center of room.~
+ivory~
+container AORY P
+10 15 532 15 100
+60 1 20 P
+
+#531
+orb~
+Orb of Magic~
+Orb of magic is here.~
+ebony~
+staff A A
+0 0 0 0 0
+60 1 100000 P
+
+#532
+key~
+a spider shaped key~
+A spider shaped  key is on the ground.~
+steel~
+key ORY AO
+0 0 0 0 0
+40 4 0 P
+
+#533
+white object portal~
+Magical White Portal~
+A magically created white object casts strange shadows across the clearing.
+~
+energy~
+portal AO 0
+0 0 D 9209 0
+0 0 0 P
+#534
+black object portal~
+Magical Black Portal~
+A magically created black object casts strange shadows across the clearing.
+~
+energy~
+portal AO 0
+0 0 E 0 0
+0 0 0 P
+
+
+#0
+
+
+
+#ROOMS
+#530
+Fifth Level~
+  The fifth level of the tower hums with whole magical power of the
+universe. All around, you see many items which have been carried and
+transported from different lands. Probably they have been used to reached
+the secret of the magical worlds; the stones sing and glow magically.
+Before you is an altar shaped like a huge spider. Carved from diamond,
+it gives off a soft purple radiance.
+~
+0 DX 0
+D1
+~
+~
+0 -1 537
+D3
+~
+~
+0 -1 538
+D5
+~
+~
+0 -1 531
+S
+
+#531
+Fourth Level~
+  The fourth level is much bigger than the others. All around you see the
+magic. There are many wands and staves which have been created by the
+the Arcane Arts magicians and used to destroy undisciplined heros at
+Realms of Anatolia. You see some red demons summoned and they are quite
+angry about to it.
+~
+0 DX 0
+D4
+~
+~
+0 -1 530
+D5
+~
+~
+0 -1 532
+S
+
+#532
+Third Level~
+  Now, you are in a mist that has been suddenly appeared. Swirling mist
+obscures your vision and cloud your mind. You start to wander about the
+eternity and power of the magic. The mist itself thickens to the up.  
+~
+0 DX 0
+D4
+~
+~
+0 -1 531
+D5
+~
+~
+0 -1 533
+S
+
+#533
+Second Level~
+  The second level of the tower of the Arcane Arts is much like the first.
+The walls are blackened and burnt by what you could only imagine to be
+magical fire. A large globe of magical energy floats overhead, providing
+light. A flight of stairs lead up and down.
+~
+0 DX 0
+D4
+~
+~
+0 -1 532
+D5
+~
+~
+0 -1 534
+S
+
+#534
+Inside the Tower~
+  You stand in the lowest level of the Tower of Arcane Arts. The magical
+walls all around you emit a faint magical glow which provides enough light 
+to see by. Perhaps in the upper levels lie the secrets of this tower and
+Arcane Arts.
+~
+0 DX 0
+D2
+~
+~
+0 -1 535
+D4
+~
+~
+0 -1 533
+S
+
+#535
+Outside the Tower~
+  You are in a long way leading north and south. The magical walls emit a
+faint magical glow which provides enough light to see by. Additionally a
+large globe of magical energy floats overhead, providing light. The tower
+is created by pure magic and you feel that the whole magical power of the
+universe has been used to create this tower.
+~
+0 DX 0
+D0
+~
+~
+0 -1 534
+D2
+~
+~
+0 -1 536
+S
+#536
+The Mystical Path~
+  You start to feel the power of magic. Magical beings from every known
+plane walk amongst you. The path, like everything here, is magically
+created and seems perfect. Up ahead you see the Tower of the Arcane
+Arts.
+~
+0 DX 0
+D0
+~
+~
+5 -1 535
+D2
+~
+~
+1 -1 1480
+S
+#537
+The Mystical Room~
+ This room is looks like the third level of the tower. You are in a mist
+that has been suddenly appeared. Swirling mist obscures your vision and
+cloud your mind. You start to wander about the eternity and power of the
+magic. The mist itself thickens to the up. You see a portal that may help
+you to find some materials to create powerful wands and staves.  
+~
+0 DX 0
+D3
+~
+~
+1 -1 530
+S
+#538
+The Mystical Room~
+ This room is looks like the third level of the tower. You are in a mist
+that has been suddenly appeared. Swirling mist obscures your vision and
+cloud your mind. You start to wander about the eternity and power of the
+magic. The mist itself thickens to the up. You see a portal that may help
+you to find some materials to create powerful wands and staves.  
+~
+0 DX 0
+D1
+~
+~
+1 -1 530
+S
+#0
+
+
+
+#RESETS
+M 0 530  1 536 1                 * Seneschal of magic
+E 0 532 -1  11                   *  key
+M 0 531  1 530 1                 * adept
+O 0 530  1 530 1                 * item container  spider shaped altar
+P 0 531  1 530 1                 *  cabal item     orb of magic
+D 0 536  2 1
+O 0 533  1 537
+O 0 534  1 538
+S
+
+#SPECIALS
+M 531 spec_cast_cabal
+M 530 spec_fight_seneschal
+M 532 spec_cast_mage
+S
+
+#OMPROGS
+O 531 get_prog get_prog_cabal_item	
+O 531 sac_prog sac_prog_cabal_item	
+M 530 greet_prog greet_prog_shalafi
+S
+
+#PRACTICERS
+M 530 group_cabal	*sens
+S
+#$
+
+
+

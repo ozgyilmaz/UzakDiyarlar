@@ -1,0 +1,195 @@
+#AREA
+ruler.are~
+Ruler~
+{90 100} Chronos Palace of The Rulers~
+510 519
+
+
+#MOBILES
+#510
+enforcer guard~
+the enforcer~
+The enforcer is waiting here protecting the enterance.
+~
+  He is trained specially to guard and serve the Ruler Council. Due to the
+decades of devotion and training, he is almost perfect at many skills.
+~
+human~
+ABJKWe DFHJVZ 0 0
+92 60 1d500+25000 1d200+1600 10d40+50 none
+-70 -70 -70 -20
+ACEFIKNOU AB 0 S
+stand stand male 5000
+0 0 medium 0
+
+#511
+healer cabal ruler~
+the lawful healer~
+The healer with his white robe heals and protects his Rulers.
+~
+  He is an old, wise cleric serving the Ruler Council, and praying his
+gods for the balance on Anatolia.
+~
+human~
+ABW DFHJVZ 0 0
+80 20 1d100+18000 1d300+900 15d30+40 divine
+-65 -65 -61 -39
+CEFNU AB C S
+stand stand male 0
+0 0 medium 0
+#0
+
+#OBJECTS
+#510
+book stand bookstand~
+the bookstand~
+The bookstand is standing against the east wall of room.~
+ivory~
+container ORY P
+10 15 512 15 100
+60 1 20 P
+#511
+law laws book~
+the book of laws~
+The book of laws is left here on the floor.~
+paper~
+treasure O AO
+0 0 0 0 0
+60 1 100000 P
+#512
+roll paper rolled~
+a rolled paper~
+A rolled paper is left on the ground.~
+paper~
+key ORY AO
+0 0 0 0 0
+40 4 0 P
+E
+paper~
+There are some secret codes written here, in order to open something.
+~
+#513
+sofa silk~
+a silk sofa~
+A silk sofa is here, for rulers sit and rest.
+~
+silk~
+furniture 0 0
+3 1000 BHKN 150 150
+20 400 100000 P
+#0
+
+#ROOMS
+#510
+The Enterance~
+  You are in a large hallyway. The walls are decorated with beautiful
+carvings, bright armors and ceramonial shields. On the ceiling you read
+"In the guiding of the rulers, there is not a problem not to be solved."
+  The floor is very clean. The floor is made up of marbles, shine with the
+light of the sun coming from the windows.
+~
+0 DX 0
+D0
+~
+~
+5 -1 511
+D2
+~
+~
+1 -1 697
+S
+
+#511
+Inside the Palace~
+  Every part of the room is so clean that, you can even see mirror images
+on the walls or floor. A golden carved figures are on the ceiling. To the
+north you see the room of laws. To the eat you see the resting room for
+the rulers. And to the west you see the chapel.
+~
+0 DX 0
+D0
+~
+~
+0 -1 512
+D1
+~
+~
+0 -1 514
+D2
+~
+~
+0 -1 510
+D3
+~
+~
+0 -1 513
+S
+
+#512
+Room of Laws~
+  This is the room of the palace, where the old Rulers decides how to rule
+the Anatolia and young rulers study the laws. There is a bookstand put in
+front of the east wall of the room. The written form of laws are written
+in a book that stands inside of the bookstand.
+~
+0 DX 0
+D2
+~
+~
+0 -1 511
+S
+
+#513
+The Rulers' chapel~
+  You are in the chapel of Rulers.  This place is for those defenders
+of laws to heal and to pray to their gods. There is no windows inside the
+the chapel. The chapel is lighted by the hundrets of candles placed on the
+each side of the room. The mystical air freshens your mind.
+~
+0 DX 0
+D1
+~
+~
+0 -1 511
+S
+
+#514
+Resting Room~
+  You are in the resting room of the Rulers. There is a silk sofa in the
+room for the rulers to sit, rest and relax. Since they study hard to rule
+the Anatolia, you think that they need such kind of rooms.
+~
+0 DX 0
+D3
+~
+~
+0 -1 511
+S
+#0
+
+#RESETS
+M 0 510 1 510 1			* enforcer
+E 0 512 0 11			* paper
+M 0 511 1 513 1			* healer
+O 0 510 1 512 1 		* the bookstand
+P 0 511 1 510 1			* the book of laws
+O 0 513 1 514 1 		* the sofa
+S
+
+#SPECIALS
+M 510 spec_fight_enforcer
+M 511 spec_cast_cabal
+S
+
+#OMPROGS
+O 511 get_prog get_prog_cabal_item		
+O 511 sac_prog sac_prog_cabal_item		
+M 510 greet_prog greet_prog_ruler		
+S
+
+#PRACTICERS
+M 510 group_cabal	*enforcer
+S
+
+#$
+

@@ -1,0 +1,5885 @@
+#AREA
+white.are~
+White Lotus~
+{1  50} Strahd  Temple of the White Lotus~
+10701 10873
+
+#MOBOLD
+#10701
+monk cleaning~
+monk~
+A temple monk is here cleaning and polishing the walkway.
+~
+He looks to be a student of the temple. He is dressed in a loose brown
+robe. He is diligently cleaning the walkway.
+~
+3 0 800 S
+15 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10702
+monk elder~
+elder monk~
+An elder monk is here murmering and praying.
+~
+~
+3 0 800 S
+25 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10703
+monk student~
+student~
+A temple student is here practicing his kung fu.
+~
+~
+3 0 654 S
+5 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10704
+monk advanced student~
+student~
+A temple student is here practicing his kung fu.
+~
+~
+3 0 453 S
+12 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10705
+teacher monk~
+teacher~
+A temple teacher is here instructing students.
+~
+~
+3 0 453 S
+20 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10706
+guard temple~
+temple guard~
+A temple guard is here.
+~
+~
+3 0 320 S
+30 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10707
+guard white lotus~
+guard~
+A guard of the White Lotus is standing here.
+~
+~
+3 0 453 S
+30 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10708
+kitchen attendant~
+kitchen attendant~
+A kitchen attendant is here cooking for the soldiers.
+~
+~
+3 0 675 S
+9 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10709
+kitchen attendant~
+kitchen attendant~
+A kitchen attendant is here cooking for the soldiers.
+~
+~
+3 0 675 S
+12 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10710
+soldier temple gambling~
+temple soldier~
+A temple soldier is here gambling.
+~
+~
+3 0 675 S
+13 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10711
+soldier temple eating~
+temple soldier~
+A temple soldier is here stuffing his mouth with rice.
+~
+~
+3 0 675 S
+11 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10712
+officer temple~
+temple officer~
+A temple office is here drinking wine.
+~
+~
+3 0 675 S
+16 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10713
+prisoner~
+prisoner~
+A prisoner is here barfing on the ground.
+~
+~
+3 0 675 S
+7 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10714
+monk wandering~
+wandering monk~
+A monk is here wandering and praying.
+~
+~
+3 0 675 S
+16 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10715
+song bird~
+song bird~
+A small colorful songbird is here chirping merrily.
+~
+~
+3 0 675 S
+3 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 0
+
+#10716
+member poison clan~
+Poison Clan member~
+A member of the Poison clan is here looking tough.
+~
+~
+1|2 0 -300 S
+23 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10717
+small frog~
+small frog~
+A small frog is here croaking.
+~
+~
+1|2 0 200 S
+14 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 0
+
+#10718
+tiny centipede~
+tiny centipede~
+A tiny centipede is crawling on the ground.
+~
+~
+1|2 0 -100 S
+15 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 0
+
+#10719
+silver snake~
+silver snake~
+A silver snake is slithering at your feet.
+~
+~
+1|2 0 -100 S
+17 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 0
+
+#10720
+small green lizard~
+small green lizard~
+A small green lizard is climbing on a nearby tree.
+~
+~
+1|2 0 -100 S
+18 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 0
+
+#10721
+small red scorpion~
+small red scorpion~
+A small red scorpion is scuttling across the path.
+~
+~
+1|2 0 -100 S
+21 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 0
+
+#10722
+Expert Scorpion~
+Ma Tang~
+Ma Tang, Expert of the Scorpion technique is here.
+~
+~
+1|2|32 0 -900 S
+35 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10723
+Expert Toad~
+Lee Ho~
+Lee Ho, Expert of the Toad technique is here.
+~
+~
+1|2 128|8192 600 S
+31 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10724
+Expert Centipede~
+Tang Seung Qwe~
+Tang Seung Qwe, Expert of the Centipede technique is here.
+~
+~
+1|2|32 0 -700 S
+33 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10725
+Expert Lizard~
+Yeun Sun Ho~
+Yeun Sun Ho, Expert of the Lizard technique is here.
+~
+~
+1|2 0 -700 S
+34 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10726
+teachers last student~
+Teacher's last student~
+Teacher's last student is here searching for the 5 Deadly Venoms.
+~
+~
+1|2 0 800 S
+32 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10727
+Buddha Golden Enlightenment statue~
+statue of the Golden Buddha~
+The statue of the Golden Buddha of Enlightenment sits here.
+~
+~
+1|2 0 1000 S
+44 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10728
+Buddha Golden Wisdom statue~
+statue of the Golden Buddha~
+The statue of the Golden Buddha of Wisdom sits here.
+~
+~
+1|2 0 1000 S
+45 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10729
+Buddha Golden Contentment statue~
+statue of the Golden Buddha~
+The statue of the Golden Buddha of Contentment sits here.
+~
+~
+1|2 0 1000 S
+46 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10730
+shrine attendant~
+shrine attendant~
+An atttendant is here tending to the shrines.
+~
+~
+1|2 0 1000 S
+37 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 0
+
+#10731
+monk chanting~
+chanting monk~
+A monk is sitting here chanting.
+~
+~
+1|2 0 1000 S
+25 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 0
+
+#10732
+Wei Chin~
+Wei Chin~
+Wei Chin is here.
+~
+~
+1|2 0 -900 S
+46 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10733
+Wu Tak~
+Wu Tak~
+A visiting monk named, 'Wu Tak' is here.
+~
+~
+1|2 0 -950 S
+48 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10734
+White Lotus Chief~
+White Lotus Chief~
+The White Lotus Chief is here meditating.
+~
+~
+1|2|32 8|16|32|512 -1000 S
+50 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10735
+chief personal guard~
+personal guard of the White Lotus Chief~
+The personal guard of the White Lotus Chief is here.
+~
+~
+1|2 8|16|32|512 -1000 S
+39 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10736
+chamber attendant~
+chamber attendant~
+The attendant to the 36 chambers is here to welcome you.
+~
+~
+1|2 8|16|32|512 790 S
+32 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10737
+teacher 1st chamber~
+teacher of the 1st chamber~
+The teacher of the 1st chamber is waiting patiently for a student.
+~
+~
+1|2 8|16|32|512 790 S
+32 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10738
+teacher 2nd chamber~
+teacher of the 2nd chamber~
+The teacher of the 2nd chamber is waiting patiently for a student.
+~
+~
+1|2 8|16|32|512 600 S
+33 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10739
+teacher whirlwind kick~
+teacher of the whirlwind kick~
+The teacher of the whirlwind kick is here waiting to test you.
+~
+~
+1|2 8|16|32|512 550 S
+34 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10740
+teacher chin kang palm~
+teacher of the chin kang palm~
+The teacher of the chin kang palm is here waiting to test you.
+~
+~
+1|2 8|16|32|512 550 S
+35 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10741
+teacher lizard style~
+teacher of the lizard style~
+The teacher of the lizard style is standing on the wall.
+~
+~
+1|2 8|16|512 990 S
+36 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10742
+teacher crane style~
+teacher of the crane style~
+The teacher of the crane style is here meditating.
+~
+~
+1|2 8|16|512 990 S
+37 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10743
+teacher dragon style~
+teacher of the dragon style~
+The teacher of the dragon style is awaiting your arrival.
+~
+~
+1|2|32 8|16|32|512 -700 S
+38 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10745
+teacher tiger style~
+teacher of the tiger style~
+The teacher of the tiger style sits here eating a pork bun.
+~
+~
+1|2|32 8|16|32|512 -50 S
+39 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10746
+teacher scorpion style~
+teacher of the scorpion style~
+The teacher of the scorpion style is trying to decide how to kill you.
+~
+~
+1|2|32 8|16|32|512 -1000 S
+40 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10747
+teacher snake style~
+teacher of the snake style~
+The teacher of the snake style is sitting here on a silver throne.
+~
+~
+1|2 8|16|32|512 -1000 S
+41 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10748
+teacher centipede style~
+teacher of the centipede style~
+The teacher of the centipede style is waiting for you.
+~
+~
+1|2|32 8|16|32|512 -1000 S
+42 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10749
+teacher toad style~
+teacher of the toad style~
+The teacher of the toad style is waiting for you.
+~
+~
+1|2 8|16|32|128|512 400 S
+43 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10750
+teacher iron monk style~
+teacher of the iron monk style~
+The teacher of the iron monk style is here meditating.
+~
+~
+1|2 8|16|32|512 -100 S
+44 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10751
+teacher iron head style~
+teacher of the iron head style~
+The teacher of the iron head style is praying he'll spare you.
+~
+~
+1|2 8|16|32|512 300 S
+45 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10752
+teacher hawk style~
+teacher of the hawk style~
+The teacher of the hawk style is here drinking wine.
+~
+~
+1|2 8|16|32|512 500 S
+46 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10753
+teacher quivering palm style~
+teacher of the quivering palm style~
+The teacher of the quivering palm style sits patiently on a stool here.
+~
+~
+1|2 8|16|32|512 500 S
+47 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10754
+teacher five pace palm style~
+teacher of the five pace palm style~
+The teacher of the five pace palm style is waiting patiently.
+~
+~
+1|2 8|16|32|512 500 S
+48 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10755
+healing monk chanting~
+chanting monk~
+A monk is here praying and chanting.
+~
+~
+1|2 8|16|32|512 500 S
+60 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10756
+teacher weightless boxing~
+teacher of weightless boxing~
+The teacher of weightless boxing is here saying, 'Damn You!'
+~
+~
+1|2|32 8|16|32|512 500 S
+49 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10757
+teacher lightning strike~
+teacher of the lightning strike~
+The teacher of the lightning strike sits on the floor here.
+~
+~
+1|2|32 8|16|32|512 -200 S
+50 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10758
+teacher iron skin~
+teacher of the iron skin technique~
+The teacher of the iron skin technique sits on the floor here.
+~
+~
+1|2|32 8|16|32|128|512 -200 S
+51 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10759
+teacher chinese long sword~
+teacher of chinese long sword~
+The teacher of the chinese long sword is here cutting up apples.
+~
+~
+1|2|32 8|16|32|512 -100 S
+52 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10760
+teacher butterfly swords~
+teacher of butterfly swords~
+The teacher of the butterfly swords is here sharpening his blades.
+~
+~
+1|2|32 8|16|32|512 -100 S
+52 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10761
+teacher long spear~
+teacher of chinese long spear~
+The teacher of the chinese long spear is here making kabobs.
+~
+~
+1|2|32 8|16|32|512 -300 S
+53 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10762
+teacher deadly palm~
+teacher of deadly palm~
+The teacher of the deadly palm is here writing poetry.
+~
+~
+1|2 8|16|32|512 -300 S
+54 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10763
+teacher fivechops~
+teacher of the five chops~
+The teacher of the five chops is here watching the home choping channel.
+~
+~
+1|2 8|16|32|512 -400 S
+55 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10764
+teacher angry buddha~
+teacher of the angry buddha~
+The teacher of the angry buddha is here being...well..angry...
+~
+~
+1|2|32 8|16|32|512 -700 S
+57 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10766
+first master~
+1st master of the White Lotus Clan~
+The 1st master of the White Lotus Clan is here softly chanting.
+~
+~
+1|2|32 8|16|32|512 -700 S
+58 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10767
+second master~
+2nd master of the White Lotus Clan~
+The 2nd master of the White Lotus Clan is here watching MTV.
+~
+~
+1|2|32 8|16|32|512 -600 S
+59 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10768
+third master~
+3rd master of the White Lotus Clan~
+The 3rd master of the White Lotus Clan is here eating dumplings.
+~
+~
+1|2|32 8|16|32|512 -500 S
+60 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10769
+fourth master~
+4th master of the White Lotus Clan~
+The 4th master of the White Lotus Clan is waiting to test you.
+~
+~
+1|2|32 8|16|32|512 -400 S
+61 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10770
+fifth master~
+5th master of the White Lotus Clan~
+The 5th master of the White Lotus Clan praying for your soul.
+~
+~
+1|2|32 8|16|32|512 -300 S
+62 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10771
+abbot~
+Abbot~
+The Abbot awaits patiently to test your kung fu.
+~
+~
+1|2|32 8|16|32|512 -200 S
+63 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10772
+grand abbot~
+Grand Abbot~
+The Grand Abbot is here doing what Grand Abbots normally do.
+~
+~
+1|2|32 8|16|32|512 -100 S
+64 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10773
+disciple of buddha~
+disciple of buddha~
+A disciple of buddha is here chanting and praying.
+~
+~
+1|2 8|16|32|512 100 S
+65 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10774
+Buddha~
+Buddha~
+Before you sits The Buddha.
+~
+~
+1|2|32 8|16|32|512 -1000 S
+70 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#10775
+Expert Snake~
+Hung Wei Tung~
+Hung Wei Tung, Expert of the Snake technique is here.
+~
+~
+1|2 0 -100 S
+36 2 2 1d1+30000 1d8+32
+100000 80000
+8 8 1
+
+#0
+
+
+
+
+
+
+
+
+
+
+
+
+
+#OBJOLD
+#12701
+mop~
+mop~
+A wet soggy mop is here on the ground.~
+~
+5 0 1|8192
+0 1 25 4
+3 10000 10000
+
+#12702
+soap~
+soap~
+A bottle of soap is here.~
+~
+10 0 1
+15 33 0 0
+1 10000 10000
+
+#12703
+prayer beads~
+prayer beads~
+A string of prayer beads are here.~
+~
+9 0 1|4
+5 0 0 0
+1 10000 10000
+A
+24 -5
+A
+4 1
+A
+12 5
+
+#12704
+chinese broadsword~
+chinese broadsword~
+A large chinese broadsword lies on the ground.~
+~
+5 0 1|8192
+0 1 45 3
+7 10000 10000
+
+#12705
+white lotus shield~
+white lotus shield~
+A medium size wooden sheild with a picture of a white lotus is here.~
+~
+9 64 1|512
+10 0 0 0
+3 10000 10000
+A
+22 -5
+
+#12706
+large cleaver~
+large cleaver~
+A very large chinese cleaver is stuck in the ground.~
+~
+5 0 1|8192
+0 1 15 1
+2 10000 10000
+
+#12707
+chopsticks chopstick ivory~
+pair of chopsticks~
+A pair of ivory chopsticks are stuck in the ground here.~
+~
+3 0 1|16384
+9 12 0 0
+1 10000 10000
+
+#12708
+pair ivory dice~
+pair of ivory dice~
+A pair of ivory dice are sitting on the ground.~
+~
+26 64 1|16384
+13 2 2 2
+1 10000 10000
+
+#12709
+deck playing cards~
+a deck of playing cards~
+A deck of playing cards lie on the ground.~
+~
+4 64 1|16384
+13 56 0 0
+1 10000 10000
+
+#12710
+bowl rice~
+bowl of rice~
+A small bowl of rice is just sitting here, steaming.~
+~
+19 0 1
+10 0 0 0
+1 10000 10000
+
+#12711
+jug wine~
+jug of wine~
+A small clay jug with a red paper top is  sitting here.~
+~
+17 0 1
+5 5 2 0
+1 10000 10000
+
+#12712
+green icky chunky barf~
+a pool of green icky chunky barf~
+A small pool of green icky chunky barf~
+~
+10 0 1
+3 68 33 0
+1 10000 10000
+
+#12713
+beautiful feather~
+a beautiful feather~
+A beautifully colored feather is laying here on the ground.~
+~
+3 64 1
+3 56 2 0
+1 10000 10000
+
+#12714
+big knife~
+big knife~
+A big knife is laying on the ground here.~
+~
+5 0 1|8192
+0 1 46 11
+3 10000 10000
+
+#12715
+poison clan insignia coin~
+poison clan insignia~
+A small insignia coin is laying here on the ground.~
+~
+5 0 1|16384
+0 0 0 7
+1 10000 10000
+A
+18 1
+A
+19 2
+A
+1 1
+
+#12716
+scorpion technique style book~
+scorpion style~
+You see a small book with a small scorpion on the cover here.~
+~
+5 0 1|8192
+0 1 70 8
+1 10000 10000
+A
+18 1
+A
+19 1
+A
+13 12
+
+#12717
+toad technique style book~
+toad style~
+You see a small book with a small toad on the cover here.~
+~
+26 0 1
+31 1 36 66
+1 10000 10000
+
+#12718
+centipede technique style book~
+centipede style~
+You see a small book with a small centipede on the cover here.~
+~
+5 0 1|16384
+0 1 66 5
+1 10000 10000
+A
+2 2
+A
+14 20
+A
+19 2
+
+#12719
+lizard technique style book~
+lizard style~
+You see a small book with a small lizard on the cover here.~
+~
+5 0 1|16384
+0 1 64 5
+1 10000 10000
+A
+14 50
+A
+2 1
+A
+17 -5
+
+#12720
+orange~
+orange~
+You see a small perfect orange on the ground.~
+~
+26 64 1
+44 81 0 0
+1 10000 10000
+
+#12721
+enchanted prayer beads~
+enchanted prayer beads~
+You see a small strand of prayer beads on the ground.~
+~
+26 64 1
+44 57 0 0
+1 10000 10000
+
+#12722
+iron monk technique book~
+iron monk technique~
+You see a small book with the iron monk technique written in it.~
+~
+5 64 1|16384
+0 1 67 5
+1 10000 10000
+A
+17 -5
+A
+1 1
+A
+20 -5
+
+#12723
+weightless boxing technique~
+weightless boxing technique~
+You see a small book of kung fu laying on the ground here.~
+~
+5 64 1|8192
+0 1 90 7
+1 10000 10000
+A
+17 -10
+
+#12725
+white chinese longsword~
+white chinese longsword~
+A shiny white chinese longsword is stuck in the ground here.~
+~
+5 64 1|8192
+0 1 75 1
+3 10000 10000
+
+#12726
+key chambers~
+key to the 36 chambers~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12727
+key 2nd chamber~
+key to the 2nd chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12728
+key 3rd chamber~
+key to the 3rd chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12729
+key 4th chamber~
+key to the 4th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12730
+whirlwind kick~
+whirlwind kick~
+A small book teaching the Whirlwind Kick style is here.~
+~
+5 0 1|8192
+0 1 64 7
+1 10000 10000
+
+#12731
+key 5th chamber~
+key to the 5th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12732
+chin kang palm~
+chin kang palm~
+A small book teaching the chin kang palm style is here.~
+~
+5 0 1|8192
+0 1 65 6
+1 10000 10000
+
+#12733
+key 6th chamber~
+key to the 6th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12734
+lizard style~
+lizard style~
+A small book teaching the lizard style is here.~
+~
+5 0 1|8192
+0 1 66 12
+1 10000 10000
+
+#12735
+key 7th chamber~
+key to the 7th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12736
+crane style~
+crane style~
+A small book teaching the crane style is here.~
+~
+5 0 1|8192
+0 1 67 11
+1 10000 10000
+
+#12737
+key 8th chamber~
+key to the 8th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12738
+dragon style~
+dragon style~
+A small book teaching the dragon style is here.~
+~
+5 0 1|8192
+0 1 68 10
+1 10000 10000
+
+#12739
+key 9th chamber~
+key to the 9th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12740
+tiger style~
+tiger style~
+A small book teaching the tiger style is here.~
+~
+5 0 1|8192
+0 1 69 5
+1 10000 10000
+
+#12741
+key 10th chamber~
+key to the 10th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12742
+scorpion style~
+scorpion style~
+A small book teaching the scorpion style is here.~
+~
+5 0 1|8192
+0 1 70 8
+1 10000 10000
+
+#12743
+key 11th chamber~
+key to the 11th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12745
+key 12th chamber~
+key to the 12th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12746
+snake style~
+snake style~
+A small book teaching the snake style is here.~
+~
+5 0 1|8192
+0 1 71 11
+1 10000 10000
+
+#12747
+key 13th chamber~
+key to the 13th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12748
+centipede style~
+centipede style~
+A small book teaching the centipede style is here.~
+~
+5 0 1|8192
+0 1 72 4
+1 10000 10000
+
+#12749
+key 14th chamber~
+key to the 14th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12750
+toad style~
+toad style~
+A small book teaching the toad style is here.~
+~
+9 0 1|8
+10 0 0 0
+1 10000 10000
+A
+17 -10
+A
+5 2
+A
+19 2
+
+#12751
+key 15th chamber~
+key to the 15th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12752
+iron monk style~
+iron monk style~
+A small book teaching the iron monk style is here.~
+~
+4 0 1|16384
+44 25 25 36
+1 10000 10000
+
+#12753
+key 16th chamber~
+key to the 16th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12754
+iron head style~
+iron head style~
+A small book teaching the iron monk style is here.~
+~
+5 0 1|8192
+0 1 75 7
+1 10000 10000
+
+#12755
+key 17th chamber~
+key to the 17th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12756
+hawk style~
+hawk style~
+A small book teaching the hawk style is here.~
+~
+5 0 1|8192
+0 1 76 5
+1 10000 10000
+
+#12757
+key 18th chamber~
+key to the 18th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12758
+quivering palm style~
+quivering palm style~
+A small book teaching the quivering palm style is here.~
+~
+5 0 1|8192
+0 1 77 6
+1 10000 10000
+
+#12759
+key 20th chamber~
+key to the 20th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12760
+key 21st chamber~
+key to the 21st chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12761
+key 22nd chamber~
+key to the 22nd chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12762
+weightless boxing~
+weightless boxing~
+A small book teaching the weightless boxing style is here.~
+~
+5 0 1|8192
+0 1 79 6
+1 10000 10000
+
+#12763
+key 23rd chamber~
+key to the 23rd chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12764
+lightning strike~
+lightning strike~
+A small book teaching the lightning strike style is here.~
+~
+5 0 1|8192
+0 1 80 6
+1 10000 10000
+
+#12765
+key 24th chamber~
+key to the 24th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12766
+iron skin technique~
+iron skin technique~
+A small book teaching the iron skin technique is here.~
+~
+5 0 1|8192
+0 1 81 6
+1 10000 10000
+A
+17 -15
+
+#12767
+key 25th chamber~
+key to the 25th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12768
+chinese longsword technique~
+chinese longsword~
+A small book teaching the chinese longsword technique is here.~
+~
+5 0 1|8192
+0 1 82 1
+5 10000 10000
+
+#12769
+key 25th chamber~
+key to the 25th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12770
+chinese butterfly sword technique~
+chinese butterfly sword~
+A small book teaching the chinese butterfly sword technique is here.~
+~
+5 0 1|8192
+0 1 83 1
+6 10000 10000
+
+#12771
+key 26th chamber~
+key to the 26th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12772
+chinese long spear technique~
+chinese long spear~
+A small book teaching the chinese long spear technique is here.~
+~
+5 0 1|8192
+0 1 84 11
+1 10000 10000
+
+#12773
+key 27th chamber~
+key to the 27th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12774
+deadly palm style~
+deadly palm style~
+A small book teaching the deadly palm style is here.~
+~
+5 0 1|8192
+0 1 85 6
+1 10000 10000
+
+#12775
+key 28th chamber~
+key to the 28th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12776
+Flying buddha style~
+flying buddha style~
+A small book teaching the flying buddha style is here.~
+~
+5 0 1|8192
+0 1 86 1
+1 10000 10000
+
+#12777
+key 29th chamber~
+key to the 29th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12778
+angry buddha style~
+angry buddha style~
+A small book teaching the angry buddha style is here.~
+~
+5 0 1|8192
+0 1 87 1
+1 10000 10000
+A
+18 3
+
+#12779
+key 30th chamber~
+key to the 30th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12780
+key 31st chamber~
+key to the 31st chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12781
+key 32nd chamber~
+key to the 32nd chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12782
+key 33rd chamber~
+key to the 33rd chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12783
+key 34th chamber~
+key to the 34th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12784
+key 35th chamber~
+key to the 35th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12785
+key 36th chamber~
+key to the 36th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12786
+holy mace~
+holy mace of the Grand Abbot~
+A large polearm with a mace on top is here.~
+~
+5 0 1|8192
+0 1 90 0
+6 10000 10000
+
+#12787
+Hand of buddha~
+Hand of Buddha~
+The enormous Hand of Buddha is floating above you.~
+~
+5 1|2|64|256 1|8192
+0 1 100 6
+7 10000 10000
+A
+18 3
+A
+19 3
+A
+17 -10
+A
+12 100
+
+#12788
+blessed fountain~
+blessed fountain~
+a glowing fountain of Buddha is flowing quietly here.~
+~
+25 64 0
+0 0 0 0
+500 10000 10000
+
+#12789
+key 19th chamber~
+key to the 19th chamber~
+A small stone key lies on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+
+#12790
+five pace palm style~
+five pace palm style~
+A small book teaching the five pace palm style is here.~
+~
+5 0 1|8192
+0 1 78 6
+1 10000 10000
+
+#12791
+rice cake~
+rice cake~
+You see a small perfect rice cake on the ground.~
+~
+26 64 1
+44 28 0 0
+1 10000 10000
+
+#12792
+chinese butterfly sword technique light~
+chinese butterfly sword~
+A small book teaching the chinese butterfly sword technique is here.~
+~
+5 0 1|16384
+0 1 83 1
+5 10000 10000
+
+#12793
+chinese longsword technique light~
+chinese longsword~
+A small book teaching the chinese longsword technique is here.~
+~
+5 0 1|16384
+0 1 82 1
+4 10000 10000
+
+#12794
+ring white lotus chambers~
+ring of the 36 chambers~
+A ring of the 36 chambers of the White Lotus is here.~
+~
+9 1|2|64|128|256|4096 1|2
+20 0 0 0
+2 10000 10000
+A
+1 1
+A
+2 1
+A
+3 1
+A
+4 1
+A
+5 1
+A
+12 300
+A
+13 100
+A
+14 200
+A
+18 1
+A
+19 1
+A
+20 -1
+A
+21 -1
+A
+22 -1
+A
+23 -3
+A
+24 -2
+
+#12795
+Cell door key prison~
+cell door key~
+A small shiney silver key is sitting on the ground here.~
+~
+18 0 1|16384
+0 0 0 0
+1 10000 10000
+#0
+
+
+
+
+
+
+
+
+
+
+
+#ROOMS
+#10701
+Gateway to Temple~
+You stand before the grand gateway to the Temple of the White Lotus Clan.
+Twin snow white and golden dragons decorate the black steel gates of the 
+entrance.
+A small path winds down the mountain to the east.
+The black steel gates are to the south.
+~
+107 0 1
+D1
+A small path winds off down the mountain to the forest below.
+~
+forest~
+0 -1 10018
+D2
+You see the black steel gates of the White lotus
+~
+gate gates black steel~
+1 -1 10702
+S
+
+#10702
+Path in Courtyard~
+The path is made of large flat stones. Beautiful stone gardens fill these large
+courtyard. In fact the only place to walk  where you will not destroy 
+something beautiful is on this path. The sky above you is unusually 
+blue with puffy white clouds. Everything is tranquil and harmonious.
+~
+107 0 1
+D0
+You see the black steel gates of the White lotus
+~
+gate gates black steel~
+1 -1 10701
+D2
+You see large stone steps that climb up to the temple.
+~
+steps~
+0 -1 10703
+S
+
+#10703
+Stone Steps~
+Large roughly carved stone steps lead up to the temple. The look like
+quite a climb. More stone gardens and small shrubs like the stone steps.
+From this far below the Temple, it seems to tower over you with its
+wooden beams seemingly stretching out to the heavens.
+~
+107 0 1
+D0
+You see a path that winds through the courtyard.
+~
+path~
+0 -1 10702
+D2
+You see stone steps ascending the mountain.
+~
+steps~
+0 -1 10704
+S
+
+#10704
+Stone Steps~
+Large roughly carved stone steps lead up to the temple. You are about
+half way to the temple. This climb seems almost endless. Small lizards
+occasionally scamper across the stones before you. The wind seems to
+be a bit more brisk as you climb higher towards the temple.
+~
+107 0 1
+D0
+You see stone steps descending the mountain.
+~
+steps~
+0 -1 10703
+D2
+You see the Temple of the White Lotus Clan.
+~
+Temple~
+0 -1 10705
+S
+
+#10705
+Before the Temple of the White Lotus Clan~
+You stand at the top of a steep stone staircase that connects the temple
+to the valley below. The temples wooden structure seem in harmony
+with the bare rock face that it sits on top of. Before you a short wooden
+stair leads up to the entry doors of the temple. The whole building is
+an ancient Chinese architecture style. Wood beams and black slate tiles
+hang over the well polished wooden deck that lead around the temple.
+The large red double doors of the Temple are to the South.
+A steep stone staircase leads down the mountain to the North.
+~
+107 0 1
+D0
+You see stone steps descending the mountain.
+~
+steps~
+0 -1 10704
+D2
+You see wooden steps leading up to the temple doors.
+~
+steps~
+0 -1 10706
+S
+
+#10706
+Temple Doors~
+Two large red double doors stand before you. The red wood of the doors
+are bound by black iron braces. Twin white and golden dragons adorn
+the doors. Two halves of a white lotus come together as the door closes
+to make the single white flower of the clan. Well polished wooden
+decks lead off to the east and west.
+~
+107 0 1
+D0
+You see stone steps descending the mountain.
+~
+steps~
+0 -1 10705
+D1
+You see the wooden deck that leads around the temple.
+~
+~
+0 -1 10725
+D2
+You see the Temple doors.
+~
+door doors~
+1 -1 10807
+D3
+You see the wooden deck that leads around the temple.
+~
+~
+0 -1 10707
+S
+
+#10707
+Walkway Around Temple~
+A polished wooden walkway leads around the temple. You pause to lean
+against the railing and admire the view from this mountain top. Far below
+you see Crystalmir lake, glimmering faintly.  To the northwest you see a
+large wooden building that connects to the walkway further to the west.
+The walkway continues to the east and west.
+~
+107 0 1
+D1
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10706
+D3
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10708
+S
+
+#10708
+Walkway Around Temple~
+A polished wooden walkway leads around the temple. Pretty pink and white
+flowers grown next to the railing. The temple wall to the south of you is
+decorated with the symbol of the white lotus.
+The walkway continues to the east and west.
+~
+107 0 1
+D1
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10707
+D3
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10709
+S
+
+#10709
+Walkway Around Temple~
+A polished wooden walkway leads around the temple. North of you is a
+large wooden building. The bustling noise of many people can be heard
+from within. 
+The Building is to the north.
+The walkway continues to the east and south.
+~
+107 0 1
+D0
+You see a large wooden building.
+~
+building~
+0 -1 10788
+D1
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10708
+D2
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10710
+S
+
+#10710
+Walkway Around Temple~
+A polished wooden walkway leads around the temple. To the North you
+see a large wooden building. As you look over the railing notice that the
+mountain drops sharply away. The shear wall of the mountain seems
+to disappear into the mists far below. 
+The walkway continues to the north and south.
+~
+107 0 1
+D0
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10709
+D2
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10711
+S
+
+#10711
+Walkway Around Temple~
+A polished wooden walkway leads around the temple. As you look over the 
+railing notice that the mountain drops sharply away. The shear wall of the 
+mountain seems to disappear into the mists far below. Screams of fighting
+are coming from the south.
+The walkway continues to the north and south.
+~
+107 0 1
+D0
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10710
+D2
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10712
+S
+
+#10712
+Walkway Around Temple~
+A polished wooden walkway leads around the temple. As you look over the 
+railing notice that the mountain drops sharply away. The shear wall of the 
+mountain seems to disappear into the mists far below. Screams of fighting
+are coming from the south.
+The walkway continues to the north and south.
+~
+107 0 1
+D0
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10711
+D2
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10713
+S
+
+#10713
+Walkway Around Temple~
+A polished wooden walkway leads around the temple. You look out
+across the temple training grounds to south. As you look out across
+the railing you can see the dark forest of Hoan-dor in the distance.
+The walkway continues to the north and east.
+~
+107 0 1
+D0
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10712
+D1
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10714
+S
+
+#10714
+Walkway Around Temple~
+A polished wooden walkway leads around the temple. You look out
+across the temple training grounds to south. 
+The walkway continues to the east and west.
+~
+107 0 1
+D1
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10715
+D3
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10713
+S
+
+#10715
+Walkway Around Temple~
+A polished wooden walkway leads around the temple. You look out
+across the temple training grounds to south. Farther to the east
+are a pair of large red doors and a stairway that leads to the grounds below.
+The walkway continues to the east and west.
+~
+107 0 1
+D1
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10716
+D3
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10714
+S
+
+#10716
+Temple Doors~
+Two large red double doors stand before you. The red wood of the doors
+are bound by black iron braces. Twin white and golden dragons adorn
+the doors. Two halves of a white lotus come together as the door closes
+to make the single white flower of the clan. 
+A wooden stairway to the south leads to the grounds below.
+Well polished wooden decks lead off to the east and west.
+~
+107 0 1
+D0
+You see the Temple doors.
+~
+door doors red~
+1 -1 10809
+D1
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10717
+D2
+You see a wooden stairway.
+~
+stairway~
+0 -1 10726
+D3
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10715
+S
+
+#10717
+Walkway Around Temple~
+A polished wooden walkway leads around the temple. As you look out
+across the railing to the south, you can see the temple arena area.
+Further to the west you see a pair of large red doors and a staircase
+that leads to the grounds below.  
+Well polished wooden decks lead off to the east and west.
+~
+107 0 1
+D1
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10718
+D3
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10716
+S
+
+#10718
+Walkway Around Temple~
+A polished wooden walkway leads around the temple. As you look out
+across the railing to the south, you can see the temple arena area.
+Well polished wooden decks lead off to the east and west.
+~
+107 0 1
+D1
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10719
+D3
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10717
+S
+
+#10719
+Walkway Around Temple~
+A polished wooden walkway leads around the temple. As you look out
+across the railing to the south, you can see the temple arena area.
+To the northeast you see a large garden.
+Well polished wooden decks lead off to the north and east.
+~
+107 0 1
+D0
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10720
+D3
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10718
+S
+
+#10720
+Walkway Around Temple~
+A polished wooden walkway leads around the temple. 
+To the northeast you see a large garden. Further to the north you see a
+staircase that descends to the garden below.
+Well polished wooden decks lead off to the north and south.
+~
+107 0 1
+D0
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10721
+D2
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10719
+S
+
+#10721
+Walkway Around Temple~
+A polished wooden walkway leads around the temple. 
+To the northeast you see a large garden. A wooden staircase leads down
+to a stone path to the east.
+Well polished wooden decks lead off to the north and south.
+~
+107 0 1
+D0
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10722
+D1
+You see a wooden stairway.
+~
+stairway~
+0 -1 10753
+D2
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10720
+S
+
+#10722
+Walkway Around Temple~
+A polished wooden walkway leads around the temple. 
+To the northeast you see a large garden. Further to the south you see a 
+wooden staircase that leads down to the garden below. As you look across
+the railing to the east you notice a couple small paths that wind around from
+the staircase and then disappear into the garden.
+Well polished wooden decks lead off to the north and south.
+~
+107 0 1
+D0
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10723
+D2
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10721
+S
+
+#10723
+Walkway Around Temple~
+A polished wooden walkway leads around the temple. 
+To the east you see a large garden. 
+Well polished wooden decks lead off to the west and south.
+~
+107 0 1
+D2
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10722
+D3
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10724
+S
+
+#10724
+Walkway Around Temple~
+A polished wooden walkway leads around the temple. 
+To the north you see a large garden. 
+Well polished wooden decks lead off to the east and west.
+~
+107 0 1
+D1
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10723
+D3
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10725
+S
+
+#10725
+Walkway Around Temple~
+A polished wooden walkway leads around the temple. 
+To the north you see a large garden. Further to the west you see a pair
+of large red doors and a stone stairway that leads down the mountain.
+Well polished wooden decks lead off to the east and west.
+~
+107 0 1
+D1
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10724
+D3
+You see a polished wooden walkway.
+~
+walkway~
+0 -1 10706
+S
+
+#10726
+Stone Path~
+This is a small stone and gravel path that winds though a beautiful rock
+garden. To either side of you are large patches of sculpted sand. To the
+north you see the Temple of the White Lotus Clan. Wooden steps lead
+up to a walkway. To the south you can hear the shouts of fighting.
+~
+107 0 1
+D0
+You see a polished wooden stairway.
+~
+stairway~
+0 -1 10716
+D2
+You see the practice yard.
+~
+yard~
+0 -1 10727
+S
+
+#10727
+Practice Yard~
+You stand in the practice yard of the temple. Various students are here
+practicing their kung fu. This is basically a large cement yard. Several
+higher monks are walking about the practice area correcting the students.
+To the north you see a stone path that winds through a beautiful rock garden
+and up to the temple. ~
+107 0 1
+D0
+You see a stone path.
+~
+path~
+0 -1 10726
+D1
+You see more of the practice yard.
+~
+yard~
+0 -1 10728
+D3
+You see more of the practice yard.
+~
+yard~
+0 -1 10734
+S
+
+#10728
+Practice Yard~
+You stand in the practice yard of the temple. Various students are here
+practicing their kung fu. This is basically a large cement yard. Several
+higher monks are walking about the practice area correcting the students.
+To the north and east, large stone buddhas look down apon you.
+ ~
+107 0 1
+D2
+You see more of the practice yard.
+~
+yard~
+0 -1 10729
+D3
+You see more of the practice yard.
+~
+yard~
+0 -1 10727
+S
+
+#10729
+Practice Yard~
+You stand in the practice yard of the temple. Various students are here
+practicing their kung fu. This is basically a large cement yard. Several
+higher monks are walking about the practice area correcting the students.
+To the east is a bamboo bridge.
+ ~
+107 0 1
+D1
+You see a bamboo bridge.
+~
+bridge.~
+0 -1 10743
+D2
+You see more of the practice yard.
+~
+yard~
+0 -1 10730
+D3
+You see more of the practice yard.
+~
+yard~
+0 -1 10735
+S
+
+#10730
+Practice Yard~
+You stand in the practice yard of the temple. Various students are here
+practicing their kung fu. This is basically a large cement yard. Several
+higher monks are walking about the practice area correcting the students.
+To the south and east of you is a dense bamboo forest.
+ ~
+107 0 1
+D0
+You see more of the practice yard.
+~
+yard~
+0 -1 10729
+D3
+You see more of the practice yard.
+~
+yard~
+0 -1 10731
+S
+
+#10731
+Practice Yard~
+You stand in the practice yard of the temple. Various students are here
+practicing their kung fu. This is basically a large cement yard. Several
+higher monks are walking about the practice area correcting the students.
+To the south of you is a dense bamboo forest.
+ ~
+107 0 1
+D0
+You see more of the practice yard.
+~
+yard~
+0 -1 10735
+D1
+You see more of the practice yard.
+~
+yard~
+0 -1 10730
+D3
+You see more of the practice yard.
+~
+yard~
+0 -1 10732
+S
+
+#10732
+Practice Yard~
+You stand in the practice yard of the temple. Various students are here
+practicing their kung fu. This is basically a large cement yard. Several
+higher monks are walking about the practice area correcting the students.
+To the south and west of you is a dense bamboo forest.
+ ~
+107 0 1
+D0
+You see more of the practice yard.
+~
+yard~
+0 -1 10733
+D1
+You see more of the practice yard.
+~
+yard~
+0 -1 10731
+S
+
+#10733
+Practice Yard~
+You stand in the practice yard of the temple. Various students are here
+practicing their kung fu. This is basically a large cement yard. Several
+higher monks are walking about the practice area correcting the students.
+ ~
+107 0 1
+D0
+You see more of the practice yard.
+~
+yard~
+0 -1 10734
+D1
+You see more of the practice yard.
+~
+yard~
+0 -1 10735
+D3
+You see a bamboo bridge.
+~
+bridge~
+0 -1 10736
+S
+
+#10734
+Practice Yard~
+You stand in the practice yard of the temple. Various students are here
+practicing their kung fu. This is basically a large cement yard. Several
+higher monks are walking about the practice area correcting the students.
+To the north and west of you is a beautiful pond and stream.
+ ~
+107 0 1
+D1
+You see more of the practice yard.
+~
+yard~
+0 -1 10727
+D2
+You see more of the practice yard.
+~
+yard~
+0 -1 10733
+S
+
+#10735
+Practice Yard~
+This is the very center of a large cement practice yard. This is where the
+students of the temple come to learn kung fu. On the ground here is a
+large white lotus engraved into the cement.
+ ~
+107 0 1
+D0
+You see more of the practice yard.
+~
+yard~
+0 -1 10727
+D1
+You see more of the practice yard.
+~
+yard~
+0 -1 10729
+D2
+You see more of the practice yard.
+~
+yard~
+0 -1 10731
+D3
+You see more of the practice yard.
+~
+yard~
+0 -1 10733
+S
+
+#10736
+Bamboo Bridge~
+This is a small bamboo bridge that cross a gurgling stream from the pond
+to the north. To the east you can hear the sounds of instructors yelling at
+the students. To the west are the training grounds of the temple.
+ ~
+107 0 1
+D1
+You see a large cement yard.
+~
+yard~
+0 -1 10733
+D3
+You see a whole lot of small ponds with bamboo poles.
+~
+yard~
+0 -1 10737
+S
+
+#10737
+Training yard~
+This area of the temple is filled with what look like small ponds. It is
+rumored that these 1000 ponds were made to represent the 1000 lakes
+of a mystical training grounds called Jyusenkyo. large bamboo poles
+are stuck in the middle of the ponds. Many students are training
+their combat skills and concentration.
+ ~
+107 0 1
+D0
+You see a whole lot of small ponds with bamboo poles.
+~
+yard~
+0 -1 10738
+D1
+You see a bamboo bridge.
+~
+bridge~
+0 -1 10736
+D2
+You see a whole lot of small ponds with bamboo poles.
+~
+yard~
+0 -1 10742
+D3
+You see a whole lot of small ponds with bamboo poles.
+~
+yard~
+0 -1 10740
+S
+
+#10738
+Training yard~
+This area of the temple is filled with what look like small ponds. It is
+rumored that these 1000 ponds were made to represent the 1000 lakes
+of a mystical training grounds called Jyusenkyo. large bamboo poles
+are stuck in the middle of the ponds. Many students are training
+their combat skills and concentration. To the north and east of you is
+a large pond with a stream that runs under a bridge to the southeast.
+ ~
+107 0 1
+D2
+You see a whole lot of small ponds with bamboo poles.
+~
+yard~
+0 -1 10737
+D3
+You see a whole lot of small ponds with bamboo poles.
+~
+yard~
+0 -1 10739
+S
+
+#10739
+Training yard~
+This area of the temple is filled with what look like small ponds. It is
+rumored that these 1000 ponds were made to represent the 1000 lakes
+of a mystical training grounds called Jyusenkyo. large bamboo poles
+are stuck in the middle of the ponds. Many students are training
+their combat skills and concentration. To the north and west of you is
+the edge of the mountain top. The sharp steep side of the mountain 
+disappears into the mists and forest below.
+ ~
+107 0 1
+D1
+You see a whole lot of small ponds with bamboo poles.
+~
+yard~
+0 -1 10738
+D2
+You see a whole lot of small ponds with bamboo poles.
+~
+yard~
+0 -1 10740
+S
+
+#10740
+Training yard~
+This area of the temple is filled with what look like small ponds. It is
+rumored that these 1000 ponds were made to represent the 1000 lakes
+of a mystical training grounds called Jyusenkyo. large bamboo poles
+are stuck in the middle of the ponds. Many students are training
+their combat skills and concentration. To the west of you is the edge of 
+the mountain top. The sharp steep side of the mountain  disappears into the 
+mists and forest below.
+ ~
+107 0 1
+D0
+You see a whole lot of small ponds with bamboo poles.
+~
+yard~
+0 -1 10739
+D1
+You see a whole lot of small ponds with bamboo poles.
+~
+yard~
+0 -1 10737
+D2
+You see a whole lot of small ponds with bamboo poles.
+~
+yard~
+0 -1 10741
+S
+
+#10741
+Training yard~
+This area of the temple is filled with what look like small ponds. It is
+rumored that these 1000 ponds were made to represent the 1000 lakes
+of a mystical training grounds called Jyusenkyo. large bamboo poles
+are stuck in the middle of the ponds. Many students are training
+their combat skills and concentration. To the west and south of you is the 
+edge of the mountain top. The sharp steep side of the mountain  disappears 
+into the mists and forest below.
+ ~
+107 0 1
+D0
+You see a whole lot of small ponds with bamboo poles.
+~
+yard~
+0 -1 10740
+D1
+You see a whole lot of small ponds with bamboo poles.
+~
+yard~
+0 -1 10742
+S
+
+#10742
+Training yard~
+This area of the temple is filled with what look like small ponds. It is
+rumored that these 1000 ponds were made to represent the 1000 lakes
+of a mystical training grounds called Jyusenkyo. large bamboo poles
+are stuck in the middle of the ponds. Many students are training
+their combat skills and concentration. To the south of you is the edge of the 
+mountain top. The sharp steep side of the mountain  disappears into the 
+mists and forest below.
+ ~
+107 0 1
+D0
+You see a whole lot of small ponds with bamboo poles.
+~
+yard~
+0 -1 10737
+D3
+You see a whole lot of small ponds with bamboo poles.
+~
+yard~
+0 -1 10741
+S
+
+#10743
+Bamboo Bridge~
+This is a small bamboo bridge that cross a gurgling stream from the pond
+to the north. To the west you can hear the sounds of instructors yelling at
+the students. To the east is the arena of the temple.
+ ~
+107 0 1
+D1
+You see a bamboo forest.
+~
+forest~
+0 -1 10744
+D3
+You see a large cement yard.
+~
+yard~
+0 -1 10729
+S
+
+#10744
+Arena~
+You are in the arena area of the temple. Here the temple monks come to
+practice their skill against others. The entire arena is a bamboo forest.
+Once in a while a master is known to visit this area to test the students.
+ ~
+107 0 1
+D0
+You see a bamboo forest.
+~
+forest~
+0 -1 10745
+D1
+You see a bamboo forest.
+~
+forest~
+0 -1 10752
+D2
+You see a bamboo forest.
+~
+forest~
+0 -1 10751
+D3
+You see a bamboo bridge.
+~
+bridge~
+0 -1 10743
+S
+
+#10745
+Arena~
+You are in the arena area of the temple. Here the temple monks come to
+practice their skill against others. The entire arena is a bamboo forest.
+Once in a while a master is known to visit this area to test the students.
+To the north and west of you are large stone buddhas.
+ ~
+107 0 1
+D1
+You see a bamboo forest.
+~
+forest~
+0 -1 10746
+D2
+You see a bamboo forest.
+~
+forest~
+0 -1 10744
+S
+
+#10746
+Arena~
+You are in the arena area of the temple. Here the temple monks come to
+practice their skill against others. The entire arena is a bamboo forest.
+Once in a while a master is known to visit this area to test the students.
+To the north of you the bamboo forest becomes too dense to allow
+passage.
+ ~
+107 0 1
+D1
+You see a bamboo forest.
+~
+forest~
+0 -1 10747
+D2
+You see a bamboo forest.
+~
+forest~
+0 -1 10752
+D3
+You see a bamboo forest.
+~
+forest~
+0 -1 10745
+S
+
+#10747
+Arena~
+You are in the arena area of the temple. Here the temple monks come to
+practice their skill against others. The entire arena is a bamboo forest.
+Once in a while a master is known to visit this area to test the students.
+To the north and east of you the bamboo forest becomes too dense to allow
+passage.
+ ~
+107 0 1
+D2
+You see a bamboo forest.
+~
+forest~
+0 -1 10748
+D3
+You see a bamboo forest.
+~
+forest~
+0 -1 10746
+S
+
+#10748
+Arena~
+You are in the arena area of the temple. Here the temple monks come to
+practice their skill against others. The entire arena is a bamboo forest.
+Once in a while a master is known to visit this area to test the students.
+To the east of you is the steep edge of the mountain. Far below you can
+see nothing but mists and forest.
+ ~
+107 0 1
+D0
+You see a bamboo forest.
+~
+forest~
+0 -1 10747
+D2
+You see a bamboo forest.
+~
+forest~
+0 -1 10749
+D3
+You see a bamboo forest.
+~
+forest~
+0 -1 10752
+S
+
+#10749
+Arena~
+You are in the arena area of the temple. Here the temple monks come to
+practice their skill against others. The entire arena is a bamboo forest.
+Once in a while a master is known to visit this area to test the students.
+To the south and east of you is the steep edge of the mountain. Far below 
+you can see nothing but mists and forest.
+ ~
+107 0 1
+D0
+You see a bamboo forest.
+~
+forest~
+0 -1 10748
+D3
+You see a bamboo forest.
+~
+forest~
+0 -1 10750
+S
+
+#10750
+Arena~
+You are in the arena area of the temple. Here the temple monks come to
+practice their skill against others. The entire arena is a bamboo forest.
+Once in a while a master is known to visit this area to test the students.
+To the south of you is the steep edge of the mountain. Far below you can 
+see nothing but mists and forest.
+ ~
+107 0 1
+D0
+You see a bamboo forest.
+~
+forest~
+0 -1 10752
+D1
+You see a bamboo forest.
+~
+forest~
+0 -1 10749
+D3
+You see a bamboo forest.
+~
+forest~
+0 -1 10751
+S
+
+#10751
+Arena~
+You are in the arena area of the temple. Here the temple monks come to
+practice their skill against others. The entire arena is a bamboo forest.
+Once in a while a master is known to visit this area to test the students.
+To the south of you is the steep edge of the mountain. Far below you can 
+see nothing but mists and forest. To the west the bamboo forest becomes
+to dense to allow passage.
+ ~
+107 0 1
+D0
+You see a bamboo forest.
+~
+forest~
+0 -1 10744
+D1
+You see a bamboo forest.
+~
+forest~
+0 -1 10750
+S
+
+#10752
+Arena~
+You stand in the center of the arena. All around you are the green poles of
+the bamboo forest. Every once in a while you catch a glimpse of a couple
+of monks fighting, and then they vanish into the bamboo.
+ ~
+107 0 1
+D0
+You see a bamboo forest.
+~
+forest~
+0 -1 10746
+D1
+You see a bamboo forest.
+~
+forest~
+0 -1 10748
+D2
+You see a bamboo forest.
+~
+forest~
+0 -1 10750
+D3
+You see a bamboo forest.
+~
+forest~
+0 -1 10744
+S
+
+#10753
+Stone Path~
+This is a small stone path that leads to the temple garden. It seems to wind
+around to the south and then back north as it disappears in to some very
+dense vegetation. To the west of you are the wooden steps that lead up to
+the temple.
+ ~
+107 0 1
+D2
+You see a stone path.
+~
+path~
+0 -1 10754
+D3
+You see some wooden steps.
+~
+steps~
+0 -1 10721
+S
+
+#10754
+Path of the Mantis~
+This is a small stone path that leads to the temple garden. It continues south
+and then winds back to the north before it disappears in to the thick garden
+area. The path is named after the famous Mantis style of the gardener
+Xiang Fung.
+ ~
+107 0 1
+D0
+You see a stone path.
+~
+path~
+0 -1 10753
+D2
+You see a stone path.
+~
+path~
+0 -1 10755
+S
+
+#10755
+Path of the Mantis~
+This is a small stone path that leads to the temple garden. It continues east
+and then winds back to the north before it disappears in to the thick garden
+area. Xiang Fung was once a the peaceful gardener of the temple. He was
+well known for his skill in the Mantis style of kung fu.
+ ~
+107 0 1
+D0
+You see a stone path.
+~
+path~
+0 -1 10754
+D1
+You see a stone path.
+~
+path~
+0 -1 10756
+S
+
+#10756
+Path of the Mantis~
+This is a small stone path that leads to the temple garden. The path continues
+to the north and west. To the north you can see the beautiful gardens of
+Xiang Fung.
+ ~
+107 0 1
+D0
+You see a stone path.
+~
+path~
+0 -1 10757
+D3
+You see a stone path.
+~
+path~
+0 -1 10755
+S
+
+#10757
+Path of the Mantis~
+This is a small stone path that leads to the temple garden. The path continues
+to the north and south. To the north you can see the beautiful gardens of
+Xiang Fung.
+ ~
+107 0 1
+D0
+You see a stone path.
+~
+path~
+0 -1 10758
+D2
+You see a stone path.
+~
+path~
+0 -1 10756
+S
+
+#10758
+Path of the Mantis~
+This is a small stone path that leads to the temple garden. This is the
+beginning of the gardens of Xiang Fung. He spent many hours here
+tending to every flower and shrub. The garden here is so dense that
+it blocks out the sky. Rays of light break through the canopy and
+light the pathway. The path continues to the north.
+ ~
+107 0 1
+D0
+You see a stone path.
+~
+path~
+0 -1 10759
+D2
+You see a stone path.
+~
+path~
+0 -1 10757
+S
+
+#10759
+Path of the Mantis~
+This is a small stone path that leads to the temple garden. The garden here 
+is so dense that it blocks out the sky. Rays of light break through the 
+canopy and light the pathway. Something seems to be wrong here. The 
+flowers seem to be wilted and and shrubs dying. From the outside this
+would appear to be a beautiful paradise of a garden. From the inside it
+is seems to be dying. Almost as if the very heart of the garden were
+poisoned. The path continues to the west.
+ ~
+107 0 1
+D2
+You see a stone path.
+~
+path~
+0 -1 10758
+D3
+You see a stone path.
+~
+path~
+0 -1 10760
+S
+
+#10760
+Path of the Mantis~
+This is a small stone path that leads to the temple garden. The garden here 
+is so dense that it blocks out the sky. Rays of light break through the 
+canopy and light the pathway. All of the flowers and other plants are dead.
+The smell of rotting vegetation and decay assaults your sense of smell.
+This is definitely not the beautiful gardens that Xiang Fung once labored
+so hard apon. Something new has taken over. 
+The path continues to the north and east.
+ ~
+107 0 1
+D0
+You see a stone path.
+~
+path~
+0 -1 10761
+D1
+You see a stone path.
+~
+path~
+0 -1 10759
+S
+
+#10761
+Garden of the 5 Deadly Venoms~
+As you enter this part of the garden you see a large clan symbol burned
+into the ground. You recognize it as the symbol of the Poison clan. There
+have been rumors that recently some of the poison clan has taken up 
+residence at the Temple. Now you know what has been killing the beautiful
+gardens. A path leads to the north and to the east.
+ ~
+107 0 1
+D0
+You see a dirt path.
+~
+path~
+0 -1 10787
+D1
+You see a dirt path.
+~
+path~
+0 -1 10762
+S
+
+#10762
+Garden Path~
+You walk on a small dirt path that winds through the now decaying garden.
+Every couple of feet a dead branch or shrubbery blocks the path. The 
+garden is a deadly quiet. The birds no longer sing, and the crickets no 
+longer chirp. This is definitely not the same garden that Xiang Fung left 
+so long ago.
+A path leads to the north and to the west.
+ ~
+107 0 1
+D0
+You see a dirt path.
+~
+path~
+0 -1 10763
+D3
+You see a dirt path.
+~
+path~
+0 -1 10761
+S
+
+#10763
+Garden Path~
+You walk on a small dirt path that winds through the now decaying garden.
+Every couple of feet a dead branch or shrubbery blocks the path. The 
+garden is a deadly quiet. The birds no longer sing, and the crickets no 
+longer chirp. This is definitely not the same garden that Xiang Fung left so 
+long ago. A gently breeze stirs the dry brown leaves that cover the soft dirt 
+beneath you.
+A path leads to the north and to the south.
+ ~
+107 0 1
+D0
+You see a dirt path.
+~
+path~
+0 -1 10764
+D2
+You see a dirt path.
+~
+path~
+0 -1 10762
+S
+
+#10764
+Garden Path~
+You come apon a split in the path. Many dead rosebushes almost obscure
+the western path. The putrid smell of rotting vegetation turns your
+stomach.
+A path leads to the north and to the south.
+ ~
+107 0 1
+D0
+You see a dirt path.
+~
+path~
+0 -1 10767
+D2
+You see a dirt path.
+~
+path~
+0 -1 10763
+D3
+You see an obscure path.
+~
+path~
+0 -1 10765
+S
+
+#10765
+Garden Path~
+This is an obcure path, almost hidden by death rosebushes. The canopy
+seems to be more dense here and the light barely seeps through the
+intertwined branches overhead.
+A path leads to the north and to the east.
+ ~
+107 0 1
+D0
+You see a dirt path.
+~
+path~
+0 -1 10766
+D1
+You see a dirt path.
+~
+path~
+0 -1 10764
+S
+
+#10766
+Training Room of the Snake~
+This room is filled with many different training devices. The stone walls
+are richly decorated with silver silk curtains and large silver statues
+of a coiled snake. Hung Wei Tung is the second pupil of the poison clan, 
+and expert of the snake technique. Hung Wei Tung was brought up by a 
+wealthy family and joined the Poison Clan just to learn a specialized Kung
+Fu. He has come to the garden to practice his techniques and as a guest to 
+the White Lotus Chief.
+The only exit is to the south.
+ ~
+107 0 1
+D2
+You see a dirt path.
+~
+path~
+0 -1 10765
+S
+
+#10767
+Garden Path~
+The vegetation here is a little better than that you have seen previously.
+It is still far from the beauty that Xiang Fung brought to the garden.
+Around you stand large green bamboo stalks, and rich beds of flowers.
+The path continues to the north and south.
+ ~
+107 0 1
+D0
+You see a dirt path.
+~
+path~
+0 -1 10768
+D2
+You see a dirt path.
+~
+path~
+0 -1 10764
+S
+
+#10768
+Garden Path~
+You walk on a small dirt path that winds through the now decaying garden.
+Every couple of feet a dead branch or shrubbery blocks the path.
+The path continues to the west and south.
+ ~
+107 0 1
+D2
+You see a dirt path.
+~
+path~
+0 -1 10767
+D3
+You see a dirt path.
+~
+path~
+0 -1 10769
+S
+
+#10769
+Garden Path~
+You walk on a small dirt path that winds through the now decaying garden.
+Every couple of feet a dead branch or shrubbery blocks the path.
+The path continues to the north and east.
+ ~
+107 0 1
+D0
+You see a dirt path.
+~
+path~
+0 -1 10770
+D1
+You see a dirt path.
+~
+path~
+0 -1 10768
+S
+
+#10770
+Garden Path~
+You walk on a small dirt path that winds through the now decaying garden.
+Every couple of feet a dead branch or shrubbery blocks the path.
+ ~
+107 0 1
+D1
+You see a dirt path.
+~
+path~
+0 -1 10771
+D2
+You see a dirt path.
+~
+path~
+0 -1 10769
+D3
+You see a dirt path.
+~
+path~
+0 -1 10772
+S
+
+#10771
+Training Room of the Lizard~
+You stand amidst a room filled with all sorts of walls. Many walls of stone,
+wood, and various other materials are propped up around the room. This
+is the training room of the Yeun Sun Ho, the fourth pupil of the Poison
+Clan. Yeun Sun Ho is the captain of the police in a distant village and has
+come to the garden at the request of the White Lotus Chief.
+The only exit is to the west.
+ ~
+107 0 1
+D3
+You see a dirt path.
+~
+path~
+0 -1 10770
+S
+
+#10772
+Garden Path~
+You are on the north end of the garden path. Through the thick brush to the
+north you see the sharp cliff of the mountain.
+The path continues to the east and west.
+ ~
+107 0 1
+D1
+You see a dirt path.
+~
+path~
+0 -1 10770
+D3
+You see a dirt path.
+~
+path~
+0 -1 10773
+S
+
+#10773
+Training Room of the Scorpion~
+This room is filled with large poles and other training devices. Here Ma
+Tang comes to train. Ma Tang is the third pupil of the Poison Clan and
+expert of the Scorpion technique. 
+The path continues to the east, south and west.
+ ~
+107 0 1
+D1
+You see a dirt path.
+~
+path~
+0 -1 10772
+D2
+You see a dirt path.
+~
+path~
+0 -1 10776
+D3
+You see a dirt path.
+~
+path~
+0 -1 10774
+S
+
+#10774
+Training Room of the Toad~
+This large stone room is filled with beds of nails and sharp poles. Large
+thick sheets of metal hang about the room. This is the training room of 
+Lee Ho, expert of the Toad technique and fifth pupil of the Poison Clan.
+The path continues to the east and south.
+ ~
+107 0 1
+D1
+You see a dirt path.
+~
+path~
+0 -1 10773
+D2
+You see a dirt path.
+~
+path~
+0 -1 10775
+S
+
+#10775
+Training Room of the Centipede~
+This room is almost devoid of any furniture or equipment. As you look up
+to the ceiling you notice many objects that look as though they can be 
+dropped hanging over you. This the training room of the first pupil of 
+the Poison Clan, Tang Seung Qwe. 
+The path continues to the east and north.
+ ~
+107 0 1
+D0
+You see a dirt path.
+~
+path~
+0 -1 10774
+D1
+You see a dirt path.
+~
+path~
+0 -1 10776
+S
+
+#10776
+Garden Path~
+You walk on a small dirt path that winds through the now decaying garden.
+Every couple of feet a dead branch or shrubbery blocks the path.
+The path continues to the north, east and west.
+ ~
+107 0 1
+D0
+You see a dirt path.
+~
+path~
+0 -1 10773
+D1
+You see a dirt path.
+~
+path~
+0 -1 10777
+D3
+You see a dirt path.
+~
+path~
+0 -1 10775
+S
+
+#10777
+Garden Path~
+You walk on a small dirt path that winds through the now decaying garden.
+Xiang Fung would be deeply saddened at the state of his garden if he knew.
+The path continues to the south and west.
+ ~
+107 0 1
+D2
+You see a dirt path.
+~
+path~
+0 -1 10778
+D3
+You see a dirt path.
+~
+path~
+0 -1 10776
+S
+
+#10778
+Garden Path~
+You walk on a small dirt path that winds through the now decaying garden.
+Multicolored dragonflies and other exotic insects buzz by you.
+The path continues to the north and west.
+ ~
+107 0 1
+D0
+You see a dirt path.
+~
+path~
+0 -1 10777
+D3
+You see a dirt path.
+~
+path~
+0 -1 10779
+S
+
+#10779
+Garden Path~
+You walk on a small dirt path that winds through the now decaying garden.
+The path continues to the east and west.
+ ~
+107 0 1
+D1
+You see a dirt path.
+~
+path~
+0 -1 10778
+D3
+You see a dirt path.
+~
+path~
+0 -1 10780
+S
+
+#10780
+Garden Path~
+You walk on a small dirt path that winds through the now decaying garden.
+The garden becomes to dense to pass to the west.
+The path continues to the south and east.
+ ~
+107 0 1
+D1
+You see a dirt path.
+~
+path~
+0 -1 10779
+D2
+You see a dirt path.
+~
+path~
+0 -1 10781
+S
+
+#10781
+Garden Path~
+You walk on a small dirt path that winds through the now decaying garden.
+The path continues to the south and north.
+ ~
+107 0 1
+D0
+You see a dirt path.
+~
+path~
+0 -1 10780
+D2
+You see a dirt path.
+~
+path~
+0 -1 10782
+S
+
+#10782
+Garden Path~
+This small path winds across a shallow pond. White lotus leaves float
+gently on the suface of the water. Dead branches and murky water
+contaminate the once pristine scene.
+The path continues to the north and east.
+ ~
+107 0 1
+D0
+You see a dirt path.
+~
+path~
+0 -1 10781
+D1
+You see a dirt path.
+~
+path~
+0 -1 10783
+S
+
+#10783
+Garden Path~
+This small path winds across a shallow pond. White lotus leaves float
+gently on the suface of the water. Here in the center of the pond the
+water seems to be cleaner as if out of reach of the encroaching poison.
+The path continues to the north and west.
+ ~
+107 0 1
+D0
+You see a dirt path.
+~
+path~
+0 -1 10784
+D3
+You see a dirt path.
+~
+path~
+0 -1 10782
+S
+
+#10784
+Garden Path~
+This small path winds across a shallow pond. White lotus leaves float
+gently on the suface of the water. Here in the center of the pond the
+water seems to be cleaner as if out of reach of the encroaching poison.
+The path continues to the east and south.
+ ~
+107 0 1
+D1
+You see a dirt path.
+~
+path~
+0 -1 10785
+D2
+You see a dirt path.
+~
+path~
+0 -1 10783
+S
+
+#10785
+Garden Path~
+This small path winds across a shallow pond. White lotus leaves float
+gently on the suface of the water. The water is murky and dark as if
+a poison of some sort has contaminated it.
+The path continues to the west and south.
+ ~
+107 0 1
+D2
+You see a dirt path.
+~
+path~
+0 -1 10786
+D3
+You see a dirt path.
+~
+path~
+0 -1 10784
+S
+
+#10786
+Garden Path~
+This is a small garden path. Decaying plants and dry brush clutters lay
+across the path. What once used to be Xiang Fungs paradise, is now
+nothing but overgrown weeds and dead plants.
+The path continues to the north and east.
+ ~
+107 0 1
+D0
+You see a dirt path.
+~
+path~
+0 -1 10785
+D1
+You see a dirt path.
+~
+path~
+0 -1 10787
+S
+
+#10787
+Garden Path~
+You walk on a small dirt path that winds through the now decaying garden.
+Every couple of feet a dead branch or shrubbery blocks the path. The 
+garden is a deadly quiet. The birds no longer sing, and the crickets no 
+longer chirp. This is definitely not the same garden that Xiang Fung left 
+so long ago.
+The path continues to the west and south.
+ ~
+107 0 1
+D2
+You see a dirt path.
+~
+path~
+0 -1 10761
+D3
+You see a dirt path.
+~
+path~
+0 -1 10786
+S
+
+#10788
+Wooden Hall~
+This is a long wooden hallway covered with the emblems of the White
+Lotus Clan. The smooth wooden floors are well polished and the sounds
+of conversation can be heard farther down the hall. The wooden walkway
+around the temple lies to the south.Prison cells lie to either side of you.
+The hall continues to the north.
+ ~
+107 8 0
+D0
+You see a long wooden hallway.
+~
+hall~
+0 -1 10791
+D1
+You see a prison cell.
+~
+cell bars~
+1 12795  10789
+D2
+You see wooden walkway.
+~
+walkway~
+0 -1 10709
+D3
+You see a prison cell bars.
+~
+cell bars~
+1 12795  10790
+S
+
+#10789
+Prison Cell~
+This is one of the cells used for detaining prisoners of the Clan. It is
+surprisingly clean for a prison cell. The cell is pretty much bare except for
+a small bench against the far wall.
+The only exit is to the west.
+ ~
+107 8 0
+D3
+You see a prison cell.
+~
+cell bars~
+1 12795 10788
+S
+
+#10790
+Prison Cell~
+This is one of the cells used for detaining prisoners of the Clan. It is
+surprisingly clean for a prison cell. The cell is pretty much bare except for
+a small bench against the far wall.
+The only exit is to the east.
+ ~
+107 8 0
+D1
+You see a prison cell bars.
+~
+cell bars~
+1 12795 10788
+S
+
+#10791
+Wooden Hall~
+This is a long wooden hallway covered with the emblems of the White
+Lotus Clan. The smooth wooden floors are well polished and the sounds
+of conversation can be heard farther down the hall. 
+The hall continues to the north and south.
+A prison cell lies to the west.
+A large noisy room lies to the east.
+ ~
+107 8 0
+D0
+You see a long wooden hall.
+~
+hall~
+0 -1 10794
+D1
+You see large room.
+~
+room~
+0 -1 10792
+D2
+You see a long wooden hall.
+~
+hall~
+0 -1 10788
+D3
+You see the bars of a prison cell.
+~
+cell bars~
+1 12795 10793
+S
+
+#10792
+Guard Room~
+You stand in the main guard station of the Clan. This very large room is
+littered with various tables and chairs. The guards spend most of their time
+here either gambling or drinking. Very few people have the courage or the 
+love of death to bother the White Lotus Clan.
+The only exit is to the hall to the west.
+ ~
+107 8 0
+D3
+You see a wooden hall.
+~
+hall~
+0 -1 10791
+S
+
+#10793
+Prison Cell~
+This is one of the cells used for detaining prisoners of the Clan. It is
+surprisingly clean for a prison cell. The cell is pretty much bare except for
+a small bench against the far wall.
+The only exit is to the east.
+ ~
+107 8 0
+D1
+You see a prison cell bars.
+~
+cell bars~
+1 12795  10791
+S
+
+#10794
+Wooden Hall~
+This is a long wooden hallway covered with the emblems of the White
+Lotus Clan. The smooth wooden floors are well polished and the sounds
+of conversation can be heard from either direction down the hall. The hall
+splits here and a smaller hall leads off to the east.
+The hall continues to the north,east and south.
+ ~
+107 8 0
+D0
+You see a long wooden hall.
+~
+hall~
+0 -1 10801
+D1
+You see a long wooden hall.
+~
+hall~
+0 -1 10796
+D2
+You see a long wooden hall.
+~
+hall~
+0 -1 10791
+D3
+You see a large room with benchs and barrels..
+~
+room~
+0 -1 10795
+S
+
+#10795
+Mess Hall~
+This is the Kitchen and mess hall for the guard building. Many long tables
+and benches are lined up in this room. Very large barrels that are filled with
+steamed rice sit at the end of every table.
+The only exit is the hall to the east.
+ ~
+107 8 0
+D1
+You see a long wooden hall.
+~
+hall~
+0 -1 10794
+S
+
+#10796
+Wooden Hall~
+This is a smaller hallway that splits off from the large main one. Small lotus
+leaves are carved into the walls. The wooden floors are also well polished,
+but appear to be less travelled than that of the main hallway.
+The hall continues to the east and west.
+ ~
+107 8 0
+D1
+You see a wooden hall.
+~
+hall~
+0 -1 10797
+D3
+You see a long wooden hall.
+~
+hall~
+0 -1 10794
+S
+
+#10797
+Wooden Hall~
+This is a smaller hallway that splits off from the large main one. Small lotus
+leaves are carved into the walls. The wooden floors are also well polished,
+but appear to be less travelled than that of the main hallway.
+The hall continues to the south and west.
+There is a room to the north.
+ ~
+107 8 0
+D0
+You see a room.
+~
+room~
+0 -1 10798
+D2
+You see a wooden hall.
+~
+hall~
+0 -1 10799
+S
+
+#10798
+Armoury~
+You stand in a room filled with many racks of weapons and armor. Most
+of the equipment is in good condition and all bear the symbol of the 
+White Lotus Clan.
+The only exit is to the south.
+ ~
+107 8 0
+D2
+You see a wooden hall.
+~
+hall~
+0 -1 10797
+S
+
+#10799
+Wooden Hall~
+You are in a wooden hall. Your footsteps echo lightly on the well polish
+floor. Grand pictures of dragons and temples are carved into the walls.
+Further to the south you see a large wooden door with a dragon head
+carved into it.
+The hall continues to the north.
+ ~
+107 8 0
+D0
+You see a wooden hall.
+~
+hall~
+0 -1 10797
+D2
+You see a large wooden door with a dragon head carved in it.
+~
+door wooden~
+1 -1 10800
+S
+
+#10800
+General's Office~
+This is the office of General Chow, head of the militia at the temple.
+He normally sits in his office, drinks wine and laughs alot. Most
+people are smart enough not to cause trouble at the temple. His office
+is decorated with beautiful vases and pots full of fine chinese wine.
+A large wooden door is to the north.
+ ~
+107 8 0
+D0
+You see a large wooden door with a dragon head carved in it.
+~
+door wooden~
+1 -1 10799
+S
+
+#10801
+Wooden Hall~
+You are in a large wooden hall that runs north south. Here there are various
+stories of dragons, wars and temples carved into the polished wooden walls.
+To the north and to the west you hear loud sounds of voices.
+The hall continues to the north and south.
+There are rooms to either side of you.
+ ~
+107 8 0
+D0
+You see a wooden hallway.
+~
+hall~
+0 -1 10804
+D1
+You see a room full of racks.
+~
+room~
+0 -1 10802
+D2
+You see a wooden hallway.
+~
+hall~
+0 -1 10794
+D3
+You see barracks.
+~
+room barracks.~
+0 -1 10803
+
+S
+
+#10802
+Weapons Room~
+This is a large room filled with weapons for the militia. Many different
+carvings depicting battles atop of the mountain at the temple of the White
+Lotus clan span the walls.
+The only exit is too the west.
+ ~
+107 8 0
+D3
+You see a wooden hallway.
+~
+hall~
+0 -1 10801
+S
+
+#10803
+Barracks~
+These are the barrack for the temple guard. Many beds and tables fill the
+room. This is where the militia spends most of its time, since few people
+ever are stupid enough to attack the temple and anger the White Lotus
+Chief.
+The only exit is too the east.
+ ~
+107 8 0
+D1
+You see a wooden hallway.
+~
+hall~
+0 -1 10801
+S
+
+#10804
+End of Long Wooden Hall~
+This is the end of a long wooden hallway. As you look to the south you
+see the entrance far down the hall. To the east and west come sounds of
+conversation and gambling.
+The hall continues to the south.
+There are rooms to the east and west.
+ ~
+107 8 0
+D1
+You see a room.
+~
+room~
+0 -1 10805
+D2
+You see a long wooden hall.
+~
+hall~
+0 -1 10801
+D3
+You see a room.
+~
+room~
+0 -1 10806
+S
+
+#10805
+Barracks~
+These are the barrack for the temple guard. Many beds and tables fill the
+room. This is where the militia spends most of its time, since few people
+ever are stupid enough to attack the temple and anger the White Lotus
+Chief.
+The only exit is too the west.
+ ~
+107 8 0
+D3
+You see a wooden hallway.
+~
+hall~
+0 -1 10804
+S
+
+#10806
+Barracks~
+These are the barrack for the temple guard. Many beds and tables fill the
+room. This is where the militia spends most of its time, since few people
+ever are stupid enough to attack the temple and anger the White Lotus
+Chief.
+The only exit is too the east.
+ ~
+107 8 0
+D1
+You see a wooden hallway.
+~
+hall~
+0 -1 10804
+S
+
+#10807
+Inside the Temple Doors~
+You stand in a grand hallway, decorated with many statues of Buddha.
+Golden dragons climb the wooden columns that reach up to the ceiling
+far above. The large white lotus emblem is embedded into the black
+marble floor of the hallway. A pair of red wood doors lie to the north
+The red wood of the doors are bound by black iron braces. Twin white 
+and golden dragons adorn the doors. Two halves of a white lotus come 
+together as the door closes to make the single white flower of the clan.
+The hall continues to the south.
+ ~
+107 8 0
+D0
+You see the Temple doors.
+~
+door doors red~
+1 -1 10706
+D2
+You see a large hallway.
+~
+hall hallway~
+0 -1 10808
+S
+
+#10808
+Hall of the Dragon~
+You stand in a grand hallway, decorated with many statues of Buddha.
+Golden dragons climb the wooden columns that reach up to the ceiling
+far above. To the west you can hear the sounds of chanting. The smell
+of incense fills the air. To the east is a stairway up and a dark hall.
+ ~
+107 8 0
+D0
+You see a large hallway.
+~
+hall hallway~
+0 -1 10807
+D1
+You see a stairway up and a dark hall
+~
+hall hallway stairway stair stairs~
+0 -1 10810
+D2
+You see a large hallway.
+~
+hall hallway~
+0 -1 10809
+D3
+You see a room full of incense smoke.
+~
+room smoke~
+0 -1 10816
+S
+
+#10809
+Inside the Temple Doors~
+You stand in a grand hallway, decorated with many statues of Buddha.
+Golden dragons climb the wooden columns that reach up to the ceiling
+far above. The large white lotus emblem is embedded into the black
+marble floor of the hallway. A pair of red wood doors lie to the south
+The red wood of the doors are bound by black iron braces. Twin white 
+and golden dragons adorn the doors. Two halves of a white lotus come 
+together as the door closes to make the single white flower of the clan.
+The hall continues to the north.
+ ~
+107 8 0
+D0
+You see a large hallway.
+~
+hall hallway~
+0 -1 10808
+D2
+You see the Temple doors.
+~
+door doors red~
+1 -1 10716
+S
+
+#10810
+Hall of the Dragon.~
+This is a very dark wooden hallway. Stairs lead up to the second floor from
+here. This hall is drastically different from that of the main hall. It has no
+carvings, no dragons, and basically has no decorations at all. the wooden
+paneled walls are adorn only with small candles.
+The hall continues to the north.
+A stairway here leads up to the second floor.
+The main hall is to the west.
+ ~
+107 8 0
+D0
+You see a hallway.
+~
+hall hallway~
+0 -1 10811
+D3
+You see a hallway.
+~
+hall hallway~
+0 -1 10808
+D4
+You see a flight of wooden stairs.
+~
+stairs wooden~
+0 -1 10822
+S
+
+#10811
+Hall of the Dragon.~
+This is a very dark wooden hallway. This hall is drastically different from 
+that of the main hall. It has no carvings, no dragons, and basically has no 
+decorations at all. the wooden paneled walls are adorn only with small candles.
+The hall continues to the east and south.
+ ~
+107 8 0
+D1
+You see a hallway.
+~
+hall hallway~
+0 -1 10812
+D2
+You see a hallway.
+~
+hall hallway~
+0 -1 10810
+S
+
+#10812
+Hall of the Dragon.~
+This is a very dark wooden hallway. This hall is drastically different from 
+that of the main hall. It has no carvings, no dragons, and basically has no 
+decorations at all. the wooden paneled walls are adorn only with small candles.
+The hall continues to the south and west.
+ ~
+107 8 0
+D2
+You see a hallway.
+~
+hall hallway~
+0 -1 10813
+D3
+You see a hallway.
+~
+hall hallway~
+0 -1 10811
+S
+
+#10813
+Hall of the Dragon.~
+This is a very dark wooden hallway. This hall is drastically different from 
+that of the main hall. It has no carvings, no dragons, and basically has no 
+decorations at all. the wooden paneled walls are adorn only with small candles.
+The hall continues to the north and south.
+ ~
+107 8 0
+D0
+You see a hallway.
+~
+hall hallway~
+0 -1 10812
+D2
+You see a hallway.
+~
+hall hallway~
+0 -1 10814
+S
+
+#10814
+Hall of the Dragon.~
+This is a very dark wooden hallway. This hall is drastically different from 
+that of the main hall. It has no carvings, no dragons, and basically has no 
+decorations at all. the wooden paneled walls are adorn only with small candles.
+The hall continues to the north and west.
+ ~
+107 8 0
+D0
+You see a hallway.
+~
+hall hallway~
+0 -1 10813
+D3
+You see a hallway.
+~
+hall hallway~
+0 -1 10815
+S
+
+#10815
+Hall of the Dragon.~
+This is a very dark wooden hallway. This hall is drastically different from 
+that of the main hall. It has no carvings, no dragons, and basically has no 
+decorations at all. the wooden paneled walls are adorn only with small candles.
+You see here a large wooden arch. The arch is covered with different chinese
+characters depicting the 36 basic styles of the clan.
+The hall continues to the east.
+You see a large stone steps that lead down into the darkness.
+ ~
+107 8 0
+D1
+You see a hallway.
+~
+hall hallway~
+0 -1 10814
+D5
+You see stone steps leading down in to the darkness.
+~
+steps darkeness~
+0 -1 10837
+S
+
+#10816
+Temple~
+The temple is filled with incense smoke and the resonant sounds of many
+monks chanting. The chanting seems to almost have a life of its own as it
+can be felt even through the hard granite below you. There are red candles
+and incense burners along the wall and on small pedestals around the room.
+ ~
+107 8 0
+D0
+You can't see much through the haze of incense smoke.
+~
+~
+0 -1 10821
+D1
+You can't see much through the haze of incense smoke.
+~
+~
+0 -1 10808
+D2
+You can't see much through the haze of incense smoke.
+~
+~
+0 -1 10817
+D3
+You can't see much through the haze of incense smoke.
+~
+~
+0 -1 10819
+S
+
+#10817
+Southern end of the Temple~
+Around you are many monks chanting and praying. Tall wooden pillars
+disappear in the haze above you. The constant and monotonous tapping of 
+a some wooden object rattles your brain and seems to be almost hypnotizing.
+The temple is filled with incense smoke and the resonant sounds of many
+monks chanting. The chanting seems to almost have a life of its own as it
+can be felt even through the hard granite below you. There are red candles
+and incense burners along the wall and on small pedestals around the room.
+ ~
+107 8 0
+D0
+You can't see much through the haze of incense smoke.
+~
+~
+0 -1 10816
+D3
+You can't see much through the haze of incense smoke.
+~
+~
+0 -1 10818
+S
+
+#10818
+Golden Buddha of Contentment~
+Before you stands a giant golden statue of a buddha. This is the Buddha
+of Contentment. Many red candles surround the statue's base and all around
+the floor. Many offerings of oranges and rice cakes sit in front of the statue.
+
+ ~
+107 8 0
+D0
+You can't see much through the haze of incense smoke.
+~
+~
+0 -1 10819
+D1
+You can't see much through the haze of incense smoke.
+~
+~
+0 -1 10817
+S
+
+#10819
+Golden Buddha of Wisdom~
+Before you stands a giant golden statue of a buddha. This is the Buddha
+of Wisdom. Many monks come here to pray for enlightenment to a problem
+or a decision. Many red candles surround the statue's base and all around
+the floor. Many offerings of oranges and rice cakes sit in front of the statue.
+
+ ~
+107 8 0
+D0
+You can't see much through the haze of incense smoke.
+~
+~
+0 -1 10820
+D1
+You can't see much through the haze of incense smoke.
+~
+~
+0 -1 10816
+D2
+You can't see much through the haze of incense smoke.
+~
+~
+0 -1 10818
+S
+
+#10820
+Golden Buddha of Enlightenment~
+Before you stands a giant golden statue of a buddha. This is the Buddha
+of Wisdom. The chanting here seems to be the loudest. The constant
+sounding of a gold and the tapping of a hollow wooden ball drowned
+out any other sound that you might hear. The monks chanting is rythmic
+and a deep monotone buzz. Any individual voice almost undistinguishable
+from the others.Many red candles surround the statue's base and all around
+the floor. Many offerings of oranges and rice cakes sit in front of the statue.
+
+ ~
+107 8 0
+D1
+You can't see much through the haze of incense smoke.
+~
+~
+0 -1 10821
+D2
+You can't see much through the haze of incense smoke.
+~
+~
+0 -1 10819
+S
+
+#10821
+Northern end of the Temple~
+Around you are many monks chanting and praying. Tall wooden pillars
+disappear in the haze above you. The constant and monotonous tapping of 
+a some wooden object rattles your brain and seems to be almost hypnotizing.
+The temple is filled with incense smoke and the resonant sounds of many
+monks chanting. The chanting seems to almost have a life of its own as it
+can be felt even through the hard granite below you. There are red candles
+and incense burners along the wall and on small pedestals around the room.
+ ~
+107 8 0
+D2
+You can't see much through the haze of incense smoke.
+~
+~
+0 -1 10816
+D3
+You can't see much through the haze of incense smoke.
+~
+~
+0 -1 10820
+S
+
+#10822
+Top of the Stairs~
+You stand at the top of a flight of wooden stairs. Loud chanting and murmurs
+can be heard from downstairs. These halls seem to be more lavishly furnished
+than the ones below. The walls are covered with gold and silver dragons and
+small tables with ancient vases line the hall.
+There is a stairway that descends to the temple below.
+The hall leads off to the east.
+ ~
+107 8 0
+D1
+You see a hallway.
+~
+~
+0 -1 10823
+D4
+You see a wooden stairway descending to the temple below.
+~
+~
+0 -1 10810
+S
+
+#10823
+2nd floor hallway~
+You are in a lavishly furnish hallway. The walls are covered with gold and 
+silver dragons and small tables with ancient vases line the hall.
+Brightly color red lanterns hang from the ceiling, flickering gently as the
+candles inside of them burn slowly away.
+The hall continues to the north and west.
+To the west you can see a wooden stairway leading down.
+ ~
+107 8 0
+D0
+You see a hallway.
+~
+~
+0 -1 10824
+D3
+You see a hallway.
+~
+~
+0 -1 10822
+S
+
+#10824
+2nd floor hallway~
+You are in a lavishly furnish hallway. The walls are covered with gold and 
+silver dragons and small tables with ancient vases line the hall.
+Brightly color red lanterns hang from the ceiling, flickering gently as the
+candles inside of them burn slowly away.
+The hall continues to the north and south.
+ ~
+107 8 0
+D0
+You see a hallway.
+~
+~
+0 -1 10825
+D2
+You see a hallway.
+~
+~
+0 -1 10823
+S
+
+#10825
+2nd floor hallway~
+You are in a lavishly furnish hallway. The walls are covered with gold and 
+silver dragons and small tables with ancient vases line the hall.
+Brightly color red lanterns hang from the ceiling, flickering gently as the
+candles inside of them burn slowly away.
+The hall continues to the north and south.
+ ~
+107 8 0
+D2
+You see a hallway.
+~
+~
+0 -1 10824
+D3
+You see a hallway.
+~
+~
+0 -1 10826
+S
+
+#10826
+2nd floor hallway~
+You are in a lavishly furnish hallway. The walls are covered with gold and 
+silver dragons and small tables with ancient vases line the hall.
+Brightly color red lanterns hang from the ceiling, flickering gently as the
+candles inside of them burn slowly away.
+The hall continues to the east and south.
+ ~
+107 8 0
+D1
+You see a hallway.
+~
+~
+0 -1 10825
+D2
+You see a hallway.
+~
+~
+0 -1 10827
+S
+
+#10827
+2nd floor hallway~
+You are in a lavishly furnish hallway. The walls are covered with gold and 
+silver dragons and small tables with ancient vases line the hall.
+Brightly color red lanterns hang from the ceiling, flickering gently as the
+candles inside of them burn slowly away.
+The hall continues to the north and west.
+ ~
+107 8 0
+D0
+You see a hallway.
+~
+~
+0 -1 10826
+D3
+You see a hallway.
+~
+~
+0 -1 10828
+S
+
+#10828
+Rooms of the White Lotus Chief~
+These are the rooms of the White Lotus Chief. He is often meditating or 
+reading. He does not like to be disturbed. This room is furnished with 
+the occasional chair or table. Although not poor looking, it isn't furnished
+with much. It is basically an entry for the other rooms.
+The hall continues to the east.
+There are rooms to the north, south and west.
+ ~
+107 8 0
+D0
+You see a  guest room.
+~
+~
+0 -1 10830
+D1
+You see a hallway.
+~
+~
+0 -1 10827
+D2
+You see a guest room.
+~
+~
+0 -1 10829
+D3
+You see the meditation room of the White Lotus Chief.
+~
+~
+0 -1 10831
+S
+
+#10829
+Guest Room~
+This is where the personal guests of the White Lotus Chief stay. The room
+is nicely done, with bamboo walls and a wooden floor. A luxurious bed
+with silk sheets and pillows stands against the far wall.
+The only exit is to the north.
+ ~
+107 8 0
+D0
+You see a hallway.
+~
+~
+0 -1 10828
+S
+
+#10830
+Room of Wei Chin~
+This is the room of Wei Chin, the nephew of the White Lotus Chief.
+He is here to serve his uncle and practice his kung fu. His room looks
+very much unlived in. Wei Chin is usually out traveling and looking
+over the towns that the Lotus clan controls.
+The only exit is to the south.
+ ~
+107 8 0
+D2
+You see a hallway.
+~
+~
+0 -1 10828
+S
+
+#10831
+Meditation Chamber~
+This room is filled with long scrolls that hang on the walls. The scrolls 
+recite many teachings of Buddha. Small incense burners sit in each corner
+of the room. A small knee high table stands in the middle of the room. The
+White Lotus Chief often comes here to pray and meditate. Except for the 
+the day of the Dragon Boat festival, on that day he relaxes and spends his
+day in the steaming pool.
+There are exits in all directions.
+ ~
+107 8 0
+D0
+You see a shrine in the room to the north.
+~
+~
+0 -1 10834
+D1
+You see the entrance chamber.
+~
+~
+0 -1 10828
+D2
+You see a room full of books.
+~
+~
+0 -1 10832
+D3
+You see a room.
+~
+~
+0 -1 10836
+S
+
+#10832
+Library~
+You stand amidst many rows of shelves. The shelves tower above you and
+are full of texts from many different areas of the world.
+The only exit is to the north.
+ ~
+107 8 0
+D0
+You see a shrine in the room to the north.
+~
+~
+0 -1 10831
+D3
+~
+bookcase~
+0 -1 10833
+S
+
+#10833
+Hidden Room~
+This is a secret room hidden behind one of the bookshelfs. This is where
+many special books and scrolls are kept.the room is lit by a dim lightsource
+that is out of sight up above.
+The only exit is to the east.
+ ~
+107 8 0
+D1
+~
+bookcase~
+0 -1 10832
+S
+
+#10834
+Shrine~
+This is the private shrine of the White Lotus Chief. He spends many hours
+every day here praying and studying. The room is pretty much bare with
+the exception of a large shrine, decorated with golden buddhas and many
+offerings.
+There are exits to the south and west.
+ ~
+107 8 0
+D2
+~
+~
+0 -1 10831
+D3
+~
+~
+0 -1 10835
+S
+
+#10835
+Steaming Pool~
+This is a very large steaming pool. The White Lotus Chief comes here 
+during dragon boat festival to relax. Numerous stone dragon heads spit
+steaming streams into the pool. 
+There are exits to the south and east.
+ ~
+107 8 0
+D1
+~
+~
+0 -1 10834
+D2
+~
+~
+0 -1 10836
+S
+
+#10836
+Chamber of the White Lotus Chief~
+This is the lavishly furnished bedroom of the White Lotus Chief. The few
+hours of the day that he is not meditating nor studying, he is here sleeping.
+Many ancient and beautiful vases adorn the corners of the room. 
+There are exits to the north and east.
+ ~
+107 8 0
+D0
+~
+~
+0 -1 10835
+D1
+~
+~
+1 -1 10831
+S
+
+#10837
+Entrance to the 36 Chambers~
+This cold stone room is complete bare except for a door on the east wall.
+This is the entrance to the 36 Chambers of the White Lotus. It is here that
+the higher monks and students come to test their skills. The stairway seems
+to have disappeared behind you.
+The only exit is to the east.
+ ~
+107 8 0
+D1
+~
+~
+2 12726 10838
+S
+
+#10838
+1st Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the east wall.
+It is here that the higher monks and students come to test their skills. This
+is the first chamber. It is a basic skill chamber where students test thier
+skill at punches.
+The only exit is to the east.
+ ~
+107 8|512 0
+D1
+~
+~
+2 12727 10839
+S
+
+#10839
+2nd Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the east wall.
+It is here that the higher monks and students come to test their skills. This
+is the second chamber. It is a basic skill chamber where students test thier
+skill at kicks.
+The only exit is to the east.
+ ~
+107 8|512 0
+D1
+~
+~
+2 12728 10840
+S
+
+#10840
+3rd Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the east wall.
+It is here that the higher monks and students come to test their skills. This is
+the chamber of the Whirlwind Kick technique. It is a a more difficult 
+chamber than the two previous ones. From here on, your skills are tested 
+against the masters of the temple.
+And to lose from this chamber on..is to lose ones life....
+The only exit is to the east.
+ ~
+107 8|512 0
+D1
+~
+~
+2 12729 10841
+S
+
+#10841
+4th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the east wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Chin Kang Palm technique.
+The only exit is to the east.
+ ~
+107 8|512 0
+D1
+~
+~
+2 12731 10842
+S
+
+#10842
+5th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the east wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Lizard style.
+The only exit is to the east.
+ ~
+107 8|512 0
+D1
+~
+~
+2 12733 10843
+S
+
+#10843
+6th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the south wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Northern Crane style.
+The only exit is to the south.
+ ~
+107 8|512 0
+D2
+~
+~
+2 12735 10844
+S
+
+#10844
+7th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the west wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Dragon style.
+The only exit is to the west.
+ ~
+107 8|512 0
+D3
+~
+~
+2 12737 10845
+S
+
+#10845
+8th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the east wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Tiger style.
+The only exit is to the west.
+ ~
+107 8|512 0
+D3
+~
+~
+2 12739 10846
+S
+
+#10846
+9th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the west wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Scorpion style.
+The only exit is to the west.
+ ~
+107 8|512 0
+D3
+~
+~
+2 12741 10847
+S
+
+#10847
+10th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the west wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Snake style.
+The only exit is to the west.
+ ~
+107 8|512 0
+D3
+~
+~
+2 12743 10848
+S
+
+#10848
+11th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the west wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Centipede style.
+The only exit is to the west.
+ ~
+107 8|512 0
+D3
+~
+~
+2 12745 10849
+S
+
+#10849
+12th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the south wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Toad style.
+The only exit is to the south.
+ ~
+107 8|512 0
+D2
+~
+~
+2 12747 10850
+S
+
+#10850
+13th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the east wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Iron Monk style.
+The only exit is to the east.
+ ~
+107 8|512 0
+D1
+~
+~
+2 12749 10851
+S
+
+#10851
+14th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the east wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Iron head technique.
+The only exit is to the east.
+ ~
+107 8|512 0
+D1
+~
+~
+2 12751 10852
+S
+
+#10852
+15th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the east wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Southern Hawk style.
+The only exit is to the east.
+ ~
+107 8|512 0
+D1
+~
+~
+2 12753 10853
+S
+
+#10853
+16th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the east wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Quivering Palm technique.
+The only exit is to the east.
+ ~
+107 8|512 0
+D1
+~
+~
+2 12755 10854
+S
+
+#10854
+17th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the east wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Five Pace Palm style.
+The only exit is to the east.
+ ~
+107 8|512 0
+D1
+~
+~
+2 12757 10855
+S
+
+#10855
+18th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the south wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Chamber of mediation. This room is a room to rest
+and consider what you have accomplished. You are half way to the end
+of the chambers. No one has every completed all 36 chambers.....
+The only exit is to the south.
+ ~
+107 8|512 0
+D2
+~
+~
+2 12789 10856
+S
+
+#10856
+19th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the west wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Weightless Boxing Style. 
+The only exit is to the west.
+ ~
+107 8|512 0
+D3
+~
+~
+2 12759 10857
+S
+
+#10857
+20th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the west wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Lightning Punch. 
+The only exit is to the west.
+ ~
+107 8|512 0
+D3
+~
+~
+2 12760 10858
+S
+
+#10858
+21st Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the west wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Poison touch. 
+The only exit is to the west.
+ ~
+107 8|512 0
+D3
+~
+~
+2 12761 10859
+S
+
+#10859
+22nd Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the west wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Shaolin Long Sword. 
+The only exit is to the west.
+ ~
+107 8|512 0
+D3
+~
+~
+2 12763 10860
+S
+
+#10860
+23rd Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the west wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Shaolin Butterfly Swords. 
+The only exit is to the west.
+ ~
+107 8|512 0
+D3
+~
+~
+2 12765 10861
+S
+
+#10861
+24th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the south wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Shaolin Long Spear. 
+The only exit is to the south.
+ ~
+107 8|512 0
+D2
+~
+~
+2 12769 10862
+S
+
+#10862
+25th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the east wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Deadly Palm technique. 
+The only exit is to the east.
+ ~
+107 8|512 0
+D1
+~
+~
+2 12771 10863
+S
+
+#10863
+26th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the east wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Flying Buddha. 
+The only exit is to the east.
+ ~
+107 8|512 0
+D1
+~
+~
+2 12773 10864
+S
+
+#10864
+27th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the east wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the Angry Buddha. 
+The only exit is to the east.
+ ~
+107 8|512 0
+D1
+~
+~
+2 12775 10865
+S
+
+#10865
+28th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the east wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the 1st Master. 
+The only exit is to the east.
+ ~
+107 8|512 0
+D1
+~
+~
+2 12777 10866
+S
+
+#10866
+29th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the east wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the 2nd Master. 
+The only exit is to the east.
+ ~
+107 8|512 0
+D1
+~
+~
+2 12779 10867
+S
+
+#10867
+30th Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the south wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the 3rd Master. 
+The only exit is to the south.
+ ~
+107 8|512 0
+D2
+~
+~
+2 12780 10868
+S
+
+#10868
+31st Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the west wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the 4th Master. 
+The only exit is to the west.
+ ~
+107 8|512 0
+D3
+~
+~
+2 12781 10869
+S
+
+#10869
+32nd Chamber of the White Lotus~
+This cold stone room is complete bare except for a door on the west wall.
+It is here that the higher monks and students come to test their skills. This
+is the chamber of the 5th Master. 
+The only exit is to the west.
+ ~
+107 8|512 0
+D3
+~
+~
+2 12782 10870
+S
+
+#10870
+33rd Chamber of the White Lotus~
+This is the chamber of the Abbot of the White Lotus Clan. If you have reached
+this room you are indeed an excellent fighter. The Abbot comes here
+periodically when there is a student that is proficient enought with their skills.
+The only exit is to the west.
+ ~
+107 8|512 0
+D3
+~
+~
+2 12783 10871
+S
+
+#10871
+34th Chamber of the White Lotus~
+You are indeed and expert! This is the 34th Chamber of the White Lotus
+Clan. Very few people have the stamina or skill to make it here.
+The Grand Abbot of the the Temple awaits you. He is here as the last
+test of your skills before you move on to the 36th Chamber.
+The only exit is to the west.
+ ~
+107 8|512 0
+D3
+~
+~
+2 12784 10872
+S
+
+#10872
+35th Chamber of the White Lotus~
+This is a room of meditation and rest. You may drink deeply from the fountain
+and eat to fill your body. Ahead is the 36th chamber. From there you will have
+graduated from the Temple and sent out to explore the lands. Know well that
+the last chamber will truely test your skills and stamina. Focus your mind, and
+rest your body......and may you be enlightened....
+The only exit is to the west.
+ ~
+107 8|512 0
+D3
+~
+~
+2 12785 10873
+S
+
+#10873
+36th Chamber of the White Lotus~
+This is the 36th Chamber of the White Lotus Clan. It is the ultimate test of 
+one's abilities. If you survive you will surely be blessed by Buddha...
+ ~
+107 8|512 0
+S
+
+#0
+
+
+
+#RESETS
+*
+D 0 10701 2 1                Close Gates to Temple Outside
+D 0 10702 0 1                Close Gates to Temple Inside
+*
+D 0 10706 2 1                Close North temple doors from Outside
+D 0 10807 0 1                Close North temple doors from Inside
+*
+D 0 10809 2 1                Close North temple doors from Inside
+D 0 10716 0 1                Close North temple doors from Outside
+*
+D 0 10790 1 2                Close Cell doors from Inside
+D 0 10788 3 2                Close Cell  doors from Outside
+*
+D 0 10789 3 2                Close Cell doors from Inside
+D 0 10788 1 2                Close Cell  doors from Outside
+*
+D 0 10793 1 2                Close Cell doors from Inside
+D 0 10791 3 2                Close Cell  doors from Outside
+*
+D 0 10800 0 1                Close General Chao's doors from Inside
+D 0 10799 2 1                Close General Chao's  doors from Outside
+*
+D 0 10837 1 2                Close 1st chamber door from Outside
+*
+D 0 10838 1 2                Close 2nd chamber doors from Outside
+*
+D 0 10839 1 2                Close 3rd chamber doors from Outside
+*
+D 0 10840 1 2                Close 4th chamber doors from Outside
+*
+D 0 10841 1 2                Close 5th chamber doors from Outside
+*
+D 0 10842 1 2                Close 6th chamber doors from Outside
+*
+D 0 10843 2 2                Close 7th chamber doors from Outside
+*
+D 0 10844 3 2                Close 8th chamber doors from Outside
+*
+D 0 10845 3 2                Close 9th chamber doors from Outside
+*
+D 0 10846 3 2                Close 10th chamber doors from Outside
+*
+D 0 10847 3 2                Close 11th chamber doors from Outside
+*
+D 0 10848 3 2                Close 12th chamber doors from Outside
+*
+D 0 10849 2 2                Close 13th chamber doors from Outside
+*
+D 0 10850 1 2                Close 14th chamber doors from Outside
+*
+D 0 10851 1 2                Close 15th chamber doors from Outside
+*
+D 0 10852 1 2                Close 16th chamber doors from Outside
+*
+D 0 10853 1 2                Close 17th chamber doors from Outside
+*
+D 0 10854 1 2                Close 18th chamber doors from Outside
+*
+D 0 10855 2 2                Close 19th chamber doors from Outside
+*
+D 0 10856 3 2                Close 20th chamber doors from Outside
+*
+D 0 10857 3 2                Close 21th chamber doors from Outside
+*
+D 0 10858 3 2                Close 22th chamber doors from Outside
+*
+D 0 10859 3 2                Close 23th chamber doors from Outside
+*
+D 0 10860 3 2                Close 24th chamber doors from Outside
+*
+D 0 10861 2 2                Close 25th chamber doors from Outside
+*
+D 0 10861 2 2                Close 25th chamber doors from Outside
+*
+D 0 10862 1 2                Close 26th chamber doors from Outside
+*
+D 0 10863 1 2                Close 27th chamber doors from Outside
+*
+D 0 10864 1 2                Close 28th chamber doors from Outside
+*
+D 0 10865 1 2                Close 29th chamber doors from Outside
+*
+D 0 10866 1 2                Close 30th chamber doors from Outside
+*
+D 0 10867 2 2                Close 31th chamber doors from Outside
+*
+D 0 10868 3 2                Close 32th chamber doors from Outside
+*
+D 0 10869 3 2                Close 33th chamber doors from Outside
+*
+D 0 10870 3 2                Close 34th chamber doors from Outside
+*
+D 0 10871 3 2                Close 35th chamber doors from Outside
+*
+D 0 10872 3 2                Close 36th chamber doors from Outside
+*
+M 0 10701 4 10707 1*	Monk cleaning
+E 1 12701 99 16        	mop
+G 1 12702 8                 soap
+*
+M 0 10701 4 10711 1*	Monk cleaning
+E 1 12701 99 16        	mop
+G 1 12702 8                 soap
+*
+M 0 10701 4 10718 1*	Monk cleaning
+E 1 12701 99 16        	mop
+G 1 12702 8                 soap
+*
+M 0 10701 4 10723 1*	Monk cleaning
+E 1 12701 99 16        	mop
+G 1 12702 8                 soap
+*
+M 0 10702 7 10713 1*	Monk Elder
+E 1 12703 99 3        	prayer beads
+*
+M 0 10702 7 10820 1*	Monk Elder
+E 1 12703 99 3        	prayer beads
+*
+M 0 10702 7 10808 1*	Monk Elder
+E 1 12703 99 3        	prayer beads
+*
+M 0 10702 7 10811 1*	Monk Elder
+E 1 12703 99 3        	prayer beads
+*
+M 0 10702 7 10816 1*	Monk Elder
+E 1 12703 99 3        	prayer beads
+*
+M 0 10702 7 10817 1*	Monk Elder
+E 1 12703 99 3        	prayer beads
+*
+M 0 10702 7 10714 1*	Monk Elder
+E 1 12703 99 3        	prayer beads
+*
+M 0 10703 15 10727 1*	monk student
+M 0 10703 15 10727 1*	monk student
+M 0 10703 15 10727 1*	monk student
+M 0 10703 15 10727 1*	monk student
+*
+M 0 10703 15 10733 1*	monk student
+M 0 10703 15 10733 1*	monk student
+M 0 10703 15 10733 1*	monk student
+*
+M 0 10703 15 10734 1*	monk student
+M 0 10703 15 10734 1*	monk student
+*
+M 0 10703 15 10729 1*	monk student
+*
+M 0 10703 15 10730 1*	monk student
+M 0 10703 15 10730 1*	monk student
+M 0 10703 15 10730 1*	monk student
+*
+M 0 10703 15 10747 1*	monk student
+*
+M 0 10703 15 10748 1*	monk student
+*
+M 0 10704 12 10737 1*	monk advanced student
+M 0 10704 12 10737 1*	monk advanced student
+*
+M 0 10704 12 10739 1*	monk advanced student
+M 0 10704 12 10739 1*	monk advanced student
+M 0 10704 12 10739 1*	monk advanced student
+M 0 10704 12 10739 1*	monk advanced student
+*
+M 0 10704 12 10742 1*	monk advanced student
+*
+M 0 10704 12 10741 1*	monk advanced student
+M 0 10704 12 10739 1*	monk advanced student
+M 0 10704 12 10739 1*	monk advanced student
+*
+M 0 10704 12 10745 1*	monk advanced student
+M 0 10704 12 10745 1*	monk advanced student
+*
+M 0 10705 6 10737 1*	monk teacher
+* 
+M 0 10705 6 10741 1*	monk teacher
+*
+M 0 10705 6 10735 1*	monk teacher
+*
+M 0 10705 6 10730 1*	monk teacher
+*
+M 0 10705 6 10752 1*	monk teacher
+*
+M 0 10705 6 10749 1*	monk teacher
+*
+M 0 10706 4 10807 1*	temple guard North
+E 1 12704 99 16        	Chinese broadsword
+*
+M 0 10706 4 10807 1*	temple guard North
+E 1 12704 99 16        	Chinese broadsword
+*
+M 0 10706 4 10809 1*	temple guard South
+E 1 12704 99 16        	Chinese broadsword
+*
+M 0 10706 4 10809 1*	temple guard South
+E 1 12704 99 16        	Chinese broadsword
+*
+M 0 10707 9 10706 1*	white lotus Guard North
+E 1 12704 99 16        	Chinese broadsword
+E 1 12705 99 11        	white lotus shield
+*
+M 0 10707 9 10706 1*	white lotus Guard North
+E 1 12704 99 16        	Chinese broadsword
+E 1 12705 99 11        	white lotus shield
+*
+M 0 10707 9 10716 1*	white lotus Guard South
+E 1 12704 99 16        	Chinese broadsword
+E 1 12705 99 11        	white lotus shield
+*
+M 0 10707 9 10716 1*	white lotus Guard South
+E 1 12704 99 16        	Chinese broadsword
+E 1 12705 99 11        	white lotus shield
+*
+M 0 10707 9 10788 1*	white lotus Guard HQ
+E 1 12704 99 16        	Chinese broadsword
+E 1 12705 99 11        	white lotus shield
+E 1 12795 99 17        	Cell key
+*
+M 0 10707 9 10792 1*	white lotus Guard Room
+E 1 12704 99 16        	Chinese broadsword
+E 1 12705 99 11        	white lotus shield
+*
+M 0 10707 9 10792 1*	white lotus Guard Room
+E 1 12704 99 16        	Chinese broadsword
+E 1 12705 99 11        	white lotus shield
+*
+M 0 10707 9 10792 1*	white lotus Guard Room
+E 1 12704 99 16        	Chinese broadsword
+E 1 12705 99 11        	white lotus shield
+*
+M 0 10707 9 10792 1*	white lotus Guard Room
+E 1 12704 99 16        	Chinese broadsword
+E 1 12705 99 11        	white lotus shield
+*
+M 0 10708 2 10795 1*	Kitchen attendant
+E 1 12706 99 16        	cleaver
+*
+M 0 10708 2 10795 1*	Kitchen attendant
+E 1 12706 99 16        	cleaver
+*
+M 0 10709 2 10795 1*	Kitchen attendant
+E 1 12707 99 17        	chopsticks
+*
+M 0 10709 2 10795 1*	Kitchen attendant
+E 1 12707 99 17        	chopsticks
+*
+M 0 10710 6 10803 1*	Gambling soldier
+E 1 12708 99 17        	dice
+*
+M 0 10710 6 10803 1*	Gambling soldier
+*
+M 0 10710 6 10803 1*	Gambling soldier
+*
+M 0 10710 6 10805 1*	Gambling soldier
+E 1 12709 99 17        	cards
+* 
+M 0 10710 6 10805 1*	Gambling soldier
+*
+M 0 10710 6 10805 1*	Gambling soldier
+*
+M 0 10711 4 10795 1*	eating soldier
+G 1 12710 8                 rice
+*
+M 0 10711 4 10795 1*	eating soldier
+G 1 12710 8                 rice
+*
+M 0 10711 4 10795 1*	eating soldier
+G 1 12710 8                 rice
+*
+M 0 10711 4 10795 1*	eating soldier
+G 1 12710 8                 rice
+*
+M 0 10712 4 10795 1*	drinking officer
+G 1 12711 8                 wine
+*
+M 0 10712 4 10792 1*	drinking officer
+G 1 12711 8                 wine
+*
+M 0 10712 4 10798 1*	drinking officer
+G 1 12711 8                 wine
+*
+M 0 10712 4 10802 1*	drinking officer
+G 1 12711 8                 wine
+*
+M 0 10713 3 10790 1*	barfing prisoner
+G 1 12712 8                 barf
+*
+M 0 10713 3 10789 1*	barfing prisoner
+G 1 12712 8                 barf
+*
+M 0 10713 3 10793 1*	barfing prisoner
+G 1 12712 8                 barf
+*
+M 0 10714 5 10762 1*	wandering monk
+*
+M 0 10714 5 10784 1*	wandering monk
+*
+M 0 10714 5 10758 1*	wandering monk
+*
+M 0 10714 5 10770 1*	wandering monk
+*
+M 0 10714 5 10726 1*	wandering monk
+*
+M 0 10715 5 10785 1*	song bird
+G 1 12713 8                 feather
+*
+M 0 10715 5 10769 1*	song bird
+G 1 12713 8                 feather
+*
+M 0 10715 5 10753 1*	song bird
+G 1 12713 8                 feather
+*
+M 0 10715 5 10776 1*	song bird
+G 1 12713 8                 feather
+*
+M 0 10715 5 10758 1*	song bird
+G 1 12713 8                 feather
+*
+M 0 10716 5 10761 1*	member poison clan
+E 1 12714 99 16        	big knife
+E 1 12715 99 17        	insignia
+M 0 10716 5 10761 1*	member poison clan
+E 1 12714 99 16        	big knife
+E 1 12715 99 17        	insignia
+*
+M 0 10716 5 10785 1*	member poison clan
+E 1 12714 99 16        	big knife
+E 1 12715 99 17        	insignia
+*
+M 0 10716 5 10781 1*	member poison clan
+E 1 12715 99 17        	insignia
+*
+M 0 10716 5 10768 1*	member poison clan
+E 1 12714 99 16        	big knife
+E 1 12715 99 17        	insignia
+*
+M 0 10717 2 10774 1*	small frog
+M 0 10717 2 10774 1*	small frog
+*
+M 0 10718 2 10775 1*	small centipede
+M 0 10718 2 10775 1*	small centipede
+*
+M 0 10719 3 10766 1*	small snake
+M 0 10719 3 10766 1*	small snake
+M 0 10719 3 10766 1*	small snake
+*
+M 0 10720 1 10771 1*	small green lizard
+*
+M 0 10721 5 10773 1*	small red scorpion
+M 0 10721 5 10773 1*	small red scorpion
+M 0 10721 5 10773 1*	small red scorpion
+M 0 10721 5 10773 1*	small red scorpion
+M 0 10721 5 10773 1*	small red scorpion
+*
+M 0 10722 1 10773 1*	Expert of Scorpion
+E 1 12716 99 16        	Scorpion Technique
+*
+M 0 10723 1 10774 1*	Expert of Toad
+G 1 12717 31                 Toad Technique
+*
+M 0 10775 1 10766 1*	Expert of Snake
+E 1 12746 99 16        	Snake Technique
+*
+M 0 10724 1 10775 1*	Expert of Centipede
+E 1 12718 99 16        	CentipedeTechnique
+*
+M 0 10725 1 10771 1*	Expert of Lizard
+E 1 12719 99 17        	Lizard Technique
+*
+M 0 10726 1 10786 1*	Teachers last student
+*
+M 0 10727 1 10820 1*	Buddha of Enlightenment
+G 1 12720 44              Orange
+*
+M 0 10728 1 10819 1*	Buddha of Wisdom
+G 1 12721 45              enchanted prayer beads
+*
+M 0 10729 1 10818 1*	Buddha of Contentment
+G 1 12791 46              Rice cake
+*
+M 0 10730 4 10820 1*	shrine attendant
+*
+M 0 10730 4 10821 1*	shrine attendant
+*
+M 0 10730 4 10822 1*	shrine attendant
+*
+M 0 10730 4 10817 1*	shrine attendant
+*
+M 0 10731 4 10819 1*	monk chanting
+*
+M 0 10731 10 10816 1*	monk chanting
+M 0 10731 10 10816 1*	monk chanting
+M 0 10731 10 10816 1*	monk chanting
+M 0 10731 10 10816 1*	monk chanting
+*
+M 0 10731 10 10815 1*	monk chanting
+M 0 10731 10 10815 1*	monk chanting
+*
+M 0 10731 10 10816 1*	monk chanting
+M 0 10731 10 10816 1*	monk chanting
+M 0 10731 10 10816 1*	monk chanting
+M 0 10731 10 10816 1*	monk chanting
+*
+M 0 10732 1 10830 1*	Wei Chin
+E 1 12722 99 17        	Iron Monk Technique
+*
+M 0 10733 1 10829 1*	Wei Chin
+*
+M 0 10734 1 10836 1*	White Lotus Chief
+E 1 12723 99 17        	Weightless Boxing Technique
+*
+M 0 10735 2 10828 1*	White Lotus Chief Personal Guard
+E 1 12725 99 16        	White Chinese Longsword
+*
+M 0 10736 1 10837 1*	Attendant to the 36 Chambers
+E 1 12726 99 17       	Key to the 36 chambers
+*
+M 0 10737 1 10838 1*	Teacher of the 1st Chamber
+E 1 12727 99 17       	Key to the 2nd chamber
+*
+M 0 10738 1 10839 1*	Teacher of the 2nd Chamber
+E 1 12728 99 17       	Key to the 3rd chamber
+*
+M 0 10739 1 10840 1*	Teacher of the Whirlwind Kick
+E 1 12730 99 16       	Whirlwind Kick
+E 1 12729 99 17       	Key to the 4th chamber
+*
+M 0 10740 1 10841 1*	Teacher of the Chin Kang Palm
+E 1 12732 99 16       	Chin Kang Palm
+E 1 12731 99 17       	Key to the 5th chamber
+*
+M 0 10741 1 10842 1*	Teacher of the Lizard Style
+E 1 12734 99 16       	Lizard Style
+E 1 12733 99 17       	Key to the 6th chamber
+*
+M 0 10742 1 10843 1*	Teacher of the Crane Style
+E 1 12736 99 16       	Crane Style
+E 1 12735 99 17       	Key to the 7th chamber
+*
+M 0 10743 1 10844 1*	Teacher of the Dragon Style
+E 1 12738 99 16       	Dragon Style
+E 1 12737 99 17       	Key to the 8th chamber
+*
+M 0 10745 1 10845 1*	Teacher of the Tiger Style
+E 1 12740 99 16       	Tiger Style
+E 1 12739 99 17       	Key to the 9th chamber
+*
+M 0 10746 1 10846 1*	Teacher of the Scorpion Style
+E 1 12742 99 16       	Scorpion Style
+E 1 12741 99 17       	Key to the 10th chamber
+*
+M 0 10747 1 10847 1*	Teacher of the Snake Style
+E 1 12746 99 16       	Snake Style
+E 1 12743 99 17       	Key to the 11th chamber
+*
+M 0 10748 1 10848 1*	Teacher of the Centipede Style
+E 1 12748 99 16       	Centipede Style
+E 1 12745 99 17       	Key to the 12th chamber
+*
+M 0 10749 1 10849 1*	Teacher of the Toad Style
+E 1 12750 99 5       	Toad Style
+E 1 12747 99 17       	Key to the 13th chamber
+*
+M 0 10750 1 10850 1*	Teacher of the Iron Monk Style
+G 1 12752 44              Iron Monk Technique
+E 1 12749 99 17       	Key to the 14th chamber
+*
+M 0 10751 1 10851 1*	Teacher of the Iron Head Style
+E 1 12754 99 16       	Iron Head Style
+E 1 12751 99 17       	Key to the 15th chamber
+*
+M 0 10752 1 10852 1*	Teacher of the Hawk Style
+E 1 12756 99 16       	Hawk  Style
+E 1 12753 99 17       	Key to the 16th chamber
+*
+M 0 10753 1 10853 1*	Teacher of the Quivering Palm Style
+E 1 12758 99 16       	Quivering Palm Style
+E 1 12755 99 17       	Key to the 17th chamber
+*
+M 0 10754 1 10854 1*	Teacher of the Five Pace Palm Style
+E 1 12758 99 16       	Quivering Palm Style
+E 1 12757 99 17       	Key to the 18th chamber
+*
+M 0 10755 1 10855 1*	Healing monk
+O 0 12788 10 10855   fountain at meditation chamber
+O 0 12789 10 10855   Key to the 19th chamber
+*
+M 0 10756 1 10856 1*	Teacher of the Weightless Boxing
+E 1 12762 99 16       	Weightless Boxing
+E 1 12759 99 17       	Key to the 20th chamber
+*
+M 0 10757 1 10857 1*	Teacher of the Lightning Strike
+E 1 12762 99 16       	Lightning Strike
+E 1 12760 99 17       	Key to the 21st chamber
+*
+M 0 10758 1 10858 1*	Teacher of the Iron skin
+E 1 12766 99 16       	Iron skin
+E 1 12761 99 17       	Key to the 22nd chamber
+*
+M 0 10759 1 10859 1*	Teacher of the chinese long sword
+E 1 12768 99 16       	chinese longsword
+E 1 12793 99 17       	chinese longsword offhand
+G 1 12763 52              Key to the 23rd chamber
+*
+M 0 10760 1 10860 1*	Teacher of the butterfly swords
+E 1 12768 99 16       	butterfly sword
+E 1 12792 99 17       	butterfly sword off hand
+G 1 12765 52              Key to the 24th chamber
+*
+M 0 10761 1 10861 1*	Teacher of the longspear
+E 1 12772 99 16       	longspear
+E 1 12769 99 17       	Key to the 25th chamber
+*
+M 0 10762 1 10862 1*	Teacher of the deadly palm
+E 1 12774 99 16       	deadly palm
+E 1 12771 99 17       	Key to the 26th chamber
+*
+M 0 10763 1 10863 1*	Teacher of the Flying Buddha
+E 1 12776 99 16       	Flying Buddha
+E 1 12773 99 17       	Key to the 27th chamber
+*
+M 0 10764 1 10864 1*	Teacher of the angry buddha
+E 1 12778 99 16       	angry buddha
+E 1 12775 99 17       	Key to the 28th chamber
+*
+M 0 10766 1 10865 1*	First Master
+E 1 12777 99 17       	Key to the 29th chamber
+*
+M 0 10767 1 10866 1*	Second Master
+E 1 12779 99 17       	Key to the 30th chamber
+*
+M 0 10768 1 10867 1*	Third Master
+E 1 12780 99 17       	Key to the 31st chamber
+*
+M 0 10769 1 10868 1*	Fourth Master
+E 1 12781 99 17       	Key to the 32nd chamber
+*
+M 0 10770 1 10869 1*	Fifth Master
+E 1 12782 99 17       	Key to the 33rd chamber
+*
+M 0 10771 1 10870 1*	Abbot
+E 1 12783 99 17       	Key to the 34th chamber
+*
+M 0 10772 2 10871 1*	Grand Abbot
+E 1 12786 99 16       	Holy mace
+E 1 12784 99 17       	Key to the 35th chamber
+*
+M 0 10772 2 10752 1*	Grand Abbot
+E 1 12786 99 16       	Holy mace
+*
+M 0 10773 1 10872 1*	Disciple of Buddha
+E 1 12785 99 17       	Key to the 36th chamber
+O 0 12788 1 10872   fountain at last chamber
+O 0 12791 1 10872   fountain at last chamber
+*
+M 0 10774 1 10873 1*	Buddha
+E 1 12787 99 16       	Hand of Buddha
+E 1 12794 99 1       	Ring of the 36 chambers of White Lotus
+*
+S
+
+
+
+#SHOPS
+0
+
+
+
+#SPECIALS
+*
+M  10701 spec_janitor	cleaning monk
+*
+M  10702 spec_cast_cleric	monk elder
+*
+*M  10706 spec_guard_white		temple guard
+*
+*M  10707 spec_guard_white		white lotus guard
+*
+M  10713 spec_fido		prisoner
+*
+M  10717 spec_poison	small frog
+*
+M  10718 spec_poison	small centipede
+M  10719 spec_poison	small snake
+M  10720 spec_poison	small lizard
+M  10721 spec_poison	small scorpion
+*
+*M  10722 spec_kungfu_poison	Expert scorpion
+*M  10724 spec_kungfu_poison	Expert centipede
+*M  10775 spec_kungfu_poison	Expert snake
+*
+M  10727 spec_cast_adept	Buddha of Enlightenment
+M  10728 spec_cast_adept	Buddha of Wisdom
+M  10729 spec_cast_adept	Buddha of Contentment
+*
+M  10734 spec_cast_mage	White Lotus Chief
+*
+*M  10737 spec_teacher		Teacher 1st Chamber
+*M  10738 spec_teacher		Teacher 2nd Chamber
+*M  10739 spec_teacher		Teacher 3rd Chamber Whirlwind kick
+*M  10740 spec_teacher		Teacher 4th Chamber Chin Kang Palm
+*M  10741 spec_teacher		Teacher 5th Chamber Lizard
+*M  10742 spec_teacher		Teacher 6th Chamber Crane
+*M  10743 spec_teacher		Teacher 7th Chamber Dragon
+*M  10745 spec_teacher		Teacher 8th Chamber Tiger
+*M  10746 spec_teacher		Teacher 9th Chamber Scorpion
+*M  10747 spec_teacher		Teacher 10th Chamber Snake
+*M  10748 spec_teacher		Teacher 11th Chamber Centipede
+*M  10749 spec_teacher		Teacher 12th Chamber Toad
+*M  10750 spec_teacher		Teacher 13th Chamber Iron Monk
+*M  10751 spec_teacher		Teacher 14th Chamber Iron Head
+*M  10752 spec_teacher		Teacher 15th Chamber Hawk
+*M  10753 spec_teacher		Teacher 16th Chamber Quivering Palm
+*M  10754 spec_teacher		Teacher 17th Chamber Five Pace Palm
+*M  10755 spec_teacher		Teacher 18th Chamber Healing Monk
+*M  10756 spec_teacher		Teacher 19th Chamber Weightless Boxing
+*M  10757 spec_teacher		Teacher 20th Chamber Lightning strike
+*M  10758 spec_teacher		Teacher 21st Chamber Iron Skin
+*M  10759 spec_teacher		Teacher 22nd Chamber Chinese Longsword
+*M  10760 spec_teacher		Teacher 23rd Chamber Butterfly Swords
+*M  10761 spec_teacher		Teacher 24th Chamber long spear
+*M  10762 spec_teacher		Teacher 25th Chamber deadly palm
+*M  10763 spec_teacher		Teacher 26th Chamber Flying Buddha
+*M  10764 spec_teacher		Teacher 27th Chamber Angry Buddha
+*M  10766 spec_teacher		Teacher 28th Chamber First Master
+*M  10767 spec_teacher		Teacher 29th Chamber Second Master
+*M  10768 spec_teacher		Teacher 30th Chamber Third Master
+*M  10769 spec_teacher		Teacher 31st Chamber Fourth Master
+*M  10770 spec_teacher		Teacher 32nd Chamber Fifth Master
+*M  10771 spec_teacher		Teacher 33rd Chamber Abbot 
+*M  10772 spec_teacher		Teacher 34th Chamber Grand Abbot 
+*M  10773 spec_teacher		Teacher 35th Chamber Disciple 
+*M  10774 spec_buddha		Teacher 36th Chamber Buddha 
+*
+*
+******NOTES*****
+*
+* This area reserves slot 107 & 108
+* Vnum 10701 - 10899
+*
+*
+****************DATE 3/21/94**************************
+*
+*
+S
+
+
+
+#$

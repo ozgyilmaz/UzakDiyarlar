@@ -1,0 +1,2792 @@
+#AREA	
+villa.are~
+The Village of Anon~
+{ 1 65} Yaegar  The Village of Anon~
+24100 24200
+
+#MOBILES
+#24100
+shaman~
+the village shaman~
+The village shaman tends to the weak and infirm here.
+~
+The shaman is a well respected and devoted healer and mystic. He spends his
+time curing the ailments of the inhabitants of this village, or those of any
+strangers that may pass by.
+~
+human~
+2|8|64 128|8192 1000 0
+93 0 50d10+20500 5d5+5000 17d10+64 divine
+-66 -66 -66 -33
+FHKN 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24101
+flint knapper flint-knapper~
+the village flint-knapper~
+The village flint-knapper is here repairing crude tools.
+~
+While the knapper's primary job is to craft tools for the village, such is
+his skill that he may also be able to repair your equipment. Contact with
+merchants from more advanced civilisations to the south have made him
+remarkably conversant with the properties of metals such as copper and silver 
+and alloys such as bronze.
+~
+human~
+2|64 128|8192 1000 0
+73 0 50d10+20500 5d5+5000 17d10+64 pound
+-66 -66 -66 -33
+FHKIN 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24102
+trader~
+a swarthy southern trader~
+A swarthy southern trader is here hawking his wares.
+~
+This fellow is possessed of much darker skin and eyes than his current
+neighbors, hailing as he does from the island kingdoms far to the south. He
+has brought with him a variety of bronze arms and armor, as well as the 
+occasional crude iron oddity.
+~
+human~
+2|64 128|8192 1000 0
+80 0 50d10+20500 5d5+5000 17d10+64 pound
+-66 -66 -66 -33
+FHIKN 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24103
+merc~
+a mercenary~
+A tough mercenary offers to hire out his men to you.
+~
+Type list to see what he has to offer.
+~
+human~
+2|64 128|8192 1000 0
+93 0 50d10+20500 5d5+5000 17d10+64 slash
+-66 -66 -66 -33
+FHKIN 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24104
+witchdoctor~
+the village witchdoctor~
+The village witchdoctor is here selling a variety of potions and brews.
+~
+This young woman, one of the chief's many daughters, has travelled far and 
+wide, and gathered a variety of exotic herbs and roots that she blends into 
+marvellous potions. They taste even worse than they smell...
+~
+human~
+2|64 128|8192 1000 0
+83 0 50d10+20500 5d5+5000 17d10+64 pound
+-66 -66 -66 -33
+FHKIN 0 0 0
+stand stand female 1000
+0 0 medium 0
+#24105
+wise woman~
+the village wise woman~
+The village wise woman cracks a toothless grin as you enter.
+~
+Age may have taken what beauty this crone once possessed, but it hasn't 
+robbed her of her wits. She is more knowledgable in the properties of items
+than anyone else in the known world (which, admittedly, doesn't cover very
+much. In fact, to these villagers it is about as far as you can see on a 
+clear day).
+~
+human~
+2|64 128|8192 1000 0
+83 0 50d10+20500 5d5+5000 17d10+64 pound
+-66 -66 -66 -33
+FHKIN 0 0 0
+stand stand female 1000
+0 0 medium 0
+#24106
+beastmaster~
+the village beastmaster~
+The village beastmaster is here wrestling with a large bear.
+~
+When he has the time, this impossibly huge man will gladly sell you a pet
+that he has domesticated, though from the look of it you may have doubts
+in his ability to exact obedience. That bear sure doesn't look tame...
+~
+human~
+2|64 128|8192 1000 0
+80 0 50d10+20500 5d5+5000 17d10+64 pound
+-66 -66 -66 -33
+FHKIN 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24107
+trader northerner~
+a northern trader~
+A grizzled northerner offers to sell you some supplies.
+~
+This stout hunter spends six months of the year trapping for fur, and the rest 
+of the year fashioning and selling basic equipment.
+~
+human~
+2|64 128|8192 1000 0
+83 0 50d10+20500 5d5+5000 17d10+64 pound
+-66 -66 -66 -33
+FKIN 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24108
+daughter woman girl~
+a daughter of the tribe~
+A daughter of the tribe is here selling food.
+~
+The crop was good this year, and the villagers have sufficient to sell to
+travellers and other villagers.
+~
+human~
+2|64 128|8192 1000 0
+80 0 50d10+20500 5d5+5000 17d10+64 pound
+-66 -66 -66 -33
+FIKN 0 0 0
+stand stand female 1000
+0 0 medium 0
+#24109
+brewer~
+the village brewer~
+The village brewer is handing out samples of his sacred drink.
+~
+The art of brewing is held sacred by the northern tribes, and the brewers
+are considered holy men. In accordance with their beliefs, the brewers hand
+out samples of their sacred draught to all who pass by, and while there is
+no real cost, a small "donation" to the sacred coffer is expected. And when 
+the brewer is the size of a grizzly bear, few refuse.
+~
+human~
+2|64 128|8192 1000 0
+85 0 50d10+20500 5d5+5000 17d10+64 pound
+-66 -66 -66 -33
+FIKN 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24110
+hedgehog~
+the hedgehog~
+A hedgehog, well, does nothing at you.
+~
+The hedgehog looks like a cute, little, fierce fighter.
+~
+unique~
+256 0 400 0
+4 0 2d7+46 5d5+100 1d5+1 charge        
+6 6 6 9
+F 0 0 0
+stand stand none 1000
+0 0 medium 0
+#24111
+otter~
+the otter~
+A loyal, sleek growls at you.
+~
+The otter looks like a fierce fighter.
+~
+unique~
+256 0 400 0
+10 0  2d7+121 5d5+100 2d4+2 claw        
+1 1 1 7
+F 0 0 0
+stand stand either 1000
+0 0 medium 0
+#24112
+hawk~
+the hawk~
+A fierce but loyal hawk is here.
+~
+The hawk looks like a fierce fighter.
+~
+song bird~
+256 524288 400 0
+15 0 3d9+208 5d5+100 2d6+3 claw     
+-2 -2 -2 6
+F 0 0 0
+stand stand either 1000
+0 0 medium 0
+#24113
+grizzly bear~
+the grizzly bear~
+A large, loyal grizzly bear is here.
+~
+The grizzly bear looks like a strong, fierce fighter.
+~
+bear~
+256 0 0 0
+20 0  3d9+333 5d5+1000 2d8+5 claw      
+-4 -4 -4 5
+CF 0 0 0
+stand stand either 1000
+0 0 medium 0
+#24114
+aurochs~
+the aurochs~
+A HUGE Aurochs stomps its feet and lowers its head to charge.
+~
+The aurochs is a BAD ASS.
+~
+unique~
+256 0 0 0
+30 0 6d12+853 5d5+1000 4d6+8 charge     
+-9 -9 -9 3
+F 0 0 0
+stand stand none 1000
+0 0 medium 0
+#24115
+champion~
+the village champion~
+The village champion flexes his mighty thews and grins at you.
+~
+The village champion once tore the head off a rabid Mastodon with his thumbs.
+Imagine what he could do to you...
+~
+human~
+2|8|64 128|512|8192 0 0
+93 0 50d10+20500 5d5+5000 18d10+64 crush
+-76 -76 -76 -33
+0 0 0 0
+stand stand male 1000
+FHIKN 0 medium 0
+#24116
+merchant~
+a hook-nosed merchant~
+A hook-nosed merchant from the desert kingdoms rubs his hands together.
+~
+This fellow may not speak your language well, but the language he does know
+very well makes conversation suddenly become much simpler- MONEY.
+~
+human~
+4|64|128 8|32|8192 0 0
+60 0 50d10+6750 5d5+5000 8d6+28 pound
+-30 -30 -30 -3
+FHIKN 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24117
+chieftain~
+the village chieftain~
+The village chieftain welcomes you to her village.
+~
+This strapping giant of a woman has flaming red hair and biceps bigger than
+your thighs. She has ruled this village wisely for many years, through lean 
+times and times of plenty, and her people have the utmost faith in her
+ability. Time and the birth of many children have not softened her 
+well-muscled frame - she is still a very attractive woman, and the men of the 
+village (and some women too) vie for her favours.
+~
+human~
+64 4|8|128|512|8192 1000 0
+60 0 50d10+6750 5d5+5000 8d6+28 pound
+-30 -30 -30 -3
+FIKN 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24118
+villager~
+a villager~
+A fur-clad villager hurries by.
+~
+The villagers are a hardy lot, toughened by their environment and their
+rugged lifestyle, and you marvel at their good condition as they pass.
+~
+human~
+1|64 0 0 0
+4 0 2d7+46 5d5+100 1d5+1 punch         
+6 6 6 9
+F 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24119
+villager~
+a villager~
+A fur-clad villager hurries by.
+~
+The villagers are a hardy lot, toughened by their environment and their
+rugged lifestyle, and you marvel at their good condition as they pass.
+~
+human~
+1|64 0 0 0
+4 0 2d7+46 5d5+100 1d5+1 punch        
+6 6 6 9
+F 0 0 0
+stand stand female 1000
+0 0 medium 0
+#24120
+child~
+a child~
+A child engages in rough horse play with other village children.
+~
+The children of the village are a rough and tumble lot, used to working hard
+and playing harder.
+~
+human~
+1|64 0 0 0
+3 0 2d7+46 5d5+100 1d5+1 punch        
+6 6 6 9
+F 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24121
+idiot~
+the village idiot~
+The village idiot gawks at you.
+~
+When he was young, this poor fellow had his skull staved in by a horse kick.
+~
+human~
+4|64|128 0 0 0
+4 0 2d7+46 5d5+100 1d5+1 punch        
+6 6 6 9
+0 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24122
+drunk~
+a village drunk~
+A village drunk.
+~
+This fellow has evidently made many generous donations to the village brewer.
+~
+human~
+64 0 400 0
+4 0 2d7+46 5d5+100 1d5+1 punch         
+6 6 6 9
+0 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24123
+beggar~
+a beggar~
+A beggar sits in the dirt asking for donations.
+~
+The inhabitants of this village are a tough lot, but not ungenerous, and it
+is likely that this fellow will have a roof over his head soon, provided by
+one of the more prosperous villagers.
+~
+human~
+2|64 0 400 0
+3 0 2d7+46 5d5+100 1d5+1 punch        
+6 6 6 9
+F 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24124
+thief~
+a thief~
+A thief adroitly cuts the strings of another fat merchant's purse.
+~
+This unsavory fellow preys on the rich foreign merchants from the south.
+~
+human~
+64|128 2|32768|65536|1048576 0 0
+10 0 2d7+121 5d5+100 2d4+2 punch        
+1 1 1 7
+FIN 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24125
+wolf~
+a scrawny wolf~
+A scrawny wolf is here looking for food.
+~
+This wolf has strayed in from the wild, driven by hunger. The villagers are
+quick to repel such unwelcome wildlife, and it is only a matter of time
+before the militia run it off.
+~
+wolf~
+64|128 0 0 0
+5 0 2d7+46 5d5+100 1d5+1 bite        
+6 6 6 9
+F 0 0 0
+stand stand either 1000
+0 0 medium 0
+#24126
+rat~
+a rat~
+A black rat.
+~
+These mangy black rodents came with the merchants from the south, hidden
+amongst their goods, and have quickly become a nuisance, being scavengers
+and carriers of disease.
+~
+rat~
+64|128 0 0 0
+2 0 2d7+26 5d5+100 1d5+1 charge         
+6 6 6 9
+F 0 0 0
+stand stand none 1000
+0 0 medium 0
+#24127
+dog~
+a dog~
+A stray dog whines piteously at you.
+~
+This mongrel is the unwanted offspring of some hunter's sled dogs, left to 
+fend for itself here in the village.
+~
+fido~
+64|128 0 0 0
+3 0 2d7+46 5d5+100 1d5+1 bite        
+6 6 6 9
+F 0 0 0
+stand stand female 1000
+0 0 medium 0
+#24128
+militia member~
+a member of the village militia~
+A member of the village militia eyes you suspiciously.
+~
+Like most civilizations of the time, the northern villagers have no organised
+standing military or police force. However, the recent influx of foreigners
+and bandits has necessitated the introduction of a militia to keep the peace.
+~
+human~
+8|64 4|128|8192 1000 0
+50 0 50d10+4250 5d5+5000 5d8+19 pound
+-20 -20 -20 0
+EFIKN 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24129
+militia member~
+a member of the village militia~
+A member of the village militia eyes you suspiciously.
+~
+Like most civilizations of the time, the northern villagers have no organised
+standing military or police force. However, the recent influx of foreigners
+and bandits has necessitated the introduction of a militia to keep the peace.
+~
+human~
+8|64 4|128|8192 1000 0
+50 0 50d10+4250 5d5+5000 5d8+19 pound 
+-20 -20 -20 0
+CEFIKN 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24130
+militia member~
+a member of the village militia~
+A member of the village militia hefts a large club and eyes you suspiciously.
+~
+Like most civilizations of the time, the northern villagers have no organised
+standing military or police force. However, the recent influx of foreigners
+and bandits has necessitated the introduction of a militia to keep the peace.
+~
+human~
+2|8|64 4|128|8192 1000 0
+50 0 50d10+4250 5d5+5000 5d8+19 pound
+-20 -20 -20 0
+CEFIKN 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24131
+minoan merc merc1~
+minoan mercenary~
+A Minoan mercenary scowls menacingly at you.
+~
+This Merc looks big and tough. Better be careful.
+~
+human~
+256 32|512 0 0
+15 0 3d9+208 5d5+100 2d6+3 pound     
+-2 -2 -2 6
+CDFKIJ 0 0 0
+stand stand female 1000
+0 0 medium 0
+#24132
+assyrian merc merc2~
+Assyrian mercenary~
+An Assyrian Mercenary scowls menacingly at you.
+~
+This Merc looks big and tough. Better be careful.
+~
+human~
+256 8|512 0 0
+20 0  3d9+333 5d5+1000 2d8+5 pound     
+-4 -4 -4 5
+FKNIJ 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24133
+egyptian merc merc3~
+Egyptian mercenary~
+An Egyptian mercenary scowls menacingly at you.
+~
+This Merc looks big and tough. Better be careful.
+~
+human~
+256 512|8192 0 0
+25 0 5d10+550 5d5+1000 2d10+7 pound    
+-7 -7 -7 4
+FIKN 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24134
+trojan merc merc4~
+Trojan mercenary~
+A Trojan mercenary scowls menacingly at you.
+~
+This Merc looks big and tough. Better be careful.
+~
+human~
+256 512|8192 0 0
+30 0 6d12+853 5d5+1000 4d6+8 slash 
+-9 -9 -9 3
+FKIJ 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24135
+nubian merc merc5~
+nubian Mercenary~
+A Nubian mercenary scowls menacingly at you.
+~
+This Merc looks big and tough. Better be careful.
+~
+human~
+256 8192 0 0
+35 0 10d10+1300 5d5+1000 4d7+11 slash
+-11 -11 -11 3
+FIKN 0 0 0
+stand stand male 1000
+0 0 medium 0
+#24136
+mycenaean merc merc6~
+Mycenaean mercenary~
+A Mycenaean mercenary scowls menacingly at you.
+~
+This Merc looks big and tough. Better be careful.
+~
+human~
+256 8|32|512|524288 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 slash
+-13 -13 -13 3
+FIKN 0 0 0
+stand stand male 1000
+0 0 medium 0
+#0
+
+
+#OBJOLD
+#24100
+key~
+a bone key~
+The key to the village gates.
+~
+~
+18 0 1|16384
+0 0 0 0 
+1 0 0
+#24101
+barrel beer~
+a barrel of beer~
+A beer barrel has been left here.
+~
+~
+17 0 1
+30 30 1 0 
+60 300 0
+#24102
+bottle beer~
+a bottle of rough beer~
+A beer bottle has been left here.~
+~
+17 0 1
+4 4 1 0 
+10 20 0
+#24103
+bottle ale~
+a bottle of home brew ale~
+A dark bottle of ale has been left here.~
+~
+17 0 1
+5 5 3 0 
+10 10 0
+#24104
+bottle firebreather~
+a bottle of rough spirits~
+A firebreather has been left here.~
+~
+17 0 1
+8 8 7 0 
+10 50 0
+#24105
+bottle local~
+a bottle of brewer's specialty ("Holy Water")~
+A dark bottle has been left here.~
+~
+17 0 1
+8 8 8 0 
+10 20 0
+#24106
+torch~
+a torch~
+A large torch.~
+~
+1 0 1|65536
+0 0 24 0 
+1 10 0
+#24107
+lamp~
+a stone lamp~
+A stone lamp that uses animal fat as fuel has been left here.~
+~
+1 0 1|16384
+0 0 100 0 
+4 60 0
+#24108
+brew yellow~
+a yellow brew~
+A yellow brew.~
+~
+10 64 1
+12 3 -1 -1 
+1 400 0
+#24109
+skin water buffalo~
+a buffalo water skin~
+A buffalo water skin is on the floor.~
+~
+17 0 1
+25 25 0 0 
+5 30 0
+#24110
+jug water~
+a jug of water~
+A large jug of water sloshes on the floor.~
+~
+17 1 1
+60 60 0 0 
+85 0 0
+#24111
+club~
+a heavy lead-sheathed club~
+A heavy club sheathed in lead lies here.~
+~
+5 0 1|8192
+0 0 0 8 
+30 0 0
+A
+18 -2
+A
+19 4
+#24112
+mace~
+a bone mace~
+A bone mace lies here.~
+~
+5 0 1|8192
+0 0 0 7 
+20 0 0
+A
+18 -1
+A
+19 1
+#24113
+dagger~
+a bronze dagger~
+A bronze dagger lies here.~
+~
+5 0 1|8192
+0 0 0 11 
+15 0 0
+A
+18 -1
+A
+19 -1
+#24114
+blade sword~
+a bronze sword~
+A broad, heavy bronze blade lies here.~
+~
+5 0 1|8192
+0 0 0 3 
+25 0 0
+A
+18 -2
+A
+19 2
+#24115
+sandals~
+a pair of sandals~
+A pair of sandals lies here.~
+~
+9 0 1|64
+0 0 0 0 
+15 0 0
+#24116
+belt~
+a hide belt~
+A belt crafted of hide is curled up here.~
+~
+9 0 1|2048
+0 0 0 0 
+20 0 0
+#24117
+bronze helm~
+a bronze helm~
+A bronze helm.~
+~
+9 0 1|16
+0 0 0 0 
+5 0 0
+A
+17 -2
+A
+17 -2
+#24118
+cloak~
+a rough fur cloak~
+A rough fur cloak is here.~
+~
+9 0 1|4
+0 0 0 0 
+5 0 0
+A
+17 -5
+A
+23 -1
+#24119
+ring~
+a bronze ring~
+A bronze ring.~
+~
+18 1 1|2
+0 0 0 0 
+1 0 0
+#24120
+black bread~
+black bread~
+Black bread.~
+~
+19 0 1
+5 0 0 0 
+3 0 0
+#24121
+cheese~
+cheese~
+A sour cheese.~
+~
+19 0 1
+8 0 0 0 
+5 0 0
+#24122
+dried meat~
+a strip of dried meat~
+A strip of unidentifiable dried meat.~
+~
+19 0 1
+10 0 0 0 
+5 0 0
+#24123
+egg~
+an egg~
+An egg (raw), warm from the nest.~
+~
+19 0 1
+4 0 0 0 
+5 0 0
+#24124
+potion~
+a foul potion~
+A foul potion rolls around here.~
+~
+10 1|2|64 1
+10 29 28 56 
+2 400 0
+#24125
+totem~
+the village totem~
+The village totem stands here.~
+~
+12 0 0
+0 0 0 0 
+1000 0 0
+#24126
+wolf head~
+a wolf's head~
+The champion's wolf's head is here.
+~
+~
+9 0 1|16
+0 0 0 0 
+75 0 0
+A
+13 250
+#24127
+club~
+the chief's club~
+The chief's oak club is lying here in the dirt.
+~
+~
+5 64 1|8192
+0 10 100 8 
+25 0 0
+A
+17 -15
+A
+19 6
+A
+23 -3
+#24128
+stick~
+a stick~
+A wooden stick.~
+~
+5 0 1|8192
+0 0 0 7 
+15 0 0
+#24129
+wooden club~
+a wooden club~
+A wooden club is lying here.~
+~
+5 64 1|8192
+0 0 0 8 
+15 0 0
+A
+19 6
+#24130
+boiled leather jerkin~
+a boiled leather jerkin~
+A boiled leather jerkin is lying here.~
+~
+9 0 1|8
+0 0 0 0 
+10 0 0
+A
+5 2
+A
+17 -15
+#24131
+bone bracelet~
+a rune-covered bone bracelet~
+A rune-covered bone bracelet is lying here.~
+~
+9 0 1|4096
+0 0 0 0 
+5 0 0
+A
+2 1
+A
+18 2
+#24132
+fur cloak~
+a fur cloak~
+A fur cloak is lying here.~
+~
+9 0 1|4
+0 0 0 0 
+10 0 0
+A
+12 25
+A
+17 -5
+#24133
+helm~
+a boar tusk helm~
+A boar tusk helm lies here.~
+~
+9 0 1|16
+0 0 0 0 
+10 0 0
+A
+17 -10
+#24134
+shield~
+an ox-hide shield~
+An ox-hide shield lies here.
+~
+~
+9 0 1|512
+0 0 0 0 
+20 0 0
+A
+17 -20
+A
+23 -2
+A
+24 -2
+#24135
+spear~
+a throwing spear~
+A sturdy throwing spear has been thrust into the ground here.
+~
+~
+30 64 1|8192|16384
+0 0 0 0 
+20 0 0
+A
+18 2
+A
+19 2
+#24136
+papyrus~
+a blank papyrus~
+A blank papyrus is here.
+~
+~
+2 0 1|16384
+0 0 0 0 
+1 0 0
+#24137
+potion~
+a shimmering potion~
+A shimmering potion is here.
+~
+~
+10 64 1|16384
+5 82 43 17 
+1 400 0
+#24138
+gate~
+a stone gate~
+A magical stone gate allows one to pass through to other worlds.~
+~
+33 0 0
+31144 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#24100
+Outside the Shaman's Hut~
+You are standing outside the wooden hut where the Shaman of the village
+resides. Paths stretch out to the east, south and west from here.
+~
+0 0 1
+D0
+~
+~
+1 0 24101
+D1
+~
+~
+0 -1 24104
+D2
+~
+~
+0 -1 24103
+D3
+~
+~
+0 -1 24102
+S
+#24101
+The Interior of the Shaman's Hut~
+You cough as you enter the smoky interior of this cramped hut, your eyes
+watering as the odor of some bubbling concoction in an iron cauldron wafts
+toward you. In the center of this hut the shaman awaits, quietly meditating.
+A variety of furs, bones, charms and trinkets line the walls, doubtless
+serving as focii for the shaman's mystic powers.
+~
+0 8|1024 0
+D2
+~
+~
+1 0 24100
+S
+#24102
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 8 0
+D1
+~
+~
+0 -1 24100
+D3
+~
+~
+0 -1 24105
+S
+#24103
+A Path in the Village~
+You are walking along a path of packed earth that heads north toward the
+Shaman's hut.
+~
+0 8 0
+D0
+~
+~
+0 -1 24100
+D2
+~
+~
+0 -1 24106
+S
+#24104
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 8 0
+D1
+~
+~
+0 -1 24107
+D3
+~
+~
+0 -1 24100
+S
+#24105
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 8 0
+D0
+~
+~
+0 -1 24137
+D1
+~
+~
+0 -1 24102
+D2
+~
+~
+0 -1 24139
+D3
+~
+~
+0 -1 24108
+S
+#24106
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 8 0
+D0
+~
+~
+0 -1 24103
+D1
+~
+~
+0 -1 24163
+D2
+~
+~
+0 -1 24109
+D3
+~
+~
+0 -1 24161
+S
+#24107
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 8 0
+D0
+~
+~
+0 -1 24141
+D1
+~
+~
+0 -1 24110
+D2
+~
+~
+0 -1 24143
+D3
+~
+~
+0 -1 24104
+S
+#24108
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 8 0
+D1
+~
+~
+0 -1 24105
+D3
+~
+~
+0 -1 24111
+S
+#24109
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening. The village square outside
+the Shaman's hut lies a short way to the north of here.
+~
+0 8 0
+D0
+~
+~
+0 -1 24106
+D2
+~
+~
+0 -1 24133
+S
+#24110
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 8 0
+D1
+~
+~
+0 -1 24112
+D3
+~
+~
+0 -1 24107
+S
+#24111
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 8 0
+D1
+~
+~
+0 -1 24108
+D3
+~
+~
+0 -1 24113
+S
+#24112
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening. Several children suddenly
+rush by, immersed in some strange activity, the rules of which are quite
+unfathomable to you.
+~
+0 8 0
+D1
+~
+~
+0 -1 24114
+D3
+~
+~
+0 -1 24110
+S
+#24113
+Approaching the Western Gate~
+You are approaching the western gates of the village, which are constantly
+patrolled by the militia. There is no-one else about here, as the 
+concentration of residences and shops is nearer to the center of the village.
+~
+0 8 0
+D1
+~
+~
+0 -1 24111
+D3
+~
+~
+0 -1 24115
+S
+#24114
+Approaching the Eastern Gate~
+You are approaching the eastern gates of the village, which are constantly
+patrolled by the militia. There is no-one else about here, as the 
+concentration of residences and shops is nearer to the center of the village.
+~
+0 8 0
+D1
+~
+~
+0 -1 24116
+D3
+~
+~
+0 -1 24112
+S
+#24115
+Inside the Western Gates~
+You have reached the westernmost extent of the village. To the west lie the
+stout wooden gates, set in the wooden barrier that surrounds the village.
+Members of the militia, on the lookout for bandits and wolves, grant you
+a cursory nod as they go about their duties.
+~
+0 8 0
+D1
+~
+~
+0 -1 24113
+D3
+~
+~
+1 24100 24117
+S
+#24116
+Inside the Eastern Gates~
+You have reached the easternmost extent of the village. To the east lie the
+stout wooden gates, set in the wooden barrier that surrounds the village.
+Members of the militia, on the lookout for bandits and wolves, grant you
+a cursory nod as they go about their duties.
+~
+0 8 0
+D1
+~
+~
+1 24100 24118
+D3
+~
+~
+0 -1 24114
+S
+#24117
+Outside the Western Gates~
+You are standing outside the Gates at the western end of town. They currently
+stand open, but the militia are ready at a moment's notice to slam them shut
+and bar them with heavy wooden crossbeams bound with rare iron imported from
+the south.
+~
+0 4 2
+D0
+~
+~
+0 -1 24119
+D1
+~
+~
+1 24100 24115
+D2
+~
+~
+0 -1 24132
+S
+#24118
+Outside the Eastern Gates~
+You are standing outside the Gates at the eastern end of town. They currently
+stand open, but the militia are ready at a moment's notice to slam them shut
+and bar them with heavy wooden crossbeams bound with rare iron imported from
+the south.
+~
+0 4 2
+D0
+~
+~
+0 -1 24125
+D1
+~
+~
+0 -1 31018
+D2
+~
+~
+0 -1 24126
+D3
+~
+~
+1 24100 24116
+S
+#24119
+A Dirt Path~
+You are travelling along a broad path comprised of hard earth packed down
+by the steps of thousands of travellers over the many years. This path  
+circles the wooden walls of the village, and from here you can see some of
+the larger structures within.
+~
+0 0 2
+D0
+~
+~
+0 -1 24120
+D2
+~
+~
+0 -1 24117
+S
+#24120
+A Dirt Path~
+You are travelling along a broad path comprised of hard earth packed down
+by the steps of thousands of travellers over the many years. This path  
+circles the wooden walls of the village, and from here you can see some of
+the larger structures within.
+~
+0 0 2
+D1
+~
+~
+0 -1 24121
+D2
+~
+~
+0 -1 24119
+S
+#24121
+A Dirt Path~
+You are travelling along a broad path comprised of hard earth packed down
+by the steps of thousands of travellers over the many years. This path  
+circles the wooden walls of the village, and from here you can see some of
+the larger structures within.
+~
+0 0 2
+D1
+~
+~
+0 -1 24122
+D3
+~
+~
+0 -1 24120
+S
+#24122
+A Dirt Path~
+You are travelling along a broad path comprised of hard earth packed down
+by the steps of thousands of travellers over the many years. This path  
+circles the wooden walls of the village, and from here you can see some of
+the larger structures within.
+
+There is a path running up a hill here which you may ascend.
+~
+0 4 2
+D1
+~
+~
+0 -1 24123
+D3
+~
+~
+0 -1 24121
+S
+#24123
+A Dirt Path~
+You are travelling along a broad path comprised of hard earth packed down
+by the steps of thousands of travellers over the many years. This path  
+circles the wooden walls of the village, and from here you can see some of
+the larger structures within.
+~
+0 0 2
+D1
+~
+~
+0 -1 24124
+D3
+~
+~
+0 -1 24122
+S
+#24124
+A Dirt Path~
+You are travelling along a broad path comprised of hard earth packed down
+by the steps of thousands of travellers over the many years. This path  
+circles the wooden walls of the village, and from here you can see some of
+the larger structures within.
+~
+0 0 2
+D2
+~
+~
+0 -1 24125
+D3
+~
+~
+0 -1 24123
+S
+#24125
+A Dirt Path~
+You are travelling along a broad path comprised of hard earth packed down
+by the steps of thousands of travellers over the many years. This path  
+circles the wooden walls of the village, and from here you can see some of
+the larger structures within.
+~
+0 0 2
+D0
+~
+~
+0 -1 24124
+D2
+~
+~
+0 -1 24118
+S
+#24126
+A Dirt Path~
+You are travelling along a broad path comprised of hard earth packed down
+by the steps of thousands of travellers over the many years. This path  
+circles the wooden walls of the village, and from here you can see some of
+the larger structures within.
+~
+0 0 2
+D0
+~
+~
+0 -1 24118
+D2
+~
+~
+0 -1 24127
+S
+#24127
+A Dirt Path~
+You are travelling along a broad path comprised of hard earth packed down
+by the steps of thousands of travellers over the many years. This path  
+circles the wooden walls of the village, and from here you can see some of
+the larger structures within.
+~
+0 0 2
+D0
+~
+~
+0 -1 24126
+D3
+~
+~
+0 -1 24128
+S
+#24128
+A Dirt Path~
+You are travelling along a broad path comprised of hard earth packed down
+by the steps of thousands of travellers over the many years. This path  
+circles the wooden walls of the village, and from here you can see some of
+the larger structures within.
+~
+0 0 2
+D1
+~
+~
+0 -1 24127
+D3
+~
+~
+0 -1 24129
+S
+#24129
+A Dirt Path~
+You are travelling along a broad path comprised of hard earth packed down
+by the steps of thousands of travellers over the many years. This path  
+circles the wooden walls of the village, and from here you can see some of
+the larger structures within.
+~
+0 0 2
+D1
+~
+~
+0 -1 24128
+D3
+~
+~
+0 -1 24130
+S
+#24130
+A Dirt Path~
+You are travelling along a broad path comprised of hard earth packed down
+by the steps of thousands of travellers over the many years. This path  
+circles the wooden walls of the village, and from here you can see some of
+the larger structures within.
+~
+0 0 2
+D1
+~
+~
+0 -1 24129
+D3
+~
+~
+0 -1 24131
+S
+#24131
+A Dirt Path~
+You are travelling along a broad path comprised of hard earth packed down
+by the steps of thousands of travellers over the many years. This path  
+circles the wooden walls of the village, and from here you can see some of
+the larger structures within.
+~
+0 0 2
+D0
+~
+~
+0 -1 24132
+D1
+~
+~
+0 -1 24130
+S
+#24132
+A Dirt Path~
+You are travelling along a broad path comprised of hard earth packed down
+by the steps of thousands of travellers over the many years. This path  
+circles the wooden walls of the village, and from here you can see some of
+the larger structures within.
+~
+0 0 2
+D0
+~
+~
+0 -1 24117
+D2
+~
+~
+0 -1 24131
+S
+#24133
+Outside a Village Clan Hut~
+You are standing outside a hut in the village. It is a wooden walled structure
+with a thatched roof, and a sturdy oak door. Occasionally a villager enters
+or exits the hut, sparing you a curious glance as they do. A crude etching
+upon the doors of this hut marks it as the Horse Clan hut.
+~
+0 0 1
+D0
+~
+~
+0 -1 24109
+D2
+~
+~
+1 0 24134
+S
+#24134
+Inside the Hut~
+You are standing inside the hut. The sounds and smells of cooking emanate
+from the east, while quiet conversation can be heard to the west. You feel
+slightly nervous about intruding upon this clan, but then again that's
+what your profession is all about, really. Intruding.
+~
+0 8 0
+D0
+~
+~
+1 0 24133
+D1
+~
+~
+0 -1 24136
+D3
+~
+~
+0 -1 24135
+S
+#24135
+The Meeting Room~
+You have entered the common room of this hut. Several villagers sit about,
+sipping at their ales and chatting quietly with each other. As you enter
+they smile and bid you welcome, and ask you to stay and enjoy some good
+conversation for a while.
+~
+0 8 0
+D1
+~
+~
+0 -1 24134
+S
+#24136
+The Kitchen~
+In here several teenagers of both sexes rush about preparing the evening
+meal under the watchful eye of a hefty cook, who helps them along with the
+occasional shout or cuff on the ear.
+~
+0 8 0
+D3
+~
+~
+0 -1 24134
+S
+#24137
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+
+The chieftain's lodge lies to the west of here.
+~
+0 0 1
+D0
+~
+~
+0 -1 24145
+D2
+~
+~
+0 -1 24105
+D3
+~
+~
+1 0 24138
+S
+#24138
+The Chieftain's Lodge~
+This is where the chieftain resides. It may seem to be a small dwelling
+for a figure of such importance, but it should be remembered that she has
+it to herself, while most other villagers live with their clans in groups of
+up to thirty, residing in three room lodges.
+~
+0 8 0
+D1
+~
+~
+1 0 24137
+S
+#24139
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+
+The flint-knepper practices his trade to the west of here.
+~
+0 0 1
+D0
+~
+~
+0 -1 24105
+D2
+~
+~
+0 -1 24160
+D3
+~
+~
+0 -1 24140
+S
+#24140
+The Flint-Knepper~
+You are greeted with a sudden blast of heat from the furnace as you enter
+the smithy. Wiping sweat from your brow, you gaze about, taking the place
+in. Various items of armor in various stages of repair line the walls. A
+huge, muscular man is using a massive hammer to beat the dents out of a
+suit of rather battered-looking bronze plate. The flint-knepper has learnt
+skills far more advanced than his contemporaries, thanks to the many
+visitors this village attracts, and his forge shows evidence of this.
+~
+0 8 0
+D1
+~
+~
+0 -1 24139
+S
+#24141
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 0 1
+D0
+~
+~
+0 -1 24153
+D1
+~
+~
+0 -1 24142
+D2
+~
+~
+0 -1 24107
+S
+#24142
+A Storage Hut~
+This hut is used to store the goods of the many merchants that come to this
+village. It currently holds little of interest, being filled largely with
+bales of hay and coils of hemp rope.
+~
+0 8 0
+D3
+~
+~
+0 -1 24141
+S
+#24143
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 0 1
+D0
+~
+~
+0 -1 24107
+D1
+~
+~
+0 -1 24144
+D2
+~
+~
+0 -1 24165
+S
+#24144
+A Trader's Den~
+This hut has been loaned by the chieftain to a travelling arms specialist,
+who is currently doing a roaring trade with the locals, who are eager to
+acquire the rare metal weapons he has bought with him from the south.
+~
+0 8 0
+D3
+~
+~
+0 -1 24143
+S
+#24145
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 0 1
+D0
+~
+~
+0 -1 24146
+D1
+~
+~
+0 -1 24148
+D2
+~
+~
+0 -1 24137
+D3
+~
+~
+0 -1 24181
+S
+#24146
+Militia Hut~
+Here the foreign mercenaries who have come to the north looking for 
+employment gather. You may take advantage of their services for a sizeable
+sum of gold should you wish to.
+~
+0 8|4096 0
+D2
+~
+~
+0 -1 24145
+S
+#24147
+Merc Store~
+You shouldn't be here. Go Away. Or I'll Tell.
+
+Oh look- a garbled transmission from Outer Space-
+and a large fries.
+~
+0 8 0
+S
+#24148
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+
+The witchdoctor's hut is to the north of here.
+~
+0 0 1
+D0
+~
+~
+0 -1 24149
+D1
+~
+~
+0 -1 24150
+D3
+~
+~
+0 -1 24145
+S
+#24149
+The Witch Doctor's Hut~
+This hut is cram-packed with magical artefacts, items and spell components
+of every type imaginable (and several unimaginable). Forcing your way through
+the clutter, you eventually find an assistant, a raven-haired witch doctor who 
+smiles sweetly and welcomes you to her hut.
+~
+0 8 0
+D2
+~
+~
+0 -1 24148
+S
+#24150
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 0 1
+D0
+~
+~
+0 -1 24156
+D1
+~
+~
+0 -1 24151
+D3
+~
+~
+0 -1 24148
+S
+#24151
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+
+The wise woman's hut is to the north.
+~
+0 0 1
+D0
+~
+~
+0 -1 24152
+D1
+~
+~
+0 -1 24153
+D3
+~
+~
+0 -1 24150
+S
+#24152
+The Wise Woman's Residence~
+The Wise Woman of the village lives in this run-down old hut. People come
+to her to avail themselves of her remarkable ability to determine the nature
+of items of all types (there's no other reason to come here, really).
+~
+0 4|8 0
+D2
+~
+~
+0 -1 24151
+S
+#24153
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+
+The beastmaster's hut is to the north.
+~
+0 0 1
+D0
+~
+~
+0 -1 24154
+D1
+~
+~
+0 -1 24188
+D2
+~
+~
+0 -1 24141
+D3
+~
+~
+0 -1 24151
+S
+#24154
+The Beastmaster's Hut~
+The Beastmaster captures and trains the wild animals of the north, and then
+sells them to the merchants from the south. It is a very profitable but
+extremely dangerous profession, as the many scars on his brawny body
+suggest.
+~
+0 8|4096 0
+D2
+~
+~
+0 -1 24153
+S
+#24155
+Pet Store Storage~
+You shouldn't be here. Go Away. Or I'll Tell.
+
+
+
+
+
+
+
+NOW!
+~
+0 8 0
+S
+#24156
+Outside a Village Clan Hut~
+You are standing outside a hut in the village. It is a wooden walled structure
+with a thatched roof, and a sturdy oak door. Occasionally a villager enters
+or exits the hut, sparing you a curious glance as they do. A crude etching
+upon the doors of this hut marks it as the Bear Clan hut.
+~
+0 0 1
+D0
+~
+~
+0 -1 24157
+D2
+~
+~
+0 -1 24150
+S
+#24157
+Inside the Hut~
+You are standing inside the hut. The sounds and smells of cooking emanate
+from the east, while quiet conversation can be heard to the west. You feel
+slightly nervous about intruding upon this clan, but then again that's
+what your profession is all about, really. Intruding.
+~
+0 8 0
+D1
+~
+~
+0 -1 24158
+D2
+~
+~
+0 -1 24156
+D3
+~
+~
+0 -1 24159
+S
+#24158
+The Meeting Room~
+You have entered the common room of this hut. Several villagers sit about,
+sipping at their ales and chatting quietly with each other. As you enter
+they smile and bid you welcome, and ask you to stay and enjoy some good
+conversation for a while.
+~
+0 8 0
+D3
+~
+~
+0 -1 24157
+S
+#24159
+The Kitchen~
+In here several teenagers of both sexes rush about preparing the evening
+meal under the watchful eye of a hefty cook, who helps them along with the
+occasional shout or cuff on the ear.
+~
+0 8 0
+D1
+~
+~
+0 -1 24157
+S
+#24160
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 0 1
+D0
+~
+~
+0 -1 24139
+D1
+~
+~
+0 -1 24161
+D3
+~
+~
+0 -1 24167
+S
+#24161
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+
+A trapper is selling his goods to the south.
+~
+0 0 1
+D1
+~
+~
+0 -1 24106
+D2
+~
+~
+0 -1 24162
+D3
+~
+~
+0 -1 24160
+S
+#24162
+A Hut~
+A trapper has set up a business here, where he sells goods that he has
+fashioned or acquired during his expeditions into the wilds. His stock is
+usually rather low, as the villagers quickly buy up for the winter.
+~
+0 8 0
+D0
+~
+~
+0 -1 24161
+S
+#24163
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+
+Food is in fact available to the south of here, though it isn't hot.
+~
+0 0 1
+D1
+~
+~
+0 -1 24165
+D2
+~
+~
+0 -1 24164
+D3
+~
+~
+0 -1 24106
+S
+#24164
+A Supply Hut~
+Some enterprising young women have set up a small shop here, where they
+sell off the surplus food that is not required to provision their Clans.
+You may purchase supplies for your travels here.
+~
+0 8 0
+D0
+~
+~
+0 -1 24163
+S
+#24165
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+
+The brewer's hut is south of here.
+~
+0 0 1
+D0
+~
+~
+0 -1 24143
+D1
+~
+~
+0 -1 24174
+D2
+~
+~
+0 -1 24166
+D3
+~
+~
+0 -1 24163
+S
+#24166
+The Brewer's Hut~
+It is here that the village Brewer practices his holy trade. Should you
+wish to indulge, you may obtain alcohol from the Brewer, though a small
+donation is in order.
+~
+0 8 0
+D0
+~
+~
+0 -1 24165
+S
+#24167
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 0 1
+D1
+~
+~
+0 -1 24160
+D3
+~
+~
+0 -1 24168
+S
+#24168
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 0 1
+D1
+~
+~
+0 -1 24167
+D3
+~
+~
+0 -1 24169
+S
+#24169
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 0 1
+D1
+~
+~
+0 -1 24168
+D2
+~
+~
+0 -1 24170
+S
+#24170
+Outside a Village Clan Hut~
+You are standing outside a hut in the village. It is a wooden walled structure
+with a thatched roof, and a sturdy oak door. Occasionally a villager enters
+or exits the hut, sparing you a curious glance as they do. A crude etching
+upon the doors of this hut marks it as the Eagle Clan hut.
+~
+0 0 1
+D0
+~
+~
+0 -1 24169
+D2
+~
+~
+1 0 24171
+S
+#24171
+Inside the Hut~
+You are standing inside the hut. The sounds and smells of cooking emanate
+from the east, while quiet conversation can be heard to the west. You feel
+slightly nervous about intruding upon this clan, but then again that's
+what your profession is all about, really. Intruding.
+~
+0 0 1
+D0
+~
+~
+1 0 24170
+D1
+~
+~
+0 -1 24173
+D3
+~
+~
+0 -1 24172
+S
+#24172
+The Meeting Room~
+You have entered the common room of this hut. Several villagers sit about,
+sipping at their ales and chatting quietly with each other. As you enter
+they smile and bid you welcome, and ask you to stay and enjoy some good
+conversation for a while.
+~
+0 8 0
+D1
+~
+~
+0 -1 24171
+S
+#24173
+The Kitchen~
+In here several teenagers of both sexes rush about preparing the evening
+meal under the watchful eye of a hefty cook, who helps them along with the
+occasional shout or cuff on the ear.
+~
+0 8 0
+D3
+~
+~
+0 -1 24171
+S
+#24174
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 0 1
+D1
+~
+~
+0 -1 24175
+D3
+~
+~
+0 -1 24165
+S
+#24175
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 0 1
+D1
+~
+~
+0 -1 24176
+D3
+~
+~
+0 -1 24174
+S
+#24176
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 0 1
+D2
+~
+~
+0 -1 24177
+D3
+~
+~
+0 -1 24175
+S
+#24177
+Outside a Village Clan Hut~
+You are standing outside a hut in the village. It is a wooden walled structure
+with a thatched roof, and a sturdy oak door. Occasionally a villager enters
+or exits the hut, sparing you a curious glance as they do. A crude etching
+upon the doors of this hut marks it as the Wolf Clan hut.
+~
+0 0 1
+D0
+~
+~
+0 -1 24176
+D2
+~
+~
+1 0 24178
+S
+#24178
+Inside the Hut~
+You are standing inside the hut. The sounds and smells of cooking emanate
+from the east, while quiet conversation can be heard to the west. You feel
+slightly nervous about intruding upon this clan, but then again that's
+what your profession is all about, really. Intruding.
+~
+0 8 0
+D0
+~
+~
+1 0 24177
+D1
+~
+~
+0 -1 24179
+D3
+~
+~
+0 -1 24180
+S
+#24179
+The Kitchen~
+In here several teenagers of both sexes rush about preparing the evening
+meal under the watchful eye of a hefty cook, who helps them along with the
+occasional shout or cuff on the ear.
+~
+0 8 0
+D3
+~
+~
+0 -1 24178
+S
+#24180
+The Meeting Room~
+You have entered the common room of this hut. Several villagers sit about,
+sipping at their ales and chatting quietly with each other. As you enter
+they smile and bid you welcome, and ask you to stay and enjoy some good
+conversation for a while.
+~
+0 8 0
+D1
+~
+~
+0 -1 24178
+S
+#24181
+Outside a Village Clan Hut~
+You are standing outside a hut in the village. It is a wooden walled structure
+with a thatched roof, and a sturdy oak door. Occasionally a villager enters
+or exits the hut, sparing you a curious glance as they do. A crude etching
+upon the doors of this hut marks it as the Boar Clan hut.
+~
+0 0 1
+D0
+~
+~
+1 -1 24185
+D1
+~
+~
+0 -1 24145
+S
+#24182
+The Common Hall~
+These rooms are used by locals and foreigners alike to relax, sing songs and
+enjoy each other's company. Feel free to stay as long as you wish.
+~
+0 8 0
+D0
+~
+~
+0 -1 24183
+D2
+~
+~
+0 -1 24184
+D3
+~
+~
+0 -1 24190
+S
+#24183
+The Common Hall~
+These rooms are used by locals and foreigners alike to relax, sing songs and
+enjoy each other's company. Feel free to stay as long as you wish.
+~
+0 8 0
+D2
+~
+~
+0 -1 24182
+S
+#24184
+The Common Hall~
+These rooms are used by locals and foreigners alike to relax, sing songs and
+enjoy each other's company. Feel free to stay as long as you wish.
+~
+0 8 0
+D0
+~
+~
+0 -1 24182
+S
+#24185
+Inside the Hut~
+You are standing inside the hut. The sounds and smells of cooking emanate
+from the east, while quiet conversation can be heard to the west. You feel
+slightly nervous about intruding upon this clan, but then again that's
+what your profession is all about, really. Intruding.
+~
+0 8 0
+D1
+~
+~
+0 -1 24187
+D2
+~
+~
+1 -1 24181
+D3
+~
+~
+0 -1 24186
+S
+#24186
+The Meeting Room~
+You have entered the common room of this hut. Several villagers sit about,
+sipping at their ales and chatting quietly with each other. As you enter
+they smile and bid you welcome, and ask you to stay and enjoy some good
+conversation for a while.
+~
+0 8 0
+D1
+~
+~
+0 -1 24185
+S
+#24187
+The Kitchen~
+In here several teenagers of both sexes rush about preparing the evening
+meal under the watchful eye of a hefty cook, who helps them along with the
+occasional shout or cuff on the ear.
+~
+0 8 0
+D3
+~
+~
+0 -1 24185
+S
+#24188
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 0 1
+D1
+~
+~
+0 -1 24189
+D3
+~
+~
+0 -1 24153
+S
+#24189
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+~
+0 0 1
+D1
+~
+~
+0 -1 24190
+D3
+~
+~
+0 -1 24188
+S
+#24190
+A Path in the Village~
+You are strolling along a path in the village. Flecks of white snow are blown
+about on the hard ground by a chill northern breeze that blows in from the
+icy mountains far to the north. You hope that you will be able to find
+a hot meal and a comfortable bed this evening.
+
+The Common Halls lie to the east.
+~
+0 0 1
+D0
+~
+~
+0 -1 24191
+D1
+~
+~
+0 -1 24182
+D3
+~
+~
+0 -1 24189
+S
+#24191
+Outside a Village Clan Hut~
+You are standing outside a hut in the village. It is a wooden walled structure
+with a thatched roof, and a sturdy oak door. Occasionally a villager enters
+or exits the hut, sparing you a curious glance as they do. A crude etching
+upon the doors of this hut marks it as the Deer Clan hut.
+~
+0 0 1
+D0
+~
+~
+0 -1 24192
+D2
+~
+~
+0 -1 24190
+S
+#24192
+Inside the Hut~
+You are standing inside the hut. The sounds and smells of cooking emanate
+from the east, while quiet conversation can be heard to the west. You feel
+slightly nervous about intruding upon this clan, but then again that's
+what your profession is all about, really. Intruding.
+~
+0 8 0
+D1
+~
+~
+0 -1 24194
+D2
+~
+~
+0 -1 24191
+D3
+~
+~
+0 -1 24193
+S
+#24193
+The Meeting Room~
+You have entered the common room of this hut. Several villagers sit about,
+sipping at their ales and chatting quietly with each other. As you enter
+they smile and bid you welcome, and ask you to stay and enjoy some good
+conversation for a while.
+~
+0 8 0
+D1
+~
+~
+0 -1 24192
+S
+#24194
+The Kitchen~
+In here several teenagers of both sexes rush about preparing the evening
+meal under the watchful eye of a hefty cook, who helps them along with the
+occasional shout or cuff on the ear.
+~
+0 8 0
+D3
+~
+~
+0 -1 24192
+S
+#0
+
+
+#RESETS
+*
+O 1 24138 1 24101
+*
+M 1 24100 1 24101 1 *  shaman
+*
+M 1 24117 1 24138 1 *  chief 
+E 1 24127 0 16     *  
+*
+M 1 24101 1 24140 1  
+*
+M 1 24102 1 24144 1 *  trader
+G 1 24115 0	*		0
+G 1 24116 0	*		0
+G 1 24117 0	*		0
+G 1 24118 0	*		0
+G 1 24119 0	*		0
+G 1 24111 0	*		0
+G 1 24112 0	*		0
+G 1 24113 0	*		0
+G 1 24114 0	*		0
+*
+M 1 24103 1 24146 1*     LOADS MERC MASTER
+M 1 24131 1 24147 1 *  LOADS MERCS
+M 1 24132 1 24147 1
+M 1 24133 1 24147 1   
+M 1 24134 1 24147 1
+M 1 24135 1 24147 1   
+M 1 24136 1 24147 1
+*
+M 1 24104 1 24149  1 *  witchdoctor
+G 1 24108 0	*		0
+G 1 24124 0	*		0
+G 1 24136 0	*		0
+G 1 24137 0	*		0
+*
+M 1 24105 1 24152 1 *     LOADS MITZAK THE SAGE
+*
+M 1 24106 1 24154 1 *    LOADS PET SHOP OWNER
+*
+M 1 24110 1 24155 1 *    pets
+M 1 24111 1 24155 1
+M 1 24112 1 24155 1 
+M 1 24113 1 24155 1
+M 1 24114 1 24155 1
+*
+M 1 24107 1 24162 1 *    LOADS GROCER
+G 1 24106 0			0
+G 1 24107 0			0
+G 1 24109 0			0
+G 1 24110 0			0
+*
+M 1 24108 1 24164 1 *     LOADS BAKER
+G 1 24120 0			0
+G 1 24121 0			0
+G 1 24122 0			0
+G 1 24123 0			0
+*
+M 1 24109 1 24166 1 *     LOADS BARTENDER
+G 1 24101 0			0
+G 1 24102 0			0
+G 1 24103 0			0
+G 1 24104 0			0
+G 1 24105 0			0
+*
+M 1 24115 1 24100 1 *    LOADS CLAUDE
+E 1 24126 0 6       *  WEARS MASK
+O 1 24125 0 24100    * LOADS GUILLOTINE
+*
+M 1 24116 1 24174 1 *    LOADS AOD
+G 1 24124 0	*		0          GIVES AOD PSYCHEDELIC POTION
+*
+M 1 24118 3 24169 1 *    LOADS CITIZENS
+M 1 24118 3 24189 1 *   LOADS CITIZENS
+M 1 24119 3 24161 1   * LOADS CITIZENS
+M 1 24119 3 24113 1  *  LOADS CITIZENS
+M 1 24120 3 24112 1 *   LOADS KIDS
+*
+M 1 24121 2 24175 1 *     LOADS FOOTPADS
+E 1 24128 0 16      *  WIELDS SAP
+*
+M 1 24122 6 24171 1*     LOADS DRUNKS
+*
+M 1 24123 3 24111 1*    LOADS BEGGARS
+*
+M 1 24124 1 24177 1 *    LOADS THIEVES
+*
+M 1 24125 5 24150 1 *    LOADS FIDOS
+*
+M 1 24126 6 24176 1 *    LOADS RATS
+*
+M 1 24127 6 24106 1*    LOADS CATS
+*
+M 1 24128 8 24100 1 *       LOADS GUARDS TO 31000
+E 1 24129 0 16     *      WIELDS SWORD        
+E 1 24130 0 5       *     WEARS BREASTPLATE        
+E 1 24131 0 14      *     WEARS BRACER
+E 1 24131 0 15      *     WEARS BRACER
+E 1 24132 0 3       *     WEARS CLOAK
+E 1 24133 0 6       *     WEARS HELM
+E 1 24134 0 11      *     HOLDS SHIELD
+E 1 24135 0 17      *     HOLDS SPEAR
+*
+M 1 24130 8 24115  1 *     LOADS SENTINEL GUARDS TO INSIDE WEST GATE     
+E 1 24129 0 16      *     WIELDS SWORD        
+E 1 24130 0 5       *     WEARS BREASTPLATE        
+E 1 24131 0 14      *     WEARS BRACER
+E 1 24131 0 15      *     WEARS BRACER
+E 1 24132 0 3       *     WEARS CLOAK
+E 1 24133 0 6       *     WEARS HELM
+E 1 24134 0 11      *     HOLDS SHIELD
+E 1 24135 0 17      *     HOLDS SPEAR
+*
+M 1 24130 8 24116   1*     LOADS SENTINELS TO INSIDE EAST GATE
+E 1 24129 0 16      *     WIELDS SWORD        
+E 1 24130 0 5       *     WEARS BREASTPLATE        
+E 1 24131 0 14      *     WEARS BRACER
+E 1 24131 0 15       *    WEARS BRACER
+E 1 24132 0 3         *   WEARS CLOAK
+E 1 24133 0 6          *  WEARS HELM
+E 1 24134 0 11          * HOLDS SHIELD
+E 1 24135 0 17          * HOLDS SPEAR
+*
+M 1 24129 8 24169 1*      LOADS SENTINELS TO NEAR PRISON
+E 1 24129 0 16      *     WIELDS SWORD        
+E 1 24130 0 5        *    WEARS BREASTPLATE        
+E 1 24131 0 14        *   WEARS BRACER
+E 1 24131 0 15         *  WEARS BRACER
+E 1 24132 0 3          *  WEARS CLOAK
+E 1 24133 0 6           * WEARS HELM
+E 1 24134 0 11          * HOLDS SHIELD
+E 1 24135 0 17          * HOLDS SPEAR
+*
+M 1 24128 8 24145 1 *       LOADS GUARDS TO NEAR MERC
+E 1 24129 0 16       *    WIELDS SWORD        
+E 1 24130 0 5         *   WEARS BREASTPLATE        
+E 1 24131 0 14     *      WEARS BRACER
+E 1 24131 0 15      *     WEARS BRACER
+E 1 24132 0 3        *    WEARS CLOAK
+E 1 24133 0 6         *   WEARS HELM
+E 1 24134 0 11         *  HOLDS SHIELD
+E 1 24135 0 17          * HOLDS SPEAR
+*
+M 1 24129 8 24153 1*       LOADS GUARDS TO NEAR PET SHOP
+E 1 24129 0 16      *     WIELDS SWORD        
+E 1 24130 0 5        *    WEARS BREASTPLATE        
+E 1 24131 0 14        *   WEARS BRACER
+E 1 24131 0 15         *  WEARS BRACER
+E 1 24132 0 3           * WEARS CLOAK
+E 1 24133 0 6      *      WEARS HELM
+E 1 24134 0 11      *     HOLDS SHIELD
+E 1 24135 0 17       *    HOLDS SPEAR
+*
+M 1 24128 8 24165 1*       LOADS GUARDS NEAR POOR DISTRICT
+E 1 24129 0 16      *     WIELDS SWORD        
+E 1 24130 0 5        *    WEARS BREASTPLATE        
+E 1 24131 0 14        *   WEARS BRACER
+E 1 24131 0 15         *  WEARS BRACER
+E 1 24132 0 3      *      WEARS CLOAK
+E 1 24133 0 6       *     WEARS HELM
+E 1 24134 0 11 0     *    HOLDS SHIELD
+E 1 24135 0 17        *   HOLDS SPEAR
+S
+
+
+#SHOPS
+24102 5 9 30 0 0 150 50 0 23
+24103 0 0 0 0 0 150 50 0 23
+24104 2 3 4 10 26 150 50 0 23
+24106 0 0 0 0 0 150 50 0 23
+24107 15 13 8 1 18 150 50 0 23
+24108 19 0 0 0 0 180 20 0 23
+24109 17 0 0 0 0 180 20 0 23
+24116 5 9 10 15 18 180 20 0 23
+0
+
+
+#SPECIALS
+M  24100 spec_cast_adept *			the village shaman
+M  24115 spec_executioner *			the village champion
+M  24124 spec_thief	*		a thief
+M  24125 spec_fido	*		a scrawny wolf
+M  24126 spec_fido	*		a rat
+M  24127 spec_fido	*		a dog
+M  24128 spec_guard	*		a member of the village militia
+M  24129 spec_guard	*		a member of the village militia
+M  24130 spec_guard	*		a member of the village militia
+S
+
+#$

@@ -1,0 +1,758 @@
+#AREA
+weed.are~
+Cannabis~
+{40 60} Garth   Cannabis~
+30230 30270
+
+#MOBILES
+#30232
+cannabis sativa~
+Cannabis Sativa~
+The Mother of all Cannabis tempts your ability to resist.
+~
+This giant plant is covered with bud. It looks like it could 
+smoke you.
+~
+human~
+64|128 8|128|524288 -500 0
+55 0 50d10+5500 5d5+5000 10d4+23 charge
+-25 -25 -25 -1
+EK 0 0 0
+stand stand female 0
+0 0 giant 0
+#30233
+cannabis indica~
+Cannabis Indica~
+The Father of all Cannabis is the ultimate in plant evolution.
+~
+The bud of this giant bush weighs its leaves to the ground. 
+It is a blend of beautiful orange, red, and blue hairs. Just a 
+fraction of this plant would be enough to keep you happy for a year.
+~
+human~
+2|64 8|128|524288 -500 0
+60 0 50d10+6750 5d5+5000 8d6+28 charge
+-30 -30 -30 -3
+EK 0 0 0
+stand stand male 0
+0 0 giant 0
+#30234
+small joint~
+A Small Joint~
+A small joint sits here smoking.
+~
+This wrapping of reefer is just what you might need after a hard 
+day of work.
+~
+human~
+64|128 32768|524288 -350 0
+40 0 15d10+1850 5d5+1000 4d8+13 charge
+-13 -13 -13 3
+EK 0 0 0
+stand stand male 0
+0 0 small 0
+#30235
+blunt~
+A Blunt~
+An empty cigar skin looks filled with a green substance.
+~
+What used to be a cigar is now filled with enough bud to get the 
+owner 5 years.
+~
+human~
+64 524288 -350 0
+46 0 25d10+3250 5d5+1000 6d6+16 none
+-16 -16 -16 2
+EK 0 0 0
+stand stand male 0
+0 0 medium 0
+#30236
+bowlful resinated bud~
+A Bowlful of Resinated Bud~
+A bowl of resinated bud looks like just the refill you need.
+~
+While not a large quanitity of weed, it's probably enough to get 
+you by for an hour or two.
+~
+human~
+64|128 8|524288 -250 0
+43 0 25d10+2500 5d5+1000 3d12+15 none
+-15 -15 -15 2
+K 0 0 0
+stand stand male 0
+0 0 medium 0
+#30237
+dea agent~
+The DEA Agent~
+A DEA Agent flashes his badge and throws you against the wall.
+~
+This burly, buzzcutted fellow just joined the DEA after being fired 
+from the ATF for shooting an innocent child. He's not the type to be 
+messed with. Of course if you've been smoking any of this weed, you 
+wouldn't really care.
+~
+human~
+64|128 8|32768 350 0
+51 0 50d10+4500 5d5+5000 5d8+20 charge
+-21 -21 -21 0
+K 0 0 0
+stand stand male 0
+0 0 medium 0
+#30238
+smuggler~
+The Smuggler~
+A Smuggler is hiding from the DEA.
+~
+A big Central American looks at you and says, 
+"Hola amigo, muchos dinenos."
+~
+human~
+64|512 32768|65536 -300 0
+43 0 25d10+2500 5d5+1000 3d12+15 pound
+-15 -15 -15 2
+K 0 0 0
+stand stand male 0
+0 0 medium 0
+#30239
+munchies~
+The Munchies~
+You are starving!
+~
+Just the sweet fragrance of the air is enough to give you 
+the munchies.
+~
+unique~
+32|64 2|8 0 0
+38 0 10d10+1600 5d5+1000 5d6+12 none
+-13 -13 -13 3
+K 0 0 0
+stand stand none 0
+0 0 medium 0
+#30240
+tom petty~
+Tom Petty~
+Tom Petty stands here strumming a guitar.
+~
+He breaks into timeless verse singing, 
+~
+human~
+64 8|128|32768|524288 500 0
+57 0 50d10+6000 5d5+5000 6d8+24 pound
+-27 -27 -27 -2
+CEIK 0 0 0
+stand stand male 0
+0 0 medium 0
+#0
+
+
+#OBJECTS
+#30232
+bong clear blue graffix glass~
+a 4 Foot Blue Glass Graffix(R)~
+A Beautiful Blue Glass Bong has a full bowl of weed.~
+glass~
+weapon 1|512 1|8192
+exotic 6 9 suction 0 
+60 7 7200 P
+A
+18 10
+A
+19 10
+A
+3 -1
+#30233
+hit joint~
+a Hit from the Joint~
+A few of these while playing and you're having more fun than most mudders!~
+~
+potion 1 1
+25 'heal' 'invis' 'sanctuary' '' 
+25 1 5800 P
+#30234
+brownie weed~
+a Brownie~
+A Brownie cooked with THC oil awaits your bite.~
+~
+pill 1 1
+30 'armor' 'fly' 'infravision' '' 
+25 1 2000 P
+#30235
+badge dea~
+a Badge~
+A badge with the letters DEA inscribed.~
+~
+armor 64 1|16384
+0 0 0 0 0 
+50 2 1300 P
+A
+1 2
+#30236
+bowl~
+a Bowl~
+An ornate bowl with a clear red chamber for resinating bud.~
+~
+weapon 1|1024 1|8192
+exotic 6 9 suction 0 
+54 6 12000 P
+A
+13 10
+A
+19 10
+A
+12 35
+#30237
+joint everburning~
+an Everburning Joint~
+The flame of this joint will never run out~
+~
+light 1 1
+0 1 -1 0 0 
+55 5 1200 P
+A
+12 25
+A
+2 2
+#30238
+plate wings~
+a plate of Buffalo Wings~
+When you've got the munchies, what better snack than buffalo wings.~
+~
+food 0 1
+24 24 0 0 0 
+0 5 10 P
+#0
+
+
+#ROOMS
+#30232
+Welcome to Cannabis~
+This area is intended to be humorous. 
+Do not enter if you have a poor sense of humor or are under level 40. 
+You have been warned. You try being creative after a few screwdrivers.
+~
+0 4|1024 1
+D0
+~
+~
+0 -1 30233
+D2
+~
+~
+0 -1 18024
+S
+#30233
+Base of the Plant~
+You are at the base of a giant plant with leaves of seven points. 
+You notice a sweet smell in the air, and begin to feel lightheaded 
+as you inhale this tasty air. As you look up you see buds of orange, 
+red, blue, green, and purple. The beautiful colors and the way you 
+are feeling invite you to explore further.
+~
+0 0 3
+D0
+~
+~
+0 -1 -1
+D2
+~
+~
+0 -1 30232
+D4
+~
+~
+0 -1 30234
+S
+#30234
+The Stem of the Plant~
+You are travelling up the stem of the plant. You see leaves of the 
+plant to the left and the right of you. As before, the air is filled 
+with a sweet fragrance which relaxes you and enhances your senses.
+~
+0 0 3
+D0
+~
+~
+0 -1 30250
+D1
+~
+~
+0 -1 30236
+D2
+~
+~
+0 -1 30253
+D3
+~
+~
+0 -1 30235
+D4
+~
+~
+0 -1 30241
+D5
+~
+~
+0 -1 30233
+S
+#30235
+A Leaf of the Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D1
+~
+~
+0 -1 30234
+D3
+~
+~
+0 -1 30239
+S
+#30236
+A Leaf of the Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D1
+~
+~
+0 -1 30237
+D3
+~
+~
+0 -1 30234
+S
+#30237
+A Leaf of the Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D1
+~
+~
+0 -1 30238
+D3
+~
+~
+0 -1 30236
+S
+#30238
+A Leaf of the Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D3
+~
+~
+0 -1 30237
+S
+#30239
+A Leaf of the Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D1
+~
+~
+0 -1 30235
+D3
+~
+~
+0 -1 30240
+S
+#30240
+A Leaf of the Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D1
+~
+~
+0 -1 30239
+S
+#30241
+The Stem of the Plant~
+You are travelling up the stem of the plant. You see leaves of the 
+plant to the left and the right of you. As before, the air is filled 
+with a sweet fragrance which relaxes you and enhances your senses.
+~
+0 0 3
+D0
+~
+~
+0 -1 30256
+D1
+~
+~
+0 -1 30244
+D2
+~
+~
+0 -1 30258
+D3
+~
+~
+0 -1 30242
+D4
+~
+~
+0 -1 30246
+D5
+~
+~
+0 -1 30234
+S
+#30242
+A Leaf of the Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D1
+~
+~
+0 -1 30241
+D3
+~
+~
+0 -1 30243
+S
+#30243
+A Leaf of the Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D1
+~
+~
+0 -1 30242
+S
+#30244
+A Leaf of the Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D1
+~
+~
+0 -1 30245
+D3
+~
+~
+0 -1 30241
+S
+#30245
+A Leaf of the Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D3
+~
+~
+0 -1 30244
+S
+#30246
+The Stem of the Plant~
+You are travelling up the stem of the plant. You see leaves of the 
+plant to the left and the right of you. As before, the air is filled 
+with a sweet fragrance which relaxes you and enhances your senses.
+~
+0 0 3
+D0
+~
+~
+0 -1 30260
+D1
+~
+~
+0 -1 30247
+D2
+~
+~
+0 -1 30261
+D3
+~
+~
+0 -1 30248
+D4
+~
+~
+0 -1 30249
+D5
+~
+~
+0 -1 30241
+S
+#30247
+A Leaf of the Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D3
+~
+~
+0 -1 30246
+S
+#30248
+A Leaf of the Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D1
+~
+~
+0 -1 30246
+S
+#30249
+The Top of the Plant~
+You have reached the top this wonderful bundle of bud. You remember 
+when you were young and you were told to say no to drugs. But were 
+you ever told how they could expand your mind and give you fun new 
+experiences?
+~
+0 0 3
+D5
+~
+~
+0 -1 30246
+S
+#30250
+A Leaf of the Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D0
+~
+~
+0 -1 30251
+D2
+~
+~
+0 -1 30234
+S
+#30251
+A Leaf of The Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D0
+~
+~
+0 -1 30252
+D2
+~
+~
+0 -1 30250
+S
+#30252
+A Leaf of The Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D2
+~
+~
+0 -1 30251
+S
+#30253
+A Leaf of The Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D0
+~
+~
+0 -1 30234
+D2
+~
+~
+0 -1 30254
+S
+#30254
+A Leaf of The Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D0
+~
+~
+0 -1 30253
+D2
+~
+~
+0 -1 30255
+S
+#30255
+A Leaf of The Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D0
+~
+~
+0 -1 30254
+S
+#30256
+A Leaf of The Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D0
+~
+~
+0 -1 30257
+D2
+~
+~
+0 -1 30241
+S
+#30257
+A Leaf of The Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D2
+~
+~
+0 -1 30256
+S
+#30258
+A Leaf of The Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D0
+~
+~
+0 -1 30241
+D2
+~
+~
+0 -1 30259
+S
+#30259
+A Leaf of The Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D0
+~
+~
+0 -1 30258
+S
+#30260
+A Leaf of The Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D2
+~
+~
+0 -1 30246
+S
+#30261
+A Leaf of The Plant~
+You are travelling on the leaves of the plant. You feel yourself 
+becoming stuck in the hairs of the plant. You look around and all 
+you see is sheer beauty. If only real life could be this perfect.
+~
+0 0 3
+D0
+~
+~
+0 -1 30246
+S
+#0
+
+
+#RESETS
+*
+M 1 30233 1 30249 1 *			Cannabis Indica to The Top of thePlant
+E 1 30232 100 16
+*
+M 1 30232 1 30246 1 *		Cannabis Sativa to The Stem of the Plant
+E 1 30236 100 16
+*
+M 1 30240 1 30241 1 *		Tom Petty to The Stem of the Plant
+E 1 30237 100 0
+*
+M 1 30236 1 30256  1 *A Bowlful of Resinated Bud to ALeaf of The Plant
+*
+M 1 30236 1 30258 1 *	A Bowlful of Resinated Bud to A Leaf of The Plant
+*
+M 1 30235 1 30236 1 *	A Blunt to A Leaf of the Plant
+*
+M 1 30235 1 30235 1 *A Blunt to A Leaf of the Plant
+*
+M 1 30234 1 30233 1 *A Small Joint to Base of the Plant
+G 1 30233 100
+*
+M 1 30239 1 30233 1 *	The Munchies to Base of the Plant
+G 1 30238 100
+*
+M 1 30234 1 30234 1 * A Small Joint to The Stem of the Plant
+G 1 30233 100
+*
+M 1 30237 1 30252 1 * The DEA Agent to A Leaf of The Plant
+E 1 30235 100 17
+*
+M 1 30238 1 30255 1 * The Smuggler to A Leaf of The Plant
+G 1 30234 100
+*
+M 1 30237 1 30245 1 * The DEA Agent to A Leaf of the Plant
+E 1 30235 100 17
+*
+M 1 30236 1 30245 1 * A Bowlful of Resinated Bud to A Leaf of the Plant
+G 1 30234 100
+S
+
+#OLIMITS
+O 30233 10	* sanctuary potion
+S
+
+#$

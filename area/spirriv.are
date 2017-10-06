@@ -1,0 +1,2259 @@
+#AREA 
+RiverSpirit.are~ 
+River of spirits.~ 
+{50 110} RM River of spirits~
+20000 20099
+
+#HELPS
+-1 spirit~
+River of spirits.
+Converted & edited by REAL MUDDERS
+Special thanx to Serdar & Anatolia Consortium~
+0 $~
+
+#OBJECTS
+
+#20066
+gloves fire ancient~
+a pair of flaming ancient gloves~
+A pair of flaming gloves is burning on the ground.~
+fire~
+armor 0 AH
+36 42 42 30 30
+56 10 136 G
+
+A
+13 150
+A
+19 5
+A
+24 -8
+
+
+#20070
+scroll ywln~
+a scroll ywln~
+A rolled ywln is here.~
+vellum~
+scroll G AO
+48 'bless' 'invis' 'cure light' ''
+46 10 8520 P
+E
+scroll~
+Just try to recite it and see what happen.
+~
+
+#20072
+paper white~
+a white paper~
+A rolled paper is here.~
+vellum~
+scroll G AO
+55 'acid blast' 'burning hands' '' ''
+41 10 12100 P
+E
+scroll~
+Just try to recite it and see what happen.
+~
+
+#20073
+paper red~
+a red paper~
+A rolled paper is here.~
+vellum~
+scroll G AO
+55 'fireball' 'lightning ball' '' ''
+45 10 11100 P
+E
+scroll~
+Just try to recite it and see what happen.
+~
+
+#20074
+paper green~
+a green paper~
+A rolled paper is here.~
+vellum~
+scroll G AO
+45 'sleep' 'curse' 'weaken' 'blind'
+42 10 15900 P
+E
+scroll~
+Just try to recite it and see what happen.
+~
+
+#20075
+paper cyan~
+a cyan paper~
+A rolled paper is here.~
+vellum~
+scroll G AO
+45 'gas breath' '' '' ''
+40 10 20100 P
+E
+scroll~
+Just try to recite it and see what happen.
+~
+
+
+
+#20010
+cloud~
+an energy cloud~
+An energy cloud is resting here.
+~
+ice~
+wand G AO
+72 10 10 'lightning breath' 0 
+77 2 19900 P
+
+#20071
+cloud~
+an energy cloud~
+An energy cloud is resting here.
+~
+ice~
+wand G AO
+50 15 15 'lightning breath' 0 
+55 2 28000 P
+
+#20002
+flame dragon~
+flame of a dragon~
+A very bright , continues flame.~
+fire~
+light AG A
+0 0 -1 0 0
+81 10 6400 P
+A
+13 151
+A
+17 -30
+A
+19 6
+A
+24 -5
+#20001
+whip fear dragon~
+fear of a lost dragon~
+A whip shaped form of fear lies here.~
+none~
+weapon M AN
+whip 20 6 whip DCE
+90 190 1200000 G
+
+
+A
+12 140
+A
+13 220
+A
+18 15
+A 
+19 15
+A
+24 -10
+
+
+#0
+
+
+
+#MOBILES
+
+
+#20080
+ancient wizard~
+the ancient wizard~
+An old man walks around, talking to himself.
+~
+He is old, despite being old he looks strong and wise.
+~
+human~
+ABKVe DHN 900 0
+93 5 25d10+28800 1d1+1999 10d12+62 magic
+-95 -95 -95 -75
+AF ABC D 0
+stand stand male 15000
+0 0 medium 0
+
+
+#20014
+demon ice~
+an ice demon~
+An ice demon is here resting.
+~
+   Brrr.. you fell cold as you look at his face.
+~
+human~
+ABWeCFGT  DFJVZ 0 0
+50 20 10d40+5000 10d30+800 10d4+30
+-30 -24 -30 -40 -20
+CEFKNU AB TPKIL 0
+stand stand male 5000
+ABCDEFG 0 medium 0
+
+
+#20015
+lost demon~
+a lost demon~
+A lost demon is here looking for his way.
+~
+   He is lost looking for the way his home.You should help him if he did
+not grin evilly at you.Better keep your distanse.
+~
+human~
+ABWeCFGT  DFJVZ 0 0
+52 20 10d40+4000 10d30+800 10d4+30
+-30 -24 -30 -40 -20
+CEFKNU AB TPKIL 0
+stand stand male 5000
+ABCDEFG 0 medium 0
+
+#20016
+demon angry~
+an angry demon~
+An angry demon is here looking for a victom.
+~
+  Angry very angry, wispering something buy you can not understand what he
+says sumone must have disturbed him, he will probubly will revange first
+he see someone else.
+~
+human~
+ABWeCFGT  DFJVZ 0 0
+60 20 10d40+3500 10d30+800 10d4+30
+-30 -24 -30 -40 -20
+CEFKNU AB TPKIL 0
+stand stand male 5000
+ABCDEFG 0 medium 0
+
+#20017
+demon fire~
+a fire demon~
+A fire demon is here playing with lava.
+~
+  He is burning , flames surround him.
+~
+human~
+ABWeCFGT  DFJVZ 0 0
+69 20 10d40+6000 10d30+800 10d5+20
+-30 -24 -30 -40 -20
+CEFKNU AB TPKIL 0
+stand stand male 5000
+ABCDEFG 0 medium 0
+
+#20018
+anka bird~
+anka bird~
+An anka bird is here singing songs.
+~
+   So beautiful!
+~
+unique~
+ABWeCFGT  DFJVZ 0 0
+69 20 10d40+7000 10d30+800 10d5+20
+-30 -24 -30 -40 -20
+CEFKNU AB TPKIL 0
+stand stand male 5000
+ABCDEFG 0 medium 0
+
+#20019
+watter arial~
+a watter arial~
+A watter arial is here playing with watter.
+~
+~
+arial~
+ABWeCFGT  DFHJVZ 0 0
+71 20 10d40+7000 10d30+800 10d5+40
+-30 -24 -30 -40 -20
+CEFKNU AB TPKIL 0
+stand stand male 5000
+ABCDEFG 0 medium 0
+
+
+#20060
+spirit fear dragon~
+Spirit of fear dragon~
+Spirit of fear dragon is here.
+~
+  A spriti but has its original body after he died.Here he is behind you 
+within his full nothingnes and anger, being killed, hunted.
+~
+dragon~
+ABWeCFGT  DFHJVZ 0 0
+110 20 10d99+29000 10d50+2000 20d10+150 pierce
+-150 -150 -150 -151
+CEFKNU ABHQY TPKIL 0
+stand stand male 5000
+ABCDEFG 0 medium 0
+
+
+#20000
+guardian garden~
+Guardian of garden~
+Guardian of the garden is here
+~
+~
+human~
+ABWe  DFHJVZ 0 0
+80 20 10d99+21000 10d50+2000 10d10+100 pierce
+-150 -150 -150 -151
+CEFKNU ABHQY TPKIL J
+stand stand male 5000
+A 0 medium 0
+
+#20001
+guardian hell road~
+Guardian of the road~
+Guardian of the hell road is here
+~
+~
+human~
+ABWe  DFHJVZ 0 0
+91 20 10d99+21000 10d50+2000 10d10+100 pierce
+-150 -150 -150 -151
+CEFKNU ABHQY TPKIL J
+stand stand male 5000
+A 0 medium 0
+
+
+#20002
+spirit jonny~
+spirit of jonny~
+Spirit of Jonny is here.
+~
+
+~
+unique~
+ABWe  DFHJVZ 0 0
+91 20 10d99+21000 10d50+2000 10d10+100 pierce
+-50 -50 -50 -51
+CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
+stand stand male 5000
+A 0 medium 0
+
+
+#20003
+spirit kowenno~
+spirit of kowenno~
+Spirit of Kowenno is here.
+~
+~
+unique~
+ABWe  DFHJVZ 0 0
+91 20 10d99+21000 10d50+2000 10d10+100 pierce
+-50 -50 -50 -51
+CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
+stand stand male 5000
+A 0 medium 0
+ 
+
+#20004
+spirit kalel~
+spirit of kalel~
+Spirit of Kalel is here.
+~
+~
+unique~
+ABWe  DFHJVZ 0 0
+91 20 10d99+21000 10d50+2000 10d10+100 pierce
+-50 -50 -50 -51
+CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
+stand stand male 5000
+A 0 medium 0
+
+
+#20005
+spirit thenor~
+spirit of thenor~
+Spirit of Thenor is here.
+~
+~
+unique~
+ABWe  DFHJVZ 0 0
+91 20 10d99+21000 10d50+2000 10d10+100 pierce
+-50 -50 -50 -51
+CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
+stand stand male 5000
+A 0 medium 0
+
+
+#20006
+spirit neruda~
+spirit of neruda~
+Spirit of Neruda is here.
+~
+~
+unique~
+ABWe  DFHJVZ 0 0
+91 20 10d99+21000 10d50+2000 10d10+100 pierce
+-50 -50 -50 -51
+CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
+stand stand male 5000
+A 0 medium 0
+
+
+#20007
+spirit coni~
+spirit of coni~
+Spirit of Coni is here.
+~
+~
+unique~
+ABWe  DFHJVZ 0 0
+91 20 10d99+21000 10d50+2000 10d10+100 pierce
+-50 -50 -50 -51
+CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
+stand stand male 5000
+A 0 medium 0
+
+#20008
+spirit takasi~
+spirit of takasi~
+Spirit of Takasi is here.
+~
+~
+unique~
+ABWe  DFHJVZ 0 0
+91 20 10d99+21000 10d50+2000 10d10+100 pierce
+-50 -50 -50 -51
+CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
+stand stand male 5000
+A 0 medium 0
+ 
+
+#20009
+spirit rasputin~
+spirit of rasputin~
+Spirit of Rasputin is here.
+~
+~
+unique~
+ABWe  DFHJVZ 0 0
+91 20 10d99+21000 10d50+2000 10d10+100 pierce
+-50 -50 -50 -51
+CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
+stand stand male 5000
+A 0 medium 0
+ 
+
+
+
+#0
+
+
+
+#ROOMS
+#20000
+Entrance to the sewers~
+	This is the old sweer system of this cursed prison.Exits are north
+and down.
+~
+0 DN 6
+
+
+D5
+Seweers
+~
+~
+0 -1 20001
+
+
+S
+
+#20001
+Sewers~
+	This is a dark and teribbly smelling tunnel.You can't see the
+start and the end of the tunnel.Just the sound comming from the 
+continuing end of the tunnel.You just feel that there is an exit.If
+you are wrong? what will happen.A dead end? an exitless maze? or death?
+You don't know what is whaiting you there, now it't time to go.
+     There is a small tablet on the wall.
+~
+
+0 DN 6
+
+D2
+It is too dark.
+~
+~
+0 -1 20002
+
+D4
+You can'r see properly.
+~
+~
+0 -1 20000
+
+E
+small tablet~
+    -------------------------------------------
+        		WARNING
+    Watch your step in this department.Secret 
+    level is 2.Unautorized entrances forbidden.
+    -------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+{     This area has been designed and edited by    }
+{		   REAL MUDDERS			   }
+{ Area redesigned by Revaler, thanx to everybody   }
+{          helped me testing the area.             }
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#20002
+Dark tunnel~
+	You still feel that terible smell.From where does it come?
+There is watter ant he floor of tunnel but it't so clear that you can 
+drink it.No it comes from a different place, from walls ? no not from
+walls.Something frightens you, you should better turn back.
+~
+0 DNA 6
+
+D0
+Seweers
+~
+~
+0 -1 20001
+
+D1
+Dark tunnel
+~
+~
+0 -1 20003
+
+
+S
+
+
+#20003
+Dark tunnel~
+	The tunnel is dark and frightining.You still fell that smell and
+hear this meanless sound, what is it ? It sounds like a warning message,
+no no it's different, someone is crying; himm sounds like; but not, well
+better walk and find out what the problem is. 
+~
+
+0 DNA 6
+
+D3
+The dark tunnel
+~
+~
+0 -1 20002
+
+D1
+The dark tunnel
+~
+~
+0 -1 20004
+S
+
+
+#20004
+Dark tunnel~
+	The tunnel is dark and frightining.You still fell that smell and
+hear this meanless sound, what is it ? It sounds like a warning message,
+no no it's different, someone is crying; himm sounds like; but not, well
+better walk and find out what the problem is. 
+~
+
+0 DNA 6
+
+D3
+The dark tunnel
+~
+~
+0 -1 20003
+
+D0
+The dark tunnel
+~
+~
+0 -1 20005
+S
+
+
+#20005
+Dark tunnel~
+	The tunnel is dark and frightining.You still fell that smell and
+hear this meanless sound, what is it ? It sounds like a warning message,
+no no it's different, someone is crying; himm sounds like; but not, well
+better walk and find out what the problem is. 
+~
+
+0 DNA 6
+
+D2
+The dark tunnel
+~
+~
+0 -1 20004
+
+D1
+The dark tunnel
+~
+~
+0 -1 20006
+S
+
+
+#20006
+Dark tunnel~
+	The tunnel is dark and frightining.You still fell that smell and
+hear this meanless sound, what is it ? It sounds like a warning message,
+no no it's different, someone is crying; himm sounds like; but not, well
+better walk and find out what the problem is. 
+~
+
+0 DNA 6
+
+D3
+The dark tunnel
+~
+~
+0 -1 20005
+
+D0
+The dark tunnel
+~
+~
+0 -1 20007
+S
+
+
+#20007
+Dark tunnel~
+	The tunnel is dark and frightining.You still fell that smell and
+hear this meanless sound, what is it ? It sounds like a warning message,
+no no it's different, someone is crying; himm sounds like; but not, well
+better walk and find out what the problem is. 
+~
+
+0 DNA 6
+
+D2
+The dark tunnel
+~
+~
+0 -1 20006
+
+D0
+The dark tunnel
+~
+~
+0 -1 20008
+S
+
+
+#20008
+Dark tunnel~
+	The tunnel is dark and frightining.You still fell that smell and
+hear this meanless sound, what is it ? It sounds like a warning message,
+no no it's different, someone is crying; himm sounds like; but not, well
+better walk and find out what the problem is. 
+~
+
+0 DNA 6
+
+D2
+The dark tunnel
+~
+~
+0 -1 20007
+
+D0
+The dark tunnel
+~
+~
+0 -1 20009
+S
+
+
+#20009
+Dark tunnel~
+	The tunnel is dark and frightining.You still fell that smell and
+hear this meanless sound, what is it ? It sounds like a warning message,
+no no it's different, someone is crying; himm sounds like; but not, well
+better walk and find out what the problem is. 
+~
+
+0 DNA 6
+
+D2
+The dark tunnel
+~
+~
+0 -1 20008
+
+D1
+The dark tunnel
+~
+~
+0 -1 20010
+S
+
+
+#20010
+Dark tunnel~
+	The tunnel is dark and frightining.You still fell that smell and
+hear this meanless sound, what is it ? It sounds like a warning message,
+no no it's different, someone is crying; himm sounds like; but not, well
+better walk and find out what the problem is. 
+~
+
+0 DNA 6
+
+D3
+The dark tunnel
+~
+~
+0 -1 20009
+
+D1
+The dark tunnel
+~
+~
+0 -1 20011
+S
+
+
+#20011
+Dark tunnel~
+	The tunnel is dark and frightining.You still fell that smell and
+hear this meanless sound, what is it ? It sounds like a warning message,
+no no it's different, someone is crying; himm sounds like; but not, well
+better walk and find out what the problem is. 
+~
+
+0 DNA 6
+
+D3
+The dark tunnel
+~
+~
+0 -1 20010
+
+D1
+The dark tunnel
+~
+~
+0 -1 20012
+S
+
+
+#20012
+Dark tunnel~
+	At last you see a light at the end of the tunnel, and the sound
+got clear.You don't feel that smell anymore.And the sound , you realise
+that the sound was just the sound of a watterfall.The tunnels made it
+sound like that, himm relaxing sound.
+~
+
+0 DNA 6
+
+D3
+The dark tunnel
+~
+~
+0 -1 20011
+
+D0
+The dark tunnel
+~
+~
+0 -1 20013
+S
+
+
+#20013
+Exit of the dark tunnel~
+	It's brighter now.You can see all around without the help of your
+light source.It's more clear that the sound is coming from a watterfall.
+But where is this watterfall?
+~
+
+0 DN 6
+
+D2
+The dark tunnel
+~
+~
+0 -1 20012
+
+D1
+Watterfall.
+~
+~
+0 -1 20014
+S
+
+
+#20014
+Watterfall~
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+	You have fallen.Luckyly you haven't injured yourself.Wow it was
+really high.You don't have a chance of climbing up there.Better continue
+your way, from the river.Himm nice place.Looks like the part of heaven.
+You hear the sings of birds, makes you relax, and feel wonderfull.This
+place is full of peace...This is the land of lost spirits.
+~
+
+0 0 6
+
+D2
+The dark tunnel
+~
+~
+0 -1 20015
+S
+
+
+#20015
+River of spirits~
+This is a wonderfull place with full of peace.The river you are on is
+wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
+isn't it?
+~
+
+0 0 6
+
+D1
+River of spirits
+~
+~
+0 -1 20016
+
+S
+
+#20016
+River of spirits~
+This is a wonderfull place with full of peace.The river you are on is
+wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
+isn't it?
+~
+
+0 0 6
+
+D3
+River of spirits
+~
+~
+0 -1 20015
+
+D1
+River of spirits
+~
+~
+0 -1 20017
+
+S
+
+#20017
+River of spirits~
+This is a wonderfull place with full of peace.The river you are on is
+wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
+isn't it?
+~
+
+0 0 6
+
+D3
+River of spirits
+~
+~
+0 -1 20016
+
+D1
+River of spirits
+~
+~
+0 -1 20018
+
+D2
+hell road
+~
+~
+0 -1 20037
+
+
+S
+
+#20018
+River of spirits~
+This is a wonderfull place with full of peace.The river you are on is
+wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
+isn't it?
+~
+
+0 0 6
+
+D3
+River of spirits
+~
+~
+0 -1 20017
+
+D1
+River of spirits
+~
+~
+0 -1 20019
+
+D0
+garden road
+~
+~
+0 -1 20028
+
+
+S
+
+#20019
+River of spirits~
+This is a wonderfull place with full of peace.The river you are on is
+wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
+isn't it?
+~
+
+0 0 6
+
+D3
+River of spirits
+~
+~
+0 -1 20018
+
+D1
+River of spirits
+~
+~
+0 -1 20020
+
+S
+
+#20020
+River of spirits~
+This is a wonderfull place with full of peace.The river you are on is
+wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
+isn't it?
+~
+
+0 0 6
+
+D3
+River of spirits
+~
+~
+0 -1 20019
+
+D1
+River of spirits
+~
+~
+0 -1 20021
+D2
+hell road
+~
+~
+0 -1 20040
+
+
+S
+
+#20021
+River of spirits~
+This is a wonderfull place with full of peace.The river you are on is
+wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
+isn't it?
+~
+
+0 0 6
+D0
+garden road
+~
+~
+0 -1 20031
+
+
+D3
+River of spirits
+~
+~
+0 -1 20020
+
+D1
+River of spirits
+~
+~
+0 -1 20022
+
+S
+
+#20022
+River of spirits~
+This is a wonderfull place with full of peace.The river you are on is
+wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
+isn't it?
+~
+
+0 0 6
+
+D3
+River of spirits
+~
+~
+0 -1 20021
+
+D1
+River of spirits
+~
+~
+0 -1 20023
+
+S
+
+#20023
+River of spirits~
+This is a wonderfull place with full of peace.The river you are on is
+wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
+isn't it?
+~
+
+0 0 6
+D0
+garden road
+~
+~
+0 -1 20033
+
+
+D3
+River of spirits
+~
+~
+0 -1 20022
+
+D1
+River of spirits
+~
+~
+0 -1 20024
+
+S
+
+#20024
+River of spirits~
+This is a wonderfull place with full of peace.The river you are on is
+wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
+isn't it?
+~
+
+0 0 6
+
+D3
+River of spirits
+~
+~
+0 -1 20023
+
+D1
+ocean of neutrality
+~
+~
+0 -1 20045
+
+S
+
+#20025
+Garden road~
+   This road seems to confinue forever, on one side of the road is river
+and the other side is a beautiful flover garden , birds , trees , flowers
+peace and the spirits, they look happy becouse of being here.Yes you see
+goodnes because of being good in real life , this must be heaven , or part
+of heaven yes this wonderfull place is part of heaven.
+~
+
+0 0 3
+
+D1
+garden road
+~
+~
+0 -1 20026
+
+S
+
+
+#20026
+Garden road~
+   This road seems to confinue forever, on one side of the road is river
+and the other side is a beautiful flover garden , birds , trees , flowers
+peace and the spirits, they look happy becouse of being here.Yes you see
+goodnes because of being good in real life , this must be heaven , or part
+of heaven yes this wonderfull place is part of heaven.
+~
+
+0 0 3
+
+D3
+garden road
+~
+~
+0 -1 20025
+
+D1
+garden road
+~
+~
+0 -1 20027
+
+S
+
+
+#20027
+Garden road~
+   This road seems to confinue forever, on one side of the road is river
+and the other side is a beautiful flover garden , birds , trees , flowers
+peace and the spirits, they look happy becouse of being here.Yes you see
+goodnes because of being good in real life , this must be heaven , or part
+of heaven yes this wonderfull place is part of heaven.
+~
+
+0 0 3
+D3
+garden road
+~
+~
+0 -1 20026
+
+
+D1
+garden road
+~
+~
+0 -1 20028
+
+S
+
+
+#20028
+Garden road~
+   This road seems to confinue forever, on one side of the road is river
+and the other side is a beautiful flover garden , birds , trees , flowers
+peace and the spirits, they look happy becouse of being here.Yes you see
+goodnes because of being good in real life , this must be heaven , or part
+of heaven yes this wonderfull place is part of heaven.
+~
+
+0 0 3
+
+D2
+river of spirits
+~
+~
+0 -1 20018
+
+D3
+garden road
+~
+~
+0 -1 20027
+
+
+D1
+garden road
+~
+~
+0 -1 20029
+
+S
+
+
+#20029
+Garden road~
+   This road seems to confinue forever, on one side of the road is river
+and the other side is a beautiful flover garden , birds , trees , flowers
+peace and the spirits, they look happy becouse of being here.Yes you see
+goodnes because of being good in real life , this must be heaven , or part
+of heaven yes this wonderfull place is part of heaven.
+~
+
+0 0 3
+D3
+garden road
+~
+~
+0 -1 20028
+
+D1
+garden road
+~
+~
+0 -1 20030
+
+S
+
+
+#20030
+Garden road~
+   This road seems to confinue forever, on one side of the road is river
+and the other side is a beautiful flover garden , birds , trees , flowers
+peace and the spirits, they look happy becouse of being here.Yes you see
+goodnes because of being good in real life , this must be heaven , or part
+of heaven yes this wonderfull place is part of heaven.
+~
+
+0 0 3
+D3
+garden road
+~
+~
+0 -1 20029
+
+
+D1
+garden road
+~
+~
+0 -1 20031
+
+S
+
+
+#20031
+Garden road~
+   This road seems to confinue forever, on one side of the road is river
+and the other side is a beautiful flover garden , birds , trees , flowers
+peace and the spirits, they look happy becouse of being here.Yes you see
+goodnes because of being good in real life , this must be heaven , or part
+of heaven yes this wonderfull place is part of heaven.
+~
+
+0 0 3
+
+D2
+river of spirits
+~
+~
+0 -1 20021
+
+
+D3
+garden road
+~
+~
+0 -1 20030
+
+
+D1
+garden road
+~
+~
+0 -1 20032
+
+S
+
+
+#20032
+Garden road~
+   This road seems to confinue forever, on one side of the road is river
+and the other side is a beautiful flover garden , birds , trees , flowers
+peace and the spirits, they look happy becouse of being here.Yes you see
+goodnes because of being good in real life , this must be heaven , or part
+of heaven yes this wonderfull place is part of heaven.
+~
+
+0 0 3
+D3
+garden road
+~
+~
+0 -1 20031
+
+
+D1
+garden road
+~
+~
+0 -1 20033
+
+S
+
+
+#20033
+Garden road~
+   This road seems to confinue forever, on one side of the road is river
+and the other side is a beautiful flover garden , birds , trees , flowers
+peace and the spirits, they look happy becouse of being here.Yes you see
+goodnes because of being good in real life , this must be heaven , or part
+of heaven yes this wonderfull place is part of heaven.
+~
+
+0 0 3
+
+D2
+river of spirits
+~
+~
+0 -1 20023
+
+
+D3
+garden road
+~
+~
+0 -1 20032
+
+
+D1
+garden road
+~
+~
+0 -1 20034
+
+S
+
+
+#20034
+Garden road~
+   This road seems to confinue forever, on one side of the road is river
+and the other side is a beautiful flover garden , birds , trees , flowers
+peace and the spirits, they look happy becouse of being here.Yes you see
+goodnes because of being good in real life , this must be heaven , or part
+of heaven yes this wonderfull place is part of heaven.
+~
+
+0 0 3
+D3
+garden road
+~
+~
+0 -1 20033
+
+
+D1
+ocean of neutrality
+~
+~
+0 -1 20045
+
+S
+
+#20035
+Hell road~
+   My god.What is this? Tere was no such wiev from looking the river, you
+got shocked.What happened here , why all the trees burned? Is this a resoult
+of fire?There are also spirits here but they look very unhappy?They see
+badness becouse of the baddnes they have done in real world.
+~
+
+0 0 4
+
+D1
+hell road
+~
+~
+0 -1 20036
+
+S
+#20036
+Hell road~
+   My god.What is this? Here was no such viev from looking the river, you
+got shocked.What happened here , why all the trees burned? Is this a resoult
+of fire?There are also spirits here but they look very unhappy?They see
+badness becouse of the baddnes they have done in real world.
+~
+
+0 0 4
+
+D3
+hell road
+~
+~
+0 -1 20035
+
+D1
+hell road
+~
+~
+0 -1 20037
+
+S
+
+#20037
+Hell road~
+   My god.What is this? Here was no such viev from looking the river, you
+got shocked.What happened here , why all the trees burned? Is this a resoult
+of fire?There are also spirits here but they look very unhappy?They see
+badness becouse of the baddnes they have done in real world.
+~
+
+0 0 4
+
+D0
+river of spirits
+~
+~
+0 -1 20017
+
+
+D3
+hell road
+~
+~
+0 -1 20036
+
+D1
+hell road
+~
+~
+0 -1 20038
+
+S
+
+#20038
+Hell road~
+   My god.What is this? Here was no such viev from looking the river, you
+got shocked.What happened here , why all the trees burned? Is this a resoult
+of fire?There are also spirits here but they look very unhappy?They see
+badness becouse of the baddnes they have done in real world.
+~
+
+0 0 4
+
+D3
+hell road
+~
+~
+0 -1 20037
+
+D1
+hell road
+~
+~
+0 -1 20039
+
+S
+
+#20039
+Hell road~
+   My god.What is this? Here was no such viev from looking the river, you
+got shocked.What happened here , why all the trees burned? Is this a resoult
+of fire?There are also spirits here but they look very unhappy?They see
+badness becouse of the baddnes they have done in real world.
+~
+
+0 0 4
+
+D3
+hell road
+~
+~
+0 -1 20038
+
+D1
+hell road
+~
+~
+0 -1 20040
+
+S
+
+#20040
+Hell road~
+   My god.What is this? Here was no such viev from looking the river, you
+got shocked.What happened here , why all the trees burned? Is this a resoult
+of fire?There are also spirits here but they look very unhappy?They see
+badness becouse of the baddnes they have done in real world.
+~
+
+0 0 4
+
+D0
+river of spirits
+~
+~
+0 -1 20020
+
+
+D3
+hell road
+~
+~
+0 -1 20039
+
+D1
+hell road
+~
+~
+0 -1 20041
+
+S
+
+#20041
+Hell road~
+   My god.What is this? Here was no such viev from looking the river, you
+got shocked.What happened here , why all the trees burned? Is this a resoult
+of fire?There are also spirits here but they look very unhappy?They see
+badness becouse of the baddnes they have done in real world.
+~
+
+0 0 4
+
+D3
+hell road
+~
+~
+0 -1 20040
+
+D1
+hell road
+~
+~
+0 -1 20042
+
+S
+
+#20042
+Hell road~
+   My god.What is this? Here was no such viev from looking the river, you
+got shocked.What happened here , why all the trees burned? Is this a resoult
+of fire?There are also spirits here but they look very unhappy?They see
+badness becouse of the baddnes they have done in real world.
+~
+
+0 0 4
+
+D3
+hell road
+~
+~
+0 -1 20041
+
+D1
+hell road
+~
+~
+0 -1 20043
+
+S
+
+#20043
+Hell road~
+   My god.What is this? Here was no such viev from looking the river, you
+got shocked.What happened here , why all the trees burned? Is this a resoult
+of fire?There are also spirits here but they look very unhappy?They see
+badness becouse of the baddnes they have done in real world.
+~
+
+0 0 4
+
+D3
+hell road
+~
+~
+0 -1 20042
+
+D1
+hell road
+~
+~
+0 -1 20044
+
+S
+
+#20044
+Hell road~
+   My god.What is this? Here was no such viev from looking the river, you
+got shocked.What happened here , why all the trees burned? Is this a resoult
+of fire?There are also spirits here but they look very unhappy?They see
+badness becouse of the baddnes they have done in real world.
+~
+
+0 0 4
+
+D3
+hell road
+~
+~
+0 -1 20043
+
+D1
+ocean of neutrality
+~
+~
+0 -1 20045
+
+S
+
+#20045
+Ocean of neutrality~
+   All you see the endless watter , surrounding you!With the whole
+loneless and the balance between evil and good, ugly and beauty, chaos
+and rule, war and peace.This endless ocean makes you think of all these.
+With no reason you  think about all these .BUT BUT one a sudden howe will
+you exit from here?
+~
+0 N 6
+
+D0
+infinet neutrality
+~
+~
+0 0 20055
+
+D1
+infinet neutrality
+~
+~
+0 0 20046
+
+D2
+infinet neutrality
+~
+~
+0 0 20050
+
+D3
+infinet neutrality
+~
+~
+0 0 20024
+
+S
+
+#20046
+Ocean of neutrality~
+   All you see the endless watter , surrounding you!With the whole
+loneless and the balance between evil and good, ugly and beauty, chaos
+and rule, war and peace.This endless ocean makes you think of all these.
+With no reason you  think about all these .BUT BUT one a sudden howe will
+you exit from here?
+~
+0 N 6
+
+D0
+infinet neutrality
+~
+~
+0 0 20056
+
+D1
+infinet neutrality
+~
+~
+0 0 20047
+
+D2
+infinet neutrality
+~
+~
+0 0 20051
+
+D3
+infinet neutrality
+~
+~
+0 0 20045
+
+S
+
+#20047
+Ocean of neutrality~
+   All you see the endless watter , surrounding you!With the whole
+loneless and the balance between evil and good, ugly and beauty, chaos
+and rule, war and peace.This endless ocean makes you think of all these.
+With no reason you  think about all these .BUT BUT one a sudden howe will
+you exit from here?
+~
+0 N 6
+
+D0
+infinet neutrality
+~
+~
+0 0 20057
+
+D1
+infinet neutrality
+~
+~
+0 0 20048
+
+D2
+infinet neutrality
+~
+~
+0 0 20052
+
+D3
+infinet neutrality
+~
+~
+0 0 20046
+
+S
+
+#20048
+Ocean of neutrality~
+   All you see the endless watter , surrounding you!With the whole
+loneless and the balance between evil and good, ugly and beauty, chaos
+and rule, war and peace.This endless ocean makes you think of all these.
+With no reason you  think about all these .BUT BUT one a sudden howe will
+you exit from here?
+~
+0 N 6
+
+D0
+infinet neutrality
+~
+~
+0 0 20058
+
+D1
+infinet neutrality
+~
+~
+0 0 20049
+
+D2
+infinet neutrality
+~
+~
+0 0 20053
+
+D3
+infinet neutrality
+~
+~
+0 0 20047
+
+S
+
+#20049
+Ocean of neutrality~
+   All you see the endless watter , surrounding you!With the whole
+loneless and the balance between evil and good, ugly and beauty, chaos
+and rule, war and peace.This endless ocean makes you think of all these.
+With no reason you  think about all these .BUT BUT one a sudden howe will
+you exit from here?
+~
+0 N 6
+
+D0
+infinet neutrality
+~
+~
+0 0 20059
+D1
+deep hole
+~
+~
+0 0 20060
+
+D2
+infinet neutrality
+~
+~
+0 0 20054
+
+D3
+infinet neutrality
+~
+~
+0 0 20048
+
+S
+
+#20050
+Ocean of neutrality~
+   All you see the endless watter , surrounding you!With the whole
+loneless and the balance between evil and good, ugly and beauty, chaos
+and rule, war and peace.This endless ocean makes you think of all these.
+With no reason you  think about all these .BUT BUT one a sudden how will
+you exit from here?
+~
+0 N 6
+
+D0
+infinet neutrality
+~
+~
+0 0 20045
+
+D1
+infinet neutrality
+~
+~
+0 0 20051
+
+D2
+infinet neutrality
+~
+~
+0 0 20055
+
+D3
+infinet neutrality
+~
+~
+0 0 20054
+
+S
+
+#20051
+Ocean of neutrality~
+   All you see the endless watter , surrounding you!With the whole
+loneless and the balance between evil and good, ugly and beauty, chaos
+and rule, war and peace.This endless ocean makes you think of all these.
+With no reason you  think about all these .BUT BUT one a sudden howe will
+you exit from here?
+~
+0 N 6
+
+D0
+infinet neutrality
+~
+~
+0 0 20046
+
+D1
+infinet neutrality
+~
+~
+0 0 20052
+
+D2
+infinet neutrality
+~
+~
+0 0 20056
+
+D3
+infinet neutrality
+~
+~
+0 0 20050
+
+S
+
+#20052
+Ocean of neutrality~
+   All you see the endless watter , surrounding you!With the whole
+loneless and the balance between evil and good, ugly and beauty, chaos
+and rule, war and peace.This endless ocean makes you think of all these.
+With no reason you  think about all these .BUT BUT one a sudden howe will
+you exit from here?
+~
+0 N 6
+
+D0
+infinet neutrality
+~
+~
+0 0 20047
+
+D1
+infinet neutrality
+~
+~
+0 0 20053
+
+D2
+infinet neutrality
+~
+~
+0 0 20057
+
+D3
+infinet neutrality
+~
+~
+0 0 20051
+
+S
+
+#20053
+Ocean of neutrality~
+   All you see the endless watter , surrounding you!With the whole
+loneless and the balance between evil and good, ugly and beauty, chaos
+and rule, war and peace.This endless ocean makes you think of all these.
+With no reason you  think about all these .BUT BUT one a sudden howe will
+you exit from here?
+~
+0 N 6
+
+D0
+infinet neutrality
+~
+~
+0 0 20048
+
+D1
+infinet neutrality
+~
+~
+0 0 20054
+
+D2
+infinet neutrality
+~
+~
+0 0 20058
+
+D3
+infinet neutrality
+~
+~
+0 0 20052
+
+S
+
+#20054
+Ocean of neutrality~
+   All you see the endless watter , surrounding you!With the whole
+loneless and the balance between evil and good, ugly and beauty, chaos
+and rule, war and peace.This endless ocean makes you think of all these.
+With no reason you  think about all these .BUT BUT one a sudden howe will
+you exit from here?
+~
+0 N 6
+
+D0
+infinet neutrality
+~
+~
+0 0 20049
+
+D1
+infinet neutrality
+~
+~
+0 0 20050
+
+D2
+infinet neutrality
+~
+~
+0 0 20059
+
+D3
+infinet neutrality
+~
+~
+0 0 20053
+
+S
+
+#20055
+Ocean of neutrality~
+   All you see the endless watter , surrounding you!With the whole
+loneless and the balance between evil and good, ugly and beauty, chaos
+and rule, war and peace.This endless ocean makes you think of all these.
+With no reason you  think about all these .BUT BUT one a sudden howe will
+you exit from here?
+~
+0 N 6
+
+D0
+infinet neutrality
+~
+~
+0 0 20050
+
+D1
+infinet neutrality
+~
+~
+0 0 20056
+
+D2
+infinet neutrality
+~
+~
+0 0 20045
+
+D3
+infinet neutrality
+~
+~
+0 0 20059
+
+S
+
+#20056
+Ocean of neutrality~
+   All you see the endless watter , surrounding you!With the whole
+loneless and the balance between evil and good, ugly and beauty, chaos
+and rule, war and peace.This endless ocean makes you think of all these.
+With no reason you  think about all these .BUT BUT one a sudden howe will
+you exit from here?
+~
+0 N 6
+
+D0
+infinet neutrality
+~
+~
+0 0 20051
+
+D1
+infinet neutrality
+~
+~
+0 0 20057
+
+D2
+infinet neutrality
+~
+~
+0 0 20046
+
+D3
+infinet neutrality
+~
+~
+0 0 20055
+
+S
+
+#20057
+Ocean of neutrality~
+   All you see the endless watter , surrounding you!With the whole
+loneless and the balance between evil and good, ugly and beauty, chaos
+and rule, war and peace.This endless ocean makes you think of all these.
+With no reason you  think about all these .BUT BUT one a sudden howe will
+you exit from here?
+~
+0 N 6
+
+D0
+infinet neutrality
+~
+~
+0 0 20052
+
+D1
+infinet neutrality
+~
+~
+0 0 20058
+
+D2
+infinet neutrality
+~
+~
+0 0 20047
+
+D3
+infinet neutrality
+~
+~
+0 0 20056
+
+S
+
+#20058
+Ocean of neutrality~
+   All you see the endless watter , surrounding you!With the whole
+loneless and the balance between evil and good, ugly and beauty, chaos
+and rule, war and peace.This endless ocean makes you think of all these.
+With no reason you  think about all these .BUT BUT one a sudden howe will
+you exit from here?
+~
+0 N 6
+
+D0
+infinet neutrality
+~
+~
+0 0 20053
+
+D1
+infinet neutrality
+~
+~
+0 0 20059
+
+D2
+infinet neutrality
+~
+~
+0 0 20048
+
+D3
+infinet neutrality
+~
+~
+0 0 20057
+
+S
+
+#20059
+Ocean of neutrality~
+   All you see the endless watter , surrounding you!With the whole
+loneless and the balance between evil and good, ugly and beauty, chaos
+and rule, war and peace.This endless ocean makes you think of all these.
+With no reason you  think about all these .BUT BUT one a sudden howe will
+you exit from here?
+~
+0 N 6
+
+D0
+infinet neutrality
+~
+~
+0 0 20054
+
+D1
+infinet neutrality
+~
+~
+0 0 20055
+
+D3
+infinet neutrality
+~
+~
+0 0 20058
+
+S
+
+#20060
+Deep hole~
+	You are at the bottom of a deep hole you can see around ,
+you realise that there is no exit; a place able to keep a powerful 
+dragon or its spirit!
+~
+0 0 9
+S
+
+
+#0
+
+#RESETS
+R 0 20045 4     *ocean of neutrality
+R 0 20046 4     *ocean of neutrality
+R 0 20047 4     *ocean of neutrality
+R 0 20048 4     *ocean of neutrality
+R 0 20049 3     *ocean of neutrality
+R 0 20050 4     *ocean of neutrality
+R 0 20051 4     *ocean of neutrality
+R 0 20052 4     *ocean of neutrality
+R 0 20053 4     *ocean of neutrality
+R 0 20054 4     *ocean of neutrality
+R 0 20055 4     *ocean of neutrality
+R 0 20056 4     *ocean of neutrality
+R 0 20057 4     *ocean of neutrality
+R 0 20058 4     *ocean of neutrality
+R 0 20059 3     *ocean of neutrality
+ 
+M 0 20000 4 20028 2       *1. guardian
+E 0 20010 -1 17
+E 0 20066 -1 14
+
+M 0 20000 4 20035 2       *1. guardian
+E 0 20010 -1 17
+M 0 20001 4 20037 2       *2. guardian
+E 0 20010 -1 17
+M 0 20001 4 20040 2       *2. guardian
+E 0 20010 -1 17
+
+M 0 20060 1 20060 1	  *spirit dragon
+E 0 20002 -1 1
+E 0 20001 -1 16
+ 
+M 0 20002 1 20035 1       *jonny
+M 0 20003 1 20039 1       *kowenno
+M 0 20004 1 20041 1       *neruda
+M 0 20005 1 20025 1       *kalel
+M 0 20006 1 20037 1       *thenor
+M 0 20007 1 20030 1       *coni
+M 0 20008 1 20032 1       *takasi
+M 0 20009 1 20038 1       *rasputin
+
+M 0 20014 3 20035 2
+M 0 20014 3 20045 2
+M 0 20014 3 20025 2
+
+M 0 20015 3 20037 2
+M 0 20015 3 20047 2
+M 0 20015 3 20027 2
+
+M 0 20016 3 20045 2
+M 0 20016 3 20031 2
+M 0 20016 3 20056 2
+
+M 0 20017 3 20040 2
+M 0 20017 3 20021 2
+M 0 20017 3 20027 2
+
+M 0 20018 3 20039 2
+M 0 20018 3 20036 2
+M 0 20018 3 20032 2
+
+M 0 20019 3 20028 2
+M 0 20019 3 20032 2
+M 0 20019 3 20025 2
+
+M 0 20080   1 20025  1	* the wizard
+G 1 20070  -1     	*   scroll
+G 1 20071  -1		*   wand
+G 1 20072  -1		*   paper hate
+G 1 20073  -1		*   paper hate
+G 1 20074  -1		*   paper hate
+G 1 20075  -1		*   paper hate
+
+S
+
+#SPECIALS
+M 20060 spec_cast_mage *dragon
+M 20080 spec_cast_mage *wizard
+S
+
+#OLIMITS
+O 20001 3 * fear of a lost dragon
+O 20066 3 *anceint gloves
+
+S
+
+#OMPROGS
+O 20066 fight_prog fight_prog_ancient_gloves
+O 20066 wear_prog wear_prog_ancient_gloves
+O 20066 remove_prog remove_prog_ancient_gloves
+S
+
+
+#SHOPS
+20080  2  3  4 10  0 	 105  15 	 0 23 	* the ancient wizard
+
+0
+
+#$
+
+
