@@ -1,0 +1,34 @@
+* ROM BUGs are fixed.
+* PlayerKilling and Stealing is permitted for all levels, within
+  restrictions of course.
+* 7 Cabals are implemented with special skills and spells.
+* If one cabal is raided and its item is taken and put to anothers cabal
+  shrine, the raided cabal cannot use their cabal powers.
+* New 8 classes are added with full features.
+* New 14 races are added with full features.
+* Cabal only, race only, alignment only spells and skills implemented.
+* Some channels are removed (gossip,auction).
+* New auction channel introduced.
+* Over 200 new skills and spells are introduced.
+* New practicing type is introduced.
+* Damagable and repairable equipments are introduced.
+* Bank is implemented.
+* Color code is inserted.
+* Mobiles started to track last foughts.
+* Spells castable to room (room affects, do_raffect command) are implemented.
+* Good players can request objects from good mobs.
+* Anti-Paladins can demand objects from any mob (chance of attacking).
+* Automatic rebooting system is implemented.
+* New areas are added.
+* Objects and Mobile progs are implemented.
+* Ice melts in hot areas.
+* New score command is introduced.( One can use old one with nscore command)
+* In who command, one can restrict the cabals, races or PKs.
+* Players can pray the gods by pray channel.
+* Automaticaly generated quest is introduced.
+* Hero players can teach their 100% skills or spells to other players.
+* Tailed mobile can now attack with their tails.
+* When you look a mob, you can see its race.
+* Hometowns and ethos are implemented.
+* Religions and their related tattos are implemented
+* Special quest kassandra (please read the referred books in melancholy).

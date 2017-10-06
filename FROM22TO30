@@ -1,0 +1,15 @@
+* Two classes are removed: warlock, witch.
+* Three classes are added: invoker, transmuter, elementalist.
+* Getting the cabal items and cabalscan rearranged.
+* New skills/spells added.
+* New limited objects added.
+* Cabal powers are rearranged.
+* The mobiles, who have mage/cleric acts and don't have any special
+  cast programs, now have their cast programs.
+* The mobiles, who was defined as backstab offensive, now can attack
+  to the players with backstab if they are aggressive as well.
+* Reported bugs are fixed.
+* All sanctuary and detection potions are limited now. And a new 
+  arrangement had been made for sold limited items.
+* And lots of more....
+

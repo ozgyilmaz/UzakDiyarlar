@@ -1,0 +1,15 @@
+    index=1000
+    while [ 1 ]
+    do
+        logfile=./$index.make
+        if [ -r $logfile ]
+        then
+                 index=`echo $index + 1|bc`
+        else
+                 break
+        fi
+    done
+
+    make -i >$logfile 2>&1
+
+    echo $logfile

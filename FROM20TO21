@@ -1,0 +1,40 @@
+* Reported bugs are fixed.
+* Track has been rearranged.
+* Players become able to shoot arrows, throwing spears with full features:
+	poisoning, shocking, burning, frosting arrows and spears
+	stuck in arrows and spears.
+* Shot arrows or thrown spears may be stuck in the target mobiles.
+* Riding skill is given to knights.
+* In groups shalafi vs battle, chaos vs ruler, invader vs knight is prevented
+* Spellbane become permanent with no cost of mana.
+* Blade barrier, aid, desert fist,gate spells are given to clerics.
+* Chance of damaging an object reduced.
+* Tracking mobiles become able to open door.
+* Golems autorescue their masters.
+* If created golem kills master's quest mob, it is ok as well.
+* Area flags introduced.
+* Next questtimes has been rearranged.
+* Quest code reconstructed. 
+* Vampire became immune to negative attacks.
+* Immunity to negative spell is given to necromancer.
+* Spell craft adjustment done.
+* Lance skill is given to knights for mount.
+* Secondary attack given to warrior class.(Second attack for dual)
+* Making arrow (blue,red,white,green) skills given to Ranger.
+* Dishonoring is now optional for Samurais.
+* Chance of tattoos has been increased.
+* Is_same_group is reorganized.
+* Leadership spell is given to rulers( immunity to charm).
+* Evil spirit spell is given to invaders.
+* Mortal strike skill is given to battleragers.
+* Now offensive spells are castable to other rooms, as well:
+	cast 'acid blast' n.fido
+	cast 'acid blast' e.2.fido
+* Mobiles starts to remember the players that once fight with them, untill
+  they are killed, or anatolia is rebooted.
+* Races of mobiles is now a header of mobiles description.
+* PC's can speak either common language or their mothertongue.
+* Only magical lights now can damage vampires.
+* Track skill is now only for rangers.
+* Shout and yell channels cannot be ON/OFF.
+* Spell craft rearranged.

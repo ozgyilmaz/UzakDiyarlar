@@ -1,0 +1,4154 @@
+#AREA	
+camelot.are~
+Camelot~
+{20 52} Lok     Camelot~
+17300 17500
+
+#MOBILES
+#17301
+knight reknown~
+The knight of reknown~
+A knight of reknown slaps you with his gauntlet and challenges you!
+~
+The knight of reknown is mounted on a warhorse, uses a lance, and you can 
+see his morningstar on his horse. His colors fly from a banner carried by 
+his squire.
+~
+human~
+0 0 500 0
+22 0 5d10+400 5d5+1000 4d4+6 pound    
+-5 -5 -5 5
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17302
+squire~
+The squire~
+A squire is here on an errand for his lord.
+~
+A squire stands here on a mission for his lord. He is dressed in rags, 
+smells bad, and looks like he is in a hurry.
+~
+human~
+4 32768 250 0
+19 0 3d9+308 5d5+1000 2d7+5 pound     
+-4 -4 -4 5
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17303
+knight quality~
+the knight of quality~
+A knight of quality looks down upon you from his mount.
+~
+The knight is in full plate mail on a barded horse and carries a lance.
+~
+human~
+0 8192 750 0
+25 0 5d10+550 5d5+1000 2d10+7 slash    
+-7 -7 -7 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17304
+arthur king~
+King Arthur~
+King Arthur sits upon his throne awaiting the return of the grail.
+~
+King Arthur is a black bearded barrel chested man. He is in full plate 
+armor emblazoned with the sign of a gold dragon. He carries Excalibur 
+in a strange looking sheath.
+~
+human~
+2|8388608 8|128 1000 0
+38 0 10d10+1600 5d5+1000 5d6+12 pound
+-13 -13 -13 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17305
+benlad knight green~
+Sir Benlad de Haudtesert (the green knight)~
+Sir Benlad slaps you with his gauntlet and challenges you!
+~
+Sir Benlad is clad in his renowned green armor, rumored to be impervious 
+to normal weaponry. He bears a huge battle axe.
+~
+human~
+32 128 250 0
+30 0 6d12+853 5d5+1000 4d6+8 slash     
+-9 -9 -9 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17306
+galahad knight~
+Sir Galahad~
+Sir Galahad, paragon of chivalry, bastard of Lancelot & Elane, stands here.
+~
+Sir Galahad is dressed in his white armor and carries a two handed sword
+(it was Sir Galahad who completed the quest for the grail in the Arthurian 
+saga)
+~
+human~
+2|8388608 4|8|32|8192 1000 0
+40 0 15d10+1850 5d5+1000 4d8+13 slash
+-13 -13 -13 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17307
+black knight~
+the black knight~
+A knight dressed in black armor says "NONE SHALL PASS"
+~
+The black knight has black armor and a visored helm. He stands resting on 
+a two handed sword.
+~
+human~
+2|32 8|32 0 0
+20 0  3d9+333 5d5+1000 2d8+5 pound     
+-4 -4 -4 5
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17308
+gareth knight~
+Sir Gareth~
+A knight with armor of many colors stands here.
+~
+Sir Gareth, son of Lot, aka Beaumains proudly wears his armor and shield 
+of many colors. He anxiously awaits an opportunity to help a damsel in 
+distress.
+~
+human~
+2 8192 750 0
+34 0 10d10+1200 5d5+1000 4d7+10 pound
+-11 -11 -11 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17309
+garlon knight~
+Sir Garlon~
+Sir Garlon, the invisible knight, is waiting here.
+~
+Sir Garlon (the vile villian) is hiding here. He was given his invisibility 
+power by the witch of the fens for the furtherment of evil.
+~
+human~
+2|32 2|8|32768 -1000 0
+28 0 6d12+703 5d5+1000 2d12+8 pound    
+-8 -8 -8 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17310
+gawaine knight~
+Sir Gawaine~
+Sir Gawaine, the strong, is on a mission of vengeance!
+~
+Sir Gawaine, the red headed cousin of Arthur, is mounted, fully armored and 
+bears his longsword Galantine.
+~
+human~
+2 0 0 0
+34 0 10d10+1200 5d5+1000 4d7+10 pound
+-11 -11 -11 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17311
+lamorak knight~
+Sir Lamorak~
+Sir Lamorak hefts his bastard sword as he considers you.
+~
+Sir Lamorak, son of King Pellinore, lover of Queen Morgawse, vanquisher of 
+the twelve of Morgan le Fey, and enemy of Sir Gawaine is fully armored and 
+mounted.
+~
+human~
+2 0 0 0
+30 0 6d12+853 5d5+1000 4d6+8 smash      
+-9 -9 -9 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17312
+lancelot knight~
+Sir Lancelot du Lake~
+Sir Lancelot, champion of the Round Table, smiles at you.
+~
+Sir Lancelot is mounted upon a white charger and is wearing polished steel 
+armor. His visor is up, and his lance raised in salute to you.
+~
+human~
+2|512|1024|8388608 8|32|128|8192 1000 0
+44 0 25d10+2750 5d5+1000 8d4+15 crush
+-15 -15 -15 2
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17313
+merlin mage~
+Merlin~
+The mighty Merlin is here grumbling over a book.
+~
+Merlin, the son of a sorceress and a demon, seer of Camelot, is garbed in 
+an earthy colored robe and bears a twisted staff. His flowing white beard 
+offsets his rosy cheeks and sparkling blue eyes.
+~
+human~
+2|4|128 4|8|16|512|524288 750 0
+40 0 15d10+1850 5d5+1000 4d8+13 pound 
+-13 -13 -13 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17314
+morgan mage~
+Morgan Le Fey~
+A beautiful woman with an inviting smile beckons to you!
+~
+Morgan le Fey, evil enchantress, scourge of Camelot, snarls as you have 
+seen through her disguise. She is wearing silk robes which do little to 
+hide her ugly and hateful, twisted body.
+~
+human~
+4|32|128 0 -1000 0
+24 0 5d10+500 5d5+1000 2d10+6 slap     
+-6 -6 -6 4
+EFNU 0 0 0
+stand stand female 1000
+AHMV ABCDEFGHIJK medium 0
+#17315
+pellinore king~
+King Pellinore~
+King Pellinore is here searching for the Questing Beast.
+~
+King Pellinore tells you that his family has been searching for the Questing
+Beast for generations and asks if you have seen it. Pelinore is just past 
+middle age, though he is still a stout fighter.
+~
+human~
+0 32 0 0
+28 0 6d12+703 5d5+1000 2d12+8 pound    
+-8 -8 -8 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17316
+beast questing~
+the Questing Beast~
+A long necked, lion pawed, spotted, creature is here knawing on a femur.
+~
+The Questing Beast *** NUKES *** you!
+The Questing Beast === OBLITERATES *** you!
+The Questing Beast dodges your attack.
+You sure are BLEEDING!
+The Questing Beast is in perfect health.
+~
+human~
+2|32|128 8|32|32768|65536 -1000 0
+24 0 5d10+500 5d5+1000 2d10+6 claw    
+-6 -6 -6 4
+FMU J HIJK FI
+stand stand none 1000
+AHMVZc ABCDEFGHIJKLPQUVX huge 0
+#17317
+tristram~
+Sir Tristram of Lyoness~
+Sir Tristram smirks at you.
+~
+Sir Tristram, suitor of Isolade, is considered by many to be second only to
+Lancelot in skill of arms. He wears plate mail and carries a two handed 
+sword.
+~
+human~
+2 0 0 0
+36 0 10d10+1400 5d5+1000 3d10+11 blast
+-12 -12 -12 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17318
+mordred~
+Mordred~
+An boy in golden armor gives you an elfin laugh and strikes with his spear!
+~
+Mordred, bastard son of Lancelot and Gwenivere, wears his enchanted golden 
+armor and his unholy spear.
+~
+human~
+32|128 128|32768 -1000 0
+34 0 10d10+1200 5d5+1000 4d7+10 pound
+-11 -11 -11 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17319
+charmed knight reknown~
+Charmed knight of reknown~
+A charmed knight of reknown woodenly attacks you!
+~
+The knight is in rusty armor and bears a knotched sword. He has a disheveled 
+look to him and his eyes stare vacantly at you!
+~
+human~
+32 1024 -500 0
+21 0 4d10+360 5d5+1000 4d4+5 pound     
+-5 -5 -5 5
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17320
+charmed knight quality~
+Charmed knight of quality~
+A charmed knight of quality woodenly attacks you!
+~
+A charmed knight of quality stands here in his rusted armor. His eyes are 
+vacant, his sword is knotched, and he is unkempt.
+~
+human~
+32|128 1024 -750 0
+24 0 5d10+500 5d5+1000 2d10+6 pound    
+-6 -6 -6 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17321
+lady waiting~
+a lady in waiting~
+A lady in waiting bats her eyes at you!
+~
+The lady in waiting snuggles up closer to you, pressing you for the details 
+of your last campaign. She is clad in a long gown and garlands of flowers 
+are in her hair.
+~
+human~
+0 262144 500 0
+10 0 2d7+121 5d5+100 2d4+2 punch         
+1 1 1 7
+EFNU 0 0 0
+stand stand female 1000
+AHMV ABCDEFGHIJK medium 0
+#17322
+queen gwenivere~
+Queen Gwenivere~
+A raven haired queen winks at you from behind her fan.
+~
+Gwenivere tells you a sorry tale about her forbidden love with Lancelot.
+~
+human~
+2|4 0 0 0
+12 0 2d10+150 5d5+100 1d10+3 punch   
+0 0 0 7
+EFNU 0 0 0
+stand stand female 1000
+AHMV ABCDEFGHIJK medium 0
+#17323
+squire charmed~
+Charmed Squire~
+A charmed squire stands here woodenly
+~
+The charmed squire is wearing various leather garmets in a state of disarray.
+~
+human~
+4|128 1024|32768 -250 0
+18 0 3d9+283 5d5+1000 2d7+4 pound    
+-3 -3 -3 6
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17324
+barant king apres knight~
+Barant Les Apres (King of the Hundred Knights)~
+A knight in a flowing white cape and swings a spiked ball here.
+~
+Barant Les Apres, King of the Hundred Knights stands here. Barant wears a 
+white cape and carries a spiked ball and chain. He hefts his weapon and 
+grins at you.
+~
+human~
+0 0 750 0
+28 0 6d12+703 5d5+1000 2d12+8 pound     
+-8 -8 -8 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17325
+dagonet jester fool~
+Dagonet (Arthur's Court Jester)~
+A fool in motley cavorts here!
+~
+Dagonet, the court jester of Arthur, is a master of his craft. He dances 
+on his hands while juggling a set of knives. You get the impression that 
+he could handle himself well in a fight.
+~
+human~
+2|128 0 1000 0
+30 0 6d12+853 5d5+1000 4d6+8 pound     
+-9 -9 -9 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17326
+turquine knight~
+Turquine~
+A knight with a wolf helm cackles with glee!
+~
+Turquine is dressed in scale mail and a wolf helm. He is a slender whip 
+of a man, and his eyes dart left and right.
+~
+human~
+2|4|128 32768 -500 0
+32 0 10d10+1000 5d5+1000 6d4+9 pound
+-10 -10 -10 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17327
+perimones knight~
+Perimones (the Red Knight)~
+A knight dressed red shimmering armor faces you!
+~
+Perimones, the red knight, has a red beard and mustache. He is a short 
+stocky man. His ruby armor is shimmering in the sunlight, and he wears 
+the silken red favor of Galenvine on his sleeve.
+~
+human~
+2 8192 500 0
+32 0 10d10+1000 5d5+1000 6d4+9 pound
+-10 -10 -10 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17328
+damsel lady woman distress~
+A damsel in distress~
+A damsel in distress is here, screaming for help!
+~
+The damsel in distress has been badly roughed up by the ruffians. She is 
+tied with here hands behind her back. Her coartly gowns are soiled and 
+tattered.
+~
+human~
+2 0 200 0
+8 0 2d7+96 5d5+100 1d7+2 punch         
+3 3 3 8
+EFNU 0 0 0
+stand stand female 1000
+AHMV ABCDEFGHIJK medium 0
+#17329
+nobleman~
+A nobleman~
+A nobleman stands here in all his finery.
+~
+The nobleman wears the finest cotton and wool clothing available. Riches 
+adorn him in the form of chains, and a rather heavy looking purse. He 
+seems intent on going somewhere.
+~
+human~
+128 0 0 0
+15 0 3d9+208 5d5+100 2d6+3 punch     
+-2 -2 -2 6
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17330
+serf~
+A serf~
+A dirty serf shuffles along here.
+~
+The serf is in rags, smells, and you actually think you can see lice on him.
+~
+human~
+4|128 0 0 0
+5 0 2d6+60 5d5+100 1d6+1 punch        
+5 5 5 9
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17331
+merchant~
+A merchant~
+A brightly clothed merchant hawks his goods to you!
+~
+The merchant wears a bright tunic to draw attention and signify his wares.
+~
+human~
+4|128 0 0 0
+10 0  2d7+121 5d5+100 2d4+2 punch        
+1 1 1 7
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17332
+monk~
+A monk~
+A monk is here in his mumbling in Latin here.
+~
+The monk has a brown robe with a hood on it. He has tied it off with a 
+piece of rope. The top of his head is shaved in the Fransician fashion.
+~
+human~
+0 0 0 0
+7 0 2d6+85 5d5+100 1d8+1 pound        
+4 4 4 8
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17333
+troubadour~
+A troubadour~
+A troubadour is here, strumming a merry tune.
+~
+The troubadour is playing on a mandolin, and is dressed in festival colors.
+~
+human~
+2|4 0 100 0
+3 0 2d6+60 5d5+100 1d6+1 punch        
+5 5 5 9
+EFNU 0 0 0
+stand stand female 1000
+AHMV ABCDEFGHIJK medium 0
+#17334
+bard~
+A bard~
+A bard is here, singing a sweet ballad.
+~
+The bard is dressed in silk leggings, a leather vest, and bright orange 
+shirt.
+~
+human~
+2|4 0 100 0
+4 0 2d6+60 5d5+100 1d6+1 punch        
+4 5 5 9
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17335
+entertainer~
+An entertainer~
+An entertainer is here, leaping with great acrobatic prowess!
+~
+The entertainer is doing handsprings and backflips in a dizzying progression.
+~
+human~
+2|4 0 100 0
+5 0 2d6+60 5d5+100 1d6+1 punch        
+5 5 5 9
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17336
+servant~
+A servant~
+A servant is rushing by
+~
+The servant has a plate of hot food that looks delicious.
+~
+human~
+4 32768 0 0
+2 0 2d6+20 5d5+100 1d6+1 punch        
+5 5 5 9
+EFNU 0 0 0
+stand stand female 1000
+AHMV ABCDEFGHIJK medium 0
+#17337
+demon~
+A towering, black scaled demon~
+A towering, black scaled demon has come to eat your soul!
+~
+The demon stands 20' tall, has two heads, black scales, a mouthfull of 
+sharp teeth, 4 arms with long razorlike claws, and two muscular legs 
+with cloven hooves. The heads are batlike, and the black eyes seem to 
+vacantly stare at you. As it breathes the ground you stand on rumbles, 
+and you are seared by its hot breath. It is this demon which has been 
+laughing at you in all your visions. Merlin has bound this demon here 
+to use its power in the fabrication of magic items, however his hold 
+has slipped a few times, enabling the demon to give out a few artifacts 
+to encourage the downfall of Camelot (Morgana, Pict leader).
+~
+unique~
+ABKe 4|8|16|32|128|512|1024 -1000 0
+52 0 50d10+7750 5d5+5000 8d9+20 charge 
+-22 -22 -22 0
+EFNU 0 HIJK F
+stand stand none 1000
+AHMVZc ABCDEFGHIJKLPQUVX medium 0
+#17338
+jack iron~
+Iron Jack~
+Iron Jack, the armorer of Camelot is here.
+~
+Iron Jack wears his smith apron, leather leggings, and has corded muscular 
+arms.
+~
+human~
+2|262144|524288 0 500 0
+30 0 6d12+853 5d5+1000 4d6+8 pound     
+-9 -9 -9 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17339
+stirrup stablemaster~
+Stirrup~
+Stirrup, the stable master of Camelot is here.
+~
+Stirrup is a short man, wearing a leather jerkin, and smells of the barn.
+~
+human~
+2 0 400 0
+25 0 5d10+550 5d5+1000 2d10+7 pound    
+-7 -7 -7 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17340
+horse riding~
+A riding horse~
+A riding horse is here.
+~
+The riding horse is saddled with light tack, and has long slender limbs 
+for speed.
+~
+human~
+256 0 0 0
+18 0 3d9+283 5d5+1000 2d7+4 charge    
+-3 -3 -3 6
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17341
+warhorse medium~
+A medium warhorse~
+A medium warhorse is tethered here.
+~
+The medium warhorse is has heavy tack and leather barding.
+~
+human~
+256 0 0 0
+23 0 5d10+450 5d5+1000 3d6+6 charge     
+-6 -6 -6 4
+EFNU 0 0 0
+stand stand female 1000
+AHMV ABCDEFGHIJK medium 0
+#17342
+warhorse heavy~
+A heavy warhorse~
+A heavy warhorse paws the ground and snorts in preparation for battle!
+~
+The heavy warhorse has full chain barding and stands 17 hands.
+~
+human~
+256 0 0 0
+28 0 6d12+703 5d5+1000 2d12+8 charge     
+-8 -8 -8 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17343
+raider saxon~
+A Saxon raider~
+A Saxon raider is here, ready to take your head as a trophy
+~
+The Saxon raider carries his sax, *yes really it is an actual weapon name*, 
+and is dressed in various hides.
+~
+human~
+2|4|32 65536 -200 0
+20 0 3d9+333 5d5+1000 2d8+5 charge     
+-4 -4 -4 5
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17344
+slave~
+A slave~
+A slave is here, cringing from battle.
+~
+The slave is dirty and unkempt, but she retains a vestage of her former 
+station and bearing.
+~
+human~
+4|8388608 65536 0 0
+5 0 2d6+60 5d5+100 1d6+1 punch        
+5 5 5 9
+EFNU 0 0 0
+stand stand female 1000
+AHMV ABCDEFGHIJK medium 0
+#17345
+chief saxon render~
+A Saxon chief~
+A Saxon chief is here, leading his raiders into battle!
+~
+The Saxon chief, Render (you know his name because of the general grunting), 
+is decked in the spoils of war. All and all you think he has lice.
+~
+human~
+2|4|32 8|32|65536 -500 0
+28 0 6d12+703 5d5+1000 2d12+8 pound     
+-8 -8 -8 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17346
+guard border northern~
+A northern border guard~
+A northern border guard is here, stoically holding the line against intruders.
+~
+The border guard wears chain armor and is equipped with a standard sword.
+~
+human~
+2 32|8192 300 0
+20 0  3d9+333 5d5+1000 2d8+5 pound     
+-4 -4 -4 5
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17347
+commander outpost~
+The northern outpost commander~
+The northern outpost commander is here, safe in the respect of his men.
+~
+The outpost commander is a hardened, grizzled veteran with the cunning that 
+comes from a life of leading men in endless battle.
+~
+human~
+2|1024 8|32|8192 500 0
+25 0 5d10+550 5d5+1000 2d10+7 pound    
+-7 -7 -7 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17348
+clansman scot~
+A Scot clansman~
+A Scot clansman is here, ready to seize your women and whiskey!
+~
+The Scot clansman is wearing a kilt, leather sandles, and has a long swath 
+of cloth wrapped around his shoulders. He carries a beautiful claymore which 
+is about 4' long.
+~
+human~
+2|4 0 0 0
+22 0 5d10+400 5d5+1000 4d4+6 punch     
+-5 -5 -5 5
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17349
+chief clan scot~
+The Scot clan chief~
+The Scot clan chief is here, seizing his clansman's women and whiskey!
+~
+The Scot clan chief towers over you. He looks like he could toss a tree end 
+over end and have it land pointing away from him. He looks like he could 
+heave a sheaf with a fork more than 20' in the air. He looks like he could 
+down a barrel of ale and still have his whiskey. He looks...
+~
+human~
+2|4|512 0 -100 0
+28 0 6d12+703 5d5+1000 2d12+8 pierce    
+-8 -8 -8 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17350
+serf busy~
+A busy serf~
+A busy serf is here, tilling the fields for harvest.
+~
+The serf has a farm tool and a rag to cover himself.
+~
+human~
+2|4 0 0 0
+1 0 1d1+10 1d1+1 1d1+1 punch
+10 10 10 10
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17351
+raider angle~
+An Angle raider~
+An Angle raider is here, burning huts and raping women!
+~
+The Angle raider is tall, blond haired, and wears a horned helmet. He 
+carries a shield and his Angle, an angled swordlike blade. He is in partial 
+leather armor.
+~
+human~
+2|4|32 0 -200 0
+24 0 5d10+500 5d5+1000 2d10+6 pound    
+-6 -6 -6 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17352
+chief angle~
+The Angle chief~
+The Angle chief is here, leading the massacre!
+~
+The Angle chief is a giant of a man, covered in blood, and laughing with 
+a deep boom at each kill.
+~
+human~
+2|32 32 -700 0
+30 0 6d12+853 5d5+1000 4d6+8 pound     
+-9 -9 -9 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17353
+calvary unit~
+The calvary unit~
+A calvary unit is here, flanking the enemy lines.
+~
+The calvary unit consists of about 30 mounted knights on medium warhorses.
+~
+unique~
+2 0 200 0
+45 0 25d10+3000 5d5+1000 8d4+16 blast
+-15 -15 -15 2
+C 0 0 0
+stand stand none 1000
+AHMV ABCDEFGHIJK huge 0
+#17354
+infantry unit~
+The infantry unit~
+An infantry unit is here, fighting the Pict hoards.
+~
+The infantry unit has about 50 squires and serfs armed with polearms.
+~
+unique~
+2 0 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 blast
+-13 -13 -13 3
+CO 0 0 0
+stand stand none 1000
+AHMV ABCDEFGHIJK huge 0
+#17355
+hoard pict picts~
+The pict hoard~
+A hoard of Picts is here, fighting the troops of Camelot.
+~
+The hoard of Picts consists of about 500 poorly armed and armored foot 
+soldiers.
+~
+human~
+2 0 -100 0
+50 0 50d10+4250 5d5+5000 5d8+19 charge 
+-20 -20 -20 0
+CO 0 0 0
+stand stand none 1000
+AHMV ABCDEFGHIJK giant 0
+#17356
+leader pict~
+The Pict leader~
+The Pict leader is here, retreating from battle.
+~
+The Pict leader is covered in blue dye, giving him a fearsome demonic 
+appearance which is further augmented by his reindeer horned helmet.
+~
+human~
+2 0 -400 0
+40 0 15d10+1850 5d5+1000 4d8+13 pound
+-13 -13 -13 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17357
+persante knight~
+Persante of Inde (the blue knight)~
+Persante of Inde is here, marshalling the troops of Camelot.
+~
+Persante is called the blue knight because of his brilliant blue armor. 
+He is mounted on a fine charger, and is waving his blue pennant.
+~
+human~
+8388608 128 400 0
+35 0 10d10+1300 5d5+1000 4d7+11 pound
+-11 -11 -11 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17358
+dodinas knight~
+Dodinas le Savage~
+Dodinas le Savage is here, holding the center of the line!
+~
+Dodinas is a whirlwind of weapons and martial skill, felling all who
+approach. He is mounted atop his famed steed Rue.
+~
+human~
+8388608 0 100 0
+32 0 10d10+1000 5d5+1000 6d4+9 pound
+-10 -10 -10 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17359
+lionel knight~
+Lionel~
+Lionel is here, unhorsed, and fighting for his life!
+~
+Lionel is covered in blood, and is walking as if stunned. It looks like he 
+is going to fall.
+~
+human~
+8388608 0 300 0
+30 0 6d12+853 5d5+1000 4d6+8 pound     
+-9 -9 -9 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17360
+gaheris knight~
+Gaheris~
+Gaheris (Gawaine's brother) is here putting down the raiders.
+~
+Gaheris has long red hair, and a gray stallion. He is extremely angry with 
+the Angles and is cutting his way to the chief.
+~
+human~
+2 0 500 0
+33 0 10d10+1100 5d5+1000 6d4+10 pound
+-11 -11 -11 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17361
+commander outpost southern~
+The southern outpost commander~
+The southern outpost commander is here, safe in the respect of his men.
+~
+The outpost commander is a hardened, grizzled veteran with the cunning that 
+comes from a life of leading men in endless battle.
+~
+human~
+2|1024 8|32|8192 500 0
+25 0 5d10+550 5d5+1000 2d10+7 punch    
+-7 -7 -7 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17362
+guard border southern~
+A southern border guard~
+A southern border guard is here, stoically holding the line against intruders.
+~
+The border guard wears chain armor and is equipped with a standard sword.
+~
+human~
+2 32|8192 300 0
+20 0  3d9+333 5d5+1000 2d8+5 pound      
+-4 -4 -4 5
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17363
+slave~
+A slave~
+A slave is here, cringing from battle.
+~
+The slave is dirty and unkempt, but she retains a vestage of her former 
+station and bearing.
+~
+human~
+4|8388608 65536 0 0
+5 0 2d6+60 5d5+100 1d6+1 punch        
+5 5 5 9
+EFNU 0 0 0
+stand stand female 1000
+AHMV ABCDEFGHIJK medium 0
+#0
+
+#OBJECTS
+#17301
+dagger squire~
+a squire's dagger~
+A leather hilted dagger lies here
+~
+iron~
+weapon 0 AN
+dagger 5 5 pierce 0
+20 2 500 P
+A
+18 2
+A
+19 2
+#17302
+mace knight knight's~
+a knight's mace~
+A clublike weapon with a spiked balled head lies here
+~
+iron~
+weapon 0 AN
+mace 5 6 crush 0
+23 5 800 P
+A
+18 1
+A
+19 3
+#17303
+lance knight knight's~
+a knight's lance~
+An 18' pole is sunk into the ground here
+~
+iron~
+weapon 0 AN
+lance 5 6 stab 0
+25 15 1000 P
+A
+18 3
+A
+19 3
+E
+pole~
+This pole looks alot like a lance.
+~
+#17304
+armor green~
+a suit of green armor~
+A fine suit of green armor bearing the crest of Hautdesert glistens here!
+~
+mithril~
+armor GK AD
+9 9 9 9 0
+31 2 2000 P
+A
+13 10
+A
+1 2
+A
+24 -5
+E
+crest hautdesert~
+The crest has a stag on a verdant field
+~
+#17305
+axe benlad benlad's~
+benlad's axe~
+A two headed axe with the Hautdesert crest lies here
+~
+iron~
+weapon GK AN
+axe 5 7 slash 0
+31 7 2000 P
+A
+18 4
+A
+19 4
+A
+23 -4
+E
+crest~
+The crest has a stag on a verdant field
+~
+#17306
+bracer white~
+a white bracer~
+A humming, blinding white bracer lies here!
+~
+admantite~
+armor ABGK AM
+11 11 11 11 0
+40 2 3000 P
+A
+1 1
+A
+2 1
+A
+5 1
+A
+18 3
+A
+19 3
+A
+13 20
+#17307
+grail holy~
+the holy grail~
+A beat-up, dirty, wooden cup lies here
+~
+wood~
+potion GKL AO
+40 'heal' 'heal' 'heal' ''
+40 1 8500 P
+#17308
+cloak many orkney~
+a many colored cloak~
+A cloak of many colors and the crest of Orkney lies here
+~
+leather~
+armor GK AK
+9 9 9 9 0
+34 4 1500 P
+A
+2 2
+A
+13 20
+#17309
+shield~
+a shield of many colors~
+A rainbow of colors is reflected from the shield which lies here!
+~
+silver~
+armor GK AJ
+9 9 9 9 0
+34 4 1500 P
+A
+19 4
+#17310
+sword excalibur~
+excalibur~
+A beautiful dragon hilted sword lies here!
+~
+admantite~
+weapon BKL AN
+sword 5 8 slice D
+38 4 4500 P
+A
+18 5
+A
+19 5
+A
+1 3
+A
+13 20
+E
+sword excalibur~
+You run your fingers over the blue green steel of Excalibur, and you feel 
+a tingling sensation. Your vison blurs until all you see is a blinding 
+white light. A warm sensation fills your limbs, and a sense of relaxed 
+comfort permeates you. A deep fatherlike voice says "Now that Arthur is 
+dead, it is up to you to right what he wrought. Seek out and destroy Mordred 
+and Morgan Le Fey. They are destroying Camelot." The voice and the light 
+gradually fade leaving you with only a lingering warm feeling.
+~
+#17311
+scabbard arthur arthur's golden~
+arthur's scabbard~
+A beautiful golden scabbard lies here!
+~
+gold~
+container CIKL AL
+30 0 -1 15 75
+38 3 1500 P
+A
+19 2
+A
+13 -10
+A
+23 -5
+A
+24 -5
+#17312
+armband armbands garlon garlon's~
+garlon's invisible armbands~
+A set of armbands of black iron lie here.
+~
+iron~
+armor FGJ AI
+8 8 8 0 0
+28 4 1500 P
+A
+17 -5
+A
+5 2
+#17313
+helm horned gawaine gawaine's~
+gawaine's horned helm~
+A burnished steel helm with oxen horns lies here.
+~
+iron~
+armor C AE
+9 9 9 9 0
+34 3 2500 P
+#17314
+spurs silver lamorak lamorak's~
+lamorak's spurs~
+A set of silver spurs lies here.
+~
+silver~
+armor 0 AG
+9 9 9 0 0
+30 0 2000 P
+A
+19 4
+A
+18 4
+#17315
+gauntlets bravery~
+gauntlets of bravery~
+A glowing pair of burnished chain mesh gauntlets lies here
+~
+iron~
+armor GIKL AH
+11 11 11 11 0
+44 3 5000 P
+A
+18 5
+A
+19 5
+#17316
+ring incubus crest gold~
+the Incubus crest ring~
+A ring of twisted red gold bearing the likeness of an Incubus lies here
+~
+gold~
+armor CMQ AB
+11 11 11 6 0
+40 1 2800 P
+A
+12 20
+A
+3 1
+A
+4 1
+#17317
+staff merlin merlin's~
+merlin's staff~
+A staff of two intertwined vines lies here in a circle of power!
+~
+wood~
+wand ABCGH AO
+80 20 20 'dispel magic' 0
+40 10 5000 P
+A
+12 10
+A
+24 -3
+E
+imm~
+This is type wand so you can dispel magic on others. Staff only works on self.
+-
+show
+~
+#17318
+greaves blackened steel~
+a pair of blackened steel greaves~
+A pair of blackened steel greaves lies here. There is an inscription on them.
+~
+iron~
+armor CHM AF
+7 7 7 0 0
+21 5 1 P
+A
+14 -50
+A
+4 -4
+E
+inscription~
+You look at the inscription. It reads "I do hereby swear to not reveal my 
+crest until I have stopped all from entering Camelot for a period of 5 years, 
+as I have promised Morgana in exchange for the favor of Eveline"
+~
+#17319
+wand rod~
+a marble rod with a white hot tip~
+A marble rod with a white hot tip is smouldering here
+~
+stone~
+wand ACGHJ AO
+26 5 5 'charm person' 0
+26 1 23000 P
+E
+rod wand marble~
+As you examine the wand, you get a funny feeling. It swells into a vision of 
+the previous's wands owner, Morgan Le Fey. You hear a cackling laughter and 
+red eyes bore into your head. As the vison fades you hear the message '
+...with each charmed, your soul belongs a little more to me...'.
+~
+#17320
+pack backpack trailpack leather pellinore pellinore's~
+pellinore's trailpack~
+A backpack made of fine leather sits here. You see lettering on its corner.
+~
+leather~
+container GH AD
+500 0 17321 250 75
+27 0 1200 P
+E
+lettering~
+You read the writing on the pack. It says "To my dear friend Pellinore, may 
+this pack make your journeys shorter and allow you to bring all the 
+provisions you need. Simply wear the pack, and and the weight and number 
+of items you carry will increase, and you will be able to travel long 
+distances without tiring. I have made this pack lockable (use the key with 
+the letter P). May you succeed in your quest!     - Merlin".
+~
+#17321
+key p letter~
+a key with the letter "P" on it~
+A key with the letter "P" on it is here.
+~
+brass~
+key 0 AO
+0 0 0 0 0
+27 1 270 P
+#17322
+rations trail~
+some trail rations~
+Some trail rations (nuts, dried fuits, dried meats) are here.
+~
+flesh~
+food 0 A
+48 48 0 0 0
+27 4 270 P
+#17323
+flask wine~
+a flask of a nice red wine~
+A flask of nice, cold Pinot Noir wine is here, just waiting to be tasted.
+~
+glass~
+drink 0 A
+10 10 'red wine' 0 0
+27 2 270 P
+E
+wine flask~
+The wine is a beautiful deep red in color, and it goes well with all food.
+~
+#17324
+bones bone pile~
+a pile of bones~
+A pile of bones lies here.
+~
+stone~
+trash 0 A
+0 0 0 0 0
+22 10 1 P
+#17325
+skull human~
+a human skull~
+A human skull lies here.
+~
+stone~
+trash 0 A
+0 0 0 0 0
+22 3 220 P
+#17326
+rock black small~
+a small black rock~
+A small black rock lies here.~
+stone~
+pill 0 A
+25 1 34 18 0
+22 1 2600 P
+E
+rock black small~
+You look at the rock. On the rock are carved strange rune symbols that you 
+don't understand. The rock has blood on it.
+~
+E
+rune~
+Persistant, huh? Well yes it seems like that mage buddy of yours once was 
+talking about rune wafers that could be eaten and have magical effects 
+happen. This looks like one of those.
+~
+#17327
+letter love~
+a love letter~
+A love letter addressed to Tristram is rolled and sealed with a wax emblem.
+~
+paper~
+scroll G AO
+40 'pass door' 'invis' 'fly' ''
+36 1 800 P
+E
+seal~
+The seal bears the crest of the house of King Mark.~
+E
+letter~
+You break the seal and look at the letter. The letter reads:
+
+My beloved Tristram. How much do I long for your gentle presence alongside 
+me! My father seethes at the very thought of you. Beware! He seeks to do you 
+harm. I have spoken with Merlin and he as bewitched this letter to allow you 
+to fly invisibly to me, and pass unhindered through all our doors! Tarry not 
+for I shall burst!
+
+Forever and totally in your thrall,
+
+Isolde
+~
+#17328
+armor golden~
+a suit of golden armor~
+A suit of golden armor shines here
+~
+gold~
+armor EJL AD
+9 9 9 9 0
+34 5 3000 P
+A
+15 5000
+A
+17 -12
+#17329
+spear unholy~
+a spear glowing in an unholy dark light~
+A spear is here, glowing with an unholy dark light.
+~
+admantite~
+weapon ACEG AN
+staff 5 8 pierce C
+34 10 2500 P
+A
+1 2
+A
+18 4
+A
+19 4
+A
+14 15
+E
+unholy spear light~
+You look at the unholy light surrounding the spear. Your vision darkens. 
+Out of the darkness red glowing eyes laugh and dance at you. A rage slowly 
+fills you, you want to kill. Rend. Tear. Rape. Murder - ahhahahahah!
+~
+#17330
+favor silken~
+a silken favor~
+A silken favor is here. Maybe it belongs to your lady?
+~
+cloth~
+trash 0 AO
+0 0 0 0 0
+9 1 90 P
+#17331
+necklace~
+an emerald necklace~
+An exquisite emerald necklace with intricate gold settings has 
+been left here!
+~
+gold~
+treasure 0 AC
+0 0 0 0 0
+12 2 1500 P
+#17332
+ball chain~
+a massive spiked ball and chain~
+A massive spiked iron ball attached to a iron handle by a 3' chain is here.
+~
+iron~
+weapon 0 AN
+exotic 5 7 crush 0
+28 30 2300 P
+A
+19 4
+#17333
+motley fool fools~
+fool's motley~
+Some fool has left his motley here.
+~
+cloth~
+armor 0 AE
+1 1 1 0 0
+31 3 5 P
+A
+3 -1
+#17334
+helm wolf helmet~
+a wolf helm~
+A helm with the semblance of a wolf is here
+~
+iron~
+armor G AE
+9 9 9 9 0
+33 10 3400 P
+A
+18 3
+A
+19 3
+#17335
+armor shimmering red~
+a suit of shimmering red armor~
+A suit of shimmering red armor glistens in the sunlight.
+~
+mithril~
+armor AG AD
+9 9 9 4 0
+31 15 1800 P
+A
+17 -10
+#17336
+key rusty~
+a rusty key~
+A key is here, lying in the dirt, rusting.
+~
+iron~
+key 0 A
+0 0 0 0 0
+38 1 10 P
+#17337
+reward~
+the reward~
+A deed of payment for the rescue of a damsel in distress is here.
+~
+paper~
+treasure 0 A
+0 0 0 0 0
+8 1 2000 P
+#17338
+key room~
+a room key~
+A brass key made depicting a young girl is here.
+~
+brass~
+key 0 A
+0 0 0 0 0
+0 1 1 P
+#17339
+purse heavy~
+a rather heavy looking purse~
+A rather heavy looking purse is here.
+~
+leather~
+money 0 A
+1000 0 0 0 0
+0 1 2 P
+#17340
+cloak lice infested~
+a lice infested cloak~
+A lice infested cloak made of the skin of some animal is here.
+~
+leather~
+armor 0 AK
+8 8 8 0 0
+29 10 600 P
+A
+1 3
+A
+5 -1
+#17341
+sword broad steel commander commander's~
+a commander's steel broad sword~
+A commanders steel broad sword catches your eye.
+~
+iron~
+weapon 0 AN
+sword 5 6 slash 0
+24 5 1700 P
+A
+18 3
+A
+19 3
+#17342
+skin whiskey~
+a skin of whiskey~
+A skin smelling of whiskey is here, on the ground.
+~
+leather~
+drink 0 A
+50 50 'whisky' 0 0
+28 10 400 P
+#17343
+ship dragon~
+a dragon ship~
+A dragon ship is beached here- where are those Angle raiders?
+~
+wood~
+furniture OT 0
+10 50000 L 150 150
+29 -15536 290 P
+#17344
+angle~
+an angle~
+An angle is here. A raider must be nearby.
+~
+iron~
+weapon 0 AN
+sword 5 7 slash 0
+31 15 600 P
+A
+18 -3
+A
+19 4
+#17345
+rod command~
+a rod of command~
+A rod of black, runed metal swallows light here.
+~
+iron~
+staff CJL AO
+40 10 10 'charm person' 0
+40 9 23500 P
+A
+3 1
+A
+4 1
+A
+17 -10
+E
+runed runes metal rod~
+You look at the metal rod, and a sick feeling comes over you. Your vision 
+dims and you see two hot red eyes cutting though you. A demonic cackle 
+sends chills down your spine, and as it fades you hear " with every use, 
+you become mine..."
+~
+#17346
+banner war persante blue~
+the blue war banner of Persante of Inde~
+The blue war banner of Persante of Inde lies here. Persante has fallen!
+~
+wood~
+light AK AO
+0 0 999 0 0
+35 20 3400 P
+A
+20 -2
+A
+21 -2
+A
+22 -2
+A
+23 -2
+A
+24 -3
+E
+banner blue~
+The banner depicts a Griffon on a pale blue sky
+~
+#17347
+lifecutter~
+lifecutter~
+A blue black crusader hilt sword is stuck in the ground
+~
+admantite~
+weapon C AN
+sword 5 7 slash C
+32 20 3200 P
+A
+18 4
+A
+19 4
+A
+13 -10
+E
+sword~
+As you look at the sword, you hear inside your head the words "My name is
+Lifecutter, and my last master was Dodinas le Savage. Take me and lets 
+slay evil!
+~
+#17348
+armor plate full~
+a suit of full plate armor~
+A suit of full plate armor gleams on the ground
+~
+iron~
+armor 0 AD
+11 13 12 0 0
+30 100 300 P
+A
+17 -8
+#17349
+axe~
+an enormous axe~
+An enormous axe is resting here.
+~
+iron~
+weapon 0 AN
+axe 9 4 chop F
+33 25 2000 P
+A
+19 5
+E
+axe~
+The axe handle has the name 'Gaheris' inscibed on it.
+~
+#17350
+hat top black Lok Lok's~
+lok's black top hat~
+Lok's black top hat is here- maybe you should give it to him- nah
+~
+unknown~
+armor 0 AE
+3 3 3 0 0
+100 0 0 P
+A
+12 100
+A
+14 100
+A
+18 10
+A
+19 10
+A
+17 -50
+A
+20 -20
+A
+21 -20
+A
+22 -20
+A
+23 -20
+A
+24 -20
+E
+hat~
+Inscribed in the hatband is the message 'I belong to Lok'
+~
+#0
+
+#ROOMS
+#17301
+Before the Forest Arden~
+Before you stretches the vast forest Arden, consisting of towering oaks 
+and unknown wildlife. A path leads northwards into the forest. There is a 
+piece parchment nailed to an old oak, and a guilded plaque is affixed to a 
+boulder.
+~
+0 4 3
+D0
+A dirty trail
+~
+~
+0 -1 17302
+D3
+~
+~
+0 -1 312
+E
+Parchment~
+The parchment reads:
+
+Let it be known that Arthur, King of the Britains seeks to form the company 
+of the Round Table. All knights of valor and virtue are summoned to this 
+august company in Camelot.~
+E
+Plaque~
+Camelot 1994 by Lok- There are lots of extras, so be sure to look at 
+keywords in rooms and at your objects to get the full picture of the 
+area. As with all bards of the round table, I have altered story elements 
+to suit my whim.
+~
+S
+#17302
+The Crossroads of Arden~
+You stand at the crossroads of two dusty paths. Dappled sunlight lights 
+the intersection and you notice horsesign in the dirt. The path continues 
+in the north, south, east and west directions.
+~
+0 0 3
+D0
+A dirty trail
+~
+~
+0 -1 17305
+D1
+A dirty trail
+~
+~
+0 -1 17306
+D2
+A dirty trail
+~
+~
+0 -1 17301
+D3
+A dirty trail
+~
+~
+0 -1 17303
+E
+horsesign~
+You bend down and look at the hoofprints. The main traffic leads down the 
+easterly path and southerly path.
+~
+E
+dirt~
+You look carefully at the dirt and notice in addition to the horsesign, 
+there is a trail of strange claw marks heading to the west.~
+S
+#17303
+The Forest Arden~
+You are on a path in the great forest Arden. Boy you wish there wern't 
+so many of those pesky knats. The trail leads south and east.
+~
+0 0 3
+D1
+A dirty trail
+~
+~
+0 -1 17302
+D2
+A dirty trail
+~
+~
+0 -1 17304
+E
+knats~
+They sure are pesky!
+~
+S
+#17304
+Trail of Bones~
+The trail narrows and darkens and you notice a crunching sound. You look 
+down-BONES! The trail darkens to the west and lightens to the north.
+~
+0 0 3
+D0
+A dirty trail
+~
+~
+0 -1 17303
+D3
+Even more bones~
+~
+0 -1 17307
+E
+bones~
+You look at the bones. Most of them are human. You notice a beat up crest 
+of the house Pellinore. There bones get deeper to the west.
+~
+S
+#17305
+A Hut in Forest Arden~
+You stand before a weathered thatch hut. There are weeds everywhere-
+obviously this place has been abandoned for some time. The door to the 
+hut lies to the west and a dirty trail leads south.
+~
+0 0 3
+D2
+A dirty trail~
+~
+0 -1 17302
+D3
+Hut~
+door~
+2 17336 17308
+E
+weeds~
+You get down on your hands and knees and examine the weeds. Most of them 
+are herbs of one variety or another, and there is a tremendous variety of 
+them.
+~
+S
+#17306
+A Fork in the Dirty Trail~
+You are at a fork in the dirty trail in Forest Arden. There is horsesign 
+in the dirt, and the trail goes north, east, and west from here.
+~
+0 0 3
+D0
+A dirty trail~
+~
+0 -1 17309
+D1
+A dirty trail~
+~
+0 -1 17310
+D3
+A dirty trail~
+~
+0 -1 17302
+E
+horsesign~
+You bend down and look at the hoof marks in the dirt. The heavy traffic 
+goes to the north and west.
+~
+S
+#17307
+Lair of the Questing Beast~
+You have found the lair of the questing beast! Bones are strewn everywhere.
+The only exit is to the east.
+~
+0 1 3
+D1
+Trail of Bones~
+~
+0 -1 17304
+S
+#17308
+Inside a Hut~
+You stand inside an old, abandonned hut. The ceiling is low, and the 
+rafters are covered in soot. There is a workbench and an old fireplace.
+~
+0 8 0
+D1
+A wooden door~
+~
+2 17336 17305
+E
+Workbench~
+The workbench is covered in glass tubing and vials of various colored 
+liquids. Maybe you should leave it alone.
+~
+E
+fireplace fire~
+The fire has long since died out. All you see are old scraps of paper and 
+wood in the fireplace.
+~
+E
+paper scraps old~
+You pull out a torn scrap of paper. It says: Merlin, my love for Tristram 
+is bountiless, yet my father forbids him to see me. Is there anything you 
+can do?
+
+Isolde
+~
+E
+rafters~
+The rafters are darkened by smoke and strange yellow stains.
+~
+E
+yellow stains strange~
+You examine the yellow stains. They smell of sulfur.
+~
+S
+#17309
+Mists of Arden~
+You have steadily travelled downhill into a misty forested area. The tall 
+black silhoettes of the towering oaks crowd your limited vision. You squint 
+at the dirty trail which leads north and south and notice horsesign.
+~
+0 1 3
+D0
+A dirty trail~
+~
+0 -1 17313
+D2
+A dirty trail~
+~
+0 -1 17306
+E
+horsesign~
+You look at the horsesign and see that many horses have travelled this path.
+~
+S
+#17310
+Deep Woods~
+You are in a deeply wooded section of the forest Arden. Shadows lengthen 
+and play in the breeze. The trail continues north, east, and west.
+~
+0 0 3
+D0
+A dirty trail~
+~
+0 -1 17311
+D1
+A dirty trail~
+~
+0 -1 17312
+D3
+A dirty trail~
+~
+0 -1 17306
+S
+#17311
+Cursed Glade~
+You have entered a glade where all the vegetation is dead. There is no 
+sounds of wildlife, and no light reaches here from above. There are bones 
+from previous visitors scattered about the glade. Maybe you should rest 
+for a while
+~
+0 1|8192 3
+D4
+the trees~
+~
+1 -1 17312
+E
+bones~
+Maybe you should rest a while...
+~
+S
+#17312
+Dark Hollow~
+You have entered a dark hollow. The air is heavy, damp and oppressive 
+broken only bye the cackling of a crow. To the west is a dusty trail.
+~
+0 1 3
+D3
+A dirty trail~
+~
+0 -1 17310
+E
+crow~
+Or was that a snicker?
+~
+S
+#17313
+The Forest Arden~
+You have entered a bright and cheerful section of the Forest Arden. 
+Squirrels chase one and another around the ancient oaks, and butterfiles 
+dance in the dappled sunshine. The air smells sweet, the sun is on your 
+back, and the horsetrodden trail leads north, south, and east.
+~
+0 4|1024 3
+D0
+A dusty trail~
+~
+0 -1 17314
+D1
+A dusty trail~
+~
+0 -1 17319
+D2
+A dusty trail~
+~
+0 -1 17309
+E
+squirrels~
+Yes, they are mating.~
+E
+trail horsesign sign~
+You discover horsesign. Most of the traffic heads east and south.
+~
+S
+#17314
+A Creek in the Forest Arden~
+You have stopped for water at a little creek which cuts across the trail. 
+To the south the forest brightens. To the west the forest darkens. The 
+sky is blue and the sunlight flashes off the silvery waters.
+~
+0 0 6
+D2
+A dirty trail~
+~
+0 -1 17313
+D3
+A dirty trail~
+~
+0 -1 17315
+E
+silvery~
+You stoop down to peer at the shiny flashy creek and see submerged a knight.
+The knight bears the crest of Camelot and appears to have been coldly 
+speared through the back.
+~
+S
+#17315
+Battleplain of Arden~
+Before you stretches the grizzly battleplain of Arden. Countless centuries 
+of war have littered the plain with bones and broken weapons of its 
+combattants. There are signs of a recent carnage with several knights 
+and their steeds lying in twisted heaps. A dirty trail continues to the 
+west and east, and a winding road heads north.
+~
+0 0 2
+D0
+A winding road~
+~
+0 -1 17316
+D1
+A dirty trail~
+~
+0 -1 17314
+D3
+A dirty trail~
+~
+0 -1 17317
+E
+heaps knights steeds bones~
+The sight sickens you.
+~
+S
+#17316
+Before Blackmoor~
+You stand before Blackmoor the keep of the evil Mordred. The curtain wall 
+is some 25 feet high and towers flank the gate and corners. The breeze 
+brings a high pitched girlish laughter to you sending chills up your spine. 
+To the north lies the black iron gates of Blackmoor, and to the south 
+stretches a winding road.
+~
+0 0 2
+D0
+Black Iron Gate~
+gate black iron~
+1 -1 17327
+D2
+A winding road~
+~
+0 -1 17315
+E
+gates iron black~
+The great iron gates have been forged from pig iron, and they are strangly  
+without rust. The iron spirals with great craftsmanship, forming into faces 
+of distorted humans.
+~
+E
+humans~
+Actually they look like damned souls to you.
+~
+S
+#17317
+Forest Blackmoor~
+You have entered Blackmoor, the forest of the damned. Thorns and crooked 
+trees scratch and tear at you, almost as if they were alive. The well worn 
+path has has vanished and you have lost your bearings.
+~
+0 1|8192 3
+D4
+~
+~
+0 -1 17315
+D5
+~
+~
+0 -1 17318
+S
+#17318
+Before an Inviting Hut~
+You stand in front of an inviting hut. Smoke curls from the chimney 
+bringing you the smell of fresh venison. Lamplight cuts through the 
+darkness and the windows. A delightful song can be heard from inside. 
+To the west is the door (adjar) to the hut, and a dirty trail leads 
+to the south.
+~
+0 0 3
+D2
+A dirty trail~
+~
+0 -1 17317
+D3
+An inviting hut~
+door~
+1 -1 17323
+S
+#17319
+The Chasm~
+You stand before a deep chasm. You can see the fettered ends of an 
+old rope bridge cut and hanging into the chasm. To the west is a 
+dirty trail, and the cut rope bridge leads down.
+~
+0 0 5
+D3
+A dirty trail~
+~
+0 -1 17313
+D5
+Down the dangling end of the rope bridge
+~
+~
+0 -1 17320
+S
+#17320
+Hanging on the Rope Bridge~
+You are hanging at the tattered end of a rope bridge. Your grip is 
+fairly strong. You can either try to swing east across the chasm to 
+the other loose part of the bridge, or you can climb up and out, or 
+you can let go into the yawning depths of the chasm.
+~
+0 1 5
+D1
+Hanging on the Rope Bridge~
+~
+0 -1 17321
+D4
+The chasm~
+~
+0 -1 17319
+D5
+The Yawning Depths~
+~
+0 -1 17324
+S
+#17321
+Hanging on the Rope Bridge~
+You are hanging on the frayed end of the rope bridge. You can either 
+attempt to swing to the east side, climb up the bridge, or go down 
+into the yawning depths of the chasm.
+~
+0 1 5
+D3
+Hanging on the Rope Bridge~
+~
+0 -1 17320
+D4
+The Chasm~
+~
+0 -1 17322
+D5
+The Yawning Depths~
+~
+0 -1 17324
+S
+#17322
+The Chasm~
+You stand at the brink of a deep chasm. The rope bridge across it has 
+been cut by some vile villian and lies hanging down into the chasm. 
+You can either climb down the bridge into the chasm or head to the 
+green field to the east.
+~
+0 0 5
+D1
+A green field~
+~
+0 -1 17325
+D5
+Hanging on the Rope Bridge~
+~
+0 -1 17321
+S
+#17323
+Inside the Inviting Hut~
+You are inside an inviting hut. Around you is the comfortable interior, 
+complete with feather bed and fireplace. A table of fresh meat and 
+vegatables has been set, and on it is an ornate chalice filled with 
+wine. A candle burns brightly and there is a single chair at the table.
+~
+0 8|8192 0
+D1
+Before an Inviting Hut~
+~
+1 -1 17318
+E
+chalice~
+On closer inspection the chalice is not the holy grail.
+~
+E
+bed~
+The bed looks comfortable. Inviting.
+~
+E
+meat wine~
+The meat is juicy, the wine has a nice dry aroma and a deep red color.
+~
+E
+candle~
+Its a black candle. What was that you remember about black candles? 
+Oh yeah, they are used by witches in black masses.
+~
+E
+chair~
+Why don't you sit down for a while and have a nice meal?
+~
+S
+#17324
+The Yawning Depths~
+Blue...NO GREEN!
+   AHHHHHHHHHHHHHHHH
+       AHHHHHHHHHHHHHHHH
+           AHHHHHHHHHHHHHHHH
+SPLAAAAT.
+~
+0 1|4 5
+S
+#17325
+The Green Field Before Camelot~
+You stand under the open sky in the emerald green field before Camelot.
+Camelot lies ontop of a hill overlooking the field. Flags and banners 
+snap in the fresh breeze from the proud towers of Camelot. You can either 
+head east to Camelot or west to the chasm.
+~
+0 0 2
+D1
+The Eastern Gate of Camelot~
+~
+0 -1 17326
+D3
+The Chasm~
+~
+0 -1 17322
+S
+#17326
+The Western Gate of Camelot~
+You stand at the gates to Camelot. You have a commanding view of the emerald 
+plane below. White granite walls rise impressively into the air.
+~
+0 4 1
+D1
+The Western Gate~
+gate eastern~
+1 -1 17341
+D3
+A green field~
+~
+0 -1 17325
+S
+#17327
+Bailey of Blackmoor~
+You stand inside the bailey of Blackmoor. Murder holes line the walls and 
+towers rise ahead. To the north and south are black iron gates.
+~
+0 1 1
+D0
+Black Iron Gate~
+gate black iron~
+1 -1 17328
+D2
+Black Iron Gate~
+~
+1 -1 17316
+E
+hole holes~
+Nobody seems to be looking at you through the murder holes
+~
+S
+#17328
+Inside the Curtain Wall~
+You stand on a road inside the Curtain Wall of Blackmoor. The keep proper 
+is to your north. The road continues to the east and west, and a black iron 
+gate is to the south.
+~
+0 1 0
+D1
+Inside the Curtain Wall~
+~
+0 -1 17329
+D2
+Black Iron Gate~
+~
+1 -1 17327
+D3
+Inside the Curtain Wall~
+~
+0 -1 17330
+S
+#17329
+Inside the Curtain Wall~
+You stand on the road inside the curtain wall of Blackmoor. Stairs lead up 
+to the eastern bailey tower and the road continues to the north and west.
+~
+0 1 1
+D0
+Inside the Curtain Wall~
+~
+0 -1 17335
+D3
+Inside the Curtain Wall~
+~
+0 -1 17328
+D4
+The East Bailey Tower~
+~
+0 -1 17339
+S
+#17330
+Inside the Curtain Wall~
+You stand on the road inside the curtain wall. Stairs lead up to the western 
+bailey tower, and the road continues north and east.
+~
+0 1 1
+D0
+Inside the Curtain Wall~
+~
+0 -1 17331
+D1
+Inside the Curtain Wall~
+~
+0 -1 17328
+D4
+The West Bailey Tower~
+~
+0 -1 17338
+S
+#17331
+Inside the Curtain Wall~
+You stand on a road inside the curtain wall of Blackmoor. The keep proper 
+is to the east of you. The bloody road continues north and south.
+~
+0 1 1
+D0
+Inside the Curtain Wall~
+~
+0 -1 17332
+D2
+Inside the Curtain Wall~
+~
+0 -1 17330
+E
+blood bloody road~
+You bend down and look at the blood in the road and find a piece of silk. 
+You examine it and notice that it appears to be a favor of a lady in waiting 
+of Camelot.
+~
+S
+#17332
+Inside the Curtain Wall~
+You stand on a road inside the curtain wall of Blackmoor. Stairs lead up to 
+the northwestern tower of blackmoor. The road continues to the south, and 
+to the east where the entrance to the keep proper is.
+~
+0 1 1
+D1
+Entrance to the Keep Proper~
+~
+0 -1 17333
+D2
+Inside the Curtain Wall~
+~
+0 -1 17331
+D4
+The Northwestern Tower of Blackmoor~
+~
+0 -1 17336
+S
+#17333
+Entrance to the Keep Proper~
+You stand on a road inside the curtain wall of Blackmoor. To the south is 
+a massive wooden door, from which you hear elfin laughter. The road 
+continues to the east and west.
+~
+0 1 1
+D1
+Inside the Curtain Wall~
+~
+0 -1 17334
+D2
+A Massive Wooden Door~
+door wooden massive~
+1 -1 17340
+D3
+Inside the Curtain Wall~
+~
+0 -1 17332
+E
+door~
+Its huge! Hope you don't get a hernia opening it.~
+S
+#17334
+Inside the Curtain Wall~
+You stand on a road inside the curtain wall of Blackmoor. Stairs lead up 
+to the northeastern tower of Blackmoor. The road continues to the south 
+and west, where the entrance to the keep proper is located.
+~
+0 1 1
+D2
+Inside the Curtain Wall~
+~
+0 -1 17335
+D3
+Entrance to the Keep Proper~
+~
+0 -1 17333
+D4
+The Northeast Tower~
+~
+0 -1 17337
+S
+#17335
+Inside the Curtain Wall~
+You stand on a road inside the curtain wall of Blackmoor. To the west 
+looms the keep proper. The road continues north and south.
+~
+0 1 1
+D0
+Inside the Curtain Wall~
+~
+0 -1 17334
+D2
+Inside the Curtain Wall~
+~
+0 -1 17329
+S
+#17336
+The Northwest Tower of Blackmoor~
+You stand inside the northwestern tower. You have a commanding view of 
+the keep and the moor itself. Stairs lead downward.
+~
+0 1 0
+D5
+Inside the Curtain Wall~
+~
+0 -1 17332
+E
+view moor~
+You look at the view. The moor rolls onward, and mist makes it difficult 
+to  see very far. You see black forms scuttling across the moor. For a 
+moment you are glad you are in a solid tower.
+~
+S
+#17337
+The Northeastern Tower of Blackmoor~
+You stand inside the northeastern tower. You have a commanding view of 
+the keep and the surrounding moor. Stairs lead down.
+~
+0 1 0
+D5
+Inside the Curtain Wall~
+~
+0 -1 17334
+S
+#17338
+West Bailey Tower~
+You stand inside the western bailey tower. You have a great view of the 
+bailey and you could fire a ranged weapon through the murder hole. Stairs 
+lead down.
+~
+0 1 0
+D5
+Inside the Curtain Wall~
+~
+0 -1 17330
+E
+view hole bailey~
+You peek through the murder hole at the bailey as many have done before you.
+~
+S
+#17339
+East Bailey Tower~
+You stand inside the eastern bailey tower. You have a commanding view of 
+the bailey and could fire uncontested through the murder hole. Stairs lead 
+down.
+~
+0 1 0
+D5
+Inside the Curtain Wall~
+~
+0 -1 17329
+S
+#17340
+The Dark Hall of Mordred~
+You stand in the foul hall of Mordred. Smoke writhes upward to the rafters 
+from a firepit in the center. Armor from defeated knights is hung from 
+hooks on the wall. Knights sit in a circle about the fire staring woodenly 
+into the flames. A young elvin lad in golden armor laughs as he weaves a 
+dance amongst them.
+~
+0 1 0
+D0
+Entrance to the Keep Proper~
+~
+1 -1 17333
+E
+firepit fire pit~
+You examine the fire pit. A large body is roasting here. It looks human!
+~
+E
+lad elvin~
+You shake your head and look a second time. The lad disappears. A foul 
+spell has hold of you!
+~
+S
+#17341
+Victory Road and Knights Way~
+You stand on a marbled road inside the great walls of Camelot. Pinnons 
+fly from high towers and the buildings gleam of white stone. Victory Road 
+contiues east into the keep, and Knights Way runs north and south.
+~
+0 0 1
+D0
+Knights Way~
+~
+0 -1 17342
+D1
+Victory Road~
+~
+0 -1 17343
+D2
+Knights Way~
+~
+0 -1 17344
+D3
+West Gate of Camelot~
+~
+1 -1 17326
+S
+#17342
+Knights Way before the stables~
+You stand on the white marbled road, Knights Way. You smell horses to 
+the east. To the west the high walls of camelot rise. Knights way continues 
+to the north and south.
+~
+0 0 1
+D0
+Knights Way~
+~
+0 -1 17345
+D1
+Stables~
+~
+0 -1 17398
+D2
+Knights Way~
+~
+0 -1 17341
+E
+stables~
+There are many horses and squires scurring about in the stables.~
+E
+high walls~
+The high walls tower above you, made from a gleaming white stone. The 
+blocks are huge- it must have taken a great engine to hoist them. Pennons 
+snap in  the breeze from the many towers of Camelot.
+~
+S
+#17343
+Victory Road~
+You stand on victory road. Knights pennons are stuck in the ground on 
+both sides of the road, with their coat of arms flapping in the breeze. 
+There are available slots for other coats of arms. Victory road continues 
+to the east and west.
+~
+0 0 1
+D1
+Victory Road~
+~
+0 -1 17347
+D2
+~
+Victory Road~
+0 -1 0
+D3
+Victory Road and Knights Way~
+~
+0 -1 17341
+E
+coat coats arms~
+You look at the coats of arms. You recognize a few of the devices as that 
+of Gawaine, Tristram, and of course Lancelot.
+~
+S
+#17344
+Knights Way at the Armory~
+You stand on the white marbled Knights Way. To your west the towering 
+walls of Camelot rise, and to the east is the armory of Camelot. Knights 
+Way continues north and south.
+~
+0 0 1
+D0
+Victory Lane and Knights Way~
+~
+0 -1 17341
+D1
+The Armory~
+~
+0 -1 17348
+D2
+Knights Way~
+~
+0 -1 17349
+E
+high walls~
+The high walls tower above you, made from a gleaming white stone. The 
+blocks are huge- it must have taken a great engine to hoist them. Pennons 
+snap in  the breeze from the many towers of Camelot.
+~
+S
+#17345
+Corner of Knight's Way and Squire's Run~
+You stand at the corner of Knight's way and Squire's run. An arched 
+doorway rises up into a stalwart tower. You can see lettering above the 
+arch.  Knight's way continues south, and Squire's Run heads east.
+~
+0 0 1
+D1
+Squire's Run~
+~
+0 -1 17350
+D2
+Knight's Way~
+~
+0 -1 17342
+D4
+Tower of Valor~
+~
+0 -1 17351
+E
+writing arch~
+You look at the engraved words:
+
+    FORWARD TO VICTORY~
+S
+#17346
+Behind the Pict Lines~
+You have battled your way through the ranks of the Picts, and your 
+salley has placed you behind the Pict lines! To the east the battle 
+rages, and you see fleeing Picts headed this way.  A barbarian is winding 
+a horn with the recall signal.
+~
+0 0 2
+D1
+Into the raging battle~
+ranks~
+1 -1 17397
+E
+barbarian horn~
+The barbarian sees you looking at you, and flees in terror!
+~
+S
+#17347
+Victory Road~
+Here Victory Road ends at the great Tourney Yard of Camelot. A podium 
+for tourney winners is erected here- today it bears the coat of arms 
+of Lancelot. Flanking the road are the standards of the other knights 
+of the round table. A strange peace fills the air here. Victory road 
+continues to the west, and the Tourney Yard of Camelot is to the east.
+~
+0 1024 1
+D1
+Tourney Yard of Camelot~
+~
+0 -1 17352
+D3
+Victory Road~
+~
+0 -1 17343
+S
+#17348
+Armory~
+You stand in the Armory of Camelot. The master blacksmith and his 3 
+apprentices are busy fabricating a suit of armor for a knight. Various 
+pieces of armor are here in varying states of repair. There is a large  
+weapons rack on the eastern wall. To the west is Knight's Way.
+~
+0 0 0
+D3
+Knight's Way~
+~
+0 -1 17344
+E
+armor~
+The armor pieces are made from fine hammered steel.
+~
+E
+weapons rack~
+The weapons rack contains several daggers, a few lances, and some maces.
+~
+S
+#17349
+Corner of Knight's Way and Noble Road~
+You stand at the corner of Knights Way and Noble Road. A tower rises up 
+from here by a winding staircase. There is an inscription above the archway 
+to the tower. Knights way continues north and Noble Road goes east.
+~
+0 0 0
+D0
+Knight's Way~
+~
+0 -1 17344
+D1
+Noble Road~
+~
+0 -1 17354
+D4
+Tower of Honor~
+~
+0 -1 17353
+E
+inscription arch tower~
+You look at the inscription. It reads:
+
+       HONOR SEPERATES THE KNIGHT FROM THE CRIMINAL~
+S
+#17350
+Squire's Run~
+You stand on Squire's Run. Squires bustle up and down the road on various 
+errands for their lords. You notice a scroll lying on the ground. Squire's
+Run contines east and west.
+~
+0 0 1
+D1
+Squire's Run~
+~
+0 -1 17355
+D3
+Corner of Knight's Way and Squire's Run~
+~
+0 -1 17345
+E
+scroll~
+You look at the scroll. It is torn and badly smeared. You can make out:
+
+  .... I wandered through the Forest of Blackmoor, lost and without hope, 
+  until I found a hut. I looked through the window and there stood the  
+  Grail on a table. A beautiful woman beckoned to me, and at that moment 
+  my mount spooked, racing into the forest.....
+  ~
+S
+#17351
+Tower of Valor~
+You stand in the tower of valor. The walls bear murals of battle scenes, 
+of knights fighting knights and various unearthly beasts. There is a hollow 
+in one of the walls in which a fire takes the edge off the cold of the room. 
+The smoke puts you in a strange daze in which the MURALS seem to come to 
+life. Stairs lead down to the street below.
+~
+0 0 0
+D5
+Corner of Knight's Way and Squire's Run~
+~
+0 -1 17345
+E
+murals~
+You look at a mural of Saint George and the Dragon. George's armor gleams 
+in the sun, and from his lance flies his standard. George signals the 
+dragon and charges across the verdant green. The dragon raises its 
+serpentine head and inhales a mighty breath. George and mount thunder 
+though the tall grass. The dragon-
+             You snap out of your vision
+~
+S
+#17352
+Tourney Yard of Camelot~
+You stand in the reknowned tourney yard of Camelot. Here knights challenge 
+one and another for a claim to a seat on the round table. You can make out 
+several contests underway- perhaps you would like to joust?
+~
+0 0 2
+D0
+Tourney Yard of Camelot~
+~
+0 -1 17360
+D1
+Tourney Yard of Camelot~
+~
+0 -1 17359
+D2
+Tourney Yard of Camelot~
+~
+0 -1 17358
+D3
+Victory Road~
+~
+0 -1 17347
+S
+#17353
+Tower of Honor~
+You stand in the tower of honor. MURALS cover the walls and domed ceiling.
+Smoke rolls out in an erie caress from the fire hollow in the walls. A 
+strange tingling sensation rushes through your body. Stairs lead to the 
+street below.
+~
+0 0 0
+D5
+Corner of Knight's Way and Noble Road~
+~
+0 -1 17349
+E
+murals~
+You look at the mural of Lancelot, Gwenivere, and Arthur on a picnic. A 
+page arrives and hands Arthur a scroll. Arthur reads the scroll and mounts 
+his charger, racing back along the road. Lancelot turns to mount his 
+charger, but a feminine hand restrains him, beckoning to the cool shade 
+under the oaks. Lancelot turns to face Gwenivere-
+      You snap out of your vision
+~
+S
+#17354
+Noble Road~
+You stand on Noble Road. The street is paved in yellow stone, giving the 
+impression of gold in the wet sections. A statue of Uther Pendragon is 
+here. The road continues east and west.
+~
+0 0 1
+D1
+Noble Road~
+~
+0 -1 17361
+D3
+Corner of Knight's Way and Noble Road~
+~
+0 -1 17349
+E
+statue uther pendragon~
+You look at the statue. Uther Pendragon wears chain mail and bears a 
+giant axe. His beard flows along his lines, and his eyes bore into you 
+with an uneasy intensity.~
+S
+#17355
+Squire's Run at the North Gate~
+You stand on Squire's run. A steady stream of traffic is coming and going 
+to the south, where the squire's barracks is. To the north is the Great 
+Northern Gate of Camelot. Squire's run continues to the west, and the 
+Tourney Yard of Camelot is to the west. At your feet sits a beggar holding 
+a cup.
+~
+0 0 1
+D0
+The Great Northern Gate of Camelot~
+gate~
+1 -1 17356
+D1
+Tourney Yard of Camelot~
+~
+0 -1 17362
+D2
+Squire's Barracks~
+door~
+1 -1 17357
+D3
+Squire's Run~
+~
+0 -1 17350
+E
+beggar cup~
+You toss a coin to the beggar. He smiles at you and whispers "Beware of 
+Sir Garlon, the Invisible Knight in the area outside the west gate". 
+With a groan and a grovel the beggar shuffles off to the discard pile.
+~
+S
+#17356
+The Great Northern Gate of Camelot~
+You stand before the great northern gate of Camelot. A dirt road winds 
+down the hill upon which Camelot rests into the rolling grass hills of 
+the north. To the south is Squire's Run.
+~
+0 4 1
+D0
+A winding dirt road~
+~
+0 -1 17382
+D2
+Squire's Run~
+~
+1 -1 17355
+S
+#17357
+Squire's Barracks~
+You stand in the squire's barracks. It is here that all of the lackeys 
+of the knights of the round table reside while their lords are in court. 
+The place is a jumble of beds, lockers, and tables. Activity swirls 
+around the long wooden benches and tables where at present people are 
+eating. There is a rudimentry camp kitchin, with a roster of the day 
+(your name is not on it).
+~
+0 8 0
+D0
+Squire's Run at the North Gate~
+~
+1 -1 17355
+S
+#17358
+Tourney Yard of Camelot~
+You stand in the reknowned tourney yard of Camelot. Here knights challenge 
+one and another for a claim to a seat on the round table. You can make out 
+several contests underway- perhaps you would like to joust?
+~
+0 0 0
+D0
+Tourney Yard of Camelot~
+~
+0 -1 17352
+D1
+Tourney Yard of Camelot~
+~
+0 -1 17363
+D2
+Tourney Yard of Camelot~
+~
+0 -1 17364
+S
+#17359
+Tourney Yard of Camelot~
+You stand in the reknowned tourney yard of Camelot. Here knights challenge 
+one and another for a claim to a seat on the round table. You can make out 
+several contests underway- perhaps you would like to joust?
+~
+0 0 0
+D0
+Tourney Yard of Camelot~
+~
+0 -1 17365
+D1
+You see the Court of Camelot~
+~
+0 -1 17370
+D2
+Tourney Yard of Camelot~
+~
+0 -1 17363
+D3
+Victory Road~
+~
+0 -1 17352
+S
+#17360
+Tourney Yard of Camelot~
+You stand in the reknowned tourney yard of Camelot. Here knights challenge 
+one and another for a claim to a seat on the round table. You can make out 
+several contests underway- perhaps you would like to joust?
+~
+0 0 0
+D0
+Tourney Yard of Camelot~
+~
+0 -1 17362
+D1
+Tourney Yard of Camelot~
+~
+0 -1 17365
+D2
+Tourney Yard of Camelot~
+~
+0 -1 17352
+S
+#17361
+Noble Road at the South Gate~
+You stand at on Noble road at the Great Southern Gate of Camelot. To the 
+north lies the Noble quarters, where visiting nobility reside. The 
+tournament yard is to the east and Noble Road continues west. There is a 
+statue here of a knight.
+~
+0 0 1
+D0
+Noble's Quarters~
+door~
+1 -1 17366
+D1
+Tourney Yard of Camelot~
+~
+0 -1 17364
+D2
+The Great Southern Gate~
+gate~
+1 -1 17367
+D3
+Noble Road~
+~
+0 -1 17354
+E
+statue knight~
+The statue is of a mounted knight, riding forth to the southern gate. He 
+bears a pennon in one hand, a lance in the other, and wears full armor. 
+The horse which he rides rears in the air, signifying death in combat. 
+There is a small inscription here.
+~
+E
+inscription~
+Here stands our rememberance of Miles O' the Lands, knight of quality, of 
+the Round Table. He fought valiantly defending the queen in the Battleplain 
+of Arden.
+~
+S
+#17362
+Tourney Yard of Camelot~
+You stand in the reknowned tourney yard of Camelot. Here knights challenge 
+one and another for a claim to a seat on the round table. You can make out 
+several contests underway- perhaps you would like to joust?
+~
+0 0 0
+D1
+Tourney Yard of Camelot~
+~
+0 -1 17368
+D2
+Tourney Yard of Camelot~
+~
+0 -1 17360
+D3
+Squire's Run at the North Gate~
+~
+0 -1 17355
+S
+#17363
+Tourney Yard of Camelot~
+You stand in the reknowned tourney yard of Camelot. Here knights challenge 
+one and another for a claim to a seat on the round table. You can make out 
+several contests underway- perhaps you would like to joust?
+~
+0 0 0
+D0
+Tourney Yard of Camelot~
+~
+0 -1 17359
+D3
+Tourney Yard of Camelot~
+~
+0 -1 17358
+S
+#17364
+Tourney Yard of Camelot~
+You stand in the reknowned tourney yard of Camelot. Here knights challenge 
+one and another for a claim to a seat on the round table. You can make out 
+several contests underway- perhaps you would like to joust?
+~
+0 0 0
+D0
+Tourney Yard of Camelot~
+~
+0 -1 17358
+D3
+Noble Run at the South Gate~
+~
+0 -1 17361
+S
+#17365
+Tourney Yard of Camelot~
+You stand in the reknowned tourney yard of Camelot. Here knights challenge 
+one and another for a claim to a seat on the round table. You can make out 
+several contests underway- perhaps you would like to joust?
+~
+0 0 0
+D0
+Tourney Yard of Camelot~
+~
+0 -1 17368
+D2
+Tourney Yard of Camelot~
+~
+0 -1 17359
+D3
+Tourney Yard of Camelot~
+~
+0 -1 17360
+S
+#17366
+Noble's Quarters~
+You are inside the quarters in which visiting nobleman reside.
+There is a courtyard with a fountain where you stand, and there are several 
+individual chambers shooting off of the courtyard.
+~
+0 0 0
+D0
+Noble Chamber~
+door~
+1 -1 17378
+D1
+Noble Chamber~
+door~
+1 -1 17379
+D2
+Noble Road at the South Gate~
+~
+1 -1 17361
+D3
+Noble Chamber~
+door~
+1 17338 17380
+E
+fountain~
+The fountain has has flowing water from a statue of a girl holding an urn.
+The water drops into a tile lined pool, where fish swim. Some coins have 
+been tossed in the fountain.
+~
+E
+fish~
+The fish are small minnow like fish, mostly bottom feeders.
+~
+E
+coins~
+You really dont want to bother getting the coins out. It would be in poor 
+taste.
+~
+E
+girl statue~
+The statue depicts a girl in a tunic-like dress. She is chubby and has 
+shoulder length hair.
+~
+S
+#17367
+The Great Southern Gate~
+You stand before the great southern gate of Camelot. Southwards a cobbled 
+road winds through fertile cultivated plains. Serfs are tilling the field 
+with horse drawn ploughs. Corn, wheat, and beans are growing. Your vantage 
+is fantastic, and the breeze clears your nose of the city smells.
+~
+0 4 1
+D0
+The Great Southern Gate gate~
+~
+0 -1 17361
+D2
+A Cobblestone Road~
+~
+0 -1 17391
+S
+#17368
+Tourney Yard of Camelot~
+You stand in the reknowned tourney yard of Camelot. Here knights challenge 
+one and another for a claim to a seat on the round table. You can make out 
+several contests underway- perhaps you would like to joust?
+~
+0 0 0
+D2
+Tourney Yard of Camelot~
+~
+0 -1 17365
+D3
+Tourney Yard of Camelot~
+~
+0 -1 17362
+S
+#17369
+Tourney Yard of Camelot~
+You stand in the reknowned tourney yard of Camelot. Here knights challenge
+one and another for a claim to a seat on the round table. You can make out
+several contests underway- perhaps you would like to joust?
+~
+0 0 2
+D0
+Tourney Yard of Camelot~
+~
+0 -1 17363
+D3
+Tourney Yard of Camelot~
+~
+0 -1 17364
+S
+#17370
+The Court of Camelot~
+You stand in the fabled court of Camelot. Here in the sunny courtyard noblemen
+and knights walk barefoot in the grass discussing chivalry and wars to come.
+Troubadours play ballads on their lutes and entertainers hop and leap into the
+air all for a chance of earning the kings favor. Ladies in waiting play their
+love games with young knights and squires. The whole world seems like a much
+better place here, where friendship thrives and the high ideals of chivalry
+breathe.  You have a commanding vantage of the Tourney Yard of Camelot from
+here.  Exits lead to the knights barracks, the round table, the feast hall,
+and the tourney yard of Camelot.
+~
+0 0 2
+D0
+The Knights Barracks~
+door~
+1 -1 17374
+D1
+The Round Table~
+door~
+1 -1 17376
+D2
+The Feast Hall~
+~
+0 -1 17371
+D3
+The Tourney Yard of Camelot~
+~
+0 -1 17359
+E
+yard tourney~
+You watch two knights across the tourney yard. To the left is a knight
+in full armor and a bright orange plume. To the right is a knight in chain 
+mail and a trailing black cape. Arthur signal's the knights with a short wave.
+The both knights spur their warhorses into a full gallop. To your right you
+hear a squeal of delight from a spectator. The black caped knight leans into
+his charge with his weight forward and in a low stand on his stirrups. 
+Both knights collide in the center of the yard with a resounding crash. The
+orange plummed knight contorts in his saddle, delivering a thrust high on 
+the shield of the black caped knight. The black caped knight connects with a
+hard shot to the center of the shield of the orange knight. You watch the 
+orange knight fly and land with a sickening crash on the yard. The black
+knight circles and raises his lance in a salute to Arthur.
+~
+E
+spectator~
+The lady in waiting is weeping, as her knight was the orange knight. She
+quickly recovers and tosses her favor to the black knight.
+~
+S
+#17371
+The Feast Hall~
+You have arrived in the feast hall of Camelot. You are in luck. A feast is 
+in progress. There are many open bench type tables with sevants scurrying 
+too and fro. Some tables hold knights, while others have ladies. A bards 
+song adds to the festive air of celebration. A huge fire rages in a great 
+stone hearth, over which a whole boar is being slowly cooked to perfection. 
+Exits are north to the court of Camelot, and south to the ladies' chambers.
+~
+0 0 0
+D0
+You see the Court of Camelot~
+~
+0 -1 17370
+D2
+The Ladies Chambers door~
+~
+1 -1 17372
+S
+#17372
+The Ladies' Chambers~
+You are in the ladies' chambers. I hope you are a lady, for you are in big 
+trouble if you are not! There are many many rooms here, some occupied, some 
+not, but there certainly is a lot of activity. A young girl stands in sorrow 
+here weeping, and you notice a group of ladies off in the corner. There is 
+a door north of here leading to the feast hall, and a staircase winding up 
+to a tower.
+~
+0 0 0
+D0
+The Feast Hall door~
+~
+1 -1 17371
+D4
+A staircase winding upwards~
+~
+0 -1 17373
+E
+girl young~
+You talk to the girl. She is upset because Lancelot wont pay attention to 
+her.
+~
+E
+ladies group~
+You perk up your ears and listen in on the group of ladies. You overhear :
+"...it is terrible. The poor girl was captured on her way to her wedding 
+by that foul Mordred. Her father has offered a considerable sum for her 
+safe return. I think my Gawaine can surely claim it...."
+~
+S
+#17373
+The Maiden's Tower~
+Oh yes, it is here that the virginal maidens of the court reside, pining 
+away for their knights who travel far and wide on Arthurs missions. The 
+main activity here is tapestry making, and presently there are 3 tapestries 
+under construction.
+~
+0 0 0
+D5
+A staircase winding downwards~
+~
+0 -1 17372
+E
+tapestry tapestries~
+Two of the tapestries are finished enough to recognize. One depicts a 
+battle between knights and the other is of a hunt in the Forest Arden.
+~
+S
+#17374
+Knight's Barracks~
+You have entered the knights barracks. Cots and armor stands fill the room.
+Some knights are here sleeping and healing from their war wounds. A simple 
+wash stand is at the end of the quarters, and the windows are shaded to 
+darken the room. The only conversation is in hushed tones. There is a door 
+leading south to the court of Camelot, and a staircase winds its way upwards 
+to a tower.
+~
+0 1 0
+D2
+You see the Court of Camelot~
+~
+1 -1 17370
+D4
+A staircase winding upwards~
+~
+0 -1 17375
+S
+#17375
+Merlin's Tower~
+You have found Merlin's tower. It is a jumbled mess of books, scrolls, 
+wands, staves, etc. There are rickety worn out tables and chairs upon 
+which a variety of curiosities rest. Merlin also has several animals 
+and specimens of this and that in crocks on wooden shelves. You take a 
+glimpse out the open window of Merlin's tower and see the rolling hills 
+of Camelot as far as you gaze. But most of all you notice the large 
+pulsating pentagram in the center of the room which throbs and humms 
+in time to your heartbeat. There is also a SIGN here with unearthly 
+glowing red lettering which blinks over and over the message "LOOK AT ME"
+~
+0 0 0
+D4
+Into the pulsating pentagram~
+~
+0 -1 17381
+D5
+A staircase winding down~
+~
+0 -1 17374
+E
+books scrolls wands staves~
+You sift through Merlin's books, scrolls, wands, and staves. All are 
+inscribed in a strange runic language which you can't even begin to fathom.
+~
+E
+animals~
+Merlin has a crow, a cat, and a toad. All watch your every move.
+~
+E
+sign the me at~
+You look at the sign. At first you can't understand it, but then the 
+lettering adjusts to a language you understand. It says:
+BEWARE OF DEMON! I have imprisoned a FOUL, NASTY, EXTREMELY POWERFUL 
+demon in this pentagram. To those inside, there are NO EXITS or WAYS 
+TO MAGICALLY RECALL. Even Lancelot would certainly die in the pentagram. 
+THERE IS NOTHING OF WORTH IN THE PENTAGRAM, ONLY DEATH, and nothing short 
+of DIRECT DIVINE INTERVENTION will get you out of it. - Merlin
+~
+E
+crocks shelves~
+You fumble through Merlins crockery, and all you accomplish is getting a 
+black resiny substance which itches all over your fingers and clothing.
+~
+E
+pentagram pulsating~
+Your inner coice, which has always served you well so far, screams at you 
+to LEAVE IT ALONE!
+~
+S
+#17376
+The Round Table~
+You have entered the Round Table, where warcouncil is held between Arthur 
+and his companions. The Round Table is 30' in diameter, and made of polished 
+cherry. Around it are 50 chairs. The room which houses the table is also 
+round and far above you see the domed ceiling. Light streams down in long 
+rays to hit the gold and crystal candelabra, where it is broken into a 
+brilliant prismatic spray. A door leads west to the court of Camelot, and 
+a staircase winds upward.
+~
+0 0 0
+D3
+You see the Court of Camelot~
+~
+1 -1 17370
+D4
+A staircase winding upward~
+~
+0 -1 17377
+E
+candelabra crystal gold~
+You consider lifting the candelabra but decide against it, as you probably 
+would get very tired fast, and attract every knight in the kingdom.
+~
+S
+#17377
+Arthur's Chambers~
+You have entered the private chambers of King Arthur. A dragon banner serves 
+as a canopy and curtains for his large four posted bed. He has a marble 
+basin and a cherry desk and chair. A huge ermine rug lies on the floor. A 
+staircase winds downwards. Tapestries depicting him pulling Excalibur from 
+the stone, and his campaigns of unification adorn the walls.
+~
+0 0 0
+D5
+A staircase winding downwards~
+~
+0 -1 17376
+S
+#17378
+Noble's Chambers~
+You are tresspassing in a Nobles chamber. He negligently forgot to lock his 
+door, relying upon the honor of all within Camelot to protect his posessions.
+The chambers consist of a common room, several bed chambers, and a servant 
+area.
+~
+0 0 0
+D2
+Noble's Quarters~
+~
+1 17338 17366
+E
+possessions~
+Nothing here you really need.
+~
+S
+#17379
+Noble's Chambers~
+You are standing in vacated chambers. Perhaps you will stay a while and 
+visit the court? The chambers consist of several bed chambers, a sitting 
+room, and a small garden.
+~
+0 0 0
+D3
+Noble's Quarters~
+door~
+1 -1 17366
+E
+garden~
+Some fresh vegetables and flowers are growing here.
+~
+S
+#17380
+Noble's Chambers~
+You are tresspassing in a Noble's chamber. This noble locked his door, 
+anticipating intrusion from scum like you. The chambers consist of a common 
+room, several bed chambers, and a servant area.
+~
+0 0 0
+D1
+Noble's Quarters~
+door~
+2 -1 17366
+S
+#17381
+The Pentagram~
+Well you have done it. You have stepped into the pentagram. You are blasted 
+by a hellish heat, and cackling assails you from all sides. Your entire body 
+is wracked in pain, and you hear yourself screaming in and endless cry of 
+horror. 
+~
+0 1|4|512 0
+D5
+~
+~
+1 -1 17375
+S
+#17382
+The Rolling Hills~
+You have spent the day travelling a road through the rolling hills north of
+Camelot. You have gone through several villages. The people you have met 
+are generally a happy lot. You presently stand at a crossroads. To the 
+north, the road continues through the rolling hills. To the east the road 
+goes into a grassy plain. To the south the road goes to Camelot.
+~
+0 0 4
+D0
+The rolling hills~
+~
+0 -1 17383
+D1
+The grassy plain~
+~
+0 -1 17384
+D2
+A winding road~
+~
+0 -1 17356
+S
+#17383
+The Rolling Hills~
+You have spent the day travelling a road through the rolling hills north of
+Camelot. You have gone through several villages. The people you have met are 
+generally a happy lot. To the north, the road winds upwards into the 
+highlands. The road continues south into the rolling hills.
+~
+0 0 4
+D0
+The highlands~
+~
+0 -1 17385
+D2
+A winding road~
+~
+0 -1 17382
+S
+#17384
+The Grassy Plains~
+You spend a week travelling through a great grassy plain. You have crossed 
+several baronies in you travels. You have encounterd knights and pilgrims 
+on your journey, and slept in many a hayloft and haystack. The farmland is 
+productive here, and there have been many horse ranches, in which the fine 
+steeds of Camelot are produced. At present you stand in a strange stone 
+formation in the vast plain. The road stretches west to the rolling hills, 
+and east to the rocky coast.
+~
+0 0 2
+D1
+The rocky coast~
+~
+0 -1 17386
+D3
+The rolling hills~
+~
+0 -1 17382
+E
+stone strange formation~
+You look at the stone formation. The stones stand about 15' tall an are 
+arranged in a circular series of frames, with two stones stacked on end 
+and one laid across the tops of the other two. There is a stone table in 
+the center of the formation, upon which the first light of day is striking.
+~
+E
+table~
+You walk up to the table and examine it. It has rusty brown stains on it-
+BLOOD! You examine the ground around the table and find fleece. Obviously 
+this is an altar. You can just make out some lettering on the stone.
+~
+E
+lettering~
+The lettering says:
+
+ LACNOGIRANDUTOS ROYU AYLGPIN LILSK SI BLAMMENEDOC
+~
+S
+#17385
+The Highlands~
+You have spent the day travelling in the highlands, and you are very tired.
+You stand at an old Wall that runs east and west through the hills. Not 
+many trees grow here, as all has been cleared north of the wall. South of 
+the wall stretches a winding road. North of the wall is the untamed Scottish 
+highlands. There is an outpost to the east.
+~
+0 0 4
+D0
+The Scottish highlands~
+gate~
+1 -1 17387
+D1
+An outpost~
+door~
+1 -1 17388
+D3
+A winding road~
+~
+0 -1 17383
+E
+wall~
+You look at the wall. There is lettering on it.
+~
+E
+lettering~
+The lettering says: HADRIANUS
+~
+S
+#17386
+The Rocky Coast~
+You have picked your way through the rocky coast. The weather has been 
+foul, which has influenced your mood. The road vanished 2 days ago. Now 
+you stand on a cliff overlooking the vast ocean. The mist obscures your 
+view of the horizon, but you know its there- somewhere. Far below you is 
+a rocky beach.
+~
+0 0 0
+D3
+More rocks and rain~
+~
+0 -1 17384
+D5
+The rocky beach~
+~
+0 -1 17389
+E
+beach~
+You look at the beach, and you are glad you did. You see smoke coming up 
+from the beach and now as you look closer you see the dwellings of a 
+barbaric people. The beach is definitly inhabited.
+~
+S
+#17387
+The Scottish Highlands~
+You have spent several days wandering in the Scottish highlands. You have 
+spied the lassies tending the sheep, and several bands of wandering Scot 
+raiders, which you have sensibly evaded. Up ahead, on the bluff rises a keep.
+You are not certain you should go in.
+~
+0 0 0
+D2
+More lassies and highlands~
+~
+0 -1 17385
+D4
+The keep on the bluff~
+~
+0 -1 17390
+S
+#17388
+An Outpost~
+You are in the outpost for the wall. It is a stone keep, with little in the 
+way of creatur comforts. There are barracks and a main hall. Guards are 
+posted along the wall. Your arrival has been a source of great interest, 
+as these bordermen don't see many people.
+~
+0 0 0
+D3
+At the gate door~
+~
+1 -1 17385
+S
+#17389
+The rocky beach~
+You stand on the rocky beach wishing you had a boat. You had a tough climb 
+down through all of those crevices. There are several caves and grottos 
+here.
+~
+0 0 4
+D4
+A tough climb that you would rather not do~
+~
+0 -1 17386
+E
+grotto grottos~
+The surf is crashing hard in the grottos. You can taste the salt spray.
+~
+E
+cave caves~
+You look at the caves- smoke! This place is inhabited!
+~
+S
+#17390
+Scots Keep~
+You are in the speldor of a Scots keep. Walls are draped with animal hides.
+Women and children are sprawled among pallets of skins and hides. A great 
+roaring fire blazes in a huge stone hearth, taking the chill from your 
+bones. The men were doing a dance involving leaping over swords, but they 
+have stopped since you are here. There is a big iron pot warming from a 
+chain in the fire.
+~
+0 0 0
+D5
+The Scottish Highlands~
+~
+0 -1 17387
+E
+iron pot~
+The iron pot contains a mix of potatoes, roots, and what appears to be boar.
+~
+S
+#17391
+Farms~
+You have spent a day travelling though the breadbasket of Camelot, following 
+a cobble stone road. The fields are producing well this year, and the 
+peasants are out harvesting a bountiful crop. Soon the harvest end festivals 
+will begin and all will celebrate another fine year. In fact you have 3 
+invitations for various festivals from the people you have met along the 
+way.
+~
+0 0 2
+D0
+A cobblestone road~
+~
+0 -1 17367
+D2
+A cobblestone road~
+~
+0 -1 17392
+D3
+A cobblestone road~
+~
+0 -1 17393
+S
+#17392
+Farms~
+You have spent a day travelling though the breadbasket of Camelot, following 
+a cobble stone road. The fields are producing well this year, and the 
+peasants are out harvesting a bountiful crop. Soon the harvest end festivals 
+will begin and all will celebrate another fine year. Your pleasant mood is 
+interrupted by the sight of smoke and the sounds of screams from the south.
+~
+0 0 2
+D0
+A cobblestone road~
+~
+0 -1 17391
+D2
+Towards the smoke~
+~
+0 -1 17395
+D3
+A cobblestone road~
+~
+0 -1 17394
+E
+smoke screams~
+You can make out the cries of 'To Arms! To Arms! The Angle raiders are here!
+~
+S
+#17393
+Farms~
+You have spent a day travelling though the breadbasket of Camelot, 
+following a cobble stone road. The fields are producing well this year, 
+and the peasants are out harvesting a bountiful crop. Soon the harvest 
+end festivals will begin and all will celebrate another fine year. In fact 
+you have 2 invitations for various festivals from the people you have met 
+along the way.
+~
+0 0 2
+D1
+A cobblestone road~
+~
+0 -1 17391
+D2
+A cobblestone road~
+~
+0 -1 17394
+S
+#17394
+Farms~
+You have spent a day travelling though the breadbasket of Camelot, 
+following a cobble stone road. This paticular section of farms is not 
+doing as well, as signs of raiding and pillaging abound here. The peasants 
+seem to be bouncing back, and the fields are once again with crop. To 
+the west is a heavily travelled muddy road, and the fields continue to 
+the east and north.
+~
+0 0 2
+D0
+A cobblestone road~
+~
+0 -1 17393
+D1
+A cobblestone road~
+~
+0 -1 17392
+D3
+A muddy road~
+~
+0 -1 17396
+S
+#17395
+Angle Raid!~
+You are in the whirling chaos of an Angle raid on this farming village.
+Farmers are defending themselves from the raiders with their farm tools.
+Women are gathering the children and running north. Some unlucky women 
+are being raped by the brutish Angles, who are so named for the long 
+angled polearm they use. The village is on fire, and you can make out 
+the raider ship on the shore to the west.
+~
+0 0 2
+D0
+To where everybody else is fleeing~
+~
+0 -1 17392
+S
+#17396
+An Outpost~
+You have reached a fortified outpost. Your boots sink in the mud which 
+is rutted and groved by the supply wagons which come her.
+You talk to the guards and they warn you of the merciless Picts to the 
+west, with whom Camelot is at war. The men are hardened by warfare, and 
+stare at you with eyes that have seen terrible atrocity. To the east are 
+farms, and to the west you hear the terrible clash of war.
+~
+0 0 2
+D1
+A muddy road~
+~
+0 -1 17394
+D3
+The clamor of battle~
+~
+0 -1 17397
+S
+#17397
+Battle!~
+You have boldly entered the heart of a raging battle between the knights 
+of Camelot and the barbaric Picts. The knights have set up a skirmish 
+line across the field, spreading out the Picts, while two calvary units 
+are sweeping around the ends in a pincher like move. Holding the center 
+of the line are several knights of reknown. The Picts are faring badly, 
+as their leader has already left the field in cowardly retreat.
+~
+0 0 2
+D1
+An outpost~
+~
+0 -1 17396
+D3
+Behind the Pict lines~
+ranks~
+1 -1 17346
+S
+#17398
+Stables~
+You stand in the vast stables of Camelot. Row upon row of stalls greet 
+your eye. Smells of horse sweat and fresh straw combine in a pleasant mix. 
+Stable hands are busy currying animals, shoeing horses, and feeding the 
+magnificant chargers of Camelot. Light filters in through the rafters. 
+To your west is Knight's Way.
+~
+0 4096 0
+D3
+Knight's Way~
+~
+0 -1 17342
+S
+#17399
+Pet Storage for Stables~
+This is actual stables where the horses are kept to be sold.
+~
+0 4|4096 0
+S
+#0
+
+
+#RESETS
+*
+* Ok here we go- load and equip unique creatures
+*
+M 1 17307 1 17302 1 	*                     Black knight to crossroads
+E 1 17318 0 7   	*Black greaves
+M 1 17315 1 17303 1      *               Pellinore to forest arden
+*E 1 17320 0 5   	*backpack to body
+G 1 17321 0             *       holds the key
+*P 1 17322 0 17320 1      *               Puts rations in pellinores pack
+*P 1 17323 0 17320 1      *               Puts wine in Pellinores pack
+M 1 17316 1 17307 1      *               Load in questing beast in lair
+O 1 17324 1 17307       *               Put bones in lair
+O 1 17325 1 17307       *               Put skull in lair
+O 1 17326 1 17307       *               Put rock in lair
+M 1 17309 1 17312 1      *               Put garlon in Dark Hollow
+E 1 17312 0 10  	*garlon dons his armbands
+M 1 17314 1 17323 1      *               Put Morgan in inviting hut
+E 1 17319 0 17  	Give Morgana her wand
+M 1 17305 1 17317  1	*                    Put Benlad in Blackmoor
+E 1 17304 0 5   	*Benlad wears green armor
+E 1 17305 0 16  	*Benlad wields his axe
+M 1 17327 1 17322 1	*                     Put Perimones at chasm
+E 1 17335 0 5   	*Put red armor on perimones
+M 1 17310 1 17368 1	*                     Load in Gawaine in Tourney Yard
+E 1 17313 0 6   	*Gawaine's helm
+M 1 17312 1 17359 1      *               Load in Lancelot in Tourney Yard
+E 1 17315 0 9   	 *Lancelot dons his gauntlets of bravery
+M 1 17317 1 17369 1       *              Load in Tristram in Tourney Yard
+G 1 17327 0     	*Give Tristram the love letter
+M 1 17306 1 17315 1      *               Put galahad on return quest in battleplain at war 
+E 1 17306 0 14  	*Galahad dons his white bracers
+E 1 17307 0 17  	*Galahad holds the grail
+M 1 17326 1 17315 1      *               Turquine, the evil knight, pawn of Mordred, fighting G. 
+E 1 17334 0 6   	*Turquine dons his wolf helm
+M 1 17311 1 17374 1      *               Puts Lamorak in barracks (gawaine kicked his butt today) 
+E 1 17314 0 8   	*Still wearing spurs
+M 1 17318 1 17340 1     *                Mordred in his dark hall
+E 1 17328 0 5   	*Mordred dons his golden armor
+E 1 17329 0 16  	*Mordred wields his unholy spear
+M 1 17304 1 17370 1	*                     Arthur in his court of camelot
+E 1 17311 0 13  	*Wears his scabbard
+E 1 17310 0 16  	*Wields Excalibur 
+M 1 17313 1 17375 1     *                Load Merlin in his tower
+E 1 17316 0 1   	*Merlin dons his ring
+E 1 17317 0 17  	*Merlin dons his staff
+O 1 17336 0 17375                      Merlin has left his key here
+M 1 17322 1 17377 1      *               Load Gwen in Arthur's Chambers
+E 1 17331 0 4   	*Gwen wears her necklace
+M 1 17337 1 17381 1     *                Load demon in pentagram
+M 1 17328 1 17337 1     *                Load damsel in distress in NE tower of Blackmoor 
+G 1 17337 0    		* Give damsel the reward for her rescue
+M 1 17325 1 17370 1	*                     Load dagonet in court
+E 1 17333 0 6   	*Dagonet wears his motley 
+M 1 17324 1 17361 1 *                    Load Barant near S. Gate
+E 1 17332 0 16  *Give Barant his ball and chain
+M 1 17308 1 17351 1 *                     Load Gareth in the Tower of Valor
+E 1 17308 0 12  *Gareth wears his many colored cloak
+E 1 17309 0 11  *Gareth wears his many colored shield
+*
+* Non unique mobs- knights of reknown 9
+*
+M 1 17301 9 17374 1 *                      Knights of reknown in barracks
+E 1 17302 0 16	*		Mace
+M 1 17301 9 17374 1 *                     ditto
+E 1 17302 0 16
+M 1 17301 9 17361 1 *                  S. Gate
+E 1 17302 0 16
+M 1 17301 9 17361 1
+E 1 17302 0 16
+M 1 17301 9 17355  1 *                    N. Gate
+E 1 17302 0 16
+M 1 17301 9 17355 1 
+E 1 17302 0 16
+M 1 17301 9 17371 1 *                    Feast Hall
+E 1 17302 0 16
+M 1 17301 9 17353 1  *                    Tower of Honor
+E 1 17302 0 16
+M 1 17301 9 17366 1  *                    Nobles quarters
+E 1 17302 0 16
+*
+* Squires 9
+*
+M 1 17302 9 17357 1 *			3 in squires barracks
+E 1 17301 0 16  		*equipped with daggers
+M 1 17302 9 17357 1
+E 1 17301 0 16
+M 1 17302 9 17357 1
+E 1 17301 0 16
+M 1 17302 9 17362 1 *			2 In the Tourney Yard
+E 1 17301 0 16
+M 1 17302 9 17352 1 
+E 1 17301 0 16
+M 1 17302 9 17371 1 *			One in feast hall
+E 1 17301 0 16
+M 1 17302 9 17346 1 *			One in stables
+E 1 17301 0 16
+M 1 17302 9 17348 1 *			One in armory
+E 1 17301 0 16
+M 1 17302 9 17341 1 *                 On at junction victory road & knights
+E 1 17301 0 16
+*
+* Knights of Quality, 9
+*
+M 1 17303 9 17341 1 *                     2 at West Gate
+E 1 17303 0 16 
+M 1 17303 9 17341 1
+E 1 17303 0 16
+M 1 17303 9 17358 1
+E 1 17303 0 16
+M 1 17303 9 17365 1
+E 1 17303 0 16
+M 1 17303 9 17374  1 *                    2 in barracks
+E 1 17303 0 16
+M 1 17303 9 17374 1
+E 1 17303 0 16
+M 1 17303 9 17314 1 *                    1 at creek
+E 1 17303 0 16
+M 1 17303 9 17371 1 *                     1 in feat hall
+E 1 17303 0 16
+M 1 17303 9 17376 1 *                     1 in Round Table
+E 1 17303 0 16
+*
+* Charmed Knight of Reknown 5
+*
+M 1 17319 5 17336 1 *                     NW tower of Blackmoor
+M 1 17319 5 17340 1 *                     1 Dark hall
+M 1 17319 5 17338 1 *                    1 in SW tower
+M 1 17319 5 17315 1 *                    1 in battleplain
+M 1 17319 5 17318 1 *                    1 in front of inviting hut
+*
+* Charmed Knight of Quality 3
+*
+M 1 17320 3 17340 1 *                     In dark hall
+M 1 17320 3 17315 1 *                    In battle plain
+M 1 17320 3 17327 1 *                    In Bailey
+*
+* Charmed Squire 7
+*
+M 1 17323 7 17340 1 *                     1 in dark hall
+M 1 17323 7 17332 1 *                    1 in st
+M 1 17323 7 17335 1 *                    1 in st
+M 1 17323 7 17330 1 *                    One inside curtain wall
+M 1 17323 7 17339 1 *                    One in SE tower of Blackmoor
+M 1 17323 7 17316 1 *                    One Before blackmoor
+M 1 17323 7 17314 1 *                    One at creek
+*
+* Lady in waiting 7
+*
+M 1 17321 7 17373 1 *                     3 in maiden tower
+E 1 17330 0 17 *			silken favor
+M 1 17321 7 17373 1
+E 1 17330 0 17
+M 1 17321 7 17373 1
+E 1 17330 0 17
+M 1 17321 7 17370 1 *                    One in court
+E 1 17330 0 17
+M 1 17321 7 17372 1 *                     1 in Ladies Quarters
+E 1 17330 0 17
+M 1 17321 7 17371 1 *                     1 in Feast hall
+E 1 17330 0 17
+M 1 17321 7 17398 1 *                     1 in stables
+E 1 17330 0 17
+*
+* Noblemen 1
+*
+M 1 17329 1 17371 1 *                     1 in feast hall
+G 1 17339 0         * his purse
+G 1 17331 0         *    his room key
+O 1 17339 0 17380  *load a spare pouch in locked room
+*
+* Serfs 4
+*
+M 1 17330 4 17398 1 *                     stables
+M 1 17330 4 17348 1 *                    armory
+M 1 17330 4 17371 1 *                    feast hall
+M 1 17330 4 17305 1 *                    in front of hut
+*
+* Merchants 2
+*
+M 1 17331 2 17354 1 *                     Noble Road
+M 1 17331 2 17355 1 *                     Squires
+*
+* Monks 2
+*
+M 1 17332 2 17373 1 *                     Maidens tower
+M 1 17332 2 17349 1 *                     in camelot
+*
+* Troubadour 1
+*
+M 1 17333 1 17370 1 *                     In court
+*
+* Bard 1
+*
+M 1 17334 1 17371 1 *                     Feast Hall
+*
+* Entertainer 1
+*
+M 1 17335 1 17370 1 *                     In court
+*
+* Servant 8
+*
+M 1 17336 8 17371 1 *                     2 in feast hall
+M 1 17336 8 17371 1
+M 1 17336 8 17372 1 *                    1 in ladies quarters
+M 1 17336 8 17373 1 *                    2 in maiden tower
+M 1 17336 8 17373 1
+M 1 17336 8 17378 1  *                   Noble chamber
+M 1 17336 8 17366 1  *                   Noble quarters
+M 1 17336 8 17374 1   *                  Knights quarters
+*
+* shopkeepers
+*
+M 1 17338 1 17348 1 *                     Iron Jack in armory
+G 1 17301 0          *          Give him the squires dagger
+G 1 17302 0           *         Give him a knights mace
+G 1 17303 0            *        Give him a knights lance
+M 1 17339 1 17398 1 *                    Stirrup in stables
+M 1 17340 1 17399 1 *                    load in riding horse
+M 1 17341 1 17399 1 *                    med warhorse
+M 1 17342 1 17399 1 *                    heavy warhorse
+*
+* Out the North gate
+*
+M 1 17343 1 17389 1 *                     Saxon raiders on rocky beach
+M 1 17344 2 17389 1 *                    captives of raiders
+M 1 17345 1 17389 1 *                    Saxon Chief
+E 1 17340 0 12  *Lice infested cloak
+M 1 17346 2 17388 1  *                    Border Guards at outpost
+M 1 17347 1 17388 1  *                   Outpost commander
+E 1 17341 0 16  *Sword in sheath
+M 1 17348 2 17390 1 *                    Clansmen in Scot Keep
+M 1 17349 1 17390 1 *                    Scot clan chief
+G 1 17342 0     *His wee bit of whiskey
+M 1 17363 2 17389 1 *                    slaves of scots
+*
+* Out the South gate
+*
+M 1 17350 9 17391 1 *(                    Serfs in field
+M 1 17350 9 17392 1 
+M 1 17350 9 17393 1 
+M 1 17350 9 17394 1 
+M 1 17351 2 17395 1 *			Angle raider
+M 1 17352 1 17395 1 *			Angle chief
+E 1 17344 0 16   *Chief wields angle
+O 1 17343 0 17395 *			Put dragon ship ashore
+M 1 17360 1 17395 1	*		Load Gaheris at angle raid
+E 1 17349 0 16   *Gaheris wields his axe
+M 1 17353 1 17397 1	*		Calvary at battle
+M 1 17354 1 17397 1	*		Infantry unit at battle
+M 1 17355 1 17397 1	*		Pict hoard at battle
+M 1 17357 1 17397 1	*		Persante at battle
+E 1 17346 0 0    *Persante hold banner
+M 1 17358 1 17397 1	*		Dodinas at battle
+E 1 17347 0 16   *Dodinas wields lifecutter
+M 1 17359 1 17397 1	*		Lionel at battle
+E 1 17348 0 5    *Lionel wears plate armor
+M 1 17356 1 17346 1	*		Pict leader behind lines
+E 1 17345 0 17   *Give him staff of command
+M 1 17362 2 17396 1   *                  Border Guards at outpost
+M 1 17361 1 17396 1    *                 Outpost commander
+E 1 17341 0 16  *Sword in sheath
+*
+* doors
+*
+D 1 17305 3 2
+D 1 17308 1 2
+D 1 17318 3 1
+D 1 17323 1 1
+D 1 17316 0 1
+D 1 17327 0 1
+D 1 17327 2 1
+D 1 17328 2 1
+D 1 17333 2 1
+D 1 17340 0 1
+D 1 17326 1 1
+D 1 17341 3 1
+D 1 17356 2 1
+D 1 17355 0 1
+D 1 17361 0 1
+D 1 17361 2 1
+D 1 17366 0 1
+D 1 17366 1 0
+D 1 17366 2 1
+D 1 17366 3 2
+D 1 17378 2 1
+D 1 17379 3 0
+D 1 17380 1 2
+D 1 17371 2 1    *              ; The Feast Hall Close South
+D 1 17372 0 1
+*D 1 17375 4 2
+D 1 17385 0 1
+D 1 17385 1 1
+D 1 17388 3 1
+D 1 17397 3 1
+D 1 17346 1 1
+*
+D 1 17370 0 1     *             ; The Court of Camelot Close North
+D 1 17370 1 1     *             ; The Court of Camelot Close East
+D 1 17374 2 1     *             ; Knight's Barracks Close South
+D 1 17376 3 1     *             ; The Round Table Close West
+S
+
+
+#SHOPS
+17338 5 9 18 0 0 100 100 0 23
+17339 0 0 0 0 0 100 100 0 23
+0
+
+
+#SPECIALS
+M  17301 spec_guard  * reknown
+M  17303 spec_guard  * quality
+M  17306 spec_guard  * galahad
+M  17312 spec_guard  * lancelot
+M  17313 spec_cast_mage *         merlin
+M  17314 spec_cast_mage *         morgan Le fey
+M  17316 spec_breath_lightning  *  questing beast
+M  17318 spec_thief             *  mordred
+M  17337 spec_breath_fire       *  demon
+S
+
+#PRACTICERS
+M 17337 group_attack		* demon
+S
+
+#$

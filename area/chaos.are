@@ -1,0 +1,178 @@
+#AREA
+chaos.are~
+Chaos~
+{90 100} Asena The Circle of Chaos~
+550 559
+
+
+#MOBILES
+#550
+healer adept~
+a Healer~
+An adept and healer of the Lords of Anatolia is here.
+~
+  He is an old, wise cleric blessing his old friends of Lords of Chaos
+Realms to break law. He belives that the more powerful you are the longer
+you live.
+~
+human~
+ABQVae DFH 1000 0
+90 0 1d1+18999 1d1+999 10d40+30 divine
+-45 -45 -45 -15
+FHIK ABC D 0
+stand stand male 1000
+0 0 medium 0
+
+#551
+guardian Chaos Ivan~
+Ivan the guardian of Chaos Realms~
+Ivan, the guardian of Chaos Realms, is guarding the enterance.
+~
+Ivan is wearing a complete set of dark armor and he is standing as a steel
+wall in front of the chaos realms.
+~
+human~
+ABKWe DFHJVZ 0 0
+92 50 2d500+25000 1d200+1600 10d40+50 slash
+-70 -70 -70 -30
+CEFKNU AB 0 S
+stand stand male 5000
+0 0 medium 0
+#0
+
+#OBJECTS
+#550
+key black marble~
+a black marble key~
+A black marble key is on the ground.~
+marble~
+key ORY AO
+0 0 0 0 0
+40 4 0 P
+#551
+altar~
+the altar~
+There is a huge black altar in the middle of the room.~
+gold~
+container ORY P
+10 15 550 15 100
+60 1 20 P
+#552
+item chaos~
+item of chaos~
+The item of chaos is here.~
+gold~
+treasure O AO
+0 0 0 0 0
+60 1 100000 P
+#553
+chaos blade~
+a chaos blade~
+A shiny gold dagger is on the ground.~
+gold~
+weapon TWAIP AN
+dagger 6 6 pierce D
+20 200 0 P
+#0
+
+#ROOMS
+#550
+The Enterance~
+  Welcome to Paradise of the Chaos Realms. There is neither rule nor law
+here. 
+~
+0 DX 0
+D0
+~
+~
+5 -1 551
+D3
+~
+~
+0 -1 9786
+S
+
+#551
+Inside the Great Hall~
+  There is a long hall covered with the embles of the Lords of the Chaos
+Realms. The smooth wooden floors are well polished. 
+~
+0 DX 0
+D0
+~
+~
+0 -1 554
+D1
+~
+~
+0 -1 552
+D2
+~
+~
+0 -1 550
+D3
+~
+~
+0 -1 553
+S
+#552
+Squire Barracs~
+  This room serves as a barracks of the squires of this chaos realms. The
+room is gloomy, wet and in a state of disorder. 
+~
+0 DX 0
+D3
+~
+~
+0 -1 551
+S
+#553
+Storage Room~
+  You see many boxes before you, apparently this is a storage room some
+sort. This is where the lords of chaos realms store all theirspare
+clothing, armor and weapon.
+~
+0 DX 0
+D1
+~
+~
+0 -1 551
+S
+#554
+The Altar of the Chaos~
+  There is only one rule: the more powerful you are the longer you live.
+~
+0 DX 0
+D2
+~
+~
+0 -1 551
+S
+#0
+
+#RESETS
+M 0 550 1 554 1			* cabal cleric
+O 0 551 1 554 1 		* item container  
+P 0 552 1 551 1			*  cabal item     
+M 0 551 1 550 1			* ivan, guardian of the chaos 
+E 0 550 0 11 			*  key
+
+S
+
+#SPECIALS
+M 550 spec_cast_cabal 		* healer
+M 551 spec_fight_ivan	 	* ivan, guardian of the chaos
+S
+
+#OMPROGS
+O 552 get_prog get_prog_cabal_item		
+O 552 sac_prog sac_prog_cabal_item		
+M 551 greet_prog greet_prog_chaos		
+S
+
+#PRACTICERS
+M 551 group_cabal	*guard
+S
+
+#$
+

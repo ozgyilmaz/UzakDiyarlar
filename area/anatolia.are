@@ -1,0 +1,801 @@
+#HELPS
+-1 WIZLIST~
+.
+        ________            *********************           ________
+      /+_+_+_+_+_\        ** The Gods of Anatolia **      /+_+_+_+_+_\
+      \__________/          *********************         \__________/
+        |::XXXX|                                            |::XXXX|
+        |X::XXX|              Implementors [100]            |X::XXX|
+        |XX::XX|              *****************             |XX::XX|
+        |::XXXX|                                            |::XXXX|
+        |::XXXX|                                            |::XXXX|
+        |::XXXX|                                            |::XXXX|
+        |X::XXX|                Creators [99]               |X::XXX|
+        |XX::XX|                *************               |XX::XX|
+        |XXXX::|              			            |XXXX::|
+        |::XXXX|                                            |::XXXX|
+/<<>>\/<<>>\/<<>>\/<<>>\                            /<<>>\/<<>>\/<<>>\/<<>>\
+\<<>>/\<<>>/\<<>>/\<<>>/      Supremacies [98]      \<<>>/\<<>>/\<<>>/\<<>>/
+       |.  /  . |             ****************             |.  /  . |
+       | .//\.  |            		                   | .//\.  |
+       |.  /  . |            		                   |.  /  . |
+       | .//\.  |                                          | .//\.  |
+       |.  /  . |               Deities [97]               |.  /  . |
+       | .//\.  |               ************               | .//\.  |
+       |.  /  . |           		      	           |.  /  . |
+       | .//\.  |                                          | .//\.  |
+       | .//\.  |                Gods [96]                 | .//\.  |
+       |.  /  . |                *********                 |.  /  . |
+       | .//\.  |              	                           | .//\.  |
+       | .//\.  |                                          | .//\.  |
+       |.  /\ . |              Immortals [95]              |.  /  . |
+       | .//\.  |              **************              | .//\.  |
+       |.  /  . |              		                   |.  /  . |
+       | .//\.  |                                          | .//\.  |
+       |.  /  . |               DemiGods [94]              |.  /  . |
+       | .//\.  |               *************              | .//\.  |
+       |.  /\ . |                  	  	           |.  /  . |
+       |.  /  . |                                          |.  /  . |
+       | .//\.  |               Angels [93]                | .//\.  |
+       |.  /  . |               ***********                |.  /  . |
+       | .//\.  |             		                   | .//\.  |
+       | .//\.  |             		                   | .//\.  |
+       | .//\.  |                                          | .//\.  |
+       |.  /  . |               Avatars [92]               |.  /  . |
+       | .//\.  |               ************               | .//\.  |
+       |.  /  . |                 		           |.  /  . |
+       |.  /  . |                  	                   |.  /  . |
+        \ //\. /                 Heros [91]                 \ //\. /
+         \ /. /                 ************                 \ /. /
+          \ //                                                \ //
+           \/                                                  \/
+
+~
+-1 ANATOLIA~
+. 
+      ANATOLIA started in early September 1996, using Rom2.4 code. In
+June of 1997, ANATOLIA II was started, eventually replacing the original
+ANATOLIA.
+
+The following people contributed to the ANATOLIA flavor of the ROM base
+code:
+
+Addition of New Areas --
+	Ibrahim Canpunar, Serdar Bulut and Murat Bicer
+
+Revision of New Areas --
+	Ibrahim Canpunar
+
+Revision and Addition of New Helps --
+	Ibrahim Canpunar and Serdar Bulut
+
+Additional Maps --
+	Ibrahim Canpunar
+
+Ideas and playtesting --
+    So many dedicated mudders around the world. Especially Amac Ural,
+Mustafa Ongel, Ibrahim Uzel, Rasit Gumus, David Heide.
+
+Complete C Code --
+	chiefly by Serdar Bulut,
+        with major contributions by Murat Bicer,
+        and also Ibrahim Canpunar and Devrim Baris Acar. 
+
+Used snippets (Available on internet) --
+	Quest Code (c) 1996 Ryan Addams (moongate@moongate.ams.com)
+	Some snippets by Erwin S. Andreasen. 
+		erwin@pip.dknet.dk
+~
+-1 ROM~
+ROM started in early February 1993, using Merc 1.0 code. In July of 1993,  
+ROM II was started, eventually replacing the original ROM.  ROM was up for
+a little over a year, after which the code (version 2.3) was released,
+and various other ROM muds were started, including Rivers of Mud under
+a new management (Zump's ROM), at rom.org 9000.
+
+Alander's current project is Tesseract, the latest version of the ROM code.
+It can be found at hypercube.org 9000.
+
+The following people contributed to the ROM flavor of the merc base code:
+
+Socials --
+    Kelsey and Liralen
+
+New, Improved Valhalla --
+    Liralen
+
+Puff's new special proc and improved poofin/poofout code --
+    Seth
+
+Maps and map shop --
+    Ezra, Regnan (Olympus)
+
+Nirvana zone --
+    Forstall (mobiles rewritten by Alander)
+
+Mob Factory --
+    Pinkfloyd (originally written for ROM, mobiles rewritten by Alander)
+
+Geographically correct Midgaard (tm) --
+    Alander
+
+Ideas and playtesting --
+    Thousands of dedicated mudders around the world
+
+Beta testing --
+    Ken Blosser, Doug Araya, and Sherene Neil all helped with bug reports
+    and suggestions, saving a lot of headaches
+
+New Thalos area was donated by Onivel of Jedi, who was also the originator
+of the ASCII flags used in the zone files
+
+ROM 2.4 was developed during my time with Moosehead mud, and the release
+shares many of the features I wrote while I was there.  Additional code
+was written by Seth Scott (the new poofin/poofout), and many contributions
+and ideas from the Merc list were used. 
+
+The new features of 2.4 were largely produced in bull sessions with
+Gabrielle (my wife) and Brian Moore, without whom this release wouldn't
+have happened.  In particular, the new privacy code, furniture, and
+wiznet are largely the results of Gabrielle's ideas.
+
+Changes to the standard diku mob and object format, as well as the changes
+to Merc 2.1 source code, were done by Alander over many a late night of
+hair-pulling. Hope you enjoy it.
+
+(my apologies if anyone was forgotten in this list)
+~
+-1 IMMORTAL IMMORT GOD WIZARD WIZ~
+.
+	'Immortal' (often, simply, 'immort') refers to players who have reached
+the highest attainable levels in the game. Here, anyone of level 92 or higher
+is an 'immortal.' Immortals are capable of exceeding the usual game rules, in 
+more drastic and pervasive ways as levels increase; examples range from 
+teleportation and invisibility to mortal sight to creation of objects, removal
+of a player's privileges (channels, ability to move, or even ability to log 
+in), and ability to promote players to immortality.
+
+	Since immortals can wreak havoc with game balance, they are (ideally)
+a carefully-chosen and policed group.  An absolute rule of immortal behavior is
+that no immortal can aid or assist any player without explicit permission from 
+the higher ranks; in other words, please don't ask an immortal to help you kill
+a mob, gather EQ, etc, or you'll likely be either politely or rudely refused, 
+or referred to this file.
+
+	The duties of immortals, and even the very reasons for their existence,
+are topics of continual and heated debate in various MUD forums, and are
+fraught with misconceptions, poor examples, and outrageous hypocrisies. :)
+~
+
+-1 SOCIALS~
+ 
+This is a complete list of socials for this MUD:
+Compiled originally by: Sara
+accuse       adjust      air          apologize     applaud     babble
+bark         bcatch      beckon       beer          bearhug     beg
+bird         bkiss       bleed        blink         blush       boast
+boggle       bonk        bounce       bow           brb         burp
+cackle       caress      charge       cheer         chuckle     clap
+claw         collapse    comfort      comb          cough       cover
+cower        cringe      criticize    cry           cuddle      curse
+curtsey      dance       daydream     drool         duck        embrace
+explode      eyebrow     faint        fart          flare       flash
+flex         flinch      flip         flirt         flutter     fondle
+french       frown       fume         gasp          giggle      glare
+goose        grimace     grin         groan         grope       grovel
+growl        grumble     hand         head          hiccup      highfive
+hop          howl        hug          hush          ignore      innocent
+insane       judge       kiss         knee          laugh       lick
+love         lust        massage      meditate      moan        moon
+mosh         mutter      nibble       nod           nudge       nuzzle
+pant         passout     pat          peck          pie         pinch
+pissed       plead       point        poke          ponder      pout
+pray         propose     puke         punch         purr        ramble
+raspberry    rofl        roll         rub           ruffle      run
+scratch      scream      serenade     shake         shiver      shrug
+sigh         sing        slap         slobber       smile       smirk
+snap         snarl       sneeze       snicker       sniff       snore
+snort        snowball    snuggle      sob           spam        spank
+spit         squeal      squeeze      squirm        stare       stretch
+strip        stroke      strut        sulk          swoon       tackle
+tease        thank       threaten     tickle        tip         tongue
+twiddle      type        undress      view          wave        whine
+whistle      wiggle      wince        wink          wonder      worry
+worship      yawn        yeehaw       yodel         rose	laces
+tank	     starve	 aargh	      homework	    puff	differ
+yae	     lightbulb   voodoo       ogg	    confused	beam
+bite	     discodance  scuff        whap	    lag		chortle
+zerbert      twitch
+ 
+~
+
+-1 MERC~
+This mud is based on Merc 2.2, created by Furey, Hatchet, and Kahn.  
+Merc 2.1 is available as Merc_22.tar.gz from ftp.game.org 
+
+Thanks to ...
+  ... Diku Mud for starting it all.
+  ... The Free Software Foundation and DJ Delorie for kick-ass tools.
+  ... Copper Mud and Alfa Mud for releasing their code and worlds.
+  ... Aod of Generic for ... well, everything.  You're a hoopy frood, Aod.
+  ... Alander for many ideas and contributions.
+  ... John Brothers of Silly for permission to use Silly code and worlds.
+  ... Zrin for administering the mailing list.
+  ... Abaddon for proofreading our comm.c.
+  ... Hind, Quin, Vic, Diavolo, Oleg, Trienne, and others for porting help.
+  ... Diavolo, Grodyn, Morgenes, and others for code and bug fixes.
+  ... Raff, Doctor, VampLestat, Nirrad, Tyrst, PinkF, Chris, Glop for worlds.
+  ... the players and imps of Mud Dome, Final Mud, Mud Lite, Vego Mud, Rivers
+      of Mud, Ruhr Mud, and Mystic Realms for bug reports, ideas, new code,
+      and hours of enjoyment.
+
+~
+-1 MAP MAPS~
+Thanks to Ezra for drawing the originals of several maps on ROM.
+~
+
+-1 GREETING~
+.
+        /                                                          \
+        |                                                           ) 
+        \                      ___   _                              / 
+         '\                 __r^   '-^ ;_                        ,--'
+           ;             _r^             \  _                 __/        
+         ___`;------,_r-`                 -` '-^\.___.--.__,-^            
+_____,*-'   `==                                                            
+ ,-r-,_'`--`-'                                                            
+ /                  R E A L M S   O F   A N A T O L I A                       
+/___,                                                                       
+    /           Original DikuMUD by Hans Staerfeldt, Katja Nyboe,           
+   |            Tom Madsen, Michael Seifert, and Sebastian Hammer            
+|`-'            Based on MERC 2.1 code by Hatchet, Furey, and Kahn           
+`-,             ROM 2.4 copyright (c) 1993-1995 Russ Taylor. And              
+   \            ANATOLIA 3.0 by 1997-1999 Serdar BULUT, Ibrahim 
+    |           CANPUNAR, Murat BICER, Devrim Baris ACAR.                             
+    |                                                                        
+     \             __                                           
+      `c_--:_     /  ^-,__        _r-z__.;/'|        
+             `---'        -\___;-'         ,'   
+                                           \  
+                                           | 
+
+By which name do you wish to be known? ~ 
+
+-1 MOTD~ 
+* This is a Roleplaying, PlayerKilling and Adventure MUD.
+* You are responsible for knowing the rules (type 'rules').  Ignorance of 
+  the rules is no excuse.
+* Important commands: help, commands, news, notes.
+* Read all helps. So many things are changed relatively before.
+* Read helps of WHATSNEW(ROM2ANATOLIA), FROM20TO21, FROM21TO22 
+  ALIGNORCABAL and FROM22TO30.
+
+
+					Last modified: July 27th, 1999
+[Hit Return to continue]
+~ 
+ 
+92 IMOTD~
+Welcome Immortal!
+
+You are responsible for following the laws of immortal behavior. These can
+be found by typing 'help laws' or 'help commandments'.
+
+* Excessive loading is not allowed, and is grounds for deletion.
+* Asking for promotion is grounds for instant deletion.
+* Type 'help jobs' to get some idea of what you should be doing.
+* Remember you can RENAME players with unwanted nick names.
+
+[Hit Return to continue]
+~
+
+92 JOBS~
+.
+	This is a partial list of what a god of any given level should be 
+doing. It is not complete yet.
+
+ANGELS (92-94):
+
+	Angels and higher level gods may not assist mortals directly in any way.
+An angels' main job is controling the roleplaying of the game. Mostly each angle
+is responsible for one cabal. Responsibility means here that making sure that
+the cabal members are acting according to the roleplaying theme. But an angel
+cannot induct a player to his/her cabal, unless there is no mortal cabal leader
+of that cabal. An angel may have a mortal char as well. But he/she cannot help
+his/her mortal char in any sense. Violation of this rule is instant deletion!
+
+DEITIES (95-96):
+
+	Deities have two main roles: reimbursement and quest running. Be 
+skeptical on reimburses, don't just hand out every piece of gear. I suggest 
+limiting reimbursements to 10 items at a time, and make sure that you do not 
+load things at too high a level (new format items have hard-coded levels, so 
+are not a problem).  Vnum and stat are useful for this.  DON'T FORGET THAT
+YOU CANNOT LOAD LIMITED ITEMS! You can draft Angels to help you run a quest, 
+and please note that quests should NOT have huge rewards -- the main point 
+should be to have fun.  Deities have no business trying to enforce rules -- 
+the most you should do to a player is a NOCHANNEL or similar light punishment.
+Using the snoop command, Deities can keep track of players whether they are 
+obeying the rules of roleplaying or not. Deities cannot have mortal characters. 
+
+GODS (97-99):
+
+	Gods can run quests just like Deities and it's nice to do reimbursements
+too. However, the main role of a God is keeping the peace and enforcing the 
+the roleplaying, using the various NOTELL-class commands, as well as deny,
+purge, freeze, and ban (but be careful with these commands!)  Gods are expected
+to help make the mud run more smoothly, power trips are strictly verbotten.
+Not fufilling the roles of your office can result in demotion or deletion. Gods
+cannot have mortal characters.
+~
+
+92 COMMANDMENTS LAWS 'GOD RULES' GODS~
+.
+                          The Rules of ANATOLIA 
+ 
+1)  Do not kill mortals, do not kill mortals, do not kill mortals.
+    This includes transferring/summoning them to aggressive mobs.
+ 
+2)  Do not cheat for ANY mortal in ANY way, especially your own. 
+    Unless of course you LIKE deletion. Yes this includes tanking,
+    healing/restoring, casting protection spells <armor, sanct>,    
+    and softening up or altering mobs.
+ 
+3)  Do not transfer or summon mobs to mortals or mortals to mobs.
+    They have legs, if they want to kill a mob, they can easilly
+    go there themselves.
+ 
+4)  DO NOT kill the shopkeepers for any reason at ALL.
+ 
+5)  DO NOT use reboot.  <--- Note, simple English.
+ 
+6)  Do not give out free equipment.  You don't need to win brownie
+    points with the mortals.  Quest are fine but handing out items
+    isn't.
+ 
+7)  A note on quests: Quests are a good thing, more or less, BUT 
+    do not give out overly extravagant prizes.  Exercise some 
+    common sense here folks.  Do not load items more than 4 levels
+    below their normal level (i.e. no level 5 ogre gauntlets).
+ 
+8)  Do not undermine the authority of a higher level god.  If you 
+    see that someone has been frozen or nochannelled do not restore
+    their priveleges.  They are being punished for a reason.
+ 
+9)  Do not try to overrule each other.  
+ 
+10) Trusted mortals:  Do not use your god powers to help your mortal
+    character.  If you do, your trust will be taken away.
+
+11) Take care of limited objects and quests.
+
+12) Make sure that everyone is obeying the roleplaying rules.
+
+~
+
+0 SUICIDE DELETE~
+Use the delete command to erase unwanted characters, so the name will be
+available for use.  This command must be typed twice to delete a character,
+and you cannot be forced to delete.  Typing delete with an argument will
+return your character to 'safe' status if you change your mind after the
+first delete.
+~
+ 
+0 HEALER~
+The healer decided to grab a quick buck, and now charges for his heals.  Some
+services are still free to players of level 10 or below, however.  To see
+a full listing of the healer's services, type 'heal' at his residence. To
+receive healing, bring plenty of money, and type 'heal <spell>'.
+~ 
+
+
+-1 GAIN~
+The gain command is used to learn new skills, once the proper trainer has 
+been found. The following options can be used with gain:
+
+gain revert : turns one training session into 10 practice session 
+gain convert: turns 10 practices into one training session
+
+~
+
+92 CLONE~
+Syntax:
+  clone obj <object>
+  clone mob <mobile>
+  clone <name>
+
+The clone command duplicates an object or mobile.  The level of item or mobile
+that may be cloned depends on your level.  The target object or mob must be in
+the same room as you, or in your posession.  Strung and set information is
+preserved by clone, as well as any spell effects and container contents or
+mobile inventory, except for items which are too high for you to clone.  
+Strung extended descriptions on objects are not kept, however.
+~
+
+
+0 SKILLS SPELLS~
+.
+   The skills and spells commands are used to display your character's list
+of available skills (or spells, as the case may be).  They are listed in
+order of level, with mana cost (for spells) or percentage (for skills)
+listed where applicable.
+
+   If you are really hurt, e.g. your hitpoint is less than the 60% of your
+hitpoint, your control on your skills decreases.
+~
+
+
+0 OUTFIT~
+The outfit command, usable by levels 5 and below, equips your character with
+a new set of sub issue gear (banner, weapon, helmet, shield, and vest), 
+courtesy of the Mayor's warehouses.  Only empty equipment slots are affected.
+~
+
+0 AUTO AUTOLIST AUTOLOOT AUTOGOLD AUTOSAC AUTOEXIT AUTOASSIST AUTOSPLIT NOSUMMON NOCANCEL~
+Anatolia uses varies automatic actions, to ease the boredom of always splitting
+gold and sacrificing corpses.  The commands are as follows:
+
+autolist  : list all automatic actions
+autoloot  : take all equipment from dead mobiles
+autogold  : take all gold from dead mobiles
+autosac	  : sacrifice dead monsters (if autoloot is on, only empty corpes)
+autoexit  : display room exits upon entering a room
+autosplit : split up spoils from combat among your group members
+autoassit : makes you help group members in combat
+nosummon  : makes you summonable only within your PK range.
+nocancel  : allows only group members to cancel the spells that you are affected
+
+Typing a command sets the action , typing it again removes it. 
+~ 
+
+-1 COUNT~
+The count command displays the number of people (that you can see) logged
+into the mud.  It also displays the highest number observed that day, if
+it is higher.
+~ 
+ 
+-1 GATE~
+.
+    The gate spell is a powerful transportation magic that opens up a portal
+between your character and another person or creature somewhere else in the
+world.  This portal will transport you and any pet you might have, but not
+other members of your group.  Monsters recieve a save against gate, and
+monster or players more than 3 levels higher than you can not be gated to at 
+all.  God rooms, private rooms, and no recall rooms cannot be gated to, and
+no recall rooms cannot be gated out of.  Finally, any god or hero is also 
+immune to gate, as well as in player who has no summon set. 
+~
+-1 'ASTRAL WALK'~
+.
+    The astral walk spell is a powerful transportation magic that opens up a 
+portal between your character and another person or creature somewhere
+else in the world. This portal will transport you and any pet you might
+have, but not other members of your group.  Monsters recieve a save
+against astral walk, and monster or players more than 3 levels higher than
+you can not be astral walked to at all.  God rooms, private rooms, and no
+recall rooms cannot be astral walked to, and no recall rooms cannot be
+astral walked out of. Finally, any god or hero is also immune to walk, as
+well as in player who has no summon set. 
+~
+-1 'MIST WALK'~
+.
+    The mist walk spell is a powerful transportation magic that opens up a 
+portal between your character and another person or creature somewhere
+else in the world.  This portal will transport only you, but not
+your pet or other members of your group.  Monsters recieve a save
+against mist walk, and monster or players more than 5 levels lower than
+you can not be mist walked to at all.  God rooms, private rooms, and no
+recall rooms cannot be mist walked to, and no recall rooms cannot be mist
+walked out of.  Finally, any god or hero is also immune to mist walk, as
+well as in player who has no summon set. 
+~
+-1 'SOLAR FLIGHT'~
+.
+    The solar flight spell is a powerful transportation magic that opens up a 
+portal between your character and another person or creature somewhere
+else in the world.  This portal will transport only you, but not
+your pet or other members of your group.  Monsters recieve a save
+against solar flight, and monster or players more than 1 levels higher
+than you can not be solar flighted to at all.  God rooms, private rooms,
+and no recall rooms cannot be solar flighted to, and no recall rooms
+cannot be solar flighted out of.  Finally, any god or hero is also immune
+to solar flight, as well as in player who has no summon set. And ofcourse
+you need the sun light to cast this spell effectively.
+~
+
+-1 WHATSNEW ROM2ANATOLIA~
+.
+* ROM BUGs are fixed.
+* PlayerKilling and Stealing is permitted for all levels, within
+  restrictions of course.
+* 7 Cabals are implemented with special skills and spells.
+* If one cabal is raided and its item is taken and put to anothers cabal
+  shrine, the raided cabal cannot use their cabal powers.
+* New 8 classes are added with full features.
+* New 14 races are added with full features.
+* Cabal only, race only, alignment only spells and skills implemented.
+* Some channels are removed (gossip,auction).
+* New auction channel introduced.
+* Over 200 new skills and spells are introduced.
+* New practicing type is introduced.
+* Damagable and repairable equipments are introduced.
+* Bank is implemented.
+* Color code is inserted.
+* Mobiles started to track last foughts.
+* Spells castable to room (room affects, do_raffect command) are implemented.
+* Good players can request objects from good mobs.
+* Anti-Paladins can demand objects from any mob (chance of attacking).
+* Automatic rebooting system is implemented.
+* New areas are added.
+* Objects and Mobile progs are implemented.
+* Ice melts in hot areas.
+* New score command is introduced.( One can use old one with nscore command)
+* In who command, one can restrict the cabals, races or PKs.
+* Players can pray the gods by pray channel.
+* Automaticaly generated quest is introduced.
+* Hero players can teach their 100% skills or spells to other players.
+* Tailed mobile can now attack with their tails.
+* When you look a mob, you can see its race.
+* Hometowns and ethos are implemented.
+* Religions and their related tattos are implemented
+* Special quest kassandra (please read the referred books in melancholy).
+
+Also check FROM20TO21
+~
+-1 FROM20TO21~
+.
+* Reported bugs are fixed.
+* Track has been rearranged.
+* Players become able to shoot arrows, throwing spears with full features:
+	poisoning, shocking, burning, frosting arrows and spears
+	stuck in arrows and spears.
+* Shot arrows or thrown spears may be stuck in the target mobiles.
+* Riding skill is given to knights.
+* In groups shalafi vs battle, chaos vs ruler, invader vs knight is prevented
+* Spellbane become permanent with no cost of mana.
+* Blade barrier, aid, desert fist,gate spells are given to clerics.
+* Chance of damaging an object reduced.
+* Tracking mobiles become able to open door.
+* Golems autorescue their masters.
+* If created golem kills master's quest mob, it is ok as well.
+* Area flags introduced.
+* Next questtimes has been rearranged.
+* Quest code reconstructed. 
+* Vampire became immune to negative attacks.
+* Immunity to negative spell is given to necromancer.
+* Spell craft adjustment done.
+* Lance skill is given to knights for mount.
+* Secondary attack given to warrior class.(Second attack for dual)
+* Making arrow (blue,red,white,green) skills given to Ranger.
+* Dishonoring is now optional for Samurais.
+* Chance of tattoos has been increased.
+* Is_same_group is reorganized.
+* Leadership spell is given to rulers( immunity to charm).
+* Evil spirit spell is given to invaders.
+* Mortal strike skill is given to battleragers.
+* Now offensive spells are castable to other rooms, as well:
+	cast 'acid blast' n.fido
+	cast 'acid blast' e.2.fido
+* Mobiles starts to remember the players that once fight with them, untill
+  they are killed, or anatolia is rebooted.
+* Races of mobiles is now a header of mobiles description.
+* PC's can speak either common language or their mothertongue.
+* Only magical lights now can damage vampires.
+* Track skill is now only for rangers.
+* Shout and yell channels cannot be ON/OFF.
+* Spell craft rearranged.
+
+Also check FROM21TO22
+~
+
+-1 FROM21TO22~
+.
+* Reported bugs fixed
+* bury added and graves can be opened by earthquake spell or digging
+* drag is added.
+* hand usage is rearranged (pro-hand has "*" sign)
+* Added a chance to fall in the other room while door bashing
+* get_skill & get_weapon_skill now controls hit/max_hit
+* get_skill is rearranged for mobiles
+* new complete remort code (under control of immortals) is added with backup
+* now players can get the amount of coins that they want from the room
+	e.g	get 10 gold
+* maximum newbies and oldies has been completed
+* cross block & hand block skills are added
+* Non-cabal members cannot quit in that cabal
+* strangle, blackjack and vampiric touch have certain delay now.
+* parry has been rearranged
+* added special cabal guardian progs
+* now katana cannot be either purged or sacrified
+* now all cabal areas are no gate and no summon
+* removing tattoos and religions are allowed by questor
+* cancellation spell can be cast thru only group members and cancel enabled ones
+* now vampires are only affected by sun light and magical lights
+* now glowing items that are worn on head can light the room
+* damage colors are now only red, but still the tone of the red is different
+  for the character and the victim
+* limited items can only be saved by players that has an average of 20 hours 
+  per last two weeks.
+* new skills and spells are added.
+
+
+~
+
+-1 FROM22TO30~
+.
+* Two classes are removed: warlock, witch.
+* Three classes are added: invoker, transmuter, elementalist.
+* Getting the cabal items and cabalscan rearranged.
+* New skills/spells added.
+* New limited objects added.
+* Cabal powers are rearranged.
+* The mobiles, who have mage/cleric acts and don't have any special
+  cast programs, now have their cast programs.
+* The mobiles, who was defined as backstab offensive, now can attack
+  to the players with backstab if they are aggressive as well.
+* Reported bugs are fixed.
+* All sanctuary and detection potions are limited now. And a new 
+  arrangement had been made for sold limited items.
+* And lots of more....
+
+~
+
+-1 ALIGNORCABAL~
+.
+
+	- Alignment or Cabal for Roleplaying?
+	- Actually it depends on the implementor of the MUD. According
+to Chronos, alignment comes first and according to Asena, cabal comes
+first. 
+
+~
+
+-1 AFFECTS AFFECT RAFFECT RAFFECTS~
+.
+   Affect command is used to show all the spells affecting your character. At
+low levels, only the spell name will be displayed, at higher levels the
+effects and duration of the spell will also be shown.  Spell effects
+are no longer shown on score (this can be changed by using 'show' command).
+
+
+    Raffect command is used to show all the spells affecting the rooms. At
+low levels, only the spell name will be displayed, at higher levels the
+effects and duration of the spell will also be shown.  Spell effects
+are no longer shown on score (this can be changed by using 'show' command).
+~
+-1 RULER 'CABAL RULER' 'RULER CABAL'~
+.
+	Rulers believe that Law is the key for success for us all. In the
+ancient times, the realm of Anatolia had been covered by chaos from one
+end to the other, with no law to protect anyone or anything. It was a time 
+when only the strong survived, feeding on the corpses of the weak. The 
+Rulers changed all that. They founded protected areas around thera,
+guarding them with their lives. They have written the book of laws that
+keeps their beliefs, and guard this book in their headquarters. The book
+is everything to them, in case the book is lost, they fail to apply the
+law like the way they can do when in possession of it. The first city 
+they got under their protection was Midgaard and New Thalos, where many
+people had migrated after the lamia attack in old Thalos. Today, the
+Rulers are fighting the Chaos cabal, their now eternal enemy. All those
+who defy the laws in protected areas are flagged as "criminals", and
+hunted by all rulers.
+~
+
+-1 INVADER 'CABAL INVADER' 'INVADER CABAL'~
+.
+   Four hundred years ago, after the attack of the Knights orriginating from
+the town of Gerilghem, the forces of evil had to retreat to Underdark, one
+of the deepest and most evil places on this realm. It is said that the
+darkness in the area soon started to become deeper and stronger. No one
+knows what went on in the depths of the Underdark, but soon an army of
+pure evil emerged, travelled to the lands cleaned by the Knights, slaying
+all that it found on its way. The dark army spared no life, bringing
+nothing but death to those who stood in its path. Inside the swamps west
+of Midgaard, an army of Knights confronted them. The Knights were
+numerous, outnumbering the dark army who called themselves Invaders, and
+it seemed to be a doom for the dark army. That was when the great dark
+cloud decended on the two armies. Although the events which took place
+inside that dark cloud is not known, there is something that is written
+down in the Chronicals of Anatolia. No man left the cloud alive, but the
+only corpses to be found were the Knights'. 
+~
+
+-1 CHAOS 'CABAL CHAOS' 'CHAOS CABAL'~
+.
+  Chaos. The seed of the universe. It is everywhere. It is within us, around
+us, it is all that everything originates from. Those who have seen the
+power in chaos have come together. To found a unique force among the
+chaos, they came together secretly and built themselves a fortress. They
+are plaqued by the lawful works of the Rulers, constantly battle them
+to rid them of their powers. They see the laws as chains that turn them
+into slaves. So they fight for their freedom. It is an honour for a Chaos
+member to be made wanted by the Rulers, it shows their respect for
+freedom. When a Chaos member is flagged as criminal, his mood and his
+powers increase, due to the new flow of chaotic powers.
+~
+
+-1 KNIGHT 'KNIGHT CABAL' 'CABAL KNIGHT'~
+.
+When the evil stormed the plains of our realm, killed the innocent
+children of poor villagers, a great hate started to rise against the dark
+souls that plaqued the land. The followers of the dark path was strong,
+but the hate against them grew with each corpse they left on the ground.
+In time, people who wished to fight against this evil gathered in the city
+of Gerilghem, and started to build a large castle in the city. Training 
+themselves for a battle against the evil, they mastered in heroic combat,
+and started a jihad against the darkness. The evil withdrew to the depths
+of thera, and once again peace came to the land. But it did not last long.
+The forces of darkness formed a new army, named themselves Invaders, and
+attacked back. For past few hundred years, these to forces have been
+fighting a fierce battle. The Knights trying to bring peace, and the
+Invaders are trying to bring death. The hate in the Knights for evil is 
+great, and they hunt it, slay it whenever it is possible. They believe
+that eternal peace can be found only when the last evil falls to its 
+knees.
+~
+
+-1 HUNTER 'HUNTER CABAL' 'CABAL HUNTER'~
+.
+Where there's money, there's someone who wants to earn it. The merchants
+from many different and far away parts of came together, forming a guild
+among themselves. They do all kinds of work, money is the key to hire
+them. They are superior with hunting, and they always seek for revenge. 
+These group of merchants have one weakness that is known: Some of them
+tend to sell out their friends for money. They are not cheap at all to
+hire, costing perhaps hundreds of thousands of gold for the hardest tasks.
+Their trade center is located at the city of New Thalos, and also serves
+as their headquarters. The Hunters are a constanly changing cabal, that is
+the most profitable way of earning more. Always change, and have someone
+else pay for it!  
+~
+
+-1 SHALAFI 'SHALAFI CABAL' 'CABAL SHALAFI'~
+.
+  For many ages, the mortal magic on this realm was seen as evil by those
+who couldn't understand the arcane arts. The performers of "the Art"
+therefore, were hunted down and killed. Their magic was strong, but not
+strong enough to fight the millions who went after them. One day, a great
+magician among their order, decided to put an end to this massacre. 
+All those who survived the attacks of the barbaric community were called
+to the magically built tower of sorcery, where a great meeting was held.
+The great mage, named Jutnirvas, took his place at the end of a huge hall
+where all the mages were collected. He then began his forever unforgotten
+speach:
+
+  "Greetings performers of the Art! I know that you all feel nervous for the
+fact that we, all those who managed to survive the hunt, are here in one 
+place all together. Yes! I know the dangers of this meeting. If we are
+found, we might be killed here together, and then the magic would
+certainly fall. But with every new sunset, there are less of us on this
+world. We must come together and fight against those who wish to see our
+heads seperated from our bodies. There's only one thing that can save us:
+The great power of the Art! The power of magic! We must make this tower
+our first stronghold, a castle where we can defeat the outsiders. We 
+will have to improve our magical powers, and this can only be achieved
+by a long, disciplined work. We will need all sorts of magical power,
+the good, the neutral, and the evil. They must all be worked, reserched,
+so we can survive. And with us, our magic shall survive too, growing in
+force each day. We will bind ourself together, not let chaos sweep away
+what we will make possible. Now, will you fight by my side!!!?"
+
+   The answer was a thundering yes from every singal person in the room. That
+day, Shalafi was founded, and became a home for many of the great
+magicians who lived in the following centuries. Jutnirvas's dream still
+lives this day, and houses many reserch projects of the mages. Those
+who can penetrate through the defenses of the Groove that lies around
+the tower and also the undeads of the tower of high sorcery may hear the
+screams of summoned demons, explosions of cast spells that shake the
+~
+
+-1 NEWCLASSES 'NEW CLASSES'~
+.
+	In Anatolia version 3.0 or upper, the Warlock and Witch classes 
+doesn't exist. Instead of them you have to pick either Invoker, Transmuter
+or Elementalist. Each have specifications which are explained in their
+own class helps.
+
+~
+
+0 $~
+#$
+

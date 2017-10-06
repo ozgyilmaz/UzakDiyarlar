@@ -1,0 +1,28 @@
+ index=1000
+
+ while [ 1 ]
+ do
+    while [ 1 ]
+    do
+        logfile=../log/$index.log
+        if [ -r $logfile ]
+        then
+                 index=`echo $index + 1|bc`
+        else
+                 break
+        fi
+    done
+
+    ../src/anatolia $* >$logfile 2>&1
+
+    if [ -r shutdown.txt ]
+    then
+      rm -f shutdown.txt
+      break
+    fi
+
+    if [ -r core ]
+    then
+      mv core core.$index
+    fi
+ done

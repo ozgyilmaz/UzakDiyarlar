@@ -1,0 +1,27 @@
+* Reported bugs fixed
+* bury added and graves can be opened by earthquake spell or digging
+* drag is added.
+* hand usage is rearranged (pro-hand has "*" sign)
+* Added a chance to fall in the other room while door bashing
+* get_skill & get_weapon_skill now controls hit/max_hit
+* get_skill is rearranged for mobiles
+* new complete remort code (under control of immortals) is added with backup
+* now players can get the amount of coins that they want from the room
+	e.g	get 10 gold
+* maximum newbies and oldies has been completed
+* new skills are added.
+* Non-cabal members cannot quit in that cabal
+* strangle, blackjack and vampiric touch have certain delay now.
+* parry has been rearranged
+* added special cabal guardian progs
+* now katana cannot be either purged or sacrified
+* now all cabal areas are no gate and no summon
+* removing tattoos and religions are allowed by questor
+* cancellation spell can be cast thru only group members and cancel enabled ones
+* now vampires are only affected by sun light and magical lights
+* now glowing items that are worn on head can light the room
+* damage colors are now only red, but still the tone of the red is different
+  for the character and the victim
+* limited items can only be saved by players that has an average of 20 hours 
+  per last two weeks.
+* olympus is rearranged.

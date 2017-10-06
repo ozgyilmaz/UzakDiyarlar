@@ -1,0 +1,1775 @@
+#AREA 
+PrisonThera.are~ 
+Prison of Thera.~ 
+{80 130} RM Prison of thera~
+
+15000 15099
+
+#HELPS
+-1 prison2 ~
+Converted & edited by REAL MUDDERS
+Special thanx to Serdar & Anatolia Consortium~
+0 $~
+
+#MOBILES 
+
+#15000
+head guardian cell~
+Head of the cell guardians~
+Head of the guardians of this prison is here.
+~
+    This man has been here for years , protecting his prison from being
+destroyed.The only one who is not affacted from that evil mage; stong ,
+powerful and wise.
+~
+human~
+ABWe  DFHJVZ 0 0
+130 20 10d400+28000 10d50+9000 20d20+100 pierce
+-150 -150 -150 -151
+CEFKNU ABHQY TPKIL J
+stand stand male 5000
+A 0 medium 0
+
+#15003
+guardian cell~
+Guardian of the cell~
+The guardian of this prison is here.
+~
+    A powerful looking guardian on duty.He has the sign of guardians on
+his shoulder.
+~
+human~
+ABWe  DFHJVZ 0 0
+95 20 10d400+14000 10d50+2000 10d15+12 pierce
+-80 -70 -72 -81
+CEFKNU ABH  0 J
+stand stand male 5000
+A 0 medium 0
+
+#15001
+cleaner cell~
+Cleaner of the prison~
+One of the cleaners of this prison is here.
+~
+     He is so sad actually crying,and singing you don't understand
+anything.Why is he crying and singing at the same time.Suddenly you
+understand; singing : now you die!
+~
+human~
+ACGT  DFJZ 0 0
+80 20 10d400+12000 10d50+1000 12d10+12 pierce
+-50 -50 -50 -51
+CEFKNU 0 0 S
+stand stand male 5000
+A 0 medium 0
+
+#15002
+criminal~
+The criminal~
+A criminal is here resting.
+~
+    A simply criminal, looking with aboring eyes like a zombie!Not like 
+other creatures you've ever seen.You hear a week voice like wispering 
+but continues : "as you wished my master".
+~
+human~
+ACGT  DFJZ 0 0
+88 20 10d400+12000 10d50+1000 12d12+30 pierce
+-50 -50 -50 -51
+CEFKNU 0 0 S
+stand stand male 5000
+A 0 medium 0
+
+#15009
+kwal mage ancient~
+Kwal tha ancient mage~
+Kwal the ancient mage is here working on his plans.
+~
+   As you look at this old woman, you see fear in her eyes.But this is
+not her fear.This is your fear, your end whaiting you,catching your eyes,
+calling your spirit!One a sudden you see hate and anger in these eyes, 
+you must have disturbed her; she screams "All of you will pay for this!!"
+~
+dark-elf~
+ABWeCFGT  DFHJVZ 0 0
+109 20 30d100+27000 10d50+2300 23d27+190 pierce
+-88 -85 -90 -81
+CEFKNU ABHQY TPKIL 0
+
+stand stand female 5000
+ABCDEFG 0 medium 0
+
+#15010
+disturbed demon~
+A disturbed demon~
+A disturbed demon is here looking for something.
+~
+She is very angry !
+~
+dark-elf~
+ABWeCFGT  DFHJVZ 0 0
+109 20 10d400+22000 10d50+2300 23d10+30 pierce
+-88 -85 -90 -81
+CEFKNU ABHQY TPKIL 0
+
+stand stand female 5000
+ABCDEFG 0 medium 0
+
+
+#0
+
+
+
+#OBJECTS
+
+#15002
+dusty fountain~
+a fountain~
+A small dusty fountain is here.~
+~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 G
+E
+dusty~
+It doesn't look nice; covered with dust, but probubly you can drink the
+water
+~
+#15001
+potpie dirty~
+a big dirty pot pie~
+A big dirty pot pie is on the floor.~
+food~
+food 0 A
+20 40 0 0 0
+0 20 22 P
+
+#15005
+cell guardian ring~
+a shiny cell guardian ring~
+You see a shining ring on the floor.
+~
+gold~
+armor BEGH AB
+29 30 30 30 29
+88 10 8000 P
+A
+1 3
+A
+2 3
+A
+12 100
+A
+13 100
+A 
+17 -20
+A 
+18 5
+A 
+19 5
+A 
+23 -2
+A 
+24 -1
+
+
+#15006
+criminal necklace~
+a criminal necklace~
+A beautiful necklace is here.
+~
+gold~
+armor BEGH AC
+25 35 35 35 21
+85 10 8400 P
+A
+4 3
+A
+5 3
+A
+12 100
+A
+13 100
+A 
+17 -5
+A 
+18 5
+A 
+19 5
+A 
+23 -2
+
+#15007
+light aura~
+an aura of light~
+A mystic aura of light.
+~
+light~
+armor BEGH AQ
+25 25 25 25 21
+85 10 8400 P
+A
+1 1
+A
+5 1
+A
+12 200
+A
+13 200
+A 
+17 -20
+A 
+18 7
+A 
+19 7
+A 
+23 -5
+
+
+#15008
+shield lost spirit~
+shield of lost spirits~
+Shining shield of the lost spirits.
+~
+gold~
+armor BEGH AJ
+21 21 21 21 80
+70 10 8400 P
+A
+13 150
+A 
+17 -30
+A 
+23 -5
+
+
+#15003
+rod ambrossia~
+the rod of ambrossia~
+The rod of ambrossia is here.
+~
+wood~
+staff BEGH AO
+100 50 50 'frenzy' 0
+90 50 30000 P
+A
+5 3
+A
+12 400
+A
+13 400
+A 
+17 -30
+A 
+18 25
+A
+19 25
+A 
+23 -4
+A 
+24 -4
+
+#15010
+staff ancients ancient~
+staff of ancients~
+The staff of ancients lies here.
+~
+wood~
+staff BEGH AO
+100 20 20 'sanctuary' 0
+75 50 30000 P
+A
+5 3
+A
+13 100
+A
+18 5
+A 
+24 -10
+
+#15011
+cloak divine protection~
+Cloak of Divine Protection~
+An incredibly glowing cloak is lying on the floor.~
+leather~
+armor ACY AC
+39 39 39 37 30
+84 10 99000 P
+A
+3 2
+A
+18 8
+A
+19 8
+A
+24 -4
+
+#0
+
+#ROOMS
+
+
+#15001
+The cell numbered 001~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 DN 0
+D2
+Long coridor.
+~
+~
+0 -1 15021
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 001               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15002
+The cell numbered 002~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 DN 0
+D2
+Long coridor.
+~
+~
+0 -1 15022
+
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 002               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15003
+The cell numbered 003~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 DN 0
+D2
+Long coridor.
+~
+~
+0 -1 15023
+
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 003               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15004
+The cell numbered 004~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 DN 0
+D2
+Long coridor.
+~
+~
+0 -1 15024
+
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 004               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15005
+The cell numbered 005~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 DN 0
+D2
+Long coridor.
+~
+~
+0 -1 15025
+
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 005               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15006
+The cell numbered 006~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 DN 0
+D2
+Long coridor.
+~
+~
+0 -1 15026
+
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 006               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15007
+The cell numbered 007~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 DN 0
+D2
+Long coridor.
+~
+~
+0 -1 15027
+
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 007               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15008
+The cell numbered 008~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 DN 0
+D2
+Long coridor.
+~
+~
+0 -1 15028
+
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 008               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15009
+The cell numbered 009~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 DN 0
+D2
+Long coridor.
+~
+~
+0 -1 15029
+
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 009               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15010
+The cell numbered 010~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 DN 0
+D2
+Long coridor.
+~
+~
+0 -1 15030
+
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 010               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15011
+The cell numbered 011~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 DN 0
+D2
+Long coridor.
+~
+~
+0 -1 15031
+
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 011               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15012
+The cell numbered 012~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 DN 0
+D2
+Long coridor.
+~
+~
+0 -1 15032
+
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 012               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15013
+The cell numbered 013~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 DN 0
+D2
+Long coridor.
+~
+~
+0 -1 15033
+
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 013               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15014
+The cell numbered 014~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 DN 0
+D2
+Long coridor.
+~
+~
+0 -1 15034
+
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 014               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15015
+The cell numbered 015~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 DN 0
+D2
+Long coridor.
+~
+~
+0 -1 15035
+
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 015               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15016
+The cell numbered 016~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 DN 0
+D2
+Long coridor.
+~
+~
+0 -1 15036
+
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 016               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15017
+The cell numbered 017~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 DN 0
+D2
+Long coridor.
+~
+~
+0 -1 15037
+
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 017               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15018
+The cell numbered 018~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 DN 0
+D2
+Long coridor.
+~
+~
+0 -1 15038
+
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 018               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15019
+The cell numbered 019~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 0 9
+
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 019               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15020
+The cell numbered 020~
+  This is a dirty and untidy cell.It is too small, you can see very 
+little here.There is a heavy smell in the air.At the corner of the 
+room is a toilet and a fountain.There is no exit here , close walls, 
+your mind clouds when you look at the walls.
+     There is a small tablet on the wall.
+~
+0 J 3
+D2
+Long coridor.
+~ 
+~
+0 -1 15040
+
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Cell  no 020               +
++           Don't make noise             +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15021
+The long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 001, coridor leads east.
+~
+0 DN 0
+
+D0
+North is the cell numbered 001.
+~
+~
+0 -1 15001
+
+D1
+East leads the long conridor.
+~
+~
+0 -1 15022
+
+D3
+West is the entrance of the prison.
+~
+~
+0 -1 15000
+
+S
+
+
+#15022
+The long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 002, coridor leads east.
+~
+0 DN 0
+
+D0
+North is the cell numbered 002.
+~
+~
+0 -1 15002
+
+D1
+East leads the long conridor.
+~
+~
+0 -1 15023
+
+D3
+West is the long coridor.
+~
+~
+0 -1 15021
+
+S
+
+
+#15023
+The long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 003, coridor leads east.
+~
+0 DN 0
+
+D0
+North is the cell numbered 003.
+~
+~
+0 -1 15003
+
+D1
+East leads the long conridor.
+~
+~
+0 -1 15024
+
+D3
+West is the long coridor.
+~
+~
+0 -1 15022
+
+S
+
+
+#15024
+The long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 004, coridor leads east.
+~
+0 DNV 0
+
+D0
+North is the cell numbered 004.
+~
+~
+0 -1 15004
+
+D1
+East leads the long conridor.
+~
+~
+0 -1 15025
+
+D3
+West is the long coridor.
+~
+~
+0 -1 15023
+
+S
+
+
+#15025
+The long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 005, coridor leads east.
+~
+0 DNV 0
+
+D0
+North is the cell numbered 005.
+~
+~
+0 -1 15005
+
+D1
+East leads the long conridor.
+~
+~
+0 -1 15026
+
+D3
+West is the long coridor.
+~
+~
+0 -1 15024
+
+S
+
+
+#15026
+The long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 006, coridor leads east.
+~
+0 DNV 0
+
+D0
+North is the cell numbered 006.
+~
+~
+0 -1 15006
+
+D1
+East leads the long conridor.
+~
+~
+0 -1 15027
+
+D3
+West is the long coridor.
+~
+~
+0 -1 15025
+
+S
+
+
+#15027
+The long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 007, coridor leads east.
+~
+0 DNV 0
+
+D0
+North is the cell numbered 007.
+~
+~
+0 -1 15007
+
+D1
+East leads the long conridor.
+~
+~
+0 -1 15028
+
+D3
+West is the long coridor.
+~
+~
+0 -1 15026
+
+S
+
+
+#15028
+The long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 008, coridor leads east.
+~
+0 DNV 0
+
+D0
+North is the cell numbered 008.
+~
+~
+0 -1 15008
+
+D1
+East leads the long conridor.
+~
+~
+0 -1 15029
+
+D3
+West is the long coridor.
+~
+~
+0 -1 15027
+
+S
+
+
+#15029
+The long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 009, coridor leads east.
+~
+0 DNV 0
+
+D0
+North is the cell numbered 009.
+~
+~
+0 -1 15009
+
+D1
+East leads the long conridor.
+~
+~
+0 -1 15030
+
+D3
+West is the long coridor.
+~
+~
+0 -1 15028
+
+S
+
+
+#15030
+The long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 010, coridor leads east.
+~
+0 DNV 0
+
+D0
+North is the cell numbered 010.
+~
+~
+0 -1 15010
+
+D1
+East leads the long conridor.
+~
+~
+0 -1 15031
+
+D3
+West is the long coridor.
+~
+~
+0 -1 15029
+
+S
+
+
+#15031
+The long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 011, coridor leads east.
+~
+0 DNV 0
+
+D0
+North is the cell numbered 011.
+~
+~
+0 -1 15011
+
+D1
+East leads the long conridor.
+~
+~
+0 -1 15032
+
+D3
+West is the long coridor.
+~
+~
+0 -1 15030
+
+S
+
+
+#15032
+The long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 012, coridor leads east.
+~
+0 DNV 0
+
+D0
+North is the cell numbered 012.
+~
+~
+0 -1 15012
+
+D1
+East leads the long conridor.
+~
+~
+0 -1 15033
+
+D3
+West is the long coridor.
+~
+~
+0 -1 15031
+
+S
+
+
+#15033
+The long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 013, coridor leads east.
+~
+0 DNV 0
+
+D0
+North is the cell numbered 003.
+~
+~
+0 -1 15013
+
+D1
+East leads the long conridor.
+~
+~
+0 -1 15034
+
+D3
+West is the long coridor.
+~
+~
+0 -1 15032
+
+S
+
+
+#15034
+The long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 014, coridor leads east.
+~
+0 DNV 0
+
+D0
+North is the cell numbered 014.
+~
+~
+0 -1 15014
+
+D1
+East leads the long conridor.
+~
+~
+0 -1 15035
+
+D3
+West is the long coridor.
+~
+~
+0 -1 15033
+
+S
+
+
+#15035
+The long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 015, coridor leads east.
+~
+0 DNV 0
+
+D0
+North is the cell numbered 015.
+~
+~
+0 -1 15015
+
+D1
+East leads the long conridor.
+~
+~
+0 -1 15036
+
+D3
+West is the long coridor.
+~
+~
+0 -1 15034
+
+S
+
+
+#15036
+The long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 016, coridor leads east.
+~
+0 DNV 0
+
+D0
+North is the cell numbered 016.
+~
+~
+0 -1 15016
+
+D1
+East leads the long conridor.
+~
+~
+0 -1 15037
+
+D3
+West is the long coridor.
+~
+~
+0 -1 15035
+
+D2
+South is the old swear system
+~
+~
+0 -1 20000
+S
+
+
+#15037
+The long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 017, coridor leads east.
+~
+0 DNV 0
+
+D0
+North is the cell numbered 017.
+~
+~
+0 -1 15017
+
+D1
+East leads the long conridor.
+~
+~
+0 -1 15038
+
+D3
+West is the long coridor.
+~
+~
+0 -1 15036
+
+S
+
+
+#15038
+The long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 018, coridor leads east.
+~
+0 DNV 0
+
+D0
+North is the cell numbered 018.
+~
+~
+0 -1 15018
+
+D1
+East leads the long conridor.
+~
+~
+0 -1 15039
+
+D3
+West is the long coridor.
+~
+~
+0 -1 15037
+
+S
+
+
+#15039
+The long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 019,no exit from this cell.Coridor leads east.
+~
+0 0 3
+
+D0
+North is the cell numbered 019.
+~
+~
+0 -1 15019
+
+D1
+East leads the long conridor.
+~
+~
+0 -1 15040
+
+D3
+West is the long coridor.
+~
+~
+0 -1 15038
+
+S
+
+
+#15040
+End of the long coridor~
+   This is a dark and long coridor.North you see the entrance of the cell
+numbered 020, coridor suddeny ends here.
+~
+0 DN 3
+
+D0
+North is the cell numbered 020.
+~
+~
+0 -1 15020
+
+D3
+West is the long coridor.
+~
+~
+0 -1 15039
+
+S
+
+#15000
+Entrance of the prison~
+   You are in a dark and silent room, there are blood on the walls,
+and no escape from here.Only exits are east and west , along the long
+coridor cells are located to north.
+~
+0 0 1
+
+D1
+East is the long coridor.
+~
+~
+0 -1 15021
+
+D2
+Prison road.
+~
+~
+0 -1 15090
+
+S
+
+
+
+
+
+#15099
+Prison road~
+   You are walking on the road to the prison.Take care your step, a
+mistake of yours may prepare your end.As you remember the tales you 
+afraid.
+~
+0 0 1
+
+D0
+You can't see properly.
+~
+~
+0 -1 8019
+
+D1
+Prison road.
+~
+~
+0 -1 15098
+
+D3
+You can't see properly.
+~
+~
+0 -1 8019
+
+S
+
+
+#15098
+Prison road~
+   You are walking on the road to the prison.Take care your step, a
+mistake of yours may prepare your end.In the anciant times of thera
+thera thera was a powerful mage named Kwal.
+~
+0 0 1
+
+D1
+You can't see properly.
+~
+~
+0 -1 5028
+
+D0
+Prison road.
+~
+~
+0 -1 15097
+
+D3
+Prison road.
+~
+~
+0 -1 15099
+
+S
+
+
+#15097
+Prison road~
+   You are walking on the road to the prison.Take care your step, a
+mistake of yours may prepare your end.As he chougt and put in this 
+prison everybody thought that everything has finished.
+~
+0 0 1
+
+D1
+You can't see properly.
+~
+~
+0 -1 5067
+
+D2
+Prison road.
+~
+~
+0 -1 15098
+
+D5
+Prison road.
+~
+~
+0 -1 15096
+
+S
+
+
+#15096
+Prison road~
+   You are walking on the road to the prison.Take care your step, a
+mistake of yours may prepare your end.But he got the power to destroy 
+the land.
+~
+0 0 1
+
+D4
+Prison road.
+~
+~
+0 -1 15097
+
+D1
+Prison road.
+~
+~
+0 -1 15095
+
+D5
+You can't see properly.
+~
+~
+0 -1 5001
+
+
+S
+
+
+#15095
+Prison road~
+   You are walking on the road to the prison.Take care your step, a
+mistake of yours may prepare your end.Gods have forshaken him after
+he had cursed this prison and people inside it.
+~
+0 0 1
+
+D0
+You can't see properly.
+~
+~
+0 -1 15099
+
+D3
+Prison road.
+~
+~
+0 -1 15096
+
+D1
+Prison road.
+~
+~
+0 -1 15094
+
+S
+
+
+#15094
+Prison road~
+   You are walking on the road to the prison.Take care your step, a
+mistake of yours may prepare your end.Tales continued that he found the
+way to the realm of spirits and got help from evil ones of them.
+~
+0 0 1
+
+D3
+Prison road.
+~
+~
+0 -1 15095
+
+D0
+You can't see properly.
+~
+~
+0 -1 15098
+
+D1
+Prison road.
+~
+~
+0 -1 15093
+
+S
+
+
+#15093
+Prison road~
+   You are walking on the road to the prison.Take care your step, a
+mistake of yours may prepare your end.
+~
+0 0 1
+
+D3
+Prison road.
+~
+~
+0 -1 15094
+
+D1
+You can't see properly.
+~
+~
+0 -1 15091
+
+D2
+Prison road.
+~
+~
+0 -1 15092
+
+S
+
+
+#15092
+Prison road~
+   You are walking on the road to the prison.Take care your step, a
+mistake of yours may prepare your end.
+~
+0 0 1
+
+D0
+Prison road.
+~
+~
+0 -1 15093
+
+D2
+You can't see properly.
+~
+~
+0 -1 3049
+
+D1
+Prison road.
+~
+~
+0 -1 15091
+
+S
+
+
+#15091
+Prison road~
+   You are walking on the road to the prison.Take care your step, a
+mistake of yours may prepare your end.
+~
+0 0 1
+
+D3
+Prison road.
+~
+~
+0 -1 15092
+
+D1
+You can't see properly.
+~
+~
+0 -1 5205
+
+D0
+Prison road.
+~
+~
+0 -1 15090
+
+S
+
+
+#15090
+Prison road~
+   You are walking on the road to the prison.Take care your step, a
+mistake of yours may prepare your end.
+~
+0 0 1
+
+D0
+Entrance to the long coridor.
+~
+~
+0 -1 15000
+
+D2
+Prison road.
+~
+~
+0 -1 15091
+
+
+S
+
+
+
+
+#0
+
+
+
+
+#RESETS 
+
+M 0 15000 1 15040 1  * Cell guardian
+E 0 15003 -1 17      * Rod of ambrossia
+E 0 15007 -1 18      * aura of light
+
+M 0 15003 4 15021 1  * head of the guardians
+
+M 0 15003 4 15026 1  * cell gurdian
+E 0 15005 -1 2      * Ring ,
+M 0 15003 4 15031 1 * cell gurdian 
+E 0 15005 -1 2 * Ring ,
+M 0 15003 4 15036 1  * cell gurdian
+
+
+M 0 15002 6 15001 2  * criminal
+E 0 15006 -1 3
+M 0 15002 6 15004 2  * crimianl
+M 0 15002 6 15009 2  * crimianl
+E 0 15006 -1 3
+M 0 15002 6 15016 2  * criminal
+
+M 0 15001 6 15022 2  * cleaner
+M 0 15001 6 15024 2  * cleaner
+M 0 15001 6 15035 2  * cleaner
+M 0 15001 6 15031 2  * cleaner
+
+M 0 15010 1 15019 1 * kwal
+E 0 15011 -1 3
+
+M 0 15009 1 15020 1 * kwal
+E 0 15008 -1 11 
+E 0 15010 -1 18
+
+R 0 15099 3 * entrence road
+R 0 15098 3 * entrence road
+R 0 15097 3 * entrence road
+R 0 15096 3 * entrence road
+R 0 15095 3 * entrence road
+R 0 15094 3 * entrence road
+R 0 15093 3 * entrence road
+R 0 15092 3 * entrence road
+R 0 15091 3 * entrence road
+R 0 15090 2 * entrence road
+
+
+O 0 15002 10 15001   * dusty fountain
+O 0 15002 10 15002   * dusty fountain
+O 0 15002 10 15003   * dusty fountain
+O 0 15002 10 15004   * dusty fountain
+O 0 15002 10 15005   * dusty fountain
+O 0 15002 10 15006   * dusty fountain
+O 0 15002 10 15007   * dusty fountain
+O 0 15002 10 15008   * dusty fountain
+O 0 15002 10 15009   * dusty fountain
+O 0 15002 10 15010   * dusty fountain
+O 0 15002 10 15011   * dusty fountain
+O 0 15002 10 15012   * dusty fountain
+O 0 15002 10 15013   * dusty fountain
+O 0 15002 10 15014   * dusty fountain
+O 0 15002 10 15015   * dusty fountain
+O 0 15002 10 15016   * dusty fountain
+O 0 15002 10 15017   * dusty fountain
+O 0 15002 10 15018   * dusty fountain
+O 0 15002 10 15019   * dusty fountain
+O 0 15002 10 15020   * dusty fountain
+
+O 0 15001 1 15001    * diry pie
+O 0 15001 1 15002    * diry pie
+O 0 15001 1 15003    * diry pie
+O 0 15001 1 15004    * diry pie
+O 0 15001 1 15005    * diry pie
+O 0 15001 1 15006    * diry pie
+O 0 15001 1 15007    * diry pie
+O 0 15001 1 15008    * diry pie
+O 0 15001 1 15009    * diry pie
+O 0 15001 1 15010    * diry pie
+O 0 15001 1 15011    * diry pie
+O 0 15001 1 15012    * diry pie
+O 0 15001 1 15013    * diry pie
+O 0 15001 1 15014    * diry pie
+O 0 15001 1 15015    * diry pie
+O 0 15001 1 15016    * diry pie
+O 0 15001 1 15017    * diry pie
+O 0 15001 1 15018    * diry pie
+O 0 15001 1 15019    * diry pie
+O 0 15001 1 15020    * diry pie
+
+S
+
+#SPECIALS
+M 15000 spec_breath_any   * head of the guardians
+M 15009 spec_breath_any   * kwal
+S
+
+#OLIMITS
+O 15003 2 *Rod of ambrossia
+O 15008 2 *Shield of ancients
+O 15010 10 *sanctuary potion
+O 15011 1 *divine protection
+
+S
+
+#OMPROGS
+O 15008 fight_prog fight_prog_ancient_shield
+O 15008 wear_prog wear_prog_ancient_shield
+O 15008 remove_prog remove_prog_ancient_shield
+O 15011 wear_prog wear_prog_neckguard
+O 15011 remove_prog remove_prog_neckguard
+S
+
+#$
+
+
+
+
+

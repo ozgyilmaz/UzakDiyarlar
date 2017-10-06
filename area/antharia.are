@@ -1,0 +1,2300 @@
+#AREA
+antharia.are~
+Antharia~
+{ 9 42} Amadeus Antharia~
+12300 12400
+
+
+#HELPS
+100 ANTHARIA_CREDITS~
+.
+    I give full permission of this area to be used under the condition that 
+nothing be removed or changed in this area, except bit flags.
+    This area was designed to be the intial starting point of a race of 
+underwater beings that had a complex history and culture.  You will find 
+that, if you go through the room descriptions carefully, there are many 
+places that you could add to this area.  For example, antharia.are tells 
+and hints of a great temple; therefore, you could write a temple area to 
+be connected to this area using the history below and the knowledge of 
+the area rooms, etc.   Other possible area ideas based on antharia.are 
+would be: a zoo including some interesting creatures that antharias had 
+kept from the time of their submersion to animals that they have 
+encountered under the water (which you will find a great connection point 
+for), a temple area (explained above), or Grand Antharia which you will 
+see MANY hints about in the area file itself.  In other words, I believe 
+this area could help many builders with new and creative ways to add to 
+their muds.
+     
+     I do ask that you inform me if you use this area, and if you write 
+any more areas that use the idea of Antharia.  
+------------------
+Current Email:  reece@tinuviel.cs.wcu.edu
+Current muds:  Barren Realms:  dogwood.liii.com 8000
+	       Evermore MUD :  204.215.32.27 4000
+Current BBSs:  ISCA:           bbs.isca.uiowa.edu  (name: Bugle Boy)
+
+
+Thanks,
+Amadeus
+~
+
+0 ANTHARIA~
+This is taken from the latest edition of the Barren Realms High
+School History textbook..
+
+	The kingdom of Antharia, one the new discoveries of the modern
+world, has a very intestesting history.  Being one of the oldest races
+of beings in existence, they have much knowledge that we do not, and
+much knowledge that they no longer posess.  We can see this more
+clearly by studing a bit of the history of the capital city, Antharia. 
+	About a thousand years ago, Antharia was a very productive and
+thriving kingdom, so old that many problems that face most kingdoms
+had been solved.  The Realm was ruled by what they called a
+constitutional monarchy.  They had a king, who worked as a figurehead
+and public leader.  However, the true working laws and policies were
+dictated by a two councils:  The High council of Wizards, and the Holy
+Order of Priests.  These two groups worked very well together, and
+made Antharia one of the best places to live. It was these councils
+who made the discovery that would change the lives of every Antharian.
+	It was discovered that there was going to be a major upheaval
+of the world's outer crust, which would make the whole country of
+Antharia, which was actually a big island, in essense, sink into the ocean. 
+Fearing for the lives of their citizens, the councils worked quickly
+to come up with a solution to the disaster.  
+	After many months of searching, it was decided that there was
+only solution:  the wizards would have to combine their power to
+create a "Gem of Salvation".  This gem would, in essense, keep the
+whole city of Antharia with air, even underwater -- a dome, if you
+will.  However, this also forced the government to make the decisions
+of who would be able to live and who would die...the city could only
+hold so many people.  
+	
+	The Antharians are very hesistant to talk about this time in
+their history.  Understandbly, it was very hard to make those
+decisions; therefore, much of the next few decades are lost to us.
+However, there was to be an even more dramatic change in the lives of
+the Antharians.
+
+	As the Antharians were getting used to living in an underwater
+city, the council of wizards made another discovery which almost cost
+us the culture of Antharia forever.  The gem was working, but getting
+weaker with every day.  Not anticipating this, the wizards again
+started looking for solutions to this problem.  With the help of the
+priests of Anthar the wizards came up with the solution that created
+the Antharian people that we know today.
+	They had decided that the only way of saving their people was
+to transform themselves into Creatures that could breathe water.
+However, this process took the powers of all the wizards of Antharia,
+and that meant that none of the wizards could be transformed.  Knowing
+that this was the only hope for their people, the wizards made this
+sacrifice.  The Day of Transformation is still celebrated as a holiday
+to this day -- and the wizards who gave up their lives are revered in
+loving memory.
+
+	We are lucky that these wizards took time to teach their
+students the way to take care of the Gem.  It was altered to simply
+provide stable gravity and protection from preditors and falling
+debris.  The gem is still functioning to this day.
+~
+
+0 $~
+
+
+#MOBILES
+#12300
+Antharian Peace Guard~
+an Antharian Peace Guard~
+An Antharian Peace guard is watching you here.
+~
+A tall Antharian is standing before you.  You have no doubt that this
+being can keep the peace...his presence is enough in itself.
+~
+human~
+AGT 0 800 0
+25 0 5d10+550 5d5+1000 2d10+7 pound     
+-7 -7 -7 4
+CDEKLTU 0 C 0
+stand stand male 1000
+0 0 medium 0
+#12302
+Suretin~
+Suretin~
+Suretin, a healer-priest of Anthar, is here.
+~
+You see an older Antharian, not too old, just old enough to command
+your respect.  He is here healing people in the name of Anthar, the
+god of the Antharians.
+~
+human~
+AQ 0 1000 0
+35 0 10d10+1300 5d5+1000 4d7+11 wrath
+-11 -11 -11 3
+EFK 0 0 0
+stand stand male 1000
+0 0 medium 0
+#12344
+Ertuvia~
+Ertuvia~
+Ertuvia is here, a master of the Antharian weapons of war.
+~
+You see a tall, strong Antharian, with a presence that even seems
+heavy compared to the other Antharians.  In this society, weaponsmiths
+are artists of war, and he looks like he could paint a very clear
+portrait of death.
+~
+human~
+ABT 0 800 0
+32 0 10d10+1000 5d5+1000 6d4+9 pound
+-10 -10 -10 3
+CDEFIK 0 0 0
+stand stand male 1000
+0 0 medium 0
+#12345
+Heaustf~
+Heaustf~
+Heaustf, the maker of fine Antharian armor, is here.
+~
+Here stands an Antharian who seems to know more than you could ever
+dream.  In Antharian society, the art of making fine armor has been
+passed from generation to generation.  The secret is well kept, and
+rightly so -- for their's is the best.
+~
+human~
+2|524288 0 500 0
+70 0 50d10+18500 5d5+5000 17d9+60 pound
+-60 -60 -60 -27
+CDEFIJK 0 0 0
+stand stand male 1000
+0 0 medium 0
+#12341
+Irghum~
+Irghum~
+Irghum is here fixing fine Antharian foods.
+~
+You see a smiling Antharian, whose sole purpose in life is to make and
+sell Antharian food.  He is highly respected, as producing good food
+in this underwater world is not easy.
+~
+human~
+2 0 500 0
+70 0 50d10+18500 5d5+5000 17d9+60 pound
+-60 -60 -60 -27
+CDEFIJK 0 0 0
+stand stand male 1000
+0 0 medium 0
+#12348
+Cyrtpea~
+Cyrtpea~
+Cyrtpea, sorceress of Antharia, is here staring into your soul.
+~
+Cyrtpea is one of the few Antharians that still have any knowledge of
+Antharian magic.  Most of their magic was lost in the Great
+Transformation, and Cyrtpea and her colleages work hard to recover as
+much of this lost magic as possible.
+~
+human~
+2|1048576 8192 400 0
+65 0 50d10+18500 5d5+5000 17d9+60 pound
+-60 -60 -60 -27
+CDEFIJK 0 0 0
+stand stand female 1000
+0 0 medium 0
+#12340
+Zaertses~
+Zaertses~
+Zaertses is here trying to sell you an old Antharian relic.
+~
+Zaertses spends most of his life trying to collect and restore old and
+powerful Antharian relics.  Of these, he will sell some, and keep the
+others for himself.  He also donates some relics to the Antharian
+councils, which are said to be displayed in a museum inside the
+Temple.
+~
+human~
+2 0 400 0
+70 0 50d10+18500 5d5+5000 17d9+60 pound
+-60 -60 -60 -27
+CEFIJK 0 0 0
+stand stand male 1000
+0 0 medium 0
+#12323
+High Guard~
+High Guard of Antharia~
+A High Guard of Antharia is here.
+~
+Having been promoted to High Guard, these guards are even more
+powerful and impressive than the Peace Guards.  These guards are here
+to make sure that law and order is maintained, and so it shall.
+~
+human~
+1|64 8 250 0
+32 0 10d10+1000 5d5+1000 6d4+9 pound
+-10 -10 -10 3
+CDEFIJK 0 0 0
+stand stand male 1000
+0 0 medium 0
+#12303
+Sucker fish~
+a sucker fish~
+A sucker fish is here keeping the streets clean.
+~
+These sucker fish have been trained and domesticated to roam the
+streets of Antharia and keep them clean.  They seem to like it and the
+Antharians seem to like it.  All in all, these fish are pretty
+content.
+~
+human~
+1|4|64 0 0 0
+10 0  2d7+121 5d5+100 2d4+2 charge         
+1 1 1 7
+0 0 0 0
+stand stand none 1000
+0 0 medium 0
+#12309
+Antharian citizen~
+an Antharian citizen~
+An Antharian citizen is standing here.
+~
+All Antharians share a standard trait: curiosity.  Instead of being
+frightened of you, a foreigner, the Antharian will study you --
+looking at every detail.  
+   This Antharian seems to be a simple citizen, going about on his
+daily schedule.
+~
+human~
+1|64 0 0 0
+15 0 3d9+208 5d5+100 2d6+3 punch     
+-2 -2 -2 6
+0 0 0 0
+stand stand male 1000
+0 0 medium 0
+#12310
+Antharian citizen~
+an Antharian citizen~
+An Antharian citizen is standing here.
+~
+All Antharians share a standard trait: curiosity.  Instead of
+being frightened of you, a foriegner, the Antharian will study you --
+looking at every detail.
+    This Antharian seems to be a simple citizen, going about with her
+daily schedule.
+~
+human~
+1|64 0 0 0
+16 0 3d9+208 5d5+100 2d6+3 punch     
+-2 -2 -2 6
+0 0 0 0
+stand stand female 1000
+0 0 medium 0
+#12314
+Antharian child~
+an Antharian child~
+An Antharian child is playing here.
+~
+Like children of any race, these Antharian children's sole interest
+right now in life is play.  PLAY PLAY PLAY!   They try to drag you
+into the fray to play with them.
+~
+human~
+1|64 0 0 0
+9 0 2d6+110 5d5+100 1d8+2 punch        
+2 2 2 7
+0 0 0 0
+stand stand male 1000
+0 0 medium 0
+#12315
+Antharian child~
+an Antharian child~
+An Antharian child is playing here.
+~
+Like children of any race, the sole interest in these children's
+mind right now is play.  PLAY PLAY PLAY!  They try to drag you into
+their games.
+~
+human~
+1 0 0 0
+9 0 2d6+110 5d5+100 1d8+2 punch        
+2 2 2 7
+0 0 0 0
+stand stand female 1000
+0 0 medium 0
+#12318
+Antharian Knight~
+an Antharian Knight~
+An Antharian knight is here.
+~
+These Antharians are impressive.  The only information that
+non-Antharians have of the knights are that they are very good, and
+very mysterious.   It is said that they are knighted in a very intense
+ceremony in the Temple of Anthar.
+~
+human~
+1 0 0 0
+42 0 25d10+2250 5d5+1000 3d12+14 slash
+-14 -14 -14 3
+CDEFIJK 0 0 0
+stand stand male 1000
+0 0 medium 0
+#12360
+Human Representative~
+a human representative~
+A human representative is standing here.
+~
+A young human is here looking at you.  She is the representative
+from the human race here in Antharia.
+~
+human~
+2|32768 0 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 pound
+-13 -13 -13 3
+CEFIJ 0 0 0
+stand stand female 1000
+0 0 medium 0
+#12365
+Dwarven Representative~
+a dwarven representative~
+A dwarven representative is standing here.
+~
+A young Dwarf is here looking at you.  He is the representative
+from the Dwarven race here in Antharia.
+~
+dwarf~
+2|65536 0 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 pound
+-13 -13 -13 3
+CEFIJK 0 0 0
+stand stand male 1000
+0 0 medium 0
+#12364
+Elven Representative~
+an elven representative~
+An elven representative is standing here.
+~
+A young elf is here looking at you.  She is the representative from
+the elven race here in Antharia.
+~
+elf~
+2|1024 0 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 pound
+-13 -13 -13 3
+CEFIJK 0 0 0
+stand stand female 1000
+0 0 medium 0
+#12361
+Druidic Representative~
+a druidic representative~
+A representative from the druids is standing here.
+~
+A young druid is here looking at you.   He is the representative
+from the druids here in Antharia.
+~
+human~
+2|8192 0 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 pound
+-13 -13 -13 3
+CEFIJK 0 0 0
+stand stand male 1000
+0 0 medium 0
+#12362
+Kender Representative~
+a kender representative~
+A kender representative is standing here.
+~
+A young Kender is standing here looking at you.  She is the
+representative from the Kender race here in Antharia.
+~
+human~
+2|16384 0 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 pound
+-13 -13 -13 3
+CEFIJK 0 0 0
+stand stand female 1000
+0 0 medium 0
+#12363
+Antharian Representative~
+an antharian representative~
+An atharian beaurocrat is standing here.
+~
+A young Antharian is standing here looking for you.  He is the
+representative from the Antharian government here to answer questions
+from visitors.
+~
+human~
+2 0 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 pound
+-13 -13 -13 3
+CEFIJKQ 0 0 0
+stand stand male 1000
+0 0 medium 0
+#12370
+illithid Representative~
+an illithid representative~
+An illithid representative is standing here.
+~
+A young Illithid is standing here looking at you.  She is the
+representative from the Illithid race here in Antharia.
+~
+human~
+2|16 0 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 pound
+-13 -13 -13 3
+CEFIJK 0 0 0
+stand stand female 1000
+0 0 medium 0
+#12371
+avian Representative~
+an avian representative~
+An avian representative is standing here.
+~
+A young avian is standing here looking at you.  She is the
+representative from the avian race here in Antharia.
+~
+human~
+2|16777216 0 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 pound
+-13 -13 -13 3
+CEFIJK 0 0 0
+stand stand female 1000
+0 0 medium 0
+
+#0
+
+
+#OBJOLD
+#12300
+mother pearl~
+mother of pearl~
+A Mother of Pearl is shining here.~
+~
+9 64 1|16384
+8 0 0 0 
+10 4000 0
+A
+5 3
+A
+17 -20
+#12301
+green gem~
+a green gem~
+A green gem is here.~
+~
+9 256 1|16384
+8 0 0 0 
+10 4000 0
+A
+2 1
+A
+1 1
+#12302
+sea shell armor~
+a sea turtle shell~
+A shell from a sea turtle works as a nice piece of armor.~
+~
+9 2 1|8
+8 0 0 0 
+10 4000 0
+A
+17 -20
+A
+18 1
+#12303
+giant clamshell~
+a giant clamshell~
+This is a giant clamshell used to store things.~
+~
+15 1 1|16384
+8 1 0 0 
+20 4000 0
+#12304
+Antharian Signet ring~
+an Antharian signet ring~
+This is an Antharian Signet ring, worn by all defenders of Antharia.~
+~
+9 1 1|2
+8 0 0 0 
+5 5000 0
+A
+17 -5
+#12305
+Antharian Signet ring~
+an Antharian signet ring~
+This is an Antharian Signet ring, worn by all defenders of Antharia.~
+~
+28 1|32768 1|2
+8 0 0 0 
+5 5000 0
+A
+17 -10
+#12306
+Antharian Signet ring~
+an Antharian signet ring~
+This is an Antharian Signet ring, worn by all defenders of Antharia.~
+~
+28 1|32768 1|2
+8 0 0 0 
+5 1000 0
+A
+17 -20
+A
+9 -10
+A
+12 10
+#12307
+Antharian plate mail~
+Antharian plate mail~
+This is a piece of fine Antharian plate mail.~
+~
+9 32|4096 1|8
+8 0 0 0 
+50 1000 0
+A
+2 1
+A
+14 40
+A
+18 1
+A
+19 1
+A
+6 -1
+#12308
+Antharian plate mail~
+Antharian plate mail~
+A fine piece of Antharian plate mail is here.~
+~
+9 32|4096 1|8
+8 0 0 0 
+50 1000 0
+A
+2 1
+A
+18 2
+A
+14 40
+A
+17 -10
+#12309
+Antharian plate mail~
+Antharian plate mail~
+A fine piece of Antharian plate mail is here.~
+~
+9 1024 1|8
+8 0 0 0 
+50 5000 0
+A
+2 1
+A
+19 2
+A
+6 -1
+#12310
+synthetic fin~
+a pair of synthetic fins~
+A pair of fins, of Antharian make, are here.~
+~
+9 256 1|32
+8 0 0 0 
+15 1000 0
+A
+14 150
+#12311
+synthetic fin~
+a pair of synthetic fins~
+A pair of fins, of Antharian make, are here.~
+~
+9 256 1|32
+8 0 0 0 
+15 1000 0
+A
+14 200
+#12312
+synthetic fin~
+a apir of synthetic fins~
+A pair of fins, of Antharian make, are here.~
+~
+9 256 1|32
+8 0 0 0 
+15 1000 0
+A
+14 250
+#12313
+Antharian helmet~
+an Antharian helmet~
+A helmet made of Antharian metals is here.~
+~
+9 1 1|16
+8 0 0 0 
+15 1000 0
+A
+12 20
+#12314
+Antharian helmet~
+an Antharian helmet~
+A helmet made of Antharian metals is here.~
+~
+9 1 1|16
+8 0 0 0 
+15 1000 0
+A
+12 30
+#12315
+Antharian helmet~
+an Antharian helmet~
+A helmet made of Antharian metals is here.~
+~
+9 1 1|16
+8 0 0 0 
+15 1000 0
+A
+12 40
+A
+24 -5
+#12316
+Trident~
+a sparkling trident~
+A sparkling trident, of Antharian make, is here.~
+~
+5 256 AN
+0 0 0 11 
+10 1000 0
+A
+13 40
+A
+19 3
+A
+18 3
+#12317
+trident~
+a sparkling trident~
+A sparkling trident, of Antharian make, is here.~
+~
+5 256 AN
+0 0 0 11 
+10 1000 0
+A
+13 40
+A
+19 3
+A
+18 3
+#12318
+trident~
+a sparkling trident~
+A sparkling trident, of Antharian make, is here.~
+~
+5 256 AN
+0 0 0 11 
+15 1000 0
+A
+13 60
+A
+19 4
+A
+18 2
+#12319
+Seafood platter~
+a seafood platter~
+A big plate of Seafood is here.~
+~
+19 0 1|8
+6 0 0 0 
+4 15 0
+#12320
+Caviar~
+a dish of caviar~
+A small dish of Caviar is here.~
+~
+19 0 1|8
+5 0 0 0 
+4 500 0
+#12321
+Special~
+today's special~
+This is the special of the day....NOT to be missed.~
+~
+19 0 1|8
+10 0 0 0 
+5 15 0
+#12322
+Sushi~
+some sushi~
+This is sushi.~
+~
+19 0 1|8
+3 0 0 0 
+5 15 0
+#12330
+Antharian robe~
+an Antharian robe~
+This is an Antharian robe, woven by hand.~
+~
+9 0 1|1024
+8 0 0 0 
+10 1000 0
+A
+2 1
+A
+1 -1
+A
+19 1
+#12331
+Antharian belt~
+an Antharian belt~
+An Antharian belt, just your size, is here.~
+~
+9 0 1|2048
+8 0 0 0 
+10 1000 0
+A
+24 -4
+A
+3 1
+#12332
+Antharian trousers~
+Antharian trousers~
+A pair of simple Antharian trousers are here.~
+~
+9 0 1|32
+8 0 0 0 
+5 1000 0
+A
+5 1
+A
+18 1
+A
+17 -5
+#12333
+Piece Metal~
+a round piece of metal~
+A round piece of some unknown metal is here.~
+~
+3 32 1|16384
+30 7 7 7 
+10 100000 0
+#12334
+Crystal potion~
+a crystal potion~
+A liquid substance in a crystal container is here.~
+~
+10 32768 1|32
+20 81 0 0 
+3 1000 0
+#12335
+crystal scroll~
+a crystal scroll~
+An amazing scroll of crystal is here.~
+~
+2 1 1|256
+13 24 0 0 
+3 1000 0
+#12336
+glowing seashell~
+a glowing seashell~
+A glowing seashell is here.~
+~
+2 1 1|16
+5 44 0 0 
+3 1000 0
+#12337
+antharian bracer~
+an Antharian style bracer~
+An Antharian style bracer is here.~
+~
+9 64 1|4096
+8 0 0 0 
+5 1000 0
+A
+18 1
+A
+4 1
+#12338
+antharian bracer~
+an Antharian style bracer~
+An Antharian style bracer is here.~
+~
+9 64 1|4096
+8 0 0 0 
+5 1000 0
+A
+18 2
+A
+4 1
+#12339
+antharian bracer~
+an Antharian style bracer~
+An Antharian style bracer is here.~
+~
+9 64 1|4096
+8 0 0 0 
+5 1000 0
+A
+18 3
+A
+4 2
+#12340
+net~
+a net~
+A glowing net is here.~
+~
+4 1 1|16384
+25 10 10 0 
+5 1000 0
+A
+22 5
+#0
+
+
+#ROOMS
+#12302
+Temple of Anthar~
+You are standing just south of the grand temple of Anthar.  This seems
+to be the center of life in the city of Antharia -- Antharians are
+passing by here on a regular basis.  Also, you can almost hear the
+humming power radiating from the Gem of Salvation mounted upon the
+Temple.  
+    From here you can walk around the temple to the east or west...or
+you can return to the Sea by going south.  There is also a Magical
+sign posted here, put up by the councils of Antharia after the initial
+contact with Anon.
+~
+0 0 11
+D1
+One of the main roads of Antharia.
+~
+~
+0 -1 12303
+D2
+The entrance road of Antharia.
+~
+~
+0 -1 12301
+D3
+One of the main roads of Antharia.
+~
+~
+0 -1 12309
+E
+Sign~
+**ATTENTION NON-ANTHARIANS**
+
+    At this point in time, it is illegal for any non-Antharian to
+enter the Temple of Antharia.  As we speak, democratic relations with
+the other races are making progress to allow this policy to be
+removed.  Please bear with us and do not attempt to enter the most
+holy temple.
+
+				     The Joint Councils of Antharia
+~
+S
+#12300
+Entrance Street~
+As you enter from the sea, you suddenly are aware of a type of
+stability and balance that is not typical of being underwater.
+Standing and walking is now almost like being in the open air, thanks
+to the power of the Gem of Salvation.
+    Looking ahead you can see the Temple of Anthar just a bit further
+to the north.  The city looks huge from here, even though you know
+that a great portion of the northern section of the city is now in
+ruins, with the waning power of the Gem.  Antharians are walking
+everywhere, a serious people.  They do not seem to be totally
+heartless, just aware of what they have to do to survive.  "Work
+before play" is the motto that Antharians live by.
+    Looking directly up..you can see a clear shot right to the
+surface..you're amazed at how easy it is to notice the sun at this
+depth.  More Antharian magic, you think.
+~
+0 0 11
+D0
+The entrance street continues.
+~
+~
+0 -1 12301
+D4
+You can look up and barely make out the sun far, far above you.
+~
+~
+0 -1 5358
+S
+#12301
+Entrance Street~
+As you get closer to the Temple of Anthar, the power of the gem
+becomes more and more resonate.  The Temple of Anthar is just a bit
+further to the north, and from here you can see the big Gem of
+Salvation mounted on top of it.  The Gem looks, from here, to be a
+huge red stone mounted in a golden tripod.  There is a faint, but
+visible ray of light that emits from the gem, blanketing the city in a
+protective aura.  The sheer power that emits from the gem is awesome
+in iteslf, the wizards of ancient Antharia must have been akin to
+gods.
+    The street continues north from here to the Temple, or south back
+to the Sea.
+~
+0 0 11
+D0
+The Temple of Anthar
+~
+~
+0 -1 12302
+D2
+Entrance street to Antharia.
+~
+~
+0 -1 12300
+S
+#12303
+Main Road of Antharia~
+You are walking around the grand Temple of Anthar towards the
+east.  The road here is very well kept, and protected day and night by
+the guards of Antharia.  Antharians flash you a quick smile as they
+pass, busy in their work.  Looking around there are many private
+residents visible, their houses hugging the road just like any other
+city of this size.  Although old, they are well kept and in good
+condition.
+~
+0 0 11
+D0
+Temple Circle.
+~
+~
+0 -1 12304
+D1
+Main road of Antharia.
+~
+~
+0 -1 12337
+D3
+Temple of Anthar.
+~
+~
+0 -1 12302
+S
+#12337
+Main Road of Antharia~
+The paved road of Antharia continues to the west.  There are
+houses of every shape form and fashion lining the sides of the street.
+Every so often you can hear the cry of an infant Antharian coming from
+these houses.  Although they are different from the other races, they
+still have a lot in common with them.  Moreover, the Antharian seem
+content with their lives underwater, showing no signs of resentment
+that their once great empire was completely forgotton on the surface.
+    The road continues from here to the west and to the east.
+~
+0 0 11
+D1
+Main road of Antharia
+~
+~
+0 -1 12336
+D3
+Main road of Antharia
+~
+~
+0 -1 12303
+S
+#12336
+Turn in the Main Road~
+Here the main road makes a sharp turn to the north, following the
+high walls surrounding the city.  The road also continues back to the
+west towards the Temple of Anthar.
+    After standing here a moment you decide that it IS food that you
+are smelling.  Your mouth waters as you smell an aroma of fine
+Antharian food coming from the north.
+~
+0 0 11
+D0
+MAin road of Antharia.
+~
+~
+0 -1 12335
+D3
+Main road of Antharia.
+~
+~
+0 -1 12337
+S
+#12335
+Main Road at Eatery~
+Standing here, you can smell the fantastic foods that is being
+prepared and sold inside the shop to the east.  Sometimes it's hard to
+find a smiling Antharian; however, every one that comes out of this
+shop has a very big smile on..and usually something in their hand that
+looks VERY good.
+   The main road continues to the north and south, if you ever want to
+leave.
+~
+0 0 11
+D0
+Main road of Antharia.
+~
+~
+0 -1 12334
+D1
+Irghum's Antharian Eatery.
+~
+~
+1 -1 12341
+D2
+Main road of Antharia.
+~
+~
+0 -1 12336
+S
+#12341
+Irghum's Antharian Eatery~
+Heaven.  Every type of Antharian food can be found here, from
+simple breads to complex meals.  Irghum is standing behind the counter
+fixing something as you stand there.  Working as a master craftsman,
+he produces a product that would make any chef red with envy.  Looking
+around, it is obvious that Irghum is not hurting for business.  It is
+said that every Antharian visits Irghum at least once a month, and on
+special occasions.  Antharians love their food and love Irghum.
+~
+0 8 11
+D3
+Main street of Antharia.
+~
+~
+1 -1 12335
+S
+#12334
+Main Street of Antharia~
+Leaving the wonderful smell of the eatery, the road continues
+north.  Just ahead you can see a big intersection.
+~
+0 0 11
+D0
+Main street of Antharia.
+~
+~
+0 -1 12333
+D2
+Main street of Antharia.
+~
+~
+0 -1 12335
+S
+#12333
+East Intersection -- Main and Center~
+This is the east intersection of the city of Antharia.  The road
+continues to the north and south, and Center Street goes to the west.
+    There is a road sign posted here.
+~
+0 0 11
+D0
+Main street of Antharia.
+~
+~
+0 -1 12332
+D2
+Main street of Antharia.
+~
+~
+0 -1 12334
+D3
+Center street.
+~
+~
+0 -1 12319
+E
+sign~
+Cyrtpea the Sorceress........North
+Heaustf the Armorer..........East
+Ertuvia the Weaponsmith .....East
+Irghum's Eatery .............South      
+
+~
+S
+#12332
+Main Road of Antharia~
+Walking along this road is never boring.  Even though it is very
+symetrical in form, the houses and people that you pass never leave
+you with nothing to study.  Just the fact that this city could have
+survived at all under these conditions is amazing in itself, but for
+their artwork and architecture to survive is a miracle.
+    Antharians are very good at making simple houses look like
+mansions.  After the house is built (all of which are quite old), the
+Antharian family spends the rest of their life adding carvings and
+paintings to their individual houses.  As generations pass, this
+artwork gets more and more impressive.  Antharians are very proud of
+their heritage.
+~
+0 0 11
+D0
+Main street of Antharia.
+~
+~
+0 -1 12326
+D2
+East intersection of Antharia.
+~
+~
+0 -1 12333
+S
+#12326
+Small Intersection~
+Here the main bends to the west, with a less traveled road going to
+the east.  There is a small sign here.
+~
+0 0 11
+D1
+a new road.
+~
+~
+0 -1 12327
+D2
+Main street of Antharia.
+~
+~
+0 -1 12332
+D3
+Main road of Antharia.
+~
+~
+0 -1 12324
+E
+sign~
+**The Great Antharian Zoo  ----------------------------->>>
+
+~
+S
+#12324
+Main Road of Antharia~
+Walking along the northern edge of the current Antharia, you can
+look north and see the ruins of what was the rest of the grand
+Antharia.  Antharians now call what Antharia was in the past, "grand
+Antharia", and they tell the story of grand Antharia not unlike gospel.
+The Antharians are very proud of their heritage and grand Antharia is
+a major part of that heritage.  Right now, there is a kind of magic
+wall between this section of the city, and the older ruined section.
+Representatives from the other races and the city of Anon are
+working to gain permission to explore this section of Antharia.
+    At this point in time, only Zaertses is allowed to explore these
+ruins.  He is known to tell stories sometimes; however, he is usually
+very quiet about the things that he has seen.  What wanders await us
+in the ruins of grand Antharia?
+    To the south you see the shop of the Sorceress Cyrtpea.  The
+building seems to radiate with power.
+~
+0 0 11
+D1
+Small intersection.
+~
+~
+0 -1 12326
+D2
+Shop of Cyrtpea.
+~
+~
+0 -1 12348
+D3
+Main road of Antharia.
+~
+~
+0 -1 12323
+S
+#12323
+Main Road of Antharia~
+Standing here are two Antharians guarding the portal into the ruins of
+grand Antharia.   Not that anyone could enter without the key -- the
+portal is magically locked by a very powerful wizard.  Right now, only
+Zaertses owns a copy of this key, and it's secret is guarded with
+incredible zeal.  One day it is hoped that anyone can apply for
+admission into the ruins, but not now.
+~
+0 0 11
+D1
+Main road of Antharia.
+~
+~
+0 -1 12324
+D3
+Main road of Antharia.
+~
+~
+0 -1 12322
+S
+#12348
+Workplace of Cyrtpea the Sorceress~
+It is said that Cyrtpea actually has knowledge of some of the
+magics of ancient Antharia, although she denies this to the fullest
+degree.  However, she does keep her workplace as close to the ruins
+of grand Antharia as possible, and is known to to make special visits
+to Zaertses.  Common Antharians are convinced that Cyrtpea will make
+the discovery that will bring Antharia back to the splendor that it
+once knew.  
+    The building itself seems to radiate with magical power, even
+touching you -- a non Antharian.  Cyrtpea sits at her desk, looking at
+books that you are sure hold the secrets of the world.
+~
+0 0 11
+D0
+Main road of Antharia
+~
+~
+0 -1 12324
+S
+#12322
+Main Road of Antharia~
+Walking along the northern edge of the current Antharia, you can
+look north and see the ruins of what was the rest of the grand
+Antharia.  Antharians now call what Antharia was in the past, "grand
+Antharia", and they tell the story of grand Antharia not unlike
+gospel.  The Antharians are very proud of their heritage and grand
+Antharia is a major part of that heritage.  Right now, there is a kind
+of magic wall between this section of the city, and the older ruined
+section.  Representatives from the other races and the city of
+Anon are working to gain permission to explore this section of
+Antharia.  
+    At this point in time, on Zaertses is allowed to explore these
+ruins.  He is known to tell stories sometimes; however, he is usually
+very quiet about the things that he has seen.  What wanders await us
+in the ruins of grand Antharia?
+~
+0 0 11
+D1
+The main street of Antharia.
+~
+~
+0 -1 12323
+D3
+Bend in the main road.
+~
+~
+0 -1 12321
+D4
+~
+~
+2 12315 12366
+S
+#12366
+Forgotten Room~
+This room is full of cobwebs and dust..as no one has been here in
+such a long time.   You have obviously stumbled upon a part of
+Antharian history, as the room still looks like it did 2000 yrs ago.
+~
+0 4|1024 1
+S
+#12321
+Main Road of Antharia~
+Here the road makes a sharp turn to the east and south.  This
+seems to be a less traveled section of the city.
+~
+0 0 11
+D1
+Main road of Antharia.
+~
+~
+0 -1 12322
+D2
+Main road of Antharia.
+~
+~
+0 -1 12320
+S
+#12320
+Main Road of Antharia~
+Walking along this road is never boring.  Even though it is very
+symetrical in form, the houses and people that you pass never leave
+you with nothing to study.  Just the fact that this city could have
+survived at all under these conditions is amazing in itself, but for
+their artwork and architecture to survive is a miracle.
+     Antharians are very good at making simple houses look like
+mansions.  After the house is built (all of which are quite old now),
+the Antharian family spends the rest of their life adding carvings and
+paintings to their individual houses.  As generations pass, this
+artwork gets more and more impressive.  Antharians are very proud of
+their heritage.
+~
+0 0 11
+D0
+Main street of Antharia.
+~
+~
+0 -1 12321
+D2
+East intersection.
+~
+~
+0 -1 12315
+S
+#12315
+East Intersection -- Main and Center~
+This is the busy east intersection of Antharia.  From here one and
+go north, south, east or west.  This seems to be a very busy section
+of town.
+     There is a small street sign posted here.
+~
+0 0 11
+D0
+Main street of Antharia.
+~
+~
+0 -1 12320
+D1
+Center street.
+~
+~
+0 -1 12316
+D2
+Main street of Antharia.
+~
+~
+0 -1 12314
+D3
+Street of Guilds.
+~
+~
+0 -1 12350
+E
+sign~
+Ertuvia the weaponsmith........East
+Heaustf the Armorer............East
+Cyrtpea the Sorceress..........North
+Zaertses house of relics.......South
+
+Guilds of races................West
+
+~
+S
+#12314
+Main Street of Antharia~
+In this particular section of street there are children playing
+games.  Running and playing, they make you remember your childhood.
+Just like all children, these children have that internal need to
+play IN the street -- instead of in the park or other, more sensible
+places.  
+     Instead of running in fright, these children seem to be intrigued
+by your presence.  Looking at you in curiosity, they almost look as
+though they might talk to you.
+~
+0 0 11
+D0
+East intersection
+~
+~
+0 -1 12315
+D2
+Main street of Antharia
+~
+~
+0 -1 12312
+S
+#12312
+Main Street of Antharia~
+The main street of Antharia continues north and south.
+~
+0 0 11
+D0
+Main street of Antharia.
+~
+~
+0 -1 12314
+D2
+Main Street of Antharia.
+~
+~
+0 -1 12311
+S
+#12311
+Main Street of Antharia~
+Here the street makes a sharp turn to the north and east.
+~
+0 0 11
+D0
+Main street of Antharia
+~
+~
+0 -1 12312
+D1
+Main street of Antharia
+~
+~
+0 -1 12310
+S
+#12310
+Main Street Before Zaertses'~
+Here the main street of Antharia goes past the shop of Zaertses.
+Just south of here is a building, simple and rustic -- with a sign
+hanging on it stating: Zaertses House of Relics.
+      The street continues east and west.
+~
+0 0 11
+D1
+Main street of Antharia.
+~
+~
+0 -1 12309
+D2
+Zaertses' House of Relics.
+~
+~
+0 -1 12340
+D3
+Main street of Antharia.
+~
+~
+0 -1 12311
+S
+#12340
+Zaertses' House of Relics~
+This one room shop is absolutely amazing.  There are cases and
+shelves filled with trinkets and other unusual objects.  Zaertses
+himself is studying a new piece of artwork that he found in the ruins
+of Grand Antharia.  Zaertses is the only person allowed, at this point
+in time, to visit those ruins north of current Antharia.  Some of the
+things he displays here in his shop, very few (of which there are
+many) he sells, and the most valuble objects are displayed in a museum
+Antharians are convinced is located in the heart of the Temple of
+Anthar.
+~
+0 0 11
+D0
+Main street of Antharia.
+~
+~
+0 -1 12310
+S
+#12309
+Main Street of Antharia~
+You are walking around the grand Temple of Anthar towards the
+east.  The road here is very well kept, and protected day and night by
+the guards of Antharia.  Antharians flash you a quick smile as they
+pass, busy in their work.  Looking around, there are many private
+residents visible, their houses hugging the road just like any other
+city of this size.  Although old, they are well kept and in good
+condition.
+~
+0 0 11
+D0
+Temple Circle.
+~
+~
+0 -1 12308
+D1
+Before the Temple of Anthar.
+~
+~
+0 -1 12302
+D3
+Main street of Antharia.
+~
+~
+0 -1 12310
+S
+#12304
+Temple Circle~
+This road circles around the Grand Temple of Anthar.  Just
+standing here, you feel the magnitude of just how much was put into
+its building.  You can only imagine at the amount of labor force it
+took to build something of this magnitude.  Now, with the Gem of
+Salvation mounted on the top of the temple, it is even more
+impressive.  The temple seems to be a focus of tremendous power, you
+feel that if you could just get inside, you could aquire some of that
+power.  
+    The road continues to the north and south.
+~
+0 0 11
+D0
+Temple Circle.
+~
+~
+0 -1 12305
+D2
+Main street of Antharia.
+~
+~
+0 -1 12303
+S
+#12305
+Temple Circle~
+Taking a closer look at the temple from this angle, you can tell
+that it is made of many different levels. It seems to be built almost as
+a pyramid:  large at the base, and getting smaller as it goes up.  The
+connections between the levels seems to be implicable, almost perfect
+in their accuracy.  You wonder, did the wizards help in this
+accomplishment, or were the Antharian masons of that time incredibly
+good?  Maybe the secret lies within the temple....
+~
+0 0 11
+D2
+Temple Circle.
+~
+~
+0 -1 12304
+D3
+Temple Circle.
+~
+~
+0 -1 12306
+S
+#12306
+Temple Circle at Kaer's Bridge~
+You are standing just north of the Temple of Anthar, and just
+south of Kaer's Bridge.  According to Antharian history, Kaer was a
+king just prior to the catastrophy that forced Antharia underwater.
+Wanting to be remembered for all time, he had this bridge built in his
+name.  It is a bridge made of the same material as the Temple --
+something that we have no knowledge of today.  However, you can feel
+the material, and it feels smooth and glossy..almost like ivory.  You
+assume that this bridge once spanned a river or something of that
+nature; however, now this bridge spannes a channel filled with the
+same water that you are now breathing.
+~
+0 0 11
+D0
+Kaer's Bridge.
+~
+~
+0 -1 12318
+D1
+Temple Circle.
+~
+~
+0 -1 12305
+D3
+Temple Circle.
+~
+~
+0 -1 12307
+S
+#12318
+Kaer's Bridge~
+As with most bridges built in the past, the bridge rises in the
+center and comes down on both ends.  From here it is a little easier
+to see parts of the city.  Two things stand out more than the rest
+though: the Temple of Anthar to the south, and a larger, more
+spectacular building to the far north.  You assume that this northern
+building is part of the ruins of grand Antharia.
+    This bridge is used heavily, as it connects the Temple Circle to
+Center street.
+~
+0 0 11
+D0
+Center street.
+~
+~
+0 -1 12317
+D2
+Temple Circle.
+~
+~
+0 -1 12306
+S
+#12317
+Center Street~
+You are standing here in the exact center of modern Antharia.
+There is a heavy amount of traffic, as people go to and from the
+Temple of Anthar via the bridge, and also this street is a shortcut
+across town.
+     Just north of here is a dignified building of Ertuvia the
+Weaponsmith.  Instead of the clanging of metal that is usually
+associated with weaponsmiths, there is only the sound of talking
+coming from the building.
+    There is a small street sign here.
+~
+0 0 11
+D0
+Ertuvia's shop.
+~
+~
+0 -1 12344
+D1
+Center street.
+~
+~
+0 -1 12319
+D2
+Kaer's Bridge.
+~
+~
+0 -1 12318
+D3
+Center street.
+~
+~
+0 -1 12316
+E
+sign~
+Ertuvia the weaponsmith........north
+Hearstf the armorer............east
+
+Kaer's bridge..................south
+
+Temple of Anthar...............south
+
+Street of Guilds...............west
+
+~
+S
+#12319
+Center Street~
+This street seems to split modern Antharia right in the middle,
+making the connection from the eastern part of the city, to the
+western.  Antharians are passing by continually, on their way to see
+Ertuvia or maybe visit the Temple of Anthar.  Walking on Center street
+leaves you know doubt that this is really a bustling city.
+   Just north of here is the shop of Heaustf the Armorer.  As with the
+case with Ertuvia, there is no sound of metal upon metal coming from
+the building..just the sound of Antharian voices.
+~
+0 0 11
+D0
+Heaustf's armory.
+~
+~
+0 -1 12345
+D1
+Main street of Antharia.
+~
+~
+0 -1 12333
+D3
+Center street.
+~
+~
+0 -1 12317
+S
+#12316
+Center Street~
+This street seems to split modern Antharia right through the
+middle, connecting the eastern part of the city to the western.  
+Antharians are passing by continually, possibly on their way to see
+Heaustf, or maybe to visit the Temple of Anthar.  Walking on Center
+street leaves you no doubt that this is really a major city.
+~
+0 0 11
+D1
+Center street.
+~
+~
+0 -1 12317
+D3
+Main street of Antharia.
+~
+~
+0 -1 12315
+S
+#12308
+Temple Circle~
+This road circles around the grand Temple of Anthar.  Just
+standing here, you feel the magnitude of just how much was put into
+its building.  You can only imagine at the amount of labor it took to
+build something of this magnitude.  Now, with the Gem of Salvation
+mounted on the top of the temple, it is even more impressive.  The
+temple seems to be a focus of tremendous power, you fell that if you
+could just get inside, you could aquire some of that power.
+~
+0 0 11
+D0
+Temple circle.
+~
+~
+0 -1 12307
+D2
+Main street of Antharia.
+~
+~
+0 -1 12309
+S
+#12307
+Temple Circle~
+Taking a closer look at the the temple from this angle, you can
+tell that it is made of many different levels.  Seems to be built
+almost as a pyramid:  large at the base, and getting smaller as it
+goes up.  The connections between the levels seems to be implicable,
+almost perfect in its accuracy.  You wonder, did the wizards help in
+this accomplishment, or were the Antharian masons of that time
+incredibly good?  Maybe the secret lies within the temple...
+~
+0 0 11
+D1
+Temple circle.
+~
+~
+0 -1 12306
+D2
+Temple circle.
+~
+~
+0 -1 12308
+S
+#12327
+A New Road~
+This road seems to be recently built, leading from the Main street
+to some location to the east.
+~
+0 0 11
+D1
+Zoo gate.
+~
+~
+0 -1 12328
+D3
+Main street of Antharia.
+~
+~
+0 -1 12326
+S
+#12328
+Zoo Gate~
+You are standing at the gate of the zoo of Antharia.  Looking
+through the gate, you get a glimpse of known and unknown animals
+contained therein.  According to the Antharians, the zoo was built
+before the catastophy -- as hard as that might be to believe.  It is
+said that the Council of Clerics at that time insisted that the zoo be
+one of the protected areas.  They wished to preserve the endangered and
+unusual animals that they had aquired through the generations.  Now,
+this is the most extensive and important zoo in the world, as it
+contains animals that is found nowhere else.
+    As with many of aspects of the Antharian culture, this zoo is not
+currently opened to non-Antharians.  Hopefully, the other races can
+convince the Antharians to allow other races to explore and
+investigate the zoo.
+~
+0 0 11
+D3
+a new road.
+~
+~
+0 -1 12327
+S
+#12345
+Heaustf's Armory~
+You are standing in a shop that looks more like a museum than an
+armory.  In Antharian society, the art of making Armor is very highly
+respected.  Heaustf is one of the most important people in Antharian
+society, being the maker of this armor.  His shop does not look like
+an regular armory would -- dirty, smelly, or dark.  Rather, it is
+clean, with Heaustf running the shop like a king running his kingdom.
+~
+0 0 11
+D2
+Center street.
+~
+~
+0 -1 12319
+S
+#12344
+Ertuvia's Weapon Shop~
+You are standing in the shop of the distingushed Antharian,
+Ertuvia.  Ertuvia is considered, by the Antharians, to be a
+artist -- and he commands respect from them.  There are weapons lining
+the walls, of every shape and form.  There are also certain weapons
+that are obviously of Antharian origin.  You wonder what exactly those
+weapons are, and what kind of price Ertuvia will charge you for them.
+~
+0 0 11
+D2
+Center street.
+~
+~
+0 -1 12317
+S
+#12350
+Guild Street~
+You are walking along Guild street, where all the different races in
+the world are represented.  This street is fairly new, built after the
+meeting between Antharia and the rest of the overwater world.
+   The street continues to the west, and goes back to the West
+intersection directly to the east.
+~
+0 0 11
+D1
+West intersection.
+~
+~
+0 -1 12315
+D3
+Guild street.
+~
+~
+0 -1 12351
+S
+#12351
+Guild Street~
+You are walking along Guild street, where all the races of the
+world have representatives to help you along while you're here.  They
+can answer any questions and help you with diplomatic problems.  
+   Just to the north is the Human guild.  The street continues to the
+east and west. The Illithid guild lies to the south.
+~
+0 0 11
+D0
+Human guild.
+~
+~
+0 -1 12360
+D1
+Guild street.
+~
+~
+0 -1 12350
+D2
+Illithid Guild.
+~
+~
+0 -1 12370
+D3
+Guild street.
+~
+~
+0 -1 12352
+S
+#12352
+Guild Street~
+You are walking along Guild street, where all the races of the
+world have representatives to help you along while you're here.  They
+can answer any questions and help you with diplomatic problems.
+    The Dwarven guild is just south.  Guild street goes east and west.
+The Avian guild is due north of here.
+~
+0 0 11
+D0
+Avian Guild.
+~
+~
+0 -1 12371
+D1
+Guild street.
+~
+~
+0 -1 12351
+D2
+Dwarven guild.
+~
+~
+0 -1 12365
+D3
+Guild street.
+~
+~
+0 -1 12353
+S
+#12353
+Guild Street~
+You are walking along Guild street, where all the races have
+representatives to help you while you're here.  They can answer and
+questions, and help you with any diplomatic problems.
+    The Druid guild is to the north, while the Elven guild is to the
+south.  Guild street runs east and west.
+~
+0 0 11
+D0
+Druid guild.
+~
+~
+0 -1 12361
+D1
+Guild street.
+~
+~
+0 -1 12352
+D2
+Elven guild.
+~
+~
+0 -1 12364
+D3
+Guild street.
+~
+~
+0 -1 12354
+S
+#12354
+Guild Street~
+You are at the end of Guild street, where all the races of the
+world have representatives to help you while you're here.  They can
+answer any questions, and help you with any diplomatic problems.
+   The Kender guild is to the north, while the Antharian guild is to
+the south.  Guild street runs towards the east.
+~
+0 0 11
+D0
+Kender guild.
+~
+~
+0 -1 12362
+D1
+Guild street.
+~
+~
+0 -1 12353
+D2
+Antharian guild.
+~
+~
+0 -1 12363
+S
+#12360
+Human Guild~
+You are standing in the small, bare building of the human guild.
+The representative from the human race is standing here willing to
+help any of her fellow humans here in Antharia.
+   The exit door to the south leads back to guild street.
+~
+0 0 11
+D2
+Guild street.
+~
+~
+0 -1 12351
+S
+#12365
+Dwarven Guild~
+You are standing in the small, bare building of the Dwarven guild.
+The representative from the Dwarves is standing here willing to help
+any of his fellow Dwarves here in Antharia.
+   The exit directly to the north leads to Guild street.
+~
+0 0 1
+D0
+Guild street.
+~
+~
+0 -1 12352
+S
+#12361
+Druid's Guild~
+You are standing in the small, bare building of the Druidic guild.
+The representative from the Druids is standing here willing to help
+any of his fellow druids here in Antharia.
+   The exit directly to the south leads to Guild street.
+~
+0 0 11
+D2
+Guild street.
+~
+~
+0 -1 12353
+S
+#12364
+Elven Guild~
+You are standing in the small, bare building that houses the Elven
+guild.  The representative from the Elves is standing here willing to
+help any of her fellow elves here in Antharia.
+    The exit directly to the north leads back to Guild street.
+~
+0 0 11
+D0
+Guild street.
+~
+~
+0 -1 12353
+S
+#12362
+Kender Guild~
+You are standing in the small, bare building that houses the
+Kender guild.  The representative from the Kender is standing here
+willing to help any of her fellow Kender in Antharia.
+    The exit directly to the south leads to Guild street.
+~
+0 0 1
+D2
+Guild street.
+~
+~
+0 -1 12354
+S
+#12363
+Antharian Guild~
+You are standing in the building that houses the Antharian guild.
+This building is a little less bare than the other guilds, being
+financed directly by the Antharian government.  The Antharian
+representative is here helping his fellow Antharians in dealing with
+the other races, and with dealing with YOU.  This Antharian is
+important in the diplomatic relationship between Antharia and the
+other races of the world.
+   The exit directly to the north leads back to guild street.
+~
+0 0 11
+D0
+Guild street.
+~
+~
+0 -1 12354
+S
+#12370
+Illithid Guild~
+You are standing in the small, bare building that houses the
+Illithid guild.  The representative from the Illithid is standing here
+willing to help any of her fellow Illithids in Antharia.
+    The exit directly to the north leads to Guild street.
+~
+0 0 1
+D0
+Guild street.
+~
+~
+0 -1 12351
+S
+#12371
+Avian Guild~
+You are standing in the small, bare building that houses the
+Avian guild.  The representative from the Avian is standing here
+willing to help any of her fellow Avian in Antharia.
+    The exit directly to the south leads to Guild street.
+~
+0 0 1
+D2
+Guild street.
+~
+~
+0 -1 12352
+S
+#0
+
+
+#RESETS
+*
+M 1 12302 1 12302 1 *                load Suretin
+*
+M 1 12341 1 12341 1 *                        load Irghum
+G 1 12319 1        *                              give seafood
+G 1 12320 1        *                              give caviar
+G 1 12321 1        *                              give today's special
+G 1 12322 1        *                              give sushi
+*
+M 1 12348 1 12348  1 *                       load Cyrtpea
+G 1 12334 1         *                             give crystal potion
+G 1 12336 1         *                             give seashell
+G 1 12300 1         *                             give mother of pearl
+*
+M 1 12340 1 12340 1 *                        load Zaertses
+G 1 12303 1        *                              give clamshell
+G 1 12335 1        *                              give crystal scroll
+*
+M 1 12345 1 12345 1 *                        load Heaustf
+G 1 12302 1        *                              give seashell armor
+*
+M 1 12344 1 12344 1 *                        load Ertuvia
+*
+M 1 12360 1 12360  1 *                       load Hum. rep.
+*
+M 1 12365 1 12365  1 *                       load Dwf. rep.
+*
+M 1 12364 1 12364  1 *                       load Elf rep.
+*
+M 1 12361 1 12361  1 *                       load Dru. rep.
+*
+M 1 12362 1 12362    1 *                     load Ken. rep.
+*
+M 1 12363 1 12363 1 *                        load Antr. rep.
+*
+M 1 12370 1 12370 1 *                        load ill. rep.
+*
+M 1 12371 1 12371 1 *                        load avi. rep.
+*
+M 1 12300 4 12336  1 *               load Peace guard
+E 1 12304 1 1       *                             equip ring
+E 1 12337 1 14      *                             equip bracer
+E 1 12310 1 7       *                             equip fins
+E 1 12313 1 6       *                             equip helmet
+E 1 12316 1 16      *                             equip trident
+E 1 12340 1 17      *                             equip net
+M 1 12300 4 12321 1   *             load peace guard
+E 1 12304 1 1       *                             equip ring
+E 1 12337 1 14      *                             equip bracer
+E 1 12310 1 7       *                             equip fins
+E 1 12313 1 6       *                             equip helmet
+E 1 12316 1 16      *                             equip trident
+E 1 12340 1 17      *                             equip net
+M 1 12300 20 12302 1   *                     load peace guard
+E 1 12304 1 1       *                             equip ring
+E 1 12337 1 14      *                             equip bracer
+E 1 12310 1 7       ***                             equip fins
+E 1 12313 1 6       *                             equip helmet
+E 1 12316 1 16      *                             equip trident
+E 1 12340 1 17      *                             equip net
+M 1 12300 4 12312 1    *             load peace guard
+E 1 12304 1 1       *                             equip ring
+E 1 12337 1 14      **                             equip bracer
+E 1 12310 1 7       *                             equip fins
+E 1 12313 1 6       *                             equip helmet
+E 1 12316 1 16      *                             equip trident
+E 1 12340 1 17      *                             equip net
+M 1 12300 4 12352 1    *             load peace guard
+E 1 12304 1 1       *                             equip ring
+E 1 12337 1 14      *                             equip bracer
+E 1 12310 1 7       *                             equip fins
+E 1 12313 1 6       *                             equip helmet
+E 1 12316 1 16      *                             equip trident
+E 1 12340 1 17      *                             equip net
+M 1 12300 4 12304 1    *             load peace guard
+E 1 12304 1 1       *                             equip ring
+E 1 12307 1 14      **                             equip bracer
+E 1 12310 1 7       *                             equip fins
+E 1 12313 1 6       *                             equip helmet
+E 1 12316 1 16      *                             equip trident
+E 1 12340 1 17      *                             equip net
+M 1 12300 4 12307 1     *             load peace guard
+E 1 12304 1 1       ****                             equip ring
+E 1 12337 1 14       *                            equip bracer
+E 1 12310 1 7        *                            equip fins
+E 1 12313 1 6        *                            equip helmet
+E 1 12316 1 16       *                            equip trident
+E 1 12340 1 17       *                            equip net
+M 1 12300 4 12319 1     *            load peace guard
+E 1 12304 1 1        ***                            equip ring
+E 1 12337 1 14       *                            equip bracer
+E 1 12310 1 7        *                            equip fins
+E 1 12313 1 6        *                            equip helmet
+E 1 12316 1 16       *                            equip sword
+M 1 12300 4 12326  1    **            load peace guard
+E 1 12304 1 1        *                            equip ring
+E 1 12337 1 14       **                            equip bracer
+E 1 12310 1 7         *                           equip fins
+E 1 12313 1 6         *                           equip helmet
+E 1 12316 1 16        *                           equip trident
+E 1 12340 1 17        *                           equip sword
+M 1 12300 4 12334  1     *           load peace guard
+E 1 12304 1 1         *                           equip ring
+E 1 12337 1 14        *                           equip bracer
+E 1 12310 1 7         *                           equip fins
+E 1 12313 1 6         *                           equip helmet
+E 1 12316 1 16         *                          equip trident
+E 1 12340 1 17          *                         equip net
+*
+M 1 12323 4 12323 1      *           load high guard
+E 1 12305 1 2         *                           equip ring
+E 1 12338 1 14        *                           equip bracer
+E 1 12311 1 7         *                           equip fins
+E 1 12314 1 6         *                           equip helmet
+E 1 12317 1 16        *                           equip trident
+E 1 12340 1 17        *                           equip net
+M 1 12323 4 12323  1     *           load high guard
+E 1 12305 1 2         *                           equip ring
+E 1 12338 1 14        *                           equip bracer
+E 1 12311 1 7         *                           equip fins
+E 1 12314 1 6         *                           equip helmet
+E 1 12317 1 16        *                           equip trident
+E 1 12340 1 17        *                           equip net
+M 1 12323 4 12315   1    *           load high guard
+E 1 12305 1 2         *                           equip ring
+E 1 12338 1 14        *                           euqip bracer
+E 1 12311 1 7         *                           equip fins
+E 1 12314 1 6         *                           equip helmet
+E 1 12317 1 16        *                           equip trident
+E 1 12340 1 17        *                           equip net
+M 1 12323 4 12315   1    *           load high guard
+E 1 12305 1 2         *                           equip ring
+E 1 12338 1 14        *                           equip bracer
+E 1 12311 1 7         *                           equip fins
+E 1 12314 1 6         *                           equip helmet
+E 1 12317 1 16        *                           equip trident
+E 1 12340 1 17        *                           equip net
+M 1 12323 4 12333 1      *           load high guard
+E 1 12305 1 2        *                            equip ring
+E 1 12338 1 14        *                           equip bracer
+E 1 12311 1 7         *                           equip fins
+E 1 12314 1 6         *                           equip helmet
+E 1 12317 1 16        *                           equip trident
+E 1 12340 1 17        *                           equip net
+M 1 12323 4 12333  1     *           load high guard
+E 1 12305 1 2         *                           equip ring
+E 1 12338 1 14        *                           equip bracer
+E 1 12311 1 7         *                           equip fins
+E 1 12314 1 6         *                           equip helmet
+E 1 12317 1 16        *                           equip trident
+E 1 12340 1 17        *                           equip net
+M 1 12323 4 12328  1     *           load high guard
+E 1 12305 1 2         *                           equip ring
+E 1 12338 1 14        *                           equip bracer
+E 1 12311 1 7         *                           equip fins
+E 1 12314 1 6         *                           equip helmet
+E 1 12317 1 16        *                           equip trident
+E 1 12340 1 17        *                           equip net
+*
+D 1 12322 4 2        *            ; Main Road of Antharia Lock Up
+O 1 12333 1 12366     *                            load wand to room
+**
+M 1 12303 4 12300 1     *            load sucker fish
+M 1 12303 4 12310 1     *            load sucker fish
+G 1 12301 1          *                            load Green Gem
+M 1 12303 4 12337 1     *            load sucker fish
+M 1 12303 4 12332  1    *            load sucker fish
+M 1 12303 4 12306 1     *            load sucker fish
+M 1 12303 4 12317 1     *            load sucker fish
+G 1 12301 1          *                            load green gem
+M 1 12303 4 12322 1     *            load sucker fish
+**
+M 1 12309 4 12352 1     *                    load citizen (male)
+E 1 12330 1 12       *                            equip robe
+M 1 12309 4 12319 1     *            load citizen (male)
+M 1 12309 4 12337 1     *            load citizen (male)
+E 1 12330 1 12       *                            equip robe
+M 1 12309 4 12311 1     *                    load citizen (male)
+M 1 12310 4 12320 1     *                    load citizen (female)
+E 1 12331 1 13       *                            equip belt
+M 1 12310 4 12332 1     *                    load citizen (female)
+M 1 12310 4 12312 1     *                    load citizen (female)
+E 1 12331 1 13       *                            equip belt
+*
+M 1 12314 5 12314 1     *                    load child (male)
+E 1 12332 1 7        *                            equip trousers
+M 1 12314 5 12314 1     *                    load child (male)
+M 1 12314 5 12314 1     *                    load child (male)
+E 1 12332 1 7        *                            equip trousers
+M 1 12315 5 12314 1     *                    load child (female)
+E 1 12332 1 7        *                            equip trousers
+M 1 12315 5 12314 1     *                    load child (female)
+M 1 12315 5 12314 1     *                    load child (female)
+E 1 12332 1 7        *                            equip trousers
+*
+M 1 12318 4 12318 1     *                    load knight
+E 1 12306 1 1        *                            equip ring
+E 1 12309 1 14       *                            equip bracer
+E 1 12312 1 7        *                            equip fins
+E 1 12315 1 6        *                            equip helmet
+E 1 12318 1 16       *                            equip trident
+E 1 12340 1 17       *                            equip net
+M 1 12318 4 12326 1     *                    load knight
+E 1 12306 1 1        *                            equip ring
+E 1 12339 1 14       *                            equip bracer
+E 1 12312 1 7        *                            equip fins
+E 1 12315 1 6        *                            equip helmet
+E 1 12318 1 16       *                            equip trident
+E 1 12340 1 17        *                           equip net
+M 1 12318 4 12354 1     *                    load knight
+E 1 12306 1 1        *                            equip ring
+E 1 12339 1 14       *                            equip bracer
+E 1 12312 1 7        *                            equip fins
+E 1 12315 1 6        *                            equip helmet
+E 1 12318 1 16       *                            equip trident
+E 1 12340 1 17       *                            equip net
+M 1 12318 4 12302 1     *                    load knight
+E 1 12306 1 1        *                            equip ring
+E 1 12339 1 14       *                            equip bracer
+E 1 12312 1 7        *                            equip fins
+E 1 12315 1 6        *                            equip helmet
+E 1 12318 1 16       *                            equip trident
+E 1 12340 1 17        *                          equip net
+M 1 12318 4 12352 1      *                   load knight
+E 1 12306 1 1        *                            equip ring
+E 1 12339 1 14       *                            equip bracer
+E 1 12312 1 7        *                            equip fins
+E 1 12315 1 6        *                            equip helmet
+E 1 12318 1 16        *                           equip trident
+E 1 12340 1 17       *                            equip net
+*
+S
+
+
+#SHOPS
+12345 0 0 0 0 0 125 75 4 20     * ;       Heaustf
+12341 0 0 0 0 0 125 75 4 20     * ;       Irghum
+12348 0 0 0 0 0 125 75 4 20     * ;       Cyrtpea
+12340 0 0 0 0 0 125 75 4 20     * ;       Zaertses
+0
+
+
+#SPECIALS
+M  12302 spec_cast_cleric    *    Suretin
+M  12348 spec_cast_mage  *Cyrtpea
+M  12314 spec_thief      *        child (male)
+M  12364 spec_cast_mage  *elven rep.
+M  12361 spec_cast_cleric *       druid rep.
+M  12362 spec_thief       *       kendar rep.
+S
+
+
+#$
