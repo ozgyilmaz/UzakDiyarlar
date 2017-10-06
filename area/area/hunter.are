@@ -1,0 +1,183 @@
+#AREA
+hunter.are~
+Hunter~
+{90 100} Asena The Palace of Hunters~
+570 579
+
+#MOBILES
+#570
+keeper guardian hunter~
+the guardian~
+The guardian of Hunter Palace is here, serving his cabal.
+~
+   After joining so many safaris, the guardian know implements what he
+learned as guarding this palace for very very much amounts of gold. 
+~
+human~
+ABKWe  DFHJVZ 0 0
+92 40 2d500+25000 1d200+600 10d35+50 slash
+-77 -77 -77 -37
+CEFKNU AB 0 S
+stand stand male 5000
+0 0 medium 0
+#571
+neutral cleric cabal hunter~
+the cleric~
+The true neutral cleric is healing his brothers.
+~
+   After paying much, this wise cleric delivers his spells to hunters in
+order that hunters can serve Anatolia. Remember that if you lost your
+eyed sword than say to him that 'trouble'.
+~ 
+human~
+ABQVae DFH 1000 0
+80 0 1d1+21999 1d1+999 2d4+50 divine
+-75 -75 -75 -15
+FHIK ABC D 0
+stand stand male 1000
+0 0 medium 0
+#572
+keeper guardian hunter~
+the guardian~
+The guardian of Hunter Palace is here, serving his cabal.
+~
+   After joining so many safaris, the guardian know implements what he
+learned as guarding this palace for very very much amounts of gold. 
+~
+human~
+ABKWe  DFHJVZ -1000 0
+92 40 2d500+22000 1d200+600 5d35+50 slash
+-77 -77 -77 -32
+CEFKNU AB 0 S
+stand stand male 5000
+0 0 medium 0
+#0
+
+
+#OBJECTS
+#570
+platinum golden altar container~
+the golden sign~
+On the altar you see the sign of hunters with platinum carvings.~
+golden~
+container CEORY P
+10 15 572 15 100
+60 1 20 P
+#571
+golden tattoo~
+the golden tattoo~
+A small, golden tattoo floats in the air.
+~
+golden~
+treasure CETO AO
+0 0 0 0 0
+60 1 10000 P
+#572
+gray bone~
+a gray bone~
+An ancient animal's bone is left on the floor here.
+~
+bone~
+key CEORY A
+0 0 0 0 0
+40 4 0 P
+#0
+
+#ROOMS
+#570
+The Well~
+  You are standing near a shiny gold well blocked by a big boulder on
+the well mouth. A golden aura fills your body.
+~
+0 ACDX 0
+D2
+~
+~
+0 -1 9783
+D4
+~
+enterance~
+3 -1 571
+S
+#571
+Bottom of the Well~
+  This place is dimly lit by a flickering torch from a doorway leading north.
+The guardians are  keeping the hunters from enemies.
+~
+0 ACDX 0
+D0
+~
+~
+5 -1 572
+D5
+~
+enterance~
+3 -1 570
+S
+#572
+Golden chambers~
+  You are inside well lit chamber, with golden plates on the walls. 
+All three corridors connecting this hall, proves how easy hunters can
+find their way.
+~
+0 ADX 0
+D0
+~
+~
+0 -1 573
+D1
+~
+~
+0 -1 572
+D2
+~
+~
+0 -1 571
+D3
+~
+~
+0 -1 572
+S
+#573
+Main chambers of Hunt~
+  The room is lit by many shiny gold pieces surrounding the room. On the
+north wall is a large skin sheet with blood script on it.
+~
+0 ADX 0 
+M 110
+D2 
+~
+~
+0 -1 572
+S
+#0
+
+#RESETS
+M 0 571   1 573  1    	*  Hunter healer
+M 0 570   1 571  1	*  Hunter keeper 1.
+M 0 572   1 571  1	*  Hunter keeper 2.
+E 0 572   0 11		*  Hunter's key
+O 0 570   1 573       	*  Hunter's container
+P 0 571   1 570  1	*  Item into the container
+D 0 571   5 1		*  Hunter's enterance
+D 0 570   4 1		*  Hunter's enterance
+S
+
+#SPECIALS
+M 570 spec_fight_hunter		* hunter guardian
+M 571 spec_cast_cabal		* healer of hunter
+M 572 spec_fight_hunter		* hunter guardian
+S
+
+#OMPROGS
+O 571 get_prog get_prog_cabal_item		
+O 571 sac_prog sac_prog_cabal_item		
+M 570 greet_prog greet_prog_hunter
+M 571 speech_prog speech_prog_hunter_cleric
+S
+
+#PRACTICERS
+M 570 group_cabal	* hunter
+M 572 group_cabal	* hunter
+S
+#$

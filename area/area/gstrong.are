@@ -1,0 +1,1280 @@
+#AREA
+gstrong.are~
+Goblin Stronghold~
+{10 20} Badaxe  Goblin Stronghold~
+29000 29099
+
+#MOBILES
+#29001
+king goblin Grumm~
+Grumm~
+Grumm, King of the Goblins isn't happy to see you.
+~
+You see a balding, overweight goblin, but he looks quite tough!
+~
+goblin~
+ABFHT Jb -600 0
+19 0 10d5+250 1d1+99 2d4+1 17
+4 4 4 1
+FKNPR A BQ C
+stand stand male 800
+0 0 medium 0
+#29002
+shaman goblin~
+The goblin shaman~
+A goblin up from his writing and glares at your intrusion on his work.
+~
+His face is sour and pale. He probably takes his religion very seriously.
+~
+goblin~
+ABFHQ J -600 0
+15 0 5d6+150 1d1+199 2d3+2 17
+5 5 5 0
+PR A Q C
+stand stand male 90
+0 0 medium 0
+#29003
+mage goblin~
+Goblin Mage~
+A goblin mage is angered by your intrusion.
+~
+This goblin mage has been working for months towards this moment. And YOU
+have intruded upon him! He looks REALLY pissed off! Clad in a pile of filth
+your dog would not sleep in, he is much smaller than the other goblins in the
+stronghold.
+~
+goblin~
+ABFHR BCDEFJVd -600 0
+15 0 5d6+150 1d1+199 1d4+1 17
+2 2 2 8
+PR A Q C
+stand stand male 100
+0 0 medium 0
+#29004
+champion goblin knarl~
+Knarl~
+Before you is the biggest goblin you have ever seen.
+~
+Knarl glares right back at you.
+~
+goblin~
+ABFT FJPVb -1000 0
+20 0 5d5+350 1d1+99 2d4+2 17
+5 5 5 0
+CDEFKPR A BQ C
+stand stand male 100
+0 0 medium 0
+#29005
+guard goblin~
+goblin guard~
+A goblin guard eyes you suspiciously.
+~
+A bit larger than your average goblin, guards are bullies to the others.
+~
+goblin~
+ABFT J -600 29005
+12 0 1d5+250 1d1+99 1d3+3 17
+3 3 3 0
+R A Q C
+stand stand male 100
+0 0 medium 0
+#29006
+guard goblin~
+a goblin guard~
+A goblin guard eyes you suspiciously.
+~
+A bit larger than your average goblin, guards are bullies to the others.
+~
+goblin~
+AFT J -600 29006
+13 0 1d5+240 1d1+99 1d3+1 17
+3 3 3 0
+EKR QA C 0
+stand stand male 100
+0 0 medium 0
+#29007
+goblin~
+The goblin~
+A goblin is here, slacking off.
+~
+He's ugly, green, and smelly... What's more to say?
+~
+goblin~
+AFT J -600 29007
+12 0 5d12+105 1d1+99 1d3+2 17
+2 2 2 0
+R A Q C
+stand stand male 0
+0 0 small 0
+#29008
+goblin prisoner~
+the goblin prisoner~
+A goblin is here, shackled to the wall.
+~
+You notice his skin is more blueish... perhaps he's from another tribe?
+~
+goblin~
+AT J -600 0
+3 0 10d2+15 1d1+99 1d4+1 17
+2 2 2 0
+0 0 Q C
+6 6 1 0
+0 0 small 0
+#29009
+leper goblin~
+the goblin~
+This goblin looks very sick.
+~
+He screams! Don't look at me!! Aaargh... leper outcast unclean!
+~
+goblin~
+ACFGS FJPQXbd 0 29009
+15 0 5d5+200 1d1+99 2d3+3 17
+3 3 3 0
+BDEFR AB Q CQ
+stand stand male 2
+0 A small 0
+#29010
+goblin~
+the goblin~
+A goblin is here, peeling potatoes.
+~
+He's ugly, green, and smelly... What's more to say?
+~
+goblin~
+ABFT J -600 29010
+14 0 10d2+230 1d1+99 2d3+1 17
+2 2 2 0
+R A Q C
+stand stand male 20
+0 0 small 0
+#29011
+demon lesser~
+The Lesser Demon~
+A dark, horned figure is trapped inside the pentagram.
+~
+He really wants to get out of that pentagram. Maybe you should let him out?
+~
+human~
+ABG Hb -1000 0
+20 0 1d1+399 1d1+149 5d4+5 5
+-7 -7 -7 5
+CDEFIKMN AB HQ EN
+stand stand male 100
+0 0 large 0
+#29012
+girl dancing goblin Britta~
+the dancing girl~
+A pretty female goblin entertains the court.
+~
+She is quite pretty, even for a goblin.
+~
+goblin~
+ABFT J -600 0
+9 0 10d2+120 1d1+99 1d4+1 17
+2 2 2 0
+R A Q C
+stand stand female 100
+0 0 small 0
+#29013
+goblin jester~
+the goblin jester~
+A obnoxious little runt makes fun of you.
+~
+He wears a stupid green suit with bells on it. You hate him.
+~
+goblin~
+AFT J -600 0
+11 0 10d2+145 1d1+99 1d4+1 17
+2 2 2 0
+0 A Q C
+stand stand male 10
+0 0 small 0
+#0
+
+
+
+#OBJECTS
+#29001
+jacket goblin scale mail~
+a goblin scale mail jacket~
+A goblin scale mail jacket is lying on the ground.~
+bone~
+armor 0 AD
+3 4 4 0 0
+10 100 849 G
+#29002
+jerkin goblin scale mail~
+a goblin scale mail jerkin~
+A goblin scale mail jerkin is lying on the ground.~
+bone~
+armor 0 AD
+3 4 4 0 0
+9 90 530 G
+#29003
+skirt goblin scale mail~
+a goblin long scale mail skirt~
+A goblin long scale mail skirt is lying on the ground.~
+bone~
+armor 0 AF
+3 5 4 0 0
+11 120 500 G
+#29004
+sleeves goblin scale mail~
+a pair of goblin scale mail sleeves~
+A pair of goblin scale mail sleeves is lying on the ground.~
+bone~
+armor 0 AI
+3 4 4 0 0
+8 60 400 G
+#29005
+shirt goblin chain mail~
+a goblin chain mail shirt~
+A goblin chain mail shirt is lying on the ground.~
+steel~
+armor 0 AD
+5 4 5 0 0
+12 180 800 G
+#29006
+skirt goblin chain mail~
+a goblin long chain mail skirt~
+A goblin long chain mail skirt is lying on the ground.~
+steel~
+armor 0 AF
+5 4 5 0 0
+12 100 800 G
+#29007
+gauntlets goblin chain mail~
+a pair of goblin chain mail gauntlets~
+A pair of goblin chain mail gauntlets is lying on the ground.~
+steel~
+armor 0 AH
+5 4 5 0 0
+10 40 700 P
+#29008
+sleeves goblin chain mail~
+a pair of goblin chain mail sleeves~
+A pair of goblin chain mail sleeves is lying on the ground.~
+steel~
+armor 0 AI
+5 4 5 0 0
+10 80 390 P
+#29009
+crown king goblin~
+the Great Crown of the Goblin King~
+A simple crown of silver lies here. It looks quite old.~
+silver~
+armor G AE
+4 6 5 3 0
+16 100 2000 P
+A
+13 21
+#29010
+grumm axe~
+the Great War Axe of Grumm~
+A quite large, two-handed and double bladed axe lies before you.~
+iron~
+weapon ABEGLRY AN
+axe 5 5 slash CDF
+18 140 5000 G
+A
+18 3
+A
+19 4
+#29011
+helmet goblin horned dark~
+a dark goblin horned helmet~
+A dark goblin horned helmet lies here~
+iron~
+armor 0 AE
+3 5 4 0 0
+9 30 450 P
+A
+3 -1
+A
+19 1
+#29012
+arm guards granite~
+a pair of carved granite armguards.~
+You see a large hollow tube carved of granite.~
+stone~
+armor GM AI
+6 6 9 2 0
+15 251 1900 P
+A
+5 1
+E
+arm guards armguards granite~
+These heavy armguards have been carved from the rock of these caverns.
+~
+#29013
+cape green filthy~
+a filthy green cape~
+You see a pile of green rags on the floor~
+cloth~
+armor G AK
+1 2 1 1 0
+10 30 1650 P
+A
+3 1
+A
+2 -1
+A
+12 28
+E
+Filthy green cape.~
+You see a cape ridden with filth and vermin. You're not going to WEAR it are
+you?
+~
+#29014
+dagger shard stone~
+a stone shard~
+A sharp pointed rock lies here.~
+stone~
+weapon AG AN
+dagger 4 4 stab D
+12 10 1100 G
+A
+19 3
+A
+18 -1
+E
+A stone shard~
+Looks like it would make a good weapon.
+~
+#29015
+sword goblin short~
+a goblin's shortsword~
+It looks heavier than your average shortsword, but it could use sone oiling.~
+iron~
+weapon G AN
+sword 4 4 slash D
+12 50 900 G
+A
+19 1
+#29016
+potion frothing black~
+a frothing black potion~
+You see a frothing black potion. ~
+glass~
+potion BG AO
+15 'heal' 'curse' 'heal' 'remove curse'   
+10 20 10000 G
+E
+frothing black potion~
+It's moving. You can see little bugs and other chunks floating in it.
+~
+#29017
+sword long two two-hand two-handed~
+a long two-handed sword~
+A long two-handed sword has been left here.~
+iron~
+weapon AG AN
+sword 4 6 slash DF
+20 50 7900 G
+A
+18 2
+A
+19 5
+A
+4 -2
+A
+5 -2
+#29018
+key shaman goblin~
+the goblin shaman's key~
+An old rusty key has been forgotten here.~
+iron~
+key 0 AN
+0 0 0 0 0
+5 10 0 G
+#29019
+key king goblin~
+the goblin king's key~
+An old rusty key has been forgotten here.~
+iron~
+key 0 AN
+0 0 0 0 0
+5 10 0 G
+#29020
+key mage goblin~
+the goblin mage's key~
+An old rusty key has been forgotten here.~
+iron~
+key 0 AN
+0 0 0 0 0
+5 10 0 G
+#29021
+key dungeon goblin~
+the goblin dungeon key~
+An old rusty key has been forgotten here.~
+iron~
+key 0 AN
+0 0 0 0 0
+5 10 0 G
+#29022
+rock big~
+a big rock~
+You see a big rock in the middle of the room. It looks real heavy.~
+stone~
+container ABGLRY AQ
+600 0 0 100 10
+20 20 12300 G
+A
+24 -2
+A
+23 -2
+A
+22 -2
+A
+21 -2
+A
+20 -2
+A
+17 -2
+#29023
+ring britta~
+Britta's Ring~
+You almost miss a tiny ring of gold.~
+gold~
+treasure G AB
+0 0 0 0 0
+9 10 1100 G
+A
+12 21
+A
+3 2
+#29024
+Bookcase~
+Bookcase~
+A large wooden bookcase~
+wood~
+container 0 0
+100 0 0 50 72
+0 0 0 G
+E
+Bookcase~
+Its a rather large wooden bookcase. There are many books in it, but they
+are all written in GOBLIN!
+~
+#29025
+Desk~
+A large mahogany desk~
+A large mahogany desk is here.~
+wood~
+container 0 0
+100 0 0 50 72
+0 0 0 G
+E
+Desk~
+This is a beautiful desk.
+~
+#29026
+Throne~
+King Grumm's Throne~
+King Grumm's Throne is here.~
+wood~
+furniture A 0
+2 200 ABCDEFGHIJKL 200 200
+0 0 0 P
+E
+Throne~
+This throne must have been left behind by the dwarves. It's inlaid with
+many fine gems and precious metals. Unfortunately, the largest of these have
+long since been scavenged.
+~
+#29027
+table~
+a large mahogany feast table~
+A large mahogany feast table is here.~
+wood~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+E
+table~
+This is by far the finest table you have ever seen. It stretches clear into
+the north end of the Great Hall.
+~
+#29028
+table~
+A large mahogany feast table~
+A large mahogany feast table is here.~
+wood~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+E
+table~
+This is by far the finest table you have ever seen. It stretches clear into
+the south end of the Great Hall.
+~
+#29029
+gold~
+a small pile of gold~
+A small pile of gold is here glitering.~
+gold~
+money 0 A
+0 75 0 0 0
+0 0 0 P
+#29030
+mace heavy iron~
+a heavy iron mace~
+A heavy iron mace lies in the rubble.~
+iron~
+weapon 0 AN
+mace 4 5 pound 0
+11 150 790 G
+#0
+
+
+
+#ROOMS
+#29001
+The Entry Hall to the Goblin Stronghold~
+You step into a cavern chiseled from solid granite. The first thing
+you notice is the stench. You see goblins everywhere, clad for battle.
+Perhaps they are training for an assault on Midgaard, as they have been
+spotted outside the South Gate more and more frequently. Whatever their
+purpose here, you must put a stop to it. You see a hallways leading east
+and west, and a set of great doors to the south.
+   There is a small (Glowing) (Huming) tablet.
+~
+0 D 0
+D5
+Poor Alley.
+~
+~
+0 -1 3044
+D1
+A Hallway in the Stronghold.
+~
+~
+0 -1 29019
+D2
+North end of the Great Hall.
+~
+Great Doors~
+1 -1 29002
+D3
+A Hallway in the Stronghold.
+~
+~
+0 -1 29018
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                                                                    +
++   This area has been groked, modified, debugged (?:) and adapted   +
++   by jaceks in hot, monday's night, june'96                        +
++                                                                    +
++   PS. prepare to die                                               +
++                                                                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~
+S
+#29002
+North End of the Great Hall~
+This mighty vaulted cavern seems much too fine to have been crafted by
+the likes of what you see here. Walls are built from carved granite blocks
+which must weigh over a ton apiece. The smooth rock arches up to a perfect
+semi-circular stone ceiling upon which a great battle scene is painted.
+Tapestries and paintings line the walls, but these have fallen into
+disrepair at the hands of the goblin occupants. A long mahogany dining
+table stretches for a full twenty yards, well into the south end of the
+Great Hall. You now notice that the subjects of the artwork here are
+dwarven, not goblin. Perhaps the goblin legions overran this fortress and
+drove the dwarves out. In any event, your work has just begun. The guards
+have noticed you. You better be ready. The Great Hall continues south, with
+doors east and west.
+~
+0 D 0
+D0
+The Entry Hall to the Goblin Stronghold.
+~
+Great Doors~
+1 -1 29001
+D1
+The Kitchen.
+~
+~
+0 -1 29023
+D2
+South End of the Great Hall.
+~
+~
+0 -1 29003
+D3
+The Training Room.
+~
+~
+1 -1 29021
+S
+#29003
+South End of the Great Hall~
+This mighty vaulted cavern seems much too fine to have been crafted by
+the likes of what you see here. Walls are built from carved granite blocks
+which must weigh over a ton apiece. The smooth rock arches up to a perfect
+semi-circular stone ceiling upon which a great battle scene is painted.
+Tapestries and paintings line the walls, but these have fallen into
+disrepair at the hands of the goblin occupants. A long mahogany dining
+table stretches for a full twenty yards, well into the north end of the
+Great Hall. A grand archway leads south, and through it you can see a
+throne.
+~
+0 D 0
+D0
+North End of the Great Hall.
+~
+~
+0 -1 29002
+D2
+King Grumm's Throne Room.
+~
+~
+0 -1 29004
+S
+#29004
+King Grumm's Throne Room~
+Chaos reigns in the court of King Grumm. Jesters, dancing girls,
+officious-looking goblins, and a myriad of other distractions compete for
+the time of the king. The Throne Room is a perfectly-round chamber with
+a large statue of a heroic-looking dwarf in the centre. Once again,
+tapestries line the walls, portraying battles and glory. If it was possible
+to instil more chaos into this carnival atmosphere, you have succeeded. The
+king leaps to his feat, and goblin guards bar your escape back south. Grumm
+dosen't look like he wants to talk! There is a doorway to your east, and
+another to the west.
+~
+0 D 0
+D0
+South End of the Great Hall.
+~
+~
+0 -1 29003
+D1
+A Bedroom.
+~
+~
+1 -1 29006
+D2
+Hidden Passage.
+~
+Tapestry~
+1 -1 29007
+D3
+A Bedroom.
+~
+~
+1 -1 29005
+S
+#29005
+Goblin Shaman's Quarters~
+This room is a delightful change from the rest of the fortress. The
+air is sweet with the smell of incence, and the room is clean (by goblin
+standards anyways). There is a large bookcase on the north wall, and before
+it, a desk and chair.
+~
+0 D 0
+D1
+King Grumm's Throne Room.
+~
+~
+1 -1 29004
+S
+#29006
+Goblin Mage's Quarters~
+A very heavy mist hovers above the floor here. It's not enough to
+obscure your vision though, and when you look closer, you can see an inlaid
+pentagram has been added to the granite stonework. The room is otherwise
+spartan, though you can see a small cot and a desk. Otherwise the room is
+barren.
+~
+0 ADN 0 
+D3
+King Grumm's Throne Room.
+~
+~
+1 -1 29004
+S
+#29007
+Hidden Passage~
+This passage s obscured behind the curtian. It leads north into the
+Throne Room, and to the south there is a door.
+~
+0 D 0
+D0
+King Grumm's Throne Room.
+~
+Tapestry~
+1 -1 29004
+D2
+Hidden Passage.
+~
+~
+1 29020 29008
+S
+#29008
+Hidden Passage~
+After opening the first door, you are dismayed to be confronted with a
+second. The door leads south, with another leading back north.
+~
+0 D 0
+D0
+Hidden Passage.
+~
+~
+1 29020 29007
+D2
+Hidden Passage.
+~
+~
+1 29018 29009
+S
+#29009
+Hidden Passage~
+After opening the second door, you are dismayed to be confronted with
+a third. The door leads south, with another leading back north.
+~
+0 D 0
+D0
+Hidden Passage.
+~
+~
+1 29018 29008
+D2
+The Treasure Chamber of the Goblin Stronghold.
+~
+~
+1 29019 29010
+S
+#29010
+The Treasure Chamber of the Goblin Stronghold~
+After opening the third door you come opon a cache of gold and
+jewelry. There are no exits, save the door you came through.
+~
+0 D 0
+D0
+Hidden Passage.
+~
+~
+1 29019 29009
+S
+#29011
+A Small Cell in the Dungeon~
+As you step through the door to this room, you hear a slam and a
+click. You spin quickly and are dismayed to see that the door has closed
+and locked. You hear maniacal laughter coming from the far side of the
+door. There is no escape. You will spend your days rotting in this goblin
+prision.
+~
+0 D 0
+D5
+A Tiny Crawlspace.
+~
+~
+1 -1 29024
+S
+#29012
+A Small Cell in the Dungeon~
+This is a little 6x6 cell with a floor of straw. The air is damp here.
+The far wall has a set of shackles set in the stone. Nice place to visit,
+but you wouldn't want to live here.
+~
+0 D 0
+D2
+A Hall in the Dungeon.
+~
+~
+1 29021 29025
+S
+#29013
+A Small Cell in the Dungeon~
+This is a little 6x6 cell with a floor of straw. The air is damp here.
+The far wall has a set of shackles set in the stone. Nice place to visit,
+but you wouldn't want to live here.
+~
+0 D 0
+D0
+A Hall in the Dungeon.
+~
+~
+1 29021 29025
+S
+#29014
+A Small Cell in the Dungeon~
+This is a little 6x6 cell with a floor of straw. The air is damp here.
+The far wall has a set of shackles set in the stone. Nice place to visit,
+but you wouldn't want to live here.
+~
+0 D 0
+D2
+A Hall in the Dungeon.
+~
+~
+1 29021 29026
+S
+#29015
+A Small Cell in the Dungeon~
+This is a little 6x6 cell with a floor of straw. The air is damp here.
+The far wall has a set of shackles set in the stone. Nice place to visit,
+but you wouldn't want to live here.
+~
+0 D 0
+D0
+A Hall in the Dungeon.
+~
+~
+1 29021 29026
+S
+#29016
+The Dungeon~
+Below the iron grate is a small guardroom. There is a table and some
+chairs, but not much else of interest. A hallway leads west, with the iron
+grate exiting up.
+~
+0 D 0
+D3
+A Hall in the Dungeon.
+~
+~
+0 -1 29026
+D4
+A Hallway in the Stronghold.
+~
+~
+1 -1 29017
+S
+#29017
+A Hallway in the Stronghold~
+This corridor is lit by torches set in wall brackets. An iron grate is
+set in the floor, and from below you can hear moaning and scraping. The
+hallway leads east with a large room to the south.
+~
+0 D 0
+D1
+A Hallway in the Stronghold.
+~
+~
+0 -1 29018
+D2
+Goblin Barraks.
+~
+~
+0 -1 29027
+D5
+A grate.
+~
+grate~
+1 -1 29016
+S
+#29018
+A Hallway in the Stronghold~
+This corridor is lit by torches set in wall brackets. The hall
+continues to the west, and the Entry Hall is to your east. There is also an
+arched doorway to the south. You can hear the sounds of combat to the
+south.
+~
+0 D 0
+D1
+The Entry Hall to the Goblin Stronghold.
+~
+~
+0 -1 29001
+D2
+The Goblin Training Room.
+~
+~
+0 -1 29021
+D3
+A Hallway in the Stronghold.
+~
+~
+0 -1 29017
+S
+#29019
+A Hallway in the Stronghold~
+This corridor is lit by torches set in wall brackets. The hallway
+continues to the east, and the Entry Hall is to your west. There is also an
+arched doorway to the south. Something smells foul there.
+~
+0 D 0
+D1
+A Hallway in the Stronghold.
+~
+~
+0 -1 29020
+D2
+The Kitchen.
+~
+~
+0 -1 29023
+D3
+Entry Hall to the Goblin Stronghold.
+~
+~
+0 -1 29001
+S
+#29020
+A Hallway in the Stronghold~
+This corridor is lit by torches set in wall brackets. The hallway
+continues to the west, and there is an arched doorway to the south.
+~
+0 D 0
+D2
+Goblin Barraks.
+~
+~
+0 -1 29022
+D3
+A Hallway in the Stronghold.
+~
+~
+0 -1 29019
+S
+#29021
+Goblin Training Room~
+This is where the goblins are shaped into something resembling a
+fighting unit. Assorted dummies and training equipment lie around. The room
+has a sticky film of blood on the floor. Apparently the goblins believe in
+the Darwinian theory of military training.
+~
+0 D 0
+D0
+A Hallway in the Stronghold.
+~
+~
+0 -1 29018
+D1
+South End of the Great Hall.
+~
+~
+1 -1 29002
+S
+#29022
+Goblin Barraks~
+This room is where the goblin soldiers sleep. The room is a full 20
+yards square and there are bunks along each wall. There is graphic
+graphitti scrawled on the walls, but it's in goblin and all you can make
+out are the drawings of goblin females. There is an arched doorway leading
+north.
+~
+0 D 0
+D0
+A Hallway in the Stronghold.
+~
+~
+0 -1 29020
+S
+#29023
+The Kitchen~
+A large kitchen area fills this room. Large pots bubble with
+foul-smelling goblin cuisine. There is nothing in this room to interest
+you. There is a door to your west, and an arched doorway to the north.
+~
+0 D 0
+D0
+A Hallway in the Stronghold.
+~
+~
+0 -1 29019
+D3
+South End of the Great Hall.
+~
+~
+1 -1 29002
+S
+#29024
+A Tiny Crawlspace~
+Below the cell there is a tiny crawlspace. There is a portal here.
+~
+0 D 0
+D4
+A Small Cell in the Dungeon.
+~
+~
+1 -1 29011
+S
+#29025
+A Hall in the Dungeon~
+This place is a new addition to the Stronghold. The hallway is little
+more than a tunnel through the rock. The hall leads east, with doors to
+your north, south, and west.
+~
+0 D 0
+D0
+A Small Cell in the Dungeon.
+~
+~
+1 29021 29012
+D1
+A Hall in the Dungeon.
+~
+~
+0 -1 29026
+D2
+A Small Cell in the Dungeon.
+~
+~
+1 29021 29013
+D3
+A Small Cell in the Dungeon.
+~
+~
+1 29021 29011
+S
+#29026
+A Hall in the Dungeon~
+This place is a new addition to the Stronghold. The hallway is little
+more than a tunnel through the rock. The hall leads west, with doors to
+your north and south, a room to your east.
+~
+0 D 0
+D0
+A Small Cell in the Dungeon.
+~
+~
+1 29021 29014
+D1
+The Dungeon.
+~
+~
+0 -1 29016
+D2
+A Small Cell in the Dungeon.
+~
+~
+1 29021 29015
+D3
+A Hall in the Dungeon.
+~
+~
+0 -1 29025
+S
+#29027
+Goblin Barraks~
+This room is where the goblin soldiers sleep. The room is a full 20
+yards square and there are bunks along each wall. There is graphic
+graphitti scrawled on the walls, but it's in goblin and all you can make
+out are the drawings of goblin females. There is an arched doorway leading
+north.
+~
+0 D 0
+D0
+A Hallway in the Stronghold.
+~
+~
+0 -1 29017
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+*D 0 29001 0 1        * The north door of The Entry Hall to the Goblin Stronghold is closed
+D 0 29001 2 1        * The south door of The Entry Hall to the Goblin Stronghold is closed
+D 0 29002 0 1        * The north door of North End of the Great Hall is closed
+D 0 29002 3 1        * The west door of North End of the Great Hall is closed
+D 0 29004 1 1        * The east door of King Grumm's Throne Room is closed
+D 0 29004 2 1        * The south door of King Grumm's Throne Room is closed
+D 0 29004 3 1        * The west door of King Grumm's Throne Room is closed
+D 0 29005 1 1        * The east door of Goblin Shaman's Quarters is closed
+D 0 29006 3 1        * The west door of Goblin Mage's Quarters is closed
+D 0 29007 0 1        * The north door of Hidden Passage is closed
+D 0 29007 2 2        * The south door of Hidden Passage is closed and locked
+D 0 29008 0 2        * The north door of Hidden Passage is closed and locked
+D 0 29008 2 2        * The south door of Hidden Passage is closed and locked
+D 0 29009 0 2        * The north door of Hidden Passage is closed and locked
+D 0 29009 2 2        * The south door of Hidden Passage is closed and locked
+D 0 29010 0 2        * The north door of The Treasure Chamber of the Goblin Stronghold is closed and locked
+D 0 29012 2 2        * The south door of A Small Cell in the Dungeon is closed and locked
+D 0 29013 0 2        * The north door of A Small Cell in the Dungeon is closed and locked
+D 0 29014 2 2        * The south door of A Small Cell in the Dungeon is closed and locked
+D 0 29015 0 2        * The north door of A Small Cell in the Dungeon is closed and locked
+D 0 29016 4 1        * The up door of The Dungeon is closed
+D 0 29017 5 1        * The down door of A Hallway in the Stronghold is closed
+D 0 29021 1 1        * The east door of Goblin Training Room is closed
+D 0 29023 3 1        * The west door of The Kitchen is closed
+D 0 29024 4 2        * The up door of A Tiny Crawlspace is closed and locked
+D 0 29025 0 2        * The north door of A Hall in the Dungeon is closed and locked
+D 0 29025 2 2        * The south door of A Hall in the Dungeon is closed and locked
+D 0 29025 3 2        * The west door of A Hall in the Dungeon is closed and locked
+M 0 29005 10 29001 1 * Load Goblin guard
+E 0 29001 -1 5       * A scale mail jacket is loaded on the body of Goblin guard
+E 0 29003 -1 7       * A long scale mail skirt is loaded on the legs of Goblin guard
+E 0 29004 -1 10      * A pair of scale mail sleeves is loaded on the arms of Goblin guard
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of Goblin guard
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of Goblin guard
+M 0 29005 10 29001 1 * Load Goblin guard
+E 0 29001 -1 5       * A scale mail jacket is loaded on the body of Goblin guard
+E 0 29003 -1 7       * A long scale mail skirt is loaded on the legs of Goblin guard
+E 0 29004 -1 10      * A pair of scale mail sleeves is loaded on the arms of Goblin guard
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of Goblin guard
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of Goblin guard
+M 0 29007 20 29001 1 * Load The goblin
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of The goblin
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of The goblin
+M 0 29005 10 29002 1 * Load Goblin guard
+E 0 29001 -1 5       * A scale mail jacket is loaded on the body of Goblin guard
+E 0 29003 -1 7       * A long scale mail skirt is loaded on the legs of Goblin guard
+E 0 29004 -1 10      * A pair of scale mail sleeves is loaded on the arms of Goblin guard
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of Goblin guard
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of Goblin guard
+M 0 29007 20 29002 1 * Load The goblin
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of The goblin
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of The goblin
+O 0 29027 0 29002    * A large mahogany feast table loaded to North End of the Great Hall
+M 0 29005 10 29003 1 * Load Goblin guard
+E 0 29001 -1 5       * A scale mail jacket is loaded on the body of Goblin guard
+E 0 29003 -1 7       * A long scale mail skirt is loaded on the legs of Goblin guard
+E 0 29004 -1 10      * A pair of scale mail sleeves is loaded on the arms of Goblin guard
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of Goblin guard
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of Goblin guard
+M 0 29007 20 29003 1 * Load The goblin
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of The goblin
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of The goblin
+O 0 29028 0 29003    * A large mahogany feast table loaded to South End of the Great Hall
+M 0 29001 1 29004  1 * Load Grumm
+E 0 29010 -1 16      * The great war axe of grumm is loaded wielded of Grumm
+E 0 29009 -1 6       * The great crown of the goblin king is loaded over the head of Grumm
+E 0 29005 -1 5       * A chain mail shirt is loaded on the body of Grumm
+E 0 29006 -1 7       * A long chain mail skirt is loaded on the legs of Grumm
+E 0 29007 -1 9       * A pair of chain mail gauntlets is loaded on the hands of Grumm
+E 0 29008 -1 10      * A pair of chain mail sleeves is loaded on the arms of Grumm
+G 0 29019 1          * a the goblin king's key is loaded in inventory og Grumm
+M 0 29005 10 29004 1 * Load Goblin guard
+E 0 29001 -1 5       * A scale mail jacket is loaded on the body of Goblin guard
+E 0 29003 -1 7       * A long scale mail skirt is loaded on the legs of Goblin guard
+E 0 29004 -1 10      * A pair of scale mail sleeves is loaded on the arms of Goblin guard
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of Goblin guard
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of Goblin guard
+M 0 29005 10 29004 1 * Load Goblin guard
+E 0 29001 -1 5       * A scale mail jacket is loaded on the body of Goblin guard
+E 0 29003 -1 7       * A long scale mail skirt is loaded on the legs of Goblin guard
+E 0 29004 -1 10      * A pair of scale mail sleeves is loaded on the arms of Goblin guard
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of Goblin guard
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of Goblin guard
+M 0 29007 20 29004 1 * Load The goblin
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of The goblin
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of The goblin
+M 0 29012 1 29004 1  * Load The dancing girl
+E 0 29023 -1 1       * Britta's ring is loaded on the left finger of The dancing girl
+M 0 29013 1 29004  1 * Load The goblin jester
+O 0 29026 0 29004    * King grumm's throne loaded to King Grumm's Throne Room
+M 0 29002 1 29005  1 * Load The goblin shaman
+E 0 29005 -1 5       * A chain mail shirt is loaded on the body of The goblin shaman
+E 0 29006 -1 7       * A long chain mail skirt is loaded on the legs of The goblin shaman
+E 0 29007 -1 9       * A pair of chain mail gauntlets is loaded on the hands of The goblin shaman
+E 0 29008 -1 10      * A pair of chain mail sleeves is loaded on the arms of The goblin shaman
+E 0 29016 -1 17       * A frothing black potion is loaded held in the hands of The goblin shaman
+E 0 29030 -1 16      * A heavy iron mace is loaded wielded of The goblin shaman
+G 0 29018 1          * shaman key is loaded in inventory of The goblin shaman
+O 0 29024 0 29005    * Bookcase loaded to Goblin Shaman's Quarters
+P 0 29022 1 29024 10 * A big rock. put inside bookcase
+O 0 29025 0 29005    * A large mahogany desk loaded to Goblin Shaman's Quarters
+M 0 29003 1 29006  1 * Load Goblin Mage
+G 0 29020 1          * the goblin mage's key is loaded in inventory of Goblin Mage
+E 0 29013 -1 12      * A filthy green cape is loaded wielded of Goblin Mage
+E 0 29014 -1 16      * stone dagger is loaded wielded of Goblin Mage
+M 0 29011 1 29006  1 * Load The Lesser Demon
+O 0 29029 0 29010    * A small pile of gold loaded to The Treasure Chamber of the Goblin Stronghold
+M 0 29009 1 29011  1 * Load The goblin
+M 0 29008 4 29012  1 * Load the goblin prisoner
+M 0 29008 4 29013  1 * Load the goblin prisoner
+M 0 29008 4 29014  1 * Load the goblin prisoner
+M 0 29008 4 29015  1 * Load the goblin prisoner
+M 0 29005 10 29016 2 * Load Goblin guard
+E 0 29001 -1 5       * A scale mail jacket is loaded on the body of Goblin guard
+E 0 29003 -1 7       * A long scale mail skirt is loaded on the legs of Goblin guard
+E 0 29004 -1 10      * A pair of scale mail sleeves is loaded on the arms of Goblin guard
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of Goblin guard
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of Goblin guard
+G 0 29021 1          * the goblin dungeon key is loades in inventory of guard goblin
+M 0 29005 10 29016 2 * Load Goblin guard
+E 0 29001 -1 5       * A scale mail jacket is loaded on the body of Goblin guard
+E 0 29003 -1 7       * A long scale mail skirt is loaded on the legs of Goblin guard
+E 0 29004 -1 10      * A pair of scale mail sleeves is loaded on the arms of Goblin guard
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of Goblin guard
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of Goblin guard
+M 0 29007 20 29017 1 * Load The goblin
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of The goblin
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of The goblin
+M 0 29007 20 29018 1 * Load The goblin
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of The goblin
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of The goblin
+M 0 29007 20 29019 1 * Load The goblin
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of The goblin
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of The goblin
+M 0 29007 20 29020 1 * Load The goblin
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of The goblin
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of The goblin
+M 0 29004 1 29021  1 * Load Knarl
+E 0 29017 -1 16      * A long sword is loaded wielded of Knarl
+E 0 29012 -1 10      * A pair of carved granite armguards. is loaded on the arms of Knarl
+E 0 29005 -1 5       * A chain mail shirt is loaded on the body of Knarl
+E 0 29006 -1 7       * A long chain mail skirt is loaded on the legs of Knarl
+E 0 29007 -1 9       * A pair of chain mail gauntlets is loaded on the hands of Knarl
+M 0 29005 10 29021 1 * Load Goblin guard
+E 0 29001 -1 5       * A scale mail jacket is loaded on the body of Goblin guard
+E 0 29003 -1 7       * A long scale mail skirt is loaded on the legs of Goblin guard
+E 0 29004 -1 10      * A pair of scale mail sleeves is loaded on the arms of Goblin guard
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of Goblin guard
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of Goblin guard
+M 0 29005 10 29021 1 * Load Goblin guard
+E 0 29001 -1 5       * A scale mail jacket is loaded on the body of Goblin guard
+E 0 29003 -1 7       * A long scale mail skirt is loaded on the legs of Goblin guard
+E 0 29004 -1 10      * A pair of scale mail sleeves is loaded on the arms of Goblin guard
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of Goblin guard
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of Goblin guard
+M 0 29007 20 29021 1 * Load The goblin
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of The goblin
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of The goblin
+M 0 29007 20 29021 1 * Load The goblin
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of The goblin
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of The goblin
+M 0 29005 10 29022 1 * Load Goblin guard
+E 0 29001 -1 5       * A scale mail jacket is loaded on the body of Goblin guard
+E 0 29003 -1 7       * A long scale mail skirt is loaded on the legs of Goblin guard
+E 0 29004 -1 10      * A pair of scale mail sleeves is loaded on the arms of Goblin guard
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of Goblin guard
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of Goblin guard
+M 0 29005 10 29022 1 * Load Goblin guard
+E 0 29001 -1 5       * A scale mail jacket is loaded on the body of Goblin guard
+E 0 29003 -1 7       * A long scale mail skirt is loaded on the legs of Goblin guard
+E 0 29004 -1 10      * A pair of scale mail sleeves is loaded on the arms of Goblin guard
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of Goblin guard
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of Goblin guard
+M 0 29007 20 29023 1 * Load The goblin
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of The goblin
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of The goblin
+M 0 29007 20 29023 1 * Load The goblin
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of The goblin
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of The goblin
+M 0 29010 2 29023  1 * Load The goblin
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of The goblin
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of The goblin
+M 0 29010 2 29023  1 * Load The goblin
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of The goblin
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of The goblin
+M 0 29007 20 29027 1 * Load The goblin
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of The goblin
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of The goblin
+M 0 29007 20 29027 1 * Load The goblin
+E 0 29011 -1 6       * Dark horned helmet is loaded over the head of The goblin
+E 0 29015 -1 16      * A goblin's shortsword is loaded wielded of The goblin
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$
+

@@ -1,0 +1,1186 @@
+#AREA
+limbo.are~
+Limbo~
+{99 100} Diku    Limbo~
+0 99
+
+#MOBILES
+#10
+shadow %s~
+the shadow of %s~
+%s's shadow is here.
+~
+This dark form seems like it wants to get back at %s for keeping it
+below them for so long....better not get in its way!
+~
+human~
+AW JPVZee 0 0
+0 0 0d0+0 0d0+0 5d3+15 slash
+0 0 0 0
+EFN EKL H NI
+stand stand male 0
+0 0 medium 0
+#11
+special guard~
+the guard~
+A special guard stands here, red with anger!
+~
+Angry, very angry.
+~
+human~
+ATc JNV 1000 0
+20 3 16d15+320 1d1+141 5d5+10 punch
+0 0 0 0
+TQ 0 AB M
+stand stand male 0
+0 0 medium 0
+#12
+bear~
+a bear~
+A strong looking bear is here.
+~
+You see nothing special about it.
+~
+bear~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 claw
+0 0 0 0
+N 0 0 0
+stand stand male 0
+0 0 medium 0
+#13
+fiery red demon~
+a fiery demon~
+A red, fiery demon is looking around very angry.
+~
+A big red demon, you feel like it is flaming.
+~
+unique~
+AB JZ -1000 0
+40 0 1d1+1 1d1+1 2d4+20 slash
+-15 -15 -15 -15
+FHI 0 0 0
+stand stand male 0
+0 0 medium 0
+#14
+nightwalker~
+A Nightwalker~
+A Nightwalker from the shadows lurks around.
+~
+This is a Nightwalker summoned from the shadows. Bloody eyes seem glowing.
+This creature has a horible look.
+~
+human~
+ATOc JFD -750 0
+20 3 16d15+240 1d1+152 5d3+20 punch
+0 0 0 0
+JED G AB M
+stand stand male 0
+0 0 medium 0
+#15
+stalker guard~
+the stalker~
+A Stalker stands here, red with anger!
+~
+Angry, very angry.
+~
+human~
+ATc 0 1000 0
+20 3 16d15+160 1d1+149 4d9+15 slash
+0 0 0 0
+FHINQT AB MN 0
+stand stand male 0
+0 0 medium 0
+#16
+squire~
+the squire~
+A squire is stands here, with a smile in his face.
+~
+This noble squire is serving his apprenticeship in the ways of honor
+and chivalry under his master.
+~
+human~
+ATc JNVHFee 1000 0
+20 3 16d15+160 1d1+149 3d10+12 slash
+0 0 0 0
+EN 0 AB M
+stand stand male 0
+0 0 medium 0
+#17
+mirror~
+the mirror~
+A mirror image of someone is here.
+~
+You see nothing special about it.
+~
+human~
+AB 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+EFN EKL H NI
+stand stand male 0
+0 0 medium 0
+#18
+undead~
+an undead~
+an undead body is here.
+~
+You see nothing special about it.
+~
+undead~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 punch
+0 0 0 0
+N 0 0 0
+stand stand male 0
+0 0 medium 0
+#19
+lion~
+a lion~
+A honoured looking lion is here.
+~
+You see nothing special about it.
+~
+lion~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 claw
+0 0 0 0
+N 0 0 0
+stand stand male 0
+0 0 medium 0
+#20
+wolf~
+a wolf~
+A wolf is here, looking very angrily.
+~
+You see nothing special about it.
+~
+wolf~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 claw
+0 0 0 0
+N 0 0 0
+stand stand male 0
+0 0 medium 0
+#21
+golem lesser~
+a lesser golem~
+A lesser golem is here.
+~
+The golem appears to be made of some kind of clay, enchanted to come to life!.
+~
+golem~
+AT V 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+EFO 0 0 0
+stand stand none 0
+0 0 small 0
+#22
+golem stone~
+a stone golem~
+A stone golem stands ready to rend its master's enemies apart.
+~
+This is a large stone statue of a man. The statue stands eight feet tall
+and looks powerful enough to rip off your head without straining.
+~
+golem~
+AT V 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+EFO 0 0 0
+stand stand none 0
+0 0 medium 0
+#23
+golem iron~
+a iron golem~
+A huge iron statue of a man stands here.
+~
+This looks to be an iron statue of a human.  The statue stands a good
+fifteen feet tall.  In fact it almost looks as if it can move.  You then glance
+at it's eyes and notice with a shock that they are watching you. 
+~
+golem~
+AT V 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+EFO 0 0 0
+stand stand none 0
+0 0 medium 0
+#24
+golem adamantite~
+a adamantite golem~
+An adamantite golem stands here looking very dangerous.
+~
+It seems to be forged of dark metal.  It looks strong and durable,
+but somewhat un-intelligent.
+~
+golem~
+AT V 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+EFO 0 0 0
+stand stand none 0
+0 0 large 0
+#25
+lion~
+a lion~
+A honoured looking lion is here.
+~
+You see nothing special about it.
+~
+lion~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 claw
+0 0 0 0
+N 0 0 0
+stand stand male 0
+0 0 medium 0
+#26
+shadow~
+a summoned shadow~
+A dark summoned shadow is here.
+~
+You see nothingness.
+~
+lion~
+AO 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 claw
+0 0 0 0
+N M 0 0
+stand stand male 0
+0 0 medium 0
+#27
+dog~
+a dog~
+A dog is here, waiting for the orders of its master.
+~
+You see nothing special about it.
+~
+dog~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 claw
+0 0 0 0
+N 0 0 0
+stand stand male 0
+0 0 medium 0
+#28
+summoned earth elemental~
+An earth elemental~
+A huge part of earth stands here, preparing to move.
+~
+You see nothing special about it.
+~
+earth elemental~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+N 0 E 0
+stand stand male 0
+0 0 large 0
+#29
+summoned air elemental~
+An air elemental~
+A dense circularly flowing gaseous form hanging here.
+~
+You see nothing special about it.
+~
+air elemental~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+N 0 OS 0
+stand stand male 0
+0 0 large 0
+#30
+summoned fire elemental~
+A fire elemental~
+A balanced burning air is hanging here.
+~
+You see nothing special about it.
+~
+fire elemental~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+N 0 H 0
+stand stand male 0
+0 0 large 0
+#31
+summoned water elemental~
+A water elemental~
+A huge mass of ball-shaped water is hanging in the air.
+~
+You see nothing special about it.
+~
+water elemental~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+N 0 I 0
+stand stand male 0
+0 0 large 0
+#32
+summoned lightning elemental~
+A lightning elemental~
+A huge spark of electricity fizzles here.
+~
+You see nothing special about it.
+~
+lightning elemental~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+N 0 J 0
+stand stand male 0
+0 0 large 0
+#33
+animated weapon~
+Live %s~
+An animated weapon stands here.
+~
+You see nothing special about it.
+~
+unique~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 slash
+0 0 0 0
+N 0 0 0
+stand stand male 0
+0 0 large 0
+#34
+animated armor~
+Live %s~
+An animated armor stands here.
+~
+You see nothing special about it.
+~
+unique~
+A 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 crush
+0 0 0 0
+N 0 0 0
+stand stand male 0
+0 0 large 0
+#0
+
+#OBJECTS
+#1
+coin silver gcash~
+a silver coin~
+One miserable silver coin.~
+silver~
+money 0 A
+1 0 0 0 0
+0 10 0 P
+#2
+coin gold gcash~
+a gold coin~
+One valuable gold coin.~
+gold~
+money 0 A
+0 1 0 0 0
+0 10 0 P
+#3
+coins gold gcash~
+%d gold coins~
+A pile of gold coins.~
+gold~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#4
+coins silver gcash~
+%d silver coins~
+A pile of silver coins.~
+silver~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#5
+coins silver gold gcash~
+%d silver coins and %d gold coins~
+A pile of coins.~
+gold~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#6
+%s arrow~
+a %s arrow~
+A %s arrow lies on the ground.~
+wood~
+weapon 0 AO
+arrow 1 1 pierce 0
+1 5 10 P
+#7
+wooden bow~
+a wooden bow~
+A wooden arrow lies on the ground.~
+wood~
+weapon 0 AO
+bow 1 1 blast 0
+1 5 10 P
+#10
+corpse~
+the corpse of %s~
+The corpse of %s is lying here.~
+flesh~
+npc_corpse 0 A
+0 0 0 1 0
+0 1000 0 D
+#11
+corpse~
+the corpse of %s~
+The corpse of %s is lying here.~
+flesh~
+pc_corpse O A
+0 0 0 1 0
+0 1000 0 D
+#12
+head~
+the head of %s~
+The severed head of %s is lying here.~
+meat~
+trash 0 A
+0 0 0 0 0
+0 50 0 D
+#13
+heart~
+the heart of %s~
+The torn-out heart of %s is lying here.~
+meat~
+food 0 A
+16 16 0 0 0
+0 20 0 D
+#14
+arm~
+the arm of %s~
+The sliced-off arm of %s is lying here.~
+meat~
+food 0 A
+20 20 0 0 0
+0 50 0 D
+#15
+leg~
+the leg of %s~
+The sliced-off leg of %s is lying here.~
+meat~
+food 0 A
+20 20 0 0 0
+0 50 0 D
+#16
+guts entrails~
+the guts of %s~
+A steaming pile of %s's entrails is lying here.~
+meat~
+food 0 A
+5 5 0 1 0
+0 20 0 D
+#17
+brains brain~
+the brains of %s~
+The splattered brains of %s are lying here.~
+meat~
+food 0 A
+10 10 0 0 0
+0 20 0 D
+#19
+grave stone~
+the grave of %s~
+A grave stone for %s stands here.~
+stone~
+treasure A 0
+0 0 0 0 0
+100 100 12000 P
+#20
+mushroom~
+a Magic Mushroom~
+A delicious magic mushroom is here.~
+food~
+food 0 A
+8 8 0 0 0
+0 10 0 P
+#21
+ball light~
+a bright ball of light~
+A bright ball of light shimmers in the air.~
+energy~
+light A A
+0 0 -1 0 0
+0 0 0 P
+#22
+spring~
+a magical spring~
+A magical spring flows from the ground here.~
+water~
+fountain G 0
+100000 100000 'water' 0 0
+0 0 0 P
+#23
+disc disk floating black~
+a floating disc~
+A floating black disc hangs in the air.~
+energy~
+container GMPUYZ AQ
+0 E 0 0 0
+0 0 0 P
+#25
+gate portal~
+a shimmering gate~
+A shimmering black gate rises from the ground, leading to parts unknown.~
+shadow~
+portal GOT 0
+0 0 0 0 0
+0 0 0 P
+#26
+poncho~
+a poncho from the carcass of %s~
+A poncho from the cascass of %s lies here.~
+flesh~
+armor 0 AK
+0 0 0 0 0
+0 60 0 P
+A 13 35
+A
+6 1
+#27
+steak~
+a steak from %s~
+A steak from %s.~
+meat~
+food 0 A
+25 25 0 0 0
+0 20 0 P
+#28
+ranger staff~
+a ranger staff~
+There is a Ranger's Staff here on the ground.~
+ebony~
+weapon A AN
+staff 10 1 pierce 0
+0 160 0 P 
+#29
+decanter endless water~
+Decanter of Endless Water~
+A small shiny decanter is on the floor.~
+leather~
+drink AGIOY A
+100000 100000 'water' 0 0
+21 10 29900 G
+E
+decanter~
+The letters '%s' is carved on the upper surface of the decanter.
+~
+#30
+silk adamantite backpack~
+the silk-adamantite backpack~
+A very very shiny backpack is here.~
+silk~
+container AGIOY AKOP
+500 64 0 100 10
+21 30 99900 P
+A
+3 5
+A
+5 5
+A
+6 5
+A
+12 200
+A
+13 200
+A
+17 -200
+A
+14 500
+A
+18 20
+A
+19 20
+A
+24 -20
+E
+backpack~
+The golden letters '%s' is carved on the side of the backpack.
+~
+#31
+lion shield~
+Shield Lion~
+A shield with a head of lion shape on it lying on the floor.~
+steel~
+armor GIRYZ AJ
+8 8 8 3 0
+0 80 10000 P
+#42
+vial potion~
+a potion vial~
+A vial of a potion is left here.~
+glass~
+drink 0 AO
+5 0 'water' 0 0
+0 10 10 P
+E
+vial~
+It's a glass vial used to hold magical potions. It looks fragile.
+~
+#43
+potion silver~
+a silver potion~
+A small silvery potion has carelessly been left here.~
+glass~
+potion G AO
+1 'detect invis' '' '' ''
+0 10 0 P
+#44
+potion golden~
+a golden potion~
+A golden vial shines on the ground.~
+glass~
+potion G AO
+1 'frenzy' '' '' ''
+0 10 0 P
+#45
+potion swirling~
+a swirling potion~
+Some swirling liquid in a vial catches your attention.~
+glass~
+potion G AO
+1 'bless' '' '' ''
+0 10 0 P
+#51
+tattoo atum ra~
+lawful good tattoo of atum-ra~
+A tattoo flying in the air.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#52
+tattoo zeus~
+neutral good tattoo of zeus~
+A tattoo flying in the air.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#53
+tattoo siebele~
+true neutral tattoo of siebele~
+A tattoo flying in the air.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#54
+tattoo shamash~
+tattoo of shamash, god of justice~
+A tattoo flying in the air.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#55
+tattoo ahura mazda~
+chaotic good tattoo of ahuramazda~
+A tattoo flying in the air.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#56
+tattoo ehrumen~
+chaotic evil tattoo of ehrumen~
+A tattoo flying in the air.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#57
+tattoo deimos~
+lawful evil tattoo of deimos~
+A tattoo flying in the air.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#58
+tattoo phobos~
+neutral evil tattoo of phobos~
+A tattoo flying in the air.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#59
+tattoo odin~
+lawful neutral tattoo of odin~
+A tattoo flying in the air.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#60
+tattoo teshub~
+chaotic neutral tattoo of teshub~
+A tattoo flying in the air.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#61
+tattoo ares~
+tattoo of ares, God of War~
+A tattoo flying in the air.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#62
+tattoo goktengri~
+tattoo of goktengri, God of Honor~
+A tattoo flying in the air.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#63
+tattoo hera~
+tattoo of hera, god of hate~
+A tattoo flying in the air.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#64
+tattoo venus~
+tattoo of venus, god of beauty~
+A tattoo flying in the air.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#65
+tattoo set~
+tattoo of set, god of anger~
+A tattoo flying in the air.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#66
+tattoo enki~
+tattoo of enki, god of knowledge~
+A tattoo flying in the air.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#67
+tattoo eros~
+tattoo of eros, god of love~
+A tattoo flying in the air.~
+energy~
+tattoo AUTY AR
+0 0 -1 0 0
+0 0 0 P
+#70
+badge~
+silver ruler badge~
+A silver bagde shines on the ground.~
+silver~
+treasure MOTWZ A
+0 0 0 0 0
+50 4 0 P
+F
+D 0 0 F
+#71
+buckler ruler shield~
+Rulers' Buckler~
+A buckler of a Ruler is on the ground.~
+steel~
+armor GIRYZ AJ
+8 8 8 3 0
+0 80 10000 P
+#72
+great ruler shield~
+Rulers' Great Shield~
+There is a Great Ruler Shield on the ground.~
+steel~
+armor GIRYZ AJ
+20 20 20 10 0
+0 90 15000 P
+#73
+kite ruler shield~
+Rulers' Kite Shield~
+You see a large Kite Shield of Ruler on the ground.~
+steel~
+armor GIRYZ AJ
+20 20 20 10 0
+0 95 20000 P
+A
+17 -10
+A
+18 3
+A
+19 4
+#74
+tower ruler shield~
+Rulers' Tower Shield~
+A very big shield with a symbol of Ruler covers the ground.~
+steel~
+armor GIRYZ AJ
+30 30 30 20 0
+0 85 20000 P
+#80
+golden dagger~
+a golden dagger~
+There is a shiny golden dagger on the ground.~
+gold~
+weapon TWAIP AN
+dagger 10 1 pierce D
+20 80 0 P
+#81
+golden mace~
+a golden mace~
+A shiny gold mace is on the ground.~
+gold~
+weapon TWAIP AN
+mace 10 1 crush 0
+20 100 0 P
+#82
+golden dragonplate plate~
+Dragonplate~
+A Dragonplate is left here.~
+gold~
+armor GIY AD
+30 30 30 30 0
+0 150 10000 P
+A
+6 2
+A
+19 5
+A
+18 5
+#83
+golden sword~
+a golden sword~
+There is a shiny golden sword on the ground.~
+gold~
+weapon TWAIP AN
+sword 10 1 pierce D
+20 80 0 P
+#84
+quest kio~
+quest staff of kio~
+A quest obj flying in the air.~
+energy~
+treasure ATY A
+0 0 -1 0 0
+0 0 0 P
+E
+quest~
+The letters '%s' is carved on the staff.
+~
+#85
+quest conrad~
+quest staff of conrad~
+A quest obj flying in the air.~
+energy~
+treasure ATY A
+0 0 -1 0 0
+0 0 0 P
+E
+quest~
+The letters '%s' is carved on the staff.
+~
+#86
+quest powerman~
+quest staff of powerman~
+A quest obj flying in the air.~
+energy~
+treasure ATY A
+0 0 -1 0 0
+0 0 0 P
+E
+quest~
+The letters '%s' is carved on the staff.
+~
+#87
+chaos blade~
+a chaos blade~
+A shiny gold dagger is on the ground.~
+gold~
+weapon TWAIP AN
+dagger 10 1 pierce D
+20 200 0 P
+A
+6 2
+#88
+eyed sword~
+%s's eyed sword~
+A sword with an eye on it is here.~
+platinum~
+weapon B AN
+exotic 10 1 pierce D
+15 60 0 P
+A
+18 20
+A
+19 20
+A
+6 1
+E
+sword~
+The letters '%s' is carved on the handle.
+~
+#89
+kassandra~
+kassandra~
+A mystical green stone is here, flying in the air.~
+stone~
+treasure AUTY AO
+0 0 -1 0 0
+0 0 0 P
+#90
+dress~
+dress~
+A dress of a white gown out of the bolt of silk lying here..~
+silk~
+armor G AD
+1 1 1 1 1
+1 90 100 P
+E
+dress~
+This dress is made by dressmaker for Keeper who is after all work of hard
+years guarding a retired lord.
+~
+#91
+turkish rug~
+a rug with Turkish patterns~
+A small rug with Turkish patterns is lying here.~
+wool~
+treasure 0 AO
+0 0 0 0 0
+18 10 1000 G
+#92
+shield fire~
+fire shield~
+An energy shield is left here.~
+energy~
+armor GPUY AJ
+20 20 20 20 2
+0 250 10000 P
+E
+shield energy~
+This shield is resistive to %s.
+~
+#93
+%s~
+the spirit of %s~
+The vial containing spirit of %s is lying here.~
+glass~
+treasure TY AO
+0 0 0 1 0
+0 0 0 D
+E
+spirit~
+The spirit of %s is in this vial.
+~
+#94
+girth hero~
+the %s Girth of %s~
+An enormous, huge GIRTH lies here, filling the room with its power.~
+platinum~
+armor AGIOY ALP
+12 12 12 9 2
+21 300 100000 G
+A
+1 2
+A
+4 2
+A
+5 3
+A
+3 3
+A
+6 1
+A
+12 200
+A
+13 200
+A
+14 500
+A
+18 10
+A
+19 10
+F
+A 17 -30 J
+F
+D 0 0 CDEG
+#95
+ring hero~
+the %s Ring of %s~
+An enormous, RING lies here, filling the room with its power.~
+platinum~
+armor AGIOY ABP
+12 12 12 9 1
+21 300 100000 G
+A
+6 1
+A
+17 -20
+A
+18 10
+A
+12 150
+A
+13 150
+F
+A 14 500 TU
+#96
+weapon hero~
+the %s Weapon of %s~
+An enormous, huge WEAPON lies here, filling the room with its power.~
+platinum~
+weapon AGIOY ANP
+exotic 10 4 slash D
+21 100 100000 G
+A
+1 2
+A
+2 2
+A
+4 2
+A
+6 1
+A
+19 25
+A
+18 25
+A
+12 200
+A
+13 200
+A
+14 500
+#97
+quest mandrake~
+quest staff of mandrake~
+A quest obj flying in the air.~
+energy~
+treasure ATY A
+0 0 -1 0 0
+0 0 0 P
+E
+quest~
+The letters '%s' is carved on the staff.
+~
+#98
+sword katana~
+a katana sword~
+A katana sword is forgotten here.~
+iron~
+weapon ORYa ANP
+sword 10 1 slash 0
+15 60 0 P
+E
+katana~
+The letters '%s' is carved on the handle.
+~
+#99
+golden lance~
+a golden lance~
+There is a shiny golden lance on the ground.~
+gold~
+weapon TWAIP AN
+lance 10 1 none D
+20 80 0 P
+#0
+
+#ROOMS
+#1
+The Void~
+You are floating in nothing.
+~
+0 CD 1
+S
+#2
+Limbo~
+You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+~
+0 D 1
+D4
+~
+~
+0 -1 3001
+S
+#0
+
+#RESETS
+S
+
+
+#SHOPS
+0
+
+#SPECIALS
+M 11 spec_special_guard 	* special guards of rulers
+M 15 spec_stalker		* stalkers 
+M 13 spec_cast_mage		* summoned demon
+S
+
+#OMPROGS
+O 51 fight_prog fight_prog_tattoo_apollon	
+O 52 fight_prog fight_prog_tattoo_zeus	
+O 53 fight_prog fight_prog_tattoo_siebele
+O 54 fight_prog fight_prog_tattoo_hephaestus	
+O 55 fight_prog fight_prog_tattoo_ehrumen	
+O 56 fight_prog fight_prog_tattoo_ahrumazda		
+O 57 fight_prog fight_prog_tattoo_deimos
+O 58 fight_prog fight_prog_tattoo_phobos	
+O 59 fight_prog fight_prog_tattoo_odin	
+O 60 fight_prog fight_prog_tattoo_mars
+O 61 fight_prog fight_prog_tattoo_athena
+O 62 fight_prog fight_prog_tattoo_goktengri
+O 63 fight_prog fight_prog_tattoo_hera
+O 64 fight_prog fight_prog_tattoo_venus
+O 65 fight_prog fight_prog_tattoo_ares
+O 66 fight_prog fight_prog_tattoo_prometheus
+O 67 fight_prog fight_prog_tattoo_eros
+O 28 wear_prog wear_prog_ranger_staff
+*O 28 death_prog death_prog_ranger_staff
+O 28 fight_prog fight_prog_ranger_staff
+O 80 fight_prog fight_prog_golden_weapon
+O 81 fight_prog fight_prog_golden_weapon
+O 83 fight_prog fight_prog_golden_weapon
+O 99 fight_prog fight_prog_golden_weapon
+O 80 death_prog death_prog_golden_weapon
+O 81 death_prog death_prog_golden_weapon
+O 83 death_prog death_prog_golden_weapon
+O 99 death_prog death_prog_golden_weapon
+O 88 get_prog get_prog_spec_weapon
+O 88 wear_prog wear_prog_eyed_sword
+O 89 speech_prog speech_prog_kassandra
+O 84 get_prog get_prog_quest_obj
+O 85 get_prog get_prog_quest_obj
+O 86 get_prog get_prog_quest_obj
+O 97 get_prog get_prog_quest_obj
+*O 87 fight_prog fight_prog_chaos_blade
+O 92 wear_prog wear_prog_fire_shield
+O 92 remove_prog remove_prog_fire_shield
+O 29 get_prog get_prog_quest_hreward
+O 30 get_prog get_prog_quest_hreward
+O 94 get_prog get_prog_quest_reward
+O 95 get_prog get_prog_quest_reward
+O 96 get_prog get_prog_quest_reward
+O 96 wear_prog wear_prog_quest_weapon
+O 98 wear_prog wear_prog_katana_sword
+M 15 death_prog death_prog_stalker
+S
+
+#$

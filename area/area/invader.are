@@ -1,0 +1,315 @@
+#AREA
+Invader.are~
+Invader~
+{90 100} Asena Unknown land~
+560 569
+
+#MOBILES
+#560
+keeper guardian invader~
+the invader guardian~
+The invader guardian is here, serving his cabal.
+~
+  This strong serves as the guardian of the Invader Cabal. His mission is
+to destroy anyone who dares to penatrate into the chamber.
+~
+human~
+ABJKWe  DFHJVZ -1000 0
+92 40 2d500+25000 1d200+600 10d40+50 slash
+-77 -77 -77 -42
+ACEFIKNOU AB 0 S
+stand stand male 5000
+0 0 medium 0
+
+#561
+evil cleric cabal invader~
+the evil cleric~
+The dark cleric is healing and refreshing his invader brothers.
+~ 
+ This cleric is one most powerful clerics in this realms. He saw all the
+lands being raided. In spite of his old age, he stills serves for his
+cabal. In his way, now he's using his powers to heal and refresh his cabal
+mates, waiting the day when he is going to have the chance to invade the
+whole Realms of Anatolia as in the history.
+~ 
+human~
+ABQVae DFH -1000 0
+90 0 1d1+28999 1d1+999 2d14+30 magic
+-85 -85 -85 -15
+FHIK ABC D 0
+stand stand male 1000
+0 0 medium 0
+
+#0
+
+
+
+#OBJECTS
+#560
+gray altar skull container~
+the skull~
+On the altar you see the skull with gray bones.~
+bone~
+container CEORY P
+10 15 562 15 100
+60 2 20 P
+
+#561
+globe sphere~
+the nothing globe~
+A small, sphere shaped unexistance area floats in the air.~
+unknown~
+treasure CETO AO
+0 0 0 0 0
+60 2 10000 P
+
+#562
+skull grayish jaw~
+grayish jaw of a skull~
+A gray jaw of a skull.~
+bone~
+key CEORY A
+0 0 0 0 0
+40 2 0 P
+
+#563
+white object portal~
+Magical White Portal~
+A magically created white object casts strange shadows across the clearing.~
+energy~
+portal AO 0
+0 0 B 560 0
+0 0 0 P
+#564
+dark object portal~
+Dark Portal~
+A magically created dark object casts strange shadows across the clearing.~
+energy~
+portal AO 0
+0 0 E 0 0
+0 0 0 P
+#565
+green object portal~
+Magical Green Portal~
+A magically created green object casts strange shadows across the clearing.~
+energy~
+portal AO 0
+0 0 B 3124 0
+0 0 0 P
+
+#0
+
+#ROOMS
+#560
+The Well~
+  You are standing near a ruined stone well blocked by a big boulder on
+the well mouth. A cold breeze of fear, sweeps your face, as you feel the 
+shadows watching you!
+~
+0 ACD 0
+D0
+This direction leads back to store room of sewers.
+~
+~
+0 -1 16081
+D5
+A dim light of a flickering torch hits the southern wall of the well, 
+far down the stone pipe.
+~
+enterance~
+3 -1 561
+S
+#561
+Bottom of the Well~
+  This place is dimly lit by a flickering torch from a doorway leading north.
+A shadow from fire light dances on the far northern wall, which seems to 
+belong a strong human. Better consider going further, and climb back the 
+well.
+~
+0 ACD 0
+D0
+The doorway leads to a well lit chamber. On the wall is a huge shadow.
+~
+~
+0 -1 562
+D4
+You can only see the opening of the well.
+~
+enterance~
+3 -1 560
+S
+#562
+The bottomless pit~
+  You fall, forever downwards into the bottomless pit. About you blackness
+races, with no sign of a wall for support. You look up and see the same
+nothingness as you do downward. What awaits you at the bottom? Will you
+ever reach it?
+~
+0 ADN 0  
+D5
+Falling further into the black pit
+~
+~
+0 0 564
+S
+#563
+The bottomless pit~
+  You fall, forever downwards into the bottomless pit. About you blackness
+races, with no sign of a wall for support. You look up and see the same
+nothingness as you do downward. What awaits you at the bottom? Will you
+ever reach it?
+~
+0 ADN 0  
+D5
+Falling further into the black pit
+~
+~
+0 0 564
+S
+#564
+The bottomless pit~
+  You fall, forever downwards into the bottomless pit. About you blackness
+races, with no sign of a wall for support. You look up and see the same
+nothingness as you do downward. What awaits you at the bottom? Will you
+ever reach it?
+~
+0 ADN 0  
+D5
+Falling further into the black pit
+~
+~
+0 0 565
+S
+#565
+The bottomless pit~
+  You fall, forever downwards into the bottomless pit. About you blackness
+races, with no sign of a wall for support. You look up and see the same
+nothingness as you do downward. What awaits you at the bottom? Will you
+ever reach it?
+~
+0 ADN 0  
+D5
+Falling further into the black pit
+~
+~
+0 0 566
+S
+
+#566
+The bottomless pit~
+  You fall, forever downwards into the bottomless pit. About you blackness
+races, with no sign of a wall for support. You look up and see the same
+nothingness as you do downward. What awaits you at the bottom? Will you
+ever reach it? Desperately you pray for deliverence- you dont know if you
+have been heard.
+~
+0 AD 0 
+D5
+Falling further into the black pit or to the death.
+~
+~
+0 0 567
+S
+
+#567
+Shadowy chambers~
+  You are inside chamber, with dancing shadows on the walls. The walls are
+almost black in colour. It's as if it has been burnt by a powerful spell.
+The walls has small cracks along it and there are many symbols on them,
+mostly about death, eg. skulls, demon claws, fangs...
+~
+0 ADX 0
+D0
+It's dark to tell anything.
+~
+~
+5 -1 568
+D1
+It's dark to tell anything.
+~
+~
+0 -1 567
+D2
+It's too dark to tell anything.
+~
+~
+0 -1 569
+D3
+It's dark to tell anything.
+~
+~
+0 -1 567
+S
+#568
+The Pentagram~
+  Now, you have stepped into a large chamber hewn of black stone. A black
+altar rises from the space between the line in the center of pentagram. At
+the center of the pentagram, you see a human skull is on a huge altar. The
+room is lit by many candles  on the step surrounding the room. On the east
+wall is a large skin sheet with blood script on it. The title with big
+letters reads ' The Brotherhood of Invader's '. On the west wall there is
+a black stone with blood script on it. The title with big letters reads  
+'Death Angel'.
+~
+0 ADX 0 
+M 110
+D2 
+You see the dark corridor.
+~
+~
+0 -1 567
+S
+
+#569
+The Battle Field~
+  Most probably you fled here, if you are not a cabal member of INVADERS.
+Thus the darkness of the room horrifies you. While waiting the time
+that your adrenalin will calm down, you want to rest. But you know that
+this place is NOT the safe place to rest. Because it is Battle Field of
+INVADERS!
+~
+0 ADX 0 
+H 50
+M 50
+D0 
+You see the dark corridor.
+~
+~
+0 -1 567
+S
+
+#0
+
+
+#RESETS
+M 0 561   1 568  1    	*  Invader's healer
+M 0 560   1 567  1	*  Invader's keeper.
+E 0 562   0 11		*  Invader's key
+O 0 560   1 568       	*  Invader's container
+P 0 561   1 560  1	*    in to the container
+D 0 561   4 1		*  Invader's enterance
+D 0 560   5 1		*  Invader's enterance
+O 0 563   1 568       	*  Invader's white portal
+O 0 564   1 568       	*  Invader's dark portal
+O 0 565   1 568       	*  Invader's green portal
+
+
+S
+
+#SHOPS
+0
+#SPECIALS
+M 560 spec_fight_invader	* invader guardian 
+M 561 spec_cast_cabal		* healer of dark ones
+S
+
+#OMPROGS
+O 561 get_prog get_prog_cabal_item		
+O 561 sac_prog sac_prog_cabal_item		
+M 560 greet_prog greet_prog_invader	* chro
+S
+
+#PRACTICERS
+M 560 group_cabal	*guard
+S
+#$
