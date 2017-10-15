@@ -176,7 +176,7 @@ const   struct  spec_type    spec_table[] =
 /*
  * Given a name, return the appropriate spec fun.
  */
-SPEC_FUN *spec_lookup( const char *name )
+SPEC_FUN *spec_lookup( char *name )
 {
    int i;
  
@@ -197,7 +197,7 @@ char *spec_name( SPEC_FUN *function)
     for (i = 0; spec_table[i].function != NULL; i++)
     {
 	if (function == spec_table[i].function)
-	    return spec_table[i].name;
+	    return (char*)spec_table[i].name;
     }
 
     return NULL;
@@ -207,7 +207,7 @@ bool spec_troll_member( CHAR_DATA *ch)
 {
     CHAR_DATA *vch, *victim = NULL;
     int count = 0;
-    char *message;
+    const char *message;
 
     if (!IS_AWAKE(ch) || IS_AFFECTED(ch,AFF_CALM) || ch->in_room == NULL 
     ||  IS_AFFECTED(ch,AFF_CHARM) || ch->fighting != NULL)
@@ -266,7 +266,7 @@ bool spec_ogre_member( CHAR_DATA *ch)
 {
     CHAR_DATA *vch, *victim = NULL;
     int count = 0;
-    char *message;
+    const char *message;
  
     if (!IS_AWAKE(ch) || IS_AFFECTED(ch,AFF_CALM) || ch->in_room == NULL
     ||  IS_AFFECTED(ch,AFF_CHARM) || ch->fighting != NULL)
@@ -325,7 +325,7 @@ bool spec_patrolman(CHAR_DATA *ch)
 {
     CHAR_DATA *vch,*victim = NULL;
 /*    OBJ_DATA *obj; */
-    char *message;
+    const char *message;
     int count = 0;
 
     if (!IS_AWAKE(ch) || IS_AFFECTED(ch,AFF_CALM) || ch->in_room == NULL
@@ -459,21 +459,21 @@ bool spec_breath_any( CHAR_DATA *ch )
 
 bool spec_breath_acid( CHAR_DATA *ch )
 {
-    return dragon( ch, "acid breath" );
+    return dragon( ch, (char*)"acid breath" );
 }
 
 
 
 bool spec_breath_fire( CHAR_DATA *ch )
 {
-    return dragon( ch, "fire breath" );
+    return dragon( ch, (char*)"fire breath" );
 }
 
 
 
 bool spec_breath_frost( CHAR_DATA *ch )
 {
-    return dragon( ch, "frost breath" );
+    return dragon( ch, (char*)"frost breath" );
 }
 
 
@@ -495,7 +495,7 @@ bool spec_breath_gas( CHAR_DATA *ch )
 
 bool spec_breath_lightning( CHAR_DATA *ch )
 {
-    return dragon( ch, "lightning breath" );
+    return dragon( ch, (char*)"lightning breath" );
 }
 
 
@@ -591,7 +591,7 @@ bool spec_cast_judge( CHAR_DATA *ch )
 {
     CHAR_DATA *victim;
     CHAR_DATA *v_next;
-    char *spell;
+    const char *spell;
     int sn;
  
     if ( ch->position != POS_FIGHTING )
@@ -608,7 +608,7 @@ bool spec_cast_judge( CHAR_DATA *ch )
         return FALSE;
  
     spell = "high explosive";
-    if ( ( sn = skill_lookup( spell ) ) < 0 )
+    if ( ( sn = skill_lookup( (char*)spell ) ) < 0 )
         return FALSE;
     (*skill_table[sn].spell_fun) ( sn, ch->level, ch, victim,TARGET_CHAR);
     return TRUE;
@@ -644,7 +644,7 @@ bool spec_cast_undead( CHAR_DATA *ch )
 {
     CHAR_DATA *victim;
     CHAR_DATA *v_next;
-    char *spell;
+    const char *spell;
     int sn;
 
     if ( ch->position != POS_FIGHTING )
@@ -682,7 +682,7 @@ bool spec_cast_undead( CHAR_DATA *ch )
 	    break;
     }
 
-    if ( ( sn = skill_lookup( spell ) ) < 0 )
+    if ( ( sn = skill_lookup( (char*)spell ) ) < 0 )
 	return FALSE;
     say_spell(ch,sn);
     (*skill_table[sn].spell_fun) ( sn, ch->level, ch, victim,TARGET_CHAR);
@@ -695,7 +695,7 @@ bool spec_executioner( CHAR_DATA *ch )
     char buf[MAX_STRING_LENGTH];
     CHAR_DATA *victim;
     CHAR_DATA *v_next;
-    char *crime;
+    const char *crime;
 
     if ( !IS_AWAKE(ch) || ch->fighting != NULL )
 	return FALSE;
@@ -838,46 +838,46 @@ bool spec_mayor( CHAR_DATA *ch )
 	break;
 
     case 'a':
-	do_say( ch, "Hello Honey!" );
+	do_say( ch, (char*)"Hello Honey!" );
 	break;
 
     case 'b':
-	do_say(ch, "What a view!  I must do something about that dump!");
+	do_say(ch, (char*)"What a view!  I must do something about that dump!");
 	break;
 
     case 'c':
-	do_say(ch,"Vandals  Youngsters have no respect for anything!");
+	do_say(ch,(char*)"Vandals  Youngsters have no respect for anything!");
 	break;
 
     case 'd':
-	do_say(ch,"Good day, citizens!");
+	do_say(ch,(char*)"Good day, citizens!");
 	break;
 
     case 'e':
-	do_say(ch,"I hereby declare the city of Midgaard open!");
+	do_say(ch,(char*)"I hereby declare the city of Midgaard open!");
 	break;
 
     case 'E':
-	do_say(ch,"I hereby declare the city of Midgaard closed!");
+	do_say(ch,(char*)"I hereby declare the city of Midgaard closed!");
 	break;
 
     case 'O':
-	do_unlock( ch, "gate" );
-	do_open( ch, "gate" );
-	interpret( ch, "emote unlocks the gate key from the gate.",FALSE);
+	do_unlock( ch, (char*)"gate" );
+	do_open( ch, (char*)"gate" );
+	interpret( ch, (char*)"emote unlocks the gate key from the gate.",FALSE);
 	for( key=ch->in_room->contents; key!=NULL; key=key->next_content )
 	  if ( key->pIndexData->vnum == 3379 )
 	    break;
 	if ( key != NULL )
 	  SET_BIT( key->wear_flags, ITEM_TAKE );
-	do_get( ch, "gatekey" );
+	do_get( ch, (char*)"gatekey" );
 	break;
 
     case 'C':
-	do_close( ch, "gate" );
-	do_lock( ch, "gate" );
-	do_drop( ch, "key" );
-	interpret( ch, "emote locks the gate key to the gate, with chain.",FALSE);
+	do_close( ch, (char*)"gate" );
+	do_lock( ch, (char*)"gate" );
+	do_drop( ch, (char*)"key" );
+	interpret( ch, (char*)"emote locks the gate key to the gate, with chain.",FALSE);
 	for( key=ch->in_room->contents; key!=NULL; key=key->next_content )
 	  if ( key->pIndexData->vnum == 3379 )
 	    break;
@@ -1028,7 +1028,7 @@ bool spec_guard( CHAR_DATA *ch )
     CHAR_DATA *victim;
     CHAR_DATA *v_next;
     CHAR_DATA *ech;
-    char *crime;
+    const char *crime;
  
     if ( !IS_AWAKE(ch) || ch->fighting != NULL )
       return FALSE;
@@ -1045,16 +1045,16 @@ bool spec_guard( CHAR_DATA *ch )
 	if (IS_SET(ch->in_room->area->area_flag,AREA_HOMETOWN) 
 		&& number_percent() < 2 )
 	 {
-	  do_say( ch, "Do i know you?.");
+	  do_say( ch, (char*)"Do i know you?.");
  	  if (str_cmp(ch->in_room->area->name,
 		hometown_table[victim->hometown].name) )
 	   {
-		 do_say( ch, "I don't remember you. Go away!");
+		 do_say( ch, (char*)"I don't remember you. Go away!");
 	   }
 	  else 
 	   {
-		 do_say(ch, "Ok, my dear. I have just remembered.");
-		 interpret( ch, "smile",FALSE);
+		 do_say(ch, (char*)"Ok, my dear. I have just remembered.");
+		 interpret( ch, (char*)"smile",FALSE);
 	   }
 	 }
 
@@ -1097,7 +1097,7 @@ bool spec_special_guard( CHAR_DATA *ch )
     char buf[MAX_STRING_LENGTH];
     CHAR_DATA *victim, *ech;
     CHAR_DATA *v_next;
-    char *crime;
+    const char *crime;
 
     if ( !IS_AWAKE(ch) || ch->fighting != NULL )
 	return FALSE;
@@ -1156,7 +1156,7 @@ bool spec_stalker(CHAR_DATA *ch)
   if (ch->status == 10)
     {
       ch->cabal = CABAL_RULER;
-      do_cb(ch, "I have killed my victim, now I can leave the realms.");
+      do_cb(ch, (char*)"I have killed my victim, now I can leave the realms.");
       extract_char(ch, TRUE);
       return TRUE;
     }
@@ -1164,7 +1164,7 @@ bool spec_stalker(CHAR_DATA *ch)
   if (victim == NULL)
     {
       ch->cabal = CABAL_RULER;
-      do_cb(ch, "To their shame, my victim has cowardly left the game. I must leave also.");
+      do_cb(ch, (char*)"To their shame, my victim has cowardly left the game. I must leave also.");
       extract_char(ch, TRUE);
       return TRUE;
     }
@@ -1257,7 +1257,7 @@ bool spec_nasty( CHAR_DATA *ch )
                  ch->gold     += gold;
                  return TRUE;
  
-        case 1:  do_flee( ch, "");
+        case 1:  do_flee( ch, (char*)"");
                  return TRUE;
  
         default: return FALSE;
@@ -1269,7 +1269,7 @@ bool spec_questmaster( CHAR_DATA *ch )
     if ( !IS_AWAKE(ch) )
         return FALSE;
     if (number_range(0,100) == 0) {
-        do_say(ch, "Don't you want a quest???.");
+        do_say(ch, (char*)"Don't you want a quest???.");
         return TRUE;
     }
     return FALSE;
@@ -1338,7 +1338,7 @@ bool spec_repairman( CHAR_DATA *ch )
         return FALSE;
     if (number_range(0,100) == 0) 
     {
-        do_say(ch, "Now it is time to repair the other equipments.");
+        do_say(ch, (char*)"Now it is time to repair the other equipments.");
         return TRUE;
     }
     return FALSE;
@@ -1434,45 +1434,45 @@ NULL, NULL, TO_ROOM, POS_RESTING,CLR_YELLOW );
 	break;
  
     case 'O':
-	do_unlock( ch, "gate" );
-	do_open( ch, "gate" );
+	do_unlock( ch, (char*)"gate" );
+	do_open( ch, (char*)"gate" );
 	break;
  
     case 'C':
-	do_close( ch, "gate" );
-	do_lock( ch, "gate" );
+	do_close( ch, (char*)"gate" );
+	do_lock( ch, (char*)"gate" );
 	break;
  
     case 'n':
-	do_open( ch, "north" );
+	do_open( ch, (char*)"north" );
 	break;
 
     case 'o':
-        do_close( ch, "south" );
+        do_close( ch, (char*)"south" );
         break;
  
     case 's':
-	do_open( ch, "south" );
+	do_open( ch, (char*)"south" );
 	break;
 
     case 't':
-        do_close( ch, "north" );
+        do_close( ch, (char*)"north" );
         break;
  
     case 'e':
-	do_open( ch, "east" );
+	do_open( ch, (char*)"east" );
 	break;
  
     case 'f':
-        do_close( ch, "west" );
+        do_close( ch, (char*)"west" );
         break;
 
     case 'w':
-	do_open( ch, "west" );
+	do_open( ch, (char*)"west" );
 	break;
 
     case 'x':
-        do_close( ch, "east" );
+        do_close( ch, (char*)"east" );
         break;
  
     case '.' :
@@ -1555,7 +1555,7 @@ bool spec_cast_beholder( CHAR_DATA *ch )
 {
     CHAR_DATA *victim;
     CHAR_DATA *v_next;
-    char *spell;
+    const char *spell;
     int sn;
 
     if ( ch->position != POS_FIGHTING )
@@ -1586,7 +1586,7 @@ bool spec_cast_beholder( CHAR_DATA *ch )
 	default: spell = "";     break;
 	}
 
-    if ( ( sn = skill_lookup( spell ) ) < 0 )
+    if ( ( sn = skill_lookup( (char*)spell ) ) < 0 )
 	return FALSE;
     (*skill_table[sn].spell_fun) ( sn, ch->level, ch, victim,TARGET_CHAR);
     return TRUE;
@@ -1598,7 +1598,7 @@ bool spec_fight_enforcer( CHAR_DATA *ch )
 {
     CHAR_DATA *victim;
     CHAR_DATA *v_next;
-    char *spell;
+    const char *spell;
     int sn;
 
     if ( ch->position != POS_FIGHTING )
@@ -1631,7 +1631,7 @@ bool spec_fight_enforcer( CHAR_DATA *ch )
 	default: spell = "";     break;
 	}
 
-    if ( ( sn = skill_lookup( spell ) ) < 0 )
+    if ( ( sn = skill_lookup( (char*)spell ) ) < 0 )
 	return FALSE;
     say_spell(ch,sn);
     (*skill_table[sn].spell_fun) ( sn, ch->level, ch, victim,TARGET_CHAR);
@@ -1643,7 +1643,7 @@ bool spec_fight_invader( CHAR_DATA *ch )
 {
     CHAR_DATA *victim;
     CHAR_DATA *v_next;
-    char *spell;
+    const char *spell;
     int sn;
 
     if ( ch->position != POS_FIGHTING )
@@ -1685,7 +1685,7 @@ bool spec_fight_invader( CHAR_DATA *ch )
 	default: spell = "";     break;
 	}
 
-    if ( ( sn = skill_lookup( spell ) ) < 0 )
+    if ( ( sn = skill_lookup( (char*)spell ) ) < 0 )
 	return FALSE;
     say_spell(ch,sn);
     (*skill_table[sn].spell_fun) ( sn, ch->level, ch, victim,TARGET_CHAR);
@@ -1697,7 +1697,7 @@ bool spec_fight_ivan( CHAR_DATA *ch )
 {
     CHAR_DATA *victim;
     CHAR_DATA *v_next;
-    char *spell;
+    const char *spell;
     int sn;
 
     if ( ch->position != POS_FIGHTING )
@@ -1734,7 +1734,7 @@ bool spec_fight_ivan( CHAR_DATA *ch )
 	default: spell = "";     break;
 	}
 
-    if ( ( sn = skill_lookup( spell ) ) < 0 )
+    if ( ( sn = skill_lookup( (char*)spell ) ) < 0 )
 	return FALSE;
     say_spell(ch,sn);
     (*skill_table[sn].spell_fun) ( sn, ch->level, ch, victim,TARGET_CHAR);
@@ -1746,7 +1746,7 @@ bool spec_fight_seneschal( CHAR_DATA *ch )
 {
     CHAR_DATA *victim;
     CHAR_DATA *v_next;
-    char *spell;
+    const char *spell;
     int sn;
 
     if ( ch->position != POS_FIGHTING )
@@ -1784,7 +1784,7 @@ bool spec_fight_seneschal( CHAR_DATA *ch )
 	default: spell = "";     break;
 	}
 
-    if ( ( sn = skill_lookup( spell ) ) < 0 )
+    if ( ( sn = skill_lookup( (char*)spell ) ) < 0 )
 	return FALSE;
     say_spell(ch,sn);
     (*skill_table[sn].spell_fun) ( sn, ch->level, ch, victim,TARGET_CHAR);
@@ -1803,7 +1803,7 @@ bool spec_fight_powerman( CHAR_DATA *ch )
     ch->cabal = CABAL_BATTLE;
 
     if ( !is_affected(ch, gsn_spellbane))
-	do_spellbane(ch, "");
+	do_spellbane(ch, (char*)"");
 
     for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
     {
@@ -1826,10 +1826,10 @@ bool spec_fight_powerman( CHAR_DATA *ch )
     }
     
     if ( !is_affected(ch, gsn_resistance))
-	do_resistance(ch, "");
+	do_resistance(ch, (char*)"");
 	
     if ( ch->hit < (ch->max_hit /3) && !IS_AFFECTED(ch, AFF_REGENERATION))
-	do_bandage(ch, "");
+	do_bandage(ch, (char*)"");
 
     return TRUE;
 }
@@ -1839,7 +1839,7 @@ bool spec_fight_protector( CHAR_DATA *ch )
 {
     CHAR_DATA *victim;
     CHAR_DATA *v_next;
-    char *spell;
+    const char *spell;
     int sn;
 
     if ( ch->position != POS_FIGHTING )
@@ -1872,7 +1872,7 @@ bool spec_fight_protector( CHAR_DATA *ch )
 	default: spell = "";     break;
 	}
 
-    if ( ( sn = skill_lookup( spell ) ) < 0 )
+    if ( ( sn = skill_lookup( (char*)spell ) ) < 0 )
 	return FALSE;
     say_spell(ch,sn);
     (*skill_table[sn].spell_fun) ( sn, ch->level, ch, victim,TARGET_CHAR);
@@ -1884,7 +1884,7 @@ bool spec_fight_lionguard( CHAR_DATA *ch )
 {
     CHAR_DATA *victim;
     CHAR_DATA *v_next;
-    char *spell;
+    const char *spell;
     int sn;
 
     if ( ch->position != POS_FIGHTING )
@@ -1925,7 +1925,7 @@ bool spec_fight_lionguard( CHAR_DATA *ch )
 	default: spell = "";     break;
      }
 
-    if ( ( sn = skill_lookup( spell ) ) < 0 )
+    if ( ( sn = skill_lookup( (char*)spell ) ) < 0 )
 	return FALSE;
     say_spell(ch,sn);
     (*skill_table[sn].spell_fun) ( sn, ch->level, ch, victim,TARGET_CHAR);
@@ -1937,7 +1937,7 @@ bool spec_fight_hunter( CHAR_DATA *ch )
 {
     CHAR_DATA *victim;
     CHAR_DATA *v_next;
-    char *spell;
+    const char *spell;
     int sn;
 
     if ( ch->position != POS_FIGHTING )
@@ -1968,7 +1968,7 @@ bool spec_fight_hunter( CHAR_DATA *ch )
     if ( victim == NULL )
 	return FALSE;
 
-    if ( ( sn = skill_lookup( spell ) ) < 0 )
+    if ( ( sn = skill_lookup( (char*)spell ) ) < 0 )
 	return FALSE;
     say_spell(ch,sn);
     (*skill_table[sn].spell_fun) ( sn, ch->level, ch, victim,TARGET_CHAR);

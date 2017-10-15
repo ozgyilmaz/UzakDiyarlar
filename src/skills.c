@@ -80,9 +80,9 @@ void do_gain(CHAR_DATA *ch, char *argument)
 
     if (arg[0] == '\0')
     {
-	do_say(trainer,"You may convert 10 practices into 1 train.");
-	do_say(trainer,"You may revert 1 train into 10 practices.");
-	do_say(trainer,"Simply type 'gain convert' or 'gain revert'.");
+	do_say(trainer,(char*)"You may convert 10 practices into 1 train.");
+	do_say(trainer,(char*)"You may revert 1 train into 10 practices.");
+	do_say(trainer,(char*)"Simply type 'gain convert' or 'gain revert'.");
 	return;
     }
 

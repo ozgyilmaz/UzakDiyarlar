@@ -65,7 +65,7 @@ bool is_at_cabal_area   args( (CHAR_DATA *ch) );
 
 
 
-char *	const	dir_name	[]		=
+const char *	dir_name	[]		=
 {
     "north", "east", "south", "west", "up", "down"
 };
@@ -410,7 +410,7 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
 	else act( "$n has arrived.", ch, NULL, NULL, TO_ROOM );
       }
 
-    do_look( ch, "auto" );
+    do_look( ch, (char*)"auto" );
 
     if (mount)
 	{
@@ -461,7 +461,7 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
 
 	if ( fch->master == ch && IS_AFFECTED(fch,AFF_CHARM) 
 	&&   fch->position < POS_STANDING)
-	    do_stand(fch,"");
+	    do_stand(fch,(char*)"");
 
 	if ( fch->master == ch && fch->position == POS_STANDING 
 	&&   can_see_room(fch,to_room))
@@ -631,7 +631,7 @@ int find_door( CHAR_DATA *ch, char *arg )
 
 /* scan.c */
 
-char *const distance[4]=
+const char * distance[4]=
 {
 "right here.", "nearby to the %s.", "not far %s.", "off in the distance %s."
 };
@@ -1339,7 +1339,7 @@ void do_stand( CHAR_DATA *ch, char *argument )
 	}
 
 	ch->position = POS_STANDING;
-	do_look(ch,"auto");
+	do_look(ch,(char*)"auto");
 	break;
 
     case POS_RESTING: case POS_SITTING:
@@ -1776,7 +1776,7 @@ void do_wake( CHAR_DATA *ch, char *argument )
 	{ act( "You can't wake $M!",   ch, NULL, victim, TO_CHAR );  return; }
 
     act_new( "$n wakes you.", ch, NULL, victim, TO_VICT,POS_SLEEPING );
-    do_stand(victim,"");
+    do_stand(victim,(char*)"");
     return;
 }
 
@@ -2060,13 +2060,13 @@ void do_recall( CHAR_DATA *ch, char *argument )
     char_from_room( ch );
     char_to_room( ch, location );
     act( "$n appears in the room.", ch, NULL, NULL, TO_ROOM );
-    do_look( ch, "auto" );
+    do_look( ch, (char*)"auto" );
     
     if (ch->pet != NULL)
       {
  	char_from_room( ch->pet );
 	char_to_room( ch->pet, location );
-	do_look(ch->pet, "auto" );
+	do_look(ch->pet, (char*)"auto" );
       }
 
     return;
@@ -2104,7 +2104,7 @@ void do_train( CHAR_DATA *ch, char *argument )
     {
 	sprintf( buf, "You have %d training sessions.\n\r", ch->train );
 	send_to_char( buf, ch );
-	argument = "foo";
+	argument = (char*)"foo";
     }
 
     cost = 1;
@@ -2114,7 +2114,7 @@ void do_train( CHAR_DATA *ch, char *argument )
 	if ( class_table[ch->iclass].attr_prime == STAT_STR )
 	    cost    = 1;
 	stat        = STAT_STR;
-	pOutput     = "strength";
+	pOutput     = (char*)"strength";
     }
 
     else if ( !str_cmp( argument, "int" ) )
@@ -2122,7 +2122,7 @@ void do_train( CHAR_DATA *ch, char *argument )
 	if ( class_table[ch->iclass].attr_prime == STAT_INT )
 	    cost    = 1;
 	stat	    = STAT_INT;
-	pOutput     = "intelligence";
+	pOutput     = (char*)"intelligence";
     }
 
     else if ( !str_cmp( argument, "wis" ) )
@@ -2130,7 +2130,7 @@ void do_train( CHAR_DATA *ch, char *argument )
 	if ( class_table[ch->iclass].attr_prime == STAT_WIS )
 	    cost    = 1;
 	stat	    = STAT_WIS;
-	pOutput     = "wisdom";
+	pOutput     = (char*)"wisdom";
     }
 
     else if ( !str_cmp( argument, "dex" ) )
@@ -2138,7 +2138,7 @@ void do_train( CHAR_DATA *ch, char *argument )
 	if ( class_table[ch->iclass].attr_prime == STAT_DEX )
 	    cost    = 1;
 	stat  	    = STAT_DEX;
-	pOutput     = "dexterity";
+	pOutput     = (char*)"dexterity";
     }
 
     else if ( !str_cmp( argument, "con" ) )
@@ -2146,7 +2146,7 @@ void do_train( CHAR_DATA *ch, char *argument )
 	if ( class_table[ch->iclass].attr_prime == STAT_CON )
 	    cost    = 1;
 	stat	    = STAT_CON;
-	pOutput     = "constitution";
+	pOutput     = (char*)"constitution";
     }
 
     else if ( !str_cmp( argument, "cha") )
@@ -2154,7 +2154,7 @@ void do_train( CHAR_DATA *ch, char *argument )
 	if ( class_table[ch->iclass].attr_prime == STAT_CHA )
 	    cost    = 1;
 	stat	    = STAT_CHA;
-	pOutput     = "charisma";
+	pOutput     = (char*)"charisma";
 /*
 	sprintf( buf,
  "You can't train charisma. That is about your behaviour.\n\r");
@@ -2268,7 +2268,7 @@ void do_track(CHAR_DATA *ch, char *argument)
   ROOM_HISTORY_DATA *rh;
   EXIT_DATA *pexit;
   char buf[MAX_STRING_LENGTH];
-  static char *door[] = { "north","east","south","west","up","down",
+  static const char *door[] = { "north","east","south","west","up","down",
                             "that way" };
   int d;
 
@@ -2778,7 +2778,7 @@ void do_vanish( CHAR_DATA *ch, char *argument )
   char_from_room( ch );
   char_to_room( ch, pRoomIndex );
   act( "$n appears from nowhere.", ch, NULL, NULL, TO_ROOM );
-  do_look( ch, "auto" );
+  do_look( ch, (char*)"auto" );
   stop_fighting(ch,TRUE);
   return;
 }
@@ -2916,7 +2916,7 @@ void do_vtouch(CHAR_DATA *ch, char *argument)
 	damage(ch,victim,0,gsn_vampiric_touch,DAM_NONE, TRUE);
 	check_improve(ch,gsn_vampiric_touch,FALSE,1);
         if (!can_see(victim, ch))
-          do_yell(victim, "Help! I'm being strangled by someone!");
+          do_yell(victim, (char*)"Help! I'm being strangled by someone!");
         else
         {
             sprintf(buf, "Help! I'm being attacked by %s!",
@@ -3204,13 +3204,13 @@ void do_crecall( CHAR_DATA *ch, char *argument )
     char_from_room( ch );
     char_to_room( ch, location );
     act( "$n appears in the room.", ch, NULL, NULL, TO_ROOM );
-    do_look( ch, "auto" );
+    do_look( ch, (char*)"auto" );
     
     if (ch->pet != NULL)
       {
  	char_from_room( ch->pet );
 	char_to_room( ch->pet, location );
-	do_look(ch->pet, "auto" );
+	do_look(ch->pet, (char*)"auto" );
       }
 
     af.type      = gsn_cabal_recall;

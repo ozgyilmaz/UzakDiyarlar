@@ -194,7 +194,7 @@ void check_assist(CHAR_DATA *ch,CHAR_DATA *victim)
 	    && IS_SET(rch->off_flags,ASSIST_PLAYERS)
 	    &&  rch->level + 6 > victim->level)
 	    {
-		do_emote(rch,"screams and attacks!");
+		do_emote(rch,(char*)"screams and attacks!");
 		multi_hit(rch,victim,TYPE_UNDEFINED);
 		continue;
 	    }
@@ -258,7 +258,7 @@ void check_assist(CHAR_DATA *ch,CHAR_DATA *victim)
 
 		    if (target != NULL)
 		    {
-			do_emote(rch,"screams and attacks!");
+			do_emote(rch,(char*)"screams and attacks!");
 			multi_hit(rch,target,TYPE_UNDEFINED);
 		    }
 		}	
@@ -289,7 +289,7 @@ void multi_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
 	 if (victim->mount->fighting == NULL
 	     || victim->mount->fighting == ch) 
 	 victim = victim->mount;
-	 else do_dismount(victim->mount,"");
+	 else do_dismount(victim->mount,(char*)"");
 	}
 
     /* no attacks on ghosts or attacks by ghosts */
@@ -540,12 +540,12 @@ void mob_hit (CHAR_DATA *ch, CHAR_DATA *victim, int dt)
     {
     case (0) :
 	if (IS_SET(ch->off_flags,OFF_BASH))
-	    do_bash(ch,"");
+	    do_bash(ch,(char*)"");
 	break;
 
     case (1) :
 	if (IS_SET(ch->off_flags,OFF_BERSERK) && !IS_AFFECTED(ch,AFF_BERSERK))
-	    do_berserk(ch,"");
+	    do_berserk(ch,(char*)"");
 	break;
 
 
@@ -554,31 +554,31 @@ void mob_hit (CHAR_DATA *ch, CHAR_DATA *victim, int dt)
 	|| (get_weapon_sn(ch,FALSE) != gsn_hand_to_hand 
 	&& (IS_SET(ch->act,ACT_WARRIOR)
    	||  IS_SET(ch->act,ACT_THIEF))))
-	    do_disarm(ch,"");
+	    do_disarm(ch,(char*)"");
 	break;
 
     case (3) :
 	if (IS_SET(ch->off_flags,OFF_KICK))
-	    do_kick(ch,"");
+	    do_kick(ch,(char*)"");
 	break;
 
     case (4) :
 	if (IS_SET(ch->off_flags,OFF_KICK_DIRT))
-	    do_dirt(ch,"");
+	    do_dirt(ch,(char*)"");
 	break;
 
     case (5) :
 	if (IS_SET(ch->off_flags,OFF_TAIL))
-	  do_tail(ch,"");
+	  do_tail(ch,(char*)"");
 	break; 
 
     case (6) :
 	if (IS_SET(ch->off_flags,OFF_TRIP))
-	    do_trip(ch,"");
+	    do_trip(ch,(char*)"");
 	break;
     case (7) :
 	if (IS_SET(ch->off_flags,OFF_CRUSH))
-	    do_crush(ch,"");
+	    do_crush(ch,(char*)"");
 	break;
     }
 }
@@ -1000,25 +1000,27 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 	    raw_kill(victim);
 	    if ( !IS_NPC(ch) && IS_NPC(victim) )
 	      {
-		corpse = get_obj_list( ch, "corpse", ch->in_room->contents ); 
+		corpse = get_obj_list( ch, (char*)"corpse", ch->in_room->contents ); 
 		
 		if ( IS_SET(ch->act, PLR_AUTOLOOT) &&
 		    corpse && corpse->contains) /* exists and not empty */
-		  do_get( ch, "all corpse" );
+		  do_get( ch, (char*)"all corpse" );
 		
 		if (IS_SET(ch->act,PLR_AUTOGOLD) &&
 		    corpse && corpse->contains  && /* exists and not empty */
 		    !IS_SET(ch->act,PLR_AUTOLOOT))  {
-		  do_get(ch, "gold corpse");
-		  do_get(ch, "silver corpse");
+		  do_get(ch, (char*)"gold corpse");
+		  do_get(ch, (char*)"silver corpse");
 		}
 
 		if ( IS_SET(ch->act, PLR_AUTOSAC) )
+		{
 		  if (IS_SET(ch->act,PLR_AUTOLOOT) && corpse
 		      && corpse->contains)
 		    return;  /* leave if corpse has treasure */
 		  else
-		    do_sacrifice( ch, "corpse" );
+		    do_sacrifice( ch, (char*)"corpse" );
+		    }
 	      }
 	    return;
 	  }
@@ -1042,23 +1044,25 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 	    raw_kill(victim);
 	    if ( !IS_NPC(ch) && IS_NPC(victim) )
 	      {
-		corpse = get_obj_list( ch, "corpse", ch->in_room->contents ); 
+		corpse = get_obj_list( ch, (char*)"corpse", ch->in_room->contents ); 
 		
 		if ( IS_SET(ch->act, PLR_AUTOLOOT) &&
 		    corpse && corpse->contains) /* exists and not empty */
-		  do_get( ch, "all corpse" );
+		  do_get( ch, (char*)"all corpse" );
 		
 		if (IS_SET(ch->act,PLR_AUTOGOLD) &&
 		    corpse && corpse->contains  && /* exists and not empty */
 		    !IS_SET(ch->act,PLR_AUTOLOOT))
-		  do_get(ch, "gold corpse");
+		  do_get(ch, (char*)"gold corpse");
 		
 		if ( IS_SET(ch->act, PLR_AUTOSAC) )
+		{
 		  if ( IS_SET(ch->act,PLR_AUTOLOOT) && corpse
 		      && corpse->contains)
 		    return;  /* leave if corpse has treasure */
 		  else
-		    do_sacrifice( ch, "corpse" );
+		    do_sacrifice( ch, (char*)"corpse" );
+		    }
 	      }
 	    return;
 
@@ -1291,7 +1295,7 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 	|| IS_SET(ch->affected_by, AFF_CAMOUFLAGE)
 	|| IS_SET(ch->affected_by, AFF_IMP_INVIS) 
 	|| CAN_DETECT(ch, ADET_EARTHFADE) )
-      do_visible(ch, "");
+      do_visible(ch, (char*)"");
 
     /*
      * Damage modifiers.
@@ -1542,7 +1546,7 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 		    victim->position = POS_STANDING;
                     sprintf( strsave, "%s%s", PLAYER_DIR, capitalize( victim->name ) );
                     wiznet("$N is deleted due to 10 deaths limit of Samurai.",ch,NULL,0,0,0);
-                    do_quit_count(victim,"");
+                    do_quit_count(victim,(char*)"");
                     unlink(strsave);
                     return TRUE;
 							}
@@ -1562,7 +1566,7 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 		    victim->position = POS_STANDING;
                     sprintf( strsave, "%s%s", PLAYER_DIR, capitalize( victim->name ) );
                     wiznet("$N is deleted due to lack of CON.",ch,NULL,0,0,0);
-                    do_quit_count(victim,"");
+                    do_quit_count(victim,(char*)"");
                     unlink(strsave);
                     return TRUE;
 		  }
@@ -1592,16 +1596,16 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 
 	if ( !IS_NPC(ch) && IS_NPC(victim) )
 	{
-	    corpse = get_obj_list( ch, "corpse", ch->in_room->contents ); 
+	    corpse = get_obj_list( ch, (char*)"corpse", ch->in_room->contents ); 
 
 	    if ( IS_SET(ch->act, PLR_AUTOLOOT) &&
 		 corpse && corpse->contains) /* exists and not empty */
-		do_get( ch, "all corpse" );
+		do_get( ch, (char*)"all corpse" );
 
  	    if (IS_SET(ch->act,PLR_AUTOGOLD) &&
 	        corpse && corpse->contains  && /* exists and not empty */
 		!IS_SET(ch->act,PLR_AUTOLOOT))
-	      do_get(ch, "gold corpse");
+	      do_get(ch, (char*)"gold corpse");
             
 	    if ( ch->iclass == CLASS_VAMPIRE && ch->level > 10 && corpse)
 		{
@@ -1613,10 +1617,12 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 		}
 
 	    if ( IS_SET(ch->act, PLR_AUTOSAC) )
+	    {
        	      if ( IS_SET(ch->act,PLR_AUTOLOOT) && corpse && corpse->contains)
 		return TRUE;  /* leave if corpse has treasure */
 	      else
-		do_sacrifice( ch, "corpse" );
+		do_sacrifice( ch, (char*)"corpse" );
+		}
 	}
 
 	return TRUE;
@@ -1632,8 +1638,8 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
     {
 	if ( number_range( 0, victim->wait ) == 0 )
 	{
-	    if (victim->level < 11) do_recall( victim, "" );
-	    else do_flee( victim, "" );
+	    if (victim->level < 11) do_recall( victim, (char*)"" );
+	    else do_flee( victim, (char*)"" );
 	    return TRUE;
 	}
     }
@@ -1649,7 +1655,7 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 	&&     victim->master->in_room != victim->in_room ) )
 	|| ( CAN_DETECT(victim,ADET_FEAR) && !IS_SET(victim->act,ACT_NOTRACK) ))
 	   {
-	    do_flee( victim, "" );
+	    do_flee( victim, (char*)"" );
 	    victim->last_fought = NULL;
 	   }
     }
@@ -1658,7 +1664,7 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
     &&   victim->hit > 0
     &&   ( victim->hit <= victim->wimpy || CAN_DETECT(victim, ADET_FEAR) )
     &&   victim->wait < PULSE_VIOLENCE / 2 )
-	do_flee( victim, "" );
+	do_flee( victim, (char*)"" );
 
     tail_chain( );
     return TRUE;
@@ -2256,7 +2262,7 @@ void death_cry( CHAR_DATA *ch )
 void death_cry_org( CHAR_DATA *ch, int part )
 {
     ROOM_INDEX_DATA *was_in_room;
-    char *msg;
+    const char *msg;
     int door;
     int vnum;
 
@@ -3014,7 +3020,7 @@ void do_murder( CHAR_DATA *ch, char *argument )
 
     WAIT_STATE( ch, 1 * PULSE_VIOLENCE );
     if (!can_see(victim, ch))
-      do_yell(victim, "Help! I am being attacked by someone!");
+      do_yell(victim, (char*)"Help! I am being attacked by someone!");
     else
       {
 	if (IS_NPC(ch))
@@ -3067,7 +3073,7 @@ void do_flee( CHAR_DATA *ch, char *argument )
     }
 
     if (MOUNTED(ch))
-	do_dismount(ch,"");
+	do_dismount(ch,(char*)"");
     
     if ( ( victim = ch->fighting ) == NULL )
     {
@@ -3302,7 +3308,7 @@ void do_dishonor( CHAR_DATA *ch, char *argument )
 
 	stop_fighting( ch, TRUE );
     	if (MOUNTED(ch))
-		do_dismount(ch,"");
+		do_dismount(ch,(char*)"");
     
 	return;
     }
@@ -3315,7 +3321,7 @@ void do_dishonor( CHAR_DATA *ch, char *argument )
 
 bool mob_cast_cleric( CHAR_DATA *ch, CHAR_DATA *victim )
 {
-    char *spell;
+    const char *spell;
     int sn;
 
     for ( ;; )
@@ -3355,7 +3361,7 @@ bool mob_cast_cleric( CHAR_DATA *ch, CHAR_DATA *victim )
 
 bool mob_cast_mage( CHAR_DATA *ch, CHAR_DATA *victim )
 {
-    char *spell;
+    const char *spell;
     int sn;
 
     for ( ;; )

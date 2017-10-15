@@ -320,19 +320,19 @@ void bribe_prog_cityguard(CHAR_DATA *mob, CHAR_DATA *ch, int amount)
 {
   if (amount < 100)
     {
-      do_say(mob, "You cheapskate!!!");
+      do_say(mob, (char*)"You cheapskate!!!");
       do_murder(mob, ch->name);
       return;
     }
   else if (amount >= 5000)
     {
-      interpret(mob, "smile", FALSE);
-      do_sleep(mob, "");
+      interpret(mob, (char*)"smile", FALSE);
+      do_sleep(mob, (char*)"");
       return;
     }
   else 
     {
-      do_say(mob, "Trying to bribe me, eh? It'll cost ya more than that.");
+      do_say(mob, (char*)"Trying to bribe me, eh? It'll cost ya more than that.");
       return;
     }
 }
@@ -346,20 +346,20 @@ void greet_prog_shalafi(CHAR_DATA *mob,CHAR_DATA *ch)
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
  
   if (ch->cabal == CABAL_SHALAFI) {
-    do_say(mob, "Greetings, wise one.");
+    do_say(mob, (char*)"Greetings, wise one.");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, "Ghosts are not allowed in this place.");
+      do_say(mob, (char*)"Ghosts are not allowed in this place.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, "Intruder! Intruder!");
-  do_say(mob, "You should never disturb my cabal!");
+  do_cb(mob, (char*)"Intruder! Intruder!");
+  do_say(mob, (char*)"You should never disturb my cabal!");
 }
 
 void greet_prog_invader(CHAR_DATA *mob,CHAR_DATA *ch)
@@ -371,20 +371,20 @@ void greet_prog_invader(CHAR_DATA *mob,CHAR_DATA *ch)
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
  
   if (ch->cabal == CABAL_INVADER) {
-    do_say(mob, "Greetings, dark one.");
+    do_say(mob, (char*)"Greetings, dark one.");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, "Ghosts are not allowed in this place.");
+      do_say(mob, (char*)"Ghosts are not allowed in this place.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, "Intruder! Intruder!");
-  if (!IS_NPC(ch))  do_say(mob, "You should never disturb my cabal!");
+  do_cb(mob, (char*)"Intruder! Intruder!");
+  if (!IS_NPC(ch))  do_say(mob, (char*)"You should never disturb my cabal!");
 }
 
 void greet_prog_ruler_pre(CHAR_DATA *mob,CHAR_DATA *ch)
@@ -400,8 +400,8 @@ void greet_prog_ruler_pre(CHAR_DATA *mob,CHAR_DATA *ch)
     return;
   }
 
-  do_say( mob, "Do not go further and leave the square." );
-  do_say( mob, "This place is private." );
+  do_say( mob, (char*)"Do not go further and leave the square." );
+  do_say( mob, (char*)"This place is private." );
   return;  
 }
 
@@ -422,15 +422,15 @@ void greet_prog_ruler(CHAR_DATA *mob,CHAR_DATA *ch)
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, "Ghosts are not allowed in this place.");
+      do_say(mob, (char*)"Ghosts are not allowed in this place.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, "Intruder! Intruder!");
-  do_say(mob, "You should never disturb my cabal!");
+  do_cb(mob, (char*)"Intruder! Intruder!");
+  do_say(mob, (char*)"You should never disturb my cabal!");
 }
 
 void greet_prog_chaos(CHAR_DATA *mob,CHAR_DATA *ch)
@@ -442,20 +442,20 @@ void greet_prog_chaos(CHAR_DATA *mob,CHAR_DATA *ch)
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
  
   if (ch->cabal == CABAL_CHAOS) {
-    do_say(mob, "Greetings, chaotic one.");
+    do_say(mob, (char*)"Greetings, chaotic one.");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, "Ghosts are not allowed in this place.");
+      do_say(mob, (char*)"Ghosts are not allowed in this place.");
       do_slay(mob, ch->name);
       return;
     }
     
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, "Intruder! Intruder!");
-  do_say(mob, "You should never disturb my cabal!");
+  do_cb(mob, (char*)"Intruder! Intruder!");
+  do_say(mob, (char*)"You should never disturb my cabal!");
 }
 
 void greet_prog_battle(CHAR_DATA *mob, CHAR_DATA *ch)
@@ -467,20 +467,20 @@ void greet_prog_battle(CHAR_DATA *mob, CHAR_DATA *ch)
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
  
   if (ch->cabal == CABAL_BATTLE) {
-    do_say(mob, "Welcome, great warrior.");
+    do_say(mob, (char*)"Welcome, great warrior.");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, "Ghosts are not allowed in this place.");
+      do_say(mob, (char*)"Ghosts are not allowed in this place.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, "Intruder! Intruder!");
-  do_say(mob, "You should never disturb my cabal!");
+  do_cb(mob, (char*)"Intruder! Intruder!");
+  do_say(mob, (char*)"You should never disturb my cabal!");
 }
 
 
@@ -491,28 +491,28 @@ void give_prog_keeper(CHAR_DATA *mob, CHAR_DATA *ch, OBJ_DATA *obj)
 
   if (obj->pIndexData->vnum == 90) 
     {
-      do_say(mob, "Finally, the dress I sent for!");
+      do_say(mob, (char*)"Finally, the dress I sent for!");
       act("$n tucks the dress away under her desk.",mob,NULL,NULL,TO_ROOM);
       obj_from_char(obj);
       extract_obj(obj);
-      if ((rug = get_obj_carry(ch, "rug")) != NULL)
+      if ((rug = get_obj_carry(ch, (char*)"rug")) != NULL)
 	{
-	  do_say(mob, "I suppose you'll want to see the FireFlash now");
-	  do_say(mob, "Be careful, she's been in a nasty mood.");
-	  do_unlock (mob, "door");
-	  do_open (mob, "door");
+	  do_say(mob, (char*)"I suppose you'll want to see the FireFlash now");
+	  do_say(mob, (char*)"Be careful, she's been in a nasty mood.");
+	  do_unlock (mob, (char*)"door");
+	  do_open (mob, (char*)"door");
 	}
       else
 	{
-  do_say(mob, "It doesn't look like you have any business with the FireFlash.");
-  do_say(mob, "I suggest you leave and find some before coming here again.");
+  do_say(mob, (char*)"It doesn't look like you have any business with the FireFlash.");
+  do_say(mob, (char*)"I suggest you leave and find some before coming here again.");
 	}
     }
     else
     {
      sprintf(buf,"%s %s",obj->name,ch->name);
      do_give(mob,buf);
-     do_say(mob,"Why do i need this?.");	
+     do_say(mob,(char*)"Why do i need this?.");	
     }
  return;
 }
@@ -530,7 +530,7 @@ void speech_prog_keeper(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
       act("$n fashions a white gown out of the bolt of silk.", mob, NULL, 
 	NULL, TO_ROOM);
       act("You make a white gown for the Keeper.", mob, NULL, NULL, TO_CHAR);
-      do_say(mob, "Here is the dress for the keeper.");
+      do_say(mob, (char*)"Here is the dress for the keeper.");
       obj_to_char(obj, ch);
     }
 }
@@ -543,21 +543,21 @@ void greet_prog_fireflash(CHAR_DATA *mob, CHAR_DATA *ch)
   if (!can_see(mob,ch) || IS_NPC(ch) || IS_IMMORTAL(ch))
     return;
 
-  if ((obj = get_obj_carry(ch,"rug")) == NULL)
+  if ((obj = get_obj_carry(ch,(char*)"rug")) == NULL)
     {
-      do_say(mob, "I don't want to see that worthless rug anywhere near me.");
-    do_say(mob, "Why don't you give it to that silly Green sister from Tear.");
-      do_unlock(mob, "box");
-      do_open(mob, "box"); 
-      do_get(mob, "papers box");
-      do_say(mob, "These papers might help you.");
+      do_say(mob, (char*)"I don't want to see that worthless rug anywhere near me.");
+    do_say(mob, (char*)"Why don't you give it to that silly Green sister from Tear.");
+      do_unlock(mob, (char*)"box");
+      do_open(mob, (char*)"box"); 
+      do_get(mob, (char*)"papers box");
+      do_say(mob, (char*)"These papers might help you.");
       act("$n sneers at you.", mob, NULL, ch, TO_VICT);
       act("You sneer at $N.", mob, NULL, ch, TO_CHAR);
       act("$n sneers at $N.", mob, NULL, ch, TO_NOTVICT);
       sprintf(buf, "papers %s", ch->name);
       do_give(mob, buf);
-      do_close(mob, "box");
-      do_lock(mob, "box");
+      do_close(mob, (char*)"box");
+      do_lock(mob, (char*)"box");
     }
 }
 
@@ -566,25 +566,25 @@ void give_prog_fireflash(CHAR_DATA *mob, CHAR_DATA *ch, OBJ_DATA *obj)
   char buf[100];
 
   if (!can_see(mob,ch))
-       do_say(mob, "Is someone there?");
+       do_say(mob, (char*)"Is someone there?");
   else if (IS_NPC(ch))
-      do_say(mob, "How strange, an animal delivering something.");
+      do_say(mob, (char*)"How strange, an animal delivering something.");
       
   else if (obj->pIndexData->vnum != 91)  
     {
-      do_say(mob, "How interesting!  ...what's it for?");
-      interpret(mob, "giggle", FALSE);
+      do_say(mob, (char*)"How interesting!  ...what's it for?");
+      interpret(mob, (char*)"giggle", FALSE);
       sprintf(buf,"%s %s",obj->name,ch->name);
       do_give(mob,buf);
     }
   else
     {
-      do_say(mob, "What a wonderful rug!  Let's see....where shall I put it?");
+      do_say(mob, (char*)"What a wonderful rug!  Let's see....where shall I put it?");
       act("$n starts wandering about the room, mumbling to $mself.", mob, 
 	NULL, NULL, TO_ROOM);
       act("$n sticks $s hands in $s pockets.",mob,NULL,NULL,TO_ROOM);
-      do_load(mob, "obj 2438");
-      do_say(mob, "What's this?  A key?  Here, you can have it.");
+      do_load(mob, (char*)"obj 2438");
+      do_say(mob, (char*)"What's this?  A key?  Here, you can have it.");
       sprintf(buf, "xxx %s",ch->name);
       do_give(mob, buf);
       act("$n absently pushes the rug under a chair.",mob,NULL,NULL,TO_ROOM);
@@ -607,8 +607,8 @@ void greet_prog_solamnia(CHAR_DATA *mob, CHAR_DATA *ch)
 
   if ((obj = get_obj_carry(ch, arg)) != NULL)
     {
-      do_say(mob, "I think you bring something for me....");
-      interpret(mob, "smile", FALSE);
+      do_say(mob, (char*)"I think you bring something for me....");
+      interpret(mob, (char*)"smile", FALSE);
     }
 }  
 
@@ -620,13 +620,13 @@ void give_prog_solamnia(CHAR_DATA *mob, CHAR_DATA *ch, OBJ_DATA *obj)
 
   if (obj->pIndexData->vnum == 2438 ) 
     {
-      do_say(mob, "Here is your reward!");
+      do_say(mob, (char*)"Here is your reward!");
       kassandra = create_object(get_obj_index(89), 0);
       kassandra->timer = 500;
       obj_to_char(kassandra, mob);
       sprintf(buf,"kassandra %s",ch->name);
       do_give(mob, buf);
-      do_say(mob, "This stone has some special powers, use it well.");
+      do_say(mob, (char*)"This stone has some special powers, use it well.");
       obj_from_char(obj);
       extract_obj(obj);
     }
@@ -652,20 +652,20 @@ void greet_prog_knight(CHAR_DATA *mob, CHAR_DATA *ch)
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
  
   if (ch->cabal == CABAL_KNIGHT) {
-    do_say(mob, "Welcome, honorable one.");
+    do_say(mob, (char*)"Welcome, honorable one.");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, "Ghosts are not allowed in this place.");
+      do_say(mob, (char*)"Ghosts are not allowed in this place.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, "Intruder! Intruder!");
-  do_say(mob, "You should never disturb my cabal!");
+  do_cb(mob, (char*)"Intruder! Intruder!");
+  do_say(mob, (char*)"You should never disturb my cabal!");
 }
 
 void give_prog_dressmaker(CHAR_DATA *mob, CHAR_DATA *ch, OBJ_DATA *obj)
@@ -676,20 +676,20 @@ void give_prog_dressmaker(CHAR_DATA *mob, CHAR_DATA *ch, OBJ_DATA *obj)
 
   if (!can_see(mob, ch))
     {
-      do_say(mob, "Where did this come from?");
+      do_say(mob, (char*)"Where did this come from?");
       return;
     }
 
   if (obj->pIndexData->vnum != 2436)
     {
-      do_say(mob, "I can't do anything with this, I need silk.");
+      do_say(mob, (char*)"I can't do anything with this, I need silk.");
       do_drop(mob, obj->name);
       return;
     }
 
   else
     {
-      do_say(mob, "Who am I making this dress for?");
+      do_say(mob, (char*)"Who am I making this dress for?");
       obj_from_char(obj);
       extract_obj(obj);
     }
@@ -703,7 +703,7 @@ void greet_prog_keeper(CHAR_DATA *mob, CHAR_DATA *ch)
   if (!can_see(mob, ch))
     return;
 
-  do_say(mob, "What business do you have here?  Is it that dress I ordered?");
+  do_say(mob, (char*)"What business do you have here?  Is it that dress I ordered?");
 }
 
 void speech_prog_templeman(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
@@ -759,7 +759,7 @@ int chosen = 0,correct = 1;
 
     if (!correct)
       {
-	do_say(mob, "That religion doesn't match your ethos and alignment.");
+	do_say(mob, (char*)"That religion doesn't match your ethos and alignment.");
 	return;
       }
 
@@ -769,10 +769,10 @@ int chosen = 0,correct = 1;
     do_say(mob,buf);
     return; 
    } 
-   do_say(mob,"Himm yes, religion. Do you really interested in that?.");
-   do_say(mob,"Read the help first.Type 'help religion'");
-   do_say(mob,"Do not forget that once you choose your religion. ");
-   do_say(mob,"You have to complete some quests in order to change your religion.");
+   do_say(mob,(char*)"Himm yes, religion. Do you really interested in that?.");
+   do_say(mob,(char*)"Read the help first.Type 'help religion'");
+   do_say(mob,(char*)"Do not forget that once you choose your religion. ");
+   do_say(mob,(char*)"You have to complete some quests in order to change your religion.");
    return;
 }
 
@@ -813,20 +813,20 @@ void greet_prog_lions(CHAR_DATA *mob, CHAR_DATA *ch)
  
   if (ch->cabal == CABAL_LIONS ) 
   {
-    do_say(mob, "Welcome, my Lions.");
+    do_say(mob, (char*)"Welcome, my Lions.");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, "Ghosts are not allowed in this place.");
+      do_say(mob, (char*)"Ghosts are not allowed in this place.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, "Intruder! Intruder!");
-  do_say(mob, "You should never disturb my cabal!");
+  do_cb(mob, (char*)"Intruder! Intruder!");
+  do_say(mob, (char*)"You should never disturb my cabal!");
 }
 
 void greet_prog_hunter_old(CHAR_DATA *mob, CHAR_DATA *ch)
@@ -839,20 +839,20 @@ void greet_prog_hunter_old(CHAR_DATA *mob, CHAR_DATA *ch)
  
   if (ch->cabal == CABAL_HUNTER ) 
   {
-    do_say(mob, "Welcome, my dear hunter.");
+    do_say(mob, (char*)"Welcome, my dear hunter.");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, "Ghosts are not allowed in this place.");
+      do_say(mob, (char*)"Ghosts are not allowed in this place.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, "Intruder! Intruder!");
-  do_say(mob, "You should never disturb my cabal!");
+  do_cb(mob, (char*)"Intruder! Intruder!");
+  do_say(mob, (char*)"You should never disturb my cabal!");
 }
 
 
@@ -870,7 +870,7 @@ void greet_prog_hunter(CHAR_DATA *mob, CHAR_DATA *ch)
     OBJ_DATA *eyed;
     int i;
 
- 	do_say(mob, "Welcome, my dear hunter.");
+ 	do_say(mob, (char*)"Welcome, my dear hunter.");
         if (IS_SET(ch->quest,QUEST_EYE)) return;
 
         SET_BIT(ch->quest,QUEST_EYE);
@@ -903,25 +903,25 @@ void greet_prog_hunter(CHAR_DATA *mob, CHAR_DATA *ch)
   	eyed->level = ch->level;
 	eyed->cost = 0;
 	obj_to_char( eyed, mob);
-	interpret( mob, "emote creates the Hunter's Sword.", FALSE);
-	do_say( mob , "I gave you the hunter's sword to you.");
+	interpret( mob, (char*)"emote creates the Hunter's Sword.", FALSE);
+	do_say( mob , (char*)"I gave you the hunter's sword to you.");
 	sprintf( buf , "give eyed %s" , ch->name);
 	interpret( mob , buf , FALSE);
-	do_say( mob , "Remember that if you lose that, you can want it from cabal cleric!");
-	do_say( mob , "Simple say to him that 'trouble'");
+	do_say( mob , (char*)"Remember that if you lose that, you can want it from cabal cleric!");
+	do_say( mob , (char*)"Simple say to him that 'trouble'");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, "Ghosts are not allowed in this place.");
+      do_say(mob, (char*)"Ghosts are not allowed in this place.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, "Intruder! Intruder!");
-  do_say(mob, "You should never disturb my cabal!");
+  do_cb(mob, (char*)"Intruder! Intruder!");
+  do_say(mob, (char*)"You should never disturb my cabal!");
 }
 
 
@@ -933,7 +933,7 @@ void fight_prog_diana( CHAR_DATA *mob, CHAR_DATA *ch )
    if ( !mob->in_room || number_percent() < 25 ) return;
    if (mob->in_room->area != mob->zone) return;
 
-   do_yell(mob,"Help my guards.");
+   do_yell(mob,(char*)"Help my guards.");
    for( ach = char_list; ach != NULL; ach = ach_next )
    { 
      ach_next = ach->next;
@@ -962,7 +962,7 @@ void fight_prog_diana( CHAR_DATA *mob, CHAR_DATA *ch )
   	   ach->damage[DICE_BONUS] = number_range(6, 8);
 	   for(i=0;i<MAX_STATS;i++)
 		ach->perm_stat[i] = 23;
-	   do_say(ach,"Diana, I came.");
+	   do_say(ach,(char*)"Diana, I came.");
 	   do_murder(ach,ch->name);
 	   continue;
 	  }
@@ -971,9 +971,9 @@ void fight_prog_diana( CHAR_DATA *mob, CHAR_DATA *ch )
 	 if (door == -1) bug("Couldn't find a path with -40",0);
 	 else {
 		if (number_percent() < 25)
-		 do_yell(ach," Keep on Diana!.I am coming.");
+		 do_yell(ach,(char*)" Keep on Diana!.I am coming.");
 		else
-		 do_say(ach,"I must go diana to help.");
+		 do_say(ach,(char*)"I must go diana to help.");
 		move_char(ach,door,FALSE);
 	      }
 	}
@@ -1008,9 +1008,9 @@ void fight_prog_ofcol_guard( CHAR_DATA *mob, CHAR_DATA *ch )
 	 if (door == -1) bug("Couldn't find a path with -40",0);
 	 else {
 		if (number_percent() < 25)
-		 do_yell(ach," Keep on Guard! I am coming.");
+		 do_yell(ach,(char*)" Keep on Guard! I am coming.");
 		else
-		 do_say(ach,"I must go the guard to help.");
+		 do_say(ach,(char*)"I must go the guard to help.");
 		move_char(ach,door,FALSE);
 	      }
 	}
@@ -1034,14 +1034,14 @@ void greet_prog_armourer(CHAR_DATA *mob, CHAR_DATA *ch)
 
   if (!can_see(mob,ch) || IS_NPC(ch) || IS_IMMORTAL(ch))
     return;
-  interpret(mob,"smile", FALSE);
+  interpret(mob,(char*)"smile", FALSE);
   sprintf(buf,"Welcome to my Armoury, %s",
    str_cmp(mob->in_room->area->name,hometown_table[ch->hometown].name) ?
    "traveler" : ch->name );
   do_say(mob,buf);
-  do_say(mob,"What can I interest you in?");
-  do_say(mob,"I have only the finest armor in my store.");
-  interpret(mob,"emote beams with pride.", FALSE);  
+  do_say(mob,(char*)"What can I interest you in?");
+  do_say(mob,(char*)"I have only the finest armor in my store.");
+  interpret(mob,(char*)"emote beams with pride.", FALSE);  
 }  
 
 void greet_prog_baker(CHAR_DATA *mob, CHAR_DATA *ch)
@@ -1050,7 +1050,7 @@ void greet_prog_baker(CHAR_DATA *mob, CHAR_DATA *ch)
 
   if (!can_see(mob,ch) || IS_NPC(ch) || IS_IMMORTAL(ch))
     return;
-  interpret(mob,"smile", FALSE);
+  interpret(mob,(char*)"smile", FALSE);
   sprintf(buf,"Welcome to my Bakery, %s",
    str_cmp(mob->in_room->area->name,hometown_table[ch->hometown].name) ?
    "traveler" : ch->name );
@@ -1067,7 +1067,7 @@ void greet_prog_beggar(CHAR_DATA *mob, CHAR_DATA *ch)
    str_cmp(mob->in_room->area->name,hometown_table[ch->hometown].name) ?
    "traveler" : ch->name );
   do_say(mob,buf);
-  do_say(mob,"Spare some gold?");
+  do_say(mob,(char*)"Spare some gold?");
 }  
 
 void greet_prog_drunk(CHAR_DATA *mob, CHAR_DATA *ch)
@@ -1076,7 +1076,7 @@ void greet_prog_drunk(CHAR_DATA *mob, CHAR_DATA *ch)
     return;
   if (number_percent() < 5)
    {
-    do_yell(mob,"Monster! I found a monster! Kill! Banzai!");
+    do_yell(mob,(char*)"Monster! I found a monster! Kill! Banzai!");
     do_murder(mob,ch->name);
    }
 }  
@@ -1108,12 +1108,12 @@ void bribe_prog_beggar(CHAR_DATA *mob, CHAR_DATA *ch, int amount)
     }
   else if (amount < 100)
     {
-     do_say(mob,"Wow! Thank you! Thank you!");
+     do_say(mob,(char*)"Wow! Thank you! Thank you!");
      return;
     }
   else if (amount < 500)
     {
-     do_say(mob,"Oh my God! Thank you! Thank you!");
+     do_say(mob,(char*)"Oh my God! Thank you! Thank you!");
      sprintf(buf,"french %s",ch->name);
      interpret(mob,buf, FALSE);
      return;
@@ -1131,8 +1131,8 @@ void bribe_prog_beggar(CHAR_DATA *mob, CHAR_DATA *ch, int amount)
 
 void bribe_prog_drunk(CHAR_DATA *mob, CHAR_DATA *ch, int amount)
 {
-   do_say(mob, "Ahh! More Spirits!  Good Spirits!");
-   interpret(mob,"sing", FALSE);
+   do_say(mob, (char*)"Ahh! More Spirits!  Good Spirits!");
+   interpret(mob,(char*)"sing", FALSE);
    return;
 }
 
@@ -1141,7 +1141,7 @@ void bribe_prog_drunk(CHAR_DATA *mob, CHAR_DATA *ch, int amount)
 void fight_prog_beggar(CHAR_DATA *mob, CHAR_DATA *ch)
 {
   if (mob->hit < (mob->max_hit * 0.45) && mob->hit > (mob->max_hit * 0.55))
-	do_say(mob,"Halfway to death...");
+	do_say(mob,(char*)"Halfway to death...");
   return;
 }
 
@@ -1149,14 +1149,14 @@ void fight_prog_beggar(CHAR_DATA *mob, CHAR_DATA *ch)
 bool death_prog_beggar(CHAR_DATA *mob)
 {
   if (number_percent() < 50 )
- 	do_say(mob,"Now I go to a better place.");
-  else do_say(mob,"Forgive me God for I have sinned...");
+ 	do_say(mob,(char*)"Now I go to a better place.");
+  else do_say(mob,(char*)"Forgive me God for I have sinned...");
   return FALSE;
 }
 
 bool death_prog_vagabond(CHAR_DATA *mob)
 {
-  interpret(mob,"emote throws back his head and cackles with insane glee!", FALSE);
+  interpret(mob,(char*)"emote throws back his head and cackles with insane glee!", FALSE);
   return FALSE;
 }
 
@@ -1166,8 +1166,8 @@ void speech_prog_crier(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
  char arg[512];
  
  speech = one_argument(speech,arg);
- if (is_name(arg,"what"))
-	do_say(mob,"My girlfriend left me.");
+ if (is_name(arg,(char*)"what"))
+	do_say(mob,(char*)"My girlfriend left me.");
  return;
 }
 
@@ -1175,9 +1175,9 @@ void speech_prog_crier(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
 void area_prog_drunk(CHAR_DATA *mob)
 {
   if (number_percent() < 5)
-    interpret(mob, "dance", FALSE);
+    interpret(mob, (char*)"dance", FALSE);
   else if (number_percent() < 10)
-    interpret(mob, "sing", FALSE);
+    interpret(mob, (char*)"sing", FALSE);
   return;
 }
 
@@ -1185,18 +1185,18 @@ void area_prog_janitor(CHAR_DATA *mob)
 {
   if (number_percent() < 20)
    {
-    interpret(mob,"grumble", FALSE);
-    do_say(mob,"Litterbugs");
+    interpret(mob,(char*)"grumble", FALSE);
+    do_say(mob,(char*)"Litterbugs");
     if (number_percent() < 20 )
      {
-      do_say(mob,"All I do each day is cleanup other people's messes.");
+      do_say(mob,(char*)"All I do each day is cleanup other people's messes.");
       if (number_percent() < 20 )
-         do_say(mob,"I do not get paid enough.");
+         do_say(mob,(char*)"I do not get paid enough.");
       else if (number_percent() < 20) 
 	   {
-	    do_say(mob,"Day in. Day out. This is all I do in 24 hours a day.");
+	    do_say(mob,(char*)"Day in. Day out. This is all I do in 24 hours a day.");
 	    if ( number_percent() < 10 )
-		do_yell(mob,"I want a vacation!");
+		do_yell(mob,(char*)"I want a vacation!");
 	   }
      }
    }
@@ -1206,21 +1206,21 @@ void area_prog_janitor(CHAR_DATA *mob)
 void area_prog_vagabond(CHAR_DATA *mob)
 {
   if (number_percent() < 10)
-    do_say(mob, "Kill! Blood! Gore!");
+    do_say(mob, (char*)"Kill! Blood! Gore!");
   return;
 }
 
 void area_prog_baker(CHAR_DATA *mob)
 {
   if (number_percent() < 5)
-    do_say(mob, "Would you like to try some tasty pies?");
+    do_say(mob, (char*)"Would you like to try some tasty pies?");
   return;
 }
 
 void area_prog_grocer(CHAR_DATA *mob)
 {
   if (number_percent() < 5)
-    do_say(mob, "Can I interest you in a lantern today?");
+    do_say(mob, (char*)"Can I interest you in a lantern today?");
   return;
 }
 
@@ -1235,13 +1235,13 @@ void speech_prog_hunter_cleric(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
  
     if (ch->cabal != CABAL_HUNTER)
     {
-     do_say(mob,"You must try hard!");
+     do_say(mob,(char*)"You must try hard!");
      return;
     }
 
     if (!IS_SET(ch->quest,QUEST_EYE)) 
     {
-     do_say(mob,"What do you mean?");
+     do_say(mob,(char*)"What do you mean?");
      return;
     }
 
@@ -1260,7 +1260,7 @@ void speech_prog_hunter_cleric(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
 	{
 	    if (in_obj->carried_by == ch)
 	    {
-	     do_say(mob,"Are you kidding me? Your sword is already carried by you!");
+	     do_say(mob,(char*)"Are you kidding me? Your sword is already carried by you!");
 	     do_smite(mob,ch->name);
 	     return;
 	    }
@@ -1280,7 +1280,7 @@ void speech_prog_hunter_cleric(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
 	    else
 	    {
 	     extract_obj( obj );
-	     do_say( mob, "But i will give you a new one.");
+	     do_say( mob, (char*)"But i will give you a new one.");
 	    }
 	}
 	else
@@ -1295,13 +1295,13 @@ void speech_prog_hunter_cleric(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
 	    else
 	    {
 	     extract_obj( obj );
-	     do_say( mob, "I will give you a new one.");
+	     do_say( mob, (char*)"I will give you a new one.");
 	    }
 	}
      break;
     }
 
-    if (!matched) do_say(mob, "Your sword is completely lost!");
+    if (!matched) do_say(mob, (char*)"Your sword is completely lost!");
 
     if (IS_GOOD(ch)) 	i=0;
     else if (IS_EVIL(ch)) i=2;
@@ -1328,12 +1328,12 @@ void speech_prog_hunter_cleric(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
     obj->value[2] = (ch->level / 10) + 3;  
     obj->level = ch->level;
     obj->cost = 0;
-    interpret( mob, "emote creates the Hunter's Sword.", FALSE);
-    do_say( mob , "I gave you another hunter's sword to you.");
+    interpret( mob, (char*)"emote creates the Hunter's Sword.", FALSE);
+    do_say( mob , (char*)"I gave you another hunter's sword to you.");
     act( "$N gives $p to $n.", ch, obj, mob, TO_ROOM );
     act( "$N gives you $p.",   ch, obj, mob, TO_CHAR );
     obj_to_char(obj, ch);
-    do_say( mob , "Don't lose again!");
+    do_say( mob , (char*)"Don't lose again!");
 }
 
 
@@ -1343,7 +1343,7 @@ void fight_prog_golem( CHAR_DATA *mob, CHAR_DATA *ch)
     CHAR_DATA *master;
     CHAR_DATA *m_next;
     char buf[MAX_INPUT_LENGTH];
-    char *spell;
+    const char *spell;
     int sn;
 
     for ( master = mob->in_room->people; master != NULL; master = m_next )

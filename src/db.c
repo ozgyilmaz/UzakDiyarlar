@@ -917,7 +917,7 @@ void load_old_obj( FILE *fp )
 	pObjIndex->description		= fread_string( fp );
 	/* Action description */	  fread_string( fp );
 
-	pObjIndex->material		= "copper";
+	pObjIndex->material		= (char*)"copper";
 	pObjIndex->short_descr[0]	= LOWER(pObjIndex->short_descr[0]);
 	pObjIndex->description[0]	= UPPER(pObjIndex->description[0]);
 	pObjIndex->material		= str_dup("");
@@ -940,9 +940,9 @@ void load_old_obj( FILE *fp )
 
 	if (pObjIndex->item_type == ITEM_WEAPON)
 	{
-	    if (is_name("two",pObjIndex->name) 
-	    ||  is_name("two-handed",pObjIndex->name) 
-	    ||  is_name("claymore",pObjIndex->name))
+	    if (is_name((char*)"two",pObjIndex->name) 
+	    ||  is_name((char*)"two-handed",pObjIndex->name) 
+	    ||  is_name((char*)"claymore",pObjIndex->name))
 		SET_BIT(pObjIndex->value[4],WEAPON_TWO_HANDS);
 	}
 
@@ -1550,8 +1550,8 @@ void reset_area( AREA_DATA *pArea )
       room = get_room_index(i);
       if (room == NULL) continue;
       if (IS_SET(room->room_flags, ROOM_INDOORS)) continue;
-      room_record( "erased", room, -1 );  
-      if (number_percent() < 50) room_record( "erased", room, -1 );
+      room_record( (char*)"erased", room, -1 );  
+      if (number_percent() < 50) room_record( (char*)"erased", room, -1 );
      }
     }
     mob 	= NULL;
@@ -1734,7 +1734,7 @@ void reset_area( AREA_DATA *pArea )
                  ( pObjIndex->count >= pObjIndex->limit ) )
               {
                 last = FALSE;
-                dump_to_scr("Reseting area: [P] OBJ limit reached\n\r");
+                dump_to_scr((char*)"Reseting area: [P] OBJ limit reached\n\r");
                 break;
               }
 
@@ -2125,7 +2125,7 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )
 	mob->form		= pMobIndex->form;
 	mob->parts		= pMobIndex->parts;
 	mob->size		= SIZE_MEDIUM;
-	mob->material		= "";
+	mob->material		= (char*)"";
 	mob->extracted		= FALSE;
 /*
         for (i = 0; i < MAX_STATS; i ++)
@@ -2318,7 +2318,7 @@ OBJ_DATA *create_object_org( OBJ_INDEX_DATA *pObjIndex, int level, bool Count )
 	 ( obj->pIndexData->count >= obj->pIndexData->limit ) )
 
     if ( pObjIndex->new_format == 1 )
-       dump_to_scr( "" );
+       dump_to_scr( (char*)"" );
 
     if ( pObjIndex->new_format == 1 )
  	obj->level = pObjIndex->level;
@@ -3339,7 +3339,7 @@ void do_dump( CHAR_DATA *ch, char *argument )
 
     /* mobile prototypes */
     fprintf(fp,"MobProt	%4d (%8d bytes)\n",
-	top_mob_index, top_mob_index * (sizeof(*pMobIndex))); 
+	top_mob_index, (int)(top_mob_index * (sizeof(*pMobIndex)))); 
 
     /* mobs */
     count = 0;  count2 = 0;
@@ -3355,7 +3355,7 @@ void do_dump( CHAR_DATA *ch, char *argument )
 	count2++;
 
     fprintf(fp,"Mobs	%4d (%8d bytes), %2d free (%d bytes)\n",
-	count, count * (sizeof(*fch)), count2, count2 * (sizeof(*fch)));
+	count, (int)(count * (sizeof(*fch))), count2, (int)(count2 * (sizeof(*fch))));
 
     /* pcdata */
     count = 0;
@@ -3363,7 +3363,7 @@ void do_dump( CHAR_DATA *ch, char *argument )
 	count++; 
 
     fprintf(fp,"Pcdata	%4d (%8d bytes), %2d free (%d bytes)\n",
-	num_pcs, num_pcs * (sizeof(*pc)), count, count * (sizeof(*pc)));
+	num_pcs, (int)(num_pcs * (sizeof(*pc))), count, (int)(count * (sizeof(*pc))));
 
     /* descriptors */
     count = 0; count2 = 0;
@@ -3373,7 +3373,7 @@ void do_dump( CHAR_DATA *ch, char *argument )
 	count2++;
 
     fprintf(fp, "Descs	%4d (%8d bytes), %2d free (%d bytes)\n",
-	count, count * (sizeof(*d)), count2, count2 * (sizeof(*d)));
+	count, (int)(count * (sizeof(*d))), count2, (int)(count2 * (sizeof(*d))));
 
     /* object prototypes */
     for ( vnum = 0; nMatch < top_obj_index; vnum++ )
@@ -3385,7 +3385,7 @@ void do_dump( CHAR_DATA *ch, char *argument )
         }
 
     fprintf(fp,"ObjProt	%4d (%8d bytes)\n",
-	top_obj_index, top_obj_index * (sizeof(*pObjIndex)));
+	top_obj_index, (int)(top_obj_index * (sizeof(*pObjIndex))));
 
 
     /* objects */
@@ -3400,7 +3400,7 @@ void do_dump( CHAR_DATA *ch, char *argument )
 	count2++;
 
     fprintf(fp,"Objs	%4d (%8d bytes), %2d free (%d bytes)\n",
-	count, count * (sizeof(*obj)), count2, count2 * (sizeof(*obj)));
+	count, (int)(count * (sizeof(*obj))), count2, (int)(count2 * (sizeof(*obj))));
 
     /* affects */
     count = 0;
@@ -3408,15 +3408,15 @@ void do_dump( CHAR_DATA *ch, char *argument )
 	count++;
 
     fprintf(fp,"Affects	%4d (%8d bytes), %2d free (%d bytes)\n",
-	aff_count, aff_count * (sizeof(*af)), count, count * (sizeof(*af)));
+	aff_count, (int)(aff_count * (sizeof(*af))), count, (int)(count * (sizeof(*af))));
 
     /* rooms */
     fprintf(fp,"Rooms	%4d (%8d bytes)\n",
-	top_room, top_room * (sizeof(*room)));
+	top_room, (int)(top_room * (sizeof(*room))));
 
      /* exits */
     fprintf(fp,"Exits	%4d (%8d bytes)\n",
-	top_exit, top_exit * (sizeof(*exit)));
+	top_exit, (int)(top_exit * (sizeof(*exit))));
 
     fclose(fp);
 

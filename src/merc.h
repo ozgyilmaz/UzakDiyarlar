@@ -309,8 +309,8 @@ typedef void OPROG_FUN_AREA args((OBJ_DATA *obj));
  */
 struct cabal_type
 {
-  char *long_name;
-  char *short_name;
+  const char *long_name;
+  const char *short_name;
   int obj_vnum;
   int room_vnum;
   OBJ_DATA *obj_ptr;
@@ -318,8 +318,8 @@ struct cabal_type
 
 struct color_type
 {
-  char *name;
-  char *code;
+  const char *name;
+  const char *code;
 };
 
 
@@ -350,8 +350,8 @@ struct color_type
 /* Religion structure */
 struct religion_type
 {
-  char *leader;
-  char *name;
+  const char *leader;
+  const char *name;
   int vnum;
 };
 
@@ -378,7 +378,7 @@ struct religion_type
 
 struct hometown_type 
 {
-  char *name;
+  const char *name;
   int altar[3];
   int recall[3];
   int pit[3];
@@ -386,7 +386,7 @@ struct hometown_type
 };
 
 struct ethos_type {
-  char *name;
+  const char *name;
 };
 
 
@@ -589,8 +589,8 @@ struct	shop_data
 
 struct	class_type
 {
-    char *	name;			/* the full name of the class */
-    char 	who_name	[4];	/* Three-letter name for 'who'	*/
+    const char *	name;			/* the full name of the class */
+    const char 	who_name	[4];	/* Three-letter name for 'who'	*/
     sh_int	attr_prime;		/* Prime attribute		*/
     sh_int	weapon;			/* First weapon			*/
     sh_int	guild[MAX_GUILD];	/* Vnum of guild rooms		*/
@@ -633,12 +633,12 @@ struct	class_type
 struct item_type
 {
     int		type;
-    char *	name;
+    const char *	name;
 };
 
 struct weapon_type
 {
-    char *	name;
+    const char *	name;
     sh_int	vnum;
     sh_int	type;
     sh_int	*gsn;
@@ -646,21 +646,21 @@ struct weapon_type
 
 struct wiznet_type
 {
-    char *	name;
+    const char *	name;
     long 	flag;
     int		level;
 };
 
 struct attack_type
 {
-    char *	name;			/* name */
-    char *	noun;			/* message */
+    const char *	name;			/* name */
+    const char *	noun;			/* message */
     int   	damage;			/* damage class */
 };
 
 struct race_type
 {
-    char *	name;			/* call name of the race */
+    const char *	name;			/* call name of the race */
     bool	pc_race;		/* can be chosen by pcs  */
     long	det;			/* det bits for the race */
     long	act;			/* act bits for the race */
@@ -676,11 +676,11 @@ struct race_type
 
 struct pc_race_type  /* additional data for pc races */
 {
-    char *	name;			/* MUST be in race_type */
-    char 	who_name[6];
+    const char *	name;			/* MUST be in race_type */
+    const char 	who_name[6];
     int		points;			/* cost in exp of the race */
     sh_int	class_mult[MAX_CLASS];	/* exp multiplier for class, * 100 */
-    char *	skills[5];		/* bonus skills for the race */
+    const char *	skills[5];		/* bonus skills for the race */
     sh_int 	stats[MAX_STATS];	/* starting stats 	*/
     sh_int	max_stats[MAX_STATS];	/* maximum stats 	*/
     sh_int	size;			/* aff bits for the race*/
@@ -693,7 +693,7 @@ struct pc_race_type  /* additional data for pc races */
 
 struct spec_type
 {
-    char * 	name;			/* special function name */
+    const char * 	name;			/* special function name */
     SPEC_FUN *	function;		/* the function */
 };
 
@@ -1944,14 +1944,14 @@ struct	kill_data
 
 struct language_type
 {
- char *name;
+ const char *name;
  sh_int vnum;
 };
 
 struct translation_type
 {
- char *common;
- char *language;
+ const char *common;
+ const char *language;
 };
 
 /* 
@@ -2232,8 +2232,8 @@ struct	pc_data
 
 struct	liq_type
 {
-    char *	liq_name;
-    char *	liq_color;
+    const char *	liq_name;
+    const char *	liq_color;
     sh_int	liq_affect[5];
 };
 
@@ -2464,7 +2464,7 @@ struct	room_index_data
  */
 struct	skill_type
 {
-    char *	name;			/* Name of skill		*/
+    const char *	name;			/* Name of skill		*/
     sh_int	skill_level[MAX_CLASS];	/* Level needed by class	*/
     sh_int	rating[MAX_CLASS];	/* How hard it is to learn	*/	
     SPELL_FUN *	spell_fun;		/* Spell pointer (for spells)	*/
@@ -2474,9 +2474,9 @@ struct	skill_type
     sh_int	slot;			/* Slot for #OBJECT loading	*/
     sh_int	min_mana;		/* Minimum mana used		*/
     sh_int	beats;			/* Waiting time after use	*/
-    char *	noun_damage;		/* Damage message		*/
-    char *	msg_off;		/* Wear off message		*/
-    char *	msg_obj;		/* Wear off message for obects	*/
+    const char *	noun_damage;		/* Damage message		*/
+    const char *	msg_off;		/* Wear off message		*/
+    const char *	msg_obj;		/* Wear off message for obects	*/
     sh_int 	cabal;			/* Cabal spells 		*/
     long 	race;			/* Race spells	 		*/
     sh_int 	align;			/* alignment of spells 		*/
@@ -2880,11 +2880,11 @@ extern	const	struct	skill_type	skill_table	[MAX_SKILL];
 extern  const   struct  hometown_type   hometown_table  [];
 extern  const   struct  ethos_type      ethos_table     [];
 extern          struct social_type      social_table	[MAX_SOCIALS];
-extern	char *	const			title_table	[MAX_CLASS]
+extern	const char *			title_table	[MAX_CLASS]
 							[MAX_LEVEL+1]
 							[2];
-extern   char *  const   dir_name        [];
-extern   char *  const   distance        [];
+extern   const char *   dir_name        [];
+extern   const char *   distance        [];
 extern   const sh_int  rev_dir        [];
 
 
@@ -3204,9 +3204,9 @@ int	liq_lookup	args( ( const char *name) );
 int 	material_lookup args( ( const char *name) );
 int	weapon_lookup	args( ( const char *name) );
 int	weapon_type	args( ( const char *name) );
-char 	*weapon_name	args( ( int weapon_Type) );
+const char 	*weapon_name	args( ( int weapon_Type) );
 int	item_lookup	args( ( const char *name) );
-char	*item_name	args( ( int item_type) ); 
+const char	*item_name	args( ( int item_type) ); 
 int	attack_lookup	args( ( const char *name) );
 int	race_lookup	args( ( const char *name) );
 long	wiznet_lookup	args( ( const char *name) );
@@ -3360,7 +3360,7 @@ int 	group_lookup	args( (const char *name) );
 void 	group_add	args( ( CHAR_DATA *ch ) );
 
 /* special.c */
-SF *	spec_lookup	args( ( const char *name ) );
+SF *	spec_lookup	args( ( char *name ) );
 char *	spec_name	args( ( SPEC_FUN *function ) );
 
 /* teleport.c */

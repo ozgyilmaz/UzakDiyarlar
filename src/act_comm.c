@@ -94,7 +94,7 @@ void do_delete( CHAR_DATA *ch, char *argument)
     	    sprintf( strsave, "%s%s", PLAYER_DIR, capitalize( ch->name ) );
 	    wiznet("$N turns $Mself into line noise.",ch,NULL,0,0,0);
 	    ch->last_fight_time = -1;
-	    do_quit_count(ch,"");
+	    do_quit_count(ch,(char*)"");
 	    unlink(strsave);
 	    return;
  	}
@@ -298,7 +298,7 @@ void do_say( CHAR_DATA *ch, char *argument )
 
 
     if (is_affected(ch,gsn_garble))
-      garble(buf,argument);
+      garble(buf,(char*)argument);
     else
       strcpy(buf,argument);
 
@@ -358,7 +358,7 @@ void do_shout( CHAR_DATA *ch, char *argument )
     WAIT_STATE( ch, 12 );
 
     if (is_affected(ch,gsn_garble))
-      garble(buf,argument);
+      garble(buf,(char*)argument);
     else
       strcpy(buf,argument);
 
@@ -411,7 +411,7 @@ void do_tell( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    argument = one_argument( argument, arg );
+    argument = one_argument( (char*)argument, arg );
 
     if ( arg[0] == '\0' || argument[0] == '\0' )
     {
@@ -454,7 +454,7 @@ void do_tell( CHAR_DATA *ch, char *argument )
     }
 
     if (is_affected(ch,gsn_garble))
-      garble(buf,argument);
+      garble(buf,(char*)argument);
     else
       strcpy(buf,argument);
 
@@ -491,7 +491,7 @@ void do_reply( CHAR_DATA *ch, char *argument )
     if ( victim->desc == NULL && !IS_NPC(victim))
     {
         if (is_affected(ch,gsn_garble))
-          garble(buf,argument);
+          garble(buf,(char*)argument);
         else
           strcpy(buf,argument);
         act("$N seems to have misplaced $S link...try again later.",
@@ -546,7 +546,7 @@ void do_yell( CHAR_DATA *ch, char *argument )
     }
 
     if (is_affected(ch,gsn_garble))
-      garble(buf,argument);
+      garble(buf,(char*)argument);
     else
       strcpy(buf,argument);
 
@@ -589,7 +589,7 @@ char buf[MAX_INPUT_LENGTH];
     }
  
     if (is_affected(ch,gsn_garble))
-      garble(buf,argument);
+      garble(buf,(char*)argument);
     else
       strcpy(buf,argument);
 
@@ -625,7 +625,7 @@ void do_pmote( CHAR_DATA *ch, char *argument )
 	if (vch->desc == NULL || vch == ch)
 	    continue;
 
-	if ((letter = strstr(argument,vch->name)) == NULL)
+	if ((letter = strstr((char*)argument,vch->name)) == NULL)
 	{
 	    act("$N $t",vch,argument,ch,TO_CHAR);
 	    continue;
@@ -939,14 +939,14 @@ void do_pose( CHAR_DATA *ch, char *argument )
 
 void do_bug( CHAR_DATA *ch, char *argument )
 {
-    append_file( ch, BUG_FILE, argument );
+    append_file( ch, (char*)BUG_FILE, argument );
     send_to_char( "Bug logged.\n\r", ch );
     return;
 }
 
 void do_typo( CHAR_DATA *ch, char *argument )
 {
-    append_file( ch, TYPO_FILE, argument );
+    append_file( ch, (char*)TYPO_FILE, argument );
     send_to_char( "Typo logged.\n\r", ch );
     return;
 }

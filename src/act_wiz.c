@@ -524,32 +524,32 @@ void do_tick( CHAR_DATA *ch, char *argument )
 	send_to_char("tick track: track update\n\r",ch);
 	return;
     }
-    if (is_name(arg, "area") )  {
+    if (is_name(arg, (char*)"area") )  {
 	area_update( );
 	send_to_char("Area updated.\n\r", ch );
 	return;
     }
-    if (is_name(arg, "char player") )  {
+    if (is_name(arg, (char*)"char player") )  {
 	char_update( );
 	send_to_char("Players updated.\n\r", ch );
 	return;
     }
-    if (is_name(arg, "obj") )  {
+    if (is_name(arg, (char*)"obj") )  {
 	obj_update( );
 	send_to_char("Obj updated.\n\r", ch );
 	return;
     }
-    if (is_name(arg, "room") )  {
+    if (is_name(arg, (char*)"room") )  {
 	room_update( );
 	send_to_char("Room updated.\n\r", ch );
 	return;
     }
-    if (is_name(arg, "track") )  {
+    if (is_name(arg, (char*)"track") )  {
 	track_update( );
 	send_to_char("Track updated.\n\r", ch );
 	return;
     }
-    do_tick(ch,"");
+    do_tick(ch,(char*)"");
     return;
 }
 
@@ -865,7 +865,7 @@ void do_deny( CHAR_DATA *ch, char *argument )
     send_to_char( "OK.\n\r", ch );
     save_char_obj(victim);
     stop_fighting(victim,TRUE);
-    do_quit( victim, "" );
+    do_quit( victim, (char*)"" );
 
     return;
 }
@@ -1135,7 +1135,7 @@ void do_transfer( CHAR_DATA *ch, char *argument )
     act( "$n arrives from a puff of smoke.", victim, NULL, NULL, TO_ROOM );
     if ( ch != victim )
 	act( "$n has transferred you.", ch, NULL, victim, TO_VICT );
-    do_look( victim, "auto" );
+    do_look( victim, (char*)"auto" );
     send_to_char( "Ok.\n\r", ch );
 }
 
@@ -1256,7 +1256,7 @@ void do_goto( CHAR_DATA *ch, char *argument )
         }
     }
 
-    do_look( ch, "auto" );
+    do_look( ch, (char*)"auto" );
     return;
 }
 
@@ -1312,7 +1312,7 @@ void do_violate( CHAR_DATA *ch, char *argument )
         }
     }
  
-    do_look( ch, "auto" );
+    do_look( ch, (char*)"auto" );
     return;
 }
 
@@ -2438,7 +2438,7 @@ void do_shutdown( CHAR_DATA *ch, char *argument )
 
     if (ch->invis_level < LEVEL_HERO)
     sprintf( buf, "Shutdown by %s.", ch->name );
-    append_file( ch, SHUTDOWN_FILE, buf );
+    append_file( ch, (char*)SHUTDOWN_FILE, buf );
     strcat( buf, "\n\r" );
     if (ch->invis_level < LEVEL_HERO)
     	do_echo( ch, buf );
@@ -2839,7 +2839,7 @@ void do_load(CHAR_DATA *ch, char *argument )
 	return;
     }
     /* echo syntax */
-    do_load(ch,"");
+    do_load(ch,(char*)"");
 }
 
 
@@ -3533,7 +3533,7 @@ void do_set( CHAR_DATA *ch, char *argument )
 	return;
     }
     /* echo syntax */
-    do_set(ch,"");
+    do_set(ch,(char*)"");
 }
 
 
@@ -3776,7 +3776,7 @@ void do_string( CHAR_DATA *ch, char *argument )
     
     	
     /* echo bad use message */
-    do_string(ch,"");
+    do_string(ch,(char*)"");
 }
 
 
@@ -3887,7 +3887,7 @@ void do_oset( CHAR_DATA *ch, char *argument )
     /*
      * Generate usage message.
      */
-    do_oset( ch, "" );
+    do_oset( ch, (char*)"" );
     return;
 }
 
@@ -3957,7 +3957,7 @@ void do_rset( CHAR_DATA *ch, char *argument )
     /*
      * Generate usage message.
      */
-    do_rset( ch, "" );
+    do_rset( ch, (char*)"" );
     return;
 }
 
@@ -4965,7 +4965,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
     /*
      * Generate usage message.
      */
-    do_mset( ch, "" );
+    do_mset( ch, (char*)"" );
     return;
 }
 
@@ -5035,7 +5035,7 @@ void do_induct( CHAR_DATA *ch, char *argument)
 	      prev_cabal = victim->cabal;
 	      victim->cabal = i;
 	      REMOVE_BIT(victim->act,PLR_CANINDUCT);
-	      cabal = cabal_table[i].long_name;
+	      cabal = (char*)cabal_table[i].long_name;
 	    }
   else {
 	    send_to_char( "You do not have that power.\n\r",ch);
@@ -5133,7 +5133,7 @@ void do_desocket(CHAR_DATA *ch, char *argument)
 		  return;
 		}
 	      write_to_descriptor(d->descriptor,
-				  "You are being disconnected by an immortal.",
+				  (char*)"You are being disconnected by an immortal.",
 				  0);
 	      close_socket(d);
 	      send_to_char("Done.\n\r", ch);
@@ -5513,7 +5513,7 @@ void do_reboot( CHAR_DATA *ch, char *argument )
       return;
     }
 
-    if (is_name(arg,"cancel")) 
+    if (is_name(arg,(char*)"cancel")) 
      {
       if (time_sync) 
       {
@@ -5525,13 +5525,13 @@ void do_reboot( CHAR_DATA *ch, char *argument )
       return;
     }
 
-    if (is_name(arg, "now")) 
+    if (is_name(arg, (char*)"now")) 
      {
       reboot_anatolia(TRUE);
       return;
     }
 
-    if (is_name(arg, "status")) 
+    if (is_name(arg, (char*)"status")) 
     {
       if (time_sync) 
       {
@@ -5559,7 +5559,7 @@ void do_reboot( CHAR_DATA *ch, char *argument )
      return;
     }
 
- do_reboot(ch,"");   
+ do_reboot(ch,(char*)"");   
 }
 
 
@@ -5644,7 +5644,7 @@ void do_maximum( CHAR_DATA *ch, char *argument )
       return;
     }
 
-  if (is_name(arg, "status"))
+  if (is_name(arg, (char*)"status"))
     {
       sprintf(buf, "Maximum oldies allowed: %d.\n\r", max_oldies);
       send_to_char(buf,ch);
@@ -5655,22 +5655,22 @@ void do_maximum( CHAR_DATA *ch, char *argument )
       return;
     }
 
-  if (is_name(arg, "reset"))
+  if (is_name(arg, (char*)"reset"))
     {
       max_newbies = MAX_NEWBIES;
       max_oldies = MAX_OLDIES;
       sprintf(buf,"Maximum newbies and oldies have been reset.\n\r");
       send_to_char(buf,ch);
-      do_maximum( ch, "status" );
+      do_maximum( ch, (char*)"status" );
       return;
     }
 
-  if (is_name(arg, "newbies"))
+  if (is_name(arg, (char*)"newbies"))
     {
       argument = one_argument(argument, arg);
       if ( !is_number(arg) )
 	{
-	 do_maximum(ch, "");
+	 do_maximum(ch, (char*)"");
 	 return;
 	}
       max_newbies = atoi(arg);
@@ -5682,12 +5682,12 @@ void do_maximum( CHAR_DATA *ch, char *argument )
       return;
     }
 
-  if (is_name(arg, "oldies"))
+  if (is_name(arg, (char*)"oldies"))
     {
       argument = one_argument(argument, arg);
       if ( !is_number(arg) )
 	{
-	 do_maximum(ch, "");
+	 do_maximum(ch, (char*)"");
 	 return;
 	}
       max_oldies = atoi(arg);
@@ -5699,5 +5699,5 @@ void do_maximum( CHAR_DATA *ch, char *argument )
       return;
     }
 
- do_maximum( ch, "" );
+ do_maximum( ch, (char*)"" );
 }

@@ -188,7 +188,7 @@ void do_enter( CHAR_DATA *ch, char *argument)
 	  else  act("$n has arrived through $p.",ch,portal,NULL,TO_ROOM);
 	 }
 
-	do_look(ch,"auto");
+	do_look(ch,(char*)"auto");
 
         if (mount)
 	 {
@@ -220,7 +220,7 @@ void do_enter( CHAR_DATA *ch, char *argument)
  
             if ( fch->master == ch && IS_AFFECTED(fch,AFF_CHARM)
             &&   fch->position < POS_STANDING)
-            	do_stand(fch,"");
+            	do_stand(fch,(char*)"");
 
             if ( fch->master == ch && fch->position == POS_STANDING)
             {
@@ -350,7 +350,7 @@ void bcopy(char *s1,char* s2,int len);
 void bzero(char *sp,int len);
 #endif
 
-extern char *const dir_name[];
+extern const char* dir_name[];
 
 struct hash_link
 {
@@ -941,7 +941,7 @@ void hunt_victim( CHAR_DATA *ch )
            log_string("mob portal");
            do_cast( ch, tBuf );
            log_string("do_enter1");
-           do_enter( ch, "portal" );
+           do_enter( ch, (char*)"portal" );
 	   if (ch->in_room==NULL || ch->hunting==NULL) return;
 	   if( ch->in_room == ch->hunting->in_room )
 	    {
@@ -960,7 +960,7 @@ void hunt_victim( CHAR_DATA *ch )
         } 
        else 
 	{ 
-         do_say( ch, "Ahhhh!  My prey is gone!!" );
+         do_say( ch, (char*)"Ahhhh!  My prey is gone!!" );
          ch->hunting = NULL;
          return;
         }  
@@ -981,7 +981,7 @@ void hunt_victim( CHAR_DATA *ch )
       log_string("mob portal");
       do_cast( ch, tBuf );
       log_string("do_enter2");
-      do_enter( ch, "portal" );
+      do_enter( ch, (char*)"portal" );
       if (ch->in_room==NULL || ch->hunting==NULL) return;
       if( ch->in_room == ch->hunting->in_room )
        {
@@ -1071,7 +1071,7 @@ void hunt_victim_old( CHAR_DATA *ch )
            log_string("mob portal");
            do_cast( ch, tBuf );
            log_string("do_enter1");
-           do_enter( ch, "portal" );
+           do_enter( ch, (char*)"portal" );
   /* Deth...this shouldn't have to be here..but it got
   here in a core file with ch->hunting==null.. */
   if (ch->in_room==NULL || ch->hunting==NULL) return;
@@ -1103,7 +1103,7 @@ void hunt_victim_old( CHAR_DATA *ch )
     	  }
          }
 
-         do_say( ch, "Ahhhh!  My prey is gone!!" );
+         do_say( ch, (char*)"Ahhhh!  My prey is gone!!" );
          ch->hunting = NULL;
          return;
         }  
@@ -1124,7 +1124,7 @@ void hunt_victim_old( CHAR_DATA *ch )
       log_string("mob portal");
       do_cast( ch, tBuf );
       log_string("do_enter2");
-      do_enter( ch, "portal" );
+      do_enter( ch, (char*)"portal" );
   /* Deth...this shouldn't have to be here..but it got
   here in a core file with ch->hunting==null.. */
   if (ch->in_room==NULL || ch->hunting==NULL) return;
@@ -1294,15 +1294,15 @@ void check_weapon_destroy(CHAR_DATA *ch, CHAR_DATA *victim,bool second)
 		|| number_percent() > 94
 	 	|| number_percent() > skill
 		|| ch->level < (victim->level - 10) 
-		|| check_material(destroy,"platinum") 
+		|| check_material(destroy,(char*)"platinum") 
 		|| destroy->pIndexData->limit != -1
 		|| (i == WEAR_LEFT || i== WEAR_RIGHT || i== WEAR_BOTH
 			|| i == WEAR_TATTOO || i == WEAR_STUCK_IN) )
 	 continue;
 	
 	 chance += 20;
-	 if ( check_material(wield, "platinium") ||
-	      check_material(wield, "titanium") )
+	 if ( check_material(wield, (char*)"platinium") ||
+	      check_material(wield, (char*)"titanium") )
 	 chance += 5;
 
 	 if ( is_metal(destroy) )  chance -= 20;
@@ -1340,7 +1340,7 @@ void check_weapon_destroy(CHAR_DATA *ch, CHAR_DATA *victim,bool second)
 		|| number_percent() > 94
 	 	|| number_percent() < skill
 		|| ch->level < (victim->level - 10) 
-		|| check_material(destroy,"platinum") 
+		|| check_material(destroy,(char*)"platinum") 
 		|| destroy->pIndexData->limit != -1
 		|| (i == WEAR_LEFT || i== WEAR_RIGHT || i==WEAR_BOTH
 			|| i == WEAR_TATTOO || i == WEAR_STUCK_IN ) )
@@ -1391,7 +1391,7 @@ void do_repair(CHAR_DATA *ch, char *argument)
     for ( mob = ch->in_room->people; mob; mob = mob->next_in_room )
     {
         if (!IS_NPC(mob)) continue;
-	if (mob->spec_fun == spec_lookup("spec_repairman") )
+	if (mob->spec_fun == spec_lookup((char*)"spec_repairman") )
             break;
     }
  
@@ -1405,25 +1405,25 @@ void do_repair(CHAR_DATA *ch, char *argument)
 
     if (arg[0] == '\0')
     {
-	do_say(mob,"I will repair a weapon for you, for a price.");
+	do_say(mob,(char*)"I will repair a weapon for you, for a price.");
 	send_to_char("Type estimate <weapon> to be assessed for damage.\n\r",ch);
 	return;
     }
     if (( obj = get_obj_carry(ch, arg)) == NULL)
     {
-	do_say(mob,"You don't have that item");
+	do_say(mob,(char*)"You don't have that item");
 	return;
     }
 
     if (obj->pIndexData->vnum == OBJ_VNUM_HAMMER)
     {
-     do_say(mob,"That hammer is beyond my power.");
+     do_say(mob,(char*)"That hammer is beyond my power.");
      return;
     }
 
     if (obj->condition >= 100)
     {
-	do_say(mob,"But that item is not broken.");
+	do_say(mob,(char*)"But that item is not broken.");
         return;
     }
 
@@ -1440,7 +1440,7 @@ void do_repair(CHAR_DATA *ch, char *argument)
 
     if (cost > ch->gold)
     {
-	do_say(mob,"You do not have enough gold for my services.");
+	do_say(mob,(char*)"You do not have enough gold for my services.");
 	return;
     }
 
@@ -1466,7 +1466,7 @@ void do_estimate(CHAR_DATA *ch, char *argument)
     for ( mob = ch->in_room->people; mob; mob = mob->next_in_room )
     {
         if (!IS_NPC(mob)) continue;
-	if (mob->spec_fun == spec_lookup("spec_repairman") )
+	if (mob->spec_fun == spec_lookup((char*)"spec_repairman") )
             break;
     }
  
@@ -1480,27 +1480,27 @@ void do_estimate(CHAR_DATA *ch, char *argument)
     
     if (arg[0] == '\0')
     {
-	do_say(mob,"Try estimate <item>");
+	do_say(mob,(char*)"Try estimate <item>");
    	return; 
     } 
     if ((obj = (get_obj_carry(ch, arg))) == NULL)
     {
-	do_say(mob,"You don't have that item");
+	do_say(mob,(char*)"You don't have that item");
 	return;
     }
     if (obj->pIndexData->vnum == OBJ_VNUM_HAMMER)
 	{
-	    do_say(mob,"That hammer is beyond my power.");
+	    do_say(mob,(char*)"That hammer is beyond my power.");
 	    return;
 	}
     if (obj->condition >= 100)
     {
-	do_say(mob,"But that item's not broken");
+	do_say(mob,(char*)"But that item's not broken");
 	return;
     }
     if (obj->cost == 0)
     {
-	do_say(mob,"That item is beyond repair");
+	do_say(mob,(char*)"That item is beyond repair");
     	return;
     } 
     
@@ -1618,13 +1618,13 @@ void check_shield_destroyed(CHAR_DATA *ch, CHAR_DATA *victim,bool second)
 	 if (   number_percent() > 94
 	 	|| number_percent() > skill
 		|| ch->level < (victim->level - 10) 
-		|| check_material(destroy,"platinum") 
+		|| check_material(destroy,(char*)"platinum") 
 		|| destroy->pIndexData->limit != -1 )
 	 return;
 	
 	 chance += 20;
-	 if ( check_material(wield, "platinium") ||
-	      check_material(wield, "titanium") )
+	 if ( check_material(wield, (char*)"platinium") ||
+	      check_material(wield, (char*)"titanium") )
 	 chance += 5;
 
 	 if ( is_metal(destroy) )  chance -= 20;
@@ -1657,7 +1657,7 @@ void check_shield_destroyed(CHAR_DATA *ch, CHAR_DATA *victim,bool second)
 	 if (   number_percent() > 94
 	 	|| number_percent() < skill
 		|| ch->level < (victim->level - 10) 
-		|| check_material(destroy,"platinum") 
+		|| check_material(destroy,(char*)"platinum") 
 		|| destroy->pIndexData->limit != -1 )
 	 return;
 	
@@ -1712,13 +1712,13 @@ void check_weapon_destroyed(CHAR_DATA *ch, CHAR_DATA *victim,bool second)
 	 if (   number_percent() > 94
 	 	|| number_percent() > skill
 		|| ch->level < (victim->level - 10) 
-		|| check_material(destroy,"platinum") 
+		|| check_material(destroy,(char*)"platinum") 
 		|| destroy->pIndexData->limit != -1 )
 	 return;
 	
 	 chance += 20;
-	 if ( check_material(wield, "platinium") ||
-	      check_material(wield, "titanium") )
+	 if ( check_material(wield, (char*)"platinium") ||
+	      check_material(wield, (char*)"titanium") )
 	 chance += 5;
 
 	 if ( is_metal(destroy) )  chance -= 20;
@@ -1751,7 +1751,7 @@ void check_weapon_destroyed(CHAR_DATA *ch, CHAR_DATA *victim,bool second)
 	 if (   number_percent() > 94
 	 	|| number_percent() < skill
 		|| ch->level < (victim->level - 10) 
-		|| check_material(destroy,"platinum") 
+		|| check_material(destroy,(char*)"platinum") 
 		|| destroy->pIndexData->limit != -1 )
 	 return;
 	
@@ -2027,10 +2027,12 @@ int parsebet (const int currentbet, const char *argument)
         {
         sprintf (buf2,"considering: * x \n\r");
         if ((*stringptr == '*') || (*stringptr == 'x')) /* multiply */
+        {
           if (strlen (stringptr) == 1) /* only x specified, assume default */
             newbet = currentbet * 2 ; /* default: twice */
           else /* user specified a number */
             newbet = currentbet * atoi (++stringptr); /* cut off the first char */
+        }
         }
   }
 
@@ -2132,6 +2134,7 @@ void do_auction (CHAR_DATA *ch, char *argument)
 	}
 
     if (arg1[0] == '\0')
+    {
         if (auction->item != NULL)
         {
             /* show item data here */
@@ -2150,6 +2153,7 @@ void do_auction (CHAR_DATA *ch, char *argument)
             send_to_char (bufc,ch);
             return;
         }
+    }
 
     if (!str_cmp(arg1,"off") )
 	{
@@ -2159,6 +2163,7 @@ void do_auction (CHAR_DATA *ch, char *argument)
 	}
 
     if (IS_IMMORTAL(ch) && !str_cmp(arg1,"stop"))
+    {
     if (auction->item == NULL)
     {
         send_to_char ("There is no auction going on you can stop.\n\r",ch);
@@ -2179,8 +2184,10 @@ void do_auction (CHAR_DATA *ch, char *argument)
         }
         return;
     }
+    }
 
     if  (!str_cmp(arg1,"bet") ) 
+    {
 	if (auction->item != NULL)
         {
             int newbet;
@@ -2235,6 +2242,7 @@ void do_auction (CHAR_DATA *ch, char *argument)
         {
             send_to_char ("There isn't anything being auctioned right now.\n\r",ch);
             return;
+        }
         }
 
     /* finally... */

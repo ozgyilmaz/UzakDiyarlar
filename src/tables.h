@@ -60,24 +60,24 @@ extern	const	struct	flag_type	exit_flags[];
 
 struct flag_type
 {
-    char *name;
+    const char *name;
     int bit;
     bool settable;
 };
 
 struct position_type
 {
-    char *name;
-    char *short_name;
+    const char *name;
+    const char *short_name;
 };
 
 struct sex_type
 {
-    char *name;
+    const char *name;
 };
 
 struct size_type
 {
-    char *name;
+    const char *name;
 };
 

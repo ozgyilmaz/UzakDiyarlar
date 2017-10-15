@@ -875,7 +875,7 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
 void fread_char( CHAR_DATA *ch, FILE *fp )
 {
     char buf[MAX_STRING_LENGTH];
-    char *word="End";
+    const char *word="End";
     bool fMatch;
     bool fPlayLog = FALSE;
     int count = 0;

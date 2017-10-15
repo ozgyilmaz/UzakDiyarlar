@@ -178,10 +178,10 @@ void do_quest(CHAR_DATA *ch, char *argument)
     for ( questman = ch->in_room->people; questman != NULL; questman = questman->next_in_room )
     {
 	if (!IS_NPC(questman)) continue;
-        if (questman->spec_fun == spec_lookup( "spec_questmaster" )) break;
+        if (questman->spec_fun == spec_lookup( (char*)"spec_questmaster" )) break;
     }
 
-    if (questman == NULL || questman->spec_fun != spec_lookup( "spec_questmaster" ))
+    if (questman == NULL || questman->spec_fun != spec_lookup( (char*)"spec_questmaster" ))
     {
         send_to_char("You can't do that here.\n\r",ch);
         return;
@@ -246,7 +246,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	    return;
 	}
 
-	else if (is_name(arg2, "backpack"))
+	else if (is_name(arg2, (char*)"backpack"))
 	{
 	    if (ch->pcdata->questpoints >= 5000)
 	    {
@@ -256,7 +256,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		    IS_SET(ch->quest,QUEST_BACKPACK2) ||
 		    IS_SET(ch->quest,QUEST_BACKPACK3) ) 
 		do_tell_quest(ch,questman,
-		"This quest item is beyond the trouble option.");
+		(char*)"This quest item is beyond the trouble option.");
 		else SET_BIT(ch->quest,QUEST_BACKPACK);
 	    }
 	    else
@@ -267,7 +267,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	    }
 	}
 
-	else if (is_name(arg2, "decanter"))
+	else if (is_name(arg2, (char*)"decanter"))
 	{
 	    if (ch->pcdata->questpoints >= 500)
 	    {
@@ -277,7 +277,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		    IS_SET(ch->quest,QUEST_DECANTER2) ||
 		    IS_SET(ch->quest,QUEST_DECANTER3) ) 
 		do_tell_quest(ch,questman,
-		"This quest item is beyond the trouble option.");
+		(char*)"This quest item is beyond the trouble option.");
 		else SET_BIT(ch->quest,QUEST_DECANTER);
 	    }
 	    else
@@ -288,7 +288,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	    }
 	}
 
-	else if (is_name(arg2, "girth"))
+	else if (is_name(arg2, (char*)"girth"))
 	{
 	    if (ch->pcdata->questpoints >= 1000)
 	    {
@@ -298,7 +298,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		    IS_SET(ch->quest,QUEST_GIRTH2) ||
 		    IS_SET(ch->quest,QUEST_GIRTH3) ) 
 		do_tell_quest(ch,questman,
-		"This quest item is beyond the trouble option.");
+		(char*)"This quest item is beyond the trouble option.");
 		else SET_BIT(ch->quest,QUEST_GIRTH);
 	    }
 	    else
@@ -308,7 +308,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		return;
 	    }
 	}
-	else if (is_name(arg2, "ring"))
+	else if (is_name(arg2, (char*)"ring"))
 	{
 	    if (ch->pcdata->questpoints >= 1000)
 	    {
@@ -318,7 +318,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		    IS_SET(ch->quest,QUEST_RING2) ||
 		    IS_SET(ch->quest,QUEST_RING3) ) 
 		do_tell_quest(ch,questman,
-		"This quest item is beyond the trouble option.");
+		(char*)"This quest item is beyond the trouble option.");
 		else SET_BIT(ch->quest,QUEST_RING);
 	    }
 	    else
@@ -328,7 +328,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		return;
 	    }
 	}
-	else if (is_name(arg2, "weapon"))
+	else if (is_name(arg2, (char*)"weapon"))
 	{
 	    if (ch->pcdata->questpoints >= 1000)
 	    {
@@ -338,7 +338,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		    IS_SET(ch->quest,QUEST_WEAPON2) ||
 		    IS_SET(ch->quest,QUEST_WEAPON3) ) 
 		do_tell_quest(ch,questman,
-		"This quest item is beyond the trouble option.");
+		(char*)"This quest item is beyond the trouble option.");
 		else SET_BIT(ch->quest,QUEST_WEAPON);
 	    }
 	    else
@@ -348,7 +348,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		return;
 	    }
 	}
-	else if (is_name(arg2, "practices pracs prac practice"))
+	else if (is_name(arg2, (char*)"practices pracs prac practice"))
 	{
 	    if (IS_SET(ch->quest, QUEST_PRACTICE))
 	    {
@@ -373,7 +373,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		return;
 	    }
 	}
-	else if (is_name(arg2, "vampire"))
+	else if (is_name(arg2, (char*)"vampire"))
 	{
 	  if (ch->iclass != CLASS_VAMPIRE) 
 	  {
@@ -399,7 +399,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		return;
 	    }
 	}
-	else if (is_name(arg2, "con constitution"))
+	else if (is_name(arg2, (char*)"con constitution"))
 	{
 	    if (ch->perm_stat[STAT_CON] >= get_max_train2(ch, STAT_CON))
 	    {
@@ -420,7 +420,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		return;
 	    }
 	}
-	else if (is_name(arg2, "dead samurai death"))
+	else if (is_name(arg2, (char*)"dead samurai death"))
 	{
 	    if (ch->iclass != 9)
 	    {
@@ -448,7 +448,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		return;
 	    }
 	}
-	else if (is_name(arg2, "katana sword"))
+	else if (is_name(arg2, (char*)"katana sword"))
 	{
 	  AFFECT_DATA af;
 	  OBJ_DATA *katana;
@@ -459,7 +459,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		return;
 	    }
 
-	    if ( (katana = get_obj_list(ch,"katana",ch->carrying)) == NULL)
+	    if ( (katana = get_obj_list(ch,(char*)"katana",ch->carrying)) == NULL)
 	    {
 		 sprintf(buf, "Sorry, %s, but you don't have your katana with you.",ch->name);
 		 do_tell_quest(ch,questman,buf);
@@ -494,7 +494,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		return;
 	    }
 	}
-	else if (is_name(arg2, "sharp second"))
+	else if (is_name(arg2, (char*)"sharp second"))
 	{
 	  AFFECT_DATA af;
 	  OBJ_DATA *katana;
@@ -506,7 +506,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		return;
 	    }
 
-	    if ( (katana = get_obj_list(ch,"katana",ch->carrying)) == NULL)
+	    if ( (katana = get_obj_list(ch,(char*)"katana",ch->carrying)) == NULL)
 	    {
 		 sprintf(buf, "Sorry, %s, but you don't have your katana with you.",ch->name);
 		 do_tell_quest(ch,questman,buf);
@@ -541,7 +541,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		return;
 	    }
 	}
-	else if (is_name(arg2, "tattoo religion"))
+	else if (is_name(arg2, (char*)"tattoo religion"))
 	{
 	 OBJ_DATA *tattoo;
 	if (!(ch->religion) )
@@ -575,7 +575,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		return;
 	    }
 	}
-	else if (is_name(arg2, "gold gp"))
+	else if (is_name(arg2, (char*)"gold gp"))
 	{
 	    if (ch->pcdata->questpoints >= 500)
 	    {
@@ -592,7 +592,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		return;
 	    }
 	}
-	else if (is_name(arg2, "remove"))
+	else if (is_name(arg2, (char*)"remove"))
 	{
 	 OBJ_DATA *tattoo;
 
@@ -618,7 +618,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		return;
 	    }
 	}
-	else if (is_name(arg2, "set"))
+	else if (is_name(arg2, (char*)"set"))
 	{
 	    if (ch->pcdata->questpoints >= 50)
 	    {
@@ -837,7 +837,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	}
 
 	trouble_n = 0;
-	if (is_name(arg2, "girth"))
+	if (is_name(arg2, (char*)"girth"))
 	{
 	  if (IS_SET(ch->quest,QUEST_GIRTH))
 	    {
@@ -858,7 +858,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	    }
 	 if (trouble_n) trouble_vnum = QUEST_ITEM1;
 	}
-	else if (is_name(arg2, "backpack"))
+	else if (is_name(arg2, (char*)"backpack"))
 	{
 	  if (IS_SET(ch->quest,QUEST_BACKPACK))
 	    {
@@ -879,7 +879,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	    }
 	 if (trouble_n) trouble_vnum = QUEST_ITEM4;
 	}
-	else if (is_name(arg2, "decanter"))
+	else if (is_name(arg2, (char*)"decanter"))
 	{
 	  if (IS_SET(ch->quest,QUEST_DECANTER))
 	    {
@@ -900,7 +900,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	    }
 	 if (trouble_n) trouble_vnum = QUEST_ITEM5;
 	}
-	else if (is_name(arg2, "weapon"))
+	else if (is_name(arg2, (char*)"weapon"))
 	{
 	  if (IS_SET(ch->quest,QUEST_WEAPON))
 	    {
@@ -921,7 +921,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	    }
 	 if (trouble_n) trouble_vnum = QUEST_ITEM3;
 	}
-	else if (is_name(arg2, "ring"))
+	else if (is_name(arg2, (char*)"ring"))
 	{
 	  if (IS_SET(ch->quest,QUEST_RING))
 	    {
@@ -1126,7 +1126,7 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
 
 	sprintf(buf, "Vile pilferers have stolen %s from the royal treasury!",eyed->short_descr);
 	do_tell_quest(ch,questman,buf);
-	do_tell_quest(ch,questman, "My court wizardess, with her magic mirror, has pinpointed its location.");
+	do_tell_quest(ch,questman, (char*)"My court wizardess, with her magic mirror, has pinpointed its location.");
 
 	/* I changed my area names so that they have just the name of the area
 	   and none of the level stuff. You may want to comment these next two
@@ -1185,7 +1185,7 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
 	do_tell_quest(ch,questman,buf);
 	sprintf(buf, "Since the escape, %s has murdered %d civillians!",victim->short_descr, number_range(2,20));
 	do_tell_quest(ch,questman,buf);
-	do_tell_quest(ch,questman,"The penalty for this crime is death, and you are to deliver the sentence!");
+	do_tell_quest(ch,questman,(char*)"The penalty for this crime is death, and you are to deliver the sentence!");
         }
     else
        {

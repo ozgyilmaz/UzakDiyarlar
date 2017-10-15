@@ -82,7 +82,7 @@ void acid_effect(void *vo, int level, int dam, int target)
 	OBJ_DATA *obj = (OBJ_DATA *) vo;
 	OBJ_DATA *t_obj,*n_obj;
 	int chance;
-	char *msg;
+	const char *msg;
 
 	if (IS_OBJ_STAT(obj,ITEM_BURN_PROOF)
 	||  IS_OBJ_STAT(obj,ITEM_NOPURGE)
@@ -260,7 +260,7 @@ void cold_effect(void *vo, int level, int dam, int target)
    {
 	OBJ_DATA *obj = (OBJ_DATA *) vo;
 	int chance;
-	char *msg;
+	const char *msg;
 
 	if (IS_OBJ_STAT(obj,ITEM_BURN_PROOF)
 	||  IS_OBJ_STAT(obj,ITEM_NOPURGE)
@@ -370,7 +370,7 @@ void fire_effect(void *vo, int level, int dam, int target)
 	OBJ_DATA *obj = (OBJ_DATA *) vo;
 	OBJ_DATA *t_obj,*n_obj;
 	int chance;
-	char *msg;
+	const char *msg;
 
     	if (IS_OBJ_STAT(obj,ITEM_BURN_PROOF)
         ||  IS_OBJ_STAT(obj,ITEM_NOPURGE)
@@ -389,7 +389,7 @@ void fire_effect(void *vo, int level, int dam, int target)
             chance -= 5;
         chance -= obj->level * 2;
 
-        if  ( check_material( obj, "ice" ) )  {
+        if  ( check_material( obj, (char*)"ice" ) )  {
           chance += 30;
           msg = "$p melts and evaporates!";
         }
@@ -591,7 +591,7 @@ void shock_effect(void *vo,int level, int dam, int target)
     {
 	OBJ_DATA *obj = (OBJ_DATA *) vo;
 	int chance;
-	char *msg;
+	const char *msg;
 
 	if (IS_OBJ_STAT(obj,ITEM_BURN_PROOF)
 	||  IS_OBJ_STAT(obj,ITEM_NOPURGE)
@@ -693,7 +693,7 @@ void sand_effect(void *vo, int level, int dam, int target)
 	OBJ_DATA *obj = (OBJ_DATA *) vo;
 	OBJ_DATA *t_obj,*n_obj;
 	int chance;
-	char *msg;
+	const char *msg;
 
 	if (IS_OBJ_STAT(obj,ITEM_BURN_PROOF)
 	||  IS_OBJ_STAT(obj,ITEM_NOPURGE)
@@ -885,7 +885,7 @@ void scream_effect(void *vo, int level, int dam, int target)
 	OBJ_DATA *obj = (OBJ_DATA *) vo;
 	OBJ_DATA *t_obj,*n_obj;
 	int chance;
-	char *msg;
+	const char *msg;
 
     	if (IS_OBJ_STAT(obj,ITEM_BURN_PROOF)
         ||  IS_OBJ_STAT(obj,ITEM_NOPURGE)
@@ -903,13 +903,13 @@ void scream_effect(void *vo, int level, int dam, int target)
             chance -= 5;
         chance -= obj->level * 2;
 
-        if  ( check_material( obj, "ice" ) )  
+        if  ( check_material( obj, (char*)"ice" ) )  
 	{
           chance += 30;
           msg = "$p breaks and evaporates!";
         }
         else
-	if ( check_material ( obj, "glass" ) )
+	if ( check_material ( obj, (char*)"glass" ) )
 	{
 	 chance += 30;
 	 msg = "$p breaks into tiny small peaces";

@@ -524,7 +524,7 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
 	    act("$n is suffering from thirst of blood!", ch,NULL,NULL,TO_ROOM );
 	    if (ch->in_room && ch->in_room->people && !ch->fighting)
 	    {
-		if (!IS_AWAKE(ch)) do_stand(ch,"");
+		if (!IS_AWAKE(ch)) do_stand(ch,(char*)"");
                 for ( vch = ch->in_room->people;
                		vch != NULL && ch->fighting == NULL; vch = vch_next)
                 {
@@ -532,7 +532,7 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
                   if ( ch != vch && can_see(ch,vch) &&
                         !is_safe_nomessage(ch,vch) )
                    {
-                    do_yell(ch,"BLOOD! I NEED BLOOD!");
+                    do_yell(ch,(char*)"BLOOD! I NEED BLOOD!");
                     do_murder(ch,vch->name);
 		    fdone = 1;
 		    break;
@@ -1062,7 +1062,7 @@ void char_update( void )
 
 	if (!IS_NPC(ch) && ch->cabal == CABAL_BATTLE)
 	{
-	 if (!is_affected(ch,gsn_spellbane)) do_spellbane(ch,"");
+	 if (!is_affected(ch,gsn_spellbane)) do_spellbane(ch,(char*)"");
 	}
 
         /* Remove caltraps effect after fight off */
@@ -1073,7 +1073,7 @@ void char_update( void )
         if (IS_VAMPIRE(ch) && 
 	    (weather_info.sunlight == SUN_LIGHT || 
 		weather_info.sunlight == SUN_RISE) )
-          do_human(ch,"");
+          do_human(ch,(char*)"");
 
         /* Reset sneak for vampire */
         if ( !(ch->fighting) && !IS_AFFECTED(ch,AFF_SNEAK) &&
@@ -1223,7 +1223,7 @@ void char_update( void )
 			AFFECT_DATA neck_af;
 
 			REMOVE_BIT(ch->affected_by, AFF_SLEEP);
-			do_wake(ch, "");
+			do_wake(ch, (char*)"");
 			neck_af.type = gsn_neckguard;
 			neck_af.where = TO_AFFECTS;
 			neck_af.level = ch->level;
@@ -1238,7 +1238,7 @@ void char_update( void )
 			AFFECT_DATA head_af;
 
 			REMOVE_BIT(ch->affected_by, AFF_SLEEP);
-			do_wake(ch, "");
+			do_wake(ch,(char*) "");
 			head_af.type = gsn_headguard;
 			head_af.where = TO_AFFECTS;
 			head_af.level = ch->level;
@@ -1253,7 +1253,7 @@ void char_update( void )
 			AFFECT_DATA b_af;
 
 			REMOVE_BIT(ch->affected_by, AFF_SLEEP);
-			do_wake(ch, "");
+			do_wake(ch, (char*)"");
 			b_af.type = gsn_blackguard;
 			b_af.where = TO_AFFECTS;
 			b_af.level = ch->level;
@@ -1422,7 +1422,7 @@ void char_update( void )
 	    if ( !IS_NPC(ch) )
               save_char_obj(ch);
             if ( ch == ch_quit || ch->timer > 20 )
-              do_quit(ch, "");
+              do_quit(ch, (char*)"");
           }
     }
 
@@ -1442,7 +1442,7 @@ bool fChar;
     {
  	obj_next = obj->next;
 
-	if ( obj == NULL ) {dump_to_scr("NULL OBJ encounter!\n\r");break;}
+	if ( obj == NULL ) {dump_to_scr((char*)"NULL OBJ encounter!\n\r");break;}
 
 	if ( obj->in_room == NULL )  
 	  continue;
@@ -1506,7 +1506,7 @@ void obj_update( void )
     for ( obj = object_list; obj != NULL; obj = obj_next )
     {
 	CHAR_DATA *rch;
-	char *message;
+	const char *message;
 
 	obj_next = obj->next;
 
@@ -1562,7 +1562,7 @@ void obj_update( void )
                  t_obj->carried_by->in_room->area->nplayer > 0) )
               (obj->pIndexData->oprogs->area_prog) (obj);
 
-        if ( check_material( obj, "ice" ) )  
+        if ( check_material( obj, (char*)"ice" ) )  
           {
 	   if ( obj->carried_by != NULL )  
              {
@@ -1587,7 +1587,7 @@ void obj_update( void )
 	      }
 	}
 
-        if ( !check_material( obj, "glass" ) && obj->item_type==ITEM_POTION)  {
+        if ( !check_material( obj, (char*)"glass" ) && obj->item_type==ITEM_POTION)  {
 	  if ( obj->carried_by != NULL )  {
 	    if ( obj->carried_by->in_room->sector_type == SECT_DESERT &&
 		 !IS_NPC(obj->carried_by) )

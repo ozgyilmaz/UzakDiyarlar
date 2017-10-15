@@ -162,8 +162,8 @@ void say_spell( CHAR_DATA *ch, int sn )
 
     struct syl_type
     {
-	char *	old;
-	char *	inew;
+	const char *	old;
+	const char *	inew;
     };
 
     static const struct syl_type syl_table[] =
@@ -202,7 +202,7 @@ void say_spell( CHAR_DATA *ch, int sn )
     };
 
     buf[0]	= '\0';
-    for ( pName = skill_table[sn].name; *pName != '\0'; pName += length )
+    for ( pName = (char*)skill_table[sn].name; *pName != '\0'; pName += length )
     {
 	for ( iSyl = 0; (length = strlen(syl_table[iSyl].old)) != 0; iSyl++ )
 	{
@@ -506,7 +506,7 @@ void do_cast( CHAR_DATA *ch, char *argument )
             (IS_SET(victim->affected_by,AFF_CHARM) || !IS_NPC(victim)))
           {
             if (!can_see(victim, ch))
-                do_yell(victim, "Help someone is attacking me!");
+                do_yell(victim, (char*)"Help someone is attacking me!");
             else
               {
                  sprintf(buf,"Die, %s, you sorcerous dog!",
@@ -946,6 +946,7 @@ void obj_cast_spell( int sn, int level, CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DA
 
     case TAR_OBJ_CHAR_OFF:
 	if ( victim == NULL && obj == NULL)
+	{
 	    if (ch->fighting != NULL)
 		victim = ch->fighting;
 	    else
@@ -953,6 +954,7 @@ void obj_cast_spell( int sn, int level, CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DA
 		send_to_char("You can't do that.\n\r",ch);
 		return;
 	    }
+	}
 
 	    if (victim != NULL)
 	    {
@@ -993,7 +995,7 @@ void obj_cast_spell( int sn, int level, CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DA
 	break;
     }
 
-    target_name = "";
+    target_name = (char*)"";
     (*skill_table[sn].spell_fun) ( sn, level, ch, vo,target);
 
 
@@ -1597,7 +1599,7 @@ void spell_chain_lightning(int sn,int level,CHAR_DATA *ch, void *vo,int target)
         (IS_SET(victim->affected_by,AFF_CHARM) || !IS_NPC(victim)))
       {
         if (!can_see(victim, ch))
-          do_yell(victim, "Help someone is attacking me!");
+          do_yell(victim, (char*)"Help someone is attacking me!");
         else
           {
             sprintf(buf,"Die, %s, you sorcerous dog!",
@@ -1638,7 +1640,7 @@ void spell_chain_lightning(int sn,int level,CHAR_DATA *ch, void *vo,int target)
                 (IS_SET(tmp_vict->affected_by,AFF_CHARM) || !IS_NPC(tmp_vict)))
             {
                if (!can_see(tmp_vict, ch))
-                    do_yell(tmp_vict, "Help someone is attacking me!");
+                    do_yell(tmp_vict, (char*)"Help someone is attacking me!");
                else
                {
                  sprintf(buf,"Die, %s, you sorcerous dog!",                    
@@ -1957,7 +1959,7 @@ void spell_create_water( int sn, int level, CHAR_DATA *ch, void *vo,int target)
     {
 	obj->value[2] = LIQ_WATER;
 	obj->value[1] += water;
-	if ( !is_name( "water", obj->name ) )
+	if ( !is_name( (char*)"water", obj->name ) )
 	{
 	    char buf[MAX_STRING_LENGTH];
 
@@ -3203,7 +3205,7 @@ void spell_iceball( int sn, int level, CHAR_DATA *ch, void *vo, int target )
               (IS_SET(tmp_vict->affected_by,AFF_CHARM) || !IS_NPC(tmp_vict)))
             {
             if (!can_see(tmp_vict, ch))
-                do_yell(tmp_vict, "Help someone is attacking me!");
+                do_yell(tmp_vict, (char*)"Help someone is attacking me!");
             else
               {
                  sprintf(buf,"Die, %s, you sorcerous dog!",
@@ -3244,7 +3246,7 @@ void spell_fireball( int sn, int level, CHAR_DATA *ch, void *vo,int target )
               (IS_SET(tmp_vict->affected_by,AFF_CHARM) || !IS_NPC(tmp_vict)))
             {
             if (!can_see(tmp_vict, ch))
-                do_yell(tmp_vict, "Help someone is attacking me!");
+                do_yell(tmp_vict, (char*)"Help someone is attacking me!");
             else
               {
                  sprintf(buf,"Die, %s, you sorcerous dog!",
@@ -3506,7 +3508,7 @@ void spell_gate( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     char_to_room(ch,victim->in_room);
 
     act("$n has arrived through a gate.",ch,NULL,NULL,TO_ROOM);
-    do_look(ch,"auto");
+    do_look(ch,(char*)"auto");
 
     if (gate_pet)
     {
@@ -3515,7 +3517,7 @@ void spell_gate( int sn, int level, CHAR_DATA *ch, void *vo,int target )
 	char_from_room(ch->pet);
 	char_to_room(ch->pet,victim->in_room);
 	act("$n has arrived through a gate.",ch->pet,NULL,NULL,TO_ROOM);
-	do_look(ch->pet,"auto");
+	do_look(ch->pet,(char*)"auto");
     }
 }
 
@@ -3800,7 +3802,7 @@ void spell_holy_word(int sn, int level, CHAR_DATA *ch, void *vo,int target)
                 (IS_SET(vch->affected_by,AFF_CHARM) || !IS_NPC(vch)))
               {
             if (!can_see(vch, ch))
-                do_yell(vch, "Help someone is attacking me!");
+                do_yell(vch, (char*)"Help someone is attacking me!");
             else
               {
                  sprintf(buf,"Die, %s, you sorcerous dog!",
@@ -3826,7 +3828,7 @@ void spell_holy_word(int sn, int level, CHAR_DATA *ch, void *vo,int target)
                 (IS_SET(vch->affected_by,AFF_CHARM) || !IS_NPC(vch)))
               {
             if (!can_see(vch, ch))
-                do_yell(vch, "Help someone is attacking me!");
+                do_yell(vch, (char*)"Help someone is attacking me!");
             else
               {
                  sprintf(buf,"Die, %s, you sorcerous dog!",
@@ -4182,7 +4184,7 @@ void spell_invis( int sn, int level, CHAR_DATA *ch, void *vo,int target )
 void spell_know_alignment(int sn,int level,CHAR_DATA *ch,void *vo,int target )
 {
     CHAR_DATA *victim = (CHAR_DATA *) vo;
-    char *msg;
+    const char *msg;
 
 	 if ( IS_GOOD(victim) ) msg = "$N has a pure and good aura.";
     else if ( IS_NEUTRAL(victim) ) msg = "$N act as no align.";
@@ -5050,7 +5052,7 @@ void spell_summon( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     char_to_room( victim, ch->in_room );
     act( "$n arrives suddenly.", victim, NULL, NULL, TO_ROOM );
     act( "$n has summoned you!", ch, NULL, victim,   TO_VICT );
-    do_look( victim, "auto" );
+    do_look( victim, (char*)"auto" );
     return;
 }
 
@@ -5083,7 +5085,7 @@ void spell_teleport( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     char_from_room( victim );
     char_to_room( victim, pRoomIndex );
     act( "$n slowly fades into existence.", victim, NULL, NULL, TO_ROOM );
-    do_look( victim, "auto" );
+    do_look( victim, (char*)"auto" );
     return;
 }
 
@@ -5195,15 +5197,15 @@ hometown_table[victim->hometown].recall[IS_GOOD(victim)?0:IS_NEUTRAL(victim)?1:I
     act("$n disappears.",victim,NULL,NULL,TO_ROOM);
     char_from_room(victim);
     char_to_room(victim,location);
-    do_visible(ch,"");
+    do_visible(ch,(char*)"");
     act("$n appears in the room.",victim,NULL,NULL,TO_ROOM);
-    do_look(victim,"auto");
+    do_look(victim,(char*)"auto");
 
     if (victim->pet != NULL)
       {
  	char_from_room( victim->pet );
 	char_to_room( victim->pet, location );
-	do_look(victim->pet, "auto" );
+	do_look(victim->pet, (char*)"auto" );
       }
 
 }
@@ -5390,7 +5392,7 @@ void spell_gas_breath( int sn, int level, CHAR_DATA *ch, void *vo,int target )
               (IS_SET(vch->affected_by,AFF_CHARM) || !IS_NPC(vch)))
             {
             if (!can_see(vch, ch))
-                do_yell(vch, "Help someone is attacking me!");
+                do_yell(vch, (char*)"Help someone is attacking me!");
             else
               {
                  sprintf(buf,"Die, %s, you sorcerous dog!",
@@ -5883,7 +5885,7 @@ void spell_astral_walk( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     char_to_room(ch,victim->in_room);
 
     act("$n appears in a flash of light!",ch,NULL,NULL,TO_ROOM);
-    do_look(ch,"auto");
+    do_look(ch,(char*)"auto");
 
     if (gate_pet)
     {
@@ -5892,7 +5894,7 @@ void spell_astral_walk( int sn, int level, CHAR_DATA *ch, void *vo,int target )
 	char_from_room(ch->pet);
 	char_to_room(ch->pet,victim->in_room);
 	act("$n appears in a flash of light!",ch->pet,NULL,NULL,TO_ROOM);
-	do_look(ch->pet,"auto");
+	do_look(ch->pet,(char*)"auto");
     }
 }
 
@@ -5932,7 +5934,7 @@ void spell_mist_walk( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     char_to_room(ch,victim->in_room);
 
     act("A cloud of glowing mist engulfs you, then withdraws to unveil $n!",ch,NULL,NULL,TO_ROOM);
-    do_look(ch,"auto");
+    do_look(ch,(char*)"auto");
 
 }
 
@@ -5976,7 +5978,7 @@ void spell_solar_flight( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     char_to_room(ch,victim->in_room);
 
     act("$n appears in a blinding flash of light!",ch,NULL,NULL,TO_ROOM);
-    do_look(ch,"auto");
+    do_look(ch,(char*)"auto");
 
 }
 
@@ -6016,7 +6018,7 @@ void spell_helical_flow( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     char_to_room(ch,victim->in_room);
 
     act("A coil of colours descends from above, revealing $n as it dissipates.",ch,NULL,NULL,TO_ROOM);
-    do_look(ch,"auto");
+    do_look(ch,(char*)"auto");
 
 }
 
@@ -6090,7 +6092,7 @@ void spell_hurricane(int sn,int level,CHAR_DATA *ch,void *vo,int target)
               (IS_SET(vch->affected_by,AFF_CHARM) || !IS_NPC(vch)))
             {
             if (!can_see(vch, ch))
-                do_yell(vch, "Help someone is attacking me!");
+                do_yell(vch, (char*)"Help someone is attacking me!");
             else
               {
                  sprintf(buf,"Die, %s, you sorcerous dog!",
@@ -6195,7 +6197,7 @@ void spell_take_revenge( int sn, int level, CHAR_DATA *ch, void *vo,int target)
 	  char_from_room( ch );
 	  char_to_room(ch, prev_room);
 	}
-	else do_look(ch,"auto");
+	else do_look(ch,(char*)"auto");
       }
     return;
 }
@@ -6646,7 +6648,7 @@ void spell_fire_and_ice( int sn, int level, CHAR_DATA *ch, void *vo,int target)
               (IS_SET(tmp_vict->affected_by,AFF_CHARM) || !IS_NPC(tmp_vict)))
             {
             if (!can_see(tmp_vict, ch))
-                do_yell(tmp_vict, "Help someone is attacking me!");
+                do_yell(tmp_vict, (char*)"Help someone is attacking me!");
             else
               {
                  sprintf(buf,"Die, %s, you sorcerous dog!",
@@ -7038,7 +7040,7 @@ void spell_windwall( int sn, int level, CHAR_DATA *ch, void *vo,int target)
               (IS_SET(vch->affected_by,AFF_CHARM) || !IS_NPC(vch)))
             {
             if (!can_see(vch, ch))
-                do_yell(vch, "Help someone is attacking me!");
+                do_yell(vch, (char*)"Help someone is attacking me!");
             else
               {
                  sprintf(buf,"Die, %s, you sorcerous dog!",

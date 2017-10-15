@@ -885,7 +885,7 @@ void fight_prog_tattoo_apollon(OBJ_DATA *obj, CHAR_DATA *ch)
     case 2:
       act_color("$CThe tattoo on your shoulder glows red.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
-      do_yell( ch, "Ever dance with good....");
+      do_yell( ch, (char*)"Ever dance with good....");
       sn = skill_lookup("holy word");
       spell_holy_word(sn,ch->level,ch,NULL,TARGET_CHAR);
       break;
@@ -962,7 +962,7 @@ void fight_prog_tattoo_ahrumazda(OBJ_DATA *obj, CHAR_DATA *ch)
     case 2:
       act_color("$CThe tattoo on your shoulder glows red.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
-      do_yell(ch,"And justice for all!....");
+      do_yell(ch,(char*)"And justice for all!....");
       spell_scream(gsn_scream,ch->level,ch,ch->fighting,TARGET_CHAR);
       break;
     }
@@ -1140,19 +1140,19 @@ void fight_prog_tattoo_athena(OBJ_DATA *obj, CHAR_DATA *ch)
       {
 	switch(number_bits(4)) {
 	case 0:
-	  do_yell(ch, "Cry Havoc and Let Loose the Dogs of War!");
+	  do_yell(ch, (char*)"Cry Havoc and Let Loose the Dogs of War!");
 	  break;
 	case 1:
-	  do_yell(ch, "No Mercy!");
+	  do_yell(ch, (char*)"No Mercy!");
 	  break;
 	case 2:
-	  do_yell(ch, "Los Valdar Cuebiyari!");
+	  do_yell(ch, (char*)"Los Valdar Cuebiyari!");
 	  break;
 	case 3:
-	  do_yell(ch, "Carai an Caldazar! Carai an Ellisande! Al Ellisande!");
+	  do_yell(ch, (char*)"Carai an Caldazar! Carai an Ellisande! Al Ellisande!");
 	  break;
 	case 4:
-	  do_yell(ch, "Siempre Vive el Riesgo!");
+	  do_yell(ch, (char*)"Siempre Vive el Riesgo!");
 	  break;
 	}
       }
@@ -1783,7 +1783,7 @@ void fight_prog_tattoo_goktengri(OBJ_DATA *obj, CHAR_DATA *ch)
     case 1:
       act_color("$CThe tattoo on your shoulder glows white.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_WHITE);
-      do_say(ch,"My honour is my life.");
+      do_say(ch,(char*)"My honour is my life.");
       one_hit(ch,ch->fighting,TYPE_UNDEFINED,FALSE);
       break;
     }

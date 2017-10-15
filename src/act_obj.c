@@ -84,7 +84,7 @@ AFFECT_DATA  *	affect_find(AFFECT_DATA *paf, int sn);
 int		find_exit( CHAR_DATA *ch, char *arg );
 
 
-extern char *  const   dir_name        [];
+extern const char *   dir_name        [];
 
 /* RT part of the corpse looting code */
 
@@ -689,10 +689,12 @@ void do_put( CHAR_DATA *ch, char *argument )
 
 	if (container->pIndexData->vnum == OBJ_VNUM_PIT 
 	&&  !CAN_WEAR(container,ITEM_TAKE))
+	{
 	    if (obj->timer)
 		SET_BIT(obj->extra_flags,ITEM_HAD_TIMER);
 	    else
 	        obj->timer = number_range(100,200);
+	        }
 
 	obj_from_char( obj );
 	obj_to_obj( obj, container );
@@ -731,10 +733,12 @@ void do_put( CHAR_DATA *ch, char *argument )
 	    {
 	    	if (container->pIndexData->vnum == OBJ_VNUM_PIT
 	    	&&  !CAN_WEAR(obj, ITEM_TAKE) )
+	    	{
 	    	    if (obj->timer)
 			SET_BIT(obj->extra_flags,ITEM_HAD_TIMER);
 	    	    else
 	    	    	obj->timer = number_range(100,200);
+	    	    	}
 
 		if ( obj->pIndexData->limit != -1 )
 		{
@@ -1382,7 +1386,7 @@ void do_bury( CHAR_DATA *ch, char *argument )
     }
     
     if ( (shovel = get_weapon_char(ch, WEAPON_MACE)) == NULL
-         || !is_name("shovel",shovel->name) )
+         || !is_name((char*)"shovel",shovel->name) )
     {
         send_to_char( "You don't have shovel do dig!\n\r", ch );
         return;
@@ -1490,7 +1494,7 @@ void do_dig( CHAR_DATA *ch, char *argument )
     }
     
     if ( (shovel = get_weapon_char(ch, WEAPON_MACE)) == NULL
-         || !is_name("shovel",shovel->name) )
+         || !is_name((char*)"shovel",shovel->name) )
     {
         send_to_char( "You don't have shovel do dig!\n\r", ch );
         return;
@@ -2686,7 +2690,7 @@ void do_quaff( CHAR_DATA *ch, char *argument )
     extract_obj( obj );
     obj_to_char( create_object(get_obj_index(OBJ_VNUM_POTION_VIAL),0),ch);
 
-    if (IS_NPC(ch))	do_drop(ch, "vial");
+    if (IS_NPC(ch))	do_drop(ch, (char*)"vial");
 
     return;
 }
@@ -3222,7 +3226,7 @@ CHAR_DATA *find_keeper( CHAR_DATA *ch )
     if ( IS_SET(keeper->in_room->area->area_flag,AREA_HOMETOWN) 
 	 && !IS_NPC(ch) && IS_SET(ch->act,PLR_WANTED) )
     {
-	do_say( keeper, "Criminals are not welcome!" );
+	do_say( keeper, (char*)"Criminals are not welcome!" );
 	sprintf( buf, "%s the CRIMINAL is over here!\n\r", ch->name );
 	do_yell( keeper, buf );
 	return NULL;
@@ -3233,13 +3237,13 @@ CHAR_DATA *find_keeper( CHAR_DATA *ch )
      */
     if ( time_info.hour < pShop->open_hour )
     {
-	do_say( keeper, "Sorry, I am closed. Come back later." );
+	do_say( keeper, (char*)"Sorry, I am closed. Come back later." );
 	return NULL;
     }
     
     if ( time_info.hour > pShop->close_hour )
     {
-	do_say( keeper, "Sorry, I am closed. Come back tomorrow." );
+	do_say( keeper, (char*)"Sorry, I am closed. Come back tomorrow." );
 	return NULL;
     }
 
@@ -3248,7 +3252,7 @@ CHAR_DATA *find_keeper( CHAR_DATA *ch )
      */
     if ( !can_see( keeper, ch ) && !IS_IMMORTAL( ch ) )
     {
-	do_say( keeper, "I don't trade with folks I can't see." );
+	do_say( keeper, (char*)"I don't trade with folks I can't see." );
 	return NULL;
     }
 

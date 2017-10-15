@@ -57,16 +57,16 @@ void do_heal(CHAR_DATA *ch, char *argument)
     char arg[MAX_INPUT_LENGTH];
     int cost,sn;
     SPELL_FUN *spell;
-    char *words;	
+    const char *words;	
 
     /* check for healer */
     for ( mob = ch->in_room->people; mob; mob = mob->next_in_room )
     {
         if ( IS_NPC(mob) && IS_SET(mob->act, ACT_IS_HEALER))
 	 {
-	  if (ch->cabal && is_name("cabal",mob->name))
+	  if (ch->cabal && is_name((char*)"cabal",mob->name))
 		{
-    		 if (is_name(cabal_table[ch->cabal].short_name,mob->name) )
+    		 if (is_name((char*)cabal_table[ch->cabal].short_name,mob->name) )
 		 	break;
 		 else continue;
 		}
@@ -249,20 +249,20 @@ void heal_battle(CHAR_DATA *mob, CHAR_DATA *ch )
 {
     int sn;
 
-    if (is_name(cabal_table[ch->cabal].short_name,mob->name) )
+    if (is_name((char*)cabal_table[ch->cabal].short_name,mob->name) )
 	return;
 
     if (IS_NPC(ch) || ch->cabal != CABAL_BATTLE)
        {
-	do_say(mob,"I won't help you.");
+	do_say(mob,(char*)"I won't help you.");
 	return;
        }
 
     if (!IS_AFFECTED(ch,AFF_BLIND) && !IS_AFFECTED(ch,AFF_PLAGUE)
 	 && !IS_AFFECTED(ch,AFF_POISON) && !IS_AFFECTED(ch,AFF_CURSE) )
        {
-	do_say(mob,"You don't need my help, my dear. But in case!");
-	sn = skill_lookup("remove curse");
+	do_say(mob,(char*)"You don't need my help, my dear. But in case!");
+	sn = skill_lookup((char*)"remove curse");
 	spell_remove_curse(sn,mob->level,mob,ch,TARGET_CHAR);
 	return;
        }

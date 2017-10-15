@@ -704,8 +704,8 @@ void crash_chronos (int sig)
 	             save_char_obj (ch);	
 	    sprintf(buf,"%s is saved",ch->name);	
 	    log_string(buf);
-	    write_to_descriptor(d->descriptor,"\007Rebooting By Server!!\007\n\r",0);
-	    write_to_descriptor(d->descriptor,"Saving.Remember that Rom has automatic saving now.\n\r",0);
+	    write_to_descriptor(d->descriptor,(char*)"\007Rebooting By Server!!\007\n\r",0);
+	    write_to_descriptor(d->descriptor,(char*)"Saving.Remember that Rom has automatic saving now.\n\r",0);
 	    sprintf(buf,"%s last command %s",ch->name,ch->desc->inlast);    
 	    bug(buf,0);
 	}
@@ -989,7 +989,7 @@ void init_descriptor( int control )
     if ( check_ban(dnew->host,BAN_ALL))
     {
 	write_to_descriptor( desc,
-	    "Your site has been banned from this mud.\n\r", 0 );
+	    (char*)"Your site has been banned from this mud.\n\r", 0 );
 	close( desc );
 	free_descriptor(dnew);
 	return;
@@ -1111,7 +1111,7 @@ bool read_from_descriptor( DESCRIPTOR_DATA *d )
 	sprintf( log_buf, "%s input overflow!", d->host );
 	log_string( log_buf );
 	write_to_descriptor( d->descriptor,
-	    "\n\r*** PUT A LID ON IT!!! ***\n\r", 0 );
+	    (char*)"\n\r*** PUT A LID ON IT!!! ***\n\r", 0 );
 	return FALSE;
     }
 
@@ -1200,7 +1200,7 @@ void read_from_buffer( DESCRIPTOR_DATA *d )
     {
 	if ( k >= MAX_INPUT_LENGTH - 2 )
 	{
-	    write_to_descriptor( d->descriptor, "Line too long.\n\r", 0 );
+	    write_to_descriptor( d->descriptor, (char*)"Line too long.\n\r", 0 );
 
 	    /* skip the rest of the line */
 	    for ( ; d->inbuf[i] != '\0'; i++ )
@@ -1254,7 +1254,7 @@ void read_from_buffer( DESCRIPTOR_DATA *d )
 		d->repeat = 0;
 
 		write_to_descriptor( d->descriptor,
-		    "\n\r*** PUT A LID ON IT!!! ***\n\r", 0 );
+		    (char*)"\n\r*** PUT A LID ON IT!!! ***\n\r", 0 );
 /*		strcpy( d->incomm, "quit" );	*/
 		close_socket( d );	
 		return;
@@ -1840,7 +1840,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
                 return;
             }
  	    
- 	    do_help(ch,"NAME");
+ 	    do_help(ch,(char*)"NAME");
 	    d->connected = CON_CONFIRM_NEW_NAME;
 	    return;
 	}
@@ -1929,12 +1929,12 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	if ( IS_HERO(ch) )
 	{
-	    do_help( ch, "imotd" );
+	    do_help( ch, (char*)"imotd" );
 	    d->connected = CON_READ_IMOTD;
  	}
 	else
 	{
-	    do_help( ch, "motd" );
+	    do_help( ch, (char*)"motd" );
 	    d->connected = CON_READ_MOTD;
 	}
 
@@ -1969,7 +1969,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 		 || ch->iclass == CLASS_TRANSMUTER) /* warlock and witch */
 	    {
 		ch->practice += ch->level / 3;
-		do_help(ch, "new classes");
+		do_help(ch, (char*)"new classes");
 	        write_to_buffer( d,
 		"What is your class (Invoker/Transmuter/Elementalist)? ", 0 );
 		d->connected = CON_NEW_CLASSES;
@@ -1987,7 +1987,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	if (!str_cmp(arg,"help"))
 	{
 	    if (argument[0] == '\0')
-		do_help(ch,"new classes");
+		do_help(ch,(char*)"new classes");
 	    else
 		do_help(ch,argument);
             write_to_buffer(d,
@@ -2146,7 +2146,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 			MAX_PC_RACE - 1);
 	write_to_buffer( d, buf, 0);
 	write_to_buffer( d, "\n\r", 0);
-	do_help(ch,"RACETABLE");
+	do_help(ch,(char*)"RACETABLE");
 	d->connected = CON_GET_NEW_RACE;
 	break;
 
@@ -2158,7 +2158,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 			MAX_PC_RACE - 1);
 	write_to_buffer( d, buf, 0);
 	write_to_buffer( d, "\n\r", 0);
-	do_help(ch,"RACETABLE");
+	do_help(ch,(char*)"RACETABLE");
 	d->connected = CON_GET_NEW_RACE;
 	break;
 
@@ -2175,7 +2175,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 			MAX_PC_RACE - 1);
 		write_to_buffer( d, buf, 0);
 		write_to_buffer( d, "\n\r", 0);
-            	do_help(ch,"RACETABLE");
+            	do_help(ch,(char*)"RACETABLE");
 		break;
 	      }
 	    else
@@ -2266,7 +2266,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    return;
 	}
 	
-	do_help(ch,"class help");
+	do_help(ch,(char*)"class help");
 
 	strcpy( buf, "Select a class:\n\r[ " );
 	sprintf(buf1,"             (Continuing:)  ");
@@ -2302,7 +2302,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	if (!str_cmp(arg,"help"))
 	  {
 	    if (argument[0] == '\0')
-		do_help(ch,"class help");
+		do_help(ch,(char*)"class help");
 	    else
 		do_help(ch,argument);
             write_to_buffer(d,
@@ -2346,7 +2346,7 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
         get_stat_alias(ch, STAT_CHA) );
 
 
-	do_help(ch,"stats");
+	do_help(ch,(char*)"stats");
 	write_to_buffer(d,"\n\rNow rolling for your stats (10-20+).\n\r",0);
 	write_to_buffer(d,"You don't get many trains, so choose well.\n\r",0);
 	write_to_buffer(d, buf,0);
@@ -2357,7 +2357,7 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
 	switch( argument[0] )
 	  {
 	  case 'H': case 'h': case '?':
-	    do_help(ch,"stats");
+	    do_help(ch,(char*)"stats");
 	    break;
 	  case 'y': case 'Y':	
 	    for (i=0; i < MAX_STATS;i++)
@@ -2438,7 +2438,7 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
 	  ch->endur = 0;
 	  if (!hometown_check(ch))
 	   {
-	    do_help(ch,"hometown");
+	    do_help(ch,(char*)"hometown");
             write_to_buffer( d, buf,0);	  
 	    d->connected = CON_PICK_HOMETOWN;
 	    return;
@@ -2454,7 +2454,7 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
 	switch(argument[0]) 
          {
 	  case 'H' : case 'h' : case '?' : 
-		do_help(ch, "hometown"); 
+		do_help(ch, (char*)"hometown"); 
                 write_to_buffer( d, buf,0);	  
 		return;
 	  case 'M' : case 'm' : 
@@ -2495,7 +2495,7 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
 	  switch(argument[0]) 
           {
 	   case 'H': case 'h': case '?': 
-		do_help(ch, "alignment"); return; break;
+		do_help(ch, (char*)"alignment"); return; break;
 	   case 'L': case 'l': 
 	 	sprintf(buf,"\n\rNow you are lawful-%s.\n\r",
 		   IS_GOOD(ch) ? "good" : IS_EVIL(ch) ? "evil" : "neutral");
@@ -2541,7 +2541,7 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
         group_add(ch);
         ch->pcdata->learned[gsn_recall] = 75;
         write_to_buffer( d, "\n\r", 2 );
-	do_help(ch,"GENERAL");
+	do_help(ch,(char*)"GENERAL");
 	write_to_buffer( d, "[Hit Return to Continue]\n\r",0);
         d->connected = CON_READ_NEWBIE;
         return;
@@ -2549,14 +2549,14 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
 
     case CON_READ_NEWBIE:
         write_to_buffer( d, "\n\r", 2 );
-        do_help( ch, "motd" );
+        do_help( ch, (char*)"motd" );
         d->connected = CON_READ_MOTD;
         return;
 	break;
 
     case CON_READ_IMOTD:
 	write_to_buffer(d,"\n\r",2);
-        do_help( ch, "motd" );
+        do_help( ch, (char*)"motd" );
         d->connected = CON_READ_MOTD;
 	break;
 
@@ -2624,14 +2624,14 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
 
 	    char_to_room( ch, get_room_index( ROOM_VNUM_SCHOOL ) );
 	    send_to_char("\n\r",ch);
-	    do_help(ch, "NEWBIE INFO");
+	    do_help(ch, (char*)"NEWBIE INFO");
 	    send_to_char("\n\r",ch);
 	    
 	    /* give some bonus time */
 	    for( l=0; l < MAX_TIME_LOG; l++)
 		ch->pcdata->log_time[l] = 60;
 
-	    do_outfit(ch,"");
+	    do_outfit(ch,(char*)"");
 	}
 	else if ( ch->in_room != NULL )
 	{
@@ -2695,7 +2695,7 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
 	  }
 	}
 
-	do_look( ch, "auto" );
+	do_look( ch, (char*)"auto" );
 
 	if (ch->gold > 10000 && !IS_IMMORTAL(ch))
 	{
@@ -2727,7 +2727,7 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
 	  ch->pcdata->confirm_delete = FALSE;
 	}
 
-	do_unread( ch, "login" );  
+	do_unread( ch, (char*)"login" );  
 
 	break;
     }
@@ -2744,7 +2744,7 @@ bool check_parse_name( char *name )
      * Reserved words.
      */
     if ( is_name( name, 
-	"all auto immortal self someone something the you demise balance circle loner honor") )
+	(char*)"all auto immortal self someone something the you demise balance circle loner honor") )
 	return FALSE;
 	
     if (!str_cmp(capitalize(name),"Chronos") || !str_prefix("Chro",name)
@@ -3028,7 +3028,7 @@ void page_to_char( const char *txt, CHAR_DATA *ch )
     ch->desc->showstr_head = (char*)alloc_mem(strlen(txt) + 1);
     strcpy(ch->desc->showstr_head,txt);
     ch->desc->showstr_point = ch->desc->showstr_head;
-    show_string(ch->desc,"");
+    show_string(ch->desc,(char*)"");
 #endif
 }
 
@@ -3104,9 +3104,9 @@ void act (const char *format, CHAR_DATA *ch, const void *arg1,
 void act_color( const char *format, CHAR_DATA *ch, const void *arg1, 
 	      const void *arg2, int type, int min_pos, ... )
 {
-    static char * const he_she  [] = { "it",  "he",  "she" };
-    static char * const him_her [] = { "it",  "him", "her" };
-    static char * const his_her [] = { "its", "his", "her" };
+    static const char * const he_she  [] = { "it",  "he",  "she" };
+    static const char * const him_her [] = { "it",  "him", "her" };
+    static const char * const his_her [] = { "its", "his", "her" };
  
     char buf[MAX_STRING_LENGTH];
     char fname[MAX_INPUT_LENGTH];
@@ -3347,13 +3347,13 @@ extern AREA_DATA *area_first;
 
 void exit_function(int signum)
 {
-  dump_to_scr("Exiting from the player saver.\n\r");
+  dump_to_scr((char*)"Exiting from the player saver.\n\r");
   wait(NULL);
 }
 
 char *get_stat_alias( CHAR_DATA *ch, int where )
 {
-char *stat;
+const char *stat;
 int istat;
 
     if ( where == STAT_STR)  {
@@ -3364,7 +3364,7 @@ int istat;
       else if ( istat >= 14 ) stat = "Average";
       else if ( istat >= 10 ) stat = "Poor";
       else                    stat = "Weak";
-      return(stat);
+      return((char*)stat);
     }
     
     if ( where == STAT_WIS)  {
@@ -3375,7 +3375,7 @@ int istat;
       else if ( istat >= 14 ) stat = "Average";
       else if ( istat >= 10 ) stat = "Dim";
       else                    stat = "Fool";
-      return(stat);
+      return((char*)stat);
     }
 
     if ( where == STAT_CON)  {
@@ -3386,7 +3386,7 @@ int istat;
       else if ( istat >= 14 ) stat = "Average";
       else if ( istat >= 10 ) stat = "Poor";
       else                    stat = "Fragile";
-      return(stat);
+      return((char*)stat);
     }
 
     if ( where == STAT_INT)  {
@@ -3397,7 +3397,7 @@ int istat;
       else if ( istat >= 14 ) stat = "Average";
       else if ( istat >= 10 ) stat = "Poor";
       else                    stat = "Hopeless";
-      return(stat);
+      return((char*)stat);
     }
     
     if ( where == STAT_DEX)  {
@@ -3408,7 +3408,7 @@ int istat;
       else if ( istat >= 14 ) stat = "Average";
       else if ( istat >= 10 ) stat = "Clumsy";
       else                    stat = "Slow";
-      return(stat);
+      return((char*)stat);
     }
 
     if ( where == STAT_CHA)  {
@@ -3419,7 +3419,7 @@ int istat;
       else if ( istat >= 14 ) stat = "Average";
       else if ( istat >= 10 ) stat = "Poor";
       else                    stat = "Mongol";
-      return(stat);
+      return((char*)stat);
     }
 
    bug( "stat_alias: Bad stat number.", 0 );

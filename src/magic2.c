@@ -314,7 +314,7 @@ void spell_poison_smoke( int sn, int level, CHAR_DATA *ch, void *vo, int target)
 	    (IS_SET(tmp_vict->affected_by,AFF_CHARM) || !IS_NPC(tmp_vict)))
 	  {
 	    if (!can_see(tmp_vict, ch))
-		do_yell(tmp_vict, "Help someone is attacking me!");
+		do_yell(tmp_vict, (char*)"Help someone is attacking me!");
 	    else 
 	      {
 	         sprintf(buf,"Die, %s, you sorcerous dog!",
@@ -351,7 +351,7 @@ void spell_blindness_dust( int sn, int level, CHAR_DATA *ch, void *vo, int targe
 	    (IS_SET(tmp_vict->affected_by,AFF_CHARM) || !IS_NPC(tmp_vict)))
 	  {
 	    if (!can_see(tmp_vict, ch))
-		do_yell(tmp_vict, "Help someone is attacking me!");
+		do_yell(tmp_vict, (char*)"Help someone is attacking me!");
 	    else 
 	      {
 	         sprintf(buf,"Die, %s, you sorcerous dog!",
@@ -548,7 +548,7 @@ void spell_vanish( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   char_from_room( victim );
   char_to_room( victim, pRoomIndex );
   act( "$n appears from nowhere.", victim, NULL, NULL, TO_ROOM );
-  do_look( victim, "auto" );
+  do_look( victim, (char*)"auto" );
   stop_fighting(victim,TRUE);
   return;
 }
@@ -704,9 +704,9 @@ void spell_demon_summon( int sn, int level, CHAR_DATA *ch, void *vo, int target 
   if (number_percent() < 40)
     {
       if ( can_see( demon, ch ) )
-        do_say(demon, "You dare disturb me?!");
+        do_say(demon, (char*)"You dare disturb me?!");
       else
-        do_say(demon, "Who dares disturb me?!");
+        do_say(demon, (char*)"Who dares disturb me?!");
       do_murder(demon, ch->name);
     }
   else {
@@ -741,7 +741,7 @@ void spell_scourge( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	      (IS_SET(tmp_vict->affected_by,AFF_CHARM) || !IS_NPC(tmp_vict)))
 	    {
 	      if (!can_see(tmp_vict, ch))
-		do_yell(tmp_vict, "Help someone is attacking me!");
+		do_yell(tmp_vict, (char*)"Help someone is attacking me!");
 	      else 
 		{
 		  sprintf(buf,"Die, %s, you sorcerous dog!",
@@ -944,7 +944,7 @@ void spell_guard_call( int sn, int level, CHAR_DATA *ch, void *vo, int target )
       if (IS_NPC(gch) && IS_AFFECTED(gch,AFF_CHARM) && gch->master == ch
 	  && gch->pIndexData->vnum == MOB_VNUM_SPECIAL_GUARD)
 	{
-	  do_say(gch, "What? I'm not good enough?");
+	  do_say(gch, (char*)"What? I'm not good enough?");
 	  return;
 	}
     }
@@ -1096,12 +1096,12 @@ void spell_eyes( int sn, int level, CHAR_DATA *ch, void *vo, int target )
       }
 
     if (ch==victim)
-      do_look( ch, "auto" );
+      do_look( ch, (char*)"auto" );
     else {
       ori_room = ch->in_room;
       char_from_room( ch );
       char_to_room( ch, victim->in_room );
-      do_look( ch, "auto" );
+      do_look( ch, (char*)"auto" );
       char_from_room( ch );
       char_to_room( ch, ori_room );
     }
@@ -1850,7 +1850,7 @@ void spell_tesseract( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	  if (wch->in_room == NULL)
 	     bug("Tesseract: other char sent to NULL room",0); 
 	  else
-	     do_look(wch,"auto");
+	     do_look(wch,(char*)"auto");
 	} 
     }
  
@@ -1863,7 +1863,7 @@ void spell_tesseract( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   if (ch->in_room == NULL)
      bug("Tesseract: char sent to NULL room",0); 
   else
-     do_look(ch,"auto");
+     do_look(ch,(char*)"auto");
   
   if (gate_pet)
     {
@@ -1874,7 +1874,7 @@ void spell_tesseract( int sn, int level, CHAR_DATA *ch, void *vo, int target )
       if (ch->pet->in_room == NULL)
          bug("Tesseract: pet sent to NULL room",0); 
       else
-         do_look(ch->pet,"auto");
+         do_look(ch->pet,(char*)"auto");
     }
 }
 
@@ -2618,7 +2618,7 @@ void spell_disperse( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	  char_from_room( vch );
 	  char_to_room( vch, pRoomIndex );
 	  act( "$n slowly fades into existence.", vch, NULL, NULL, TO_ROOM );
-	  do_look( vch, "auto" );
+	  do_look( vch, (char*)"auto" );
 	}
     }
   af.where		= TO_AFFECTS;
@@ -2826,7 +2826,7 @@ switch( dice(1,5) )
               (IS_SET(vch->affected_by,AFF_CHARM) || !IS_NPC(vch)))
             {
             if (!can_see(vch, ch))
-                do_yell(vch, "Help someone is attacking me!");
+                do_yell(vch, (char*)"Help someone is attacking me!");
             else
               {
                  sprintf(buf,"Die, %s, you sorcerous dog!",
@@ -3147,7 +3147,7 @@ void spell_animate_dead(int sn,int level, CHAR_DATA *ch, void *vo,int target )
 	obj_from_obj(obj2);
 	obj_to_char(obj2, undead);
     }
-  interpret( undead,"wear all", TRUE);
+  interpret( undead,(char*)"wear all", TRUE);
 
   af.where	 = TO_AFFECTS;
   af.type      = sn;
@@ -5301,7 +5301,7 @@ void spell_blade_barrier(int sn,int level,CHAR_DATA *ch, void *vo,int target)
         (IS_SET(victim->affected_by,AFF_CHARM) || !IS_NPC(victim)))
       {
         if (!can_see(victim, ch))
-          do_yell(victim, "Help someone is attacking me!");
+          do_yell(victim, (char*)"Help someone is attacking me!");
         else
           {
             sprintf(buf,"Die, %s, you sorcerous dog!",
@@ -5618,14 +5618,14 @@ void spell_farsight( int sn, int level, CHAR_DATA *ch, void *vo, int target )
       }
 
     if (ch->in_room == room)
-      do_look( ch, "auto" );
+      do_look( ch, (char*)"auto" );
     else 
     {
       mount = MOUNTED(ch) ? 1 : 0;
       oldr = ch->in_room;
       char_from_room( ch );
       char_to_room( ch, room );
-      do_look( ch, "auto" );
+      do_look( ch, (char*)"auto" );
       char_from_room( ch );
       char_to_room( ch, oldr );
       if (mount)
@@ -5869,7 +5869,7 @@ void spell_sword_of_justice( int sn, int level, CHAR_DATA *ch, void *vo, int tar
   if (saves_spell(level,victim, DAM_MENTAL))
 	      dam /= 2;
 
-  do_yell(ch, "The Sword of Justice!");
+  do_yell(ch, (char*)"The Sword of Justice!");
   act("The sword of justice appears and strikes $N!",ch,NULL,victim,TO_ALL);
 
   damage(ch,victim,dam,sn,DAM_MENTAL, TRUE);
@@ -5975,12 +5975,12 @@ void spell_eyes_of_tiger( int sn, int level, CHAR_DATA *ch, void *vo, int target
       }
 
     if (ch==victim)
-      do_look( ch, "auto" );
+      do_look( ch, (char*)"auto" );
     else {
       ori_room = ch->in_room;
       char_from_room( ch );
       char_to_room( ch, victim->in_room );
-      do_look( ch, "auto" );
+      do_look( ch, (char*)"auto" );
       char_from_room( ch );
       char_to_room( ch, ori_room );
     }
@@ -6328,7 +6328,7 @@ void spell_mummify( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	obj_from_obj(obj2);
 	obj_to_char(obj2, undead);
     }
-  interpret( undead,"wear all", TRUE);
+  interpret( undead,(char*)"wear all", TRUE);
 
   af.where	 = TO_AFFECTS;
   af.type      = sn;

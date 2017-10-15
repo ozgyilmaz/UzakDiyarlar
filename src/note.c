@@ -158,7 +158,7 @@ void do_changes(CHAR_DATA *ch,char *argument)
 void save_notes(int type)
 {
     FILE *fp;
-    char *name;
+    const char *name;
     NOTE_DATA *pnote;
 
     switch (type)
@@ -210,11 +210,11 @@ void save_notes(int type)
 }
 void load_notes(void)
 {
-    load_thread(NOTE_FILE,&note_list, NOTE_NOTE, 14*24*60*60);
-    load_thread(IDEA_FILE,&idea_list, NOTE_IDEA, 28*24*60*60);
-    load_thread(PENALTY_FILE,&penalty_list, NOTE_PENALTY, 0);
-    load_thread(NEWS_FILE,&news_list, NOTE_NEWS, 0);
-    load_thread(CHANGES_FILE,&changes_list,NOTE_CHANGES, 0);
+    load_thread((char*)NOTE_FILE,&note_list, NOTE_NOTE, 14*24*60*60);
+    load_thread((char*)IDEA_FILE,&idea_list, NOTE_IDEA, 28*24*60*60);
+    load_thread((char*)PENALTY_FILE,&penalty_list, NOTE_PENALTY, 0);
+    load_thread((char*)NEWS_FILE,&news_list, NOTE_NEWS, 0);
+    load_thread((char*)CHANGES_FILE,&changes_list,NOTE_CHANGES, 0);
 }
 
 void load_thread(char *name, NOTE_DATA **list, int type, time_t free_time)
@@ -295,7 +295,7 @@ void load_thread(char *name, NOTE_DATA **list, int type, time_t free_time)
 void append_note(NOTE_DATA *pnote)
 {
     FILE *fp;
-    char *name;
+    const char *name;
     NOTE_DATA **list;
     NOTE_DATA *last;
 
@@ -359,13 +359,13 @@ bool is_note_to( CHAR_DATA *ch, NOTE_DATA *pnote )
     if ( !str_cmp( "all", pnote->to_list ) )
 	return TRUE;
 
-    if ( IS_IMMORTAL(ch) && is_name( "immortal", pnote->to_list ) )
+    if ( IS_IMMORTAL(ch) && is_name( (char*)"immortal", pnote->to_list ) )
 	return TRUE;
 
     if ( is_name( ch->name, pnote->to_list ) )
 	return TRUE;
 
-    if ( is_name( cabal_table[ch->cabal].short_name, pnote->to_list ) )
+    if ( is_name( (char*)cabal_table[ch->cabal].short_name, pnote->to_list ) )
 	return TRUE;
 
     return FALSE;
@@ -555,7 +555,7 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
     char arg[MAX_INPUT_LENGTH];
     NOTE_DATA *pnote;
     NOTE_DATA **list;
-    char *list_name;
+    const char *list_name;
     int vnum;
     int anum;
 
@@ -780,7 +780,7 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
 
 	add_buf(buffer,ch->pnote->text);
 	add_buf(buffer,argument);
-	add_buf(buffer,"\n\r");
+	add_buf(buffer,(char*)"\n\r");
 	free_string( ch->pnote->text );
 	ch->pnote->text = str_dup( buf_string(buffer) );
 	free_buf(buffer);
@@ -852,7 +852,7 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
 
     if ( !str_prefix( arg, "to" ) )
     {
-	if (is_name(argument,"all") && 
+	if (is_name(argument,(char*)"all") && 
 		!(IS_IMMORTAL(ch) || IS_SET(ch->act,PLR_CANINDUCT)) )
 	{
             send_to_char(

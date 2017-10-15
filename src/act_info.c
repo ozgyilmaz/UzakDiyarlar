@@ -70,7 +70,7 @@ DECLARE_DO_FUN( do_nscore_col  	);
 
 char *get_stat_alias( CHAR_DATA *ch, int which );
 
-char *	const	where_name	[] =
+const char *	where_name	[] =
 {
     "<worn on finger>    ",
     "<worn around neck>  ",
@@ -358,11 +358,11 @@ void show_list_to_char( OBJ_DATA *list, CHAR_DATA *ch, bool fShort, bool fShowNo
 	    }
 	    else
 	    {
-		add_buf(output,"     ");
+		add_buf(output,(char*)"     ");
 	    }
 	}
 	add_buf(output,prgpstrShow[iShow]);
-	add_buf(output,"\n\r");
+	add_buf(output,(char*)"\n\r");
 	free_string( prgpstrShow[iShow] );
     }
 
@@ -862,27 +862,27 @@ void do_socials(CHAR_DATA *ch, char *argument)
 
 void do_motd(CHAR_DATA *ch, char *argument)
 {
-    do_help(ch,"motd");
+    do_help(ch,(char*)"motd");
 }
 
 void do_imotd(CHAR_DATA *ch, char *argument)
 {  
-    do_help(ch,"imotd");
+    do_help(ch,(char*)"imotd");
 }
 
 void do_rules(CHAR_DATA *ch, char *argument)
 {
-    do_help(ch,"rules");
+    do_help(ch,(char*)"rules");
 }
 
 void do_story(CHAR_DATA *ch, char *argument)
 {
-    do_help(ch,"story");
+    do_help(ch,(char*)"story");
 }
 
 void do_wizlist(CHAR_DATA *ch, char *argument)
 {
-    do_help(ch,"wizlist");
+    do_help(ch,(char*)"wizlist");
 }
 
 /* RT this following section holds all the auto commands from ROM, as well as
@@ -1418,7 +1418,7 @@ void do_look( CHAR_DATA *ch, char *argument )
         if ( !IS_NPC(ch) && IS_SET(ch->act, PLR_AUTOEXIT) )
 	{
 	    send_to_char("\n\r",ch);
-            do_exits( ch, "auto" );
+            do_exits( ch, (char*)"auto" );
 	}
 
 	show_list_to_char( ch->in_room->contents, ch, FALSE, FALSE );
@@ -1521,21 +1521,25 @@ void do_look( CHAR_DATA *ch, char *argument )
 	{  /* player can see object */
 	    pdesc = get_extra_descr( arg3, obj->extra_descr );
 	    if ( pdesc != NULL )
+	    {
 	    	if (++count == number)
 	    	{
 		    send_to_char( pdesc, ch );
 		    return;
 	    	}
 	    	else continue;
+	    	}
 
  	    pdesc = get_extra_descr( arg3, obj->pIndexData->extra_descr );
  	    if ( pdesc != NULL )
+ 	    {
  	    	if (++count == number)
  	    	{	
 		    send_to_char( pdesc, ch );
 		    return;
 	     	}
 		else continue;
+		}
 
 	    if ( is_name( arg3, obj->name ) )
 	    	if (++count == number)
@@ -1712,7 +1716,7 @@ void do_examine( CHAR_DATA *ch, char *argument )
  */
 void do_exits( CHAR_DATA *ch, char *argument )
 {
-    extern char * const dir_name[];
+    extern const char * dir_name[];
     char buf[MAX_STRING_LENGTH];
     EXIT_DATA *pexit;
     bool found;
@@ -2072,11 +2076,11 @@ void do_score( CHAR_DATA *ch, char *argument )
 
 	switch(i)
 	{
-	    case(AC_PIERCE):	temp = "piercing";	break;
-	    case(AC_BASH):	temp = "bashing";	break;
-	    case(AC_SLASH):	temp = "slashing";	break;
-	    case(AC_EXOTIC):	temp = "magic";		break;
-	    default:		temp = "error";		break;
+	    case(AC_PIERCE):	temp = (char*)"piercing";	break;
+	    case(AC_BASH):	temp = (char*)"bashing";	break;
+	    case(AC_SLASH):	temp = (char*)"slashing";	break;
+	    case(AC_EXOTIC):	temp = (char*)"magic";		break;
+	    default:		temp = (char*)"error";		break;
 	}
 	
 	send_to_char("You are ", ch);
@@ -2243,13 +2247,13 @@ void do_affects(CHAR_DATA *ch, char *argument )
 
 
 
-char *	const	day_name	[] =
+const char *	day_name	[] =
 {
     "the Moon", "the Bull", "Deception", "Thunder", "Freedom",
     "the Great Gods", "the Sun"
 };
 
-char *	const	month_name	[] =
+const char *	month_name	[] =
 {
     "Winter", "the Winter Wolf", "the Frost Giant", "the Old Forces",
     "the Grand Struggle", "the Spring", "Nature", "Futility", "the Dragon",
@@ -2273,11 +2277,11 @@ void do_time( CHAR_DATA *ch, char *argument )
 
     day     = time_info.day + 1;
 
-         if ( day > 4 && day <  20 ) suf = "th";
-    else if ( day % 10 ==  1       ) suf = "st";
-    else if ( day % 10 ==  2       ) suf = "nd";
-    else if ( day % 10 ==  3       ) suf = "rd";
-    else                             suf = "th";
+         if ( day > 4 && day <  20 ) suf = (char*)"th";
+    else if ( day % 10 ==  1       ) suf = (char*)"st";
+    else if ( day % 10 ==  2       ) suf = (char*)"nd";
+    else if ( day % 10 ==  3       ) suf = (char*)"rd";
+    else                             suf = (char*)"th";
 
     sprintf( buf,
 	"It is %d o'clock %s, Day of %s, %d%s the Month of %s.\n\r",
@@ -2324,7 +2328,7 @@ void do_weather( CHAR_DATA *ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
 
-    static char * const sky_look[4] =
+    static const char * sky_look[4] =
     {
 	"cloudless",
 	"cloudy",
@@ -2356,7 +2360,7 @@ void do_help( CHAR_DATA *ch, char *argument )
     char argall[MAX_INPUT_LENGTH],argone[MAX_INPUT_LENGTH];
 
     if ( argument[0] == '\0' )
-	argument = "summary";
+	argument = (char*)"summary";
 
     /* this parts handles help a b so that it returns help 'a b' */
     argall[0] = '\0';
@@ -3078,18 +3082,18 @@ void do_compare( CHAR_DATA *ch, char *argument )
 
     if ( obj1 == obj2 )
     {
-	msg = "You compare $p to itself.  It looks about the same.";
+	msg = (char*)"You compare $p to itself.  It looks about the same.";
     }
     else if ( obj1->item_type != obj2->item_type )
     {
-	msg = "You can't compare $p and $P.";
+	msg = (char*)"You can't compare $p and $P.";
     }
     else
     {
 	switch ( obj1->item_type )
 	{
 	default:
-	    msg = "You can't compare $p and $P.";
+	    msg = (char*)"You can't compare $p and $P.";
 	    break;
 
 	case ITEM_ARMOR:
@@ -3113,9 +3117,9 @@ void do_compare( CHAR_DATA *ch, char *argument )
 
     if ( msg == NULL )
     {
-	     if ( value1 == value2 ) msg = "$p and $P look about the same.";
-	else if ( value1  > value2 ) msg = "$p looks better than $P.";
-	else                         msg = "$p looks worse than $P.";
+	     if ( value1 == value2 ) msg = (char*)"$p and $P look about the same.";
+	else if ( value1  > value2 ) msg = (char*)"$p looks better than $P.";
+	else                         msg = (char*)"$p looks worse than $P.";
     }
 
     act( msg, ch, obj1, obj2, TO_CHAR );
@@ -3126,7 +3130,7 @@ void do_compare( CHAR_DATA *ch, char *argument )
 
 void do_credits( CHAR_DATA *ch, char *argument )
 {
-    do_help( ch, "diku" );
+    do_help( ch, (char*)"diku" );
     return;
 }
 
@@ -3259,30 +3263,30 @@ void do_consider( CHAR_DATA *ch, char *argument )
 
     diff = victim->level - ch->level;
 
-         if ( diff <= -10 ) msg = "You can kill $N naked and weaponless.";
-    else if ( diff <=  -5 ) msg = "$N is no match for you.";
-    else if ( diff <=  -2 ) msg = "$N looks like an easy kill.";
-    else if ( diff <=   1 ) msg = "The perfect match!";
-    else if ( diff <=   4 ) msg = "$N says 'Do you feel lucky, punk?'.";
-    else if ( diff <=   9 ) msg = "$N laughs at you mercilessly.";
-    else                    msg = "Death will thank you for your gift.";
+         if ( diff <= -10 ) msg = (char*)"You can kill $N naked and weaponless.";
+    else if ( diff <=  -5 ) msg = (char*)"$N is no match for you.";
+    else if ( diff <=  -2 ) msg = (char*)"$N looks like an easy kill.";
+    else if ( diff <=   1 ) msg = (char*)"The perfect match!";
+    else if ( diff <=   4 ) msg = (char*)"$N says 'Do you feel lucky, punk?'.";
+    else if ( diff <=   9 ) msg = (char*)"$N laughs at you mercilessly.";
+    else                    msg = (char*)"Death will thank you for your gift.";
 
     if (IS_EVIL(ch) && IS_EVIL(victim))
-      align = "$N grins evilly with you.";
+      align = (char*)"$N grins evilly with you.";
     else if (IS_GOOD(victim) && IS_GOOD(ch))
-      align = "$N greets you warmly.";
+      align = (char*)"$N greets you warmly.";
     else if (IS_GOOD(victim) && IS_EVIL(ch))
-      align = "$N smiles at you, hoping you will turn from your evil path.";
+      align = (char*)"$N smiles at you, hoping you will turn from your evil path.";
     else if (IS_EVIL(victim) && IS_GOOD(ch))
-      align = "$N grins evilly at you.";
+      align = (char*)"$N grins evilly at you.";
     else if (IS_NEUTRAL(ch) && IS_EVIL(victim))
-      align = "$N grins evilly.";
+      align = (char*)"$N grins evilly.";
     else if (IS_NEUTRAL(ch) && IS_GOOD(victim))
-      align = "$N smiles happily.";
+      align = (char*)"$N smiles happily.";
     else if (IS_NEUTRAL(ch) && IS_NEUTRAL(victim))
-      align = "$N looks just as disinterested as you.";
+      align = (char*)"$N looks just as disinterested as you.";
     else
-      align = "$N looks very disinterested.";
+      align = (char*)"$N looks very disinterested.";
 
     act( msg, ch, NULL, victim, TO_CHAR );
     act( align, ch, NULL, victim, TO_CHAR);
@@ -3722,18 +3726,18 @@ void do_scan(CHAR_DATA *ch, char *argument)
  if (dir[0] == '\0')
 
    {
-	do_scan2(ch,"");
+	do_scan2(ch,(char*)"");
 	return;
    }
 
   switch (dir[0])
     {
-    case 'N':    case 'n':      door = 0;      dir2 = "north";	break;
-    case 'E':    case 'e':      door = 1;      dir2 = "east";	break;
-    case 'S':    case 's':      door = 2;      dir2 = "south";	break;
-    case 'W':    case 'w':      door = 3;      dir2 = "west";	break;
-    case 'U':    case 'u':      door = 4;      dir2 = "up";	break;
-    case 'D':    case 'd':      door = 5;      dir2 = "down";	break;
+    case 'N':    case 'n':      door = 0;      dir2 = (char*)"north";	break;
+    case 'E':    case 'e':      door = 1;      dir2 = (char*)"east";	break;
+    case 'S':    case 's':      door = 2;      dir2 = (char*)"south";	break;
+    case 'W':    case 'w':      door = 3;      dir2 = (char*)"west";	break;
+    case 'U':    case 'u':      door = 4;      dir2 = (char*)"up";	break;
+    case 'D':    case 'd':      door = 5;      dir2 = (char*)"down";	break;
     default:
       send_to_char("That's not a direction.\n\r",ch);
       return;
@@ -3814,13 +3818,13 @@ void do_request( CHAR_DATA *ch, char *argument)
 
   if (!IS_GOOD(ch))
     {
-      do_say(victim, "I will not give anything to someone so impure.");
+      do_say(victim, (char*)"I will not give anything to someone so impure.");
       return;
     }
 
   if (ch->move < (50 + ch->level))
     {
-      do_say(victim, "You look rather tired, why don't you rest a bit first?");
+      do_say(victim, (char*)"You look rather tired, why don't you rest a bit first?");
       return;
     }
 
@@ -3830,7 +3834,7 @@ void do_request( CHAR_DATA *ch, char *argument)
 
   if (victim->level >= ch->level + 10 || victim->level >= ch->level * 2)
     {
-      do_say(victim, "In good time, my child");
+      do_say(victim, (char*)"In good time, my child");
       return;
     }
 
@@ -3838,13 +3842,13 @@ void do_request( CHAR_DATA *ch, char *argument)
       && (obj = get_obj_wear(victim, arg1)) == NULL)
       || IS_SET(obj->extra_flags, ITEM_INVENTORY))
     {
-      do_say(victim, "Sorry, I don't have that.");
+      do_say(victim, (char*)"Sorry, I don't have that.");
       return;
     }
   
   if (!IS_GOOD(victim))
     {
-      do_say(victim, "I'm not about to give you anything!");
+      do_say(victim, (char*)"I'm not about to give you anything!");
       do_murder(victim, ch->name);
       return;
     }
@@ -3854,7 +3858,7 @@ void do_request( CHAR_DATA *ch, char *argument)
   
   if ( !can_drop_obj( ch, obj ) )
     {
-      do_say(victim, "Sorry, I can't let go of it.  It's cursed.");
+      do_say(victim, (char*)"Sorry, I can't let go of it.  It's cursed.");
       return;
     }
   
@@ -4773,12 +4777,12 @@ char *get_cond_alias( OBJ_DATA *obj)
 
  istat = obj->condition;
 
- if      ( istat >  99 ) stat = "excellent";
- else if ( istat >= 80 ) stat = "good";
- else if ( istat >= 60 ) stat = "fine";
- else if ( istat >= 40 ) stat = "average";
- else if ( istat >= 20 ) stat = "poor";
- else                    stat = "fragile";
+ if      ( istat >  99 ) stat = (char*)"excellent";
+ else if ( istat >= 80 ) stat = (char*)"good";
+ else if ( istat >= 60 ) stat = (char*)"fine";
+ else if ( istat >= 40 ) stat = (char*)"average";
+ else if ( istat >= 20 ) stat = (char*)"poor";
+ else                    stat = (char*)"fragile";
 
  return stat;
 }
@@ -5482,7 +5486,7 @@ void do_demand( CHAR_DATA *ch, char *argument)
 
   if ( number_percent() > chance )
 	{
-	 do_say(victim,"I'm not about to give you anything!");
+	 do_say(victim,(char*)"I'm not about to give you anything!");
          do_murder(victim, ch->name);
 	 return;
 	}
@@ -5491,7 +5495,7 @@ void do_demand( CHAR_DATA *ch, char *argument)
       && (obj = get_obj_wear(victim, arg1)) == NULL)
       || IS_SET(obj->extra_flags, ITEM_INVENTORY))
     {
-      do_say(victim, "Sorry, I don't have that.");
+      do_say(victim, (char*)"Sorry, I don't have that.");
       return;
     }
   
@@ -5502,7 +5506,7 @@ void do_demand( CHAR_DATA *ch, char *argument)
   if ( !can_drop_obj( ch, obj ) )
     {
       do_say(victim, 
-	"It's cursed so, I can't let go of it. Forgive me, my master");
+	(char*)"It's cursed so, I can't let go of it. Forgive me, my master");
       return;
     }
   
@@ -5599,7 +5603,7 @@ void do_control( CHAR_DATA *ch, char *argument)
     ||   (IS_NPC(victim) && victim->pIndexData->pShop != NULL) )
 	{
 	 check_improve(ch,gsn_control_animal,FALSE,2);
-	 do_say(victim,"I'm not about to follow you!");
+	 do_say(victim,(char*)"I'm not about to follow you!");
          do_murder(victim, ch->name);
 	 return;
 	}
@@ -5844,7 +5848,7 @@ void do_nscore( CHAR_DATA *ch, char *argument )
     sprintf( buf, "  \\________________________________________________________________\\__/\n\r");
     send_to_char(buf, ch);
     if ( ch->affected != NULL && IS_SET(ch->comm, COMM_SHOW_AFFECTS) )
-	do_affects(ch, "");
+	do_affects(ch, (char*)"");
    return;
 }
 
@@ -6117,7 +6121,7 @@ void do_nscore_col( CHAR_DATA *ch, char *argument )
     sprintf( buf, "  \\________________________________________________________________\\__/%s\n\r",CLR_WHITE_BOLD);
     send_to_char(buf, ch);
     if ( ch->affected != NULL && IS_SET(ch->comm, COMM_SHOW_AFFECTS) )
-	do_affects_col(ch, "");
+	do_affects_col(ch, (char*)"");
    return;
 }
 
@@ -6225,25 +6229,25 @@ void do_make_arrow( CHAR_DATA *ch, char *argument )
     if (color == gsn_green_arrow)
 	{
 	 saf.bitvector	= WEAPON_POISON;
-	 str = "green";
+	 str = (char*)"green";
 	}
      else if (color == gsn_red_arrow)
 	{
 	 saf.bitvector	= WEAPON_FLAMING;
-	 str = "red";
+	 str = (char*)"red";
 	}
      else if (color == gsn_white_arrow)
 	{
 	 saf.bitvector	= WEAPON_FROST;
-	 str = "white";
+	 str = (char*)"white";
 	}
      else
 	{
 	 saf.bitvector	= WEAPON_SHOCKING;
-	 str = "blue";
+	 str = (char*)"blue";
 	}
    }
-   else str = "wooden";
+   else str = (char*)"wooden";
 
    sprintf( buf, arrow->name, str );
    free_string( arrow->name );
@@ -6348,7 +6352,7 @@ void do_make( CHAR_DATA *ch, char *argument )
 
   if (!str_prefix(arg,"arrow")) do_make_arrow(ch,argument);
   else if (!str_prefix(arg,"bow")) do_make_bow(ch,argument);
-  else do_make(ch,"");
+  else do_make(ch,(char*)"");
 }
 
 

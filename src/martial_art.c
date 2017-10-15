@@ -390,7 +390,7 @@ act_color("$C$n's bash seems to slide around $N.$c",ch,NULL,victim,
 		&& !FightingCheck)
       {
 	if (!can_see(victim, ch))
-	  do_yell(victim, "Help! Someone is bashing me!");
+	  do_yell(victim, (char*)"Help! Someone is bashing me!");
 	else
 	  {
 	    sprintf(buf, "Help! %s is bashing me!",
@@ -550,7 +550,7 @@ void do_dirt( CHAR_DATA *ch, char *argument )
 		&& !FightingCheck)
       {
     	if (!can_see(victim,ch))
-	  do_yell(victim, "Someone just kicked dirt in my eyes!");
+	  do_yell(victim, (char*)"Someone just kicked dirt in my eyes!");
 	else
 	  {
 	    sprintf(buf, "Die, %s!  You dirty fool!", (is_affected(ch,
@@ -692,7 +692,7 @@ void do_trip( CHAR_DATA *ch, char *argument )
 		&& !FightingCheck)
       {
 	if (!can_see(victim, ch))
-	  do_yell(victim, " Help! Someone just tripped me!");
+	  do_yell(victim, (char*)" Help! Someone just tripped me!");
 	else
 	  {
 	    sprintf(buf, "Help! %s just tripped me!", 
@@ -810,7 +810,7 @@ void do_backstab( CHAR_DATA *ch, char *argument )
 	&& victim->position == POS_FIGHTING )
       {
 	if (!can_see(victim, ch))
-	  do_yell(victim, "Help! I've been backstabbed!");
+	  do_yell(victim, (char*)"Help! I've been backstabbed!");
 	else
 	  {
   	    sprintf( buf, "Die, %s, you backstabbing scum!", 
@@ -906,7 +906,7 @@ void do_cleave( CHAR_DATA *ch, char *argument )
     if (!(IS_NPC(victim)) && !(IS_NPC(ch)) && victim->position == POS_FIGHTING)
       {
 	if (!can_see(victim, ch))
-	  do_yell(victim, "Help! Someone is attacking me!");
+	  do_yell(victim, (char*)"Help! Someone is attacking me!");
 	else
 	  {
 	    sprintf( buf, "Die, %s, you butchering fool!", 
@@ -987,7 +987,7 @@ void do_ambush( CHAR_DATA *ch, char *argument )
 	&& victim->position == POS_FIGHTING )
       {
 	if (!can_see(victim, ch))
-	  do_yell(victim, "Help! I've been ambushed by someone!");
+	  do_yell(victim, (char*)"Help! I've been ambushed by someone!");
 	else
 	  {
 	    sprintf( buf, "Help! I've been ambushed by %s!", 
@@ -1238,7 +1238,7 @@ void do_disarm( CHAR_DATA *ch, char *argument )
     argument = one_argument(argument,arg);
     if (!IS_NPC(ch) && arg[0] != '\0') 
     {
-    	 if (is_name(arg,"second") ) disarm_second = 1;
+    	 if (is_name(arg,(char*)"second") ) disarm_second = 1;
 	 else disarm_second = 0;    
     }
 
@@ -1363,7 +1363,7 @@ void do_nerve(CHAR_DATA *ch, char *argument)
 	&& victim->position != POS_FIGHTING )
       {
 	if (!can_see(victim, ch))
-	  do_yell(victim, "Help! I'm being attacked by someone!");
+	  do_yell(victim, (char*)"Help! I'm being attacked by someone!");
 	else
 	{
 	  sprintf( buf, "Help! I'm being attacked by %s!",
@@ -1580,7 +1580,7 @@ void do_assassinate( CHAR_DATA *ch, char *argument )
 	&& victim->position == POS_FIGHTING)
       {
 	if (!can_see(victim, ch))
-	  do_yell(victim, "Help! Someone tried to assassinate me!");
+	  do_yell(victim, (char*)"Help! Someone tried to assassinate me!");
 	else
 	  {
 	    sprintf( buf, "Help! %s tried to assassinate me!",
@@ -1866,7 +1866,7 @@ void do_strangle(CHAR_DATA *ch, char *argument)
 	damage(ch,victim,0,gsn_strangle,DAM_NONE, TRUE);
 	check_improve(ch,gsn_strangle,FALSE,1);
 	if (!can_see(victim, ch))
-	  do_yell(victim, "Help! I'm being strangled by someone!");
+	  do_yell(victim, (char*)"Help! I'm being strangled by someone!");
 	else
 	{
 	    sprintf(buf, "Help! I'm being strangled by %s!",
@@ -1978,14 +1978,16 @@ void do_blackjack(CHAR_DATA *ch, char *argument)
 	damage(ch,victim,ch->level / 2,gsn_blackjack,DAM_NONE, TRUE);
 	check_improve(ch,gsn_blackjack,FALSE,1);
 	if (!IS_NPC(victim))  
+	{
 	if (!can_see(victim, ch))
-	  do_yell(victim, "Help! I'm being blackjacked by someone!");
+	  do_yell(victim, (char*)"Help! I'm being blackjacked by someone!");
 	else
 	{
 	    sprintf(buf, "Help! I'm being blackjacked by %s!",
 		    (is_affected(ch,gsn_doppelganger)&& !IS_IMMORTAL(victim))?
 		    ch->doppel->name : ch->name );
 	    if (!IS_NPC(victim)) do_yell(victim,buf);
+	}
 	}
         af.type = gsn_headguard;
         af.where = TO_AFFECTS;
@@ -2880,7 +2882,7 @@ void do_hara( CHAR_DATA *ch, char *argument)
 act_color("$C$n cuts his body and look in a deadly figure.$c",ch,NULL,NULL,TO_ROOM,
 	POS_FIGHTING,CLR_RED);
 	check_improve(ch,gsn_hara_kiri,TRUE,2);
-	do_sleep( ch, "");
+	do_sleep( ch, (char*)"");
 	SET_BIT(ch->act,PLR_HARA_KIRI);
 
                af.where     = TO_AFFECTS;
@@ -3105,7 +3107,7 @@ void do_shield( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( check_material(shield,"platinum") || shield->pIndexData->limit != -1)
+    if ( check_material(shield,(char*)"platinum") || shield->pIndexData->limit != -1)
 	return;
 
     if (axe->value[0] == WEAPON_AXE )
@@ -3189,7 +3191,7 @@ void do_weapon( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( check_material(wield,"platinum") || wield->pIndexData->limit != -1 )
+    if ( check_material(wield,(char*)"platinum") || wield->pIndexData->limit != -1 )
 	return;
 
 
@@ -3395,7 +3397,7 @@ act_color("$C$n's tail seems to slide around $N.$c",ch,NULL,victim,
 		&& !FightingCheck)
       {
 	if (!can_see(victim, ch))
-	  do_yell(victim, "Help! Someone hit me!");
+	  do_yell(victim, (char*)"Help! Someone hit me!");
 	else
 	  {
 	    sprintf(buf, "Help! %s try to hit me with its tail!",
@@ -3452,7 +3454,7 @@ void do_concentrate( CHAR_DATA *ch, char *argument)
 	ch->mana -= 50;
 	ch->move /= 2;
 
-	do_sit(ch,"");
+	do_sit(ch,(char*)"");
 	send_to_char("You sit down and relax , concentrate on the next fight.!\n\r",ch);
 	act_color("$C$n concentrates for the next fight.$c",ch,NULL,NULL,TO_ROOM,
 	POS_FIGHTING,CLR_RED);
@@ -3847,7 +3849,7 @@ void do_poison_smoke( CHAR_DATA *ch, char *argument)
 	    (IS_SET(tmp_vict->affected_by,AFF_CHARM) || !IS_NPC(tmp_vict)))
 	  {
 	    if (!can_see(tmp_vict, ch))
-		do_yell(tmp_vict, "Help someone is attacking me!");
+		do_yell(tmp_vict, (char*)"Help someone is attacking me!");
 	    else 
 	      {
 	         sprintf(buf,"Die, %s, you sorcerous dog!",
@@ -3902,7 +3904,7 @@ void do_blindness_dust( CHAR_DATA *ch, char *argument)
 	    (IS_SET(tmp_vict->affected_by,AFF_CHARM) || !IS_NPC(tmp_vict)))
 	  {
 	    if (!can_see(tmp_vict, ch))
-		do_yell(tmp_vict, "Help someone is attacking me!");
+		do_yell(tmp_vict, (char*)"Help someone is attacking me!");
 	    else 
 	      {
 	         sprintf(buf,"Die, %s, you sorcerous dog!",
@@ -4029,7 +4031,7 @@ void do_lash( CHAR_DATA *ch, char *argument )
 		&& !FightingCheck)
       {
 	if (!can_see(victim, ch))
-	  do_yell(victim, "Help! Someone is lashing me!");
+	  do_yell(victim, (char*)"Help! Someone is lashing me!");
 	else
 	  {
 	    sprintf(buf, "Help! %s is lashing me!",

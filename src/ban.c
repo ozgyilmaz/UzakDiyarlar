@@ -174,7 +174,7 @@ void ban_site(CHAR_DATA *ch, char *argument, bool fPerm)
   	}
 	buffer = new_buf();
 
-        add_buf(buffer,"Banned sites  level  type     status\n\r");
+        add_buf(buffer,(char*)"Banned sites  level  type     status\n\r");
         for (pban = ban_list;pban != NULL;pban = pban->next)
         {
 	    sprintf(buf2,"%s%s%s",
