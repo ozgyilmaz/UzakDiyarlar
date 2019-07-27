@@ -557,7 +557,7 @@ void do_tick( CHAR_DATA *ch, char *argument )
 void do_outfit ( CHAR_DATA *ch, char *argument )
 {
     OBJ_DATA *obj;
-    int sn,vnum;
+    int vnum;
 
     if ((ch->level > 5 || IS_NPC(ch)) && !IS_IMMORTAL(ch))
     {
@@ -603,7 +603,6 @@ void do_outfit ( CHAR_DATA *ch, char *argument )
     /* do the weapon thing */
     if ((obj = get_wield_char(ch,FALSE) ) == NULL)
     {
-    	sn = 0; 
     	vnum = OBJ_VNUM_SCHOOL_SWORD; /* just in case! */
         vnum = class_table[ch->iclass].weapon;
     	obj = create_object(get_obj_index(vnum),0);

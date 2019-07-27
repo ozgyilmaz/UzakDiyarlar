@@ -4048,7 +4048,6 @@ void do_claw( CHAR_DATA *ch, char *argument )
     char arg[MAX_INPUT_LENGTH];
     CHAR_DATA *victim;
     int chance;
-    bool FightingCheck;
     int damage_claw;
 
   if (ch_skill_nok(ch,gsn_claw) ) 
@@ -4056,11 +4055,6 @@ void do_claw( CHAR_DATA *ch, char *argument )
 
   if (!cabal_ok(ch,gsn_claw))
     return;
-
-    if (ch->fighting != NULL)
-	FightingCheck = TRUE;
-    else
-	FightingCheck = FALSE;
 
     argument = one_argument(argument,arg);
  

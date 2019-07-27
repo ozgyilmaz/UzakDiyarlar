@@ -1486,9 +1486,7 @@ bool is_affected( CHAR_DATA *ch, int sn )
 void affect_join( CHAR_DATA *ch, AFFECT_DATA *paf )
 {
     AFFECT_DATA *paf_old;
-    bool found;
-
-    found = FALSE;
+    
     for ( paf_old = ch->affected; paf_old != NULL; paf_old = paf_old->next )
     {
 	if ( paf_old->type == paf->type )
@@ -3776,9 +3774,7 @@ bool is_affected_room( ROOM_INDEX_DATA *room, int sn )
 void affect_join_room( ROOM_INDEX_DATA *room, AFFECT_DATA *paf )
 {
     AFFECT_DATA *paf_old;
-    bool found;
 
-    found = FALSE;
     for ( paf_old = room->affected; paf_old != NULL; paf_old = paf_old->next )
     {
 	if ( paf_old->type == paf->type )

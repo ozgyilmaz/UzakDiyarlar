@@ -368,9 +368,6 @@ void do_shout( CHAR_DATA *ch, char *argument )
 
     for ( d = descriptor_list; d != NULL; d = d->next )
     {
-	CHAR_DATA *victim;
-
-	victim = d->original ? d->original : d->character;
 
 	if ( d->connected == CON_PLAYING &&
 	     d->character != ch &&

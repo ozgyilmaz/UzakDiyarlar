@@ -598,17 +598,12 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
     int sn,skill;
     int dam_type;
     bool counter;
-    bool yell;
     bool result;
     OBJ_DATA *corpse;
     int sercount;
 
     sn = -1;
     counter = FALSE;
-
-    if (victim->fighting == ch)
-      yell = FALSE;
-    else yell = TRUE;
 
     /* just in case */
     if (victim == ch || ch == NULL || victim == NULL)
