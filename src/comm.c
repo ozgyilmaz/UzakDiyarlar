@@ -1215,7 +1215,12 @@ void read_from_buffer( DESCRIPTOR_DATA *d )
 
 	if ( d->inbuf[i] == '\b' && k > 0 )
 	    --k;
-	else if ( isascii(d->inbuf[i]) && isprint(d->inbuf[i]) )
+	else if ( (isascii(d->inbuf[i]) && isprint(d->inbuf[i]))
+     ||d->inbuf[i]=='ý' ||d->inbuf[i]=='ð'
+     || d->inbuf[i]=='ü' || d->inbuf[i]=='þ'|| d->inbuf[i]=='ö'
+     ||d->inbuf[i]=='ç' ||d->inbuf[i]=='Ý' ||d->inbuf[i]=='Ð'
+     ||d->inbuf[i]=='Ü'||d->inbuf[i]=='Þ'||d->inbuf[i]=='Ö'
+      ||d->inbuf[i]=='Ç')
 	    d->incomm[k++] = d->inbuf[i];
     }
 

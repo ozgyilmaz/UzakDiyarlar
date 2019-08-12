@@ -1,0 +1,7963 @@
+#AREA
+midgaard.are~
+Midgaard~
+{1 100} Diku    Midgaard~
+3000 3399
+
+#RESETMESSAGE
+The earth rumbles with the after affects of another experience gone away...~
+
+#FLAG
+AB
+
+#MOBILES
+#3000
+büyücü~
+büyücü~
+Büyücü, tezgahýn arkasýnda kendi kendine söyleniyor.
+~
+Büyücü yaþlý ve bunak gibi görünmesine raðmen hala çok güçlü. Kaliteli
+elbiseler ve bir sürü ilginç görünümlü yüzük taþýyor.
+~
+human~
+ABKVe DHN 900 0
+83 5 25d10+28800 1d1+1999 10d12+62 magic
+-95 -95 -95 -75
+AF ABC D 0
+stand stand male 15000
+0 0 medium 0
+#3001
+fýrýncý~
+fýrýncý~
+Fýrýncý, bir eliyle yüzündeki unlarý temizlerken sana gülümsüyor.
+~
+Þiþman, nazik görünüþlü bir fýrýncý. Vücudundaki yara izleri gözünden
+kaçmýyor.
+~
+human~
+ABKVe HN 900 0
+60 10 20d10+18800 1d1+999 6d10+45 beating
+-65 -65 -65 -25
+CDF AB CD 0
+stand stand male 500
+0 0 medium 0
+#3002
+bakkal~
+bakkal~
+Bakkal, tezgahýnýn ardýnda sana sabýrsýzlýkla bakýyor.
+~
+Bakkal uzun boyu ve iri cüssesiyle omuzlarýnda iki aðýr un
+torbasý taþýyor.
+~
+human~
+ABVe HN 900 0
+55 10 25d10+15000 1d1+999 9d10+30 beating
+-65 -65 -65 -35
+EFJ AB CD 0
+stand stand male 1300
+0 0 medium 0
+#3003
+demirci rugal~
+Rugal~
+Demirci Rugal tezgahýn arkasýnda çalýþýyor.
+~
+Genç demircinin hala öðrenmesi gereken þeyler var.
+~
+human~
+ABTVe HNh 900 0
+86 15 25d10+28000 1d1+999 6d8+60 punch
+-90 -90 -90 -55
+CEIK AB CD 0
+stand stand male 25000
+0 0 medium 0
+#3004
+demirci yegin~
+Yegin~
+Demirci Yegin burada duruyor.
+~
+Yaþlý ve güçlü bir adam görüyorsun. Güçlü kollarýyla senin hayatýn
+boyunca gördüðün zýrh ve silahlardan daha fazlasýný üretmiþtir.
+~
+human~
+ABVe N 900 0
+65 10 25d10+19300 1d1+999 7d18+50 punch
+-85 -85 -85 -45
+CEFJKN AB CD 0
+stand stand male 25000
+0 0 medium 0
+#3005
+hýrsýz~
+hýrsýz~
+Bir hýrsýz, siyahlara bürünmüþ.
+~
+Paraný dikkatli SAY!
+~
+human~
+ACHS PQ -100 0
+8 1 6d8+80 1d1+99 1d5+1 punch
+2 4 3 7
+EFJN 0 0 0
+stand stand either 100
+0 0 medium 0
+#3006
+kaptan~
+kaptan~
+Kaptan emekli olunca burada kayýk ve bot satmaya baþlamýþ.
+~
+Bu kaptan senin hayatýn boyunca yediðin bezelye tanelerinden
+daha fazla köpekbalýðý öldürmüþtür.
+~
+human~
+ABTVe H 900 0
+65 15 25d20+18500 1d1+999 5d8+30 beating
+-45 -45 -45 -15
+CEI AB CD 0
+stand stand male 1300
+0 0 medium 0
+#3007
+denizci~
+denizci~
+Denizci burada, seni eðitmek için bekliyor.
+~
+Denizci oldukça güçlü ve saðlýklý görünüyor.
+~
+human~
+ABJTVe 0 900 0
+96 20 20d20+29200 1d1+999 10d4+73 beating
+-55 -55 -55 -25
+FHJN AB CD 0
+stand stand male 58
+0 0 medium 0
+#3008
+kalfa~
+hayvan satýcýsý kalfa~
+Bir kalfa seni saygýyla selamlýyor.
+~
+Kalfa oldukça hamarat ve mutlu bir görünüme sahip.
+~
+human~
+ABVe H 900 0
+67 5 10d11+19700 1d1+999 4d5+35 punch
+-45 -45 -45 -15
+0 AB CD 0
+stand stand male 4000
+0 0 medium 0
+#3009
+kuyumcu~
+kuyumcu~
+Kuyumcu tezgahýn ardýndan seni seyrediyor.
+~
+Dikkatliliði sinir bozsa da oldukça nazik bir görüntüsü var.
+~
+human~
+ABVe HV 900 0
+90 10 25d10+28500 1d1+999 5d15+75 slap
+-80 -85 -85 -50
+AF AB CD 0
+stand stand male 58000
+0 0 huge 0
+#3010
+derici~
+derici~
+Bir derici tezgahýn ardýnda deriden bir þapka dikiyor.
+~
+Sadece karnýný doyuracak kadar kazanabilen gururlu bir iþçiyi
+andýrýyor.
+~
+human~
+ABVe H 900 0
+69 17 25d10+23200 1d1+999 8d8+41 punch
+-45 -45 -45 -15
+AFN AB CD 0
+stand stand female 10000
+0 0 medium 0
+#3011
+görevci hassan~
+Hassan~
+Görevci Hassan burada, yapýlacak iþler için adam arýyor.
+~
+Eskiden gezgin olan bu adam diyarýn haritasýný avcunun
+içi gibi biliyor. Onunla uðraþmak, tartýþmak emin ol
+akýllýca olmayacaktýr.
+~
+giant~
+ABTVe CDFJVZ 1000 3000
+85 30 1d1+28999 1d1+1499 5d14+80 crush
+-70 -70 -70 -50
+ACDEFHIKLNOT ABP CD 0
+stand stand male 0
+0 0 huge 0
+#3012
+þifacý efendi~
+þifacý~
+Þifacý efendi burada, büyüler satýyor.
+~
+Yaþadýðý maceralardan yorulmuþ olsa da hala maceraperestlere
+yardým ediyor. Sattýðý büyüleri görmek için 'iyileþtir' yazýn.
+~
+human~
+ABQVae DFH 1000 0
+120 10 1d1+29099 1d1+1999 10d20+50 divine
+-150 -150 -150 -100
+FHIK ABC D 0
+stand stand male 5000
+0 0 huge 0
+#3020
+büyücü efendi~
+büyücü efendi~
+Büyücü efendin burada duruyor.
+~
+Yorgun ve yaþlý görünümlü bu kadýnda geçmiþten kalma bilgi ve deneyimi
+açýkça görebiliyorsun. Mavi bir aura ile çevrelenmiþ ve oldukça güzel
+giysiler giymiþ bu kadýn ayrýca loncanýn üstadý.
+~
+elf~
+ABKRVe DEFZ 1000 0
+96 0 1d1+29099 1d1+999 43d48+64 magic
+-65 -65 -65 -35
+FG ABD C 0
+stand stand female 0
+0 0 medium 0
+#3021
+lonca efendisi~
+lonca efendisi~
+Efendin burada duruyor.
+~
+Lonca efendisinin barýþçýl ve sevecen bir görünümü var. Tam onun tanrýya
+yakýn biri olduðunu düþünürken beyaz aylasýný farkediyorsun.
+~
+human~
+ABKQVe CDEFHZ 1000 0
+96 0 1d1+29099 1d1+999 43d48+64 divine
+-65 -65 -65 -35
+EFHIK ABD C 0
+stand stand male 0
+0 0 medium 0
+#3022
+hýrsýz efendi~
+hýrsýz efendi~
+Hýrsýz efendin burada gizlenmiþ.
+~
+Efendinin hareketlerini fark edemiyorsun. "Ýþte bir hareket ustasý!"
+diyorsun içinden. Bu kadýn sade giysileriyle halktan birini andýrýyor.
+~
+human~
+ABKSVe DFZ 1000 0
+96 0 1d1+29099 1d1+199 43d48+64 stab
+-65 -65 -65 -35
+BEFHJN ABD C 0
+stand stand female 0
+0 0 medium 0
+#3023
+savaþçý efendi~
+savaþçý efendi~
+Savaþçý efendin burada duruyor.
+~
+O senin efendin... Patlayacak kadar þiþmiþ kaslarýyla kýsa, güçlü bir cüce.
+Vücudundaki derin yara izleri onun, daha sen doðmadan, diyarýn uçsuz bucaksýz
+topraklarýnda silah salladýðýný kanýtlýyor.
+~
+dwarf~
+ABKTVe DF 1000 0
+96 0 1d1+29099 1d1+199 43d48+64 beating
+-60 -60 -60 -40
+ACDEIK ABD C 0
+stand stand male 0
+0 0 medium 0
+#3024
+sihirbaz~
+sihirbaz~
+Bir sihirbaz giriþi koruyor.
+~
+O kendisini savaþ büyülerinde ustalaþtýrmýþ bir büyücü. Artýk tek görevi
+bu kapýyý ölümcül savunma ve saldýrýlarýyla korumak.
+~
+elf~
+ABRTVe BD 800 0
+30 5 1d1+999 1d1+499 10d4+10 magic
+-12 -12 -12 -8
+AEG AB CD 0
+stand stand male 2000
+0 0 medium 0
+#3025
+arna~
+arna~
+Bir arna giriþi koruyor.
+~
+Yaþamýný sadakate adamýþ bir savaþçý görüyorsun. Amacý saldýrýlara karþý
+bu yeri korumak. Ýnancý onu ölümcül bir silah haline getirmiþ.
+~
+human~
+ABQTVe DJ 800 0
+30 5 1d1+999 1d1+499 5d8+10 divine
+-12 -12 -12 -7
+DEIK AB CD 0
+stand stand male 2000
+0 0 medium 0
+#3026
+suikastçi~
+suikastçi~
+Bir suikastçi giriþi koruyor.
+~
+O her tür silahý kullanarak düþmanlarýný öldürmeyi öðrenmiþ eðitimli bir
+savaþçý. Silahlar ve canlýlar üzerine bilgisi onu ölümcül bir rakip haline
+getirmiþ.
+~
+human~
+ABSTVe DFPQ 800 0
+30 8 1d1+999 1d1+99 4d10+12 pierce
+-12 -12 -12 -6
+BEFJN AB CD 0
+stand stand male 2000
+0 0 medium 0
+#3027
+seðmen~
+seðmen~
+Bir seðmen giriþi koruyor.
+~
+Atlý bir savaþçý görüyorsun. Tek amacý savaþçýlar loncasýný saldýrýlara
+karþý korumak. Silahlar üzerine aldýðý eðitim ve bineðinin verdiði güçle
+oldukça tehlikeli bir rakip
+~
+human~
+ABTVe DF 800 0
+30 10 1d1+999 1d1+199 11d4+10 punch
+-12 -12 -12 -4
+ACDEHIK AB CD 0
+stand stand male 2000
+0 0 medium 0
+#3040
+barmen~
+barmen~
+Barmen bir yandan içki karýþýmý hazýrlýyor, bir yandan da seni izliyor.
+~
+Yorgun görünen barmen barda bela çýkmasýndan nefret ediyor.
+~
+human~
+ABVe 0 900 0
+23 0 1d1+599 1d1+99 1d8+18 beating
+-6 -6 -6 0
+FHJN AB CD 0
+stand stand male 150
+0 0 medium 0
+#3041
+garson~
+garson~
+Bir garson habire koþturuyor.
+~
+Yorgun görünümlü bir garson.
+~
+human~
+ABVe 0 900 0
+23 0 1d1+599 1d1+99 1d8+18 beating
+-6 -6 -6 0
+FHJN AB CD 0
+stand stand male 150
+0 0 medium 0
+#3042
+garson~
+garson~
+Sakin bir yaþam için büyücülüðü býrakarak garson olan bir adam burada.
+~
+~
+human~
+ABRVe D 600 0
+23 0 1d1+599 1d1+99 1d8+18 beating
+-6 -6 -6 0
+FJN AB CD 0
+stand stand male 150
+0 0 medium 0
+#3043
+garson~
+garson~
+Bir garson burada duruyor. Bakýþlarý oldukça derin ve güçlü.
+~
+~
+human~
+ABQVe 0 600 0
+23 0 1d1+599 1d1+99 1d8+18 beating
+-6 -6 -6 0
+FHJN AB CD 0
+stand stand male 150
+0 0 medium 0
+#3044
+garson~
+garson~
+Bir garson burada duruyor. O müþterilerinin para ceplerini ezbere biliyor.
+~
+~
+human~
+ABSVe 0 600 0
+23 0 1d1+599 1d1+99 1d8+18 beating
+-6 -6 -6 0
+FHJN AB CD 0
+stand stand male 150
+0 0 medium 0
+#3045
+garson~
+garson~
+Bir garson burada duruyor. O buradaki herkesi kolayca öldürebilir.
+~
+~
+human~
+ABTVe 0 600 0
+23 0 1d1+599 1d1+99 1d8+18 beating
+-6 -6 -6 0
+BFHJN AB CD 0
+stand stand male 150
+0 0 medium 0
+#3046
+çirkin~
+çirkin~
+Çirkin burada duruyor, sana hizmet etmekten memnun deðil.
+~
+Gerçekten çok.. ýmmm.. pis. Müþterilerini memnun tutmaktan hoþlanmýyor.
+Ona bulaþma yoksa çok üzülür.
+~
+human~
+ABSV 0 600 0
+23 2 1d1+599 1d1+99 1d8+18 beating
+-8 -8 -8 -4
+BEFJN AB CD 0
+stand stand male 200
+0 0 medium 0
+#3060
+yasavul~
+yasavul~
+Bir yasavul burada duruyor.
+~
+Güçlü, yardýmsever, güvenilir bir yasavul.
+~
+human~
+ACGT 0 1000 3000
+15 3 15d15+160 1d1+149 2d4+4 punch
+0 0 0 8
+CDEKLTU 0 C 0
+stand stand either 150
+0 0 medium 0
+#3061
+çöpçü~
+çöpçü~
+Bir çöpçü etrafta dolaþarak temizlik yapýyor.
+~
+~
+human~
+AGH 0 900 0
+1 0 2d6+10 1d1+99 1d5+0 pound
+10 10 10 10
+NU 0 0 C
+stand stand either 10
+0 0 medium 0
+#3062
+köpek~
+köpek~
+Bir köpek burada.
+~
+Küçük köpekten berbat bir koku geliyor ve aðzýndan salyalar akarken
+diþlerini gösteriyor.
+~
+fido~
+AFGHU 0 -200 0
+0 0 1d6+4 1d1+99 1d4+0 bite
+10 10 10 10
+0 0 0 0
+stand stand either 0
+0 0 small 0
+#3063
+serseri~
+serseri~
+Bir serseri burada, kurban arýyor.
+~
+Çok kaba ve haþin gözüküyor.
+~
+human~
+ACS 0 -200 0
+5 1 2d6+60 1d1+99 1d6+1 punch
+7 5 5 10
+BJNQ 0 0 C
+stand stand male 18
+0 0 medium 0
+#3064
+sarhoþ~
+sarhoþ~
+Bir sarhoþ etrafta dolaþýrken cücelere dair bir türkü söylüyor.
+~
+Mutlu görünen sarhoþ, ayný zamanda içki için rahatça para
+harcayabiliyor gibi.
+~
+human~
+AG 0 0 0
+2 -1 2d6+22 1d1+99 1d6+0 beating
+8 8 8 10
+U 0 0 C
+stand stand male 65
+0 0 medium 0
+#3065
+dilenci~
+dilenci~
+Bir dilenci burada, senden birkaç bozukluk istiyor.
+~
+Dilenci hayattan býkmýþ gibi gözüküyor.
+~
+human~
+AB 0 0 0
+1 0 2d6+10 1d1+99 1d5+0 beating
+8 8 8 10
+FJNU 0 0 C
+stand stand female 0
+0 0 medium 0
+#3066
+kedi~
+kedi~
+Bir kedi sana týslýyor.
+~
+Sokak kedisi yarý aç miyavlýyor.
+~
+cat~
+AFGHU 0 -200 0
+0 1 1d6+4 1d1+99 1d4+0 scratch
+8 8 8 9
+DR 0 0 C
+stand stand either 0
+0 0 small 0
+#3067
+yasavul~
+yasavul~
+Bir yasavul kapýyý koruyor.
+~
+Güçlü, yardýmsever, güvenilir bir yasavul.
+~
+human~
+ABT 0 1000 3000
+15 3 15d15+160 1d1+149 2d4+4 punch
+0 0 0 8
+CDEKLTU 0 C 0
+stand stand either 150
+0 0 medium 0
+#3068
+yasavul~
+yasavul~
+Bir yasavul kapýyý koruyor.
+~
+Güçlü, yardýmsever, güvenilir bir yasavul.
+~
+human~
+ABT 0 1000 3000
+15 3 15d15+160 1d1+149 2d4+4 punch
+0 0 0 8
+CDEKLTU 0 C 0
+stand stand either 150
+0 0 medium 0
+#3069
+yasavul~
+yasavul~
+Bir yasavul baþkaný koruyor.
+~
+Güçlü, yardýmsever, güvenilir bir yasavul.
+~
+human~
+ABT BQ 1000 3000
+20 4 20d20+200 1d1+199 2d4+7 punch
+-4 -6 -6 0
+CDEHKLTU 0 C 0
+stand stand either 500
+0 0 medium 0
+#3070
+iksirci~
+iksirci~
+Bir iksirci yaþlý yüzüyle sana gülümsüyor.
+~
+Çok tehlikeli görünüyor. Yerinde olsam onu soymaya kalkmazdým.
+~
+human~
+ABQRV DEHVF 1000 0
+92 0 1d1+29599 1d1+999 10d10+20 magic
+-65 -65 -65 -25
+FGH AB CD 0
+stand stand male 5000
+0 0 medium 0
+#3071
+yasavul~
+yasavul~
+Bir yasavul kapýyý koruyor.
+~
+Güçlü, yardýmsever, güvenilir bir yasavul.
+~
+human~
+ABT 0 1000 3000
+15 3 15d15+160 1d1+149 2d4+4 punch
+0 0 0 8
+CDEKLTU 0 C 0
+stand stand either 150
+0 0 medium 0
+#3072
+yasavul~
+yasavul~
+Yarý uykulu bir yasavul kapýyý koruyor.
+~
+Güçlü, yardýmsever, güvenilir bir yasavul.
+~
+human~
+ABT 0 1000 3000
+15 3 15d15+160 1d1+149 2d4+4 punch
+0 0 0 8
+CDEKLTU 0 C 0
+stand stand either 150
+0 0 medium 0
+#3090
+tekir~
+tekir~
+Bir tekir burada.
+~
+Küçük, þirin bir savaþçý.
+~
+cat~
+ABU 0 400 0
+1 2 2d6+11 1d1+99 1d4+0 scratch
+8 8 8 10
+0 0 C 0
+stand stand either 0
+0 0 tiny 0
+#3091
+enik~
+enik~
+Bir enik burada.
+~
+Küçük, þirin bir savaþçý.
+~
+dog~
+ABU F 400 0
+3 2 4d6+25 1d1+99 1d6+0 bite
+7 7 7 10
+N 0 C 0
+stand stand either 0
+0 Q small 0
+#3092
+kaniþ~
+kaniþ~
+Bir kaniþ burada.
+~
+Azýlý bir savaþçý.
+~
+dog~
+ABU F 400 0
+5 3 3d12+50 1d1+99 1d6+0 bite
+5 5 5 9
+N 0 C 0
+stand stand either 0
+0 Q small 0
+#3093
+çomar~
+çomar~
+Bir çomar burada.
+~
+Güçlü ve azýlý bir savaþçý.
+~
+dog~
+ABU F 400 0
+7 3 6d10+60 1d1+149 2d4+1 bite
+4 4 4 8
+CDL 0 C 0
+stand stand either 0
+0 0 medium 0
+#3094
+kurt~
+kurt~
+Eðitimli bir kurt burada.
+~
+Kurt güçlü ve acýmasýz görünüyor.
+~
+wolf~
+ABU F 0 0
+9 3 6d10+80 1d1+99 2d5+1 bite
+4 4 4 8
+C 0 C 0
+stand stand either 0
+0 0 medium 0
+#3095
+kartal~
+kartal~
+Sadýk bir kartal havada asýlý duruyor.
+~
+Kartal güçlü ve acýmasýz görünüyor.
+~
+song bird~
+ABIU FZ 0 0
+12 3 6d10+130 1d1+99 2d5+3 claw
+0 0 0 8
+N 0 C 0
+stand stand either 0
+0 U small 0
+#3096
+aslan~
+aslan~
+Ýri, sadýk bir aslan burada.
+~
+Aslan çok acýmasýz görünüyor.
+~
+cat~
+ABIU F 0 0
+15 2 4d9+205 1d1+99 2d8+3 chomp
+-2 -2 -2 7
+C 0 C 0
+stand stand either 0
+0 0 medium 0
+#3097
+kaplan~
+kaplan~
+Ýri bir kaplan burada.
+~
+Büyük ve çizgili kaplan çok yýrtýcý görünüyor.
+~
+cat~
+ABIU F 0 0
+20 3 4d9+325 1d1+99 4d4+5 claw
+-4 -4 -4 6
+CMN 0 C 0
+stand stand either 0
+0 0 medium 0
+#3100
+hizmetçi~
+hizmetçi~
+Hizmetçi emirlerini bekliyor.
+~
+Altýn sarýsý saçlarý ve mavi gözleri olan çok güzel bir kadýn. Buraya sýk
+sýk gelmek için iyi bir neden.
+~
+human~
+ABV 0 1000 0
+23 2 1d1+499 1d1+99 1d8+12 beating
+-15 -15 -15 -15
+FG AB CD 0
+stand stand female 180
+0 0 medium 0
+#3120
+zangoç~
+zangoç~
+Bir zangoç burada oturmuþ sýcak çay içiyor.
+~
+Baþka bir mezar kazma iþinden sonra dinleniyormuþ gibi görünüyor.
+~
+human~
+ABH 0 800 0
+3 0 2d6+35 1d1+99 1d7+0 punch
+7 7 7 10
+0 0 0 C
+sit sit male 75
+0 0 medium 0
+#3121
+kuðu~
+kuðu~
+Bir kuðu gölcüðün sýð yerlerinde yüzüyor.
+~
+Beyaz kuðu çok zarif.
+~
+water fowl~
+ABU 0 1000 0
+1 0 2d6+10 1d1+99 1d5+0 peck
+8 8 8 10
+CFR 0 0 C
+stand stand either 0
+0 0 small 0
+#3122
+yavru ördek~
+yavru ördek~
+Bir yavru ördek gölcüðün sýð yerlerinde yüzüyor.
+~
+Sevimli olan yavru ördek uzaktan tüy yumaðýna benziyor.
+~
+water fowl~
+ABU 0 1000 0
+0 0 1d4+0 1d1+99 1d1+0 peckb
+10 10 10 10
+FR 0 0 C
+stand stand either 0
+0 0 tiny 0
+#3123
+serçe~
+serçe~
+Bir serçe zýplaya zýplaya ilerliyor.
+~
+Serçe hayatýn tadýný çýkarýyormuþ gibi görünüyor.
+~
+song bird~
+AGHU 0 1000 0
+0 0 2d6+0 1d1+99 1d3+0 peck
+10 10 10 10
+R 0 0 C
+stand stand either 0
+0 0 tiny 0
+#3124
+ördek~
+ördek~
+Bir ördek burada durmuþ vaklýyor.
+~
+Hafif tombul ve lezzetli görünen bir ördek.
+~
+water fowl~
+AGU 0 1000 0
+1 0 2d6+5 1d1+99 1d4+0 peckb
+10 10 10 10
+FR 0 0 C
+stand stand either 0
+0 0 small 0
+#3140
+yüzbaþý~
+yüzbaþý~
+Yasavullarýn yüzbaþýsý burada, üzgün görünüyor.
+~
+Büyük, güçlü ve kýzgýn bir yüzbaþý.
+~
+human~
+ABCFT D 1000 3000
+17 4 15d15+190 1d1+199 2d4+6 punch
+-2 -2 -2 6
+CDEHKLU 0 C 0
+stand stand male 500
+0 0 medium 0
+#3141
+yasavul~
+yasavul~
+Bir yasavul burada, üzgün görünüyor.
+~
+Güçlü, yardýmsever, güvenilir bir yasavul.
+~
+human~
+ABCFT 0 1000 3000
+15 3 15d15+10 1d1+149 2d4+4 punch
+0 0 0 8
+CDEHKLU 0 C 0
+stand stand either 150
+0 0 medium 0
+#3142
+sekreter~
+sekreter~
+Bir sekreter masasýnda oturuyor.
+~
+Çok meþgul görünüyor. Sekreter diyor ki 'Özür dilerim, fakat
+baþkan bugün çok meþgul. Lütfen o gelene kadar oturup bekleyin'.
+~
+human~
+AB 0 900 0
+12 2 4d12+148 1d1+99 2d7+1 slap
+0 0 0 8
+FHI 0 0 0
+sit sit female 100
+0 0 medium 0
+#3143
+baþkan~
+baþkan~
+Baþkan senin elini sýkýyor.
+~
+Orta yaþlarda, kýsa, bodur ve gri renkli saçlý bir adam.
+~
+human~
+AB N 900 3000
+23 6 6d10+600 1d1+199 1d8+12 punch
+-25 -25 -25 -20
+EFNS AB CD 0
+sleep stand male 1000
+0 0 medium 0
+#3144
+dertli~
+dertli~
+Þehrin dertlisi burada, sessizce aðlýyor.
+~
+Ýþinde çok iyi - tamamen gözyaþlarýna boðulmuþ durumda.
+~
+human~
+AH 0 900 0
+1 0 2d6+10 1d1+99 1d5+0 slap
+10 10 10 10
+D 0 0 C
+stand stand male 14
+0 0 medium 0
+#3150
+esme~
+Esme~
+Esme kendi kendine mýrýldanýrken emirlerini bekliyor.
+~
+Eliyle esmer saçlarýný gözlüklerinin üzerinden alarak geriye doðru
+atarken sana sýcak bir þekilde gülümsüyor.
+~
+human~
+ABV 0 900 0
+25 0 1d1+999 1d1+199 1d8+10 slap
+-15 -15 -15 -15
+FG AB CD 0
+stand stand male 1000
+0 0 medium 0
+#3160
+melankoli haritacý~
+Melankoli~
+Haritacý burada, haritalarý ve parþömenleri rulo yapýyor.
+~
+Yýpranmýþ kahverengi saçlarý hayalet kadar beyaz yüzünü çerçeveliyor.
+Kabarýk göz kapaklarýnýn altýnda gök mavisi gözleri çok derinlerde...
+Dayanýksýz görüntüsü eski kahverengi bir cüppe ile çevrili. Kafasýný kaðýt
+ve haritalardan kaldýrarak sana merakla bakarken soluk bir þekilde
+gülümsüyor.
+~
+human~
+ABV 0 900 0
+84 3 20d10+28800 1d1+399 13d60+60 slap
+-65 -65 -65 -35
+FG AB CD 0
+stand stand male 8000
+0 0 medium 0
+#3161
+lister yeþil yýlan~
+Lister~
+Yeþil yýlan Lister kitaplarýn üzerinde kývrýlmýþ yatýyor.
+~
+Bu haritacýnýn evcil aðaç yýlaný; Lister. Aðýz yapýsýnda bir gariplik
+seziyorsun, neredeyse sana gülümsüyor gibi. Arkadaþça görünüyor, ama
+o içkili iken sakýn ona yaklaþma.
+~
+snake~
+ABV D 200 0
+35 3 11d10+1300 1d1+99 6d6+4 bite
+-16 -15 -12 0
+FHNR 0 F 0
+stand stand male 0
+0 0 small 0
+#3162
+tefeci para otho~
+tefeci Otho~
+Tefeci Otho, masasýnda oturmuþ paralarý çýkarmaný bekliyor.
+~
+Ýnanýlmaz þiþman biri ve üzerinde pahalý kýyafetler var. Açýkça
+görünen para deðiþtirme iþinin bu kalabalýk þehirde iyi para getirdiði.
+~
+human~
+ABVd DF 900 0
+75 0 1d1+28099 1d1+199 15d30+60 slap
+-65 -65 -65 -35
+FG AB CD 0
+stand stand male 1000
+0 0 medium 0
+#3163
+hýrsýz~
+hýrsýz~
+Bir hýrsýz siyahlara bürünmüþ.
+~
+Paraný dikkatli SAY!
+~
+human~
+ACHS PQ -100 0
+30 1 6d8+700 1d1+99 4d5+5 stab
+2 4 3 7
+EFJN 0 0 0
+stand stand either 100
+0 0 medium 0
+#3164
+kasap~
+kasap~
+Kasap burada, et parçalýyor.
+~
+Bu iri kadýn büyük bir önlük takýyor.
+~
+human~
+ABV H 900 0
+48 1 25d10+6250 1d1+999 6d18+16 none
+-35 -35 -35 -15
+EFJ AB CD 0
+stand stand female 7000
+0 0 medium 0
+#3165
+çýrak~
+çýrak~
+Demircinin çýraðý burada..
+~
+Siyah saçlý kýsa bir oðlan. Dikkatle ustasýný izliyor.
+~
+human~
+ABce HV 500 0
+12 1 6d8+300 1d1+99 4d10+5 beating
+2 4 3 7
+EFJN AB 0 0
+stand stand male 100
+0 0 medium 0
+#3166
+þifacý nacya~
+nacya~
+Þifacý Nacya tapýnaða geliþini selamlýyor.
+~
+Hayatýn boyunca gördüðün en güzel kadýnlardan biri. Kahverengi gözlerindeki
+derin bakýþlar seni iyiliðin dünyasýna çaðýrýyor. Bembeyaz cüppesi ruhun
+saflýðýný temsil ediyor. Mimberin yanýnda durmuþ yaralarýn tedavisi için
+konsantre oluyor.
+~
+human~
+ABKRVQae HDEFZ 1000 0
+36 0 1d1+1700 1d1+2000 7d4+50 divine
+0 0 0 0
+FG ABC ABDC 0
+stand stand female 0
+0 0 medium 0
+#3167
+lonca efendisi~
+lonca efendisi~
+Lonca efendisi dikkatli gözlerle seni izliyor.
+~
+Lonca efendisi uzun ve kaslý bir erkek. Ne kadar karizmatik olduðunu
+fark ediyorsun. Böylesine güvenli bir yerde bile parlak bir göðüs zýrhýný
+giymeyi unutmamýþ. Uzun, iki elli bir kýlýç hemen yanýnda duruyor.
+~
+human~
+ABKRVe DEFZ 1000 0
+96 0 1d1+29099 1d1+999 20d48+64 slash
+-80 -80 -80 -40
+FG ABD C 0
+stand stand male 0
+0 0 medium 0
+#3168
+lonca efendisi suikastçi~
+lonca efendisi~
+Bir suikastçinin arkana süzüldüðünü hissediyorsun!
+~
+Uzun boylu ve kaslý bir adam. Tüm vücudunu kapatan kara bir cüppe
+giymiþ. Kemeri enteresan bir ekipmaný tutuyor.
+~
+human~
+ABKRVe DEFZ 0 0
+96 0 1d1+29099 1d1+999 20d48+64 slash
+-80 -80 -80 -30
+FG AB DC 0
+stand stand male 0
+0 0 medium 0
+#3169
+lonca efendisi~
+lonca efendisi~
+Kara cüppeli bir adam seni görünce kýlýcýný kavrýyor.
+~
+Þeytani bakýþlara sahip biri. Göz göze geldiðinde içlerinin kýzýl
+renkte parladýðýný görüyorsun. Cüppesinin baþ kýsmý kafasýnýn
+neredeyse tamamýný örtüyor. Güçlü ve uzun görünüyor. Kem düþüncelerden
+vazgeçmediðin sürece seni eðitebileceðini biliyorsun.
+~
+dark-elf~
+ABKRVe DEFZ -300 0
+96 0 1d1+29099 1d1+999 20d50+64 slash
+-80 -80 -80 -40
+FG AB DC 0
+stand stand male 0
+0 0 medium 0
+#3170
+lonca efendisi~
+lonca efendisi~
+Lonca efendisi dikkatli gözlerle seni izliyor.
+~
+Yaþlý ve yorgun bir lonca efendisi. Gözlerinde derin bilginin izlerini
+görebiliyorsun. Büyülü olmasý muhtemel kaliteli bir kýyafet giyiyor.
+Mavi bir aurayla çevrelendiðini fark ediyorsun.
+~
+elf~
+ABKRVe DEFZ 0 0
+96 0 1d1+29099 1d1+999 20d48+64 magic
+-85 -85 -85 -35
+FG ABD C 0
+stand stand female 0
+0 0 medium 0
+#3171
+lonca efendisi samuray~
+lonca efendisi~
+Ýyi giyimli bir samuray dikkatli gözlerle seni izliyor.
+~
+Kýsa fakat kaslý bir adam görüyorsun.
+~
+human~
+ABKRVe DEFZ 1000 0
+96 0 1d1+29099 1d1+999 20d48+64 slash
+-80 -80 -80 -40
+FG ABD C 0
+stand stand male 0
+0 0 medium 0
+#3172
+rahip~
+rahip~
+Rahip burada, kitaplarda bir þey arýyor.
+~
+Çok yakýþýklý bir adam. Yine de kendini tanrýlara adamýþ. Hangi
+hizmetleri sunduðunu görmek için "yardým din" yazabilirsin.
+~
+human~
+ABKQVe DFH 1000 0
+80 10 1d1+25999 1d1+999 12d44+60 divine
+-95 -95 -95 -15
+FHIK ABC D 0
+stand stand male 5000
+0 0 huge 0
+
+#0
+
+#OBJECTS
+#3000
+fýçý bira~
+bir bira fýçýsý~
+Bir bira fýçýsý burada býrakýlmýþ.~
+wood~
+drink 0 A
+300 300 'beer' 0 0
+0 160 75 P
+#3001
+þiþe bira~
+bir bira þiþesi~
+Bir bira þiþesi burada býrakýlmýþ.~
+glass~
+drink 0 A
+16 16 'beer' 0 0
+0 10 5 P
+#3002
+þiþe bira koyu~
+bir koyu bira þiþesi~
+Koyu renkli bir bira þiþesi burada býrakýlmýþ.~
+glass~
+drink 0 A
+16 16 'ale' 0 0
+0 20 6 P
+#3003
+ateþnefesi þiþe~
+bir ateþnefesi þiþesi~
+Bir ateþnefesi þiþesi burada býrakýlmýþ.~
+glass~
+drink 0 A
+12 12 'firebreather' 0 0
+0 10 25 P
+#3004
+þiþe yerli koyu~
+bir yerli içki þiþesi~
+Koyu renkli bir yerel içki þiþesi burada býrakýlmýþ.~
+glass~
+drink 0 A
+12 12 'local specialty' 0 0
+0 10 11 P
+#3005
+ödül kýlýç~
+ödül kýlýcý~
+Hassan'ýn kýlýcý yerde sahibini bekliyor.~
+adamantite~
+weapon BI AN
+sword 10 7 cleave EF
+62 450 5600 P
+E
+ödül kýlýç hassan~
+Biraz aðýr. Bu kýlýcýn yapýldýðý metalin ismini bile heceliyemiyorsun.
+Kýlýcýn yalýmý herþeyi veya herkesi kesebilecek gibi görünüyor.
+~
+#3006
+taþ~
+bir klan taþý~
+Biri klan taþýný burada unutmuþ.~
+adamite~
+food 0 A
+45 45 0 0 0
+0 20 0 P
+#3009
+turta~
+turta~
+Bir turta burada býrakýlmýþ.~
+food~
+food 0 A
+20 40 0 0 0
+0 20 22 P
+#3010
+çukur~
+baðýþ çukuru~
+Mimberin önünde baðýþlar için bir çukur görüyorsun.~
+~
+container O 0
+10000 0 0 1000 100
+0 0 0 P
+E
+çukur~
+Bu çukur para toplayýp tapýnaðýn geliþtirmesini saðlamak için
+buraya konmuþ.
+~
+#3011
+ekmek~
+ekmek~
+Bir dilim ekmek burada býrakýlmýþ, hem de bayat deðil.~
+food~
+food 0 A
+18 12 0 0 0
+0 10 9 P
+#3012
+sandviç~
+sandviç~
+Sýcak bir sandviç burada, çok da lezzetli görünüyor.~
+food~
+food 0 A
+4 8 0 0 0
+0 10 16 P
+#3013
+kurabiye~
+kurabiye~
+Büyük bir parça kurabiye burada býrakýlmýþ.~
+food~
+food 0 A
+8 10 0 0 0
+0 10 11 P
+#3014
+çilek pasta~
+çilekli pasta~
+Lezzetli bir çilekli pasta burada býrakýlmýþ.~
+food~
+food 0 A
+8 6 0 0 0
+0 10 5 P
+#3020
+kama~
+bir kama~
+Bir kama burada.~
+steel~
+weapon 0 AN
+dagger 1 4 stab 0
+0 10 157 G
+#3021
+kýsa kýlýç~
+bir kýsa kýlýç~
+Bir kýsa kýlýç yerde yatýyor.~
+steel~
+weapon 0 AN
+sword 1 5 slice 0
+0 30 250 G
+#3022
+uzun kýlýç~
+bir uzun kýlýç~
+Bir uzun kýlýç burada býrakýlmýþ.~
+steel~
+weapon 0 AN
+sword 2 5 slash 0
+7 50 610 G
+#3023
+topuz tahta~
+bir tahta topuz~
+Kalýn bir tahta topuz burada.~
+wood~
+weapon 0 AN
+mace 1 7 pound 0
+3 30 220 G
+A
+18 -1
+#3024
+topuz demir~
+bir demir topuz~
+Demir bir topuz burada.~
+iron~
+weapon 0 AN
+mace 2 4 pound 0
+6 100 390 G
+A
+19 1
+#3025
+balta~
+bir balta~
+Küçük bir balta burada unutulmuþ.~
+iron~
+weapon 0 AN
+axe 1 6 chop 0
+1 50 310 G
+#3026
+savaþ balta~
+bir savaþ baltasý~
+Çelik ve büyük bir balta yerde dinleniyor.~
+steel~
+weapon 0 AN
+axe 2 5 chop F
+5 90 650 G
+#3027
+mýzrak~
+bir mýzrak~
+Uzun bir mýzrak duvara dayanmýþ.~
+steel~
+weapon 0 AN
+staff 1 8 pierce 0
+4 50 84 G
+#3028
+asa~
+tahta bir asa~
+Kalýn bir tahta asa yerde yatýyor.~
+wood~
+weapon 0 AN
+staff 1 8 pound F
+9 40 580 G
+A
+17 -2
+#3029
+döven~
+bir döven~
+Ufak bir döven burada býrakýlmýþ.~
+iron~
+weapon 0 AN
+flail 1 7 pound 0
+1 50 77 G
+A
+17 1
+#3030
+meþale~
+bir meþale~
+Büyük bir meþale.~
+wood~
+light 0 A
+0 0 50 0 0
+0 30 4 G
+#3031
+fener~
+pirinç bir fener~
+Pirinç bir fener burada býrakýlmýþ.~
+brass~
+light 0 A
+0 0 250 0 0
+0 40 75 P
+E
+harfler~
+Diyor ki, "feneri 'tut' yazarak kullanabilirsin."
+~
+E
+fener~
+Büyük ve pirinçten yapýlmýþ bu fener yað ile yanýyor, ve tutacaðý tam eline
+göre. Alevi koruyan ahþap bir parçasý var. Dibinde bazý harfler görüyorsun.
+~
+#3032
+çanta~
+bir çanta~
+Küçük bir çanta.~
+leather~
+container 0 A
+50 0 0 5 100
+0 10 9 G
+#3033
+kutu~
+bir kutu~
+Küçük bir kutu.~
+wood~
+container 0 A
+10 1 0 5 100
+0 10 30 G
+#3039
+iptal parþömen rulo~
+bir iptal parþömeni~
+Bir parþömen burada býrakýlmýþ.~
+vellum~
+scroll G AO
+15 'cancellation' '' '' ''
+9 10 1190 P
+E
+parþömen iptal~
+Bu parþömeni lanet büyülerini yok etmek için kullanabilirsin.
+~
+#3040
+parþömen tanýmlama~
+bir tanýmlama parþömeni~
+Bir parþömen burada býrakýlmýþ.~
+vellum~
+scroll G AO
+12 'identify' '' '' ''
+7 10 890 P
+E
+parþömen tanýmlama~
+Bu parþömenin formülü:
+     ???
+    ?   ?
+       ?
+      ?
+      ?
+      *
+~
+#3041
+sarý iksir~
+görünmezi görmek için sarý iksir~
+Küçük sarý bir iksir burada unutulmuþ.~
+glass~
+potion G AO
+20 'word of recall' '' '' ''
+0 10 2020 P
+E
+potion return~
+The potion has a small label 'Returning'.
+~
+#3042
+parþömen anýmsama~
+bir anýmsama parþömeni~
+Bir parþömen burada býrakýlmýþ.~
+vellum~
+scroll G AO
+20 'word of recall' '' '' ''
+17 20 2900 P
+E
+parþömen anýmsa~
+Üzerine ruhani bir yolculuðun formülü yazýlmýþ.
+~
+#3043
+koruyucu yüzük~
+bir koruyucu yüzük~
+Koruyucu bir yüzük yerde dinleniyor.~
+silver~
+treasure G AB
+0 0 0 0 0
+8 10 640 P
+A
+20 -1
+A
+17 -2
+E
+yüzük koruyucu~
+Aytaþýyle bezenmiþ gümüþ bir yüzük.
+~
+#3044
+büyülü vuruþ deðnek deðneði~
+bir büyülü vuruþ deðneði~
+Bir deðnek burada býrakýlmýþ.~
+wood~
+wand G AO
+4 10 10 'magic missile' 0
+2 10 320 P
+E
+deðnek~
+Sopanýn üzerinde 'bir hedef bulun' yazýyor.
+~
+#3045
+zýrhlý ceket~
+zýrhlý bir ceket~
+Zýrhlý bir ceket yerde yatýyor.~
+steel~
+armor 0 AD
+3 4 4 0 2
+5 160 850 G
+#3046
+tunç göðüslük~
+bir tunç göðüslük~
+Bir tunç göðüslük yerde yatýyor.~
+bronze~
+armor 0 AD
+6 5 7 0 5
+15 200 2100 G
+#3047
+tunç göðüslük özel~
+özel bir tunç göðüslük~
+Özel bir tunç göðüslük yerde yatýyor.~
+bronze~
+armor 0 AD
+6 5 7 0 5
+15 200 2100 G
+#3050
+sal~
+bir sal~
+Bir sal burada býrakýlmýþ.~
+wood~
+boat 0 A
+0 0 0 0 0
+0 750 400 A
+E
+sal~
+Bu sal çok ilkel görünüyor.
+~
+#3051
+kano~
+bir kano~
+Bir kano burada býrakýlmýþ.~
+wood~
+boat 0 A
+0 0 0 0 0
+0 320 900 G
+E
+kano~
+Bu kano oldukça hafif.
+~
+#3052
+bileklik deri~
+deri bileklik~
+Saðlam bir deri bileklik burada.~
+leather~
+armor 0 AM
+0 2 2 0 0
+0 10 112 G
+#3053
+deri kemer~
+bir deri kemer~
+Yumuþak deri bir kemer burada.~
+leather~
+armor 0 AL
+1 2 2 0 0
+0 10 136 G
+#3054
+deri kuþak~
+bir deri kuþak~
+Deriden yapýlmýþ geniþ bir kuþak burada.~
+leather~
+armor 0 AL
+1 3 3 0 1
+0 20 220 G
+#3060
+deri yelek~
+bir deri yelek~
+Deri bir yelek yerde duruyor.~
+leather~
+armor 0 AD
+1 2 2 0 0
+0 50 270 G
+#3061
+deri kask~
+bir deri kask~
+Deri bir kask yerde duruyor.~
+leather~
+armor 0 AE
+1 2 2 0 0
+0 10 136 G
+#3062
+deri pantalon~
+bir deri pantalon~
+Bir deri pantalon yerde duruyor.~
+leather~
+armor 0 AF
+1 2 2 0 0
+0 50 136 G
+#3063
+çizme deri~
+bir çift çizme deri~
+Bir çift deri çizme yerde duruyor.~
+leather~
+armor 0 AG
+1 2 2 0 0
+0 30 136 G
+#3064
+deri eldiven~
+bir çift deri eldiven~
+Bir çift deri eldiven yerde duruyor.~
+leather~
+armor 0 AH
+1 2 2 0 0
+0 10 136 G
+#3065
+deri kolluk~
+bir çift deri kolluk~
+Bir çift deri kolluk yerde duruyor.~
+leather~
+armor 0 AI
+1 2 2 0 0
+0 30 136 G
+#3066
+yelek sert deriden~
+sert deriden bir yelek~
+Yerde sert deriden bir yelek duruyor.~
+leather~
+armor 0 AD
+1 3 3 0 1
+0 80 430 G
+#3067
+sert deriden kask~
+sert deriden bir kask~
+Sert deriden bir kask yerde duruyor.~
+leather~
+armor 0 AE
+1 3 3 0 0
+0 20 220 G
+#3068
+deriden sert pantalon~
+sert deriden bir pantalon~
+Sert deriden bir pantalon yerde duruyor.~
+leather~
+armor 0 AF
+1 3 3 0 1
+0 70 220 G
+#3069
+çizme sert deri~
+bir çift sert deri çizme~
+Bir çift sert deri çizme yerde yatýyor.~
+leather~
+armor 0 AG
+1 3 3 0 1
+0 40 220 G
+#3070
+eldiven sert deri~
+bir çift sert deri eldiven~
+Bir çift sert deri eldiven yerde yatýyor.~
+leather~
+armor 0 AH
+1 3 3 0 1
+0 10 220 G
+#3071
+sert kolluk deri~
+bir çift sert deri kolluk~
+Bir çift sert deri kolluk yerde yatýyor.~
+leather~
+armor 0 AI
+1 3 3 0 1
+0 40 220 G
+#3072
+pul ceket zýrh~
+bir pul zýrhlý ceket~
+Pul zýrhlý bir cekete yerde duruyor.~
+steel~
+armor 0 AD
+3 4 4 0 2
+5 140 850 P
+#3073
+zýrh pul baþlýk~
+bir pul zýrhlý baþlýk~
+Pul zýrhlý bir baþlýk yerde duruyor.~
+steel~
+armor 0 AE
+3 4 4 0 1
+5 40 420 P
+#3074
+zýrh pul etek~
+bir pul zýrhlý etek~
+Pul zýrhlý bir etek yerde duruyor.~
+steel~
+armor 0 AF
+3 4 4 0 2
+5 80 420 P
+#3075
+çizme güçlendirilmiþ~
+bir çift güçlendirilmiþ çizme~
+Bir çift güçlendirilmiþ çizme burada duruyor.~
+leather~
+armor 0 AG
+3 4 4 0 2
+5 40 420 P
+#3076
+eldiven güçlendirilmiþ~
+bir çift güçlendirilmiþ eldiven~
+Bir çift güçlendirilmiþ eldiven burada duruyor.~
+leather~
+armor 0 AH
+3 4 4 0 2
+5 20 420 P
+#3077
+kolluk güçlendirilmiþ~
+bir çift güçlendirilmiþ kolluk~
+Bir çift güçlendirilmiþ kolluk burada duruyor.~
+steel~
+armor 0 AI
+3 4 4 0 2
+5 60 420 P
+#3080
+iksir iyileþme~
+bir iyileþme iksiri~
+Bir iyileþme iksiri burada.~
+glass~
+potion G AO
+20 'heal' '' '' ''
+11 10 800 P
+#3081
+iksir takdis~
+bir takdis iksiri~
+Bir iksir burada býrakýlmýþ.~
+glass~
+potion G AO
+20 'sanctuary' '' '' ''
+11 10 800 P
+#3082
+iksir ilahi~
+bir ilahi iksir~
+Bir iksir burada býrakýlmýþ.~
+crystal~
+potion ABGI AO
+35 'sanctuary' 'stone skin' 'enhanced armor' ''
+16 10 1800 P
+#3083
+iksir hafif tedavi~
+bir hafif tedavi iksiri~
+Bir iksir burada býrakýlmýþ.~
+glass~
+potion G AO
+5 'cure light' '' '' ''
+0 10 150 P
+#3084
+iksir ciddi tedavi~
+bir ciddi tedavi iksiri~
+Bir iksir burada býrakýlmýþ.~
+glass~
+potion G AO
+10 'cure serious' '' '' ''
+1 10 220 P
+#3085
+iksir kritik tedavi~
+bir kritik tedavi iksiri~
+Bir iksir burada býrakýlmýþ.~
+glass~
+potion G AO
+15 'cure critical' '' '' ''
+5 10 390 P
+#3086
+iksir þiþe panzehir~
+bir þiþe panzehir iksiri~
+Bir þiþe panzehir iksiri burada.~
+clay~
+potion G AO
+14 'cure poison' 'cure light' 'cure disease' ''
+8 10 550 P
+#3087
+iksir körlüðü iyileþtirme~
+bir körlüðü iyileþtirme iksiri~
+Bir körlüðü iyileþtirme iksiri burada.~
+glass~
+potion G AO
+13 'cure blindness' '' '' ''
+0 10 230 P
+#3088
+kutsal kap su~
+bir kap kutsal su~
+Bir kap dolusu kutsal su burada.~
+crystal~
+potion AGI AO
+20 'bless' 'protection evil' 'remove curse' ''
+10 10 720 P
+#3089
+iksir zýrh~
+bir zýrh iksiri~
+Bir zýrh iksiri burada.~
+glass~
+potion G AO
+10 'armor' '' '' ''
+0 10 200 P
+#3090
+iksir iptal~
+bir iptal iksiri~
+Bir iptal iksiri burada.~
+glass~
+potion BG AO
+35 'cancellation' '' '' ''
+9 10 830 P
+#3091
+iksir uçma~
+bir uçma iksiri~
+Bir uçma iksiri burada.~
+glass~
+potion G AO
+9 'fly' '' '' ''
+3 10 250 P
+#3092
+iksir eksiksiz görüþ~
+bir eksiksiz görüþ iksiri~
+Bir eksiksiz görüþ iksiri burada.~
+glass~
+potion G AO
+10 'detect invis' 'detect magic' 'detect evil' 'detect good'
+4 10 2290 P
+#3093
+tahta ok~
+bir tahta ok~
+Ýçi parlayan tahta bir ok yerde yatýyor.~
+wood~
+weapon 0 AO
+arrow 6 7 pierce 0
+33 10 500 P
+A
+19 1
+A
+18 1
+#3094
+gümüþ ok~
+bir gümüþ ok~
+Ýçi parlayan gümüþ bir ok yerde yatýyor.~
+wood~
+weapon 0 AO
+arrow 7 8 pierce 0
+49 20 500 P
+A
+19 2
+A
+18 2
+#3095
+altýn ok~
+bir altýn ok~
+Ýçi parlayan altýn bir ok yerde yatýyor.~
+wood~
+weapon 0 AO
+arrow 8 9 pierce 0
+61 20 500 P
+A
+19 3
+A
+18 3
+#3096
+adamantin ok~
+bir adamantin ok~
+Ýçi parlayan adamantin bir ok yerde yatýyor.~
+wood~
+weapon 0 AO
+arrow 9 10 pierce 0
+72 20 500 P
+A
+19 4
+A
+18 4
+#3097
+kalkan küçük metal~
+bir küçük metal kalkan~
+Küçük metal bir kalkan yerde duruyor.~
+steel~
+armor 0 AJ
+4 4 4 1 2
+5 60 750 P
+#3100
+fincan çay~
+bir fincan çay~
+Bir fincan buraya býrakýlmýþ.~
+china~
+drink 0 A
+6 6 'tea' 0 0
+0 10 8 P
+E
+fincan çay~
+Küçük bir fincan.
+~
+#3101
+fincan kahve~
+bir fincan kahve~
+Bir fincan buraya býrakýlmýþ.~
+china~
+drink 0 A
+6 6 'coffee' 0 0
+0 10 6 P
+E
+fincan kahve~
+Küçük bir fincan.
+~
+#3102
+fincan su~
+bir fincan su~
+Bir fincan buraya býrakýlmýþ.~
+clay~
+drink 0 A
+10 10 'water' 0 0
+0 10 1 P
+E
+fincan su~
+Büyükçe bir fincan.
+~
+#3105
+bileklik bronz~
+bronz bir bileklik~
+Bronz bir bileklik yerde yatýyor.~
+bronze~
+armor 0 AM
+3 6 6 0 3
+10 30 760 G
+#3106
+bileklik demir~
+demir bir bileklik~
+Demir bir bileklik yerde yatýyor.~
+iron~
+armor 0 AM
+3 7 7 0 3
+15 40 1020 G
+#3110
+zýrh pul gömlek~
+bir pul zýrhlý gömlek~
+Pul zýrhlý bir gömlek yerde duruyor.~
+steel~
+armor 0 AD
+5 4 5 0 3
+10 180 1320 P
+#3111
+zýrh pul baþlýk~
+bir pul zýrhlý baþlýk~
+Pul zýrhlý bir baþlýk yerde duruyor.~
+steel~
+armor 0 AE
+5 4 5 0 2
+10 50 660 P
+#3112
+zýrh pul etek~
+bir pul zýrhlý etek~
+Yerde pul zýrhlý bir etek duruyor.~
+steel~
+armor 0 AF
+5 4 5 0 3
+10 100 660 P
+#3113
+çizme demirli~
+bir çift demirli çizme~
+Bir çif demirli çizme yerde yatýyor.~
+iron~
+armor 0 AG
+5 4 5 0 3
+10 60 660 P
+#3114
+zýrh pul eldiven~
+bir çift pul zýrhlý eldiven~
+Bir çift pul zýrhlý eldiven yerde yatýyor.~
+steel~
+armor 0 AH
+5 4 5 0 3
+10 40 660 P
+#3115
+zýrh pul kolluk~
+bir çift pul zýrhlý kolluk~
+Bir çift pul zýrhlý kolluk yerde yatýyor.~
+steel~
+armor 0 AI
+5 4 5 0 3
+10 80 660 P
+#3116
+kalkan büyük metal~
+büyük bir metal kalkan~
+Büyük metal bir kalkan yerde duruyor.~
+steel~
+armor 0 AJ
+5 5 5 2 4
+10 140 1190 P
+#3117
+kalkan küçük tahta~
+küçük bir tahta kalkan~
+Küçük tahta bir kalkan yerde duruyor.~
+wood~
+armor 0 AJ
+4 3 2 1 1
+3 40 510 P
+#3120
+anahtar demir~
+bir anahtar~
+Buraya demir bir anahtar býrakýlmýþ.~
+iron~
+key 0 A
+0 0 0 0 0
+0 10 0 G
+E
+anahtar demir~
+Bir özelliði yok.
+~
+#3121
+anahtar paslý~
+bir anahtar~
+Buraya paslý bir anahtar býrakýlmýþ.~
+iron~
+key 0 A
+0 0 0 0 0
+0 10 0 W
+E
+anahtar paslý~
+Paslý olmasý dýþýnda bir özelliði yok.
+~
+#3122
+anahtar tahta~
+bir anahtar~
+Buraya tahta bir anahtar býrakýlmýþ.~
+wood~
+key 0 A
+0 0 0 0 0
+0 10 0 G
+E
+anahtar tahta~
+Bir özelliði yok.
+~
+#3123
+anahtar pirinç~
+bir anahtar~
+Buraya pirinç bir anahtar býrakýlmýþ.~
+brass~
+key 0 A
+0 0 0 0 0
+0 10 0 G
+E
+anahtar pirinç~
+Önemli bir kilidin anahtarýna benziyor.
+~
+#3124
+kýlýç uzun~
+uzun kýlýç~
+Buraya uzun bir kýlýç býrakýlmýþ.~
+steel~
+weapon 0 AN
+sword 3 10 slash D
+26 50 2000 P
+E
+kýlýç uzun~
+Selenge baþkanýnýn tören kýlýcý.
+A
+13 20
+A
+12 20
+~
+#3129
+manþet kol~
+bir çift kol manþeti~
+Bir çift kol manþeti buraya býrakýlmýþ.~
+iron~
+trash 0 AO
+0 0 0 0 0
+0 40 0 A
+#3130
+yazý masa çekmece~
+bir yazý masasý~
+Batý duvarýna doðru bir yazý masasý konulmuþ.~
+wood~
+container 0 0
+34 ABCD 3122 20 100
+0 0 0 G
+E
+çekmece~
+Çekmecenin üzerinde bir anahtar deliði görüyorsun.
+~
+E
+masa~
+Geniþçe bir masa. Yan tarafýnda bir çekmecesi var.
+~
+#3131
+kasa~
+kasa~
+Odanýn karanlýk bir köþesine kasa konulmuþ.~
+iron~
+container 0 0
+34 ABCD 3123 20 100
+0 0 0 G
+E
+kasa~
+Bu kasa çok aðýr.
+~
+#3132
+gümüþ sikke~
+sikkeler~
+Bir sürü sikke var.~
+silver~
+money 0 A
+1000 0 0 0 0
+0 0 0 P
+E
+gümüþ sikke~
+En az bin sikke var.
+~
+#3133
+þehir anahtar~
+þehrin anahtarý~
+Þehrin anahtarý burada yatýyor.~
+gold~
+key 0 A
+0 0 0 0 0
+0 250 100 G
+E
+þehir anahtar~
+Sanýrým hayatýnda gördüðün en büyük anahtar. Cilalanmýþ
+altýndan yapýlmýþ ve üzerinde Selenge'nin armasý var.
+~
+#3134
+bank~
+bank~
+Beyaz renge boyanmýþ tahta bir bank burada duruyor.~
+wood~
+furniture 0 0
+3 2000 BEHK 105 105
+0 0 0 G
+E
+bank~
+Aðýr fakat konforlu bir bank. Önü ýrmaða bakacak þekilde konulmuþ.
+Böylece oturup ýrmaðý ve öte yakadaki evleri seyredebilirsin.
+~
+#3135
+su çeþme~
+çeþme~
+Çeþmeden dýþarýya doðru su fýþkýrýyor.~
+~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 G
+E
+çeþme~
+Çok güzel. Kaliteli beyaz mermerden yapýlmýþ.
+~
+#3136
+sikke yýðýný~
+küçük bir sikke yýðýný~
+Küçük bir sikke yýðýný burada yatýyor.~
+silver~
+money 0 A
+20 0 0 0 0
+0 0 0 P
+#3137
+anahtar çelik~
+çelik bir anahtar~
+Büyük çelik bir anahtar burada býrakýlmýþ.~
+steel~
+key 0 A
+0 0 0 0 0
+0 10 0 G
+E
+anahtar çelik~
+Bu boyuttaki bir anahtar çok güçlü bir kilite uymalý.
+~
+#3138
+matara bufalo su deri~
+bufalo derisinden bir matara~
+Davul gibi þiþirilmiþ bir bufalo derisi yerde yatýyor.~
+leather~
+drink 0 A
+64 64 'water' 0 0
+0 40 24 G
+#3139
+tabela~
+tabela~
+Masada bir tabela duruyor.~
+paper~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+E
+tabela~
+Geçici bir süre için kapalýyýz. En kýsa zamanda hizmet vermeye devam
+edeceðiz.
+~
+#3140
+not banka~
+bankanýn notu~
+Bankanýn notu duvarda asýlý duruyor.~
+paper~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+E
+not banka~
+Yakýnda banka iþleme geçecektir.
+
+    Selenge Þehir Bankasý
+~
+#3150
+fincan kahve tarçýn~
+tarçýnlý kahve fincaný~
+Bir fincan sýcak tarçýnlý kahve burada.~
+china~
+drink 0 A
+6 6 'coffee' 0 0
+0 10 12 P
+E
+fincan kahve tarçýn~
+Gece geç saatlere kadar oturanlar için hoþ aromalý bir kahve.
+~
+#3151
+çorba kase~
+bir kase dolusu tavuk çorbasý~
+Bir kase dolusu güzel ve sýcak tavuk çorbasý içilmeyi bekliyor.~
+wood~
+food 0 A
+4 8 0 0 0
+0 20 10 P
+E
+çorba kase~
+Soðuk algýnlýðýna ve gribe bire bir!
+~
+#3152
+kase güveç yahni~
+bir kase güveç yahnisi~
+Daha fýrýndan yeni çýkmýþ güveç yahnisinden tüten dumanlarý görebiliyorsun.~
+food~
+food 0 A
+25 25 0 0 0
+0 30 14 P
+E
+kase güveç yahni~
+Özel bir yemek. Uzun süre tok tutacaðýndan eminsin.
+~
+#3153
+bisküvi~
+bisküvi~
+Tereyað kaplý lezzetli bir bisküvi burada duruyor.~
+food~
+food 0 A
+4 3 0 0 0
+0 10 5 P
+E
+bisküvi~
+Taze ve leziz bir bisküvi.
+~
+#3154
+þiþe deniz bira~
+bir þiþe deniz birasý~
+Koyu renkli teneke kaplanmýþ bir þiþe bira burada.~
+glass~
+drink 0 A
+16 16 'beer' 0 0
+0 20 20 P
+E
+þiþe deniz bira~
+Biradan anlayanlar için sert içimli bir bira. Þiþenin üzerinde at nalý
+logosu görüyorsun. Verdiðin her kuruþa deðen biralardan.
+~
+#3161
+anahtar beyaz~
+beyaz anahtar~
+Burada beyaz bir anahtar býrakýlmýþ.~
+ivory~
+key 0 AO
+0 0 0 0 0
+0 10 0 G
+#3162
+harita selenge~
+Selenge þehrinin bir haritasý~
+Kývrýlmýþ bir harita yerde duruyor.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 500 P
+E
+harita selenge~
+.
+                        * * * SELENGE * * *
+                         = = ========== = =
+
+
+          Kuzey                 Mimber     MUD Okulu <---  ** ÇAYLAKLAR **
+            |   /Yukarý        (Þifacý)        |         ** BURADA BAÞLAR **
+            | /                   |       /MUD Okulu
+     Batý---+---Doðu              |     /   Giriþi
+          / |                  Selenge         |
+   Aþaðý/   |                  Tapýnaðý      Arena
+          Güney                (Anýmsa)
+                                  |
+                                  |   /Havada...    /Para Deðiþim Odasý
+                   Ermiþ          | /             /
+          Kuzey    Locasý------Tapýnak----Hýrýldayan---Han     Kuzey
+         Selenge               Meydaný    Ayý Haný            Selenge
+            |     Büyü            |                              |
+            |    Dükkaný Fýrýn    |     Bakkal     Demirci       |
+            |       |      |      |       |           |          |
+ Kýraç <---Batý---Ana Cadde+----Pazar-----+-Ana Cadde-+---------Doðu----> Doðu
+Toraklar  Kapýsý    |      |    Yeri      |           |        Kapýsý   Patikasý
+            |     Büyü   Zýrhçý   |    Mücevher     Savaþçý      |
+            |    Locasý           |    Dükkaný      Locasý    Duvar Yolu
+          Duvar                   |                              |
+          Yolu   Deri             |  Grebe'nin Hayvan   Ýksir    |
+            |   Dükkaný Haritacý  |    Haný    Dükkaný Dükkaný   |
+            |      |       |     Halk    |       |       |       |
+          Duvar---Arka Sokak---Meydaný---Arka Sokak------+----Duvar Yolu
+          Yolu     |       |      |      |       |       |       |
+            |    Aptal   Sansar   |   Hýrsýz   Rýhtým   Ambar    |
+            |   Tapýnaðý  Haný    |   Locasý   (Bot)             |
+            |                   Çöplük           |               |
+          Duvar   Hayvanat        |              |              Duvar
+          Yolu--- Bahçesi         |              |              Yolu
+            |                   Güney         Isdarl             |
+ <------> Köprü <------------> Köprüsü <-----> Nehri---------> Köprü <-->
+            |                     |                              |
+          Güney                 Güney                          Güney
+         Selenge               Selenge                        Selenge
+~
+#3163
+kuzey harita uzak diyarlar~
+kuzey Uzak Diyarlar haritasý~
+Kývrýlmýþ bir harita burada duruyor.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 150 P
+E
+kuzey harita uzak diyarlar~
+.
+                       * * * Kuzey Uzak Diyarlar  * * *
+                          = = ================== = =
+
+                                                   Moria
+                             Olympus          New    |    Dwarven--Mines
+Mage            Elven Valley    |     Ofcol--Ofcol   +----Kingdom
+Tower                       \   |       |            |       |    \Catacombs
+  |    Dragon Tower          Plains-----+            |   Day-Care
+  |   /                         |       |            |             Void---Old
+Shadow                      Northern  Stones of      |   Nirvana\    |   Thalos
+Grove---Galaxy              Midgaard   G'harne       |            \Holy
+  |                             |                    |     Smurf   Grove
+   \  Arachnos    Shire  Asgard | In the Air         |    Village    |
+     \   |          |         \ | /                  |       |       |    Check
+      Forest Of-----+-------Midgaard---------------Cross---Eastern Road---Point
+      Haon Dor              / | | | \              Roads             |
+     /     |     Mob Factory  | | |  Machine            \        Gnome Village
+  Old    Troll               /  | |  Dreams               \
+ Marsh    Den           Sewer   |  \            Ruins of---Dwarf---Frigid Waste
+                                |    \Midgaard   Thalos    Forest         |
+       Redferne's---Chain---Southern    River                |  \      Keep of
+       Residence            Midgaard         \       Wyvern--+  Drow   Mahn-tor
+           |                  / | \          Sands of Tower  |  City
+         Clouds      Gang Land  | Graveyard  Sorrow          |
+        (Harpies)               |      \           \       Elemental
+                            Miden'nir   Church   Mega-City  Canyon
+                            (Goblins)  Catacombs    One
+
+Bu harita, Uzak Diyarlar'daki belli baþlý alanlarý içermekte olup, ölçeðe göre
+çizilmemiþtir. Harita, alanlarýn diðer alanlara göre yaklaþýk konumlarýný
+belirtecek þekilde tasarlanmýþtýr.
+~
+#3164
+harita güney selenge~
+Güney Selenge'nin bir haritasý~
+Kývrýlmýþ bir harita burada duruyor.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 1000 P
+E
+harita güney selenge~
+.
+                         * * *   GÜNEY SELENGE  * * *
+                          = = =================== = =
+
+  Batý                         Güney            Kate'in                  Doðu
+ Köprüsü                      Köprüsü            Kafesi                 Köprüsü
+    |                            |                 |                       |
+Kuzeybatý                        |              Austral                Kuzeydoðu
+Gezi Yolu---Gezi Yolu--------Gezi Yolu----------Meydaný----------------Gezi Yolu
+    |           |                |                 |                       |
+    |           |                |                 |            çeþme      |
+    |           |                |              Emerald           |        |
+Gezi Yolu     Park              Park-----Park     Blv----Penny--Penny--Gezi Yolu
+    |         Yolu             Giriþi    Kafe      |     Sokaðý Sokaðý     |
+    |           |                |              Emerald                    |
+    |           |                |                Blv                      |
+    |           |                |                 |                       |
+    | Yasavul Park     Park      |       Park   Emerald   Town             |
+    |  KRK----Yolu----Giriþi----Park----Giriþi----Blv-----Hall             |
+    |           |                                  |                       |
+    |         Park              Emerald---------Emerald--------------Çete  |
+    |         Yolu                Blv             Blv                |  |  |
+    |           |                  |                                 |  |  |
+    |         Park----------------Yol-----------Park            Elm--Diyarý|
+    |         Yolu             /Kesiþmesi       Yolu           Sokaðý      |
+    |          |              /    |              |              |         |
+    |        Güneþ        Chain    |              |              |         |
+Gezi Yolu   Tapýnaðý(iyi) /        |            Park----Elm-----Elm---Gezi Yolu
+    |                    /         |            Yolu   Sokaðý  Sokaðý      |
+    |             (Redferne's)     |              |              |         |
+    |                              |              |              |         |
+    |                Emerald--Emerald             |          Mezarlýk      |
+    |                  Blv      Blv               |                        |
+    |                   |                         |                        |
+    |                Emerald                    Park     Kara (kötü)       |
+    |                  Blv                      Yolu----Tapýnak            |
+    |                   |                         |                        |
+Gezi Yolu-----------Gezi Yolu------Güney------Gezi Yolu---------------Gezi Yolu
+                                   Kapýsý
+                                     |
+                                 Miden'Nir
+                                (Goblinler)
+~
+#3165
+harita cüce krallýk~
+Cüce Krallýðýnýn haritasý~
+Kývrýlmýþ bir harita burada duruyor.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 750 P
+E
+harita cüce krallýk~
+.
+                         * * * The Dwarven Kingdom * * *
+                          = = ===================== = =
+
+                    Dwarven
+                    Hospital
+                       |                                              *Path to
+         North of---Path by---Path by---Barracks     Guard--Door to----Castle
+          Shops     Hospital  Barracks  Entrance     House  Kingdom  Strangelove
+Granite     |                              |                   |
+Head's---Path North                      First               Narrow
+Bakery    of Shop                       Barracks              Path
+            |                              |                   |
+         Hide and    Turn               Back of     Bend in--Narrow
+        Tooth Shop--in Road             Barracks     Path     Path
+                       |                    \         |
+                    Path to               Dwarven   Narrow
+                    Village              Catacombs   Path
+                       |                              |
+             Store  *Inside    Entrance     Top of   Dark   *Mine
+             Room---Entrance--To Mountain--Mountain--Path--Entrance
+                \                             |                 \
+               Wine                        Middle of          Dwarven
+              Cellar                       Mountain            Mines
+                  \                            |
+                Dwarven                    Base of
+               Catacombs    Moria          Mountain           North
+                              |               |           Up\   |
+                              |            Path to            \ |
+                            Plains--Hills--Dwarven      West----+----East
+                              |            Kingdom              | \
+                              |               |                 |   \Down
+              Midgaard <----Cross          Dwarven            South
+                            Roads          Drop-off
+                                          (Day-Care)
+
+*anahtar gerekmektedir
+~
+#3166
+harita moria birinci~
+Moria'nýn birinci seviyesinin haritasý~
+Kývrýlmýþ bir harita burada duruyor.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 1500 P
+E
+harita moria birinci~
+* * * MORIA - Map 1 * * *                                           To Mahn-Tor
+ = = =============== = =                                                 |
+Talk about a mess!                                                   Foothills
+                                                                         |
+This is as far as our courageous, noble, brave           Light Cave    Valley
+and apparently quite deceased cartographers                   |           |
+could get.  Perhaps more maps could be found             Smelly Tunnel  Cave
+in the depths of Moria itself.                                |           |
+                                                  Cave---Many Tunnels---Tunnel
+                                                    |         |           |
+         West End--Large Cave--East End           Cave      Tunnel      *Hole
+            |          |                            |         |        (Map 2)
+            |        Tunnel---------Tunnel--------Tunnel----Tunnel
+            |                                       |
+ *Hole----Damp----Damp  Tunnel--Tunnel--Tunnel    Tunnel
+(Map 3)  Tunnel  Tunnel   |               |         |
+                   |      |            (*Map 3)  The Cave
+                   |      |                         |
+                   |    Tunnel--Light--Maze      End of
+                   |            Cave    |        The Path
+                   |                  Light         |
+                   |                  Cave      The Hills--> Dwarven Kingdom
+                   |                    |           |
+                 Tunnel----Tunnel-----Light     The Plains
+                                      Cave          |
+                                                 The Lane
+                                                    |
+                                      Midgaard <--Cross--> Eastern Road
+                                                  Roads
+                                                    |
+                                               Dwarf Forest
+~
+#3167
+harita yeni thalos~
+Yeni Thalos Þehri'nin haritasý~
+Kývrýlmýþ bir harita burada duruyor.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 2500 P
+E
+harita yeni thalos~
+.
+           * * * **************** New Thalos ***************** * * *
+                   "Not Thalos or Old Thalos but New Thalos"
+            = = =============================================== = =
+
+                                   Plains
+                                     |
+Northwest--West Casbah-------------North-----------------Casbah--------Northeast
+  Tower     |                       Gate                    |            Tower
+          Alley                      |                      |              |
+            |    Guard            Sultan's                  |  Library----Kali
+          Alley  House              Walk                    |             Row
+                   |                 |      Dancing         |              |
+     Sultan's----Grand----Palace--Sultan's--Daemon          |   Dance-----Kali
+      Palace    Entrance   Gate     Walk      Inn           |   Hall      Row
+                   |                 |                      |
+                 Guard               |         Bowyer--Guildsman's--Mason's
+                 House               |         Guild       Row      Guild
+ High                                |                      |
+Priest                               |         Weaver--Guildsman's--Craftsman
+Chamber  Altar                    Sultan's     Guild       Row        Guild
+  |        |                        Walk                    |
+Inside--Inside--Donation             |         Tanner--Guildsman's--Museum
+Temple  Temple    Room               |         Guild       Row      of the
+  |        |                         |                      |       Greater
+Cleric     |                         |                 Guildsman's---Gods
+Guild     /                          |                     Row
+        /                            |                      |
+     Temple             Ahkeem's  Sultan's  Vera's     Guildsman's         Mage
+     Gates                Stuff     Walk   Veggies         Row             Tower
+       |     Alley--Alley    |       |       |              |                |
+     Temple    |           Market--Market--Market           | Witch's  Magic |
+     Square  Alley   Bank--Square  Square  Square--Butchery |  Brew    Shop  |
+       |       |             |       |       |              |    |      |    |
+West--West---West---West---Market--Center--Market---East--East--East--East--East
+Gate  Main   Main   Main   Square  Square  Square   Main  Main  Main  Main  Gate
+  |    |       |             |       |       |              |    |
+  |  Repair  Alley  Store--Market--Market--Market--Abdul's  | Mercenary--Thieves
+  |   Shop     |           Square  Square  Sqaure   Armor   |   Guild     Guild
+  |          Alley--Alley    |       |       |             Alley
+Warrior's                  Bread   Medina  Igor's  Leather  |           Smuggler
+  Guild                    Stand     |    Weapons   Shop---Alley--Alley---Inn
+                                   Medina                        /
+      Warehouse    Shipwright        |     Forge  Stables      /    Cass's  Dump
+       |     |          |          Common    |       |        |       |      |
+       +-----West Ishtar Drive-----Square----+---East Ishtar Drive----+------+
+                        |            |
+                    Boat Ramp        |
+                        |          South
+===================Ishtar River====Bridge======================> To Dragon Sea
+                                     |
+                                   South
+                                   Gate
+~
+#3168
+harita olimpus~
+olimpus'un haritasý~
+Kývrýlmýþ bir harita burada duruyor.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 2000 P
+E
+harita olimpus~
+.
+                               *****OLYMPUS*****
+                               =================
+
+                                   Bedroom
+                                      |
+                                   Northern
+                                     Hall
+                        Western       |         Eastern
+              Bedroom----Hall----Second Floor----Hall----Bedroom
+                                /     |
+                         Stairway  Southern
+                             |       Hall                    North
+                        Throne Room   |                        |  /Up
+                             |      Bedroom                    |/
+                             |                          West---+---East
+                  Kitchen    |     Stable                     /|
+                     |       |       |                  Down/  |
+        Guest     Western  Castle  Eastern   Guest           South
+       Quarters----Wing----Entry----Wing----Quarters
+                     |       |       |
+                  Storage   Z|    Storage
+                   Room     e|S    Room   Smithy
+                            u|t             |
+                            s+--Ares Street-+--Weapon
+                    Mystery  |              |   Shop
+                    Shop-----+           Armoury
+                             |
+                   Residence-+-Residence
+                             |
+                     Bakery--+
+                             |
+                       **Entrance**
+                            /
+                      Mountain
+~
+#3200
+müzik kutusu~
+müzik kutusu~
+Neon ýþýklarýyla bir müzik kutusu odanýn köþesinde duruyor.~
+glass~
+jukebox 0 0
+0 0 0 0 0
+0 0 0 P
+#3237
+çukur~
+Baðýþ Çukuru~
+Adaðýn önünde bir baðýþ çukuru duruyor.~
+~
+container O 0
+10000 0 0 1000 100
+0 0 0 P
+#3238
+deri matara~
+Deriden bir su matarasý~
+Deriden mamul bir su matarasý yerde duruyor.~
+leather~
+drink 0 A
+64 64 'water' 0 0
+0 40 3 G
+#3240
+parþömen tanýmlama~
+tanýmlama parþömeni~
+Bir parþömen burada dikkatsizce unutulmuþ.~
+vellum~
+scroll G AO
+12 'identify' '' '' ''
+7 10 890 P
+E
+Tanýmlama Parþömeni~
+Parþömen üzerinde þöyle bir büyü formülü yazýlý:
+     ???
+    ?   ?
+       ?
+      ?
+      ?
+      *
+~
+#3241
+sarý iksir~
+sarý iksir~
+Sarý renkli küçük bir iksir burada býrakýlmýþ.~
+glass~
+potion G AO
+12 'detect invis' '' '' ''
+0 10 220 P
+E
+sarý iksir~
+Ýksirin üzerinde 'Görünmeyeni Görme Ýksiri' diye bir etiket var.
+~
+#3242
+anýmsama parþömen~
+anýmsama parþömeni~
+Bir parþömen burada dikkatsizce unutulmuþ.~
+vellum~
+scroll G AO
+20 'word of recall' '' '' ''
+17 20 4900 P
+E
+parþömen~
+Parþömenin üzerinde Anýmsama büyüsünü etkinleþtiren bir formül yazýlý.
+~
+#3280
+iksir þifa~
+þifa iksiri~
+Bir þifa iksiri burada duruyor.~
+glass~
+potion G AO
+20 'heal' '' '' ''
+11 10 800 P
+#3281
+iksir takdis~
+takdis iksiri~
+Bir takdis iksiri burada duruyor.~
+glass~
+potion G AO
+20 'sanctuary' '' '' ''
+11 10 800 P
+#3282
+ilahi koruma iksir~
+ilahi koruma iksiri~
+Bir ilahi koruma iksiri burada duruyor.~
+crystal~
+potion ABGI AO
+35 'sanctuary' 'stone skin' 'enhanced armor' 'shield'
+16 10 1800 P
+#3283
+iksir hafif tedavi~
+hafif tedavi iksiri~
+Bir hafif tedavi iksiri burada duruyor.~
+glass~
+potion G AO
+5 'cure light' '' '' ''
+0 10 150 P
+#3284
+iksir ciddi tedavi~
+ciddi Tedavi Ýksiri~
+Bir ciddi tedavi iksiri burada duruyor.~
+glass~
+potion G AO
+10 'cure serious' '' '' ''
+1 10 220 P
+#3285
+iksir kritik tedavi~
+kritik tedavi iksiri~
+Bir kritik tedavi iksiri burada duruyor.~
+glass~
+potion G AO
+15 'cure critical' '' '' ''
+5 10 390 P
+#3286
+iksir panzehir þiþe~
+panzehir þiþesi~
+Bir panzehir þiþesi burada duruyor.~
+clay~
+potion G AO
+14 'cure poison' 'cure light' 'cure disease' ''
+8 10 550 P
+#3287
+iksir körlük tedavi~
+körlük tedavi iksiri~
+Bir körlük tedavi iksiri burada duruyor.~
+glass~
+potion G AO
+13 'cure blindness' '' '' ''
+0 10 230 P
+#3288
+kutsanmýþ su~
+kutsanmýþ su~
+Bir þiþe kutsanmýþ su burada duruyor.~
+crystal~
+potion AGI AO
+20 'bless' 'protection evil' 'remove curse' ''
+10 10 720 P
+#3289
+zýrh iksir~
+zýrh Ýksiri~
+Bir zýrh büyüsü iksiri burada duruyor.~
+glass~
+potion G AO
+10 'armor' '' '' ''
+0 10 200 P
+#3290
+iksir iptal~
+iptal iksiri~
+Bir iptal büyüsü iksiri burada duruyor.~
+glass~
+potion BG AO
+35 'cancellation' '' '' ''
+9 10 830 P
+#3291
+iksir uçma~
+uçma iksiri~
+Bir uçma iksiri burada duruyor.~
+glass~
+potion G AO
+9 'fly' '' '' ''
+3 10 250 P
+#3292
+iksir gerçek görüþ~
+gerçek görüþ iksiri~
+Bir gerçek görüþ iksiri burada duruyor.~
+glass~
+potion G AO
+10 'detect invis' 'detect magic' 'detect good' 'detect evil'
+4 10 2290 P
+#3349
+uzun kýlýç~
+parýldayan uzun kýlýç~
+Parýldayan bir uzun kýlýç burada duruyor.~
+steel~
+weapon 0 AN
+sword 4 7 slash 0
+29 50 3100 G
+A
+19 2
+A
+18 2
+E
+uzun kýlýç~
+Oldukça keskin ve dengeli görünüyor.
+~
+#3350
+kýlýç standart~
+Standart kýlýç~
+Standart tip bir kýlýç duruyor.~
+steel~
+weapon G AN
+sword 3 7 slash 0
+16 50 1280 P
+A
+19 1
+E
+kýlýç~
+Ýyi bir iþçiliði olan bir kýlýç görüyorsun.
+~
+#3351
+hançer standart~
+Standart hançer~
+Standart tip bir hançer duruyor.~
+steel~
+weapon G AN
+dagger 2 5 pierce 0
+8 20 590 P
+A
+19 1
+A
+18 1
+E
+hançer~
+Ýyi bir iþçiliði olan bir hançer görüyorsun.
+~
+#3352
+topuz standart~
+Standart topuz~
+Standart tip bir topuz duruyor.~
+iron~
+weapon G AN
+mace 2 4 pound 0
+7 100 620 P
+A
+19 2
+A
+18 1
+E
+topuz~
+Ýyi bir iþçiliði olan bir topuz görüyorsun.
+~
+#3353
+standart yelek~
+Standart yelek~
+Standart tip bir yelek duruyor.~
+leather~
+armor 0 AD
+4 4 3 1 1
+5 50 900 P
+E
+yelek~
+Ýyi bir iþçiliði olan bir yelek görüyorsun.
+~
+#3354
+standart kalkan~
+Standart kalkan~
+Standart tip bir kalkan duruyor.~
+steel~
+armor 0 AJ
+4 4 4 2 2
+5 30 810 P
+E
+kalkan~
+Ýyi bir iþçiliði olan bir kalkan görüyorsun.
+~
+#3355
+pelerin standart~
+Standart pelerin~
+Standart tip bir pelerin duruyor.~
+cloth~
+armor 0 AC
+3 5 4 1 1
+5 40 510 P
+E
+pelerin~
+Ýyi bir iþçiliði olan bir pelerin görüyorsun.
+~
+#3356
+standart miðfer~
+Standart miðfer~
+Standart tip bir miðfer duruyor.~
+leather~
+armor 0 AE
+4 4 3 1 1
+5 30 450 P
+E
+miðfer~
+Ýyi bir iþçiliði olan bir miðfer görüyorsun.
+~
+#3357
+standart tozluk~
+Bir çift standart tozluk~
+Bir çift standart tozluk duruyor.~
+leather~
+armor 0 AF
+4 4 3 1 1
+5 30 450 P
+E
+tozluk~
+Ýyi bir iþçiliði olan bir tozluk görüyorsun.
+~
+#3358
+standart çizme~
+Bir çift standart çizme~
+Bir çift standart çizme duruyor.~
+leather~
+armor 0 AG
+4 4 3 1 1
+5 30 450 P
+E
+çizme~
+Ýyi bir iþçiliði olan bir çift çizme görüyorsun.
+~
+#3359
+standart eldiven~
+Bir çift standart eldiven~
+Bir çift standart eldiven duruyor.~
+leather~
+armor 0 AH
+4 4 3 1 1
+5 30 450 P
+E
+eldiven~
+Ýyi bir iþçiliði olan bir çift eldiven görüyorsun.
+~
+#3360
+bileklik standart~
+Bir çift standart bileklik~
+Bir çift standart bileklik duruyor.~
+leather~
+armor 0 AI
+4 4 3 1 1
+5 20 450 P
+E
+bileklik~
+Ýyi bir iþçiliði olan bir çift bileklik görüyorsun.
+~
+#3361
+baþlýk standart~
+Standart baþlýk~
+Bir standart baþlýk duruyor.~
+cloth~
+armor 0 AK
+3 4 3 1 1
+3 20 380 P
+E
+baþlýk~
+Ýyi bir iþçiliði olan bir baþlýk görüyorsun.
+~
+#3362
+kemer standart~
+Standart kemer~
+Bir standart kemer duruyor.~
+bronze~
+armor 0 AL
+4 4 3 1 1
+5 20 450 P
+E
+kemer standart~
+Ýyi bir iþçiliði olan bir kemer görüyorsun.
+~
+#3363
+bileklik standart~
+Standart bileklik~
+Bir standart bileklik duruyor.~
+bronze~
+armor 0 AM
+2 4 4 1 0
+3 10 390 P
+E
+bileklik~
+Ýyi bir iþçiliði olan bir bileklik görüyorsun.
+~
+#3364
+yüzük mühür~
+Yasavul mühür yüzüðü~
+Üzerinde tuhaf bir sembol olan bir yüzük yerde duruyor.~
+copper~
+treasure G AB
+0 0 0 0 0
+16 10 1280 P
+A
+20 -1
+A
+17 -4
+#3365
+savaþ niþan~
+Bir savaþ niþaný~
+Yerde bir savaþ niþaný var.~
+cloth~
+light AG A
+0 0 500 0 0
+8 10 640 P
+A
+17 -2
+A
+20 -1
+E
+niþan~
+Bu en karanlýk diyarlarda bile görmeni saðlayacak bir savaþ niþaný!
+~
+#3371
+yüzük elmas nikah~
+Elmas nikah yüzüðü~
+Vanya'nýn elmas nikah yüzüðü burada býrakýlmýþ.~
+diamond~
+treasure I AB
+0 0 0 0 0
+20 10 860 P
+A
+20 -2
+E
+yüzük elmas nikah~
+Ýnce altýn bir yüzüðün üzerine 4 kýratlýk mavi-beyaz bir elmas yerleþtirilmiþ.
+Yüzüðün iç tarafýnda:"Sevgili kocan, House" yazýyor.
+~
+#3372
+yüzük altýn nikah~
+Altýn nikah yüzüðü~
+House'un altýn nikah yüzüðü burada býrakýlmýþ.~
+gold~
+treasure I AB
+0 0 0 0 0
+20 10 860 P
+A
+20 -2
+E
+yüzük altýn nikah~
+Geniþ bir altýn yüzüðün iç kýsmýna "Sevgili karýn, Vanya" yazýlmýþ.
+~
+#3373
+inci~
+Küçük bir inci~
+Küçük fakat güzel biçimli bir inci duruyor.~
+pearl~
+gem W AO
+0 0 0 0 0
+0 1 1000 P
+#3374
+lal taþ~
+Lal taþý~
+Bir lal taþý yerde duruyor.~
+gem~
+gem W AO
+0 0 0 0 0
+0 1 500 P
+#3375
+zümrüt~
+Bir zümrüt~
+Koyu yeþil bir zümrüt pýrýldamakta.~
+gem~
+gem W AO
+0 0 0 0 0
+0 1 5000 P
+#3376
+yakut~
+Bir yakut~
+Küçük, güzel bir yakut burada duruyor.~
+gem~
+gem W AO
+0 0 0 0 0
+0 1 6000 P
+#3377
+elmas~
+Bir elmas~
+Pýrýltýlý bir elmas yerde duruyor.~
+gem~
+gem W AO
+0 0 0 0 0
+0 1 10000 P
+#3378
+opal~
+Bir opal~
+Ýhtiþamlý bir opal sana uzak ülkeleri hatýrlatýyor~
+gem~
+gem W AO
+0 0 0 0 0
+0 1 2000 P
+#3379
+iksir anýmsama~
+bir anýmsama iksiri~
+Bir iksir burada býrakýlmýþ.~
+silver~
+key OY 0
+0 0 0 0 0
+1 1 10000 P
+#3380
+biftek dilimi~
+bir dilim biftek~
+Bir dilim biftek burada unutulmuþ.~
+food~
+food 0 A
+20 40 0 0 0
+0 15 100 P
+#3381
+bütün tavuk~
+bür bütün tavuk~
+Temizlenmiþ bütün bir tavuk burada býrakýlmýþ.~
+food~
+food 0 A
+18 12 0 0 0
+0 11 87 P
+#3382
+titan harita~
+Titan Vadisi'nin haritasý~
+Kývrýlmýþ bir harita görüyorsun.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 500 P
+E
+titan harita~
+.
+*****************************************************************************
+                            Valley of the Titans
+*****************************************************************************
+      N                                    Great
+      |                                    Lookup --,
+  W - + - E                                  |      '----,
+      |                                    Bridge        '-- Path ----,
+      S                                      |                    [Haon Dor]
+                                          Entrance        Fancy
+                      Bridge------------to the Valley-----House
+                        |
+          Western      City      Eastern
+          Stables----Entrance----Stables
+                        |
+                        |----Prison
+Game         Chocolate  |
+Hall--Pub     Shoppe----|----Blue Rabbit Bar
+       |               Town
+End--Western_Road----Center--------- Eastern
+       |          Red   |  Icecream  Boulevard
+the--Back Alley  Dragon-+--Shopkeeper   |
+Garbage                 |               |            Training Grounds
+Dump        Apriarist's |   Flower    Royal&    Palace  |         |
+               Shop-----+----Shop     Square----Gates---|---------|---Palace
+          Little        |               |               |         |
+     The   Shop         |               |            Warriors   Mage &
+     Baker   |   Inn    |               |           & Clerics   Thieves
+Pet    |     |    |   Market          Eastern         Guild      Guild
+Shop---Western-Road---Square---------Boulevard
+       |     |    |     |
+ The Wand    |   Inn    |
+   Shop   Library       |
+                        |                                         N
+         Weapon Shop----+----Armoury Shop                         |
+                        |                                     W - + - E
+                      Quaint     Very Large                       |
+     Apothecary-----Cul-De-Sac-----Grocer                         S
+                        |
+                      Large
+                   White House                      & - fountain    by Kajko
+*****************************************************************************
+~
+#3383
+harita uzak diyarlar batý~
+Batý Uzak Diyarlar'ýn haritasý~
+Kývrýlmýþ bir harita görüyorsun.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 150 P
+E
+harita uzak diyarlar batý~
+.
+                         * * * Western Anatolia  * * *
+                         = = ================== = =
+        Mage
+Dragon  Tower						Plains
+Tower    |   	 		Ciquala's Lair		  /|
+ |       |  Galaxy    Titans    /			/  |
+ --- Shadow-/		|___ _/                        |   |
+     Grove   Yggdrasil 	|	     	  	       | Northern   Realms
+      | 	/  	|  	Greater	      Shire    |   Midg.  - Asgard
+      \      Arachnos 	|	Gerighelm       |    Moria  |   /
+        \        \ 	|    	 / 	   	|      |    | /
+      Forest Of Haon Dor-------/----+--------------------Midgaard--------Cross
+	  	/    |		|	     Chessboard -/|\| |		 Roads
+	      /	     |		|	    Mob-Factory  -| |\|
+     	    Old    Troll Den	|    	 		 /| | | \
+	    Marsh    		|		    Sewer | | |  Goblin Str.hold
+			  Drakyri Isle		 Prison --| | \
+							    |   \	Cage & A
+				Redferne's-----Chain----Southern  \     /
+			     /  Residence		Midgaard    Midgaard
+			   /	   |			/  /|\    	 River
+		      Divided	   |	      Gang Land  /  |  Graveyard   /
+		      Souls	Clouds  	      Zoo   |	  |      /
+			       (Harpie)			Miden'nir |  Sands of
+					  		(Goblins) |   Sorrow
+					           	         /      \
+						            Church   Mega-City
+						           Catacombs    One
+
+      This map is NOT drawn to scale, some of the directions were changed
+to make everything fit.  This map shows the GENERAL location of an area with
+respect to the other areas. Type "areas" for a complete list with suggested
+levels and the authors.
+~
+#3384
+harita uzak diyarlar doðu~
+Doðu Uzak Diyarlar'ýn haritasý~
+Kývrýlmýþ bir harita görüyorsun.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 150 P
+E
+harita uzak diyarlar doðu~
+.
+                         * * * East Anatolia  * * *
+                         = = =============== = =
+
+Olympus	King's Castle	Moria
+     \ /   	 	 |  \UnderDark
+      |   DragonSpyre    |
+Elven |	   /	   New   |    Dwarven--Mines    Firetop Mountain
+Val.  |  /  Ofcol-Ofcol  +----Kingdom		 |		Solace
+  \   |/      |          |     |   \Catacombs   Nirvana	         City  Newbie Z.
+    Plains----+-Camelot	 |  Day-Care             |	  	  |    /
+      |       |          |                       `/-----Void--- Old Midgaard
+   Northern  Isles of    +- Mirror of Realm	Holy             |
+   Midgaard  P. Lords    |                      Grove     Old ---+\
+      |    		 |          Smurf        |        Thalos   Antharia
+      | In the Air       |         Village       |
+    \ | /                |            |          |        Check    NEW
+--Midgaard--------------Cross------------Eastern Road-----Point---Thalos
+  		        Roads         |
+                          |        Gnome Village
+ 		          |
+  City of----Ruins of---Dwarf-----Frigid Waste
+   Anon	      Thalos    Forest          |
+	                   |  \        Keep of
+	           Wyvern--+   Drow    Mahn-tor
+	           Tower   |   City
+	                   |
+	                   |       Aarakocran
+	               Elemental /   City
+	                Canyon
+
+     This map is NOT drawn to scale, some of the directions were changed
+to make everything fit.  This map shows the GENERAL location of an area
+with respect to the other areas.Type "areas" for a complete list with
+suggested levels and the authors.
+~
+#3385
+acemi harita~
+Acemiler için Doðu Uzak Diyarlar haritasý~
+Kývrýlmýþ bir harita görüyorsun.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 150 P
+E
+acemi harita~
+.
+        --->Zoo of midgaard 		 { 1 - 15}
+		from MSM   :>>>> 8s e s u................................
+        --->Plains of The North 	 { 1 - 20}
+		from MSM   :>>>> 4e 3n 2w n..............................
+	--->Dwarven Day Care :>>>> 	 { 1 - 5 }
+		from MSM   :>>>> 6e 3n 2e s..............................
+	--->Gnome Village		 { 1 - 15}
+		from MSM  :>>>> 6e s......................................
+	--->Graveyard 			 { 5 - 10}
+		from MSM  :>>>> 3e 7s w s.................................
+	--->Holy Grove 			 { 5 - 20}
+		from MSM  :>>>> 8e n......................................
+	--->Dangerous Neighborhood 	 { 5 - 15}
+		from MSM  :>>>> 6s e 3s e.................................
+	--->Valley of Elves 		 { 5 - 20}
+		from MSM  :>>>> 4e 3n 2w 5n w n...........................
+	--->Smurf Village
+		from MSM  :>>>> 7e n......................................
+	--->Sands of Sorrow   		 {10 - 20}
+		from MSM  :>>>> 3s 2e 2s 3e
+	--->Wyvern's Tower		 { 5 - 30}
+		from MSM :>>>> 6e 4s 2e s 2e d 2e...
+	MSM : Market Square in Midgaard.
+	CSM : The Center of Market Square in New Thalos
+~
+#3386
+acemi harita~
+Acemiler için Batý Uzak Diyarlar haritasý~
+Kývrýlmýþ bir harita görüyorsun.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 150 P
+E
+acemi harita~
+.
+	--->Haon Dor			 { 1 - 20}
+		from MSM   :>>>> 5w......................................
+	--->In The Air 			 { 1 - 20}
+		from MSM   :>>>> n 2u....................................
+	--->Arachnos 			 { 5 - 20}
+		from MSM   :>>>> 13w s 2w n u w n........................
+	--->Firetop Mountain  	 	 {10 - 20}
+		from MSM   :>>>> 4e 3n 2w 5n w n w 2u e 4n en en es es w3n...
+	--->The Shire			 { 5 - 35}
+		from MSM   :>>>> 5w n...
+	--->Greater Gerighelm		 { 1 - 30}
+		from MSM   :>>>> 7w u...
+        --->Goblin Nation  		 {10 - 20}
+                from MSM   :>>>> 35e s e
+
+	MSM : Market Square of Midgaard.
+~
+#3387
+yeþil harita~
+bir yeþil harita~
+Kývrýlmýþ bir harita görüyorsun.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 65000 P
+E
+yeþil harita~
+.
+Old Troy - Ilium		{30 - 45}
+from MSM :>>>> 4e 3n 2w 6n 2u 8n d...
+
+Ghost Town			{45 - 65}
+from MSM :>>>> 21e 5s d e n...
+
+Ilium				{30 - 45}
+from MSM :>>>> 4e 3n 2w 6n 2u 8n d...
+
+The City of Anon		{1 - 65}
+from MSM :>>>> 6e 4s 4w 3s 4w n w.
+
+The Abbys			{30 - 50}
+from MSM :>>>> 6e 4s 2e s 2e d s u n...
+
+The Camelot			{20 - 52}
+from MSM :>>>> 4e 3n 2w 3n e 2n 5e...
+
+Descent to Hell			{32 - 56}
+from  MSM :>>>> 6e 4s 2e s 2e d 3n e 4s 4w s w 2s d 2s d e 2s d e 2s w s w
+                s w d 2e d s e 3s..........
+
+The Village of Anon		{ 1 - 65}
+from MSM :>>>> 6e 4s 4w 3s 4w n w s 8w......
+
+Cannabis			{40 - 60}
+from MSM:>>>> 13w 2n e 2n 4w n 2w 2n 2w 5s 2w n.......
+
+The Unholy Abbey		{60 - 65}
+from MSM :>>>> 6e 10n 2e 8n................
+
+Arcadia				{30 - 90}
+from MSM :>>>> 4e 3n 2w 5n w 3n d 7n.......
+
+MSM : Market Square of the Midgaard.
+~
+#3388
+sarý harita~
+bir sarý harita~
+Kývrýlmýþ bir harita görüyorsun.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 55000 P
+E
+sarý harita~
+.
+Isles of the Pirate Lords	{40 - 90}
+from MSM :>>>> 4e 3n 2w 3n e 2n 4e 4s w...
+
+Prison of Midgaard		{5 - 90}
+from MSM :>>>> 6s 3w...
+
+Olympus				{5 - 60}
+from MSM :>>>>  4e 3n 2w 6n u...
+
+Dragon Spyre			{30 - 65}
+from MSM :>>>> 4e 3n 2w 3n e 2n 4e s u...
+
+Yggdrasil			{15 - 50}
+from MSM :>>>> 13w s 2w n w u w 4n e u s 2e s w s d n e u n d s 5w n...
+
+Ciquala's Lair			{40 - 62}
+from MSM :>>>> 13w 2n 2e n...
+
+King's Castle			{30 - 50}
+from MSM :>>>> 4e 3n 2w 5n e n...
+
+Mirror Realm			{20 - 50}
+from MSM :>>>> 6e 2n e...
+
+Lair of Jher			{35 - 55}
+from MSM :>>>> 13w 2n 2e d 5n u 2w n 2w d 2s d...
+
+MSM : Market Square of the Midgaard.
+~
+#3389
+kýrmýzý harita~
+bir kýrmýzý harita~
+Kývrýlmýþ bir harita görüyorsun.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 45000 P
+E
+kýrmýzý harita~
+.
+Mount Doom			{45 - 65}
+from MSM :>>>> 13w 2n 2e d n
+
+Valley of The Titans		{25 - 50}
+from MSM :>>>> 13w 2n e n...
+
+Underdark			{13 - 50}
+from MSM :>>>> 6e 10n d...
+
+The Great Pyramid		{5 - 50}
+from MSM :>>>>  3s 2e 2s 20e n e n 2e...
+
+Redferne's Residence		{20 - 30}
+from MSM :>>>>  6s e 3s w s u...
+
+Blight				{35 - 50}
+from MSM :>>>> 6e 10n 2e 8n..............
+
+Westland			{40 - 90}
+from MSM :>>>> 13w 2n e 3n................
+
+Lich Tower			{45 - 75}
+from MSM :>>>> 6e 4s 2e s 2e d 3n e 4s 2w
+
+Caverns				{25 - 45}
+from MSM :>>>> 6e 4s 2e s 2e d 3n e 4s 4w s w 2s d 2s d
+
+Armageddon			{70 - 95}
+from MSM :>>>> 34e n 4e 2s 3e n e n 5e s 2e....
+
+MSM : Market Square of the Midgaard.
+~
+#3390
+mavi harita~
+bir mavi harita~
+Kývrýlmýþ bir harita görüyorsun.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 25000 P
+E
+mavi harita~
+.
+Sewer				{5 - 30}
+from MSM :>>>> 4s d...
+
+The Shire			{5 - 35}
+from MSM :>>>>  5w n...
+
+Dragon Tower			{15 - 25}
+from MSM :>>>> 3s 2e 2s 6w n w n 3w n w 5n...
+
+Mega-City One			{5 - 35}
+from MSM :>>>>  3s 2e 2s 13e s...
+
+Old Thalos			{1 - 30}
+from MSM :>>>>  8e 2n e n 2e 3n s 3w 4s...
+
+Wyvern's Tower			{5 - 30}
+from MSM :>>>> 6e 4s 2e s 2e d 2e...
+
+The Keep of the Warlock		{20 - 30}
+from MSM of the Old Thalos :>>>> 6e 2n w....
+
+Nirvana				{30 - 35}
+from MSM :>>>>  8e 2n 2e u...
+
+MSM : Market Square of the Midgaard.
+~
+#3391
+beyaz harita~
+bir beyaz harita~
+Kývrýlmýþ bir harita görüyorsun.~
+paper~
+map 0 A
+1 0 0 0 0
+0 2 25000 P
+E
+beyaz harita~
+.
+Town of Solace			{ 5 - 35}
+from MSM :>>>> 8e 2n e n 2e 3n s 3w 3n...
+
+Dark Continent			{ 5 - 35}
+from MSM :>>>> 34e n 2e.....
+
+Aarakocran City			{15 - 30}
+from MSM :>>>> 6e 4s 2e s 2e d s 4u n d 4n e 3n e u...
+
+Antharia			{ 9 - 42}
+from MSM :>>>> 8e 2n e n 2e 3n s 3w 4s d...
+
+Astral/Githyanki		{10 - 35}
+from MSM :>>>> n 2u n 2u...
+
+Chessboard of Midgaard		{10 - 35}
+from MSM :>>>> 3w 2s w...
+
+Cage and Aquarium		{15 - 25}
+from MSM :>>>> 3s 2e 2s 5w d...
+
+Elemental Canyon		{ 5 - 30}
+from MSM :>>>> 6e 4s 2e s 2e d s...
+
+Chapel Catacombs		{15 - 25}
+from MSM :>>>> 3e 7s w 6s...
+
+Freeport			{ 8 - 53}
+from MSM :>>>> 34e n 3e.....
+
+MSM : Market Square of the Midgaard.
+~
+#3392
+turkuaz harita~
+bir turkuaz harita~
+Kývrýlmýþ bir harita görüyorsun.~
+paper~
+map 0 A
+1 0 0 0 0
+0 2 25000 P
+E
+turkuaz harita~
+.
+Dwarven Kingdom			{10 - 25}
+from MSM :>>>> 6e 3n 2e...
+
+Dylan's Area			{15 - 25}
+from MSM :>>>> 6s e 3s w s 4u s...
+
+Galaxy				{20 - 30}
+from MSM :>>>> 3s 2e 2s 6w n w n 3w n w 3n w e...
+
+Greater Gerighelm		{1 - 30}
+from MSM :>>>> 7w u...
+
+Drow City			{15 - 25}
+from MSM :>>>> 6e 4s 2e s 2e d w s 2d...
+
+Goblin Stronghold		{10 - 20}
+from MSM :>>>> 3s 2w u...
+
+High Tower of Sorcery		{10 - 30}
+from MSM :>>>>  3s 2e 2s 6w n w n 3w n w n...
+
+Coven				{25 - 35}
+from MSM :>>>> 6e 4s 2e n...
+
+MSM : Market Square of the Midgaard.
+~
+#3393
+siyah harita~
+bir siyah harita~
+Kývrýlmýþ bir harita görüyorsun.~
+paper~
+map 0 A
+1 0 0 0 0
+0 2 5000 P
+E
+siyah harita~
+.
+Troll Den			{10 - 15}
+from MSM :>>>> 3s 2e 2s 6w n e s...
+
+Valley of The Elves		{5 - 20}
+from MSM :>>>> 4e 3n 2w 5n w n...
+
+Zoo of Midgaard			{1 - 15}
+from MSM :>>>> 8s e s u...
+
+Zoology				{1 - 10}
+from MSM :>>>> 2n u e...
+
+Moria				{5 - 15}
+from MSM :>>>>  4w n...
+
+Miden'nir			{1 - 15}
+from MSM :>>>>  6e 2n...
+
+Mirkwood			{5 - 15}
+from MSM :>>>> 4e 3n 2w 2n 3e d n...
+
+Faerie Ring			{10 -15}
+from MSM :>>>> 3e 8s 2w 2s 2e 2s e...
+
+MSM : Market Square of the Midgaard.
+~
+#3394
+eski kitap~
+kýsýtlý eþyalar hakkýnda bir kitap, fasikül-I~
+Ýsmi "Kýsýtlý Eþyalar hHakkýnda, fasikül-I" olan bir kitap burada býrakýlmýþ.~
+leather~
+trash 0 AO
+0 0 0 0 0
+0 10 200000 P
+E
+eski kitap~
+In this book you would find some short informations about the limited
+items of the Anatolian Mud. For further information, try read page1, read
+page2, read page3, etc.
+Note that: Most of the informations are based on legends and tales,
+therefore there can be some mistaken points and ofcourse there can be many
+limited items which we don't know yet....................................
+~
+E
+sayfa1~
+-----------------> Tales show the Olympus
+Object  ' sun sword', extra flags invis magic anti-evil.
+Weight is 20, value is 6800, level is 50.
+LIMITED by number 1
+Weapon type is sword.
+Damage is depends on your character level.
+Affects hit roll by ???
+Affects damage roll by ???
+->While fighting,  raw kills evil victims.
+
+------------------> General area : Catacombs
+Object 'sword excalibur', extra flags glow magic anti-evil anti-neutral.
+Weight is 15, value is 3400, level is from 24 to your level.
+LIMITED by number 1
+Weapon type is sword.
+Damage is depends on your character level.
+  From 10d4   (average 25).
+  To   10d12  (average 65).
+Affects hit roll by 3.
+Affects strength by 1.
+->Adds immortality.
+->Speech casts 'acid blast'
+~
+E
+sayfa2~
+----------------->General area : Armageddon
+Object 'sword war', extra flags evil anti-good noremove.
+Weight is 2, value is 14000, level is 85.
+LIMITED by number ?
+Weapon type is sword.
+Damage is 11d12 (average 71).
+Affects hit roll by 10.
+Affects damage roll by 10.
+Weapons flags : sharp, vorpal, poison, two-handed
+
+----------------->General area : Mirror Realm
+Object 'sword obsidian eclipse',extra flags invis anti-good nodrop noremove magic.
+Weight is 2, value is 20000, level is 35.
+LIMITED by number 1
+Weapon type is sword.
+Damage is 5d10 (average 27).
+Affects damage roll by 10.
+Affects mana by ???
+Affects hp   by ???
+Weapons flags : sharp, shocking
+
+------------------>General area : either Armageddon or Blight (undetermined)
+Object 'sword heron market blade ',extra flags bless noremove magic.
+Weight is 1, value is 600, level is 60.
+LIMITED by number ?
+Weapon type is sword.
+Damage is 10d11 (average 60).
+Affects hit roll by 10.
+Affects hp       by 50.
+Weapons flags     : sharp, vorpal
+~
+E
+sayfa3~
+----------------->General area : unknown
+Object 'crimson hilted stiletto', extra flags glow dark.
+Weight is 18, value is 12500, level is 90.
+LIMITED by number ???
+Weapon type is dagger.
+Damage is 12d11 (average 72).
+Weapons flags        : vampiric sharp
+Affects damage roll by 25.
+Affects hit roll    by 25.
+
+------------------>General area : Blight
+Object 'cuendillar heartstone dagger', extra flags magic noremove.
+Weight is 0, value is 600, level is 60.
+LIMITED by number ????
+Weapon type is dagger.
+Damage is 10d11 (average 60).
+Weapons flags        : sharp
+Affects damage roll by 10.
+Affects hit roll    by 10.
+Affects wisdom      by 3
+
+-------------------->General area : Mirror Realm
+Object 'blood red dagger', extra flags magic evil anti-good.
+Weight is 1, value is 10000, level is 45.
+LIMITED by number 1
+Weapon type is dagger.
+Damage is 6d10 (average 33).
+Weapons flags        : sharp, flaming
+Affects damage roll by 15.
+~
+E
+sayfa4~
+------------------->General area : Olympus
+Object 'hammer thunder bolt thunderbolt', extra flags invis magic anti-evil.
+Weight is 14, value is 5400, level is 50.
+LIMITED by number 1
+Weapon type is mace/club.
+Damage is 8d7 (average 32).
+Weapons flags        : shocking
+Affects wisdom      by -1.
+Affects damage roll by 5.
+Affects hit    roll by 5.
+->While fighting casts 'lightning bolt'.
+
+-------------------->General area : Drow City
+Object 'whip snake skin', extra flags dark magic anti-good no_locate.
+Weight is 14, value is 1530, level is 24.
+LIMITED by number 1
+Weapon type is whip.
+Damage is depend on your level.
+Affects hit    roll by 5.
+Affects damage roll by 5.
+->While fighting casts 'poison' and 'weaken' to wictim.
+~
+E
+sayfa5~
+-------------------->General area : Greater Gerighelm
+Object 'scythe', extra flags magic.
+Weight is 20, value is 50000, level is 60.
+LIMITED by number 2
+Weapon type is exotic.
+Damage is 10d8 (average 45).
+Weapons flags: sharp vorpal ????
+
+-------------------->General area : The Great Pyramid
+Object 'lion paw', extra flags magic.
+Weight is 20, value is 4400, level is 26.
+LIMITED by number 1
+Weapon type is exotic.
+Damage is 4d15 (average 32).
+Affects constitution by 1.
+Affects hit     roll by 8.
+Affects damage  roll by 6.
+->While fighting claws also attacks to victim.
+
+-------------------->General area : Armageddon
+Object 'scythe reaper grim', dark evil invis anti-good noremove vis_death.
+Weight is 2, value is 14000, level is 85.
+LIMITED by number 1
+Weapon type is polearm.
+Damage is 11d10 (average 60).
+Affects hit     roll by 10.
+Affects damage  roll by 10.
+Weapons         flags : vampiric, sharp, poison, two-handed.
+~
+E
+sayfa6~
+-------------------->General area : Armageddon
+Object 'lance holy archangel michael', glow hum magic bless anti-evil noremove
+Weight is 1, value is 20000, level is 91.
+LIMITED by number 1
+Weapon type is exotic.
+Damage is 12d10 (average 66).
+Affects hit     roll by 10.
+Affects damage  roll by 10.
+Weapons         flags : flaming.
+
+-------------------->General area : Mirror Realm
+Object 'horn golden', glow magic anti-evil
+Weight is 3, value is 30000, level is 39.
+LIMITED by number 1
+Weapon type is exotic.
+Damage is 5d12 (average 32).
+Affects hit     roll by 8.
+Affects damage  roll by 8.
+
+-------------------->General area : The Prison of Midgaard
+Object 'axe destruction', magic hum invis
+Weight is 3, value is 0, level is 90.
+LIMITED by number 1
+Weapon type is axe.
+Damage is 11d11 (average 66).
+Affects damage  roll by 10.
+Affects armor class  by 120
+Weapons flags         : sharp vorpal
+~
+E
+sayfa7~
+-------------------->General area : The Prison of Midgaard
+Object 'titanium shield', extra flags none.
+Weight is 0, value is 99000, level is 100.
+LIMITED by number 2
+Armor class is 23 pierce, 23 bash, 22 slash, and 11 vs. magic.
+Affects damage roll by 10.
+
+-------------------->General area : Unknown
+Object 'rose shield', extra flags magic bless anti-evil anti-neutral.
+Weight is 30, value is 5800, level is 30.
+LIMITED by number 1
+Armor class is 8 pierce, 8 bash, 8 slash, and 3 vs. magic.
+Affects armor class by -7.
+->While fighting at forest surrounds victim by leaves.
+~
+E
+sayfa8~
+.	Unreadable..............
+~
+#3395
+eski kitap~
+kýsýtlý eþyalar hakkýnda bir kitap, fasikül-II~
+Ýsmi "Kýsýtlý Eþyalar hHakkýnda, fasikül-II" olan bir kitap burada býrakýlmýþ.~
+leather~
+trash 0 AO
+0 0 0 0 0
+0 10 200000 P
+E
+eski kitap~
+In this book you would find some short informations about the limited
+armor items of the Anatolian Mud (based on affections). For further
+information, try read page1, read page2, read page3, read page4, etc.
+~
+E
+sayfa1~
+-------------------->General area : Divided Souls
+Object 'bracers energy', extra flags glow hum.
+Weight is 4, value is 4300, level is 76.
+LIMITED by number ???
+Armor class is 20 pierce, 20 bash, 20 slash, and 20 vs. magic.
+Affects damage roll by 5.
+Affects mana by 90.
+Affects dexterity by 3.
+->Affects 'haste' spell.
+
+-------------------->General area : Hitower of magic
+Object 'bracelet silver', extra flags magic.
+Weight is 5, value is 1440, level is 20.
+LIMITED by number ???
+Affects armor class by -5.
+->Affects haste spell
+
+-------------------->General area : Divided Souls
+Object 'musical bracers black feather', extra flags glow hum.
+Weight is 2, value is 2200, level is 43.
+LIMITED by number ???
+Armor class is 13 pierce, 13 bash, 13 slash, and 13 vs. magic.
+Affects damage roll by 3.
+Affects mana by 45.
+Affects dexterity by 3.
+->Affects 'haste' spell.
+~
+E
+sayfa2~
+-------------------->General area : Galaxy
+Object 'arm hercules' is type armor, extra flags glow magic anti-evil.
+Weight is 10, value is 3100, level is 22.
+LIMITED by number ???
+Armor class is 6 pierce, 6 bash, 6 slash, and 0 vs. magic.
+Affects damage roll by 2.
+->Affects 'giant strength' spell.
+
+-------------------->General area : Underdark
+Breast plate of strength
+Object 'breast plate' is type armor, extra flags glow magic.
+Weight is 0, value is 100, level is 43.
+Armor class is 25 pierce, 25 bash, 25 slash, and 20 vs. magic.
+  Affects damage roll by 7.
+  Affects hit roll by 5.
+  Affects hp by 50.
+  Affects strength by 5.
+->Affects 'giant strength' spell.
+
+-------------------->General area : Caverns
+girdle of giant strength
+Object 'girdle giant strength' is type armor, extra flags hum magic.
+Weight is 0, value is 2000, level is 42.
+Armor class is 20 pierce, 20 bash, 20 slash, and 10 vs. magic.
+  Affects strength by 5.
+  Affects damage roll by 5.
+->Affects 'giant strength' spell.
+~
+E
+sayfa3~
+-------------------->General area : Unknown
+Object 'lost ring ra' is type jewelry, extra flags hum magic.
+Weight is 5, value is 44300, level is 40.
+LIMITED by number 1
+Affects armor class by 20.
+Affects damage roll by 5.
+->Speech casts 'lightning breath' to victim.
+
+-------------------->General area : Olympus
+Object 'gauntlets flaming' is type armor, extra flags magic.
+Weight is 6, value is 2900, level is 27.
+LIMITED by number 3
+Armor class is 7 pierce, 7 bash, 7 slash, and 4 vs. magic.
+Affects hp by 25.
+->While fighting your gauntlets cast 'burning hands'.
+~
+E
+sayfa4~
+-------------------->General area : Underdark or Caverns
+Demon fire
+Object 'demon fire' is type armor, extra flags hum evil magic.
+Weight is 0, value is 1000, level is 37.
+Armor class is 22 pierce, 20 bash, 20 slash, and 12 vs. magic.
+  Affects damage roll by 6.
+  Affects armor class by -15.
+->While fighting your shield ?????
+
+-------------------->General area : Isles of the Pirate Lords
+armbands of the Volcanoes
+Object 'armbands volcanoes' is type armor, extra flags glow magic vis_death.
+Weight is 0, value is 1000, level is 64.
+Armor class is 25 pierce, 25 bash, 25 slash, and 25 vs. magic.
+  Affects hp by 100.
+->While fighting your armbands cast ?????
+~
+E
+sayfa5~
+-------------------->General area : Elemental Canyon
+Object 'boots wind' is type armor, extra flags magic.
+Weight is 1, value is 5200, level is 26.
+LIMITED by number 3
+Armor class is 8 pierce, 8 bash, 8 slash, and 2 vs. magic.
+Affects dexterity by 2.
+->Affects 'fly' spell.
+
+-------------------->General area : Underdark
+Boots of flying
+Object 'boots of flying' is type armor, extra flags invis magic noremove.
+Weight is 0, value is 1000, level is 31.
+Armor class is 18 pierce, 18 bash, 18 slash, and 9 vs. magic.
+  Affects dexterity by 4.
+  Affects moves by 200.
+
+-------------------->General area : Unknown
+Object 'shield ????', extra flags magic anti-good.
+Weight is 10, value is 4400, level is 24.
+LIMITED by number 1
+Armor class is 7 pierce, 7 bash, 7 slash, and 3 vs. magic.
+Affects saves by -2.
+Affects saves by -2.
+->Affects immune to CHARM.
+~
+E
+sayfa6~
+	Unreadable....................................................
+~
+#3396
+eski kitap~
+bir eski kitap~
+Adý olmayan eski bir kitap burada býrakýlmýþ.~
+leather~
+trash 0 AO
+0 0 0 0 0
+0 10 20000 P
+E
+eski kitap~
+I am not sure about all information in this book, because the adventurer
+who told me the story was not...........................................
+Firstly you will need a dress for the keeper. You may find a suitable
+dress in the general store in New Thalos area. Say to shopkeeper keeper
+( say keeper) and he will help you. Now you need a beautiful rug for the
+Fireflash who has the key of kassandra. Fireflash interests only with special
+rug which has been sold by grocer in Valley of Titans area. Now, you
+should find the keeper who will unlocks the gate to you against the
+dress. I don't know the exact place of the keeper and Fireflash,
+but I heard that they are in an area which includes many pixies and
+dragons. As you give the dress to keeper he will helps you. And now you
+should give rug to Fireflash. Now you have a key find the Paladin who is
+responsible for the stone kassandra. Adventured said me that you may find
+that paladin in the south and up of the Midgaard.
+	Usage of the kassandra is very easy, as you are holding it say :
+"  kassandra, matandra, or sebat."
+eg, say kassandra
+    say sebat
+~
+#3397
+sadak~
+bir sadak~
+Bir sadak burada býrakýlmýþ.~
+leather~
+container 0 A
+50 32 0 5 75
+1 10 9 G
+
+#0
+
+#ROOMS
+#3001
+Selenge Tapýnaðý~
+Selenge tapýnaðý'nýn güney ucundasýn. Tapýnak dev mermer bloklarla
+inþa edilmiþ. Duvarlarýn çoðunda kadim zamanlardan kalma, savaþlarý
+ve tanrýlarý anlatan tablolar var.
+Tapýnaðýn kuzey ucundaki merdivenler doðruca Mud Okulu'na çýkýyor.
+Güneyde Tapýnak Meydaný ve kuzeyde ise Þamanýn Odasý var. Duvarda
+bir plaket görüyorsun.
+~
+0 CD 0
+D0
+Tapýnak Meydaný'nýn kuzey ucunda bir heykel ve büyük bir mimber var.
+~
+~
+0 -1 3054
+D2
+Tapýnak Meydaný.
+~
+~
+0 -1 3005
+D4
+Selenge Mahzenleri.
+~
+~
+0 0 3700
+E
+plaket~
+*************************************************************
+* *********  Hatchet, Kahn, ve Furey'in anýsýna.  ********* *
+* *********                                       ********* *
+* *********         "GERÇEK KAHRAMANLAR"          ********* *
+*************************************************************
+~
+S
+#3002
+Ermiþ Mabedi~
+Burasý iç mabet.  Kudretli tanrýlarýn tasvirleri batý duvarýnýn karþýsýnda
+duran mimberin üstüne asýlmýþ. Odanýn ortasýndaki kuyu aþaðýya, karanlýðýn
+içine doðru uzanýyor. Derinlerden berbat kokular yükseliyor.
+~
+0 CDSX 0
+D1
+Kutsal meyhanenin giriþini görüyorsun.
+~
+~
+0 -1 3003
+D5
+Aþaðýda tam olarak ne olduðu görülmüyor. Ýnsen tekrar çýkamayabilirsin.
+~
+~
+0 -1 7026
+S
+#3003
+Kutsal Meyhane~
+Burasý yeryüzü üzerindeki en kaliteli yerlerden biri ve iyiki sadece
+üyeler girebiliyor. Bütün oda kaliteli mobilya ile döþenmiþ. Duvarda bir
+tabela asýlý.
+~
+0 CDSX 0
+D2
+Giriþi görüyorsun.
+~
+~
+0 -1 3004
+D3
+Ýç mabedi görüyorsun.
+~
+~
+0 -1 3002
+E
+tabela~
+Tabelada þöyle yazýyor:
+Garson taradýndan ücretsiz olarak saðlanan talimatlar:
+
+   Alýþ  - Garsondan (içecek) birþey alýr.
+   Liste - Garson size tüm içecekleri ve spesyaliteleri gösterir
+	   ve her birinin ücretini belrtir.
+~
+S
+#3004
+Ermiþ Mabedi Giriþi~
+Giriþ hölü ermiþlerin gerçek doðasýný yansýtan, küçük gösteriþsiz bir oda.
+Doðu çýkýþý tapýnak meydanýna uzanýyor. Kuzey duvarýndan meyhaneye küçük
+bir giriþ var.
+~
+0 D 0
+D0
+Meyhaneyi görüyorsun, gerçekten modern ve zengin bir dekorasyonu var.
+~
+~
+0 -1 3003
+D1
+Tapýnak Meydaný.
+~
+~
+0 -1 3005
+S
+#3005
+Tapýnak Meydaný~
+Tapýnak Meydanýnda duruyorsun. Büyük mermer merdivenler tapýnak
+kapýlarýna doðru ilerliyor. Rahipler derneðinin giriþi batýnda, ve eski
+Hýrýldayan Ayý Haný ise doðunda kalýyor. Buranýn hemen güneyinde þehrin
+merkezi olan pazar yerini görüyorsun.
+~
+0 0 1
+D0
+Tapýnak.
+~
+~
+0 -1 3001
+D1
+Eski, Hýrýldayan Ayý hanýný görüyorsun.
+~
+~
+0 -1 3006
+D2
+Pazar Yeri.
+~
+~
+0 -1 3014
+D3
+Ermiþ Mabedinin giriþi.
+~
+~
+0 -1 3004
+D4
+Gökyüzünü görüyorsun.
+~
+~
+0 -1 3057
+S
+#3006
+Hýrýldayan Ayý Haný Giriþi~
+Hýrýldayan Ayý Haný'nýn giriþ hölündesin. Hol bilinçli bir þekilde
+basit ama kullanýþlý eþyalarla döþenmiþ. Meyhane doðu yönünde.
+~
+0 D 0
+D1
+Sürpriz! Meyhaneyi görüyorsun.
+~
+~
+0 -1 3007
+D3
+Tapýnak Meydaný.
+~
+~
+0 -1 3005
+D4
+Para deðiþtirici yukarýda.
+~
+~
+0 -1 3008
+S
+#3007
+Hýrýldayan Ayý Haný~
+Hanýn içinde duruyorsun. Meyhane kuzey duvarýna kurulmuþ, meþeden ve üstünde
+kadim zamanlardan kalma rünler, sembol ve kabartmalar var. Batý duvarýnda
+bir þömine odaya ýsý verirken güneydoðu pencerelerinden tapýnak meydanýný
+görebiliyorsun. Bu yer seni evindeymiþ gibi hissettiriyor. Duvada bir tabela
+asýlý.
+~
+0 D 0
+D2
+Samuraylarýn barýný görüyorsun.
+~
+~
+0 -1 3075
+D3
+Han giriþini görüyorsun.
+~
+~
+0 -1 3006
+E
+rünler yazma kabartma sembol oyma~
+Anlaþýlmasý zor olmasýna raðmen, daha çok biraya,
+bira hakkýnda þiirlere, ve küçük bira kupalarýna benzediðini düþünüyorsun.
+~
+E
+tabela~
+Tabelada þöyle yazýyor:
+Hýrýldayan Ayý Haný taradýndan ücretsiz olarak saðlanan talimatlar:
+
+   Alýþ  - Garsondan (içecek) birþey alýr.
+   Liste - Garson size tüm içecekleri ve spesyaliteleri gösterir
+	   ve her birinin ücretini belrtir.
+~
+S
+#3008
+Eski Resepsiyon~
+Artýk iþletilmeyen bir resepsiyondasýn. Etraf çok tozlu ve aþaðý
+giriþ hölüne doðru inen merdivenler var.
+~
+0 D 0
+D5
+Giriþ hölünü görüyorsun.
+~
+~
+0 -1 3006
+S
+#3009
+Fýrýn~
+Küçük bir fýrýncý dükkanýndasýn. Odayý mis gibi yeni piþmiþ ekmek kokusu
+kaplamýþ. Pasta ve ekmekler raflara dikkatlice yerleþtirilmiþ ve çok güzel
+görünüyorlar Duvarda bir tabela asýlý.
+~
+0 S 0
+D2
+Ana cadde.
+~
+~
+0 -1 3013
+E
+tabela~
+Dükkan tarafýndan ücretsiz olarak verilen liste:
+
+   Alýþ  - Ekmek ya da unlu mamuller alýr.
+   Liste - Fýrýncý size nazikçe tüm mamülleri ve ücretlerini sýralar.
+~
+E
+pasta~
+Çok lezzetli bir pasta görüyorsun.
+
+~
+S
+#3010
+Bakkal~
+Bakkaldasýn. Tezgahýn gerisindeki raflarda her türlü eþyayý
+görebiliyorsun. Sahibi duvara bir not asmýþ
+~
+0 D 0
+D1
+Ana cadde.
+~
+~
+0 -1 3067
+E
+not~
+Notta þunlar yazýyor:
+
+  Liste - Dükkanda ne çeþit çesit þeylerin satýldýðýný gösterir.
+  Alýþ  - Bir eþya satýn alýr.
+  Deðer - Dükkan sahibi sizin satmak istediðiniz þeylere ne kadar ödeyeceðini
+          söyler (ücretsiz hizmetimizdir).
+  Satýþ - Bir eþyayý satar.
+~
+S
+#3011
+Rugal'ýn Yeri~
+Demirci Rugal'ýn dükkanýndasýn. Raflarda henüz tamamlanmamýþ silah
+ve zýrhlar görüyorsun.
+Duvarda bir not asýlý.
+~
+0 D 0
+D2
+Ana Cadde.
+~
+~
+0 -1 3016
+E
+not~
+Notta þunlar yazýyor:
+
+  Liste - Dükkanda ne çeþit çesit þeylerin satýldýðýný gösterir.
+  Alýþ  - Bir eþya satýn alýr.
+  Deðer - Dükkan sahibi size satmak istediðiniz þeylere ne kadar ödeyeceðini
+          söyler (ücretsiz hizmetimizdir).
+  Satýþ - Bir eþyayý satar.
+~
+S
+#3012
+Ana Cadde~
+Selenge ana caddesinin sonundasýn. Buranýn güneyinde Büyücülüðün
+Yüksek Kulesi duruyor. Cadde doðu yönünde pazar yerine doðru ilerliyor.
+Büyülü eþya dükkaný kuzeyde ve þehrin kapýlarý batý yönünde.
+~
+0 0 1
+D0
+Büyü Dükkaný.
+~
+~
+0 -1 3033
+D1
+Ana caddeyi görüyorsun.
+~
+~
+0 -1 3013
+D2
+Büyü Loncasý'nýn giriþini görüyorsun.
+~
+~
+0 -1 3017
+D3
+Þehir kapýsýný görüyorsun.
+~
+~
+0 -1 3040
+S
+#3013
+Ana Cadde~
+Selenge'un içinden geçen ana caddedesin. Hemen güneyinde zýrhçý, ve
+kuzeyde fýrýn var. Doðuda pazar yeri bulunuyor.
+~
+0 0 1
+D0
+Fýrýn.
+~
+~
+0 -1 3009
+D1
+Pazar Yeri.
+~
+~
+0 -1 3014
+D2
+Yegin'in Yeri.
+~
+~
+0 -1 3020
+D3
+Ana caddeyi görüyorsun.
+~
+~
+0 -1 3012
+S
+#3014
+Pazar Yeri~
+Selenge'un en ünlü meydaný olan pazar yerinde duruyorsun. Her yöne doðru yol
+var. Kuzeyde tapýnak meydaný, güneyde halk meydaný bulunuyor. Doðu ve batý
+yönlerinde ise ana cadde ilerliyor.
+~
+0 0 1
+D0
+Tapýnak Meydaný.
+~
+~
+0 -1 3005
+D1
+Ana caddeyi görüyorsun.
+~
+~
+0 -1 3015
+D2
+Halk Meydaný.
+~
+~
+0 -1 3065
+D3
+Ana caddeyi görüyorsun.
+~
+~
+0 -1 3013
+S
+#3015
+Ana Cadde~
+Þehrin ortasýndan geçen Ana Caddedesin. Kuzeyde bakkalý, güneyde mücevher
+dükkaný bulunuyor. Batýda pazar yerini görebiliyorsun, cadde doðu ve batý
+yönlerinde uzanýyor.
+~
+0 0 1
+D0
+Kutsal tapýnaðýn giriþini görüyorsun.
+~
+~
+0 -1 3063
+D1
+Ana caddeyi görüyorsun.
+~
+~
+0 -1 3016
+D2
+Mücevherci.
+~
+~
+0 -1 3034
+D3
+Pazar Yeri.
+~
+~
+0 -1 3014
+S
+#3016
+Ana Cadde~
+Kuzeyde silah dükkaný ve güneyde Dövüþ Kulübü bulunmakta. Doðuya doðru
+þehir kapýsý ve batýya doðru cadde pazar yerine doðru uzanýyor.
+~
+0 0 1
+D0
+Rugal'ýn Yeri.
+~
+~
+0 -1 3011
+D1
+Þehir kapýsýný görüyorsun.
+~
+~
+0 -1 3041
+D2
+Savaþçý Loncasý'ný görüyorsun.
+~
+~
+0 -1 3021
+D3
+Ana cadde pazar yerine uzanýyor.
+~
+~
+0 -1 3015
+S
+#3017
+Büyü Loncasý Giriþi~
+Giriþ hölü az ýþýklandýrýlmýþ küçük bir oda.
+~
+0 D 0
+D0
+Ana caddeyi görüyorsun.
+~
+~
+0 -1 3012
+D2
+En sevdiðin yer, Büyülü Meyhane.
+~
+~
+0 -1 3018
+S
+#3018
+Büyülü Meyhane~
+Bu topraklarda görebileceðin en acayip meyhane karþýnda duruyor. Mistik
+görüntüler havada uçuþurken odada kaliteli eþyalarýn illüzyonlarýný
+görüyorsun.
+~
+0 CDSX 0
+D0
+Holü görüyorsun.
+~
+~
+0 -1 3017
+D1
+Laboratuvarý görüyorsun.
+~
+~
+0 -1 3019
+S
+#3019
+Büyü Laboratuvarý~
+Bu büyülü deneylerin yapýldýðý laboratuvar. Meþeden masalar üzerinde bir
+sürü borularla birbirine baðlý çeþitli büyüklükte tüpler görüyorsun. Yerde
+daire içine alýnmýþ büyük pentagram ve daha garip þekiller var. Karanlýk bir
+köþede üstündekilerin yarýsý silinmiþ anlaþýlmasý zor harfleri olan bir
+karatahta görüyorsun. Odanýn ortasýndaki bir kuyu aþaðýya, bilinmezliðe
+doðru iniyor.
+~
+0 CDSX 0
+D3
+Meyhaneyi görüyorsun.
+~
+~
+0 -1 3018
+D5
+Aþaðýsý çok karanlýk. Ýnersen geri çýkamayabilirsin.
+~
+~
+0 -1 7017
+S
+#3020
+Yegin'in Yeri~
+Dükkanýn duvar ve vitrininde her çeþit zýrh ve silahý görebiliyorsun.
+Kuzeyde ana cadde var. Duvarda, üzerinde biri besili diðeri cýlýz iki
+adamýn resmedildiði bir tablo görüyorsun. Adam figürlerin altýnda
+ise "Peþin Veren-Veresiye Veren" yazýyor.
+Tablonun altýna asýlmýþ küçük bir not var.
+~
+0 D 0
+D0
+Ana caddeyi görüyorsun.
+~
+~
+0 -1 3013
+E
+not resim~
+Notta þunlar yazýyor:
+
+  Liste - Dükkanýn envanter listesini verir.
+  Alýþ  - Bir eþya satýn alýr.
+  Deðer - Dükkan sahibi size satmak istediðiniz þeylere ne kadar ödeyeceðini
+          söyler (ücretsiz hizmetimizdir ve rakamlar tatminkardýr).
+  Satýþ - Bir eþyayý satar.
+
+
+         VERESÝYEMÝZ YOKTUR; VERESÝYE TEKLÝF EDENLERÝ SEVMEYÝZ!
+                          PAZARLIK YAPMAYIN!
+~
+S
+#3021
+Savaþçý Loncasý Giriþi~
+Savaþçý Loncasý'nýn giriþ holü. Ýnsanýn yanlýþ þeyler söylememek konusunda
+daha dikkatli olmasý gereken bir yer. Doðuda meyhane, kuzeyde ise ana cadde
+uzanýyor.
+~
+0 D 0
+D0
+Ana caddeyi görüyorsun.
+~
+~
+0 -1 3016
+D1
+Savaþçýlarýn Meyhanesini görüyorsun. Ýçerden inanýlmaz gürültü geliyor.
+~
+~
+0 -1 3022
+S
+#3022
+Çelik Bilek Meyhanesi~
+Eþyalardan buranýn bir zamanlar çok güzel dekore edilmiþ olduðunu
+anlýyorsun. Fakat þimdi tüm mobilyalar parça parça olup etrafa
+saçýlmýþlar. Güneyde avlu ve batýda giriþ hölü bulunuyor.
+~
+0 CDSX 0
+D2
+Avluyu görüyorsun.
+~
+~
+0 -1 3023
+D3
+Hýrsýz Loncasý'nýn giriþini görüyorsun.
+~
+~
+0 -1 3021
+S
+#3023
+Turnuva ve Pratik Avlusu~
+Savaþçýlarýn çalýþma avlusundasýn. Meyhane kuzeyde. Bir kuyu aþaðýya
+bilinmeyene doðru gidiyor.
+~
+0 CDSX 0
+D0
+Meyhaneyi görüyorsun.
+~
+~
+0 -1 3022
+D5
+Aþaðýsý çok karanlýk. Ýnersen geri çýkamayabilirsin.
+~
+~
+0 -1 7048
+S
+#3024
+Arka Sokaðýn Doðu Sonu~
+Arka sokaktasýn. Güneyde Sansar haný ve doðuda Halk Meydaný bulunuyor.
+Arka sokak doðuya doðru devam ediyor.
+~
+0 0 1
+D0
+Melankoli'nin harita dükkaný.
+~
+~
+0 -1 3160
+D1
+Halk Meydaný.
+~
+~
+0 -1 3025
+D2
+Haný görüyorsun.
+~
+~
+0 -1 3048
+D3
+Arka sokaðý görüyorsun.
+~
+~
+0 -1 3044
+S
+#3025
+Halk Meydaný~
+Halk meydanýnda insanlar konuþarak yürüyorlar. Batýda bir ara sokak ve
+doðuda karanlýk bir sokak var. Kuzeyde pazar yerini görebiliyorsun.
+Güneyden kötü bir koku geliyor.
+~
+0 0 1
+D0
+Pazar Yeri.
+~
+~
+0 -1 3067
+D1
+Karanlýk arka sokaðý görüyorsun.
+~
+~
+0 -1 3026
+D2
+Þehir Çöplüðü.
+~
+~
+0 -1 3030
+D3
+Arka sokaðý görüyorsun.
+~
+~
+0 -1 3024
+S
+#3026
+Karanlýk Arka Sokak~
+Batýya doðru Halk Meydaný ve güneyde Hýrsýz Loncasý bulunuyor. Kuzeyde
+ünlü denizci tavernasýnýn giriþi var. Sokak doðuya doðru devam ediyor.
+~
+0 0 1
+D0
+Denizcinin kötü kokan yerini görüyorsun.
+~
+~
+0 -1 3352
+D1
+Sokak doðuya devam ediyor.
+~
+~
+0 -1 3045
+D2
+Hýrsýz Loncasý giriþi.
+~
+~
+0 -1 3027
+D3
+Halk Meydaný.
+~
+~
+0 -1 3025
+E
+lonca~
+Orasý Hýrsýz Loncasý. Canýný yada paraný önemsiyorsan uzak durmalýsýn.
+~
+S
+#3027
+Hýrsýz Loncasý Giriþ Holü~
+Burasý Hýrsýzlarýn ve suikastçilerin loncasý. Eðer dikkatli olmazsan hem
+paraný hem de hayatýný kaybedebilirsin. Kuzeyde karanlýk arka sokak ve
+doðuda meyhane bulunuyor.
+~
+0 D 0
+D0
+Sokaðý görüyorsun.
+~
+~
+0 -1 3026
+D1
+Eþyalarý kayýp Hýrsýz Meyhanesini görüyorsun.
+~
+~
+0 -1 3028
+S
+#3028
+Kara Hançer Meyhanesi~
+Bir zamanlar burasý güzel dekore edilmiþ olmasýna raðmen þu an boþ
+görünüyor. Güneyde avlu ve batýda giriþ holü bulunuyor (Belki de eþyalar
+çalýnmýþtýr ?!!)
+~
+0 CDSX 0
+D2
+Gizli avluyu görüyorsun.
+~
+~
+0 -1 3029
+D3
+Hýrsýz Loncasý'nýn giriþ hölünü görüyorsun.
+~
+~
+0 -1 3027
+E
+mobilya~
+Mobilyalara bakmanla birlikte, oturduðun sandalye de yok oluyor.
+~
+S
+#3029
+Gizli Avlu~
+Gizli avlu Hýrsýzlarýn ve suikastçilerin eðitim yeridir. Kuzeyde meyhane
+bulunuyor. Odanýn ortasýndaki kuyu aþaðýya, karanlýðýn içine doðru uzanýyor.
+Derinlerden berbat kokular geliyor.
+~
+0 CDSX 0
+D0
+Meyhaneyi görüyorsun.
+~
+~
+0 -1 3028
+D5
+Aþaðýsý çok karanlýk. Ýnersen geri çýkamayabilirsin.
+~
+~
+0 -1 7043
+S
+#3030
+Çöplük~
+Burasý insanlarýn çöplerini döktüðü yer. Güneyde ýrmaðýn üzerinden
+geçen eski bir köprü görüyorsun. Kuzeyde ise halk meydaný bulunuyor.
+~
+0 C 2
+D0
+Halk Meydaný.
+~
+~
+0 -1 3025
+D2
+Güney ve kuzey Selenge'ý bölen ýrmaðý görüyorsun. Suyun üstünde küçük bir
+köprü var.
+~
+~
+0 -1 3254
+D5
+Kanalizasyonu görüyorsun.
+~
+~
+0 -1 7030
+S
+#3031
+Hayvan Dükkaný~
+Hayvan dükkaný oldukça sýkýþýk bir yer. Ýçerisi kafeslenmiþ çeþitli
+hayvanlarla dolu. Kafeslerin üstünde bir tabela var.
+~
+0 DM 0
+D2
+Arka sokaðý görüyorsun.
+~
+~
+0 -1 3045
+E
+tabela~
+Tabelada þunlar yazýyor:
+
+  Alabileceðin hayvanlarý görmek için 'Liste' yi kullan.
+  Kendinize bir hayvan almak ve bir isim vermek için 'Alýþ <hayvan> <adý>' ný
+  kullanýn.
+
+  Hayvanýnýza hükmetmek için 'emir <hayvan> <emirler>' i kullanabilirsiniz.
+  Eðer hayvanýnýzý suistimal ederseniz, sizi sahibi olarak kabul etmekten
+  vazgeçecektir.
+  Eðer birden fazla hayvanýnýz varsa 'emir tümü <emirler>' i kullanýn.
+
+ Saygýlar,
+
+   Dükkan Sahibi
+~
+S
+#3032
+Hayvan Deposu~
+Burasý hayvan hatýcýsýnýn hayvanlarýný tuttuðu küçük karanlýk bir oda.
+Odanýn hemen hayvan dükkanýnýn arkasýnda olmasý çok kritik.
+~
+0 CD 0
+S
+#3033
+Büyülü Eþya Dükkaný~
+Ender rastlanan kimyasal ve baharat kokularýnýn olduðu küçük bir
+odadasýn. Odanýn ortasýnda, odayý ikiye bölecek þekilde konulmuþ büyük
+bir masa ve onun arkasýndaki duvarda bulunan raflarda çeþitli renk ve
+büyüklükte kavanoz, þiþe, kitap ve parþömenler var.
+~
+0 D 0
+D2
+Ana caddeyi görüyorsun.
+~
+~
+0 -1 3012
+E
+parþömenler~
+Tüm parþömenler rutubetten korunmasý için deri kaplý silindirlere konmuþ.
+~
+E
+kitaplar~
+Birçoðu gerçekten eski ve tozlu görünüyor.
+~
+E
+kavanozlar þiþeler~
+Bir kýsmýnýn içinde kimi hayvanlarýn vücut parçalarý varken bazýlarý
+ise içilerindeki çeþitli renkte tozlarý görebileceðin þekilde saydamlar.
+~
+S
+#3034
+Mücehver Dükkaný~
+Küçük, iyi dekore edilmiþ bir odadasýn. Duvarlardaki küçük yað
+lambalarýndan çýkan ýþýk odanýn ortasýnda bulunan büyük ve cilanmýþ
+masadan yansýyor.
+~
+0 D 0
+D0
+Ana caddeyi görüyorsun.
+~
+~
+0 -1 3015
+E
+iþaret~
+Altýn harflerle þunlar yazýlý:-
+
+  Liste - Dükkanda satýlanlarý gösterir.
+  Alýþ  - Bir eþya satýn alýr.
+  Satýþ - Bir eþyayý satar.
+  Deðer - Mücevherci satmak istediðiniz þeylere deðer biçer.
+~
+E
+masa~
+Yüzeyinde suratýnýn yansýmasý var.
+~
+E
+yað lambalarý~
+Parlatýlmýþ altýndan yapýlmýþ ve düzgün taþ duvarlara güvenli bir þekilde
+monte edilmiþ.
+~
+S
+#3035
+Deri Dükkaný~
+Bu büyük odayý keskin bir koku kaplamýþ. Duvarlardaki raflarda her çeþit
+hayvan derisi bulunuyor ve þöminede demir bir kap içinde su kaynýyor. Odanýn
+tam ortasýnda büyük meþeden bir masa duruyor.
+~
+0 D 0
+D2
+Sokaðý görüyorsun.
+~
+~
+0 -1 3044
+E
+iþaret~
+Ahþap tabelada þunlar yazýyor :-
+
+  Liste - Dükkanda satýlanlarý gösterir.
+  Alýþ  - Bir eþya satýn alýr.
+  Satýþ - Bir eþyayý satar.
+  Deðer - Derici satmak istediðiniz þeylere deðer biçer.
+~
+E
+kap~
+Birkaç parça geniþ deri post demir kapta kaynýyor.
+~
+E
+masa~
+Saðlam meleden yapýlmýþ fakat oldukça yýpranmýþ görünüyor. Yüzeyi leke
+ve çizik içinde. Geniþ bir mum masanýn üzerine tuturulmuþ, donan mum yaðlarý
+kenarlarýndan masaya akýyor.
+~
+E
+þömine~
+Daha ziyade aðýr granit kayalardan yapýlmýþ geniþ bir þömine.
+~
+S
+#3040
+Selenge'ýn Batý Giriþ Kapýsý~
+Þehrin duvarlarý üzerine kurulmuþ iki kule ile kocaman ve yere doðru
+açýlan tahta bir kapýnýn önündesin. Ana cadde doðu, Duvar Yolu güneye doðru
+ilerliyor.
+~
+0 S 1
+D0
+Duvar yolu iç þehir duvarý boyunca kuzeye ilerliyor.
+~
+~
+0 -1 3257
+D1
+Ana caddeyi görüyorsun.
+~
+~
+0 -1 3012
+D2
+Yol þehir duvarýnýn iç kýsmý boyunca ilerliyor. Buraya duvar yolu denmesinin
+sebebini anlýyorsun.
+~
+~
+0 -1 3042
+D3
+Þehir kapýsý batýda.
+~
+kapý~
+1 3379 3052
+E
+duvar~
+Geniþ gri kayalarýn bir çeþit harçla birbirine birleþtirilmesi ortaya
+muazzam yükseklikte bir yapý çýkartmýþ. Oldukça güven verici görünüyor.
+~
+E
+kule kuleler~
+Ýki kule de ayný þehir duvarý gibi geniþ gri kaylarýn bir çeþit harçla
+birbirine eklenmesi ile yamýlmýþ.
+~
+E
+kapý~
+Oldukça büyük ve sert ahþaptan yapýlmýþ iki çift kapý kanadý. Daha saðlam
+olmasý için geniþ demir bantlarla güçlendirilmiþ. Kapýlardan birinin üzerinde
+çok büyük bir sürgü kilit var.
+~
+E
+köprü~
+Ulaþýlmayacak kadar yüksek fakat bir kuleden diðerine geçmeyi oldukça
+kolay bir hale getiriyor.
+~
+S
+#3041
+Selenge'ýn Doðu Giriþ Kapýsý~
+Þehrin duvarlarý üzerine kurulmuþ iki kule ile kocaman ve yere doðru
+açýlan ahþap bir kapýnýn önündesin. Ana cadde doðuya, Duvar Yolu kuzey-güney
+doðrultusunda þehir duvarýnýn dibinden ilerliyor.
+~
+0 S 1
+D0
+Duvar yolu þehir duvarý boyunca kuzeye ilerliyor.
+~
+~
+0 -1 3267
+D1
+Þehir kapýsýný görüyorsun.
+~
+kapý~
+1 3379 3053
+D2
+Duvar yolu þehrin yoksul bölgesine doðru ilerliyor.
+~
+~
+0 0 3250
+D3
+Ana caddeyi görüyorsun.~
+~
+0 -1 3016
+E
+duvar~
+Geniþ gri kayalarýn bir çeþit harçla birbirine birleþtirilmesi ortaya
+muazzam yükseklikte bir yapý çýkartmýþ. Oldukça güven verici görünüyor.
+~
+E
+kule kuleler~
+Ýki kule de ayný þehir duvarý gibi geniþ gri kaylarýn bir çeþit harçla
+birbirine eklenmesi ile yamýlmýþ.
+~
+E
+kapý~
+Oldukça büyük ve sert ahþaptan yapýlmýþ iki çift kapý kanadý. Daha saðlam
+olmasý için geniþ demir bantlarla güçlendirilmiþ. Kapýlardan birinin üzerinde
+çok büyük bir sürgü kilit var.
+~
+E
+köprü~
+Ulaþýlmayacak kadar yüksek fakat bir kuleden diðerine geçmeyi oldukça
+kolay bir hale getiriyor.
+~
+S
+#3042
+Duvar Yolu~
+Þehrin batý duvarýnýn dibinden ilerliyorsun. Yol buradan güneye devam
+ediyor ve þehrin kapýsý hemen kuzeyde bulunuyor.
+~
+0 0 1
+D0
+Þehir kapýsýný görüyorsun.
+~
+~
+0 -1 3040
+D1
+Doðuda iþlemeli bir yol var.
+~
+~
+0 -1 3170
+D2
+Yol güneye doðru uzanýyor.
+~
+~
+0 -1 3043
+E
+duvar~
+Geniþ gri kayalarýn bir çeþit harçla birbirine birleþtirilmesi ortaya
+muazzam yükseklikte bir yapý çýkartmýþ. Oldukça güven verici görünüyor.
+~
+S
+#3043
+Duvar Yolu~
+Þehrin batý duvarýnýn dibinden ilerliyorsun. Yol buradan kuzeye doðuya ve
+güneye doðru devam ediyor. Doðuda arka sokak bulunuyor.
+~
+0 0 1
+D0
+Yol kuzeye doðru uzanýyor.
+~
+~
+0 -1 3042
+D1
+Sokak doðuya yöneliyor.
+~
+~
+0 -1 3044
+D2
+Yol güneye doðru uzanýyor.
+~
+~
+0 -1 3047
+D3
+Selenge'nin büyük satranç tahtasý.
+~
+~
+0 -1 4200
+E
+duvar~
+Geniþ gri kayalarýn bir çeþit harçla birbirine birleþtirilmesi ortaya
+muazzam yükseklikte bir yapý çýkartmýþ. Oldukça güven verici görünüyor.
+~
+E
+harfler~
+Þöyle yazýyor 'Gözcüyü kim gözlüyor?'
+~
+S
+#3044
+Arka Sokak~
+Dar ve pis bir arka sokaktasýn. Yol burada doðu ve batý yönünde devam
+ediyor. Kuzeyde derici dükkanýný görüyorsun.
+~
+0 0 1
+D0
+Derici.
+~
+~
+0 -1 3035
+D1
+Sokak doðuya yöneliyor.
+~
+~
+0 -1 3024
+D2
+Güneyde süslü bir kapý var.
+~
+~
+0 -1 3060
+D3
+Sokak batýya yöneliyor.
+~
+~
+0 -1 3043
+D4
+Goblin kalesini görüyorsun.
+~
+~
+0 -1 29001
+S
+#3045
+Arka Sokak~
+Doðu ve batý yönlerinde ilerleyen sokaktasýn. Güneyde rýhtýmý görüyosun.
+Kuzeyde ise hayvan dükkaný var.
+~
+0 0 1
+D0
+Hayvan dükkanýný görüyorsun, duyuyorsun ve kokusunu alýyorsun.
+~
+~
+0 0 3031
+D1
+Sokak doðuya yöneliyor.
+~
+~
+0 -1 3046
+D2
+Rýhtýmý görüyorsun.
+~
+~
+0 -1 3049
+D3
+Sokak batýya yöneliyor.
+~
+~
+0 -1 3026
+S
+#3046
+Arka Sokaðýn Doðu Sonu~
+Arka sokaðýn doðu sonunda, þehir duvarlarýnýn yakýnýndasýn. Doðu yönünde
+duvar yolunu ve güneyde üç katlý bir ambar duruyor. Gençlik Çeþmesi
+Ýksircisi hemen kuzeyde.
+~
+0 0 1
+D0
+Kazýk görünen iksirci.
+~
+~
+0 0 3056
+D1
+Duvar yolunu görüyorsun, kuzeye ve güneye doðru þehri çevreliyor.
+~
+~
+0 -1 3251
+D2
+Terk edilmiþ ambarý görüyorsun.
+~
+~
+0 -1 3050
+D3
+Sokaðý görüyorsun.
+~
+~
+0 -1 3045
+S
+#3047
+Duvar Yolu~
+Þehrin batý duvarýnýn dibinde kuzeye doðru devam eden yoldasýn. Güneyde
+ýrmaðýn üzerinden geçen bir köprü doðuda ise parlak turuncu renge boyanmýþ
+ve mor renkle süslenmiþ garip bir bina görüyorsun... Bu Hayvanat Bahçesi
+olmalý!
+~
+0 0 1
+D0
+Yolu görüyorsun.
+~
+~
+0 -1 3043
+D1
+Mob Fabrikasý'nný görüyorsun.
+~
+~
+0 -1 9400
+D2
+Köprüyü görüyorsun.
+~
+~
+0 -1 3051
+E
+duvar~
+Geniþ gri kayalarýn bir çeþit harçla birbirine birleþtirilmesi ortaya
+muazzam yükseklikte bir yapý çýkartmýþ. Oldukça güven verici görünüyor.
+~
+S
+#3048
+Sansar Haný~
+Sansar hanýn içindesin. Burasý yýllardýr temizlenmemiþ görünüyor,
+içerdeki berbat koku baþ döndürücü.
+~
+0 D 0
+D0
+Sokaðý görüyorsun.
+~
+~
+0 -1 3024
+D5
+Bir kapak görüyorsun.
+~
+kapak~
+1 -1 3062
+S
+#3049
+Rýhtým~
+Rýhtýmdasýn. Güneyde sakin bir þekilde akan ýrmaðý görebiliyorsun.
+Irmaðýn kýyýsý oldukça alçak ve ýrmaða giriþe elveriþli bir þekilde. Nehrin
+hemen karþýsýnda sýk aðaçlardan oluþmuþ bir orman görüyorsun.
+~
+0 0 1
+D0
+Sokaðý görüyorsun.
+~
+~
+0 -1 3045
+D2
+Batýya doðru akan nehri görüyorsun.
+~
+~
+0 -1 3203
+S
+#3050
+Terkedilmiþ Ambar~
+Eski ambarýn içindeki tek odadasýn. Bu yer çok tozlu ve uzun yýllardýr
+kullanýlmamýþ görünüyor. Göðün ýþýðý içeriye menekþe renginde bir ýþýk
+hüzmesi döküyor.
+~
+0 D 0
+D0
+Sokaðý görüyorsun.
+~
+~
+0 -1 3046
+D4
+Makine sesleri duyuyor, fosfor kokusu alýyorsun.
+~
+~
+0 0 8604
+S
+#3051
+Köprüde~
+Irmaðýn üzerindeki taþtan köprüdesin. Köprü ile batý duvarý birleþik ve
+ýrmak batýya doðru köprünün 3 metre aþaðýsýndaki bir açýklýktan akýyor.
+~
+0 0 1
+D0
+Yolu görüyorsun.
+~
+~
+0 -1 3047
+D2
+Meydaný görüyorsun.
+~
+~
+0 -1 3100
+E
+duvar~
+Geniþ gri kayalarýn bir çeþit harçla birbirine birleþtirilmesi ortaya
+muazzam yükseklikte bir yapý çýkartmýþ. Oldukça güven verici görünüyor.
+~
+E
+açýklýk~
+Ayaðýnýn altýnda bir yerlerde olduðundan buradan tam olarak göünmüyor.
+~
+E
+köprü~
+köprü de ayný þehir duvarý gibi geniþ gri kaylarýn bir çeþit harçla
+birbirine eklenmesi ile yapýlmýþ.
+~
+S
+#3052
+Selenge'ýn Batý Giriþ Kapýsýnýn Dýþý~
+Þehrin duvarlarý üzerine kurulmuþ iki kule ile kocaman ve yere doðru
+açýlan tahta bir kapýnýn önündesin. Batýda kýraç topraklarý görüyorsun.
+~
+0 0 1
+D0
+Yol Selenge'nin çevresinde dolaþýyor.
+~
+~
+0 -1 3900
+D1
+Doðuda þehir kapýsý var.
+~
+kapý~
+1 3379 3040
+D3
+Batýda ormanýn sýnýrýný görüyorsun.
+~
+~
+0 -1 6000
+E
+duvar~
+Geniþ gri kayalarýn bir çeþit harçla birbirine birleþtirilmesi ortaya
+muazzam yükseklikte bir yapý çýkartmýþ. Oldukça güven verici görünüyor.
+~
+E
+kule kueler~
+Ýki kule de ayný þehir duvarý gibi geniþ gri kaylarýn bir çeþit harçla
+birbirine eklenmesi ile yamýlmýþ.
+~
+E
+kapý~
+Oldukça büyük ve sert ahþaptan yapýlmýþ iki çift kapý kanadý. Daha saðlam
+olmasý için geniþ demir bantlarla güçlendirilmiþ. Kapýlardan birinin üzerinde
+çok büyük bir sürgü kilit var.
+~
+E
+köprü~
+Ulaþýlmayacak kadar yüksek fakat bir kuleden diðerine geçmeyi oldukça
+kolay bir hale getiriyor.
+~
+S
+#3053
+Selenge'ýn Doðu Giriþ Kapýsýnýn Dýþý~
+Þehrin duvarlarý üzerine kurulmuþ iki kule ile kocaman ve yere doðru
+açýlan tahta bir kapýnýn önündesin. Doðuya doðru uzakta yayýlmýþ olan
+ovalarý görebiliyorsun. Kuzeye doðru küçük toprak bir patika þehrin
+duvarýnýn dibinden ilerliyor.
+~
+0 0 1
+D0
+Yol Selenge'nin çevresinde dolaþýyor.
+~
+~
+0 -1 3908
+D1
+Ovalarý görüyorsun.~
+~
+0 -1 3503
+D3
+Þehir kapýsýný görüyorsun.
+~
+kapý~
+1 3133 3041
+E
+duvar~
+Geniþ gri kayalarýn bir çeþit harçla birbirine birleþtirilmesi ortaya
+muazzam yükseklikte bir yapý çýkartmýþ. Oldukça güven verici görünüyor.
+~
+E
+kule kuleler~
+Ýki kule de ayný þehir duvarý gibi geniþ gri kaylarýn bir çeþit harçla
+birbirine eklenmesi ile yamýlmýþ.
+~
+E
+kapý~
+Oldukça büyük ve sert ahþaptan yapýlmýþ iki çift kapý kanadý. Daha saðlam
+olmasý için geniþ demir bantlarla güçlendirilmiþ. Kapýlardan birinin üzerinde
+çok büyük bir sürgü kilit var.
+~
+E
+köprü~
+Ulaþýlmayacak kadar yüksek fakat bir kuleden diðerine geçmeyi oldukça
+kolay bir hale getiriyor.
+~
+S
+#3054
+Mimber~
+Ruhunu dinlendiren güzel bir odadasýn. Bu yeri dolduran kutsallýðý
+hissedebiliyorsun. Arka odalardan oldukça rahatlatýcý harp melodileri
+yayýlýyor. Odanýn ortasýndaki büyük mimberin açýk yeþil bir taþtan
+yapýlmýþ olduðunu görüyorsun. Ýnce dokunmuþ ipek perdeler pencerelerin
+kenarlarýna bezenmiþ, ve tüm duvarlar güzel resimler ve kumaþlarla
+döþenmiþler. Hayatýný burada, huzur içinde geçirmenin gerçekten çok hoþ
+olabileceðini düþünüyorsun.
+~
+0 DS 0
+H 150 M 150
+D0
+Tapýnak rahibinin odasý.
+~
+kapý~
+0 -1 3077
+D2
+Tapýnaðýn güney ucunu görüyorsun.
+~
+~
+0 -1 3001
+D4
+Gökkuþaðý köprüsü yukarda asýlý duruyor.
+~
+~
+0 -1 1215
+E
+mimber~
+Mimber 5 metrelik yekpare bir mermerden oyulmuþ.
+~
+S
+#3056
+Ýksir Dükkaný~
+Tezgahýn arkasýnda gezinen bir adam garip aþk iksirleri ve iyileþtirici
+haplar yapýyor. Odaya girer girmez açgözlü bakýþlarýný ani bir þekilde
+sana yöneltiyor. Eþyalarýna bakarak ticaretle çok iyi kazandýðýný
+söyleyebilirsin.
+~
+0 0 0
+D2
+Arka sokaðýn doðu sonunu görüyorsun.
+~
+~
+0 -1 3046
+S
+#3057
+Havada...~
+VAY uçabiliyorsun! Selenge'ýn Tapýnak Meydanýnýn üzerinde süzülüyorsun.
+~
+0 C 9
+D4
+Aynýsýndan biraz daha.
+~
+~
+0 0 1017
+D5
+Yeryüzüne, olman gereken yere iniyor!
+~
+~
+0 0 3005
+S
+#3060
+Ant Paladin Loncasýnýn Giriþi~
+Giriþte, pratik alanýnýn batýsýnda duruyorsun. Mekan oldukça loþ ve hiç
+pencere göremiyorsun. Buranýn fazlaca sessiz olmasýnýn en büyük nedeni,
+buranýn uzun zaman önce gözden düþmüþ olmasý. Doðudaki giriþi koruyan
+iki genç adam görüyorsun.
+~
+0 D 0
+D0
+Kuzeyinde buradan daha güvenli olan sokaðý görüyorsun.
+~
+~
+0 -1 3044
+D1
+Pratik odasýna benziyor.
+~
+~
+0 -1 3061
+S
+#3061
+Ýþkence Odasý~
+Kutsal olan hiç bir þeyin bakýþlarýnýn deðmediði bu yerde, meþale
+alevlerinin ýþýðýnýn bile, karanlýðý rahatsýz etmeden yanmaya
+çalýþtýðýný hissediyorsun. Odanýn ortasýndaki kürsünün üstünde,
+kadim kara bir kitap dinleniyor. Kitabýn þeytani gücü etrafýna
+yaydýðý sessizlik ve karnlýktan besleniyor gibi. Odanýn penceresinin
+bile bulunmayýþý seni burada güçlü ve güvende hissettiriyor. Lonca
+efendisinin iþkence aletleri etrafa daðýlmýþ bir þekilde duruyor.
+~
+0 DSX 0
+D3
+Batýda tapýnak holünü görüyorsun.
+~
+~
+0 -1 3060
+S
+#3062
+Yeraltý Odasý~
+Sadece hava tünellerinin çýkýþlarý tarafýndan aydýnlatýlan geniþ bir
+çemberin içinde duruyorsun. Duvarlarýn büyük bir kýsmý saðlam kaya ile,
+kalaný ise kille kaplý görünüyor. Yer tamamen çýplak tahtadan yapýlmýþ.
+Çevrede duvarlara asýlmýþ veya etrafa dikkatsizce saçýlmýþ kimi aletler
+görüyorsun.
+~
+0 DXS 0
+D4
+Kapý Grubby'nin hanýna geri dönüyor.
+~
+kapý~
+1 -1 3048
+S
+#3063
+Kutsal Tapýnak~
+Çok büyük bir holün ortasýnda duruyorsun. Tavan oldukça yüksek olmasýna
+raðmen üzerindeki harikulade oymalarýn tüm ayrýntýlarý seçilebiliyor.
+Silindir mermer sütunlar duvarlarýn yanýndan tavana doðru yükseliyor. Kuzey
+duvarýnda yaþlý bir rahibin büyükçe bir resmi asýlý. Ýki vücut zýrhý resmi
+korur gibi tablonun her iki yanýnda duruyor. Doðuda büyük bir odaya açýldýðý
+görülebilen ve iki þövalye tarafýndan korunan bir kapý giriþi var.
+~
+0 DXS 0
+D1
+Oda geniþ bir türbeye yöneliyor gibi.
+~
+~
+0 -1 3064
+D2
+Ana caddeyi görüyorsun.
+~
+~
+0 -1 3015
+S
+#3064
+Þövalye Türbesi~
+Adbularlarýn ve þövalyelerin eðitildiði ve yeteneklerini geliþtirdikleri
+yerdesin. Duvarlar geniþ, deðerli halýlarla döþenmiþ. Ýki parlak, (büyük
+ihtimalle her gün parltýlan) zýrh karþý duvarýn yanýnda duruyor. Gerçekten
+büyük kýlýçlar ve gümüþ kalkanlar duvara asýlmýþ.
+~
+0 DSX 0
+D3
+Batýya doðru tapýnaðýn büyük holünü görüyorsun.
+~
+~
+0 -1 3063
+S
+#3065
+Çarþý Yolu~
+Çarþý yolunun kuzey bölümünde, pazar yerine yakýn yerindesin. Kuzeyde
+geniþ meydan rahatlýkla görülebiliyor, þehrin büyük bir kýsmý ise güneyde
+kalýyor. Doðuda et kokularýnýn bulunduðun yerden bile rahatlýkla alýnabildiði
+Kasap Dükkaný var.
+~
+0 0 1
+D0
+Büyük meydaný görüyorsun.
+~
+~
+0 -1 3014
+D1
+Kasap dükkanýnýn tahta kapýsý.
+~
+~
+0 -1 3066
+D2
+Yol güneye devam ediyor.
+~
+~
+0 -1 3067
+S
+#3066
+Kasap Dükkaný~
+Dükkana girdiðinde burnuna buram buram iþtah açan kýzarmýþ et kokularý çarpýyor.
+Buradan, kýzarmýþ biftek veya tavuk almak mümkün. Çarþý Yolu, batýda kalýyor.
+~
+0 D 0
+D3
+Çarþý yolunu görüyorsun.
+~
+~
+0 -1 3065
+S
+#3067
+Çarþý Yolu~
+Yolunun güney bölümünde, Halk Meydanýna yakýn yerindesin. Bulunduðun yer
+þehrin kuzey bölümüne göre daha az hareketli. Batýda kapýsýnýn üzerine
+bir tabela asýlý olan beyaz bir bina var. Yol kuzeye devam ederken Halk
+Meydaný ise güneyde kalýyor.
+~
+0 0 1
+D0
+Yol devam ediyor.
+~
+~
+0 -1 3065
+D2
+Halk Meydaný'ný görüyorsun.
+~
+~
+0 -1 3025
+D3
+Tabelada þöyle yazýyor: Bakkal
+~
+~
+0 -1 3010
+E
+sign~
+Tabelada þöyle yazýyor: Bakkal
+~
+S
+#3068
+Güneþ Tapýnaðý~
+Ýçinde bulunduðun tapýnak yeþil-gri mermer bloklarla inþaa edilmiþ,
+ve duvarlarýn çoðu ipek perdelerle döþeli. Gerçekten yüksek olan tavaný
+her renkte kristallerle bezenmiþ. Doðuda geniþ merdivenler aþaðýya,
+tapýnak meydanýna ilerliyor.
+~
+0 D 0
+H 150 M 150
+D1
+Merdivenler Tapýnak Meydaný'na ilerliyor..
+~
+~
+0 -1 3069
+M 110
+S
+#3069
+Tapýnak Meydaný~
+Geniþ tapýnak meydanýnýn ortasýnda duruyorsun. Ýki yönde de yukarý
+ilerleyen merdivenler var. Güney merdivenleri rahibenin odasýna, batý
+merdivenleri ise tapýnak odasýna doðru çýkýyor. Meydanýn kuzeyde park
+yolu ile bir baðlantýsý var.
+~
+0 0 1
+D0
+Park yolunu görüyorsun.
+~
+~
+0 -1 3135
+D2
+Merdivenler Nacya'nýn mimber odasýna ilerliyor.
+~
+~
+0 -1 3070
+D3
+Güneþ Tapýnaðýnýn sükun odasý merdivenlerin sonunda.
+~
+~
+0 -1 3068
+S
+#3070
+Mimber~
+Ruhunu dinlendiren güzel bir odadasýn. Bu yeri dolduran kutsallýðý
+hissedebiliyorsun. Arka odalardan oldukça rahatlatýcý harp melodileri
+yayýlýyor. Odanýn ortasýndaki büyük mimberin açýk yeþil bir taþtan
+yapýlmýþ olduðunu görüyorsun. Ýnce dokunmuþ ipek perdeler pencerelerin
+kenarlarýna bezenmiþ, ve tüm duvarlar güzel resimler ve kumaþlarla
+döþenmiþler. Hayatýný burada, huzur içinde geçirmenin gerçekten çok hoþ
+olabileceðini düþünüyorsun.
+~
+0 D 0
+D0
+Tapýnak meydanýna inen merdivenleri görüyorsun.
+~
+~
+0 -1 3069
+E
+kumaþlar~
+Kumaþ iþlemerin birine daha yakýndan bakýyorsun. Elde dokunmuþ olan kumaþ
+hayatýn boyunca gördüðün bütün renkleri barýndýrýyor olmalý. Malzemesi
+ipek ve bazý yerlerinde pamuk gibi görünüyor. Tapýnak muhafýzlarýn sana
+hýrsýz muamelesi yapmamasý için, ona dokunmamaya karar veriyorsun.
+~
+E
+resimler~
+Resimlerden birine daha yakýndan baktýðýnda tablodaki kadýný tanýdýðýný
+farkediyorsun. Elbette duvarda asýlý olan Nacya'nýn bir portresi. Fakat
+alt köþesindeki imza, gördüðün anda kanýný donduruyor... ???.
+~
+S
+#3071
+Kara Tapýnak~
+Bu geniþ, soðuk tapýnaktaki sarmalayan sessizlik bir anda baþýna çöküyor.
+Duvarlarýn yanýnda sýra oluþturmuþ heykellerin bazýlarýnýn yüzlerinde,
+neredeyse canlý olduklarýný düþündürecek denli gerçekçi korku ifadeleri
+var. Tapýnaðýn doðu sonunda, mimberin etrafýndaki meþalelerin varlýðý bile
+karanlýðý aydýnlaymaya yeterli görünmüyor. Batýya doðru biraz olsun temiz
+hava için park yoluna kaçabilirsin.
+~
+0 DSX 0
+H 150 M 150
+D1
+Mimber doðuda.
+~
+~
+0 -1 3072
+D3
+Bu yol dýþarý, park yoluna çýkýyor.
+~
+~
+0 -1 3126
+S
+#3072
+Tapýnak Mimberi~
+Ýri, kara bir aytaþý parçasý Karanlý Tanrýnýn istediði kurbanlar için
+bir ölüm yataðý gibi biçimlendirilmiþ. Duvarda asýlý duran meþaleler,
+karanlýk bütüne rahatsýz edici bir ýþýk saçýyor.
+~
+0 D 0
+D3
+~
+~
+0 -1 3071
+S
+#3073
+Warlock Meyhanesi~
+Warlocklarýn meyhanesi oldukça kötü kokuyor. Fakat gizemli hava seni
+rahatlatýyor.
+~
+0 CDSX 0
+D0
+Erkeklerin laboratuvarýný görüyorsun..
+~
+~
+0 -1 3074
+D3
+Selenge'daki taverna..
+~
+~
+0 -1 3352
+S
+#3074
+Warlock Laboratuvarý~
+Burasý Warlocklarýn büyü deneyleri laboratuvarý. Koyu duman rengi taþ
+eþiklerin altýnda birçok büyük meþe masa bulunuyor. Çoðunun üstüne garip
+görünen þiþeler þaçýlmýþ. Zemin, yarý silinmiþ pentagramlarla ve daha da
+garip þekillerle kaplanmýþ. Karanlýk bir köþede duran kara tahtanýn
+üstünde kýsmen silinmiþ yazýlar silik bir þekilde görülebiliyor. Odanýn
+ortasýndaki kuyu, aþaðýya karanlýðýn içine doðru iniyor. Derinlerden
+gelen iðrenç kokularý alabiliyorsun.
+~
+0 CDSX 0
+D2
+Meyhaneyi görüyorsun.
+~
+~
+0 -1 3073
+D5
+Aþaðýsý çok karanlýk. Ýnersen geri çýkamayabilirsin.
+~
+~
+0 -1 7017
+S
+#3075
+Samuray Dojo Giriþ Holü~
+Mistik doðu rünlerinin kabartmalarýyla süslenmiþ meþe kapýdan geçitiðinde
+her iki duvarýna büyük Shidan öðretilerinin nakþedildiði uzun bir hole
+giriyorsun.
+Holün sonundaki geniþ avlunun tepesinde büyükçe bir yazý duruyor:
+"Ebedi olan yolun yeri"
+~
+0 CDSX 0
+D0
+Hýrýldayan ayý hanýný görüyorsun..
+~
+~
+0 -1 3007
+D3
+Samuray eðitim dojo'unun giriþi..
+~
+~
+0 -1 3076
+S
+#3076
+Samuray Dojo~
+Samuray savaþçýlarýnýn yeteneklerini geliþtirmek ve ibadet etmek
+için kullandýðý dojokun'dasýn. Duvarlarýnda karanlýk çaðlar Samuray
+Savaþlarýnýn resmedildiði dojokun gün ýþýðýný bütünüyle içeriye alan
+yarý þeffaf pencereler ve kapýlarla çevrilmiþ. Sade eþyalarýn ve
+özenle yerleþtirilmiþ silahlarýn çevreleriyle bütünlüðü, zihnini
+rahatlatýyor...
+~
+0 CDSX 0
+D1
+Doðuda meyhaneyi görüyorsun..
+~
+~
+0 -1 3075
+S
+#3077
+Þamanýn Odasý~
+Binlerce kitabýn rahibin yaný baþýnda durduðunu görüyorsun. Burada
+bulunma sebebini merak ederek sana bakýyor. Fakat o biliyor ki tüm
+inananlar onu en az dini kadar iyi bilmeliler. Oda tamamen gizem dolu.
+Rahiple birlikte dua etmeye baþlýyorsun.
+  Onunla [1;36mdinler[0;37m hakkýnda konuþmayý dene.
+~
+0 DS 0
+H 100 M 150
+D2
+Selenge Tapýnaðý.
+~
+kapý~
+0 -1 3054
+S
+#3100
+Gezi yolunun Kuzeybatý köþesi~
+Gezi yolundasýn, þehrin duvarý hemen batýnda. Gezi yolu burdan güneye
+þehrin duvarýný takip edere ilerliyor. Kuzeyde köprü ve doðuya doðru
+gezi yolu devam ediyor.
+~
+0 0 1
+D0
+Köprüyü görüyorsun.
+~
+~
+0 -1 3051
+D1
+Gezi yolunu görüyorsun.
+~
+~
+0 -1 3101
+D2
+Meydan güneye devam ediyor.
+~
+~
+0 -1 3270
+D3
+~
+~
+0 -1 32000
+S
+#3101
+Gezi Yolu~
+Irmak buranýn hemen hemen kuzeyinde batý yönünde akýyor. Gezi yolu
+buradan doðuya devam ederken batýda þehrin duvarý görülüyor. Park Yolu
+burdan güneye doðru ilerliyor.
+~
+0 0 1
+D1
+Gezi yolu.
+~
+~
+0 -1 3102
+D2
+Park yolu güneye yöneliyor.
+~
+~
+0 -1 3131
+D3
+Meydaný görüyorsun.
+~
+~
+0 -1 3100
+S
+#3102
+Gezi yolu~
+Irmak buranýn kuzeyinde batýya doðru akýyor. Gezi yolu batý ve doðu
+yönlerinde devam ediyor. Buranýn kuzeyindeki tuðladan bir köprü þehir
+çöplüðüne doðru ilerliyor (Ýyiki bugün rüzgar bugün çöplüðe doðru esiyor)
+Buranýn güneyinde parkýn giriþini ve giriþin batýsýndaki ufak bir binayý
+görüyorsun. Doðuda Kate'in Kafeteryasý ve Austral Meyadaný var.
+~
+0 0 1
+D0
+Eski yýpranmýþ bir köprü ýrmaðý keserek çöplüðe doðru ilerliyor.
+~
+~
+0 -1 3254
+D1
+Kate'in Kafeteryasýna giren ve çýkan insanlar görüyorsun.
+~
+~
+0 -1 3103
+D2
+Park giriþini görüyorsun.
+~
+~
+0 -1 3105
+D3
+Gezi yolunu görüyorsun.
+~
+~
+0 -1 3101
+S
+#3103
+Austral Meydaný~
+Gezi Yolu Selenge ýrmaðýnýn güney þeridinden buraya, Austral meydanýna
+açýlýyor. Etrafýnda Güney Selenge'ýn koþuþturmacasý var. Irmaðýn, kuzeyde
+Kate'in Kafeteryasýnýn kýyýsýna vurarak çýkardýðý sesleri duyabiliyorsun.
+Güneyde Emerald Bulvarýnýn baþlangýcý, batýda Gezi yolunun devamý, doðuda
+ise caddenin bitimi var.
+~
+0 0 1
+D0
+Kate'in yemeklerinin ilahi kokularýný alýyorsun.
+~
+~
+0 -1 3150
+D1
+Caddeyi görüyorsun.
+~
+~
+0 -1 3104
+D2
+Küçük bir yol güneye yöneliyor.
+~
+~
+0 -1 3132
+D3
+Gezi yolunu görüyorsun.
+~
+~
+0 -1 3102
+S
+#3104
+Caddenin Kuzeydoðu Ucu~
+Caddenin sonundasýn. Hemen doðuda þehir duvarý, batýda ise Austral
+Meydaný ve Kate'in Kafeteryasý bulunuyor. Irmaðýn karþýna bakýnca
+terkedilmiþ ambarý görüyorsun. Kuzeyde, meydanýn duvar yolu olduðu
+yerde, saðlam görünen bir köprü ýrmaðýn üzerinden geçiyor. Meydan
+güneye duvar boyunca devam ediyor.
+~
+0 0 1
+D0
+Nehri geçen taþ bir köprü.
+~
+~
+0 -1 3253
+D2
+Cadde güneye, Penny Sokaðýnýn kesiþimine doðru ilerliyor.
+~
+~
+0 -1 3272
+D3
+Austral Meydaný.
+~
+~
+0 -1 3103
+E
+duvar~
+Geniþ gri kayalarýn bir çeþit harçla birbirine birleþtirilmesi ortaya
+muazzam yükseklikte bir yapý çýkartmýþ. Oldukça güven verici görünüyor.
+~
+S
+#3105
+Park Giriþi~
+Selenge'ýn küçük parkýnýn içinde duruyorsun. Kuzeyde gezi yolu ve küçük
+bir patika parkýn içine doðru ilerliyor. Doðunda ünlü Park Kafe bulunuyor.
+~
+0 C 1
+D0
+Gezi yolunu görüyorsun.
+~
+~
+0 -1 3102
+D1
+Park Kahvesi'ni görüyorsun.
+~
+~
+0 -1 3106
+D2
+Parký görüyorsun.
+~
+~
+0 -1 3108
+S
+#3106
+Park Kahvesi~
+Park Kahvesinin içindesin, rahat ve çok iyi ýþýklandýrýlmýþ bir yer. Kuzey
+duvarýndaki pencerelerden ýrmaðý ve güney duvarýndaki pencereden dýþarý
+baktýðýnda çeþitli renklerde bitkiler görebiliyorsun.
+~
+0 D 0
+D3
+Park giriþini görüyorsun.
+~
+~
+0 -1 3105
+S
+#3107
+Parkýn Ýçindeki Küçük Patika~
+Parkýn içinden geçen küçük bir patikadan ilerliyorsun. Patika güneye ve
+batýya doðru gidiyor.
+~
+0 S 1
+D1
+~
+~
+0 -1 3108
+D2
+~
+~
+0 -1 3113
+S
+#3108
+Parkýn içindeki Küçük Patika~
+Parkýn içindeki küçük bir patikadasýn. Parkýn giriþi buranýn kuzeyinde ve
+Park Kafe doðusunda kalýyor. Patika doðu ve batý yönlerinde devam ediyor.
+~
+0 0 1
+D0
+Parkýn kuzey giriþini görüyorsun.
+~
+~
+0 -1 3105
+D1
+~
+~
+0 -1 3109
+D3
+~
+~
+0 -1 3107
+S
+#3109
+Parkýn Ýçindeki Küçük Patika~
+Parkýn içinden geçen küçük bir patikadasýn. Patika buradan batý ve güney
+yönünde devam ederken kuzeyde Park Kafenin güney duvarýný görüyorsun.
+~
+0 0 1
+D2
+~
+~
+0 -1 3115
+D3
+~
+~
+0 -1 3108
+S
+#3110
+Muhafýz Karargahý~
+Derli toplu bir ofisin içindesin. Odanýn tam ortasýnda koyu renkli bir
+aðaçtan yapýlmýþ büyük bir masa duruyor.
+~
+0 D 0
+D1
+Park yolunu görüyorsun.
+~
+door~
+1 -1 3111
+D3
+'ÝÞÝ OLMAYAN GÝREMEZ' diyen bir iþaret görüyorsun.
+~
+kapý~
+1 3120 3142
+S
+#3111
+Park Yolu~
+Yol kuzey ve güneye doðru devam ediyor. Buranýn hemen batýsýnda bir bina
+bulunuyor. Parkýn giriþi doðuda yönünde.
+~
+0 0 1
+D0
+~
+~
+0 -1 3131
+D1
+Park giriþini görüyorsun.
+~
+~
+0 -1 3112
+D2
+~
+~
+0 -1 3118
+D3
+Muhafýz karargahýný görüyorsun.
+~
+kapý~
+1 -1 3110
+E
+yapý kapý iþaret~
+
+                 Muhafýz Karargahý
+~
+S
+#3112
+Parkýn Batý Giriþi~
+Parkýn batý ucunda bulunuyorsun. Batýya parkýn içine doðru bir patika
+gidiyor. Batýya doðru giderek parkýn çýkýþýna ulaþabilirsin.
+~
+0 C 1
+D1
+~
+~
+0 -1 3113
+D3
+~
+~
+0 -1 3111
+S
+#3113
+Parkýn Ýçinde bir Patika~
+Parktasýn. Patika kuzeye ve batýya doðru ilerliyor. Batýda parkýn çýkýþý
+ve doðuda küçük bir havuz bulunuyor.
+~
+0 0 1
+D0
+~
+~
+0 -1 3107
+D1
+Gölcüðü görüyorsun.
+~
+~
+0 -1 3114
+D3
+Batý park giriþini görüyorsun.
+~
+~
+0 -1 3112
+S
+#3114
+Gölcük~
+Küçük gölcüðün içinde yüzüyorsun ve kendini biraz aptal hissediyorsun.
+Patikaya gölcüðün batý veya doðu yönüne giderek ulaþabilirsin.
+~
+0 0 6
+D1
+~
+~
+0 -1 3115
+D2
+Selenge Hayvanat Bahçesi'nin dýþý.
+~
+~
+0 -1 8200
+D3
+~
+~
+0 -1 3113
+S
+#3115
+Parkýn içinde bir Patika~
+Parkýn içindesin. Patika kuzeye ve doðuya doðru ilerliyor. Doðu yönünde
+parkýn giriþi ve atýda küçük bir gölcük bulunuyor.
+~
+0 0 1
+D0
+~
+~
+0 -1 3109
+D1
+~
+~
+0 -1 3116
+D4
+Selenge Hayvanat Bahçesi'nin dýþý.
+~
+~
+0 -1 8200
+D3
+~
+~
+0 -1 3114
+S
+#3116
+Parkýn Doðu Giriþi~
+Parkýn doðu ucunda duruyorsun. Küçük bir patika batýya parkýn içine doðru
+ilerliyor. Giriþten doðuya doðru gidince Emerald Bulvarýna çýkarsýn.
+~
+0 C 1
+D1
+~
+~
+0 -1 3117
+D3
+~
+~
+0 -1 3115
+S
+#3117
+Emerald Bulvarý~
+Kuzey ve güneye doðru devam eden Emerald Bulvarýndasýn. Batýda park
+giriþi ve doðuda büyük olmayan Selenge'ýn Belediye binasý duruyor.
+~
+0 0 1
+D0
+~
+~
+0 -1 3132
+D1
+~
+~
+0 -1 3137
+D2
+~
+~
+0 -1 3119
+D3
+~
+~
+0 -1 3116
+S
+#3118
+Park Yolu~
+Kuzey ve güney yönüne doðru ilerleyen park yolundasýn.
+~
+0 0 1
+D0
+~
+~
+0 -1 3111
+D2
+~
+~
+0 -1 3135
+S
+#3119
+Emerald Bulvarý~
+Emerald Bulvarýndaki bir dönüþtesin. Yol kuzey ve batý yönlerine devam
+ediyor. Doðu yönünde yýkýlmýþ birkaç gecekondu görüyorsun... Burasý þehrin
+kötü kýsmý gibi görünüyor.
+~
+0 0 1
+D0
+~
+~
+0 -1 3117
+D1
+Tehlikeli tipler görüyorsun... Bir çete için uygun bir bölge.
+~
+~
+0 -1 2101
+D3
+~
+~
+0 -1 3133
+S
+#3120
+Yol Kesiþmesi~
+Yol kesiþmesinin tam ortasýndasýn. Her yöne doðru yol var. Tam ortada
+kocaman, bir aðaç kadar kalýn, siyah bir zincirin yere baðlanmýþ olduðunu
+görüyorsun. Bu zincir havaya doðru giderek ucu gökyüzündeki bir noktaya
+varýyor. Üstünde bir tabela var.
+~
+0 0 1
+D0
+~
+~
+0 -1 3133
+D1
+~
+~
+0 -1 3136
+D2
+~
+~
+0 -1 3134
+D3
+~
+~
+0 -1 3135
+D4
+Zincir bulutlarýn içinde kayboluyor.~
+~
+0 -1 7914
+E
+zincir~
+Zincie gökyüzüne uzanýyor. Büyülü gibi.
+~
+E
+tabela~
+Tabela tüm yönleri gösteriyor:
+
+   Kuzey - Emerald Bulvarý.
+   Doðu  - Park Yolu.
+   Güney - Emerald Bulvarý.
+   Batý  - Park Yolu.
+
+Birisi kýrmýzý boyayla birþeyler eklemiþ:
+
+   Yukarý  - Redferne'in Uçan Kalesi.
+~
+S
+#3121
+Emerald Bulvarý~
+Emerald Bulvarýndaki bir dönüþtesin. Yol güneye ve batýyadoðru gidiyor.
+~
+0 0 1
+D1
+~
+~
+0 -1 3134
+D2
+~
+~
+0 -1 3125
+S
+#3122
+Park Yolu~
+Güney ve kuzeye doðru ilerleyen Park Yolundasýn. Elm Sokaðý buranýn
+doðusunda kalýyor.
+~
+0 0 1
+D0
+~
+~
+0 -1 3136
+D1
+~
+~
+0 -1 3123
+D2
+~
+~
+0 -1 3126
+S
+#3123
+Elm Sokaðý~
+Elm sokaðýndasýn. Park Yolu batýda ve Elm Sokaðý doðuya doðru devam
+ediyor.
+~
+0 0 1
+D1
+~
+~
+0 -1 3124
+D3
+~
+~
+0 -1 3122
+S
+#3124
+Elm Sokaðý~
+Elm Sokaðýnýn sonundasýn. Eski bir elm aðacý burada yetiþiyor. Aðýr
+demir parmaklýklar hemen güneyde þehrin mezarlýðýný çevreliyorlar.
+Sokak doðuda Gezi Yolu ile birleþirken, kuzeyde sona eriyor ve
+yýkýntý bir bölgeye varýyor.
+~
+0 0 1
+D0
+Selenge'ýn kenar mahallesinin baþlangýcý.
+~
+~
+0 -1 3144
+D1
+Meydaný görüyorsun.
+~
+~
+0 -1 3273
+D2
+Demir parmaklýklarýn ardýnda mezarlýðý görüyorsun.
+~
+parmaklýk~
+1 3121 3600
+D3
+~
+~
+0 -1 3123
+E
+elm aðacý~
+Elm aðacýnýn taze yapraklarý rüzgarda yavaþça salýnýyor.
+~
+E
+tabela~
+
+                          Selenge Mezarlýðý
+       Burasý birçok maceraperestin ebedi dinlenme yeri olmuþtur.
+            Lütfen saygý gösterin ve kabirlere zarar vermeyin.
+
+~
+E
+parmaklýk~
+Aðýr görünüyor. Üzerine küçük bir tabela asýlmýþ.
+~
+S
+#3125
+Emerald Avenue~
+Kuzeye doðru devam eden Emerald Bulvarýndasýn. Gezi yolu buranýn
+güneyinde kalýyor.
+~
+0 0 1
+D0
+~
+~
+0 -1 3121
+D2
+~
+~
+0 -1 3128
+S
+#3126
+Park Yolu~
+Kuzeye doðru devam eden Park yolundasýn. Gezi Yolu buranýn güneyinde.
+~
+0 0 1
+D0
+~
+~
+0 -1 3122
+D1
+Doðuda bir tapýnak görüyorsun.
+~
+~
+0 -1 3071
+D2
+~
+~
+0 -1 3129
+S
+#3127
+Gezi Yolunda~
+Þehir duvarýnýn güneybatý köþesindesin. Gezi yolu hem kuzeye hem doðuya
+doðru devam ediyor.
+~
+0 0 1
+D0
+~
+~
+0 -1 3271
+D1
+~
+~
+0 -1 3128
+S
+#3128
+Gezi Yolunda~
+Manzarasý güzel olan ve Selenge'ýn içinde olan gezi yolunda gezerek
+ilerlemeye devam ediyorsun. Doðuya doðru giderek þehrin güney kapýsýna
+ulaþabilirsin. Þehir duvarýnýn güneybatý köþesi batýda kalýrken Emerald
+Bulvarý kuzeye uzanýyor.
+~
+0 0 1
+D0
+Emerald bulvarý kuzeye ilerliyor.
+~
+~
+0 -1 3125
+D1
+Selenge'ýn iyi korunan güney kapýsýný görüyorsun.
+~
+~
+0 -1 3255
+D3
+~
+~
+0 -1 3127
+S
+#3129
+Gezi Yolu~
+Gezi yolu þehir içindeki rotasýna devam ediyor. Þehrin güney kapýsý
+buranýn batýsýnda, ve park yolu kuzeye doðru uzanýyor. Þehir duvarýnýn
+kuzeydoðu köþesi doðu yönünde bulunuyor.
+~
+0 A 1
+D0
+~
+~
+0 -1 3126
+D1
+~
+~
+0 -1 3130
+D3
+Selenge'ýn güney kapýsýný görüyorsun.
+~
+~
+0 -1 3255
+S
+#3130
+Gezi Yolu~
+Þehir duvarýnýn güneydoðu köþesindesin. Gezi Yolu hem kuzey hem de batý
+yönünde ilerliyor.
+~
+0 0 1
+D0
+~
+~
+0 -1 3273
+D3
+~
+~
+0 -1 3129
+S
+#3131
+Park Yolu~
+Kuzey ve güney yönüne doðru ilerleyen park yolundasýn.
+~
+0 0 1
+D0
+~
+~
+0 -1 3101
+D2
+~
+~
+0 -1 3111
+S
+#3132
+Emerald Bulvarý~
+Emerald Bulvarýnýn kuzey ucunda duruyorsun. Kuzeyde Austral Meydaný ve
+Kate'in Kafeteryasý. Penny adlý küçük bir sokaksa hemen doðuda.
+~
+0 0 1
+D0
+~
+~
+0 -1 3103
+D1
+~
+~
+0 -1 3139
+D2
+~
+~
+0 -1 3117
+S
+#3133
+Emerald Bulvarý~
+Emerald Bulvarýndaki bir dönüþtesin. Yol doðuya doðru devam ediyor ve
+güneye doðru Yol kesiþmesi var.
+~
+0 0 1
+D1
+~
+~
+0 -1 3119
+D2
+~
+~
+0 -1 3120
+S
+#3134
+Emerald Bulvarý~
+Emerald Bulvarýndaki bir dönüþtesin. Yol batýya doðru devam ederken
+kuzeyde bir kesiþmeyle sona eriyor.
+~
+0 0 1
+D0
+~
+~
+0 -1 3120
+D3
+~
+~
+0 -1 3121
+S
+#3135
+Park Yolu~
+Park yolundaki bir kývrýmdasýn. Yol kuzeye doðru devam ederken doðuda
+bir yol kavþaðý var. Güneyde eski kayalýklar topraðýn altýndan gökyüzüne
+doðru yükselerek bir duvar oluþturuyorlar.
+~
+0 0 1
+D0
+~
+~
+0 -1 3118
+D1
+~
+~
+0 -1 3120
+D2
+Güneyde Güneþ Tapýnaðý var.
+~
+~
+0 -1 3069
+S
+#3136
+Park Yolu~
+Park Yolundaki bir kývrýmdasýn. Yol güneye doðru devam ediyor ve batýda
+yol kesiþmesi bulunuyor.
+~
+0 0 1
+D2
+~
+~
+0 -1 3122
+D3
+~
+~
+0 -1 3120
+S
+#3137
+Bekleme Odasý~
+Belediye binasýndaki bekleme odasýndasýn. Duvar kenarlarýna sandalyeler
+dizilmiþ ve odanýn tam ortasýna uzun bir masa yerleþtirilmiþ.
+~
+0 D 0
+D1
+Bir ofise benziyor.
+~
+~
+0 -1 3138
+D3
+Batý kapýsý Emerald bulvarýna çýkýyor.
+~
+~
+0 -1 3117
+S
+#3138
+Belediye Baþkaný'nýn Ofisi~
+Selenge þehrinin belediye baþkanýnýn fazla büyük olmayan ofisindesin.
+Önünde iyice cilalanmýþ bir çalýþma masasý ile arkasýnda biraz daha
+yatýrýlsa nerdeyse bir yataða benzeyen bir koltuk bulunuyor.
+~
+0 DS 0
+D3
+Bekleme odasý batýda.
+~
+~
+0 -1 3137
+E
+koltuk~
+Koltuk gerçekten bir þaheser. Oturaný yataktaymýþcasýna rahat ettiren bir
+koltuk. Tüm toplantý salonlarý bu þeylerle donatýlmalý.
+~
+S
+#3139
+Penny Sokaðý~
+Penny sokaðýndasýn. Emerald Bulvarý batýda ve sokak doðu yönünde ilerliyor.
+~
+0 0 1
+D1
+~
+~
+0 -1 3140
+D3
+~
+~
+0 -1 3132
+S
+#3140
+Penny Sokaðý~
+Penny Sokaðýndasýn. Dar Sokak kuzey ve batýya doðru devam ediyor. Gezi
+Yolu bu yolla doðuda kesiþiyor.
+~
+0 0 1
+D0
+~
+~
+0 -1 3141
+D1
+Meydaný görüyorsun.
+~
+~
+0 -1 3272
+D3
+~
+~
+0 -1 3139
+S
+#3141
+Penny Sokaðýnýn Sonu~
+Penny sokaðýnýn sonundasýn. Tek çýkýþ güneyde görünüyor.
+~
+0 0 1
+D2
+~
+~
+0 -1 3140
+S
+#3142
+Yüzbaþý'nýn Ofisi~
+Muhafýz Yüzbaþýsýnýn ofisindesin. Üzerinde Selenge þehrinin armasý olan
+bir bayrak kuzey duvarýnda asýlmýþ, güneyde ise aðýr ve saðlam bir kapý var.
+~
+0 D 0
+D1
+Muhafýz karargahýný görüyorsun.
+~
+kapý~
+1 3120 3110
+D2
+Büyük çelik kapýyý görüyorsun.
+~
+kapý~
+1 3137 3143
+E
+zýrh~
+Biraz paslý olsa da zýrh takýmýnýn olaðanüstü bir iþçiliði var.
+~
+S
+#3143
+Hapishane~
+Karanlýk ve nemli bir hücredesin. Koyu renkli taþlardan oluþan hücrenin
+duvarlarý saðlam ve dokunulmayacak kadar soðuklar. Aðýr ve saðlam görünen
+bir kapý var.
+~
+0 D 0
+D0
+Büyük çelik kapýyý görüyorsun.
+~
+kapý~
+1 3137 3142
+E
+duvar duvarlar~
+Duvarlarda bir çok çentik ve çizik var. Bazý sözcükler de karalanmýþ:
+"YALITIM KALITIM DAN ÝYÝDÝR" "TERMÝNAL YAÞIYOR".
+~
+S
+#3144
+Elm Sokaðýnýn Sonu~
+Elm sokaðý burada biterken tehlikeli bir yerin baþlangýcýný görüyorsun.
+Doðuya doðru yýkýk gecekondulara doðru ulaþabilir veya güneye giderek
+mezarlýða çýkabilirsin. Bir an için buranýn þehrin en mutlu bölümü
+olmadýðý düþüncesine kapýlýyorsun.
+~
+0 0 1
+D1
+Çetelerin bölgesini görüyorsun.
+~
+~
+0 -1 2160
+D2
+Elm sokaðý mezarlýða devam ediyor.
+~
+~
+0 -1 3124
+S
+#3150
+Kate'in Kafeteryasý~
+Piþen ekmek ve yavaþ yavaþ süzülen güveç kokusu seni adeta büyüleyerek
+içeri doðru çaðrýyor. Burada yaðlý veya kirli bulaþýk görmek imkansýz,
+duvarlar güzel duvar kaðýtlarý ile kaplanmýþ, sandalyeler parça ahþaplarýn
+birleþtirilmesiyle yapýlmýþ. Pek çok masa, satranç tahtasý veya tavla bu
+þekilde oluþturulup dikkatlice boyanarak yepyeni bir hale sokulmuþ. Büyük
+bir pencere Selenge'ýn ýrmaðýna bakýyor ve bir arka kapý arkadaki ufak
+iskeleye ulaþýyor. Güneyde ise ana giriþ kapýsý Austral Meydanýna çýkýyor.
+Kate'i burada yeni bir yemek tarifi ile uðraþýrken veya bir kap sýcak
+tarçýnlý kahve piþirirken bulabilirsin. Hatta belkide bir iskemle çeker,
+onunla bir iki el tavla oynarsýn.
+~
+0 DK 0
+D0
+Küçük bir sal iskelesi sallarýn kafeteryaya ulaþabilmesini saðlýyor.
+~
+~
+0 -1 3203
+D2
+Austral Meydanýný görüyorsun.
+~
+~
+0 -1 3103
+D4
+You see the far-off halls of Valhalla.
+~
+~
+0 -1 1219
+E
+pencere iskele~
+Kuzeybatýnda Selengeýn merkezine yönelen yýpranmýþ köprüyü görebiliyorsun.
+Özensiz bir iskele kafeteryayý Selenge ýrmaðýna baðlýyor. Bir veya iki
+sal iskelede aðýr aðýr salýnýyorlar. Irmaðýn karþýsýnda Rýhtýmý ve Hýrsýz
+Loncasý'ný görebiliyorsun. Fakat bütün bunlardan çok uzaktalar...
+~
+S
+#3160
+Haritacý~
+Ýçeriye girdiðinde seninle giren rüzgar pek çok kaðýdý uçuruyor.
+Gözüne kaçan tozu çýkartmaya çalýþýyorsun. Dükkan bir sürü parþömen,
+kitap, ve eski sayfalarla dolu. Diðerlerinden daha az karýþýk görünen
+bir masa hemen önünde duruyor. Masanýn hemen gerisinde içi parþönemle
+dolu bir kutu var. Saðýnda bir kitaplýk solunda ise Halk Meydanýna
+doðru bakan bir pencere görüyorsun. Yarýsý kitaplarla gizlenmiþ küçük
+bir kapý dükkanýn arkasýndaki bir odaya gidiyor.
+~
+0 BC 0
+D0
+Kapýdaki notta þöyle yazýyor: "Ýþi olmayan giremez".
+~
+kapý~
+2 3161 3161
+D2
+Güneyde karanlýk arka sokak var. Karþýsýnda ise Grubby'nin haný görünüyor.
+~
+~
+0 -1 3024
+E
+pencere~
+Pencereden dikkatle baktýðýnda bir þehir muhafýzýnýn yaþlý bir kadýný
+hýrpaladýðýný görüyorsun.
+~
+E
+kitaplýk~
+Bir çok haritacý dergisi ve yerbilim çalýþmalarý görüyorsun. Ayrýca
+raflarda birkaç büyük kitap var. Yazarlarý "Naomi Klein" adýnda biri.
+~
+S
+#3161
+Melankolinin odasý~
+Ýlk baþta zayýf ve giderek artan bir koku odaya girer girmez burun
+direðini kýrmaya yetiyor. Ýçeriye adýmýný atar atmaz kendini bir ayý
+postunun üzerinde buluyorsun ve etrafa bakýyorsun. Uzaktaki bir duvarýn
+dibinde küçük bir yatak ve hemen dibinde demirden, saðlam görünüþlü bir
+sandýk görüyorsun. Büyük bir bir ihtimalle içi buranýn sahibinin macera
+günlerinden kalma eþyalarla dolu. Doðudaki duvarýn pencere dibinde bir
+masanýn üzerindeki vazoda bir beyaz gül görüyorsun. Bunun dýþýnda oda boþ
+görünüyor.
+~
+0 C 0
+D2
+Küçük bir kapý güneye, harita dükkanýna çýkýyor.
+~
+kapý~
+2 3161 3160
+D4
+~
+~
+0 -1 1219
+E
+sandýk~
+Bu sandýk çok saðlam bir þekilde kilitlenmiþ. Ve bunu açabilecek alet
+tahminlerinin çok ötesinde...
+~
+S
+#3170
+Aptal Tapýnaðý~
+Yüksek kubbeli geniþ bir holün önünde duruyorsun. Çevrende yanan binlerce
+mum gözlerini kamaþtýracak kadar parlak ýþýklar yayýyor. Tanrýlarý sembolize
+eden heykeller bir ölümlüyü korkutacak kadar büyükler.
+~
+0 D 0
+H 200 M 50
+D3
+Batýda duvar yolunu görüyorsun.
+~
+~
+0 -1 3042
+D4
+~
+~
+0 -1 1219
+E
+çamur birikintileri~
+Zemindeki çamurlar iðrenç görünüyorlar. ve içlerinden dayanýlmaz bir
+koku sýzýyor.
+~
+S
+#3200
+Köprünün Altý~
+Köprünün altýndaki kemerin su seviyesinden 40 santim yukarýsýna kadar
+yosun ile kaplý. Þehir duvarýnýn alçak bir yerindeki açýklýktan su geliyor.
+~
+0 0 7
+D1
+~
+~
+0 -1 3201
+D3
+Batýya, Haon-Dor ormanýna akan nehri görüyorsun.~
+~
+0 -1 9772
+E
+duvar~
+Geniþ gri kayalarýn bir çeþit harçla birbirine birleþtirilmesi ortaya
+muazzam yükseklikte bir yapý çýkartmýþ. Oldukça güven verici görünüyor.
+~
+S
+#3201
+Isdarl nehrinin üstünde~
+Buranýn kuzeyinde arka sokaðýn gizemli binalarý bulunuyor. Irmak batýdaki
+köprüye doðru akýyor. Irmaðýn kenarlarý týrmanmak için çok dik.
+~
+0 0 7
+D1
+~
+~
+0 -1 3202
+D3
+~
+~
+0 -1 3200
+S
+#3202
+Isdarl nehrinin üstünde~
+Kuzeyde þehir çöplüðü var. Irmak doðudan batýya doðru akýyor. Irmaðýn
+kenarlarý týrmanmak için çok dik. Üstten geçen bir köprü gezi yolu ile
+çöplüðü birbirine baðlýyor.
+~
+0 0 7
+D1
+~
+~
+0 -1 3203
+D3
+~
+~
+0 -1 3201
+S
+#3203
+Isdarl nehrinin üstünde~
+Rýhtým buranýn hemen kuzeyinde ve güneydede ufak bir sal Kate'in
+Kafeteryasýna ulaþabilmen için baðlanmýþ. Irmak batý yönünde akýyor.
+~
+0 C 7
+D0
+~
+~
+0 -1 3049
+D1
+~
+~
+0 -1 3204
+D2
+Kate'in kafeteryasýnýn arkasýndaki küçük iskeleyi görüyorun.
+~
+~
+0 -1 3150
+D3
+~
+~
+0 -1 3202
+S
+#3204
+Isdarl nehrinin üstünde~
+Irmaðýn kuzey kenarýnda terk edilmiþ ambarý görüyorsun. Buranýn doðusunda
+ýrmak doðu köprüsünün altýndan ve þehir duvarýna doðru akýyor. Rýhtýmýn
+kýyýsý batýda kalýyor.
+~
+0 0 7
+D1
+~
+~
+0 -1 3205
+D3
+~
+~
+0 -1 3203
+S
+#3205
+Isdarl nehrinin üstünde~
+Irmak buradan doðu þehir duvarýnýn içine doðru giriyor. Delik bir sürü
+düþey ve dianahtar þekilde þehir duvarýna yerleþtirilmiþ demir çubuklarla
+kapatýlmýþ. Doðuya doðru bir köprünün taþlarýný görüyorsun.
+~
+0 0 7
+D1
+Demir parmaklýklar kýrýlarak içinden geçilecek bir boþluk açmýþ. Parmaklýklarýn ötesinde karanlýk tüneli görüyorsun.
+~
+parmaklýk~
+0 -1 5001
+D3
+~
+~
+0 -1 3204
+S
+#3250
+Duvar Yolu~
+Þehrin doðu duvarýný takip eden Duvar Yolu kuzey ve güney yönünde
+uzanýyor. Þehrin doðu kapýsý kuzeyinde. Güneyde arka sokak ile olan bir
+kesiþme görüyorsun. Cüzdanýnýn yerinde olup olmadýðýný kontrol etmek için
+elini cebine atýyorsun.
+~
+0 0 1
+D0
+Þehrin doðu kapýsý kuzeyde duruyor.
+~
+~
+0 -1 3041
+D2
+Karanlýk bir sokakla kesiþimi görüyorsun.
+~
+~
+0 -1 3251
+S
+#3251
+Duvar Yolu~
+Þehrin doðu duvarýnýn dibinden doðu þehir kapýsý ile güneydeki bir köprü
+arasýnda yürüyosun. Karanlýk, pis bir arka sokak buranýn batýsýnda. Ýçinde
+ne olduðunu çözemediðin bir sývý ile dolu havuzun çevresinden dolaþarak
+dikkatlice geçiyorsun. Bunun içinde ne olduðunu kimse bilemez...
+~
+0 0 1
+D0
+Duvar yolu kuzeye, kapýya doðru ilerliyor.
+~
+~
+0 -1 3250
+D2
+Duvar yolu güneye, Selenge ýrmaðýnýn üzerindeki köprüye doðru ilerliyor.
+~
+~
+0 -1 3252
+D3
+Pis, karanlýk bir arka sokak batýya ilerliyor... soygun için mükemmel
+bir yer.
+~
+~
+0 -1 3046
+S
+#3252
+Duvar Yolu~
+Selenge'ýn düþmanlarý uzak tutmak için kurulmuþ olan duvarlarý
+üzerindeki gözetleme kulesi doðuda bulunuyor. Böylece þehir güvende oluyor.
+En azýndan bunu umuyorsun. Karanlýk bir arka sokakla olan kesiþme kuzeyde,
+ve güneyde ýrmaðýn üzerinden geçen bir köprü bulunmakta. Köprüden sonra
+Duvar yolu gezi yoluna doðru dönüyor.
+~
+0 0 1
+D0
+Karanlýk bir sokakla kesiþimi görüyorsun.
+~
+~
+0 -1 3251
+D2
+Doðu köprüsü, ýrmaðý güneye doðru geçiyor.
+~
+~
+0 -1 3253
+S
+#3253
+Köprüde~
+Güçlü, taþtan yapýlmýþ bir köprüyü geçmektesin. Aþaðýnda ýrmak þehir
+duvarýndaki kocaman bir açýklýktan akmakta ve bu açýklýk kalýn demir
+parmaklýklarla kapatýlmýþ. Kuzeyinde Duvar yolu, ve buranýn güneyinde Gezi
+yolu baþlamakta.
+~
+0 0 1
+D0
+Duvar yolu kuzeye devam ediyor.
+~
+~
+0 -1 3252
+D2
+Cadde Selenge'ýn güney bölümü boyunca uzanýyor.
+~
+~
+0 -1 3104
+E
+açýklýk çubuklar ýrmak~
+Hmm...bazý çubuklar duvardan sökülmüþ. Makul boyutlarda bir sal ya da
+kanonun geçmesi için yeterli. Ne tür bir yaratýðýn bunu yapabilecek güçte
+olduðunu merak ediyorsun.
+~
+S
+#3254
+Güney Köprüsü~
+Küçük ve tuðla taþlardan yapýlmýþ þehir Çöplüðünden daha çekici olan gezi
+yoluna doðru ilerleyen bir köprünün üzerindesin. Þehrin güneyindesin ve
+kuzeydeki çöplükten gelen koku, gezi yolundan gelen temiz havayý daha çekici
+yapýyor. Aþaðýda yavaþ ilerleyen bir nehir bulunuyor.
+~
+0 0 1
+D0
+Daðýnýk þehir çöplüðünü görüyorsun.
+~
+~
+0 0 3030
+D2
+Güzel bir gezi yolu ýrmakla birlikte ilerliyor. Dolaþmak için ne romantik
+bir yer!
+~
+~
+0 -1 3102
+S
+#3255
+Selenge'ýn Güney Giriþ Kapýsý~
+Ýki güçlü kule þehir duvarýna monte edilmiþ aðýr, saðlam ve tahta bir
+kapýyý çevreliyor. Bu kapý þehiri güney ormanlarýnda gezinen goblinlerden
+korumak için yapýlmýþ. Güneye devam ederek þehirden çýkabilir(tabiki
+istiyorsan) veya doðu ve batý yönünde ilerleyen gezi yolundan devam
+edebilirsin.
+~
+0 S 1
+D1
+Cadde þehir duvarýnýn iç kýsmý boyunca doðuya ilerliyor.
+~
+~
+0 -1 3129
+D2
+Güney kapýsýný görüyorsun.
+~
+~
+1 3133 3256
+D3
+Cadde þehir duvarýnýn iç kýsmý boyunca batýya ilerliyor.
+~
+~
+0 -1 3128
+S
+#3256
+Selenge'ýn Güney Giriþ Kapýsýnýn Dýþý~
+Selenge'ýn güney þehir duvarýnýn arkasýnda, güçlü tahta bir kapýnýn
+önündesin. Kapýnýn her iki tarafýndaki gözcü kulelerinde bulunan nöbetçiler
+seni þüpheli gözlerle süzüyorlar. Burada þehri ormandan gelebilecek
+goblinlere korumak ve gözlemek için duruyorlar. Goblinler ve Miden'nir
+güneyde, Selenge þehri ise kuzeyde.
+~
+0 0 3
+D0
+Güney kapýsýný görüyorsun.
+~
+~
+1 3133 3255
+D2
+Güneyde sayýsýz goblin savaþçýnýn yaþadýðý Miden'nir ormaný var.
+~
+~
+0 -1 3505
+S
+#3257
+Duvar Yolu~
+Selenge þehrinin batý kapýsýnýn kuzeyindeki duvar yolundan yürümeye devam
+ediyorsun. Yol batý duvarýný takip ederek kuzeye, kalabalýk tanrýlar yolu ile
+olan bir kesiþmeye doðru ilerliyor.
+~
+0 0 1
+D0
+Duvar yoluyla kalabalýk Tanrýlar yolunun kesiþimini görüyorsun.
+~
+~
+0 -1 3258
+D2
+Þehrin batý kapýsý güneyde duruyor.
+~
+~
+0 -1 3040
+S
+#3258
+Duvar Yolu~
+Duvar Yolu burada Tanrýlar Yolu ile kesiþiyor. Tanrýlar yolu bir sürü
+dükkan ve sanatkar ile dolu. Doðu yönünde yol buradan doðu duvarýna kadar
+ilerliyor. Duvar yolu kuzeye ve güneye doðru devam ediyor.
+~
+0 0 1
+D0
+Duvar yolu kuzeye, duvarýn kuzeybatý köþesine doðru devam ediyor.
+~
+~
+0 -1 3259
+D1
+Tanrýlar yolunun dükkanlarýný görüyorsun.
+~
+~
+0 -1 3301
+D2
+Duvar yolu, batý kapýsýna doðru batý duvarý boyunca devam ediyor.
+~
+~
+0 -1 3257
+S
+#3259
+Duvar Yolu~
+Duvar yolundan yürüyorsun. Güneyde kalabalýk tanrýlar yolu ile bir
+kesiþme var. Þehrin duvarýnýn kuzeybatý ucu hemen kuzeyinde bulunuyor.
+~
+0 0 1
+D0
+Þehir duvarýnýn kuzeybatý köþesini görüyorsun.
+~
+~
+0 -1 3260
+D2
+Güneyde duvar yolu kalabalýk Tanrýlar yoluyla kesiþiyor.
+~
+~
+0 -1 3258
+S
+#3260
+Kuzeybatý Köþesi~
+Þehrin kuzeybatý duvarýnda, duvar yolundaki bir dönüþtesin. Güneye batý
+kapýsýna doðru ilerleyebilir veya doðuya doðru kuzey kapýsýna gidebilirsin.
+~
+0 0 1
+D1
+Duvar yolu, þehrin kuzey duvarý boyunca ilerliyor.
+~
+~
+0 -1 3261
+D2
+Duvar yolu, þehrin batý duvarý boyunca ilerliyor.
+~
+~
+0 -1 3259
+S
+#3261
+Duvar Yolu~
+Duvar yolunda ilerledikçe. þehrin kuzeybatý köþesi ile doðudaki þehrin
+kuzey kapýsý arasýnda kalan þehir duvarýný görüyorsun.
+~
+0 0 1
+D1
+Duvar yolu doðuya, Selenge'ýn kuzey kapýsýna doðru devam ediyor.
+~
+~
+0 -1 3262
+D3
+Batýda þehir duvarýnýn kuzeybatý köþesini görebiliyorsun.
+~
+~
+0 -1 3260
+S
+#3262
+Selenge'ýn Kuzey Giriþ Kapýsý~
+Þehrin duvarlarý üzerine kurulmuþ iki kule ile kocaman ve yere doðru
+açýlan tahta bir kapýnýn önündesin. Bu kapý diðerleri kadar sýký korunmuyor
+çünkü buradaki ovalar tehlike içermiyor. Kuzeye doðru ilerleyerek Selenge'ý
+terkedebilir veya duvar yolunu takip edip batý ve doðu yönlerine doðru
+ilerleyebilirsin. Güneye doðru tanrýlar yolunu ve onun ilerisindeki Selenge
+Tapýnaðýný görebiliyorsun, fakat oraya ulaþmak için epey çevrelerinden
+yürümen gerekecek.
+~
+0 S 1
+D0
+Kuzey ovalarý kapýdan görülebiliyor.
+~
+~
+1 3133 3268
+D1
+Duvar yolu kuzey duvarý boyunca doðuya ilerliyor.
+~
+~
+0 -1 3263
+D3
+Duvar yolu kuzey duvarý boyunca batýya ilerliyor.
+~
+~
+0 -1 3261
+S
+#3263
+Duvar Yolu~
+Þehrin kuzeydoðu köþesi ile þehrin kuzey kapýsý arasýnda kalan duvar
+yolunda ilerliyorsun. Yoldaki kan lekelerini görüyorsun. En iyisi hýrsýzlara
+karþý gözünü dört açmak.
+~
+0 0 1
+D1
+Þehir duvarýnýn kuzeydoðu köþesini görebiliyorsun.
+~
+~
+0 -1 3264
+D3
+Þehrin kuzey kapýsý doðuda duruyor.
+~
+~
+0 -1 3262
+S
+#3264
+Kuzeydoðu Köþesi~
+Duvar Yolu þehrin buradaki kuzeydoðu köþesinde kývrýlarak batýda þehrin
+kuzey kapýsýna, güneyde ise þehrin batý kapýsýna doðru ilerliyor.
+~
+0 0 1
+D2
+Duvar yolu þehrin doðu duvarý boyunca güneye ilerliyor.
+~
+~
+0 -1 3265
+D3
+Duvar yolu þehrin doðu duvarý boyunca batýya ilerliyor.
+~
+~
+0 -1 3263
+S
+#3265
+Duvar Yolu~
+Hemen güneyde kalabalýk tanrýlar yolu ile bir kesiþme var. Selenge'ýn doðu
+duvarý hemen yanýnda. Ve kuzeyde þehir duvarýnýn kuzeydoðu köþesi bulunuyor.
+~
+0 0 1
+D0
+Þehir duvarýnýn kuzeydoðu köþesini görüyorsun.
+~
+~
+0 -1 3264
+D2
+Kalabalýk bir caddeyle kesiþimi görüyorsun.
+~
+~
+0 -1 3266
+S
+#3266
+Duvar Yolu~
+Burada duvar yolu batýya doðru olan tanrýlar yolu ile kesiþiyor. Batýda
+uzakta þehrin batý duvarýný görebiliyorsun. Burnuna tanrýlar yolu önünden
+yoðun rayihalar geliyor. Hepsinin karýþýmý ilginç bir koku yaratýyor.
+Duvar yolu güneye ve kuzeye doðru devam ediyor.
+~
+0 0 1
+D0
+Duvar yolu þehrin doðu duvarý boyunca kuzeye ilerliyor.
+~
+~
+0 -1 3265
+D2
+Duvar yolu güneye, Selenge'ýn doðu kapýsýna doðru ilerliyor.
+~
+~
+0 -1 3267
+D3
+Klan yolundaki kalabalýðý görüyorsun.
+~
+~
+0 -1 3316
+S
+#3267
+Duvar Yolu~
+Duvar Yolunun neredeyse ortasýndasýn. Hemen kuzeyde þehrin doðu kapýsý
+bulunuyor. Kuzeyde kalabalýk tanrýlar yolu ile olan bir kesiþmeyi
+görebiliyorsun. Kapýdaki nöbetçiler seni þüpheli gözlerle süzüyorlar.
+~
+0 0 1
+D0
+Tanrýlar yoluyla olan kesiþimi görüyorsun.
+~
+~
+0 -1 3266
+D2
+Selenge'nin sýký korunan doðu kapýsýný görüyorsun.
+~
+~
+0 -1 3041
+S
+#3268
+Selenge'nin Kuzey Kapýsýnýn Dýþý~
+Duvarlarla çevrili Selenge þehrinin kuzey kapýsýnýn dýþýndasýn. Kuzeyde
+þehrin duvarlarýnýn etrafýna daðýlan kuru bir patika görünüyor. Kuzey yolunun
+devamýnda geniþ kuzey topraklarý Ofcol þehrine doðru uzanýyor. Güneye giderek
+Selenge'a geri dönebilirsin.
+~
+0 0 2
+D0
+Þehrin çevresinde dolaþan tozlu yolu görüyorsun.
+~
+~
+0 -1 3904
+D2
+Selenge'ýn kuzey kapýsýný görüyorsun.
+~
+~
+1 3133 3262
+S
+#3270
+Gezi Yolunda~
+Batýda Selenge Þehrinin güçlü duvarlarý yükselerek, kötülüðün girmesine
+izin vermiyorlar. Gezi Yolu kuzeyde bir köprüye ve güneyde güzel bir parka
+doðru yöneliyor.
+~
+0 0 1
+D0
+Cadde þehir duvarý boyunca kuzeye ilerliyor.
+~
+~
+0 -1 3100
+D2
+Cadde güzel bir parktan geçerek güneye ilerliyor.
+~
+~
+0 -1 3271
+S
+#3271
+Parkýn yakýnýndaki Gezi Yolu~
+Gezi Yolundan, Selenge'ýn þehir duvarýnýn dibinden yürümeye devam
+ediyorsun. Kuzeye doðru yol güzel bir parktan geçiyor, güneye doðru ise
+þehir duvarýnýn güneybatý köþesini görüyorsun.
+~
+0 0 1
+D0
+Cadde güzel bir parktan geçerek kuzeye ilerliyor.
+~
+~
+0 -1 3270
+D2
+Þehir duvarýnýn kuzeybatý köþesini görebiliyorsun.
+~
+~
+0 -1 3127
+S
+#3272
+Penny Sokaðýndan geçen Gezi Yolu~
+Þehrin iç duvarlarýna doðru giden bir yoldasýn. Kuzeyde gezi yolu bir
+köprüye doðru ilerliyor. Buradan Selenge'ýn kuzey kýsmýna ulaþabilirsin.
+Güneyde Elm sokaðý ile olan bir kesiþme var. Ýlginç boyanmýþ olan Penny
+sokaðýnýn kaldýrýmlarý batýda.
+~
+0 0 1
+D0
+Cadde kuzeye, doðu köprüsüne doðru ilerliyor.
+~
+~
+0 -1 3104
+D2
+Cadde güneye, Elm Sokaðý kesiþmesine doðru ilerliyor.
+~
+~
+0 -1 3273
+D3
+Penny sokaðýný görüyorsun.
+~
+~
+0 -1 3140
+S
+#3273
+Elm Sokaðýnýn yanýnda Gezi Yolunda~
+Elm Sokaðýý mezarýnýn yakýnýndan geçerken hava dondurucu bir hal alýyor.
+Þehrin duvarlarý doðuda ve gezi yolu kuzey güney yönlerinde uzanýyor.
+Batýnda Mezarlýða giriþi görüyorsun.
+~
+0 0 1
+D0
+Cadde kuzeye, Penny Sokaðýnýn kesiþmesine doðru ilerliyor.
+~
+~
+0 -1 3272
+D2
+Cadde güneye, duvarýn güneydoðu köþesine doðru ilerliyor.
+~
+~
+0 -1 3130
+D3
+Elm sokaðýný ve mezarlýk giriþini görüyorsun.
+~
+~
+0 -1 3124
+S
+#3301
+Klan Yolu~
+Klan Yolunun batý ucundasýn. Buradaki insan sayýsý az. Burasý
+Selenge'ýn sakin kýsýmlarýndan biri. Doðudan insanlarýn dualar okurken
+gelen seslerini duyabiliyorsun.
+~
+0 0 1
+D1
+Klan yolu doðuya devam ediyor.
+~
+~
+0 -1 3302
+D3
+Duvar yolu batýda.
+~
+~
+0 -1 3258
+S
+#3302
+Klan Yolu~
+Klan Yolunda yürüyorsun. Yüksek merdivenler yukarýya, tapýnaða
+doðru çýkýyorlar. Yol batý ve doðu yönünde devam ediyor.
+~
+0 0 1
+D1
+Klan yolu doðuya devam ediyor.
+~
+~
+0 -1 3303
+D2
+Otho'nun yeri güneyde.
+~
+~
+0 -1 3334
+D3
+Klan yolu batýya devam ediyor.
+~
+~
+0 -1 3301
+S
+#3303
+Klan Yolu~
+Klan Yolunun bu bölümünde sessizlik ve huzur hakim. Kaldýrýmlardaki
+yeþile çalan renk tonu dikkatini çekiyor. Türlü parýldayan rünlerin
+sarmaladýðý merdivenler yukarýya, tapýnaða doðru çýkýyorlar. Yol, batýya
+ve doðuya doðru uzanýyor.
+~
+0 0 1
+D1
+Klan yolu doðuya devam ediyor.
+~
+~
+0 -1 3314
+D3
+Klan yolu batýya devam ediyor.
+~
+~
+0 -1 3302
+S
+#3314
+Klan Yolu~
+Sesler ve ýþýk Klan Yolunun bu bölümünde oldukça fazla. Merdivenler
+yukarýya, tapýnaða doðru çýkýyorlar. Yol batý ve doðu yönlerinde
+devam ediyor.
+~
+0 0 1
+D1
+Klan yolu doðuya devam ediyor.
+~
+~
+0 -1 3315
+D3
+Klan yolu batýya devam ediyor.
+~
+~
+0 -1 3303
+S
+#3315
+Klan Yolu~
+Klan Yolu burada biraz geniþleyerek daha çok insanýn yürümesine olanak
+saðlýyor. Yüksek merdivenler yukarýya, tapýnaða doðru çýkýyorlar.
+Klan Yolu batý ve doðu yönlerinde devam ediyor.
+~
+0 0 1
+D1
+Klan yolu doðuya devam ediyor.
+~
+~
+0 -1 3316
+D2
+Güneyde kalabalýk bir bar var.
+~
+~
+0 -1 3356
+D3
+Klan yolu batýya devam ediyor.
+~
+~
+0 -1 3314
+S
+#3316
+Klan Yolu~
+Klan Yolunun doðu ucundasýn. Klan Yolu batýya doðru ve doðuda yüksek
+bir duvara doðru devam ediyor.
+~
+0 0 1
+D1
+Duvar yolu doðuda.
+~
+~
+0 -1 3266
+D3
+Klan yolu batýya devam ediyor.
+~
+~
+0 -1 3315
+S
+#3334
+Para Deðiþim Odasý~
+Yerleri iyi düþünülmüþ birkaç fener odayý çok iyi aydýnlatýyor. Odadaki
+duvarlar duvar halýlarý ile kaplý ve hiç þüphen yokki arkalarýnda nöbetçiler
+bulunuyor. Para deðiþtirici büyük bir masanýn arkasýna oturmuþ bekliyor.
+~
+0 D 0
+D0
+Kuzeyde Klan Yolu var.
+~
+~
+0 -1 3302
+E
+duvar halý~
+Halýlarýn ardýný gözetlemek istiyorsun ama UNUT BUNU.
+~
+E
+iþaret~
+Bozukluklarýnýzý bana verin, ben de onlarý sizin için bütünleyeyim.
+Komisyon olarak yalnýz 1'e 20 alýrým. - Otho
+~
+S
+#3352
+Grebe'nin Haný~
+Hemen dal. Bu yer hakkýnda söyleyebileceðin tek þey bu. Dikkatlice ölü
+veya sýzmýþ denizcilerin üstünden geçerek odanýn ortasýna ulaþýyorsun.
+Duvarlarda hiç dekorasyon yok. Hepsi ya kýzgýnlýk esnasýnda parçalanmýþ ya
+da silah olarak kullanmak için koparýlmýþ. Etrafa, umutsuzca oturacak
+temiz bir masa için bakýp, sonunda pes ediyorsun.
+~
+0 D 0
+D2
+Güneyde karanlýk bir sokak var.
+~
+~
+0 0 3026
+D1
+Warlock loncasýnýn giriþini görüyorsun.
+~
+~
+0 -1 3073
+E
+duvar duvarlar~
+Delikleri saymazsak oldukça yalýn.
+~
+E
+masa masalar~
+Görece daha az kusmuk olan bir masa buldun.
+~
+S
+#3355
+Boz Ayý'nýn Meyhanesi~
+Kalabalýk meyhane patronlarla dolu. Ýnsanlar gülüyor ve þarký sölüyorlar.
+Bir halk ozaný fülütü ile çalarken bir kýsým insan dans ederek müziðine
+eþlik ediyor. Meyhanenin sahibi Boz Ayý çevrede dolaþarak müþterilerinin
+herhangi bir ihtiyacý olup olmadýðýna bakýyor. Meyhane güneyde ve doðuya
+doðru meyhanenin baþka bir bölümü bulunuyor.
+~
+0 D 0
+D1
+Meyhanenin baþka bir odasýný görüyorsun.
+~
+~
+0 -1 3356
+D2
+Meyhane güneyde.
+~
+~
+0 -1 3357
+S
+#3356
+Meyhanede bir oda~
+Meyhanenin bu kýsmý dans eden ve þarký söyleyen insanlarla dolu. Bir halk
+ozaný köþedeki bir sandalyeye oturmuþ fülütünü çalýyor. Yanýnda kýzýl saçlý
+bir kadýn bir kahramanlýk ve komedi þarkýsý söylüyor. Sarhoþ insanlar
+gülüyorlar ve meþgul bayan garsonlar kalabalýk arasýnda kulplu bardaklarda
+içki ve yemek servisi yapýyorlar. Meyhanenin baþka bir bölümü batýda.
+Ve güneyde bir meyhane bulunuyor. Basamaklar odanýn bir köþesini kaplýyorlar.
+~
+0 D 0
+D0
+Kuzeyde Klan Yolu var.
+~
+~
+0 -1 3315
+D2
+Meyhane güneyde.
+~
+~
+0 -1 3358
+D3
+Batýda meyhanenin baþka bir odasý var.
+~
+~
+0 -1 3355
+D4
+Bir merdiven resepsiyona çýkýyor.
+~
+~
+0 -1 3359
+S
+#3357
+Meyhane~
+Meyhanenin hemen arkasýndaki raflarda kuplu bardaklar , güçlü içkilerin
+þiþeleri dizilmiþ. Alçaktaki raflardan birini garip görünüþlü içecekler
+süslüyor. Meyhanenin gerisindeki bir masanýn üzerinde bir fýçý duruyor.
+Fýçýnýn yanýnda güçlü fakat arkadaþ canlýsý görünen bir garson bardaklarý
+parlatýyor. Duvarda bir iþaret görüyorsun.
+~
+0 D 0
+D0
+Meyhane kuzeyde.
+~
+~
+0 -1 3355
+E
+iþaret~
+"Akþam yemeði menümüzü kaçýrmayýn".
+~
+S
+#3358
+Meyhane~
+Meyhanenin hemen arkasýndaki raflarda kuplu bardaklar , güçlü içkilerin
+þiþeleri dizilmiþ. Alçaktaki raflardan birini garip görünüþlü içecekler
+süslüyor. Meyhanenin gerisindeki bir masanýn üzerinde bir fýçý duruyor.
+Fýçýnýn yanýnda güçlü fakat arkadaþ canlýsý görünen bir garson bardaklarý
+parlatýyor.
+~
+0 D 0
+D0
+Kuzeyde bir oda var.
+~
+~
+0 -1 3356
+E
+iþaret~
+"Akþam yemeði menümüzü kaçýrmayýn".
+~
+S
+#3359
+Han~
+Boz Ayý'nýn meyhanesinin üst kýsmýndasýn. Birkaç masa ve sandalye
+buraya ev havasý vermiþ. Büyük bir þöminede yanan odunlar odaya ýsý
+veriyorlar. Büyük meþe bir masa odanýn bir köþesinde duruyor. Ufak tefek
+gözlüklü bir adam masanýn baþýna oturmuþ kitaplarýna çalýþýyor. Odaya
+girdiðinde sana soru sorar birbiçimde bakýyor. Belkide bir oda istemen
+için bakýyordur.
+~
+0 D 0
+D5
+Merdivenler meyhaneye iniyor.
+~
+~
+0 -1 3356
+S
+#0
+
+#RESETS
+M 0 3172   1 3077  1    * Templeman
+M 0 3011   1 3001  1    * Questor
+E 1 3005   1   16       *   Questor weapon
+O 0 3010   1 3054	* the donation pit
+M 0 3000   1 3033  1	* the wizard
+G 1 3040  -1     	*   a scroll of identify
+G 1 3041  -1		*   a yellow potion of see invisible
+G 1 3039  -1     	*   a scroll of cancellation
+G 1 3042  -1     	*   a scroll of recall
+G 1 3043  -1     	*   a ring of protection
+G 1 3044  -1     	*   a wand of magic missiles
+M 0 3003   1 3011  1	* the weaponsmith
+G 1 3020  -1     	*   a dagger
+G 1 3021  -1     	*   a small sword
+G 1 3022  -1     	*   a long sword
+G 1 3023  -1     	*   a club
+G 1 3024  -1     	*   a mace
+G 1 3025  -1     	*   a hand axe
+G 1 3026  -1     	*   a battle axe
+G 1 3027  -1     	*   a spear
+G 1 3028  -1     	*   a wooden staff
+G 1 3029  -1     	*   a flail
+G 1 3093  -1		*   a wooden arrow
+G 1 3094  -1		*   a silver arrow
+G 1 3095  -1		*   a golden arrow
+G 1 3096  -1		*   an adamantite arrow
+E 1 3022  -1   16	*   a long sword
+M 0 3165   1 3011  1    * novice boy of weaponsmith
+M 0 3004   1 3020  1	* the armourer
+G 1 3072  -1     	*   a scale mail jerkin
+G 1 3073  -1     	*   a scale mail coif
+G 1 3074  -1     	*   a long scale mail skirt
+G 1 3075  -1     	*   a pair of reinforced boots
+G 1 3076  -1     	*   a pair of reinforced gloves
+G 1 3077  -1     	*   a pair of scale mail sleeves
+G 1 3110  -1     	*   a chain mail shirt
+G 1 3111  -1     	*   a chain mail coif
+G 1 3112  -1     	*   a long chain mail skirt
+G 1 3113  -1     	*   a pair of iron-bound boots
+G 1 3114  -1     	*   a pair of chain mail gauntlets
+G 1 3115  -1     	*   a pair of chain mail sleeves
+G 1 3116  -1     	*   a large metal shield
+G 1 3097  -1     	*   a small metal shield
+G 1 3117  -1     	*   a small wooden shield
+E 1 3022  -1   16	*   a long sword
+M 0 3002   1 3010  1	* the grocer
+G 1 3030  -1     	*   a torch
+G 1 3031  -1     	*   a hooded brass lantern
+G 1 3138  -1     	*   a buffalo water skin
+G 1 3032  -1     	*   a bag
+G 1 3033  -1     	*   a box
+G 1 3397  -1		*   a quiver
+E 1 3022 900   16	*   a long sword
+M 0 3001   1 3009  1	* the baker
+G 1 3009  -1     	*   a big pot pie
+G 1 3011  -1     	*   a bread
+G 1 3012  -1     	*   a cinnamon roll
+G 1 3013  -1     	*   a batch of Sara's cookies
+G 1 3014  -1     	*   a blueberry danish
+E 1 3022 100   16	*   a long sword
+M 0 3008   1 3031  1	* the pet shop boy
+M 0 3164   1 3066  1	* the butcher
+G 0 3380  -1		*   some beef jerky
+G 0 3381  -1		*   a whole chicken
+M 0 3009   1 3034  1	* the jeweller
+G 1 3378  -1     	*   an opal
+G 1 3377  -1     	*   a diamond
+G 1 3376  -1     	*   a ruby
+G 1 3375  -1     	*   an emerald
+G 1 3374  -1     	*   a garnet
+G 1 3373  -1     	*   a small pearl
+M 0 3010   1 3035  1	* the leather worker
+G 1 3060  -1     	*   a leather jerkin
+G 1 3061  -1     	*   a leather cap
+G 1 3062  -1     	*   a pair of leather pants
+G 1 3063  -1     	*   a pair of leather boots
+G 1 3064  -1     	*   a pair of leather gloves
+G 1 3065  -1     	*   a pair of leather sleeves
+G 1 3066  -1     	*   a hard leather jerkin
+G 1 3067  -1     	*   a hard leather cap
+G 1 3068  -1     	*   a pair of hard leather pants
+G 1 3069  -1     	*   a pair of hard leather boots
+G 1 3070  -1     	*   a pair of hard leather gloves
+G 1 3071  -1     	*   a pair of hard leather sleeves
+G 1 3052  -1     	*   a leather bracer
+G 1 3053  -1     	*   a leather belt
+G 1 3054  -1     	*   a leather girdle
+M 0 3006   1 3049  1	* the captain
+G 1 3050  -1     	*   a raft
+G 1 3051  -1     	*   a canoe
+M 0 3007   1 3050  1	* the sailor
+M 0 3070   1 3056  1	* the ancient potion-brewer
+G 1 3041  -1     	*   a potion of return
+G 1 3080  -1     	*   a potion of healing
+G 1 3081  -1     	*   a potion of sanctuary
+G 1 3082  -1     	*   a potion of divine protection
+G 1 3083  -1     	*   a potion of cure light wounds
+G 1 3084  -1     	*   a potion of cure serious wounds
+G 1 3085  -1     	*   a potion of cure critical wounds
+G 1 3086  -1     	*   a bottle of antidote
+G 1 3087  -1     	*   a potion of cure blindness
+G 1 3088  -1     	*   a vial of holy water
+G 1 3089  -1     	*   a potion of armor
+G 1 3090  -1     	*   a potion of negation
+G 1 3091  -1     	*   a potion of flying
+G 1 3092  -1     	*   a potion of true sight
+M 0 3040   1 3007  1	* the bartender
+G 1 3000  -1     	*   a barrel of beer
+G 1 3001  -1     	*   a bottle of beer
+E 1 3022  -1   16	*   a long sword
+M 0 3043   1 3003  1	* the waiter
+G 1 3002  -1     	*   a bottle of ale
+G 1 3004  -1     	*   a bottle of local specialty
+E 1 3022  -1   16	*   a long sword
+M 0 3042   1 3018  1	* the waiter
+G 1 3002  -1     	*   a bottle of ale
+G 1 3003  -1     	*   a bottle of firebreather
+E 1 3022  -1   16	*   a long sword
+M 0 3045   1 3022  1	* the waiter
+G 1 3002  -1     	*   a bottle of ale
+G 1 3003  -1     	*   a bottle of firebreather
+G 1 3004  -1     	*   a bottle of local specialty
+E 1 3022  -1   16	*   a long sword
+M 0 3044   1 3028  1	* the waiter
+G 1 3003  -1     	*   a bottle of firebreather
+G 1 3004  -1     	*   a bottle of local specialty
+E 1 3022  -1   16	*   a long sword
+M 0 3046   1 3048  1	* Filthy
+G 1 3003  -1     	*   a bottle of firebreather
+G 1 3004  -1     	*   a bottle of local specialty
+E 1 3022  -1   16	*   a long sword
+M 0 3163   1 3048  1	* the thief
+M 0 3020   1 3019  1	* the guildmaster
+M 0 3021   1 3002  1	* the guildmaster
+M 0 3022   1 3029  1	* the guildmaster
+M 0 3023   1 3023  1	* the guildmaster
+M 0 3167   1 3064  1	* the guildmaster ( Paladin)
+M 0 3168   1 3062  1	* the guildmaster ( Asssasin)
+M 0 3169   1 3061  1	* the guildmaster ( Anti-Paladin)
+M 0 3170   1 3074  1	* the guildmaster ( Warlock)
+M 0 3171   1 3076  1	* the guildmaster ( Samurai)
+M 0 3024   1 3017  1	* the sorcerer
+M 0 3025   1 3004  1	* the knight templar
+M 0 3026   1 3027  1	* the assassin
+E 1 3349  -1   16	*   a glowing long sword
+M 0 3027   1 3021  1	* the knight
+E 1 3349  -1   16	*   a glowing long sword
+M 0 3150   1 3150  1	* Esme
+G 1 3154  -1     	*   a bottle of George Killian's Irish Red
+G 1 3152  -1     	*   a bowl of beef stew
+G 1 3153  -1     	*   a biscuit
+G 1 3151  -1     	*   a bowl of chicken noodle soup
+*G 1 1103  -1     	*   a pipeweed bread
+G 1 3150  -1     	*   a cup of cinnamon coffee
+G 1 3100  -1     	*   a cup of tea
+M 0 3160   1 3160  1	* Melancholy
+G 1 3394  -1 		*   book about limited I
+G 1 3395  -1 		*   book about limited II
+G 1 3396  -1		*   kassandra, book
+G 1 3387  -1		*   a green map
+G 1 3388  -1		*
+G 1 3389  -1		*
+G 1 3390  -1		*
+G 1 3391  -1		*
+G 1 3392  -1		*
+G 1 3393  -1		*
+G 1 3168  -1     	*   a map of Olympus
+G 1 3167  -1     	*   a map of New Thalos
+G 1 3166  -1     	*   a map of the first level of Moria
+G 1 3165  -1     	*   a map of the Dwarven Kingdom
+G 1 3164  -1     	*   a map of southern Midgaard
+*G 1 3163  -1     	*   a map of Anatolia
+G 1 3162  -1     	*   a map of the city of Midgaard
+G 1 3383  -1     	*   a map of West Anatolia
+G 1 3384  -1     	*   a map of East Anatolia
+G 1 3385  -1		*   a newbie map east
+G 1 3386  -1		*   a newbie map west
+M 0 3161   1 3160  1	* Lister
+D 0 3160   0    2	* Melancholy's Map's north
+D 0 3161   2    2	* Melancholy's Room south
+D 0 3048   5    1	* Trapdoor at grubby inn
+D 0 3062   4    1	* Trapdoor at assassin guild
+M 0 3162   1 3334  1	* Otho the Changer
+M 0 3060  18 3004  2	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3355  -1    4	*   a standard issue cloak
+M 0 3060  18 3014  2	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3356  -1    6	*   a standard issue helmet
+M 0 3060  18 3017  2	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3357  -1    7	*   a pair of standard issue leggings
+M 0 3060  18 3021  2	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3358  -1    8	*   a pair of standard issue boots
+M 0 3060  18 3027  2	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3359  -1    9	*   a pair of standard issue gloves
+M 0 3067   2 3041  2	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3360  -1   10	*   a pair of standard issue sleeves
+M 0 3067   2 3041  2	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3354  -1   11	*   a standard issue shield
+M 0 3068   2 3040  2	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3361  -1   12	*   a standard issue cape
+M 0 3068   2 3040  2	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3362  -1   13	*   a standard issue belt
+M 0 3071   2 3255  2	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3361  -1   12	*   a standard issue cape
+M 0 3071   2 3255  2	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3362  -1   13	*   a standard issue belt
+M 0 3072   1 3262  1	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3354  -1   11	*   a standard issue shield
+M 0 3063   5 3026  5	* the vagabond
+E 1 3021  -1   16	*   a small sword
+E 1 3066  -1    5	*   a hard leather jerkin
+E 1 3052  -1   15	*   a leather bracer
+M 0 3063   5 3026  5	* the vagabond
+E 1 3021  -1   16	*   a small sword
+E 1 3066  -1    5	*   a hard leather jerkin
+E 1 3052  -1   15	*   a leather bracer
+M 0 3063   5 3045  5	* the vagabond
+E 1 3021  -1   16	*   a small sword
+E 1 3066  -1    5	*   a hard leather jerkin
+E 1 3052  -1   15	*   a leather bracer
+M 0 3064   3 3007  3	* the drunk
+M 0 3065   2 3044  1	* the beggar
+M 0 3065   2 3048  1	* the beggar
+M 0 3062  16 3024  4	* the beastly fido
+M 0 3062  16 3025  4	* the beastly fido
+M 0 3062  16 3016  4	* the beastly fido
+M 0 3062  16 3012  4	* the beastly fido
+M 0 3066   1 3026  1	* an alley cat
+M 0 3061   5 3006  5	* the janitor
+M 0 3090   1 3032  1	* the kitten
+M 0 3091   1 3032  1	* the puppy
+M 0 3092   1 3032  1	* the beagle
+M 0 3093   1 3032  1	* the rottweiler
+M 0 3094   1 3032  1	* the wolf
+M 0 3005   4 3027  2	* the thief
+E 1 3351  -1   16	*   a standard issue dagger
+M 0 3005   4 3128  2	* the thief
+E 1 3351  -1   16	*   a standard issue dagger
+O 0 3135  10 1200	* a fountain
+O 0 3135  10 3005	* a fountain
+O 0 3139  15 3008	* the receptionist's letter of resignation
+O 0 3140  15 3008	* the bank's notice of liquidation
+D 0 3110   3    2	* Cityguard Head Quarters west
+D 0 3142   1    2	* Captain's Office east
+D 0 3142   2    2	* Captain's Office south
+D 0 3143   0    2	* The Jail north
+O 0 3134   3 3101	* the Bench
+O 0 3134   3 3102	* the Bench
+O 0 3134   3 3103	* the Bench
+M 0 3100   1 3106  1	* the maid
+G 1 3100  -1     	*   a cup of tea
+G 1 3101  -1     	*   a cup of coffee
+G 1 3102  -1     	*   a cup of water
+M 0 3120   1 3106  1	* the sexton
+G 1 3121   2     	*   a key
+M 0 3121   1 3114  1	* the swan
+M 0 3122   1 3114  1	* the duckling
+M 0 3123   1 3109  1	* the sparrow
+M 0 3124   2 3113  1	* the duck
+M 0 3124   2 3115  1	* the duck
+M 0 3140   1 3142  1	* the captain
+E 1 3350  -1   16	*   a standard issue sword
+G 1 3122   2     	*   a key
+G 1 3137   2     	*   a steel key
+M 0 3141   4 3142  4	* the cityguard
+E 1 3350  -1   16	*   a standard issue sword
+M 0 3141   4 3142  4	* the cityguard
+E 1 3350  -1   16	*   a standard issue sword
+M 0 3141   4 3142  4	* the cityguard
+E 1 3350  -1   16	*   a standard issue sword
+M 0 3141   4 3142  4	* the cityguard
+E 1 3350  -1   16	*   a standard issue sword
+O 0 3130   1 3142	* the desk
+P 1 3123   1 3130  1	*   a key
+O 0 3131   1 3142	* the safe
+P 1 3132   1 3131  1	*   the silver coins
+M 0 3060  18 3111  4	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+G 1 3120   8     	*   a key
+M 0 3060  18 3111  4	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3363  -1   15	*   a standard issue bracer
+M 0 3060  18 3117  1	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+M 0 3060  18 3109  1	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3363  -1   15	*   a standard issue bracer
+M 0 3060  18 3120  1	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+M 0 3060  18 3125  1	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+M 0 3142   1 3137  1	* the secretary
+M 0 3143   1 3138  1	* the mayor
+E 1 3124   5   16	*   a long sword
+G 1 3379   2		*   gate key
+G 1 3379   2		*   gate key
+M 0 3069   4 3138  4	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+M 0 3069   4 3138  4	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+M 0 3069   4 3138  4	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+M 0 3069   4 3138  4	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+M 0 3144   1 3120  1	* the town crier
+O 0 3135   2 3141	* a fountain
+O 0 3136   -1 3141	* a small pile of coins
+M 0 3012   5 3054  1	* the healer in the center of Midgaard
+M 0 3166   1 3070  1	* Nacya, the Healer
+M 0 3012   6 3072  1	* the healer in the dark temple
+O 0 3135    2 3135	* a fountain before the temple of sun
+O 0 3010    1 3069	* donation pit in the temple of sun
+O 0 3010    1 3072	* donation pit in the temple of dark
+S
+
+#SHOPS
+3000  2  3  4 10  0 	 105  15 	 0 23 	* the wizard
+3001  0  0  0  0  0 	 110 100 	 0 23 	* the baker
+3002  1  8 13 15 19 	 150  40 	 0 23 	* the grocer
+3003  5  6  7  0  0 	 120  40 	 0 23 	* the weaponsmith
+3004  9  0  0  0  0 	 100  50 	 0 23 	* the armourer
+3006 22  0  0  0  0 	 120  90 	 6 22 	* the captain
+3008  0  0  0  0  0 	 100 100 	 0 23 	* the pet shop boy
+3009  8 30 32 33  0 	 110 100 	 0 23 	* the jeweller
+3010  9  0  0  0  0 	 110  50 	 0 23 	* the leather worker
+3040  0  0  0  0  0 	 110 100 	 0 23 	* the bartender
+3042  0  0  0  0  0 	 100 100 	 0 23 	* the waiter
+3043  0  0  0  0  0 	 110 100 	 0 23 	* the waiter
+3044  0  0  0  0  0 	 170 100 	 0 23 	* the waiter
+3045  0  0  0  0  0 	 150 100 	 0 23 	* the waiter
+3046  0  0  0  0  0 	 100  90 	 0 23 	* Filthy
+3070 10  0  0  0  0 	 700 100 	 0 23 	* the ancient potion-brewer
+3100  0  0  0  0  0 	 110  90 	 6 23 	* the maid
+3150  0  0  0  0  0 	 100 100 	 0 23 	* Esme
+3160  0  0  0  0  0 	 100 100 	 0 23 	* Melancholy
+3164  0  0  0  0  0 	 100 100 	 7 21 	* Butcher
+0
+
+#SPECIALS
+M 3172 spec_cast_adept		* the templeman
+M 3000 spec_cast_mage      	* the wizard
+M 3070 spec_cast_mage      	* the old man
+M 3009 spec_cast_mage      	* the jeweller
+M 3005 spec_thief          	* the thief
+M 3011 spec_cast_cleric    	* Questor
+M 3012 spec_cast_adept     	* the healer
+M 3020 spec_cast_mage      	* the guildmaster
+M 3021 spec_cast_cleric    	* the guildmaster
+M 3024 spec_cast_mage      	* the sorcerer
+M 3042 spec_cast_mage      	* the waiter
+M 3043 spec_cast_cleric    	* the waiter
+M 3060 spec_guard          	* the cityguard
+M 3061 spec_janitor        	* the janitor
+M 3062 spec_fido           	* the beastly fido
+M 3067 spec_guard          	* the cityguard
+M 3068 spec_guard          	* the cityguard
+M 3069 spec_guard          	* the cityguard
+M 3100 spec_cast_cleric    	* the maid
+M 3120 spec_cast_cleric    	* the sexton
+M 3143 spec_mayor          	* the mayor
+M 3163 spec_nasty          	* the thief
+M 3166 spec_cast_adept        	* Nacya, the healer
+M 3011 spec_questmaster         * hassan
+M 3026 spec_assassinater        * assassin
+M 3003 spec_repairman		* weaponsmith
+M 3004 spec_repairman		* armourer
+S
+
+#OMPROGS
+M 3172 greet_prog greet_prog_templeman
+M 3172 speech_prog speech_prog_templeman
+M 3001 greet_prog greet_prog_baker
+M 3002 greet_prog greet_prog_grocer
+M 3004 greet_prog greet_prog_armourer
+M 3064 greet_prog greet_prog_drunk
+M 3065 greet_prog greet_prog_beggar
+M 3064 bribe_prog bribe_prog_drunk
+M 3065 bribe_prog bribe_prog_beggar
+M 3067 bribe_prog bribe_prog_cityguard
+M 3065 fight_prog fight_prog_beggar
+M 3065 death_prog death_prog_beggar
+M 3063 death_prog death_prog_vagabond
+M 3144 speech_prog speech_prog_crier
+M 3001 area_prog area_prog_baker
+M 3002 area_prog area_prog_grocer
+M 3063 area_prog area_prog_vagabond
+M 3064 area_prog area_prog_drunk
+M 3061 area_prog area_prog_janitor
+S
+
+#PRACTICERS
+M 3172 group_benedictions	* templeman
+M 3000 group_wizard		* wizard
+S
+
+#OLIMITS
+O 3081 10 * potion of sanctuary
+O 3082 10 * potion of sanctuary
+O 3281 10 * potion of sanctuary
+O 3282 10 * potion of sanctuary
+S
+
+#$

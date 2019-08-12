@@ -530,7 +530,11 @@ void interpret( CHAR_DATA *ch, char *argument, bool is_order )
 	}
 #endif
 
-    if ( !isalpha(argument[0]) && !isdigit(argument[0]) )
+    if ( !isalpha(argument[0]) && !isdigit(argument[0]) && !argument[0]=='ı'
+&& !argument[0]=='ğ' && !argument[0]=='ü' && !argument[0]=='ş'
+&& !argument[0]=='ö' && !argument[0]=='ç'&& !argument[0]=='İ'
+&& !argument[0]=='Ğ'&& !argument[0]=='Ü'&& !argument[0]=='Ş'&& !argument[0]=='Ö'
+&& !argument[0]=='Ç')
     {
 	command[0] = argument[0];
 	command[1] = '\0';
