@@ -1,12 +1,12 @@
 /***************************************************************************
- *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *	
+ *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
- *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *	
- *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *	
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *
+ *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
 /***************************************************************************
@@ -187,7 +187,7 @@ int	socket		args( ( int domain, int type, int protocol ) );
 #endif
 
 #if	defined(linux)
-/* 
+/*
     Linux shouldn't need these. If you have a problem compiling, try
     uncommenting these functions.
 */
@@ -332,9 +332,9 @@ bool		    god;		/* All new chars are gods!	*/
 bool		    merc_down;		/* Shutdown			*/
 bool		    wizlock;		/* Game is wizlocked		*/
 bool		    newlock;		/* Game is newlocked		*/
-time_t		    boot_time;		/* time of boot */	
-time_t		    current_time;	/* time of this pulse */	
- 
+time_t		    boot_time;		/* time of boot */
+time_t		    current_time;	/* time of this pulse */
+
 
 
 /*
@@ -417,7 +417,7 @@ int main( int argc, char **argv )
     }
 
     /*
-     * Get the port number.
+     *
      */
     port = 6001;
     if ( argc > 1 )
@@ -437,7 +437,7 @@ int main( int argc, char **argv )
     /*
      * Run the game.
      */
-    
+
 #if defined(macintosh) || defined(MSDOS)
     boot_db( );
     log_string( "ready to rock." );
@@ -701,16 +701,16 @@ void crash_chronos (int sig)
 	    d_next	= d->next;
             ch = d->original ? d->original : d->character;
             if (IS_NPC(ch))  continue;
-	             save_char_obj (ch);	
-	    sprintf(buf,"%s is saved",ch->name);	
+	             save_char_obj (ch);
+	    sprintf(buf,"%s is saved",ch->name);
 	    log_string(buf);
 	    write_to_descriptor(d->descriptor,(char*)"\007Rebooting By Server!!\007\n\r",0);
 	    write_to_descriptor(d->descriptor,(char*)"Saving.Remember that Rom has automatic saving now.\n\r",0);
-	    sprintf(buf,"%s last command %s",ch->name,ch->desc->inlast);    
+	    sprintf(buf,"%s last command %s",ch->name,ch->desc->inlast);
 	    bug(buf,0);
 	}
-    sprintf(buf,"SUCCESSFUL HANDLING!"); 
-    bug(buf,0);	
+    sprintf(buf,"SUCCESSFUL HANDLING!");
+    bug(buf,0);
  return;
 }
 
@@ -719,7 +719,7 @@ void game_loop_unix( int control )
 {
     static struct timeval null_time;
     struct timeval last_time;
- 
+
     signal( SIGPIPE, SIG_IGN );
     gettimeofday( &last_time, NULL );
     current_time = (time_t) last_time.tv_sec;
@@ -771,7 +771,7 @@ void game_loop_unix( int control )
 	 */
 	for ( d = descriptor_list; d != NULL; d = d_next )
 	{
-	    d_next = d->next;   
+	    d_next = d->next;
 	    if ( FD_ISSET( d->descriptor, &exc_set ) )
 	    {
 		FD_CLR( d->descriptor, &in_set  );
@@ -977,7 +977,7 @@ void init_descriptor( int control )
 	    sizeof(sock.sin_addr), AF_INET );
 	dnew->host = str_dup( from ? from->h_name : buf );
     }
-	
+
     /*
      * Swiftest: I added the following to ban sites.  I don't
      * endorse banning of sites, but Copper has few descriptors now
@@ -989,7 +989,7 @@ void init_descriptor( int control )
     if ( check_ban(dnew->host,BAN_ALL))
     {
 	write_to_descriptor( desc,
-	    (char*)"Your site has been banned from this mud.\n\r", 0 );
+	    (char*)"Sitenizden yapýlan baðlantýlar engellenmiþtir.\n\r", 0 );
 	close( desc );
 	free_descriptor(dnew);
 	return;
@@ -1028,7 +1028,7 @@ void close_socket( DESCRIPTOR_DATA *dclose )
     if ( dclose->snoop_by != NULL )
     {
 	write_to_buffer( dclose->snoop_by,
-	    "Your victim has left the game.\n\r", 0 );
+		"Kurbanýn ayrýldý.\n\r", 0 );
     }
 
     {
@@ -1046,7 +1046,7 @@ void close_socket( DESCRIPTOR_DATA *dclose )
 	sprintf( log_buf, "Closing link to %s.", ch->name );
 	log_string( log_buf );
 
-	if (ch->pet && 
+	if (ch->pet &&
 		( ch->pet->in_room == NULL
 		|| ch->pet->in_room == get_room_index(ROOM_VNUM_LIMBO)) )
 	{
@@ -1057,7 +1057,7 @@ void close_socket( DESCRIPTOR_DATA *dclose )
 	if ( dclose->connected == CON_PLAYING )
 	{
 	    if (!IS_IMMORTAL(ch))
-	       act( "$n has lost $s link.", ch, NULL, NULL, TO_ROOM );
+	       act( "$n baðlantýsýný kaybetti.", ch, NULL, NULL, TO_ROOM );
 	    wiznet("Net death has claimed $N.",ch,NULL,WIZ_LINKS,0,0);
 	    ch->desc = NULL;
 	}
@@ -1068,7 +1068,7 @@ void close_socket( DESCRIPTOR_DATA *dclose )
     }
 
     if ( d_next == dclose )
-	d_next = d_next->next;   
+	d_next = d_next->next;
 
     if ( dclose == descriptor_list )
     {
@@ -1111,7 +1111,7 @@ bool read_from_descriptor( DESCRIPTOR_DATA *d )
 	sprintf( log_buf, "%s input overflow!", d->host );
 	log_string( log_buf );
 	write_to_descriptor( d->descriptor,
-	    (char*)"\n\r*** PUT A LID ON IT!!! ***\n\r", 0 );
+	    (char*)"\n\r*** BUNA BÝR SON VER!!! ***\n\r", 0 );
 	return FALSE;
     }
 
@@ -1200,7 +1200,7 @@ void read_from_buffer( DESCRIPTOR_DATA *d )
     {
 	if ( k >= MAX_INPUT_LENGTH - 2 )
 	{
-	    write_to_descriptor( d->descriptor, (char*)"Line too long.\n\r", 0 );
+	    write_to_descriptor( d->descriptor, (char*)"Satýr çok uzun.\n\r", 0 );
 
 	    /* skip the rest of the line */
 	    for ( ; d->inbuf[i] != '\0'; i++ )
@@ -1259,9 +1259,9 @@ void read_from_buffer( DESCRIPTOR_DATA *d )
 		d->repeat = 0;
 
 		write_to_descriptor( d->descriptor,
-		    (char*)"\n\r*** PUT A LID ON IT!!! ***\n\r", 0 );
+		    (char*)"\n\r*** BUNA BÝR SON VER!!! ***\n\r", 0 );
 /*		strcpy( d->incomm, "quit" );	*/
-		close_socket( d );	
+		close_socket( d );
 		return;
 	       }
 	    }
@@ -1294,7 +1294,7 @@ void read_from_buffer( DESCRIPTOR_DATA *d )
  */
 
 /*
- * Some specials added by KIO 
+ * Some specials added by KIO
  */
 bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
 {
@@ -1304,7 +1304,7 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
      * Bust a prompt.
      */
     if (!merc_down && d->showstr_point)
-	write_to_buffer(d,"\r[Hit Return to continue]\n\r",0);
+	write_to_buffer(d,"\r[Devam etmek için ENTER]\n\r",0);
     else if (fPrompt && !merc_down && d->connected == CON_PLAYING)
     {
    	CHAR_DATA *ch;
@@ -1318,31 +1318,31 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
             int percent;
             char wound[100];
 	    char buf[MAX_STRING_LENGTH];
- 
+
             if (victim->max_hit > 0)
                 percent = victim->hit * 100 / victim->max_hit;
             else
                 percent = -1;
-  
-            if (percent >= 100)
-                sprintf(wound,"is in perfect health.");
-            else if (percent >= 90)
-                sprintf(wound,"has a few scratches.");
-            else if (percent >= 75)
-                sprintf(wound,"has some small but disgusting cuts.");
-            else if (percent >= 50)
-                sprintf(wound,"is covered with bleeding wounds.");
-            else if (percent >= 30)
-                sprintf(wound,"is gushing blood.");
-            else if (percent >= 15)
-                sprintf(wound,"is writhing in agony.");
-            else if (percent >= 0)
-                sprintf(wound,"is convulsing on the ground.");
-            else
-                sprintf(wound,"is nearly dead.");
 
- 
-            sprintf(buf,"%s %s \n\r", 
+								if (percent >= 100)
+		                sprintf(wound,"mükemmel durumda.");
+		            else if (percent >= 90)
+		                sprintf(wound,"birkaç çiziði var.");
+		            else if (percent >= 75)
+		                sprintf(wound,"birkaç kesiði var.");
+		            else if (percent >= 50)
+		                sprintf(wound,"kanayan yaralarla kaplý.");
+		            else if (percent >= 30)
+		                sprintf(wound,"kan kaybediyor.");
+		            else if (percent >= 15)
+		                sprintf(wound,"acý içinde baðýrýyor.");
+		            else if (percent >= 0)
+		                sprintf(wound,"acýyla sürünüyor.");
+		            else
+		                sprintf(wound,"ölmek üzere.");
+
+
+            sprintf(buf,"%s %s \n\r",
 	            IS_NPC(victim) ? victim->short_descr : victim->name,wound);
 	    buf[0] = UPPER(buf[0]);
             write_to_buffer( d, buf, 0);
@@ -1410,16 +1410,14 @@ void bust_a_prompt( CHAR_DATA *ch )
     CHAR_DATA *victim;
     EXIT_DATA *pexit;
     bool found;
-    const char *dir_name[] = {"N","E","S","W","U","D"};
+		const char *dir_name[] = {"K","D","G","B","Y","A"};
     int door;
- 
+
     point = buf;
     str = ch->prompt;
     if (str == NULL || str[0] == '\0')
     {
-        sprintf( buf, "<%dhp %dm %dmv> %s",
-	    ch->hit,ch->mana,ch->move,ch->prefix);
-	send_to_char(buf,ch);
+			printf_to_char(ch, "Yp:%h/%H Mp:%m/%M Hp:%v/%V <%o>->{x ");
 	return;
     }
 
@@ -1443,7 +1441,7 @@ void bust_a_prompt( CHAR_DATA *ch )
 		if ((pexit = ch->in_room->exit[door]) != NULL
 		&&  pexit ->u1.to_room != NULL
 		&&  (can_see_room(ch,pexit->u1.to_room)
-		||   (IS_AFFECTED(ch,AFF_INFRARED) 
+		||   (IS_AFFECTED(ch,AFF_INFRARED)
 		&&    !IS_AFFECTED(ch,AFF_BLIND)))
 		&&  !IS_SET(pexit->exit_info,EX_CLOSED))
 		{
@@ -1452,7 +1450,7 @@ void bust_a_prompt( CHAR_DATA *ch )
 		}
 	    }
 	    if (!found)
-	 	strcat(buf,"none");
+	 	strcat(buf,"hiç");
 	    sprintf(buf2,"%s",doors);
 	    i = buf2; break;
  	 case 'c' :
@@ -1463,30 +1461,29 @@ void bust_a_prompt( CHAR_DATA *ch )
 	    sprintf( buf2, "%s", ch->name );
 	    i = buf2; break;
 	 case 'S' :
-	    sprintf( buf2, "%s", (ch->sex == SEX_MALE ? "Male":(!ch->sex ? "None":"Female")));
+	 sprintf( buf2, "%s", (ch->sex == SEX_MALE ? "Erkek":(!ch->sex ? "Hiç":"Diþi")));
 	    i = buf2; break;
          case 'y' :
-            if (ch->hit >= 0) 
+            if (ch->hit >= 0)
            	sprintf( buf2, "%d%%",((100 * ch->hit) / UMAX(1,ch->max_hit)));
 	    else
-                 sprintf( buf2, "BAD!!");
+			sprintf( buf2, "KÖTÜ!!");
 	    i = buf2; break;
          case 'o' :
 	    if ((victim = ch->fighting) != NULL) {
-		if (victim->hit >= 0) 
+		if (victim->hit >= 0)
            	sprintf( buf2, "%d%%",((100 * victim->hit) / UMAX(1,victim->max_hit)));
 	             else
-                             sprintf(buf2,"BAD!!");
+							 sprintf(buf2,"KÖTÜ!!");
                      }
-		     else    sprintf(buf2,"None!");
+										 else    sprintf(buf2,"Hiç!");
             i = buf2; break;
 /***** FInished ****/
 
 /* Thanx to zihni:  T for time */
        case 'T' :
-	    sprintf( buf2, "%d %s", (time_info.hour % 12 == 0) ? 12 :
-		time_info.hour %12, time_info.hour >= 12 ? "pm" : "am" );
-	   i = buf2; break;
+			 sprintf( buf2, "%d", ((int)time_info.hour % 24 == 0) ? 24 :(int)time_info.hour %24);
+ 	   i = buf2; break;
 
          case 'h' :
             sprintf( buf2, "%d", ch->hit );
@@ -1510,7 +1507,7 @@ void bust_a_prompt( CHAR_DATA *ch )
             sprintf( buf2, "%d", ch->exp );
             i = buf2; break;
 	 case 'X' :
-	    sprintf(buf2, "%d", 
+	    sprintf(buf2, "%d",
 		IS_NPC(ch) ? 0 : exp_to_level(ch,ch->pcdata->points) );
 	    i = buf2; break;
          case 'g' :
@@ -1520,15 +1517,15 @@ void bust_a_prompt( CHAR_DATA *ch )
 	    sprintf( buf2, "%ld", ch->silver);
 	    i = buf2; break;
          case 'a' :
-               sprintf( buf2, "%s", IS_GOOD(ch) ? "good" : IS_EVIL(ch) ?
-                "evil" : "neutral" );
+               sprintf( buf2, "%s", IS_GOOD(ch) ? "iyi" : IS_EVIL(ch) ?
+                "kem" : "yansýz" );
             i = buf2; break;
          case 'r' :
             if( ch->in_room != NULL )
-               sprintf( buf2, "%s", 
+               sprintf( buf2, "%s",
 		((!IS_NPC(ch) && IS_SET(ch->act,PLR_HOLYLIGHT)) ||
 		 (!IS_AFFECTED(ch,AFF_BLIND) && !room_is_dark( ch )))
-		? ch->in_room->name : "darkness");
+		? ch->in_room->name : "karanlýk");
             else
                sprintf( buf2, " " );
             i = buf2; break;
@@ -1636,7 +1633,7 @@ bool write_to_descriptor( int desc, char *txt, int length )
 	nBlock = UMIN( length - iStart, 4096 );
 	if ( ( nWrite = write( desc, txt + iStart, nBlock ) ) < 0 )
 	    { perror( "Write_to_descriptor" ); return FALSE; }
-    } 
+    }
 
     return TRUE;
 }
@@ -1652,11 +1649,11 @@ int search_sockets(DESCRIPTOR_DATA *inp)
 
  for(d=descriptor_list; d!=NULL; d=d->next)
  {
-   if(!strcmp(inp->host, d->host)) 
+   if(!strcmp(inp->host, d->host))
    {
       if ( d->character && inp->character )
       {
-	if (!strcmp(inp->character->name,d->character->name)) 
+	if (!strcmp(inp->character->name,d->character->name))
 	   continue;
       }
       return 1;
@@ -1664,7 +1661,7 @@ int search_sockets(DESCRIPTOR_DATA *inp)
  }
  return 0;
 }
-  
+
 
 int check_name_connected(DESCRIPTOR_DATA *inp, char *argument)
 {
@@ -1673,10 +1670,10 @@ int check_name_connected(DESCRIPTOR_DATA *inp, char *argument)
  for(d=descriptor_list; d!=NULL; d=d->next)
  {
    if ( inp != d
-	&& d->character 
+	&& d->character
         && inp->character )
    {
-      if (!strcmp(argument, d->character->name)) 
+      if (!strcmp(argument, d->character->name))
 	   return 1;
    }
  }
@@ -1731,7 +1728,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	argument[0] = UPPER(argument[0]);
 	if ( !check_parse_name( argument ) )
 	{
-	    write_to_buffer( d, "Illegal name, try another.\n\rName: ", 0 );
+		write_to_buffer( d, "Kurallara uygun olmayan isim, baþka bir tane deneyin.\n\rÝsim: ", 0 );
 	    return;
 	}
 
@@ -1739,11 +1736,11 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	fOld = load_char_obj( d, argument );
 	ch   = d->character;
 
-       if (get_trust(ch) < LEVEL_IMMORTAL) 
+       if (get_trust(ch) < LEVEL_IMMORTAL)
 	{
           if ( check_ban(d->host,BAN_PLAYER))
             {
-	     write_to_buffer( d,"Your site has been banned for players.\n\r",0);
+							write_to_buffer( d,"Sitenizden oyuncu giriþi engellenmiþtir.\n\r",0);
 	     close_socket( d );
 	     return;
             }
@@ -1752,20 +1749,20 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 #ifdef NO_PLAYING_TWICE
          if(search_sockets(d))
 	        {
-        	  write_to_buffer(d, "Playing twice is restricted...\n\r", 0);
+						write_to_buffer(d, "Çift karakterle oynamak yasak.\n\r", 0);
 	          close_socket(d);
 	          return;
-		} 
+		}
 #endif
 
-	}      
+	}
 
-       
+
 	if ( IS_SET(ch->act, PLR_DENY) )
 	{
 	    sprintf( log_buf, "Denying access to %s@%s.", argument, d->host );
 	    log_string( log_buf );
-	    write_to_buffer( d, "You are denied access.\n\r", 0 );
+			write_to_buffer( d, "Eriþiminiz engellendi.\n\r", 0 );
 	    close_socket( d );
 	    return;
 	}
@@ -1776,18 +1773,18 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	}
 	else
 	{
-	    if ( wizlock && !IS_HERO(ch)) 
+	    if ( wizlock && !IS_HERO(ch))
 	    {
 		write_to_buffer( d, "The game is wizlocked.\n\r", 0 );
 		close_socket( d );
 		return;
 	    }
 
-            if ( !IS_IMMORTAL(ch) && !IS_SET(ch->act,PLR_CANINDUCT) ) 
+            if ( !IS_IMMORTAL(ch) && !IS_SET(ch->act,PLR_CANINDUCT) )
 	    {
-		if (iNumPlayers >= max_oldies && fOld)  
+		if (iNumPlayers >= max_oldies && fOld)
 		{
-			sprintf( buf, 
+			sprintf( buf,
 	"\n\rThere are currently %i players mudding out of a maximum of %i.\n\r"
 	"Please try again soon.\n\r", iNumPlayers, max_oldies);
 			write_to_buffer(d, buf, 0);
@@ -1795,7 +1792,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 			return;
 		}
 
-		if (iNumPlayers >= max_newbies && !fOld)  
+		if (iNumPlayers >= max_newbies && !fOld)
 		{
 			sprintf( buf,
 	"\n\rThere are currently %i players mudding. New player creation is limited to \n\r"
@@ -1806,13 +1803,13 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 			return;
 		}
 	    }
-	     
+
 	}
 
 	if ( fOld )
 	{
 	    /* Old player */
- 	    write_to_buffer( d, "Password: ", 0 );
+ 	    write_to_buffer( d, "Þifre: ", 0 );
 	    write_to_buffer( d, (char *) echo_off_str, 0 );
 	    d->connected = CON_GET_OLD_PASSWORD;
 	    return;
@@ -1822,7 +1819,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    /* New player */
  	    if (newlock)
 	    {
-                write_to_buffer( d, "The game is newlocked.\n\r", 0 );
+				write_to_buffer( d, "Yeni karakter giriþi kapalýdýr.\n\r", 0 );
                 close_socket( d );
                 return;
             }
@@ -1830,21 +1827,21 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
             if (check_ban(d->host,BAN_NEWBIES))
             {
                 write_to_buffer(d,
-                    "New players are not allowed from your site.\n\r",0);
+									"Sitenizden yeni karakter yaratýlamamaktadýr.\n\r",0);
                 close_socket(d);
                 return;
             }
- 	    
+
             if (check_name_connected(d,argument))
             {
-                write_to_buffer(d, 
-		  "That player is already playing, try another.\n\rName: ",0);
+                write_to_buffer(d,
+									"Bu karakter oyunda, baþka bir tane deneyin.\n\rÝsim: ",0);
 		free_char( d->character );
 		d->character = NULL;
 		d->connected = CON_GET_NAME;
                 return;
             }
- 	    
+
  	    do_help(ch,(char*)"NAME");
 	    d->connected = CON_CONFIRM_NEW_NAME;
 	    return;
@@ -1867,29 +1864,29 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	      return;
 	    }
 
-	    write_to_buffer( d, "Wrong password.\n\r", 0 );
+	    write_to_buffer( d, "Yanlýþ þifre.\n\r", 0 );
 	    sprintf(buf, "Wrong password by %s@%s", ch->name, d->host);
 	    log_string(buf);
 	    if (ch->endur == 2)
 		{
 	    	 close_socket( d );
 		}
-	    else 
+	    else
 		{
- 	    	 write_to_buffer( d, "Password: ", 0 );
+ 	    	 write_to_buffer( d, "Þifre: ", 0 );
 	    	 write_to_buffer( d, (char *) echo_off_str, 0 );
 	    	 d->connected = CON_GET_OLD_PASSWORD;
 		 ch->endur++;
 		}
 	    return;
 	}
- 
+
 
 	if ( ch->pcdata == NULL || ch->pcdata->pwd[0] == '\0')
 	{
 	    write_to_buffer( d, "Warning! Null password!\n\r",0 );
 	    write_to_buffer( d, "Please report old password with bug.\n\r",0);
-	    write_to_buffer( d, 
+	    write_to_buffer( d,
 		"Type 'password null <new password>' to fix.\n\r",0);
 	}
 
@@ -1903,7 +1900,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    return;
 
 	/* Count objects in loaded player file */
-	for (obj = ch->carrying,obj_count = 0; obj != NULL; 
+	for (obj = ch->carrying,obj_count = 0; obj != NULL;
 	     obj = obj->next_content)
 	  obj_count += get_obj_realnumber(obj);
 
@@ -1921,7 +1918,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	  close_socket(d);
 	  return;
 	}
-	  
+
 	/* Count objects in refreshed player file */
 	for (obj = ch->carrying,obj_count2 = 0; obj != NULL;
 	     obj = obj->next_content)
@@ -1943,7 +1940,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    d->connected = CON_READ_MOTD;
 	}
 
-	/* This player tried to use the clone cheat -- 
+	/* This player tried to use the clone cheat --
 	 * Log in once, connect a second time and enter only name,
          * drop all and quit with first character, finish login with second.
          * This clones the player's inventory.
@@ -1980,7 +1977,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 		d->connected = CON_NEW_CLASSES;
 		break;
 	    }
-	    
+
 	}
 
 	break;
@@ -1996,22 +1993,22 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    else
 		do_help(ch,argument);
             write_to_buffer(d,
-		"What is your class (help for more information)? ",0);
+							"Sýnýfýnýz nedir (bilgi için: www.uzakdiyarlar.net)? ",0);
 	    return;
 	}
 
 	if ( iClass == -1 )
 	{
 	    write_to_buffer( d,
-		"That's not a class.\n\r"
-		"What IS your class (Invoker/Transmuter/Elementalist)? ", 0 );
+				"Bu bir sýnýf deðil.\n\r"
+				"Sýnýfýnýz NEDÝR (Gan/Biçimci/Ögeci)? ", 0 );
 	    return;
 	}
 
 	if (!class_ok(ch,iClass))
 	{
-	    write_to_buffer( d, 
-	    "That class is not available for your race or sex.\n\rChoose again: ",0);
+	    write_to_buffer( d,
+				"Bu sýnýf ýrkýnýz veya cinsiyetinize uygun deðil.\n\rBaþka bir tane seçin: ",0);
 	    return;
 	}
 
@@ -2020,26 +2017,26 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 		&& iClass != CLASS_ELEMENTALIST )
 	{
 	    write_to_buffer(d,
-		"That is class is not allowed to switch.\n\rChoose again:",0);
+				"Bu sýnýf yasaklý.\n\rBaþka bir tane seçin:",0);
 	    return;
 	}
 
         ch->iclass = iClass;
 
-	ch->pcdata->points = class_table[iClass].points 
+	ch->pcdata->points = class_table[iClass].points
 		+ class_table[ORG_RACE(ch)].points;
-	sprintf(buf, "You are now %s.\n\r", class_table[iClass].name);
+	sprintf(buf, "Artýk sýnýfýn %s.\n\r", class_table[iClass].name);
 	write_to_buffer(d, buf, 0 );
-	write_to_buffer( d, "[Hit Return to Continue]\n\r",0);
+	write_to_buffer( d, "[Devam etmek için ENTER]\n\r",0);
 	d->connected = CON_READ_MOTD;
 	break;
 
 /* RT code for breaking link */
- 
+
     case CON_BREAK_CONNECT:
 	switch( *argument )
 	{
-	case 'y' : case 'Y':
+		case 'e' : case 'E':
             for ( d_old = descriptor_list; d_old != NULL; d_old = d_next )
 	    {
 		d_next = d_old->next;
@@ -2053,7 +2050,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    }
 	    if (check_reconnect(d,ch->name,TRUE))
 	    	return;
-	    write_to_buffer(d,"Reconnect attempt failed.\n\rName: ",0);
+				write_to_buffer(d,"Tekrar baðlanýlamadý.\n\rÝsim: ",0);
             if ( d->character != NULL )
             {
                 free_char( d->character );
@@ -2062,7 +2059,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    d->connected = CON_GET_NAME;
 	    break;
 
-	case 'n' : case 'N':
+			case 'h' : case 'H':
 	    write_to_buffer(d,"Name: ",0);
             if ( d->character != NULL )
             {
@@ -2073,7 +2070,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    break;
 
 	default:
-	    write_to_buffer(d,"Please type Y or N? ",0);
+	write_to_buffer(d,"Lütfen cevap verin (E-H). ",0);
 	    break;
 	}
 	break;
@@ -2081,22 +2078,22 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
     case CON_CONFIRM_NEW_NAME:
 	switch ( *argument )
 	{
-	case 'y': case 'Y':
-	    sprintf( buf, "New character.\n\rGive me a password for %s: %s",
+		case 'e': case 'E':
+	sprintf( buf, "\n\rTeþekkürler.\n\r%s karakteri için bir þifre girin: %s",
 		ch->name, (char *) echo_off_str );
 	    write_to_buffer( d, buf, 0 );
 	    d->connected = CON_GET_NEW_PASSWORD;
 	    break;
 
-	case 'n': case 'N':
-	    write_to_buffer( d, "Ok, what IS it, then? ", 0 );
+			case 'h': case 'H':
+			write_to_buffer( d, "O halde uygun bir isim gir: ", 0 );
 	    free_char( d->character );
 	    d->character = NULL;
 	    d->connected = CON_GET_NAME;
 	    break;
 
 	default:
-	    write_to_buffer( d, "Please type Yes or No? ", 0 );
+	    write_to_buffer( d, "Cevabýn nedir ( E - H )? ", 0 );
 	    break;
 	}
 	break;
@@ -2109,7 +2106,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	if ( strlen(argument) < 5 )
 	{
 	    write_to_buffer( d,
-		"Password must be at least five characters long.\n\rPassword: ",
+				"Þifre en az 5 karakter uzunluðunda olmalýdýr.\n\rParola: ",
 		0 );
 	    return;
 	}
@@ -2120,7 +2117,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    if ( *p == '~' )
 	    {
 		write_to_buffer( d,
-		    "New password not acceptable, try again.\n\rPassword: ",
+			"Girdiðiniz þifre kabul edilebilir deðil.\n\rLütfen iþlemi tekrarlayýn.\n\rÞifre: ",
 		    0 );
 		return;
 	    }
@@ -2128,7 +2125,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	free_string( ch->pcdata->pwd );
 	ch->pcdata->pwd	= str_dup( pwdnew );
-	write_to_buffer( d, "Please retype password: ", 0 );
+	write_to_buffer( d, "Lütfen þifreyi tekrar girin: ", 0 );
 	d->connected = CON_CONFIRM_NEW_PASSWORD;
 	break;
 
@@ -2139,7 +2136,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	if ( strcmp( crypt( argument, ch->pcdata->pwd ), ch->pcdata->pwd ) )
 	{
-	    write_to_buffer( d, "Passwords don't match.\n\rRetype password: ",
+		write_to_buffer( d, "\n\rGirilen þifreler eþleþmiyor.\n\rLütfen iþlemi tekrarlayýn.\n\rÞifre: ",
 		0 );
 	    d->connected = CON_GET_NEW_PASSWORD;
 	    return;
@@ -2147,7 +2144,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	write_to_buffer( d, (char *) echo_on_str, 0 );
 	sprintf(buf,
-"The Anatolia MUD is home to %d different races with brief descriptions below:",
+"Uzak Diyarlar Mud %d farklý ýrka ev sahipliði yapar. Irklarýn özeti:",
 			MAX_PC_RACE - 1);
 	write_to_buffer( d, buf, 0);
 	write_to_buffer( d, "\n\r", 0);
@@ -2159,7 +2156,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	SET_BIT( ch->act, PLR_CANREMORT );
 	SET_BIT( ch->act, PLR_REMORTED );
 	sprintf(buf,
-"As you know, the Anatolia MUD is home to %d different races...",
+"Bildiðin gibi Uzak Diyarlar Mud'da %d farklý ýrk bulunmaktadýr:",
 			MAX_PC_RACE - 1);
 	write_to_buffer( d, buf, 0);
 	write_to_buffer( d, "\n\r", 0);
@@ -2176,7 +2173,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    if (argument[0] == '\0')
 	      {
 		sprintf(buf,
-"The Anatolia MUD is home to %d different races with brief descriptions below:",
+"Uzak Diyarlar Mud %d farklý ýrka ev sahipliði yapar. Irklarýn özeti:",
 			MAX_PC_RACE - 1);
 		write_to_buffer( d, buf, 0);
 		write_to_buffer( d, "\n\r", 0);
@@ -2187,8 +2184,8 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	      {
 		do_help(ch,argument);
                 write_to_buffer(d,
-		"What is your race? (help for more information) ",0);
-	      }	
+									"Irkýnýz nedir? (bilgi: www.uzakdiyarlar.net) ",0);
+	      }
 	    break;
   	}
 
@@ -2196,8 +2193,8 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	if (race == 0 || !race_table[race].pc_race)
 	{
-	    write_to_buffer(d,"That is not a valid race.\n\r",0);
-            write_to_buffer(d,"The following races are available:\n\r  ",0);
+		write_to_buffer(d,"\n\rGeçerli bir ýrk seçmedin.\n\r",0);
+					write_to_buffer(d,"Aþaðýdakilerden birini seçebilirsin:\n\r  ",0);
             for ( race = 1; race_table[race].name != NULL; race++ )
             {
             	if (!race_table[race].pc_race)
@@ -2205,12 +2202,12 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 		if (race == 9 || race == 15 )
 		  write_to_buffer(d,"\n\r  ",0);
 		write_to_buffer(d,"(",0);
-            	write_to_buffer(d,race_table[race].name,0);
+            	write_to_buffer(d,race_table[race].name[1],0);
 		write_to_buffer(d,") ",0);
             }
             write_to_buffer(d,"\n\r",0);
             write_to_buffer(d,
-		"What is your race? (help for more information) ",0);
+							"Irkýnýz nedir? (bilgi: www.uzakdiyarlar.net) ",0);
 	    break;
 	}
 
@@ -2219,7 +2216,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	for (i=0; i < MAX_STATS;i++)
 	      ch->mod_stat[i] = 0;
 
-	/* Add race stat modifiers 
+	/* Add race stat modifiers
 	for (i = 0; i < MAX_STATS; i++)
 	    ch->mod_stat[i] += pc_race_table[race].stats[i];	*/
 
@@ -2252,29 +2249,29 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	ch->size = pc_race_table[race].size;
 
-        write_to_buffer( d, "What is your sex (M/F)? ", 0 );
+	write_to_buffer( d, "\n\rIrk seçimi tamam.\n\rPeki karakterin cinsiyeti ne olsun ( E - K )? ", 0 );
         d->connected = CON_GET_NEW_SEX;
         break;
-        
+
 
     case CON_GET_NEW_SEX:
 	switch ( argument[0] )
 	{
-	case 'm': case 'M': ch->sex = SEX_MALE;    
+	case 'e': case 'E': ch->sex = SEX_MALE;
 			    ch->pcdata->true_sex = SEX_MALE;
 			    break;
-	case 'f': case 'F': ch->sex = SEX_FEMALE; 
+	case 'k': case 'K': ch->sex = SEX_FEMALE;
 			    ch->pcdata->true_sex = SEX_FEMALE;
 			    break;
 	default:
-	    write_to_buffer( d, "That's not a sex.\n\rWhat IS your sex? ", 0 );
+	write_to_buffer( d, "Seçimin geçerli bir cinsiyet deðil.\n\rKarakterin cinsiyeti ne olsun ( E - K )? ", 0 );
 	    return;
 	}
-	
+
 	do_help(ch,(char*)"class help");
 
-	strcpy( buf, "Select a class:\n\r[ " );
-	sprintf(buf1,"             (Continuing:)  ");
+	strcpy( buf, "Bir sýnýf seçin:\n\r[ " );
+	sprintf(buf1,"             (Devam ediyor:)  ");
 	for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
 	{
 	  if (class_ok(ch,iClass))
@@ -2296,7 +2293,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	write_to_buffer( d, buf, 0 );
 	write_to_buffer( d, buf1, 0 );
             write_to_buffer(d,
-		"What is your class (help for more information)? ",0);
+		"Sýnýfýn ne olsun (bilgi: www.uzakdiyarlar.net)? ",0);
         d->connected = CON_GET_NEW_CLASS;
         break;
 
@@ -2311,38 +2308,38 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    else
 		do_help(ch,argument);
             write_to_buffer(d,
-		"What is your class (help for more information)? ",0);
+		"Sýnýfýn ne olsun (bilgi: www.uzakdiyarlar.net)? ",0);
 	    return;
 	  }
 
 	if ( iClass == -1 )
 	{
 	    write_to_buffer( d,
-		"That's not a class.\n\rWhat IS your class? ", 0 );
+				"\n\rBu bir sýnýf deðil.\n\rKarakterinin sýnýfý ne olsun? ", 0 );
 	    return;
 	}
 
 	if (!class_ok(ch,iClass))
 	  {
-	    write_to_buffer( d, 
-	    "That class is not available for your race or sex.\n\rChoose again: ",0);
+	    write_to_buffer( d,
+				"Karakterinin ýrkýna uygun olmayan bir sýnýf seçtin.\n\rLütfen baþka bir tane seç: ",0);
 	    return;
 	  }
 
         ch->iclass = iClass;
 
 	ch->pcdata->points += class_table[iClass].points;
-	sprintf(buf, "You are now %s.\n\r", class_table[iClass].name);
+	sprintf(buf, "Tebrikler! Karakterin %s sýnýfýndan.\n\r", class_table[iClass].name);
 	write_to_buffer(d, buf, 0 );
 
 	for (i=0; i < MAX_STATS; i++)
 	  {
-	   ch->perm_stat[i] = number_range(10, 
+	   ch->perm_stat[i] = number_range(10,
 ( 20 + pc_race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i]) );
 	  ch->perm_stat[i] = UMIN(25, ch->perm_stat[i]);
 	  }
 
-sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
+		sprintf(buf,"Güç:%s  Zek:%s  Bil:%s  Çev:%s  Bün:%s Kar:%s \n\r Kabul (E/H)? ",
         get_stat_alias(ch, STAT_STR),
         get_stat_alias(ch, STAT_INT),
         get_stat_alias(ch, STAT_WIS),
@@ -2352,8 +2349,14 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
 
 
 	do_help(ch,(char*)"stats");
-	write_to_buffer(d,"\n\rNow rolling for your stats (10-20+).\n\r",0);
-	write_to_buffer(d,"You don't get many trains, so choose well.\n\r",0);
+	write_to_buffer(d,"[1;37;32m",0);
+	write_to_buffer(d,"\n\rÞimdi sýra nitelik zarlarýný atmada. Uzak Diyarlar'da\n\r",0);
+	write_to_buffer(d,"6 karakter niteliði vardýr. Bunlar:\n\r\n\r",0);
+	write_to_buffer(d,"Güç, Zeka, Bilgelik, Çeviklik, Bünye, Karizma\n\r\n\r",0);
+	write_to_buffer(d,"Her niteliðin karaktere saðladýðý avantajlar farklýdýr.\n\r",0);
+	write_to_buffer(d,"Ayrýntýlý bilgiyi www.uzakdiyarlar.net adresinde",0);
+	write_to_buffer(d,"bulabilirsiniz.\n\r\n\r",0);
+	write_to_buffer( d,"[0;37;37m",0);
 	write_to_buffer(d, buf,0);
 	d->connected = CON_ACCEPT_STATS;
 	break;
@@ -2361,37 +2364,43 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
       case CON_ACCEPT_STATS:
 	switch( argument[0] )
 	  {
-	  case 'H': case 'h': case '?':
+	  case 'Y': case 'y': case '?':
 	    do_help(ch,(char*)"stats");
 	    break;
-	  case 'y': case 'Y':	
+	  case 'e': case 'E':
 	    for (i=0; i < MAX_STATS;i++)
 	      ch->mod_stat[i] = 0;
 	    write_to_buffer( d, "\n\r", 2 );
 	    if (!align_restrict(ch) )
 	    {
-	    write_to_buffer( d, "You may be good, neutral, or evil.\n\r",0);
-	    write_to_buffer( d, "Which alignment (G/N/E)? ",0);
+				write_to_buffer( d,"[1;37;32m",0);
+				write_to_buffer( d, "Sýra geldi karakterin için yönelim (alignment) seçmeye. Yönelim,\n\r",0);
+				write_to_buffer( d, "basit bir ifadeyle karakterin topluma ve doðaya karþý davranýþ\n\r",0);
+				write_to_buffer( d, "biçimini belirler. Ayrýntýlý bilgiye siteden ulaþabilirsin.\n\r\n\r",0);
+				write_to_buffer( d, "Üç çeþit yönelim vardýr:\n\r",0);
+				write_to_buffer( d, "iyi[0;37;31m(good)[1;37;32m,yansýz[0;37;31m(neutral)[1;37;32m ve kem[0;37;31m(evil)[1;37;32m\n\r\n\r",0);
+				write_to_buffer( d,"[0;37;37m",0);
+		    		write_to_buffer( d, "Karakterinin yöneliminin ne olmasýný istiyorsun ( i - y - k )? ",0);
 	    d->connected = CON_GET_ALIGNMENT;
 	    }
-	    else 
+	    else
 	    {
-	     write_to_buffer( d, "[Hit Return to Continue]\n\r",0);
-	     ch->endur = 100; 
+	     write_to_buffer( d, "[Devam etmek için ENTER]\n\r",0);
+	     ch->endur = 100;
 	     d->connected = CON_PICK_HOMETOWN;
 	    }
 	    break;
-	    
-	  case 'n': case 'N':
+
+	  case 'h': case 'H':
 
 	for (i=0; i < MAX_STATS; i++)
 	  {
-	   ch->perm_stat[i] = number_range(10, 
+	   ch->perm_stat[i] = number_range(10,
 ( 20 + pc_race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i]) );
 	  ch->perm_stat[i] = UMIN(25, ch->perm_stat[i]);
 	  }
 
-sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
+		sprintf(buf,"Güç:%s  Zek:%s  Bil:%s  Çev:%s  Bün:%s Kar:%s \n\r Kabul (E/H)? ",
         get_stat_alias(ch, STAT_STR),
         get_stat_alias(ch, STAT_INT),
         get_stat_alias(ch, STAT_WIS),
@@ -2404,39 +2413,39 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
 	    break;
 
 	  default:
-	    write_to_buffer(d,"Please answer (Y/N)? ",0);
+		write_to_buffer(d,"Cevap (E/H)? ",0);
 	    break;
 	  }
 	break;
-	    
+
       case CON_GET_ALIGNMENT:
 	switch( argument[0])
 	  {
-	  case 'g' : case 'G' : 
-		ch->alignment = 1000; 
-	        write_to_buffer(d, "Now your character is good.\n\r",0);
+	  case 'i' : case 'Ý' :
+		ch->alignment = 1000;
+		write_to_buffer(d, "Karakterinin yönelimi 'iyi'.\n\r",0);
 		break;
-	  case 'n' : case 'N' : 
-		ch->alignment = 0;	
-	        write_to_buffer(d, "Now your character is neutral.\n\r",0);
+	  case 'y' : case 'Y' :
+		ch->alignment = 0;
+		write_to_buffer(d, "Karakterinin yönelimi 'yansýz'.\n\r",0);
 		break;
-	  case 'e' : case 'E' : 
-		ch->alignment = -1000; 
-	        write_to_buffer(d, "Now your character is evil.\n\r",0);
+	  case 'k' : case 'K' :
+		ch->alignment = -1000;
+		write_to_buffer(d, "Karakterinin yönelimi 'kem'.\n\r",0);
 		break;
 	  default:
-	    write_to_buffer(d,"That's not a valid alignment.\n\r",0);
-	    write_to_buffer(d,"Which alignment (G/N/E)? ",0);
+		write_to_buffer(d,"Geçerli bir yönelim deðil.\n\r",0);
+		write_to_buffer(d,"Karakterinin yöneliminin ne olmasýný istiyorsun ( i - y - k )? ",0);
 	    return;
 	  }
-          write_to_buffer( d, "\n\r[Hit Return to Continue]\n\r",0);	  
-          ch->endur = 100; 
+          write_to_buffer( d, "\n\r[Devam etmek için ENTER]\n\r",0);
+          ch->endur = 100;
           d->connected = CON_PICK_HOMETOWN;
 	break;
-	
+
       case CON_PICK_HOMETOWN:
 	sprintf(buf1,", [O]fcol");
-	sprintf(buf,"[M]idgaard, [N]ew Thalos%s?",
+	sprintf(buf,"[S]elenge, Yeni [T]halos%s?",
 		IS_NEUTRAL(ch) ? buf1 : "");
 	if ( ch->endur )
 	 {
@@ -2444,84 +2453,82 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
 	  if (!hometown_check(ch))
 	   {
 	    do_help(ch,(char*)"hometown");
-            write_to_buffer( d, buf,0);	  
+            write_to_buffer( d, buf,0);
 	    d->connected = CON_PICK_HOMETOWN;
 	    return;
 	   }
           else
 	   {
-            write_to_buffer( d, "[Hit Return to Continue]\n\r",0);	  
+            write_to_buffer( d, "[Devam etmek için ENTER]\n\r",0);
 	    ch->endur = 100;
 	    d->connected = CON_GET_ETHOS;
 	   }
           break;
 	 }
-	switch(argument[0]) 
+	switch(argument[0])
          {
-	  case 'H' : case 'h' : case '?' : 
-		do_help(ch, (char*)"hometown"); 
-                write_to_buffer( d, buf,0);	  
+	  case 'Y' : case 'y' : case '?' :
+		do_help(ch, (char*)"hometown");
+                write_to_buffer( d, buf,0);
 		return;
-	  case 'M' : case 'm' : 
-		if (hometown_ok(ch,0)) 
+	  case 'S' : case 's' :
+		if (hometown_ok(ch,0))
 		 {
-		  ch->hometown = 0; 
-		  write_to_buffer(d,"Now your hometown is Midgaard.\n\r",0);
+		  ch->hometown = 0;
+		  write_to_buffer(d,"Bundan böyle memleketin Selenge.\n\r",0);
 		  break;
 		 }
- 	  case 'N' : case 'n' : 
-		if (hometown_ok(ch,1)) 
+ 	  case 'T' : case 't' :
+		if (hometown_ok(ch,1))
 		 {
-		  ch->hometown = 1; 
-		  write_to_buffer(d,"Now your hometown is New Thalos.\n\r",0);
+		  ch->hometown = 1;
+		  write_to_buffer(d,"Bundan böyle memleketin Yeni Thalos.\n\r",0);
 		  break;
 		 }
 	  case 'O' : case 'o' :
-		if (hometown_ok(ch,3)) 
+		if (hometown_ok(ch,3))
 		 {
-		  ch->hometown = 3; 
-		  write_to_buffer(d,"Now your hometown is Ofcol.\n\r",0);
+		  ch->hometown = 3;
+		  write_to_buffer(d,"Bundan böyle memleketin Ofcol.\n\r",0);
 		  break;
 		 }
 	  default:
-	   write_to_buffer(d, "\n\rThat is not a valid hometown.\n\r", 0);
-	   write_to_buffer(d, 
-		"Which hometown do you want <type help for more info>? ", 0);
+	   write_to_buffer(d, "\n\rGeçerli bir þehir seçmedin.\n\r", 0);
+	   write_to_buffer(d,
+		"Memleketin neresi olsun (bilgi: www.uzakdiyarlar.net)? ", 0);
 	   return;
 	 }
         ch->endur = 100;
-        write_to_buffer( d, "\n\r[Hit Return to Continue]\n\r",0);	  
+        write_to_buffer( d, "\n\r[Devam etmek için ENTER]\n\r",0);
         d->connected = CON_GET_ETHOS;
         break;
-	
+
       case CON_GET_ETHOS:
 	if ( !ch->endur )
 	 {
-	  switch(argument[0]) 
+	  switch(argument[0])
           {
-	   case 'H': case 'h': case '?': 
-		do_help(ch, (char*)"alignment"); return; break;
-	   case 'L': case 'l': 
-	 	sprintf(buf,"\n\rNow you are lawful-%s.\n\r",
-		   IS_GOOD(ch) ? "good" : IS_EVIL(ch) ? "evil" : "neutral");
+	   case 'T': case 't':
+	 	sprintf(buf,"\n\rArtýk felsefen tüze-%s.\n\r",
+		   IS_GOOD(ch) ? "iyi" : IS_EVIL(ch) ? "kem" : "yansýz");
 	        write_to_buffer(d, buf, 0);
-		ch->ethos = 1; 
+		ch->ethos = 1;
 		break;
-	   case 'N': case 'n': 
-	 	sprintf(buf,"\n\rNow you are neutral-%s.\n\r",
-		   IS_GOOD(ch) ? "good" : IS_EVIL(ch) ? "evil" : "neutral");
+	   case 'Y': case 'y':
+	 	sprintf(buf,"\n\rArtýk felsefen yansýz-%s.\n\r",
+		IS_GOOD(ch) ? "iyi" : IS_EVIL(ch) ? "kem" : "yansýz");
 	        write_to_buffer(d, buf, 0);
-		ch->ethos = 2; 
+		ch->ethos = 2;
 		break;
-	   case 'C': case 'c': 
-	 	sprintf(buf,"\n\rNow you are chaotic-%s.\n\r",
-		   IS_GOOD(ch) ? "good" : IS_EVIL(ch) ? "evil" : "neutral");
+	   case 'K': case 'k':
+	 	sprintf(buf,"\n\rArtýk felsefen kaos-%s.\n\r",
+		IS_GOOD(ch) ? "iyi" : IS_EVIL(ch) ? "kem" : "yansýz");
 	        write_to_buffer(d, buf, 0);
-		ch->ethos = 3; 
+		ch->ethos = 3;
 		break;
 	   default:
-	    write_to_buffer(d, "\n\rThat is not a valid ethos.\n\r", 0);
-	    write_to_buffer(d, "What ethos do you want, (L/N/C) <type help for more info> ?",0);
+	    write_to_buffer(d, "\n\rGeçerli bir etik seçmedin.\n\r", 0);
+	    write_to_buffer(d, "Etiðin ne olsun, (T/Y/K) (bilgi: www.uzakdiyarlar.net)?",0);
 	    return;
 	   }
          }
@@ -2530,13 +2537,12 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
 	  ch->endur = 0;
 	  if (!ethos_check(ch))
 	   {
-	    write_to_buffer(d, 
-	      "What ethos do you want, (L/N/C) <type help for more info> ?",0);
+			 write_to_buffer(d, "Etiðin ne olsun, (T/Y/K) (bilgi: www.uzakdiyarlar.net)?",0);
 	    d->connected = CON_GET_ETHOS;
 	    return;
 	   }
 	 }
-         write_to_buffer( d, "\n\r[Hit Return to Continue]\n\r",0);
+         write_to_buffer( d, "\n\r[Devam etmek için ENTER]\n\r",0);
          d->connected = CON_CREATE_DONE;
          break;
 
@@ -2547,7 +2553,7 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
         ch->pcdata->learned[gsn_recall] = 75;
         write_to_buffer( d, "\n\r", 2 );
 	do_help(ch,(char*)"GENERAL");
-	write_to_buffer( d, "[Hit Return to Continue]\n\r",0);
+	write_to_buffer( d, "[Devam etmek için ENTER]\n\r",0);
         d->connected = CON_READ_NEWBIE;
         return;
 	break;
@@ -2566,7 +2572,7 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
 	break;
 
     case CON_READ_MOTD:
-	write_to_buffer( d, 
+	write_to_buffer( d,
     "\n\rWelcome to Multi User Dungeon of Anatolia. Enjoy!!...\n\r",
 	    0 );
 	ch->next	= char_list;
@@ -2601,7 +2607,7 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
 	    ch->practice += 5;
 	    ch->pcdata->death = 0;
 
-	    sprintf( buf, "the %s",
+	    sprintf( buf, "%s",
 		title_table [ch->iclass] [ch->level]
 		[ch->sex == SEX_FEMALE ? 1 : 0] );
 	    set_title( ch, buf );
@@ -2631,7 +2637,7 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
 	    send_to_char("\n\r",ch);
 	    do_help(ch, (char*)"NEWBIE INFO");
 	    send_to_char("\n\r",ch);
-	    
+
 	    /* give some bonus time */
 	    for( l=0; l < MAX_TIME_LOG; l++)
 		ch->pcdata->log_time[l] = 60;
@@ -2664,9 +2670,9 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
 	}
 
 	reset_char(ch);
-	if  (!IS_IMMORTAL(ch)) 
-		act( "$n has entered the game.", ch, NULL,NULL, TO_ROOM );
-	wiznet("$N entered the realms.",ch,NULL,WIZ_LOGINS,0,0);
+	if  (!IS_IMMORTAL(ch))
+		act( "$n mud'a giriþ yaptý.", ch, NULL,NULL, TO_ROOM );
+	wiznet("$N gerçekliðe giriþ yaptý.",ch,NULL,WIZ_LOGINS,0,0);
 
 	if ( ch->exp < (exp_per_level(ch,ch->pcdata->points) * ch->level ) )
 	{
@@ -2678,7 +2684,7 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
 	   ch->exp -= 10;
 	}
 
-	if (IS_QUESTOR(ch) && ch->pcdata->questmob == 0) 
+	if (IS_QUESTOR(ch) && ch->pcdata->questmob == 0)
 	{
 	  ch->pcdata->nextquest = ch->pcdata->countdown;
 	  ch->pcdata->questobj = 0;
@@ -2690,12 +2696,12 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
 
         for (i = 0; i < MAX_STATS; i++)
 	{
-	    if ( ch->perm_stat[i] > 
+	    if ( ch->perm_stat[i] >
 (20 + pc_race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i] ))
 	  {
-	   ch->train += ( ch->perm_stat[i] - 
+	   ch->train += ( ch->perm_stat[i] -
 (20 + pc_race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i] ));
-	   ch->perm_stat[i] = 
+	   ch->perm_stat[i] =
     20 + pc_race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i];
 	  }
 	}
@@ -2704,35 +2710,35 @@ sprintf(buf,"Str:%s  Int:%s  Wis:%s  Dex:%s  Con:%s Cha:%s \n\r Accept (Y/N)? ",
 
 	if (ch->gold > 10000 && !IS_IMMORTAL(ch))
 	{
-	    sprintf(buf,"You are taxed %ld gold to pay for the Mayor's bar.\n\r",
+	    sprintf(buf,"Ne yazýk ki baþkanýn açacaðý yeni bar için %ld altýn sikke vergi ödemeniz gerekiyor.\n\r",
 		(ch->gold - 10000) / 2);
-	    send_to_char(buf,ch); 
+	    send_to_char(buf,ch);
 	    ch->gold -= (ch->gold - 10000) / 2;
 	}
-	
+
 
 	if (ch->pcdata->bank_g > 400000 && !IS_IMMORTAL(ch))
 	{
-	    sprintf(buf,"You are taxed %ld gold to pay for war expenses of Sultan.\n\r",
+		sprintf(buf,"Ne yazýk ki sultanýn savaþ giderleri için %ld altýn sikke vergi ödemeniz gerekiyor.\n\r",
 		(ch->pcdata->bank_g - 400000) );
-	    send_to_char(buf,ch); 
+	    send_to_char(buf,ch);
 	    ch->pcdata->bank_g = 400000;
 	}
-	
+
 
 	if (ch->pet != NULL)
 	{
 	    char_to_room(ch->pet,ch->in_room);
-	    act("$n has entered the game.",ch->pet,NULL,NULL,TO_ROOM);
+	    act("$n mud'a giriþ yaptý.",ch->pet,NULL,NULL,TO_ROOM);
 	}
 
 	if (ch->pcdata->confirm_delete)
 	{
-	  send_to_char("You are given some bonus played time per week.\n\r",ch);
+	  send_to_char("Karakterine bir miktar bonus oynama zamaný verildi.\n\r",ch);
 	  ch->pcdata->confirm_delete = FALSE;
 	}
 
-	do_unread( ch, (char*)"login" );  
+	do_unread( ch, (char*)"login" );
 
 	break;
     }
@@ -2748,18 +2754,14 @@ bool check_parse_name( char *name )
     /*
      * Reserved words.
      */
-    if ( is_name( name, 
-	(char*)"all auto immortal self someone something the you demise balance circle loner honor") )
-	return FALSE;
-	
-    if (!str_cmp(capitalize(name),"Chronos") || !str_prefix("Chro",name)
-    || !str_suffix("ronos",name) )
+    if ( is_name( name,
+	(char*)"tümü oto immortal self someone something the you demise balance circle loner honor") )
 	return FALSE;
 
     /*
      * Length restrictions.
      */
-     
+
     if ( strlen(name) <  2 )
 	return FALSE;
 
@@ -2861,15 +2863,15 @@ bool check_reconnect( DESCRIPTOR_DATA *d, char *name, bool fConn )
 		ch->desc	 = d;
 		ch->timer	 = 0;
 		send_to_char(
-		    "Reconnecting. Type replay to see missed tells.\n\r", ch );
+		    "Tekrar baðlanýyor. Kaçýrdýðýn konuþmalar için 'tekrarla' diyebilirsin.\n\r", ch );
 		if (!IS_IMMORTAL(ch))
-		    act( "$n has reconnected.", ch, NULL, NULL, TO_ROOM );
+		    act( "$n yeniden baðlandý.", ch, NULL, NULL, TO_ROOM );
 		if ((obj = get_light_char(ch)) != NULL)
 		    --ch->in_room->light;
 
 		sprintf( log_buf, "%s@%s reconnected.", ch->name, d->host );
 		log_string( log_buf );
-		wiznet("$N groks the fullness of $S link.",
+		wiznet("$N baðlantýsýný yeniledi.",
 		    ch,NULL,WIZ_LINKS,0,0);
 		d->connected = CON_PLAYING;
 	    }
@@ -2898,8 +2900,8 @@ bool check_playing( DESCRIPTOR_DATA *d, char *name )
 	&&   !str_cmp( name, dold->original
 	         ? dold->original->name : dold->character->name ) )
 	{
-	    write_to_buffer( d, "That character is already playing.\n\r",0);
-	    write_to_buffer( d, "Do you wish to connect anyway (Y/N)?",0);
+		write_to_buffer( d, "Bu karakter zaten oyunda.\n\r",0);
+		write_to_buffer( d, "Yine de baðlanmak istiyor musunuz (E/H)?",0);
 	    d->connected = CON_BREAK_CONNECT;
 	    return TRUE;
 	}
@@ -2915,7 +2917,7 @@ void stop_idling( CHAR_DATA *ch )
     if ( ch == NULL
     ||   ch->desc == NULL
     ||   ch->desc->connected != CON_PLAYING
-    ||   ch->was_in_room == NULL 
+    ||   ch->was_in_room == NULL
     ||   ch->in_room != get_room_index(ROOM_VNUM_LIMBO))
 	return;
 
@@ -2923,7 +2925,7 @@ void stop_idling( CHAR_DATA *ch )
     char_from_room( ch );
     char_to_room( ch, ch->was_in_room );
     ch->was_in_room	= NULL;
-    act( "$n has returned from the void.", ch, NULL, NULL, TO_ROOM );
+    act( "$n hiçlikten döndü.", ch, NULL, NULL, TO_ROOM );
     return;
 }
 
@@ -2950,7 +2952,7 @@ void send_ch_color( const char *format, CHAR_DATA *ch, int min, ... )
     char *point;
     int n;
     va_list colors; /* variable arg list of colors */
- 
+
 
     /*
      * Discard null and zero-length messages.
@@ -2963,7 +2965,7 @@ void send_ch_color( const char *format, CHAR_DATA *ch, int min, ... )
 	return;
 
    /* Re-initialize color list for each person */
-    va_start(colors,min); 
+    va_start(colors,min);
 
     point   = buf;
     str     = format;
@@ -2980,15 +2982,15 @@ void send_ch_color( const char *format, CHAR_DATA *ch, int min, ... )
              {
                 default:  bug( "Act: bad code %d.", *str );
                           i = " <@@@> ";                                break;
-		case 'C': 
+		case 'C':
 		  if (IS_SET(ch->act,PLR_COLOR))
-		    i = va_arg(colors,char *); 
+		    i = va_arg(colors,char *);
 		  else i = "";
 		  break;
 
-		case 'c': 
+		case 'c':
 		  if (IS_SET(ch->act,PLR_COLOR))
-		    i = CLR_NORMAL ; 
+		    i = CLR_NORMAL ;
 		  else i = "";
 		  break;
  	    }
@@ -2996,7 +2998,7 @@ void send_ch_color( const char *format, CHAR_DATA *ch, int min, ... )
             while ( ( *point = *i ) != '\0' )
                 ++point, ++i;
         }
- 
+
     *point++ = '\n';
     *point++ = '\r';
 
@@ -3026,7 +3028,7 @@ void page_to_char( const char *txt, CHAR_DATA *ch )
 	send_to_char(txt,ch);
 	return;
     }
-	
+
 #if defined(macintosh)
 	send_to_char(txt,ch);
 #else
@@ -3091,7 +3093,7 @@ void show_string(struct descriptor_data *d, char *input)
     }
     return;
 }
-	
+
 
 /* quick sex fixer */
 void fix_sex(CHAR_DATA *ch)
@@ -3100,36 +3102,36 @@ void fix_sex(CHAR_DATA *ch)
     	ch->sex = IS_NPC(ch) ? 0 : ch->pcdata->true_sex;
 }
 
-void act (const char *format, CHAR_DATA *ch, const void *arg1, 
+void act (const char *format, CHAR_DATA *ch, const void *arg1,
 		const void *arg2, int type)
 {
     act_color(format,ch,arg1,arg2,type,POS_RESTING);
 }
 
-void act_color( const char *format, CHAR_DATA *ch, const void *arg1, 
+void act_color( const char *format1, CHAR_DATA *ch, const void *arg1,
 	      const void *arg2, int type, int min_pos, ... )
 {
-    static const char * const he_she  [] = { "it",  "he",  "she" };
-    static const char * const him_her [] = { "it",  "him", "her" };
-    static const char * const his_her [] = { "its", "his", "her" };
- 
+	extern const char * dir_name[];
     char buf[MAX_STRING_LENGTH];
     char fname[MAX_INPUT_LENGTH];
     CHAR_DATA *to;
     CHAR_DATA *vch = (CHAR_DATA *) arg2;
     OBJ_DATA *obj1 = (OBJ_DATA  *) arg1;
     OBJ_DATA *obj2 = (OBJ_DATA  *) arg2;
-    const char *str;
-    const char *i;
+    char *str;
+    const char *i = NULL;
     char *point;
     int n;
-    va_list colors; 
- 
+    va_list colors;
+	char 		*pbuff;
+	char 		buffer[ MAX_STRING_LENGTH*2 ];
+	bool		fColour = FALSE;
+
 
     /*
      * Discard null and zero-length messages.
      */
-    if ( format == NULL || format[0] == '\0' )
+    if ( format1 == NULL  || format1[0] == '\0'  )
         return;
 
     /* discard null rooms and chars */
@@ -3150,14 +3152,14 @@ void act_color( const char *format, CHAR_DATA *ch, const void *arg1,
 
         to = vch->in_room->people;
     }
- 
+
     for ( ; to != NULL; to = to->next_in_room )
     {
-      va_start(colors,min_pos); 
+      va_start(colors,min_pos);
 
         if ( to->desc == NULL || to->position < min_pos )
             continue;
- 
+
         if ( type == TO_CHAR && to != ch )
             continue;
         if ( type == TO_VICT && ( to != vch || to == ch ) )
@@ -3166,99 +3168,82 @@ void act_color( const char *format, CHAR_DATA *ch, const void *arg1,
             continue;
         if ( type == TO_NOTVICT && (to == ch || to == vch) )
             continue;
- 
-        point   = buf;
-        str     = format;
-        while ( *str != '\0' )
-        {
-            if ( *str != '$' )
-            {
-                *point++ = *str++;
-                continue;
-            }
-            ++str;
 
-                switch ( *str )
-                {
-                default:  bug( "Act: bad code %d.", *str );
-                          i = " <@@@> ";                                break;
-                /* Thx alex for 't' idea */
-                case 't': i = (char *) arg1;                            break;
-                case 'T': i = (char *) arg2;                            break;
-                case 'n': i =  
-		  (is_affected(ch,gsn_doppelganger) && 
-		   !IS_SET(to->act,PLR_HOLYLIGHT)) ? 
-		    PERS(ch->doppel,to) : PERS( ch,  to );
-		  break;
-                case 'N': i =  
-		  (is_affected(vch,gsn_doppelganger) && 
-		   !IS_SET(to->act,PLR_HOLYLIGHT)) ? 
-		    PERS(vch->doppel,to):PERS(vch,  to );
-		  break;
-                case 'e': i = 
-		  (is_affected(ch, gsn_doppelganger) &&
-		    !IS_SET(to->act,PLR_HOLYLIGHT)) ?
-		    he_she [URANGE(0,ch->doppel->sex,2)] :
-		    he_she  [URANGE(0, ch  ->sex, 2)];    
-		  break;
-                case 'E': i = 
-		  (is_affected(vch, gsn_doppelganger) &&
-		    !IS_SET(to->act,PLR_HOLYLIGHT)) ?
-		    he_she  [URANGE(0, vch->doppel->sex, 2)] :
-		    he_she  [URANGE(0, vch->sex, 2)];
-		  break;
-                case 'm': i = 
-		  (is_affected(ch, gsn_doppelganger) &&
-		    !IS_SET(to->act,PLR_HOLYLIGHT)) ?
-		    him_her [URANGE(0,ch->doppel->sex,2)] :
-		    him_her [URANGE(0, ch->sex, 2)];    
-		  break;
-                case 'M': i = 
-		  (is_affected(vch, gsn_doppelganger) &&
-		    !IS_SET(to->act,PLR_HOLYLIGHT)) ?
-		    him_her  [URANGE(0, vch->doppel->sex, 2)] :
-		    him_her  [URANGE(0, vch->sex, 2)];
-		  break;
-                case 's': i = 
-		  (is_affected(ch, gsn_doppelganger) &&
-		    !IS_SET(to->act,PLR_HOLYLIGHT)) ?
-		    his_her [URANGE(0,ch->doppel->sex,2)] :
-		    his_her [URANGE(0, ch  ->sex, 2)];    
-		  break;
-                case 'S': i = 
-		  (is_affected(vch, gsn_doppelganger) &&
-		    !IS_SET(to->act,PLR_HOLYLIGHT)) ?
-		    his_her  [URANGE(0, vch->doppel->sex, 2)] :
-		    his_her  [URANGE(0, vch->sex, 2)];
-		  break;
-		case 'C': 
-		  if (IS_SET(to->act,PLR_COLOR))
-		    i = va_arg(colors,char *); 
-		  else i = "";
-		  break;
+			point   = buf;
+			str     = (char *)format1;
+			while ( *str != '\0' )
+			{
+				if ( *str != '$' )
+				{
+                		*point++ = *str++;
+                		continue;
+				}
+				fColour = TRUE;
+	    			++str;
+	    			i = " <@@@> ";
 
-		case 'c': 
-		  if (IS_SET(to->act,PLR_COLOR))
-		    i = CLR_NORMAL ; 
-		  else i = "";
-		  break;
- 
+                		switch ( *str )
+                		{
+                		default:  bug( "Act: bad code %d.", *str );
+                          		i = " <@@@> ";                                break;
+                		/* Thx alex for 't' idea */
+                		case 't': i = (char *) arg1;                            break;
+                		case 'T': i = (char *) arg2;                            break;
+				case 'W': i = dir_name[atoi((const char *)arg2)];                  break;
+
+/* Türkçe ek kodu burada baþlýyor.
+
+s : birisinin
+m : birisini
+n : biri
+e : birisine
+y : birisinde
+z : birisinden					*/
+				/* for Turkish suffixes */
+				case 's'://-un
+				case 'm'://-u
+				case 'e'://-e
+				case 'y'://-de
+				case 'z'://-den
+					i=ekler (to,ch, str);
+					break;
+				case 'S':
+				case 'M':
+				case 'E':
+				case 'Y':
+				case 'Z':
+					i=ekler (to,vch, str);
+					break;
+				case 'n': i = PERS( ch,  to  );
+					break;
+                case 'N': i = PERS( vch, to  );
+					break;
+				case 'C':
+				//if (IS_SET(to->act,PLR_COLOR))
+				i = va_arg(colors,char *);
+				//else i = "";
+				break;
+				case 'c':
+				//if (IS_SET(to->act,PLR_COLOR))
+				i = CLR_NORMAL ;
+				//else i = "";
+				break;
                 case 'p':
                     i = can_see_obj( to, obj1 )
                             ? obj1->short_descr
-                            : "something";
+                            : "birþey";
                     break;
- 
+
                 case 'P':
                     i = can_see_obj( to, obj2 )
                             ? obj2->short_descr
-                            : "something";
+                            : "birþey";
                     break;
- 
+
                 case 'd':
                     if ( arg2 == NULL || ((char *) arg2)[0] == '\0' )
                     {
-                        i = "door";
+                        i = "kapý";
                     }
                     else
                     {
@@ -3266,29 +3251,33 @@ void act_color( const char *format, CHAR_DATA *ch, const void *arg1,
                         i = fname;
                     }
                     break;
-                }
- 
-            ++str;
-            while ( ( *point = *i ) != '\0' )
+				}
+
+				++str;
+				while ( ( *point = *i ) != '\0' )
                 ++point, ++i;
-        }
- 
-        *point++ = '\n';
-        *point++ = '\r';
-        /* fix for color prefix and capitalization */
-        if (buf[0] == '')
-	  {
-	    for(n = 1;buf[n] != 'm';n++) ;
-	    buf[n+1] = UPPER(buf[n+1]);
-	  }
-        else buf[0]   = UPPER(buf[0]);
-        write_to_buffer( to->desc, buf, point - buf );
-    }
-    va_end(colors); 
+			}
+
+			*point++ = '\n';
+			*point++ = '\r';
+			*point	 = '\0';
+			/* fix for color prefix and capitalization */
+			if (buf[0] == '')
+			{
+				for(n = 1;buf[n] != 'm';n++) ;
+				buf[n+1] = UPPER(buf[n+1]);
+			}
+			else buf[0]   = UPPER(buf[0]);
+			//write_to_buffer( to->desc, buf, point - buf );
+			pbuff	 = buffer;
+			colourconv( pbuff, buf, to );
+        		write_to_buffer( to->desc, buffer, 0 );
+	}//for ( ; to != NULL; to = to->next_in_room )
+	va_end(colors);
     return;
 }
 
-void act_new( const char *format, CHAR_DATA *ch, const void *arg1, 
+void act_new( const char *format, CHAR_DATA *ch, const void *arg1,
 	      const void *arg2, int type, int min_pos)
 {
     act_color(format,ch,arg1,arg2,type,min_pos);
@@ -3358,77 +3347,19 @@ void exit_function(int signum)
 
 char *get_stat_alias( CHAR_DATA *ch, int where )
 {
-const char *stat;
-int istat;
+	char *stat;
+	int istat;
 
-    if ( where == STAT_STR)  {
-      istat=get_curr_stat(ch,STAT_STR);
-      if      ( istat >  22 ) stat = "Titantic";
-      else if ( istat >= 20 ) stat = "Herculian";
-      else if ( istat >= 18 ) stat = "Strong";
-      else if ( istat >= 14 ) stat = "Average";
-      else if ( istat >= 10 ) stat = "Poor";
-      else                    stat = "Weak";
-      return((char*)stat);
-    }
-    
-    if ( where == STAT_WIS)  {
-      istat=get_curr_stat(ch,STAT_WIS);
-      if      ( istat >  22 ) stat = "Excellent";
-      else if ( istat >= 20 ) stat = "Wise";
-      else if ( istat >= 18 ) stat = "Good";
-      else if ( istat >= 14 ) stat = "Average";
-      else if ( istat >= 10 ) stat = "Dim";
-      else                    stat = "Fool";
-      return((char*)stat);
-    }
+	istat = get_curr_stat( ch , where );
 
-    if ( where == STAT_CON)  {
-      istat=get_curr_stat(ch,STAT_CON);
-      if      ( istat >  22 ) stat = "Iron";
-      else if ( istat >= 20 ) stat = "Hearty";
-      else if ( istat >= 18 ) stat = "Healty";
-      else if ( istat >= 14 ) stat = "Average";
-      else if ( istat >= 10 ) stat = "Poor";
-      else                    stat = "Fragile";
-      return((char*)stat);
-    }
+	if      ( istat >  22 ) stat = (char*)"[1;37;32mHarika [0;37;37m";
+	else if ( istat >= 20 ) stat = (char*)"[0;37;32mGüzel  [0;37;37m";
+	else if ( istat >= 18 ) stat = (char*)"[0;37;37mÝyi    [0;37;37m";
+	else if ( istat >= 14 ) stat = (char*)"[1;37;31mZayýf  [0;37;37m";
+	else if ( istat >= 10 ) stat = (char*)"[0;37;31mKötü   [0;37;37m";
+	else                    stat = (char*)"[0;37;31mÜmitsiz[0;37;37m";
 
-    if ( where == STAT_INT)  {
-      istat=get_curr_stat(ch,STAT_INT);
-      if      ( istat >  22 ) stat = "Genious";
-      else if ( istat >= 20 ) stat = "Clever";
-      else if ( istat >= 18 ) stat = "Good";
-      else if ( istat >= 14 ) stat = "Average";
-      else if ( istat >= 10 ) stat = "Poor";
-      else                    stat = "Hopeless";
-      return((char*)stat);
-    }
-    
-    if ( where == STAT_DEX)  {
-      istat=get_curr_stat(ch,STAT_DEX);
-      if      ( istat >  22 ) stat = "Fast";
-      else if ( istat >= 20 ) stat = "Quick";
-      else if ( istat >= 18 ) stat = "Dextrous";
-      else if ( istat >= 14 ) stat = "Average";
-      else if ( istat >= 10 ) stat = "Clumsy";
-      else                    stat = "Slow";
-      return((char*)stat);
-    }
-
-    if ( where == STAT_CHA)  {
-      istat=get_curr_stat(ch,STAT_CHA);
-      if      ( istat >  22 ) stat = "Charismatic";
-      else if ( istat >= 20 ) stat = "Familier";
-      else if ( istat >= 18 ) stat = "Good";
-      else if ( istat >= 14 ) stat = "Average";
-      else if ( istat >= 10 ) stat = "Poor";
-      else                    stat = "Mongol";
-      return((char*)stat);
-    }
-
-   bug( "stat_alias: Bad stat number.", 0 );
-   return(NULL);
+	return((char*)stat);
 
 }
 
@@ -3453,7 +3384,7 @@ int align_restrict(CHAR_DATA *ch)
     if (IS_SET(pc_race_table[ORG_RACE(ch)].align,CR_GOOD)
 	|| IS_SET(class_table[ch->iclass].align,CR_GOOD) )
       {
-	write_to_buffer(d, "Your character has good tendencies.\n\r",0);
+				write_to_buffer(d, "Karakteriniz güzel düþüncelerle dolu.\n\r",0);
 	ch->alignment = 1000;
 	return N_ALIGN_GOOD;
       }
@@ -3461,7 +3392,7 @@ int align_restrict(CHAR_DATA *ch)
     if (IS_SET(pc_race_table[ORG_RACE(ch)].align,CR_NEUTRAL)
 	|| IS_SET(class_table[ch->iclass].align,CR_NEUTRAL) )
       {
-	write_to_buffer(d, "Your character has neutral tendencies.\n\r",0);
+				write_to_buffer(d, "Karakteriniz yansýz düþüncelerle dolu.\n\r",0);
 	ch->alignment = 0;
 	return N_ALIGN_NEUTRAL;
       }
@@ -3469,11 +3400,11 @@ int align_restrict(CHAR_DATA *ch)
     if (IS_SET(pc_race_table[ORG_RACE(ch)].align,CR_EVIL)
 	|| IS_SET(class_table[ch->iclass].align,CR_EVIL) )
       {
-	write_to_buffer(d, "Your character has evil tendencies.\n\r",0);
+				write_to_buffer(d, "Karakteriniz kem düþüncelerle dolu.\n\r",0);
 	ch->alignment = -1000;
 	return N_ALIGN_EVIL;
-      }		
-   return N_ALIGN_ALL;		
+      }
+   return N_ALIGN_ALL;
 }
 
 int hometown_check(CHAR_DATA *ch)
@@ -3483,7 +3414,7 @@ int hometown_check(CHAR_DATA *ch)
   if (ch->iclass == 10 || ch->iclass == 11)
    {
     write_to_buffer(d,"\n\r",0);
-    write_to_buffer(d,"Your hometown is Old midgaard, permenantly.\n\r",0);
+    write_to_buffer(d,"Bundan böyle memleketin Eski Selenge.\n\r",0);
     ch->hometown = 4;
     write_to_buffer(d,"\n\r",0);
     return 1;
@@ -3493,7 +3424,7 @@ int hometown_check(CHAR_DATA *ch)
 	|| ORG_RACE(ch) == 13 || ORG_RACE(ch) == 14)
    {
     write_to_buffer(d,"\n\r",0);
-    write_to_buffer(d,"Your hometown is Valley of Titans, permenantly.\n\r",0);
+    write_to_buffer(d,"Bundan böyle memleketin Titan Vadisi.\n\r",0);
     ch->hometown = 2;
     write_to_buffer(d,"\n\r",0);
     return 1;
@@ -3514,10 +3445,140 @@ int ethos_check(CHAR_DATA *ch)
   if ( ch->iclass == 4 )
     {
      ch->ethos = 1;
-     write_to_buffer( d, "You are Lawful.\n\r", 0 );
+     write_to_buffer( d, "Etiðin Tüze.\n\r", 0 );
      return 1;
     }
   return 0;
 }
 
+int colour( char type, CHAR_DATA *ch, char *string )
+{
+    char	code[ 20 ];
+    char	*p = '\0';
 
+    if( IS_NPC( ch ) )
+	return( 0 );
+
+    switch( type )
+    {
+	default:
+	    sprintf( code, CLEAR );
+	    break;
+	case 'x':
+	    sprintf( code, CLEAR );
+	    break;
+	case 'b':
+	    sprintf( code, C_BLUE );
+	    break;
+	case 'c':
+	    sprintf( code, C_CYAN );
+	    break;
+	case 'g':
+	    sprintf( code, C_GREEN );
+	    break;
+	case 'm':
+	    sprintf( code, C_MAGENTA );
+	    break;
+	case 'r':
+	    sprintf( code, C_RED );
+	    break;
+	case 'w':
+	    sprintf( code, C_WHITE );
+	    break;
+	case 'y':
+	    sprintf( code, C_YELLOW );
+	    break;
+	case 'B':
+	    sprintf( code, C_B_BLUE );
+	    break;
+	case 'C':
+	    sprintf( code, C_B_CYAN );
+	    break;
+	case 'G':
+	    sprintf( code, C_B_GREEN );
+	    break;
+	case 'M':
+	    sprintf( code, C_B_MAGENTA );
+	    break;
+	case 'R':
+	    sprintf( code, C_B_RED );
+	    break;
+	case 'W':
+	    sprintf( code, C_B_WHITE );
+	    break;
+	case 'Y':
+	    sprintf( code, C_B_YELLOW );
+	    break;
+	case 'D':
+	    sprintf( code, C_D_GREY );
+	    break;
+	case '*':
+	    sprintf( code, "%c", 007 );
+	    break;
+	case '/':
+	    sprintf( code, "%c", 012 );
+	    break;
+	case '{':
+	    sprintf( code, "%c", '{' );
+	    break;
+    }
+
+    p = code;
+    while( *p != '\0' )
+    {
+	*string = *p++;
+	*++string = '\0';
+    }
+
+    return( strlen( code ) );
+}
+
+void colourconv( char *buffer, const char *txt, CHAR_DATA *ch )
+{
+    const	char	*point;
+		int	skip = 0;
+
+    if( ch->desc && txt )
+    {
+	    for( point = txt ; *point ; point++ )
+	    {
+		if( *point == '{' )
+		{
+		    point++;
+		    skip = colour( *point, ch, buffer );
+		    while( skip-- > 0 )
+			++buffer;
+		    continue;
+		}
+		*buffer = *point;
+		*++buffer = '\0';
+	    }
+	    *buffer = '\0';
+    }
+    return;
+}
+
+
+/* source: EOD, by John Booth <???> */
+
+void printf_to_char (CHAR_DATA *ch, const char *fmt, ...)
+{
+	char buf [MAX_STRING_LENGTH];
+	va_list args;
+	va_start (args, (char*)fmt);
+	vsprintf (buf, fmt, args);
+	va_end (args);
+
+	send_to_char (buf, ch);
+}
+
+void bugf (char * fmt, ...)
+{
+	char buf [2*MSL];
+	va_list args;
+	va_start (args, fmt);
+	vsprintf (buf, fmt, args);
+	va_end (args);
+
+	bug (buf,0);
+}

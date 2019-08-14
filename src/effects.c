@@ -2,11 +2,11 @@
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
- *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *	
- *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *	
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *
+ *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
 /***************************************************************************
@@ -25,7 +25,7 @@
  *  benefitting.  We hope that you share your changes too.  What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
- 
+
 /***************************************************************************
 *	ROM 2.4 is copyright 1993-1995 Russ Taylor			   *
 *	ROM has been brought to you by the ROM consortium		   *
@@ -67,7 +67,7 @@ void acid_effect(void *vo, int level, int dam, int target)
     {
 	CHAR_DATA *victim = (CHAR_DATA *) vo;
 	OBJ_DATA *obj, *obj_next;
-	
+
 	/* let's toast some gear */
 	for (obj = victim->carrying; obj != NULL; obj = obj_next)
 	{
@@ -109,23 +109,23 @@ void acid_effect(void *vo, int level, int dam, int target)
 	    case ITEM_CONTAINER:
 	    case ITEM_CORPSE_PC:
 	    case ITEM_CORPSE_NPC:
-		msg = "$p fumes and dissolves.";
+      msg = "$p duman çýkararak eriyor.";
 		break;
 	    case ITEM_ARMOR:
-		msg = "$p is pitted and etched.";
+      msg = "$p delik delik oldu.";
 		break;
 	    case ITEM_CLOTHING:
-		msg = "$p is corroded into scrap.";
+      msg = "$p çürüyerek parçalara ayrýldý.";
 	 	break;
 	    case ITEM_STAFF:
 	    case ITEM_WAND:
 		chance -= 10;
-		msg = "$p corrodes and breaks.";
+    msg = "$p çürüyerek kýrýldý.";
 		break;
 	    case ITEM_SCROLL:
 		chance += 10;
-		msg = "$p is burned into waste.";
-		break; 
+    msg = "$p iþe yaramaz hale geldi.";
+		break;
 	}
 
 	chance = URANGE(5,chance,95);
@@ -157,12 +157,12 @@ void acid_effect(void *vo, int level, int dam, int target)
 		    break;
                 }
             }
- 
+
             if (!af_found)
             /* needs a new affect */
             {
 		paf = new_affect();
- 
+
                 paf->type       = -1;
                 paf->level      = level;
                 paf->duration   = -1;
@@ -172,7 +172,7 @@ void acid_effect(void *vo, int level, int dam, int target)
                 paf->next       = obj->affected;
                 obj->affected   = paf;
             }
- 
+
             if (obj->carried_by != NULL && obj->wear_loc != WEAR_NONE)
                 for (i = 0; i < 4; i++)
                     obj->carried_by->armor[i] += 1;
@@ -212,7 +212,7 @@ void cold_effect(void *vo, int level, int dam, int target)
     {
         ROOM_INDEX_DATA *room = (ROOM_INDEX_DATA *) vo;
         OBJ_DATA *obj, *obj_next;
- 
+
         for (obj = room->contents; obj != NULL; obj = obj_next)
         {
             obj_next = obj->next_content;
@@ -225,14 +225,14 @@ void cold_effect(void *vo, int level, int dam, int target)
     {
 	CHAR_DATA *victim = (CHAR_DATA *) vo;
 	OBJ_DATA *obj, *obj_next;
-	
+
 	/* chill touch effect */
 	if (!saves_spell(level/4 + dam / 20, victim, DAM_COLD))
 	{
 	    AFFECT_DATA af;
 
-            act("$n turns blue and shivers.",victim,NULL,NULL,TO_ROOM);
-	    act("A chill sinks deep into your bones.",victim,NULL,NULL,TO_CHAR);
+      act("$s morarýyor ve titriyor.",victim,NULL,NULL,TO_ROOM);
+act("Soðuk kemiklerinin içine iþliyor.",victim,NULL,NULL,TO_CHAR);
             af.where     = TO_AFFECTS;
             af.type      = skill_lookup("chill touch");
             af.level     = level;
@@ -285,11 +285,11 @@ void cold_effect(void *vo, int level, int dam, int target)
 	    default:
 		return;
 	    case ITEM_POTION:
-		msg = "$p freezes and shatters!";
+      msg = "$p donarak kýrýlýyor!";
 		chance += 25;
 		break;
 	    case ITEM_DRINK_CON:
-		msg = "$p freezes and shatters!";
+      msg = "$p donarak kýrýlýyor!";
 		chance += 5;
 		break;
 	}
@@ -308,12 +308,12 @@ void cold_effect(void *vo, int level, int dam, int target)
 	return;
     }
 }
-   
+
 
 
 void fire_effect(void *vo, int level, int dam, int target)
 {
-    
+
     if (target == TARGET_ROOM)  /* nail objects on the floor */
     {
 	ROOM_INDEX_DATA *room = (ROOM_INDEX_DATA *) vo;
@@ -325,7 +325,7 @@ void fire_effect(void *vo, int level, int dam, int target)
 	}
 	return;
     }
- 
+
     if (target == TARGET_CHAR)   /* do the effect on a victim */
     {
 	CHAR_DATA *victim = (CHAR_DATA *) vo;
@@ -336,10 +336,10 @@ void fire_effect(void *vo, int level, int dam, int target)
 	&&  !saves_spell(level / 4 + dam / 20, victim,DAM_FIRE))
 	{
             AFFECT_DATA af;
-            act("$n is blinded by smoke!",victim,NULL,NULL,TO_ROOM);
-            act("Your eyes tear up from smoke...you can't see a thing!",
+            act("$n dumandan kör oldu!",victim,NULL,NULL,TO_ROOM);
+            act("Dumandan gözlerin taþarýyor...göremiyorsun!",
 		victim,NULL,NULL,TO_CHAR);
-	 
+
             af.where        = TO_AFFECTS;
             af.type         = skill_lookup("fire breath");
             af.level        = level;
@@ -347,7 +347,7 @@ void fire_effect(void *vo, int level, int dam, int target)
             af.location     = APPLY_HITROLL;
             af.modifier     = -4;
             af.bitvector    = AFF_BLIND;
- 
+
             affect_to_char(victim,&af);
 	}
 
@@ -377,9 +377,9 @@ void fire_effect(void *vo, int level, int dam, int target)
 	||  obj->pIndexData->limit != -1
 	||  number_range(0,4) == 0)
             return;
- 
+
         chance = level / 4 + dam / 10;
- 
+
         if (chance > 25)
             chance = (chance - 25) / 2 + 25;
         if (chance > 50)
@@ -391,44 +391,44 @@ void fire_effect(void *vo, int level, int dam, int target)
 
         if  ( check_material( obj, (char*)"ice" ) )  {
           chance += 30;
-          msg = "$p melts and evaporates!";
+          msg = "$p eriyerek buharlaþýyor!";
         }
         else
         switch ( obj->item_type )
         {
-        default:             
+        default:
 	    return;
         case ITEM_CONTAINER:
-            msg = "$p ignites and burns!";
-            break;
-        case ITEM_POTION:
-            chance += 25;
-            msg = "$p bubbles and boils!";
-            break;
-        case ITEM_SCROLL:
-            chance += 50;
-            msg = "$p crackles and burns!";
-            break;
-        case ITEM_STAFF:
-            chance += 10;
-            msg = "$p smokes and chars!";
-            break;
-        case ITEM_WAND:
-            msg = "$p sparks and sputters!";
-            break;
-        case ITEM_FOOD:
-            msg = "$p blackens and crisps!";
-            break;
-        case ITEM_PILL:
-            msg = "$p melts and drips!";
-            break;
+        msg = "$p tutuþarak yanýyor!";
+              break;
+          case ITEM_POTION:
+              chance += 25;
+  			msg = "$p fokurdayarak kaynýyor!";
+              break;
+          case ITEM_SCROLL:
+              chance += 50;
+  			msg = "$p çatýrdayarak yanýyor!";
+              break;
+          case ITEM_STAFF:
+              chance += 10;
+              msg = "$p duman çýkararak kömürleþiyor!";
+              break;
+          case ITEM_WAND:
+              msg = "$p kývýlcýmlar çýkararak çatýrdýyor!";
+              break;
+          case ITEM_FOOD:
+              msg = "$p kavrularak kararýyor!";
+              break;
+          case ITEM_PILL:
+              msg = "$p eriyerek damlamaya baþlýyor!";
+              break;
         }
 
         chance = URANGE(5,chance,95);
 
         if (number_percent() > chance)
             return;
- 
+
 	if (obj->carried_by != NULL)
             act( msg, obj->carried_by, obj, NULL, TO_ALL );
 	else if (obj->in_room != NULL && obj->in_room->people != NULL)
@@ -437,7 +437,7 @@ void fire_effect(void *vo, int level, int dam, int target)
         if (obj->contains)
         {
             /* dump the contents */
- 
+
             for (t_obj = obj->contains; t_obj != NULL; t_obj = n_obj)
             {
                 n_obj = t_obj->next_content;
@@ -454,7 +454,7 @@ void fire_effect(void *vo, int level, int dam, int target)
 		fire_effect(t_obj,level/2,dam/2,TARGET_OBJ);
             }
         }
- 
+
         extract_obj( obj );
 	return;
     }
@@ -466,7 +466,7 @@ void poison_effect(void *vo,int level, int dam, int target)
     {
         ROOM_INDEX_DATA *room = (ROOM_INDEX_DATA *) vo;
         OBJ_DATA *obj, *obj_next;
- 
+
         for (obj = room->contents; obj != NULL; obj = obj_next)
         {
             obj_next = obj->next_content;
@@ -474,7 +474,7 @@ void poison_effect(void *vo,int level, int dam, int target)
         }
         return;
     }
- 
+
     if (target == TARGET_CHAR)   /* do the effect on a victim */
     {
         CHAR_DATA *victim = (CHAR_DATA *) vo;
@@ -485,9 +485,8 @@ void poison_effect(void *vo,int level, int dam, int target)
         {
 	    AFFECT_DATA af;
 
-            send_to_char("You feel poison coursing through your veins.\n\r",
-                victim);
-            act("$n looks very ill.",victim,NULL,NULL,TO_ROOM);
+      send_to_char("Zehrin damarlarýnda dolaþtýðýný hissediyorsun.\n\r",victim);
+      act("$n çok hasta görünüyor.",victim,NULL,NULL,TO_ROOM);
 
             af.where     = TO_AFFECTS;
             af.type      = gsn_poison;
@@ -512,7 +511,7 @@ void poison_effect(void *vo,int level, int dam, int target)
     {
 	OBJ_DATA *obj = (OBJ_DATA *) vo;
 	int chance;
-	
+
 
 	if (IS_OBJ_STAT(obj,ITEM_BURN_PROOF)
   	||  IS_OBJ_STAT(obj,ITEM_BLESS)
@@ -574,7 +573,7 @@ void shock_effect(void *vo,int level, int dam, int target)
 	/* daze and confused? */
 	if (!saves_spell(level/4 + dam/20,victim,DAM_LIGHTNING))
 	{
-	    send_to_char("Your muscles stop responding.\n\r",victim);
+    send_to_char("Kaslarýn yanýt vermiyor.\n\r",victim);
 	    DAZE_STATE(victim,UMAX(12,level/4 + dam/20));
 	}
 
@@ -618,13 +617,13 @@ void shock_effect(void *vo,int level, int dam, int target)
 	   case ITEM_WAND:
 	   case ITEM_STAFF:
 		chance += 10;
-		msg = "$p overloads and explodes!";
+    msg = "$p aþýrý yüklenerek patlýyor!";
 		break;
 	   case ITEM_JEWELRY:
 		chance -= 10;
-		msg = "$p is fused into a worthless lump.";
+    msg = "$p çatlayarak deðersizleþiyor.";
 	}
-	
+
 	chance = URANGE(5,chance,95);
 
 	if (number_percent() > chance)
@@ -659,15 +658,15 @@ void sand_effect(void *vo, int level, int dam, int target)
     {
 	CHAR_DATA *victim = (CHAR_DATA *) vo;
 	OBJ_DATA *obj, *obj_next;
-	
+
 	if (!IS_AFFECTED(victim,AFF_BLIND)
 	&&  !saves_spell(level / 4 + dam / 20, victim,DAM_COLD))
 	{
             AFFECT_DATA af;
-            act("$n is blinded by flying sands!",victim,NULL,NULL,TO_ROOM);
-            act("Your eyes tear up from sands...you can't see a thing!",
+            act("$n uçuþan kumlarla körleþti!",victim,NULL,NULL,TO_ROOM);
+            act("Kum gözlerini yaþartýyor...göremiyorsun!",
 		victim,NULL,NULL,TO_CHAR);
-	 
+
             af.where        = TO_AFFECTS;
             af.type         = skill_lookup("sand storm");
             af.level        = level;
@@ -675,7 +674,7 @@ void sand_effect(void *vo, int level, int dam, int target)
             af.location     = APPLY_HITROLL;
             af.modifier     = -4;
             af.bitvector    = AFF_BLIND;
- 
+
             affect_to_char(victim,&af);
 	}
 
@@ -721,26 +720,26 @@ void sand_effect(void *vo, int level, int dam, int target)
 	    case ITEM_CORPSE_PC:
 	    case ITEM_CORPSE_NPC:
 		chance += 50;
-		msg = "$p is filled with sand and evaporates.";
+    msg = "$p kumla dolarak buharlaþýyor.";
 		break;
 	    case ITEM_ARMOR:
 		chance -=10;
-		msg = "$p is etched by sand";
+		msg = "$p kumla yontuluyor.";
 		break;
 	    case ITEM_CLOTHING:
-		msg = "$p is corroded by sands.";
+		msg = "$p kumla aþýnýyor.";
 	 	break;
 	    case ITEM_WAND:
 		chance = 50;
-		msg = "$p mixes with crashing sands.";
+		msg = "$p çarpan kum taneleri ile þeklini kaybediyor.";
 		break;
 	    case ITEM_SCROLL:
 		chance += 20;
-		msg = "$p is surrouned by sand.";
-		break; 
+		msg = "$p kumla kaplanýyor.";
+		break;
 	    case ITEM_POTION:
 		chance +=10;
-		msg = "$p is broken into peace by crashing sands.";
+		msg = "$p çarpan kum taneleri ile parçalara ayrýlýyor.";
 		break;
 	}
 
@@ -773,12 +772,12 @@ void sand_effect(void *vo, int level, int dam, int target)
 		    break;
                 }
             }
- 
+
             if (!af_found)
             /* needs a new affect */
             {
 		paf = new_affect();
- 
+
                 paf->type       = -1;
                 paf->level      = level;
                 paf->duration   = level;
@@ -788,7 +787,7 @@ void sand_effect(void *vo, int level, int dam, int target)
                 paf->next       = obj->affected;
                 obj->affected   = paf;
             }
- 
+
             if (obj->carried_by != NULL && obj->wear_loc != WEAR_NONE)
                 for (i = 0; i < 4; i++)
                     obj->carried_by->armor[i] += 1;
@@ -823,7 +822,7 @@ void sand_effect(void *vo, int level, int dam, int target)
 
 void scream_effect(void *vo, int level, int dam, int target)
 {
-    
+
     if (target == TARGET_ROOM)  /* nail objects on the floor */
     {
 	ROOM_INDEX_DATA *room = (ROOM_INDEX_DATA *) vo;
@@ -835,7 +834,7 @@ void scream_effect(void *vo, int level, int dam, int target)
 	}
 	return;
     }
- 
+
     if (target == TARGET_CHAR)   /* do the effect on a victim */
     {
 	CHAR_DATA *victim = (CHAR_DATA *) vo;
@@ -844,9 +843,9 @@ void scream_effect(void *vo, int level, int dam, int target)
 	if  (!saves_spell(level / 4 + dam / 20, victim,DAM_SOUND))
 	{
             AFFECT_DATA af;
-            act("$n can't hear anything!",victim,NULL,NULL,TO_ROOM);
-            act("You can't hear a thing!",victim,NULL,NULL,TO_CHAR);
-	 
+            act("$n duyamýyor!",victim,NULL,NULL,TO_ROOM);
+            act("Duyamýyorsun!",victim,NULL,NULL,TO_CHAR);
+
             af.where        = TO_AFFECTS;
             af.type         = gsn_scream;
             af.level        = level;
@@ -854,18 +853,18 @@ void scream_effect(void *vo, int level, int dam, int target)
             af.location     = APPLY_NONE;
             af.modifier     = 0;
             af.bitvector    = AFF_SCREAM;
- 
+
             affect_to_char(victim,&af);
 	}
 
 	/* daze and confused? */
 	if (!saves_spell(level/4 + dam/20,victim,DAM_SOUND))
 	{
-	    send_to_char("You can't hear anything!.\n\r",victim);
+    send_to_char("Duyamýyorsun!.\n\r",victim);
 	    DAZE_STATE(victim,UMAX(12,level/4 + dam/20));
 	}
 
-	 
+
 	/* getting thirsty */
 	if (!IS_NPC(victim))
 	    gain_condition(victim,COND_THIRST,dam/20);
@@ -891,9 +890,9 @@ void scream_effect(void *vo, int level, int dam, int target)
         ||  IS_OBJ_STAT(obj,ITEM_NOPURGE)
 	||  number_range(0,4) == 0)
             return;
- 
+
         chance = level / 4 + dam / 10;
- 
+
         if (chance > 25)
             chance = (chance - 25) / 2 + 25;
         if (chance > 50)
@@ -903,36 +902,36 @@ void scream_effect(void *vo, int level, int dam, int target)
             chance -= 5;
         chance -= obj->level * 2;
 
-        if  ( check_material( obj, (char*)"ice" ) )  
+        if  ( check_material( obj, (char*)"ice" ) )
 	{
           chance += 30;
-          msg = "$p breaks and evaporates!";
+          msg = "$p parçalanarak buharlaþýyor!";
         }
         else
 	if ( check_material ( obj, (char*)"glass" ) )
 	{
 	 chance += 30;
-	 msg = "$p breaks into tiny small peaces";
+   msg = "$p küçük parçalara ayrýlýyor.";
 	}
 	else
         switch ( obj->item_type )
         {
-        default:             
+        default:
 	    return;
         case ITEM_POTION:
             chance += 25;
-            msg = "Vial of $p breaks and liquid spoils!";
+            msg = "$p þiþesi kýrýlarak içindekini yere döküyor!";
             break;
         case ITEM_SCROLL:
             chance += 50;
-            msg = "$p breaks into tiny peaces!";
+            msg = "$p küçük parçalara ayrýlýyor!";
             break;
         case ITEM_DRINK_CON:
-	    msg = "$p breaks and liquid spoils!";
+        msg = "$p kýrýlýyor ve içindeki bozuluyor!";
 	    chance += 5;
 	    break;
         case ITEM_PILL:
-            msg = "$p breaks into peaces!";
+        msg = "$p parçalara ayrýlýyor!";
             break;
         }
 
@@ -940,7 +939,7 @@ void scream_effect(void *vo, int level, int dam, int target)
 
         if (number_percent() > chance)
             return;
- 
+
 	if (obj->carried_by != NULL)
             act( msg, obj->carried_by, obj, NULL, TO_ALL );
 	else if (obj->in_room != NULL && obj->in_room->people != NULL)
@@ -949,7 +948,7 @@ void scream_effect(void *vo, int level, int dam, int target)
         if (obj->contains)
         {
             /* dump the contents */
- 
+
             for (t_obj = obj->contains; t_obj != NULL; t_obj = n_obj)
             {
                 n_obj = t_obj->next_content;
@@ -966,10 +965,8 @@ void scream_effect(void *vo, int level, int dam, int target)
 		scream_effect(t_obj,level/2,dam/2,TARGET_OBJ);
             }
         }
- 
+
         extract_obj( obj );
 	return;
     }
 }
-
-

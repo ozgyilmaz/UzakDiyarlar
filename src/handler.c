@@ -1,12 +1,12 @@
 /***************************************************************************
- *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *	
+ *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
- *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *	
- *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *	
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *
+ *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
 /**************************************************************************r
@@ -76,7 +76,7 @@ bool is_friend(CHAR_DATA *ch,CHAR_DATA *victim)
     if (is_same_group(ch,victim))
 	return TRUE;
 
-    
+
     if (!IS_NPC(ch))
 	return FALSE;
 
@@ -97,13 +97,13 @@ bool is_friend(CHAR_DATA *ch,CHAR_DATA *victim)
     if (ch->group && ch->group == victim->group)
 	return TRUE;
 
-    if (IS_SET(ch->off_flags,ASSIST_VNUM) 
+    if (IS_SET(ch->off_flags,ASSIST_VNUM)
     &&  ch->pIndexData == victim->pIndexData)
 	return TRUE;
 
     if (IS_SET(ch->off_flags,ASSIST_RACE) && RACE(ch) == RACE(victim) )
 	return TRUE;
-     
+
     if (IS_SET(ch->off_flags,ASSIST_ALIGN)
     &&  !IS_SET(ch->act,ACT_NOALIGN) && !IS_SET(victim->act,ACT_NOALIGN)
     &&  ((IS_GOOD(ch) && IS_GOOD(victim))
@@ -128,16 +128,16 @@ void room_record(char *name,ROOM_INDEX_DATA *room,sh_int door)
   for (rh = room->history; i < 5 && rh != NULL; i++,rh = rh->next);
 
   if (i < 5)
-    rh = (ROOM_HISTORY_DATA *)alloc_perm(sizeof(ROOM_HISTORY_DATA)); 
-  else 
-  { 
+    rh = (ROOM_HISTORY_DATA *)alloc_perm(sizeof(ROOM_HISTORY_DATA));
+  else
+  {
     rh = room->history->next->next->next->next;
     room->history->next->next->next->next = NULL;
     free_string(rh->name);
   }
 
   rh->next = room->history;
-  room->history = rh; 
+  room->history = rh;
   rh->name = str_dup(name);
   rh->went = door;
 }
@@ -159,7 +159,7 @@ int count_users(OBJ_DATA *obj)
 
     return count;
 }
-     
+
 /* returns material number */
 int material_lookup (const char *name)
 {
@@ -179,7 +179,7 @@ int race_lookup (const char *name)
    }
 
    return 0;
-} 
+}
 
 int liq_lookup (const char *name)
 {
@@ -205,11 +205,11 @@ int weapon_lookup (const char *name)
 	&&  !str_prefix(name,weapon_table[type].name))
 	    return type;
     }
- 
+
     return -1;
 }
 
-bool cabal_ok(CHAR_DATA *ch, sh_int sn) 
+bool cabal_ok(CHAR_DATA *ch, sh_int sn)
 {
   int i;
 
@@ -223,7 +223,7 @@ bool cabal_ok(CHAR_DATA *ch, sh_int sn)
   for (i=1;i < MAX_CABAL; i++)
     if (cabal_table[ch->cabal].obj_ptr->in_room->vnum ==
           cabal_table[i].room_vnum) {
-      send_to_char("You cannot find the Cabal Power within you.\n\r",ch);
+            send_to_char( "Kabal gücünün varolmadýðýný hissediyorsun.\n\r",ch);
       return FALSE;
     }
 
@@ -233,14 +233,14 @@ bool cabal_ok(CHAR_DATA *ch, sh_int sn)
 int weapon_type (const char *name)
 {
     int type;
- 
+
     for (type = 0; weapon_table[type].name != NULL; type++)
     {
         if (LOWER(name[0]) == LOWER(weapon_table[type].name[0])
         &&  !str_prefix(name,weapon_table[type].name))
             return weapon_table[type].type;
     }
- 
+
     return WEAPON_EXOTIC;
 }
 
@@ -255,7 +255,7 @@ int item_lookup(const char *name)
         &&  !str_prefix(name,item_table[type].name))
             return item_table[type].type;
     }
- 
+
     return -1;
 }
 
@@ -272,7 +272,7 @@ const char *item_name(int item_type)
 const char *weapon_name( int weapon_type)
 {
     int type;
- 
+
     for (type = 0; weapon_table[type].name != NULL; type++)
         if (weapon_type == weapon_table[type].type)
             return weapon_table[type].name;
@@ -332,7 +332,7 @@ bool may_float( OBJ_DATA *obj )
          check_material( obj, (char*)"oak" ) )
        return TRUE;
 
-    if ( obj->item_type == ITEM_BOAT ) 
+    if ( obj->item_type == ITEM_BOAT )
 	return TRUE;
 
     return FALSE;
@@ -368,7 +368,7 @@ int floating_time( OBJ_DATA *obj )
  int  ftime;
 
  ftime = 0;
- switch( obj->item_type )  
+ switch( obj->item_type )
  {
     default: break;
     case ITEM_KEY 	: ftime = 1;	break;
@@ -420,7 +420,7 @@ long wiznet_lookup (const char *name)
 int class_lookup (const char *name)
 {
    int iclass;
- 
+
    for ( iclass = 0; iclass < MAX_CLASS; iclass++)
    {
         if (LOWER(name[0]) == LOWER(class_table[iclass].name[0])
@@ -429,7 +429,7 @@ int class_lookup (const char *name)
             return iclass;
 	}
    }
- 
+
    return -1;
 }
 
@@ -458,7 +458,7 @@ int check_immune(CHAR_DATA *ch, int dam_type)
 	    def = IS_VULNERABLE;
     }
     else /* magical attack */
-    {	
+    {
 	if (IS_SET(ch->imm_flags,IMM_MAGIC))
 	    def = IS_IMMUNE;
 	else if (IS_SET(ch->res_flags,RES_MAGIC))
@@ -504,7 +504,7 @@ int check_immune(CHAR_DATA *ch, int dam_type)
 	    immune = IS_VULNERABLE;
     }
 
-    if (!IS_NPC(ch) && get_curr_stat(ch, STAT_CHA) < 18 
+    if (!IS_NPC(ch) && get_curr_stat(ch, STAT_CHA) < 18
 		&& dam_type == DAM_CHARM)
 	immune = IS_VULNERABLE;
 
@@ -523,7 +523,7 @@ bool is_old_mob(CHAR_DATA *ch)
 	return FALSE;
     return TRUE;
 }
- 
+
 /* for returning skill information */
 int get_skill(CHAR_DATA *ch, int sn)
 {
@@ -567,7 +567,7 @@ int get_skill(CHAR_DATA *ch, int sn)
 	else if (sn == gsn_second_attack )
 	    skill = 30 + ch->level;
 
-	else if (sn == gsn_third_attack 
+	else if (sn == gsn_third_attack
 	&& (IS_SET(ch->act,ACT_WARRIOR) || IS_SET(ch->act,ACT_THIEF)))
 	    skill = 30 + ch->level / 2;
 
@@ -586,8 +586,8 @@ int get_skill(CHAR_DATA *ch, int sn)
  	else if (sn == gsn_bash && IS_SET(ch->off_flags,OFF_BASH))
 	    skill = 10 + 3 * ch->level;
 
-	else if (sn == gsn_disarm 
-	     &&  (IS_SET(ch->off_flags,OFF_DISARM) 
+	else if (sn == gsn_disarm
+	     &&  (IS_SET(ch->off_flags,OFF_DISARM)
 	     ||   IS_SET(ch->act,ACT_WARRIOR)
 	     ||	  IS_SET(ch->act,ACT_THIEF)))
 	    skill = 20 + 3 * ch->level;
@@ -607,7 +607,7 @@ int get_skill(CHAR_DATA *ch, int sn)
 	    skill = 20 + 2 * ch->level;
 
   	else if (sn == gsn_rescue)
-	    skill = 40 + ch->level; 
+	    skill = 40 + ch->level;
 
 	else if (sn == gsn_recall)
 	    skill = 40 + ch->level;
@@ -625,7 +625,7 @@ int get_skill(CHAR_DATA *ch, int sn)
 	||  sn == gsn_lance)
 	    skill = 40 + 5 * ch->level / 2;
 
-	else 
+	else
 	   skill = 0;
     }
 
@@ -685,10 +685,10 @@ int get_weapon_skill(CHAR_DATA *ch, int sn)
 	    skill = 3 * ch->level;
 	else if (sn == gsn_hand_to_hand)
 	    skill = 40 + 2 * ch->level;
-	else 
+	else
 	    skill = 40 + 5 * ch->level / 2;
     }
-    
+
     else
     {
 	if (sn == -1)
@@ -701,7 +701,7 @@ int get_weapon_skill(CHAR_DATA *ch, int sn)
         skill = 9 * skill / 10;
 
     return URANGE(0,skill,100);
-} 
+}
 
 
 /* used to de-screw characters */
@@ -715,7 +715,7 @@ void reset_char(CHAR_DATA *ch)
 	return;
 
     if (ch->pcdata->true_sex < 0 || ch->pcdata->true_sex > 2)
-	ch->pcdata->true_sex = 0; 
+	ch->pcdata->true_sex = 0;
 
     ch->sex		= ch->pcdata->true_sex;
     ch->max_hit 	= ch->pcdata->perm_hit;
@@ -726,14 +726,14 @@ void reset_char(CHAR_DATA *ch)
     ch->mana		= ch->max_mana;
     ch->move		= ch->max_move;
 */
-   
+
 /* a little hack */
-  
+
     ch->extracted = TRUE;
     /* now add back spell effects */
     for (af = ch->affected; af != NULL; af = af->next)
     {
-	affect_modify(ch, af, TRUE); 
+	affect_modify(ch, af, TRUE);
     }
 
     /* now start adding back the effects */
@@ -746,12 +746,12 @@ void reset_char(CHAR_DATA *ch)
 	   equip_char(ch, obj, loc);
 	}
     }
-  
+
     ch->extracted = FALSE;
     /* make sure sex is RIGHT! */
     if (ch->sex < 0 || ch->sex > 2)
 	ch->sex = ch->pcdata->true_sex;
- 
+
 }
 
 
@@ -799,7 +799,7 @@ int get_curr_stat( CHAR_DATA *ch, int stat )
         max = get_max_train(ch,stat);
  	max = UMIN(max,25);
     }
-  
+
     return URANGE(3,ch->perm_stat[stat] + ch->mod_stat[stat], max);
 }
 
@@ -814,11 +814,11 @@ int get_max_train( CHAR_DATA *ch, int stat )
 
     max = (20 + pc_race_table[ORG_RACE(ch)].stats[stat] + /* ORG_RACE && RACE serdar*/
 		class_table[ch->iclass].stats[stat]);
-    
+
     return UMIN(max,25);
 }
 
-/*   
+/*
  * command for returning max training score
  * for do_train and stat2train in comm.c
  */
@@ -829,13 +829,13 @@ int get_max_train2( CHAR_DATA *ch, int stat )
     if (IS_NPC(ch) || ch->level > LEVEL_IMMORTAL)
 	return 25;
 
-    max = (20 + pc_race_table[ORG_RACE(ch)].stats[stat] + 
+    max = (20 + pc_race_table[ORG_RACE(ch)].stats[stat] +
 		class_table[ch->iclass].stats[stat]);
-    
+
     return UMIN(max,25);
 }
-   
-	
+
+
 /*
  * Retrieve a character's carry capacity.
  */
@@ -920,7 +920,7 @@ void affect_enchant(OBJ_DATA *obj)
 
             af_new->next = obj->affected;
             obj->affected = af_new;
- 
+
 	    af_new->where	= paf->where;
             af_new->type        = UMAX(0,paf->type);
             af_new->level       = paf->level;
@@ -931,7 +931,7 @@ void affect_enchant(OBJ_DATA *obj)
         }
     }
 }
-           
+
 
 /*
  * Apply or remove an affect to a character.
@@ -968,7 +968,7 @@ void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd )
 	    SET_BIT(ch->detection,paf->bitvector);
 	    break;
 	case TO_RACE:
-	    RACE(ch) = paf->modifier < MAX_PC_RACE ? paf->modifier : 1;	    
+	    RACE(ch) = paf->modifier < MAX_PC_RACE ? paf->modifier : 1;
 	    REMOVE_BIT(ch->affected_by,race_table[ORG_RACE(ch)].det);
 	    SET_BIT(ch->affected_by,race_table[RACE(ch)].det);
 	    REMOVE_BIT(ch->affected_by,race_table[ORG_RACE(ch)].aff);
@@ -1019,7 +1019,7 @@ void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd )
 	    SET_BIT(ch->vuln_flags,race_table[ORG_RACE(ch)].vuln);
 	    ch->form	= race_table[ORG_RACE(ch)].form;
 	    ch->parts	= race_table[ORG_RACE(ch)].parts;
-	    RACE(ch) = ORG_RACE(ch);	    
+	    RACE(ch) = ORG_RACE(ch);
 	    break;
         }
 	mod = 0 - mod;
@@ -1077,8 +1077,8 @@ void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd )
 	if ( depth == 0 )
 	{
 	    depth++;
-	    act( "You drop $p.", ch, hold, NULL, TO_CHAR );
-	    act( "$n drops $p.", ch, hold, NULL, TO_ROOM );
+      act( "$p objesini býrakýyorsun.", ch, hold, NULL, TO_CHAR );
+	    act( "$n $p objesini býrakýyor.", ch, hold, NULL, TO_ROOM );
 	    obj_from_char( hold );
 	    obj_to_room( hold, ch->in_room );
 	    depth--;
@@ -1091,8 +1091,8 @@ void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd )
 	if ( depth == 0 )
 	{
 	    depth++;
-	    act( "You drop $p.", ch, hold, NULL, TO_CHAR );
-	    act( "$n drops $p.", ch, hold, NULL, TO_ROOM );
+      act("$p objesini býrakýyorsun.", ch, hold, NULL, TO_CHAR );
+	    act("$n $p objesini býrakýyor.", ch, hold, NULL, TO_ROOM );
 	    obj_from_char( hold );
 	    obj_to_room( hold, ch->in_room );
 	    depth--;
@@ -1105,8 +1105,8 @@ void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd )
 	if ( depth == 0 )
 	{
 	    depth++;
-	    act( "You drop $p.", ch, hold, NULL, TO_CHAR );
-	    act( "$n drops $p.", ch, hold, NULL, TO_ROOM );
+      act( "$p objesini býrakýyorsun.", ch, hold, NULL, TO_CHAR );
+	    act( "$n $p objesini býrakýyor.", ch, hold, NULL, TO_ROOM );
 	    obj_from_char( hold );
 	    obj_to_room( hold, ch->in_room );
 	    depth--;
@@ -1122,7 +1122,7 @@ void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd )
 AFFECT_DATA  *affect_find(AFFECT_DATA *paf, int sn)
 {
     AFFECT_DATA *paf_find;
-    
+
     for ( paf_find = paf; paf_find != NULL; paf_find = paf_find->next )
     {
         if ( paf_find->type == sn )
@@ -1150,7 +1150,7 @@ void affect_check(CHAR_DATA *ch,int where,int vector)
 		    SET_BIT(ch->affected_by,vector);
 		    break;
 	        case TO_IMMUNE:
-		    SET_BIT(ch->imm_flags,vector);   
+		    SET_BIT(ch->imm_flags,vector);
 		    break;
 	        case TO_RESIST:
 		    SET_BIT(ch->res_flags,vector);
@@ -1165,9 +1165,9 @@ void affect_check(CHAR_DATA *ch,int where,int vector)
 		    SET_BIT(ch->detection,vector);
 		    break;
 		case TO_RACE:
-		    if (RACE(ch) == ORG_RACE(ch)) 
+		    if (RACE(ch) == ORG_RACE(ch))
 		    {
-		     RACE(ch) = paf->modifier<MAX_PC_RACE ? paf->modifier:1; 
+		     RACE(ch) = paf->modifier<MAX_PC_RACE ? paf->modifier:1;
 		     REMOVE_BIT(ch->affected_by,race_table[ORG_RACE(ch)].det);
 		     SET_BIT(ch->affected_by,race_table[RACE(ch)].det);
 	     	     REMOVE_BIT(ch->affected_by,race_table[ORG_RACE(ch)].aff);
@@ -1215,9 +1215,9 @@ void affect_check(CHAR_DATA *ch,int where,int vector)
                         SET_BIT(ch->detection,vector);
                   	break;
 		    case TO_RACE:
-		    	if (RACE(ch) == ORG_RACE(ch)) 
+		    	if (RACE(ch) == ORG_RACE(ch))
 		    {
-		     RACE(ch) = paf->modifier<MAX_PC_RACE ? paf->modifier:1; 
+		     RACE(ch) = paf->modifier<MAX_PC_RACE ? paf->modifier:1;
 		     REMOVE_BIT(ch->affected_by,race_table[ORG_RACE(ch)].det);
 		     SET_BIT(ch->affected_by,race_table[RACE(ch)].det);
 	     	     REMOVE_BIT(ch->affected_by,race_table[ORG_RACE(ch)].aff);
@@ -1263,9 +1263,9 @@ void affect_check(CHAR_DATA *ch,int where,int vector)
                         SET_BIT(ch->detection,vector);
                         break;
 		   case TO_RACE:
-		    	if (RACE(ch) == ORG_RACE(ch)) 
+		    	if (RACE(ch) == ORG_RACE(ch))
 		    {
-		     RACE(ch) = paf->modifier<MAX_PC_RACE ? paf->modifier:1; 
+		     RACE(ch) = paf->modifier<MAX_PC_RACE ? paf->modifier:1;
 		     REMOVE_BIT(ch->affected_by,race_table[ORG_RACE(ch)].det);
 		     SET_BIT(ch->affected_by,race_table[RACE(ch)].det);
 	     	     REMOVE_BIT(ch->affected_by,race_table[ORG_RACE(ch)].aff);
@@ -1326,7 +1326,7 @@ void affect_to_obj(OBJ_DATA *obj, AFFECT_DATA *paf)
 	        SET_BIT(obj->value[4],paf->bitvector);
 	    break;
         }
-    
+
 
     return;
 }
@@ -1486,7 +1486,7 @@ bool is_affected( CHAR_DATA *ch, int sn )
 void affect_join( CHAR_DATA *ch, AFFECT_DATA *paf )
 {
     AFFECT_DATA *paf_old;
-    
+
     for ( paf_old = ch->affected; paf_old != NULL; paf_old = paf_old->next )
     {
 	if ( paf_old->type == paf->type )
@@ -1587,10 +1587,10 @@ void char_to_room( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex )
 	ROOM_INDEX_DATA *room;
 
 	bug( "Char_to_room: NULL.", 0 );
-	
+
 	if ((room = get_room_index(ROOM_VNUM_TEMPLE)) != NULL)
 	    char_to_room(ch,room);
-	
+
 	return;
     }
 
@@ -1614,43 +1614,43 @@ void char_to_room( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex )
     &&   obj->value[2] != 0 )
 */
 	++ch->in_room->light;
-	
+
     while (IS_AFFECTED(ch,AFF_PLAGUE))
     {
         AFFECT_DATA *af, plague;
         CHAR_DATA *vch;
-        
+
         for ( af = ch->affected; af != NULL; af = af->next )
         {
             if (af->type == gsn_plague)
                 break;
         }
-        
+
         if (af == NULL)
         {
             REMOVE_BIT(ch->affected_by,AFF_PLAGUE);
             break;
         }
-        
+
         if (af->level == 1)
             break;
-        
+
 	plague.where		= TO_AFFECTS;
         plague.type 		= gsn_plague;
-        plague.level 		= af->level - 1; 
+        plague.level 		= af->level - 1;
         plague.duration 	= number_range(1,2 * plague.level);
         plague.location		= APPLY_STR;
         plague.modifier 	= -5;
         plague.bitvector 	= AFF_PLAGUE;
-        
+
         for ( vch = ch->in_room->people; vch != NULL; vch = vch->next_in_room)
         {
-            if (!saves_spell(plague.level - 2,vch,DAM_DISEASE) 
+            if (!saves_spell(plague.level - 2,vch,DAM_DISEASE)
 	    &&  !IS_IMMORTAL(vch) &&
             	!IS_AFFECTED(vch,AFF_PLAGUE) && number_bits(6) == 0)
             {
-            	send_to_char("You feel hot and feverish.\n\r",vch);
-            	act("$n shivers and looks very ill.",vch,NULL,NULL,TO_ROOM);
+              send_to_char("Ateþinin yükseldiðini hissediyorsun.\n\r",vch);
+            	act("$n çok hasta görünüyor.",vch,NULL,NULL,TO_ROOM);
             	affect_join(vch,&plague);
             }
         }
@@ -1810,14 +1810,14 @@ void equip_char( CHAR_DATA *ch, OBJ_DATA *obj, int iWear )
 	/*
 	 * Thanks to Morgenes for the bug fix here!
 	 */
-	act( "You are zapped by $p and drop it.", ch, obj, NULL, TO_CHAR );
-	act( "$n is zapped by $p and drops it.",  ch, obj, NULL, TO_ROOM );
+   act("$p seni çarparak elinden düþüyor.", ch, obj, NULL, TO_CHAR );
+ 	act("$p $m çarparak elinden düþüyor.",  ch, obj, NULL, TO_ROOM );
 	obj_from_char( obj );
 	obj_to_room( obj, ch->in_room );
 	return;
     }
 
-    
+
     for (i = 0; i < 4; i++)
     	ch->armor[i]      	-= apply_ac( obj, iWear,i );
 
@@ -1837,7 +1837,7 @@ void equip_char( CHAR_DATA *ch, OBJ_DATA *obj, int iWear )
     	    affect_to_char ( ch, paf );
 	else
 	    affect_modify( ch, paf, TRUE );
-    
+
     if (IS_SET(obj->progtypes,OPROG_WEAR))
       (obj->pIndexData->oprogs->wear_prog) (obj,ch);
 
@@ -1870,7 +1870,7 @@ void unequip_char( CHAR_DATA *ch, OBJ_DATA *obj )
 
     for (i = 0; i < 4; i++)
     	ch->armor[i]	+= apply_ac( obj, obj->wear_loc,i );
-    old_wear 		 = obj->wear_loc; 
+    old_wear 		 = obj->wear_loc;
     obj->wear_loc	 = -1;
 
     if (!obj->enchanted)
@@ -1916,12 +1916,12 @@ void unequip_char( CHAR_DATA *ch, OBJ_DATA *obj )
 	else
 	{
 	    affect_modify( ch, paf, FALSE );
-	    affect_check(ch,paf->where,paf->bitvector);	
+	    affect_check(ch,paf->where,paf->bitvector);
 	}
 
     if ( get_light_char(ch) == NULL && ch->in_room != NULL
 	&& ( (obj->item_type == ITEM_LIGHT && obj->value[2] != 0)
-            || (old_wear == WEAR_HEAD && IS_OBJ_STAT(obj, ITEM_GLOW)) ) 
+            || (old_wear == WEAR_HEAD && IS_OBJ_STAT(obj, ITEM_GLOW)) )
 	&&   ch->in_room->light > 0 )
 	--ch->in_room->light;
 
@@ -2040,9 +2040,9 @@ void obj_to_room( OBJ_DATA *obj, ROOM_INDEX_DATA *pRoomIndex )
 	  obj->timer = -1;
 	  if (pRoomIndex->people)
 	  {
-	    act("$p loses its transparency and becomes solid.",
+      act("$p saydamlýðýný yitirerek katýlaþýyor.",
 		pRoomIndex->people, obj, NULL, TO_CHAR);
-	    act("$p loses its transparency and becomes solid.",
+	    act("$p saydamlýðýný yitirerek katýlaþýyor.",
 		pRoomIndex->people, obj, NULL, TO_ROOM);
 	  }
         }
@@ -2065,7 +2065,7 @@ void obj_to_obj( OBJ_DATA *obj, OBJ_DATA *obj_to )
     obj->in_room		= NULL;
     obj->carried_by		= NULL;
     if (obj_to->pIndexData->vnum == OBJ_VNUM_PIT)
-        obj->cost = 0; 
+        obj->cost = 0;
 
     for ( ; obj_to != NULL; obj_to = obj_to->in_obj )
     {
@@ -2127,7 +2127,7 @@ void obj_from_obj( OBJ_DATA *obj )
 	if ( obj_from->carried_by != NULL )
 	{
 /*	    obj_from->carried_by->carry_number -= get_obj_number( obj ); */
-	    obj_from->carried_by->carry_weight -= get_obj_weight( obj ) 
+	    obj_from->carried_by->carry_weight -= get_obj_weight( obj )
 		* WEIGHT_MULT(obj_from) / 100;
 	}
     }
@@ -2135,7 +2135,7 @@ void obj_from_obj( OBJ_DATA *obj )
     return;
 }
 
-/* 
+/*
  * Extract an object consider limit
  */
 void extract_obj( OBJ_DATA *obj )
@@ -2143,7 +2143,7 @@ void extract_obj( OBJ_DATA *obj )
   extract_obj_1(obj,TRUE);
 }
 
-/* 
+/*
  * Extract an object consider limit
  */
 void extract_obj_nocount( OBJ_DATA *obj )
@@ -2171,7 +2171,7 @@ void extract_obj_1( OBJ_DATA *obj, bool count )
     else
       obj->extracted = TRUE;  /* if it hasn't been extracted yet, now
                                * it's being extracted. */
- 
+
     if ( obj->in_room != NULL )
 	obj_from_room( obj );
     else if ( obj->carried_by != NULL )
@@ -2181,7 +2181,7 @@ void extract_obj_1( OBJ_DATA *obj, bool count )
 
     for (i=1;i < MAX_CABAL;i++)
       if (obj->pIndexData->vnum == cabal_table[i].obj_vnum
-	&& cabal_table[i].obj_ptr == obj ) 
+	&& cabal_table[i].obj_ptr == obj )
       {
         obj->pIndexData->count--;
         cabal_table[i].obj_ptr = NULL;
@@ -2196,14 +2196,14 @@ void extract_obj_1( OBJ_DATA *obj, bool count )
     if (obj->pIndexData->vnum == OBJ_VNUM_MAGIC_JAR )
 	{
 	 CHAR_DATA *wch;
-	 
+
 	 for ( wch = char_list; wch != NULL ; wch = wch->next )
 	  {
 	   if (IS_NPC(wch)) continue;
 	   if (is_name(obj->name,wch->name) )
 		{
 		 REMOVE_BIT(wch->act,PLR_NO_EXP);
-		 send_to_char("Now you catch your spirit.\n\r",wch);
+     send_to_char("Ruhunu yakalýyorsun...\n\r",wch);
 		 break;
 		}
 	  }
@@ -2258,7 +2258,7 @@ void extract_char_org( CHAR_DATA *ch, bool fPull, bool Count )
     CHAR_DATA *wch;
     OBJ_DATA *obj;
     OBJ_DATA *obj_next;
-    int i;    
+    int i;
     char buf[MAX_STRING_LENGTH];
 
     if (fPull) /* only for total extractions should it check */
@@ -2280,14 +2280,14 @@ void extract_char_org( CHAR_DATA *ch, bool fPull, bool Count )
 	bug( "Extract_char: NULL.", 0 );
 	return;
     }
-    
+
     nuke_pets(ch);
     ch->pet = NULL; /* just in case */
 
     if ( fPull )
 
 	die_follower( ch );
-    
+
     stop_fighting( ch, TRUE );
 
     char_from_room( ch );
@@ -2301,7 +2301,7 @@ void extract_char_org( CHAR_DATA *ch, bool fPull, bool Count )
 	else
 	  extract_obj_nocount( obj );
     }
-    
+
     char_from_room( ch );
 
     if ( !fPull )
@@ -2460,7 +2460,7 @@ CHAR_DATA *get_char_world( CHAR_DATA *ch, char *argument )
     count  = 0;
     for ( wch = char_list; wch != NULL ; wch = wch->next )
     {
-	if ( wch->in_room == NULL || !can_see( ch, wch ) 
+	if ( wch->in_room == NULL || !can_see( ch, wch )
 	||   !is_name( arg, wch->name ) )
 	    continue;
 
@@ -2532,7 +2532,7 @@ OBJ_DATA *get_obj_carry( CHAR_DATA *ch, char *argument )
     for ( obj = ch->carrying; obj != NULL; obj = obj->next_content )
     {
 	if ( obj->wear_loc == WEAR_NONE
-	&&   (can_see_obj( ch, obj ) ) 
+	&&   (can_see_obj( ch, obj ) )
 	&&   is_name( arg, obj->name ) )
 	{
 	    if ( ++count == number )
@@ -2629,7 +2629,7 @@ void deduct_cost(CHAR_DATA *ch, int cost)
 {
     int silver = 0, gold = 0;
 
-    silver = UMIN(ch->silver,cost); 
+    silver = UMIN(ch->silver,cost);
 
     if (silver < cost)
     {
@@ -2650,7 +2650,7 @@ void deduct_cost(CHAR_DATA *ch, int cost)
 	bug("deduct costs: silver %d < 0",ch->silver);
 	ch->silver = 0;
     }
-}   
+}
 /*
  * Create a 'money' obj.
  */
@@ -2694,7 +2694,7 @@ OBJ_DATA *create_money( int gold, int silver )
         obj->cost               = silver;
 	obj->weight		= silver/20;
     }
- 
+
     else
     {
 	obj = create_object( get_obj_index( OBJ_VNUM_COINS ), 0 );
@@ -2718,7 +2718,7 @@ OBJ_DATA *create_money( int gold, int silver )
 int get_obj_number( OBJ_DATA *obj )
 {
     int number;
-/* 
+/*
     if (obj->item_type == ITEM_CONTAINER || obj->item_type == ITEM_MONEY
     ||  obj->item_type == ITEM_GEM || obj->item_type == ITEM_JEWELRY)
         number = 0;
@@ -2728,10 +2728,10 @@ int get_obj_number( OBJ_DATA *obj )
     else
         number = 1;
 
-/* 
+/*
     for ( obj = obj->contains; obj != NULL; obj = obj->next_content )
         number += get_obj_number( obj );
-*/ 
+*/
     return number;
 }
 
@@ -2763,11 +2763,11 @@ int get_obj_weight( OBJ_DATA *obj )
 int get_true_weight(OBJ_DATA *obj)
 {
     int weight;
- 
+
     weight = obj->weight;
     for ( obj = obj->contains; obj != NULL; obj = obj->next_content )
         weight += get_obj_weight( obj );
- 
+
     return weight;
 }
 
@@ -2778,11 +2778,11 @@ bool room_is_dark( CHAR_DATA *ch )
 {
     ROOM_INDEX_DATA * pRoomIndex = ch->in_room;
 
-    if ( IS_VAMPIRE (ch) ) 
+    if ( IS_VAMPIRE (ch) )
 	{
          return FALSE;
 	}
-	
+
     if ( pRoomIndex->light > 0 )
 	return FALSE;
 
@@ -2849,7 +2849,7 @@ bool room_is_private( ROOM_INDEX_DATA *pRoomIndex )
 
     if ( IS_SET(pRoomIndex->room_flags, ROOM_SOLITARY) && count >= 1 )
 	return TRUE;
-    
+
     if ( IS_SET(pRoomIndex->room_flags, ROOM_IMP_ONLY) )
 	return TRUE;
 
@@ -2859,7 +2859,7 @@ bool room_is_private( ROOM_INDEX_DATA *pRoomIndex )
 /* visibility on a room -- for entering and exits */
 bool can_see_room( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex )
 {
-    if (IS_SET(pRoomIndex->room_flags, ROOM_IMP_ONLY) 
+    if (IS_SET(pRoomIndex->room_flags, ROOM_IMP_ONLY)
     &&  get_trust(ch) < MAX_LEVEL)
 	return FALSE;
 
@@ -2891,7 +2891,7 @@ bool can_see( CHAR_DATA *ch, CHAR_DATA *victim )
 
     if ( ch == NULL || victim == NULL )
 	dump_to_scr( (char*)">>>>>>>> CAN_ SEE ERROR <<<<<<<<<<<\n\r" );
-    
+
     if ( get_trust(ch) < victim->invis_level)
 	return FALSE;
 
@@ -2899,7 +2899,7 @@ bool can_see( CHAR_DATA *ch, CHAR_DATA *victim )
     if (get_trust(ch) < victim->incog_level && ch->in_room != victim->in_room)
 	return FALSE;
 
-    if ( (!IS_NPC(ch) && IS_SET(ch->act, PLR_HOLYLIGHT)) 
+    if ( (!IS_NPC(ch) && IS_SET(ch->act, PLR_HOLYLIGHT))
     ||   (IS_NPC(ch) && IS_IMMORTAL(ch)))
 	return TRUE;
 
@@ -2920,7 +2920,7 @@ bool can_see( CHAR_DATA *ch, CHAR_DATA *victim )
     &&   !CAN_DETECT(ch, DETECT_IMP_INVIS) )
 	return FALSE;
 
-/* sneaking 
+/* sneaking
 
     if ( IS_AFFECTED(victim, AFF_SNEAK)
     &&   !CAN_DETECT(ch,DETECT_HIDDEN)
@@ -2979,7 +2979,7 @@ bool can_see_obj( CHAR_DATA *ch, OBJ_DATA *obj )
     &&   !CAN_DETECT(ch, DETECT_INVIS) )
         return FALSE;
 
-    if ( IS_SET(obj->extra_flags, ITEM_BURIED) && !IS_IMMORTAL(ch) ) 
+    if ( IS_SET(obj->extra_flags, ITEM_BURIED) && !IS_IMMORTAL(ch) )
         return FALSE;
 
     if ( IS_OBJ_STAT(obj,ITEM_GLOW))
@@ -3105,11 +3105,11 @@ char *affect_bit_name( int vector )
     buf[0] = '\0';
     if ( vector & AFF_BLIND         ) strcat( buf, " blind"         );
     if ( vector & AFF_INVISIBLE     ) strcat( buf, " invisible"     );
-    if ( vector & AFF_IMP_INVIS     ) strcat( buf, " imp_invis"     );    
-    if ( vector & AFF_FADE	    ) strcat( buf, " fade"     	    );    
-    if ( vector & AFF_SCREAM	    ) strcat( buf, " scream"        );    
-    if ( vector & AFF_BLOODTHIRST   ) strcat( buf, " bloodthirst"   );    
-    if ( vector & AFF_STUN	    ) strcat( buf, " stun"   );    
+    if ( vector & AFF_IMP_INVIS     ) strcat( buf, " imp_invis"     );
+    if ( vector & AFF_FADE	    ) strcat( buf, " fade"     	    );
+    if ( vector & AFF_SCREAM	    ) strcat( buf, " scream"        );
+    if ( vector & AFF_BLOODTHIRST   ) strcat( buf, " bloodthirst"   );
+    if ( vector & AFF_STUN	    ) strcat( buf, " stun"   );
     if ( vector & AFF_SANCTUARY     ) strcat( buf, " sanctuary"     );
     if ( vector & AFF_FAERIE_FIRE   ) strcat( buf, " faerie_fire"   );
     if ( vector & AFF_INFRARED      ) strcat( buf, " infrared"      );
@@ -3204,7 +3204,7 @@ char *act_bit_name( int act_flags )
     buf[0] = '\0';
 
     if (IS_SET(act_flags,ACT_IS_NPC))
-    { 
+    {
  	strcat(buf," npc");
     	if (act_flags & ACT_SENTINEL 	) strcat(buf, " sentinel");
     	if (act_flags & ACT_SCAVENGER	) strcat(buf, " scavenger");
@@ -3283,7 +3283,7 @@ char *comm_bit_name(int comm_flags)
     if (comm_flags & COMM_NOSHOUT	) strcat(buf, " no_shout");
     if (comm_flags & COMM_NOTELL	) strcat(buf, " no_tell");
     if (comm_flags & COMM_NOCHANNELS	) strcat(buf, " no_channels");
-    
+
 
     return (char *)(( buf[0] != '\0' ) ? buf+1 : "none");
 }
@@ -3478,14 +3478,14 @@ char *off_bit_name(int off_flags)
 int cabal_lookup (const char *argument)
 {
    int cabal;
- 
+
    for ( cabal = 0; cabal < MAX_CABAL; cabal++)
    {
         if (LOWER(argument[0]) == LOWER(cabal_table[cabal].short_name[0])
         &&  !str_prefix( argument,cabal_table[cabal].short_name))
             return cabal;
    }
- 
+
    return -1;
 }
 
@@ -3525,8 +3525,8 @@ int ch_skill_nok_nomessage( CHAR_DATA *ch , int skill )
 {
  if ( IS_NPC(ch) && RACE_OK(ch,skill) && CABAL_OK(ch,skill))
 	return 0;
- if ( !IS_NPC(ch) && CLEVEL_OK(ch,skill) && RACE_OK(ch,skill) && 
-	CABAL_OK(ch,skill) && ALIGN_OK(ch,skill)) return 0; 
+ if ( !IS_NPC(ch) && CLEVEL_OK(ch,skill) && RACE_OK(ch,skill) &&
+	CABAL_OK(ch,skill) && ALIGN_OK(ch,skill)) return 0;
  return 1;
 }
 
@@ -3534,14 +3534,14 @@ int ch_skill_nok( CHAR_DATA *ch, int skill )
 {
    if (ch_skill_nok_nomessage(ch,skill))
    {
-	 send_to_char("Huh?\n\r",ch);
+     send_to_char("Hý?\n\r",ch);
 	 return 1;
    }
    return 0;
 }
 
 /* room affects by chronos */
-void	affect_modify_room	args( ( ROOM_INDEX_DATA *room, AFFECT_DATA *paf, bool fAdd ) ); 
+void	affect_modify_room	args( ( ROOM_INDEX_DATA *room, AFFECT_DATA *paf, bool fAdd ) );
 
 /*
  * Apply or remove an affect to a room.
@@ -3612,7 +3612,7 @@ void affect_to_room( ROOM_INDEX_DATA *room, AFFECT_DATA *paf )
 	  pRoomIndex->aff_next != NULL;
 	  pRoomIndex  = pRoomIndex->aff_next )
 			continue;
-      pRoomIndex->aff_next = room;	
+      pRoomIndex->aff_next = room;
      }
      else top_affected_room = room;
      room->aff_next = NULL;
@@ -3807,7 +3807,7 @@ char *raffect_loc_name( int location )
     return (char*)"(unknown)";
 }
 
-     
+
 /*
  * Return ascii name of an affect bit vector.
  */
@@ -3833,11 +3833,11 @@ bool is_safe_rspell_nom(int level, CHAR_DATA *victim )
   /* ghosts are safe */
   if ( !IS_NPC(victim) && IS_SET(victim->act, PLR_GHOST))
     return TRUE;
- 
+
   /* link dead players who do not have rushing adrenalin are safe */
-  if (!IS_NPC(victim) && ((victim->last_fight_time == -1) || 
-	((current_time - victim->last_fight_time) > FIGHT_DELAY_TIME)) && 
-	victim->desc == NULL) 
+  if (!IS_NPC(victim) && ((victim->last_fight_time == -1) ||
+	((current_time - victim->last_fight_time) > FIGHT_DELAY_TIME)) &&
+	victim->desc == NULL)
     return TRUE;
 
   if  ( victim->level < 5  && !IS_NPC(victim) )
@@ -3860,14 +3860,14 @@ bool is_safe_rspell(int level, CHAR_DATA *victim)
 {
   if (is_safe_rspell_nom(level,victim))
     {
-      act("The gods protect $n.",victim,NULL,NULL,TO_CHAR);
-      act("The gods protect $n from the spell of room.",victim,NULL,NULL,TO_ROOM);
+      act("Tanrýlar $m koruyor.",victim,NULL,NULL,TO_CHAR);
+      act("Tanrýlar $m odanýn büyüsünden koruyor.",victim,NULL,NULL,TO_ROOM);
       return TRUE;
     }
   else return FALSE;
 }
-      
-	
+
+
 void raffect_to_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
  {
   AFFECT_DATA *paf;
@@ -3889,32 +3889,32 @@ void raffect_to_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
 	{
 	 bug("Owner of lightning shield left the room.",0);
 	 free_string(room->owner);
-	 room->owner = str_dup("");	 
-	 affect_strip_room( room,sn); 
+	 room->owner = str_dup("");
+	 affect_strip_room( room,sn);
 	}
-     else 
+     else
      {
-      send_to_char("The protective shield of room blocks you.\n\r",ch);
-      act("$N has entered the room.",vch,NULL,ch,TO_CHAR);
+       send_to_char("Odadaki koruma kalkaný seni engelliyor.\n\r",ch);
+       act("$N odaya girdi.",vch,NULL,ch,TO_CHAR);
       do_wake(vch,(char*)"");
 
       if ( (paf = affect_find(room->affected,sn)) == NULL )
 	 { bug("Bad paf for lightning shield",0); return; }
 
-      if (!is_safe_rspell(paf->level,ch)) 
+      if (!is_safe_rspell(paf->level,ch))
 	{
 
          if (CAN_DETECT(ch, ADET_GROUNDING))
          {
-           send_to_char("The electricity fizzles at your foes.\n\r",ch);
-           act("A lightning bolt fizzles at $N's foes.\n\r",
+           send_to_char("Enerji düþmanlarýnda yitip gidiyor.\n\r",ch);
+           act("Bir yýldýrým $S düþmanlarýnda yitip gidiyor.\n\r",ch, NULL, ch, TO_ROOM);
                         ch, NULL, ch, TO_ROOM);
          }
 	 else
 	 {
 	   damage( vch,ch,dice(paf->level,4)+12,sn,DAM_LIGHTNING, TRUE);
 	   free_string(room->owner);
-	   room->owner = str_dup("");	 
+	   room->owner = str_dup("");
 	   affect_remove_room( room , paf);
 	 }
 	}
@@ -3928,12 +3928,12 @@ void raffect_to_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
      if ( (sn = skill_lookup("shocking trap")) == -1 )
 	{ bug("Bad sn for shocking shield",0); return; }
 
-     send_to_char("The shocking waves of room shocks you.\n\r",ch);
+  send_to_char("Odadaki þok dalgalarý seni þokluyor.\n\r",ch);
 
      if ( (paf = affect_find(room->affected,sn)) == NULL )
 	 { bug("Bad paf for shocking shield",0); return; }
 
-     if (!is_safe_rspell(paf->level,ch)) 
+     if (!is_safe_rspell(paf->level,ch))
 	{
 	 if ( check_immune(ch, DAM_LIGHTNING) != IS_IMMUNE )
 	 damage( ch,ch,dice(paf->level,4)+12,TYPE_HUNGER,DAM_TRAP_ROOM, TRUE);
@@ -3943,12 +3943,12 @@ void raffect_to_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
 
   if ( IS_ROOM_AFFECTED( room, AFF_ROOM_THIEF_TRAP) )
   {
-     send_to_char("The trap ,set by someone, blocks you.\n\r",ch);
+    send_to_char("Birisi tarafýndan kurulmuþ tuzak seni engelliyor.\n\r",ch);
 
      if ( (paf = affect_find(room->affected,gsn_settraps)) == NULL )
 	 { bug("Bad paf for settraps",0); return; }
 
-     if (!is_safe_rspell(paf->level,ch)) 
+     if (!is_safe_rspell(paf->level,ch))
 	{
 	 if ( check_immune(ch, DAM_PIERCE) != IS_IMMUNE )
 	 damage( ch,ch,dice(paf->level,5)+12,TYPE_HUNGER,DAM_TRAP_ROOM, TRUE);
@@ -3958,7 +3958,7 @@ void raffect_to_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
 
   if ( IS_ROOM_AFFECTED( room, AFF_ROOM_SLOW)
 	|| IS_ROOM_AFFECTED( room, AFF_ROOM_SLEEP) )
-     send_ch_color("$CThere is some mist flowing in the air.$c\n\r",ch,POS_SLEEPING,CLR_YELLOW);
+  send_ch_color("$CHavayý dolduran gizemi hissediyorsun.$c\n\r",ch,POS_SLEEPING,CLR_YELLOW);
 
   return;
  }
@@ -3971,11 +3971,11 @@ void raffect_back_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
 
     if ( (sn = skill_lookup("lightning shield")) == -1 )
 	{ bug("Bad sn for lightning shield",0); return; }
-    if (is_room_owner(ch,room)) 
+    if (is_room_owner(ch,room))
 	{
 	 free_string(room->owner);
-	 room->owner = str_dup("");	 
-	 affect_strip_room( room,sn); 
+	 room->owner = str_dup("");
+	 affect_strip_room( room,sn);
 	}
    }
   return;
@@ -4039,14 +4039,14 @@ int affect_check_obj(CHAR_DATA *ch,int vector)
   return 0;
 }
 
-int count_charmed( CHAR_DATA *ch )	
+int count_charmed( CHAR_DATA *ch )
 {
   CHAR_DATA *gch;
   int count = 0;
 
   for (gch = char_list; gch != NULL; gch = gch->next)
   {
-      if ( IS_AFFECTED(gch,AFF_CHARM) 
+      if ( IS_AFFECTED(gch,AFF_CHARM)
 		&& gch->master == ch
 		&& ch->pet != gch )
 	  count++;
@@ -4054,7 +4054,7 @@ int count_charmed( CHAR_DATA *ch )
 
   if (count >= MAX_CHARM(ch) )
   {
-    send_to_char("You are already controlling as many charmed mobs as you can!\n\r",ch);
+    send_to_char("Emrindekilerden fazlasýný kontrol etmeye gücün yetmez!\n\r",ch);
     return count;
   }
 
@@ -4068,9 +4068,9 @@ void add_mind(CHAR_DATA *ch, char *str)
  if (!IS_NPC(ch) || ch->in_room == NULL) return;
 
  if (ch->in_mind == NULL)
-  { 
-   sprintf(buf,"%d",ch->in_room->vnum); 
-   ch->in_mind = str_dup(buf); 
+  {
+   sprintf(buf,"%d",ch->in_room->vnum);
+   ch->in_mind = str_dup(buf);
   }
  if (!is_name(str,ch->in_mind))
   {
@@ -4086,14 +4086,14 @@ void remove_mind(CHAR_DATA *ch, char *str)
  char arg[MAX_INPUT_LENGTH];
  char *mind = ch->in_mind;
 
- if (!IS_NPC(ch) || ch->in_room == NULL 
+ if (!IS_NPC(ch) || ch->in_room == NULL
 	|| mind == NULL || !is_name(str,mind) ) return;
 
  buf[0] = '\0';
  do
-  { 
+  {
    mind = one_argument(mind,arg);
-   if (!is_name(str,arg))  
+   if (!is_name(str,arg))
    {
     if (buf[0] == '\0') strcpy(buff,arg);
     else sprintf(buff,"%s %s",buf,arg);
@@ -4101,11 +4101,11 @@ void remove_mind(CHAR_DATA *ch, char *str)
    }
   }
  while ( mind[0] != '\0' );
- 
- do_say(ch,(char*)"At last, I took my revenge!"); 
+
+ do_say(ch,(char*)"Sonunda intikamýmý aldým!");
  free_string(ch->in_mind);
  ch->in_mind = str_dup( buf );
- if (is_number(buf)) back_home(ch); 
+ if (is_number(buf)) back_home(ch);
 }
 
 int opposite_door(int door)
@@ -4140,10 +4140,10 @@ void back_home( CHAR_DATA *ch )
 
  if ( ch->fighting == NULL && location != ch->in_room )
   {
-   act("$n prays for transportation.",ch,NULL,NULL,TO_ROOM);
+    act("$n nakil için dua ediyor.",ch,NULL,NULL,TO_ROOM);
    char_from_room( ch );
    char_to_room( ch, location );
-   act("$n appears in the room.",ch,NULL,NULL,TO_ROOM);
+   act("$n odada beliriyor.",ch,NULL,NULL,TO_ROOM);
    if (is_number(ch->in_mind))
    {
 	free_string(ch->in_mind);
@@ -4152,7 +4152,7 @@ void back_home( CHAR_DATA *ch )
  }
 }
 
-CHAR_DATA * find_char( CHAR_DATA *ch, char *argument,int door, int range ) 
+CHAR_DATA * find_char( CHAR_DATA *ch, char *argument,int door, int range )
 {
  EXIT_DATA *pExit,*bExit;
  ROOM_INDEX_DATA *dest_room,*back_room;
@@ -4168,7 +4168,7 @@ CHAR_DATA * find_char( CHAR_DATA *ch, char *argument,int door, int range )
  if ( (opdoor = opposite_door( door )) == -1)
   {
    bug("In find_char wrong door: %d",door);
-   send_to_char("You don't see that there.\n\r",ch);
+   send_to_char("Onu orada görmüyorsun.\n\r",ch);
    return NULL;
  }
  while (range > 0)
@@ -4183,27 +4183,27 @@ CHAR_DATA * find_char( CHAR_DATA *ch, char *argument,int door, int range )
   if ( (bExit = dest_room->exit[opdoor]) == NULL
       || bExit->u1.to_room != back_room)
    {
-    send_to_char("The path you choose prevents your power to pass.\n\r",ch);
+     send_to_char("Seçtiðin yol gücünün yoldan geçmesine izin vermiyor.\n\r",ch);
     return NULL;
    }
-  if ((target = get_char_room2(ch,dest_room,arg,&number)) != NULL ) 
+  if ((target = get_char_room2(ch,dest_room,arg,&number)) != NULL )
 	return target;
  }
 
- send_to_char("You don't see that there.\n\r",ch);
+ send_to_char("Onu orada görmüyorsun.\n\r",ch);
  return NULL;
 }
-	
+
 int check_exit( char *arg )
 {
     int door = -1;
 
-	 if ( !str_cmp( arg, "n" ) || !str_cmp( arg, "north" ) ) door = 0;
-    else if ( !str_cmp( arg, "e" ) || !str_cmp( arg, "east"  ) ) door = 1;
-    else if ( !str_cmp( arg, "s" ) || !str_cmp( arg, "south" ) ) door = 2;
-    else if ( !str_cmp( arg, "w" ) || !str_cmp( arg, "west"  ) ) door = 3;
-    else if ( !str_cmp( arg, "u" ) || !str_cmp( arg, "up"    ) ) door = 4;
-    else if ( !str_cmp( arg, "d" ) || !str_cmp( arg, "down"  ) ) door = 5;
+    if ( !str_cmp( arg, "k" ) || !str_cmp( arg, "kuzey" ) ) door = 0;
+     else if ( !str_cmp( arg, "d" ) || !str_cmp( arg, "doðu"  ) ) door = 1;
+     else if ( !str_cmp( arg, "g" ) || !str_cmp( arg, "güney" ) ) door = 2;
+     else if ( !str_cmp( arg, "b" ) || !str_cmp( arg, "batý"  ) ) door = 3;
+     else if ( !str_cmp( arg, "y" ) || !str_cmp( arg, "yukarý"    ) ) door = 4;
+     else if ( !str_cmp( arg, "a" ) || !str_cmp( arg, "aþaðý"  ) ) door = 5;
 
     return door;
 }
@@ -4223,7 +4223,7 @@ CHAR_DATA *get_char_spell( CHAR_DATA *ch, char *argument, int *door, int range )
  if (i == 0 || (*door = check_exit(buf)) == -1)
 	return get_char_room(ch,argument);
 
- return find_char(ch,(argument+i+1),*door,range);   
+ return find_char(ch,(argument+i+1),*door,range);
 }
 
 void path_to_track( CHAR_DATA *ch, CHAR_DATA *victim, int door)
@@ -4272,7 +4272,7 @@ void path_to_track( CHAR_DATA *ch, CHAR_DATA *victim, int door)
 	    || (temp = pExit->u1.to_room) == NULL )
 	{
 	 sprintf(log_buf,"Path to track: Range: %d Room: %d opdoor:%d",
-		range,temp->vnum,opdoor); 
+		range,temp->vnum,opdoor);
 	 bug(log_buf,0);
 	 return;
 	}
@@ -4301,15 +4301,15 @@ OBJ_DATA *get_wield_char( CHAR_DATA *ch, bool second )
 	 {
 	   if ((obj->wear_loc == WEAR_RIGHT && LEFT_HANDER(ch))
 		|| (obj->wear_loc == WEAR_LEFT && RIGHT_HANDER(ch)))
-	   return obj; 
+	   return obj;
 	 }
 	 else
-	 { 
+	 {
 	   if ((obj->wear_loc == WEAR_RIGHT && RIGHT_HANDER(ch))
 		|| (obj->wear_loc == WEAR_LEFT && LEFT_HANDER(ch))
 		|| obj->wear_loc == WEAR_BOTH)
-	   return obj; 
-	 } 
+	   return obj;
+	 }
 	}
     }
 
@@ -4362,10 +4362,10 @@ OBJ_DATA *get_light_char( CHAR_DATA *ch )
 
     for ( obj = ch->carrying; obj != NULL; obj = obj->next_content )
     {
-	if ( (obj->item_type == ITEM_LIGHT 
+	if ( (obj->item_type == ITEM_LIGHT
 	     && obj->value[2] != 0
-	     && ( obj->wear_loc == WEAR_LEFT 
-		|| obj->wear_loc == WEAR_RIGHT 
+	     && ( obj->wear_loc == WEAR_LEFT
+		|| obj->wear_loc == WEAR_RIGHT
 		|| obj->wear_loc == WEAR_BOTH ))
 	  || ( obj->wear_loc == WEAR_HEAD
 	     && IS_OBJ_STAT(obj, ITEM_GLOW)) )
@@ -4387,7 +4387,7 @@ bool is_wielded_char( CHAR_DATA *ch, OBJ_DATA *obj )
     for ( w = ch->carrying; w != NULL; w = w->next_content )
     {
 	if ( (w->wear_loc == WEAR_LEFT || w->wear_loc == WEAR_RIGHT ||
-	      w->wear_loc == WEAR_BOTH) && CAN_WEAR(w,ITEM_WIELD) 
+	      w->wear_loc == WEAR_BOTH) && CAN_WEAR(w,ITEM_WIELD)
 	      && w == obj)
 	   return TRUE;
     }
@@ -4456,7 +4456,7 @@ int max_can_wear( CHAR_DATA *ch, int i )
                                   i == WEAR_WRIST ? MAX_WRIST : \
                                   i == WEAR_TATTOO ? MAX_TATTOO : \
                                   i == WEAR_NECK ? MAX_NECK : 1 );
-    else  
+    else
 	return ( i == WEAR_FINGER ? (MAX_FINGER + 2) : \
                                   i == WEAR_STUCK_IN ? MAX_STUCK_IN : \
                                   i == WEAR_WRIST ? MAX_WRIST : \

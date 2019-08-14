@@ -1,12 +1,12 @@
 /***************************************************************************
- *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *	
+ *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
- *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *	
- *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *	
+ *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
+ *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *
  *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
 /***************************************************************************
@@ -54,10 +54,10 @@ DECLARE_DO_FUN(do_look		);
 DECLARE_DO_FUN(do_recall	);
 DECLARE_DO_FUN(do_stand		);
 DECLARE_DO_FUN(do_yell		);
-void	one_hit		args( ( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary) ); 
+void	one_hit		args( ( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary) );
 int 	mount_success 	args( ( CHAR_DATA *ch, CHAR_DATA *mount, int canattack) );
 int 	find_path	args( ( int in_room_vnum, int out_room_vnum, CHAR_DATA *ch, int depth, int in_zone ) );
-int	check_obj_dodge	args( ( CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DATA *obj, int bonus) ); 
+int	check_obj_dodge	args( ( CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DATA *obj, int bonus) );
 OBJ_DATA *	get_weapon_char	args( ( CHAR_DATA *ch, int wType ) );
 bool cabal_area_check   args( (CHAR_DATA *ch) );
 bool is_at_cabal_area   args( (CHAR_DATA *ch) );
@@ -67,7 +67,7 @@ bool is_at_cabal_area   args( (CHAR_DATA *ch) );
 
 const char *	dir_name	[]		=
 {
-    "north", "east", "south", "west", "up", "down"
+  "kuzey", "doðu", "güney", "batý", "yukarý", "aþaðý"
 };
 
 const	sh_int	rev_dir		[]		=
@@ -103,13 +103,13 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
     OBJ_DATA *obj;
     char buf[MAX_STRING_LENGTH];
 
-   if (RIDDEN(ch) && !IS_NPC(ch->mount)) 
+   if (RIDDEN(ch) && !IS_NPC(ch->mount))
    {
     move_char(ch->mount,door,follow);
     return;
    }
 
-   if (CAN_DETECT(ch,ADET_WEB) 
+   if (CAN_DETECT(ch,ADET_WEB)
 	|| (MOUNTED(ch) && CAN_DETECT(ch->mount,ADET_WEB)))
     {
 	WAIT_STATE(ch,PULSE_VIOLENCE);
@@ -117,14 +117,14 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
 	{
 	 affect_strip(ch,gsn_web);
 	 REMOVE_BIT(ch->detection,ADET_WEB);
-	 send_to_char( "When you attempt to leave the room, you break the webs holding you tight.\n\r", ch );
-	 act( "$n struggles against the webs which hold $m in place, and break it.", ch, NULL, NULL, TO_ROOM );
+   send_to_char( "Odayý terketmek istediðinde seni tutan aðlarý parçalýyorsun.\n\r", ch );
+	 act( "$n kendisini tutan aðlardan kurtulmaya çalýþýyor ve onlarý parçalýyor.", ch, NULL, NULL, TO_ROOM );
 	}
-	else 
+	else
 	{
-	 send_to_char( "You attempt to leave the room, but the webs hold you tight.\n\r", ch );
-	 act( "$n struggles vainly against the webs which hold $m in place.", ch, NULL, NULL, TO_ROOM );
-	 return; 
+    send_to_char("Aðlar odadan ayrýlmaný engelliyor.\n\r", ch );
+ 	 act( "$n kendisini tutan aðlardan kurtulmaya çalýþmasý sonuþ vermiyor.", ch, NULL, NULL, TO_ROOM );
+	 return;
 	}
     }
 
@@ -134,35 +134,35 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
 	return;
     }
 
-    if (( IS_AFFECTED( ch, AFF_HIDE ) && !IS_AFFECTED(ch, AFF_SNEAK) )  
+    if (( IS_AFFECTED( ch, AFF_HIDE ) && !IS_AFFECTED(ch, AFF_SNEAK) )
 	|| ( IS_AFFECTED( ch, AFF_FADE ) && !IS_AFFECTED(ch, AFF_SNEAK) )  )
     {
 	REMOVE_BIT(ch->affected_by, AFF_HIDE);
 	REMOVE_BIT(ch->affected_by, AFF_FADE);
-	send_to_char( "You step out of shadows.\n\r", ch );
-	act( "$n steps out of shadows.", ch, NULL, NULL, TO_ROOM);
+  send_to_char("Gölgelerden çýkýyorsun.\n\r", ch );
+	act( "$n gölgelerden çýkýyor.", ch, NULL, NULL, TO_ROOM);
     }
-    if ( IS_AFFECTED( ch, AFF_CAMOUFLAGE ) )  
+    if ( IS_AFFECTED( ch, AFF_CAMOUFLAGE ) )
     {
 	if ( ch->level < skill_table[gsn_move_camf].skill_level[ch->iclass])
 	     {
 	      REMOVE_BIT(ch->affected_by, AFF_CAMOUFLAGE);
-	      send_to_char( "You step out from your cover.\n\r", ch );
-	      act("$n steps out from $m's cover.", ch, NULL, NULL,TO_ROOM);
-	     }	    
+        send_to_char( "Örtünden sýyrýlýyorsun.\n\r", ch );
+	      act("$n örtüsünden sýyrýlýyor.", ch, NULL, NULL,TO_ROOM);
+	     }
 	else if ( number_percent() < get_skill(ch,gsn_move_camf) )
 	           check_improve(ch,gsn_move_camf,TRUE,5);
 	else {
 	      REMOVE_BIT(ch->affected_by, AFF_CAMOUFLAGE);
-	      send_to_char( "You step out from your cover.\n\r", ch );
-	      act("$n steps out from $m's cover.", ch, NULL, NULL,TO_ROOM);
+        send_to_char("Örtünden sýyrýlýyorsun.\n\r", ch );
+	      act("$n örtüsünden sýyrýlýyor.", ch, NULL, NULL,TO_ROOM);
 	      check_improve(ch,gsn_move_camf,FALSE,5);
-	     }	    
+	     }
     }
     if ( CAN_DETECT(ch, ADET_EARTHFADE) )
     {
-	send_to_char("You fade to your neutral form.\n\r", ch);
-	act("Earth forms $n in front of you.", ch, NULL, NULL, TO_ROOM);
+      send_to_char("Doðal formuna dönüyorsun.\n\r", ch);
+    	act("$n þekilleniyor.", ch, NULL, NULL, TO_ROOM);
 	affect_strip(ch, gsn_earthfade);
 	WAIT_STATE(ch, (PULSE_VIOLENCE / 2) );
 	REMOVE_BIT(ch->detection, ADET_EARTHFADE );
@@ -170,10 +170,10 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
 
     in_room = ch->in_room;
     if ( ( pexit   = in_room->exit[door] ) == NULL
-    ||   ( to_room = pexit->u1.to_room   ) == NULL 
+    ||   ( to_room = pexit->u1.to_room   ) == NULL
     ||	 !can_see_room(ch,pexit->u1.to_room))
     {
-	send_to_char( "Alas, you cannot go that way.\n\r", ch );
+      send_to_char("O yöne gidemezsin.\n\r", ch );
 	return;
     }
 
@@ -186,24 +186,24 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
 	 {
 	  d0 = number_range(0,5);
           if ( ( pexit   = in_room->exit[d0] ) == NULL
-           ||   ( to_room = pexit->u1.to_room   ) == NULL 
+           ||   ( to_room = pexit->u1.to_room   ) == NULL
            ||	 !can_see_room(ch,pexit->u1.to_room))
-	   continue;	  
+	   continue;
 	  door = d0;
 	  break;
 	 }
     }
 
-    if (IS_SET(pexit->exit_info, EX_CLOSED) 
+    if (IS_SET(pexit->exit_info, EX_CLOSED)
       && (!IS_AFFECTED(ch, AFF_PASS_DOOR) || IS_SET(pexit->exit_info,EX_NOPASS))
       &&   !IS_TRUSTED(ch,ANGEL) )
     {
 	if ( IS_AFFECTED( ch, AFF_PASS_DOOR ) && IS_SET(pexit->exit_info, EX_NOPASS))  {
-  	  act( "You failed to pass through the $d.", ch, NULL, pexit->keyword, TO_CHAR);
-	  act( "$n tries to pass through the $d, but $e fails", ch, NULL, pexit->keyword, TO_ROOM);
+    act("$d içinden geçemedin.", ch, NULL, pexit->keyword, TO_CHAR);
+  act("$n $d içinden geçmeyi baþaramadý.", ch, NULL, pexit->keyword, TO_ROOM);
 	}
 	else
-	  act( "The $d is closed.", ch, NULL, pexit->keyword, TO_CHAR );
+  act( "$d kapalý.", ch, NULL, pexit->keyword, TO_CHAR );
         return;
     }
 
@@ -211,27 +211,27 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
     &&   ch->master != NULL
     &&   in_room == ch->master->in_room )
     {
-	send_to_char( "What?  And leave your beloved master?\n\r", ch );
+      send_to_char("Pek sevgili efendini terk mi edeceksin?\n\r", ch );
 	return;
     }
 
 /*    if ( !is_room_owner(ch,to_room) && room_is_private( to_room ) )	*/
     if ( room_is_private( to_room ) )
     {
-	send_to_char( "That room is private right now.\n\r", ch );
+      send_to_char( "Oda þu an özel kullanýmda.\n\r", ch );
 	return;
     }
 
-    if (MOUNTED(ch)) 
+    if (MOUNTED(ch))
     {
-        if (MOUNTED(ch)->position < POS_FIGHTING) 
+        if (MOUNTED(ch)->position < POS_FIGHTING)
         {
-         send_to_char("Your mount must be standing.\n\r", ch);
-         return; 
+          send_to_char("Bineðin ayakta olmalý.\n\r", ch);
+         return;
         }
-        if (!mount_success(ch, MOUNTED(ch), FALSE)) 
+        if (!mount_success(ch, MOUNTED(ch), FALSE))
         {
-         send_to_char("Your mount subbornly refuses to go that way.\n\r", ch);
+          send_to_char("Bineðin inatla reddediyor.\n\r", ch);
          return;
         }
     }
@@ -243,19 +243,18 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
 
 
 	for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
-	    for ( iGuild = 0; iGuild < MAX_GUILD; iGuild ++)	
-	    	if ( to_room->vnum == class_table[iClass].guild[iGuild] 
+	    for ( iGuild = 0; iGuild < MAX_GUILD; iGuild ++)
+	    	if ( to_room->vnum == class_table[iClass].guild[iGuild]
 		     && !IS_IMMORTAL(ch) )
 	    	{
 		    if ( iClass != ch->iclass )  {
-		      send_to_char( "You aren't allowed in there.\n\r", ch );
+          send_to_char("Ýznin yok.\n\r", ch );
 		      return;
 		    }
                     if (ch->last_fight_time != -1 &&
                       current_time - ch->last_fight_time < FIGHT_DELAY_TIME)
                     {
-                      send_to_char(
-                           "You feel too bloody to go in there now.\n\r",ch);
+                      send_to_char("Fazlasýyla kan kokuyorsun.\n\r",ch);
                       return;
                     }
 	        }
@@ -263,28 +262,28 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
 	if ( in_room->sector_type == SECT_AIR
 	||   to_room->sector_type == SECT_AIR )
 	{
-            if ( MOUNTED(ch) ) 
+            if ( MOUNTED(ch) )
             {
-                if( !IS_AFFECTED(MOUNTED(ch), AFF_FLYING) ) 
+                if( !IS_AFFECTED(MOUNTED(ch), AFF_FLYING) )
                 {
-                    send_to_char( "Your mount can't fly.\n\r", ch );
+                  send_to_char( "Bineðin uçamýyor.\n\r", ch );
                     return;
                 }
-            } 
+            }
            else if ( !IS_AFFECTED(ch, AFF_FLYING) && !IS_IMMORTAL(ch))
 	    {
-	      send_to_char( "You can't fly.\n\r", ch );
+        send_to_char("Uçamýyorsun.\n\r", ch );
 	      return;
-            } 
+            }
 	}
 
 	if (( in_room->sector_type == SECT_WATER_NOSWIM
 	||    to_room->sector_type == SECT_WATER_NOSWIM )
 	&&    (MOUNTED(ch) && !IS_AFFECTED(MOUNTED(ch),AFF_FLYING)) )
 	{
-	    send_to_char("You can't take your mount there.\n\r",ch);
-	    return; 
-        }  
+    send_to_char("Bineðini oraya götüremezsin.\n\r",ch);
+	    return;
+        }
 
 	if (( in_room->sector_type == SECT_WATER_NOSWIM
 	||    to_room->sector_type == SECT_WATER_NOSWIM )
@@ -311,7 +310,7 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
 	    }
 	    if ( !found )
 	    {
-		send_to_char( "You need a boat to go there.\n\r", ch );
+        send_to_char("Sala ihtiyacýn var.\n\r", ch );
 		return;
 	    }
 	}
@@ -332,16 +331,16 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
 
 	if ( !MOUNTED(ch) && ch->move < move )
 	{
-	    send_to_char( "You are too exhausted.\n\r", ch );
+    send_to_char("Çok yorgunsun.\n\r", ch );
 	    return;
 	}
 
-	if ( !MOUNTED(ch) && 
+	if ( !MOUNTED(ch) &&
 	(ch->in_room->sector_type == SECT_DESERT || IS_WATER(ch->in_room)) )
 	  WAIT_STATE( ch, 2 );
 	else
 	  WAIT_STATE( ch, 1 );
-	
+
 	if (!MOUNTED(ch))	ch->move -= move;
     }
 
@@ -353,17 +352,17 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
             number_percent() < get_skill(ch,gsn_quiet_movement) )
           {
 	    if (MOUNTED(ch))
-	        sprintf(buf,"$n leaves, riding on %s.", 
-			MOUNTED(ch)->short_descr );
-            else sprintf(buf,"$n leaves.");
+      sprintf(buf,"$n %s üzerinde ilerliyor.", MOUNTED(ch)->short_descr );
+            else
+            sprintf(buf,"$n ilerliyor.");
             check_improve(ch,gsn_quiet_movement,TRUE,1);
           }
-	else 
+	else
 	  {
            if (MOUNTED(ch))
-		sprintf(buf,"$n leaves $T, riding on %s.",
-			MOUNTED(ch)->short_descr );
-  	   else sprintf(buf,"$n leaves $T." );
+           sprintf(buf,"$n %s üzerinde $W yönünde ilerliyor.",MOUNTED(ch)->short_descr );
+  	   else
+       sprintf(buf,"$n $W yönünde ilerliyor." );
 	  }
   	  act( buf, ch, NULL, dir_name[door], TO_ROOM );
      }
@@ -371,20 +370,20 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
     if ( IS_AFFECTED(ch, AFF_CAMOUFLAGE) && to_room->sector_type != SECT_FIELD
 	 && to_room->sector_type != SECT_FOREST &&
            to_room->sector_type != SECT_MOUNTAIN &&
-           to_room->sector_type != SECT_HILLS ) 
+           to_room->sector_type != SECT_HILLS )
      {
       REMOVE_BIT(ch->affected_by, AFF_CAMOUFLAGE);
-      send_to_char( "You step out from your cover.\n\r", ch );
-      act("$n steps out from $m's cover.", ch, NULL, NULL,TO_ROOM);
-     }	    
+      send_to_char("Örtünden sýyrýlýyorsun.\n\r", ch );
+      act("$n örtüsünden sýyrýlýyor.", ch, NULL, NULL,TO_ROOM);
+     }
 
     if ( (IS_AFFECTED( ch, AFF_HIDE ) )
 	 && to_room->sector_type != SECT_FOREST
          && to_room->sector_type != SECT_FIELD )
     {
 	REMOVE_BIT(ch->affected_by, AFF_HIDE);
-	send_to_char( "You step out of shadows.\n\r", ch );
-	act( "$n steps out of shadows.", ch, NULL, NULL, TO_ROOM);
+  send_to_char( "Gölgelerden çýkýyorsun.\n\r", ch );
+	act( "$n gölgelerden çýkýyor.", ch, NULL, NULL, TO_ROOM);
     }
 
     mount = MOUNTED(ch);
@@ -406,8 +405,8 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
     &&   ch->invis_level < LEVEL_HERO)
       {
 	if (mount)
-	     act( "$n has arrived, riding $N.", ch, NULL, mount,TO_ROOM );
-	else act( "$n has arrived.", ch, NULL, NULL, TO_ROOM );
+  act("$n $M sürerek geldi.", ch, NULL, mount,TO_ROOM );
+else act( "$n geldi.", ch, NULL, NULL, TO_ROOM );
       }
 
     do_look( ch, (char*)"auto" );
@@ -459,30 +458,30 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
     {
 	fch_next = fch->next_in_room;
 
-	if ( fch->master == ch && IS_AFFECTED(fch,AFF_CHARM) 
+	if ( fch->master == ch && IS_AFFECTED(fch,AFF_CHARM)
 	&&   fch->position < POS_STANDING)
 	    do_stand(fch,(char*)"");
 
-	if ( fch->master == ch && fch->position == POS_STANDING 
+	if ( fch->master == ch && fch->position == POS_STANDING
 	&&   can_see_room(fch,to_room))
 	{
 
 	    if (IS_SET(ch->in_room->room_flags,ROOM_LAW)
 	    &&  (IS_NPC(fch) && IS_SET(fch->act,ACT_AGGRESSIVE)))
 	    {
-		act("You can't bring $N into the city.",
-		    ch,NULL,fch,TO_CHAR);
-		act("You aren't allowed in the city.",
-		    fch,NULL,NULL,TO_CHAR);
+        act("$M þehre sokamazsýn.",
+    		    ch,NULL,fch,TO_CHAR);
+    		act("Þehre girmek için iznin yok.",
+    		    fch,NULL,NULL,TO_CHAR);
 		continue;
 	    }
 
-	    act( "You follow $N.", fch, NULL, ch, TO_CHAR );
+      act("$M takip ediyorsun.", fch, NULL, ch, TO_CHAR );
 	    move_char( fch, door, TRUE );
 	}
     }
 
-    for (obj = ch->in_room->contents;room_has_pc && obj != NULL;	
+    for (obj = ch->in_room->contents;room_has_pc && obj != NULL;
          obj = obj->next_content)
       {
         if (IS_SET(obj->progtypes,OPROG_GREET))
@@ -553,14 +552,14 @@ void do_run( CHAR_DATA *ch, char *argument )
 
     if ( arg1[0] == '\0' || arg2[0] == '\0')
     {
-	send_to_char("run <direction> <count>\n\r", ch);
+      send_to_char("koþ <yön> <miktar>\n\r", ch);
 	return;
     }
 
     if ( ( door = find_exit(ch,arg1) ) < -1) return;
     if ( ( count = atoi( arg2 ) ) < 1 )
     {
-	send_to_char("Count should be larger than 0.\n\r", ch);
+      send_to_char("Sayý sýfýrdan büyük olmalý.\n\r", ch);
 	return;
     }
 
@@ -573,17 +572,17 @@ int find_exit( CHAR_DATA *ch, char *arg )
 {
     int door;
 
-	 if ( !str_cmp( arg, "n" ) || !str_cmp( arg, "north" ) ) door = 0;
-    else if ( !str_cmp( arg, "e" ) || !str_cmp( arg, "east"  ) ) door = 1;
-    else if ( !str_cmp( arg, "s" ) || !str_cmp( arg, "south" ) ) door = 2;
-    else if ( !str_cmp( arg, "w" ) || !str_cmp( arg, "west"  ) ) door = 3;
-    else if ( !str_cmp( arg, "u" ) || !str_cmp( arg, "up"    ) ) door = 4;
-    else if ( !str_cmp( arg, "d" ) || !str_cmp( arg, "down"  ) ) door = 5;
-    else
-    {
-	act( "I see no exit $T here.", ch, NULL, arg, TO_CHAR );
-	return -1;
-    }
+    if ( !str_cmp( arg, "k" ) || !str_cmp( arg, "kuzey" ) ) door = 0;
+     else if ( !str_cmp( arg, "d" ) || !str_cmp( arg, "doðu"  ) ) door = 1;
+     else if ( !str_cmp( arg, "g" ) || !str_cmp( arg, "güney" ) ) door = 2;
+     else if ( !str_cmp( arg, "b" ) || !str_cmp( arg, "batý"  ) ) door = 3;
+     else if ( !str_cmp( arg, "y" ) || !str_cmp( arg, "yukarý"    ) ) door = 4;
+     else if ( !str_cmp( arg, "a" ) || !str_cmp( arg, "aþaðý"  ) ) door = 5;
+     else
+     {
+ 	act("$T yönünde çýkýþ yok.", ch, NULL, arg, TO_CHAR );
+ 	return -1;
+     }
 
     return door;
 }
@@ -594,12 +593,12 @@ int find_door( CHAR_DATA *ch, char *arg )
     EXIT_DATA *pexit;
     int door;
 
-	 if ( !str_cmp( arg, "n" ) || !str_cmp( arg, "north" ) ) door = 0;
-    else if ( !str_cmp( arg, "e" ) || !str_cmp( arg, "east"  ) ) door = 1;
-    else if ( !str_cmp( arg, "s" ) || !str_cmp( arg, "south" ) ) door = 2;
-    else if ( !str_cmp( arg, "w" ) || !str_cmp( arg, "west"  ) ) door = 3;
-    else if ( !str_cmp( arg, "u" ) || !str_cmp( arg, "up"    ) ) door = 4;
-    else if ( !str_cmp( arg, "d" ) || !str_cmp( arg, "down"  ) ) door = 5;
+    if ( !str_cmp( arg, "k" ) || !str_cmp( arg, "kuzey" ) ) door = 0;
+     else if ( !str_cmp( arg, "d" ) || !str_cmp( arg, "doðu"  ) ) door = 1;
+     else if ( !str_cmp( arg, "g" ) || !str_cmp( arg, "güney" ) ) door = 2;
+     else if ( !str_cmp( arg, "b" ) || !str_cmp( arg, "batý"  ) ) door = 3;
+     else if ( !str_cmp( arg, "y" ) || !str_cmp( arg, "yukarý"    ) ) door = 4;
+     else if ( !str_cmp( arg, "a" ) || !str_cmp( arg, "aþaðý"  ) ) door = 5;
     else
     {
 	for ( door = 0; door <= 5; door++ )
@@ -610,19 +609,19 @@ int find_door( CHAR_DATA *ch, char *arg )
 	    &&   is_name( arg, pexit->keyword ) )
 		return door;
 	}
-	act( "I see no $T here.", ch, NULL, arg, TO_CHAR );
+  act("Hiç $T yok.", ch, NULL, arg, TO_CHAR );
 	return -1;
     }
 
     if ( ( pexit = ch->in_room->exit[door] ) == NULL )
     {
-	act( "I see no door $T here.", ch, NULL, arg, TO_CHAR );
+      act("$T yönünde kapý görünmüyor.", ch, NULL, arg, TO_CHAR );
 	return -1;
     }
 
     if ( !IS_SET(pexit->exit_info, EX_ISDOOR) )
     {
-	send_to_char( "You can't do that.\n\r", ch );
+      send_to_char("Bunu yapamazsýn.\n\r", ch );
 	return -1;
     }
 
@@ -633,7 +632,7 @@ int find_door( CHAR_DATA *ch, char *arg )
 
 const char * distance[4]=
 {
-"right here.", "nearby to the %s.", "not far %s.", "off in the distance %s."
+  "burada.", "%s yönünde.", "%s yönünde ilerde.", "%s yönünde uzakta."
 };
 
 void scan_list           args((ROOM_INDEX_DATA *scan_room, CHAR_DATA *ch,
@@ -646,8 +645,8 @@ void do_scan2(CHAR_DATA *ch, char *argument)
    EXIT_DATA *pExit;
    sh_int door;
 
-   act("$n looks all around.", ch, NULL, NULL, TO_ROOM);
-   send_to_char("Looking around you see:\n\r", ch);
+   act("$n etrafa bakýyor.", ch, NULL, NULL, TO_ROOM);
+   send_to_char("Etrafa bakýnca...\n\r", ch);
                 scan_list(ch->in_room, ch, 0, -1);
    for (door=0;door<6;door++)
       {
@@ -682,14 +681,14 @@ void scan_char(CHAR_DATA *victim, CHAR_DATA *ch, sh_int depth, sh_int door)
 
    buf[0] = '\0';
 
-   strcat(buf, 
+   strcat(buf,
  	(is_affected(victim,gsn_doppelganger) && !IS_SET(ch->act,PLR_HOLYLIGHT))
 		 ? PERS(victim->doppel, ch) : PERS(victim, ch));
    strcat(buf, ", ");
    sprintf(buf2, distance[depth], dir_name[door]);
    strcat(buf, buf2);
    strcat(buf, "\n\r");
- 
+
    send_to_char(buf, ch);
    return;
 }
@@ -704,7 +703,7 @@ void do_open( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' )
     {
-	send_to_char( "Open what?\n\r", ch );
+      send_to_char( "Neyi açacaksýn?\n\r", ch );
 	return;
     }
 
@@ -717,41 +716,41 @@ void do_open( CHAR_DATA *ch, char *argument )
 	{
 	    if (!IS_SET(obj->value[1], EX_ISDOOR))
 	    {
-		send_to_char("You can't do that.\n\r",ch);
+		send_to_char("Bunu yapamazsýn.\n\r",ch);
 		return;
 	    }
 
 	    if (!IS_SET(obj->value[1], EX_CLOSED))
 	    {
-		send_to_char("It's already open.\n\r",ch);
+		send_to_char("Zaten açýk.\n\r",ch);
 		return;
 	    }
 
 	    if (IS_SET(obj->value[1], EX_LOCKED))
 	    {
-		send_to_char("It's locked.\n\r",ch);
+		send_to_char("Kilitli.\n\r",ch);
 		return;
 	    }
 
 	    REMOVE_BIT(obj->value[1], EX_CLOSED);
-	    act("You open $p.",ch,obj,NULL,TO_CHAR);
-	    act("$n opens $p.",ch,obj,NULL,TO_ROOM);
+	    act("$p açýyorsun.",ch,obj,NULL,TO_CHAR);
+	    act("$n $p açýyor.",ch,obj,NULL,TO_ROOM);
 	    return;
  	}
 
 	/* 'open object' */
-	if ( obj->item_type != ITEM_CONTAINER)
-	    { send_to_char( "That's not a container.\n\r", ch ); return; }
+  if ( obj->item_type != ITEM_CONTAINER)
+	    { send_to_char( "Bu bir taþýyýcý deðil.\n\r", ch ); return; }
 	if ( !IS_SET(obj->value[1], CONT_CLOSED) )
-	    { send_to_char( "It's already open.\n\r",      ch ); return; }
+	    { send_to_char( "Zaten açýk.\n\r",ch ); return; }
 	if ( !IS_SET(obj->value[1], CONT_CLOSEABLE) )
-	    { send_to_char( "You can't do that.\n\r",      ch ); return; }
+	    { send_to_char( "Bunu yapamazsýn.\n\r",ch ); return; }
 	if ( IS_SET(obj->value[1], CONT_LOCKED) )
-	    { send_to_char( "It's locked.\n\r",            ch ); return; }
+	    { send_to_char( "Kilitli.\n\r",ch ); return; }
 
 	REMOVE_BIT(obj->value[1], CONT_CLOSED);
-	act("You open $p.",ch,obj,NULL,TO_CHAR);
-	act( "$n opens $p.", ch, obj, NULL, TO_ROOM );
+  act("$p açýyorsun.",ch,obj,NULL,TO_CHAR);
+	act("$n $p açýyor.", ch, obj, NULL, TO_ROOM );
 	return;
     }
     if ( ( door = find_door( ch, arg ) ) >= 0 )
@@ -762,14 +761,14 @@ void do_open( CHAR_DATA *ch, char *argument )
 	EXIT_DATA *pexit_rev;
 
 	pexit = ch->in_room->exit[door];
-	if ( !IS_SET(pexit->exit_info, EX_CLOSED) )
-	    { send_to_char( "It's already open.\n\r",      ch ); return; }
+  if ( !IS_SET(pexit->exit_info, EX_CLOSED) )
+	    { send_to_char( "Zaten açýk.\n\r",ch ); return; }
 	if (  IS_SET(pexit->exit_info, EX_LOCKED) )
-	    { send_to_char( "It's locked.\n\r",            ch ); return; }
+	    { send_to_char( "Kilitli.\n\r", ch ); return; }
 
 	REMOVE_BIT(pexit->exit_info, EX_CLOSED);
-	act( "$n opens the $d.", ch, NULL, pexit->keyword, TO_ROOM );
-	send_to_char( "Ok.\n\r", ch );
+  act( "$n $d açýyor.", ch, NULL, pexit->keyword, TO_ROOM );
+	send_to_char("Tamam.\n\r", ch );
 
 	/* open the other side */
 	if ( ( to_room   = pexit->u1.to_room            ) != NULL
@@ -780,7 +779,7 @@ void do_open( CHAR_DATA *ch, char *argument )
 
 	    REMOVE_BIT( pexit_rev->exit_info, EX_CLOSED );
 	    for ( rch = to_room->people; rch != NULL; rch = rch->next_in_room )
-		act( "The $d opens.", rch, NULL, pexit_rev->keyword, TO_CHAR );
+      act( "$d açýlýyor.", rch, NULL, pexit_rev->keyword, TO_CHAR );
 	}
 	return;
     }
@@ -799,7 +798,7 @@ void do_close( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' )
     {
-	send_to_char( "Close what?\n\r", ch );
+      send_to_char("Neyi kapatacaksýn?\n\r", ch );
 	return;
     }
 
@@ -814,33 +813,33 @@ void do_close( CHAR_DATA *ch, char *argument )
 	    if (!IS_SET(obj->value[1],EX_ISDOOR)
 	    ||   IS_SET(obj->value[1],EX_NOCLOSE))
 	    {
-		send_to_char("You can't do that.\n\r",ch);
+        send_to_char("Bunu yapamazsýn.\n\r",ch);
 		return;
 	    }
 
 	    if (IS_SET(obj->value[1],EX_CLOSED))
 	    {
-		send_to_char("It's already closed.\n\r",ch);
+        send_to_char("Zaten kapalý.\n\r",ch);
 		return;
 	    }
 
 	    SET_BIT(obj->value[1],EX_CLOSED);
-	    act("You close $p.",ch,obj,NULL,TO_CHAR);
-	    act("$n closes $p.",ch,obj,NULL,TO_ROOM);
+      act("$p'yi kapatýyorsun.",ch,obj,NULL,TO_CHAR);
+	    act("$n $p'yi kapatýyor.",ch,obj,NULL,TO_ROOM);
 	    return;
 	}
 
 	/* 'close object' */
-	if ( obj->item_type != ITEM_CONTAINER )
-	    { send_to_char( "That's not a container.\n\r", ch ); return; }
+  if ( obj->item_type != ITEM_CONTAINER )
+	    { send_to_char("Bu bir taþýyýcý deðil.\n\r", ch ); return; }
 	if ( IS_SET(obj->value[1], CONT_CLOSED) )
-	    { send_to_char( "It's already closed.\n\r",    ch ); return; }
+	    { send_to_char("Zaten kapalý.\n\r",ch ); return; }
 	if ( !IS_SET(obj->value[1], CONT_CLOSEABLE) )
-	    { send_to_char( "You can't do that.\n\r",      ch ); return; }
+	    { send_to_char("Bunu yapamazsýn.\n\r",ch ); return; }
 
 	SET_BIT(obj->value[1], CONT_CLOSED);
-	act("You close $p.",ch,obj,NULL,TO_CHAR);
-	act( "$n closes $p.", ch, obj, NULL, TO_ROOM );
+  act("$p'yi kapatýyorsun.",ch,obj,NULL,TO_CHAR);
+	act("$n $p'yi kapatýyor.", ch, obj, NULL, TO_ROOM );
 	return;
     }
 
@@ -853,11 +852,11 @@ void do_close( CHAR_DATA *ch, char *argument )
 
 	pexit	= ch->in_room->exit[door];
 	if ( IS_SET(pexit->exit_info, EX_CLOSED) )
-	    { send_to_char( "It's already closed.\n\r",    ch ); return; }
+  { send_to_char( "Zaten kapalý.\n\r",ch ); return; }
 
 	SET_BIT(pexit->exit_info, EX_CLOSED);
-	act( "$n closes the $d.", ch, NULL, pexit->keyword, TO_ROOM );
-	send_to_char( "Ok.\n\r", ch );
+  act( "$d $n tarafýndan kapatýlýyor.", ch, NULL, pexit->keyword, TO_ROOM );
+	send_to_char("Tamam.\n\r", ch );
 
 	/* close the other side */
 	if ( ( to_room   = pexit->u1.to_room            ) != NULL
@@ -868,7 +867,7 @@ void do_close( CHAR_DATA *ch, char *argument )
 
 	    SET_BIT( pexit_rev->exit_info, EX_CLOSED );
 	    for ( rch = to_room->people; rch != NULL; rch = rch->next_in_room )
-		act( "The $d closes.", rch, NULL, pexit_rev->keyword, TO_CHAR );
+      act( "$d kapanýyor.", rch, NULL, pexit_rev->keyword, TO_CHAR );
 	}
 	return;
     }
@@ -877,7 +876,7 @@ void do_close( CHAR_DATA *ch, char *argument )
 }
 
 
-/* 
+/*
  * Added can_see check. Kio.
  */
 
@@ -922,7 +921,7 @@ void do_lock( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' )
     {
-	send_to_char( "Lock what?\n\r", ch );
+      send_to_char( "Neyi kilitleyeceksin?\n\r", ch );
 	return;
     }
 
@@ -935,54 +934,54 @@ void do_lock( CHAR_DATA *ch, char *argument )
 	    if (!IS_SET(obj->value[1],EX_ISDOOR)
 	    ||  IS_SET(obj->value[1],EX_NOCLOSE))
 	    {
-		send_to_char("You can't do that.\n\r",ch);
+		send_to_char("Bunu yapamazsýn.\n\r",ch);
 		return;
 	    }
 	    if (!IS_SET(obj->value[1],EX_CLOSED))
 	    {
-		send_to_char("It's not closed.\n\r",ch);
+		send_to_char("Kapalý deðil.\n\r",ch);
 	 	return;
 	    }
 
 	    if (obj->value[4] < 0 || IS_SET(obj->value[1],EX_NOLOCK))
 	    {
-		send_to_char("It can't be locked.\n\r",ch);
+		send_to_char("Kilitlenemez.\n\r",ch);
 		return;
 	    }
 
 	    if (!has_key(ch,obj->value[4]))
 	    {
-		send_to_char("You lack the key.\n\r",ch);
+		send_to_char("Anahtarýn yok.\n\r",ch);
 		return;
 	    }
 
 	    if (IS_SET(obj->value[1],EX_LOCKED))
 	    {
-		send_to_char("It's already locked.\n\r",ch);
+		send_to_char("Zaten kilitli.\n\r",ch);
 		return;
 	    }
 
 	    SET_BIT(obj->value[1],EX_LOCKED);
-	    act("You lock $p.",ch,obj,NULL,TO_CHAR);
-	    act("$n locks $p.",ch,obj,NULL,TO_ROOM);
+      act("$p eþyasýný kilitliyorsun.",ch,obj,NULL,TO_CHAR);
+	    act("$n $p eþyasýný kilitliyor.",ch,obj,NULL,TO_ROOM);
 	    return;
 	}
 
 	/* 'lock object' */
-	if ( obj->item_type != ITEM_CONTAINER )
-	    { send_to_char( "That's not a container.\n\r", ch ); return; }
+  if ( obj->item_type != ITEM_CONTAINER )
+	    { send_to_char("Bu bir taþýyýcý deðil.\n\r", ch ); return; }
 	if ( !IS_SET(obj->value[1], CONT_CLOSED) )
-	    { send_to_char( "It's not closed.\n\r",        ch ); return; }
+	    { send_to_char( "Kapalý deðil.\n\r", ch ); return; }
 	if ( obj->value[2] < 0 )
-	    { send_to_char( "It can't be locked.\n\r",     ch ); return; }
+	    { send_to_char( "Kilitlenemez.\n\r",ch ); return; }
 	if ( !has_key( ch, obj->value[2] ) )
-	    { send_to_char( "You lack the key.\n\r",       ch ); return; }
+	    { send_to_char( "Anahtarýn yok.\n\r",ch ); return; }
 	if ( IS_SET(obj->value[1], CONT_LOCKED) )
-	    { send_to_char( "It's already locked.\n\r",    ch ); return; }
+	    { send_to_char( "Zaten kilitli.\n\r",    ch ); return; }
 
 	SET_BIT(obj->value[1], CONT_LOCKED);
-	act("You lock $p.",ch,obj,NULL,TO_CHAR);
-	act( "$n locks $p.", ch, obj, NULL, TO_ROOM );
+  act("$p eþyasýný kilitliyorsun.",ch,obj,NULL,TO_CHAR);
+	act( "$n $p eþyasýný kilitliyor.", ch, obj, NULL, TO_ROOM );
 	return;
     }
 
@@ -994,19 +993,19 @@ void do_lock( CHAR_DATA *ch, char *argument )
 	EXIT_DATA *pexit_rev;
 
 	pexit	= ch->in_room->exit[door];
-	if ( !IS_SET(pexit->exit_info, EX_CLOSED) )
-	    { send_to_char( "It's not closed.\n\r",        ch ); return; }
+  if ( !IS_SET(pexit->exit_info, EX_CLOSED) )
+	    { send_to_char( "Kapalý deðil.\n\r",        ch ); return; }
 	if ( pexit->key < 0 )
-	    { send_to_char( "It can't be locked.\n\r",     ch ); return; }
-	if ( !has_key( ch, pexit->key) && 
+	    { send_to_char( "Kilitlenemez.\n\r",     ch ); return; }
+	if ( !has_key( ch, pexit->key) &&
              !has_key_ground( ch, pexit->key) )
-	    { send_to_char( "You lack the key.\n\r",       ch ); return; }
+	    { send_to_char( "Anahtarýn yok.\n\r",       ch ); return; }
 	if ( IS_SET(pexit->exit_info, EX_LOCKED) )
-	    { send_to_char( "It's already locked.\n\r",    ch ); return; }
+	    { send_to_char( "Zaten kilitli.\n\r",    ch ); return; }
 
 	SET_BIT(pexit->exit_info, EX_LOCKED);
-	send_to_char( "*Click*\n\r", ch );
-	act( "$n locks the $d.", ch, NULL, pexit->keyword, TO_ROOM );
+  send_to_char("*Klik*\n\r", ch );
+	act( "$n $d'yi kilitliyor.", ch, NULL, pexit->keyword, TO_ROOM );
 
 	/* lock the other side */
 	if ( ( to_room   = pexit->u1.to_room            ) != NULL
@@ -1015,7 +1014,7 @@ void do_lock( CHAR_DATA *ch, char *argument )
 	{
 	    SET_BIT( pexit_rev->exit_info, EX_LOCKED );
 	    for ( rch = to_room->people; rch != NULL; rch = rch->next_in_room )
-		act( "The $d clicks.", rch, NULL, pexit_rev->keyword, TO_CHAR );
+      act("$d'nin kilitleniyor.", rch, NULL, pexit_rev->keyword, TO_CHAR );
 
 	}
         return;
@@ -1036,7 +1035,7 @@ void do_unlock( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' )
     {
-	send_to_char( "Unlock what?\n\r", ch );
+      send_to_char( "Neyin kilidini açacaksýn?\n\r", ch );
 	return;
     }
 
@@ -1048,55 +1047,55 @@ void do_unlock( CHAR_DATA *ch, char *argument )
 	{
 	    if (IS_SET(obj->value[1],EX_ISDOOR))
 	    {
-		send_to_char("You can't do that.\n\r",ch);
+		send_to_char("Bunu yapamazsýn.\n\r",ch);
 		return;
 	    }
 
 	    if (!IS_SET(obj->value[1],EX_CLOSED))
 	    {
-		send_to_char("It's not closed.\n\r",ch);
+		send_to_char("Kapalý deðil.\n\r",ch);
 		return;
 	    }
 
 	    if (obj->value[4] < 0)
 	    {
-		send_to_char("It can't be unlocked.\n\r",ch);
+		send_to_char("Kilidi açýlamaz.\n\r",ch);
 		return;
 	    }
 
 	    if (!has_key(ch,obj->value[4]))
 	    {
-		send_to_char("You lack the key.\n\r",ch);
+		send_to_char("Anahtarýn yok.\n\r",ch);
 		return;
 	    }
 
 	    if (!IS_SET(obj->value[1],EX_LOCKED))
 	    {
-		send_to_char("It's already unlocked.\n\r",ch);
+		send_to_char("Kilidi açýlmýþ.\n\r",ch);
 		return;
 	    }
 
 	    REMOVE_BIT(obj->value[1],EX_LOCKED);
-	    act("You unlock $p.",ch,obj,NULL,TO_CHAR);
-	    act("$n unlocks $p.",ch,obj,NULL,TO_ROOM);
+      act("$p nesnesinin kilidini açýyorsun.",ch,obj,NULL,TO_CHAR);
+	    act("$n $p nesnesinin kilidini açýyor.",ch,obj,NULL,TO_ROOM);
 	    return;
 	}
 
 	/* 'unlock object' */
-	if ( obj->item_type != ITEM_CONTAINER )
-	    { send_to_char( "That's not a container.\n\r", ch ); return; }
+  if ( obj->item_type != ITEM_CONTAINER )
+	    { send_to_char( "Bu bir taþýyýcý deðil.\n\r", ch ); return; }
 	if ( !IS_SET(obj->value[1], CONT_CLOSED) )
-	    { send_to_char( "It's not closed.\n\r",        ch ); return; }
+	    { send_to_char("Kapalý deðil.\n\r", ch ); return; }
 	if ( obj->value[2] < 0 )
-	    { send_to_char( "It can't be unlocked.\n\r",   ch ); return; }
+	    { send_to_char("Kilidi açýlamaz.\n\r",ch ); return; }
 	if ( !has_key( ch, obj->value[2] ) )
-	    { send_to_char( "You lack the key.\n\r",       ch ); return; }
+	    { send_to_char("Anahtarýn yok.\n\r",ch ); return; }
 	if ( !IS_SET(obj->value[1], CONT_LOCKED) )
-	    { send_to_char( "It's already unlocked.\n\r",  ch ); return; }
+	    { send_to_char("Kilidi açýlmýþ.\n\r",ch ); return; }
 
 	REMOVE_BIT(obj->value[1], CONT_LOCKED);
-	act("You unlock $p.",ch,obj,NULL,TO_CHAR);
-	act( "$n unlocks $p.", ch, obj, NULL, TO_ROOM );
+  act("$p nesnesinin kilidini açýyorsun.",ch,obj,NULL,TO_CHAR);
+	act("$n $p nesnesinin kilidini açýyor.", ch, obj, NULL, TO_ROOM );
 	return;
     }
 
@@ -1109,18 +1108,18 @@ void do_unlock( CHAR_DATA *ch, char *argument )
 
 	pexit = ch->in_room->exit[door];
 	if ( !IS_SET(pexit->exit_info, EX_CLOSED) )
-	    { send_to_char( "It's not closed.\n\r",        ch ); return; }
+	    { send_to_char( "Kapalý deðil.\n\r",        ch ); return; }
 	if ( pexit->key < 0 )
-	    { send_to_char( "It can't be unlocked.\n\r",   ch ); return; }
+	    { send_to_char( "Kilidi açýlamaz.\n\r",   ch ); return; }
 	if ( !has_key( ch, pexit->key) &&
 	     !has_key_ground( ch, pexit->key) )
-	    { send_to_char( "You lack the key.\n\r",       ch ); return; }
+	    { send_to_char( "Anahtarýn yok.\n\r",       ch ); return; }
 	if ( !IS_SET(pexit->exit_info, EX_LOCKED) )
-	    { send_to_char( "It's already unlocked.\n\r",  ch ); return; }
+	    { send_to_char( "Kilidi zaten açýlmýþ.\n\r",  ch ); return; }
 
 	REMOVE_BIT(pexit->exit_info, EX_LOCKED);
-	send_to_char( "*Click*\n\r", ch );
-	act( "$n unlocks the $d.", ch, NULL, pexit->keyword, TO_ROOM );
+  send_to_char("*Klik*\n\r", ch );
+	act( "$n $d'nin kilidini açýyor.", ch, NULL, pexit->keyword, TO_ROOM );
 
 	/* unlock the other side */
 	if ( ( to_room   = pexit->u1.to_room            ) != NULL
@@ -1129,7 +1128,7 @@ void do_unlock( CHAR_DATA *ch, char *argument )
 	{
 	    REMOVE_BIT( pexit_rev->exit_info, EX_LOCKED );
 	    for ( rch = to_room->people; rch != NULL; rch = rch->next_in_room )
-		act( "The $d clicks.", rch, NULL, pexit_rev->keyword, TO_CHAR );
+      act( "$d'nin kilidi açýlýyor.", rch, NULL, pexit_rev->keyword, TO_CHAR );
 	}
         return;
     }
@@ -1149,13 +1148,13 @@ void do_pick( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' )
     {
-	send_to_char( "Pick what?\n\r", ch );
+      send_to_char( "Neye maymuncuk kullanacaksýn?\n\r", ch );
 	return;
     }
 
-    if (MOUNTED(ch)) 
+    if (MOUNTED(ch))
     {
-        send_to_char("You can't pick while mounted.\n\r", ch);
+      send_to_char("Biniciyken maymuncuk uygulayamazsýn.\n\r", ch);
         return;
     }
 
@@ -1166,15 +1165,15 @@ void do_pick( CHAR_DATA *ch, char *argument )
     {
 	if ( IS_NPC(gch) && IS_AWAKE(gch) && ch->level + 5 < gch->level )
 	{
-	    act( "$N is standing too close to the lock.",
-		ch, NULL, gch, TO_CHAR );
+    act( "$N kilide çok yakýn duruyor.",
+  ch, NULL, gch, TO_CHAR );
 	    return;
 	}
     }
 
     if ( !IS_NPC(ch) && number_percent( ) > get_skill(ch,gsn_pick_lock))
     {
-	send_to_char( "You failed.\n\r", ch);
+      send_to_char("Baþaramadýn.\n\r",ch);
 	check_improve(ch,gsn_pick_lock,FALSE,2);
 	return;
     }
@@ -1185,52 +1184,52 @@ void do_pick( CHAR_DATA *ch, char *argument )
 	if (obj->item_type == ITEM_PORTAL)
 	{
 	    if (!IS_SET(obj->value[1],EX_ISDOOR))
-	    {	
-		send_to_char("You can't do that.\n\r",ch);
+	    {
+		send_to_char("Bunu yapamazsýn.\n\r",ch);
 		return;
 	    }
 
 	    if (!IS_SET(obj->value[1],EX_CLOSED))
 	    {
-		send_to_char("It's not closed.\n\r",ch);
+        send_to_char("Kapalý deðil.\n\r",ch );
 		return;
 	    }
 
 	    if (obj->value[4] < 0)
 	    {
-		send_to_char("It can't be unlocked.\n\r",ch);
+        send_to_char("Kilidi açýlamaz.\n\r",ch);
 		return;
 	    }
 
 	    if (IS_SET(obj->value[1],EX_PICKPROOF))
 	    {
-		send_to_char("You failed.\n\r",ch);
+        send_to_char("Bu þeyin kilidini maymuncukla açamazsýn.\n\r",ch);
 		return;
 	    }
 
 	    REMOVE_BIT(obj->value[1],EX_LOCKED);
-	    act("You pick the lock on $p.",ch,obj,NULL,TO_CHAR);
-	    act("$n picks the lock on $p.",ch,obj,NULL,TO_ROOM);
+      act("$p üzerindeki kilidi maymuncukla açtýn.",ch,obj,NULL,TO_CHAR);
+	    act("$n $p üzerindeki kilidi maymuncukla açtý.",ch,obj,NULL,TO_ROOM);
 	    check_improve(ch,gsn_pick_lock,TRUE,2);
 	    return;
 	}
 
-	
+
 	/* 'pick object' */
-	if ( obj->item_type != ITEM_CONTAINER )
-	    { send_to_char( "That's not a container.\n\r", ch ); return; }
+  if ( obj->item_type != ITEM_CONTAINER )
+	    { send_to_char( "Bu bir taþýyýcý deðil.\n\r", ch ); return; }
 	if ( !IS_SET(obj->value[1], CONT_CLOSED) )
-	    { send_to_char( "It's not closed.\n\r",        ch ); return; }
+	    { send_to_char("Kapalý deðil.\n\r",ch ); return; }
 	if ( obj->value[2] < 0 )
-	    { send_to_char( "It can't be unlocked.\n\r",   ch ); return; }
+	    {send_to_char( "Kilidi açýlamaz.\n\r",   ch ); return; }
 	if ( !IS_SET(obj->value[1], CONT_LOCKED) )
-	    { send_to_char( "It's already unlocked.\n\r",  ch ); return; }
+	    { send_to_char("Kilidi açýlmýþ.\n\r",  ch ); return; }
 	if ( IS_SET(obj->value[1], CONT_PICKPROOF) )
-	    { send_to_char( "You failed.\n\r",             ch ); return; }
+	    { send_to_char("Bu taþýyýcýnýn kilidini maymuncukla açamazsýn.\n\r",ch ); return; }
 
 	REMOVE_BIT(obj->value[1], CONT_LOCKED);
-        act("You pick the lock on $p.",ch,obj,NULL,TO_CHAR);
-        act("$n picks the lock on $p.",ch,obj,NULL,TO_ROOM);
+  act("$p üzerindeki kilidi maymuncukla açtýn.",ch,obj,NULL,TO_CHAR);
+  act("$n $p üzerindeki kilidi maymuncukla açtý.",ch,obj,NULL,TO_ROOM);
 	check_improve(ch,gsn_pick_lock,TRUE,2);
 	return;
     }
@@ -1243,18 +1242,18 @@ void do_pick( CHAR_DATA *ch, char *argument )
 	EXIT_DATA *pexit_rev;
 
 	pexit = ch->in_room->exit[door];
-	if ( !IS_SET(pexit->exit_info, EX_CLOSED) && !IS_IMMORTAL(ch))
-	    { send_to_char( "It's not closed.\n\r",        ch ); return; }
+  if ( !IS_SET(pexit->exit_info, EX_CLOSED) && !IS_IMMORTAL(ch))
+	    { send_to_char( "Kapalý deðil.\n\r",ch ); return; }
 	if ( pexit->key < 0 && !IS_IMMORTAL(ch))
-	    { send_to_char( "It can't be picked.\n\r",     ch ); return; }
+	    { send_to_char( "Bu kilide maymuncuk uygulanamaz.\n\r",ch ); return; }
 	if ( !IS_SET(pexit->exit_info, EX_LOCKED) )
-	    { send_to_char( "It's already unlocked.\n\r",  ch ); return; }
+	    { send_to_char( "Kilidi açýlmýþ.\n\r",  ch ); return; }
 	if ( IS_SET(pexit->exit_info, EX_PICKPROOF) && !IS_IMMORTAL(ch))
-	    { send_to_char( "You failed.\n\r",             ch ); return; }
+	    { send_to_char( "Bu kapýdaki kilidi maymuncukla açamazsýn.\n\r",ch ); return; }
 
 	REMOVE_BIT(pexit->exit_info, EX_LOCKED);
-	send_to_char( "*Click*\n\r", ch );
-	act( "$n picks the $d.", ch, NULL, pexit->keyword, TO_ROOM );
+  send_to_char( "*Klik*\n\r", ch );
+	act( "$n $d'nin kilidini maymuncukla açýyor.", ch, NULL, pexit->keyword, TO_ROOM );
 	check_improve(ch,gsn_pick_lock,TRUE,2);
 
 	/* pick the other side */
@@ -1280,13 +1279,13 @@ void do_stand( CHAR_DATA *ch, char *argument )
     {
 	if (ch->position == POS_FIGHTING)
 	{
-	    send_to_char("Maybe you should finish fighting first?\n\r",ch);
+    send_to_char("Belki de önce dövüþmeyi býrakmalýsýn?\n\r",ch);
 	    return;
 	}
 	obj = get_obj_list(ch,argument,ch->in_room->contents);
 	if (obj == NULL)
 	{
-	    send_to_char("You don't see that here.\n\r",ch);
+    send_to_char("Öyle birþey görmüyorsun.\n\r",ch );
 	    return;
 	}
 	if (obj->item_type != ITEM_FURNITURE
@@ -1294,13 +1293,13 @@ void do_stand( CHAR_DATA *ch, char *argument )
 	&&   !IS_SET(obj->value[2],STAND_ON)
 	&&   !IS_SET(obj->value[2],STAND_IN)))
 	{
-	    send_to_char("You can't seem to find a place to stand.\n\r",ch);
+    send_to_char("Ayaða dikilebilecek bir yer göremiyorsun.\n\r",ch);
 	    return;
 	}
 	if (ch->on != obj && count_users(obj) >= obj->value[0])
 	{
-	    act_new("There's no room to stand on $p.",
-		ch,obj,NULL,TO_ROOM,POS_DEAD);
+    act_new("$p üzerinde ayaða dikilebileceðin yer yok.",
+  ch,obj,NULL,TO_ROOM,POS_DEAD);
 	    return;
 	}
     }
@@ -1308,33 +1307,33 @@ void do_stand( CHAR_DATA *ch, char *argument )
     {
     case POS_SLEEPING:
 	if ( IS_AFFECTED(ch, AFF_SLEEP) )
-	    { send_to_char( "You can't wake up!\n\r", ch ); return; }
-	
+  { send_to_char( "Uyanamýyorsun!\n\r", ch ); return; }
+
 	if (obj == NULL)
 	{
-	    send_to_char( "You wake and stand up.\n\r", ch );
-	    act( "$n wakes and stands up.", ch, NULL, NULL, TO_ROOM );
+    send_to_char("Uyanýyor ve kalkýyorsun.\n\r", ch );
+    act( "$n uyanýyor ve kalkýyor.", ch, NULL, NULL, TO_ROOM );
 	    ch->on = NULL;
 	}
 	else if (IS_SET(obj->value[2],STAND_AT))
 	{
-	   act_new("You wake and stand at $p.",ch,obj,NULL,TO_CHAR,POS_DEAD);
-	   act("$n wakes and stands at $p.",ch,obj,NULL,TO_ROOM);
+    act_new("$p'de uyanýyor ve kalkýyorsun.",ch,obj,NULL,TO_CHAR,POS_DEAD);
+    act("$n $p'de uyanýyor ve kalkýyor.",ch,obj,NULL,TO_ROOM);
 	}
 	else if (IS_SET(obj->value[2],STAND_ON))
 	{
-	    act_new("You wake and stand on $p.",ch,obj,NULL,TO_CHAR,POS_DEAD);
-	    act("$n wakes and stands on $p.",ch,obj,NULL,TO_ROOM);
+    act_new("$p üzerinde uyanýyor ve kalkýyorsun.",ch,obj,NULL,TO_CHAR,POS_DEAD);
+    act("$n $p üzerinde uyanýyor ve kalkýyor.",ch,obj,NULL,TO_ROOM);
 	}
-	else 
+	else
 	{
-	    act_new("You wake and stand in $p.",ch,obj,NULL,TO_CHAR,POS_DEAD);
-	    act("$n wakes and stands in $p.",ch,obj,NULL,TO_ROOM);
+    act_new("$p içinde uyanýyor ve kalkýyorsun.",ch,obj,NULL,TO_CHAR,POS_DEAD);
+    act("$n $p içinde uyanýyor ve kalkýyor.",ch,obj,NULL,TO_ROOM);
 	}
 
-        if (IS_HARA_KIRI(ch)) 
+        if (IS_HARA_KIRI(ch))
 	{
-	 send_to_char("You feel your blood heats your body.\n\r",ch);
+    send_to_char("Kanýnýn vücudunu ýsýttýðýný hissediyorsun.\n\r",ch);
 	 REMOVE_BIT(ch->act,PLR_HARA_KIRI);
 	}
 
@@ -1345,34 +1344,34 @@ void do_stand( CHAR_DATA *ch, char *argument )
     case POS_RESTING: case POS_SITTING:
 	if (obj == NULL)
 	{
-	    send_to_char( "You stand up.\n\r", ch );
-	    act( "$n stands up.", ch, NULL, NULL, TO_ROOM );
+    send_to_char( "Ayaða kalkýyorsun.\n\r", ch );
+    act("$n ayaða kalkýyor.", ch, NULL, NULL, TO_ROOM );
 	    ch->on = NULL;
 	}
 	else if (IS_SET(obj->value[2],STAND_AT))
 	{
-	    act("You stand at $p.",ch,obj,NULL,TO_CHAR);
-	    act("$n stands at $p.",ch,obj,NULL,TO_ROOM);
+    act("$p'de ayaða kalkýyorsun.",ch,obj,NULL,TO_CHAR);
+    act("$n $p'de ayaða kalkýyor.",ch,obj,NULL,TO_ROOM);
 	}
 	else if (IS_SET(obj->value[2],STAND_ON))
 	{
-	    act("You stand on $p.",ch,obj,NULL,TO_CHAR);
-	    act("$n stands on $p.",ch,obj,NULL,TO_ROOM);
+    act("$p üzerinde ayaða kalkýyorsun.",ch,obj,NULL,TO_CHAR);
+    act("$n $p üzerinde ayaða kalkýyor.",ch,obj,NULL,TO_ROOM);
 	}
 	else
 	{
-	    act("You stand in $p.",ch,obj,NULL,TO_CHAR);
-	    act("$n stands on $p.",ch,obj,NULL,TO_ROOM);
+    act("$p içinde ayaða kalkýyorsun.",ch,obj,NULL,TO_CHAR);
+    act("$n $p içinde ayaða kalkýyor.",ch,obj,NULL,TO_ROOM);
 	}
 	ch->position = POS_STANDING;
 	break;
 
     case POS_STANDING:
-	send_to_char( "You are already standing.\n\r", ch );
+    send_to_char( "Zaten ayaktasýn.\n\r", ch );
 	break;
 
     case POS_FIGHTING:
-	send_to_char( "You are already fighting!\n\r", ch );
+    send_to_char( "Zaten dövüþüyorsun!\n\r", ch );
 	break;
     }
 
@@ -1387,24 +1386,24 @@ void do_rest( CHAR_DATA *ch, char *argument )
 
     if (ch->position == POS_FIGHTING)
     {
-	send_to_char("You are already fighting!\n\r",ch);
+      send_to_char("Zaten dövüþüyorsun!\n\r",ch);
 	return;
     }
 
-    if (MOUNTED(ch)) 
+    if (MOUNTED(ch))
     {
-        send_to_char("You can't rest while mounted.\n\r", ch);
+      send_to_char("Biniciyken dinlenemezsin.\n\r", ch);
         return;
     }
-    if (RIDDEN(ch)) 
+    if (RIDDEN(ch))
     {
-        send_to_char("You can't rest while being ridden.\n\r", ch);
+      send_to_char("Binekken dinlenemezsin.\n\r", ch);
         return;
     }
 
 
     if ( IS_AFFECTED(ch, AFF_SLEEP) )
-    { send_to_char( "You are already sleeping.\n\r", ch ); return; }
+    { send_to_char( "Zaten uyuyorsun.\n\r", ch ); return; }
 
     /* okay, now that we know we can rest, find an object to rest on */
     if (argument[0] != '\0')
@@ -1412,7 +1411,7 @@ void do_rest( CHAR_DATA *ch, char *argument )
 	obj = get_obj_list(ch,argument,ch->in_room->contents);
 	if (obj == NULL)
 	{
-	    send_to_char("You don't see that here.\n\r",ch);
+    send_to_char("Öyle birþey görmüyorsun.\n\r",ch );
 	    return;
 	}
     }
@@ -1420,21 +1419,21 @@ void do_rest( CHAR_DATA *ch, char *argument )
 
     if (obj != NULL)
     {
-        if (!IS_SET(obj->item_type,ITEM_FURNITURE) 
+        if (!IS_SET(obj->item_type,ITEM_FURNITURE)
     	||  (!IS_SET(obj->value[2],REST_ON)
     	&&   !IS_SET(obj->value[2],REST_IN)
     	&&   !IS_SET(obj->value[2],REST_AT)))
     	{
-	    send_to_char("You can't rest on that.\n\r",ch);
+        send_to_char("Onun üzerinde dinlenemezsin.\n\r",ch);
 	    return;
     	}
 
         if (obj != NULL && ch->on != obj && count_users(obj) >= obj->value[0])
         {
-	    act_new("There's no more room on $p.",ch,obj,NULL,TO_CHAR,POS_DEAD);
+          act_new("$p üzerinde yer yok.",ch,obj,NULL,TO_CHAR,POS_DEAD);
 	    return;
     	}
-	
+
 	ch->on = obj;
     }
 
@@ -1443,84 +1442,84 @@ void do_rest( CHAR_DATA *ch, char *argument )
     case POS_SLEEPING:
 	if (obj == NULL)
 	{
-	    send_to_char( "You wake up and start resting.\n\r", ch );
-	    act ("$n wakes up and starts resting.",ch,NULL,NULL,TO_ROOM);
+    send_to_char("Uyanýyor ve dinlenmeye baþlýyorsun.\n\r", ch );
+    act ("$n uyanýyor ve dinlenmeye baþlýyor.",ch,NULL,NULL,TO_ROOM);
 	}
 	else if (IS_SET(obj->value[2],REST_AT))
 	{
-	    act_new("You wake up and rest at $p.",
-		    ch,obj,NULL,TO_CHAR,POS_SLEEPING);
-	    act("$n wakes up and rests at $p.",ch,obj,NULL,TO_ROOM);
+    act_new("Uyanýyor ve $p'de sinlenmeye baþlýyorsun.",
+      ch,obj,NULL,TO_CHAR,POS_SLEEPING);
+    act("$n uyanýyor ve $p'de dinlenmeye baþlýyor.",ch,obj,NULL,TO_ROOM);
 	}
         else if (IS_SET(obj->value[2],REST_ON))
         {
-            act_new("You wake up and rest on $p.",
-                    ch,obj,NULL,TO_CHAR,POS_SLEEPING);
-            act("$n wakes up and rests on $p.",ch,obj,NULL,TO_ROOM);
+          act_new("Uyanýyor ve $p üzerinde dinlenmeye baþlýyorsun.",
+                  ch,obj,NULL,TO_CHAR,POS_SLEEPING);
+          act("$n uyanýyor ve $p üzerinde dinlenmeye baþlýyor.",ch,obj,NULL,TO_ROOM);
         }
         else
         {
-            act_new("You wake up and rest in $p.",
-                    ch,obj,NULL,TO_CHAR,POS_SLEEPING);
-            act("$n wakes up and rests in $p.",ch,obj,NULL,TO_ROOM);
+          act_new("Uyanýyor ve $p içinde dinlenmeye baþlýyorsun.",
+                  ch,obj,NULL,TO_CHAR,POS_SLEEPING);
+          act("$n uyanýyor ve $p içinde dinlenmeye baþlýyor.",ch,obj,NULL,TO_ROOM);
         }
 	ch->position = POS_RESTING;
 	break;
 
     case POS_RESTING:
-	send_to_char( "You are already resting.\n\r", ch );
+    send_to_char( "Zaten dinleniyorsun.\n\r", ch );
 	break;
 
     case POS_STANDING:
-	if (obj == NULL)
-	{
-	    send_to_char( "You rest.\n\r", ch );
-	    act( "$n sits down and rests.", ch, NULL, NULL, TO_ROOM );
-	}
-        else if (IS_SET(obj->value[2],REST_AT))
-        {
-	    act("You sit down at $p and rest.",ch,obj,NULL,TO_CHAR);
-	    act("$n sits down at $p and rests.",ch,obj,NULL,TO_ROOM);
-        }
-        else if (IS_SET(obj->value[2],REST_ON))
-        {
-	    act("You sit on $p and rest.",ch,obj,NULL,TO_CHAR);
-	    act("$n sits on $p and rests.",ch,obj,NULL,TO_ROOM);
-        }
-        else
-        {
-	    act("You rest in $p.",ch,obj,NULL,TO_CHAR);
-	    act("$n rests in $p.",ch,obj,NULL,TO_ROOM);
-        }
+    if (obj == NULL)
+  	{
+  	    send_to_char( "Dinlenmeye baþlýyorsun.\n\r", ch );
+  	    act("$n oturuyor ve dinlenmeye baþlýyor.", ch, NULL, NULL, TO_ROOM );
+  	}
+          else if (IS_SET(obj->value[2],REST_AT))
+          {
+  	    act("$p'de oturuyor ve dinlenmeye baþlýyorsun.",ch,obj,NULL,TO_CHAR);
+  	    act("$n $p'de oturuyor ve dinlenmeye baþlýyor.",ch,obj,NULL,TO_ROOM);
+          }
+          else if (IS_SET(obj->value[2],REST_ON))
+          {
+  	    act("$p üzerine oturuyor ve dinlenmeye baþlýyorsun.",ch,obj,NULL,TO_CHAR);
+  	    act("$n $p üzerine oturuyor ve dinlenmeye baþlýyor.",ch,obj,NULL,TO_ROOM);
+          }
+          else
+          {
+  	    act("$p içinde dinlenmeye baþlýyorsun.",ch,obj,NULL,TO_CHAR);
+  	    act("$n $p içinde dinlenmeye baþlýyor.",ch,obj,NULL,TO_ROOM);
+          }
 	ch->position = POS_RESTING;
 	break;
 
     case POS_SITTING:
-	if (obj == NULL)
-	{
-	    send_to_char("You rest.\n\r",ch);
-	    act("$n rests.",ch,NULL,NULL,TO_ROOM);
-	}
-        else if (IS_SET(obj->value[2],REST_AT))
-        {
-	    act("You rest at $p.",ch,obj,NULL,TO_CHAR);
-	    act("$n rests at $p.",ch,obj,NULL,TO_ROOM);
-        }
-        else if (IS_SET(obj->value[2],REST_ON))
-        {
-	    act("You rest on $p.",ch,obj,NULL,TO_CHAR);
-	    act("$n rests on $p.",ch,obj,NULL,TO_ROOM);
-        }
-        else
-        {
-	    act("You rest in $p.",ch,obj,NULL,TO_CHAR);
-	    act("$n rests in $p.",ch,obj,NULL,TO_ROOM);
-	}
+    if (obj == NULL)
+  	{
+  	    send_to_char("Dinlenmeye baþlýyorsun.\n\r",ch);
+  	    act("$n rests.",ch,NULL,NULL,TO_ROOM);
+  	}
+          else if (IS_SET(obj->value[2],REST_AT))
+          {
+  	    act("$p'de dinlenmeye baþlýyorsun.",ch,obj,NULL,TO_CHAR);
+  	    act("$n $p'de dinlenmeye baþlýyor.",ch,obj,NULL,TO_ROOM);
+          }
+          else if (IS_SET(obj->value[2],REST_ON))
+          {
+  	    act("$p üzerinde dinlenmeye baþlýyorsun.",ch,obj,NULL,TO_CHAR);
+  	    act("$n $p üzerinde dinlenmeye baþlýyor.",ch,obj,NULL,TO_ROOM);
+          }
+          else
+          {
+  	    act("$p içinde dinlenmeye baþlýyorsun.",ch,obj,NULL,TO_CHAR);
+  	    act("$n $p içinde dinlenmeye baþlýyor.",ch,obj,NULL,TO_ROOM);
+  	}
 	ch->position = POS_RESTING;
 
-        if (IS_HARA_KIRI(ch)) 
+        if (IS_HARA_KIRI(ch))
 	{
-	 send_to_char("You feel your blood heats your body.\n\r",ch);
+    send_to_char("Kanýnýn vücudunu ýsýttýðýný hissediyorsun.\n\r",ch);
 	 REMOVE_BIT(ch->act,PLR_HARA_KIRI);
 	}
 
@@ -1538,22 +1537,22 @@ void do_sit (CHAR_DATA *ch, char *argument )
 
     if (ch->position == POS_FIGHTING)
     {
-	send_to_char("Maybe you should finish this fight first?\n\r",ch);
+	send_to_char(	"Belki de önce dövüþmeyi býrakmalýsýn?\n\r",ch);
 	return;
     }
-    if (MOUNTED(ch)) 
+    if (MOUNTED(ch))
     {
-        send_to_char("You can't sit while mounted.\n\r", ch);
+        send_to_char("Biniciyken oturamazsýn.\n\r", ch);
         return;
     }
-    if (RIDDEN(ch)) 
+    if (RIDDEN(ch))
     {
-        send_to_char("You can't sit while being ridden.\n\r", ch);
+        send_to_char("Binekken oturamazsýn.\n\r", ch);
         return;
     }
 
     if ( IS_AFFECTED(ch, AFF_SLEEP) )
-    { send_to_char( "You are already sleeping.\n\r", ch ); return; }
+    { send_to_char("Zaten uyuyorsun.\n\r", ch ); return; }
 
     /* okay, now that we know we can sit, find an object to sit on */
     if (argument[0] != '\0')
@@ -1562,27 +1561,27 @@ void do_sit (CHAR_DATA *ch, char *argument )
 	if (obj == NULL)
 	{
     if ( IS_AFFECTED(ch, AFF_SLEEP) )
-    { send_to_char( "You are already sleeping.\n\r", ch ); return; }
-	    send_to_char("You don't see that here.\n\r",ch);
+    { send_to_char( "Zaten uyuyorsun.\n\r", ch ); return; }
+	    send_to_char("Öyle birþey görmüyorsun.\n\r",ch );
 	    return;
 	}
     }
     else obj = ch->on;
 
-    if (obj != NULL)                                                              
+    if (obj != NULL)
     {
 	if (!IS_SET(obj->item_type,ITEM_FURNITURE)
 	||  (!IS_SET(obj->value[2],SIT_ON)
 	&&   !IS_SET(obj->value[2],SIT_IN)
 	&&   !IS_SET(obj->value[2],SIT_AT)))
 	{
-	    send_to_char("You can't sit on that.\n\r",ch);
+	    send_to_char("Onun üzerine oturamazsýn.\n\r",ch);
 	    return;
 	}
 
 	if (obj != NULL && ch->on != obj && count_users(obj) >= obj->value[0])
 	{
-	    act_new("There's no more room on $p.",ch,obj,NULL,TO_CHAR,POS_DEAD);
+	    act_new("$p üzerinde yer yok.",ch,obj,NULL,TO_CHAR,POS_DEAD);
 	    return;
 	}
 
@@ -1593,73 +1592,73 @@ void do_sit (CHAR_DATA *ch, char *argument )
 	case POS_SLEEPING:
             if (obj == NULL)
             {
-            	send_to_char( "You wake and sit up.\n\r", ch );
-            	act( "$n wakes and sits up.", ch, NULL, NULL, TO_ROOM );
+            	send_to_char( "Uyanýyor ve oturuyorsun.\n\r", ch );
+            	act( "$n uyanýyor ve oturuyor.", ch, NULL, NULL, TO_ROOM );
             }
             else if (IS_SET(obj->value[2],SIT_AT))
             {
-            	act_new("You wake and sit at $p.",ch,obj,NULL,TO_CHAR,POS_DEAD);
-            	act("$n wakes and sits at $p.",ch,obj,NULL,TO_ROOM);
+            	act_new("Uyanýyor ve $p'de oturuyorsun.",ch,obj,NULL,TO_CHAR,POS_DEAD);
+            	act("$n uyanýyor ve $p'de oturuyor.",ch,obj,NULL,TO_ROOM);
             }
             else if (IS_SET(obj->value[2],SIT_ON))
             {
-            	act_new("You wake and sit on $p.",ch,obj,NULL,TO_CHAR,POS_DEAD);
-            	act("$n wakes and sits at $p.",ch,obj,NULL,TO_ROOM);
+            	act_new("Uyanýyor ve $p üstüne oturuyorsun.",ch,obj,NULL,TO_CHAR,POS_DEAD);
+            	act("$n uyanýyor ve $p üzerine oturuyor.",ch,obj,NULL,TO_ROOM);
             }
             else
             {
-            	act_new("You wake and sit in $p.",ch,obj,NULL,TO_CHAR,POS_DEAD);
-            	act("$n wakes and sits in $p.",ch,obj,NULL,TO_ROOM);
+            	act_new("Uyanýyor ve $p içine oturuyorsun.",ch,obj,NULL,TO_CHAR,POS_DEAD);
+            	act("$n uyanýyor ve $p içine oturuyor.",ch,obj,NULL,TO_ROOM);
             }
 
 	    ch->position = POS_SITTING;
 	    break;
 	case POS_RESTING:
 	    if (obj == NULL)
-		send_to_char("You stop resting.\n\r",ch);
+		send_to_char("Dinlenmeyi býraktýn.\n\r",ch);
 	    else if (IS_SET(obj->value[2],SIT_AT))
 	    {
-		act("You sit at $p.",ch,obj,NULL,TO_CHAR);
-		act("$n sits at $p.",ch,obj,NULL,TO_ROOM);
+		act("$p'de oturuyorsun.",ch,obj,NULL,TO_CHAR);
+		act("$n $p'de oturuyor.",ch,obj,NULL,TO_ROOM);
 	    }
 
 	    else if (IS_SET(obj->value[2],SIT_ON))
 	    {
-		act("You sit on $p.",ch,obj,NULL,TO_CHAR);
-		act("$n sits on $p.",ch,obj,NULL,TO_ROOM);
+		act("$p üzerine oturuyorsun.",ch,obj,NULL,TO_CHAR);
+		act("$n $p üzerine oturuyor.",ch,obj,NULL,TO_ROOM);
 	    }
 	    ch->position = POS_SITTING;
 	    break;
 	case POS_SITTING:
-	    send_to_char("You are already sitting down.\n\r",ch);
+	    send_to_char("Zaten oturuyorsun.\n\r",ch);
 	    break;
 	case POS_STANDING:
 	    if (obj == NULL)
     	    {
-		send_to_char("You sit down.\n\r",ch);
-    	        act("$n sits down on the ground.",ch,NULL,NULL,TO_ROOM);
+		send_to_char("Oturuyorsun.\n\r",ch);
+    	        act("$n yere oturuyor.",ch,NULL,NULL,TO_ROOM);
 	    }
 	    else if (IS_SET(obj->value[2],SIT_AT))
 	    {
-		act("You sit down at $p.",ch,obj,NULL,TO_CHAR);
-		act("$n sits down at $p.",ch,obj,NULL,TO_ROOM);
+		act("$p'de oturuyorsun.",ch,obj,NULL,TO_CHAR);
+		act("$n $p'de oturuyor.",ch,obj,NULL,TO_ROOM);
 	    }
 	    else if (IS_SET(obj->value[2],SIT_ON))
 	    {
-		act("You sit on $p.",ch,obj,NULL,TO_CHAR);
-		act("$n sits on $p.",ch,obj,NULL,TO_ROOM);
+		act("$p üzerine oturuyorsun.",ch,obj,NULL,TO_CHAR);
+		act("$n $p üzerine oturuyor.",ch,obj,NULL,TO_ROOM);
 	    }
 	    else
 	    {
-		act("You sit down in $p.",ch,obj,NULL,TO_CHAR);
-		act("$n sits down in $p.",ch,obj,NULL,TO_ROOM);
+		act("$p içine oturuyorsun.",ch,obj,NULL,TO_CHAR);
+		act("$n $p içine oturuyor.",ch,obj,NULL,TO_ROOM);
 	    }
     	    ch->position = POS_SITTING;
     	    break;
     }
-    if (IS_HARA_KIRI(ch)) 
+    if (IS_HARA_KIRI(ch))
 	{
-	 send_to_char("You feel your blood heats your body.\n\r",ch);
+	 send_to_char("Kanýnýn vücudunu ýsýttýðýný hissediyorsun.\n\r",ch);
 	 REMOVE_BIT(ch->act,PLR_HARA_KIRI);
 	}
     return;
@@ -1670,30 +1669,30 @@ void do_sleep( CHAR_DATA *ch, char *argument )
 {
     OBJ_DATA *obj = NULL;
 
-    if (MOUNTED(ch)) 
+    if (MOUNTED(ch))
     {
-        send_to_char("You can't sleep while mounted.\n\r", ch);
+        send_to_char("Biniciyken uyuyamazsýn.\n\r", ch);
         return;
     }
-    if (RIDDEN(ch)) 
+    if (RIDDEN(ch))
     {
-        send_to_char("You can't sleep while being ridden.\n\r", ch);
+        send_to_char("Binekken uyuyamazsýn.\n\r", ch);
         return;
     }
 
     switch ( ch->position )
     {
     case POS_SLEEPING:
-	send_to_char( "You are already sleeping.\n\r", ch );
+	send_to_char("Zaten uyuyorsun.\n\r", ch );
 	break;
 
     case POS_RESTING:
     case POS_SITTING:
-    case POS_STANDING: 
+    case POS_STANDING:
 	if (argument[0] == '\0' && ch->on == NULL)
 	{
-	    send_to_char( "You go to sleep.\n\r", ch );
-	    act( "$n goes to sleep.", ch, NULL, NULL, TO_ROOM );
+	    send_to_char( "Uyumaya baþlýyorsun.\n\r", ch );
+	    act( "$n uyumaya baþlýyor.", ch, NULL, NULL, TO_ROOM );
 	    ch->position = POS_SLEEPING;
 	}
 	else  /* find an object and sleep on it */
@@ -1705,21 +1704,21 @@ void do_sleep( CHAR_DATA *ch, char *argument )
 
 	    if (obj == NULL)
 	    {
-		send_to_char("You don't see that here.\n\r",ch);
+		send_to_char( "Öyle birþey görmüyorsun.\n\r",ch );
 		return;
 	    }
 	    if (obj->item_type != ITEM_FURNITURE
-	    ||  (!IS_SET(obj->value[2],SLEEP_ON) 
+	    ||  (!IS_SET(obj->value[2],SLEEP_ON)
 	    &&   !IS_SET(obj->value[2],SLEEP_IN)
 	    &&	 !IS_SET(obj->value[2],SLEEP_AT)))
 	    {
-		send_to_char("You can't sleep on that!\n\r",ch);
+		send_to_char("Onun üzerinde uyuyamazsýn!\n\r",ch);
 		return;
 	    }
 
 	    if (ch->on != obj && count_users(obj) >= obj->value[0])
 	    {
-		act_new("There is no room on $p for you.",
+		act_new("$p üzerinde yer yok.",
 		    ch,obj,NULL,TO_CHAR,POS_DEAD);
 		return;
 	    }
@@ -1732,20 +1731,20 @@ void do_sleep( CHAR_DATA *ch, char *argument )
 	    }
 	    else if (IS_SET(obj->value[2],SLEEP_ON))
 	    {
-	        act("You go to sleep on $p.",ch,obj,NULL,TO_CHAR);
-	        act("$n goes to sleep on $p.",ch,obj,NULL,TO_ROOM);
+	        act("$p üzerinde uyumaya baþlýyorsun.",ch,obj,NULL,TO_CHAR);
+	        act("$n $p üzerinde uyumaya baþlýyor.",ch,obj,NULL,TO_ROOM);
 	    }
 	    else
 	    {
-		act("You go to sleep in $p.",ch,obj,NULL,TO_CHAR);
-		act("$n goes to sleep in $p.",ch,obj,NULL,TO_ROOM);
+		act("$p içinde uyumaya baþlýyorsun.",ch,obj,NULL,TO_CHAR);
+		act("$n $p içinde uyumaya baþlýyor.",ch,obj,NULL,TO_ROOM);
 	    }
 	    ch->position = POS_SLEEPING;
 	}
 	break;
 
     case POS_FIGHTING:
-	send_to_char( "You are already fighting!\n\r", ch );
+	send_to_char( "Zaten dövüþüyorsun!\n\r",ch );
 	break;
     }
 
@@ -1764,19 +1763,19 @@ void do_wake( CHAR_DATA *ch, char *argument )
 	{ do_stand( ch, argument ); return; }
 
     if ( !IS_AWAKE(ch) )
-	{ send_to_char( "You are asleep yourself!\n\r",       ch ); return; }
+	{ send_to_char( "Uyanýk deðilken mi!\n\r",       ch ); return; }
 
     if ( ( victim = get_char_room( ch, arg ) ) == NULL )
-	{ send_to_char( "They aren't here.\n\r",              ch ); return; }
+	{ send_to_char( "Burada deðil.\n\r",              ch ); return; }
 
     if ( IS_AWAKE(victim) )
-	{ act( "$N is already awake.", ch, NULL, victim, TO_CHAR ); return; }
+	{ act(  "$N zaten uyanýk.", ch, NULL, victim, TO_CHAR ); return; }
 
     if ( IS_AFFECTED(victim, AFF_SLEEP) )
-	{ act( "You can't wake $M!",   ch, NULL, victim, TO_CHAR );  return; }
+	{ act("Onu uyandýramazsýn!",   ch, NULL, victim, TO_CHAR );  return; }
 
-    act_new( "$n wakes you.", ch, NULL, victim, TO_VICT,POS_SLEEPING );
-    do_stand(victim,(char*)"");
+    act_new("$n seni uyandýrýyor.", ch, NULL, victim, TO_VICT,POS_SLEEPING );
+    do_stand(victim,"");
     return;
 }
 
@@ -1786,13 +1785,13 @@ void do_sneak( CHAR_DATA *ch, char *argument )
 {
     AFFECT_DATA af;
 
-    if (MOUNTED(ch)) 
+    if (MOUNTED(ch))
     {
-        send_to_char("You can't sneak while mounted.\n\r", ch);
+      send_to_char("Biniciyken süzülemezsin.\n\r", ch);
         return;
     }
 
-    send_to_char( "You attempt to move silently.\n\r", ch );
+    send_to_char("Süzülmeye çalýþýyorsun.\n\r", ch );
     affect_strip( ch, gsn_sneak );
 
     if (IS_AFFECTED(ch,AFF_SNEAK))
@@ -1803,7 +1802,7 @@ void do_sneak( CHAR_DATA *ch, char *argument )
 	check_improve(ch,gsn_sneak,TRUE,3);
 	af.where     = TO_AFFECTS;
 	af.type      = gsn_sneak;
-	af.level     = ch->level; 
+	af.level     = ch->level;
 	af.duration  = ch->level;
 	af.location  = APPLY_NONE;
 	af.modifier  = 0;
@@ -1822,27 +1821,27 @@ void do_hide( CHAR_DATA *ch, char *argument )
 {
 int forest;
 
-    if (MOUNTED(ch)) 
+    if (MOUNTED(ch))
     {
-        send_to_char("You can't hide while mounted.\n\r", ch);
+      send_to_char("Biniciyken saklanamazsýn.\n\r", ch);
         return;
     }
 
-    if (RIDDEN(ch)) 
+    if (RIDDEN(ch))
     {
-        send_to_char("You can't hide while being ridden.\n\r", ch);
+      send_to_char("Binekken saklanamazsýn.\n\r", ch);
         return;
     }
 
     if ( IS_AFFECTED( ch, AFF_FAERIE_FIRE )  )  {
-      send_to_char( "You can not hide while glowing.\n\r", ch );
+      send_to_char( "Parlarken saklanamazsýn.\n\r", ch );
       return;
     }
     forest = 0;
     forest += ch->in_room->sector_type == SECT_FOREST?60:0;
     forest += ch->in_room->sector_type == SECT_FIELD?60:0;
 
-    send_to_char( "You attempt to hide.\n\r", ch );
+    send_to_char("Saklanmaya çalýþýyorsun.\n\r", ch );
 
     if ( number_percent( ) < get_skill(ch,gsn_hide)-forest)
     {
@@ -1861,26 +1860,26 @@ int forest;
 void do_camouflage( CHAR_DATA *ch, char *argument )
 {
 
-    if (MOUNTED(ch)) 
+    if (MOUNTED(ch))
     {
-        send_to_char("You can't camouflage while mounted.\n\r", ch);
+      send_to_char("Biniciyken kamufle olamazsýn.\n\r", ch);
         return;
     }
-    if (RIDDEN(ch)) 
+    if (RIDDEN(ch))
     {
-        send_to_char("You can't camouflage while being ridden.\n\r", ch);
+      send_to_char("Binekken kamufle olamazsýn.\n\r", ch);
         return;
     }
 
-    if ( IS_NPC(ch) || 
+    if ( IS_NPC(ch) ||
          ch->level < skill_table[gsn_camouflage].skill_level[ch->iclass] )
       {
-	send_to_char("You don't know how to camouflage yourself.\n\r",ch);
+        send_to_char("Nasýl kamufle olunacaðýný bilmiyorsun.\n\r",ch);
 	return;
       }
 
     if ( IS_AFFECTED( ch, AFF_FAERIE_FIRE ) )  {
-      send_to_char( "You can't camouflage yourself while glowing.\n\r", ch );
+      send_to_char("Parlarken kamufle olamazsýn.\n\r", ch );
       return;
     }
 
@@ -1888,18 +1887,18 @@ void do_camouflage( CHAR_DATA *ch, char *argument )
 	ch->in_room->sector_type != SECT_HILLS  &&
 	ch->in_room->sector_type != SECT_MOUNTAIN)
       {
-	send_to_char("There is no cover here.\n\r",ch);
-	act("$n tries to camouflage $mself against the lone leaf on the ground.",ch,NULL,NULL,TO_ROOM);
+        send_to_char("Doðal bir örtü görmüyorsun.\n\r",ch);
+      	act("$n küçük bir yapraðýn altýna gizlenmeye çalýþýyor.",ch,NULL,NULL,TO_ROOM);
 	return;
       }
-    send_to_char( "You attempt to camouflage yourself.\n\r", ch );
+      send_to_char( "Kamufle olmaya çalýþýyorsun.\n\r", ch );
     WAIT_STATE( ch, skill_table[gsn_camouflage].beats );
 
     if ( IS_AFFECTED(ch, AFF_CAMOUFLAGE) )
 	REMOVE_BIT(ch->affected_by, AFF_CAMOUFLAGE);
 
 
-    if ( IS_NPC(ch) || 
+    if ( IS_NPC(ch) ||
 	number_percent( ) < get_skill(ch,gsn_camouflage) )
     {
 	SET_BIT(ch->affected_by, AFF_CAMOUFLAGE);
@@ -1914,61 +1913,61 @@ void do_camouflage( CHAR_DATA *ch, char *argument )
 /*
  * Contributed by Alander
  */
-void do_visible( CHAR_DATA *ch, char *argument )
-{
-    if (IS_SET(ch->affected_by, AFF_HIDE))
-      {
-	send_to_char("You step out of the shadows.\n\r",ch);
-	REMOVE_BIT(ch->affected_by, AFF_HIDE);
-	act("$n steps out of the shadows.", ch, NULL, NULL, TO_ROOM);
-      }
-    if (IS_SET(ch->affected_by, AFF_FADE))
-      {
-	send_to_char("You step out of the shadows.\n\r",ch);
-	REMOVE_BIT(ch->affected_by, AFF_FADE);
-	act("$n steps out of the shadows.", ch, NULL, NULL, TO_ROOM);
-      }
-    if (IS_SET(ch->affected_by, AFF_CAMOUFLAGE))
-      {
-	send_to_char("You step out from your cover.\n\r",ch);
-	REMOVE_BIT(ch->affected_by,AFF_CAMOUFLAGE);
-	act("$n steps out from $s cover.",ch,NULL,NULL,TO_ROOM);
-      }
-    if (IS_SET(ch->affected_by, AFF_INVISIBLE))
-      {
-	send_to_char("You fade into existence.\n\r", ch);
-	affect_strip(ch, gsn_invis);
-	affect_strip(ch, gsn_mass_invis);
-	REMOVE_BIT(ch->affected_by, AFF_INVISIBLE);
-	act("$n fades into existence.", ch, NULL, NULL, TO_ROOM);
-      }
-    if (IS_SET(ch->affected_by, AFF_IMP_INVIS))
-      {
-	send_to_char("You fade into existence.\n\r", ch);
-	affect_strip(ch, gsn_imp_invis);
-	REMOVE_BIT(ch->affected_by, AFF_IMP_INVIS);
-	act("$n fades into existence.", ch, NULL, NULL, TO_ROOM);
-      }
-    if (IS_SET(ch->affected_by, AFF_SNEAK) 
-	&& !IS_NPC(ch) && !IS_SET(race_table[RACE(ch)].aff,AFF_SNEAK) )
-      {
-	send_to_char("You trample around loudly again.\n\r", ch);
-	affect_strip(ch, gsn_sneak);
-	REMOVE_BIT(ch->affected_by, AFF_SNEAK);
-      }
+ void do_visible( CHAR_DATA *ch, char *argument )
+ {
+     if (IS_SET(ch->affected_by, AFF_HIDE))
+       {
+ 	send_to_char( "Gölgelerden çýkýyorsun.\n\r", ch );
+ 	REMOVE_BIT(ch->affected_by, AFF_HIDE);
+ 	act("$n gölgelerden çýkýyor.", ch, NULL, NULL, TO_ROOM);
+       }
+     if (IS_SET(ch->affected_by, AFF_FADE))
+       {
+ 	send_to_char("Gölgelerden çýkýyorsun.\n\r", ch );
+ 	REMOVE_BIT(ch->affected_by, AFF_FADE);
+ 	act("$n gölgelerden çýkýyor.", ch, NULL, NULL, TO_ROOM);
+       }
+     if (IS_SET(ch->affected_by, AFF_CAMOUFLAGE))
+       {
+ 	send_to_char("Örtünden sýyrýlýyorsun.\n\r",ch);
+ 	REMOVE_BIT(ch->affected_by,AFF_CAMOUFLAGE);
+ 	act("$n örtüsünden sýyrýlýyor.",ch,NULL,NULL,TO_ROOM);
+       }
+     if (IS_SET(ch->affected_by, AFF_INVISIBLE))
+       {
+ 	send_to_char("Görünür oldun!\n\r", ch);
+ 	affect_strip(ch, gsn_invis);
+ 	affect_strip(ch, gsn_mass_invis);
+ 	REMOVE_BIT(ch->affected_by, AFF_INVISIBLE);
+ 	act("$n görünmeye baþladý.", ch, NULL, NULL, TO_ROOM);
+       }
+     if (IS_SET(ch->affected_by, AFF_IMP_INVIS))
+       {
+ 	send_to_char("Görünür oldun!\n\r", ch);
+ 	affect_strip(ch, gsn_imp_invis);
+ 	REMOVE_BIT(ch->affected_by, AFF_IMP_INVIS);
+ 	act("$n görünmeye baþladý.", ch, NULL, NULL, TO_ROOM);
+       }
+     if (IS_SET(ch->affected_by, AFF_SNEAK)
+ 	&& !IS_NPC(ch) && !IS_SET(race_table[RACE(ch)].aff,AFF_SNEAK) )
+       {
+ 	send_to_char("Adýmlarýn gürültü çýkarmaya baþladý.\n\r", ch);
+ 	affect_strip(ch, gsn_sneak);
+ 	REMOVE_BIT(ch->affected_by, AFF_SNEAK);
+       }
 
-    affect_strip ( ch, gsn_mass_invis			);
+     affect_strip ( ch, gsn_mass_invis			);
 
-    if ( CAN_DETECT(ch, ADET_EARTHFADE) )
-    {
-	send_to_char("You fade to your neutral form.\n\r", ch);
-	act("Earth forms $n in front of you.", ch, NULL, NULL, TO_ROOM);
-	affect_strip(ch, gsn_earthfade);
-	WAIT_STATE(ch, (PULSE_VIOLENCE / 2) );
-	REMOVE_BIT(ch->detection, ADET_EARTHFADE );
-    }
-    return;
-}
+     if ( CAN_DETECT(ch, ADET_EARTHFADE) )
+     {
+ 	send_to_char("Doðal formuna dönüyorsun.\n\r", ch);
+ 	act("$n þekilleniyor.", ch, NULL, NULL, TO_ROOM);
+ 	affect_strip(ch, gsn_earthfade);
+ 	WAIT_STATE(ch, (PULSE_VIOLENCE / 2) );
+ 	REMOVE_BIT(ch->detection, ADET_EARTHFADE );
+     }
+     return;
+ }
 
 void do_recall( CHAR_DATA *ch, char *argument )
 {
@@ -1977,8 +1976,8 @@ void do_recall( CHAR_DATA *ch, char *argument )
     ROOM_INDEX_DATA *location;
     int point;
     int lose,skill;
- 
-    if (IS_GOOD(ch))      
+
+    if (IS_GOOD(ch))
       point = hometown_table[ch->hometown].recall[0];
     else if (IS_EVIL(ch))
       point = hometown_table[ch->hometown].recall[2];
@@ -1987,13 +1986,13 @@ void do_recall( CHAR_DATA *ch, char *argument )
 
     if (IS_NPC(ch) && !IS_SET(ch->act,ACT_PET))
     {
-	send_to_char("Only players can recall.\n\r",ch);
+      send_to_char("Yalnýz oyuncular anýmsama kullanabilir.\n\r",ch);
 	return;
     }
 
     if (ch->level >= 11 && !IS_IMMORTAL(ch) )
       {
-	sprintf(buf, "Recall is for only levels below 10.\n\r");
+        sprintf(buf, "Seviyesi 10'dan düþük olanlar anýmsama kullanabilir.\n\r");
 	send_to_char(buf,ch);
 	return;
       }
@@ -2010,11 +2009,11 @@ void do_recall( CHAR_DATA *ch, char *argument )
 	point =	hometown_table[number_range(0, 4)].recall[number_range(0,2)];
       }
 
-    act( "$n prays for transportation!", ch, 0, 0, TO_ROOM );
-    
+      act("$n anýmsama duasý ediyor!", ch, 0, 0, TO_ROOM );
+
     if ( ( location = get_room_index(point ) )== NULL )
     {
-	send_to_char( "You are completely lost.\n\r", ch );
+      send_to_char("Kayboldun!\n\r", ch );
 	return;
     }
 
@@ -2022,16 +2021,16 @@ void do_recall( CHAR_DATA *ch, char *argument )
 	return;
 
     if ( IS_SET(ch->in_room->room_flags, ROOM_NO_RECALL)
-    ||   IS_AFFECTED(ch, AFF_CURSE) 
+    ||   IS_AFFECTED(ch, AFF_CURSE)
     ||   IS_RAFFECTED(ch->in_room, AFF_ROOM_CURSE) )
     {
-	send_to_char( "The gods have forsaken you.\n\r", ch );
+      send_to_char( "Tanrýlar seni terketti.\n\r", ch );
 	return;
     }
 
     if ( ( victim = ch->fighting ) != NULL )
     {
-	send_to_char( "You are still fighting!\n\r", ch );
+      send_to_char("Hala dövüþüyorsun!\n\r", ch);
 
 	if (IS_NPC(ch))
 	    skill = 40 + ch->level;
@@ -2042,7 +2041,7 @@ void do_recall( CHAR_DATA *ch, char *argument )
 	{
 	    check_improve(ch,gsn_recall,FALSE,6);
 	    WAIT_STATE( ch, 4 );
-	    sprintf( buf, "You failed!.\n\r");
+      sprintf( buf, "Baþaramadýn.\n\r");
 	    send_to_char( buf, ch );
 	    return;
 	}
@@ -2050,18 +2049,18 @@ void do_recall( CHAR_DATA *ch, char *argument )
 	lose = 25;
 	gain_exp( ch, 0 - lose );
 	check_improve(ch,gsn_recall,TRUE,4);
-	sprintf( buf, "You recall from combat!  You lose %d exps.\n\r", lose );
+  sprintf( buf, "Dövüþürken anýmsama kullandýn!  %d TP kaybettin.\n\r", lose );
 	send_to_char( buf, ch );
-	stop_fighting( ch, TRUE ); 
+	stop_fighting( ch, TRUE );
     }
 
     ch->move /= 2;
-    act( "$n disappears.", ch, NULL, NULL, TO_ROOM );
+    act( "$n yokoluyor.", ch, NULL, NULL, TO_ROOM );
     char_from_room( ch );
     char_to_room( ch, location );
-    act( "$n appears in the room.", ch, NULL, NULL, TO_ROOM );
+    act( "$n ortaya çýkýyor.", ch, NULL, NULL, TO_ROOM );
     do_look( ch, (char*)"auto" );
-    
+
     if (ch->pet != NULL)
       {
  	char_from_room( ch->pet );
@@ -2089,72 +2088,72 @@ void do_train( CHAR_DATA *ch, char *argument )
      */
     for ( mob = ch->in_room->people; mob; mob = mob->next_in_room )
     {
-	if ( IS_NPC(mob) && ( IS_SET(mob->act, ACT_PRACTICE) 
+	if ( IS_NPC(mob) && ( IS_SET(mob->act, ACT_PRACTICE)
 	|| IS_SET(mob->act,ACT_TRAIN) || IS_SET(mob->act,ACT_GAIN) ) )
 	    break;
     }
 
     if ( mob == NULL )
     {
-	send_to_char( "You can't do that here.\n\r", ch );
+      send_to_char( "Burada olmaz.\n\r", ch );
 	return;
     }
 
     if ( argument[0] == '\0' )
     {
-	sprintf( buf, "You have %d training sessions.\n\r", ch->train );
+      sprintf( buf, "%d eðitim seansýn var.\n\r", ch->train );
 	send_to_char( buf, ch );
 	argument = (char*)"foo";
     }
 
     cost = 1;
 
-    if ( !str_cmp( argument, "str" ) )
+    if ( !str_cmp( argument, "güç" ) )
     {
 	if ( class_table[ch->iclass].attr_prime == STAT_STR )
 	    cost    = 1;
 	stat        = STAT_STR;
-	pOutput     = (char*)"strength";
+	pOutput     = (char*)"Gücün";
     }
 
-    else if ( !str_cmp( argument, "int" ) )
+    else if ( !str_cmp( argument, "zek" ) )
     {
 	if ( class_table[ch->iclass].attr_prime == STAT_INT )
 	    cost    = 1;
 	stat	    = STAT_INT;
-	pOutput     = (char*)"intelligence";
+	pOutput     = (char*)"Zekan";
     }
 
-    else if ( !str_cmp( argument, "wis" ) )
+    else if ( !str_cmp( argument, "bil" ) )
     {
 	if ( class_table[ch->iclass].attr_prime == STAT_WIS )
 	    cost    = 1;
 	stat	    = STAT_WIS;
-	pOutput     = (char*)"wisdom";
+	pOutput     = (char*)"Bilgeliðin";
     }
 
-    else if ( !str_cmp( argument, "dex" ) )
+    else if ( !str_cmp( argument, "çev" ) )
     {
 	if ( class_table[ch->iclass].attr_prime == STAT_DEX )
 	    cost    = 1;
 	stat  	    = STAT_DEX;
-	pOutput     = (char*)"dexterity";
+	pOutput     = (char*)"Çevikliðin";
     }
 
-    else if ( !str_cmp( argument, "con" ) )
+    else if ( !str_cmp( argument, "bün" ) )
     {
 	if ( class_table[ch->iclass].attr_prime == STAT_CON )
 	    cost    = 1;
 	stat	    = STAT_CON;
-	pOutput     = (char*)"constitution";
+	pOutput     = (char*)"Bünyen";
     }
 
-    else if ( !str_cmp( argument, "cha") )
+    else if ( !str_cmp( argument, "kar") )
     {
 	if ( class_table[ch->iclass].attr_prime == STAT_CHA )
 	    cost    = 1;
 	stat	    = STAT_CHA;
-	pOutput     = (char*)"charisma";
+	pOutput     = (char*)"Karizman";
 /*
 	sprintf( buf,
  "You can't train charisma. That is about your behaviour.\n\r");
@@ -2163,7 +2162,7 @@ void do_train( CHAR_DATA *ch, char *argument )
 */
     }
 
-    else if ( !str_cmp(argument, "hp" ) )
+    else if ( !str_cmp(argument, "yp" ) )
 	cost = 1;
 
     else if ( !str_cmp(argument, "mana" ) )
@@ -2171,20 +2170,20 @@ void do_train( CHAR_DATA *ch, char *argument )
 
     else
     {
-	strcpy( buf, "You can train:" );
-	if ( ch->perm_stat[STAT_STR] < get_max_train2(ch,STAT_STR)) 
-	    strcat( buf, " str" );
-	if ( ch->perm_stat[STAT_INT] < get_max_train2(ch,STAT_INT))  
-	    strcat( buf, " int" );
-	if ( ch->perm_stat[STAT_WIS] < get_max_train2(ch,STAT_WIS)) 
-	    strcat( buf, " wis" );
-	if ( ch->perm_stat[STAT_DEX] < get_max_train2(ch,STAT_DEX))  
-	    strcat( buf, " dex" );
-	if ( ch->perm_stat[STAT_CON] < get_max_train2(ch,STAT_CON))  
-	    strcat( buf, " con" );
-	if ( ch->perm_stat[STAT_CHA] < get_max_train2(ch,STAT_CHA))  
-	    strcat( buf, " cha" );
-	strcat( buf, " hp mana");
+      strcpy( buf, "Eðitebileceklerin:" );
+    	if ( ch->perm_stat[STAT_STR] < get_max_train2(ch,STAT_STR))
+    	    strcat( buf, " güç" );
+    	if ( ch->perm_stat[STAT_INT] < get_max_train2(ch,STAT_INT))
+    	    strcat( buf, " zek" );
+    	if ( ch->perm_stat[STAT_WIS] < get_max_train2(ch,STAT_WIS))
+    	    strcat( buf, " bil" );
+    	if ( ch->perm_stat[STAT_DEX] < get_max_train2(ch,STAT_DEX))
+    	    strcat( buf, " çev" );
+    	if ( ch->perm_stat[STAT_CON] < get_max_train2(ch,STAT_CON))
+    	    strcat( buf, " bün" );
+    	if ( ch->perm_stat[STAT_CHA] < get_max_train2(ch,STAT_CHA))
+    	    strcat( buf, " kar" );
+    	strcat( buf, " yp mana");
 
 	if ( buf[strlen(buf)-1] != ':' )
 	{
@@ -2196,39 +2195,35 @@ void do_train( CHAR_DATA *ch, char *argument )
 	    /*
 	     * This message dedicated to Jordan ... you big stud!
 	     */
-	    act( "You have nothing left to train, you $T!",
-		ch, NULL,
-		ch->sex == SEX_MALE   ? "big stud" :
-		ch->sex == SEX_FEMALE ? "hot babe" :
-					"wild thing",
-		TO_CHAR );
+       act( "Eðitebileceðin birþeyin kalmadý",
+ 		ch, NULL,NULL,TO_CHAR );
 	}
 
 	return;
     }
 
-    if (!str_cmp("hp",argument))
+    if (!str_cmp("yp",argument))
     {
     	if ( cost > ch->train )
     	{
-       	    send_to_char( "You don't have enough training sessions.\n\r", ch );
+        send_to_char( "Yeterli eðitim seansýn kalmadý.\n\r", ch );
             return;
         }
- 
+
 	ch->train -= cost;
         ch->pcdata->perm_hit += 10;
         ch->max_hit += 10;
         ch->hit +=10;
-        act( "Your durability increases!",ch,NULL,NULL,TO_CHAR);
-        act( "$n's durability increases!",ch,NULL,NULL,TO_ROOM);
+        act( "Yaþam puanýn artýyor!",ch,NULL,NULL,TO_CHAR);
+        act( "$s yaþam puaný artýyor!",ch,NULL,NULL,TO_ROOM);
         return;
     }
- 
+
     if (!str_cmp("mana",argument))
     {
         if ( cost > ch->train )
         {
-            send_to_char( "You don't have enough training sessions.\n\r", ch );
+          send_to_char( "Yeterli eðitim seansýn kalmadý.\n\r", ch );
             return;
         }
 
@@ -2236,28 +2231,28 @@ void do_train( CHAR_DATA *ch, char *argument )
         ch->pcdata->perm_mana += 10;
         ch->max_mana += 10;
         ch->mana += 10;
-        act( "Your power increases!",ch,NULL,NULL,TO_CHAR);
-        act( "$n's power increases!",ch,NULL,NULL,TO_ROOM);
+        act( "Manan artýyor!",ch,NULL,NULL,TO_CHAR);
+        act( "$s manasý artýyor!",ch,NULL,NULL,TO_ROOM);
         return;
     }
 
     if ( ch->perm_stat[stat]  >= get_max_train2(ch,stat) )
     {
-	act( "Your $T is already at maximum.", ch, NULL, pOutput, TO_CHAR );
+      act( "$T zaten maksimum.", ch, NULL, pOutput, TO_CHAR );
 	return;
     }
 
     if ( cost > ch->train )
     {
-	send_to_char( "You don't have enough training sessions.\n\r", ch );
+      send_to_char( "Yeterli eðitim seansýn kalmadý.\n\r", ch );
 	return;
     }
 
     ch->train		-= cost;
-  
+
     ch->perm_stat[stat]		+= 1;
-    act( "Your $T increases!", ch, NULL, pOutput, TO_CHAR );
-    act( "$n's $T increases!", ch, NULL, pOutput, TO_ROOM );
+    act( "$T artýyor!", ch, NULL, pOutput, TO_CHAR );
+    act( "$n $T eðitimi yapýyor!", ch, NULL, pOutput, TO_ROOM );
     return;
 }
 
@@ -2268,17 +2263,17 @@ void do_track(CHAR_DATA *ch, char *argument)
   ROOM_HISTORY_DATA *rh;
   EXIT_DATA *pexit;
   char buf[MAX_STRING_LENGTH];
-  static const char *door[] = { "north","east","south","west","up","down",
-                            "that way" };
+  static const char *door[] = { "kuzeye","doðuya","güneye","batýya","yukarý","aþaðý",
+                            "o yöne" };
   int d;
 
   if (!IS_NPC(ch) && get_skill(ch,gsn_track) < 2) {
-    send_to_char("There are no train tracks here.\n\r",ch);
+    send_to_char("Burada eðitim yapýldýðýna dair iz yok.\n\r",ch);
     return;
   }
 
   WAIT_STATE(ch,skill_table[gsn_track].beats);
-  act("$n checks the ground for tracks.",ch,NULL,NULL,TO_ROOM);
+  act("$n iz bulmak için yeri kontrol ediyor.",ch,NULL,NULL,TO_ROOM);
 
   if (IS_NPC(ch) || number_percent() < get_skill(ch,gsn_track) )
     {
@@ -2289,12 +2284,12 @@ void do_track(CHAR_DATA *ch, char *argument)
 		add_mind(ch,ch->last_fought->name);
         }
       for (rh = ch->in_room->history;rh != NULL;rh = rh->next)
-        if (is_name(argument,rh->name)) 
+        if (is_name(argument,rh->name))
          {
           check_improve(ch,gsn_track,TRUE,1);
 	  if ((d = rh->went) == -1) continue;
-          sprintf(buf,"%s's tracks lead %s.\n\r",capitalize(rh->name),door[d]);
-          send_to_char(buf, ch);
+    sprintf(buf,"%s kiþisine ait izler %s uzanýyor.\n\r",capitalize(rh->name),door[d]);
+        send_to_char(buf, ch);
 	  if ( ( pexit = ch->in_room->exit[d] ) != NULL
 	    &&   IS_SET(pexit->exit_info, EX_ISDOOR)
 	    &&   pexit->keyword != NULL )
@@ -2306,7 +2301,7 @@ void do_track(CHAR_DATA *ch, char *argument)
           return;
       }
     }
-  send_to_char("You don't see any tracks.\n\r",ch);
+    send_to_char("Hiç iz bulamýyorsun.\n\r",ch);
   if (IS_NPC(ch))
     ch->status = 5;	/* for stalker */
   check_improve(ch,gsn_track,FALSE,1);
@@ -2317,10 +2312,10 @@ void do_vampire( CHAR_DATA *ch, char *argument )
 {
     AFFECT_DATA af;
     int level,duration;
- 
+
     if ( is_affected( ch, gsn_vampire ) )
     {
-     send_to_char("You can't be much more vampire!\n\r",ch);
+      send_to_char("Daha fazla vampirleþemezsin!\n\r",ch);
      return;
     }
 
@@ -2328,27 +2323,26 @@ void do_vampire( CHAR_DATA *ch, char *argument )
     &&   ch->level < skill_table[gsn_vampire].skill_level[ch->iclass] )
     {
 	send_to_char(
-	    "You try to show yourself even more uggly.\n\r", ch );
+    "Daha çirkin görünmeye çalýþýyorsun.\n\r", ch );
 	return;
     }
 
     if ( get_skill(ch,gsn_vampire) < 50 )
 	{
-	 send_to_char("Go and ask the questor to help you.\n\r",ch);
+    send_to_char("Git ve görevciden yardým al.\n\r",ch);
 	 return;
 	}
     if ( is_affected(ch,gsn_vampire) )
 	{
-	 send_to_char("If you wan't to be more vampire go and kill a player.\n\r",ch);
+    send_to_char("Daha fazla vampir olmak istiyorsam git birilerini öldür.\n\r",ch);
 	 return;
 	}
 
 
-    if ( weather_info.sunlight == SUN_LIGHT 
-	||   weather_info.sunlight == SUN_RISE ) 
+    if ( weather_info.sunlight == SUN_LIGHT
+	||   weather_info.sunlight == SUN_RISE )
 	{
-	 send_to_char(
-"You should have waited the evening or night to tranform to a vampire.\n\r",ch);
+    send_to_char("Vampire dönüþmek için akþamý beklemelisin.\n\r",ch);
 	}
 
     level = ch->level;
@@ -2415,8 +2409,8 @@ void do_vampire( CHAR_DATA *ch, char *argument )
     af.bitvector = PLR_VAMPIRE;
     affect_to_char( ch, &af );
 
-   send_to_char( "You feel yourself getting greater and greater.\n\r", ch );
-   act("You cannot recognize $n anymore.",ch,NULL,NULL,TO_ROOM);
+    send_to_char( "Ýrileþtiðini hissediyorsun.\n\r", ch );
+    act("$m tanýyamýyorsun.",ch,NULL,NULL,TO_ROOM);
    return;
 }
 
@@ -2431,41 +2425,41 @@ void do_vbite( CHAR_DATA *ch, char *argument )
     if ( !IS_NPC(ch)
     &&   ch->level < skill_table[gsn_vampiric_bite].skill_level[ch->iclass] )
       {
-	send_to_char("You don't know how to bite creatures.\n\r",ch);
+        send_to_char("Canlýlarý nasýl ýsýracaðýný bilmiyorsun.\n\r",ch);
 	return;
       }
 
     if (!IS_VAMPIRE(ch))
 	{
-	 send_to_char("You must transform vampire before biting.\n\r",ch);
+    send_to_char("Isýrmadan önce vampire dönüþmelisin.\n\r",ch);
 	 return;
 	}
 
     if ( arg[0] == '\0' )
     {
-	send_to_char( "Bite whom?\n\r", ch );
+      send_to_char( "Kimi ýsýracaksýn?\n\r", ch );
 	return;
     }
 
     if ( ( victim = get_char_room( ch, arg ) ) == NULL )
     {
-	send_to_char( "They aren't here.\n\r", ch );
+      send_to_char("Burada deðil.\n\r", ch);
 	return;
     }
 
     if ( victim->position != POS_SLEEPING )
     {
-	send_to_char( "They must be sleeping.\n\r", ch );
+      send_to_char( "Uyuyor olmalý.\n\r", ch );
 	return;
     }
 
     if ( (IS_NPC(ch)) && (!(IS_NPC(victim))) )
 	return;
-	
+
 
     if ( victim == ch )
     {
-	send_to_char( "How can you sneak up on yourself?\n\r", ch );
+      send_to_char("Kendi boynunu nasýl ýsýracaksýn?\n\r", ch );
 	return;
     }
 
@@ -2474,7 +2468,7 @@ void do_vbite( CHAR_DATA *ch, char *argument )
 
     if ( victim->fighting != NULL )
     {
-	send_to_char( "You can't bite a fighting person.\n\r", ch );
+      send_to_char("Dövüþen birini ýsýramazsýn.\n\r", ch );
 	return;
     }
 
@@ -2484,21 +2478,21 @@ void do_vbite( CHAR_DATA *ch, char *argument )
     if ( victim->hit < (0.8 * victim->max_hit) &&
 	 (IS_AWAKE(victim) ) )
     {
-	act( "$N is hurt and suspicious ... doesn't worth up.",
+      act( "$N yaralý ve kuþkulu... onu ýsýramazsýn.",
 	    ch, NULL, victim, TO_CHAR );
 	return;
     }
 
     if ( current_time-victim->last_fight_time<300 && IS_AWAKE(victim) )
     {
-	act( "$N is suspicious ... it doesn't worth to do.",
+      act("$N yaralý ve kuþkulu... onu ýsýramazsýn.",
 	    ch, NULL, victim, TO_CHAR );
-	return;       
+	return;
     }
 
     if ( !IS_AWAKE(victim)
     && (  IS_NPC(ch)
-    ||   number_percent( ) < 
+    ||   number_percent( ) <
 	( (get_skill(ch,gsn_vampiric_bite) * 0.7 ) +
 	( 2 * (ch->level - victim->level ))  ) ) )
     {
@@ -2511,10 +2505,10 @@ void do_vbite( CHAR_DATA *ch, char *argument )
 	damage( ch, victim, 0, gsn_vampiric_bite,DAM_NONE, TRUE );
     }
     /* Player shouts if he doesn't die */
-    if (!(IS_NPC(victim)) && !(IS_NPC(ch)) 
+    if (!(IS_NPC(victim)) && !(IS_NPC(ch))
 	&& victim->position == POS_FIGHTING )
       {
-  	    sprintf( buf, "Help, an ugly creature tried to bite me!");
+        sprintf( buf, "Ýmdat, bir vampir beni ýsýrmaya çalýþtý!");
 	    do_yell( victim, buf );
       }
     return;
@@ -2528,36 +2522,36 @@ void do_bash_door( CHAR_DATA *ch, char *argument )
     int damage_bash,door;
 
     one_argument(argument,arg);
- 
+
     if ( get_skill(ch,gsn_bash_door) == 0
     ||	 (IS_NPC(ch) && !IS_SET(ch->off_flags,OFF_BASH))
     ||	 (!IS_NPC(ch)
     &&	  ch->level < skill_table[gsn_bash_door].skill_level[ch->iclass]))
-    {	
-	send_to_char("Bashing? What's that?\n\r",ch);
+    {
+      send_to_char("Kapý kýrmak? O da ne?\n\r",ch);
 	return;
     }
- 
-    if (MOUNTED(ch)) 
+
+    if (MOUNTED(ch))
     {
-        send_to_char("You can't bash doors while mounted.\n\r", ch);
+      send_to_char("Biniciyken nasýl kapý kýracaksýn.\n\r", ch);
         return;
     }
-    if (RIDDEN(ch)) 
+    if (RIDDEN(ch))
     {
-        send_to_char("You can't bash doors while being ridden.\n\r", ch);
+      send_to_char("Binekken nasýl kapý kýracaksýn.\n\r", ch);
         return;
     }
 
     if (arg[0] == '\0')
     {
-    send_to_char("Bash which door or direction.\n\r",ch);
+      send_to_char("Hangi yönü ya da kapýyý kýracaksýn.\n\r",ch);
     return;
     }
 
     if (ch->fighting)
-    {	
-	send_to_char("Wait until the fight finishes.\n\r",ch);
+    {
+      send_to_char("Dövüþ bitene kadar bekle.\n\r",ch);
 	return;
     }
 
@@ -2566,7 +2560,7 @@ void do_bash_door( CHAR_DATA *ch, char *argument )
     {
 	if ( IS_NPC(gch) && IS_AWAKE(gch) && ch->level + 5 < gch->level )
 	{
-	    act( "$N is standing too close to the door.",
+    act( "$N kapýya çok yakýn duruyor.",
 		ch, NULL, gch, TO_CHAR );
 	    return;
 	}
@@ -2580,12 +2574,12 @@ void do_bash_door( CHAR_DATA *ch, char *argument )
 	EXIT_DATA *pexit_rev;
 
 	pexit = ch->in_room->exit[door];
-	if ( !IS_SET(pexit->exit_info, EX_CLOSED) )
-	    { send_to_char( "It's already open.\n\r",      ch ); return; }
+  if ( !IS_SET(pexit->exit_info, EX_CLOSED) )
+	    { send_to_char( "Zaten açýk.\n\r",ch ); return; }
 	if ( !IS_SET(pexit->exit_info, EX_LOCKED) )
-	    { send_to_char( "Just try to open it.\n\r",     ch ); return; }
+	    { send_to_char( "Açmayý denesen?\n\r",ch ); return; }
 	if ( IS_SET(pexit->exit_info, EX_NOPASS) )
-	    { send_to_char( "A mystical shield protects the exit.\n\r",ch ); 
+	    { send_to_char( "Mistik bir kalkan çýkýþý koruyor.\n\r",ch );
 	      return; }
 
     /* modifiers */
@@ -2601,15 +2595,15 @@ void do_bash_door( CHAR_DATA *ch, char *argument )
     if (IS_AFFECTED(ch,AFF_FLYING))
 	chance -= 10;
 
-    /* level 
+    /* level
     chance += ch->level / 10;
     */
 
     chance += (get_skill(ch,gsn_bash_door) - 90);
 
-    act("You slam into $d, and try to break $d!",
+    act("$d'ye yükleniyor ve kýrmaya çalýþýyorsun!",
 		ch,NULL,pexit->keyword,TO_CHAR);
-    act("You slam into $d, and try to break $d!",
+    act("$n $d'ye yükleniyor ve kýrmaya çalýþýyor!",
 		ch,NULL,pexit->keyword,TO_ROOM);
 
     if (room_dark(ch->in_room))
@@ -2618,14 +2612,14 @@ void do_bash_door( CHAR_DATA *ch, char *argument )
     /* now the attack */
     if (number_percent() < chance )
     {
-    
+
 	check_improve(ch,gsn_bash_door,TRUE,1);
 
 	REMOVE_BIT(pexit->exit_info, EX_LOCKED);
 	REMOVE_BIT(pexit->exit_info, EX_CLOSED);
-	act( "$n bashes the the $d and breaks the lock.", ch, NULL, 
+  act( "$n $d'ye yüklenerek kilidi kýrýyor.", ch, NULL,
 		pexit->keyword, TO_ROOM );
-	send_to_char( "You successed to open the door.\n\r", ch );
+	send_to_char( "Kapýyý açmayý baþardýn.\n\r", ch );
 
 	/* open the other side */
 	if ( ( to_room   = pexit->u1.to_room            ) != NULL
@@ -2637,7 +2631,7 @@ void do_bash_door( CHAR_DATA *ch, char *argument )
 	    REMOVE_BIT( pexit_rev->exit_info, EX_CLOSED );
 	    REMOVE_BIT( pexit_rev->exit_info, EX_LOCKED );
 	    for ( rch = to_room->people; rch != NULL; rch = rch->next_in_room )
-		act( "The $d opens.", rch, NULL, pexit_rev->keyword, TO_CHAR );
+      act( "$d açýlýyor.", rch, NULL, pexit_rev->keyword, TO_CHAR );
 	}
 
 
@@ -2647,17 +2641,17 @@ void do_bash_door( CHAR_DATA *ch, char *argument )
 		ch->position = POS_RESTING;
 	}
 	WAIT_STATE(ch,skill_table[gsn_bash_door].beats);
-	
+
     }
     else
     {
-	act("You fall flat on your face!",
-	    ch,NULL,NULL,TO_CHAR);
-	act("$n falls flat on $s face.",
-	    ch,NULL,NULL,TO_ROOM);
+      act("Yüzüstü yere kapaklandýn!",
+    	    ch,NULL,NULL,TO_CHAR);
+    	act("$n yüzüstü yere kapaklandý.",
+    	    ch,NULL,NULL,TO_ROOM);
 	check_improve(ch,gsn_bash_door,FALSE,1);
 	ch->position = POS_RESTING;
-	WAIT_STATE(ch,skill_table[gsn_bash].beats * 3/2); 
+	WAIT_STATE(ch,skill_table[gsn_bash].beats * 3/2);
 	damage_bash = ch->damroll + number_range(4,4 + 4* ch->size + chance/5);
 	damage(ch,ch,damage_bash,gsn_bash, DAM_BASH, TRUE);
     }
@@ -2676,35 +2670,35 @@ void do_blink( CHAR_DATA *ch, char *argument )
     if ( !IS_NPC(ch)
     &&   ch->level < skill_table[gsn_blink].skill_level[ch->iclass] )
     {
-	send_to_char("Huh?.\n\r", ch );
+      send_to_char("Hý?.\n\r", ch);
 	return;
     }
 
     if (arg[0] == '\0' )
     {
-     sprintf(buf,"Your current blink status : %s.\n\r",
-	IS_BLINK_ON(ch) ? "ON" : "OFF");
+      sprintf(buf,"Zayi durumu : %s.\n\r",
+   	IS_BLINK_ON(ch) ? "AÇIK" : "KAPALI");
      send_to_char(buf,ch);
      return;
     }
 
-    if ( !str_cmp(arg,"ON") )
+    if ( !str_cmp(arg,"açýk") || !str_cmp(arg,"aç") )
 	{
 	 SET_BIT(ch->act,PLR_BLINK_ON);
-	 sprintf(buf,"Now ,your current blink status is ON.\n\r");
+   sprintf(buf,"Zayi artýk AÇIK.\n\r");
 	 send_to_char(buf,ch);
 	 return;
 	}
 
-    if ( !str_cmp(arg,"OFF") )
+  if ( !str_cmp(arg,"kapalý") || !str_cmp(arg,"kapa") )
 	{
 	 REMOVE_BIT(ch->act,PLR_BLINK_ON);
-	 sprintf(buf,"Now ,your current blink status is OFF.\n\r");
+   sprintf(buf,"Zayi artýk KAPALI.\n\r");
 	 send_to_char(buf,ch);
 	 return;
 	}
 
-   sprintf(buf,"What is that?.Is %s a status?\n\r",arg);
+  sprintf(buf,"%s da nedir? Bir durum mu?\n\r",arg);
    send_to_char(buf,ch);
    return;
 }
@@ -2717,14 +2711,14 @@ void do_vanish( CHAR_DATA *ch, char *argument )
   if (!IS_NPC(ch)
       && ch->level < skill_table[gsn_vanish].skill_level[ch->iclass] )
 	{
-	 send_to_char("Huh?\n\r",ch);
+    send_to_char("Hý?\n\r",ch);
 	 return;
 	}
 
 
   if (ch->mana < 25)
 	{
-	 send_to_char("You don't have enough power.\n\r" , ch);
+    send_to_char("Yeterince manan yok.\n\r" , ch);
 	 return;
 	}
 
@@ -2734,16 +2728,16 @@ void do_vanish( CHAR_DATA *ch, char *argument )
 
   if (number_percent() > get_skill(ch,gsn_vanish) )
     {
-      send_to_char( "You failed.\n\r", ch );
+      send_to_char( "Baþaramadýn.\n\r",ch );
       check_improve(ch,gsn_vanish,FALSE,1);
       return;
     }
-  
+
   if ( ch->in_room == NULL
       || IS_SET(ch->in_room->room_flags, ROOM_NO_RECALL)
       || cabal_area_check(ch) )
   {
-      send_to_char( "You failed.\n\r", ch );
+    send_to_char( "Baþaramadýn.\n\r",ch );
       return;
   }
 
@@ -2751,7 +2745,7 @@ void do_vanish( CHAR_DATA *ch, char *argument )
     {
       if ( (pRoomIndex = get_room_index(number_range(0, 65535))) == NULL)
 	continue;
-      if ( can_see_room(ch,pRoomIndex) 
+      if ( can_see_room(ch,pRoomIndex)
 		&& !room_is_private(pRoomIndex)
 		&& ch->in_room->area == pRoomIndex->area)
 	  break;
@@ -2759,37 +2753,37 @@ void do_vanish( CHAR_DATA *ch, char *argument )
 
   if (pRoomIndex == NULL)
   {
-      send_to_char( "You failed.\n\r", ch );
+    send_to_char( "Baþaramadýn.\n\r",ch );
       return;
   }
 
-  act( "$n throws down a small globe.", ch, NULL, NULL, TO_ROOM );
+  act( "$n küçük bir küreyi yere fýrlatýyor.", ch, NULL, NULL, TO_ROOM );
 
   check_improve(ch,gsn_vanish,TRUE,1);
 
-  if (!IS_NPC(ch) && ch->fighting != NULL && number_bits(1) == 1) 
+  if (!IS_NPC(ch) && ch->fighting != NULL && number_bits(1) == 1)
   {
-    send_to_char("You failed.\n\r",ch);
+    send_to_char("Baþaramadýn.\n\r",ch);
     return;
   }
 
-  act( "$n is gone!",ch,NULL,NULL,TO_ROOM);
+  act("$n gitti!",ch,NULL,NULL,TO_ROOM);
 
   char_from_room( ch );
   char_to_room( ch, pRoomIndex );
-  act( "$n appears from nowhere.", ch, NULL, NULL, TO_ROOM );
+  act("$n ortaya çýkýyor.", ch, NULL, NULL, TO_ROOM );
   do_look( ch, (char*)"auto" );
   stop_fighting(ch,TRUE);
   return;
 }
 
-void do_detect_sneak( CHAR_DATA *ch, char *argument) 
+void do_detect_sneak( CHAR_DATA *ch, char *argument)
 {
     AFFECT_DATA af;
 
     if ( is_affected(ch, gsn_detect_sneak) )
     {
-	send_to_char("You can already detect sneaking.\n\r",ch);
+      send_to_char("Zaten süzülenleri saptayabiliyorsun.\n\r",ch);
     }
     af.where	 = TO_DETECTS;
     af.type      = gsn_detect_sneak;
@@ -2799,7 +2793,7 @@ void do_detect_sneak( CHAR_DATA *ch, char *argument)
     af.modifier  = 0;
     af.bitvector = DETECT_SNEAK;
     affect_to_char( ch, &af );
-    send_to_char( "You can detect the sneaking.\n\r", ch );
+    send_to_char("Artýk süzülenleri saptýyorsun.\n\r", ch );
     return;
 }
 
@@ -2808,19 +2802,19 @@ void do_fade( CHAR_DATA *ch, char *argument )
 {
     if (ch_skill_nok(ch,gsn_fade)) return;
 
-    if (MOUNTED(ch)) 
+    if (MOUNTED(ch))
     {
-        send_to_char("You can't fade while mounted.\n\r", ch);
+      send_to_char("Biniciyken solamazsýn.\n\r", ch);
         return;
     }
-    if (RIDDEN(ch)) 
+    if (RIDDEN(ch))
     {
-        send_to_char("You can't fade while being ridden.\n\r", ch);
+      send_to_char("Binekken solamazsýn.\n\r", ch);
         return;
     }
 
     if (!cabal_ok(ch,gsn_fade)) return;
-    send_to_char( "You attempt to fade.\n\r", ch );
+    send_to_char("Solmaya çalýþýyorsun.\n\r", ch );
 
     SET_BIT(ch->affected_by, AFF_FADE);
     check_improve(ch,gsn_fade,TRUE,3);
@@ -2836,42 +2830,42 @@ void do_vtouch(CHAR_DATA *ch, char *argument)
     if ( IS_NPC(ch) ||
 	 ch->level < skill_table[gsn_vampiric_touch].skill_level[ch->iclass] )
     {
-	send_to_char("You lack the skill to draining touch.\n\r",ch);
+      send_to_char("Kurutucu dokunuþlar hakkýnda bilgin yok.\n\r",ch);
 	return;
     }
 
     if (!IS_VAMPIRE(ch))
 	{
-	send_to_char("Let it be.\n\r",ch);
+    send_to_char("Býrak olsun.\n\r",ch);
 	return;
 	}
 
-    
+
     if ( (victim = get_char_room(ch,argument)) == NULL)
       {
-	send_to_char("You do not see that person here.\n\r",ch);
+        send_to_char("Onu göremiyorsun.\n\r",ch);
 	return;
       }
 
     if (ch==victim)
       {
-	send_to_char("Even you are not that stupid.\n\r",ch);
+        send_to_char("Bu kadar aptal olamazsýn.\n\r",ch);
 	return;
       }
 
     if ( IS_AFFECTED( ch, AFF_CHARM ) && victim == ch->leader)  {
-	send_to_char( "You don't want to drain your master.\n\r",ch);
+      send_to_char("Efendini kurutmak istemiyorsun.\n\r",ch);
 	return;
-    } 
+    }
 
     if ( IS_AFFECTED( victim, AFF_CHARM ) )  {
-	send_to_char( "Your victim is already sleeping.\n\r",ch);
+      send_to_char("Kurbanýn zaten uyuyor.\n\r",ch);
 	return;
-    } 
+    }
 
     if (is_affected(victim,gsn_blackguard) )
     {
-        act( "$N's doesn't let you to go that much close.", ch, NULL, victim, TO_CHAR );
+      act("$N yeterince yaklaþmana izin vermiyor.", ch, NULL, victim, TO_CHAR );
         return;
     }
 
@@ -2886,17 +2880,17 @@ void do_vtouch(CHAR_DATA *ch, char *argument)
 
     WAIT_STATE(ch,skill_table[gsn_vampiric_touch].beats);
 
-    if (IS_NPC(ch) || 
+    if (IS_NPC(ch) ||
 	number_percent() < 0.85 * get_skill(ch,gsn_vampiric_touch))
       {
-	act("You deadly touch  $N's neck and put $M to nightmares.",
-	    ch,NULL,victim,TO_CHAR);
-	act("$n's deadly touch your neck and puts you to nightmares.",
-	    ch,NULL,victim,TO_VICT);
-	act("$n's deadly touch $N's neck and puts $M to nightmares.",
-	    ch,NULL,victim,TO_NOTVICT);
+        act("Boyna yaptýðýn dokunuþla $M kabuslara sürüklüyorsun.",
+      	    ch,NULL,victim,TO_CHAR);
+      	act("$s boynuna yaptýðý dokunuþ seni kabuslara sürüklüyor.",
+      	    ch,NULL,victim,TO_VICT);
+      	act("$n $S boynuna yaptýðý dokunuþla onu kabuslara sürüklüyor.",
+      	    ch,NULL,victim,TO_NOTVICT);
 	check_improve(ch,gsn_vampiric_touch,TRUE,1);
-	
+
 	af.type = gsn_vampiric_touch;
         af.where = TO_AFFECTS;
 	af.level = ch->level;
@@ -2909,17 +2903,17 @@ void do_vtouch(CHAR_DATA *ch, char *argument)
 	if (IS_AWAKE(victim))
 	  victim->position = POS_SLEEPING;
       }
-    else 
+    else
       {
 	char buf[MAX_STRING_LENGTH];
 
 	damage(ch,victim,0,gsn_vampiric_touch,DAM_NONE, TRUE);
 	check_improve(ch,gsn_vampiric_touch,FALSE,1);
         if (!can_see(victim, ch))
-          do_yell(victim, (char*)"Help! I'm being strangled by someone!");
+        do_yell(victim,  "Ýmdat! Biri beni boðazladý!");
         else
         {
-            sprintf(buf, "Help! I'm being attacked by %s!",
+          sprintf(buf, "Ýmdat! %s bana saldýrdý!",
                     (is_affected(ch,gsn_doppelganger)&& !IS_IMMORTAL(victim))?
                     ch->doppel->name : ch->name );
             if (!IS_NPC(victim)) do_yell(victim,buf);
@@ -2942,51 +2936,51 @@ void do_fly( CHAR_DATA *ch, char *argument )
     if (IS_NPC(ch)) return;
 
     argument = one_argument(argument,arg);
-    if ( !str_cmp(arg,"up") )
+    if ( !strcmp(arg,"yukarý") )
     {
      if (IS_AFFECTED(ch,AFF_FLYING) )
-	{		       
-         send_to_char("You are already flying.\n\r",ch); 
+	{
+    send_to_char("Zaten uçuyorsun.\n\r",ch);
 	 return;
 	}
-     if (is_affected(ch,gsn_fly) 
-	 || (race_table[RACE(ch)].aff & AFF_FLYING) 
+     if (is_affected(ch,gsn_fly)
+	 || (race_table[RACE(ch)].aff & AFF_FLYING)
 	 || affect_check_obj(ch,AFF_FLYING) )
 	{
    	 SET_BIT(ch->affected_by,AFF_FLYING);
 	 REMOVE_BIT(ch->act,PLR_CHANGED_AFF);
-   	 send_to_char("You start to fly.\n\r",ch);
+   send_to_char("Uçmaya baþladýn.\n\r",ch);
 	}
-   else 
-	{		       
-         send_to_char("To fly , find a potion or wings.\n\r",ch); 
+   else
+	{
+    send_to_char("Uçmak için bir iksir ya da bir çift kanat bul.\n\r",ch);
 	}
     }
-    else if ( !str_cmp(arg,"down") )
+    else if ( !strcmp(arg,"aþaðý") )
     {
    if (IS_AFFECTED(ch,AFF_FLYING) )
 	{
    	 REMOVE_BIT(ch->affected_by,AFF_FLYING);
 	 SET_BIT(ch->act,PLR_CHANGED_AFF);
-   	 send_to_char("You slowly touch the ground.\n\r",ch);
+   send_to_char("Yavaþça konuyorsun.\n\r",ch);
 	}
-   else 
-	{		       
-         send_to_char("You are already on the ground.\n\r",ch); 
+   else
+	{
+    send_to_char("Zaten yerdesin.\n\r",ch);
 	 return;
 	}
     }
-   else 
+   else
     {
-      send_to_char("Type fly with 'up' or 'down'.\n\r",ch);
+      send_to_char("UÇ komutunu AÞAÐI veya YUKARI parametreleriyle kullanýn.\n\r",ch);
       return;
     }
 
-    WAIT_STATE( ch, skill_table[gsn_fly].beats );   
+    WAIT_STATE( ch, skill_table[gsn_fly].beats );
 
    return;
 }
-       
+
 
 void do_push( CHAR_DATA *ch, char *argument )
 {
@@ -3002,43 +2996,43 @@ void do_push( CHAR_DATA *ch, char *argument )
 
     if ( arg1[0] == '\0' || arg2[0] == '\0')
     {
-	send_to_char( "Push whom to what diretion?\n\r", ch );
+      send_to_char( "Kimi hangi yöne iteceksin?\n\r", ch );
 	return;
     }
 
-    if (MOUNTED(ch)) 
+    if (MOUNTED(ch))
     {
-        send_to_char("You can't push while mounted.\n\r", ch);
+      send_to_char("Biniciyken itemezsin.\n\r", ch);
         return;
     }
-    if (RIDDEN(ch)) 
+    if (RIDDEN(ch))
     {
-        send_to_char("You can't push while being ridden.\n\r", ch);
+      send_to_char("Binekken itemezsin.\n\r", ch);
         return;
     }
 
-    if ( IS_NPC(ch) && IS_SET(ch->affected_by, AFF_CHARM) 
+    if ( IS_NPC(ch) && IS_SET(ch->affected_by, AFF_CHARM)
 	&& (ch->master != NULL))
       {
-	send_to_char( "You are to dazed to push anyone.\n\r", ch);
+        send_to_char("Birini itemeyecek kadar afallamýþsýn.\n\r", ch);
 	return;
       }
 
     if ( ( victim = get_char_room( ch, arg1 ) ) == NULL )
     {
-	send_to_char( "They aren't here.\n\r", ch );
+      send_to_char("Burada deðil.\n\r", ch);
 	return;
     }
 
     if (!IS_NPC(victim) && victim->desc == NULL)
     {
-	send_to_char("You can't do that.\n\r", ch);
+	send_to_char("Bunu yapamazsýn.\n\r", ch);
 	return;
     }
 
     if ( victim == ch )
     {
-	send_to_char( "That's pointless.\n\r", ch );
+      send_to_char("Anlamsýz.\n\r", ch );
 	return;
     }
 
@@ -3047,7 +3041,7 @@ void do_push( CHAR_DATA *ch, char *argument )
 
     if (victim->position == POS_FIGHTING)
     {
-	send_to_char("Wait till the end of fight.\n\r",ch);
+      send_to_char("Dövüþ bitene kadar bekle.\n\r",ch);
 	return;
     }
 
@@ -3058,30 +3052,30 @@ if ( ( door = find_exit( ch, arg2 ) ) >= 0 )
 
     if ( (pexit = ch->in_room->exit[door]) != NULL )
     {
-     if ( IS_SET(pexit->exit_info, EX_ISDOOR) ) 
+     if ( IS_SET(pexit->exit_info, EX_ISDOOR) )
 	{
           if ( IS_SET(pexit->exit_info, EX_CLOSED) )
-	    send_to_char( "Direction is closed.\n\r",      ch ); 
-          else if ( IS_SET(pexit->exit_info, EX_LOCKED) )
-	     send_to_char( "Direction is locked.\n\r",     ch ); 
+          send_to_char("Yön kapalý.\n\r",      ch );
+              else if ( IS_SET(pexit->exit_info, EX_LOCKED) )
+    	     send_to_char( "Yön kilitli.\n\r",     ch );
      	  return;
 	}
     }
 
     if (CAN_DETECT(ch,ADET_WEB))
     {
-	send_to_char( "You're webbed, and want to do WHAT?!?\n\r", ch );
-	act( "$n stupidly tries to push $N while webbed.", ch, NULL, victim, TO_ROOM );
-	return; 
+      send_to_char( "Aðlarla tutulmuþken ne yapmak istiyorsun??\n\r", ch );
+    	act( "$M aðlarla tutulmuþken $n aptalca bir hareketle onu itmeye çalýþýyor.", ch, NULL, victim, TO_ROOM );
+	return;
     }
 
     if (CAN_DETECT(victim,ADET_WEB))
     {
-	act( "You attempt to push $N, but the webs hold $m in place.",
-	  ch, NULL, victim, TO_CHAR );
-	act( "$n attempts to push $n, but fails as the webs hold $n in place.",
-	  ch, NULL, victim, TO_ROOM );
-	return; 
+      act("$M itmeye çalýþýyorsun fakat aðlar onu yerinde tutuyor.",
+    	  ch, NULL, victim, TO_CHAR );
+    	act("$n $M itmeye çalýþýyor fakat aðlar $M yerinde tutuyor.",
+    	  ch, NULL, victim, TO_ROOM );
+	return;
     }
 
     ch->last_death_time = -1;
@@ -3102,11 +3096,11 @@ if ( ( door = find_exit( ch, arg2 ) ) >= 0 )
         if ( !IS_AFFECTED( victim, AFF_SLEEP ) ) {
           victim->position= victim->position==POS_SLEEPING? POS_STANDING:
 					victim->position;
-	  act( "$n tried to push you.\n\r", ch, NULL, victim,TO_VICT  );
+          act( "$n seni itmeyi denedi.\n\r", ch, NULL, victim,TO_VICT  );
         }
-	act( "$n tried to push $N.\n\r",  ch, NULL, victim,TO_NOTVICT);
+        act( "$n $M itmeyi denedi.\n\r",  ch, NULL, victim,TO_NOTVICT);
 
-        sprintf(buf,"Keep your hands out of me, %s!",ch->name);
+        sprintf(buf,"Ellerini benden uzak tut %s!",ch->name);
 
 	if ( IS_AWAKE( victim ) )
 	  	do_yell( victim, buf );
@@ -3123,13 +3117,13 @@ if ( ( door = find_exit( ch, arg2 ) ) >= 0 )
     }
 
 
-    sprintf(buf,"$CYou push $N to %s.$c",dir_name[door]);
-    act_color(buf,ch,NULL,victim,TO_CHAR,POS_SLEEPING,CLR_YELLOW);
-    sprintf(buf,"$C$n pushes you to %s.$c", dir_name[door]);
-    act_color(buf,ch,NULL,victim,TO_VICT,POS_SLEEPING,CLR_YELLOW);
-    sprintf(buf,"$C$n pushes $N to %s.$c", dir_name[door]);
-    act_color(buf,ch,NULL,victim,TO_NOTVICT,POS_SLEEPING,CLR_YELLOW);
-    move_char( victim , door , FALSE );
+    sprintf(buf,"$C$M %s yönüne ittin.$c",dir_name[door]);
+      act_color(buf,ch,NULL,victim,TO_CHAR,POS_SLEEPING,CLR_YELLOW);
+  	sprintf(buf,"$C$n seni %s yönüne itti.$c", dir_name[door]);
+      act_color(buf,ch,NULL,victim,TO_VICT,POS_SLEEPING,CLR_YELLOW);
+  	sprintf(buf,"$C$n $M %s yönüne itti.$c", dir_name[door]);
+      act_color(buf,ch,NULL,victim,TO_NOTVICT,POS_SLEEPING,CLR_YELLOW);
+      move_char( victim , door , FALSE );
 
     check_improve(ch,gsn_push,TRUE,1);
  }
@@ -3152,11 +3146,11 @@ void do_crecall( CHAR_DATA *ch, char *argument )
 
     if ( is_affected(ch, gsn_cabal_recall) )
     {
-	send_to_char("You can't pray now.\n\r",ch);
+      send_to_char("Þimdi olmaz.\n\r",ch);
     }
 /*
     if (ch->desc != NULL && current_time - ch->last_fight_time
-	< FIGHT_DELAY_TIME) 
+	< FIGHT_DELAY_TIME)
       {
 	send_to_char("You are too pumped to pray now.\n\r",ch);
 	return;
@@ -3167,11 +3161,11 @@ void do_crecall( CHAR_DATA *ch, char *argument )
 	point =	ROOM_VNUM_BATTLE;
       }
 
-    act( "$n prays upper lord of Battleragers for transportation!", ch, 0,0, TO_ROOM );
-    
+      act("$n anýmsama için Battleragers lorduna dua ediyor!", ch, 0,0, TO_ROOM );
+
     if ( ( location = get_room_index(point ) )== NULL )
     {
-	send_to_char( "You are completely lost.\n\r", ch );
+      send_to_char( "Tamamen kayboldun.\n\r", ch );
 	return;
     }
 
@@ -3179,33 +3173,33 @@ void do_crecall( CHAR_DATA *ch, char *argument )
 	return;
 
     if ( IS_SET(ch->in_room->room_flags, ROOM_NO_RECALL)
-    ||   IS_AFFECTED(ch, AFF_CURSE) 
+    ||   IS_AFFECTED(ch, AFF_CURSE)
     ||   IS_RAFFECTED(ch->in_room, AFF_ROOM_CURSE) )
     {
-	send_to_char( "The gods have forsaken you.\n\r", ch );
+      send_to_char("Tanrýlar seni terketti.\n\r", ch );
 	return;
     }
 
     if ( ( victim = ch->fighting ) != NULL )
     {
-	send_to_char("You are still fighting!.\n\r",ch);
+      send_to_char("Hala dövüþüyorsun!.\n\r", ch);
 	return;
     }
 
     if ( ch->mana < ( ch->max_mana * 0.3 ) )
     {
-	send_to_char("You don't have enough power to pray now.\n\r",ch);
+      send_to_char("Dua için yeterli enerjin yok.\n\r",ch);
 	return;
     }
 
     ch->move /= 2;
     ch->mana /= 10;
-    act( "$n disappears.", ch, NULL, NULL, TO_ROOM );
+    act("$n yokoluyor.", ch, NULL, NULL, TO_ROOM );
     char_from_room( ch );
     char_to_room( ch, location );
-    act( "$n appears in the room.", ch, NULL, NULL, TO_ROOM );
+    act( "$n beliriyor.", ch, NULL, NULL, TO_ROOM );
     do_look( ch, (char*)"auto" );
-    
+
     if (ch->pet != NULL)
       {
  	char_from_room( ch->pet );
@@ -3237,7 +3231,7 @@ void do_escape( CHAR_DATA *ch, char *argument )
     {
         if ( ch->position == POS_FIGHTING )
             ch->position = POS_STANDING;
-	send_to_char( "You aren't fighting anyone.\n\r", ch );
+            send_to_char("Kimseyle dövüþmüyorsun.\n\r", ch );
 	return;
     }
 
@@ -3245,25 +3239,25 @@ void do_escape( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0')
     {
-	send_to_char( "Escape to what diretion?\n\r", ch );
+      send_to_char("Hangi yöne sývýþacaksýn?\n\r", ch );
 	return;
     }
 
-    if (MOUNTED(ch)) 
+    if (MOUNTED(ch))
     {
-        send_to_char("You can't escape while mounted.\n\r", ch);
+      send_to_char(	"Biniciyken sývýþamazsýn.\n\r", ch);
         return;
     }
-    if (RIDDEN(ch)) 
+    if (RIDDEN(ch))
     {
-        send_to_char("You can't escape while being ridden.\n\r", ch);
+      send_to_char("Binekken sývýþamazsýn.\n\r", ch);
         return;
     }
 
     if ( !IS_NPC(ch) && ch->level <
-			skill_table[gsn_escape].skill_level[ch->iclass] ) 
+			skill_table[gsn_escape].skill_level[ch->iclass] )
     {
-	send_to_char( "Try flee. It may fit better to you.\n\r", ch );
+      send_to_char( "Kaçmayý dene, senin için daha uygun olabilir.\n\r", ch );
 	return;
     }
 
@@ -3274,39 +3268,39 @@ void do_escape( CHAR_DATA *ch, char *argument )
 
 	if ( ( pexit = was_in->exit[door] ) == 0
 	||   pexit->u1.to_room == NULL
-	|| ( IS_SET(pexit->exit_info, EX_CLOSED) 
+	|| ( IS_SET(pexit->exit_info, EX_CLOSED)
       && (!IS_AFFECTED(ch, AFF_PASS_DOOR) || IS_SET(pexit->exit_info,EX_NOPASS))
       &&   !IS_TRUSTED(ch,ANGEL) )
 	|| ( IS_SET(pexit->exit_info , EX_NOFLEE) )
 	|| ( IS_NPC(ch)
 	&&   IS_SET(pexit->u1.to_room->room_flags, ROOM_NO_MOB) ) )
     	{
-	 send_to_char("Something prevents you to escape that direction.\n\r",ch);
+        send_to_char("Birþey o yöne sývýþmaný engelliyor.\n\r",ch);
 	 return;
     	}
 
 	if ( number_percent() > get_skill(ch,gsn_escape) )
     	{
-         send_to_char( "PANIC! You couldn't escape!\n\r", ch );
-	 check_improve(ch,gsn_escape,FALSE,1);	
+        send_to_char( "PANÝK! Sývýþamadýn!\n\r", ch );
+	 check_improve(ch,gsn_escape,FALSE,1);
 	 return;
     	}
 
-	check_improve(ch,gsn_escape,TRUE,1);	
+	check_improve(ch,gsn_escape,TRUE,1);
 	move_char( ch, door, FALSE );
 	if ( ( now_in = ch->in_room ) == was_in )
 	{
-	 send_to_char("You couldn't reach that direction, try another.\n\r",ch);
+    send_to_char("O yöne ulaþamadýn. Baþka bir tanesini dene.\n\r",ch);
 	 return;
 	}
 
 	ch->in_room = was_in;
-	act( "$n has escaped!", ch, NULL, NULL, TO_ROOM );
+  act( "$n sývýþtý!", ch, NULL, NULL, TO_ROOM );
 	ch->in_room = now_in;
 
 	if ( !IS_NPC(ch) )
 	{
-	    send_to_char( "You escaped from combat!  You lose 10 exps.\n\r", ch );
+    send_to_char("Dövüþten sývýþtýn!  10 TP kaybettin.\n\r", ch );
 	    gain_exp( ch, -10 );
 	}
 	else
@@ -3315,7 +3309,7 @@ void do_escape( CHAR_DATA *ch, char *argument )
 	stop_fighting( ch, TRUE );
 	return;
      }
-    else send_to_char("You chose the wrong direction.\n\r",ch);
+     else send_to_char("Yanlýþ yön seçtin.\n\r",ch);
     return;
 }
 
@@ -3327,19 +3321,19 @@ void do_layhands(CHAR_DATA *ch, char *argument)
     if ( IS_NPC(ch) ||
 	 ch->level < skill_table[gsn_lay_hands].skill_level[ch->iclass] )
     {
-	send_to_char("You lack the skill to heal others with touching.\n\r",ch);
+      send_to_char("Dokunuþla iyileþtirme yeteneðinden mahrumsun.\n\r",ch);
 	return;
     }
 
     if ( (victim = get_char_room(ch,argument)) == NULL)
       {
-	send_to_char("You do not see that person here.\n\r",ch);
+        send_to_char("Onu göremiyorsun.\n\r",ch);
 	return;
       }
 
     if ( is_affected(ch, gsn_lay_hands))
 	{
-	 send_to_char("You can't concentrate enough.\n\r",ch);
+    send_to_char( "Yeterince konsantre olamadýn.\n\r",ch);
 	 return;
 	}
     WAIT_STATE(ch,skill_table[gsn_lay_hands].beats);
@@ -3355,9 +3349,9 @@ void do_layhands(CHAR_DATA *ch, char *argument)
 
     victim->hit = UMIN( victim->hit + ch->level * 2, victim->max_hit );
     update_pos( victim );
-    send_to_char( "A warm feeling fills your body.\n\r", victim );
+    send_to_char( "Sýcak bir his vücudunu sarýyor.\n\r", victim );
     if ( ch != victim )
-	send_to_char( "Ok.\n\r", ch );
+    send_to_char("Tamam.\n\r", ch );
     check_improve(ch,gsn_lay_hands,TRUE,1);
 
 }
@@ -3367,8 +3361,8 @@ int mount_success ( CHAR_DATA *ch, CHAR_DATA *mount, int canattack)
   int percent;
   int success;
 
-  percent = number_percent() + (ch->level < mount->level ? 
-            (mount->level - ch->level) * 3 : 
+  percent = number_percent() + (ch->level < mount->level ?
+            (mount->level - ch->level) * 3 :
             (mount->level - ch->level) * 2);
 
   if (!ch->fighting)
@@ -3376,7 +3370,7 @@ int mount_success ( CHAR_DATA *ch, CHAR_DATA *mount, int canattack)
 
   if (!IS_NPC(ch) && IS_DRUNK(ch)) {
     percent += get_skill(ch,gsn_riding) / 2;
-    send_to_char("Due to your being under the influence, riding seems a bit harder...\n\r", ch);
+    send_to_char("Alkolün etkisinde olduðundan binicilik zor olabilir...\n\r", ch);
   }
 
   success = percent - get_skill(ch,gsn_riding);
@@ -3386,28 +3380,28 @@ int mount_success ( CHAR_DATA *ch, CHAR_DATA *mount, int canattack)
   } else {
     check_improve(ch, gsn_riding, FALSE, 1);
     if ( success >= 10 && MOUNTED(ch) == mount) {
-      act("You lose control and fall off of $N.", ch, NULL, mount, TO_CHAR);
-      act("$n loses control and falls off of $N.", ch, NULL, mount, TO_ROOM);
-      act("$n loses control and falls off of you.", ch, NULL, mount, TO_VICT);
+      act("Kontrolünü yitirerek $S üzerinden düþtün.", ch, NULL, mount, TO_CHAR);
+      act("$n kontolünü yitirerek $S üzerinden düþtü.", ch, NULL, mount, TO_ROOM);
+      act("$n kontrolünü yitirerek üzerinden düþtü.", ch, NULL, mount, TO_VICT);
 
       ch->riding = FALSE;
       mount->riding = FALSE;
-      if (ch->position > POS_STUNNED) 
+      if (ch->position > POS_STUNNED)
 		ch->position=POS_SITTING;
-    
+
     /*  if (ch->hit > 2) { */
         ch->hit -= 5;
         update_pos(ch);
-      
+
     }
     if ( success >= 40 && canattack) {
-      act("$N doesn't like the way you've been treating $M.", ch, NULL, mount, TO_CHAR);
-      act("$N doesn't like the way $n has been treating $M.", ch, NULL, mount, TO_ROOM);
-      act("You don't like the way $n has been treating you.", ch, NULL, mount, TO_VICT);
+      act("$N davranýþlarýndan hoþlanmadý.", ch, NULL, mount, TO_CHAR);
+      act("$N $s davranýþlarýndan hoþlanmadý.", ch, NULL, mount, TO_ROOM);
+      act("$s davranýþlarýndan hoþlanmýyorsun.", ch, NULL, mount, TO_VICT);
 
-      act("$N snarls and attacks you!", ch, NULL, mount, TO_CHAR);
-      act("$N snarls and attacks $n!", ch, NULL, mount, TO_ROOM);
-      act("You snarl and attack $n!", ch, NULL, mount, TO_VICT);  
+      act("$N hýrlayarak sana saldýrýyor!", ch, NULL, mount, TO_CHAR);
+      act("$N hýrlayarak $e saldýrýyor!", ch, NULL, mount, TO_ROOM);
+      act("Hýrlayarak $e saldýrýyorsun!", ch, NULL, mount, TO_VICT);
 
       damage(mount, ch, number_range(1, mount->level), gsn_kick,DAM_BASH,TRUE );
 
@@ -3430,75 +3424,74 @@ void do_mount( CHAR_DATA *ch, char *argument )
 
   if (IS_NPC(ch)) return;
 
-  if (arg[0] == '\0' && ch->mount && ch->mount->in_room == ch->in_room) 
+  if (arg[0] == '\0' && ch->mount && ch->mount->in_room == ch->in_room)
   {
     mount = ch->mount;
-  } 
+  }
   else if (arg[0] == '\0')
   {
-    send_to_char("Mount what?\n\r", ch);
+    send_to_char("Neye bineceksin?\n\r", ch);
     return;
   }
 
- if (!(mount = get_char_room(ch, arg))) 
+ if (!(mount = get_char_room(ch, arg)))
  {
-    send_to_char("You don't see that here.\n\r", ch);
+   send_to_char( "Öyle birþey görmüyorsun.\n\r",ch );
     return;
   }
- 
-  if (ch_skill_nok_nomessage(ch,gsn_riding)) 
-  {
-    send_to_char("You don't know how to ride!\n\r", ch);
-    return;
-  } 
 
-  if ( !IS_NPC(mount) 
-	|| !IS_SET(mount->act,ACT_RIDEABLE)
-        || IS_SET(mount->act,ACT_NOTRACK) ) 
-  { 
-    send_to_char("You can't ride that.\n\r",ch); 
+  if (ch_skill_nok_nomessage(ch,gsn_riding))
+  {
+    send_to_char("Binek sürmeyi bilmiyorsun!\n\r", ch);
     return;
   }
-  
-  if (mount->level - 5 > ch->level) {
-    send_to_char("That beast is too powerful for you to ride.", ch);
+
+  if ( !IS_NPC(mount)
+	|| !IS_SET(mount->act,ACT_RIDEABLE)
+        || IS_SET(mount->act,ACT_NOTRACK) )
+  {
+    send_to_char("Onu süremezsin.\n\r",ch);
     return;
-  }    
+  }
+
+  if (mount->level - 5 > ch->level) {
+    send_to_char("O süremeyeceðin kadar güçlü.", ch);
+    return;
+  }
 
   if( (mount->mount) && (!mount->riding) && (mount->mount != ch)) {
-    sprintf(buf, "%s belongs to %s, not you.\n\r", mount->short_descr,
-                   mount->mount->name);
+    sprintf(buf, "%s %s'e baðlý, sana deðil.\n\r", mount->short_descr,mount->mount->name);
     send_to_char(buf,ch);
     return;
-  } 
+  }
 
   if (mount->position < POS_STANDING) {
-    send_to_char("Your mount must be standing.\n\r", ch);
+    send_to_char("Bineðin ayakta olmalý.\n\r", ch);
     return;
   }
 
   if (RIDDEN(mount)) {
-    send_to_char("This beast is already ridden.\n\r", ch);
+    send_to_char("Onun bir binicisi var zaten.\n\r", ch);
     return;
   } else if (MOUNTED(ch)) {
-    send_to_char("You are already riding.\n\r", ch);
+    send_to_char("Zaten sürüyorsun.\n\r", ch);
     return;
   }
 
   if( !mount_success(ch, mount, TRUE) ) {
-    send_to_char("You fail to mount the beast.\n\r", ch);  
-    return; 
+    send_to_char("Ona binmeyi beceremedin.\n\r", ch);
+    return;
   }
 
-  act("You hop on $N's back.", ch, NULL, mount, TO_CHAR);
-  act("$n hops on $N's back.", ch, NULL, mount, TO_NOTVICT);
-  act("$n hops on your back!", ch, NULL, mount, TO_VICT);
- 
+  act("$S sýrtýna sýçrýyorsun.", ch, NULL, mount, TO_CHAR);
+  act("$n $S sýrtýna sýçrýyor.", ch, NULL, mount, TO_NOTVICT);
+  act("$n sýrtýna sýçrýyor!", ch, NULL, mount, TO_VICT);
+
   ch->mount = mount;
   ch->riding = TRUE;
   mount->mount = ch;
   mount->riding = TRUE;
-  
+
   /* No sneaky people on mounts */
   affect_strip(ch, gsn_sneak);
   REMOVE_BIT(ch->affected_by, AFF_SNEAK);
@@ -3517,21 +3510,21 @@ void do_dismount( CHAR_DATA *ch, char *argument )
   if(MOUNTED(ch)) {
     mount = MOUNTED(ch);
 
-    act("You dismount from $N.", ch, NULL, mount, TO_CHAR);
-    act("$n dismounts from $N.", ch, NULL, mount, TO_NOTVICT);
-    act("$n dismounts from you.", ch, NULL, mount, TO_VICT);
+    act("$Z iniyorsun.", ch, NULL, mount, TO_CHAR);
+    act("$n $Z iniyor.", ch, NULL, mount, TO_NOTVICT);
+    act("$n sýrtýndan iniyor.", ch, NULL, mount, TO_VICT);
 
     ch->riding = FALSE;
     mount->riding = FALSE;
-  } 
-  else 
+  }
+  else
   {
-    send_to_char("You aren't mounted.\n\r", ch);
+    send_to_char("Sürülmüyorsun.\n\r", ch);
     return;
   }
-} 
+}
 
-int send_arrow( CHAR_DATA *ch, CHAR_DATA *victim,OBJ_DATA *arrow , int door, int chance ,int bonus) 
+int send_arrow( CHAR_DATA *ch, CHAR_DATA *victim,OBJ_DATA *arrow , int door, int chance ,int bonus)
 {
 	EXIT_DATA *pExit;
 	ROOM_INDEX_DATA *dest_room;
@@ -3543,7 +3536,7 @@ int send_arrow( CHAR_DATA *ch, CHAR_DATA *victim,OBJ_DATA *arrow , int door, int
 
 	if (arrow->value[0] == WEAPON_SPEAR)  sn = gsn_spear;
 	else sn = gsn_arrow;
-	
+
         for ( paf = arrow->affected; paf != NULL; paf = paf->next )
          {
  	   if ( paf->location == APPLY_DAMROLL )
@@ -3559,26 +3552,26 @@ int send_arrow( CHAR_DATA *ch, CHAR_DATA *victim,OBJ_DATA *arrow , int door, int
 	for(i=0; i< 1000; i++)
 	{
 	 chance -= 10;
-	 if ( victim->in_room == dest_room ) 
+	 if ( victim->in_room == dest_room )
 	 {
 	  if (number_percent() < chance)
-	  { 
+	  {
 	   if ( check_obj_dodge(ch,victim,arrow,chance))
 		return 0;
-	   act("$p strikes you!", victim, arrow, NULL, TO_CHAR );
-	   act("Your $p strikes $N!", ch, arrow, victim, TO_CHAR );
-	   if (ch->in_room == victim->in_room)
-	      act("$n's $p strikes $N!", ch, arrow, victim, TO_NOTVICT );
-	   else 
+    act("$p seni vuruyor!", victim, arrow, NULL, TO_CHAR );
+    act("Attýðýn $p $E vuruyor!", ch, arrow, victim, TO_CHAR );
+    if (ch->in_room == victim->in_room)
+       act("$s $p $M vuruyor!", ch, arrow, victim, TO_NOTVICT );
+	   else
 	   {
-	     act("$n's $p strikes $N!", ch, arrow, victim, TO_ROOM );
-	     act("$p strikes $n!", victim, arrow, NULL, TO_ROOM );
+       act("$s $p $M vuruyor!", ch, arrow, victim, TO_ROOM );
+	     act("$p $m vuruyor!", victim, arrow, NULL, TO_ROOM );
 	   }
-	   if (is_safe(ch,victim) || 
+	   if (is_safe(ch,victim) ||
 		(IS_NPC(victim) && IS_SET(victim->act,ACT_NOTRACK)) )
     	    {
-    	 	act("$p falls from $n doing no visible damage...",victim,arrow,NULL,TO_ALL);
-    	 	act("$p falls from $n doing no visible damage...",ch,arrow,NULL,TO_CHAR);
+            act("$p $e hasar vermeden yerew düþüyor...",victim,arrow,NULL,TO_ALL);
+        	 	act("$p $e hasar vermeden yere düþüyor...",ch,arrow,NULL,TO_CHAR);
     	 	obj_to_room(arrow,victim->in_room);
     	    }
 	   else
@@ -3587,7 +3580,7 @@ int send_arrow( CHAR_DATA *ch, CHAR_DATA *victim,OBJ_DATA *arrow , int door, int
 
 		dam = dice(arrow->value[1],arrow->value[2]);
 		dam = number_range(dam, (3*dam));
-		dam += damroll + bonus + 
+		dam += damroll + bonus +
 			(10 * str_app[get_curr_stat(ch,STAT_STR)].todam);
 
         	if (IS_WEAPON_STAT(arrow,WEAPON_POISON))
@@ -3601,9 +3594,8 @@ int send_arrow( CHAR_DATA *ch, CHAR_DATA *victim,OBJ_DATA *arrow , int door, int
                 	level = poison->level;
             	 if (!saves_spell(level,victim,DAM_POISON))
             	 {
-                  send_to_char("You feel poison coursing through your veins.",
-                    victim);
-                  act("$n is poisoned by the venom on $p.",
+                 send_to_char("Damarlarýnda dolaþan zehri hissediyorsun.",victim);
+                  act("$n $p üzerindeki zehirle zehirlendi.",
 			victim,arrow,NULL,TO_ROOM);
 
                   af.where     = TO_AFFECTS;
@@ -3619,30 +3611,30 @@ int send_arrow( CHAR_DATA *ch, CHAR_DATA *victim,OBJ_DATA *arrow , int door, int
         	}
         	if (IS_WEAPON_STAT(arrow,WEAPON_FLAMING))
         	{
-            	 act("$n is burned by $p.",victim,arrow,NULL,TO_ROOM);
-            	 act("$p sears your flesh.",victim,arrow,NULL,TO_CHAR);
+            act("$p $m yakýyor.",victim,arrow,NULL,TO_ROOM);
+            act("$p etini yakýyor.",victim,arrow,NULL,TO_CHAR);
             	 fire_effect( (void *) victim,arrow->level,dam,TARGET_CHAR);
 	        }
         	if (IS_WEAPON_STAT(arrow,WEAPON_FROST))
 	        {
-	            act("$p freezes $n.",victim,arrow,NULL,TO_ROOM);
-	            act("The cold touch of $p surrounds you with ice.",
-	                victim,arrow,NULL,TO_CHAR);
+            act("$p $m donduruyor.",victim,arrow,NULL,TO_ROOM);
+            act("$p soðuk bir dokunuþla seni ince buzla kapladý.",
+                victim,arrow,NULL,TO_CHAR);
 	            cold_effect(victim,arrow->level,dam,TARGET_CHAR);
 	        }
 	        if (IS_WEAPON_STAT(arrow,WEAPON_SHOCKING))
 	        {
-	            act("$n is struck by lightning from $p.",victim,arrow,NULL,TO_ROOM);
-	            act("You are shocked by $p.",victim,arrow,NULL,TO_CHAR);
+            act("$p þimþeðiyle $m çarpýyor.",victim,arrow,NULL,TO_ROOM);
+            act("$p tarafýndan þok edildin.",victim,arrow,NULL,TO_CHAR);
 	            shock_effect(victim,arrow->level,dam,TARGET_CHAR);
 	        }
 
-		if ( dam > victim->max_hit / 10 
+		if ( dam > victim->max_hit / 10
 			&& number_percent() < 50 )
 		{
 		  af.where     = TO_AFFECTS;
 		  af.type      = sn;
-		  af.level     = ch->level; 
+		  af.level     = ch->level;
 		  af.duration  = -1;
 		  af.location  = APPLY_HITROLL;
 		  af.modifier  = - (dam / 20);
@@ -3654,7 +3646,7 @@ int send_arrow( CHAR_DATA *ch, CHAR_DATA *victim,OBJ_DATA *arrow , int door, int
 		  obj_to_char(arrow,victim);
 		  equip_char(victim,arrow,WEAR_STUCK_IN);
 		}
-	        else obj_to_room(arrow,victim->in_room); 
+	        else obj_to_room(arrow,victim->in_room);
 
 		damage( ch, victim,dam,sn,DAM_PIERCE,TRUE );
 		path_to_track(ch,victim,door);
@@ -3664,40 +3656,40 @@ int send_arrow( CHAR_DATA *ch, CHAR_DATA *victim,OBJ_DATA *arrow , int door, int
 	  }
 	  else {
     	 	  obj_to_room(arrow,victim->in_room);
-	          act("$p sticks in the ground at your feet!",victim,arrow,NULL, TO_ALL );
+          act( "$p ayaklarýnýn önünde yere saplanýyor!",victim,arrow,NULL, TO_ALL );
 	          return 0;
 	        }
 	 }
  	 pExit = dest_room->exit[ door ];
 	 if ( !pExit ) break;
-	 else 
+	 else
 	 {
 	  dest_room = pExit->u1.to_room;
 	  if ( dest_room->people )
 		{
-		 sprintf(buf,"$p sails into the room from the %s!",dir_name[rev_dir[door]]);
+      sprintf(buf,"$p %s yönünden odaya giriyor!",dir_name[rev_dir[door]]);
 		 act(buf, dest_room->people, arrow, NULL, TO_ALL );
 		}
 	 }
 	}
  return 0;
 }
-	
+
 
 void do_shoot( CHAR_DATA *ch, char *argument )
 {
     CHAR_DATA *victim;
     OBJ_DATA *wield;
-    OBJ_DATA *arrow; 
+    OBJ_DATA *arrow;
     char arg1[512],arg2[512],buf[512];
     int chance,direction;
     int range = (ch->level / 10) + 1;
-    
+
    if (IS_NPC(ch)) return; /* Mobs can't use bows */
 
    if (ch_skill_nok_nomessage(ch,gsn_bow))
 	{
-	  send_to_char("You don't know how to shoot.\n\r",ch);
+    send_to_char("Vurmayý bilmiyorsun.\n\r",ch);
 	  return;
 	}
 
@@ -3706,66 +3698,66 @@ void do_shoot( CHAR_DATA *ch, char *argument )
 
    if ( arg1[0] == '\0' || arg2[0] == '\0')
     {
-	send_to_char( "Shoot what diretion and whom?\n\r", ch );
+      send_to_char( "Hangi yönde kimi vuracaksýn?\n\r", ch );
 	return;
     }
 
     if (ch->fighting)
     {
-	send_to_char("You cannot concentrate on shooting arrows.\n\r",ch);
+      send_to_char("Konsantre olamýyorsun.\n\r",ch);
 	return;
     }
 
    direction = find_exit( ch, arg1 );
 
-   if (direction<0 || direction > 5) 
+   if (direction<0 || direction > 5)
 	 return;
-	
+
     if ( ( victim = find_char( ch, arg2, direction, range) ) == NULL )
     {
-	send_to_char("You can't see that one.\n\r", ch);
+      send_to_char("Onu göremiyorsun.\n\r", ch);
 	return;
     }
 
     if (!IS_NPC(victim) && victim->desc == NULL)
     {
-	send_to_char("You can't do that.\n\r", ch);
+	send_to_char("Bunu yapamazsýn.\n\r", ch);
 	return;
     }
 
     if ( victim == ch )
     {
-	send_to_char( "That's pointless.\n\r", ch );
+      send_to_char("Çok anlamsýz.\n\r", ch);
 	return;
     }
 
     if (is_at_cabal_area(ch) || is_at_cabal_area(victim) )
     {
-	send_to_char( "It is not allowed near cabal areas.\n\r", ch );
+      send_to_char( "Kabal bölgeleri yakýnýnda olmaz.\n\r", ch );
 	return;
     }
 
     if (is_safe(ch,victim))
     {
-	sprintf(buf,"Gods protect %s.\n\r",victim->name);
+      sprintf(buf,"%s tanrýlar tarafýndan korunuyor.\n\r",victim->name);
 	send_to_char(buf,ch);
 	return;
     }
 
    if ( (wield = get_weapon_char(ch,WEAPON_BOW)) == NULL)
     	{
-	 send_to_char("You need a bow to shoot!\n\r",ch);
-	 return;    	
+        send_to_char("Bir yaya ihtiyacýn var!\n\r",ch);
+	 return;
 	}
 
    if ( (arrow= get_weapon_char(ch,WEAPON_ARROW)) == NULL)
     	{
-	 send_to_char("You need an arrow holding for your ammunition!\n\r",ch);
-	 return;    	
-	}	
-	
+        send_to_char( "Bir oka ihtiyacýn var!\n\r",ch);
+	 return;
+	}
+
     WAIT_STATE( ch, skill_table[gsn_bow].beats );
-   
+
     chance = (get_skill(ch,gsn_bow) - 50) * 2;
     if (ch->position == POS_SLEEPING)
 	chance += 40;
@@ -3775,10 +3767,10 @@ void do_shoot( CHAR_DATA *ch, char *argument )
 	chance -= 40;
     chance += GET_HITROLL(ch);
 
-    sprintf( buf, "You shoot $p to %s.", dir_name[ direction ] );
-    act( buf, ch, arrow, NULL, TO_CHAR );
-    sprintf( buf, "$n shoots $p to %s.", dir_name[ direction ] );
-    act( buf, ch, arrow, NULL, TO_ROOM );
+    sprintf( buf, "%s'e $p atýyorsun.", dir_name[ direction ] );
+      act( buf, ch, arrow, NULL, TO_CHAR );
+  	sprintf( buf, "$n %s'e $p atýyor.", dir_name[ direction ] );
+      act( buf, ch, arrow, NULL, TO_ROOM );
 
     obj_from_char(arrow);
     send_arrow(ch,victim,arrow,direction,chance,dice(wield->value[1],wield->value[2]) );
@@ -3786,7 +3778,7 @@ void do_shoot( CHAR_DATA *ch, char *argument )
 }
 
 
-char *find_way(CHAR_DATA *ch,ROOM_INDEX_DATA *rstart, ROOM_INDEX_DATA *rend) 
+char *find_way(CHAR_DATA *ch,ROOM_INDEX_DATA *rstart, ROOM_INDEX_DATA *rend)
 {
  int direction;
  static char buf[1024];
@@ -3814,7 +3806,7 @@ char *find_way(CHAR_DATA *ch,ROOM_INDEX_DATA *rstart, ROOM_INDEX_DATA *rend)
    strcat(buf,buf2);
    /* find target room */
    pExit = rstart->exit[ direction ];
-   if ( !pExit )  
+   if ( !pExit )
 	{
 	 strcat(buf," VERY VERY BUGGY");
 	 return buf;
@@ -3822,25 +3814,25 @@ char *find_way(CHAR_DATA *ch,ROOM_INDEX_DATA *rstart, ROOM_INDEX_DATA *rend)
    else rstart = pExit->u1.to_room;
  }
  return buf;
-}	
+}
 
 void do_human( CHAR_DATA *ch, char *argument )
 {
     if (ch->iclass != CLASS_VAMPIRE)
     {
-     send_to_char("Huh?\n\r",ch);
+      send_to_char("Hý?\n\r",ch);
      return;
     }
-     
+
     if ( !IS_VAMPIRE(ch) )
     {
-     send_to_char("You are already a human.\n\r",ch);
+      send_to_char("Zaten insansýn.\n\r",ch);
      return;
     }
 
    affect_strip(ch, gsn_vampire);
    REMOVE_BIT(ch->act,PLR_VAMPIRE);
-   send_to_char( "You return to your original size.\n\r", ch );
+   send_to_char( "Gerçek ölçülerine dönüyorsun.\n\r", ch );
    return;
 }
 
@@ -3852,12 +3844,12 @@ void do_throw_spear( CHAR_DATA *ch, char *argument )
     char arg1[512],arg2[512],buf[512];
     int chance,direction;
     int range = (ch->level / 10) + 1;
-    
+
    if (IS_NPC(ch)) return; /* Mobs can't shoot spears */
 
    if (ch_skill_nok_nomessage(ch,gsn_spear))
 	{
-	  send_to_char("You don't know how to throw a spear.\n\r",ch);
+    send_to_char("Mýzrak fýrlatmayý bilmiyorsun.\n\r",ch);
 	  return;
 	}
 
@@ -3866,64 +3858,64 @@ void do_throw_spear( CHAR_DATA *ch, char *argument )
 
    if ( arg1[0] == '\0' || arg2[0] == '\0')
     {
-	send_to_char( "Throw spear what diretion and whom?\n\r", ch );
+      send_to_char("Mýzraðý hangi yöne ve kime fýrlatacaksýn?\n\r", ch );
 	return;
     }
 
     if (ch->fighting)
     {
-	send_to_char("You cannot concentrate on throwing spear.\n\r",ch);
+      send_to_char("Konsantre olamýyorsun.\n\r",ch);
 	return;
     }
 
    direction = find_exit( ch, arg1 );
 
-   if (direction<0 || direction > 5) 
+   if (direction<0 || direction > 5)
 	{
-	 send_to_char("Throw which direction and whom?\n\r",ch);
+    send_to_char( "Hangi yöne ve kime fýrlatacaksýn?\n\r",ch);
 	 return;
 	}
-	
+
     if ( ( victim = find_char( ch, arg2, direction, range) ) == NULL )
     {
-	send_to_char( "You can't see that one.\n\r", ch );
+      send_to_char("Onu göremiyorsun.\n\r", ch);
 	return;
     }
 
     if (!IS_NPC(victim) && victim->desc == NULL)
     {
-	send_to_char("You can't do that.\n\r", ch);
+	send_to_char("Bunu yapamazsýn.\n\r", ch);
 	return;
     }
 
     if ( victim == ch )
     {
-	send_to_char( "That's pointless.\n\r", ch );
+      send_to_char("Çok anlamsýz.\n\r", ch);
 	return;
     }
 
     if (is_at_cabal_area(ch) || is_at_cabal_area(victim) )
     {
-	send_to_char( "It is not allowed near cabal areas.\n\r", ch );
+      send_to_char( "Kabal bölgeleri yakýnýnda olmaz.\n\r", ch );
 	return;
     }
 
     if (is_safe(ch,victim))
     {
-	sprintf(buf,"Gods protect %s.\n\r",victim->name);
+      sprintf(buf,"%s tanrýlar tarafýndan korunuyor.\n\r",victim->name);
 	send_to_char(buf,ch);
 	return;
     }
 
    if ( (spear = get_weapon_char(ch,WEAPON_SPEAR)) == NULL)
     	{
-	 send_to_char("You need a spear to throw!\n\r",ch);
-	 return;    	
+        send_to_char("Fýrlatmak için bir mýzraða ihtiyacýn var!\n\r",ch);
+	 return;
 	}
 
-    
+
     WAIT_STATE( ch, skill_table[gsn_spear].beats );
-   
+
     chance = (get_skill(ch,gsn_spear) - 50) * 2;
     if (ch->position == POS_SLEEPING)
 	chance += 40;
@@ -3933,10 +3925,10 @@ void do_throw_spear( CHAR_DATA *ch, char *argument )
 	chance -= 40;
     chance += GET_HITROLL(ch);
 
-    sprintf( buf, "You throw $p to %s.", dir_name[ direction ] );
-    act( buf, ch, spear, NULL, TO_CHAR );
-    sprintf( buf, "$n throws $p to %s.", dir_name[ direction ] );
-    act( buf, ch, spear, NULL, TO_ROOM );
+    sprintf( buf, "%s'e $p fýrlatýyorsun.", dir_name[ direction ] );
+      act( buf, ch, spear, NULL, TO_CHAR );
+      sprintf( buf, "$n %s'e $p fýrlatýyor.", dir_name[ direction ] );
+      act( buf, ch, spear, NULL, TO_ROOM );
 
     obj_from_char(spear);
     send_arrow(ch,victim,spear,direction,chance,dice(spear->value[1],spear->value[2]) );
@@ -3962,4 +3954,3 @@ OBJ_DATA *get_weapon_char( CHAR_DATA *ch, int wType )
 
     return NULL;
 }
-

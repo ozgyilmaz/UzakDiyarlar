@@ -1,12 +1,12 @@
 /***************************************************************************
- *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *	
+ *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
- *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *	
- *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *	
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *
+ *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
 /***************************************************************************
@@ -25,7 +25,7 @@
  *  benefitting.  We hope that you share your changes too.  What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
- 
+
 /***************************************************************************
 *	ROM 2.4 is copyright 1993-1995 Russ Taylor			   *
 *	ROM has been brought to you by the ROM consortium		   *
@@ -71,14 +71,14 @@ int position_lookup (const char *name)
 	&&  !str_prefix(name,position_table[pos].name))
 	    return pos;
    }
-   
+
    return -1;
 }
 
 int sex_lookup (const char *name)
 {
    int sex;
-   
+
    for (sex = 0; sex_table[sex].name != NULL; sex++)
    {
 	if (LOWER(name[0]) == LOWER(sex_table[sex].name[0])
@@ -92,14 +92,14 @@ int sex_lookup (const char *name)
 int size_lookup (const char *name)
 {
    int size;
- 
+
    for ( size = 0; size_table[size].name != NULL; size++)
    {
         if (LOWER(name[0]) == LOWER(size_table[size].name[0])
         &&  !str_prefix( name,size_table[size].name))
             return size;
    }
- 
+
    return 0;
 }
 
@@ -107,8 +107,7 @@ int lang_lookup (const char *name)
 {
    int lang;
 
-   if (LOWER(name[0]) == 'm' && 
-     (!str_prefix(name,"mothertongue") || !str_prefix(name,"motherlanguage")))
+   if (LOWER(name[0]) == 'a' && (!str_prefix(name,"analisan")) )
    return MAX_LANGUAGE;
 
    for (lang = 0; lang < MAX_LANGUAGE; lang++)
@@ -117,8 +116,6 @@ int lang_lookup (const char *name)
 	&&  !str_prefix(name,language_table[lang].name))
 	    return lang;
    }
-   
+
    return -1;
 }
-
-

@@ -1,12 +1,12 @@
 /***************************************************************************
- *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *	
+ *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
- *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *	
- *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *	
+ *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
+ *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *
  *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
 /***************************************************************************
@@ -129,7 +129,7 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 
     if ( !CAN_WEAR(obj, ITEM_TAKE) )
     {
-	send_to_char( "You can't take that.\n\r", ch );
+      send_to_char( "Onu alamazsýn.\n\r", ch );
 	return;
     }
 
@@ -139,15 +139,15 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
       ||   ( IS_OBJ_STAT(obj, ITEM_ANTI_GOOD)    && IS_GOOD(ch)    )
       ||   ( IS_OBJ_STAT(obj, ITEM_ANTI_NEUTRAL) && IS_NEUTRAL(ch) ) )
       {
-	act( "You are zapped by $p and drop it.", ch, obj, NULL, TO_CHAR );
-	act( "$n is zapped by $p and drops it.",  ch, obj, NULL, TO_ROOM );
+        act( "$p tarafýndan çarpýldýn ve onu yere düþürdün.", ch, obj, NULL, TO_CHAR );
+  			act( "$n $p tarafýndan çarpýldý ve onu yere düþürdü.",  ch, obj, NULL, TO_ROOM );
 	return;
       }
     }
 
     if ( ch->carry_number + get_obj_number( obj ) > can_carry_n( ch ) )
     {
-	act( "$d: you can't carry that many items.",
+      act( "$d: bu kadar çok þey taþýyamazsýn.",
 	    ch, NULL, obj->name, TO_CHAR );
 	return;
     }
@@ -155,7 +155,7 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 
     if ( get_carry_weight(ch) + get_obj_weight( obj ) > can_carry_w( ch ) )
     {
-	act( "$d: you can't carry that much weight.",
+      act( "$d: bu kadar aðýrlýk taþýyamazsýn.",
 	    ch, NULL, obj->name, TO_CHAR );
 	return;
     }
@@ -165,12 +165,12 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 	for (gch = obj->in_room->people; gch != NULL; gch = gch->next_in_room)
 	    if (gch->on == obj)
 	    {
-		act("$N appears to be using $p.",
+        act("$N $p kullanmaya baþladý.",
 		    ch,obj,gch,TO_CHAR);
 		return;
 	    }
     }
-		
+
 
     if ( container != NULL )
     {
@@ -185,12 +185,12 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
         {
 	  DESCRIPTOR_DATA *d;
 
-          act( "You get $p from $P.", ch, obj, container, TO_CHAR );
-          if (!IS_AFFECTED(ch,AFF_SNEAK))
-            act( "$n gets $p from $P.", ch, obj, container, TO_ROOM );
-          obj_from_obj( obj );
-          act("$p fades to black, then dissapears!", ch,container,NULL,TO_ROOM);
-          act("$p fades to black, then dissapears!", ch,container,NULL,TO_CHAR);
+    act("$P içinden $p aldýn.", ch, obj, container, TO_CHAR );
+    if (!IS_AFFECTED(ch,AFF_SNEAK))
+      act( "$n $P içinden $p aldý.", ch, obj, container, TO_ROOM );
+    obj_from_obj( obj );
+    act("$p kararýyor ve yokoluyor!", ch,container,NULL,TO_ROOM);
+    act("$p kararýyor ve yokoluyor!", ch,container,NULL,TO_CHAR);
           extract_obj(container);
           obj_to_char(obj, ch);
 
@@ -198,7 +198,7 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
           {
            if ( d->connected == CON_PLAYING && d->character != NULL &&
              cabal_table[d->character->cabal].obj_ptr == obj)
-           act_color("$CYou feel a shudder in your Cabal Power!$c",
+             act_color("$CKabal gücünde titreme hissediyorsun!$c",
                    d->character,NULL,NULL,TO_CHAR,POS_DEAD,CLR_GREEN);
           }
 
@@ -210,18 +210,18 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
     	if (container->pIndexData->vnum == OBJ_VNUM_PIT
 	&&  !CAN_WEAR(container, ITEM_TAKE)
 	&&  !IS_OBJ_STAT(obj,ITEM_HAD_TIMER))
-	    obj->timer = 0;	
-	act( "You get $p from $P.", ch, obj, container, TO_CHAR );
-        if (!IS_AFFECTED(ch,AFF_SNEAK))
-	  act( "$n gets $p from $P.", ch, obj, container, TO_ROOM );
+	    obj->timer = 0;
+      act( "$P içinden $p alýyorsun.", ch, obj, container, TO_CHAR );
+            if (!IS_AFFECTED(ch,AFF_SNEAK))
+    	  act( "$n $P içinden $p alýyor.", ch, obj, container, TO_ROOM );
 	REMOVE_BIT(obj->extra_flags,ITEM_HAD_TIMER);
 	obj_from_obj( obj );
     }
     else
     {
-	act( "You get $p.", ch, obj, container, TO_CHAR );
-        if (!IS_AFFECTED(ch,AFF_SNEAK))
-	  act( "$n gets $p.", ch, obj, container, TO_ROOM );
+      act( "$p alýyorsun.", ch, obj, container, TO_CHAR );
+            if (!IS_AFFECTED(ch,AFF_SNEAK))
+    	  act( "$n $p alýyor.", ch, obj, container, TO_ROOM );
 	obj_from_room( obj );
     }
 
@@ -241,10 +241,10 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 	  if ( members > 1 && (obj->value[0] > 1 || obj->value[1]))
 	  {
 	    sprintf(buffer,"%d %d",obj->value[0],obj->value[1]);
-	    do_split(ch,buffer);	
+	    do_split(ch,buffer);
 	  }
         }
- 
+
 	extract_obj( obj );
     }
     else
@@ -272,13 +272,13 @@ void do_get( CHAR_DATA *ch, char *argument )
     argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );
 
-    if (!str_cmp(arg2,"from"))
+    if (!str_cmp(arg2,"içinden"))
 	argument = one_argument(argument,arg2);
 
     /* Get type. */
     if ( arg1[0] == '\0' )
     {
-	send_to_char( "Get what?\n\r", ch );
+      send_to_char( "Neyi alacaksýn?\n\r", ch );
 	return;
     }
 
@@ -288,20 +288,20 @@ void do_get( CHAR_DATA *ch, char *argument )
 
 	amount = atoi( arg1 );
 	if ( amount <= 0
-	|| ( str_cmp( arg2, "coins" ) && str_cmp( arg2, "coin" ) &&
-	     str_cmp( arg2, "gold"  ) && str_cmp( arg2, "silver") ) )
+	|| ( str_cmp( arg2, "sikke" ) && str_cmp( arg2, "akçe" ) &&
+	     str_cmp( arg2, "altýn"  ) ) )
 	{
-	    send_to_char( "Usage: <get> <number> <silver|gold|coin|coins>\n\r", ch );
+    send_to_char( "Kullaným: <al> <miktar> <akçe|altýn|sikke>\n\r", ch );
 	    return;
 	}
 
-        if ( !str_cmp( arg2, "gold") ) 
+        if ( !str_cmp( arg2, "altýn") )
 	    weight = amount * 2 / 5;
 	else	weight = amount / 10;
 
 	if ( get_carry_weight(ch) + weight > can_carry_w( ch ) )
 	{
-	     act( "You can't carry that much weight.",ch, NULL, NULL, TO_CHAR );
+    act(  "Bu kadar aðýrlýðý taþýyamazsýn.",ch, NULL, NULL, TO_CHAR );
 	     return;
 	}
 
@@ -335,14 +335,14 @@ void do_get( CHAR_DATA *ch, char *argument )
             }
         }
 
-	if ( (!str_cmp( arg2, "gold") && amount > gold )
-	|| (str_cmp( arg2, "gold") && amount > silver ) )
-	{
-	    send_to_char("There's not that much coins there.\n\r", ch);
-	    return;
-	}
-	    
-        if ( !str_cmp( arg2, "gold") ) 
+        if ( (!str_cmp( arg2, "altýn") && amount > gold )
+      	|| (!str_cmp( arg2, "akçe") && amount > silver ) )
+      	{
+      	    send_to_char("O kadar sikke yok.\n\r", ch);
+      	    return;
+      	}
+
+        if ( !str_cmp( arg2, "altýn") )
 	    { gold = amount; silver = 0; }
 	else	{ silver = amount; gold = 0; }
 
@@ -362,7 +362,7 @@ void do_get( CHAR_DATA *ch, char *argument )
 
             case OBJ_VNUM_SILVER_SOME:
 		if (silver) {
-		    if (silver >= obj->value[0]) 
+		    if (silver >= obj->value[0])
 			{ silver -= obj->value[0]; extract_obj(obj); }
 		    else { obj->value[0] -= silver; silver = 0;}
 		}
@@ -370,7 +370,7 @@ void do_get( CHAR_DATA *ch, char *argument )
 
             case OBJ_VNUM_GOLD_SOME:
 		if (gold) {
-		    if (gold >= obj->value[1]) 
+		    if (gold >= obj->value[1])
 			{ gold -= obj->value[1]; extract_obj(obj); }
 		    else { obj->value[1] -= gold; gold = 0;}
 		}
@@ -379,9 +379,9 @@ void do_get( CHAR_DATA *ch, char *argument )
             case OBJ_VNUM_COINS:
 		if (silver) {
 		    if (silver >= obj->value[0]) {
-			    silver -= obj->value[0]; 
+			    silver -= obj->value[0];
 			    gold = obj->value[1];
-			    extract_obj(obj); 
+			    extract_obj(obj);
 			    obj = create_money( gold, 0 );
 			    obj_to_room( obj, ch->in_room );
 			    gold = 0;
@@ -390,9 +390,9 @@ void do_get( CHAR_DATA *ch, char *argument )
 		}
 		if (gold) {
 		    if (gold >= obj->value[1]) {
-			    gold -= obj->value[1]; 
+			    gold -= obj->value[1];
 			    silver = obj->value[0];
-			    extract_obj(obj); 
+			    extract_obj(obj);
 			    obj = create_money( 0, silver );
 			    obj_to_room( obj, ch->in_room );
 			    silver = 0;
@@ -405,16 +405,16 @@ void do_get( CHAR_DATA *ch, char *argument )
         }
 
 	/* restore the amount */
-        if ( !str_cmp( arg2, "gold") ) 
+        if ( !str_cmp( arg2, "altýn") )
 	    { gold = amount; silver = 0; }
 	else	{ silver = amount; gold = 0; }
 
 	if ( silver ) ch->silver += amount;
 	else ch->gold += amount;
 
-        act( "You get some money from the floor.", ch, NULL, NULL, TO_CHAR );
-        if (!IS_AFFECTED(ch,AFF_SNEAK))
-          act( "$n gets some money from the floor.", ch, NULL, NULL, TO_ROOM );
+  act("Yerden bir miktar para aldýn.", ch, NULL, NULL, TO_CHAR );
+  if (!IS_AFFECTED(ch,AFF_SNEAK))
+    act("$n yerden bir miktar para aldý.", ch, NULL, NULL, TO_ROOM );
 
         if (IS_SET(ch->act,PLR_AUTOSPLIT))
         { /* AUTOSPLIT code */
@@ -431,23 +431,23 @@ void do_get( CHAR_DATA *ch, char *argument )
           if ( members > 1 && (amount > 1) )
           {
             sprintf(buffer,"%d %d",silver, gold);
-            do_split(ch,buffer);        
+            do_split(ch,buffer);
           }
         }
 
- 
+
 	return;
     }
 
     if ( arg2[0] == '\0' )
     {
-	if ( str_cmp( arg1, "all" ) && str_prefix( "all.", arg1 ) )
+	if ( str_cmp( arg1, "tümü" ) && str_prefix( "tümü.", arg1 ) )
 	{
 	    /* 'get obj' */
 	    obj = get_obj_list( ch, arg1, ch->in_room->contents );
 	    if ( obj == NULL )
 	    {
-		act( "I see no $T here.", ch, NULL, arg1, TO_CHAR );
+        act( "Burada $T yok.", ch, NULL, arg1, TO_CHAR );
 		return;
 	    }
 
@@ -468,34 +468,34 @@ void do_get( CHAR_DATA *ch, char *argument )
 		}
 	    }
 
-	    if ( !found ) 
+	    if ( !found )
 	    {
 		if ( arg1[3] == '\0' )
-		    send_to_char( "I see nothing here.\n\r", ch );
+    send_to_char( "Bir þey görmüyorum.\n\r", ch );
 		else
-		    act( "I see no $T here.", ch, NULL, &arg1[4], TO_CHAR );
+    act("Burada $T yok.", ch, NULL, &arg1[4], TO_CHAR );
 	    }
 	}
     }
     else
     {
 	/* 'get ... container' */
-	if ( !str_cmp( arg2, "all" ) || !str_prefix( "all.", arg2 ) )
+	if ( !str_cmp( arg2, "tümü" ) || !str_prefix( "tümü.", arg2 ) )
 	{
-	    send_to_char( "You can't do that.\n\r", ch );
+    send_to_char( "Bunu yapamazsýn.\n\r", ch );
 	    return;
 	}
 
 	if ( ( container = get_obj_here( ch, arg2 ) ) == NULL )
 	{
-	    act( "I see no $T here.", ch, NULL, arg2, TO_CHAR );
+    act("Burada $T yok.", ch, NULL, arg2, TO_CHAR );
 	    return;
 	}
 
 	switch ( container->item_type )
 	{
 	default:
-	    send_to_char( "That's not a container.\n\r", ch );
+  send_to_char("Bu bir taþýyýcý deðil.\n\r", ch );
 	    return;
 
 	case ITEM_CONTAINER:
@@ -507,7 +507,7 @@ void do_get( CHAR_DATA *ch, char *argument )
 
 		if (!can_loot(ch,container))
 		{
-		    send_to_char( "You can't do that.\n\r", ch );
+      send_to_char("Bunu yapamazsýn.\n\r", ch );
 		    return;
 		}
 	    }
@@ -515,17 +515,17 @@ void do_get( CHAR_DATA *ch, char *argument )
 
 	if ( IS_SET(container->value[1], CONT_CLOSED) )
 	{
-	    act( "The $d is closed.", ch, NULL, container->name, TO_CHAR );
+    act( "$d kapalý.", ch, NULL, container->name, TO_CHAR );
 	    return;
 	}
 
-	if ( str_cmp( arg1, "all" ) && str_prefix( "all.", arg1 ) )
+	if ( str_cmp( arg1, "tümü" ) && str_prefix( "tümü.", arg1 ) )
 	{
 	    /* 'get obj container' */
 	    obj = get_obj_list( ch, arg1, container->contains );
 	    if ( obj == NULL )
 	    {
-		act( "I see nothing like that in the $T.",
+        act( "$T içinde böyle birþey yok.",
 		    ch, NULL, arg2, TO_CHAR );
 		return;
 	    }
@@ -545,7 +545,7 @@ void do_get( CHAR_DATA *ch, char *argument )
 		    if (container->pIndexData->vnum == OBJ_VNUM_PIT
 		    &&  !IS_IMMORTAL(ch))
 		    {
-			send_to_char("Don't be so greedy!\n\r",ch);
+          send_to_char("Açgözlülük yapma!\n\r",ch);
 			return;
 		    }
 		    get_obj( ch, obj, container );
@@ -555,10 +555,10 @@ void do_get( CHAR_DATA *ch, char *argument )
 	    if ( !found )
 	    {
 		if ( arg1[3] == '\0' )
-		    act( "I see nothing in the $T.",
+    act( "$T içinde hiçbir þey yok.",
 			ch, NULL, arg2, TO_CHAR );
 		else
-		    act( "I see nothing like that in the $T.",
+    act( "$T içinde böyle birþey yok.",
 			ch, NULL, arg2, TO_CHAR );
 	    }
 	}
@@ -582,74 +582,74 @@ void do_put( CHAR_DATA *ch, char *argument )
     argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );
 
-    if (!str_cmp(arg2,"in") || !str_cmp(arg2,"on"))
+    if (!str_cmp(arg2,"içine") || !str_cmp(arg2,"üstüne"))
 	argument = one_argument(argument,arg2);
 
     if ( arg1[0] == '\0' || arg2[0] == '\0' )
     {
-	send_to_char( "Put what in what?\n\r", ch );
+      send_to_char("Neyi neyin içine koyacaksýn?\n\r", ch );
 	return;
     }
 
-    if ( !str_cmp( arg2, "all" ) || !str_prefix( "all.", arg2 ) )
+    if ( !str_cmp( arg2, "tümü" ) || !str_prefix( "tümü.", arg2 ) )
     {
-	send_to_char( "You can't do that.\n\r", ch );
+      send_to_char("Bunu yapamazsýn.\n\r", ch );
 	return;
     }
 
     if ( ( container = get_obj_here( ch, arg2 ) ) == NULL )
     {
-	act( "I see no $T here.", ch, NULL, arg2, TO_CHAR );
+      act( "Burada $T yok.", ch, NULL, arg2, TO_CHAR );
 	return;
     }
 
     if ( container->item_type != ITEM_CONTAINER )
     {
-	send_to_char( "That's not a container.\n\r", ch );
+      send_to_char("Bu bir taþýyýcý deðil.\n\r", ch );
 	return;
     }
 
     if ( IS_SET(container->value[1], CONT_CLOSED) )
     {
-	act( "The $d is closed.", ch, NULL, container->name, TO_CHAR );
+      act( "$d kapalý.", ch, NULL, container->name, TO_CHAR );
 	return;
     }
 
-    if ( str_cmp( arg1, "all" ) && str_prefix( "all.", arg1 ) )
+    if ( str_cmp( arg1, "tümü" ) && str_prefix( "tümü.", arg1 ) )
     {
 	/* 'put obj container' */
 	if ( ( obj = get_obj_carry( ch, arg1 ) ) == NULL )
 	{
-	    send_to_char( "You do not have that item.\n\r", ch );
+    send_to_char( "Sende öyle birþey yok.\n\r", ch );
 	    return;
 	}
 
 	if ( obj == container )
 	{
-	    send_to_char( "You can't fold it into itself.\n\r", ch );
+    send_to_char( "Onu kendi içine koyamazsýn.\n\r", ch );
 	    return;
 	}
 
 	if ( !can_drop_obj( ch, obj ) )
 	{
-	    send_to_char( "You can't let go of it.\n\r", ch );
+    send_to_char("Ondan kurtulamýyorsun.\n\r", ch );
 	    return;
 	}
 
     	if (WEIGHT_MULT(obj) != 100)
     	{
-           send_to_char("You have a feeling that would be a bad idea.\n\r",ch);
+        send_to_char("Bunun kötü bir fikir olduðunu hissediyorsun.\n\r",ch);
             return;
         }
 
-	if ( obj->pIndexData->limit != -1 
+	if ( obj->pIndexData->limit != -1
 		&& !IS_SET(container->value[1], CONT_ST_LIMITED) )
         {
-	  act( "This unworthy container won't hold $p.", ch,obj,NULL,TO_CHAR);
+          act( "Bu deðersiz taþýyýcý $p alamaz.", ch,obj,NULL,TO_CHAR);
 	  return;
 	}
 /*
-	if ( IS_SET(container->value[1],CONT_FOR_ARROW) 
+	if ( IS_SET(container->value[1],CONT_FOR_ARROW)
 		&& (obj->item_type != ITEM_WEAPON
 		|| obj->value[0]  != WEAPON_ARROW ) )
 	{
@@ -658,14 +658,14 @@ void do_put( CHAR_DATA *ch, char *argument )
 	}
 */
 	if (get_obj_weight( obj ) + get_true_weight( container )
-	     > (container->value[0] * 10) 
+	     > (container->value[0] * 10)
 	||  get_obj_weight(obj) > (container->value[3] * 10))
 	{
-	    send_to_char( "It won't fit.\n\r", ch );
+    send_to_char( "Sýðmaz.\n\r", ch );
 	    return;
 	}
 
-	if ( obj->item_type == ITEM_POTION && 
+	if ( obj->item_type == ITEM_POTION &&
 	     IS_SET(container->wear_flags, ITEM_TAKE) )
 	{
 	   pcount = 0;
@@ -673,7 +673,7 @@ void do_put( CHAR_DATA *ch, char *argument )
 	     if (objc->item_type == ITEM_POTION) pcount++;
 	   if ( pcount>15 )
 	   {
-	      act("It's not safe to put more potions into $p.",ch,container,NULL, TO_CHAR);
+       act("$p içine bu kadar iksir koymak güvenli deðil.",ch,container,NULL, TO_CHAR);
 	      return;
 	   }
 	}
@@ -683,11 +683,11 @@ void do_put( CHAR_DATA *ch, char *argument )
 	     pcount++;
 	if ( pcount>container->value[0] )
 	   {
-	      act("It's not safe to put that much item into $p.",ch,container,NULL, TO_CHAR);
+       act("$p içine bu kadar þey koymak güvenli deðil.",ch,container,NULL, TO_CHAR);
 	      return;
 	   }
 
-	if (container->pIndexData->vnum == OBJ_VNUM_PIT 
+	if (container->pIndexData->vnum == OBJ_VNUM_PIT
 	&&  !CAN_WEAR(container,ITEM_TAKE))
 	{
 	    if (obj->timer)
@@ -701,13 +701,13 @@ void do_put( CHAR_DATA *ch, char *argument )
 
 	if (IS_SET(container->value[1],CONT_PUT_ON))
 	{
-	    act("$n puts $p on $P.",ch,obj,container, TO_ROOM);
-	    act("You put $p on $P.",ch,obj,container, TO_CHAR);
+    act("$n $P üzerine $p koyuyor.",ch,obj,container, TO_ROOM);
+    act("$P üzerine $p koyuyorsun.",ch,obj,container, TO_CHAR);
 	}
 	else
 	{
-	    act( "$n puts $p in $P.", ch, obj, container, TO_ROOM );
-	    act( "You put $p in $P.", ch, obj, container, TO_CHAR );
+    act("$n $P içine $p koyuyor.", ch, obj, container, TO_ROOM );
+    act( "$P içine $p koyuyorsun.", ch, obj, container, TO_CHAR );
 	}
     }
     else
@@ -728,7 +728,7 @@ void do_put( CHAR_DATA *ch, char *argument )
 	    &&   obj != container
 	    &&   can_drop_obj( ch, obj )
 	    &&   get_obj_weight( obj ) + get_true_weight( container )
-		 <= (container->value[0] * 10) 
+		 <= (container->value[0] * 10)
 	    &&   get_obj_weight(obj) < (container->value[3] * 10))
 	    {
 	    	if (container->pIndexData->vnum == OBJ_VNUM_PIT
@@ -742,7 +742,7 @@ void do_put( CHAR_DATA *ch, char *argument )
 
 		if ( obj->pIndexData->limit != -1 )
 		{
-		  act( "This unworthy container won't hold $p.", ch,obj,NULL,TO_CHAR);
+      act( "Bu deðersiz taþýyýcý $p'yi alamaz.", ch,obj,NULL,TO_CHAR);
 		  continue;
 		}
 
@@ -754,7 +754,7 @@ void do_put( CHAR_DATA *ch, char *argument )
 	     	  if (objc->item_type == ITEM_POTION) pcount++;
 	   	  if ( pcount>15 )
 	   	  {
-	     	    act("It's not safe to put more potions into $p.",ch,container,NULL, TO_CHAR);
+          act("$p içine bu kadar iksir koymak güvenli deðil.",ch,container,NULL, TO_CHAR);
 	      	    continue;
 	   	  }
 		}
@@ -762,7 +762,7 @@ void do_put( CHAR_DATA *ch, char *argument )
 		pcount++;
 		if ( pcount>container->value[0] )
 		   {
-		      act("It's not safe to put that much item into $p.",ch,container,NULL, TO_CHAR);
+         act("$p içine bu kadar þey koymak güvenli deðil.",ch,container,NULL, TO_CHAR);
 		      return;
 		   }
 		obj_from_char( obj );
@@ -770,13 +770,13 @@ void do_put( CHAR_DATA *ch, char *argument )
 
         	if (IS_SET(container->value[1],CONT_PUT_ON))
         	{
-            	    act("$n puts $p on $P.",ch,obj,container, TO_ROOM);
-            	    act("You put $p on $P.",ch,obj,container, TO_CHAR);
+            act("$n $P üzerine $p koyuyor.",ch,obj,container, TO_ROOM);
+            act("$P üzerine $p koyuyorsun.",ch,obj,container, TO_CHAR);
         	}
 		else
 		{
-		    act( "$n puts $p in $P.", ch, obj, container, TO_ROOM );
-		    act( "You put $p in $P.", ch, obj, container, TO_CHAR );
+      act( "$n $P içine $p koyuyor.", ch, obj, container, TO_ROOM );
+      act( "$P içine $p koyuyorsun.", ch, obj, container, TO_CHAR );
 		}
 	    }
 	}
@@ -799,7 +799,7 @@ void do_drop( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' )
     {
-	send_to_char( "Drop what?\n\r", ch );
+      send_to_char( "Neyi býrakacaksýn?\n\r", ch );
 	return;
     }
 
@@ -810,20 +810,18 @@ void do_drop( CHAR_DATA *ch, char *argument )
 
 	amount   = atoi(arg);
 	argument = one_argument( argument, arg );
-	if ( amount <= 0
-	|| ( str_cmp( arg, "coins" ) && str_cmp( arg, "coin" ) && 
-	     str_cmp( arg, "gold"  ) && str_cmp( arg, "silver") ) )
+  if ( amount <= 0
+	|| ( str_cmp( arg, "sikke" ) && str_cmp( arg, "altýn" ) && str_cmp( arg, "akçe"  ) ) )
 	{
-	    send_to_char( "Sorry, you can't do that.\n\r", ch );
+    send_to_char( "Bunu yapamazsýn.\n\r", ch );
 	    return;
 	}
 
-	if ( !str_cmp( arg, "coins") || !str_cmp(arg,"coin") 
-	||   !str_cmp( arg, "silver"))
+  if ( !str_cmp( arg, "sikke") || !str_cmp(arg,"akçe"))
 	{
 	    if (ch->silver < amount)
 	    {
-		send_to_char("You don't have that much silver.\n\r",ch);
+        send_to_char("Bu kadar akçen yok.\n\r",ch);
 		return;
 	    }
 
@@ -835,7 +833,7 @@ void do_drop( CHAR_DATA *ch, char *argument )
 	{
 	    if (ch->gold < amount)
 	    {
-		send_to_char("You don't have that much gold.\n\r",ch);
+        send_to_char("Bu kadar altýnýn yok.\n\r",ch);
 		return;
 	    }
 
@@ -880,65 +878,65 @@ void do_drop( CHAR_DATA *ch, char *argument )
 	obj = create_money( gold, silver );
 	obj_to_room( obj, ch->in_room );
 	if ( !IS_AFFECTED(ch, AFF_SNEAK) )
-	  act( "$n drops some coins.", ch, NULL, NULL, TO_ROOM );
-	send_to_char( "OK.\n\r", ch );
+  act( "$n bir miktar sikke býrakýyor.", ch, NULL, NULL, TO_ROOM );
+  send_to_char( "Tamam.\n\r", ch );
 	if ( IS_WATER( ch->in_room ) )   {
 	  extract_obj( obj );
 	  if ( !IS_AFFECTED(ch, AFF_SNEAK) )
-	    act("The coins sink down, and disapear in the water.", ch, NULL, NULL, TO_ROOM );
-	  act("The coins sink down, and disapear in the water.", ch, NULL, NULL, TO_CHAR );
+    act("Sikkeler suyun içinde kayboluyor.", ch, NULL, NULL, TO_ROOM );
+  act("Sikkeler suyun içinde kayboluyor.", ch, NULL, NULL, TO_CHAR );
 	}
 	return;
     }
 
-    if ( str_cmp( arg, "all" ) && str_prefix( "all.", arg ) )
+    if ( str_cmp( arg, "tümü" ) && str_prefix( "tümü.", arg ) )
     {
 	/* 'drop obj' */
 	if ( ( obj = get_obj_carry( ch, arg ) ) == NULL )
 	{
-	    send_to_char( "You do not have that item.\n\r", ch );
+    send_to_char( "Sende öyle birþey yok.\n\r", ch );
 	    return;
 	}
 
 	if ( !can_drop_obj( ch, obj ) )
 	{
-	    send_to_char( "You can't let go of it.\n\r", ch );
+    send_to_char( "Ondan kurtulamýyorsun.\n\r", ch );
 	    return;
 	}
 
 	obj_from_char( obj );
 	obj_to_room( obj, ch->in_room );
 	if ( !IS_AFFECTED(ch, AFF_SNEAK) )
-  	  act( "$n drops $p.", ch, obj, NULL, TO_ROOM );
-	act( "You drop $p.", ch, obj, NULL, TO_CHAR );
+  act( "$n $p býrakýyor.", ch, obj, NULL, TO_ROOM );
+act( "$p býrakýyorsun.", ch, obj, NULL, TO_CHAR );
 	if ( obj->pIndexData->vnum == OBJ_VNUM_POTION_VIAL &&
-              number_percent( ) < 40 )  
+              number_percent( ) < 40 )
 	  if ( !IS_SET(ch->in_room->sector_type, SECT_FOREST) &&
 	       !IS_SET(ch->in_room->sector_type, SECT_DESERT) &&
 	       !IS_SET(ch->in_room->sector_type, SECT_AIR) &&
-	       !IS_WATER(ch->in_room) )  
+	       !IS_WATER(ch->in_room) )
 	  {
-	    act( "$p cracks and shaters into tiny pieces.", ch, obj, NULL,TO_ROOM );
-	    act( "$p cracks and shaters into tiny pieces.", ch, obj, NULL,TO_CHAR );
+      act( "$p küçük parçalara bölünüyor.", ch, obj, NULL,TO_ROOM );
+	    act( "$p küçük parçalara bölünüyor.", ch, obj, NULL,TO_CHAR );
 	    extract_obj( obj );
 	    return;
 	  }
         if (IS_SET(obj->progtypes,OPROG_DROP))
           (obj->pIndexData->oprogs->drop_prog) (obj,ch);
 
-	if ( !may_float(obj) && cant_float(obj) && IS_WATER( ch->in_room )) 
+	if ( !may_float(obj) && cant_float(obj) && IS_WATER( ch->in_room ))
 	{
 	  if ( !IS_AFFECTED(ch, AFF_SNEAK) )
-	    act( "$p sinks down the water.", ch, obj, NULL, TO_ROOM);
-	  act( "$p sinks down the water.", ch, obj, NULL, TO_CHAR);
+    act( "$p suyun içinde kayboluyor.", ch, obj, NULL, TO_ROOM);
+  act( "$p suyun içinde kayboluyor.", ch, obj, NULL, TO_CHAR);
 	  extract_obj( obj );
 	}
 
 	else if (IS_OBJ_STAT(obj,ITEM_MELT_DROP) )
 	{
 	  if ( !IS_AFFECTED(ch, AFF_SNEAK) )
-	    act("$p dissolves into smoke.",ch,obj,NULL,TO_ROOM);
-	  act("$p dissolves into smoke.",ch,obj,NULL,TO_CHAR);
+    act("$p dumana dönüþüyor.",ch,obj,NULL,TO_ROOM);
+  act("$p dumana dönüþüyor.",ch,obj,NULL,TO_CHAR);
 	  extract_obj(obj);
 	}
     }
@@ -959,19 +957,19 @@ void do_drop( CHAR_DATA *ch, char *argument )
 		obj_from_char( obj );
 		obj_to_room( obj, ch->in_room );
 	  	if ( !IS_AFFECTED(ch, AFF_SNEAK) )
-		  act( "$n drops $p.", ch, obj, NULL, TO_ROOM );
-		act( "You drop $p.", ch, obj, NULL, TO_CHAR );
+      act( "$n $p býrakýyor.", ch, obj, NULL, TO_ROOM );
+		act( "$p býrakýyorsun.", ch, obj, NULL, TO_CHAR );
 	        if ( obj->pIndexData->vnum == OBJ_VNUM_POTION_VIAL &&
 		     number_percent( )  < 70 )
 		  if ( !IS_SET(ch->in_room->sector_type, SECT_FOREST) &&
 		       !IS_SET(ch->in_room->sector_type, SECT_DESERT) &&
-			!IS_SET(ch->in_room->sector_type, SECT_AIR) &&  
-		       !IS_WATER(ch->in_room) )  
+			!IS_SET(ch->in_room->sector_type, SECT_AIR) &&
+		       !IS_WATER(ch->in_room) )
 
 	  	{
 		  if ( !IS_AFFECTED(ch, AFF_SNEAK) )
-	            act( "$p cracks and shaters into tiny pieces.", ch, obj, NULL,TO_ROOM );
-	          act( "$p cracks and shaters into tiny pieces.", ch, obj, NULL,TO_CHAR );
+      act( "$p küçük parçalara bölünüyor.", ch, obj, NULL,TO_ROOM );
+    act( "$p küçük parçalara bölünüyor.", ch, obj, NULL,TO_CHAR );
 	          extract_obj( obj );
 	          continue;
 		}
@@ -979,18 +977,18 @@ void do_drop( CHAR_DATA *ch, char *argument )
                 if (IS_SET(obj->progtypes,OPROG_DROP))
                   (obj->pIndexData->oprogs->drop_prog) (obj,ch);
 
-		if ( !may_float(obj) && cant_float(obj) && IS_WATER(ch->in_room) )  
+		if ( !may_float(obj) && cant_float(obj) && IS_WATER(ch->in_room) )
 		{
 		  if ( !IS_AFFECTED(ch, AFF_SNEAK) )
-		    act( "$p sinks down the water.", ch, obj, NULL, TO_ROOM);
-		  act( "$p sinks down the water.", ch, obj, NULL, TO_CHAR);
+      act( "$p suyun içinde kayboluyor.", ch, obj, NULL, TO_ROOM);
+    act("$p suyun içinde kayboluyor.", ch, obj, NULL, TO_CHAR);
 		  extract_obj( obj );
 		}
         	else if (IS_OBJ_STAT(obj,ITEM_MELT_DROP))
         	{
 		  if ( !IS_AFFECTED(ch, AFF_SNEAK) )
-             	    act("$p dissolves into smoke.",ch,obj,NULL,TO_ROOM);
-            	  act("$p dissolves into smoke.",ch,obj,NULL,TO_CHAR);
+      act("$p dumana dönüþüyor.",ch,obj,NULL,TO_ROOM);
+    act("$p dumana dönüþüyor.",ch,obj,NULL,TO_CHAR);
             	  extract_obj(obj);
         	}
 	    }
@@ -999,10 +997,10 @@ void do_drop( CHAR_DATA *ch, char *argument )
 	if ( !found )
 	{
 	    if ( arg[3] == '\0' )
-		act( "You are not carrying anything.",
+      act( "Hiçbir þey taþýmýyorsun.",
 		    ch, NULL, arg, TO_CHAR );
 	    else
-		act( "You are not carrying any $T.",
+      act( "$T taþýmýyorsun.",
 		    ch, NULL, &arg[4], TO_CHAR );
 	}
     }
@@ -1030,26 +1028,26 @@ void do_drag( CHAR_DATA *ch, char *argument )
     /* Get type. */
     if ( arg1[0] == '\0' || arg2[0] == '\0')
     {
-	send_to_char( "Drag what to which direction?\n\r", ch );
+      send_to_char( "Neyi hangi yönde sürükleyeceksin?\n\r", ch );
 	return;
     }
 
-    if ( !str_cmp( arg1, "all" ) || !str_prefix( "all.", arg1 ) )
+    if ( !str_cmp( arg1, "tümü" ) || !str_prefix( "tümü.", arg1 ) )
     {
-        send_to_char( "You can't do that.\n\r", ch );
+      send_to_char( "Bunu yapamazsýn.\n\r", ch );
         return;
     }
 
    obj = get_obj_list( ch, arg1, ch->in_room->contents );
    if ( obj == NULL )
    {
-	act( "I see no $T here.", ch, NULL, arg1, TO_CHAR );
+     act( "Burada $T yok.", ch, NULL, arg1, TO_CHAR );
         return;
    }
 
    if ( !CAN_WEAR(obj, ITEM_TAKE) )
    {
-        send_to_char( "You can't take that.\n\r", ch );
+     send_to_char( "Onu alamazsýn.\n\r", ch );
         return;
    }
 
@@ -1059,8 +1057,8 @@ void do_drag( CHAR_DATA *ch, char *argument )
       ||   ( IS_OBJ_STAT(obj, ITEM_ANTI_GOOD)    && IS_GOOD(ch)    )
       ||   ( IS_OBJ_STAT(obj, ITEM_ANTI_NEUTRAL) && IS_NEUTRAL(ch) ) )
       {
-        act( "You are zapped by $p and drop it.", ch, obj, NULL, TO_CHAR );
-        act( "$n is zapped by $p and drops it.",  ch, obj, NULL, TO_ROOM );
+        act( "$p tarafýndan çarpýldýn ve onu düþürdün.", ch, obj, NULL, TO_CHAR );
+        act( "$n $p tarafýndan çarpýldý ve onu düþürdü.",  ch, obj, NULL, TO_ROOM );
         return;
       }
    }
@@ -1070,23 +1068,23 @@ void do_drag( CHAR_DATA *ch, char *argument )
        for (gch = obj->in_room->people; gch != NULL; gch = gch->next_in_room)
            if (gch->on == obj)
            {
-               act("$N appears to be using $p.", ch,obj,gch,TO_CHAR);
+             act("$N $p kullanmaya baþladý.", ch,obj,gch,TO_CHAR);
                return;
            }
    }
 
    if ( (get_carry_weight(ch)+get_obj_weight(obj)) > (2*can_carry_w(ch)) )
    {
-       act( "$d: you can't drag that much weight.",
+     act( "$d: bu kadar aðýrlýðý sürükleyemezsin.",
            ch, NULL, obj->name, TO_CHAR );
        return;
    }
 
-   if ( get_eq_char(ch, WEAR_LEFT) != NULL 
+   if ( get_eq_char(ch, WEAR_LEFT) != NULL
 	|| get_eq_char(ch, WEAR_RIGHT) != NULL
 	|| get_eq_char(ch, WEAR_BOTH) != NULL)
    {
-      send_to_char( "You need your both hands free.\n\r",ch);
+     send_to_char( "Ýki elin de boþ olmalý.\n\r",ch);
       return;
    }
 
@@ -1094,18 +1092,18 @@ void do_drag( CHAR_DATA *ch, char *argument )
 	return;
 
    if ( ( pexit   = ch->in_room->exit[direction] ) == NULL
-   ||   pexit->u1.to_room   == NULL 
+   ||   pexit->u1.to_room   == NULL
    ||   !can_see_room(ch,pexit->u1.to_room))
    {
-       send_to_char( "Alas, you cannot go that way.\n\r", ch );
+     send_to_char( "O yöne gidemezsin.\n\r", ch );
        return;
    }
 
-   sprintf(buf,"You grab $p to drag towards %s.", dir_name[direction] );
+   sprintf(buf,"$p'yi %s yönünde sürüklemek için kavradýn.", dir_name[direction] );
    act( buf, ch, obj, NULL, TO_CHAR );
    if (!IS_AFFECTED(ch,AFF_SNEAK))
    {
-         sprintf(buf,"$n grabs $p to drag towards %s.", dir_name[direction] );
+     sprintf(buf,"$n $p'yi %s yönünde sürüklemek için kavradý.", dir_name[direction] );
          act( buf, ch, obj, NULL, TO_ROOM );
    }
 
@@ -1119,14 +1117,14 @@ void do_drag( CHAR_DATA *ch, char *argument )
 
    was_in_room = ch->in_room;
    move_char(ch, direction, FALSE);
-  
+
    if ( was_in_room == ch->in_room )
-       send_to_char( "You cannot drag that way.\n\r", ch );
-   else 
+   send_to_char("O yöne sürükleyemezsin.\n\r", ch );
+   else
    {
 	if ( !IS_AFFECTED(ch, AFF_SNEAK) )
-		act( "$n drops $p.", ch, obj, NULL, TO_ROOM );
-	act( "You drop $p.", ch, obj, NULL, TO_CHAR );
+  act( "$n $p býrakýyor.", ch, obj, NULL, TO_ROOM );
+act( "$p býrakýyorsun.", ch, obj, NULL, TO_CHAR );
         WAIT_STATE( ch,2 * PULSE_VIOLENCE );
    }
 
@@ -1152,7 +1150,7 @@ void do_give( CHAR_DATA *ch, char *argument )
 
     if ( arg1[0] == '\0' || arg2[0] == '\0' )
     {
-	send_to_char( "Give what to whom?\n\r", ch );
+      send_to_char( "Neyi kime vereceksin?\n\r", ch );
 	return;
     }
 
@@ -1165,31 +1163,30 @@ void do_give( CHAR_DATA *ch, char *argument )
 
 	amount   = atoi(arg1);
 	if ( amount <= 0
-	|| ( str_cmp( arg2, "coins" ) && str_cmp( arg2, "coin" ) && 
-	     str_cmp( arg2, "gold"  ) && str_cmp( arg2, "silver")) )
+    || ( str_cmp( arg2, "sikke" ) && str_cmp( arg2, "altýn"  ) && str_cmp( arg2, "akçe")) )
 	{
-	    send_to_char( "Sorry, you can't do that.\n\r", ch );
+    send_to_char( "Bunu yapamazsýn.\n\r", ch );
 	    return;
 	}
 
-	silver = str_cmp(arg2,"gold");
+  silver = str_cmp(arg2,"altýn");
 
 	argument = one_argument( argument, arg2 );
 	if ( arg2[0] == '\0' )
 	{
-	    send_to_char( "Give what to whom?\n\r", ch );
+    send_to_char( "Neyi kime vereceksin?\n\r", ch );
 	    return;
 	}
 
 	if ( ( victim = get_char_room( ch, arg2 ) ) == NULL )
 	{
-	    send_to_char( "They aren't here.\n\r", ch );
+    send_to_char("Burada deðil.\n\r", ch);
 	    return;
 	}
 
 	if ( (!silver && ch->gold < amount) || (silver && ch->silver < amount) )
 	{
-	    send_to_char( "You haven't got that much.\n\r", ch );
+    send_to_char( "Bu kadarýna sahip deðilsin.\n\r", ch );
 	    return;
 	}
 
@@ -1197,10 +1194,10 @@ void do_give( CHAR_DATA *ch, char *argument )
 	    weight = amount * 2 / 5;
 	else	weight = amount / 10;
 
-	if ( !IS_NPC(victim) 
+	if ( !IS_NPC(victim)
 		&& get_carry_weight(victim) + weight > can_carry_w(victim) )
 	{
-	     act( "$N can't carry that much weight.", ch,NULL,victim, TO_CHAR);
+    act( "$N bu kadar aðýrlýk taþýyamaz.", ch,NULL,victim, TO_CHAR);
 	     return;
 	}
 
@@ -1215,10 +1212,10 @@ void do_give( CHAR_DATA *ch, char *argument )
 	    victim->gold	+= amount;
 	}
 
-	sprintf(buf,"$n gives you %d %s.",amount, silver ? "silver" : "gold");
+  sprintf(buf,"$n sana %d %s veriyor.",amount, silver ? "akçe" : "altýn");
 	act( buf, ch, NULL, victim, TO_VICT    );
-	act( "$n gives $N some coins.",  ch, NULL, victim, TO_NOTVICT );
-	sprintf(buf,"You give $N %d %s.",amount, silver ? "silver" : "gold");
+	act( "$n $E bir miktar sikke veriyor.",  ch, NULL, victim, TO_NOTVICT );
+	sprintf(buf,"$E %d %s veriyorsun.",amount, silver ? "akçe" : "altýn");
 	act( buf, ch, NULL, victim, TO_CHAR    );
         if (IS_SET(victim->progtypes,MPROG_BRIBE))
           (victim->pIndexData->mprogs->bribe_prog) (victim,ch,amount);
@@ -1227,7 +1224,7 @@ void do_give( CHAR_DATA *ch, char *argument )
 	{
 	    int change;
 
-	    change = (silver ? 95 * amount / 100 / 100 
+	    change = (silver ? 95 * amount / 100 / 100
 		 	     : 95 * amount);
 
 
@@ -1239,10 +1236,10 @@ void do_give( CHAR_DATA *ch, char *argument )
 	       weight -= amount * 2 / 5;
 	    else weight -= amount / 10;
 
-	    if (!IS_NPC(ch) 
+	    if (!IS_NPC(ch)
 		&& get_carry_weight(ch) + weight > can_carry_w(ch) )
 	    {
-	        act("You can't carry that much weight.", ch,NULL,NULL,TO_CHAR);
+        act("Bu kadar aðýrlýk taþýyamazsýn.", ch,NULL,NULL,TO_CHAR);
 	        return;
 	    }
 
@@ -1254,26 +1251,26 @@ void do_give( CHAR_DATA *ch, char *argument )
 
 	    if (change < 1 && can_see(victim,ch))
 	    {
-		act(
-	"$n tells you 'I'm sorry, you did not give me enough to change.'"
-		    ,victim,NULL,ch,TO_VICT);
+        act(
+    	"$n anlatýyor 'Üzgünüm, deðiþtirmem için yeterince vermedin.'",victim,NULL,ch,TO_VICT);
+    		ch->reply = victim;
 		ch->reply = victim;
-		sprintf(buf,"%d %s %s", 
-			amount, silver ? "silver" : "gold",ch->name);
+		sprintf(buf,"%d %s %s",
+    amount, silver ? "akçe" : "altýn",ch->name);
 		do_give(victim,buf);
 	    }
 	    else if (can_see(victim,ch))
 	    {
-		sprintf(buf,"%d %s %s", 
-			change, silver ? "gold" : "silver",ch->name);
+		sprintf(buf,"%d %s %s",
+    change, silver ? "altýn" : "akçe",ch->name);
 		do_give(victim,buf);
 		if (silver)
 		{
-		    sprintf(buf,"%d silver %s", 
+      sprintf(buf,"%d akçe %s",
 			(95 * amount / 100 - change * 100),ch->name);
 		    do_give(victim,buf);
 		}
-		act("$n tells you 'Thank you, come again.'",
+    act("$n anlatýyor 'Bereket versin, yine gel.'",
 		    victim,NULL,ch,TO_VICT);
 		ch->reply = victim;
 	    }
@@ -1283,19 +1280,19 @@ void do_give( CHAR_DATA *ch, char *argument )
 
     if ( ( obj = get_obj_carry( ch, arg1 ) ) == NULL )
     {
-	send_to_char( "You do not have that item.\n\r", ch );
+      send_to_char("Sende öyle birþey yok.\n\r", ch );
 	return;
     }
 
     if ( obj->wear_loc != WEAR_NONE )
     {
-	send_to_char( "You must remove it first.\n\r", ch );
+      send_to_char("Önce onu çýkarmalýsýn.\n\r", ch );
 	return;
     }
 
     if ( ( victim = get_char_room( ch, arg2 ) ) == NULL )
     {
-	send_to_char( "They aren't here.\n\r", ch );
+      send_to_char("Burada deðil.\n\r", ch);
 	return;
     }
 
@@ -1303,7 +1300,7 @@ void do_give( CHAR_DATA *ch, char *argument )
     if (  (IS_NPC(victim) && victim->pIndexData->pShop != NULL ) &&
 	   !IS_SET(victim->progtypes, MPROG_GIVE) )
     {
-	act("$N tells you 'Sorry, you'll have to sell that.'",
+      act("$N anlatýyor 'Üzgünüm, onu satmalýsýn.'",
 	    ch,NULL,victim,TO_CHAR);
 	ch->reply = victim;
 	return;
@@ -1311,25 +1308,25 @@ void do_give( CHAR_DATA *ch, char *argument )
 
     if ( !can_drop_obj( ch, obj ) )
     {
-	send_to_char( "You can't let go of it.\n\r", ch );
+      send_to_char("Ondan kurtulamýyorsun.\n\r", ch );
 	return;
     }
 
     if ( victim->carry_number + get_obj_number( obj ) > can_carry_n( victim ) )
     {
-	act( "$N has $S hands full.", ch, NULL, victim, TO_CHAR );
+      act( "$S elleri dolu.", ch, NULL, victim, TO_CHAR );
 	return;
     }
 
     if (get_carry_weight(victim) + get_obj_weight(obj) > can_carry_w( victim ) )
     {
-	act( "$N can't carry that much weight.", ch, NULL, victim, TO_CHAR );
+      act( "$N bu aðýrlýðý taþýyamaz.", ch, NULL, victim, TO_CHAR );
 	return;
     }
 
     if ( !can_see_obj( victim, obj ) )
     {
-	act( "$N can't see it.", ch, NULL, victim, TO_CHAR );
+      act( "$N onu göremiyor.", ch, NULL, victim, TO_CHAR );
 	return;
     }
 
@@ -1339,16 +1336,16 @@ void do_give( CHAR_DATA *ch, char *argument )
       ||   ( IS_OBJ_STAT(obj, ITEM_ANTI_GOOD)    && IS_GOOD(victim)    )
       ||   ( IS_OBJ_STAT(obj, ITEM_ANTI_NEUTRAL) && IS_NEUTRAL(victim) ) )
       {
-	send_to_char( "Your victim's alignment doesn't match with the objects align.", ch );
+        send_to_char( "Kurbanýnýn yönelimi eþyanýnkiyle uyuþmuyor.", ch );
 	return;
       }
     }
 
     obj_from_char( obj );
     obj_to_char( obj, victim );
-    act( "$n gives $p to $N.", ch, obj, victim, TO_NOTVICT );
-    act( "$n gives you $p.",   ch, obj, victim, TO_VICT    );
-    act( "You give $p to $N.", ch, obj, victim, TO_CHAR    );
+    act( "$n $E $p veriyor.", ch, obj, victim, TO_NOTVICT );
+    act( "$n sana $p veriyor.",   ch, obj, victim, TO_VICT    );
+    act( "$E $p veriyorsun.", ch, obj, victim, TO_CHAR    );
 
     if (IS_SET(obj->progtypes,OPROG_GIVE))
       (obj->pIndexData->oprogs->give_prog) (obj,ch,victim);
@@ -1374,34 +1371,34 @@ void do_bury( CHAR_DATA *ch, char *argument )
     one_argument( argument, arg );
 
     if ( !IS_IMMORTAL(ch) && ch->iclass != CLASS_CLERIC )
-    {    
-        send_to_char( "You are not a cleric!\n\r", ch );
-        return;
-    }
-    
-    if ( arg[0] == '\0' )
-    {    
-        send_to_char( "Bury whose corpse?\n\r", ch );
-        return;
-    }
-    
-    if ( (shovel = get_weapon_char(ch, WEAPON_MACE)) == NULL
-         || !is_name((char*)"shovel",shovel->name) )
     {
-        send_to_char( "You don't have shovel do dig!\n\r", ch );
+      send_to_char( "Bir ermiþ deðilsin!\n\r", ch );
+        return;
+    }
+
+    if ( arg[0] == '\0' )
+    {
+      send_to_char( "Kimin cesedini gömeceksin?\n\r", ch );
+        return;
+    }
+
+    if ( (shovel = get_weapon_char(ch, WEAPON_MACE)) == NULL
+         || !is_name((char*)"kürek",shovel->name) )
+    {
+      send_to_char( "Kazmak için küreðin yok!\n\r", ch );
         return;
     }
 
    obj = get_obj_list( ch, arg, ch->in_room->contents );
    if ( obj == NULL )
    {
-        act( "I see no $T here.", ch, NULL, arg, TO_CHAR );
+     act( "Burada $T yok.", ch, NULL, arg, TO_CHAR );
         return;
    }
 
    if (obj->item_type != ITEM_CORPSE_PC && obj->item_type != ITEM_CORPSE_NPC)
     {
-      send_to_char("Why do you want to bury that?\n\r",ch);
+      send_to_char("Neden onu gömmek istiyorsun?\n\r",ch);
       return;
     }
 
@@ -1409,14 +1406,14 @@ void do_bury( CHAR_DATA *ch, char *argument )
     {
         case SECT_CITY:
         case SECT_INSIDE:
-            send_to_char( "The floor is too hard to dig through.\n\r", ch );
+        send_to_char("Zemin kazýlamayacak kadar sert.\n\r", ch );
             return;
         case SECT_WATER_SWIM:
         case SECT_WATER_NOSWIM:
-            send_to_char( "You cannot bury something here.\n\r", ch );
+        send_to_char("Buraya birþey gömemezsin.\n\r", ch );
             return;
         case SECT_AIR:
-            send_to_char( "What?  In the air?!\n\r", ch );
+        send_to_char("Ne? Havaya mý?!\n\r", ch );
             return;
     }
 
@@ -1424,13 +1421,13 @@ void do_bury( CHAR_DATA *ch, char *argument )
     move = URANGE( 2, move, 1000 );
     if ( move > ch->move )
     {
-        send_to_char( "You don't have enough energy to bury something of that size.\n\r", ch );
+      send_to_char( "BU büyüklükte birþeyi gömmek için yeterli enerjin yok.\n\r", ch );
         return;
     }
     ch->move -= move;
 
-    act( "You solemnly bury $p...", ch, obj, NULL, TO_CHAR );
-    act( "$n solemnly buries $p...", ch, obj, NULL, TO_ROOM );
+    act( "$p'yi ayinle gömüyorsun...", ch, obj, NULL, TO_CHAR );
+    act( "$n $p'yi ayinle gömüyor...", ch, obj, NULL, TO_ROOM );
 
     SET_BIT( obj->extra_flags, ITEM_BURIED );
     WAIT_STATE( ch, 4 * PULSE_VIOLENCE );
@@ -1442,9 +1439,7 @@ void do_bury( CHAR_DATA *ch, char *argument )
     while ( bufp[0] != '\0' )
     {
      bufp = one_argument(bufp, arg);
-     if (!(!str_cmp(arg,"The") || !str_cmp(arg,"undead") 
-	|| !str_cmp(arg,"body") || !str_cmp(arg,"corpse")
-        || !str_cmp(arg,"of") ))
+     if (!( !str_cmp(arg,"hortlak") || !str_cmp(arg,"gövde") || !str_cmp(arg,"beden") || !str_cmp(arg,"ceset") ))
      {
 	if (buf[0] == '\0')   strcat(buf,arg);
         else  {
@@ -1459,7 +1454,7 @@ void do_bury( CHAR_DATA *ch, char *argument )
 
     sprintf(buf, stone->description, arg);
     free_string( stone->description );
-    stone->description = str_dup( buf ); 
+    stone->description = str_dup( buf );
 
     sprintf(buf, stone->short_descr, arg);
     free_string( stone->short_descr );
@@ -1467,7 +1462,7 @@ void do_bury( CHAR_DATA *ch, char *argument )
 
     obj_to_room(stone, ch->in_room );
 
-    /* 
+    /*
      * a little trick here... :)
      * although grave stone is not a container....
      * protects corpse from area affect attacks.
@@ -1488,28 +1483,28 @@ void do_dig( CHAR_DATA *ch, char *argument )
     one_argument( argument, arg );
 
     if ( arg[0] == '\0' )
-    {    
-        send_to_char( "Dig which grave?\n\r", ch );
+    {
+      send_to_char( "Hangi mezarý kazacaksýn?\n\r", ch );
         return;
     }
-    
+
     if ( (shovel = get_weapon_char(ch, WEAPON_MACE)) == NULL
-         || !is_name((char*)"shovel",shovel->name) )
+         || !is_name((char*)"kürek",shovel->name) )
     {
-        send_to_char( "You don't have shovel do dig!\n\r", ch );
+      send_to_char("Kazmak için küreðin yok!\n\r", ch );
         return;
     }
 
    obj = get_obj_list( ch, arg, ch->in_room->contents );
    if ( obj == NULL )
    {
-        act( "I see no $T here.", ch, NULL, arg, TO_CHAR );
+     act( "Burada $T yok.", ch, NULL, arg, TO_CHAR );
         return;
    }
 
    if (obj->pIndexData->vnum != OBJ_VNUM_GRAVE_STONE)
     {
-      send_to_char("I don't think that it is a grave.\n\r",ch);
+      send_to_char("O bir mezar deðil.\n\r",ch);
       return;
     }
 
@@ -1517,28 +1512,28 @@ void do_dig( CHAR_DATA *ch, char *argument )
     move = URANGE( 2, move, 1000 );
     if ( move > ch->move )
     {
-        send_to_char( "You don't have enough energy to dig something of that size.\n\r", ch );
+      send_to_char("Bu büyüklükte birþeyi kazmak için yeterli enerjin yok.\n\r", ch );
         return;
     }
     ch->move -= move;
 
-    act( "You start digging $p...", ch, obj, NULL, TO_CHAR );
-    act( "$n starts diggin $p...", ch, obj, NULL, TO_ROOM );
+    act("$p'yi kazmaya baþlýyorsun...", ch, obj, NULL, TO_CHAR );
+    act("$n $p'yi kazmaya baþlýyor...", ch, obj, NULL, TO_ROOM );
 
     WAIT_STATE( ch, 4 * PULSE_VIOLENCE );
 
     if ( (corpse = obj->contains) == NULL)
     {
-	act("Digging reveals nothing.\n\r",ch, NULL, NULL, TO_ALL );
+      act("Kazý sonucu ortaya bir þey çýkmýyor.\n\r",ch, NULL, NULL, TO_ALL );
         return;
     }
 
     REMOVE_BIT( corpse->extra_flags, ITEM_BURIED );
     obj_from_obj( corpse );
-    obj_to_room( corpse, ch->in_room ); 
+    obj_to_room( corpse, ch->in_room );
     extract_obj( obj );
     corpse->timer   = number_range( 25, 40 );
-    act("Digging reveals $p.\n\r",ch, corpse, NULL, TO_ALL );
+    act("Kazý $p'yi ortaya çýkarýyor.\n\r",ch, corpse, NULL, TO_ALL );
 
     return;
 }
@@ -1554,7 +1549,7 @@ void do_envenom(CHAR_DATA *ch, char *argument)
     /* find out what */
     if (argument == '\0')
     {
-	send_to_char("Envenom what item?\n\r",ch);
+      send_to_char("Neyi zehirleyeceksin?\n\r",ch);
 	return;
     }
 
@@ -1562,13 +1557,13 @@ void do_envenom(CHAR_DATA *ch, char *argument)
 
     if (obj== NULL)
     {
-	send_to_char("You don't have that item.\n\r",ch);
+      send_to_char("Sende ondan yok.\n\r",ch);
 	return;
     }
 
     if ((skill = get_skill(ch,gsn_envenom)) < 1)
     {
-	send_to_char("Are you crazy? You'd poison yourself!\n\r",ch);
+      send_to_char("Deli misin? Kendini zehirledin!\n\r",ch);
 	return;
     }
 
@@ -1576,14 +1571,14 @@ void do_envenom(CHAR_DATA *ch, char *argument)
     {
 	if (IS_OBJ_STAT(obj,ITEM_BLESS) || IS_OBJ_STAT(obj,ITEM_BURN_PROOF))
 	{
-	    act("You fail to poison $p.",ch,obj,NULL,TO_CHAR);
+    act("$p'yi zehirleyemedin.",ch,obj,NULL,TO_CHAR);
 	    return;
 	}
 
 	if (number_percent() < skill)  /* success! */
 	{
-	    act("$n treats $p with deadly poison.",ch,obj,NULL,TO_ROOM);
-	    act("You treat $p with deadly poison.",ch,obj,NULL,TO_CHAR);
+    act("$n $p objesini ölümcül zehirle kaplýyor.",ch,obj,NULL,TO_ROOM);
+    act("$p objesini ölümcül zehirle kaplýyorsun.",ch,obj,NULL,TO_CHAR);
 	    if (!obj->value[3])
 	    {
 		obj->value[3] = 1;
@@ -1593,7 +1588,7 @@ void do_envenom(CHAR_DATA *ch, char *argument)
 	    return;
 	}
 
-	act("You fail to poison $p.",ch,obj,NULL,TO_CHAR);
+  act("$p'yi zehirleyemedin.",ch,obj,NULL,TO_CHAR);
 	if (!obj->value[3])
 	    check_improve(ch,gsn_envenom,FALSE,4);
 	WAIT_STATE(ch,skill_table[gsn_envenom].beats);
@@ -1611,27 +1606,27 @@ void do_envenom(CHAR_DATA *ch, char *argument)
         ||  IS_WEAPON_STAT(obj,WEAPON_HOLY)
         ||  IS_OBJ_STAT(obj,ITEM_BLESS) || IS_OBJ_STAT(obj,ITEM_BURN_PROOF))
         {
-            act("You can't seem to envenom $p.",ch,obj,NULL,TO_CHAR);
+          act("$p objesini zehirleyemezsin.",ch,obj,NULL,TO_CHAR);
             return;
         }
 
-	if (obj->value[3] < 0 
+	if (obj->value[3] < 0
 	||  attack_table[obj->value[3]].damage == DAM_BASH)
 	{
-	    send_to_char("You can only envenom edged weapons.\n\r",ch);
+    send_to_char("Yalnýz kabzalý silahlarý zehirleyebilirsin.\n\r",ch);
 	    return;
 	}
 
         if (IS_WEAPON_STAT(obj,WEAPON_POISON))
         {
-            act("$p is already envenomed.",ch,obj,NULL,TO_CHAR);
+          act("$p zaten zehirlenmiþ.",ch,obj,NULL,TO_CHAR);
             return;
         }
 
 	percent = number_percent();
 	if (percent < skill)
 	{
- 
+
             af.where     = TO_WEAPON;
             af.type      = gsn_poison;
             af.level     = ch->level * percent / 100;
@@ -1641,23 +1636,23 @@ void do_envenom(CHAR_DATA *ch, char *argument)
             af.bitvector = WEAPON_POISON;
             affect_to_obj(obj,&af);
 
-	    if ( !IS_AFFECTED( ch, AFF_SNEAK ) ) 
-              act("$n coats $p with deadly venom.",ch,obj,NULL,TO_ROOM);
-	    act("You coat $p with venom.",ch,obj,NULL,TO_CHAR);
+	    if ( !IS_AFFECTED( ch, AFF_SNEAK ) )
+      act("$n $p objesini ölümcül zehirle kaplýyor.",ch,obj,NULL,TO_ROOM);
+act("$p objesini zehirle kaplýyorsun.",ch,obj,NULL,TO_CHAR);
 	    check_improve(ch,gsn_envenom,TRUE,3);
 	    WAIT_STATE(ch,skill_table[gsn_envenom].beats);
             return;
         }
 	else
 	{
-	    act("You fail to envenom $p.",ch,obj,NULL,TO_CHAR);
+    act("$p objesini zehirlemeyi baþaramadýn.",ch,obj,NULL,TO_CHAR);
 	    check_improve(ch,gsn_envenom,FALSE,3);
 	    WAIT_STATE(ch,skill_table[gsn_envenom].beats);
 	    return;
 	}
     }
- 
-    act("You can't poison $p.",ch,obj,NULL,TO_CHAR);
+
+    act("$p'yi zehirleyemezsin.",ch,obj,NULL,TO_CHAR);
     return;
 }
 
@@ -1673,13 +1668,13 @@ void do_fill( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' )
     {
-	send_to_char( "Fill what?\n\r", ch );
+	send_to_char( "Neyi dolduracaksýn?\n\r", ch );
 	return;
     }
 
     if ( ( obj = get_obj_carry( ch, arg ) ) == NULL )
     {
-	send_to_char( "You do not have that item.\n\r", ch );
+	send_to_char( "Sende öyle birþey yok.\n\r", ch );
 	return;
     }
 
@@ -1696,33 +1691,33 @@ void do_fill( CHAR_DATA *ch, char *argument )
 
     if ( !found )
     {
-	send_to_char( "There is no fountain here!\n\r", ch );
+	send_to_char("Burada çeþme yok!\n\r", ch );
 	return;
     }
 
     if ( obj->item_type != ITEM_DRINK_CON )
     {
-	send_to_char( "You can't fill that.\n\r", ch );
+	send_to_char( "Onu dolduramazsýn.\n\r", ch );
 	return;
     }
 
     if ( obj->value[1] != 0 && obj->value[2] != fountain->value[2] )
     {
-	send_to_char( "There is already another liquid in it.\n\r", ch );
+	send_to_char( "Ýçinde baþka bir sývý var.\n\r", ch );
 	return;
     }
 
     if ( obj->value[1] >= obj->value[0] )
     {
-	send_to_char( "Your container is full.\n\r", ch );
+	send_to_char( "Taþýyýcýn dolu.\n\r", ch );
 	return;
     }
 
-    sprintf(buf,"You fill $p with %s from $P.",
-	liq_table[fountain->value[2]].liq_name);
+    sprintf(buf,"$P içindeki %s ile $p'yi dolduruyorsun.",
+	liq_table[fountain->value[2]].liq_name_tr);
     act( buf, ch, obj,fountain, TO_CHAR );
-    sprintf(buf,"$n fills $p with %s from $P.",
-	liq_table[fountain->value[2]].liq_name);
+    sprintf(buf,"$n $P içindeki %s ile $p'yi dolduruyor.",
+	liq_table[fountain->value[2]].liq_name_tr);
     act(buf,ch,obj,fountain,TO_ROOM);
     obj->value[2] = fountain->value[2];
     obj->value[1] = obj->value[0];
@@ -1737,52 +1732,49 @@ void do_pour(CHAR_DATA *ch, char *argument)
     int amount;
 
     argument = one_argument(argument,arg);
-    
+
     if (arg[0] == '\0' || argument[0] == '\0')
     {
-	send_to_char("Pour what into what?\n\r",ch);
+	send_to_char("Neyin içine dökeceksin?\n\r",ch);
 	return;
     }
-    
+
 
     if ((out = get_obj_carry(ch,arg)) == NULL)
     {
-	send_to_char("You don't have that item.\n\r",ch);
+	send_to_char("Sende ondan yok.\n\r",ch);
 	return;
     }
 
     if (out->item_type != ITEM_DRINK_CON)
     {
-	send_to_char("That's not a drink container.\n\r",ch);
+	send_to_char("O içecek taþýyýcýsý deðil.\n\r",ch);
 	return;
     }
 
-    if (!str_cmp(argument,"out"))
+    if (!str_cmp(argument,"dýþarý"))
     {
 	if (out->value[1] == 0)
 	{
-	    send_to_char("It's already empty.\n\r",ch);
+	    send_to_char("Zaten boþ.\n\r",ch);
 	    return;
 	}
 
 	out->value[1] = 0;
 	out->value[3] = 0;
-        if ( !IS_WATER( ch->in_room ) )  {
-	  sprintf(buf,"You invert $p, spilling %s all over the ground.",
-		liq_table[out->value[2]].liq_name);
-	  act(buf,ch,out,NULL,TO_CHAR);
-	
-	  sprintf(buf,"$n inverts $p, spilling %s all over the ground.",
-		liq_table[out->value[2]].liq_name);
-	  act(buf,ch,out,NULL,TO_ROOM);
+        if ( !IS_WATER( ch->in_room ) )
+			{
+			sprintf(buf,"$p'yi ters çevirip içindeki %s'yi yere boþaltýyorsun.",liq_table[out->value[2]].liq_name_tr);
+			act(buf,ch,out,NULL,TO_CHAR);
+
+			sprintf(buf,"$n $p'yi ters çevirip içindeki %s'yi yere boþaltýyor.",liq_table[out->value[2]].liq_name_tr);
+			act(buf,ch,out,NULL,TO_ROOM);
 	}
 	else  {
-	  sprintf(buf,"You invert $p, spilling %s in to the water.",
-		liq_table[out->value[2]].liq_name);
+	  sprintf(buf,"$p'yi ters çevirip %s'yi suya boþaltýyorsun.",liq_table[out->value[2]].liq_name_tr);
 	  act(buf,ch,out,NULL,TO_CHAR);
-	
-	  sprintf(buf,"$n inverts $p, spilling %s in to the water.",
-		liq_table[out->value[2]].liq_name);
+
+	  sprintf(buf,"$n $p'yi ters çevirip içindeki %s'yi yere boþaltýyor.",liq_table[out->value[2]].liq_name_tr);
 	  act(buf,ch,out,NULL,TO_ROOM);
 	}
 	return;
@@ -1794,7 +1786,7 @@ void do_pour(CHAR_DATA *ch, char *argument)
 
 	if (vch == NULL)
 	{
-	    send_to_char("Pour into what?\n\r",ch);
+	    send_to_char("Neyin içine Pour edeceksin?\n\r",ch);
 	    return;
 	}
 
@@ -1802,38 +1794,38 @@ void do_pour(CHAR_DATA *ch, char *argument)
 
 	if (in == NULL)
 	{
-	    send_to_char("They aren't holding anything.",ch);
+	    send_to_char("Hiçbir þey tutmuyorsun.",ch);
  	    return;
 	}
     }
 
     if (in->item_type != ITEM_DRINK_CON)
     {
-	send_to_char("You can only pour into other drink containers.\n\r",ch);
+	send_to_char("Yalnýzca içecek taþýyýcýlarýnýn içine pour yapabilirsin.\n\r",ch);
 	return;
     }
-    
+
     if (in == out)
     {
-	send_to_char("You cannot change the laws of physics!\n\r",ch);
+	send_to_char("Fizik kurallarýný deðiþtiremezsin!\n\r",ch);
 	return;
     }
 
     if (in->value[1] != 0 && in->value[2] != out->value[2])
     {
-	send_to_char("They don't hold the same liquid.\n\r",ch);
+	send_to_char("Ayný sývýyý taþýmýyorlar.\n\r",ch);
 	return;
     }
 
     if (out->value[1] == 0)
     {
-	act("There's nothing in $p to pour.",ch,out,NULL,TO_CHAR);
+	act("$p içinde dökülebilecek birþey yok.",ch,out,NULL,TO_CHAR);
 	return;
     }
 
     if (in->value[1] >= in->value[0])
     {
-	act("$p is already filled to the top.",ch,in,NULL,TO_CHAR);
+	act("$p aðzýna kadar dolu.",ch,in,NULL,TO_CHAR);
 	return;
     }
 
@@ -1842,26 +1834,21 @@ void do_pour(CHAR_DATA *ch, char *argument)
     in->value[1] += amount;
     out->value[1] -= amount;
     in->value[2] = out->value[2];
-    
+
     if (vch == NULL)
     {
-    	sprintf(buf,"You pour %s from $p into $P.",
-	    liq_table[out->value[2]].liq_name);
+    	sprintf(buf,"%s'i $p'den $P'ye döküyorsun.",liq_table[out->value[2]].liq_name_tr);
     	act(buf,ch,out,in,TO_CHAR);
-    	sprintf(buf,"$n pours %s from $p into $P.",
-	    liq_table[out->value[2]].liq_name);
+    	sprintf(buf,"$n %s'i $p'den $P'ye döküyor.",liq_table[out->value[2]].liq_name_tr);
     	act(buf,ch,out,in,TO_ROOM);
     }
     else
     {
-        sprintf(buf,"You pour some %s for $N.",
-            liq_table[out->value[2]].liq_name);
+        sprintf(buf,"$N için %s döküyorsun.",liq_table[out->value[2]].liq_name_tr);
         act(buf,ch,NULL,vch,TO_CHAR);
-	sprintf(buf,"$n pours you some %s.",
-	    liq_table[out->value[2]].liq_name);
-	act(buf,ch,NULL,vch,TO_VICT);
-        sprintf(buf,"$n pours some %s for $N.",
-            liq_table[out->value[2]].liq_name);
+		sprintf(buf,"$n senin için biraz %s döküyor.",liq_table[out->value[2]].liq_name_tr);
+		act(buf,ch,NULL,vch,TO_VICT);
+        sprintf(buf,"$n $N için biraz %s döküyor.",liq_table[out->value[2]].liq_name_tr);
         act(buf,ch,NULL,vch,TO_NOTVICT);
     }
 
@@ -1886,7 +1873,7 @@ void do_drink( CHAR_DATA *ch, char *argument )
 
 	if ( obj == NULL )
 	{
-	    send_to_char( "Drink what?\n\r", ch );
+	    send_to_char("Ne içeceksin?\n\r", ch );
 	    return;
 	}
     }
@@ -1894,21 +1881,21 @@ void do_drink( CHAR_DATA *ch, char *argument )
     {
 	if ( ( obj = get_obj_here( ch, arg ) ) == NULL )
 	{
-	    send_to_char( "You can't find it.\n\r", ch );
+	    send_to_char( "Onu bulamýyorsun.\n\r", ch );
 	    return;
 	}
     }
 
-    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 10 )
+    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 10 && number_bits(3) < 1)
     {
-	send_to_char( "You fail to reach your mouth.  *Hic*\n\r", ch );
+	send_to_char( "Aðzýný bulamýyorsun.  *Hýck*\n\r", ch );
 	return;
     }
 
     switch ( obj->item_type )
     {
     default:
-	send_to_char( "You can't drink from that.\n\r", ch );
+	send_to_char("Ondan içemezsin.\n\r", ch );
 	return;
 
     case ITEM_FOUNTAIN:
@@ -1923,7 +1910,7 @@ void do_drink( CHAR_DATA *ch, char *argument )
     case ITEM_DRINK_CON:
 	if ( obj->value[1] <= 0 )
 	{
-	    send_to_char( "It is already empty.\n\r", ch );
+	    send_to_char( "Çoktan boþalmýþ.\n\r", ch );
 	    return;
 	}
 
@@ -1937,17 +1924,17 @@ void do_drink( CHAR_DATA *ch, char *argument )
         amount = UMIN(amount, obj->value[1]);
 	break;
      }
-    if (!IS_NPC(ch) && !IS_IMMORTAL(ch) 
+    if (!IS_NPC(ch) && !IS_IMMORTAL(ch)
     &&  ch->pcdata->condition[COND_FULL] > 80)
     {
-	send_to_char("You're too full to drink more.\n\r",ch);
+	send_to_char("Daha fazla içemeyecek kadar dolusun.\n\r",ch);
 	return;
     }
 
-    act( "$n drinks $T from $p.",
-	ch, obj, liq_table[liquid].liq_name, TO_ROOM );
-    act( "You drink $T from $p.",
-	ch, obj, liq_table[liquid].liq_name, TO_CHAR );
+    act( "$n $p içinden $T içiyor.",
+	ch, obj, liq_table[liquid].liq_name_tr, TO_ROOM );
+    act( "$p içinden $T içiyorsun.",
+	ch, obj, liq_table[liquid].liq_name_tr, TO_CHAR );
 
     if ( ch->fighting != NULL )
       WAIT_STATE( ch, 3 * PULSE_VIOLENCE );
@@ -1962,29 +1949,33 @@ void do_drink( CHAR_DATA *ch, char *argument )
 	amount * liq_table[liquid].liq_affect[COND_HUNGER] / 1 );
 
     if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK]  > 10 )
-	send_to_char( "You feel drunk.\n\r", ch );
+	{
+		send_to_char(  "Sarhoþ olduðunu hissediyorsun.\n\r", ch );
+	}
     if ( !IS_NPC(ch) && ch->pcdata->condition[COND_FULL]   > 60 )
-	send_to_char( "You are full.\n\r", ch );
+	send_to_char( "Dolusun.\n\r", ch );
     if ( !IS_NPC(ch) && ch->pcdata->condition[COND_THIRST] > 60 )
-	send_to_char( "Your thirst is quenched.\n\r", ch );
-	
+	{
+		send_to_char( "Susuzluðunu giderdin.\n\r", ch );
+	}
+
     if ( obj->value[3] != 0 )
     {
 	/* The drink was poisoned ! */
 	AFFECT_DATA af;
 
-	act( "$n chokes and gags.", ch, NULL, NULL, TO_ROOM );
-	send_to_char( "You choke and gag.\n\r", ch );
+	act( "$n boðazýna kaçan sývý yüzünden öðürüyor.", ch, NULL, NULL, TO_ROOM );
+	send_to_char( "Boðazýna kaçan sývý yüzünden öðürüyorsun.\n\r", ch );
 	af.where     = TO_AFFECTS;
 	af.type      = gsn_poison;
-	af.level     = number_fuzzy(amount); 
+	af.level     = number_fuzzy(amount);
 	af.duration  = 3 * amount;
 	af.location  = APPLY_NONE;
 	af.modifier  = 0;
 	af.bitvector = AFF_POISON;
 	affect_join( ch, &af );
     }
-	
+
     if (obj->value[0] > 0)
         obj->value[1] -= amount;
     return;
@@ -2001,13 +1992,13 @@ void do_eat( CHAR_DATA *ch, char *argument )
     one_argument( argument, arg );
     if ( arg[0] == '\0' )
     {
-	send_to_char( "Eat what?\n\r", ch );
+	send_to_char("Ne yiyeceksin?\n\r", ch );
 	return;
     }
 
     if ( ( obj = get_obj_carry( ch, arg ) ) == NULL )
     {
-	send_to_char( "You do not have that item.\n\r", ch );
+	send_to_char( "Sende öyle birþey yok.\n\r", ch );
 	return;
     }
 
@@ -2015,19 +2006,19 @@ void do_eat( CHAR_DATA *ch, char *argument )
     {
 	if ( obj->item_type != ITEM_FOOD && obj->item_type != ITEM_PILL )
 	{
-	    send_to_char( "That's not edible.\n\r", ch );
+	    send_to_char( "Yenilebilir deðil.\n\r", ch );
 	    return;
 	}
 
 	if ( !IS_NPC(ch) && ch->pcdata->condition[COND_FULL] > 80 )
-	{   
-	    send_to_char( "You are too full to eat more.\n\r", ch );
+	{
+	    send_to_char( "Miden daha fazlasýný kaldýrmaz.\n\r", ch );
 	    return;
 	}
     }
 
-    act( "$n eats $p.",  ch, obj, NULL, TO_ROOM );
-    act( "You eat $p.", ch, obj, NULL, TO_CHAR );
+    act( "$n $p yiyor.",  ch, obj, NULL, TO_ROOM );
+    act( "$p yiyorsun.", ch, obj, NULL, TO_CHAR );
     if ( ch->fighting != NULL )
       WAIT_STATE( ch, 3 * PULSE_VIOLENCE );
 
@@ -2043,9 +2034,9 @@ void do_eat( CHAR_DATA *ch, char *argument )
 	    gain_condition( ch, COND_FULL, obj->value[0]*2 );
 	    gain_condition( ch, COND_HUNGER, obj->value[1]*2 );
 	    if ( condition == 0 && ch->pcdata->condition[COND_HUNGER] > 0 )
-		send_to_char( "You are no longer hungry.\n\r", ch );
+		send_to_char("Artýk aç deðilsin.\n\r", ch );
 	    else if ( ch->pcdata->condition[COND_FULL] > 60 )
-		send_to_char( "You are full.\n\r", ch );
+		send_to_char("Doydun.\n\r", ch );
 	}
 
 	if ( obj->value[3] != 0 )
@@ -2053,8 +2044,8 @@ void do_eat( CHAR_DATA *ch, char *argument )
 	    /* The food was poisoned! */
 	    AFFECT_DATA af;
 
-	    act( "$n chokes and gags.", ch, 0, 0, TO_ROOM );
-	    send_to_char( "You choke and gag.\n\r", ch );
+	    act( "$n boðazýna kaçan lokmayla öðürüyor.", ch, 0, 0, TO_ROOM );
+	    send_to_char( "Boðazýna kaçan lokmayla öðürüyorsun.\n\r", ch );
 
 	    af.where	 = TO_AFFECTS;
 	    af.type      = gsn_poison;
@@ -2095,17 +2086,17 @@ bool remove_obj_loc( CHAR_DATA *ch, int iWear, bool fReplace )
 
     if ( IS_SET(obj->extra_flags, ITEM_NOREMOVE) )
     {
-	act( "You can't remove $p.", ch, obj, NULL, TO_CHAR );
+      act( "$p çýkmýyor.", ch, obj, NULL, TO_CHAR );
 	return FALSE;
     }
 
     if (( obj->item_type == ITEM_TATTOO ) && ( !IS_IMMORTAL(ch) ) )
     {
-	act( "You must scratch it to remove $p.", ch, obj, NULL, TO_CHAR );
+      act( "$p ancak yýrtýlarak çýkarýlabilir.", ch, obj, NULL, TO_CHAR );
 	return FALSE;
     }
 
-    if ( iWear == WEAR_STUCK_IN ) 
+    if ( iWear == WEAR_STUCK_IN )
     {
         unequip_char( ch, obj );
 
@@ -2114,15 +2105,15 @@ bool remove_obj_loc( CHAR_DATA *ch, int iWear, bool fReplace )
 	  if  (is_affected(ch,gsn_arrow)) affect_strip(ch,gsn_arrow);
 	  if  (is_affected(ch,gsn_spear)) affect_strip(ch,gsn_spear);
 	}
-	act( "You remove $p, in pain.", ch, obj, NULL, TO_CHAR );
-	act( "$n remove $p, in pain.", ch, obj, NULL, TO_ROOM );
+  act( "$p'yi acý içinde çýkarýyorsun.", ch, obj, NULL, TO_CHAR );
+	act( "$n $p'yi acý içinde çýkarýyor.", ch, obj, NULL, TO_ROOM );
 	WAIT_STATE(ch,4);
 	return TRUE;
     }
 
     unequip_char( ch, obj );
-    act( "$n stops using $p.", ch, obj, NULL, TO_ROOM );
-    act( "You stop using $p.", ch, obj, NULL, TO_CHAR );
+    act( "$n $p kullanmayý býrakýyor.", ch, obj, NULL, TO_ROOM );
+    act( "$p kullanmayý býrakýyorsun.", ch, obj, NULL, TO_CHAR );
 
     return TRUE;
 }
@@ -2140,17 +2131,17 @@ bool remove_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
 
     if ( IS_SET(obj->extra_flags, ITEM_NOREMOVE) )
     {
-	act( "You can't remove $p.", ch, obj, NULL, TO_CHAR );
+      act( "$p çýkarýlamaz.", ch, obj, NULL, TO_CHAR );
 	return FALSE;
     }
 
     if (( obj->item_type == ITEM_TATTOO ) && ( !IS_IMMORTAL(ch) ) )
     {
-	act( "You must scratch it to remove $p.", ch, obj, NULL, TO_CHAR );
+      act( "$p ancak yýrtýlarak çýkarýlabilir.", ch, obj, NULL, TO_CHAR );
 	return FALSE;
     }
 
-    if ( obj->wear_loc == WEAR_STUCK_IN ) 
+    if ( obj->wear_loc == WEAR_STUCK_IN )
     {
         unequip_char( ch, obj );
 
@@ -2159,15 +2150,15 @@ bool remove_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
 	  if  (is_affected(ch,gsn_arrow)) affect_strip(ch,gsn_arrow);
 	  if  (is_affected(ch,gsn_spear)) affect_strip(ch,gsn_spear);
 	}
-	act( "You remove $p, in pain.", ch, obj, NULL, TO_CHAR );
-	act( "$n remove $p, in pain.", ch, obj, NULL, TO_ROOM );
+  act( "$p'yi acý içinde çýkarýyorsun.", ch, obj, NULL, TO_CHAR );
+	act( "$n $p'yi acý içinde çýkarýyor.", ch, obj, NULL, TO_ROOM );
 	WAIT_STATE(ch,4);
 	return TRUE;
     }
 
     unequip_char( ch, obj );
-    act( "$n stops using $p.", ch, obj, NULL, TO_ROOM );
-    act( "You stop using $p.", ch, obj, NULL, TO_CHAR );
+    act( "$n $p kullanmayý býrakýyor.", ch, obj, NULL, TO_ROOM );
+    act( "$p kullanmayý býrakýyorsun.", ch, obj, NULL, TO_CHAR );
 
     return TRUE;
 }
@@ -2188,14 +2179,14 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
 
     if ( (class_table[ch->iclass].fMana && obj->item_type == ITEM_ARMOR)
 	|| (!class_table[ch->iclass].fMana && obj->item_type == ITEM_WEAPON))
-		wear_level += 3;	     
+		wear_level += 3;
 
     if ( wear_level < obj->level )
     {
-	sprintf( buf, "You must be level %d to use this object.\n\r",
+      sprintf( buf, "Bunu kullanabilmek için seviyen en az %d olmalý.\n\r",
 	    obj->level );
 	send_to_char( buf, ch );
-	act( "$n tries to use $p, but is too inexperienced.",
+  act( "$n $p'yi kullanmayý denedi, ama çok deneyimsiz.",
 	    ch, obj, NULL, TO_ROOM );
 	return;
     }
@@ -2216,7 +2207,7 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
 		hold_a_light(ch, obj, WEAR_LEFT);
 	else if ( remove_obj_loc( ch, WEAR_RIGHT, fReplace ) )
 		hold_a_light(ch, obj, WEAR_RIGHT);
-        else send_to_char("You can't hold a light right now.\n\r",ch);
+    else send_to_char("Þu an bir ýþýk tutamazsýn.\n\r",ch);
 	return;
     }
 
@@ -2236,8 +2227,8 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
     {
 	if ( !remove_obj_loc( ch, WEAR_BODY, fReplace ) )
 	    return;
-	act( "$n wears $p on $s torso.",   ch, obj, NULL, TO_ROOM );
-	act( "You wear $p on your torso.", ch, obj, NULL, TO_CHAR );
+      act( "$n gövdesine $p giyiyor.",   ch, obj, NULL, TO_ROOM );
+    	act( "Gövdene $p giyiyorsun.", ch, obj, NULL, TO_CHAR );
 	equip_char( ch, obj, WEAR_BODY );
 	return;
     }
@@ -2246,8 +2237,8 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
     {
 	if ( !remove_obj_loc( ch, WEAR_HEAD, fReplace ) )
 	    return;
-	act( "$n wears $p on $s head.",   ch, obj, NULL, TO_ROOM );
-	act( "You wear $p on your head.", ch, obj, NULL, TO_CHAR );
+      act( "$n kafasýna $p takýyor.",   ch, obj, NULL, TO_ROOM );
+    	act( "Kafana $p takýyorsun.", ch, obj, NULL, TO_CHAR );
 	equip_char( ch, obj, WEAR_HEAD );
 	return;
     }
@@ -2256,8 +2247,8 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
     {
 	if ( !remove_obj_loc( ch, WEAR_LEGS, fReplace ) )
 	    return;
-	act( "$n wears $p on $s legs.",   ch, obj, NULL, TO_ROOM );
-	act( "You wear $p on your legs.", ch, obj, NULL, TO_CHAR );
+      act( "$n bacaklarýna $p giyiyor.",   ch, obj, NULL, TO_ROOM );
+    	act( "Bacaklarýna $p giyiyorsun.", ch, obj, NULL, TO_CHAR );
 	equip_char( ch, obj, WEAR_LEGS );
 	return;
     }
@@ -2266,8 +2257,8 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
     {
 	if ( !remove_obj_loc( ch, WEAR_FEET, fReplace ) )
 	    return;
-	act( "$n wears $p on $s feet.",   ch, obj, NULL, TO_ROOM );
-	act( "You wear $p on your feet.", ch, obj, NULL, TO_CHAR );
+      act( "$n ayaklarýna $p giyiyor.",   ch, obj, NULL, TO_ROOM );
+    	act( "Ayaklarýna $p giyiyorsun.", ch, obj, NULL, TO_CHAR );
 	equip_char( ch, obj, WEAR_FEET );
 	return;
     }
@@ -2276,8 +2267,8 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
     {
 	if ( !remove_obj_loc( ch, WEAR_HANDS, fReplace ) )
 	    return;
-	act( "$n wears $p on $s hands.",   ch, obj, NULL, TO_ROOM );
-	act( "You wear $p on your hands.", ch, obj, NULL, TO_CHAR );
+      act( "$n ellerine $p giyiyor.",   ch, obj, NULL, TO_ROOM );
+    	act( "Ellerine $p giyiyorsun.", ch, obj, NULL, TO_CHAR );
 	equip_char( ch, obj, WEAR_HANDS );
 	return;
     }
@@ -2286,8 +2277,8 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
     {
 	if ( !remove_obj_loc( ch, WEAR_ARMS, fReplace ) )
 	    return;
-	act( "$n wears $p on $s arms.",   ch, obj, NULL, TO_ROOM );
-	act( "You wear $p on your arms.", ch, obj, NULL, TO_CHAR );
+      act( "$n kollarýna $p takýyor.",   ch, obj, NULL, TO_ROOM );
+    	act( "Kollarýna $p takýyorsun.", ch, obj, NULL, TO_CHAR );
 	equip_char( ch, obj, WEAR_ARMS );
 	return;
     }
@@ -2296,8 +2287,8 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
     {
 	if ( !remove_obj_loc( ch, WEAR_ABOUT, fReplace ) )
 	    return;
-	act( "$n wears $p about $s torso.",   ch, obj, NULL, TO_ROOM );
-	act( "You wear $p about your torso.", ch, obj, NULL, TO_CHAR );
+      act( "$n gövdesine $p giyiyor.",   ch, obj, NULL, TO_ROOM );
+    	act( "Gövdene $p giyiyorsun.", ch, obj, NULL, TO_CHAR );
 	equip_char( ch, obj, WEAR_ABOUT );
 	return;
     }
@@ -2306,8 +2297,8 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
     {
 	if ( !remove_obj_loc( ch, WEAR_WAIST, fReplace ) )
 	    return;
-	act( "$n wears $p about $s waist.",   ch, obj, NULL, TO_ROOM );
-	act( "You wear $p about your waist.", ch, obj, NULL, TO_CHAR );
+      act( "$n beline $p takýyor.",   ch, obj, NULL, TO_ROOM );
+    	act( "Beline $p takýyorsun.", ch, obj, NULL, TO_CHAR );
 	equip_char( ch, obj, WEAR_WAIST );
 	return;
     }
@@ -2334,7 +2325,7 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
 		hold_a_shield(ch, obj, WEAR_LEFT);
 	else if ( remove_obj_loc( ch, WEAR_RIGHT, fReplace ) )
 		hold_a_shield(ch, obj, WEAR_RIGHT);
-        else send_to_char("You can't hold a shield right now.\n\r",ch);
+    else send_to_char("Þu an bir kalkan tutamazsýn.\n\r",ch);
 	return;
     }
 
@@ -2360,7 +2351,7 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
 		hold_a_thing(ch, obj, WEAR_LEFT);
 	else if ( remove_obj_loc( ch, WEAR_RIGHT, fReplace ) )
 		hold_a_thing(ch, obj, WEAR_RIGHT);
-        else send_to_char("You can't hold a thing right now.\n\r",ch);
+    else send_to_char("Þu an birþey tutamazsýn.\n\r",ch);
 	return;
     }
 
@@ -2369,8 +2360,8 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
     {
 	if (!remove_obj_loc(ch,WEAR_FLOAT, fReplace) )
 	    return;
-	act("$n releases $p to float next to $m.",ch,obj,NULL,TO_ROOM);
-	act("You release $p and it floats next to you.",ch,obj,NULL,TO_CHAR);
+      act("$n $p'yi yanýnda süzülmesi için býrakýyor.",ch,obj,NULL,TO_ROOM);
+    	act("$p'yi yanýnda süzülmesi için býrakýyorsun.",ch,obj,NULL,TO_CHAR);
 	equip_char(ch,obj,WEAR_FLOAT);
 	return;
     }
@@ -2382,7 +2373,7 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
     }
 
     if ( fReplace )
-	send_to_char( "You can't wear, wield, or hold that.\n\r", ch );
+    send_to_char("Onu giyemez veya tutamazsýn.\n\r", ch );
 
     return;
 }
@@ -2398,11 +2389,11 @@ void do_wear( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' )
     {
-	send_to_char( "Wear, wield, or hold what?\n\r", ch );
+      send_to_char( "Neyi giyecek ya da tutacaksýn?\n\r", ch );
 	return;
     }
 
-    if ( !str_cmp( arg, "all" ) )
+    if ( !str_cmp( arg, "tümü" ) )
     {
 	OBJ_DATA *obj_next;
 
@@ -2418,7 +2409,7 @@ void do_wear( CHAR_DATA *ch, char *argument )
     {
 	if ( ( obj = get_obj_carry( ch, arg ) ) == NULL )
 	{
-	    send_to_char( "You do not have that item.\n\r", ch );
+    send_to_char( "Sende öyle birþey yok.\n\r", ch );
 	    return;
 	}
 
@@ -2439,12 +2430,12 @@ void do_remove( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' )
     {
-	send_to_char( "Remove what?\n\r", ch );
+      send_to_char( "Neyi çýkaracaksýn?\n\r", ch );
 	return;
     }
 
 
-    if ( !str_cmp( arg, "all" ) )
+    if ( !str_cmp( arg, "tümü" ) )
     {
         OBJ_DATA *obj_next;
 
@@ -2459,7 +2450,7 @@ void do_remove( CHAR_DATA *ch, char *argument )
 
     if ( ( obj = get_obj_wear( ch, arg ) ) == NULL )
     {
-	send_to_char( "You do not have that item.\n\r", ch );
+      send_to_char( "Sende öyle birþey yok.\n\r", ch );
 	return;
     }
 
@@ -2481,8 +2472,10 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
     int silver;
     int iScatter;
     bool fScatter;
+    int count;
+    long toplam_silver;
 
-    
+
     /* variables for AUTOSPLIT */
     CHAR_DATA *gch;
     int members;
@@ -2493,30 +2486,58 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' || !str_cmp( arg, ch->name ) )
     {
-	act( "$n offers $mself to gods, who graciously declines.",
+      act( "$n kendisini tanrýlara sunuyor.",
 	    ch, NULL, NULL, TO_ROOM );
 	send_to_char(
-	    "Gods appreciates your offer and may accept it later.\n\r", ch );
+    "Tanrýlar teklifini takdir ediyor...\n\r", ch );
 	return;
     }
+
+    /* kurban tümü */
+    count=0;
+    toplam_silver=0;
+    if ( !str_cmp( arg, "tümü" ) )
+      {
+      for ( obj = ch->in_room->contents; obj != NULL; obj = obj_next )
+      {
+        obj_next = obj->next_content;
+        if ( can_see_obj( ch, obj ) && !IS_OBJ_STAT(obj,ITEM_NOPURGE) && obj->item_type != ITEM_CORPSE_PC  && CAN_WEAR(obj, ITEM_TAKE) && !CAN_WEAR(obj, ITEM_NO_SAC) )
+        {
+          silver = UMAX(1,number_fuzzy(obj->level));
+          if (obj->item_type != ITEM_CORPSE_NPC && obj->item_type != ITEM_CORPSE_PC)
+              silver = UMIN(silver,obj->cost);
+          count++;//kurban edilen eþya sayýsý
+          toplam_silver+=silver;//kurban etme iþleminden toplanan akçe sayýsý
+          extract_obj( obj );
+        }
+      }
+    if (count>0)//eger birþeyler kurban edilebilmiþse
+    {
+      sprintf(buf,"Tanrýlar %d kurbanýn için %ld akçe veriyor.\n\r",count,toplam_silver);
+      send_to_char(buf,ch);
+      ch->silver += toplam_silver;
+    }
+    return;
+      }
+    /* kurban tümü bitti */
 
     obj = get_obj_list( ch, arg, ch->in_room->contents );
     if ( obj == NULL )
     {
-	send_to_char( "You can't find it.\n\r", ch );
+      send_to_char( "Onu bulamýyorsun.\n\r", ch );
 	return;
     }
 
     if ( obj->item_type == ITEM_CORPSE_PC && ch->level < MAX_LEVEL )
     {
-     send_to_char("Gods wouldn't like that.\n\r",ch);
+      send_to_char("Tanrýlar bundan hoþlanmaz.\n\r",ch);
      return;
     }
 
 
     if ( !CAN_WEAR(obj, ITEM_TAKE) || CAN_WEAR(obj, ITEM_NO_SAC))
     {
-	act( "$p is not an acceptable sacrifice.", ch, obj, 0, TO_CHAR );
+      act( "$p kabul edilebilir bir kurban deðil.", ch, obj, 0, TO_CHAR );
 	return;
     }
 
@@ -2527,16 +2548,15 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
 
     if (silver == 1)
         send_to_char(
-	    "Gods give you one silver coin for your sacrifice.\n\r", ch );
+          "Tanrýlar kurbanýn için 1 akçe veriyor.\n\r", ch );
     else
     {
-	sprintf(buf,"Gods give you %d silver coins for your sacrifice.\n\r",
-		silver);
+      sprintf(buf,"Tanrýlar kurbanýn için %d akçe veriyor.\n\r",silver);
 	send_to_char(buf,ch);
     }
 
     ch->silver += silver;
-    
+
     if (IS_SET(ch->act,PLR_AUTOSPLIT) )
     { /* AUTOSPLIT code */
     	members = 0;
@@ -2549,11 +2569,11 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
 	if ( members > 1 && silver > 1)
 	{
 	    sprintf(buffer,"%d",silver);
-	    do_split(ch,buffer);	
+	    do_split(ch,buffer);
 	}
     }
 
-    act( "$n sacrifices $p to gods.", ch, obj, NULL, TO_ROOM );
+    act( "$n tanrýlara $p kurban ediyor.", ch, obj, NULL, TO_ROOM );
 
     if (IS_SET(obj->progtypes,OPROG_SAC))
       if ( (obj->pIndexData->oprogs->sac_prog) (obj,ch) )
@@ -2562,10 +2582,10 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
     wiznet("$N sends up $p as a burnt offering.",
 	   ch,obj,WIZ_SACCING,0,0);
     fScatter = TRUE;
-    if ( (obj->item_type == ITEM_CORPSE_NPC ) || 
+    if ( (obj->item_type == ITEM_CORPSE_NPC ) ||
 	  (obj->item_type == ITEM_CORPSE_PC  ) )
     {
-      iScatter = 0; 
+      iScatter = 0;
       for ( obj_content = obj->contains; obj_content; obj_content = obj_next )
       {
   	obj_next = obj_content->next_content;
@@ -2575,52 +2595,52 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
 	iScatter++;
       }
       if ( iScatter == 1 )  {
-	act( "Your sacrifice reveals $p.", ch, two_objs[0], NULL, TO_CHAR);
-	act( "$p is revealed by $n's sacrifice.", ch, two_objs[0], NULL, TO_ROOM);
+        act(  "Kurban etmenin ardýndan $p ortaya çýkýyor.", ch, two_objs[0], NULL, TO_CHAR);
+      	act(  "$s kurbanýnýn ardýndan $p ortaya çýkýyor.", ch, two_objs[0], NULL, TO_ROOM);
       }
       if ( iScatter == 2 )  {
-	act( "Your sacrifice reveals $p and $P.", ch, two_objs[0], two_objs[1], TO_CHAR);
-	act( "$p and $P are revealed by $n's sacrifice.", ch, two_objs[0], two_objs[1], TO_ROOM);
+        act( "Kurban etmenin ardýndan $p ve $P ortaya çýkýyor.", ch, two_objs[0], two_objs[1], TO_CHAR);
+      	act( "$s kurbanýnýn ardýndan $p ve $P ortaya çýkýyor.", ch, two_objs[0], two_objs[1], TO_ROOM);
       }
-      sprintf( buf, "As you sacrifice the corpse, " );
-      sprintf( buf2, "As $n sacrifices the corpse, ");
+      sprintf( buf, "Cesedi kurban ettiðinde " );
+      sprintf( buf2, "$s cesedi kurban etmesiyle " );
       if ( iScatter < 3 )
-		   fScatter = FALSE; 	
+		   fScatter = FALSE;
 	else if ( iScatter < 5 )  {
-	           strcat( buf, "few things " );
-		   strcat( buf2, "few things " );
+    strcat( buf, "üzerindeki birkaç þey " );
+strcat( buf2, "üzerindeki birkaç þey " );
  	}
 	else if ( iScatter < 9 )  {
-		   strcat( buf, "a bunch of objects " );
-                   strcat( buf2, "a bunch of objects " );
+    strcat( buf, "üzerindeki bir miktar eþya " );
+                strcat( buf2, "üzerindeki bir miktar eþya " );
         }
 	else if ( iScatter < 15 )  {
-		    strcat( buf, "many things " );
-                    strcat( buf2, "many things " );
+    strcat( buf, "üzerindeki bir sürü þey " );
+                strcat( buf2, "üzerindeki bir sürü þey " );
         }
 	else  {
-		   strcat( buf, "a lot of objects " );
-                   strcat( buf2, "a lot of objects " );
+    strcat( buf, "üzerindeki bir sürü þey " );
+                strcat( buf2, "üzerindeki bir sürü þey " );
         }
       strcat( buf, "on it, " );
       strcat( buf2, "on it, " );
 
       switch( ch->in_room->sector_type )  {
-	case SECT_FIELD: strcat( buf, "scatter on the dirt." );
-                         strcat( buf2, "scatter on the dirt." );
-                         break;
-	case SECT_FOREST: strcat( buf, "scatter on the dirt." );
-                          strcat( buf2, "scatter on the dirt." );
-                          break;
-	case SECT_WATER_SWIM: strcat( buf, "scatter over the water." );
-                          strcat( buf2, "scatter over the water." );
-                          break;
-	case SECT_WATER_NOSWIM: strcat( buf, "scatter over the water." );
-                          strcat( buf2, "scatter over the water." );
-                          break;
-	default: strcat( buf, "scatter around." );
-                      strcat( buf2, "scatter around." );
-                      break;
+        case SECT_FIELD: strcat( buf, "yere saçýlýyor." );
+                               strcat( buf2, "yere saçýlýyor." );
+                               break;
+      	case SECT_FOREST: strcat( buf, "yere saçýlýyor." );
+                                strcat( buf2, "yere saçýlýyor." );
+                                break;
+      	case SECT_WATER_SWIM: strcat( buf, "suya saçýlýyor." );
+                                strcat( buf2, "suya saçýlýyor." );
+                                break;
+      	case SECT_WATER_NOSWIM: strcat( buf, "suya saçýlýyor." );
+                                strcat( buf2, "suya saçýlýyor." );
+                                break;
+      	default: strcat( buf, "etrafa saçýlýyor." );
+                            strcat( buf2, "etrafa saçýlýyor." );
+                            break;
       }
       if ( fScatter )  {
 	act( buf, ch, NULL, NULL, TO_CHAR );
@@ -2642,39 +2662,39 @@ void do_quaff( CHAR_DATA *ch, char *argument )
 
     one_argument( argument, arg );
 
-    if (ch->cabal == CABAL_BATTLE && !IS_IMMORTAL(ch)) 
+    if (ch->cabal == CABAL_BATTLE && !IS_IMMORTAL(ch))
     {
-      send_to_char("You are a BattleRager, not a filthy magician!\n\r",ch);
+      send_to_char("Sen bir BattleRager'sýn, pis bir büyücü deðil!\n\r",ch);
       return;
     }
 
     if ( arg[0] == '\0' )
     {
-	send_to_char( "Quaff what?\n\r", ch );
+	send_to_char("Neyi yudumlayacaksýn?\n\r", ch );
 	return;
     }
 
     if ( ( obj = get_obj_carry( ch, arg ) ) == NULL )
     {
-	send_to_char( "You do not have that potion.\n\r", ch );
+	send_to_char( "O iksirden sende yok.\n\r", ch );
 	return;
     }
 
     if ( obj->item_type != ITEM_POTION )
     {
-	send_to_char( "You can quaff only potions.\n\r", ch );
+	send_to_char( "Yalnýz iksirleri yudumlayabilirsin.\n\r", ch );
 	return;
     }
 
     if (ch->level < obj->level)
     {
-	send_to_char("This liquid is too powerful for you to drink.\n\r",ch);
+	send_to_char("O iksir kaldýramayacaðýn kadar güçlü.\n\r",ch);
 	return;
     }
 
 
-    act( "$n quaffs $p.", ch, obj, NULL, TO_ROOM );
-    act( "You quaff $p.", ch, obj, NULL ,TO_CHAR );
+    act( "$n $p yudumluyor.", ch, obj, NULL, TO_ROOM );
+    act( "$p yudumluyorsun.", ch, obj, NULL ,TO_CHAR );
 
     obj_cast_spell( obj->value[1], obj->value[0], ch, ch, NULL );
     obj_cast_spell( obj->value[2], obj->value[0], ch, ch, NULL );
@@ -2707,8 +2727,8 @@ void do_recite( CHAR_DATA *ch, char *argument )
 
     if ( ch->cabal == CABAL_BATTLE )
     {
-	send_to_char( 
-	"RECITE?!  You are a battle rager, not a filthy magician!\n\r", ch );
+	send_to_char(
+	"Parþömen okumak?!  Sen bir BattleRager'sýn, pis bir büyücü deðil!\n\r", ch );
 	return;
     }
 
@@ -2717,13 +2737,13 @@ void do_recite( CHAR_DATA *ch, char *argument )
 
     if ( ( scroll = get_obj_carry( ch, arg1 ) ) == NULL )
     {
-	send_to_char( "You do not have that scroll.\n\r", ch );
+	send_to_char( "O parþömen sende yok.\n\r", ch );
 	return;
     }
 
     if ( scroll->item_type != ITEM_SCROLL )
     {
-	send_to_char( "You can recite only scrolls.\n\r", ch );
+	send_to_char( "Yalnýz parþömenler recite edilebilir.\n\r", ch );
 	return;
     }
 
@@ -2731,7 +2751,7 @@ void do_recite( CHAR_DATA *ch, char *argument )
     if ( ch->level < scroll->level)
     {
 	send_to_char(
-		"This scroll is too complex for you to comprehend.\n\r",ch);
+		"Parþömen kavrayamayacaðýn kadar karmaþýk.\n\r",ch);
 	return;
     }
 
@@ -2745,17 +2765,17 @@ void do_recite( CHAR_DATA *ch, char *argument )
 	if ( ( victim = get_char_room ( ch, arg2 ) ) == NULL
 	&&   ( obj    = get_obj_here  ( ch, arg2 ) ) == NULL )
 	{
-	    send_to_char( "You can't find it.\n\r", ch );
+	    send_to_char( "Onu bulamýyorsun.\n\r", ch );
 	    return;
 	}
     }
 
-    act( "$n recites $p.", ch, scroll, NULL, TO_ROOM );
-    act( "You recite $p.", ch, scroll, NULL, TO_CHAR );
+    act( "$n $p okuyor.", ch, scroll, NULL, TO_ROOM );
+    act( "$p okuyorsun.", ch, scroll, NULL, TO_CHAR );
 
     if (number_percent() >= get_skill(ch,gsn_scrolls) * 4/5 )
     {
-	send_to_char("You mispronounce a syllable.\n\r",ch);
+	send_to_char("Bir heceyi yanlýþ telaffuz ettin.\n\r",ch);
 	check_improve(ch,gsn_scrolls,FALSE,2);
     }
 
@@ -2789,19 +2809,19 @@ void do_brandish( CHAR_DATA *ch, char *argument )
 
     if ( ch->cabal == CABAL_BATTLE )
     {
-	send_to_char( "You are not a filthy magician!\n\r", ch );
+	send_to_char( "Pis bir büyücü deðilsin!\n\r", ch );
 	return;
     }
 
     if ( ( staff = get_hold_char( ch ) ) == NULL )
     {
-	send_to_char( "You hold nothing in your hand.\n\r", ch );
+	send_to_char( "Elinde tuttuðun birþey yok.\n\r", ch );
 	return;
     }
 
     if ( staff->item_type != ITEM_STAFF )
     {
-	send_to_char( "You can brandish only with a staff.\n\r", ch );
+	send_to_char( "Yalnýz asalar savrulabilir.\n\r", ch );
 	return;
     }
 
@@ -2817,16 +2837,16 @@ void do_brandish( CHAR_DATA *ch, char *argument )
 
     if ( staff->value[2] > 0 )
     {
-	act( "$n brandishes $p.", ch, staff, NULL, TO_ROOM );
-	act( "You brandish $p.",  ch, staff, NULL, TO_CHAR );
+	act( "$n $p savuruyor.", ch, staff, NULL, TO_ROOM );
+	act( "$p savuruyorsun.",  ch, staff, NULL, TO_CHAR );
 	if ( ch->level+3 < staff->level
 	||   number_percent() >= 10 + get_skill(ch,gsn_staves) * 4/5)
  	{
-	    act ("You fail to invoke $p.",ch,staff,NULL,TO_CHAR);
-	    act ("...and nothing happens.",ch,NULL,NULL,TO_ROOM);
+	    act ("$p'yi uyandýrmayý baþaramadýn.",ch,staff,NULL,TO_CHAR);
+	    act ("...ve hiçbir þey olmuyor.",ch,NULL,NULL,TO_ROOM);
 	    check_improve(ch,gsn_staves,FALSE,2);
 	}
-	
+
 	else for ( vch = ch->in_room->people; vch; vch = vch_next )
 	{
 	    vch_next	= vch->next_in_room;
@@ -2846,7 +2866,7 @@ void do_brandish( CHAR_DATA *ch, char *argument )
 		if ( IS_NPC(ch) ? IS_NPC(vch) : !IS_NPC(vch) )
 		    continue;
 		break;
-		
+
 	    case TAR_CHAR_DEFENSIVE:
 		if ( IS_NPC(ch) ? !IS_NPC(vch) : IS_NPC(vch) )
 		    continue;
@@ -2865,8 +2885,8 @@ void do_brandish( CHAR_DATA *ch, char *argument )
 
     if ( --staff->value[2] <= 0 )
     {
-	act( "$n's $p blazes bright and is gone.", ch, staff, NULL, TO_ROOM );
-	act( "Your $p blazes bright and is gone.", ch, staff, NULL, TO_CHAR );
+	act("$n's $p parlayarak yokoluyor.", ch, staff, NULL, TO_ROOM );
+	act("$p parlayarak yokoluyor.", ch, staff, NULL, TO_CHAR );
 	extract_obj( staff );
     }
 
@@ -2884,26 +2904,26 @@ void do_zap( CHAR_DATA *ch, char *argument )
 
     if ( ch->cabal == CABAL_BATTLE )
     {
-	send_to_char( "You'd destroy the magic, not use it!\n\r", ch );
+	send_to_char("Büyüyü kullanmak yerine yoketmelisin!\n\r", ch );
 	return;
     }
 
     one_argument( argument, arg );
     if ( arg[0] == '\0' && ch->fighting == NULL )
     {
-	send_to_char( "Zap whom or what?\n\r", ch );
+	send_to_char( "Kimi veya neyi çarpacaksýn?\n\r", ch );
 	return;
     }
 
     if ( ( wand = get_hold_char( ch ) ) == NULL )
     {
-	send_to_char( "You hold nothing in your hand.\n\r", ch );
+	send_to_char( "Elinde birþey tutmuyorsun.\n\r", ch );
 	return;
     }
 
     if ( wand->item_type != ITEM_WAND )
     {
-	send_to_char( "You can zap only with a wand.\n\r", ch );
+	send_to_char( "Yalnýz deðneklerle çarpabilirsin.\n\r", ch );
 	return;
     }
 
@@ -2916,7 +2936,7 @@ void do_zap( CHAR_DATA *ch, char *argument )
 	}
 	else
 	{
-	    send_to_char( "Zap whom or what?\n\r", ch );
+	    send_to_char("Kimi veya neyi çarpacaksýn?\n\r", ch );
 	    return;
 	}
     }
@@ -2925,7 +2945,7 @@ void do_zap( CHAR_DATA *ch, char *argument )
 	if ( ( victim = get_char_room ( ch, arg ) ) == NULL
 	&&   ( obj    = get_obj_here  ( ch, arg ) ) == NULL )
 	{
-	    send_to_char( "You can't find it.\n\r", ch );
+	    send_to_char( "Onu bulamýyorsun.\n\r", ch );
 	    return;
 	}
     }
@@ -2936,21 +2956,21 @@ void do_zap( CHAR_DATA *ch, char *argument )
     {
 	if ( victim != NULL )
 	{
-	    act( "$n zaps $N with $p.", ch, wand, victim, TO_ROOM );
-	    act( "You zap $N with $p.", ch, wand, victim, TO_CHAR );
+	    act("$n $p ile $M çarpýyor.", ch, wand, victim, TO_ROOM );
+	    act("$p ile $M çarpýyorsun.", ch, wand, victim, TO_CHAR );
 	}
 	else
 	{
-	    act( "$n zaps $P with $p.", ch, wand, obj, TO_ROOM );
-	    act( "You zap $P with $p.", ch, wand, obj, TO_CHAR );
+	    act( "$n $p ile $P'yi çarpýyor.", ch, wand, obj, TO_ROOM );
+	    act( "$p ile $P'yi çarpýyorsun.", ch, wand, obj, TO_CHAR );
 	}
 
- 	if (ch->level+5 < wand->level 
-	||  number_percent() >= 20 + get_skill(ch,gsn_wands) * 4/5) 
+ 	if (ch->level+5 < wand->level
+	||  number_percent() >= 20 + get_skill(ch,gsn_wands) * 4/5)
 	{
-	    act( "Your efforts with $p produce only smoke and sparks.",
+	    act( "$p ile uðraþýnýn sonunda yalnýz duman ve kývýlcýmlar çýkýyor.",
 		 ch,wand,NULL,TO_CHAR);
-	    act( "$n's efforts with $p produce only smoke and sparks.",
+	    act( "$s $p ile uðraþýnýn sonunda yalnýz duman ve kývýlcýmlar çýkýyor.",
 		 ch,wand,NULL,TO_ROOM);
 	    check_improve(ch,gsn_wands,FALSE,2);
 	}
@@ -2963,8 +2983,8 @@ void do_zap( CHAR_DATA *ch, char *argument )
 
     if ( --wand->value[2] <= 0 )
     {
-	act( "$n's $p explodes into fragments.", ch, wand, NULL, TO_ROOM );
-	act( "Your $p explodes into fragments.", ch, wand, NULL, TO_CHAR );
+	act( "$s $p'si patlayarak parçalara ayrýlýyor.", ch, wand, NULL, TO_ROOM );
+	act( "$p patlayarak parçalara ayrýlýyor.", ch, wand, NULL, TO_CHAR );
 	extract_obj( wand );
     }
 
@@ -2989,32 +3009,32 @@ void do_steal( CHAR_DATA *ch, char *argument )
 
     if ( arg1[0] == '\0' || arg2[0] == '\0' )
     {
-	send_to_char( "Steal what from whom?\n\r", ch );
+      send_to_char( "Kimden ne araklayacaksýn?\n\r", ch );
 	return;
     }
 
-    if ( IS_NPC(ch) && IS_SET(ch->affected_by, AFF_CHARM) 
+    if ( IS_NPC(ch) && IS_SET(ch->affected_by, AFF_CHARM)
 	&& (ch->master != NULL))
       {
-	send_to_char( "You are to dazed to steal anything.\n\r", ch);
+        send_to_char( "Bir þey araklayamayacak kadar sersemlemiþsin.\n\r", ch);
 	return;
       }
 
     if ( ( victim = get_char_room( ch, arg2 ) ) == NULL )
     {
-	send_to_char( "They aren't here.\n\r", ch );
+      send_to_char("Burada deðil.\n\r", ch);
 	return;
     }
 
     if (!IS_NPC(victim) && victim->desc == NULL)
     {
-	send_to_char("You can't do that.\n\r", ch);
+      send_to_char("Bunu yapamazsýn.\n\r", ch);
 	return;
     }
 
     if ( victim == ch )
     {
-	send_to_char( "That's pointless.\n\r", ch );
+	send_to_char( "Bu biraz anlamsýz.\n\r", ch );
 	return;
     }
 
@@ -3023,7 +3043,7 @@ void do_steal( CHAR_DATA *ch, char *argument )
 
     if (victim->position == POS_FIGHTING)
     {
-	send_to_char("You'd better not -- you might get hit.\n\r",ch);
+      send_to_char("Denemesen daha iyi, arada darbe alabilirsin.\n\r",ch);
 	return;
     }
 
@@ -3036,18 +3056,17 @@ void do_steal( CHAR_DATA *ch, char *argument )
     percent  = get_skill(ch, gsn_steal) + ( IS_AWAKE(victim) ? -10 : 30 );
     percent -= can_see( victim, ch ) ? 10 : 0;
     percent -= (IS_NPC(victim) && victim->pIndexData->pShop != NULL) ? 25 : 0;
-    percent -= (victim->level > ch->level) ? 
+    percent -= (victim->level > ch->level) ?
 			((victim->level - ch->level) * 2) : 0;
 
     obj = NULL;
-    if ( str_cmp( arg1, "coin"  )
-    &&   str_cmp( arg1, "coins" )
-    &&   str_cmp( arg1, "silver")
-    &&   str_cmp( arg1, "gold"  ) )
+    if ( str_cmp( arg1, "sikke"  )
+    &&   str_cmp( arg1, "altýn" )
+    &&   str_cmp( arg1, "akçe") )
     {
 	if ( ( obj = get_obj_carry( victim, arg1 ) ) == NULL )
 	{
-	 send_to_char( "You can't find it.\n\r", ch );
+    send_to_char( "Onu bulamýyorsun.\n\r", ch );
 	 return;
 	}
 
@@ -3059,15 +3078,15 @@ void do_steal( CHAR_DATA *ch, char *argument )
       ||   ( IS_OBJ_STAT(obj, ITEM_ANTI_GOOD)    && IS_GOOD(ch)    )
       ||   ( IS_OBJ_STAT(obj, ITEM_ANTI_NEUTRAL) && IS_NEUTRAL(ch) ) )
       {
-	act( "You are zapped by $p.", ch, obj, NULL, TO_CHAR );
-	act( "$n is zapped by $p.",  ch, obj, NULL, TO_ROOM );
+        act( "$p tarafýndan çarpýldýn.", ch, obj, NULL, TO_CHAR );
+      	act( "$n $p tarafýndan çarpýldý.",  ch, obj, NULL, TO_ROOM );
 	percent = 0;
       }
 
       if ( obj->pIndexData->limit < obj->pIndexData->count )
       {
-	act( "Gods doesn't allow $p to be stolen.", ch, obj, NULL, TO_CHAR );
-	act( "Gods doesn't approve $n's behaviour.",  ch, obj, NULL, TO_ROOM );
+        act( "Tanrýlar $p'nin araklanmasýna izin vermez.", ch, obj, NULL, TO_CHAR );
+      	act( "Tanrýlar $s davranýþýný onaylamýyor.",  ch, obj, NULL, TO_ROOM );
 	percent = 0;
       }
     }
@@ -3076,10 +3095,10 @@ void do_steal( CHAR_DATA *ch, char *argument )
 
     if ( ch->carry_number + number > can_carry_n( ch ) )
     {
-	send_to_char( "You can't carry that much item.\n\r", ch );
+      send_to_char( "Bu kadar çok þey taþýyamazsýn.\n\r", ch );
 	return;
     }
- 
+
     if ( victim->position == POS_FIGHTING
 	||  number_percent() > percent  )
     {
@@ -3091,24 +3110,23 @@ void do_steal( CHAR_DATA *ch, char *argument )
         if ( !IS_AFFECTED( victim, AFF_SLEEP ) ) {
           victim->position= victim->position==POS_SLEEPING? POS_STANDING:
 					victim->position;
-	  act( "$n tried to steal from you.\n\r", ch, NULL, victim,TO_VICT  );
+          act( "$n senden birþeyler araklamaya çalýþtý.\n\r", ch, NULL, victim,TO_VICT  );
         }
-	act( "$n tried to steal from $N.\n\r",  ch, NULL, victim,TO_NOTVICT);
+        act( "$n $Z birþey araklamaya çalýþtý.\n\r",  ch, NULL, victim,TO_NOTVICT);
 
 	switch(number_range(0,3))
 	{
-	case 0 :
-	   sprintf( buf, "%s is a lousy thief!", tmp_ch->name );
-	   break;
+    case 0 :
+		sprintf( buf, "Rezil bir hýrsýzsýn %s!", tmp_ch->name );
+		break;
         case 1 :
-	   sprintf( buf, "%s couldn't rob %s way out of a paper bag!",
-		    tmp_ch->name,(tmp_ch->sex == 2) ? "her" : "his");
-	   break;
-	case 2 :
-	    sprintf( buf,"%s tried to rob me!",tmp_ch->name );
+		sprintf( buf, "%s beni soyamadý!",tmp_ch->name);
+		break;
+		case 2 :
+	    sprintf( buf,"%s beni soymaya çalýþtý!",tmp_ch->name );
 	    break;
-	case 3 :
-	    sprintf(buf,"Keep your hands out of there, %s!",tmp_ch->name);
+		case 3 :
+	    sprintf(buf,"Ellerini oradan çek %s!",tmp_ch->name);
 	    break;
         }
 	if ( IS_AWAKE( victim ) )
@@ -3125,23 +3143,21 @@ void do_steal( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( !str_cmp( arg1, "coin"  )
-    ||   !str_cmp( arg1, "coins" )
-    ||   !str_cmp( arg1, "silver")
-    ||   !str_cmp( arg1, "gold"  ) )
+    if ( !str_cmp( arg1, "sikke"  )
+    ||   !str_cmp( arg1, "altýn" )
+    ||   !str_cmp( arg1, "akçe"))
     {
 	int amount_s = 0;
 	int amount_g = 0;
-        if ( !str_cmp( arg1, "silver" ) || 
-             !str_cmp(arg1, "coin" ) ||
-             !str_cmp(arg1, "coins" ) )
+  if ( !str_cmp( arg1, "akçe" ) ||
+       !str_cmp(arg1, "sikke" ) )
 	  amount_s = victim->silver * number_range(1, 20) / 100;
-        else if ( !str_cmp( arg1, "gold" ) )
+        else if ( !str_cmp( arg1, "altýn" ) )
 	  amount_g = victim->gold * number_range(1, 7) / 100;
 
 	if ( amount_s <= 0 && amount_g <= 0 )
 	{
-	    send_to_char( "You couldn't get any coins.\n\r", ch );
+    send_to_char( "Hiç sikke koparamadýn.\n\r", ch );
 	    return;
 	}
 
@@ -3149,9 +3165,9 @@ void do_steal( CHAR_DATA *ch, char *argument )
 	victim->gold -= amount_g;
 	ch->silver     += amount_s;
 	victim->silver -= amount_s;
-	sprintf( buf, "Bingo!  You got %d %s coins.\n\r", 
+  sprintf( buf, "Bingo!  %d %s sikke arakladýn.\n\r",
            amount_s!=0?amount_s:amount_g,
-           amount_s!=0?"silver":"gold" );
+           amount_s!=0?"akçe":"altýn" );
 
 	send_to_char( buf, ch );
 	check_improve(ch,gsn_steal,TRUE,2);
@@ -3162,37 +3178,37 @@ void do_steal( CHAR_DATA *ch, char *argument )
    /* ||   IS_SET(obj->extra_flags, ITEM_INVENTORY)*/
    /* ||  obj->level > ch->level */)
     {
-	send_to_char( "You can't pry it away.\n\r", ch );
+      send_to_char( "Onu alamýyorsun.\n\r", ch );
 	return;
     }
 
     if ( ch->carry_number + get_obj_number( obj ) > can_carry_n( ch ) )
     {
-	send_to_char( "You have your hands full.\n\r", ch );
+      send_to_char( "Ellerin dolu.\n\r", ch );
 	return;
     }
 
     if ( ch->carry_weight + get_obj_weight( obj ) > can_carry_w( ch ) )
     {
-	send_to_char( "You can't carry that much weight.\n\r", ch );
+      send_to_char( "O kadar aðýrlýk taþýyamazsýn.\n\r", ch );
 	return;
     }
 
     if ( !IS_SET( obj->extra_flags, ITEM_INVENTORY ) )  {
       obj_from_char( obj );
       obj_to_char( obj, ch );
-      send_to_char( "You got it!\n\r", ch );
+      send_to_char("Onu aldýn!\n\r", ch );
       check_improve(ch,gsn_steal,TRUE,2);
       if (IS_SET(obj->progtypes,OPROG_GET))
           (obj->pIndexData->oprogs->get_prog) (obj,ch);
     }
     else  {
       obj_inve = NULL;
-      obj_inve = create_object( obj->pIndexData, 0 ); 
+      obj_inve = create_object( obj->pIndexData, 0 );
       clone_object( obj, obj_inve );
       REMOVE_BIT( obj_inve->extra_flags, ITEM_INVENTORY );
       obj_to_char( obj_inve, ch );
-      send_to_char( "You got one of them!\n\r", ch );
+      send_to_char( "Bir tanesini aldýn!\n\r", ch );
       check_improve(ch,gsn_steal,TRUE,1);
       if (IS_SET(obj_inve->progtypes,OPROG_GET))
           (obj_inve->pIndexData->oprogs->get_prog) (obj_inve,ch);
@@ -3219,15 +3235,15 @@ CHAR_DATA *find_keeper( CHAR_DATA *ch )
 
     if ( pShop == NULL )
     {
-	send_to_char( "You can't do that here.\n\r", ch );
+      send_to_char("Burada yapamazsýn.\n\r", ch);
 	return NULL;
     }
 
-    if ( IS_SET(keeper->in_room->area->area_flag,AREA_HOMETOWN) 
+    if ( IS_SET(keeper->in_room->area->area_flag,AREA_HOMETOWN)
 	 && !IS_NPC(ch) && IS_SET(ch->act,PLR_WANTED) )
     {
-	do_say( keeper, (char*)"Criminals are not welcome!" );
-	sprintf( buf, "%s the CRIMINAL is over here!\n\r", ch->name );
+	do_say( keeper, (char*)"Þuçlularý hoþ karþýlamayýz!" );
+  sprintf( buf, "%s bir SUÇLU! Gördüm Onu!\n\r", ch->name );
 	do_yell( keeper, buf );
 	return NULL;
     }
@@ -3237,13 +3253,13 @@ CHAR_DATA *find_keeper( CHAR_DATA *ch )
      */
     if ( time_info.hour < pShop->open_hour )
     {
-	do_say( keeper, (char*)"Sorry, I am closed. Come back later." );
+	do_say( keeper, (char*)"Üzgünüm kapattým. Daha sonra gel." );
 	return NULL;
     }
-    
+
     if ( time_info.hour > pShop->close_hour )
     {
-	do_say( keeper, (char*)"Sorry, I am closed. Come back tomorrow." );
+	do_say( keeper, (char*)"Üzgünüm kapattým. Yarýn gel." );
 	return NULL;
     }
 
@@ -3252,7 +3268,7 @@ CHAR_DATA *find_keeper( CHAR_DATA *ch )
      */
     if ( !can_see( keeper, ch ) && !IS_IMMORTAL( ch ) )
     {
-	do_say( keeper, (char*)"I don't trade with folks I can't see." );
+	do_say( keeper, (char*)"Göremediðim tiplerle ticaret yapmam." );
 	return NULL;
     }
 
@@ -3269,7 +3285,7 @@ void obj_to_keeper( OBJ_DATA *obj, CHAR_DATA *ch )
     {
 	t_obj_next = t_obj->next_content;
 
-	if (obj->pIndexData == t_obj->pIndexData 
+	if (obj->pIndexData == t_obj->pIndexData
 	&&  !str_cmp(obj->short_descr,t_obj->short_descr))
 	{
 	    if (IS_OBJ_STAT(t_obj,ITEM_INVENTORY))
@@ -3307,7 +3323,7 @@ OBJ_DATA *get_obj_keeper( CHAR_DATA *ch, CHAR_DATA *keeper, char *argument )
     OBJ_DATA *obj;
     int number;
     int count;
- 
+
     number = number_argument( argument, arg );
     count  = 0;
     for ( obj = keeper->carrying; obj != NULL; obj = obj->next_content )
@@ -3319,7 +3335,7 @@ OBJ_DATA *get_obj_keeper( CHAR_DATA *ch, CHAR_DATA *keeper, char *argument )
         {
             if ( ++count == number )
                 return obj;
-	
+
 	    /* skip other objects of the same name */
 	    while (obj->next_content != NULL
 	    && obj->pIndexData == obj->next_content->pIndexData
@@ -3327,7 +3343,7 @@ OBJ_DATA *get_obj_keeper( CHAR_DATA *ch, CHAR_DATA *keeper, char *argument )
 		obj = obj->next_content;
         }
     }
- 
+
     return NULL;
 }
 
@@ -3396,7 +3412,7 @@ void do_buy( CHAR_DATA *ch, char *argument )
 
     if ( argument[0] == '\0' )
     {
-	send_to_char( "Buy what?\n\r", ch );
+      send_to_char("Ne satýn alacaksýn?\n\r", ch );
 	return;
     }
 
@@ -3425,7 +3441,7 @@ void do_buy( CHAR_DATA *ch, char *argument )
 	if ( pRoomIndexNext == NULL )
 	{
 	    bug( "Do_buy: bad pet shop at vnum %d.", ch->in_room->vnum );
-	    send_to_char( "Sorry, you can't buy that here.\n\r", ch );
+      send_to_char( "Üzgünüm, buradan satýn alamazsýn.\n\r", ch );
 	    return;
 	}
 
@@ -3436,11 +3452,11 @@ void do_buy( CHAR_DATA *ch, char *argument )
 
 	if ( pet == NULL || !IS_SET(pet->act, ACT_PET) || !IS_NPC(pet) )
 	{
-	    send_to_char( "Sorry, you can't buy that here.\n\r", ch );
+    send_to_char( "Üzgünüm, buradan satýn alamazsýn.\n\r", ch );
 	    return;
 	}
 
-	if (IS_SET(pet->act,ACT_RIDEABLE) 
+	if (IS_SET(pet->act,ACT_RIDEABLE)
 		&& ch->cabal == CABAL_KNIGHT
 		&& !MOUNTED(ch) )
 	{
@@ -3448,14 +3464,14 @@ void do_buy( CHAR_DATA *ch, char *argument )
 
 	 if ( (ch->silver + 100 * ch->gold) < cost )
 	 {
-	    send_to_char( "You can't afford it.\n\r", ch );
+     send_to_char( "Onu satýn almaya gücün yetmez.\n\r", ch );
 	    return;
 	 }
 
 	 if ( ch->level < pet->level + 5)
 	 {
 	    send_to_char(
-		"You're not powerful enough to master this pet.\n\r", ch );
+        "O hayvana hükmedecek güçte deðilsin.\n\r", ch );
 	    return;
 	 }
 
@@ -3465,14 +3481,14 @@ void do_buy( CHAR_DATA *ch, char *argument )
 
 	 char_to_room( pet, ch->in_room );
 	 do_mount(ch, pet->name);
-	 send_to_char( "Enjoy your mount.\n\r", ch );
-	 act( "$n bought $N as a mount.", ch, NULL, pet, TO_ROOM );
+   send_to_char( "Bineðin hayýrlý olsun.\n\r", ch );
+	 act( "$n binek olarak $N satýn aldý.", ch, NULL, pet, TO_ROOM );
 	 return;
 	}
 
 	if ( ch->pet != NULL )
 	{
-	    send_to_char("You already own a pet.\n\r",ch);
+    send_to_char("Zaten bir hayvanýn var.\n\r",ch);
 	    return;
 	}
 
@@ -3480,14 +3496,14 @@ void do_buy( CHAR_DATA *ch, char *argument )
 
 	if ( (ch->silver + 100 * ch->gold) < cost )
 	{
-	    send_to_char( "You can't afford it.\n\r", ch );
+    send_to_char( "Onu satýn almaya gücün yetmez.\n\r", ch );
 	    return;
 	}
 
 	if ( ch->level < pet->level )
 	{
 	    send_to_char(
-		"You're not powerful enough to master this pet.\n\r", ch );
+        "O hayvana hükmedecek güçte deðilsin.\n\r", ch );
 	    return;
 	}
 
@@ -3496,10 +3512,10 @@ void do_buy( CHAR_DATA *ch, char *argument )
 	if (roll < get_skill(ch,gsn_haggle))
 	{
 	    cost -= cost / 2 * roll / 100;
-	    sprintf(buf,"You haggle the price down to %d coins.\n\r",cost);
+      sprintf(buf,"pazarlýk ederek fiyatý %d sikkeye çekiyorsun.\n\r",cost);
 	    send_to_char(buf,ch);
 	    check_improve(ch,gsn_haggle,TRUE,4);
-	
+
 	}
 
 	deduct_cost(ch,cost);
@@ -3516,8 +3532,7 @@ void do_buy( CHAR_DATA *ch, char *argument )
 	    pet->name = str_dup( buf );
 	}
 
-	sprintf( buf, "%sA neck tag says 'I belong to %s'.\n\r",
-	    pet->description, ch->name );
+  sprintf( buf, "%sin tasmasý diyor ki 'Ben %s'e aitim'.\n\r",pet->description, ch->name );
 	free_string( pet->description );
 	pet->description = str_dup( buf );
 
@@ -3525,8 +3540,8 @@ void do_buy( CHAR_DATA *ch, char *argument )
 	add_follower( pet, ch );
 	pet->leader = ch;
 	ch->pet = pet;
-	send_to_char( "Enjoy your pet.\n\r", ch );
-	act( "$n bought $N as a pet.", ch, NULL, pet, TO_ROOM );
+  send_to_char( "Hayvanýn hayýrlý olsun.\n\r", ch );
+	act( "$n $N satýn aldý.", ch, NULL, pet, TO_ROOM );
 	return;
     }
     else
@@ -3542,7 +3557,7 @@ void do_buy( CHAR_DATA *ch, char *argument )
 	number = mult_argument(argument,arg);
 	if ( number < -1 || number > 100)
 	{
-	    act( "$n tells you 'Get real!", keeper, NULL, ch, TO_VICT );
+    act("$n sana anlatýyor 'Gerçekçi Ol!", keeper, NULL, ch, TO_VICT );
 	    ch->reply = keeper;
 	    return;
 	}
@@ -3552,8 +3567,8 @@ void do_buy( CHAR_DATA *ch, char *argument )
 
 	if ( cost <= 0 || !can_see_obj( ch, obj ) )
 	{
-	    act( "$n tells you 'I don't sell that -- try 'list''.",
-		keeper, NULL, ch, TO_VICT );
+    act( "$n 'Ondan satmýyorum, 'liste'yi dene' dedi.",
+  keeper, NULL, ch, TO_VICT );
 	    ch->reply = keeper;
 	    return;
 	}
@@ -3561,8 +3576,8 @@ void do_buy( CHAR_DATA *ch, char *argument )
 	if (!IS_OBJ_STAT(obj,ITEM_INVENTORY))
 	{
 	    for (t_obj = obj->next_content;
-	     	 count < number && t_obj != NULL; 
-	     	 t_obj = t_obj->next_content) 
+	     	 count < number && t_obj != NULL;
+	     	 t_obj = t_obj->next_content)
 	    {
 	    	if (t_obj->pIndexData == obj->pIndexData
 	    	&&  !str_cmp(t_obj->short_descr,obj->short_descr))
@@ -3573,7 +3588,7 @@ void do_buy( CHAR_DATA *ch, char *argument )
 
 	    if (count < number)
 	    {
-	    	act("$n tells you 'I don't have that many in stock.'",
+        act("$n 'Stoðumda o kadar yok' dedi.",
 		    keeper,NULL,ch,TO_VICT);
 	    	ch->reply = keeper;
 	    	return;
@@ -3584,35 +3599,35 @@ void do_buy( CHAR_DATA *ch, char *argument )
 	    count = 1 + obj->pIndexData->limit - obj->pIndexData->count;
 	    if (count < 1)
 	    {
-	    	act("$n tells you 'Gods will not approve me to sell that.'",
+        act("$n anlatýyor 'Tanrýlar onu satmamý onaylamaz.'",
 		    keeper,NULL,ch,TO_VICT);
 	    	ch->reply = keeper;
 	    	return;
 	    }
 	    if (count < number)
 	    {
-	    	act("$n tells you 'I don't have that many in stock.'",
+        act("$n 'Stoðumda o kadar yok' dedi.",
 		    keeper,NULL,ch,TO_VICT);
 	    	ch->reply = keeper;
 	    	return;
 	    }
 	}
 
-	if ( (ch->silver + ch->gold * 100) < cost * number )
+  if ( (ch->silver + ch->gold * 100) < cost * number )
 	{
 	    if (number > 1)
-		act("$n tells you 'You can't afford to buy that many.",
+		act("$n anlatýyor 'Bu kadar çok alacak paran yok.",
 		    keeper,obj,ch,TO_VICT);
 	    else
-	    	act( "$n tells you 'You can't afford to buy $p'.",
+	    	act( "$n anlatýyor '$p satýn alacak paran yok'.",
 		    keeper, obj, ch, TO_VICT );
 	    ch->reply = keeper;
 	    return;
 	}
-	
+
 	if ( obj->level > ch->level )
 	{
-	    act( "$n tells you 'You can't use $p yet'.",
+    act( "$n anlatýyor 'Henüz $p kullanamazsýn'.",
 		keeper, obj, ch, TO_VICT );
 	    ch->reply = keeper;
 	    return;
@@ -3620,37 +3635,37 @@ void do_buy( CHAR_DATA *ch, char *argument )
 
 	if (ch->carry_number +  number * get_obj_number(obj) > can_carry_n(ch))
 	{
-	    send_to_char( "You can't carry that many items.\n\r", ch );
+    send_to_char("Bu kadar çok þeyi taþýyamazsýn.\n\r", ch );
 	    return;
 	}
 
 	if ( ch->carry_weight + number * get_obj_weight(obj) > can_carry_w(ch))
 	{
-	    send_to_char( "You can't carry that much weight.\n\r", ch );
+    send_to_char( "Bu kadar aðýrlýðý taþýyamazsýn.\n\r", ch );
 	    return;
 	}
 
 	/* haggle */
 	roll = number_percent();
-	if (!IS_OBJ_STAT(obj,ITEM_SELL_EXTRACT) 
+	if (!IS_OBJ_STAT(obj,ITEM_SELL_EXTRACT)
 	&& roll < get_skill(ch,gsn_haggle))
 	{
 	    cost -= obj->cost / 2 * roll / 100;
-	    act("You haggle with $N.",ch,NULL,keeper,TO_CHAR);
+      act("$N ile pazarlýk ediyorsun.",ch,NULL,keeper,TO_CHAR);
 	    check_improve(ch,gsn_haggle,TRUE,4);
 	}
 
 	if (number > 1)
 	{
-	    sprintf(buf,"$n buys $p[%d].",number);
-	    act(buf,ch,obj,NULL,TO_ROOM);
-	    sprintf(buf,"You buy $p[%d] for %d silver.",number,cost * number);
-	    act(buf,ch,obj,NULL,TO_CHAR);
+    sprintf(buf,"$n $p[%d] satýn alýyor.",number);
+    act(buf,ch,obj,NULL,TO_ROOM);
+    sprintf(buf,"%d akçeye $p[%d] satýn alýyorsun.",cost * number,number);
+    act(buf,ch,obj,NULL,TO_CHAR);
 	}
 	else
 	{
-	    act( "$n buys $p.", ch, obj, NULL, TO_ROOM );
-	    sprintf(buf,"You buy $p for %d silver.",cost);
+    act( "$n $p satýn alýyor.", ch, obj, NULL, TO_ROOM );
+    sprintf(buf,"%d akçeye $p satýn alýyorsun.",cost);
 	    act( buf, ch, obj, NULL, TO_CHAR );
 	}
 	deduct_cost(ch,cost * number);
@@ -3700,7 +3715,7 @@ void do_list( CHAR_DATA *ch, char *argument )
 	if ( pRoomIndexNext == NULL )
 	{
 	    bug( "Do_list: bad pet shop at vnum %d.", ch->in_room->vnum );
-	    send_to_char( "You can't do that here.\n\r", ch );
+	    send_to_char( "Burada yapamazsýn.\n\r", ch );
 	    return;
 	}
 
@@ -3713,7 +3728,7 @@ void do_list( CHAR_DATA *ch, char *argument )
 		if ( !found )
 		{
 		    found = TRUE;
-		    send_to_char( "Pets for sale:\n\r", ch );
+        send_to_char( "Satýlýk hayvanlar:\n\r", ch );
 		}
 		sprintf( buf, "[%2d] %8d - %s\n\r",
 		    pet->level,
@@ -3723,7 +3738,7 @@ void do_list( CHAR_DATA *ch, char *argument )
 	    }
 	}
 	if ( !found )
-	    send_to_char( "Sorry, we're out of pets right now.\n\r", ch );
+  send_to_char("Üzgünüm, elimizde hayvan kalmadý.\n\r", ch );
 	return;
     }
     else
@@ -3743,14 +3758,14 @@ void do_list( CHAR_DATA *ch, char *argument )
 	{
 	    if ( obj->wear_loc == WEAR_NONE
 	    &&   can_see_obj( ch, obj )
-	    &&   ( cost = get_cost( keeper, obj, TRUE ) ) > 0 
-	    &&   ( arg[0] == '\0'  
+	    &&   ( cost = get_cost( keeper, obj, TRUE ) ) > 0
+	    &&   ( arg[0] == '\0'
  	       ||  is_name(arg,obj->name) ))
 	    {
 		if ( !found )
 		{
 		    found = TRUE;
-		    send_to_char( "[Lv Price Qty] Item\n\r", ch );
+        send_to_char( "[Sv Fiyat Adt] Eþya\n\r", ch );
 		}
 
 		if (IS_OBJ_STAT(obj,ITEM_INVENTORY))
@@ -3761,7 +3776,7 @@ void do_list( CHAR_DATA *ch, char *argument )
 		{
 		    count = 1;
 
-		    while (obj->next_content != NULL 
+		    while (obj->next_content != NULL
 		    && obj->pIndexData == obj->next_content->pIndexData
 		    && !str_cmp(obj->short_descr,
 			        obj->next_content->short_descr))
@@ -3777,7 +3792,7 @@ void do_list( CHAR_DATA *ch, char *argument )
 	}
 
 	if ( !found )
-	    send_to_char( "You can't buy anything here.\n\r", ch );
+  send_to_char( "Buradan birþey satýn alamazsýn.\n\r", ch );
 	return;
     }
 }
@@ -3797,7 +3812,7 @@ void do_sell( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' )
     {
-	send_to_char( "Sell what?\n\r", ch );
+      send_to_char( "Ne satacaksýn?\n\r", ch );
 	return;
     }
 
@@ -3806,7 +3821,7 @@ void do_sell( CHAR_DATA *ch, char *argument )
 
     if ( ( obj = get_obj_carry( ch, arg ) ) == NULL )
     {
-	act( "$n tells you 'You don't have that item'.",
+      act( "$n anlatýyor 'Sende ondan yok.'",
 	    keeper, NULL, ch, TO_VICT );
 	ch->reply = keeper;
 	return;
@@ -3814,35 +3829,35 @@ void do_sell( CHAR_DATA *ch, char *argument )
 
     if ( !can_drop_obj( ch, obj ) )
     {
-	send_to_char( "You can't let go of it.\n\r", ch );
+      send_to_char("Ondan kurtulamýyorsun.\n\r", ch );
 	return;
     }
 
     if (!can_see_obj(keeper,obj))
     {
-	act("$n doesn't see what you are offering.",keeper,NULL,ch,TO_VICT);
+      act("$n teklif ettiðin þeyi göremiyor.",keeper,NULL,ch,TO_VICT);
 	return;
     }
 
     if ( ( cost = get_cost( keeper, obj, FALSE ) ) <= 0 )
     {
-	act( "$n looks uninterested in $p.", keeper, obj, ch, TO_VICT );
+      act(  "$n $p ile ilgilenmiyor.", keeper, obj, ch, TO_VICT );
 	return;
     }
     if ( cost > (keeper->silver + 100 * keeper->gold) )
     {
-	act("$n tells you 'I'm afraid I don't have enough wealth to buy $p.",
+      act("$n anlatýyor 'Üzgünüm $p'nin ederini ödeyemem.",
 	    keeper,obj,ch,TO_VICT);
 	return;
     }
 
-    act( "$n sells $p.", ch, obj, NULL, TO_ROOM );
+    act("$n $p satýyor.", ch, obj, NULL, TO_ROOM );
     /* haggle */
     roll = number_percent();
     if (!IS_OBJ_STAT(obj,ITEM_SELL_EXTRACT) && roll < get_skill(ch,gsn_haggle))
     {
         roll = get_skill(ch, gsn_haggle) + number_range(1, 20) - 10;
-        send_to_char("You haggle with the shopkeeper.\n\r",ch);
+        send_to_char("Esnafla pazarlýk ediyorsun.\n\r",ch);
         cost += obj->cost / 2 * roll / 100;
         cost = UMIN(cost,95 * get_cost(keeper,obj,TRUE) / 100);
 	cost = UMIN(cost,(keeper->silver + 100 * keeper->gold));
@@ -3851,14 +3866,13 @@ void do_sell( CHAR_DATA *ch, char *argument )
 
     silver = cost - (cost/100) * 100;
     gold   = cost/100;
- 
-    sprintf( buf2, "You sell $p for %s %s%spiece%s.",
-      silver!=0?"%d silver":"",                         /* silvers  */
-      (silver!=0 && gold != 0)?"and ":"",		/*   and    */
-      gold!=0?"%d gold ":"",				/*  golds   */
-      silver+gold>1?"s":"" );				/* piece(s) */
+
+    sprintf( buf2, "$p eþyasýný %s %s%s satýyorsun.",
+      silver!=0?"%d akçeye":"",                         /* silvers  */
+      (silver!=0 && gold != 0)?"ve ":"",		/*   and    */
+      gold!=0?"%d altýna ":"" );
     sprintf( buf, buf2, silver, gold );
-           
+
     act( buf, ch, obj, NULL, TO_CHAR );
     ch->gold     += gold;
     ch->silver 	 += silver;
@@ -3899,7 +3913,7 @@ void do_value( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' )
     {
-	send_to_char( "Value what?\n\r", ch );
+	send_to_char( "Neyin deðerini öðreneceksin?\n\r", ch );
 	return;
     }
 
@@ -3908,7 +3922,7 @@ void do_value( CHAR_DATA *ch, char *argument )
 
     if ( ( obj = get_obj_carry( ch, arg ) ) == NULL )
     {
-	act( "$n tells you 'You don't have that item'.",
+	act( "$n anlatýyor 'Sende ondan yok.'",
 	    keeper, NULL, ch, TO_VICT );
 	ch->reply = keeper;
 	return;
@@ -3916,24 +3930,24 @@ void do_value( CHAR_DATA *ch, char *argument )
 
     if (!can_see_obj(keeper,obj))
     {
-        act("$n doesn't see what you are offering.",keeper,NULL,ch,TO_VICT);
+        act("$n teklif ettiðin þeyi göremiyor.",keeper,NULL,ch,TO_VICT);
         return;
     }
 
     if ( !can_drop_obj( ch, obj ) )
     {
-	send_to_char( "You can't let go of it.\n\r", ch );
+	send_to_char( "Ondan kurtulamýyorsun.\n\r", ch );
 	return;
     }
 
     if ( ( cost = get_cost( keeper, obj, FALSE ) ) <= 0 )
     {
-	act( "$n looks uninterested in $p.", keeper, obj, ch, TO_VICT );
+	act( "$n $p ile ilgilenmiyor.", keeper, obj, ch, TO_VICT );
 	return;
     }
 
-    sprintf( buf, 
-	"$n tells you 'I'll give you %d silver and %d gold coins for $p'.", 
+    sprintf( buf,
+	"$n sana anlatýyor '$p için sana %d akçe ve %d altýn veririm'.",
 	cost - (cost/100) * 100, cost/100 );
     act( buf, keeper, obj, ch, TO_VICT );
     ch->reply = keeper;
@@ -3946,7 +3960,7 @@ void do_wanted( CHAR_DATA *ch, char *argument )
     char arg1[MAX_INPUT_LENGTH];
     char arg2[MAX_INPUT_LENGTH];
     CHAR_DATA *victim;
- 
+
     if (ch_skill_nok(ch,gsn_wanted))
       return;
 
@@ -3958,60 +3972,60 @@ void do_wanted( CHAR_DATA *ch, char *argument )
 
     if ( arg1[0] == '\0' || arg2[0] == '\0' )
       {
-        send_to_char( "Usage: wanted <player> <Y|N>\n\r", ch );
+        send_to_char("Kullaným: aranýyor <karakter> <E|H>\n\r", ch );
         return;
       }
 
     victim = get_char_world(ch, arg1);
 
-    if ( (victim == NULL) || 
+    if ( (victim == NULL) ||
 	!(can_see(ch, victim)) )
       {
-        send_to_char( "They aren't here.\n\r", ch );
+        send_to_char("Burada deðil.\n\r", ch);
         return;
       }
-    
-    if (victim->level >= LEVEL_IMMORTAL && (ch->level < victim->level)) 
+
+    if (victim->level >= LEVEL_IMMORTAL && (ch->level < victim->level))
       {
-	act( "You do not have the power to arrest $N.", ch, NULL, victim, 
+	act("$M tutulayacak gücün yok.", ch, NULL, victim,
 	    TO_CHAR);
 	return;
       }
-    
+
     if (victim == ch)
       {
-	send_to_char( "You cannot do that to yourself.\n\r", ch);
+	send_to_char( "Bunu kendine yapamazsýn.\n\r", ch);
 	return;
       }
 
-    switch(arg2[0]) 
+    switch(arg2[0])
       {
-      case 'Y':
-      case 'y':
+      case 'E':
+      case 'e':
 	if (IS_SET(victim->act ,PLR_WANTED))
-	  act( "$n is already wanted.", ch, NULL, NULL, TO_CHAR);
-	else 
+	  act( "$n zaten aranýyor.", ch, NULL, NULL, TO_CHAR);
+	else
 	  {
 	    SET_BIT(victim->act, PLR_WANTED);
-	    act( "$n is now WANTED!!!",victim, NULL, ch, TO_NOTVICT);
-	    send_to_char( "You are now WANTED!!!\n\r", victim);
-	    send_to_char( "Ok.\n\r", ch);
+	    act( "$n artýk ARANIYOR!!!",victim, NULL, ch, TO_NOTVICT);
+	    send_to_char( "Artýk ARANIYORsun!!!\n\r", victim);
+	    send_to_char( "Tamam.\n\r", ch);
 	  }
 	break;
-      case 'N':
-      case 'n':
+      case 'H':
+      case 'h':
 	if (!IS_SET(victim->act,PLR_WANTED))
-	  act( "$N is not wanted.", ch, NULL, victim, TO_CHAR);
+	  act(  "$N aranmýyor.", ch, NULL, victim, TO_CHAR);
 	else
 	  {
 	    REMOVE_BIT(victim->act, PLR_WANTED);
-	    act( "$n is no longer wanted.",victim, NULL, ch, TO_NOTVICT);
-	    send_to_char( "You are no longer wanted.\n\r", victim);
-	    send_to_char( "Ok.\n\r", ch);
+	    act( "$n artýk aranmýyor.",victim, NULL, ch, TO_NOTVICT);
+	    send_to_char("Artýk aranmýyorsun.\n\r", victim);
+	    send_to_char( "Tamam.\n\r", ch);
 	  }
 	break;
       default:
-        send_to_char( "Usage: wanted <player> <Y|N>\n\r", ch );
+        send_to_char( "Kullaným: aranýyor <karakter> <E|H>\n\r", ch );
 	break;
       }
   }
@@ -4020,15 +4034,15 @@ void do_herbs(CHAR_DATA *ch, char *argument)
 {
   CHAR_DATA *victim;
   char arg[MAX_INPUT_LENGTH];
-  
+
   one_argument(argument,arg);
-  
+
   if (IS_NPC(ch))
     return;
 
   if (is_affected(ch,gsn_herbs))
     {
-      send_to_char("You can't find any more herbs.\n\r",ch);
+      send_to_char("Baþka ot bulamýyorsun.\n\r",ch);
       return;
     }
 
@@ -4036,13 +4050,13 @@ void do_herbs(CHAR_DATA *ch, char *argument)
     victim = ch;
   else if ( (victim = get_char_room(ch,arg)) == NULL)
     {
-      send_to_char("They're not here.\n\r",ch);
+      send_to_char("Burada deðil.\n\r",ch);
       return;
     }
   WAIT_STATE( ch, skill_table[gsn_herbs].beats );
 
-  if (ch->in_room->sector_type != SECT_INSIDE && 
-      ch->in_room->sector_type != SECT_CITY && 
+  if (ch->in_room->sector_type != SECT_INSIDE &&
+      ch->in_room->sector_type != SECT_CITY &&
       (IS_NPC(ch) || number_percent() < get_skill(ch,gsn_herbs)))
     {
       AFFECT_DATA af;
@@ -4056,36 +4070,36 @@ void do_herbs(CHAR_DATA *ch, char *argument)
 
       affect_to_char(ch,&af);
 
-      send_to_char("You gather some beneficial herbs.\n\r",ch);
-      act("$n gathers some herbs.",ch,NULL,NULL,TO_ROOM);
-      
+      send_to_char("Þifalý otlar topluyorsun.\n\r",ch);
+      act("$n þifalý otlar topluyor.",ch,NULL,NULL,TO_ROOM);
+
       if (ch != victim)
 	{
-	  act("$n gives you some herbs to eat.",ch,NULL,victim,TO_VICT);
-	  act("You give the herbs to $N.",ch,NULL,victim,TO_CHAR);
-	  act("$n gives the herbs to $N.",ch,NULL,victim,TO_NOTVICT);
+	  act("$n sana yemen için ot veriyor.",ch,NULL,victim,TO_VICT);
+	  act("$E yemesi için ot veriyorsun.",ch,NULL,victim,TO_CHAR);
+	  act("$n $E yemesi için ot veriyor.",ch,NULL,victim,TO_NOTVICT);
 	}
-	      
+
       if (victim->hit < victim->max_hit)
 	{
-	  send_to_char("You feel better.\n\r",victim);
-	  act("$n looks better.",victim,NULL,NULL,TO_ROOM);
+	  send_to_char("Daha iyi hissediyorsun.\n\r",victim);
+	  act("$n daha iyi görünüyor.",victim,NULL,NULL,TO_ROOM);
 	}
       victim->hit = UMIN(victim->max_hit,victim->hit + 5 * ch->level);
       check_improve(ch,gsn_herbs,TRUE,1);
       if (is_affected(victim, gsn_plague))
 	{
 	  if (check_dispel(ch->level,victim,gsn_plague))
-	    { 
-	      send_to_char("Your sores vanish.\n\r",victim);
-	      act("$n looks relieved as $s sores vanish.",victim,NULL,NULL,TO_ROOM);
+	    {
+	      send_to_char("Yaralarýn kayboluyor.\n\r",victim);
+	      act("$n yaralarýndan kurtulmuþ görünüyor.",victim,NULL,NULL,TO_ROOM);
 	    }
 	}
     }
   else
     {
-      send_to_char("You search for herbs but find none here.\n\r",ch);
-      act("$n looks around for herbs.",ch,NULL,NULL,TO_ROOM);
+      send_to_char("Þifalý otlar bulmaya çalýþýyorsun, ama bulamýyorsun.\n\r",ch);
+      act("$n þifalý ot arýyor.",ch,NULL,NULL,TO_ROOM);
       check_improve(ch,gsn_herbs,FALSE,1);
     }
 }
@@ -4100,85 +4114,85 @@ void do_lore( CHAR_DATA *ch, char *argument )
   int value0, value1, value2, value3;
 
   argument = one_argument( argument, arg1 );
-  
+
   if ( ( obj = get_obj_carry( ch, arg1 ) ) == NULL )
     {
-      send_to_char( "You do not have that object.\n\r", ch );
-      return;
-    }
-  
-  if (ch->mana < 30)
-    {
-      send_to_char("You don't have enough mana.\n\r", ch);
-      return;
-    }
-  
-  if ( IS_NPC(ch) || ch->level < skill_table[gsn_lore].skill_level[ch->iclass]
-      || get_skill(ch,gsn_lore) < 10)
-    {
-      send_to_char("The meaning of this object escapes you for the moment.\n\r", ch);
+      send_to_char( "Bu eþya sende yok.\n\r", ch );
       return;
     }
 
-  /* a random lore */  
+  if (ch->mana < 30)
+    {
+      send_to_char("Yeterli manan yok.\n\r", ch);
+      return;
+    }
+
+  if ( IS_NPC(ch) || ch->level < skill_table[gsn_lore].skill_level[ch->iclass]
+      || get_skill(ch,gsn_lore) < 10)
+    {
+      send_to_char( "Eþyanýn bilgisi bir an için senden uzaklaþýyor.\n\r", ch);
+      return;
+    }
+
+  /* a random lore */
   chance = number_percent();
-  
+
   if (get_skill(ch,gsn_lore) < 20)
     {
-      sprintf( buf, "Object '%s'.\n\r", obj->name);
-      send_to_char( buf, ch );
+      sprintf( buf, "Eþya '%s'.\n\r", obj->name);
+      send_to_char(buf, ch);
       ch->mana -= 30;
       check_improve(ch,gsn_lore,TRUE,8);
       return;
     }
-  
+
   else if (get_skill(ch,gsn_lore) < 40)
-    {    
+    {
       sprintf( buf,
-	  "Object '%s'.  Weight is %d, value is %d.\n\r",
+	  "Eþya '%s'.  Aðýrlýðý %d, deðeri %d.\n\r",
 	      obj->name,
 	      chance < 60 ? obj->weight : number_range(1, 2 * obj->weight),
 	      chance < 60 ? number_range(1, 2 * obj->cost) : obj->cost
 	      );
-      send_to_char( buf, ch );
+      send_to_char(buf, ch);
       if ( str_cmp( obj->material, "oldstyle" ) )  {
-        sprintf( buf, "Material is %s.\n\r", obj->material );
-        send_to_char( buf, ch );
+        sprintf( buf, "Materyali %s.\n\r", obj->material );
+        send_to_char(buf, ch);
       }
       ch->mana -= 30;
       check_improve(ch,gsn_lore,TRUE,7);
       return;
     }
-  
+
   else if (get_skill(ch,gsn_lore) < 60)
     {
       sprintf( buf,
-	      "Object '%s' has weight %d.\n\rValue is %d, level is %d.\n\rMaterial is %s.\n\r",
+	      "Obje '%s', aðýrlýðý %d.\n\rDeðeri %d, seviyesi %d.\n\rMateryali %s.\n\r",
 	      obj->name,
 	      obj->weight,
 	      chance < 60 ? number_range(1, 2 * obj->cost) : obj->cost,
 	      chance < 60 ? obj->level : number_range(1, 2 * obj->level),
-	  str_cmp(obj->material,"oldstyle")?obj->material:"unknown"
+	  str_cmp(obj->material,"oldstyle")?obj->material:"bilinmiyor"
 	      );
-      send_to_char( buf, ch );
+      send_to_char(buf, ch);
       ch->mana -= 30;
       check_improve(ch,gsn_lore,TRUE,6);
       return;
     }
-  
+
   else if (get_skill(ch,gsn_lore) < 80)
     {
       sprintf( buf,
-	      "Object '%s' is type %s, extra flags %s.\n\rWeight is %d, value is %d, level is %d.\n\rMaterial is %s.\n\r",
+	      "Obje '%s', tipi %s, ekstra özellikleri %s.\n\rAðýrlýðý %d, deðeri %d, seviyesi %d.\n\rMateryali %s.\n\r",
 	      obj->name,
 	      item_type_name( obj ),
 	      extra_bit_name( obj->extra_flags ),
 	      obj->weight,
 	      chance < 60 ? number_range(1, 2 * obj->cost) : obj->cost,
 	      chance < 60 ? obj->level : number_range(1, 2 * obj->level),
-	  str_cmp(obj->material,"oldstyle")?obj->material:"unknown"
+	  str_cmp(obj->material,"oldstyle")?obj->material:"bilinmiyor"
 	      );
-      send_to_char( buf, ch );
+      send_to_char(buf, ch);
       ch->mana -= 30;
       check_improve(ch,gsn_lore,TRUE,5);
       return;
@@ -4187,42 +4201,42 @@ void do_lore( CHAR_DATA *ch, char *argument )
   else if (get_skill(ch,gsn_lore) < 85)
     {
       sprintf( buf,
-	      "Object '%s' is type %s, extra flags %s.\n\rWeight is %d, value is %d, level is %d.\n\rMaterial is %s.\n\r",
+	      "Obje '%s', tipi %s, ekstra özellikleri %s.\n\rAðýrlýðý %d, deðeri %d, seviyesi %d.\n\rMateryali %s.\n\r",
 	      obj->name,
 	      item_type_name( obj ),
 	      extra_bit_name( obj->extra_flags ),
 	      obj->weight,
 	      obj->cost,
 	      obj->level,
-	  str_cmp(obj->material,"oldstyle")?obj->material:"unknown"
+	  str_cmp(obj->material,"oldstyle")?obj->material:"bilinmiyor"
 	      );
-      send_to_char( buf, ch );
+      send_to_char(buf, ch);
     }
   else
     {
       sprintf( buf,
-	      "Object '%s' is type %s, extra flags %s.\n\rWeight is %d, value is %d, level is %d.\n\rMaterial is %s.\n\r",
+	      "Obje '%s', tipi %s, ekstra özellikleri %s.\n\rAðýrlýðý %d, deðeri %d, seviyesi %d.\n\rMateryali %s.\n\r",
 	      obj->name,
 	      item_type_name( obj ),
 	      extra_bit_name( obj->extra_flags ),
 	      obj->weight,
 	      obj->cost,
 	      obj->level,
-	  str_cmp(obj->material,"oldstyle")?obj->material:"unknown"
+	  str_cmp(obj->material,"oldstyle")?obj->material:"bilinmiyor"
 	      );
-      send_to_char( buf, ch );
+      send_to_char(buf, ch);
     }
 
   ch->mana -= 30;
-  
+
   value0 = obj->value[0];
   value1 = obj->value[1];
   value2 = obj->value[2];
   value3 = obj->value[3];
-  
+
   switch ( obj->item_type )
     {
-    case ITEM_SCROLL: 
+    case ITEM_SCROLL:
     case ITEM_POTION:
     case ITEM_PILL:
       if (get_skill(ch,gsn_lore) < 85)
@@ -4248,36 +4262,36 @@ void do_lore( CHAR_DATA *ch, char *argument )
 	    }
 	  }
 	}
-      
-      sprintf( buf, "Level %d spells of:", obj->value[0] );
-      send_to_char( buf, ch );
-      
+
+      sprintf( buf, "Seviye %d büyüleri:", obj->value[0] );
+      send_to_char(buf, ch);
+
       if ( value1 >= 0 && value1 < MAX_SKILL )
 	{
 	  send_to_char( " '", ch );
-	  send_to_char( skill_table[value1].name, ch );
+	  send_to_char( skill_table[value1].name[1], ch );
 	  send_to_char( "'", ch );
 	}
-      
+
       if ( value2 >= 0 && value2 < MAX_SKILL )
 	{
 	  send_to_char( " '", ch );
-	  send_to_char( skill_table[value2].name, ch );
+	  send_to_char( skill_table[value2].name[1], ch );
 	  send_to_char( "'", ch );
 	}
-      
+
       if ( value3 >= 0 && value3 < MAX_SKILL )
 	{
 	  send_to_char( " '", ch );
-	  send_to_char( skill_table[value3].name, ch );
+	  send_to_char( skill_table[value3].name[1], ch );
 	  send_to_char( "'", ch );
 	}
-      
+
       send_to_char( ".\n\r", ch );
       break;
-      
-    case ITEM_WAND: 
-    case ITEM_STAFF: 
+
+    case ITEM_WAND:
+    case ITEM_STAFF:
       if (get_skill(ch,gsn_lore) < 85)
 	{
 	  value0 = number_range(1, 60);
@@ -4296,28 +4310,27 @@ void do_lore( CHAR_DATA *ch, char *argument )
 	    value3 = number_range(1, (MAX_SKILL - 1));
 	    if (chance > 80) {
 	      value2 = number_range(0, 2 * obj->value[2]);
-	      if (chance > 95) 
+	      if (chance > 95)
 		value1 = number_range(0, value2);
 	    }
 	  }
 	}
-      
-      sprintf( buf, "Has %d(%d) charges of level %d",
-	      value1, value2, value0 );
-      send_to_char( buf, ch );
-      
+
+      sprintf( buf, "%d seviyesinde %d(%d) þarjý var",value0, value1, value2 );
+      send_to_char(buf, ch);
+
       if ( value3 >= 0 && value3 < MAX_SKILL )
 	  {
 	    send_to_char( " '", ch );
-	    send_to_char( skill_table[value3].name, ch );
+	    send_to_char( skill_table[value3].name[1], ch );
 	    send_to_char( "'", ch );
 	  }
-      
+
       send_to_char( ".\n\r", ch );
       break;
-      
+
     case ITEM_WEAPON:
-      send_to_char("Weapon type is ",ch);
+      send_to_char("Silah tipi ",ch);
       if (get_skill(ch,gsn_lore) < 85)
 	{
 	  value0 = number_range(0, 8);
@@ -4338,31 +4351,35 @@ void do_lore( CHAR_DATA *ch, char *argument )
 
       switch (value0)
 	{
-	case(WEAPON_EXOTIC) : send_to_char("exotic.\n\r",ch);	break;
-	case(WEAPON_SWORD)  : send_to_char("sword.\n\r",ch);	break;
-	case(WEAPON_DAGGER) : send_to_char("dagger.\n\r",ch);	break;
+	case(WEAPON_EXOTIC) : send_to_char("egzotik.\n\r",ch);	break;
+	case(WEAPON_SWORD)  : send_to_char("kýlýç.\n\r",ch);	break;
+	case(WEAPON_DAGGER) : send_to_char("hançer.\n\r",ch);	break;
 	case(WEAPON_SPEAR)	: send_to_char("spear/staff.\n\r",ch);	break;
 	case(WEAPON_MACE) 	: send_to_char("mace/club.\n\r",ch);	break;
-	case(WEAPON_AXE)	: send_to_char("axe.\n\r",ch);		break;
+	case(WEAPON_AXE)	: send_to_char("balta.\n\r",ch);		break;
 	case(WEAPON_FLAIL)	: send_to_char("flail.\n\r",ch);	break;
-	case(WEAPON_WHIP)	: send_to_char("whip.\n\r",ch);		break;
+	case(WEAPON_WHIP)	: send_to_char("kýrbaç.\n\r",ch);		break;
 	case(WEAPON_POLEARM): send_to_char("polearm.\n\r",ch);	break;
-	case(WEAPON_BOW)	: send_to_char("bow.\n\r",ch);	break;
-	case(WEAPON_ARROW)	: send_to_char("arrow.\n\r",ch);	break;
+	case(WEAPON_BOW)	: send_to_char("yay.\n\r",ch);	break;
+	case(WEAPON_ARROW)	: send_to_char("ok.\n\r",ch);	break;
 	case(WEAPON_LANCE)	: send_to_char("lance.\n\r",ch);	break;
-	default		: send_to_char("unknown.\n\r",ch);	break;
+	default		: send_to_char("bilinmiyor.\n\r",ch);	break;
  	}
       if (obj->pIndexData->new_format)
-	sprintf(buf,"Damage is %dd%d (average %d).\n\r",
+		{
+	sprintf(buf,"Zarar %dd%d (ortalama %d).\n\r",
 		value1,value2,
 		(1 + value2) * value1 / 2);
+		}
       else
-	sprintf( buf, "Damage is %d to %d (average %d).\n\r",
+		{
+	sprintf( buf, "Zarar %d - %d (ortalama %d).\n\r",
 	    	value1, value2,
 	    	( value1 + value2 ) / 2 );
-      send_to_char( buf, ch );
+		}
+      send_to_char(buf, ch);
       break;
-      
+
     case ITEM_ARMOR:
       if (get_skill(ch,gsn_lore) < 85)
 	{
@@ -4393,13 +4410,13 @@ void do_lore( CHAR_DATA *ch, char *argument )
 	  }
 	}
 
-      sprintf( buf, 
-	      "Armor class is %d pierce, %d bash, %d slash, and %d vs. magic.\n\r", 
+      sprintf( buf,
+	      "Zýrh sýnýfý: delici %d, omuz %d, kesme %d ve büyü  türleri %d.\n\r",
 	      value0, value1, value2, value3 );
-      send_to_char( buf, ch );
+      send_to_char(buf, ch);
       break;
     }
-  
+
   if (get_skill(ch,gsn_lore) < 87)
     check_improve(ch,gsn_lore,TRUE,5);
     return;
@@ -4409,19 +4426,19 @@ void do_lore( CHAR_DATA *ch, char *argument )
       {
 	if ( paf->location != APPLY_NONE && paf->modifier != 0 )
 	  {
-	    sprintf( buf, "Affects %s by %d.\n\r",
+	    sprintf( buf, "%s özelliðini %d etkiler.\n\r",
 		    affect_loc_name( paf->location ), paf->modifier );
-	    send_to_char( buf, ch );
+	    send_to_char(buf, ch);
 	  }
       }
-  
+
   for ( paf = obj->affected; paf != NULL; paf = paf->next )
     {
       if ( paf->location != APPLY_NONE && paf->modifier != 0 )
 	{
-	  sprintf( buf, "Affects %s by %d.\n\r",
+	  sprintf( buf, "%s özelliðini %d etkiler.\n\r",
 		  affect_loc_name( paf->location ), paf->modifier );
-	  send_to_char( buf, ch );
+	  send_to_char(buf, ch);
 	}
     }
   check_improve(ch,gsn_lore,TRUE,5);
@@ -4444,35 +4461,35 @@ void do_butcher(CHAR_DATA *ch, char *argument)
   one_argument(argument,arg);
   if ( arg[0]=='\0' )
   {
-    send_to_char( "Butcher what?\n\r", ch );
+    send_to_char( "Neyi doðrayacaksýn?\n\r", ch );
     return;
   }
   if ( (obj = get_obj_here(ch,arg)) == NULL )
     {
-      send_to_char("You do not see that here.\n\r",ch);
+      send_to_char("Onu göremiyorsun.\n\r",ch);
       return;
     }
 
   if (obj->item_type != ITEM_CORPSE_PC && obj->item_type != ITEM_CORPSE_NPC)
     {
-      send_to_char("You can't butcher that.\n\r",ch);
+      send_to_char("Onu doðrayamazsýn.\n\r",ch);
       return;
     }
 
   if (obj->carried_by != NULL)
     {
-      send_to_char("Put it down first.\n\r",ch);
+      send_to_char("Önce onu yere býrak.\n\r",ch);
       return;
     }
 
   if ( !IS_NPC(ch) && get_skill(ch,gsn_butcher) < 1)
     {
-      send_to_char("You don't have the precision instruments for that.", ch);
+      send_to_char("Bunun için gerekli araç gerecin yok.", ch);
       return;
     }
 
   obj_from_room(obj);
-  
+
   for (tmp_obj = obj->contains;tmp_obj != NULL;
        tmp_obj = tmp_next)
     {
@@ -4480,31 +4497,31 @@ void do_butcher(CHAR_DATA *ch, char *argument)
       obj_from_obj(tmp_obj);
       obj_to_room(tmp_obj,ch->in_room);
     }
-  
+
 
   if (IS_NPC(ch) || number_percent() < get_skill(ch,gsn_butcher))
     {
       int numsteaks;
       int i;
       OBJ_DATA *steak;
-        
-      numsteaks = number_bits(2) + 1; 
-      
+
+      numsteaks = number_bits(2) + 1;
+
       if (numsteaks > 1)
 	{
-	  sprintf(buf, "$n butchers $p and creates %i steaks.",numsteaks);
+	  sprintf(buf, "$n $p'yi doðruyor ve ondan %i biftek çýkartýyor.",numsteaks);
 	  act(buf,ch,obj,NULL,TO_ROOM);
 
-	  sprintf(buf, "You butcher $p and create %i steaks.",numsteaks);
+	  sprintf(buf, "$p'yi doðruyor ve ondan %i biftek çýkartýyorsun.",numsteaks);
 	  act(buf,ch,obj,NULL,TO_CHAR);
 	}
 
-      else 
+      else
 	{
-	  act("$n butchers $p and creates a steak."
+	  act("$n $p'yi doðruyor ve ondan bir dilim biftek çýkartýyor."
 	      ,ch,obj,NULL,TO_ROOM);
 
-	  act("You butcher $p and create a steak."
+	  act("$p'yi doðruyor ve ondan bir dilim biftek çýkartýyorsun."
 	      ,ch,obj,NULL,TO_CHAR);
 	}
       check_improve(ch,gsn_butcher,TRUE,1);
@@ -4522,11 +4539,11 @@ void do_butcher(CHAR_DATA *ch, char *argument)
 
 	  obj_to_room(steak,ch->in_room);
 	}
-    }	
-  else 
+    }
+  else
     {
-      act("You fail and destroy $p.",ch,obj,NULL,TO_CHAR);
-      act("$n fails to butcher $p and destroys it.",
+      act("Baþaramadýn ve $p'yi yokettin.",ch,obj,NULL,TO_CHAR);
+      act("$n $p'den biftek çýkarmayý beceremedi.",
 	  ch,obj,NULL,TO_ROOM);
 
       check_improve(ch,gsn_butcher,FALSE,1);
@@ -4544,29 +4561,28 @@ void do_balance(CHAR_DATA *ch, char *argument)
 
   if (IS_NPC(ch))
     {
-      send_to_char("You don't have a bank account.\n\r",ch);
+      send_to_char("Banka hesabýn yok.\n\r",ch);
       return;
     }
-  
+
   if (!IS_SET(ch->in_room->room_flags, ROOM_BANK))
     {
-      send_to_char("You are not in a bank.\n\r",ch);
+      send_to_char("Bankada deðilsin.\n\r",ch);
       return;
     }
 
 
   if ( ch->pcdata->bank_s + ch->pcdata->bank_g == 0 )  {
-    send_to_char( "You don't have any money in the bank.\n\r", ch );
+    send_to_char("Bankada paran yok.\n\r", ch );
     return;
   }
 
   bank_g = ch->pcdata->bank_g;
   bank_s = ch->pcdata->bank_s;
-  sprintf( buf, "You have %s%s%s coin%s in the bank.\n\r",
-    bank_g!=0?"%ld gold":"",
-    (bank_g!=0)&&(bank_s!=0)?" and ":"",
-    bank_s!=0?"%ld silver":"",
-    bank_s+bank_g>1?"s":"" );
+  sprintf( buf, "Bankada %s%s%s sikken var.\n\r",
+    bank_g!=0?"%ld altýn":"",
+    (bank_g!=0)&&(bank_s!=0)?" ve ":"",
+    bank_s!=0?"%ld akçe":"" );
   if (bank_g == 0)
     sprintf( buf2, buf, bank_s );
   else
@@ -4585,43 +4601,43 @@ void do_withdraw(CHAR_DATA *ch, char *argument)
 
   if (IS_NPC(ch))
     {
-      send_to_char("You don't have a bank account.\n\r",ch);
+      send_to_char("Banka hesabýn yok.\n\r",ch);
       return;
     }
-  
+
   if (!IS_SET(ch->in_room->room_flags, ROOM_BANK))
     {
-      send_to_char("The mosquito by your feet will not give you any money.\n\r",ch);
+      send_to_char("Bankada deðilsin.\n\r",ch);
       return;
-    }  
+    }
 
   argument = one_argument( argument, arg );
   if ( arg[0] == '\0' )  {
-    send_to_char( "Withdraw how much?\n\r", ch );
+    send_to_char("Ne kadar para çekeceksin?\n\r", ch );
     return;
   }
-    
+
   amount_s = labs (atol(arg));
-  if ( !str_cmp( argument, "silver") || argument[0] == '\0' )
+  if ( !str_cmp( argument, "akçe") || argument[0] == '\0' )
     amount_g = 0;
-  else if ( !str_cmp( argument, "gold" ) )  {
+  else if ( !str_cmp( argument, "altýn" ) )  {
     amount_g = amount_s;
     amount_s = 0;
   }
   else {
-    send_to_char( "You can withdraw gold and silver coins only.", ch );
+    send_to_char("Yalnýz akçe ve altýn sikke çekebilirsin.", ch );
     return;
   }
 
   if ( amount_g > ch->pcdata->bank_g)
   {
-      send_to_char("Sorry, we don't give loans.\n\r",ch);
+    send_to_char("Üzgünüm, borç vermiyoruz.\n\r",ch);
       return;
   }
 
   if ( amount_s > ch->pcdata->bank_s)
   {
-      send_to_char("Sorry, we don't give loans.\n\r",ch);
+    send_to_char("Üzgünüm, borç vermiyoruz.\n\r",ch);
       return;
   }
 
@@ -4630,7 +4646,7 @@ void do_withdraw(CHAR_DATA *ch, char *argument)
 
   if ( get_carry_weight(ch) + weight > can_carry_w(ch) )
   {
-     act( "You can't carry that much weight.", ch,NULL,NULL, TO_CHAR);
+    act( "Bu aðýrlýðý taþýyamazsýn.", ch,NULL,NULL, TO_CHAR);
      return;
   }
 
@@ -4640,19 +4656,19 @@ void do_withdraw(CHAR_DATA *ch, char *argument)
   ch->silver += (long)(0.90 * amount_s);
   if (amount_s > 0  && amount_s < 10 )  {
     if ( amount_s == 1 )
-      sprintf(buf, "One coin?? You cheapskate!\n\r");
+    sprintf(buf, "Bir sikke? Seni cimri!\n\r");
     else
-      sprintf(buf, "%ld coins?? You cheapskate!\n\r", amount_s);
+    sprintf(buf, "%ld sikke? Seni cimri!\n\r", amount_s);
   }
-  else 
-    sprintf(buf, 
-	    "Here are your %ld %s coins, minus a %ld coin withdrawal fee.\n\r",
-	    amount_s!=0?amount_s:amount_g, 
-	    amount_s!=0?"silver":"gold",
-	    amount_s!=0?(long) UMAX(1, (0.10 * amount_s)):
-                        (long) UMAX(1, (0.02 * amount_g)) );
+  else
+  sprintf(buf,
+    "Ýþte %ld %s sikken, hesap iþlemi olarak %ld sikkeni alýyorum.\n\r",
+    amount_s!=0?amount_s:amount_g,
+    amount_s!=0?"akçe":"altýn",
+    amount_s!=0?(long) UMAX(1, (0.10 * amount_s)):
+                      (long) UMAX(1, (0.02 * amount_g)) );
   send_to_char(buf, ch);
-  act("$n steps up to the teller window.",ch,NULL,NULL,TO_ROOM);
+  act("$n vezneye yaklaþýyor.",ch,NULL,NULL,TO_ROOM);
 }
 
 void do_deposit(CHAR_DATA *ch, char *argument)
@@ -4664,63 +4680,68 @@ void do_deposit(CHAR_DATA *ch, char *argument)
 
   if (IS_NPC(ch))
     {
-      send_to_char("You don't have a bank account.\n\r",ch);
+      send_to_char("Banka hesabýn yok.\n\r",ch);
       return;
     }
-  
+
   if (!IS_SET(ch->in_room->room_flags, ROOM_BANK))
     {
-      send_to_char("The ant by your feet can't carry your gold.\n\r",ch);
+      send_to_char( "Bankada deðilsin.\n\r",ch);
       return;
-    }  
+    }
 
   argument = one_argument( argument, arg );
   if ( arg[0] == '\0' )  {
-    send_to_char( "Deposit how much?\n\r", ch );
+    send_to_char("Ne kadar yatýracaksýn?\n\r", ch );
     return;
   }
   amount_s = labs (atol(arg));
-  if ( !str_cmp( argument, "silver" ) || argument[0] == '\0' )
+  if ( !str_cmp( argument, "akçe" ) || argument[0] == '\0' )
     amount_g = 0;
-  else if ( !str_cmp( argument, "gold" ) )  {
+  else if ( !str_cmp( argument, "altýn" ) )  {
     amount_g = amount_s;
     amount_s = 0;
   }
   else {
-    send_to_char( "You can deposit gold and silver coins only.", ch );
+    send_to_char("Yalnýz altýn sikke ve akçe yatýrabilirsin.", ch );
     return;
   }
-  
+
   if (amount_g > ch->gold)
     {
-      send_to_char("That's more than you've got.\n\r",ch);
+     send_to_char("Bu sahip olduðundan fazla.\n\r",ch);
       return;
     }
   if (amount_s > ch->silver)
     {
-      send_to_char("That's more than you've got.\n\r",ch);
+      send_to_char("Bu sahip olduðundan fazla.\n\r",ch);
       return;
     }
 
   if ( (amount_g + ch->pcdata->bank_g) > 400000 )
     {
-      send_to_char("Bank cannot accept more than 400,000 gold.\n\r",ch);
+      send_to_char("Bankamýz 400,000 altýndan fazlasýný kabul etmez.\n\r",ch);
       return;
     }
-	
+
   ch->pcdata->bank_s += amount_s;
   ch->pcdata->bank_g += amount_g;
   ch->gold -= amount_g;
   ch->silver -= amount_s;
 
   if (amount_s == 1)
-    sprintf(buf, "Oh boy! One gold coin!\n\r");
-  else sprintf(buf, "%ld %s coins deposited. Come again soon!\n\r",
+	{
+    sprintf(buf, "Þuna bak! Bir sikkeymiþ!\n\r");
+	}
+  else
+	{
+	  sprintf(buf, "%ld %s sikke hesabýna geçti. Yine beklerim!\n\r",
                 amount_s!=0?amount_s:amount_g,
-                amount_s!=0?"silver":"gold" );
+                amount_s!=0?"akçe":"altýn" );
+	}
 
   send_to_char(buf, ch);
-  act("$n steps up to the teller window.",ch,NULL,NULL,TO_ROOM);
+  act("$n vezneye yaklaþýyor.",ch,NULL,NULL,TO_ROOM);
 }
 
 
@@ -4728,27 +4749,27 @@ void do_deposit(CHAR_DATA *ch, char *argument)
 void do_enchant(CHAR_DATA *ch, char *argument)
 {
     OBJ_DATA *obj;
-    char buf[MAX_STRING_LENGTH]; 
+    char buf[MAX_STRING_LENGTH];
     int wear_level;
 
     if ( !IS_NPC(ch)
     &&   ch->level < skill_table[gsn_enchant_sword].skill_level[ch->iclass] )
     {
-	send_to_char("Huh?.\n\r", ch );
+	send_to_char("Hý?.\n\r", ch);
 	return;
     }
 
     if (argument[0] == '\0') /* empty */
     {
-        send_to_char ("Wear which weapon to enchant?\n\r",ch);
+        send_to_char ("Hangi silahý?\n\r",ch);
         return;
     }
 
-    obj = get_obj_carry (ch, argument); 
+    obj = get_obj_carry (ch, argument);
 
     if (obj == NULL)
     {
-        send_to_char ("You don't have that item.\n\r",ch);
+        send_to_char ("Ondan sende yok.\n\r",ch);
         return;
     }
 
@@ -4757,28 +4778,28 @@ void do_enchant(CHAR_DATA *ch, char *argument)
 
     if ( (class_table[ch->iclass].fMana && obj->item_type == ITEM_ARMOR)
 	|| (!class_table[ch->iclass].fMana && obj->item_type == ITEM_WEAPON))
-		wear_level += 3;	     
+		wear_level += 3;
 
     if ( wear_level < obj->level )
     {
-  sprintf( buf, "You must be level %d to be able to enchant this object.\n\r",
+  sprintf( buf, "Onu yükseltmek için %d. seviye olmalýsýn.\n\r",
             obj->level );
-        send_to_char( buf, ch );
-        act( "$n tries to enchant $p, but is too inexperienced.",
+        send_to_char(buf, ch);
+        act( "$n $p eþyasýný yükseltmeye çalýþýyor, ama yeterince tecrübeli deðil.",
             ch, obj, NULL, TO_ROOM );
         return;
     }
 
    if (ch->mana < 100 )
 	{
-	 send_to_char("You don't have enough mana.\n\r",ch);
+	 send_to_char("Yeterli manan yok.\n\r",ch);
 	 return;
 	}
 
    if ( number_percent() > get_skill(ch,gsn_enchant_sword) )
 	{
-	 send_to_char("You lost your concentration.\n\r",ch);
-        act( "$n tries to enchant $p, but he forgets how for a moment.",
+	 send_to_char("Konsantrasyonunu yitirdin.\n\r",ch);
+        act( "$n $p eþyasýný yükseltmek istiyor, ama bir an için nasýl yapýlacaðýný unutuyor.",
             ch, obj, NULL, TO_ROOM );
 	WAIT_STATE(ch,skill_table[gsn_enchant_sword].beats);
 	check_improve(ch,gsn_enchant_sword,FALSE,6);
@@ -4797,22 +4818,22 @@ void do_enchant(CHAR_DATA *ch, char *argument)
 
 void hold_a_light(CHAR_DATA *ch,OBJ_DATA *obj, int iWear)
 {
-    act( "$n lights $p and holds it.", ch, obj, NULL, TO_ROOM );
-    act( "You light $p and hold it.",  ch, obj, NULL, TO_CHAR );
+    act( "$n $p yakýyor ve tutmaya baþlýyor.", ch, obj, NULL, TO_ROOM );
+    act( "$p yakýyor ve tutmaya baþlýyorsun.",  ch, obj, NULL, TO_CHAR );
     equip_char( ch, obj, iWear );
 }
 
 void hold_a_shield(CHAR_DATA *ch,OBJ_DATA *obj, int iWear)
 {
-	act( "$n wears $p as a shield.", ch, obj, NULL, TO_ROOM );
-	act( "You wear $p as a shield.", ch, obj, NULL, TO_CHAR );
+	act( "$n kalkan olarak $p kullanýyor.", ch, obj, NULL, TO_ROOM );
+	act( "Kalkan olarak $p kullanýyorsun.", ch, obj, NULL, TO_CHAR );
 	equip_char( ch, obj, iWear );
 }
 
 void hold_a_thing(CHAR_DATA *ch,OBJ_DATA *obj, int iWear)
 {
-	act( "$n holds $p in $s hand.",   ch, obj, NULL, TO_ROOM );
-	act( "You hold $p in your hand.", ch, obj, NULL, TO_CHAR );
+	act( "$n elinde $p tutuyor.",   ch, obj, NULL, TO_ROOM );
+	act( "Elinde $p tutuyorsun.", ch, obj, NULL, TO_CHAR );
 	equip_char( ch, obj, iWear );
 }
 
@@ -4833,8 +4854,8 @@ void hold_a_wield(CHAR_DATA *ch, OBJ_DATA *obj, int iWear)
 	return;
     }
 
-    act( "$n wields $p.", ch, obj, NULL, TO_ROOM );
-    act( "You wield $p.", ch, obj, NULL, TO_CHAR );
+    act( "$n $p kuþanýyor.", ch, obj, NULL, TO_ROOM );
+    act( "$p kuþanýyorsun.", ch, obj, NULL, TO_CHAR );
     equip_char ( ch, obj, iWear);
     if (get_wield_char(ch,TRUE) == obj) sn = get_weapon_sn(ch,TRUE);
     else sn = get_weapon_sn(ch,FALSE);
@@ -4842,21 +4863,21 @@ void hold_a_wield(CHAR_DATA *ch, OBJ_DATA *obj, int iWear)
     if  (sn)
       {
         skill = get_weapon_skill(ch,sn);
- 
+
         if (skill >= 100)
-            act("$p feels like a part of you!",ch,obj,NULL,TO_CHAR);
+            act("$p senin bir parçan gibi!",ch,obj,NULL,TO_CHAR);
         else if (skill > 85)
-            act("You feel quite confident with $p.",ch,obj,NULL,TO_CHAR);
+            act("$p ile kendinden emin gibisin.",ch,obj,NULL,TO_CHAR);
         else if (skill > 70)
-            act("You are skilled with $p.",ch,obj,NULL,TO_CHAR);
+            act("$p üzerine maharetlisin.",ch,obj,NULL,TO_CHAR);
         else if (skill > 50)
-            act("Your skill with $p is adequate.",ch,obj,NULL,TO_CHAR);
+            act("$p kullanma becerin yeterli sayýlýr.",ch,obj,NULL,TO_CHAR);
         else if (skill > 25)
-            act("$p feels a little clumsy in your hands.",ch,obj,NULL,TO_CHAR);
+            act("$p ellerinde biçimsiz durdu.",ch,obj,NULL,TO_CHAR);
         else if (skill > 1)
-            act("You fumble and almost drop $p.",ch,obj,NULL,TO_CHAR);
+            act("$p kullanýrken ellerin birbirine dolaþacak.",ch,obj,NULL,TO_CHAR);
         else
-            act("You don't even know which end is up on $p.",
+            act("$p'nin ne tarafý tutulur bilmiyorsun.",
                 ch,obj,NULL,TO_CHAR);
       }
 
@@ -4866,47 +4887,61 @@ void hold_a_wield(CHAR_DATA *ch, OBJ_DATA *obj, int iWear)
 
 void wear_a_wield(CHAR_DATA *ch,OBJ_DATA *obj, bool fReplace)
 {
-  if ( !IS_NPC(ch) 
+	int EL_BIR,EL_IKI;
+
+		if(LEFT_HANDER(ch))
+		{
+			EL_BIR=WEAR_LEFT;
+			EL_IKI=WEAR_RIGHT;
+		}
+		else
+		{
+			EL_BIR=WEAR_RIGHT;
+			EL_IKI=WEAR_LEFT;
+		}
+
+  if ( !IS_NPC(ch)
 	&& get_obj_weight(obj) > str_app[get_curr_stat(ch,STAT_STR)].carry )
   {
-    send_to_char( "It is too heavy for you to wield.\n\r", ch );
+    send_to_char( "Kuþanamayacaðýn kadar aðýr.\n\r", ch );
     return;
   }
 
   if (IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS) &&
          (!IS_NPC(ch) && ch->size < SIZE_LARGE) )
    {
-    if (get_eq_char(ch,WEAR_BOTH) != NULL )
-    {
-     if (!remove_obj_loc(ch,WEAR_BOTH,fReplace)) return;
-     hold_a_wield(ch, obj, WEAR_BOTH);
-    }
-    else 
-    {
-     if ( get_eq_char(ch,WEAR_RIGHT) )
-	if (!remove_obj_loc(ch,WEAR_RIGHT,fReplace)) return;
-     if ( get_eq_char(ch,WEAR_LEFT) )
-	if (!remove_obj_loc(ch,WEAR_LEFT,fReplace)) return;
-     hold_a_wield(ch, obj, WEAR_BOTH);
-    }
+    	if (get_eq_char(ch,WEAR_BOTH) != NULL )
+    	{
+     		if (!remove_obj_loc(ch,WEAR_BOTH,fReplace)) return;
+     		hold_a_wield(ch, obj, WEAR_BOTH);
+    	}
+    	else
+    	{
+     		if ( get_eq_char(ch,EL_BIR) )
+			if (!remove_obj_loc(ch,EL_BIR,fReplace)) return;
+     		if ( get_eq_char(ch,EL_IKI) )
+			if (!remove_obj_loc(ch,EL_IKI,fReplace)) return;
+     		hold_a_wield(ch, obj, WEAR_BOTH);
+    	}
    }
-  else 
+  else
   {
-    if (get_eq_char(ch,WEAR_BOTH) != NULL )
-    {
-     if (!remove_obj_loc( ch, WEAR_BOTH, fReplace ) )
-	return;
-     hold_a_wield(ch, obj, WEAR_RIGHT);
-    }
-    else if (get_eq_char(ch,WEAR_RIGHT) == NULL )
-		hold_a_wield(ch, obj, WEAR_RIGHT);
-    else if (get_eq_char(ch,WEAR_LEFT) == NULL )
-		hold_a_wield(ch, obj, WEAR_LEFT);
-    else if ( remove_obj_loc( ch, WEAR_RIGHT, fReplace ) )
-		hold_a_wield(ch, obj, WEAR_RIGHT);
-    else if ( remove_obj_loc( ch, WEAR_LEFT, fReplace ) )
-		hold_a_wield(ch, obj, WEAR_LEFT);
-    else send_to_char("You found your hands full.\n\r",ch);
+    	if (get_eq_char(ch,WEAR_BOTH) != NULL )
+    	{
+     		if (!remove_obj_loc( ch, WEAR_BOTH, fReplace ) )
+			return;
+		hold_a_wield(ch, obj, EL_BIR);
+    	}
+	else if (get_eq_char(ch,EL_BIR) == NULL )
+		hold_a_wield(ch, obj, EL_BIR);
+	else if (get_eq_char(ch,EL_IKI) == NULL )
+		hold_a_wield(ch, obj, EL_IKI);
+	else if ( remove_obj_loc( ch, EL_BIR, fReplace ) )
+		hold_a_wield(ch, obj, EL_BIR);
+	else if ( remove_obj_loc( ch, EL_IKI, fReplace ) )
+		hold_a_wield(ch, obj, EL_IKI);
+	else
+		send_to_char("Ellerin dolu.\n\r",ch);
   }
 }
 
@@ -4919,24 +4954,24 @@ void wear_multi(CHAR_DATA *ch,OBJ_DATA *obj,int iWear,bool fReplace)
    switch( iWear )
    {
     case WEAR_FINGER:
-	act( "$n wears $p on one of $s finger.", ch, obj, NULL, TO_ROOM );
-	act( "You wear $p on one of your finger.", ch, obj, NULL, TO_CHAR );
+	act( "$n parmaklarýndan birine $p takýyor.", ch, obj, NULL, TO_ROOM );
+	act( "Parmaklarýndan birine $p takýyorsun.", ch, obj, NULL, TO_CHAR );
 	break;
     case WEAR_NECK:
-	act( "$n wears $p around $s neck.",   ch, obj, NULL, TO_ROOM );
-	act( "You wear $p around your neck.", ch, obj, NULL, TO_CHAR );
+	act( "$n boynuna $p takýyor.",   ch, obj, NULL, TO_ROOM );
+	act( "Boynuna $p takýyorsun.", ch, obj, NULL, TO_CHAR );
 	break;
     case WEAR_WRIST:
-	act("$n wears $p around one of $s wrist.", ch, obj, NULL, TO_ROOM );
-	act("You wear $p around one of your wrist.",ch, obj, NULL, TO_CHAR);
+	act("$n bileðine $p takýyor.", ch, obj, NULL, TO_ROOM );
+	act("Bileðine $p takýyorsun.",ch, obj, NULL, TO_CHAR);
 	break;
     case WEAR_TATTOO:
-	act("$n now uses $p as tattoo of $s religion.",ch,obj,NULL,TO_ROOM);
-	act("You now use $p as the tattoo of your religion.",ch,obj,NULL,TO_CHAR);
+	act("$n dini gereði $p dövmesini kazýtýyor.",ch,obj,NULL,TO_ROOM);
+	act("Dinin gereði $p dövmesi kazýtýyorsun.",ch,obj,NULL,TO_CHAR);
 	break;
     default:
-	act("$n wears $p around somewhere.", ch, obj, NULL, TO_ROOM );
-	act("You wear $p around somewhere.",ch, obj, NULL, TO_CHAR);
+	act("$n bir yerine $p giyiyor.", ch, obj, NULL, TO_ROOM );
+	act("Bir yerine $p giyiyorsun.",ch, obj, NULL, TO_CHAR);
 	break;
    }
    equip_char(ch, obj, iWear);
@@ -4948,13 +4983,13 @@ void wear_multi(CHAR_DATA *ch,OBJ_DATA *obj,int iWear,bool fReplace)
 
     for ( w = ch->carrying; w != NULL; w = w->next_content )
     {
-	if ( w->wear_loc == iWear 
+	if ( w->wear_loc == iWear
 		&& !IS_SET(w->extra_flags, ITEM_NOREMOVE)
 		&& (w->item_type != ITEM_TATTOO || IS_IMMORTAL(ch) ) )
 	{
           unequip_char( ch, w );
-          act( "$n stops using $p.", ch, w, NULL, TO_ROOM );
-          act( "You stop using $p.", ch, w, NULL, TO_CHAR );
+          act( "$n $p kullanmayý býraktý.", ch, w, NULL, TO_ROOM );
+          act( "$p kullanmayý býraktýn.", ch, w, NULL, TO_CHAR );
 	  wear_multi(ch, obj, iWear, fReplace );
 	  not_worn = 0;
           break;
@@ -4962,10 +4997,8 @@ void wear_multi(CHAR_DATA *ch,OBJ_DATA *obj,int iWear,bool fReplace)
     }
 
     if ( not_worn )
-          act( "You couldn't remove anything to replace with $p.", 
+          act( "$p ile deðiþtirilebilecek birþey giymiyorsun.",
 		ch, obj, NULL, TO_CHAR );
-  }  
+  }
 
 }
-
-

@@ -2,11 +2,11 @@
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
- *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *	
+ *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *
  *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
 /***************************************************************************
@@ -25,7 +25,7 @@
  *  benefitting.  We hope that you share your changes too.  What goes	   *
  *  around, comes around.						   *
  ***************************************************************************/
- 
+
 /***************************************************************************
 *	ROM 2.4 is copyright 1993-1995 Russ Taylor			   *
 *	ROM has been brought to you by the ROM consortium		   *
@@ -57,14 +57,14 @@ void do_heal(CHAR_DATA *ch, char *argument)
     char arg[MAX_INPUT_LENGTH];
     int cost,sn;
     SPELL_FUN *spell;
-    const char *words;	
+    const char *words;
 
     /* check for healer */
     for ( mob = ch->in_room->people; mob; mob = mob->next_in_room )
     {
         if ( IS_NPC(mob) && IS_SET(mob->act, ACT_IS_HEALER))
 	 {
-	  if (ch->cabal && is_name((char*)"cabal",mob->name))
+	  if (ch->cabal && (is_name((char*)"cabal",mob->name)||is_name((char*)"kabal",mob->name)))
 		{
     		 if (is_name((char*)cabal_table[ch->cabal].short_name,mob->name) )
 		 	break;
@@ -73,16 +73,16 @@ void do_heal(CHAR_DATA *ch, char *argument)
           else  break;
 	 }
     }
- 
+
     if ( mob == NULL )
     {
-        send_to_char( "You can't do that here.\n\r", ch );
+      send_to_char( "Burada yapamazsýn.\n\r", ch );
         return;
     }
 
     if ( ch->cabal == CABAL_BATTLE )
     {
-        send_to_char( "You are BattleRager, not a filthy magician.\n\r",ch );
+      send_to_char( "Sen BattleRager kabalý üyesisin, pis bir büyücü deðil.\n\r",ch );
         return;
     }
 
@@ -91,24 +91,24 @@ void do_heal(CHAR_DATA *ch, char *argument)
     if (arg[0] == '\0')
     {
         /* display price list */
-	act("Healer offers the following spells.",ch,NULL,mob,TO_CHAR);
-	send_to_char("  light   : cure light wounds     10 gold\n\r",ch);
-	send_to_char("  serious : cure serious wounds   15 gold\n\r",ch);
-	send_to_char("  critic  : cure critical wounds  25 gold\n\r",ch);
-	send_to_char("  heal    : healing spell         50 gold\n\r",ch);
-	send_to_char("  blind   : cure blindness        20 gold\n\r",ch);
-	send_to_char("  disease : cure disease          15 gold\n\r",ch);
-	send_to_char("  poison  : cure poison           25 gold\n\r",ch); 
-	send_to_char("  uncurse : remove curse          50 gold\n\r",ch);
-	send_to_char("  refresh : restore movement       5 gold\n\r",ch);
-	send_to_char("  mana    : restore mana          10 gold\n\r",ch);
-	send_to_char("  master heal: master heal spell 200 gold\n\r",ch);
-	send_to_char("  energize : restore 300 mana    200 gold\n\r",ch);
-	send_to_char(" Type heal <type> to be healed.\n\r",ch);
+        act("Þifacý þu hizmetleri veriyor.",ch,NULL,mob,TO_CHAR);
+      	send_to_char("  hafif       : hafif yara tedavisi   100 akçe\n\r",ch);
+      	send_to_char("  ciddi       : ciddi yara tedavisi   150 akçe\n\r",ch);
+      	send_to_char( "  kritik      : kritik yara tedavisi  250 akçe\n\r",ch);
+      	send_to_char( "  þifa        : þifa büyüsü           500 akçe\n\r",ch);
+      	send_to_char( "  körlük      : körlük tedavisi       200 akçe\n\r",ch);
+      	send_to_char( "  hastalýk    : hastalýk tedavisi     150 akçe\n\r",ch);
+      	send_to_char( "  zehir       : zehir tedavisi        250 akçe\n\r",ch);
+      	send_to_char( "  lanet       : lanet kaldýrma        500 akçe\n\r",ch);
+      	send_to_char( "  yenileme    : yorgunluk azaltma      50 akçe\n\r",ch);
+      	send_to_char( "  mana        : mana yenileme         100 akçe\n\r",ch);
+      	send_to_char( "  yüksek þifa : yüksek tedavi        2000 akçe\n\r",ch);
+      	send_to_char( "  takat       : ileri mana tedavi    2000 akçe\n\r",ch);
+      	send_to_char( " Hizmet almak için: iyileþ <tip>\n\r",ch);
 	return;
     }
 
-    if (!str_prefix(arg,"light"))
+    if (!str_prefix(arg,"hafif"))
     {
         spell = spell_cure_light;
 	sn    = skill_lookup("cure light");
@@ -116,7 +116,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
 	 cost  = 1000;
     }
 
-    else if (!str_prefix(arg,"serious"))
+    else if (!str_prefix(arg,"ciddi"))
     {
 	spell = spell_cure_serious;
 	sn    = skill_lookup("cure serious");
@@ -124,7 +124,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
 	cost  = 1600;
     }
 
-    else if (!str_prefix(arg,"critical"))
+    else if (!str_prefix(arg,"kritik"))
     {
 	spell = spell_cure_critical;
 	sn    = skill_lookup("cure critical");
@@ -132,7 +132,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
 	cost  = 2500;
     }
 
-    else if (!str_prefix(arg,"heal"))
+    else if (!str_prefix(arg,"þifa"))
     {
 	spell = spell_heal;
 	sn = skill_lookup("heal");
@@ -140,15 +140,15 @@ void do_heal(CHAR_DATA *ch, char *argument)
 	cost  = 5000;
     }
 
-    else if (!str_prefix(arg,"blindness"))
+    else if (!str_prefix(arg,"körlük"))
     {
 	spell = spell_cure_blindness;
 	sn    = skill_lookup("cure blindness");
-      	words = "judicandus noselacri";		
+      	words = "judicandus noselacri";
         cost  = 2000;
     }
 
-    else if (!str_prefix(arg,"disease"))
+    else if (!str_prefix(arg,"hastalýk"))
     {
 	spell = spell_cure_disease;
 	sn    = skill_lookup("cure disease");
@@ -156,17 +156,17 @@ void do_heal(CHAR_DATA *ch, char *argument)
 	cost = 1500;
     }
 
-    else if (!str_prefix(arg,"poison"))
+    else if (!str_prefix(arg,"zehir"))
     {
 	spell = spell_cure_poison;
 	sn    = skill_lookup("cure poison");
 	words = "judicandus sausabru";
 	cost  = 2500;
     }
-	
-    else if (!str_prefix(arg,"uncurse") || !str_prefix(arg,"curse"))
+
+    else if (!str_prefix(arg,"lanet") )
     {
-	spell = spell_remove_curse; 
+	spell = spell_remove_curse;
 	sn    = skill_lookup("remove curse");
 	words = "candussido judifgz";
 	cost  = 5000;
@@ -180,42 +180,41 @@ void do_heal(CHAR_DATA *ch, char *argument)
         cost = 1000;
     }
 
-	
-    else if (!str_prefix(arg,"refresh") || !str_prefix(arg,"moves"))
+
+    else if (!str_prefix(arg,"yenileme") || !str_prefix(arg,"hareket"))
     {
 	spell =  spell_refresh;
 	sn    = skill_lookup("refresh");
-	words = "candusima"; 
+	words = "candusima";
 	cost  = 500;
     }
 
-    else if (!str_prefix(arg,"master") )
+    else if (!str_prefix(arg,"yüksek") )
     {
 	spell =  spell_master_heal;
 	sn    = skill_lookup("master healing");
-	words = "candastra nikazubra"; 
+	words = "candastra nikazubra";
 	cost  = 20000;
     }
 
-    else if (!str_prefix(arg,"energize") )
+    else if (!str_prefix(arg,"takat") )
     {
 	spell =  NULL;
 	sn    = -2;
-	words = "energizer"; 
+	words = "energizer";
 	cost  = 20000;
     }
 
-    else 
+    else
     {
-	act("Healer does not offer that spell.  Type 'heal' for a list.",
+      act("Þifacý bu hizmeti vermiyor. Hizmet listesi için 'iyileþ' yazýn.",
 	    ch,NULL,mob,TO_CHAR);
 	return;
     }
 
     if (cost > (ch->gold * 100 + ch->silver))
     {
-	act("You do not have that much gold.",
-	    ch,NULL,mob,TO_CHAR);
+      act("Yeterli akçen yok.",ch,NULL,mob,TO_CHAR);
 	return;
     }
 
@@ -224,23 +223,23 @@ void do_heal(CHAR_DATA *ch, char *argument)
     deduct_cost(ch,cost);
     mob->gold += cost / 100;
 
-    act("$n utters the words '$T'.",mob,NULL,words,TO_ROOM);
+    act("$n mýrýldanýyor, '$T'.",mob,NULL,words,TO_ROOM);
     if (sn == -2)
      {
 	ch->mana += 300;
 	ch->mana = UMIN(ch->mana,ch->max_mana);
-	send_to_char("A warm glow passes through you.\n\r",ch);
+  send_to_char("Vücudundan þifalý bir sýcaklýk geçiyor.\n\r",ch);
      }
     if (sn == -3)
     {
 	ch->mana += dice(2,8) + mob->level / 3;
 	ch->mana = UMIN(ch->mana,ch->max_mana);
-	send_to_char("A warm glow passes through you.\n\r",ch);
+  send_to_char("Vücudundan þifalý bir sýcaklýk geçiyor.\n\r",ch);
     }
-  
+
      if (sn < 0)
 	return;
-    
+
      spell(sn,mob->level,mob,ch,TARGET_CHAR);
 }
 
@@ -254,25 +253,25 @@ void heal_battle(CHAR_DATA *mob, CHAR_DATA *ch )
 
     if (IS_NPC(ch) || ch->cabal != CABAL_BATTLE)
        {
-	do_say(mob,(char*)"I won't help you.");
+         do_say(mob,"Sana yardým etmem.");
 	return;
        }
 
     if (!IS_AFFECTED(ch,AFF_BLIND) && !IS_AFFECTED(ch,AFF_PLAGUE)
 	 && !IS_AFFECTED(ch,AFF_POISON) && !IS_AFFECTED(ch,AFF_CURSE) )
        {
-	do_say(mob,(char*)"You don't need my help, my dear. But in case!");
+	do_say(mob,(char*)"Benim yardýmýma ihtiyacýn yok evladým. Fakat...");
 	sn = skill_lookup((char*)"remove curse");
 	spell_remove_curse(sn,mob->level,mob,ch,TARGET_CHAR);
 	return;
        }
 
-    act("$n gives you some herbs to eat.",mob,NULL,ch,TO_VICT);
-    act("You eat that herbs.",mob,NULL,ch,TO_VICT);
-    act("You give the herbs to $N.",mob,NULL,ch,TO_CHAR);
-    act("$N eats the herbs that you give.",mob,NULL,ch,TO_CHAR);
-    act("$n gives the herbs to $N.",mob,NULL,ch,TO_NOTVICT);
-    act("$n eats the herbs that $N gave $m.",mob,NULL,ch,TO_NOTVICT);
+       act("$n sana yemen için otlar veriyor.",mob,NULL,ch,TO_VICT);
+       act("Otlarý yiyorsun.",mob,NULL,ch,TO_VICT);
+       act("Otlarý $E veriyorsun.",mob,NULL,ch,TO_CHAR);
+       act("$N verdiðin otlarý yiyor.",mob,NULL,ch,TO_CHAR);
+       act("$n $E ot veriyor.",mob,NULL,ch,TO_NOTVICT);
+       act("$n $S verdiði otlarý yiyor.",mob,NULL,ch,TO_NOTVICT);
 
     WAIT_STATE(ch,PULSE_VIOLENCE);
 
@@ -299,4 +298,3 @@ void heal_battle(CHAR_DATA *mob, CHAR_DATA *ch )
       }
     return;
 }
-
