@@ -2,11 +2,11 @@
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
- *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *	
- *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *	
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *
+ *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
 /***************************************************************************
@@ -25,7 +25,7 @@
  *  benefitting.  We hope that you share your changes too.  What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
- 
+
 /***************************************************************************
 *	ROM 2.4 is copyright 1993-1995 Russ Taylor			   *
 *	ROM has been brought to you by the ROM consortium		   *
@@ -59,7 +59,7 @@ NOTE_DATA *new_note()
     if (note_free == NULL)
 	note = (NOTE_DATA *)alloc_perm(sizeof(*note));
     else
-    { 
+    {
 	note = note_free;
 	note_free = note_free->next;
     }
@@ -83,7 +83,7 @@ void free_note(NOTE_DATA *note)
     note_free   = note;
 }
 
-    
+
 /* stuff for recycling ban structures */
 BAN_DATA *ban_free;
 
@@ -133,7 +133,7 @@ DESCRIPTOR_DATA *new_descriptor(void)
 	d = descriptor_free;
 	descriptor_free = descriptor_free->next;
     }
-	
+
     *d = d_zero;
     VALIDATE(d);
     return d;
@@ -180,7 +180,7 @@ void free_extra_descr(EXTRA_DESCR_DATA *ed)
     free_string(ed->keyword);
     free_string(ed->description);
     INVALIDATE(ed);
-    
+
     ed->next = extra_descr_free;
     extra_descr_free = ed;
 }
@@ -262,7 +262,7 @@ void free_obj(OBJ_DATA *obj)
 	free_extra_descr(ed);
      }
      obj->extra_descr = NULL;
-   
+
     free_string( obj->name        );
     free_string( obj->description );
     free_string( obj->short_descr );
@@ -270,7 +270,7 @@ void free_obj(OBJ_DATA *obj)
     INVALIDATE(obj);
 
     obj->next   = obj_free;
-    obj_free    = obj; 
+    obj_free    = obj;
 
 }
 
@@ -402,11 +402,11 @@ PC_DATA *new_pcdata(void)
     }
 
     pcdata->buffer = new_buf();
-    
+
     VALIDATE(pcdata);
     return pcdata;
 }
-	
+
 
 void free_pcdata(PC_DATA *pcdata)
 {
@@ -420,7 +420,7 @@ void free_pcdata(PC_DATA *pcdata)
     free_string(pcdata->bamfout);
     free_string(pcdata->title);
     free_buf(pcdata->buffer);
-    
+
     for (alias = 0; alias < MAX_ALIAS; alias++)
     {
 	free_string(pcdata->alias[alias]);
@@ -433,7 +433,7 @@ void free_pcdata(PC_DATA *pcdata)
     return;
 }
 
-	
+
 
 
 /* stuff for setting ids */
@@ -464,7 +464,7 @@ BUFFER *buf_free;
 MEM_DATA *new_mem_data(void)
 {
     MEM_DATA *memory;
-  
+
     if (mem_data_free == NULL)
 	memory = (MEM_DATA *)alloc_mem(sizeof(*memory));
     else
@@ -511,7 +511,7 @@ int get_size (int val)
 	{
 	    return buf_size[i];
 	}
-    
+
     return -1;
 }
 
@@ -519,7 +519,7 @@ BUFFER *new_buf()
 {
     BUFFER *buffer;
 
-    if (buf_free == NULL) 
+    if (buf_free == NULL)
 	buffer = (BUFFER *)alloc_perm(sizeof(*buffer));
     else
     {
@@ -541,7 +541,7 @@ BUFFER *new_buf()
 BUFFER *new_buf_size(int size)
 {
     BUFFER *buffer;
- 
+
     if (buf_free == NULL)
         buffer = (BUFFER *)alloc_perm(sizeof(*buffer));
     else
@@ -549,7 +549,7 @@ BUFFER *new_buf_size(int size)
         buffer = buf_free;
         buf_free = buf_free->next;
     }
- 
+
     buffer->next        = NULL;
     buffer->state       = BUFFER_SAFE;
     buffer->size        = get_size(size);
@@ -561,7 +561,7 @@ BUFFER *new_buf_size(int size)
     buffer->string      = (char *)alloc_mem(buffer->size);
     buffer->string[0]   = '\0';
     VALIDATE(buffer);
- 
+
     return buffer;
 }
 
@@ -635,15 +635,3 @@ char *buf_string(BUFFER *buffer)
 {
     return buffer->string;
 }
-
-    
-
-	
-
-
-
-
-
-
-
-

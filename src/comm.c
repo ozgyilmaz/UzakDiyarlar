@@ -2025,7 +2025,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	ch->pcdata->points = class_table[iClass].points
 		+ class_table[ORG_RACE(ch)].points;
-	sprintf(buf, "Artýk sýnýfýn %s.\n\r", class_table[iClass].name);
+	sprintf(buf, "Artýk sýnýfýn %s.\n\r", class_table[iClass].name[1]);
 	write_to_buffer(d, buf, 0 );
 	write_to_buffer( d, "[Devam etmek için ENTER]\n\r",0);
 	d->connected = CON_READ_MOTD;
@@ -2195,7 +2195,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	{
 		write_to_buffer(d,"\n\rGeçerli bir ýrk seçmedin.\n\r",0);
 					write_to_buffer(d,"Aþaðýdakilerden birini seçebilirsin:\n\r  ",0);
-            for ( race = 1; race_table[race].name != NULL; race++ )
+            for ( race = 1; race_table[race].name[0] != NULL; race++ )
             {
             	if (!race_table[race].pc_race)
                     break;
@@ -2278,12 +2278,12 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    {
 	     if (iClass < 7 )
 	      {
-	      	strcat( buf, class_table[iClass].name );
+	      	strcat( buf, class_table[iClass].name[1] );
 	      	strcat( buf, " ");
 	      }
 	     else
 	      {
-	      	strcat( buf1, class_table[iClass].name );
+	      	strcat( buf1, class_table[iClass].name[1] );
 	      	strcat( buf1, " ");
 	      }
 	    }
@@ -2329,7 +2329,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
         ch->iclass = iClass;
 
 	ch->pcdata->points += class_table[iClass].points;
-	sprintf(buf, "Tebrikler! Karakterin %s sýnýfýndan.\n\r", class_table[iClass].name);
+	sprintf(buf, "Tebrikler! Karakterin %s sýnýfýndan.\n\r", class_table[iClass].name[1]);
 	write_to_buffer(d, buf, 0 );
 
 	for (i=0; i < MAX_STATS; i++)
@@ -2608,8 +2608,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    ch->pcdata->death = 0;
 
 	    sprintf( buf, "%s",
-		title_table [ch->iclass] [ch->level]
-		[ch->sex == SEX_FEMALE ? 1 : 0] );
+		title_table [ch->iclass] [ch->level]);
 	    set_title( ch, buf );
 
 	    obj_to_char(create_object(get_obj_index(OBJ_VNUM_MAP),0),ch);

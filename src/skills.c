@@ -2,11 +2,11 @@
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
- *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *	
- *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *	
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *
+ *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
 /***************************************************************************
@@ -25,7 +25,7 @@
  *  benefitting.  We hope that you share your changes too.  What goes	   *
  *  around, comes around.						   *
  ***************************************************************************/
- 
+
 /***************************************************************************
 *	ROM 2.4 is copyright 1993-1995 Russ Taylor			   *
 *	ROM has been brought to you by the ROM consortium		   *
@@ -63,8 +63,8 @@ void do_gain(CHAR_DATA *ch, char *argument)
 	return;
 
     /* find a trainer */
-    for ( trainer = ch->in_room->people; 
-	  trainer != NULL; 
+    for ( trainer = ch->in_room->people;
+	  trainer != NULL;
 	  trainer = trainer->next_in_room)
 	if (IS_NPC(trainer) && 	(IS_SET(trainer->act,ACT_PRACTICE) ||
 	    IS_SET(trainer->act,ACT_TRAIN) || IS_SET(trainer->act,ACT_GAIN)) )
@@ -72,7 +72,7 @@ void do_gain(CHAR_DATA *ch, char *argument)
 
     if (trainer == NULL || !can_see(ch,trainer))
     {
-	send_to_char("You can't do that here.\n\r",ch);
+      send_to_char("Burada yapamazsýn.\n\r", ch);
 	return;
     }
 
@@ -80,45 +80,45 @@ void do_gain(CHAR_DATA *ch, char *argument)
 
     if (arg[0] == '\0')
     {
-	do_say(trainer,(char*)"You may convert 10 practices into 1 train.");
-	do_say(trainer,(char*)"You may revert 1 train into 10 practices.");
-	do_say(trainer,(char*)"Simply type 'gain convert' or 'gain revert'.");
+      do_say(trainer,(char*)"10 pratiði 1 eðitime dönüþtürebilirsin.");
+    	do_say(trainer,(char*)"1 eðitimi 10 pratiðe dönüþtürebilirsin.");
+    	do_say(trainer,(char*)"Þunlarý kullan: 'kazan eðitim','kazan pratik'");
 	return;
     }
 
-    if (!str_prefix(arg,"revert"))
+    if (!str_prefix(arg,"pratik"))
     {
 	if (ch->train < 1)
 	{
-	    act("$N tells you 'You are not yet ready.'",
+    act("$N anlatýyor 'Hazýr deðilsin.'",
 		ch,NULL,trainer,TO_CHAR);
 	    return;
 	}
 
-	act("$N helps you apply your training to practice",
+  act("$N eðitimini pratiklere dönüþtürmene yardým ediyor.",
 		ch,NULL,trainer,TO_CHAR);
 	ch->practice += 10;
 	ch->train -=1 ;
 	return;
     }
 
-    if (!str_prefix(arg,"convert"))
+    if (!str_prefix(arg,"eðitim"))
     {
 	if (ch->practice < 10)
 	{
-	    act("$N tells you 'You are not yet ready.'",
+    act("$N anlatýyor 'Hazýr deðilsin.'",
 		ch,NULL,trainer,TO_CHAR);
 	    return;
 	}
 
-	act("$N helps you apply your practice to training",
+  act("$N pratiklerini eðitime dönüþtürmene yardým ediyor.",
 		ch,NULL,trainer,TO_CHAR);
 	ch->practice -= 10;
 	ch->train +=1 ;
 	return;
     }
 
-    act("$N tells you 'I do not understand...'",ch,NULL,trainer,TO_CHAR);
+    act("$N anlatýyor 'Anlamadým...'",ch,NULL,trainer,TO_CHAR);
 
 }
 
@@ -136,7 +136,7 @@ void do_spells(CHAR_DATA *ch, char *argument)
 
     if (IS_NPC(ch))
       return;
-  
+
     /* initilize data */
     output[0] = '\0';
     for (lev = 0; lev < LEVEL_HERO; lev++)
@@ -144,7 +144,7 @@ void do_spells(CHAR_DATA *ch, char *argument)
 	spell_columns[lev] = 0;
 	spell_list[lev][0] = '\0';
     }
- 
+
     for (sn = 0; sn < MAX_SKILL; sn++)
     {
       if (skill_table[sn].name == NULL)
@@ -152,22 +152,22 @@ void do_spells(CHAR_DATA *ch, char *argument)
 
       if (skill_table[sn].skill_level[ch->iclass] < LEVEL_HERO &&
 	  skill_table[sn].spell_fun != spell_null && RACE_OK(ch,sn) &&
-(skill_table[sn].cabal == ch->cabal || skill_table[sn].cabal == CABAL_NONE) 
+(skill_table[sn].cabal == ch->cabal || skill_table[sn].cabal == CABAL_NONE)
 	)
       {
 	found = TRUE;
 	lev = skill_table[sn].skill_level[ch->iclass];
 	if (ch->level < lev)
-	  sprintf(buf,"%-18s  n/a      ", skill_table[sn].name);
+	  sprintf(buf,"%-18s  n/a      ", skill_table[sn].name[1]);
 	else
 	{
 	  mana = UMAX(skill_table[sn].min_mana,
 		      100/(2 + ch->level - lev));
-	  sprintf(buf,"%-18s  %3d mana  ",skill_table[sn].name,mana);
+	  sprintf(buf,"%-18s  %3d mana  ",skill_table[sn].name[1],mana);
 	}
-	
+
 	if (spell_list[lev][0] == '\0')
-	  sprintf(spell_list[lev],"\n\rLevel %2d: %s",lev,buf);
+	  sprintf(spell_list[lev],"\n\rSeviye %2d: %s",lev,buf);
         else /* append */
 	{
 	  if ( ++spell_columns[lev] % 2 == 0)
@@ -178,13 +178,13 @@ void do_spells(CHAR_DATA *ch, char *argument)
     }
 
     /* return results */
- 
+
     if (!found)
     {
-      send_to_char("You know no spells.\n\r",ch);
+      send_to_char("Büyü bilmiyorsun.\n\r",ch);
       return;
     }
-    
+
     for (lev = 0; lev < LEVEL_HERO; lev++)
       if (spell_list[lev][0] != '\0')
         strcat(output,spell_list[lev]);
@@ -199,38 +199,38 @@ void do_skills(CHAR_DATA *ch, char *argument)
     int sn,lev;
     bool found = FALSE;
     char buf[MAX_STRING_LENGTH];
- 
+
     if (IS_NPC(ch))
       return;
- 
+
     /* initilize data */
     for (lev = 0; lev < LEVEL_HERO; lev++)
     {
         skill_columns[lev] = 0;
         skill_list[lev][0] = '\0';
     }
- 
+
     for (sn = 0; sn < MAX_SKILL; sn++)
     {
       if (skill_table[sn].name == NULL )
         break;
 
- 
+
       if (skill_table[sn].skill_level[ch->iclass] < LEVEL_HERO &&
 	  skill_table[sn].spell_fun == spell_null && RACE_OK(ch,sn) &&
-(skill_table[sn].cabal == ch->cabal || skill_table[sn].cabal == CABAL_NONE) 
+(skill_table[sn].cabal == ch->cabal || skill_table[sn].cabal == CABAL_NONE)
 	  )
       {
         found = TRUE;
         lev = skill_table[sn].skill_level[ch->iclass];
         if (ch->level < lev)
-          sprintf(buf,"%-18s n/a      ", skill_table[sn].name);
+          sprintf(buf,"%-18s n/a      ", skill_table[sn].name[1]);
         else
-          sprintf(buf,"%-18s %3d%%      ",skill_table[sn].name,
+          sprintf(buf,"%-18s %3d%%      ",skill_table[sn].name[1],
 					 ch->pcdata->learned[sn]);
- 
+
         if (skill_list[lev][0] == '\0')
-          sprintf(skill_list[lev],"\n\rLevel %2d: %s",lev,buf);
+          sprintf(skill_list[lev],"\n\rSeviye %2d: %s",lev,buf);
         else /* append */
         {
           if ( ++skill_columns[lev] % 2 == 0)
@@ -239,15 +239,15 @@ void do_skills(CHAR_DATA *ch, char *argument)
         }
       }
     }
- 
+
     /* return results */
- 
+
     if (!found)
     {
-      send_to_char("You know no skills.\n\r",ch);
+      send_to_char("Büyü bilmiyorsun.\n\r",ch);
       return;
     }
- 
+
     for (lev = 0; lev < LEVEL_HERO; lev++)
       if (skill_list[lev][0] != '\0')
         send_to_char(skill_list[lev],ch);
@@ -267,7 +267,7 @@ int base_exp(CHAR_DATA *ch, int points)
 }
 
 int exp_to_level(CHAR_DATA *ch, int points)
-{ 
+{
  int base;
 
   base = base_exp(ch,points);
@@ -281,14 +281,14 @@ int exp_this_level(CHAR_DATA *ch, int level, int points)
   base = base_exp(ch,points);
   return (ch->exp - (ch->level * base ) );
 }
- 
+
 
 int exp_per_level(CHAR_DATA *ch, int points)
 {
     int expl;
 
     if (IS_NPC(ch))
-	return 1000; 
+	return 1000;
 
     expl = 1000 + pc_race_table[ORG_RACE(ch)].points +
 			class_table[ch->iclass].points;
@@ -296,7 +296,7 @@ int exp_per_level(CHAR_DATA *ch, int points)
     return expl * pc_race_table[ORG_RACE(ch)].class_mult[ch->iclass]/100;
 }
 
-        
+
 /* checks for skill improvement */
 void check_improve( CHAR_DATA *ch, int sn, bool success, int multiplier )
 {
@@ -310,27 +310,27 @@ void check_improve( CHAR_DATA *ch, int sn, bool success, int multiplier )
     ||  skill_table[sn].rating[ch->iclass] == 0
     ||  ch->pcdata->learned[sn] == 0
     ||  ch->pcdata->learned[sn] == 100)
-	return;  /* skill is not known */ 
+	return;  /* skill is not known */
 
     /* check to see if the character has a chance to learn */
     chance = 10 * int_app[get_curr_stat(ch,STAT_INT)].learn;
     chance /= (		multiplier
-		*	skill_table[sn].rating[ch->iclass] 
+		*	skill_table[sn].rating[ch->iclass]
 		*	4);
     chance += ch->level;
 
     if (number_range(1,1000) > chance)
 	return;
 
-    /* now that the character has a CHANCE to learn, see if they really have */	
+    /* now that the character has a CHANCE to learn, see if they really have */
 
     if (success)
     {
 	chance = URANGE(5,100 - ch->pcdata->learned[sn], 95);
 	if (number_percent() < chance)
 	{
-	    sprintf(buf,"$CYou have become better at %s!$c",
-		    skill_table[sn].name);
+    sprintf(buf,"$C%s geliþiyor!$c",
+		    skill_table[sn].name[1]);
 	    act_color(buf,ch,NULL,NULL,TO_CHAR,POS_DEAD, CLR_GREEN);
 	    ch->pcdata->learned[sn]++;
 	    gain_exp(ch,2 * skill_table[sn].rating[ch->iclass]);
@@ -343,8 +343,8 @@ void check_improve( CHAR_DATA *ch, int sn, bool success, int multiplier )
 	if (number_percent() < chance)
 	{
 	    sprintf(buf,
-		"$CYou learn from your mistakes, and your %s skill improves.$c",
-		skill_table[sn].name);
+        "$CHatalarýndan ders alýyorsun ve %s geliþiyor.$c",
+		skill_table[sn].name[1]);
 	    act_color(buf,ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_GREEN);
 	    ch->pcdata->learned[sn] += number_range(1,3);
 	    ch->pcdata->learned[sn] = UMIN(ch->pcdata->learned[sn],100);
@@ -379,23 +379,23 @@ void do_slist(CHAR_DATA *ch, char *argument)
     int sn,lev,iclass;
     bool found = FALSE;
     char output[4*MAX_STRING_LENGTH];
-    char buf[MAX_STRING_LENGTH]; 
+    char buf[MAX_STRING_LENGTH];
     char arg[MAX_INPUT_LENGTH];
- 
+
     if (IS_NPC(ch))
       return;
- 
+
     output[0] = '\0';
     argument = one_argument(argument, arg);
     if (arg[0] == '\0')
 	{
-	 send_to_char("syntax: slist <class name>.\n\r",ch);
+    send_to_char("Yazým: syetenek <sýnýf>.\n\r",ch);
 	 return;
 	}
     iclass = class_lookup(arg);
-    if (iclass == -1) 
+    if (iclass == -1)
 	{
-	 send_to_char("That is not a valid class.\n\r",ch);
+    send_to_char("Geçerli bir sýnýf deðil.\n\r",ch);
 	 return;
 	}
     /* initilize data */
@@ -404,22 +404,22 @@ void do_slist(CHAR_DATA *ch, char *argument)
         skill_columns[lev] = 0;
         skill_list[lev][0] = '\0';
     }
- 
+
     for (sn = 0; sn < MAX_SKILL; sn++)
     {
       if (skill_table[sn].name == NULL )
         break;
 
- 
+
       if (skill_table[sn].skill_level[iclass] < LEVEL_HERO &&
 	  skill_table[sn].cabal == CABAL_NONE &&
 	  skill_table[sn].race == RACE_NONE )
       {
         found = TRUE;
         lev = skill_table[sn].skill_level[iclass];
-        sprintf(buf,"%-18s          ",skill_table[sn].name); 
+        sprintf(buf,"%-18s          ",skill_table[sn].name[1]);
         if (skill_list[lev][0] == '\0')
-          sprintf(skill_list[lev],"\n\rLevel %2d: %s",lev,buf);
+          sprintf(skill_list[lev],"\n\rrSeviye %2d: %s",lev,buf);
         else /* append */
         {
           if ( ++skill_columns[lev] % 2 == 0)
@@ -428,15 +428,15 @@ void do_slist(CHAR_DATA *ch, char *argument)
         }
       }
     }
- 
+
     /* return results */
- 
+
     if (!found)
     {
-      send_to_char("That class know no skills.\n\r",ch);
+      send_to_char("O sýnýfta yetenek yok.\n\r",ch);
       return;
     }
- 
+
     for (lev = 0; lev < LEVEL_HERO; lev++)
       if (skill_list[lev][0] != '\0')
         strcat(output,skill_list[lev]);
@@ -458,7 +458,7 @@ int group_lookup (const char *name)
    }
 
    return -1;
-} 
+}
 
 void do_glist( CHAR_DATA *ch , char *argument)
 {
@@ -467,35 +467,35 @@ void do_glist( CHAR_DATA *ch , char *argument)
  int group,count;
 
  one_argument(argument,arg);
- 
- if (arg[0] == '\0') 
+
+ if (arg[0] == '\0')
   {
-   send_to_char("Syntax : glist <group>\n\r",ch);
+    send_to_char("Syntax : grupliste <grup>\n\r",ch);
    return;
   }
 
  if ((group = group_lookup(arg) ) == -1)
   {
-   send_to_char("That is not a valid group.\n\r",ch);
+    send_to_char("Geçerli bir grup deðil.\n\r",ch);
    return;
   }
 
- sprintf(buf,"Now listing group %s :\n\r",prac_table[group].sh_name);
+  sprintf(buf,"%s grubunu listeliyor :\n\r",prac_table[group].sh_name);
  send_to_char(buf,ch);
  buf[0] = '\0';
  for(count = 0 ; count < MAX_SKILL; count++)
   {
-   if ( (group == GROUP_NONE && !CLEVEL_OK(ch,count) && 
+   if ( (group == GROUP_NONE && !CLEVEL_OK(ch,count) &&
 	skill_table[count].group == GROUP_NONE ) ||
 	(group != skill_table[count].group) || !CABAL_OK(ch,count) )
      continue;
    if ( buf[0] != '\0')
     {
-     sprintf(buf , "%-18s%-18s\n\r", buf,skill_table[count].name);
+     sprintf(buf , "%-18s%-18s\n\r", buf,skill_table[count].name[1]);
      send_to_char(buf,ch);
      buf[0] = '\0';
     }
-   else sprintf(buf, "%-18s",skill_table[count].name);
+   else sprintf(buf, "%-18s",skill_table[count].name[1]);
   }
 
 }
@@ -514,13 +514,13 @@ void do_slook( CHAR_DATA *ch, char *argument)
 	}
 
      if ( (sn = skill_lookup(arg)) == -1 )
-	{ 
-	 send_to_char("That is not a spell or skill.\n\r",ch);
-	 return; 
+	{
+	 send_to_char("Böyle bir büyü veya yetenek yok.\n\r",ch);
+	 return;
 	}
 
-     sprintf(buf,"Skill :%s in group %s.\n\r",
-	skill_table[sn].name,prac_table[skill_table[sn].group].sh_name);
+     sprintf(buf,"Yetenek: %s, Grup: %s.\n\r",
+	skill_table[sn].name[1],prac_table[skill_table[sn].group].sh_name);
      send_to_char(buf,ch);
 
      return;
@@ -541,19 +541,19 @@ void do_learn( CHAR_DATA *ch, char *argument )
 
 	if ( !IS_AWAKE(ch) )
 	{
-	    send_to_char( "In your dreams, or what?\n\r", ch );
+    send_to_char("Rüyalarýnda mý?\n\r", ch);
 	    return;
 	}
 
 	if ( argument[0] == '\0')
 	{
-	    send_to_char( "Syntax: learn <skill | spell> <player>.\n\r", ch );
+    send_to_char( "Yazým: öðren <yetenek|büyü> <öðretici>.\n\r", ch );
 	    return;
 	}
 
 	if ( ch->practice <= 0 )
 	{
-	    send_to_char( "You have no practice sessions left.\n\r", ch );
+    send_to_char("Pratik seansýn yok.\n\r", ch );
 	    return;
 	}
 
@@ -561,43 +561,43 @@ void do_learn( CHAR_DATA *ch, char *argument )
 
 	if ( ( sn = find_spell( ch,arg ) ) < 0
 	|| ( !IS_NPC(ch)
-	&&   (ch->level < skill_table[sn].skill_level[ch->iclass] 
+	&&   (ch->level < skill_table[sn].skill_level[ch->iclass]
  	|| !RACE_OK(ch,sn) ||
 (skill_table[sn].cabal != ch->cabal && skill_table[sn].cabal != CABAL_NONE) )))
 	{
-	    send_to_char( "You can't practice that.\n\r", ch );
+    send_to_char( "Bunu pratik edemezsin.\n\r", ch );
 	    return;
 	}
 
 	if ( sn == gsn_vampire )
 	{
-	 send_to_char( "You can't practice that, only available at questor.\n\r",ch);
+    send_to_char( "Bu konuda ancak görevci yardým edebilir.\n\r",ch);
 	 return;
 	}
 
 	argument = one_argument(argument,arg);
-	
+
 	if ( (mob = get_char_room(ch,arg) ) == NULL)
 	{
-	    send_to_char( "Your hero is not here.\n\r", ch );
+    send_to_char( "Kahramanýn burada deðil.\n\r", ch );
 	    return;
 	}
-	
+
 	if ( IS_NPC(mob) || mob->level != HERO )
 	{
-	  send_to_char("You must find a hero , not an ordinary one.\n\r",ch);
+    send_to_char( "Bir kahraman bulmalýsýn, sýradan birini deðil.\n\r",ch);
 	  return;
 	}
 
 	if ( mob->status != PC_PRACTICER )
 	{
-	  send_to_char("Your hero doesn't want to teach you anything.\n\r",ch);
+    send_to_char( "Kahramanýn öðretmeye istekli görünmüyor.\n\r",ch);
 	  return;
 	}
 
 	if (get_skill(mob,sn) < 100)
 	{
-	  send_to_char("Your hero doesn't know that skill enough to teach you.\n\r",ch);
+    send_to_char("Kahramanýn bu konuyu öðretebilecek kadar bilmiyor.\n\r",ch);
 	  return;
 	}
 
@@ -605,36 +605,36 @@ void do_learn( CHAR_DATA *ch, char *argument )
 
 	if ( ch->pcdata->learned[sn] >= adept )
 	{
-	    sprintf( buf, "You are already learned at %s.\n\r",
-		skill_table[sn].name );
+    sprintf( buf, "%s konusunu zaten öðrendin.\n\r",
+		skill_table[sn].name[1] );
 	    send_to_char( buf, ch );
 	}
 	else
 	{
 	    if (!ch->pcdata->learned[sn]) ch->pcdata->learned[sn] = 1;
 	    ch->practice--;
-	    ch->pcdata->learned[sn] += 
-		int_app[get_curr_stat(ch,STAT_INT)].learn / 
+	    ch->pcdata->learned[sn] +=
+		int_app[get_curr_stat(ch,STAT_INT)].learn /
 	        UMAX(skill_table[sn].rating[ch->iclass],1);
 	    mob->status = 0;
-	    act( "You teach $T.",
-		    mob, NULL, skill_table[sn].name, TO_CHAR );
-	    act( "$n teachs $T.",
-		    mob, NULL, skill_table[sn].name, TO_ROOM );
+      act( "$T öðretiyorsun.",
+		    mob, NULL, skill_table[sn].name[1], TO_CHAR );
+	    act( "$n $T öðretiyor.",
+		    mob, NULL, skill_table[sn].name[1], TO_ROOM );
 	    if ( ch->pcdata->learned[sn] < adept )
 	    {
-		act( "You learn $T.",
-		    ch, NULL, skill_table[sn].name, TO_CHAR );
-		act( "$n learn $T.",
-		    ch, NULL, skill_table[sn].name, TO_ROOM );
+        act( "$T öðreniyorsun.",
+    		    ch, NULL, skill_table[sn].name[1], TO_CHAR );
+    		act( "$n $T öðreniyor.",
+    		    ch, NULL, skill_table[sn].name[1], TO_ROOM );
 	    }
 	    else
 	    {
 		ch->pcdata->learned[sn] = adept;
-		act( "You are now learned at $T.",
-		    ch, NULL, skill_table[sn].name, TO_CHAR );
-		act( "$n is now learned at $T.",
-		    ch, NULL, skill_table[sn].name, TO_ROOM );
+    act( "$T konusunu öðrendin.",
+		    ch, NULL, skill_table[sn].name[1], TO_CHAR );
+		act( "$n $T konusunu öðrendi.",
+		    ch, NULL, skill_table[sn].name[1], TO_ROOM );
 	    }
 	}
     return;
@@ -645,10 +645,10 @@ void do_teach( CHAR_DATA *ch, char *argument)
 {
  if (IS_NPC(ch) || ch->level != LEVEL_HERO)
   {
-	send_to_char("You must be a hero.\n\r",ch);
+    send_to_char("Bir kahraman olmalýsýn.\n\r",ch);
 	return;
   }
  ch->status = PC_PRACTICER;
- send_to_char("Now , you can teach youngsters your 100% skills.\n\r",ch);
+ send_to_char("Artýk %100 olan yeteneklerini gençlere öðretebilirsin.\n\r",ch);
  return;
 }

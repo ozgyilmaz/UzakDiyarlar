@@ -30,11 +30,11 @@ büdü-de
 
 const struct sonek_type sonek_table[] =
 {
-	{{"n"	,"ýn"	,"in"	,"un"	,"ün"	}},//f - un
- 	{{"y"	,"ý"	,"i"	,"u"	,"ü"	}},//g - u
-  	{{"y"	,"a"	,"e"	,"a"	,"e"	}},//h - e
-   	{{""	,"da"	,"de"	,"da"	,"de"	}},//j - de
-    	{{""	,"dan"	,"den"	,"dan"	,"den"	}},//k - den
+	{{(char*)"n",(char*)"ýn" ,(char*)"in"	,(char*)"un" ,(char*)"ün"	}},//f - un
+ 	{{(char*)"y",(char*)"ý"	 ,(char*)"i"	,(char*)"u"	 ,(char*)"ü"	}},//g - u
+  {{(char*)"y",(char*)"a"	 ,(char*)"e"	,(char*)"a"	 ,(char*)"e"	}},//h - e
+  {{(char*)""	,(char*)"da" ,(char*)"de"	,(char*)"da" ,(char*)"de"	}},//j - de
+  {{(char*)""	,(char*)"dan",(char*)"den",(char*)"dan",(char*)"den"	}},//k - den
      	{{NULL	,NULL	,NULL	,NULL	,NULL	}}
 };
 
@@ -56,7 +56,7 @@ bool son_harf_unlu_mu(char *sozcuk)
 	}
 	//son harf þu:
 	--str;
-	
+
 	if(bu_harf_unlu_mu(*str))
 		return TRUE;
 	return FALSE;
@@ -75,7 +75,7 @@ char son_unlu_harf_hangisi(char *sozcuk)
 		++str;
 	}
 
-	return unlu;	
+	return unlu;
 }
 
 char *ek_olustur(char *sozcuk, char tip)
@@ -141,7 +141,5 @@ char *ek_olustur(char *sozcuk, char tip)
 	}
 	pbuf=buf;
 	return pbuf;
-	
+
 }
-
-

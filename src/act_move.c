@@ -1775,7 +1775,7 @@ void do_wake( CHAR_DATA *ch, char *argument )
 	{ act("Onu uyandýramazsýn!",   ch, NULL, victim, TO_CHAR );  return; }
 
     act_new("$n seni uyandýrýyor.", ch, NULL, victim, TO_VICT,POS_SLEEPING );
-    do_stand(victim,"");
+    do_stand(victim,(char*)"");
     return;
 }
 
@@ -2910,7 +2910,7 @@ void do_vtouch(CHAR_DATA *ch, char *argument)
 	damage(ch,victim,0,gsn_vampiric_touch,DAM_NONE, TRUE);
 	check_improve(ch,gsn_vampiric_touch,FALSE,1);
         if (!can_see(victim, ch))
-        do_yell(victim,  "Ýmdat! Biri beni boðazladý!");
+        do_yell(victim,  (char*)"Ýmdat! Biri beni boðazladý!");
         else
         {
           sprintf(buf, "Ýmdat! %s bana saldýrdý!",

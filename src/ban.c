@@ -1,15 +1,15 @@
 /***************************************************************************
- *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *	
+ *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
- *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *	
- *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *	
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *
+ *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
-/***************************************************************************   
+/***************************************************************************
  *  Original Diku Mud copyright (C) 1990, 1991 by Sebastian Hammer,        *
  *  Michael Seifert, Hans Henrik St{rfeldt, Tom Madsen, and Katja Nyboe.   *
  *                                                                         *
@@ -61,7 +61,7 @@ void save_bans(void)
     bool found = FALSE;
     char buf[160];
 
-    fclose( fpReserve ); 
+    fclose( fpReserve );
     if ( ( fp = fopen( BAN_FILE, "w" ) ) == NULL )
     {
         perror( BAN_FILE );
@@ -92,10 +92,10 @@ void load_bans(void)
 {
     FILE *fp;
     BAN_DATA *ban_last;
- 
+
     if ( ( fp = fopen( BAN_FILE, "r" ) ) == NULL )
         return;
- 
+
     ban_last = NULL;
     for ( ; ; )
     {
@@ -105,9 +105,9 @@ void load_bans(void)
             fclose( fp );
             return;
         }
- 
+
         pban = new_ban();
- 
+
         pban->name = str_dup(fread_word(fp));
 	pban->level = fread_number(fp);
 	pban->ban_flags = fread_flag(fp);
@@ -129,13 +129,13 @@ bool check_ban(char *site,int type)
     strcpy(host,capitalize(site));
     host[0] = LOWER(host[0]);
 
-    for ( pban = ban_list; pban != NULL; pban = pban->next ) 
+    for ( pban = ban_list; pban != NULL; pban = pban->next )
     {
 	if(!IS_SET(pban->ban_flags,type))
 	    continue;
 
-	if (IS_SET(pban->ban_flags,BAN_PREFIX) 
-	&&  IS_SET(pban->ban_flags,BAN_SUFFIX)  
+	if (IS_SET(pban->ban_flags,BAN_PREFIX)
+	&&  IS_SET(pban->ban_flags,BAN_SUFFIX)
 	&&  strstr(pban->name,host) != NULL)
 	    return TRUE;
 
@@ -169,7 +169,7 @@ void ban_site(CHAR_DATA *ch, char *argument, bool fPerm)
     {
 	if (ban_list == NULL)
 	{
-	    send_to_char("No sites banned at this time.\n\r",ch);
+	    send_to_char("Þu an yasaklý site yok.\n\r",ch);
 	    return;
   	}
 	buffer = new_buf();
@@ -208,7 +208,7 @@ void ban_site(CHAR_DATA *ch, char *argument, bool fPerm)
     else
     {
 	send_to_char("Acceptable ban types are all, newbies, player, and permit.\n\r",
-	    ch); 
+	    ch);
 	return;
     }
 
@@ -228,7 +228,7 @@ void ban_site(CHAR_DATA *ch, char *argument, bool fPerm)
 
     if (strlen(name) == 0)
     {
-	send_to_char("You have to ban SOMETHING.\n\r",ch);
+	send_to_char("Bir þeyi yasaklaman gerekiyor.\n\r",ch);
 	return;
     }
 
@@ -239,7 +239,7 @@ void ban_site(CHAR_DATA *ch, char *argument, bool fPerm)
         {
 	    if (pban->level > get_trust(ch))
 	    {
-            	send_to_char( "That ban was set by a higher power.\n\r", ch );
+            	send_to_char( "Bu yasak daha yüksek seviyeli biri tarafýndan koyulmuþ.\n\r", ch );
             	return;
 	    }
 	    else
@@ -285,7 +285,7 @@ void do_permban(CHAR_DATA *ch, char *argument)
     ban_site(ch,argument,TRUE);
 }
 
-void do_allow( CHAR_DATA *ch, char *argument )                        
+void do_allow( CHAR_DATA *ch, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];
     char buf[MAX_STRING_LENGTH];
@@ -324,8 +324,6 @@ void do_allow( CHAR_DATA *ch, char *argument )
         }
     }
 
-    send_to_char( "Site is not banned.\n\r", ch );
+    send_to_char( "Bu site yasaklý deðil.\n\r", ch );
     return;
 }
-
-

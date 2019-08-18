@@ -253,7 +253,7 @@ void heal_battle(CHAR_DATA *mob, CHAR_DATA *ch )
 
     if (IS_NPC(ch) || ch->cabal != CABAL_BATTLE)
        {
-         do_say(mob,"Sana yardým etmem.");
+         do_say(mob,(char*)"Sana yardým etmem.");
 	return;
        }
 

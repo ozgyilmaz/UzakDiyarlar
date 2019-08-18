@@ -1,12 +1,12 @@
 /***************************************************************************
- *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT		           *	
+ *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT		           *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
- *	 Ibrahim Canpunar  {Mandrake}	canpunar@rorqual.cc.metu.edu.tr    *	
- *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *	
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 Ibrahim Canpunar  {Mandrake}	canpunar@rorqual.cc.metu.edu.tr    *
+ *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
 /***************************************************************************
@@ -65,8 +65,8 @@ void	raw_kill		args( ( CHAR_DATA *victim ) );
 void	back_home		args( ( CHAR_DATA *ch ) );
 int 	check_time_sync		( );
 
-//#include <unistd.h>     
-#include <signal.h>     
+//#include <unistd.h>
+#include <signal.h>
 
 /*
  * Local functions.
@@ -116,21 +116,21 @@ void advance_level( CHAR_DATA *ch )
        return;
     }
 
-    ch->pcdata->last_level = 
+    ch->pcdata->last_level =
 	( ch->played + (int) (current_time - ch->logon) ) / 3600;
 
     if ( strstr( ch->pcdata->title,
-	title_table[ch->iclass][ch->level-1][ch->sex == SEX_FEMALE ? 1 : 0]) 
+	title_table[ch->iclass][ch->level-1])
 	|| CANT_CHANGE_TITLE(ch) )
     {
-      sprintf( buf, "the %s",
-	title_table [ch->iclass] [ch->level] [ch->sex == SEX_FEMALE ? 1 : 0] );
+      sprintf( buf, ", %s",
+	title_table [ch->iclass] [ch->level]  );
       set_title( ch, buf );
     }
 
     add_hp = (con_app[get_curr_stat(ch,STAT_CON)].hitp + number_range(1,5)) - 3;
     add_hp = (add_hp * class_table[ch->iclass].hp_rate) / 100;
-    add_mana 	= 
+    add_mana 	=
    number_range(get_curr_stat(ch,STAT_INT)/2,(2*get_curr_stat(ch,STAT_INT)
 				  + get_curr_stat(ch,STAT_WIS)/5));
     add_mana = (add_mana * class_table[ch->iclass].mana_rate) / 100;
@@ -160,7 +160,7 @@ void advance_level( CHAR_DATA *ch )
     ch->pcdata->perm_move	+= add_move;
 
     sprintf( buf,
-	"Your gain is: %d/%d hp, %d/%d m, %d/%d mv %d/%d prac.\n\r",
+      "Kazancýn: %d/%d yp, %d/%d mana, %d/%d hp %d/%d pratik.\n\r",
 	add_hp,		ch->max_hit,
 	add_mana,	ch->max_mana,
 	add_move,	ch->max_move,
@@ -168,7 +168,7 @@ void advance_level( CHAR_DATA *ch )
 	);
     send_to_char( buf, ch );
     return;
-}   
+}
 
 
 
@@ -180,12 +180,12 @@ void gain_exp( CHAR_DATA *ch, int gain )
 	return;
     if ( IS_SET(ch->act,PLR_NO_EXP))
 	{
-	 send_to_char( "You can't gain exp without your spirit.\n\r", ch );
+    send_to_char( "Ruhun olmadan tecrübe kazanamazsýn.\n\r", ch );
 	 return;
 	}
 /*
     ch->exp = UMAX( exp_per_level(ch,ch->pcdata->points), ch->exp + gain );
-    while ( ch->level < LEVEL_HERO && ch->exp >= 
+    while ( ch->level < LEVEL_HERO && ch->exp >=
 	exp_per_level(ch,ch->pcdata->points) * (ch->level+1) )
 */
 
@@ -193,7 +193,7 @@ void gain_exp( CHAR_DATA *ch, int gain )
     while ( ch->level < LEVEL_HERO &&
            exp_to_level(ch,ch->pcdata->points) <= 0)
     {
-	send_to_char( "You raise a level!!  ", ch );
+      send_to_char("Seviyen yükseldi!!  ", ch );
 	ch->level += 1;
 
 	/* added for samurais by chronos */
@@ -245,11 +245,11 @@ int hit_gain( CHAR_DATA *ch )
             case POS_FIGHTING:  gain /= 3;                      break;
  	}
 
-	
+
     }
     else
     {
-	gain = UMAX(3, 2 * get_curr_stat(ch,STAT_CON) + (7 * ch->level) / 4); 
+	gain = UMAX(3, 2 * get_curr_stat(ch,STAT_CON) + (7 * ch->level) / 4);
 	gain = (gain * class_table[ch->iclass].hp_rate) / 100;
  	number = number_percent();
 	if (number < get_skill(ch,gsn_fast_healing))
@@ -282,7 +282,7 @@ int hit_gain( CHAR_DATA *ch )
     }
 
     gain = gain * ch->in_room->heal_rate / 100;
-    
+
     if (ch->on != NULL && ch->on->item_type == ITEM_FURNITURE)
 	gain = gain * ch->on->value[3] / 100;
 
@@ -462,7 +462,7 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
     if ( iCond == COND_FULL && (ch->pcdata->condition[COND_FULL] < 0) )
        ch->pcdata->condition[COND_FULL] = 0;
 
-    if ( (iCond == COND_DRUNK) && (condition < 1) ) 
+    if ( (iCond == COND_DRUNK) && (condition < 1) )
       ch->pcdata->condition[COND_DRUNK] = 0;
 
     if ( ch->pcdata->condition[iCond] < 1 && ch->pcdata->condition[iCond] > -6 )
@@ -470,26 +470,26 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
 	switch ( iCond )
 	{
 	case COND_HUNGER:
-	    send_to_char( "You are hungry.\n\r",  ch );
+  send_to_char("Karnýn aç.\n\r",  ch );
 	    break;
 
 	case COND_THIRST:
-	    send_to_char( "You are thirsty.\n\r", ch );
+  send_to_char("Susadýn.\n\r", ch );
 	    break;
-     
+
 	case COND_DRUNK:
 	    if ( condition != 0 )
-		send_to_char( "You are sober.\n\r", ch );
+      send_to_char( "Sarhoþsun.\n\r", ch );
 	    break;
 
 	case COND_BLOODLUST:
 	    if ( condition != 0 )
-		send_to_char( "You are hungry for blood.\n\r", ch );
+      send_to_char( "Kana susadýn.\n\r", ch );
 	    break;
 
 	case COND_DESIRE:
 	    if ( condition != 0 )
-		send_to_char( "You have missed your home.\n\r", ch );
+      send_to_char("Yurdunu özledin.\n\r", ch );
 	    break;
 	}
     }
@@ -499,29 +499,29 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
 	switch ( iCond )
 	{
 	case COND_HUNGER:
-	    send_to_char( "You are starving!\n\r",  ch );
-	    act( "$n is starving!",  ch, NULL, NULL, TO_ROOM );
+  send_to_char( "Açlýktan ölüyorsun!\n\r",  ch );
+  act( "$n açlýktan ölüyor!",  ch, NULL, NULL, TO_ROOM );
 	    damage_hunger = ch->max_hit * number_range(2, 4) / 100;
 	    if (!damage_hunger) damage_hunger = 1;
 	    damage( ch, ch, damage_hunger, TYPE_HUNGER, DAM_HUNGER, TRUE );
-	    if ( ch->position == POS_SLEEPING ) 
-		return;       
+	    if ( ch->position == POS_SLEEPING )
+		return;
 	    break;
 
 	case COND_THIRST:
-	    send_to_char( "You are dying of thrist!\n\r", ch );
-	    act( "$n is dying of thirst!", ch, NULL, NULL, TO_ROOM );
+  send_to_char("Susuzluktan ölüyorsun!\n\r", ch );
+  act( "$n susuzluktan ölüyor!", ch, NULL, NULL, TO_ROOM );
 	    damage_hunger = ch->max_hit * number_range(2, 4) / 100;
 	    if (!damage_hunger) damage_hunger = 1;
 	    damage( ch, ch, damage_hunger, TYPE_HUNGER, DAM_THIRST, TRUE );
-	    if ( ch->position == POS_SLEEPING ) 
-		return;       
+	    if ( ch->position == POS_SLEEPING )
+		return;
 	    break;
 
 	case COND_BLOODLUST:
 	    fdone = 0;
-	    send_to_char( "You are suffering from thrist of blood!\n\r",ch );
-	    act("$n is suffering from thirst of blood!", ch,NULL,NULL,TO_ROOM );
+      send_to_char("Kana olan açlýðýn seni öldürüyor!\n\r",ch );
+	    act("Kana olan açlýðý $m öldürüyor!", ch,NULL,NULL,TO_ROOM );
 	    if (ch->in_room && ch->in_room->people && !ch->fighting)
 	    {
 		if (!IS_AWAKE(ch)) do_stand(ch,(char*)"");
@@ -532,7 +532,7 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
                   if ( ch != vch && can_see(ch,vch) &&
                         !is_safe_nomessage(ch,vch) )
                    {
-                    do_yell(ch,(char*)"BLOOD! I NEED BLOOD!");
+                     do_yell(ch,(char*)"KAN! Kana ihtiyacým var!");
                     do_murder(ch,vch->name);
 		    fdone = 1;
 		    break;
@@ -543,14 +543,14 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
 	    damage_hunger = ch->max_hit * number_range(2, 4) / 100;
 	    if (!damage_hunger) damage_hunger = 1;
 	    damage( ch, ch, damage_hunger, TYPE_HUNGER, DAM_THIRST, TRUE );
-	    if ( ch->position == POS_SLEEPING ) 
-		return;       		
+	    if ( ch->position == POS_SLEEPING )
+		return;
 	    break;
 
 	case COND_DESIRE:
-	    send_to_char( "You want to go your home!\n\r", ch );
-	    act( "$n desires for $s home!", ch, NULL, NULL, TO_ROOM );
-	    if (ch->position >= POS_STANDING) 
+  send_to_char( "Eve dönmek istiyorsun!\n\r", ch );
+  act("$n memleket özlemiyle yanýp tutuþuyor!", ch, NULL, NULL, TO_ROOM );
+	    if (ch->position >= POS_STANDING)
 		move_char(ch,number_door(),FALSE);
 	    break;
 	}
@@ -595,7 +595,7 @@ void mobile_update( void )
 	if ( IS_AFFECTED(ch, AFF_CORRUPTION ) && ch->in_room != NULL )
 	{
 	 ch->hit -=  ch->level / 10;
-	 if (ch->hit < 1) 
+	 if (ch->hit < 1)
          {
 	    int sn = skill_lookup("corruption");
 
@@ -610,7 +610,7 @@ void mobile_update( void )
 	if ( CAN_DETECT(ch, ADET_SUFFOCATE ) && ch->in_room != NULL )
 	{
 	 ch->hit -=  ch->level / 5;
-	 if (ch->hit < 1) 
+	 if (ch->hit < 1)
          {
 	    int sn = skill_lookup("suffocate");
 
@@ -621,7 +621,7 @@ void mobile_update( void )
 	 }
 	 else {
 		if (number_percent() < 30) {
-		  send_to_char("You cannot breath!",ch);
+      send_to_char("Nefes alamýyorsun!",ch);
 		}
 	 }
 	}
@@ -654,7 +654,7 @@ void mobile_update( void )
 		ch->gold += ch->pIndexData->wealth * number_range(1,20)/5000000;
 		ch->silver += ch->pIndexData->wealth * number_range(1,20)/50000;
 	    }
-	 
+
 
 	/*
 	 *  Potion using and stuff for intelligent mobs
@@ -665,17 +665,17 @@ void mobile_update( void )
 	     ch->position == POS_FIGHTING )
 	{
 	   if ( get_curr_stat(ch, STAT_INT ) > 15 &&
-		(ch->hit<ch->max_hit*0.9 || 
+		(ch->hit<ch->max_hit*0.9 ||
 		 IS_AFFECTED(ch,AFF_BLIND) ||
 		 IS_AFFECTED(ch,AFF_POISON) ||
-		 IS_AFFECTED(ch,AFF_PLAGUE) || ch->fighting!=NULL) )  
+		 IS_AFFECTED(ch,AFF_PLAGUE) || ch->fighting!=NULL) )
 	   {
 	      for(obj=ch->carrying;obj!=NULL;obj=obj->next_content)
 		 if ( obj->item_type == ITEM_POTION )
 		 {
 		   if ( ch->hit < ch->max_hit*0.9 )  /* hp curies */
 		   {
-		   int cl;	
+		   int cl;
 		     cl=potion_cure_level( obj );
 		     if (cl > 0)
 		     {
@@ -728,10 +728,10 @@ void mobile_update( void )
 		     	do_quaff( ch, obj->name );
 			continue;
 		     }
-		     else 
+		     else
 		        continue;
 		   }
-		 }  
+		 }
 	   }
 	}
 
@@ -773,14 +773,14 @@ void mobile_update( void )
 	    {
 		obj_from_room( obj_best );
 		obj_to_char( obj_best, ch );
-		act( "$n gets $p.", ch, obj_best, NULL, TO_ROOM );
+    act( "$n $p alýyor.", ch, obj_best, NULL, TO_ROOM );
 		if (IS_SET(obj_best->progtypes,OPROG_GET))
 		   (obj_best->pIndexData->oprogs->get_prog) (obj_best,ch);
 	    }
 	}
 
 	/* Wander */
-	if ( !IS_SET(ch->act, ACT_SENTINEL) 
+	if ( !IS_SET(ch->act, ACT_SENTINEL)
 	&& number_bits(3) == 0
 	&& ( door = number_bits( 5 ) ) <= 5
 	&& !RIDDEN(ch)
@@ -789,9 +789,9 @@ void mobile_update( void )
 	&&   !IS_SET(pexit->exit_info, EX_CLOSED)
 	&&   !IS_SET(pexit->u1.to_room->room_flags, ROOM_NO_MOB)
 	&& ( !IS_SET(ch->act, ACT_STAY_AREA)
-	||   pexit->u1.to_room->area == ch->in_room->area ) 
+	||   pexit->u1.to_room->area == ch->in_room->area )
 	&& ( !IS_SET(ch->act, ACT_OUTDOORS)
-	||   !IS_SET(pexit->u1.to_room->room_flags,ROOM_INDOORS)) 
+	||   !IS_SET(pexit->u1.to_room->room_flags,ROOM_INDOORS))
 	&& ( !IS_SET(ch->act, ACT_INDOORS)
 	||   IS_SET(pexit->u1.to_room->room_flags,ROOM_INDOORS)))
 	{
@@ -894,22 +894,22 @@ void weather_update( void )
     {
     case  5:
 	weather_info.sunlight = SUN_LIGHT;
-	strcat( buf, "The day has begun.\n\r" );
+  strcat( buf, "Gün baþladý.\n\r" );
 	break;
 
     case  6:
 	weather_info.sunlight = SUN_RISE;
-	strcat( buf, "The sun rises in the east.\n\r" );
+  strcat( buf, "Güneþ doðudan yükseliyor.\n\r" );
 	break;
 
     case 19:
 	weather_info.sunlight = SUN_SET;
-	strcat( buf, "The sun slowly disappears in the west.\n\r" );
+  strcat( buf, "Güneþ batýda yavaþça kayboluyor.\n\r" );
 	break;
 
     case 20:
 	weather_info.sunlight = SUN_DARK;
-	strcat( buf, "The night has begun.\n\r" );
+  strcat( buf, "Gece baþladý.\n\r" );
 	break;
 
     case 24:
@@ -948,7 +948,7 @@ void weather_update( void )
 
     switch ( weather_info.sky )
     {
-    default: 
+    default:
 	bug( "Weather_update: bad sky %d.", weather_info.sky );
 	weather_info.sky = SKY_CLOUDLESS;
 	break;
@@ -957,7 +957,7 @@ void weather_update( void )
 	if ( weather_info.mmhg <  990
 	|| ( weather_info.mmhg < 1010 && number_bits( 2 ) == 0 ) )
 	{
-	    strcat( buf, "The sky is getting cloudy.\n\r" );
+    strcat( buf, "Gökyüzü bulutlanýyor.\n\r" );
 	    weather_info.sky = SKY_CLOUDY;
 	}
 	break;
@@ -966,13 +966,13 @@ void weather_update( void )
 	if ( weather_info.mmhg <  970
 	|| ( weather_info.mmhg <  990 && number_bits( 2 ) == 0 ) )
 	{
-	    strcat( buf, "It starts to rain.\n\r" );
+    strcat( buf, "Yaðmur baþladý.\n\r" );
 	    weather_info.sky = SKY_RAINING;
 	}
 
 	if ( weather_info.mmhg > 1030 && number_bits( 2 ) == 0 )
 	{
-	    strcat( buf, "The clouds disappear.\n\r" );
+    strcat( buf, "Bulutlar daðýlýyor.\n\r" );
 	    weather_info.sky = SKY_CLOUDLESS;
 	}
 	break;
@@ -980,14 +980,14 @@ void weather_update( void )
     case SKY_RAINING:
 	if ( weather_info.mmhg <  970 && number_bits( 2 ) == 0 )
 	{
-	    strcat( buf, "Lightning flashes in the sky.\n\r" );
+    strcat( buf, "Gökyüzünde þimþekler çakýyor.\n\r" );
 	    weather_info.sky = SKY_LIGHTNING;
 	}
 
 	if ( weather_info.mmhg > 1030
 	|| ( weather_info.mmhg > 1010 && number_bits( 2 ) == 0 ) )
 	{
-	    strcat( buf, "The rain stopped.\n\r" );
+    strcat( buf, "Yaðmur dindi.\n\r" );
 	    weather_info.sky = SKY_CLOUDY;
 	}
 	break;
@@ -996,7 +996,7 @@ void weather_update( void )
 	if ( weather_info.mmhg > 1010
 	|| ( weather_info.mmhg >  990 && number_bits( 2 ) == 0 ) )
 	{
-	    strcat( buf, "The lightning has stopped.\n\r" );
+    strcat( buf, "Þimþekler durdu.\n\r" );
 	    weather_info.sky = SKY_RAINING;
 	    break;
 	}
@@ -1023,14 +1023,14 @@ void weather_update( void )
  * Update all chars, including mobs.
 */
 void char_update( void )
-{   
+{
     CHAR_DATA *ch;
     CHAR_DATA *ch_next;
     CHAR_DATA *ch_quit;
 
     static time_t last_save_time = -1;
 
-    ch_quit = NULL; 
+    ch_quit = NULL;
 
 
     /* update save counter */
@@ -1054,7 +1054,7 @@ void char_update( void )
 	   ch->endur += (get_skill(ch,gsn_path_find) / 2);
 	   check_improve(ch,gsn_path_find,TRUE,8);
 	   }
-	 else 
+	 else
 	   {
 	    check_improve(ch,gsn_path_find,FALSE,16);
 	   }
@@ -1070,8 +1070,8 @@ void char_update( void )
           affect_strip(ch,gsn_caltraps);
 
         /* Remove vampire effect when morning. */
-        if (IS_VAMPIRE(ch) && 
-	    (weather_info.sunlight == SUN_LIGHT || 
+        if (IS_VAMPIRE(ch) &&
+	    (weather_info.sunlight == SUN_LIGHT ||
 		weather_info.sunlight == SUN_RISE) )
           do_human(ch,(char*)"");
 
@@ -1079,17 +1079,17 @@ void char_update( void )
         if ( !(ch->fighting) && !IS_AFFECTED(ch,AFF_SNEAK) &&
             IS_VAMPIRE(ch) && !MOUNTED(ch))
 	{
-          send_to_char("You begin to sneak again.\n\r",ch);
+    send_to_char("Süzülmeye baþladýn.\n\r",ch);
 	  SET_BIT(ch->affected_by ,AFF_SNEAK);
 	}
 
         if ( !(ch->fighting) && !IS_AFFECTED(ch,AFF_SNEAK) &&
             (race_table[RACE(ch)].aff & AFF_SNEAK) && !MOUNTED(ch) )
-          send_to_char("You begin to sneak again.\n\r",ch);
+            send_to_char("Süzülmeye baþladýn.\n\r",ch);
 
         if ( !(ch->fighting) && !IS_AFFECTED(ch,AFF_HIDE) &&
             (race_table[RACE(ch)].aff & AFF_HIDE) && !MOUNTED(ch) )
-          send_to_char("You step back into the shadows.\n\r",ch);
+            send_to_char("Gölgelerin içine giriyorsun.\n\r",ch);
 
         SET_BIT(ch->affected_by, race_table[RACE(ch)].aff );
 
@@ -1112,9 +1112,9 @@ void char_update( void )
 		if (ch->in_mind != NULL
 		    && ch->pIndexData->vnum > 100)
 			back_home( ch );
-		else 
+		else
 		{
-            	 act("$n wanders on home.",ch,NULL,NULL,TO_ROOM);
+      act("$n evine gitti.",ch,NULL,NULL,TO_ROOM);
             	 extract_char(ch,TRUE);
 		}
             	continue;
@@ -1151,12 +1151,12 @@ void char_update( void )
 		{
 		    unequip_char(ch, obj);
 		    if (get_light_char(ch) == NULL) --ch->in_room->light;
-		    act( "$p goes out.", ch, obj, NULL, TO_ROOM );
-		    act( "$p flickers and goes out.", ch, obj, NULL, TO_CHAR );
+        act("$p sönüyor.", ch, obj, NULL, TO_ROOM );
+		    act( "$p titreyerek sönüyor.", ch, obj, NULL, TO_CHAR );
 		    extract_obj( obj );
 		}
 	 	else if ( obj->value[2] <= 5 && ch->in_room != NULL)
-		    act("$p flickers.",ch,obj,NULL,TO_CHAR);
+    act("$p titriyor.",ch,obj,NULL,TO_CHAR);
 	    }
 
 	    if (IS_IMMORTAL(ch))
@@ -1169,9 +1169,9 @@ void char_update( void )
 		    ch->was_in_room = ch->in_room;
 		    if ( ch->fighting != NULL )
 			stop_fighting( ch, TRUE );
-		    act( "$n disappears into the void.",
+      act( "$n hiçliðe sürükleniyor.",
 			ch, NULL, NULL, TO_ROOM );
-		    send_to_char( "You disappear into the void.\n\r", ch );
+      send_to_char("Hiçliðe sürükleniyorsun.\n\r", ch );
 		    if (ch->level > 1  )
 		        save_char_obj( ch );
 		    if ( ch->level < 10 )  {
@@ -1182,7 +1182,7 @@ void char_update( void )
 	    }
 
 	    gain_condition( ch, COND_DRUNK,  -1 );
-	    if (ch->iclass == CLASS_VAMPIRE && ch->level > 10) 
+	    if (ch->iclass == CLASS_VAMPIRE && ch->level > 10)
 		gain_condition( ch,COND_BLOODLUST, -1);
 	    gain_condition( ch, COND_FULL, ch->size > SIZE_MEDIUM ? -4 : -2 );
 	    if ( ch->in_room->sector_type == SECT_DESERT )
@@ -1198,7 +1198,7 @@ void char_update( void )
 	    if ( paf->duration > 0 )
 	    {
 		paf->duration--;
-		
+
 		if (number_range(0,4) == 0 && paf->level > 0)
 		  paf->level--;
 		/* spell strength fades with time */
@@ -1217,7 +1217,7 @@ void char_update( void )
 			send_to_char( "\n\r", ch );
 		    }
 		}
-	  
+
 		if ( paf->type == gsn_strangle )
 		{
 			AFFECT_DATA neck_af;
@@ -1263,7 +1263,7 @@ void char_update( void )
 			b_af.location  = APPLY_NONE;
 			affect_join(ch, &b_af);
 		}
-			
+
 		affect_remove( ch, paf );
 	    }
 	}
@@ -1277,14 +1277,13 @@ void char_update( void )
 	if (is_affected(ch, gsn_witch_curse))
 	{
 	  AFFECT_DATA *af,witch;
-	
+
 	  if (ch->in_room == NULL)
 		continue;
 
-	  act("The witch curse makes $n feel $s life slipping away.\n\r",
-		ch,NULL,NULL,TO_ROOM);
-	  send_to_char("The witch curse makes you feeling your life slipping away.\n\r",ch); 
-	
+    act("$s üzerindeki cadý laneti ona yaþamýnýn emildiðini hissettiriyor.\n\r",ch,NULL,NULL,TO_ROOM);
+	  send_to_char("Cadý laneti yaþamýnýn emildiðini hissettiriyor.\n\r",ch);
+
 	  for( af = ch->affected; af!= NULL; af = af->next)
 	  {
 		if (af->type == gsn_witch_curse)
@@ -1306,7 +1305,7 @@ void char_update( void )
 	    witch.location = af->location;
 	    witch.modifier = af->modifier * 2;
 	    witch.bitvector = 0;
-	
+
 	    affect_remove(ch, af);
 	    affect_to_char( ch ,&witch);
 	    ch->hit = UMIN(ch->hit,ch->max_hit);
@@ -1335,41 +1334,40 @@ void char_update( void )
 
 	    if (ch->in_room == NULL)
 		 continue;
-            
-	    act("$n writhes in agony as plague sores erupt from $s skin.",
-		ch,NULL,NULL,TO_ROOM);
-	    send_to_char("You writhe in agony from the plague.\n\r",ch);
+
+     act("$n veba derisini yaktýkça acý içinde kývranýyor.",ch,NULL,NULL,TO_ROOM);
+     send_to_char("Veba derini yaktýkça acý içinde kývranýyorsun.\n\r",ch);
             for ( af = ch->affected; af != NULL; af = af->next )
             {
             	if (af->type == gsn_plague)
                     break;
             }
-        
+
             if (af == NULL)
             {
             	REMOVE_BIT(ch->affected_by,AFF_PLAGUE);
                 continue;
             }
-        
+
             if (af->level == 1)
 		 continue;
-        
+
 	    plague.where		= TO_AFFECTS;
             plague.type 		= gsn_plague;
-            plague.level 		= af->level - 1; 
+            plague.level 		= af->level - 1;
             plague.duration 	= number_range(1,2 * plague.level);
             plague.location		= APPLY_STR;
             plague.modifier 	= -5;
             plague.bitvector 	= AFF_PLAGUE;
-        
+
             for ( vch = ch->in_room->people; vch != NULL; vch = vch->next_in_room)
             {
-                if (!saves_spell(plague.level + 2,vch,DAM_DISEASE) 
+                if (!saves_spell(plague.level + 2,vch,DAM_DISEASE)
 		&&  !IS_IMMORTAL(vch)
             	&&  !IS_AFFECTED(vch,AFF_PLAGUE) && number_bits(2) == 0)
             	{
-            	    send_to_char("You feel hot and feverish.\n\r",vch);
-            	    act("$n shivers and looks very ill.",vch,NULL,NULL,TO_ROOM);
+                send_to_char("Ateþinin yükseldiðini hissediyorsun.\n\r",vch);
+                act("$n hastalýktan titriyor.",vch,NULL,NULL,TO_ROOM);
             	    affect_join(vch,&plague);
             	}
             }
@@ -1391,8 +1389,8 @@ void char_update( void )
 
 	    if (poison != NULL)
 	    {
-	        act( "$n shivers and suffers.", ch, NULL, NULL, TO_ROOM );
-	        send_to_char( "You shiver and suffer.\n\r", ch );
+        act( "$n acý çekiyor ve titriyor.", ch, NULL, NULL, TO_ROOM );
+        send_to_char("Acý çekiyor ve titriyorsun.\n\r", ch );
 	        damage(ch,ch,poison->level/10 + 1,gsn_poison,
 		    DAM_POISON,TRUE);
 	    }
@@ -1413,7 +1411,7 @@ void char_update( void )
      * Check that these chars still exist.
      */
 
-    if (last_save_time == -1 || current_time - last_save_time > 300) 
+    if (last_save_time == -1 || current_time - last_save_time > 300)
     {
       last_save_time = current_time;
       for (ch = char_list; ch != NULL; ch = ch_next)
@@ -1444,7 +1442,7 @@ bool fChar;
 
 	if ( obj == NULL ) {dump_to_scr((char*)"NULL OBJ encounter!\n\r");break;}
 
-	if ( obj->in_room == NULL )  
+	if ( obj->in_room == NULL )
 	  continue;
 
 
@@ -1452,9 +1450,9 @@ bool fChar;
 
 	  fChar = FALSE;
 	  ch = obj->in_room->people;
-	  if (ch != NULL) 
+	  if (ch != NULL)
 	    fChar = TRUE;
-	  if (obj->water_float != -1) 
+	  if (obj->water_float != -1)
 	    obj->water_float--;
 
 	  if (obj->water_float < 0) obj->water_float = -1;
@@ -1462,23 +1460,23 @@ bool fChar;
 	  if (obj->item_type == ITEM_DRINK_CON)  {
 	     obj->value[1] = URANGE( 1, obj->value[1]+8 , obj->value[0] );
 	     if ( fChar )  {
-	       act( "$p makes bubbles on the water.", ch, obj, NULL, TO_CHAR);
-	       act( "$p makes bubbles on the water.", ch, obj, NULL, TO_ROOM);
+         act( "$p suda baloncuklar oluþturuyor.", ch, obj, NULL, TO_CHAR);
+	       act( "$p suda baloncuklar oluþturuyor.", ch, obj, NULL, TO_ROOM);
 	     }
 	     obj->water_float = obj->value[0]-obj->value[1];
 	     obj->value[2] = 0;
 	  }
-  	  if ( obj->water_float == 0 )  {    
+  	  if ( obj->water_float == 0 )  {
 	    if ( ((obj->item_type == ITEM_CORPSE_NPC) ||
 		  (obj->item_type == ITEM_CORPSE_PC)  ||
 		  (obj->item_type == ITEM_CONTAINER)) &&
 		  fChar )  {
-	       act( "$p sinks down the water releasing some bubbles behind.", ch, obj, NULL, TO_CHAR ); 
-	       act( "$p sinks down the water releasing some bubbles behind.", ch, obj, NULL, TO_ROOM ); 
+        act( "$p ardýnda baloncuklar býrakarak batýyor.", ch, obj, NULL, TO_CHAR );
+        act( "$p ardýnda baloncuklar býrakarak batýyor.", ch, obj, NULL, TO_ROOM );
 	    }
   	    else if ( fChar ) {
-	      act( "$p sinks down the water.", ch, obj, NULL, TO_CHAR ); 
-	      act( "$p sinks down the water.", ch, obj, NULL, TO_ROOM ); 
+          act(  "$p suda batýyor.", ch, obj, NULL, TO_CHAR );
+  	      act( "$p suda batýyor.", ch, obj, NULL, TO_ROOM );
 	    }
 	    extract_obj( obj );
 	    continue;
@@ -1495,11 +1493,11 @@ bool fChar;
  * This function is performance sensitive.
  */
 void obj_update( void )
-{   
+{
     OBJ_DATA *obj;
     OBJ_DATA *obj_next;
     OBJ_DATA *t_obj, *pit, *next_obj;
- 
+
     AFFECT_DATA *paf, *paf_next;
     static int pit_count = 1;
 
@@ -1536,7 +1534,7 @@ void obj_update( void )
 			    act(skill_table[paf->type].msg_obj,
 				rch,obj,NULL,TO_CHAR);
 			}
-			if (obj->in_room != NULL 
+			if (obj->in_room != NULL
 			&& obj->in_room->people != NULL)
 			{
 			    rch = obj->in_room->people;
@@ -1562,14 +1560,14 @@ void obj_update( void )
                  t_obj->carried_by->in_room->area->nplayer > 0) )
               (obj->pIndexData->oprogs->area_prog) (obj);
 
-        if ( check_material( obj, (char*)"ice" ) )  
+        if ( check_material( obj, (char*)"ice" ) )
           {
-	   if ( obj->carried_by != NULL )  
+	   if ( obj->carried_by != NULL )
              {
 	      if ( obj->carried_by->in_room->sector_type == SECT_DESERT )
-	      if ( number_percent() < 40 )  
+	      if ( number_percent() < 40 )
               {
-		act( "The extreme heat melts $p.", obj->carried_by, obj, NULL, TO_CHAR );
+                act( "$p aþýrý sýcaktan eriyor.", obj->carried_by, obj, NULL, TO_CHAR );
 		extract_obj( obj );
 		continue;
 	      }
@@ -1577,10 +1575,10 @@ void obj_update( void )
 	  else if ( obj->in_room != NULL )
 	    if ( obj->in_room->sector_type == SECT_DESERT )
 	      if ( number_percent() < 50 )  {
-		if ( obj->in_room->people != NULL )  
+		if ( obj->in_room->people != NULL )
                 {
-		  act( "The extreme heat melts $p.", obj->in_room->people, obj, NULL, TO_ROOM );
-		  act( "The extreme heat melts $p.", obj->in_room->people, obj, NULL, TO_CHAR );
+                  act(  "$p aþýrý sýcaktan eriyor.", obj->in_room->people, obj, NULL, TO_ROOM );
+            		  act("$p aþýrý sýcaktan eriyor.", obj->in_room->people, obj, NULL, TO_CHAR );
 	        }
 		extract_obj( obj );
 		continue;
@@ -1592,19 +1590,19 @@ void obj_update( void )
 	    if ( obj->carried_by->in_room->sector_type == SECT_DESERT &&
 		 !IS_NPC(obj->carried_by) )
 	      if ( number_percent() < 20 )  {
-		act( "$p evaporates.", obj->carried_by, obj, NULL, TO_CHAR );
+          act( "$p buharlaþýyor.", obj->carried_by, obj, NULL, TO_CHAR );
 		extract_obj( obj );
 		continue;
 	      }
 	  }
 	  else if ( obj->in_room != NULL )
 	    if ( obj->in_room->sector_type == SECT_DESERT )
-	      if ( number_percent() < 30 )  
+	      if ( number_percent() < 30 )
                {
-		if ( obj->in_room->people != NULL )  
+		if ( obj->in_room->people != NULL )
                 {
-		  act( "$p evaporates by the extream heat.", obj->in_room->people, obj, NULL, TO_ROOM );
-		  act( "$p evaporates by the extream heat.", obj->in_room->people, obj, NULL, TO_CHAR );
+                  act( "$p aþýrý sýcaktan buharlaþýyor.", obj->in_room->people, obj, NULL, TO_ROOM );
+            		  act( "$p aþýrý sýcaktan buharlaþýyor.", obj->in_room->people, obj, NULL, TO_CHAR );
 	        }
 	        extract_obj( obj );
 	        continue;
@@ -1616,29 +1614,27 @@ void obj_update( void )
 
 	switch ( obj->item_type )
 	{
-	default:              message = "$p crumbles into dust.";  break;
-	case ITEM_FOUNTAIN:   message = "$p dries up.";         break;
-	case ITEM_CORPSE_NPC: message = "$p decays into dust."; break;
-	case ITEM_CORPSE_PC:  message = "$p decays into dust."; break;
-	case ITEM_FOOD:       message = "$p decomposes.";	break;
-	case ITEM_POTION:     message = "$p has evaporated from disuse.";	
-								break;
-	case ITEM_PORTAL:     message = "$p fades out of existence."; break;
-	case ITEM_CONTAINER: 
+    default:              message = "$p ufalanýyor.";break;
+  	case ITEM_FOUNTAIN:   message = "$p kuruyor.";break;
+  	case ITEM_CORPSE_NPC: message = "$p çürüyor.";break;
+  	case ITEM_CORPSE_PC:  message = "$p çürüyor.";break;
+  	case ITEM_FOOD:       message = "$p bozuluyor.";break;
+  	case ITEM_POTION:     message = "$p beklemekten buharlaþýyor.";break;
+  	case ITEM_PORTAL:     message = "$p kayboluyor.";break;
+	case ITEM_CONTAINER:
 	    if (CAN_WEAR(obj,ITEM_WEAR_FLOAT))
 		if (obj->contains)
-		    message = 
-		"$p flickers and vanishes, spilling its contents on the floor.";
+    message ="$p içindekileri etrafa saçarak yokoluyor.";
 		else
-		    message = "$p flickers and vanishes.";
+    message = "$p titriyor ve yokoluyor.";
 	    else
-		message = "$p crumbles into dust.";
+      message = "$p ufalanýyor.";
 	    break;
 	}
 
 	if ( obj->carried_by != NULL )
 	{
-	    if (IS_NPC(obj->carried_by) 
+	    if (IS_NPC(obj->carried_by)
 	    &&  obj->carried_by->pIndexData->pShop != NULL)
 		obj->carried_by->silver += obj->cost/5;
 	    else
@@ -1750,7 +1746,7 @@ void aggr_update( void )
 
 	wch_next = wch->next;
 
-	if (IS_AFFECTED(wch,AFF_BLOODTHIRST) && 
+	if (IS_AFFECTED(wch,AFF_BLOODTHIRST) &&
           IS_AWAKE(wch) && wch->fighting == NULL)
         {
           for ( vch = wch->in_room->people;
@@ -1760,7 +1756,7 @@ void aggr_update( void )
               if ( wch != vch && can_see(wch,vch) &&
                   !is_safe_nomessage(wch,vch) )
                 {
-                  act_color("$CMORE BLOOD! MORE BLOOD! MORE BLOOD!!!$c",
+                  act_color("$CDAHA FAZLA KAN! DAHA FAZLA KAAN!!!$c",
                             wch,NULL,NULL,TO_CHAR,POS_RESTING,CLR_RED);
                   do_murder(wch,vch->name);
                 }
@@ -1772,20 +1768,20 @@ void aggr_update( void )
 	    for ( ch = wch->in_room->people; ch != NULL; ch = ch_next )
 	    {
 		ch_next	= ch->next_in_room;
-		if ( !IS_NPC(ch) 
+		if ( !IS_NPC(ch)
 		&& !IS_IMMORTAL(ch)
 		&& ch->cabal != wch->cabal
 		&& ch->fighting == NULL )
-		
+
 		    multi_hit(wch, ch, TYPE_UNDEFINED);
-		
+
 	    }
 	    continue;
 	}
 
 	if ( IS_NPC(wch)
 	||   wch->level >= LEVEL_IMMORTAL
-	||   wch->in_room == NULL 
+	||   wch->in_room == NULL
 	||   wch->in_room->area->empty)
 	    continue;
 
@@ -1805,7 +1801,7 @@ void aggr_update( void )
 	    ||   IS_AFFECTED(ch, AFF_SCREAM)
 	    ||   !IS_AWAKE(ch)
 	    ||   ( IS_SET(ch->act, ACT_WIMPY) && IS_AWAKE(wch) )
-	    ||   !can_see( ch, wch ) 
+	    ||   !can_see( ch, wch )
 	    ||   number_bits(1) == 0
             ||   is_safe_nomessage(ch,wch))
 
@@ -1814,12 +1810,12 @@ void aggr_update( void )
           /* Mad mob attacks! */
           if ( ch->last_fought == wch )
 	   {
-            sprintf(buf,"%s! Now you die!",
+       sprintf(buf,"%s! Öleceksin!",
                     (is_affected(wch,gsn_doppelganger) &&
                      !IS_SET(ch->act,PLR_HOLYLIGHT))?
                     PERS(wch->doppel,ch) : PERS(wch,ch));
             do_yell(ch,buf);
-            wch = check_guard(wch, ch); 
+            wch = check_guard(wch, ch);
 
             multi_hit(ch,wch,TYPE_UNDEFINED);
             continue;
@@ -1841,9 +1837,9 @@ void aggr_update( void )
 
 		if ( !IS_NPC(vch)
 		&&   vch->level < LEVEL_IMMORTAL
-		&&   ch->level >= vch->level - 5 
+		&&   ch->level >= vch->level - 5
 		&&   ( !IS_SET(ch->act, ACT_WIMPY) || !IS_AWAKE(vch) )
-		&&   can_see( ch, vch ) 
+		&&   can_see( ch, vch )
 		&&   vch->iclass != CLASS_VAMPIRE /* do not attack vampires */
 		&&   !(IS_GOOD(ch) && IS_GOOD(vch)) ) /* good vs good :( */
 		{
@@ -1858,7 +1854,7 @@ void aggr_update( void )
 
 	    if ( !is_safe_nomessage( ch, victim ) )
 	    {
-              victim = check_guard(victim, ch); 
+              victim = check_guard(victim, ch);
 	      if (IS_SET(ch->off_flags, OFF_BACKSTAB)
 		  && get_wield_char(ch, FALSE) )
 		multi_hit( ch, victim, gsn_backstab );
@@ -1892,7 +1888,7 @@ void update_handler( void )
     if ( --pulse_area     <= 0 )
     {
 	wiznet("AREA & ROOM TICK!",NULL,NULL,WIZ_TICKS,0,0);
-	pulse_area	= PULSE_AREA; 
+	pulse_area	= PULSE_AREA;
 	area_update	( );
 	room_update	( );
     }
@@ -1940,7 +1936,7 @@ void update_handler( void )
 	pulse_point     = PULSE_TICK;
 	weather_update	( );
 	char_update	( );
-	quest_update    ( ); 
+	quest_update    ( );
 	obj_update	( );
 	check_reboot	( );
 
@@ -1965,7 +1961,7 @@ void update_handler( void )
 }
 
 void light_update( void )
-{   
+{
     CHAR_DATA *ch;
     int dam_light;
     DESCRIPTOR_DATA *d, *d_next;
@@ -1984,8 +1980,8 @@ void light_update( void )
         if ( ch->iclass != CLASS_VAMPIRE)   continue;
 
 	/* also checks vampireness */
-	if ( (dam_light = isn_dark_safe(ch)) == 0 ) 	
-		continue;	
+	if ( (dam_light = isn_dark_safe(ch)) == 0 )
+		continue;
 
 	if (dam_light != 2 && number_percent() < get_skill(ch,gsn_light_res))
 	{
@@ -1994,8 +1990,8 @@ void light_update( void )
 	}
 
 	if (dam_light == 1)
-          send_to_char("The light in the room disturbs you.\n\r",ch);
-        else send_to_char("Sun light disturbs you.\n\r",ch);
+  send_to_char("Odadaki ýþýktan rahatsýz oluyorsun.\n\r",ch);
+else send_to_char("Güneþ ýþýðýndan rahatsýz oluyorsun.\n\r",ch);
 
 	dam_light = ( ch->max_hit * 4 )/ 100;
 	if (!dam_light) dam_light = 1;
@@ -2013,7 +2009,7 @@ void light_update( void )
 
 
 void room_update( void )
-{   
+{
     ROOM_INDEX_DATA *room;
     ROOM_INDEX_DATA *room_next;
 
@@ -2033,7 +2029,7 @@ void room_update( void )
 /*
 		if (number_range(0,4) == 0 && paf->level > 0)
 		  paf->level--;
-	 spell strength shouldn't fade with time 
+	 spell strength shouldn't fade with time
 	 because checks safe_rpsell with af->level */
             }
 	    else if ( paf->duration < 0 )
@@ -2052,7 +2048,7 @@ void room_update( void )
 		    }
 */
 		}
-	  
+
 		affect_remove_room( room, paf );
 	    }
 	}
@@ -2062,7 +2058,7 @@ void room_update( void )
 }
 
 void room_affect_update( void )
-{   
+{
     ROOM_INDEX_DATA *room;
     ROOM_INDEX_DATA *room_next;
 
@@ -2080,7 +2076,7 @@ void room_affect_update( void )
             	if (af->type == gsn_black_death)
                     break;
             }
-        
+
             if (af == NULL)
             {
             	REMOVE_BIT(room->affected_by,AFF_ROOM_PLAGUE);
@@ -2089,24 +2085,24 @@ void room_affect_update( void )
 
             if (af->level == 1)
             	af->level = 2;
-	
+
 	    plague.where		= TO_AFFECTS;
             plague.type 		= gsn_plague;
-            plague.level 		= af->level - 1; 
+            plague.level 		= af->level - 1;
             plague.duration 		= number_range(1,((plague.level/2)+1));
             plague.location		= APPLY_NONE;
             plague.modifier 		= -5;
             plague.bitvector 		= AFF_PLAGUE;
-        
+
             for ( vch = room->people; vch != NULL; vch = vch->next_in_room)
             {
-                if (!saves_spell(plague.level ,vch,DAM_DISEASE) 
+                if (!saves_spell(plague.level ,vch,DAM_DISEASE)
 		&&  !IS_IMMORTAL(vch)
 		&&  !is_safe_rspell(af->level,vch)
             	&&  !IS_AFFECTED(vch,AFF_PLAGUE) && number_bits(3) == 0)
             	{
-            	    send_to_char("You feel hot and feverish.\n\r",vch);
-            	    act("$n shivers and looks very ill.",vch,NULL,NULL,TO_ROOM);
+                send_to_char("Ateþinin çýktýðýný hissediyorsun.\n\r",vch);
+                act("$n hasta görünüyor.",vch,NULL,NULL,TO_ROOM);
             	    affect_join(vch,&plague);
             	}
             }
@@ -2123,7 +2119,7 @@ void room_affect_update( void )
             	if (af->type == gsn_deadly_venom)
                     break;
             }
-        
+
             if (af == NULL)
             {
             	REMOVE_BIT(room->affected_by,AFF_ROOM_POISON);
@@ -2132,24 +2128,24 @@ void room_affect_update( void )
 
             if (af->level == 1)
             	af->level = 2;
-	
+
 	    paf.where		= TO_AFFECTS;
             paf.type 		= gsn_poison;
-            paf.level 		= af->level - 1; 
+            paf.level 		= af->level - 1;
             paf.duration 	= number_range(1,((paf.level/5)+1));
             paf.location	= APPLY_NONE;
             paf.modifier 	= -5;
             paf.bitvector 	= AFF_POISON;
-        
+
             for ( vch = room->people; vch != NULL; vch = vch->next_in_room)
             {
-                if (!saves_spell(paf.level ,vch,DAM_POISON) 
+                if (!saves_spell(paf.level ,vch,DAM_POISON)
 		&&  !IS_IMMORTAL(vch)
 		&&  !is_safe_rspell(af->level,vch)
             	&&  !IS_AFFECTED(vch,AFF_POISON) && number_bits(3) == 0)
             	{
-            	    send_to_char("You feel very sick.\n\r",vch);
-            	    act("$n looks very ill.",vch,NULL,NULL,TO_ROOM);
+                send_to_char("Kendini hasta hissediyorsun.\n\r",vch);
+                act("$n çok hasta görünüyor.",vch,NULL,NULL,TO_ROOM);
             	    affect_join(vch,&paf);
             	}
             }
@@ -2166,7 +2162,7 @@ void room_affect_update( void )
             	if (af->type == gsn_lethargic_mist)
                     break;
             }
-        
+
             if (af == NULL)
             {
             	REMOVE_BIT(room->affected_by,AFF_ROOM_SLOW);
@@ -2175,24 +2171,24 @@ void room_affect_update( void )
 
             if (af->level == 1)
             	af->level = 2;
-	
+
 	    paf.where		= TO_AFFECTS;
             paf.type 		= gsn_slow;
-            paf.level 		= af->level - 1; 
+            paf.level 		= af->level - 1;
             paf.duration 	= number_range(1,((paf.level/5)+1));
             paf.location	= APPLY_NONE;
             paf.modifier 	= -5;
             paf.bitvector 	= AFF_SLOW;
-        
+
             for ( vch = room->people; vch != NULL; vch = vch->next_in_room)
             {
-                if (!saves_spell(paf.level ,vch,DAM_OTHER) 
+                if (!saves_spell(paf.level ,vch,DAM_OTHER)
 		&&  !IS_IMMORTAL(vch)
 		&&  !is_safe_rspell(af->level,vch)
             	&&  !IS_AFFECTED(vch,AFF_SLOW) && number_bits(3) == 0)
             	{
-            	    send_to_char("You start to move less quickly.\n\r",vch);
-            	    act("$n is moving less quickly.",vch,NULL,NULL,TO_ROOM);
+                send_to_char("Acelesiz hareket etmeye baþlýyorsun.\n\r",vch);
+                act("$s hareketlerindeki telaþ kayboluyor.",vch,NULL,NULL,TO_ROOM);
             	    affect_join(vch,&paf);
             	}
             }
@@ -2209,7 +2205,7 @@ void room_affect_update( void )
             	if (af->type == gsn_mysterious_dream)
                     break;
             }
-        
+
             if (af == NULL)
             {
             	REMOVE_BIT(room->affected_by,AFF_ROOM_SLEEP);
@@ -2218,18 +2214,18 @@ void room_affect_update( void )
 
             if (af->level == 1)
             	af->level = 2;
-	
+
 	    paf.where		= TO_AFFECTS;
             paf.type 		= gsn_sleep;
-            paf.level 		= af->level - 1; 
+            paf.level 		= af->level - 1;
             paf.duration 	= number_range(1,((paf.level/10)+1));
             paf.location	= APPLY_NONE;
             paf.modifier 	= -5;
             paf.bitvector 	= AFF_SLEEP;
-        
+
             for ( vch = room->people; vch != NULL; vch = vch->next_in_room)
             {
-                if (!saves_spell(paf.level - 4,vch,DAM_CHARM) 
+                if (!saves_spell(paf.level - 4,vch,DAM_CHARM)
 		&&  !IS_IMMORTAL(vch)
 		&&  !is_safe_rspell(af->level,vch)
 		&&  !(IS_NPC(vch) && IS_SET(vch->act,ACT_UNDEAD) )
@@ -2237,10 +2233,10 @@ void room_affect_update( void )
             	{
 		  if (IS_AWAKE(vch))
 		   {
-            	    send_to_char("You feel very sleepy.......zzzzzz.\n\r",vch);
-            	    act("$n goes to sleep.",vch,NULL,NULL,TO_ROOM);
+         send_to_char("Uykun geliyor.......zzzzzz.\n\r",vch);
+         act("$n uykuya dalýyor.",vch,NULL,NULL,TO_ROOM);
 		    vch->position = POS_SLEEPING;
-		   }		    
+		   }
           	  affect_join(vch,&paf);
             	}
             }
@@ -2258,7 +2254,7 @@ void room_affect_update( void )
             	if (af->type == gsn_evil_spirit)
                     break;
             }
-        
+
             if (af == NULL)
             {
             	REMOVE_BIT(room->affected_by,AFF_ROOM_ESPIRIT);
@@ -2267,24 +2263,24 @@ void room_affect_update( void )
 
             if (af->level == 1)
             	af->level = 2;
-	
+
 	    paf.where		= TO_AFFECTS;
             paf.type 		= gsn_evil_spirit;
-            paf.level 		= af->level; 
+            paf.level 		= af->level;
             paf.duration 	= number_range(1,(paf.level/30));
             paf.location	= APPLY_NONE;
             paf.modifier 	= 0;
             paf.bitvector 	= 0;
-        
+
             for ( vch = room->people; vch != NULL; vch = vch->next_in_room)
             {
-                if (!saves_spell(paf.level + 2,vch,DAM_MENTAL) 
+                if (!saves_spell(paf.level + 2,vch,DAM_MENTAL)
 		&&  !IS_IMMORTAL(vch)
 		&&  !is_safe_rspell(af->level,vch)
             	&&  !is_affected(vch,gsn_evil_spirit) && number_bits(3) == 0)
             	{
-            	    send_to_char("You feel worse than ever.\n\r",vch);
-            	    act("$n looks more evil.",vch,NULL,NULL,TO_ROOM);
+                send_to_char("Kendini bu kadar kötü hissetmemiþtin.\n\r",vch);
+                act("$s üstüne þerrin gölgesi düþüyor.",vch,NULL,NULL,TO_ROOM);
             	    affect_join(vch,&paf);
             	}
             }
@@ -2302,7 +2298,7 @@ void room_affect_update( void )
             	if (af->type == gsn_)
                     break;
             }
-        
+
             if (af == NULL)
             {
             	REMOVE_BIT(room->affected_by,AFF_ROOM_);
@@ -2311,18 +2307,18 @@ void room_affect_update( void )
 
             if (af->level == 1)
             	af->level = 2;
-	
+
 	    paf.where		= TO_AFFECTS;
             paf.type 		= gsn_;
-            paf.level 		= af->level - 1; 
+            paf.level 		= af->level - 1;
             paf.duration 	= number_range(1,((paf.level/5)+1));
             paf.location	= APPLY_NONE;
             paf.modifier 	= -5;
             paf.bitvector 	= AFF_;
-        
+
             for ( vch = room->people; vch != NULL; vch = vch->next_in_room)
             {
-                if (!saves_spell(paf.level + 2,vch,DAM_) 
+                if (!saves_spell(paf.level + 2,vch,DAM_)
 		&&  !IS_IMMORTAL(vch)
 		&&  !is_safe_rspell(af->level,vch)
             	&&  !IS_AFFECTED(vch,AFF_) && number_bits(3) == 0)
@@ -2355,8 +2351,8 @@ void check_reboot( void )
 
  if (parse_date(current_time) != parse_date(boot_time))
 	reboot_counter = 0;
- 
- switch(reboot_counter) 
+
+ switch(reboot_counter)
  {
   case -1:
      break;
@@ -2370,17 +2366,17 @@ void check_reboot( void )
   case 5:
   case 10:
   case 15:
-    sprintf(buf,"\007***** REBOOT IN %i MINUTES *****\007\n\r",reboot_counter);
-    for (d = descriptor_list; d != NULL; d = d->next) 
+  sprintf(buf,"\007***** %i DAKÝKA SONRA UD YENÝDEN BAÞLATILACAK *****\007\n\r",reboot_counter);
+    for (d = descriptor_list; d != NULL; d = d->next)
 	  write_to_buffer(d,buf,0);
-  default: 
+  default:
     reboot_counter--;
     break;
  }
 }
 
 void track_update( void )
-{   
+{
     CHAR_DATA *ch, *ch_next;
     CHAR_DATA *vch,*vch_next;
     char buf[MAX_STRING_LENGTH];
@@ -2393,7 +2389,7 @@ void track_update( void )
 	    && !IS_AFFECTED(ch,AFF_CHARM)
             && ch->fighting == NULL
 	    && ch->in_room != NULL
-            && IS_AWAKE(ch) 
+            && IS_AWAKE(ch)
             && !IS_SET(ch->act,ACT_NOTRACK)
 	    && !RIDDEN(ch)
 	    && !IS_AFFECTED(ch,AFF_SCREAM) )
@@ -2403,7 +2399,7 @@ void track_update( void )
           do_track(ch,ch->last_fought->name);
 	 else if (ch->in_mind != NULL)
 	 {
-    	  for (vch = ch->in_room->people; vch!=NULL; vch = vch_next) 
+    	  for (vch = ch->in_room->people; vch!=NULL; vch = vch_next)
 	   {
       	     vch_next = vch->next_in_room;
 
@@ -2411,15 +2407,13 @@ void track_update( void )
 	     if ( !IS_IMMORTAL(vch) && can_see(ch,vch) &&
 		!is_safe_nomessage(ch,vch)  && is_name(vch->name,ch->in_mind) )
 	     {
-	      sprintf(buf,"So we meet again, %s",vch->name);
+         sprintf(buf,"Ýþte yine karþýlaþtýk %s!",vch->name);
 	      do_yell(ch,buf);
 	      do_murder(ch,vch->name);
 	      break; /* one fight at a time */
-	     }	    
+	     }
 	   }
 	 }
         }
    }
 }
-
-

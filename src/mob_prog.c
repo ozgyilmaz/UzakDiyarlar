@@ -1,12 +1,12 @@
 /***************************************************************************
- *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT		           *	
+ *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT		           *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
- *	 Ibrahim Canpunar  {Mandrake}	canpunar@rorqual.cc.metu.edu.tr    *	
- *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *	
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 Ibrahim Canpunar  {Mandrake}	canpunar@rorqual.cc.metu.edu.tr    *
+ *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
 /***************************************************************************
@@ -61,7 +61,7 @@ int find_path( int in_room_vnum, int out_room_vnum, CHAR_DATA *ch, int depth, in
 int lookup_religion_leader (const char *name);
 void heal_battle(CHAR_DATA *mob,CHAR_DATA *ch );
 void	say_spell	args( ( CHAR_DATA *ch, int sn ) );
-void	one_hit		args( ( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary) ); 
+void	one_hit		args( ( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary) );
 
 DECLARE_MPROG_FUN_GREET( greet_prog_ruler_pre   );
 DECLARE_MPROG_FUN_GREET( greet_prog_ruler 	);
@@ -139,7 +139,7 @@ void mprog_set(MOB_INDEX_DATA *mobindex,const char *progtype, const char *name)
        else if (!str_cmp(name, "bribe_prog_drunk"))
 	 mobindex->mprogs->bribe_prog = bribe_prog_drunk;
 
-       else 
+       else
 	 {
 	   bug("Load_mprogs: 'M': Function not found for vnum %d",
 	       mobindex->vnum);
@@ -224,7 +224,7 @@ void mprog_set(MOB_INDEX_DATA *mobindex,const char *progtype, const char *name)
 	 mobindex->mprogs->fight_prog = fight_prog_beggar;
        else if (!str_cmp(name, "fight_prog_golem"))
 	 mobindex->mprogs->fight_prog = fight_prog_golem;
-       else 
+       else
 	 {
 	   bug("Load_mprogs: 'M': Function not found for vnum %d",
 	       mobindex->vnum);
@@ -241,7 +241,7 @@ void mprog_set(MOB_INDEX_DATA *mobindex,const char *progtype, const char *name)
 	 mobindex->mprogs->death_prog = death_prog_beggar;
        else if (!str_cmp(name, "death_prog_vagabond"))
 	 mobindex->mprogs->death_prog = death_prog_vagabond;
-       else 
+       else
 	 {
 	   bug("Load_mprogs: 'M': Function not found for vnum %d",
 	       mobindex->vnum);
@@ -308,7 +308,7 @@ void mprog_set(MOB_INDEX_DATA *mobindex,const char *progtype, const char *name)
 	       mobindex->vnum);
 	   exit(1);
 	 }
-	 
+
        SET_BIT(mobindex->progtypes, MPROG_GIVE);
        return;
      }
@@ -320,19 +320,19 @@ void bribe_prog_cityguard(CHAR_DATA *mob, CHAR_DATA *ch, int amount)
 {
   if (amount < 100)
     {
-      do_say(mob, (char*)"You cheapskate!!!");
+      do_say(mob, (char*)"Cimri!!!");
       do_murder(mob, ch->name);
       return;
     }
   else if (amount >= 5000)
     {
-      interpret(mob, (char*)"smile", FALSE);
+      interpret(mob, (char*)"gülümse", FALSE);
       do_sleep(mob, (char*)"");
       return;
     }
-  else 
+  else
     {
-      do_say(mob, (char*)"Trying to bribe me, eh? It'll cost ya more than that.");
+      do_say(mob,(char*)"Bana rüþvet mi öneriyorsun? Pekala, ama bu sana pahalýya patlar!");
       return;
     }
 }
@@ -344,22 +344,22 @@ void greet_prog_shalafi(CHAR_DATA *mob,CHAR_DATA *ch)
 
   mob->cabal = CABAL_SHALAFI;
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
- 
+
   if (ch->cabal == CABAL_SHALAFI) {
-    do_say(mob, (char*)"Greetings, wise one.");
+    do_say(mob,(char*)"Selamlar arif olan.");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, (char*)"Ghosts are not allowed in this place.");
+      do_say(mob,(char*)"Hayaletler buraya giremez.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, (char*)"Intruder! Intruder!");
-  do_say(mob, (char*)"You should never disturb my cabal!");
+  do_cb(mob, (char*)"Dikkat!!! Davetsiz Misafir!!!");
+  do_say(mob,(char*)"Kabalýmý rahatsýz etmemeliydin!");
 }
 
 void greet_prog_invader(CHAR_DATA *mob,CHAR_DATA *ch)
@@ -369,22 +369,22 @@ void greet_prog_invader(CHAR_DATA *mob,CHAR_DATA *ch)
 
   mob->cabal = CABAL_INVADER;
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
- 
+
   if (ch->cabal == CABAL_INVADER) {
-    do_say(mob, (char*)"Greetings, dark one.");
+    do_say(mob, (char*)"Selamlar karanlýðýn ta kendisi!");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, (char*)"Ghosts are not allowed in this place.");
+      do_say(mob, (char*)"Hayaletler buraya giremez.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, (char*)"Intruder! Intruder!");
-  if (!IS_NPC(ch))  do_say(mob, (char*)"You should never disturb my cabal!");
+  do_cb(mob, (char*)"Dikkat!!! Davetsiz Misafir!!!");
+  if (!IS_NPC(ch))  do_say(mob,(char*)"Kabalýmý rahatsýz etmemeliydin!");
 }
 
 void greet_prog_ruler_pre(CHAR_DATA *mob,CHAR_DATA *ch)
@@ -395,14 +395,14 @@ void greet_prog_ruler_pre(CHAR_DATA *mob,CHAR_DATA *ch)
     return;
 
   if (ch->cabal == CABAL_RULER) {
-    sprintf(buf,"bow %s",ch->name);
+    sprintf(buf,"eðil %s",ch->name);
     interpret(mob,buf, FALSE);
     return;
   }
 
-  do_say( mob, (char*)"Do not go further and leave the square." );
-  do_say( mob, (char*)"This place is private." );
-  return;  
+  do_say( mob, (char*)"Daha fazla ilerlemesen iyi olur." );
+  do_say( mob, (char*)"Bu bölge özel kullanýma aittir." );
+  return;
 }
 
 void greet_prog_ruler(CHAR_DATA *mob,CHAR_DATA *ch)
@@ -414,23 +414,23 @@ void greet_prog_ruler(CHAR_DATA *mob,CHAR_DATA *ch)
 
   mob->cabal = CABAL_RULER;
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
-  
+
   if (ch->cabal == CABAL_RULER) {
-    sprintf(buf,"bow %s",ch->name);
+    sprintf(buf,"eðil %s",ch->name);
     interpret(mob,buf, FALSE);
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, (char*)"Ghosts are not allowed in this place.");
+      do_say(mob,(char*)"Hayaletler buraya giremez.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, (char*)"Intruder! Intruder!");
-  do_say(mob, (char*)"You should never disturb my cabal!");
+  do_cb(mob,(char*) "Dikkat!!! Davetsiz Misafir!!!");
+  do_say(mob,(char*) "Kabalýmý rahatsýz etmemeliydin!");
 }
 
 void greet_prog_chaos(CHAR_DATA *mob,CHAR_DATA *ch)
@@ -438,24 +438,24 @@ void greet_prog_chaos(CHAR_DATA *mob,CHAR_DATA *ch)
   if ( IS_NPC(ch) )
     return;
 
-  mob->cabal = CABAL_CHAOS; 
+  mob->cabal = CABAL_CHAOS;
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
- 
+
   if (ch->cabal == CABAL_CHAOS) {
-    do_say(mob, (char*)"Greetings, chaotic one.");
+    do_say(mob, (char*)"Selamlar kaosun efendisi!");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, (char*)"Ghosts are not allowed in this place.");
+      do_say(mob,(char*)"Hayaletler buraya giremez.");
       do_slay(mob, ch->name);
       return;
     }
-    
+
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, (char*)"Intruder! Intruder!");
-  do_say(mob, (char*)"You should never disturb my cabal!");
+  do_cb(mob, (char*)"Dikkat!!! Davetsiz Misafir!!!");
+  do_say(mob,(char*) "Kabalýmý rahatsýz etmemeliydin!");
 }
 
 void greet_prog_battle(CHAR_DATA *mob, CHAR_DATA *ch)
@@ -465,22 +465,22 @@ void greet_prog_battle(CHAR_DATA *mob, CHAR_DATA *ch)
 
   mob->cabal = CABAL_BATTLE;
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
- 
+
   if (ch->cabal == CABAL_BATTLE) {
-    do_say(mob, (char*)"Welcome, great warrior.");
+    do_say(mob, (char*)"Selamlar yüce savaþçý!");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, (char*)"Ghosts are not allowed in this place.");
+      do_say(mob,(char*)"Hayaletler buraya giremez.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, (char*)"Intruder! Intruder!");
-  do_say(mob, (char*)"You should never disturb my cabal!");
+  do_cb(mob, (char*)"Dikkat!!! Davetsiz Misafir!!!");
+  do_say(mob, (char*)"Kabalýmý rahatsýz etmemeliydin!");
 }
 
 
@@ -489,30 +489,30 @@ void give_prog_keeper(CHAR_DATA *mob, CHAR_DATA *ch, OBJ_DATA *obj)
   OBJ_DATA *rug;
   char buf[100];
 
-  if (obj->pIndexData->vnum == 90) 
+  if (obj->pIndexData->vnum == 90)
     {
-      do_say(mob, (char*)"Finally, the dress I sent for!");
-      act("$n tucks the dress away under her desk.",mob,NULL,NULL,TO_ROOM);
+      do_say(mob,(char*) "Ýþte beklediðim giysi!");
+      act("$n giysiyi masanýn altýna sokuþturuyor.",mob,NULL,NULL,TO_ROOM);
       obj_from_char(obj);
       extract_obj(obj);
       if ((rug = get_obj_carry(ch, (char*)"rug")) != NULL)
 	{
-	  do_say(mob, (char*)"I suppose you'll want to see the FireFlash now");
-	  do_say(mob, (char*)"Be careful, she's been in a nasty mood.");
+    do_say(mob, (char*)"Sanýrým FireFlash'i ziyaret etmek isteyeceksin.");
+	  do_say(mob, (char*)"Dikkatli ol, caný biraz sýkkýn.");
 	  do_unlock (mob, (char*)"door");
 	  do_open (mob, (char*)"door");
 	}
       else
 	{
-  do_say(mob, (char*)"It doesn't look like you have any business with the FireFlash.");
-  do_say(mob, (char*)"I suggest you leave and find some before coming here again.");
+    do_say(mob,(char*)"Sanýrým FireFlash ile iþin yok.");
+    do_say(mob,(char*)"Sanýrým þimdi buradan ayrýlacak ve eksiklerini tamamlayacaksýn.");
 	}
     }
     else
     {
      sprintf(buf,"%s %s",obj->name,ch->name);
      do_give(mob,buf);
-     do_say(mob,(char*)"Why do i need this?.");	
+     do_say(mob,(char*)"Neden buna ihtiyacým olsun?");
     }
  return;
 }
@@ -527,10 +527,10 @@ void speech_prog_keeper(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
       obj = create_object(get_obj_index(90), 0);
       free_string(obj->name);
       obj->name = str_dup("keeper dress");
-      act("$n fashions a white gown out of the bolt of silk.", mob, NULL, 
+      act("$n ipekten beyaz bir giysi hazýrlýyor.", mob, NULL,
 	NULL, TO_ROOM);
-      act("You make a white gown for the Keeper.", mob, NULL, NULL, TO_CHAR);
-      do_say(mob, (char*)"Here is the dress for the keeper.");
+      act("Keeper için beyaz bir giysi hazýrlýyorsun.", mob, NULL, NULL, TO_CHAR);
+      do_say(mob,(char*)"Ýþte Keeper için bir giysi.");
       obj_to_char(obj, ch);
     }
 }
@@ -545,15 +545,15 @@ void greet_prog_fireflash(CHAR_DATA *mob, CHAR_DATA *ch)
 
   if ((obj = get_obj_carry(ch,(char*)"rug")) == NULL)
     {
-      do_say(mob, (char*)"I don't want to see that worthless rug anywhere near me.");
-    do_say(mob, (char*)"Why don't you give it to that silly Green sister from Tear.");
+      do_say(mob,(char*)"Bu deðersiz halýyý yakýnlarýmda görmek istemiyorum.");
+    do_say(mob, (char*)"Neden onu Tear'dan aptal rahibeye vermiyorsun?");
       do_unlock(mob, (char*)"box");
-      do_open(mob, (char*)"box"); 
+      do_open(mob, (char*)"box");
       do_get(mob, (char*)"papers box");
-      do_say(mob, (char*)"These papers might help you.");
-      act("$n sneers at you.", mob, NULL, ch, TO_VICT);
-      act("You sneer at $N.", mob, NULL, ch, TO_CHAR);
-      act("$n sneers at $N.", mob, NULL, ch, TO_NOTVICT);
+      do_say(mob,(char*) "Bu kaðýtlarýn sana yardýmý olabilir.");
+      act("$n sana dudak büküyor.", mob, NULL, ch, TO_VICT);
+      act("$E dudak büküyorsun.", mob, NULL, ch, TO_CHAR);
+      act("$n $E dudak büküyor.", mob, NULL, ch, TO_NOTVICT);
       sprintf(buf, "papers %s", ch->name);
       do_give(mob, buf);
       do_close(mob, (char*)"box");
@@ -566,28 +566,28 @@ void give_prog_fireflash(CHAR_DATA *mob, CHAR_DATA *ch, OBJ_DATA *obj)
   char buf[100];
 
   if (!can_see(mob,ch))
-       do_say(mob, (char*)"Is someone there?");
-  else if (IS_NPC(ch))
-      do_say(mob, (char*)"How strange, an animal delivering something.");
-      
-  else if (obj->pIndexData->vnum != 91)  
+  do_say(mob,(char*)"Orada biri mi var?");
+else if (IS_NPC(ch))
+ do_say(mob,(char*) "Birþeyler getiren bir hayvan... Ne kadar garip!");
+
+  else if (obj->pIndexData->vnum != 91)
     {
-      do_say(mob, (char*)"How interesting!  ...what's it for?");
-      interpret(mob, (char*)"giggle", FALSE);
+      do_say(mob,(char*)"Ne kadar ilginç!... Nedir bu?");
+      interpret(mob, (char*)"kýkýrda", FALSE);
       sprintf(buf,"%s %s",obj->name,ch->name);
       do_give(mob,buf);
     }
   else
     {
-      do_say(mob, (char*)"What a wonderful rug!  Let's see....where shall I put it?");
-      act("$n starts wandering about the room, mumbling to $mself.", mob, 
+      do_say(mob, (char*)"Ne kadar þahane bir halý! Acaba nereye koysam...");
+      act("$n odayý dolanarak kendi kendine mýrýldanýyor.", mob,
 	NULL, NULL, TO_ROOM);
-      act("$n sticks $s hands in $s pockets.",mob,NULL,NULL,TO_ROOM);
+      act("$n ellerini cebine sokuyor.",mob,NULL,NULL,TO_ROOM);
       do_load(mob, (char*)"obj 2438");
-      do_say(mob, (char*)"What's this?  A key?  Here, you can have it.");
+      do_say(mob,(char*)"Nedir bu? Bir anahtar? Hmm, geri alabilirsin.");
       sprintf(buf, "xxx %s",ch->name);
       do_give(mob, buf);
-      act("$n absently pushes the rug under a chair.",mob,NULL,NULL,TO_ROOM);
+      act("$n dalgýnlýkla halýyý sandalyenin altýna itiyor.",mob,NULL,NULL,TO_ROOM);
       obj_from_char(obj);
       extract_obj(obj);
     }
@@ -596,7 +596,7 @@ void give_prog_fireflash(CHAR_DATA *mob, CHAR_DATA *ch, OBJ_DATA *obj)
 
 void greet_prog_solamnia(CHAR_DATA *mob, CHAR_DATA *ch)
 {
-  
+
   OBJ_DATA *obj;
   char arg[100];
 
@@ -607,10 +607,10 @@ void greet_prog_solamnia(CHAR_DATA *mob, CHAR_DATA *ch)
 
   if ((obj = get_obj_carry(ch, arg)) != NULL)
     {
-      do_say(mob, (char*)"I think you bring something for me....");
-      interpret(mob, (char*)"smile", FALSE);
+      do_say(mob,(char*) "Sanýrým benim için birþey getirdin.");
+      interpret(mob,(char*) "gülümse", FALSE);
     }
-}  
+}
 
 void give_prog_solamnia(CHAR_DATA *mob, CHAR_DATA *ch, OBJ_DATA *obj)
 
@@ -618,15 +618,15 @@ void give_prog_solamnia(CHAR_DATA *mob, CHAR_DATA *ch, OBJ_DATA *obj)
   char buf[100];
   OBJ_DATA *kassandra;
 
-  if (obj->pIndexData->vnum == 2438 ) 
+  if (obj->pIndexData->vnum == 2438 )
     {
-      do_say(mob, (char*)"Here is your reward!");
+      do_say(mob,(char*) "Ýþte ödülün!");
       kassandra = create_object(get_obj_index(89), 0);
       kassandra->timer = 500;
       obj_to_char(kassandra, mob);
-      sprintf(buf,"kassandra %s",ch->name);
+      sprintf(buf,"kasandra %s",ch->name);
       do_give(mob, buf);
-      do_say(mob, (char*)"This stone has some special powers, use it well.");
+      do_say(mob,(char*)"Bu taþýn özel güçleri vardýr, dikkatli kullan.");
       obj_from_char(obj);
       extract_obj(obj);
     }
@@ -637,7 +637,7 @@ bool death_prog_stalker(CHAR_DATA *mob)
   char buf[100];
 
   mob->cabal = CABAL_RULER;
-  sprintf(buf, "I have failed trying to kill %s, I gasp my last breath.",
+  sprintf(buf, "%syi öldürmeyi beceremedim, son nefesimi vermeliyimg.",
 	  mob->last_fought->name);
   do_cb(mob, buf);
   return FALSE;
@@ -650,22 +650,22 @@ void greet_prog_knight(CHAR_DATA *mob, CHAR_DATA *ch)
 
   mob->cabal = CABAL_KNIGHT;
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
- 
+
   if (ch->cabal == CABAL_KNIGHT) {
-    do_say(mob, (char*)"Welcome, honorable one.");
+    do_say(mob,(char*)"Merhaba onurlu olan!");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, (char*)"Ghosts are not allowed in this place.");
+      do_say(mob, (char*)"Hayaletler buraya giremez.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, (char*)"Intruder! Intruder!");
-  do_say(mob, (char*)"You should never disturb my cabal!");
+  do_cb(mob, (char*)"Dikkat!!! Davetsiz Misafir!!!");
+  do_say(mob, (char*)"Kabalýmý rahatsýz etmemeliydin!");
 }
 
 void give_prog_dressmaker(CHAR_DATA *mob, CHAR_DATA *ch, OBJ_DATA *obj)
@@ -676,20 +676,20 @@ void give_prog_dressmaker(CHAR_DATA *mob, CHAR_DATA *ch, OBJ_DATA *obj)
 
   if (!can_see(mob, ch))
     {
-      do_say(mob, (char*)"Where did this come from?");
+      do_say(mob,(char*)"Bu nereden geldi?");
       return;
     }
 
   if (obj->pIndexData->vnum != 2436)
     {
-      do_say(mob, (char*)"I can't do anything with this, I need silk.");
+      do_say(mob,(char*)"Bu iþime yaramaz. Bana ipek lazým.");
       do_drop(mob, obj->name);
       return;
     }
 
   else
     {
-      do_say(mob, (char*)"Who am I making this dress for?");
+      do_say(mob,(char*)"Bu elbiseyi kime yapýyorum?");
       obj_from_char(obj);
       extract_obj(obj);
     }
@@ -703,7 +703,7 @@ void greet_prog_keeper(CHAR_DATA *mob, CHAR_DATA *ch)
   if (!can_see(mob, ch))
     return;
 
-  do_say(mob, (char*)"What business do you have here?  Is it that dress I ordered?");
+    do_say(mob,(char*)"Burada ne iþin var? O þey sipariþ ettiðim giysi mi?");
 }
 
 void speech_prog_templeman(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
@@ -711,17 +711,17 @@ void speech_prog_templeman(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
 char buf[160];
 int chosen = 0,correct = 1;
 
-    if ( !str_cmp( speech, "religion" ) )
+if ( !str_cmp( speech, "din" )|| !str_cmp(speech,"dinler") )
 	mob->status = GIVE_HELP_RELIGION;
     else if (( chosen = lookup_religion_leader( speech)) != 0 )
-	mob->status = RELIG_CHOSEN; 
+	mob->status = RELIG_CHOSEN;
     else  return;
 
    if ( mob->status == RELIG_CHOSEN )
    {
     if (( ch->religion > 0) && (ch->religion < MAX_RELIGION) )
 	{
-	 sprintf(buf,"You are already in the way of %s",
+    sprintf(buf,"Zaten %s yolundasýn.",
 		religion_table[ch->religion].leader);
 	 do_say(mob,buf);
 	 return;
@@ -759,34 +759,37 @@ int chosen = 0,correct = 1;
 
     if (!correct)
       {
-	do_say(mob, (char*)"That religion doesn't match your ethos and alignment.");
+        do_say(mob,(char*)"Bahsettiðin din etiðin ve yöneliminle uyuþmuyor.");
 	return;
       }
 
     ch->religion = chosen;
-    sprintf(buf,"From now on and forever, you are in the way of %s",
+    sprintf(buf,"Bundan böyle sonsuza kadar %s yolundasýn.",
 		religion_table[ch->religion].leader);
     do_say(mob,buf);
-    return; 
-   } 
-   do_say(mob,(char*)"Himm yes, religion. Do you really interested in that?.");
-   do_say(mob,(char*)"Read the help first.Type 'help religion'");
-   do_say(mob,(char*)"Do not forget that once you choose your religion. ");
-   do_say(mob,(char*)"You have to complete some quests in order to change your religion.");
+    return;
+   }
+   do_say(mob,(char*)"Hmmm... Eveeett.. Din.. Bununla gerçekten ilgileniyor musun?");
+   do_say(mob,(char*)"Önce yardým almayý dene. 'yardým din' yaz.");
+   do_say(mob,(char*)"Bildiðin gibi bu diyarda üç din vardýr.");
+   do_say(mob,(char*)"Aktular için Nama, Yansýzlar için Bolloh ve Þer için Kamos.");
+   do_say(mob,(char*)"Bana seçmek istediðin dinin efendisini söylemelisin.");
+   do_say(mob,(char*)"Unutma ki dinini bir kez seçersin.");
+   do_say(mob,(char*)"Dinini deðiþtirmek istersen bunun için kimi görevleri bitirmen gerekir.");
    return;
 }
 
 void greet_prog_templeman(CHAR_DATA *mob, CHAR_DATA *ch)
 {
-  
+
   char arg[100];
 
   if (!can_see(mob,ch) || IS_NPC(ch) || IS_IMMORTAL(ch))
     return;
 
-  sprintf(arg,"smile %s",ch->name);
+    sprintf(arg,"gülümse %s",ch->name);
   interpret(mob, arg, FALSE);
-}  
+}
 
 
 int lookup_religion_leader (const char *name)
@@ -801,7 +804,7 @@ int lookup_religion_leader (const char *name)
    }
 
    return 0;
-} 
+}
 
 void greet_prog_lions(CHAR_DATA *mob, CHAR_DATA *ch)
 {
@@ -810,23 +813,23 @@ void greet_prog_lions(CHAR_DATA *mob, CHAR_DATA *ch)
 
   mob->cabal = CABAL_LIONS;
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
- 
-  if (ch->cabal == CABAL_LIONS ) 
+
+  if (ch->cabal == CABAL_LIONS )
   {
-    do_say(mob, (char*)"Welcome, my Lions.");
+    do_say(mob, (char*)"Hoþgeldiniz aslan efendiler.");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, (char*)"Ghosts are not allowed in this place.");
+      do_say(mob,(char*)"Hayaletler buraya giremez.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, (char*)"Intruder! Intruder!");
-  do_say(mob, (char*)"You should never disturb my cabal!");
+  do_cb(mob, (char*)"Dikkat!!! Davetsiz Misafir!!!");
+  do_say(mob, (char*)"Kabalýmý rahatsýz etmemeliydin!");
 }
 
 void greet_prog_hunter_old(CHAR_DATA *mob, CHAR_DATA *ch)
@@ -836,23 +839,23 @@ void greet_prog_hunter_old(CHAR_DATA *mob, CHAR_DATA *ch)
 
   mob->cabal = CABAL_HUNTER;
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
- 
-  if (ch->cabal == CABAL_HUNTER ) 
+
+  if (ch->cabal == CABAL_HUNTER )
   {
-    do_say(mob, (char*)"Welcome, my dear hunter.");
+    do_say(mob, (char*)"Merhaba sevgili avcý.");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, (char*)"Ghosts are not allowed in this place.");
+      do_say(mob,(char*)"Hayaletler buraya giremez.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, (char*)"Intruder! Intruder!");
-  do_say(mob, (char*)"You should never disturb my cabal!");
+  do_cb(mob, (char*)"Dikkat!!! Davetsiz Misafir!!!");
+  do_say(mob, (char*)"Kabalýmý rahatsýz etmemeliydin!");
 }
 
 
@@ -863,14 +866,14 @@ void greet_prog_hunter(CHAR_DATA *mob, CHAR_DATA *ch)
 
   mob->cabal = CABAL_HUNTER;
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
- 
-  if (ch->cabal == CABAL_HUNTER ) 
+
+  if (ch->cabal == CABAL_HUNTER )
   {
     char buf[MAX_STRING_LENGTH];
     OBJ_DATA *eyed;
     int i;
 
- 	do_say(mob, (char*)"Welcome, my dear hunter.");
+    do_say(mob,(char*)"Merhaba sevgili avcý.");
         if (IS_SET(ch->quest,QUEST_EYE)) return;
 
         SET_BIT(ch->quest,QUEST_EYE);
@@ -880,7 +883,7 @@ void greet_prog_hunter(CHAR_DATA *mob, CHAR_DATA *ch)
 	else if (IS_EVIL(ch))
 		i=2;
 	else i = 1;
-	
+
 	eyed	= create_object(get_obj_index(OBJ_VNUM_EYED_SWORD), 0);
 	eyed->owner = str_dup(ch->name);
 	eyed->from = str_dup(ch->name);
@@ -899,29 +902,29 @@ void greet_prog_hunter(CHAR_DATA *mob, CHAR_DATA *ch)
         eyed->extra_descr->description = str_dup( buf );
         eyed->extra_descr->next = NULL;
 
-  	eyed->value[2] = (ch->level / 10) + 3;  
+  	eyed->value[2] = (ch->level / 10) + 3;
   	eyed->level = ch->level;
 	eyed->cost = 0;
 	obj_to_char( eyed, mob);
-	interpret( mob, (char*)"emote creates the Hunter's Sword.", FALSE);
-	do_say( mob , (char*)"I gave you the hunter's sword to you.");
+  interpret( mob, (char*)"emote bir Avcý Kýlýcý yaratýyor.", FALSE);
+	do_say( mob ,(char*)"Sana avcýnýn kýlýcýný veriyorum.");
 	sprintf( buf , "give eyed %s" , ch->name);
 	interpret( mob , buf , FALSE);
-	do_say( mob , (char*)"Remember that if you lose that, you can want it from cabal cleric!");
-	do_say( mob , (char*)"Simple say to him that 'trouble'");
+	do_say( mob , (char*)"Þunu unutma ki, eðer onu kaybedersen kabal þifacýsýndan yeni bir tane isteyebilirsin.");
+	do_say( mob ,(char*)"Ona sadece 'felaket' de.");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, (char*)"Ghosts are not allowed in this place.");
+      do_say(mob, (char*)"Hayaletler buraya giremez.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, (char*)"Intruder! Intruder!");
-  do_say(mob, (char*)"You should never disturb my cabal!");
+  do_cb(mob, (char*)"Dikkat!!! Davetsiz Misafir!!!");
+  do_say(mob,(char*)"Kabalýmý rahatsýz etmemeliydin!");
 }
 
 
@@ -933,36 +936,36 @@ void fight_prog_diana( CHAR_DATA *mob, CHAR_DATA *ch )
    if ( !mob->in_room || number_percent() < 25 ) return;
    if (mob->in_room->area != mob->zone) return;
 
-   do_yell(mob,(char*)"Help my guards.");
+   do_yell(mob,(char*)"Yardým edin nöbetçiler.");
    for( ach = char_list; ach != NULL; ach = ach_next )
-   { 
+   {
      ach_next = ach->next;
      if ( !ach->in_room
-	 || ach->in_room->area != ch->in_room->area  
-	 || !IS_NPC(ach) ) 
+	 || ach->in_room->area != ch->in_room->area
+	 || !IS_NPC(ach) )
 		continue;
-     if ( ach->pIndexData->vnum == 600 
+     if ( ach->pIndexData->vnum == 600
 	|| ach->pIndexData->vnum == 603 )
 	{
 	 if (ach->fighting || ach->last_fought) continue;
 	 if (mob->in_room == ach->in_room)
-	  { 
+	  {
 	   int i;
 
-  	   act_color("$C$n call the gods for help.$c",
-		ach,NULL,NULL,TO_ROOM,POS_SLEEPING,CLR_BLUE);
-  	   act_color("$CGods advance $n to help diana.$c",
+     act_color("$C$n tanrýlarý yardýmýna çaðýrýyor.$c",
+  ach,NULL,NULL,TO_ROOM,POS_SLEEPING,CLR_BLUE);
+     act_color("$CTanrýlar $m Diana'ya yardým etmesi için geliþtiriyor.$c",
 		ach,NULL,NULL,TO_ROOM,POS_SLEEPING,CLR_GREEN);
   	   ach->max_hit = 6000;
   	   ach->hit = 6000;
   	   ach->level = 60;
   	   ach->timer = 0;
-  	   ach->damage[DICE_NUMBER] = number_range(3,5);   
+  	   ach->damage[DICE_NUMBER] = number_range(3,5);
   	   ach->damage[DICE_TYPE] = number_range(12,22);
   	   ach->damage[DICE_BONUS] = number_range(6, 8);
 	   for(i=0;i<MAX_STATS;i++)
 		ach->perm_stat[i] = 23;
-	   do_say(ach,(char*)"Diana, I came.");
+    do_say(ach,(char*)"Ýþte geldim Diana.");
 	   do_murder(ach,ch->name);
 	   continue;
 	  }
@@ -971,9 +974,9 @@ void fight_prog_diana( CHAR_DATA *mob, CHAR_DATA *ch )
 	 if (door == -1) bug("Couldn't find a path with -40",0);
 	 else {
 		if (number_percent() < 25)
-		 do_yell(ach,(char*)" Keep on Diana!.I am coming.");
-		else
-		 do_say(ach,(char*)"I must go diana to help.");
+    do_yell(ach,(char*)" Dayan Diana! Geliyorum!");
+   else
+    do_say(ach,(char*)"Gidip Dianaya yardým etmeliyim.");
 		move_char(ach,door,FALSE);
 	      }
 	}
@@ -982,23 +985,23 @@ void fight_prog_diana( CHAR_DATA *mob, CHAR_DATA *ch )
 
 void fight_prog_ofcol_guard( CHAR_DATA *mob, CHAR_DATA *ch )
 {
-   char buf[MAX_STRING_LENGTH];	
+   char buf[MAX_STRING_LENGTH];
    CHAR_DATA *ach, *ach_next;
    int door;
 
    if (number_percent() < 25) return;
-   sprintf(buf,"Help guards. %s is fighting with me.",ch->name);
+   sprintf(buf,"Yardým edin nöbetçiler! %s benimle dövüþüyor!",ch->name);
    do_yell(mob,buf);
    for( ach = char_list; ach != NULL; ach = ach_next )
-   { 
+   {
      ach_next = ach->next;
      if ( ach->in_room->area != ch->in_room->area || !IS_NPC(ach) ) continue;
      if ( ach->pIndexData->vnum == 600 )
 	{
 	 if (ach->fighting) continue;
 	 if (mob->in_room == ach->in_room)
-	  { 
-	   sprintf(buf,"Now %s , you will pay for attacking a guard.",ch->name);
+	  {
+      sprintf(buf,"Þimdi %s, muhafýzlara saldýrmanýn cezasýný çekeceksin.",ch->name);
 	   do_say(ach,buf);
 	   do_murder(ach,ch->name);
 	   continue;
@@ -1008,9 +1011,9 @@ void fight_prog_ofcol_guard( CHAR_DATA *mob, CHAR_DATA *ch )
 	 if (door == -1) bug("Couldn't find a path with -40",0);
 	 else {
 		if (number_percent() < 25)
-		 do_yell(ach,(char*)" Keep on Guard! I am coming.");
-		else
-		 do_say(ach,(char*)"I must go the guard to help.");
+    do_yell(ach,(char*)" Dayan nöbetçi! Geliyorum!");
+   else
+    do_say(ach,(char*)"Gidip muhafýza yardým etmeliyim.");
 		move_char(ach,door,FALSE);
 	      }
 	}
@@ -1020,10 +1023,10 @@ void fight_prog_ofcol_guard( CHAR_DATA *mob, CHAR_DATA *ch )
 void speech_prog_wiseman(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
 {
  char arg[512];
- 
+
  one_argument(speech,arg);
  if (arg[0] == '\0')	return;
- if (!str_cmp(speech,"aid me wiseman"))
+ if (!str_cmp(speech,"bilge iyileþtir þifa"))
 	heal_battle(mob,ch);
  else return;
 }
@@ -1034,15 +1037,15 @@ void greet_prog_armourer(CHAR_DATA *mob, CHAR_DATA *ch)
 
   if (!can_see(mob,ch) || IS_NPC(ch) || IS_IMMORTAL(ch))
     return;
-  interpret(mob,(char*)"smile", FALSE);
-  sprintf(buf,"Welcome to my Armoury, %s",
+  interpret(mob,(char*)"gülümse", FALSE);
+  sprintf(buf,"Zýrhçýya hoþgeldin %s,",
    str_cmp(mob->in_room->area->name,hometown_table[ch->hometown].name) ?
-   "traveler" : ch->name );
+   "yolcu" : ch->name );
   do_say(mob,buf);
-  do_say(mob,(char*)"What can I interest you in?");
-  do_say(mob,(char*)"I have only the finest armor in my store.");
-  interpret(mob,(char*)"emote beams with pride.", FALSE);  
-}  
+  do_say(mob,(char*)"Sana nasýl yardýmcý olabilirim?");
+  do_say(mob,(char*)"Dükkanýmda gördüðün zýrhlarýn tümü çok kalitelidir.");
+  interpret(mob,(char*)"emote gururla geriniyor.", FALSE);
+}
 
 void greet_prog_baker(CHAR_DATA *mob, CHAR_DATA *ch)
 {
@@ -1050,12 +1053,12 @@ void greet_prog_baker(CHAR_DATA *mob, CHAR_DATA *ch)
 
   if (!can_see(mob,ch) || IS_NPC(ch) || IS_IMMORTAL(ch))
     return;
-  interpret(mob,(char*)"smile", FALSE);
-  sprintf(buf,"Welcome to my Bakery, %s",
+  interpret(mob,(char*)"gülümse", FALSE);
+  sprintf(buf,"Fýrýna hoþgeldin %s.",
    str_cmp(mob->in_room->area->name,hometown_table[ch->hometown].name) ?
-   "traveler" : ch->name );
+   "yolcu" : ch->name );
   do_say(mob,buf);
-}  
+}
 
 void greet_prog_beggar(CHAR_DATA *mob, CHAR_DATA *ch)
 {
@@ -1063,12 +1066,12 @@ void greet_prog_beggar(CHAR_DATA *mob, CHAR_DATA *ch)
 
   if (!can_see(mob,ch) || IS_NPC(ch) || IS_IMMORTAL(ch))
     return;
-  sprintf(buf,"Beg %s",
+    sprintf(buf,"Allah rýzasý için %s,",
    str_cmp(mob->in_room->area->name,hometown_table[ch->hometown].name) ?
-   "traveler" : ch->name );
+   "yolcu" : ch->name );
   do_say(mob,buf);
-  do_say(mob,(char*)"Spare some gold?");
-}  
+  do_say(mob,(char*)"Birkaç akçe ver...");
+}
 
 void greet_prog_drunk(CHAR_DATA *mob, CHAR_DATA *ch)
 {
@@ -1076,10 +1079,10 @@ void greet_prog_drunk(CHAR_DATA *mob, CHAR_DATA *ch)
     return;
   if (number_percent() < 5)
    {
-    do_yell(mob,(char*)"Monster! I found a monster! Kill! Banzai!");
+     do_yell(mob,(char*)"Canavar! Bir canavar buldum! Saldýrýn!");
     do_murder(mob,ch->name);
    }
-}  
+}
 
 void greet_prog_grocer(CHAR_DATA *mob, CHAR_DATA *ch)
 {
@@ -1087,11 +1090,11 @@ void greet_prog_grocer(CHAR_DATA *mob, CHAR_DATA *ch)
 
   if (!can_see(mob,ch) || IS_NPC(ch) || IS_IMMORTAL(ch))
     return;
-  sprintf(buf,"Welcome to my Store, %s",
+    sprintf(buf,"Dükkanýma hoþgeldin %s.",
    str_cmp(mob->in_room->area->name,hometown_table[ch->hometown].name) ?
-   "traveler" : ch->name );
+   "yolcu" : ch->name );
   do_say(mob,buf);
-}  
+}
 
 
 void bribe_prog_beggar(CHAR_DATA *mob, CHAR_DATA *ch, int amount)
@@ -1100,29 +1103,29 @@ void bribe_prog_beggar(CHAR_DATA *mob, CHAR_DATA *ch, int amount)
 
   if (amount < 10)
     {
-     sprintf(buf,"thank %s",
+     sprintf(buf,"teþekkür %s",
       str_cmp(mob->in_room->area->name,hometown_table[ch->hometown].name) ?
-      "traveler" : ch->name );
+      "yolcu" : ch->name );
      interpret(mob,buf, FALSE);
      return;
     }
   else if (amount < 100)
     {
-     do_say(mob,(char*)"Wow! Thank you! Thank you!");
+      do_say(mob,(char*)"Ohaaa! Çok teþekkür ederim.");
      return;
     }
   else if (amount < 500)
     {
-     do_say(mob,(char*)"Oh my God! Thank you! Thank you!");
-     sprintf(buf,"french %s",ch->name);
+      do_say(mob,(char*)"Tanrýma þükürler olsun! Teþekkürler! Teþekkürler!");
+      sprintf(buf,"öp %s",ch->name);
      interpret(mob,buf, FALSE);
      return;
     }
-  else 
+  else
     {
-     sprintf(buf,"dance %s",ch->name);
+     sprintf(buf,"dans %s",ch->name);
      interpret(mob,buf, FALSE);
-     sprintf(buf,"french %s",ch->name);
+     sprintf(buf,"öp %s",ch->name);
      interpret(mob,buf, FALSE);
      return;
     }
@@ -1131,8 +1134,8 @@ void bribe_prog_beggar(CHAR_DATA *mob, CHAR_DATA *ch, int amount)
 
 void bribe_prog_drunk(CHAR_DATA *mob, CHAR_DATA *ch, int amount)
 {
-   do_say(mob, (char*)"Ahh! More Spirits!  Good Spirits!");
-   interpret(mob,(char*)"sing", FALSE);
+  do_say(mob,(char*) "Ahh! Daha fazla ruh! Güzel Ruhlar!");
+  interpret(mob,(char*)"þarký", FALSE);
    return;
 }
 
@@ -1141,7 +1144,7 @@ void bribe_prog_drunk(CHAR_DATA *mob, CHAR_DATA *ch, int amount)
 void fight_prog_beggar(CHAR_DATA *mob, CHAR_DATA *ch)
 {
   if (mob->hit < (mob->max_hit * 0.45) && mob->hit > (mob->max_hit * 0.55))
-	do_say(mob,(char*)"Halfway to death...");
+  do_say(mob,(char*)"Ýþte ölüyorum...");
   return;
 }
 
@@ -1149,14 +1152,14 @@ void fight_prog_beggar(CHAR_DATA *mob, CHAR_DATA *ch)
 bool death_prog_beggar(CHAR_DATA *mob)
 {
   if (number_percent() < 50 )
- 	do_say(mob,(char*)"Now I go to a better place.");
-  else do_say(mob,(char*)"Forgive me God for I have sinned...");
+  do_say(mob,(char*)"Her nereyse gittiðim yer, biliyorum ki buradan iyidir...");
+  else do_say(mob,(char*)"Günahlarýmý affet tanrým...");
   return FALSE;
 }
 
 bool death_prog_vagabond(CHAR_DATA *mob)
 {
-  interpret(mob,(char*)"emote throws back his head and cackles with insane glee!", FALSE);
+  interpret(mob,(char*)"emote kafasýný arkaya atýp deli gibi kahkaha atýyor!", FALSE);
   return FALSE;
 }
 
@@ -1164,10 +1167,10 @@ bool death_prog_vagabond(CHAR_DATA *mob)
 void speech_prog_crier(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
 {
  char arg[512];
- 
+
  speech = one_argument(speech,arg);
- if (is_name(arg,(char*)"what"))
-	do_say(mob,(char*)"My girlfriend left me.");
+ if (is_name(arg,(char*)"ne"))
+	do_say(mob,(char*)"Sevgilim beni terketti.");
  return;
 }
 
@@ -1175,9 +1178,9 @@ void speech_prog_crier(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
 void area_prog_drunk(CHAR_DATA *mob)
 {
   if (number_percent() < 5)
-    interpret(mob, (char*)"dance", FALSE);
-  else if (number_percent() < 10)
-    interpret(mob, (char*)"sing", FALSE);
+  interpret(mob, (char*)"dans", FALSE);
+else if (number_percent() < 10)
+  interpret(mob,(char*) "þarký", FALSE);
   return;
 }
 
@@ -1186,17 +1189,17 @@ void area_prog_janitor(CHAR_DATA *mob)
   if (number_percent() < 20)
    {
     interpret(mob,(char*)"grumble", FALSE);
-    do_say(mob,(char*)"Litterbugs");
+    do_say(mob,(char*)"Çöpler");
     if (number_percent() < 20 )
      {
-      do_say(mob,(char*)"All I do each day is cleanup other people's messes.");
+       do_say(mob,(char*)"Hergün yaptýðým tek iþ baþkalarýnýn pisliklerini temizlemek.");
       if (number_percent() < 20 )
-         do_say(mob,(char*)"I do not get paid enough.");
-      else if (number_percent() < 20) 
+      do_say(mob,(char*)"Yeterince kazanamýyorum.");
+      else if (number_percent() < 20)
 	   {
-	    do_say(mob,(char*)"Day in. Day out. This is all I do in 24 hours a day.");
+       do_say(mob,(char*)"Gün baþlýyor, gün bitiyor. Hiç aralýksýz çöp topluyorum.");
 	    if ( number_percent() < 10 )
-		do_yell(mob,(char*)"I want a vacation!");
+      do_yell(mob,(char*)"Tatil istiyorum!");
 	   }
      }
    }
@@ -1206,21 +1209,21 @@ void area_prog_janitor(CHAR_DATA *mob)
 void area_prog_vagabond(CHAR_DATA *mob)
 {
   if (number_percent() < 10)
-    do_say(mob, (char*)"Kill! Blood! Gore!");
+  do_say(mob,(char*)"Kan! Zulüm!");
   return;
 }
 
 void area_prog_baker(CHAR_DATA *mob)
 {
   if (number_percent() < 5)
-    do_say(mob, (char*)"Would you like to try some tasty pies?");
+  do_say(mob,(char*)"Kurabiyelerimin tadýna bakmak ister misin?");
   return;
 }
 
 void area_prog_grocer(CHAR_DATA *mob)
 {
   if (number_percent() < 5)
-    do_say(mob, (char*)"Can I interest you in a lantern today?");
+  do_say(mob, (char*)"Þu fenerin iþçiliðine bakar mýsýn?");
   return;
 }
 
@@ -1231,17 +1234,17 @@ void speech_prog_hunter_cleric(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
  OBJ_DATA *obj,*in_obj;
  int matched,i;
 
-    if (str_cmp(speech,"trouble"))	return;
- 
+    if (str_cmp(speech,"felaket"))	return;
+
     if (ch->cabal != CABAL_HUNTER)
     {
-     do_say(mob,(char*)"You must try hard!");
+      do_say(mob,(char*)"Ikýnýrsan belki...");
      return;
     }
 
-    if (!IS_SET(ch->quest,QUEST_EYE)) 
+    if (!IS_SET(ch->quest,QUEST_EYE))
     {
-     do_say(mob,(char*)"What do you mean?");
+      do_say(mob,(char*)"Ne kastediyorsun?");
      return;
     }
 
@@ -1260,17 +1263,17 @@ void speech_prog_hunter_cleric(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
 	{
 	    if (in_obj->carried_by == ch)
 	    {
-	     do_say(mob,(char*)"Are you kidding me? Your sword is already carried by you!");
+        do_say(mob,(char*)"Benle dalga mý geçiyorsun? Ýþte kýlýcýn elinde...");
 	     do_smite(mob,ch->name);
 	     return;
 	    }
-	   
-	    sprintf( buf, "Your sword is carried by %s!",
+
+      sprintf( buf, "Kýlýcýný %s taþýyor!",
 		PERS(in_obj->carried_by, ch) );
 	    do_say(mob, buf);
 	    if ( in_obj->carried_by->in_room )
 	    {
-	     sprintf(buf, "%s is in general area of %s at %s!",
+        sprintf(buf, "%s %s bölgesinde, %s civarlarýnda dolaþýyor!",
 		PERS(in_obj->carried_by, ch),
 		in_obj->carried_by->in_room->area->name,
 		in_obj->carried_by->in_room->name );
@@ -1280,14 +1283,14 @@ void speech_prog_hunter_cleric(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
 	    else
 	    {
 	     extract_obj( obj );
-	     do_say( mob, (char*)"But i will give you a new one.");
+       do_say( mob, (char*)"Sana yenisini vereceðim.");
 	    }
 	}
 	else
 	{
 	    if (in_obj->in_room != NULL)
 	    {
-		sprintf( buf, "Your sword is in general area of %s at %s!",
+        sprintf( buf, "Kýlýcýn %s bölgesinde, %s civarlarýnda!",
 			in_obj->in_room->area->name, in_obj->in_room->name );
 		do_say(mob,buf);
 		return;
@@ -1295,18 +1298,18 @@ void speech_prog_hunter_cleric(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
 	    else
 	    {
 	     extract_obj( obj );
-	     do_say( mob, (char*)"I will give you a new one.");
+       do_say( mob,(char*)"Sana yenisini vereceðim.");
 	    }
 	}
      break;
     }
 
-    if (!matched) do_say(mob, (char*)"Your sword is completely lost!");
+    if (!matched) do_say(mob,(char*)"Kýlýcýn kayýp!");
 
     if (IS_GOOD(ch)) 	i=0;
     else if (IS_EVIL(ch)) i=2;
     else i = 1;
-	
+
     obj = create_object(get_obj_index(OBJ_VNUM_EYED_SWORD), 0);
     obj->owner = str_dup(ch->name);
     obj->from = str_dup(ch->name);
@@ -1325,15 +1328,15 @@ void speech_prog_hunter_cleric(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
     obj->extra_descr->description = str_dup( buf );
     obj->extra_descr->next = NULL;
 
-    obj->value[2] = (ch->level / 10) + 3;  
+    obj->value[2] = (ch->level / 10) + 3;
     obj->level = ch->level;
     obj->cost = 0;
-    interpret( mob, (char*)"emote creates the Hunter's Sword.", FALSE);
-    do_say( mob , (char*)"I gave you another hunter's sword to you.");
-    act( "$N gives $p to $n.", ch, obj, mob, TO_ROOM );
-    act( "$N gives you $p.",   ch, obj, mob, TO_CHAR );
+    interpret( mob, (char*)"emote bir Avcý Kýlýcý yaratýyor.", FALSE);
+    do_say( mob ,(char*) "Sana baþka bir Avcý Kýlýcý veriyorum.");
+    act( "$N $e $p veriyor.", ch, obj, mob, TO_ROOM );
+    act( "$N sana $p veriyor.",   ch, obj, mob, TO_CHAR );
     obj_to_char(obj, ch);
-    do_say( mob , (char*)"Don't lose again!");
+    do_say( mob , (char*)"Tekrar kaybetme!");
 }
 
 
@@ -1349,7 +1352,7 @@ void fight_prog_golem( CHAR_DATA *mob, CHAR_DATA *ch)
     for ( master = mob->in_room->people; master != NULL; master = m_next )
     {
 	m_next = master->next_in_room;
-	if ( !IS_NPC(master) && mob->master == master && 
+	if ( !IS_NPC(master) && mob->master == master &&
 	     master->iclass == CLASS_NECROMANCER)
 	    break;
     }

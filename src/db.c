@@ -942,9 +942,9 @@ void load_old_obj( FILE *fp )
 	{
 	    if (is_name((char*)"two",pObjIndex->name)
 	    ||  is_name((char*)"two-handed",pObjIndex->name)
-	    ||  is_name((char*)"claymore",pObjIndex->name))
-      ||  is_name((char*)"iki-el",pObjIndex->name))
-      ||  is_name((char*)"ikiel",pObjIndex->name))
+	    ||  is_name((char*)"claymore",pObjIndex->name)
+      ||  is_name((char*)"iki-el",pObjIndex->name)
+      ||  is_name((char*)"ikiel",pObjIndex->name)
       ||  is_name((char*)"çift-el",pObjIndex->name))
 		SET_BIT(pObjIndex->value[4],WEAPON_TWO_HANDS);
 	}
@@ -3234,7 +3234,7 @@ void do_areas( CHAR_DATA *ch, char *argument )
 
     if (argument[0] != '\0')
     {
-      send_to_char_bw("Bu komutla argüman kullanýlmaz.\n\r",ch);
+      send_to_char("Bu komutla argüman kullanýlmaz.\n\r",ch);
 	return;
     }
 

@@ -8,11 +8,11 @@
 
 const struct pers_suffix_type pers_suffix_table[] =
 {
-	{"sS"	,"birisinin"	,"bir ölümsüzün"	,"n"	,"ın"	,"in"	,"un"	,"ün"	},
-	{"mM"	,"birisini"		,"bir ölümsüzü"		,"y"	,"ı"	,"i"	,"u"	,"ü"	},
-	{"eE"	,"birisine"		,"bir ölümsüze"		,"y"	,"a"	,"e"	,"a"	,"e"	},
-	{"yY"	,"birisinde"	,"bir ölümsüzde"	,"d"	,"a"	,"e"	,"a"	,"e"	},
-	{"zZ"	,"birisinden"	,"bir ölümsüzden"	,"d"	,"an"	,"en"	,"an"	,"en"	},
+	{(char*)"sS"	,(char*)"birisinin"	,(char*)"bir ölümsüzün"	,(char*)"n"	,(char*)"ın",(char*)"in",(char*)"un",(char*)"ün"	},
+	{(char*)"mM"	,(char*)"birisini"	,(char*)"bir ölümsüzü"	,(char*)"y"	,(char*)"ı"	,(char*)"i"	,(char*)"u"	,(char*)"ü"	},
+	{(char*)"eE"	,(char*)"birisine"	,(char*)"bir ölümsüze"	,(char*)"y"	,(char*)"a"	,(char*)"e"	,(char*)"a"	,(char*)"e"	},
+	{(char*)"yY"	,(char*)"birisinde"	,(char*)"bir ölümsüzde"	,(char*)"d"	,(char*)"a"	,(char*)"e"	,(char*)"a"	,(char*)"e"	},
+	{(char*)"zZ"	,(char*)"birisinden",(char*)"bir ölümsüzden",(char*)"d"	,(char*)"an",(char*)"en",(char*)"an",(char*)"en"	},
     {NULL	,NULL			,NULL				,NULL	,NULL	,NULL	,NULL	,NULL	}
 };
 
@@ -20,7 +20,7 @@ char *ekler (CHAR_DATA *to, CHAR_DATA *ch, char *format)
 {
 	int say;//pers_suffix_table'da kacinci elemanin okunacagini tutuyor.
 	char *i, *ek;// i BUF'u point edecek.
-	char buf[MAX_STRING_LENGTH];//return olacak bilgi burada 
+	char buf[MAX_STRING_LENGTH];//return olacak bilgi burada
 	/* SAY değişkenine değeri atanıyor */
 	for(say=0;pers_suffix_table[say].belirtec[0] != '\0';say++)
 	{
@@ -73,11 +73,11 @@ char * son_harf_unlu(CHAR_DATA *ch, int say)
 	char isim[MAX_STRING_LENGTH];
 	char buf[MAX_STRING_LENGTH];
 	char *ptr;
-	int number;
+	unsigned int number;
 	ptr=buf;
 
 	(!IS_NPC(ch))?strcpy(isim,ch->name):strcpy(isim,ch->short_descr);
-	
+
 	buf[0]='\0';
 	for(number=1;strlen(isim)>=number;number++)
 	{

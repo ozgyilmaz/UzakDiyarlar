@@ -2,11 +2,11 @@
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
- *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *	
- *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *	
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *
+ *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
 /***************************************************************************
@@ -25,7 +25,7 @@
  *  benefitting.  We hope that you share your changes too.  What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
- 
+
 /***************************************************************************
 *	ROM 2.4 is copyright 1993-1995 Russ Taylor			   *
 *	ROM has been brought to you by the ROM consortium		   *
@@ -74,7 +74,7 @@ const struct sex_type sex_table[] =
 
 /* for sizes */
 const struct size_type size_table[] =
-{ 
+{
     {	"tiny"		},
     {	"small" 	},
     {	"medium"	},
@@ -310,14 +310,14 @@ const struct flag_type comm_flags[] =
 struct cabal_type cabal_table [] =
 {
   { "None", "None",0,0,NULL },
-  { "the Rulers of Anatolia",		"RULER",	511,512,NULL	},
-  { "the Dark Raiders of Anatolia",	"INVADER",	561,568,NULL	},
-  { "the Barons of Chaos", 		"CHAOS",	552,554,NULL	},
-  { "the Masters of the Arcane Arts", 	"SHALAFI",	531,530,NULL 	},
-  { "the Masters of the Martial Arts",	"BATTLERAGER",	541,548,NULL 	},
-  { "the Knights of Anatolia", 		"KNIGHT",	522,524,NULL 	},
-  { "the Leaders of Forests", 		"LION",		502,504,NULL 	},
-  { "the Mercanary of Anatolia",	"HUNTER",	571,573,NULL 	}
+  { "Yargýçlar",	"tüze",	511,512,NULL	},
+  { "Ýstilacýlar",	"istila",	561,568,NULL	},
+  { "Karmaþanýn efendileri", 		"kaos",	552,554,NULL	},
+  { "Büyü sanatlarýnýn efendileri", 	"týlsým",	531,530,NULL 	},
+  { "DDövüþ sanatlarýnýn efendileri",	"öfke",	541,548,NULL 	},
+  { "Þövalyeler", 		"þövalye",	522,524,NULL 	},
+  { "Ormanlarýn efendileri", 		"aslan",		502,504,NULL 	},
+  { "Tüccarlar",	"avcý",	571,573,NULL 	}
 };
 
 const   struct  prac_type    prac_table[] =
@@ -349,4 +349,3 @@ const   struct  prac_type    prac_table[] =
     {	"wizard",	"group_wizard",		GROUP_WIZARD		},
     {	NULL,		NULL,			0			}
 };
-

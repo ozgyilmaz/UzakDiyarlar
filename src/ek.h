@@ -29,5 +29,3 @@ struct pers_suffix_type
 };
 
 extern	const	struct	pers_suffix_type	pers_suffix_table[];
-
-

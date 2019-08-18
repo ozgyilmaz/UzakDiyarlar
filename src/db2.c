@@ -2,11 +2,11 @@
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
- *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *	
- *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *	
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *
+ *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
 /***************************************************************************
@@ -60,7 +60,7 @@ int		social_count;
 /* snarf a socials file */
 void load_socials( FILE *fp)
 {
-    for ( ; ; ) 
+    for ( ; ; )
     {
     	struct social_type social;
     	char *temp;
@@ -69,7 +69,7 @@ void load_socials( FILE *fp)
 	social.others_no_arg = NULL;
 	social.char_found = NULL;
 	social.others_found = NULL;
-	social.vict_found = NULL; 
+	social.vict_found = NULL;
 	social.char_not_found = NULL;
 	social.char_auto = NULL;
 	social.others_auto = NULL;
@@ -77,8 +77,8 @@ void load_socials( FILE *fp)
     	temp = fread_word(fp);
     	if (!strcmp(temp,"#0"))
 	    return;  /* done */
-#if defined(social_debug) 
-	else 
+#if defined(social_debug)
+	else
 	    fprintf(stderr,"%s\n\r",temp);
 #endif
 
@@ -92,7 +92,7 @@ void load_socials( FILE *fp)
 	{
 	     social_table[social_count] = social;
 	     social_count++;
-	     continue; 
+	     continue;
 	}
         else
 	    social.char_no_arg = temp;
@@ -131,7 +131,7 @@ void load_socials( FILE *fp)
              continue;
         }
         else
-	    social.others_found = temp; 
+	    social.others_found = temp;
 
         temp = fread_string_eol(fp);
         if (!strcmp(temp,"$"))
@@ -168,7 +168,7 @@ void load_socials( FILE *fp)
         }
         else
 	    social.char_auto = temp;
-         
+
         temp = fread_string_eol(fp);
         if (!strcmp(temp,"$"))
              social.others_auto = NULL;
@@ -179,14 +179,14 @@ void load_socials( FILE *fp)
              continue;
         }
         else
-	    social.others_auto = temp; 
-	
+	    social.others_auto = temp;
+
 	social_table[social_count] = social;
     	social_count++;
    }
    return;
 }
-    
+
 
 
 
@@ -198,24 +198,24 @@ void load_socials( FILE *fp)
 void load_mobiles( FILE *fp )
 {
     MOB_INDEX_DATA *pMobIndex;
- 
+
     for ( ; ; )
     {
         sh_int vnum;
         char letter;
         int iHash;
- 
+
         letter                          = fread_letter( fp );
         if ( letter != '#' )
         {
             bug( "Load_mobiles: # not found.", 0 );
             exit( 1 );
         }
- 
+
         vnum                            = fread_number( fp );
         if ( vnum == 0 )
             break;
- 
+
         fBootDb = FALSE;
         if ( get_mob_index( vnum ) != NULL )
         {
@@ -223,7 +223,7 @@ void load_mobiles( FILE *fp )
             exit( 1 );
         }
         fBootDb = TRUE;
- 
+
         pMobIndex                       = (MOB_INDEX_DATA *)alloc_perm( sizeof(*pMobIndex) );
         pMobIndex->vnum                 = vnum;
 	pMobIndex->new_format		= TRUE;
@@ -233,10 +233,10 @@ void load_mobiles( FILE *fp )
         pMobIndex->long_descr           = fread_string( fp );
         pMobIndex->description          = fread_string( fp );
 	pMobIndex->race		 	= race_lookup(fread_string( fp ));
- 
+
         pMobIndex->long_descr[0]        = UPPER(pMobIndex->long_descr[0]);
         pMobIndex->description[0]       = UPPER(pMobIndex->description[0]);
- 
+
         pMobIndex->act                  = fread_flag( fp ) | ACT_IS_NPC
 					| race_table[pMobIndex->race].act;
 
@@ -267,14 +267,14 @@ void load_mobiles( FILE *fp )
         pMobIndex->group                = fread_number( fp );
 
         pMobIndex->level                = fread_number( fp );
-        pMobIndex->hitroll              = fread_number( fp );  
+        pMobIndex->hitroll              = fread_number( fp );
 
 	/* read hit dice */
-        pMobIndex->hit[DICE_NUMBER]     = fread_number( fp );  
-        /* 'd'          */                fread_letter( fp ); 
+        pMobIndex->hit[DICE_NUMBER]     = fread_number( fp );
+        /* 'd'          */                fread_letter( fp );
         pMobIndex->hit[DICE_TYPE]   	= fread_number( fp );
-        /* '+'          */                fread_letter( fp );   
-        pMobIndex->hit[DICE_BONUS]      = fread_number( fp ); 
+        /* '+'          */                fread_letter( fp );
+        pMobIndex->hit[DICE_BONUS]      = fread_number( fp );
 
  	/* read mana dice */
 	pMobIndex->mana[DICE_NUMBER]	= fread_number( fp );
@@ -298,7 +298,7 @@ void load_mobiles( FILE *fp )
 	pMobIndex->ac[AC_EXOTIC]	= fread_number( fp ) * 10;
 
 	/* read flags and add in data from the race table */
-	pMobIndex->off_flags		= fread_flag( fp ) 
+	pMobIndex->off_flags		= fread_flag( fp )
 					| race_table[pMobIndex->race].off;
 	pMobIndex->imm_flags		= fread_flag( fp )
 					| race_table[pMobIndex->race].imm;
@@ -323,7 +323,7 @@ void load_mobiles( FILE *fp )
 	pMobIndex->material		= str_dup(fread_word( fp ));
 	pMobIndex->mprogs		= NULL;
 	pMobIndex->progtypes		= 0;
- 
+
 	for ( ; ; )
         {
             letter = fread_letter( fp );
@@ -371,7 +371,7 @@ void load_mobiles( FILE *fp )
         top_mob_index++;
         kill_table[URANGE(0, pMobIndex->level, MAX_LEVEL-1)].number++;
     }
- 
+
     return;
 }
 
@@ -381,24 +381,24 @@ void load_mobiles( FILE *fp )
 void load_objects( FILE *fp )
 {
     OBJ_INDEX_DATA *pObjIndex;
- 
+
     for ( ; ; )
     {
         sh_int vnum;
         char letter;
         int iHash;
- 
+
         letter                          = fread_letter( fp );
         if ( letter != '#' )
         {
             bug( "Load_objects: # not found.", 0 );
             exit( 1 );
         }
- 
+
         vnum                            = fread_number( fp );
         if ( vnum == 0 )
             break;
- 
+
         fBootDb = FALSE;
         if ( get_obj_index( vnum ) != NULL )
         {
@@ -406,7 +406,7 @@ void load_objects( FILE *fp )
             exit( 1 );
         }
         fBootDb = TRUE;
- 
+
         pObjIndex                       = (OBJ_INDEX_DATA *)alloc_perm( sizeof(*pObjIndex) );
         pObjIndex->vnum                 = vnum;
         pObjIndex->new_format           = TRUE;
@@ -416,7 +416,7 @@ void load_objects( FILE *fp )
         pObjIndex->short_descr          = fread_string( fp );
         pObjIndex->description          = fread_string( fp );
         pObjIndex->material		= fread_string( fp );
- 
+
         pObjIndex->item_type            = item_lookup(fread_word( fp ));
         pObjIndex->extra_flags          = fread_flag( fp );
         pObjIndex->wear_flags           = fread_flag( fp );
@@ -471,10 +471,10 @@ void load_objects( FILE *fp )
 	}
 	pObjIndex->level		= fread_number( fp );
         pObjIndex->weight               = fread_number( fp );
-        pObjIndex->cost                 = fread_number( fp ); 
+        pObjIndex->cost                 = fread_number( fp );
         pObjIndex->progtypes            = 0;
-        pObjIndex->oprogs               = NULL; 
-        pObjIndex->limit                = -1; 
+        pObjIndex->oprogs               = NULL;
+        pObjIndex->limit                = -1;
 
         /* condition */
         letter 				= fread_letter( fp );
@@ -489,17 +489,17 @@ void load_objects( FILE *fp )
 	    case ('R') :		pObjIndex->condition =   0; break;
 	    default:			pObjIndex->condition = 100; break;
 	}
- 
+
         for ( ; ; )
         {
             char letter;
- 
+
             letter = fread_letter( fp );
- 
+
             if ( letter == 'A' )
             {
                 AFFECT_DATA *paf;
- 
+
                 paf                     = (AFFECT_DATA *)alloc_perm( sizeof(*paf) );
 		paf->where		= TO_OBJECT;
                 paf->type               = -1;
@@ -516,7 +516,7 @@ void load_objects( FILE *fp )
 	    else if (letter == 'F')
             {
                 AFFECT_DATA *paf;
- 
+
                 paf                     = (AFFECT_DATA *)alloc_perm( sizeof(*paf) );
 		letter 			= fread_letter(fp);
 		switch (letter)
@@ -550,11 +550,11 @@ void load_objects( FILE *fp )
                 pObjIndex->affected     = paf;
                 top_affect++;
             }
- 
+
             else if ( letter == 'E' )
             {
                 EXTRA_DESCR_DATA *ed;
- 
+
                 ed                      = (EXTRA_DESCR_DATA *)alloc_perm( sizeof(*ed) );
                 ed->keyword             = fread_string( fp );
                 ed->description         = fread_string( fp );
@@ -562,20 +562,20 @@ void load_objects( FILE *fp )
                 pObjIndex->extra_descr  = ed;
                 top_ed++;
             }
- 
+
             else
             {
                 ungetc( letter, fp );
                 break;
             }
         }
- 
+
         iHash                   = vnum % MAX_KEY_HASH;
         pObjIndex->next         = obj_index_hash[iHash];
         obj_index_hash[iHash]   = pObjIndex;
         top_obj_index++;
     }
- 
+
     return;
 }
 
@@ -587,13 +587,13 @@ void load_omprogs( FILE *fp )
 {
   char progtype[MAX_INPUT_LENGTH];
   char progname[MAX_INPUT_LENGTH];
-  
+
     for ( ; ; )
     {
 	MOB_INDEX_DATA *pMobIndex;
 	OBJ_INDEX_DATA *pObjIndex;
 	char letter;
-	
+
 
 	switch ( letter = fread_letter( fp ) )
 	{
@@ -606,17 +606,17 @@ void load_omprogs( FILE *fp )
 
 	case '*':
 	    break;
-	    
+
         case 'O':
 	    pObjIndex = get_obj_index ( fread_number ( fp ) );
 	    if (pObjIndex->oprogs == NULL)
 	      pObjIndex->oprogs = (OPROG_DATA*)alloc_perm(sizeof(OPROG_DATA));
-	    
+
 	    strcpy(progtype, fread_word(fp));
 	    strcpy(progname, fread_word(fp));
 	    oprog_set( pObjIndex, progtype, progname);
 	    break;
-	
+
 	case 'M':
 	    pMobIndex		= get_mob_index	( fread_number ( fp ) );
 	    if (pMobIndex->mprogs == NULL)
@@ -625,13 +625,9 @@ void load_omprogs( FILE *fp )
 	    strcpy(progtype,fread_word(fp));
 	    strcpy(progname,fread_word(fp));
 	    mprog_set( pMobIndex,progtype,progname);
-	    break;  
+	    break;
 	}
 
 	fread_to_eol( fp );
     }
 }
-
-
-
-

@@ -1,17 +1,17 @@
 /***************************************************************************
- *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT		           *	
+ *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT		           *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
- *	 Ibrahim Canpunar  {Mandrake}	canpunar@rorqual.cc.metu.edu.tr    *	
- *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *	
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 Ibrahim Canpunar  {Mandrake}	canpunar@rorqual.cc.metu.edu.tr    *
+ *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
 /****************************************************************************
 *  Automated Quest code written by Vassago of MOONGATE, moongate.ams.com    *
-*  4000. Copyright (c) 1996 Ryan Addams, All Rights Reserved. Use of this   * 
+*  4000. Copyright (c) 1996 Ryan Addams, All Rights Reserved. Use of this   *
 *  code is allowed provided you add a credit line to the effect of:         *
 *  "Quest Code (c) 1996 Ryan Addams" to your logon screen with the rest     *
 *  of the standard diku/rom credits. If you use this or a modified version  *
@@ -66,9 +66,9 @@ extern	MOB_INDEX_DATA	*mob_index_hash	[MAX_KEY_HASH];
 
 /* Object vnums for object quest 'tokens': object quest. */
 
-#define QUEST_OBJQUEST1 84 
-#define QUEST_OBJQUEST2 85 
-#define QUEST_OBJQUEST3 86 
+#define QUEST_OBJQUEST1 84
+#define QUEST_OBJQUEST2 85
+#define QUEST_OBJQUEST3 86
 #define QUEST_OBJQUEST4	97
 
 /* Local functions */
@@ -111,18 +111,17 @@ void do_quest(CHAR_DATA *ch, char *argument)
 	{
 	    if (ch->pcdata->questmob == -1 )
 	    {
-		sprintf(buf, "Your quest is ALMOST complete!\n\rGet back to Questor before your time runs out!\n\r");
-		send_to_char(buf, ch);
+        send_to_char("Görevin neredeyse tamamlandý!\n\rZamanýn bitmeden önce görevciye git!\n\r", ch);
 	    }
 	    else if (ch->pcdata->questobj > 0)
 	    {
                 questinfoobj = get_obj_index(ch->pcdata->questobj);
 		if (questinfoobj != NULL)
 		{
-		    sprintf(buf, "You are on a quest to recover the fabled %s!\n\r",questinfoobj->name);
+      sprintf(buf, "%s objesini bulmakla görevlendirildin!\n\r",questinfoobj->name);
 		    send_to_char(buf, ch);
 		}
-		else send_to_char("You aren't currently on a quest.\n\r",ch);
+    else send_to_char("Henüz bir görevin yok.\n\r",ch);
 		return;
 	    }
 	    else if (ch->pcdata->questmob > 0)
@@ -130,49 +129,49 @@ void do_quest(CHAR_DATA *ch, char *argument)
                 questinfo = get_mob_index(ch->pcdata->questmob);
 		if (questinfo != NULL)
 		{
-	            sprintf(buf, "You are on a quest to slay the dreaded %s!\n\r",questinfo->short_descr);
+      sprintf(buf, "Görevin %s adýndaki korkunç yaratýðý öldürmek!\n\r",questinfo->short_descr);
 		    send_to_char(buf, ch);
 		}
-		else send_to_char("You aren't currently on a quest.\n\r",ch);
+    else send_to_char("Henüz bir görevin yok.\n\r",ch);
 		return;
 	    }
 	}
 	else
-	    send_to_char("You aren't currently on a quest.\n\r",ch);
+  send_to_char("Henüz bir görevin yok.\n\r",ch);
 	return;
     }
-    if (!strcmp(arg1, "points"))
+    if (!strcmp(arg1, "puan"))
     {
-	sprintf(buf, "You have %d quest points.\n\r",ch->pcdata->questpoints);
+      sprintf(buf, "%d görev puanýn var.\n\r",ch->pcdata->questpoints);
 	send_to_char(buf, ch);
 	return;
     }
-    else if (!strcmp(arg1, "time"))
+    else if (!strcmp(arg1, "zaman"))
     {
 	if (!IS_SET(ch->act, PLR_QUESTOR))
 	{
-	    send_to_char("You aren't currently on a quest.\n\r",ch);
+    send_to_char("Henüz bir görevin yok.\n\r",ch);
 	    if (ch->pcdata->nextquest > 1)
 	    {
-		sprintf(buf, "There are %d minutes remaining until you can go on another quest.\n\r",ch->pcdata->nextquest);
+        sprintf(buf, "Yeni bir görev isteyebilmen için %d dakika kaldý.\n\r",ch->pcdata->nextquest);
 		send_to_char(buf, ch);
 	    }
 	    else if (ch->pcdata->nextquest == 1)
 	    {
-		sprintf(buf, "There is less than a minute remaining until you can go on another quest.\n\r");
+        sprintf(buf, "Yeni bir görev isteyebilmen için bir dakikadan az zaman kaldý.\n\r");
 		send_to_char(buf, ch);
 	    }
 	}
         else if (ch->pcdata->countdown > 0)
         {
-	    sprintf(buf, "Time left for current quest: %d\n\r",ch->pcdata->countdown);
+          sprintf(buf, "Görevi bitirmek için kalan zaman: %d dakika.\n\r",ch->pcdata->countdown);
 	    send_to_char(buf, ch);
 	}
 	return;
     }
 
 /* Checks for a character in the room with spec_questmaster set. This special
-   procedure must be defined in special.c. You could instead use an 
+   procedure must be defined in special.c. You could instead use an
    ACT_QUESTMASTER flag instead of a special procedure. */
 
     for ( questman = ch->in_room->people; questman != NULL; questman = questman->next_in_room )
@@ -183,13 +182,13 @@ void do_quest(CHAR_DATA *ch, char *argument)
 
     if (questman == NULL || questman->spec_fun != spec_lookup( (char*)"spec_questmaster" ))
     {
-        send_to_char("You can't do that here.\n\r",ch);
+      send_to_char("Odada görevci göremiyorum.\n\r", ch);
         return;
     }
 
     if ( questman->fighting != NULL)
     {
-	send_to_char("Wait until the fighting stops.\n\r",ch);
+      send_to_char("Dövüþ bitene kadar bekle.\n\r",ch);
         return;
     }
 
@@ -200,10 +199,10 @@ void do_quest(CHAR_DATA *ch, char *argument)
    very nice items, and no one has one yet, because it takes awhile to
    build up quest points :> Make the item worth their while. */
 
-    if (!strcmp(arg1, "list"))
+    if (!strcmp(arg1, "liste"))
     {
-        act( "$n asks $N for a list of quest items.", ch, NULL, questman, TO_ROOM); 
-	act ("You ask $N for a list of quest items.",ch, NULL, questman, TO_CHAR);
+      act("$n $Z görev ekipmanlarýnýn listesini istiyor.", ch, NULL, questman, TO_ROOM);
+act ("$Z görev ekipmanlarýnýn listesini istiyorsun.",ch, NULL, questman, TO_CHAR);
 /*
 1000qp.........The COMFY CHAIR!!!!!!\n\r\
 850qp..........Sword of Vassago\n\r\
@@ -213,40 +212,40 @@ void do_quest(CHAR_DATA *ch, char *argument)
 */
 	bufvampire[0] = '\0';
 	if ( ch->iclass == CLASS_VAMPIRE )
-	sprintf(bufvampire,"    50qp.........Vampire skill (vampire)\n\r");
+  sprintf(bufvampire,"    50gp  Vampir yeteneði (vampir)\n\r");
 	bufsamurai[0] = '\0';
 	if ( ch->iclass == 9 )
 	sprintf(bufsamurai,"%s%s%s",
-		"   100qp.........Katana quest (katana)\n\r",
-		"   100qp.........Second katana quest(sharp)\n\r",
-		"    50qp.........Decrease number of death (death)\n\r");
-	sprintf(buf, "Current Quest Items available for Purchase:\n\r \
-  5000qp.........the silk-adamantite backpack (backpack)\n\r \
-  1000qp.........the Girth of Real Heroism (girth)\n\r \
-  1000qp.........the Ring of Real Heroism (ring)\n\r\
-  1000qp.........the Real Hero's Weapon (weapon)\n\r\
-  1000qp.........100 Practices (practice)\n\r\
-   500qp.........Decanter of Endless Water (decanter)\n\r\
-   500qp.........350,000 gold pieces (gold)\n\r\
-   250qp.........1 constitution (con)\n\r\
-   200qp.........tattoo of your religion (tattoo)\n\r%s%s\
-    50qp.........remove tattoo of your religion (remove)\n\r\
-    50qp.........set religion to none (set)\n\r\
-To buy an item, type 'QUEST BUY <item>'.\n\r",
+  "   100gp  Katana görevi (katana)\n\r",
+  "   100gp  Ýkinci katana görevi(keskin)\n\r",
+  "    50gp  Ölüm sayýsý azaltma (ölüm)\n\r");
+  sprintf(buf, "Görev ödülleri:\n\r\
+  5000gp  sýrtçantasý    (çanta)\n\r\
+  1000gp  kemer          (kemer)\n\r\
+   750gp  akik yüzük     (akik)\n\r\
+   1000gp  platin silah   (platin)\n\r\
+   1000gp  100 pratik     (pratik)\n\r\
+   500gp  testi          (testi)\n\r\
+   500gp  350.000 altýn  (altýn)\n\r\
+   250gp  1 bünye        (bün)\n\r\
+   200gp  dövme          (dövme)\n\r%s%s\
+   50gp  dövme kaldýrma (kaldýr)\n\r\
+   50gp  dinden çýkma   (dinsiz)\n\r\
+   Ödüllerden birini satýn almak için 'görev alýþ <görev_eþyasý>' yazýn.\n\r",
 	bufsamurai, bufvampire);
 	send_to_char(buf, ch);
 	return;
     }
 
-    else if (!strcmp(arg1, "buy"))
+    else if (!strcmp(arg1, "alýþ"))
     {
 	if (arg2[0] == '\0')
 	{
-	    send_to_char("To buy an item, type 'QUEST BUY <item>'.\n\r",ch);
+    send_to_char("Bir ödülü satýn almak için 'görev alýþ <görev_eþyasý>' yazýn.\n\r",ch);
 	    return;
 	}
 
-	else if (is_name(arg2, (char*)"backpack"))
+	else if (is_name(arg2, (char*)"çanta"))
 	{
 	    if (ch->pcdata->questpoints >= 5000)
 	    {
@@ -254,20 +253,20 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	        obj = create_object(get_obj_index(QUEST_ITEM4),ch->level);
 	 	if (IS_SET(ch->quest,QUEST_BACKPACK) ||
 		    IS_SET(ch->quest,QUEST_BACKPACK2) ||
-		    IS_SET(ch->quest,QUEST_BACKPACK3) ) 
+		    IS_SET(ch->quest,QUEST_BACKPACK3) )
 		do_tell_quest(ch,questman,
-		(char*)"This quest item is beyond the trouble option.");
+		(char*)"Bu görev eþyasý sigorta kapsamýnda.");
 		else SET_BIT(ch->quest,QUEST_BACKPACK);
 	    }
 	    else
 	    {
-		sprintf(buf, "Sorry, %s, but you don't have enough quest points for that.",ch->name);
+        sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
 	}
 
-	else if (is_name(arg2, (char*)"decanter"))
+	else if (is_name(arg2, (char*)"testi"))
 	{
 	    if (ch->pcdata->questpoints >= 500)
 	    {
@@ -275,14 +274,14 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	        obj = create_object(get_obj_index(QUEST_ITEM5),ch->level);
 	 	if (IS_SET(ch->quest,QUEST_DECANTER) ||
 		    IS_SET(ch->quest,QUEST_DECANTER2) ||
-		    IS_SET(ch->quest,QUEST_DECANTER3) ) 
+		    IS_SET(ch->quest,QUEST_DECANTER3) )
 		do_tell_quest(ch,questman,
-		(char*)"This quest item is beyond the trouble option.");
+      (char*)"Bu görev eþyasý sigorta kapsamýnda.");
 		else SET_BIT(ch->quest,QUEST_DECANTER);
 	    }
 	    else
 	    {
-		sprintf(buf, "Sorry, %s, but you don't have enough quest points for that.",ch->name);
+        sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
@@ -296,19 +295,19 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	        obj = create_object(get_obj_index(QUEST_ITEM1),ch->level);
 	 	if (IS_SET(ch->quest,QUEST_GIRTH) ||
 		    IS_SET(ch->quest,QUEST_GIRTH2) ||
-		    IS_SET(ch->quest,QUEST_GIRTH3) ) 
+		    IS_SET(ch->quest,QUEST_GIRTH3) )
 		do_tell_quest(ch,questman,
-		(char*)"This quest item is beyond the trouble option.");
+		(char*)"Bu görev eþyasý sigorta kapsamýnda.");
 		else SET_BIT(ch->quest,QUEST_GIRTH);
 	    }
 	    else
 	    {
-		sprintf(buf, "Sorry, %s, but you don't have enough quest points for that.",ch->name);
+        sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
 	}
-	else if (is_name(arg2, (char*)"ring"))
+	else if (is_name(arg2, (char*)"yüzük"))
 	{
 	    if (ch->pcdata->questpoints >= 1000)
 	    {
@@ -316,19 +315,19 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	        obj = create_object(get_obj_index(QUEST_ITEM2),ch->level);
 	 	if (IS_SET(ch->quest,QUEST_RING) ||
 		    IS_SET(ch->quest,QUEST_RING2) ||
-		    IS_SET(ch->quest,QUEST_RING3) ) 
+		    IS_SET(ch->quest,QUEST_RING3) )
 		do_tell_quest(ch,questman,
-		(char*)"This quest item is beyond the trouble option.");
+		(char*)"Bu görev eþyasý sigorta kapsamýnda.");
 		else SET_BIT(ch->quest,QUEST_RING);
 	    }
 	    else
 	    {
-		sprintf(buf, "Sorry, %s, but you don't have enough quest points for that.",ch->name);
+        sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
 	}
-	else if (is_name(arg2, (char*)"weapon"))
+	else if (is_name(arg2, (char*)"silah"))
 	{
 	    if (ch->pcdata->questpoints >= 1000)
 	    {
@@ -336,23 +335,23 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	        obj = create_object(get_obj_index(QUEST_ITEM3),ch->level);
 	 	if (IS_SET(ch->quest,QUEST_WEAPON) ||
 		    IS_SET(ch->quest,QUEST_WEAPON2) ||
-		    IS_SET(ch->quest,QUEST_WEAPON3) ) 
+		    IS_SET(ch->quest,QUEST_WEAPON3) )
 		do_tell_quest(ch,questman,
-		(char*)"This quest item is beyond the trouble option.");
+		(char*)"Bu görev eþyasý sigorta kapsamýnda.");
 		else SET_BIT(ch->quest,QUEST_WEAPON);
 	    }
 	    else
 	    {
-		sprintf(buf, "Sorry, %s, but you don't have enough quest points for that.",ch->name);
+        sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
 	}
-	else if (is_name(arg2, (char*)"practices pracs prac practice"))
+	else if (is_name(arg2, (char*)"pratik"))
 	{
 	    if (IS_SET(ch->quest, QUEST_PRACTICE))
 	    {
-		sprintf(buf, "Sorry, %s, but you had already got enough practices!",ch->name);
+        sprintf(buf, "Üzgünüm %s, bu ödülü daha önce almýþtýn!",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
@@ -361,23 +360,23 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	    {
 		ch->pcdata->questpoints -= 1000;
 	        ch->practice += 100;
-    	        act( "$N gives 100 practices to $n.", ch, NULL, questman, TO_ROOM );
-    	        act( "$N gives you 100 practices.",   ch, NULL, questman, TO_CHAR );
+          act("$N $e 100 pratik seansý veriyor.", ch, NULL, questman, TO_ROOM );
+          act("$N sana 100 pratik seansý veriyor.",   ch, NULL, questman, TO_CHAR );
 		SET_BIT(ch->quest, QUEST_PRACTICE);
 	        return;
 	    }
 	    else
 	    {
-		sprintf(buf, "Sorry, %s, but you don't have enough quest points for that.",ch->name);
+        sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
 	}
-	else if (is_name(arg2, (char*)"vampire"))
+	else if (is_name(arg2, (char*)"vampir"))
 	{
-	  if (ch->iclass != CLASS_VAMPIRE) 
+	  if (ch->iclass != CLASS_VAMPIRE)
 	  {
-	    sprintf(buf, "You cannot gain this skill, %s.",ch->name);
+      sprintf(buf, "Sen bu yeteneði kazanamazsýn %s.",ch->name);
 	    do_tell_quest(ch,questman,buf);
 	    return;
 	  }
@@ -386,24 +385,24 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		ch->pcdata->questpoints -= 50;
 		sn = skill_lookup("vampire");
 		ch->pcdata->learned[sn] = 100;
-    	        act( "$N gives secret of undead to $n.", ch, NULL, questman, TO_ROOM );
-  	        act( "$N gives you SECRET of undead.",   ch, NULL, questman, TO_CHAR );
-		act_color( "$CLightning flashes in the sky.$c",   ch, NULL, 
+    act( "$N hortlaklýðýn sýrrýný $e veriyor.", ch, NULL, questman, TO_ROOM );
+  act( "$N sana hortlaklýðýn sýrrýný veriyor.",   ch, NULL, questman, TO_CHAR );
+act_color( "$CGökyüzünde þimþekler çakýyor.$c",   ch, NULL,
 			questman, TO_ALL,POS_SLEEPING,CLR_BLUE );
 	        return;
 	    }
 	    else
 	    {
-		sprintf(buf, "Sorry, %s, but you don't have enough quest points for that.",ch->name);
+        sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
 	}
-	else if (is_name(arg2, (char*)"con constitution"))
+	else if (is_name(arg2, (char*)"bün bünye"))
 	{
 	    if (ch->perm_stat[STAT_CON] >= get_max_train2(ch, STAT_CON))
 	    {
-		sprintf(buf, "Sorry, %s, you have already sufficienn constitution.",ch->name);
+        sprintf(buf, "Üzgünüm %s, bünye niteliðin yeterince güçlü.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
@@ -415,23 +414,23 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	    }
 	    else
 	    {
-		sprintf(buf, "Sorry, %s, but you don't have enough quest points for that.",ch->name);
+        sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
 	}
-	else if (is_name(arg2, (char*)"dead samurai death"))
+	else if (is_name(arg2, (char*)"samuray ölüm"))
 	{
 	    if (ch->iclass != 9)
 	    {
-		sprintf(buf, "Sorry, %s, but you are not a samurai.",ch->name);
+        sprintf(buf, "Üzgünüm %s, fakat sen bir samuray deðilsin.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
 
 	    if (ch->pcdata->death < 1)
 	    {
-		sprintf(buf, "Sorry, %s, you haven't god any death yet.",ch->name);
+        sprintf(buf, "Üzgünüm %s, henüz ölmemiþsin.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
@@ -443,32 +442,32 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	    }
 	    else
 	    {
-		sprintf(buf, "Sorry, %s, but you don't have enough quest points for that.",ch->name);
+        sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
 	}
-	else if (is_name(arg2, (char*)"katana sword"))
+	else if (is_name(arg2, (char*)"katana"))
 	{
 	  AFFECT_DATA af;
 	  OBJ_DATA *katana;
 	    if (ch->iclass != 9)
 	    {
-		sprintf(buf, "Sorry, %s, but you are not a samurai.",ch->name);
+        sprintf(buf, "Üzgünüm %s, fakat sen bir samuray deðilsin.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
 
 	    if ( (katana = get_obj_list(ch,(char*)"katana",ch->carrying)) == NULL)
 	    {
-		 sprintf(buf, "Sorry, %s, but you don't have your katana with you.",ch->name);
+        sprintf(buf, "Üzgünüm %s, fakat katanan yanýnda deðil.",ch->name);
 		 do_tell_quest(ch,questman,buf);
 	         return;
 	    }
 
 	    if (IS_WEAPON_STAT(katana,WEAPON_KATANA))
 	    {
-		sprintf(buf, "Sorry, %s, but your katana has already passed the first quest.",ch->name);
+        sprintf(buf, "Üzgünüm %s, fakat katanan ilk görevi geçmiþ zaten.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
@@ -484,38 +483,38 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		af.bitvector	= WEAPON_KATANA;
 		af.location	= APPLY_NONE;
 		affect_to_obj(katana,&af);
-		sprintf(buf, "As you wield it, you will feel that it is power will increase, continuously.");
+    sprintf(buf, "Katanandaki gücün giderek artacaðýný hissediyorsun.");
 		do_tell_quest(ch,questman,buf);
 	    }
 	    else
 	    {
-		sprintf(buf, "Sorry, %s, but you don't have enough quest points for that.",ch->name);
+        sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
 	}
-	else if (is_name(arg2, (char*)"sharp second"))
+	else if (is_name(arg2, (char*)"keskin ikinci"))
 	{
 	  AFFECT_DATA af;
 	  OBJ_DATA *katana;
 
 	    if (ch->iclass != 9)
 	    {
-		sprintf(buf, "Sorry, %s, but you are not a samurai.",ch->name);
+        sprintf(buf, "Üzgünüm %s, fakat sen bir samuray deðilsin.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
 
 	    if ( (katana = get_obj_list(ch,(char*)"katana",ch->carrying)) == NULL)
 	    {
-		 sprintf(buf, "Sorry, %s, but you don't have your katana with you.",ch->name);
+        sprintf(buf, "Üzgünüm %s, fakat katanan yanýnda deðil.",ch->name);
 		 do_tell_quest(ch,questman,buf);
 	         return;
 	    }
 
 	    if (!IS_WEAPON_STAT(katana,WEAPON_KATANA))
 	    {
-		sprintf(buf, "Sorry, %s, but your katana hasn't passed the first quest.",ch->name);
+        sprintf(buf, "Üzgünüm %s, fakat katanan ilk görevi henüz geçmemiþ.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
@@ -531,28 +530,28 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		af.bitvector	= WEAPON_SHARP;
 		af.location	= APPLY_NONE;
 		affect_to_obj(katana,&af);
-		sprintf(buf, "From now on, your katana will be as sharp as blades of titans.");
+    sprintf(buf, "Þu andan sonra katanan en keskin kýlýçlardan daha keskin olacak.");
 		do_tell_quest(ch,questman,buf);
 	    }
 	    else
 	    {
-		sprintf(buf, "Sorry, %s, but you don't have enough quest points for that.",ch->name);
+        sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
 	}
-	else if (is_name(arg2, (char*)"tattoo religion"))
+	else if (is_name(arg2, (char*)"dövme"))
 	{
 	 OBJ_DATA *tattoo;
 	if (!(ch->religion) )
 	{
-  send_to_char("You don't have a religion to have a tattoo.\n\r", ch);
+    send_to_char("Dövmesini yaptýrabileceðin bir dinin yok.\n\r", ch);
 	return;
 	}
 	 tattoo = get_eq_char(ch, WEAR_TATTOO);
    	 if (tattoo != NULL)
     	    {
-	send_to_char("But you have already your tattoo!.\n\r",ch);
+            send_to_char("Zaten dövmen var!.\n\r",ch);
       	      return;
     	    }
 
@@ -564,35 +563,35 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 
       	      obj_to_char(tattoo,ch);
       	      equip_char(ch, tattoo, WEAR_TATTOO);
-    	        act( "$N tattoos $n with $p!.", ch, tattoo, questman, TO_ROOM );
-    	        act( "$N tattoos you with $p!.",   ch, tattoo, questman, TO_CHAR );
+              act("$N $s omzuna $p kazýyor!.", ch, tattoo, questman, TO_ROOM );
+    	        act("$N senin omzuna $p kazýyor!.",   ch, tattoo, questman, TO_CHAR );
 	        return;
 	    }
 	    else
 	    {
-		sprintf(buf, "Sorry, %s, but you don't have enough quest points for that.",ch->name);
+		sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
 	}
-	else if (is_name(arg2, (char*)"gold gp"))
+	else if (is_name(arg2, (char*)"altýn"))
 	{
 	    if (ch->pcdata->questpoints >= 500)
 	    {
 		ch->pcdata->questpoints -= 500;
 	        ch->gold += 350000;
-    	        act( "$N gives 350,000 gold pieces to $n.", ch, NULL, questman, TO_ROOM );
-    	        act( "$N has 350,000 in gold transfered from $s Swiss account to your balance.",   ch, NULL, questman, TO_CHAR );
+          act("$N $e 350.000 altýn sikke veriyor.", ch, NULL, questman, TO_ROOM );
+          act( "$N sana 350.000 altýn sikke veriyor.",   ch, NULL, questman, TO_CHAR );
 	        return;
 	    }
 	    else
 	    {
-		sprintf(buf, "Sorry, %s, but you don't have enough quest points for that.",ch->name);
+		sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
 	}
-	else if (is_name(arg2, (char*)"remove"))
+	else if (is_name(arg2, (char*)"kaldýr"))
 	{
 	 OBJ_DATA *tattoo;
 
@@ -600,55 +599,55 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	    {
 		if ( (tattoo = get_eq_char(ch, WEAR_TATTOO)) == NULL)
 		{
-		 sprintf(buf, "But you don't have any tattoo!");
+      sprintf(buf, "Dövmen yok, neyi kaldýrayým!");
 		 do_tell_quest(ch,questman,buf);
 		 return;
 		}
-		
+
 		ch->pcdata->questpoints -= 50;
 		extract_obj(tattoo);
-		act("Through a painful process, your tattoo has been destroyed by $n.", questman, NULL, ch, TO_VICT);	
-		act("$N's tattoo is destroyed by $n.", questman, NULL, ch, TO_NOTVICT);
+    act("$n acýlý bir operasyonla dövmeni siliyor.", questman, NULL, ch, TO_VICT);
+		act("$n $S dövmesini siliyor.", questman, NULL, ch, TO_NOTVICT);
 		return;
 	    }
 	    else
 	    {
-		sprintf(buf, "Sorry, %s, but you don't have enough quest points for that.",ch->name);
+		sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
 	}
-	else if (is_name(arg2, (char*)"set"))
+	else if (is_name(arg2, (char*)"dinsiz"))
 	{
 	    if (ch->pcdata->questpoints >= 50)
 	    {
 		if ( get_eq_char(ch, WEAR_TATTOO) != NULL)
 		{
-		 sprintf(buf, "Sorry, %s, but you have to remove your tattoo first!",ch->name);
+      sprintf(buf, "Üzgünüm %s, önce dövmeni kaldýrtmalýsýn!",ch->name);
 		 do_tell_quest(ch,questman,buf);
 		 return;
 		}
 		if ( ch->religion == RELIGION_NONE )
 		{
-		 sprintf(buf, "But you are already an atheist!");
+      sprintf(buf, "Fakat sen zaten dinsizsin!");
 		 do_tell_quest(ch,questman,buf);
 		 return;
 		}
 		ch->pcdata->questpoints -= 50;
 		ch->religion = RELIGION_NONE;
-		send_to_char("You don't believe any religion now.\n\r", ch);
-		act("$N's religion is set to NONE!.", questman, NULL, ch, TO_NOTVICT);
+    send_to_char("Tam bir dinsiz oldun.\n\r", ch);
+		act("$S kendi isteði ile dinden çýktý!.", questman, NULL, ch, TO_NOTVICT);
 	    }
 	    else
 	    {
-		sprintf(buf, "Sorry, %s, but you don't have enough quest points for that.",ch->name);
+		sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
 	}
 	else
 	{
-	    sprintf(buf, "I don't have that item, %s.",ch->name);
+    sprintf(buf, "Ondan bende yok, %s.",ch->name);
 	    do_tell_quest(ch,questman,buf);
 	}
 	if (obj != NULL)
@@ -667,38 +666,38 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	      || obj->pIndexData->vnum == QUEST_ITEM2
 	      || obj->pIndexData->vnum == QUEST_ITEM3)
 	 {
-	  sprintf( buf, obj->short_descr, 
-		IS_GOOD(ch) ? "holy" : 
-		IS_NEUTRAL(ch) ? "blue-green" : "evil", ch->name);
+	  sprintf( buf, obj->short_descr,
+		IS_GOOD(ch) ? "parlak" :
+		IS_NEUTRAL(ch) ? "mavi-yeþil" : "kýzýl", ch->name);
 	  free_string( obj->short_descr );
-	  obj->short_descr = str_dup( buf );	  
+	  obj->short_descr = str_dup( buf );
 	 }
-    	 act( "$N gives $p to $n.", ch, obj, questman, TO_ROOM );
-    	 act( "$N gives you $p.",   ch, obj, questman, TO_CHAR );
+   act("$N $e $p veriyor.", ch, obj, questman, TO_ROOM );
+   act("$N sana $p veriyor.",   ch, obj, questman, TO_CHAR );
 	 obj_to_char(obj, ch);
 	}
 	return;
     }
-    else if (!strcmp(arg1, "request"))
+    else if (!strcmp(arg1, "iste"))
     {
-        act( "$n asks $N for a quest.", ch, NULL, questman, TO_ROOM); 
-	act ("You ask $N for a quest.",ch, NULL, questman, TO_CHAR);
+      act("$n $Z görev istiyor.", ch, NULL, questman, TO_ROOM);
+act ("$Z görev istiyorsun.",ch, NULL, questman, TO_CHAR);
 	if (IS_SET(ch->act, PLR_QUESTOR))
 	{
-	    sprintf(buf, "But you're already on a quest!");
+    sprintf(buf, "Zaten görevdesin. Ýnanmýyorsan \"görev bilgi\" yaz!");
 	    do_tell_quest(ch,questman,buf);
 	    return;
 	}
 	if (ch->pcdata->nextquest > 0)
 	{
-	    sprintf(buf, "You're very brave, %s, but let someone else have a chance.",ch->name);
-	    do_tell_quest(ch,questman,buf);
-	    sprintf(buf, "Come back later.");
+    sprintf(buf, "Çok cesursun %s, fakat izin ver baþkalarý da nasiplensin.",ch->name);
+    do_tell_quest(ch,questman,buf);
+    sprintf(buf, "Daha sonra tekrar uðra.");
 	    do_tell_quest(ch,questman,buf);
 	    return;
 	}
 
-	sprintf(buf, "Thank you, brave %s!",ch->name);
+  sprintf(buf, "Teþekkür ederim, cesur %s!",ch->name);
 	do_tell_quest(ch,questman,buf);
 
 	generate_quest(ch, questman);
@@ -707,20 +706,20 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	{
             ch->pcdata->countdown = number_range(15,30);
 	    SET_BIT(ch->act, PLR_QUESTOR);
-	    sprintf(buf, "You have %d minutes to complete this quest.",ch->pcdata->countdown);
+      sprintf(buf, "Bu görevi tamamlamak için %d dakikan var.",ch->pcdata->countdown);
 	    do_tell_quest(ch,questman,buf);
-	    sprintf(buf, "May the gods go with you!");
+      sprintf(buf, "Tanrýlar seninle olsun!");
 	    do_tell_quest(ch,questman,buf);
 	}
 	return;
     }
-    else if (!strcmp(arg1, "complete"))
+    else if (!strcmp(arg1, "bitti"))
     {
-        act( "$n informs $N $e has completed $s quest.", ch, NULL, questman, TO_ROOM); 
-	act ("You inform $N you have completed $s quest.",ch, NULL, questman, TO_CHAR);
+      act("$n $E görevi bitirdiðini haber veriyor.", ch, NULL, questman, TO_ROOM);
+act ("$E görevi bitirdiðini haber veriyorsun.",ch, NULL, questman, TO_CHAR);
 	if (ch->pcdata->questgiver != questman->pIndexData->vnum)
 	{
-	    sprintf(buf, "I never sent you on a quest! Perhaps you're thinking of someone else.");
+    sprintf(buf, "Seni bir göreve gönderdiðimi hatýrlamýyorum!");
 	    do_tell_quest(ch,questman,buf);
 	    return;
 	}
@@ -736,14 +735,14 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		reward = UMAX( 180 , reward );
 		pointreward = number_range(20,40);
 
-		sprintf(buf, "Congratulations on completing your quest!");
-		do_tell_quest(ch,questman,buf);
-		sprintf(buf,"As a reward, I am giving you %d quest points, and %d gold.",pointreward,reward);
+    sprintf(buf, "Tebrikler!");
+    do_tell_quest(ch,questman,buf);
+    sprintf(buf,"Karþýlýðýnda sana %d GP ve %d altýn sikke veriyorum.",pointreward,reward);
 		do_tell_quest(ch,questman,buf);
 		if (chance(2))
 		{
 		    pracreward = number_range(1,6);
-		    sprintf(buf, "You gain %d practices!\n\r",pracreward);
+        sprintf(buf, "%d pratik seansý kazandýn!\n\r",pracreward);
 		    send_to_char(buf, ch);
 		    ch->practice += pracreward;
 		}
@@ -766,9 +765,9 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
     		for (obj = ch->carrying; obj != NULL; obj= obj_next)
     		{
         	    obj_next = obj->next_content;
-        
+
 	    if (obj != NULL && obj->pIndexData->vnum == ch->pcdata->questobj
-		&& strstr( obj->extra_descr->description, ch->name ) != NULL )  		
+		&& strstr( obj->extra_descr->description, ch->name ) != NULL )
 		    {
 			obj_found = TRUE;
             	        break;
@@ -781,17 +780,17 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		    reward = 200 + number_range(1, 20 * ch->level);
 		    pointreward = number_range(15,40);
 
-		    act("You hand $p to $N.",ch, obj, questman, TO_CHAR);
-		    act("$n hands $p to $N.",ch, obj, questman, TO_ROOM);
+        act("$p objesini $E veriyorsun.",ch, obj, questman, TO_CHAR);
+				act("$n $p objesini $E veriyor.",ch, obj, questman, TO_ROOM);
 
-	    	    sprintf(buf, "Congratulations on completing your quest!");
-		    do_tell_quest(ch,questman,buf);
-		    sprintf(buf,"As a reward, I am giving you %d quest points, and %d gold.",pointreward,reward);
+        sprintf(buf, "Tebrikler!");
+    do_tell_quest(ch,questman,buf);
+    sprintf(buf,"Karþýlýðýnda sana %d GP ve %d altýn sikke veriyorum.",pointreward,reward);
 		    do_tell_quest(ch,questman,buf);
 		    if (chance(15))
 		    {
 		        pracreward = number_range(1,6);
-		        sprintf(buf, "You gain %d practices!\n\r",pracreward);
+            sprintf(buf, "%d pratik seansý kazandýn!\n\r",pracreward);
 		        send_to_char(buf, ch);
 		        ch->practice += pracreward;
 		    }
@@ -809,7 +808,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 		}
 		else
 		{
-		    sprintf(buf, "You haven't completed the quest yet, but there is still time!");
+      sprintf(buf, "Henüz görevi bitirmedin. Fakat hala zamanýn var!");
 		    do_tell_quest(ch,questman,buf);
 		    return;
 		}
@@ -817,27 +816,27 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	    }
 	    else if ((ch->pcdata->questmob > 0 || ch->pcdata->questobj > 0) && ch->pcdata->countdown > 0)
 	    {
-		sprintf(buf, "You haven't completed the quest yet, but there is still time!");
+        sprintf(buf, "Henüz görevi bitirmedin. Fakat hala zamanýn var!");
 		do_tell_quest(ch,questman,buf);
 		return;
 	    }
 	}
 	if (ch->pcdata->nextquest > 0)
-	    sprintf(buf,"But you didn't complete your quest in time!");
-	else sprintf(buf, "You have to REQUEST a quest first, %s.",ch->name);
+  sprintf(buf,"Maalesef görevi zamanýnda tamamlayamadýn!");
+else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
 	do_tell_quest(ch,questman,buf);
 	return;
     }
-    else if (!strcmp(arg1, "trouble"))
+    else if (!strcmp(arg1, "sigorta"))
     {
 	if (arg2[0] == '\0')
 	{
-	    send_to_char("To correct a quest award's trouble, type: quest trouble <award>'.\n\r",ch);
+    send_to_char("Görev objesinin sigortasýndan faydalanmak için 'görev sigorta <obje>' yazýn.\n\r",ch);
 	    return;
 	}
 
 	trouble_n = 0;
-	if (is_name(arg2, (char*)"girth"))
+	if (is_name(arg2, (char*)"kemer"))
 	{
 	  if (IS_SET(ch->quest,QUEST_GIRTH))
 	    {
@@ -858,7 +857,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	    }
 	 if (trouble_n) trouble_vnum = QUEST_ITEM1;
 	}
-	else if (is_name(arg2, (char*)"backpack"))
+	else if (is_name(arg2, (char*)"çanta"))
 	{
 	  if (IS_SET(ch->quest,QUEST_BACKPACK))
 	    {
@@ -879,7 +878,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	    }
 	 if (trouble_n) trouble_vnum = QUEST_ITEM4;
 	}
-	else if (is_name(arg2, (char*)"decanter"))
+	else if (is_name(arg2, (char*)"testi"))
 	{
 	  if (IS_SET(ch->quest,QUEST_DECANTER))
 	    {
@@ -900,7 +899,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	    }
 	 if (trouble_n) trouble_vnum = QUEST_ITEM5;
 	}
-	else if (is_name(arg2, (char*)"weapon"))
+	else if (is_name(arg2, (char*)"silah"))
 	{
 	  if (IS_SET(ch->quest,QUEST_WEAPON))
 	    {
@@ -921,7 +920,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	    }
 	 if (trouble_n) trouble_vnum = QUEST_ITEM3;
 	}
-	else if (is_name(arg2, (char*)"ring"))
+	else if (is_name(arg2, (char*)"yüzük"))
 	{
 	  if (IS_SET(ch->quest,QUEST_RING))
 	    {
@@ -944,13 +943,13 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	}
 	if (!trouble_n)
 	{
-	    sprintf(buf,"Sorry %s, but you haven't bought that quest award, yet.\n\r",ch->name);
+    sprintf(buf,"Üzgünüm %s, fakat bahsettiðin ödülü henüz almamýþsýn.\n\r",ch->name);
 	    do_tell_quest(ch,questman,buf);
 	    return;
 	}
 
         for(obj = object_list; obj != NULL; obj = obj_next)
-	{ 
+	{
 	 obj_next = obj->next;
 	 if ( obj->pIndexData->vnum == trouble_vnum &&
 		strstr( obj->short_descr, ch->name))
@@ -974,28 +973,27 @@ To buy an item, type 'QUEST BUY <item>'.\n\r",
 	      || obj->pIndexData->vnum == QUEST_ITEM2
 	      || obj->pIndexData->vnum == QUEST_ITEM3)
 	 {
-	  sprintf( buf, obj->short_descr, 
-		IS_GOOD(ch) ? "holy" : 
-		IS_NEUTRAL(ch) ? "blue-green" : "evil", ch->name);
+	  sprintf( buf, obj->short_descr,
+      IS_GOOD(ch) ? "parlak" :
+  		IS_NEUTRAL(ch) ? "mavi-yeþil" : "kýzýl", ch->name);
 	  free_string( obj->short_descr );
-	  obj->short_descr = str_dup( buf );	  
+	  obj->short_descr = str_dup( buf );
 	 }
-    	act( "$N gives $p to $n.", ch, obj, questman, TO_ROOM );
-    	act( "$N gives you $p.",   ch, obj, questman, TO_CHAR );
+   act( "$N $p objesini $e veriyor.", ch, obj, questman, TO_ROOM );
+   act( "$N $p objesini sana veriyor.",   ch, obj, questman, TO_CHAR );
 	obj_to_char(obj, ch);
-	sprintf(buf,"This is the %i%s time that i am giving that award back.",
-	trouble_n,(trouble_n == 1) ? "st" : (trouble_n == 2) ? "nd" : "rd" );
+  sprintf(buf,"Bu ödülü %i. geri veriþim.",trouble_n );
 	do_tell_quest(ch,questman,buf);
 	if (trouble_n == 3)
 	{
-	 sprintf(buf,"And I won't give you that again, with trouble option.\n\r");
+    sprintf(buf,"Bundan sonra bu eþya sigorta dýþýdýr.\n\r");
 	 do_tell_quest(ch,questman,buf);
 	}
      return;
     }
 
-    send_to_char("QUEST COMMANDS: points info time request complete list buy trouble.\n\r",ch);
-    send_to_char("For more information, type: help quests.\n\r",ch);
+    send_to_char("GÖREV KOMUTLARI: puan bilgi zaman iste bitti liste alýþ sigorta.\n\r",ch);
+    send_to_char("Daha fazla bilgi için: yardým görev.\n\r",ch);
     return;
 }
 
@@ -1019,7 +1017,7 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
      level_diff = vsearch->level - ch->level;
      if ( (ch->level < 51 && (level_diff > 4 || level_diff < -1))
 	   || (ch->level > 50 && (level_diff > 6 || level_diff < 0))
-	   || vsearch->pShop != NULL 
+	   || vsearch->pShop != NULL
     	   || IS_SET(vsearch->act,ACT_TRAIN)
     	   || IS_SET(vsearch->act,ACT_PRACTICE)
     	   || IS_SET(vsearch->act,ACT_IS_HEALER)
@@ -1041,7 +1039,7 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
 	 found = number_range(0,mob_count-1);
 	 for( i=0; i< mob_count; i++)
 	 {
-	    if ((vsearch = get_mob_index( mob_buf[found] )) == NULL ) 
+	    if ((vsearch = get_mob_index( mob_buf[found] )) == NULL )
 	    {
 		bug("Unknown mob in generate_obj_quest: %d",mob_buf[found]);
 		found++;
@@ -1055,9 +1053,9 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
 
        if ( vsearch == NULL || ( victim = get_quest_world( ch, vsearch ) ) == NULL )
        {
-	sprintf(buf, "I'm sorry, but I don't have any quests for you at this time.");
+	sprintf(buf, "Üzgünüm ama þu an sana verebileceðim bir görev yok.");
 	do_tell_quest(ch,questman,buf);
-	sprintf(buf, "Try again later.");
+	sprintf(buf, "Daha sonra tekrar dene.");
 	do_tell_quest(ch,questman,buf);
 	ch->pcdata->nextquest = 5;
         return;
@@ -1065,9 +1063,9 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
 
        if ( (room = victim->in_room) == NULL )
        {
-	sprintf(buf, "I'm sorry, but I don't have any quests for you at this time.");
-	do_tell_quest(ch,questman,buf);
-	sprintf(buf, "Try again later.");
+         sprintf(buf, "Üzgünüm ama þu an sana verebileceðim bir görev yok.");
+       	do_tell_quest(ch,questman,buf);
+       	sprintf(buf, "Daha sonra tekrar dene.");
 	do_tell_quest(ch,questman,buf);
 	ch->pcdata->nextquest = 5;
         return;
@@ -1099,7 +1097,7 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
 	else if (IS_EVIL(ch))
 		i=2;
 	else i = 1;
-	
+
         eyed = create_object( get_obj_index(objvnum), ch->level );
 	eyed->owner = str_dup(ch->name);
 	eyed->from = str_dup(ch->name);
@@ -1124,29 +1122,29 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
 	obj_to_room(eyed, room);
 	ch->pcdata->questobj = eyed->pIndexData->vnum;
 
-	sprintf(buf, "Vile pilferers have stolen %s from the royal treasury!",eyed->short_descr);
+  sprintf(buf, "%s hazine dairesinden çalýndý!",eyed->short_descr);
 	do_tell_quest(ch,questman,buf);
-	do_tell_quest(ch,questman, (char*)"My court wizardess, with her magic mirror, has pinpointed its location.");
+	do_tell_quest(ch,questman, (char*)"Saray büyücüsü sihirli aynasýyla yerini belirledi.");
 
 	/* I changed my area names so that they have just the name of the area
 	   and none of the level stuff. You may want to comment these next two
 	   lines. - Vassago */
 
-	sprintf(buf, "Look in the general area of %s for %s!",room->area->name, room->name);
+     sprintf(buf, "%s bölgesindeki %s isimli yere gitmelisin!",room->area->name, room->name);
 	do_tell_quest(ch,questman,buf);
 	return;
     }
 
     /* Quest to kill a mob */
 
-    else 
+    else
     {
      if (mob_count > 0)
      {
 	found = number_range(0,mob_count-1);
 	for( i=0; i< mob_count; i++)
 	{
-	   if ((vsearch = get_mob_index( mob_buf[found] )) == NULL 
+	   if ((vsearch = get_mob_index( mob_buf[found] )) == NULL
 	      || (IS_EVIL(vsearch) && IS_EVIL(ch))
 	      || (IS_GOOD(vsearch) && IS_GOOD(ch))
 	      || (IS_NEUTRAL(vsearch) && IS_NEUTRAL(ch)) )
@@ -1154,7 +1152,7 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
 		 if (vsearch == NULL)
 			bug("Unknown mob in mob_quest: %d",mob_buf[found]);
 		 found++;
-		 if ( found > (mob_count-1) ) 
+		 if ( found > (mob_count-1) )
 		 {
 		   vsearch = NULL;
 		   break;
@@ -1166,45 +1164,45 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
      }
      else vsearch = NULL;
 
-     if ( vsearch == NULL 
-	 || (victim = get_quest_world(ch, vsearch)) == NULL 
+     if ( vsearch == NULL
+	 || (victim = get_quest_world(ch, vsearch)) == NULL
 	 || (room = victim->in_room ) == NULL
 	 || IS_SET(room->area->area_flag,AREA_HOMETOWN))
      {
-	sprintf(buf, "I'm sorry, but I don't have any quests for you at this time.");
-	do_tell_quest(ch,questman,buf);
-	sprintf(buf, "Try again later.");
+       sprintf(buf, "Üzgünüm ama þu an sana verebileceðim bir görev yok.");
+      do_tell_quest(ch,questman,buf);
+      sprintf(buf, "Daha sonra tekrar dene.");
 	do_tell_quest(ch,questman,buf);
 	ch->pcdata->nextquest = 5;
         return;
      }
 
     if (IS_GOOD(ch))
-       {	
-	sprintf(buf, "Rune's most heinous criminal, %s,	has escaped from the dungeon!",victim->short_descr);
+       {
+         sprintf(buf, "Diyarýn azýlý asilerinden %s,	zindandan kaçtý!",victim->short_descr);
 	do_tell_quest(ch,questman,buf);
-	sprintf(buf, "Since the escape, %s has murdered %d civillians!",victim->short_descr, number_range(2,20));
+  sprintf(buf, "Kaçýþýndan bu yana tahminimizce %d sivili katletti!", number_range(2,20));
 	do_tell_quest(ch,questman,buf);
 	do_tell_quest(ch,questman,(char*)"The penalty for this crime is death, and you are to deliver the sentence!");
         }
     else
        {
-        sprintf(buf, "An enemy of mine, %s, is making vile threats against the crown.",victim->short_descr);
-        do_tell_quest(ch,questman,buf);
-        sprintf(buf, "This threat must be eliminated!");
+         sprintf(buf, "Þahsi düþmaným %s, kraliyet tacýna karþý tehdit oluþturuyor.",victim->short_descr);
+   			do_tell_quest(ch,questman,buf);
+   			sprintf(buf, "Bu tehdit yokedilmeli!");
         do_tell_quest(ch,questman,buf);
        }
 
      if (room->name != NULL)
      {
-        sprintf(buf, "Seek %s out in vicinity of %s!",victim->short_descr,room->name);
+       sprintf(buf, "%s þu sýralar %s bölgesindedir!",victim->short_descr,room->area->name);
         do_tell_quest(ch,questman,buf);
 
 	/* I changed my area names so that they have just the name of the area
 	   and none of the level stuff. You may want to comment these next two
 	   lines. - Vassago */
 
-	sprintf(buf, "That location is in the general area of %s.",room->area->name);
+	sprintf(buf, "Yeri %s civarýnda.",room->area->name);
 	do_tell_quest(ch,questman,buf);
      }
      ch->pcdata->questmob = victim->pIndexData->vnum;
@@ -1224,13 +1222,13 @@ void quest_update(void)
 
 	if (IS_NPC(ch)) continue;
 
-	if (ch->pcdata->nextquest > 0) 
+	if (ch->pcdata->nextquest > 0)
 	{
 	    ch->pcdata->nextquest--;
 
 	    if (ch->pcdata->nextquest == 0)
 	    {
-	        send_to_char("You may now quest again.\n\r",ch);
+        send_to_char("Yeniden görev isteyebilirsin.\n\r",ch);
 	        continue;
 	    }
 	}
@@ -1238,11 +1236,9 @@ void quest_update(void)
         {
 	    if (--ch->pcdata->countdown <= 0)
 	    {
-    	        char buf [MAX_STRING_LENGTH];
 
 	        ch->pcdata->nextquest = 0;
-	        sprintf(buf, "You have run out of time for your quest!\n\rYou may now quest again.\n\r");
-	        send_to_char(buf, ch);
+          send_to_char("Görev süren doldu!\n\rYeni bir görev isteyebilirsin.\n\r", ch);
 	        REMOVE_BIT(ch->act, PLR_QUESTOR);
                 ch->pcdata->questgiver = 0;
                 ch->pcdata->countdown = 0;
@@ -1251,7 +1247,7 @@ void quest_update(void)
 	    }
 	    if (ch->pcdata->countdown > 0 && ch->pcdata->countdown < 6)
 	    {
-	        send_to_char("Better hurry, you're almost out of time for your quest!\n\r",ch);
+        send_to_char("Acele et, görev süren dolmak üzere!\n\r",ch);
 	        continue;
 	    }
         }
@@ -1263,7 +1259,7 @@ void do_tell_quest( CHAR_DATA *ch, CHAR_DATA *victim, char *argument )
 {
 char buf[MAX_STRING_LENGTH];
 
-	sprintf(buf,"%s tells you %s\n\r",victim->name,argument);
+sprintf(buf,"%s anlatýyor '%s'\n\r",victim->name,argument);
         send_to_char( buf, ch );
         return;
 }
@@ -1274,7 +1270,7 @@ CHAR_DATA *get_quest_world( CHAR_DATA *ch, MOB_INDEX_DATA *victim)
 
     for ( wch = char_list; wch != NULL ; wch = wch->next )
     {
-        if ( wch->in_room == NULL 
+        if ( wch->in_room == NULL
 		|| wch->pIndexData != victim)
             continue;
 

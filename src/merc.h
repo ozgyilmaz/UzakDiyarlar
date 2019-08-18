@@ -611,8 +611,7 @@ struct	shop_data
 
 struct	class_type
 {
-    const char *	name;			/* the full name of the class */
-		const char *  name_tr;
+    const char *	name[2];			/* the full name of the class */
     const char 	who_name	[4];	/* Three-letter name for 'who'	*/
     sh_int	attr_prime;		/* Prime attribute		*/
     sh_int	weapon;			/* First weapon			*/
@@ -2905,8 +2904,7 @@ extern  const   struct  hometown_type   hometown_table  [];
 extern  const   struct  ethos_type      ethos_table     [];
 extern          struct social_type      social_table	[MAX_SOCIALS];
 extern	const char *			title_table	[MAX_CLASS]
-							[MAX_LEVEL+1]
-							[2];
+							[MAX_LEVEL+1];
 extern   const char *   dir_name        [];
 extern   const char *   distance        [];
 extern   const sh_int  rev_dir        [];

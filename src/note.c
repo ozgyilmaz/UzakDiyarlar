@@ -2,11 +2,11 @@
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
- *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *	
- *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *	
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *
+ *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
 /***************************************************************************
@@ -25,7 +25,7 @@
  *  benefitting.  We hope that you share your changes too.  What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
- 
+
 /***************************************************************************
 *	ROM 2.4 is copyright 1993-1995 Russ Taylor			   *
 *	ROM has been brought to you by the ROM consortium		   *
@@ -88,46 +88,49 @@ void do_unread(CHAR_DATA *ch, char *argument)
     bool found = FALSE;
 
     if (IS_NPC(ch))
-	return; 
+	return;
 
     if ((count = count_spool(ch,news_list)) > 0)
     {
 	found = TRUE;
-	sprintf(buf,"There %s %d new news article%s waiting.\n\r",
-	    count > 1 ? "are" : "is",count, count > 1 ? "s" : "");
+  sprintf(buf,"Okunmayý bekleyen %d HABER var.\n\r",count);
 	send_to_char(buf,ch);
     }
+    else send_to_char("Okunmayý bekleyen yeni HABER yok.\n\r",ch);
+
     if ((count = count_spool(ch,changes_list)) > 0)
     {
 	found = TRUE;
-	sprintf(buf,"There %s %d change%s waiting to be read.\n\r",
-	    count > 1 ? "are" : "is", count, count > 1 ? "s" : "");
+  sprintf(buf,"Okunmayý bekleyen %d DEÐÝÞÝKLÝK var.\n\r",count);
         send_to_char(buf,ch);
     }
+    else send_to_char("Okunmayý bekleyen yeni DEÐÝÞÝKLÝK yok.\n\r",ch);
+
     if ((count = count_spool(ch,note_list)) > 0)
     {
 	found = TRUE;
-	sprintf(buf,"You have %d new note%s waiting.\n\r",
-	    count, count > 1 ? "s" : "");
+  sprintf(buf,"Okunmayý bekleyen %d NOT var.\n\r",count);
 	send_to_char(buf,ch);
     }
+    else send_to_char("Okunmayý bekleyen yeni NOT yok.\n\r",ch);
+
     if ((count = count_spool(ch,idea_list)) > 0)
     {
 	found = TRUE;
-	sprintf(buf,"You have %d unread idea%s to peruse.\n\r",
-	    count, count > 1 ? "s" : "");
+  sprintf(buf,"Okunmayý bekleyen %d FÝKÝR var.\n\r",count);
 	send_to_char(buf,ch);
     }
+    else send_to_char("Okunmayý bekleyen yeni FÝKÝR yok.\n\r",ch);
+
     if (IS_TRUSTED(ch,ANGEL) && (count = count_spool(ch,penalty_list)) > 0)
     {
 	found = TRUE;
-	sprintf(buf,"%d %s been added.\n\r",
-	    count, count > 1 ? "penalties have" : "penalty has");
+  sprintf(buf,"Okunmayý bekleyen %d CEZA bildirimi var",count);
 	send_to_char(buf,ch);
     }
 
     if (!found && str_cmp( argument, "login" ) )
-	send_to_char("You have no unread notes.\n\r",ch);
+    send_to_char("Hiç notun yok.\n\r",ch);
 }
 
 void do_note(CHAR_DATA *ch,char *argument)
@@ -196,12 +199,12 @@ void save_notes(int type)
     {
 	for ( ; pnote != NULL; pnote = pnote->next )
 	{
-	    fprintf( fp, "Sender  %s~\n", pnote->sender);
-	    fprintf( fp, "Date    %s~\n", pnote->date);
-	    fprintf( fp, "Stamp   %ld\n", pnote->date_stamp);
-	    fprintf( fp, "To      %s~\n", pnote->to_list);
-	    fprintf( fp, "Subject %s~\n", pnote->subject);
-	    fprintf( fp, "Text\n%s~\n",   pnote->text);
+    fprintf( fp, "Gönd     %s~\n", pnote->sender);
+    fprintf( fp, "Tarih    %s~\n", pnote->date);
+    fprintf( fp, "Pul      %ld\n", pnote->date_stamp);
+    fprintf( fp, "Kime     %s~\n", pnote->to_list);
+    fprintf( fp, "Konu     %s~\n", pnote->subject);
+    fprintf( fp, "Not\n%s~\n",   pnote->text);
 	}
 	fclose( fp );
 	fpReserve = fopen( NULL_FILE, "r" );
@@ -221,16 +224,16 @@ void load_thread(char *name, NOTE_DATA **list, int type, time_t free_time)
 {
     FILE *fp;
     NOTE_DATA *pnotelast;
- 
+
     if ( ( fp = fopen( name, "r" ) ) == NULL )
 	return;
-	 
+
     pnotelast = NULL;
     for ( ; ; )
     {
 	NOTE_DATA *pnote;
 	char letter;
-	 
+
 	do
 	{
 	    letter = getc( fp );
@@ -242,33 +245,33 @@ void load_thread(char *name, NOTE_DATA **list, int type, time_t free_time)
         }
         while ( isspace(letter) );
         ungetc( letter, fp );
- 
+
         pnote           = (NOTE_DATA *)alloc_perm( sizeof(*pnote) );
- 
-        if ( str_cmp( fread_word( fp ), "sender" ) )
+
+        if ( str_cmp( fread_word( fp ), "gönd" ) )
             break;
         pnote->sender   = fread_string( fp );
- 
-        if ( str_cmp( fread_word( fp ), "date" ) )
+
+        if ( str_cmp( fread_word( fp ), "tarih" ) )
             break;
         pnote->date     = fread_string( fp );
- 
-        if ( str_cmp( fread_word( fp ), "stamp" ) )
+
+        if ( str_cmp( fread_word( fp ), "pul" ) )
             break;
         pnote->date_stamp = fread_number(fp);
- 
-        if ( str_cmp( fread_word( fp ), "to" ) )
+
+        if ( str_cmp( fread_word( fp ), "kime" ) )
             break;
         pnote->to_list  = fread_string( fp );
- 
-        if ( str_cmp( fread_word( fp ), "subject" ) )
+
+        if ( str_cmp( fread_word( fp ), "konu" ) )
             break;
         pnote->subject  = fread_string( fp );
- 
-        if ( str_cmp( fread_word( fp ), "text" ) )
+
+        if ( str_cmp( fread_word( fp ), "not" ) )
             break;
         pnote->text     = fread_string( fp );
- 
+
         if (free_time && pnote->date_stamp < current_time - free_time)
         {
 	    free_note(pnote);
@@ -276,15 +279,15 @@ void load_thread(char *name, NOTE_DATA **list, int type, time_t free_time)
         }
 
 	pnote->type = type;
- 
+
         if (*list == NULL)
             *list           = pnote;
         else
             pnotelast->next     = pnote;
- 
+
         pnotelast       = pnote;
     }
- 
+
     strcpy( strArea, NOTE_FILE );
     fpArea = fp;
     bug( "Load_notes: bad key word.", 0 );
@@ -340,12 +343,12 @@ void append_note(NOTE_DATA *pnote)
     }
     else
     {
-        fprintf( fp, "Sender  %s~\n", pnote->sender);
-        fprintf( fp, "Date    %s~\n", pnote->date);
-        fprintf( fp, "Stamp   %ld\n", pnote->date_stamp);
-        fprintf( fp, "To      %s~\n", pnote->to_list);
-        fprintf( fp, "Subject %s~\n", pnote->subject);
-        fprintf( fp, "Text\n%s~\n", pnote->text);
+      fprintf( fp, "Gönd    %s~\n", pnote->sender);
+      fprintf( fp, "Tarih   %s~\n", pnote->date);
+      fprintf( fp, "Pul     %ld\n", pnote->date_stamp);
+      fprintf( fp, "Kime    %s~\n", pnote->to_list);
+      fprintf( fp, "Konu    %s~\n", pnote->subject);
+      fprintf( fp, "Not\n%s~\n", pnote->text);
         fclose( fp );
     }
     fpReserve = fopen( NULL_FILE, "r" );
@@ -356,10 +359,10 @@ bool is_note_to( CHAR_DATA *ch, NOTE_DATA *pnote )
     if ( !str_cmp( ch->name, pnote->sender ) )
 	return TRUE;
 
-    if ( !str_cmp( "all", pnote->to_list ) )
+    if ( !str_cmp( "tümü", pnote->to_list ) )
 	return TRUE;
 
-    if ( IS_IMMORTAL(ch) && is_name( (char*)"immortal", pnote->to_list ) )
+    if ( IS_IMMORTAL(ch) && is_name( (char*)"ölümsüz", pnote->to_list ) )
 	return TRUE;
 
     if ( is_name( ch->name, pnote->to_list ) )
@@ -504,7 +507,7 @@ bool hide_note (CHAR_DATA *ch, NOTE_DATA *pnote)
 	    last_read = ch->pcdata->last_changes;
 	    break;
     }
-    
+
     if (pnote->date_stamp <= last_read)
 	return TRUE;
 
@@ -568,40 +571,40 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
 	    return;
         case NOTE_NOTE:
             list = &note_list;
-	    list_name = "notes";
+	    list_name = "notlar";
             break;
         case NOTE_IDEA:
             list = &idea_list;
-	    list_name = "ideas";
+	    list_name = "fikir";
             break;
         case NOTE_PENALTY:
             list = &penalty_list;
-	    list_name = "penalties";
+	    list_name = "ceza";
             break;
         case NOTE_NEWS:
             list = &news_list;
-	    list_name = "news";
+	    list_name = "haber";
             break;
         case NOTE_CHANGES:
             list = &changes_list;
-	    list_name = "changes";
+	    list_name = "deðiþiklik";
             break;
     }
 
     argument = one_argument( argument, arg );
     smash_tilde( argument );
 
-    if ( arg[0] == '\0' || !str_prefix( arg, "read" ) )
+    if ( arg[0] == '\0' || !str_prefix( arg, "oku" ) )
     {
         bool fAll;
- 
-        if ( !str_cmp( argument, "all" ) )
+
+        if ( !str_cmp( argument, "tümü" ) )
         {
             fAll = TRUE;
             anum = 0;
         }
- 
-        else if ( argument[0] == '\0' || !str_prefix(argument, "next"))
+
+        else if ( argument[0] == '\0' || !str_prefix(argument, "sonraki"))
         /* read next unread note */
         {
             vnum = 0;
@@ -623,11 +626,11 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
                 else if (is_note_to(ch,pnote))
                     vnum++;
             }
-	    sprintf(buf,"You have no unread %s.\n\r",list_name);
+            sprintf(buf,"Senin %s bölümünde okunmamýþ notun yok.\n\r",list_name);
 	    send_to_char(buf,ch);
             return;
         }
- 
+
         else if ( is_number( argument ) )
         {
             fAll = FALSE;
@@ -635,10 +638,10 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
         }
         else
         {
-            send_to_char( "Read which number?\n\r", ch );
+          send_to_char( "Kaç numaralý notu okuyacaksýn?\n\r", ch );
             return;
         }
- 
+
         vnum = 0;
         for ( pnote = *list; pnote != NULL; pnote = pnote->next )
         {
@@ -657,13 +660,13 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
                 return;
             }
         }
- 
-	sprintf(buf,"There aren't that many %s.\n\r",list_name);
+
+        sprintf(buf,"Bu kadar %s yok.\n\r",list_name);
 	send_to_char(buf,ch);
         return;
     }
 
-    if ( !str_prefix( arg, "list" ) )
+    if ( !str_prefix( arg, "liste" ) )
     {
 	vnum = 0;
 	for ( pnote = *list; pnote != NULL; pnote = pnote->next )
@@ -671,7 +674,7 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
 	    if ( is_note_to( ch, pnote ) )
 	    {
 		sprintf( buf, "[%3d%s] %s: %s\n\r",
-		    vnum, hide_note(ch,pnote) ? " " : "N", 
+		    vnum, hide_note(ch,pnote) ? " " : "N",
 		    pnote->sender, pnote->subject );
 		send_to_char( buf, ch );
 		vnum++;
@@ -680,14 +683,14 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
 	return;
     }
 
-    if ( !str_prefix( arg, "remove" ) )
+    if ( !str_prefix( arg, "kaldýr" ) )
     {
         if ( !is_number( argument ) )
         {
-            send_to_char( "Note remove which number?\n\r", ch );
+          send_to_char( "Kaç numaralý notu kaldýracaksýn?\n\r", ch );
             return;
         }
- 
+
         anum = atoi( argument );
         vnum = 0;
         for ( pnote = *list; pnote != NULL; pnote = pnote->next )
@@ -695,24 +698,24 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
             if ( is_note_to( ch, pnote ) && vnum++ == anum )
             {
                 note_remove( ch, pnote, FALSE );
-                send_to_char( "Ok.\n\r", ch );
+                send_to_char( "Tamam.\n\r", ch );
                 return;
             }
         }
- 
-	sprintf(buf,"There aren't that many %s.",list_name);
+
+        sprintf(buf,"Bu kadar %s yok.",list_name);
 	send_to_char(buf,ch);
         return;
     }
- 
-    if ( !str_prefix( arg, "delete" ) && get_trust(ch) >= MAX_LEVEL - 1)
+
+    if ( !str_prefix( arg, "sil" ) && get_trust(ch) >= MAX_LEVEL - 1)
     {
         if ( !is_number( argument ) )
         {
-            send_to_char( "Note delete which number?\n\r", ch );
+          send_to_char( "Hangi numaradakini sileyim?\n\r", ch );
             return;
         }
- 
+
         anum = atoi( argument );
         vnum = 0;
         for ( pnote = *list; pnote != NULL; pnote = pnote->next )
@@ -720,12 +723,12 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
             if ( is_note_to( ch, pnote ) && vnum++ == anum )
             {
                 note_remove( ch, pnote,TRUE );
-                send_to_char( "Ok.\n\r", ch );
+                send_to_char( "Tamam.\n\r", ch );
                 return;
             }
         }
 
- 	sprintf(buf,"There aren't that many %s.",list_name);
+        sprintf(buf,"Bu kadar %s yok.",list_name);
 	send_to_char(buf,ch);
         return;
     }
@@ -734,7 +737,7 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
     {
 	switch(type)
 	{
-	    case NOTE_NOTE:	
+	    case NOTE_NOTE:
 		ch->pcdata->last_note = current_time;
 		break;
 	    case NOTE_IDEA:
@@ -757,7 +760,7 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
     if ((type == NOTE_NEWS && !IS_TRUSTED(ch,ANGEL))
     ||  (type == NOTE_CHANGES && !IS_TRUSTED(ch,CREATOR)))
     {
-	sprintf(buf,"You aren't high enough level to write %s.",list_name);
+      sprintf(buf,"Senin %s yazmak için yeterli seviyen yok.",list_name);
 	return;
     }
 
@@ -766,15 +769,14 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
 	note_attach( ch,type );
 	if (ch->pnote->type != type)
 	{
-	    send_to_char(
-		"You already have a different note in progress.\n\r",ch);
+    send_to_char("Sen baþka bir not yazmaya baþlamýþsýn.\n\r",ch);
 	    return;
 	}
  	buffer = new_buf();
 
 	if (strlen(ch->pnote->text)+strlen(argument) >= 4096)
 	{
-	    send_to_char( "Note too long.\n\r", ch );
+    send_to_char( "Not çok uzun.\n\r", ch );
 	    return;
 	}
 
@@ -784,7 +786,7 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
 	free_string( ch->pnote->text );
 	ch->pnote->text = str_dup( buf_string(buffer) );
 	free_buf(buffer);
-	send_to_char( "Ok.\n\r", ch );
+	send_to_char( "Tamam.\n\r", ch );
 	return;
     }
 
@@ -796,14 +798,13 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
 	note_attach(ch,type);
         if (ch->pnote->type != type)
         {
-            send_to_char(
-                "You already have a different note in progress.\n\r",ch);
+          send_to_char("Zaten baþka bir nota baþlamýþsýn.\n\r",ch);
             return;
         }
 
 	if (ch->pnote->text == NULL || ch->pnote->text[0] == '\0')
 	{
-	    send_to_char("No lines left to remove.\n\r",ch);
+    send_to_char("Silmek için satýr kalmadý.\n\r",ch);
 	    return;
 	}
 
@@ -834,45 +835,42 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
 	return;
     }
 
-    if ( !str_prefix( arg, "subject" ) )
+    if ( !str_prefix( arg, "konu" ) )
     {
 	note_attach( ch,type );
         if (ch->pnote->type != type)
         {
-            send_to_char(
-                "You already have a different note in progress.\n\r",ch);
+          send_to_char("Zaten baþka bir notla meþgülsün.\n\r",ch);
             return;
         }
 
 	free_string( ch->pnote->subject );
 	ch->pnote->subject = str_dup( argument );
-	send_to_char( "Ok.\n\r", ch );
+  send_to_char( "Tamam.\n\r", ch );
 	return;
     }
 
-    if ( !str_prefix( arg, "to" ) )
+    if ( !str_prefix( arg, "kime" ) )
     {
-	if (is_name(argument,(char*)"all") && 
+	if (is_name(argument,(char*)"tümü") &&
 		!(IS_IMMORTAL(ch) || IS_SET(ch->act,PLR_CANINDUCT)) )
 	{
-            send_to_char(
-	"Only immortals and cabal leaders can send notes to all.\n\r",ch);
+    send_to_char("Sadece ölümsüzler ve klan liderleri herkese not atabilir.\n\r",ch);
             return;
 	}
 	note_attach( ch,type );
         if (ch->pnote->type != type)
         {
-            send_to_char(
-                "You already have a different note in progress.\n\r",ch);
+          send_to_char("Zaten baþka bir nota baþlamýþsýn.\n\r",ch);
             return;
         }
 	free_string( ch->pnote->to_list );
 	ch->pnote->to_list = str_dup( argument );
-	send_to_char( "Ok.\n\r", ch );
+  send_to_char( "Tamam.\n\r", ch );
 	return;
     }
 
-    if ( !str_prefix( arg, "clear" ) )
+    if ( !str_prefix( arg, "temizle" ) )
     {
 	if ( ch->pnote != NULL )
 	{
@@ -880,25 +878,25 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
 	    ch->pnote = NULL;
 	}
 
-	send_to_char( "Ok.\n\r", ch );
+  send_to_char( "Tamam.\n\r", ch );
 	return;
     }
 
-    if ( !str_prefix( arg, "show" ) )
+    if ( !str_prefix( arg, "göster" ) )
     {
 	if ( ch->pnote == NULL )
 	{
-	    send_to_char( "You have no note in progress.\n\r", ch );
+    send_to_char( "Gösterilecek notun yok.\n\r", ch );
 	    return;
 	}
 
 	if (ch->pnote->type != type)
 	{
-	    send_to_char("You aren't working on that kind of note.\n\r",ch);
+    send_to_char("Sen bu türden bir notla uðraþmýyorsun.\n\r",ch);
 	    return;
 	}
 
-	sprintf( buf, "%s: %s\n\rTo: %s\n\r",
+	sprintf( buf, "%s: %s\n\rKime: %s\n\r",
 	    ch->pnote->sender,
 	    ch->pnote->subject,
 	    ch->pnote->to_list
@@ -908,33 +906,32 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
 	return;
     }
 
-    if ( !str_prefix( arg, "post" ) || !str_prefix(arg, "send"))
+    if ( !str_prefix( arg, "gönder" ) || !str_prefix(arg, "yolla"))
     {
 	char *strtime;
 
 	if ( ch->pnote == NULL )
 	{
-	    send_to_char( "You have no note in progress.\n\r", ch );
+    send_to_char( "Uðraþtýðýn bir notun yok.\n\r", ch );
 	    return;
 	}
 
         if (ch->pnote->type != type)
         {
-            send_to_char("You aren't working on that kind of note.\n\r",ch);
+          send_to_char("Bu türden bir notla çalýþmýyorsun.\n\r",ch);
             return;
         }
 
 	if (!str_cmp(ch->pnote->to_list,""))
 	{
-	    send_to_char(
-		"You need to provide a recipient (name, all, or immortal).\n\r",
+    send_to_char("Kime göndereceðini belirtmelisin (isim, herkes, veya ölümsüz).\n\r",
 		ch);
 	    return;
 	}
 
 	if (!str_cmp(ch->pnote->subject,""))
 	{
-	    send_to_char("You need to provide a subject.\n\r",ch);
+    send_to_char("Bir konu belirtmen gerek.\n\r",ch);
 	    return;
 	}
 
@@ -949,7 +946,6 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
 	return;
     }
 
-    send_to_char( "You can't do that.\n\r", ch );
+    send_to_char( "Bunu yapamazsýn.\n\r", ch );
     return;
 }
-

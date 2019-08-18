@@ -1900,7 +1900,7 @@ void do_mstat( CHAR_DATA *ch, char *argument )
 	"Vnum: %d  Format: %s  Race: %s(%s)  Group: %d  Sex: %s  Room: %d\n\r",
 	IS_NPC(victim) ? victim->pIndexData->vnum : 0,
 	IS_NPC(victim) ? victim->pIndexData->new_format ? "new" : "old" : "pc",
-	race_table[RACE(victim)].name,race_table[ORG_RACE(victim)].name,
+	race_table[RACE(victim)].name[1],race_table[ORG_RACE(victim)].name[1],
 	IS_NPC(victim) ? victim->group : 0, sex_table[victim->sex].name,
 	victim->in_room == NULL    ?        0 : victim->in_room->vnum
 	);
@@ -1956,7 +1956,7 @@ void do_mstat( CHAR_DATA *ch, char *argument )
     sprintf( buf,
 	"Lv: %d  Class: %s  Align: %s  Gold: %ld  Silver: %ld  Exp: %d\n\r",
 	victim->level,
-	IS_NPC(victim) ? "mobile" : class_table[victim->iclass].name,
+	IS_NPC(victim) ? "mobile" : class_table[victim->iclass].name[1],
 	buf2,
 	victim->gold, victim->silver, victim->exp );
     send_to_char( buf, ch );
@@ -4674,7 +4674,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
         	{
             	    if ( iclass > 0 )
                     	strcat( buf, " " );
-            	    strcat( buf, class_table[iclass].name );
+            	    strcat( buf, class_table[iclass].name[1] );
         	}
             strcat( buf, ".\n\r" );
 

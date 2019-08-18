@@ -1080,79 +1080,79 @@ const	struct	pc_race_type	pc_race_table	[MAX_PC_RACE]	=
 const	struct	class_type	class_table	[MAX_CLASS]	=
 {
     {
-        "invoker","gan", "Gan",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
+        {"invoker","gan"}, "Gan",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
         { 3018, 0, 0, 0, 0, 0 },  75,  18, 6,  60,  100, TRUE,
         0,{0,3,0,0,0,5},CR_ALL
     },
 
     {
-	"cleric","ermiþ", "Erm",  STAT_WIS,  OBJ_VNUM_SCHOOL_MACE,
+	{"cleric","ermiþ"}, "Erm",  STAT_WIS,  OBJ_VNUM_SCHOOL_MACE,
 	{ 3003, 9619, 9619, 9619, 9619, 9619},  75,  18, 2,  70, 80, TRUE,
 	0,{0,0,3,0,0,5},CR_ALL
     },
 
     {
-	"thief","hýrsýz", "Hýr",  STAT_DEX,  OBJ_VNUM_SCHOOL_DAGGER,
+	{"thief","hýrsýz"}, "Hýr",  STAT_DEX,  OBJ_VNUM_SCHOOL_DAGGER,
 	{ 3028, 9639, 9639, 9639, 9639, 9639 },  75,  18,  -4, 100, 50, FALSE,
         0,{0,0,0,3,0,5},CR_ALL
     },
 
     {
-	"warrior","savaþçý", "Sav",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
+	{"warrior","savaþçý"}, "Sav",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
 	{ 3022, 9633, 9633, 9633, 9633, 9633 },  75,  18,  -10, 100,50,FALSE,
 	0,{3,0,0,0,1,5},CR_ALL
     },
 
     {
-	"paladin","paladin", "Pal",   STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
+	{"paladin","paladin"}, "Pal",   STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
 	{ 3063, 0, 0, 0, 0, 0 },  75,  18,  -6,  80, 70, TRUE,
 	400,{2,0,1,0,2,5},CR_GOOD
     },
 
     {
-	"anti-paladin","anti-paladin", "A-P",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
+	{"anti-paladin","anti-paladin"}, "A-P",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
 	{ 3061, 0, 0, 0, 0, 0 },  75,  18,  -6,  80, 70, TRUE,
 	300,{2,1,0,1,1,5},CR_EVIL
     },
 
     {
-	"ninja","ninja", "Nin",  STAT_DEX,  OBJ_VNUM_SCHOOL_DAGGER,
+	{"ninja","ninja"}, "Nin",  STAT_DEX,  OBJ_VNUM_SCHOOL_DAGGER,
 	{ 3062, 0, 0, 0, 0, 0 },  75,  18,  -10,  90, 60, FALSE,
 	300,{1,0,0,2,0,5},CR_ALL
     },
 
     {
-	"ranger","korucu", "Krc",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
+	{"ranger","korucu"}, "Krc",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
 	{ 6156, 0, 0, 0, 0, 0 },  75,  18,  -8,  90, 60, FALSE,
 	200,{1,0,0,1,1,5},CR_ALL
     },
 
     {
-        "transmuter","biçimci", "Biç",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
+        {"transmuter","biçimci"}, "Biç",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
         { 3073, 0, 0, 0, 0, 0 },  75,  18, 2,  60,  100, TRUE,
         0,{0,3,0,0,0,5},CR_ALL
     },
 
     {
-        "samurai","samuray", "Sam",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
+        {"samurai","samuray"}, "Sam",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
         { 3075, 9633, 0, 0, 0, 0 },  75,  18,  -10,  100,60,FALSE,
         500,{2,1,1,1,1,5},CR_ALL
     },
 
    {
-        "vampire","vampir", "Vam", STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
+      {  "vampire","vampir"}, "Vam", STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
         { 5395, 5396, 0, 0, 0, 0 },  75,  18, -6,  80,  70, TRUE,
         300,{1,2,0,0,0,5},CR_EVIL
         },
 
    {
-        "necromancer","karakam", "Kam",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
+        {"necromancer","karakam"}, "Kam",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
         { 5393, 5394, 0, 0, 0, 0 },  75,  18, 6,  60,  100, TRUE,
         200,{0,2,1,0,0,5},CR_EVIL
    },
 
    {
-        "elementalist","ögeci", "Öge",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
+        {"elementalist","ögeci"}, "Öge",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
         { 9618, 0, 0, 0, 0, 0 },  75,  18, 6,  60,  100, TRUE,
         0,{0,3,0,0,0,5},CR_ALL
    }
@@ -3262,7 +3262,8 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
 	RACE_NONE, ALIGN_NONE, GROUP_WEATHER
     },
 
-    {   {"calm","yatýþtýrma"},	{ 93, 26, 93, 93, 63, 93, 93, 93 ,93,60,93,93,93},
+    {
+    {"calm","yatýþtýrma"},	{ 93, 26, 93, 93, 63, 93, 93, 93 ,93,60,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_calm,		TAR_IGNORE,		POS_FIGHTING,
 	NULL,			SLOT(509),	30,	12,
@@ -4262,7 +4263,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
     },
 
     {
-	"light arrow",	{  93, 93, 93, 93,64,93,93,93 ,93,93,93,93,93},
+	{"light arrow", "ýþýk oku"},	{  93, 93, 93, 93,64,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_light_arrow,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(683),	40,	12,

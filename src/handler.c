@@ -171,10 +171,10 @@ int race_lookup (const char *name)
 {
    int race;
 
-   for ( race = 0; race_table[race].name != NULL; race++)
+   for ( race = 0; race_table[race].name[0] != NULL; race++)
    {
-	if (LOWER(name[0]) == LOWER(race_table[race].name[0])
-	&&  !str_prefix( name,race_table[race].name))
+	if ( (LOWER(name[0]) == LOWER(race_table[race].name[0][0]))
+	&&  !str_prefix( name,race_table[race].name[0]))
 	    return race;
    }
 
@@ -423,8 +423,8 @@ int class_lookup (const char *name)
 
    for ( iclass = 0; iclass < MAX_CLASS; iclass++)
    {
-        if (LOWER(name[0]) == LOWER(class_table[iclass].name[0])
-        &&  !str_prefix( name,class_table[iclass].name))
+        if (LOWER(name[0]) == LOWER(class_table[iclass].name[0][0])
+        &&  !str_prefix( name,class_table[iclass].name[0]))
 	{
             return iclass;
 	}
@@ -3908,7 +3908,6 @@ void raffect_to_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
          {
            send_to_char("Enerji düþmanlarýnda yitip gidiyor.\n\r",ch);
            act("Bir yýldýrým $S düþmanlarýnda yitip gidiyor.\n\r",ch, NULL, ch, TO_ROOM);
-                        ch, NULL, ch, TO_ROOM);
          }
 	 else
 	 {

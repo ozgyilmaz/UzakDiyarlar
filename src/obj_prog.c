@@ -1,12 +1,12 @@
 /***************************************************************************
- *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT		           *	
+ *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT		           *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
- *	 Ibrahim Canpunar  {Mandrake}	canpunar@rorqual.cc.metu.edu.tr    *	
- *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *	
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 Ibrahim Canpunar  {Mandrake}	canpunar@rorqual.cc.metu.edu.tr    *
+ *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
 /***************************************************************************
@@ -210,7 +210,7 @@ void oprog_set(OBJ_INDEX_DATA *objindex,const char *progtype, const char *name)
 	 objindex->oprogs->wear_prog = wear_prog_girdle_giant;
        else if (!str_cmp(name, "wear_prog_breastplate_strength"))
 	 objindex->oprogs->wear_prog = wear_prog_breastplate_strength;
-       
+
        else if (!str_cmp(name, "wear_prog_katana_sword"))
 	 objindex->oprogs->wear_prog = wear_prog_katana_sword;
        else if (!str_cmp(name, "wear_prog_eyed_sword"))
@@ -231,7 +231,7 @@ void oprog_set(OBJ_INDEX_DATA *objindex,const char *progtype, const char *name)
 	 objindex->oprogs->wear_prog = wear_prog_headguard;
        else if (!str_cmp(name, "wear_prog_blackguard"))
 	 objindex->oprogs->wear_prog = wear_prog_blackguard;
-       else 
+       else
 	 {
 	   bug("Load_oprogs: 'O': Function not found for vnum %d",
 	       objindex->vnum);
@@ -328,14 +328,14 @@ void oprog_set(OBJ_INDEX_DATA *objindex,const char *progtype, const char *name)
 	       objindex->vnum);
 	   exit(1);
 	 }
-       SET_BIT(objindex->progtypes, OPROG_DROP);	
+       SET_BIT(objindex->progtypes, OPROG_DROP);
        return;
      }
 
-   /* 
+   /*
     * returning TRUE prevents destruction, gives player gold
     */
-   if (!str_cmp(progtype, "sac_prog")) 
+   if (!str_cmp(progtype, "sac_prog"))
      {
        if (!str_cmp(name, "sac_prog_excalibur"))
 	 objindex->oprogs->sac_prog = sac_prog_excalibur;
@@ -422,7 +422,7 @@ void oprog_set(OBJ_INDEX_DATA *objindex,const char *progtype, const char *name)
        else if (!str_cmp(name, "fight_prog_tattoo_mars"))
 	 objindex->oprogs->fight_prog = fight_prog_tattoo_mars;
        else if (!str_cmp(name, "fight_prog_tattoo_athena"))
-	 objindex->oprogs->fight_prog = fight_prog_tattoo_athena; 
+	 objindex->oprogs->fight_prog = fight_prog_tattoo_athena;
        else if (!str_cmp(name, "fight_prog_golden_weapon"))
 	 objindex->oprogs->fight_prog = fight_prog_golden_weapon;
        else if (!str_cmp(name, "fight_prog_snake"))
@@ -526,8 +526,8 @@ void oprog_set(OBJ_INDEX_DATA *objindex,const char *progtype, const char *name)
 
 void wear_prog_excalibur(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-  act("$p begins to shine a bright white.",ch,obj,NULL,TO_CHAR);
-  act("$p begins to shine a bright white.",ch,obj,NULL,TO_ROOM);
+  act("$p parlak beyaz renkte parlamaya baþladý.",ch,obj,NULL,TO_CHAR);
+  act("$p parlak beyaz renkte parlamaya baþladý.",ch,obj,NULL,TO_ROOM);
   if ( ch->level > 20 && ch->level <= 30)	obj->value[2] = 4;
   else if ( ch->level > 30 && ch->level <= 40)   obj->value[2] = 5;
   else if ( ch->level > 40 && ch->level <= 50)   obj->value[2] = 6;
@@ -544,8 +544,8 @@ void wear_prog_bracer(OBJ_DATA *obj, CHAR_DATA *ch)
 
   if (!is_affected(ch, gsn_haste))
     {
-      send_to_char("As you slide your arms into these bracers, they mold to your skin.\n\r", ch);
-      send_to_char("Your hands and arms feel incredibly light.\n\r", ch);
+      send_to_char( "Taktýðýn bileklikler seninle bütünleþiyor.\n\r", ch);
+      send_to_char("Ellerin ve kollarýn inanýlmaz derecede hafifledi.\n\r", ch);
 
       af.where = TO_AFFECTS;
       af.type = gsn_haste;
@@ -563,58 +563,58 @@ void remove_prog_bracer(OBJ_DATA *obj, CHAR_DATA *ch)
   if (is_affected(ch, gsn_haste))
     {
       affect_strip(ch, gsn_haste);
-      send_to_char("Your hands and arms feel heavy again.\n\r", ch);
+      send_to_char("Ellerin ve kollarýn aðýrlaþtý.\n\r", ch);
     }
 }
 
 
 void remove_prog_excalibur(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-  act("$p stops glowing.",ch,obj,NULL,TO_CHAR);
-  act("$p stops glowing.",ch,obj,NULL,TO_ROOM);
+  act("$p artýk parlamýyor.",ch,obj,NULL,TO_CHAR);
+  act("$p artýk parlamýyor.",ch,obj,NULL,TO_ROOM);
 }
 
 bool death_prog_excalibur(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-  act_new("$p starts to glow with a blue aura.",ch,obj,NULL,TO_CHAR,POS_DEAD);
-  act("$p starts to glow with a blue aura,",ch,obj,NULL,TO_ROOM);
+  act_new("$p mavi bir ayla ile parlýyor.",ch,obj,NULL,TO_CHAR,POS_DEAD);
+  act("$p mavi bir ayla ile parlýyor,",ch,obj,NULL,TO_ROOM);
   ch->hit = ch->max_hit;
-  send_to_char("You feel much better.",ch);
-  act("$n looks much better.",ch,NULL,NULL,TO_ROOM);
-  return TRUE; 
+  send_to_char("Kendini daha iyi hiseediyorsun.",ch);
+  act("$n daha iyi görünüyor.",ch,NULL,NULL,TO_ROOM);
+  return TRUE;
 }
 
 void speech_prog_excalibur(OBJ_DATA *obj, CHAR_DATA *ch, char *speech)
 {
 
-  if (!str_cmp(speech, "sword of acid")      
+  if (!str_cmp(speech, "asit")
       && (ch->fighting) && is_wielded_char(ch,obj)  )
     {
-      send_to_char("Acid sprays from the blade of Excalibur.\n\r",ch);
-      act("Acid sprays from the blade of Excalibur.",ch,NULL,NULL,TO_ROOM);
+      send_to_char("Excalibur'un býçaðýndan asit fýþkýrýyor.\n\r",ch);
+      act("Excalibur'un býçaðýndan asit fýþkýrýyor.",ch,NULL,NULL,TO_ROOM);
       obj_cast_spell(gsn_acid_blast,ch->level,ch,ch->fighting,NULL);
       WAIT_STATE(ch, 2 * PULSE_VIOLENCE);
     }
 }
-  
+
 bool sac_prog_excalibur(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-  act("The gods are infuriated!",ch,NULL,NULL,TO_CHAR);
-  act("The gods are infuriated!",ch,NULL,NULL,TO_ROOM);
+  act("Ölümsüzler çileden çýktý!",ch,NULL,NULL,TO_CHAR);
+  act("Ölümsüzler çileden çýktý!",ch,NULL,NULL,TO_ROOM);
   damage(ch,ch,
 	 (ch->hit - 1) > 1000? 1000 : (ch->hit - 1),
 	 TYPE_HIT,DAM_HOLY, TRUE);
   ch->gold = 0;
-  return TRUE; 
+  return TRUE;
 }
 
 void fight_prog_ranger_staff(OBJ_DATA *obj, CHAR_DATA *ch)
 {
   if ( is_wielded_char(ch,obj) && number_percent() < 10)
     {
-      send_to_char("Your ranger's staff glows blue!\n\r",ch);
-      act("$n's ranger's staff glows blue!",ch,NULL,NULL,TO_ROOM);
-      
+      send_to_char("Korucu asan mavi renkte parlamaya baþlýyor!\n\r",ch);
+      act("$s korucu asasý mavi renkte parlamaya baþlýyor!",ch,NULL,NULL,TO_ROOM);
+
       obj_cast_spell(gsn_cure_critical,ch->level,ch,ch,obj);
     }
 }
@@ -624,45 +624,45 @@ void fight_prog_sub_weapon(OBJ_DATA *obj, CHAR_DATA *ch)
   if (is_wielded_char(ch,obj) && number_percent() < 30)
     {
       if ( ((float) ch->hit)/((float) ch->max_hit) > 0.9)
-	send_to_char("Your weapon whispers, 'You're doing great!'\n\r",ch);
-      else if ( ((float) ch->hit)/((float) ch->max_hit) > 0.6)
-	send_to_char("Your weapon whispers, 'Keep up the good work!'\n\r",ch);
-      else if ( ((float) ch->hit)/((float) ch->max_hit) > 0.4)
-	  send_to_char("Your weapon whispers, 'You can do it!'\n\r",ch);
-      else send_to_char("Your weapon whispers, 'Run away! Run away!'\n\r",ch);
+      send_to_char("Silahýn fýsýldýyor 'Ýyi iþ çýkarýyorsun!'.\n\r",ch);
+          else if ( ((float) ch->hit)/((float) ch->max_hit) > 0.6)
+    	send_to_char("Silahýn fýsýldýyor 'Böyle devam et!'.\n\r",ch);
+          else if ( ((float) ch->hit)/((float) ch->max_hit) > 0.4)
+    	  send_to_char( "Silahýn fýsýldýyor 'Baþarabilirsin!'.\n\r",ch);
+          else send_to_char("Silahýn fýsýldýyor 'Kaç! Kaç!'.\n\r",ch);
     }
 }
 
 bool death_prog_ranger_staff(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-  send_to_char("Your ranger's staff disappears.\n\r",ch);
-  act("$n's ranger's staff disappears.",ch,NULL,NULL,TO_ROOM);
+  send_to_char("Korucu asan yokoluyor.\n\r",ch);
+  act("$s korucu asasý yokoluyor.",ch,NULL,NULL,TO_ROOM);
   extract_obj(obj);
   return FALSE;
 }
 
 
-void get_prog_spec_weapon(OBJ_DATA *obj, CHAR_DATA *ch) 
+void get_prog_spec_weapon(OBJ_DATA *obj, CHAR_DATA *ch)
 {
 
-  if ( strstr( obj->extra_descr->description, ch->name ) != NULL )  
+  if ( strstr( obj->extra_descr->description, ch->name ) != NULL )
   {
     if ( IS_AFFECTED( ch, AFF_POISON ) && (dice(1,5)==1) )  {
-      send_to_char( "Your weapon glows blue.", ch );
-      act( "$n's weapon glows blue.", ch, NULL, NULL, TO_ROOM );
+      send_to_char( "Silahýn mavi renkte parlýyor.", ch );
+      act( "$s silahý mavi renkte parlýyor.", ch, NULL, NULL, TO_ROOM );
       spell_cure_poison( gsn_cure_poison, 30, ch, ch, TARGET_CHAR );
       return;
     }
     if ( IS_AFFECTED( ch, AFF_CURSE ) && (dice(1,5)==1) )  {
-      send_to_char( "Your weapon glows blue.", ch );
-      act( "$n's weapon glows blue.", ch, NULL, NULL, TO_ROOM );
+      send_to_char( "Silahýn mavi renkte parlýyor.", ch );
+      act( "$s silahý mavi renkte parlýyor.", ch, NULL, NULL, TO_ROOM );
       spell_remove_curse( gsn_remove_curse, 30, ch, ch, TARGET_CHAR );
       return;
     }
-    send_to_char( "Your weapon's humming gets lauder.\n\r", ch );
+    send_to_char( "Silahýn daha güçlü výzýldamaya baþladý.\n\r", ch );
     return;
   }
-  act( "You are zapped by $p and drop it.", ch, obj, NULL, TO_CHAR );
+  act( "Sen $p tarafýndan çarpýldýn ve onu düþürdün.", ch, obj, NULL, TO_CHAR );
 
   obj_from_char( obj );
   obj_to_room( obj, ch->in_room );
@@ -676,47 +676,47 @@ void get_prog_spec_weapon(OBJ_DATA *obj, CHAR_DATA *ch)
     break;
   }
   return;
-    
+
 }
 
-void get_prog_quest_hreward(OBJ_DATA *obj, CHAR_DATA *ch) 
+void get_prog_quest_hreward(OBJ_DATA *obj, CHAR_DATA *ch)
 {
 
-  if ( strstr( obj->extra_descr->description, ch->name ) != NULL )  
+  if ( strstr( obj->extra_descr->description, ch->name ) != NULL )
   {
-    act_color("$CYour $p starts glowing.\n\r$c",
+    act_color("$C$p parlamaya baþladý.\n\r$c",
 		ch,obj,NULL,TO_CHAR,POS_SLEEPING,CLR_BLUE);
     return;
   }
 
-  act( "You are zapped by $p and drop it.", ch, obj, NULL, TO_CHAR );
+  act("Sen $p tarafýndan çarpýldýn ve onu düþürdün.", ch, obj, NULL, TO_CHAR );
 
   obj_from_char( obj );
   obj_to_room( obj, ch->in_room );
 
   return;
 }
-void get_prog_quest_obj(OBJ_DATA *obj, CHAR_DATA *ch) 
+void get_prog_quest_obj(OBJ_DATA *obj, CHAR_DATA *ch)
 {
 
-  if ( strstr( obj->extra_descr->description, ch->name ) != NULL )  
+  if ( strstr( obj->extra_descr->description, ch->name ) != NULL )
   {
     if ( IS_AFFECTED( ch, AFF_POISON ) && (dice(1,5)==1) )  {
-      send_to_char( "Your weapon glows blue.", ch );
-      act( "$n's weapon glows blue.", ch, NULL, NULL, TO_ROOM );
+      send_to_char( "Silahýn mavi renkte parlýyor.", ch );
+      act( "$s silahý mavi renkte parlýyor.", ch, NULL, NULL, TO_ROOM );
       spell_cure_poison( gsn_cure_poison, 30, ch, ch, TARGET_CHAR );
       return;
     }
     if ( IS_AFFECTED( ch, AFF_CURSE ) && (dice(1,5)==1) )  {
-      send_to_char( "Your weapon glows blue.", ch );
-      act( "$n's weapon glows blue.", ch, NULL, NULL, TO_ROOM );
+      send_to_char( "Silahýn mavi renkte parlýyor.", ch );
+      act( "$s silahý mavi renkte parlýyor.", ch, NULL, NULL, TO_ROOM );
       spell_remove_curse( gsn_remove_curse, 30, ch, ch, TARGET_CHAR );
       return;
     }
-    send_to_char( "Quest staff waits patiently to return.\n\r", ch );
+    send_to_char("Görev asasý sabýrla dönmeyi bekliyor.\n\r", ch );
     return;
   }
-  act( "You are zapped by $p and drop it.", ch, obj, NULL, TO_CHAR );
+  act( "Sen $p tarafýndan çarpýldýn ve onu düþürdün.", ch, obj, NULL, TO_CHAR );
 
   obj_from_char( obj );
   obj_to_room( obj, ch->in_room );
@@ -730,27 +730,27 @@ void get_prog_quest_obj(OBJ_DATA *obj, CHAR_DATA *ch)
     break;
   }
   return;
-    
+
 }
 
-void get_prog_cabal_item(OBJ_DATA *obj, CHAR_DATA *ch) 
+void get_prog_cabal_item(OBJ_DATA *obj, CHAR_DATA *ch)
 {
   if (IS_NPC(ch))
   {
-      act("You are not worthy to have $p and drop it.",
-	 ch, obj, NULL, TO_CHAR);
-      act("$n is not worthy to have $p and drops it.",
-	 ch, obj, NULL, TO_ROOM);
+    act("Taþýmayý haketmediðin $p elinden düþüyor.",
+ ch, obj, NULL, TO_CHAR);
+    act("$s taþýmayý haketmediði $p elinden düþüyor.",
+ ch, obj, NULL, TO_ROOM);
       obj_from_char(obj);
       obj_to_room(obj, ch->in_room);
       return;
   }
 
-  if (obj->timer < 1) 
+  if (obj->timer < 1)
   {
     obj->timer = 30;
-    act("$p becomes transparent.", ch, obj, NULL, TO_CHAR);
-    act("$p becomes transparent.", ch, obj, NULL, TO_ROOM);
+    act("$p saydamlaþtý.", ch, obj, NULL, TO_CHAR);
+    act("$p saydamlaþtý.", ch, obj, NULL, TO_ROOM);
   }
 }
 
@@ -760,16 +760,16 @@ bool sac_prog_cabal_item(OBJ_DATA *obj, CHAR_DATA *ch)
   char buf[160];
   int i;
 
-  act("The gods are infuriated!",ch,NULL,NULL,TO_CHAR);
-  act("The gods are infuriated!",ch,NULL,NULL,TO_ROOM);
-  damage(ch,ch,(int)(ch->hit/10),TYPE_HIT,DAM_HOLY, TRUE); 
+  act("Ölümsüzler çileden çýktý!",ch,NULL,NULL,TO_CHAR);
+  act("Ölümsüzler çileden çýktý!",ch,NULL,NULL,TO_ROOM);
+  damage(ch,ch,(int)(ch->hit/10),TYPE_HIT,DAM_HOLY, TRUE);
   ch->gold = 0;
 
   obj_from_room(obj);
   for(i=0;i<MAX_CABAL;i++)
     if (cabal_table[i].obj_ptr == obj) break;
 
-  if ( i < MAX_CABAL )  
+  if ( i < MAX_CABAL )
   {
     if ( obj->pIndexData->vnum == cabal_table[CABAL_RULER].obj_vnum )
       container = create_object( get_obj_index( OBJ_VNUM_RULER_STAND ),100 );
@@ -790,9 +790,9 @@ bool sac_prog_cabal_item(OBJ_DATA *obj, CHAR_DATA *ch)
 
     obj_to_obj( obj, container );
     obj_to_room( container, get_room_index(cabal_table[i].room_vnum) );
-    sprintf( buf, "You see %s forming again slowly.\n\r", 
+    sprintf( buf, "%s yavaþça tekrar oluþuyor.\n\r",
 	container->short_descr );
-    if ( get_room_index(cabal_table[i].room_vnum)->people != NULL )  
+    if ( get_room_index(cabal_table[i].room_vnum)->people != NULL )
     {
 	act( buf, get_room_index(cabal_table[i].room_vnum)->people,NULL,NULL, TO_CHAR);
 	act( buf, get_room_index(cabal_table[i].room_vnum)->people,NULL,NULL, TO_ROOM);
@@ -805,8 +805,8 @@ bool sac_prog_cabal_item(OBJ_DATA *obj, CHAR_DATA *ch)
     bug( "oprog: Sac_cabal_item: Was not the cabal's item.", 0);
   }
 
-  return FALSE; 
-} 
+  return FALSE;
+}
 
 void speech_prog_kassandra(OBJ_DATA *obj, CHAR_DATA *ch, char *speech)
 {
@@ -821,40 +821,40 @@ void speech_prog_kassandra(OBJ_DATA *obj, CHAR_DATA *ch, char *speech)
   else if (!str_cmp(speech, "matandra") && (get_hold_char(ch) == obj)
 	   && (ch->fighting) && !IS_NPC(ch))
     {
-      act("A blast of energy bursts from your hand toward $N!",
+      act("Bir enerji topu elinden $E fýrlýyor!",
 	  ch,NULL,ch->fighting,TO_CHAR);
-      act("A blast of energy bursts from $n's hand toward you!",
+      act("Bir enerji yopu $s elinden sana fýrlýyor!",
 	  ch,NULL,ch->fighting,TO_VICT);
-      act("A blast of energy bursts from $n's hand toward $N!",
+      act("Bir enerji topu $s elinden $E fýrlýyor!",
 	  ch,NULL,ch->fighting,TO_NOTVICT);
       obj_cast_spell(gsn_matandra,ch->level,ch,ch->fighting,NULL);
     }
 }
-      
+
 void fight_prog_chaos_blade(OBJ_DATA *obj, CHAR_DATA *ch)
 {
   if ( is_wielded_char(ch,obj) )
     switch(number_bits(7)) {
     case 0:
-      
-      act("The chaotic blade trembles violently!", ch, NULL, NULL, TO_ROOM);
-      send_to_char("Your chaotic blade trembles violently!\n\r", ch);
-      obj_cast_spell(gsn_mirror,ch->level,ch,ch,obj); 
+
+    act("Yataðan titriyor!", ch, NULL, NULL, TO_ROOM);
+    send_to_char("Yataðanýn titriyor!\n\r", ch);
+      obj_cast_spell(gsn_mirror,ch->level,ch,ch,obj);
       WAIT_STATE(ch, 2 * PULSE_VIOLENCE);
       break;
 
     case 1:
 
-      act("The chaotic blade shakes a bit.", ch, NULL, NULL, TO_ROOM);
-      send_to_char("Your chaotic blade shakes a bit.\n\r", ch);
+    act("Yataðan biraz sallanýyor.", ch, NULL, NULL, TO_ROOM);
+    send_to_char("Yataðanýn biraz sallanýyor.\n\r", ch);
       obj_cast_spell(gsn_garble,ch->level,ch,ch->fighting,obj);
       WAIT_STATE(ch, 2 * PULSE_VIOLENCE);
       break;
 
     case 2:
 
-      act("The chaotic blade shivers uncontrollably!",ch,NULL,NULL,TO_ROOM);
-      send_to_char("Your chaotic blade shivers uncontrollably!\n\r",ch);
+    act("Yataðan þiddetle titriyor!",ch,NULL,NULL,TO_ROOM);
+    send_to_char("Yataðanýn þiddetle titriyor!\n\r",ch);
       obj_cast_spell(gsn_confuse, ch->level,ch,ch->fighting,obj);
       WAIT_STATE(ch, 2 * PULSE_VIOLENCE);
       break;
@@ -864,8 +864,8 @@ void fight_prog_chaos_blade(OBJ_DATA *obj, CHAR_DATA *ch)
 
 bool death_prog_chaos_blade(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-  send_to_char("Your chaotic blade disappears.\n\r",ch);
-  act("$n's chaotic blade disappears.",ch,NULL,NULL,TO_ROOM);
+  send_to_char("Yataðanýn yokoluyor.\n\r",ch);
+  act("$s yataðaný yokoluyor.",ch,NULL,NULL,TO_ROOM);
   extract_obj(obj);
   return FALSE;
 }
@@ -878,14 +878,14 @@ void fight_prog_tattoo_apollon(OBJ_DATA *obj, CHAR_DATA *ch)
     switch(number_bits(6)) {
     case 0:
     case 1:
-      act_color("$CThe tattoo on your shoulder glows blue.$c",
+    act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
       obj_cast_spell(gsn_cure_serious, ch->level, ch, ch, obj);
       break;
     case 2:
-      act_color("$CThe tattoo on your shoulder glows red.$c",
+    act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
-      do_yell( ch, (char*)"Ever dance with good....");
+       do_yell( ch, (char*)"Kutsal güçle dans etme....");
       sn = skill_lookup("holy word");
       spell_holy_word(sn,ch->level,ch,NULL,TARGET_CHAR);
       break;
@@ -900,16 +900,16 @@ void fight_prog_tattoo_zeus(OBJ_DATA *obj, CHAR_DATA *ch)
     case 0:
     case 1:
     case 2:
-      act_color("$CThe tattoo on your shoulder glows blue.$c",
+      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
       obj_cast_spell(gsn_cure_critical, ch->level, ch, ch, obj);
       break;
     case 3:
-      act_color("$CThe tattoo on your shoulder glows blue.$c",
+      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
-      if (IS_AFFECTED(ch,AFF_PLAGUE))	
+      if (IS_AFFECTED(ch,AFF_PLAGUE))
 	spell_cure_disease(25,100,ch,ch,TARGET_CHAR);
-      if (IS_AFFECTED(ch,AFF_POISON))	
+      if (IS_AFFECTED(ch,AFF_POISON))
         spell_cure_poison(27,100,ch,ch,TARGET_CHAR);
       break;
     }
@@ -920,12 +920,12 @@ void fight_prog_tattoo_siebele(OBJ_DATA *obj, CHAR_DATA *ch)
   if (get_eq_char(ch, WEAR_TATTOO) == obj)
     switch(number_bits(6)) {
     case 0:
-      act_color("$CThe tattoo on your shoulder glows blue.$c",
+      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
       obj_cast_spell(gsn_cure_serious, ch->level, ch,ch, obj);
       break;
     case 1:
-      act_color("$CThe tattoo on your shoulder glows red.$c",
+      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
       spell_bluefire(gsn_dispel_good, ch->level, ch, ch->fighting, TARGET_CHAR);
       break;
@@ -937,12 +937,12 @@ void fight_prog_tattoo_ahrumazda(OBJ_DATA *obj, CHAR_DATA *ch)
   if (get_eq_char(ch, WEAR_TATTOO) == obj)
     switch(number_bits(6)) {
     case 0:
-      act_color("$CThe tattoo on your shoulder glows blue.$c",
+      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_BLUE);
-      obj_cast_spell(gsn_cure_serious, ch->level, ch, ch, obj); 
+      obj_cast_spell(gsn_cure_serious, ch->level, ch, ch, obj);
       break;
     case 1:
-      act_color("$CThe tattoo on your shoulder glows red.$c",
+      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
       obj_cast_spell(gsn_demonfire, ch->level, ch, ch->fighting, obj);
       break;
@@ -955,12 +955,12 @@ void fight_prog_tattoo_ahrumazda(OBJ_DATA *obj, CHAR_DATA *ch)
     switch(number_bits(6)) {
     case 0:
     case 1:
-      act_color("$CThe tattoo on your shoulder glows blue.$c",
+      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
       obj_cast_spell(gsn_cure_serious, ch->level, ch, ch, obj);
       break;
     case 2:
-      act_color("$CThe tattoo on your shoulder glows red.$c",
+      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
       do_yell(ch,(char*)"And justice for all!....");
       spell_scream(gsn_scream,ch->level,ch,ch->fighting,TARGET_CHAR);
@@ -973,17 +973,17 @@ void fight_prog_tattoo_ehrumen(OBJ_DATA *obj, CHAR_DATA *ch)
   if (get_eq_char(ch, WEAR_TATTOO) == obj)
     switch(number_bits(6)) {
     case 0:
-      act_color("$CThe tattoo on your shoulder glows red.$c",
+      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
       obj_cast_spell(gsn_cure_light, ch->level, ch, ch->fighting, obj);
       break;
     case 1:
-      act_color("$CThe tattoo on your shoulder glows blue.$c",
+      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
       obj_cast_spell(gsn_cure_serious, ch->level, ch, ch, obj);
       break;
     case 2:
-      act_color("$CThe tattoo on your shoulder glows red.$c",
+      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
       spell_dispel_evil(gsn_dispel_evil, ch->level, ch, ch->fighting,TARGET_CHAR);
       break;
@@ -997,17 +997,17 @@ void fight_prog_tattoo_venus(OBJ_DATA *obj, CHAR_DATA *ch)
     case 0:
     case 1:
     case 2:
-      act_color("$CThe tattoo on your shoulder glows blue.$c",
+      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
       obj_cast_spell(gsn_cure_light, ch->level, ch, ch, obj);
       break;
     case 3:
-      act_color("$CThe tattoo on your shoulder glows red.$c",
+      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
       obj_cast_spell(gsn_plague, ch->level, ch, ch->fighting, obj);
       break;
     case 4:
-      act_color("$CThe tattoo on your shoulder glows blue.$c",
+      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
       obj_cast_spell(gsn_bless, ch->level, ch, ch, obj);
       break;
@@ -1019,12 +1019,12 @@ void fight_prog_tattoo_ares(OBJ_DATA *obj, CHAR_DATA *ch)
   if (get_eq_char(ch, WEAR_TATTOO) == obj)
     switch(number_bits(5)) {
     case 0:
-      act_color("$CThe tattoo on your shoulder glows blue.$c",
+      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
       obj_cast_spell(gsn_dragon_strength, ch->level, ch, ch, obj);
       break;
     case 1:
-      act_color("$CThe tattoo on your shoulder glows RED.$c",
+      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
       obj_cast_spell(gsn_dragon_breath, ch->level, ch, ch->fighting, obj);
       break;
@@ -1037,12 +1037,12 @@ void fight_prog_tattoo_odin(OBJ_DATA *obj, CHAR_DATA *ch)
   if (get_eq_char(ch, WEAR_TATTOO) == obj)
     switch(number_bits(5)) {
     case 0:
-      act_color("$CThe tattoo on your shoulder glows blue.$c",
+      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
       obj_cast_spell(gsn_cure_critical, ch->level, ch, ch, obj);
       break;
     case 1:
-      act_color("$CThe tattoo on your shoulder glows red.$c",
+      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
       obj_cast_spell(gsn_faerie_fire, ch->level, ch, ch->fighting, obj);
       break;
@@ -1056,13 +1056,13 @@ void fight_prog_tattoo_phobos(OBJ_DATA *obj, CHAR_DATA *ch)
   if (get_eq_char(ch, WEAR_TATTOO) == obj)
     switch(number_bits(6)) {
     case 0:
-      act_color("$CThe tattoo on your shoulder glows blue.$c",
+      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
       obj_cast_spell(gsn_cure_serious, ch->level, ch, ch, obj);
       break;
     case 1:
       if ((sn = skill_lookup("colour spray")) < 0) break;
-      act_color("$CThe tattoo on your shoulder glows red.$c",
+      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
       obj_cast_spell(sn, ch->level, ch, ch->fighting, obj);
       break;
@@ -1075,19 +1075,19 @@ void fight_prog_tattoo_mars(OBJ_DATA *obj, CHAR_DATA *ch)
     switch(number_bits(7)) {
     case 0:
       obj_cast_spell(gsn_blindness, ch->level, ch, ch->fighting, obj);
-      send_to_char("You send out a cloud of confusion!\n\r", ch);
+      send_to_char("Bir kargaþa bulutu yaratýyorsun!\n\r", ch);
       break;
     case 1:
       obj_cast_spell(gsn_poison, ch->level, ch, ch->fighting, obj);
-      send_to_char("Some of your insanity rubs off on your opponent.\n\r", ch);
+      send_to_char("Deliliðinin bir kýsmý rakibine geçiyor.\n\r", ch);
       break;
     case 2:
       obj_cast_spell(gsn_haste, ch->level, ch, ch, obj);
-      send_to_char("You suddenly feel more hyperactive!\n\r", ch);
+      send_to_char( "Birden hiperaktifleþiyorsun!\n\r", ch);
       break;
     case 3:
       obj_cast_spell(gsn_shield, ch->level, ch, ch, obj);
-      send_to_char("You feel even more paranoid!\n\r", ch);
+      send_to_char( "Paranoyaklaþýyorsun!\n\r", ch);
       break;
     }
 }
@@ -1105,7 +1105,7 @@ void fight_prog_tattoo_athena(OBJ_DATA *obj, CHAR_DATA *ch)
 	  if (IS_AFFECTED(ch,AFF_BERSERK) || is_affected(ch,gsn_berserk)
 	      ||  is_affected(ch,skill_lookup("frenzy")))
 	    {
-	      send_to_char("You get a little madder.\n\r",ch);
+        send_to_char("Biraz delirdin.\n\r",ch);
 	      return;
 	    }
 
@@ -1125,13 +1125,12 @@ void fight_prog_tattoo_athena(OBJ_DATA *obj, CHAR_DATA *ch)
 	  af.modifier = 10 * (ch->level / 10);
 	  af.location = APPLY_AC;
 	  affect_to_char(ch, &af);
-	  
+
 	  ch->hit += ch->level * 2;
 	  ch->hit = UMIN(ch->hit,ch->max_hit);
-	  
-	  send_to_char("Your pulse races as you are consumned by rage!\n\r",
-		       ch);
-	  act("$n gets a wild look in $s eyes.",ch,NULL,NULL,TO_ROOM);
+
+    send_to_char("Öfkeyle doldukça nabzýn hýzlanýyor!\n\r",ch);
+	  act("$s gözlerine vahþi bir bakýþ geliyor.",ch,NULL,NULL,TO_ROOM);
 
 	  break;
 	}
@@ -1140,19 +1139,19 @@ void fight_prog_tattoo_athena(OBJ_DATA *obj, CHAR_DATA *ch)
       {
 	switch(number_bits(4)) {
 	case 0:
-	  do_yell(ch, (char*)"Cry Havoc and Let Loose the Dogs of War!");
-	  break;
-	case 1:
-	  do_yell(ch, (char*)"No Mercy!");
-	  break;
-	case 2:
-	  do_yell(ch, (char*)"Los Valdar Cuebiyari!");
-	  break;
-	case 3:
-	  do_yell(ch, (char*)"Carai an Caldazar! Carai an Ellisande! Al Ellisande!");
-	  break;
-	case 4:
-	  do_yell(ch, (char*)"Siempre Vive el Riesgo!");
+  do_yell(ch, (char*)"Yýkým iste ki savaþýn köpekleri serbest kalsýn!");
+  break;
+case 1:
+  do_yell(ch, (char*)"Af yok!");
+  break;
+case 2:
+  do_yell(ch, (char*)"Los Valdar Cuebiyari!");
+  break;
+case 3:
+  do_yell(ch, (char*)"Carai an Caldazar! Carai an Ellisande! Al Ellisande!");
+  break;
+case 4:
+  do_yell(ch, (char*)"Siempre Vive el Riesgo!");
 	  break;
 	}
       }
@@ -1165,20 +1164,20 @@ void fight_prog_tattoo_hera( OBJ_DATA *obj, CHAR_DATA *ch)
   if (get_eq_char(ch, WEAR_TATTOO) == obj)
     switch(number_bits(5)) {
     case 0:
-      act_color("$CThe tattoo on your shoulder glows red.$c",
+      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
       obj_cast_spell(gsn_plague, ch->level, ch, ch->fighting, obj);
       break;
     case 1:
-      act_color("$CThe tattoo on your shoulder glows red.$c",
+      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
       obj_cast_spell(gsn_poison, ch->level, ch, ch->fighting, obj);
     case 2:
-      act_color("$CThe tattoo on your shoulder glows red.$c",
+      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
       obj_cast_spell(gsn_weaken, ch->level, ch, ch->fighting, obj);
     case 3:
-      act_color("$CThe tattoo on your shoulder glows red.$c",
+      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
       obj_cast_spell(gsn_slow, ch->level, ch, ch->fighting, obj);
       break;
@@ -1193,12 +1192,12 @@ void fight_prog_tattoo_deimos(OBJ_DATA *obj, CHAR_DATA *ch)
     switch(number_bits(6)) {
     case 0:
     case 1:
-      act_color("$CThe tattoo on your shoulder glows blue.$c",
+      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
       obj_cast_spell(gsn_cure_serious, ch->level, ch, ch, obj);
       break;
     case 2:
-      act_color("$CThe tattoo on your shoulder glows red.$c",
+      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
       sn = skill_lookup("web");
       spell_web(sn, ch->level, ch, ch->fighting,TARGET_CHAR);
@@ -1215,13 +1214,13 @@ void fight_prog_tattoo_eros(OBJ_DATA *obj, CHAR_DATA *ch)
     case 0:
     case 1:
       if ((sn = skill_lookup("heal")) < 0) break;
-      act_color("$CThe tattoo on your shoulder glows blue.$c",
+      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
       obj_cast_spell(sn, ch->level, ch, ch, obj);
       break;
     case 2:
       if ((sn = skill_lookup("mass healing")) < 0) break;
-      act_color("$CThe tattoo on your shoulder glows blue.$c",
+      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
       obj_cast_spell(sn, ch->level, ch, ch, obj);
       break;
@@ -1231,8 +1230,8 @@ void fight_prog_tattoo_eros(OBJ_DATA *obj, CHAR_DATA *ch)
 
 bool death_prog_golden_weapon(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-  send_to_char("Your golden weapon disappears.\n\r",ch);
-  act("$n's golden weapon disappears.",ch,NULL,NULL,TO_ROOM);
+  send_to_char("Altýn silahýn yokoluyor.\n\r",ch);
+  act("$s altýn silahý yok oluyor.",ch,NULL,NULL,TO_ROOM);
   extract_obj(obj);
   ch->hit = 1;
   while ( ch->affected )
@@ -1241,12 +1240,12 @@ bool death_prog_golden_weapon(OBJ_DATA *obj, CHAR_DATA *ch)
   ch->last_death_time = current_time;
   if (cabal_area_check(ch))
   {
-    act("$n disappears.",ch,NULL,NULL,TO_ROOM);
+    act("$n yokoluyor.",ch,NULL,NULL,TO_ROOM);
     char_from_room(ch);
-    char_to_room(ch, get_room_index( cabal_table[CABAL_KNIGHT].room_vnum )); 
-    act("$n appears in the room.",ch,NULL,NULL,TO_ROOM);
+    char_to_room(ch, get_room_index( cabal_table[CABAL_KNIGHT].room_vnum ));
+    act("$n odada beliriyor.",ch,NULL,NULL,TO_ROOM);
   }
-  return TRUE; 
+  return TRUE;
 }
 
 void fight_prog_golden_weapon(OBJ_DATA *obj, CHAR_DATA *ch)
@@ -1255,17 +1254,17 @@ void fight_prog_golden_weapon(OBJ_DATA *obj, CHAR_DATA *ch)
     {
       if (number_percent() < 4)
 	{
-	  act("Your $p glows bright blue!\n\r",ch, obj, NULL, TO_CHAR);
-	  act("$n's $p glows bright blue!",ch,obj,NULL,TO_ROOM);
-	  
+	  act("$p parlak mavi renkte parlýyor!\n\r",ch, obj, NULL, TO_CHAR);
+	  act("$s $p parlak mavi renkte parlýyor!",ch,obj,NULL,TO_ROOM);
+
 	  obj_cast_spell(gsn_cure_critical,ch->level,ch,ch,obj);
 	  return;
 	}
       else if (number_percent() > 92)
 	{
-	  act("Your $p glows bright blue!\n\r",ch, obj, NULL, TO_CHAR);
-	  act("$n's $p glows bright blue!",ch,obj,NULL,TO_ROOM);
-	  
+	  act("$p parlak mavi renkte parlýyor!\n\r",ch, obj, NULL, TO_CHAR);
+	  act("$s $p parlak mavi renkte parlýyor!",ch,obj,NULL,TO_ROOM);
+
 	  obj_cast_spell(gsn_cure_serious,ch->level,ch,ch,obj);
 	  return;
 	}
@@ -1283,20 +1282,20 @@ void fight_prog_snake(OBJ_DATA *obj, CHAR_DATA *ch)
     {
       switch(number_bits(7)) {
       case 0:
-  	act("One of the snake heads on your whip bites $N!", ch, NULL,
-		ch->fighting, TO_CHAR);
-	act("A snake from $n's whip strikes out and bites you!", ch, NULL,
-		ch->fighting, TO_VICT);
-	act("One of the snakes from $n's whip strikes at $N!", ch, NULL, 
+      act("Kýrbacýndaki yýlanlardan biri $M ýsýrýyor!", ch, NULL,
+  		ch->fighting, TO_CHAR);
+  	act("$s kýrbacýndaki yýlanlardan biri seni ýsýrýyor!", ch, NULL,
+  		ch->fighting, TO_VICT);
+  	act("$s kýrbacýndaki yýlanlardan biri $E saldýrýyor!", ch, NULL,
 		ch->fighting, TO_NOTVICT);
 	obj_cast_spell(gsn_poison, ch->level, ch, ch->fighting, obj);
 	break;
       case 1:
-	act("One of the snake heads on your whip bites $N!", ch, NULL,
-		ch->fighting, TO_CHAR);
-	act("A snake from $n's whip strikes out and bites you!", ch, NULL,
-		ch->fighting, TO_VICT);
-	act("One of the snakes from $n's whip strikes at $N!", ch, NULL,
+      act( "Kýrbacýndaki yýlanlardan biri $M ýsýrýyor!", ch, NULL,
+    		ch->fighting, TO_CHAR);
+    	act("$s kýrbacýndaki yýlanlardan biri seni ýsýrýyor!", ch, NULL,
+    		ch->fighting, TO_VICT);
+    	act("$s kýrbacýndaki yýlanlardan biri $E saldýrýyor!", ch, NULL,
 		ch->fighting, TO_NOTVICT);
 	obj_cast_spell(gsn_weaken, ch->level, ch, ch->fighting, obj);
 	break;
@@ -1309,19 +1308,19 @@ void fight_prog_tattoo_prometheus(OBJ_DATA *obj, CHAR_DATA *ch)
   if (get_eq_char(ch, WEAR_TATTOO) == obj)
     switch(number_bits(5)) {
     case 0:
-      act_color("$CThe tattoo on your shoulder glows blue.$c",
+      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
       obj_cast_spell(gsn_cure_critical, ch->level, ch, ch, obj);
       break;
     case 1:
     case 2:
-      act_color("$CThe tattoo on your shoulder glows red.$c",
+      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
       if (IS_EVIL(ch->fighting))
       spell_dispel_evil(gsn_dispel_evil,(int)(1.2* (float)ch->level), ch, ch->fighting,TARGET_CHAR);
       else if (IS_GOOD(ch->fighting))
       spell_dispel_good(gsn_dispel_good,(int)(1.2* (float)ch->level), ch, ch->fighting,TARGET_CHAR);
-      else 
+      else
       spell_lightning_bolt(64, (int)(1.2* (float)ch->level), ch, ch->fighting, TARGET_CHAR);
       break;
     }
@@ -1333,11 +1332,11 @@ void fight_prog_shockwave(OBJ_DATA *obj, CHAR_DATA *ch)
   if ( is_wielded_char(ch,obj) )
     switch(number_bits(5)) {
     case 0:
-      act("A bolt of lightning arcs out from your bolt, hitting $N!", ch, 
-	NULL, ch->fighting, TO_CHAR);
-      act("A bolt of lightning crackles along $n's bolt and arcs towards you!",
-	ch, NULL, ch->fighting, TO_VICT);
-      act("A bolt of lightning shoots out from $n's bolt, arcing towards $N!",
+    act("Silahýndan fýrlayan bir yýldýrým $M vuruyor!", ch,
+NULL, ch->fighting, TO_CHAR);
+    act("$s silahýndan fýrlayan bir yýldýrým sana atlýyor!",
+ch, NULL, ch->fighting, TO_VICT);
+    act("$s silahýndan fýrlayan bir yýldýrým $E atlýyor!",
 	ch, NULL, ch->fighting, TO_NOTVICT);
       obj_cast_spell(gsn_lightning_bolt, ch->level, ch, ch->fighting, NULL);
       break;
@@ -1349,9 +1348,9 @@ void wear_prog_ranger_staff(OBJ_DATA *obj, CHAR_DATA *ch)
 
   if ( ch->iclass != CLASS_RANGER )
   {
-     send_to_char( "You don't know to use this thing.\n\r", ch );
-     unequip_char( ch, obj );
-     send_to_char( "Ranger staff slides off from your hand.\n\r", ch );
+    send_to_char("Onu nasýl kullanacaðýný bilmiyorsun.\n\r", ch );
+    unequip_char( ch, obj );
+    send_to_char("Korucu asasý elinden kayýp düþüyor.\n\r", ch );
      obj_from_char( obj );
      obj_to_room( obj, ch->in_room );
      return;
@@ -1361,44 +1360,45 @@ void wear_prog_ranger_staff(OBJ_DATA *obj, CHAR_DATA *ch)
 
 void wear_prog_coconut(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-  act("You start to bang the coconut shells together.",ch,NULL,NULL,TO_CHAR);
-  act("You hear a sound like horses galloping and you mount your steed.", 
+  act("Hindistancevizi kabuklarýný birbirine vurmaya baþlýyorsun.",ch,NULL,NULL,TO_CHAR);
+  act("Dörtnala gelen atlarýn sesini duyunca bineðine atlýyorsun.",
 	ch, NULL, NULL, TO_CHAR);
-  act("$n pretends to mount an invisible horse.",
-	ch,NULL,NULL,TO_ROOM); 
+  act("$n görünmez bir atý sürüyormuþ rolü yapýyor.",
+	ch,NULL,NULL,TO_ROOM);
 }
 
 void entry_prog_coconut(OBJ_DATA *obj)
 {
   if (obj->carried_by != NULL)
     if (get_hold_char(obj->carried_by) == obj)
-  act("$n gallops in on his invisible steed, banging two coconuts together.",
+    act("$n iki hindistancevizini birbirine vurup görünmez bineðiyle dörtnala atýlýyor.",
 	obj->carried_by, NULL, NULL, TO_ROOM);
-}  
+}
 
 void greet_prog_coconut(OBJ_DATA *obj, CHAR_DATA *ch)
 {
   if (obj->carried_by != NULL)
     {
-      if (get_hold_char(obj->carried_by) == obj && 
+      if (get_hold_char(obj->carried_by) == obj &&
 		obj->carried_by != ch)
-	act("You hear the sound of galloping horses.", ch, NULL, NULL, TO_CHAR);
+    act("Dörtnala giden atlarýn sesini duyuyorsun.", ch, NULL, NULL, TO_CHAR);
     }
   else
-    send_to_char("$p beckons with the faint sound of galloping horses.\n\r",
-	ch);
+  send_to_char("$p dörtnala giden atlarýn zayýf sesiyle birini çaðýrýyor.\n\r",ch);
+
 }
 
 void get_prog_coconut(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-  send_to_char("You hold the coconut up to your ear and suddenly you hear the faint\n\rroar of galloping horses.\n\r", ch);
-  act("$n holds a coconut up to $s ear.", ch, NULL, NULL, TO_ROOM);
+  send_to_char(
+"Hindistancevizini kulaðýna tutunca dörtnala giden atlarýn\n\rzayýf kükreyiþini duyuyorsun.\n\r", ch);
+  act("$n bir hindistancevizini kulaðýna tutuyor.", ch, NULL, NULL, TO_ROOM);
 }
 
 void remove_prog_coconut(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-  send_to_char("The sounds of horses fade away.\n\r", ch);
-  act("$n pretends to dismount a horse.", ch, NULL, NULL, TO_ROOM);
+  send_to_char("Atlarýn sesi yokoluyor.\n\r", ch);
+  act("$n bir attan iniyormuþ numarasý yapýyor.", ch, NULL, NULL, TO_ROOM);
 }
 
 void fight_prog_firegauntlets( OBJ_DATA *obj, CHAR_DATA *ch )
@@ -1413,9 +1413,9 @@ int dam;
 
   if ( number_percent() < 50 )  {
 	dam = dice( ch->level, 8) + number_percent() / 2;
-	act( "Your gauntlets burns $N's face!", ch, NULL, ch->fighting, TO_CHAR);
-	act( "$n's gauntlets burns $N's face!", ch, NULL, ch->fighting, TO_NOTVICT);
-	act( "$N's gauntlets burns your face!", ch->fighting, NULL, ch, TO_CHAR);
+  act( "Eldivenlerin $S yüzünü yakýyor!", ch, NULL, ch->fighting, TO_CHAR);
+	act("$s eldivenleri $S yüzünü yakýyor!", ch, NULL, ch->fighting, TO_NOTVICT);
+	act( "$S eldivenleri yüzünü yakýyor!", ch->fighting, NULL, ch, TO_CHAR);
 	damage( ch, ch->fighting, dam/2, gsn_burning_hands, DAM_FIRE, TRUE);
 	if ( ch == NULL || ch->fighting == NULL )
 	  return;
@@ -1426,13 +1426,13 @@ int dam;
 
 void wear_prog_firegauntlets(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-	send_to_char( "Your hands warm up by the gauntlets.\n\r", ch );
+  send_to_char("Eldivenler ellerini ýsýtýyor.\n\r", ch );
 	return;
 }
 
 void remove_prog_firegauntlets(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-	send_to_char( "Your hands cool down.\n\r", ch );
+  send_to_char("Ellerin soðuyor.\n\r", ch );
 	return;
 }
 
@@ -1447,9 +1447,9 @@ int dam;
 
   if ( number_percent() < 20 )  {
 	dam = number_percent()/2 + 30 + 5*ch->level;
-	act( "Your armbands burns $N's face!", ch, NULL, ch->fighting, TO_CHAR);
-	act( "$n's armbands burns $N's face!", ch, NULL, ch->fighting, TO_NOTVICT);
-	act( "$N's armbands burns your face!", ch->fighting, NULL, ch, TO_CHAR);
+  act( "Kolbantlarýn $S yüzünü yakýyor!", ch, NULL, ch->fighting, TO_CHAR);
+	act( "$s kolbantlarý $S yüzünü yakýyor!", ch, NULL, ch->fighting, TO_NOTVICT);
+	act( "$S kolbantlarý senin yüzünü yakýyor!", ch->fighting, NULL, ch, TO_CHAR);
 	damage( ch, ch->fighting, dam, gsn_burning_hands, DAM_FIRE, TRUE);
 	if ( ch == NULL || ch->fighting == NULL )
 	  return;
@@ -1460,13 +1460,13 @@ int dam;
 
 void wear_prog_armbands(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-	send_to_char( "Your arms warm up by the armbands of the volcanoes.\n\r", ch );
+  send_to_char( "Kolbantlarýn kollarýný ýsýtýyor.\n\r", ch );
 	return;
 }
 
 void remove_prog_armbands(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-	send_to_char( "Your arms cool down again.\n\r", ch );
+  send_to_char("Kollarýn soðuyor.\n\r", ch );
 	return;
 }
 
@@ -1479,10 +1479,10 @@ int dam;
 
   if ( number_percent() < 15 )  {
 	dam = number_percent()/2 + 5 * ch->level;
-	act( "A magical hole appears in your shield !", ch, NULL, ch->fighting, TO_CHAR);
-	act( "Your shield burns $N's face!", ch, NULL, ch->fighting, TO_CHAR);
-	act( "$n's shield burns $N's face!", ch, NULL, ch->fighting, TO_NOTVICT);
-	act( "$N's shield burns your face!", ch->fighting, NULL, ch, TO_CHAR);
+  act("Kalkanýnýn önünde gizemli bir delik açýlýyor!", ch, NULL, ch->fighting, TO_CHAR);
+	act("Kalkanýn $S yüzünü yakýyor!", ch, NULL, ch->fighting, TO_CHAR);
+	act( "$s kalkaný $S yüzünü yakýyor!", ch, NULL, ch->fighting, TO_NOTVICT);
+	act( "$S kalkaný yüzünü yakýyor!", ch->fighting, NULL, ch, TO_CHAR);
 	fire_effect( ch->fighting, obj->level,dam, TARGET_CHAR );
 	damage( ch, ch->fighting, dam, gsn_demonfire, DAM_FIRE, TRUE);
   }
@@ -1491,20 +1491,20 @@ int dam;
 
 void wear_prog_demonfireshield(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-	send_to_char( "Your hands warm up by the fire shield.\n\r", ch );
+  send_to_char("Kalkanýn ellerini ýsýtýyor.\n\r", ch );
 	return;
 }
 
 void remove_prog_demonfireshield(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-	send_to_char( "Your hands cool down.\n\r", ch );
+  send_to_char("Ellerin soðuyor.\n\r", ch );
 	return;
 }
 void fight_prog_vorbalblade( OBJ_DATA *obj, CHAR_DATA *ch )
 {
 CHAR_DATA *victim;
 
-  if ( IS_NPC(ch) ) 
+  if ( IS_NPC(ch) )
 	return;
 
   if ( !is_wielded_char( ch, obj ) )
@@ -1515,19 +1515,19 @@ CHAR_DATA *victim;
   if (!IS_EVIL(victim)) return;
 
   if ( number_percent() < 10 )  {
-    send_to_char( 
-	"Your weapon swings at your victim's neck without your control!\n\r", ch);
+    send_to_char(
+	"Silahýn aniden rakibinin boynuna atýlýyor!\n\r", ch);
     if ( number_percent() < 20 )  {
-	act( "It makes an huge arc in the air, chopping $N's head OFF!",
+	act( "Silahýn havada bir yay çizerek $S kafasýný koparýyor!",
 	     ch, NULL, victim, TO_CHAR);
-	act( "$N's weapon whistles in the air, chopping your head OFF!",
+	act("$S silahý havada ýslýk çalarak senin kafaný koparýyor!",
 	     ch, NULL, victim, TO_NOTVICT);
-	act( "$n's weapon whistles in the air, chopping $N's head OFF!",
+	act( "$s silahý havada ýslýk çalarak $S kafasýný koparýyor!",
 	     ch, NULL, victim, TO_ROOM);
-	act( "$n is DEAD!!", victim, NULL, NULL, TO_ROOM );
-	act( "$n is DEAD!!", victim, NULL, NULL, TO_CHAR );
+	act( "$n ÖLDÜ!!", victim, NULL, NULL, TO_ROOM );
+	act( "$n ÖLDÜ!!", victim, NULL, NULL, TO_CHAR );
 	raw_kill_org( victim, 3 );
-	send_to_char( "You have been KILLED!!\n\r", victim );
+	send_to_char( "Ö L D Ü R Ü L D Ü N!!\n\r", victim );
 	return;
     }
   }
@@ -1540,8 +1540,8 @@ void wear_prog_wind_boots(OBJ_DATA *obj, CHAR_DATA *ch)
 
   if (!is_affected(ch, gsn_fly))
     {
-      send_to_char("As you wear wind boots on your feet, they hold you up.\n\r", ch);
-      send_to_char("You start to fly.\n\r", ch);
+      send_to_char("Rüzgar çizmelerini ayaðýna giydiðin anda uçmaya baþlýyorsun.\n\r", ch);
+      send_to_char("Uçmaya baþladýn.\n\r", ch);
 
       af.where = TO_AFFECTS;
       af.type = gsn_fly;
@@ -1559,8 +1559,8 @@ void remove_prog_wind_boots(OBJ_DATA *obj, CHAR_DATA *ch)
   if (is_affected(ch, gsn_fly))
     {
       affect_strip(ch, gsn_fly);
-      send_to_char("You fall down to the ground.\n\r", ch);
-      send_to_char("Ouch!.\n\r", ch);
+      send_to_char("Yere düþüyorsun.\n\r", ch);
+      send_to_char("Ahhh!.\n\r", ch);
     }
 }
 void wear_prog_boots_flying(OBJ_DATA *obj, CHAR_DATA *ch)
@@ -1569,8 +1569,8 @@ void wear_prog_boots_flying(OBJ_DATA *obj, CHAR_DATA *ch)
 
   if (!is_affected(ch, gsn_fly))
     {
-      send_to_char("As you wear boots of flying on your feet, they hold you up.\n\r", ch);
-      send_to_char("You start to fly.\n\r", ch);
+      send_to_char("Uçuþ botlarýný ayaklarýna giydiðin gibi havaya yükseliyorsun.\n\r", ch);
+      send_to_char("Uçmaya baþladýn.\n\r", ch);
 
       af.where = TO_AFFECTS;
       af.type = gsn_fly;
@@ -1587,8 +1587,8 @@ void remove_prog_boots_flying(OBJ_DATA *obj, CHAR_DATA *ch)
   if (is_affected(ch, gsn_fly))
     {
       affect_strip(ch, gsn_fly);
-      send_to_char("You fall down to the ground.\n\r", ch);
-      send_to_char("You start to walk again instead of flying!.\n\r", ch);
+      send_to_char("Yere düþtün.\n\r", ch);
+      send_to_char("Uçmak yerine yürümeye baþladýn!.\n\r", ch);
     }
 }
 
@@ -1599,8 +1599,8 @@ void wear_prog_arm_hercules(OBJ_DATA *obj, CHAR_DATA *ch)
 
   if (!is_affected(ch, gsn_giant_strength))
     {
-      send_to_char("As you wear your arms these plates, You feel your self getting stronger.\n\r", ch);
-      send_to_char("Your muscles seems incredibly huge.\n\r", ch);
+      send_to_char("Kolluklarý giydiðin anda güçlendiðini hissediyorsun.\n\r", ch);
+      send_to_char( "Kaslarýnýn irileþtiðini hissediyorsun.\n\r", ch);
 
       af.where = TO_AFFECTS;
       af.type = gsn_giant_strength;
@@ -1618,7 +1618,7 @@ void remove_prog_arm_hercules(OBJ_DATA *obj, CHAR_DATA *ch)
   if (is_affected(ch, gsn_giant_strength))
     {
       affect_strip(ch, gsn_giant_strength);
-      send_to_char("Your muscles regain its original value.\n\r", ch);
+      send_to_char("Kaslarýn doðal haline döndü.\n\r", ch);
     }
 }
 
@@ -1628,8 +1628,8 @@ void wear_prog_girdle_giant(OBJ_DATA *obj, CHAR_DATA *ch)
 
   if (!is_affected(ch, gsn_giant_strength))
     {
-      send_to_char("As you wear this girdle, You feel your self getting stronger.\n\r", ch);
-      send_to_char("Your muscles seems incredibly huge.\n\r", ch);
+      send_to_char("Kemeri giydiðin anda güçlendiðini hissediyorsun.\n\r", ch);
+      send_to_char("Kaslarýnýn irileþtiðini hissediyorsun.\n\r", ch);
 
       af.where = TO_AFFECTS;
       af.type = gsn_giant_strength;
@@ -1647,7 +1647,7 @@ void remove_prog_girdle_giant(OBJ_DATA *obj, CHAR_DATA *ch)
   if (is_affected(ch, gsn_giant_strength))
     {
       affect_strip(ch, gsn_giant_strength);
-      send_to_char("Your muscles regain its original value.\n\r", ch);
+      send_to_char("Kaslarýn doðal haline döndü.\n\r", ch);
     }
 }
 void wear_prog_breastplate_strength(OBJ_DATA *obj, CHAR_DATA *ch)
@@ -1656,8 +1656,8 @@ void wear_prog_breastplate_strength(OBJ_DATA *obj, CHAR_DATA *ch)
 
   if (!is_affected(ch, gsn_giant_strength))
     {
-      send_to_char("As you wear breastplate of strength, You feel yourself getting stronger.\n\r", ch);
-      send_to_char("Your muscles seems incredibly huge.\n\r", ch);
+      send_to_char( "Göðüslüðü giydiðin anda güçlendiðini hissediyorsun.\n\r", ch);
+      send_to_char( "Kaslarýnýn irileþtiðini hissediyorsun.\n\r", ch);
 
       af.where = TO_AFFECTS;
       af.type = gsn_giant_strength;
@@ -1675,14 +1675,14 @@ void remove_prog_breastplate_strength(OBJ_DATA *obj, CHAR_DATA *ch)
   if (is_affected(ch, gsn_giant_strength))
     {
       affect_strip(ch, gsn_giant_strength);
-      send_to_char("Your muscles regain its original value.\n\r", ch);
+      send_to_char("Kaslarýn doðal haline döndü.\n\r", ch);
     }
 }
 
 
 void fight_prog_rose_shield(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-  if (!( (ch->in_room->sector_type != SECT_FIELD) || 
+  if (!( (ch->in_room->sector_type != SECT_FIELD) ||
        (ch->in_room->sector_type != SECT_FOREST) ||
        (ch->in_room->sector_type != SECT_MOUNTAIN) ||
        (ch->in_room->sector_type != SECT_HILLS) ) )
@@ -1690,12 +1690,12 @@ void fight_prog_rose_shield(OBJ_DATA *obj, CHAR_DATA *ch)
 
   if (get_shield_char(ch) != obj )
   return;
-  
+
   if ( number_percent() < 90 )  return;
 
-  send_to_char("The leaves of your shield grows suddenly.\n\r",ch);
-  send_to_char("The leaves of shield surrounds you!.\n\r",ch->fighting);
-  act("$n's shield of rose grows suddenly.",ch,NULL,NULL,TO_ROOM);
+  send_to_char(  "Kalkanýndaki yapraklar irileþmeye baþlýyor.\n\r",ch);
+  send_to_char("Kalkanýn yapraklarý seni sarýyor!.\n\r",ch->fighting);
+  act("$s gül kalkaný irileþiyor.",ch,NULL,NULL,TO_ROOM);
   obj_cast_spell(gsn_slow,ch->level,ch,ch->fighting,NULL);
   return;
 }
@@ -1706,15 +1706,15 @@ void fight_prog_lion_claw(OBJ_DATA *obj, CHAR_DATA *ch)
 
  if ( is_wielded_char(ch,obj) )
  {
-  send_to_char("The nails of your claw appears form its fingers.\n\r",ch);
-  act_color("the nails of $n's claw appears for an instant.",
+   send_to_char("Parmaklarýn ucundan pençenin týrnaklarý beliriyor.\n\r",ch);
+   act_color("$s pençesinden bir an týrnaklar çýkýyor.",
 		ch,NULL,NULL,TO_ROOM,POS_DEAD,CLR_WHITE);
   one_hit(ch,ch->fighting,TYPE_HIT,FALSE);
   one_hit(ch,ch->fighting,TYPE_HIT,FALSE);
   one_hit(ch,ch->fighting,TYPE_HIT,FALSE);
   one_hit(ch,ch->fighting,TYPE_HIT,FALSE);
-  send_to_char("The nails of your claw disappears.\n\r",ch);
-  act_color("the nails of $n's claw disappears suddenly.",
+  send_to_char("Pençenin týrnaklarý yokoluyor.\n\r",ch);
+  act_color("$s pençesinin týrnaklarý yokoluyor.",
 	ch,NULL,NULL,TO_ROOM,POS_DEAD,CLR_WHITE);
   return;
 }
@@ -1725,11 +1725,11 @@ void fight_prog_lion_claw(OBJ_DATA *obj, CHAR_DATA *ch)
 void speech_prog_ring_ra(OBJ_DATA *obj, CHAR_DATA *ch, char *speech)
 {
 
-  if (!str_cmp(speech, "punish")   
+  if (!str_cmp(speech, "punish")
       && (ch->fighting) && is_equiped_char(ch,obj,WEAR_FINGER) )
     {
-      send_to_char("An electrical arc sprays from the ring.\n\r",ch);
-      act("An electrical arc sprays from the ring.",ch,NULL,NULL,TO_ROOM);
+      send_to_char("Bir elektrik arký yüzükten fýrlýyor.\n\r",ch);
+      act("Bir elektrik arký yüzükten fýrlýyor.",ch,NULL,NULL,TO_ROOM);
       obj_cast_spell(gsn_lightning_breath,ch->level,ch,ch->fighting,NULL);
       WAIT_STATE(ch, 2 * PULSE_VIOLENCE);
     }
@@ -1738,8 +1738,8 @@ void speech_prog_ring_ra(OBJ_DATA *obj, CHAR_DATA *ch, char *speech)
 
 void wear_prog_eyed_sword(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-  act("$p's eye opens.",ch,obj,NULL,TO_CHAR);
-  act("$p's eye opens.",ch,obj,NULL,TO_ROOM);
+  act("$p objesindeki göz açýlýyor.",ch,obj,NULL,TO_CHAR);
+  act("$p objesindeki göz açýlýyor.",ch,obj,NULL,TO_ROOM);
   if (  ch->level <= 10)			obj->value[2] = 2;
   else if ( ch->level > 10 && ch->level <= 20)   obj->value[2] = 3;
   else if ( ch->level > 20 && ch->level <= 30)   obj->value[2] = 4;
@@ -1756,7 +1756,7 @@ void wear_prog_eyed_sword(OBJ_DATA *obj, CHAR_DATA *ch)
 void wear_prog_katana_sword(OBJ_DATA *obj, CHAR_DATA *ch)
 {
   obj->value[2] = 2;
-  if ( obj->item_type == ITEM_WEAPON 
+  if ( obj->item_type == ITEM_WEAPON
 	&& IS_WEAPON_STAT(obj,WEAPON_KATANA)
 	&& strstr( obj->extra_descr->description, ch->name ) != NULL)
   {
@@ -1770,7 +1770,7 @@ void wear_prog_katana_sword(OBJ_DATA *obj, CHAR_DATA *ch)
    else if ( ch->level > 70 && ch->level <= 80)   obj->value[2] = 11;
    else obj->value[2] = 12;
    obj->level = ch->level;
-   send_to_char("You feel your katana like a part of you!\n\r",ch);
+   send_to_char("Katananýn senin bir parçan olduðunu hissediyorsun!\n\r",ch);
   }
   return;
 }
@@ -1781,9 +1781,9 @@ void fight_prog_tattoo_goktengri(OBJ_DATA *obj, CHAR_DATA *ch)
     switch(number_bits(4)) {
     case 0:
     case 1:
-      act_color("$CThe tattoo on your shoulder glows white.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_WHITE);
-      do_say(ch,(char*)"My honour is my life.");
+    act_color("$COmzundaki dövme beyaz renkte parlýyor.$c",
+     ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_WHITE);
+    do_say(ch,(char*)"Onurum hayatýmdýr.");
       one_hit(ch,ch->fighting,TYPE_UNDEFINED,FALSE);
       break;
     }
@@ -1792,10 +1792,8 @@ void fight_prog_tattoo_goktengri(OBJ_DATA *obj, CHAR_DATA *ch)
 
 void wear_prog_snake(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-  act_color("$CSnakes of whip starts to breath a poisonous air.$c",
-		ch,obj,NULL,TO_CHAR,POS_DEAD,CLR_GREEN);
-  act_color("$CSnakes of whip starts to breath a poisonous air.$c",
-		ch,obj,NULL,TO_ROOM,POS_DEAD,CLR_GREEN);
+  act_color("$CKýrbacýn yýlanlarý zehirli bir gaz salmaya baþlýyor.$c",ch,obj,NULL,TO_CHAR,POS_DEAD,CLR_GREEN);
+  act_color("$CKýrbacýn yýlanlarý zehirli bir gaz salmaya baþlýyor.$c",ch,obj,NULL,TO_ROOM,POS_DEAD,CLR_GREEN);
   if ( ch->level > 20 && ch->level <= 30)       obj->value[2] = 4;
   else if ( ch->level > 30 && ch->level <= 40)   obj->value[2] = 5;
   else if ( ch->level > 40 && ch->level <= 50)   obj->value[2] = 6;
@@ -1810,26 +1808,24 @@ void wear_prog_snake(OBJ_DATA *obj, CHAR_DATA *ch)
 
 void remove_prog_snake(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-  act_color("$CSnakes of whip slowly melds to non-living skin.$c",
-		ch,obj,NULL,TO_CHAR,POS_DEAD,CLR_RED);
-  act_color("$CSnakes of whip slowy melds to non-living skin.$c",
-		ch,obj,NULL,TO_ROOM,POS_DEAD,CLR_RED);
+  act_color("$CKýrbacýn yýlanlarý kabartmalara dönüþüyor.$c",ch,obj,NULL,TO_CHAR,POS_DEAD,CLR_RED);
+  act_color("$CKýrbacýn yýlanlarý kabartmalara dönüþüyor.$c",ch,obj,NULL,TO_ROOM,POS_DEAD,CLR_RED);
 }
 
-void get_prog_snake(OBJ_DATA *obj, CHAR_DATA *ch) 
+void get_prog_snake(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-  act("You feel as if snakes of whip moved.",ch,obj,NULL,TO_CHAR);
+  act("Kalkanýn yýlanlarýnýn uykuya daldýðýný hissediyorsun.",ch,obj,NULL,TO_CHAR);
 }
 
 void wear_prog_fire_shield(OBJ_DATA *obj, CHAR_DATA *ch)
 {
   AFFECT_DATA af;
 
-  if ( strstr( obj->extra_descr->description, "cold" ) != NULL )  
+  if ( strstr( obj->extra_descr->description, "cold" ) != NULL )
    {
     if (!is_affected(ch, gsn_fire_shield))
     {
-      send_to_char("As you wear shield, you become resistive to cold.\n\r", ch);
+      send_to_char( "Kalkaný kullanmaya baþladýðýnda soðuða karþý dayanýklýlaþýyorsun.\n\r", ch);
 
       af.where = TO_RESIST;
       af.type = gsn_fire_shield;
@@ -1845,7 +1841,7 @@ void wear_prog_fire_shield(OBJ_DATA *obj, CHAR_DATA *ch)
    {
     if (!is_affected(ch, gsn_fire_shield))
     {
-      send_to_char("As you wear shield, you become resistive to fire.\n\r", ch);
+      send_to_char("Kalkaný kullanmaya baþladýðýnda sýcaða karþý dayanýklýlaþýyorsun.\n\r", ch);
 
       af.where = TO_RESIST;
       af.type = gsn_fire_shield;
@@ -1856,7 +1852,7 @@ void wear_prog_fire_shield(OBJ_DATA *obj, CHAR_DATA *ch)
       af.modifier = 0;
       affect_to_char(ch, &af);
     }
-   }  
+   }
 }
 
 void remove_prog_fire_shield(OBJ_DATA *obj, CHAR_DATA *ch)
@@ -1864,18 +1860,18 @@ void remove_prog_fire_shield(OBJ_DATA *obj, CHAR_DATA *ch)
   if (is_affected(ch, gsn_fire_shield))
     {
       affect_strip(ch, gsn_fire_shield);
-      if ( strstr( obj->extra_descr->description, "cold" ) != NULL )  
-       send_to_char("You have become normal to cold attacks.\n\r", ch);
-      else  send_to_char("You have become normal to fire attacks.\n\r", ch);
+      if ( strstr( obj->extra_descr->description, "cold" ) != NULL )
+      send_to_char("Soðuk saldýrýlarýna karþý korunman azalýyor.\n\r", ch);
+     else  send_to_char( "Ateþ saldýrýlarýna karþý korunman azalýyor.\n\r", ch);
     }
 }
 
 
 void wear_prog_quest_weapon(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-  if ( strstr( obj->short_descr, ch->name ) != NULL )  
+  if ( strstr( obj->short_descr, ch->name ) != NULL )
   {
-    send_ch_color("$CYour weapon starts glowing.$c",ch,POS_SLEEPING,CLR_BLUE);
+    send_ch_color("$CSilahýn parlamaya baþlýyor.$c",ch,POS_SLEEPING,CLR_BLUE);
     if ( ch->level > 20 && ch->level <= 30)	   obj->value[2] = 4;
     else if ( ch->level > 30 && ch->level <= 40)   obj->value[2] = 5;
     else if ( ch->level > 40 && ch->level <= 50)   obj->value[2] = 6;
@@ -1887,7 +1883,7 @@ void wear_prog_quest_weapon(OBJ_DATA *obj, CHAR_DATA *ch)
     return;
   }
 
-  act( "You are zapped by $p and drop it.", ch, obj, NULL, TO_CHAR );
+  act( "Sen $p tarafýndan çarpýldýn ve onu düþürdün.", ch, obj, NULL, TO_CHAR );
 
   obj_from_char( obj );
   obj_to_room( obj, ch->in_room );
@@ -1895,16 +1891,16 @@ void wear_prog_quest_weapon(OBJ_DATA *obj, CHAR_DATA *ch)
 }
 
 
-void get_prog_quest_reward(OBJ_DATA *obj, CHAR_DATA *ch) 
+void get_prog_quest_reward(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-  if ( strstr( obj->short_descr, ch->name ) != NULL )  
+  if ( strstr( obj->short_descr, ch->name ) != NULL )
   {
-    act_color("$CYour $p starts glowing.\n\r$c",
+    act_color("$C$p parlamaya baþladý.\n\r$c",
 		ch,obj,NULL,TO_CHAR,POS_SLEEPING,CLR_BLUE);
     return;
   }
 
-  act( "You are zapped by $p and drop it.", ch, obj, NULL, TO_CHAR );
+  act( "Sen $p tarafýndan çarpýldýn ve onu düþürdün.", ch, obj, NULL, TO_CHAR );
 
   obj_from_char( obj );
   obj_to_room( obj, ch->in_room );
@@ -1915,18 +1911,18 @@ void fight_prog_ancient_gloves( OBJ_DATA *obj, CHAR_DATA *ch )
 {
  int dam;
 
- if ( get_eq_char(ch, WEAR_HANDS) != obj 
+ if ( get_eq_char(ch, WEAR_HANDS) != obj
 	|| get_wield_char(ch, FALSE) != NULL)
         return;
 
  if (number_percent() < 20)
  {
    dam = number_percent() + dice(ch->level, 14);
-   act( "As you touch $N, the flame within your hands blows UP on $N!", 
+   act("$E dokunmanla elindeki alevin ona vurmasý bir oluyor!",
 	ch, NULL, ch->fighting,TO_CHAR);
-   act( "As $n touches $N, the flame within $s hands blows UP on $N!",
+   act(  "$s $E dokunmasýyla $s elindeki alevin $M vurmasý bir oluyor!",
 	ch, NULL, ch->fighting,TO_NOTVICT);
-   act( "As $N touches you, the flame within $S hands blows UP on YOU!"
+   act("$S sana dokunmasýyla elindeki alevin seni vurmasý bir oluyor!"
 	, ch->fighting, NULL,ch,TO_CHAR);
    fire_effect( ch->fighting, obj->level,dam, TARGET_CHAR );
    damage( ch, ch->fighting, dam, gsn_burning_hands, DAM_FIRE, TRUE);
@@ -1937,15 +1933,15 @@ void fight_prog_ancient_gloves( OBJ_DATA *obj, CHAR_DATA *ch )
 
 void remove_prog_ancient_gloves(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-        send_to_char("The flame within your hands disappears.\n\r", ch );
+  send_to_char("Ellerindeki alev yokoluyor.\n\r", ch );
         return;
 }
 
 void wear_prog_ancient_gloves(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-        send_to_char( "A flame starts to burn within your hands!\n\r", ch );
+  send_to_char("Ellerinde bir alev dans etmeye baþlýyor!\n\r", ch );
         return;
-} 
+}
 
 void fight_prog_ancient_shield(OBJ_DATA *obj, CHAR_DATA *ch)
 {
@@ -1955,22 +1951,22 @@ void fight_prog_ancient_shield(OBJ_DATA *obj, CHAR_DATA *ch)
  if ( get_shield_char( ch ) != obj )
         return;
 
- if ( (chance = number_percent()) < 5) 
+ if ( (chance = number_percent()) < 5)
  {
    dam = dice(ch->level, 20);
-   act("Your shield SHIMMERS brightly!", ch, NULL,ch->fighting,TO_CHAR);
-   act("$n's shield SHIMMERS brightly!", ch, NULL,ch->fighting,TO_VICT);
-   act("$n's shield SHIMMERS brightly!", ch, NULL,ch->fighting,TO_NOTVICT);
+   act("Kalkanýn ýþýk saçmaya baþladý!", ch, NULL,ch->fighting,TO_CHAR);
+   act("$s kalkaný ýþýk saçmaya baþladý!", ch, NULL,ch->fighting,TO_VICT);
+   act("$s kalkaný ýþýk saçmaya baþladý!", ch, NULL,ch->fighting,TO_NOTVICT);
    fire_effect( ch->fighting, obj->level/2, dam, TARGET_CHAR );
    damage( ch, ch->fighting, dam, gsn_fire_breath, DAM_FIRE, TRUE);
  }
- else if ( chance < 10 ) 
+ else if ( chance < 10 )
  {
-   act("Your shield shines with a bright red aura!", 
+   act("Kalkanýn kýzýl bir aurayla parlamaya baþladý!",
 	ch, NULL,ch->fighting,TO_CHAR);
-   act("$n's shield shine with a bright red aura!",
+   act("$s kalkaný kýzýl bir aurayla parlamaya baþladý!",
 	 ch, NULL,ch->fighting,TO_VICT);
-   act("$n's shield shines with a bright red aura!", 
+   act("$s kalkaný kýzýl bir aurayla parlamaya baþladý!",
 	ch, NULL,ch->fighting,TO_NOTVICT);
    obj_cast_spell(gsn_blindness, ch->level+ 5, ch, ch->fighting,obj);
    obj_cast_spell(gsn_slow, ch->level + 5, ch, ch->fighting, obj);
@@ -1980,10 +1976,8 @@ void fight_prog_ancient_shield(OBJ_DATA *obj, CHAR_DATA *ch)
 
 void remove_prog_ancient_shield(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-  act_color("$CYour shield returns to its original form.$c",
-                ch,obj,NULL,TO_CHAR,POS_DEAD,CLR_RED);
-  act_color("$CYour shield returns to its original form.$c",
-                ch,obj,NULL,TO_ROOM,POS_DEAD,CLR_RED);
+  act_color(  "$CKalkanýn eski haline dönüyor.$c",ch,obj,NULL,TO_CHAR,POS_DEAD,CLR_RED);
+  act_color(  "$C$s kalkaný eski haline dönüyor.$c",ch,obj,NULL,TO_ROOM,POS_DEAD,CLR_RED);
   return;
 
 }
@@ -1991,12 +1985,12 @@ void remove_prog_ancient_shield(OBJ_DATA *obj, CHAR_DATA *ch)
 void wear_prog_ancient_shield(OBJ_DATA *obj, CHAR_DATA *ch)
 {
   act_color(
- "$CYour shield changes its shape and surrounds itself with dragon skin.\n\r"
- "A dragon head gets born on the upper surface of the shield and opens its mouth!$c",
+ "$CKalkanýn þekil deðiþtirerek bir ejderhaya benzemeye baþlýyor.\n\r"
+ "Kalkanýn üstünden yükselen bir ejderha baþý aðzýný açýyor!$c",
                 ch,obj,NULL,TO_CHAR,POS_DEAD,CLR_RED);
   act_color(
- "$C$n's shield changes its shape and surrounds itself with dragon skin.\n\r"
- "A dragon head gets born on the upper surface of the shield and opens its mouth!$c",
+ "$C$s kalkaný þekil deðiþtirerek bir ejderhaya benzemeye baþlýyor.\n\r"
+ "Kalkanýn üstünden yükselen bir ejderha baþý aðzýný açýyor!$c",
                 ch,obj,NULL,TO_ROOM,POS_DEAD,CLR_RED);
   return;
 }

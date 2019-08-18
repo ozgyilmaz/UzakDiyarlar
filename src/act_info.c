@@ -1900,7 +1900,7 @@ void do_score( CHAR_DATA *ch, char *argument )
 	printf_to_char(ch,"{G| Irk     : {R%-8s{G | ZIRH         | PARA                           |\n\r",race_table[ch->race].name[1]);
 	printf_to_char(ch,"{G| Yaþ     : {R%-8d{G | Delici : {R%-3d{G | Altýn       : {R%-7ld{G          |\n\r",get_age(ch),GET_AC(ch,AC_PIERCE),ch->gold);
 	printf_to_char(ch,"{G| Cinsiyet: {R%-8s{G | Ezici  : {R%-3d{G | Akçe        : {R%-7ld{G          |\n\r",sex,GET_AC(ch,AC_BASH),ch->silver);
-	printf_to_char(ch,"{G| Sýnýf   : {R%-8s{G | Kesici : {R%-3d{G | Altýn(Banka): {R%-7ld{G          |\n\r",IS_NPC(ch) ? "mobil" : class_table[ch->iclass].name_tr,GET_AC(ch,AC_SLASH),IS_NPC(ch) ? 0 : ch->pcdata->bank_g);
+	printf_to_char(ch,"{G| Sýnýf   : {R%-8s{G | Kesici : {R%-3d{G | Altýn(Banka): {R%-7ld{G          |\n\r",IS_NPC(ch) ? "mobil" : class_table[ch->iclass].name[1],GET_AC(ch,AC_SLASH),IS_NPC(ch) ? 0 : ch->pcdata->bank_g);
 	printf_to_char(ch,"{G| Yönelim : {R%-8d{G | Egzotik: {R%-3d{G | Akçe (Banka): {R%-7ld{G          |\n\r",ch->alignment,GET_AC(ch,AC_EXOTIC),IS_NPC(ch) ? 0 : ch->pcdata->bank_s);
 	printf_to_char(ch,"{G|--------------------'--------------|--------------------------------,{x\n\r");
 	printf_to_char(ch,"{G| Yp    : {R%-5d/%-5d{G| Güç: {R%-2d(%-2d){G  | Pratik : {R%-3d{G                   |\n\r",ch->hit,  ch->max_hit,ch->perm_stat[STAT_STR],get_curr_stat(ch,STAT_STR),ch->practice);
@@ -1924,7 +1924,6 @@ void do_score( CHAR_DATA *ch, char *argument )
 void do_affects(CHAR_DATA *ch, char *argument )
 {
     AFFECT_DATA *paf, *paf_last = NULL;
-    char buf[MAX_STRING_LENGTH];
 
     if (IS_SET(ch->act,PLR_COLOR) )
 	{
@@ -1990,22 +1989,47 @@ const char *	month_name	[] =
 
 void do_time( CHAR_DATA *ch, char *argument )
 {
-    extern char str_boot_time[];
-
+    char buf[MAX_STRING_LENGTH];
+    char buf2[MAX_STRING_LENGTH];
     int day;
 
     day     = time_info.day + 1;
 
-    printf_to_char( ch,
-	"Saat %d, %s günü. %s ayýnýn %d. günü.\n\r",
+    sprintf( buf,
+	"Saat %d, günlerden %s ve %s ayýnýn %d. günü.\n\r",
 	time_info.hour,
 	day_name[day % 7],
 	month_name[time_info.month],
 	day);
-    printf_to_char(ch,"UD açýlýþ saati: %s\n\rSistem zamaný: %s.\n\r",
-	str_boot_time,
-	(char *) ctime( &current_time )
-	);
+
+    send_to_char(buf,ch);
+
+    if ( !IS_SET(ch->in_room->room_flags,ROOM_INDOORS) ||
+         IS_IMMORTAL(ch) )
+    {
+      sprintf( buf, "Þu an$C %s. $c",
+         (time_info.hour>=5 && time_info.hour<9)? "tan zamaný":
+         (time_info.hour>=9 && time_info.hour<12)? "sabah":
+         (time_info.hour>=12 && time_info.hour<18)? "gün ortasý":
+         (time_info.hour>=18 && time_info.hour<21)? "akþam":
+         "gece" );
+
+      act_color( buf, ch, NULL, NULL, TO_CHAR, POS_RESTING,
+         (time_info.hour>=5 && time_info.hour<9)? COLOR_DAWN:
+         (time_info.hour>=9 && time_info.hour<12)? COLOR_MORNING:
+         (time_info.hour>=12 && time_info.hour<18)? COLOR_DAY:
+         (time_info.hour>=18 && time_info.hour<21)? COLOR_EVENING:
+         COLOR_NIGHT, CLR_NORMAL );
+    }
+
+    if ( !IS_IMMORTAL( ch ) )
+      return;
+
+    sprintf(buf2, "%s", (char *) ctime( &boot_time ));
+    sprintf(buf,"Uzak Diyarlar baþlangýç saati %s.\n\rSistem zamaný %s.\n\r",
+	buf2, (char *) ctime( &current_time ) );
+
+    send_to_char( buf, ch );
     return;
 }
 
@@ -2013,7 +2037,6 @@ void do_time( CHAR_DATA *ch, char *argument )
 
 void do_weather( CHAR_DATA *ch, char *argument )
 {
-    char buf[MAX_STRING_LENGTH];
 
     static const char * sky_look[4] =
     {
@@ -2949,13 +2972,13 @@ void do_consider( CHAR_DATA *ch, char *argument )
 
     diff = victim->level - ch->level;
 
-    if ( diff <= -10 ) msg = "$G çýplak ve silahsýzken bile öldürürsün.";
-else if ( diff <=  -5 ) msg = "$N sana antrenman bile yaptýramaz.";
-else if ( diff <=  -2 ) msg = "$N kolayca öldürülebilir.";
-else if ( diff <=   1 ) msg = "Tam diþine göre!";
-else if ( diff <=   4 ) msg = "Kendini þanslý hissediyor musun?";
-else if ( diff <=   9 ) msg = "$N acýmasýzca gülüyor.";
-else                    msg = "Ýntihar günahtýr!";
+     if ( diff <= -10 ) msg = (char*)"$G çýplak ve silahsýzken bile öldürürsün.";
+else if ( diff <=  -5 ) msg = (char*)"$N sana antrenman bile yaptýramaz.";
+else if ( diff <=  -2 ) msg = (char*)"$N kolayca öldürülebilir.";
+else if ( diff <=   1 ) msg = (char*)"Tam diþine göre!";
+else if ( diff <=   4 ) msg = (char*)"Kendini þanslý hissediyor musun?";
+else if ( diff <=   9 ) msg = (char*)"$N acýmasýzca gülüyor.";
+else                    msg = (char*)"Ýntihar günahtýr!";
 
     if (IS_EVIL(ch) && IS_EVIL(victim))
       align = (char*)"$N seninle birlikte kötücül þekilde sýrýtýyor.";
@@ -3151,7 +3174,7 @@ void do_practice( CHAR_DATA *ch, char *argument )
 		continue;
 
 	    sprintf( buf, "%-18s %3d%%  ",
-		skill_table[sn].name, ch->pcdata->learned[sn] );
+		skill_table[sn].name[1], ch->pcdata->learned[sn] );
 	    strcat( buf2, buf );
 	    if ( ++col % 3 == 0 )
 		strcat( buf2, "\n\r" );
@@ -3255,7 +3278,7 @@ void do_practice( CHAR_DATA *ch, char *argument )
  */
 void do_wimpy( CHAR_DATA *ch, char *argument )
 {
-    char buf[MAX_STRING_LENGTH];
+
     char arg[MAX_INPUT_LENGTH];
     int wimpy;
 
@@ -3946,11 +3969,11 @@ void do_score_col( CHAR_DATA *ch, char *argument )
     }
 
   sprintf(buf, "Race: %s%s%s  Sex: %s%s%s  Class: %s%s%s  Hometown: %s%s%s\n\r",
-	CLR_BLUE_BOLD,race_table[ORG_RACE(ch)].name,CLR_WHITE_BOLD,
+	CLR_BLUE_BOLD,race_table[ORG_RACE(ch)].name[1],CLR_WHITE_BOLD,
 	CLR_BLUE_BOLD,
 	ch->sex == 0 ? "sexless" : ch->sex == 1 ? "male" : "female",
 	CLR_WHITE_BOLD,CLR_BLUE_BOLD,
- 	IS_NPC(ch) ? "mobile" : class_table[ch->iclass].name,
+ 	IS_NPC(ch) ? "mobile" : class_table[ch->iclass].name[1],
 	CLR_WHITE_BOLD,CLR_BLUE_BOLD,
 	IS_NPC(ch) ? "Midgaard" : hometown_table[ch->hometown].name,
 	CLR_WHITE_BOLD);
@@ -4260,7 +4283,7 @@ void do_score_col( CHAR_DATA *ch, char *argument )
 	{
 	    sprintf( buf, "%sSpell%s: '%s%s%s'",
 		CLR_RED,CLR_WHITE_BOLD,CLR_YELLOW,
-		skill_table[paf->type].name,CLR_WHITE_BOLD );
+		skill_table[paf->type].name[1],CLR_WHITE_BOLD );
 	    send_to_char( buf, ch );
 
 	    if ( ch->level >= 20 )
@@ -4306,7 +4329,7 @@ void do_affects_col(CHAR_DATA *ch, char *argument )
 	    else
       sprintf( buf, "%sBüyü%s: %s%-15s%s",
 		CLR_RED,CLR_WHITE_BOLD,CLR_YELLOW,
-		skill_table[paf->type].name ,CLR_WHITE_BOLD);
+		skill_table[paf->type].name[1] ,CLR_WHITE_BOLD);
 
 	    send_to_char( buf, ch );
 
@@ -4456,12 +4479,12 @@ char *get_cond_alias( OBJ_DATA *obj)
 
  istat = obj->condition;
 
- if      ( istat >  90 ) stat = "kusursuz";
- else if ( istat >= 80 ) stat = "iyi";
- else if ( istat >= 60 ) stat = "fena deðil";
- else if ( istat >= 40 ) stat = "vasat";
- else if ( istat >= 20 ) stat = "hasarlý";
- else                    stat = "kýrýlgan";
+ if      ( istat >  90 ) stat = (char*)"kusursuz";
+ else if ( istat >= 80 ) stat = (char*)"iyi";
+ else if ( istat >= 60 ) stat = (char*)"fena deðil";
+ else if ( istat >= 40 ) stat = (char*)"vasat";
+ else if ( istat >= 20 ) stat = (char*)"hasarlý";
+ else                    stat = (char*)"kýrýlgan";
 
  return stat;
 }
@@ -4537,7 +4560,7 @@ void do_pracnew( CHAR_DATA *ch, char *argument )
 		continue;
 
 	    sprintf( buf, "%-18s %3d%%  ",
-		skill_table[sn].name, ch->pcdata->learned[sn] );
+		skill_table[sn].name[1], ch->pcdata->learned[sn] );
 	    strcat( buf2, buf );
 	    if ( ++col % 3 == 0 )
 		strcat( buf2, "\n\r" );
@@ -4620,7 +4643,7 @@ void do_pracnew( CHAR_DATA *ch, char *argument )
 	if ( ch->pcdata->learned[sn] >= adept )
 	{
     sprintf( buf, "Zaten %s konusunu öðrendin.\n\r",
-		skill_table[sn].name );
+		skill_table[sn].name[1] );
 	    send_to_char( buf, ch );
 	}
 	else
@@ -5350,7 +5373,7 @@ void do_nscore( CHAR_DATA *ch, char *argument )
 	printf_to_char(ch,"{G| Irk     : {R%-8s{G | ZIRH         | PARA                           |\n\r",race_table[victim->race].name[1]);
 	printf_to_char(ch,"{G| Yaþ     : {R%-8d{G | Delici : {R%-3d{G | Altýn       : {R%-7ld{G          |\n\r",get_age(victim),GET_AC(victim,AC_PIERCE),victim->gold);
 	printf_to_char(ch,"{G| Cinsiyet: {R%-8s{G | Ezici  : {R%-3d{G | Akçe        : {R%-7ld{G          |\n\r",sex,GET_AC(victim,AC_BASH),victim->silver);
-	printf_to_char(ch,"{G| Sýnýf   : {R%-8s{G | Kesici : {R%-3d{G | Altýn(Banka): {R%-7ld{G          |\n\r",IS_NPC(victim) ? "mobil" : class_table[victim->iclass].name_tr,GET_AC(victim,AC_SLASH),victim->pcdata->bank_g);
+	printf_to_char(ch,"{G| Sýnýf   : {R%-8s{G | Kesici : {R%-3d{G | Altýn(Banka): {R%-7ld{G          |\n\r",IS_NPC(victim) ? "mobil" : class_table[victim->iclass].name[1],GET_AC(victim,AC_SLASH),victim->pcdata->bank_g);
 	printf_to_char(ch,"{G| Yönelim : {R%-8d{G | Egzotik: {R%-3d{G | Akçe (Banka): {R%-7ld{G          |\n\r",victim->alignment,GET_AC(victim,AC_EXOTIC),victim->pcdata->bank_s);
 	printf_to_char(ch,"{G|--------------------'--------------|--------------------------------,{x\n\r");
 	printf_to_char(ch,"{G| Yp    : {R%-5d/%-5d{G| Güç: {R%-2d(%-2d){G  | Pratik : {R%-3d{G                   |\n\r",victim->hit,  victim->max_hit,victim->perm_stat[STAT_STR],get_curr_stat(victim,STAT_STR),victim->practice);
@@ -5407,7 +5430,7 @@ void do_nscore_col( CHAR_DATA *ch, char *argument )
     sprintf( buf,
 "     | %sRace :%s  %-11s  %s|  %sInt:%s  %2d(%2d)  %s| %sPractice  :%s   %3d       %s|\n\r",
 		CLR_RED_BOLD,CLR_WHITE_BOLD,
-		race_table[ORG_RACE(ch)].name,CLR_CYAN_BOLD,
+		race_table[ORG_RACE(ch)].name[1],CLR_CYAN_BOLD,
 		CLR_RED_BOLD,CLR_WHITE_BOLD,
 		ch->perm_stat[STAT_INT], get_curr_stat(ch,STAT_INT),
 		CLR_CYAN_BOLD,CLR_RED_BOLD,CLR_WHITE_BOLD,ch->practice,
@@ -5426,7 +5449,7 @@ void do_nscore_col( CHAR_DATA *ch, char *argument )
     sprintf( buf,
 "     | %sClass:%s  %-12s %s|  %sDex:%s  %2d(%2d)  %s| %sQuest Pnts:%s  %4d       %s|\n\r",
 		CLR_RED_BOLD,CLR_WHITE_BOLD,
-		IS_NPC(ch) ? "mobile" : class_table[ch->iclass].name,
+		IS_NPC(ch) ? "mobile" : class_table[ch->iclass].name[1],
 		CLR_CYAN_BOLD,CLR_RED_BOLD,CLR_WHITE_BOLD,
 		ch->perm_stat[STAT_DEX], get_curr_stat(ch,STAT_DEX),
 		CLR_CYAN_BOLD,CLR_RED_BOLD,CLR_WHITE_BOLD,

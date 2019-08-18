@@ -83,9 +83,12 @@ int skill_lookup( const char *name )
     {
 	if ( skill_table[sn].name == NULL )
 	    break;
-	if ( LOWER(name[0]) == LOWER(skill_table[sn].name[0])
-	&&   !str_prefix( name, skill_table[sn].name ) )
+	if ( LOWER(name[0]) == LOWER(skill_table[sn].name[0][0])
+	&&   !str_prefix( name, skill_table[sn].name[0] ) )
 	    return sn;
+      if ( LOWER(name[0]) == LOWER(skill_table[sn].name[1][0])
+      &&   !str_prefix( name, skill_table[sn].name[1] ) )
+          return sn;
     }
 
     return -1;
@@ -103,8 +106,17 @@ int find_spell( CHAR_DATA *ch, const char *name )
     {
 	if (skill_table[sn].name == NULL)
 	    break;
-	if (LOWER(name[0]) == LOWER(skill_table[sn].name[0])
-	&&  !str_prefix(name,skill_table[sn].name))
+	if (LOWER(name[0]) == LOWER(skill_table[sn].name[0][0])
+	&&  !str_prefix(name,skill_table[sn].name[0]))
+	{
+	    if ( found == -1)
+		found = sn;
+	    if (ch->level >= skill_table[sn].skill_level[ch->iclass]
+	    &&  ch->pcdata->learned[sn] > 0)
+		    return sn;
+	}
+  if (LOWER(name[0]) == LOWER(skill_table[sn].name[1][0])
+	&&  !str_prefix(name,skill_table[sn].name[1]))
 	{
 	    if ( found == -1)
 		found = sn;
@@ -672,7 +684,7 @@ void do_cast( CHAR_DATA *ch, char *argument )
 	    if ( IS_AFFECTED(ch, AFF_CHARM) && ch->master == victim )
 	    {
         send_to_char("Takipçine bunu yapamazsýn.\n\r",ch );
-		    ch );
+
 		return;
 	    }
 
@@ -723,7 +735,7 @@ void do_cast( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( str_cmp( skill_table[sn].name, "ventriloquate" ) )
+    if ( str_cmp( skill_table[sn].name[0], "ventriloquate" ) )
 	say_spell( ch, sn );
 
     WAIT_STATE( ch, skill_table[sn].beats );
@@ -3719,7 +3731,7 @@ void spell_heat_metal( int sn, int level, CHAR_DATA *ch, void *vo,int target )
 		    else /* YOWCH! */
 		    {
           send_to_char("Silahýn etini yakýyor!\n\r",victim);
-			    victim);
+
 			dam += number_range(1,obj_lose->level);
 			fail = FALSE;
 		    }
@@ -3889,28 +3901,28 @@ void spell_identify( int sn, int level, CHAR_DATA *ch, void *vo,int target )
 	if ( obj->value[1] >= 0 && obj->value[1] < MAX_SKILL )
 	{
 	    send_to_char( " '", ch );
-	    send_to_char( skill_table[obj->value[1]].name, ch );
+	    send_to_char( skill_table[obj->value[1]].name[1], ch );
 	    send_to_char( "'", ch );
 	}
 
 	if ( obj->value[2] >= 0 && obj->value[2] < MAX_SKILL )
 	{
 	    send_to_char( " '", ch );
-	    send_to_char( skill_table[obj->value[2]].name, ch );
+	    send_to_char( skill_table[obj->value[2]].name[1], ch );
 	    send_to_char( "'", ch );
 	}
 
 	if ( obj->value[3] >= 0 && obj->value[3] < MAX_SKILL )
 	{
 	    send_to_char( " '", ch );
-	    send_to_char( skill_table[obj->value[3]].name, ch );
+	    send_to_char( skill_table[obj->value[3]].name[1], ch );
 	    send_to_char( "'", ch );
 	}
 
 	if (obj->value[4] >= 0 && obj->value[4] < MAX_SKILL)
 	{
 	    send_to_char(" '",ch);
-	    send_to_char(skill_table[obj->value[4]].name,ch);
+	    send_to_char(skill_table[obj->value[4]].name[1],ch);
 	    send_to_char("'",ch);
 	}
 
@@ -3926,7 +3938,7 @@ void spell_identify( int sn, int level, CHAR_DATA *ch, void *vo,int target )
 	if ( obj->value[3] >= 0 && obj->value[3] < MAX_SKILL )
 	{
 	    send_to_char( " '", ch );
-	    send_to_char( skill_table[obj->value[3]].name, ch );
+	    send_to_char( skill_table[obj->value[3]].name[1], ch );
 	    send_to_char( "'", ch );
 	}
 
@@ -3947,7 +3959,7 @@ void spell_identify( int sn, int level, CHAR_DATA *ch, void *vo,int target )
 	if (obj->value[4] != 100)
 	{
     sprintf(buf,"Aðýrlýk çarpaný: %d%%\n\r",obj->value[4]);
-		obj->value[4]);
+
 	    send_to_char(buf,ch);
 	}
 	break;
@@ -6550,7 +6562,6 @@ void spell_summon_light_elm( int sn, int level, CHAR_DATA *ch, void *vo,int targ
   if (is_affected(ch,sn))
     {
       send_to_char("Baþka bir uþak yaratacak güce sahip deðilsin.\n\r",ch);
-                   ch);
       return;
     }
 
