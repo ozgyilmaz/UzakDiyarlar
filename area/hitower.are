@@ -150,9 +150,9 @@ FU 0 0 0
 stand stand male 0
 0 0 medium 0
 #1310
-oldstyle jailor mage~
-the Jailor~
-The Jailor is here enjoying a comfortable nap.
+gardiyan büyücü~
+Gardiyan~
+Gardiyan burada, keyifle þekerleme yapýyor.
 ~
 He looks rather dirty.
 ~
@@ -5525,7 +5525,7 @@ O 1384 remove_prog remove_prog_bracer		* Glinting silver bracelet.
 S
 
 #OLIMITS
-O 1384 3	
+O 1384 3
 S
 
 #PRACTICERS

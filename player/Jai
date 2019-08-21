@@ -1,0 +1,280 @@
+#PLAYER
+Name Jai~
+Id   1566157726
+LogO 1566160101
+Vers 7
+Etho 3
+Home 0
+Cab  0
+Dead 0
+Ques 0
+Prom <%n: %hhp %mm %vmv Opp:<%o>> ~
+Race duergar~
+Sex  1
+Cla  5
+Levl 100
+Plyd 0
+Not  0 0 0 0 0
+Scro 22
+Room 3001
+HMV  97 131 123
+Gold 0
+Silv 114
+Banks 0
+Bankg 0
+Exp  6274
+Act  DEFIOQ
+Comm NO
+Pos  8
+Prac 10
+Alig  -1000
+Attr 23 19 19 22 22 20
+Pass JaDleNmPQniqQ~
+Titl , Cani~
+Pnts 550
+TSex 1
+LLev 0
+HMVP 97 131 123
+CndC  0 0 5 5 48 48
+Alias 1 omuz~
+Alias 2 kurban tümü~
+Sk 1 'black death'
+Sk 1 'blindness'
+Sk 1 'charm person'
+Sk 1 'chill touch'
+Sk 1 'cure light'
+Sk 1 'curse'
+Sk 1 'deadly venom'
+Sk 1 'deafen'
+Sk 1 'detect invis'
+Sk 1 'dispel good'
+Sk 1 'energy drain'
+Sk 1 'etheral fist'
+Sk 1 'fireball'
+Sk 1 'harm'
+Sk 1 'hurricane'
+Sk 1 'iceball'
+Sk 1 'invisibility'
+Sk 1 'know alignment'
+Sk 1 'lethargic mist'
+Sk 1 'lightning bolt'
+Sk 1 'magic missile'
+Sk 1 'mind wrack'
+Sk 1 'mind wrench'
+Sk 1 'mysterious dream'
+Sk 1 'plague'
+Sk 1 'poison'
+Sk 1 'protection good'
+Sk 1 'power word stun'
+Sk 1 'sleep'
+Sk 1 'slow'
+Sk 1 'soul bind'
+Sk 1 'summon'
+Sk 1 'teleport'
+Sk 1 'axe'
+Sk 1 'dagger'
+Sk 1 'flail'
+Sk 1 'mace'
+Sk 1 'polearm'
+Sk 1 'shield block'
+Sk 1 'spear'
+Sk 75 'sword'
+Sk 1 'whip'
+Sk 1 'second weapon'
+Sk 77 'bash'
+Sk 1 'bash door'
+Sk 100 'berserk'
+Sk 1 'cleave'
+Sk 1 'cross block'
+Sk 1 'dirt kicking'
+Sk 1 'disarm'
+Sk 1 'dodge'
+Sk 1 'enhanced damage'
+Sk 40 'hand to hand'
+Sk 1 'kick'
+Sk 1 'parry'
+Sk 1 'shield cleave'
+Sk 1 'trip'
+Sk 1 'weapon cleave'
+Sk 1 'second attack'
+Sk 1 'secondary attack'
+Sk 1 'third attack'
+Sk 1 'fast healing'
+Sk 1 'haggle'
+Sk 1 'lore'
+Sk 1 'meditation'
+Sk 100 'pick lock'
+Sk 75 'recall'
+Sk 1 'scrolls'
+Sk 1 'wands'
+Affc 'bless'   0  27   7  -3  24          0
+Affc 'bless'   0  28   7   3  18          0
+Relig 0
+Haskilled 31
+Antkilled 0
+PlayLog 1
+-1
+End
+
+#O
+Vnum 3162
+Cond 100
+Nest 0
+WLoc -1
+Cost 500
+End
+
+#O
+Vnum 3385
+Cond 100
+Nest 0
+WLoc -1
+Cost 150
+End
+
+#O
+Vnum 3386
+Cond 100
+Nest 0
+WLoc -1
+Cost 150
+End
+
+#O
+Vnum 3164
+Cond 100
+Nest 0
+WLoc -1
+Cost 1000
+End
+
+#O
+Vnum 3716
+Cond 100
+Nest 0
+WLoc -1
+Cost 0
+Val  0 0 198 0 0
+End
+
+#O
+Vnum 3703
+Cond 100
+Nest 0
+WLoc 2
+Cost 0
+End
+
+#O
+Vnum 3702
+Cond 100
+Nest 0
+WLoc 12
+Cost 360
+End
+
+#O
+Vnum 3704
+Cond 100
+Nest 0
+WLoc -1
+Cost 0
+End
+
+#O
+Vnum 3705
+Cond 100
+Nest 0
+WLoc 1
+Cost 72
+End
+
+#O
+Vnum 3705
+Cond 100
+Nest 0
+WLoc 1
+Cost 72
+End
+
+#O
+Vnum 3708
+Cond 100
+Nest 0
+WLoc 5
+Cost 72
+End
+
+#O
+Vnum 3713
+Cond 100
+Nest 0
+WLoc 10
+Cost 48
+End
+
+#O
+Vnum 3706
+Cond 100
+Nest 0
+WLoc 3
+Cost 72
+End
+
+#O
+Vnum 3711
+Cond 100
+Nest 0
+WLoc 8
+Cost 72
+End
+
+#O
+Vnum 3707
+Cond 100
+Nest 0
+WLoc 4
+Cost 72
+End
+
+#O
+Vnum 3712
+Cond 100
+Nest 0
+WLoc 9
+Cost 72
+End
+
+#O
+Vnum 3709
+Cond 100
+Nest 0
+WLoc 6
+Cost 72
+End
+
+#O
+Vnum 3710
+Cond 100
+Nest 0
+WLoc 7
+Cost 72
+End
+
+#O
+Vnum 3713
+Cond 100
+Nest 0
+WLoc 10
+Cost 48
+End
+
+#O
+Vnum 3715
+Cond 100
+Nest 0
+WLoc 11
+Cost 1140
+End
+
+#END

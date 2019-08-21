@@ -193,7 +193,7 @@ oldstyle Nabil shopkeeper~
 Nabil~
 Nabil, purveyor of exotic pets, is waiting to serve you.
 ~
-A large, well-fed shopkeeper, Nabil is adept at finding animals from all 
+A large, well-fed shopkeeper, Nabil is adept at finding animals from all
 parts of the world. He welcomes you warmly and offers to show you a pair
 of priceless parrots.
 ~
@@ -269,7 +269,7 @@ stand stand male 505
 0 0 tiny 0
 F par GHIJK
 #9517
-oldstyle igor 
+oldstyle igor
 weaponsmith~
 Igor the weaponsmith~
 Igor stands here doing... something.
@@ -796,7 +796,7 @@ oldstyle harem girl~
 a harem girl~
 A lovely, veiled harem girl stands here.
 ~
-You see a dark skinned beauty, wearing almost transparent silks and 
+You see a dark skinned beauty, wearing almost transparent silks and
 light blue viel. Her loyalty to the sultan is unwavering.
 ~
 human~
@@ -808,9 +808,9 @@ stand stand female 2
 0 0 tiny 0
 F par GHIJK
 #9552
-oldstyle jailer~
-the jailer~
-The Jailer sleeps here, snoring loudly.
+gardiyan~
+gardiyan~
+Gardiyan burada, horlayarak uyuyor.
 ~
 You see a pathetic soul lying here. Some ex-nobleman that has fallen
 out of grace with the Sultan.
@@ -1461,7 +1461,7 @@ The Samurai Weaponsmaster~
 A well-dressed and oldish Samurai watches your moves carefully.
 ~
   The weaponsmaster is a short well build man. You can see that he is advanced
-in years. He is still wearing his old body armor, even at a very safe place 
+in years. He is still wearing his old body armor, even at a very safe place
 like this.
 ~
 human~
@@ -2591,7 +2591,7 @@ D3
 S
 #9511
 Outside the Southern Gate of New Thalos~
-You see before you the expanse of the Sands of Sorrow.  The shifting sands 
+You see before you the expanse of the Sands of Sorrow.  The shifting sands
 stretch on endlessly to the south, hiding treasure and adventure.
 ~
 0 0 1
@@ -2924,8 +2924,8 @@ D3
 S
 #9526
 West Main Street~
-You are strolling on the street between Bank and the general store. To 
-the west you hear a roadcrew at work and to the East, the sounds of 
+You are strolling on the street between Bank and the general store. To
+the west you hear a roadcrew at work and to the East, the sounds of
 commerce taking place.  The air is filled with the smell of gold and riches.
 On the wall of the store is a poster.
 ~
@@ -4676,7 +4676,7 @@ D4
 S
 #9621
 The Bank~
-  You are in a large hall, nicely lit by big chandeliers hanging from the 
+  You are in a large hall, nicely lit by big chandeliers hanging from the
 ceilings.  A long counter lies through the room.
 ~
 0 UDKS 0
@@ -5313,7 +5313,7 @@ North-West Tower~
 You stand on one of the four towers guarding the city. The view from here
 is great! To the west you see the tall mountains that make up the divide
 between here an Midgaard. The Ishtar river slowly flows from that direction.
-South you can see the entire city of New Thalos and the Sands of Sorrow 
+South you can see the entire city of New Thalos and the Sands of Sorrow
 to the south.
 ~
 0 D 0
@@ -6864,8 +6864,8 @@ The Dragon Sea~
  You are on the clear blue seas of the Dragon Sea.
  Water extends in all directions as far as the eye
  can see. Off in the distance you think you might
- see a small dock to the west. To the east you see  
- a cold river flows quickly through the Dragon Sea. 
+ see a small dock to the west. To the east you see
+ a cold river flows quickly through the Dragon Sea.
 ~
 0 0 7
 D0
@@ -6929,13 +6929,13 @@ grate~
 S
 #9800
 The weaponsmaster's room~
-	You are at the place, where maybe the best, to learn what the weapon is 
-and how they can be controlled. The walls are decorated with large and 
-valuable tapestries. One great sword and one axe are standing near the 
-opposite walls. Short swords and light shields are hangingon the wall. 
+	You are at the place, where maybe the best, to learn what the weapon is
+and how they can be controlled. The walls are decorated with large and
+valuable tapestries. One great sword and one axe are standing near the
+opposite walls. Short swords and light shields are hangingon the wall.
 ~
 0 0 1
-D2 
+D2
 ~
 ~
 0 -1 9523

@@ -2754,7 +2754,7 @@ bool check_parse_name( char *name )
      * Reserved words.
      */
     if ( is_name( name,
-	(char*)"tümü oto immortal self someone something the you demise balance circle loner honor") )
+	(char*)"tümü oto immortal ölümsüz self someone something the you demise balance circle loner honor") )
 	return FALSE;
 
     /*

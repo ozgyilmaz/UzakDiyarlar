@@ -387,9 +387,9 @@ EFNU 0 0 0
 stand stand male 5
 0 0 medium 0
 #926
-oldstyle jailer~
-The Jailer~
-The jailer is here, watching for intruders.
+gardiyan~
+Gardiyan~
+Gardiyan burada, dikkatle etrafý izliyor.
 ~
 He looks as though he has spent a lot of time underground, guarding the
 prisoners.
@@ -482,7 +482,7 @@ oak~
 weapon FGK AN
 staff 9 12 pierce F
 82 160 5700 P
-A 
+A
 18 16
 A
 18 16
@@ -656,7 +656,7 @@ A
 19 20
 A
 18 20
-A 
+A
 6 3
 #924
 robe blue~
@@ -705,7 +705,7 @@ map olympus secret~
 .
                               The Secret Map Of
                                *****OLYMPUS*****
- 
+
                                    (Hermes)
                                    Bedroom    The Portal
                                       |           |
@@ -935,7 +935,7 @@ S
 #910
 Throne Room~
 You stop dead in your tracks as you enter this room.  Before you is Zeus,
-in all his glory, sitting on a huge golden throne.  You had thought him to be 
+in all his glory, sitting on a huge golden throne.  You had thought him to be
 just a myth, but here he is ... you wonder who else lives in this castle.
 ~
 0 D 1
@@ -1092,7 +1092,7 @@ trapdoor throne~
 S
 #919
 Dungeon~
-You are in Zeus's Dungeon.  There are cells to the north, west, and east. 
+You are in Zeus's Dungeon.  There are cells to the north, west, and east.
 From the east and west, you hear guttural noises.  From the north, nothing ...
 ~
 0 AD 1
@@ -1363,7 +1363,7 @@ S
 Second Floor~
 You are on the second floor of this castle.  You are numb from your
 discoveries on the first floor, and wonder what secrets the upper floor of this
-castle holds.  Hallways extend in all directions, and you see a small, closed 
+castle holds.  Hallways extend in all directions, and you see a small, closed
 hatch above you.
 ~
 0 D 1
