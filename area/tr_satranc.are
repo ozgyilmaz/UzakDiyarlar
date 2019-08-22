@@ -1,7 +1,7 @@
 #AREA
-chess2.are~
-Chessboard of Midgaard~
-{10 35} Exxon   Chessboard of Midgaard~
+tr_satranc.are~
+Satranç Tahtasý~
+{10 35} Exxon   Satranç Tahtasý~
 4200 4299
 
 #HELPS
@@ -13,12 +13,12 @@ Further conversion to Rom 2.4 by Jaceks and Chicken's Den Staff~
 
 #MOBILES
 #4200
-black pawn~
-the Pawn of the Black Court~
-You see a pawn standing here waiting for orders.
+siyah piyon~
+Siyah Piyon~
+Siyah bir piyon burada.
 ~
-The Black Pawn looks quite like a small knight without his powerful steed.
-His armor is shiny and black. He stands ready to give his life for the Crown.
+Kýsa boylu bir savaþçý. Zýrhý parlak ve siyah. Canýný vermeye
+hazýr bekliyor.
 ~
 human~
 ACF D -400 4200
@@ -28,13 +28,12 @@ EG A 0 0
 stand stand male 60
 B 0 medium 0
 #4201
-white pawn~
-the Pawn of the White Court~
-You see a pawn standing here waiting for orders.
+beyaz piyon~
+Beyaz Piyon~
+Beyaz bir piyon burada.
 ~
-The White Pawn looks quite like a small knight without his powerful steed.
-His armor is spotless and white. He stands ready to give his life for the 
-Crown.
+Kýsa boylu bir savaþçý. Zýrhý parlak ve beyaz. Canýný vermeye
+hazýr bekliyor.
 ~
 human~
 AC D 400 4201
@@ -44,12 +43,12 @@ EG 0 0 0
 stand stand male 55
 A 0 medium 0
 #4202
-black rook castle~
-the Black Rook~
-In the corner you see a large, black, stone castle on wheels.
+siyah kale~
+Siyah Kale~
+Siyah bir kale burada.
 ~
-The Black Rook is a very large man-made tomb on wheels.  Just
-from the looks of it, it will probably be YOUR tomb.
+Büyük ve tekerlekli bir yapý. Görünüþe göre rakiplerini
+tek gönderdiði yer birer MEZAR.
 ~
 human~
 AFH 0 -600 0
@@ -59,12 +58,12 @@ CEI A 0 0
 stand stand male 480
 0 0 medium 0
 #4203
-white rook castle~
-the White Rook~
-In the corner you see a large, white, stone castle on wheels.
+beyaz kale~
+Beyaz Kale~
+Beyaz bir kale burada.
 ~
-The White Rook is a very large man-made tomb on wheels.  Just
-from the looks of it, it will probably be YOUR tomb.
+Büyük ve tekerlekli bir yapý. Görünüþe göre rakiplerini
+tek gönderdiði yer birer MEZAR.
 ~
 human~
 AH D 600 0
@@ -74,12 +73,11 @@ CEI 0 0 0
 stand stand male 470
 0 0 medium 0
 #4204
-black knight~
-the Black Knight~
-Here stands a magnificent knight of the dark realm.
+siyah at~
+Siyah At~
+Siyah bir at burada.
 ~
-The Black Knight is here, riding his ebony black war horse.  His eyes
-flash behind his visor in vengence.
+Siyah bir savaþ atý. Gözlerinden ateþ çýkýyor.
 ~
 human~
 AH 0 -400 0
@@ -89,12 +87,11 @@ EF A 0 0
 stand stand male 266
 0 0 medium 0
 #4205
-white knight~
-the White Knight~
-Here stands a magnificent knight of the light realm.
+beyaz at~
+Beyaz At~
+Beyaz bir at burada.
 ~
-The White Knight is here, riding his ivory white war horse.  His eyes
-gleam behind his visor in joy.
+Beyaz bir savaþ atý. Gözlerinden ateþ çýkýyor.
 ~
 human~
 AH 0 400 0
@@ -104,12 +101,12 @@ EF A 0 0
 stand stand male 256
 0 0 medium 0
 #4206
-black bishop priest~
-the Black Bishop~
-A dark priest stands here.
+siyah fil~
+Siyah Fil~
+Siyah bir fil burada.
 ~
-The Black Bishop seems willing to help you straight into your grave so
-he can bless you properly.
+Ýþte siyah ordunun fillerinden birisi. Ne kadar da
+iri ve güçlü görünüyor.
 ~
 human~
 AH 0 -500 0
@@ -119,12 +116,12 @@ CDEF A 0 0
 stand stand male 540
 0 0 medium 0
 #4207
-white bishop priest~
-the White Bishop~
-A light priest stands here.
+beyaz fil~
+Beyaz Fil~
+Beyaz bir fil burada.
 ~
-The White Bishop seems willing to help you in any possible so that he can
-attain a higher spirituality.
+Ýþte beyaz ordunun fillerinden birisi. Ne kadar da
+iri ve güçlü görünüyor.
 ~
 human~
 A DN 500 0
@@ -134,13 +131,12 @@ CDEF A 0 0
 stand stand male 590
 0 0 medium 0
 #4208
-black queen~
-the Black Queen~
-The Black Queen stands here.
+siyah vezir~
+Siyah Vezir~
+Siyah vezir burada.
 ~
-The Black Queen is a strikingly beautiful woman with pale skin and a mass of
-dark hair that crowns her head like a black cloud.  If looks could kill, you
-would already be dead.
+Simsiyah cüppesi içinde bir vezir. Kralýn ordusunun
+en güçlü üyesi. Seni izliyor... Ne o, korktun mu?
 ~
 human~
 ABFH DFH -750 4210
@@ -150,13 +146,12 @@ AFJK A 0 0
 stand stand female 856
 0 0 medium 0
 #4209
-white queen~
-the White Queen~
-The White Queen stands here.
+beyaz vezir~
+Beyaz Vezir~
+Beyaz vezir burada.
 ~
-The White Queen is a stunningly beautiful woman with dark skin and a mass
-of light hair that frames her head like the sun.  This is surely love at
-first sight for you.
+Bembeyaz cüppesi içinde bir vezir. Kralýn ordusunun
+en güçlü üyesi. Seni izliyor... Ne o, korktun mu?
 ~
 human~
 ABH DFHN 750 2411
@@ -166,12 +161,13 @@ AFJK 0 0 0
 stand stand female 854
 0 0 medium 0
 #4210
-black king~
-the Black King~
-The Black King stands here.
+siyah kral~
+Siyah Kral~
+Siyah kral burada.
 ~
-The Black King is a menacing figure.  You can easily understand why he
-is the king and you are not.
+Ýþte siyah incilerle iþlenmiþ tacý ile bir hükümdar.
+Neden sen deðil de o bir kral? Ýþte sorunun cevabý,
+ne kadar da yüce bir görünüþ.
 ~
 human~
 ABH DFHU -999 0
@@ -181,12 +177,13 @@ BCDEF A 0 0
 stand stand male 984
 0 0 medium 0
 #4211
-white king~
-the White King~
-The White King stands here.
+beyaz kral~
+Beyaz Kral~
+Beyaz kral burada.
 ~
-The White King is a stately figure.  You can easily understand why he
-is the king and you are not.
+Ýþte beyaz incilerle iþlenmiþ tacý ile bir hükümdar.
+Neden sen deðil de o bir kral? Ýþte sorunun cevabý,
+ne kadar da yüce bir görünüþ.
 ~
 human~
 ABH DFHNU 999 0
@@ -196,12 +193,14 @@ BCDEF 0 0 0
 stand stand male 988
 0 0 medium 0
 #4212
-caliph omar ghost~
-the Ghost of Caliph Omar~
-The Ghost of Caliph Omar is floating here.
+halife omar hayalet~
+Omar'ýn hayaleti~
+Halife Omar'ýn hayaleti burada.
 ~
-Caliph Omar was person who sanctions chess for islamic people. 
-His ghost is here small, and looks like made from smoke.
+Halife Omar din kardeþlerine satranç oynamayý
+öðütleyen bir yüce adamdý. Ruhu hala burada,
+tahtanýn boþ olduðu vakitlerde dolaþýr karelerin
+üstünde.
 ~
 human~
 AHT BDFHPQTUV 0 0
@@ -215,41 +214,41 @@ stand stand male 14999
 
 #OBJECTS
 #4200
-armour black pawn~
-some Black Pawn Armour~
-A pile of black armour is here.~
+zýrh siyah piyon~
+bir siyah piyon zýrhý~
+Bir siyah piyon zýrhý burada.~
 steel~
 armor J AD
 5 5 5 0 2
 10 75 600 G
 #4201
-armour white pawn~
-some White Pawn Armour~
-A pile of white armour is here.~
+zýrh beyaz piyon~
+bir beyaz piyon zýrhý~
+Bir beyaz piyon zýrhý burada.~
 steel~
 armor K AD
 5 5 5 0 2
 10 75 600 G
 #4202
-axe black pawn~
-a Black Pawn's Axe~
-The axe of a Black Pawn lies here.~
+balta siyah piyon~
+bir siyah piyon baltasý~
+Bir siyah piyon baltasý burada.~
 steel~
 weapon J AN
 axe 2 7 chomp 0
 10 100 750 G
 #4203
-axe white pawn~
-a White Pawn's Axe~
-The axe of a White Pawn lies here.~
+balta beyaz piyon~
+bir beyaz piyon baltasý~
+Bir beyaz piyon baltasý burada.~
 steel~
 weapon K AN
 axe 2 7 chomp 0
 10 100 750 G
 #4204
-armour black rook~
-some Black Rook Armour~
-Some armour made from the remains of a black rook lies heaped on the floor.~
+zýrh siyah kale~
+bir siyah kale zýrhý~
+Bir siyah kale zýrhý burada.~
 stone~
 armor J AD
 8 8 8 0 5
@@ -259,9 +258,9 @@ A
 A
 5 1
 #4205
-armour white rook~
-some White Rook Armour~
-Some armour made from the remains of a white rook lies heaped on the floor.~
+zýrh beyaz kale~
+bir beyaz kale zýrhý~
+Bir beyaz kale zýrhý burada.~
 stone~
 armor K AD
 8 8 8 0 5
@@ -271,9 +270,9 @@ A
 A
 5 1
 #4206
-lance black knight~
-the Lance of the Black Knight~
-The Lance of the Black Knight lies here, waiting to rust.~
+kargý siyah at~
+bir siyah at kargýsý~
+Bir siyah at kargýsý burada.~
 bronze~
 weapon BJ AN
 lance 5 5 pierce D
@@ -283,9 +282,9 @@ A
 A
 23 5
 #4207
-lance white knight~
-the Lance of the White Knight~
-The Lance of the White Knight lies here, waiting to rust.~
+kargý beyaz þövalye~
+bir beyaz at kargýsý~
+Bir beyaz at kargýsý burada.~
 bronze~
 weapon BK AN
 lance 5 5 pierce D
@@ -295,25 +294,25 @@ A
 A
 23 5
 #4208
-staff black bishop~
-the Staff of the Black Bishop~
-The Black Bishop's Staff is lying here.~
+asa siyah fil~
+bir siyah fil asasý~
+Bir siyah fil asasý burada.~
 wood~
 staff GJL AO
 20 5 5 'energy drain' 0
 23 20 3523 P
 #4209
-staff white bishop~
-the Staff of the White Bishop~
-The White Bishop's Staff is lying here.~
+beyaz vezir taç~
+bir beyaz vezir tacý~
+Bir beyaz vezir tacý burada.~
 wood~
 staff GKL AO
 20 5 5 'sanctuary' 0
 23 20 3879 P
 #4210
-crown black queen~
-the Crown of the Black Queen~
-The Crown of the Black Queen lies here, looking neglected.~
+siyah vezir taç~
+bir siyah vezir tacý~
+Bir siyah vezir tacý burada.~
 gold~
 armor AGJL AE
 9 9 9 1 1
@@ -323,9 +322,9 @@ A
 A
 4 1
 #4211
-crown white queen~
-the Crown of the White Queen~
-The Crown of the White Queen lies here, looking neglected.~
+beyaz vezir taç~
+bir beyaz vezir tacý~
+Bir beyaz vezir tacý burada.~
 gold~
 armor AGKL AE
 9 9 9 1 1
@@ -335,9 +334,9 @@ A
 A
 4 1
 #4212
-sceptre black king~
-the Black King's Sceptre~
-The Sceptre of the Black King lies here, collecting dust.~
+hükümdar siyah asa kral~
+bir siyah kral hükümdar asasý~
+Siyah kralýn hükümdar asasý burada.~
 gold~
 treasure JL AO
 0 0 0 0 0
@@ -347,9 +346,9 @@ A
 A
 18 1
 #4213
-sceptre white king~
-the White King's Sceptre~
-The Sceptre of the White King lies here, collecting dust.~
+hükümdar beyaz asa kral~
+bir beyaz kral hükümdar asasý~
+Beyaz kralýn hükümdar asasý burada.~
 gold~
 treasure KL AO
 0 0 0 0 0
@@ -359,331 +358,331 @@ A
 A
 18 1
 #4214
-key black treasury~
-the Key to the Black Treasury~
-There is a sinister black key lying here.~
+anahtar siyah hazine~
+siyah hazine anahtarý~
+Siyah bir anahtar burada duruyor.~
 metal~
 key FH AO
 0 0 0 0 0
 6 20 1 G
 #4215
-key white treasury~
-the Key to the White Treasury~
-There is a bright white key lying here.~
+anahtar beyaz hazine~
+beyaz hazine anahtarý~
+Beyaz bir anahtar burada duruyor.~
 metal~
 key FH AO
 0 0 0 0 0
 6 20 1 G
 #4216
-coins gold black royal treasure~
-the Black Royal Treasure~
-There are a LOT of coins here.~
+siyah kraliyet hazine~
+siyah kraliyet hazinesi~
+Bir hazine görüyorsun.~
 silver~
 money 0 A
 10000 0 0 0 0
 0 0 0 P
 #4217
-coins gold white royal treasure~
-the White Royal Treasure~
-There are a LOT of coins here.~
+beyaz kraliyet hazine~
+beyaz kraliyet hazinesi~
+Bir hazine görüyorsun.~
 silver~
 money 0 A
 10000 0 0 0 0
 0 0 0 P
 
 #4218
-flail black pawn~
-a Black Pawn's Flail~
-The flail of a Black Pawn lies here.~
+döven siyah piyon~
+bir siyah piyon döveni~
+Bir siyah piyon döveni burada duruyor.~
 steel~
 weapon J AN
 flail 2 7 blast 0
 10 100 750 G
 #4219
-flail white pawn~
-a White Pawn's Flail~
-The flail of a White Pawn lies here.~
+döven beyaz piyon~
+bir beyaz piyon döveni~
+Bir beyaz piyon döveni burada duruyor.~
 steel~
 weapon K AN
 flail 2 6 blast 0
 10 100 750 G
 
 #4220
-whip black pawn~
-a Black Pawn's Whip~
-The whip of a Black Pawn lies here.~
+kýrbaç siyah piyon~
+bir siyah piyon kýrbacý~
+Bir siyah piyon kýrbacý burada duruyor.~
 steel~
 weapon J AN
 whip 2 7 whip 0
 10 100 750 G
 #4221
-whip white pawn~
-a White Pawn's Whip~
-The whip of a White Pawn lies here.~
+kýrbaç beyaz piyon~
+bir beyaz piyon kýrbacý~
+Bir beyaz piyon kýrbacý burada duruyor.~
 steel~
 weapon K AN
 whip 2 6 whip 0
 10 100 750 G
 
 #4222
-spear black pawn~
-a Black Pawn's Spear~
-The spear of a Black Pawn lies here.~
+asa siyah piyon~
+bir siyah piyon asasý~
+Bir siyah piyon asasý burada duruyor.~
 steel~
 weapon J AN
 staff 2 7 thrust 0
 10 100 750 G
 #4223
-spear white pawn~
-a White Pawn's Spear~
-The spear of a White Pawn lies here.~
+asa beyaz piyon~
+bir beyaz piyon asasý~
+Bir beyaz piyon asasý burada duruyor.~
 steel~
 weapon K AN
 staff 2 7 thrust 0
 10 100 750 G
 
 #4224
-halberd black pawn~
-a Black Pawn's Halberd~
-The halberd of a Black Pawn lies here.~
+teber siyah piyon~
+bir siyah piyon teberi~
+Bir siyah piyon teberi burada duruyor.~
 steel~
 weapon J AN
 polear 2 7 pierce 0
 10 100 750 G
 #4225
-halberd white pawn~
-a White Pawn's Halberd~
-The halberd of a White Pawn lies here.~
+teber beyaz piyon~
+bir beyaz piyon teberi~
+Bir beyaz piyon teberi burada duruyor.~
 steel~
 weapon K AN
 polearm 2 7 pierce 0
 10 100 750 G
 
 #4226
-rapier black pawn~
-a Black Pawn's Rapier~
-The rapier of a Black Pawn lies here.~
+kýlýç siyah piyon~
+bir siyah piyon kýlýcý~
+Bir siyah piyon kýlýcý burada duruyor.~
 steel~
 weapon J AN
 sword 2 7 pierce 0
 10 100 750 G
 #4227
-rapier white pawn~
-a White Pawn's Rapier~
-The rapier of a White Pawn lies here.~
+kýlýç beyaz piyon~
+bir beyaz piyon kýlýcý~
+Bir beyaz piyon kýlýcý burada duruyor.~
 steel~
 weapon K AN
 sword 2 7 pierce 0
 10 100 750 G#
 
 4228
-kris black pawn~
-a Black Pawn's Kris~
-The kris of a Black Pawn lies here.~
+kama siyah piyon~
+bir siyah piyon kamasý~
+Bir siyah piyon kamasý burada duruyor.~
 steel~
 weapon J AN
 dagger 2 7 pierce 0
 10 100 750 G
 #4229
-kris white pawn~
-a White Pawn's Kris~
-The kris of a White Pawn lies here.~
+kama beyaz piyon~
+bir beyaz piyon kamasý~
+Bir beyaz piyon kamasý burada duruyor.~
 steel~
 weapon K AN
 dagger 2 7 pierce 0
 10 100 750 G
 
 #4230
-crossbow black pawn~
-a Black Pawn's Crossbow~
-The crossbow of a Black Pawn lies here.~
+tataryayý siyah piyon~
+bir siyah piyon tataryayý~
+Bir siyah piyon tataryayý burada duruyor.~
 steel~
 weapon J AN
 exotic 2 7 blast 0
 10 100 750 G
 #4231
-crossbow white pawn~
-a White Pawn's Crossbow~
-The crossbow of a White Pawn lies here.~
+tataryay beyaz piyon~
+bir beyaz piyon tataryayý~
+Bir beyaz piyon tataryayý burada duruyor.~
 steel~
 weapon K AN
 exotic 2 7 blast 0
 10 100 750 G
 
 #4232
-shield black pawn~
-a Black Pawn's Shield ~
-You see a Black Pawn's shield here.~
+kalkan siyah piyon~
+bir siyah piyon kalkaný~
+Bir siyah piyon kalkaný burada duruyor.~
 steel~
 armor J AJ
 8 7 7 2 2
 10 30 1210 P
 #4233
-shield white pawn~
-a White Pawn's Shield ~
-You see a White Pawn's shield here.~
+kalkan beyaz piyon~
+bir beyaz piyon kalkaný~
+Bir beyaz piyon kalkaný burada duruyor.~
 steel~
 armor K AJ
 8 7 7 2 2
 10 30 1210 P
 
 #4234
-cloak black pawn~
-a Black Pawn's Cloak~
-You see a Black Pawn's cloak here.~
+fular siyah piyon~
+bir siyah piyon fularý~
+Bir siyah piyon fularý burada duruyor.~
 cloth~
 armor J AC
 5 7 7 1 1
 10 40 1510 P
 #4235
-cloak white pawn~
-a White Pawn's Cloak~
-You see a White Pawn's cloak here.~
+fular beyaz piyon~
+bir beyaz piyon fularý~
+Bir beyaz piyon fularý burada duruyor.~
 cloth~
 armor K AC
 5 7 7 1 1
 10 40 1510 P
 
 #4236
-helmet black pawn~
-a Black Pawn's Helmet~
-You see a Black Pawn's helmet here.~
+miðfer siyah piyon~
+bir siyah piyon miðferi~
+Bir siyah piyon miðferi burada duruyor.~
 leather~
 armor J AE
 6 6 7 1 1
 10 50 1150 P
 #4237
-helmet white pawn~
-a White Pawn's Helmet~
-You see a White Pawn's helmet here.~
+miðfer beyaz piyon~
+bir beyaz piyon miðferi~
+Bir beyaz piyon miðferi burada duruyor.~
 leather~
 armor K AE
 6 6 7 1 1
 10 50 1150 P
 
 #4238
-leggings black pawn~
-a pair of Black Pawn's Leggings~
-You see a pair of Black Pawn's leggings here.~
+bacaklýk siyah piyon~
+bir çift siyah piyon bacaklýðý~
+Bir çift siyah piyon bacaklýðý burada duruyor.~
 leather~
 armor J AF
 6 6 6 1 1
 10 30 1350 P
 #4239
-leggings white pawn~
-a pair of White Pawn's Leggings~
-You see a pair of White Pawn's leggings here.~
+bacaklýk beyaz piyon~
+bir çift beyaz piyon bacaklýðý~
+Bir çift beyaz piyon bacaklýðý burada duruyor.~
 leather~
 armor K AF
 6 6 6 1 1
 10 30 1350 P
 
 #4240
-boots black pawn~
-a pair of Black Pawn's Boots~
-You see a pair of Black Pawn's boots here.~
+ayakkabý siyah piyon~
+bir çift siyah piyon ayakkabýsý~
+Bir çift siyah piyon ayakkabýsý burada duruyor.~
 leather~
 armor J AG
 7 6 7 1 1
 10 130 1450 P
 #4241
-boots white pawn~
-a pair of White Pawn's Boots~
-You see a pair of Black Pawn's boots here.~
+ayakkabý beyaz piyon~
+bir çift beyaz piyon ayakkabýsý~
+Bir çift beyaz piyon ayakkabýsý burada duruyor.~
 leather~
 armor K AG
 7 6 7 1 1
 10 130 1450 P
 
 #4242
-gloves black pawn~
-a pair of Black Pawn's Gloves~
-You see a pair of Black Pawn's Gloves here.~
+eldiven siyah piyon~
+bir çift siyah piyon eldiveni~
+Bir çift siyah piyon eldiveni burada duruyor.~
 leather~
 armor J AH
 6 6 5 1 1
 10 80 950 P
 #4243
-gloves white pawn~
-a pair of White Pawn's Gloves~
-You see a pair of White Pawn's Gloves here.~
+eldiven beyaz piyon~
+bir çift beyaz piyon eldiveni~
+Bir çift beyaz piyon eldiveni burada duruyor.~
 leather~
 armor K AH
 6 6 5 1 1
 10 80 950 P
 
 #4244
-sleeves black pawn~
-a pair of Black Pawn's Sleeves~
-You see a pair of Black Pawn's Sleeves here.~
+kolluk siyah piyon~
+bir çift siyah piyon kolluðu~
+Bir çift siyah piyon kolluðu burada duruyor.~
 leather~
 armor J AI
 6 5 6 1 1
 10 90 1150 P
 #4245
-sleeves white pawn~
-a pair of White Pawn's Sleeves~
-You see a pair of White Pawn's Sleeves here.~
+kolluk beyaz piyon~
+bir çift beyaz piyon kolluðu~
+Bir çift beyaz piyon kolluðu burada duruyor.~
 leather~
 armor K AI
 6 5 6 1 1
 10 90 1150 P
 
 #4246
-cape black pawn~
-a Black Pawn's Cape~
-You see a Black Pawn's Cape here.~
+pelerin siyah piyon~
+bir siyah piyon pelerini~
+Bir siyah piyon pelerini burada duruyo~
 cloth~
 armor J AK
 7 5 7 1 1
 10 80 1380 P
 #4247
-cape white pawn~
-a White Pawn's Cape~
-You see a White Pawn's Cape here.~
+pelerin beyaz piyon~
+bir beyaz piyon pelerini~
+Bir beyaz piyon pelerini burada duruyor.~
 cloth~
 armor K AK
 7 5 7 1 1
 10 80 1380 P
 
 #4248
-belt black pawn~
-a Black Pawn's Belt~
-You see a Black Pawn's Belt here.~
+kemer siyah piyon~
+bir siyah piyon kemeri~
+Bir siyah piyon kemeri burada duruyor.~
 bronze~
 armor J AL
 4 6 6 1 1
 10 70 990 P
 #4249
-belt white pawn~
-a White Pawn's Belt~
-You see a White Pawn's Belt here.~
+kemer beyaz piyon~
+bir beyaz piyon kemeri~
+Bir beyaz piyon kemeri burada duruyor.~
 bronze~
 armor K AL
 4 6 6 1 1
 10 20 990 P
 
 #4250
-bracer black pawn~
-a Black Pawn's Bracer~
-You see a Black Pawn's Bracer here.~
+bileklik siyah piyon~
+bir siyah piyon bilekliði~
+Bir siyah piyon bilekliði burada duruyor.~
 bronze~
 armor J AM
 7 5 5 1 0
 10 60 1390 P
 #4251
-bracer white pawn~
-a White Pawn's Bracer~
-You see a White Pawn's Bracer here.~
+bileklik beyaz piyon~
+bir beyaz piyon bilekliði~
+Bir beyaz piyon bilekliði burada duruyor.~
 bronze~
 armor K AM
 7 5 5 1 0
 10 60 1390 P
 
 #4260
-small chessboard~
-the Magic Chessboard~
-You see small chessboard floating here.~
+satranç tahtasý~
+satranç tahtasý~
+Küçük bir satranç tahtasý görüyorsun.~
 wood~
 armor ABFJK AQ
 17 17 17 33 0
@@ -693,170 +692,170 @@ A 13 95 AT
 
 
 #4261
-shield black pawn~
-a Black Knight's Shield ~
-You see a Black Knight's shield here.~
+kalkan siyah at~
+siyah at kalkaný~
+Bir siyah at kalkaný burada duruyor.~
 steel~
 armor J AJ
 8 9 9 2 2
 18 90 2210 P
 #4262
-shield white pawn~
-a White Knight's Shield ~
-You see a White Knight's shield here.~
+kalkan beyaz at~
+beyaz at kalkaný~
+Bir beyaz at kalkaný burada duruyor.~
 steel~
 armor K AJ
 8 9 9 2 2
 18 90 2210 P
 
 #4263
-cloak black pawn~
-a Black Knight's Cloak~
-You see a Black Knight's cloak here.~
+pelerin siyah at~
+bir siyah at pelerini~
+Bir siyah at pelerini burada duruyor.~
 cloth~
 armor J AC
 6 8 7 1 1
 18 70 2610 P
 #4264
-cloak white pawn~
-a White Knight's Cloak~
-You see a White Knight's cloak here.~
+pelerin beyaz at~
+bir beyaz at pelerini~
+Bir beyaz at pelerini burada duruyor.~
 cloth~
 armor K AC
 6 8 7 1 1
 18 70 2610 P
 
 #4265
-helmet black pawn~
-a Black Knight's Helmet~
-You see a Black Knight's helmet here.~
+miðfer siyah at~
+bir siyah at miðferi~
+Bir siyah at miðferi burada duruyor.~
 leather~
 armor J AE
 7 7 8 1 1
 18 70 1950 P
 #4266
-helmet white pawn~
-a White Knight's Helmet~
-You see a White Knight's helmet here.~
+miðfer beyaz at~
+bir beyaz at miðferi~
+Bir beyaz at miðferi burada duruyor.~
 leather~
 armor K AE
 7 7 8 1 1
 18 70 1950 P
 
 #4267
-leggings black pawn~
-a pair of Black Knight's Leggings~
-You see a pair of Black Knight's leggings here.~
+bacaklýk siyah at~
+bir çift siyah at bacaklýðý~
+Bir çift siyah at bacaklýðý burada duruyor.~
 leather~
 armor J AF
 7 7 7 1 1
 18 80 1350 P
 #4268
-leggings white pawn~
-a pair of White Knight's Leggings~
-You see a pair of White Knight's leggings here.~
+bacaklýk beyaz at~
+bir çift beyaz at bacaklýðý~
+Bir çift beyaz at bacaklýðý burada duruyor.~
 leather~
 armor K AF
 7 7 7 1 1
 18 80 1350 P
 
 #4269
-boots black pawn~
-a pair of Black Knight's Boots~
-You see a pair of Black Knight's boots here.~
+ayakkabý siyah at~
+bir çift siyah at ayakkabýsý~
+Bir çift siyah at ayakkabýsý burada duruyor.~
 leather~
 armor J AG
 8 7 7 1 1
 18 110 2850 P
 #4270
-boots white pawn~
-a pair of White Knight's Boots~
-You see a pair of Black Knight's boots here.~
+ayakkabý beyaz at~
+bir çift beyaz at ayakkabýsý~
+Bir çift beyaz at ayakkabýsý burada duruyor.~
 leather~
 armor K AG
 8 7 7 1 1
 18 110 2850 P
 
 #4271
-gloves black pawn~
-a pair of Black Knight's Gloves~
-You see a pair of Black Knight's Gloves here.~
+eldiven siyah at~
+bir çift siyah at eldiveni~
+Bir çift siyah at eldiveni burada duruyor.~
 leather~
 armor J AH
 6 7 6 1 1
 18 80 2250 P
 #4272
-gloves white pawn~
-a pair of White Knight's Gloves~
-You see a pair of White Knight's Gloves here.~
+eldiven beyaz at~
+bir çift beyaz at eldiveni~
+Bir çift beyaz at eldiveni burada duruyor.~
 leather~
 armor K AH
 6 7 6 1 1
 18 80 2250 P
 
 #4273
-sleeves black pawn~
-a pair of Black Knight's Sleeves~
-You see a pair of Black Knight's Sleeves here.~
+kolluk siyah at~
+bir çift siyah at kolluðu~
+Bir çift siyah at kolluðu burada duruyor.~
 leather~
 armor J AI
 7 6 7 1 1
 18 100 2150 P
 #4274
-sleeves white pawn~
-a pair of White Knight's Sleeves~
-You see a pair of White Knight's Sleeves here.~
+kolluk beyaz at~
+bir çift beyaz at kolluðu~
+Bir çift beyaz at kolluðu burada duruyor.~
 leather~
 armor K AI
 7 6 7 1 1
 18 100 2150 P
 
 #4275
-cape black pawn~
-a Black Knight's Cape~
-You see a Black Knight's Cape here.~
+pelerin siyah at~
+bir siyah at pelerini~
+Bir siyah at pelerini burada duruyor.~
 cloth~
 armor J AK
 7 7 7 1 1
 18 70 1380 P
 #4276
-cape white pawn~
-a White Knight's Cape~
-You see a White Knight's Cape here.~
+pelerin beyaz at~
+bir beyaz at pelerini~
+Bir beyaz at pelerini burada duruyor.~
 cloth~
 armor K AK
 7 7 7 1 1
 18 70 1380 P
 
 #4277
-belt black pawn~
-a Black Knight's Belt~
-You see a Black Knight's Belt here.~
+kemer siyah at~
+bir siyah at kemeri~
+Bir siyah at kemeri burada duruyor.~
 bronze~
 armor J AL
 6 6 6 1 1
 18 60 1990 P
 #4278
-belt white pawn~
-a White Knight's Belt~
-You see a White Knight's Belt here.~
+kemer beyaz at~
+bir beyaz at kemeri~
+Bir beyaz at kemeri burada duruyor.~
 bronze~
 armor K AL
 6 6 6 1 1
 18 60 1990 P
 
 #4279
-bracer black pawn~
-a Black Knight's Bracer~
-You see a Black Knight's Bracer here.~
+bileklik siyah at~
+bir siyah at bilekliði~
+Bir siyah at bilekliði burada duruyor.~
 bronze~
 armor J AM
 7 7 6 1 0
 18 40 2390 P
 #4280
-bracer white pawn~
-a White Knight's Bracer~
-You see a White Knight's Bracer here.~
+bileklik beyaz at~
+bir beyaz at bilekliði~
+Bir beyaz at bilekliði burada duruyor.~
 bronze~
 armor K AM
 7 7 6 1 0
@@ -870,26 +869,25 @@ armor K AM
 
 #ROOMS
 #4200
-The Great Chessboard Of Midgaard~
-You stand in the archway of the Chessboard of Midgaard.  The giant
-wooden gate is rusted open.
-   A narrow dirt path leads eastwards into the thick grass and the
-chessboard opens up to the west.
-     There is a small (Glowing) (Huming) tablet.
+Tanrýlarýn Satranç Tahtasý~
+Tanrýlara adanmýþ yaþayan heykellerden oluþan bir alanýn önündesin.
+Büyük paslý kapý ardýna kadar açýlmýþ. Eski ihtiþamýný çoktan
+yitirmiþ olan bu kadim yer artýk yalnýzca genç maceraperestlerin
+pratik yaptýðý bir okul gibi. Duvarda bir tablet var.
 ~
 0 C 1
 D1
-A dirt path leads away through the great field north of Midgaard.
+Selenge Mahzenleri...
 ~
 ~
 0 -1 3043
 D3
-The huge chessboard opens up to the west.
+Büyük satranç tahtasýný görüyorsun.
 ~
 ~
 0 -1 4232
 E
-small tablet~
+tablet~
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 +                                                                  +
 +            This area has been converted and adapted by           +
@@ -904,1580 +902,1543 @@ small tablet~
 ~
 S
 #4201
-A White Square~
-You are standing on a white marble square.  This is usually the home
-of the Black Queen's Rook.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4202
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4209
 S
 #4202
-A Black Square~
-You are standing on a black marble square.  This is usually the home
-of the Black Queen's Knight.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4203
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4210
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4201
 S
 #4203
-A White Square~
-You are standing on a white marble square.  This is usually the home
-of the Black Queen's Bishop.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4204
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4211
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4202
 S
 #4204
-A Black Square~
-You are standing on a black marble square.  This is usually the home
-of the Black Queen.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4205
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4212
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4203
 D5
 ~
-marble square~
+mermer kare~
 2 4214 4265
 S
 #4205
-A White Square~
-You are standing on a white marble square.  This is usually the home
-of the Black King.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4206
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4213
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4204
 S
 #4206
-A Black Square~
-You are standing on a black marble square.  This is usually the home
-of the Black King's Bishop.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4207
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4214
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4205
 S
 #4207
-A White Square~
-You are standing on a white marble square.  This is usually the home
-of the Black King's Knight.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4208
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4215
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4206
 S
 #4208
-A Black Square~
-You are standing on a black marble square.  This is usually the home
-of the Black King's Rook.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4216
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4207
 S
 #4209
-A Black Square~
-You are standing on a black marble square.  This is usually the home
-of one of the Black Queen's Pawns.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4201
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4210
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4217
 S
 #4210
-A White Square~
-You are standing on a white marble square.  This is usually the home
-of one of the Black Queen's Pawns.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4202
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4211
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4218
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4209
 S
 #4211
-A Black Square~
-You are standing on a black marble square.  This is usually the home
-of one of the Black Queen's Pawns.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4203
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4212
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4219
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4210
 S
 #4212
-A White Square~
-You are standing on a white marble square.  This is usually the home
-of one of the Black Queen's Pawns.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4204
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4213
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4220
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4211
 S
 #4213
-A Black Square~
-You are standing on a black marble square.  This is usually the home
-of one of the Black King's Pawns.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4205
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4214
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4221
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4212
 S
 #4214
-A White Square~
-You are standing on a white marble square.  This is usually the home
-of one of the Black King's Pawns.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4206
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4215
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4222
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4213
 S
 #4215
-A Black Square~
-You are standing on a black marble square.  This is usually the home
-of one of the Black King's Pawns.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4207
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4216
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4223
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4214
 S
 #4216
-A White Square~
-You are standing on a white marble square.  This is usually the home
-of one of the Black King's Pawns.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4208
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4224
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4215
 S
 #4217
-A White Square~
-You are standing on a white marble square.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4209
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4218
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4225
 S
 #4218
-A Black Square~
-You are standing on a black marble square.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4210
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4219
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4226
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4217
 S
 #4219
-A White Square~
-You are standing on a white marble square.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4211
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4220
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4227
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4218
 S
 #4220
-A Black Square~
-You are standing on a black marble square.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4212
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4221
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4228
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4219
 S
 #4221
-A White Square~
-You are standing on a white marble square.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4213
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4222
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4229
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4220
 S
 #4222
-A Black Square~
-You are standing on a black marble square.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4214
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4223
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4230
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4221
 S
 #4223
-A White Square~
-You are standing on a white marble square.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4215
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4224
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4231
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4222
 S
 #4224
-A Black Square~
-You are standing on a black marble square.  You can see a rusty gate
-to the south.
+Siyah Kare~
+Siyah mermer bir karedesin. Güneyde paslanmýþ kapýyý görüyorsun.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4216
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4232
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4223
 S
 #4225
-A Black Square~
-You are standing on a black marble square.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4217
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4226
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4233
 S
 #4226
-A White Square~
-You are standing on a white marble square.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4218
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4227
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4234
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4225
 S
 #4227
-A Black Square~
-You are standing on a black marble square.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4219
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4228
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4235
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4226
 S
 #4228
-A White Square~
-You are standing on a white marble square.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4220
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4229
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4236
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4227
 S
 #4229
-A Black Square~
-You are standing on a black marble square.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4221
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4230
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4237
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4228
 S
 #4230
-A White Square~
-You are standing on a white marble square.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4222
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4231
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4238
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4229
 S
 #4231
-A Black Square~
-You are standing on a black marble square.  There is a rusty gate
-a short distance to the east.
+Siyah Kare~
+Siyah mermer bir karedesin. Doðuda kýsa mesafede paslanmýþ kapýyý
+görüyorsun.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4223
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4232
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4239
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4230
 S
 #4232
-A White Square~
-You are standing on a white marble square.  There is a large rusty
-gate to the east.
+Beyaz Kare~
+Beyaz mermer bir karedesin. Doðuda büyük paslanmýþ bir kapý var.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4224
 D1
-The gate to the chessboard is just to the east.
+Satranç Tahtasý'nýn kapýsý doðuda.
 ~
 ~
 0 -1 4200
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4240
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4231
 S
 #4233
-A White Square~
-You are standing on a white marble square.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4225
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4234
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4241
 S
 #4234
-A Black Square~
-You are standing on a black marble square.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4226
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4235
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4242
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4233
 S
 #4235
-A White Square~
-You are standing on a white marble square.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4227
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4236
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4243
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4234
 S
 #4236
-A Black Square~
-You are standing on a black marble square.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4228
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4237
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4244
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4235
 S
 #4237
-A White Square~
-You are standing on a white marble square.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4229
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4238
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4245
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4236
 S
 #4238
-A Black Square~
-You are standing on a black marble square.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4230
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4239
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4246
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4237
 S
 #4239
-A White Square~
-You are standing on a white marble square.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4231
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4240
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4247
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4238
 S
 #4240
-A Black Square~
-You are standing on a black marble square.  There is a rusty gate
-to the north.
+Siyah Kare~
+Siyah mermer bir karedesin. Kuzeyde paslanmýþ bir kapý var.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4232
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4248
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4239
 S
 #4241
-A Black Square~
-You are standing on a black marble square.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4233
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4242
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4249
 S
 #4242
-A White Square~
-You are standing on a white marble square.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4234
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4243
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4250
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4241
 S
 #4243
-A Black Square~
-You are standing on a black marble square.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4235
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4244
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4251
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4242
 S
 #4244
-A White Square~
-You are standing on a white marble square.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4236
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4245
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4252
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4243
 S
 #4245
-A Black Square~
-You are standing on a black marble square.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4237
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4246
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4253
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4244
 S
 #4246
-A White Square~
-You are standing on a white marble square.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4238
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4247
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4254
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4245
 S
 #4247
-A Black Square~
-You are standing on a black marble square.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4239
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4248
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4255
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4246
 S
 #4248
-A White Square~
-You are standing on a white marble square.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4240
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4256
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4247
 S
 #4249
-A White Square~
-You are standing on a white marble square.  This is usually the home
-of one of the White Queen's Pawns.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4241
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4250
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4257
 S
 #4250
-A Black Square~
-You are standing on a black marble square.  This is usually the home
-of one of the White Queen's Pawns.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4242
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4251
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4258
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4249
 S
 #4251
-A White Square~
-You are standing on a white marble square.  This is usually the home
-of one of the White Queen's Pawns.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4243
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4252
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4259
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4250
 S
 #4252
-A Black Square~
-You are standing on a black marble square.  This is usually the home
-of one of the White Queen's Pawns.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4244
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4253
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4260
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4251
 S
 #4253
-A White Square~
-You are standing on a white marble square.  This is usually the home
-of one of the White King's Pawns.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4245
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4254
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4261
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4252
 S
 #4254
-A Black Square~
-You are standing on a black marble square.  This is usually the home
-of one of the White King's Pawns.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4246
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4255
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4262
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4253
 S
 #4255
-A White Square~
-You are standing on a white marble square.  This is usually the home
-of one of the White King's Pawns.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4247
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4256
 D2
-A black square lies to the south.
+Güneyde siyah bir kare var.
 ~
 ~
 0 -1 4263
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4254
 S
 #4256
-A Black Square~
-You are standing on a black marble square.  This is usually the home
-of one of the White King's Pawns.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4248
 D2
-A white square lies to the south.
+Güneyde beyaz bir kare var.
 ~
 ~
 0 -1 4264
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4255
 S
 #4257
-A Black Square~
-You are standing on a black marble square.  This is usually the home
-of the White Queen's Rook.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4249
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4258
 S
 #4258
-A White Square~
-You are standing on a white marble square.  This is usually the home
-of the White Queen's Knight.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4250
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4259
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4257
 S
 #4259
-A Black Square~
-You are standing on a black marble square.  This is usually the home
-of the White Queen's Bishop.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4251
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4260
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4258
 S
 #4260
-A White Square~
-You are standing on a white marble square.  This is usually the home
-of the White Queen.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4252
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4261
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4259
 D5
 ~
-marble square~
+mermer kare~
 2 4215 4266
 S
 #4261
-A Black Square~
-You are standing on a black marble square.  This is usually the home
-of the White King.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4253
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4262
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4260
 S
 #4262
-A White Square~
-You are standing on a white marble square.  This is usually the home
-of the White King's Bishop.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4254
 D1
-A black square lies to the east.
+Doðuda siyah bir kare var.
 ~
 ~
 0 -1 4263
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4261
 S
 #4263
-A Black Square~
-You are standing on a black marble square.  This is usually the home
-of the White King's Knight.
+Siyah Kare~
+Siyah mermer bir karedesin.
 ~
 0 0 1
 D0
-A white square lies to the north.
+Kuzeyde beyaz bir kare var.
 ~
 ~
 0 -1 4255
 D1
-A white square lies to the east.
+Doðuda beyaz bir kare var.
 ~
 ~
 0 -1 4264
 D3
-A white square lies to the west.
+Batýda beyaz bir kare var.
 ~
 ~
 0 -1 4262
 S
 #4264
-A White Square~
-You are standing on a white marble square.  This is usually the home
-of the White King's Rook.
+Beyaz Kare~
+Beyaz mermer bir karedesin.
 ~
 0 0 1
 D0
-A black square lies to the north.
+Kuzeyde siyah bir kare var.
 ~
 ~
 0 -1 4256
 D3
-A black square lies to the west.
+Batýda siyah bir kare var.
 ~
 ~
 0 -1 4263
 S
 #4265
-The Black Treasury~
-You are standing in the treasury of the Black Court.  Hopefully no one
-has looted the Crown's treasure.
+Siyah Hazine Odasý~
+Siyah Hazine Odasý'ndasýn. Neyse ki halifenin hazinesi yaðmalanmamýþ.
 ~
 0 ADJ 0
 D4
-A small staircase rises above you.
+Yukarý çýkan bir merdiven görüyorsun.
 ~
-marble square~
+mermer kare~
 2 4214 4204
 S
 #4266
-The White Treasury~
-You are standing in the treasury of the White Court.  Hopefully no one 
-has looted the Crown's treasure.
+Beyaz Hazine Odasý~
+Beyaz Hazine Odasý'ndasýn. Neyse ki halifenin hazinesi yaðmalanmamýþ.
 ~
 0 ADJ 0
 D4
-A small staircase rises above you.
+Yukarý çýkan bir merdiven görüyorsun.
 ~
-marble square~
+mermer kare~
 2 4215 4260
 S
 #0
@@ -2839,5 +2800,3 @@ O 4209 10 * sanctuary potion
 S
 
 #$
-
-

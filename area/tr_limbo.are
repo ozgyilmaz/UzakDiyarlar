@@ -1,14 +1,14 @@
 #AREA
-limbo.are~
+tr_limbo.are~
 Limbo~
 {99 100} Diku    Limbo~
 0 99
 
 #MOBILES
 #10
-shadow %s~
-the shadow of %s~
-%s's shadow is here.
+gölge %s~
+%s gölgesi~
+%s gölgesi burada.
 ~
 This dark form seems like it wants to get back at %s for keeping it
 below them for so long....better not get in its way!
@@ -21,11 +21,11 @@ EFN EKL H NI
 stand stand male 0
 0 0 medium 0
 #11
-special guard~
-the guard~
-A special guard stands here, red with anger!
+özel koruma~
+koruma~
+Özel koruma burada, gözleri kýzgýnlýkla yanýyor!
 ~
-Angry, very angry.
+Çok ama çok kýzgýn.
 ~
 human~
 ATc JNV 1000 0
@@ -35,11 +35,11 @@ TQ 0 AB M
 stand stand male 0
 0 0 medium 0
 #12
-bear~
-a bear~
-A strong looking bear is here.
+ayý~
+ayý~
+Güçlü bir ayý burada.
 ~
-You see nothing special about it.
+Özel birþey görmüyorsun.
 ~
 bear~
 A 0 0 0
@@ -49,11 +49,11 @@ N 0 0 0
 stand stand male 0
 0 0 medium 0
 #13
-fiery red demon~
-a fiery demon~
-A red, fiery demon is looking around very angry.
+ateþ çýkaran kýzýl þeytan~
+ateþ çýkaran bir kýzýl þeytan~
+Ateþ çýkaran bir kýzýl þeytan burada, çok sinirli.
 ~
-A big red demon, you feel like it is flaming.
+Kocaman kýzýl bir þeytan... Ateþ çýkarýyor.
 ~
 unique~
 AB JZ -1000 0
@@ -63,9 +63,9 @@ FHI 0 0 0
 stand stand male 0
 0 0 medium 0
 #14
-nightwalker~
-A Nightwalker~
-A Nightwalker from the shadows lurks around.
+solucan~
+Solucan~
+Gölgelerden çýkmýþ bir solucan etrafta sürünüyor.
 ~
 This is a Nightwalker summoned from the shadows. Bloody eyes seem glowing.
 This creature has a horible look.
@@ -92,9 +92,9 @@ FHINQT AB MN 0
 stand stand male 0
 0 0 medium 0
 #16
-squire~
-the squire~
-A squire is stands here, with a smile in his face.
+bey~
+bey~
+Yüzünde gülümsemeyle duran bir bey görüyorsun.
 ~
 This noble squire is serving his apprenticeship in the ways of honor
 and chivalry under his master.
@@ -107,11 +107,11 @@ EN 0 AB M
 stand stand male 0
 0 0 medium 0
 #17
-mirror~
-the mirror~
-A mirror image of someone is here.
+ayna~
+ayna~
+Birinin aynalanmýþ görüntüsü burada.
 ~
-You see nothing special about it.
+Hakkýnda özel bir þey görmüyorsun.
 ~
 human~
 AB 0 0 0
@@ -121,11 +121,11 @@ EFN EKL H NI
 stand stand male 0
 0 0 medium 0
 #18
-undead~
-an undead~
-an undead body is here.
+hortlak~
+hortlak~
+Bir hortlak bedeni burada.
 ~
-You see nothing special about it.
+Hakkýnda özel bir þey görmüyorsun.
 ~
 undead~
 A 0 0 0
@@ -135,11 +135,11 @@ N 0 0 0
 stand stand male 0
 0 0 medium 0
 #19
-lion~
-a lion~
-A honoured looking lion is here.
+aslan~
+aslan~
+Soylu bir aslan burada.
 ~
-You see nothing special about it.
+Hakkýnda özel bir þey görmüyorsun.
 ~
 lion~
 A 0 0 0
@@ -149,11 +149,11 @@ N 0 0 0
 stand stand male 0
 0 0 medium 0
 #20
-wolf~
-a wolf~
-A wolf is here, looking very angrily.
+kurt~
+kurt~
+Sinirli bir kurt görüyorsun.
 ~
-You see nothing special about it.
+Hakkýnda özel bir þey görmüyorsun.
 ~
 wolf~
 A 0 0 0
@@ -163,9 +163,9 @@ N 0 0 0
 stand stand male 0
 0 0 medium 0
 #21
-golem lesser~
-a lesser golem~
-A lesser golem is here.
+küçük golem~
+küçük golem~
+Küçük bir golem burada.
 ~
 The golem appears to be made of some kind of clay, enchanted to come to life!.
 ~
@@ -177,9 +177,9 @@ EFO 0 0 0
 stand stand none 0
 0 0 small 0
 #22
-golem stone~
-a stone golem~
-A stone golem stands ready to rend its master's enemies apart.
+taþ golem~
+taþ golem~
+Efendisini korumaya hazýr bir taþ golem burada.
 ~
 This is a large stone statue of a man. The statue stands eight feet tall
 and looks powerful enough to rip off your head without straining.
@@ -192,13 +192,13 @@ EFO 0 0 0
 stand stand none 0
 0 0 medium 0
 #23
-golem iron~
-a iron golem~
-A huge iron statue of a man stands here.
+demir golem~
+demir golem~
+Kocaman bir demir golem burada.
 ~
 This looks to be an iron statue of a human.  The statue stands a good
 fifteen feet tall.  In fact it almost looks as if it can move.  You then glance
-at it's eyes and notice with a shock that they are watching you. 
+at it's eyes and notice with a shock that they are watching you.
 ~
 golem~
 AT V 0 0
@@ -208,9 +208,9 @@ EFO 0 0 0
 stand stand none 0
 0 0 medium 0
 #24
-golem adamantite~
-a adamantite golem~
-An adamantite golem stands here looking very dangerous.
+adament golem~
+adament golem~
+Tehlikeli görünen bir adament golem burada.
 ~
 It seems to be forged of dark metal.  It looks strong and durable,
 but somewhat un-intelligent.
@@ -223,11 +223,11 @@ EFO 0 0 0
 stand stand none 0
 0 0 large 0
 #25
-lion~
-a lion~
-A honoured looking lion is here.
+aslan~
+aslan~
+Soylu bir aslan burada.
 ~
-You see nothing special about it.
+Hakkýnda özel bir þey görmüyorsun.
 ~
 lion~
 A 0 0 0
@@ -237,9 +237,9 @@ N 0 0 0
 stand stand male 0
 0 0 medium 0
 #26
-shadow~
-a summoned shadow~
-A dark summoned shadow is here.
+gölge kara~
+gölge~
+Kara bir gölge burada.
 ~
 You see nothingness.
 ~
@@ -251,11 +251,11 @@ N M 0 0
 stand stand male 0
 0 0 medium 0
 #27
-dog~
-a dog~
-A dog is here, waiting for the orders of its master.
+köpek~
+köpek~
+Efendisinden emir bekleyen bir köpek burada.
 ~
-You see nothing special about it.
+Hakkýnda özel bir þey görmüyorsun.
 ~
 dog~
 A 0 0 0
@@ -265,11 +265,11 @@ N 0 0 0
 stand stand male 0
 0 0 medium 0
 #28
-summoned earth elemental~
-An earth elemental~
-A huge part of earth stands here, preparing to move.
+toprak uþak~
+toprak uþaðý~
+Kocaman bir toprak uþaðý hareket etmeye hazýrlanýyor.
 ~
-You see nothing special about it.
+Hakkýnda özel bir þey görmüyorsun.
 ~
 earth elemental~
 A 0 0 0
@@ -279,11 +279,11 @@ N 0 E 0
 stand stand male 0
 0 0 large 0
 #29
-summoned air elemental~
-An air elemental~
-A dense circularly flowing gaseous form hanging here.
+hava uþak~
+hava uþaðý~
+Kocaman bir hava uþaðý esmeye hazýrlanýyor.
 ~
-You see nothing special about it.
+Hakkýnda özel bir þey görmüyorsun.
 ~
 air elemental~
 A 0 0 0
@@ -293,11 +293,11 @@ N 0 OS 0
 stand stand male 0
 0 0 large 0
 #30
-summoned fire elemental~
-A fire elemental~
-A balanced burning air is hanging here.
+ateþ uþak~
+ateþ uþaðý~
+Kocaman bir ateþ uþaðý yakmaya hazýrlanýyor.
 ~
-You see nothing special about it.
+Hakkýnda özel bir þey görmüyorsun.
 ~
 fire elemental~
 A 0 0 0
@@ -307,11 +307,11 @@ N 0 H 0
 stand stand male 0
 0 0 large 0
 #31
-summoned water elemental~
-A water elemental~
-A huge mass of ball-shaped water is hanging in the air.
+su uþak~
+su uþaðý~
+Kocaman bir su uþaðý boðmaya hazýrlanýyor.
 ~
-You see nothing special about it.
+Hakkýnda özel bir þey görmüyorsun.
 ~
 water elemental~
 A 0 0 0
@@ -321,11 +321,11 @@ N 0 I 0
 stand stand male 0
 0 0 large 0
 #32
-summoned lightning elemental~
-A lightning elemental~
-A huge spark of electricity fizzles here.
+enerji uþak~
+enerji uþaðý~
+Kocaman bir enerji uþaðý çarpmaya hazýrlanýyor.
 ~
-You see nothing special about it.
+Hakkýnda özel bir þey görmüyorsun.
 ~
 lightning elemental~
 A 0 0 0
@@ -335,11 +335,11 @@ N 0 J 0
 stand stand male 0
 0 0 large 0
 #33
-animated weapon~
-Live %s~
-An animated weapon stands here.
+canlandýrýlmýþ silah~
+Canlandýrýlmýþ %s~
+Canlandýrýlmýþ bir silah burada.
 ~
-You see nothing special about it.
+Hakkýnda özel bir þey görmüyorsun.
 ~
 unique~
 A 0 0 0
@@ -349,11 +349,11 @@ N 0 0 0
 stand stand male 0
 0 0 large 0
 #34
-animated armor~
-Live %s~
-An animated armor stands here.
+canlandýrýlmýþ zýrh~
+Canlandýrýlmýþ %s~
+Canlandýrýlmýþ bir zýrh burada.
 ~
-You see nothing special about it.
+Hakkýnda özel bir þey görmüyorsun.
 ~
 unique~
 A 0 0 0
@@ -366,169 +366,169 @@ stand stand male 0
 
 #OBJECTS
 #1
-coin silver gcash~
-a silver coin~
-One miserable silver coin.~
+akçe sikke~
+bir akçe~
+Bir akçe.~
 silver~
 money 0 A
 1 0 0 0 0
 0 10 0 P
 #2
-coin gold gcash~
-a gold coin~
-One valuable gold coin.~
+altýn sikke~
+bir altýn sikke~
+Bir altýn.~
 gold~
 money 0 A
 0 1 0 0 0
 0 10 0 P
 #3
-coins gold gcash~
-%d gold coins~
-A pile of gold coins.~
+altýn sikke~
+bir miktar altýn sikke~
+Bir miktar altýn.~
 gold~
 money 0 A
 0 0 0 0 0
 0 10 0 P
 #4
-coins silver gcash~
-%d silver coins~
-A pile of silver coins.~
+akçe sikke~
+bir miktar akçe sikke~
+Bir miktar akçe.~
 silver~
 money 0 A
 0 0 0 0 0
 0 10 0 P
 #5
-coins silver gold gcash~
-%d silver coins and %d gold coins~
-A pile of coins.~
+altýn akçe sikke~
+%d akçe ve %d altýn sikke~
+Bir miktar sikke.~
 gold~
 money 0 A
 0 0 0 0 0
 0 10 0 P
 #6
-%s arrow~
-a %s arrow~
-A %s arrow lies on the ground.~
+%s ok~
+bir %s ok~
+Bir %s ok yerde yatýyor.~
 wood~
 weapon 0 AO
 arrow 1 1 pierce 0
 1 5 10 P
 #7
-wooden bow~
-a wooden bow~
-A wooden arrow lies on the ground.~
+tahta yay~
+bir tahta yay~
+Bir tahta yay yerde yatýyor.~
 wood~
 weapon 0 AO
 bow 1 1 blast 0
 1 5 10 P
 #10
-corpse~
-the corpse of %s~
-The corpse of %s is lying here.~
+ceset~
+%s'in cesedi~
+%s'in cesedi burada yatýyor.~
 flesh~
 npc_corpse 0 A
 0 0 0 1 0
 0 1000 0 D
 #11
-corpse~
-the corpse of %s~
-The corpse of %s is lying here.~
+ceset~
+%s'in cesedi~
+%s'in cesedi burada yatýyor.~
 flesh~
 pc_corpse O A
 0 0 0 1 0
 0 1000 0 D
 #12
-head~
-the head of %s~
-The severed head of %s is lying here.~
+kafa~
+%s'in kafasý~
+%s'in kopmuþ kafasý yerde yatýyor.~
 meat~
 trash 0 A
 0 0 0 0 0
 0 50 0 D
 #13
-heart~
-the heart of %s~
-The torn-out heart of %s is lying here.~
+kalp~
+%s'in kalbi~
+%s'in kalbi yerde yatýyor.~
 meat~
 food 0 A
 16 16 0 0 0
 0 20 0 D
 #14
-arm~
-the arm of %s~
-The sliced-off arm of %s is lying here.~
+kol~
+%s'in kolu~
+%s'in kopmuþ kolu yerde yatýyor.~
 meat~
 food 0 A
 20 20 0 0 0
 0 50 0 D
 #15
-leg~
-the leg of %s~
-The sliced-off leg of %s is lying here.~
+bacak~
+%s'in bacaðý~
+%s'in kopmuþ bacaðý yerde yatýyor.~
 meat~
 food 0 A
 20 20 0 0 0
 0 50 0 D
 #16
-guts entrails~
-the guts of %s~
-A steaming pile of %s's entrails is lying here.~
+baðýrsaklar~
+%s'in baðýrsaklarý~
+%s'in baðýrsaklarý yere saçýlmýþ.~
 meat~
 food 0 A
 5 5 0 1 0
 0 20 0 D
 #17
-brains brain~
-the brains of %s~
-The splattered brains of %s are lying here.~
+beyin~
+%s'in beyni~
+%s'in beyninden kalan parçalar yere saçýlmýþ.~
 meat~
 food 0 A
 10 10 0 0 0
 0 20 0 D
 #19
-grave stone~
-the grave of %s~
-A grave stone for %s stands here.~
+mezar taþ~
+%s için mezar taþý~
+%s için mezar taþý buraya dikilmiþ.~
 stone~
 treasure A 0
 0 0 0 0 0
 100 100 12000 P
 #20
-mushroom~
-a Magic Mushroom~
-A delicious magic mushroom is here.~
+mantar~
+bir sihirli mantar~
+Sihirli bir mantar görüyorsun.~
 food~
 food 0 A
 8 8 0 0 0
 0 10 0 P
 #21
-ball light~
-a bright ball of light~
-A bright ball of light shimmers in the air.~
+ýþýk topu~
+ýþýk topu~
+Bir ýþýk topu havada asýlý duruyor.~
 energy~
 light A A
 0 0 -1 0 0
 0 0 0 P
 #22
-spring~
-a magical spring~
-A magical spring flows from the ground here.~
+pýnar su~
+bir sihirli pýnar~
+Bir su pýnarý sihirli bir þekilde fýþkýrýyor.~
 water~
 fountain G 0
 100000 100000 'water' 0 0
 0 0 0 P
 #23
-disc disk floating black~
-a floating disc~
-A floating black disc hangs in the air.~
+asýlý disk~
+asýlý disk~
+Bir disk havada asýlý duruyor.~
 energy~
 container GMPUYZ AQ
 0 E 0 0 0
 0 0 0 P
 #25
-gate portal~
-a shimmering gate~
-A shimmering black gate rises from the ground, leading to parts unknown.~
+geçit parlak parlayan~
+parlayan bir geçit~
+Yerden yükselmiþ parlayan bir geçit görüyorsun.~
 shadow~
 portal GOT 0
 0 0 0 0 0
@@ -545,25 +545,25 @@ A 13 35
 A
 6 1
 #27
-steak~
-a steak from %s~
-A steak from %s.~
+biftek~
+%s bifteði~
+%s bifteði.~
 meat~
 food 0 A
 25 25 0 0 0
 0 20 0 P
 #28
-ranger staff~
-a ranger staff~
-There is a Ranger's Staff here on the ground.~
+korucu asa~
+korucu asasý~
+Bir korucu asasý yere býrakýlmýþ.~
 ebony~
 weapon A AN
 staff 10 1 pierce 0
-0 160 0 P 
+0 160 0 P
 #29
-decanter endless water~
-Decanter of Endless Water~
-A small shiny decanter is on the floor.~
+bitmeyen su testisi~
+Bitmeyen su testisi~
+Küçük bir testi yerde duruyor.~
 leather~
 drink AGIOY A
 100000 100000 'water' 0 0
@@ -573,9 +573,9 @@ decanter~
 The letters '%s' is carved on the upper surface of the decanter.
 ~
 #30
-silk adamantite backpack~
-the silk-adamantite backpack~
-A very very shiny backpack is here.~
+ipek adamant sýrtçanta çanta sýrt~
+Ýpek Adamant Sýrt Çantasý~
+Çok parlak bir sýrt çantasý görüyorsun.~
 silk~
 container AGIOY AKOP
 500 64 0 100 10
@@ -601,8 +601,8 @@ A
 A
 24 -20
 E
-backpack~
-The golden letters '%s' is carved on the side of the backpack.
+çanta sýrtçatasý ipek adamant~
+Üzerinde altýn harflerle '%s' yazýyor.
 ~
 #31
 lion shield~
@@ -613,16 +613,16 @@ armor GIRYZ AJ
 8 8 8 3 0
 0 80 10000 P
 #42
-vial potion~
-a potion vial~
-A vial of a potion is left here.~
+iksir þiþesi~
+iksir þiþesi~
+Bir iksir þiþesi burada býrakýlmýþ.~
 glass~
 drink 0 AO
 5 0 'water' 0 0
 0 10 10 P
 E
-vial~
-It's a glass vial used to hold magical potions. It looks fragile.
+þiþe~
+Ýnce camlý kýrýlgan bir þiþe.
 ~
 #43
 potion silver~
@@ -833,17 +833,17 @@ armor GIRYZ AJ
 30 30 30 20 0
 0 85 20000 P
 #80
-golden dagger~
-a golden dagger~
-There is a shiny golden dagger on the ground.~
+ejderha kama~
+ejderha kamasý~
+Üzerine ejderha nakþedilmiþ bir kama yerde duruyor.~
 gold~
 weapon TWAIP AN
 dagger 10 1 pierce D
 20 80 0 P
 #81
-golden mace~
-a golden mace~
-A shiny gold mace is on the ground.~
+ejderha topuz~
+ejderha topuzu~
+Üzerine ejderha nakþedilmiþ bir topuz yerde duruyor.~
 gold~
 weapon TWAIP AN
 mace 10 1 crush 0
@@ -863,9 +863,9 @@ A
 A
 18 5
 #83
-golden sword~
-a golden sword~
-There is a shiny golden sword on the ground.~
+ejderha kýlýç~
+ejderha kýlýcý~
+Üzerine ejderha nakþedilmiþ bir kýlýç yerde duruyor.~
 gold~
 weapon TWAIP AN
 sword 10 1 pierce D
@@ -907,9 +907,9 @@ quest~
 The letters '%s' is carved on the staff.
 ~
 #87
-chaos blade~
-a chaos blade~
-A shiny gold dagger is on the ground.~
+yataðan~
+yataðan~
+Altýn sarýsý bir yataðan efendisini bekliyor.~
 gold~
 weapon TWAIP AN
 dagger 10 1 pierce D
@@ -935,9 +935,9 @@ sword~
 The letters '%s' is carved on the handle.
 ~
 #89
-kassandra~
-kassandra~
-A mystical green stone is here, flying in the air.~
+kasandra taþ yeþil~
+kasandra~
+Mistik, yeþil bir taþ havada asýlý duruyor.~
 stone~
 treasure AUTY AO
 0 0 -1 0 0
@@ -977,8 +977,8 @@ This shield is resistive to %s.
 ~
 #93
 %s~
-the spirit of %s~
-The vial containing spirit of %s is lying here.~
+%s'nin ruhu~
+%s'in ruhunu taþýyan bir þiþe yerde yatýyor.~
 glass~
 treasure TY AO
 0 0 0 1 0
@@ -1066,9 +1066,9 @@ A
 A
 14 500
 #97
-quest mandrake~
-quest staff of mandrake~
-A quest obj flying in the air.~
+mandrake görev asasý~
+%sMandrake görev asasý%s[%s%s%s]~
+Bir mandrake görev asasý havada asýlý duruyor.~
 energy~
 treasure ATY A
 0 0 -1 0 0
@@ -1078,21 +1078,21 @@ quest~
 The letters '%s' is carved on the staff.
 ~
 #98
-sword katana~
-a katana sword~
-A katana sword is forgotten here.~
+kýlýç katana~
+bir katana~
+Bir katana burada unutulmuþ.~
 iron~
 weapon ORYa ANP
 sword 10 1 slash 0
 15 60 0 P
 E
 katana~
-The letters '%s' is carved on the handle.
+Üzerine '%s' yazýlmýþ.
 ~
 #99
-golden lance~
-a golden lance~
-There is a shiny golden lance on the ground.~
+ejderha kargý~
+ejderha kargýsý~
+Üzerine ejderha nakþedilmiþ bir kargý yerde duruyor.~
 gold~
 weapon TWAIP AN
 lance 10 1 none D
@@ -1107,11 +1107,8 @@ You are floating in nothing.
 0 CD 1
 S
 #2
-Limbo~
-You are floating in a formless void, detached from all sensation of physical
-matter, surrounded by swirling glowing light, which fades into the relative
-darkness around you without any trace of edges or shadow.
-   There is a "No Tipping" notice pinned to the darkness.
+Boþluk~
+Biçimsiz bir hiçliðin içinde süzülüyorsun. Tüm duyularýn kör olmuþ durumda.
 ~
 0 D 1
 D4
@@ -1130,20 +1127,20 @@ S
 
 #SPECIALS
 M 11 spec_special_guard 	* special guards of rulers
-M 15 spec_stalker		* stalkers 
+M 15 spec_stalker		* stalkers
 M 13 spec_cast_mage		* summoned demon
 S
 
 #OMPROGS
-O 51 fight_prog fight_prog_tattoo_apollon	
-O 52 fight_prog fight_prog_tattoo_zeus	
+O 51 fight_prog fight_prog_tattoo_apollon
+O 52 fight_prog fight_prog_tattoo_zeus
 O 53 fight_prog fight_prog_tattoo_siebele
-O 54 fight_prog fight_prog_tattoo_hephaestus	
-O 55 fight_prog fight_prog_tattoo_ehrumen	
-O 56 fight_prog fight_prog_tattoo_ahrumazda		
+O 54 fight_prog fight_prog_tattoo_hephaestus
+O 55 fight_prog fight_prog_tattoo_ehrumen
+O 56 fight_prog fight_prog_tattoo_ahrumazda
 O 57 fight_prog fight_prog_tattoo_deimos
-O 58 fight_prog fight_prog_tattoo_phobos	
-O 59 fight_prog fight_prog_tattoo_odin	
+O 58 fight_prog fight_prog_tattoo_phobos
+O 59 fight_prog fight_prog_tattoo_odin
 O 60 fight_prog fight_prog_tattoo_mars
 O 61 fight_prog fight_prog_tattoo_athena
 O 62 fight_prog fight_prog_tattoo_goktengri

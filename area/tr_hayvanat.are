@@ -1,0 +1,1063 @@
+#AREA
+tr_hayvanat.are~
+Hayvanat Bahçesi~
+{ 1 15} Anon    Hayvanat Bahçesi~
+8200 8299
+
+#MOBILES
+#8200
+tüccar giles~
+giles~
+Giles dükkan sahibi burada oturmuþ tezgahta müþterileri bekliyor.
+~
+Giles zamanýnýn çoðunu burada oturarak Hayvanat Bahçesine gelen
+ziyaretçilere hizmet ederek geçiriyor. Tembel birisi olduðu için baþka bir
+iþ yapmaya tenezzül etmiyor, hem ayrýca iyide para kazanýyor burada.
+~
+human~
+ABG D 0 0
+20 0 3d9+333 199d1+1 2d8+5 punch
+-4 -4 -4 7
+EFNU 0 0 0
+stand stand male 100
+0 0 medium 0
+#8201
+hayvanat bahçesi bekçisi~
+hayvanat bahçesi bekçisi~
+Bekçi masanýn arkasýnda oturuyor.
+~
+Diyarýn en ünlü hayvanat bahçesinin bekçisi karþýnda. Bütün hayvanlarýn
+idare edilmesinden sadece o sorumlu. Deðiþik bir saç þekline sahip birisi,
+pahalý kýyafetleri var. Kýyafetlerine bakýlarak hayvanlara pek bakmadýðý
+izlenimine kapýlýyorsun.
+~
+human~
+AB F 0 0
+10 0 2d7+121 99d1+1 2d4+2 punch
+1 1 1 8
+E 0 0 0
+stand stand male 100
+0 0 medium 0
+#8202
+dev sülük~
+dev bir sülük~
+Dev bir sülük koluna yapýþýyor.
+~
+Dev hafif kahverengi siyahýmsý bir sülük.
+~
+bear~
+ABEF 0 0 0
+3 0 2d6+35 29d1+1 1d6+0 claw
+7 7 7 10
+0 AB 0 0
+stand stand male 0
+0 0 medium 0
+#8203
+kaplan~
+kaplan~
+Kaplan burada avlanmak için bekliyor.
+~
+Sýradan fakat aç bir kaplan.
+~
+cat~
+ABEF J 0 0
+17 0 3d9+258 169d1+1 3d4+4 claw
+-3 -3 -3 7
+H AB 0 0
+stand stand female 0
+0 0 medium 0
+#8204
+yunus~
+yunus~
+Mutluca yüzen bir yunus burada.
+~
+Çok tatlý.
+~
+water fowl~
+ABCE 0 50 0
+10 0 2d7+121 99d1+1 2d4+2 slap
+1 1 1 8
+0 0 0 0
+stand stand female 0
+0 0 medium 0
+#8205
+tek-boynuzlu at~
+tek-boynuzlu at~
+Tek-boynuzlu bir at burada duruyor.
+~
+Muhteþem.
+~
+fox~
+AB 0 1000 0
+15 0 3d9+208 149d1+1 2d6+3 pierce
+-2 -2 -2 7
+IJ 0 0 0
+stand stand female 0
+0 0 medium 0
+#8206
+timsah~
+timsah~
+Timsah havuzun hemen üst kýsmýnda süzülerek yüzüyor.
+~
+Büyük yeþil deriye sahip bir yaratýk, çok büyük ve geniþ diþleri var.
+Daha önce doyurulmuþ olmasýný umut ediyorsun.
+~
+lizard~
+ABF 0 -100 8206
+13 0 2d10+170 129d1+1 2d5+3 cleave
+-1 -1 -1 8
+0 AB 0 0
+stand stand female 0
+0 0 medium 0
+#8207
+ayý~
+ayý~
+Yaklaþtýkça hýrýldayan bir ayý.
+~
+Þu ana kadar gördüðün en büyük ayý. Pençeleriyle sana verebileceði
+zararlarý düþününce kalbin duracak gibi oluyor.
+~
+bear~
+ABF 0 0 0
+13 0 2d10+170 129d1+1 2d5+3 claw
+-1 -1 -1 8
+C AB 0 0
+stand stand female 0
+0 0 medium 0
+#8208
+bebek ejderha~
+bebek ejderha~
+8metrelik boyuyla burada bebek ejderha duruyor.
+~
+Bebek olmasýna raðmen pek bir büyük ejderha karþýnda duruyor.
+~
+dragon~
+AB 0 2 0
+19 0 3d9+308 189d1+1 2d7+5 blast
+-4 -4 -4 7
+0 0 0 0
+stand stand female 0
+0 0 large 0
+#8209
+fil~
+fil~
+Sýradan bir fil burada duruyor.
+~
+Büyük kulaklara sahip gri bir fil.
+~
+dragon~
+AB 0 100 0
+14 0 2d10+190 139d1+1 1d12+3 pierce
+-1 -1 -1 8
+C 0 0 0
+stand stand female 0
+0 0 large 0
+#8210
+goril~
+goril~
+Goril burada duruyor.
+~
+Kýllý geniþ bir goril.
+~
+human~
+ABF 0 0 0
+15 0 3d9+208 149d1+1 2d6+3 bite
+-2 -2 -2 7
+F AB 0 0
+stand stand male 0
+0 0 medium 0
+#8211
+hayvanat bahçesi asistaný bir kadýn~
+hayvanat bahçesi asistaný~
+Hayvanat bahçesi asistaný bir kadýn burada yemek hazýrlýyor.
+~
+Hayvanat bahçesindeki hayvanlarý beslemekten sorumlu olan
+bir kadýn.
+~
+human~
+AB 0 200 0
+10 0 2d7+121 99d1+1 2d4+2 punch
+1 1 1 8
+E 0 0 0
+stand stand female 0
+0 0 medium 0
+#8230
+domuz~
+domuz~
+Bir domuz burada yuvarlanýyor.
+~
+Bu sýradan küçük pembe bir domuz. Ne fazlasý var nede eksiði var.
+~
+pig~
+AB 0 0 0
+3 0 2d6+35 29d1+1 1d6+0 scratch
+7 7 7 10
+0 0 0 0
+stand stand female 0
+0 0 medium 0
+#8231
+küçük kuþ~
+küçük kuþ~
+Küçük bir kuþ etrafta uçuyor.
+~
+Gökyüzünde uçarmýþçasýna kafeste uçan küçük bir kuþ.
+~
+song bird~
+A 0 0 0
+1 0 2d6+10 9d1+1 1d4+0 scratch
+9 9 9 10
+0 0 0 0
+stand stand female 0
+0 0 small 0
+#8232
+bebek keçi~
+bebek keçi~
+Bebek keçi burada ot yiyor.
+~
+Tasmalý bir bebek keçi görüyorsun.
+~
+fox~
+ABG 0 0 8232
+2 0 2d7+21 19d1+1 1d5+0 slash
+8 8 8 10
+0 0 0 0
+stand stand female 0
+0 0 tiny 0
+#8233
+anne keçi~
+anne keçi~
+Normal bir vücuda sahip ortalama bir keçi.
+~
+Keçinin geniþ daire þeklinde zilleri var. Ona bakarken senin giysilerini
+çiðnemeye baþlýyor.
+~
+fox~
+ABG 0 0 8232
+3 0 2d6+35 29d1+1 1d6+0 slash
+7 7 7 10
+0 0 0 0
+stand stand female 0
+0 0 medium 0
+#8234
+baba keçi~
+baba keçi~
+Baba keçi burada duruyor.
+~
+Baba keçi burada ailesini koruyor. Görünüþe göre boynuzlarýyla sana
+epeyce bir zarar verebilir.
+~
+fox~
+ABG 0 0 8232
+4 0 2d7+46 39d1+1 1d5+1 slash
+6 6 6 9
+0 0 0 0
+stand stand female 0
+0 0 medium 0
+#8235
+üzgün görünümlü eþek~
+eþek~
+Üzgün görünümlü bir eþek burada duruyor.
+~
+Oldukça üzgün ve çaresiz bir eþek duruyor burada.
+~
+dog~
+AB 0 0 0
+5 0 2d6+60 49d1+1 1d6+1 stab
+5 5 5 9
+0 0 0 0
+stand stand female 0
+0 0 medium 0
+#8236
+yaþlý at~
+yaþlý at~
+Yaþlý bir at burada duruyor.
+~
+Bir zamanlat savaþ atýna benzer bir görüntüsü var atýn. Büyük ve kaslý,
+ve muhtemelen emekli olmasýna raðmen zarar verebilir durumda.
+~
+fox~
+AB 0 0 0
+6 0 2d7+71 59d1+1 1d7+1 kick
+4 4 4 9
+I 0 C 0
+stand stand female 0
+0 0 medium 0
+#8237
+papaðan harvey~
+papaðan harvey~
+Harvey, yeþil papaðan burada tüneðin üstünde duruyor.
+~
+Bu yeþil papaðan tüneðin üstünde oturuyor. Senin bütün hareketlerini
+izliyor. Papaðanýn üstünde, isminin yazýlý olduðu küçük bir tabela var.
+Tabelanýn üstünde "Harvey konuþan papaðan, lütfen parmaklarýnýza dikkat
+ediniz." Yazýyor.
+~
+song bird~
+AB 0 0 0
+8 0 2d7+96 79d1+1 1d7+2 peck
+3 3 3 9
+0 0 0 0
+stand stand female 0
+0 0 small 0
+#0
+
+#OBJECTS
+#8200
+pirinç küçük anahtar~
+pirinçten yapýlmýþ küçük anahtar~
+pirinçten yapýlmýþ küçük anahtar burada duruyor.~
+brass~
+key 0 A
+0 0 0 0 0
+1 10 4 P
+E
+key~
+It is a small, simple brass key with no inscriptions
+or marks of any kind.
+~
+#8201
+tiþört~
+Tiþört~
+Üzerinde çeþitli renklerle yazý yazan düz beyaz bir tiþört burada duruyor.~
+is here.~
+satin~
+clothing 0 AK
+0 0 0 0 0
+1 20 50 P
+A
+17 -1
+E
+writting~
+The writting on the tee-shirt reads
+"I've been to the Midgaard Zoo"
+~
+#8202
+çinili fincan~
+çinili bir fincan~
+Yerde üzerinde çeþit çeþit renklerle yazý yazýlmýþ çinili bir fincan duruyor.~
+porcelain~
+drink 0 AO
+3 3 'lemonade' 0 0
+1 10 10 P
+E
+writting~
+The writting on the mug reads
+"I've been to the Midgaard Zoo"
+~
+#8203
+su çeþmesi~
+Çeþme~
+Çeþmeden su fýþkýrýyor.~
+~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 G
+E
+fountain~
+It is very nice.  Made from fine white marble.
+~
+#8204
+katlanabilir hayvanat bahçesi haritasý~
+Katlanabilir bir hayvanat bahçesi haritasý~
+Katlanabilir bir hayvanat bahçesi haritasý burada duruyor.~
+paper~
+map 0 AO
+0 0 0 0 0
+1 12 200 P
+E
+harita hayvanat bahçe~
+Selenge Hayvanat Bahçesi
+
+             [ ]
+            / |
+           /  |                  G = Gift Shop
+         [G]-[W]--[K]            W = Wishing well
+              |                  K = Kiddies Zoo
+        [X]--[ ]                 X = Out of bounds (Keeper)
+              |                  C = Crocodile
+     [C]      |   [G]            Y = Out Of Bounds (Feed Hut)
+      |       |    |             D = Dolphin
+     [ ]-----[ ]--[ ]--[ ]-[Y]   T = Tiger
+      |       |    |    |        U = Unicorn
+     [D] [E]-[ ]  [b]   |        B = Baby Dragon
+              |        [ ]-[B]   G = Gorilla
+             [T]        |        E = Elephant
+                       [U]       b = Bear
+
+~
+#8205
+hayvanat bahçesi hançeri~
+Hayvanat Bahçesine ait hançer~
+Küçük, üzerinde çok renkli bir yazý bulunan demir hançer burada duruyor.~
+iron~
+weapon 0 AN
+dagger 3 5 pierce 0
+10 80 750 P
+E
+writting~
+The writting on the tee-shirt reads
+"I've been to the Midgaard Zoo"
+~
+#0
+
+#ROOMS
+#8200
+Hayvanat Bahçesinin Dýþý~
+Parkýn içindeki bir patikanýn sonuna geldin. Selenge Hayvanat Bahçesinin
+kapýlarýnýn dýþýnda duruyorsun. Batýda ufak bir göl görüyorsun, doðuda ise
+küçük bir patika bulunmakta. Güneyde ise 2 tane turnike var. Biri hayvanat
+bahçesine diðeride dýþýna çýkýyor.
+~
+0 C 1
+D0
+~
+~
+0 -1 3114
+D5
+~
+~
+0 -1 3115
+D2
+Turnike yol ayrýmlarýnda oklarla hangi yönün nereye gittiðini anlatmak
+adýna kullanýlýr.
+~
+turnike~
+0 -1 8205
+E
+turnike~
+The turnstiles are study and can only be made to turn in one direction.
+~
+S
+#8201
+Hayvanat Bahçesi Dilek Kuyusu~
+Selenge Hayvanat Bahçesinin hemen giriþinde duruyorsun. Dýþarýya yönelen
+turnike hemen batýda olmalý fakat turnike yerine küçük bir bina var orada.
+Sen yinede çýkmak için ayný yoldan geri dönmen gerektiðini düþünüyorsun.
+Doðuda ise çocuklar için hazýrlanmýþ oldukça parlak ve renkli Hayvanat
+Bahçesi Çocuk bölümü var, güneyde ise asýl Hayvanat Bahçesi bulunmakta.
+~
+0 0 1
+D0
+The turnstile looks study and impossible to get through from this side.
+~
+turnstile~
+0 -1 -1
+D1
+Birkaç kulübe ve kümes görüyorsun doðuda.
+~
+~
+0 -1 8230
+D2
+Küçük bir patika görüyorsun.
+~
+~
+0 -1 8204
+D3
+Bina þehir dýþýndan gelenler için yapýlmýþ bir hediye dükkaný imiþ.
+~
+kapý~
+2 -1 8205
+D5
+Bulanýk sudaki parýldayan bozukluklar görüyorsun.
+~
+ýzgara~
+1 8200 8203
+S
+#8203
+Dilek Kuyusunun Dibi~
+Dilek kuyusunun dibindesin, pek yüksek olmayan kuyudan rahatlýkla
+týrmanarak geri çýkabilirsin.
+~
+8200 1 6
+D4
+Gökyüzünü görebiliyorsun.
+~
+ýzgara~
+1 8200 8201
+S
+#8204
+Hayvanat Bahçesinde Bir Patika~
+Hayvanat Bahçesindeki küçük bir patikadasýn. Batýda önemli olduðu
+izlenimine kapýldýðýn bir bina bulunuyor, güney ve kuzeye doðru devam ediyor
+patika.
+~
+0 0 1
+D0
+Kuyuyu görüyorsun.
+~
+~
+0 -1 8201
+D2
+Yanyol ve arayollarý görüyorsun.
+~
+~
+0 -1 8207
+D3
+Kapýnýn hemen üstünde "Hayvanat Bahçesi Bakýcýsý" yazýsýný görüyorsun.
+~
+kapý~
+1 -1 8206
+S
+#8205
+Hediye Dükkaný~
+Pek bir özenle hazýrlanmýþ hediyelerin bulunduðu bir dükkandasýn.
+Dükkanda hayvanat bahçesiyle ilgili bazý eþyalar satýlmakta. Kuzeye
+baktýðýnda bir turnike dýþarý dünyaya açýlýyor, doðuda ise tekrar Hayvanat
+Bahçesine dönüyor. Tezgahýn üstündeki tabela dikkatini çekiyor.
+~
+8200 8 0
+D0
+Turnike Hayvanat Bahçesinin dýþýna çýkýyor.
+~
+turnike~
+0 -1 8200
+D1
+Kapý aralýðýndan Hayvanat Bahçesi kuyusunu görüyorsun.
+~
+kapý~
+2 -1 8201
+E
+iþaret tabela~
++----------------------+
+|  The Zoo Gift Shop   |
+|                      |
+| Type 'list' or 'buy' |
+|  here to deal with   |
+|     shop keeper.     |
++----------------------+
+~
+S
+#8206
+Hayvanat Bahçesi Bakýcýsý'nýn Ofisi~
+Hayvanat Bahçesi bakýcýsýnýn ofisinde duruyorsun. Geniþ bir masa ve
+üzerindeki birsürü kaðýtlar odayý meþgul etmekte.
+~
+8200 8 0
+D1
+~
+kapý~
+1 -1 8204
+E
+paper~
+You pick a piece of paper randomly and read it. It details the profits of the
+zoo for the last week. Wow! You realise this guy is making a packet.
+~
+S
+#8207
+Hayvanat Bahçesinde bir Anayol~
+Anayol'un ortasýnda duruyorsun; güneye, kuzeye, batýya ve doðuya giden
+patikalar görüyorsun.
+~
+0 0 1
+D0
+Küçük bir patika görüyorsun.
+~
+~
+0 -1 8204
+D1
+Küçük bir patika görüyorsun.
+~
+~
+0 -1 8208
+D2
+Küçük bir patika görüyorsun.
+~
+~
+0 -1 8209
+D3
+Küçük bir patika görüyorsun.
+~
+~
+0 -1 8210
+S
+#8208
+Kafesler arasýndaki bir patika~
+Meþhur Selenge Hayvanat Bahçesinde bir patikada duruyorsun. Kuzeyde ve
+güneyde kafesler var. Patika doðuya ve batýya doðru devam ediyor.
+~
+0 0 1
+D0
+Goril kafese yaklaþtýðýnda senin göðsüne vuruyor, sana meydan
+okurmuþçasýna. O kadar akýllý olamazlar ama deðil mi?
+~
+kapý kafes~
+2 8200 8211
+D1
+Küçük bir kulübe gözüne çarpýyor.
+~
+~
+0 -1 8213
+D2
+Büyük kahverengi bir ayý ayaða kalkýp hýrlamaya baþlýyor tamda sen
+yaklaþýp ona düzgün bir bakýþ attýðýnda.
+~
+kapý kafes~
+2 8200 8212
+D3
+Anayolu görebiliyorsun.
+~
+~
+0 -1 8207
+S
+#8209
+Kafesler arasýndaki bir patika~
+Meþhur Selenge Hayvanat Bahçesinde bir patikada duruyorsun. Batýda ve
+güneyde kafesler var. Patika kuzeye doðru devam ediyor.
+~
+0 0 1
+D0
+Anayolu görebiliyorsun.
+~
+~
+0 -1 8207
+D2
+Kafesin içindeki kaplaný görüyorsun, kaplan kafesin bir ucundan diðer
+ucuna yürüyüyor; sýkýlmýþ olsa gerek.
+~
+kapý kafes~
+2 8200 8214
+D3
+Batýdaki kafeste bir fil sakince duruyor.
+~
+kapý kafes~
+2 8200 8215
+S
+#8210
+Kafesler arasýndaki bir patika~
+Meþhur Selenge Hayvanat Bahçesinde bir patikadasýn. Kuzeyde ve güneyde
+bazý kafesler var. Kafeslerin içinde havuzlar görüyorsun. Patika doðuya
+doðru geri dönüyor.
+~
+0 0 1
+D0
+Sayýsýz timsah görüyorsun kafesin ardýnda, hepside havuzda çýrpýnmaya
+çalýþýyor.
+~
+kapý kafes~
+2 8200 8216
+D1
+Anayolu görüyorsun.
+~
+~
+0 -1 8207
+D2
+Sayýsýz yunus görebiliyorsun kafesin ardýnda, birbirleriyle suda oyun
+oynuyorlar.
+~
+kafes kapý~
+2 8200 8217
+S
+#8211
+Goril Kafesi~
+Hayvanat Bahçesin'deki Goril kafesinin içindesin. Kocaman fakat tek
+baþýna durmuþ bir aðaç görüyorsun. Kafesin dýþ kapýsý güneyde.
+~
+0 0 1
+D2
+Kafesin hemen dýþýnda küçük bir patika görüyorsun.
+~
+kafes kapý~
+2 8200 8208
+S
+#8212
+Ayý Kafesi~
+Hayvanat Bahçesin'deki Ayý kafesinin içindesin. Kafesin bir köþesinde
+birsürü yarýsý yenmiþ et duruyor. Hadi bunlarý dün yediyse ve þimdi açsa
+diye düþünüyorsun. Kafesin çýkýþ kapýsý kuzeyde duruyor.
+~
+0 0 1
+D0
+Kafesin dýþýnda küçük bir patika görüyorsun.
+~
+kafes kapý~
+2 8200 8208
+S
+#8213
+Patikada bir kývrým~
+Patika batýdan güneye doðru kývrýlýyor. Küçük bir kulübeye giden kapý
+doðuda duruyor.
+~
+0 0 1
+D1
+Kapý oldukça zayýf.
+~
+kapý~
+1 -1 8219
+D2
+Küçük bir patika görüyorsun.
+~
+~
+0 -1 8218
+D3
+Küçük bir patika görüyorsun.
+~
+~
+0 -1 8208
+S
+#8214
+Kaplan Kafesi~
+Hayvanat Bahçesindeki Kaplan kafesindesin. Yerlerde uzun çimenler
+büyüyor. Tahmin etmeye pek gerek yok sanýrým neden çimenlerin biçilmediðine.
+Birden kafesin içinde olduðunun farkýna varýyorsun. Sen ne yaptýn? Belkide
+hemen kuzeydeki kapýya koþup kafesten çýkmalýsýn.
+~
+0 0 1
+D0
+Kafesin diðer tarafýnda küçük bir patika görüyorsun.
+~
+kapý kafes~
+2 8200 8209
+S
+#8215
+Fil Kafesi~
+Hayvanat Bahçesinin Fil kafesinin içindesin. Zeminin sert ve tozlu
+olduðunu farkediyorsun. Kafesin dýþýna çýkan kapý doðu tarafýnda.
+~
+0 0 1
+D1
+Kafesin dýþýnda küçük bir patika görüyorsun.
+~
+kapý kafes~
+2 8200 8209
+S
+#8216
+Timsah Kafesi~
+Hayvanat Bahçesinin Timsah kafesinin içindesin. Kafesin çoðu kýsmýný bir
+havuz kaplýyor. Kafesin dýþýna çýkan kapý güney tarafýnda duruyor.
+~
+0 0 6
+D2
+Kafesin dýþýnda küçük bir patika görüyorsun.
+~
+kapý kafes~
+2 8200 8210
+S
+#8217
+Yunus Kafesi~
+Hayvanat Bahçesindeki yunus kafesinin içindesin. Havuzun içinde
+yüzüyorsun. Kafesin dýþýna çýkan kapý kuzey tarafýnda.
+~
+0 0 6
+D0
+Kafesin dýþýnda küçük bir patika görüyorsun.
+~
+kapý kafes~
+2 8200 8210
+S
+#8218
+Kafeslerin arasýnda bir patika~
+Meþhur Selenge Hayvanat Bahçesinde bir patikada duruyorsun. Doðuda ve
+güneyde kafesler bulunuyor, patika kuzeye doðru devam ediyor.
+~
+0 0 1
+D1
+Kafesin içindeki devasa kertenkeleyi görüyorsun.
+~
+kapý kafes~
+2 8200 8220
+D2
+Kafesin diðer tarafýnda beyaz boynuzlu bir at görüyorsun.
+~
+kapý kafes~
+2 8200 8221
+D0
+Kapý aralýðýndan küçük bir patikayý görebiliyorsun.
+~
+~
+0 -1 8213
+S
+#8219
+Hayvan yemek deposu~
+Küçük bir kulübede duruyorsun. Hayvanat Bahçesindeki bütün hayvanlarýn
+yemeklerinin burada olduðunu rahatlýkla etrafýndaki yemeklerden
+anlayabiliyorsun. Kulübenin dýþýna çýkan kapý batý yönünde.
+~
+8200 D 0
+D3
+Kapý oldukça zayýf.
+~
+kapý~
+1 -1 8213
+S
+#8220
+Bebek Ejderha Kafesi~
+Hayvanat Bahçesindeki bebek ejderhanýn kafesinin içinde duruyorsun. Kafes
+neredeyse bomboþ bebek dýþýnda. Kafesin çýkýþ kapýsý batýdaki kapýda.
+~
+0 0 1
+D3
+Kafesin dýþýnda küçük bir patika görüyorsun.
+~
+kapý kafes~
+2 8200 8218
+S
+#8221
+Tek boynuzlu At'ýn kafesi~
+Hayvanat Bahçesindeki tek-boynuzlu at'ýn kafesinin içindesin. Kafesin
+içerisi oldukça soðuk, kafesin kuzey duvarýnda çýkýþ kapýsý var.
+~
+0 0 1
+D0
+Kafesin dýþýnda küçük bir patika görüyorsun.
+~
+kapý kafes~
+2 8200 8218
+S
+#8230
+Küçüklerin Hayvanat Bahçesi~
+Hayvanat Bahçesinin küçükler için yapýlmýþ kýsmýnýn giriþindesin. Batýda
+Hayvanat Bahçesi kuyusunu görüyorsun, doðuda ise küçük bir patika var.
+~
+0 0 1
+D3
+Kuyuyu görebiliyorsun.
+~
+~
+0 -1 8201
+D1
+Küçük bir patika görüyorsun.
+~
+~
+0 -1 8231
+S
+#8231
+Hayvanat Bahçesi Küçükler Bölümünde küçük bir patika~
+Küçükler için yapýlmýþ kýsýmda bir patikadasýn. Kuzey tarafda keçilerin
+bulunduðu bir çit, güney taraftada domuzlarýn bulunduðu bir çit bulunmakta.
+Patika doðuya ve batýdaki giriþe doðru devam ediyor.
+~
+0 0 1
+D0
+Keçi ailesini görebiliyorsun.
+~
+~
+0 -1 8232
+D1
+Küçük bir patika görüyorsun.
+~
+~
+0 -1 8234
+D2
+Çamurun içine atlayan domuzlarý görüyorsun.
+~
+~
+0 -1 8233
+D3
+Giriþi görebiliyorsun.
+~
+~
+0 -1 8230
+S
+#8232
+Keçi çiti~
+Düþmüþ geniþ bir aðaç burada duruyor, çocuklarýn gelip keçilerle
+oynamasýna olanak saðlýyor. Güneyde küçük bir patika yatýyor.
+~
+0 0 1
+D2
+Küçük bir patika görüyorsun.
+~
+~
+0 -1 8231
+S
+#8233
+Domuz Çiti~
+Dizlerine kadar çamurun içinde duruyorsun. Kötü bir koku senin bütün duyu
+organlarýný faal duruma düþürmekte. Kuzeye küçük patikaya gidebilirsin.
+~
+0 0 1
+D0
+Küçük bir patika görüyorsun.
+~
+~
+0 -1 8231
+S
+#8234
+Hayvanat Bahçesinin Küçükler için olan bölümünde bir patika~
+Hayvanat Bahçesinin küçükler için yapýlmýþ kýsmýnda küçük bir
+patikadasýn. Kuzeyde büyük kuþ kafesleri günde ise ahýr görüyorsun. Batýya
+doðru geri dönen bir patika bulunmakta.
+~
+0 0 1
+D0
+Tahtanýn üstünden bir baþka tahtanýn üstüne uçan kuþlar görüyorsun.
+~
+kapý~
+1 -1 8236
+D3
+Küçük bir patika görüyorsun.
+~
+~
+0 -1 8231
+D2
+Ahýrdan bir sürü atýn sesi geliyor.
+~
+kapý~
+1 -1 8235
+S
+#8235
+Ahýr~
+Küçük bir ahýrdasýn. Bütün zemin samanla örtülmüþ durumda, çeþitli at
+ayaklarý ve bir sürü þey daha duvarlara çivilenmiþ duruyor. Ahýrýn çýkýþ
+kapýsý kuzeyde duruyor.
+~
+0 D 0
+D0
+Kapýnýn çýkýþýnda küçük bir patika birda ötesinde kuþ kafesi görüyorsun.
+~
+kapý~
+1 -1 8234
+S
+#8236
+Büyük Kuþ Kafesi~
+Büyük bir kuþ kafesindesin. Kafes kuzeye doðru devam ediyor, güneyde ise
+çýkýþ kapýsý var.
+~
+0 D 0
+D0
+Kafesin dahada devam ettiðini görüyorsun.
+~
+~
+0 -1 8237
+D2
+Kapýnýn penceresinden küçük bir patika görüyorsun.
+~
+kapý~
+1 -1 8234
+S
+#8237
+Büyük Kuþ Kafesi~
+Büyük bir kuþ kafesinde duruyorsun. Kafes batýya ve güneye doðru devam
+ediyor.
+~
+0 D 2
+D2
+Kafesin devamýný görüyorsun.
+~
+~
+0 -1 8236
+D3
+Kafesin devamýný görüyorsun.
+~
+~
+0 -1 8238
+S
+#8238
+Büyük Kuþ Kafesi~
+Büyük kuþ kafesinin donunda duruyorsun. Kafesin geri kalan kýsmý doðuda
+duruyor.
+~
+0 D 0
+D1
+Kafesin devamýný görüyorsun.
+~
+~
+0 -1 8237
+S
+#0
+
+#RESETS
+* this area has been converted to ROM 2.4 format by jaceks
+* area Zoo of Midgaard is connected with:
+*         8200 <> 3115 (midgaard)
+*         8200 <> 3116 (midgaard)
+* ver 1.00
+* - section #SPECIALS added
+* - section #SHOPS added
+* - a zoo dagger added
+* - fountain added
+*                      jaceks, Wed Jul 31 00:12:08 MET DST 1996
+*
+* M 0 6502 1 8218    Tourist  (somewhere_between_cages)
+* E 1 8201 500 5    Tee-shirt
+* E 1 1025 100 16   Wields wakizashi
+*
+M 0 8200 1 8205 1  * Gift shop keeper (S)
+G 0 8201 -1        * a tee-shirt
+G 0 8202 -1        * a mug
+G 0 8204 -1        * a map of Midgaard Zoo
+G 0 8205 -1        * a zoo dagger
+*
+D 0 8201 5 2      * Lock Well grate
+D 0 8204 3 1      * Zoo keepers hut
+D 0 8206 1 1      * Zoo keepers hut
+*
+D 0 8210 0 2      * Cages
+D 0 8210 2 2
+D 0 8216 2 2
+D 0 8217 0 2
+*
+D 0 8209 3 2
+D 0 8209 2 2
+D 0 8214 0 2
+D 0 8215 1 2
+*
+D 0 8208 0 2
+D 0 8208 2 2
+D 0 8211 2 2
+D 0 8212 0 2
+*
+D 0 8218 1 2
+D 0 8218 2 2
+D 0 8220 3 2
+D 0 8221 0 2
+*
+M 0 8201 1 8206 1  * Zoo keeper (10)
+G 1 8200 8           * Zoo key
+*
+M 0 8211 1 8219  1 * Zoo assistant  (10)
+E 1 8205 -1 16       * wields a zoo dagger
+*
+O 0 8203 1 8201 1  * Well
+*
+M 0 8203 1 8214 1  * Tiger (17)
+*
+M 0 8206 3 8216 3  * Crocodile (13)
+*
+M 0 8204 3 8217 3  * Dolphin (10)
+*
+M 0 8205 1 8221 1  * Unicorn (15)
+*G 1 8205 100
+*
+M 0 8202 6 8203 4  * Giant Leech (3)
+*
+M 0 8209 1 8215 1  * Elephant (14)
+*
+M 0 8210 1 8211 1  * Gorilla (15)
+*
+M 0 8207 1 8212 1  * Bear (13)
+*
+M 0 8208 1 8220 1  * Baby Dragon (19)
+*
+M 0 8230 6 8233 3  * Pigs (3)
+*
+M 0 8234 1 8232 1                (2)
+M 0 8233 1 8232 1  * Goat Family (3)
+M 0 8232 1 8232 1                (4)
+*
+D 0 8235 0 1       * Close Stable door
+D 0 8234 2 1
+*
+M 0 8236 1 8235 1  * Horse (5)
+M 0 8235 1 8235 1  * Donkey (6)
+*
+D 0 8236 2 1       * Close aviary door
+D 0 8234 0 1
+*
+M 0 8231 12 8236 7 * Small birds (1)
+*
+M 0 8231 12 8238 1 * Small bird (1)
+*
+M 0 8237 1 8238 1  * parrot (8)
+*
+S
+
+#SHOPS
+8200 0 0 0 0 0  100 100  0 23  * shopkeeper Giles
+0
+
+#SPECIALS
+M 8208 spec_breath_lightning   * the baby dragon
+S
+
+#$
