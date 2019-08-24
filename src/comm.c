@@ -419,7 +419,7 @@ int main( int argc, char **argv )
     /*
      *
      */
-    port = 6001;
+    port = 4000;
     if ( argc > 1 )
     {
 	if ( !is_number( argv[1] ) )
@@ -429,7 +429,7 @@ int main( int argc, char **argv )
 	}
 	else if ( ( port = atoi( argv[1] ) ) <= 1024 )
 	{
-	    fprintf( stderr, "Port number must be above 1024.\n" );
+		fprintf( stderr, "Port 1024'ün üzerinde olmalý.\n" );
 	    exit( 1 );
 	}
     }
@@ -440,14 +440,14 @@ int main( int argc, char **argv )
 
 #if defined(macintosh) || defined(MSDOS)
     boot_db( );
-    log_string( "ready to rock." );
+    log_string( "UD kullanýma hazýr." );
     game_loop_mac_msdos( );
 #endif
 
 #if defined(unix)
     control = init_socket( port );
     boot_db( );
-    sprintf( log_buf, "ready to rock on port %d.", port );
+		sprintf( log_buf, "UD %d portunda kullanýma hazýr.", port );
     log_string( log_buf );
     game_loop_unix( control );
     close (control);
@@ -458,7 +458,7 @@ int main( int argc, char **argv )
     /*
      * That's all, folks.
      */
-    log_string( "Normal termination of game." );
+		 log_string( "Oyun normal þekilde sonlandý." );
     exit( 0 );
     return 0;
 }
@@ -1005,7 +1005,6 @@ void init_descriptor( int control )
      */
     {
 	extern char * help_greeting;
-        write_to_buffer( dnew, "\033[2J\033[0;0H\033[0;37;40m\n\r", 0 );
 	if ( help_greeting[0] == '.' )
 	    write_to_buffer( dnew, help_greeting+1, 0 );
 	else
@@ -1028,7 +1027,7 @@ void close_socket( DESCRIPTOR_DATA *dclose )
     if ( dclose->snoop_by != NULL )
     {
 	write_to_buffer( dclose->snoop_by,
-		"Kurbanýn ayrýldý.\n\r", 0 );
+		"Kurbanýn oyundan ayrýldý.\n\r", 0 );
     }
 
     {
@@ -1043,7 +1042,7 @@ void close_socket( DESCRIPTOR_DATA *dclose )
 
     if ( ( ch = dclose->character ) != NULL )
     {
-	sprintf( log_buf, "Closing link to %s.", ch->name );
+			sprintf( log_buf, "Baðlantý kapatýlýyor: %s.", ch->name );
 	log_string( log_buf );
 
 	if (ch->pet &&
@@ -1058,7 +1057,7 @@ void close_socket( DESCRIPTOR_DATA *dclose )
 	{
 	    if (!IS_IMMORTAL(ch))
 	       act( "$n baðlantýsýný kaybetti.", ch, NULL, NULL, TO_ROOM );
-	    wiznet("Net death has claimed $N.",ch,NULL,WIZ_LINKS,0,0);
+				 wiznet("$N baðlantýsýný kaybetti.",ch,NULL,WIZ_LINKS,0,0);
 	    ch->desc = NULL;
 	}
 	else
@@ -1215,7 +1214,7 @@ void read_from_buffer( DESCRIPTOR_DATA *d )
 
 	if ( d->inbuf[i] == '\b' && k > 0 )
 	    --k;
-	else if ( (isascii(d->inbuf[i]) && isprint(d->inbuf[i]))
+			else if (( isascii(d->inbuf[i]) && isprint(d->inbuf[i]) )
      ||d->inbuf[i]=='ý' ||d->inbuf[i]=='ð'
      || d->inbuf[i]=='ü' || d->inbuf[i]=='þ'|| d->inbuf[i]=='ö'
      ||d->inbuf[i]=='ç' ||d->inbuf[i]=='Ý' ||d->inbuf[i]=='Ð'
@@ -1809,8 +1808,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	if ( fOld )
 	{
 	    /* Old player */
- 	    write_to_buffer( d, "Þifre: ", 0 );
-	    write_to_buffer( d, (char *) echo_off_str, 0 );
+ 	    write_to_buffer( d, "Parola: ", 0 );
 	    d->connected = CON_GET_OLD_PASSWORD;
 	    return;
 	}
@@ -1843,6 +1841,8 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
             }
 
  	    do_help(ch,(char*)"NAME");
+			sprintf( buf, "\n\rDoðru anladým mý, %s (E/H)? ", argument );
+			write_to_buffer( d, buf, 0 );
 	    d->connected = CON_CONFIRM_NEW_NAME;
 	    return;
 	}
@@ -1874,7 +1874,6 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    else
 		{
  	    	 write_to_buffer( d, "Þifre: ", 0 );
-	    	 write_to_buffer( d, (char *) echo_off_str, 0 );
 	    	 d->connected = CON_GET_OLD_PASSWORD;
 		 ch->endur++;
 		}
@@ -2060,7 +2059,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    break;
 
 			case 'h' : case 'H':
-	    write_to_buffer(d,"Name: ",0);
+	    write_to_buffer(d,"Ýsim: ",0);
             if ( d->character != NULL )
             {
                 free_char( d->character );
@@ -2079,8 +2078,8 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	switch ( *argument )
 	{
 		case 'e': case 'E':
-	sprintf( buf, "\n\rTeþekkürler.\n\r%s karakteri için bir þifre girin: %s",
-		ch->name, (char *) echo_off_str );
+	sprintf( buf, "\n\rTeþekkürler.\n\r%s karakteri için bir þifre girin: ",
+		ch->name );
 	    write_to_buffer( d, buf, 0 );
 	    d->connected = CON_GET_NEW_PASSWORD;
 	    break;
@@ -2106,7 +2105,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	if ( strlen(argument) < 5 )
 	{
 	    write_to_buffer( d,
-				"Þifre en az 5 karakter uzunluðunda olmalýdýr.\n\rParola: ",
+				"Þifre en az 5 karakter uzunluðunda olmalýdýr.\n\rÞifre: ",
 		0 );
 	    return;
 	}
@@ -2172,11 +2171,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    argument = one_argument(argument,arg);
 	    if (argument[0] == '\0')
 	      {
-		sprintf(buf,
-"Uzak Diyarlar Mud %d farklý ýrka ev sahipliði yapar. Irklarýn özeti:",
-			MAX_PC_RACE - 1);
-		write_to_buffer( d, buf, 0);
-		write_to_buffer( d, "\n\r", 0);
+			write_to_buffer( d, "Aþaðýda ýrk listesi verilmiþtir. Lütfen seçiniz:\n\n\r", 0);
             	do_help(ch,(char*)"RACETABLE");
 		break;
 	      }
@@ -2933,12 +2928,46 @@ void stop_idling( CHAR_DATA *ch )
 /*
  * Write to one char.
  */
-void send_to_char( const char *txt, CHAR_DATA *ch )
+void send_to_char_bw( const char *txt, CHAR_DATA *ch )
 {
     if ( txt != NULL && ch->desc != NULL )
         write_to_buffer( ch->desc, txt, strlen(txt) );
     return;
 }
+
+/*
+* Write to one char, new colour version, by Lope.
+*/
+void send_to_char( const char *txt, CHAR_DATA *ch )
+{
+	 const	char 	*point;
+			 char 	*point2;
+			 char 	buf[ MAX_STRING_LENGTH*4 ];
+	 int	skip = 0;
+
+	 buf[0] = '\0';
+	 point2 = buf;
+	 if( txt && ch->desc )
+ {
+	 for( point = txt ; *point ; point++ )
+				 {
+			 if( *point == '{' )
+			 {
+		 point++;
+		 skip = colour( *point, ch, point2 );
+		 while( skip-- > 0 )
+				 ++point2;
+		 continue;
+			 }
+			 *point2 = *point;
+			 *++point2 = '\0';
+	 }
+	 *point2 = '\0';
+				 write_to_buffer( ch->desc, buf, point2 - buf );
+ }
+	 return;
+}
+
 /*
  * Write to one char with color
  */
@@ -3017,7 +3046,7 @@ void send_ch_color( const char *format, CHAR_DATA *ch, int min, ... )
 /*
  * Send a page to one char.
  */
-void page_to_char( const char *txt, CHAR_DATA *ch )
+void page_to_char_bw( const char *txt, CHAR_DATA *ch )
 {
     if ( txt == NULL || ch->desc == NULL)
 	 return; /* ben yazdim ibrahim */
@@ -3038,6 +3067,41 @@ void page_to_char( const char *txt, CHAR_DATA *ch )
 #endif
 }
 
+/*
+ * Page to one char, new colour version, by Lope.
+ */
+void page_to_char( const char *txt, CHAR_DATA *ch )
+{
+    const	char	*point;
+    		char	*point2;
+    		char	buf[ MAX_STRING_LENGTH * 4 ];
+		int	skip = 0;
+
+    buf[0] = '\0';
+    point2 = buf;
+    if( txt && ch->desc )
+	{
+		for( point = txt ; *point ; point++ )
+	        {
+		    if( *point == '{' )
+		    {
+			point++;
+			skip = colour( *point, ch, point2 );
+			while( skip-- > 0 )
+			    ++point2;
+		continue;
+		    }
+		    *point2 = *point;
+		    *++point2 = '\0';
+		}
+		*point2 = '\0';
+		ch->desc->showstr_head  = (char*)alloc_mem( strlen( buf ) + 1 );
+		strcpy( ch->desc->showstr_head, buf );
+		ch->desc->showstr_point = ch->desc->showstr_head;
+		show_string( ch->desc, "" );
+	}
+    return;
+}
 
 /* string pager */
 void show_string(struct descriptor_data *d, char *input)

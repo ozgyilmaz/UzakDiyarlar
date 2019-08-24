@@ -1414,12 +1414,49 @@ void do_look( CHAR_DATA *ch, char *argument )
     if ( arg1[0] == '\0' || !str_cmp( arg1, "auto" ) )
     {
 	/* 'look' or 'look auto' */
-	send_to_char( ch->in_room->name, ch );
+  printf_to_char( ch, "{c%s{x", ch->in_room->name );
+  switch(ch->in_room->sector_type)
+	{
+			case SECT_INSIDE:
+				printf_to_char(ch," [İçeri]");
+				break;
+			case SECT_CITY:
+				printf_to_char(ch," [Şehir]");
+				break;
+			case SECT_FIELD:
+				printf_to_char(ch," [Ova]");
+				break;
+			case SECT_FOREST:
+				printf_to_char(ch," [Orman]");
+				break;
+			case SECT_HILLS:
+				printf_to_char(ch," [Tepe]");
+				break;
+			case SECT_MOUNTAIN:
+				printf_to_char(ch," [Dağ]");
+				break;
+			case SECT_WATER_SWIM:
+			case SECT_WATER_NOSWIM:
+				printf_to_char(ch," [Su]");
+				break;
+			case SECT_AIR:
+				printf_to_char(ch," [Hava]");
+				break;
+			case SECT_DESERT:
+				printf_to_char(ch," [Çöl]");
+				break;
+			case SECT_MAX:
+				printf_to_char(ch," [Zorlu]");
+				break;
+			default:
+				printf_to_char(ch," [*Bilinmeyen*]");
+				break;
+	}
+	printf_to_char(ch," [{y%s{x]",ch->in_room->area->name);
 
 	if (IS_IMMORTAL(ch) && (IS_NPC(ch) || IS_SET(ch->act,PLR_HOLYLIGHT)))
 	{
-	    sprintf(buf," [Room %d]",ch->in_room->vnum);
-	    send_to_char(buf,ch);
+      printf_to_char(ch," [%d]",ch->in_room->vnum);
 	}
 
 	send_to_char( "\n\r", ch );
@@ -1746,9 +1783,9 @@ void do_exits( CHAR_DATA *ch, char *argument )
 	 if (IS_SET(ch->act,PLR_COLOR) )
 	 {
      sprintf(buf,CLR_CYAN);
- 		strcat(buf,"[Çıkış:");
+ 		strcat(buf,"[Çıkışlar:");
 	 }
-	 else sprintf(buf,"[Çıkış:");
+	 else sprintf(buf,"[Çıkışlar:");
 	}
     else if (IS_IMMORTAL(ch))
 	sprintf(buf,"Obvious exits from room %d:\n\r",ch->in_room->vnum);
