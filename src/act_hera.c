@@ -108,14 +108,14 @@ void do_enter( CHAR_DATA *ch, char *argument)
 
 	if (portal == NULL)
 	{
-    send_to_char("Öyle birþey görmüyorsun.\n\r",ch);
+    printf_to_char(ch,"Öyle birþey görmüyorsun.\n\r");
 	    return;
 	}
 
 	if (portal->item_type != ITEM_PORTAL
         ||  (IS_SET(portal->value[1],EX_CLOSED) && !IS_TRUSTED(ch,ANGEL)))
 	{
-    send_to_char("Bir yol bulamýyorsun.\n\r",ch);
+    printf_to_char(ch,"Bir yol bulamýyorsun.\n\r");
 	    return;
 	}
 
@@ -124,7 +124,7 @@ void do_enter( CHAR_DATA *ch, char *argument)
 	||   IS_SET(old_room->room_flags,ROOM_NO_RECALL)
 	||   IS_RAFFECTED(old_room,AFF_ROOM_CURSE) ))
 	{
-    send_to_char("Birþey ayrýlmaný engelliyor...\n\r",ch);
+    printf_to_char(ch,"Birþey ayrýlmaný engelliyor...\n\r");
 	    return;
 	}
 
@@ -150,7 +150,7 @@ void do_enter( CHAR_DATA *ch, char *argument)
         if (IS_NPC(ch) && IS_SET(ch->act,ACT_AGGRESSIVE)
         &&  IS_SET(location->room_flags,ROOM_LAW))
         {
-          send_to_char("Birþey ayrýlmaný engelliyor...\n\r",ch);
+          printf_to_char(ch,"Birþey ayrýlmaný engelliyor...\n\r");
             return;
         }
 
@@ -256,7 +256,7 @@ void do_enter( CHAR_DATA *ch, char *argument)
 	return;
     }
 
-    send_to_char("Hayýr, bunu yapamazsýn.\n\r",ch);
+    printf_to_char(ch,"Hayýr, bunu yapamazsýn.\n\r");
     return;
 }
 
@@ -265,7 +265,7 @@ void do_settraps( CHAR_DATA *ch, char *argument )
     if ( !IS_NPC(ch)
     &&   ch->level < skill_table[gsn_settraps].skill_level[ch->iclass] )
       {
-        send_to_char("Tuzak kurmayý bilmiyorsun.\n\r",ch);
+        printf_to_char(ch,"Tuzak kurmayý bilmiyorsun.\n\r");
 	return;
       }
 

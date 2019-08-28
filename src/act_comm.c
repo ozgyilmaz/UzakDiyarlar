@@ -159,7 +159,6 @@ void do_channels( CHAR_DATA *ch, char *argument)
 	if (ch->lines)
 	{
     printf_to_char(ch,"%d satýrlýk skrol görüntülüyorsun.\n\r",ch->lines+2);
-	    send_to_char(buf,ch);
  	}
 	else
   printf_to_char(ch,"Skrol tamponlama kapalý.\n\r");
@@ -934,20 +933,20 @@ void do_pose( CHAR_DATA *ch, char *argument )
 void do_bug( CHAR_DATA *ch, char *argument )
 {
     append_file( ch, (char*)BUG_FILE, argument );
-    send_to_char( "Bug logged.\n\r", ch );
+    printf_to_char(ch,"Bug logged.\n\r");
     return;
 }
 
 void do_typo( CHAR_DATA *ch, char *argument )
 {
     append_file( ch, (char*)TYPO_FILE, argument );
-    send_to_char( "Typo logged.\n\r", ch );
+    printf_to_char(ch,"Typo logged.\n\r");
     return;
 }
 
 void do_rent( CHAR_DATA *ch, char *argument )
 {
-    send_to_char( "There is no rent here.  Just save and quit.\n\r", ch );
+    printf_to_char(ch,"There is no rent here.  Just save and quit.\n\r");
     return;
 }
 
@@ -1197,7 +1196,7 @@ void do_follow( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' )
     {
-	send_to_char( "Kimi takip edeceksin?\n\r", ch );
+      printf_to_char(ch, "Kimi takip edeceksin?\n\r" );
 	return;
     }
 
@@ -1517,7 +1516,7 @@ void do_group( CHAR_DATA *ch, char *argument )
 	{
 	    if ( is_same_group( gch, ch ) )
 	    {
-		  sprintf( buf,
+		  printf_to_char( ch,
 		  "[%2d %s] %-16s %d/%d hp %d/%d mana %d/%d mv   %5d xp\n\r",
 		    gch->level,
 		    IS_NPC(gch) ? "Mob" : class_table[gch->iclass].who_name,
@@ -1526,7 +1525,6 @@ void do_group( CHAR_DATA *ch, char *argument )
 		    gch->mana,  gch->max_mana,
 		    gch->move,  gch->max_move,
 		    gch->exp );
-		send_to_char( buf, ch );
 	    }
 	}
 	return;
@@ -1534,13 +1532,13 @@ void do_group( CHAR_DATA *ch, char *argument )
 
     if ( ( victim = get_char_room( ch, arg ) ) == NULL )
     {
-      send_to_char("Burada deðil.\n\r", ch );
+      printf_to_char(ch ,"Burada deðil.\n\r" );
 	return;
     }
 
     if ( ch->master != NULL || ( ch->leader != NULL && ch->leader != ch ) )
     {
-      send_to_char( "Fakat sen baþka birini takip ediyorsun!\n\r", ch );
+      printf_to_char( ch,"Fakat sen baþka birini takip ediyorsun!\n\r" );
 	return;
     }
 
@@ -1552,7 +1550,7 @@ void do_group( CHAR_DATA *ch, char *argument )
 
     if (IS_AFFECTED(victim,AFF_CHARM))
     {
-      send_to_char("Tesirli moblarý grubundan ayýramazsýn.\n\r",ch);
+      printf_to_char(ch,"Tesirli moblarý grubundan ayýramazsýn.\n\r");
         return;
     }
 
@@ -1669,7 +1667,7 @@ void do_split( CHAR_DATA *ch, char *argument )
 
     if ( arg1[0] == '\0' )
     {
-      send_to_char( "Ne kadar daðýtacaksýn?\n\r", ch );
+      printf_to_char(ch, "Ne kadar daðýtacaksýn?\n\r" );
 	return;
     }
 
@@ -1680,19 +1678,19 @@ void do_split( CHAR_DATA *ch, char *argument )
 
     if ( amount_gold < 0 || amount_silver < 0)
     {
-      send_to_char("Grubun bundan hoþlanmaz.\n\r", ch );
+      printf_to_char(ch,"Grubun bundan hoþlanmaz.\n\r" );
 	return;
     }
 
     if ( amount_gold == 0 && amount_silver == 0 )
     {
-      send_to_char( "Sýfýr sikke daðýttýn ve kimse çakozlamadý.\n\r", ch );
+      printf_to_char( ch,"Sýfýr sikke daðýttýn ve kimse çakozlamadý.\n\r" );
 	return;
     }
 
     if ( ch->gold <  amount_gold || ch->silver < amount_silver)
     {
-      send_to_char("Üzerinde bu kadar yok.\n\r", ch );
+      printf_to_char(ch,"Üzerinde bu kadar yok.\n\r" );
 	return;
     }
 
@@ -1705,7 +1703,7 @@ void do_split( CHAR_DATA *ch, char *argument )
 
     if ( members < 2 )
     {
-      send_to_char( "Sende kalsýn.\n\r", ch );
+      printf_to_char( ch,"Sende kalsýn.\n\r" );
 	return;
     }
 
@@ -1717,7 +1715,7 @@ void do_split( CHAR_DATA *ch, char *argument )
 
     if ( share_gold == 0 && share_silver == 0 )
     {
-      send_to_char( "Pis cimri.\n\r", ch );
+      printf_to_char(ch,"Pis cimri.\n\r" );
 	return;
     }
 
@@ -1728,18 +1726,16 @@ void do_split( CHAR_DATA *ch, char *argument )
 
     if (share_silver > 0)
     {
-	sprintf(buf,
+	printf_to_char(ch,
     "Sen %d gümüþ sikke daðýttýn. Senin payýna %d sikke düþtü.\n\r",
  	    amount_silver,share_silver + extra_silver);
-	send_to_char(buf,ch);
     }
 
     if (share_gold > 0)
     {
-	sprintf(buf,
+	printf_to_char(ch,
     "Sen %d altýn sikke daðýttýn. Senin payýna %d sikke düþtü.\n\r",
 	     amount_gold,share_gold + extra_gold);
-	send_to_char(buf,ch);
     }
 
     if (share_gold == 0)
@@ -1782,13 +1778,13 @@ void do_gtell( CHAR_DATA *ch, char *argument )
 
     if ( argument[0] == '\0' )
     {
-      send_to_char("Gruba ne anlatacaksýn?\n\r", ch );
+      printf_to_char(ch,"Gruba ne anlatacaksýn?\n\r" );
 	return;
     }
 
     if ( IS_SET( ch->comm, COMM_NOTELL ) )
     {
-      send_to_char("Mesajýn ulaþmadý!\n\r", ch );
+      printf_to_char(ch,"Mesajýn ulaþmadý!\n\r" );
 	return;
     }
 
@@ -1798,7 +1794,7 @@ void do_gtell( CHAR_DATA *ch, char *argument )
       strcpy(buf,argument);
 
     /*
-     * Note use of send_to_char, so gtell works on sleepers.
+     * Note use of printf_to_char, so gtell works on sleepers.
      */
 
     for ( i = 0, gch = char_list; gch != NULL; gch = gch->next )
@@ -1814,7 +1810,7 @@ void do_gtell( CHAR_DATA *ch, char *argument )
     if (i > 1 && !is_affected(ch, gsn_deafen))
     act_color("$CSen gruba '$t' dedin.$c",
               ch,buf,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
-  else send_to_char( "Kendi kendine konuþmayý býrak.",ch);
+  else printf_to_char( ch,"Kendi kendine konuþmayý býrak.");
 
     return;
 }
@@ -1870,7 +1866,7 @@ void do_cb( CHAR_DATA *ch, char *argument )
 
     if ( !(ch->cabal) )
       {
-        send_to_char("Bir kabala üye deðilsin.\n\r",ch);
+        printf_to_char(ch,"Bir kabala üye deðilsin.\n\r");
 	return;
       }
 
@@ -1904,12 +1900,12 @@ void do_pray(CHAR_DATA *ch, char *argument)
 
     if (IS_SET(ch->comm,COMM_NOCHANNELS))
 	{
-    send_to_char("Tanrýlar seni dinlemek istemiyorlar.",ch);
+    printf_to_char(ch,"Tanrýlar seni dinlemek istemiyorlar.");
 	  return;
 	}
 
-  send_to_char("Yüzünü gökyüzüne dönüp kadimlerin yardýmý için dua ediyorsun!\n\r",ch);
-  send_to_char("Bu bir duygu deðil, ölümsüzlerin diyarýna uzanan bir kývýlcým.\n\r",ch);
+  printf_to_char(ch,"Yüzünü gökyüzüne dönüp kadimlerin yardýmý için dua ediyorsun!\n\r");
+  printf_to_char(ch,"Bu bir duygu deðil, ölümsüzlerin diyarýna uzanan bir kývýlcým.\n\r");
 
     for (d = descriptor_list; d != NULL; d = d->next)
       {
@@ -1988,13 +1984,11 @@ void do_speak( CHAR_DATA *ch, char *argument )
  argument = one_argument(argument,arg);
  if (arg[0] == '\0')
      {
-       sprintf(buf, "Þu an %s dili konuþuyorsun.\n\r",
+       printf_to_char(ch, "Þu an %s dili konuþuyorsun.\n\r",
      			language_table[ch->language].name);
-        send_to_char(buf, ch);
-        send_to_char("You can speak :\n\r", ch);
-        sprintf(buf, "       ortak, %s\n\r",
+        printf_to_char(ch,"You can speak :\n\r");
+        printf_to_char(ch, "       ortak, %s\n\r",
       		language_table[pc_race_table[ORG_RACE(ch)].language].name);
-	send_to_char(buf,ch);
         return;
      }
 
@@ -2002,7 +1996,7 @@ void do_speak( CHAR_DATA *ch, char *argument )
 
  if (language == -1)
      {
-       send_to_char( "Böyle bir dil duymadýn.\n\r", ch);
+       printf_to_char( ch,"Böyle bir dil duymadýn.\n\r");
         return;
      }
 
@@ -2010,8 +2004,7 @@ void do_speak( CHAR_DATA *ch, char *argument )
   ch->language = pc_race_table[ORG_RACE(ch)].language;
  else ch->language = language;
 
- sprintf(buf,"Artýk %s dili konuþuyorsun.\n\r",language_table[ch->language].name);
- send_to_char(buf,ch);
+ printf_to_char(ch,"Artýk %s dili konuþuyorsun.\n\r",language_table[ch->language].name);
 }
 
 /* Thanx zihni@karmi.emu.edu.tr for the code of do_judge */
@@ -2025,7 +2018,7 @@ void do_judge( CHAR_DATA *ch, char *argument )
 
  if ( ch->cabal != CABAL_RULER )
     {
-      send_to_char( "Hý?\n\r", ch );
+      printf_to_char( ch,"Hý?\n\r" );
      return;
     }
 
@@ -2033,45 +2026,43 @@ void do_judge( CHAR_DATA *ch, char *argument )
 
   if ( arg[0] == '\0' )
     {
-      send_to_char( "Kimi yargýlayacaksýn?\n\r", ch );
+      printf_to_char( ch,"Kimi yargýlayacaksýn?\n\r" );
      return;
     }
 
   /* judge thru world */
   if ( ( victim = get_char_world( ch, arg ) ) == NULL )
     {
-      send_to_char( "Burada deðil.\n\r", ch );
+      printf_to_char( ch,"Burada deðil.\n\r" );
       return;
     }
 
 
    if (IS_NPC(victim))
     {
-      send_to_char("Bir mob olmaz.\n\r", ch );
+      printf_to_char(ch,"Bir mob olmaz.\n\r" );
       return;
     }
 
    if (IS_IMMORTAL(victim) && !IS_IMMORTAL(ch))
     {
-      send_to_char( "Ölümsüzleri yargýlayabilecek gücü kendinde göremiyorsun.\n\r",ch);
+      printf_to_char( ch,"Ölümsüzleri yargýlayabilecek gücü kendinde göremiyorsun.\n\r");
         return;
     }
 
-    sprintf(buf,"%s'in etiði %s ve yönelimi %s.\n\r",
+    printf_to_char(ch,"%s'in etiði %s ve yönelimi %s.\n\r",
 	victim->name,
         victim->ethos == 1 ? "Tüze" :
         victim->ethos == 2 ? "Yansýz" :
         victim->ethos == 3 ? "Kaos" : "bilinmiyor",
         IS_GOOD(victim) ? "Ýyi" :
         IS_EVIL(victim) ? "Kem" : "Yansýz" );
-
-    send_to_char(buf,ch);
     return;
 }
 
 void do_remor( CHAR_DATA *ch, char *argument )
 {
-  send_to_char("Yeniyaþam istiyorsan eksiksiz yaz.\n\r", ch );
+  printf_to_char(ch,"Yeniyaþam istiyorsan eksiksiz yaz.\n\r" );
     return;
 }
 
@@ -2089,20 +2080,20 @@ void do_remort( CHAR_DATA *ch, char *argument )
 
     if ( ch->level != LEVEL_HERO)
     {
-      send_to_char( "Yeniyaþam için KAHRAMAN olmalýsýn.\n\r", ch );
+      printf_to_char( ch,"Yeniyaþam için KAHRAMAN olmalýsýn.\n\r" );
         return;
     }
 
     if ( !IS_SET(ch->act, PLR_CANREMORT) && !IS_SET(ch->act, PLR_REMORTED))
     {
-      send_to_char( "Yeniyaþam için ölümsüzlerden izin almalýsýn.\n\r", ch );
+      printf_to_char( ch,"Yeniyaþam için ölümsüzlerden izin almalýsýn.\n\r" );
         return;
     }
 
     if (argument[0] != '\0')
     {
 	if (!ch->pcdata->confirm_remort)
-  send_to_char("Sadece yeniyaþam yaz, argüman kullanma.\n\r",ch);
+  printf_to_char(ch,"Sadece yeniyaþam yaz, argüman kullanma.\n\r");
 ch->pcdata->confirm_remort = FALSE;
         return;
     }
@@ -2110,15 +2101,15 @@ ch->pcdata->confirm_remort = FALSE;
     if ( ch->pcdata->confirm_remort )
     {
 	SET_BIT(ch->act, PLR_REMORTED);
-  send_to_char("\n\r...YENÝYAÞAM...\n\r", ch);
-	send_to_char("Yeni ýrk, sýnýf ve zarlarla yeni bir karakter yaratacaksýn.\n\r", ch);
-	send_to_char("Bu sýrada muddan koparsan veya mud çökerse:\n\r",ch);
-	send_to_char("    AYNI ÝSÝMLE YENÝ BÝR KARAKTER YARAT VE ÖLÜMSÜZLERE DURUMU BÝLDÝR.\n\r", ch);
-	send_to_char("Unutma ki, eski karaktere ait aþaðýdaki özellikler aynen korunur:\n\r", ch);
-	send_to_char("        bankadakiler dahil tüm altýn sikke ve akçe\n\r", ch);
-	send_to_char("        pratik, eðitim seanslarý ve görev puaný\n\r", ch);
-	send_to_char("BUNLARA EK OLARAK, artýk fazladan 2 yüzük takabileceksin.\n\r",ch);
-	send_to_char("             Ve fazladan 10 eðitim seansýn olacak.\n\r",ch);
+  printf_to_char(ch,"\n\r...YENÝYAÞAM...\n\r");
+	printf_to_char(ch,"Yeni ýrk, sýnýf ve zarlarla yeni bir karakter yaratacaksýn.\n\r");
+	printf_to_char(ch,"Bu sýrada muddan koparsan veya mud çökerse:\n\r");
+	printf_to_char(ch,"    AYNI ÝSÝMLE YENÝ BÝR KARAKTER YARAT VE ÖLÜMSÜZLERE DURUMU BÝLDÝR.\n\r");
+	printf_to_char(ch,"Unutma ki, eski karaktere ait aþaðýdaki özellikler aynen korunur:\n\r");
+	printf_to_char(ch,"        bankadakiler dahil tüm altýn sikke ve akçe\n\r");
+	printf_to_char(ch,"        pratik, eðitim seanslarý ve görev puaný\n\r");
+	printf_to_char(ch,"BUNLARA EK OLARAK, artýk fazladan 2 yüzük takabileceksin.\n\r");
+	printf_to_char(ch,"             Ve fazladan 10 eðitim seansýn olacak.\n\r");
 
 	sprintf( pbuf, "%s", ch->pcdata->pwd );
 	sprintf( remstr, "%s%s", PLAYER_DIR, capitalize( ch->name ) );
@@ -2154,13 +2145,13 @@ ch->pcdata->confirm_remort = FALSE;
 	return;
     }
 
-    send_to_char("Komutu onaylamak için tekrar yeniyaþam yaz.\n\r",ch);
-    send_to_char("UYARI: bu komutun geri dönüþü yoktur.\n\r",ch);
-    send_to_char("Yeniyaþam komutunu argümanla yazmak yeniyaþam durumunu iptal edecektir.\n\r", ch);
-    send_to_char("Unutma ki, eski karaktere ait aþaðýdaki özellikler aynen korunur:\n\r", ch);
-    send_to_char("        bankadakiler dahil tüm altýn sikke ve akçe\n\r", ch);
-    send_to_char("        pratik, eðitim seanslarý ve görev puaný\n\r", ch);
-    send_to_char("BUNLARA EK OLARAK, artýk fazladan 2 yüzük takabileceksin.\n\r",ch);
+    printf_to_char(ch,"Komutu onaylamak için tekrar yeniyaþam yaz.\n\r");
+    printf_to_char(ch,"UYARI: bu komutun geri dönüþü yoktur.\n\r");
+    printf_to_char(ch,"Yeniyaþam komutunu argümanla yazmak yeniyaþam durumunu iptal edecektir.\n\r");
+    printf_to_char(ch,"Unutma ki, eski karaktere ait aþaðýdaki özellikler aynen korunur:\n\r");
+    printf_to_char(ch,"        bankadakiler dahil tüm altýn sikke ve akçe\n\r");
+    printf_to_char(ch,"        pratik, eðitim seanslarý ve görev puaný\n\r");
+    printf_to_char(ch,"BUNLARA EK OLARAK, artýk fazladan 2 yüzük takabileceksin.\n\r");
     ch->pcdata->confirm_remort = TRUE;
     wiznet("$N yeniyaþam almak üzere.",ch,NULL,0,0,get_trust(ch));
 

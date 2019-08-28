@@ -1,0 +1,614 @@
+#AREA
+tr_bakimevi.are~
+Bakýmevi~
+{ 1  5} Sandman Bakýmevi~
+6600 6699
+#MOBILES
+#6600
+genç cüce~
+genç cüce~
+Genç bir cüce elindeki oyuncak baltayla oynuyor.
+~
+Küçük olsa da tamamen zararsýz olmayan bir yaratýk.
+~
+dwarf~
+ACGT 0 -5 0
+3 0 1d4+30 1d1+99 1d4+2 beating
+7 6 7 10
+DJR 0 0 0
+sit stand either 10
+0 0 small 0
+#6601
+oyuncak ayý~
+bir oyuncak ayý~
+Sevimli bir oyuncak ayý burada duruyor.
+~
+Bu göðsünde kalbi olan bir oyuncak ayý.
+~
+doll~
+ACG 0 500 0
+1 0 1d10+10 1d1+99 1d4+0 beating
+8 5 9 10
+NR 0 0 0
+stand stand male 0
+0 0 small cloth
+#6602
+oyuncak bebek~
+bir pejmürde oyuncak bebek~
+Bir pejmürde oyuncak bebek burada oturuyor.
+~
+Küçük, sevimli bir oyuncak bebek görüyorsun. Soluk alýp verdiðini fark
+ediyorsun.
+~
+doll~
+ACG 0 300 0
+2 0 2d5+19 1d1+99 1d5+0 beating
+7 4 8 10
+FHR 0 0 0
+sit stand female 0
+0 0 small cloth
+#6603
+oyuncak asker~
+bir oyuncak asker~
+Bir oyuncak asker burada duruyor.
+~
+Oyuncak asker üzeinde pratik yapabileceði bir hedef arýyor.
+~
+doll~
+ACGT 0 -300 0
+3 1 3d5+36 1d1+99 1d4+3 punch
+6 7 6 9
+IR 0 G E
+stand stand male 0
+0 0 small tin
+#6604
+korkunç ayý~
+korkunç bir ayý~
+Korkunç bir ayý burada duruyor.
+~
+Bu fabrikadan çýkma korkunç ayý sana bakýyor.
+~
+doll~
+ACF 0 -400 0
+3 0 3d4+29 1d1+99 1d6+1 chomp
+6 3 7 10
+DJNR 0 0 0
+stand stand male 5
+0 0 small cloth
+#6605
+oyuncak bebek~
+bir yaþlý oyuncak bebek~
+Kötü yola düþmüþ bir yaþlý oyuncak bebek burada.
+~
+Bu bebekle bütün güzelliði yok olana kadar oynanmýþ.
+~
+doll~
+ACG 0 -2 0
+1 0 1d10+1 1d1+99 1d4+0 beating
+8 5 9 10
+R 0 0 0
+stand stand none 0
+0 0 small cloth
+#6606
+dadý~
+dadý~
+Küçüklere sahip olan bir dadý burada.
+~
+Oldukça yaþlanmýþ cüce bir dadý görüyorsun. Fakat tahminin doðruysa bu
+kadýnda hala dövüþebilecek güç var.
+~
+dwarf~
+AG 0 10 0
+5 1 4d4+50 5d4+100 1d6+1 slap
+5 5 5 10
+CDR 0 0 0
+stand stand female 50
+0 0 medium 0
+#6607
+yasavul~
+silahlý yasavul~
+Silahlý bir yasavul burada; kaybolmuþ görünüyor.
+~
+Bu yapýlý ve iyi silahlanmýþ yasavul labirente benzeyen bu yerde kaybolmuþ
+görünüyor. Kaçsan iyi olacak.
+~
+dwarf~
+ABCT D -800 0
+8 1 3d10+100 8d4+100 1d7+3 punch
+3 2 3 8
+CDJR 0 0 0
+stand stand male 120
+0 0 medium 0
+#6608
+yumurcak~
+yumurcak~
+Bir yumurcak burada aðlýyor.
+~
+Burada her zaman istediðini elde etmiþ bir yumurcak görüyorsun. Belki de
+yeni birþey istediði için aðlýyordur.
+~
+dwarf~
+ABC 0 -400 0
+1 0 2d4+15 1d1+199 2d2+1 beating
+8 8 8 10
+IJN 0 0 0
+stand stand male 50
+0 0 small 0
+#0
+#OBJECTS
+#6600
+balta oyuncak~
+bir oyuncak balta~
+Tahtadan yapýlmýþ oyuncak bir balta burada.~
+wood~
+weapon 0 AN
+axe 1 5 chop 0
+0 30 250 G
+#6601
+yüzük pembe buz~
+bir pembe buzlu yüzük~
+Bir pembe buzlu yüzük burada duruyor.~
+ice~
+treasure G AB
+0 0 0 0 0
+3 10 620 G
+A
+13 4
+A
+1 1
+#6621
+keten cüppe~
+bir keten cüppe~
+Keten bir cüppe burada, sahibini bekliyor.~
+cloth~
+armor G AK
+1 2 1 1 1
+7 50 780 G
+A
+12 5
+A
+4 1
+#6622
+tahta asa~
+tahta asa~
+Bir tahta asa yerde yatýyor.~
+wood~
+weapon 0 AN
+staff 2 3 pound F
+4 30 270 W
+A
+18 -1
+A
+17 -1
+#6644
+biftek~
+bir biftek~
+Bir biftek burada, tabakta oturuyor.~
+meat~
+food 0 A
+25 25 0 0 0
+0 20 0 P
+#6645
+çürük biftek~
+bir çürük biftek~
+Bir çürük biftek yerde yatýyor.~
+meat~
+food 0 A
+4 4 0 1 0
+0 20 0 W
+#6646
+kehribar iksir~
+bir kehribar iksiri~
+Bir kehribar iksiri burada.~
+glass~
+potion 0 A
+5 'cure light' 'armor' '' ''
+0 10 150 G
+#6647
+oyuncak asa~
+bir oyuncak asa~
+Bir oyuncak asa burada.~
+wood~
+weapon 0 AN
+staff 2 3 stab F
+4 20 300 G
+A
+17 -1
+#0
+
+#ROOMS
+#6601
+Cüce Diyarý Giriþi~
+Burasý cüce ebeveynlerin sinir bozucu çocuklarýný büyüttükleri yer.
+Gitmen gerektiðini düþünüyorsun. Duvarda bir tabela var.
+~
+0 CD 0
+D0
+~
+~
+0 -1 6500
+D2
+Gürültülü bir oda görüyorsun.
+~
+~
+1 -1 6602
+E
+tabela~
+Bu bölge küçükler içindir. Keyifle dolaþsýnlar.  -- Sandman
+~
+S
+#6602
+Gündüz Bakým Evi~
+Merkezin kuzey-doðusundasýn. Odanýn her yeri oyuncaklarla dolu. Doðuda
+bir mutfak var.
+~
+0 D 0
+D0
+Giriþi görüyorsun.
+~
+~
+0 -1 6601
+D1
+Çok pis bir mutfak bu yönde.
+~
+~
+0 -1 6626
+D2
+Birçok gürültülü yumurcakla dolu bir oda görüyorsun.
+~
+~
+0 -1 6604
+D3
+Birçok gürültülü yumurcakla dolu bir oda görüyorsun.
+~
+~
+0 -1 6603
+S
+#6603
+Gündüz Bakým Evi~
+Merkezin kuzey-batýsýndasýn. Her tarafa oyuncak saçýlmýþ. Batýda bir
+banyo var.
+~
+0 D 0
+D1
+Gürültülü yumurcaklarla dolu bir oda görüyorsun.
+~
+~
+0 -1 6602
+D2
+Gürültülü yumurcaklarla dolu bir oda görüyorsun.
+~
+~
+0 -1 6605
+D3
+Pis bir banyo görüyorsun.
+~
+~
+0 -1 6606
+S
+#6604
+Gündüz Bakým Evi~
+Merkezin kuzey-doðusundasýn. Odanýn her yeri oyuncaklarla dolu. Doðuda
+bir oyun odasý var.
+~
+0 D 0
+D0
+Birçok gürültülü yumurcakla dolu bir oda görüyorsun.
+~
+~
+0 -1 6602
+D1
+Oyun odasýný görüyorsun.
+~
+~
+0 -1 6610
+D3
+Birçok gürültülü yumurcakla dolu bir oda görüyorsun.
+~
+~
+0 -1 6605
+S
+#6605
+Bakýmevinin Salonu~
+Salonun kuzey-doðusundasýn. Odanýn her yeri oyuncaklarla dolu. Batýda
+aþaðý inen bir merdiven var.
+~
+0 D 0
+D0
+Birçok gürültülü yumurcakla dolu bir oda görüyorsun.
+~
+~
+0 -1 6603
+D1
+Birçok gürültülü yumurcakla dolu bir oda görüyorsun.
+~
+~
+0 -1 6604
+D3
+Aþaðý inen bir merdiven görüyorsun.
+~
+~
+0 -1 6607
+S
+#6606
+Pis Banyo~
+Parmaklarýnla burnunu kapatýrken hayatýnýn en büyük hatasýný yaptýðýný
+farkediyorsun. Duvarlarýn rutubetinin kokusunu alýyorsun. Hava oldukça
+nemli.
+~
+0 D 0
+D1
+Gürültülü yumurcaklarla dolu bir oda görüyorsun.
+~
+~
+0 -1 6603
+S
+#6607
+Merdiven~
+Aþaðý inen bir merdivenin üzerindesin. Aþaðýda ne olabileceðini merak
+ediyorsun. Dikkatli ol ! ! !
+~
+0 D 0
+D1
+Gürültülü yumurcaklarla dolu bir oda görüyorsun.
+~
+~
+0 -1 6605
+D5
+Bir yerin giriþini görüyorsun.
+~
+~
+0 -1 6612
+S
+#6608
+Oyun Odasý~
+Oyun odasýnýn kuzey-batýsýndasýn.
+~
+0 0 2
+D1
+Oyun odasýný görüyorsun.
+~
+~
+0 -1 6609
+D2
+Oyun odasýný görüyorsun.
+~
+~
+0 -1 6610
+S
+#6609
+Oyun Odasý~
+Oyun odasýnýn kuzey-doðusundasýn.
+~
+0 0 2
+D2
+Oyun odasýný görüyorsun.
+~
+~
+0 -1 6611
+D3
+Oyun odasýný görüyorsun.
+~
+~
+0 -1 6608
+S
+#6610
+Oyun Odasý~
+Oyun odasýnýn güney-batýsýndasýn.
+~
+0 0 2
+D0
+Oyun odasýný görüyorsun.
+~
+~
+0 -1 6608
+D1
+Oyun odasýný görüyorsun.
+~
+~
+0 -1 6611
+D3
+Gürültülü yumurcaklarla dolu bir oda görüyorsun.
+~
+~
+0 -1 6604
+S
+#6611
+Oyun Odasý~
+Oyun odasýnýn güney-doðusundasýn.
+~
+0 0 2
+D0
+Oyun odasýný görüyorsun.
+~
+~
+0 -1 6609
+D3
+Oyun odasýný görüyorsun.
+~
+~
+0 -1 6610
+S
+#6612
+Küçük Bir Labirentin Giriþi~
+Küçük fakat kafa karýþtýrýcý bir labirentin giriþindesin. Kaybolmamayý
+umuyorsun.
+~
+0 ACD 2
+D1
+~
+~
+0 -1 6613
+D4
+Merdiveni görüyorsun.
+~
+~
+0 -1 6607
+S
+#6613
+Küçük Labirent~
+Diðerleri gibi görünen bir pasajdasýn.
+~
+0 AD 2
+D1
+~
+~
+0 -1 6614
+D2
+~
+~
+0 -1 6615
+D3
+~
+~
+0 -1 6612
+S
+#6614
+Küçük Labirent~
+Diðerleri gibi görünen bir pasajdasýn.
+~
+0 AD 2
+D2
+~
+~
+0 -1 6616
+D3
+~
+~
+0 -1 6613
+S
+#6615
+Küçük Labirent~
+Diðerleri gibi görünen bir pasajdasýn.
+~
+0 AD 2
+D0
+~
+~
+0 -1 6613
+D1
+~
+~
+0 -1 6616
+S
+#6616
+Küçük Labirent~
+Diðerleri gibi görünen bir pasajdasýn.
+~
+0 AD 2
+D0
+~
+~
+0 -1 6614
+D2
+~
+~
+0 -1 6624
+D3
+~
+~
+0 -1 6615
+S
+#6624
+Küçük Labirentin Sonu~
+Yolculuðun sonuna geldin. Burada büyük bir tabela görüyorsun ve okuyunca
+rahatlýyorsun.
+~
+0 AD 2
+D0
+~
+~
+0 -1 6616
+D2
+~
+~
+0 -1 6631
+E
+tabela~
+Kendine güvenmeyen güneye gitmesin!
+~
+S
+#6626
+Pis Mutfak~
+Gündüz Bakým Evinin yemekhanesi. Yerlere daðolmýþ somun parçalarý
+görüyorsun. Çocuklar ortalýðý daðýtmaya devam ediyor.
+~
+0 D 0
+D3
+Gürültülü yumurcaklarla dolu bir oda görüyorsun.
+~
+~
+0 -1 6602
+S
+#6631
+Son??~
+Son bölüme geldin. Burasý beþ koca baþý olan bir ejderhaya ait (aslýnda
+maske kullanan bir yumurcak).
+~
+0 AD 2
+D0
+~
+~
+0 -1 6624
+S
+#0
+#RESETS
+R 0 6613   4     	* Mini-Maze
+R 0 6614   4     	* Mini-Maze
+R 0 6615   4     	* Mini-Maze
+R 0 6616   4     	* Mini-Maze
+M 0 6607   1 6624  1	* the armed guard
+E 1 3023  -1   16	*   a club
+M 0 6608   1 6631  1	* the spoiled brat
+M 0 6600   7 6602  1	* the dwarven youth
+E 1 6600  18   16	*   a toy axe
+M 0 6601   2 6602  1	* a teddy bear
+M 0 6606   2 6602  1	* the nanny
+G 1 6646  20     	*   an amber potion
+G 1 6644  20     	*   a juicy steak
+E 1 6621  20   12	*   a linen robe
+M 0 6600   7 6603  1	* the dwarven youth
+E 1 6600  18   16	*   a toy axe
+M 0 6600   7 6604  1	* the dwarven youth
+E 1 6600  18   16	*   a toy axe
+M 0 6602   2 6604  1	* a raggedy anne doll
+M 0 6606   2 6604  1	* the nanny
+G 1 6646  20     	*   an amber potion
+E 1 6622  20   16	*   a broom
+M 0 6600   7 6605  1	* the dwarven youth
+E 1 6600  18   16	*   a toy axe
+M 0 6602   2 6605  1	* a raggedy anne doll
+G 1 6645  20     	*   a rotten steak
+M 0 6605   3 6605  1	* an old doll
+E 1 6601  20    1	*   a pink ice ring
+M 0 6600   7 6608  1	* the dwarven youth
+E 1 6600  18   16	*   a toy axe
+M 0 6603   4 6608  1	* a toy soldier
+E 1 6647  -1   16	*   a toy gun
+M 0 6600   7 6609  1	* the dwarven youth
+E 1 6600  18   16	*   a toy axe
+M 0 6604   2 6609  1	* the ugly bear
+M 0 6603   3 6609  1	* a toy soldier
+E 1 6647  10   16	*   a toy gun
+M 0 6603   4 6609  1	* a toy soldier
+E 1 6647  -1   16	*   a toy gun
+M 0 6600   7 6610  1	* the dwarven youth
+E 1 6600  18   16	*   a toy axe
+M 0 6603   4 6610  1	* a toy soldier
+E 1 6647  -1   16	*   a toy gun
+M 0 6605   3 6610  1	* an old doll
+M 0 6604   2 6611  1	* the ugly bear
+M 0 6603   4 6611  1	* a toy soldier
+E 1 6647  -1   16	*   a toy gun
+M 0 6605   3 6606  1	* an old doll
+M 0 6601   2 6606  1	* a teddy bear
+S
+#SHOPS
+0
+#SPECIALS
+M 6600 spec_thief          	* the dwarven youth
+M 6604 spec_thief          	* the ugly bear
+M 6606 spec_cast_cleric    	* the nanny
+M 6608 spec_thief          	* the spoiled brat
+S
+#$

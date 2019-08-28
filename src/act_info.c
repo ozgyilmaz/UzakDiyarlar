@@ -1943,8 +1943,8 @@ void do_score( CHAR_DATA *ch, char *argument )
 	printf_to_char(ch,"{G| Yp    : {R%-5d/%-5d{G| Güç: {R%-2d(%-2d){G  | Pratik : {R%-3d{G                   |\n\r",ch->hit,  ch->max_hit,ch->perm_stat[STAT_STR],get_curr_stat(ch,STAT_STR),ch->practice);
 	printf_to_char(ch,"{G| Mana  : {R%-5d/%-5d{G| Zek: {R%-2d(%-2d){G  | Eðitim : {R%-3d{G                   |\n\r",ch->mana, ch->max_mana,ch->perm_stat[STAT_INT],get_curr_stat(ch,STAT_INT),ch->train);
 	printf_to_char(ch,"{G| Hp    : {R%-5d/%-5d{G| Bil: {R%-2d(%-2d){G  | GüvenS : {R%-3d{G                   |\n\r",ch->move, ch->max_move,ch->perm_stat[STAT_WIS],get_curr_stat(ch,STAT_WIS),get_trust( ch ));
-	printf_to_char(ch,"{G| Seviye: {R%-5d{G      | Çev: {R%-2d(%-2d){G  | Eþya : {R%-7ld/%-7ld{G         |\n\r",ch->level,ch->perm_stat[STAT_DEX],get_curr_stat(ch,STAT_DEX),ch->carry_number, can_carry_n(ch));
-	printf_to_char(ch,"{G| Kalan : {R%-5d{G      | Bün: {R%-2d(%-2d){G  | Aðýrlýk: {R%-7ld/%-7ld kg.{G   |\n\r",(!IS_NPC(ch)?((ch->level + 1) * exp_per_level(ch,ch->pcdata->points) - ch->exp):0),ch->perm_stat[STAT_CON],get_curr_stat(ch,STAT_CON),get_carry_weight(ch) / 20, can_carry_w(ch) /20);
+	printf_to_char(ch,"{G| Seviye: {R%-5d{G      | Çev: {R%-2d(%-2d){G  | Eþya : {R%3d/%-4d{G         |\n\r",ch->level,ch->perm_stat[STAT_DEX],get_curr_stat(ch,STAT_DEX),ch->carry_number, can_carry_n(ch));
+	printf_to_char(ch,"{G| Kalan : {R%-5d{G      | Bün: {R%-2d(%-2d){G  | Aðýrlýk: {R%%6ld/%-8d {G   |\n\r",(!IS_NPC(ch)?((ch->level + 1) * exp_per_level(ch,ch->pcdata->points) - ch->exp):0),ch->perm_stat[STAT_CON],get_curr_stat(ch,STAT_CON),get_carry_weight(ch), can_carry_w(ch));
 	printf_to_char(ch,"{G| TP    : {R%-7ld{G    | Kar: {R%-2d(%-2d){G  | GörevP: {R%-5d{G                  |\n\r",ch->exp,ch->perm_stat[STAT_CHA],get_curr_stat(ch,STAT_CHA),IS_NPC(ch) ? 0 :ch->pcdata->questpoints);
 	printf_to_char(ch,"{G| Korkak: {R%-5d{G      | ZZ : {R%-3d{G     | GörevZ: {R%-2d{G                     |\n\r",ch->wimpy,GET_DAMROLL(ch),IS_NPC(ch) ? 0 :((IS_SET(ch->act, PLR_QUESTOR))?(ch->pcdata->countdown):(ch->pcdata->nextquest)));
 	printf_to_char(ch,"{G|                    | VZ : {R%-3d{G     |                                |{x\n\r",GET_HITROLL(ch));
@@ -3291,17 +3291,17 @@ void do_practice( CHAR_DATA *ch, char *argument )
 	    if ( ch->pcdata->learned[sn] < adept )
 	    {
         act( "$T pratik ediyorsun.",
-		    ch, NULL, skill_table[sn].name, TO_CHAR );
+		    ch, NULL, skill_table[sn].name[1], TO_CHAR );
         act( "$n $T pratik ediyor.",
-		    ch, NULL, skill_table[sn].name, TO_ROOM );
+		    ch, NULL, skill_table[sn].name[1], TO_ROOM );
 	    }
 	    else
 	    {
 		ch->pcdata->learned[sn] = adept;
     act( "$T konusunu öðrendin.",
-		    ch, NULL, skill_table[sn].name, TO_CHAR );
+		    ch, NULL, skill_table[sn].name[1], TO_CHAR );
         act( "$n $T konusunu öðrendi.",
-		    ch, NULL, skill_table[sn].name, TO_ROOM );
+		    ch, NULL, skill_table[sn].name[1], TO_ROOM );
 	    }
 	}
     }
@@ -3982,369 +3982,280 @@ void do_identify( CHAR_DATA *ch, char *argument )
 
 void do_score_col( CHAR_DATA *ch, char *argument )
 {
-    char buf[MAX_STRING_LENGTH];
-    char buf1[MAX_STRING_LENGTH];
-    char buf2[MAX_STRING_LENGTH];
-    AFFECT_DATA *paf;
-    int i;
+   char buf[MAX_STRING_LENGTH];
+   char buf2[MAX_INPUT_LENGTH];
+   char titlebuf[MAX_INPUT_LENGTH];
+   int ekle=0;
 
+    sprintf( buf, "%s\n\r     /~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/~~\\\n\r"
+	,CLR_GREEN_BOLD);
+    send_to_char( buf, ch);
+    sprintf(titlebuf,"%s",
+		IS_NPC(ch) ? "Tanrýya inanan" : ch->pcdata->title);
+    titlebuf[32] = '\0';
+    sprintf( buf,
+"     %s|   %s%-12s%s%-33s %s%3d%s yaþýnda   %s  |%s____|%s\n\r",
+		CLR_GREEN_BOLD,CLR_RED_BOLD,
+		ch->name,CLR_WHITE_BOLD,
+		titlebuf,CLR_BROWN,get_age(ch),CLR_WHITE_BOLD,
+		CLR_GREEN_BOLD,CLR_GREEN,CLR_GREEN_BOLD);
+    send_to_char( buf, ch);
+    sprintf( buf,
+"     |%s+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+%s|\n\r",
+	CLR_CYAN_BOLD,CLR_GREEN_BOLD);
+    send_to_char( buf, ch);
+    sprintf( buf,
+"     | %sSeviye :%s  %3d          %s|  %sGüç:%s  %2d(%2d)  %s| %sDin        :  %s%-8s%s|\n\r",
+		CLR_RED_BOLD,CLR_WHITE_BOLD,
+		ch->level,CLR_CYAN_BOLD,CLR_RED_BOLD,CLR_WHITE_BOLD,
+		ch->perm_stat[STAT_STR],get_curr_stat(ch,STAT_STR),
+		CLR_CYAN_BOLD,CLR_RED_BOLD,CLR_WHITE_BOLD,
+		religion_table[ch->religion].leader,CLR_GREEN_BOLD);
+    send_to_char( buf, ch);
+    sprintf( buf,
+"     | %sIrk    :%s  %-12s %s|  %sZek:%s  %2d(%2d)  %s| %sPratik     :%s   %3d    %s|\n\r",
+		CLR_RED_BOLD,CLR_WHITE_BOLD,
+		race_table[ORG_RACE(ch)].name[1],CLR_CYAN_BOLD,
+		CLR_RED_BOLD,CLR_WHITE_BOLD,
+		ch->perm_stat[STAT_INT], get_curr_stat(ch,STAT_INT),
+		CLR_CYAN_BOLD,CLR_RED_BOLD,CLR_WHITE_BOLD,ch->practice,
+		CLR_GREEN_BOLD);
+    send_to_char(buf, ch);
 
     sprintf( buf,
-	"You are %s%s%s%s, level %s%d%s, %s%d%s years old (%d hours).\n\r",
-	CLR_YELLOW,ch->name,CLR_WHITE_BOLD,
-	IS_NPC(ch) ? "" : ch->pcdata->title,
-	CLR_YELLOW,ch->level,CLR_WHITE_BOLD,
-	CLR_WHITE,get_age(ch),CLR_WHITE_BOLD,
-        ( ch->played + (int) (current_time - ch->logon) ) / 3600);
-    send_to_char( buf, ch );
-
-    if ( get_trust( ch ) != ch->level )
-    {
-	sprintf( buf, "You are trusted at level %d.\n\r",
-	    get_trust( ch ) );
-	send_to_char( buf, ch );
-    }
-
-  sprintf(buf, "Race: %s%s%s  Sex: %s%s%s  Class: %s%s%s  Hometown: %s%s%s\n\r",
-	CLR_BLUE_BOLD,race_table[ORG_RACE(ch)].name[1],CLR_WHITE_BOLD,
-	CLR_BLUE_BOLD,
-	ch->sex == 0 ? "sexless" : ch->sex == 1 ? "male" : "female",
-	CLR_WHITE_BOLD,CLR_BLUE_BOLD,
- 	IS_NPC(ch) ? "mobile" : class_table[ch->iclass].name[1],
-	CLR_WHITE_BOLD,CLR_BLUE_BOLD,
-	IS_NPC(ch) ? "Midgaard" : hometown_table[ch->hometown].name,
-	CLR_WHITE_BOLD);
-    send_to_char(buf,ch);
-
-      sprintf( buf,
-	"You have %d/%s%d%s hit, %d/%s%d%s mana, %d/%s%d%s movement.\n\r",
-	ch->hit,  CLR_WHITE,ch->max_hit,CLR_WHITE_BOLD,
-	ch->mana, CLR_WHITE,ch->max_mana,CLR_WHITE_BOLD,
-	ch->move, CLR_WHITE,ch->max_move,CLR_WHITE_BOLD);
-
-    send_to_char( buf, ch );
+"     | %sCins   :%s  %-11s  %s|  %sBil:%s  %2d(%2d)  %s| %sEðitim     :%s   %3d    %s|\n\r",
+	CLR_RED_BOLD,CLR_WHITE_BOLD,
+	ch->sex == 0 ? "aseksüel" : ch->sex == 1 ? "erkek" : "diþi",
+	CLR_CYAN_BOLD,CLR_RED_BOLD,CLR_WHITE_BOLD,
+	ch->perm_stat[STAT_WIS], get_curr_stat(ch,STAT_WIS),
+	CLR_CYAN_BOLD,CLR_RED_BOLD,CLR_WHITE_BOLD,ch->train,CLR_GREEN_BOLD);
+    send_to_char(buf, ch);
 
     sprintf( buf,
-	"You have %s%d%s practices and %s%d%s training sessions.\n\r",
-	CLR_BLUE_BOLD,ch->practice,CLR_WHITE_BOLD,
-	CLR_BLUE_BOLD,ch->train,CLR_WHITE_BOLD);
-    send_to_char( buf, ch );
+"     | %sSýnýf  :%s  %-12s %s|  %sÇev:%s  %2d(%2d)  %s| %sGörev Puaný:%s  %4d    %s|\n\r",
+		CLR_RED_BOLD,CLR_WHITE_BOLD,
+		IS_NPC(ch) ? "mobil" : class_table[ch->iclass].name[1],
+		CLR_CYAN_BOLD,CLR_RED_BOLD,CLR_WHITE_BOLD,
+		ch->perm_stat[STAT_DEX], get_curr_stat(ch,STAT_DEX),
+		CLR_CYAN_BOLD,CLR_RED_BOLD,CLR_WHITE_BOLD,
+		IS_NPC(ch) ? 0 : ch->pcdata->questpoints,CLR_GREEN_BOLD );
+    send_to_char(buf, ch);
 
     sprintf( buf,
-"You are carrying %s%d%s/%s%d%s items with weight %s%ld%s/%s%d%s pounds.\n\r",
-	CLR_CYAN,ch->carry_number,CLR_WHITE_BOLD,
-	CLR_BLUE_BOLD,can_carry_n(ch),CLR_WHITE_BOLD,
-	CLR_CYAN,get_carry_weight(ch),CLR_WHITE_BOLD,
-	CLR_BLUE_BOLD,can_carry_w(ch),CLR_WHITE_BOLD );
-    send_to_char( buf, ch );
-
-    if ( ch->level > 20 || IS_NPC(ch) )  {
-      sprintf( buf,
-"Str: %s%d%s(%s%d%s)  Int: %s%d%s(%s%d%s)  Wis: %s%d%s(%s%d%s)  Dex: %s%d%s(%s%d%s)  Con: %s%d%s(%s%d%s) Cha: %s%d%s(%s%d%s)\n\r",
-	CLR_YELLOW,ch->perm_stat[STAT_STR],CLR_WHITE_BOLD,
-	CLR_BLUE,get_curr_stat(ch,STAT_STR),CLR_WHITE_BOLD,
-	CLR_YELLOW,ch->perm_stat[STAT_INT],CLR_WHITE_BOLD,
-	CLR_BLUE,get_curr_stat(ch,STAT_INT),CLR_WHITE_BOLD,
-	CLR_YELLOW,ch->perm_stat[STAT_WIS],CLR_WHITE_BOLD,
-	CLR_BLUE,get_curr_stat(ch,STAT_WIS),CLR_WHITE_BOLD,
-	CLR_YELLOW,ch->perm_stat[STAT_DEX],CLR_WHITE_BOLD,
-	CLR_BLUE,get_curr_stat(ch,STAT_DEX),CLR_WHITE_BOLD,
-	CLR_YELLOW,ch->perm_stat[STAT_CON],CLR_WHITE_BOLD,
-	CLR_BLUE,get_curr_stat(ch,STAT_CON),CLR_WHITE_BOLD,
-	CLR_YELLOW,ch->perm_stat[STAT_CHA],CLR_WHITE_BOLD,
-	CLR_BLUE,get_curr_stat(ch,STAT_CHA),CLR_WHITE_BOLD );
-      send_to_char( buf, ch );
-    }
-    else  {
-	sprintf( buf,
- "Str: %s%-9s%s Wis: %s%-9s%s Con: %s%-9s%s\n\rInt: %s%-9s%s Dex: %s%-9s%s Cha: %s%-11s%s\n\r",
-	CLR_YELLOW,get_stat_alias( ch, STAT_STR ),CLR_WHITE_BOLD,
-	CLR_YELLOW,get_stat_alias( ch, STAT_WIS ),CLR_WHITE_BOLD,
-	CLR_YELLOW,get_stat_alias( ch, STAT_CON ),CLR_WHITE_BOLD,
-	CLR_YELLOW,get_stat_alias( ch, STAT_INT ),CLR_WHITE_BOLD,
-	CLR_YELLOW,get_stat_alias( ch, STAT_DEX ),CLR_WHITE_BOLD,
-	CLR_YELLOW,get_stat_alias( ch, STAT_CHA ),CLR_WHITE_BOLD );
-
-      send_to_char( buf, ch );
-    }
-
-    sprintf( buf, "You have scored %s%d%s exp, and have %s%s%s%s%s.\n\r",
-	CLR_MAGENTA,ch->exp,CLR_WHITE_BOLD,
-	CLR_BLUE_BOLD,
-	ch->gold+ch->silver==0?"no money":ch->gold!=0?"%ld gold ":"",
-        ch->silver!=0?"%ld silver ":"",
-        ch->gold+ch->silver!=0?ch->gold+ch->silver==1?"coin":"coins":"" ,
-	CLR_WHITE_BOLD );
-    if ( ch->gold != 0 )
-      sprintf( buf2, buf, ch->gold, ch->silver );
-    else
-      sprintf( buf2, buf, ch->silver );
-
-    send_to_char( buf2, ch );
-
-    /* KIO shows exp to level */
-    if (!IS_NPC(ch) && ch->level < LEVEL_HERO)
-    {
-      sprintf (buf,
-	"You need %s%d%s exp to level.\n\r",
-        CLR_CYAN,exp_to_level(ch,ch->pcdata->points),CLR_WHITE_BOLD);
-      send_to_char( buf, ch );
-     }
-
-    if (!(IS_NPC(ch)))
-    {
-      sprintf (buf,
-	"Quest Points: %s%d%s.	Next Quest Time: %s%d%s.\n\r",
-         CLR_BLUE_BOLD,ch->pcdata->questpoints,CLR_WHITE_BOLD,
-	 CLR_BLUE_BOLD,ch->pcdata->nextquest,CLR_WHITE_BOLD);
-      send_to_char( buf, ch );
-    }
-
-	if (ch->iclass != 9)
-	{
-         sprintf( buf, "Wimpy set to %s%d%s hit points.  ",
-		CLR_RED,ch->wimpy,CLR_WHITE_BOLD );
-	 send_to_char( buf, ch );
-	}
-	else
-	{
-	 sprintf(buf,"Total %s%d%s deaths up to now.",
-		CLR_RED,ch->pcdata->death,CLR_WHITE_BOLD);
-	 send_to_char(buf, ch);
-	}
-    if (ch->guarding != NULL)
-      {
-	sprintf(buf1, "You are guarding: %s%s%s  ",
-		CLR_GREEN,ch->guarding->name,CLR_WHITE_BOLD);
-	send_to_char( buf1, ch);
-      }
-
-    if (ch->guarded_by != NULL)
-      {
-	sprintf(buf2, "You are guarded by: %s%s%s",
-		CLR_GREEN, ch->guarded_by->name,CLR_WHITE_BOLD);
-	send_to_char(buf2, ch);
-      }
-
-    send_to_char("\n\r", ch);
-    send_to_char(CLR_WHITE,ch);
-    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK]   > 10 )
-	send_to_char( "You are drunk.\n\r",   ch );
-    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_THIRST] <=  0 )
-	send_to_char( "You are thirsty.\n\r", ch );
-/*    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_FULL]   ==  0 ) */
-    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_HUNGER]   <=  0 )
-	send_to_char( "You are hungry.\n\r",  ch );
-    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_BLOODLUST]   <=  0 )
-	send_to_char( "You are hungry for blood.\n\r",  ch );
-    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DESIRE]   <=  0 )
-	send_to_char( "You are desiring your home.\n\r",  ch );
-    send_to_char(CLR_WHITE_BOLD,ch);
-
+"     | %sMeml.  :%s  %-12s %s|  %sBün:%s  %2d(%2d)  %s| %sGörev Zaman:%s   %3d    %s|\n\r",
+		CLR_RED_BOLD,CLR_WHITE_BOLD,
+		IS_NPC(ch) ? "Selenge" : hometown_table[ch->hometown].name,
+		CLR_CYAN_BOLD,CLR_RED_BOLD,CLR_WHITE_BOLD,
+		ch->perm_stat[STAT_CON], get_curr_stat(ch,STAT_CON),
+		CLR_CYAN_BOLD,CLR_RED_BOLD,CLR_WHITE_BOLD,
+		IS_NPC(ch) ? 0 : (ch->pcdata->countdown!=0 ? ch->pcdata->countdown : ch->pcdata->nextquest),CLR_GREEN_BOLD);
+    send_to_char(buf, ch);
+    sprintf( buf,
+"     | %sEtik   :%s  %-13s%s|  %sKar:%s  %2d(%2d)  %s| %s%s      :%s   %3d    %s|\n\r",
+		CLR_RED_BOLD,CLR_WHITE_BOLD,
+		IS_NPC(ch) ? "mobil" : ch->ethos == 1 ? "yasa" :
+	ch->ethos == 2 ? "yansýz" : ch->ethos == 3 ? "anarþi" : "yok",
+		CLR_CYAN_BOLD,CLR_RED_BOLD,CLR_WHITE_BOLD,
+		ch->perm_stat[STAT_CHA], get_curr_stat(ch,STAT_CHA),
+		CLR_CYAN_BOLD,CLR_RED_BOLD,
+		ch->iclass == 9 ? "Ölüm" : "Korku" ,CLR_WHITE_BOLD,
+		ch->iclass == 9 ? ch->pcdata->death : ch->wimpy,CLR_GREEN_BOLD);
+    send_to_char(buf, ch);
     switch ( ch->position )
     {
     case POS_DEAD:
-	send_to_char(CLR_RED,ch);
-	send_to_char( "You are DEAD!!\n\r",		ch );
+	sprintf(buf2,"ÖLÜsün!!");
 	break;
     case POS_MORTAL:
-	send_to_char(CLR_RED,ch);
-	send_to_char( "You are mortally wounded.\n\r",	ch );
+	sprintf(buf2,"Ölümcül yaralýsýn.");
 	break;
     case POS_INCAP:
-	send_to_char(CLR_RED,ch);
-	send_to_char( "You are incapacitated.\n\r",	ch );
+	sprintf(buf2,"Aciz Durumdasýn.");
 	break;
     case POS_STUNNED:
-	send_to_char(CLR_RED,ch);
-	send_to_char( "You are stunned.\n\r",		ch );
+	sprintf(buf2,"Baygýnsýn.");
 	break;
     case POS_SLEEPING:
-	send_to_char(CLR_BROWN,ch);
-	send_to_char( "You are sleeping.",		ch );
-    if ( ch->last_fight_time != -1 && !IS_IMMORTAL(ch) &&
-        (current_time - ch->last_fight_time)<FIGHT_DELAY_TIME)
-        send_to_char("Your adrenalin is gushing!\n\r",ch);
-	else send_to_char("\n\r",ch);
+	sprintf(buf2,"Uyuyorsun.");
 	break;
     case POS_RESTING:
-	send_to_char(CLR_BLUE,ch);
-	send_to_char( "You are resting.",		ch );
-    if ( ch->last_fight_time != -1 && !IS_IMMORTAL(ch) &&
-        (current_time - ch->last_fight_time)<FIGHT_DELAY_TIME)
-        send_to_char("Your adrenalin is gushing!\n\r",ch);
-	else send_to_char("\n\r",ch);
+	sprintf(buf2,"Dinleniyorsun.");
 	break;
     case POS_STANDING:
-	send_to_char(CLR_CYAN,ch);
-	send_to_char( "You are standing.",		ch );
-    if ( ch->last_fight_time != -1 && !IS_IMMORTAL(ch) &&
-        (current_time - ch->last_fight_time)<FIGHT_DELAY_TIME)
-        send_to_char("Your adrenalin is gushing!\n\r",ch);
-	else send_to_char("\n\r",ch);
+	sprintf(buf2,"Ayaktasýn.");
 	break;
     case POS_FIGHTING:
-	send_to_char(CLR_RED,ch);
-	send_to_char( "You are fighting.",		ch );
-    if ( ch->last_fight_time != -1 && !IS_IMMORTAL(ch) &&
-        (current_time - ch->last_fight_time)<FIGHT_DELAY_TIME)
-        send_to_char("Your adrenalin is gushing!\n\r",ch);
-	else send_to_char("\n\r",ch);
+	sprintf(buf2,"Dövüþüyorsun.");
+	break;
+    case POS_SITTING:
+	sprintf(buf2,"Oturuyorsun.");
+	break;
+    default:
+	sprintf(buf2,"Yaþýyorsun.");
 	break;
     }
-    send_to_char(CLR_WHITE_BOLD,ch);
 
+    sprintf( buf,
+"     | %sYönelim:%s  %-11s  %s|                | %s%-22s%s|\n\r",
+		CLR_RED_BOLD,CLR_WHITE_BOLD,
+		IS_GOOD(ch) ? "aktular" : IS_EVIL(ch) ? "kem" : "yansýz",
+		CLR_CYAN_BOLD,CLR_BROWN,buf2,CLR_GREEN_BOLD);
+    send_to_char(buf, ch);
 
-    /* print AC values */
-    if (ch->level >= 25)
-    {
-	sprintf( buf,"Armor: pierce: %s%d%s  bash: %s%d%s  slash: %s%d%s  magic: %s%d%s\n\r",
-	 CLR_BLUE_BOLD,GET_AC(ch,AC_PIERCE),CLR_WHITE_BOLD,
-	 CLR_BLUE_BOLD,GET_AC(ch,AC_BASH),CLR_WHITE_BOLD,
-	 CLR_BLUE_BOLD,GET_AC(ch,AC_SLASH),CLR_WHITE_BOLD,
-	 CLR_BLUE_BOLD,GET_AC(ch,AC_EXOTIC),CLR_WHITE_BOLD);
-    	send_to_char(buf,ch);
-    }
+    sprintf( buf,
+"     |%s+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+%s|\n\r",
+	CLR_CYAN_BOLD,CLR_GREEN_BOLD);
+    send_to_char(buf, ch);
 
-    for (i = 0; i < 4; i++)
-    {
-	char  temp[100];
-
-	switch(i)
+    if (ch->guarding != NULL)
 	{
-	    case(AC_PIERCE):
-		sprintf(temp,"%spiercing%s",CLR_RED,CLR_WHITE_BOLD);
-		break;
-	    case(AC_BASH):
-		sprintf(temp,"%sbashing%s",CLR_RED,CLR_WHITE_BOLD);
-		break;
-	    case(AC_SLASH):
-		sprintf(temp,"%sslashing%s",CLR_RED,CLR_WHITE_BOLD);
-		break;
-	    case(AC_EXOTIC):
-		sprintf(temp,"%smagic%s",CLR_RED,CLR_WHITE_BOLD);
-		break;
-	    default:
-		sprintf(temp,"%serror%s",CLR_RED,CLR_WHITE_BOLD);
-		break;
+	 ekle = 1;
+    sprintf( buf,
+"     | %sKoruyorsun      :%s %-10s                                    %s|\n\r",
+	CLR_WHITE,CLR_WHITE_BOLD,ch->guarding->name,CLR_GREEN_BOLD);
+    send_to_char(buf,ch);
 	}
 
-	send_to_char("You are ", ch);
-
-	if      (GET_AC(ch,i) >=  101 )
-	    sprintf(buf,"hopelessly vulnerable to %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= 80)
-	    sprintf(buf,"defenseless against %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= 60)
-	    sprintf(buf,"barely protected from %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= 40)
-	    sprintf(buf,"slightly armored against %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= 20)
-	    sprintf(buf,"somewhat armored against %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= 0)
-	    sprintf(buf,"armored against %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= -20)
-	    sprintf(buf,"well-armored against %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= -40)
-	    sprintf(buf,"very well-armored against %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= -60)
-	    sprintf(buf,"heavily armored against %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= -80)
-	    sprintf(buf,"superbly armored against %s.\n\r",temp);
-	else if (GET_AC(ch,i) >= -100)
-	    sprintf(buf,"almost invulnerable to %s.\n\r",temp);
-	else
-	    sprintf(buf,"divinely armored against %s.\n\r",temp);
-
-	send_to_char(buf,ch);
-    }
-
-
-    /* RT wizinvis and holy light */
-    if ( IS_IMMORTAL(ch))
-    {
-      send_to_char(CLR_GREEN,ch);
-      send_to_char("Holy Light: ",ch);
-      if (IS_SET(ch->act,PLR_HOLYLIGHT))
-        send_to_char("on",ch);
-      else
-        send_to_char("off",ch);
-      send_to_char(CLR_WHITE_BOLD,ch);
-
-      if (ch->invis_level)
-      {
-        sprintf( buf, "  Invisible: level %d",ch->invis_level);
-        send_to_char(buf,ch);
-      }
-
-      if (ch->incog_level)
-      {
-        sprintf( buf, "  Incognito: level %d",ch->invis_level);
-        send_to_char(buf,ch);
-      }
-      send_to_char("\n\r",ch);
-
-    }
-    if ( ch->level >= 20 )
-    {
-	sprintf( buf, "Hitroll: %s%d%s  Damroll: %s%d%s.\n\r",
-	    CLR_YELLOW,GET_HITROLL(ch),CLR_WHITE_BOLD,
-	    CLR_YELLOW,GET_DAMROLL(ch),CLR_WHITE_BOLD );
-	send_to_char( buf, ch );
-    }
-
-    send_to_char( "You are ", ch );
-    if (IS_GOOD(ch)) { send_to_char(CLR_WHITE,ch);send_to_char("good.  ", ch);}
-    else if (IS_EVIL(ch)) {send_to_char(CLR_RED,ch);send_to_char("evil.  ",ch);}
-    else {send_to_char(CLR_CYAN,ch);send_to_char ("neutral.  ", ch);}
-    send_to_char(CLR_WHITE_BOLD,ch);
-
-    if (ch->ethos == 1) send_to_char("You have a lawful ethos.\n\r", ch);
-    else if (ch->ethos == 2) send_to_char("You have a neutral ethos.\n\r", ch);
-    else if (ch->ethos == 3) send_to_char("You have a chaotic ethos.\n\r", ch);
-    else if (!IS_NPC(ch))
-    send_to_char("You have no ethos, report it to the gods!\n\r", ch);
-    if (IS_NPC(ch)) ch->religion = 0;
-    if ((ch->religion <= RELIGION_NONE) || (ch->religion > MAX_RELIGION) )
-	send_to_char("You don't believe any religion.\n\r",ch);
-    else
+    if (ch->guarded_by != NULL)
 	{
-	 sprintf(buf,"Your religion is the way of %s%s%s.\n\r",
-	CLR_BLUE_BOLD,religion_table[ch->religion].leader,CLR_WHITE_BOLD);
-	 send_to_char(buf,ch);
+	 ekle = 1;
+    sprintf( buf,
+"     | %sKorunuyorsun      :%s %-10s                                  %s|\n\r",
+	CLR_WHITE,CLR_WHITE_BOLD,ch->guarded_by->name,CLR_GREEN_BOLD);
+    send_to_char(buf,ch);
 	}
+
+    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK]   > 10 )
+	{
+	 ekle = 1;
+    sprintf( buf,
+"     | %sSarhoþsun.                                                      %s|\n\r",
+	CLR_WHITE,CLR_GREEN_BOLD);
+    send_to_char(buf,ch);
+	}
+
+    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_THIRST] <=  0 )
+	{
+	 ekle = 1;
+    sprintf( buf,
+"     | %sSusuzsun.                                                       %s|\n\r",
+	CLR_WHITE,CLR_GREEN_BOLD);
+    send_to_char(buf,ch);
+	}
+/*    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_FULL]   ==  0 ) */
+    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_HUNGER]   <=  0 )
+	{
+	 ekle = 1;
+    sprintf( buf,
+"     | %sAçsýn.                                                          %s|\n\r",
+	CLR_WHITE,CLR_GREEN_BOLD);
+    send_to_char(buf,ch);
+	}
+
+    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_BLOODLUST]   <=  0 )
+	{
+	 ekle = 1;
+    sprintf( buf,
+"     | %sKan için açsýn.                                                 %s|\n\r",
+	CLR_WHITE,CLR_GREEN_BOLD);
+    send_to_char(buf,ch);
+	}
+
+    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DESIRE]   <=  0 )
+	{
+	 ekle = 1;
+    sprintf( buf,
+"     | %sMemleketini özlüyorsun.                                         %s|\n\r",
+	CLR_WHITE,CLR_GREEN_BOLD);
+    send_to_char(buf,ch);
+	}
+
+    if ( ch->last_fight_time != -1 && !IS_IMMORTAL(ch) &&
+        (current_time - ch->last_fight_time)<FIGHT_DELAY_TIME)
+	{
+	 ekle = 1;
+    sprintf( buf,
+"     | %sDamarlarýnda adrenalin çalkalanýyor.                            %s|\n\r",
+	CLR_YELLOW,CLR_GREEN_BOLD);
+    send_to_char(buf,ch);
+	}
+
+    if (ekle)
+	{
+    sprintf( buf,
+"     |%s+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+%s|\n\r",
+	CLR_CYAN_BOLD,CLR_GREEN_BOLD);
+    send_to_char(buf, ch);
+	}
+
+    sprintf( buf,
+"     | %sTaþýdýklarýn  :%s     %3d/%-4d        %sBüyü Korumasý   :%s %4d      %s|\n\r",
+		CLR_RED_BOLD,CLR_WHITE_BOLD,
+		ch->carry_number, can_carry_n(ch),
+		CLR_RED_BOLD,CLR_WHITE_BOLD,
+		GET_AC(ch,AC_EXOTIC),CLR_GREEN_BOLD);
+    send_to_char(buf, ch);
+
+    sprintf( buf,
+"     | %sTaþýnanAðýrlýk:%s  %6ld/%-8d    %sEzici  Koruma   :%s %4d      %s|\n\r",
+	CLR_RED_BOLD,CLR_WHITE_BOLD,
+	get_carry_weight(ch), can_carry_w(ch),
+	CLR_RED_BOLD,CLR_WHITE_BOLD,GET_AC(ch,AC_BASH),CLR_GREEN_BOLD);
+    send_to_char(buf, ch);
+
+    sprintf( buf,
+"     | %sAltýn         :%s   %-10ld        %sDelici Koruma   :%s %4d      %s|\n\r",
+		CLR_RED_BOLD,CLR_WHITE_BOLD,
+		ch->gold,CLR_RED_BOLD,CLR_WHITE_BOLD,
+		GET_AC(ch,AC_PIERCE),CLR_GREEN_BOLD);
+    send_to_char(buf, ch);
+
+    sprintf( buf,
+"     | %sAkçe          :%s   %-10ld        %sYarýcý Koruma   :%s %4d      %s|\n\r",
+		CLR_RED_BOLD,CLR_WHITE_BOLD,
+		ch->silver,CLR_RED_BOLD,CLR_WHITE_BOLD,
+		GET_AC(ch,AC_SLASH),CLR_GREEN_BOLD);
+    send_to_char(buf, ch);
+
+    sprintf( buf,
+"     | %sTecrübe Puaný :%s   %-6d            %sBüyü Kurtarma   :%s %4d      %s|\n\r",
+		CLR_RED_BOLD,CLR_WHITE_BOLD,
+		ch->exp,CLR_RED_BOLD,CLR_WHITE_BOLD,
+		ch->saving_throw,CLR_GREEN_BOLD);
+    send_to_char(buf, ch);
+
+    sprintf( buf,
+"     | %sSeviyeye Kalan:%s   %-6d                                        %s|\n\r",
+		CLR_RED_BOLD,CLR_WHITE_BOLD,
+		IS_NPC(ch) ? 0 : exp_to_level(ch,ch->pcdata->points),
+		CLR_GREEN_BOLD);
+    send_to_char(buf, ch);
+
+    sprintf( buf,
+"     |                             %sYaþam Puaný :%s %5d / %5d         %s|\n\r",
+	CLR_RED_BOLD,CLR_WHITE_BOLD,
+	ch->hit, ch->max_hit,CLR_GREEN_BOLD);
+    send_to_char(buf, ch);
+    sprintf( buf,
+"     | %sVuruþZarý     :%s   %-3d              %sMana :%s %5d / %5d         %s|\n\r",
+	CLR_RED_BOLD,CLR_WHITE_BOLD,
+	GET_HITROLL(ch),CLR_RED_BOLD,CLR_WHITE_BOLD,
+	ch->mana, ch->max_mana,CLR_GREEN_BOLD);
+    send_to_char(buf, ch);
+    sprintf( buf,
+"     | %sZararZarý     :%s   %-3d           %sHareket :%s %5d / %5d         %s|\n\r",
+	CLR_RED_BOLD,CLR_WHITE_BOLD,
+	GET_DAMROLL(ch), CLR_RED_BOLD,CLR_WHITE_BOLD,
+	ch->move, ch->max_move,CLR_GREEN_BOLD);
+    send_to_char(buf, ch);
+    sprintf( buf, "  /~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/   |\n\r");
+    send_to_char(buf, ch);
+    sprintf( buf, "  \\________________________________________________________________\\__/%s\n\r",CLR_WHITE);
+    send_to_char(buf, ch);
     if ( ch->affected != NULL && IS_SET(ch->comm, COMM_SHOW_AFFECTS) )
-    {
-	send_to_char( "You are affected by:\n\r", ch );
-	for ( paf = ch->affected; paf != NULL; paf = paf->next )
-	{
-	    sprintf( buf, "%sSpell%s: '%s%s%s'",
-		CLR_RED,CLR_WHITE_BOLD,CLR_YELLOW,
-		skill_table[paf->type].name[1],CLR_WHITE_BOLD );
-	    send_to_char( buf, ch );
-
-	    if ( ch->level >= 20 )
-	    {
-		if ( paf->duration != -1 && paf->duration != -2)
-		  sprintf( buf,
-		      " modifies %s%s%s by %s%d%s for %s%d%s hours",
-		CLR_MAGENTA,affect_loc_name( paf->location ),CLR_WHITE_BOLD,
-		CLR_MAGENTA,paf->modifier,CLR_WHITE_BOLD,
-		CLR_MAGENTA,paf->duration,CLR_WHITE_BOLD );
-		else
-		  sprintf( buf,
-		      " modifies %s%s%s by %s%d%s %spermenantly%s",
-		CLR_MAGENTA,affect_loc_name( paf->location ),CLR_WHITE_BOLD,
-		CLR_MAGENTA,paf->modifier,CLR_WHITE_BOLD,
-		CLR_CYAN,CLR_WHITE_BOLD );
-		send_to_char( buf, ch );
-	    }
-
-	    send_to_char( ".\n\r", ch );
-	}
-    }
-
-    return;
+	do_affects_col(ch, "");
+	send_to_char(CLR_WHITE, ch);
+   return;
 }
 
 

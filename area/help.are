@@ -20,11 +20,11 @@ Developed at: DIKU -- The Department of Computer Science
 
 -1 GOLD SILVER MONEY~
 .
-	Midgaard's economy is based on gold and silver coinage (and the lowly 
-copper, which you as an adventurer are far too proud to carry). Gold coins are 
-worth 100 silver coins, but are also four times as heavy (25 to the pound, as 
+	Selenge's economy is based on gold and silver coinage (and the lowly
+copper, which you as an adventurer are far too proud to carry). Gold coins are
+worth 100 silver coins, but are also four times as heavy (25 to the pound, as
 opposed to 100 to the pound for silver). Gems can be bought to alleviate weight
-problems from the Midgaard jeweller, he charges a mere 10% more than they are
+problems from the Selenge jeweller, he charges a mere 10% more than they are
 worth. 10 gems weigh one pound, and they can be worth more than 100 gold pieces
 for the highest quality stones.
 ~
@@ -33,7 +33,7 @@ for the highest quality stones.
 .
     Brief and compact help set your display options for the game. Typing brief
 toggles on and off the showing of room descriptions when you move around
-(considerably reducing the text to be processed), and typing compact 
+(considerably reducing the text to be processed), and typing compact
 removes the extra blank line before your prompt.
 ~
 
@@ -42,7 +42,7 @@ removes the extra blank line before your prompt.
   The deaf toggle turns off incoming tells, helpfull if you are being bombarded
 by messages from other players.  You can still use reply (see 'help reply') to
 reply to people who were telling you before you went deaf, although you
-cannot reply to a deaf person unless you or they are a diety (it's mostly 
+cannot reply to a deaf person unless you or they are a diety (it's mostly
 useful for sending a quick "I'm being spammed so I went deaf" message to
 a person).
 ~
@@ -52,13 +52,13 @@ a person).
 Syntax: prompt
 Syntax: prompt all
 Syntax: prompt <%*>
- 
+
 PROMPT with out an argument will turn your prompt on or off.
- 
+
 PROMPT ALL will give you the standard "<hits mana moves>" prompt.
- 
+
 PROMPT <%*> where the %* are the various variables you may set yourself.
- 
+
         %h :  Display your current hits
         %H :  Display your maximum hits
         %m :  Display your current mana
@@ -82,7 +82,7 @@ PROMPT <%*> where the %* are the various variables you may set yourself.
 
 Example:  PROMPT <%hhp %mm %vmv>
         Will set your prompt to "<10hp 100m 100mv>"
- 
+
 ~
 -1 SUMMARY~
 ____________________________________________________________________________
@@ -117,7 +117,7 @@ killed, together with all of your equipment.
 
 	Any spells which were affecting you are canceled by death.
 	Following and groups are not affected by death.
-	You lose experience points for dying.  The amount you lose depends on 
+	You lose experience points for dying.  The amount you lose depends on
 your then experience points, your race, class and your previous deaths.
 	After each three deaths if you are a samurai your charisma reduces by
 one, otherwise your constitution decreases by one. 10 deaths brings a samurai
@@ -137,7 +137,7 @@ a light, or wear a glowing object on your head.
 
 0 EXPERIENCE LEVEL XP~
 .
-	Your character advances in power by gaining experience.  You need a set 
+	Your character advances in power by gaining experience.  You need a set
 amount of experience points for each level based on your race and class.
 You gain experience by:
 
@@ -159,10 +159,10 @@ You lose experience by:
 	and some random variation.
 
 Note that:
-    A group which consist of two player will REDUCE your experience points 
+    A group which consist of two player will REDUCE your experience points
 by an amount of 25% of real exp which got if alone.
     A group which consist of three player will REDUCE your experience points
-by an amount of 50% of real exp which got if alone. 
+by an amount of 50% of real exp which got if alone.
 ~
 
 
@@ -176,12 +176,12 @@ after the old one dies you may purchase a replacement.
 
 0 TICK~
 .
-	Many of the game actions are based upon interval timers, including 
-combat, most autonomous monster actions, hp/mana/move regeneration, spell 
+	Many of the game actions are based upon interval timers, including
+combat, most autonomous monster actions, hp/mana/move regeneration, spell
 duration, weather, and area resetting.
 
-	Of these timers, the hp/mana/move regeneration timer is popularly 
-called the 'tick'.  
+	Of these timers, the hp/mana/move regeneration timer is popularly
+called the 'tick'.
 
 	Area resetting happens roughly every 106 sec. if no one is in the area;
 less often (15 minutes) if some one is.  Also note that objects lying on
@@ -189,9 +189,9 @@ the ground will not be regenerated if anyone is in the area when it resets.
 ~
 
 0 !~
-Syntax: !
+Kullaným: !
 
-! repeats the last command you typed.
+Son komutun tekrarlanmasýný saðlar.
 ~
 
 0 NORTH SOUTH EAST WEST UP DOWN~
@@ -206,27 +206,17 @@ Use these commands to walk in a particular direction.
 ~
 
 -1 NAME~
-NAME POLICY:
-In order to create a role-playing and adventure atmosphere throughout the
-realms of Anatolia, you must choose a name accordingly explained below:
+ÝSÝM SEÇÝMÝ:
+Ýsimler aþaðýda belirtilen kýstaslarýn dýþýnda olmalýdýr.
+1) Cinsel ve argo kökenli isimler
+2) Mitolojik, tarihi, bilindik isimler
+3) Rasgele harf kombinasyonlarý (Örn: qwert, sdffrsw)
+4) Ünvan, rütbe bildiren isimler
+5) Bilimsel terminoloji
+6) Eþya isimleri
 
-ACCEPTABLE:
-1)  Proper names, medieval or modern. i.e  (Takasi, Mitra)
-2)  Created names with a medieval or fictional sound.  (Priatros, Sansoles)
-3)  Compound names which adhere to rules 2 and 3 above, and which do
-     not violate the guidelines that follow.     (Redfang, Whitelord)
-
-UNACCEPTABLE:
-1)  Vulgar or sexually suggestive names.  (No examples needed)
-2)  Well known names from literature or mythology.  (Chronos, Zeus)
-3)  Nouns which are names of animals.  (Horse, Doll)
-4)  Strings of random characters.  (Asdfg, Qwdldkf)
-5)  Titles which imply rank or privelege.   (Lord, Sir,...)
-6)  Scientific phrases, words. (Proof, Logic, Electrics...)
-6)  Object names. (Necklace,Staff,Sword, etc)
-
-If your name fits above restrictions, type Y. Otherwise choose another name. 
-Last decision depends upon Immortals of Realms of Anatolia. Do you accept? ~
+Seçtiðiniz ismin yukarýda belirtilen kýstaslarýn dýþýnda
+kaldýðýna emin misiniz?(E - H) ~
 
 0 SHOOT THROW STUCK 'STUCK IN'~
 Syntax: shoot <direction> <target>
@@ -234,7 +224,7 @@ Syntax: throw spear <direction> <target>
 
 	In order to be able to shoot, you should wield bow to your pro-hand
 and arrow to the other hand. In order to throw spear, you should wield the
-spear to your pro-hand. The direction is the throwing or the shooting 
+spear to your pro-hand. The direction is the throwing or the shooting
 direction. The target (2.cityguard) is counted from the room that you are
 in. When a victim is stuck by the spear or arrow, it may be stuck in the
 body of the victim. In order to remove th stuck in arrow or spear, one
@@ -248,7 +238,7 @@ the shooter. You can shoot as far range as you can SCAN.
 0 CAST~
 Syntax: cast <spell> <target>
 
-	Before you can cast a spell, you have to practice it. The more you 
+	Before you can cast a spell, you have to practice it. The more you
 practice, the higher chance you have of success when casting.  Casting spells
 costs mana. The mana cost decreases as your level increases. Also, some skills
 may increase the power of your spell.
@@ -271,7 +261,7 @@ person that attacked itself.
 name. Example: cast 'cure critic' frag.  Quoting is optional for single-word
 spells. You can abbreviate the spell name.
 
-	When you cast an offensive spell, the victim usually gets a saving 
+	When you cast an offensive spell, the victim usually gets a saving
 throw. The effect of the spell is reduced or eliminated if the victim makes
 the saving throw successfully.
 
@@ -343,7 +333,7 @@ DROP, GET and PUT understand the object names 'ALL' for all objects and
 Syntax: equipment
 Syntax: inventory
 
-	EQUIPMENT lists your equipment (armor, weapons, and held items). The 
+	EQUIPMENT lists your equipment (armor, weapons, and held items). The
 hand that you use as pro-hand always has the * sign next to it.
 
 	INVENTORY lists your inventory.
@@ -352,14 +342,14 @@ hand that you use as pro-hand always has the * sign next to it.
 0 COMPARE~
 Syntax: compare <object-1> <object-2>
 Syntax: compare <object>
- 
+
 COMPARE compares two objects in your inventory.  If both objects are weapons,
 it will report the one with the better average damage.  If both objects are
 armor, it will report the one with the better armor class.
- 
+
 COMPARE with one argument compares an object in your inventory to the object
 you are currently wearing or wielding of the same type.
- 
+
 COMPARE doesn't consider any special modifiers of the objects.
 ~
 
@@ -372,14 +362,14 @@ is not going well, you can attempt to FLEE, or another character can RESCUE you.
 (You can also RECALL, but this is less likely to work, and costs more experience
 points, then fleeing).
 
-	If you lose your link during a fight, then your character will keep 
+	If you lose your link during a fight, then your character will keep
 fighting, and will attempt to wimp out.Your chances of making the wimp out are
 the same as you are not disconnected.
 
-	If you are affected by pass door spell then you can flee passing the 
-closed doors. You cannot flee to inside of the cabals when you are fighting 
+	If you are affected by pass door spell then you can flee passing the
+closed doors. You cannot flee to inside of the cabals when you are fighting
 with the cabal guardians.
- 
+
 	If you are Samurai, after level 10 you can NOT FLEE and NOT WIMP OUT,
 so be careful. You may only dishonor yourself during the fight, if the victim's
 level is much higher than you, or the total levels of the group that you are
@@ -430,9 +420,9 @@ Syntax: sleep
 Syntax: stand
 Syntax: wake
 
-	These commands change your position.  When you REST or SLEEP, 
-you regenerate hit points, mana points, and movement points faster. However, 
-you are more vulnerable to attack, and if you SLEEP, you won't hear many 
+	These commands change your position.  When you REST or SLEEP,
+you regenerate hit points, mana points, and movement points faster. However,
+you are more vulnerable to attack, and if you SLEEP, you won't hear many
 things happen.
 
 	Use STAND or WAKE to come back to a standing position.  You can
@@ -480,7 +470,7 @@ note post	: posts a new note. This MUST be done to post a note.
 When you log in, you will be informed if there are unread notes waiting. Type
 note read to scroll through them one at a time.
 
-Four other note directories exist, these are ideas, news, changes, and 
+Four other note directories exist, these are ideas, news, changes, and
 penalties (gods only).  They are used the exact same way, for example
 idea read 5 will read idea #5.  Posting to the news and changes boards is
 restricted. The 'unread' command can be used to show your unread notes on
@@ -533,8 +523,8 @@ armor.  WIELD is for weapons.
 
 WEAR ALL will attempt to HOLD, WEAR, or WIELD each suitable item in your
 inventory. Fighters can wield the weapons that is greater than them 3 level
-On the other hand casters can wear the armors that is greater than them 3 
-level. 
+On the other hand casters can wear the armors that is greater than them 3
+level.
 
 You may not be able to HOLD, WEAR, or WIELD an item if its alignment does not
 match yours, if it is too heavy for you, or if you are not experienced enough
@@ -575,11 +565,11 @@ Syntax: weather
 	COMMANDS shows you all the commands in the game.
 
 	REPORT shows your current statistics to you and also announces them to
-other players in the room. 
+other players in the room.
 
-	SCORE shows much more detailed statistics to you only. Your ability 
+	SCORE shows much more detailed statistics to you only. Your ability
 scores are shown as true value(current value), so for example Str: 15(23) means
-you have a 15 strength from training, but a 23 strength from other factors 
+you have a 15 strength from training, but a 23 strength from other factors
 (spells or items).
 
 	SHOW command enables score command to display the affections.
@@ -604,18 +594,18 @@ Syntax: who <race> <cabal name> pk
 
 WHO shows the people currently in the game.  Some people may choose to
 remain unseen and won't appear on the WHO
- 
+
 WHO without any arguments shows all of the (visible) people currently playing.
-WHO command will show those players that you can see. When the player is 
+WHO command will show those players that you can see. When the player is
 invisible for you, WHO command will not show that player.
 
-With arguments, WHO can show players of certain classes or levels. 
+With arguments, WHO can show players of certain classes or levels.
 For example:
- 
+
 who immortal    lists all immortals playing
 who pk		lists all characters in your PK range
 who elf         lists all elven clerics
-who entropy pk  lists all characters in entropy cabal, (if you are a mamber) 
+who entropy pk  lists all characters in entropy cabal, (if you are a mamber)
 		which are in your PK range
 
 Races may be abbreviated.
@@ -638,7 +628,7 @@ WHERE without an argument tells you the location of visible players in the same
 area as you are.
 
 WHERE with an argument tells you the location of one character with that name
-within your area, including monsters. If pk switch is used, WHERE command 
+within your area, including monsters. If pk switch is used, WHERE command
 will only show the players near you that are in your PK ranger
 
 WHERE with an argument "protector" gives the information that whether you are
@@ -664,7 +654,7 @@ Mend is similar to smithing which you can repair damaged objects.
 0 SMITHING~
 Syntax: smithing <object>
 
-Smithing is similar to mend which you can repair damaged objects 
+Smithing is similar to mend which you can repair damaged objects
 holding the hammer which you can find it in dwarven area.
 ~
 
@@ -673,7 +663,7 @@ holding the hammer which you can find it in dwarven area.
 	When you attack a mobile, the relation between you and the mobile
 won't be the same, until the reboot comes. Before you quit the mobile
 will try to track and find you. If it finds you, it will attack directly
-to you. If you quit, the mobile will go back to its original place and 
+to you. If you quit, the mobile will go back to its original place and
 wait there. If you go the room of the mobile, the mobile will remember you
 and attack you.
 
@@ -687,7 +677,7 @@ and attack you.
 0 TRACK~
 Syntax: track
 
-	While you are fighting if your opponent fleds you can follow 
+	While you are fighting if your opponent fleds you can follow
 it/his/her just typing track.
 ~
 
@@ -698,13 +688,13 @@ Syntax: cast link <character>
 ~
 
 0 'PROTECTION HEAT'~
-Syntax: cast 'protection heat' 
+Syntax: cast 'protection heat'
 
 	This spell makes you resistive against fire attacks.
 ~
 
 0 'PROTECTION NEGATIVE'~
-Syntax: cast 'protection negative' 
+Syntax: cast 'protection negative'
 
 	This spell makes you immune against negative attacks.
 ~
@@ -718,7 +708,7 @@ Syntax: cast 'resilience'
 0 SHIELDING~
 Syntax: cast 'shielding' <character>
 
-	The player which is affected by this spell cannot reach the true 
+	The player which is affected by this spell cannot reach the true
 source  to cast. Thus cannot cast any spell.
 ~
 
@@ -729,7 +719,7 @@ Syntax: cast 'protection cold'
 ~
 0 KNOCK~
 Syntax: cast 'knock' <door>
- 
+
 	Knock is similar to pick, you can open a lock without having the
  key. This spell fails against no-pass doors.
 ~
@@ -737,12 +727,12 @@ Syntax: cast 'knock' <door>
 Syntax : bashdoor <direction>
 
 	It enables the player to bash the locked doors. You may succeed
-to open the door and even you may fall in the next room, as well. But 
+to open the door and even you may fall in the next room, as well. But
 unsuccessfull attempts may result in damage to your body.
 ~
 
 0 'BLINDNESS DUST'~
-Syntax: blindness 
+Syntax: blindness
 
 	This skill enables ninja, to make blind all the people in the room.
 But be careful using this skill, the people got blind may attack you!
@@ -757,14 +747,14 @@ the character is not blind, even he/she is blind.
 
 0 FIRE SHIELD~
 Syntax: cast 'fire shield' cold
-Syntax: cast 'fire shield' fire 
+Syntax: cast 'fire shield' fire
 
 	You can create a resistive shield against the fire or cold attacks
 which makes you resistive against the fire or cold attacks.
 ~
 0 WEB~
 Syntax: cast 'web' <victim>
-	
+
 	This spell is disables char moving in any direction. Also web
 decreases the hit probability and dexerity of the victim.
 ~
@@ -776,7 +766,7 @@ Syntax: cast 'magic resistance'
 0 DISINTEGRATE~
 Syntax: cast 'disintegrate' <victim>
 
-	Very high level magician can learn to kill in one cast.This 
+	Very high level magician can learn to kill in one cast.This
 surprise attack doesn't has to be on a fully healed target.Save spell is the
 only one way to protect from this attack.
 ~
@@ -794,11 +784,11 @@ Syntax: cast 'animate death' <corpse>
 zombie that is newly born to aid him.
 ~
 0 TAIL~
-Syntax: tail 
+Syntax: tail
 Syntax: tail <opponent>
 
 	This skill enables tailed creatures to hit its opponent with its
-tail. The chance to hit with tail is very small. But when hits gives great 
+tail. The chance to hit with tail is very small. But when hits gives great
 damage to victim.
 
 ~
@@ -806,14 +796,14 @@ damage to victim.
 Syntax: cast 'dragon skin'
 
 	This spell enables dragons to increase its AC so that they can
-fight more easily. 
+fight more easily.
 
 ~
 0 FEAR~
 Syntax: cast 'fear' <victim>
 	cast 'remove fear' <victim>
- 
-  	Fear spell allows the caster to touch the victim with the fingers of 
+
+  	Fear spell allows the caster to touch the victim with the fingers of
 fear and force him to flee. And the "remove fear" spell removes the fear
 affacet from the victim.
 
@@ -822,7 +812,7 @@ affacet from the victim.
 0 MAGIC JAR~
 Syntax: cast 'magic jar' <victim>
 
-	This spell allows the caster to catch the spirit of the victim 
+	This spell allows the caster to catch the spirit of the victim
 and thus victim cannot get exp.
 	Don't forget to carry an empty vial in your inventory to put the
 spirit.
@@ -830,7 +820,7 @@ spirit.
 0 'POWER WORD KILL'~
 Syntax: cast 'power word kill' <victim>
 
-	Very high level necromancers can learn to kill in one cast.This 
+	Very high level necromancers can learn to kill in one cast.This
 surprise attack doesn't has to be on a fully healed target.Save spell is the
 only one way to protect from this attack.
 ~
@@ -838,7 +828,7 @@ only one way to protect from this attack.
 
 Syntax : cast 'power word stun' <victim>
 
-	Only powerful anti-paladins can learn the secret of this spell 
+	Only powerful anti-paladins can learn the secret of this spell
 to stun their victims. Victims cannot do anything for a while.
 ~
 0 HELLFIRE~
@@ -849,7 +839,7 @@ spell do more damage.
 ~
 0 MASTERING SWORD~
 
-	A trained samurai can get the secret of sword usage. His/her sword 
+	A trained samurai can get the secret of sword usage. His/her sword
 would be more damageful on his/her opponents.
 ~
 0 MASTERING POUND~
@@ -879,7 +869,7 @@ increase your damroll and hitroll respectively.......
 Syntax: cast 'turn' <victim>
 
 	This area attack spell is a gift from the gods to the paladin due to
-their holy mission. A powerful holy energy flows through the fingers of 
+their holy mission. A powerful holy energy flows through the fingers of
 paladin and this energy force the evil victims to flee.
 ~
 0 VAMPIRIC TOUCH~
@@ -899,46 +889,46 @@ the katana quest, so that katana should improve itself as you use it.
 	Anti-paladins can deafen the enemies that enemies cannot hear what
 they say, utter(or what you say) ; simply enemies become deaf-mute
 persons. Hence any person which has been affected by deafen cannot cast
-any spell.   
+any spell.
 ~
 0 SANCTIFY 'SANCTIFY LANDS'~
 Clerics and paladins can remove the plague, slow, poison, curse and sleep
-affects of the room. 
+affects of the room.
 ~
 0 DEADLY 'DEADLY VENOM'~
 This spell allows the caster to envenom the room. The characters who out
-of your PK range will not be affected by the affection of this spell. 
+of your PK range will not be affected by the affection of this spell.
 ~
 0 'CURSED LANDS'~
 This spell allows the caster to curse the room. The characters who out
-of your PK range will not be affected by the affection of this spell. 
+of your PK range will not be affected by the affection of this spell.
 ~
 0 LETHARGIC 'LETHARGIC MIST'~
 This spell allows the caster to add the slow affection to the room. The
 characters who out of your PK range will not be affected by the affection
-of this spell. 
+of this spell.
 ~
 0  'BLACK DEATH'~
 This spell allows the caster to add the plague affection to the room. The
 characters who out of your PK range will not be affected by the affection
-of this spell. 
+of this spell.
 ~
 0 MYSTERIOUS 'MYSTERIOUS DREAM'~
 This spell allows the caster to add the sleep affection to the room. The
 characters who out of your PK range will not be affected by the affection
-of this spell. 
+of this spell.
 ~
 0 MYSTERIOUS 'MYSTERIOUS DREAM'~
 This spell allows the caster to add the sleep affection to the room. The
 characters who out of your PK range will not be affected by the affection
-of this spell. 
+of this spell.
 ~
 0 HURRICANE~
 Syntax: cast 'hurricane' <target>
 This spell inflicts damage on every enemy character in the room.
 Beware that other characters who are not yet fighting may attack
 you as a result! And the victims which has been affected by fly and
-has small size will get higher damage.   
+has small size will get higher damage.
 ~
 
 0 PASSWORD~
@@ -971,8 +961,8 @@ tripped or bash by an enemy.
 
 WIMPY with no argument sets your wimpy value to 20% of your maximum hit points.
 
-If you are Samurai, After level 10 you can NOT FLEE if your victim's 
-level is six or less level greater than yours; so be careful. Some 
+If you are Samurai, After level 10 you can NOT FLEE if your victim's
+level is six or less level greater than yours; so be careful. Some
 monsters are wimpy. ~
 
 0 OPEN CLOSE LOCK UNLOCK PICK~
@@ -1020,7 +1010,7 @@ When multiple items of the same name are listed, type 'buy n.item', where n
 is the position of the item in a list of that name.  So if there are two
 swords, buy 2.sword will buy the second. If you want to buy multiples of
 an item, use an * (buy 5*pie will buy 5 pies).  These can be combined into
-(for example) buy 2*2.shield, as long as the * is first.  
+(for example) buy 2*2.shield, as long as the * is first.
 
 LIST lists the objects the shop keeper will sell you.
 List <name> shows you only objects of that name.
@@ -1041,7 +1031,7 @@ The nature of the reward depends upon the type of object.
 Syntax: scroll
 Syntax: scroll <number>
 
-This command changes the number of lines the mud sends you in a page (the 
+This command changes the number of lines the mud sends you in a page (the
 default is 24 lines).  Change this to a higher number for larger screen
 sizes, or to 0 to disabling paging.
 ~
@@ -1112,14 +1102,14 @@ Syntax: SAVE
 SAVE saves your character and object. The game saves your character every
 15 minutes regardless, and is the preferred method of saving. Typing save
 will block all other command for about 20 seconds, so use it sparingly.
-You do not need to save. Every save operation requested by the players 
+You do not need to save. Every save operation requested by the players
 causes lag. The Anatolia' auto saver does not cause even a tiny lag.
 
-Some objects, such as keys and some maps, may not be saved. Those very 
-powerful items of very limited number, are not saved if you are below 
+Some objects, such as keys and some maps, may not be saved. Those very
+powerful items of very limited number, are not saved if you are below
 level 10.
 
-QUIT leaves the game.  You may QUIT anywhere.  When you re-enter the game 
+QUIT leaves the game.  You may QUIT anywhere.  When you re-enter the game
 you will be back in the same room.
 
 QUIT automatically does a SAVE, so you can safely leave the game with just one
@@ -1134,13 +1124,13 @@ There is no RENT in this mud.  Just SAVE and QUIT whenever you want to leave.
 Syntax: RECALL
 
 RECALL prays to gods for miraculous transportation from where you are
-back to the Temple of Midgaard.
+back to the Temple of Selenge.
 
-Recalling back to hometown is a spell. But all players below level 10th 
-may use this spell by the help of the gods. The gods transfer the players 
-below level 10, by only their praying. You must be calm enough to 
-concenterate and pray to the gods, so you are not able to pray not 
-only in the fights, but also sometime after a fight. Those who are over 
+Recalling back to hometown is a spell. But all players below level 10th
+may use this spell by the help of the gods. The gods transfer the players
+below level 10, by only their praying. You must be calm enough to
+concenterate and pray to the gods, so you are not able to pray not
+only in the fights, but also sometime after a fight. Those who are over
 level 10 must find a way to cast the spell to recall.
 
 RECALL costs half of your movement points.
@@ -1190,17 +1180,17 @@ have each time you gain a level.  Unused sessions are saved until you
 do use them.
 
 You can practice your skills and spells with a practicer who knows the
-group corresponding that skill or spell. Below is a list of practicers and  
+group corresponding that skill or spell. Below is a list of practicers and
 their groups:
- 
+
  Attack         >>> Towering Black Demon	(Camelot   	)
  Beguiling 	>>> Mighty Beholder		(Thalos    	)
- Benedictions	>>> Templeman			(Midgaard	)
- Combat		>>> Combat Magician		(Elemental Can.	) 
+ Benedictions	>>> Templeman			(Selenge	)
+ Combat		>>> Combat Magician		(Elemental Can.	)
  Curative	>>> Grand Knight of Paladins	(Redfernes' R.	)
  Defensive	>>> Heimdall			(Valhalla	)
  Draconian	>>> Rulers			(Elemental Can.	)
- Enchantment	>>> Master Enchanter		(High Tower	)	
+ Enchantment	>>> Master Enchanter		(High Tower	)
  Enhancement	>>> Healer			(Valley of Titan)
  Fightmaster	>>> Heimdall			(Valhalla	)
  Healing	>>> High Priestess of Ofcol	(Ofcol		)
@@ -1210,8 +1200,8 @@ their groups:
  Protective	>>> Gath			(City of Anon	)
  Transportation	>>> Grand Mistress of Magic	(High Tower	)
  Weaponsmaster  >>> Samurai			(New Thalos	)
- Wizard		>>> Wizard			(Midgaard	)
-	
+ Wizard		>>> Wizard			(Selenge	)
+
 If you SLOOK the spell or skill and find in group NONE , then you
 can practice that in your guild.
 
@@ -1220,7 +1210,7 @@ FOR MORE HELP , look help of GLIST ,SLOOK , TEACH , LEARN.
 
 0 GLIST~
 Syntax: glist <group>
- 
+
 	Gives the skills and spells of that group.
 example : glist meditation , glist defensive.....
 ~
@@ -1229,11 +1219,11 @@ Syntax: slook <skill or spell>
 
 	Gives group of corresponding spell or skill.
 example : slook armor , slook meditation.....Then go to the master of that
-skill or spell to learn 
+skill or spell to learn
 ~
 0 TEACH~
-Syntax : teach 
-	
+Syntax : teach
+
 	It allows the hero to teach his/her 100% skills to the players
 in the room. It holds hero teach mode.
 
@@ -1295,7 +1285,7 @@ the ban list, if the remover is of equal or higher level than the banner.
 
 A site may have all players, new players, or non-permitted players (set
 by editing the player file) banned, by changing the argument after the site.
-*s may be used to ban either by suffix (*.edu), prefix (labmac*), or 
+*s may be used to ban either by suffix (*.edu), prefix (labmac*), or
 content (*andrews*), but be careful not to accidently lock out too many
 sites with a wildcard.  Bans do not save unless the permban command is used.
 ~
@@ -1346,7 +1336,7 @@ players.
 Syntax: freeze <name>
 
 FREEZE <character> is a toggle which prevents a character from issuing any
-commands at all. It can be removed from within the game, so freezing a 
+commands at all. It can be removed from within the game, so freezing a
 troublemaker is usually a better option than they deny command.
 ~
 
@@ -1357,7 +1347,7 @@ Syntax: force all <command>
 FORCE forces one character to execute a command, except of course delete.
 
 Below level 97 (Deity) force can only be used on mobiles, and force all is
-unavailable.  You also cannot 'force orc murder hugo', for example. 
+unavailable.  You also cannot 'force orc murder hugo', for example.
 
 FORCE 'all' forces all player characters to execute a command.
 This is typically used for 'force all save'.
@@ -1365,11 +1355,11 @@ This is typically used for 'force all save'.
 
 96 SOCKETS~
 Syntax: sockets
-	sockets <name> 
+	sockets <name>
 
-SOCKETS reports all of the visible users connected to the server, including 
-users in the process of logging in.  The two numbers inside brackets are the 
-channel number and the 'connected' state.  The 'connected' states are listed in 
+SOCKETS reports all of the visible users connected to the server, including
+users in the process of logging in.  The two numbers inside brackets are the
+channel number and the 'connected' state.  The 'connected' states are listed in
 merc.h: 0 is CON_PLAYING; non-zero values are various states of logging in.
 
 The optional name argument shows the site of a player, or optional can be used
@@ -1381,7 +1371,7 @@ into an orc).
 Syntax: load mob <vnum>
 	load obj <vnum> <level>
 
-The load command is used to load new objects or mobiles (use clone to 
+The load command is used to load new objects or mobiles (use clone to
 duplicate strung items and mobs).  The vnums can be found with the vnum
 command, or by stat'ing an existing mob or object.
 
@@ -1473,9 +1463,9 @@ Syntax: transfer <character>
 	transfer all         <location>
 
 Transfer transfers the target character, or ALL player characters,
-to your current location (default) or to a specified location. Trans all 
+to your current location (default) or to a specified location. Trans all
 should almost never be used, as 100 players popping into one room can have
-horrible effects on slow links. Teleport is a synonym for transfer. 
+horrible effects on slow links. Teleport is a synonym for transfer.
 ~
 
 94 AT~
@@ -1527,7 +1517,7 @@ easily.  Without holy light, you can see what mortal players see.
 
 Wizinvis takes a level argument, and will mke you invisible to all players of
 a lower level than your invisibility level.  It defaults to the maximum
-(your level) if no argument is given.  Wizi 60 characters are totally 
+(your level) if no argument is given.  Wizi 60 characters are totally
 invisible.
 ~
 
@@ -1536,7 +1526,7 @@ Toggling your incognito status will hide your presence from people outside the
 room you are in, but leave you visible to those who are with you.  It takes
 a level argument similar to wizinvis, people at that level or higher can see
 you regarless of location.
-~ 
+~
 
 92 MEMORY~
 Syntax: memory
@@ -1573,7 +1563,7 @@ Syntax: stat <name>
 
 The stat command gives you detailed information on an object, mobile, or room
 within the game.  Without a class argument, the command will return a object
-(if found), a mobile (if no object exists, but a mobile does), or a room 
+(if found), a mobile (if no object exists, but a mobile does), or a room
 (if a number is  given).  Stat room with no argument stats the room you are
 standing in.  Stat can be used to find room vnums for goto.
 (see also goto, transfer)
@@ -1608,7 +1598,7 @@ Poofin and poofout only show to characters who can see you.
 99 PROTECT~
 Syntax: protect <character>
 
-Protect is used to protect a character from unwanted snooping.  Removing 
+Protect is used to protect a character from unwanted snooping.  Removing
 protected status from a character WILL be seen by that character.
 ~
 
@@ -1656,14 +1646,14 @@ turns it back on).
 ~
 
 92 WIZNET~
-Syntax: wiznet 
+Syntax: wiznet
 	wiznet show
 	wiznet status
 	wiznet <field>
 
 Wiznet is sort of an immortal news service, to show important events to
-the wiznetted immoral.  Wiznet by itself turns wiznet on and off, 
-wiznet show lists all settable flags (they are not detailed here), 
+the wiznetted immoral.  Wiznet by itself turns wiznet on and off,
+wiznet show lists all settable flags (they are not detailed here),
 wiznet status shows your current wiznet settings, and wiznet <field> toggles
 a field on and off.  The events should be self-explanatory, if they are not,
 fiddle with them a while.  More events are available at higher levels.
@@ -1744,7 +1734,7 @@ Syntax: 'charm monster' <victim>
 
 This skill, if successful, causes the victim to follow you and to take
 orders from you. But only non-pc races can be charmed by using this skill,
-hence some of the mobiles will not be affected by the power of this skill. 
+hence some of the mobiles will not be affected by the power of this skill.
 Use ORDER to order your charmed followers.
 
 You are responsible for the actions of your followers.  Conversely, other
@@ -1851,7 +1841,7 @@ unable to RECALL. Curse may be used to fill equipment with evil power,
 allowing (for example) weapons to do more damage to particularly holy
 opponents.
 
-The curse spell can also be casted on objects. Spell will cause the 
+The curse spell can also be casted on objects. Spell will cause the
 object to be more evil, but if protected by some other magic it may fail.
 
 ~
@@ -1896,13 +1886,13 @@ dangerous for casters who are not pure of heart.
 0 'DISPEL MAGIC' CANCELLATION~
 Syntax: cast 'dispel magic' <character>
         cast 'cancellation' <characte>
- 
+
 Both of these spells remove magical effects from the target.  Dispel magic
 has a reduced chance of working, and is considering an attack spell.
 Cancellation can only be used on allies, but is much more effective and does
 not provoke attack.  Unfortunately, the spells do not discriminate between
 harmful and benign spells.
- 
+
 The chance of dispelling is based on the level of the spell. Permanent spells
 (such as mobile sanctuary) are much harder to remove.  Not all spells may
 be dispelled, notable examples are poison and plague.
@@ -1919,8 +1909,8 @@ corpses underneath the surface may come to the surface.
 ~
 0 'SEVERITY''SEVERITY FORCE'~
 Syntax: cast 'severity force'
-	
-This spell is similar to earthquake but much more powerful to inflicts  
+
+This spell is similar to earthquake but much more powerful to inflicts
 damage on only your enemy character in the room. From now on you can
 separate the land through your enemy.
 
@@ -1949,7 +1939,7 @@ mages can cause the item act in different ways.
 0 'HAND OF UNDEAD'~
 Syntax: cast 'hand of undead' <victim>
 
-	This spell saps the mana, movement points of its target and also 
+	This spell saps the mana, movement points of its target and also
 inflicts damage.
 ~
 
@@ -1971,7 +1961,7 @@ level of the caster, the victim's armor class is increased by two points.
 0 'FAERIE FOG'~
 Syntax: cast 'faerie fog'
 
-This spell reveals all manner of invisible, hidden, camouflaged and sneaking 
+This spell reveals all manner of invisible, hidden, camouflaged and sneaking
 creatures in the same room as you.
 ~
 
@@ -1986,7 +1976,7 @@ Syntax: cast 'fly' <character>
 
 This spell enables the target character to fly.
 
-Syntax: fly up 
+Syntax: fly up
 Syntax: fly down
 	If you have affected by fly spell or your race allows you to fly
 you can land and then start to fly again when you want.
@@ -2005,7 +1995,7 @@ This spell enables the target character to see warm-blooded creatures even
 while in the dark, and exits of a room as well.
 ~
 
-0 INVIS 'MASS INVIS' INVISIBLITY~ 
+0 INVIS 'MASS INVIS' INVISIBLITY~
 Syntax: cast 'invisibility' <character>
 Syntax: cast 'invisibility' <object>
 Syntax: cast 'mass invis'
@@ -2033,7 +2023,7 @@ This spell reveals the location of all objects with the given name.
 0 'PASS DOOR'~
 Syntax: cast 'pass door'
 
-This spell turns the caster translucent and enables to pass through 
+This spell turns the caster translucent and enables to pass through
 closed doors. ~
 
 0 POISON~
@@ -2042,8 +2032,8 @@ Syntax: cast poison <object>
 
 This spell reduces the strength of the victim by two, as well as reducing the
 victim's regeneration rate. It may also be used to poison food, drink, or
-a weapon in a fashion similar to envenom ('help envenom'), but with 
-drastically reduced effectiveness. Tearing the flesh by poisoned weapons 
+a weapon in a fashion similar to envenom ('help envenom'), but with
+drastically reduced effectiveness. Tearing the flesh by poisoned weapons
 may cause the victim to get posioned.
 ~
 
@@ -2052,8 +2042,8 @@ Syntax: cast sanctuary  <character>
 Syntax: cast 'mass sanctuary'
 
 The SANCTUARY spell reduces the damage taken by the character from any attack
-by one half. It is said to be that a very special tecnique of attack 
-passes the sanctuary protection. The mass sanctuary spell affects caster's 
+by one half. It is said to be that a very special tecnique of attack
+passes the sanctuary protection. The mass sanctuary spell affects caster's
 group.
 ~
 
@@ -2082,68 +2072,68 @@ Syntax: cast 'holy aura'
 
 These spells protect the caster by decreasing (improving) the caster's armor
 class.  SHIELD provides 20 points of armor.  STONE SKIN provides 40 points of
-armor.  ENHANCED ARMOR provides 60 points of armor. MELD INTO STONE 
-provides 100 points of armor.But MELD INTO STONE is available only for 
+armor.  ENHANCED ARMOR provides 60 points of armor. MELD INTO STONE
+provides 100 points of armor.But MELD INTO STONE is available only for
 RockSeer RACE. In addition 'holy aura' can be casted only to goods.
 
-~ 
+~
 0 'SHIELD CLEAVE'~
 
 Syntax: shield cleave
 
-	Master fighters can break the opponent's shield into two parts by using 
-sword or axe. Of course, axe type weapons has more chance than sword 
-types. And don't forget this attack is meaningless if your opponents use 
-a shield which is made of titanium or platinum elements or limited 
-shield. 
+	Master fighters can break the opponent's shield into two parts by using
+sword or axe. Of course, axe type weapons has more chance than sword
+types. And don't forget this attack is meaningless if your opponents use
+a shield which is made of titanium or platinum elements or limited
+shield.
 ~
 0 'WEAPON CLEAVE'~
 
 Syntax: weapon cleave
-	Master fighters can break the opponent's weapon into two parts by 
-using sword or axe. Of course ,axe type weapons has more chance than 
-sword types. And don't forget this attack is meaningless if your 
-opponents use a weapon which is made of titanium or platinum elements or 
+	Master fighters can break the opponent's weapon into two parts by
+using sword or axe. Of course ,axe type weapons has more chance than
+sword types. And don't forget this attack is meaningless if your
+opponents use a weapon which is made of titanium or platinum elements or
 limited weapons.
 ~
 0 INSANITY~
 Syntax: cast 'insanity' <victim>
 
-	Powerful necromencers have the secret of this spell which make 
+	Powerful necromencers have the secret of this spell which make
 the players aggressive for a while.
 ~
 0 'HEALING LIGHT'~
 
-Syntax: cast 'healing light' 
+Syntax: cast 'healing light'
 
-	Clerics have the the ability of increasing heal booster of the 
-room using this spell. 
+	Clerics have the the ability of increasing heal booster of the
+room using this spell.
 ~
 0 'MIND LIGHT~
 
 Syntax: cast 'mind light'
 
-	Clerics have the ability of increasing mana booster of the room 
+	Clerics have the ability of increasing mana booster of the room
 using this spell.
 ~
 0 SETTRAPS~
 
 Syntax: settraps
 
-	Master thiefs can set a trap to kill their victims. This trap has 
+	Master thiefs can set a trap to kill their victims. This trap has
 a timer and it can give damage to your victims only once.
 ~
 0 'LIGHTNING SHIELD'~
 
 Syntax : cast 'lightning shield'
 
-	Powerful necromancers and witchs can make a shield to protect 
-themself that wake them if they are sleeping when any mobiles or victims 
+	Powerful necromancers and witchs can make a shield to protect
+themself that wake them if they are sleeping when any mobiles or victims
 entered the room.
 ~
 0 'SHOCKING TRAP'~
 
-	Ability to make a magical trap. 
+	Ability to make a magical trap.
 ~
 0 SLEEP~
 Syntax: cast sleep <victim>
@@ -2204,24 +2194,24 @@ High level mages may learn and cast these spells as well.
 ~
 -1 'RACE HELP' RACE RACES 'RACE HELP'~
 The culturally diverse realm of Anatolia MUD is home to 18 different races.
-Following  is  a  brief description  of  each main race to assist you in the 
+Following  is  a  brief description  of  each main race to assist you in the
 character creation process:
 
 Human:     Humans are the typical, average race, possessing no advantages nor
            disadvantages.
 Elves:     Elves are slender and fragile, yet agile and dextrous creatures.
 	   There are currently THREE elf races.(Elf,Dark-Elf,Half-Elf).
-Dwarf:     Dwarves are typically high in constitution and strength, and have 
+Dwarf:     Dwarves are typically high in constitution and strength, and have
 	   infravision.There are currently THREE: Dwarf,Duergar,Svirfnebli.
-Gnome:     Gnomes are typically highly intelligent but low in strength. And 
+Gnome:     Gnomes are typically highly intelligent but low in strength. And
 	   gnomes costs 300 extra exps per level.
-Arial:     Arials are a highly dextrous and smart race.They always fly. And 
+Arial:     Arials are a highly dextrous and smart race.They always fly. And
 	   arials costs 250  exps per level.
-Giant:     Giants are great and strong race. They are higher in constitution. 
+Giant:     Giants are great and strong race. They are higher in constitution.
 	   There are currently FOUR: Fire-Gia, Storm-Gia, Frost-Gia, Cloud-Gia.
-Felar:	   They are not strong , but has the ability to see in the dark, called 
+Felar:	   They are not strong , but has the ability to see in the dark, called
 	   infravision. And felar costs 250 extra exps per level.
-Rockseer  :Rockseer are  fragile, agile and dextrous creatures. They can pass 
+Rockseer  :Rockseer are  fragile, agile and dextrous creatures. They can pass
 	   all kinds of doors. They are neutral, cost 500 extra exps per level.
 Githyanki :Human like creatures but high in intelligent. They can be fighter,
 	   caster, or fighter/caster.Cost 250 creation points.
@@ -2231,7 +2221,7 @@ Troll     :Hindered by their slow intellect and mobility, grow to obtain a
            state of health.They cost extra 300 creation points.
 
 P.S.	: Remember that some races have their specific spells, i.e rockseers
-	  have their own spell 'meld into stone'. FOR more information 	try 
+	  have their own spell 'meld into stone'. FOR more information 	try
 	  to read helps of each races.
 
 See also:  CLASS, WORLD
@@ -2261,7 +2251,7 @@ Githyanki   Githy    Int,Dex  Wis,Con   250     evil, "sword", "dagger"
 Satyr       Satyr      Dex      Int     250     neutral, "camouf.", "ambush"
 Troll       Troll    Str,Con  Int,Dex   400     evil, regenerate, "fast healing"
 
-What is your race (help <race> for more information)?~
+Irkýnýz ne olsun (bilgi için: uzakdiyarlar.net)?~
 
 -1 GNOME GNOMES~
 Gnomes are a race of small, wiry, but tough creatures.  They live a very
@@ -2272,60 +2262,60 @@ always stay neutral, else they will lose their spells and are frowned upon.
 
 ~
 -1 'STORM GIANT' STORMGIANTS~
- Storm giants are the largest of the giant races, ranging from 12-20 feet in 
-height.  They are strong , and almost as durable as the dwarves. They aren't 
-too bright, however, and their huge size makes them more clumsy than the 
+ Storm giants are the largest of the giant races, ranging from 12-20 feet in
+height.  They are strong , and almost as durable as the dwarves. They aren't
+too bright, however, and their huge size makes them more clumsy than the
 other races.  Giants make the best warriors of any race, but are
 ill-suited for any other profession.
 
-Storm giants resist lightning , can fly.  However, they are the most clever 
-of giants. Storm giants, due to their  size and stamina, receive the fast 
+Storm giants resist lightning , can fly.  However, they are the most clever
+of giants. Storm giants, due to their  size and stamina, receive the fast
 healing and bash skills for free. Cloud giants have weapon resistance.
 
 ~
 -1 'FIRE GIANT' FIREGIANTS~
- Storm giants are the large, ranging from 9-12 feet in height.  They are 
-strong , and almost as durable as the dwarves. They aren't too bright, 
-however, and their huge size makes them more clumsy than the 
+ Storm giants are the large, ranging from 9-12 feet in height.  They are
+strong , and almost as durable as the dwarves. They aren't too bright,
+however, and their huge size makes them more clumsy than the
 other races.  Giants make the best warriors of any race, but are
 ill-suited for any other profession.
 
-Fire giants resist fire .  However, their slow minds make them extremely 
-vulnerable to mental attacks.  Storm giants, due to their  size and 
-stamina, receive the fast healing and bash skills for free. 
+Fire giants resist fire .  However, their slow minds make them extremely
+vulnerable to mental attacks.  Storm giants, due to their  size and
+stamina, receive the fast healing and bash skills for free.
 
 ~
 -1 'CLOUD GIANT' CLOUDGIANTS~
- Cloud giants are the large, ranging from 9-12 feet in height.  They are 
-strong , and almost as durable as the dwarves. They aren't too bright, 
-however, and their huge size makes them more clumsy than the 
+ Cloud giants are the large, ranging from 9-12 feet in height.  They are
+strong , and almost as durable as the dwarves. They aren't too bright,
+however, and their huge size makes them more clumsy than the
 other races.  Giants make the best warriors of any race, but are
 ill-suited for any other profession.
 
-Fire giants resist fire .  However, their slow minds make them extremely 
-vulnerable to mental attacks.  Storm giants, due to their  size and 
-stamina, receive the fast healing and bash skills for free. Cloud giants  
+Fire giants resist fire .  However, their slow minds make them extremely
+vulnerable to mental attacks.  Storm giants, due to their  size and
+stamina, receive the fast healing and bash skills for free. Cloud giants
 have weapon resistance.
 ~
 -1 'FROST GIANT' FROSTGIANTS~
- Frost giants are the largest of the giant races, ranging from 9-12 feet in 
-height.  They are strong , and almost as durable as the dwarves. They aren't 
-too bright, however, and their huge size makes them more clumsy than the 
+ Frost giants are the largest of the giant races, ranging from 9-12 feet in
+height.  They are strong , and almost as durable as the dwarves. They aren't
+too bright, however, and their huge size makes them more clumsy than the
 other races.  Giants make the best warriors of any race, but are
 ill-suited for any other profession.
 
-Frost giants resist cold.  However, their slow minds make  them extremely 
-vulnerable to mental attacks.  Storm giants, due to their  size and 
+Frost giants resist cold.  However, their slow minds make  them extremely
+vulnerable to mental attacks.  Storm giants, due to their  size and
 stamina, receive the fast healing and bash skills for free.And they are
 born to be enemies of white dragons.
 ~
 -1 GIANT GIANTS~
 Giants are the largest of the races, ranging from 9-12 feet in height.  They
-are stronger than any other race, and almost as durable as the dwarves.  
+are stronger than any other race, and almost as durable as the dwarves.
 They aren't too bright, however, and their huge size makes them more clumsy
 than the other races.  Giants make the best warriors of any race, but are
-ill-suited for any other profession. Giants, due to their size and 
-stamina, receive the fast healing and bash skills for free. 
+ill-suited for any other profession. Giants, due to their size and
+stamina, receive the fast healing and bash skills for free.
 
 ~
 -1 HUMAN HUMANS MAN~
@@ -2370,12 +2360,12 @@ elves, half-elves see in the dark with infravision.
 -1 SVIRF SVIRFNEBLI DEEP-GNOME~
 
 The Svirfnebli, also known as deep gnomes, have made their way into Anatolia as
-the paths to the Underdark have been found.  Slighty larger than their 
+the paths to the Underdark have been found.  Slighty larger than their
 surface cousins, these gnomes are also stronger and a little more hearty from
-centuries of working stone.  The dedication to stone has made them not  
-quite as adept mentally as their cousins, but yet they are still regarded 
-as very wise.  With their singular dedication to the stone, svirfnebli 
-must be neutral in all  aspects of their lives.  They have the same ability 
+centuries of working stone.  The dedication to stone has made them not
+quite as adept mentally as their cousins, but yet they are still regarded
+as very wise.  With their singular dedication to the stone, svirfnebli
+must be neutral in all  aspects of their lives.  They have the same ability
 in learning the powers of items as their surface cousins.
 
 ~
@@ -2422,19 +2412,19 @@ Dark elves must stay evil to cast any spells they might know.  Those who
 turn to good are frowned upon.  Dark-Elves are burned by the touch of
 mithril.
 
-~                      
+~
 -1 SATYR~
 
-Satyrs are a race of half human and half goat race.They are evil.  They are 
+Satyrs are a race of half human and half goat race.They are evil.  They are
 inherently dextrerious. But not strengthful. Due the desterity they can
 steal from someone , camuflage themselves and ambush opponents very easly.
 
-~                      
+~
 -1 GITHYANKI~
 
 Githyanki's are more intelligient then humanbeings. But they are constitutive
 as human race. But they are evil. And they can be either fighter , caster or
-fighter/caster races.They are good warriors . But casters use only offensive 
+fighter/caster races.They are good warriors . But casters use only offensive
 spells.
 
 ~
@@ -2442,17 +2432,17 @@ spells.
 -1 ROCKSEER ROCKSEERS~
 
 Rockseers are a race of renegade elves who lives underworld in rock caves.
-They are inherently intelligent but have neglected intellectualstudies 
-and become very translucent from years of generations of trying to pass 
+They are inherently intelligent but have neglected intellectualstudies
+and become very translucent from years of generations of trying to pass
 rocks.  Like elves, rockseers have infravision and can walk innocent and
-can pass doors easily.Rockseers must stay neutral to cast any spells they 
+can pass doors easily.Rockseers must stay neutral to cast any spells they
 might know. And because of their organism they are vulnerable to woods.
 They have a specific spell called 'meld into stone'.
 
-~                      
+~
 -1  TROLL TROLLS~
 Long hidden within the sanctity of their mountain caves, a race known in the
-past only as a myth, lies the civilization of the trolls. Built with the 
+past only as a myth, lies the civilization of the trolls. Built with the
 undying stamina of the mountains they reside in, these green skinned beasts
 often grow to obtain a state of health few other races believed possible.
 Hindered by their slow intellect and mobility, the troll society seems to
@@ -2461,34 +2451,34 @@ their sanctuaries in numbers reaching high into the thousands
 ~
 -1 'CLASS' 'CLASSES' 'CLASS HELP'~
 
-Here are the classes and their extra cost per level.
-For more information, type "help <class>".
+Aþaðýda sýnýf listesi verilmiþtir. Daha fazla bilgi için web sitesini
+ziyaret ediniz.
 
-CLASS      ACRONYM   PRIME STAT  SEX   EXTRA	CATEGORY & COMMENTS
------      -------   ----------  ----  -----    -------------------
-Cleric       Cle      WIS        ANY	 0      users of healing magics
-Thief        Thi      DEX        ANY     0  	masters of the thieving arts
-Warrior      War      STR        ANY     0  	masters of brute combat
-Ranger       Ran      STR	 ANY	200	forest warrior     
-Ninja	     Nin      DEX	 ANY    300   	thief/cleric       
-AntiPaladin  A-P      STR	 ANY	300	warrior/mage       
-Paladin      Pal      STR	 ANY	400	warrior/cleric     
-Samurai      Sam      STR        ANY    500  	masters of ancient battlearts 
-Vampire      Vam      INT	 ANY	300	simply vampire
-Invoker      Inv      INT        ANY     0      magician
-Transmuter   Tra      INT        ANY     0      magician
-Elementalist Elm      INT        ANY     0      elemental ruler magician
-Necromancer  Nec      INT	 ANY	200	simply necromancer
+SINIF      KISALTMA  GEREKEN  EXTRA
+-----      --------  -------  -----
+Ermiþ         Erm      BÝL  	 0
+Hýrsýz          Hýr      ÇEV       0
+Savaþçý       Sav      GÜÇ       0
+Korucu        Krc      GÜÇ      200
+Ninja	      Nin      ÇEV      300
+Anti-paladin  A-P      GÜÇ      300
+Paladin       Pal      GÜÇ      400
+Samuray       Sam      GÜÇ      500
+Vampir        Vam      ZEK      300
+Gan           Gan      ZEK       0
+Biçimci       Biç      ZEK       0
+Ögeci         Öge      ZEK       0
+Karakam       Kam      ZEK      200
 
 ~
 
 -1 RANGER RANGERS~
                                 RANGER
-Outdoorsmen, hunters, master of woodcraft, Rangers are the guardians of 
+Outdoorsmen, hunters, master of woodcraft, Rangers are the guardians of
 the forests.  In addition to having excellent fighting skills, they are
-also wielders of some powerful magic.  Some Rangers have been known to call 
+also wielders of some powerful magic.  Some Rangers have been known to call
 large bears to their aid, fashion mystical staves, and be able to camouflage
-beyond detection.  Their ability to ambush opponents makes them deadly 
+beyond detection.  Their ability to ambush opponents makes them deadly
 foes.
 
 ~
@@ -2511,7 +2501,7 @@ a loss of honor, Ninjas cannot parry with swords.
 The opposite of Paladins, these knights have chosen evil as their course.
 Such fervor and zeal gives them deadly spells to compliment their already
 superb fighting skills.  They seek only personal gain and to cause suffering
-and pain to good.  Anti-paladins must stay evil in order to cast their 
+and pain to good.  Anti-paladins must stay evil in order to cast their
 spells. Those who forsake evilness are frowned upon. Anti-paladins can try
 to threathen the mobiles, and can get their equipments by demanding it from
 them.
@@ -2523,16 +2513,16 @@ These warriors have chosen the path of virtue and chivalry above all others.
 This dedication to their cause grants them priest-like spells and healing
 powers.  They are also formidable fighters, always questing to stamp out evil.
 Paladins must stay good in order to cast their spells.  Those who forsake
-goodness are frowned upon.  Paladins are expected to be truthful, 
-chivalrous, humble, merciful, kind, bold, and noble of spirit.  Paladins 
+goodness are frowned upon.  Paladins are expected to be truthful,
+chivalrous, humble, merciful, kind, bold, and noble of spirit.  Paladins
 must be Lawful Good.
 
 ~
 -1 CLERIC CLERICS~
 
 Clerics are the most defensively oriented of all the classes.  Most of their
-spells focus on healing or defending the faithful, with their few combat 
-spells being far less powerful than those of mages. However, clerics are the 
+spells focus on healing or defending the faithful, with their few combat
+spells being far less powerful than those of mages. However, clerics are the
 best class by far at healing magics, and they possess an impressive area of
 protective magics, as well as fair combat prowess.
 
@@ -2556,14 +2546,14 @@ taking the direct approach, even when another method might be called for.
 ~
 
 -1 SAMURAI SAMURAIS~
-	More powerful honour warriors. But after level 10 they cannot flee 
+	More powerful honour warriors. But after level 10 they cannot flee
 because their honor doesn't let them. But under some circumtances, they may
 dishonor themselves.
 ~
 
 -1 VAMPIRE VAMPIRES~
-     Powerful mage/warriors..But after they can only transform into VAMPIRE 
-after level 10.And they cannot practice the vampire skill. The vampire skill 
+     Powerful mage/warriors..But after they can only transform into VAMPIRE
+after level 10.And they cannot practice the vampire skill. The vampire skill
 is gained in 50 questpoints. When they use this skill at the nights their
 size increase, they gets damage from light, and their damroll increases. You
 cannot realize a vampire in nights. It is only written "An ugly creature".
@@ -2573,15 +2563,15 @@ To change form back to human	type: human
 
 ~
 -1 NECROMENCER NECROMENCERS~
- Powerful mage.But powerful in necromentic spells. 
+ Powerful mage.But powerful in necromentic spells.
 
 ~
- -1 
+ -1
 HOMETOWN HOMETOWNS~
 
-You can pick one of six cities as your hometown: New Thalos and Midgaard are
-all alignments. Ofcol is neutral only. Your hometown is where you will 
-recall to and is where the pit is to which your corpse will decay. 
+You can pick one of six cities as your hometown: New Thalos and Selenge are
+all alignments. Ofcol is neutral only. Your hometown is where you will
+recall to and is where the pit is to which your corpse will decay.
 Everyone starts at mud school, which is connected to each of the hometowns.
 
 ~
@@ -2590,7 +2580,7 @@ Everyone starts at mud school, which is connected to each of the hometowns.
 .
 	You may pick a Lawful, Neutral or Chaotic ethos. This shows your opinion
 toward the laws of the land (not the rules). If you plan on obeying the laws no
-matter what, you take a lawful ethos, if you will obey the laws some of the 
+matter what, you take a lawful ethos, if you will obey the laws some of the
 time, then you are neutral.  If you plan on breaking the laws and only obeying
 them when you just happen to obey the laws, then you are chaotic. Ethos can only
 be set once. So don't ask an immortal to change your ethos!
@@ -2598,37 +2588,28 @@ be set once. So don't ask an immortal to change your ethos!
 ~
 0 'NEWBIE INFO' NEWBIE~
 .
-	Ah! Another mortal, seeking adventure. You should go through mudschool 
-first, to gain experience to face the trials outside.  Be sure to practice 
+	Ah! Another mortal, seeking adventure. You should go through mudschool
+first, to gain experience to face the trials outside.  Be sure to practice
 a weapon in the guild room, or your stay with us shall be very short indeed.
 
-	Type 'equipment' to see what your are wielding, 'spells' to see your 
-spells, 'skills' to see your skills, and 'commands' for a list of commands. 
+	Type 'equipment' to see what your are wielding, 'spells' to see your
+spells, 'skills' to see your skills, and 'commands' for a list of commands.
 Help is available on most commands and abilities. It is strongly recommended
-that you  go through all the helps at a low level, especially if you are 
+that you  go through all the helps at a low level, especially if you are
 playing this game for the first time.
-	
+
 	Please type "help general" to learn more about mud.
 ~
 
 0 GENERAL~
 .
-
-	This is a player killing role playing environment. Once you passed 
-level 5 you will be in the PK range of some other players. Please read the
-the help of PLAYERKILLING. You will be given 14 hours played time as a bonus. 
-Some items are limited so please read the help of LIMITED. 
-
-	In this realms, you can speak only the languages that your race offers
-and the common language of the realms. help SPEAK for more information. Instead
-of practicing at your guildmaster, you may learn new skills from HEROs. Read
-help of LEARN and TEACH. If you are able to fly, then you can land, as well.
-Read the help of FLY.
-
-	If you need help please pray to immortals. Please also read LAWS and
-the RULES. You are responsible of knowing those. Please also read: MOBILES,
-REQUEST, DEMAND, CAST, SCAN, SHOOT, SKILLS, GET, CABAL, PHILOSOPHY, ALIGNMENT,
-ETHOS, NEWBIE, LIGHT, ROLEPLAYING.
+Uzak Diyarlar karakter katli ve rol yapma gerektiren bir muddýr. Seviyeniz
+10'u geçtikten sonra baþka karakterlerin "Katledilebilir" listesine girmeye
+baþlarsýnýz. Karakter katli ile ilgili daha fazla bilgiyi uzakdiyarlar.net
+adresinde bulabilirsiniz.
+Uzak Diyarlar'da rol yapmak bir tiyatro oyununda rol almaktan farklýdýr.
+Burada rol yapmak aslýnda yalnýzca burada yaþadýðýnýzý hissetmektir. Rol
+yapmakla ilgili ayrýntýlý bilgiyi uzakdiyarlar.net adresinde bulabilirsiniz.
 
 ~
 
@@ -2691,7 +2672,7 @@ forest, and optionally give heal another character, even of plague.
 	Butcher creates 1-4 edible steaks out of corpses.
 	Bear call calls 2 powerful bears to your rescue.
 	Bark skin is a protection spell, making strong barks to cover your skin.
-	Constructing camps enables rangers to heal himself more rapidly in the 
+	Constructing camps enables rangers to heal himself more rapidly in the
 forest.
 	Ranger staff creates a staff whose power depends upon the caster's
 level. The weapon created may only be wielded by rangers.
@@ -2702,7 +2683,7 @@ level. The weapon created may only be wielded by rangers.
 	Similar to bear call, the lion call , calls 2 powerful lions to your
 rescue.
 	Tiger power calls 10 tigers from forest to join you. And increase your
-damroll & hitroll.  
+damroll & hitroll.
 ~
 0 HARA 'HARA KIRI'~
 
@@ -2712,7 +2693,7 @@ and movement 1 . Then gains them very quickly.
 ~
 
 0 MOUSE~
-	
+
    A vampire can flee a fight , or can live a place by dividing himself into
 too many mouses. At this moment you must kill all mouses to kill the vampire.
 
@@ -2728,7 +2709,7 @@ But then fight starts.
 
 0 'RESISTANCE LIGHT' 'LIGHT RESISTANCE'~
 
-    A vampire get damages from light. But a high level vampire can teach 
+    A vampire get damages from light. But a high level vampire can teach
 itself how to resist light.
 
 ~
@@ -2759,7 +2740,7 @@ Syntax: target <victim>
    A samurai can change his/her target when fighting with a group of mobiles
 or characters.
 
-~ 
+~
 0 'SECOND WEAPON'~
 Syntax: second <weapon>
 
@@ -2777,7 +2758,7 @@ mobiles can be blind.
 0 'DRAGONS BREATH'~
 Syntax: cast 'dragons breath'
 
-    A magician can't use dragon breaths, i.e 'fire breath', 'lightning 
+    A magician can't use dragon breaths, i.e 'fire breath', 'lightning
 breath'. So he calls the Lord of Dragons to help.
 ~
 
@@ -2813,14 +2794,14 @@ or post a note to that cabal.
 e.g.:	note to <cabal name>  { cabal which you want to join }
 	note subject ????
 	note + ?????????
-	note post    
+	note post
 ~
 
 1 CLEAVE~
 Syntax: cleave <victim>
 
 This attack is similar to backstab, but not quite as powerful. There
-is a small chance that your victim will be killed instantly.  
+is a small chance that your victim will be killed instantly.
 
 ~
 1 VANISH~
@@ -2863,7 +2844,7 @@ almost mandatory. One can enter a cabal for protection and gaining power.
 We want unique personalities, as they make the game more fun for you and
 everyone else. Don't just be a human paladin....be Arthur, fights for the
 benefits of the virtue and honour. It creates a better atmosphere and a
-better playing environment. 
+better playing environment.
 
 
 see also: PLAYERKILLING
@@ -2873,13 +2854,13 @@ see also: PLAYERKILLING
 	Player killing on Realms of Anatolia is totally permitted. In fact,
 it is encouraged, and since some fine objects have a finite number, you will
 have to kill other players to get them. You can playerkill after you are
-level 5. People you can pk are shown by a (PK) flag in front of their 
-names on the who and the where lists.  These people are anyone within a 
-range of your level.( minimum( 4, level / 10 ) level below and above levels)  
+level 5. People you can pk are shown by a (PK) flag in front of their
+names on the who and the where lists.  These people are anyone within a
+range of your level.( minimum( 4, level / 10 ) level below and above levels)
 
 	Group killing is allowed -- any size group may kill any other size
 group. Expect to be PK'ed, and don't take it too personally. Remember, there's
-safety in numbers. 
+safety in numbers.
 
 	Remember to roleplay, not just kill anyone.
 
@@ -2897,7 +2878,7 @@ Lawful Good:   An orderly, strong society with a well-organized government
 	       can make life better for the majority of the people.  To ensure
 	       the quality of life, laws must be created and obeyed.  When
 	       people respect the laws, and try to help each other, society as
-	       whole prospers. 
+	       whole prospers.
 
 Lawful Neutral:  Also believes in a strong, well-organized government, whether
 	       it is a tyranny or democracy.  Organization and regimentation
@@ -2915,8 +2896,8 @@ Neutral Good:  A balance of forces is important, but the concerns of laws and
 	       and contains many creatures striving for different goals, so a
 	       pursuit of good will not upset the balance.  Fostering good may
 	       mean supporting an organized society, or overthrowing the
-	       existing social order.  Social structure has no innate value.         
-  
+	       existing social order.  Social structure has no innate value.
+
 True Neutral:  Almost impossible to find such people as the majority of people
 	       make judgments.  It is their duty to see that all of the forces
 	       (evil, good, law, and chaos) remain in balance.  Alliances with
@@ -2924,15 +2905,15 @@ True Neutral:  Almost impossible to find such people as the majority of people
 	       brings the other to the point of destruction.
 
 Neutral Evil:  The primary concern for such people is their own advancement.
-	       Working with others or on their own, their only interest is 
+	       Working with others or on their own, their only interest is
 	       getting ahead.  Such people are known for their 'Me, Myself,
 	       and I' personalities.  No scruples, no conscience.
 
-Chaotic Good:  Strong individualists marked with a streak of kindness and 
+Chaotic Good:  Strong individualists marked with a streak of kindness and
 	       benevolence.  Goodness and right matter, but there is little
 	       use for laws and regulations.  Their actions are morally good
 	       but may not be in perfect agreement with the rest of society.
-					  
+
 Chaotic Neutral:  There is no order to anything, even their own actions.
 	       Good and Evil are irrelevant when making a decision.  They
 	       are almost totally unreliable, except for the fact that you
@@ -2944,7 +2925,7 @@ Chaotic Evil:  The bane of all that is good and organized.  Laws and
 	       themselves.  The strong have a right to what they want, and
 	       weak are there to be exploited.  Leadership among CEs is based
 	       on power, with the leader capable of bullying his underlings
-	       into obedience.  
+	       into obedience.
 
 Each god may accept a follower based on these outlines.
 ~
@@ -2953,7 +2934,7 @@ Each god may accept a follower based on these outlines.
 Syntax: follow <character>
 	group
 	group <character>
-	nofol 
+	nofol
 
 FOLLOW starts you following another character.  To stop following anyone else,
 just FOLLOW <yourself>.
@@ -2986,15 +2967,15 @@ for deletion. For other matters, use common sense.
 1. Remember that this is a roleplaying atmosphere.  If an immortal imposes
    their will upon you, you must do it.  Do not ask a wizi-invis god 'who they
    are'.  This is question is considered rude and will not be answered.
-2. Immortals often make announcements via notes, and you are required to 
-   follow accordingly.  Not having read the notes is no excuse.  It is the 
+2. Immortals often make announcements via notes, and you are required to
+   follow accordingly.  Not having read the notes is no excuse.  It is the
    same as if the Immortal told you in person.
 3. Player stealing and killing is permitted and encouraged.
 4. Do not use charmed pets to PK people who are out of your PK range.
    If a person is not in your pk range, and they do not initiate an attack on
    your group member, then your pets had better not touch them.
 5. Your presence here is a privilege not a right.  Obey any orders from gods,
-   and you will be fine.  
+   and you will be fine.
 6. MULTICHARRING: You may have more than one character, but you may not use
    multiple logins from same terminal. Punishment for this rule is
    deleting of one char. In addition make sure that roleplaying is done
@@ -3002,22 +2983,22 @@ for deletion. For other matters, use common sense.
 7. Anyone who assists people in multicharing, i.e. holding equipment while
    they transfer it, 'looking the other way', etc will be punished harshly.
 8. DO NOT, in any way, shape or form, exploit bugs.  It WILL result in a
-   punishment determined by IMPLEMENTORS.  Repeat DO NOT exploit bugs, you 
+   punishment determined by IMPLEMENTORS.  Repeat DO NOT exploit bugs, you
    WILL be IMMEDIATELY punished.
-9. SPAMMING IS ILLEGAL.  (Spam filling up someone's screen with needless 
+9. SPAMMING IS ILLEGAL.  (Spam filling up someone's screen with needless
    repetion of anything)  You will be given one warning and then deleted.
    Don't do it.
 10. Sexual harrassment will not be tolerated.  If both parties do not consent
     to the socials/emotes, then don't do them.
 11. Cheating will not be tolerated. This includes accepting favors from
     gods and exploiting bugs.
-12. Play as your character should play. If your lawful good, play like a 
+12. Play as your character should play. If your lawful good, play like a
     lawful good. Opposing roleplaying will instantly be punished! If you
     go on doing such things, your character's access may be denied!
-  
+
   These are simple, clear rules.  If you violate them you WILL be
-  punished.  Punishments may vary, depending on previous rules violations, 
-  the situation.  Be prepared for the worst if you are caught breaking 
+  punished.  Punishments may vary, depending on previous rules violations,
+  the situation.  Be prepared for the worst if you are caught breaking
   these rules.
 
   Changes  to these rules are at the discretion of the immortals, and
@@ -3027,9 +3008,9 @@ for deletion. For other matters, use common sense.
 0 LAWS LAW ~
 The laws of the land that shall be enforced by the Ruler Cabal are as
 follows :
- 
+
     The areas that are defined as protected by the jurisdiction of the Law
-are the entirety of Midgaard, New Thalos, Valley of Titans and  New Ofcol.
+are the entirety of Selenge, New Thalos, Valley of Titans and  New Ofcol.
 
 1. No Player Killing/Stealing/Looting in any protected area.  Theft is fully
    illegal.  This includes the attempt of stealing any from a person OR looting
@@ -3038,18 +3019,18 @@ are the entirety of Midgaard, New Thalos, Valley of Titans and  New Ofcol.
    or equipment during a legal duel that is not your own.  Looting a criminal's
    corpse is unlawful within the towns.  You will be held responsible for your
    groupmate's actions.
- 
+
 2. No offensive area spells or harmful powers will be used in any protected
    area.  This includes area spells from charmed, summoned or attacked mobs.
    Aggressive mobs may not be summoned/brought into any protected area.
-								       
+
 3. Aiding known criminals in any way by directly giving them equipment,
-   helping them to elude punishment, to kill Ruler guards, etc. will result 
+   helping them to elude punishment, to kill Ruler guards, etc. will result
    in a WANTED flag.
-								       
+
 4. Intrusion into the Ruler Cabal is considered illegal and an attack upon
    the laws themselves. Remember that Rulers' cabal area is in the protected
-   area, as well. 
+   area, as well.
 
 5. A dispersal that teleports the victim from a protected area directly into
    the room of an aggressive mob that causes their death is considered a
@@ -3058,9 +3039,9 @@ are the entirety of Midgaard, New Thalos, Valley of Titans and  New Ofcol.
 6. Garbling Ruler members is against the law.  This prevents them from
    doing their job and is considered an offensive attack upon the law itself.
 
-   Enforcement of these laws will be carried out by Ruler members. Midgaard,
+   Enforcement of these laws will be carried out by Ruler members. Selenge,
 New Thalos, Valley of Titans and New Ofcol are defined by the 'where protector'
-command. Old midgaard is not a holy town.
+command. Old Selenge is not a holy town.
 
 ~
 1 WANTED ~
@@ -3074,10 +3055,10 @@ Only members of the Ruler cabal can flag or unflag criminals.
 0 BLACKJACK~
 syntax: blackjack <target>
 
-Using a small weighted sack, the thief delivers a blow to the back of the 
-victims head in the hopes of rendering them unconscious.  "It is not a 
-killing stroke.  Thieves know what happens to thieves that killed 
-people.  The Ninja's Guild came and talked briefly to them--in fact, 
+Using a small weighted sack, the thief delivers a blow to the back of the
+victims head in the hopes of rendering them unconscious.  "It is not a
+killing stroke.  Thieves know what happens to thieves that killed
+people.  The Ninja's Guild came and talked briefly to them--in fact,
 all they said was 'Good-bye'." -t.p.
 
 ~
@@ -3096,7 +3077,7 @@ against evil doers.  There is a 3 minute (real time) wait for requesting.
 0 DEMAND~
 Syntax: demand <object> <mobile>
 
-	Anti-paladins can try to threathen the mobiles, and can get their 
+	Anti-paladins can try to threathen the mobiles, and can get their
 equipments by demanding it from them. If the player fails, the mobile may
 attack to the player.
 ~
@@ -3111,7 +3092,7 @@ sleep for 1 tick.  This can't be done in combat.
 ~
 0 ENTANGLE ~
 Syntax: cast entangle <mobile>
- 
+
 This spell causes the thorny plants around a mob's or player's feet to reach
 up and grab them, causing some damage and loss of dexterity.  This is an
 offensive spell which can only be used in locations where you can also camo.
@@ -3124,7 +3105,7 @@ Ruler:  The enforcement of the laws above all.  The world exists in two
 	halves: right and wrong.  The law comes first in all respects.
 	They control and decide what is lawful or not.  Their word is law.
 
-BattleRager:  BattleRagers live for combat, and look down on those who need    
+BattleRager:  BattleRagers live for combat, and look down on those who need
 	      magic to survive.  They have a strong aversion to mage magic,
 	      and are very wary of clerical magic.
 
@@ -3135,23 +3116,23 @@ Chaos:    Chaos wants to spread chaos throughout the land.  Not necessarily
 
 Knight:   Honor is valued above all else.  These fighting warriors seek to
 	  right injustices and correct wrongs.  They follow the ideals of
-	  the paladin. 
+	  the paladin.
 
 Shalafi:  In Dark-Elf language, it means 'Master'. Discipline brings power.
-          This is the motto of the Masters of Arcane Arts. The advancement 
-          of the Art is their motivation.  They look down on physical combat, 
+          This is the motto of the Masters of Arcane Arts. The advancement
+          of the Art is their motivation.  They look down on physical combat,
           preferring to use their magic.
 
-Invader:  Invader is born to invade or massacre.  Establishment of its power 
-          over all is its goal.  Invader, in short, wants to control the world, 
+Invader:  Invader is born to invade or massacre.  Establishment of its power
+          over all is its goal.  Invader, in short, wants to control the world,
           but would never do so openly.
 
 Hunter:   Mercenary of Anatolia. These pupils  kill any mobile and player
 	  with the money that they will want. You may hire any of hunter
 	  for above purpose.
 
-Keep in mind these are only general guidelines.  
-See also: CABAL 
+Keep in mind these are only general guidelines.
+See also: CABAL
 ~
 
 0 REPAIR ESTIMATE~
@@ -3168,12 +3149,12 @@ and ARMOURERS.
 ~
 
 0 PRAY~
-Syntax: pray 
+Syntax: pray
 	pray <message>
 
 Use this command to send a message to all the immortals who are on the mud
 at the time.  If you need to talk to a specific god, put their name in the
-message, you can even just do pray name.  PRAY, by itself simply gives 
+message, you can even just do pray name.  PRAY, by itself simply gives
 '(your name) is PRAYING for: any god'  If you dont with to get a pot-luck
 immortal, type a message after 'pray'.  Only immortals 53+ can see prays.
 
@@ -3187,9 +3168,9 @@ without a good reason will be severely punished.
 Syntax: cast 'randomizer'
 
 You cannot cast it in a room with the flag ROOM_LAW (all the rooms in Galadon)
-and you may not cast it in a room with a door that is supposed to reset locked 
-or closed.  If anyone *ever* casts it in a room like this, and I hear about it, 
-this spell will be taken away, never to return.  
+and you may not cast it in a room with a door that is supposed to reset locked
+or closed.  If anyone *ever* casts it in a room like this, and I hear about it,
+this spell will be taken away, never to return.
 ~
 0 WARCRY~
 Syntax: warcry
@@ -3214,14 +3195,14 @@ the hits.  It requires the use of a piercing instrument.
 
 0 CRITICAL STRIKE~
 .
-	When it is practiced, using their new knowledge of Nage Waza (throwing 
+	When it is practiced, using their new knowledge of Nage Waza (throwing
 techniques), the ninjas and samurais able to grab their opponent and throw them
-to the ground.  It can be attempted every 2 rounds, but no commands can be 
-entered for 2 rounds after attempting a critical strike. There are three 
+to the ground.  It can be attempted every 2 rounds, but no commands can be
+entered for 2 rounds after attempting a critical strike. There are three
 possibility :
 	>>Opponent may get a powerful damage.
         >>Opponent may get a higher damage and can be blind.
-        >>Opponent may get a power hit damage.    
+        >>Opponent may get a power hit damage.
 ~
 
 0 'GROUND STRIKE'~
@@ -3234,11 +3215,11 @@ improve his/her attacks using the ground in forest, hills, or mountains.
 0 THROW~
 Syntax: throw <victim>
 
-Using their knowledge of Nage Waza (throwing techniques), the ninja is 
-able to grab their opponent and throw them to the ground.  It can be 
-attempted every 2 rounds, but no commands can be entered for 2 rounds 
+Using their knowledge of Nage Waza (throwing techniques), the ninja is
+able to grab their opponent and throw them to the ground.  It can be
+attempted every 2 rounds, but no commands can be entered for 2 rounds
 after attempting a throw.  Thrown opponents are then stunned, unable to
-enter any commands. 
+enter any commands.
 ~
 0 CB~
 Syntax: cb (message)
@@ -3281,12 +3262,12 @@ Syntax:	cast 'lesser golem'
 	cast 'adamantite golem'
 
 	Those spells allow necromancer to create golems. The golem, which
-is created by a higher level golem spell, is much stronger. It takes quite a 
-long time to create golems, and controlling golem is much harder than 
+is created by a higher level golem spell, is much stronger. It takes quite a
+long time to create golems, and controlling golem is much harder than
 controlling regular mobiles. Despite those advantages, the quest mobiles
 which are killed by golems, are also counted as a complete quest. But this
-speciality of golem works only if the master is powerful enough as a 
-necromancer. 
+speciality of golem works only if the master is powerful enough as a
+necromancer.
 
 ~
 
@@ -3294,7 +3275,7 @@ necromancer.
 Syntax: cast 'aid' <character>
 	cast 'assist' <character>
 
-	These spells allow caster to help the victim to be healed by a huge 
+	These spells allow caster to help the victim to be healed by a huge
 amount of durability. But you can't cast those spells very frequently.
 
 ~
@@ -3321,7 +3302,7 @@ Syntax: cast 'amnesia' <victim>
 
 
 	This spell is can only be used by immortals. It is way of punishment.
-When this spell is cast, the victim forgets the half of his/her skills and 
+When this spell is cast, the victim forgets the half of his/her skills and
 spells permanantly.
 
 ~
@@ -3366,8 +3347,8 @@ spells can cure the victim, but cannot remove the affection.
 -1 'HYDROBLAST'~
 Syntax: cast 'hydroblast' <victim>
 
-	When the caster is in an area that the caster can reach the water 
-molecules or the weather is rainy, the caster can cast this spell. Then a 
+	When the caster is in an area that the caster can reach the water
+molecules or the weather is rainy, the caster can cast this spell. Then a
 magical fist, made of water, appears and hits the victim with a powerful force.
 ~
 
@@ -3401,14 +3382,14 @@ direction specified.
 ~
 
 -1 'GROUP DEFENSE'~
-Syntax: cast 'group defense' 
+Syntax: cast 'group defense'
 
 	This spell enables the caster to protect his/her group with the
 'armor' and 'shield' spells.
 ~
 
 -1 'GROUP HEAL'~
-Syntax: cast 'group heal' 
+Syntax: cast 'group heal'
 
 	This spell enables the caster to heal and refresh  his/her group.
 ~
@@ -3416,7 +3397,7 @@ Syntax: cast 'group heal'
 -1 'HOLY AURA'~
 Syntax: cast 'holy aura'
 
-	This spell helps its caster to increase its resistance against 
+	This spell helps its caster to increase its resistance against
 negative attacks, and also increases its endurance against mortal attacks.
 
 ~
@@ -3424,7 +3405,7 @@ negative attacks, and also increases its endurance against mortal attacks.
 -1 'HOLY FURY'~
 Syntax: cast 'holy fury' <character>
 
-	This spell enables the caster to increase the pulses of the victim. 
+	This spell enables the caster to increase the pulses of the victim.
 But this spell can only be casted to good characters.
 
 ~
@@ -3474,10 +3455,10 @@ This spell makes a shield around the caster which can deflect blunt blows
 such as those from bashes and throws.
 ~
 0 REWARD~
-	
+
 	Quest weapons, rings and girths cannot be sacrificed and these items
-are special for the character. Any other character cannot get or wear 
-these items. Also these items cannot get damage. As you lost one of them 
+are special for the character. Any other character cannot get or wear
+these items. Also these items cannot get damage. As you lost one of them
 because of crashes note to gods.
 
 Syntax : help weaponreward... for more information about the reward weapon.
@@ -3490,7 +3471,7 @@ Object 'weapon hero' is type weapon, extra flags glow magic bless nopurge burn_p
 Weight is 30, value is 100000, level is from 21 to your level.
 Weapon type is exotic.
 Damage varies from 10d4 (average 25)
-              to   10d12(average 65) 
+              to   10d12(average 65)
 Weapons flags: sharp
 Affects moves by 500.
 Affects hp by 200.
@@ -3548,11 +3529,11 @@ Affects strength by 2.
 	quest request  : in order to want a quest
 	quest complete : to inform questmaster that you finished the quest
 	quest list     : lists the available quest objects that you can buy
-	quest buy      : to buy a quest obj	
+	quest buy      : to buy a quest obj
         quest trouble  : if you lose a quest obj, you can regain it. But
                          at most 3 times.
-       
-Syntax : help reward ... for more information about the quest reward. 
+
+Syntax : help reward ... for more information about the quest reward.
 ~
 -1 AUCTION~
 
@@ -3573,7 +3554,7 @@ Notice that auction is must-colored ,to make you aware!
 then every one can see your level when they type "who", and also you
 become VULNERABLE to CHARM.
 	* Charisma is trainable.
-	* All players can have at most 25 charisma. But if you left a 
+	* All players can have at most 25 charisma. But if you left a
 cabal, you can have at most 24 charisma.
 	* Charisma doesn't effect any damage.
 	* All you have killed is counted ( to see type "worth" ). And
@@ -3582,9 +3563,9 @@ aligns gives you a charisma. And every 100 mobiles you have killed
 having the same align reduces your charisma by one.
 ~
 
--1 SPELLCRAFT 'SPELL CRAFT'~	
-	Spell craft is only available of the class that have the high 
-capability of delivering spells. The spell craft makes the spells more 
+-1 SPELLCRAFT 'SPELL CRAFT'~
+	Spell craft is only available of the class that have the high
+capability of delivering spells. The spell craft makes the spells more
 effective so that the casters have their own privilages.
 ~
 
@@ -3592,7 +3573,7 @@ effective so that the casters have their own privilages.
 Syntax: blink 		: shows the status of blink
 	blink on	: makes status ON
 	blink off	: makes status OFF
-	Magic users can make themselves one exist and one not. This makes 
+	Magic users can make themselves one exist and one not. This makes
 them protected weapon attacks.Each blink takes 1 mana.
 ~
 -1 'LION HELP'~
@@ -3605,13 +3586,13 @@ if you haven't got cabal powers or eyed sword wielding.
 -1 'WEAPON CALL'~
 Syntax: cast 'weapon call'
 
-	A cabal member of lion can call his eyed sword with a whisper, if 
+	A cabal member of lion can call his eyed sword with a whisper, if
 he/she has the cabal power with him/her.
 ~
 -1 'EYED SWORD'~
 Syntax: cast 'eyed sword'
 
-	A lion cabal member when casts this spell , creates the special 
+	A lion cabal member when casts this spell , creates the special
 weapon of its cabal. It can only be cast once.Then when one losts this
 sword ,one must use 'weapon call' spell to get it back.If the sword purged
 in resetting of an area then it appears in the shrine of Cabal LIONs.
@@ -3623,7 +3604,7 @@ Syntax: cammove
 camuflage.
 ~
 -1 LEADER LEADERS~
-.	
+.
 	When you induct a player from your cabal to none, that player
 won't be able to change his/her title forever (unless an immortal grants
 him/her). Thus when you induct a player to your cabal be very careful.
@@ -3631,10 +3612,10 @@ If any problem occurs, you are RESPONSIBLE.
 ~
 
 -1 RELIG RELIGION~
-	Find the Templaman in the Midgaard, and say the name of your god.
-Syntax : say <god_name> 
+	Find the Templaman in the Selenge, and say the name of your god.
+Syntax : say <god_name>
 	The list of religions.
-     Leader		  Ethos	
+     Leader		  Ethos
 ----------------------------------------------
     "Atum-Ra",		"Lawful Good"
     "Zeus",		"Neutral Good"
@@ -3654,7 +3635,7 @@ Syntax : say <god_name>
     "Enki",	 	"God of Knowledge"
     "Eros",	 	"God of Love"
 
-	For more information about the tattoos  
+	For more information about the tattoos
 Syntax : help 'atum-ra'
 Syntax : help 'zeus'
 Syntax : help 'siebele'
@@ -3666,7 +3647,7 @@ to the others, but their probabities is much lower.
 0 'ATUM-RA' RA~
 .
 	To enemy  : Holy word
-        To you    : Cure serious  
+        To you    : Cure serious
 ~
 0 ZEUS~
 .
@@ -3757,9 +3738,10 @@ to the others, but their probabities is much lower.
 ~
 
 -1 STAT STATS~
-	There are currently 6 stats, which are STR,INT,WIS,DEX,CON,CHA. Each
-has special importance in your mud life, while fighting , gaining hitpoint 
-mana at each tick, gaining hitpoint,mana and movement at gaining level ,etc.
+Uzak Diyarlar'da þu an için 6 karakter niteliði vardýr. Bunlar,
+Güç, Zeka, Bilgelik, Çeviklik, Bünye ve Karizma'dýr. Her niteliðin
+karaktere saðladýðý avantajlar vardýr. Niteliklerle ilgili ayrýntýlý
+bilgiyi uzakdiyarlar.net adresinde bulabilirsiniz.
 ~
 
 0 LIMITED LIMIT 'LIMIT EQUIPMENTS' 'LIMITED EQUIPMENTS'~

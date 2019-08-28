@@ -1,0 +1,905 @@
+#AREA
+tr_zumrut_koyu.are~
+Zümrüt Köyü~
+{ 1 10} Serendal Zümrüt Köyü~
+100 199
+#MOBILES
+#101
+köylü~
+Köylü~
+Bir köylü neþe içinde türkü söylüyor.
+~
+Orman yeþili bir tunik giymiþ bir köylü görüyorsun. Çizmeleri
+hakiki ceylan derisinden yapýlmýþ gibi duruyor.
+~
+human~
+AGHS DF 100 0
+1 0 2d4+2 0d9+100 1d2+0 none
+10 10 10 10
+BEFJNU 0 0 0
+stand stand male 1
+0 0 medium 0
+#102
+köylü~
+Köylü~
+Bir köylü böðürtlen toplamakla meþgul.
+~
+Köylü sessizce, yemek için böðürtlen topluyor. Ýþine o kadar
+dalmýþ ki geldiðinin farkýnda bile deðil.
+~
+human~
+ABHS DF 100 0
+1 0 2d4+2 0d9+100 1d2+0 none
+10 10 10 10
+BEFJNU 0 0 0
+stand stand male 1
+0 0 medium 0
+#103
+yelin köylü~
+Yelin~
+Yelin, kendi kendine bir þeyler mýrýldanmakla meþgul.
+~
+Orta boylu ve bilgiç görünümlü bir Zümrüt Orman'lýyý görüyorsun.
+Yelin'in yüzünde kendinden emin bir ifade var.
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+BEFJNU 0 0 0
+stand stand male 1
+0 0 medium 0
+#104
+helin köylü~
+Helin~
+Helin, yeni bir sandalye yapmakla meþgul.
+~
+Köyün marangozu Helin, durmak dinlenmek bilmeden çalýþmaya
+devam eden birisi.
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+BEFJNU 0 0 0
+stand stand male 1
+0 0 medium 0
+#105
+pelin köylü~
+Pelin~
+Pelin neþe içinde etrafta dolaþmakta.
+~
+Pelin, bir yandan adaçayýný içerken, diðer yandan yýrtýlan
+gömleðini dikmekte. Halinden  oldukça mutlu olduðu görünüyor.
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+BEFJNU 0 0 0
+stand stand male 1
+0 0 medium 0
+#106
+köylü avcý irel~
+Avcý Ýrel~
+Avcý Ýrel burada sessizce dinlenmekte.
+~
+Herhalde bütün gün ormanda avlanmýþ olacak ki, Ýrel'in oldukça
+yorgun bir hali var. Yine de av býçaðýný bileyerek ertesi günün
+avý için hazýrlanmayý ihmal etmiyor.
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+BEFJNU 0 0 0
+stand stand male 1
+0 0 medium 0
+#107
+köylü avcý sumru~
+Avcý Sumru~
+Avcý Sumru sinirli bir ifade ile saða sola yürüyor.
+~
+Sumru'nun oldukça sinirli olduðu görülüyor. Neden öfkelenmiþ
+olabileceðini merak ediyorsun.
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+BEFJNU 0 0 0
+stand stand male 1
+0 0 medium 0
+#108
+köylü ihtiyar elkin~
+Ýhtiyar Elkin~
+Ýhtiyar Elkin burada, sessizce piposunu tüttürüyor.
+~
+Ýhtiyar Elkin, geçmiþ günlerin hatýralarýný dalmýþ vaziyette
+yalnýz baþýna oturuyor. Belli ki senin geldiðinin farkýnda
+bile deðil.
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+BEFJNU 0 0 0
+stand stand male 1
+0 0 medium 0
+#109
+köylü galehir~
+Galehir~
+Galehir burada, neþe içinde gülümsüyor.
+~
+Çok güzel bir köylü kýzý görüyorsun.
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+BEFJNU 0 0 0
+stand stand female 1
+0 0 medium 0
+#110
+köylü dede zümrüt~
+Zümrüt Dede~
+Zümrüt Dede burada, önündeki kaðýtlarý inceliyor.
+~
+Köyün en yaþlýsý ve en bilge kiþisi olarak, herkesin düþüncelerine
+baþvurduðu Zümrüt  Dede, karþýnda duruyor. Yaþlý birisi, yine de dinç
+bir görünümü var.
+~
+human~
+AGHR 0 100 0
+10 0 2d6+110 10d9+100 1d8+1 none
+2 2 2 6
+FU 0 0 0
+stand stand male 2
+0 0 medium 0
+#111
+gremalg büyücü~
+Gremalg~
+Gremalg burada, Zümrüt Köylülere lanet etmekte.
+~
+Uzun boylu ve yaþlý bir büyücü görüyorsun. Yüzünde kötücül bir gülümseme
+ile sana bakýyor.
+~
+human~
+ABHQ 0 -100 0
+10 0 2d7+121 10d9+100 1d7+2 none
+1 1 1 7
+EIKU 0 0 0
+stand stand male 2
+0 0 medium 0
+#112
+reim uþak~
+Reim~
+Gremalg'ýn uþaðý Reim, dikkatle efendisinin söylediklerini dinliyor.
+~
+Kýsa boylu, aptal görünüþlü bir adam görüyorsun. Reim, bütün dikkatini
+vererek neler olup bittiðini anlamaya çalýþýyor.
+~
+human~
+ABH 0 -100 0
+8 0 2d7+96 4d9+100 1d7+2 none
+3 3 3 9
+EFNU 0 0 0
+stand stand male 1
+0 0 medium 0
+#0
+#OBJECTS
+#100
+tane böðürtlen~
+bir böðürtlen tanesi~
+Ýri bir böðürtlen tanesi burada duruyor.~
+food~
+pill 0 A
+8 '' '' 'detect magic' ''
+0 20 180 P
+#101
+gözlük~
+bir çift gözlük~
+Bir çift gözlük burada býrakýlmýþ.~
+glass~
+clothing A AE
+0 0 0 0 0
+3 20 270 P
+A
+4 1
+A
+2 -1
+#102
+baþlýk~
+yeþil bir baþlýk~
+Yeþil bir baþlýk burada býrakýlmýþ.~
+cloth~
+armor 0 AE
+3 3 3 0 0
+3 20 310 P
+#103
+balta küçük~
+küçük bir balta~
+Küçük bir balta burada býrakýlmýþ.~
+wood~
+weapon 0 AN
+axe 1 7 slash 0
+3 20 370 P
+#104
+gerdanlýk~
+bir gerdanlýk~
+Güzel bir gerdanlýk yerde duruyor.~
+gem~
+jewelry A AC
+0 0 0 0 0
+5 20 550 P
+A
+3 1
+#105
+pembe iksir~
+pembe bir iksir~
+Yerde pembe bir iksir görüyorsun.~
+glass~
+potion 0 A
+6 'armor' 'cure blindness' '' ''
+0 20 160 P
+#106
+deðnek~
+bir deðnek~
+Büyülü bir deðnek yerde duruyor.~
+wood~
+wand 0 AO
+5 1 1 'burning hands' 0
+3 20 540 P
+#107
+anahtar~
+gümüþ bir anahtar~
+Gümüþ bir anahtar yerde duruyor.~
+wood~
+key 0 A
+2 0 0 0 0
+0 20 0 P
+#108
+kuyu~
+bir kuyu~
+Küçük bir kuyu görülüyor.~
+stone~
+fountain 0 0
+50 50 'water' 0 0
+0 0 0 P
+#109
+anahtar~
+tahtadan bir anahtar~
+Gremalg'ýn Kalesi'nin anahtarý burada.~
+wood~
+key 0 A
+2 0 0 0 0
+0 20 0 P
+#0
+
+#ROOMS
+#101
+Loþ Patika~
+Kýrýlmýþ granit taþlarýndan yapýlmýþ bu patika, kuzeye doðru
+bir köye,veya  güneye doðru Doðu Yolu'na devam etmekte.Patikanýn
+etrafý, dört mevsim yeþil çam aðaçlarý ile çevrili.
+~
+0 0 3
+D0
+Patika köye doðru devam ediyor.
+~
+~
+0 -1 102
+D2
+Patika Doðu Yolu'na doðru geri dönüyor.
+~
+~
+0 -1 3525
+S
+#102
+Loþ Patika~
+Patikanýn bu kýsmýnda zemin, sýkça kullanýldýðýndan daha
+bir katýlaþmýþ. Ýlerde kuzeye doðru belli belirsiz bir iþaret
+seçiliyor. Yol'a geri dönüþ ise güney istikametinde kalmakta.
+Patikanýn etrafýndaki çam ormaný, güneye göre biraz daha seyrek
+ve genç aðaçlardan oluþmakta.
+~
+0 C 3
+D0
+Patika köye doðru devam ediyor.
+~
+~
+0 -1 103
+D2
+Loþ patika.
+~
+~
+0 -1 101
+S
+#103
+Loþ Patika~
+Patikanýn bu kýsmýnda zemin, sýkça kullanýldýðýndan daha bir
+katýlaþmýþ.  Kuzeyden, belli belirsiz bir türkünün sözleri
+duyulmakta. Yol'a geri dönüþ güney yönünde kalmakta. Zümrüt
+rengi aðaçlar, patikanýn etrafýný süslemeye devam ediyor.
+~
+0 0 3
+D0
+Zümrüt Orman Köyü Giriþi.
+~
+~
+0 -1 104
+D2
+Loþ Patika.
+~
+~
+0 -1 102
+S
+#104
+Zümrüt Orman Köyü Giriþi~
+Ýnsanlarýn ikamet ettiði, küçük bir orman köyünün giriþindesin.
+Köy, çam aðacýndan yapýlma tek katlý evlerden oluþmakta. Köy
+ahalisi, bir yandan mutluluk içinde türküler söyleyip þakalaþýrken,
+bir yandan da gündelik iþlerini sürdürmekteler.
+~
+0 0 2
+D0
+Zümrüt Yol
+~
+~
+0 -1 105
+D2
+Loþ Patika
+~
+~
+0 -1 103
+S
+#105
+Zümrüt Yol~
+Çam aðaçlarý ile çevrili tek katlý evlerin arasýndan, köyün
+içlerine doðru  ilerlemeye devam ediyorsun. Buram buram reçine
+kokusu, burun deliklerinde  tatlý bir duygu býrakmakta. Kuzey,
+doðu ve batý yönlerinde köy yolu devam etmekte. Köy çýkýþý ise
+güney tarafýnda kalýyor.
+~
+0 0 1
+D0
+Zümrüt Yol
+~
+~
+0 -1 106
+D1
+Zümrüt Yol
+~
+~
+0 -1 110
+D2
+Zümrüt Orman Köyü Giriþi
+~
+~
+0 -1 104
+D3
+Zümrüt Yol
+~
+~
+0 -1 111
+S
+#106
+Zümrüt Yol~
+Zümrüt Yol boyunca ilerlemeye devam ederken, evlerin etrafýnda
+öbeklenmiþ çam  aðaçlarýnýn renginden, ormanýn, köyün ve yolun
+boþu boþuna zümrüt ismiyle  adlandýrýlmadýðýný anlýyorsun. Doðu
+tarafýnda, küçük bir ahþap ev kulübe dikkatini çekiyor.
+~
+0 0 1
+D0
+Zümrüt Yol
+~
+~
+0 -1 107
+D1
+Ahþap Kulübe
+~
+~
+0 -1 120
+D2
+Zümrüt Yol
+~
+~
+0 -1 105
+D3
+Zümrüt Yol
+~
+~
+0 -1 112
+S
+#107
+Zümrüt Yol~
+Yol kuzey güney doðrultusunda devam ediyor. Batý tarafýnda
+ahþap bir kulübe  bulunmakta. Doðuda ise bir böðürtlen tarlasý
+yer alýyor.
+~
+0 0 1
+D0
+Zümrüt Yol
+~
+~
+0 -1 108
+D1
+Böðürtlen Tarlasý
+~
+~
+0 -1 116
+D2
+Zümrüt Yol
+~
+~
+0 -1 106
+D3
+Zümrüt Yol
+~
+~
+0 -1 129
+S
+#108
+Zümrüt Yol~
+Zümrüt Yol kuzey güney yönünde devam ediyor. Doðu tarafýnda
+bir böðürtlen tarlasý var. Taþ bir yol ise batý tarafýnda
+yer almakta.
+~
+0 0 1
+D0
+Zümrüt Yol
+~
+~
+0 -1 109
+D1
+Böðürtlen Tarlasý
+~
+~
+0 -1 117
+D2
+Zümrüt Yol
+~
+~
+0 -1 107
+D3
+Taþ Patika
+~
+~
+0 -1 113
+S
+#109
+Zümrüt Yol~
+Burada yol sýk bir ormana doðru sona eriyor. Bir çit, yol ile
+kuzey yönündeki ormaný birbirinden ayýrmakta. Yolun ortasýnda
+küçük bir su kuyusu yer almakta. Doðu tarafýnda bir böðürtlen
+tarlasý var. Zümrüt Yol güney ve batý istikametine doðru devam
+etmekte.
+~
+0 0 1
+D1
+Böðürtlen Tarlasý
+~
+~
+0 -1 118
+D2
+Zümrüt Yol
+~
+~
+0 -1 108
+D3
+Zümrüt Yol
+~
+~
+0 -1 114
+E
+küçük kuyu~
+Burada küçük bir kuyu var. Herhalde köy ahalisi, buradan
+biraz su içmene karýþmayacaklardýr.
+~
+S
+#110
+Zümrüt Yol~
+Burada Zümrüt Yolun bitim bir köþesindesin.Yolun güney ve
+doðu yönleri bir çit ile kapatýlmýþ. Kuzeyde ahþap bir kulübe
+var. Zümrüt Yol boyunca geri dönüþ batý yönünde kalýyor.
+~
+0 0 1
+D0
+Ahþap Kulübe
+~
+~
+0 -1 119
+D3
+Zümrüt Yol
+~
+~
+0 -1 105
+S
+#111
+Zümrüt Yol~
+Zümrüt Yolun batý köþesindesin. Yol boyunca doðuya ve kuzeye
+doðru ilerlemek mümkün. Ýstersen, güney yönündeki ahþap kulübenin
+sakinlerini de ziyaret edebilirsin.
+~
+0 0 1
+D0
+Zümrüt Yol
+~
+~
+0 -1 112
+D1
+Zümrüt Yol
+~
+~
+0 -1 105
+D2
+Ahþap Kulübe
+~
+~
+0 -1 121
+S
+#112
+Zümrüt Yol~
+Köy boyunca ilerlemeye devam ediyorsun. Batý yönünde ahþap bir
+kulübe var. Zümrüt Dede'nin avlusu kuzey yönünde kalan avlusuna
+ise buradan girmek mümkün görünmüyor. Zümrüt Yol güney ve doðu
+yönlerinde devam etmekte.
+~
+0 0 1
+D1
+Zümrüt Yol
+~
+~
+0 -1 106
+D2
+Zümrüt Yol
+~
+~
+0 -1 111
+D3
+Ahþap Kulübe
+~
+~
+0 -1 122
+S
+#113
+Taþ Patika~
+Þirin ve küçük bir taþ patika boyunca yürüyorsun. Güneyde
+Zümrüt Dede'nin evi yer alýyor. Batý tarafýnda ahþap bir
+kulübe bulunmakta. Zümrüt Yol ise doðu tarafýnda kalmakta.
+Burada her þey o kadar huzur içinde ki, sonsuza dek
+kalabilirsin.
+~
+0 0 1
+D1
+Zümrüt Yol
+~
+~
+0 -1 108
+D2
+Zümrüt Dede'nin Evi
+~
+kapý~
+1 107 125
+D3
+Ahþap Kulübe
+~
+~
+0 -1 123
+S
+#114
+Zümrüt Yol~
+Zümrüt Yol'un sonuna yaklaþýyorsun, yolun son kýsmý batý
+tarafýnda kalmakta. Doðuya doðru dikkatle baktýðýnda uzaktan
+küçük bir kuyu seçilmekte.
+~
+0 0 1
+D1
+Zümrüt Yol
+~
+~
+0 -1 109
+D3
+Zümrüt Yol
+~
+~
+0 -1 115
+S
+#115
+Zümrüt Yol~
+Zümrüt Yol'un sonuna yaklaþtýn. Doðu yönünde yol boyunca geri
+dönebilirsin. Güneyde küçük bir ahþap kulübe yer almakta. Kuzey
+yönünde uzakta, kötü büyücü Gremalg'ýn Kalesi görünmekte.
+~
+0 0 1
+D0
+Gremalg'ýn Kalesine Giden Yol
+~
+~
+0 -1 126
+D1
+Zümrüt Yol
+~
+~
+0 -1 114
+D2
+Ahþap Kulübe
+~
+~
+0 -1 124
+S
+#116
+Böðürtlen Tarlasý~
+Burada bir yabani böðürtlen tarlasý yer almakta. Böðürtlenler
+o kadar lezzetli kibir oturuþta týkanýncaya deðin yemek mümkün.
+Zümrüt Yol batý yönünde yer almakta. Böðürtlen tarlasý ise kuzey
+yönüne doðru devam ediyor.
+~
+0 0 1
+D0
+Böðürtlen Tarlasý
+~
+~
+0 -1 117
+D3
+Smurfy Road
+~
+~
+0 -1 107
+S
+#117
+Böðürtlen Tarlasý~
+Lezzetli böðürtlenlerle dolu bir tarladasýn. Böðürtlenlerin
+kokusu, karnýnýn zil çalmasýna neden oluyor. Zümrüt Yol batý
+yönünde yer almakta, kuzey ve güneyde ise böðürtlen tarlalarý
+devam etmekte.
+~
+0 0 1
+D0
+Böðürtlen Tarlasý
+~
+~
+0 -1 118
+D2
+Böðürtlen Tarlasý
+~
+~
+0 -1 116
+D3
+Zümrüt Yol
+~
+~
+0 -1 108
+S
+#118
+Böðürtlen Tarlasý~
+Yabani böðürtlenlerle dolu tarlanýn en kuzey ucuna geldin. Buradaki
+böðürtlenler de geri kalanlar gibi iþtah açýcý bir görünüm sergiliyorlar.
+Zümrüt Yol batý tarafýnda kalmakta. Güneyde ise böðürtlen tarlasýnýn
+devamý uzanmakta.
+~
+0 0 1
+D2
+Böðürtlen Tarlasý
+~
+~
+0 -1 117
+D3
+Zümrüt Yol
+~
+~
+0 -1 109
+S
+#119
+Yelin'in Kulübesi~
+Evin içi her lisandan bir sürü kitapla dolu. Köþede, üzerinde kuþ
+tüyünden bir yorgan serilmiþ ahþap bir yatak duruyor.
+~
+0 0 1
+D2
+Zümrüt Yol
+~
+~
+0 -1 110
+S
+#120
+Helin'in Kulübesi~
+Marangoz Helin'in, evinin yapýmýnda oldukça özenli davrandýðý
+anlaþýlýyor. Aðaç iþlemeleri, köydeki diðer evlere göre daha
+incelikli gibi. Ancak evin içi ayný zamanda atölye gibi de
+kullanýldýðýndan oldukça daðýnýk duruyor.
+~
+0 0 1
+D3
+Zümrüt Yol
+~
+~
+0 -1 106
+S
+#121
+Avcý Ýrel'in Kulübesi~
+Ýçeriye serilmiþ hayvan postlarý ve duvara asýlý geyik baþlarýndan,
+ev sahibinin bir avcý olduðu anlaþýlýyor.
+~
+0 0 1
+D0
+Zümrüt Yol
+~
+~
+0 -1 111
+S
+#122
+Pelin'in Kulübesi~
+Oldukça temiz tutulmuþ, þirin bir kulübedesin. Kuzey yönündeki
+ocakta hafif hafif kaynayan adaçayýnýn kokusu içini ferahlatýyor.
+Odanýn ortasýndaki küçük masa ve itina ile katlanmýþ bir yatak,
+evin bütün eþyalarý gibi görünüyor. Yine de kulübenin sahibi
+bu güzel köyde yaþadýðýndan dolayý mutlu olmalý.
+~
+0 0 1
+D1
+Zümrüt Yol
+~
+~
+0 -1 112
+S
+#123
+Avcý Sumru'nun Kulübesi~
+Sumru'nun kulübesi de köydeki diðer evler gibi Zümrüt Orman'ýn
+koyu renkli çam aðaçlarýndan yapýlma.
+~
+0 0 1
+D1
+Zümrüt Yol
+~
+~
+0 -1 113
+S
+#124
+Ýhtiyar Elkin'in Evi~
+Küçük bir köy kulübesinin içindesin. Duvarda orta yaþlý bir kadýnýn
+karakalem ile yapýlmýþ portresi dikkatine çekiyor. Portre, güzel
+ahþap bir çerçeve ile kaplanmýþ. Ev biraz daðýnýk gibi, yine de
+þirin bir görüntüsü var.
+~
+0 0 1
+D0
+Zümrüt Yol
+~
+~
+0 -1 115
+S
+#125
+Zümrüt Dede'nin Evi~
+Burasý Zümrüt Köyün Baþkaný Zümrüt Dede'nin evi. Evin içi köydeki
+diðer evlere göre biraz daha güzel döþenmiþ ve daha geniþ. Zümrüt
+Dede'nin evi, köy ahalisinin önemli meseleleri tartýþmak için
+toplandýklarý yer ayný zamanda.
+~
+0 0 1
+D0
+Taþ Patika
+~
+kapý~
+1 107 113
+S
+#126
+Gremalg'ýn Kalesine Giden Yol~
+Gremalg'ýn Kalesine giden yol boyunca ilerliyorsun.ZÜmrüt Yolu
+güneyde kalmakta.
+~
+0 0 1
+D0
+Gremalg'ýn Kalesi'nin Dýþýnda
+~
+~
+0 -1 127
+D2
+Zümrüt Yol
+~
+~
+0 -1 115
+S
+#127
+Gremalg'ýn Kalesi'nin Dýþýnda~
+Karþýnda sert granit taþlarýndan örülme, bir duvar ile çevrili,
+taþ bir yapý var. Dar bir yol boyunca ilerleyerek kapýdan içeri
+girmek mümkün. Zümrüt YO'u güneyde kalýyor.
+~
+0 0 1
+D0
+Gremalg'ýn Kalesi
+~
+kapý~
+1 109 128
+D2
+Gremalg'ýn Kalesine Giden Yol
+~
+~
+0 -1 126
+S
+#128
+Gremalg'ýn Kalesi~
+Meþalerle aydýnlatýlmýþ, taþ bir binanýn içindesin. Duvarlar
+renkli duvar halýlarý ile kaplanmýþ durumda. Zümrüt Orman
+yöresinin, insanýn içini canlandýran havasýnýn aksine,
+Gremalg'ýn Kalesi'nin içi kasvetli ve boðucu.
+~
+0 0 1
+D2
+Gremalg'ýn Kalesi'nin Dýþý
+~
+kapý~
+1 109 127
+S
+#129
+Galehir'in Evi~
+Küçük bir kulübenin içindesin. Galehir'in eþyalarý, odanýn içinde
+rastgele daðýtýlmýþ durumda. Ev sahibesinin pek de tertipli olmadýðý
+anlaþýlýyor.
+~
+0 0 1
+D1
+Zümrüt Yol
+~
+~
+0 -1 107
+S
+#0
+#RESETS
+O 0  108   1  109	* a smurf well
+M 0  102   3  118  1	* a smurf
+G 1  100  10     	*   a bunch of smurfberries
+M 0  102   3  117  1	* a smurf
+G 1  100  10     	*   a bunch of smurfberries
+M 0  102   3  116  1	* a smurf
+G 1  100  10     	*   a bunch of smurfberries
+M 0  101   8  105  1	* a smurf
+M 0  101   8  110  1	* a smurf
+G 1  102  10     	*   a smurf hat
+M 0  101   8  111  1	* a smurf
+M 0  101   8  112  1	* a smurf
+G 1  102  10     	*   a smurf hat
+M 0  101   8  107  1	* a smurf
+M 0  101   8  108  1	* a smurf
+G 1  102  10     	*   a smurf hat
+M 0  101   8  109  1	* a smurf
+M 0  101   8  104  1	* a smurf
+G 1  102  10     	*   a smurf hat
+M 0  103   1  119  1	* Brainy Smurf
+E 1  101   8    6	*   a pair of glasses
+M 0  104   1  120  1	* Handy Smurf
+E 1  103   8   16	*   a small axe
+M 0  105   1  122  1	* Sleepy Smurf
+M 0  106   1  121  1	* Hefty Smurf
+E 1  103   8   16	*   a small axe
+M 0  107   1  123  1	* Grumpy Smurf
+M 0  108   1  124  1	* Jokey Smurf
+M 0  109   1  129  1	* Smurfette
+E 1  104   8    3	*   a small necklace
+G 1  107   8     	*   a tiny key
+M 0  110   1  125  1	* Papa Smurf
+G 1  105  10     	*   a pink potion
+G 1  109   8     	*   a small key
+M 0  111   1  128  1	* Gargamel
+E 1  106   8   17	*   a small wand
+M 0  112   1  128  1	* Azreal
+S
+#SHOPS
+0
+#SPECIALS
+M 101 spec_thief          	* a smurf
+M 102 spec_thief          	* a smurf
+M 103 spec_thief          	* Brainy Smurf
+M 104 spec_thief          	* Handy Smurf
+M 105 spec_thief          	* Sleepy Smurf
+M 106 spec_thief          	* Hefty Smurf
+M 107 spec_thief          	* Grumpy Smurf
+M 108 spec_thief          	* Jokey Smurf
+M 109 spec_thief          	* Smurfette
+M 110 spec_cast_mage      	* Papa Smurf
+M 111 spec_cast_cleric    	* Gargamel
+M 112 spec_poison         	* Azreal
+S
+#$

@@ -1050,13 +1050,13 @@ MUD Okulunun Sonu~
 Burasý çok aydýnlýk bir oda. Ortasýnda da mermer bir kaide duruyor.
 Kaidenin önünde gümüþlerle kuþanmýþ bir adam duruyor. Duvarlar halýlarla
 bezenmiþ. Burada olduðun için çok mutlusun. Büyük bir iþaret görüyorsun.
-Tek çýkýþ kuzeyindeki anakapýdýr.
+Tek çýkýþ kuzeyindeki kapý.
 ~
 0 DR 0
 D0
 Ýleride arenayý görüyorsun.
 ~
-gate~
+kapý~
 1 -1 3722
 E
 iþaret~
@@ -1381,7 +1381,7 @@ S
 Arenanýn Merkezi~
 Arenadasýn. Þunu hatýrlatayým ki eðer buradan ayrýlmak istiyorsan YUKARI
 çýkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiþ birþeyler
-tarafýndan izlendiðin hissine kapýlýyorsun.   There is a BIG SIGN here.
+tarafýndan izlendiðin hissine kapýlýyorsun. Büyük bir iþaret görüyorsun.
 ~
 0 D 0
 D0
@@ -2031,6 +2031,7 @@ D 0 3719   1    2	* A Room in Mud School east
 M 0 3717   1 3718  1	* the adept of Selene
 G 1 3138  -1     	*   a buffalo water skin
 G 1 3031  -1     	*   a hooded brass lantern
+G 1 3011  -1     	*   ekmek
 M 0 3706   1 3720  1	* the big creature
 E 1 3709  -1    9	*   a pair of sub issue gloves
 E 1 3710  -1   10	*   a pair of sub issue sleeves
