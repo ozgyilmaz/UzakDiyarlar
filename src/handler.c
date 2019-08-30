@@ -3236,7 +3236,6 @@ char *act_bit_name( int act_flags )
 	if (act_flags & PLR_AUTOSAC	) strcat(buf, " autosac");
 	if (act_flags & PLR_AUTOGOLD	) strcat(buf, " autogold");
 	if (act_flags & PLR_AUTOSPLIT	) strcat(buf, " autosplit");
-	if (act_flags & PLR_COLOR	) strcat(buf, " color_on");
 	if (act_flags & PLR_WANTED	) strcat(buf, " wanted");
 	if (act_flags & PLR_NO_TITLE	) strcat(buf, " no_title");
 	if (act_flags & PLR_NO_EXP	) strcat(buf, " no_exp");

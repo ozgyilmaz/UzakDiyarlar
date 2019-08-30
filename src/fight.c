@@ -1002,8 +1002,8 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 		  do_get( ch, (char*)"tümü ceset" );
 
 		if (IS_SET(ch->act,PLR_AUTOGOLD) &&
-		    corpse && corpse->contains  && /* exists and not empty */
-		    !IS_SET(ch->act,PLR_AUTOLOOT))  {
+		    corpse && corpse->contains ) /* exists and not empty */
+		 {
 		  do_get(ch, (char*)"akçe ceset");
 		  do_get(ch, (char*)"altýn ceset");
 		}
@@ -1046,9 +1046,11 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 		  do_get( ch, (char*)"tümü ceset" );
 
 		if (IS_SET(ch->act,PLR_AUTOGOLD) &&
-		    corpse && corpse->contains  && /* exists and not empty */
-		    !IS_SET(ch->act,PLR_AUTOLOOT))
-		  do_get(ch, (char*)"altýn ceset");
+		    corpse && corpse->contains ) /* exists and not empty */
+		  {
+				do_get(ch, (char*)"akçe ceset");
+				do_get(ch, (char*)"altýn ceset");
+			}
 
 		if ( IS_SET(ch->act, PLR_AUTOSAC) )
 		{
@@ -1595,9 +1597,11 @@ if ( victim->hit < victim->max_hit / 4 )
 		do_get( ch, (char*)"tümü ceset" );
 
  	    if (IS_SET(ch->act,PLR_AUTOGOLD) &&
-	        corpse && corpse->contains  && /* exists and not empty */
-		!IS_SET(ch->act,PLR_AUTOLOOT))
-	      do_get(ch, (char*)"altýn ceset");
+	        corpse && corpse->contains ) /* exists and not empty */
+		{
+		do_get(ch, (char*)"akçe ceset");
+		do_get(ch, (char*)"altýn ceset");
+		}
 
 	    if ( ch->iclass == CLASS_VAMPIRE && ch->level > 10 && corpse)
 		{

@@ -58,7 +58,6 @@
 DECLARE_DO_FUN(	do_exits	);
 DECLARE_DO_FUN( do_look		);
 DECLARE_DO_FUN( do_help		);
-DECLARE_DO_FUN( do_affects	);
 DECLARE_DO_FUN( do_murder	);
 DECLARE_DO_FUN( do_say  	);
 DECLARE_DO_FUN( do_scan2  	);
@@ -160,16 +159,15 @@ char *format_obj_to_char( OBJ_DATA *obj, CHAR_DATA *ch, bool fShort )
 
     if (obj->pIndexData->vnum > 5)	/* money, gold, etc */
     	sprintf(buf_con," [%s%s%s]",
-		IS_SET(ch->act,PLR_COLOR) ? CLR_GREEN : "",
+		CLR_GREEN,
 		get_cond_alias(obj),
-		IS_SET(ch->act,PLR_COLOR) ? CLR_WHITE_BOLD : "" );
+		CLR_WHITE_BOLD);
     else buf_con[0] = '\0';
 
     if ((fShort && (obj->short_descr == NULL || obj->short_descr[0] == '\0'))
     ||  (obj->description == NULL || obj->description[0] == '\0'))
 	return buf;
-   if (IS_SET(ch->act,PLR_COLOR) )
-   {
+
     if ( IS_OBJ_STAT(obj, ITEM_BURIED)     )
 		{
 		 strcat( buf, CLR_WHITE );
@@ -209,20 +207,8 @@ char *format_obj_to_char( OBJ_DATA *obj, CHAR_DATA *ch, bool fShort )
      strcat( buf, "[výzýldayan] "   );//(Výzýldayan)
 		}
     strcat( buf, CLR_WHITE_BOLD );
-   }
-   else
-   {
-    if ( IS_OBJ_STAT(obj, ITEM_BURIED)     )  strcat( buf, "[gömülü] "     );
-    if ( IS_OBJ_STAT(obj, ITEM_INVIS)     )   strcat( buf, "[görünmez] "     );
-    if ( CAN_DETECT(ch, DETECT_EVIL)
-         && IS_OBJ_STAT(obj, ITEM_EVIL)   )   strcat( buf, "[kýzýl aura] "  );
-    if (CAN_DETECT(ch, DETECT_GOOD)
-    &&  IS_OBJ_STAT(obj,ITEM_BLESS))	      strcat(buf,"[mavi aura] "	);
-    if ( CAN_DETECT(ch, DETECT_MAGIC)
-         && IS_OBJ_STAT(obj, ITEM_MAGIC)  )   strcat( buf, "[büyülü] "   );
-    if ( IS_OBJ_STAT(obj, ITEM_GLOW)      )   strcat( buf, "[parlayan] "   );
-    if ( IS_OBJ_STAT(obj, ITEM_HUM)       )   strcat( buf, "[výzýldayan] "   );
-   }
+
+
     if ( fShort )
     {
 	if ( obj->short_descr != NULL )
@@ -907,20 +893,8 @@ void do_autolist(CHAR_DATA *ch, char *argument)
     if (IS_NPC(ch))
       return;
 
-    if (IS_SET(ch->act,PLR_COLOR))
-	{
-	 do_autolist_col(ch,argument);
-	 return;
-	}
-
   send_to_char("oto  durumu\n\r",ch);
     send_to_char("---------------------\n\r",ch);
-
-    send_to_char("color          ",ch);
-    if (IS_SET(ch->act,PLR_COLOR))
-	send_to_char("ON\n\r",ch);
-    else
-	send_to_char("OFF\n\r",ch);
 
   send_to_char("otodestek       ",ch);
     if (IS_SET(ch->act,PLR_AUTOASSIST))
@@ -993,93 +967,6 @@ void do_autolist(CHAR_DATA *ch, char *argument)
     send_to_char("Herkesin iptal büüyüsünden etkilenebilirsin.\n\r",ch);
 }
 
-void do_autolist_col(CHAR_DATA *ch, char *argument)
-{
-    /* lists most player flags */
-    if (IS_NPC(ch))
-      return;
-
-    send_to_char("  [1;33maction           status\n\r[0;37m",ch);
-    send_to_char("[1;36m-------------------------\n\r[0;37m",ch);
-
-    send_to_char("[1;34m|[0;37m [0;36mcolor          [0;37m",ch);
-    if (IS_SET(ch->act,PLR_COLOR))
-	send_to_char("[1;34m|  [1;32mON  [1;34m|\n\r[0;37m",ch);
-    else
-	send_to_char("[1;34m|  [1;31mOFF [1;34m|\n\r[0;37m",ch);
-
-    send_to_char("[1;34m|[0;37m [0;36mautoassist     ",ch);
-    if (IS_SET(ch->act,PLR_AUTOASSIST))
-        send_to_char("[1;34m|  [1;32mON  [1;34m|\n\r[0;37m",ch);
-    else
-        send_to_char("[1;34m|  [1;31mOFF [1;34m|\n\r[0;37m",ch);
-
-    send_to_char("[1;34m|[0;37m [0;36mautoexit       ",ch);
-    if (IS_SET(ch->act,PLR_AUTOEXIT))
-        send_to_char("[1;34m|  [1;32mON  [1;34m|\n\r[0;37m",ch);
-    else
-        send_to_char("[1;34m|  [1;31mOFF [1;34m|\n\r[0;37m",ch);
-
-    send_to_char("[1;34m|[0;37m [0;36mautogold       ",ch);
-    if (IS_SET(ch->act,PLR_AUTOGOLD))
-        send_to_char("[1;34m|  [1;32mON  [1;34m|\n\r[0;37m",ch);
-    else
-        send_to_char("[1;34m|  [1;31mOFF [1;34m|\n\r[0;37m",ch);
-
-    send_to_char("[1;34m|[0;37m [0;36mautoloot       ",ch);
-    if (IS_SET(ch->act,PLR_AUTOLOOT))
-        send_to_char("[1;34m|  [1;32mON  [1;34m|\n\r[0;37m",ch);
-    else
-        send_to_char("[1;34m|  [1;31mOFF [1;34m|\n\r[0;37m",ch);
-
-    send_to_char("[1;34m|[0;37m [0;36mautosac        ",ch);
-    if (IS_SET(ch->act,PLR_AUTOSAC))
-        send_to_char("[1;34m|  [1;32mON  [1;34m|\n\r[0;37m",ch);
-    else
-        send_to_char("[1;34m|  [1;31mOFF [1;34m|\n\r[0;37m",ch);
-
-    send_to_char("[1;34m|[0;37m [0;36mautosplit      ",ch);
-    if (IS_SET(ch->act,PLR_AUTOSPLIT))
-        send_to_char("[1;34m|  [1;32mON  [1;34m|\n\r[0;37m",ch);
-    else
-        send_to_char("[1;34m|  [1;31mOFF [1;34m|\n\r[0;37m",ch);
-
-    send_to_char("[1;34m|[0;37m [0;36mcompact mode   ",ch);
-    if (IS_SET(ch->comm,COMM_COMPACT))
-        send_to_char("[1;34m|  [1;32mON  [1;34m|\n\r[0;37m",ch);
-    else
-        send_to_char("[1;34m|  [1;31mOFF [1;34m|\n\r[0;37m",ch);
-
-    send_to_char("[1;34m|[0;37m [0;36mprompt         ",ch);
-    if (IS_SET(ch->comm,COMM_PROMPT))
-	send_to_char("[1;34m|  [1;32mON  [1;34m|\n\r[0;37m",ch);
-    else
-	send_to_char("[1;34m|  [1;31mOFF [1;34m|\n\r[0;37m",ch);
-
-    send_to_char("[1;34m|[0;37m [0;36mcombine items  ",ch);
-    if (IS_SET(ch->comm,COMM_COMBINE))
-	send_to_char("[1;34m|  [1;32mON  [1;34m|\n\r[0;37m",ch);
-    else
-	send_to_char("[1;34m|  [1;31mOFF [1;34m|\n\r[0;37m",ch);
-        send_to_char("[1;36m-------------------------\n\r[0;37m",ch);
-
-
-    if (IS_SET(ch->act,PLR_NOSUMMON))
-	send_to_char("You can only be summoned players within your PK range.\n\r",ch);
-    else
-	send_to_char("You can be summoned by anyone.\n\r",ch);
-
-    if (IS_SET(ch->act,PLR_NOFOLLOW))
-	send_to_char("You do not welcome followers.\n\r",ch);
-    else
-	send_to_char("You accept followers.\n\r",ch);
-
-    if (IS_SET(ch->act,PLR_NOCANCEL))
-	send_to_char("You do not welcome others' cancellation spells.\n\r",ch);
-    else
-	send_to_char("You accept others' cancellation spells.\n\r",ch);
-}
-
 void do_autoassist(CHAR_DATA *ch, char *argument)
 {
     if (IS_NPC(ch))
@@ -1121,12 +1008,12 @@ void do_autogold(CHAR_DATA *ch, char *argument)
 
     if (IS_SET(ch->act,PLR_AUTOGOLD))
     {
-      send_to_char("Otoakçe kaldýrýldý.\n\r",ch);
+      send_to_char("Otosikke kaldýrýldý.\n\r",ch);
       REMOVE_BIT(ch->act,PLR_AUTOGOLD);
     }
     else
     {
-      send_to_char("Otoakçe açýldý.\n\r",ch);
+      send_to_char("Otosikke açýldý.\n\r",ch);
       SET_BIT(ch->act,PLR_AUTOGOLD);
     }
 }
@@ -1179,23 +1066,6 @@ void do_autosplit(CHAR_DATA *ch, char *argument)
     {
       send_to_char("Otodaðýt açýldý.\n\r",ch);
       SET_BIT(ch->act,PLR_AUTOSPLIT);
-    }
-}
-
-void do_color(CHAR_DATA *ch, char *argument)
-{
-    if (IS_NPC(ch))
-      return;
-
-    if (IS_SET(ch->act,PLR_COLOR))
-    {
-      send_to_char("Renk KAPALI.\n\r",ch);
-      REMOVE_BIT(ch->act,PLR_COLOR);
-    }
-    else
-    {
-      send_to_char("Renk AÇIK.\n\r",ch);
-      SET_BIT(ch->act,PLR_COLOR);
     }
 }
 
@@ -1730,16 +1600,16 @@ void do_examine( CHAR_DATA *ch, char *argument )
 	        if (obj->value[1] == 0)
           sprintf(buf,"Tuhaf...yýðýn içinde sikke yok.\n\r");
 		else if (obj->value[1] == 1)
-    sprintf(buf,"Vayy. Bir altýn sikke.\n\r");
+    sprintf(buf,"Vayy. Bir altýn.\n\r");
 		else
-    sprintf(buf,"Yýðýnda %d altýn sikke var.\n\r",obj->value[1]);
+    sprintf(buf,"Yýðýnda %d altýn var.\n\r",obj->value[1]);
 	    }
 	    else if (obj->value[1] == 0)
 	    {
 		if (obj->value[0] == 1)
-    sprintf(buf,"Vayy. Bir gümüþ sikke.\n\r");
+    sprintf(buf,"Vayy. Bir akçe.\n\r");
 		else
-    sprintf(buf,"Yýðýnda %d gümüþ sikke var.\n\r",obj->value[0]);
+    sprintf(buf,"Yýðýnda %d akçe var.\n\r",obj->value[0]);
 	    }
 	    else
 		sprintf(buf,
@@ -1780,12 +1650,8 @@ void do_exits( CHAR_DATA *ch, char *argument )
 
     if (fAuto)
 	{
-	 if (IS_SET(ch->act,PLR_COLOR) )
-	 {
      sprintf(buf,CLR_CYAN);
  		strcat(buf,"[Çýkýþlar:");
-	 }
-	 else sprintf(buf,"[Çýkýþlar:");
 	}
     else if (IS_IMMORTAL(ch))
 	sprintf(buf,"Obvious exits from room %d:\n\r",ch->in_room->vnum);
@@ -1856,14 +1722,9 @@ void do_exits( CHAR_DATA *ch, char *argument )
 
     if ( fAuto )
 	{
-	 if ( IS_SET(ch->act,PLR_COLOR) )
-	 {
 	  strcat( buf, "]\n\r" );
 	  strcat( buf, CLR_WHITE_BOLD);
-	 }
-	 else strcat( buf, "]\n\r" );
-	}
-
+  }
     send_to_char( buf, ch );
     return;
 }
@@ -1931,77 +1792,31 @@ void do_score( CHAR_DATA *ch, char *argument )
 
 	}
 
-	printf_to_char(ch,"{G,--------------------------------------------------------------------,{x\n\r");
-	printf_to_char(ch,"{G| {R%+12s%-30s{G                         |\n\r",ch->name,IS_NPC(ch) ? "" : ch->pcdata->title);
-	printf_to_char(ch,"{G|--------------------,-----------------------------------------------,{x\n\r");
-	printf_to_char(ch,"{G| Irk     : {R%-8s{G | ZIRH         | PARA                           |\n\r",race_table[ch->race].name[1]);
-	printf_to_char(ch,"{G| Yaþ     : {R%-8d{G | Delici : {R%-3d{G | Altýn       : {R%-7ld{G          |\n\r",get_age(ch),GET_AC(ch,AC_PIERCE),ch->gold);
-	printf_to_char(ch,"{G| Cinsiyet: {R%-8s{G | Ezici  : {R%-3d{G | Akçe        : {R%-7ld{G          |\n\r",sex,GET_AC(ch,AC_BASH),ch->silver);
-	printf_to_char(ch,"{G| Sýnýf   : {R%-8s{G | Kesici : {R%-3d{G | Altýn(Banka): {R%-7ld{G          |\n\r",IS_NPC(ch) ? "mobil" : class_table[ch->iclass].name[1],GET_AC(ch,AC_SLASH),IS_NPC(ch) ? 0 : ch->pcdata->bank_g);
-	printf_to_char(ch,"{G| Yönelim : {R%-8d{G | Egzotik: {R%-3d{G | Akçe (Banka): {R%-7ld{G          |\n\r",ch->alignment,GET_AC(ch,AC_EXOTIC),IS_NPC(ch) ? 0 : ch->pcdata->bank_s);
-	printf_to_char(ch,"{G|--------------------'--------------|--------------------------------,{x\n\r");
-	printf_to_char(ch,"{G| Yp    : {R%-5d/%-5d{G| Güç: {R%-2d(%-2d){G  | Pratik : {R%-3d{G                   |\n\r",ch->hit,  ch->max_hit,ch->perm_stat[STAT_STR],get_curr_stat(ch,STAT_STR),ch->practice);
-	printf_to_char(ch,"{G| Mana  : {R%-5d/%-5d{G| Zek: {R%-2d(%-2d){G  | Eðitim : {R%-3d{G                   |\n\r",ch->mana, ch->max_mana,ch->perm_stat[STAT_INT],get_curr_stat(ch,STAT_INT),ch->train);
-	printf_to_char(ch,"{G| Hp    : {R%-5d/%-5d{G| Bil: {R%-2d(%-2d){G  | GüvenS : {R%-3d{G                   |\n\r",ch->move, ch->max_move,ch->perm_stat[STAT_WIS],get_curr_stat(ch,STAT_WIS),get_trust( ch ));
-	printf_to_char(ch,"{G| Seviye: {R%-5d{G      | Çev: {R%-2d(%-2d){G  | Eþya : {R%3d/%-4d{G         |\n\r",ch->level,ch->perm_stat[STAT_DEX],get_curr_stat(ch,STAT_DEX),ch->carry_number, can_carry_n(ch));
-	printf_to_char(ch,"{G| Kalan : {R%-5d{G      | Bün: {R%-2d(%-2d){G  | Aðýrlýk: {R%%6ld/%-8d {G   |\n\r",(!IS_NPC(ch)?((ch->level + 1) * exp_per_level(ch,ch->pcdata->points) - ch->exp):0),ch->perm_stat[STAT_CON],get_curr_stat(ch,STAT_CON),get_carry_weight(ch), can_carry_w(ch));
-	printf_to_char(ch,"{G| TP    : {R%-7ld{G    | Kar: {R%-2d(%-2d){G  | GörevP: {R%-5d{G                  |\n\r",ch->exp,ch->perm_stat[STAT_CHA],get_curr_stat(ch,STAT_CHA),IS_NPC(ch) ? 0 :ch->pcdata->questpoints);
-	printf_to_char(ch,"{G| Korkak: {R%-5d{G      | ZZ : {R%-3d{G     | GörevZ: {R%-2d{G                     |\n\r",ch->wimpy,GET_DAMROLL(ch),IS_NPC(ch) ? 0 :((IS_SET(ch->act, PLR_QUESTOR))?(ch->pcdata->countdown):(ch->pcdata->nextquest)));
-	printf_to_char(ch,"{G|                    | VZ : {R%-3d{G     |                                |{x\n\r",GET_HITROLL(ch));
-	printf_to_char(ch,"{G|--------------------'--------------'--------------------------------|{x\n\r");/*
-	printf_to_char(ch,"{G| {RDayanýklýlýklar{G                                                    |{x\n\r");
-	printf_to_char(ch,"{G| teshir:%s çaðrý :%s büyü :%s silah   :%s ezici:%s delici:%s kesici :%s    |{x\n\r",(ch->res_flags  & IMM_CHARM)?"{R+{G":" ",(ch->res_flags  & IMM_SUMMON)?"{R+{G":" ",(ch->res_flags  & IMM_MAGIC)?"{R+{G":" ",(ch->res_flags  & IMM_WEAPON)?"{R+{G":" ",(ch->res_flags  & IMM_BASH)?"{R+{G":" ",(ch->res_flags  & IMM_PIERCE)?"{R+{G":" ",(ch->res_flags  & IMM_SLASH)?"{R+{G":" ");
-	printf_to_char(ch,"{G| emici :%s ateþ  :%s ayaz :%s þimþek  :%s asit :%s zehir :%s negatif:%s    |{x\n\r",(ch->res_flags  & IMM_DROWNING)?"{R+{G":" ",(ch->res_flags  & IMM_FIRE)?"{R+{G":" ",(ch->res_flags  & IMM_COLD)?"{R+{G":" ",(ch->res_flags  & IMM_LIGHTNING)?"{R+{G":" ",(ch->res_flags  & IMM_ACID)?"{R+{G":" ",(ch->res_flags  & IMM_POISON)?"{R+{G":" ",(ch->res_flags  & IMM_NEGATIVE)?"{R+{G":" ");
-	printf_to_char(ch,"{G| kutsal:%s enerji:%s zihin:%s hastalýk:%s ýþýk :%s ses   :%s tahta  :%s    |{x\n\r",(ch->res_flags  & IMM_HOLY)?"{R+{G":" ",(ch->res_flags  & IMM_ENERGY)?"{R+{G":" ",(ch->res_flags  & IMM_MENTAL)?"{R+{G":" ",(ch->res_flags  & IMM_DISEASE)?"{R+{G":" ",(ch->res_flags  & IMM_LIGHT)?"{R+{G":" ",(ch->res_flags  & IMM_SOUND)?"{R+{G":" ",(ch->res_flags  & IMM_WOOD)?"{R+{G":" ");
-	printf_to_char(ch,"{G| gümüþ :%s demir :%s                                                  |{x\n\r",(ch->res_flags  & IMM_SILVER)?"{R+{G":" ",(ch->res_flags  & IMM_IRON)?"{R+{G":" ");
-	printf_to_char(ch,"{G'--------------------------------------------------------------------'{x\n\r");*/
+  printf_to_char(ch,"{c,--------------------------------------------------------------------,{w\n\r");
+  printf_to_char(ch,"{c| {w%+12s%-30s{c                         |\n\r",ch->name,IS_NPC(ch) ? "" : ch->pcdata->title);
+  printf_to_char(ch,"{c|-------------------------,------------------------------------------,{w\n\r");
+  printf_to_char(ch,"{c| Irk     : {w%-13s{c | ZIRH         | PARA                      |\n\r",race_table[ch->race].name[1]);
+  printf_to_char(ch,"{c| Yaþ     : {w%-13d{c | Delici : {w%-3d{c | Altýn       : {w%-7ld{c     |\n\r",get_age(ch),GET_AC(ch,AC_PIERCE),ch->gold);
+  printf_to_char(ch,"{c| Cinsiyet: {w%-13s{c | Ezici  : {w%-3d{c | Akçe        : {w%-7ld{c     |\n\r",sex,GET_AC(ch,AC_BASH),ch->silver);
+  printf_to_char(ch,"{c| Sýnýf   : {w%-13s{c | Kesici : {w%-3d{c | Altýn(Banka): {w%-7ld{c     |\n\r",IS_NPC(ch) ? "mobil" : class_table[ch->iclass].name[1],GET_AC(ch,AC_SLASH),IS_NPC(ch) ? 0 : ch->pcdata->bank_g);
+  printf_to_char(ch,"{c| Yönelim : {w%-13d{c | Egzotik: {w%-3d{c | Akçe (Banka): {w%-7ld{c     |\n\r",ch->alignment,GET_AC(ch,AC_EXOTIC),IS_NPC(ch) ? 0 : ch->pcdata->bank_s);
+  printf_to_char(ch,"{c|-------------------------'--------------|---------------------------,{w\n\r");
+  printf_to_char(ch,"{c| Yp    : {w%-7d/%-7d{c | Güç: {w%-2d(%-2d){c  | Pratik : {w%-3d{c              |\n\r",ch->hit,  ch->max_hit,ch->perm_stat[STAT_STR],get_curr_stat(ch,STAT_STR),ch->practice);
+  printf_to_char(ch,"{c| Mana  : {w%-7d/%-7d{c | Zek: {w%-2d(%-2d){c  | Eðitim : {w%-3d{c              |\n\r",ch->mana, ch->max_mana,ch->perm_stat[STAT_INT],get_curr_stat(ch,STAT_INT),ch->train);
+  printf_to_char(ch,"{c| Hp    : {w%-7d/%-7d{c | Bil: {w%-2d(%-2d){c  | GüvenS : {w%-3d{c              |\n\r",ch->move, ch->max_move,ch->perm_stat[STAT_WIS],get_curr_stat(ch,STAT_WIS),get_trust( ch ));
+  printf_to_char(ch,"{c| Seviye: {w%-10d{c      | Çev: {w%-2d(%-2d){c  | Eþya : {w%3d/%-4d{c           |\n\r",ch->level,ch->perm_stat[STAT_DEX],get_curr_stat(ch,STAT_DEX),ch->carry_number, can_carry_n(ch));
+  printf_to_char(ch,"{c| Kalan : {w%-10d{c      | Bün: {w%-2d(%-2d){c  | Aðýrlýk: {w%6ld/%-8d{c  |\n\r",(!IS_NPC(ch)?((ch->level + 1) * exp_per_level(ch,ch->pcdata->points) - ch->exp):0),ch->perm_stat[STAT_CON],get_curr_stat(ch,STAT_CON),get_carry_weight(ch), can_carry_w(ch));
+  printf_to_char(ch,"{c| TP    : {w%-12ld{c    | Kar: {w%-2d(%-2d){c  | GörevP: {w%-5d{c             |\n\r",ch->exp,ch->perm_stat[STAT_CHA],get_curr_stat(ch,STAT_CHA),IS_NPC(ch) ? 0 :ch->pcdata->questpoints);
+  printf_to_char(ch,"{c| Korkak: {w%-10d{c      | ZZ : {w%-3d{c     | GörevZ: {w%-2d{c                |\n\r",ch->wimpy,GET_DAMROLL(ch),IS_NPC(ch) ? 0 :((IS_SET(ch->act, PLR_QUESTOR))?(ch->pcdata->countdown):(ch->pcdata->nextquest)));
+  printf_to_char(ch,"{c|                         | VZ : {w%-3d{c     |                           |{w\n\r",GET_HITROLL(ch));
+  printf_to_char(ch,"{c|-------------------------'--------------'---------------------------|{w\n\r");
+  printf_to_char(ch,"{c| {wDayanýklýlýklar{c                                                    |{w\n\r");
+  printf_to_char(ch,"{c| teshir:%s çaðrý :%s büyü :%s silah   :%s ezici:%s delici:%s kesici :%s    |{w\n\r",(ch->res_flags  & IMM_CHARM)?"{w+{c":" ",(ch->res_flags  & IMM_SUMMON)?"{w+{c":" ",(ch->res_flags  & IMM_MAGIC)?"{w+{c":" ",(ch->res_flags  & IMM_WEAPON)?"{w+{c":" ",(ch->res_flags  & IMM_BASH)?"{w+{c":" ",(ch->res_flags  & IMM_PIERCE)?"{w+{c":" ",(ch->res_flags  & IMM_SLASH)?"{w+{c":" ");
+  printf_to_char(ch,"{c| emici :%s ateþ  :%s ayaz :%s þimþek  :%s asit :%s zehir :%s negatif:%s    |{w\n\r",(ch->res_flags  & IMM_DROWNING)?"{w+{c":" ",(ch->res_flags  & IMM_FIRE)?"{w+{c":" ",(ch->res_flags  & IMM_COLD)?"{w+{c":" ",(ch->res_flags  & IMM_LIGHTNING)?"{w+{c":" ",(ch->res_flags  & IMM_ACID)?"{w+{c":" ",(ch->res_flags  & IMM_POISON)?"{w+{c":" ",(ch->res_flags  & IMM_NEGATIVE)?"{w+{c":" ");
+  printf_to_char(ch,"{c| kutsal:%s enerji:%s zihin:%s hastalýk:%s ýþýk :%s ses   :%s tahta  :%s    |{w\n\r",(ch->res_flags  & IMM_HOLY)?"{w+{c":" ",(ch->res_flags  & IMM_ENERGY)?"{w+{c":" ",(ch->res_flags  & IMM_MENTAL)?"{w+{c":" ",(ch->res_flags  & IMM_DISEASE)?"{w+{c":" ",(ch->res_flags  & IMM_LIGHT)?"{w+{c":" ",(ch->res_flags  & IMM_SOUND)?"{w+{c":" ",(ch->res_flags  & IMM_WOOD)?"{w+{c":" ");
+  printf_to_char(ch,"{c| gümüþ :%s demir :%s                                                  |{w\n\r",(ch->res_flags  & IMM_SILVER)?"{w+{c":" ",(ch->res_flags  & IMM_IRON)?"{w+{c":" ");
+  printf_to_char(ch,"{c'--------------------------------------------------------------------'{x\n\r");
 }
-
-
-void do_affects(CHAR_DATA *ch, char *argument )
-{
-    AFFECT_DATA *paf, *paf_last = NULL;
-
-    if (IS_SET(ch->act,PLR_COLOR) )
-	{
-	 do_affects_col(ch,argument);
-	 return;
-	}
-
-    if ( ch->affected != NULL )
-    {
-      printf_to_char(ch, "Þu büyülerden etkileniyorsun:\n\r" );
-	for ( paf = ch->affected; paf != NULL; paf = paf->next )
-	{
-	    if (paf_last != NULL && paf->type == paf_last->type)
-		if (ch->level >= 20 )
-    printf_to_char( ch, "                      ");
-		else
-		    continue;
-	    else
-      printf_to_char( ch, "Büyü: %-15s", skill_table[paf->type].name[1] );
-
-
-	    if ( ch->level >= 20 )
-	    {
-        printf_to_char( ch,": %s, %d birim ",affect_loc_name( paf->location ),paf->modifier);
-		if ( paf->duration == -1 || paf->duration == -2 )
-    printf_to_char( ch, "sürekli" );
-		else
-    printf_to_char( ch, "%d saat", paf->duration );
-	    }
-      printf_to_char(ch, "\n\r" );
-	    paf_last = paf;
-	}
-    }
-    else
-    printf_to_char(ch,"Hiçbir büyüden etkilenmiyorsun.\n\r");
-
-    return;
-}
-
-
-
 
 const char *	day_name	[] =
 {
@@ -2127,8 +1942,8 @@ void do_help( CHAR_DATA *ch, char *argument )
 	{
 	    if ( pHelp->level >= 0 && str_cmp( argall, "imotd" ) )
 	    {
-		send_to_char( pHelp->keyword, ch );
-		send_to_char( "\n\r", ch );
+		printf_to_char( ch, pHelp->keyword );
+		printf_to_char( ch, "\n\r" );
 	    }
 
 	    /*
@@ -2222,14 +2037,11 @@ void do_whois (CHAR_DATA *ch, char *argument)
 		|| (wch->cabal == CABAL_RULER
 		   && is_equiped_n_char(wch, OBJ_VNUM_RULER_BADGE, WEAR_NECK)) )
 	{
-	  if (IS_SET(ch->act,PLR_COLOR) )
 	  sprintf(cabalbuf, "[%s%s%s] ",
 		CLR_CYAN,
 		cabal_table[wch->cabal].short_name,
 		CLR_WHITE_BOLD
 		);
-	  else
-	  sprintf(cabalbuf, "[%s] ",cabal_table[wch->cabal].short_name);
 	}
 	else cabalbuf[0] = '\0';
 	if (wch->cabal == 0) cabalbuf[0] = '\0';
@@ -2238,14 +2050,11 @@ void do_whois (CHAR_DATA *ch, char *argument)
 	if (!((ch==wch && ch->level<PK_MIN_LEVEL) || is_safe_nomessage(ch,wch)))
 	 {
 	  sprintf(pk_buf,"%s(OK) %s",
-		IS_SET(ch->act,PLR_COLOR) ? CLR_RED : "",
-	        IS_SET(ch->act,PLR_COLOR) ? CLR_WHITE_BOLD : "");
+		CLR_RED,CLR_WHITE_BOLD);
 	 }
 	act_buf[0] = '\0';
-	sprintf(act_buf,"%s%s%s",
-		IS_SET(ch->act,PLR_COLOR) ? CLR_WHITE : "",
-		    IS_SET(wch->act, PLR_WANTED) ? "(ARANIYOR) " : "",
-	        IS_SET(ch->act,PLR_COLOR) ? CLR_WHITE_BOLD : "");
+	sprintf(act_buf,"%s%s%s",CLR_WHITE,
+		    IS_SET(wch->act, PLR_WANTED) ? "(ARANIYOR) " : "",CLR_WHITE_BOLD);
 
 	if (IS_NPC(wch))
 		sprintf(titlebuf,"Believer of Chronos.");
@@ -2259,23 +2068,14 @@ void do_whois (CHAR_DATA *ch, char *argument)
 			wch->pcdata->title = str_dup( tempbuf );
 			bug("Title length more than 45",0);
 		 }
-		sprintf(titlebuf,"%s%s%s",
-		IS_SET(ch->act,PLR_COLOR) ? CLR_WHITE : "",
-		tempbuf,
-	        IS_SET(ch->act,PLR_COLOR) ? CLR_WHITE_BOLD : "");
+		sprintf(titlebuf,"%s%s%s",CLR_WHITE,tempbuf,CLR_WHITE_BOLD);
 	     }
 	/*
 	 * Format it up.
 	 */
 
-	sprintf( level_buf, "%s%2d%s",
-		IS_SET(ch->act,PLR_COLOR) ? CLR_CYAN : "",
-		wch->level,
-	        IS_SET(ch->act,PLR_COLOR) ? CLR_WHITE_BOLD : "");
-	sprintf(classbuf,"%s%s%s",
-		IS_SET(ch->act,PLR_COLOR) ? CLR_YELLOW : "",
-		iclass,
-	        IS_SET(ch->act,PLR_COLOR) ? CLR_WHITE_BOLD : "");
+	sprintf( level_buf, "%s%2d%s",CLR_CYAN,wch->level,CLR_WHITE_BOLD);
+	sprintf(classbuf,"%s%s%s",CLR_YELLOW,iclass,CLR_WHITE_BOLD);
 	    /* a little formatting */
 
 	    if (IS_TRUSTED(ch,LEVEL_IMMORTAL) || ch==wch ||
@@ -2318,392 +2118,6 @@ void do_whois (CHAR_DATA *ch, char *argument)
 
     page_to_char(output,ch);
 }
-
-
-/*
- * New 'who' command originally by Alander of Rivers of Mud.
- */
-void do_who( CHAR_DATA *ch, char *argument )
-{
-    char buf[MAX_STRING_LENGTH];
-    char buf2[MAX_STRING_LENGTH];
-    char cabalbuf[MAX_STRING_LENGTH];
-    char titlebuf[MAX_STRING_LENGTH];
-    char output[4 * MAX_STRING_LENGTH];
-    char act_buf[100];
-    char level_buf[100];
-    DESCRIPTOR_DATA *d;
-    int iClass;
-    int iRace;
-    int iLevelLower;
-    int iLevelUpper;
-    int nNumber;
-    int nMatch;
-    int vnum;
-    int count;
-    bool rgfClass[MAX_CLASS];
-    bool rgfRace[MAX_PC_RACE];
-    bool fClassRestrict;
-    bool fRaceRestrict;
-    bool fImmortalOnly;
-    bool fPKRestrict;
-    bool fRulerRestrict;
-    bool fChaosRestrict;
-    bool fShalafiRestrict;
-    bool fInvaderRestrict;
-    bool fBattleRestrict;
-    bool fKnightRestrict;
-    bool fLionsRestrict;
-    bool fTattoo;
-
-    /*
-     * Set default arguments.
-     */
-    iLevelLower    = 0;
-    iLevelUpper    = MAX_LEVEL;
-    fClassRestrict = FALSE;
-    fRaceRestrict = FALSE;
-    fPKRestrict = FALSE;
-    fImmortalOnly  = FALSE;
-    fBattleRestrict = FALSE;
-    fChaosRestrict = FALSE;
-    fRulerRestrict = FALSE;
-    fInvaderRestrict = FALSE;
-    fShalafiRestrict = FALSE;
-    fKnightRestrict = FALSE;
-    fLionsRestrict = FALSE;
-    vnum = 0;
-    fTattoo = FALSE;
-    for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
-	rgfClass[iClass] = FALSE;
-    for ( iRace = 0; iRace < MAX_PC_RACE; iRace++ )
-	rgfRace[iRace] = FALSE;
-
-
-    if (IS_SET(ch->act,PLR_COLOR))
-	{
-	 do_who_col(ch,argument);
-	 return;
-	}
-    /*
-     * Parse arguments.
-     */
-    nNumber = 0;
-    for ( ;; )
-    {
-	char arg[MAX_STRING_LENGTH];
-
-	argument = one_argument( argument, arg );
-	if ( arg[0] == '\0' )
-	    break;
-
-	if (!str_cmp(arg,"ok"))
-	  {
-	    fPKRestrict = TRUE;
-	    break;
-	  }
-
-	if (!str_cmp(arg,"tüze"))
-	  {
-	    if (ch->cabal != CABAL_RULER && !IS_IMMORTAL(ch))
-	      {
-		send_to_char("Bu kabala üye deðilsin!\n\r",ch);
-		return;
-	      }
-	    else
-	      {
-		fRulerRestrict = TRUE;
-		break;
-	      }
-	  }
-	if (!str_cmp(arg,"týlsým"))
-	  {
-	    if (ch->cabal != CABAL_SHALAFI && !IS_IMMORTAL(ch))
-	      {
-		send_to_char("Bu kabala üye deðilsin!\n\r",ch);
-		return;
-	      }
-	    else
-	      {
-		fShalafiRestrict = TRUE;
-		break;
-	      }
-	  }
-	if (!str_cmp(arg,"öfke"))
-	  {
-	    if (ch->cabal != CABAL_BATTLE && !IS_IMMORTAL(ch))
-	      {
-		send_to_char("Bu kabala üye deðilsin!\n\r",ch);
-		return;
-	      }
-	    else
-	      {
-		fBattleRestrict = TRUE;
-		break;
-	      }
-	  }
-	if (!str_cmp(arg,"istila"))
-	  {
-	    if (ch->cabal != CABAL_INVADER && !IS_IMMORTAL(ch))
-	      {
-		send_to_char("Bu kabala üye deðilsin!\n\r",ch);
-		return;
-	      }
-	    else
-	      {
-		fInvaderRestrict = TRUE;
-		break;
-	      }
-	  }
-	if (!str_cmp(arg,"kaos"))
-	  {
-	    if (ch->cabal != CABAL_CHAOS && !IS_IMMORTAL(ch))
-	      {
-		send_to_char("Bu kabala üye deðilsin!\n\r",ch);
-		return;
-	      }
-	    else
-	      {
-		fChaosRestrict = TRUE;
-		break;
-	      }
-	  }
-	if (!str_cmp(arg,"þövalye"))
-	  {
-	    if (ch->cabal != CABAL_KNIGHT && !IS_IMMORTAL(ch))
-	      {
-		send_to_char("Bu kabala üye deðilsin!\n\r",ch);
-		return;
-	      }
-	    else
-	      {
-		fKnightRestrict = TRUE;
-		break;
-	      }
-	  }
-	if (!str_cmp(arg,"aslan"))
-	  {
-	    if (ch->cabal != CABAL_LIONS && !IS_IMMORTAL(ch))
-	      {
-		send_to_char("Bu kabala üye deðilsin!\n\r",ch);
-		return;
-	      }
-	    else
-	      {
-		fLionsRestrict = TRUE;
-		break;
-	      }
-	  }
-	if (!str_cmp(arg,"dövme"))
-	  {
-	    if (get_eq_char(ch,WEAR_TATTOO) == NULL)
-	      {
-		send_to_char("Henüz dövmen yok!\n\r",ch);
-		return;
-	      }
-	    else
-	      {
-		fTattoo = TRUE;
-		vnum = get_eq_char(ch,WEAR_TATTOO)->pIndexData->vnum;
-		break;
-	      }
-	  }
-	if (!str_cmp(arg, "dövme"))
-	  {
-	    send_to_char("Bu özellik þimdilik devre dýþý.\n\r", ch);
-	    return;
-	  }
-
-
-	if ( is_number( arg ) && IS_IMMORTAL(ch))
-	{
-	    switch ( ++nNumber )
-	    {
-	    case 1: iLevelLower = atoi( arg ); break;
-	    case 2: iLevelUpper = atoi( arg ); break;
-	    default:
-		send_to_char( "Bu özellik ölümsüzlerin kullanýmýna açýktýr.\n\r",ch);
-		return;
-	    }
-	}
-	else
-	{
-
-	    /*
-	     * Look for classes to turn on.
-	     */
-	    if ( arg[0] == 'i' )
-	    {
-		fImmortalOnly = TRUE;
-	    }
-	    else
-	    {
-	      iClass = class_lookup(arg);
-	      if (iClass == -1 || !IS_IMMORTAL(ch))
-	      	{
-	          iRace = race_lookup(arg);
-
-	          if (iRace == 0 || iRace >= MAX_PC_RACE)
-		    {
-		      send_to_char("Geçerli bir ýrk deðil.\n\r",ch);
-		      return;
-		    }
-	          else
-		    {
-			fRaceRestrict = TRUE;
-			rgfRace[iRace] = TRUE;
-		    }
-		}
-	      else
-		{
-		  fClassRestrict = TRUE;
-		  rgfClass[iClass] = TRUE;
-		}
-	    }
-	  }
-      }
-
-    /*
-     * Now show matching chars.
-     */
-    nMatch = 0;
-    buf[0] = '\0';
-    output[0] = '\0';
-    for ( d = descriptor_list; d != NULL; d = d->next )
-    {
-	CHAR_DATA *wch;
-	char const *iclass;
-
-	/*
-	 * Check for match against restrictions.
-	 * Don't use trust as that exposes trusted mortals.
-	 */
-	if ( d->connected != CON_PLAYING || !can_see( ch, d->character ) )
-	    continue;
-
-	if ( d->connected != CON_PLAYING ||
-(IS_VAMPIRE( d->character ) && !IS_IMMORTAL(ch) && (ch != d->character) ) )
-	    continue;
-
-	wch   = ( d->original != NULL ) ? d->original : d->character;
-	if (!can_see(ch, wch)) /* can't see switched wizi imms */
-	  continue;
-
-	if ( wch->level < iLevelLower
-	||   wch->level > iLevelUpper
-	|| ( fImmortalOnly  && wch->level < LEVEL_HERO )
-	|| ( fClassRestrict && !rgfClass[wch->iclass])
-	|| ( fRaceRestrict && !rgfRace[RACE(wch)])
-        || ( fPKRestrict && is_safe_nomessage(ch,wch) )
-	|| ( fTattoo &&(vnum == get_eq_char(wch,WEAR_TATTOO)->pIndexData->vnum))
-	    || (fRulerRestrict && wch->cabal != CABAL_RULER )
-	    || (fChaosRestrict && wch->cabal != CABAL_CHAOS)
-	    || (fBattleRestrict && wch->cabal != CABAL_BATTLE)
-	    || (fInvaderRestrict && wch->cabal != CABAL_INVADER)
-	    || (fShalafiRestrict && wch->cabal != CABAL_SHALAFI)
-	    || (fKnightRestrict && wch->cabal != CABAL_KNIGHT)
-	    || (fLionsRestrict && wch->cabal != CABAL_LIONS))
-	    continue;
-
-	nMatch++;
-
-	/*
-	 * Figure out what to print for class.
-	 */
-	iclass = class_table[wch->iclass].who_name;
-	switch ( wch->level )
-	{
-	default: break;
-            {
-              case MAX_LEVEL - 0 : iclass = "YRT";     break;
-              case MAX_LEVEL - 1 : iclass = "YRT";     break;
-              case MAX_LEVEL - 2 : iclass = "TNR";     break;
-              case MAX_LEVEL - 3 : iclass = "TNR";     break;
-              case MAX_LEVEL - 4 : iclass = "TNR";     break;
-              case MAX_LEVEL - 5 : iclass = "MLK";     break;
-              case MAX_LEVEL - 6 : iclass = "MLK";     break;
-              case MAX_LEVEL - 7 : iclass = "YML";     break;
-              case MAX_LEVEL - 8 : iclass = "YML";     break;
-            }
-	}
-
-	/* for cabals
-	if ((wch->cabal && (wch->cabal == ch->cabal ||
-			   IS_TRUSTED(ch,LEVEL_IMMORTAL))) ||
-                           wch->level >= LEVEL_HERO)
-	*/
-	if ( (wch->cabal && ch->cabal ==  wch->cabal) || IS_IMMORTAL(ch)
-		|| ( IS_SET(wch->act , PLR_CANINDUCT) && wch->cabal == 1)
-		|| wch->cabal == CABAL_HUNTER
-		|| (wch->cabal == CABAL_RULER
-		   && is_equiped_n_char(wch, OBJ_VNUM_RULER_BADGE, WEAR_NECK)) )
-	  sprintf(cabalbuf, "[%s] ",cabal_table[wch->cabal].short_name);
-	else cabalbuf[0] = '\0';
-	if (wch->cabal == 0) cabalbuf[0] = '\0';
-
-	act_buf[0] = '\0';
-	sprintf(act_buf,"%s",
-		    IS_SET(wch->act, PLR_WANTED) ? "(ARANIYOR) " : "");
-
-	sprintf( level_buf, "%2d",wch->level);
-	if (IS_NPC(wch))
-		sprintf(titlebuf,"Tanrýlara inanan.");
-	else {
-		sprintf(titlebuf,"%s", wch->pcdata->title );
-		if (strlen(titlebuf) > 45 )
-		 {
-			free_string(wch->pcdata->title);
-			titlebuf[44] = '\0';
-			wch->pcdata->title = str_dup( titlebuf );
-			bug("Baþlýk 45 karakterden uzun.",0);
-		 }
-	     }
-	/*
-	 * Format it up.
-	 */
-
-	if (IS_TRUSTED(ch,LEVEL_IMMORTAL) || ch==wch ||
-                   wch->level >= LEVEL_HERO || (get_curr_stat(wch, STAT_CHA) < 18 ) )
-
-	  sprintf( buf, "[%2d %s %s] %s%s%s%s%s\n\r",
-	    wch->level,
-	    RACE(wch) < MAX_PC_RACE ? pc_race_table[RACE(wch)].who_name
-				    : "     ",
-	    iclass,
-	    (!is_safe_nomessage(ch,wch) && ch->level > PK_MIN_LEVEL) ?
-		"(OK) " : "",
-	    cabalbuf,
-	    act_buf,
-	    wch->name,
-	    titlebuf);
-
-	else
-	  sprintf( buf, "[%s %s    ] %s%s%s%s%s\n\r",
-		(get_curr_stat(wch, STAT_CHA) < 18 ) ? level_buf : "  ",
-	    RACE(wch) < MAX_PC_RACE ? pc_race_table[RACE(wch)].who_name
-				    : "     ",
-	    (!is_safe_nomessage(ch,wch) && ch->level > PK_MIN_LEVEL) ?
-		"(OK) " : "",
-	    cabalbuf,
-	    act_buf,
-	    wch->name,
-	    titlebuf);
-
-	strcat(output,buf);
-    }
-
-    count = 0;
-    for ( d = descriptor_list; d != NULL; d = d->next )
-        if ( d->connected == CON_PLAYING )    count++;
-
-    max_on = UMAX(count,max_on);
-    sprintf( buf2, "\n\rOyuncular: %d. Bugün en çok: %d.\n\r",
-		nMatch,max_on );
-    strcat(output,buf2);
-    page_to_char( output, ch );
-    return;
-}
-
 
 void do_count ( CHAR_DATA *ch, char *argument )
 {
@@ -2913,10 +2327,7 @@ void do_where( CHAR_DATA *ch, char *argument )
     if (!str_cmp(arg,"ok"))
       fPKonly = TRUE;
 
-    sprintf(pkbuf,"%s%s%s",
-	IS_SET(ch->act, PLR_COLOR) ? CLR_RED : "",
-	"(PK) ",
-	IS_SET(ch->act, PLR_COLOR) ? CLR_WHITE_BOLD : "");
+    sprintf(pkbuf,"%s%s%s",CLR_RED,"(OK) ",CLR_WHITE_BOLD);
 
     if ( arg[0] == '\0' || fPKonly)
     {

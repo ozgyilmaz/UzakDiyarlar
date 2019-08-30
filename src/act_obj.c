@@ -817,7 +817,7 @@ void do_drop( CHAR_DATA *ch, char *argument )
 	    return;
 	}
 
-  if ( !str_cmp( arg, "sikke") || !str_cmp(arg,"akçe"))
+  if ( !str_cmp(arg,"akçe"))
 	{
 	    if (ch->silver < amount)
 	    {
@@ -3149,8 +3149,7 @@ void do_steal( CHAR_DATA *ch, char *argument )
     {
 	int amount_s = 0;
 	int amount_g = 0;
-  if ( !str_cmp( arg1, "akçe" ) ||
-       !str_cmp(arg1, "sikke" ) )
+  if ( !str_cmp( arg1, "akçe" ) )
 	  amount_s = victim->silver * number_range(1, 20) / 100;
         else if ( !str_cmp( arg1, "altýn" ) )
 	  amount_g = victim->gold * number_range(1, 7) / 100;
@@ -3165,7 +3164,7 @@ void do_steal( CHAR_DATA *ch, char *argument )
 	victim->gold -= amount_g;
 	ch->silver     += amount_s;
 	victim->silver -= amount_s;
-  sprintf( buf, "Bingo!  %d %s sikke arakladýn.\n\r",
+  sprintf( buf, "Bingo!  %d %s arakladýn.\n\r",
            amount_s!=0?amount_s:amount_g,
            amount_s!=0?"akçe":"altýn" );
 
@@ -4579,10 +4578,10 @@ void do_balance(CHAR_DATA *ch, char *argument)
 
   bank_g = ch->pcdata->bank_g;
   bank_s = ch->pcdata->bank_s;
-  sprintf( buf, "Bankada %s%s%s sikken var.\n\r",
-    bank_g!=0?"%ld altýn":"",
+  sprintf( buf, "Bankada %s%s%s var.\n\r",
+    bank_g!=0?"%ld altýnýn":"",
     (bank_g!=0)&&(bank_s!=0)?" ve ":"",
-    bank_s!=0?"%ld akçe":"" );
+    bank_s!=0?"%ld akçen":"" );
   if (bank_g == 0)
     sprintf( buf2, buf, bank_s );
   else
@@ -4656,13 +4655,13 @@ void do_withdraw(CHAR_DATA *ch, char *argument)
   ch->silver += (long)(0.90 * amount_s);
   if (amount_s > 0  && amount_s < 10 )  {
     if ( amount_s == 1 )
-    sprintf(buf, "Bir sikke? Seni cimri!\n\r");
+    sprintf(buf, "Bir akçe? Seni cimri!\n\r");
     else
-    sprintf(buf, "%ld sikke? Seni cimri!\n\r", amount_s);
+    sprintf(buf, "%ld akçe? Seni cimri!\n\r", amount_s);
   }
   else
   sprintf(buf,
-    "Ýþte %ld %s sikken, hesap iþlemi olarak %ld sikkeni alýyorum.\n\r",
+    "Ýþte %ld %s, hesap iþlemi olarak %ld sikkeni alýyorum.\n\r",
     amount_s!=0?amount_s:amount_g,
     amount_s!=0?"akçe":"altýn",
     amount_s!=0?(long) UMAX(1, (0.10 * amount_s)):
@@ -4703,7 +4702,7 @@ void do_deposit(CHAR_DATA *ch, char *argument)
     amount_s = 0;
   }
   else {
-    send_to_char("Yalnýz altýn sikke ve akçe yatýrabilirsin.", ch );
+    send_to_char("Yalnýz altýn ve akçe yatýrabilirsin.", ch );
     return;
   }
 

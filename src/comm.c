@@ -2704,7 +2704,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	if (ch->gold > 10000 && !IS_IMMORTAL(ch))
 	{
-	    sprintf(buf,"Ne yazýk ki baþkanýn açacaðý yeni bar için %ld altýn sikke vergi ödemeniz gerekiyor.\n\r",
+	    sprintf(buf,"Ne yazýk ki baþkanýn açacaðý yeni bar için %ld altýn vergi ödemeniz gerekiyor.\n\r",
 		(ch->gold - 10000) / 2);
 	    send_to_char(buf,ch);
 	    ch->gold -= (ch->gold - 10000) / 2;
@@ -2713,7 +2713,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	if (ch->pcdata->bank_g > 400000 && !IS_IMMORTAL(ch))
 	{
-		sprintf(buf,"Ne yazýk ki sultanýn savaþ giderleri için %ld altýn sikke vergi ödemeniz gerekiyor.\n\r",
+		sprintf(buf,"Ne yazýk ki sultanýn savaþ giderleri için %ld altýn vergi ödemeniz gerekiyor.\n\r",
 		(ch->pcdata->bank_g - 400000) );
 	    send_to_char(buf,ch);
 	    ch->pcdata->bank_g = 400000;
@@ -3011,15 +3011,11 @@ void send_ch_color( const char *format, CHAR_DATA *ch, int min, ... )
                 default:  bug( "Act: bad code %d.", *str );
                           i = " <@@@> ";                                break;
 		case 'C':
-		  if (IS_SET(ch->act,PLR_COLOR))
-		    i = va_arg(colors,char *);
-		  else i = "";
+		  i = va_arg(colors,char *);
 		  break;
 
 		case 'c':
-		  if (IS_SET(ch->act,PLR_COLOR))
-		    i = CLR_NORMAL ;
-		  else i = "";
+		  i = CLR_NORMAL ;
 		  break;
  	    }
             ++str;
@@ -3282,12 +3278,10 @@ z : birisinden					*/
                 case 'N': i = PERS( vch, to  );
 					break;
 				case 'C':
-				//if (IS_SET(to->act,PLR_COLOR))
 				i = va_arg(colors,char *);
 				//else i = "";
 				break;
 				case 'c':
-				//if (IS_SET(to->act,PLR_COLOR))
 				i = CLR_NORMAL ;
 				//else i = "";
 				break;

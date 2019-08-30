@@ -1727,31 +1727,31 @@ void do_split( CHAR_DATA *ch, char *argument )
     if (share_silver > 0)
     {
 	printf_to_char(ch,
-    "Sen %d gümüþ sikke daðýttýn. Senin payýna %d sikke düþtü.\n\r",
+    "Sen %d akçe daðýttýn. Senin payýna %d akçe düþtü.\n\r",
  	    amount_silver,share_silver + extra_silver);
     }
 
     if (share_gold > 0)
     {
 	printf_to_char(ch,
-    "Sen %d altýn sikke daðýttýn. Senin payýna %d sikke düþtü.\n\r",
+    "Sen %d altýn daðýttýn. Senin payýna %d altýn düþtü.\n\r",
 	     amount_gold,share_gold + extra_gold);
     }
 
     if (share_gold == 0)
     {
-	sprintf(buf,"$n %d gümüþ sikke daðýttý. Senin payýna %d sikke düþtü.",
+	sprintf(buf,"$n %d akçe daðýttý. Senin payýna %d akçe düþtü.",
 		amount_silver,share_silver);
     }
     else if (share_silver == 0)
     {
-	sprintf(buf,"$n %d altýn sikke daðýttý. Senin payýna %d sikke düþtü.",
+	sprintf(buf,"$n %d altýn daðýttý. Senin payýna %d altýn düþtü.",
 		amount_gold,share_gold);
     }
     else
     {
 	sprintf(buf,
-"$n %d gümüþ ve %d altýn sikke daðýttý. Senin payýna %d gümüþ ve %d altýn sikke düþtü.\n\r",
+"$n %d akçe ve %d altýn daðýttý. Senin payýna %d akçe ve %d altýn düþtü.\n\r",
 	 amount_silver,amount_gold,share_silver,share_gold);
     }
 
@@ -1956,7 +1956,7 @@ char *translate(CHAR_DATA *ch, CHAR_DATA *victim, char *argument)
       || ch->language == pc_race_table[ORG_RACE(victim)].language)
    {
     if (IS_IMMORTAL(victim))
-	sprintf(trans,"{%s} %s",language_table[ch->language].name,argument);
+	sprintf(trans,"(%s) %s",language_table[ch->language].name,argument);
     else strcpy(trans,argument);
     return trans;
    }
@@ -1968,7 +1968,7 @@ char *translate(CHAR_DATA *ch, CHAR_DATA *victim, char *argument)
     }
   buf[i] = '\0';
 
-  sprintf(trans,"{%s} %s",language_table[ch->language].name,buf);
+  sprintf(trans,"(%s) %s",language_table[ch->language].name,buf);
   return trans;
 }
 
@@ -2106,7 +2106,7 @@ ch->pcdata->confirm_remort = FALSE;
 	printf_to_char(ch,"Bu sýrada muddan koparsan veya mud çökerse:\n\r");
 	printf_to_char(ch,"    AYNI ÝSÝMLE YENÝ BÝR KARAKTER YARAT VE ÖLÜMSÜZLERE DURUMU BÝLDÝR.\n\r");
 	printf_to_char(ch,"Unutma ki, eski karaktere ait aþaðýdaki özellikler aynen korunur:\n\r");
-	printf_to_char(ch,"        bankadakiler dahil tüm altýn sikke ve akçe\n\r");
+	printf_to_char(ch,"        bankadakiler dahil tüm altýn ve akçe\n\r");
 	printf_to_char(ch,"        pratik, eðitim seanslarý ve görev puaný\n\r");
 	printf_to_char(ch,"BUNLARA EK OLARAK, artýk fazladan 2 yüzük takabileceksin.\n\r");
 	printf_to_char(ch,"             Ve fazladan 10 eðitim seansýn olacak.\n\r");

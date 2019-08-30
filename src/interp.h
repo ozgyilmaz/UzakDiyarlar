@@ -1,12 +1,12 @@
 /***************************************************************************
- *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *	
+ *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
- *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *	
- *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *	
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *
+ *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
 /***************************************************************************
@@ -25,7 +25,7 @@
  *  benefitting.  We hope that you share your changes too.  What goes	   *
  *  around, comes around.						   *
  ***************************************************************************/
- 
+
 /***************************************************************************
 *	ROM 2.4 is copyright 1993-1995 Russ Taylor			   *
 *	ROM has been brought to you by the ROM consortium		   *
@@ -76,7 +76,7 @@ extern	const	struct	cmd_type	cmd_table	[];
  * Defined in act_*.c (mostly).
  */
 DECLARE_DO_FUN(	do_advance	);
-DECLARE_DO_FUN( do_affects	);
+DECLARE_DO_FUN( do_affects_col	);
 DECLARE_DO_FUN( do_affrooms	);
 DECLARE_DO_FUN( do_alia		);
 DECLARE_DO_FUN( do_alias	);
@@ -103,7 +103,7 @@ DECLARE_DO_FUN( do_bash		);
 DECLARE_DO_FUN( do_bash_door	);
 DECLARE_DO_FUN( do_berserk	);
 DECLARE_DO_FUN( do_blink	);
-DECLARE_DO_FUN(	do_blindness_dust);	
+DECLARE_DO_FUN(	do_blindness_dust);
 DECLARE_DO_FUN( do_bloodthirst  );
 DECLARE_DO_FUN( do_blackjack    );
 DECLARE_DO_FUN(	do_brandish	);
@@ -128,7 +128,6 @@ DECLARE_DO_FUN( do_clear	);
 DECLARE_DO_FUN( do_clone	);
 DECLARE_DO_FUN(	do_close	);
 DECLARE_DO_FUN( do_cls		);
-DECLARE_DO_FUN( do_color	);
 DECLARE_DO_FUN(	do_commands	);
 DECLARE_DO_FUN( do_combine	);
 DECLARE_DO_FUN( do_compact	);
@@ -389,7 +388,7 @@ DECLARE_DO_FUN( do_weapon	);
 DECLARE_DO_FUN(	do_weather	);
 DECLARE_DO_FUN(	do_west		);
 DECLARE_DO_FUN(	do_where	);
-DECLARE_DO_FUN(	do_who		);
+DECLARE_DO_FUN(	do_who_col		);
 DECLARE_DO_FUN( do_whois	);
 DECLARE_DO_FUN(	do_wimpy	);
 DECLARE_DO_FUN(	do_withdraw	);

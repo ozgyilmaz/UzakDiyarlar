@@ -580,8 +580,8 @@ act_color( "$CGökyüzünde þimþekler çakýyor.$c",   ch, NULL,
 	    {
 		ch->pcdata->questpoints -= 500;
 	        ch->gold += 350000;
-          act("$N $e 350.000 altýn sikke veriyor.", ch, NULL, questman, TO_ROOM );
-          act( "$N sana 350.000 altýn sikke veriyor.",   ch, NULL, questman, TO_CHAR );
+          act("$N $e 350.000 altýn veriyor.", ch, NULL, questman, TO_ROOM );
+          act( "$N sana 350.000 altýn veriyor.",   ch, NULL, questman, TO_CHAR );
 	        return;
 	    }
 	    else
@@ -737,7 +737,7 @@ act ("$E görevi bitirdiðini haber veriyorsun.",ch, NULL, questman, TO_CHAR);
 
     sprintf(buf, "Tebrikler!");
     do_tell_quest(ch,questman,buf);
-    sprintf(buf,"Karþýlýðýnda sana %d GP ve %d altýn sikke veriyorum.",pointreward,reward);
+    sprintf(buf,"Karþýlýðýnda sana %d GP ve %d altýn veriyorum.",pointreward,reward);
 		do_tell_quest(ch,questman,buf);
 		if (chance(2))
 		{
@@ -785,7 +785,7 @@ act ("$E görevi bitirdiðini haber veriyorsun.",ch, NULL, questman, TO_CHAR);
 
         sprintf(buf, "Tebrikler!");
     do_tell_quest(ch,questman,buf);
-    sprintf(buf,"Karþýlýðýnda sana %d GP ve %d altýn sikke veriyorum.",pointreward,reward);
+    sprintf(buf,"Karþýlýðýnda sana %d GP ve %d altýn veriyorum.",pointreward,reward);
 		    do_tell_quest(ch,questman,buf);
 		    if (chance(15))
 		    {

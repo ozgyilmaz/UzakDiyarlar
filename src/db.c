@@ -3248,32 +3248,30 @@ void do_areas( CHAR_DATA *ch, char *argument )
     for ( iArea = 0; iArea < iAreaHalf; iArea++ )
     {
      sprintf(buf2,"{%s%2d %3d%s} %s%s %s%s%s",
-	IS_SET(ch->act,PLR_COLOR) ? CLR_WHITE : "",
+	CLR_WHITE,
 	pArea1->low_range,pArea1->high_range,
-	IS_SET(ch->act,PLR_COLOR) ? CLR_WHITE_BOLD : "",
-	IS_SET(ch->act,PLR_COLOR) ? CLR_BLUE : "",
+	CLR_WHITE_BOLD,
+	CLR_BLUE,
 	pArea1->writer,
-	IS_SET(ch->act,PLR_COLOR) ? CLR_CYAN : "",
+	CLR_CYAN,
 	pArea1->credits,
-	IS_SET(ch->act,PLR_COLOR) ? CLR_WHITE_BOLD : "");
+	CLR_WHITE_BOLD);
 
      sprintf( buf, "%s",buf2);
      if (pArea2 != NULL)
       {
      sprintf(buf2,"{%s%2d %3d%s} %s%s %s%s%s",
-	IS_SET(ch->act,PLR_COLOR) ? CLR_WHITE : "",
+	CLR_WHITE,
 	pArea2->low_range,pArea1->high_range,
-	IS_SET(ch->act,PLR_COLOR) ? CLR_WHITE_BOLD : "",
-	IS_SET(ch->act,PLR_COLOR) ? CLR_BLUE : "",
+	CLR_WHITE_BOLD,
+	CLR_BLUE,
 	pArea2->writer,
-	IS_SET(ch->act,PLR_COLOR) ? CLR_CYAN : "",
+	CLR_CYAN,
 	pArea2->credits,
-	IS_SET(ch->act,PLR_COLOR) ? CLR_WHITE_BOLD : "");
+	CLR_WHITE_BOLD);
       }
      else sprintf(buf2,"\n\r");
-     if (IS_SET(ch->act,PLR_COLOR))
-      sprintf( buf,"%-69s %s\n\r",buf,buf2);
-     else sprintf( buf,"%-39s %-39s\n\r",buf,buf2);
+     sprintf( buf,"%-69s %s\n\r",buf,buf2);
 
      strcat( bufpage,buf);
      pArea1 = pArea1->next;

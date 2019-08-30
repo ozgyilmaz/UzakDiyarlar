@@ -1848,7 +1848,7 @@ struct	kill_data
 #define PLR_AUTOSAC             (F)
 #define PLR_AUTOGOLD		(G)
 #define PLR_AUTOSPLIT		(H)
-#define PLR_COLOR		(I)
+//#define PLR_COLOR		(I)
 #define PLR_WANTED		(J)
 #define PLR_NO_TITLE		(K)
 /* RT personal flags */
