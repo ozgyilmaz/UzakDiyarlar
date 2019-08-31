@@ -1,0 +1,1512 @@
+#AREA
+cuce_kralligi.are~
+Cüce Krallýðý~
+{10 25} Anon    Cüce Krallýðý~
+6500 6599
+#MOBILES
+#6500
+cüce muhafýz~
+cüce muhafýz~
+Bir cüce muhafýz burada.
+~
+Muhafýz çok saðlam ve sert görünüyor.
+~
+dwarf~
+AB D 500 0
+20 0 3d9+333 10d9+100 2d8+5 none
+-4 -4 -4 7
+EFNR 0 0 0
+stand stand male 500
+0 0 medium 0
+
+#6501
+cüce maden iþçi~
+cüce madenci~
+Bir cüce maden iþçisi burada.
+~
+Çok pis ve yorgun görünüyor.
+~
+dwarf~
+AG 0 900 0
+12 0 2d10+150 6d9+100 1d10+3 none
+0 0 0 8
+EFNR 0 0 0
+stand stand male 175
+0 0 medium 0
+#6502
+ruh~
+bir ruh~
+Bir ruh burada, hareketlerini izliyor.
+~
+Siyah ve saydam bir ruh.
+~
+human~
+AB DF -900 0
+29 0 20d20+778 20d20+500 5d17+8 none
+-9 -9 -9 6
+EFNU 0 0 0
+stand stand male 2500
+0 0 medium 0
+#6503
+esnaf~
+esnaf~
+Bir esnaf burada, sabýrla bekliyor.
+~
+Esnaf biraz þiþman gibi ama oldukça da sert.
+~
+human~
+AB 0 900 0
+35 0 10d10+1300 17d9+100 4d7+11 none
+-11 -11 -11 5
+EFNU 0 0 0
+stand stand male 5000
+0 0 medium 0
+#6504
+fýrýncý granit kafa~
+Granit Kafa~
+Fýrýncý Granit Kafa müþteri bekliyor.
+~
+Granit Kafa'nýn üstü baþý un olmuþ.
+~
+human~
+AB 0 900 0
+35 0 10d10+1700 17d9+100 4d7+11 none
+-31 -31 -31 5
+EFNU 0 0 0
+stand stand male 50
+0 0 medium 0
+#6505
+kertenkele dev~
+dev kertenkele~
+Dev bir kertenkele burada duruyor.
+~
+Buranýn habitatýna uyum saðlamýþ görünüyor. Çok güçlü ! !
+~
+lizard~
+AG D 100 0
+18 0 3d9+283 9d9+100 2d7+4 none
+-3 -3 -3 7
+EFNR 0 0 0
+stand stand male 60
+0 0 medium 0
+#6506
+dev~
+dev~
+Bir dev burada.
+~
+Boyu 8 feet kadar. Kollarý çelik gibi ve çok güçlü görünüyor.
+~
+giant~
+AG 0 0 0
+16 0 3d9+233 8d9+100 2d6+4 none
+-2 -2 -2 7
+EFNR 0 0 0
+stand stand male 100
+0 0 medium 0
+#6507
+cüce madenci~
+cüce madenci~
+Bir cüce madenci burada.
+~
+Çok pis ve yorgun görünüyor. Kaslarý bir boðayý andýrýyor.
+
+~
+dwarf~
+AB 0 0 0
+8 0 2d7+96 4d9+100 1d7+2 none
+3 3 3 9
+EFNR 0 0 0
+stand stand male 2
+0 0 medium 0
+#6508
+cüce maden þefi~
+cüce þef~
+Bir cüce maden þefi burada.
+~
+Cüce maden þefi çok büyük ve güçlü.
+~
+dwarf~
+AB 0 0 0
+21 0 4d10+360 10d9+100 4d4+5 none
+-5 -5 -5 7
+EFNR 0 0 0
+stand stand male 1000
+0 0 medium 0
+#6509
+cüce doktor~
+cüce doktor~
+Cüce doktor burada.
+~
+Çelik gibi elleriyle tam bir cerrahi uzmaný.
+~
+dwarf~
+AB DH 1000 0
+9 0 2d6+110 4d9+100 1d8+2 none
+2 2 2 8
+EFNR 0 0 0
+stand stand male 75
+0 0 medium 0
+#6510
+cüce düþkün~
+cüce düþkün~
+Bir cüce düþkün burada, yardým bekliyor.
+~
+~
+dwarf~
+AB 0 500 0
+3 0 2d6+35 1d9+100 1d6+0 none
+7 7 7 10
+EFNR 0 0 0
+stand stand male 3
+0 0 medium 0
+#6511
+cüce~
+cüce~
+Bir cüce burada, sýrýtýyor.
+~
+~
+dwarf~
+AB 0 500 0
+9 0 2d6+110 4d9+100 1d8+2 none
+2 2 2 8
+EFNR 0 0 0
+stand stand male 62
+0 0 medium 0
+#6512
+cüce oðlan yetim~
+yetim cüce~
+Bir yetim cüce oðlaný burada. Onun için üzülüyorsun.
+~
+~
+dwarf~
+AG 0 250 0
+9 0 2d6+110 4d9+100 1d8+2 none
+2 2 2 8
+EFNR 0 0 0
+stand stand male 2
+0 0 medium 0
+#6513
+cüce kýz yetim~
+yetim cüce~
+Bir yetim cüce kýzý burada. Onun için üzülüyorsun.
+~
+~
+dwarf~
+AG 0 250 0
+10 0 2d7+121 5d9+100 2d4+2 none
+1 1 1 8
+EFNR 0 0 0
+stand stand female 2
+0 0 medium 0
+#6514
+cüce kýþla muhafýz~
+cüce muhafýz~
+Bir kýþla muhafýzý burada.
+~
+~
+dwarf~
+AB 0 100 0
+16 0 3d9+233 8d9+100 2d6+4 none
+-2 -2 -2 7
+EFNR 0 0 0
+stand stand male 150
+0 0 medium 0
+#6515
+adam~
+adam~
+Bir adam burada. Oldukça sinirli gibi. Kendinde deðil.
+~
+~
+human~
+AB 0 300 0
+15 0 3d9+208 7d9+100 2d6+3 none
+-2 -2 -2 7
+EFNU 0 0 0
+stand stand male 348
+0 0 medium 0
+#6516
+labirent korucusu~
+korucu~
+Bir labirent korucusu burada.
+~
+ÇOK sert görünüyor.
+~
+human~
+ABF H -1000 0
+29 0 6d12+778 14d9+100 2d12+8 none
+-9 -9 -9 6
+EFNU 0 0 0
+stand stand male 4000
+0 0 medium 0
+#6517
+yýlan dev~
+dev yýlan~
+Dev bir yýlan burada, yutacak birini arýyor.
+~
+~
+snake~
+ABF 0 -1000 0
+15 0 3d9+208 7d9+100 2d6+3 none
+-2 -2 -2 7
+EFNR 0 0 0
+stand stand male 150
+0 0 medium 0
+#6518
+cüce maden iþçi~
+cüce madenci~
+Bir cüce maden iþçisi burada.
+~
+Çok pis ve çok yorgun görünüyor. Ama diðerlerinin aksine birini
+bekler gibi bir hali var.
+~
+dwarf~
+ABG 0 0 0
+12 0 2d10+150 6d9+100 1d10+3 none
+0 0 0 8
+EFNR 0 0 0
+stand stand male 175
+0 0 medium 0
+#0
+
+#OBJECTS
+
+#6502
+yeþil anahtar~
+bir yeþil anahtar~
+Yeþil bir anahtar yerde duruyor.~
+wood~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+#6504
+cüce topuz~
+bir cüce topuz~
+Bir cüce topuzu yerde yatýyor.~
+iron wood~
+weapon 0 AN
+mace 4 5 pound 0
+17 30 880 P
+#6505
+cüce zýrh~
+bir cüce zýrhý~
+Bir cüce zýrhý yerde yatýyor.~
+iron~
+armor 0 AD
+7 7 7 0 0
+20 40 2900 P
+#6506
+asa uzun siyah~
+bir uzun siyah asa~
+Uzun siyah bir asa burada yatýyor.~
+wood cloth~
+staff 0 AO
+4 10 10 'cure critical' 0
+11 10 4800 P
+#6507
+meþale uzun~
+bir uzun meþale~
+Uzun bir meþale burada býrakýlmýþ.~
+wood cloth~
+light 0 AO
+0 0 50 0 0
+0 10 0 P
+#6508
+topuz cüce~
+bir cüce topuzu~
+Bir cüce topuzu burada yatýyor.~
+wood~
+weapon 0 AN
+mace 2 7 pound 0
+10 10 510 P
+#6509
+cüce balta~
+bir cüce baltasý~
+Bir cüce baltasý burada yatýyor.~
+wood steel~
+weapon 0 AN
+axe 3 7 cleave F
+17 50 4100 P
+A
+1 2
+A
+18 2
+A
+19 2
+#6510
+cüce miðfer~
+bir cüce miðferi~
+Bir cüce miðferi burada.~
+iron~
+armor 0 AE
+7 7 7 0 0
+20 40 1450 P
+#6511
+altýn cüce yüzük~
+bir altýn cüce yüzüðü~
+Güzel bir altýn cüce yüzüðü burada.~
+gold~
+gem G AB
+0 0 0 0 0
+7 10 460 P
+A
+19 1
+A
+18 1
+#6512
+cüce eldiven~
+bir çift cüce eldiveni~
+Bir çift cüce eldiveni burada býrakýlmýþ.~
+leather~
+armor 0 AH
+5 5 5 0 0
+13 20 2000 P
+A
+2 1
+A
+1 1
+#6513
+not~
+bir not~
+Buruþmuþ bir not burada.~
+paper~
+furniture 0 A
+0 0 0 0 0
+0 0 0 P
+E
+not~
+Bu kaðýtta kraliçenin yazdýðý oldukça ateþli bir aþk mektubu var.
+Pek tabii ki böylesine herkese açýk bir networkte mektubu
+anlayacaðýnýz dile çevirmemizi beklemeyin.
+~
+#6514
+kale anahtar~
+bir kale anahtarý~
+Bir anahtar burada býrakýlmýþ.~
+iron~
+key 0 A
+0 0 0 0 0
+0 0 0 P
+#6516
+anahtar maden~
+bir maden anahtarý~
+Bir anahtar burada býrakýlmýþ.~
+iron~
+key 0 A
+0 0 0 0 0
+0 0 0 P
+#6517
+kömür yýðýn~
+bir kömür yýðýný~
+Bir kömür yýðýný burada unutulmuþ.~
+coal~
+trash T AO
+0 0 0 0 0
+0 10 0 P
+#6518
+maden kazma~
+bir maden kazmasý~
+Bir maden kazmasý burada býrakýlmýþ.~
+iron wood~
+weapon I AN
+mace 2 3 pierce 0
+3 10 240 P
+#6519
+hap doðum kontrol~
+bir kutu doðum kontrol hapý~
+Bir kutu doðum kontrol hapý burada býrakýlmýþ.~
+unknown~
+pill 0 A
+20 'cure light' 'cure light' 'cure light' ''
+0 10 300 P
+E
+doðum kontrol haplar~
+Bir kutunun içindeler. Bir süredir kullanýlmamýþlar.
+Son kullanma tarihi de geçmemiþ, denemek ister misin?
+~
+#6520
+aþk kale harita~
+bir aþk kalesi haritasý~
+Rulo edilmiþ bir harita burada.~
+paper~
+map 0 A
+1 0 0 0 0
+0 10 500 P
+E
+harita kale aþk~
+.
+* * * Castle Strangelove * * *       __________
+ = = ==================== = =        \ Queen's \
+      			              \ Bedroom \
+                                       \_________\
+                                                *
+                               __________    ____\_____
+     North  Up                 \  Top of \    \ Waiting \
+        \   |                   \ Stairs  \----\  Room   \
+          \ |                    \_________\    \_________\
+  West ---- + ---- East             |
+            | \                _____|____
+            |   \              \         \
+          Down  South           \ Stairs  \    [] - You need the Castle Key
+                                 \_________\        to get beyond this point.
+                                    |               The Castle Key can be
+                               _____|____           found on the Grinning
+                               \         \          Dwarves in the Barracks.
+                                \ Stairs  \
+                                 \_________\    * - You need the Deep Green
+                                    |               Key to get beyond this
+                __________     _____|____           point.  This key can be
+                \ Door to \    \ Inside  \          found on the Wraith in
+                 \ Castle  \-[]-\ Castle  \         the wine cellar or on one
+                  \_________\    \_________\        of the Dwarven Guards on
+                           \                        the Dark path.
+                         ____\_____
+                         \ Path to \
+                          \ Castle  \
+                           \_________\
+                                    \
+                   __________     ____\_____
+                   \ Door to \    \ Path to \
+                    \ Kingdom \----\ Castle  \
+                     \_________\    \_________\
+                              \
+                           To Dwarven
+                             Kingdom
+~
+#6521
+demir külçe~
+büyük miktar demir külçesi~
+Burada büyük miktar demir külçesi duruyor.~
+iron~
+trash T AO
+0 0 0 0 0
+0 30 0 P
+#6522
+cüce çekici~
+bir cüce çekici~
+Yerde yatan bir cüce çekici görüyorsun.~
+iron~
+trash T AO
+0 0 0 0 0
+0 30 0 P
+
+#0
+
+#ROOMS
+#6500
+Cüce Kasabasýna Yol~
+Her yanýnda güney bölgesi daðlarý -ki evleridir cücelerle devlerin.
+Batýdan buralarý terk ederek daða tekrar týrmanabilirsin ya da kuzey maden
+bacalarýnýn enginliðini tararsýn. Pis bir yol güneye ilerliyor ve o yönde
+küçük bir bina görünüyor. Ýçinden gelen aðlama ve yakarma seslerini
+duyabiliyorsun.
+~
+0 0 2
+D0
+Yol devam ediyor.
+~
+~
+0 -1 6501
+D2
+Küçük ayaklarýn patýrtýsýný dýyýyorsun.
+~
+~
+0 -1 6601
+D3
+Taþlý bir yol Moria madenlerinden ayrýlýp Vispa'ya dönüyor.
+~
+~
+0 -1 6562
+S
+#6501
+Yol - Daðýn Tabaný~
+Artýk daðýn tabanýndasýn. Çevrendeki orman çok sýk ve kuzey oldukça
+karanlýk.
+~
+0 0 4
+D0
+Yol daðýn tepesine devam ediyor.
+~
+~
+0 -1 6502
+D2
+Yol þehre iniyor.
+~
+~
+0 -1 6500
+S
+#6502
+Yol - Daðýn Göbeði~
+Daðýn göbeðinde dururken güneye dönen yolu görebiliyorsun. Daðýn zirvesi
+ise kuzeyde, çok yakýn.
+~
+0 0 5
+D0
+Buradan daðýn zirvesi kolayca görünüyor.
+~
+~
+0 -1 6503
+D2
+Daðýn tabaný oldukça yakýn.
+~
+~
+0 -1 6501
+S
+#6503
+Daðýn Zirvesi~
+Daðýn zirvesindesin. Güneyde daðdan inen bir yol görüyorsun. Doðuda ve
+batýda maden giriþine benzer giriþler var.
+~
+0 0 4
+D1
+Daða giriþ aþaðý yöneliyor.
+~
+~
+0 -1 6540
+D2
+Yol daðdan aþaðý, þehre ilerliyor.
+~
+~
+0 -1 6502
+D3
+Burada daða bir giriþ var.
+~
+~
+0 -1 6505
+S
+#6504
+Dar Yol~
+Bu Cüce Krallýðýna giden dar yol. Az kullanýlmýþa benziyor. Yol güneye
+açýlýyor ve kuzeye devam ediyor.
+~
+0 0 0
+D0
+
+~
+~
+0 -1 6506
+D2
+
+~
+~
+0 -1 6540
+S
+#6505
+Dað Giriþi~
+Burada daða giriþ var. Kapý çok güzel inþa edilmiþ ve içinden gelen
+sesleri duyabiliyorsun.
+~
+0 0 2
+D1
+
+~
+~
+0 -1 6503
+D3
+
+~
+kapý~
+2 6502 6513
+S
+#6506
+Dar Yol Dönüþü~
+Burasý yolun doðuya kývrýldýðý bir büküm. Aðaçlar çok büyümüþ ve yola
+sarkmýþ. Dar yol güneye ve doðuya ilerliyor.
+~
+0 0 0
+E
+aðaç~
+Ne kadar da yaþlýlar. Senin büyük büyük baban altýna iþerken onlar
+burada karbondioksiti oksijene dönüþtürüyordu.
+~
+D1
+
+~
+~
+0 -1 6507
+D2
+
+~
+~
+0 -1 6504
+S
+#6507
+Dar Yol~
+Bu yol çok dar ve kuzeyle batýya ilerliyor.
+~
+0 0 0
+D0
+
+~
+~
+0 -1 6508
+D3
+
+~
+~
+0 -1 6506
+S
+#6508
+Dar Kuzey-Güney Yolu~
+Yol kuzeye ve güneye gidiyor. Kuzeyde bir kapý görüyorsun, güneydeyse yol
+devam ediyor.
+~
+0 0 0
+D0
+
+~
+~
+0 -1 6509
+D2
+
+~
+~
+0 -1 6507
+S
+#6509
+Krallýk Kapýsý~
+Yol burada batýya dönüyor. Önünde bir kapý görüyorsun. Yol batýya ve
+güneye devam ediyor.
+~
+0 0 0
+D1
+
+~
+kapý~
+2 6502 6510
+D2
+
+~
+~
+0 -1 6508
+D3
+
+~
+~
+0 -1 6522
+S
+#6510
+Kaleye Giden Yol~
+Kesinlikle kaleye ilerleyen yol üzerindesin. Yol kuzeyde kaleye gidiyor
+ve batý duvarýnda kapý var.
+~
+0 0 0
+D0
+
+~
+~
+0 -1 6511
+D3
+
+~
+kapý~
+2 6502 6509
+S
+#6511
+Kaleye Giden Yol~
+Hala kaleye giden yoldasýn. Cüce kasabasý gerinde kaldý. Yol kuzeye ve
+güneye devam ediyor.
+~
+0 0 0
+D0
+
+~
+~
+0 -1 6512
+D2
+
+~
+~
+0 -1 6510
+S
+#6512
+Kale Kapýsý~
+Doðuda kaleye bir kapý var. Kale oldukça zarif ama bir rulo tuvalet
+kaðýdýný andýrýyor. Gördüðün bir iþaret diyor ki: HOÞGELDÝN AÞK KALESÝNE ! !
+BURADA DÝNÝ AYÝNLER YASAKTIR ! !
+~
+0 0 0
+D1
+
+~
+kapý~
+2 6514 6525
+D2
+
+~
+~
+0 -1 6511
+S
+#6513
+Giriþin Ýçinde~
+Buradaki herþey kurumla kaplanmýþ. Yol doðuya ve kuzeye devam ediyor.
+Batýda bir kapý var.
+~
+0 0 0
+D0
+Küçük yeraltý yolu kuzeye gidiyor.
+~
+~
+0 -1 6514
+D1
+Yol giriþten dýþarý çýkýyor.
+~
+kapý~
+2 6502 6505
+D3
+Burasý bir çeþit depo giriþi gibi.
+~
+~
+0 -1 6526
+S
+#6514
+Yol~
+Kuzeyde dükkanlara ve güneyde alanýn kavþaðýna ilerleyen cüce kasabasý
+yolundasýn.
+~
+0 0 0
+D0
+
+~
+~
+0 -1 6515
+D2
+
+~
+~
+0 -1 6513
+S
+#6515
+Yol Dönüþü~
+Yol batýda Cüce dükkanýna ve güneye ilerliyor.
+~
+0 0 0
+D2
+
+~
+~
+0 -1 6514
+D3
+Cüce dükkaný batýda.
+~
+~
+0 -1 6516
+S
+#6516
+Cüce Dükkaný~
+Cüce dükkanýndasýn. Burada en iyi cüce silah ve zýrhlarýný satýn
+alabilirsin. Yol kuzeye ve doðuya devam ediyor.
+~
+0 0 0
+D0
+
+~
+~
+0 -1 6517
+D1
+
+~
+~
+0 -1 6515
+S
+#6517
+Dükkanýn Kuzeyine Giden Yol~
+Cüce dükkanýnýn kuzeyine giden bir yoldasýn. Yol kuzeye devam
+ediyor ve Granit Kafa'nýn fýrýný batýda.
+~
+0 0 0
+D0
+
+~
+~
+0 -1 6518
+D2
+
+~
+~
+0 -1 6516
+D3
+
+~
+~
+0 -1 6535
+S
+#6518
+Dükkanlarýn Kuzeyi~
+Yol burada doðudaki kýþlaya kývrýlýyor. Güneyde dükkanlarý görebiliyorsun.
+~
+0 0 0
+D1
+
+~
+~
+0 -1 6519
+D2
+
+~
+~
+0 -1 6517
+S
+#6519
+Hastane Yolu~
+Yol burada hastaneyi geçerek kuzeye ilerliyor. Doðuda kýþlaya ve batýya
+dönebilirsiniz.
+~
+0 0 0
+D0
+
+~
+~
+0 -1 6534
+D1
+
+~
+~
+0 -1 6520
+D3
+
+~
+~
+0 -1 6518
+S
+#6520
+Kýþlaya Bitiþik Yol~
+Yol batýya devam ediyor. Doðuda ise kýþla var.
+~
+0 0 0
+D1
+
+~
+~
+0 -1 6521
+D3
+
+~
+~
+0 -1 6519
+S
+#6521
+Kýþlaya Giriþ~
+Güneyde kýþla giriþi var. Yol batýya devam ediyor.
+~
+0 0 0
+D2
+
+~
+kapý~
+1 -1 6523
+D3
+
+~
+~
+0 -1 6520
+S
+#6522
+Muhafýz Evi~
+Kale giriþine ait muhafýz evi batýda. Duvarlarda çýplak posterler var.
+~
+0 0 0
+E
+poster~
+There is a wall poster of a nude Minne Pearl.
+~
+D1
+
+~
+~
+0 -1 6509
+S
+#6523
+Ýlk Kýþla Odasý~
+Kýþlanýn iki ana odasýndan ilkindesin. Kýþla güneye devam ediyor,
+kuzeyden odayý terkedebilirsin.
+~
+0 0 0
+D0
+
+~
+kapý~
+1 -1 6521
+D2
+
+~
+~
+0 -1 6524
+S
+#6524
+Kýþlanýn Arkasý~
+Burasý kýþlanýn arkasý. Sýra sýra yataklar görüyorsun. Ýçerde dayanýlmaz
+bir koku var.
+~
+0 0 0
+D0
+
+~
+~
+0 -1 6523
+D5
+
+~
+kapý~
+1 -1 2001
+S
+#6525
+Aþk Kalesinin Ýçinde~
+Kalenin içindesin. Boru þeklinde ve özelliksiz bir yer. Yukarý çýkan bir
+merdiven var, batýdaki kapýdan kalenin dýþýna çýkýlýyor.
+~
+0 0 0
+D3
+
+~
+kapý~
+2 6514 6512
+D4
+
+~
+~
+0 -1 6528
+S
+#6526
+Depo Odasý~
+Yerde 8 santimetre kalýnlýðýnda toz var. Aylardýr buraya kimse uðramamýþ.
+~
+0 0 0
+E
+yer toz~
+Yerdeki bütün tozu havaya kaldýrýnca gizli bir kapý görüyorsun.
+~
+D1
+Iþýklý fakat yýpranmýþ bir yol.
+~
+~
+0 -1 6513
+D5
+
+~
+kapý~
+1 0 6527
+S
+#6527
+Þarap Mahzeni~
+Etraftaki yoðun þarap kokusundan buranýn daha önce þarap mahzeni olarak
+kullanýldýðýný anlýyorsun.
+~
+0 0 0
+D4
+
+~
+~
+1 -1 6526
+D5
+
+~
+kapý~
+1 -1 2065
+S
+#6528
+Kaledeki Merdivenler~
+Merdivenler daire çizerek aþaðý ve yukarý ilerliyor.
+~
+0 0 0
+D4
+
+~
+~
+0 -1 6529
+D5
+
+~
+~
+0 -1 6525
+S
+#6529
+Merdivenler~
+Hala merdivenlerde daire çiziyorsun. Sürekli daire çizmekten sýkýldýn
+artýk. Merdivenler yukarý ve aþaðý ilerliyor.
+~
+0 0 0
+D4
+
+~
+~
+0 -1 6530
+D5
+
+~
+~
+0 -1 6528
+S
+#6530
+Merdivenlerin Tepesi~
+Kalenin içinde, merdivenlerin tepesindesin. Doðuda bir çýkýþ var ve
+merdivenler aþaðý uzanýyor.
+~
+0 0 0
+D1
+
+~
+~
+0 -1 6531
+D5
+
+~
+~
+0 -1 6529
+S
+#6531
+Kraliçenin Bekleme Odasý~
+Burasý kraliçenin bekleme odasý. Kraliçe insanlarýnýn biblo gibi
+beklemesinden hoþlanýyor. Kraliçenin yatak odasý kuzeyde, batýda
+merdivenleri görebiliyorsun.
+~
+0 0 0
+D0
+
+~
+kapý~
+2 6502 6532
+D3
+
+~
+~
+0 -1 6530
+S
+#6532
+Yatak Odasý~
+Burasý kraliçenin yatak odasý. Yatak kýrýþ kýrýþ. Köþede kirli çarþaf
+yýðýn var. Aynaya rujla bir not yazýlmýþ: "doðum kontrol haplarýmý aramaya
+gidiyorum. Neden beklerken kendine bir içki almýyorsun?"
+~
+0 0 0
+D2
+
+~
+kapý~
+2 6502 6531
+S
+#6534
+Hastane~
+Cüce hastanesindesin. Çürümüþ alkol kokuyor. Duvarlarda kan izleri
+görüyorsun.
+~
+0 0 0
+D2
+
+~
+~
+0 -1 6519
+S
+#6535
+Fýrýn~
+Bu odadaki koku mis gibi. Piþen haburu tadýyorsun sanki. Taze taze...
+~
+0 0 0
+D1
+
+~
+~
+0 -1 6517
+S
+#6540
+Karanlýk Yol~
+Yol çok aþýnmýþ ve doðuda madenlere bir giriþ var. Yol kuzeye ve batýya
+devam ediyor.
+~
+0 0 0
+D0
+
+~
+~
+0 -1 6504
+D1
+
+~
+kapý~
+2 6502 6541
+D3
+
+~
+~
+0 -1 6503
+S
+#6541
+Maden Giriþi~
+Küçük yol aþaðý madenlere yöneliyor. Aþýnmýþ yol ise batýya devam ediyor.
+~
+0 0 0
+D3
+
+~
+kapý~
+2 6502 6540
+D5
+
+~
+~
+0 -1 6542
+S
+#6542
+Madenin Ýçinde~
+Etrafta bir sürü delik var. Cüceler bu kayanýn içinde bu þekilde ne
+aramýþ olabilirler? Bir yol aþaðý ve yukarý gidiyor.
+~
+0 0 0
+D4
+
+~
+~
+0 -1 6541
+D5
+
+~
+~
+0 -1 6554
+S
+#6543
+Maden Yolu~
+Madenin derinlerindesin ve kendini hiç rahat hissetmiyorsun. Yol doðuya
+ve batýda maden bacasýna ilerliyor.
+~
+0 0 0
+D1
+
+~
+~
+0 -1 6544
+D3
+
+~
+~
+0 -1 6554
+S
+#6544
+Maden Kavþaðý~
+Madende bir kavþaktasýn. Kuzeyde bir kapý var. Yol ise güneye, doðuya ve
+batýya devam ediyor.
+~
+0 0 0
+D0
+
+~
+kapý~
+2 6502 6546
+D1
+
+~
+~
+0 -1 6545
+D2
+
+~
+~
+0 -1 6551
+D3
+
+~
+~
+0 -1 6543
+S
+#6545
+Kömür Odasý~
+Madenin depolandýðý bölümdesin. Kolonlar çürük gibi görünse de oda çok
+saðlam.
+~
+0 0 0
+D3
+
+~
+~
+0 -1 6544
+S
+#6546
+Maden Labirenti~
+Maden labirentine girdin. Doðuda yazýtlar görüyorsun ve güneyden
+çýkabilirsin.
+~
+0 0 0
+D1
+
+~
+~
+0 -1 6547
+D2
+
+~
+kapý~
+2 6502 6544
+S
+#6547
+Labirent Yazýtý~
+Labirentin içindesin. Çok geçmeden kaybolabilirsin.
+~
+0 0 0
+D0
+
+~
+~
+0 -1 6548
+D3
+
+~
+~
+0 -1 6546
+S
+#6548
+Labirent~
+Labirenttesin.
+~
+0 0 0
+D0
+
+~
+~
+0 -1 6549
+D2
+
+~
+~
+0 -1 6547
+S
+#6549
+Labirent~
+Labirenttesin.
+~
+0 0 0
+D0
+
+~
+~
+0 -1 6550
+D3
+
+~
+~
+0 -1 6548
+S
+#6550
+Labirent~
+Labirenttesin.
+~
+0 0 0
+D2
+
+~
+~
+0 -1 6549
+D3
+
+~
+~
+0 -1 6552
+S
+#6551
+Maden Ekipman Odasý~
+Cüce madenciler tarafýndan kullanýlan maden ekipmanlarýnýn bulunduðu
+odadasýn. Oda oldukça küçük olduðundan burayý çok fazla cücenin
+kullanmadýðýný düþünüyorsun.
+~
+0 0 0
+D0
+
+~
+~
+0 -1 6544
+S
+#6552
+Labirenti Çözdün~
+Labirenti çözdün. Birkaç oda kaldýðýndan beri bir iþçinin hatýrlayamayacaðý
+kadar karýþýk bir labirentte olduðunu düþünüyordun. Burasý oldukça ýssýz.
+Güneyde nahoþ bir oda var. Kuzeyde labirenti görüyorsun. Güney çýkýþýnda bir
+suikast (özellikle kraliçeye karþý) planlayanlarýn bir iþareti var.
+~
+0 0 0
+D1
+
+~
+~
+0 -1 6550
+D3
+
+~
+~
+0 -1 6553
+S
+#6553
+Labirent Bekçisinin Odasý~
+Labirent bekçisinin odasýna girdin. Duvarda bir kraliçe haritasý ve
+üzerine saplanmýþ dartlar var. Duvarda sprey ile þunlar yazýlmýþ: "Kraliçe
+acý çekecek", "Katolik Kurallarý"...
+~
+0 0 0
+D1
+
+~
+~
+0 -1 6552
+S
+#6554
+Maden Bacasýnýn Altý~
+Maden bacasýnýn altýndasýn. Hava kurum kokuyor, nefes almak oldukça güç.
+Baca doðuya ve yukarýya ilerliyor.
+~
+0 0 0
+D1
+
+~
+~
+0 -1 6543
+D4
+
+~
+~
+0 -1 6542
+S
+#6562
+Cüce Krallýðýn Daðlarý~
+Cüce diyarýnýn daðlarýndasýn. Cücelerle devler burada daðlarýn
+derinliklerinden kýymetli taþlar ve mitril çýkarýrlar. Cüce kraliçesinin
+sarayý muazzam zenginliðiyle burada. Fakat dikkat et, madenlerde cinlerin ve
+iblislerin dolaþtýðý söylenir. Cüce krallýðý doðuda.
+~
+0 0 5
+D1
+Cüce Krallýðý bekliyor ! !
+~
+~
+0 -1 6500
+D3
+Büyük daðýn küçük tepelerini görüyorsun.
+~
+~
+0 -1 4000
+S
+#0
+#RESETS
+D 0 6527   5    1	* Wine cellar down
+D 0 6524   5    1	* Back of Barracks down
+D 0 6505   3    2	* Entrance to Mountain west
+D 0 6513   1    2	* Inside the entrance east
+D 0 6509   1    2	* Door to Kingdom east
+D 0 6510   3    2	* Path to the Castle west
+D 0 6512   1    2	* Door to Castle east
+D 0 6525   3    2	* Inside of Castle Strangelove west
+D 0 6521   2    1	* Entrance to barracks south
+D 0 6523   0    1	* First Barrack room north
+D 0 6526   5    1	* A store room down
+D 0 6527   4    1	* Wine cellar up
+D 0 6540   1    2	* Dark path east
+D 0 6541   3    2	* Mine entrance west
+D 0 6544   0    2	* Mine crossroad north
+D 0 6546   2    2	* Mine Maze south
+D 0 6531   0    1	* Queen's waiting room north
+D 0 6532   2    1	* Bedroom south
+M 0 6500  10 6505  2	* the dwarven guard
+E 1 6504  10   16	*   a hammer
+E 1 6505  10    5	*   dwarven plate mail
+G 1 6502  10     	*   a deep green key
+M 0 6500  10 6505  2	* the dwarven guard
+E 1 6504  10   16	*   a hammer
+E 1 6505  10    5	*   dwarven plate mail
+M 0 6500  10 6540  2	* the dwarven guard
+E 1 6504  10   16	*   a hammer
+E 1 6505  10    5	*   dwarven plate mail
+G 1 6502  10     	*   a deep green key
+M 0 6500  10 6540  2	* the dwarven guard
+E 1 6504  10   16	*   a hammer
+E 1 6505  10    5	*   dwarven plate mail
+O 0 6506   1 6534	* long, black stick
+O 0 6507   2 6513	* long, black stick
+O 0 6507   2 6505	* long, black stick
+O 0 6507   2 6503	* long, black stick
+O 0 6507   1 6540	* long, black stick
+M 0 6501   6 6503  2	* the dwarven worker
+M 0 6501   6 6502  2	* the dwarven worker
+M 0 6501   6 6501  2	* the dwarven worker
+M 0 6502   2 6527  1	* the wraith
+G 1 6502  10     	*   a deep green key
+M 0 6503   1 6516  1	* the storekeeper
+G 1 6504  10     	*   a hammer
+G 1 6505  10     	*   dwarven plate mail
+G 1 6510  10     	*   a dwarven helmet
+G 1 6511  10     	*   a dwarven golden ring
+G 1 6512  10     	*   dwarven gloves
+E 1 6504  10   16	*   a hammer
+M 0 6504   1 6535  1	* the baker
+G 1 3000  10     	*   a barrel of beer
+G 1 3003  10     	*   a bottle of firebreather
+G 1 3009  10     	*   a big pot pie
+G 1 3031  10     	*   a hooded brass lantern
+E 1 6504  10   16	*   a hammer
+M 0 6505   2 6515  1	* the giant lizard
+M 0 6506   2 6508  2	* the giant
+M 0 6500  10 6509  2	* the dwarven guard
+E 1 6509  10   16	*   a two-handed dwarven axe
+E 1 6510  10    6	*   a dwarven helmet
+E 1 6511  10    1	*   a dwarven golden ring
+M 0 6500  10 6509  2	* the dwarven guard
+E 1 6512  10    9	*   dwarven gloves
+E 1 6509  10   16	*   a two-handed dwarven axe
+E 1 6505  10    5	*   dwarven plate mail
+M 0 6507   4 6543  3	* the dwarven miner
+E 1 6508  10   16	*   dwarven club
+M 0 6507   4 6543  3	* the dwarven miner
+E 1 6508  10   16	*   dwarven club
+M 0 6507   4 6542  2	* the dwarven miner
+E 1 6508  10   16	*   dwarven club
+M 0 6508   2 6543  2	* the dwarven mine leader
+E 1 6512  10    9	*   dwarven gloves
+E 1 6504  10   16	*   a hammer
+M 0 6510   4 6534  4	* the dwarven peon
+M 0 6510   4 6534  4	* the dwarven peon
+M 0 6514   4 6521  4	* the barracks guard
+E 1 6509  10   16	*   a two-handed dwarven axe
+M 0 6514   4 6521  4	* the barracks guard
+E 1 6509  10   16	*   a two-handed dwarven axe
+M 0 6500  10 6521  2	* the dwarven guard
+M 0 6500  10 6521  2	* the dwarven guard
+M 0 6511   8 6523  6	* the dwarf
+M 0 6511   8 6523  6	* the dwarf
+E 1 6508  10   16	*   dwarven club
+E 1 6514  10   17	*   a castle key
+M 0 6511   8 6523  6	* the dwarf
+M 0 6511   8 6523  6	* the dwarf
+M 0 6511   8 6524  6	* the dwarf
+O 0 6513   1 6524	* a note
+M 0 6502   2 6524  1	* the wraith
+M 0 6511   8 6524  6	* the dwarf
+G 1 6520  10     	*   a map of Castle Strangelove
+M 0 6512   3 6528  2	* the unwanted son
+M 0 6512   3 6529  2	* the unwanted son
+M 0 6513   3 6529  2	* the unwanted daughter
+M 0 6513   3 6530  2	* the unwanted daughter
+M 0 6515   4 6531  4	* the man in waiting
+M 0 6515   4 6531  4	* the man in waiting
+M 0 6509   1 6534  1	* the dwarven doctor
+E 1 6506  10   17	*   long, black stick
+G 1 6519  10     	*   a box of birth control pills
+M 0 6516   1 6553  1	* the mazekeeper
+G 1 6519  10     	*   a box of birth control pills
+M 0 6517   2 6548  1	* the giant snake
+M 0 6517   2 6549  1	* the giant snake
+O 0 6516   1 6532	* a mine key
+O 0 6517   6 6545	* a chunk of coal
+O 0 6518   3 6551	* a mining pick
+M 0 6500  10 6512  2	* the dwarven guard
+E 1 6504  10   16	*   a hammer
+M 0 6500  10 6512  2	* the dwarven guard
+E 1 6504  10   16	*   a hammer
+M 0 6505   2 6520  1	* the giant lizard
+M 0 6518   1 6505  1	* the worker with iron
+G 1 6521   1     	*   iron bars
+G 1 6522   1     	*   iron bars
+S
+
+#SHOPS
+6503  0  0  0  0  0 	 150  50 	 0 23 	* the storekeeper
+6504  0  0  0  0  0 	 150  50 	 0 23 	* the baker
+0
+
+#SPECIALS
+S
+
+#$

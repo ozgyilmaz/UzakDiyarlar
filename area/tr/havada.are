@@ -1,0 +1,1187 @@
+#AREA
+havada.are~
+Havada~
+{ 5 10} Copper  Havada~
+1000 1099
+#MOBILES
+#1000
+kadim peri ejderhasý~
+Bir peri ejderhasý~
+Bir peri ejderhasý buralarda kanat çýrpýp yapacak bir þeyler arýyor...
+~
+It's a cute little multi-colored dragon... About 2 foot long. It
+gracefully dances around your head.
+~
+human~
+AGR DE 500 0
+5 0 2d7+46 5d9+100 1d5+0 none
+6 6 6 8
+FU 0 0 0
+stand stand none 1
+AHMV ABCDEFGHIJK medium 0
+#1001
+kadim grifon~
+Bir grifon~
+Büyük kara kanatlý bir grifon saldýrmak için hamle yapýyor.
+~
+Golden maned and black all over. It's quite a beautiful creature if not
+for the fact it is hungry and is attacking you!
+~
+human~
+AFG 0 300 0
+8 0 2d7+96 4d9+100 1d7+2 none
+3 3 3 9
+EFNU 0 0 0
+stand stand male 25
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#1001
+gül~
+Kýrmýzý bir gül~
+Kýrmýzý bir gül yerde duruyor.~
+oldstyle~
+treasure 0 AE
+0 0 0 0 0
+0 80 0 P
+E
+gül~
+Bu kýrmýzý, baþ döndürücü kokusuyla bir gül.
+~
+#0
+
+
+
+#ROOMS
+#1001
+Havada ...~
+Uçuyorsun! Yerin 40 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D1
+Ayný.
+~
+~
+0 0 1006
+D2
+Ayný.
+~
+~
+0 0 1002
+D4
+Ayný.
+~
+~
+0 0 1021
+S
+#1002
+Havada ...~
+Uçuyorsun! Yerin 20 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1001
+D1
+Ayný.
+~
+~
+0 0 1007
+D2
+Ayný.
+~
+~
+0 0 1003
+D4
+Ayný.
+~
+~
+0 0 1022
+S
+#1003
+Havada ...~
+Uçuyorsun! Yerin 20 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1002
+D1
+Ayný.
+~
+~
+0 0 1008
+D2
+Ayný.
+~
+~
+0 0 1004
+D4
+Ayný.
+~
+~
+0 0 1023
+S
+#1004
+Havada ...~
+Uçuyorsun! Yerin 40 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1003
+D1
+Ayný.
+~
+~
+0 0 1009
+D2
+Ayný.
+~
+~
+0 0 1005
+D4
+Ayný.
+~
+~
+0 0 1024
+S
+#1005
+Havada ...~
+Uçuyorsun! Yerin 40 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1004
+D1
+Ayný.
+~
+~
+0 0 1010
+D4
+Ayný.
+~
+~
+0 0 1025
+S
+#1006
+Havada ...~
+Uçuyorsun! Yerin 40 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D1
+Ayný.
+~
+~
+0 0 1011
+D2
+Ayný.
+~
+~
+0 0 1007
+D3
+Ayný.
+~
+~
+0 0 1001
+D4
+Ayný.
+~
+~
+0 0 1026
+S
+#1007
+Havada ...~
+Uçuyorsun! Yerin 20 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1006
+D1
+Ayný.
+~
+~
+0 0 1012
+D2
+Ayný.
+~
+~
+0 0 1008
+D3
+Ayný.
+~
+~
+0 0 1002
+D4
+Ayný.
+~
+~
+0 0 1027
+S
+#1008
+Havada ...~
+Uçuyorsun! Yerin 40 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1007
+D1
+Ayný.
+~
+~
+0 0 1013
+D2
+Ayný.
+~
+~
+0 0 1009
+D3
+Ayný.
+~
+~
+0 0 1003
+D4
+Ayný.
+~
+~
+0 0 1028
+D5
+
+~
+~
+0 -1 12985
+S
+#1009
+Havada ...~
+Uçuyorsun! Yerin 20 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1008
+D1
+Ayný.
+~
+~
+0 0 1014
+D2
+Ayný.
+~
+~
+0 0 1010
+D3
+Ayný.
+~
+~
+0 0 1004
+D4
+Ayný.
+~
+~
+0 0 1029
+S
+#1010
+Havada ...~
+Uçuyorsun! Yerin 40 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1009
+D1
+Ayný.
+~
+~
+0 0 1015
+D3
+Ayný.
+~
+~
+0 0 1005
+D4
+Ayný.
+~
+~
+0 0 1030
+S
+#1011
+Havada ...~
+Uçuyorsun! Yerin 40 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D1
+Ayný.
+~
+~
+0 0 1016
+D2
+Ayný.
+~
+~
+0 0 1012
+D3
+Ayný.
+~
+~
+0 0 1006
+D4
+Ayný.
+~
+~
+0 0 1031
+S
+#1012
+Havada ...~
+Uçuyorsun! Yerin 20 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1011
+D1
+Ayný.
+~
+~
+0 0 1017
+D2
+Ayný.
+~
+~
+0 0 1013
+D3
+Ayný.
+~
+~
+0 0 1007
+D4
+Ayný.
+~
+~
+0 0 1032
+S
+#1013
+Havada ...~
+Uçuyorsun! Yerin 40 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1012
+D1
+Ayný.
+~
+~
+0 0 1018
+D2
+Ayný.
+~
+~
+0 0 1014
+D3
+Ayný.
+~
+~
+0 0 1008
+D4
+Ayný.
+~
+~
+0 0 1033
+S
+#1014
+Havada ...~
+Uçuyorsun! Yerin 20 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1013
+D1
+Ayný.
+~
+~
+0 0 1019
+D2
+Ayný.
+~
+~
+0 0 1015
+D3
+Ayný.
+~
+~
+0 0 1009
+D4
+Ayný.
+~
+~
+0 0 1034
+S
+#1015
+Havada ...~
+Uçuyorsun! Yerin 40 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1014
+D1
+Ayný.
+~
+~
+0 0 1020
+D3
+Ayný.
+~
+~
+0 0 1010
+D4
+Ayný.
+~
+~
+0 0 1035
+S
+#1016
+Havada ...~
+Uçuyorsun! Yerin 10 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D2
+Ayný.
+~
+~
+0 0 1017
+D3
+Ayný.
+~
+~
+0 0 1011
+D4
+Ayný.
+~
+~
+0 0 1036
+S
+#1017
+Havada ...~
+Uçuyorsun! Yerin 40 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1016
+D2
+Ayný.
+~
+~
+0 0 1018
+D3
+Ayný.
+~
+~
+0 0 1012
+D4
+Ayný.
+~
+~
+0 0 1037
+D5
+Ayný.
+~
+~
+0 0 3057
+S
+#1018
+Havada ...~
+Uçuyorsun! Yerin 40 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1017
+D2
+Ayný.
+~
+~
+0 0 1019
+D3
+Ayný.
+~
+~
+0 0 1013
+D4
+Ayný.
+~
+~
+0 0 1038
+S
+#1019
+Havada ...~
+Uçuyorsun! Yerin 40 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1018
+D2
+Ayný.
+~
+~
+0 0 1020
+D3
+Ayný.
+~
+~
+0 0 1014
+D4
+Ayný.
+~
+~
+0 0 1039
+S
+#1020
+Havada ...~
+Uçuyorsun! Yerin 40 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1019
+D3
+Ayný.
+~
+~
+0 0 1015
+D4
+Ayný.
+~
+~
+0 0 1040
+S
+#1021
+Havada ...~
+Uçuyorsun! Yerin 60 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D1
+Ayný.
+~
+~
+0 0 1026
+D2
+Ayný.
+~
+~
+0 0 1022
+D5
+Ayný.
+~
+~
+0 0 1001
+S
+#1022
+Havada ...~
+Uçuyorsun! Yerin 40 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1021
+D1
+Ayný.
+~
+~
+0 0 1027
+D2
+Ayný.
+~
+~
+0 0 1023
+D5
+Ayný.
+~
+~
+0 0 1002
+S
+#1023
+Havada ...~
+Uçuyorsun! Yerin 60 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1022
+D1
+Ayný.
+~
+~
+0 0 1028
+D2
+Ayný.
+~
+~
+0 0 1024
+D5
+Ayný.
+~
+~
+0 0 1003
+S
+#1024
+Havada ...~
+Uçuyorsun! Yerin 60 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1023
+D1
+Ayný.
+~
+~
+0 0 1029
+D2
+Ayný.
+~
+~
+0 0 1025
+D5
+Ayný.
+~
+~
+0 0 1004
+S
+#1025
+Havada ...~
+Uçuyorsun! Yerin 60 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1024
+D1
+Ayný.
+~
+~
+0 0 1030
+D5
+Ayný.
+~
+~
+0 0 1005
+S
+#1026
+Havada ...~
+Uçuyorsun! Yerin 60 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D1
+Ayný.
+~
+~
+0 0 1031
+D2
+Ayný.
+~
+~
+0 0 1027
+D3
+Ayný.
+~
+~
+0 0 1021
+D5
+Ayný.
+~
+~
+0 0 1006
+S
+#1027
+Havada ...~
+Uçuyorsun! Yerin 40 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1026
+D1
+Ayný.
+~
+~
+0 0 1032
+D2
+Ayný.
+~
+~
+0 0 1028
+D3
+Ayný.
+~
+~
+0 0 1022
+D5
+Ayný.
+~
+~
+0 0 1007
+S
+#1028
+Havada ...~
+Uçuyorsun! Yerin 60 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1027
+D1
+Ayný.
+~
+~
+0 0 1033
+D2
+Ayný.
+~
+~
+0 0 1029
+D3
+Ayný.
+~
+~
+0 0 1023
+D5
+Ayný.
+~
+~
+0 0 1008
+S
+#1029
+Havada ...~
+Uçuyorsun! Yerin 40 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1028
+D1
+Ayný.
+~
+~
+0 0 1034
+D2
+Ayný.
+~
+~
+0 0 1030
+D3
+Ayný.
+~
+~
+0 0 1024
+D5
+Ayný.
+~
+~
+0 0 1009
+S
+#1030
+Havada ...~
+Uçuyorsun! Yerin 60 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1029
+D1
+Ayný.
+~
+~
+0 0 1035
+D3
+Ayný.
+~
+~
+0 0 1025
+D5
+Ayný.
+~
+~
+0 0 1010
+S
+#1031
+Havada ...~
+Uçuyorsun! Yerin 60 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D1
+Ayný.
+~
+~
+0 0 1036
+D2
+Ayný.
+~
+~
+0 0 1032
+D3
+Ayný.
+~
+~
+0 0 1026
+D5
+Ayný.
+~
+~
+0 0 1011
+S
+#1032
+Havada ...~
+Uçuyorsun! Yerin 40 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1031
+D1
+Ayný.
+~
+~
+0 0 1037
+D2
+Ayný.
+~
+~
+0 0 1033
+D3
+Ayný.
+~
+~
+0 0 1027
+D5
+Ayný.
+~
+~
+0 0 1012
+S
+#1033
+Havada ...~
+Uçuyorsun! Yerin 60 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1032
+D1
+Ayný.
+~
+~
+0 0 1038
+D2
+Ayný.
+~
+~
+0 0 1034
+D3
+Ayný.
+~
+~
+0 0 1028
+D5
+Ayný.
+~
+~
+0 0 1013
+S
+#1034
+Havada ...~
+Uçuyorsun! Yerin 40 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1033
+D1
+Ayný.
+~
+~
+0 0 1039
+D2
+Ayný.
+~
+~
+0 0 1035
+D3
+Ayný.
+~
+~
+0 0 1029
+D5
+Ayný.
+~
+~
+0 0 1014
+S
+#1035
+Havada ...~
+Uçuyorsun! Yerin 60 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1034
+D1
+Ayný.
+~
+~
+0 0 1040
+D3
+Ayný.
+~
+~
+0 0 1030
+D5
+Ayný.
+~
+~
+0 0 1015
+S
+#1036
+Havada ...~
+Uçuyorsun! Yerin 30 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D2
+Ayný.
+~
+~
+0 0 1037
+D3
+Ayný.
+~
+~
+0 0 1031
+D4
+The rainbow leads onward and upward into the sky. It looks safe to travel
+on.
+~
+~
+0 0 7700
+D5
+Ayný.
+~
+~
+0 0 1016
+S
+#1037
+Havada ...~
+Uçuyorsun! Yerin 60 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1036
+D2
+Ayný.
+~
+~
+0 0 1038
+D3
+Ayný.
+~
+~
+0 0 1032
+D5
+Ayný.
+~
+~
+0 0 1017
+S
+#1038
+Havada ...~
+Uçuyorsun! Yerin 60 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1037
+D2
+Ayný.
+~
+~
+0 0 1039
+D3
+Ayný.
+~
+~
+0 0 1033
+D5
+Ayný.
+~
+~
+0 0 1018
+S
+#1039
+Havada ...~
+Uçuyorsun! Yerin 60 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1038
+D2
+Ayný.
+~
+~
+0 0 1040
+D3
+Ayný.
+~
+~
+0 0 1034
+D5
+Ayný.
+~
+~
+0 0 1019
+S
+#1040
+Havada ...~
+Uçuyorsun! Yerin 60 metre üzerindesin. Görünüþe bakýlýrsa, sonsuzu
+görebilirsin.
+~
+0 0 9
+D0
+Ayný.
+~
+~
+0 0 1039
+D3
+Ayný.
+~
+~
+0 0 1035
+D5
+Ayný.
+~
+~
+0 0 1020
+S
+#0
+#RESETS
+M 0 1000  10 1005  4	* A fairy dragon
+M 0 1000  10 1022  4	* A fairy dragon
+M 0 1000  10 1019  4	* A fairy dragon
+M 0 1001   3 1034  3	* A griffin
+S
+#SHOPS
+0
+#SPECIALS
+M 1000 spec_cast_mage      	* A fairy dragon
+S
+#$

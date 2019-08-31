@@ -1,0 +1,4119 @@
+#AREA
+camelot.are~
+Camelot~
+{20 52} Lok     Camelot~
+17300 17500
+
+#MOBILES
+#17301
+þövalye namlý~
+Namlý þövalye~
+Namlý þövalye aðýr eldiveniyle seni tokatlýyor ve düelloya çaðýrýyor!
+~
+Bilinmezliðin þövalyesi bir savaþatýnýn üzerinde, elinde bir mýzrak var ve atýna
+asýlý duran dikenli topuzu görebiliyorsun. Yaverinin elinde duran bayrak,
+þövalyenin renkleriyle bezenmiþ.
+
+~
+human~
+0 0 500 0
+22 0 5d10+400 5d5+1000 4d4+6 pound
+-5 -5 -5 5
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17302
+yaver~
+Bir yaver~
+Bir yaver burada lorduna hizmet için bulunuyor.
+~
+Bir yaver lordunun verdiði görev için burada. Berbat giyinmiþ, kötü kokuyor ve
+acelesi var gibi gözüküyor.
+~
+human~
+4 32768 250 0
+19 0 3d9+308 5d5+1000 2d7+5 pound
+-4 -4 -4 5
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17303
+þövalye seçkinlik~
+Seçkinliðin Þövalyesi~
+Seçkinliðin þövalyesi bineðinin üzerinden sana bakýyor..
+~
+Tam olarak zýrhlarla kuþanmýþ olan þövalye, teçhizatlý bir atýn üzerinde
+duruyor ve bir mýzrak taþýyor.
+~
+human~
+0 8192 750 0
+25 0 5d10+550 5d5+1000 2d10+7 slash
+-7 -7 -7 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17304
+arthur kral~
+Kral Arthur~
+Kral Arthur burada tahtýnda oturuyor ve kaybýnýn dönmesini bekliyor.
+~
+Kral Arthur kara sakallý geniþ göðüslü bir adam. Üzerinde altýn ejderhanýn
+resmedildiði tam tabakalý bir zýrh giyinmiþ. Tuhaf bir edayla Excalibur'u
+taþýyor.
+~
+human~
+2|8388608 8|128 1000 0
+38 0 10d10+1600 5d5+1000 5d6+12 pound
+-13 -13 -13 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17305
+benlad þövalye yeþil~
+Sir Benlad de Haudtesert (yeþil þövalye)~
+Sir Benlad seni eldiveniyle tokatlayýp düelloya davet ediyor!
+~
+Sir Benlad ünlü yeþil zýrhýný kuþanmýþ. Aðýr silahlý görünüyor ve elinde
+kocaman bir balta taþýyor.
+~
+human~
+32 128 250 0
+30 0 6d12+853 5d5+1000 4d6+8 slash
+-9 -9 -9 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17306
+galahad þövalye~
+Sir Galahad~
+Sir Galahad, yiðitlik timsali, Lancelot ve Elane'nin piçi, burada.
+~
+Sir Galahad beyaz zýrhýný giymiþ ve çift elli bir kýlýç taþýyor.
+~
+human~
+2|8388608 4|8|32|8192 1000 0
+40 0 15d10+1850 5d5+1000 4d8+13 slash
+-13 -13 -13 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17307
+kara þövalye~
+Kara þövalye~
+Kara bir zýrh kuþanmýþ bir þövalye; "KÝMSE GEÇEMEZ" diyor.
+~
+Kara zýrhýný kuþanmýþ, kalýn miðferli kara bir þövalye, çift-el kýlýcýna
+dayanmýþ burada duruyor.
+~
+human~
+2|32 8|32 0 0
+20 0  3d9+333 5d5+1000 2d8+5 pound
+-4 -4 -4 5
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17308
+gareth þövalye~
+Sir Gareth~
+Alacalý renkleri taþýyan zýrhlý bir þövalye burada.
+~
+Sir Gareth, Lot'un oðl, bir çok rengi taþýyan zýrhýný gururla taþýyor.
+Soylu bir genç bayaný tehlikeden kurtarmak için sabýrsýz görünüyor.
+~
+human~
+2 8192 750 0
+34 0 10d10+1200 5d5+1000 4d7+10 pound
+-11 -11 -11 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17309
+garlon þövalye~
+Sir Garlon~
+Sir Garlon, görünmez þövalye, burada bekliyor.
+~
+Sir Garlon (aþaðýlýk adam) burada gizleniyor. Görünmezlik gücü O'na,
+þeytani bir cadý tarafýndan kötü amaçlar için verilmiþti.
+~
+human~
+2|32 2|8|32768 -1000 0
+28 0 6d12+703 5d5+1000 2d12+8 pound
+-8 -8 -8 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17310
+gawaine þövalye~
+Sir Gawaine~
+Sir Gawaine, bir intikam görevi peþinde!
+~
+Sir Gawaine, Arthur'un kýzýl saçlý kuzeni, at üstünde, zýrh kuþanmýþ ve
+Galantine adýndaki uzun kýlýcýný taþýyor.
+~
+human~
+2 0 0 0
+34 0 10d10+1200 5d5+1000 4d7+10 pound
+-11 -11 -11 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17311
+lamorak þövalye~
+Sir Lamorak~
+Sir Lamorak seni farkettiði anda piç kýlýcýný savuruyor.
+~
+Sir Lamorak, Kral Pellinore'un oðlu, Kraliçe Morgawse'in sevgilisi,
+Morgan le Fey'in onikilisinin yokedicisi ve Sir Gawaine'in baþ-düþmaný burada,
+zýrh kuþanmýþ ve at üstünde bekliyor.
+~
+human~
+2 0 0 0
+30 0 6d12+853 5d5+1000 4d6+8 smash
+-9 -9 -9 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17312
+lancelot þövalye~
+Sir Lancelot du Lake~
+Sir Lancelot, Yuvarlak Masa Þövalyesi, sana sýrýtýyor.
+~
+Sir Lancelot beyaz bir ata binmiþ ve cilalý çelik bir zýrh giymiþ. Kalkaný
+havada, ve mýzraðý seni selamlamak için kalkmýþ.
+~
+human~
+2|512|1024|8388608 8|32|128|8192 1000 0
+44 0 25d10+2750 5d5+1000 8d4+15 crush
+-15 -15 -15 2
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17313
+merlin büyücü~
+Merlin~
+Muhteþem Merlin bir kitabýn içine gömülmüþ durumda.
+~
+Merlin, bir büyücü ve iblisin oðlu, Camelot'un gözcüsü, dünyevi renklere
+bezenmiþ bir cübbeye sarýlmýþ, uzun bir asa taþýyor. Ak sakalý tuhaf çenesini
+ve parlayan mavi gözlerini gizliyor.
+~
+human~
+2|4|128 4|8|16|512|524288 750 0
+40 0 15d10+1850 5d5+1000 4d8+13 pound
+-13 -13 -13 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17314
+morgan büyücü~
+Morgan Le Fey~
+Çekici gülümsemesiyle güzel bir kadýn burada duruyor!
+~
+Morgan le Fey, þeytani efsuncu, Camelot'un belasý, kýlýðýnýn içinden onu
+gördüðün anda hýrlýyor. Ýpek cübbesiyle iðrenç vücudunu gizlemek için çok çaba
+harcamýyor.
+~
+human~
+4|32|128 0 -1000 0
+24 0 5d10+500 5d5+1000 2d10+6 slap
+-6 -6 -6 4
+EFNU 0 0 0
+stand stand female 1000
+AHMV ABCDEFGHIJK medium 0
+#17315
+pellinore kral~
+Kral Pellinore~
+Kral Pellinore burada Görevci Canavar'ý arýyor.
+~
+King Pellinore sana nesillerdir soyunun aradýðý Görevci Canavar'ý görüp
+görmediðini soruyor. Ortayaþý biraz geçmiþ olsa da iyi bir savaþçýya benziyor.
+~
+human~
+0 32 0 0
+28 0 6d12+703 5d5+1000 2d12+8 pound
+-8 -8 -8 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17316
+canavar görevci~
+Görevci Canavar~
+Uzun boyunlu, aslan pençeli, benekli bir yaratýk burada týrnaklarýný kaþýyor.
+~
+Görevci Canavar seni *** YIKTI ***!
+Görevci Canavar seni === HACAMAT ETTÝ ===!
+Görevci Canavar senin saldýrýný karþýladý.
+Kesinlikle KAN KAYBEDÝYORSUN!
+Görevci Canavar mükemmel durumda.
+~
+human~
+2|32|128 8|32|32768|65536 -1000 0
+24 0 5d10+500 5d5+1000 2d10+6 claw
+-6 -6 -6 4
+FMU J HIJK FI
+stand stand none 1000
+AHMVZc ABCDEFGHIJKLPQUVX huge 0
+#17317
+tristram~
+Lyoness'li Sir Tristram~
+Sir Tristram sana sýrýtýyor.
+~
+Sir Tristram, Isolade'in talibi, Lancelot'tan sonra ikinci olarak görülen
+þövalyedir. Tabakalý bir zýrh giymiþ ve çift-elli bir kýlýç taþýyor.
+~
+human~
+2 0 0 0
+36 0 10d10+1400 5d5+1000 3d10+11 blast
+-12 -12 -12 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17318
+mordred~
+Mordred~
+Altýn zýrhlý bir çocuk sana doðru kahkaha atýyor ve asasýyla saldýrýyor!
+~
+Mordred, Lancelot ve Guniver'in gayrý-meþru oðullarý, sihirli zýrhýný giyiyor
+ve lanetli asasýný taþýyor.
+~
+human~
+32|128 128|32768 -1000 0
+34 0 10d10+1200 5d5+1000 4d7+10 pound
+-11 -11 -11 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17319
+etkilenmiþ þövalye bilinen~
+Bilinirliðin etkilenmiþ þövalyesi~
+Bilinirliðin Etkilenmiþ þövalyesi bir anda sana saldýrýyor!
+~
+Paslý bir zýrh ve çentikli bir kýlýç taþýyan bir þövalye. Daðýnýk görünüyor ve
+sana anlamsýz gözlerle bakýyor.
+~
+human~
+32 1024 -500 0
+21 0 4d10+360 5d5+1000 4d4+5 pound
+-5 -5 -5 5
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17320
+etkilenmiþ þövalye seçkinlik~
+Seçkinliðin etkilenmiþ þövalyesi~
+Seçkinliðin Etkilenmiþ þövalyesi bir anda sana saldýrýyor!
+~
+Seçkinliðin etkilenmiþ þövalyesi burada paslý zýrhýnýn içinde duruyor. Gözleri
+anlamsýz, kýlýcý çentikli ve oldukça daðýtmýþ görünüyor.
+~
+human~
+32|128 1024 -750 0
+24 0 5d10+500 5d5+1000 2d10+6 pound
+-6 -6 -6 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17321
+kadýn bekleyen~
+Bekleyen bir kadýn~
+Bekleyen bir kadýn gözlerini sana dikiyor!
+~
+Bekleyen bir kadýn sana yaklaþýp son görevinle ilgili ayrýntýlarý vermen
+konusunda baský yapýyor. Uzun bir elbise giymiþ ve saçlarýna çiçekler bezenmiþ.
+~
+human~
+0 262144 500 0
+10 0 2d7+121 5d5+100 2d4+2 punch
+1 1 1 7
+EFNU 0 0 0
+stand stand female 1000
+AHMV ABCDEFGHIJK medium 0
+#17322
+kraliçe gwenivere~
+Kraliçe Gwenivere~
+Þahin saçlý bir kadýn(kraliçe) sana yelpazesinin ardýndan göz kýrpýyor.
+~
+Gwenivere sana yasak aþký Lancelot ile ilgili bir hikaye anlatýyor.
+~
+human~
+2|4 0 0 0
+12 0 2d10+150 5d5+100 1d10+3 punch
+0 0 0 7
+EFNU 0 0 0
+stand stand female 1000
+AHMV ABCDEFGHIJK medium 0
+#17323
+yaver etkilenmiþ~
+Etkilenmiþ yaver~
+Etkilenmiþ bir yaver burada hareketsizce duruyor.
+~
+Etkilenmiþ bir yaver üzerine karýþýk ve çeþitli deri giysiler giyinmiþ.
+~
+human~
+4|128 1024|32768 -250 0
+18 0 3d9+283 5d5+1000 2d7+4 pound
+-3 -3 -3 6
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17324
+barant kral apres þövalye~
+Barant Les Apres (Yüz Þövalyenin Kralý)~
+Uzun bir pelerinin içindeki bir ak þövalye burada dikenli topuzunu
+savuruyor.
+~
+Barant Les Apres, Yüz þövalyenin kralý burada duruyor. Barant beyaz bir
+pelerin giymiþ ve bir zincirin ucunda dikenli bir topuz taþýyor. Silahýný
+kaldýrýp sana doðru sýrýtýyor.
+~
+human~
+0 0 750 0
+28 0 6d12+703 5d5+1000 2d12+8 pound
+-8 -8 -8 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17325
+dagonet ahmak soytarý~
+Dagonet (Arthur'un saray soytarýsý)~
+Rengarenk bir ahmak buraya doðru hoplayýp zýplýyor!
+~
+Dagonet, Arthur'un saray soytarýsý, sanatýnýn ustasýdýr. Birkaç býçaðý
+çevirirken bir yandan amuda kalkýp dans ediyor. Bir dövüþte kendini
+koruyabileceði izlenimini alýyorsun.
+~
+human~
+2|128 0 1000 0
+30 0 6d12+853 5d5+1000 4d6+8 pound
+-9 -9 -9 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17326
+turquine þövalye~
+Turquine~
+Bir kurt miðferini kafasýna takmýþ þövalye, neþeyle kýkýrdýyor!
+~
+Turquine pullu bir zýrh ve kurt þekilli bir miðfer giymiþ. Sýska görünüþlü
+bir adam ve gözleri sürekli saðý solu tarýyor.
+~
+human~
+2|4|128 32768 -500 0
+32 0 10d10+1000 5d5+1000 6d4+9 pound
+-10 -10 -10 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17327
+perimones þövalye~
+Perimones (Kýzýl Þövalye)~
+Kýzýl parýltýlý zýrhý olan bir þövalye seninle yüzleþiyor!
+~
+Perimones, Kýzýl Þövalye'nin kýzýl sakalý ve býyýðý var. Kýsa boylu týknaz
+bir adam. Yakut rengi zýrhý, günýþýnda parýldarken, kolluklarýndaki kýzýl
+Galenvine armasý dikkatini çekiyor.
+~
+human~
+2 8192 500 0
+32 0 10d10+1000 5d5+1000 6d4+9 pound
+-10 -10 -10 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17328
+asil bayan kadýn acý~
+Acýlý bir soylu kadýný~
+Acý çeken soylu bir bayan, burada yardým çýðlýklarý atýyor!
+~
+Bu soylu genç kýz, magandalar tarafýndan fena benzetilmiþ. Elleri arkadan
+baðlanmýþ biçimde duruyor. Nazik uzun elbisesi ise kirli ve harap olmuþ.
+~
+human~
+2 0 200 0
+8 0 2d7+96 5d5+100 1d7+2 punch
+3 3 3 8
+EFNU 0 0 0
+stand stand female 1000
+AHMV ABCDEFGHIJK medium 0
+#17329
+asilzade~
+bir asilzade~
+Tüm fýyakalý giysileriyle bir asilzade burada duruyor.
+~
+Bir asilzade, elindeki en janjanlý ve þýk pamuklu giysisini giyinmiþ.
+Ne kadar varlýklý olduðunu, taktýðý zincirler ve taþýdýðý þiþkin cüzdanla
+gözler önüne seriyor. Bir yerle gitmeye niyetliymiþ gibi görünüyor.
+~
+human~
+128 0 0 0
+15 0 3d9+208 5d5+100 2d6+3 punch
+-2 -2 -2 6
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17330
+köle~
+bir köle~
+Pis bir köle buralarda geziniyor.
+~
+Pislikler içindeki bir köle, gerçekten berbat kokuyor.
+~
+human~
+4|128 0 0 0
+5 0 2d6+60 5d5+100 1d6+1 punch
+5 5 5 9
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17331
+tüccar~
+bir tüccar~
+Parlak giysiler içindeki bir tüccar, mallarýný sana sunuyor!
+~
+Mallarýna dikkat çekebilmek için, bu tüccar oldukça parlak bir tünik giyinmiþ.
+~
+human~
+4|128 0 0 0
+10 0  2d7+121 5d5+100 2d4+2 punch
+1 1 1 7
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17332
+keþiþ~
+Bir keþiþ~
+Bir keþiþ burada Latince birþeyler mýrýldanýyor.
+~
+Bu keþiþ, kahverengi kapþonlu bir cübbe giyinmiþ. Cübbesini beline bir parça
+iple baðlamýþ ve kafasýnýn tepesi katolik modasýna uygun olarak traþlanmýþ.
+~
+human~
+0 0 0 0
+7 0 2d6+85 5d5+100 1d8+1 pound
+4 4 4 8
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17333
+mandolinci~
+bir mandolinci~
+Bir mandolinci burada neþeli biz ezgi tutturmuþ.
+~
+Festival kýyafetleribe bürünmüþ bir mandolinci burada mandolinini týngýrdatýyor.
+~
+human~
+2|4 0 100 0
+3 0 2d6+60 5d5+100 1d6+1 punch
+5 5 5 9
+EFNU 0 0 0
+stand stand female 1000
+AHMV ABCDEFGHIJK medium 0
+#17334
+ozan~
+bir ozan~
+Bir ozan burada Khezranlý Randalin adýna aðýt yakýyor.
+~
+Ozan, ipek bacaklýklar, deri bir yelek ve parlak turuncudan bir gömlek giyinmiþ.
+~
+human~
+2|4 0 100 0
+4 0 2d6+60 5d5+100 1d6+1 punch
+4 5 5 9
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17335
+palyaço~
+bir palyaço~
+Bir palyaço burada, inanýlmaz akrobatik yeteneklerini sergiliyor!
+~
+Palyaço, akrobatik hareketlerini kafa karýþtýran bir ahenkle gerçekleþtiriyor.
+
+~
+human~
+2|4 0 100 0
+5 0 2d6+60 5d5+100 1d6+1 punch
+5 5 5 9
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17336
+hizmetkar~
+bir hizmetkar~
+Bir hizmetkar yanýndan rüzgar gibi geçiyor.
+~
+Bir hizmetkar, elinde oldukça leziz görünen sýcak bir yemek taþýyor.
+~
+human~
+4 32768 0 0
+2 0 2d6+20 5d5+100 1d6+1 punch
+5 5 5 9
+EFNU 0 0 0
+stand stand female 1000
+AHMV ABCDEFGHIJK medium 0
+#17337
+iblis~
+Siyah pullu koca bir iblis~
+Siyah pullu koca bir iblis, ruhunla beslenmek için gelmiþ!
+~
+20 fit uzunluðundaki iblisin, iki kafasý, siyah pullu bir derisi, bir
+aðýz dolusu sivri diþleri, dört kolu ve biçici pençeleri ve iki kaslý
+bacaðý var. Kafalarý yarasaya benziyor ve kara gözleri sana doðru
+açlýkla bakýyor. Sen onun önünde dururken, gürültüyle soluk veriyor ve
+sýcak nefesiyle kavruluyorsun. Tüm rüyalarýnda seni korkutan iblis
+iþte bu! Merlin onu buraya, sihirli eþyalar yaratma konusundaki
+yeteneklerinden istifade etmek için hapsetmiþ, ancak tutsaklýðýnda
+ortaya çýkan bir kaç pürüz, bu yaratýðýn Camelot'un yokoluþuna
+zemin hazýrlayan bazý þeyler üretmesine neden olmuþ.
+~
+unique~
+ABKe 4|8|16|32|128|512|1024 -1000 0
+52 0 50d10+7750 5d5+5000 8d9+20 charge
+-22 -22 -22 0
+EFNU 0 HIJK F
+stand stand none 1000
+AHMVZc ABCDEFGHIJKLPQUVX medium 0
+#17338
+jack demir~
+Demir Jack~
+Demir Jack, Camelot'un zýrhçýsý burada.
+~
+Kaslarla donanmýþ kollarý olan Demir Jack, demirci önlüðünü ve deri
+bacaklýklarýný giyinmiþ.
+~
+human~
+2|262144|524288 0 500 0
+30 0 6d12+853 5d5+1000 4d6+8 pound
+-9 -9 -9 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17339
+stirrup ahýr sorumlusu~
+Stirrup~
+Stirrup, Camelot'un ahýr sorumlusu burada.
+~
+Stirrup kýsa bir adam ve deri yeleðini giyinmiþ. Kokusu ise ayný atlara
+benziyor.
+~
+human~
+2 0 400 0
+25 0 5d10+550 5d5+1000 2d10+7 pound
+-7 -7 -7 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17340
+binek atý~
+bir binek atý~
+Bir binek atý burada.
+~
+Uzun narin bacaklarý olan hýzlý bir binek atý, hafif malzemelerle eyerlenmiþ.
+~
+human~
+256 0 0 0
+18 0 3d9+283 5d5+1000 2d7+4 charge
+-3 -3 -3 6
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17341
+savaþatý orta~
+orta boyutta bir savaþatý~
+Orta boyutlarda bir savaþatý buraya baðlanmýþ.
+~
+Orta boylu bir savaþatý aðýr malzemelerle eyerlenmiþ.
+~
+human~
+256 0 0 0
+23 0 5d10+450 5d5+1000 3d6+6 charge
+-6 -6 -6 4
+EFNU 0 0 0
+stand stand female 1000
+AHMV ABCDEFGHIJK medium 0
+#17342
+savaþatý aðýr~
+Aðýr bir savaþatý~
+Aðýr bir savaþatý yeri çifteleyerek, savaþa hazýr olduðunu gösteriyor!
+~
+Koskoca ve aðýr zýrhlandýrýlmýþ bir savaþ atý, tamamen zincirlerle donatýlmýþ.
+~
+human~
+256 0 0 0
+28 0 6d12+703 5d5+1000 2d12+8 charge
+-8 -8 -8 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17343
+akýncý sakson~
+bir Sakson akýncýsý~
+Bir Sakson akýncýsý burada, kelleni bir ganimet olarak almak için hazýr.
+~
+Bir Sakson akýncýsý saksýný (evet bu bir silah ismidir) taþýyor ve çeþitli
+deri malzemelerle donanmýþ.
+~
+human~
+2|4|32 65536 -200 0
+20 0 3d9+333 5d5+1000 2d8+5 charge
+-4 -4 -4 5
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17344
+esir~
+bir esir~
+Bir esir burada savaþtan sývýþýyor.
+~
+Bu esir kirli ve bakýmsýz olmasýna raðmen bir zamanlar taþýdýðý asaleti hala
+duruþunda ve endamýnda barýndýrýyor.
+~
+human~
+4|8388608 65536 0 0
+5 0 2d6+60 5d5+100 1d6+1 punch
+5 5 5 9
+EFNU 0 0 0
+stand stand female 1000
+AHMV ABCDEFGHIJK medium 0
+#17345
+þef sakson render~
+bir Sakson Þefi~
+Bir Sakson þefi burada, akýncýlarýna liderlik ediyor!
+~
+Sakson Þefi Render, savaþ ekipmanlarýný giyinmiþ bekliyor.
+~
+human~
+2|4|32 8|32|65536 -500 0
+28 0 6d12+703 5d5+1000 2d12+8 pound
+-8 -8 -8 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17346
+kuzey sýnýr nöbetçi~
+bir kuzey sýnýrý nöbetçisi~
+Bir kuzey sýnýrý nöbetçisi burada sýnýrý istilacýlardan koruyor.
+~
+Zincir zýrhlar giyinmiþ olan sýnýr nöbetçisi, standart yapým bir kýlýç taþýyor.
+~
+human~
+2 32|8192 300 0
+20 0  3d9+333 5d5+1000 2d8+5 pound
+-4 -4 -4 5
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17347
+ileri karakol komutan~
+Kuzey karakol komutaný~
+Bir kuzey ileri karakol komutaný burada, adamlarýnýn saygýsý sayesinde güvenle
+oturuyor.
+~
+Ýleri karakol komutaný, görmüþ geçirmiþ bir savaþgazisi ve görünüþe bakýlýrsa
+savaþta insanlara liderlik etmek için doðmuþ.
+~
+human~
+2|1024 8|32|8192 500 0
+25 0 5d10+550 5d5+1000 2d10+7 pound
+-7 -7 -7 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17348
+iskoç klan üyesi~
+bir Ýskoç klan üyesi~
+Bir Ýskoç klan üyesi burada, kadýnýna ve viskine el koymaya niyetli görünüyor!
+~
+Bir Ýskoç klaný üyesi, ekoseli bir eteklik, deri terlikler, ve omuzlarýndan
+sarkan düz bir kumaþ giyinmiþ. 4 fit uzunluðunda oldukça güzel bir kýlýç taþýyor.
+~
+human~
+2|4 0 0 0
+22 0 5d10+400 5d5+1000 4d4+6 punch
+-5 -5 -5 5
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17349
+þef klan iskoç~
+Ýskoç Klaný Þefi~
+Ýskoç Klaný'nýn þefi burada, klan üyelerinin kadýnlarýna ve viskilerine göz dikmiþ!
+~
+Ýskoç Klaný Þefi önünde dikiliyor. Görünüþe bakýlýrsa, bir omuzla koca bir
+aðacý devirebilir. Görünüþe bakýlýrsa, bir çatalla bir tabur askeri harcayabilir.
+Görünüþe bakýlýrsa bir fýçý aleyi mideye indirdikten sonra bile viski içebilir.
+Görünüþe bakýlýrsa...
+~
+human~
+2|4|512 0 -100 0
+28 0 6d12+703 5d5+1000 2d12+8 pierce
+-8 -8 -8 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17350
+toprak köle meþgul~
+Meþgul bir toprak kölesi~
+Meþgul bir toprak kölesi burada, tarlalarý hasada hazýrlýyor.
+~
+Toprak kölesinin bir tarla aracý ve üstüne giydiði bir paçavrasý var.
+~
+human~
+2|4 0 0 0
+1 0 1d1+10 1d1+1 1d1+1 punch
+10 10 10 10
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17351
+akýncý ingil~
+bir Ýngil akýncýsý~
+Bir Ýngil akýncýsý burada kulubeleri kundaklayýp, kadýnlarýn ýrzýna geçiyor!
+~
+Ýngil akýncýsý uzun boylu, sarýþýn bir adam ve boynuzlu bir miðfer giyiyor.
+Küçük bir kalkaný özel silahlarý olan Ýngil'i taþýyor. (kývrýk bir kýlýç türü)
+Deri parçalý bir zýrhý var.
+~
+human~
+2|4|32 0 -200 0
+24 0 5d10+500 5d5+1000 2d10+6 pound
+-6 -6 -6 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17352
+þef ingil~
+Ýngil Þefi~
+Ýngillerin Þefi burada, katliama öncülük ediyor!
+~
+Deb bir adam olan Ýngil þefi, kana bulanmýþ ve her cinayetinde sinir bozucu bir
+kahkaha atýyor.
+~
+human~
+2|32 32 -700 0
+30 0 6d12+853 5d5+1000 4d6+8 pound
+-9 -9 -9 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17353
+süvari birlik~
+süvari birliði~
+Bir süvari birliði burada düþman hatlarýný kuþatýyor.
+~
+Bu süvari birliði otuza yakýn orta boylu savaþatlarýna binmiþ þövalyeden
+oluþuyor.
+~
+unique~
+2 0 200 0
+45 0 25d10+3000 5d5+1000 8d4+16 blast
+-15 -15 -15 2
+C 0 0 0
+stand stand none 1000
+AHMV ABCDEFGHIJK huge 0
+#17354
+piyade birlik~
+piyade birliði~
+Piyade birliði burada Pict ordularýyla savaþýyor.
+~
+Piyade birliði elliye yakýn kargýlý yaver ve sipahiden oluþuyor.
+~
+unique~
+2 0 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 blast
+-13 -13 -13 3
+CO 0 0 0
+stand stand none 1000
+AHMV ABCDEFGHIJK huge 0
+#17355
+bölük pict pictler~
+pict taburu~
+Pict taburu burada Camelot ordusuyla savaþýyor.
+~
+Pict taburu beþ yüz civarý zayýf derecede zýrhlanmýþ eðitimsiz askerden
+oluþuyor.
+~
+human~
+2 0 -100 0
+50 0 50d10+4250 5d5+5000 5d8+19 charge
+-20 -20 -20 0
+CO 0 0 0
+stand stand none 1000
+AHMV ABCDEFGHIJK giant 0
+#17356
+lider pict~
+Pict Lideri~
+Pict Lideri burada savaþtan geri çekiliyor.
+~
+Pict Lideri kendisine þeytani bir görüntü kazandýran mavi savaþ boyalarýný
+sürmüþ. Zaten bu görüntü tuhaf boynuzlu miðferi ile de tamamlanýyor.
+~
+human~
+2 0 -400 0
+40 0 15d10+1850 5d5+1000 4d8+13 pound
+-13 -13 -13 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17357
+persante þövalye~
+Inde'den Persante (mavi þövalye)~
+Indeli Persante burada Camelot ordularýna mareþallik yapýyor.
+~
+Masmavi zýrhý yüzünden, Mavi Þövalye olarak adlandýrýlan Persante, saðlam
+bir bineðin üzerinde mavi sancaðýný dalgalandýrýyor.
+~
+human~
+8388608 128 400 0
+35 0 10d10+1300 5d5+1000 4d7+11 pound
+-11 -11 -11 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17358
+dodinas þövalye~
+Yýrtýcý Dodinas~
+Yýrtýcý Dodinas burada, savaþ hattýnýn merkezini bir arada tutuyor!
+~
+Dodinas tam bir silah ve dövüþ kasýrgasý, yaklaþan herkesi yerle bir ediyor.
+Ünlü bineði Rue'nin üzerinde duruyor..
+~
+human~
+8388608 0 100 0
+32 0 10d10+1000 5d5+1000 6d4+9 pound
+-10 -10 -10 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17359
+lionel þövalye~
+Lionel~
+Lionel burada, bineksiz halde yaþamý için dövüþüyor!
+~
+Lionel kana bulanmýþ ve affallamýþ þekilde yürüyor. Yakýnda yenik düþecekmiþ
+gibi bir hali var.
+~
+human~
+8388608 0 300 0
+30 0 6d12+853 5d5+1000 4d6+8 pound
+-9 -9 -9 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17360
+gaheris þövalye~
+Gaheris~
+Gaheris (Gawaine'in aðabeyi) burada akýncýlarý deviriyor.
+~
+Gaheris'in uzun kýzýl saçlarý ve gri bit aygýrý var. Ýngillere çok kýzmýþ
+olacak ki, þefe doðru yolunu kese biçe açarak ilerliyor..
+~
+human~
+2 0 500 0
+33 0 10d10+1100 5d5+1000 6d4+10 pound
+-11 -11 -11 3
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17361
+komutan güney karakol~
+Güney karakolu komutaný~
+Güney ileri karakolu komutaný burada, adamlarýnýn saygýsý sayesinde güvenle
+oturuyor.
+~
+Ýleri karakol komutaný, görmüþ geçirmiþ bir savaþgazisi ve görünüþe bakýlýrsa
+savaþta insanlara liderlik etmek için doðmuþ.
+~
+human~
+2|1024 8|32|8192 500 0
+25 0 5d10+550 5d5+1000 2d10+7 punch
+-7 -7 -7 4
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17362
+nöbetçi sýnýr güney~
+bir güney sýnýrý nöbetçisi~
+Bir güney sýnýrý nöbetçisi burada, sýnýrý istilacýlara karþý koruyor.
+~
+Sýnýr nöbetçisi zincir bir zýrh ve standart yapým bir kýlýç giyinmiþ.
+~
+human~
+2 32|8192 300 0
+20 0  3d9+333 5d5+1000 2d8+5 pound
+-4 -4 -4 5
+EFNU 0 0 0
+stand stand male 1000
+AHMV ABCDEFGHIJK medium 0
+#17363
+esir~
+bir esir~
+Bir esir burada, savaþtan sývýþýyor.
+~
+Bu esir kirli ve bakýmsýz olmasýna raðmen bir zamanlar taþýdýðý asaleti hala
+duruþunda ve endamýnda barýndýrýyor.
+~
+human~
+4|8388608 65536 0 0
+5 0 2d6+60 5d5+100 1d6+1 punch
+5 5 5 9
+EFNU 0 0 0
+stand stand female 1000
+AHMV ABCDEFGHIJK medium 0
+#0
+
+#OBJECTS
+#17301
+kama yaver~
+bir yaver kamasý~
+Deri kaplý bir kama burada duruyor.
+~
+iron~
+weapon 0 AN
+dagger 5 5 pierce 0
+20 2 500 P
+A
+18 2
+A
+19 2
+#17302
+topuz þövalye~
+bir þövalyenin topuzu~
+Çivili bir topuz burada duruyor.
+~
+iron~
+weapon 0 AN
+mace 5 6 crush 0
+23 5 800 P
+A
+18 1
+A
+19 3
+#17303
+kargý þövalye þövalyenin~
+bir þövalyenin kargýsý~
+Uzun bir kargý burada duruyor.
+~
+iron~
+weapon 0 AN
+lance 5 6 stab 0
+25 15 1000 P
+A
+18 3
+A
+19 3
+#17304
+zýrh yeþil~
+yeþil bir zýrh takýmý~
+Kaliteli yeþil bir zýrh takýmý burada Hautdesert'in sandýðýnda duruyor!
+~
+mithril~
+armor GK AD
+9 9 9 9 0
+31 2 2000 P
+A
+13 10
+A
+1 2
+A
+24 -5
+#17305
+balta benlad~
+Benlad'ýn baltasý~
+Hautdesert hanedanýndan iki baþlý bir balta burada duruyor.
+~
+iron~
+weapon GK AN
+axe 5 7 slash 0
+31 7 2000 P
+A
+18 4
+A
+19 4
+A
+23 -4
+#17306
+bileklik ak~
+Ak Bileklik~
+Kör edici parýltýda ak bir bileklik burada duruyor!
+~
+admantite~
+armor ABGK AM
+11 11 11 11 0
+40 2 3000 P
+A
+1 1
+A
+2 1
+A
+5 1
+A
+18 3
+A
+19 3
+A
+13 20
+#17307
+kutsal içecek~
+Kutsal Ýçecek~
+Zarar görmüþ ahþap bir içecek kupasý yerde duruyor.
+~
+wood~
+potion GKL AO
+40 'heal' 'heal' 'heal' ''
+40 1 8500 P
+#17308
+pelerin alacalý~
+alacalý bir pelerin~
+Alacalý renklerde bir pelerin burada duruyor.
+~
+leather~
+armor GK AK
+9 9 9 9 0
+34 4 1500 P
+A
+2 2
+A
+13 20
+#17309
+kalkan~
+alacalý bir kalkan~
+Buradaki kalkandan bir gökkuþaðý dolusu renk yansýyor!
+~
+silver~
+armor GK AJ
+9 9 9 9 0
+34 4 1500 P
+A
+19 4
+#17310
+kýlýç excalibur~
+excalibur~
+Güzel ejderha iþlemeli bir kýlýç burada duruyor!
+~
+admantite~
+weapon BKL AN
+sword 5 8 slice D
+38 4 4500 P
+A
+18 5
+A
+19 5
+A
+1 3
+A
+13 20
+E
+kýlýç excalibur~
+Parmaklarýný Excalibur'un mavi-yeþil çeliðinde gezdirirken, týnlamalý bir his
+içini kaplýyor. Tüm gördüðün kör edici beyaz bir ýþýk olana kadar, görüþün
+gitgide bulanýklaþýyor. Ilýk bir his kollarýný dolduruyor ve rahatlamanýn
+getirdiði duygu içine nüfuz ediyor. Derin ve tok bir ses: "Artýk Arthur öldü,
+ve bizim doðrularýmýzý kabul ettirme görevi senin. Mordred'i ve Morgan Le Fey'i
+bul ve öldür! Onlar Camelot'u yok ediyorlar." diyor. Ses ve ýþýk birden yok
+oluyor ve seni ýlýk bir hisle baþbaþa býrakýyorlar.
+~
+#17311
+kýn arthur arthur'un altýn~
+Arthur'un kýný~
+Çok güzel altýn bir kýn burada duruyor!
+~
+gold~
+container CIKL AL
+30 0 -1 15 75
+38 3 1500 P
+A
+19 2
+A
+13 -10
+A
+23 -5
+A
+24 -5
+#17312
+kolbandý kolbantlarý garlon garlon'un~
+Garlon'un görünmez kolbantlarý~
+Kara demirden bir kolbandý çifti burada duruyor.
+~
+iron~
+armor FGJ AI
+8 8 8 0 0
+28 4 1500 P
+A
+17 -5
+A
+5 2
+#17313
+miðfer boynuzlu gawaine gawaine'in~
+Gawaine'in boynuzlu miðferi~
+Cilalanmýþ çelikten boynuzlu bir miðfer burada duruyor.
+~
+iron~
+armor C AE
+9 9 9 9 0
+34 3 2500 P
+#17314
+mahmuz gümüþ lamorak lamorak'ýn~
+Lamorak'ýn mahmuzlarý~
+Gümüþ bir mahmuz takýmý burada yatýyor.
+~
+silver~
+armor 0 AG
+9 9 9 0 0
+30 0 2000 P
+A
+19 4
+A
+18 4
+#17315
+cesaret eldiven~
+Cesaret Eldivenleri~
+Parlayan bir çift meþin eldiven sana cesareti anýmsatýyor.
+~
+iron~
+armor GIKL AH
+11 11 11 11 0
+44 3 5000 P
+A
+18 5
+A
+19 5
+#17316
+yüzük incubus ibik altýn~
+Incubus altýn ibik yüzüðü~
+Kýzýl altýndan bir yüzük burada Incubus'ý temsil ediyor.
+~
+gold~
+armor CMQ AB
+11 11 11 6 0
+40 1 2800 P
+A
+12 20
+A
+3 1
+A
+4 1
+#17317
+deðnek merlin~
+Merlin'in Deðneði~
+Ýki asmanýn sardýðý bir deðnek burada, bir güç çemberinin içinde duruyor!
+~
+wood~
+wand ABCGH AO
+80 20 20 'dispel magic' 0
+40 10 5000 P
+A
+12 10
+A
+24 -3
+#17318
+dizlik kararmýþ çelik~
+kararmýþ bir çift dizlik~
+Bir çift karartýlmýþ dizlik burada duruyor. Üzerinde bir yazýt var.~
+iron~
+armor CHM AF
+7 7 7 0 0
+21 5 1 P
+A
+14 -50
+A
+4 -4
+E
+yazýt~
+Yazýta bakýyorsun ve þunlarý okuyorsun: "Burada and içerim ki; 5 yýldýr
+Camelot'a girmeye cüret etmiþ her düþmanýmý durdurmadan, buradan ayrýlmayacaðým
+Çünkü Morgana'ya, Eveline'in iyiliði için söz verdim."
+~
+#17319
+deðnek beyaz kirli baþlýk mermer~
+Kirli beyaz baþlýklý mermer bir deðnek~
+Kirli beyaz baþlýklý mermer bir deðnek burada için için yanýyor.
+~
+stone~
+wand ACGHJ AO
+26 5 5 'charm person' 0
+26 1 23000 P
+E
+kirli beyaz baþlýk deðnek mermer~
+Deðneðin üzerinde biraz çalýþtýðýnda, içini komik bir his kaplýyor. Birden
+asanýn eski sahibi Morgan Le Fey'in görüntüsü karþýna geliyor. Kýkýrdamayla
+dolu bir gülüþ iþitiyorsun ve kýzýl gözler baþýnýn içini deliyor. Sanrý sona
+erdiðinde mesajý duyuyorsun '... baðladýðýn her kiþiyle, senin ruhun biraz daha
+bana ait olacak...'.
+~
+#17320
+çanta sýrtçantasý deri pellinore~
+pellinore'un sýrtçantasý~
+Deriden yapýlmýþ bir sýrtçantasý burada. Üzerinde harfler görüyorsun.
+~
+leather~
+container GH AD
+500 0 17321 250 75
+27 0 1200 P
+E
+harfler~
+Çantanýn üzerindeki yazýyý okuyorsun. Þöyle yazýyor:
+"Sevgili dostum Pellinore'a,
+umarým bu çanta yolculuklarýný kýsaltýr ve getirmek istediklerine barýnak olur.
+Sadece çantayý giy ve böylece taþýyabildiðin eþyalarýn sayýsý artacak, bu sayede
+de uzun mesafeleri yorulmadan katedebileceksin.
+Bu çantayý kilitlenebilir yaptým.
+( P harfli anahtarý kullan ). Görevinde baþarýlý olman dileðiyle! - Merlin".
+~
+#17321
+anahtar p harf~
+"P" harfli bir anahtar~
+P harfli bir anahtar burada.
+~
+brass~
+key 0 AO
+0 0 0 0 0
+27 1 270 P
+#17322
+yol yemeði~
+yol yemekleri~
+Bir takým yollum yemekler burada (fýndýk, kuru meyve, kurutulmuþ et).
+~
+flesh~
+food 0 A
+48 48 0 0 0
+27 4 270 P
+#17323
+termos þarap~
+bir termos dolusu iyi kýrmýzý þarap~
+Bir termos dolusu güzel ve soðuk Pinot Noir þarabý burada tadýlmayý bekliyor.
+~
+glass~
+drink 0 A
+10 10 'red wine' 0 0
+27 2 270 P
+E
+þarap termos~
+Þarabýn rengi güzel ve derin bir kýrmýzý, ayrýca her tür yemekle iyi gidiyor.
+~
+#17324
+kemik yýðýn~
+bir kemik yýðýný~
+Bir kemik yýðýný buraya yýðýlmýþ.
+~
+stone~
+trash 0 A
+0 0 0 0 0
+22 10 1 P
+#17325
+kafatasý insan~
+bir insan kafatasý~
+Bir insan kafatasý buraya býrakýlmýþ.
+~
+stone~
+trash 0 A
+0 0 0 0 0
+22 3 220 P
+#17326
+taþ siyah küçük~
+küçük siyah bir taþ~
+Küçük siyah bir taþ burada duruyor.
+~
+stone~
+pill 0 A
+25 1 34 18 0
+22 1 2600 P
+E
+taþ siyah küçük~
+Taþa bakýyorsun ve üzerine oyulmuþ tuhaf rünleri görüp anlayamýyorsun. Taþýn
+üzerinde kan var.
+~
+E
+rün~
+Ýnatçýsýn, ha? Þey evet sanýrým senin þu büyücü arkadaþýn bir keresinde
+üzerinde rünler olan bazý sihirli haplardan bahsetmiþti. Galiba bu da
+onlardan biri...
+~
+#17327
+mektup aþk~
+bir aþk mektubu~
+Balmumu ile mühürlenmiþ ve kývrýlmýþ, Tristram'a gönderilmiþ bir aþk mektubu.
+~
+paper~
+scroll G AO
+40 'pass door' 'invis' 'fly' ''
+36 1 800 P
+E
+mühür~
+Bu mühür Kral Mark'ýn mührüne benziyor.~
+E
+mektup~
+Mührü kýrýyor ve mektubu okuyorsun. Þöyle yazýyor:
+
+Sevgilim Tristram. Senin varlýðýný yakýnýmda hissedebilmek için ne kadardýr
+bekliyorum... Babam heryerde seni arýyor. Dikkatli ol! Senin canýný yakmak
+istiyor. Merlin ile konuþtum ve o bu mektubu, bana görünmez bir biçimde
+uçabilmen için efsunladý.
+
+Sonsuz aþkýmla,
+
+Isolde
+~
+#17328
+zýrh altýn~
+altýndan bir zýrh takýmý~
+Altýndan bir zýrh takýmý burada parýldýyor.
+~
+gold~
+armor EJL AD
+9 9 9 9 0
+34 5 3000 P
+A
+15 5000
+A
+17 -12
+#17329
+asa ýþýk uðursuz~
+Uðursuz ýþýk yayan bir asa~
+Bir asa burada uðursuz ve karanlýk bir ýþýk yayýyor.
+~
+admantite~
+weapon ACEG AN
+staff 5 8 pierce C
+34 10 2500 P
+A
+1 2
+A
+18 4
+A
+19 4
+A
+14 15
+E
+uðursuz asa ýþýk~
+Asayý kaplayan uðursuz ýþýða bakýyorsun. Görüþün kararýyor. Karanlýðýn
+ötesinde kýzýl parlayan gözler sana doðru bakarak, gülüp dans ediyorlar.
+Ýçini bir delilik kaplýyor ve öldürmek istiyorsun.
+Katliam! Gözyaþlarý! Tecavüz! Cinayet! - nýhaahahahahahaah!
+~
+#17330
+ipek mendil~
+ipek bir mendil~
+Ýpekten bir mendil burada.Yoksa senin kadýnýna mý ait?
+~
+cloth~
+trash 0 AO
+0 0 0 0 0
+9 1 90 P
+#17331
+gerdanlýk~
+zümrüt bir gerdanlýk~
+Üzerinde altýn iþlemeler olan, enfes bir zümrüt gerdanlýk buraya býrakýlmýþ.
+~
+gold~
+treasure 0 AC
+0 0 0 0 0
+12 2 1500 P
+#17332
+top zincir~
+iri bir dikenli top ve zincir~
+Koca, dikenli demir bir top, uzunca bir zincirin ucuna baðlanmýþ burada duruyor.
+~
+iron~
+weapon 0 AN
+exotic 5 7 crush 0
+28 30 2300 P
+A
+19 4
+#17333
+çeþit þaka~
+aptalýn çeþit çeþit þakalarý~
+Bir aptal buraya þakalarýný býrakmýþ.
+~
+cloth~
+armor 0 AE
+1 1 1 0 0
+31 3 5 P
+A
+3 -1
+#17334
+kurt baþlýklý miðfer~
+kurt baþlýklý miðfer~
+Kurt baþýna benzer þekilli bir miðfer burada duruyor.
+~
+iron~
+armor G AE
+9 9 9 9 0
+33 10 3400 P
+A
+18 3
+A
+19 3
+#17335
+zýrh parýldayan kýzýl~
+parýldayan kýzýl bir zýrh takýmý~
+Kýzýl bir zýrh takýmý günýþýðýnda gözlerini kamaþtýrýyor.
+~
+mithril~
+armor AG AD
+9 9 9 4 0
+31 15 1800 P
+A
+17 -10
+#17336
+anahtar paslý~
+paslý bir anahtar~
+Bir anahtar burada pisliðin içinde paslanýyor.
+~
+iron~
+key 0 A
+0 0 0 0 0
+38 1 10 P
+#17337
+ödül~
+ödül~
+Acý çeken soylu kadýný kurtarmanýn ödülü burada seni bekliyor.
+~
+paper~
+treasure 0 A
+0 0 0 0 0
+8 1 2000 P
+#17338
+anahtar oda~
+bir oda anahtarý~
+Genç bir bayaný betimleyen bakýr bir anahtar burada.
+~
+brass~
+key 0 A
+0 0 0 0 0
+0 1 1 P
+#17339
+þiþkin cüzdan~
+þiþkin görünen bir cüzdan~
+þiþkin görünen bir cüzdan burada.
+~
+leather~
+money 0 A
+1000 0 0 0 0
+0 1 2 P
+#17340
+kemirilmiþ pelerin~
+kemirilmiþ bir pelerin~
+Bir çeþit hayvanýn derisinden yapýlmýþ bir pelerin burada.
+~
+leather~
+armor 0 AK
+8 8 8 0 0
+29 10 600 P
+A
+1 3
+A
+5 -1
+#17341
+kýlýç çelik asil~
+bir asilin çelik kýlýcý~
+Bir asilin çelik kýlýcý gözüne iliþiyor.
+~
+iron~
+weapon 0 AN
+sword 5 6 slash 0
+24 5 1700 P
+A
+18 3
+A
+19 3
+#17342
+deri viski~
+viski derisi~
+deri gibi kokan bir viski burada.
+~
+leather~
+drink 0 A
+50 50 'whisky' 0 0
+28 10 400 P
+#17343
+gemi ejderha~
+Ejderha gemisi~
+Bir ejderha gemisi buraya demirlemiþ - Ýngil akýncýlarý neredeler acaba?
+~
+wood~
+furniture OT 0
+10 50000 L 150 150
+29 -15536 290 P
+#17344
+ingil~
+bir Ýngil~
+Bir Ýngil burada, bir akýncý etrafta olmalý.
+~
+iron~
+weapon 0 AN
+sword 5 7 slash 0
+31 15 600 P
+A
+18 -3
+A
+19 4
+#17345
+asa komut~
+bir komut asasý~
+Kapkara rünlü metal bir asa burada ýþýðý yutuyor.
+~
+iron~
+staff CJL AO
+40 10 10 'charm person' 0
+40 9 23500 P
+A
+3 1
+A
+4 1
+A
+17 -10
+E
+komut rünlü metal asa~
+Metal deðneðe bakýyorsun ve içini sapkýn bir his kaplýyor. Görüþün
+zayýflýyor ve iki kýzýl gözün içine baktýðýný görüyorsun. Þeytani bir
+kýkýrdama ruhunun derinliklerine yayýlýyor ve þunlarý iþitiyorsun:
+"Her kullanýmda, benim olacaksýn..."
+~
+#17346
+sancak savaþ persante mavi~
+Indeli Persante'nin mavi savaþ sancaðý~
+Indeli Persante'nin mavi savaþ sancaðý burada yatýyor. Persante yenilmiþ!
+~
+wood~
+light AK AO
+0 0 999 0 0
+35 20 3400 P
+A
+20 -2
+A
+21 -2
+A
+22 -2
+A
+23 -2
+A
+24 -3
+E
+sancak mavi~
+Bayraðýn üzerinde bir Griffon'un açýk mavi gökte uçuþu resmedilmiþ.
+~
+#17347
+yaþambiçici~
+Yaþambiçici~
+Mavi-siyah bir kýlýç yere çakýlmýþ.
+~
+admantite~
+weapon C AN
+sword 5 7 slash C
+32 20 3200 P
+A
+18 4
+A
+19 4
+A
+13 -10
+E
+kýlýç yaþambiçici~
+Kýlýcý baktýðýnda, baþýnýn içinde yankýlanan þu sözcükleri duyuyorsun:
+"Adým Yaþambiçici'dir ve son efendim Yýrtýcý Dodinas'týr. Al beni ve
+þeytaný biçelim!"
+~
+#17348
+zýrh tabakalý tam~
+tam tabakalý bir zýrh~
+Tam tabakalý bir zýrh takýmý yerde yatýyor.
+~
+iron~
+armor 0 AD
+11 13 12 0 0
+30 100 300 P
+A
+17 -8
+#17349
+balta~
+kocaman bir balta~
+Koskoca bir balta burada dinleniyor.
+~
+iron~
+weapon 0 AN
+axe 9 4 chop F
+33 25 2000 P
+A
+19 5
+E
+balta kocaman~
+Baltanýn sapýna 'Gaheris' ismi kazýnmýþ.
+~
+#17350
+kara þapka lok~
+Lok'un kara þapkasý~
+Lok'un kara þapkasý buraya býrakýlmýþ, belki de bunu ona vermelisin. Eheh :)
+~
+unknown~
+armor 0 AE
+3 3 3 0 0
+100 0 0 P
+A
+12 100
+A
+14 100
+A
+18 10
+A
+19 10
+A
+17 -50
+A
+20 -20
+A
+21 -20
+A
+22 -20
+A
+23 -20
+A
+24 -20
+E
+þapka lok kara~
+Þapkaya þöyle yazýlmýþ : "Ben Lok'a aidim."
+~
+#0
+
+#ROOMS
+#17301
+Arden Ormaný'ndan Önce~
+Kule gibi meþe aðaçlarý ve bilinmedik vahþi yaþamýyla, Arden Ormaný'ný
+görüyorsun. Kuzeye doðru bir patika ormanýn içlerine uzanýyor. Yaþlý
+bir meþenin üzerine çivilenmiþ bir parþömen farkediyorsun ve bir plaka
+yerdeki bir kayanýn üzerine iliþtirilmiþ.
+~
+0 4 3
+D0
+Kirli bir patika
+~
+~
+0 -1 17302
+D2
+Ormanda karanlýk bir patika
+~
+~
+0 -1 12969
+E
+Parþömen~
+Parþömende þöyle yazýyor:
+
+Bilinsin ki; Arthur, Britanyalýlarýn Kralý, Yuvarlak Masa'yý oluþturmak
+amacýndadýr. Kahramanlýðý ve erdemleri bilinen tüm þövalyeler bu aðustosta
+Camelot'da toplanacaklardýr.
+~
+E
+Plaka~
+Camelot 1994 by Lok- Birçok ekstra þey var bu yüzden odalardaki ve nesnelerdeki
+anahtar kelimelere dikkatli bakarsanýz, bölgeyi tam olarak kavrayabilirsiniz.
+Eh birazcýk da kaprisimi ortaya koyarak, bazý bilindik hikayelerde deðiþiklikler
+yaptým.  (Ýngilizceden çeviren: Randalin Gamwood)
+~
+S
+#17302
+Arden'in Kesiþen Yollarý~
+Ýki tozlu patikanýn bitiþtiði noktada duruyorsun. Nokta nokta ulaþan
+gün ýþýðý  kesiþimi aydýnlatýyor ve tozlarýn içinde nal izleri
+farkediyorsun. Patika kuzey, güney, doðu ve batýya devam ediyor.
+~
+0 0 3
+D0
+Tozlu bir patika
+~
+~
+0 -1 17305
+D1
+Tozlu bir patika
+~
+~
+0 -1 17306
+D2
+Tozlu bir patika
+~
+~
+0 -1 17301
+D3
+Tozlu bir patika
+~
+~
+0 -1 17303
+E
+nal izleri~
+Eðilerek yerdeki nal izlerine bakýyorsun. Ana trafik genelde doðuya ve güneye
+yönelmiþ gibi görünüyor.
+~
+E
+toz~
+Tozlarýn içine iyice dikkatli baktýðýnda, nal izlerinin yanýnda, tuhaf
+pençeli bir ayaða ait, batýya giden bir iz farkediyorsun.~
+S
+#17303
+Arden Ormaný~
+Büyük Arden Ormaný'nýn içindeki bir patikadasýn. Ah keþke þu sineklerden
+bu kadar çok olmasaydý. Patika güneye ve doðuya doðru devam ediyor.
+~
+0 0 3
+D1
+Tozlu bir patika
+~
+~
+0 -1 17302
+D2
+Tozlu bir patika
+~
+~
+0 -1 17304
+E
+sinekler~
+Kesinlikle iðrençler!
+~
+S
+#17304
+Kemikli bir keçiyolu~
+Patika gitgide kararýyor ve ayaðýnýn altýndan bir çatýrtý sesi duyuyorsun.
+Aþaðý bakýyorsun - KEMÝKLER! Keçiyolu batýda kararýyor, kuzeye doðru ise
+aydýnlanýyor.
+~
+0 0 3
+D0
+Tozlu bir patika
+~
+~
+0 -1 17303
+D3
+Daha fazla kemik~
+~
+0 -1 17307
+E
+kemikler~
+Kemiklere bakýyorsun. Çoðu insana ait. Pellinore Evi'ne ait bir zarar görmüþ
+bir arma görüyorsun. Batýya doðru kemikler çoðalýyor.
+~
+S
+#17305
+Arden Ormaný'nda bir kulübe~
+Samandan çatýsý olan bir kulübenin önünde duruyorsun. Heryerde yabani
+otlar var - muhtemelen bu yer bir süredir terkedilmiþ. Kulübenin kapýsý
+batýda duruyor ve tozlu patika da güneye doðru devam ediyor.
+~
+0 0 3
+D2
+Tozlu bir patika~
+~
+0 -1 17302
+D3
+kulübe~
+kapý~
+2 17336 17308
+E
+yabani otlar~
+Yabani otlara bakmak için ellerin ve dizlerinin üzerine çöküyorsun. Biri
+diðerinden farklý bir çeþitte ve düzinelerce çeþit var.
+~
+S
+#17306
+Tozlu Patika'daki yol ayrýmý~
+Arden Ormaný'nýn tozlu patikasýndaki bir yol ayrýmýndasýn. Tozlarýn içinde
+nal izleri var. Patika kuzeye, doðuya ve batýya uzanýyor.
+~
+0 0 3
+D0
+Tozlu bir patika~
+~
+0 -1 17309
+D1
+Tozlu bir patika~
+~
+0 -1 17310
+D3
+Tozlu bir patika~
+~
+0 -1 17302
+E
+nal izleri~
+Eðilerek yerdeki nal izlerine bakýyorsun. Ýzler kuzeye ve batýya doðru
+gidiyorlar.
+~
+S
+#17307
+Görevci Canavar'ýn Ýni~
+Görevci Canavar'ýn inini buldun! Kemikler heryere saçýlmýþlar.
+Tek çýkýþ doðuda.
+~
+0 1 3
+D1
+Kemikli bir keçiyolu~
+~
+0 -1 17304
+S
+#17308
+Kulübenin içinde~
+Eski ve terkedilmiþ bir kulübenin içinde duruyorsun. Tavan çok alçak
+ve kiriþler kurum içinde kalmýþ. Bir çalýþma masasý ve bir þömine var.
+~
+0 8 0
+D1
+Tahta bir kapý~
+~
+2 17336 17305
+E
+çalýþma masasý~
+Çalýþma masasýnýn üzeri rengarenk sývýlar barýndýran cam tüplerle dolu.
+Belki de masayý rahat býrakmalýsýn.
+~
+E
+þömine ateþ~
+Ateþ söneli uzun zaman olmuþ. Tüm gördüðün þöminede yanmýþ kaðýt ve tahta
+parçalarý.
+~
+E
+kaðýt parça yanmýþ~
+Yanmýþ bir kaðýt parçasýný çekip alýyorsun. Þöyle yazýyor: Merlin, Tristram'a
+olan aþkým dayanýlmaz bir hal aldý. Babam onu görmeyi bana yasakladý. Senin
+yapabileceðin birþey var mý?
+
+Isolde
+~
+E
+kiriþler~
+Kiriþler duman ile islenmiþ ve tuhaf sarý renkli lekelerle kaplanmýþ.
+~
+E
+sarý lekeler tuhaf~
+Sarý lekeleri inceliyorsun, kükürt gibi kokuyorlar.
+~
+S
+#17309
+Arden'in Sisleri~
+Sisli ormanlýk bir bölgeye doðru durmadan bayýraþaðý iniyorsun. Dev meþelerin
+siyah silüetleri zaten dar olan görüþünü iyice kapatýyor. Kuzeye ve güneye
+doðru uzanan kirli patikaya doðru gözlerini kýsýyorsun ve nal izleri fark
+ediyorsun.
+~
+0 1 3
+D0
+Kirli bir patika~
+~
+0 -1 17313
+D2
+Kirli bir patika~
+~
+0 -1 17306
+E
+nal izleri~
+Nal izlerine bakýyorsun ve bir çok atýn bu yoldan geçmiþ olduðunu farkediyorsun.
+~
+S
+#17310
+Derin Koruluk~
+Arden Ormaný'nýn sýkça aðaçlanmýþ bir bölgesindesin. Gölgeler gitgide uzuyor ve
+rüzgarla oynaþýyorlar. Patika kuzey, doðu ve batýya gidiyor.
+~
+0 0 3
+D0
+Kirli bir patika~
+~
+0 -1 17311
+D1
+Kirli bir patika~
+~
+0 -1 17312
+D3
+Kirli bir patika~
+~
+0 -1 17306
+S
+#17311
+Lanetli Açýklýk~
+Tüm bitkilerin ölü olduðu aðaçsýz bir alana geldin. Vahþiyaþama ait
+hiç ses yok ve tepeden aþaðý hiç ýþýk inmiyor. Açýklýðýn daha önceki
+ziyaretçilerine ait kemikler etrafa saçýlmýþ. Belki bir süreliðine
+dinlenmelisin.
+~
+0 1|8192 3
+D4
+aðaçlar~
+~
+1 -1 17312
+E
+kemikler~
+Belki bir süre dinlenmelisin...
+~
+S
+#17312
+Kara Oyuk~
+Karanlýk bir oyuðun içine girdin. Hava çok aðýr, rutubetli ve sessizliði
+bozan tek þey bir karganýn gaklamasý. Batýya doðru tozlu bir patika var.
+~
+0 1 3
+D3
+Kirli bir patika~
+~
+0 -1 17310
+E
+karga~
+Yoksa bu bir kahkaha mýydý?
+~
+S
+#17313
+Arden Ormaný~
+Arden Ormaný'nýn parlak ve neþeli bir bölümüne girdin. Sincaplar birbirlerini
+kovalarken, kelebekler parçalý güneþ ýþýnlarý arasýnda dans ediyorlar. Hava
+tatlý kokuyor, güneþ tam arkanda ve atlarýn geçmiþ olduðu bir patika kuzey,
+günel ve doðuya gidiyor.
+~
+0 4|1024 3
+D0
+Tozlu bir patika~
+~
+0 -1 17314
+D1
+Tozlu bir patika~
+~
+0 -1 17319
+D2
+Tozlu bir patika~
+~
+0 -1 17309
+E
+sincaplar~
+Evet, oynaþýyorlar.~
+E
+patika at izi nal~
+Nal izleri farkediyorsun, trafik genelde doðu ve güneye yönelmiþ.
+~
+S
+#17314
+Arden Ormaný'nda bir dere~
+Patikayý kesen ince bir derenin yanýnda, su içmek için duruyorsun.
+Güneye doðru orman iyice aydýnlanýyor. Batýya doðru ise kararýyor.
+Gökyüzü mavi ve gün ýþýðý gümüþi sularýn üzerinde parýldýyor.
+~
+0 0 6
+D2
+Kirli bir patika~
+~
+0 -1 17313
+D3
+Kirli bir patika~
+~
+0 -1 17315
+E
+gümüþi~
+Parlak dereye bakabilmek için dizlerinin üzerine çöküyorsun ve dibe
+batmýþ bir þövalye farkediyorsun. Þövalye, Camelot armasýný taþýyor ve
+görünüþe bakýlýrsa arkadan vurulmuþ.
+~
+S
+#17315
+Arden'in Savaþalaný~
+Önünde Arden'in vahþi savaþ alaný uzanmakta. Savaþla geçmiþ sayýsýz
+asýrlarca burasý savaþanlarýn kemikleri ve kýrýlmýþ silahlarýyla dolmuþ.
+Bazý ceset kümeleri, burada yakýn zamanda gerçekleþmiþ bir savaþý iþaret
+ediyor. Kirli patika doðuya ve batýya ilerlerken, rüzgarlý bir yol
+kuzeye devam ediyor.
+~
+0 0 2
+D0
+Rüzgarlý bir yol~
+~
+0 -1 17316
+D1
+Kirli bir patika~
+~
+0 -1 17314
+D3
+Kirli bir patika~
+~
+0 -1 17317
+E
+yýðýn ceset kemik~
+Manzara içini bulandýrýyor.
+~
+S
+#17316
+Blackmoor'dan önce~
+Þeytan Mordred'in kalesi olan Blackmoor'un önünde duruyorsun. Surlar yaklaþýk
+20 fit yükseklikte, köþeler ve kapýnýn iki yanýnda kuleler dikilmiþ. Rüzgar,
+omurgana titremeler veren bir soðukla birlikte sinir bozucu bir kýkýrdamayý
+taþýyor.
+Kuzeye doðru Blackmoor'un siyah demir kapýlarý, güneye doðru ise rüzgarlý bir
+yol var.~
+0 0 2
+D0
+Black Iron Gate~
+gate black demir~
+1 -1 17327
+D2
+Rüzgarlý bir yol~
+~
+0 -1 17315
+E
+kapýlar demir siyah~
+Dev demir kapýlar dökme demir ile inþa edilmiþ ve ilginç bir þekilde hiç
+paslanmamýþlar. Ýyi metal iþçiliðiyle yapýlmýþ demir spirallere çarpýtýlmýþ
+insan figürlerinin þekli verilmiþ.
+~
+E
+figürler~
+Aslýna bakarsan sana lanetli ruhlar gibi göründüler.
+~
+S
+#17317
+Blackmoor Ormaný~
+Blackmoor'a, lanetlilerin ormanýna girdin. Dikenler ve eðri büðrü
+aðaçlar sanki canlýlarmýþ gibi her yanýna batýp canýný yakýyorlar.
+Düzenli giden patika bozuluyor ve tüm direncini kaybediyorsun.
+~
+0 1|8192 3
+D4
+~
+~
+0 -1 17315
+D5
+~
+~
+0 -1 17318
+S
+#17318
+Çekici bir kulübeden önce~
+Oldukça çekici görünen bir kulübenin önündesin. Piþen geyik etinin
+güzel kokusunu taþýyan duman, bacadan süzülüyor. Pencelerden,
+karanlýða doðru lamba ýþýðý yayýlýyor. Ýçerden çok tatlý bir þarký
+duyuluyor. Kulübenin kapýsý batýda, ve kirli patika güneye doðru
+uzanýyor.
+~
+0 0 3
+D2
+Kirli bir patika~
+~
+0 -1 17317
+D3
+Kirli bir patika~
+kapý~
+1 -1 17323
+S
+#17319
+Kanyon~
+Derin bir kanyonun önünde duruyorsun. Kanyonun ilerisine doðru uzanan
+Eski bir asma köprünün zincirli uçlarýný görebiliyorsun. Batýda kirli
+patika var, ve asma köprü aþaðý doðru uzanmakta...
+~
+0 0 5
+D3
+Kirli bir patika~
+~
+0 -1 17313
+D5
+Köprünün sallanan ucuna doðru aþaðý
+~
+~
+0 -1 17320
+S
+#17320
+Asma köprüde asýlý dururken~
+Asma köprünün eski püskü ucunda asýlý duruyorsun. Kavrayýþýn þimdilik
+yeterli. Doðuya doðru savrularak köprünün baþka bir tarafýna
+ulaþabilirsin ya da yukarý doðru týrmanýp çýkabilirsin. Veya kendini
+kanyonun derinliklerine doðru býrakabilirsin.
+~
+0 1 5
+D1
+Asma köprüde asýlý dururken~
+~
+0 -1 17321
+D4
+Kanyon~
+~
+0 -1 17319
+D5
+Kanyonun derinlikleri~
+~
+0 -1 17324
+S
+#17321
+Hanging on the Rope Bridge~
+Asma köprünün yýpranmýþ olan ucunda asýlý duruyorsun. Doðu tarafýna
+doðru kendini sallandýrabilir, yukarý týrmanabilir veya kendini
+kanyonun derinliklerine doðru býrakabilirsin.
+~
+0 1 5
+D3
+Asma köprüde asýlý dururken~
+~
+0 -1 17320
+D4
+Kanyon~
+~
+0 -1 17322
+D5
+Kanyonun derinlikleri~
+~
+0 -1 17324
+S
+#17322
+Kanyon~
+Derin bir kanyonun eþiðinde duruyorsun. Üzerinden geçen asma köprü
+bir takým kötü kimseler tarafýndan kesilmiþ. Aþaðý inerek köprüye
+ulaþabilirsin ya da doðudaki yeþil çayýrlara gidebilirsin.
+~
+0 0 5
+D1
+Yeþil bir çayýr~
+~
+0 -1 17325
+D5
+Asma köprüde asýlý dururken~
+~
+0 -1 17321
+S
+#17323
+Çekici bir kulübenin içi~
+Çekici bir kulübenin içindesin. Etrafýnda konforlu eþyalar var, bu konfor
+kuþtüyünden bir yatak ve þömine ile tamamlanmýþ. Üzerinde taze et ve
+sebzeler olan bir masa hazýrlanmýþ ve bir de süslü kadehin içinde þarap
+var. Bir mum parýldýyor ve masanýn yanýnda tek bir sandalye var.
+~
+0 8|8192 0
+D1
+Çekici bir kulübenin önü~
+~
+1 -1 17318
+E
+kadeh~
+Yakýndan incelendiðinde bunun kutsal birþey olmadýðý belli oluyor.
+~
+E
+yatak~
+Oldukça rahat ve çekici görünüyor.
+~
+E
+þarap et~
+Et oldukça sulu ve leziz, þarabýn aromasý ise güzel ve rengi derin kýrmýzý.
+~
+E
+candle~
+Its a black candle. What was that you remember about black candles?
+Oh yeah, they are used by witches in black masses.
+~
+E
+sandalye~
+Neden bir süre oturup kendine bir ziyafet çekmiyorsun?
+~
+S
+#17324
+Kanyonun Derinlikleri~
+MAVÝ...HAYIR YEÞÝL!!!
+   AHHHHHHHHHHHHHHHH
+       AHHHHHHHHHHHHHHHH
+           AHHHHHHHHHHHHHHHH
+BÖDÖÖÖÖFFFFF!!!!.
+~
+0 1|4 5
+S
+#17325
+Camelot'dan önceki yeþil çayýr~
+Camelot'un gerisindeki zümrüt yeþili çayýrda, açýk mavi gökyüzünün altýnda
+duruyorsun. Camelot bu alana yukarýdan bakan bir tepenin üzerine kurulmuþ.
+Bayraklar ve flamalar, Camelot'un gururla yükselen kulelerinden dalgalanýyor.
+Doðuya doðru Camelot'a ulaþabilirsin ya da batýdaki kanyona gidebilirsin.
+~
+0 0 2
+D1
+Camelot'un doðu kapýsý~
+~
+0 -1 17326
+D3
+Kanyon~
+~
+0 -1 17322
+S
+#17326
+Camelot'un batý kapýsý~
+Camelot'un kapýlarýndasýn. Buradan aþaðýdaki zümrüt yeþili alaný kontrol
+eden bir görüþe sahipsin. Granit duvarlar yanýnda göðe doðru yükseliyor.
+~
+0 4 1
+D1
+Batý Kapýsý~
+kapý doðu~
+1 -1 17341
+D3
+Yeþil bir çayýr~
+~
+0 -1 17325
+S
+#17327
+Blackmoor'un Burçlarý~
+Blackmoor'un burçlarýndasýn. Savaþ delikleri duvarlarda dizilmiþ. Kuzeye ve
+güneye doðru demir kapýlar var.
+~
+0 1 1
+D0
+Siyah Demir Kapý~
+kapý siyah demir~
+1 -1 17328
+D2
+Siyah Demir Kapý~
+~
+1 -1 17316
+E
+delik delikler~
+Savaþ deliklerinden kimse sana bakmýyormuþ gibi görünüyor.
+~
+S
+#17328
+Surlarýn içinde~
+Blackmoor surlarýnýn içindeki bir yoldasýn. Kale içi kuzeyinde duruyor ve
+yol doðu-batý yönünde devam ediyor. Siyah demir kapýlar ise güneyinde kaldý.
+~
+0 1 0
+D1
+Surlarýn içinde~
+~
+0 -1 17329
+D2
+Siyah demir kapý~
+~
+1 -1 17327
+D3
+Surlarýn içinde~
+~
+0 -1 17330
+S
+#17329
+Surlarýn içinde~
+Blackmoor surlarýnýn içindeki bir yoldasýn. Merdivenler yukarý burçlardaki
+doðu kulesine doðru çýkýyorken, yol kuzey ve batý yönünde devam ediyor.
+~
+0 1 1
+D0
+Surlarýn içinde~
+~
+0 -1 17335
+D3
+Surlarýn içinde~
+~
+0 -1 17328
+D4
+Burçlardaki doðu kulesi~
+~
+0 -1 17339
+S
+#17330
+Surlarýn içinde~
+Blackmoor surlarýnýn içindeki bir yoldasýn. Merdivenler yukarý burçlardaki
+batý kulesine doðru çýkýyorken, yol kuzey ve doðu yönünde devam ediyor.
+~
+0 1 1
+D0
+Surlarýn içinde~
+~
+0 -1 17331
+D1
+Surlarýn içinde~
+~
+0 -1 17328
+D4
+Burçlardaki batý kulesi~
+~
+0 -1 17338
+S
+#17331
+Surlarýn içinde~
+Blackmoor surlarýnýn içindeki bir yoldasýn. Ýç kale doðunda kalýyor. Kanlý
+yol ise kuzey ve güney yönünde devam ediyor.
+~
+0 1 1
+D0
+Surlarýn içinde~
+~
+0 -1 17332
+D2
+Surlarýn içinde~
+~
+0 -1 17330
+E
+kanlý yol~
+Eðilerek yolun üzerindeki kana bakýyorsun ve bir ipek parçasý buluyorsun.
+Biraz incelediðinde bunu Camelot'ta bekleyen bir kadýndan olduðunu farketmen
+zor olmuyor.
+~
+S
+#17332
+Surlarýn içinde~
+Blackmoor surlarýndaki bir yolda duruyorsun. Merdivenler yukarý, Blackmoor'un
+kuzeybatý kulesine doðru çýkýyorken, yol güneye doðru devam ediyor. Doðuda ise
+Ýç Kale'nin giriþini görüyorsun.
+~
+0 1 1
+D1
+Ýç Kale'nin Giriþi~
+~
+0 -1 17333
+D2
+Surlarýn içinde~
+~
+0 -1 17331
+D4
+Blackmoor'un Kuzeybatý Kulesi~
+~
+0 -1 17336
+S
+#17333
+Ýç Kale'nin giriþi~
+Blackmoor'un surlarýndaki bir yoldasýn. Güneyda ahþaptan kocaman bir kapý var.
+Ýçeriden gelen kahkahalarý dinlerken yolun doðu-batý yönünde devam ettiðini
+görüyorsun.
+~
+0 1 1
+D1
+Surlarýn içinde~
+~
+0 -1 17334
+D2
+Kocaman ahþap bir kapý~
+kapý ahþap kocaman~
+1 -1 17340
+D3
+Surlarýn içinde~
+~
+0 -1 17332
+E
+kapý~
+Koskocaman! Umarým açarken bir yerlerin tutulmaz.~
+S
+#17334
+Surlarýn içinde~
+Blackmoor surlarýndaki bir yoldasýn. Merdivenler yukarý, Kuzeydoðu kulesine
+doðru çýkýyorlar. Yol ise güneye ve Ýç Kale giriþinin bulunduðu batý yönüne
+devam ediyor.
+~
+0 1 1
+D2
+Surlarýn içinde~
+~
+0 -1 17335
+D3
+Ýç Kale'nin giriþi~
+~
+0 -1 17333
+D4
+Blackmoor'un Kuzeydoðu Kulesi~
+~
+0 -1 17337
+S
+#17335
+Surlarýn Ýçinde~
+Blackmoor surlarýndaki bir yoldasýn. Ýç Kale batýda kalmýþ. Yol ise kuzey ve
+güney yönünde devam ediyor.
+~
+0 1 1
+D0
+Surlarýn içinde~
+~
+0 -1 17334
+D2
+Surlarýn içinde~
+~
+0 -1 17329
+S
+#17336
+Blackmoor'un Kuzeybatý Kulesi~
+Kuzeybatý Kulesi'nin içinde duruyorsun. Buradan tüm kalenin hatta tüm arazinin
+geniþ bir görüntüsünü görebilirsin.
+Merdivenler aþaðý doðru iniyorlar.
+~
+0 1 0
+D5
+Surlarýn içinde~
+~
+0 -1 17332
+E
+görüntü arazi~
+You look at the view. The moor rolls onward, and mist makes it difficult
+to  see very far. You see black forms scuttling across the moor. For a
+moment you are glad you are in a solid tower.
+~
+S
+#17337
+Blackmoor'un Kuzeydoðu Kulesi~
+Kuzeydoðu Kulesi'nin içinde duruyorsun. Buradan tüm kalenin hatta tüm arazinin
+geniþ bir görüntüsünü görebilirsin.
+Merdivenler aþaðý doðru iniyorlar.
+~
+0 1 0
+D5
+Surlarýn içinde~
+~
+0 -1 17334
+S
+#17338
+Burçlardaki batý kulesi~
+Burçlardaki batý kulesinin içinde duruyorsun. Buradan tüm burçlara ve ötesine
+hakimsin. Duvardaki savaþ deliðinden dýþarý bakabilir hatta uzun mesafeli bir
+silahla atýþ yapabilirsin. Merdivenler aþaðý doðru iniyorlar.
+~
+0 1 0
+D5
+Surlarýn içinde~
+~
+0 -1 17330
+E
+burç görüntü delik~
+Savaþ deliðinden içeri, daha önce onlarcasýnýn yaptýðý gibi burçlara bakýyorsun.
+~
+S
+#17339
+Burçlardaki doðu kulesi~
+Burçlardaki doðu kulesinin içinde duruyorsun. Buradan tüm burçlara ve ötesine
+hakimsin. Duvardaki savaþ deliðinden dýþarý bakabilir hatta uzun mesafeli bir
+silahla atýþ yapabilirsin. Merdivenler aþaðý doðru iniyorlar.
+~
+0 1 0
+D5
+Surlarýn içinde~
+~
+0 -1 17329
+S
+#17340
+Mordred'in Karanlýk Salonu~
+Mordred'in uðursuz salonunda dikiliyorsun. Duman merkezdeki ateþ çukurundan
+bacalara doðru süzülüyor. Düþmüþ þövalyelerin zýrhlarý duvarlardaki kancalarda
+asýlý duruyorlar. Þövalyeler ateþin etrafýnda bir çember oluþturmuþ, ölü gibi
+alevlere bakýyorlar. Altýn zýrhlý bir genç kahkahalarla þövalyelerin önünde
+dans ediyor.
+~
+0 1 0
+D0
+Ýç Kale'nin giriþi~
+~
+1 -1 17333
+E
+ateþçukuru ateþ çukur~
+Ateþçukurunu inceliyorsun. Ýçerde bir beden kavruluyor. Sanýrým insan!
+~
+E
+genç~
+Kafaný þöyle bir sallayýp bir daha bakýyorsun ve görüntü yokoluyor. Uðursuz
+bir büyünün etkisindeydin!
+~
+S
+#17341
+Yengi Caddesi ve Þövalyenin Yolu~
+Camelot'un dev surlarýnýn içindeki taþlý bir yoldasýn. Flamalar, beyaz
+taþlardan yapýlmýþ bina ve kulelerde dalgalanýyor. Yengi Caddesi doðuya
+kaleye doðru giderken, Þövalyenin Yolu kuzey-güney yönünde devam ediyor.
+~
+0 0 1
+D0
+Þövalyenin Yolu~
+~
+0 -1 17342
+D1
+Yengi Caddesi~
+~
+0 -1 17343
+D2
+Þövalyenin Yolu~
+~
+0 -1 17344
+D3
+Camelot'un Batý Kapýsý~
+~
+1 -1 17326
+S
+#17342
+Ahýrlarýn önünde, Þövalyenin Yolu~
+Þövalyenin Yolu denen beyaz çakýllý bir yoldasýn. Doðudan at kokularý
+geliyor. Batýda Camelot'un yüksek surlarý yükseliyor. Þövalyenin yolu
+kuzey-güney yönünde devam ediyor.
+~
+0 0 1
+D0
+Þövalyenin Yolu~
+~
+0 -1 17345
+D1
+Ahýrlar~
+~
+0 -1 17398
+D2
+Þövalyenin Yolu~
+~
+0 -1 17341
+E
+ahýrlar~
+Bir sürü at ve onlarýn seyisleri ahýrlarýn içinde geziniyor.~
+E
+yüksek surlar~
+The high walls tower above you, made from a gleaming white stone. The
+blocks are huge- it must have taken a great engine to hoist them. Pennons
+snap in  the breeze from the many towers of Camelot.
+~
+S
+#17343
+Yengi Caddesi~
+Yengi Caddesi'ndesin. Þövalyelerin sancaklarý yolun iki tarafýnda,
+rüzgarla dalgalanýyorlar. Baþka sancaklar içinde ayrýlmýþ yerler var.
+Yengi Caddesi doðu-batý yönünde uzanýyor.
+~
+0 0 1
+D1
+Yengi Caddesi~
+~
+0 -1 17347
+D2
+~
+Yengi Caddesi~
+0 -1 0
+D3
+Yengi Caddesi ve Þövalyenin Yolu~
+~
+0 -1 17341
+E
+flama bayrak sancak~
+Sancaklara þöyle bir bakýþ atýyorsun. Bilindik olanlarý Gawaine, Tristram
+ve tabiiki Lancelot...
+~
+S
+#17344
+Þövalyenin Yolu, Zýrhçýnýn önü~
+Beyaz çakýllý Þövalye Yolu'ndasýn. Batýda Camelot'un yalçýn surlarý var.
+Doðuda ise Camelot'un zýrhçýsýný görüyorsun. Yol kuzey-güney yönünde
+devam ediyor.
+~
+0 0 1
+D0
+Yengi Caddesi ve Þövalye Yolu~
+~
+0 -1 17341
+D1
+Zýrhçý~
+~
+0 -1 17348
+D2
+Þövalyenin Yolu~
+~
+0 -1 17349
+E
+high walls~
+The high walls tower above you, made from a gleaming white stone. The
+blocks are huge- it must have taken a great engine to hoist them. Pennons
+snap in  the breeze from the many towers of Camelot.
+~
+S
+#17345
+Þövalyenin Yolu ile Yaver Koþusu'nun Köþesi~
+Þövalyenin Yolu ile Yaver Koþusu'nun köþesinde dikiliyorsun. Kemerli bir
+kapý saðlam yapýlý bir kuleye açýlýyor ve kemerin üzerinde bazý harfler
+görüyorsun. Þövalye Yolu güneye devam ederken, Yaver Koþusu doðuya
+gidiyor.
+~
+0 0 1
+D1
+Yaver Koþusu~
+~
+0 -1 17350
+D2
+Þövalyenin Yolu~
+~
+0 -1 17342
+D4
+Yiðitlik Kulesi~
+~
+0 -1 17351
+E
+kemer yazý harf~
+Kazýnmýþ sözcüklere bakýyorsun:
+
+    ZAFERE DOÐRU ÝLERÝ!~
+S
+#17346
+Pict Hatlarýnýn Gerisinde~
+Pict güruhunun içinde yolunu savaþarak açtýn ve yolun seni Pict hatlarýnýn
+gerisine getirdi! Doðuda cenk devam ederken, kaçan Pictlerin bu yöne doðru
+geldiðini görüyorsun. Bir barbar borusunu üfleyerek çaðrý sinyali veriyor.
+~
+0 0 2
+D1
+Süren savaþýn içine~
+güruh~
+1 -1 17397
+E
+barbar borusu~
+Barbar ona doðru baktýðýný farkediyor ve hemen sývýþýyor!
+~
+S
+#17347
+Yengi Caddesi~
+Burada Yengi Caddesi yerini Camelot'un Ermeydaný'da býrakýyor. Bir podyum
+muzafferler için buraya dikilmiþ ve þu an Lancelot'un sancaðýný taþýyor.
+Yolun devamýnda yuvarlak masanýn diðer þövalyelerinin flamalarý asýlý.
+Buradaki havada tuhaf bir barýþ rüzgarý esiyor. Yengi Caddesi batýda ve
+Camelot'un Ermeydaný doðuya uzanýyor.
+~
+0 1024 1
+D1
+Camelot'un Ermeydaný~
+~
+0 -1 17352
+D3
+Yengi Caddesi~
+~
+0 -1 17343
+S
+#17348
+zýrhçý~
+Camelot'un zýrhçýsýndasýn. Demircibaþý ve 3 yardýmcýsý bir þövalyenin
+zýrhýný örmekle meþguller. Çeþitli zýrh parçalarý burada tamir edilmeyi
+bekliyorlar. Doðudaki duvarda büyük silahlarýn asýldýðý bir raf var.
+~
+0 0 0
+D3
+Þövalyenin Yolu~
+~
+0 -1 17344
+E
+zýrh~
+Zýrh parçalarý iyi örselenmiþ çelikten yapýlmýþlar.
+~
+E
+silah rafý~
+Silah rafý bazý hançerler, mýzraklar ve gürzler içeriyor.
+~
+S
+#17349
+Þövalyenin Yolu ile Asilzade Sokaðý Köþesi~
+Asilzade Sokaðý ile Þövalye Yolu'nun köþesindesin. Rüzgarlý bir merdiven
+dev bir kuleye doðru çýkýyor. Kulenin kemerli giriþinde bir yazý asýlmýþ.
+Þövalyenin yolu kuzeye devam ederken, Asilzade Sokaðý doðuya gidiyor.
+~
+0 0 0
+D0
+Þövalyenin Yolu~
+~
+0 -1 17344
+D1
+Asilzade Sokaðý~
+~
+0 -1 17354
+D4
+Onur Kulesi~
+~
+0 -1 17353
+E
+yazý kule kemer~
+Yazýya bakýyorsun. Þöyle yazýyor:
+
+       ONUR BÝR ÞÖVALYEYÝ, BÝR SUÇLUDAN AYIRIR!~
+S
+#17350
+Yaver Koþusu~
+Yaver Koþusu'nda dikiliyorsun. Yaverler telaþla efendilerinin ayak iþlerini
+yapmak için koþuþturuyorlar. Yere düþmüþ bir parþömeni farkediyorsun. Yaver
+Koþusu doðu-batý yönünde devam ediyor.
+~
+0 0 1
+D1
+Yaver Koþusu~
+~
+0 -1 17355
+D3
+Þövalyenin Yolu ile Yaver Koþusu'nun köþesi~
+~
+0 -1 17345
+E
+parþömen~
+Parþömene bakýyorsun. Biraz zarar görmüþ ve okuyabildiklerin þunlar:
+
+  ... Blackmoor Ormaný'nda gezindim, kayboldum ve umutsuzdum, ta ki bir
+  kulübe bulana kadar. Pencereden baktým ve Ýlahi Ýçecek oradaydý. Güzel
+  bir kadýn beni parmaðýyla çaðýrdýðý anda aðzým kapandý ve ormana doðru
+  kaçtým...
+~
+S
+#17351
+Yiðitlik Kulesi~
+Yiðitlik Kulesi'nin içindesin. Duvarlarda þövalyelerin, kalpsiz canavarlarla
+girmiþ olduðu savaþlarýn resmedildiði kabartmalar var. Ýçinde ateþ yanan
+bir oyuk, yaydýðý sýcaklýkla, odayý soðuk olmanýn eþiðinden döndürüyor.
+Duman baþýný döndürüyor ve sanki kabarmalar yaþama dönüyormuþ gibi
+geliyor. Merdivenler aþaðýdaki sokaða doðru iniyor.
+~
+0 0 0
+D5
+Þövalyenin Yolu ile Yaver Koþusu'nun köþesi~
+~
+0 -1 17345
+E
+kabartmalar~
+You look at a mural of Saint George and the Dragon. George's zýrh gleams
+in the sun, and from his mýzrak flies his standard. George signals the
+dragon and charges across the verdant green. The dragon raises its
+serpentine head and inhales a mighty breath. George and mount thunder
+though the tall grass. The dragon-
+             You snap out of your vision
+~
+S
+#17352
+Camelot'un Ermeydaný~
+Durduðun yer Camelot'un meþhur Ermeydaný. Burada þövalyeler, yuvarlak
+masada yer alabilmek için birbirleriyle mücadele ederler. Birkaç
+mücadelenin sürdüðünü görebiliyorsun. Belki sen de at üzerinde yapýlan
+bir mýzrak dövüþüne hayýr demezsin?
+~
+0 0 2
+D0
+Camelot'un Ermeydaný~
+~
+0 -1 17360
+D1
+Camelot'un Ermeydaný~
+~
+0 -1 17359
+D2
+Camelot'un Ermeydaný~
+~
+0 -1 17358
+D3
+Yengi Caddesi~
+~
+0 -1 17347
+S
+#17353
+Onur Kulesi~
+Onur Kulesi'nde dikiliyorsun. Kabartmalar duvarlarý ve kubbeli tavaný
+kaplýyorlar. Duvarlardaki oyuklardan yayýlan duman etrafta dönüp duruyor.
+Ürpertici bir his tüylerini diken diken ediyor. Merdivenler sokaða doðru
+iniyorlar.
+~
+0 0 0
+D5
+Þövalyenin Yolu ile Asilzade Sokaðý köþesi~
+~
+0 -1 17349
+E
+murals~
+Lancelot, Gwenivere ve Arthur'un bir piknikte resmedildiði kabartmaya
+bakýyorsun. Arthur'un ellerinde bir parþömen peydah oluyor.
+Arthur parþömeni okuduðu gibi bineðine atlayýp,
+gerisin geriye dört nala gidiyor. Lancelot da atýný tam çevirecekken,
+bir kadýn eli onu durdurarak, meþelerin altýndaki gölgelere çaðýrýyor.
+Lancelot Gwenivere ile yüzleþmek için dönüyor-
+      Birden sanrýnýn etkisinden çýkýyorsun.
+~
+S
+#17354
+Asilzade Sokaðý~
+Asilzade Sokaðý'ndasýn. Sokak sarý taþlar ile döþenmiþ ve ýslak yerler
+altýnmýþ izlenimi veriyor. Uther Pendragon'un bir heykeli burada. Yol
+doðu ve batýya devam ediyor.
+~
+0 0 1
+D1
+Asilzade Sokaðý~
+~
+0 -1 17361
+D3
+Þövalyenin Yolu ile Asilzade Sokaðý kesiþimi~
+~
+0 -1 17349
+E
+heykel uther pendragon~
+Heykele bakýyorsun. Uther Pendragon bir zincirzýrh giymiþ ve dev bir
+balta taþýyor. Sakalý yüzünden aþaðý doðru akýyor ve gözleri sana doðru
+yoðun bir þekilde bakýyor.
+~
+S
+#17355
+Kuzey Kapýsý'na yakýn Yaver Koþusu~
+Yaver Koþusu'ndasýn. Hatrý sayýlýr bir trafik, yaver barakalarýnýn olduðu
+güney yönüne doðru iþliyor. Kuzeyde ise Camelot'un Kuzey Kapýsý var. Yaver
+Koþusu batýya devam ediyor ve Camelot'un Ermeydaný da o yönde. Ayaðýnýn
+dibinde elinde bir kupa tutan bir dilenci duruyor.
+~
+0 0 1
+D0
+Camelot'un Büyük Kuzey Kapýsý~
+kapý~
+1 -1 17356
+D1
+Camelot'un Ermeydaný~
+~
+0 -1 17362
+D2
+Yaver Barakalarý~
+kapý~
+1 -1 17357
+D3
+Yaver Koþusu~
+~
+0 -1 17350
+E
+dilenci kupa~
+Dilenciye bir bozukluk atýyorsun. Sana doðru sýrýtýp þunlarý fýsýldýyor:
+"Görünmez þövalye Sir Garlon'a dikkat edesin!
+Batý kapýsýnýn dýþýndaki arazide dolaþýr olmuþ!"
+Birden bir iniltiyle dilenci yere kapaklanýyor.
+~
+S
+#17356
+Camelot'un Büyük Kuzey Kapýsý~
+Camelot'un kuzeydeki kapýsýnýn önünde duruyorsun. Pis bir yol tepeden aþaðý
+çimenlik tepelere doðru iniyor. Güneyde ise Yaver Koþusu var.
+~
+0 4 1
+D0
+Rüzgarlý pis bir yol~
+~
+0 -1 17382
+D2
+Yaver Koþusu~
+~
+1 -1 17355
+S
+#17357
+Yaver Barakalarý~
+Yaver barakalarýndasýn. Yuvarlak masadaki lordlarý toplandýklarýnda, onlarýn
+yaverlerinin bekledikleri yer iþte burasý. Yataklar, dolaplar ve masalarla
+dolu bir yer. Hareketlilik daha çok þu an burada bulunanlarýn yemeklerini
+yedikleri masalarýn etrafýnda konumlanmýþ. Basit bir isim listesi asýlmýþ
+ve senin ismin yazmýyor.
+~
+0 8 0
+D0
+Kuzey Kapýsý'na yakýn Yaver Koþusu~
+~
+1 -1 17355
+S
+#17358
+Camelot'un Ermeydaný~
+Durduðun yer Camelot'un meþhur Ermeydaný. Burada þövalyeler, yuvarlak
+masada yer alabilmek için birbirleriyle mücadele ederler. Birkaç
+mücadelenin sürdüðünü görebiliyorsun. Belki sen de at üzerinde yapýlan
+bir mýzrak dövüþüne hayýr demezsin?
+~
+0 0 0
+D0
+Camelot'un Ermeydaný~
+~
+0 -1 17352
+D1
+Camelot'un Ermeydaný~
+~
+0 -1 17363
+D2
+Camelot'un Ermeydaný~
+~
+0 -1 17364
+S
+#17359
+Camelot'un Ermeydaný~
+Durduðun yer Camelot'un meþhur Ermeydaný. Burada þövalyeler, yuvarlak
+masada yer alabilmek için birbirleriyle mücadele ederler. Birkaç
+mücadelenin sürdüðünü görebiliyorsun. Belki sen de at üzerinde yapýlan
+bir mýzrak dövüþüne hayýr demezsin?
+~
+0 0 0
+D0
+Camelot'un Ermeydaný~
+~
+0 -1 17365
+D1
+Camelot'un Divanýný görüyorsun~
+~
+0 -1 17370
+D2
+Camelot'un Ermeydaný~
+~
+0 -1 17363
+D3
+Yengi Caddesi~
+~
+0 -1 17352
+S
+#17360
+Camelot'un Ermeydaný~
+Durduðun yer Camelot'un meþhur Ermeydaný. Burada þövalyeler, yuvarlak
+masada yer alabilmek için birbirleriyle mücadele ederler. Birkaç
+mücadelenin sürdüðünü görebiliyorsun. Belki sen de at üzerinde yapýlan
+bir mýzrak dövüþüne hayýr demezsin?
+~
+0 0 0
+D0
+Camelot'un Ermeydaný~
+~
+0 -1 17362
+D1
+Camelot'un Ermeydaný~
+~
+0 -1 17365
+D2
+Camelot'un Ermeydaný~
+~
+0 -1 17352
+S
+#17361
+Güney Kapýsý yakýnýnda Asilzade Sokaðý~
+Camelot'un büyük güney kapýsýna yakýn Asilzade Sokaðýndasýn. Kuzeyde
+buram buram asaletin yayýldýðý bir karargah var. Ermeydaný doðuda ve
+sokak batýya doðru devam ediyor. Burada bir de þövalye heykeli var.
+~
+0 0 1
+D0
+Asilzade Karargahý~
+kapý~
+1 -1 17366
+D1
+Camelot'un Ermeydaný~
+~
+0 -1 17364
+D2
+Büyük Güney Kapýsý~
+kapý~
+1 -1 17367
+D3
+Asilzade Sokaðý~
+~
+0 -1 17354
+E
+heykel þövalye~
+Bu güney kapýsýna doðru at süren bir þövalyenin heykeli. Tek elinde bir sancak,
+öbüründe ise bir mýzrak tutuyor, tüm vücudu zýrhla kaplanmýþ.
+Bindiði at göðe doðruþahlanýrken, rakiplerine ölümü anlatýyor.
+Burada ufak bir not var.
+~
+E
+not~
+Bu heykel, yuvarlak masanýn seçkin þövalyesi Miles O' the Lands'in anýsýnadýr.
+Kraliçesini Arden'in Cenk Meydaný'nda cesurca savunmuþtur.
+.
+~
+S
+#17362
+Camelot'un Ermeydaný~
+Durduðun yer Camelot'un meþhur Ermeydaný. Burada þövalyeler, yuvarlak
+masada yer alabilmek için birbirleriyle mücadele ederler. Birkaç
+mücadelenin sürdüðünü görebiliyorsun. Belki sen de at üzerinde yapýlan
+bir mýzrak dövüþüne hayýr demezsin?
+~
+0 0 0
+D1
+Camelot'un Ermeydaný~
+~
+0 -1 17368
+D2
+Camelot'un Ermeydaný~
+~
+0 -1 17360
+D3
+Kuzey Kapýsý yakýnýnda Yaver Koþusu~
+~
+0 -1 17355
+S
+#17363
+Camelot'un Ermeydaný~
+Durduðun yer Camelot'un meþhur Ermeydaný. Burada þövalyeler, yuvarlak
+masada yer alabilmek için birbirleriyle mücadele ederler. Birkaç
+mücadelenin sürdüðünü görebiliyorsun. Belki sen de at üzerinde yapýlan
+bir mýzrak dövüþüne hayýr demezsin?
+~
+0 0 0
+D0
+Camelot'un Ermeydaný~
+~
+0 -1 17359
+D3
+Camelot'un Ermeydaný~
+~
+0 -1 17358
+S
+#17364
+Camelot'un Ermeydaný~
+Durduðun yer Camelot'un meþhur Ermeydaný. Burada þövalyeler, yuvarlak
+masada yer alabilmek için birbirleriyle mücadele ederler. Birkaç
+mücadelenin sürdüðünü görebiliyorsun. Belki sen de at üzerinde yapýlan
+bir mýzrak dövüþüne hayýr demezsin?
+~
+0 0 0
+D0
+Camelot'un Ermeydaný~
+~
+0 -1 17358
+D3
+Güney Kapýsý yakýnýnda Asilzade Sokaðý~
+~
+0 -1 17361
+S
+#17365
+Camelot'un Ermeydaný~
+Durduðun yer Camelot'un meþhur Ermeydaný. Burada þövalyeler, yuvarlak
+masada yer alabilmek için birbirleriyle mücadele ederler. Birkaç
+mücadelenin sürdüðünü görebiliyorsun. Belki sen de at üzerinde yapýlan
+bir mýzrak dövüþüne hayýr demezsin?
+~
+0 0 0
+D0
+Camelot'un Ermeydaný~
+~
+0 -1 17368
+D2
+Camelot'un Ermeydaný~
+~
+0 -1 17359
+D3
+Camelot'un Ermeydaný~
+~
+0 -1 17360
+S
+#17366
+Asilzade Karargahý~
+Buranýn soylularýný barýndýran Asilzade Karargahýndasýn. Burada ortasýnda
+bir çeþme bulunan bir divan meydaný var. Meydanýn etrafýnda ise bazý daire
+odalar dizilmiþ.
+~
+0 0 0
+D0
+Asilzade odasý~
+kapý~
+1 -1 17378
+D1
+Asilzade odasý~
+kapý~
+1 -1 17379
+D2
+Güney Kapýsý yakýnýnda Asilzade Sokaðý~
+~
+1 -1 17361
+D3
+Asilzade odasý~
+kapý~
+1 17338 17380
+E
+çeþme~
+Çeþmenin suyu bir kýz heykelinin elinde tuttuðu testiden geliyor. Su
+keskin hatlarý olan, içinde balýklarýn yüzdüðü bir havuza akýyor. Birkaç
+bozuk para çeþmenin içine atýlmýþ.
+~
+E
+balýk~
+Küçük süs balýklarý...
+~
+E
+bozuk para~
+Bu paralarý dipten almak gerçekten çok sefil bir hareket olurdu.
+~
+E
+kýz heykel~
+Heykel, tünik giyinmiþ omuzlarýna kadar saçlarý olan güzel bir kýzý
+betimliyor.
+~
+S
+#17367
+Camelot'un Büyük Güney Kapýsý~
+Camelot'un güney kapýsýnýn önünde duruyorsun. Güneyden, verimli tarým
+arazilerinden gelen bir rüzgar esiyor. Çiftçiler tarlalarý ata baðlý
+arabalarla hasat ediyorlar. Mýsýr, buðday ve fasulyeler yetiþiyor.
+Esen rüzgarýn güzelliðiyle, için þehrin bunaltýcý havasýndan temizleniyor.
+~
+0 4 1
+D0
+Buyük Güney Kapýsý~
+~
+0 -1 17361
+D2
+Parçataþlý Yol~
+~
+0 -1 17391
+S
+#17368
+Camelot'un Ermeydaný~
+Durduðun yer Camelot'un meþhur Ermeydaný. Burada þövalyeler, yuvarlak
+masada yer alabilmek için birbirleriyle mücadele ederler. Birkaç
+mücadelenin sürdüðünü görebiliyorsun. Belki sen de at üzerinde yapýlan
+bir mýzrak dövüþüne hayýr demezsin?
+~
+0 0 0
+D2
+Camelot'un Ermeydaný~
+~
+0 -1 17365
+D3
+Camelot'un Ermeydaný~
+~
+0 -1 17362
+S
+#17369
+Camelot'un Ermeydaný~
+Durduðun yer Camelot'un meþhur Ermeydaný. Burada þövalyeler, yuvarlak
+masada yer alabilmek için birbirleriyle mücadele ederler. Birkaç
+mücadelenin sürdüðünü görebiliyorsun. Belki sen de at üzerinde yapýlan
+bir mýzrak dövüþüne hayýr demezsin?
+~
+0 0 2
+D0
+Camelot'un Ermeydaný~
+~
+0 -1 17363
+D3
+Camelot'un Ermeydaný~
+~
+0 -1 17364
+S
+#17370
+Camelot Büyük Divaný~
+Camelot'un ünlü divanýndasýn. Burada þövalyeler ve asilzadeler yalýnayak
+bir þekilde, güneþin vurduðu divan meydanýnýn çimenlerinde yürüyerek,
+gelecek savaþlarý ve yiðitliði tartýþýyorlar. Ozanlar çalgýlarýyla en
+güzel baladlarýný çalarken, soytarýlar da hoplayýp zýplayarak, krallarýnýn
+beðenisini elde etmeyi umuyorlar. Bekar leydiler aþk oyunlarý oynayarak
+genç þövalye ve toprak aðalarýný ayartmaya çabalýyorlar. Dünya, dostluk
+ve yiðitlik ideallerinin ön plana çýktýðý bu yerde, daha güzelmiþ gibi
+görünüyor. Buradan Camelot'un Ermeydaný'da hakim bir görüþ alanýn var.
+Çýkýþlar, þövalye kýþlasýna, yuvarlak masaya, þölen salonuna ve Camelot'un
+Ermeydaný'na...
+~
+0 0 2
+D0
+Þövalye Kýþlasý~
+kapý~
+1 -1 17374
+D1
+Yuvarlak Masa~
+kapý~
+1 -1 17376
+D2
+Þölen Salonu~
+~
+0 -1 17371
+D3
+Camelot'un Ermeydaný~
+~
+0 -1 17359
+E
+meydan ermeydaný~
+You watch two knights across the tourney yard. To the left is a knight
+in full zýrh and a bright orange plume. To the right is a knight in chain
+mail and a trailing black cape. Arthur signal's the knights with a short wave.
+The both knights spur their warhorses into a full gallop. To your right you
+hear a squeal of deýþýk from a spectator. The black caped knight leans into
+his charge with his weight forward and in a low stand on his stirrups.
+Both knights collide in the center of the yard with a resounding crash. The
+orange plummed knight contorts in his saddle, delivering a thrust high on
+the shield of the black caped knight. The black caped knight connects with a
+hard shot to the center of the shield of the orange knight. You watch the
+orange knight fly and land with a sickening crash on the yard. The black
+knight circles and raises his mýzrak in a salute to Arthur.
+~
+E
+spectator~
+The lady in waiting is weeping, as her knight was the orange knight. She
+quickly recovers and tosses her favor to the black knight.
+~
+S
+#17371
+Þölen Salonu~
+Camelot'un Þölen Salonu'na ulaþtýn. Çok þanslýsýn çünkü þu an bir þölen
+sürmekte. Açýk büfe masalara, hizmetkarlar koþuþturarak yemek yetiþtiriyorlar.
+Bazý masalarda þövalyeler bazýlarýnda ise bayanlar oturuyor. Bir ozanýn
+þarkýsý da ortama iyice festival havasý katýyor. Dev bir fýrýnda yanan ateþ,
+tüm bir domuzu aðýr aðýr piþiriyor. Çýkýþlar kuzeydeki divan meydanýna ve
+güneydeki leydi odalarýna...
+~
+0 0 0
+D0
+Camelot Divaný'ný görüyorsun~
+~
+0 -1 17370
+D2
+Leydi Odalarýnýn Kapýsý~
+~
+1 -1 17372
+S
+#17372
+Leydi Odalarý~
+Leydilere ayrýlmýþ bölümdesin. Umarým bir bayansýndýr, deðilsen baþýn
+büyük belada! Burada birçok oda var, bazýlarý dolu, bazýlarý boþ, ama
+burada kesinlikle çok hareketlilik var. Genç bir kýz burada durup, hüzünle
+aðlýyor, ve sen köþedeki bir grup bayaný farkediyorsun. Kuzeye þölen
+salonuna yönelmiþ bir kapý var ve bir merdiven yukarýdaki bir kuleye
+doðru çýkýyor.
+~
+0 0 0
+D0
+Þölen salonu kapýsý~
+~
+1 -1 17371
+D4
+Yukarý doðru çýkan bir merdiven~
+~
+0 -1 17373
+E
+kýz genç~
+Kýzla konuþuyorsun ve Lancelot'un ilgisini çekemediði için aðladýðýný
+öðreniyorsun.
+~
+E
+bayan grup~
+~
+S
+#17373
+Kýz Kulesi~
+Ah evet, divanýn bakire bayanlarýnýn ikamet ettiði yer burasý. Þövalyeleri
+Arthur'un görevlerini yapmak için uzaklara gittiðinde onlar burada bekliyor.
+Burda yapýlan ana aktivite halý dokumacýðý ve görünüþe göre 3 tane halý
+dokunulmakta...
+~
+0 0 0
+D5
+Aþaðý inen bir merdiven~
+~
+0 -1 17372
+E
+dokuma halý~
+Ýki halý ne anlattýklarýný anlayabilecek kadar tamamlanmýþ. Birinde iki
+þövalye arasýndaki bir savaþ, diðerinde ise Arden Ormanýndaki bir av
+resmedilmiþ.
+~
+S
+#17374
+Þövalye Kýþlasý~
+Þövalyelerin kýþlasýna girdin. Silahlar ve zýrhlar odayý doldurmuþ. Bazý
+þövalyeler burada uyuyarak savaþ yaralarýnýn iyileþmesini bekliyor. Basit
+bir duþakabin odanýn sonunda duruyor ve pencereler odanýn kararmasý için
+kapatýlmýþ. Tüm konuþmalar kýsýk tonlarda yapýlýyor. Bir kapý güneye divana,
+ve bir merdiven de yukarýdaki bir kuleye çýkýyor.
+~
+0 1 0
+D2
+Camelot Divaný'ný görüyorsun.~
+~
+1 -1 17370
+D4
+yukarý çýkan bir merdiven~
+~
+0 -1 17375
+S
+#17375
+Merlin'in Kulesi~
+Merlin'in Kulesi'ni buldun! Burada kitaplar, parþömenler, deðnekler vb.
+þeylerden oluþmuþ bir karýþýkla dolmuþ. Buradaki masalar, sandalyeler
+çeþit çeþit tuhaf þeylerle dolu. Merlin'in bazý hayvanlarý da var. Tüm
+raflarý çanak çömlekler doldurmuþ. Kulenin açýk penceresinden bir bakýþ
+atýyorsun ve dýþarýdaki Camelot'un yeþil tepelerini görüyorsun. Ama
+hepsinin de ötesinde odanýn ortasýndaki, kalbinin atýþýyla senkronik
+bir þekilde zonklayan pentagram dikkatini çekiyor. Ayrýca burada bir de
+'ÝÞARET' var ve kýzýl harfleri bariz bir þekilde BANA BAK diyorlar...
+~
+0 0 0
+D4
+Zonklayan pentagramdan içeri~
+~
+0 -1 17381
+D5
+Aþaðý inen bir merdiven~
+~
+0 -1 17374
+E
+kitap parþömen asa deðnekler~
+Tüm bu eþyalar Merlin tarafýndan senin hiçbir þekilde anlayamayacaðýn bir
+dildeki rünlerle tanýmlanmýþlar.
+~
+E
+hayvan~
+Merlin'in bir karga, kedi ve kurbaðasý var. Hepsi her hareketini izliyor.
+~
+E
+iþaret~
+Ýþarete bakýyorsun. Baþlandýçta anlayamýyorsun ama daha sonra harfler
+senin anlayabileceðin dile dönüþüyorlar. Þöyle yazýyor:
+
+ÝBLÝSE DÝKKAT! Ben UÐURSUZ, PERVASIZ VE AÞIRI DERECEDE GÜÇLÜ bir iblisi
+bu pentagrama hapsettim. Ýçeridekiler için hiçbir çýkýþ yoktur. Hatta
+Lancelot bile içeride kesinlikle ölür. Pentagramýn içinde deðerli hiçbir
+þey yok! ÖLÜM dýþýnda! Kutsal bir müdahale olmaksýzýn oradan çýkmak
+Ý M K A N S I Z D I R !!!  -  Merlin
+~
+E
+pentagram zonklayan~
+Þimdiye kadar sana hep iyi hizmet eden saðduyun, UZAK DURMAN için sana
+yalvarýyor.
+~
+S
+#17376
+Yuvarlak Masa~
+Arthur ve yandaþlarýnýn, savaþ konseyini oluþturan Yuvarlak Masa'ya geldin.
+Masanýn çapý yaklaþýk 10 metre ve cilalanmýþ kiraz aðacýndan yapýlmýþ.
+Masayý barýndýran oda da týpký kendisi gibi dairesel ve kubbeli bir tavaný
+var. Iþýk kubbeden ýþýnlar halinde inip kristal bir parçaya çarparak,
+harikulade bir spektrumla odaya yayýlýyor. Bir kapý batýya, Divan'a, bir
+merdiven ise yukarý doðru çýkýyor.
+~
+0 0 0
+D3
+Camelot Divaný'ný görüyorsun~
+~
+1 -1 17370
+D4
+yukarý çýkan bir merdiven~
+~
+0 -1 17377
+E
+kristal~
+~
+S
+#17377
+Arthur'un Ýkametgahý~
+Arthur'un özel ikametgahýna giriyorsun. Bir ejder armasý gölgelik görevi
+görüyor ve geniþ yataðý perdeliyor. Taþtan bir lavabosu, kiraz aðacýndan
+bir sandalye ve bir masasý var. Ermin bir kilim yere serilmiþ. Bir merdiven
+aþaðý doðru iniyor. Duvarlarý süsleyen halýlar kralýn Excalibur'u taþtan
+çekiþini sembolize eden resimlerle dolu.
+~
+0 0 0
+D5
+aþaðý inen bir merdiven~
+~
+0 -1 17376
+S
+#17378
+Asilzade Odasý~
+Asilzade odalarýnýn içinden geçiyorsun. Birtanesi odasýný dikkatsizce
+kilitlememiþ ama Camelot ahalisinin onuruna ve mülklerine el
+uzatmayacak olmalarýna bel baðlamýþ olmalý. Odalar, ortak bir odada
+birleþiyor, bazý yatak odalarý ve bir de hizmetçi bölmesi var.
+~
+0 0 0
+D2
+Asilzade Karargahý~
+~
+1 17338 17366
+E
+mülk~
+Burada ihtiyacýn olmayack birþey.
+~
+S
+#17379
+Asilzade Odalarý~
+Burada biraz bekleyip divaný ziyaret edebilirsin. Burada bir oturma odasý
+ve küçük bir bahçe var.
+~
+0 0 0
+D3
+Asilzade Odalarý~
+kapý~
+1 -1 17366
+E
+bahçe~
+Bazý taze sebzeler ve çiçekler burada yetiþiyor.
+~
+S
+#17380
+Asilzade Odasý~
+Asilzade odalarýnýn içinden geçiyorsun. Bu seferki senin gibi bir zibididen
+korktuðu için odasýný kilitlemiþ. Odalar, ortak bir odada birleþiyor, bazý
+yatak odalarý ve bir de hizmetçi bölmesi var.
+~
+0 0 0
+D1
+Asilzade Karargahý~
+door~
+2 -1 17366
+S
+#17381
+Pentagram~
+Eh iþte yaptýn! Pentagramýn içine adýmýný atýyorsun ve cehennemden gelen bir
+ýsý dalgasý seni kavuruyor. Tüm bedenin acýyla kasýlýyor ve kendini dehþet
+içinde çýðlýk atarken buluyorsun.
+~
+0 1|4|512 0
+D5
+~
+~
+1 -1 17375
+S
+#17382
+Dönemeçli Tepeler~
+Camelot'un kuzeyindeki dönemeçli tepelerde yolculuk ederek tüm gününü
+harcadýn. Birkaç kasabanýn içinden geçtin ve tanýþtýðýn insanlar genelde
+çok mutlulardý. Þu an bir yol kesiþiminde duruyorsun. Kuzeye doðru bir yol
+tepelere devam ediyor. Doðudaki yol çimenli bir çayýra gidiyor. Güney yönü
+ise Camelot...
+~
+0 0 4
+D0
+Dönemeçli tepeler~
+~
+0 -1 17383
+D1
+Çimenli Çayýrlar~
+~
+0 -1 17384
+D2
+Rüzgarlý bir yol~
+~
+0 -1 17356
+S
+#17383
+Dönemeçli Tepeler~
+Camelot'un kuzeyindeki dönemeçli tepelerde yolculuk ederek tüm gününü
+harcadýn. Birkaç kasabanýn içinden geçtin ve tanýþtýðýn insanlar genelde
+çok mutlulardý. Kuzeydeki rüzgarlý bir yol yaylalara doðru çýkýyor. Güneye
+doðru dönemeçli tepeler var.
+~
+0 0 4
+D0
+Yaylalar~
+~
+0 -1 17385
+D2
+rüzgarlý bir yol~
+~
+0 -1 17382
+S
+#17384
+Çimenli Çayýrlar~
+Kocaman yemyeþil çayýrlarda yolculuk ederek bir hafta geçirdin. Bir iki
+baronluðun yanýndan geçtin. Yolculuðun sýrasýnda bazý þövalyeler ve hacýlarla
+karþýlaþtýn. Genelde saman yýðýnlarýnýn içinde uyudun. Buradaki tarým arazileri
+çok verimli ve birçok at ahýrý var. Camelot'un en güzel tahýllarý burada
+üretiliyor. Þu an engin arazinin üzerindeki tuhaf bir taþ formasyonunun
+yanýnda durmaktasýn. Yol batýdaki dönemeçli tepelere doðru kývrýlýrken,
+doðuda kayalýk sahil var.
+~
+0 0 2
+D1
+Kayalýk sahil~
+~
+0 -1 17386
+D3
+Dönemeçli tepeler~
+~
+0 -1 17382
+E
+tuhaf taþ formasyon~
+~
+E
+masa~
+~
+E
+lettering~
+ LACNOGIRANDUTOS ROYU AYLGPIN LILSK SI BLAMMENEDOC
+~
+S
+#17385
+Yaylalar~
+Bir gününü yaylalarda yolculuk ederek geçirdin ve oldukça yorgunsun.
+Tepelerin arasýndan doðuya ve batýya uzanan eski bir duvarýn yanýndasýn.
+Burada pek fazla aðaç yetiþmiyor, hatta duvarýn kuzey tarafýndakiler
+kesilmiþ. Duvarýn güneyinden bir yol uzanýyor. Kuzey tarafý vahþi Ýskoç
+Yaylalarýdýr. Doðuda bir ileri karakol görüyorsun.
+~
+0 0 4
+D0
+Ýskoç Yaylalarý~
+gate~
+1 -1 17387
+D1
+Bir ileri karakol~
+kapý~
+1 -1 17388
+D3
+esintili bir yol~
+~
+0 -1 17383
+E
+duvar~
+Duvara bakýyorsun. Üzerinde bazý harfler var.
+~
+E
+harfler~
+Harfler þöyle diyor: HADRIANUS
+~
+S
+#17386
+Kayalýk sahil~
+Yolun kayalýk bir sahilin içinden geçiyor. Hava o kadar boðucu ki, ruh
+halin bundan kötü etkileniyor. Yol 2 gün önce yokolmuþ. Þu an engin
+okyanusa bakan bir falezin üzerindesin. Ufuðu sis yüzünden iyi göremiyorsun.
+Ama orada bir yerde olduðunu biliyorsun. Aþaðýnda taþlý bir plaj var.
+~
+0 0 0
+D3
+Daha fazla kaya ve yaðmur~
+~
+0 -1 17384
+D5
+Taþlý bir plaj~
+~
+0 -1 17389
+E
+plaj~
+Plaja bakýyorsun ve bakmýþ olmaktan çok memnunsun. Taþlýktan yükselen dumaný
+farketmenle birlikte aþaðýda düzinelerce barbar kýlýklý insan görüyorsun.
+Plaj kesinlikle istila edilmiþ.
+~
+S
+#17387
+Ýskoç Yaylalarý~
+Birkaç gününü Ýskoç Yaylalarý'nda gezinerek harcadýn. Koyunlarla uðraþan
+çobanlarý ve bir iki grup Ýskoç akýncýsýný gözetledin ve bulaþmadýn.
+Yukarýda, tepede bir kale var. Oraya gitmek isteyip istemediðinden
+emin deðilsin.
+~
+0 0 0
+D2
+Daha çok çoban, daha çok yayla~
+~
+0 -1 17385
+D4
+Uçurumdaki kale~
+~
+0 -1 17390
+S
+#17388
+Bir ileri karakol~
+Duvarýn üzerindeki bir karakoldasýn. Fazla konforlu olmayan taþtan bir yapý.
+Kýþlalar ve bir ana hol var. Nöbetçiler duvar boyunca dizilmiþler. Geliþin
+oldukça ilgi uyandýrdý çünkü bu sýnýr askerleri pek fazla yeni insan
+görmüyorlar.
+~
+0 0 0
+D3
+Giriþ kapýsýnda~
+~
+1 -1 17385
+S
+#17389
+Taþlýk plaj~
+Bir salýn olmasýný dileyerek taþlý plaja geliyorsun. Tüm bu kayalýklarýn
+arasýndan aþaðý zor bir iniþ yaptýn. Burada irili ufaklý bir kaç tane
+maðara ve oyuklar var.
+~
+0 0 4
+D4
+yapmak istemeyeceðin zor bir týrmanýþ~
+~
+0 -1 17386
+E
+oyuk~
+Dalgalar oyuklara sertçe çarpýyor. Aðzýna tuzlu bir tat geliyor.
+~
+E
+maðara~
+Maðaralara bakýyorsun - DUMAN! Burada birileri var!
+~
+S
+#17390
+Ýskoç Kalesi~
+Bir Ýskoç kalesinin giriþindesin. Duvarlar hayvanlara yuva olsun diye
+delþnmiþ. Kadýn ve çocuklar çeþitli postlarýn üzerine yayýlmýþlar.
+Taþ bir ateþçukurunun içinde bir ateþ kükreyerek, kemiklerindeki
+soðukluðu alýyorlar. Adamlar kýlýçlarýn üzerinden atlayarak yapýlan
+tuhaf bir dans yapýyorlardý ama seni görünce durdular. Büyük demir bir
+kazan ateþin üzerinde ýsýnýyor.
+~
+0 0 0
+D5
+Ýskoç Yaylalarý~
+~
+0 -1 17387
+E
+demir kazan~
+Kazanýn içinde patates, kökler ve domuz etine benzer birþeyin oluþturduðu
+bir karýþým piþiyor.
+~
+S
+#17391
+Tarlalar~
+Bir gününü Camelot'un tahýl ambarý olan bu bölgedeki kaldýrým taþlý bir
+yolu takip ederek geçirdin. Tarlalar bu sene verimliydiler ve iþçiler
+cömert bir ürünü hasat etmek için tarlalara gelmiþler. Yakýnda Hasatsonu
+Festivalleri baþlayacak ve hepsi baþka bir verimli seneyi daha kutlayacaklar.
+Hatta þimdiye kadar tanýþtýðýn 3 kiþi tarafýndan farklý festivallere davet
+edildin.
+~
+0 0 2
+D0
+Kaldýrým taþlý bir yol~
+~
+0 -1 17367
+D2
+Kaldýrým taþlý bir yol~
+~
+0 -1 17392
+D3
+Kaldýrým taþlý bir yol~
+~
+0 -1 17393
+S
+#17392
+Tarlalar~
+Bir gününü Camelot'un tahýl ambarý olan bu bölgedeki kaldýrým taþlý bir
+yolu takip ederek geçirdin. Tarlalar bu sene verimliydiler ve iþçiler
+cömert bir ürünü hasat etmek için tarlalara gelmiþler. Yakýnda Hasatsonu
+Festivalleri baþlayacak ve hepsi baþka bir verimli seneyi daha kutlayacaklar.
+Mutlu ruh halin güneyden gelen duman ve çýðlýklarla altüst oluyor.
+~
+0 0 2
+D0
+Kaldýrým taþlý bir yol~
+~
+0 -1 17391
+D2
+dumanýn içlerine doðru~
+~
+0 -1 17395
+D3
+Kaldýrým taþlý bir yol~
+~
+0 -1 17394
+E
+duman çýðlýklar~
+SÝLAH BAÞINA! SÝLAH BAÞINA! ÝNGÝL AKINCILARI BURADALAR!!!
+~
+S
+#17393
+Farms~
+Bir gününü Camelot'un tahýl ambarý olan bu bölgedeki kaldýrým taþlý bir
+yolu takip ederek geçirdin. Tarlalar bu sene verimliydiler ve iþçiler
+cömert bir ürünü hasat etmek için tarlalara gelmiþler. Yakýnda Hasatsonu
+Festivalleri baþlayacak ve hepsi baþka bir verimli seneyi daha kutlayacaklar.
+Hatta þimdiye kadar tanýþtýðýn 2 kiþi tarafýndan farklý festivallere davet
+edildin.
+~
+0 0 2
+D1
+Kaldýrým taþlý bir yol~
+~
+0 -1 17391
+D2
+Kaldýrým taþlý bir yol~
+~
+0 -1 17394
+S
+#17394
+Tarlalar~
+Bir gününü Camelot'un tahýl ambarý olan bu bölgedeki kaldýrým taþlý bir
+yolu takip ederek geçirdin. Tarlalarýn bu kesimi pek iyi iþ yapmýyor çünkü
+akýnlardan ve tacizlerden bitap düþmüþler. Tarla iþçileri evlerine dönüyorlar
+ve tarlalar bir kez daha ekilmiþ. Batýya doðru sýkça kullanýlmýþ çamurlu
+bir yol, doðuda ve kuzeyde ise tarlalar var.
+~
+0 0 2
+D0
+Kaldýrým taþlý bir yol~
+~
+0 -1 17393
+D1
+Kaldýrým taþlý bir yol~
+~
+0 -1 17392
+D3
+Çamurlu bir yol~
+~
+0 -1 17396
+S
+#17395
+Ýngil Ýstilasý!~
+Bu çiftçi kasabasýndaki Ýngil istilasýnýn oluþturduðu kaosun içinde buluyorsun
+kendini. Çiftçiler, tarla aletleriyle istilacýlardan kendilerini korumaya
+çalýþýyorlar. Kadýnlar, çocuklarýný kaptýklarý gibi kuzeye kaçýyorlar.
+Bahtsýz olanlarý ise, taþýdýklarý kargýyla adlandýrýlan zalim Ýngillerce
+tecavüze uðruyorlar. Köy kundaklanmýþ durumda ve batýdaki akýncý gemisini
+seçebiliyorsun.
+~
+0 0 2
+D0
+Diðer herkesin kaçtýðý yer~
+~
+0 -1 17392
+S
+#17396
+Bir ileri karakol~
+Korunaklý bir uç karakoluna ulaþtýn. Botlarýn çamur içinde. Nöbetçilerle
+konuþuyorsun ve seni batýda Camelot ile savaþta olan acýmasýz Pictlere
+dair uyarýyorlar. Adamlar savaþ techizatýyla donanmýþ ve sana gerçek
+zulümü görmüþ gözleriyle boþ boþ bakýyorlar. Doðuda tarlalar var, ve
+batýdan savaþýn berbat gürültüsü geliyor.
+~
+0 0 2
+D1
+Çamurlu bir yol~
+~
+0 -1 17394
+D3
+Savaþýn patýrtýsý~
+~
+0 -1 17397
+S
+#17397
+SaVaÞ!~
+Camelot þövalyeleri ve barbar Pictler arasýnda süren bir arbedenin tam
+kalbine cesurca daldýn. Ýki süvari birliði bir sýkýþtýrma hamlesini
+tamamlarken, þövalyeler de bir çatýþma hattý oluþturarak barbarlarý
+bölmüþler. Hattýn merkezini bir arada tutan bir kaç üst-þövalye var.
+Pictler kötü bir þekilde kaybediyorlar, zaten liderleri de savaþ
+alanýný çoktan terketmiþ.
+~
+0 0 2
+D1
+bir ileri karakol~
+~
+0 -1 17396
+D3
+Pict hatlarýnýn gerisinde~
+ranks~
+1 -1 17346
+S
+#17398
+Ahýrlar~
+Camelot'un uçsuz bucaksýz ahýrlarýndasýn. Sýra sýra bölmeler gözün
+alabildiðince ilerliyor. Atlarýn ve tuhaf bir karýþým olan yulaf yemlerinin
+kokusunu duyuyorsun. At seyisleri hayvanlarý týmarlamak, nallamak ve
+Camelot'un bu sadýk hizmetkarlarýna yem vermek ile meþguller. Iþýk
+tahtalarýn arasýndan sýzýyor. Batýda Þövalyenin Yolu var.
+~
+0 4096 0
+D3
+Þövalyenin Yolu~
+~
+0 -1 17342
+S
+#17399
+Ahýrlardaki hayvan dükkaný~
+Bu ahýrlardaki atlar satýlmak için tutuluyorlar.
+~
+0 4|4096 0
+S
+#0
+
+
+#RESETS
+*
+* Ok here we go- load and equip unique creatures
+*
+M 1 17307 1 17302 1 	*                     Black knight to crossroads
+E 1 17318 0 7   	*Black greaves
+M 1 17315 1 17303 1      *               Pellinore to forest arden
+*E 1 17320 0 5   	*backpack to body
+G 1 17321 0             *       holds the key
+*P 1 17322 0 17320 1      *               Puts rations in pellinores pack
+*P 1 17323 0 17320 1      *               Puts wine in Pellinores pack
+M 1 17316 1 17307 1      *               Load in questing beast in lair
+O 1 17324 1 17307       *               Put bones in lair
+O 1 17325 1 17307       *               Put skull in lair
+O 1 17326 1 17307       *               Put rock in lair
+M 1 17309 1 17312 1      *               Put garlon in Dark Hollow
+E 1 17312 0 10  	*garlon dons his armbands
+M 1 17314 1 17323 1      *               Put Morgan in inviting hut
+E 1 17319 0 17  	Give Morgana her wand
+M 1 17305 1 17317  1	*                    Put Benlad in Blackmoor
+E 1 17304 0 5   	*Benlad wears green armor
+E 1 17305 0 16  	*Benlad wields his axe
+M 1 17327 1 17322 1	*                     Put Perimones at chasm
+E 1 17335 0 5   	*Put red armor on perimones
+M 1 17310 1 17368 1	*                     Load in Gawaine in Tourney Yard
+E 1 17313 0 6   	*Gawaine's helm
+M 1 17312 1 17359 1      *               Load in Lancelot in Tourney Yard
+E 1 17315 0 9   	 *Lancelot dons his gauntlets of bravery
+M 1 17317 1 17369 1       *              Load in Tristram in Tourney Yard
+G 1 17327 0     	*Give Tristram the love letter
+M 1 17306 1 17315 1      *               Put galahad on return quest in battleplain at war
+E 1 17306 0 14  	*Galahad dons his white bracers
+E 1 17307 0 17  	*Galahad holds the grail
+M 1 17326 1 17315 1      *               Turquine, the evil knight, pawn of Mordred, fighting G.
+E 1 17334 0 6   	*Turquine dons his wolf helm
+M 1 17311 1 17374 1      *               Puts Lamorak in barracks (gawaine kicked his butt today)
+E 1 17314 0 8   	*Still wearing spurs
+M 1 17318 1 17340 1     *                Mordred in his dark hall
+E 1 17328 0 5   	*Mordred dons his golden armor
+E 1 17329 0 16  	*Mordred wields his unholy spear
+M 1 17304 1 17370 1	*                     Arthur in his court of camelot
+E 1 17311 0 13  	*Wears his scabbard
+E 1 17310 0 16  	*Wields Excalibur
+M 1 17313 1 17375 1     *                Load Merlin in his tower
+E 1 17316 0 1   	*Merlin dons his ring
+E 1 17317 0 17  	*Merlin dons his staff
+O 1 17336 0 17375                      Merlin has left his key here
+M 1 17322 1 17377 1      *               Load Gwen in Arthur's Chambers
+E 1 17331 0 4   	*Gwen wears her necklace
+M 1 17337 1 17381 1     *                Load demon in pentagram
+M 1 17328 1 17337 1     *                Load damsel in distress in NE tower of Blackmoor
+G 1 17337 0    		* Give damsel the reward for her rescue
+M 1 17325 1 17370 1	*                     Load dagonet in court
+E 1 17333 0 6   	*Dagonet wears his motley
+M 1 17324 1 17361 1 *                    Load Barant near S. Gate
+E 1 17332 0 16  *Give Barant his ball and chain
+M 1 17308 1 17351 1 *                     Load Gareth in the Tower of Valor
+E 1 17308 0 12  *Gareth wears his many colored cloak
+E 1 17309 0 11  *Gareth wears his many colored shield
+*
+* Non unique mobs- knights of reknown 9
+*
+M 1 17301 9 17374 1 *                      Knights of reknown in barracks
+E 1 17302 0 16	*		Mace
+M 1 17301 9 17374 1 *                     ditto
+E 1 17302 0 16
+M 1 17301 9 17361 1 *                  S. Gate
+E 1 17302 0 16
+M 1 17301 9 17361 1
+E 1 17302 0 16
+M 1 17301 9 17355  1 *                    N. Gate
+E 1 17302 0 16
+M 1 17301 9 17355 1
+E 1 17302 0 16
+M 1 17301 9 17371 1 *                    Feast Hall
+E 1 17302 0 16
+M 1 17301 9 17353 1  *                    Tower of Honor
+E 1 17302 0 16
+M 1 17301 9 17366 1  *                    Nobles quarters
+E 1 17302 0 16
+*
+* Squires 9
+*
+M 1 17302 9 17357 1 *			3 in squires barracks
+E 1 17301 0 16  		*equipped with daggers
+M 1 17302 9 17357 1
+E 1 17301 0 16
+M 1 17302 9 17357 1
+E 1 17301 0 16
+M 1 17302 9 17362 1 *			2 In the Tourney Yard
+E 1 17301 0 16
+M 1 17302 9 17352 1
+E 1 17301 0 16
+M 1 17302 9 17371 1 *			One in feast hall
+E 1 17301 0 16
+M 1 17302 9 17346 1 *			One in stables
+E 1 17301 0 16
+M 1 17302 9 17348 1 *			One in armory
+E 1 17301 0 16
+M 1 17302 9 17341 1 *                 On at junction victory road & knights
+E 1 17301 0 16
+*
+* Knights of Quality, 9
+*
+M 1 17303 9 17341 1 *                     2 at West Gate
+E 1 17303 0 16
+M 1 17303 9 17341 1
+E 1 17303 0 16
+M 1 17303 9 17358 1
+E 1 17303 0 16
+M 1 17303 9 17365 1
+E 1 17303 0 16
+M 1 17303 9 17374  1 *                    2 in barracks
+E 1 17303 0 16
+M 1 17303 9 17374 1
+E 1 17303 0 16
+M 1 17303 9 17314 1 *                    1 at creek
+E 1 17303 0 16
+M 1 17303 9 17371 1 *                     1 in feat hall
+E 1 17303 0 16
+M 1 17303 9 17376 1 *                     1 in Round Table
+E 1 17303 0 16
+*
+* Charmed Knight of Reknown 5
+*
+M 1 17319 5 17336 1 *                     NW tower of Blackmoor
+M 1 17319 5 17340 1 *                     1 Dark hall
+M 1 17319 5 17338 1 *                    1 in SW tower
+M 1 17319 5 17315 1 *                    1 in battleplain
+M 1 17319 5 17318 1 *                    1 in front of inviting hut
+*
+* Charmed Knight of Quality 3
+*
+M 1 17320 3 17340 1 *                     In dark hall
+M 1 17320 3 17315 1 *                    In battle plain
+M 1 17320 3 17327 1 *                    In Bailey
+*
+* Charmed Squire 7
+*
+M 1 17323 7 17340 1 *                     1 in dark hall
+M 1 17323 7 17332 1 *                    1 in st
+M 1 17323 7 17335 1 *                    1 in st
+M 1 17323 7 17330 1 *                    One inside curtain wall
+M 1 17323 7 17339 1 *                    One in SE tower of Blackmoor
+M 1 17323 7 17316 1 *                    One Before blackmoor
+M 1 17323 7 17314 1 *                    One at creek
+*
+* Lady in waiting 7
+*
+M 1 17321 7 17373 1 *                     3 in maiden tower
+E 1 17330 0 17 *			silken favor
+M 1 17321 7 17373 1
+E 1 17330 0 17
+M 1 17321 7 17373 1
+E 1 17330 0 17
+M 1 17321 7 17370 1 *                    One in court
+E 1 17330 0 17
+M 1 17321 7 17372 1 *                     1 in Ladies Quarters
+E 1 17330 0 17
+M 1 17321 7 17371 1 *                     1 in Feast hall
+E 1 17330 0 17
+M 1 17321 7 17398 1 *                     1 in stables
+E 1 17330 0 17
+*
+* Noblemen 1
+*
+M 1 17329 1 17371 1 *                     1 in feast hall
+G 1 17339 0         * his purse
+G 1 17331 0         *    his room key
+O 1 17339 0 17380  *load a spare pouch in locked room
+*
+* Serfs 4
+*
+M 1 17330 4 17398 1 *                     stables
+M 1 17330 4 17348 1 *                    armory
+M 1 17330 4 17371 1 *                    feast hall
+M 1 17330 4 17305 1 *                    in front of hut
+*
+* Merchants 2
+*
+M 1 17331 2 17354 1 *                     Noble Road
+M 1 17331 2 17355 1 *                     Squires
+*
+* Monks 2
+*
+M 1 17332 2 17373 1 *                     Maidens tower
+M 1 17332 2 17349 1 *                     in camelot
+*
+* Troubadour 1
+*
+M 1 17333 1 17370 1 *                     In court
+*
+* Bard 1
+*
+M 1 17334 1 17371 1 *                     Feast Hall
+*
+* Entertainer 1
+*
+M 1 17335 1 17370 1 *                     In court
+*
+* Servant 8
+*
+M 1 17336 8 17371 1 *                     2 in feast hall
+M 1 17336 8 17371 1
+M 1 17336 8 17372 1 *                    1 in ladies quarters
+M 1 17336 8 17373 1 *                    2 in maiden tower
+M 1 17336 8 17373 1
+M 1 17336 8 17378 1  *                   Noble chamber
+M 1 17336 8 17366 1  *                   Noble quarters
+M 1 17336 8 17374 1   *                  Knights quarters
+*
+* shopkeepers
+*
+M 1 17338 1 17348 1 *                     Iron Jack in armory
+G 1 17301 0          *          Give him the squires dagger
+G 1 17302 0           *         Give him a knights mace
+G 1 17303 0            *        Give him a knights lance
+M 1 17339 1 17398 1 *                    Stirrup in stables
+M 1 17340 1 17399 1 *                    load in riding horse
+M 1 17341 1 17399 1 *                    med warhorse
+M 1 17342 1 17399 1 *                    heavy warhorse
+*
+* Out the North gate
+*
+M 1 17343 1 17389 1 *                     Saxon raiders on rocky beach
+M 1 17344 2 17389 1 *                    captives of raiders
+M 1 17345 1 17389 1 *                    Saxon Chief
+E 1 17340 0 12  *Lice infested cloak
+M 1 17346 2 17388 1  *                    Border Guards at outpost
+M 1 17347 1 17388 1  *                   Outpost commander
+E 1 17341 0 16  *Sword in sheath
+M 1 17348 2 17390 1 *                    Clansmen in Scot Keep
+M 1 17349 1 17390 1 *                    Scot clan chief
+G 1 17342 0     *His wee bit of whiskey
+M 1 17363 2 17389 1 *                    slaves of scots
+*
+* Out the South gate
+*
+M 1 17350 9 17391 1 *(                    Serfs in field
+M 1 17350 9 17392 1
+M 1 17350 9 17393 1
+M 1 17350 9 17394 1
+M 1 17351 2 17395 1 *			Angle raider
+M 1 17352 1 17395 1 *			Angle chief
+E 1 17344 0 16   *Chief wields angle
+O 1 17343 0 17395 *			Put dragon ship ashore
+M 1 17360 1 17395 1	*		Load Gaheris at angle raid
+E 1 17349 0 16   *Gaheris wields his axe
+M 1 17353 1 17397 1	*		Calvary at battle
+M 1 17354 1 17397 1	*		Infantry unit at battle
+M 1 17355 1 17397 1	*		Pict hoard at battle
+M 1 17357 1 17397 1	*		Persante at battle
+E 1 17346 0 0    *Persante hold banner
+M 1 17358 1 17397 1	*		Dodinas at battle
+E 1 17347 0 16   *Dodinas wields lifecutter
+M 1 17359 1 17397 1	*		Lionel at battle
+E 1 17348 0 5    *Lionel wears plate armor
+M 1 17356 1 17346 1	*		Pict leader behind lines
+E 1 17345 0 17   *Give him staff of command
+M 1 17362 2 17396 1   *                  Border Guards at outpost
+M 1 17361 1 17396 1    *                 Outpost commander
+E 1 17341 0 16  *Sword in sheath
+*
+* doors
+*
+D 1 17305 3 2
+D 1 17308 1 2
+D 1 17318 3 1
+D 1 17323 1 1
+D 1 17316 0 1
+D 1 17327 0 1
+D 1 17327 2 1
+D 1 17328 2 1
+D 1 17333 2 1
+D 1 17340 0 1
+D 1 17326 1 1
+D 1 17341 3 1
+D 1 17356 2 1
+D 1 17355 0 1
+D 1 17361 0 1
+D 1 17361 2 1
+D 1 17366 0 1
+D 1 17366 1 0
+D 1 17366 2 1
+D 1 17366 3 2
+D 1 17378 2 1
+D 1 17379 3 0
+D 1 17380 1 2
+D 1 17371 2 1    *              ; The Feast Hall Close South
+D 1 17372 0 1
+*D 1 17375 4 2
+D 1 17385 0 1
+D 1 17385 1 1
+D 1 17388 3 1
+D 1 17397 3 1
+D 1 17346 1 1
+*
+D 1 17370 0 1     *             ; The Court of Camelot Close North
+D 1 17370 1 1     *             ; The Court of Camelot Close East
+D 1 17374 2 1     *             ; Knight's Barracks Close South
+D 1 17376 3 1     *             ; The Round Table Close West
+S
+
+
+#SHOPS
+17338 5 9 18 0 0 100 100 0 23
+17339 0 0 0 0 0 100 100 0 23
+0
+
+
+#SPECIALS
+M  17301 spec_guard  * reknown
+M  17303 spec_guard  * quality
+M  17306 spec_guard  * galahad
+M  17312 spec_guard  * lancelot
+M  17313 spec_cast_mage *         merlin
+M  17314 spec_cast_mage *         morgan Le fey
+M  17316 spec_breath_lightning  *  questing beast
+M  17318 spec_thief             *  mordred
+M  17337 spec_breath_fire       *  demon
+S
+
+#PRACTICERS
+M 17337 group_attack		* demon
+S
+
+#$
