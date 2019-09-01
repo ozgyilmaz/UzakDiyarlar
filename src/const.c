@@ -273,21 +273,21 @@ const 	struct	race_type	race_table	[]		=
     },
 
     { /* 3 */
-        {"half-elf","yarý-elf"},     TRUE, 		0,
+        {"half-elf","yarýelf"},     TRUE, 		0,
         0,              AFF_INFRARED,   0,
         0,              RES_CHARM,      VULN_IRON,
         A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
     },
 
     { /* 4 */
-        {"dark-elf","kara-elf"},     TRUE, 		0,
+        {"dark-elf","karaelf"},     TRUE, 		0,
         0,              AFF_INFRARED|AFF_SNEAK, 0,
         0,              RES_CHARM,      VULN_IRON,
         A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
     },
 
     { /* 5 */
-        {"rockseer","gri-elf"},     TRUE, 		0,
+        {"rockseer","grielf"},     TRUE, 		0,
         0,              AFF_INFRARED|AFF_SNEAK|AFF_PASS_DOOR, 0,
         0,              RES_CHARM,      VULN_WOOD,
         A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
@@ -301,14 +301,14 @@ const 	struct	race_type	race_table	[]		=
     },
 
     {  /* 7 */
-      {"svirfnebli","kýsga"},     TRUE, 		0,
+      {"svirfneblin","svirfneblin"},     TRUE, 		0,
       0,                AFF_INFRARED,   0,
       0,                RES_MAGIC|RES_POISON|RES_DISEASE, VULN_BASH,
       A|H|M|V,          A|B|C|D|E|F|G|H|I|J|K
     },
 
     { /* 8 */
-      {"duergar","duergar"},        TRUE, 		0,
+      {"duergar","karacüce"},        TRUE, 		0,
       0,                AFF_INFRARED,   0,
       0,                RES_MAGIC|RES_POISON|RES_DISEASE, VULN_DROWNING,
       A|H|M|V,          A|B|C|D|E|F|G|H|I|J|K
@@ -329,59 +329,59 @@ const 	struct	race_type	race_table	[]		=
     },
 
     { /* 11 */
-	{"storm giant","fýrtýna devi"},	TRUE, 		0,
-	0,		AFF_FLYING,		0,
-	0,		RES_LIGHTNING,	VULN_MENTAL|VULN_COLD|VULN_FIRE,
-	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
-    },
-
-    { /* 12 */
-	{"cloud giant","bulut devi"},	TRUE, 		0,
-	0,		AFF_FLYING,		0,
-	0,		RES_WEAPON,	VULN_MENTAL|VULN_LIGHTNING,
-	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
-    },
-
-    { /* 13 */
-	{"fire giant","ateþ devi"},	TRUE, 		0,
-	0,		0,		0,
-	0,		RES_FIRE,	VULN_MENTAL|VULN_LIGHTNING|VULN_COLD,
-	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
-    },
-
-    { /* 14 */
-	{"frost giant","buz devi"},	TRUE, 		0,
-	0,		0,		0,
-	0,		RES_COLD,	VULN_MENTAL|VULN_LIGHTNING|VULN_FIRE,
-	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
-    },
-
-    { /* 15 */
         {"felar","felar"},        TRUE, 		0,
         0,              AFF_INFRARED,   OFF_TAIL,
         0,              RES_LIGHT|RES_COLD,     VULN_FIRE|VULN_DROWNING,
         A|H|M|V,        A|C|D|E|F|H|J|K|Q|U|V
     },
 
-    { /* 16 */
-	{"githyanki","gayomart"},	TRUE,  		0,
+    { /* 12 */
+	{"githyanki","githyanki"},	TRUE,  		0,
 	0,		AFF_INFRARED,	0,
 	0, 		0,		0,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 17 */
+    { /* 13  */
 	{"satyr","satir"},	TRUE, 		0,
 	0,		AFF_INFRARED,	0,
 	0,		RES_WOOD|RES_DISEASE,	0,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    {  /* 18 */
+    {  /* 14 */
 	{"troll","trol"},	TRUE, 		0,/*DETECT_HIDDEN*/
 	0,		AFF_REGENERATION|AFF_INFRARED,	OFF_BERSERK,
  	0,	RES_CHARM|RES_BASH,	VULN_FIRE|VULN_ACID,
 	A|B|H|M|V,		A|B|C|D|E|F|G|H|I|J|K|U|V
+    },
+
+    { /* 15 */
+  {"storm giant","fýrtýna devi"},	FALSE, 		0,
+  0,		AFF_FLYING,		0,
+  0,		RES_LIGHTNING,	VULN_MENTAL|VULN_COLD|VULN_FIRE,
+  A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
+    },
+
+    { /* 16 */
+  {"cloud giant","bulut devi"},	FALSE, 		0,
+  0,		AFF_FLYING,		0,
+  0,		RES_WEAPON,	VULN_MENTAL|VULN_LIGHTNING,
+  A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
+    },
+
+    { /* 17 */
+  {"fire giant","ateþ devi"},	FALSE, 		0,
+  0,		0,		0,
+  0,		RES_FIRE,	VULN_MENTAL|VULN_LIGHTNING|VULN_COLD,
+  A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
+    },
+
+    { /* 18 */
+  {"frost giant","buz devi"},	FALSE, 		0,
+  0,		0,		0,
+  0,		RES_COLD,	VULN_MENTAL|VULN_LIGHTNING|VULN_FIRE,
+  A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
     { /* 19 */
@@ -694,7 +694,7 @@ const 	struct	race_type	race_table	[]		=
     },
 
     {  /* 62 */
-	{"centaur","santor"},	FALSE,		0,
+	{"centaur","sentor"},	FALSE,		0,
 	0,		0, OFF_BASH|OFF_KICK|OFF_KICK_DIRT|OFF_DODGE,
 	0,		RES_WEAPON,		0,
 	A|G|N|V,		A|B|C|D|E|F|G|H|I|J|K|Q
@@ -817,7 +817,7 @@ const 	struct	race_type	race_table	[]		=
     },
 
     {  /* 79 */
-	{"zombie","zombi"},		FALSE,		0,
+	{"zombie","hortlak"},		FALSE,		0,
 	0,		AFF_SLOW,	0,
 	IMM_MAGIC|IMM_POISON|IMM_CHARM,	RES_COLD, VULN_WEAPON,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
@@ -879,22 +879,22 @@ const	struct	pc_race_type	pc_race_table	[MAX_PC_RACE]	=
 	},
 
     {
-	{"half-elf","yarý-elf"},	"Y-Elf",200,{ 100,100,100,100,100,100,100,100,100,-1 ,-1,100,100},
+	{"half-elf","yarýelf"},	"YElf",200,{ 100,100,100,100,100,100,100,100,100,-1 ,-1,100,100},
 	{ "" },
 	{ -1, 2, 0, 1, -1,0 },	{ 19, 21, 21, 21, 19 ,25}, SIZE_MEDIUM,
 	-10,10,0,CR_ALL,LANG_ELVISH
     },
 
     {
-	{"dark-elf","kara-elf"},	"K-Elf",500,{ 100, 100, 100, 100,-1,100,100,-1,100 ,-1,-1,100,100},
+	{"dark-elf","karaelf"},	"KElf",500,{ 100, 100, 100, 100,-1,100,100,-1,100 ,-1,-1,100,100},
 	{ "" },
 	{ -2, 4, 0, 2, -2 ,0},	{ 18, 24, 21, 24, 16,25 }, SIZE_MEDIUM,
 	-10,20,0,CR_EVIL,LANG_ELVISH
     },
 
     {
-	{"rockseer","gri-elf"},"G-Elf",500,{ 100, 100, 100, 100,-1,-1,100,100,100 ,-1,-1,-1,100},
-	{ "wand" },
+	{"rockseer","grielf"},"GElf",500,{ 100, 100, 100, 100,-1,-1,100,100,100 ,-1,-1,-1,100},
+	{ "wands" },
 	{ -1, 2, 0, 4, -2 ,0},	{ 18, 24, 21, 24, 16,25 }, SIZE_MEDIUM,
 	-10,20,0,CR_NEUTRAL,LANG_ELVISH
     },
@@ -907,14 +907,14 @@ const	struct	pc_race_type	pc_race_table	[MAX_PC_RACE]	=
     },
 
     {
-	{"svirfnebli","kýsga"},"Kýsga",250,{ 100, 100, 100, 100,-1 ,-1,-1,-1 ,100, -1,-1,-1,100},
+	{"svirfneblin","svirfneblin"},"Svirf",250,{ 100, 100, 100, 100,-1 ,-1,-1,-1 ,100, -1,-1,-1,100},
 	{ "lore", "identify" },
 	{ 0, -1, 3, 0, 0,0 },	{ 20, 19, 23, 18, 19 ,25}, SIZE_SMALL,
 	10,0,2,CR_NEUTRAL,LANG_GNOMISH
     },
 
     {
-	{"duergar","duergar"},	"Duerg",250,{ -1, 100, 100, 100,-1 ,100,-1,-1,-1 , -1,-1,100,-1},
+	{"duergar","karacüce"},	"KCüce",250,{ -1, 100, 100, 100,-1 ,100,-1,-1,-1 , -1,-1,100,-1},
 	{ "berserk", "pick lock" },
 	{ 2, -2, -1, 1, 1 ,0},	{ 22, 16, 18, 20, 21,25 }, SIZE_MEDIUM,
 	25,-10,0,CR_EVIL,LANG_DWARVISH
@@ -933,7 +933,7 @@ const	struct	pc_race_type	pc_race_table	[MAX_PC_RACE]	=
 	{ -2, 3, 5, 0, -2 ,0},	{ 18, 23, 25, 20, 18 ,25}, SIZE_SMALL,
 	0,10,5,CR_NEUTRAL,LANG_GNOMISH
     },
-
+/*
     {
 	{"storm giant","fýrtýna devi"},		"FtDev",600,{ -1, 100, -1, 100,-1,-1,-1,100 ,-1,-1,-1,-1,-1},
 	{ "bash","enhanced damage" ,"sword" },
@@ -961,7 +961,7 @@ const	struct	pc_race_type	pc_race_table	[MAX_PC_RACE]	=
 	{ 5, -4, -3, -6, 3 ,0},	{ 25, 15, 17, 16, 23,25 }, SIZE_HUGE,
 	20,-20,0,CR_EVIL,LANG_GIANT
     },
-
+*/
 
     {
 	{"felar","felar"},	"Felar",250,{ -1, -1, 100, 100,-1 ,100,100,100 ,100,-1,-1,-1,-1},
@@ -1049,7 +1049,7 @@ const	struct	pc_race_type	pc_race_table	[MAX_PC_RACE]	=
     },
 */
     {
-	{"githyanki","gayomart"},	"Gmart",250,{ 100, -1, -1, 100,-1,-1,100,100,100 ,-1,-1,100,100},
+	{"githyanki","githyanki"},	"Gith",250,{ 100, -1, -1, 100,-1,-1,100,100,100 ,-1,-1,100,100},
 	{ "sword" ,"dagger"},
 	{ 0, 2, -2, 3, -1,0},	{ 19, 23, 20, 25, 18,25 }, SIZE_MEDIUM,
 	0,0,0,CR_EVIL,LANG_HUMAN
@@ -5243,7 +5243,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
     },
 
     {
-	{"dagger","kama"},             { 1,  93,  1,  1,1,1,1,1 ,1 ,1,1,1,1},
+	{"dagger","hançer"},             { 1,  93,  1,  1,1,1,1,1 ,1 ,1,1,1,1},
 	{ 2, 2, 1, 1,1,1,1,1,1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_dagger,            SLOT( 0),       0,      0,

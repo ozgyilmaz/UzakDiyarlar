@@ -1,0 +1,330 @@
+#AREA
+arbaini.are~
+Arba Ýni~
+{10 15} Merc    Arba Ýni~
+2800 2899
+#MOBILES
+#2800
+gardiyan canavar~
+gardiyan canavar~
+Bir gardiyan canavar sana bakarak hýrlýyor.
+~
+Siyah bir kürk canavarý kaplamýþ. En az 50 diþi var. Çenesinden kan damlýyor,
+anlaþýlan az önce birþeyler yemiþ.
+~
+human~
+ABCFG DPQ -200 0
+7 0 2d6+85 3d9+100 1d8+1 none
+4 4 4 9
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+#2801
+genç arba~
+genç arba~
+Genç bir arba oturmuþ kemik çiðniyor.
+~
+Uzun ve tüylü bir arba. Gözlerin onunkilerle buluþuyor. Birden gülümsüyor,
+elindeki kemiði atýyor ve sana doðru geliyor!!
+~
+human~
+ACFG P -500 0
+6 0 2d7+71 3d9+100 1d7+1 none
+4 4 4 9
+EFNU 0 0 0
+sit stand male 25
+0 0 medium 0
+#2802
+arba~
+arba~
+Sinirli bir arba görüyorsun.
+~
+Uzun, zayýf ve tüylü bir arba. Gözlerini sana dikmiþ, kendisine benzeyip
+benzemediðinizi konarba ediyor.
+~
+human~
+ABCFG P -500 0
+8 0 2d7+96 4d9+100 1d7+2 none
+3 3 3 9
+EFNU 0 0 0
+stand stand male 75
+0 0 medium 0
+#2803
+bebek arba~
+bebek arba~
+Bir bebek arba burada, bir kadavrayla doktorculuk oynuyor.
+~
+Tombul, iri ve tüylü bir arba. Seni fark edince "Katýlsana?" diyor.
+~
+human~
+ABCF P -100 0
+5 0 2d6+60 2d9+100 1d6+1 none
+5 5 5 9
+EFNU 0 0 0
+sit stand male 12
+0 0 medium 0
+#2804
+dev arba~
+dev arba~
+Dev bir arba burada, ceset yýðýnlarýnýn üstüne uzanmýþ düþünüyor.
+~
+Kaslý ve tüylü bir arba. Ýçeri girdiðini fark edince hýzlý hýzlý solumaya
+baþlýyor.
+~
+giant~
+ABCFG P -1000 0
+13 0 2d10+170 6d9+100 2d5+3 none
+-1 -1 -1 8
+EFNR 0 0 0
+rest stand male 150
+0 0 medium 0
+#2805
+diþi arba~
+diþi arba~
+Diþi bir arba burada, ceset yýðýný üstüne uzanmýþ düþünüyor.
+~
+Ýri ve tüylü bir arba. Ýçeri girdiðini fark edince hýzlý hýzlý solumaya
+baþlýyor.
+~
+human~
+ABCFG P -800 0
+11 0 2d8+134 5d9+100 1d10+2 none
+1 1 1 8
+EFNU 0 0 0
+rest stand female 125
+0 0 medium 0
+#2806
+þiþman kurtçuk~
+þiþman kurtçuk~
+Þiþman bir kurtçuk burada,  etrafta gezinerek yiyecek arýyor.
+~
+Kalýn ve uzun. Bu þeyde bir baþ göremiyorsun. Cesetten cesede çok hýzlý
+hareket ediyor.
+~
+human~
+ACFH PQ 0 0
+3 0 2d6+35 1d9+100 1d6+0 none
+7 7 7 10
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+#2807
+dolaþan canavar~
+dolaþan canavar~
+Dolaþan bir canavar burada, av arýyor.
+~
+Siyah bir kürk canavarý kaplamýþ. En az 50 diþi var. Çenesinden kan damlýyor,
+anlaþýlan az önce birþeyler yemiþ.
+~
+human~
+ABCFG DP -200 0
+7 0 2d6+85 3d9+100 1d8+1 none
+4 4 4 9
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+#2808
+aptal arba~
+aptal arba~
+Aptal bir arba burada, etrafta geziniyor.
+~
+Uzun, zayýf ve tüylü bir arba. Seni fark ediyor ve neye baktýðýný bulmaya
+çalýþýyor.
+~
+human~
+ACFG P -500 0
+8 0 2d7+96 4d9+100 1d7+2 none
+3 3 3 9
+EFNU 0 0 0
+stand stand male 75
+0 0 medium 0
+#0
+#OBJECTS
+#2800
+kadavra~
+Kadavra~
+Yarýsý yenmiþ bir kadavra burada yatýyor.~
+flesh~
+container 0 A
+30 0 0 30 100
+0 500 1 P
+#2801
+ceset yýðýn yatak~
+ceset yýðýný~
+Ceset yýðýnýndan yapýlmýþ bir yatak görüyorsun.~
+unknown~
+container 0 0
+30 0 0 30 100
+0 0 0 P
+#2802
+arba derisi~
+arba derisi~
+Bir arbaün kirli derisi burada býrakýlmýþ.~
+skin~
+armor 0 AK
+5 5 5 0 0
+12 200 1380 P
+A
+1 1
+E
+arba derisi~
+Bu ölü arbanýn derisi. Kötü görünüyor, kötü kokuyor ve kötü hissettiriyor.
+~
+#2803
+opal yüzük~
+opal yüzük~
+Siyah bir opal yüzük burada, yeni sahibini bekliyor.~
+opal~
+jewelry G AB
+0 0 0 0 0
+20 10 1150 P
+A
+19 2
+E
+opal yüzük~
+Basit ve pürüzsüz bir opal yüzük.
+~
+#2804
+deri kemer~
+deri kemer~
+Deri bir kemer yerde býrakýlmýþ.~
+leather~
+armor G AL
+6 6 6 0 0
+15 50 1050 P
+#2805
+çatlak kemik~
+çatlak kemik~
+Çatlak bir kemik parçasý burada duruyor.~
+bone~
+weapon 0 AN
+mace 3 3 pound 0
+6 30 350 P
+A
+18 -1
+A
+19 -1
+#0
+
+#ROOMS
+#2801
+Döküntü Yýðýný~
+Bu oda kemik ve kemik parçalarýyla dolu. Burada büyük þeyler yaþýyor.
+~
+0 AD 0
+D0
+Tekrar medeniyete ulaþtýn.
+~
+~
+0 0 6124
+D2
+Daha güçlü bir koku var.
+~
+~
+0 0 2803
+S
+#2802
+Arba Kileri~
+Bu odanýn tüm duvarlarýnda bol miktarda kan ve sakatat var. Onlara týrmanan
+kurtçuklar ve böcekler görüyorsun. Bu yerde uygarlýk yok. Yarý yenmiþ veya
+çürüyen cesetler zemini kapatmýþ. Ve hepsini sinekler, kurtçuklar ve böcekler
+kaplamýþ.
+~
+0 AD 0
+D1
+You welcome the fresh breeze coming from the east, but wrinkle your nose when
+the stench bears down on you once more.
+~
+~
+0 0 2803
+S
+#2803
+Oturma odasý~
+Bu küçük maðara kuzeye, güneye, doðuya ve batýya açýlýyor. Pis Bir koku
+etrafý kaplýyor.
+~
+0 AD 0
+D0
+Kemik parçalarýnýn oluþturduðu bir iz var.
+~
+~
+0 0 2801
+D1
+Tanrým! Burada zemini tamamýyla kapatmýþ cesetler görüyorsun. Burasý açýk
+bir mezarlýða benziyor.
+~
+~
+0 0 2804
+D2
+Off! Ýþte kötü kokunun kaynaðý...
+~
+~
+0 0 2805
+D3
+Kurtçuklarýn bu odayla batýdaki oda arasýnda sürünüþünü izlerken batý
+odasýnýn duvarýna dayanmýþ cesedin baðýrsaklarýný görünce kendini
+tutamayýp kusuyorsun.
+~
+~
+0 0 2802
+S
+#2804
+Oyun Odasý~
+Duvarlar kan ve insan parçalarýyla kaplý. Bir duvarýn üstüne bir insan
+kolunun asýlmýþ olduðunu görüyorsun. Göðsü parçalanmýþ ve yarýsý yenmiþ
+bir ceset yerde yatýyor.
+~
+0 AD 0
+D3
+Batýdan gelen serin bir meltem seni karþýlýyor. Ama rüzgarla yeniden pis
+kokularýn hücumuna uðruyorsun.
+~
+~
+0 0 2803
+S
+#2805
+Yatak Odasý~
+Koku burada oldukça fazla. Koparýlmýþ ve yarýsý yenmiþ hayvanlarýn, orklarýn
+ve insanlarýn etrafa atýlmýþ cesetlerini görüyorsun.Daha geniþ ve daha iðrenç
+parçalar odanýn köþesine yýðýlmýþ.
+~
+0 ACD 5
+D0
+Kuzeyden gelen serin bir meltem seni karþýlýyor. Ama rüzgarla yeniden pis
+kokularýn hücumuna uðruyorsun.
+~
+~
+0 0 2803
+S
+#0
+#RESETS
+M 0 2800   2 2801  1	* the guardian beast
+O 0 2805  10 2801	* a cracked bone
+M 0 2801   2 2802  2	* the young troll
+M 0 2801   2 2802  2	* the young troll
+M 0 2802   1 2803  1	* the medium troll
+O 0 2800  10 2804	* the cadaver-toy
+P 1 2804  -1 2800  1	*   a leather belt
+M 0 2800   2 2803  1	* the guardian beast
+M 0 2803   4 2804  4	* a baby troll
+M 0 2803   4 2804  4	* a baby troll
+M 0 2803   4 2804  4	* a baby troll
+M 0 2803   4 2804  4	* a baby troll
+M 0 2804   1 2805  1	* the giant troll
+E 1 2802   5   12	*   the troll skin
+M 0 2805   1 2805  1	* the large female troll
+O 0 2801  10 2805	* the heap of carnage
+P 1 2803   5 2801  1	*   an opal ring
+M 0 2806  10 2803  4	* a fat worm
+M 0 2806  10 2803  4	* a fat worm
+M 0 2806  10 2802  4	* a fat worm
+M 0 2806  10 2802  4	* a fat worm
+M 0 2806  10 2804  2	* a fat worm
+M 0 2807   1 2802  1	* the roving beast
+M 0 2808   1 2803  1	* the medium troll
+S
+#SHOPS
+0
+#SPECIALS
+S
+#$

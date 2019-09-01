@@ -1,0 +1,183 @@
+#AREA
+ofcol.are~
+Ofcol~
+{1 100} Alfa    Ofcol~
+5500 5599
+#MOBILES
+#0
+#OBJECTS
+#0
+
+#ROOMS
+#5550
+Köy sokaðý~
+Ofcol'da, küçük bir köy caddesinde duruyorsunuz. Buradan
+küçük evler ve birkaç insan görebiliyorsunuz. Buradan
+kuzeye doðru insanlarýn her zamanki gibi toplandýðý alana
+cadde uzanýyor.
+~
+0 0 1
+D0
+Sokaklara baktýðýnýzda pek ilginç veya özel þeyler görmüyorsunuz.
+~
+~
+0 -1 5551
+D2
+Bu geniþ yol güneye, T kavþaðýna doðru gidiyor.
+~
+~
+0 -1 314
+S
+#5551
+Köy sokaðý~
+Ofcol'da, küçük bir köy caddesinde duruyorsunuz. Buradan doðuda
+Küçük bir sokak var. Kuzeye giderek köy meydanýna çýkabilirsiniz.
+Güneye doðru giderek de Ofcol þehrinden ayrýlabilirsiniz.
+~
+0 0 1
+D0
+Köy meydaný her zamanki gibi çok kalabalýk deðil.
+~
+~
+0 -1 5552
+D1
+Küçük yol sakin ve huzurlu görünüyor.
+~
+~
+0 -1 5553
+D2
+Yavaþça geniþleyen köy sokaðýný görüyorsunuz.
+~
+~
+0 -1 5550
+S
+#5552
+Köy meydaný~
+Köy alaný köyün sakinlerinin toplanýp konuþabileceði,
+ticaret ve eþya satýmý yapabileceði ve sadece güzel
+bir vakit geçirebileceði bir yer. Batýda küçük bir
+dükkan ve kuzeyde köyün yerli hanýný görüyorsunuz.
+Ayrýlacaksanýz güneye, köy sokaðýna gidebilirsiniz.
+~
+0 0 1
+D0
+'Ofcol yerel haný' adlý bir han görüyorsunuz. Hoþ görünüyor.
+~
+~
+0 -1 5556
+D2
+Ofcol þehrinin köy sokaðýný görüyorsunuz.
+~
+~
+0 -1 5551
+D3
+'Luxan'ýn Karýþýk eþyalarý' yazýlý tabelasýyla küçük bir dükkan.
+~
+~
+0 -1 5555
+S
+#5553
+Küçük sokak~
+Küçük ve sessiz bir sokaktasýnýz. Buradan batýda köy sokaðýný
+görüyorsunuz ve güneyde küçük bir oda var.
+~
+0 0 1
+D1
+Büyük bir kesiþme yeri görüyorsunuz.
+~
+~
+0 0 601
+D2
+Bir pratik odasýnýn gelecekteki yüzü gibi görünüyor.
+~
+~
+0 -1 5554
+D3
+Köy sokaðý hariç hiçbir þey fark etmiyorsunuz.
+~
+~
+0 -1 5551
+S
+#5554
+Gelecekteki pratik odasý~
+Bu bir pratik odasýnýn gelecekteki yüzü gibi görünüyor. Tek çýkýþ
+Küçük sokaða, kuzeye doðru gidiyor.
+~
+0 D 1
+D0
+Gerçekten ilginç olmayan küçük yolu görebiliyorsunuz.
+~
+~
+0 -1 5553
+S
+#5555
+Luxan'ýn karýþýk eþyalar dükkaný~
+Her çeþit eþyanýn konduðu küçük bir dükkanda duruyorsunuz.
+burada sadece aradýðýnýz þeyi bulabilirsiniz. Tek çýkýþ
+doðudan köy meydanýna çýkýyor.
+~
+0 D 1
+D1
+Köy meydaný her zamanki gibi çok kalabalýk deðil.
+~
+~
+0 -1 5552
+S
+#5556
+Yerel Han~
+Ofcol insanlarýnýn huzurlu bir biçimde toplanýp konuþtuðu ve
+boðazlarýný serinlettiði bir yerel handasýnýz. Ofcol'un seyrek
+nüfuslu bir þehir olmadýðýný anlýyorsunuz çünkü burada bir çok
+insan var. Tek çýkýþ güneyden köy meydanýna çýkýyor.
+~
+0 D 1
+D2
+Köy meydaný her zamanki gibi çok kalabalýk deðil.
+~
+~
+0 -1 5552
+S
+#5577
+Ravan'ýn saklandýðý yer~
+Burasý kimsenin sizi rahatsýz etmeyeceði küçük ve keyifli bir yer.
+Duvarlara asýlmýþ bir kaç tablo ile ufak bir dekorasyon yapýlmýþ.
+Bu odadan çýkýþ olmadýðýný görüyorsunuz.
+~
+0 C 0
+E
+arkadaþ arkadaþlar~
+Liste belli baþlý isimleri de içeriyor: Tanrý, Lottie, Kurgan,
+Ezzard, Mike, Sprocket ve Stormbringer.
+~
+E
+düþman düþmanlar~
+Burada sadece bir resim var... Dim.
+Bu resimde onun þehrin kuzeyinde asýlýþý konu alýnmýþ. Resmin
+Aþaðýsýna R.I.P yazýlmýþ.
+~
+E
+resimler resim dekorasyon~
+Bu resim Ravan'ýn dostlarý ve düþmanlarýný gösteriyor. Ayýrmasý
+kolay çünkü bir çok düþmanýnýn altýna R.I.P. yazýlmýþ.
+~
+S
+#0
+#RESETS
+M 0  303   5 5556  3	* the citizen
+M 0  303   5 5550  3	* the citizen
+M 0  304   5 5553  3	* the citizen
+M 0  304   5 5552  3	* the citizen
+E 1 3020  99   16	*   a dagger
+M 0  306   1 5555  1	* Luxan
+G 1  304 100     	*   wild flowers
+G 1 3030 100     	*   a torch
+M 0  308   1 5556  1	* the Innkeeper
+G 1 3000 100     	*   a barrel of beer
+G 1 3001 100     	*   a bottle of beer
+M 0  350   1 5577  1	* the pet dragon
+S
+#SHOPS
+0
+#SPECIALS
+S
+#$

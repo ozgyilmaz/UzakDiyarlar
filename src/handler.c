@@ -171,10 +171,10 @@ int race_lookup (const char *name)
 {
    int race;
 
-   for ( race = 0; race_table[race].name[0] != NULL; race++)
+   for ( race = 0; race_table[race].name[1] != NULL; race++)
    {
-	if ( (LOWER(name[0]) == LOWER(race_table[race].name[0][0]))
-	&&  !str_prefix( name,race_table[race].name[0]))
+     if (((LOWER(name[0]) == LOWER(race_table[race].name[0][0])) &&  !str_prefix( name,race_table[race].name[0])) ||
+        ((LOWER(name[0]) == LOWER(race_table[race].name[1][0])) &&  !str_prefix( name,race_table[race].name[1])) )
 	    return race;
    }
 
@@ -423,8 +423,8 @@ int class_lookup (const char *name)
 
    for ( iclass = 0; iclass < MAX_CLASS; iclass++)
    {
-        if (LOWER(name[0]) == LOWER(class_table[iclass].name[0][0])
-        &&  !str_prefix( name,class_table[iclass].name[0]))
+        if ( (LOWER(name[0]) == LOWER(class_table[iclass].name[0][0]) &&  !str_prefix( name,class_table[iclass].name[0])) ||
+              (LOWER(name[0]) == LOWER(class_table[iclass].name[1][0]) &&  !str_prefix( name,class_table[iclass].name[1])) )
 	{
             return iclass;
 	}

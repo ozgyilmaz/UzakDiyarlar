@@ -127,7 +127,7 @@ int class_ok( CHAR_DATA *ch , int iclass);
  * Socket and TCP/IP stuff.
  */
 #if	defined(macintosh) || defined(MSDOS)
-const	char	echo_off_str	[] = { '\0' };
+//const	char	echo_off_str	[] = { '\0' };
 const	char	echo_on_str	[] = { '\0' };
 const	char 	go_ahead_str	[] = { '\0' };
 #endif
@@ -138,7 +138,7 @@ const	char 	go_ahead_str	[] = { '\0' };
 #include <netinet/in.h>
 #include <sys/socket.h>
 #include "telnet.h"
-const	char	echo_off_str	[] = { IAC, WILL, TELOPT_ECHO, '\0' };
+//const	char	echo_off_str	[] = { IAC, WILL, TELOPT_ECHO, '\0' };
 const	char	echo_on_str	[] = { IAC, WONT, TELOPT_ECHO, '\0' };
 const	char 	go_ahead_str	[] = { IAC, GA, '\0' };
 #endif
@@ -2166,7 +2166,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
     case CON_GET_NEW_RACE:
 	one_argument(argument,arg);
 
-	if (!str_cmp(arg,"help"))
+	if (!str_cmp(arg,"yardým"))
 	{
 	    argument = one_argument(argument,arg);
 	    if (argument[0] == '\0')
@@ -2344,14 +2344,11 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 
 	do_help(ch,(char*)"stats");
-	write_to_buffer(d,"[1;37;32m",0);
 	write_to_buffer(d,"\n\rÞimdi sýra nitelik zarlarýný atmada. Uzak Diyarlar'da\n\r",0);
 	write_to_buffer(d,"6 karakter niteliði vardýr. Bunlar:\n\r\n\r",0);
 	write_to_buffer(d,"Güç, Zeka, Bilgelik, Çeviklik, Bünye, Karizma\n\r\n\r",0);
 	write_to_buffer(d,"Her niteliðin karaktere saðladýðý avantajlar farklýdýr.\n\r",0);
-	write_to_buffer(d,"Ayrýntýlý bilgiyi www.uzakdiyarlar.net adresinde",0);
-	write_to_buffer(d,"bulabilirsiniz.\n\r\n\r",0);
-	write_to_buffer( d,"[0;37;37m",0);
+	write_to_buffer(d,"Ayrýntýlý bilgiyi www.uzakdiyarlar.net adresinde bulabilirsin",0);
 	write_to_buffer(d, buf,0);
 	d->connected = CON_ACCEPT_STATS;
 	break;
@@ -2368,14 +2365,12 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    write_to_buffer( d, "\n\r", 2 );
 	    if (!align_restrict(ch) )
 	    {
-				write_to_buffer( d,"[1;37;32m",0);
 				write_to_buffer( d, "Sýra geldi karakterin için yönelim (alignment) seçmeye. Yönelim,\n\r",0);
 				write_to_buffer( d, "basit bir ifadeyle karakterin topluma ve doðaya karþý davranýþ\n\r",0);
 				write_to_buffer( d, "biçimini belirler. Ayrýntýlý bilgiye siteden ulaþabilirsin.\n\r\n\r",0);
 				write_to_buffer( d, "Üç çeþit yönelim vardýr:\n\r",0);
-				write_to_buffer( d, "iyi[0;37;31m(good)[1;37;32m,yansýz[0;37;31m(neutral)[1;37;32m ve kem[0;37;31m(evil)[1;37;32m\n\r\n\r",0);
-				write_to_buffer( d,"[0;37;37m",0);
-		    		write_to_buffer( d, "Karakterinin yöneliminin ne olmasýný istiyorsun ( i - y - k )? ",0);
+				write_to_buffer( d, "iyi, yansýz ve kem\n\r\n\r",0);
+				write_to_buffer( d, "Karakterinin yöneliminin ne olmasýný istiyorsun ( i - y - k )? ",0);
 	    d->connected = CON_GET_ALIGNMENT;
 	    }
 	    else
@@ -2589,7 +2584,8 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	if ( ch->level == 0 )
 	{
 	    int l;
-
+			SET_BIT(ch->act,PLR_AUTOEXIT);
+			SET_BIT(ch->act,PLR_AUTOGOLD);
 	    ch->level	= 1;
 	    ch->exp     = base_exp(ch,ch->pcdata->points);
 	    ch->hit	= ch->max_hit;
@@ -3094,7 +3090,7 @@ void page_to_char( const char *txt, CHAR_DATA *ch )
 		ch->desc->showstr_head  = (char*)alloc_mem( strlen( buf ) + 1 );
 		strcpy( ch->desc->showstr_head, buf );
 		ch->desc->showstr_point = ch->desc->showstr_head;
-		show_string( ch->desc, "" );
+		show_string( ch->desc, (char*)"" );
 	}
     return;
 }
@@ -3184,7 +3180,6 @@ void act_color( const char *format1, CHAR_DATA *ch, const void *arg1,
     va_list colors;
 	char 		*pbuff;
 	char 		buffer[ MAX_STRING_LENGTH*2 ];
-	bool		fColour = FALSE;
 
 
     /*
@@ -3237,7 +3232,6 @@ void act_color( const char *format1, CHAR_DATA *ch, const void *arg1,
                 		*point++ = *str++;
                 		continue;
 				}
-				fColour = TRUE;
 	    			++str;
 	    			i = " <@@@> ";
 

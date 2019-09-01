@@ -1,0 +1,192 @@
+#AREA
+avci.are~
+Avcý Konaðý~
+{90 100} Asena Avcý Konaðý~
+570 579
+
+#MOBILES
+#570
+avcý malikane koruma AVCI HUNTER~
+koruma~
+Avcý Kabalýnýn Malikanesinin giriþinde duran yabancýlarýn girmesini
+önleyen bir Koruma.
+~
+Yüzbinlerce altýn ile özel olarak tutulmuþ kaslý bir koruma.
+~
+human~
+ABKWe  DFHJVZ 0 0
+92 40 2d500+25000 1d200+600 10d35+50 slash
+-77 -77 -77 -37
+CEFKNU AB 0 S
+stand stand male 5000
+0 0 medium 0
+#571
+avcý kabal þifacý AVCI hunter~
+þifacý~
+Para karþýlýðý tutulmuþ bir ermiþ burada avcý kabal mensuplarýna þifa
+daðýtmak için bekliyor.
+~
+Yüzbinlerce altýn ile tutulmuþ diyarda eþi benzeri az bulunan güçlü ve
+bilge bir þifacý burada avcý kabal mensuplarýna þifa daðýtmayý bekliyor.
+~
+human~
+ABQVae DFH 1000 0
+80 0 1d1+21999 1d1+999 2d4+50 divine
+-75 -75 -75 -15
+FHIK ABC D 0
+stand stand male 1000
+0 0 medium 0
+#572
+avcý malikane koruma AVCI HUNTER~
+koruma~
+Avcý Kabalýnýn Malikanesinin giriþinde duran yabancýlarýn girmesini
+önleyen bir Koruma.
+~
+Yüzbinlerce altýn ile özel olarak tutulmuþ kaslý bir koruma.
+~
+human~
+ABKWe  DFHJVZ -1000 0
+92 40 2d500+22000 1d200+600 5d35+50 slash
+-77 -77 -77 -32
+CEFKNU AB 0 S
+stand stand male 5000
+0 0 medium 0
+#0
+
+
+#OBJECTS
+#570
+altýn iþlemeli sandýk~
+sandýk~
+Avcý kabalýnýn hazinesini içinde tutan, etrafa sarý ýþýk
+hüzmeleri yayan bir sandýk.~
+golden~
+container CEORY P
+10 15 572 15 100
+60 1 20 P
+#571
+hazine~
+avcý kabalýnýn hazinesi~
+avcý kabalýnýn hazinesi~
+golden~
+treasure CETO AO
+0 0 0 0 0
+60 1 10000 P
+#572
+altýn anahtar~
+altýn iþlemeli anahtar~
+Altýn iþlemeli anahtar burada duruyor.~
+bone~
+key CEORY A
+0 0 0 0 0
+40 4 0 P
+#0
+
+#ROOMS
+#570
+Malikane'nin Kapýlarý~
+Daha önce görmediðin derecede lüks bir malikanenin altýndan yapýlmýþ
+kapýsýnýn önünde duruyorsun. Altýnýn etrafa yaydýðý sarý ýþýk görünüþe göre
+bulunduðun yeri aydýnlatan tek þey. Zenginlik abidesi malikane'nin kapýlarý
+sana içeride çok zengin kiþi veyahut kiþilerin bulunabileceðini
+düþündürüyor.
+~
+0 ACDX 0
+D2
+~
+~
+0 -1 9783
+D4
+~
+giriþ~
+3 -1 571
+S
+#571
+Malikane'nin Giriþi~
+Lüks lambalarýn aydýnlattýðý altýndan oluþan dekorlu bir odadasýn.
+Malikanenin içinde kapýda iki tane koruma görüyorsun. Amaçlarý Avcý
+Kabalýnýn Malikanesini davetsiz misafirlerden korumak olsa gerek. Eðer tek
+parça halinde kalmak istiyorsan yapman gereken tek þey kaçmak.
+~
+0 ACDX 0
+D0
+~
+~
+5 -1 572
+D5
+~
+giriþ~
+3 -1 570
+S
+#572
+Gizemli Koridor~
+Etrafýnda binlerce kapý barýndýran bir koridordasýn. Girdiðin odalarýn
+hepsinde birbirinin ayný; Gösteriþli eþyalar, rahat görünüþlü kanepeler, ve
+de bir kaç yatak... Altýn kaplý döþemeler, lüks lambalar aklýný karýþtýrýyor
+kayýpmý oluyorsun? Ýçinden bir ses bu odalarýn ayný olduðunu söylüyor fakat
+bu nasýl olur? Odanýn kuzey duvarýnda bir kapý etrafa sarý ýþýk hüzmeleri
+yayýyor.
+~
+0 ADX 0
+D0
+~
+~
+0 -1 573
+D1
+~
+~
+0 -1 572
+D2
+~
+~
+0 -1 571
+D3
+~
+~
+0 -1 572
+S
+#573
+Avcý Kabalýnda Gizli bir oda~
+Kapýdan içeri girdiðinde gördüklerinin birer halisünasyon olduðunu
+aslýnda tek tük meþalelerle aydýnlanmýþ, loþ ve nemli bir havanýn hakim
+olduðu mahzende buluyorsun kendini. Odanýn ortasýnda duran sandýðýn içinde
+deðerli birþeyler olsa gerek...
+~
+0 ADX 0
+M 110
+D2
+~
+~
+0 -1 572
+S
+#0
+
+#RESETS
+M 0 571   1 573  1    	*  Hunter healer
+M 0 570   1 571  1	*  Hunter keeper 1.
+M 0 572   1 571  1	*  Hunter keeper 2.
+E 0 572   0 11		*  Hunter's key
+O 0 570   1 573       	*  Hunter's container
+P 0 571   1 570  1	*  Item into the container
+D 0 571   5 1		*  Hunter's enterance
+D 0 570   4 1		*  Hunter's enterance
+S
+
+#SPECIALS
+M 570 spec_fight_hunter		* hunter guardian
+M 571 spec_cast_cabal		* healer of hunter
+M 572 spec_fight_hunter		* hunter guardian
+S
+
+#OMPROGS
+O 571 get_prog get_prog_cabal_item
+O 571 sac_prog sac_prog_cabal_item
+M 570 greet_prog greet_prog_hunter
+M 571 speech_prog speech_prog_hunter_cleric
+S
+
+#PRACTICERS
+M 570 group_cabal	* hunter
+M 572 group_cabal	* hunter
+S
+#$

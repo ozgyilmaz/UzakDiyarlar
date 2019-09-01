@@ -215,8 +215,7 @@ Use these commands to walk in a particular direction.
 5) Bilimsel terminoloji
 6) Eþya isimleri
 
-Seçtiðiniz ismin yukarýda belirtilen kýstaslarýn dýþýnda
-kaldýðýna emin misiniz?(E - H) ~
+Seçtiðiniz ismin yukarýda belirtilen kýstaslarýn dýþýnda kalmalýdýr.~
 
 0 SHOOT THROW STUCK 'STUCK IN'~
 Syntax: shoot <direction> <target>
@@ -2230,26 +2229,22 @@ See also:  CLASS, WORLD
 
 -1 'RACETABLE'~
 
-RACE       ACRONYM   GOOD_AT  BAD_AT   EXTRA    COMMENTS
------      -------   -------  ------   -----    -------------------
-Human       Human     None     None      0      average race
-Elf	     Elf     Int,Dex  Str,Con   500     good
-Half-Elf    H-Elf    Int,Dex  Str,Con   200     half human, half elf
-Dark-Elf    D-Elf    Int,Dex  Str,Con   500     evil
-Rockseer    Rocks    Int,Dex  Str,Con   500     neutral, "wand", "!meld into s."
-Dwarf       Dwarf    Wis,Con    Dex     250     "berserk"
-Svirfnebli  Svirf      Wis      Int	250     "lore", "identify"
-Felar       Felar    Str,Con      Dex	250     "hand to hand"
-Duergar     Duerg    Str,Con  Int,Wis   250     "berserk", "pick lock"
-Arial       Arial    Int,Dex  Str,Con   250     can fly
-Gnome       Gnome    Int,Wis  Str,Con   300     "identify"
-Storm Giant StGia    Str,Con  Wis,Dex   600     good, "bash","enh. damage"
-Cloud Giant ClGia    Str,Con  Int,Dex   500     neutral, "bash","enh. damage"
-Fire Giant  FiGia    Str,Con  Int,Dex   500     evil, "bash","enh. damage"
-Frost Giant FrGia    Str,Con  Int,Dex   500     evil, "bash","enh. damage"
-Githyanki   Githy    Int,Dex  Wis,Con   250     evil, "sword", "dagger"
-Satyr       Satyr      Dex      Int     250     neutral, "camouf.", "ambush"
-Troll       Troll    Str,Con  Int,Dex   400     evil, regenerate, "fast healing"
+IRK       KISALTMA     ÝYÝ      KÖTÜ     TP    BÝLGÝ
+-----      -------   -------  -------   -----  -------------------
+Ýnsan       Ýnsan      Hiç      Hiç       0    ortalama ýrk
+Elf          Elf     Zek,Çev   Güç,Bün   500   iyi yönelim
+Yarýelf     YElf     Zek,Çev   Güç,Bün   200   yarý insan, yarý elf
+Karaelf     KElf     Zek,Çev   Güç,Bün   500   kem yönelim
+Grielf      GElf     Zek,Çev   Güç,Bün   500   yansýz, "deðnekler"
+Cüce        Cüce     Bil,Bün     Çev     250   "vahþileþme"
+Karacüce    KCüce    Güç,Bün   Zek,Bil   250   "vahþileþme", "maymuncuk"
+Svirfneblin Svirf      Bil       Zek     250   "irfan", "tanýmlama"
+Felar       Felar    Güç,Bün     Çev     250   "çýplak el"
+Arial       Arial    Zek,Dex   Güç,Bün   250   uçabilen canlýlar
+Gnom        Gnom     Zek,Bil   Güç,Bün   300   "tanýmlama"
+Githyanki   Gith     Zek,Çev   Bil,Bün   250   kem, "kýlýç", "hançer"
+Satir       Satir      Çev       Zek     250   yansýz, "kamuf", "pusu", "arakla"
+Trol        Trol     Güç,Bün   Zek,Çev   400   kem, "trans", "hýzlý iyileþme"
 
 Irkýnýz ne olsun (bilgi için: uzakdiyarlar.net)?~
 
@@ -2454,13 +2449,13 @@ their sanctuaries in numbers reaching high into the thousands
 Aþaðýda sýnýf listesi verilmiþtir. Daha fazla bilgi için web sitesini
 ziyaret ediniz.
 
-SINIF      KISALTMA  GEREKEN  EXTRA
------      --------  -------  -----
-Ermiþ         Erm      BÝL  	 0
-Hýrsýz          Hýr      ÇEV       0
+SINIF       KISALTMA  GEREKEN  EXTRA
+-----       --------  -------  -----
+Ermiþ         Erm      BÝL  	   0
+Hýrsýz        Hýr      ÇEV       0
 Savaþçý       Sav      GÜÇ       0
 Korucu        Krc      GÜÇ      200
-Ninja	      Nin      ÇEV      300
+Ninja	        Nin      ÇEV      300
 Anti-paladin  A-P      GÜÇ      300
 Paladin       Pal      GÜÇ      400
 Samuray       Sam      GÜÇ      500
@@ -3739,7 +3734,7 @@ to the others, but their probabities is much lower.
 
 -1 STAT STATS~
 Uzak Diyarlar'da þu an için 6 karakter niteliði vardýr. Bunlar,
-Güç, Zeka, Bilgelik, Çeviklik, Bünye ve Karizma'dýr. Her niteliðin
+Güç, Zeka, Bilgelik, Çeviklik, Bünye ve Karizma. Her niteliðin
 karaktere saðladýðý avantajlar vardýr. Niteliklerle ilgili ayrýntýlý
 bilgiyi uzakdiyarlar.net adresinde bulabilirsiniz.
 ~

@@ -1,0 +1,235 @@
+#AREA
+aslan.are~
+Aslan Kalesi~
+{90 100} Cabal Aslan Kalesi~
+500 510
+
+
+#MOBILES
+#500
+aslan þifacý kabal üstat~
+þifacý~
+Aslan'larýn þifacýsýný görüyorsun.
+~
+Geyik derisi bir pantolon, haki renk bir elf pelerini ve yine haki renk
+bir deri zýrh ile kuþanmýþ þifacý göðsünün ortasýnda bir tarafý Aslan
+figürü, bir tarafý danrýsýnýn simgesi ile iþilenmiþ bir madalyon taþýyor.
+Tehu Yaþamýný Aslan Kabalý'na ve üyelerine adamýþ...
+~
+human~
+ABQVae DFH 1000 0
+80 0 1d1+20999 1d1+999 2d4+50 claw
+-75 -75 -75 -25
+FHIK ABC D 0
+stand stand male 1000
+0 0 medium 0
+#501
+koruyucu aslan muhafýz kabal~
+Muhafýz~
+Aslan Adam'larýn muhafýzý giriþi koruyor.
+~
+Seni parçalara bölebilecek pençelere sahip.
+~
+human~
+ABKWe DFHJVZe 0 0
+92 40 2d500+25000 1d200+1600 10d40+50 claw
+-70 -70 -70 -30
+ACEFNU AB 0 S
+stand stand male 5000
+0 0 medium 0
+#502
+lonca efendi~
+lonca efendisi~
+Lonca efendisi burada bekliyor.
+~
+Yaþlý fakat güçlü bir Aslan Adam. Üzerindeki giysilerden yaptýðý son
+kamuflajdan kalma yaprak ve dallar sarkýyor.
+~
+human~
+ABKRV DEFZ 1000 0
+86 0 1d1+22999 1d1+999 3d8+44 chop
+-60 -60 -60 -20
+FG ABD C 0
+stand stand male 0
+0 0 medium 0
+#0
+
+#OBJECTS
+#500
+küçük tahta anahtar~
+küçük tahta anahtar~
+Küçük tahta bir anahtar görüyorsun.~
+wood~
+key ORY AO
+0 0 0 0 0
+40 4 0 P
+#501
+mimber~
+mimber~
+Odanýn ortasýnda büyük aðaç mimber duruyor.~
+gold~
+container ORY P
+10 15 500 15 100
+60 1 20 P
+#502
+gizli kod~
+Gizli Kod~
+Gizli kodu görüyorsun.~
+gold~
+treasure O AO
+0 0 0 0 0
+60 1 100000 P
+#503
+aslan kýlýç kýlýcý gümüþ göz~
+Gümüþ Gözlü Kýlýç~
+Üzerinde bir GÖZ olan gümüþ bir kýlýç yerde dinleniyor.~
+silver~
+weapon TWAIKLP AN
+sword 7 2 slash 0
+1 100 0 P
+
+#0
+
+#ROOMS
+#500
+Valen Aðacýnýn Önü~
+Doðu'da Dev bir Valen aðacý dikkat çekiyor. Aðacýn kabuðundan ve yerden
+fýþkýrýrcasýna uzanan sarmaþýklar doðal bir kapý oluþturuyor adeta. Kadim
+aslan muhafýzý ile birlikte tatmin edici bir koruma oluþturan sarmaþýk
+kapýnýn her iki tarafýnda büyü ile aðaca iþlenmiþ kadim rün'ler tuhaf bir
+parlaklýk ile aydýnlatýyor etrafý.
+~
+0 DX 0
+D0
+Lonca odasý.
+~
+~
+5 -1 501
+D2
+Kabalýn dýþý.
+~
+~
+1 -1 6007
+S
+
+#501
+Toplantý Odasý~
+Arkadaki bölümü haricinde eþyadan arýndýrýlmýþ, duvarlardan sýzan kaynaðý
+belirsiz ýþýk dýþýnda bir ýþýk kaynaðý ile aydýnlatýlmayan, loþ bir
+odadasýn. Arka tarafta ufak bir bölme Lonca Efendisi'nin kiþisel eþyalarýný
+barýndýrýyor. Kapýnýn üzerinde hafif hafif parýldayan, Aslan Gözü'nü andýran
+rün dýþýnda dikkat çekici bir þey gözükmüyor.
+~
+0 DX 0
+D0
+Mimber.
+~
+~
+0 -1 504
+D1
+Toplantý odasý.
+~
+~
+0 -1 502
+D2
+Lonca giriþi.
+~
+~
+0 -1 500
+D3
+Meþe aðacýnýn koruduðu Depo Odasý.
+~
+~
+0 -1 503
+S
+#502
+Giriþ Holü ~
+Dev Valen aðacýnýn içinde zamanýn ve büyünün etkisi ile oyulmuþ giriþ
+holünde duruyorsun. Kadim aðacýn Elflere özgü tahta iþçiliðiyle yontulup
+düzleþtirilmiþ kökleri holün sonuna deðin saðlam kolonlar oluþturmuþ her iki
+yanda. Druidlerin unutulmuþ dili ve artýk düya üzerinde varolmayan rün dili
+ile iþlenmiþ [1;33;40mduvarlar[0;37;40m, Rüya Þehri'nin savaþlarýný, yaradýlýþý, Zümrüt Ormaný
+Efsanesi'ni anlatan figürlerle dolu. Zaman zaman göz ucuyla duvarlardaki
+hareketler, akýp giden hikaye seçilebiliyor ancak büyülü dans bir an sonra
+hareketsiz, aðaç rünlerine dönüþüyor. Holün ortasýnda nadir çiçeklerin
+arasýnda taþtan oyulmuþ küçük bir sunak ve dünyanýn merkezine deðin
+iniyormuþ izlenimi veren bir kuyu duruyor. Taþ kuyu'nun üzerinde ise cüce
+yapýmý gibi göz üken onlarca figür baþka bir efsaneyi anlatýyor. Holün
+sonunda sarmaþýklarýn ve ahþap iþçiliðinin ortak eseri spiral bir merdiven
+yukarýya çýkýyor. Batý'da Ormana çýkýþ, doðuda ise Aðacýn Kalbi var.
+~
+0 DX 0
+E
+iþlemelerle kaplý duvar~
+Duvara ilk bakýþýnda basit rölyeflerle karþý karþýya olduðunu dþünmene
+karþýn biraz daha incelediðinde yanýldýðýný anlýyorsun. Birbirine kaynaþmýþ
+gibi gözüken rölyefler aslýnda bir bütünün parçalarý olan yüzlerce farklý
+hikayeyi anlatýyor. Bakýþlarýný çevirdiðin anda hareketleniyormuþ gibi duran
+kabartma desenler diþrek olarak bakýldýðýnda ise oldukça normal gözüküyor
+Kimi zaman duvardaki rün'lerden biri diðerlerinden ayrýlarakparýldýyor, kimi
+zaman duvarlar bütün odanýn etrafýnda dönüyormuþ izlenimi yaratýyor...
+~
+D3
+Yüce lonca odasý.
+~
+~
+0 -1 501
+S
+#503
+Depo odasý~
+Valen aðacýn içindeki kovuklardan birindesin. Ýlk olarak dikkatini çeken
+duvarlarýn son derece pürüzsüz yapýsý oluyor, herhangi bir ahþap oyma
+aletinin izinin de olmayýþý buranýn rüzgarýn yüzyýllar süren uðraþý sonucu
+oluþtuðu gösteriyor. Sað tarafta Aslanlarýn kutsal silahlarý için yapýlmýþ
+arý kovanýna benzer bölümler sol tarafta ise diðer eþyalarýn saklanmasý için
+kullanýlan bir kaç raf göze çarpýyor.
+~
+0 DX 0
+D1
+Yüce lonca odasý.
+~
+~
+0 -1 501
+S
+#504
+Tanrý'nýn Mimberi~
+Alt tarafý aðacýn gövdesinden oluþmuþ üstü açýk bir odadasýn. Aðacýn
+diðer bölümleri gibi burada da duvarlarý arasýndan onlarca dal geçiyor,
+kabuktaki minik çatlaklardan bazen ufak bir sarmaþýk, bazen ufak bir dal
+filizi boy veriyor. Odanýn güney kanadýndan ufak bir sunak ve kedi tanrýça
+Danrý'nýn aðaç bir heykeli vakarla duruyor. Yukarýya uzanan dallarýn
+çevresine satrýlmýþ bir dizi sarmaþýk doðal bir merdiven oluþturmuþ. Valen
+aðacýnýn diðer bölümlerinin aksine buraya gündüz yaþam veren güneþ'in
+kemikleri ýsýtan ýþýðý, gece ise göz kýrpan yýldýzlarýn ve cömert ýþýðýndan
+dünyayý mahrum etmeyen Luna'nýn parýltýsý olanca saflýðý ile düþüyor.
+~
+0 DX 0
+D2
+Antre.
+~
+~
+0 -1 501
+S
+#0
+
+#RESETS
+M 0 501 1 500 1			* guardian
+E 0 500 0 11			*  key
+M 0 500 1 504 1			* cleric
+O 0 501 1 504 1 		* item container
+P 0 502 1 501 1			*  cabal item
+M 0 502 1 502 1			* guildmaster
+S
+
+#SPECIALS
+M 500 spec_cast_cabal
+M 501 spec_fight_lionguard
+S
+
+#OMPROGS
+M 501 greet_prog greet_prog_lions
+O 502 sac_prog sac_prog_cabal_item
+O 502 get_prog get_prog_cabal_item
+S
+
+#$

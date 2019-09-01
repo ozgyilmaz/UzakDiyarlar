@@ -3664,7 +3664,7 @@ void do_score_col( CHAR_DATA *ch, char *argument )
     sprintf( buf, "  \\________________________________________________________________\\__/%s\n\r",CLR_WHITE);
     send_to_char(buf, ch);
     if ( ch->affected != NULL && IS_SET(ch->comm, COMM_SHOW_AFFECTS) )
-	do_affects_col(ch, "");
+	do_affects_col(ch, (char*)"");
 	send_to_char(CLR_WHITE, ch);
    return;
 }

@@ -1,0 +1,368 @@
+#AREA
+tuze.are~
+Tüze Konaðý~
+{90 100} Chronos Tüze Konaðý~
+510 519
+
+
+#MOBILES
+#510
+adalet tüze muhafýz~
+adaletin kadim muhafýzý~
+Tüze konaðýnýn ve adaletin kadim muhafýzý burada, kutsal olan mekanýn
+giriþini koruyor.
+~
+Yargýçlara ve ideallerine hizmet etmek için yýllarca eðitilmiþ bu adam,
+yenilmesi çok zor bir rakip gibi görünüyor. Yüzünde , geride býraktýðý þeref
+dolu yýllarýn kalýcý izleri var.
+~
+human~
+ABJKWe DFHJVZ 0 0
+92 60 1d500+25000 1d200+1600 10d40+50 none
+-70 -70 -70 -20
+ACEFIKNOU AB 0 S
+stand stand male 5000
+0 0 medium 0
+
+#511
+þifacý kabal tüze rahip ermiþ~
+tüze rahibi~
+Tüze kabalýnýn þifacýsý ve din adamý burada, neferlerin yüreklerini
+cesaretle dolduruyor.
+~
+Bu yaþlý ermiþ, kutsal mabedinde Cabülka Cabülsa'nýn dengesi ve düzeni
+için tanrýsýna dualar ediyor.
+~
+human~
+ABW DFHJVZ 0 0
+80 20 1d100+18000 1d300+900 15d30+40 divine
+-65 -65 -61 -39
+CEFNU AB C S
+stand stand male 0
+0 0 medium 0
+#512
+katip yazman tüze~
+yasa katibi~
+Tüze kabalýnýn katibi burada Yargýçlarýn aðzýndan çýkacak kanunlarý
+yazýya dökmek için bekliyor.
+~
+Orta yaþlý basit görünüþlü bu adam yargýçlarýn cümlelerini dikte etmek
+için elinde kalemiyle bekliyor.
+~
+human~
+AGY 0 0 0
+15 15 0d0+0 0d0+0 0d0+0 punch
+0 0 0 0
+0 0 Y 0
+sit stand male 5
+0 0 medium unknown
+#513
+arpçý ozan sanatçý~
+bir arp sanatçýsý~
+Bir arp sanatçýsý burada ruhuna huzur veren bir ezgi çalýyor.
+~
+Ofcol doðumlu bu genç adam Yargýçlara hizmet etmesi için tutulmuþ
+yetenekli bir ozan.
+~
+human~
+AG 0 0 0
+11 2 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand sit male 0
+0 0 medium unknown
+#0
+
+#OBJECTS
+#510
+sandýk ýþýldayan~
+ýþýldayan sandýk~
+Odanýn kuzey duvarýndaki bir platformun üzerindeki sandýk gün ýþýðýyla parýldýyor.~
+ivory~
+container ORY P
+10 15 512 15 100
+60 1 20 P
+#511
+tüze kitap yasa~
+Tüze kitabý~
+Tüze neferlerinin yasalarýnýn yazýldýðý kitap sarýldýðý ipek kumaþýn içinde burada duruyor.~
+paper~
+treasure O AO
+0 0 0 0 0
+60 1 100000 P
+#512
+parþömen gizli rulo~
+bir parþömen rulosu~
+Rulo halinde bir parþömen burada duruyor.~
+paper~
+key ORY AO
+0 0 0 0 0
+40 4 0 P
+E
+kaðýt~
+Burada birþeyleri açmak için kullanýlan gizli kodlar yazýyor.
+~
+#513
+hamak~
+gümüþi iplikten bir hamak~
+Gümüþ ipliklerden örülmüþ konforlu bir hamak burada derin bir uyku vadediyor.~
+silk~
+furniture 0 0
+3 1000 BHKN 150 150
+20 400 100000 P
+#514
+heykel büst yargýç~
+Büyücü bir tüze neferinin heykeli~
+Efsuncu bir Yargýcýn heykeli elinde asasýyla giriþin yanýnda bekliyor.~
+ivory~
+furniture R P
+1 0 0 0 0
+40 60 20000 P
+#515
+heykel büst savaþçý~
+Savaþçý bir tüze neferinin heykeli~
+Savaþçý bir Yargýcýn heykeli elinde heybetli kýlýcýyla giriþin yanýnda bekliyor.~
+ivory~
+furniture R P
+0 0 0 0 0
+40 40 20000 P
+#516
+kürsü~
+Baþyargýcýn kürsüsü~
+Holdeki kalabalýða hitap edilmesi için buraya bir kürsü yerleþtirilmiþ.~
+ivory~
+furniture 0 0
+1 0 0 0 0
+5 5 5 P
+#0
+
+#ROOMS
+#510
+Tüze Konaðý'nýn Kapýlarý~
+Ayaklarýnýn altýnda kalan dev sarayýn çatýsýnda, beklenmedik derecede
+geniþ bir terastasýn. Rüzgar burada ayaklarýnýn konumunu tehdit edercesine
+hýzlý esiyor. Gri gökyüzünü dolduran yoðun bulutlarýn arasýndan yükselen dev
+kanat sesleri ve çýðlýklar huzursuzluk daðýtýyor. Kuzey yönünde gümüþ
+renginde heybetli ahþap bir konak rüzgara karþý duruyor. Konaðýn dev adamant
+kapýlarý, önünde bekleyen muhafýzla hemen hemen ayný boyda. Konaðýn üstüne
+yerleþmiþ altýn terazi yontusu bulutlarýn arasýndan sýzan güneþ ýþýðýyla
+bulunduðun obsidyen terasý göz kamaþtýrýcý hale getiriyor.
+~
+0 DX 1
+D0
+
+~
+~
+0 -1 511
+D2
+
+~
+~
+1 -1 697
+S
+#511
+Konaðýn Ön bahçesi~
+Dev kapýlardan geçtiðinde, kendini beklenmedik derecede huzurlu bir
+bahçede buluyorsun. Buradaki gökyüzü açýk ve tatlý, serin bir meltem güneþin
+sýcak etkisini azaltýyor. Dýþarýdaki manzaranýn bir göz yanýlsamasý olmasý
+kuvvetle mümkün görünüyor. Bahçenin zemini bütünüyle çimlerle örülü ve yer
+yer ejderha þekilleri verilmiþ þimþir aðaçlarý dikkatini daðýtýyor. Gümüþ
+konaðýn ahþap kapýlarý ardýna kadar açýk ve içeriden davetkar bir harp sesi
+geliyor. Batýda küçük, gri mermerden yapýlmýþ bir tapýnak, doðuda ise
+bahçenin içine kurulmuþ hasýrdan bir çardak var.
+~
+0 DX 3
+D0
+
+~
+~
+0 -1 512
+D1
+
+~
+~
+0 -1 514
+D2
+
+~
+~
+0 -1 510
+D3
+
+~
+~
+0 -1 513
+S
+#512
+Tüze Konaðý'nýn Ana Holü~
+Burasý Tüze Neferlerinin kadim ikametgahýnýn giriþ holü. Dev salonun
+tavanýnýn yüksekliði baþýný döndürüyor ve tam karþýndan yukarý doðru çýkan,
+gümüþ ipliklerle iþlenmiþ halýlarla kaplý geniþ merdivenler ileride ikiye
+ayrýlarak üzerlerindekileri geniþ bir asma kata çýkartýyor. Mermer zemin,
+ayný sanatla örülmüþ gri ejderha figürleri taþýyan kilimlerle kaplanmýþ.
+Mekanýn havasýnda tek bir toz tanesi bile olmamasý, Yargýçlarýn temizlik ve
+bakým konusundaki hassasiyetlerini ortaya koyuyor. Yeþil ve kýrmýzý iþlemeli
+perdelerin arasýndaki geniþ pencereler holü gün ýþýðýyla dolduruyor. Saðýnda
+ve solundaki odalarýn kapalý kapýlarýnýn ardýndan kaðýt hýþýrtýlarý
+dikkatini çekiyor.
+~
+0 DX 0
+D1
+
+~
+~
+0 0 516
+D2
+
+~
+~
+0 -1 511
+D3
+
+~
+~
+0 0 515
+D4
+
+~
+~
+0 0 517
+S
+#513
+Tüze Tapýnaðý~
+Yargýçlarýn ibadethanesindesin. Nereden geldiði belli olmayan huzur
+verici bir su þýrýltýsý tapýnaðý dolduruyor. Mermer duvarlarda sembolize
+edilmiþ kusursuz ejderha figürleri gözlerini tavanýn tam ortasýndaki terazi
+minyatürüne dikmiþ görünüyorlar. Dualarýyla suyun melodisine uyum saðlayan
+din adamý, üzerindeki terazi nakýþlarý ýþýkla parlayan cübbesinin içinde
+ritmik hareketlerle seni selamlýyor.
+~
+0 DX 0
+D1
+
+~
+~
+0 -1 511
+S
+#514
+Yargýçlarýn dinlence bölgesi~
+Zorlu koþullarda çalýþarak Cabülka Cabülsa'ya hüküm veren Yargýçlarýn boþ
+zamanlarýný deðerlendirmek için geldikleri, bahçenin huzurlu bir köþesine
+kurulmuþ bir gölgeliðin altýnda buluyorsun kendini. Gölgeliðin tepesine
+asýlmýþ tuhaf, hoþ kokulu mor bir bitki çardaðýn içindeki havayý derin derin
+solumaya deðer kýlýyor. Bu açýk hava cennetindeki herþey konak ahalisinin
+konforu için hazýrlanmýþa benziyor.
+~
+0 DX 3
+D3
+
+~
+~
+0 -1 511
+S
+#515
+Katip Odasý~
+Burasý Yargýçlarýn hükümlerini ve buyruklarýný dikte ettirdikleri yer.
+Duvarlardaki asma raflarda dosyalanmýþ yüzlerce kaðýt rulosu ve mürekkep
+hokkalarý var. Odayý gün ýþýðýyla dolduran geniþ, açýk bir pencereden sýzan
+meltem, odanýn ortasýndaki masanýn üzerindeki parþömenleri sana doðru
+uçuruyor.
+~
+0 D 0
+D1
+
+~
+~
+0 0 512
+S
+#516
+Adalet Kütüphanesi~
+4-5 metre yüksekliðinde bir tavana kadar uzanan geniþ kitaplýklarla dolu
+kare þeklinde bir kütüphanedesin. Odanýn ortasýnda 2 masa ve 6 sandalye
+duruyor ve masanýn üzerinde açýk kalmýþ kalýn ciltli kitaplar var. Cabülka
+Cabülsanýn tüze daðýtanlarýnýn irfanýnýn kaynaðýnýn bu odada olduðu
+fazlasýyla belli. Masanýn üstünde açýk halde duran geniþ bir parþömen
+dikkatini çekiyor.
+~
+0 D 0
+D3
+
+~
+~
+0 0 512
+S
+#517
+Asma Kat~
+Geniþliði 5 metreden fazla olan merdivenlerden yukarý, mermer
+trabzanlarla çevrelenmiþ gri tonda dekore edilmiþ bir asma kattasýn. Buradan
+aþaðýdaki geniþ hol net bir þekilde görülüyor ve fildiþinden yapýlmýþ bir
+kürsü holde bekleyen kalabalýða hitap edecek olanýn heybetine heybet katmak
+için trabzanlarýn sonuna yerleþtirilmiþ. Durduðun yerden yukarý baktýðýnda
+tepedeki camlý kubbe ve arkasýndaki dev altýn terazi yontusunun parlaklýðý
+gözlerini alýyor. Mekanýn akustiðindeki kusursuzluðu nefes sesinin tüm
+konaðý doldurmasýyla farkediyorsun. Kuzeyindeki kapýnýn iki yanýna
+konuþlanmýþ heykeller geniþ iþlemeli kemerli giriþi koruyormuþ izlenimi
+veriyorlar.
+~
+0 D 0
+D0
+
+~
+~
+0 0 518
+D5
+
+~
+~
+0 0 512
+S
+#518
+Adalet Mabedi~
+Yargýçlarýn toplantý odasýndasýn. Odanýn tam ortasýnda altýgen þekilli
+ahþap iþlemeli bir masa ve çevresinde 5 adet gri valen aðacýndan koltuklar
+var. Tam karþýnda kalan yerde ise bir tahtý andýran geniþ ve heybetli bir
+koltuk duruyor. Ahþap duvarlar gümüþ ejderha motifleriyle kusursuzca
+dokunmuþ kilimlerle kaplý. Þaþalý koltuðun arkasýnda, üzerine güneþ ýþýðý
+vuran bir sandýðýn varlýðý kalbine heyecan veriyor. Sandýðýn tepesindeki,
+odayý duvardan duvara kateden taç, metal iþlemeli bir yazýyý gözler önüne
+seriyor. "Þan ver adaletin zikrine!"
+~
+0 D 0
+D2
+
+~
+~
+0 0 517
+S
+#0
+
+#RESETS
+M 0 510 1 510 1
+E 0 512 1 20
+M 0 511 1 513 1
+O 0 513 0 514
+M 0 513 1 514 1
+M 0 512 1 515 1
+O 0 515 0 517
+O 0 514 0 517
+O 0 516 0 517
+O 0 510 0 518
+P 0 511 1 510 1
+S
+
+#SPECIALS
+M 510 spec_fight_enforcer
+M 511 spec_cast_cabal
+S
+
+#OMPROGS
+O 511 get_prog get_prog_cabal_item
+O 511 sac_prog sac_prog_cabal_item
+M 510 greet_prog greet_prog_ruler
+S
+
+#PRACTICERS
+M 510 group_cabal	*enforcer
+S
+
+#$

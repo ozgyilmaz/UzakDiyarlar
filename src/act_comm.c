@@ -118,8 +118,6 @@ void do_delete( CHAR_DATA *ch, char *argument)
 
 void do_channels( CHAR_DATA *ch, char *argument)
 {
-    char buf[MAX_STRING_LENGTH];
-
     /* lists all channels and their status */
     printf_to_char(ch,"kanal       durumu\n\r");
     printf_to_char(ch,"------------------\n\r");
@@ -1498,7 +1496,6 @@ bool proper_order( CHAR_DATA *ch, char *argument )
 
 void do_group( CHAR_DATA *ch, char *argument )
 {
-    char buf[MAX_STRING_LENGTH];
     char arg[MAX_INPUT_LENGTH];
     CHAR_DATA *victim;
 
@@ -1975,7 +1972,6 @@ char *translate(CHAR_DATA *ch, CHAR_DATA *victim, char *argument)
 
 void do_speak( CHAR_DATA *ch, char *argument )
 {
- char buf[MAX_STRING_LENGTH];
  char arg[MAX_INPUT_LENGTH];
  int language;
 
@@ -2010,7 +2006,6 @@ void do_speak( CHAR_DATA *ch, char *argument )
 /* Thanx zihni@karmi.emu.edu.tr for the code of do_judge */
 void do_judge( CHAR_DATA *ch, char *argument )
 {
-  char buf[MAX_STRING_LENGTH];
   char arg[MAX_INPUT_LENGTH];
   CHAR_DATA *victim;
 
