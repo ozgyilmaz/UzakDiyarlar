@@ -1648,36 +1648,40 @@ void do_exits( CHAR_DATA *ch, char *argument )
     if ( !check_blind( ch ) )
 	return;
 
-    if (fAuto)
-	{
-     sprintf(buf,CLR_CYAN);
- 		strcat(buf,"[Çýkýþlar:");
-	}
-    else if (IS_IMMORTAL(ch))
-	sprintf(buf,"Obvious exits from room %d:\n\r",ch->in_room->vnum);
-    else
+  if (fAuto)
+  {
+    sprintf(buf,CLR_CYAN);
+    strcat(buf,"[Çýkýþlar:");
+  }
+  else if (IS_IMMORTAL(ch))
+  {
+    sprintf(buf,"%d nolu odadan çýkýþlar:\n\r",ch->in_room->vnum);
+  }
+  else
+  {
     sprintf(buf,"Görünen çýkýþlar:\n\r");
+  }
 
-    found = FALSE;
-    for ( door = 0; door <= 5; door++ )
-    {
-	if ( ( pexit = ch->in_room->exit[door] ) != NULL
-	&&   pexit->u1.to_room != NULL
-	&&   can_see_room(ch,pexit->u1.to_room)
-	&&   !IS_SET(pexit->exit_info, EX_CLOSED) )
-	{
-	    found = TRUE;
-	    if ( fAuto )
-	    {
-		strcat( buf, " " );
-		strcat( buf, dir_name[door] );
-	    }
-	    else
-	    {
-		sprintf( buf + strlen(buf), "%-5s - %s",
-		    capitalize( dir_name[door] ),
-		    room_dark( pexit->u1.to_room )
-			?  "Zifiri karanlýk"
+  found = FALSE;
+  for ( door = 0; door <= 5; door++ )
+  {
+    if ( ( pexit = ch->in_room->exit[door] ) != NULL
+      &&   pexit->u1.to_room != NULL
+      &&   can_see_room(ch,pexit->u1.to_room)
+      &&   !IS_SET(pexit->exit_info, EX_CLOSED) )
+      {
+        found = TRUE;
+        if ( fAuto )
+        {
+          strcat( buf, " " );
+          strcat( buf, dir_name[door] );
+        }
+        else
+        {
+          sprintf( buf + strlen(buf), "%-5s - %s",
+          capitalize( dir_name[door] ),
+          room_dark( pexit->u1.to_room )
+          ?  "Zifiri karanlýk"
 			: pexit->u1.to_room->name
 		    );
 		if (IS_IMMORTAL(ch))
@@ -1688,13 +1692,11 @@ void do_exits( CHAR_DATA *ch, char *argument )
 	    }
 	}
 
-	if ( number_percent() < get_skill(ch,gsn_perception)
-	&&   ( pexit = ch->in_room->exit[door] ) != NULL
+	if ( ( pexit = ch->in_room->exit[door] ) != NULL
 	&&   pexit->u1.to_room != NULL
 	&&   can_see_room(ch,pexit->u1.to_room)
 	&&   IS_SET(pexit->exit_info, EX_CLOSED) )
 	{
-	    check_improve(ch,gsn_perception,TRUE,5);
 	    found = TRUE;
 	    if ( fAuto )
 	    {
