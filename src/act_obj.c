@@ -2622,8 +2622,6 @@ strcat( buf2, "üzerindeki birkaç þey " );
     strcat( buf, "üzerindeki bir sürü þey " );
                 strcat( buf2, "üzerindeki bir sürü þey " );
         }
-      strcat( buf, "on it, " );
-      strcat( buf2, "on it, " );
 
       switch( ch->in_room->sector_type )  {
         case SECT_FIELD: strcat( buf, "yere saçýlýyor." );
