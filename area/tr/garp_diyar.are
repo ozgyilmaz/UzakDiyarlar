@@ -1,0 +1,1943 @@
+#AREA
+garp_diyar.are~
+Garp Diyar~
+{40 90} Xavier  Garp Diyar~
+10000 10050
+
+
+#MOBILES
+#10001
+zargana uzun kuyruklu~
+Uzun kuyruklu bir zargana~
+Uzun kuyruklu bir zargana seni ormanýn derinliklerine kadar takip ediyor.
+~
+Koku duyusuyla avlanan dev bir etobur yaratýk görüyorsun. Senin kanýn ise
+oldukça tatlý olmalý çünkü seni farketti ve sana doðru koþuyor. HIZLI OL!
+~
+dragon~
+ABFT TVb -1000 0
+60 0 50d10+6750 10d10+4000 8d6+28 acbite
+-30 -30 -30 0
+BCDEFIKMN AB HIJKO FHQY
+stand stand male 300
+AHZc ADEFIKLPQUVX huge 0
+#10002
+zargana uzun kuyruklu~
+Uzun kuyruklu bir zargana~
+Uzun kuyruklu bir zargana seni ormanýn derinliklerine kadar takip ediyor.
+~
+Koku duyusuyla avlanan dev bir etobur yaratýk görüyorsun. Senin kanýn ise
+oldukça tatlý olmalý çünkü seni farketti ve sana doðru koþuyor. HIZLI OL!
+~
+dragon~
+ABFT TVb -1000 0
+46 0 25d10+3250 10d10+3000 6d6+16 acbite
+-16 -16 -16 4
+BCDEFIKMN AB HIJKO FHQY
+stand stand male 300
+AHZc ADEFIKLPQUVX huge 0
+#10003
+zargana uzun kuyruklu~
+uzun kuyruklu bir zargana~
+Uzun kuyruklu bir zargana seni ormanýn içlerine doðru takip ediyor.
+~
+Koku duyusuyla avlanan dev bir etobur yaratýk görüyorsun. Senin kanýn ise
+oldukça tatlý olmalý çünkü seni farketti ve sana doðru koþuyor. HIZLI OL!
+~
+dragon~
+ABFT TVb -947 0
+46 0 25d10+3250 10d10+3000 6d6+16 acbite
+-16 -16 -16 4
+BCDEFIKMN AB HIJKO FHQY
+stand stand male 300
+AHZc ADEFIKLPQUVX huge 0
+#10004
+sivrisinek~
+Sivrisinek~
+Küçük, rahatsýz edici bir böcek kanýný emmek için sabýrsýzlanýyor.
+~
+Deforme olmuþ, dev gibi diþleri olan, minik bir böcek görüyorsun. Tenini
+delmek için sabýrsýzlanýyor.
+~
+unique~
+ABT BGJTVb -200 0
+40 0 25d10+1850 10d10+3000 4d8+13 shbite
+-13 -13 -13 5
+BCEFKO EJL J KM
+stand stand male 300
+0 0 tiny 0
+#10005
+katrat suikastçisi~
+Bir katrat suikastçisi~
+Katrat suikastçilerinin bir üyesi burada.
+~
+Aðýr zýrhlar içinde tehlikeli ve silahlý bir adam görüyorsun. Suikastçi tipinde
+birine benziyor. Aklýnda tek bir düþünce varmýþ gibi gözüküyor: ÖLDÜRMEK!
+~
+human~
+ABT Vb -1000 0
+55 0 50d10+5500 10d10+3000 10d4+23 wrath
+-25 -25 -25 0
+BCDEFGHIKNV AH BL J
+stand stand male 300
+AHMV ABCDEFGHIJK large 0
+#10006
+katrat suikastçisi~
+Bir katrat suikastçisi~
+Katrat suikastçilerinin bir üyesi burada.
+~
+Aðýr zýrhlar içinde tehlikeli ve silahlý bir adam görüyorsun. Suikastçi tipinde
+birine benziyor. Aklýnda tek bir düþünce varmýþ gibi gözüküyor: ÖLDÜRMEK!
+~
+human~
+ABT Vb -1000 0
+56 0 50d10+6000 10d10+3000 10d4+24 wrath
+-25 -25 -25 0
+BCDEFGHIKNV AH BL J
+stand stand male 300
+AHMV ABCDEFGHIJK large 0
+#10007
+genç bayan~
+Genç bir bayan~
+Bahçesinden çiçek toplayan hoþ, genç bir bayan burada.
+~
+Bahçesinden çiçek toplayan genç bir bayan görüyorsun.
+~
+human~
+ABT Nb 850 0
+46 0 25d10+3250 10d10+3000 6d6+16 slap
+-16 -16 -16 4
+BCDEFGHIK AI 0 0
+stand stand female 300
+AHMV ABCDEFGHIJK medium 0
+#10008
+balýkçý~
+Bir balýkçý~
+Günün balýðýný bekleyen bir balýkçý görüyorsun.
+~
+Balýk tutmayý seven uzun boylu bir adam. Görünüþe göre eve götürmek için
+birkaç balýk yakalamak istiyor.
+~
+human~
+ABT Nb 1000 0
+50 0 25d10+4250 10d10+3000 5d8+19 slap
+-20 -20 -20 0
+BCDEFGHIK AI 0 0
+stand stand male 300
+AHMV ABCDEFGHIJK medium 0
+#10009
+küçük çocuk~
+Küçük bir çocuk~
+Kumda oynayan küçük bir çocuk burada.
+~
+Kumdan kale yapan küçük bir çocuk görüyorsun. Kum onun kaleleri için
+mükemmel ve ona katýlmak istediðini hissediyorsun.
+~
+human~
+ABT Nb 1000 0
+50 0 25d10+4250 10d10+3000 5d8+19 punch
+-20 -20 -20 0
+BCDEFGHIK AI 0 0
+stand stand male 300
+AHMV ABCDEFGHIJK small 0
+#10010
+yürektazýsý~
+bir yürektazýsý~
+Burada aðzýnýn suyu akan bir yürektazýsý var.
+~
+Bu sýnýrdan kaçan en ölümcül yaratýklardan biri. Dikkatli olsan iyi olur,
+çünkü ne gibi güçleri olduðu bilinmiyor. Son derece ölümcül bir yaratýk.
+Direk kalbe hamle yaptýklarý için bu ismi almýþlardýr. Diðerleri ise
+kalp atýþlarýný duyduklarýný iddia eder.
+~
+unique~
+AFGT UVZb -1000 0
+55 0 50d10+5500 10d10+3000 10d4+23 acbite
+-25 -25 -25 0
+BCDEFGHIKNO 0 0 0
+stand stand male 300
+0 0 huge 0
+#10011
+sözcü~
+bir sözcü~
+Burada kalabalýða konuþma yapan bir sözcü var.
+~
+Köylüler üzerinde büyük otoritesi varmýþ gibi gözüken uzun boylu bir adam.
+Ateþ ve onun ölümcül kayýplarý konusunda harika bir konuþma yapýyor. Üzerinde
+beyaz pantolon ve tünik var. Kötü biri gibi deðil. Konuþmasý seni sýkmaya
+baþlýyor ve yoluna koyulmak istiyorsun.
+~
+human~
+AFGT UVZb 1000 0
+60 0 50d10+6750 10d10+4000 8d6+28 smash
+-30 -30 -30 0
+BCDEFGHIKNO A 0 0
+stand stand male 300
+AHMV ABCDEFGHIJK medium 0
+#10012
+mutlu köylü~
+Mutlu bir köylü~
+Burada gerçekten mutlu bir köylü var.
+~
+Bu köylünün yanýndan geçerken "Merhaba" diyor ve seni tükürüklü bir biçimde
+uzun uzun öpüyor. Sadece sarhoþ mu yoksa tamamen aklýný mý kaçýrdýðýný
+merak etmeye baþlýyorsun.
+~
+human~
+AFGT UVZb 1000 0
+60 0 50d10+6750 10d10+4000 8d6+28 smash
+-30 -30 -30 0
+BCDEFGHIKN A 0 0
+stand stand male 300
+AHMV ABCDEFGHIJK medium 0
+#10013
+þifacý~
+Bir þifacý~
+Kasabanýn þifacýsý burada.
+~
+Ýnsanlarý iyileþtirmekten memnun gibi gözüken bir kadýn burada. Güzel, uzun
+saçlarý var ve neredeyse yere deðecek kadar uzun, beyaz bir giysi giyiyor.
+Kafasýný dik tutuyor ve yüzünde hoþ bir gülümseme var.
+~
+human~
+ABQ HF 1000 0
+106 0 1d1+29000 1d1+11039 4d50+80 slap
+-99 -99 -99 -40
+KN ABINS BPQR 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium 0
+#10014
+sýnýr bekçisi~
+Bir sýnýr bekçisi~
+Güçlü, kudretli bir sýnýr bekçisi burada.
+~
+Þimdiye kadar gördüðün en dayanýklý, güçlü ve uzun kiþi. Yaklaþýl 7'6 inç ve
+bir insan aðýrýðýnýn sekiz katý. Zýrh ve silahlarla iyice donanmýþ ve savaþ
+için hazýr görünüyor. Arkadaþ canlý biri olmasý iyi birþey.
+~
+human~
+AGT DFHJUVb 1000 0
+70 0 50d10+9750 10d10+4000 8d10+40 acbite
+-40 -40 -40 -10
+BCDEFGHIJKN ABE BH C
+stand stand male 300
+AHMV ABCDEFGHIJK large 0
+#10015
+hýrsýz~
+Bir hýrsýz~
+Küçük bir hýrsýz burada paraný çalmaya çalýþýyor.
+~
+Burada tamamen siyahlara bürünmüþ, sen ayakta uyurken paraný çalmaya hazýr,
+bir hýrsýz duruyor. Binalarýn gölgelerinde zorlukla farkedilen kara botlar
+ve pantalon giymiþ.
+~
+human~
+ACT CDGPQVd -902 0
+40 0 25d10+1850 10d10+3000 4d8+13 blast
+-13 -13 -13 5
+BCDEFGHIJKN 0 0 0
+stand stand male 300
+AHMV ABCDEFGHIJK small 0
+#10016
+dilenci~
+Bir dilenci~
+Burada para isteyen çirkin bir dilenci var.
+~
+*offf* Eðer burada paraný çalmaya çalýþan hýrsýzlar yoksa onu isteyen
+dilenciler var. Zavallý küçüðe acýyorsun. Kýsa bir sonra kýþ olacak olmasý
+ve gidecek bir yerinin olmamasý ne kadar kötü. N'APALIM, hayat devam ediyor.
+~
+human~
+ABCH DVb 100 0
+46 0 25d10+3250 10d10+3000 6d6+10 blast
+-16 -16 -16 4
+BCDEFGHIJKN AB 0 0
+stand stand male 300
+AHMV ABCDEFGHIJK medium 0
+#10017
+Kemik Kadýn~
+Kemik Kadýn~
+Burada kemiklerle oynayan ilginç bir kadýn görüyorsun.
+~
+Kadýnýn gözleri beyaz. Seni görüp görmediðini merak ediyorsun.
+Odaya girdiðin zaman seni hoþ karþlýlýyor ve misafirliðe davet ediyor.
+Boyununda kemikten bir kolye var. Onu gördüðün zaman aklýnýn içinde bazý
+sözler duyuyorsun "Kolye'yi almak zorundayým!!" Kadýn onu sana vermeyecek...
+eðer almak istiyorsan bir savaþ yakýndýr.
+~
+human~
+ABR CDEFJTV 1000 0
+109 0 1d1+29999 1d1+9382 5d50+90 magic
+-93 -93 -90 -43
+CDEFIKN IP E JK
+stand stand female 11300
+AHMV ABCDEFGHIJK medium 0
+#10018
+kavrayýcý~
+Yaramaz bir kavrayýcý~
+Küçük, yaramaz bir kavrayýcý sana saldýrmak için bekliyor.
+~
+Zýrh kaplý ve uzun keskin diþli bir kavrayýcý görüyorsun. Çok aç gözüküyor.
+O yüzden ben olsam yanýna yaklaþmazdým. O, sana yapýþan ve ölene kadar kanýný
+içen bir aþaðýdünya yaratýðý. En iyi, kaplumbaðadan yavaþ olmasýna raðmen,
+buna dikkat etmek.
+~
+human~
+ACGT JV -986 0
+92 0 50d10+19500 10d10+5200 15d10+62 blast
+-62 -62 -62 -29
+CDEFIKN IP E J
+stand stand male 300
+AHMV ABCDEFGHIJK medium 0
+#10019
+gölge þeyi~
+KOrkUnÇ GöLgE ÞEyi~
+Burada seni öldürmeye hazýr bir KOrkUnÇ GöLgE ÞEyi var.
+~
+Bu seni tek dokunuþla öldürebilecek gibi görünen çok korkunç bir yaratýk.
+Panis Rahl, son savaþtaki Darken'ýn babasý tarafýndan gönderilmiþti. Bu, safi
+tehlike anlamýna gelir. Ben olsam uzaklýðýmý korurdum.
+~
+human~
+ABCGT JV -1000 0
+99 0 50d10+29000 10d10+3029 4d50+80 wrath
+-69 -69 -69 -30
+CDEFIKN IP F JK
+stand stand none 300
+AHMV ABCDEFGHIJK medium 0
+#10020
+hayalet kral~
+Hayalet Kral~
+Burada durur yüce Hayalet Kral, geçiþini engelleyerek.
+~
+Bu hayaletimsi kral'ýn inanýlmaz güçleri var ve geçiþine izin vermeyecek.
+Onu Darken Rahl'ýn kendisi göndermiþ olmalý. Geri dönmelisin, çünkü bu Kral
+senin bu taraftan çýkmana izin vermeyecek. Aþaðý dünyanýn efendisi senin
+geçmene neden olabilecek hiçbirþeye göz yummaz.
+~
+human~
+ABCGT HJV -1000 0
+119 0 50d10+29000 10d10+10203 20d15+100 wrath
+-77 -77 -70 -40
+CDEFIKN IP 0 JK
+stand stand male 300
+AHMV ABCDEFGHIJK medium 0
+#10021
+dev kýzýl ejderha~
+Dev kýzýl ejderha~
+Darken Rahl'ýn etrafta dolaþmak için kullandýðý dev kýzýl ejderi görüyorsun.
+~
+Bu iri ejderhanýn devasa pençeleri ve büyük kanatlarý var. Diðer ejderhalardan
+ÇOK ÇOK daha büyük olduðu için onu sinirlendirmenin kötü bir fikir olacaðýndan
+eminsin. Bu ejderha her milimetresini kaplayan devasa pullarla kaplanmýþ.
+Senin gördüðün YADA görebileceðin her yaratýktan daha büyük gibi gözüküyor.
+~
+dragon~
+ABCGT GHJT -1000 0
+119 0 50d10+29000 10d10+10203 20d15+100 wrath
+-77 -77 -70 -40
+BCEFIKN IP HIJK FJK
+stand stand female 300
+AHZc ADEFIKLPQUVX giant 0
+#10022
+gölge kiþilik~
+Kötü gölge kiþilik~
+Kötü gölge kiþilik burada.
+~
+Kesin hatlarý olmayan karanlýk bir þekil görüyorsun. Darken Rahl tarafýndan
+seni durdurmak için gönderildi. Dikkatli ol, dokunuþu zehir demektir.
+~
+human~
+ACGT GJ -1000 0
+110 0 50d10+28000 10d10+10203 20d15+95 wrath
+-77 -77 -70 -40
+CDFIKN IP 0 JK
+stand stand male 300
+AHMV ABCDEFGHIJK medium 0
+#10023
+barmen~
+Barmen~
+Týknaz bir barmen burada içecek servisi yapýyor.
+~
+Uzun sakallý kýsa biri. Lakin oldukça salak gözüküyor, ayakkabýlarýný ters
+ayaklara giymiþ. Parçalanmýþ bir pantalon giymesine ve fakir birine benzemesine
+raðmen bu barý iþletiyor.
+~
+human~
+ABCGT GJ 1000 0
+50 0 25d10+4250 10d10+3000 5d8+19 wrath
+-20 -20 -20 0
+BCDEFIN IP 0 JK
+stand stand male 300
+AHMV ABCDEFGHIJK medium 0
+#10024
+sarhoþ köylü~
+Sarhoþ köylü~
+Sarhoþ bir köylü burada, bira içiyor.
+~
+Üzerinde bira lekeleri olan kýsa bir adam. Onu gördükçe kusmak istiyorsun.
+~
+human~
+ABCGT GJ 102 0
+50 0 25d10+4250 10d10+3000 5d8+19 wrath
+-20 -20 -20 0
+CDEFIKN IP 0 K
+stand stand male 300
+AHMV ABCDEFGHIJK medium 0
+#10025
+kara hýrsýz~
+Küçük bir hýrsýz~
+Burada çalacak birþeyler arayan bir hýrsýz var.
+~
+Karanlýk bir þekilde giyinmiþ, lanetli bir amacý olan, hýrsýz. Gecenin içinde
+sadece bir amaçla bekliyor: Pusuyu kurduðu yerden geçen bir zavallýnýn boðazýný
+kesip paralarýna konmak... mesela senin gibi bir zavallý....
+~
+human~
+ACGT GJ -1000 0
+60 0 50d10+6750 10d10+4000 8d6+28 bite
+-30 -30 -30 0
+CDEFKN IP D 0
+stand stand male 300
+AHMV ABCDEFGHIJK medium 0
+#10026
+sarý yýlan~
+Sarý bir yýlan~
+Havuzda yüzen küçük, sarý bir yýlan burada.
+~
+Çýplak gözle zorlukla seçilebilecek minik bir yýlan. Suyun içinden sana doðru
+yüzüyor. Sana saldýrmadan önce hýzlýca uzaklaþsan iyi olur çünkü bedenin
+bir daha hiç bulunmayabilir!
+~
+unique~
+ABCGT GJ -1000 0
+30 0 6d12+853 1d1+100 4d6+8 bite
+-9 -9 -9 2
+CDEFIKN IP 0 0
+stand stand male 300
+0 0 small 0
+#10027
+yeraltý yaratýðý~
+Bir yeraltý yaratýðý~
+Bir yeraltý yaratýðý, kaybolmuþ görünüyor.
+~
+Hiç ama hiç þekli yok. Sadece insanlar geçerken onlara saldýran düz bir duman.
+~
+unique~
+ACGT GJ -1000 0
+69 0 50d10+9500 10d10+1000 7d11+39 bite
+-40 -40 -40 -10
+CDEFIKN IP 0 0
+stand stand none 300
+0 0 large 0
+#10028
+kedi uyuþuk~
+Uyuþuk küçük bir kedi~
+Küçük uyuþuk bir kedi uyuyacak yer arýyor.
+~
+Bu kedi yiyecek bir yemek, uyuyacak ve korunacak güvenli bir yer için sonuçsuz
+arayýþýna devam ediyor. Bu küçük için üzülüyorsun fakat yapabileceðin hiçbir
+þey yok.
+~
+unique~
+ACGT GJ 1000 0
+11 0 1d1+130 1d1+100 1d10+2 bite
+1 1 1 9
+CDEFIKN IJP 0 0
+stand stand none 300
+0 0 small 0
+#10029
+mord sith~
+Þeytani Mord-Sith~
+Burada durur heybetli Mord-Sith, seni evcil hayvaný olarak almayý düþünerek.
+~
+Mord-Sith senden korkmuþa benzemiyor. Boynunda beyaz bir haleyle parýldayan
+beyaz bir nesne var. Bu yaratýk oldukça korkutucu. Kalýp sohbet etmek
+istemezsin.
+~
+human~
+ABCGT GJ -1000 0
+120 0 50d10+28000 10d10+10203 20d15+95 wrath
+-77 -77 -70 -40
+CDEFIKN IP I M
+stand stand female 300
+AHMV ABCDEFGHIJK large 0
+#10030
+mürit~
+Darken Rahl'ýn bir müridi~
+Bir mürid burada, pek az þey ifade eden bir ilahi þakýyor.
+~
+Bu mürid Darken Rahl hakkýnda bir ilahi söylüyor. Darken Rahl'ýn kötü biri
+olmadýðýna, aksine iyi biri olduðuna inanýyormuþ gibi görünüyor.
+Ayrýca bu kiþiden uzak dur.
+~
+human~
+ABCGT GJ -1000 0
+110 0 50d10+28000 10d10+10203 20d15+95 wrath
+-77 -77 -70 -40
+BCDEFIKN IP 0 0
+stand stand male 300
+AHMV ABCDEFGHIJK medium 0
+#10031
+darken rahl~
+Þeytani Dark-Rahl~
+Karþýnda duruyor en kötü kabusun, Darken Rahl.
+~
+Bütün bu yolu onun için geldin ve en sonunda karþýlaþtýn. Bütün yaþamýn boyunca
+beklediðin an buydu. En kýsa süresinde üstesinden gelmelisin çünkü dünyayý
+iþgal etmeye hazýrmýþ gibi gözüküyor.
+~
+human~
+ABCGT GHJ -1000 0
+125 0 50d10+28000 10d10+10203 20d15+95 wrath
+-77 -77 -70 -40
+BCDEFIJKNO LP N K
+stand stand male 300
+AHMV ABCDEFGHIJK large 0
+#0
+
+
+
+#OBJECTS
+#10001
+bekçi topuz sýnýr~
+Bir Sýnýrbekçisinin topuzu~
+Büyük bir topuz burada duvara yaslanmýþ bir þekilde duruyor.
+~
+unknown~
+weapon ABG AN
+mace 12 7 blast 0
+70 15 1938 P
+A
+19 6
+A
+18 6
+A
+13 20
+A
+2 -1
+E
+bekçi topuz~
+Bu keskin ölümcül bir diþle kaplanmýþ dev bir topuz. Öldürmek için yapýlmýþ.
+Gerçekten güçlü bir silah.
+~
+#10002
+kemik kolye~
+Kemik Kadýnýn Kolyesi~
+Güzel bir kolye yerde duruyor.
+~
+stone~
+armor AB AC
+30 30 30 20 0
+90 10 98504 P
+A
+13 55
+A
+3 3
+A
+2 3
+E
+kemik kolye~
+Bu Kemik Kadýnýn boynunundaki kolyeyDÝ. Kadýný öldürmek çok zor olduðuna göre
+güçlü bir nesne olmalý.
+~
+#10003
+kavrayýcý diþ~
+Biraz kavrayýcý diþi~
+Burada kavrayýcýnýn diþlerinden birazý var.
+~
+stone~
+armor ABM AC
+26 26 27 16 0
+80 10 100 P
+A
+19 6
+A
+1 3
+#10004
+maþrapa bira~
+Bir Maþrapa Bira~
+Bir maþrapa bira yerde duruyor.
+~
+glass~
+drink BC A
+20 20 3 0 0
+1 1 1 P
+#10005
+hýrsýz çizme çizmeler kara~
+Bir çift kara çizme~
+Bir çift kara çizme güneþ iþiðýný emiyor.
+~
+leather~
+armor BC AG
+20 20 20 10 0
+60 10 3000 P
+A
+13 -10
+A
+12 30
+A
+1 2
+#10006
+sýnýr eldiven bekçi eldivenler~
+Sýnýrbekçisi eldivenleri~
+Bir çift eldiven burada býrakýlmýþ, alýnmayý bekliyorlar.
+~
+unknown~
+armor BC AH
+20 20 20 9 0
+60 10 9684 P
+A
+24 -2
+A
+18 8
+A
+1 2
+#10007
+sýnýr bot bekçi botlar~
+Sýnýrbekçisi botlarý~
+Bir çift bot burada býrakýlmýþ.
+~
+unknown~
+armor BC AG
+21 19 19 10 0
+60 10 9898 P
+A
+22 -3
+A
+19 6
+A
+18 5
+#10008
+sýnýr kolluk bekçi~
+Sýnýrbekçisinin kolluklarý~
+Bir çift kolluk burada aðaca dayalý bir þekilde býrakýlmýþ.
+~
+unknown~
+armor BC AI
+21 20 19 10 0
+60 10 9898 P
+A
+13 20
+A
+2 2
+A
+1 2
+#10009
+sýnýr kalkan bekçi~
+Sýnýrbekçisinin kalkaný~
+En iyi metalden yapýlmýþ bir kalkan burada duruyor.
+~
+unknown~
+armor BC AJ
+20 21 20 15 0
+60 10 9898 P
+A
+13 40
+A
+17 -9
+#10010
+sýnýr tünik bekçi~
+Sýnýrbekçisinin tüniði~
+Ýyi deriden yapýlmýþ bir tünik burada býrakýlmýþ.
+~
+unknown~
+armor BC AK
+20 20 20 10 0
+60 10 9898 P
+A
+17 -21
+#10011
+sýnýr baþlýk bekçi~
+Sýnýrbekçisi baþlýðý~
+Geniþ bir baþlýk sahibi tarafýndan býrakýlmýþ...ne yazýk!
+~
+unknown~
+armor BC AE
+20 20 20 10 0
+60 10 9898 P
+A
+23 -5
+A
+1 2
+#10012
+sýnýr yüzük bekçi~
+Sýnýrbekçisi yüzüðü~
+Parlak bir gümüþ yüzük tozun üstünde duruyor.
+~
+unknown~
+treasure BC AB
+0 0 0 0 0
+60 10 9898 P
+A
+13 75
+#10013
+sýnýr bacaklýk bekçi bacaklýklar~
+Sýnýrbekçisi Bacaklýklarý~
+Bir çift bacaklýk burada býrakýlmýþ.
+~
+unknown~
+armor BC AF
+20 20 20 10 0
+60 10 9898 P
+A
+21 -1
+A
+14 30
+#10014
+elbise kara~
+Kara bir elbise~
+Bir elbise aðacýn tekinin gölgesi altýna býrakýlmýþ.
+~
+cloth~
+armor BC AD
+23 23 22 11 0
+70 10 5060 P
+A
+13 25
+A
+12 50
+#10015
+tasma yürek tazý~
+Bir yürek tazýsý tasmasý~
+Bir tasma alanýn ortasýnda duruyor.
+~
+unknown~
+armor BC AC
+23 22 22 16 0
+70 10 8080 P
+A
+17 -8
+A
+13 50
+A
+12 50
+#10016
+kese büyülü deri~
+Büyü bir deri kese~
+Bir kese çamurun içinde býrakýlmýþ.
+~
+leather~
+container BC A
+700 1 0 350 72
+70 50 1000 P
+#10017
+kurabiye~
+BÜYÜK bir kurabiye~
+Yerde bir kurabiye var, ne yazýk.
+~
+unknown~
+food B A
+40 0 0 0 0
+8 10 0 P
+#10018
+kek~
+BÜYÜK bir parça kek~
+Büyük lezzetli bir parça kek burada.
+~
+unknown~
+food B A
+10 0 0 0 0
+1 10 0 P
+#10019
+sýnýr kýlýç bekçi~
+Sýnýrbekçisinin kýlýcý~
+Kaliteli bir kýlýç burada býrakýlmýþ.
+~
+unknown~
+weapon ABCEJL AN
+sword 9 5 slash 0
+50 30 3500 P
+A
+19 4
+A
+18 4
+E
+sýnýr kýlýç bekçi~
+Burada bir Sýnýrbekçisi kýlýcý var, sadece onlarýn kullanýmý için.
+~
+#10020
+sýnýr döven bekçi~
+Sýnýrbekçisi döveni~
+Bir döven burada.
+~
+unknown~
+weapon ABCEJL AN
+flail 7 7 pound 0
+50 30 3400 P
+A
+19 3
+A
+18 4
+#10021
+sýnýr topuz bekçi~
+Sýnýrbekçisi topuzu~
+Bir topuz burada býrakýlmýþ.
+~
+unknown~
+weapon ABCEIJ AN
+mace 7 7 pound 0
+50 30 2999 P
+A
+18 2
+A
+18 3
+#10022
+sýnýr kama bekçi~
+Sýnýrbekçisi kamasý~
+Bir kama burada býrakýlmýþ.
+~
+steel~
+weapon ABCEIJ AN
+dagger 5 10 pierce 0
+50 30 2999 P
+A
+19 3
+A
+18 3
+#10023
+mord kýlýç silah~
+Mord-Sith'in kýlýcý~
+Büyülü bir kýlýç burada býrakýlmýþ.
+~
+unknown~
+weapon ABCEGM AN
+sword 18 7 slash 0
+90 20 9902 P
+A
+19 4
+A
+18 4
+A
+13 20
+A
+12 20
+#10024
+bilezik kudret~
+Kudret Bileziði~
+Çamurun içinde bir bilezik var.
+~
+unknown~
+armor ABC AM
+32 32 33 25 0
+90 20 9000 P
+A
+19 7
+A
+18 7
+A
+13 50
+A
+12 50
+#10025
+batý diyar~
+Bir Ýþaret~
+Batý Diyar'ýn haritasýný da içeren bir iþaret burada.~
+~
+wood~
+furniture A 0
+0 0 0 0 0
+91 90 90 P
+E
+batý diyar batýdiyar~
+****************************************************************
+*^\^\        /^/^\^\^\^\      /^\^/^/^/^/^/^\^\^\^\^\^\^\^\^\  *
+*^\      /^\^/^/^/^\^/^\   K      /^\^\^/^\^\^\^\^/^\^\^\^\    *
+*     /^\^/^\^/^/^/^/^\    |         /^/^/^/^/^/^\^/^\^\^\^\^\ *
+*      /^\^\^\^\       B---|---D /^/^/^/^\^\^/^\^\^\^/^\       *
+* /^/^/^/^\^\^\^\^\^\      |        /^\^\^\^\^\^/^\^/^/^/^/^/^/*
+*^\^/^/^/^/^/^/^/^/^\      G           /^/^/^/^\ / /^/^/^/^/^\ *
+*^/^/^\^\^/^\^/^/^\        /^/^\^\   /^/^/^\^\^/^\^/^/^/^/^\   *
+*^\^/^/^/^\^/^/^\                        /^/^/^/^\/^\/^\^/^/^/^*
+*^\^\^/^\^/^\          /^/^\^\        /^/^/^/^S /^/^\^/^\^\^\^/*
+*^/^/^/^/^/^/^/^\                       /^/^/^\I/^/^/^\^\^/^/^\*
+*^/^/^\^/^/^/^\   *******************       /^/^N/^/^/^/^/^\^\ *
+*^/^/^/^/^\       *    GARPDÝYAR    *      /^/^/^I /^\^/^/^\^\^*
+*^/^/^/^\^/^\     *******************         /^\^R/^\^/^/^/^/^*
+*^/^\^/^\         /^/^/^\^\         Y /^\   /^\^/^\^/^\^/^\^\^\*
+*^/^/^\        /^/^/^/^/^\^\^\      U          /^/^\/ /^\^\^\^/*
+*^/^\      /^/^/^\^\^/^/^\ = /^\^/^\K/^\^\   /^\^/^/^\ /^\^/^\^*
+*^\      /^/^/^/^\^/^/^/^\===/^/^/^\A/^\^/^\   /^\^\^\^/^\^\^\ *
+*^\^\           /^/^\^\^\ ==== /^\^\R            /^/^/^/^/^\^\^*
+*^\^\              /^/^\^\^\ =====  I /^\^\   /^\^\^\^/^/^\^\^\*
+*/^\    ÝÇDÝYAR           ======/^\    *         /^/^/^/^/^/^/^*
+*^/^/^\    *                /^\^/^\ V       /^/^/^/^/^/^\^\^/^\*
+*^\^\     TRUNT GÖLÜ    /^\^\^\^\^/^E/^\      /^/^\^\^/^\^\    *
+*^/^\^/^\      *            /^\^/^/^N/^\^\ /^\^/^\^\^\^\^\^\^\^*
+*^/^\^/^\^/^\                  /^\^/^/^\     /^/^/^/^/^/^/^\   *
+*^\^/^\       /^\^\^\^/^\        /^\^\^\^\      /^/^\^/^\^/^\  *
+*^\^/^\         /^/^\^\        /^/^/^\      /^/^\^\^\^\^/^\^\  *
+*^/^/^/^\            GÜNEYSIÐINAK  /^/^\^\    /^/^/^/^/^/^\^\^\*
+*^/^\^/^\^/^\     /^\    *           /^/^/^\    /^\KARAN ^/^/^/*
+*^/^/^/^\                                        /^\LIK^\      *
+*^/^/^\^/^\^\             /^\                       ###########*
+*^/^\^/^\^\^\^\^\                 /^/^\^\     /^\^/^/^\^/^\^/^\*
+*^/^/^/^/^/^\^\^\^/^\   /^^\  /^/^/^/^\^/^\    /^\^\^\^\^\^\^\^*
+****************************************************************
+
+Batý Diyar'a hoþgeldin. Bu bu dünyadaki iki ülkeden biri. Darken Rahl isminde
+iki ülkeyede hükmetmek isteyen büyük bir büyücü var. D'hara iki ülkeden daha
+güçlü olanýdýr. Bu nedenlerden biri ise birkaç milyon yýl önce büyücülerin
+en büyükleri iki ülkeyi de yarattýlar. Batý diyar tek hiç büyüsü olmayan ülkeydi.
+Ayrýca iki ülkeyi birbirinden büyülü bir sýnýrla ayýrdý. Bu sýnýr bir ülkeden
+diðerine geçen bütün büyüleri durdurmasý için yaratýldý. Ve buradan þimdiye
+kadar geçen en taþ hatun Caernil'di.
+~
+#10026
+tabela~
+Küçük bir tabela~
+Burada D'hara'nýn haritasýný gösteren bir tabela var.
+~
+wood~
+furniture A 0
+0 0 0 0 0
+91 90 90 P
+E
+d'hara hara'nýn tabelasý~
+****************************************************************
+*/^/^/^\^\^\^\^/^\^\^\^\^\^\^\^\^/^\ ***********=-=-=- =-=-=-= *
+*/^\^\^/^\^\^/^\^\^\^\^\^\^\^/^\ -=- *D'H A R A*=-=- =-=-=- =  *
+*^\^/^/^\^\^/^\^/^\^\^\^\^\ -=- =-=-=***********=-=-=-=- =-=-= *
+*/^/^/^\^\/^/^\^\^\^\ -=- =-=-=-=-=-=-=-=- =-=-=-=-=- =-=-=-   *
+*/^/^/^/^\/\^\^\^\   -=-=-=-=-=-=- =-=-=-=-=-=-=-=-=-=-=-=-=-  *
+*/^/^\^\^\^\/^/^\  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  *
+*^\^\^\^S/^/^\^\  =-=-=-=  -=-=-=- =-=-=-=-=- =-=-=-=-=-=-- =- *
+*/^/^\^\^I/^/^\^\^\ -=  *============================*  -=-=-  *
+*/^/^/^/^/N/^/^\   =-=  |     /^/^/^/^/^/^/^/^\^\    |  -=-=-= *
+*/^/^/^/^\^I/^/^\^\ -=  | /^\^\^\^/ KÝÞÝLERÝN ^/^\^\ |   =-= - *
+*^/^/^/^\^\^R/^\   -=-  | /^\   /^/^\  ***  /^/^\^\^\|  =- =-  *
+*/^/^/^/^/^\^\/^/^/^\^\ |    /^/^\^\   ***  /^/^\^\^\|   -=-=- *
+*/^/^\^\^\^\^/\/^/^\ -  | /^/^/^/^/--/SARAYI /^/^\^\ |  -=- =  *
+*/^/^/^/^\^\^\^\/^/^/^\ |    /^/^|--|^/^/^/^\^\^\    |   =-=-  *
+*/^/^\^\^\^\^\^\^\^\ -  | /^/^/^\^\--\^\^\^\^\^\     |  -=-=-  *
+*/^/^\^\^\^\^\^\  =-=-  |   /^/^\^\|--|/^/^\^\^\^\   |  =-=-=- *
+*/^/^\^\^\^\^\  =-=-=-  *==========*---*=============*   =-    *
+*/^/^\^\^\    -=-=--=-=-=-=-=-=-=-= |_ | -=- =-=-=-=-=- =-=-=- *
+*/^/^/^/^\^\^\   =-=-=-=-=-=-=-=-= /_ / -=-=-=-=-=-=-=-=-=- =  *
+*/^/^/^/^/^\   -=-=-=-=-=-=-=-=-= |__| ==-=-=-=-=-=-=-=-=- =-= *
+*/^/^/^/^/^/^/^\  =-=-=-=-= =-=-=      =-=-=-=- =-=-=-=-=-=-=- *
+*/^/^\^\^\^\   =-=-=-=-=-= =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  *
+*/^/^\-=-/^\^\^\  =-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=- =-=-=- =-  *
+*^\^\^\^\^/^\   -==-=-=-=- =-=-=-=-=-=-=- =-=-=-=-=-=- =-=-  /^*
+*^\^\^/^\^/^\^\  =-=-=-=-=-=-=- =-=-=-=-=-=-=- =-=-=-=-  /^/^/^*
+*\^\^\^/^  -=-=-=-=- AZRITH =-=-=-=-=-=-=-=-=-=-=-=-=-=   /^/^/*
+*/^/^/^\ -=-=-=--=- DÜZLÜKLERÝ -=-=-=-=-=-=-=-=-=-   /^/^/^/^\^*
+* KARAN    -=-=-=-=-=-=-=-=-=-=-=-=-=- =-=-=-=-=-=   /^/^/^\^\^*
+*########     =-=-=-=-=-=-=-=-=-=-=-=-=-=-=   /^/^/^\^\^/^/^\^\*
+*  LIK   /^/^\  =-=-=-=-=-=-=-=-=-=-=--  /^/^/^/^\^\^\^\^\^\^\^*
+*          /^/^\ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  /^\^\^\^\^\^/*
+* /^\^\^\^\^/^/^/^/^\^\=-=/^/^\=--=-/^/^\^\^\^/^\^/^\^/^\^\^\^\*
+* /^/^/^\=-/^/^/^/^\^/^/^/^\^\=-/^/^\^\^\^/^/^/^\^/^\^/^\^\^\^/*
+*/^/^/^\=-=-=-=-=-/^\ =-=-= /^\^/^\^\^\^\^/^\^\^/^\^\^\^\^/^/^\*
+*/^/^\^\^/^\^\^\-=-=-=-/^\^\^\^/^/^/^/^/^\^\^\^/^/^\^/^\^\^/^\^*
+****************************************************************
+
+D'hara. Burasý Darken Rahl'ýn evi ve buradaki en güçlü kiþi o. Çok güçlü
+olmasýna karþýn yenilemez deðil. Azrith Düzlüklerine çok büyük olduklarý
+için dikkat et ve kuzeyden batýya doðuya ve güneye git. Düzlüklerde
+kaybolmak çok kolaydýr oyüzden Ýnsanlarýn kalesinden ona giden yolu bul
+çok geç olmadan veya kaybolmadan önce! Gerçekten acele etmelisin çünkü
+Darken Rahl savaþý kazanýp ülkeleri kontrol etmeye çok yakýn!
+~
+#10027
+taç miðfer ateþ ejderha~
+Ateþin Tacý~
+Bir tacýn üstünde ateþ yanýyor.~
+adamantite~
+armor ACY AE
+39 39 39 37 30
+86 10 99000 P
+A
+3 2
+A
+6 5
+A
+13 200
+A
+18 12
+A
+19 12
+A
+24 -8
+#10028
+zýrh karanlýk sith~
+Karanlýðýn zýrhý~
+Geniþ gölgeli bir figür yerde.~
+adamantite~
+armor CJY AD
+31 31 31 29 10
+57 50 75000 P
+A
+1 2
+A
+13 200
+A
+24 -5
+#0
+
+
+
+#ROOMS
+#10001
+Gölün yanýndaki bir patika~
+Kristal kadar berrak güzel bir gölün yanýnda yürüyorsun. Havada taze bir
+meltem var ve aðaçlar özgürce sallanýyor. Yeni bir dünyaya giriyormuþ gibi
+hissediyorsun fakat hala Uzakdiyarlardasýn. Saðýndaki göl berrak ve sakin.
+Gölün üstünde yüzden bir ördek ailesi seni farketmiyormuþ gibi gözüküyor.
+Etrafýndaki ormanlarda geyikler, kuþlar ve diðer hayvanlar var. Aðaçlar uzun
+ve bereketli, güneþin bu kutlu diyarlara girmesine izin vermiyorlar. Yol,
+kuzeye ve tabiki geldiðin yol olan güneye doðru devam ediyor. Aðaçlarýn
+ötesinde kan içen çirkin bir yaratýk görüyorsun alnýnda Caernil yazýyor.
+~
+0 0 3
+D0
+Yoðun ormana doðru.
+~
+~
+0 0 10002
+D2
+Uzun tozlu yol.
+~
+~
+0 0 18002
+S
+#10002
+Ormanda bir açýklýk~
+Ormanda yürürken birden bire bir açýklýða çýkýyorsun. Açýklýk fazla büyük
+olmamasýna raðmen yeniden güneþi görmek güzel. Orman tekrar devam etmeden
+önce yol kenarýna asýlmýþ iki büyük tabela var. Üzerinde ne yazdýðýný merak
+ediyorsun ve daha yakýndan bakmak için yanýna gidiyorsun. Gölün yanýndan iki
+çýkýþ var. Birisi güneye gidiyor diðeri ise geldiðin yön olan güneye gidiyor.
+~
+0 0 3
+D0
+Ormana giriþ.
+~
+~
+0 0 10003
+D2
+Ormana geri.
+~
+~
+0 0 10001
+S
+#10003
+Garpdiyar'a Hoþgeldiniz!~
+Hoþgeldiniz! Trout gölünün yanýndaki ormanýn tam ortasýnda duruyorsun.
+Yürümekte olduuðn yol kuzeye doðru gider, eðer geri dönmek istersen
+güneye yönel. Gölün içinde zýplayan balýklar var, insanlar kumlarda
+oynuyor veya çiçek topluyorlar. Burasý kesinlikle harika bir yer.
+~
+0 0 3
+D0
+Yoldan aþaðý.
+~
+~
+0 0 10004
+D2
+Açýklýða geri.
+~
+~
+0 0 10002
+S
+#10004
+Yoldan aþaðý bir patika~
+Trout gölünün yanýndaki tozlu eski yoldan ilerliyorsun. Güneþ yukarýda
+parlýyor ve terlemeye baþlýyorsun. Yol kuzey ve güneye doðru devam ediyor.
+~
+0 0 3
+D0
+Yolda dönüþ.
+~
+~
+0 0 10005
+D2
+Güneye yol.
+~
+~
+0 0 10003
+S
+#10005
+Yoldaki bir dönüþ~
+Yolda yürürken daðlara doðru giden bir patika görüyorsun. Kuzeye gitmek seni
+direk gölün içine yönlendireceði için batýya, daðlara doðru gitmen lazým.
+Önünde küçük bir tavþan bir havuzdan su içiyor. Böylesine güzel bir yaratýðýn
+nereden geldiðini merak ediyorsun. Hala güneye gidebilirsin.
+~
+0 0 3
+D2
+Güneye yol.
+~
+~
+0 0 10004
+D3
+Daðlara giden patika.
+~
+~
+0 0 10006
+S
+#10006
+Daðlara giden bir patika~
+Daðlara yaklaþtýkça, orman arazisi arkada kalýyor ve açýk havaya çýkýyorsun.
+Rüzgar burada daha hýzlý esiyor ve hava daha da sýcak. Uzakta hayal meyal bazý
+inatçý palmiyeler görüyorsun. Böylesine harika bitkilerinde nereden geldiðini
+uyuþuk bir þekilde merak ediyorsun. Daðdan yukarý olan yol hoþ ve kolaya
+benziyor. Doðu ya gidip geri dönebilirsin veya daðdan yukarý doðru
+ilerleyebilirsin.
+~
+0 0 5
+D1
+Orman	giden patika
+~
+~
+0 0 10005
+D4
+Daðlara giden patika
+~
+~
+0 0 10007
+S
+#10007
+Daðlara giden yol~
+Yürümesi hoþ bir yol ve yürüyüþten oldukça hoþlanýyorsun. Yolun en yukarýsýna
+geldiðinde buranýn Yukarý Ven olduðunu farkediyorsun. Yukarý Ven þehriden önceki
+daðdýr. Patika oldukça temiz ve geçmesi kolay gibi gözüküyür. Kayalar güneþ
+yüzünden ýlýklar ve ýsýnmýþ yalgýnla parýldýyorlar. Kuzeye veya aþaðýya
+yönelebilirsin.
+~
+0 0 5
+D0
+Uçurum boyunca uzanan patika.
+~
+~
+0 0 10008
+D5
+Daða geri.
+~
+~
+0 0 10006
+S
+#10008
+Yukarý Ven'in sonu~
+Daðýn sonuna ulaþtýn ve tekrar aþaðý inmek zorundasýn. Yol bir ormana doðru
+gidiyor ve anlaþýlan sonunda güneþten uzaklaþabileceksin. Orman aðaçlarla ve
+yeni gelen mevsimden dolayý renk deðiþtirmiþ fundalarla dolu. Yapraklarýn
+altýn ve bronz renkleri sanki hayatýn kendisinden daha güzelmiþ gibi duruyor.
+Dað havasý temiz ve ferahlatýcý öyleki oturup biraz dinlenmek istiyorsun.
+Aþaðý veya güneye gidebilirsin.
+~
+0 0 5
+D2
+Güney yolu.
+~
+~
+0 0 10007
+D5
+Ormana giden yol.
+~
+~
+0 0 10009
+S
+#10009
+Ormanýn içinden geçen yol~
+Ýçdiyar kasabasýnýn yakýnýndaki ormana girdin. Yol, parlak sarý çiçeklerle ve
+küçük mor çiçeklerle kaplý. Doðudaki bir derme çatma kulübe hiçte o kadar
+davetkar durmuyor. Orman çok sýk deðil ve etrafýndaki herþeyi görebiliyorsun.
+Etrafta yaban eðrelti otlarý ve daha önce görmediðin diðer bitkiler var.
+Bitkilerden birini hatýrlýyorsun..hmm, sanýrýrm onu daha önce bir kitapta
+görmüþtün. Bu orman bir sýðýnýða oldukça benziyor. Yol kuzeye, Ýçdiyar'ýn
+eteklerine, doðru veya daðdan yukarý doðru gidiyor.
+~
+0 0 3
+D0
+Ýçdiyarýn etekleri.
+~
+~
+0 0 10010
+D4
+Daðdan yukarý yol.
+~
+~
+0 0 10008
+S
+#10010
+Ýçdiyarýn etekleri~
+Ýçdiyar isimli küçük bir kasabanýn eteklerindesin. Yürüdüðün yol kuru ve
+tozlu. Görünüþe göre bir süredir yaðmur yaðmýyor. Ýleride kasaba yavaþ
+yavaþ görünüyor. Kasabanýn sokaklarýnda sanki bir pazar alaný varmýþ gibi
+kalabalýk fakat etrafta satýlýk hiç birþey yok. Bütün köylüler ateþ
+hakkýnda bir demeç veren sözcünün etrafýnda toplanýyorlar. Þehir tamamen
+mutlu insanlarla dolu gibi gözüküyor, hepsinin mükemmel iþleri ve aileleri
+var. Çýkýþlar kuzeye ve güneye.
+~
+0 0 3
+D0
+Ýçdiyar kasabasý.
+~
+~
+0 0 10011
+D2
+Ormana geri.
+~
+~
+0 0 10009
+S
+#10011
+Ýçdiyar kasabasý~
+Ýçdiyar kasabasýna girdin. Burada herkes mutlu ve neþeli gibi gözüküyor.
+Hepsi ateþ hakkýnda seni ilgilendirmeyen bir konuþmayý dinliyor gibiler.
+Sözcünün nasýl konuþtuðunu ve dinleyicinin dikkatini çektiðini görüyorsun,
+burada bir otorite gibi gözüküyor. Neden bu kadar küçük birinin insanlar
+üzerinde bu kadar güce sahip olduðunu merak ediyorsun. Etrafta küçük evler
+var fakat hiç biri davetkar durmuyorlar. Kuzeye çayýrlardaki patikaya doðru
+veya geriye ormana doðru gidebilirsin.
+~
+0 0 1
+D0
+Kasabanýn dýþýndaki çayýrlar.
+~
+~
+0 0 10012
+D2
+Ýçdiyar eteklerine geri.
+~
+~
+0 0 10010
+S
+#10012
+Ýçdiyar çayýrlarý~
+Kasabanýn dýþýndaki çayýrlara girdin ve Güney Sýðýnaða doðru yola koyuldun.
+Karanlýk, Güney Sýðýnaðýn yakýnýnda. Güney Sýðýnaða giderken bataklýklardan
+geçmek zorundasýn. Burada hava þaþýrtýcý derecede durgun ve sakin. Etrafta
+tek-tük aðaçlar var ve onlardan da az hayvan var. Yol kuzeye doðru nefesini
+kesen iðrenç bir koku salan bir bataklýða doðru gidiyor, güneyde ise geldiðin
+kasaba var.
+~
+0 0 2
+D0
+Bataklýða giden patika.
+~
+~
+0 0 10013
+D2
+Kasabaya giden yol.
+~
+~
+0 0 10011
+S
+#10013
+Bataklýða giden yol~
+Yolda yürürken orman sýklaþtýkça sýklaþýyor. Yol giderek daha da saklý bir
+hale geliyor ve bir sis beliriyor. Aðaçlarýn dallarý biraraya gelerek güneþi
+kapýyorlar. Hava hala küf kokulu ve giderek soðuyor. Uzakta sýnýra doðru ava
+gelen yürek tazýlarýnýn çýðlýklarýný duyuyorsun. Ýþlerin daha kötü
+gidemeyeceðini düþünürken, önündeki yolda bir suikastçi takýmý farkediyorsun.
+Dikkatli olmalýsýn. Yol kuzeye gidiyor ve kasabaya geri...güney.
+~
+0 0 3
+D0
+Bataklýða daha yakýn.
+~
+~
+0 0 10014
+D2
+Çayýrlara geri.
+~
+~
+0 0 10012
+S
+#10014
+Bataklýða daha yakýn~
+Bataklýða dahada yaklaþýyorsun ve siste daha kalýnlaþýyor. Suikastçi takýmý
+sana saldýrmadý yani sanýrým güvendesin. Aðaçlar kuru ve eski görünmeye
+baþlýyorlar, zemin de çamurlu. Yürektazýlarýnýn çýðlýklarý çok daha
+yakýndan geliyor ve paniklemeye baþlýyorsun. Yol doðuya ve güneye
+doðru gidiyor.
+~
+0 0 3
+D1
+Bataklýktaki patika.
+~
+~
+0 0 10015
+D2
+Yola geri.
+~
+~
+0 0 10013
+S
+#10015
+Bataklýktaki patika~
+Bataklýða yürektazýlarýyla ayný anda geldin. Yürektazýsý bataklýða girmeyecek
+yani bu senin son þansýn...yada savaþacaksýn. Bataklýk davetkar gözükmüyor
+ayrýca bulanýl sularda ne gibi yaratýklarýn yaþadýðýný bilmiyorsun. Bataklýðýn
+ortasýnda terkedilmiþ gibi gözüken küçük bir ada var. Bataklýk sularý
+yürünebilecek kadar sýð. Hýzlý karar vermen lazým....savaþ yada adaya doðru
+git. Çýkýþlar doðu ve batýya.
+~
+0 0 3
+D1
+Sularýn üstünde.
+~
+~
+0 0 10016
+D3
+Ormanlardan geri.
+~
+~
+0 0 10014
+S
+#10016
+Bataklýk sularýnýn üstünde~
+Sularýn üstünden geçerken tazýlarýn seni izlemediklerini farkediyorsun.
+Su dinlendirici ve ferah. Ada biraz ilerde ve oraya varmak için
+sabýrsýzlanýyorsun. Suyun hareket ettiðini görüyorsun ve hemen sonra
+onlarý görüyorsun. Yýlanlar! Ölümcül küçük sarý yýlanlar. Heryerde.
+Adaya doðru tüm hýzýnla koþmaya baþlýyorsun. Doðuya adaya gidebilirsin
+veya geriye yani batýya.
+~
+0 0 6
+D1
+Adada.
+~
+~
+0 0 10017
+D3
+Patikaya geri.
+~
+~
+0 0 10015
+S
+#10017
+Adada~
+Adanýn üzerine týrmandýðýn zaman yýlanlarýn seni kuru toprakta takip
+etmediklerini farkediyorsun. Tazýlar hala diðer kýyýdalar ve suya girmeye
+hiç niyetleri yok ve senin kýyýya çýktýðýný gördüklerinde hayal kýrýklýðýyla
+kesik kesik havlýyorlar. Adada herhangi bir aðaç veya bitki yok. Doðuya
+baktýðýnda Güney Sýðýnaða giden yeni bir patika görüyorsun.
+Çýkýþlar doðuya ve batýya.
+~
+0 0 4
+D1
+Sularýn üzerinden güneye.
+~
+~
+0 0 10018
+D3
+Sularýn üzerine geri.
+~
+~
+0 0 10016
+S
+#10018
+Sularýn üstünde~
+Bataklýkta yeniden yola koyulduðunda güneþin doðduðunu ve sisin daðýldýðýný
+farkediyorsun. Yýlanlar henüz seni rahatsýz etmediler ve tazýlar sýnýrdaki
+evlerine geri döndüler. Karaya yeniden yaklaþýrken bataklýk sýðlaþýyor ve
+hava açýlýyor. Çýkýþlar doðuda kýyý ve batýda adaya geri.
+~
+0 0 6
+D1
+Kýyýda.
+~
+~
+0 0 10019
+D3
+Adaya geri.
+~
+~
+0 0 10017
+S
+#10019
+Yeniden kýyýda~
+Kýyýya ulaþýp tazýlarýn gitmiþ olduklarý gördüðünde rahatlýyarak bir iç
+geçiriyorsun. Doðuya  GüneySýðýnaða bakarken þehir yaþamýnýn sönük seslerini
+duyuyorsun. Sonrasýnda ise GüneySýðýnaða doðru olan yürüyüþüne devam ediyorsun.
+Bataklýða geri dönebilirsin(batý) veya doðuya doðru devam edebilirsin.
+~
+0 0 3
+D1
+Ormandan geçen yol.
+~
+~
+0 0 10020
+D3
+Tekrar sularda.
+~
+~
+0 0 10018
+S
+#10020
+Ormandan geçen yol~
+Orman onu en son gördüðünden beri canlanmýþ gibi gözüküyor. Buradaki aðaçlarda
+büyük ve renkli yapraklar var, yok yeniden kuru ve heryerde büyüyen bitkiler
+var. GüneySýðýnaða olan yolculuðun düþündüðün kadar kötü geçmiyor. Biraz
+ileride köyü görebiliyorsun. Çýkýþlar batýya doðru kýyý ve güneye doðru köy.
+~
+0 0 3
+D1
+Köye giriþ.
+~
+~
+0 0 10021
+D3
+Sulara geri.
+~
+~
+0 0 10019
+S
+#10021
+Köy Kapýlarý~
+Köye yaklaþýrken bu devasa kapýlar seni karþýlamak için açýlýyor. Þehrin
+sokaklarý oldukça canlý ve hareketli. Heryerde çocuklar var ve dükkanlarda
+insanlar. Köy yolu doðuya sana bir bardak içki vaad ederek uzanýyor. Batýya
+ormana gidebilir veya doðuya köye devam edebilirsin.
+~
+0 0 1
+D1
+Köyün içindeki Yol.
+~
+~
+0 0 10022
+D3
+Ormana geri.
+~
+~
+0 0 10020
+S
+#10022
+Köyün Ordaki Yol~
+Sokakta ilerlerken kuzeye doðru hoþ bir barýn varlýðý dikkatini çekiyor.
+Oldukça davetkar görünüyor ve sende kayda deðer bir þekilde susuzsun.
+Ýçeriden sönük þarký sesleri yükseliyor...sarhoþlar olduðunu sanýyorsun.
+Birkaç kiþinin haftasonunda ne yapacaklarýndan bahsettiklerinin duyuyorsun.
+Þehirde esen taze, hoþ bir meltem var. Çýkýþlar batýya doðru kapýlar,
+kuzeyde bar, doðu da ise Karanlýk.
+~
+0 0 1
+D0
+Bara giriþ.
+~
+~
+0 0 10023
+D1
+Karanlýða giden patika.
+~
+~
+0 0 10024
+D3
+Kapýlara geri.
+~
+~
+0 0 10021
+S
+#10023
+Taverna~
+Ýçen ve eðlenen insanlarla dolu olan küçük, dumanlý bir odaya girdin. Ýçecek
+satan bir barmen, sahnede sevdiði küçük þarkýyý söyleyen bir bayan var.
+Sarhoþlar uzun ve güçlü fakat üzerlerinde bira lekeleri var.
+Çýkýþ güneye tekrar yola.
+~
+0 0 0
+D2
+Yeniden yolda.
+~
+~
+0 0 10022
+S
+#10024
+Karanlýða giden yol~
+Bu D'Hara ya gitmen için içinden geçmen gereken Karanlýða giden yol. Patika
+geniþ ve oldukça rahat görülebiliyor. Etraftaki ormanlarda koþuþturan bir
+sürü küçük hayvan var. Aðaçlarýn çok daha sýk ve daha yeþil olduðunu
+farkediyorsun. Nem artmaya ve daha sýcak olmaya baþlýyor. Ýleride Kemik
+Kadýnýn kulübesini gördüðünde yorulmaya baþlamýþtýn. Onu bir ziyaret etmek
+fena olmaz. Kulübesi hmm...yirmi yarda ileride ve ona ulaþmak pek zaman
+almaz. Ýleride Karanlýðý seçebiliyorsun. Çýkýþlar batýda köy ve kuzeyde
+Kemik Avrat.
+~
+0 0 3
+D1
+Kemik Kadýna giden patika.
+~
+~
+0 0 10025
+D3
+Köye giden patika.
+~
+~
+0 0 10022
+S
+#10025
+Kemik Kadýnýn kulübesine giden patika~
+Ormanda bir açýklýða çýkýyorsun ve gökyüzünün yeniden açýk olduðunu
+farkediyorsun. Orman bir yaðmur için hazýr gibi gözüküyor ve aðaçlar
+yapraklarýný ters çevirmiþler. Kuzeyinde Kemik Kadýna sahip olduðunu
+tahmin ettiðin bir kulübe var. Kulübe hoþ ve rahat gözüküyor. Kalýp
+Kemik Kadýný bir ziyaret etmek hoþ olurdu. Çýkýþlar batýya orman, kuzeye
+Kemik Kadýn, doðuya Karanlýk.
+~
+0 0 3
+D0
+Kemik Kadýnýn evi.
+~
+~
+0 0 10026
+D1
+Karanlýða giden patika.
+~
+~
+0 0 10027
+D3
+Ormana geri.
+~
+~
+0 0 10024
+S
+#10026
+Kemik Kadýnýn Kulübesi~
+Tüm duvarlarý kemikle kaplý bir oda ya giriyorsun. Köþede duran hoþ bir
+þömine ýþýk ve ýsý yayýyor. Bir yað lambasý tavandan sarkýyor ve odaya
+garip bir parýltý yayýyor. Yerdeki minik birikintileri üzerinde kemikler
+var ve hepsinin ortasýnda ise Kemik Kadýn oturuyor. Yüzüde geniþ bir
+gülümseme var ve sana evinde istediði kadar kalabileceðini söylüyor.
+Ve cevabýný dinlemeden sana Caernil isimli bir vampir hakkýnda bir
+destan anlatmaya baþlýyor. Çýkýþ güneye doðru, yola geri.
+~
+0 0 0
+D2
+Yola geri.
+~
+~
+0 0 10025
+S
+#10027
+Karanlýk~
+Karanlýða vardýn. Burasý içinde durmanýn tehlikeli olduðu bir yer.
+Karanlýkta yaþayan bir sürü aþaðýdünya yaratýðý var. Gardýný yüksek
+tutmak ve uykuya dalmamak zorundasýn. Çýkýþlar doðuda ve batýya Kemik
+Kadýnla bir fincan çay içebilmek için.
+~
+0 0 10
+D1
+Karanlýktan geçen patika.
+~
+~
+0 0 10028
+D3
+Bir fincan çay için Kemik Kadýna geri.
+~
+~
+0 0 10025
+S
+#10028
+Karanlýktan geçen patika~
+Ýzlediðin yol takipetmesi oldukça kolay olan bir tanesi. Hiç ses olmamasý
+seni baþta biraz ürkütüyor fakat bir süre sonra bu korkuda geçiyor. Doðu
+da Karanlýðýn merkezinin yaklaþtýðýný görüyorsun. Görünüþe göre Karanlýðýn
+en tehlikeli kýsmý. Çýkýþlar doðuda Karanlýðýn Merkezi ve batýda
+Karanlýðýn Giriþi.
+~
+0 0 10
+D1
+Karanlýðýn Merkezi.
+~
+~
+0 0 10029
+D3
+Karanlýðýn giriþine geri.
+~
+~
+0 0 10027
+S
+#10029
+Karanlýðýn Merkezi~
+Onu farkettiðin zaman Karanlýðýn Merkezine doðru yaklaiýyorsun. Bir Gölge Kiþi.
+Zehirli dokunuþlarý vardýr ve ölü gömücülerdir. Ona farkettirmeden süzülmeye
+çalýþýyorsun. Hava kararýyor ve hala gidebileceðin çok az yer var. Çýkýþlar
+doðu-batý yönlü, doðu gitmek istediðin yön.
+~
+0 0 10
+D1
+Karanlýðýn sonuna giden patika.
+~
+~
+0 0 10030
+D3
+Geldiðin yol.
+~
+~
+0 0 10028
+S
+#10030
+Karanlýðýn sonuna Yakýn~
+Karanlýðýn sonuna yaklaþýyorsun. Bu korkunç yerden ayrýlmak üzere olduðun için
+rahatlayarak iç geçiriyorsun. Güneþ yolunu görmeni zorlaþtýrarak uzakta batýyor.
+Karanlýktan gece çökmeden önce çýkmaya çalýþýyorsun.
+Çýkýþlar tabi ki doðu ve batý.
+~
+0 0 10
+D1
+Karanlýðýn sonu.
+~
+~
+0 0 10031
+D3
+Tabiki de geldiðin yol.
+~
+~
+0 0 10029
+S
+#10031
+Karanlýðýn Sonu~
+Karanlýðýn sonuna vardýn!!! Eeee!... Of..Ah!! Güneþ battý ve gözünün tam
+önünde maddeleþiyor Hayalet Kral. Geçmene izin vermeyecek. Bu pislik yaratýðý
+bir þekilde uzaklaþtýrýp Darken Rahla ulaþman gerek. Çýkýþlar doðu ve batý.
+~
+0 0 10
+D1
+Azrith Düzlükleri.
+~
+~
+0 0 10032
+D3
+Karanlýk.
+~
+~
+0 0 10030
+S
+#10032
+Azrith Düzlükleri~
+D'Hara'ya Hoþgeldin! Karanlýktan baþarýyla geçtin ve Azrith Düzlüklerinin
+önünde duruyorsun. Düzlükler oldukça devasa ve gözün alabildiðince uzanýyor.
+Uzakta Kiþilerin Sarayýný görüyorsun, Darken Rahl'ýn evini. Darken Rahl'la
+devasa sarayýnda karþýlaþmak için Azrith Düzlüklerini geçmen lazým.
+Çýkýþlar batý ve kuzeye.
+~
+0 0 2
+D0
+Azrith Düzlükleri.
+~
+~
+0 0 10033
+D3
+Karanlýðýn sonu.
+~
+~
+0 0 10031
+S
+#10033
+Düzlüklerden geçen patika~
+Oldukça uzun fakat Darken Rahl'ýn sarayýna giden bir yol buldun. Yol
+taþlarla kaplý ver orada burada seyrek aðaçlar var. Gökyüzü açýk,
+güneþli ve oldukça sýcak. Susamaya baþlýyorsun ve biraz yorgun
+hissetmeye baþlýyorsun. Tek þansýn Kiþilerin Sarayýna doðru devam
+etmek ve Darken Rahl ý durdurmak ardýndan içecek ve yiyecek birþeyler
+çalabilirsin. Karanlýða giden yol pek iç açýcý gözükmüyor. Çýkýþlar
+güney ve kuzeye.
+~
+0 0 2
+D0
+Azrith Düzlükleri.
+~
+~
+0 0 10034
+D2
+Geldiðin yola dönen patika.
+~
+~
+0 0 10032
+S
+#10034
+Azrith Düzlükleri~
+Oldukça fazla yol geldiðini ve neredeyse Saraya vardýðýný farkediyorsun.
+Durup geri dönmek için ani bir istek duyuyorsun fakat sonra geçiyor.
+Ýleride yolu týkayan dev bir ejderha var. Belki seni dinler ve yoldan
+çekilir. Belkide seni kahvaltý niyetine yer...Hmmm...kahvaltý fikri
+fena deðil. Çýkýþlar güneyve kuzeye.
+~
+0 0 2
+D0
+BÜyüK korkutucu EJderHa ya.
+~
+~
+0 0 10035
+D2
+Sýkýcý eski düzlüklere geri.
+~
+~
+0 0 10033
+S
+#10035
+BÜyüK korkutucu EJderHa'nýn yanýnda~
+Ejderhaya yaklaþýrken onun þimdiye kadar gördüðün en büyük ve korkutucu
+þey olduðunu farkediyorsun. Sen geçmeye çalýþýrken ejderha seni zorla
+farkediyor. Belkide onu öldürmeui DENEmelisin böylece dönerken onunla
+savaþmak zorunda kalmazsýn... Belkide geri dönüp biraz kurabiye için
+anneciðe koþsan... mmmmm kurabiyeler. PASO MÝDENÝ DÜÞÜNMEYÝ BIRAK ARTIK!
+Ýlerleyip Darken Rahl'ý öldürmen lazým. Çýkýþlar her zamanki gibi kuzey
+ve güneye.
+~
+0 0 2
+D0
+Kiþilerin Sarayýna giriþ.
+~
+~
+0 0 10036
+D2
+Geldiðin yoldan geri.
+~
+~
+0 0 10034
+S
+#10036
+Kiþilerin Sarayý~
+En sonunda Kiþilerin sarayýndasýn. Burasý harbi büyük. Þimdiye kadar gördüðün
+her þeyden büyük. Kapýlar senden 10 kat daha büyük, açýk durmalarýna raðmen...
+sanki farkedilmiþin gibi. Merdivenler mermerden yapýlmýþlar ve pürüssüzler.
+Çýkýþlar kuzeye sarayýn içine ve güneye ejderhanýn yanýna.
+~
+0 0 2
+D0
+Saray.
+~
+~
+0 0 10038
+D2
+Büyük korkutucu EJderHa.
+~
+~
+0 0 10035
+S
+#10038
+Uzun Hol~
+Saraya giriyorsun ve uzun bir holden geçiyorsun. Burada gezinen bir sürü
+baþka kiþi var, diðerleri ise Darken Rahl a dua ediyor veya ona ilahilar
+söylüyorlar. Böyle insanlarla dolu bir tahsis odasýnýn yanýndan geçiyorsun.
+Durmayýp ilerlemeye karar veriyorsun. Çýkýþlar kuzeye, güneye ve doðuda
+müritlerle dolu bir oda var.
+~
+0 0 0
+D0
+Daha uzun hol.
+~
+~
+0 0 10041
+D1
+Tahsis odasý.
+~
+~
+0 0 10039
+D2
+Geçitlere geri.
+~
+~
+0 0 10036
+S
+#10039
+Tahsis odasý~
+Bu oda kafalarýný yere dayamýþ armonik bir tonda ilahi söyleyen insanlarla
+dolu. Odanýn ortasýnda su dolu dev bir havuz var. Burasý bir iç bahçe gibi
+gözüküyor. Darken Rahl a adanmýþ bütün bu insanlar karþýsýnda baþtan aþaðý
+ürperiyorsun. Çýkýþlar kuzeye ve batýya geri.
+~
+0 0 0
+D0
+Mord-Sith Odasýna.
+~
+~
+0 0 10040
+D3
+Hole geri.
+~
+~
+0 0 10038
+S
+#10040
+Mord-Sithlerin odasý~
+Bu odanýn kan ve ter birleþimi korkunç kokusu mideni bulandýrýyor. Ýnsanlar
+borulara zincirlenmiþ ve kýrmýzý giymiþ kadýn onlara iþkence yapýyor.
+Zemin tamamen kanla kaplý. Odaya girdiðin an bundan piþman oluyorsun.
+Mord-Sithler seni farkettiler ve sana doðru geliyorlar. En iyi hýzlý KOÞ!
+~
+0 0 0
+D2
+Tahsis odasýna geri.
+~
+~
+0 0 10039
+S
+#10041
+Holün Sonu~
+Holün sonuna geldin...bu kattaki. Önündeki dev kapýlarýn altýndan saplarý var.
+Ýçerinden kuþ ötüþleri geliyor. Bu odayý sarmalayan büyüyü hissediyorsun....
+
+Darken Rahl'ý buldun! Kapý önünde otomatik olarak açýlýyor. Girebilir veya
+Mord-Sithlere geri dönebilirsin.
+~
+0 0 0
+D0
+Yaþam Bahçesi.
+~
+~
+0 0 10042
+D2
+Uzun Hol.
+~
+~
+0 0 10038
+S
+#10042
+Yaþam Bahçesi~
+Burasý harika büyülü bitki türleriyle doldurulmuþ maðramsý bir oda.
+Süslü pencereler oldukça yukarýda bereketli bitkiler için ýþýk saðlýyor.
+Odanýn eteklerinde çiçek yataklarý eðrilip bükülen yürüyüþ yollarýnýn
+etrafýna ekilmiþ. Çiçeklerin ötesinde ise küçük aðaçlar, ve sarmaþýklarýn
+kapladýðý taþ bir duvar ve güzelyerleþtirilmiþ bitkiler görüntüyü tamamlýyor.
+Yukarýdaki pencereler dýþýnda oda bir bahçeyi aynen taklit ediyor. Bu pahalý
+odanýn ortasýnda bir çim alaný neredeyse kusursuz bir daire çiziyor, çimen
+daire beyaz bir taþýn kýskýsý tarafýndan bozuluyor, üstünde bir parça granit
+bulunan, hoþ,fakat üstüne oyulmuþ oluklar seni bir köþedeki kuyuya götürüyor.
+Yivlerle süslenmiþ iki pedestal tarafýndan tutuluyor. Granit parçasýnýn
+ötesinde cilalanmýþ kara bir taþ blok bir ateþ çukurunun yanýnda duruyor.
+Çimenlerin ortasýnda meþalelerin ateþiyle beslenen ve garip bir þekilde
+yanan beyaz sihirbazýn kumu var.
+
+Tek çýkýþ güneyde.
+~
+0 0 0
+D2
+~
+~
+0 0 10041
+S
+#0
+
+
+
+#SPECIALS
+M 10017 spec_cast_cleric Load to: The Bone Woman
+M 10020 spec_cast_mage Load to: The Spirit King
+M 10021 spec_breath_fire Load to: The Great Red Dragon
+M 10024 spec_breath_any Load to: A drunken villager
+M 10025 spec_thief Load to: A little thief
+M 10031 spec_cast_undead Load to: The Evil Darken Rahl
+S
+
+
+
+#RESETS
+O 0 10025 0 10001 A sign loaded to Path By a Lake.
+O 0 10026 0 10001 A little sign loaded to Path By a Lake.
+M 0 10007 1 10003 1*Load a young lady
+M 0 10008 1 10003 1*Load a fisherman
+M 0 10009 1 10003 1*Load a little boy
+M 0 10005 4 10005 1*Load a quad assassin
+M 0 10005 4 10005 1*Load a quad assassin
+M 0 10005 4 10005 1*Load a quad assassin
+M 0 10005 4 10005 1*Load a quad assassin
+M 0 10014 2 10006 1*Load a boundary warden
+E 0 10012 0 1 A boundary warden ring is loaded on the left finger of a boundary warden
+E 0 10012 0 2 A boundary warden ring is loaded on the right finger of a boundary warden
+E 0 10013 0 7 Boundary warden leggings is loaded on the legs of a boundary warden
+M 0 10010 4 10008 1*Load a heart hound
+M 0 10010 4 10008 1*Load a heart hound
+M 0 10001 2 10009 1*Load A long-tailed gar
+M 0 10002 2 10009 1*Load a long-tailed gar
+M 0 10004 4 10009 1*Load a blood fly
+M 0 10004 4 10009 1*Load a blood fly
+M 0 10015 1 10010 1*Load a thief
+M 0 10011 1 10011 1*Load a speaker
+M 0 10012 2 10011 1*Load a happy villager
+M 0 10012 2 10011 1*Load a happy villager
+M 0 10013 1 10011 1*Load a healer
+M 0 10003 1 10012 1*Load a long-tailed gar
+M 0 10004 4 10012 1*Load a blood fly
+M 0 10016 2 10012 1*Load a beggar
+M 0 10016 2 10012 1*Load a beggar
+M 0 10001 2 10015 1*Load A long-tailed gar
+M 0 10002 2 10015 1*Load a long-tailed gar
+M 0 10004 4 10015 1*Load a blood fly
+M 0 10010 4 10015 1*Load a heart hound
+M 0 10010 4 10015 1*Load a heart hound
+E 0 10015 0 1 A heart hound collar is loaded on the left finger of a heart hound
+M 0 10026 4 10016 1*Load A yellow snake
+M 0 10026 4 10016 1*Load A yellow snake
+M 0 10026 4 10016 1*Load A yellow snake
+M 0 10026 4 10016 1*Load A yellow snake
+M 0 10014 2 10020 1*Load a boundary warden
+E 0 10001 0 16 A boundary warden's mace is loaded wielded of a boundary warden
+E 0 10006 0 9 Boundary warden gloves is loaded on the hands of a boundary warden
+E 0 10007 0 8 Boundary warden boots is loaded on the feet of a boundary warden
+E 0 10008 0 10 Boundary warden sleeves is loaded on the arms of a boundary warden
+E 0 10009 0 11 Boundary warden's shield is loaded as a shield of a boundary warden
+E 0 10010 0 5 Boundary warden's tunic is loaded on the body of a boundary warden
+E 0 10011 0 6 A boundary warden helmet is loaded over the head of a boundary warden
+G 0 10020 0 A boundary warden flail is given to a boundary warden
+G 0 10021 0 A boundary warden mace is given to a boundary warden
+G 0 10022 0 A boundary warden dagger is given to a boundary warden
+G 0 10019 0 A boundary warden sword is given to a boundary warden
+M 0 10025 1 10022 1*Load A little thief
+G 0 10014 0 A dark robe is given to A little thief
+E 0 10005 0 8 A pair of black boots is loaded on the feet of A little thief
+M 0 10028 1 10022 1*Load A dopey little cat
+G 0 10017 0 A big cookie! is given to A dopey little cat
+M 0 10023 1 10023 1*Load The bar tender
+G 0 10004 0 A jug 'o beer. is given to The bar tender
+G 0 10016 0 A magical leather pouch is given to The bar tender
+M 0 10024 4 10023 1*Load A drunken villager
+G 0 10004 0 A jug 'o beer. is given to A drunken villager
+M 0 10024 4 10023 1*Load A drunken villager
+M 0 10024 4 10023 1*Load A drunken villager
+M 0 10024 4 10023 1*Load A drunken villager
+M 0 10006 4 10025 1*Load a quad assassin
+M 0 10006 4 10025 1*Load a quad assassin
+M 0 10006 4 10025 1*Load a quad assassin
+M 0 10006 4 10025 1*Load a quad assassin
+M 0 10017 1 10026 1*Load The Bone Woman
+E 0 10002 0 4 The bone woman's necklace. is loaded around the neck (2) of The Bone Woman
+M 0 10018 3 10028 1*Load A nasty gripper
+G 0 10003 0 Some grippers teeth is given to A nasty gripper
+M 0 10018 3 10028 1*Load A nasty gripper
+M 0 10018 3 10029 1*Load A nasty gripper
+M 0 10019 2 10029 1*Load The SCaRy Shadow THinG
+M 0 10030 2 10029 1*Load A Devoter of Darken Rahl
+M 0 10019 2 10030 1*Load The SCaRy Shadow THinG
+M 0 10020 1 10031 1*Load The Spirit King
+M 0 10022 4 10032 1*Load An evil shadow person
+M 0 10027 2 10032 1*Load An underworld beast
+G 0 10018 0 A big piece of cake! is given to An underworld beast
+M 0 10027 2 10032 1*Load An underworld beast
+M 0 10022 4 10034 1*Load An evil shadow person
+M 0 10022 4 10034 1*Load An evil shadow person
+M 0 10021 1 10035 1*Load The Great Red Dragon
+E 0 10027 0 6      * crown of fire
+M 0 10029 2 10038 1*Load A Evil Mord-Sith
+E 0 10023 0 16 A mord-sith's agiel is loaded wielded of A Evil Mord-Sith
+E 0 10028 0 4 A plate of darkness
+M 0 10029 2 10040 1*Load A Evil Mord-Sith
+M 0 10030 2 10041 1*Load A Devoter of Darken Rahl
+M 0 10031 1 10042 1*Load The Evil Darken Rahl
+E 0 10024 0 14 The bracer of power is loaded on the left wrist of The Evil Darken Rahl
+S
+
+
+
+#SHOPS
+10023 0 0 0 0 0 100 0 0 23
+0
+
+#OMPROGS
+O 10027 wear_prog wear_prog_headguard
+O 10027 remove_prog remove_prog_headguard
+O 10028 wear_prog wear_prog_blackguard
+O 10028 remove_prog remove_prog_blackguard
+S
+
+#OLIMITS
+O 10027 1
+O 10028 2
+S
+
+
+#$

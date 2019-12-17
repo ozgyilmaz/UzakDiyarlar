@@ -2333,7 +2333,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 ( 20 + pc_race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i]) );
 	  ch->perm_stat[i] = UMIN(25, ch->perm_stat[i]);
 	  }
-
+		/*
 		sprintf(buf,"Güç:%s  Zek:%s  Bil:%s  Çev:%s  Bün:%s Kar:%s \n\r Kabul (E/H)? ",
         get_stat_alias(ch, STAT_STR),
         get_stat_alias(ch, STAT_INT),
@@ -2341,6 +2341,14 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
         get_stat_alias(ch, STAT_DEX),
         get_stat_alias(ch, STAT_CON),
         get_stat_alias(ch, STAT_CHA) );
+				*/
+		sprintf(buf,"Güç:%2d  Zek:%2d  Bil:%2d  Çev:%2d  Bün:%2d  Kar:%2d \n\r Kabul (E/H)? ",
+        get_curr_stat(ch, STAT_STR),
+        get_curr_stat(ch, STAT_INT),
+        get_curr_stat(ch, STAT_WIS),
+        get_curr_stat(ch, STAT_DEX),
+        get_curr_stat(ch, STAT_CON),
+        get_curr_stat(ch, STAT_CHA) );
 
 
 	do_help(ch,(char*)"stats");
@@ -2389,7 +2397,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 ( 20 + pc_race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i]) );
 	  ch->perm_stat[i] = UMIN(25, ch->perm_stat[i]);
 	  }
-
+		/*
 		sprintf(buf,"Güç:%s  Zek:%s  Bil:%s  Çev:%s  Bün:%s Kar:%s \n\r Kabul (E/H)? ",
         get_stat_alias(ch, STAT_STR),
         get_stat_alias(ch, STAT_INT),
@@ -2397,6 +2405,14 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
         get_stat_alias(ch, STAT_DEX),
         get_stat_alias(ch, STAT_CON),
         get_stat_alias(ch, STAT_CHA) );
+				*/
+		sprintf(buf,"Güç:%2d  Zek:%2d  Bil:%2d  Çev:%2d  Bün:%2d  Kar:%2d \n\r Kabul (E/H)? ",
+        get_curr_stat(ch, STAT_STR),
+        get_curr_stat(ch, STAT_INT),
+        get_curr_stat(ch, STAT_WIS),
+        get_curr_stat(ch, STAT_DEX),
+        get_curr_stat(ch, STAT_CON),
+        get_curr_stat(ch, STAT_CHA) );
 
 	    write_to_buffer(d, buf,0);
 	    d->connected = CON_ACCEPT_STATS;

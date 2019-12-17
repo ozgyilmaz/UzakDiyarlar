@@ -1,0 +1,3067 @@
+#AREA
+selenge_cezaevi.are~
+Selenge Cezaevi~
+{ 5 90} Flar     Selenge Cezaevi~
+32000 32100
+
+
+#MOBILES
+#32000
+kapýbekçisi kapý bekçi~
+kapýbekçisi~
+Kapýbekçisi burada, þekerleme yapýyor.
+~
+Oldukça iri bir bekçi görüyorsun. Horultusu güçlü ve ürkütücü.
+Sanýrým onu hemen öldürmeyi düþünüyorsun...
+~
+human~
+ABG 0 0 0
+6 0 2d7+71 5d5+100 1d7+1 pound
+4 4 4 8
+EFNU 0 0 0
+stand stand male 100
+0 0 medium 0
+#32001
+sýçan~
+sýçan~
+Bir sýçan kýçýnýn üstüne oturmuþ bir sonraki yemeðini düþünüyor.
+~
+Günlerdir birþey yememiþ... Þimdi SENÝ yemeyi düþünüyor.
+~
+rat~
+AG Q 0 0
+5 0 2d6+60 5d5+100 1d6+1 bite
+5 5 5 9
+F 0 0 0
+stand stand male 100
+0 0 medium 0
+#32002
+gardiyan~
+Gardiyan~
+Gardiyan burada, dalgýn görünmesine raðmen dikkatli.
+~
+Çýplak el dövüþü ve konuþturma yöntemleri (tabii ki iþkenceler) konularýnda
+özel eðitime sahip.
+~
+human~
+ACG 0 0 0
+65 0 50d10+8250 5d5+5000 11d5+35 pound
+-35 -35 -35 -5
+EFNU 0 0 0
+stand stand male 100
+0 0 medium 0
+#32003
+cezaevi iþçi~
+cezaevi iþçisi~
+Cezaevi iþçisi burada, mümkün olduðunca az çalýþmaya çalýþýyor.
+~
+Selenge'deki çöpçülere benziyor.
+~
+human~
+ACG DF 0 0
+9 0 2d6+110 5d5+100 1d8+2 slash
+2 2 2 7
+FIJ 0 0 0
+stand stand male 100
+0 0 medium 0
+#32004
+hücre gardiyaný~
+hücre gardiyaný~
+Hücre gardiyaný burada, yüzünde buz gibi bir gülümseme var.
+~
+Herþeyi cezaevi içinde tutmayý becerebilecek kadar güçlü.
+~
+human~
+ABG H 100 0
+65 0 50d10+8250 5d5+5000 11d5+35 pound
+-35 -35 -35 -5
+CDEFIKU 0 0 0
+stand stand male 100
+0 0 medium 0
+#32005
+mahkum~
+mahkum~
+Mahkum burada, oldukça umutsuz görünüyor.
+~
+Hergün deliler gibi çalýþtýrýlmaktan elleri yara olmuþ.
+~
+human~
+AG 0 0 0
+33 0 10d10+1100 5d5+1000 6d4+10 punch
+-11 -11 -11 3
+FKIJ 0 0 0
+stand stand male 100
+0 0 medium 0
+#32006
+hamamböceði~
+hamamböceði~
+Büyük bir hamamböceði burada, etrafý kolaçan ediyor.
+~
+Bu bünyeyi besleyebilmek için en azýndan her iki günde bir senin büyüklüðünde bir
+somun yemesi gerekiyor.
+~
+cockroach~
+AG 0 500 0
+8 0  2d7+96 5d5+100 1d7+2 bite
+3 3 3 8
+F 0 0 0
+stand stand none 100
+0 0 medium 0
+#32007
+hizmetkar~
+hizmetkar~
+Hizmetkar burada, birinin kendisine emir vermesini bekliyor.
+~
+Cezaevinin en düþük rütbeli çalýþaný. Rahatlýkla gebertebileceðin biri...
+~
+human~
+AGH 0 0 0
+13 0  2d10+170 5d5+100 2d5+3 punch
+-1 -1 -1 6
+F 0 0 0
+stand stand male 100
+0 0 medium 0
+#32008
+taþ muhafýz~
+taþ muhafýz~
+Muhafýz burada, taþ gibi duruyor.
+~
+Oldukça sert ve yoðun bir þekilde sigara kokuyor.
+~
+human~
+ABGH 0 0 0
+44 0 25d10+2750 5d5+1000 8d4+15 pound
+-15 -15 -15 2
+CDEFIJKU 0 0 0
+stand stand male 100
+0 0 medium 0
+#32009
+gangster~
+gangster~
+Gangster burada, hizmetkarlara emirler yaðdýrýyor.
+~
+Baþkana önerdiði rüþvetin azlýðý nedeniyle burada.
+~
+human~
+ACGH 0 0 0
+23 0  5d10+450 5d5+1000 3d6+6 punch
+-6 -6 -6 4
+FKIJ 0 0 0
+stand stand male 100
+0 0 medium 0
+#32010
+topuz müdür~
+Müdür Topuz~
+Müdür Topuz burada, öldürülecek mahkumlarýn listesini arýyor.
+~
+Giyim zevki ve hareketleriyle Selenge baþkanýna çok benziyor. Sapkýn
+düþleri ve hareketleriyle hem mahkumlarýn, hem gardiyanlarýn hem de
+Demay'ýn baþ belasý.
+~
+human~
+AG HU 0 0
+84 0 50d10+15500 5d5+5000 9d14+54 pound
+-54 -54 -54 -18
+FHIJK 0 0 0
+stand stand male 100
+0 0 medium 0
+#32011
+demay~
+sekreter Demay~
+Sekreter Demay burada, dosyalarla uðraþýyor.
+~
+Hergün gördüðün sekreterlerden. Güzel göðüsler ve sütun gibi bacaklar...
+~
+human~
+AB 0 1000 0
+40 0 15d10+1850 5d5+1000 4d8+13 slap
+-13 -13 -13 3
+0 0 0 0
+stand stand female 100
+FKIJ 0 medium 0
+#32012
+tamirci enre~
+Enre~
+Tamirci Enre burada, birþeylerle uðraþýyor.
+~
+Cezaevinin bütün onarým iþlerinin sorumlusu. Çalýþmayý pek sevmese de
+para kazanmak için yapabileceði baþka birþey yok.
+~
+human~
+ABG 0 0 0
+50 0 50d10+4250 5d5+5000 5d8+19 slap
+-20 -20 -20 0
+FIJK 0 0 0
+stand stand male 100
+0 0 medium 0
+#32013
+yardýmcý dot~
+Dot~
+Dot burada, Enre'nin yapmasý gerekenlerle uðraþýyor.
+~
+Enre'nin tembelliði yüzünden yapmadýðý iþlerle uðraþýyor. Bir yandan
+çalýþýyor, bir yandan da Enre'nin küfürlerini ve aþaðýlamalarýný dinliyor.
+~
+human~
+AG 0 0 0
+53 0 50d10+5000 5d5+5000 6d7+21 pound
+-23 -23 -23 -1
+CDEFIJK 0 0 0
+stand stand male 100
+0 0 medium 0
+#32014
+aþçý wendy~
+Wendy~
+Wendy burada, bir sonraki öðünde ne piþireceðini düþünüyor.
+~
+Uzun siyah saçlarýný topuz yapmýþ genç ve alýmlý bir bayan görüyorsun.
+Burada aþçý olarak çalýþmak onu memnun ediyor. Oðlu Yakup'u da hergün
+yanýnda getiriyor.
+~
+human~
+ABG HN 1000 0
+90 0 50d10+18500 5d5+5000 17d9+60 slap
+-60 -60 -60 -27
+CDEFIJK 0 0 0
+stand stand female 100
+0 0 medium 0
+#32015
+buhar canavarý~
+buhar canavarý~
+Garip bir canavar görüyorsun.
+~
+Iþýksýz bir ortamda bile rahatça görülebilecek kadar parlak. Ne iþ
+yapýyor, neden burada duruyor... Bütün bu sorularýn cevabýný ben
+biliyorum, ya sen bilmek ister misin?
+~
+monster~
+ABFG D 0 0
+30 0  6d12+853 5d5+1000 4d6+8 claw
+-9 -9 -9 3
+FNK 0 0 0
+stand stand none 100
+0 0 medium 0
+#32016
+zýrhçý Larry~
+Larry~
+Zýrhçý Larry burada, zýrhlarýný gösteriyor.
+~
+Üzerinde düþünülmesi gereken biri deðil.
+~
+human~
+ABG 0 0 0
+105 0 50d10+28500 5d5+5000 18d15+68 pound
+-81 -81 -81 -47
+CDEFHKN 0 D 0
+stand stand male 100
+0 0 medium 0
+#32017
+demirci gomas~
+Gomas~
+Demirci Gomas burada, yeni silahlar dövüyor.
+~
+Eski bir hücre muhafýzý. Þimdi ise silah üretimiyle uðraþýyor. Bu iþi
+yapmayý hakedecek bilgi ve beceriye sahip biri.
+~
+human~
+ABG 0 0 0
+105 0 50d10+28500 5d5+5000 18d15+68 pound
+-81 -81 -81 -47
+CDEFHKN 0 D 0
+stand stand male 100
+0 0 medium 0
+#32018
+biftek dilim~
+biftek dilimi~
+Bir biftek dilimi burada, hareket ediyor.
+~
+Biftek dilimini inceliyorsun. Sen ona bakarken o da yavaþ yavaþ
+uzaklaþmayý deniyor.
+~
+unknown~
+ABG 0 0 0
+1 0  2d6+10 5d5+100 1d4+0 slice
+9 9 9 10
+F 0 0 0
+stand stand male 100
+0 0 medium 0
+#32019
+dindar ermiþ~
+Dindar Ermiþ~
+Dindar bir Ermiþ görüyorsun, barýþ içinde elini tutuyor.
+~
+Uzaklardan, çook uzaklardan gelmiþ. Geldiði yerde insanlarýn güneþ
+altýnda kavrulduðundan bahsediyor.
+~
+human~
+ABGK HN 1000 0
+115 0 50d10+29500 5d5+5000 18d15+68 pound
+-91 -91 -91 -37
+CDEFHIJK B C 0
+stand stand male 100
+0 0 medium 0
+#32020
+havlucu çocuk~
+havlucu~
+Havlucu çocuk burada, sýrtýný duvara dayamýþ duruyor.
+~
+Ne kadar berbat bir iþ!! Onun görevi uþu kullananlara havlu yetiþtirmek.
+~
+human~
+ABG JN 0 0
+5 0 2d6+60 5d5+100 1d6+1 pound
+5 5 5 9
+FK 0 0 0
+stand stand male 100
+0 0 medium 0
+#32021
+cellat~
+Cellat~
+Cellat burada, birilerini öldürmek için son hazýrlýklarýný yapýyor.
+~
+Onun ne bir yüzü, ne de bir ruhu var. O yaþý bilinmeyen bir iblis.
+~
+human~
+ABG HJN -1000 0
+100 20 50d10+28500 5d5+5000 18d15+88 pound
+-91 -91 -91 -37
+EFHKN 0 0 0
+stand stand male 100
+0 0 medium 0
+#32022
+þey siyah~
+Siyah Þey~
+Siyah bir Þey burada duruyor.
+~
+Ýçinde ve dýþýnda gökkuþaðýndaki renklerin soluk izlerinin oynaþtýðý
+siyah bir kütle görüyorsun. Onun ne olduðunu inan ben de bilmiyorum....
+~
+unknown~
+ABFG J 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 magic
+-13 -13 -13 3
+FK 0 0 0
+stand stand none 100
+0 0 medium 0
+#32023
+tunç ejderha~
+Tunç Ejderha~
+Büyük, tunç bir ejderha görüyorsun, her nefes alýþýnda sanki gök gürlüyor.
+~
+O bir seferde algýlanamayacak kadar büyük... Burada iþi ne?!
+~
+dragon~
+AG BDFHJPU 1000 0
+1 0  2d6+10 5d5+100 1d4+0 claw
+9 9 9 10
+F 0 0 0
+stand stand male 100
+0 0 huge 0
+#32024
+terry~
+Terry~
+Kimyager Terry burada.
+~
+Çevre Kimya Endüstrisi için çalýþan genç bir kimyager görüyorsun. Stif'e
+kimyasal maddeleri satan adam bu olmalý.
+~
+human~
+ACH DH 0 0
+50 0 50d10+4250 5d5+5000 5d8+19 pound
+-20 -20 -20 0
+BCDEFIJK 0 C 0
+stand stand male 100
+0 0 medium 0
+
+#0
+
+
+#OBJECTS
+#32000
+kapý anahtar~
+kapý anahtarý~
+Metal bir anahtar burada duruyor.~
+iron~
+key B AO
+0 0 0 0 0
+5 0 0 P
+#32001
+kýsa kýlýç~
+kýsa kýlýç~
+Tehlikeli bir kýsa kýlýç burada dinleniyor.~
+steel~
+weapon 0 AN
+sword 1 6 slash 0
+5 5 100 P
+A
+18 1
+A
+19 1
+#32002
+sigara paketi~
+bir paket sigara~
+Bir paket sigara burada düþürülmüþ.
+~
+unknown~
+armor BE AO
+3 3 3 0 0
+10 0 0 P
+A
+2 -2
+A
+18 2
+E
+sigara paket~
+Yasal Uyarý: Sigara Saðlýða Zararlýdýr.~
+#32003
+bez parça~
+bez parçasý~
+Tozlu bir bez burada duruyor.
+~
+unknown~
+trash H A
+0 1 6 11 P
+20 0 0 P
+#32004
+yaðlý ip~
+yaðlý ip~
+Bir yaðlý ip görüyorsun.
+~
+unknown~
+weapon AGJL AN
+exotic 4 4 pound 0
+11 10 10 P
+A
+19 1
+A
+4 1
+#32005
+çanta~
+çanta~
+Güzel bir çanta burada duruyor.
+~
+leather~
+container FG AO
+300 0 0 11 100
+0 10 10 P
+#32006
+kor yüzük~
+kor yüzük~
+Güzel bir yüzük burada dinleniyor.
+~
+unknown~
+treasure 0 AB
+0 0 0 0 0
+1 5 0 P
+A
+1 1
+A
+13 12
+#32007
+zarif yüzük~
+zarif yüzük~
+Zarif bir yüzük burada, yerde dinlenmenin tadýný çýkarýyor.
+~
+unknown~
+treasure 0 AB
+0 0 0 0 0
+1 5 0 P
+A
+1 1
+A
+13 6
+#32008
+zarif kaftan~
+zarif kaftan~
+Zarif bir kaftan burada, yeni sahibini bekliyor.
+~
+leather~
+armor 0 AK
+2 0 0 0 0
+1 5 0 P
+A
+4 1
+A
+12 5
+#32009
+sýçan eti~
+sýçan eti~
+Lezzetli bir sýçan eti parçasý burada duruyor.
+~
+food~
+food 0 A
+8 6 0 A 0
+0 1 0 P
+#32010
+zarif fular~
+zarif fular~
+Zarif bir fular burada, yeni sahibini bekliyor.
+~
+leather~
+armor 0 AC
+2 0 0 0 0
+1 5 0 P
+#32011
+zarif gömlek~
+zarif gömlek~
+Zarif bir gömlek burada, yeni sahibini bekliyor.
+~
+leather~
+armor 0 AD
+2 0 0 0 0
+1 5 0 P
+#32012
+zarif miðfer~
+zarif miðfer~
+Zarif bir miðfer burada, yeni sahibini bekliyor.
+~
+steel~
+armor 0 AE
+2 0 0 0 0
+1 5 0 P
+#32013
+zarif bacaklýk~
+bir çift zarif bacaklýk~
+Bir çift zarif bacaklýk burada, yeni sahibini bekliyor.
+~
+steel~
+armor 0 AF
+2 0 0 0 0
+1 5 0 P
+#32014
+zarif çizme~
+bir çift zarif çizme~
+Bir çift zarif çizme burada, yeni sahibini bekliyor.
+~
+leather~
+armor 0 AG
+2 0 0 0 0
+1 5 0 P
+#32015
+zarif eldiven~
+bir çift zarif eldiven~
+Bir çift zarif eldiven burada, yeni sahibini bekliyor.
+~
+leather~
+armor 0 AH
+2 0 0 0 0
+1 5 0 P
+#32016
+zarif kolluk~
+bir çift zarif kolluk~
+Bir çift zarif kolluk burada, yeni sahibini bekliyor.
+~
+steel~
+armor 0 AI
+2 0 0 0 0
+1 10 0 P
+#32017
+zarif kalkan~
+zarif kalkan~
+Bir zarif kalkan burada, yeni sahibini bekliyor.
+~
+steel~
+armor 0 AJ
+2 0 0 0 0
+1 10 0 P
+#32018
+zarif kemer~
+zarif kemer~
+Bir zarif kemer burada, yeni sahibini bekliyor.
+~
+leather~
+container 0 AK
+100 0 0 5 100
+3 5 0 P
+A
+19 1
+A
+18 1
+A
+13 10
+#32019
+zarif bileklik~
+zarif bileklik~
+Bir zarif bileklik burada düþürülmüþ.
+~
+leather~
+armor 0 AM
+2 0 0 0 0
+1 5 0 P
+#32020
+hanor parlak~
+parlak hanor~
+Üzerinde 'parlak hanor' yazan birþey burada býrakýlmýþ.
+~
+unknown~
+treasure 0 AO
+2 0 0 0 0
+5 10 110 P
+A
+4 1
+A
+5 1
+#32021
+bavul mahkum~
+mahkum bavulu~
+Bir mahkum bavulu burada unutulmuþ.
+~
+unknown~
+container 0 AO
+75 0 0 5 100
+5 10 0 P
+#32022
+heykelli çeþme~
+heykelli çeþme~
+Mervie'ye itafen yapýlan bir heykelli çeþme görüyorsun.
+~
+marble~
+fountain A 0
+1100 1100 'water' 0 0
+0 0 0 P
+E
+çeþme heykel~
+Tunçtan yapýlmýþ büyük bir heykel. Elinde uzun bir sopa, sýrtýnda oklarýný
+koyduðu deri bir çanta ve çapraz astýðý yayýyla Mervie'yi görüyorsun...
+Saygýyla anýyorsun. Þimdi su içebilirsin.~
+#32023
+buruþmuþ kaðýt~
+buruþmuþ kaðýt~
+Buruþmuþ bir kaðýt burada býrakýlmýþ.
+~
+paper~
+treasure 0 A
+0 0 0 0 0
+0 10 0 P
+E
+kaðýt~
+Seni terkediyorum.
+Diana~
+#32024
+masa~
+masa~
+Üzeri kaðýtla kaplý bir masa görüyorsun.
+~
+wood~
+container 0 0
+1000 0 0 50 100
+0 0 0 0
+#32025
+hücre anahtar~
+hücre anahtarý~
+Metal bir hücre anahtarý burada duruyor.
+~
+iron~
+key 0 A
+0 0 0 0 0
+15 0 0 P
+#32026
+çivili deðnek~
+çivili deðnek~
+Çivili bir deðnek burada, yeni sahibini bekliyor.
+~
+unknown~
+wand 0 AO
+13 6 6 'faerie fire' 0
+5 5 110 P
+#32027
+taklit elmas~
+taklit elmas~
+Iþýl ýþýl bir elmas burada duruyor.
+~
+unknown~
+treasure 0 AO
+0 1 6 0 0
+0 10 10 P
+#32028
+süpürge~
+süpürge~
+Duvara dayanmýþ bir süpürge görüyorsun.
+~
+unknown~
+weapon 0 AN
+exotic 2 4 pierce 0
+5 5 10 P
+#32029
+savaþ balta~
+savaþ baltasý~
+Bir savaþ baltasý burada, yeni bir sahip bekliyor.
+~
+steel~
+weapon 0 AN
+axe 5 7 chop 0
+30 0 0 P
+A
+17 -10
+A
+19 3
+#32030
+çivili bileklik~
+çivili bileklik~
+Çivili bir bileklik burada, yeni bir sahip istiyor.
+~
+unknown~
+armor 0 AM
+20 21 20 20 0
+60 10 100 P
+A
+13 50
+A
+12 50
+A
+17 -20
+A
+18 5
+A
+19 5
+#32031
+titanyum bacaklýk~
+bir çift titanyum bacaklýk~
+Yerde bekleyen güçlü bacaklýklar görüyorsun.
+~
+titanium~
+armor 0 AF
+28 26 26 16 0
+60 15 100 P
+A
+17 -15
+A
+24 -15
+#32032
+titanyum kolluk~
+bir çift titanyum kolluk~
+Yerde bekleyen güçlü kolluklar görüyorsun.
+~
+titanium~
+armor 0 AI
+25 25 26 20 0
+60 5 100 P
+A
+1 3
+#32033
+mahkum elbise~
+mahkum elbisesi~
+Bir mahkum elbisesi burada, yeni bir mahkum bekliyor.
+~
+leather~
+armor 0 AK
+6 6 7 5 0
+20 5 10 P
+A
+2 3
+#32034
+titanyum kalkan~
+titanyum kalkan~
+Yerde saðlam bir kalkan görüyorsun.
+~
+titanium~
+armor 0 AJ
+29 29 28 20 0
+60 35 1000 P
+A
+19 10
+#32035
+kama eðri~
+eðri kama~
+Eðri bir kama burada, yeni bir suikast bekliyor.
+~
+steel~
+weapon EFJ AN
+dagger 8 8 pierce 0
+64 5 1000 P
+A
+18 10
+A
+19 4
+#32036
+karasý zift yüzük muhafýz~
+zift karasý bir yüzük~
+Kara bir yüzük burada unutulmuþ.
+~
+unknown~
+armor ABFG AB
+18 18 19 10 0
+30 5 1000 P
+A
+17 -30
+A
+13 200
+#32037
+demir kelepçe~
+demir kelepçe~
+Yerde saðlam, demir bir kelepçe görüyorsun.
+~
+iron~
+armor M AM
+1 1 1 0 0
+1 5 0 P
+A
+14 -200
+A
+9 2
+#32038
+enerji deðnek~
+bir enerji deðneði~
+Ev yapýmý bir deðnek burada unutulmuþ.
+~
+unknown~
+wand 0 AO
+15 8 8 'high explosive' 0
+5 5 10 P
+#32039
+altýn sikke~
+bir yýðýn altýn sikke~
+Bir yýðýn altýn sikke burada unutulmuþ. ÞANSA BAK!!!
+~
+gold~
+money 0 A
+1500 0 0 0 0
+0 0 0 P
+#32040
+pullu pembe çizme~
+bir çift pullu pembe çizme~
+Bir çift pullu pembe çizme burada unutulmuþ.
+~
+unknown~
+armor 0 AG
+26 26 26 16 0
+80 5 1000 P
+A
+2 5
+#32041
+pembe kaþkol~
+pembe kaþkol~
+Pembe bir kaþkol burada unutulmuþ.
+cashmire~
+armor 0 AC
+20 20 20 10 0
+60 5 1000 P
+A
+17 -10
+#32042
+mutfak önlük~
+mutfak önlüðü~
+Bir mutfak önlüðü burada býrakýlmýþ.
+~
+unknown~
+armor M AD
+12 12 12 10 0
+36 10 10 P
+A
+9 -10
+A
+19 3
+#32043
+iþçi tulum~
+iþçi tulumu~
+Bir iþçi tulumu burada býrakýlmýþ.
+~
+unknown~
+armor BF AK
+15 15 15 5 0
+48 10 1100 P
+A
+1 3
+A
+13 100
+#32044
+þapka~
+þapka~
+Garip bir þapka burada býrakýlmýþ.
+~
+unknown~
+armor 0 AE
+15 16 16 10 0
+48 2 10 P
+A
+14 200
+A
+24 10
+#32045
+iþçi kemer~
+iþçi kemeri~
+Bir iþçi kemeri burada býrakýlmýþ.
+~
+unknown~
+armor 0 AL
+16 17 15 10 0
+50 5 50 P
+A
+5 3
+#32046
+altýn saç file~
+altýn saç filesi~
+Altýndan bir saç filesi burada býrakýlmýþ.
+~
+gold~
+armor 0 AE
+26 27  26 18 0
+80 45 3000 P
+A
+4 2
+A
+3 2
+A
+2 2
+A
+1 2
+A
+5 2
+A
+13 200
+#32047
+bebek yakup~
+bebek yakup~
+Bebek Yakup burada yatýyor.
+~
+stone~
+light 0 0
+0 0 0 0 0
+40 5 50 P
+#32048
+parþömen inanç~
+Ýnanç parþömeni~
+Bir parþömen burada unutulmuþ.
+~
+vellum~
+scroll 0 A
+60 'word of recall' '' '' ''
+40 5 50 P
+#32049
+önlük~
+önlük~
+Biri burada bir önlük býrakmýþ.
+~
+unknown~
+armor 0 AK
+27 26 25 20 0
+80 5 0 P
+A
+4 1
+A
+14 -500
+#32050
+muzlu pasta~
+muzlu pasta~
+Bir paket muzlu pasta burada býrakýlmýþ.
+~
+food~
+food H A
+6 6 0 0 0
+0 5 0 P
+#32051
+kara miðfer~
+kara miðfer~
+Kara bir miðfer burada býrakýlmýþ.
+~
+iron~
+armor ABFKL AE
+30 30 30 20 0
+90 25 110 P
+A
+19 10
+#32052
+balta yýkým~
+YýKýM BalTaSý~
+Üzerinde kan izleri olan bir balta görüyorsun.
+~
+steel~
+weapon BFG AN
+axe 11 11 chop DE
+90 30 0 P
+A
+17 120
+A
+19 10
+#32053
+çöp kutu~
+çöp kutusu~
+Bir çöp kutusu görüyorsun. Üzerinde kocaman harflerle 'ÇÖP' yazýyor.
+~
+bronze~
+container 0 0
+200 0 0 6 100
+0 0 0 P
+#32054
+idam sehpasý~
+idam sehpasý~
+Bir idam sehpasý görüyorsun. Üzerine oturup dinlenmeye ne dersin?
+~
+iron~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#32055
+kopmuþ kafa~
+kopmuþ kafa~
+Odanýn köþesinde kopmuþ bir kafa duruyor.
+~
+unknown~
+pill 0 0
+1 '' '' '' ''
+5 5 0 P
+#32056
+paslý duþ~
+paslý duþ~
+Paslanmýþ bir duþ görüyorsun.
+~
+stone~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 P
+#32057
+siyah hap~
+siyah hap~
+Siyah bir hap görüyorsun, yerde tozlanýyor.
+~
+unknown~
+pill 0 A
+10 'cure light' 'cure serious' 'sanctuary' ''
+5 20 500 P
+#32058
+berbat duman þiþe~
+bir þiþe berbat duman~
+Yerde dumanlý bir iksir görüyorsun.
+~
+glass~
+potion 0 A
+8 'fly' 'refresh' '' ''
+2 25 10 P
+#32059
+rünlü asa~
+rünlü asa~
+Meþe aðacýndan rünlü bir asa burada býrakýlmýþ.
+~
+wood~
+staff 0 AO
+12 8 8 'armor' 0
+5 5 0 P
+#32060
+varil~
+varil~
+55 galonluk bir varil burada býrakýlmýþ.
+~
+unknown~
+furniture A A
+0 0 0 0 0
+0 10 100 P
+#32061
+deri çanta~
+deri çanta~
+Deri bir çanta burada býrakýlmýþ.
+~
+leather~
+container 0 AJ
+50 0 0 5 100
+5 10 10 P
+A
+17 -12
+#32062
+kalem~
+kalem~
+Burada býrakýlmýþ bir kalem görüyorsun.
+~
+unknown~
+armor F AO
+16 17 16 9 0
+50 10 10 P
+A
+19 3
+A
+18 3
+A
+13 30
+A
+12 50
+#32063
+levha~
+levha~
+Garip bir levha burada býrakýlmýþ.
+~
+unknown~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#32064
+levha~
+levha~
+Garip bir levha burada býrakýlmýþ.
+~
+unknown~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#32065
+ec50 deðnek~
+EC50 deðneði~
+Üzerinde tetikleme mekanizmasý bulunan garip bir deðnek burada unutulmuþ.
+~
+unknown~
+wand 0 AO
+15 5 5 'fireball' 0
+10 10 1500 P
+#32067
+zarif yüzük~
+zarif yüzük~
+Zarif bir yüzük burada, yerde dinlenmenin tadýný çýkarýyor.
+~
+unknown~
+treasure 0 AB
+0 0 0 0 0
+1 8 0 P
+A
+1 1
+A
+13 6
+#32068
+zarif fular~
+zarif fular~
+Zarif bir fular burada, yeni sahibini bekliyor.
+~
+unknown~
+armor 0 AC
+2 0 0 0 0
+1 5 0 P
+#32069
+zarif bileklik~
+zarif bileklik~
+Bir zarif bileklik burada düþürülmüþ.
+~
+unknown~
+armor 0 AM
+2 1 0 0 0
+1 5 0 P
+#32070
+geniþ masa~
+geniþ bir masa~
+Geniþ bir masa odanýn köþesinde duruyor.
+~
+unknown~
+container 0 0
+200 0 0 0 0
+0 0 0 P
+#32071
+fildiþi çeþme~
+fildiþi çeþme~
+Fildiþinden yapýlmýþ büyük bir çeþme görüyorsun.
+~
+ivory~
+fountain A 0
+100 100 'water' 0 0
+0 0 0 0
+#0
+
+
+#ROOMS
+#32000
+Selenge Cezaevi Giriþi~
+Ürkütücü bir binanýn gölgesinde duruyorsun. Hiç penceresi yok. Iþýðýn
+içeri girebilmesi için yarýklar kullanýlmýþ. Uzaktan gelen bir çýðlýk
+tüylerini diken diken etmeye yetiyor.
+~
+0 C 1
+D0
+~
+~
+0 -1 32001
+D1
+Selenge Cezaevi
+~
+~
+0 -1 3100
+S
+#32001
+Selenge Cezaevi~
+Büyük cezaevinin önündesin. Bu büyük yapý içeri girenlerin dýþarý
+çýkmasýna izin vermiyormuþ gibi görünüyor. Kuzeyde paslý, büyük bir
+kapý, duvarda ise bir tabela var.
+~
+0 0 1
+D0
+paslý kapý~
+kapý~
+2 32000 32002
+D2
+~
+~
+0 -1 32000
+E
+tabela~
+*****************************************
+*  Selenge Cezaevine Hoþgeldiniz.  *
+*****************************************
+~
+S
+#32002
+Aydýnlýk Kesiþim~
+Cezaevinin merkez kavþaðýndasýn. Doðu ve batý oldukça aydýnlýk,
+kuzeyde ise karanlýk bir koridor uzuyor.
+~
+0 0 0
+D0
+~
+~
+0 -1 32003
+D1
+~
+~
+0 -1 32026
+D2
+~
+~
+0 -1 32001
+D3
+~
+~
+0 -1 32011
+S
+#32003
+Karanlýk Kesiþim~
+karanlýk bir kavþaktasýn. Doðu ve batýda hücre bloklarý var. Koridor
+kuzey ve güneye devam ediyor.
+~
+0 A 0
+D0
+~
+~
+0 -1 32004
+D1
+~
+~
+0 -1 32052
+D2
+~
+~
+0 -1 32002
+D3
+~
+~
+0 -1 32041
+S
+#32004
+Uzun Koridor~
+Uzun bir koridordasýn. Doðudan garip bir koku geliyor. Koridor kuzeye
+devam ediyor.
+~
+0 0 0
+D0
+~
+~
+0 -1 32005
+D1
+~
+~
+0 -1 32084
+D2
+~
+~
+0 -1 32003
+S
+#32005
+Uzun Koridor~
+Uzun bir koridordasýn. Koridor kuzeye ve güneye devam ediyor.
+~
+0 0 0
+D0
+~
+~
+0 -1 32006
+D2
+~
+~
+0 -1 32004
+S
+#32006
+Uzun Koridor~
+Uzun bir koridordasýn. Batýdan keskin ve hoþ bir koku geliyor.
+Koridor kuzeye ve güneye devam ediyor.
+~
+0 0 0
+D0
+~
+~
+0 -1 32007
+D2
+~
+~
+0 -1 32005
+D3
+~
+~
+0 -1 32086
+S
+#32007
+Uzun Koridor~
+Uzun bir koridordasýn. Koridor kuzeye ve güneye devam ediyor.
+~
+0 D 0
+D0
+~
+~
+0 -1 32008
+D2
+~
+~
+0 -1 32006
+S
+#32008
+Uzun Koridor~
+Uzun bir koridordasýn. Koridor kuzeye ve güneye devam ediyor.
+Doðu ve batýda bölüm avlularýný görüyorsun.
+~
+0 0 0
+D0
+~
+~
+0 -1 32009
+D1
+~
+~
+0 -1 32063
+D2
+~
+~
+0 -1 32007
+D3
+~
+~
+0 -1 32073
+D4
+~
+~
+1 -1 32010
+S
+#32009
+Celladýn Odasý~
+Burasý birçok mahkumun gördüðü son odadýr. Odanýn ortasýnda idamda
+kullanýlan bir giyotin var. Leþ kokusu ciðerlerini yakýyor.
+~
+0 0 0
+D2
+~
+~
+0 -1 32008
+S
+#32010
+Þafinin Gizli Odasý~
+Bir din adamýnýn gizli odasýndasýn. Etraf dini eþyalarla dolu.
+Burasý oldukça huzurlu bir yer.
+~
+0 0 0
+D5
+~
+~
+1 -1 32008
+S
+#32011
+Sessiz Koridor~
+Sessiz bir koridordasýn. Duvarda belediye baþkanýnýn büyük bir
+tablosu var.
+~
+0 0 0
+D1
+~
+~
+0 -1 32002
+D3
+~
+~
+0 -1 32012
+E
+baþkan belediye tablo~
+Tablo büyük bir özenle þehirli bir ressam tarafýndan yapýlmýþ.
+Tablonun altýnda ressamýn imzasýný görüyorsun.~
+S
+#32012
+Sessiz Koridor~
+Sessiz bir koridordasýn. Güneyde bir kapý var.
+~
+0 0 0
+D1
+~
+~
+0 -1 32011
+D2
+~
+~
+1 -1 32013
+D3
+~
+~
+0 -1 32014
+S
+#32013
+Silah odasý~
+Silah Odasýndasýn. Muhafýzlar görevleri bittiðinde ekipmanlarýný
+burada býrakýyorlar. Tezgahýn arkasýndaki rafta asýlý kýlýçlar ve
+baltalar görüyorsun.
+~
+0 0 0
+D0
+~
+~
+0 -1 32012
+S
+#32014
+Sessiz Koridor~
+Sessiz bir koridordasýn. Koridor doðuya ve batýya ilerliyor.
+~
+0 0 0
+D1
+~
+~
+0 -1 32012
+D3
+~
+~
+0 -1 32015
+S
+#32015
+Kabul Salonu~
+Merkez kabul salonundasýn. Rahat bir divanla bir su çeþmesi görüyorsun.
+Güneyde idare koridorunu görüyorsun.
+~
+0 0 0
+D0
+~
+~
+1 -1 32016
+D1
+~
+~
+0 -1 32014
+D2
+~
+~
+0 -1 32020
+D3
+~
+~
+0 -1 32017
+S
+#32016
+Malzeme Odasý~
+küçük bir malzeme odasýndasýn. Raflarda süpürgeler, bezler ve baþka
+temizlik ekipmanlarý görüyorsun.
+~
+0 A 0
+D2
+~
+~
+1 -1 32015
+S
+#32017
+Sarmal Merdiven~
+Taþtan yapýlmýþ sarmal bir merdivendesin. Keskin bir koku ciðerlerini
+yakýyor. Bu yanan Cannibus olabilir mi?
+~
+0 0 0
+D1
+~
+~
+0 -1 32015
+D4
+~
+~
+0 -1 32018
+S
+#32018
+Sarmal Merdiven~
+Taþtan yapýlmýþ sarmal bir merdivendesin. Yukarýda birilerinin kahkaha
+attýðýný duyuyorsun. Cannibus'un kokusu gittikçe aðýrlaþýyor.
+~
+0 0 0
+D4
+~
+~
+0 -1 32019
+D5
+~
+~
+0 -1 32017
+S
+#32019
+Dumanlý Kule~
+Dumanýn içinde aldýðýn derin nefesler yüzünden baþýn dönüyor. Aman
+tanrým, bir pencere yok mu burada?!
+~
+0 0 0
+D5
+~
+~
+0 -1 32018
+S
+#32020
+Ýdare Koridoru~
+Ýdare koridorundasýn. Koridor kuzey ve güneye devam ediyor.
+~
+0 0 0
+D0
+~
+~
+0 -1 32015
+D2
+~
+~
+0 -1 32021
+S
+#32021
+Ýdare Koridoru~
+Ýdare koridorundasýn. Koridor kuzey ve güneye devam ediyor.
+~
+0 0 0
+D0
+~
+~
+0 -1 32020
+D2
+~
+~
+0 -1 32022
+S
+#32022
+Ýdare Koridoru~
+Ýdare koridorundasýn. Koridor kuzey ve güneye devam ediyor.
+~
+0 0 0
+D0
+~
+~
+0 -1 32021
+D2
+~
+~
+0 -1 32023
+S
+#32023
+Ýdare Koridoru~
+Ýdare koridorundasýn. Güneyden yazý yazan birinin sesi geliyor.
+~
+0 0 0
+D0
+~
+~
+0 -1 32022
+D2
+~
+~
+0 -1 32024
+S
+#32024
+Cezaevi Müdürünün Ofisi~
+Cezaevi müdürünün ofisindesin. Odada hoþ bir koku hakim.
+~
+0 0 0
+D0
+~
+~
+0 -1 32023
+D3
+~
+~
+0 -1 32025
+S
+#32025
+Cezaevi Müdürünün Odasý~
+Cezaevi müdürünün odasýndasýn. Duvarda idam ettiði mahkumlarýn
+tablolarý asýlý. Bu manyak bir mahkumu öldürmeden önce resmini mi
+yaptýrýyormuþ!!!
+~
+0 0 0
+D1
+~
+~
+0 -1 32024
+S
+#32026
+Sessiz Koridor~
+Sessiz bir koridordasýn. Duvarda müdür Brad'in büyük bir tablosu var.
+Koridor doðuya ve batýya ilerliyor.
+~
+0 0 0
+D1
+~
+~
+0 -1 32027
+D3
+~
+~
+0 -1 32002
+E
+topuz tablo müdür~
+Tabloda tek gördüðün öldürmekten zevk alan, hatta sýrf eðlence için
+kafa koparan bir zorbanýn figürü.~
+S
+#32027
+Sessiz Koridor~
+Sessiz bir koridordasýn. Güneyde bir kapý var.
+~
+0 0 0
+D1
+~
+~
+0 -1 32029
+D2
+~
+~
+1 -1 32028
+D3
+~
+~
+0 -1 32026
+S
+#32028
+Zýrh Odasý~
+Zýrh Odasýndasýn. Muhafýzlar zýrh ekipmanlarýný buradan alýyor ve
+iþleri bittiðinde tekrar buraya býrakýyorlar. Tezgahýn arkasýnda
+asýlý kalkanlar görüyorsun.
+~
+0 0 0
+D0
+~
+~
+1 -1 32027
+S
+#32029
+Üçlü Kavþak~
+Üçlü bir kavþaktasýn. Onarým koridoru güneye, loþ koridor ise doðuya
+uzanýyor.
+~
+0 0 0
+D1
+~
+~
+0 -1 32030
+D2
+~
+~
+0 -1 32035
+D3
+~
+~
+0 -1 32027
+S
+#32030
+Loþ Koridor~
+Loþ koridordasýn. Birinin duvardaki meþaleleri yakmasý gerektiðini
+düþünüyorsun.
+~
+0 A 0
+D0
+~
+~
+1 -1 32031
+D1
+~
+~
+0 -1 32032
+D3
+~
+~
+0 -1 32029
+S
+#32031
+Malzeme Odasý~
+Küçük bir malzeme odasýndasýn. Burada ne bez, ne de süpürge var.
+~
+0 0 0
+D2
+~
+~
+1 -1 32030
+S
+#32032
+Sarmal merdiven~
+Taþtan yapýlmýþ sarmal bir merdivenin altýndasýn. Yukarýdan gelen
+tütün kokusunu alabiliyorsun.
+~
+0 0 0
+D3
+~
+~
+0 -1 32030
+D4
+~
+~
+0 -1 32033
+S
+#32033
+Sarmal merdiven~
+Taþtan yapýlmýþ sarmal bir merdivendesin. Yukarýdan küfür ve kahkaha
+sesleri geliyor.
+~
+0 0 0
+D4
+~
+~
+0 -1 32034
+D5
+~
+~
+0 -1 32032
+S
+#32034
+Sinsi Kule~
+Sarmal merdivenin tepesindesin. Her taraf ansiklopedi dolu. Son
+zamanlarda sadece üzerine oturup kumar oynamak için kullanýlmýþlar.
+~
+0 0 0
+D5
+~
+~
+0 -1 32033
+S
+#32035
+Onarým Bölümü Koridoru~
+Onarým bölümü koridorundasýn. Burnuna boya ve gaz kokusu geliyor.
+~
+0 0 0
+D0
+~
+~
+0 -1 32029
+D2
+~
+~
+0 -1 32036
+S
+#32036
+Onarým Bölümü Koridoru~
+Onarým bölümü koridorundasýn. Burnuna boya ve gaz kokusu geliyor.
+~
+0 0 0
+D0
+~
+~
+0 -1 32035
+D2
+~
+~
+0 -1 32037
+S
+#32037
+Onarým Bölümü Koridoru~
+Onarým bölümü koridorundasýn. Burnuna boya ve gaz kokusu geliyor.
+~
+0 0 0
+D0
+~
+~
+0 -1 32036
+D2
+~
+~
+0 -1 32038
+S
+#32038
+Onarým Bölümü Koridoru~
+Onarým bölümü koridorundasýn. Güneyde bir kapý, duvarda ise bir
+tabela var.
+~
+0 0 0
+D0
+~
+~
+0 -1 32037
+D2
+~
+~
+1 -1 32039
+E
+tabela~
+          **** DÝKKAT ****
+Satýcýlar randevu alýnmadan görülemez.
+    Aksi takdirde cezasý ÖLÜMdür.
+                             -yönetim.~
+S
+#32039
+Onarým Bölümü Odasý~
+Onarým ekipman ve malzemeleriyle dolu bir odadasýn. Onlarca kilo
+harç malzemesi ve boya görüyorsun.
+~
+0 0 0
+D0
+~
+~
+1 -1 32038
+D1
+~
+~
+0 -1 32040
+S
+#32040
+Buhar Odasý~
+Buhar Odasýndasýn. Öyle sýcak ki buharlaþmaktan korkuyorsun.
+~
+0 0 0
+D3
+~
+~
+0 -1 32039
+S
+#32041
+Muhafýz Odasý~
+Muhafýz odasýndasýn. Batýda kilitli kocaman bir kapý var.
+~
+0 0 0
+D1
+~
+~
+0 -1 32003
+D3
+~
+~
+2 32025 32042
+S
+#32042
+Hücre Bloðu~
+Ýþte canlýlarý içine alan ve çýkmalarýný engelleyen mekanizma.
+Acaba sen çýkabilecek misin? Kuzey ve güneyde hücreler var.
+~
+0 AN 0
+D0
+~
+~
+1 -1 32050
+D1
+~
+~
+2 -1 32041
+D2
+~
+~
+1 -1 32051
+D3
+~
+~
+0 -1 32043
+S
+#32043
+Hücre Bloðu~
+Ýþte canlýlarý içine alan ve çýkmalarýný engelleyen mekanizma.
+Acaba sen çýkabilecek misin? Kuzey ve güneyde hücreler var.
+~
+0 AN 0
+D0
+~
+~
+1 -1 32048
+D1
+~
+~
+0 -1 32042
+D2
+~
+~
+1 -1 32049
+D3
+~
+~
+0 -1 32044
+S
+#32044
+Hücre Bloðu~
+Ýþte canlýlarý içine alan ve çýkmalarýný engelleyen mekanizma.
+Acaba sen çýkabilecek misin? Kuzey ve güneyde hücreler, batýda
+ise küçük bir bölüm var.
+~
+0 AN 0
+D0
+~
+~
+1 -1 32046
+D1
+~
+~
+0 -1 32043
+D2
+~
+~
+1 -1 32047
+D3
+~
+~
+0 -1 32045
+S
+#32045
+Küçük Bölüm~
+Tamamen iþe yaramaz bir oda.........
+~
+0 AN 0
+D1
+~
+~
+0 -1 32044
+S
+#32046
+Hücre~
+Bir hücredesin. Yerde biraz saman, duvarda týrnak izleri var.
+~
+0 AN 0
+D2
+~
+~
+1 -1 32044
+S
+#32047
+Hücre~
+Bir hücredesin. Yerde biraz saman, duvarda týrnak izleri var.
+~
+0 AN 0
+D0
+~
+~
+1 -1 32044
+S
+#32048
+Hücre~
+Bir hücredesin. Yerde biraz saman, duvarda týrnak izleri var.
+~
+0 AN 0
+D2
+~
+~
+1 -1 32043
+S
+#32049
+Hücre~
+Bir hücredesin. Yerde biraz saman, duvarda týrnak izleri var.
+~
+0 AN 0
+D0
+~
+~
+1 -1 32043
+S
+#32050
+Hücre~
+Bir hücredesin. Yerde biraz saman, duvarda týrnak izleri var.
+~
+0 AN 0
+D2
+~
+~
+1 -1 32042
+S
+#32051
+Hücre~
+Bir hücredesin. Yerde biraz saman, duvarda týrnak izleri var.
+~
+0 AN 0
+D0
+~
+~
+1 -1 32042
+S
+#32052
+Muhafýz Odasý~
+Muhafýz odasýndasýn. Doðuda büyük ve kilitli bir kapý var.
+~
+0 A 0
+D1
+~
+~
+2 32025 32053
+D3
+~
+~
+0 -1 32003
+S
+#32053
+Hücre Bloðu~
+Ýþte canlýlarý içine alan ve çýkmalarýný engelleyen mekanizma.
+Acaba sen çýkabilecek misin? Kuzey ve güneyde hücreler var.
+~
+0 AN 0
+D0
+~
+~
+1 -1 32057
+D1
+~
+~
+1 -1 32054
+D2
+~
+~
+0 -1 32058
+D3
+~
+~
+2 -1 32052
+S
+#32054
+Hücre Bloðu~
+Ýþte canlýlarý içine alan ve çýkmalarýný engelleyen mekanizma.
+Acaba sen çýkabilecek misin? Kuzey ve güneyde hücreler var.
+~
+0 AN 0
+D0
+~
+~
+1 -1 32059
+D1
+~
+~
+0 -1 32055
+D2
+~
+~
+1 -1 32060
+D3
+~
+~
+1 -1 32053
+S
+#32055
+Hücre Bloðu~
+Ýþte canlýlarý içine alan ve çýkmalarýný engelleyen mekanizma.
+Acaba sen çýkabilecek misin? Kuzey ve güneyde hücreler, doðuda
+ise küçük bir bölüm var.
+~
+0 AN 0
+D0
+~
+~
+1 -1 32061
+D1
+~
+~
+1 -1 32056
+D2
+~
+~
+1 -1 32062
+D3
+~
+~
+1 -1 32054
+S
+#32056
+Küçük Bölüm~
+Küçük bir bölümdesin. Görünüþe göre burada biri yaþýyor. Bölümün
+bir köþesi tuvalet olarak kullanýlmýþ. Ýþaret parmaðýný dýþkýya
+batýrýyorsun: "Hmm, oldukça soðuk..."
+~
+0 AN 0
+D3
+~
+~
+0 -1 32055
+S
+#32057
+Hücre~
+Bir hücredesin. Yerde biraz saman, duvarda týrnak izleri var.
+~
+0 AN 0
+D2
+~
+~
+1 -1 32053
+S
+#32058
+Hücre~
+Bir hücredesin. Yerde biraz saman, duvarda týrnak izleri var.
+~
+0 AN 0
+D0
+~
+~
+1 -1 32053
+S
+#32059
+Hücre~
+Bir hücredesin. Yerde biraz saman, duvarda týrnak izleri var.
+~
+0 AN 0
+D2
+~
+~
+1 -1 32054
+S
+#32060
+Hücre~
+Bir hücredesin. Yerde biraz saman, duvarda týrnak izleri var.
+~
+0 AN 0
+D0
+~
+~
+1 -1 32054
+S
+#32061
+Hücre~
+Bir hücredesin. Yerde biraz saman, duvarda týrnak izleri var.
+~
+0 AN 0
+D2
+~
+~
+1 -1 32055
+S
+#32062
+Hücre~
+Bir hücredesin. Yerde biraz saman, duvarda týrnak izleri var.
+~
+0 AN 0
+D0
+~
+~
+1 -1 32055
+S
+#32063
+Avlu~
+Talim avlusundasýn. Duvarýn ardýndan Selenge'nin gürültüsü
+geliyor. Gardiyanlar da kendi aralarýnda fýsýldaþarak
+konuþuyorlar.
+~
+0 0 2
+D1
+~
+~
+0 -1 32064
+D2
+~
+~
+0 -1 32072
+D3
+~
+~
+0 -1 32008
+S
+#32064
+Avlunun Kuzey-Doðu Köþesi~
+Avlunun kuzey-doðu köþesindesin. Duvarda kan izleri var.
+~
+0 0 2
+D2
+~
+~
+0 -1 32065
+D3
+~
+~
+0 -1 32063
+S
+#32065
+Avlunun Doðu Sonu~
+Avlunun doðu sonundasýn. Küçük gruplara ayrýlmýþ muhafýzlar
+avluyu neredeyse doldurmuþ. Doðuda yüksek bir duvar var.
+~
+0 0 2
+D0
+~
+~
+0 -1 32064
+D2
+~
+~
+0 -1 32066
+D3
+~
+~
+0 -1 32072
+S
+#32066
+Avlunun Doðu Sonu~
+Avlunun doðu sonundasýn. Küçük gruplara ayrýlmýþ muhafýzlar
+avluyu neredeyse doldurmuþ. Doðuda yüksek bir duvar var.
+~
+0 0 2
+D0
+~
+~
+0 -1 32065
+D2
+~
+~
+0 -1 32067
+D3
+~
+~
+0 -1 32071
+S
+#32067
+Avlunun Doðu Sonu~
+Avlunun doðu sonundasýn. Küçük gruplara ayrýlmýþ muhafýzlar
+avluyu neredeyse doldurmuþ. Doðuda yüksek bir duvar var.
+~
+0 0 2
+D0
+~
+~
+0 -1 32066
+D2
+~
+~
+0 -1 32068
+D3
+~
+~
+0 -1 32070
+S
+#32068
+Avlunun Güney-Doðu Köþesi~
+Avlunun güney-doðu köþesinde duruyorsun.
+~
+0 0 2
+D0
+~
+~
+0 -1 32067
+D3
+~
+~
+0 -1 32069
+S
+#32069
+Avlunun Güney Sonu~
+Avlunun güney sonundasýn. Küçük gruplara ayrýlmýþ muhafýzlar
+avluyu neredeyse doldurmuþ. Doðuda yüksek bir duvar var.
+~
+0 0 2
+D0
+~
+~
+0 -1 32070
+D1
+~
+~
+0 -1 32068
+D3
+~
+~
+0 -1 32079
+S
+#32070
+Avlunun Ortasý~
+Talim avlusunun ortasýnda duruyorsun.
+~
+0 0 2
+D0
+~
+~
+0 -1 32071
+D1
+~
+~
+0 -1 32067
+D2
+~
+~
+0 -1 32069
+D3
+~
+~
+0 -1 32080
+S
+#32071
+Avlunun Ortasý~
+Talim avlusunun ortasýnda duruyorsun.
+~
+0 0 2
+D0
+~
+~
+0 -1 32072
+D1
+~
+~
+0 -1 32066
+D2
+~
+~
+0 -1 32070
+D3
+~
+~
+0 -1 32081
+S
+#32072
+Avlunun Ortasý~
+Talim avlusunun ortasýnda duruyorsun.
+~
+0 0 2
+D0
+~
+~
+0 -1 32063
+D1
+~
+~
+0 -1 32065
+D2
+~
+~
+0 -1 32071
+D3
+~
+~
+0 -1 32082
+S
+#32073
+Avlu~
+Talim avlusundasýn. Duvarýn ardýndan Selenge'nin gürültüsü
+geliyor. Gardiyanlar da kendi aralarýnda fýsýldaþarak
+konuþuyorlar.
+~
+0 0 2
+D1
+~
+~
+0 -1 32008
+D2
+~
+~
+0 -1 32082
+D3
+~
+~
+0 -1 32074
+S
+#32074
+Avlunun Kuzey-Batý Köþesi~
+Avlunun kuzey-batý köþesindesin. Avluyu dolduran gardiyan gruplarýný
+görüyorsun. Bir yabancý olduðun çok belli.
+~
+0 0 2
+D1
+~
+~
+0 -1 32073
+D2
+~
+~
+0 -1 32075
+S
+#32075
+Avlunun Batý Sonu~
+Batý duvarýnýn önündesin. Avluyu dolduran gardiyan gruplarýný görüyorsun.
+~
+0 0 2
+D0
+~
+~
+0 -1 32074
+D1
+~
+~
+0 -1 32082
+D2
+~
+~
+0 -1 32076
+S
+#32076
+Avlunun Batý Sonu~
+Batý duvarýnýn önündesin. Avluyu dolduran gardiyan gruplarýný görüyorsun.
+Güneyden bir kargaþanýn sesleri geliyor.
+~
+0 0 2
+D0
+~
+~
+0 -1 32075
+D1
+~
+~
+0 -1 32081
+D2
+~
+~
+0 -1 32077
+S
+#32077
+Batý Duvarýnda Yarýk~
+Avlunun batý sonundasýn. Batý duvarýnda bir yarýk görüyorsun.
+~
+0 0 2
+D0
+~
+~
+0 -1 32076
+D1
+~
+~
+0 -1 32080
+D2
+~
+~
+0 -1 32078
+D3
+~
+~
+0 -1 32083
+S
+#32078
+Duvarýn Güney-Batý Köþesi~
+Avlunun güney-batý köþesindesin. Burasý idamlarýn gerçekleþtirildiði
+yerlerden biri olsa gerek, duvarda asýlý cesetler görüyorsun.
+~
+0 0 2
+D0
+~
+~
+0 -1 32077
+D1
+~
+~
+0 -1 32079
+S
+#32079
+Avlunun Güney Köþesi~
+Avlunun güney köþesindesin. Avluda gruplar oluþturmuþ gardiyanlarý
+görüyorsun.
+~
+0 0 2
+D0
+~
+~
+0 -1 32080
+D1
+~
+~
+0 -1 32069
+D3
+~
+~
+0 -1 32078
+S
+#32080
+Avlunun Ortasý~
+Avlunun ortasýndasýn. Küçük gruplar halindeki gardiyanlarý görüyorsun.
+~
+0 0 2
+D0
+~
+~
+0 -1 32081
+D1
+~
+~
+0 -1 32070
+D2
+~
+~
+0 -1 32079
+D3
+~
+~
+0 -1 32077
+S
+#32081
+Avlunun Ortasý~
+Avlunun ortasýndasýn. Küçük gruplar halindeki gardiyanlarý görüyorsun.
+~
+0 0 2
+D0
+~
+~
+0 -1 32082
+D1
+~
+~
+0 -1 32071
+D2
+~
+~
+0 -1 32080
+D3
+~
+~
+0 -1 32076
+S
+#32082
+Avlunun Ortasý~
+Avlunun ortasýndasýn. Küçük gruplar halindeki gardiyanlarý görüyorsun.
+~
+0 0 2
+D0
+~
+~
+0 -1 32073
+D1
+~
+~
+0 -1 32072
+D2
+~
+~
+0 -1 32081
+D3
+~
+~
+0 -1 32075
+S
+#32083
+Yarýðýn Ýçinde~
+Duvardaki yarýðýn içindesin. Burasý bir kaçýþ deliðine benziyor. Sanþlýysan
+burayý kazan yakýnlarda deðildir.
+~
+0 0 2
+D1
+~
+~
+0 -1 32077
+S
+#32084
+Dein Nemli Koridor~
+Duþlara açýlan bir pasajdasýn. Duvarlar ve hava oldukça rutubetli.
+Korkunun ve çürümenin kokusunu alabiliyorsun. Uzaklaþsan iyi olur.
+~
+0 A 0
+D1
+~
+~
+0 -1 32085
+D3
+~
+~
+0 -1 32004
+S
+#32085
+Duþlar~
+Hapishanenin en korkulan ve nefret edilen yerindesin. Bunun nedeni bütün
+gardiyanlarýn çok kirli görünmesi olabilir mi? Duvarlar týrnak izleri ve
+kanla örtülmüþ.
+~
+0 0 0
+D3
+~
+~
+0 -1 32084
+E
+duþ musluk~
+Ýþte su buradan geliyor..................BERBAT.
+Eðer çok susadýysan belki içmeyi deneyebilirsin.~
+S
+#32086
+Kafeterya~
+Herkes birþeyler yemek için buraya gelir. Bugünün menüsünde kýzarmýþ
+sýçan ve balçýk çorbasý var. ÝGRENÇ bir koku!
+~
+0 0 0
+D0
+~
+~
+0 -1 32087
+D1
+~
+~
+0 -1 32006
+S
+#32087
+Mutfak~
+Selenge'nin en meþhur aþçýlarý burada gardiyanlara yemek hazýrlýyor.
+Görünüþe göre hepsi bir süre önce buradan ayrýlmýþ.
+~
+0 0 0
+D2
+~
+~
+0 -1 32086
+S
+#32088
+Flar'ýn Bilinmeyene Kapýsý~
+~
+0 C 1
+S
+#32089
+Flar'ýn Cennet Kapýsý~
+Büyük bir depodasýn. Burasý Flar'ýn bütün gününü geçirdiði yer olmalý.
+Köþede bir masa, duvarda ise büyük bir iþaret görüyorsun.
+~
+0 C 1
+S
+#0
+
+
+#RESETS
+*
+*
+M 1 32000 1 32001 1 *            the gatekeeper to The Prison of Midgaard
+E 1 32001 100 16
+E 1 32002 100 17
+G 1 32000 100
+D 1 32001 0 2        *         ; The Prison of Midgaard Lock North
+D 1 32008 4 1        *         ; A long hallway Close Up
+D 1 32016 2 1        *         ; A broom closet Close South
+D 1 32046 2 1        *         ; A cell Close South
+D 1 32044 0 1        *         ; A cellblock Close North
+D 1 32047 0 1        *         ; A cell Close North
+D 1 32048 2 1        *         ; A cell Close South
+D 1 32050 2 1        *         ; A cell Close South
+D 1 32042 0 1        *         ; A cellblock Close North
+D 1 32051 0 1        *         ; A cell Close North
+D 1 32053 3 2        *         ; A cellblock Lock West
+D 1 32054 3 0        *         ; A cellblock Open West
+D 1 32055 3 0        *         ; A cellblock Open West
+D 1 32055 1 1        *         ; A cellblock Close East
+D 1 32057 2 1        *         ; A cell Close South
+D 1 32053 0 1        *         ; A cellblock Close North
+D 1 32058 0 1        *         ; A cell Close North
+D 1 32059 2 1        *         ; A cell Close South
+*
+M 1 32023 1 32088 1 *  A huge Bronze Dragon to The Nesting Ground of the Great Queen Ramoth
+E 1 32007 100 1
+E 1 32007 100 2
+E 1 32010 100 3
+E 1 32010 100 4
+E 1 32011 100 5
+E 1 32012 100 6
+E 1 32013 100 7
+E 1 32014 100 8
+E 1 32015 100 9
+E 1 32016 100 10
+E 1 32017 100 11
+E 1 32008 100 12
+E 1 32018 100 13
+E 1 32019 100 14
+E 1 32019 100 15
+E 1 32006 100 16
+E 1 32020 100 17
+G 1 32021 100
+O 1 32020 100 32088  *                  a lucky charm to The Nesting Ground of the Great Queen Ramoth
+O 1 32019 100 32088  *                  a hatchling bracer  to The Nesting Ground of the Great Queen Ramoth
+O 1 32019 100 32088  *                  a hatchling bracer  to The Nesting Ground of the Great Queen Ramoth
+O 1 32018 100 32088  *                  a hatchling belt to The Nesting Ground of the Great Queen Ramoth
+O 1 32017 100 32088  *                 a hatchling shield to The Nesting Groundof the Great Queen Ramoth
+O 1 32016 100 32088  *                  a set of hatchling sleeves to The Nesting Ground of the Great Queen Ramoth
+O 1 32015 100 32088  *                  a pair of hatchling gloves to The Nesting Ground of the Great Queen Ramoth
+O 1 32014 100 32088  *                  a pair of hatchling boots to The NestingGround of the Great Queen Ramoth
+O 1 32013 100 32088  *                  a set of hatchling leggings to The Nesting Ground of the Great Queen Ramoth
+O 1 32012 100 32088  *                  a hatchling helmet to The Nesting Groundof the Great Queen Ramoth
+O 1 32011 100 32088  *                  a newbie shirt to The Nesting Ground of the Great Queen Ramoth
+O 1 32010 100 32088  *                  a hatchling cloak to The Nesting Ground of the Great Queen Ramoth
+O 1 32009 100 32088  *                  a rat filet to The Nesting Ground of theGreat Queen Ramoth
+O 1 32008 100 32088  *                  a hatchlings robe to The Nesting Ground of the Great Queen Ramoth
+O 1 32007 100 32088  *                  an ember ring to The Nesting Ground of the Great Queen Ramoth
+O 1 32007 100 32088  *                  an ember ring to The Nesting Ground of the Great Queen Ramoth
+O 1 32006 100 32088  *                  a sword to The Nesting Ground of the Great Queen Ramoth
+O 1 32005 100 32088  *                  Flar's bag of tricks to The Nesting Ground of the Great Queen Ramoth
+O 1 32021 100 32088  *                  a starter kit to The Nesting Ground of the Great Queen Ramoth
+O 1 32022 100 32088  *                  a fountain to The Nesting Ground of the Great Queen Ramoth
+*
+M 1 32018 2 32087 1 *                     [processed aura] a slice of bologna to The Kitchen
+*
+O 1 32022 100 32089  *                 a fountain to Flar's Gateway to Heaven
+O 1 32009 100 32089  *                 a rat filet to Flar's Gateway to Heaven
+O 1 32024 100 32089  *                 A large cluttered desk to Flar's Gateway to Heaven
+*
+M 1 32003 6 32003 1 *                    the Prison Worker to A Dark Intersection
+E 1 32028 100 16
+*C 1 3 0
+*
+M 1 32017 1 32013 1 *                   Jimmy the weaponmaster to The Weapons Room
+G 1 32026 100
+G 1 32038 100
+G 1 32004 100
+G 1 32001 100
+*
+M 1 32008 3 32017 1 *                    the stoned guard to Spiral staircase
+E 1 32026 100 17
+G 1 32027 100
+*
+M 1 32008 3 32019 1 *                     the stoned guard to Smokey Tower
+E 1 32026 100 17
+G 1 32027 100
+*
+M 1 32011 1 32024 1 *               Trixie the secretary to Warden's Office
+E 1 32042 100 5
+*
+M 1 32010 1 32025 1 *                    Brad the Warden to Warden's chamber
+E 1 32041 100 3
+E 1 32040 100 8
+G 1 32039 100
+*
+*
+M 1 32016 1 32028 1 *                    Larry the armsmaster to The Armory
+G 1 32018 100
+G 1 32019 100
+G 1 32037 100
+G 1 32057 100
+G 1 32058 100
+G 1 32059 100
+*
+M 1 32012 1 32039 1 *                    Steve the maintenance man to Prison maintenance
+E 1 32044 100 6
+E 1 32043 100 12
+*
+M 1 32013 1 32039 1 *                    Butch the helper to Prison maintenance
+E 1 32045 100 13
+*
+M 1 32015 3 32040 1 *            A steam monster to The boiler room
+G 1 32050 100
+*
+M 1 32002 10 32034 1 *              the Prison Guard to The sneaky tower
+E 1 32007 100 1
+E 1 32030 100 14
+E 1 32029 100 16
+*F 1 0 1
+*
+M 1 32004 2 32041 1 *              the Cell Guard to Guard Room
+E 1 32036 100 1
+E 1 32036 100 2
+E 1 32034 100 11
+E 1 32035 100 16
+G 1 32025 100
+*
+M 1 32004 2 32052 1 *                    the Cell Guard to A guardroom
+E 1 32031 100 7
+E 1 32034 100 11
+E 1 32007 100 1
+E 1 32007 100 2
+E 1 32032 100 10
+E 1 32030 100 14
+E 1 32030 100 15
+E 1 32035 100 16
+G 1 32025 100
+*
+M 1 32005 14 32046 1 *                   the prisoner to A cell
+E 1 32037 100 15
+E 1 32038 100 16
+*
+M 1 32005 14 32047 1 *                   the prisoner to A cell
+E 1 32037 100 15
+E 1 32004 100 16
+*
+M 1 32005 14 32048 1 *                   the prisoner to A cell
+E 1 32037 100 15
+E 1 32038 100 16
+*
+M 1 32005 14 32049 1 *                   the prisoner to A cell
+E 1 32038 100 16
+E 1 32037 100 15
+G 1 32009 100
+*
+M 1 32005 14 32050 1 *                   the prisoner to A cell
+E 1 32011 100 5
+E 1 32038 100 16
+E 1 32037 100 15
+*
+M 1 32005 14 32051 1 *	                   the prisoner to A cell
+E 1 32037 100 15
+E 1 32004 100 16
+*
+M 1 32005 14 32057  1 *                  the prisoner to A cell
+E 1 32037 100 15
+E 1 32004 100 16
+*
+M 1 32005 1 32058 1 *                    the prisoner to A cell
+E 1 32037 100 15
+E 1 32038 100 16
+*
+M 1 32005 14 32059 1 *                    the prisoner to A cell
+E 1 32037 100 15
+E 1 32038 100 16
+*
+M 1 32005 14 32060 1 *                   the prisoner to A cell
+E 1 32037 100 15
+E 1 32028 100 16
+*
+M 1 32005 14 32061 1 *                   the prisoner to A cell
+E 1 32037 100 14
+E 1 32037 100 15
+E 1 32038 100 16
+*
+M 1 32005 14 32062 1 *                   the prisoner to A cell
+E 1 32037 100 15
+E 1 32038 100 16
+*
+*M 1 32019 1 32010 1 *                    The Muslim Cleric to The Cleric's Hold
+*E 1 32051 100 6
+*
+*
+M 1 32018 2 32086  1 *                   (processed aura) a slice of bologna to The Cafeteria
+*
+M 1 32014 1 32087  1 *                   Wendy the Cook to The Kitchen
+E 1 32046 100 6
+E 1 32049 100 12
+G 1 32048 100
+G 1 32058 100
+G 1 32039 100
+G 1 32039 100
+*
+M 1 32021 1 32009  1 *              The Executioner to Executioners room
+E 1 32052 100 16
+*
+M 1 32022 2 32083 1 *                 The Black thing to Inside the hole
+G 1 32036 100
+*
+M 1 32009 5 32077 1 *           the gangster to Break in the western wall
+E 1 32038 100 16
+E 1 32020 100 17
+G 1 32039 100
+*
+M 1 32007 15 32077 1 *     a flunky to Break in the western wall
+E 1 32004 100 16
+E 1 32002 100 17
+*
+M 1 32005 14 32075 1 *   the prisoner to Western end of the yard
+E 1 32037 100 15
+E 1 32028 100 16
+*
+M 1 32007 15 32074 1 *             a flunky to Northwestern corner of the yard
+E 1 32004 100 16
+E 1 32002 100 17
+*
+M 1 32001 12 32082 1 *                the rat to Middle of the yard
+*
+M 1 32009 5 32081 1 *                    the gangster to Middle of the yard
+E 1 32038 100 16
+E 1 32020 100 17
+G 1 32039 100
+*
+M 1 32001 12 32080 1 *                   the rat to Middle of the yard
+*
+M 1 32007 15 32080 1 *                   a flunky to Middle of the yard
+E 1 32004 100 16
+E 1 32002 100 17
+*
+M 1 32003 6 32079 1 *      the Prison Worker to Southern end of theyard
+E 1 32028 100 16
+*
+M 1 32007 15 32079 1 *          a flunky to Southern end of the yard
+E 1 32004 100 16
+E 1 32002 100 17
+*
+M 1 32002 10 32078  1 *                  the Prison Guard to Southwestern corner of the wall.
+E 1 32033 100 12
+E 1 32029 100 16
+*
+*
+M 1 32009 5 32068 1 *         the gangster to Southeastern corner of the yard
+E 1 32038 100 16
+E 1 32020 100 17
+G 1 32039 100
+G 1 32057 100
+*
+M 1 32007 15 32068 1 *   a flunky to Southeastern corner of the yard
+E 1 32004 100 16
+E 1 32002 100 17
+*
+M 1 32007 15 32067 1 *          a flunky to Eastern end of the yard
+E 1 32004 100 16
+E 1 32002 100 17
+*
+M 1 32001 12 32066 1 *                the rat to Eastern end of the yard
+*
+M 1 32001 12 32065 1 *               the rat to Eastern end of the yard
+*
+*
+M 1 32007 15 32064 1 *    a flunky to Northeast Corner of the yard
+E 1 32004 100 16
+E 1 32002 100 17
+*
+M 1 32007 15 32063 1 *    a flunky to The Yard
+E 1 32004 100 16
+E 1 32002 100 17
+*
+M 1 32009 5 32070  1 *          the gangster to Middle of the yard
+E 1 32038 100 16
+G 1 32057 100
+G 1 32039 100
+*
+M 1 32007 15 32071 1 *         a flunky to Middle of the yard
+E 1 32004 100 16
+E 1 32002 100 17
+*
+M 1 32005 14 32072 1 *         the prisoner to Middle of the yard
+E 1 32037 100 14
+E 1 32037 100 15
+*
+*
+M 1 32001 12 32040  1 *                  the rat to The boiler room
+*
+M 1 32001 12 32037  1 *                  the rat to A maintenance hallway
+*
+M 1 32003 6 32037  1 *               the Prison Worker to A maintenance hallway
+E 1 32028 100 16
+*
+M 1 32006 4 32036 1 *                the cockroach to A maintenance hallway
+*
+M 1 32001 12 32031 1 *                   the rat to A broom closet
+*
+M 1 32001 12 32033 1 *                   the rat to Spiral staircase
+*
+M 1 32003 6 32027 1 *                the Prison Worker to A quiet hallway
+E 1 32028 100 16
+*C 1 3 2
+*
+M 1 32003 6 32005 1 *                 the Prison Worker to A long hallway
+E 1 32028 100 16
+*
+M 1 32006 4 32007 1 *                 the cockroach to A long hallway
+D 1 32041 3 2      *           ; Guard Room Lock West
+D 1 32052 1 2      *           ; A Guard Room Lock East
+D 1 32055 0 1      *           ; A cellblock Close North
+D 1 32055 2 1      *           ; A cellblock Close South
+*
+M 1 32002 10 32008 1 *               the Prison Guard to A long hallway
+E 1 32031 100 7
+E 1 32032 100 10
+E 1 32034 100 11
+E 1 32029 100 16
+O 1 32060 100 32016   *                a drum to A broom closet
+*
+M 1 32006 4 32016  1 *                   the cockroach to A broom closet
+G 1 32025 100
+*
+M 1 32003 6 32021 1 *  the Prison Worker to The administration hallway
+E 1 32028 100 16
+*
+M 1 32001 12 32029 1 *                   the rat to Triple junction
+O 1 32053 100 32031  *                 a trash can to A broom closet
+O 1 32060 100 32031  *                 a drum to A broom closet
+O 1 32039 100 32034  *                 a pile of gold coins to The sneaky tower
+*
+M 1 32001 12 32036 1 *                   the rat to A maintenance hallway
+*
+M 1 32024 1 32038 1 *  Terry the salesman to A maintenance hallway
+E 1 32061 100 11
+E 1 32062 100 17
+G 1 32065 100
+G 1 32064 100
+G 1 32063 100
+G 1 32048 100
+O 1 32036 100 32045  *                 a pitch black ring to An alcove
+*
+M 1 32001 12 32051 1 *                   the rat to A cell
+*
+M 1 32001 12 32000 1 *                   the rat to Entrance to the Prison
+*
+M 1 32015 3 32040  1 *                   A steam monster to The boiler room
+G 1 32050 100
+*
+*
+M 1 32009 5 32081  1 *                   the gangster to Middle of the yard
+E 1 32038 100 16
+E 1 32020 100 17
+G 1 32039 100
+*
+M 1 32022 2 32083  1 *    The Black thing to Inside the hole
+G 1 32036 100
+*
+M 1 32001 12 32083 1 *         the rat to Inside the hole
+*
+M 1 32015 3 32085  1 *                   A steam monster to The showers
+G 1 32036 100
+*
+M 1 32020 1 32084 1 *                    the towel boy to Deep dank hall
+*
+M 1 32002 10 32005 1 *                   the Prison Guard to A long hallway
+E 1 32029 100 16
+*
+M 1 32002 10 32008 1 *                   the Prison Guard to A long hallway
+E 1 32029 100 16
+*
+M 1 32002 10 32011 1 *                   the Prison Guard to A quiet hallway
+E 1 32029 100 16
+*
+M 1 32002 10 32021 1 *                   the Prison Guard to The administration hallway
+E 1 32029 100 16
+*
+M 1 32002 10 32026 1 *                   the Prison Guard to A quiet hallway
+E 1 32029 100 16
+*
+M 1 32002 10 32030 1 *                   the Prison Guard to Dimly lit hallway
+E 1 32029 100 16
+G 1 32039 100
+*
+M 1 32002 10 32034 1 *               the Prison Guard to The sneaky tower
+E 1 32029 100 16
+*
+M 1 32002 10 32085 1 *                   the Prison Guard to The showers
+E 1 32029 100 16
+E 1 32033 100 12
+O 1 32055 100 32009   *                a severed head to Executioners room
+O 1 32055 100 32009   *                a severed head to Executioners room
+O 1 32054 100 32009   *                a chopping block to Executioners room
+*
+M 1 32008 3 32019 1 *                    the stoned guard to Smokey Tower
+E 1 32026 100 17
+G 1 32027 100
+*
+M 1 32007 15 32063 1 *                   a flunky to The Yard
+E 1 32004 100 16
+E 1 32002 100 17
+*
+M 1 32007 15 32065 1 *                   a flunky to Eastern end of the yard
+E 1 32004 100 16
+E 1 32002 100 17
+*
+M 1 32007 15 32067 1 *                   a flunky to Eastern end of the yard
+E 1 32004 100 16
+E 1 32002 100 17
+*
+M 1 32007 15 32067 1 *                   a flunky to Eastern end of the yard
+E 1 32004 100 16
+E 1 32002 100 17
+*
+M 1 32007 15 32074 1 *                   a flunky to Northwestern corner of the yard
+E 1 32004 100 16
+E 1 32002 100 17
+*
+M 1 32007 15 32074   1 *                 a flunky to Northwestern corner of the yard
+E 1 32004 100 16
+E 1 32002 100 17
+P 1 32007 100 32005 1
+P 1 32008 100 32005 1
+P 1 32009 100 32005 1
+P 1 32010 100 32005 1
+P 1 32011 100 32005 1
+P 1 32012 100 32005 1
+P 1 32013 100 32005 1
+P 1 32014 100 32005 1
+P 1 32015 100 32005 1
+P 1 32016 100 32005 1
+P 1 32017 100 32005 1
+P 1 32018 100 32005 1
+P 1 32019 100 32005 1
+P 1 32020 100 32005 1
+P 1 32021 100 32005 1
+P 1 32067 100 32005 1
+P 1 32068 100 32005 1
+P 1 32069 100 32005 1
+O 1 32056 100 32085  *                 a rusty leaky shower head to The showers
+O 1 32003 100 32084 *       a used condom wrapper to Deep dank hall
+O 1 32023 100 32002 *    a crumpled piece of paper to A Bright Intersection
+O 1 32060 100 32039 *            a drum to Prison maintenance
+O 1 32053 100 32024 *             a trash can to Warden's Office
+O 1 32070 100 32089 *            a large desk to Flar's Gateway to heaven
+O 1 32071 100 32089 *            an ivory fountain to Flar's Gateway to heaven
+S
+
+
+#SHOPS
+32016 9 0 0 8 0 100 100 0 23       *           (mobile is from another zone)
+32017 0 5 4 3 0 100 100 0 23       *           (mobile is from another zone)
+32024 0 0 0 0 0 100 100 0 23       *           (mobile is from another zone)
+0
+
+
+#SPECIALS
+M  32000 spec_thief                  *   the gatekeeper
+M  32001 spec_fido                   *   the rat
+M  32002 spec_guard                  *   the Prison Guard
+M  32003 spec_janitor                *   the Prison Worker
+M  32004 spec_guard                  *   the Cell Guard
+M  32005 spec_thief                  *   the prisoner
+M  32006 spec_poison                 *   the cockroach
+M  32010 spec_breath_lightning       *           Brad the Warden
+M  32014 spec_breath_any             *           Wendy the Cook
+M  32015 spec_poison                 *   A steam monster
+*M  32019 spec_cast_adept             *           The Muslim Cleric
+M  32023 spec_breath_fire            *           A huge Bronze Dragon
+M  32024 spec_poison                 *   Terry the salesman
+S
+
+#OLIMITS
+O 32034 2 	* titanium shield
+O 32036 5	* pitch black ring
+O 32030 1	* a spiked wristguard
+O 32052 1	* an axe of destruction
+O 32057 10	* sanctuary potion
+S
+
+#$
