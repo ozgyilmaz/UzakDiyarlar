@@ -1,0 +1,510 @@
+#AREA
+redferne.are~
+Redferne Köþkü~
+{20 30} Diku    Redferne Köþkü~
+7900 7999
+#MOBILES
+#7900
+þövalye adbolar~
+Adbolarlarýn büyük þövalyesi~
+Büyük Þövalye burada yardýma muhtaçlara yardým etmek için bekliyor.
+~
+Þövalye burada duruyor ve sana gülümsüyor. Tamamýyla beyaz, mavi ve
+gümüþ giyinmiþ. Çok güçlü görünüyor. Yardým etmek için her zaman hazýr.
+~
+human~
+AGKQe DH 1000 0
+29 0 6d12+778 29d9+100 5d14+18 none
+-9 -9 -9 4
+EIKU AB 0 0
+stand stand male 0
+0 0 medium 0
+
+#7901
+adbolar solamnia~
+Solamnia'nýn adbolarý~
+Solamnia'nýn emekli adbolarý burada dinleniyor.
+~
+Kembolarlara karþý yýllar süren mücadelesinden sonra emekli olmuþ ve
+kassandra taþýnýn sorumluluðunu almýþ.
+~
+human~
+AHSe DEPZ 1000 2402
+91 40 10d30+21400 100d10+100 5d35+60 punch
+-41 -41 -41 0
+FHKN 0 0 D
+stand stand male 1499
+0 0 small 0
+
+#0
+
+#OBJECTS
+#7909
+hazine~
+büyük bir hazine~
+Büyük bir hazine burada duruyor, çok deðerli görünüyor.~
+silver gold~
+money 0 A
+-100 0 0 0 0
+0 0 0 P
+E
+yazý~
+"Selam Konan.  Buradan para bekleme artýk, sevgiler. :) Ýmza, Redferne"
+~
+E
+hazine~
+Çok fazla sikke var. Bir tanesine bir yazý iliþtirilmiþ.
+~
+#7910
+sandýk~
+bir tahta sandýk~
+Bir tahta sandýk köþede duruyor.~
+wood~
+container 0 A
+100 ABCD 7911 20 100
+0 4000 100 P
+E
+sandýk~
+Birbirlerine geçirilmiþ kýsa ve aðýr tahtalardan yapýlmýþ kuvvetli
+bir sandýk. Pirinç kilitle korunuyor.
+~
+#7911
+anahtar~
+pirinç bir anahtar~
+Bir pirinç anahtar burada býrakýlmýþ.~
+brass~
+key 0 A
+7910 0 0 0 0
+0 10 0 P
+E
+anahtar~
+Üstüne bir þey çizilmemiþ veya yazýlmamýþ küçük ve pirinç bir anahtar.
+~
+#0
+
+#ROOMS
+#7900
+Redferne'nin ikametinin dýþ yüzü~
+Þu anda durduðun platoyu dev bir bulut sarýyor. Bulutlarýn aþaðýsýndan
+Selenge'ýn zayýf seslerini duyuyorsun. Hemen önünüzde, kuzeyde Naris'in
+büyük malikanesi var. Yani Büyük Tanrý Redferne'nin ikameti.
+~
+0 CJ 0
+D0
+Görkemli binanýn içine giden süslü DEV kapýyý görüyorsun.
+~
+büyük kapý dev~
+2 -1 7901
+D2
+Güzel bulutlar görüyorsun.
+~
+~
+0 0 9101
+D5
+Naris Malikanesini yere baðlayan çapanýn büyük zincirlerini görüyorsun.
+~
+~
+0 -1 7918
+S
+#7901
+Salonun güney sonu~
+Loþ ýþýðý gizemli bir þekilde gelen geniþ bir salonda duruyorsun.
+Duvarlarýn salona yaydýðý ýsý gelenlere güzel bir duygu veriyor.
+Duvarýn birine geniþ bir portre asýlmýþ. Geniþ bir tahta merdiven
+kuleye çýkýyor. Doðuda salondan çýkan bir geçit var. Kýsa bir aralýk
+sonrasý uzun tahta kapýyla bitiyor. Geniþ salon kuzeye doðru devam
+ediyor. Güneyde büyük ve çok aðýr görünen dövme demirden bir kapý
+görüyorsun. Bu kapý bu gösteriþli evden çýkmanýn tek yolu. Batýda
+kül renginde büyük bir kapý görüyorsun.
+~
+0 CDJ 0
+D0
+Koridor bu yolda devam ediyor. Bu yöndeki tahta merdiven altýnda bir
+Çok koridor görüyorsun.
+~
+~
+0 -1 7904
+D1
+Uzun meþe yapýmý bir kapý görüyorsun. Seni kapatmak için oldukça sýký.
+üstünde kazýnmýþ küçük rünler görüyorsun.
+~
+uzun meþe doðu kapý~
+2 -1 7910
+D2
+Burada gerçek bir kapý görüyorsun. Buna "kapý" yerine "Geçit" demeniz
+daha uygun olur. Çok BÜYÜK! Üstüne dev yazýlarý olan bir tabela asýlmýþ.
+Tabelada þunlar yazýyor : "ACÝL ÇIKIÞ".
+~
+geçit~
+2 -1 7900
+D3
+Dünyanýn tanýmlamasýna göre bir kapý gibi görünüyor. Kül rengi tahta sarý
+renkle boyanmýþ. Küçük siyah yazýlar üstüne yazýlmýþ.
+~
+kül tahta sarý kapý~
+2 -1 7902
+D4
+Kulenin çok yüksek yerlerine çýkan bir merdiven görüyorsunz. Yukarýda geniþ
+Bir yatak odasýnda bitmiþ gibi görünüyor.
+~
+~
+0 -1 7909
+E
+rünler~
+Bu rünler sana oldukça garip geliyor ama þanslý gününüzdesin: Çünkü
+rünlerin altýnda çevrilmiþ cümlesi var. Þöyle : " Dýþarýda kal, eðer
+hayatýna önem veriyorsan. Burasý ölümsüzler için".
+~
+S
+#7902
+Redferne'in Kütüphanesi~
+Burasý gerçekten gösteriþli bir yer! Her rafta kitaplar ve skroller yan
+yana konmuþ. Büyük bir küre Mud-dünyasý haritasýyla odanýn köþesinde loþ
+bir ýþýkla duruyor. Geniþ ve rahat deri koltuklar kütüphanenin ortasýndaki
+masanýn etrafýnda yan yana duruyor. Tabandan 10 fit yüksekte olan tavana
+asýlý, loþ ýþýðý yayan dev bir kristal þamdan var. Doðuda büyük bir kapý
+var. Geniþ bir cam pencere batý duvarýna kurulmuþ.
+~
+0 CDJ 0
+D1
+Sarý renge boyanmýþ eski bir kül kapý.
+~
+doðu kül kapý~
+2 -1 7901
+E
+Nehir~
+Geniþ ve akarak topraklarý kesen ve ufak bir göle dönüþen bir nehir
+görüyorsun. Selenge'ýn içinden süzülüyor ve sonunda diyarýn batý
+kýyýsýndaki Büyük Deniz'de bitiyor.
+~
+E
+Öte dýþarý~
+Bu büyük binanýn kurulduðu yerden form alan bulutlar toplanýyor. En ince
+bulutun içinden Selenge'ý ve tüm üstünde olanlarý görüyorsun.
+~
+E
+Cam pencere~
+Bu pencereler gerçekten çok büyük' Yerden 50 santim yüksek tavandan 25
+santim alçak. Dýþarýya bakmayý denediðinde çok öteleri görebilirsin.
+~
+E
+Deri koltuklar~
+Bu iki koltuk birbirlerinin tamamýyla aynýsý. Çok rahat görünüyorlar.
+Ýkisi de eski deriden yapýlma. Ve uzun bir dinlenmede dört dörtlük bir
+Rahatlýk verecekleri kesin.
+~
+E
+Selenge þehri~
+Buranýn batýsýnda aðaçlarla birlikte bir nokta görüyorsun. Güneyde
+geniþ bir kalenin bir kýsmýný görebilirsin. Sonunda doðudan gelen bir
+nehrin Selenge'ýn ortasýndan geçtiðini görüyorsun.
+~
+E
+Küre dünya haritasý~
+Büyük kürenin üstüne yapýþtýrýlmýþ geniþ bir dünya haritasý görüyorsun.
+Her çizilmiþ nokta orada bir þehir olduðunu gösteriyor. Haritanýn orta
+yerinde üstüne Selenge yazýlmýþ bir þehir görüyorsun. Ayrýca haritada
+daðlar, ormanlar, bitki örtüleri ve denizlerde var.
+~
+S
+#7903
+Naris'in Özel eþyalar odasý ~
+Bu kasvetli ve karanlýk oda duvarlardan yayýlan loþ ýþýkla az miktarda
+aydýnlatýlmýþ. Bir dolu güzel görünümlü eþya odanýn ortasýnda duruyor.
+Burada hiç mobilya yok. Buradan tek çýkýþ batýdaki çelik kapý.
+~
+0 CDJ 0
+D3
+You see only the back of a safe's steel door.
+~
+~
+0 -1 -1
+S
+#7904
+Salonun kuzey sonu~
+Geniþ salonun en kuzey yerinde duruyorsun. Bu bölüm tahta bir
+merdivenin altýnda olduðu için ýþýk daha az parlak. Ama bu seni
+rahatsýz etmiyor. Kuzeyde mutfak var. Güneyde salonun güney sonu
+var. Doðuda geniþ metal bir kapý var. Batýda ise geniþ kavaktan
+yapýlmýþ bir kapý var.
+~
+0 CDJ 0
+D0
+~
+~
+0 -1 7906
+D1
+Geniþ metal bir kapý görüyorsun. Oradan pis kokular çýkýyor. Koku
+hayatýndaki en berbat deneyim. Bir düþünce bu kokularla birlikte
+aklýna yerleþiyor: "Canavarlar" Kendini kapýyý açarken çok berbat
+hissediyorsun.
+~
+çelik metal kapý büyük~
+2 -1 7913
+D2
+Salonun dinlenme yeri bu yönde, ve bir çýkýþ oluyor.
+~
+~
+0 -1 7901
+D3
+Kapýnýn üstünde "OTURMA ODASI" yazýyor. Kavaktan yapýlmýþ ve çok iyi
+bir heykeltýraþ iþçiliðiyle oyulmuþ.
+~
+kapý kavak~
+2 -1 7905
+S
+#7905
+Naris'in oturma odasý~
+Çok rahat bir odanýn ortasýnda duruyorsun. Duvarlar gülümseyen Kral
+ve Kraliçelerin resimleriyle dekore edilmiþ. En hoþ resim parlayan bir
+zýrh giymiþ Prensin resmi. Duvarlardan birinin yanýnda eski bir koltuk
+var. Tek çýkýþ doðuya çýkan kavak aðacýndan kapý.
+~
+0 CDJ 0
+D1
+Kapý çok AÐIR görünüyor. Tamamýyla bir kavak aðacýndan oyulmuþ.
+~
+aðýr kavak kapý~
+2 -1 7904
+E
+koltuk~
+Çok hoþ ve eski zamandan kalma bir koltuk. Üstünde büyük bir yastýk var.
+~
+S
+#7906
+Naris'in mutfaðý~
+Burasý yiyeceklerin ve içeceklerin konulduðu yer olmalý. Fark edemediðiniz
+farelerin etleri ve ekmekleri kemiriþlerinin seslerini duyuyorsun. Sesler
+senin kendini aç hissetmene neden oluyor. Tek çýkýþ salonun kuzey sonuna
+çýkan güneydeki kapý. Kuzeyde bir kiler ve doðuda bir buz dolabý var.
+~
+0 CDJ 0
+D0
+Burasý karanlýk ama farelerin çýkardýðý sesler apaçýk ortada.
+~
+kiler~
+2 -1 7907
+D1
+Buradan buz dolabýný görebilirsin. Ýçinde bir dolu içecek var.
+~
+buzdolabý dolap~
+2 -1 7908
+D2
+Salonun kuzey sonunu görebiliyorsun.
+~
+~
+0 -1 7904
+S
+#7907
+Kiler~
+Bir dolu yiyecek görüyorsun. Yiyeceklerin üstünde dev fareler görüyorsun.
+Etrafta gezinip bulduklarýný kemiriyorlar.
+~
+0 CDJ 0
+D2
+~
+kapý tahta~
+2 -1 7906
+S
+#7908
+Buz dolabý~
+Buz dolabý su, içecek ve içkilerle doldurulmuþ.
+~
+0 CDJ 0
+D3
+~
+çýkýp kapý dolap buzdolabý~
+2 -1 7906
+S
+#7909
+Merdivenlerde~
+Merdivenlerin aþaðýsýný ve yukarýsý görebiliyorsun. Aþaðýsý ve yukarýsý
+sonsuza kadar sürüyor gibi görünüyor. Görünüþe göre iki yöne de gitmek
+baþa çýkýlmaz olur. Yukarýda Redferne'in yatak odasý, aþaðýda salonun
+güney sonu var.
+~
+0 CDJ 0
+D4
+~
+~
+0 -1 7911
+D5
+~
+~
+0 -1 7901
+S
+#7910
+Hazine odasý~
+Kasvetli bir yer. Tek çýkýþ batýdaki meþe kapýsý.
+~
+0 CDJ 0
+D1
+~
+kasa çelik~
+0 -1 -1
+D3
+Uzun bir meþe kapýsý görüyorsun.
+~
+uzun meþe kapý~
+2 -1 7901
+S
+#7911
+Redferne'in yatak odasý~
+Burasý çok iyi hazýrlanmýþ ve romantik bir gece için her þeye sahip
+bir yatak odasý. Yatak çok büyük, öyle ki odanýn yarýsýný kapatýyor.
+Odanýn geniþliði en az 300 metre kare. Çift kapýlar güneydeki geniþ
+balkona açýlýyor. Geniþ bir merdiven aþaðýdaki salona gidiyor.
+~
+0 CDJ 0
+D2
+Güneþ dýþarýda rahatlýk verici bir sýcaklýkla parýldýyor.
+~
+kapý~
+1 -1 7912
+D5
+~
+~
+0 -1 7909
+S
+#7912
+Redferne'in ikametinin balkonu~
+Bu dünyanýn en kusursuz yerlerini görüyorsun. Buradan güneye doðru vadi
+gözün daha uzaða gidemeyeceði yerlere kadar gidiyor. Aþaðýda bu görkemli
+binanýn giriþini görüyorsun. Kuzeyde Redferne'in yatak odasýna giden
+kapýlar var.
+~
+0 CJ 0
+D0
+Büyük Tanrý Redferne'in malikanesi Naris'in rahat yatak odasýný
+görüyorsun.
+~
+kapý~
+2 -1 7911
+D5
+Kalenin oturduðu zemini görüyorsun. Garip bir þekilde, meðer sadece
+bulutlarmýþ.
+~
+~
+0 -1 -1
+S
+#7913
+Canavar aðýlý~
+Ýçinde büyük bir yaratýk tutulan bir kafeste gibisin. Bunu duvarlarýn
+arasýnda hapsedilmiþ ÖFKELÝ canavara bakýnca tahmin ediyorsun. Buranýn
+güvenli olmadýðýný hissediyorsun.
+~
+0 D 0
+D3
+Bu buradan çýkýþýn tek yolu gibi görünüyor.
+~
+metal kapý kafes~
+2 -1 7904
+S
+#7914
+Geniþ Zincirde~
+Buradan Selenge'ýn güzel manzarasýný izleyebilirsin. Sadece aþaðýya ve
+yukarýya gidebilirsin. Eðer güvenli ve hareket etmeyen zincirden gitmek
+istemezsen buradan baþka yerlere gidebilirsin.
+~
+0 C 5
+D4
+Yukarýda zincirin bulutlarýn arasýnda kaybolduðunu görüyorsun.
+~
+~
+0 -1 7916
+D5
+Aþaðýda zincir yere, Yol geçidine baðlanmýþ.
+~
+~
+0 -1 3120
+S
+#7916
+Naris'in büyük zincirinde~
+Güvenilmez zincirin hemen hemen tam ortasýndasýn. Tek bir yanlýþ adým
+seni ölümünüze götürebilir. Zincir aþaðý ve yukarýya doðru uzanýyor. Artýk
+inmek için yol yok. Þimdi týrmanmaya baþladýn. Hayatýný kurtarmak için.
+Aþaðý bakýn ve nedenini görün.
+~
+0 C 5
+D4
+Görünüþe bakýlýrsa tek bir yol var, o da yukarýsý.
+~
+~
+0 -1 7918
+D5
+~
+~
+0 -1 7914
+S
+#7918
+Naris'in güçlü zinciri~
+Burasý seni tüm yer yüzünü görmeni saðlýyor. Görkemli bir ýþýk seni
+aydýnlatýyor ve üstünüzdeki bulutlar çekiliyor. Yukarýda Naris Malikanesi'ni
+yani Büyük Tanrý Redferne'in ikametini görebiliyorsun. Zincir sanki seni
+saran bulutlarýn arasýnda buharlaþýyor.
+~
+0 C 5
+D4
+Bulutlarýn güneþli tepelerini görüyorsun. Bunlarýn da üstünde Malikane
+gözlerinin önünde yükseliyor. Muhteþem!!
+~
+~
+0 -1 7900
+D5
+~
+~
+0 -1 7916
+S
+#0
+#RESETS
+D 0 7900   0    1	* Outside Redferne's residence north
+D 0 7901   2    1	* The Southern end of the hall south
+D 0 7902   1    1	* Redferne's Library east
+D 0 7901   3    1	* The Southern end of the hall west
+D 0 7901   1    1	* The Southern end of the hall east
+D 0 7910   3    1	* The Treasure room west
+D 0 7904   1    1	* The Northern end of the hall east
+D 0 7913   3    1	* The Monster Pen west
+D 0 7911   2    1	* Redferne's Bedroom south
+D 0 7912   0    1	* The Balcony of Redferne's Residence north
+D 0 7904   3    1	* The Northern end of the hall west
+D 0 7905   1    1	* The Sitting room of Naris east
+D 0 7906   1    1	* The Kitchen of Naris east
+D 0 7908   3    1	* The Fridge west
+D 0 7906   0    1	* The Kitchen of Naris north
+D 0 7907   2    1	* The Larder south
+M 0 7900   1 7900  1	* the Grand Knight of paladins
+E 1 5221  99   16	*   a red dragon claw
+E 1 7217  99    5	*   a silvery breast plate
+E 1 7218  99    7	*   some silvery leg plates
+E 1 7219  99    9	*   a pair of silvery gloves
+E 1 7220  99    6	*   a silvery helmet
+E 1 7221  99   11	*   the shield of the rose
+E 1 7223  99   10	*   some silvery arm plates
+E 1 7222  99    8	*   a pair of silvery boots
+E 1 7224  99   12	*   a white cloak
+G 1 7911  99     	*   a small brass key
+M 0 7901  1  7907  1	* paladin solamnia
+O 0 6013  10 7908	* the barrel
+O 0 7910   1 7910	* a wooden chest
+P 1 7298   1 7910  1	*   a huge treasure
+P 1 7208   6 7910  1	*   a small stick
+O 0 7909  10 7903	* a huge treasure
+S
+#SHOPS
+0
+#SPECIALS
+M 7900 spec_cast_cleric    	* the Grand Knight of paladins
+M 7901 spec_breath_any		* the solamnia
+S
+
+#OMPROGS
+M 7901 greet_prog greet_prog_solamnia
+M 7901 give_prog give_prog_solamnia
+S
+
+#PRACTICERS
+M 7900 group_curative		* grand knight of paladin
+S
+
+#$

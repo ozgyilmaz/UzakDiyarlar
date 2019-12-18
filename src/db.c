@@ -3247,12 +3247,10 @@ void do_areas( CHAR_DATA *ch, char *argument )
   sprintf(bufpage,"Varolan bölgeler: \n\r");
     for ( iArea = 0; iArea < iAreaHalf; iArea++ )
     {
-     sprintf(buf2,"{%s%2d %3d%s} %s%s %s%s%s",
-	CLR_WHITE,
+     sprintf(buf2,"[%s%2d %3d%s] %s%s%s",
+	C_WHITE,
 	pArea1->low_range,pArea1->high_range,
 	CLR_WHITE_BOLD,
-	CLR_BLUE,
-	pArea1->writer,
 	CLR_CYAN,
 	pArea1->credits,
 	CLR_WHITE_BOLD);
@@ -3260,12 +3258,10 @@ void do_areas( CHAR_DATA *ch, char *argument )
      sprintf( buf, "%s",buf2);
      if (pArea2 != NULL)
       {
-     sprintf(buf2,"{%s%2d %3d%s} %s%s %s%s%s",
-	CLR_WHITE,
+     sprintf(buf2,"[%s%2d %3d%s] %s%s%s",
+	C_WHITE,
 	pArea2->low_range,pArea1->high_range,
 	CLR_WHITE_BOLD,
-	CLR_BLUE,
-	pArea2->writer,
 	CLR_CYAN,
 	pArea2->credits,
 	CLR_WHITE_BOLD);

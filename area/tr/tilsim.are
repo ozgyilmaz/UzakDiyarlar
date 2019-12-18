@@ -1,0 +1,303 @@
+#AREA
+tilsim.are~
+Týlsým~
+{90 100} Asena Týlsým~
+530 539
+
+#MOBILES
+#530
+kethüda týlsým cabal kabal~
+kethüda~
+Büyünün Kethüdasý burada duruyor.
+~
+Hayaletimsi bir figür efendilerine karþý olan herkesi öldürecek büyülü
+efsunu yaymak için burada etrafýnda süzülüyor. Yaratýk tamamen alevlerden ve
+baþka büyülü materyallerden yaratýlmýþ.
+~
+elf~
+ABJKRVe FHDe 0 0
+92 30 2d500+25000 1d1+3999 10d25+90 slice
+-79 -79 -79 -40
+FKIN ABH C 0
+stand stand male 0
+A ABCDE medium 0
+
+#531
+týlsým þifacý cabal kabal~
+þifacý~
+Kadim sanatlarýn þifacýsý burada.
+~
+Yaþlý, bilge rahip eski dostlarý olan kadim sanatlar ustalarýný kutsuyor.
+Çok güzel uzun ak saçlara sahip, yerlere kadar ulaþan beyaz bir elbise
+giymekte. Yüzünde gülümsüyen bir tebessüm var.
+~
+human~
+ABQVae DFH 1000 0
+90 10 1d1+28999 1d1+999 2d4+30 divine
+-75 -75 -75 -55
+FHIK ABC D 0
+stand stand male 1000
+0 0 medium 0
+#532
+ateþten kýrmýzý iblis~
+ateþten yaratýlmýþ iblis~
+Alevden yaratýlmýþ kýrmýzý iblis etrafýna kýzgýnlýkla bakýyor.
+~
+Alevler içinde duran agresif bir iblis görüyorsun. Çaðrýldýðý için bayaðý
+bir kýzgýn. Ateþten kýrmýzý bir cilde sahip, iki kafalý, kýrmýzý skalalar,
+keskin diþler, 2 kol ve uzun pençelere sahip kaslý bir iblis.
+~
+unique~
+AB JZ -1000 0
+40 0 1d1+2000 1d1+1 2d4+20 slash
+-15 -15 -15 -15
+FHI H 0 0
+stand stand male 0
+0 0 medium 0
+
+#0
+
+
+
+#OBJECTS
+#530
+örümcek mimber~
+örümcek þekline bürünmüþ mimber~
+Örümcek þekline bürünmüþ bir mimber odanýn ortasýnda duruyor.~
+ivory~
+container AORY P
+10 15 532 15 100
+60 1 20 P
+
+#531
+küre~
+Büyülü küre~
+Büyülü küre burada.~
+ebony~
+staff A A
+0 0 0 0 0
+60 1 100000 P
+
+#532
+anahtar~
+örümcek þeklinde anahtar~
+Örümcek þeklindeki anahtar yerde duruyor.~
+steel~
+key ORY AO
+0 0 0 0 0
+40 4 0 P
+
+#533
+beyaz portal~
+Büyülü Beyaz Portal~
+Etrafýna garip gölgeler yayan efsunla örülmüþ beyaz bir nesne görüyorsun.~
+energy~
+portal AO 0
+0 0 D 9209 0
+0 0 0 P
+#534
+siyah portal~
+Büyülü Siyah Portal~
+Etrafýna garip gölgeler yayan efsunla örülmüþ siyah bir nesne görüyorsun.~
+energy~
+portal AO 0
+0 0 E 0 0
+0 0 0 P
+
+
+#0
+
+
+
+#ROOMS
+#530
+Beþinci Kat~
+Kulenin beþinci katý evrenin büyülü gücüyle etrafýnda výzýldýyor.
+Etrafýnda diyarýn her bir tarafýndan alýnmýþ, kullanýlmýþ ve taþýnmýþ
+eþyalarýna rastlýyorsun. Muhtemelen büyü dünyasýnýn sýrlarýna ulaþýlmak için
+kullanýlmýþ bu eþyalar; taþlar büyü ile uðulduyup, ýþýk veriyorlar. Önünde
+örümcek þekline bürünmüþ bir mimber görüyorsun, ve etrafýna yumuþak mor ýþýk
+saçýyor.
+~
+0 DX 0
+D1
+~
+~
+0 -1 537
+D3
+~
+~
+0 -1 538
+D5
+~
+~
+0 -1 531
+S
+
+#531
+Dördüncü Kat~
+Dördüncü kat diðerlerinden daha büyük. Etrafýnda büyüler görmektesin.
+Burada Kadim Sanatlar büyücülerinin yarattýðý ve Uzak Diyarlar diyarýnda
+onlara taraf olmayan kahramanlarý öldürmekte kullandýðý deðnekler bulunuyor.
+Çaðrýlmýþ kýrmýzý kýzgýn iblisler çaðrýlmalarýna sinirli bir þekilde burada
+durmaktadýr.
+~
+0 DX 0
+D4
+~
+~
+0 -1 530
+D5
+~
+~
+0 -1 532
+S
+
+#532
+Üçüncü Kat~
+Birden ortaya çýkan bir sisin içinde buluyorsun kendini. Girdap içinde
+dönen bu sis senin görüþ alanýný ve zihnini karaltýyor. Birden sonsuzluk ve
+büyünün gücünü merak etmeye baþlýyorsun. Yukarýlara doðru sisin gittikçe
+inceldiðini görüyorsun.
+~
+0 DX 0
+D4
+~
+~
+0 -1 531
+D5
+~
+~
+0 -1 533
+S
+
+#533
+Ýkinci Kat~
+Kadim sanatlar kulesinin ikinci katýda ilk katý ile genellikle ayný.
+Kararmýþ ve yanmýþ duvarlarýn büyülü bir ateþ ile yakýldýðýný hayal
+ediyorsun. Büyülü küreler üzerinde süzülerek sana ýþýk saðlýyor. Aþaðýya ve
+yukarýya doðru uzanan merdivenleri görüyorsun.
+~
+0 DX 0
+D4
+~
+~
+0 -1 532
+D5
+~
+~
+0 -1 534
+S
+
+#534
+Kulenin Ýçi~
+Kadim Sanatlarýn Kulesinin en alt katýnda duruyorsun. Efsunlu duvarlar
+büyülü ýþýldamalarýyla etrafýný görebileceðin kadar aydýnlatmakta. Belkide
+üst katlarda kulenin ve kadim sanatýn sýrlarý yatmaktadýr.
+~
+0 DX 0
+D2
+~
+~
+0 -1 535
+D4
+~
+~
+0 -1 533
+S
+
+#535
+Kulenin dýþý~
+Uçlarý kuzeye ve güneye uzayan uzun bir yoldasýn. Efsunlu duvarlar büyülü
+ýþýldamalarýyla etrafýný görebileceðin kadar aydýnlatmakta. Buna ek olarak
+büyülü küreler üzerinde süzülerek sana ýþýk saðlýyor. Saf büyü ile
+yaratýlmýþ bu kulenin yapýmýnda bütün diyarýn gücünün kullanýldýðýný
+hissediyorsun.
+~
+0 DX 0
+D0
+~
+~
+0 -1 534
+D2
+~
+~
+0 -1 536
+S
+#536
+Gizemli Yol~
+Efsunun gücünü hissetmeye baþlýyorsun. Bilinen bütün düzlemlerden büyülü
+varlýklar sana doðru yürüyor. Bu yol etrafýndaki herþey gibi efsunla
+yaratýlmýþ ve mükemmel durumda. Önünde Kadim Sanatlarýn Kulesini görüyorsun.
+~
+0 DX 0
+D0
+~
+~
+5 -1 535
+D2
+~
+~
+1 -1 1480
+S
+#537
+Gizemli Oda~
+Bu oda kulenin üçüncü katýna benziyor. Birden ortaya çýkýp etrafýný saran
+bir sisin içindesin. Girdap içinde dönen bu sis senin görüþ alanýný ve
+zihnini karaltýyor. Birden sonsuzluk ve büyünün gücünü merak etmeye
+baþlýyorsun. Yukarýlara doðru sisin gittikçe inceldiðini görüyorsun. Güçlü
+deðnekler yaratmak için bulabileceðin materyalleri barýndýran bir portal
+görüyorsun.
+~
+0 DX 0
+D3
+~
+~
+1 -1 530
+S
+#538
+Gizemli Oda~
+Bu oda kulenin üçüncü katýna benziyor. Birden ortaya çýkýp etrafýný saran
+bir sisin içindesin. Girdap içinde dönen bu sis senin görüþ alanýný ve
+zihnini karaltýyor. Birden sonsuzluk ve büyünün gücünü merak etmeye
+baþlýyorsun. Yukarýlara doðru sisin gittikçe inceldiðini görüyorsun. Güçlü
+deðnekler yaratmak için bulabileceðin materyalleri barýndýran bir portal
+görüyorsun.
+~
+0 DX 0
+D1
+~
+~
+1 -1 530
+S
+#0
+
+
+
+#RESETS
+M 0 530  1 536 1                 * Seneschal of magic
+E 0 532 -1  11                   *  key
+M 0 531  1 530 1                 * adept
+O 0 530  1 530 1                 * item container  spider shaped altar
+P 0 531  1 530 1                 *  cabal item     orb of magic
+D 0 536  2 1
+O 0 533  1 537
+O 0 534  1 538
+S
+
+#SPECIALS
+M 531 spec_cast_cabal
+M 530 spec_fight_seneschal
+M 532 spec_cast_mage
+S
+
+#OMPROGS
+O 531 get_prog get_prog_cabal_item
+O 531 sac_prog sac_prog_cabal_item
+M 530 greet_prog greet_prog_shalafi
+S
+
+#PRACTICERS
+M 530 group_cabal	*sens
+S
+#$

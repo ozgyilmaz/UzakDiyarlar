@@ -1,17 +1,16 @@
 #AREA
 olympus.are~
-Olympus~
-{ 5 60} Generic Olympus~
+Sumut Ýstihkamý~
+{ 5 60} Generic Sumut Ýstihkamý~
 900 999
 #MOBILES
 #901
-oldstyle zeus god~
-Zeus~
-Zeus sits here on a throne.
+amrir kral~
+Amrir~
+Kral Amrir burada, tahtýnda oturuyor.
 ~
-You see before you the greatest of the Olympians.  It seems as if he could
-destroy you with a thought.  Every glance penetrates deep into your soul.
-You now know what true fear is.
+Sumut halkýnýn en ulusunu görüyorsun. Yaþlý ve güçlü. Yýldýrýmlara
+hükmeden Amrir...
 ~
 human~
 ABCQ BDFHNT 1000 0
@@ -21,12 +20,14 @@ EIKU B B 0
 stand stand male 50000
 0 0 medium 0
 #902
-oldstyle prometheus~
-Prometheus~
-Prometheus is here, playing with a match.
+marba~
+Marba~
+Marba burada, sessizce bekliyor.
 ~
-This mortal risked the wrath of Zeus to give the gift of fire to humans.  He
-looks up at you and smiles.
+Amrir'in yeðeni Marba'yý görüyorsun. Sumut halkýna çektirdikleri
+yüzünden Amrir'e baþkaldýrmýþ asi Marba. Soylu kaný taþýdýðý için
+öldürülmemiþ, fakat ölümüne kadar zindan cezasý verilmiþ güçlü Amra.
+Sana bakýyor ve gülümsüyor.
 ~
 human~
 ABC BDFHNT 1000 0
@@ -36,13 +37,12 @@ EFNU B B 0
 stand stand male 40000
 0 0 medium 0
 #903
-oldstyle hermes~
-Hermes~
-Hermes is busy, delivering a message.
+dozrah~
+Dozrah~
+Dozrah burada, bir mesaj götürmekle meþgul.
 ~
-This is the messenger of the Gods.  He wears a winged helm and boots, and
-darts from place to place.  He looks very busy, and it seems as if he doesn't
-even notice your presence.
+Kralýn habercisi Dozrah'ý görüyorsun. O sahip olduðu miðfer ve çizme
+ile bir yerden bir yere çok hýzlý gidebilir.
 ~
 human~
 ACS BDFHNPT 1000 0
@@ -52,13 +52,13 @@ BEFJNU B B 0
 stand stand male 2500
 0 0 medium 0
 #904
-oldstyle poseidon~
-Poseidon~
-Poseidon is dining here.
+gugorah~
+Gugorah~
+Gugorah burda, akþam yemeðini yemekle meþgul.
 ~
-He is the brother of Zeus himself, chosen to rule the seas.  He must be
-visiting Mount Olympus.  He nods at you and motions for you to enter and
-have a seat.
+Amrir'in kardeþi Gugorah'ý görüyorsun. Sumut ordusunun baþkumandaný.
+Kaslý vücudunun tepesine diktiði büyük ve zeki kafasýnýn üzerinde
+aðarmýþ saçlarý görüyorsun. Duygularý okuyan gözlerle etrafý gözlüyor.
 ~
 human~
 ABCR BDFHNT 1000 0
@@ -68,13 +68,14 @@ FU B B 0
 sit stand male 5000
 0 0 medium 0
 #905
-oldstyle apollo~
-Apollo~
-Apollo is here, playing a tune.
+gugarkaz~
+Gugarkaz~
+Gugarkaz burada, kulaða hoþ gelen bir melodi mýrýldanýyor.
 ~
-This jovial God is strumming on a lyre.  He smiles at you and asks you to
-join him.  You notice a dangerous looking bow by his side, however, and think
-that he knows more than music.
+Arkadaþ canlýsý Gugargaz lirik bir þiir mýrýldanýyor. Gülümseyerek
+kendisine katýlmaný istiyor. Yanýbaþýna koyduðu oldukça tehlikeli
+görünen bir yay görüyorsun. Her nedense müzikten daha fazla þeyler
+bildiðini düþünüyorsun.
 ~
 human~
 ABC BDFHNT 1000 0
@@ -84,12 +85,13 @@ EFNU B B 0
 stand stand male 2000
 0 0 medium 0
 #906
-oldstyle ares~
-Ares~
-Ares is here, kicking your ass.
+darba~
+Darba~
+Darba burada, savaþlar üzerine düþünüyor.
 ~
-The God of War is here, studying some maps.  He scowls at you as you enter
-and says 'I am very busy.  What do you want?'
+Gugorah'ýn yardýmcýsý Darba'yý görüyorsun. Onun asaletine olmasa da,
+zekasýna sahip gibi görünüyor. Kimi haritalarý incelediðini farkediyorsun.
+Sana tehditkar bir þekilde bakarak 'Çok meþgulüm ne istiyorsun? ' diyor.
 ~
 human~
 ABCF BDFHT -1000 0
@@ -99,12 +101,13 @@ EFNU B B 0
 stand stand male 2500
 0 0 medium 0
 #907
-oldstyle athena~
-Athena~
-Athena is relaxing here.
+uhuk~
+Uhuk~
+Uhuk burada, yorulmuþ görünüyor.
 ~
-Zeus' favorite daughter is sitting on a couch eating grapes.  She smiles at
-you and invites you to join her.
+Amrir'in en gözde kýzkardeþi Uhuk'u görüyorsun. Bir sedirin üzerinde
+oturmuþ üzümlerin tadýna bakýyor. Sana gülümsüyor ve ona katýlman için
+davet ediyor.
 ~
 human~
 ABC BDFHNT 1000 0
@@ -114,13 +117,12 @@ EFNU B B 0
 stand stand female 3000
 0 0 medium 0
 #908
-oldstyle hephaestus smith~
-Hephaestus~
-Hephaestus the Smith is here, crafting a fine weapon.
+demirci~
+demirci~
+Demirci burada, bir silaha bilgisini akýtýyor.
 ~
-This God is the only one who is not physically perfect.  He is lame and very
-ugly.  You get the impression that he is kind, however, and would go out of his
-way to help you.  He is attended by three golden maidens.
+Topal ve çirkin demirciyi görüyorsun. Sumut'ta gördüðün en çirkin þey.
+Yine de sana yardým etmek istediðini düþünüyorsun.
 ~
 human~
 ABC BDFHNT 1000 0
@@ -130,12 +132,12 @@ EFNU B B 0
 stand stand male 3000
 0 0 medium 0
 #909
-oldstyle handmaid golden~
-A Golden Maiden~
-A Handmaid of gold is here, assisting the smith.
+çýrak~
+çýrak~
+Bir çýrak burada, demirciye yardým ediyor.
 ~
-As you gaze upon this creation, you realize that she is made from solid
-gold.  She seems to be very lifelike as she assists the smith in his work.
+Bu yaratýða bakarken, güzelliðini farkediyorsun. Bir erkek gibi giyindiði
+halde, yüzünün ve vücudunun þekli bir kadýnýn güzelliðiyle dolu.
 ~
 human~
 ABCT BDFHNT 0 0
@@ -145,12 +147,12 @@ CDEIKLU 0 0 0
 stand stand female 50
 0 0 medium 0
 #910
-oldstyle soldier~
-A Soldier~
-A soldier is here, assisting Ares.
+asker~
+asker~
+Bir asker burada, Darba'ya yardým ediyor.
 ~
-This man is waiting on Ares.  Although he does not look very strong, you
-realize that Ares would not have any weaklings working for him.
+Bu asker Darba'yý bekliyor. Çok güçlü görünmemesine raðmen Darba ona hiç de
+basit olmayan görevler verecek.
 ~
 human~
 ABCF BDFHT 0 0
@@ -160,12 +162,11 @@ EFNU 0 0 0
 stand stand male 250
 0 0 medium 0
 #911
-oldstyle musician apprentice~
-an apprentice musician~
-A musician is here, learning from Apollo.
+müzisyen çýrak~
+müzisyen çýraðý~
+Bir müzisyen burada, Gugarkaz'dan ders alýyor.
 ~
-This man has mastered his first profession, and is now studying music from the
-immortal Apollo.
+Bu adam Gugarkaz ile müzik üzerine çalýþýyor, ne þans ama...
 ~
 human~
 ABC BDFHT 1000 0
@@ -175,11 +176,11 @@ EFNU 0 0 0
 stand stand male 125
 0 0 medium 0
 #912
-oldstyle boy serving servant~
-A serving boy~
-A servant is here, feeding Athena her grapes.
+uþak~
+uþak~
+Bir uþak burada, uhuk'a üzüm yediriyor.
 ~
-This boy is truly lucky to be able to serve Athena herself.
+Bu çocuk Uhuk'a hizmet edebildiði için gerçekten çok þanslý.
 ~
 human~
 ABC BDFHT 1000 0
@@ -189,12 +190,12 @@ EFNU 0 0 0
 stand stand male 25
 0 0 medium 0
 #913
-oldstyle hound dog war~
-A hound of war~
-A large hound snarls at you.
+savaþ köpek~
+savaþ köpeði~
+Ýri bir savaþ köpeði sana hýrlýyor.
 ~
-This great beast can barely be called a dog.  It has been bred to cause fear
-on the battle field, and you have no doubt that it does its job well.
+Bu muhteþem hayvan ancak köpek olarak adlandýrýlabilir. Savaþ alanlarýnda
+korkutmak amacýyla yetiþtirilmiþ. Görevini iyi yaptýðýndan hiç þüphen yok.
 ~
 human~
 ABCF BDFHT -600 0
@@ -204,13 +205,13 @@ EFNU 0 0 0
 stand stand none 0
 0 0 medium 0
 #914
-oldstyle Odin~
-Odin~
-Odin is resting here.
+sulruh~
+Sulruh~
+Sulruh burada, dinleniyor.
 ~
-As you gaze at Odin, you realize how insignificant you truly are.  He towers
-over you, and is so intent on his activities that he barely recognizes your
-presence.
+Sulruh'a dikkatlice baktýðýnda, kýymetli sayýlan birçok þeyin
+deðersizliðinin farkýna varýyorsun. Üzerinden yükseliyor.
+Dikkatini iþlerine vermiþ, varlýðýný fark etmiyor.
 ~
 human~
 ABC BDFHNT 1000 0
@@ -220,14 +221,13 @@ EFNU 0 0 0
 stand stand male 5000
 0 0 medium 0
 #915
-oldstyle grocer greengrocer julius~
-Julius the Green Grocer~
-Julius the Green Grocer stands here.
+manav~
+Manav~
+Manav burada dikiliyor.
 ~
-This jovial man has devoted his life to selling fruit and other foods to the
-inhabitants of this city.  Although he may seem like a wimp, it would be wise
-not to underestimate him.  He smiles warmly at you and shows you his selection
-of delicious looking foods.
+Bu arkadaþ canlýsý adam, þehrin sakinlerine meyve ve sebze satmaya
+hayatýný adamýþ. Sana candan bir gülümsemeyle bakarak leziz sebzelerini
+gösteriyor.
 ~
 human~
 ABC BDFHNT 1000 0
@@ -237,13 +237,11 @@ EFNU 0 0 0
 stand stand male 500
 0 0 medium 0
 #916
-oldstyle alchemist~
-the Alchemist~
-The ancient, wizened Alchemist stands here.
+simyacý~
+Simyacý~
+Yaþlý bir simyacý burada duruyor.
 ~
-Skilled in all manner of magic, as well as the ancient art of alchemy, he
-stands ready to supply the citizens here (but not you) with all manner of
-arcane supplies.
+Simyada ve büyüde oldukça becerikli ve bilgili.
 ~
 human~
 ABC BDFHNT 1000 0
@@ -253,12 +251,11 @@ EFNU 0 0 0
 stand stand male 500
 0 0 medium 0
 #917
-oldstyle clive~
-Clive the Weapons Master~
-Clive the Weapons Master is practicing with his bow and axe.
+silah efendisi~
+Silah Efendisi~
+Silah Efendisi burada, yayý ve baltasýyla pratik yapýyor.
 ~
-Clive looks VERY big and VERY tough.  All those years in the army must have
-paid off.
+ÇOK büyük ve ÇOK güçlü görünüyor.
 ~
 human~
 ABC BDFHNT 1000 0
@@ -268,12 +265,12 @@ EFNU 0 0 0
 stand stand male 2000
 0 0 medium 0
 #918
-oldstyle armourer samuel~
-Samuel the Armourer~
-Samuel the Armourer glares at you.
+zýrhçý~
+Zýrhçý~
+Zýrhçý sana öfkeyle bakýyor.
 ~
-Samuel looks just like Clive the Weapons Master: VERY big and VERY tough.
-He doesn't like what you've been doing in his city.
+Silah efendisine çok benziyor, ÇOK büyük ve ÇOK güçlü. Burada olman
+hoþuna gitmiyor.
 ~
 human~
 ABCF BDFHNT 1000 0
@@ -283,13 +280,11 @@ EFNU 0 0 0
 stand stand male 500
 0 0 medium 0
 #919
-oldstyle ra sun god~
-Ra the Sun God~
-Ra the Egyptian Sun God is resting here.
+soron~
+Soron~
+Soron burada, dinleniyor.
 ~
-Ra is very bright!  It hurts your eyes to look at him, so you can tell little
-about his appearance.  What you can tell, however, suggests that he is no one
-to be trifled with.
+Çok parlak bir teni olduðunu farkediyorsun. Bakarken gözlerin yanýyor.
 ~
 human~
 ABC BDFHNT 1000 0
@@ -299,12 +294,12 @@ ENR B B 0
 stand stand male 5000
 0 0 medium 0
 #920
-oldstyle chimera~
-a chimera~
-A chimera prowls the cell.
+sah~
+Sah~
+Sah hücrede sessizce dolaþýyor.
 ~
-This bizarre creature has three heads - one of a goat, one of a lion, and one
-of a dragon.  It growls at you as you enter the cell, then suddenly attacks!
+Bu tuhaf yaratýk üç kafaya sahip, biri keçi, biri aslan ve diðeri de bir
+ejderha. Hücreye girerken sana hýrlýyor!
 ~
 human~
 ABCF BDFHT -1000 0
@@ -314,12 +309,12 @@ EFNU 0 0 0
 stand stand male 50
 0 0 medium 0
 #921
-oldstyle hera~
-Hera~
-Hera is here.
+umur~
+Umur~
+Umur burada.
 ~
-Hera, the wife of Zeus is here.  She smiles at you as you enter and invites you
-to rest and sit for a while.
+Amrir'in eþini görüyorsun. Seni görünce gülümsüyor ve oturup dinlenmen
+için davet ediyor.
 ~
 human~
 ABCQ BDFHNT 1000 0
@@ -329,12 +324,11 @@ EIKU B B 0
 stand stand female 5000
 0 0 medium 0
 #922
-oldstyle roc~
-a roc~
-A roc is here.
+dev kartal~
+Dev kartal~
+Dev bir kartal görüyorsun.
 ~
-This is a giant bird.  It looks at you quizzically, then makes a noise and
-looks away.
+Ne kartal ama... Alaycý bir tavýrla seni izliyor.
 ~
 human~
 AC BDFHNT 0 0
@@ -344,11 +338,11 @@ EFNU 0 0 0
 stand stand none 250
 0 0 medium 0
 #923
-oldstyle citizen resident~
-A citizen~
-A citizen of this town is strolling down the street here.
+vatandaþ~
+vatandaþ~
+Bir vatandaþ burada, cadde boyunca dolaþýyor.
 ~
-He looks happy and carefree.  He smiles and tips his hat to you.
+Mutlu ve tasasýz görünüyor. Gülümseyerek selam veriyor.
 ~
 human~
 ACS BDFHNT 1000 0
@@ -358,12 +352,14 @@ BEFJNU 0 0 0
 stand stand male 3
 0 0 medium 0
 #924
-oldstyle pegasus horse~
-a pegasus~
-A large horse with wings is here.
+lumuk~
+lumuk~
+Lumuk burada.
 ~
-This horse is snow white with large wings.  Although it doesn't look very
-threatening, it seems as though it would be dangerous if provoked.
+Bu atýn rengi kar beyazý, kanat açýklýðý da oldukça geniþ. Tehditkar bir
+görünümde olmamasýna karþýn, eðer tahrik edilirse ölümcül saldýrýlar
+yapabilirmiþ gibi bir duruþu var. Tahminine göre ya Amrir ya da Gugorah'a
+hizmet ediyor.
 ~
 human~
 ACZ BDFHNT 0 0
@@ -373,11 +369,11 @@ EFNU 0 0 0
 stand stand none 40
 0 0 medium 0
 #925
-oldstyle cook~
-A Cook~
-A cook is here, hard at work.
+aþçý~
+aþçý~
+Bir aþçý burada, iþini yapýyor.
 ~
-This man looks as is he has been spending WAY too much time in the kitchen.
+Bu adam mutfakta oldukça fazla zaman geçirmiþe benziyor.
 ~
 human~
 ABC BDFHNT 1000 0
@@ -405,9 +401,9 @@ stand stand male 50
 
 #OBJECTS
 #900
-aegis plate~
-the Aegis~
-A powerful breast plate has been left here.~
+sahmadin zýrh~
+Sahmadin~
+Ýyi görünümlü bir zýrh burada duruyor.~
 platinium~
 armor FGK AD
 32 32 31 26 0
@@ -419,9 +415,9 @@ A
 A
 24 -5
 #901
-hammer thunder bolt thunderbolt~
-the Thunder Bolt~
-A huge hammer has been carelessly dropped here.~
+topuz yýldýrým~
+Yýldýrým Topuzu~
+Devasa bir topuz burada, dikkatsizce düþürülmüþ.~
 mithril~
 weapon FGK AN
 mace 12 10 blast G
@@ -433,9 +429,9 @@ A
 A
 4 -1
 #902
-helmet winged~
-a Winged Helmet~
-A helmet with small wings lies here.~
+miðfer kanatlý~
+Kanatlý Miðfer~
+Küçük kanatlý bir miðfer burada duruyor.~
 platinium~
 armor FGK AE
 21 22 21 10 0
@@ -445,9 +441,9 @@ A
 A
 14 100
 #903
-spear ares~
-the spear of Ares~
-A wicked spear rests on the ground here.~
+asa darba~
+Darba'nýn Asasý~
+Nefret dolu bir asa yerde duruyor.~
 titanium~
 weapon FGJ AN
 staff 9 12 thrust 0
@@ -457,9 +453,9 @@ A
 A
 19 15
 #904
-sandals winged~
-a pair of winged sandals~
-A pair of well made sandals lies here.~
+sandalet kanatlý~
+Bir çift kanatlý sandalet~
+Bir çift kanatlý sandalet burada duruyor.~
 silk~
 armor FGK AG
 18 18 18 10 0
@@ -467,17 +463,17 @@ armor FGK AG
 F
 A 0 0 T
 #905
-staff ivory~
-an ivory staff~
-An ivory staff.~
+asa fildiþi~
+fildiþi asa~
+Bir fildiþi asa burada býrakýlmýþ.~
 ivory~
 staff FGK AO
 90 9 9 'sanctuary' 0
 55 80 35800 P
 #906
-trident poseidon~
-poseidon's Trident~
-A huge three pronged spear lies here.~
+üç diþ asa~
+Üç Diþli Asa~
+Devasa bir üç diþli asa burada býrakýlmýþ.~
 oak~
 weapon FGK AN
 staff 9 12 pierce F
@@ -489,9 +485,9 @@ A
 A
 4 3
 #907
-bow silver~
-a silver bow~
-A silver bow.~
+yay gümüþ~
+gümüþ yay~
+Gümüþ bir yay burada býrakýlmýþ.~
 silver~
 weapon FGK AN
 bow 10 9 pierce F
@@ -501,9 +497,9 @@ A
 A
 18 12
 #908
-gauntlets flaming~
-flaming gauntlets~
-A pair of metal gauntlets flame here.~
+eldiven ateþ~
+bir çift ateþ eldiveni~
+Bir çift eldiven burada býrakýlmýþ.~
 steel gold leather~
 armor G AH
 21 21 21 21 0
@@ -513,17 +509,17 @@ A
 A
 18 8
 #909
-vial potion ambrosia~
-ambrosia~
-A vial of ambrosia lies here.~
+iksir ambros~
+ambros iksiri~
+Ufak bir þiþe iksir burada unutulmuþ.~
 glass~
 potion FGK A
 100 'dispel evil' 'holy aura' 'master heal' 'master heal'
 61 10 91130 P
 #910
-necklace glowing~
-a glowing necklace~
-A necklace with an inner glow lies here.~
+ýþýldayan kolye~
+ýþýldayan kolye~
+Kýzýl ýþýk saçan bir kolye burada duruyor.~
 amethyst~
 jewelry FGK AC
 0 0 0 0 0
@@ -531,9 +527,9 @@ jewelry FGK AC
 A
 12 100
 #911
-ring sapphire~
-a sapphire ring~
-A sapphire ring lies here.~
+yüzük safir~
+safir yüzük~
+Bir yüzük burada unutulmuþ.~
 sapphire~
 jewelry FGK AB
 0 0 0 0 0
@@ -545,9 +541,9 @@ A
 A
 4 2
 #912
-shield glowing~
-a brightly glowing shield~
-A shield lies here, filling the room with its aura.~
+kalkan ýþýldayan~
+ýþýldayan kalkan~
+Kýzýl ýþýk saçan bir kalkan burada duruyor.~
 silver~
 armor FGK AJ
 19 19 19 16 0
@@ -559,81 +555,81 @@ A
 A
 24 -10
 #913
-axe notched~
-a notched axe~
-A notched axe.~
+balta çentikli~
+çentikli balta~
+Çentikli bir balta burada býrakýlmýþ.~
 iron~
 weapon FGK AN
 axe 9 12 slice 0
 75 120 3600 P
 #914
-grapes~
-a bunch of grapes~
-A bunch of grapes.~
+üzüm salkým~
+salkým üzüm~
+Bir salkým üzüm burada yenmeyi bekliyor.~
 food~
 food 0 A
 24 24 0 0 0
 0 10 100 P
 #915
-fan~
-a fan made of peacock feathers~
-A fan made of peacock feathers.~
+yelpaze tavuskuþu~
+tavuskuþu yelpaze~
+Tavuskuþu tüylerinden yapýlmýþ bir yelpaze burada duruyor.~
 fur~
 trash 0 A
 0 0 0 0 0
 0 10 0 P
 #916
-lute~
-a lute~
-A lute.~
+ud~
+ud~
+Bir ud burada, bir melodi mýrýldanmak istiyor.~
 unknown~
 trash 0 A
 0 0 0 0 0
 0 10 0 P
 #917
-nugget gold~
-a gold nugget~
-A gold nugget lies gleaming here.~
+külçe altýn~
+külçe altýn~
+Bir külçe altýn parýldýyarak yerde duruyor.~
 gold~
 treasure 0 A
 0 0 0 0 0
 0 50 5000 P
 #918
-apple~
-an apple~
-An apple is here.~
+elma~
+elma~
+Bir elma burada duruyor.~
 food~
 pill 0 A
 50 'cure light' 'cure light' 'cure light' 'cure light'
 0 10 340 P
 #919
-pear~
-a pear~
-A pear is here.~
+armut~
+armut~
+Bir armut burada duruyor.~
 food~
 pill 0 A
 80 'remove curse' 'cure light' 'cure poison' 'cure disease'
 6 10 530 P
 #920
-orange~
-a orange~
-A orange is here.~
+portakal~
+portakal~
+Bir portakal burada duruyor.~
 food~
 pill 0 A
 50 '' 'shield' 'armor' ''
 0 10 340 P
 #921
-kiwi~
-a kiwi~
-A kiwi is here.~
+kivi~
+bir kivi~
+Bir kivi burada duruyor.~
 food~
 pill 0 A
 50 '' '' 'cure poison' 'cure disease'
 6 10 530 P
 #922
-amulet~
-the Amulet of Ra~
-A sun shaped medallion is lying here.~
+madalyon soron~
+Soron'un Madalyonu~
+Güneþ þeklinde bir madalyon burada duruyor.~
 crystal~
 jewelry FGK AC
 0 0 0 0 0
@@ -645,9 +641,9 @@ A
 A
 24 -5
 #923
-sun sword~
-the Sword of the Sun~
-A beautiful sword with the rising sun etched on the pommel is lying here.~
+güneþ kýlýç~
+Güneþ Kýlýcý~
+Parýldayan, güzel bir kýlýç yerde duruyor.~
 unknown~
 weapon FGKL AN
 sword 12 10 slash 0
@@ -659,9 +655,9 @@ A
 A
 6 3
 #924
-robe blue~
-a blue robe~
-A deep blue robe is on the ground here.~
+kaftan mavi~
+mavi kaftan~
+Mavi renkte bir kaftan yerde duruyor.~
 unknown~
 armor FGK AK
 6 6 6 8 0
@@ -669,42 +665,42 @@ armor FGK AK
 A
 13 15
 #925
-hat~
-a wide brimmed hat~
-A hat is lying here.~
+þapka~
+þapka~
+Bir þapka burada, alýnmayý bekliyor.~
 cloth~
 armor FGK AE
 4 4 4 3 0
 5 50 580 P
 #926
-nectar~
-nectar~
-A vial of nectar is lying here.~
+nektar~
+nektar~
+Ufak bir þiþe nektar yerde duruyor.~
 glass~
 potion 0 A
 90 'sanctuary' 'giant strength' 'fly' 'enhanced armor'
 42 10 810 P
 #927
-key cell~
-a Cell key~
-A key has been left here.~
+anahtar hücre~
+hücre anahtarý~
+Bir anahtar burada býrakýlmýþ.~
 ivory~
 key 0 A
 0 0 0 0 0
 0 10 0 P
 #928
-map olympus secret~
-a secret map of Olympus~
-A rolled up map is here.~
+sumut harita~
+Sumut'un gizli haritasý~
+Rulo yapýlmýþ bir harita görüyorsun.~
 paper~
 map 0 A
 1 0 0 0 0
 0 10 500 P
 E
-map olympus secret~
+sumut harita gizli~
 .
                               The Secret Map Of
-                               *****OLYMPUS*****
+                               *****SUMUT*****
 
                                    (Hermes)
                                    Bedroom    The Portal
@@ -747,9 +743,9 @@ map olympus secret~
                       Mountain
 ~
 #930
-arrow silver~
-a silver arrow~
-A silver arrow with an inner glow lies here.~
+gümüþ ok~
+gümüþ bir ok~
+Gümüþ bir ok yerde yatýyor.~
 silver~
 weapon FGK AO
 arrow 6 7 pierce ABCDEFGH
@@ -762,10 +758,10 @@ A
 
 #ROOMS
 #901
-Mountain~
-You are climbing a large mountain which towers over Ofcol.  The path
-continues up the mountain, but part of it is gone.  There is no way to
-continue by land.
+Sumut'a Týrmanan Patika~
+Yüksek sayýlabilecek bir daðý týrmanan patikanýn eþiðindesin. Patika
+büyük oranda kaybolmuþ. Civarda ufak kamp izleri görüyorsun. Yola devam
+etmek istiyorsan yukarý doðru týrmanman gerekecek.
 ~
 0 0 5
 D2
@@ -778,9 +774,10 @@ D4
 0 -1 902
 S
 #902
-Mountain~
-You are making your way up the mountain.  The rigorous climb has left you
-tired, and you are ready to take a break.
+Sumut'a Týrmanan Patika~
+Daðýn tepesine ilerleyen silik patikadasýn. Yaþamýn devamýný
+kanýtlarcasýna öten böceklerin ve kuþlarýn seslerini duyuyorsun. Patika
+yukarý ve aþaðý yönde devam ediyor.
 ~
 0 0 9
 D4
@@ -793,10 +790,9 @@ D5
 0 -1 901
 S
 #903
-Mountain~
-You have finally reached the top of the mountain.  The air here is so thin
-that you must gasp for breath.  To the north, you see what seems to be the
-entrance to a city.
+Sumut'a Týrmanan Patika~
+Sonunda daðýn tepesine ulaþtýn. Oksijendeki azalmayý hissedebiliyorsun.
+Kuzeye giden yol Sumut'a ulaþýyor.
 ~
 0 0 9
 D0
@@ -809,10 +805,10 @@ D5
 0 -1 902
 S
 #904
-Entrance~
-You are at the entrance to a huge city.  As you look around, you realize
-that the inhabitants of this city must be very wealthy indeed - you have never
-seen a city with such beautiful buildings.
+Sumut Kasabasý'na Giriþi~
+Büyük bir kasabanýn giriþindesin. Etrafýna þöyle bir baktýðýnda kasaba
+sakinlerinin çok zengin olduðunu fark ediyorsun. Hayatýnda böyle güzel
+binalara sahip bir kasaba görmemiþtin.
 ~
 0 0 1
 D0
@@ -825,14 +821,13 @@ D2
 0 -1 903
 S
 #905
-Zeus Street~
-You are walking down a huge street.  You notice that there are not many
-people in this town.  On a corner, you see a sign marked 'Zeus Street'.
-To the west, you see a small store.
+Basham Caddesi~
+Çok geniþ bir caddede yürüyorsun. Kasaba çok kalabalýk deðil. Bir köþede
+'Basham Caddesi' yazýlý bir tabela görüyorsun. Batýda küçük bir dükkan var.
 ~
 0 0 1
 D0
-The street continues.
+Cadde devam ediyor.
 ~
 ~
 0 -1 906
@@ -846,10 +841,9 @@ D3
 0 -1 924
 S
 #906
-Zeus Street~
-You are walking down what appears to be the main street of this city.
-You see large residences to the east and west, while the street continues
-to the north and south.
+Basham Caddesi~
+Kasabanýn en geniþ ve en büyük caddesindesin. Sokak güneye ve kuzeye
+devam ederken doðuda ve batýda büyük konutlar görüyorsun.
 ~
 0 0 1
 D0
@@ -861,7 +855,7 @@ D1
 ~
 0 -1 925
 D2
-The street continues.
+Cadde devam ediyor.
 ~
 ~
 0 -1 905
@@ -871,9 +865,8 @@ D3
 0 -1 926
 S
 #907
-Zeus Street~
-You are on the main street of this town, called Zeus street. There is some
-sort of store to the west.
+Basham Caddesi~
+Basham Caddesi'ndesin. Batýda birkaç dükkan görüyorsun.
 ~
 0 0 1
 D0
@@ -890,9 +883,9 @@ D3
 0 -1 927
 S
 #908
-Zeus Street~
-You are still on the main thoroughfare of this town.  To the north, you see
-a large castle.  To the east there is a smaller road.
+Basham Caddesi~
+Hala kasabanýn ana caddesindesin. Kuzeyde büyük bir kale görüyorsun.
+Doðuda küçük bir yol var.
 ~
 0 0 1
 D0
@@ -909,10 +902,10 @@ D2
 0 -1 907
 S
 #909
-Castle Entryway~
-You are in the entryway of a large castle.  It is very beautiful, with
-large paintings and a lovely carpet.  You hear jovial laughter to the north,
-while smaller corridors branch off to the east and west.
+Kale Giriþi~
+Büyük bir kalenin giriþ yolundasýn. Resimler ve halýlarla kurulan
+dekorasyon oldukça etkileyici. Kuzeyden gelen bir kahkaha duyuyorsun. Küçük
+koridorlar doðu ve batý yönlerine ayrýlýyorlar.
 ~
 0 D 1
 D0
@@ -933,10 +926,10 @@ D3
 0 -1 911
 S
 #910
-Throne Room~
-You stop dead in your tracks as you enter this room.  Before you is Zeus,
-in all his glory, sitting on a huge golden throne.  You had thought him to be
-just a myth, but here he is ... you wonder who else lives in this castle.
+Taht Odasý~
+Bu odaya girerken izlerin yok oluyor. Kral Amrir'in taht odasýndasýn.
+Karþýnda, tamamý altýndan yapýlmýþ, zümrütlerle süslenmiþ, zeminle bir
+bütünmüþ gibi duran muhteþem tahtý görüyorsun.
 ~
 0 D 1
 D0
@@ -949,19 +942,19 @@ D2
 0 -1 909
 D5
 ~
-throne trapdoor~
+taht~
 1 -1 918
 E
-throne~
-This huge golden throne looks as if it has been here for ages.  As you study it
-carefully, you notice that it is not firmly attached to the floor ... perhaps
-you could slide it?
+Taht~
+Bu büyük altýn taht burada çaðlarca durmuþ. Ýyice baktýðýnda tahtýn
+zemine tam birleþtirilmemiþ olduðunu fark ediyorsun... Belki yerinden biraz
+olsun kaldýrabilirsin?
 ~
 S
 #911
-Western Wing~
-You are in the western wing of the castle.  You see the entrance to the
-east, while this hallway continues to the west.
+Batý Kanadý~
+Kalenin batý kanadýndasýn. Doðuda bir giriþ var, koridor batýya doðru
+devam ediyor.
 ~
 0 D 1
 D1
@@ -974,9 +967,9 @@ D3
 0 -1 912
 S
 #912
-Western Wing~
-You are in the western wing of the castle.  The hallway continues to the
-north, while there are private rooms to the west and south.
+Batý Kanadý~
+Kalenin batý kanadýndasýn. Koridor kuzeye doðru devam ediyor, güneyde ve
+batýda özel odalar var.
 ~
 0 D 1
 D0
@@ -997,9 +990,9 @@ D3
 0 -1 929
 S
 #913
-Western Wing~
-You are in the western wing of the castle.  This hallway continues to the
-south, and you hear pots and pans rattling to the north.
+Batý Kanadý~
+Kalenin batý kanadýndasýn. Koridor güneye doðru devam ediyor. Kuzeyde
+çömlek ve tavalarýn sesini duyuyorsun.
 ~
 0 D 1
 D0
@@ -1012,9 +1005,10 @@ D2
 0 -1 912
 S
 #914
-Kitchen~
-You have entered the kitchen of this castle, and it is a hotbed of
-activity.  Servants are bustling about, preparing food for the Gods themselves.
+Mutfak~
+Kalenin mutfaðýna girdin ve burasý oldukça sýkýcý bir yer. Kalede bulunan
+insanlarýn tümüne yetecek yemeðin kolayca hazýrlanabileceði kadar geniþ.
+Duvarlara sinmiþ yaðýn ve baharatýn kokusunu alýyorsun.
 ~
 0 D 1
 D2
@@ -1023,9 +1017,8 @@ D2
 0 -1 913
 S
 #915
-Eastern Wing~
-You are in the eastern wing of the castle.  The hall continues to the
-east, while the entrance is back to the west.
+Doðu Kanadý~
+Kalenin doðu kanadýndasýn. Koridor doðuya doðru devam ediyor, giriþ batýda.
 ~
 0 D 1
 D1
@@ -1038,9 +1031,9 @@ D3
 0 -1 909
 S
 #916
-Eastern Wing~
-You are in the eastern wing of the castle.  The hall turns to the north
-here, while there are private rooms to the east and the south.
+Doðu Kanadý~
+Kalenin doðu kanadýndasýn. Koridor burada kuzeye dönüyor. Güneyde ve
+doðuda özel odalar var.
 ~
 0 D 1
 D0
@@ -1061,9 +1054,9 @@ D3
 0 -1 915
 S
 #917
-Eastern Wing~
-You are in the eastern wing of the castle.  You hear animals to the north,
-while the hallway continues to the south.
+Doðu Kanadý~
+Kalenin doðu kanadýndasýn. Kuzeyden hayvan sesleri geliyor. Koridor
+güneye devam ediyor.
 ~
 0 D 1
 D0
@@ -1076,9 +1069,9 @@ D2
 0 -1 916
 S
 #918
-Dungeon~
-You are in Zeus's Dungeon.  You wonder what creatures are so terrible that
-even mighty Zeus fears them enough to imprison them.
+Zindan~
+Kale zindanýndasýn. Kudretli Amrir'in hangi korkunç yaratýklardan korkup
+onlarý hapsettiðini merak ediyorsun.
 ~
 0 AD 1
 D0
@@ -1087,13 +1080,12 @@ D0
 0 -1 919
 D4
 ~
-trapdoor throne~
+kapý~
 1 -1 910
 S
 #919
-Dungeon~
-You are in Zeus's Dungeon.  There are cells to the north, west, and east.
-From the east and west, you hear guttural noises.  From the north, nothing ...
+Zindan~
+Kale zindanýndasýn. Kuzeyde, batýda, ve doðuda hücreler var...
 ~
 0 AD 1
 D0
@@ -1114,8 +1106,8 @@ D3
 2 927 921
 S
 #920
-Cell~
-You are in a small, cramped, dirty cell.  It is a horrid place.
+Hücre~
+Küçük, sýkýþýk ve pis bir hücredesin. Korkunç bir yer.
 ~
 0 AD 1
 D2
@@ -1124,8 +1116,8 @@ D2
 2 927 919
 S
 #921
-Cell~
-You are in a small, cramped, dirty cell.  It is a horrid place.
+Hücre~
+Küçük, sýkýþýk ve pis bir hücredesin. Berbat bir yer.
 ~
 0 AD 1
 D1
@@ -1134,8 +1126,8 @@ D1
 2 927 919
 S
 #922
-Cell~
-You are in a small, cramped, dirty cell.  It is a horrid place.
+Hücre~
+Küçük, sýkýþýk ve pis bir hücredesin. Ýðrenç bir yer.
 ~
 0 AD 1
 D3
@@ -1144,9 +1136,9 @@ D3
 2 927 919
 S
 #923
-Stairway~
-You have come to a large stairway leading up.  To the south, you see the
-throne room of Zeus. To the down you see a dark sea.
+Merdiven~
+Yukarýya çýkan geniþ bir merdivendesin. Güneyde Amrir'in taht odasý,
+aþaðýda karanlýk denizi görüyorsun.
 ~
 0 D 1
 D2
@@ -1163,9 +1155,9 @@ D5
 0 -1 29500
 S
 #924
-Bakery~
-You are in the small store which supplies the residents of this town with
-their food.  It smells wonderful in here!
+Fýrýn~
+Ekmekleriyle kasabayý besleyen küçük bir dükkandasýn. Burasý harika
+kokuyor!
 ~
 0 D 1
 D1
@@ -1174,9 +1166,10 @@ D1
 0 -1 905
 S
 #925
-Residence~
-You are in the residence of one of the inhabitants of this town.  She
-looks vaguely familiar, but you can't place her name ...
+Konut~
+Kasaba sakinlerinden birinin konutundasýn. Büyük þehirlerin konutlarý
+gibi dekore edilmiþ. Duvar ve tavan iþçiliði için oldukça yüksek miktarda
+ödeme yapýlmýþ olmasý gerektiðini düþünüyorsun.
 ~
 0 D 1
 D3
@@ -1185,9 +1178,10 @@ D3
 0 -1 906
 S
 #926
-Residence~
-You are in the residence of one of the inhabitants of this town.  He looks
-vaguely familiar, but you can't place his name ...
+Konut~
+Kasaba sakinlerinden birinin konutundasýn. Büyük þehirlerin konutlarý
+gibi dekore edilmiþ. Duvar ve tavan iþçiliði için oldukça yüksek miktarda
+ödeme yapýlmýþ olmasý gerektiðini düþünüyorsun.
 ~
 0 D 1
 D1
@@ -1196,9 +1190,9 @@ D1
 0 -1 906
 S
 #927
-Mystic Shop~
-You are in the store which provides the citizens here with whichever
-arcane objects they may need.
+Antika Dükkaný~
+Herhangi bir mistik nesneye ihtiyaç duyan kasabalýnýn ilk olarak geldiði
+dükkandasýn.
 ~
 0 D 1
 D1
@@ -1207,9 +1201,9 @@ D1
 0 -1 907
 S
 #928
-Ares Street~
-You are on a smaller road which branches off from the main street.  On a
-sign, you notice that the name of this road is Ares Street.
+Sazgar Sokaðý~
+Ana caddeden dallara ayrýlan sokaklardan birindesin. Tabelada bu yolun
+Sazgar Sokaðý olduðu yazýyor.
 ~
 0 D 1
 D1
@@ -1222,10 +1216,10 @@ D3
 0 -1 908
 S
 #929
-Guest Quarters~
-You have entered private quarters which are reserved for visitors to the
-castle.  You nearly faint as you recognize the occupant of this chamber as Odin
-himself, patron God of Midgaard.  He must be visiting Zeus.
+Misafir Odasý~
+Kaledeki ziyaretçilere ayrýlan özel konutlarýn bulunduðu yerdesin. Oda
+ihtiþamlý dekorasyonuyla Amrir'in asaletini ve gücünü temsil ediyor. Sumut
+Daðý'na hükmeden krala yakýþýr bir misafir odasý.
 ~
 0 D 1
 D1
@@ -1234,9 +1228,8 @@ D1
 0 -1 912
 S
 #930
-Storage Room~
-You are in a storage room of the castle.  There isn't much here, just a
-few boxes filled with old junk.
+Ambar~
+Kalenin ambarýndasýn. Ivýr zývýrla dolu birkaç kutudan baþka birþey yok.
 ~
 0 D 1
 D0
@@ -1245,10 +1238,10 @@ D0
 0 -1 912
 S
 #931
-Guest Quarters~
-You have entered a room reserved for visitors to this castle.  You are
-amazed as you recognize the occupant - Ra, the Egyptian Sun God.  He must be
-visiting Zeus.
+Ziyaretçi Yeri~
+Kaledeki ziyaretçilere ayrýlan özel konutlarýn bulunduðu yerdesin. Oda
+ihtiþamlý dekorasyonuyla Amrir'in asaletini ve gücünü temsil ediyor. Sumut
+Daðý'na hükmeden krala yakýþýr bir misafir odasý.
 ~
 0 D 1
 D3
@@ -1257,9 +1250,8 @@ D3
 0 -1 916
 S
 #932
-Storage Room~
-You are in a storage room of the castle.  There isn't much here, just a lot
-of dust.
+Ambar~
+Kalenin ambarýndasýn. Ivýr zývýrla dolu birkaç kutudan baþka birþey yok.
 ~
 0 D 1
 D0
@@ -1268,10 +1260,9 @@ D0
 0 -1 916
 S
 #933
-Stable~
-You are in the stable of the castle.  Rather than the horses which you
-expected to find, it is filled with a wide variety of creatures which you
-thought were mythical.  Obviously, you were wrong.
+Ahýr~
+Kalenin ahýrýndasýn. Yýðýlan saman balyalarý yüzünden pencereler
+kapanmýþ. Gübre kokusu rahatsýz edici derecede güçlü.
 ~
 0 D 1
 D2
@@ -1280,10 +1271,9 @@ D2
 0 -1 917
 S
 #934
-Ares Street~
-You have reached the end of Ares Street.  To the south you see an armoury,
-while there is a weapons shop to the east.  To the north, you hear the sounds
-of a blacksmith.
+Sazgar Sokaðý~
+Sazgar Sokaðý'nýn sonuna geldin. Güneyde bir zýrhçý görüyorsun, batýda
+bir silah dükkaný bulunuyor. Kuzeyde ise demirciyi fark ediyorsun.
 ~
 0 D 1
 D0
@@ -1304,9 +1294,9 @@ D3
 0 -1 928
 S
 #935
-Armoury~
-This small store is almost empty.  It seems as if there is not much here,
-but the shopkeeper doesn't want to do business with you anyways.
+Zýrhçý~
+Bu küçük dükkan hemen hemen boþ. Fazla iþ olmamasýna raðmen, tezgahtar
+seninle ticaret yapmak istemiyor.
 ~
 0 D 1
 D0
@@ -1315,10 +1305,9 @@ D0
 0 -1 934
 S
 #936
-Weapon Shop~
-You have entered a small store with a modest selection of weapons.  You
-get the feeling that there is not a very wide selection here, but the
-shopkeeper doesn't want to do business with you anyways.
+Silahçý~
+Gösteriþsiz silahlarýn olduðu küçük bir dükkandasýn. Çok fazla silah
+çeþidinin olmadýðýný görüyorsun. Tezgahtar seninle ticaret yapmak istemiyor.
 ~
 0 D 1
 D3
@@ -1327,10 +1316,11 @@ D3
 0 -1 934
 S
 #937
-Smithy~
-This large room is so noisy, you can barely hear yourself think.  All the
-occupants are hard at work, crafting high quality weapons and armor.  Something
-is strange about the west wall, although you can't quite tell what it is.
+Demirci~
+Bu geniþ oda o kadar gürültülü ki, ancak kendi düþüncelerini
+duyabiliyorsun. Mekanik hareketlerle salýnan körük, rüzgarla çýnlayan metal
+parçalarý kulaklarý hassas birini saðýr edebilir. Batý duvarýnda tuhaf bir
+þey var ve sen ne olduðunu anlayamýyorsun.
 ~
 0 D 1
 D2
@@ -1338,16 +1328,16 @@ D2
 ~
 0 -1 934
 D3
-You see a concealed door!
+Gizlenmiþ bir kapý görüyorsun!
 ~
-door concealed~
+gizli kapý~
 1 -1 938
 S
 #938
-The Planning Room~
-You have entered a large room dominated by a huge table with a large map
-on it.  Several men are gathered around the table, studying the map carefully.
-You hear the barking of dogs to the north.
+Planlama Odasý~
+Ortasýnda devasa bir masanýn durduðu geniþ bir odadasýn. Buranýn önemli
+bir planlama odasý olduðunu anlýyorsun. Gönyeler, rulolanmýþ haritalar,
+saldýrý ve savunmalarý simüle etmeye yarayan küçük asker heykelleri...
 ~
 0 AD 1
 D0
@@ -1360,11 +1350,9 @@ D1
 0 -1 937
 S
 #939
-Second Floor~
-You are on the second floor of this castle.  You are numb from your
-discoveries on the first floor, and wonder what secrets the upper floor of this
-castle holds.  Hallways extend in all directions, and you see a small, closed
-hatch above you.
+Ýkinci Kat~
+Kalenin ikinci katýndasýn. Koridor bütün yönlerde uzanýyor. Yukarýda
+küçük kapanmýþ bir ambar aðzýný görüyorsun.
 ~
 0 D 1
 D0
@@ -1384,9 +1372,9 @@ D3
 ~
 0 -1 942
 D4
-You see a sign on the hatch.  It reads 'Private Property. No trespassing!'
+Ambarýn kapaðýndaki tabela: 'Özel Mülk. Ýzinsiz Girilmez! '.
 ~
-hatch~
+kapak~
 1 -1 948
 D5
 ~
@@ -1394,9 +1382,9 @@ D5
 0 -1 923
 S
 #940
-Northern Hall~
-You are in the northern hallway.  There is a private room to the north,
-and the stairs leading down are to the south.
+Kuzey Koridoru~
+Kuzey koridorundasýn. Kuzeyde özel bir oda bulunuyor, güneyde aþaðýya
+inen merdivenler görüyorsun.
 ~
 0 D 1
 D0
@@ -1409,9 +1397,9 @@ D2
 0 -1 939
 S
 #941
-Southern Hall~
-You are in the southern hallway.  There is a private room to the south,
-and the stairs leading down are to the north.
+Güney Koridoru~
+Güney koridorundasýn. Güneyde özel bir oda bulunuyor, kuzeyde aþaðýya
+inen merdivenler görüyorsun.
 ~
 0 D 1
 D0
@@ -1424,9 +1412,9 @@ D2
 0 -1 944
 S
 #942
-Western Hall~
-You are in the western hallway.  There is a private room to the west, and
-the stairs leading down are to the east.
+Batý Koridoru~
+Batý koridorundasýn. Batýda özel bir oda bulunuyor, doðuda aþaðýya inen
+merdivenler görüyorsun.
 ~
 0 D 1
 D1
@@ -1439,9 +1427,9 @@ D3
 0 -1 945
 S
 #943
-Eastern Hall~
-You are in the eastern hallway.  There is a private room to the east, and
-the stairs leading down are to the west.
+Doðu Koridoru~
+Doðu koridorundasýn. Doðuda özel bir oda bulunuyor, batýda aþaðýya inen
+merdivenler görüyorsun.
 ~
 0 D 1
 D1
@@ -1454,8 +1442,8 @@ D3
 0 -1 939
 S
 #944
-Bed Room~
-You are in the bed room of a God!  This one seems to be empty.
+Yatak Odasý~
+Bir yatak odasýndasýn!
 ~
 0 D 1
 D0
@@ -1464,8 +1452,8 @@ D0
 0 -1 941
 S
 #945
-Bed Room~
-You are in the bed room of a God!
+Yatak Odasý~
+Bir yatak odasýndasýn!
 ~
 0 D 1
 D1
@@ -1474,8 +1462,8 @@ D1
 0 -1 942
 S
 #946
-Bed Room~
-You are in the bed room of a God!
+Yatak Odasý~
+Bir yatak odasýndasýn!
 ~
 0 D 1
 D3
@@ -1484,8 +1472,8 @@ D3
 0 -1 943
 S
 #947
-Bed Room~
-You are in the bed room of a God!
+Yatak Odasý~
+Bir yatak odasýndasýn!
 ~
 0 D 1
 D2
@@ -1494,10 +1482,12 @@ D2
 0 -1 940
 S
 #948
-Hall of Gods~
-You have entered the most sacred of places, the hall of true Gods.  If you
-are a mortal, it would probably be a good idea to leave NOW!  Exits leave in
-all directions.
+Büyük Salon~
+Kutsal görünümlü ve ihtiþamlý bir salondasýn. Tek parça siyah mermerden
+oyulmuþ dev bir masa salonun ortasýna yerleþtirilmiþ. Duvarlarda eski
+krallar olduðunu düþündüðün kiþilere ait tablolar var. Zemin Selenge'nin
+doðusundan getirtildiðine inandýðýn halýlarla estetik bir þekilde döþenmiþ.
+Her yönde çýkýþlar bulunuyor.
 ~
 0 D 1
 D0
@@ -1506,12 +1496,12 @@ D0
 0 -1 951
 D5
 ~
-hatch~
+ambar kapak~
 0 -1 939
 S
 #951
-The Portal~
-A sign reads: Beware of the unexpected and don't expect too much.
+Geçit~
+Bir tabela üzerinde: 'Beklenmeyenden kaçýn! ' yazýyor.
 ~
 0 D 1
 D2
@@ -1520,8 +1510,9 @@ D2
 0 -1 948
 S
 #954
-The Believer~
-A voice whispers, 'before the time has passed, enjoy your life.'
+Ýnanan~
+Duvarda üzerinde 'Vakit geç olmadan, hayatýn tadýný çýkar,' yazan büyük
+bir papirüs görüyorsun.
 ~
 0 D 1
 D2
