@@ -1,0 +1,7542 @@
+#AREA
+bolunmus_ruhlar.are~
+Bölünmüþ Ruhlar~
+{45 90} Ydri    Bölünmüþ Ruhlar~
+11600 11799
+
+#MOBILES
+#11600
+sym soytarý~
+Sym~
+Kývrak bir soytarý hoplayýp zýplayarak gölgelerin içinde yitip gidiyor.
+~
+Havada daireler çizen bir kar tipisi bir anda yavaþlayýp, içinden ince,
+yeþillere bürünmüþ, tepesine de bir soytarý þapkasý kondurmuþ bir figür ortaya
+çýkarýyor.  Sað ve sol göðüs ceplerinin arasýna altýnla iþlenmiþ þu kelimeleri
+fark ediyorsun:
+"Sym"
+ve
+"Merak etmek büyümektir.."
+Sol cep kýsmen çim lekesi ile boyanmýþ.
+~
+elf~
+ACGR BQV 900 0
+80 0 100d12+13500 1d10+850 13d5+50 punch
+-50 -52 -51 -50
+FGJN 0 BCN MZ
+stand stand either 1000
+AHMQV ABCDEFGHIJK medium 0
+#11601
+anka kuþ~
+Anka kuþu~
+Kocaman gri kanatlý bir kuþ açlýkla gözlerini sana dikiyor.
+~
+Gri kanatlarýnda beyaz çizgileri olan devasa büyüklükte beyaz bir kuþ
+tepende uçarak, potansiyel bir ziyafeti incelemek maksadýyla seni
+dikkatle süzüyor.
+Elbette, bu yükseklikten, bir böceðe benziyor olmalýsýn..
+~
+song bird~
+ABCG T 0 0
+65 0 65d10+8500 1d10+650 9d6+30 peck
+-35 -33 -34 -20
+FH 0 EC H
+stand stand either 0
+0 0 huge 0
+#11602
+kuþ bülbül~
+bülbül~
+Küçük siyah bir bülbül, bezelye tohumlarýný gagalayarak etrafta sekiyor.
+~
+Iþýk, minicik siyah bülbülün parlak kara tüyleri üzerinde parýldýyor.
+Küçük kuþ kafasýný kaldýrýyor ve senin bakýþýna karþýlýk verdikten sonra,
+müzikal bir tonla cývýldayýp öðle yemeðine geri dönüyor.
+~
+song bird~
+ACG T 0 0
+45 0 25d10+3000 1d10+450 3d12+15 peck
+-17 -17 -17 -17
+FH 0 F O
+stand stand either 0
+0 0 tiny 0
+#11603
+öðretmen kadýn heykel~
+öðretmen~
+Elindeki kitaba eðilmiþ uzun boylu bir kadýn heykeli beyaz kaidenin
+üstünde duruyor.
+~
+Uçuþan gri cüppe giymiþ uzun boylu bir kadýnýn taþ heykeli, bir eli
+kitabýn üzerinde dururken, sanki vurgulamak istercesine bir paragrafý
+iþaret ediyor.
+~
+statue~
+ABG 0 0 0
+60 0 50d10+7750 1d10+600 8d6+28 crush
+-32 -31 -30 -25
+DJK CHIR FLQ NP
+stand stand female 0
+HJM ABCEGHIJK large stone
+#11604
+öðrenci kýz heykel~
+öðrenci~
+Bir genç kýz heykeli gri kaidenin üzerinde eðilmiþ vaziyette duruyor.
+~
+Bir genç kýzýn beyaz mermerden heykeli gri kaidenin üzerinde kitabýn
+bir adým yanýnda duruyor. Dikkatinin bir kýsmý kitaba odaklanmýþ,
+bir yandan da öðretmene bakýyor.  Taþtan gözler parlak ve meraklý,
+ama þimdilik gölgeliler.  Anlama çabasýný gösteren yüzüne hakim çatýk
+kaþlarý olmasa, genç ve yumuþak bir yüzü var.
+~
+statue~
+ABCG V 0 0
+52 0 50d10+4500 1d10+520 6d7+20 punch
+-24 -25 -23 -18
+F N 0 BL
+stand stand female 0
+HJM ABCDEFGHIJK small stone
+#11605
+büyücü heykel erkek figür~
+Bir büyücü heykeli~
+Cüppeli bir figürün taþtan heykeli, büyü yaparcasýna kollarýný havaya
+kaldýrmýþ burada duruyor.
+~
+Gri damarlý beyaz mermer kýsa boylu, uçuþan uzun cüppe giymiþ bir
+adam formunda oyulmuþ. Elleri öne doðru kalkmýþ, ve taþtan aðzý
+sanki bir büyünün ortasýnda donuvermiþ gibi açýk duruyor.
+~
+statue~
+AB 0 0 0
+61 0 50d10+7500 1d10+1800 8d6+20 crush
+-29 -28 -29 -33
+FJ LQ CHINM P
+stand stand male 3000
+HJM ABCEGIJK small stone
+#11606
+beyaz tekboynuzlu at~
+Tekboynuz~
+Iþýldayan mavi boynuzlu beyaz bir at seni saygýyla selamlýyor.
+~
+Beyaz alýndan çýkan mavi bir boynuz, ürkütücü bir içsel ýþýkla parlýyor.
+Berrak gözler sonsuz bir zekayý açýða çýkarýyor,
+ama yine de garip, masum bir boþlukla gölgelenmiþler.
+~
+horse~
+AGZ CDEFGNH 1000 0
+70 2 100d10+9500 1d10+800 12d5+40 cleave
+-45 -45 -45 -45
+EFIK LNS BGI M
+stand stand either 0
+ACHV ACDEFHK large 0
+#11607
+hayalperest beyaz heykel~
+hayalperestin heykeli~
+Hayalperestin mermer bir heykeli burada duruyor.
+~
+Yaþý belirsiz diþi bir figürün heykeli beyaz mermerden oyulmuþ.
+Yontulan yüz yukarý doðru çevrilmiþ, taþtan gözler
+ya geçmiþte ya da gelecekte kaybolmuþçasýna hiçbir þeye bakmýyor.
+Heykel ýþýkta parýldýyor, zaman veya hava tarafýndan hiç yýpratýlmamýþ.
+Ancak hayalperest hiç de bugüne aitmiþ gibi görünmüyor.
+~
+statue~
+ABGU T 0 0
+57 0 50d10+6000 1d10+570 6d8+24 pound
+-27 -28 -26 -20
+F LQ EGHI B
+stand stand female 0
+HJ ABCGHIJK medium stone
+#11608
+beyaz þövalye figür~
+Bir beyaz þövalye~
+Parlayan beyaz zýrh kuþanmýþ bir figür burada duruyor.
+~
+Parlayan beyaz zýrha bürünmüþ bir þövalye,
+hantal çelik bir dev gibi yükseliyor.  Cilalanmýþ metalin üzerinden
+yansýyan ýþýk, þövalyeyi neredeyse kör edici bir haleyle çevreliyor.
+Zýrhýnýn göðüs kýsmýna parlayan bir haç iþlenmiþ... elbette, beyaz.
+~
+human~
+AGT CN 900 0
+65 3 65d10+9000 1d10+250 9d6+40 cleave
+-37 -38 -36 -27
+DEFIK N EG KMOP
+stand stand either 5000
+0 0 large 0
+#11609
+fildiþi heykel leydi adalet~
+Adalet leydisi~
+Elinde demir terazi tutan bir kadýnýn fildiþinden heykeli buraya
+yerleþtirilmiþ.
+~
+Yaþý belirsiz dürüst görünümlü bir kadýnýn heykeli fildiþinden oyulmuþ.
+Öne doðru uzattýðý elinde bir terazi tutuyor.  Heykel bir kenarýndan
+çentik almýþ, ve bu, terazinin hafifçe bir yana yatmasýna sebep olmuþ.
+~
+statue~
+ABG G 0 0
+68 0 70d10+9500 1d10+680 9d6+45 pound
+-37 -38 -38 -35
+EFK HILQ F B
+stand stand female 4000
+HJM ABCGHIJK medium stone
+#11610
+kaçýk bahçývan cüce~
+Kaçýk Bahçývan~
+Küçük bir cüce elindeki bahçe makasýný sallayarak etrafta hopluyor.
+~
+Küçük cüce bir bahçývanmýþ gibi görünüyor..  Anlaþýlýr bir planý veya sebebi
+olmadan etrafta bir þeyleri kýrparak dansediyor..  Sallayýp durduðu makas,
+yoluna çýkabilecek yaþayan herhangi bir þey için öldürücü gibi gözükse de,
+þaþýrtýcý bir biçimde, bahçe haddinden fazla bakýmlý..
+~
+gnome~
+ACS V 0 0
+70 0 65d10+10300 1d10+620 9d6+25 bite
+-40 -39 -40 -38
+DFJ 0 BINM EP
+stand stand male 1000
+ACHMV ABCDEFGHIJK small 0
+#11611
+mýrýldanan heykeltraþ~
+Mýrýldanan Heykeltraþ~
+Kýsa boylu, daðýnýk bir adam burada, kendi kendine homurdanýyor.
+~
+Senin onu incelediðinden habersiz, küçük adam etrafta volta atarak
+tutarsýz mýrýldanýþýna devam ediyor.  Duvarlardaki keski izlerine bakýlýrsa,
+bu adam tüm bu sanatsal çalýþmalarýn yaratýcýsý olmalý..
+~
+human~
+ACGS 0 0 0
+65 0 65d10+8500 1d10+500 9d6+20 punch
+-33 -32 -30 -30
+DEFJ 0 Q LO
+stand stand male 2500
+0 0 small 0
+#11612
+çalý rahip denebi beyaz haç~
+Denebi~
+Diz çöken bir rahip þeklinde budanmýþ çalý yumaðý burada duruyor.
+~
+Ýçsel bir ýþýkla parlýyor gibi görünen beyaz haç, rahibin cüppesinin
+ön kýsmýna iþlenmiþ.  Ýki kolu da yakarýrcasýna havaya kalkmýþ.
+~
+statue~
+ABGQ N 800 0
+60 0 50d10+7000 1d10+1000 8d6+18 pound
+-30 -29 -31 -28
+FK N HKL NP
+rest stand either 0
+HJM ABCDGHIJK medium stone
+#11613
+dindar heykel~
+Dindar~
+Bir dindar heykeli gözleri gökyüzüne dikili bir þekilde burada duruyor.
+~
+Gülünç..  dindarýn bu derece imanla baktýðý yere baktýðda,
+tüm gördüðün þey seyrek hava.
+~
+statue~
+ABG 0 0 0
+57 0 50d10+6000 1d10+500 6d8+20 scratch
+-27 -28 -25 -26
+EF 0 D BC
+stand stand either 0
+HJM ABCDGHIJK medium stone
+#11614
+beyaz tavþan~
+beyaz bir tavþan~
+Yumuþacýk beyaz bir tavþan burada sinmiþ, bir þeyleri diþliyor.
+~
+Ah, þirin deðil mi?
+~
+rabbit~
+ACG 0 0 0
+45 0 25d10+3000 0d0+0 8d4+6 scratch
+-15 -16 -15 -15
+DH 0 L R
+stand stand none 0
+0 0 small 0
+#11615
+rahip barýþ çalý adam~
+Barýþ Rahibi~
+Uzun boylu sade cüppeli bir adam þeklinde budanmýþ çalýlýk burada duruyor.
+~
+Kendisiyle ve etrafýndaki dünyayla barýþýk görünüyor.  Bu þeklin bariz
+biçimde budanmasý gerekiyor, çünkü aðzýnýn olmasý gereken yerden kesilmemiþ
+yapraklar dýþarý fýrlamýþ ve bu haliyle sanki sana dil çýkartýyor gibi.
+~
+statue~
+ABG 0 0 0
+55 0 50d10+6000 1d10+700 10d4+15 pound
+-24 -25 -24 -23
+F N BIH OK
+stand stand male 0
+HJM ABCDGHIJK medium stone
+#11616
+yarýsaydam aðlayan ruh figür~
+aðlayan ruh~
+Yarýsaydam bir figür acý acý aðlayarak havada süzülüyor.
+~
+Bu, zamansýz bir ölüm yüzünden bu dünyaya baðlanýp kalan
+genç bir kýzýn ruhu gibi görünüyor.  Senin varlýðýndan habersiz,
+sarsýlarak ve hýçkýrarak havada süzülüyor.
+Fýsýldayarak söylediði birkaç kelimeyi zar zor çýkartýyorsun..
+".. farklý olmalýydý... baþaramadým.. mecburdum..."
+~
+spirit~
+ABG BTU 0 0
+51 0 50d10+4800 1d10+600 4d10+18 magic
+-25 -26 -26 -25
+FG HIKLQR CD MNOP
+stand stand female 0
+SHL 0 medium mist
+#11617
+iman~
+bir parça iman~
+Bir parça iman havada süzülüyor. Onun yanýnda sana inançlarýnýn artýyormuþ
+gibi geliyor.
+~
+Sen ona baktýkça sanki cisimleþiyor gibi.
+~
+nothingness~
+AGS TU 0 0
+62 0 50d10+7800 1d10+620 10d5+10 magic
+-35 -34 -33 -31
+EFG BKP D MNO
+stand stand either 0
+HL 0 medium nothingness
+#11618
+baþýboþ düþünce~
+baþýboþ bir düþünce~
+Baþýboþ bir düþünce amaçsýzca havada süzülüyor.
+~
+Tuhaf.  Ona baktýðýnda karþý tarafý görebiliyorsun.
+~
+nothingness~
+AGS TU 0 0
+61 0 50d10+7500 1d10+610 10d5+0 magic
+-35 -34 -33 -31
+EFG BKP D MNO
+stand stand either 0
+HL 0 medium nothingness
+#11619
+hatýralar~
+bir miktar hatýra~
+Bir miktar hatýra eski günlerden konuþarak havada süzülüyor.
+~
+Sana bir þeyi çaðrýþtýrýyorlar..  ama ne olduðunu tam olarak
+hatýrlayamýyorsun..
+~
+nothingness~
+AGS TU 0 0
+64 0 50d10+8500 1d10+640 10d5+40 magic
+-35 -34 -33 -31
+EFG BKP D MNO
+stand stand either 0
+HL 0 medium nothingness
+#11620
+fikir~
+bir fikir~
+Bir fikir yaylanarak kah ortadan kaybolup kah geri geliyor.
+~
+Ani bir kavrayýþla bir an için gözlerini kör etti!
+~
+nothingness~
+AGS TU 0 0
+62 0 50d10+7800 1d10+620 10d5+10 magic
+-35 -34 -33 -31
+EFG BKP D MNO
+stand stand either 0
+HL 0 medium nothingness
+#11621
+beyaz panter gabrian~
+Gabrian~
+Kocaman beyaz bir panter odada sessizce yürüyor.
+~
+Hareketlerinin sessizliðine karþýn, kedigillerin sarsýntýsýz
+zarif yürüyüþüyle kontrol edilen kuvvetli kaslar sessizliðin
+ardýndaki tehlikeyi ele veriyor.  Çekik gümüþi gözler sanki
+senin tüm hareketlerini izliyor gibi.
+~
+cat~
+ABGT PZ 0 11621
+80 2 100d12+14500 1d10+850 15d5+40 claw
+-50 -54 -52 -51
+DFKM INQ E H
+stand stand male 0
+0 0 large 0
+#11622
+lonari beyaz kadýn~
+Lonari~
+Beyazlara bürünmüþ güzel bir kadýn burada, huzurla gülümsüyor.
+~
+Çaðlayýp parýldayan altýn saçlar, güzel kemikli yel yüzünü ve berrak mavi
+gözleri çevreliyor.  Soluk mavi irisleri neredeyse beyaza çalýyor..
+sanki körmüþcesine. Ama kadýnýn görebildiði aþikar.. yine de baktýðý þey
+her ne ise sana görünmüyor.
+~
+elf~
+ABGQ DGHNT 1000 11621
+85 0 100d12+15000 1d10+2000 9d10+50 crush
+-50 -53 -55 -53
+EFGK BGKN EHJ M
+stand stand female 0
+0 0 medium 0
+#11623
+myrl þüpheci figür~
+Myrl~
+Tamamýyla siyahlara bürünmüþ sýrýtan figür eðlenerek seni izliyor.
+~
+Bu figürün büründüðü karanlýk yalnýzca fiziksel deðil.  Etrafýný saran
+gölgelerin bir uzantýsý gibi görünüyor.  Beyaz diþler siyahlarýn aksine
+bir an þüpheci bir sýrýtýþla parlýyor. Sað ve sol kollar boyunca uzanan
+dövmelerde þu sözler var:
+"Yalanlardan ibaret þu dünyada
+ hiçbir þeye inanma
+ ve kimseye güvenme"
+ tabi ki
+"Myrl'e de"
+~
+drow~
+ACGR DFJPQ -900 0
+80 0 100d12+14000 1d10+1050 14d5+50 claw
+-50 -53 -52 -51
+EFHJ 0 BCM EZ
+stand stand either 1000
+AHMV ABCDEFGHIJK medium 0
+#11624
+cehennem atmacasý~
+cehennem atmacasý~
+Dev, siyah kanatlý bir atmaca burada tünemiþ.
+~
+Kýzgýn yeþil gözler, koyu karanlýk yüze zýt bir þekilde,
+sonsuz bir açlýkla ýþýldýyor, ve bu senin içten içe ürpermene sebep oluyor.
+~
+hawk~
+ABCFG DFT 0 0
+65 2 65d10+8000 1d10+650 9d6+30 peck
+-35 -33 -34 -20
+FH BH M I
+stand stand either 0
+AHW ACDEFK huge 0
+#11625
+sessiz avcý figürü~
+bir sessiz avcý~
+Sessiz siyah giyimli bir figür gölgelere karýþýyor.
+~
+Karanlýk figür bir kedi zarafetiyle gölgelere girip çýkýyor.
+~
+human~
+ACFGS PQ 0 0
+52 1 50d10+4500 1d10+100 5d8+22 pierce
+-23 -24 -22 -24
+BEFJ 0 K P
+stand stand either 0
+0 0 medium 0
+#11626
+sapkýn varlýk~
+Sapkýn Varlýk~
+Sapkýn bir varlýk baþtan çýkaracaðý ruhlar arýyor.
+~
+Kemik ve etlerin dehþet verici bir birleþimi ayaklarýný sürüyerek
+odada yürüyor. Donuk gri gözler fýrýl fýrýl tüm köþeleri araþtýrýyor.
+~
+unique~
+ABCFG O -500 0
+64 0 50d10+8000 1d10+500 9d6+28 digestion
+-33 -34 -34 -32
+CDEFJ LQ K NE
+stand stand none 0
+ABHIM ABCDEFGHIJK large 0
+#11627
+çýðlýk atan ruh~
+çýðlýk atan ruh~
+Ýþkence edilmiþ bir ruh ýstýrap içinde baðýrarak, burada kývranýyor.
+~
+Eti bedeninden iri ve uzun parçalar halinde sökülmüþ, altýndaki kanlý beyaz
+kemikler açýða çýkmýþ. Ruh acýyla kývrandýkça, daha büyük et parçalarý sökülüp
+zemine düþüyor.
+~
+human~
+ABG IU 0 0
+52 0 50d10+4500 1d10+520 6d7+0 scratch
+-20 -18 -17 -15
+F 0 0 D
+rest rest either 0
+0 0 medium 0
+#11628
+cüppeli kara ölümbüyücüsü figür~
+Kara ölümbüyücüsü~
+Uzun boylu, cüppeli bir figür burada durmuþ, bir güç aurasý yayýyor.
+~
+Acýmasýz kýrmýzý gözler kara cüppenin içinden ürkütücü biçimde parlýyor.
+Bir kolu havaya kalktýðýnda, ellerinin kanlý pençelerden ibaret olduðunu
+fark ediyorsun..
+~
+human~
+ABCFGR DFGO -800 0
+64 0 50d10+8000 1d10+2000 9d6+0 claw
+-30 -32 -31 -30
+FG M I HNY
+stand stand either 0
+0 0 medium 0
+#11629
+kabus siyah at karanlýk~
+Kabus~
+Karanlýk kývrýlýp cisimleþerek zift karasý bir at formunu alýyor.
+~
+Kan kýrmýzýsý gözleriyle iri, vahþi at önünde yükseliyor ve sen ona bakarken
+bile sürekli þekil deðiþtiriyor. Yaratýðýn etrafýndaki tüm ýþýk bir þekilde
+emiliyor ve sadece cehennem kýrmýzýsý gözlerinin delebildiði,
+karanlýktan ibaret bir aura oluþturuyor.
+~
+horse~
+AGQZ CDEFGNH 1000 0
+70 2 100d10+10000 1d10+800 12d5+40 cleave
+-45 -45 -45 -45
+DEFGI KM CH NOP
+stand stand either 0
+ACHV ACDEFHK large 0
+#11630
+þaman düþmaný kadýn~
+Þaman Düþmaný~
+Kanlý siyah cüppe giymiþ uzun boylu bir kadýn, bir kurban ayini için
+hazýrlanýyor.
+~
+Üzerinde hem kurumuþ hem de taze kan lekeleri olan uzun siyah cüppe,
+güzel bir kadýn figürünü sarýyor.  Ancak, kadýn kafasýný kaldýrdýðýnda,
+ince dudaklar berbat bir gülümseme taklidiyle aralanýyor, ve yüzü korkunç
+þeytani ve tamamen gaddar bir þeye dönüþüyor.
+~
+human~
+ABFG OZ -800 0
+60 0 50d10+7500 1d10+700 8d6+24 claw
+-30 -31 -29 -28
+FGI EM B JNP
+stand stand female 8765
+0 0 medium 0
+#11631
+hayalet þövalye insansý varlýk~
+Hayalet Þövalye~
+Korkunç bir varlýk etrafa berbat bir ölüm kokusu yayarak burada süzülüyor.
+~
+Bir þeytanlýk ve ölüm aurasý kara þövalyenin etrafýný çevreliyor.
+Kafasýný çevirdiðinde, kanlý kýrmýzý gözleri seni doymak bilmez bir
+açlýkla delecek gibi hissediyorsun..
+~
+wraith~
+ACGOT OTUZ -400 0
+65 3 65d10+8900 1d10+250 9d6+40 drain
+-37 -38 -36 -27
+DEFK I MK HNO
+stand stand either 4000
+DHIM 0 medium nothingness
+#11632
+kanlý sadist~
+Kanlý Sadist~
+Kanlý bir sadist çýlgýnca iþkence yapabileceði birilerini arýyor.
+~
+Ýnsana çok benzemesine raðmen, daðýnýk siyah saçlarý ve kanlý
+pençeleri figüre korkunç, gaddar bir görüntü veriyor. Vahþi koyu gözler
+bir þeyler ararcasýna odanýn içinde sürekli seðiriyor.
+~
+human~
+ACFG V -600 0
+68 0 70d10+9250 1d10+680 9d6+45 claw
+-37 -38 -38 -35
+DF 0 NQ HNS
+stand stand either 3500
+0 0 medium 0
+#11633
+fanatik mezhep yandaþý~
+fanatik mezhepçi~
+Bir mezhep yandaþý burada duvarlarý temizliyor.
+~
+Siyah cüppeli mezhep yandaþý damarlý akik duvarlarý temiz tutmaya çalýþýyor.
+Dilinin o kadar da uzun olmadýðý göz önünde bulundurulursa, göze çarpacak
+derecede iyi iþ çýkarýyor..
+~
+human~
+ACG 0 0 0
+70 0 65d10+10200 1d10+630 9d6+25 chomp
+-38 -39 -40 -38
+F 0 0 0
+stand stand either 1000
+0 0 medium 0
+#11634
+sýrýtýþ~
+Sýrýtýþ~
+Kocaman bir sýrýtýþ burada havada süzülüyor.. ve tabi ki sýrýtýyor.
+~
+Bir dizi parýldayan beyaz diþ havada süzülürken bir delininkine
+benzeyen geniþ bir gülümsemeyle sabitlenmiþ.  Ve sonra tekrar..
+Ne? Süzülen diþler mi?
+Belki de tam olarak kendinde deðilsin...
+~
+teeth~
+ACG TV 0 0
+65 1 65d10+8500 0d0+0 9d6+30 chomp
+-33 -32 -30 -30
+DEF BFCPT EL FK
+stand stand none 0
+0 0 large 0
+#11635
+mezhepçi yüksek þaman~
+Mezhepçi Yüksek Þaman~
+Soðuk insanýmsý bir varlýk etrafa þeytanlýk ve çürümüþlük yayarak
+burada duruyor.
+~
+Acýmasýz bir gülümseme esmer insansý yüzü berbat ve soðuk bir þeye
+dönüþtürüyor. Güçlü pençelere sahip eller, üzerinde hala kan olan bir
+kurban hançerini sýký sýký kavramýþ. Korkunç yüz sana doðru dönüp
+dudaklarýný yalýyor.
+~
+human~
+ACFGQ OZ -900 0
+65 0 50d10+8200 1d10+1300 9d6+20 wrath
+-35 -34 -35 -33
+DEFG ILQ M NSY
+stand stand either 6200
+0 0 medium 0
+#11636
+hiçlik kare bölge~
+Bir parça Hiçlik~
+Odanýn merkezindeki karesel bir bölgede tüm maddeler gözden yitiyor.
+~
+Bakmaya yeltendiðinde tüm cesaretin kýrýlýyor.. çünkü gördüðün þey
+koca bir hiç!
+~
+nothingness~
+AGO BT 0 0
+57 0 50d10+6200 1d10+500 6d8+10 drain
+-28 -29 -27 -25
+FG BD 0 HIJKMNOP
+stand stand none 0
+DL 0 medium 0
+#11637
+kürklü sýçan~
+kürklü sýçan~
+Küçük þirin bir sýçan burada, kendini öldürmeye çalýþýyor.
+~
+Bu kürklü küçük yaratýk eðer kendini yok etmeye bu derece adanmýþ
+olmasaydý oldukça þirin olabilirdi.
+~
+rabbit~
+ACG 0 0 0
+45 0 25d10+3000 0d0+0 8d4+6 bite
+-15 -16 -15 -15
+FH 0 0 E
+stand stand none 0
+0 0 small 0
+#11638
+ölmüþ han adam~
+Ölmüþ Han~
+Kocaman adaleli bir adam sana ters ters bakýyor.
+~
+Tetikte, zeki gözler ve geliþmiþ kaslar, apaçýk dýþarý yansýyan bir zerafetle
+birleþerek bu adamý oldukça tehlikeli bir düþman haline getiriyor.
+~
+human~
+AGT VC 0 0
+70 5 50d12+10200 1d10+400 10d6+45 cleave
+-41 -42 -41 -40
+ADEFIK 0 D P
+stand stand male 0
+0 0 large 0
+#11639
+beyaz sivri diþ vampir hademe~
+vampir hademe~
+Beyaz sivri diþler, bir delinin öfke çýðlýðýnýn havayý paramparça ediþi
+gibi karanlýðý delip geçiyor!
+~
+Karanlýkta sadistçe parlayan kýrmýzý gözleri onu ele vermese,
+neredeyse gölgelerin bir parçasý olacak.
+~
+vampire~
+AFG BDFOTZ -700 0
+70 0 100d10+10500 1d10+700 7d10+30 drain
+-40 -42 -41 -39
+FG B GJK NO
+stand stand either 5650
+CHI ABCDEFGHIJKU medium 0
+#11640
+kayýp rüyalar~
+bir miktar kayýp rüya~
+Bir miktar kayýp rüya amaçsýzca sürükleniyor.
+~
+Bir miktar rüya burada býrakýlýp unutulmuþlar.
+~
+nothingness~
+AG BTU 0 0
+62 0 50d10+8250 1d10+620 10d5+10 magic
+-35 -34 -33 -31
+FG 0 0 S
+stand stand none 0
+DHL 0 medium nothingness
+#11641
+müstehcen bilgiler~
+Müstehcen bilgiler~
+Eski püskü ve gri bir müstehcen bilgi parçacýðý, havada süzülüyor.
+~
+Kendini daha bilge, ama her nedense biraz da kirli hissediyorsun..
+~
+nothingness~
+AG ITU 0 0
+61 0 50d10+7600 1d10+610 10d5+0 digestion
+-35 -34 -33 -31
+EFG N G KLPQ
+stand stand none 0
+HL 0 medium nothingness
+#11642
+unutulmuþ yalanlar~
+bir kýsým unutulmuþ yalan~
+Bir miktar unutulmuþ yalan burada saklanýyor.
+~
+Onlara bakmaya yeltendiðinde, gölgelerin daha da derinlerine
+gizleniyorlar.
+~
+nothingness~
+AGHS PQTU 0 0
+64 0 50d10+8200 1d10+640 10d5+40 drain
+-35 -34 -33 -31
+EFGJ 0 F JPS
+stand stand none 0
+HL 0 medium nothingness
+#11643
+kayýp umutlar~
+bir miktar kayýp umut~
+Bir miktar umut burada kendi hallerinde sürüklenmeye býrakýlmýþ.
+~
+Oldukça baskýn bir umutsuzluk hissiyle aðýrlaþýyorsun.
+~
+nothingness~
+AG BTU 0 0
+62 0 50d10+8200 1d10+620 10d5+10 scratch
+-35 -34 -33 -31
+EFG I 0 FJPS
+stand stand either 0
+HL 0 medium nothingness
+#11644
+siyah panter daemias~
+Daemias~
+Siyah bir panter dinlenmeksizin gögelerin içinde azametle yürüyor.
+~
+Güçlü kedi figürünün çekik gümüþi gözleri, o yaþayan bir gölge gibi
+sessiz ve gizli bir þekilde av peþinde dolaþýrken ihtiyatla parýldýyor.
+~
+cat~
+ABFGT PQV 0 11644
+80 2 100d12+15000 1d10+850 15d5+40 claw
+-52 -51 -49 -50
+DEFGH HMQ G I
+stand stand female 0
+0 0 large 0
+#11645
+siyah adam dierek~
+Dierek~
+Esmer yakýþýklý bir adam etrafa þeytanlýk yayarak burada duruyor.
+~
+Kuzgun karasý saçlar hoþ bir þekilde parlýyor. Çarpýcý bir yüz ve güçlü
+bir insan bünyesi oldukça dikkat çekici.  Acýyla gölgelenmiþ koyu gümüþi
+gözler, acýmasýz bir gülümsemeyle bükülmüþ dudaklarla tuhaf bir zýtlýk
+oluþturuyor.
+~
+human~
+ABFGRT CDHO -1000 11644
+85 0 100d12+16500 1d10+1000 9d10+50 smash
+-50 -53 -55 -53
+EIK BEJM GIK N
+stand stand male 0
+0 0 medium 0
+#11646
+gölge hakikat~
+bir Hakikat gölgesi~
+Bir hakikat gölgesi bir köþeye týkýþtýrýlmýþ.
+~
+Seni alaycý bir biçimde kesiyor.
+~
+nothingness~
+ABCG QU 0 0
+58 0 5d10+6800 1d10+580 5d10+25 shbite
+-58 -56 -59 -57
+ACDEF B C DP
+stand stand none 0
+DHL 0 medium nothingness
+#11647
+ödü patlamýþ kurban~
+ödü patlamýþ bir kurban~
+Harcanmak üzere olan bir kurban burada uzanýyor, korkudan çýðlýk atmak üzere.
+~
+Korkudan kaskatý kesilmiþ durumda. Kýmýldamaya bile cesaret edemiyor gibi..
+~
+human~
+ABG I 0 0
+58 0 5d10+6500 1d10+180 5d10+0 scratch
+-52 -50 -51 -46
+DFJ 0 0 P
+rest rest either 0
+0 0 medium 0
+#11648
+bahçývan yamaðý cüce~
+bir bahçývan yamaðý~
+Küçük bir cüce otlarý budarken mutlulukla ýslýk çalýyor.
+~
+Bahçeyle oldukça iyi ilgilenmiþ gibi görünüyor.
+~
+gnome~
+ACG J 0 0
+65 0 65d10+8700 1d10+500 9d6+25 punch
+-35 -34 -36 -33
+DFJ 0 BINM EP
+stand stand male 1000
+ACHMV ABCDEFGHIJK small 0
+#11649
+saydam form hayalet uþak~
+bir hayalet uþak~
+Saydam bir oluþum temizlik yaparak burada süzülüyor.
+~
+Tuhaf, içinden tam olarak karþýyý görebiliyorsun..  Alaný oldukça temiz
+tutmuþ gibi görünüyor.
+~
+ghost~
+ABCG BITU 0 0
+65 0 65d10+8500 1d10+6700 9d6+20 magic
+-39 -38 -36 -34
+FG 0 E 0
+stand stand either 100
+DHILM 0 medium mist
+#11650
+sessiz figür ykres~
+Ykres~
+Sessiz bir figür gölgelerin içine doðru kayboluyor.
+~
+Ýhtiyatlý yeþil gözler gölgelerin içinde bir kedininkiler gibi ýþýldýyor.
+~
+elf~
+ACFGS FPQVZ 0 0
+82 1 100d12+15500 1d10+850 8d10+30 pierce
+-55 -54 -54 -54
+BEFHJ B MN HI
+stand stand female 5000
+0 0 medium 0
+#11651
+katil~
+bir katil~
+Bir katil gölgelerde sessizce dolaþýp, av arýyor.
+~
+Kara gözler zayýflýk ararcasýna, seni tartýyor gibi görünüyor.
+~
+elf~
+ACFGS DFPQZ 0 0
+51 0 50d10+4900 1d10+510 4d8+25 pierce
+-23 -23 -22 -21
+BEFJ 0 BMN J
+stand stand either 4050
+0 0 medium 0
+#11652
+gece vaþak þekil hayvan~
+gece vaþaðý~
+Kocaman, kara kedi karanlýkta av peþinde dolaþýyor.
+~
+Çekik gümüþi gözler tehditkar bir biçimde parýldýyor.
+~
+lynx~
+ACGS DFPQZ 0 0
+66 0 65d10+8800 1d10+660 9d6+35 claw
+-37 -38 -36 -35
+EFH HI M J
+stand stand either 0
+AGHV ACDEFJKQU large 0
+#11653
+uydurma imgelem kara þekil~
+hayal gücünün bir uydurmasý~
+Kara bir þeklin köþedeki aðaçlara doðru uçtuðunu görüyorsun.
+~
+Orada bir þey gördüðünü düþünüyorsun.. ama belki de sadece senin kuruntun.
+~
+nothingness~
+AGS BTU 0 0
+62 0 65d10+7800 1d10+650 8d6+30 magic
+-33 -34 -34 -33
+EFGH J HI MNP
+stand stand none 0
+DHL 0 medium mist
+#11654
+koyu siyah baykuþ~
+kara baykuþ~
+Kocaman bir siyah baykuþ burada tünemiþ.
+~
+Donuk donuk parlayan buz mavisi gözler, zalim bir gaga ve kara tüyler kuþun
+yüzünde hemen göze çarpýyor.
+~
+owl~
+ABCG DFTZ 0 0
+67 0 65d10+9000 1d10+670 9d6+40 claw
+-36 -37 -37 -35
+ADEFK EJ K F
+stand stand either 0
+ACHW ACDEFIJKPU huge 0
+#11655
+yavru baykuþ yumurta~
+yavru baykuþ~
+Yumurtadan henüz çýkmýþ bir baykuþ beceriksizce sekiyor.
+~
+Koyu gri kuþ tüyleri, büyük bir baykuþ figürünü ve daha tam þekillenmemiþ
+kanatlarý çevreliyor.  Uzun, zalim siyah pençeler, görünüþteki savunmasýzlýðýn
+arkasýndaki doðuþtan yýrtýcýlýðý açýða çýkarýyor.
+~
+owl~
+ABCG Z 0 0
+60 0 50d10+7200 1d10+600 8d6+20 peck
+-28 -29 -28 -27
+EF 0 EJ B
+stand stand either 0
+ACHW ACDEFIJKPU large 0
+#11656
+gececi sýska þekil~
+gececi~
+Sýska bir þekil burada havada süzülüyor.
+~
+Kara gözler yarýsaydam bir varlýðýn içinden açlýkla ýþýldýyor.  Uzun pençeler
+öne doðru uzanmýþ.  Pençelerden birinden sarkan çürümekte olan bir et parçasý
+olduðunu fark ediyorsun.
+~
+wraith~
+ACFG BTUZ 0 0
+67 0 65d10+9000 1d10+670 9d6+40 drain
+-36 -37 -37 -35
+DEFG 0 G HO
+stand stand none 3250
+CHIL ABDEFJKU medium mist
+#11657
+silüet~
+bir silüet~
+Bir silüet burada süzülüyor.
+~
+Ýnsansý bir varlýðýn kara bir silüeti.
+~
+mist~
+AG BITV 0 0
+70 0 100d10+10500 1d10+1000 12d5+20 magic
+-45 -44 -43 -41
+EFGN 0 D C
+stand stand none 0
+CHIL ABDEFJKU medium mist
+#11658
+gecebýçaðý gece býçak karayel~
+Gecebýçaðý~
+Karanlýk bir yel gölgelerin içinde sessizce bekliyor.
+~
+Ýnce yapýlý figür neredeyse etrafý çevreleyen karanlýðýn bir parçasý
+gibi görünüyor.
+~
+elf~
+ACGS PQVZ 0 0
+72 1 100d12+11000 1d10+720 12d5+30 pierce
+-44 -44 -45 -43
+EFGJ 0 0 0
+stand stand either 2550
+0 0 medium 0
+#11659
+gölge býçak uðursuz varlýk gölgebýçaðý~
+Gölgebýçaðý~
+Kývrak, uðursuz bir varlýk karanlýða doðru sývýþýyor.
+~
+Figür sürekli hareket halinde, senin dikkatini daðýtýyor.
+~
+elf~
+ACGS PQZ 0 0
+72 1 100d12+11000 1d10+720 12d5+27 pierce
+-45 -46 -44 -42
+EFGH 0 0 0
+stand stand either 4500
+0 0 medium 0
+#11660
+pelerinli gri ninja~
+gri ninja~
+Ýhtiyatlý yeþil gözler, gri pelerinli figürün kapþonunun içinde tehditkar
+biçimde parlýyor.
+~
+Gri figür etrafýyla bir bütün haline gelmiþ gibi görünüyor.
+~
+elf~
+ABCGS PQZ 0 0
+80 2 100d12+14500 1d10+850 15d5+40 wrath
+-53 -52 -52 -51
+DEFGHJ 0 B 0
+stand stand either 6250
+0 0 medium 0
+#11661
+siyah ninja figür~
+siyah ninja~
+Siyah giyimli bir figür gölgelerin içinden seni gözlüyor.
+~
+Kuzgun karasý saçlar karayel yüzünü ve bir kedininkilere benzeyen
+çekik yeþil gözleri çevreliyor.
+~
+elf~
+ABCGS PQZ 0 0
+78 1 100d12+13500 1d10+780 15d5+10 chill
+-49 -50 -50 -47
+EFGJ I 0 H
+stand stand female 5200
+0 0 medium 0
+#11662
+beyaz ninja figür~
+beyaz ninja ~
+Beyaz giyimli bir figür burada duruyor.
+~
+Canlý bir alev gibi bulanýklaþýp parýldýyor.
+~
+elf~
+ABCGS BPZ 0 0
+78 1 100d12+13500 1d10+780 15d5+10 flame
+-51 -50 -49 -48
+EFGJ H 0 I
+stand stand male 5200
+0 0 medium 0
+#11663
+gölge yýlan~
+gölge yýlaný~
+Kocaman, güçlü bir yýlan burada dolanýrken belli ki sokmak için hazýrlanýyor.
+~
+Koyu yeþil pullarý loþ ýþýkta parlýyor.  Uzun çatallý bir dil, yýlan uyarýrcasýna
+týsladýkça, beyaz sivri diþlerin arasýnda kývrýlýyor.
+~
+snake~
+ABFG DFPZ 0 0
+75 0 65d10+12000 1d10+750 10d6+25 shbite
+-45 -46 -47 -44
+EFM J 0 0
+stand stand either 3250
+0 0 large 0
+#11664
+gümüþ gözlü yllias~
+Yllias~
+Çekik gümüþi gözler gölgelerin içinden parýldýyor.
+~
+Gümüþ gözler, birbirine eþ iki hançer gibi karanlýkta tehditkar bir biçimde parlýyor.
+~
+elf~
+ABCFGS DFPQZ 0 11664
+85 2 100d12+17000 1d10+900 9d10+60 wrath
+-57 -57 -56 -55
+DEFK 0 NM IP
+stand stand female 6770
+0 0 medium 0
+#11665
+kuzgun karasý kanatlý reykas ~
+Reykas~
+Kuzgun karasý kanatlar kara kara parlýyor.
+~
+Gölgelere dikkatle baktýðýnda, aslýndan daha büyük ve korkunç görünen
+kara bir atmaca þeklini zor da olsa seçebiliyorsun.
+~
+hawk~
+ABCFG DFQTZ 0 11664
+80 0 100d12+14500 1d10+820 9d10+20 claw
+-40 -39 -40 -38
+ACDEFG 0 NM P
+stand stand female 0
+ACHW ACDEFJKPU large 0
+#11666
+soytarý menx~
+Menx~
+Bir soytarý kýkýrdayarak bir elinin üzerinde dengede duruyor.
+~
+Küçük cüce odanýn etrafýnda enerjik bir þekilde zýplayýp, durmadan
+çýlgýnca kýkýrdýyor.  Bir an onun tamamen deli mi, yoksa aþýrý derecede
+hiperaktif mi olduðunu merak ediyorsun..
+~
+gnome~
+ACGS IV 0 0
+81 0 100d12+14900 1d10+900 9d10+0 thwack
+-42 -42 -41 -39
+EFGJ 0 0 0
+stand stand male 3400
+ACHMV ABCDEFGHIJK small 0
+#11667
+ürkmüþ beyin~
+ürkmüþ beyin~
+Ürktüðü her halinden belli olan bir beyin burada duruyor.
+~
+Vücutsuz bir beyin gibi görünüyor. Burada durmuþ sadece ürküyor..
+~
+brain~
+AG T 0 0
+65 0 65d10+8500 1d10+650 9d6+30 charge
+-32 -33 -34 -32
+CDEF 0 P D
+stand stand none 0
+DH 0 medium 0
+#11668
+uçan kanatlý domuz~
+uçan domuz~
+Büyük kanatlý bir domuz burada kanat çýrpýyor.
+~
+Senin koltukaltýný kokluyor.
+~
+pig~
+ABGH T 0 0
+62 0 65d10+7800 1d10+620 9d6+10 crush
+-30 -32 -31 -30
+CDEFJ 0 K 0
+stand stand none 0
+0 0 large 0
+#11669
+böðüren inek~
+böðüren bir inek~
+Sürekli böðüren bir inek burada durmuþ, büyük ve sevimsiz bir insan heykelini
+hatýr hutur yiyor.
+~
+Muh-öÖöÖÖöö..
+~
+pig~
+ABG 0 0 0
+63 0 65d10+8250 1d10+630 9d6+15 chomp
+-33 -34 -32 -31
+CDEF 0 L 0
+stand stand none 0
+0 0 large 0
+#11670
+gerilim~
+Gerilim~
+Gerilim burada, seni duvara çakmaya çalýþýyor.
+~
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARGGGGGGHHHHHHH!!!
+~
+unique~
+ACG T 0 0
+65 0 65d10+8000 1d10+650 9d6+30 suction
+-35 -35 -35 -33
+ADEJ B D JP
+stand stand none 2500
+DHL 0 medium mist
+#11671
+delilik~
+Delilik~
+Birinin delice bir fikri burada, duvardan duvara zýplýyor.
+~
+Kýkýrdayýp kafana doðru hamle yapýyor.
+~
+unique~
+ADEG Q 0 0
+67 0 65d10+8800 1d10+800 10d6+30 peck
+-38 -37 -38 -36
+DFGH B HI NM
+stand stand none 1780
+DHL 0 medium mist
+#11672
+ahmak~
+ahmak~
+Bir ahmak burada, yana döne bir beyin arýyor.
+~
+Tamamen su katýlmamýþ bir ahmak gibi görünüyor.  Niye ona yardým eli
+uzatmayasýn?  Ya da belki daha iyisi, biraz akýl verebilirsin?
+~
+human~
+ACG I 0 0
+60 0 50d10+6750 1d10+10 8d6+28 beating
+-30 -30 -30 -30
+FJ 0 0 P
+stand stand male 10
+0 0 medium 0
+#11673
+psikiyatrist kadýn~
+psikiyatrist~
+Beyaz ceketli bir kadýn burada, seni analiz etmeye çalýþýyor.
+~
+Burnunu dikkatle sana yaklaþtýrmýþ ve kiþisel özellikler ve benlikler
+hakkýnda bir þeyler geveliyor.
+~
+human~
+ABG J 0 0
+70 -1 100d10+10250 1d10+1000 12d5+30 slap
+-38 -39 -40 -37
+DEF 0 P NM
+stand stand female 4750
+0 0 medium 0
+#11674
+normal insan~
+normal bir insan~
+Normal bir insan burada dururken oldukça sýkýlmýþ görünüyor.
+~
+Bu derli toplu sarý saçlarý ve modaya uygun takým elbisesiyle normal bir
+insan.  Peh peh.. Ne kadar da sýkýcý..
+~
+human~
+ABG 0 0 0
+61 0 50d10+7000 1d10+10 8d6+35 punch
+-31 -31 -31 -30
+F 0 0 0
+stand stand either 3400
+0 0 medium 0
+#11675
+bok yýðýný tuvalet canavarý~
+tuvalet canavarý~
+Kokulu bir þey canavarý... bok... pelte halinde burada koku saçmakla meþgul.
+~
+Ýðrenç..
+~
+unique~
+ABCFGU NOZ 0 0
+65 0 65d10+8700 1d10+650 9d6+27 suction
+-35 -35 -36 -34
+ACD LQ 0 0
+stand stand none 0
+BHJ ABCDEFHIJKU large 0
+#11676
+köstebek~
+köstebek~
+Bir köstebek burada, tünel açýyor.
+~
+Bu kürklü kahverengi bir köstebek.  Keskin pençeleriyle müthiþ bir hýzla
+toprakta tünel açarken boncuk gibi gözleriyle sana þöyle bir bakýyor.
+~
+pig~
+ABCGH Z 0 0
+75 0 100d12+12100 1d10+650 14d5+5 claw
+-45 -44 -44 -43
+CDJ 0 GO PR
+stand stand either 0
+0 0 large 0
+#11677
+renk deðiþtiren çok renkli ýþýk xyrist~
+Xyrist~
+Çok renkli bir ýþýk yumaðý burada kaynaþýyor.
+~
+Girdap oluþturarak dönen ýþýk sürekli yeniden ve yeniden þekilleniyor.  Bir an
+için, dev bir tavþana benziyor.
+~
+unique~
+ABCGR TUVZ 0 11677
+86 0 100d12+16500 1d10+1000 9d10+60 magic
+-57 -57 -58 -56
+ACDEFG ST OP J
+stand stand male 6740
+ACHL ABCDEFGHIJK large mist
+#11678
+papaðan fax~
+Fax~
+Parlak kýrmýzý bir papaðan burada tünemiþ, senin hareketlerinin taklidini yapýyor.
+~
+Sen ona bakýyorsun, o da sana bakýyor.  Sen þaþýrýyorsun, o da þaþýrýyor..
+~
+song bird~
+ABCG T 0 11677
+80 0 100d12+13500 1d10+900 15d15+20 peckb
+-50 -50 -49 -48
+CDEFJ 0 J K
+stand stand male 110
+0 0 large 0
+
+#11679
+hava hizmetkarý hizmetkar~
+bir hava hizmetkarý~
+Bir hava hizmetkarý burada havada süzülüyor.
+~
+Hava düzleminden emirle çaðrýlmýþ uþak, öldürülene veya azad edilene dek
+efendisinin emirlerini yerine getirmekle yükümlü.
+~
+human~
+ABJ BDTU 0 0
+40 0 15d10+2550 1d10+400 4d8+13 chill
+-13 -13 -13 -10
+FG 0 0 0
+stand stand either 0
+0 0 medium 0
+#11680
+uçan yumruk~
+bir uçan yumruk~
+Uzun eldivenli bir yumruk tehditkar bir biçimde süzülüyor.
+~
+Dik baþlý ve oldukça zorlu görünen bu yumruk, azýlý bir güçle parlýyor.
+~
+modron~
+ABJ T 0 0
+45 0 25d10+3000 1d10+450 8d4+16 crush
+-15 -15 -15 -12
+CDK 0 0 0
+stand stand none 0
+0 0 large 0
+#11681
+gölge kedi gölgekedisi~
+bir gölge kedisi~
+Güçlü bir kedi figürü gölgelerde sessizce dolaþýyor.
+~
+Gece karasý tüyler büyük, güçlü bir kedinin düzgün kaslarý üzerinde
+hafifçe dalgalanýyor.
+~
+cat~
+ABJ P 0 0
+50 0 50d10+4500 1d10+500 5d8+19 claw
+-21 -19 -20 -19
+DEFH 0 NM JS
+stand stand either 0
+0 0 large 0
+#11682
+gümüþ vaþak~
+bir gümüþ vaþak~
+Gümüþ bir vaþak burada av arýyor.
+~
+Kocaman gümüþ kedi, canlý ve katýksýz bir þimþek izlenimi býrakan
+akýcý bir zerafetle yürüyor.
+~
+cat~
+ABJ DP 0 0
+55 0 50d10+6000 1d10+550 10d4+23 shbite
+-26 -25 -25 -23
+CDFH J 0 M
+stand stand either 0
+0 0 large 0
+#11683
+kanatlý at pegasus~
+bir pegasus~
+Kanatlý bir at burada havada süzülüyor.
+~
+Güçlü, kar beyazý kanatlar atýn omuz baþlarýndan çýkýyor.
+Zeki deniz mavisi gözler senin her hareketini izliyor gibi görünüyor.
+~
+pig~
+ABJ DET 500 0
+60 0 50d10+6500 1d10+600 8d6+28 cleave
+-30 -30 -30 -30
+FIK 0 0 0
+stand stand either 0
+0 0 large 0
+#11684
+alev yanan ateþkedisi ateþ kedi~
+bir ateþkedisi~
+Sýcaklýk büyük, alev alev yanan bir kedinin etrafýnda parýldýyor.
+~
+Katýksýz alev, büyük bir kedi formuna bürünmüþ.  Mavi gözler
+ateþin ortasýnda iki fýrýn gibi parýldýyor.
+~
+cat~
+ABJ P 0 0
+65 0 75d10+8000 1d10+650 8d6+34 flbite
+-36 -36 -34 -33
+DEFH H 0 I
+stand stand either 0
+0 0 large 0
+#11685
+kristal þekil buzdan kedi buzkedisi~
+bir buzkedisi~
+Kocaman, kristal bir kedi burada sessizce dolaþýyor.
+~
+Iþýk büyük, vahþi kristal kedinin üzerinden yansýyor.  Kuvvetli yapýsýnýn
+aksine, kedi sessizce, tam bir katil zerafetiyle yürüyor.
+~
+cat~
+ABJ P 0 0
+65 0 75d10+8000 1d10+650 8d6+34 flbite
+-35 -36 -34 -33
+DEFH I J H
+stand stand either 0
+0 0 large 0
+#11686
+ruhani parýldayan panter~
+ruhani bir panter~
+Parýldayan bir panter dinlenmeksizin odanýn içinde av arýyor.
+~
+Bu dünyaya ait olmadýðý apaçýk meydanda olsa ve burada neredeyse sadece bir hayal
+ürünü gibi görünse de, sessiz, güçlü ve zarif yürüyüþü, efendisine karþý çýkanlara
+oldukça gerçek bir hasar verebileceði gerçeðini açýða çýkarýyor..
+~
+cat~
+ABJ BDFPTU 0 0
+70 0 100d10+9500 1d10+700 7d10+30 wrath
+-40 -41 -41 -40
+DEFH 0 C OP
+stand stand either 0
+0 0 large 0
+#11687
+kara þeytan tenarezzii~
+þeytan tenarezzi'i~
+Kara bir þeytan sana nefretle ters ters bakýyor.
+~
+Yanan kömürleri andýran dar kýrmýzý gözler, bir köpeðinkine benzeyen ince suratýn
+içinde yanýyor.  Kösele gibi sert derisi, uzun kaslý kollarý ve kuvvetli
+bacaklarý çevreliyor.  Onu efendisinin arzularýna baðlayan dar, büyülü bir
+tasma, kalýn boynunu çevreliyor.
+~
+human~
+ABJ E -500 0
+75 0 100d10+11250 1d10+750 7d10+35 slash
+-45 -45 -45 -45
+CDK 0 0 0
+stand stand either 0
+0 0 large 0
+#11688
+devouk kanatlý þeytan~
+þeytan devouk~
+Kanatlý bir þeytan tehditkar bir biçimde havada süzülüyor.
+~
+Ateþ kýrmýzýsý deri, sýska kaslar ve enli, zarýmsý yarasa kanatlarý
+üzerine gerilmiþ.  Kalýn bir kuyruk þeytanýn arka tarafýndan çýkýp,
+sivri, üçgenimsi bir uçla son buluyor.
+~
+human~
+ABJ ET -700 0
+80 0 100d12+13500 1d10+800 9d10+28 slash
+-50 -50 -50 -50
+CDEKM 0 0 0
+stand stand either 0
+0 0 large 0
+#11689
+þeytan chrezanni~
+þeytan chrezanni~
+Kocaman, çok kollu bir þeytan tepende dolaþýyor.
+~
+Güçlü kaslar, bölgedeki tüm ýþýðý içine çekiyor gibi görünen kaba, gece karasý
+derinin altýnda dalgalanýyor.  Ýki kaslý kol gövdenin iki yanýndan çýkýp,
+nefret dolu sivri pençelerle son buluyor.
+~
+human~
+ABJ EO -900 0
+85 0 100d12+16250 1d10+800 9d10+33 claw
+-55 -55 -55 -55
+CDK 0 H N
+stand stand either 0
+0 0 huge 0
+#11690
+azgýn hamster~
+azgýn bir hamster~
+Öldürücü görünen bir hamster burada.
+~
+Yumuþak kahverengi tüyler, hamster'a küçük ve öldürücü bir
+tüy yumaðý görüntüsü veriyor.  Þu kesici ön diþlere bir bakýn!
+~
+rabbit~
+ABCJ aa 0 0
+90 0 100d12+18000 1d10+900 9d10+38 bite
+-60 -60 -60 -58
+DFHJ 0 0 0
+stand stand either 0
+0 0 small 0
+#11691
+kuduz güney domuzu~
+kuduz bir güney domuzu~
+Küçük bir güney domuzu saldýrgan bir biçimde sana týslýyor.
+~
+Huysuzca burnunu çekiyor.  Öldürücü ve kürklü!
+~
+rabbit~
+ABCJ a 0 0
+92 0 100d12+17250 1d10+950 10d10+38 chomp
+-68 -68 -68 -68
+DEFHJ 0 0 0
+stand stand either 0
+0 0 small 0
+#11692
+dzenian býçak~
+bir Dzenian býçaðý~
+Bilenmiþ büyülü bir býçak burada havada süzülüyor.
+~
+Enfes bir þekilde mitril'den iþlenmiþ býçaða, güçlü bir büyüyle
+hayat verilmiþ.  Çok kusursuz ve son derece öldürücü.
+~
+modron~
+ABJT T 0 0
+92 0 100d12+17250 1d10+950 10d10+40 slash
+-65 -65 -65 -65
+DEFK 0 0 0
+stand stand none 0
+0 0 medium 0
+#11693
+ruhani kemirgen~
+ruhani bir kemirgen~
+Küçük, ruhani bir kemirgen burada parýldýyor.
+~
+Kemirgen, çok renkli ýþýk gibi görünen bir þeyden meydana gelmiþ ve
+büyük bir tavþaný andýrýyor.  Küçük olmasýna raðmen, onu öldürücü bir dövüþçü
+haline getiren bir zeka ve eðitime sahip.
+~
+rabbit~
+ABJT BDFTUZ 0 0
+93 0 100d12+19000 1d10+1000 10d10+43 magic
+-75 -74 -74 -74
+CDEFGK 0 C 0
+stand stand either 0
+0 0 small 0
+#11694
+zkare býçak~
+bir Zkare býçaðý~
+Parýldayan sert bir býçak burada havada süzülüyor.
+~
+Güçlü rünler ustalýkla yapýlmýþ sert býçaðýn her iki yüzü boyunca parýldýyor.
+Büyüyle güçlendirilmiþ ve bilenmiþ haliyle, oldukça öldürücü bir düþman.
+~
+modron~
+ABJT NOT 0 0
+90 0 100d12+19000 1d10+1000 10d10+43 cleave
+-70 -70 -70 -68
+CDEFK 0 0 0
+stand stand none 0
+0 0 medium 0
+#11695
+zeinia temsilcisi altýn leydi sherayna~
+Zeinia temsilcisi~
+Gülümseyen altýn saçlý bir bayan sana bakýp sesleniyor,
+"Uluslararasý Zeinia'ya hoþgeldiniz!  Size nasýl yardým edebilirim?"
+~
+Uzun altýndan saçlarý ve perileri andýran bir yüzü var.
+Göðsüne iðnelenmiþ þýk bir isim etiketinden þu okunuyor:
+
+               "Sherayna"
+~
+elf~
+ABG DF 0 0
+93 0 100d12+19000 1d10+1000 10d10+43 wrath
+-50 -50 -50 -50
+EFK A 0 0
+stand stand female 10000
+0 0 medium 0
+#11696
+zeinia temsilcisi leydi nyvri~
+Zeinia temsilcisi~
+Þýk giyimli bir bayan gülümseyerek seni izliyor.
+~
+Pahalý olduðu belli olan koyu renk bir pantolon giyiyor.
+Göðsüne iðnelenmiþ gümüþ bir broþtan þu okunuyor:
+
+             "Nyvri"
+~
+elf~
+ABG DF 0 0
+90 0 100d12+18000 1d10+1000 10d10+43 magic
+-50 -50 -50 -50
+EFK A 0 0
+stand stand female 10000
+0 0 medium 0
+
+
+#11697
+zdreni öcalýcý figür~
+bir Zdreni öcalýcýsý~
+Karalara bürünmüþ bir figür, dudaklarýnda oynaþan zalim bir gülümsemeyle
+seni izliyor.
+~
+Esmer, narin bir yel bedeni önünde duruyor. Gözleri, karanlýkta yanan ikiz
+meþaleler gibi, garip, zalim bir ýþýkla parlýyor. Öcalýcý, býçaðýn, gizliliðin,
+ve klan büyülerinin en iyilerini kuþanmýþ ve bir Zdreni klan üyesinin kanýný dökecek
+herhangi birini yok etmekle yükümlü. Klan üyeleri arasýndaki sýnýf yapýsý ve statü
+için giriþilen vahþi rekabeti aþmýþ olan öcalýcý, tüm klan üyelerine aþýrý derecede
+sadýk.  Köprücük kemiðinin üzerinde, iki çapraz hançerin üzerine doðru alçalan bir
+atmaca figürü parýldýyor.
+~
+elf~
+ABCFGS DFPQa -500 11700
+88 5 100d12+17250 1d10+3000 10d10+49 pierce
+-70 -70 -70 -69
+BDEFHJK 0 CD 0
+stand stand either 10000
+0 0 medium 0
+#11698
+zdreni suikastçi öcalýcý figür~
+Zdreni öcalýcýsý~
+Karalara bürünmüþ bir figür, dudaklarýnda oynaþan zalim bir gülümsemeyle
+seni izliyor.
+~
+Esmer, narin bir yel bedeni önünde duruyor. Gözleri, karanlýkta yanan ikiz
+meþaleler gibi, garip, zalim bir ýþýkla parlýyor. Öcalýcý, býçaðýn, gizliliðin,
+ve klan büyülerinin en iyilerini kuþanmýþ ve bir Zdreni klan üyesinin kanýný dökecek
+herhangi birini yok etmekle yükümlü. Klan üyeleri arasýndaki sýnýf yapýsý ve statü
+için giriþilen vahþi rekabeti aþmýþ olan öcalýcý, tüm klan üyelerine aþýrý derecede
+sadýk.  Köprücük kemiðinin üzerinde, iki çapraz hançerin üzerine doðru alçalan bir
+atmaca figürü parýldýyor.
+~
+elf~
+ABCFGSR DFPQ 0 11700
+88 5 100d12+17700 1d10+6000 10d10+48 pierce
+-70 -70 -70 -69
+BEFJK 0 CD 0
+stand stand either 10000
+0 0 medium 0
+#11699
+zdreni suikastçi ölümüstadý~
+Zdreni ölümüstadý~
+Tamamýyla siyahlara bürünmüþ tehlikeli bir suikastçi, gücünü tartarak seni izliyor.
+~
+Buz gibi gümüþ gözler, kýsa bir bakýþla senin gücünün sýnýrlarýný öðrenmiþ gibi
+görünüyor.  Ölümüstadý, Zdreni klanýnýn lideri olmasý ve klan içerisindeki
+güç oyunlarýna raðmen bu pozisyonu elinde tutabilmesinin de etkisiyle,
+aþýrý derecede kuvvetli.  Ýki çapraz hançer figürü, köprücük kemiðinin üzerinde
+parýldýyor.
+~
+elf~
+ABCFGRS DFOPQ -500 11700
+85 2 100d12+15750 1d10+1500 9d10+33 wrath
+-57 -57 -58 -56
+BEFHJK 0 0 0
+stand stand male 10000
+0 0 medium 0
+#11700
+zdreni suikastçi gölgeüstadý karayel figür~
+Zdreni gölgeüstadý~
+Narin bir karayel gölgelerle içiçe geçmiþ.
+~
+Figür yaþayan bir gölge misali, güçlü ve akýcý bir zerafetle hareket ediyor.
+Sessiz ve öldürücü haliyle gölgeüstadý, tam anlamýyla ölümcül bir düþman.
+~
+elf~
+ABCFGS DFPQ -500 11700
+80 2 100d12+13500 1d10+1200 9d10+28 pierce
+-53 -53 -52 -51
+BEFJK 0 0 0
+stand stand female 8000
+0 0 medium 0
+#11701
+zdreni suikastçi býçaküstadý~
+Zdreni býçaküstadý~
+Bir suikastçi ölümcül bir zerafetle burada sessizce dolaþýyor.
+~
+Býçaküstadý hem zihinsel hem de bedensel olarak yaþayan bir silah keskinliðinde
+bilenmiþ.  Bu tabakanýn kuvvetinin ve zorluluðunun göstergesi olan çapraz çizgili
+yara izleri esmer cildi bozuyor.
+~
+elf~
+ACFGS PQ -500 11700
+75 1 100d10+11250 1d10+900 7d10+35 pierce
+-48 -48 -48 -44
+BDEFJ 0 0 0
+stand stand either 7500
+0 0 medium 0
+#11702
+zdreni suikastçi büyüüstadý karayel figür~
+Zdreni büyüüstadý~
+Sessiz bir karayel aniden gölgelerden fýrlýyor.
+~
+Silah ve gizlilik konusundaki yeteneklerin yanýsýra, büyüüstadý aslolarak
+büyü sanatlarýnda bir uzman.  Bu kombinasyon büyüüstadýný çok yönlü ve
+korkunç etkili bir suikastçi yapýyor.
+~
+elf~
+ACFGRS DOPQT -500 11700
+75 1 100d10+11000 1d10+1500 7d10+34 pierce
+-49 -50 -49 -47
+BFGJ 0 0 0
+stand stand either 7500
+0 0 medium 0
+#11703
+zdreni suikastçi avcý figür~
+Zdreni avcýsý~
+Sessiz bir figür gölgelerde av peþinde dolaþýyor.
+~
+Orta sýnýf bir suikastçi olan avcý, ölüm sanatlarý konusunda kapsamlý bir eðitimden
+geçmiþ.  Statüsündeki yükselme ancak ölümüstadýnýn rýzasýna baðlý ve daha düþük
+rütbeli bir klan üyesine düzenleyeceði suikast, hýzlý ölümüyle sonuçlanacak.  Avcý
+için bu rütbeden sonra sýnýf atlamak, sadece daha yüksek sýnýftan birine düzenleyeceði
+suikast sayesinde olabilir.  Dolayýsýyla daha yüksek rütbeli avcýlar, onun için suikast
+hedefinden baþka bir þey deðiller.  Bu uðurda, kendisini mükemmele doðru bileme
+çabasýndaki avcý için, baþarýsýz bir suikast giriþimi feci bir ölüm anlamýna geliyor.
+~
+elf~
+ACFGS PQ -500 11700
+70 1 100d10+9500 1d10+900 7d10+30 pierce
+-43 -44 -43 -41
+BEFJK 0 0 0
+stand stand either 7000
+0 0 medium 0
+#11704
+zdreni suikastçi karabýçak~
+Zdreni karabýçaðý~
+Kara bir þekil gölgelerin içinden seni izleyip gücünü tartýyor.
+~
+Karabýçak öldürme konusunda bir uzman ve bu rütbeye ulaþana kadar þimdiden
+sayýsýz ölümlere sebep olmuþ.
+~
+elf~
+ACFGS PQ -500 11700
+65 1 75d10+8000 1d10+750 8d6+34 pierce
+-37 -38 -38 -37
+BEFJK 0 0 0
+stand stand either 6500
+0 0 medium 0
+#11705
+zdreni suikastçi karayel zehirbýçaðý~
+Zdreni zehirbýçaðý~
+Bir karayel sana tepeden bakarken zalimce gülümsüyor.
+~
+Öldürme sanatlarýndan iyi anlayan zehirbýçaðýnýn, suikastçilerini iyileþtirmekte
+kullandýðý çok geniþ bir zehir repertuarý var.
+~
+elf~
+ACFGS PQ -500 11700
+60 1 50d10+8000 1d10+700 8d6+28 pierce
+-34 -33 -34 -32
+BEFJK L Q 0
+stand stand either 6000
+0 0 medium 0
+#11706
+zdreni suikastçý kama~
+Zdreni kamasý~
+Bir suikastçi sessizce karanlýkta bir görünüp bir yitiyor.
+~
+Kama ustasý suikastçi, iyi niþan alýnmýþ bir býçaðýn sessizliði ve akýcý zerafetiyle
+hareket ediyor.
+~
+elf~
+ACFGS PQ -500 11700
+55 1 50d10+5000 1d10+650 10d4+23 pierce
+-29 -28 -28 -26
+BEFJK 0 0 0
+stand stand either 5500
+0 0 medium 0
+#11707
+zdreni genç çaylak suikastçi~
+Zdreni çaylaðý~
+Genç bir suikastçi burada, bir hançerle oynuyor.
+~
+Klanýn ölümcül giriþ sýnavlarýný tamamlayan çaylak suikastçi, en düþük
+tabakada yer alýyor.  Kendisinden yüksektekiler kadar çelikleþmiþ olmasa da,
+çaylak, þimdiden sanatýný öðrenmeye baþlamýþ ve senin için tehlikeli bir
+düþman gibi görünüyor.
+~
+elf~
+ACFGS PQ -50 11700
+50 0 50d10+4500 1d10+600 5d8+19 pierce
+-21 -21 -21 -19
+BFJ 0 0 0
+stand stand either 1000
+0 0 medium 0
+#11708
+genç karayel aday~
+aday~
+Genç bir Isdarl burada, giriþ sýnavlarýný bekliyor.
+~
+Genç Isdarl klana girmek için baþvurmuþ ve deðerini kanýtlayacaðý sýnavlarý
+bekliyor.  Ne yazýk.. baþarýsýzlýk ani bir ölüm anlamýna gelecek.
+Ve bu noktada korkaklýk klanýn gazabýnýn üzerine gelmesiyle ve yine
+klan için zerrece deðeri olmayan bedeninin yokoluþuyla sonuçlanacak.
+~
+elf~
+ABGS P -50 11700
+45 0 25d10+3000 1d10+500 8d4+16 pierce
+-15 -15 -15 -12
+BF 0 0 0
+stand stand either 500
+0 0 medium 0
+#11709
+kara gölge panter~
+gölge panteri~
+Kocaman siyah bir panter gölgelere girip çýkýyor.
+~
+Akýllý yeþil gözler, iri kedinin gece karasý maskesinin içinde ürkütücü
+biçimde ýþýldýyor.  Çok iri vücudunun neredeyse tamamý kaslardan yaratýk
+korkunç bir zerafetle hareket ediyor.
+~
+cat~
+AFG PQ 0 11700
+55 0 50d10+5000 1d10+550 10d4+23 claw
+-28 -28 -28 -27
+DEFH 0 0 0
+stand stand either 0
+0 0 large 0
+#11710
+gardiyan siyah vaþak~
+gardiyan vaþak~
+Gece karasý bir vaþak sessizce yürüyor.
+~
+Çekik yeþil gözler seni ihtiyatla izliyor.  Boynunu çevreleyen halkada siyah bir
+anahtar takýlý.
+~
+cat~
+ABFG P 0 11700
+55 0 50d10+5000 1d10+550 10d4+23 claw
+-28 -28 -28 -27
+DEFH 0 0 0
+stand stand either 0
+0 0 large 0
+#11711
+zdreni suikastçi büyüüstadý~
+Zdreni büyüüstadý~
+Bir Zdreni büyüüstadý burada, çaylaklarý eðitiyor.
+~
+Üç büyüüstadý içinde o, þu an çaylaklara öldürücü büyü sanatlarýný öðretmekle
+görevli.
+~
+elf~
+ABCFGRS DOPQT -500 11700
+75 1 100d10+11000 1d10+1500 7d10+34 pierce
+-49 -50 -49 -47
+BFGJ 0 0 0
+stand stand either 7500
+0 0 medium 0
+#11712
+zdreni çaylak suikastçi~
+Zdreni çaylaðý~
+Çaylak bir suikastçi burada, büyü çalýþýyor.
+~
+Klanýn ölümcül giriþ sýnavlarýný tamamlayan çaylak suikastçi, en düþük
+tabakada yer alýyor.  Kendisinden yüksektekiler kadar çelikleþmiþ olmasa da,
+çaylak, þimdiden sanatýný öðrenmeye ve senin için tehlikeli bir düþman
+gibi görünüyor.
+~
+elf~
+ABCFGRS PQ -50 11700
+50 0 50d10+4500 1d10+600 5d8+19 pierce
+-21 -21 -21 -19
+BFJ 0 0 0
+stand stand either 1000
+0 0 medium 0
+#11713
+zdreni çaylak suikastçi~
+Zdreni çaylaðý~
+Çaylak bir suikastçi yeni öðrendiði bir büyüyü pratik ediyor.
+~
+Klanýn ölümcül giriþ sýnavlarýný tamamlayan çaylak suikastçi, en düþük
+tabakada yer alýyor.  Kendisinden yüksektekiler kadar çelikleþmiþ olmasa da,
+çaylak, þimdiden sanatýný öðrenmeye ve senin için tehlikeli bir düþman
+gibi görünüyor.
+~
+elf~
+ABCFGRS PQ -50 11700
+50 0 50d10+4500 1d10+600 5d8+19 pierce
+-21 -21 -21 -19
+BFJ 0 0 0
+stand stand either 1000
+0 0 medium 0
+#11714
+zdreni býçaküstadý suikastçi~
+Zdreni býçaküstadý~
+Bir býçaküstadý burada, öðrencileri eðitiyor.
+~
+Býçaküstadý hem zihinsel hem de bedensel olarak yaþayan bir silah
+keskinliðinde bilenmiþ.  Bu tabakanýn kuvvetinin ve zorluluðunun
+göstergesi olan çapraz çizgili yara izleri esmer cildi bozuyor.
+~
+elf~
+ABCFGS PQ -500 11700
+75 1 100d10+11250 1d10+900 7d10+35 pierce
+-48 -48 -48 -44
+BDEFJ 0 0 0
+stand stand either 7500
+0 0 medium 0
+#11715
+zdreni çaylak suikastçi~
+Zdreni çaylaðý~
+Çaylak bir suikastçi burada, savaþ silahlarý konusunda alýþtýrma yapýyor.
+~
+Klanýn ölümcül giriþ sýnavlarýný tamamlayan çaylak suikastçi, en düþük
+tabakada yer alýyor.  Kendisinden yüksektekiler kadar çelikleþmiþ olmasa da,
+çaylak, þimdiden sanatýný öðrenmeye baþlamýþ ve senin için tehlikeli bir
+düþman gibi görünüyor.
+~
+elf~
+ABCFGS PQ -50 11700
+50 0 50d10+4500 1d10+600 5d8+19 pierce
+-21 -21 -21 -19
+BFJ 0 0 0
+stand stand either 1000
+0 0 medium 0
+#11716
+zdreni çaylak suikastçi~
+Zdreni çaylaðý~
+Çaylak bir suikastçi burada, alýþtýrma yapýyor.
+~
+Klanýn ölümcül giriþ sýnavlarýný tamamlayan çaylak suikastçi, en düþük
+tabakada yer alýyor.  Kendisinden yüksektekiler kadar çelikleþmiþ olmasa da,
+çaylak, þimdiden sanatýný öðrenmeye baþlamýþ ve senin için tehlikeli bir
+düþman gibi görünüyor.
+~
+elf~
+ABCFGS PQ -50 11700
+50 0 50d10+4500 1d10+600 5d8+19 pierce
+-21 -21 -21 -19
+BFJ 0 0 0
+stand stand either 1000
+0 0 medium 0
+#11717
+zdreni suikastçi büyüüstadý~
+Zdreni büyüüstadý~
+Bir Zdreni büyüüstadý burada, bir deney üzerinde yoðunlaþmýþ.
+~
+Üç büyüüstadý içinde o, þu an çaylaklara öldürücü büyü sanatlarýný
+öðretmekle görevli.
+~
+elf~
+ABCFGRS DOPQT -500 11700
+75 1 100d10+11000 1d10+1500 7d10+34 pierce
+-49 -50 -49 -47
+BFGJ 0 0 0
+stand stand either 7500
+0 0 medium 0
+#11718
+zdreni suikastçi yel zehirbýçaðý~
+Zdreni zehirbýçaðý~
+Bir zehirbýçaðý burada, büyüüstadýna yardým ediyor.
+~
+Öldürme sanatlarýndan iyi anlayan zehirbýçaðýnýn, suikastçilerini iyileþtirmekte
+kullandýðý çok geniþ bir zehir repertuarý var.
+~
+elf~
+ABCFGS PQ -500 11700
+60 1 50d10+6750 1d10+700 8d6+28 pierce
+-24 -23 -24 -22
+BEFJK L Q 0
+stand stand male 6000
+0 0 medium 0
+#11719
+zdreni suikastçi kama~
+Zdreni kamasý~
+Kama ustasý bir suikastçi burada, büyüüstadýna yardým ediyor.
+~
+Kama ustasý bir suikastçi, iyi niþan alýnmýþ bir býçaðýn sessizliði ve akýcý
+zerafetiyle hareket ediyor.
+~
+elf~
+ABCFGS PQ -500 11700
+55 1 50d10+5500 1d10+650 10d4+23 pierce
+-29 -28 -28 -26
+BEFJK 0 0 0
+stand stand female 5500
+0 0 medium 0
+#11720
+zdreni suikastçi yel zehirbýçaðý~
+Zdreni zehirbýçaðý~
+Bir zehirbýçaðý burada kimyasallarý karýþtýrýyor.
+~
+Öldürme sanatlarýndan iyi anlayan zehirbýçaðýnýn, suikastçilerini iyileþtirmekte
+kullandýðý çok geniþ bir zehir repertuarý var.
+~
+elf~
+ABCFGS PQ -500 11700
+60 1 50d10+6500 1d10+700 8d6+28 pierce
+-34 -33 -34 -32
+BEFJK L Q 0
+stand stand either 6000
+0 0 medium 0
+#11721
+zdreni suikastçi yel zehirbýçaðý~
+Zdreni zehirbýçaðý~
+Bir zehirbýçaðý burada, esirler üzerinde bir kýsým yeni zehir deniyor.
+~
+Suikastçi zalimce gülümseyip esirleri zehri içmeye zorlarken, beyaz diþler
+ürpertici bir þekilde parýldýyor.
+~
+elf~
+ABCFGS PQ -500 11700
+60 1 50d10+7200 1d10+700 8d6+28 pierce
+-34 -33 -34 -32
+BEFJK L Q 0
+stand stand either 6000
+0 0 medium 0
+#11722
+çýðlýk atan esir~
+çýðlýk atan bir esir~
+Bir esir burada, zorlamalara karþý çýðlýk atýp direniyor.
+~
+Esir, onu masaya baðlayan sicimleri tüm gücüyle çektikçe, sadece onlarý
+daha da sýkýlaþtýrmak konusunda baþarýlý oluyor.
+~
+human~
+ABG M 0 11700
+30 0 6d12+853 1d10+300 4d6+6 scratch
+-6 -6 -6 -4
+0 0 0 0
+rest rest either 0
+0 0 medium 0
+#11723
+zdreni karayel zýrhustasý demirci~
+karayel zýrhustasý~
+Bir karayel burada durmuþ, çekiçle bir maden dövüyor.
+~
+Zýrhustasý önündeki metale vurdukça, esmer yel derisindeki kuvvetli
+kaslarý þiþiyor.
+~
+elf~
+ABCG 0 -200 11700
+50 0 50d10+5000 1d10+500 5d8+20 crush
+-22 -21 -21 -18
+CDIK 0 0 0
+stand stand male 2500
+0 0 medium 0
+#11724
+zdreni karayel silahustasý demirci~
+karayel silahustasý~
+Bir karayel burada, demir ocaðýnda çalýþýyor.
+~
+Silahustasý önündeki örste duran hançer þeklindeki kýrmýzý sýcak
+metale çekiçle vurdukça, kývýlcýmlar havada uçuþuyor.
+~
+elf~
+ABCG 0 -200 11700
+50 0 50d10+5000 1d10+500 5d8+20 smash
+-22 -21 -21 -18
+CDIK 0 0 0
+stand stand male 2500
+0 0 medium 0
+#11725
+zdreni öcalýcý lider figür~
+bir Zdreni öcalýcýsý~
+Karalara bürünmüþ bir figür, dudaklarýnda oynaþan zalim bir gülümsemeyle
+seni izliyor.
+~
+Esmer, narin bir yel bedeni önünde duruyor. Gözleri, karanlýkta yanan ikiz
+meþaleler gibi, garip, zalim bir ýþýkla parlýyor. Öcalýcý, býçaðýn, gizliliðin,
+ve klan büyülerinin en iyilerini kuþanmýþ ve bir Zdreni klan üyesinin kanýný dökecek
+herhangi birini yok etmekle yükümlü. Klan üyeleri arasýndaki sýnýf yapýsý ve statü
+için giriþilen vahþi rekabeti aþmýþ olan öcalýcý, tüm klan üyelerine aþýrý derecede
+sadýk.  Köprücük kemiðinin üzerinde, iki çapraz hançerin üzerine doðru alçalan bir
+atmaca figürü parýldýyor.
+~
+elf~
+ABCFGRS DFPQa -500 11700
+89 5 100d12+18500 1d10+3500 10d10+51 wrath
+-74 -74 -74 -74
+BDEFHJK 0 CD 0
+stand stand either 10000
+0 0 medium 0
+#11726
+zdreni suikastçi avcý figür~
+Zdreni avcýsý~
+Sessiz bir figür gölgelerde av peþinde dolaþýyor.
+~
+Orta sýnýf bir suikastçi olan avcý, ölüm sanatlarý konusunda kapsamlý bir eðitimden
+geçmiþ.  Statüsündeki yükselme, ancak ölümüstadýnýn rýzasýna baðlý ve daha düþük
+rütbeli bir klan üyesine düzenleyeceði suikast, hýzlý ölümüyle sonuçlanacak.  Avcý
+için bu rütbeden sonra sýnýf atlamak, sadece daha yüksek sýnýftan birine düzenleyeceði
+suikast sayesinde olabilir.  Dolayýsýyla daha yüksek rütbeli avcýlar, onun için suikast
+hedefinden baþka bir þey deðiller.  Bu uðurda kendisini mükemmele doðru bileme
+çabasýndaki avcý için, baþarýsýz bir suikast giriþimi feci bir ölüm anlamýna geliyor.
+~
+elf~
+ACFGS PQ -500 11700
+70 1 100d10+9500 1d10+900 7d10+30 pierce
+-43 -44 -43 -41
+BEFJK 0 0 0
+stand stand either 7000
+0 0 medium 0
+
+#0
+
+#OBJECTS
+#11600
+sanatsal beyaz nesne kemikten yaratýk~
+Tuhaf sanat çalýþmasý~
+Bükülmüþ beyaz bir nesne ortaya tuhaf gölgeler saçýyor.~
+bone~
+portal AO 0
+0 0 D 11613 0
+0 0 0 P
+E
+sanatsal beyaz nesne kemikten yaratýk~
+Korkunç bir dizilime sahip, imkansýz açýlarla kesiþip kaynaþmýþ kemikler,
+kocaman kubbemsi bir yapý oluþturuyor.  Kemikler hastalýklý bir parlak
+beyaz olana kadar cilalanmýþ ve sen onlara bakarken bile kývrýlýp deðiþiyorlar.
+Nesnenin batý yüzünde büyük bir yarýk görülebiliyor, ve kemiklerin hareketiyle
+bu yarýk da arada sýrada yer deðiþtiriyor.
+~
+#11601
+berrak havuz suyu~
+Berrak havuz~
+Berrak sudan oluþan dairesel bir gölcük burada parýldýyor.~
+water~
+portal O 0
+0 0 A 11650 0
+0 0 0 P
+E
+Berrak havuz suyu~
+Onu besleyen çamurlu kaynaklara karþýn, göze çarpacak kadar berrak olan su,
+maðaranýn ortasýnda durgun dairesel bir havuz oluþturuyor.  Havuza baktýðýn
+zaman, yansýmanýn kýrýlýp karanlýklaþtýðýný görüyorsun.  Sýrýtýyor, sana el
+edip çaðýrýyor, ve bu esnada sen havuzun içinde boðuluyormuþ hissine
+kapýlýyorsun. Havuz hafifçe dalgalanýp berraklaþýyor, ve yansýman normale
+dönüyor.  Ya da belki de aslýnda hiç deðiþmemiþti..!?
+~
+#11602
+gölge gölgeler~
+gölgeler~
+Gölgeler canlýymýþcasýna maðara duvarýnda kývranýyor.~
+shadow~
+portal 0 0
+0 0 A 11672 0
+0 0 0 P
+E
+gölge gölgeler~
+Gölgeler sanki sana el ediyor gibiler..
+~
+#11603
+yan yan bakan taþ surat aðýz~
+yan yan bakan taþ surattaki aðýz~
+Garip taþtan bir surat sana yan yan bakarak burada dinleniyor.~
+stone~
+portal 0 0
+0 0 D 11647 0
+0 0 0 P
+E
+yan yan bakan taþ surattaki aðýz~
+Surat, meyilli bir þekilde oyulmuþ ve çatlak bir aynanýn yansýmasý gibi
+dalgalanýyor.  Aralanmýþ aðýz, diþsiz bir boþluðu ortaya çýkarýyor.
+Taþtan dil, bir kazýk gibi aðzýn dýþýnda hafifçe asýlý duruyor.
+~
+#11604
+kara havuz suyu~
+kara havuz~
+Maðara tabanýndaki kara kayalarýn üzerinde bir su birikintisi oluþmuþ.~
+water~
+portal 0 0
+0 0 A 11616 0
+0 0 0 P
+E
+kara havuz suyu~
+Iþýk hüzmeleri durgun, kara sularýn üzerinde titreþiyor.  Sen izlerken,
+yansýmanýn etrafýný çevreleyip, onu bir anlýðýna ýþýk parýltýlarýnýn
+içinde eritiyorlar.  Havuza ait adlandýramadýðýn bir þeyler seni hem
+korkutuyor, hem de tuhaf bir þekilde cezbediyor..
+~
+#11605
+çam tabut~
+çamdan bir tabut~
+Uzun çam bir tabut bir duvara dayalý duruyor.~
+hardwood~
+furniture G 0
+2 500 CFILO 110 120
+0 0 0 P
+E
+çam tabut~
+Eski püskü siyah keçe astar tabutun içini kaplýyor.  Kara, kurumuþ kan
+izleri astarý yer yer kalýnlaþtýrmýþ.  Keskin pençeler tarafýndan
+yýrtýldýðý belli olan astar þeritleri, alttaki çýplak çamý açýða
+çýkarýp gevþek bir þekilde asýlý duruyor.
+~
+#11606
+karanlýk~
+karanlýk~
+Tüm ýþýðý boðup yok eden karanlýk, maðarayý kaplýyor.~
+nothingness~
+portal 0 0
+0 0 A 11672 0
+0 0 0 P
+E
+karanlýk~
+Karanlýk neredeyse elle tutulacak gibi.  Ona konsantre olduðunda, seni
+içine doðru çektiðini hissediyorsun..
+~
+#11607
+beyaz kemikten mimber~
+beyaz bir mimber~
+Canlý bir þekilde parlayan beyaz bir mimber burada duruyor.~
+bone~
+furniture A 0
+2 3000 BEHKN 115 115
+0 0 0 P
+E
+beyaz mimber~
+Daha yakýndan incelediðinde, mimberin kemiðe benzeyen pürüzsüz,
+beyaz bir maddeden yapýldýðýný fark ediyorsun..
+~
+#11608
+kanla kaplý siyah aytaþý mimber~
+kanla kaplý aytaþýndan bir mimber~
+Kanla kaplý siyah bir mimber burada duruyor.~
+obsidian~
+furniture B 0
+2 3000 BEHKN 85 85
+0 0 0 P
+E
+kanla kaplý siyah aytaþýndan mimber~
+Aytaþýndan yapýlmýþ mimberden etrafa taze kan sýçrýyor.  Kan, yer yer kara madenin
+içine giriyor ve bu taþa farklý bir cins kýrmýzý-damarlý mermer görüntüsü veriyor.
+~
+#11609
+parlayan beyaz taht~
+parlayan beyaz bir taht~
+Parlayan beyaz bir taht odanýn merkezinde duruyor.~
+bone~
+furniture A 0
+3 1500 BEHKN 100 100
+0 0 0 P
+E
+parlayan beyaz taht~
+Tuhaf, ýþýldayan bir maddeden yapýlmýþ gibi görünüyor.. garip bir þekilde
+cilalanmýþ kemiðe benziyor.
+~
+#11610
+ürkütücü koyu siyah taht~
+ürkütücü siyah bir taht~
+Koyu renk bir taht azametle dururken, ürkütücü içsel bir ýþýkla parlýyor.~
+bone~
+furniture A 0
+3 1500 BEHKN 100 100
+0 0 0 P
+E
+ürkütücü koyu siyah taht~
+Taht, kararmýþ kemiðe benzeyen, cilalanmýþ bir maddeden yapýlmýþ gibi
+görünüyor.
+~
+#11611
+beyaz meþe aðacý~
+kadim bir beyaz meþe~
+Kadim bir beyaz meþe aðacý açýklýðýn doðu ucunda yükseliyor.~
+hardwood~
+portal 0 0
+0 0 A 11633 0
+0 0 0 P
+E
+beyaz meþe aðacý~
+Kocaman bir meþe aðacý burada azametle yükseliyor.  Ona baktýðýnda, aðacýn
+sana doðru olan yüzünde dikdörtgen bir alan -- yaklaþýk bir insan boyunda --
+bir an için parýldýyor.  Göz yanýlmasý olup olmadýðýndan emin olamýyorsun.
+~
+#11612
+siyah meþe aðacý~
+kadim bir siyah meþe~
+Kadim bir siyah meþe aðacý açýklýðýn batý ucunda yükseliyor.~
+hardwood~
+portal 0 0
+0 0 A 11667 0
+0 0 0 P
+E
+siyah meþe aðacý~
+Büyük bir yarýk siyah meþenin tabanýna doðru açýlýyor, sanki yanmýþ gibi
+hafifçe kömürleþmiþ.
+~
+#11613
+yol gösteren tabela iþaretdireði~
+bir iþaretdireði~
+Boyanmýþ tahta oklar iþaret direðinin üzerine çivilenmiþ.~
+hardwood~
+furniture A 0
+4 2000 BEHKN 100 100
+0 0 0 P
+E
+yol gösteren tabela iþaretdireði~
+Boyalý tahtalar, sanki yapan kiþi hangi yönü göstermesi gerektiðine karar
+verememiþ ve oklarý güvenli olsun diye tüm yönleri gösterecek þekilde
+yapmýþ gibi, tüm yönleri gösteriyor.  Bu onu bir iþaret direði olarak
+oldukça iþe yaramaz yapýyor..  fakat yine de güçlü, komforlu bir bank
+gibi görünüyor!
+~
+#11614
+deri kanepe~
+uzun deri bir kanepe~
+Uzun deri bir kanepe burada durmuþ, muayene edilecek bir hasta bekliyor.~
+soft leather~
+furniture B 0
+2 2000 BEHKN 100 100
+0 0 0 P
+E
+deri kanepe~
+Kanepe sürekli výzýldýyor.
+Dikkatle dinlediðinde, "..nörolojik yetersizliðin sebep olduðu.."
+þeklinde bir þeyler mýrýldandýðýný duyar gibi oluyorsun.. ama belki de
+bu yine sadece hayal gücünün sana oynadýðý bir oyundur..
+Oturacak bir yere mi ihtiyacýn var?
+~
+#11615
+neon yeþili taht~
+neon yeþili bir taht~
+Neon yeþili bir taht, herþeyle zýtlýk oluþturarak burada duruyor.~
+plastic~
+furniture A 0
+2 2000 BEHKN 100 100
+0 0 0 P
+#11616
+papaðan tüneði tünek~
+bir papaðan tüneði~
+Çelik bir tabanda tahta bir papaðan tüneði görüyorsun.~
+steel~
+furniture 0 0
+3 3000 EH 100 100
+0 0 0 P
+#11617
+püsküllü soytarý þapkasý~
+bir soytarýnýn püsküllü þapkasý~
+Renkli sivri uçlu ve ucunda gümüþ püskülleri olan bir þapka burada uzanýyor.~
+felt~
+armor 0 AE
+23 24 23 20 0
+75 40 2500 P
+A
+12 50
+A
+13 50
+A
+18 5
+A
+19 5
+#11618
+muhteþem halkalar kol þeridi~
+muhteþem halkalar~
+Bir çift çok renkli kol þeridi burada uzanýyor.~
+etherealness~
+armor AF AI
+24 24 24 20 0
+75 20 3000 P
+A
+3 3
+A
+6 1
+A
+12 75
+A
+19 7
+E
+muhteþem halkalar kol þeridi~
+Girdap oluþturan tuhaf bir maddeden yapýlmýþ halkalarýn üzerinde,
+parýldayan þu harfler görülebiliyor:
+
+  gümüþ tellerin bu dokumasýnda
+  iplikten ince
+  ve çelikten daha parlak
+  amaçsýzca dolaþýyoruz --
+  sayýsýz parýltýyla gözlerimiz kamaþmýþ,
+  nabzýmýz bilgiyle çarpýyor
+  ve güçle ýþýldýyoruz...
+  Ve tüm bu ýþýltýnýn içinde,
+
+  bilgeyiz..
+  ..ama þimdilik kandýrýlmýþ durumdayýz..
+
+  baþarýlýyýz..
+  ..ama þimdilik bastýrýlmýþ durumdayýz..
+
+  büyüyoruz..
+  ..ama þimdilik küçük görünüyoruz..
+
+  yalnýzýz..
+  ..ama hiçbir zaman kimsesiz deðiliz..
+
+  kaybolduk..
+  ..ama bulunduk.
+~
+#11619
+fokurdayan çivit yeþili iksir~
+fokurdayan bir çivit yeþili iksir~
+Yoðun çivit yeþili bir iksir burada fokurduyor.~
+crystal~
+potion A AO
+80 'detect magic' 'heal' 'bless' ''
+70 10 1000 P
+#11620
+ayhüzmesi ay hüzme ýþýn ayýþýðý ýþýk~
+bir ayhüzmesi~
+Ay ýþýðýnýn bir parçasý burada parýldýyor.~
+light~
+armor AIK AL
+27 27 28 21 0
+85 0 4000 P
+A
+4 2
+A
+12 85
+A
+18 6
+A
+19 6
+#11621
+masum düþler~
+masum düþler~
+Bir kýsým masum düþ burada süzülüyor.~
+etherealness~
+armor AK AQ
+27 27 28 20 0
+85 0 3500 P
+A
+3 -1
+A
+12 95
+A
+13 -10
+A
+18 6
+A
+19 6
+#11622
+parlayan beyaz taþ~
+parlayan bir beyaz taþ~
+Beyaz bir taþ burada, içsel bir ýþýkla parýldýyor.~
+ivory~
+armor AK AO
+28 28 28 21 0
+85 30 1500 P
+A
+4 2
+A
+12 75
+A
+13 30
+A
+19 5
+#11623
+beyaz çocuk eldivenleri~
+bir çift beyaz çocuk eldiveni~
+Bir çift beyaz çocuk eldiveni burada uzanýyor.~
+soft leather~
+armor AK AH
+23 23 21 21 0
+85 30 3500 P
+A
+2 3
+A
+12 85
+A
+18 10
+A
+19 5
+#11624
+gabrian iþaret beyaz niþan tüy~
+Gabrian'ýn niþaný~
+Beyaz panter tüyünden dokunmuþ bir niþan burada uzanýyor.~
+hair~
+armor BIM AE
+21 21 20 20 P
+80 0 2000 P
+A
+5 3
+A
+12 80
+A
+18 5
+A
+19 3
+E
+gabrian iþaret beyaz niþan tüy~
+Niþanýn etrafýnda altýn iple dokunmuþ bir yazýt parlýyor:
+
+  Elimi tut
+  ve artýk korkma
+  Elimi tut
+  ve daha fazla aðlama..
+
+  Buz gibi karanlýða ulaþýrken
+  ve bir anlýk
+  soluk bir kahkaha
+  hafýzanýn derinliklerinden çýkar
+  onun kalbine dokunmak için,
+  titreyip sönmeden önce,
+  izler býrakarak
+  altýn iplikler gibi
+  karanlýkta ýlýk ýlýk parýldayan.
+
+  O, iplikleri yerden toplayýp,
+  hepsini bir araya dokur --
+  Bir araya dostlarým..
+  Sonsuza dek dostlarým..
+
+  Ve derinleþen karanlýðýn önünde
+  kulaklarýmda yankýlanýr,
+  Bir aslanýn altýndan kükreyiþi.
+~
+#11625
+beyaz gri tüylü zýrh~
+beyaz-gri bir zýrh~
+Kocaman beyaz-gri tüylü bir zýrh burada uzanýyor~
+feathers~
+armor 0 AD
+21 22 21 19 0
+65 150 5500 P
+A
+1 2
+A
+19 6
+A
+13 40
+#11626
+bülbül þarkýsý~
+bülbülün þarkýsý~
+Güzel bir þarký havayý dolduruyor.~
+nothingness~
+armor BFHI AQ
+15 15 15 11 0
+45 0 2200 P
+A
+4 2
+A
+12 45
+A
+19 4
+#11627
+beyaz aydýnlanma parþömeni~
+bir aydýnlanma parþömeni~
+Beyaz bir parþömen burada, sana pek çok þey öðretmeyi vaadediyor.~
+parchment~
+scroll B AO
+55 'colour spray' 'curse' 'charm person' 'poison'
+60 10 550 P
+A
+3 -5
+A
+5 -4
+#11628
+parýldayan deðnek~
+parýldayan bir deðnek~
+Bir deðnek ýþýkta parýldýyor.~
+mithril~
+wand AF AO
+67 12 12 'colour spray' 0
+61 10 3250 P
+#11629
+ýþýldayan gümüþi nallar~
+ýþýldayan gümüþi nallar~
+Bir çift gümüþi nal yumuþak içsel bir ýþýkla parýldýyor.~
+mithril~
+armor AK AG
+22 21 23 18 0
+66 50 5200 P
+A
+2 3
+A
+3 3
+A
+12 65
+#11630
+altýn zil gümüþ zincir~
+Gümüþ bir zincirin ucundaki altýn zil~
+Zarif gümüþ bir zincire tutturulmuþ altýn bir zil burada uzanýyor.~
+gold~
+jewelry A AC
+0 0 0 0 0
+66 20 10240 P
+A
+4 3
+A
+12 50
+A
+19 6
+#11631
+gölgelenmiþ gül~
+bir çift gölgelenmiþ gül~
+Bir miktar gölgelenmiþ gül burada uzanýyor.~
+glass~
+armor 0 AC
+17 17 17 14 0
+55 20 1000 P
+A
+4 -4
+A
+12 100
+F
+A 0 0 A
+#11632
+zýrh beyaz taþ~
+beyaz taþlý bir zýrh~
+Üzerine beyaz bir taþýn yerleþtirildiði iþlenmiþ bir zýrh görüyorsun.~
+mithril~
+armor AK AD
+20 20 21 17 0
+60 350 5560 P
+A
+1 3
+A
+19 5
+#11633
+beyaz bacaklýklar~
+beyaz bacaklýklar~
+Parýldayan bir çift beyaz bacaklýk burada uzanýyor.~
+mithril~
+armor AK AF
+21 21 21 17 0
+64 150 4500 P
+A
+5 2
+A
+18 2
+A
+19 4
+#11634
+elmas kýlýç uzunkýlýç~
+elmas bir uzunkýlýç~
+Elmas bir uzunkýlýç ýþýkta keskin bir biçimde parýldýyor.~
+diamond~
+weapon A AN
+sword 7 10 cleave 0
+63 370 5650 P
+A
+18 3
+A
+19 4
+#11635
+fildiþi terazi~
+Fildiþi bir terazi~
+Altýn bir terazi burada uzanýyor.~
+ivory ~
+treasure A AH
+0 0 0 0 0
+67 150 4334 P
+A
+3 2
+A
+4 2
+A
+12 50
+A
+13 50
+#11636
+budama makasý~
+bir budama makasý~
+Bir budama makasý burada uzanýyor.~
+metal~
+weapon 0 AN
+exotic 10 7 stab 0
+70 370 1000 P
+A
+18 3
+A
+19 3
+#11637
+çim lekeli deri tulum~
+Çim lekeli bir tulum~
+Çim lekeleriyle kaplý deri bir tulum burada.~
+soft leather~
+armor 0 AD
+19 18 19 19 0
+70 70 450 P
+A
+2 3
+A
+6 -1
+#11638
+heykeltraþýn keskisi~
+bir heykeltraþýn keskisi~
+Usta bir heykeltraþa ait sivri keski burada uzanýyor.~
+diamond~
+weapon 0 AN
+dagger 9 8 pierce D
+68 400 4500 P
+A
+18 3
+A
+19 3
+#11640
+uçuþan beyaz kam cüppesi~
+uçuþan beyaz kam cüppesi~
+Etekleri uçuþan beyaz cüppe bir havuzun içinde uzanýyor.~
+cloth~
+armor A AK
+16 16 16 16 0
+57 70 200 P
+A
+4 3
+A
+5 3
+A
+12 55
+E
+uçuþan beyaz kam cüppesi~
+Cüppenin ön tarafýna ýþýldayan beyaz bir haç iþlenmiþ.
+~
+#11641
+körü körüne adanmýþlýk~
+körü körüne adanmýþlýk~
+Bir miktar adanmýþlýk burada beyaz beyaz parýldýyor.~
+nothingness~
+armor AU AD
+17 18 17 16 0
+60 0 0 P
+A
+2 -6
+A
+4 -8
+A
+12 60
+#11642
+gümüþ zincir~
+gümüþ bir zincir~
+Gümüþ bir zincir dolanmýþ bir halde burada uzanýyor.~
+silver~
+jewelry A AC
+0 0 0 0 0
+45 10 7500 P
+A
+5 3
+A
+12 40
+A
+13 25
+#11643
+kýrýk saat~
+kýrýk bir saat~
+Pirinçten kýrýk bir saat, zincirinden uzakta havada asýlý duruyor.~
+brass~
+armor B AL
+15 15 15 13 0
+45 50 20 P
+A
+9 3
+A
+13 35
+A
+19 4
+#11644
+yumuþak tüylü beyaz kuyruk~
+yumuþak tüylü beyaz bir kuyruk~
+Yumuþak tüylü beyaz bir tavþan kuyruðu burada uzanýyor.~
+cotton~
+armor 0 AF
+13 14 13 13 0
+45 0 10 P
+A
+2 2
+A
+12 40
+A
+19 3
+#11645
+tavþan yemek artýk~
+bir tavþan yemeði artýðý~
+Bir tavþanýn yemek artýklarý burada uzanýyor.~
+food~
+pill 0 A
+55 'haste' '' '' ''
+45 10 500 P
+#11646
+inleyen beyaz melek~
+inleyen bir melek~
+Küçük beyaz bir melek sessizce gözyaþý dökerek burada uçuyor.~
+etherealness~
+armor AFI AQ
+17 17 16 14 0
+51 10 0 P
+A
+4 3
+A
+12 50
+A
+19 4
+#11647
+parçalanmýþ rüya parçalarý~
+parçalanmýþ rüyalar~
+Bir kýsým rüya parça parça burada uzanýyor.~
+nothingness~
+armor B AQ
+25 25 25 20 0
+80 0 0 P
+A
+12 -15
+A
+13 75
+A
+19 6
+#11648
+buzdan maske~
+buzdan maske~
+Buzdan bir maske burada.~
+ice~
+armor A AE
+25 26 25 20 0
+80 70 2450 P
+A
+1 4
+A
+12 -10
+A
+13 70
+A
+19 5
+E
+buzdan maske~
+Maskenin içine bir þiir oyulmuþ:
+
+  Buz tabakalarýnýn bir saðanaðý
+  kavurucu güneþin önünü kesen
+  ve beni sarmalayan
+  serin, yumuþak kucaklarýnda
+
+  Aklýmdaki soðuk,
+  hafýzalarý dondurmak için..
+  Kalbimdeki buz,
+  acýyý soðutmak için..
+  Gözlerimdeki serinlik ise,
+  gözyaþlarýný dondurup
+  		buz etmek için..
+~
+#11649
+cehennem atmacasý kara tüy~
+bir cehennem atmacasý tüyü~
+Parýldayan siyah bir tüy ateþten bir kýzýllýkla yanýyor.~
+feathers~
+armor A AO
+21 20 20 18 0
+65 10 5500 P
+A
+1 3
+A
+13 50
+A
+19 5
+#11650
+kanlý cüppe~
+kanlý bir cüppe~
+Kanlý siyah bir cüppe burada uzanýyor.~
+wool~
+armor 0 AE
+19 20 20 19 0
+64 50 100 P
+A
+1 -2
+A
+3 4
+A
+12 65
+A
+19 5
+#11651
+kabusun kara gözü~
+kabusun gözü~
+Kýrmýzý damarlarla dolu kara bir göz burada uzanmýþ, seðiriyor.~
+fire~
+light AE A
+0 0 -1 0 0
+66 10 700 P
+A
+1 4
+A
+13 50
+A
+18 2
+A
+19 6
+#11652
+kabusun soluðu soluk kara bulut~
+kabusun soluðu~
+Kara bir bulut tehditkar biçimde havada süzülüyor.~
+air~
+armor BCFHJ AK
+20 20 20 18 0
+66 10 100 P
+A
+13 50
+A
+18 4
+A
+19 6
+#11653
+kanlý kurban cüppesi~
+kurban cüppesi~
+Kanlý bir cüppe burada uzanýyor.~
+linen~
+armor EJM AK
+19 20 19 19 0
+60 50 2300 P
+A
+12 55
+A
+18 3
+A
+19 5
+#11654
+býçak ölümbýçaðý~
+bir ölümbýçaðý~
+Üzerinden katlettiði yaratýðýn kanlarý damlayan kara bir býçak burada uzanýyor.~
+adamantite~
+weapon BJ AN
+sword 8 9 drain C
+65 420 4500 P
+A
+18 2
+A
+19 2
+#11655
+gece karasý uzun eldivenler~
+uzun gece eldivenleri~
+Bir çift zift karasý uzun eldiven, hafif hafif výzýldayarak burada uzanýyor.~
+onyx~
+armor BJ AH
+20 20 20 15 0
+60 60 5400 P
+A
+18 4
+A
+19 6
+#11656
+kanla ýslanmýþ hançer~
+kanla ýslanmýþ bir hançer~
+Üzerinde taze kan lekeleri olan keskin bir hançer burada parýldýyor.~
+obsidian~
+weapon AJ AN
+dagger 7 10 pierce D
+65 380 2550 P
+A
+18 3
+A
+19 4
+#11657
+delik~
+bir delik~
+Bir delik.~
+nothingness~
+container Y AO
+350 0 0 40 50
+55 0 9540 P
+#11658
+kürklü eldivenler~
+bir çift kürklü eldiven~
+Bir çift kürklü eldiven burada uzanýyor.~
+hair~
+armor 0 AH
+13 13 14 13 0
+45 10 1200 P
+A
+12 40
+A
+13 30
+A
+19 3
+#11659
+kanlý aytaþýndan kalkan~
+üzerine kan sýçramýþ bir kalkan~
+Üzerinde kurumuþ kan lekeleri olan aytaþýndan bir kalkan burada uzanýyor.~
+obsidian~
+armor A AJ
+19 20 19 18 0
+70 100 1050 P
+A
+1 2
+A
+13 50
+A
+18 5
+A
+19 7
+#11660
+uzun kanlý diþ vampir~
+bir vampirin uzun diþleri~
+Bir vampirin uzun kanlý diþleri burada uzanýyor.~
+bone~
+weapon B AN
+dagger 8 10 pierce CD
+70 440 4300 P
+A
+18 3
+A
+19 4
+#11661
+eski püskü siyah pelerin~
+eski püskü bir pelerin~
+Eski püskü siyah bir pelerin burada uzanýyor.~
+wool~
+armor 0 AC
+19 19 19 19 0
+70 50 10 P
+A
+1 2
+A
+13 60
+A
+18 4
+A
+19 5
+#11662
+daemias niþan siyah tüy~
+Daemias'ýn niþaný~
+Gölge karasý panter tüyünden örülmüþ bir niþan výzýldayarak burada uzanýyor.~
+hair~
+armor BCM AE
+21 21 20 21 0
+80 0 9400 P
+A
+1 3
+A
+13 80
+A
+18 3
+A
+19 5
+E
+niþan daemias siyah tüy~
+Siyah tüylerin üzerine gümüþ tellerle þu kelimeler dokunmuþ:
+
+  Buz gibi rüzgarýn soðuk parmaklarý,
+  açýk pencerelerden içeri girer
+  gecenin en karasýnda..
+  onun yanaklarýna dokunur
+  ve nemli gözyaþlarýný dondurur
+  avutan bir buz maskesinin içinde;
+
+  Elimi tut
+  ve artýk korkma
+  Elimi tut
+  ve daha fazla aðlama..
+~
+#11663
+karanlýk alevi~
+bir Karanlýk Alevi~
+Saf karanlýða ait bir alev burada yanýyor.~
+shadow~
+light ACJ A
+0 0 -1 0 0
+85 10 10000 P
+A
+12 75
+A
+13 75
+A
+18 4
+A
+19 7
+#11664
+gözyaþý halkasý~
+bir gözyaþý halkasý~
+Gözyaþlarýnýn oluþturduðu bir halka burada uzanýyor.~
+water~
+armor AFIJ AL
+21 21 21 21 0
+85 50 7500 P
+A
+2 3
+A
+13 75
+A
+18 -2
+A
+19 6
+#11665
+ümitsizlik külleri~
+ümitsizlik külleri~
+Bir miktar kül burada süzülüyor.~
+ash~
+armor AJM AQ
+20 20 20 20 0
+85 10 100 P
+A
+5 -1
+A
+12 75
+A
+13 75
+A
+18 4
+A
+19 7
+#11666
+parçalanmýþ kutsal kitap~
+parçalanmýþ bir kutsal kitap~
+Boylu boyunca ikiye ayrýlmýþ bir kutsal kitap burada uzanýyor.~
+soft leather~
+armor BJ AO
+20 20 20 20 0
+85 50 10 P
+A
+12 -10
+A
+13 75
+A
+18 4
+A
+19 5
+#11667
+kanla lekelenmiþ gümüþ tabak~
+kanla lekelenmiþ bir tabak~
+Gümüþ bir tabak üzerindeki kurumuþ kan lekeleriyle donuk donuk parlýyor.~
+silver~
+armor A AJ
+20 21 20 16 0
+60 100 3200 P
+A
+5 2
+A
+12 65
+A
+19 5
+#11668
+ustura pençeler~
+ustura pençeler~
+Bir miktar keskin pençe tehditkar biçimde parýldýyor.~
+bone~
+armor ACF AH
+20 20 20 20 0
+82 50 4530 P
+A
+13 50
+A
+18 5
+A
+19 7
+#11669
+niþan ykres gölge karasý~
+Ykres'in niþaný~
+Gölge karasý bir niþan burada havada süzülüyor.~
+shadow~
+armor BCF AC
+20 20 20 20 0
+82 0 8300 P
+A
+2 3
+A
+12 25
+A
+13 75
+A
+19 6
+#11670
+gece karasý bilezik~
+gecenin bileziði~
+Safi karanlýktan oluþan bir bilezik burada uzanýyor.~
+shadow~
+armor BCF AM
+15 15 16 14 0
+55 20 3300 P
+A
+2 4
+A
+13 45
+A
+19 5
+#11671
+akik baykuþ yüzüðü~
+bir baykuþ yüzüðü~
+Üzerine bir baykuþ yüzü oyulmuþ akik yüzük burada uzanýyor.~
+onyx~
+jewelry C AB
+0 0 0 0 0
+55 10 5560 P
+A
+4 2
+A
+12 50
+A
+19 5
+#11672
+ince karanlýk parçasý~
+ince bir parça karanlýk~
+Ýnce bir parça karanlýk burada parýldýyor.~
+shadow~
+weapon C AN
+dagger 13 6 pierce D
+70 410 6230 P
+A
+18 3
+A
+19 4
+#11673
+gri aldatma maskesi~
+aldatma maskesi~
+Durmaksýzýn deðiþip dönüþen gri bir maske burada uzanýyor.~
+shadow~
+armor BCF AE
+24 24 24 20 0
+80 30 4240 P
+A
+2 4
+A
+13 65
+A
+18 3
+A
+19 5
+#11674
+gölge pelerini~
+gölgelerin pelerini~
+Sürekli deðiþen gölgelerden ibaret bir pelerin burada uzanýyor.~
+shadow~
+container BCF AC
+200 0 0 20 50
+75 70 2550 P
+A
+2 4
+A
+17 -12
+A
+19 5
+#11675
+buz mumu~
+bir buz mumu~
+Bir buz mumu burada parýldýyor.~
+ice~
+light AF A
+0 0 -1 0 0
+75 60 4520 P
+A
+3 4
+A
+18 4
+A
+19 7
+#11676
+kama gölge gölge kesicisi~
+Keskin Gölge~
+Koyu renk bir kama etrafýndaki gölgelerle içiçe geçmiþ.~
+shadow~
+weapon C AN
+dagger 15 8 pierce CD
+87 420 6650 P
+A
+18 16
+A
+19 6
+#11677
+silüet~
+bir silüet~
+Birinin silüeti burada býrakýlmýþ~
+shadow~
+armor CF AK
+24 24 25 21 0
+87 0 0 P
+A
+2 3
+A
+12 75
+A
+13 75
+A
+19 7
+#11678
+sessizlik~
+sessizlik~
+Bir miktar sessizlik burada saklanýyor.~
+nothingness~
+armor CF AF
+24 23 23 21 0
+87 10 230 P
+A
+2 4
+A
+12 80
+A
+13 25
+A
+19 6
+#11679
+kara gölge atmacasý pençeleri~
+gölge atmacasýnýn pençeleri~
+Bir miktar keskin siyah pençe burada uzanmýþ, nefretle parýldýyor.~
+bone~
+armor AC AG
+26 26 26 20 0
+80 80 8430 P
+A
+1 3
+A
+13 75
+A
+18 3
+A
+19 6
+#11680
+bileklikler enerji~
+enerji bileklikleri~
+Çok renkli enerjiden oluþan bileklikler burada uzanýyor.~
+energy~
+armor AB AI
+20 20 20 20 0
+76 40 4300 P
+A
+2 3
+A
+12 90
+A
+19 5
+F
+A 0 0 V
+#11681
+hýzla dönen enerji diski~
+hýzla dönen disk~
+Bir enerji diski burada fýrýl fýrýl dönüyor.~
+energy~
+armor AB AJ
+20 20 21 20 0
+81 50 3230 P
+A
+12 80
+A
+18 5
+A
+19 7
+#11682
+beyin hücresi~
+bir beyin hücresi~
+Yalnýz bir beyin hücresi burada süzülüyor.~
+skin~
+armor B AE
+18 18 19 18 0
+65 10 1 P
+A
+3 4
+A
+12 60
+#11683
+pembe domuz kanatlarý~
+bir çift domuz kanadý~
+Bir kýsým pembe domuz kanadý etrafta kanat çýrpýyor.~
+feathers~
+armor B AI
+15 15 15 15 0
+59 60 2250 P
+A
+2 2
+A
+18 4
+A
+19 4
+#11684
+mor dinozor kuklasý~
+mor bir dinozorun kuklasý~
+Kýsmen çiðnenmiþ, doldurulmuþ mor bir dinozor kuklasý burada uzanýyor.~
+cloth~
+armor AB AO
+16 15 16 15 0
+60 50 0 P
+A
+3 -2
+A
+4 -2
+A
+13 70
+A
+19 4
+#11685
+beyaz laboratuvar önlüðü~
+beyaz bir laboratuvar önlüðü~
+Beyaz bir laboratuvar önlüðü burada uzanýyor.~
+linen~
+armor AB AK
+18 18 19 18 0
+65 40 3400 P
+A
+3 4
+A
+4 4
+#11686
+modaya uygun takým elbise~
+modaya uygun bir takým elbise~
+Modaya uygun bir takým elbise burada uzanmýþ, gittikçe tozlanýyor.~
+linen~
+armor 0 AD
+16 15 16 15 0
+60 90 7777 P
+A
+3 -3
+A
+4 -2
+A
+12 50
+A
+13 50
+#11687
+enerji parýldayan halka~
+parýldayan bir halka~
+Parýldayan çok renkli enerjiden ibaret bir halka burada uzanýyor.~
+energy~
+armor ABHM AB
+21 21 21 21 0
+86 10 7550 P
+A
+12 70
+A
+18 4
+A
+19 8
+#11688
+saplantý bileziði~
+saplantý bileziði~
+Çok renkli hoþ bir bilezik burada uzanýyor.~
+energy~
+armor ABM AM
+21 21 21 21 0
+86 30 1000 P
+A
+4 -3
+A
+12 110
+A
+18 -9
+#11689
+fikir~
+bir fikir~
+Bir fikir canlýymýþ hissi uyandýrarak ýþýldýyor.~
+energy~
+light AB A
+0 0 -1 0 0
+86 0 10000 P
+A
+3 3
+A
+12 90
+A
+18 5
+A
+19 6
+#11690
+zincir enerji zýrh zincirzýrh~
+enerji zýrhý~
+Saf enerjiden oluþan bir zincirzýrh burada parýldýyor.~
+energy~
+armor AB AD
+21 21 21 21 0
+86 100 7650 P
+A
+12 75
+A
+13 50
+A
+18 5
+A
+19 7
+#11691
+kýrmýzý tüyden bacaklýklar~
+kýrmýzý tüyden bir çift bacaklýk~
+Parlak kýrmýzý papaðan tüyünden yapýlmýþ bir çift bacaklýk burada uzanýyor.~
+feathers~
+armor AB AF
+20 21 20 20 0
+77 80 6500 P
+A
+13 50
+A
+18 4
+A
+19 6
+#11692
+göz alýcý kýrmýzý tüy kuyruk tüyü~
+parlak kýrmýzý kuyruk tüyü~
+Uzun kýrmýzý bir tüy görkemli bir biçimde parlýyor.~
+feathers~
+weapon A AN
+staff 10 10 pierce DG
+80 380 3450 P
+A
+18 5
+A
+19 5
+#11693
+müzikal bileklikler siyah tüy~
+müzikal bileklikler~
+Bir çift siyah tüy bileklik, melodik bir þekilde výzýldayarak burada uzanýyor.~
+feathers~
+armor AB AI
+13 13 13 13 0
+43 20 2200 P
+A
+2 3
+A
+12 45
+A
+19 3
+#11694
+sessiz kara alev~
+bir sessiz alev~
+Kara bir alev sessizce yanýyor.~
+shadow~
+light ACF A
+0 0 -1 0 0
+51 0 2000 P
+A
+2 3
+A
+13 35
+A
+19 4
+#11695
+belli belirsiz izler elizleri~
+belli belirsiz elizleri~
+Bir miktar belli belirsiz elizi duvarý lekeliyor.~
+shadow~
+armor BCF AH
+16 16 16 16 0
+61 0 0 P
+A
+2 3
+A
+12 65
+A
+19 5
+#11696
+kara baykuþ tüyünden battaniye~
+kara baykuþ tüyünden bir battaniye~
+Kara bir kuþun yumuþak tüyleri, bir battaniye oluþturacak þekilde örülmüþ.~
+feathers~
+furniture CG AO
+2 1200 BEHKN 115 115
+65 70 5500 P
+#11697
+delik zemin~
+zeminde bir delik~
+Birisi buradaki zemine bir delik kazmýþ.~
+nothingness~
+portal 0 0
+0 0 D 11646 0
+0 0 0 P
+#11698
+boþluk anaforu~
+boþlukta bir anafor~
+Boþluðun bünyesindeki bir anafor tepede beyaz beyaz parýldýyor.~
+etherealness~
+portal A 0
+0 0 D 11612 0
+0 0 0 P
+#11699
+hiçlik boþluk~
+bir boþluk~
+Burada kesinlikle hiçbir þey yok.~
+nothingness~
+portal B AO
+0 0 CE 2 0
+75 0 0 P
+
+#11700
+meþe kapý~
+meþeden yapýlmýþ bir kapý~
+Meþeden yapýlmýþ oyma bir kapý havanýn ortasýnda asýlý duruyor.~
+oak~
+portal 0 0
+0 1 A 11699 0
+0 0 0 P
+E
+meþe kapý~
+Bir yerlere çýkýyormuþ gibi görünmüyor..
+Kapýnýn üzerine þu kelimeler oyulmuþ:
+
+            Uluslararasý Zeinia
+~
+#11701
+meþe kapý~
+meþeden yapýlmýþ bir kapý~
+Meþeden yapýlmýþ oyma bir kapý havanýn ortasýnda asýlý duruyor.~
+oak~
+portal 0 0
+0 1 A 11687 0
+0 0 0 P
+
+
+#11702
+akik anahtar zincir~
+gümüþ bir zincire asýlý küçük akik anahtar~
+Gümüþ bir zincire asýlý küçük akik anahtar, kara kara parlýyor.~
+stone~
+treasure C AC
+0 0 0 0 0
+0 10 0 P
+A
+2 1
+A
+5 1
+#11703
+çelik anahtar~
+uzun çelik bir anahtar~
+Uzun çelik bir anahtar burada.~
+steel~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+#11704
+kara taþ anahtar~
+kara taþtan bir anahtar~
+Taþtan küçük bir anahtar kara kara parlýyor.~
+stone~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+#11705
+siyah anahtar~
+siyah bir anahtar~
+Siyah bir anahtar burada.~
+stone~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+#11706
+adamant anahtar~
+Uzun adamant bir anahtar~
+Adamanttan yapýlmýþ uzun bir anahtar burada uzanýyor.~
+adamantite~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+#11707
+vücut parçalar çürüyen vücutparçalarý~
+bir miktar çürüyen vücutparçasý~
+Çürümekte olan vücutparçalarý duvardaki kazýklardan sallanýyor.~
+gut~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+vücut parçalar çürüyen vücutparçalarý~
+Lime lime duvarlarda asýlý vücutparçalarýnýn, bir zamanlar bir insana ait
+olduðu açýkça anlaþýlýyor.  Kanlý sanat çalýþmasýnýn üzerinde kargacýk
+burgacýk bir yazýyla yazýlmýþ þu kelimeler var:
+
+            "sh'keva Zdreni ke'zeraika shai !"
+
+Sýrtýndan ensene kadar çýkan bir ürpermeyle titriyorsun.
+~
+#11708
+çift kol bandý kan kýrmýzý kolbantlarý~
+kan kýrmýzýsý kolbantlarý~
+Kan kýrmýzýsý bir çift kol bandý ýþýkta ýslak kan halkalarý gibi parlýyor.~
+adamantite~
+armor AI AI
+41 40 40 23 0
+90 50 10000 P
+A
+1 4
+A
+2 4
+A
+12 120
+A
+13 120
+A
+18 12
+A
+19 12
+A
+20 -5
+E
+çift kol bandý kan kýrmýzý kolbantlarý kandan halkalar~
+Kan kýrmýzýsý metalin altýna iki çapraz hançerin üzerine alçalan bir
+atmaca figürü oyulmuþ. Üzerinde de þöyle bir yazýt var:
+
+			"Ir'vekire zai'Zdreni",
+.
+~
+#11709
+adamant yakut intikam yemini bandý~
+Ýntikam Yemini~
+Kan kýrmýzýsý adamant ve yakut bir bant, yemini mýrýldanýyor.~
+adamantite~
+armor B AC
+40 40 40 24 0
+90 30 15000 P
+A
+1 5
+A
+2 5
+A
+3 5
+A
+4 5
+A
+5 5
+A
+12 500
+A
+13 250
+A
+14 500
+A
+18 15
+A
+19 15
+A
+20 -10
+F
+A 0 0 c
+F
+R 0 0 CD
+E
+adamant yakut intikam yemini bandý~
+Bantýn dýþ kýsmýný bir yazýt çevreliyor:  "Ir'vekire zai'Zdreni"
+
+Metalinin iç kýsmýna boydan boya oyulmuþ þu kelimeleri fark ediyorsun:
+
+               "sh'keva Zdreni zeraika shai !"
+
+        ("akan zdreni kaný için alýnacak öç bizimdir!")
+
+Yakutun üzerine, iki çapraz hançer üzerine alçalan atmaca formu oyulmuþ.
+~
+#11710
+deshanti kamasý~
+deshanti kamasý~
+Koyu kan rengi kabzasý olan bir kama, burada parýldýyor.~
+adamantite~
+weapon AC AN
+dagger 10 15 pierce CD
+90 180 12500 P
+A
+18 25
+A
+19 25
+#11711
+gece karasý akik rütbe yüzüðü yüzük~
+gece karasý bir rütbe~
+Üzerine iki hançer oyulmuþ akik bir yüzük burada, karanlýk saçarak parlýyor.~
+stone~
+treasure C AB
+0 0 0 0 0
+82 10 5000 P
+A
+1 2
+A
+12 65
+A
+13 65
+A
+18 4
+A
+19 8
+#11712
+koyu gri rütbeli zincir zýrh zincirzýrh~
+koyu gri rütbeli bir Isdarl zincirzýrhý~
+Koyu gri bir zincirzýrh burada uzanýyor.~
+adamantite~
+armor C AD
+26 26 26 19 0
+78 80 5000 P
+A
+2 2
+A
+13 50
+A
+19 7
+E
+koyu gri rütbeli zincir zýrh zincirzýrh~
+Zincirzýrhýn sol omzunun üzerinde iki çapraz hançer figürü parýldýyor.
+~
+#11713
+yeþil iþlemeli rütbeli koyu mavi kuþak~
+yeþil rütbeli koyu mavi bir kuþak~
+Koyu mavi kuþaðýn üzerine, yeþil renkle iki çapraz hançer figürü iþlenmiþ.~
+silk~
+armor C AL
+20 20 20 18 0
+73 40 4000 P
+A
+13 50
+A
+19 5
+#11714
+mor iþlemeli rütbeli koyu mavi kuþak~
+mor rütbeli koyu mavi bir kuþak~
+Koyu mavi kuþaðýn üzerine, mor renkle iki çapraz hançer figürü iþlenmiþ.~
+silk~
+armor C AL
+19 19 20 20 0
+73 40 4000 P
+A
+3 2
+A
+12 65
+A
+19 5
+#11715
+duman mavisi rütbeli pelerin~
+duman mavisi rütbeli koyu renk pelerin~
+Koyu renk bir pelerinin üzerine duman mavisi renkten iki çapraz hançer figürü iþlenmiþ.~
+leather~
+armor C AC
+19 19 19 17 0
+68 50 3800 P
+A
+2 2
+A
+5 2
+A
+13 50
+A
+19 5
+#11716
+çivit yeþili rütbeli çift eldiven ~
+çivit yeþili rütbeli bir çift deri eldiven~
+Ýki çapraz hançerden oluþan çivit yeþili rütbe, bir çift eldivenin üzerinde parýldýyor.~
+leather~
+armor C AH
+17 18 17 16 0
+63 20 3500 P
+A
+2 2
+A
+12 65
+A
+13 45
+A
+19 4
+#11717
+koyu yeþil rütbeli çizmeler~
+koyu yeþil rütbeli bir çift çizme~
+Bir çift elastik çizme, koyu yeþil renkli iki çapraz hançer rütbesi taþýyor.~
+leather~
+armor C AG
+16 16 16 14 0
+58 40 3300 P
+A
+2 2
+A
+12 60
+A
+19 4
+A
+20 -2
+#11718
+gri rütbeli bacaklýklar~
+gri rütbeli deri bacaklýklar~
+Ýki çapraz hançerden oluþan gri rütbeli bir çift bacaklýk burada.~
+leather~
+armor C AF
+15 14 14 15 0
+53 30 3000 P
+A
+1 1
+A
+2 2
+A
+12 35
+A
+13 35
+A
+19 4
+#11719
+ten rengi rütbeli bileklik~
+ten rengi rütbeli bileklikler~
+Deri bir bileklik üzerinde ten rengi bir çapraz hançer rütbesi taþýyor.~
+leather~
+armor 0 AM
+14 14 14 12 0
+48 20 2500 P
+A
+3 1
+A
+5 1
+A
+13 30
+A
+19 3
+#11720
+adamant aday yüzüðü~
+bir aday yüzüðü~
+Sade, adamant bir yüzük burada uzanmýþ, výzýldýyor.~
+adamantite~
+treasure B AB
+0 0 0 0 0
+43 10 1000 P
+A
+1 1
+A
+2 1
+A
+18 3
+A
+19 4
+E
+sert aday yüzüðü~
+Oldukça sade olan adamant halka, kullanýcýsýnýn klan üyeleri tarafýndan ayýrt edilmesini,
+ve onlarýn herhangi bir saldýrýya karþý tetikte olmalarýný saðlayan bir büyüyle výzýldýyor.
+Eðer ki büyü, yüzük kullanýcýsýnýn parmaðýndayken iþlemezse, taþýyan kiþi anýnda davetsiz
+misafir olarak damgalanýp saldýrý hedefi haline geliyor.
+~
+#11721
+býçak iþçiliði siyah elkitabý kitap býçakiþçiliði~
+býçakiþçiliði el kitabý~
+Siyah ciltli bir el kitabý burada uzanýyor.~
+leather~
+scroll 0 A
+82 'bless' 'frenzy' '' ''
+73 10 8900 P
+#11722
+koyu mavi parþömen~
+koyu mavi bir parþömen~
+Koyu mavi bir parþömen burada uzanýyor.~
+vellum~
+scroll B A
+82 'enchant weapon' '' '' ''
+73 10 6600 P
+#11723
+parýldayan yeþil iksir~
+parýldayan yeþil bir iksir~
+Koyu yeþil bir iksir burada parýldýyor.~
+glass~
+potion 0 A
+67 'poison' 'blindness' 'plague' 'curse'
+60 10 6700 P
+#11724
+karayel zincirzýrh zincir zýrh adamant giysi~
+karayel iþi bir zincirzýrh~
+Ustalýkla iþlenmiþ adamant zincirden bir takým burada uzanmýþ, parýldýyor.~
+adamantite~
+armor C AD
+14 13 13 10 0
+45 40 5500 P
+A
+2 2
+A
+18 3
+A
+19 3
+#11725
+adamant kýsakýlýç kýsa kýlýç~
+adamant bir kýsakýlýç~
+Adamantite bir kýsakýlýç burada uzanmýþ, uðursuz uðursuz parlýyor.~
+adamantite~
+weapon C AN
+sword 10 10 pierce D
+80 220 5500 P
+A
+18 6
+A
+19 6
+#11726
+adamant kris~
+adamantite bir kris~
+Keskin adamant bir kris burada duruyor.~
+adamantite~
+weapon C AN
+dagger 10 8 pierce D
+73 150 5000 P
+A
+18 5
+A
+19 5
+#11727
+adamant kama~
+adamant bir kama~
+Ýyi tavlanmýþ adamant bir kama burada uzanýyor.~
+adamantite~
+weapon C AN
+dagger 10 7 pierce 0
+65 150 4700 P
+A
+18 5
+A
+19 5
+#11728
+adamant atýþ býçaðý býçak mavi siyah~
+adamant bir atýþ býçaðý~
+Mavi - siyah keskin bir býçak burada parlýyor.~
+adamantite~
+weapon C AN
+dagger 9 6 pierce H
+55 150 4500 P
+A
+18 5
+A
+19 4
+#11729
+adamant hançer~
+adamant bir hançer~
+Adamanttan dövülmüþ uzun bir hançer burada uzanýyor.~
+adamantite~
+weapon C AN
+dagger 5 11 pierce 0
+49 150 4000 P
+A
+18 4
+A
+19 4
+#11730
+duman rengi dumanrengi rütbeli pelerin~
+duman rengi rütbeli koyu bir pelerin~
+Koyu bir pelerinin üzerine duman rengi iki çapraz hançer figürü iþlenmiþ.~
+leather~
+armor C AC
+19 19 19 17 0
+60 50 3800 P
+A
+2 2
+A
+5 2
+A
+13 100
+A
+18 5
+A
+19 5
+#11731
+beyaz uzun kargý~
+uzun beyaz bir kargý~
+Kocaman beyaz bir kargý duvarýn dibinde duruyor.~
+gold~
+weapon A AN
+lance 9 8 crush 0
+65 150 8200 P
+A
+19 16
+#11732
+kara uzun kargý~
+uzun kara bir kargý~
+Kocaman kara bir kargý duvarýn dibinde duruyor.~
+iron~
+weapon BJ AN
+lance 9 8 crush 0
+65 150 8200 P
+A
+19 16
+#11733
+kadim yay~
+kadim bir yay~
+Eski demir bir yay duvarýn dibinde duruyor.~
+iron~
+weapon B AN
+bow 10 9 pierce 0
+70 100 10300 P
+A
+19 10
+A
+18 10
+#11734
+sivri ok~
+çok keskin bir ok~
+Parlak bir ok duvarýn dibinde duruyor.~
+silver~
+weapon B AN
+arrow 9 10 blast D
+70 10 2000 P
+A
+19 7
+A
+18 7
+
+#0
+
+#ROOMS
+#11600
+Çakýltaþlý Patikadaki bir kesiþme~
+Parlak beyaz çakýl taþlarý, uzun çalýlar arasýndan kuzeye ve güneye doðru
+devam eden dar bir patika oluþturuyor.  Doðuya doðru çalýlýklardaki
+açýklýkta büyük bir kuyu görünüyor ve patikanýn ucunda çalýlýklara
+yaslý pirinç bir levha duruyor.
+~
+0 0 1
+D0
+Çakýl taþlý patika kuzeye doðru çalýlýklarý takip ediyor.
+~
+~
+0 -1 11601
+D1
+Doðuya doðru çalýlýklardaki açýklýðýn ortasýnda bir kuyu yükseliyor.
+~
+~
+0 -1 11622
+D2
+Sis bulutlarý patikanýn üzerinden güneye doðru kývrýlýyor.
+~
+~
+0 -1 11624
+D3
+Batýdaki çitlerin arasýndaki bir boþluktan kabarýk bulutlar görünüyor.
+~
+~
+0 -1 9101
+E
+kuyu~
+Batýya doðru büyük granit bir kuyu görünüyor.
+~
+E
+pirinç tabela~
+Üzerinde þöyle yazýyor:
+
+Hatýrla:
+  Hayat bir güçler dengesinden ibarettir, ve zýtlýklar olmadan hiçbir þey
+varlýðýný sürdüremez.
+
+  Nerede ýþýk varsa, orada gölge vardýr                   +++++
+  Nerede arkadaþlýk varsa, orada yalnýzlýk vardýr        ++    +
+  Nerede haz varsa, orada acý vardýr                    ++   +  +
+  Nerede umut varsa, orada umutsuzluk vardýr           ++++      +
+  Nerede yaþam varsa, orada ölüm vardýr.               ++++++    +
+                                                       +++ +++   +
+  Dikkatli ol!!                                          ++++++  +
+                                                         ++++  +
+--                                                        +++++
+   Bölünmüþ Ruhlar - yazan Ydri.  3/96
+~
+
+S
+#11601
+Çalýlýklarýn Arasýnda~
+Güneþ ýþýðýnda canlý bir biçimde parlayan çakýl taþlarý çalýlýklardaki
+bir açýklýktan batýya doðru akýyor.  Patika kuzeye doðru verimli bir
+bahçeye açýlýyor ve güneyde çalýlýklarýn içine doðru devam ediyor.
+~
+0 0 1
+D0
+Kuzeye doðru çalýlýklar seyrekleþip renkli bir bahçeyi açýða çýkarýyor.
+~
+~
+0 -1 11603
+D2
+Çakýl taþlý patika güneye doðru devam ediyor.
+~
+~
+0 -1 11600
+D3
+Batýya doðru olan parlak açýklýkta bol miktarda çalýlýk görünüyor.
+~
+~
+0 -1 11602
+S
+#11602
+Parlak Açýklýk~
+Iþýk, görünmez bir mýknatýs tarafýndan çekiliyormuþçasýna, bu açýklýðýn
+üzerinde odaklanmýþ.  Büyük çalýlýklar zeminde noktalar oluþturuyor.. tuhaf,
+bir çocuðun düþlerini andýran bir þekilde budanmýþlar.
+~
+0 0 1
+D1
+Doðuya doðru beyaz çakýl taþlý bir patika görünüyor.
+~
+~
+0 -1 11601
+S
+#11603
+Bahçe Patikasý~
+Egzotik güzellikteki bir gökkuþaðýnýn içinde dururken, envai çeþit çiçek
+etrafýný çevreliyor.  Onlarýn birbirine karýþan hoþ kokularý havayý tatlý,
+biraz da keskin bir parfümle dolduruyor.  Büyük beyaz bir taraça kuzeye
+doðru çiçek tarhlarýnýn ortasýndan yükseliyor.  Üzerinde durduðun toprak
+patika taraçanýn etrafýndan dolanýp batýya ve doðuya doðru devam ediyor.
+~
+0 0 1
+D1
+Toprak patika, çiçek tarhlarýnýn içinden doðuya doðru dolanýyor.
+~
+~
+0 -1 11604
+D2
+Çakýl taþlý bir patika çalýlýklarýn arasýnda güneye doðru dolanýyor.
+~
+~
+0 -1 11601
+D3
+Toprak patika çiçek tarhlarýnýn içinden batýya doðru dolanýyor.
+~
+~
+0 -1 11610
+S
+#11604
+Bahçe Patikasý~
+Egzotik güzellikteki bir gökkuþaðýnýn içinde dururken, envai çeþit çiçek
+etrafýný çevreliyor.  Onlarýn birbirine karýþan hoþ kokularý havayý tatlý,
+biraz da keskin bir parfümle dolduruyor.  Büyük beyaz bir taraça kuzeybatýya
+doðru çiçek tarhlarýnýn ortasýndan yükseliyor.  Üzerinde durduðun toprak
+patika taraçanýn etrafýndan dolanýp batýya ve kuzeye doðru devam ediyor.
+Doðuya doðru, patika büyük açýklýk bir alana çýkýyor.
+~
+0 0 1
+D0
+Toprak patika taraçanýn etrafýndan kuzeye doðru dolanýyor.
+~
+~
+0 -1 11605
+D1
+Doðuya doðru olan açýklýkta tuhaf beyaz bir þekil görünüyor.
+~
+~
+0 -1 11612
+D3
+Toprak patika taraçanýn etrafýndan batýya doðru dolanýyor.
+~
+~
+0 -1 11603
+S
+#11605
+Bahçe Patikasý~
+Egzotik güzellikteki bir gökkuþaðýnýn içinde dururken, envai çeþit çiçek
+etrafýný çevreliyor.  Onlarýn birbirine karýþan hoþ kokularý havayý tatlý,
+biraz da keskin bir parfümle dolduruyor.  Büyük beyaz bir taraça batýya
+doðru çiçek tarhlarýnýn ortasýndan yükseliyor.  Üzerinde durduðun toprak
+patika taraçanýn etrafýndan kuzeye ve güneye doðru devam ediyor.
+~
+0 0 1
+D0
+Toprak patika, çiçek tarhlarýnýn içinden ve yanýndan dolanýp kuzeye
+doðru devam ediyor.
+~
+~
+0 -1 11606
+D2
+Toprak patika, çiçek tarhlarýnýn içinden ve yanýndan dolanýp güneye
+doðru devam ediyor
+~
+~
+0 -1 11604
+S
+#11606
+Bahçe Patikasý~
+Egzotik güzellikteki bir gökkuþaðýnýn içinde dururken, envai çeþit çiçek
+etrafýný çevreliyor.  Onlarýn birbirine karýþan hoþ kokularý havayý tatlý,
+biraz da keskin bir parfümle dolduruyor.  Büyük beyaz bir taraça güneybatýya
+doðru çiçek tarhlarýnýn ortasýndan yükseliyor.  Üzerinde durduðun toprak
+patika taraçanýn etrafýndan güneye ve batýya doðru devam ediyor.
+~
+0 0 1
+D2
+Toprak patika taraçanýn etrafýndan dolanýp güneye doðru devam ediyor.
+~
+~
+0 -1 11605
+D3
+Toprak patika taraçanýn etrafýndan dolanýp batýya doðru devam ediyor.
+~
+~
+0 -1 11607
+D5
+~
+büyük kaya~
+1 -1 11615
+S
+#11607
+Suaygýrý Fýskiye~
+Oynaþan iki beyaz suaygýrý þeklinde oyulmuþ, uzun mermer bir fýskiye, burada
+duruyor.  Suaygýrlarýndan birinin aðzýndan çýkan su aþaðýdaki havuza akýyor.
+Heykel her ne kadar sanatsal bir çalýþmanýn ürünü olsa da, biraz komik görünüyor,
+özellikle suaygýrý aðzýndan su akýtýrken diðerinin aðzýna kusuyormuþ izlenimi
+býrakýyor..  Mermer basamaklar güneydeki taraçaya çýkýyor.
+Toprak patika taraçanýn etrafýndan batýya ve doðuya doðru devam ediyor.
+~
+0 0 1
+D1
+Toprak patika taraçanýn etrafýndan dolanýp doðuya doðru devam ediyor.
+~
+~
+0 -1 11606
+D2
+Güneye doðru basamaklar beyaz bir taraçaya ulaþýyor.  Taraçanýn içindeki belli belirsiz
+þekiller zor da olsa seçiliyor.
+~
+~
+0 -1 11611
+D3
+Toprak patika taraçanýn etrafýndan dolanýp batýya doðru devam ediyor.
+~
+~
+0 -1 11608
+E
+mermer fýskiye suaygýrlarý~
+Zararsýz görünse de, günahkar bir gölge beyaz fýskiyenin üzerinde asýlý
+duruyor.. ya da belki bu sadece senin hayal gücünün yanýlsamasýdýr.
+~
+E
+beyaz taraça~
+Güneye doðru taraçanýn içindeki bazý belli belirsiz þekiller görülebiliyor.
+~
+S
+#11608
+Bahçe Patikasý~
+Egzotik güzellikteki bir gökkuþaðýnýn içinde dururken, envai çeþit çiçek
+etrafýný çevreliyor.  Onlarýn birbirine karýþan hoþ kokularý havayý tatlý,
+biraz da keskin bir parfümle dolduruyor.  Büyük beyaz bir taraça güneydoðuya
+doðru çiçek tarhlarýnýn ortasýndan yükseliyor.  Üzerinde durduðun toprak
+patika taraçanýn etrafýndan doðuya ve güneye doðru devam ediyor.
+~
+0 0 1
+D0
+Kýzýl ahþap basamaklar kuzeye doðru büyük bir platforma çýkýyor.
+~
+~
+0 -1 11617
+D1
+Toprak patika bahçenin içinden doðuya doðru dolanýyor.
+~
+~
+0 -1 11607
+D2
+Toprak patika bahçenin içinden güneye doðru dolanýyor.
+~
+~
+0 -1 11609
+D3
+Batýya doðru büyük bir aðaç görüyorsun.
+~
+~
+0 -1 11618
+S
+#11609
+Bahçe Patikasý~
+Egzotik güzellikteki bir gökkuþaðýnýn içinde dururken, envai çeþit çiçek
+etrafýný çevreliyor.  Onlarýn birbirine karýþan hoþ kokularý havayý tatlý,
+biraz da keskin bir parfümle dolduruyor.  Büyük beyaz bir taraça doðuya
+doðru çiçek tarhlarýnýn ortasýndan yükseliyor.  Üzerinde durduðun toprak
+patika taraçanýn etrafýndan dolanýp kuzeye ve güneye doðru devam ediyor.
+~
+0 0 1
+D0
+Toprak patika taraçanýn etrafýndan dolanýp kuzeye doðru devam ediyor.
+~
+~
+0 -1 11608
+D2
+Toprak patika taraçanýn etrafýndan dolanýp güneye doðru devam ediyor.
+~
+~
+0 -1 11610
+S
+#11610
+Bahçe Patikasý~
+Egzotik güzellikteki bir gökkuþaðýnýn içinde dururken, envai çeþit çiçek
+etrafýný çevreliyor.  Onlarýn birbirine karýþan hoþ kokularý havayý tatlý,
+biraz da keskin bir parfümle dolduruyor.  Büyük beyaz bir taraça kuzeydoðuya
+doðru çiçek tarhlarýnýn ortasýndan yükseliyor.  Üzerinde durduðun toprak
+patika taraçanýn etrafýndan dolanýp kuzeye ve doðuya doðru devam ediyor.
+~
+0 0 1
+D0
+Toprak patika taraçanýn etrafýndan dolanýp kuzeye doðru devam ediyor.
+~
+~
+0 -1 11609
+D1
+Toprak patika taraçanýn etrafýndan dolanýp doðuya doðru devam ediyor.
+~
+~
+0 -1 11603
+S
+#11611
+Taraçanýn Ýçi~
+Büyük, beyaz bir taraçanýn içinde duruyorsun.  Tepede beyaza boyanmýþ, diþbudak
+aðacýndan, ince iþçilik ürünü bir kemer, gri mermer zemini koyu gölge þeritleriyle
+lekeliyor.  Zeminin ortasýnda beyaz oyma bir mimber yükseliyor.
+Taraçanýn tavaný bir sis tabakasýyla örtülü.
+~
+0 D 0
+D0
+Kuzeye doðru, mermer basamaklar verimli bir bahçeye açýlýyor.
+~
+~
+0 -1 11607
+D4
+Sislerin içine doðru geniþ bir tünelin varlýðýný zor da olsa seçebiliyorsun.
+~
+~
+0 -1 11668
+S
+#11612
+Tuhaf Sanat çalýþmasý~
+Mavimsi-yeþil halka þeklinde bir çalýlýðýn çevrelediði, çimen kaplý bir açýklýða
+egemen olan hantal beyaz.. þey (?) tam ortada yükseliyor.  Nesneyi çevreleyen çimenler
+kömürleþmiþ ve sanki henüz sönmüþ gibi tütüyor.  Nesnenin kendisi ise yanýk deðil.
+~
+0 0 2
+D3
+Toprak bir patika beyaz taraçanýn etrafýndan batýya doðru dolanýyor.
+~
+~
+0 -1 11604
+D5
+Toprak bir patika beyaz taraçanýn etrafýndan aþaðýya doðru dolanýyor.
+~
+~
+0 -1 11613
+S
+#11613
+Sanat Çalýþmasýnýn Ýçi~
+Bu yapýnýn duvarlarýný oluþturan dolambaçlý göðüs kafesi kemiklerinin arasýndan, verimli
+bir bahçenin yeþili görülebiliyor.  Zeminin ortasýndaki bir delikten içeri bir merdiven
+uzanýyor.
+~
+0 D 0
+D4
+Zeminin merkezinde kývrýlan kemikler, büyük bir delik meydana getiriyor.
+Beyaz kemikten bir merdiven karanlýklara doðru yitip gidiyor.
+~
+~
+0 -1 11612
+D5
+Zeminin merkezinde kývrýlan kemikler, büyük bir delik meydana getiriyor.
+Beyaz kemikten bir merdiven karanlýklara doðru yitip gidiyor.
+~
+~
+0 -1 11614
+E
+merdiven~
+Kemikten bir merdiven zemindeki delikten içeri doðru uzanýyor.
+~
+S
+#11614
+Delik~
+Zemindeki delik çalkalanan çok renkli bir boþluðun göbeðine çýkýyor.
+Cesaret edebiliyorsan aþaðýya in..
+~
+0 AD 0
+D4
+Kemikten bir merdiven yukarý doðru çýkýyor.
+~
+~
+0 -1 11613
+D5
+Bir delik aþaðýdaki çalkalanan boþluða çýkýyor.
+~
+~
+0 -1 11685
+E
+çok renkli boþluk~
+Çeþitli renklerdeki bir kütle, aþaðýda çalkalanýp fýrýl fýrýl dönüyor.
+Baðýrsaklarýn düðümleniyor, ve ileriye bakmakta zorlanýyorsun.
+~
+S
+#11615
+Sessiz Tünel~
+Kuzey-güney doðrultusunda devam eden dar tünel sýkýþtýrýlmýþ kilden oyulmuþ.  Iþýk
+tavandaki bir açýklýktan içeri süzülüyor.  Tünelin büyük bir maðaraya çýktýðý kuzeyde,
+suyun ritmik damlama sesleri duyulabiliyor.
+~
+0 AD 0
+D0
+Kuzeye doðru büyük bir maðara görünüyor.
+~
+~
+0 -1 11616
+D4
+Iþýk alçak tavandaki bir delikten içeri süzülüyor.
+~
+büyük kaya~
+1 -1 11606
+S
+#11616
+Ayna Havuz~
+Sýkýþtýrýlmýþ kilden nemli duvarlar, kocaman dairesel bir maðarayý çevreliyor.  Tavan
+ve duvarlardaki çatlaklardan damlayan su, ufak dereler ve küçük akýntýlar halinde akýp
+maðaranýn merkezinde berrak, durgun bir havuz oluþturuyor.
+~
+0 AD 0
+D2
+Dar bir tünel güneye doðru çýkýyor.
+~
+~
+0 -1 11615
+S
+#11617
+Kýzýl ahþap Platform~
+Beþgen kýzýl ahþap bir platform, çok renkli çiçek ve çalýlýk demetlerinin içinden
+yükseliyor.  Büyük granit bir kitap beþgenin tam merkezine yerleþtirilmiþ.
+Gri ve beyaz, iki alçak mermer kaide, büyük kitabýn her iki yanýnda duruyor.
+~
+0 0 1
+D2
+Basamaklar güneye doðru bahçenin içine iniyor.
+~
+~
+0 -1 11608
+E
+büyük granit kitap~
+Açýk bir kitap cilalanmýþ granitten oyulmuþ.  Sol taraftaki sayfadan bir paragraf
+gözüne takýlýyor:
+
+".. Bilgeliðimizden
+    bilmeyi,
+    Hatalarýmýzdan
+    büyümeyi..
+
+    .. ki her nesil bir öncekinden daha üstün, daha kuvvetli,
+    daha bilge olacaktýr.."
+
+Hava graniti yýprattýðý için, bir çatlak sayfanýn bir ucundan diðer ucuna kadar gidiyor.
+~
+E
+mermer kaideler~
+Dört köþe mermer kaideler kýzýl ahþabýn üzerine yerleþtirilmiþ.  Beyaz olan kaide, gri
+olandan çok hafif daha büyük.  Ýkisinin de ortasýnda çentikler var.
+~
+E
+gri~
+Gri kaide parlak ve yeni görünüyor, ortasýnda sadece ayak þeklinde çentikler var.
+~
+E
+beyaz~
+Bir çatlak, beyaz kaidenin üstünden altýna kadar iniyor.
+~
+S
+#11618
+Büyük bir aðaç gövdesi~
+Toprak patika burada doðu ve güneye doðru kavis yapýyor.  Kocaman bir meþe aðacý
+kuzeybatýya doðru ihtiþamla yükseliyor. Daha alçakta olan dallarý patikanýn büyük
+bir bölümünü gölgelemekte.
+~
+0 0 1
+D1
+Toprak patika çiçek tarhlarýnýn içinden geçerek doðuya doðru dolanýyor.
+~
+~
+0 -1 11608
+D2
+Toprak patika, güneye doðru aðaçlýk bir korunun içinde gözden kayboluyor.
+~
+~
+0 -1 11619
+D4
+Kocaman meþe gökyüzüne doðru yükseliyor.  Daha aþaðýda olan dallar saðlam ve
+týrmanýlabilir gibiler.
+~
+~
+0 -1 11620
+E
+meþe aðacýnýn dallarý~
+Kocaman meþe gökyüzüne doðru yükseliyor.  Daha aþaðýda olan dallar saðlam ve
+týrmanýlabilir gibiler.
+~
+S
+#11619
+Diþbudak Aðacý Korusu~
+Diþbudak aðaçlarýndan oluþan bir daire, burada küçük gölgeli bir koru meydana
+getiriyor.  Iþýk hüzmeleri üst üste binmiþ dallarýn arasýndan süzülüp, gölgelerin
+içinde ateþböcekleri gibi yanýp sönüyorlar.
+Kuzeye doðru dar toprak bir patika korunun içinde beliriyor.
+~
+0 0 2
+D0
+Toprak bir patika, kuzeye doðru verimli bir bahçenin içinde gözden kayboluyor.
+~
+~
+0 -1 11618
+S
+#11620
+Büyük Meþe Aðacýnýn Üzerinde~
+Meþe aðacýnýn kocaman gövdesinin hemen yanýnda, alçak bir dalýn üzerinde duruyorsun.
+Tepedeki dallarýn oluþturduðu kalýn að, daha yukarýlara týrmanmayý imkansýz hale
+getiriyor.  Batýya doðru uzanan bir dal boyunca devasa bir kuþ yuvasý görünüyor.
+~
+0 D 3
+D3
+Kuþ yuvasýnýn içinde batýya doðru açýlan bir bölüm göze çarpýyor.
+~
+~
+0 -1 11621
+D5
+Verimli yeþil bir bahçe alt tarafta görülebiliyor.
+~
+~
+0 -1 11618
+E
+kuþ yuvasý~
+Hemen bu tarafýndaki bir açýklýk, içine girilebilecek kadar büyük görünüyor.. ancak
+ne çeþit bir kuþun bu büyüklükte bir kuþ yuvasýna ihtiyaç duyacaðýný iyice düþünüp
+tartman iyi olabilir..
+~
+S
+#11621
+Kuþ yuvasýnýn Ýçi~
+Kendini devasa sekizgen bir odanýn içinde buluyorsun.  Kalýn ahþap duvarlar yukarýya
+doðru görüþ mesafesinin dýþýna çýkýyor.  Duvarlara açýlmýþ üç devasa giriþten mavi
+gökyüzü ve meþe dallarý görülebiliyor.  Zemin gri ve ten rengi yumurta benzeri
+kürelerle dolu.  Kürelerin arasýnda yýðýn halinde kuþ yemi var.
+~
+0 D 0
+D1
+Devasa bir giriþ, büyük bir meþe aðacý dalýnýn üzerine çýkýyor.
+~
+~
+0 -1 11620
+E
+gri - ten rengi küreler~
+Daha yakýndan bakýldýðýnda, bunlar yavrulara ait dev kabuklara benziyorlar.
+~
+E
+kuþ yemi~
+Küçük kuþ yemi kümeleri ahþap zemini kirletiyor.
+~
+S
+#11622
+Taþ Kuyu~
+Yüksek çalýlarla çevrelenmiþ, geniþ çimle kaplý bir açýklýkta duruyorsun.  Açýklýðýn
+bir ucunda taþ bir kuyu yükseliyor.
+~
+0 0 1
+D3
+Çakýltaþlý bir patika batýya doðru dolanýyor.
+~
+~
+0 -1 11600
+D5
+Kuyunun yanýna iliþtirilmiþ bir merdiven karanlýðýn içine doðru aþaðý iniyor.
+~
+~
+0 -1 11623
+E
+taþ kuyu~
+Düzgün gri taþ bloklar, uygun biçimde bir araya getirilip, geniþ bir kuyu
+oluþturacak þekilde harç ile sývanmýþ.  Taþ kenarlardan birine iliþtirilmiþ
+bir merdiven karanlýðýn içine doðru aþaðý iniyor.
+~
+S
+#11623
+Kuyunun Ýçi~
+Kuyunun düzgün taþ duvarlarý dört bir tarafýndan yükseliyor.  Taþ, sanki kuyu
+hiçbir zaman kullanýlmamýþ gibi, sert ve aþýnmamýþ görünüyor.  Bozulmuþ bir
+insan iskeleti kuyunun dibinde bir uçtan bir uca yayýlmýþ bir þekilde uzanýyor.
+Kara tahta bir merdiven kuyunun tepesine doðru yükseliyor.
+~
+0 0 1
+D4
+Ahþap bir merdiven, tepeye, kuyunun üst kýsmýna doðru çýkýyor.
+~
+~
+0 -1 11622
+E
+iskelet~
+Sanki bir þey (birisi?) kuyunun içine düþmüþ gibi.  Kemikler garip bir þekilde
+temiz ve ýþýkta soðuk bir biçimde parlýyor.
+~
+S
+#11624
+Puslu Patika~
+Serin sis bulutlarý güneyden itibaren patika boyunca etrafý sarýp, patikanýn
+beyaz çakýltaþlarýný serin ve parlak bir hale getiriyor.  Kuzeye doðru uzun
+çalýlýklar patikayý çevreliyor.  Güneye doðru ise sis kalýnlaþýyor.
+~
+0 0 1
+D0
+Kuzeye doðru patika uzun çalýlýklarýn arasýnda kayboluyor.
+~
+~
+0 -1 11600
+D2
+Güneye doðru patika geniþleyerek sislerle kaplý bir gölün kýyýsýna ulaþýyor.
+~
+~
+0 -1 11625
+S
+#11625
+Sisler Gölünün Kýyýsý~
+Tamamen sislerden oluþmuþ gibi görünen bir gölün kayalýk kýyýsýnda duruyorsun.
+Gölden gelen yoðun buharlar, belli ki yukarýya ve kuzeye doðru patikaya ulaþmak
+için yol niyetine kullanýlýyorlar.  Güneye doðru, kýyý gölün içine iniyor.
+~
+0 0 1
+D0
+Beyaz çakýltaþlý bir patika kuzeye çýkýyor.
+~
+~
+0 -1 11624
+D2
+Göl kýyýsý burada hafifçe güneye doðru bükülüp gölün içine giriyor.
+~
+~
+0 -1 11626
+S
+#11626
+Sisli Göl~
+Serin, yoðun sis etrafýnda girdap oluþturarak dönerken, görüþ mesafeni bir
+metreden daha aza indiriyor.  Gölün dibi büyük gri-beyaz kayalarla ve kaygan
+ot kümeleriyle dolu.  Kuzeye doðru, göl kýyýsý sislerin üzerine týrmanýyor.
+Göl güneye doðru devam ediyor.
+~
+0 A 2
+D0
+Kuzeye doðru gölden çýkabilirsin.
+~
+~
+0 -1 11625
+D2
+Büyük kayalarýn arasýndan güneye doðru bir açýklýk görülebiliyor.
+~
+~
+0 -1 11628
+D3
+Batýya doðru iri kayalarýn arasýnda büyük bir çalý yýðýný duruyor.  Orada,
+çalýlarýn arkasýnda sanki bir açýklýk var gibi..
+~
+çalýlýklar~
+1 -1 11627
+E
+çalýlýklar~
+Batýya doðru iri kayalarýn üzerinde iki geniþ çalý yýðýný büyümüþ.  Onlarýn
+hemen arkasýnda sanki bir açýklýk var gibi..
+~
+E
+taþlar iri kayalar~
+Büyük beyaz çizgili gri kayalar gölün tabanýný dolduruyor.  Güneye doðru
+kayalarýn arasýnda bir açýklýk olduðu görülebiliyor.
+~
+S
+#11627
+Yosunlu Maðara~
+Küçük doðal bir maðara burada gölün gri-beyaz kayalarýnýn arasýnda duruyor.
+Yeþil - mavi fosforlu, yosunsu küçük bitkiler kaygan maðara duvarlarýný
+kaplamýþ, sisin içinde ürkütücü biçimde ýþýldýyorlar.  Doðuya doðru büyük
+bir çalýlýk kümesi, maðarayý gölün geri kalanýndan ayýrarak siper görevi görüyor.
+~
+0 D 2
+D1
+Doðuya doðru çalýlýklarýn içinden sisli göl görülebiliyor.
+~
+çalýlýklar~
+1 -1 11626
+E
+çalýlýklar~
+Doðuya doðru büyük çalýlýklar maðarayý gölün geri kalanýndan ayýrarak
+bir nevi siper görevi görüyor.
+~
+S
+#11628
+Sisli Göl~
+Gölün soðuk sisi yoðun nemiyle tenini ürpertiyor.  Pusun içinden, gölün
+tabanýna daðýlmýþ büyük kayalarýn arasýnda doðuya ve batýya doðru giden
+bir patikayý seçebiliyorsun.  Göl zemini kuzeye doðru devam ediyor.
+{cKadimlerin kutsallýðý aklýný ele geçiriyor.{x
+~
+0 A 2
+D0
+Göl zemini kuzeye doðru devam ediyor.
+~
+~
+0 -1 11626
+D1
+Gölün dibinden geçen bir patika doðuya doðru devam ediyor.
+~
+~
+0 -1 11629
+D3
+Gölün dibinden geçen bir patika batýya doðru devam ediyor.
+~
+~
+0 -1 11631
+S
+#11629
+Sisli Göl~
+Gölün zeminindeki patika burada batýya ve güneye doðru devam ediyor.
+Güneye doðru, patika geniþ puslu bir havuza çýkýyor.
+~
+0 A 2
+D2
+Güneye doðru puslu bir havuz görünüyor.
+~
+~
+0 -1 11630
+D3
+Göl zemini batýya doðru devam ediyor.
+~
+~
+0 -1 11628
+S
+#11630
+Puslar Havuzu~
+Gölün duvarlarý burada büyük puslu bir havuz oluþturacak þekilde kesiþiyor.
+Yosun kaplý mermer bir kaide havuzun merkezindeki bir çukurun içinden yükseliyor.
+Kuzeye doðru, bir patika tekrar gölün içine çýkýyor.
+~
+0 0 2
+D0
+Kuzeye doðru sisler gölü görünüyor.
+~
+~
+0 -1 11629
+D2
+~
+~
+0 -1 11662
+E
+çukurdaki mermer kaide~
+Yuvarlak beyaz mermerden bir kaide havuzun merkezindeki bir çukurun içine
+yerleþtirilmiþ.  Gri-yeþil yosunsu bitkiler beyaz taþa sýký sýký yapýþmýþ.
+Kaidenin ortasýndaki iþaretler yakýn zamana kadar üzerinde bir þeyin durduðunu
+açýða çýkarýyor.
+~
+S
+#11631
+Sisli Göl~
+Yeþil yabani bir ot kümesiyle kýsmen kapanmýþ kara bir açýklýk, göl duvarýný
+güneye doðru kesiyor.  Göl zemini doðuya doðru devam ediyor.
+~
+0 A 2
+D1
+Sisli göl doðuya doðru devam ediyor.
+~
+~
+0 -1 11628
+D2
+Güneye doðru göl duvarýnda gölgeli bir tünelin karanlýk aðzý görünüyor.
+~
+~
+0 -1 11632
+S
+#11632
+Karanlýk Tünel~
+Yüksek, dar granit bir tünel, granit göl duvarýnýn içine yarýlmýþ.  Beyaz sis,
+duvarlarý kaygan ve soðuk bir halde býrakarak, kuzeye doðru açýklýktan içeri
+sýzýyor.  Tünelin bir maðaranýn içine doðru geniþlediði batý tarafýnda, karanlýðýn
+derinleþtiði görülüyor.
+~
+0 AD 0
+D0
+Kuzeye doðru olan açýklýktan sisler gölü görülebiliyor.
+~
+~
+0 -1 11631
+D3
+Batýya doðru, tünel karanlýk bir maðaranýn içine doðru geniþliyor.
+~
+~
+0 -1 11633
+S
+#11633
+Gölgeli Maðara~
+Kara granit duvarlar burada büyük bir maðara meydana getiriyor.  Karanlýk ve
+gölgeler, sanki görünmeyen bir güç tarafýndan çekilmiþler gibi, burada
+derinleþiyorlar.  Karanlýðýn içinden açýkça görülüyor ki, bir tünel doðuya
+doðru maðaradan çýkýyor.
+~
+0 AD 0
+D1
+Karanlýk, sisli bir tünel doðuya doðru maðaradan çýkýyor.
+~
+~
+0 -1 11632
+D2
+~
+~
+0 -1 11721
+D5
+~
+~
+0 -1 10401
+S
+#11634
+Akik Koridor~
+Kuzeyden gelen ürpertici soðuk hava, arada sýrada meþalelerin titreþtmesine
+sebep olup, kara akik duvarlarda ürpertici gölgeler oluþturuyor.  Batý
+duvarýna sade meþe bir kapý yerleþtirilmiþ.
+~
+0 ADN 0
+D0
+Akik koridor kuzeye doðru devam ediyor.
+~
+~
+0 -1 11658
+D1
+Meþe bir kapý batý duvarýna yerleþtirilmiþ.
+~
+meþe kapý~
+1 -1 11656
+D2
+Koridor güneye doðru devam ediyor.
+~
+~
+0 -1 11635
+S
+#11635
+Akik Koridor~
+Düzgün siyah duvarlar hem kurumuþ hem de taze kan lekeleriyle dolu.
+Koridor boyunca uzaktan gelen çýðlýklar yankýlanýyor.  Güneye doðru,
+hol karanlýk bir koridorla kesiþiyor.  Batý duvarýnda saðlam siyah
+bir kapý var.
+~
+0 ADN 0
+D0
+Koridor kuzeye doðru devam ediyor.
+~
+~
+0 -1 11634
+D2
+Güneye doðru karanlýk bir koridor holden geçiyor.
+~
+~
+0 -1 11637
+D3
+Ürkütücü siyah bir kapý batý duvarýndan içeri açýlýyor.
+~
+siyah kapý~
+1 -1 11636
+S
+#11636
+Yüksek Papazýn Meclisi~
+Siyah mermer duvarlar büyük dairesel bir odayý çevreliyor ve yüksek taþ
+bir tavan mermer sütunlar tarafýndan destekleniyor.  Donuk kahverengimsi
+yamalar gibi görünen kurumuþ kan lekeleri, cilalanmýþ duvarlarý lekeliyor.
+~
+0 ADN 0
+D1
+Doðu duvarýnýn içine siyah bir kapý yerleþtirilmiþ.
+~
+black door~
+1 -1 11635
+S
+#11637
+Karanlýk koridor~
+Burada kara taþtan duvarlar, doðuya ve batýya doðru devam eden bir koridorun
+etrafýný çeviriyor.  Taþýn üzerinde zar zor seçilen gölgeler, loþ meþale
+ýþýðýnda ürkütücü biçimde titreþiyor.  Akik bir koridor burada koridorla
+kesiþip kuzeye doðru devam ediyor.
+~
+0 ADN 0
+D0
+Akik bir koridor kuzeye doðru devam ediyor.
+~
+~
+0 -1 11635
+D1
+Koridor doðuya doðru devam ediyor.
+~
+~
+0 -1 11644
+D3
+Koridor batýya doðru devam ediyor.
+~
+~
+0 -1 11638
+S
+#11638
+Karanlýk koridor~
+Karanlýk koridor burada doðuya ve güneye doðru devam ediyor.  Havaya sanki bir
+tehlike nüfuz etmiþ ve duvarlar senin her adýmýný izliyor gibiler..
+~
+0 ADN 0
+D1
+Koridor doðuya doðru devam ediyor.
+~
+~
+0 -1 11637
+D2
+Koridor güneye doðru devam ediyor.
+~
+~
+0 -1 11639
+S
+#11639
+Karanlýk koridor~
+Karanlýk koridor burada kuzeye ve güneye doðru devam ediyor.  Uzaktan gelen
+çýðlýklar taþ duvarlarda uðursuz bir biçimde yankýlanýyor.
+~
+0 ADN  0
+D0
+Koridor kuzeye doðru devam ediyor.
+~
+~
+0 -1 11638
+D2
+Koridor güneye doðru devam ediyor.
+~
+~
+0 -1 11640
+S
+#11640
+Karanlýk koridor~
+Koridor burada kuzeye ve doðuya doðru iki kola ayrýlýyor.  Üstü taþtan kemerli
+bir geçit batýya doðru büyük bir hole çýkýyor.  Devasa, ürkütücü çift kanatlý
+bir kapý güneye doðru koridorda azametle yükseliyor.
+~
+0 ADN 0
+D0
+Koridor kuzeye doðru devam ediyor.
+~
+~
+0 -1 11639
+D1
+Koridor doðuya doðru devam ediyor.
+~
+~
+0 -1 11641
+D2
+Devasa, çift kanatlý, siyah, çelik bir kapý güney duvarýna yerleþtirilmiþ.
+~
+siyah çelik çift kanatlý kapý~
+1 -1 11651
+D3
+Üstü taþtan kemerli bir geçit batýya doðru büyük bir holün içine açýlýyor.
+~
+taþ kemerli geçit~
+0 -1 11652
+S
+#11641
+Karanlýk koridor~
+Karanlýk koridor burada batýya ve doðuya doðru devam ediyor.  Kuzeye doðru ise,
+siyah mermer basamaklar üzerinde kan lekeleri olan çift kanatlý bronz bir
+kapýya çýkýyor.
+~
+0 ADN 0
+D0
+Kuzeye doðru olan bronz kapý üzerinde kurumuþ kan lekeleri duruyor.
+~
+kana boyanmýþ bronz kapý~
+1 -1 11645
+D1
+Koridor doðuya doðru devam ediyor.
+~
+~
+0 -1 11642
+D3
+Koridor batýya doðru devam ediyor.
+~
+~
+0 -1 11640
+S
+#11642
+Karanlýk koridor~
+Koridor burada kuzeye ve batýya doðru iki kola ayrýlýyor.  Bir insan iskeleti
+koridorun tavanýna gömülmüþ.  Kemikler kara taþta beyaz beyaz parlarken, oyuk
+göz yuvalarý suçlayýcý bir biçimde ters ters sana bakar gibiler.
+~
+0 ADN 0
+D0
+Koridor kuzeye doðru devam ediyor.
+~
+~
+0 -1 11643
+D3
+Koridor batýya doðru devam ediyor.
+~
+~
+0 -1 11641
+D4
+Yerine iyi sabitlenmiþ bir iskelet yukarýdaki tavanda duruyor.
+~
+insan iskeleti~
+1 -1 11649
+S
+#11643
+Karanlýk koridor~
+Koridor burada kuzeye ve güneye doðru devam ediyor.
+~
+0 ADN 0
+D0
+Koridor kuzeye doðru devam ediyor.
+~
+~
+0 -1 11644
+D2
+Koridor güneye doðru devam ediyor.
+~
+~
+0 -1 11642
+S
+#11644
+Karanlýk koridor~
+Karanlýk koridor burada batýya ve güneye doðru devam ediyor.  Üstü mermer
+kemerli dar bir geçit doðuya doðru büyük bir odaya açýlýyor.
+~
+0 ADN 0
+D1
+Batýya doðru, üstü kemerli geçitte kývrýlan kara bir figür görünüyor.
+~
+üstü mermer kemerli geçit~
+0 -1 11646
+D2
+Koridor güneye doðru devam ediyor.
+~
+~
+0 -1 11643
+D3
+Koridor batýya doðru akik bir koridorla kesiþiyor.
+~
+~
+0 -1 11637
+S
+#11645
+Kanlý Mimber~
+Siyah mermer bir kürsü odaya hükmediyor.  Kürsünün merkezine yerleþtirilmiþ,
+aytaþýndan bir mimber, üzerindeki taze kanla donuk donuk parýldýyor.
+Mimberin her iki yanýna yerleþtirilmiþ, yanan bakýr tütsüler odayý iç bayýltýcý
+bir kokuyla dolduruyor.  Mimberin hemen arkasýnda, ürkütücü bir çukur mermer
+zemine doðru açýlýyor.
+~
+0 ADN 0
+D2
+Çift kanatlý bronz bir kapý güneye doðru açýlýyor.
+~
+kan lekeli çift kanatlý bronz kapý~
+1 -1 11641
+D5
+Ýnce kan tabakasýyla kaplý bir merdiven çukurun içine doðru iniyor.
+~
+~
+0 -1 11670
+S
+#11646
+Suratlar Odasý~
+Siyah duvarlar ve tavandan, dört köþeye yerleþtirilen bakýr tütsülerin dumaný
+yüzünden cilalanmýþ yüzeyleri zar zor seçilen çirkin taþ suratlar dýþarý fýrlýyor.
+Odanýn merkezinde yükselen, gri çizgili siyah mermerden oyulmuþ, devasa, þeytansý
+bir surat var.  Üstü mermer kemerli bir geçit batýya doðru açýlýyor.
+~
+0 AD 0
+D3
+Mermer kemerli dar bir geçit karanlýk bir koridora açýlýyor.
+~
+mermer kemerli geçit~
+0 -1 11644
+S
+#11647
+Heykelin Aðzý~
+Heykelin maðaramsý aðzýnýn içindeki taþtan dilin üzerinde duruyorsun.  Sen üzerinde
+dururken bile kaygan dil kývranýp þekil deðiþtirerek, dýþarý çýkmaný ya da daha
+içerilere girmeni önlüyor.  Bademciði andýran bir yük halatý, yukarýdaki bir
+açýklýða doðru çýkýyor.
+~
+0 ADN 0
+D4
+Bir halat yukarýdaki bir açýklýða doðru çýkýyor.
+~
+yük halatýnýn çýktýðý açýklýk~
+0 -1 11648
+S
+#11648
+Çalkalanan boþluðun altýnda~
+Taþ bir oluðun orta yerinde, kalýn bir halatta sallanarak asýlý duruyorsun.
+Halat, çalkalanan çok renkli bir boþluk gibi görünen þeyin merkezine doðru
+gözden kayboluyor.  Nereye çýktýðýný kim bilebilir..
+~
+0 ADN 0
+D4
+Halat yukarýdaki çok renkli boþluðun içine doðru gözden kayboluyor.
+~
+~
+0 -1 11692
+D5
+Halat aþaðýdaki karanlýk bir maðaraya iniyor.
+~
+~
+0 -1 11647
+S
+#11649
+Dar Geçit~
+Kendini güneye doðru çýkan dar taþ bir geçitte buluyorsun.  Tavan, içeri girmek
+isteyen en kýsa varlýðý bile eðilmeye mecbur býrakacak kadar alçak.  Aþaðýdaki
+kayaya bir iskelet gömülmüþ.
+~
+0 ADN 0
+D2
+Geçit güneye doðru devam ediyor.
+~
+~
+0 -1 11650
+D5
+Bir iskeletin beyaz kemikleri kara taþ zeminde keskin keskin parýldýyor.
+~
+iskelet~
+1 -1 11642
+S
+#11650
+Rutubetli Maðara~
+Ritmik bir damlama sesi büyük taþ odacýðýn içinde yankýlanýyor.  Tavana sýký
+sýký tutunmuþ dikitlerden aþaðýya akan ufak su akýntýlarý, maðaranýn merkezinde
+toplanýp büyük, dairesel bir havuz oluþturuyorlar.  Dar bir geçit kuzeye
+doðru maðaradan çýkýyor.
+~
+0 AD 0
+D0
+Kuzeye doðru bir geçit maðaranýn dýþýna çýkýyor.
+~
+~
+0 -1 11649
+S
+#11651
+Beþgen Oda~
+Büyük bir beþgen taþ zeminin tam ortasýna oyulmuþ.  Yýldýzýn tam ortasýnda ise
+büyük gri bir kitap duruyor.  Kuzey duvarýnda çift kanatlý siyah çelik bir kapý var.
+~
+0 ADN 0
+D0
+Siyah çelik kapý kuzeye doðru azametle yükseliyor.
+~
+çift kanatlý siyah çelik kapý~
+1 -1 11640
+E
+kalýn gri kitap~
+Yýpranmýþ parþömenden sayfalar kan lekeleriyle dolu.  Kitabýn sað tarafýndaki bir
+paragraf gözüne iliþiyor:
+
+"Nefret döngüsü
+ Benim devam ettirmem gereken,
+ Nefret döngüsü
+ Senin kýrmak zorunda olduðun..
+
+  .. Aksi takdirde iþlediðim günah senin acýn,
+     alacaðým ödül ise sonun olacak.."
+~
+S
+#11652
+Yemek Salonu~
+Duvarlarý uzun, siyah kiremitten bir salonun içinde duruyorsun.  Odanýn merkezindeki
+taþ bir masa odada neredeyse bir uçtan diðerine uzanarak, tüm alana hükmediyor.  Yarý
+yenmiþ leþler masaya ve zemine daðýlmýþ, ve yapýþkan kan gölleri ve daha az bilinen baþka
+sývýlarla çevrelenmiþ.  Zeminin köþesine bir kapak yerleþtirilmiþ.  Kuzeydeki giriþten
+odanýn içine iðrenç kokular ve duman sýzýyor.
+~
+0 ADN 0
+D0
+Yemek salonu kuzeye doðru devam ediyor.
+~
+~
+0 -1 11653
+D1
+Taþtan kemerli bir geçit doðuya doðru karanlýk bir koridora açýlýyor.
+~
+~
+0 -1 11640
+D5
+Zemine bir kapak yerleþtirilmiþ.
+~
+kapak~
+1 -1 11654
+E
+taþ masa~
+Katý granitten yapýlmýþ bir masa.  Bir yemeðin artýklarý gibi görünen þeyler, kanlý
+masanýn üzerine saçýlmýþ, çürüyor..
+~
+E
+artýk çürük çürüyen yemek leþler~
+Leþler belli ki piþirilmeye gerek duyulmadan, çið çið yenmiþler ve artýklarýndan
+yapýþkan bir nesnenin kalýntýlarý sýzýyor.  Yiyeceðin büyük bölümü tanýnmaz halde
+olsa da, kalýntýlarýn üzerinde, hala beyaz tendonlarý olan bir miktar insan iskeleti
+fark ediyorsun.
+~
+S
+#11653
+Mutfak~
+Siyah taþ zemin kan, çið et ve baðýrsak parçalarý yüzünden aþýrý derecede kaygan.
+Zeminin ortasýnda, kýzarmakta olan baþsýz bir insan vücudu geçirilmiþ uzun bir þiþ
+duruyor.  Çeþitli uzunluk ve büyüklüklerde parlak kasap satýrlarý, kanlý kesim
+tahtasýnýn üzerinde uzanýyor, biri iri bir et parçasýnýn üzerine saplanmýþ durumda.
+~
+0 ADN 0
+D2
+Güneye doðru bir giriþten uzun siyah bir hol görülebiliyor.
+~
+~
+0 -1 11652
+S
+#11654
+Islak Merdiven~
+Kaygan taþ basamaklar aþaðý doðru karanlýðýn içine uzanýyor.  Geniþ bir kapaðýn
+yerleþtirilmiþ olduðu tavandan içeri ýþýk hüzmeleri süzülüyor.
+~
+0 ADN 0
+D4
+Merdiven yukarýdaki bir kapakta son buluyor.
+~
+~
+1 -1 11652
+D5
+Merdiven aþaðý doðru karanlýðýn içine devam ediyor.
+~
+~
+0 -1 11655
+S
+#11655
+Kiler~
+Soðuk, nemli bir mahzenin kaygan granit duvarlarý etrafýnda yükseliyor.  Stoklanmýþ
+yiyecek ve içecek kutularýnýn istiflendiði raflar, duvarlara sýra sýra dizilmiþ.
+Bir çeþit büyülü sandýk, raflarýn üzerinde donuk donuk parlayarak, hem içindekileri
+muhafaza ediyor, hem de her þeye burnunu sokan maceracýlarý uzak tutuyor..  Kilere
+sýzan berbat kokuyu göz önünde bulundurduðunda, içindekiler hakkýnda gerçekten
+daha fazla þey bilmek isteyip istemediðin konusunda hiç de emin olamýyorsun..
+~
+0 ADN 0
+D4
+Kaygan bir merdiven yukarý doðru karanlýðýn içine uzanýyor.  Yukarýda uzaktan
+gelen zayýf bir ýþýk görünüyor.
+~
+~
+0 -1 11654
+S
+#11656
+Depo Odasý~
+Çeþitli temizlik malzemeleri ve baþka ufak tefek þeylerin istiflendiði, dar bir
+deponun içinde duruyorsun.  Nesneler uzun süredir kullanýlmamýþ gibiler, çünkü
+ince bir toz tabakasý üzerlerini kaplamýþ.  Ancak, zemindeki çakýllarda ayak izleri
+var ve tozlu tavanda ince, þerit halinde, karanlýk izler görünüyor.  Batý duvarýnda
+meþe bir kapý var.
+~
+0 ADN 0
+D3
+Kalýn meþeden yapýlmýþ bir kapý batý duvarýna yerleþtirilmiþ.
+~
+meþe kapý~
+1 -1 11634
+D4
+Tavanda bir kapaðýn kare hatlarý seçilebiliyor.
+~
+kapak kare~
+1 -1 11657
+E
+temizlik malzemeleri~
+Sadece bol kanlý paspaslar ve benzeri malzemeler..  Tüm bu kurbanlar ne
+çok kan saçmýþlar!!  Hademe sen olmadýðýn için mutlu olmalýsýn..
+~
+S
+#11657
+Dar Bodrum~
+Dar bodrumu çevreleyen taþ duvarlar, pençe iþaretleri ve kan izleriyle dolu.
+Bir köþeye gölgeler yüzünden çok zor seçilen bir kapak yerleþtirilmiþ.
+~
+0 ADN 0
+D5
+Bir kapak yerin içine doðru açýlýyor.
+~
+kapak~
+1 -1 11656
+S
+#11658
+Akik Koridor~
+Kara akik duvarlar loþ fener ýþýðýnda ürkütücü bir biçimde parýldarken, ürpertici
+bir esinti kuzeydeki üstü kemerli geçitten içeri vuruyor.  Koridor güneye doðru
+devam ediyor.
+~
+0 ADN 0
+D0
+Kuzeye doðru üstü kemerli geçidin içinden bir avlu görülebiliyor.
+~
+~
+0 -1 11659
+D2
+Koridor güneye doðru devam ediyor.
+~
+~
+0 -1 11634
+S
+#11659
+Açýk Avlu~
+Uzun mermer sütunlar, siyah granitten, geniþ, dairesel bir avluyu çevreliyor.
+Ürkütücü bir geçit güneye doðru karanlýk, geliþigüzel yapýlmýþ bir binaya
+ulaþýyor.  Kuzeye doðru dar bir patika, avludan çýkýp alçak, karanlýk bir tepe
+silsilesinin içine doðru ilerliyor.
+~
+0 AN 0
+D0
+Kuzeye doðru olan tepeler her nedense gri ve ölü gözüküyor.  Bir patika içerilere
+doðru gözden kayboluyor.
+~
+~
+0 -1 11660
+D2
+Devasa, kara bir bina güneye doðru azametle yükseliyor.  Açýk bir geçit avlunun
+güney ucundan binaya giriþi saðlýyor.
+~
+~
+0 -1 11658
+S
+#11660
+Perili tepelerin içindeki patika~
+Karanlýk, iniþli çýkýþlý tepelerin arasýndan dolanan, dar toprak bir patikanýn üzerinde
+duruyorsun.  Buz gibi rüzgar tepelerin zirvesinde ulurken, karanlýk þekiller etrafa
+serpilmiþ çalýlýklarýn üzerinde uçuþuyor gibi görünüyor.  Patika burada batý ve kuzeye
+doðru iki kola ayrýlýyor.
+~
+0 AN 4
+D0
+Patika kuzeye doðru tepelerin daha derinlerine doðru devam ediyor.
+~
+~
+0 -1 11662
+D2
+Güneye doðru ürkütücü taþ bir avlu görülebiliyor.
+~
+~
+0 -1 11659
+D3
+Patika batýya doðru korunaklý bir açýklýða giriyor.
+~
+~
+0 -1 11661
+E
+karanlýk þekiller~
+Sanki görüþ mesafenin hemen sýnýrýnda oynaþýyor gibiler, fakat bakmak için döndüðünde,
+gitmiþ oluyorlar.
+~
+S
+#11661
+Korunaklý Vadi~
+Tepeler, soðuk rüzgarlardan korunan küçük bir vadi oluþturarak, dört yandan yükseliyorlar.
+Yapraksýz ve ölü görünen gri bir çalýlýk, çimli zemin üzerine ürkütücü gölgeler yayarak,
+vadiyi çember içine alýyor.  Bir patika doðuya doðru vadiden çýkýyor.
+~
+0 AN 4
+D1
+Dar bir patika doðuya doðru vadinin dýþarý çýkýyor.
+~
+~
+0 -1 11660
+S
+#11662
+Perili tepelerin derinlikleri~
+Buz gibi rüzgarlar intikam güden hayaletler gibi seni hýrpalýyor.  Uluyan fýrtýnanýn
+içindeki fýsýltý halindeki sözcükleri neredeyse seçecek gibi oluyorsun..  Patika burada
+doðu ve batýya doðru iki kola ayrýlýyor, güneyde ise tepelerin dýþýna çýkýyor.
+~
+0 AN 4
+D0
+~
+~
+0 -1 11630
+D1
+Patika doðuya doðru devam ediyor.
+~
+~
+0 -1 11663
+D2
+Patika güneye doðru devam ediyor.
+~
+~
+0 -1 11660
+D3
+Patika batýya doðru devam ediyor.
+~
+~
+0 -1 11665
+S
+#11663
+Perili tepelerin içindeki patika~
+Patika burada öfkeli rüzgarlara karþý geçici sýðýnak görevi gören yerin içinden
+geçerek, kuzeye ve batýya doðru dolanýyor.  Çalýlýk kuzeye doðru kalýnlaþýp,
+patika boyunca etrafa ürkütücü gölgeler saçýyor.
+~
+0 AN 4
+D0
+Patika kuzeye doðru devam ediyor.
+~
+~
+0 -1 11664
+D3
+Patika batýya doðru devam ediyor.
+~
+~
+0 -1 11662
+S
+#11664
+Gölgeli Açýklýk~
+Karanlýk çalýlýk burada kalýnlaþarak, tepelerin arasýnda gölgeli bir açýklýk meydana
+getiriyor.  Ýkincil görüþ açýndaki çalýlýklarýn ortasýnda, titreþen sessiz þekiller
+var gibi, ancak bakmak için döndüðünde kesinlikle sana yakalanmýyorlar.  Dar bir
+patika güneye doðru açýklýðýn dýþýna çýkýyor.
+~
+0 AN 4
+D2
+Bir patika güneye doðru açýklýðýn dýþýna çýkýyor.
+~
+~
+0 -1 11663
+S
+#11665
+Çýkmaz yol~
+Dar patika beklenmedik bir anda dimdik bir kayayla son buluyor.  Kuzeye doðru,
+devasa kaya yýðýnlarýnýn ortasýnda büyümüþ, bodur gri çalýlýklar var.
+~
+0 AN 4
+D0
+Altlardaki kayalardan bir tanesi diðerlerinden biraz ayrýksý görünüyor.
+~
+kaya devasa taþ~
+1 -1 11666
+D1
+Patika doðuya doðru geri dönüyor.
+~
+~
+0 -1 11662
+E
+devasa kayalar taþlar kayalýk~
+Altlardaki kayalardan bir tanesi diðerlerinden biraz ayrýksý görünüyor.
+~
+S
+#11666
+Kayalýk Maðara~
+Kendini karanlýk, kayalýk bir maðaranýn içinde buluyorsun.  Loþ ýþýk güneydeki
+bir açýklýktan içeri sýzýyor.  Batýya doðru maðara iyice karanlýklaþýyor.
+~
+0 ADN 0
+D2
+Bir kaya güneydeki açýklýðýn önüne doðru uzanýyor.
+~
+devasa taþ kaya~
+1 -1 11665
+D3
+Maðara batýya doðru devam ediyor.
+~
+~
+0 -1 11667
+S
+#11667
+Karanlýk Maðara~
+Loþ ýþýðý dahi bir vakum gibi emen karanlýk, tüm maðarayý sarmalýyor..  Ancak doðuya
+doðru zayýf, donuk bir ýþýk parçasý var.
+~
+0 AD 0
+D1
+Zayýf, donuk bir ýþýk doðudaki açýklýktan içeri sýzýyor.
+~
+~
+0 -1 11666
+S
+#11668
+Parýldayan Tünel~
+Titreþen beyaz ýþýk, doðuya doðru ilerleyen uzun bir tünel oluþturacak þekilde tepede
+kavisler meydana getiriyor.  Yeþil enerji hüzmeleri, bölgeyi yanýp sönen yeþil bir
+ýþýltýyla aydýnlatarak, tünel duvarlarýnda kesik kesik dolaþýyor.  Tünel zeminindeki
+sisli bir boþluktan beyaz bir taraça görünüyor.
+~
+0 D 0
+D1
+Tünel doðuya doðru büyük bir odanýn içine açýlýyor.
+~
+~
+0 -1 11669
+D5
+Beyaz bir taraça görüyorsun.
+~
+~
+0 -1 11611
+S
+#11669
+Iþýk Küresi~
+Kendini saf beyaz ýþýktan oluþan küreye benzer bir þeyin içinde, havada süzülür
+buluyorsun.  Yeþil enerji, kürenin içinde renkli þimþek kargýlarý gibi ýþýnlar
+oluþturuyor.  Ýpek bir halý, tünelin aðzýndan batýya doðru kürenin ortasýndaki
+yüksek beyaz bir tahta kadar uzanýyor.
+~
+0 D 0
+D3
+Batýya doðru tünel küreden dýþarý çýkýyor.
+~
+~
+0 -1 11668
+E
+ipek halý~
+Herhangi bir görünür destek olmaksýzýn havada süzülmesine raðmen, aþýrý derecede
+saðlam görünüyor.
+~
+S
+#11670
+Karanlýklar Tüneli~
+Kendini karanlýk bir tünelin içinde buluyorsun.  Doðuya doðru olan tünelden cansýz
+ýþýk hüzmeleri, kapkara duvarlara deðer deðmez emilmek üzere içeri süzülüyor.  Kanla
+kayganlaþmýþ metal bir merdiven yukarýdaki tapýnaða doðru çýkýyor.
+~
+0 AD 0
+D3
+Batýya doðru cansýz bir ýþýk görünüyor.
+~
+~
+0 -1 11671
+D4
+Tünelin tavanýna doðru merdiven gözden yitiyor.
+~
+~
+0 -1 11645
+S
+#11671
+Karanlýk~
+Kendini karanlýktan ibaret sýnýrsýz bir alan gibi görünen þeyin içinde havada süzülür
+buluyorsun. Kan kýrmýzýsý bir halý, doðuya doðru tünelin aðzý ile tam ters yönde dimdik
+asýlý duran ürkütücü siyah bir taht arasýna serilmiþ.  Taht sanki içsel bir ýþýkla
+parlýyor, alaný loþ, grimsi bir ýþýltýyla dolduruyor.
+~
+0 AD 0
+D1
+Doðuya doðru dar bir tünelin aðzý açýkça görülebiliyor.
+~
+~
+0 -1 11670
+E
+kan kýrmýzýsý halý~
+Kan rengi ipek bir halý, tahtýn dibinden doðuya doðru olan tünelin aðzýna kadar
+uzanýyor.
+~
+S
+#11672
+Gölgeli Açýklýk~
+Uzun çam aðaçlarý burada karanlýk dairesel bir açýklýðý çevreliyor.  Bir patika açýklýktan
+geçip kuzeye ve doðuya doðru kývrýlýyor.  Ýki kadim aðaç, bir siyah bir de beyaz meþe,
+batý ve doðudan yüzlerini birbirlerine doðru dönmüþ, toprak zemin boyunca uzun gölgeler
+yayýyorlar.
+~
+0 A 3
+D0
+Toprak bir patika kuzeye doðru aðaçlarýn arasýndan dolanýyor.
+~
+~
+0 -1 11673
+D1
+Toprak bir patika doðuya doðru ormanýn içine doðru dolanýyor.
+~
+~
+0 -1 11674
+S
+#11673
+Karanlýk Çalýlýk~
+Uzun çamlarla çevrili karanlýk bir çalýlýðýn içinde duruyorsun.  Tependeki çamýn bükülmüþ
+dallarý, devasa bir yýrtýcý hayvanýn av bekleyen pençelerini andýrýyor.  Dar bir patika
+güneye doðru çalýlýktan çýkýyor.
+~
+0 A 3
+D2
+Toprak bir patika güneye gölgelerin içine doðru dolanýyor.
+~
+~
+0 -1 11672
+S
+#11674
+Karanlýk ormana doðru dolanan patika~
+Uzun, sessiz çamlar havayý taze odun ve çam iðnesi kokularýyla doldurarak, dört bir
+yandan azametle yükseliyor.  Üzerinde durduðun dar patika, burada batýya ve güneye doðru
+kývrýlýyor.  Özellikle kuzeye doðru patikanýn hemen yanýnda yükselen büyük bir çam,
+niyeyse hemen dikkatini cezbediyor.
+~
+0 A 3
+D0
+Kuzeye doðru olan iri çamýn gövdesinde, açýkça görülebilen ince bir çatlak, dikdörtgen
+bir alanýn ana hatlarýný ortaya çýkarýyor.
+~
+aðaç çam çatlak dikdörtgen~
+1 -1 11681
+D2
+Patika güneye ormanýn içine doðru devam ediyor.
+~
+~
+0 -1 11676
+D3
+Batýya doðru, patika gölgeli bir açýklýðýn üzerine açýlýyor.
+~
+~
+0 -1 11672
+D4
+Ýri çamýn alçaktaki dallarý týrmanmaya müsait görünüyor.
+~
+~
+0 -1 11675
+E
+iri çam aðacý~
+Kuzeye yönündeki iri çamýn yüzeyinde, dikdörtgen bir alanýn ana hatlarýný belli
+eden, ince bir çatlak olduðunu fark ediyorsun.
+Çamýn alçaktaki dallarý týrmanmaya müsait görünüyor.
+~
+S
+#11675
+Kuþyuvasý~
+Geniþliði en az beþ metre olan büyük bir kuþ yuvasýnýn ucunda tünemiþ duruyorsun.
+Tüneðin çanaðý iri deðnekler, tüy parçalarý ve baþka ufak tefek þeylerin, saðlam
+bir þekilde bir araya dokunmasýyla yapýlmýþ.  Büyüklüðü kesinlikle oldukça abartýlý
+bir kabuða ait olan kýrýk beyaz parçalar, tüneðin tabanýna saçýlmýþ, siyah-kahverengi
+tüyler ve sanki insan kemiði parçalarý gibi görünen þeylerle iç içe geçmiþ..
+Aðacýn aþaðýdaki dallarý saðlam ve týrmanmaya müsait görünüyor.
+~
+0 A 3
+D5
+Alttaki dallarýn arasýndan dar bir patika görülebiliyor.
+~
+~
+0 -1 11674
+S
+#11676
+Orman Patikasý~
+Uzun çam aðaçlarýnýn sessiz figürleri ince toprak patikayý çevreliyor.  Patika burada
+kuzeye ve doðuya doðru iki kola ayrýlýyor.
+~
+0 A 3
+D0
+Patika kuzeye doðru devam ediyor.
+~
+~
+0 -1 11674
+D1
+Patika doðuya doðru devam ediyor.
+~
+~
+0 -1 11677
+S
+#11677
+Çýkmaz Yol~
+Orman patikasý burada uzun çam aðaçlarýnýn engellemesiyle çýkmaz sona ulaþýyor.  Ýri
+kayalar toprak zemine sýk bir biçimde yayýlmýþ.  Kesinlikle etkileyici bir meþe aðacýna
+ait devasa, sert kütük güneye doðru çamlarýn arasýndan yükseliyor.
+~
+0 A 3
+D3
+Patika batýya doðru devam ediyor.
+~
+~
+0 -1 11676
+D5
+Kütüðün etrafýndaki toprakta yumuþak ayak ve eþeleme izleri göze çarpýyor.
+~
+devasa meþe kütüðü kütük~
+1 -1 11678
+E
+devasa meþe kütüðü kütük~
+Kütüðün etrafýndaki toprakta yumuþak ayak ve eþeleme izleri göze çarpýyor.
+~
+S
+#11678
+Sessiz tünel~
+Kendini dar toprak bir tünelin içinde buluyorsun.  Tepedeki bir açýklýktan tünele
+zayýf ýþýk hüzmeleri süzülüyor.  Doðuya doðru, tünel karanlýk bir odaya açýlýyor.
+~
+0 AD 0
+D1
+Doðuya doðru karanlýk bir oda görünüyor.
+~
+~
+0 -1 11679
+D4
+Tavandaki bir açýklýða devasa bir kütük dayanmýþ.  Tünelin kuzey duvarýna iliþtirilmiþ
+ahþap bir merdiven açýklýða doðru çýkýyor.
+~
+devasa meþe kütüðü kütük~
+1 -1 11677
+S
+#11679
+Toplantý Odasý~
+Devasa oda sýkýþtýrýlmýþ kilden yapýlmýþ.  Tam ortada yarým daire þeklindeki taþ bir masa
+alana hükmediyor.  Masanýn arka tarafýnda, bir beyaz bir siyah iki meþe sandalyenin arasýna
+yerleþtirilmiþ, yine meþeden gri bir sandalye duruyor.  Yanlardaki kýzýl ahþap sandalyeler
+ortadakine göre daha sadeler.  Batýya doðru dar bir tünel odadan çýkýyor.
+~
+0 AD 0
+D3
+Batýya doðru dar bir tünel görüyorsun.
+~
+~
+0 -1 11678
+D5
+Taþ masanýn yuvarlak tabanýnýn altýnda, gizlenmiþ bir açýklýk fark ediyorsun.
+~
+taþ masa~
+1 -1 11680
+E
+yarým daire taþ masa~
+Koyu gri taþtan yapýlmýþ yarým daire þeklinde devasa bir masa.  Daha yakýndan yapýlan
+bir inceleme, masanýn yuvarlak tabanýnýn altýnda gizli bir açýklýðý ortaya çýkarýyor.
+~
+E
+beyaz gri siyah sandalye~
+Beyaz, gri, ve siyah meþeden üç büyük sandalye masanýn iç tarafýna yerleþtirilmiþ.
+Üç sandalyenin de arka tarafýnda, alçalan bir atmaca niþaný olduðunu fark ediyorsun.
+~
+S
+#11680
+Loþ Maðara~
+Kendini büyük, karanlýk bir maðaranýn içinde buluyorsun.  Odun parçalarý ve parlayan
+beyaz kemikler toprak zemine daðýlmýþ.  Yapraklar ve asmalar bir köþede büyük bir
+kuþ yuvasý oluþturacak þekilde yýðýlmýþ.
+~
+0 AD 0
+D4
+Tavanda karanlýk bir açýklýk fark ediyorsun.
+~
+~
+1 -1 11679
+E
+yapraklar asmalar kuþ yuvasý kuþyuvasý~
+Yuvanýn tabanýndaki yapraklarýn ve asmalarýn arasýnda, kaygan koyu yeþil pullar
+parýldýyor.
+~
+S
+#11681
+Aðaç Gövdesinin Ýçi~
+Büyük bir çam aðacýnýn oyuk gövdesinin içinde duruyorsun.  Biraz ilerde tahtadan
+yüksek bir platform görünüyor.
+~
+0 AD 3
+D2
+Gövdenin iç çeperinde güneydeki dikdörtgen bir açýklýktan içeri ýþýk süzülüyor.
+~
+çam aðaç dikdörtgen çatlak açýklýk~
+1 -1 11674
+D4
+Yukarýda tahta bir platform görünüyor.
+~
+~
+0 -1 11682
+D5
+Orada sýradýþý herhangi bir þey görmüyorsun.
+~
+kapak~
+1 -1 11703
+E
+tahta platform~
+Tahta bir platform yukarýda, alanýn tam ortasýnda duruyor.  Platformun yanlarýndan
+birindeki açýklýk ona ulaþabilenlerin içeri giriþini saðlýyor..
+~
+S
+#11682
+Aðacýn Kalbi~
+Kendini çam aðacýnýn karanlýk merkezinde, geniþ tahta bir platformun üzerinde dengede
+durur buluyorsun.  Aðacýn odunu, içerdeki boþluðun aksine nasýl oluyorsa taze ve çok
+canlý görünüyor ve havayý keskin çam kokusuyla dolduruyor.  Platformun bir kenarýndaki
+açýklýk, aþaðýdaki toprak zemine iniþi saðlýyor.
+~
+0 AD 9
+D5
+Aðacýn aþaðýdaki gövdesi uzak da olsa görülebiliyor.
+~
+~
+0 -1 11681
+S
+#11683
+Dolambaçlý Tuðla Yol~
+Kýrmýzý tuðlalarla döþenmiþ, korku trenlerinin raylarý gibi imkansýz açýlarla bükülen
+ve dönen bir yolun üzerinde duruyorsun.  Ýlerde yolun ucunda çalkalanan çok renkli bir
+boþluk var.  Temiz beyaz bir kulübenin dýþ cephesi, doðuya doðru hemen yolun kenarýnda
+uzanýrken, beyaz bir ýþýk þeridi kuzeye, boþluðun içine doðru süzülüyor.
+Tuðla yol batýya, bir yol kesiþmesine doðru devam ediyor.
+~
+0 0 1
+D0
+Geniþ bir ýþýk þeridi kuzeye, çalkalanan boþluðun içine doðru kývrýlýyor.  Yapýsýna
+karþýn, þerit neredeyse üzerinde yürünebilecek kadar katý..
+~
+~
+0 -1 11684
+D1
+Yolun doðu yakasýnda beyaza boyanmýþ bir kulübenin dýþ cephesi uzanýyor.
+~
+~
+1 -1 11695
+D3
+Batýya doðru bir tabela var.
+~
+~
+0 -1 11686
+E
+beyaz ýþýk þeridi~
+Görünüþte saf ýþýktan meydana gelmiþ olsa da, üzerinde yürünebilecek kadar
+saðlam görünüyor.
+~
+E
+beyaz kulübe~
+Temiz beyaz bir kulübe doðuya doðru uzanýyor.
+~
+S
+#11684
+Iþýk Þeridi~
+Çalkalanan çok renkli bir boþluðun üzerinde, batýya ve güneye doðru dolanan,
+saf beyaz ýþýktan oluþmuþ, bir metre geniþliðinde bir þeridin üzerinde dengede
+duruyorsun.  Boþluða bakma giriþimin baðýrsaklarýnýn birbirine yapýþmasý için
+yeterli oluyor.  Ayaklarýnýn altýnda patikayý olduðu gibi görebildiðini fark
+ediyorsun.
+~
+0 0 1
+D2
+Güneye doðru tuðla bir yol görünüyor.
+~
+~
+0 -1 11683
+D3
+Þerit batýya doðru devam ediyor.
+~
+~
+0 -1 11685
+S
+#11685
+Boþluðun Ýçinde~
+Kendini çok renkli boþluðun ortasýnda süzülen, ahþap bir platformun üzerinde durur
+buluyorsun.  Boþluðun içinde parýldayan bir anafor gibi görünen þey, hemen tepende,
+eriþebileceðin bir mesafede süzülüyor.  Beyaz bir ýþýk þeridi boþluðun içine doðru
+doðuya kývrýlýyor.
+~
+0 0 1
+D1
+Þerit, görünüþte saf ýþýktan meydana gelmiþ olsa da, üzerinde yürünebilecek kadar
+saðlam görünüyor.
+~
+~
+0 -1 11684
+D4
+Boþluðun yapýsýndaki bir anafor tepende parýldýyor.
+~
+~
+0 -1 11614
+E
+beyaz ýþýk þeridi~
+Þerit, görünüþte saf ýþýktan meydana gelmiþ olsa da, üzerinde yürünebilecek kadar
+saðlam görünüyor.
+~
+E
+anafor~
+Boþluðun yapýsýndaki bir anafor tepende parýldýyor.
+~
+S
+#11686
+Kesiþmeye Benzeyen Bir Þey..~
+Tuðla yol kendi içinde ve üzerinde ilmekler oluþturarak, çeþitli yönlere doðru
+filizleniyor.  Eðer bir yerlere ulaþmýyorsa, bir kesiþmeden çok bir düðümü
+demek daha doðru olurdu..
+Sen izlerken bile, kesiþme bariz biçimde kývrýlýp deðiþiyor.
+~
+0 0 1
+D1
+Dolambaçlý kýrmýzý tuðla yol.
+~
+~
+0 -1 11683
+D2
+Dolambaçlý kýrmýzý tuðla yol.
+~
+~
+0 -1 11687
+D3
+Dolambaçlý kýrmýzý tuðla yol.
+~
+~
+0 -1 11689
+S
+#11687
+Gülünç Çiftliðin Giriþi~
+Pýrýl pýrýl mor çitler hayvan aðýllarýnýn etrafýný çevreliyor.  Havlayan kediler
+ve uçan domuzlar bir kenara býrakýlabilseydý, burasý küçük sýcacýk bir çiftlik
+olabilirdi..
+Uzakta mor bir çiftlik evi görünüyor.
+~
+0 0 1
+D0
+Kýrmýzý tuðla bir yol kuzeye doðru ilerliyor.
+~
+~
+0 -1 11686
+D1
+Çiftlik doðuya doðru devam ediyor.
+~
+~
+0 -1 11688
+S
+#11688
+Hayvan Aðýllarýnýn Ortasýnda~
+Mor hayvan aðýllarýnýn ortasýnda duruyorsun.  Biraz daha yaklaþýnca, sanki temelinin
+bir parçasý içeri göçmüþ gibi, çiftlik evinin bir yana doðru yatmýþ ve bir yataðýn
+kulübe kapýsýnýn dýþýna taþmýþ olduðunu fark ediyorsun..  Baskýn koku hesaba
+katýlýrsa, evde yaþayan birileri var gibi, ama çiftliði tuhaf bir þeyler için
+kullandýklarý kesin..
+~
+0 0 1
+D3
+Çiftlik batýya doðru devam ediyor.
+~
+~
+0 -1 11687
+S
+#11689
+Kýrmýzý Tuðla Yol~
+Kýrmýzý tuðla yol burada doðuya ve güneye doðru kývrýlýyor.
+~
+0 0 1
+D1
+Doðuya doðru bir tabela görünüyor.
+~
+~
+0 -1 11686
+D2
+Yol güneye doðru devam ediyor.
+~
+~
+0 -1 11690
+S
+#11690
+Bir baþka Kesiþme..~
+Aman tanrým.. bir baþka kesiþme daha olmasýn lütfen!  Yol kendi etrafýnda o kadar
+çok sayýda ilmek oluþturuyor ki, her an her yere gidiyor olmasý insaný hayrete
+düþürüyor.  Kesiþme kendisini yeniden düzenledikçe, neredeyse öðle yemeðin aðzýna
+geliyor.  Yolun bir ucundaki tuðlalar dýþarýya doðru ayrýlarak, aþaðý doðru inen
+kara bir deliði açýða çýkarýyor.
+~
+0 0 1
+D0
+Biraz daha tuðla yol.
+~
+~
+0 -1 11689
+D2
+Küçük beyaz bir ofis görüyorsun.
+~
+~
+0 -1 11694
+D3
+Biraz daha tuðla yol.
+~
+~
+0 -1 11691
+D5
+Karanlýk bir delik yolun altýna doðru ilerliyor.
+~
+~
+0 -1 11697
+S
+#11691
+Kýrmýzý Tuðla Yol~
+Tuðla yol boþluðun içine doðru doðuya ve güneye kývrýlýyor.
+~
+0 0 1
+D1
+Doðuya doðru bir kesiþme görüyorsun.
+~
+~
+0 -1 11690
+D2
+Yol güneye doðru geniþ, kareli bir açýklýðýn içine giriyor.
+~
+~
+0 -1 11692
+S
+#11692
+Kareli Açýklýk~
+Sýra sýra mavi ve sarý küçük karelerden oluþan, satranç tahtasýný andýran bir örtü,
+geniþ açýklýðý kaplýyor.  Zemin, açýklýk boyunca çok yüksek yahut derin olmayan
+tepeler ve vadiler oluþturarak, alçalýp yükseliyor.  Sen izlerken, zeminin
+hareketiyle durduðun yer bir tepe haline geliyor.
+~
+0 0 2
+D0
+Dolambaçlý kýrmýzý tuðla bir yol kuzeye doðru ilerliyor.
+~
+~
+0 -1 11691
+D3
+Açýklýk batýya doðru devam ediyor.
+~
+~
+0 -1 11693
+S
+#11693
+Kareli Açýklýk~
+Sýra sýra mavi ve sarý çiçek karelerinden oluþan bir halýyla örtülü, geniþ bir açýklýðýn
+doðu ucunda duruyorsun.  Zemin, açýklýk boyunca yayýlan tepeler ve vadiler oluþturarak,
+arada sýrada þekil deðiþtiriyor.
+~
+0 0 2
+D1
+Açýklýk doðuya doðru devam ediyor.
+~
+~
+0 -1 11692
+S
+#11694
+Klinik~
+Küçük beyaz bir ofisin içinde duruyorsun.  Bir pencere dýþarýdaki çalkalanan boþluðu
+görecek þekilde doðuya bakýyor.  Uzun deri bir kanape tüm ofise hükmediyor.
+~
+0 0 1
+D0
+Kuzeya doðru dolambaçlý kýrmýzý tuðla bir yol görüyorsun.
+~
+~
+0 -1 11690
+S
+#11695
+Bir kulübenin içinde~
+Kendini dar, beyaz duvarlý bir evin kapýsý ile kesinlikle dev bir tuvaletin arasýna
+sýkýþmýþ buluyorsun.  Büyük ihtimalle etrafý incelemekte gönülsüz olduðun
+zamanlardan biri bu..
+~
+0 D 0
+D3
+Kýrmýzý tuðlalý bir yol batýya doðru dolanýyor.
+~
+~
+0 -1 11683
+D5
+demek ki öðle yemeðim bu..
+~
+~
+0 -1 11696
+S
+#11696
+Tuvaletin Ýçinde~
+Uwww iðk.. bu iðrenç yerde ne yapýyorsun?  Leþ kokusu berbat, ve daha da kötüsü her
+taraf malum maddeyle kaplý..
+Duvarlardaki pençe izleri gösteriyor ki, bir þey burayý evi haline getirmiþ.
+~
+0 AD 0
+D4
+Tepende tuvalet oturaðýný görüyorsun.
+~
+~
+0 -1 11695
+S
+#11697
+Bir Köstebek Deliðinin içinde~
+Bir þey burada kuzey-güney doðrultulu dar bir tünel kazmýþ.  Iþýk, yukarýdaki
+açýklýktan içeri sýzýp taze topraðý kurutuyor.
+~
+0 D 0
+D0
+Köstebek deliði kuzeye doðru devam ediyor.
+~
+~
+0 -1 11698
+D4
+Yukarýda kýrmýzý tuðlalý yolu görüyorsun.
+~
+~
+0 -1 11690
+S
+#11698
+Arghh!~
+Göz kamaþtýrýcý renk oklarýnýn, gözlerine aniden hücum etmesi sonucu bir an için
+kör oldun.  Leylak rengi þatafatlý perdelerle dekore edilmiþ toprak duvarlar,
+cýrtlak yeþil halýyla büyük bir uyumsuzluk içinde.  Neon yeþili bir taht ve kýsa,
+kalýn bir tünek odaya hükmediyor.
+~
+0 D 0
+D2
+Güneye doðru bir tünel odadan çýkýyor.
+~
+~
+0 -1 11697
+S
+
+#11699
+Uluslararasý Zeinia~
+Kendini en son moda çarpýcý stillerle döþenmiþ, ahþap panelli, ferah bir ofisin
+içinde buluyorsun. Duvarlar tuhaf ve egzotik hayvanlarý betimleyen altýn iþlemeli
+duvar halýlarýyla bezeli.  Batý duvarýndaki bir pencere dýþarýya, girdaplar
+oluþturarak dönen çok renkli bir boþluða doðru bakýyor.  Doðuya doðru üzerine
+bronz levha yerleþtirilmiþ bir giriþ var.  Kuzey duvarýnda altýn bir bayrak
+asýlý.  Odanýn merkezine yakýn, sihirli bir perdeyle çevrili klasik maun bir
+resepsiyon duruyor.  Resepsiyonun önünde gümüþ oymalý bir iþaret tabelasý
+asýlý.
+~
+0 DKM 0
+D1
+Giriþteki bir levhada þöyle yazýyor:
+
+	"Elit Evcil Hayvanlar Tezgahý".
+~
+~
+0 -1 11701
+E
+boþluk pencere~
+Çalkalanan çok renkli bir boþluk pencereden görünüyor.
+~
+E
+bronz levha~
+.                 "Elit Evcil Hayvanlar Tezgahý"
+~
+E
+altýn bayrak~
+.                   -= Zeinia Þti. =-
+
+         "Evreni kapýnýzýn eþiðinize getirir"
+~
+E
+sihirli perde~
+Perdenin üzerindeki bir levhada þu yazýyor:  "Sadece Çalýþanlar".
+~
+E
+gümüþ masa levha~
+
+          - Amatör Serüvenci için evcil hayvanlar -
+
+        Stoklarýmýzdakileri görmek için 'liste' yazýn.
+        Seçtiðiniz hayvaný satýn almak için 'alýþ' yazýn!
+~
+S
+#11700
+Evcil Hayvan Deposu (Zeinia)~
+~
+0 0 0
+S
+#11701
+Elit Evcil Hayvanlar Tezgahý~
+Duvarlar siyah ve altýn þýk duvar süsleriyle bezenmiþ.  Odanýn merkezindeki
+koyu mermer tezgahýn bir yanýna, sihirli bir perde gerilmiþ.  Tezgahýn üzerinde
+çok süslü altýn bir levha duruyor.
+~
+0 DKM 0
+D3
+Batýya doðru odanýn giriþini görüyorsun.
+~
+~
+0 -1 11699
+E
+sihirli perde~
+Perdenin üzerindeki bir levhada þöyle yazýyor:  "Sadece Çalýþanlar".
+~
+E
+mermer tezgah altýn levha~
+
+         -= Deneyimli Serüvenci için Evcil Hayvanlar =-
+
+        Stoklarýmýzdakileri görmek için 'liste' yazýn.
+        Seçtiðiniz hayvaný satýn almak için 'alýþ' yazýn!
+~
+S
+#11702
+Hayvan Deposu (Zeinia eliti)~
+~
+0 0 0
+S
+
+
+#11703
+Gölgeli Tünel~
+Kara taþtan oyulmuþ dar bir tünelin içinde duruyorsun.  Kuzey duvarýnda çok zor
+seçilebilen kara bir merdiven, tavandaki bir açýklýða doðru çýkýyor.  Tünel
+doðuya doðru devam ediyor.
+~
+0 AD 0
+D1
+Tünel doðuya doðru devam ediyor.
+~
+~
+0 -1 11704
+D4
+Tepede bir açýklýk görünüyor.
+~
+kapak açýklýk~
+1 -1 11681
+S
+#11704
+Gölgeli Tünel~
+Tünel burada güneye ve batýya doðru iki kola ayrýlýyor.  Ayak seslerin, sessizliðin
+içinde doðal olmayan bir biçimde çýnlayýp yankýlanýyor.
+~
+0 AD 0
+D2
+Tünel güneye doðru karanlýklaþýyor.
+~
+~
+0 -1 11705
+D3
+Tünel batýya doðru devam ediyor.
+~
+~
+0 -1 11703
+S
+#11705
+Çýkmaz Son~
+Taþ tünel burada çýkmaz sona ulaþýyor.
+~
+0 AD 0
+D0
+Tünel kuzeye doðru devam ediyor.
+~
+~
+0 -1 11704
+D1
+Doðuya doðru taþ duvarýn içinde bir giriþin belli belirsiz ana hatlarýný fark ediyorsun.
+~
+taþ kapý~
+2 11702 11706
+S
+#11706
+Karanlýk Koridor~
+Kara taþ kemerler, dar bir koridor oluþturacak þekilde yukarýda sýralanýyor.  Taþ
+doðal olamayacak kadar pürüzsüz görünüyor, genellikle taþ tünellerde görülen keski
+ve yontu iþaretlerinden eser yok.
+Koridor burada doðu ve güneye doðru iki kola ayrýlýyor.
+~
+0 AD 0
+D1
+Koridor doðuya doðru devam ediyor.
+~
+~
+0 -1 11707
+D2
+Koridor güneye doðru devam ediyor.
+~
+~
+0 -1 11709
+D3
+Batýya doðru kaya duvarýn içinde bir açýklýðýn ana hatlarý seçilebiliyor.
+~
+taþ kapý~
+2 11702 11705
+S
+#11707
+Karanlýk Koridor~
+Kara taþ duvarlar zayýf ýþýkta ürkütücü bir biçimde parlýyor.  Kuzeydeki duvara
+dar ahþap bir giriþ yerleþtirilmiþ.
+~
+0 AD 0
+D0
+Basit ahþap bir kapý kuzeye doðru açýlýyor.
+~
+ahþap kapý~
+1 -1 11708
+D3
+Koridor batýya doðru devam ediyor.
+~
+~
+0 -1 11706
+S
+#11708
+Küçük Oda~
+Kendini, geniþliði yaklaþýk 8 metre olan basit, kare bir odanýn içinde buluyorsun.
+Ýçerideki mobilyalar dört tahta yatak, bir lavabo, küçük bir kitap rafý ve yazý
+masasýndan ibaret.  Masada duran tek bir meþale, odanýn içine titreþen zayýf bir
+ýþýk yayýyor.
+~
+0 D 0
+D2
+Güney duvarýna basit ahþap bir kapý yerleþtirilmiþ.
+~
+ahþap kapý~
+1 -1 11707
+E
+meþale~
+Meþale, herhangi bir süslemesi olmayan küçük pirinç bir þamdanýn içine yerleþtirilmiþ.
+~
+E
+mobilyalar yataklar lavabo kitaplýk raf masa~
+Mobilyalar oldukça sade, fakat kaliteliler.
+~
+S
+#11709
+Karanlýk Koridor~
+Sessiz koridorda ayak seslerin ürkütücü bir biçimde yankýlanýyor.  Basit ahþap bir
+kapý batý duvarýna yerleþtirilmiþ, ve koridor doðuya ve kuzeye doðru devam ediyor.
+~
+0 AD 0
+D0
+Koridor kuzeye doðru devam ediyor.
+~
+~
+0 -1 11706
+D1
+Koridor doðuya doðru devam ediyor.
+~
+~
+0 -1 11712
+D3
+Basit ahþap bir kapý batýya doðru açýlýyor.
+~
+ahþap kapý~
+1 -1 11710
+S
+#11710
+Yatakhane~
+Uzun taþ duvarlý bir odanýn kuzey ucunda duruyorsun.  Batýdaki duvarda sýra sýra
+ranzalar dizili.  Diðer duvarlardaki boþ yerler basit tahta sýralar, kitaplýklar,
+çeþitli sandýklar, kýyafet askýlarý ve kiþisel eþyalarla dolu.  Duvarlara seyrek
+bir biçimde yerleþtirilmiþ meþaleler, odayý titrek zayýf bir ýþýkla dolduruyor.
+Ahþap bir kapý doðuya doðru odadan dýþarý çýkýþý saðlýyor.
+~
+0 D 0
+D1
+Doðudaki duvara basit ahþap bir kapý yerleþtirilmiþ.
+~
+ahþap kapý~
+1 -1 11709
+D2
+Oda güneye doðru devam ediyor.
+~
+~
+0 -1 11711
+E
+yataklar sýralar kitaplýklar sandýklar askýlar eþyalar mobilyalar~
+Mobilyalar ve diðer gereçlerin deðerlerinin düþük olduðu hemen fark ediliyor.
+~
+E
+meþale meþaleler~
+Basit tahta meþaleler duvarlara iliþtirilmiþ.
+~
+S
+#11711
+Yatakhane~
+Uzun taþ duvarlý bir odanýn güney ucunda duruyorsun.  Batýdaki duvarda sýra sýra
+ranzalar dizili.  Diðer duvarlardaki boþ yerler basit tahta sýralar, kitaplýklar,
+çeþitli sandýklar, kýyafet askýlarý ve kiþisel eþyalarla dolu.  Duvarlara seyrek
+bir biçimde yerleþtirilmiþ meþaleler, odayý titrek zayýf bir ýþýkla dolduruyor.
+Ahþap bir kapý doðuya doðru odadan dýþarý çýkýþý saðlýyor.
+~
+0 D 0
+D0
+Oda kuzeye doðru devam ediyor.
+~
+~
+0 -1 11710
+E
+yataklar sýralar kitaplýklar sandýklar askýlar eþyalar mobilyalar~
+Mobilyalar ve diðer gereçlerin deðerlerinin düþük olduðu hemen fark ediliyor.
+~
+E
+meþale meþaleler~
+Basit tahta meþaleler duvarlara iliþtirilmiþ.
+~
+S
+#11712
+Karanlýk Koridor~
+Koridorun kuzeyindeki cam gibi duvar garip iþaretlerle dolu.  Tam karþýdaki güney
+duvarýna, dýþ çerçevesi kömürleþmiþ, büyük meþe bir kapý yerleþtirilmiþ.  Kapýda
+herhangi bir yanýk olmadýðýna bakýlýrsa, bu yakýnlarda yenilemiþ olmalýlar..
+~
+0 AD 0
+D1
+Koridor doðuya doðru devam ediyor.
+~
+~
+0 -1 11716
+D2
+Yanýk meþe bir kapý güney duvarýna yerleþtirilmiþ.
+~
+yanýk meþe kapý~
+1 -1 11713
+D3
+Koridor batýya doðru devam ediyor.
+~
+~
+0 -1 11709
+S
+#11713
+Dumanlý Oda~
+Ortasýnda uzun iki meþe masanýn durduðu büyük taþ bir odadasýn.  Batý duvarýnda,
+içinde yýðýnla kalýn kitap olan alçak bir kitaplýk var.  Hafif bir duman odada
+sabitlenmiþ ve bu sis, cam gibi siyah duvarlarý donuklaþtýrýp, kasvetle
+parlamalarýna neden oluyor.  Her iki masada ve kuzey duvarýndaki meþe kapýda
+yanýk izleri var.  Yine hafifçe yanmýþ daha küçük bir kapý, güneye doðru açýlýyor.
+~
+0 D 0
+D0
+Kuzey duvarýna meþe bir kapý yerleþtirilmiþ.
+~
+yanýk meþe kapý~
+1 -1 11712
+D2
+Basit ahþap bir kapý güneye doðru açýlýyor.
+~
+ahþap kapý~
+1 -1 11714
+D3
+Batý duvarýnda duran alçak kitaplýkta sýra sýra kitap dizili.
+~
+kitaplýk kitap dolabý dolap~
+1 -1 11715
+E
+kitaplýk kitap dolabý dolap~
+Bir koruma kalkanýnýn donuk parýltýsý kitaplýðýn üzerinde asýlý duruyor.
+~
+S
+#11714
+Yalýn Taþ Oda~
+Sönük meþale ýþýðý, tek mobilyasý duvarlara sabitlenmiþ birkaç yanýk ahþap
+hedef tahtasý olan odada titrek bir ýþýkla parýldýyor.  Basit ahþap bir kapý
+kuzeye doðru çýkýyor.
+~
+0 D 0
+D0
+Basit ahþap bir kapý kuzey duvarýna yerleþtirilmiþ.
+~
+ahþap kapý~
+1 -1 11713
+E
+ahþap hedef tahtasý tahtalar~
+Belli belirsiz insan þeklinde olan hedef tahtalarýnýn üzerinde, çapraz çizgiler
+halinde yanýk izleri var.
+~
+S
+#11715
+Laboratuvar~
+Neredeyse seni boðacak kadar keskin bir koku havayý dolduruyor.  Kuzey, batý ve
+güney duvarlarýna, üzeri açýk kitaplarla dolu tezgahlar, garip aletlerin yýðýlý
+olduðu parmaklýklý raflar ve görünüþe göre devam etmekte olan deneylere ait
+gereçler sýralanmýþ.  Ortadaki masanýn üzerinde zýrh ve silah parçalarý bulunuyor.
+Yüksek bir kitaplýk, doðuya doðru duvarýn önünde duruyor.
+~
+0 D 0
+D1
+Yüksek bir kitaplýk doðu duvarýný tamamen kaplýyor.
+~
+kitaplýk kitap dolabý dolap~
+1 -1 11713
+E
+tezgahlar kitaplar raflar aletler gereçler deneyler~
+Bir koruma kalkanýnýn mavi-beyaz sisi tüm nesnelerin üzerinde süzülüyor.
+~
+E
+zýrhlar silahlar~
+Deri ve zincirden zýrh parçalarý, öldürücü görünen kama ve býçaklar masanýn
+üzerine yýðýlmýþ, Zdreni büyücüleri tarafýndan efsunlanmayý bekliyorlar.
+~
+S
+#11716
+Karanlýk Koridor~
+Koridor burada doðuya ve batýya doðru devam ediyor.  Kuzey ve güney duvarlarýna
+ahþap kapýlar yerleþtirilmiþ.
+~
+0 AD 0
+D0
+Meþe bir kapý kuzeye doðru açýlýyor.
+~
+meþe kapý~
+1 -1 11717
+D1
+Koridor doðuya doðru devam ediyor.
+~
+~
+0 -1 11721
+D2
+Kara maun bir kapý güneye doðru açýlýyor.
+~
+kara maun kapý~
+1 -1 11719
+D3
+Koridor batýya doðru devam ediyor.
+~
+~
+0 -1 11712
+S
+#11717
+Eðitim Bölgesi~
+Büyük taþ bir odada duruyorsun.  Batý duvarýnda boþ bir silah dolabý duruyor.
+Kapýlar doðuya ve güneye doðru açýlýyor.
+~
+0 AD 0
+D1
+Basit ahþap bir kapý doðu duvarýna yerleþtirilmiþ.
+~
+ahþap kapý~
+1 -1 11718
+D2
+Meþe bir kapý güneye doðru açýlýyor.
+~
+meþe kapý~
+1 -1 11716
+E
+silah dolabý~
+Dolap, her türlü silah ebatýna uygun bir biçimde tasarlanmýþ.  Ancak þu an için
+boþ görünüyor.
+~
+S
+#11718
+Pratik Bölgesi~
+Ufalanmýþ kum, büyük odanýn tüm zeminini kaplýyor.  Ýnsana benzetilmiþ birkaç
+kýyafet duvarlarýn önünde duruyor.  Basit ahþap bir kapý batý duvarýna
+yerleþtirilmiþ.
+~
+0 AD 0
+D3
+Ahþap bir kapý batýya doðru açýlýyor.
+~
+ahþap kapý~
+1 -1 11717
+E
+insansý kýyafet figürler~
+Büyük kesikler kýyafetlerin biçimini bozuyor.  Hedefi iyi bulmuþ birkaç deliðin,
+figürlerin arkasýnda iz býraktýðýný ve bazýlarýnýn kafasýnýn uçurulmuþ olduðunu
+fark ediyorsun.
+~
+S
+#11719
+Laboratuvar~
+Birkaç zehirli ve daha az ayýrdedilebilen kimi gazlarla karýþan keskin duman kokusu,
+seni yanmaya karþý bir an için de olsa gözlerini kapamaya zorluyor.  Duvarlara ve
+odanýn ortasýna, üzeri beherler, içi sývý dolu cam tüpler ve test tüpleriyle kaplý
+masalar dizilmiþ.  Güney duvarýna dar çelik bir kapý yerleþtirilmiþ ve kara maun
+bir kapý kuzeye doðru açýlýyor.
+~
+0 AD 0
+D0
+Kara maun bir kapý kuzeye doðru açýlýyor.
+~
+kara maun kapý~
+1 -1 11716
+D2
+Dar çelik bir kapý güneye doðru açýlýyor.
+~
+çelik kapý~
+2 11703 11720
+S
+#11720
+Test Odasý~
+Yýkanmamýþ ve ölmekte olan bedenlere ait çürümüþlük kokusu tüm odaya nüfuz etmiþ.
+Bazýlarýnýn üzerinde bedenler duran iki sýra uzun, dar masa odanýn ortasýnda uzanýyor.
+Kuzey duvarýna dar çelik bir kapý yerleþtirilmiþ.
+~
+0 AD 0
+D0
+Dar çelik bir kapý kuzeye doðru çýkýyor.
+~
+çelik kapý~
+2 11703 11719
+E
+masalar bedenler~
+Önemli bir kýsmý insansý görünen bedenler masalarýn bazýlarýna kayýþla
+baðlanmýþ ve çoðunun ölme aþamasýnda olduðu belli oluyor.  Derileri
+mavinin ve siyahýn tuhaf tonlarýna dönüþmüþ, hatta birininki resmen yeþil..
+~
+S
+#11721
+Karanlýk Koridor~
+Koridor burada doðuya, batýya ve güneye doðru çatallanýyor.
+~
+0 AD 0
+D0
+~
+~
+0 -1 11633
+D1
+Koridor doðuya doðru devam ediyor.
+~
+~
+0 -1 11722
+D2
+Koridor güneye doðru devam ediyor.
+~
+~
+0 -1 11729
+D3
+Koridor batýya doðru devam ediyor.
+~
+~
+0 -1 11716
+S
+#11722
+Karanlýk Koridor~
+Koridor burada batýya ve doðuya, prüzsüz siyah taþtan yapýlmýþ, karanlýk
+ve sessizlikle dolu bir tünele doðru uzanýyor.  Kuzey duvarýna meþe bir
+kapý yerleþtirilmiþ.
+~
+0 AD 0
+D0
+Meþe bir kapý kuzeye doðru açýlýyor.  Kapý tokmaðýnýn üzerine bir kama
+figürü oyulmuþ.
+~
+meþe kapý~
+1 -1 11723
+D1
+Koridor doðuya doðru devam ediyor.
+~
+~
+0 -1 11725
+D3
+Koridor batýya doðru devam ediyor.
+~
+~
+0 -1 11721
+S
+#11723
+Sessiz Oda~
+Geniþ taþ bir odanýn güney ucunda duruyorsun.  Kendileriyle uyumlu giysi
+dolaplarý ve sýralarla birbirlerinden ayrýlan kaliteli yataklar, doðu ve
+batý duvarlarýna sýra sýra dizilmiþ.
+Güney duvarýnda meþe bir kapý var.
+~
+0 AD 0
+D0
+Oda kuzeye doðru devam ediyor.
+~
+~
+0 -1 11724
+D2
+Meþe bir kapý güneye doðru açýlýyor.
+~
+meþe kapý~
+1 -1 11722
+E
+yataklar sýralar giysi dolabý dolaplar~
+Mobilyalar sade, ancak saðlam ve kaliteliler. Ahþap kýsýmlar, ince bir
+vernik tabakasýyla kaplanmýþ.
+~
+S
+#11724
+Sessiz Oda~
+Geniþ taþ bir odanýn güney ucunda duruyorsun.  Kendileriyle uyumlu giysi
+dolaplarý ve sýralarla birbirlerinden ayrýlan kaliteli yataklar, doðu ve
+batý duvarlarýna sýra sýra dizilmiþ.
+~
+0 AD 0
+D2
+Oda güneye doðru devam ediyor.
+~
+~
+0 -1 11723
+E
+yataklar sýralar giysi dolabý dolaplar~
+Mobilyalar sade, ancak saðlam ve kaliteliler. Ahþap kýsýmlar, ince bir
+vernik tabakasýyla kaplanmýþ.
+~
+S
+#11725
+Karanlýk Koridor~
+Kuzey, güney ve doðudaki siyah taþ duvarlara ahþap kapýlar yerleþtirilmiþ.
+Koridor batýya doðru uzanýyor.
+~
+0 AD 0
+D0
+Üzerinde bir kýsakýlýç betimlemesi olan meþe kapý, kuzey duvarýna
+yerleþtirilmiþ.  Oymanýn siyah boyasý, sanki zehirliymiþ gibi cazip
+bir ýslaklýkla parlýyor.
+~
+meþe kapý~
+1 -1 11726
+D1
+Doðudaki maun kapýnýn üzerinde kara, ince bir hançer betimlemesi var.
+~
+maun kapý~
+1 -1 11728
+D2
+Üzerinde bir kýsa kýlýç betimlemesi olan, kara diþbudak aðacýndan bir kapý
+kuzey duvarýna yerleþtirilmiþ.  Oymanýn siyah boyasý sanki zehirliymiþ gibi
+cazip bir ýslaklýkla parlýyor.
+~
+diþbudak kapý~
+1 -1 11727
+D3
+Koridor batýya doðru devam ediyor.
+~
+~
+0 -1 11722
+S
+#11726
+Gölgeli Oda~
+Kara perdeler, odayý derin gölgelere boðarak duvarlarý kaplýyor.  Mobilyalarýn
+yalýn bir güzelliði var ve iyi iþlenmiþler.  Meþe bir kapý güneye doðru
+odadan çýkýþý saðlýyor.
+~
+0 AD 0
+D2
+Güneydeki duvara meþe bir kapý yerleþtirilmiþ.
+~
+meþe kapý~
+1 -1 11725
+E
+mobilyalar~
+Mobilyalar iyi iþlenmiþ ve yalýn bir güzellikleri var.
+~
+S
+#11727
+Gölgeli Oda~
+Kara perdeler, odayý derin gölgelere boðarak duvarlarý kaplýyor.  Mobilyalarýn
+yalýn bir güzelliði var ve iyi iþlenmiþler.  Diþbudak aðacýndan bir kapý
+kuzeye doðru odadan çýkýþý saðlýyor.
+~
+0 AD 0
+D0
+Kuzey duvarýna diþbudak aðacýndan bir kapý yerleþtirilmiþ.
+~
+diþbudak kapý~
+1 -1 11725
+E
+mobilyalar~
+Mobilyalar iyi iþlenmiþ ve yalýn bir güzellikleri var.
+~
+S
+#11728
+Gölgeli Oda~
+Kara perdeler, odayý derin gölgelere boðarak duvarlarý kaplýyor.  Mobilyalarýn
+yalýn bir güzelliði var ve iyi iþlenmiþler.  Maun bir kapý batýya doðru
+odadan çýkýþý saðlýyor.
+~
+0 AD 0
+D3
+Batý duvarýna kara maun bir kapý yerleþtirilmiþ.
+~
+maun kapý~
+1 -1 11725
+E
+mobilyalar~
+Mobilyalar iyi iþlenmiþ ve yalýn bir güzellikleri var.
+~
+S
+#11729
+Karanlýk Koridor~
+Sessiz koridor boyunca ürkütücü biçimde yankýlanan, bir metalin týnlama sesi,
+doðudaki kalýn çelik kapýnýn ardýndan geliyor.
+~
+0 AD 0
+D0
+Koridor kuzeye doðru devam ediyor.
+~
+~
+0 -1 11721
+D1
+Doðu duvarýna kalýn çelik bir kapý yerleþtirilmiþ.
+~
+kalýn çelik kapý~
+1 -1 11730
+D2
+Koridor güneye doðru devam ediyor.
+~
+~
+0 -1 11731
+S
+#11730
+Demirhane~
+Isý yüzünden oluþmuþ parýldayan buðular, devasa dairesel odaya tamamen nüfuz etmiþ ve
+zeminde birkaç delik olmasýna raðmen, içerisi katlanýlmayacak derecede sýcak.  Koyu mavi
+ve siyah metal çubuk ve levhalar, duvarlarýn önündeki kutulara istiflenmiþ.  Odanýn
+ortasýnda bir demir ocaðý ve birkaç örs duruyor.  Batýya doðru, kalýn çelik bir kapý
+odadan çýkýþý saðlýyor.
+~
+0 D 0
+D3
+Batý duvarýna kalýn çelik bir kapý yerleþtirilmiþ.
+~
+kalýn çelik kapý~
+1 -1 11729
+E
+çubuklar levhalar metal kutular~
+Bir koruma kalkanýnýn parýltýsý tüm kutularý kaplýyor.
+~
+S
+#11731
+Karanlýk Koridor~
+Doðudaki siyah taþ duvara, koyu diþbudak aðacýndan bir kapý yerleþtirilmiþ.
+Koridor kuzey ve güneye doðru karanlýðýn içine giriyor.
+~
+0 AD 0
+D0
+Koridor kuzeye doðru devam ediyor.
+~
+~
+0 -1 11729
+D1
+Doðudaki maun kapýnýn üzerinde siyah, ince bir hançer betimlemesi var.
+~
+maun kapý~
+1 -1 11732
+D2
+Koridor güneye doðru devam ediyor.
+~
+~
+0 -1 11733
+S
+#11732
+Gölgeli Oda~
+Kara perdeler, odayý derin gölgelere boðarak duvarlarý kaplýyor.  Mobilyalarýn
+yalýn bir güzelliði var ve iyi iþlenmiþler.  Diþbudak aðacýndan bir kapý
+batýya doðru odadan çýkýþý saðlýyor.
+~
+0 AD 0
+D3
+Batý duvarýna diþbudak aðacýndan bir kapý yerleþtirilmiþ.
+~
+diþbudak kapý~
+1 -1 11731
+E
+mobilyalar~
+Mobilyalar iyi iþlenmiþ ve üzerlerinde sadece birkaç basit dekorasyon var.
+~
+S
+#11733
+Karanlýk Koridor~
+Kapý doðuya, batýya ve güneye doðru açýlýyor.  Koridor kuzeye doðru
+karanlýðýn içine giriyor.
+~
+0 AD 0
+D0
+Koridor kuzeye doðru devam ediyor.
+~
+~
+0 -1 11731
+D1
+Doðu duvarýna meþe bir kapý yerleþtirilmiþ.
+~
+meþe kapý~
+2 11704 11736
+D2
+Güney duvarýna diþbudak aðacýndan bir kapý yerleþtirilmiþ.
+~
+diþbudak kapý~
+1 -1 11735
+D3
+Batý duvarýna kara maun bir kapý yerleþtirilmiþ.
+~
+kara maun kapý~
+1 -1 11734
+S
+#11734
+Karanlýk Oda~
+Siyah taþtan oyulmuþ, büyük ve iyi döþenmiþ bir odanýn içinde duruyorsun.
+Ayak seslerini yumuþatýp neredeyse bir fýsýltýya dönüþtüren siyah dokuma
+bir halý zemini kaplýyor.  Doðu duvarýna kara maun bir kapý yerleþtirilmiþ.
+~
+0 AD 0
+D1
+Kara maun bir kapý doðuya doðru açýlýyor.
+~
+kara maun kapý~
+1 -1 11733
+S
+#11735
+Karanlýk Oda~
+Siyah taþtan oyulmuþ, büyük ve iyi döþenmiþ bir odanýn içinde duruyorsun.
+Ayak seslerini yumuþatýp neredeyse bir fýsýltýya dönüþtüren siyah dokuma
+bir halý zemini kaplýyor.  Kuzey duvarýna diþbudak aðacýndan bir kapý
+yerleþtirilmiþ.
+~
+0 AD 0
+D0
+Diþbudak aðacýndan bir kapý kuzeye doðru açýlýyor.
+~
+diþbudak kapý~
+1 -1 11733
+S
+#11736
+Sessiz Koridor~
+Uzun doðu - batý koridoruna boylu boyunca serilmiþ koyu gri bir halý,
+ayak seslerini yumuþatýp sessizliði neredeyse hiç bozulmamýþ kýlýyor.
+Gerçekten yürüyüp yürümediðinden þüpheye düþüyorsun.  Batý duvarýna
+meþe bir kapý yerleþtirilmiþ.
+~
+0 AD 0
+D1
+Korridor doðuya doðru devam ediyor.
+~
+~
+0 -1 11737
+D3
+Batý duvarýna meþe bir kapý yerleþtirilmiþ.
+~
+meþe kapý~
+2 11704 11733
+E
+gri halý~
+Bir çeþit kara dokuma yününden yapýlmýþ gibi..
+~
+S
+#11737
+Sessiz Koridor~
+Kara taþ duvarlar sessizliðin içinde uðursuz uðursuz parlýyor.  Koridor,
+doðudaki koyu kýzýl ahþap bir kapýyla son buluyor.  Güney duvarýna
+siyah meþe bir kapý yerleþtirilmiþ.  Doðudaki kapýnýn kolunda bir yazýt
+olduðunu fark ediyorsun.
+~
+0 AD 0
+D1
+Doðudaki koyu kýzýl ahþap kapýnýn vernikli yüzeyi, loþ ýþýkta taze kan
+gibi parýldýyor.  Kapýnýn koluna, çift çapraz hançer üzerine doðru alçalan
+bir atmaca figürü oyulmuþ.
+Oymanýn altýndaki bir yazýtta þöyle yazýyor:
+
+                Ir'vekire zai'Zdreni
+
+Kanla hýzlýca yazýldýðý belli olan bir baþka yazýtta ise þu kelimeler var:
+
+            sh'keva Zdreni zeraika shai !
+
+
+Ensende bir ürperti dolanýyor..
+
+~
+kýzýl ahþap kapý~
+1 -1 11740
+D2
+Koridorun güney duvarýna siyah meþe bir kapý yerleþtirilmiþ.
+~
+siyah meþe kapý~
+2 11705 11738
+E
+kýzýl ahþap kapý yazýt~
+Doðudaki koyu kýzýl ahþap kapýnýn vernikli yüzeyi, loþ ýþýkta taze kan
+gibi parýldýyor.  Kapýnýn koluna, çift çapraz hançer üzerine doðru alçalan
+bir atmaca figürü oyulmuþ.
+Oymanýn altýndaki bir yazýtta þöyle yazýyor:
+
+                Ir'vekire zai'Zdreni
+
+Mürekkebin --yani kanýn-- kurumamýþ olduðu düþünülürse, açýkça henüz yazýlmýþ
+bir baþka yazýtta ise þu kelimeler var:
+
+            sh'keva Zdreni ke'zeraika shai !
+
+
+Ensende bir ürperti dolanýyor..
+
+~
+D3
+Koridor batýya doðru devam ediyor.
+~
+~
+0 -1 11736
+S
+#11738
+Muhafýz Koridoru~
+Her iki ucu da giriþlerle son bulan dar, kara taþtan bir koridorda
+duruyorsun.  Sýrtýndan ensene kadar nahoþ bir ürperti dolanýyor.
+~
+0 AD 0
+D0
+Kuzey duvarýna siyah meþe bir kapý yerleþtirilmiþ.
+~
+siyah meþe kapý~
+2 11705 11737
+D2
+Çift kanatlý adamant bir kapý güneye doðru açýlýyor.
+~
+çift kanatlý adamant kapý~
+2 11706 11739
+S
+#11739
+Toplantý Odasý~
+Hemen hemen bölgedeki tüm ýþýðý emen siyah kadife perdeler, kara taþtan
+duvarlarý kaplýyor.  Etrafýnda üç sandalye duran, dairesel taþ bir masa
+odanýn merkezinde uzanýyor.  Kuzey duvarýna çift kanatlý bir adamant kapý
+yerleþtirilmiþ.
+~
+0 AD 0
+D0
+Çift kanatlý adamant kapý kuzeye doðru odadan dýþarý çýkýþý saðlýyor.
+~
+çift kanatlý adamant kapý~
+2 11706 11738
+E
+koyu kadife perdeler~
+Perdeler tüm ýþýðý soðurup, odayý gölgelerle örtülü bir halde býrakýyor.
+~
+E
+dairesel taþ masa~
+Koyu mermer masanýn üzerinde, fildiþinden oyulmuþ iki çapraz hançer
+betimlemesi var.
+~
+E
+sandalyeler~
+Meþeden yapýlmýþ üç sandalye masanýn etrafýna yerleþtirilmiþ.
+~
+S
+#11740
+Kan kýrmýzý Oda~
+Loþ ýþýkta taze, ýslak kan gibi parýldayan koyu kýrmýzý perdeler, odanýn
+duvarlarýný tamamen kaplýyor.  Perdelerinkiyle ayný kan kýrmýzý dokumayla
+kaplanmýþ beþ sandalye, odanýn merkezinde uzanan koyu renk mermer bir masayý
+çevreliyor.  Batý duvarýnda koyu renk diþbudak aðacýndan yapýlmýþ bir kapý var.
+~
+0 AD 0
+D3
+Diþbudak aðacýndan yapýlmýþ bir kapý, batýya doðru odadan çýkýþý saðlýyor.
+~
+diþbudak kapý~
+1 -1 11737
+E
+kan kýrmýzýsý perdeler~
+Loþ ýþýk, odayý kanlý bir parýltýya boðan perdelerin üzerinden yansýyor.
+~
+E
+mermer masa~
+Siyah masanýn üzerinde, kýrmýzý taþa kakýlmýþ, çift çapraz hançer üzerine
+doðru alçalan bir atmaca betimlemesi var.
+~
+E
+sandalyeler~
+Sandalyeler kan kýrmýzýsý kadifeyle kaplanmýþ.  Her birinin üzerine nakýþla,
+çift çapraz hançer üzerine doðru alçalan bir atmaca figürü iþlenmiþ.
+~
+S
+
+
+#0
+
+#SPECIALS
+M 11600 spec_cast_mage    * Sym
+M 11605 spec_cast_mage    * statue of the Mage
+M 11608 spec_guard        * white knight
+M 11610 spec_thief        * mad gardener
+M 11611 spec_thief        * babbling sculptor
+M 11612 spec_cast_cleric  * Denebi
+M 11622 spec_cast_cleric  * Lonari
+M 11623 spec_cast_mage    * Myrl
+M 11625 spec_thief        * silent stalker
+M 11628 spec_cast_mage    * necromancer
+M 11631 spec_cast_undead  * wraith knight
+M 11635 spec_cast_cleric  * cultist high priest
+M 11639 spec_cast_undead  * vampire janitor
+M 11642 spec_thief        * forgotten lies
+M 11651 spec_thief        * assassin
+M 11653 spec_thief        * figment of imagination
+M 11666 spec_thief        * Menx
+M 11677 spec_cast_mage    * Xyrist
+
+M 11698 spec_cast_mage    * zdreni avenger (mage)
+M 11725 spec_cast_mage    * zdreni avenger (leader)
+M 11699 spec_cast_mage    * zdreni deathmaster
+M 11702 spec_cast_mage    * zdreni magemaster
+M 11711 spec_cast_mage    * zdreni magemaster (trainer)
+M 11712 spec_cast_mage    * zdreni apprentice (learning magic)
+M 11713 spec_cast_mage    * zdreni apprentice (prac. magic)
+M 11717 spec_cast_mage    * zdreni magemaster (in lab)
+
+S
+
+#RESETS
+* Garden
+D 0 11606 5 1  * closed down. garden path to quiet cave
+
+* [*****] BUG: Load_resets: 'D': exit 4 not door.  (fixed)
+* D 0 11615 4 1  * closed up. quiet cave to garden path
+
+D 0 11615 4 1  * closed up. quiet cave to garden path
+D 0 11626 3 1  * closed west. misty lake to mossy cave
+D 0 11627 1 1  * closed east. mossy cave to misty lake
+
+O 0 11600 0 11612  * weird artwork portal to Confusion
+O 0 11601 0 11616  * mirror pool lonari -> dierek (garden -> temple)
+O 0 11602 0 11633  * shadows (portal garden->shadow realm)
+O 0 11607 0 11611  * white altar in gazebo
+O 0 11609 0 11669  * white throne in Lonari's globe
+
+M 0 11600 1 11619 1  * Sym in ash grove
+E 0 11617 1  6       * jester's hat
+E 0 11618 1  10      * circlets of wonder
+G 0 11619 -1         * indigo potion
+G 0 11699 1          * a vacuum
+M 0 11601 1 11621 1  * Roc
+G 0 11625 5          * feather breastplate
+M 0 11602 6 11601 1  * nightingale
+M 0 11602 6 11610 1  * nightingale
+M 0 11602 6 11619 2  * nightingale
+G 0 11693 2          * musical bracers
+M 0 11602 6 11619 2  * nightingale
+M 0 11602 6 11621 1  * nightingale
+E 0 11626 2  18      * song of the nightingale
+M 0 11602 6 11622 1  * nightingale
+M 0 11603 1 11617 1  * teacher
+G 0 11627 -1         * scroll of enlightenment
+M 0 11604 1 11617 1  * student
+M 0 11605 1 11606 1  * Mage
+E 0 11628 -1 17      * sparkling wand
+M 0 11606 1 11616 1  * unicorn
+E 0 11629 2  8       * silvery hooves
+E 0 11630 2  3       * golden bell
+M 0 11607 1 11611 1  * Dreamer
+E 0 11631 5 6        * rose tinted shades
+M 0 11608 3 11605 1  * white knight
+E 0 11632 -1 5       * white breastplate
+E 0 11633 -1 7       * white legplates
+E 0 11634 -1 16      * white sword
+M 0 11608 3 11609 1  * white knight
+E 0 11632 -1 5       * white breastplate
+E 0 11633 -1 7       * white legplates
+E 0 11634 -1 16      * white sword
+M 0 11608 3 11624 1  * white knight
+E 0 11632 -1 5       * white breastplate
+E 0 11633 -1 7       * white legplates
+E 0 11731 -1 16      * white lance
+M 0 11609 1 11610 1  * Lady Justice
+E 0 11635 5  9       * balancing scales
+M 0 11610 1 11604 1  * mad gardener
+E 0 11636 -1 16      * pruning shears
+E 0 11637 -1 5       * jumpsuit
+M 0 11611 1 11614 1  * babbling sculptor
+E 0 11638 30 16      * chisel
+M 0 11612 1 11602 1  * Denebi
+E 0 11640 5  12      * white priest's robes
+M 0 11613 1 11602 1  * Believer
+E 0 11641 10 5       * devotion
+M 0 11614 5 11601 2  * white rabbit
+G 0 11644 2          * fluffy tail
+M 0 11614 5 11601 2  * white rabbit
+G 0 11645 -1         * rabbit food
+M 0 11614 5 11602 1  * white rabbit
+E 0 11643 1  13      * broken watch
+M 0 11614 5 11607 1  * white rabbit
+G 0 11645 -1         * rabbit food
+M 0 11614 5 11612 1  * white rabbit
+E 0 11642 1  3       * silver neckchain
+M 0 11615 1 11602 1  * druid of peace
+M 0 11616 1 11623 1  * ghost
+E 0 11646 1  18      * weeping angel
+M 0 11617 1 11626 1  * faith
+M 0 11618 1 11627 1  * stray thought
+M 0 11619 1 11629 1  * memories
+M 0 11620 1 11630 1  * idea
+M 0 11621 1 11669 1  * white panther Gabrian
+G 0 11624 1          * Mark of Gabrian
+M 0 11622 1 11669 1  * Lonari
+E 0 11620 1  13      * moonbeam
+E 0 11621 1  18      * innocent dreams
+E 0 11622 1  17      * white cross
+E 0 11623 1  9       * kid gloves
+M 0 11646 1 11611 1  * shadow of reality
+M 0 11648 1 11618 1  * sub gardener
+
+* Temple
+D 0 11634 1 1  * onyx hallway to storage closet
+D 0 11656 3 1  * chamber to hallway
+D 0 11635 3 1  * hallway to chamber of high priest
+D 0 11636 1 1  * h.p. chamber to hallway
+D 0 11635 3 1  * onyx hall to high priest's chamber
+D 0 11636 1 1  * high priest's cham. to onyx hall
+
+* [*****] BUG: Load_resets: 'D': exit 2 not door. (fixed)
+* D 0 11640 2 1  * dark corridor to pentagram
+
+D 0 11640 2 1  * dark corridor to pentagram
+D 0 11651 0 1  * pentagram to dark corridor
+D 0 11652 5 1  * dining hall to cellar
+D 0 11654 4 1  * cellar to dining hall
+D 0 11656 4 1  * storage closet to crawlspace
+D 0 11657 5 1  * crawlspace to storage closet
+D 0 11665 0 1  * hills to rocky cave
+D 0 11666 2 1  * cave to Yllias's
+
+O 0 11603 0 11646  * leering face portal: temple->confusion
+O 0 11604 0 11650  * dark mirror pool portal: temple->garden
+O 0 11605 0 11657  * pine coffin in narrow crawlspace
+O 0 11606 0 11667  * darkness portal: temple->shadows (yllias' section)
+O 0 11608 0 11645  * obsidian altar in bloody altar room
+O 0 11610 0 11671  * black throne in Dierek's dark room
+
+M 0 11623 1 11653 1  * Myrl
+E 0 11647 1  18      * shattered dreams
+E 0 11648 1  6       * ice mask
+M 0 11624 1 11655 1  * hellhawk
+G 0 11649 2          * hellhawk feather
+M 0 11625 6 11635 1  * silent stalker
+M 0 11625 6 11644 1  * silent stalker
+M 0 11625 6 11653 2  * silent stalker
+E 0 11694 2  0       * silent flame
+M 0 11625 6 11653 2  * silent stalker
+M 0 11625 6 11655 1  * silent stalker
+E 0 11694 2  0       * silent flame
+M 0 11625 6 11656 1  * silent stalker
+M 0 11626 1 11651 1  * twisted being
+M 0 11627 1 11651 1  * screaming soul
+M 0 11628 1 11640 1  * necromancer
+E 0 11650 -1 6       * bloody cowl
+M 0 11629 1 11650 1  * nightmare
+G 0 11651 1          * breath
+G 0 11652 1          * eye
+M 0 11630 1 11645 1  * anti-bishop
+E 0 11653 1  12      * sacrificial robes
+M 0 11631 3 11639 1  * wraith knight
+E 0 11654 10 16      * deathblade
+E 0 11655 3  9       * gauntlets of the night
+M 0 11631 3 11643 1  * wraith knight
+E 0 11654 10 16      * deathblade
+E 0 11655 3  9       * gauntlets of the night
+M 0 11631 3 11658 1  * wraith knight
+E 0 11732 10 16      * dark lance
+E 0 11655 3  9       * gauntlets of the night
+M 0 11632 1 11644 1  * bloody sadist
+M 0 11633 1 11638 1  * fanatic cultist
+M 0 11634 1 11648 1  * Grinner
+M 0 11635 1 11636 1  * cultist high priest
+E 0 11656 10 16      * blood drenched dagger
+M 0 11636 1 11636 1  * nothingness
+G 0 11657 -1         * hole
+M 0 11637 5 11635 2  * furry lemming
+M 0 11637 5 11635 2  * furry lemming
+G 0 11658 2          * furry gloves
+M 0 11637 5 11636 1  * furry lemming
+M 0 11637 5 11641 1  * furry lemming
+G 0 11658 2          * furry gloves
+M 0 11637 5 11647 1  * furry lemming
+M 0 11638 1 11636 1  * Warlord
+E 0 11659 30 11      * blood spattered shield
+E 0 11733 0 16       * bow
+G 0 11734 2          * sharp arrow
+G 0 11734 2          * sharp arrow
+M 0 11639 1 11657 1  * vampire janitor
+E 0 11660 2  16      * fang
+E 0 11661 2  3       * tattered cloak
+M 0 11640 1 11660 1  * false dreams
+M 0 11641 1 11661 1  * tainted knowledge
+M 0 11642 1 11663 1  * forgotten lies
+M 0 11643 1 11664 1  * lost hopes
+M 0 11644 1 11671 1  * black panther Daemias
+G 0 11662 1          * Mark of Daemias
+M 0 11645 1 11671 1  * Dierek
+E 0 11663 1  0       * flame of darkness
+E 0 11664 1  13      * circle of tears
+E 0 11665 1  18      * ashes of the lost
+E 0 11666 1  17      * broken bible
+M 0 11647 1 11645 1  * terrified victim
+M 0 11649 1 11652 1  * ghostly servant
+E 0 11667 5  11      * bloodstained platter
+
+* Shadows
+D 0 11674 0 1  * trail to inside large pine
+
+* [*****] BUG: Load_resets: 'D': exit 2 not door. (fixed)
+* D 0 11680 2 1  * from inside pine to trail
+
+D 0 11681 2 1  * from inside pine to trail
+D 0 11677 5 1  * dead end to quiet tunnel
+D 0 11678 4 1  * quiet tunnel to dead end
+D 0 11679 5 1  * meeting chamber to shadowy lair
+D 0 11680 4 1  * shadowy lair to meeting chamber
+
+O 0 11611 0 11672  * white oak portal shadows->garden
+O 0 11612 0 11672  * black oak portal shadows->temple
+
+M 0 11650 1 11673 1  * Ykres
+E 0 11668 1  9       * razor claws
+G 0 11669 1          * Mark of Ykres
+M 0 11651 1 11672 1  * assassin
+M 0 11652 1 11673 1  * night lynx
+G 0 11670 2  14      * bracelet of night
+M 0 11653 1 11674 1  * figment of imagination
+E 0 11695 1  9       * shadowy handprints
+M 0 11654 1 11675 1  * dark owl
+G 0 11696 1          * feather blanket
+M 0 11655 1 11675 1  * owl hatchling
+G 0 11671 1          * owl ring
+M 0 11656 1 11676 1  * nightling
+M 0 11657 1 11677 1  * sillouhette
+M 0 11658 1 11677 1  * nightblade
+E 0 11672 10 16      * sliver of darkness
+M 0 11659 1 11678 1  * shadowblade
+E 0 11672 10 16      * sliver of darkness
+M 0 11660 1 11679 1  * grey ninja
+E 0 11673 1  6       * mask of deception
+M 0 11661 1 11679 1  * black ninja
+E 0 11674 1  3       * cloak of shadows
+M 0 11662 1 11679 1  * white ninja
+E 0 11675 1  0       * ice candle
+M 0 11663 1 11680 1  * shadow serpent
+M 0 11664 1 11682 1  * Yllias
+E 0 11676 1  16      * shadow's edge
+E 0 11677 1  12      * silhouette
+E 0 11678 1  7       * silence
+M 0 11665 1 11682 1  * Reykas
+E 0 11679 1  8       * shadowhawk talons
+
+* Confusion
+
+O 0 11613 0 11686  * signpost at intersection
+O 0 11614 0 11694  * couch in clinic
+O 0 11615 0 11698  * neon throne
+O 0 11616 0 11698  * parrot perch
+O 0 11697 0 11692  * portal confusion->garden
+O 0 11698 0 11685  * portal confusion->temple
+
+M 0 11666 1 11693 1  * Menx
+E 0 11680 1  10      * bracers of energy
+E 0 11681 1  11      * whirling disc
+M 0 11667 1 11684 1  * boggled brain
+G 0 11682 -1         * brain cell
+M 0 11668 1 11687 1  * flying pig
+E 0 11683 3  10      * pig wings
+M 0 11669 1 11688 1  * mooo cow
+E 0 11684 -1 17      * effigy of barney
+M 0 11670 1 11689 1  * stress
+M 0 11671 1 11691 1  * insanity
+M 0 11672 1 11692 1  * fool
+M 0 11673 1 11694 1  * psychiatrist
+E 0 11685 3  12      * lab coat
+M 0 11674 1 11694 1  * normal person
+E 0 11686 -1 5       * trendy suit
+M 0 11675 1 11696 1  * toilet monster
+M 0 11676 1 11697 1  * mole
+M 0 11677 1 11698 1  * Xyrist
+E 0 11687 1  1       * shimmering circlet
+E 0 11688 1  14      * bracelet of delusions
+E 0 11689 1  0       * an idea
+E 0 11690 1  5       * shimmering chainmail
+M 0 11678 1 11698 1  * Fax
+E 0 11691 1  7       * red feather leggings
+E 0 11692 2  16      * brilliant red tailfeather
+
+R 0 11686 4  * intersection
+R 0 11690 4  * another intersection
+
+* Zeinia pet shop
+O 0 11700 0 11687    * door portal to zeinia office from funny farm
+O 0 11701 0 11699    * door portal to funny farm from zeinia office
+
+M 0 11679 1 11700 1  * aerial servant
+M 0 11680 1 11700 1  * flying fist
+M 0 11681 1 11700 1  * shadowcat
+M 0 11682 1 11700 1  * silver lynx
+M 0 11683 1 11700 1  * pegasus
+M 0 11684 1 11700 1  * firecat
+M 0 11685 1 11700 1  * icecat
+M 0 11686 1 11700 1  * ethereal panther
+
+M 0 11687 1 11702 1  * t'enerezi'i demon
+M 0 11688 1 11702 1  * devouk demon
+M 0 11689 1 11702 1  * chre'zanni demon
+M 0 11690 1 11702 1  * rabid hamster
+M 0 11691 1 11702 1  * rabid guinea pig
+M 0 11692 1 11702 1  * Dzenian blade
+M 0 11693 1 11702 1  * ethereal weebie
+M 0 11694 1 11702 1  * Z'kare blade
+
+M 0 11695 1 11699 1  * sherayna (zeinia rep.)
+M 0 11696 1 11701 1  * nyvri (zeinia rep., elite shop)
+
+* Zdreni assassin guild
+D 0 11681 5 1  * inside tree to shadowy tunnel
+D 0 11703 4 1  * and back
+D 0 11705 1 2  * shadowy tunnel to dark hallway
+D 0 11706 3 2  * and back
+D 0 11707 0 1  * dark hallway to applicant quarters
+D 0 11708 2 1  * and back
+D 0 11709 3 1  * dark hallway to apprentice quarters
+D 0 11710 1 1  * and back
+D 0 11712 2 1  * dark hallway to smokey room (magic classroom)
+D 0 11713 0 1  * and back
+D 0 11713 2 1  * smokey room to practice room
+D 0 11714 0 1  * and back
+D 0 11713 3 1  * smokey room to magic lab
+D 0 11715 1 1  * and back
+D 0 11716 0 1  * dark hallway to instruction room (weapons classroom)
+D 0 11717 2 1  * and back
+D 0 11717 1 1  * instruction room to practice area
+D 0 11718 3 1  * and back
+D 0 11716 2 1  * dark halllway to chem lab
+D 0 11719 0 1  * and back
+D 0 11719 2 2  * chem lab to testing room
+D 0 11720 0 2  * and back
+D 0 11722 0 1  * dark hallway to stiletto quarters
+D 0 11723 2 1  * and back
+D 0 11725 0 1  * dark hallway to venomblade quarters (shadowy chamber)
+D 0 11726 2 1  * and back
+D 0 11725 2 1  * dark hallway to venomblade quarters (shadowy chamber)
+D 0 11727 0 1  * and back
+D 0 11725 1 1  * dark hallway to darkblade quarters (shadowy chamber)
+D 0 11728 3 1  * and back
+D 0 11729 1 1  * dark hallway to forge
+D 0 11730 3 1  * and back
+D 0 11731 1 1  * dark hallway to darkblade quarters (dark chamber)
+D 0 11732 3 1  * and back
+D 0 11733 3 1  * dark hallway to stalker quarters (dark chamber)
+D 0 11734 1 1  * and back
+D 0 11733 2 1  * dark hallway to stalker quarters (dark chamber)
+D 0 11735 0 1  * and back
+D 0 11733 1 2  * dark hallway to quiet corridor
+D 0 11736 3 2  * and back
+D 0 11737 2 2  * quiet corridor to guarded corridor
+D 0 11738 0 2  * and back
+D 0 11737 1 1  * dark hallway to crimson chamber
+D 0 11740 3 1  * and back
+D 0 11738 2 2  * guarded corridor to meeting chamber
+D 0 11739 0 2  * and back
+
+O 0 11707 0 11704  * bodyparts in shadowy tunnel
+
+M 0 11725 1 11740 1  * avenger (leader)
+E 0 11708 5  10      * dark crimson armbands
+E 0 11710 5  16      * crimson hilted stiletto
+E 0 11709 1  4       * oath of vengeance (extremely hard to get)
+M 0 11697 2 11740 2  * avenger (blade)
+E 0 11708 5  10      * dark crimson armbands
+E 0 11710 5  16      * crimson hilted stiletto
+M 0 11697 2 11740 2  * avenger (blade)
+E 0 11708 5  10      * dark crimson armbands
+E 0 11710 5  16      * crimson hilted stiletto
+M 0 11698 2 11740 2  * avenger (mage)
+E 0 11708 5  10      * dark crimson armbands
+E 0 11710 5  16      * crimson hilted stiletto
+M 0 11698 2 11740 2  * avenger (mage)
+E 0 11708 5  10      * dark crimson armbands
+E 0 11710 5  16      * crimson hilted stiletto
+
+M 0 11699 1 11739 1  * deathmaster
+E 0 11711 1  2       * black insignia
+E 0 11725 10 16      * adamantite shortsword
+M 0 11700 2 11739 2  * shadowmaster
+E 0 11712 2  5       * dark grey insignia
+E 0 11725 10 16      * adamantite shortsword
+M 0 11700 2 11739 2  * shadowmaster
+E 0 11712 2  5       * dark grey insignia
+E 0 11725 10 16      * adamantite shortsword
+M 0 11701 2 11737 1  * blademaster
+G 0 11705 2          * black key
+E 0 11726 10 16      * adamantite kris
+E 0 11713 3  13      * dark blue sash w/ green insignia
+M 0 11701 2 11738 1  * blademaster
+E 0 11713 3  13      * dark blue sash w/ green insignia
+E 0 11726 10 16      * adamantite kris
+M 0 11702 1 11738 1  * magemaster
+E 0 11714 3  13      * dark blue sash w/ purple insignia
+G 0 11706 2          * adamantite key
+E 0 11726 10 16      * adamantite kris
+
+M 0 11703 4 11734 1  * stalker
+E 0 11715 4  3       * smokey blue insignia
+E 0 11727 20 16      * adamantite stiletto
+M 0 11726 4 11735 1  * stalker
+E 0 11730 4  3       * smokey brown insignia
+E 0 11727 10 16      * adamantite stiletto
+M 0 11703 4 11736 1  * stalker
+E 0 11715 4  3       * smokey blue insignia
+E 0 11727 10 16      * adamantite stiletto
+M 0 11704 4 11728 1  * darkblade
+E 0 11716 4  9       * indigo insignia
+E 0 11727 10 16      * adamantite stiletto
+M 0 11704 4 11732 1  * darkblade
+E 0 11716 4  9       * indigo insignia
+E 0 11727 10 16      * adamantite stiletto
+M 0 11704 4 11733 1  * darkblade
+E 0 11716 4  9       * indigo insignia
+G 0 11704 2          * dark stone key
+E 0 11727 10 16      * adamantite stiletto
+M 0 11705 3 11726 2  * venomblade
+E 0 11717 6  8       * dark green insignia
+E 0 11728 -1 16      * adamantite throwing knife
+M 0 11705 3 11726 2  * venomblade
+E 0 11717 6  8       * dark green insignia
+E 0 11728 -1 16      * adamantite throwing knife
+M 0 11705 3 11727 1  * venomblade
+E 0 11717 6  8       * dark green insignia
+E 0 11728 -1 16      * adamantite throwing knife
+
+M 0 11706 4 11721 1  * stiletto
+E 0 11718 10 7       * grey insignia
+E 0 11728 -1 16      * adamantite throwing knife
+M 0 11706 4 11723 1  * stiletto
+E 0 11718 10 7       * grey insignia
+E 0 11728 -1 16      * adamantite throwing knife
+M 0 11706 4 11724 2  * stiletto
+E 0 11718 10 7       * grey insignia
+E 0 11728 -1 16      * adamantite throwing knife
+M 0 11706 4 11724 2  * stiletto
+E 0 11718 10 7       * grey insignia
+E 0 11728 -1 16      * adamantite throwing knife
+M 0 11707 5 11710 2  * apprentice
+E 0 11719 15 15      * tan insignia
+E 0 11729 -1 16      * adamantite dagger
+M 0 11707 5 11710 2  * apprentice
+E 0 11719 15 15      * tan insignia
+E 0 11729 -1 16      * adamantite dagger
+M 0 11707 5 11711 2  * apprentice
+E 0 11719 15 15      * tan insignia
+E 0 11729 -1 16      * adamantite dagger
+M 0 11707 5 11711 2  * apprentice
+E 0 11719 15 15      * tan insignia
+E 0 11729 -1 16      * adamantite dagger
+M 0 11707 5 11712 1  * apprentice
+E 0 11719 15 15      * tan insignia
+E 0 11729 -1 16      * adamantite dagger
+M 0 11708 3 11708 1  * applicant
+E 0 11720 5  1       * applicant's ring
+
+M 0 11709 4 11707 1  * shadow panther
+M 0 11709 4 11709 1  * shadow panther
+M 0 11709 4 11729 1  * shadow panther
+M 0 11710 2 11705 2  * guardian lynx
+E 0 11702 2 2        * onyx key on chain
+M 0 11710 2 11705 2  * guardian lynx
+E 0 11702 2 2        * onyx key on chain
+M 0 11711 1 11713 1  * magemaster (instructor)
+E 0 11714 3  13      * dark blue sash w/ purple insignia
+E 0 11726 20 16      * adamantite kris
+M 0 11712 3 11713 1  * apprentice (learning magic)
+E 0 11719 15 15      * tan insignia
+E 0 11729 -1 16      * adamantite dagger
+M 0 11713 2 11714 1  * apprentice (practicing magic)
+E 0 11719 15 15      * tan insignia
+E 0 11729 -1 16      * adamantite dagger
+M 0 11714 1 11717 1  * blademaster (instructor)
+E 0 11713 3  13      * dark blue sash w/ green insignia
+G 0 11721 5          * manual of bladework
+E 0 11726 10 16      * adamantite kris
+M 0 11715 2 11717 1  * apprentice (learning weapons)
+E 0 11719 15 15      * tan insignia
+E 0 11729 -1 16      * adamantite dagger
+M 0 11716 3 11718 1  * apprentice (practicing weapons)
+E 0 11719 15 15      * tan insignia
+E 0 11729 -1 16      * adamantite dagger
+
+M 0 11717 1 11715 1  * magemaster (in lab)
+E 0 11714 3  13      * dark blue sash w/ purple insignia
+G 0 11722 1          * dark blue scroll
+E 0 11726 10 16      * adamantite kris
+M 0 11718 1 11715 1  * venomblade (lab assistant)
+E 0 11717 6  8       * dark green insignia
+E 0 11728 -1 16      * adamantite throwing knife
+M 0 11719 2 11715 1  * stiletto (lab assistant)
+E 0 11718 10 7       * grey insignia
+E 0 11728 -1 16      * adamantite throwing knife
+M 0 11720 2 11719 1  * venomblade (in chem lab)
+G 0 11703 3          * steel key
+E 0 11717 6  8       * dark green insignia
+G 0 11723 -1         * simmering green potion
+E 0 11728 -1 16      * adamantite throwing knife
+M 0 11721 1 11720 1  * venomblade (testing poisons)
+E 0 11717 6  8       * dark green insignia
+G 0 11723 -1         * simmering green potion
+E 0 11728 -1 16      * adamantite throwing knife
+M 0 11722 3 11720 2  * screaming captive
+M 0 11722 3 11720 2  * screaming captive
+M 0 11723 1 11730 1  * drow armoursmith
+G 0 11724 5          * dark elven chainmail
+M 0 11724 1 11730 1  * drow weaponsmith
+G 0 11729 -1         * adamantite dagger
+
+
+* CHANGES (since the older version - the lower level version is unchanged)
+* area now takes up 200 vnums (drakyri isle was moved to 11800-11899)
+* added zdreni assassin guild to shadows area
+* revised equipment stats (lowered most. the really nice (crimson) eq in the
+*  zdreni area is _extremely_ difficult to get, even for a level 100 player
+*  (hitroll for avengers w/ crimson eq is 5, damroll 10 above normal.
+*   world limit 1 on oath)
+
+S
+
+#SHOPS
+11695  0 0 0 0 0  100 100  0 23  * sherayna (zeinia rep)
+11696  0 0 0 0 0  100 100  0 23  * nyvri (zeinia rep)
+0
+
+#OMPROGS
+O 11693 wear_prog wear_prog_bracer
+O 11693 remove_prog remove_prog_bracer
+O 11680 wear_prog wear_prog_bracer
+O 11680 remove_prog remove_prog_bracer
+O 11730 wear_prog wear_prog_neckguard
+O 11730 remove_prog remove_prog_neckguard
+S
+
+#OLIMITS
+O 11708 2
+O 11709 2
+O 11710 2
+O 11693 2
+O 11680 2
+O 11645 10 * haste
+O 11730 2  * brown
+S
+
+#$
