@@ -3051,6 +3051,7 @@ char *	crypt		args( ( const char *key, const char *salt ) );
 #endif
 
 #if defined(unix)
+#define IP_DIR		"../log/ip/"
 #define PLAYER_DIR      "../player/"        	/* Player files */
 #define REMORT_DIR      "../remort/"  		/* list of remorted heros */
 #define GOD_DIR         "../gods/"  		/* list of gods */

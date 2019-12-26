@@ -1,0 +1,2040 @@
+#AREA
+velmarin_kalesi.are~
+Velmar'ýn Kalesi~
+{30 50} Anon    Velmar'ýn Kalesi~
+15200 15299
+
+
+#MOBILES
+#15201
+Kral Velmar~
+Kral Velmar~
+Kral Velmar Tahtýnda oturuyor.
+~
+Orta yaþlarýnýn sonuna yaklaþmýþ, saçý ve sakalý grileþmiþ, yapýlý bir vücudu
+var kralýn. Herhangi bir saldýrýya nazikçe cevap vermeyecek kadar güçlü olduðu
+belli oluyor.Ayrýca bildiðin gibi kral bütün diyarda sevilen birisi çünkü
+merhametli ve iyi biri.
+~
+human~
+AB DH 1000 0
+48 0 25d10+3750 479d1+11 6d6+18 punch
+-18 -18 -18 3
+AEDK 0 0 D
+stand stand male 10000
+0 0 medium 0
+#15202
+Korkunç hayalet~
+Korkunç hayalet~
+Kulaklarý çýnlatan bir çýðlýk duyuyorsun , o da ne korkunç bir hayalet.
+~
+Hayalet gerçekten korkutucu görünüyor!
+~
+modron~
+ACFHR BDFITU -900 0
+30 0 6d12+778 299d1+1 5d4+7 wrath
+-9 -9 -9 1
+FGK A 0 D
+stand stand either 0
+0 0 small 0
+#15203
+yael kraliyet muhafýzý~
+Kraliyet Muhafýzý Yael~
+Kraliyet muhafýzý Yael burada görevini yapýyor.
+~
+Bütün muhafýzlar gibi Setris da zýrhlý, duruþundan ve yürüyüþündün tecrübeli
+bir savaþçý olduðu belli oluyor. Öyle olmasa Kral'ý koruma görevini ona
+vermezlerdi zaten.
+~
+human~
+AG 0 800 0
+35 0 10d10+1300 349d1+1 4d7+11 punch
+-11 -11 -11 5
+CEFIKR 0 0 0
+stand stand male 5500
+0 0 medium 0
+#15204
+setris kraliyet muhafýzý~
+Kraliyet muhafýzý Setris~
+Kraliyet muhafýzý Setris burada , kendini geliþtirmek için çalýþýyor.
+~
+Bütün muhafýzlar gibi Setris da zýrhlý, duruþundan ve yürüyüþündün tecrübeli
+bir savaþçý olduðu belli oluyor. Öyle olmasa Kral'ý koruma görevini ona
+vermezlerdi zaten.
+~
+ABG 0 800 0
+36 0 10d10+1400 359d1+1 3d10+11 punch
+-12 -12 -12 4
+DEFIKR 0 0 0
+stand stand male 5600
+0 0 medium 0
+#15205
+velin kraliyet muhafýzý~
+kraliyet muhafýzý Velin~
+Kraliyet muhafýzý Velin burada , kendini geliþtirmek için çalýþýyor.
+~
+Bütün muhafýzlar gibi Setris da zýrhlý, duruþundan ve yürüyüþündün tecrübeli
+bir savaþçý olduðu belli oluyor. Öyle olmasa Kral'ý koruma görevini ona
+vermezlerdi zaten.
+~
+human~
+ABG 0 800 0
+37 0 10d10+1500 367d1+1 3d10+12 punch
+-12 -12 -12 4
+CDFIKR 0 0 0
+stand stand male 5700
+0 0 medium 0
+#15206
+lutre kraliyet muhafýzý~
+Kraliyet muhafýzý Lutre~
+Kraliyet muhafýzý Lutre burada görevini yapýyor.
+~
+Bütün muhafýzlar gibi Setris da zýrhlý, duruþundan ve yürüyüþündün tecrübeli
+bir savaþçý olduðu belli oluyor. Öyle olmasa Kral'ý koruma görevini ona
+vermezlerdi zaten.
+~
+human~
+AG 0 800 0
+38 0 10d10+1600 379d1+1 5d6+12 punch
+-13 -13 -13 4
+CDEIKR 0 0 0
+stand stand male 5800
+0 0 medium 0
+#15207
+jochem kraliyet muhafýzý~
+Kraliyet Muhafýzý Jochem~
+Kraliyet muhafýzý Jochem burada, görev baþýnda deðil.
+~
+Bütün muhafýzlar gibi Jochem de zýrhlý, duruþundan ve yürüyüþündün tecrübeli
+bir savaþçý olduðu belli. Birden çok savaþ görmüþ ve yeni bir tane arýyor!
+~
+human~
+AG 0 900 0
+39 0 15d10+1700 389d1+1 5d6+13 punch
+-13 -13 -13 4
+CDEFKR 0 0 0
+stand stand male 5900
+0 0 medium 0
+#15208
+ilda kraliyet muhafýzý~
+Kraliyet muhafýzý Ýlda~
+Kraliyet muhafýzý Ýlda burada görevini yapýyor.
+~
+Bütün muhafýzlar gibi Ýlda da zýrhlý, duruþundan ve yürüyüþündün tecrübeli
+bir savaþçý olduðu belli. Birden çok savaþ görmüþ ve yeni bir tane arýyor!
+~
+human~
+AG 0 900 0
+40 0 15d10+1850 399d1+1 4d8+13 punch
+-13 -13 -13 4
+CDEFIR 0 0 0
+stand stand female 6000
+0 0 medium 0
+#15209
+noalis kraliyet muhafýzý~
+Kraliyet muhafýzý Noalis~
+Kraliyet muhafýzý Noalis burada görevini yapýyor.
+~
+Bütün muhafýzlar gibi Andrew de zýrhlý, duruþundan ve yürüyüþündün tecrübeli
+bir savaþçý olduðu belli. Birden çok savaþ görmüþ ve yeni bir tane arýyor!
+~
+human~
+AG 0 900 0
+40 0 15d10+1850 399d1+1 4d8+13 punch
+-13 -13 -13 4
+CDEFIKR 0 0 0
+stand stand male 6000
+0 0 medium 0
+#15210
+Baaf kraliyet muhafýzý~
+Kraliyet muhafýzý Baaf~
+Kraliyet muhafýzý Baaf burada görevini yapýyor.
+~
+Bütün muhafýzlar gibi Baaf da zýrhlý, duruþundan ve yürüyüþündün tecrübeli
+bir savaþçý olduðu belli. Bu adam güçlü gözüküyor.
+~
+human~
+AG 0 900 0
+35 0 10d10+1300 349d1+1 4d7+11 punch
+-11 -11 -11 6
+EFIKR 0 0 0
+stand stand male 5500
+0 0 medium 0
+#15211
+filyen kraliyet muhafýzý~
+Kraliyet muhafýzý Filyen~
+Kraliyet muhafýzý Filyen burada görevini yapýyor.
+~
+Bütün muhafýzlar gibi Filyen de zýrhlý, duruþundan ve yürüyüþündün tecrübeli
+bir savaþçý olduðu belli. Bir kýz gerektiðinde kötü þeyler yapabilir.
+~
+human~
+AG 0 900 0
+42 0 25d10+1250 339d1+1 3d12+14 punch
+-14 -14 -14 4
+CDIKR 0 0 0
+stand stand female 5400
+0 0 medium 0
+#15212
+metka kraliyet muhafýzý kaptaný~
+Kraliyet muhafýzý kaptaný Metka~
+Kraliyet muhafýzý kaptaný Metka ,  burada görevlileri denetliyor.
+~
+Bütün muhafýzlar gibi Metka de zýrhlý, duruþundan ve yürüyüþündün tecrübeli
+bir savaþçý olduðu belli. Bütün muhafýzlarýn iyi eðitildiðini farketsende
+hiç birinin savaþta bu adamý deviremeyeceði bir gerçek. Boyu 2 metre var.
+Ama çok seri hareket ediyor. Etrafýna güç ve güven veren bir havasý var.
+~
+human~
+AG 0 900 0
+51 0 50d10+5000 469d1+1 5d8+20 punch
+-21 -21 -21 2
+CDEFIKR 0 0 0
+stand stand male 9700
+0 0 medium 0
+#15213
+savaþ öðretmeni~
+Savaþ öðretmeni~
+Savaþ öðretmeni burada eðitim veriyor.
+~
+Yaþlý ama tecrübeli, bu adam insan elinde yapýlmýþ her silahý kullanabilir.
+~
+human~
+ABGT 0 950 0
+48 0 25d10+3500 459d1+1 6d6+17 punch
+-17 -17 -17 3
+CDEFHIKNR 0 0 0
+stand stand male 10000
+0 0 medium 0
+#15214
+Herald~
+Herald~
+Herald burada duruyýr.
+~
+Bu genç ve kuvvetli adam kraliyet görüþmelerini yapmakla görevli.
+~
+human~
+A 0 800 0
+31 0 6d12+928 309d1+1 4d6+9 punch
+-10 -10 -10 5
+CDEFIKR 0 0 0
+stand stand male 3000
+0 0 medium 0
+#15215
+ergan katil~
+Katil Ergan~
+Köþede zamanýnda ünlü bir þehri kýlýçtan geçiren Ergan'ý görüyorsun.
+~
+Çok eski olmayan bir zamanda bu adam savaþýn sonunda bütün bir þehri kýlýçtan
+geçirmiþti. Çok iyi bir savaþçý olduðu belli oluyor ama onunla savaþacaksan
+sana acýmayacaðýna emin ol.
+~
+giant~
+ABCFH 0 -1000 0
+42 0 25d10+2250 419d1+1 3d12+14 punch
+-14 -14 -14 4
+BDJ A 0 0
+stand stand male 1000
+0 0 medium 0
+#15216
+baþ uþak hanna~
+Baþ uþak Hanna~
+Baþ uþak Hanna burada.
+~
+Mükemmel bir uþak , orta yaþlarýnda ve bakýmlý görünüyor.
+~
+human~
+A 0 500 0
+33 0 10d10+1100 229d1+1 6d4+10 punch
+-11 -11 -11 6
+0 0 0 0
+stand stand male 5300
+0 0 large 0
+#15217
+kadýn temizlikçi~
+Temizlikçi kadýn~
+Temizlik yapan bir kadýn burada kendini farkettirmeye çalýþýyor.
+~
+Kötü bir iþi olsa da iþini seviyormuþ gibi gözüküyor.
+~
+elf~
+A 0 800 0
+20 -1 3d9+333 199d1+1 2d8+5 punch
+-4 -4 -4 7
+I 0 0 D
+stand stand female 100
+0 0 medium 0
+#15218
+Hamam böceði~
+Hamam böceði~
+Büyük bir hamam böceði duvarda geziniyor.
+~
+Çok büyük gözüküyor , insanlar hamam böceklerini öldürmenin zor olduðunu
+söylerler...
+~
+centipede~
+A 0 -550 0
+28 0 6d12+703 279d1+1 2d12+7 thrust
+-8 -8 -8 6
+E 0 0 D
+stand stand either 10000
+0 0 medium 0
+#15219
+astrolog~
+Astrolog~
+Astrolog burada bir kitap okuyor.
+~
+Yaþlý ve bilge gözüküyor.
+~
+ABR 0 900 0
+45 0 25d10+2750 449d1+1 3d12+14 wrath
+-15 -15 -15 -2
+FG 0 0 CD
+stand stand male 10000
+0 0 tiny 0
+#15220
+Astel Kral'ýn Muhafýzý~
+Astel Kral'ýn Muhafýzý~
+Astel Kral'ýn Muhafýzý burada duruyor.
+~
+Asyel in ikizi gibi gözüküyor. Gerektiðinde kral için canýný vermeye hazýr
+ve gerçekten güçlü bir savaþçý.
+~
+human~
+AB D 900 15201
+51 0 50d10+5000 509d1+1 5d8+20 punch
+-21 -21 -21 2
+CDEFHIKR 0 0 0
+stand stand male 10000
+0 0 medium 0
+#15221
+Asyel Kral'ýn Muhafýzý~
+Asyel Kral'ýn Muhafýzý~
+Asyel Kral'ýn Muhafýzý burada duruyor.
+~
+Astel in ikizi gibi gözüküyor. Gerektiðinde kral için canýný vermeye hazýr
+ve gerçekten güçlü bir savaþçý.
+~
+human~
+AB D 900 15201
+51 0 50d10+5000 509d1+1 5d8+20 punch
+-21 -21 -21 2
+CDEFHIKR 0 0 0
+stand stand male 10000
+0 0 medium 0
+#15222
+þef aþçý~
+Þef~
+Þef burada öteki aþçýlara emirler yaðdýrýyor.
+~
+Anlaþýlan yaptýðý yemekleri çok fazla tatmýþ. Nasýl denir , biraz þiþman.
+~
+human~
+AH 0 500 0
+45 0 25d10+3000 449d1+1 8d4+16 punch
+-15 -15 -15 4
+EH 0 0 C
+stand stand male 4000
+0 0 medium 0
+#15223
+aþçý~
+Aþçý~
+Bir aþçý burada yemek yapmakla meþgul.
+~
+Yapmakta olduðu yemek gerçekten güzel kokuyor þef onu iyi yetiþtirmiþ.
+~
+human~
+ABH 0 300 0
+41 0 25d10+2000 409d1+1 4d8+14 ounch
+-14 -14 -14 4
+EH 0 0 C
+stand stand male 3000
+0 0 medium 0
+#15224
+gestra muhafýz~
+Gestra~
+Gestra , acýmasýz bir tavýrda burada bir kapýyý koruyor.
+~
+Gerçekten büyük onu geçmenin çok zor olduðunu farkediyorsun.
+~
+human~
+AB D 250 0
+36 0 10d10+1400 359d1+1 3d10+11 punch
+-12 -12 -12 5
+CDEFIKR 0 0 0
+stand stand male 3600
+0 0 medium 0
+#15225
+beild muhafýz~
+Beild~
+Beild , acýmasýz bir tavýrda burada bir kapýyý koruyor.
+~
+Gerçekten büyük onu geçmenin çok zor olduðunu farkediyorsun.
+~
+human~
+AB D 250 0
+36 0 10d10+1400 359d1+1 3d10+11 punch
+-12 -12 -12 5
+CEFIKR 0 0 0
+stand stand male 3600
+0 0 medium 0
+#15226
+Feldir kraliyet muhafýzý~
+Kraliyet muhafýzý Feldir~
+Kraliyet muhafýzý Feldir burada duruyor.
+~
+Bütün muhafýzlar gibi Feldir de zýrhlý, duruþundan ve yürüyüþündün tecrübeli
+bir savaþçý olduðu belli oluyor.
+~
+human~
+AG 0 800 0
+43 0 25d10+2500 429d1+1 3d12+15 punch
+-15 -15 -15 4
+CDFIKR 0 0 0
+stand stand male 6700
+0 0 medium 0
+#15227
+Yelde kraliyet muhafýzý~
+Kraliyet muhafýzý Yelde~
+Kraliyet muhafýzý Yelde burada duruyor.
+~
+Bütün muhafýzlar gibi Yelde de zýrhlý, duruþundan ve yürüyüþündün tecrübeli
+bir savaþçý olduðu belli oluyor.
+~
+human~
+AG 0 800 0
+42 0 25d10+2250 419d1+1 3d12+14 punch
+-14 -14 -14 4
+CDFIKR 0 0 0
+stand stand male 6200
+0 0 medium 0
+#15228
+Garrin kraliyet muhafýzý~
+Kraliyet muhafýzý Garrin~
+Kraliyet muhafýzý Garrin burada görevinin baþýnda duruyor.
+~
+Bütün muhafýzlar gibi Gatrin de zýrhlý, duruþundan ve yürüyüþündün tecrübeli
+bir savaþçý olduðu belli. Birden çok savaþ görmüþ ve yeni bir tane arýyor!
+~
+human~
+AG 0 900 0
+44 0 25d10+2750 439d1+1 8d4+15 punch
+-15 -15 -15 4
+DEFIKR 0 0 0
+stand stand male 6400
+0 0 medium 0
+#15229
+Ardah kraliyet muhafýzý~
+Kraliyet muhafýzý Ardah~
+Kraliyet muhafýzý ardah burada görevinin baþýnda duruyor.
+~
+Bütün muhafýzlar gibi Ardah de zýrhlý, duruþundan ve yürüyüþündün tecrübeli
+bir savaþçý olduðu belli.Bu adam güçlü gözüküyor.
+~
+human~
+AG 0 900 0
+41 0 25d10+2000 409d1+1 4d8+14 punch
+-14 -14 -14 4
+DEIKR 0 0 0
+stand stand male 6100
+0 0 medium 0
+#15230
+cellat~
+Cellat~
+Cellat burada baltasý da elinde!
+~
+Büyük.Çok büyük.Hassan gibi iyi niyetli de deðil!
+~
+giant~
+ABFTc CDEFGNOVc 1000 0
+60 0 50d10+9500 599d1+1 8d6+28 punch
+-30 -30 -30 0
+CDEFGHIJKN 0 0 C
+stand stand male 8457
+0 0 large 0
+
+#0
+
+
+#OBJECTS
+#15201
+evrensel hiçlik~
+Sapowox'un Evrensel Hiçliði~
+Ne olduðunu anlayamadýðýn bir hiçlik.~
+nothingness~
+weapon BGM AN
+exotic 6 7 peck 0
+45 70 16750 G
+A
+18 2
+A
+19 5
+E
+nothingness~
+You are not sure, but you do not seem not able to figure out what it isn't,
+because it doesn't much resemble anything you haven't ever seen. You feel
+a bit of mortal confusion, but you notice a small inscription on it.
+~
+E
+text writing inscription~
+It just says: ' (void *) '.
+Not very enlightening.
+~
+#15202
+altýn kraliyet asasý~
+Altýn asa~
+Altýn kraliyet asasý yerde duruyor.~
+gold~
+furniture GK AO
+0 0 0 0 0
+50 200 27225 G
+A
+18 2
+#15203
+taç altýn~
+Altýn Taç~
+Üzeri mücevherli bir taç yerde duruyor.~
+gold~
+armor GK AE
+16 17 16 6 0
+50 400 28244 G
+A
+12 30
+A
+3 1
+#15204
+elma altýn~
+bir altýn elma~
+Yerde altýndan bir elma var.~
+gold~
+light GK A
+0 0 -1 0 0
+50 50 27720 G
+#15205
+teleskop~
+büyük bir teleskop~
+Gökyüzüne doðrultulmuþ büyük bir teleskop burada.~
+glass~
+furniture 0 0
+0 0 0 0 0
+0 0 0 G
+E
+telescope scope~
+A small sign says: Made in Siberia.
+~
+#15206
+kýlýç eðitim~
+Eðitim kýlýcý~
+Duvara dayanmýþ bir eðitim kýlýcý burada.~
+iron~
+weapon G AN
+sword 5 8 scratch 0
+35 70 9000 G
+A
+18 -2
+#15207
+büyük anahtar~
+büyük bir anahtar~
+Yerde büyük , aðýr gözüken bir anahtar var.~
+metal~
+key M AO
+0 0 0 0 0
+36 10 1000 G
+#15208
+anahtar uþak~
+uþak anahtarý~
+Baþ uþaðýn anahtarý yerde duruyor.~
+metal~
+key M AO
+0 0 0 0 0
+35 20 100 G
+#15209
+küçük anahtar~
+küçük bir anahtar~
+Küçük bir anahtar yerde duruyor.~
+metal~
+key M AO
+0 0 0 0 0
+40 200 0 G
+#15210
+kasa odun~
+Büyük, odundan yapýlmýþ bir kasa~
+Büyük, odundan yapýlmýþ bir kasa köþede duruyor.~
+wood~
+container 0 A
+400 ABCD 15209 100 60
+40 400 17389 G
+E
+chest~
+It is equipped with a small lock, that any self-respecting thief
+should be able to pick.
+~
+#15211
+büyük kahverengi iksir~
+Kahverengi büyük iksir~
+Kahverengi büyük bir iksir yerde duruyor.~
+glass~
+potion G A
+15 'cure critical' 'cure light' '' ''
+40 200 15500 G
+E
+vial large brown potion~
+It is filled with a disgusting brown liquid.~
+#15212
+sancak kraliyet~
+Kraliyet sancaðý~
+Kraliyet sancaðý burada duruyor.~
+velvet~
+furniture AG AO
+0 0 0 0 0
+40 300 25000 G
+A
+18 2
+A
+19 1
+E
+Standart kraliyet sancaðý~
+Büyük ve aðýr bir sancak bayraðýn köþesinde Kral Velmar ýn amblemi var.
+~
+E
+bayrak~
+Bayraktaki sembol Kral Velmar'ýn kalesi.
+~
+#15213
+anahtar~
+bir anahtar~
+Bir anahtar yerde duruyor.~
+metal~
+key M A
+0 0 0 0 0
+50 300 2000 G
+E
+anahtar~
+Üzerine 'd' harfi kazýnmýþ.
+~
+#15214
+zincirden örülmüþ zýrh~
+Muhafýzýn zincirden örülmüþ zýrhý~
+Zincirden örülmüþ aðýr bir zýrh yerde duruyor.~
+steel~
+armor 0 AD
+12 12 12 5 0
+37 600 6240 G
+#15215
+kýlýç büyük geniþ aðýzlý~
+Büyük geniþ aðýzlý kýlýç~
+Büyük geniþ aðýzlý bir kýlýç yerde duruyor.~
+steel~
+weapon 0 AN
+sword 5 10 pierce 0
+50 140 27216 G
+#15216
+ýstakoz~
+lezzetli görünen bir ýstakoz~
+lezzetli görünen bir ýstakoz burada yenilmeyi bekliyor.~
+food~
+food 0 A
+7 7 0 0 0
+30 50 5088 G
+#15217
+Havyar~
+biraz havyar~
+Biraz havyar burada aðzýnýn sulanmasýna sebep oluyor.~
+food~
+food 0 A
+2 2 0 0 0
+31 250 5189 G
+#15218
+döven büyük~
+büyük bir döven~
+Büyük bir döven yerde uzanýyor.~
+steel~
+weapon 0 AN
+flail 5 7 pound 0
+35 140 16216 G
+#15219
+Büyük teber koruyucu~
+Ýsmi 'Koruyucu' olan büyük bir teber~
+Ýsmi 'Koruyucu' olan büyük bir teber yerde duruyor.~
+steel~
+weapon G AN
+polearm 5 10 stab 0
+48 140 19716 G
+A
+18 2
+A
+19 2
+#15220
+zincir zýrh~
+Muhafýzýn zincir zýrhý~
+Zincirden bir zýrh yerde duruyor~
+steel~
+armor G AD
+16 16 16 7 0
+48 300 26240 G
+A
+17 -30
+#15221
+zincir zýrh~
+Zincir zýrh~
+Zincirden bir zýrh yerde duruyor~
+steel~
+armor G AD
+13 13 12 3 0
+40 400 16278 G
+A
+17 -15
+#15222
+kýlýç küçük pala~
+Kýsa pala~
+Yerde kýsa bir pala var.~
+steel~
+weapon 0 AN
+sword 5 8 pierce 0
+40 140 17276 G
+#15223
+gümüþ ve altýn akçeler~
+gümüþ ve altýn akçeler~
+Yerde gümüþ ve altýn akçeler var.~
+gold~
+money 0 A
+50000 0 0 0 0
+0 0 0 P
+E
+gümüþ~
+En az binakçe olmalý.
+~
+#15224
+silah~
+Celladýn þeytani silahý~
+Yerde þeytani bir silah duruyor.~
+steel~
+weapon 0 AN
+exotic 6 11 blast CG
+60 400 3284 G
+#15225
+sandýk demir~
+Büyük , demirden bir sandýk~
+Büyük , demirden bir sandýk köþede duruyor.~
+iron~
+container 0 0
+400 ABCD 15226 400 100
+40 400 0 G
+#15226
+büyük anahtar~
+büyük bir anahtar~
+Büyük bir anahtar yerde duruyor.~
+metal~
+key M AO
+0 0 0 0 0
+60 200 0 G
+
+#0
+
+
+#ROOMS
+#15201
+Velmar'ýn Yolu~
+Kral yolundasýn.Yol özenle yapýlmýþ ve doðu batý istikametinde ilerliyor.
+Parlayan bir tablet var
+~
+0 C 1
+D1
+Kral yolu düz birþekilde doðuya devam ediyor. Yol özenle seçilmiþ kusursuz
+taþlarla kaplý, görünen o ki yapýmýnda bir servet harcanmýþ.
+~
+~
+0 -1 15202
+D2
+Sarp dað eteklerini görüyorsun.
+~
+~
+0 -1 325
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++   Bu bölge soðuk bir pazar günü jaceks tarafýndan yazýlmýþ 2006 da +
++   Qualyn tarafýndan türkçeye çevrilmiþtir                          +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~
+S
+#15202
+Velmar'ýn Yolu~
+Kral yolundasýn.Yol özenle yapýlmýþ ve doðu batý istikametinde ilerliyor.
+Yolun yapýmýnda çalýþanlar hiçbir hata yapmamýþ.Yolun kenarýnda güzel
+heykeller duruyor.
+~
+0 0 1
+D1
+Doðuda uzakta kaleyi görüyorsun.
+~
+~
+0 -1 15203
+D3
+Kral yolu batýya devam ediyor.
+~
+~
+0 -1 15201
+S
+#15203
+Kalenin Önünde Kral Yolu~
+Kral yolunda duruyorsun. Karþýnda Kral'ýn Kalesi duruyor güç için deðil
+güzellik için yapýlmýþ gibi gözüküyor. Elbette savunmasý var, etrafý bir
+nehirle çevrilmiþ, Ve kalenin duvarlarýnda okçular için pencerelerle
+dolu.ama hiçbiri estetiði bozmuyor. Kuzeyde karþýya geçen açýlýr bir
+köprü duruyor.
+~
+0 0 1
+D0
+Açýlýr köprüyü görüyorsun.
+~
+~
+0 -1 15204
+D3
+Kral yolu batýya devam ediyor.
+~
+~
+0 -1 15202
+S
+#15204
+Açýlýr Köprüde~
+Açýlýr köprüye vardýn önünde iki kapýlý kale var.Kapýlar çok güçlü gözüküyor.
+Suda girdaplar görüyorsun. köprüden hýzlý geçsen iyi olacak.
+~
+0 C 1
+D0
+Kapý çok büyük ve güçlü gözüküyor.Ayný zamanda bir o kadar da güzel dizayn
+edilmiþ.
+~
+kapý~
+0 -1 15207
+D2
+Kral yolunu görüyorsun.
+~
+~
+0 -1 15203
+E
+girdap su~
+Çok iyi göremiyorsun fakat onlarý birþeyin yaptýðý belli.
+~
+S
+#15205
+Mutfak~
+Mutfakta duruyorsun. Burnuna mükemmel kokular geliyor. Raflar yiyecek ve
+baharatlarla dolu.Baþ aþçý diðerlerine emirler yaðdýrýyor. Kuzeye ve doðuya
+çýkýþlar var ikiside küçük koridorlar.
+~
+0 D 0
+D0
+küçük bir koridor görüyorsun.
+~
+~
+0 -1 15210
+D1
+Küçük bir koridor görüyorsun.
+~
+~
+0 -1 15206
+S
+#15206
+Küçük Koridor~
+Küçük koridorda duruyorsun, Çoðunlukla kalenin hizmetlileri için tasarlanmýþ.
+Donuk bir þekilde aydýnlatýlmýþ dar bir yer. Kordior batýya devam ediyor
+doðuda küçük bir kapý var.
+~
+0 D 0
+D1
+Kapý küçük ve ilgi çekici deðil.
+~
+kapý küçük~
+1 -1 15207
+D3
+Tabaklarýn temizleniþini duyuyorsun ve burnuna güzel bir koku geliyor.
+~
+~
+0 -1 15205
+S
+#15207
+Giriþ Holü~
+Kalenin etkileyici giriþ holündesin.Duvarlar saðlam taþlardan yapýlmýþ. Kuzey
+Büyük hole ilerliyor. Ayrýca doðuya bir çýkýþ ve batýda da bir kapý var.
+~
+0 D 0
+D0
+Kral'ýn büyük holünü görüyorsun.
+~
+~
+0 -1 15212
+D1
+Görünen o ki doðudaki bir muhafýz odasý.
+~
+~
+0 -1 15208
+D2
+Güneyde açýlýr köprüye çýkan bir geçiþ var.
+~
+geçit~
+0 -1 15204
+D3
+Kapý küçük ve ilgi çekici deðil.
+~
+küçük kapý~
+1 -1 15206
+S
+#15208
+Muhafýz odasý~
+Küçük bir oda göreve olmayan muhafýzlar için tasarlanmýþ.Batýda geldiðin giriþ
+holu var, baþka çýkýþ yok.
+~
+0 D 0
+D3
+Kalenin giriþini görüyorsun.
+~
+~
+0 -1 15207
+S
+#15209
+Kulenin Altýnda~
+Kalenin büyüleyici üç kulesinden birinin altýndasýn. Burada hiç muhafýz yok ve
+çok az kullanýldýðýný farkediyorsun. Merdivenler kuleye týrmanýyor ve ayrýca
+kuzeye bir çýkýþ var
+~
+0 CD 0
+D0
+Küçük hafif aydýnlatýlmýþ bir koridor görüyorsun.
+~
+~
+0 -1 15214
+D4
+Merdivenler eski ama bakýmý ihmal edilmemiþ kulenin tepesine ilerliyorlar.
+~
+~
+0 -1 15234
+E
+merdivenler~
+Merdivenler eski ama bakýmý ihmal edilmemiþ kulenin tepesine ilerliyorlar.
+~
+S
+#15210
+Küçük Koridor~
+Küçük koridorda duruyorsun, Çoðunlukla kalenin hizmetlileri için tasarlanmýþ.
+Donuk bir þekilde aydýnlatýlmýþ dar bir yer. Kordior kuzeye ve güneye devam
+ediyor.
+~
+0 D 0
+D0
+Küçük hafif aydýnlatýlmýþ bir koridor görüyorsun.
+~
+~
+0 -1 15215
+D2
+Tabaklarýn temizleniþini duyuyorsun ve burnuna güzel bir koku geliyor.
+~
+~
+0 -1 15205
+S
+#15211
+Büyük Hol~
+Büyük holün güney-batý köþesinde duruyorsun. Gerçekten geniþ; üstünde duran
+tavan dýþardaki bulutlar kadar yukarda olmalý. Gerçekten de usta biri
+tarafýndan boyanmýþ. Buraya birkaç yüz kiþi sýðar heralde.
+~
+0 D 0
+D0
+Kral'ýn büyük holünü görüyorsun.
+~
+~
+0 -1 15216
+D1
+Kral'ýn büyük holünü görüyorsun.
+~
+~
+0 -1 15212
+E
+tavan~
+Tavandaki iþlemeler tanrýlarý ve kahramanlarý gösteriyor.
+~
+S
+#15212
+Büyük Hol~
+Büyük holün güney-batý köþesinde duruyorsun. Gerçekten geniþ; üstünde duran
+tavan dýþardaki bulutlar kadar yukarda olmalý. Gerçekten de usta biri
+tarafýndan boyanmýþ. Buraya birkaç yüz kiþi sýðar heralde. Kuzeyde Kral
+Velmar'ýn tahtý güneyde ise kale giriþi var.
+~
+0 D 0
+D0
+Büyük holün tahtý barýndýran bölümünü görüyorsun.
+~
+~
+0 -1 15217
+D1
+Kral'ýn büyük holünü görüyorsun.
+~
+~
+0 -1 15213
+D2
+Kale giriþini görüyorsun.
+~
+~
+0 -1 15207
+D3
+Kral'ýn büyük holünü görüyorsun.
+~
+~
+0 -1 15211
+E
+tavan~
+Tavandaki iþlemeler tanrýlarý ve kahramanlarý gösteriyor.
+~
+S
+#15213
+Büyük Hol~
+Büyük holün güney-batý köþesinde duruyorsun. Gerçekten geniþ; üstünde duran
+tavan dýþardaki bulutlar kadar yukarda olmalý. Gerçekten de usta biri
+tarafýndan boyanmýþ. Buraya birkaç yüz kiþi sýðar heralde.
+~
+0 D 0
+D0
+Kral'ýn büyük holünü görüyorsun.
+~
+~
+0 -1 15218
+D3
+Kral'ýn büyük holünü görüyorsun.
+~
+~
+0 -1 15212
+E
+tavan~
+Tavandaki iþlemeler tanrýlarý ve kahramanlarý gösteriyor.
+~
+S
+#15214
+Koridor~
+Güneye ve kuzeye ilerleyen bir koridorda duruyorsun.Güney çýkýþý
+kalenin kulelerinden birine doðru gidiyor.
+~
+0 D 0
+D0
+Küçük koridorun devam ettiðini görüyorsun.
+~
+~
+0 -1 15219
+D2
+~
+~
+0 -1 15209
+S
+#15215
+Koridor~
+Güneye ve kuzeye ilerleyen bir koridorda duruyorsun.Doðuda büyük hole bir
+çýkýþ var.
+~
+0 D 0
+D0
+Koridorun devam ettiðini görüyorsun.
+~
+~
+0 -1 15220
+D1
+Kral'ýn büyük holünü görüyorsun.
+~
+~
+0 -1 15216
+D2
+Koridorun devam ettiðini görüyorsun.
+~
+~
+0 -1 15210
+S
+#15216
+Büyük Hol~
+Büyük holün güney-batý köþesinde duruyorsun. Gerçekten geniþ; üstünde duran
+tavan dýþardaki bulutlar kadar yukarda olmalý. Gerçekten de usta biri
+tarafýndan boyanmýþ. Buraya birkaç yüz kiþi sýðar heralde. Doðuda Kral
+Velmar'ýn tahtý var batýda ise bir koridor görünüyor.
+~
+0 D 0
+D1
+Büyük holün tahtý barýndýran bölümünü görüyorsun.
+~
+~
+0 -1 15217
+D2
+Kral'ýn büyük holünü görüyorsun.
+~
+~
+0 -1 15211
+D3
+Bir koridor görüyorsun.
+~
+~
+0 -1 15215
+E
+tavan~
+Tavandaki iþlemeler tanrýlarý ve kahramanlarý gösteriyor.
+~
+S
+#15217
+Büyük Holdeki Taht Odasý~
+Kral'ýn fildiþi tahtýnýn önünde duruyorsun. Taht odadan daha iyi bir
+ustalýkla yapýlmýþ.Anlaþýlan blok bir parçadan oyulmuþ.Acaba fildiþini
+aldýklarý hayvan ne kadar büyüktür.Üstünde çok güzel iþlemeler var.
+Hol batý , ve güneye devam ediyor.
+~
+0 D 0
+D1
+Kral'ýn büyük holünü görüyorsun.
+~
+~
+0 -1 15218
+D2
+Kral'ýn büyük holünü görüyorsun.
+~
+~
+0 -1 15212
+D3
+Kral'ýn büyük holünü görüyorsun.
+~
+~
+0 -1 15216
+E
+tavan~
+Tavandaki iþlemeler tanrýlarý ve kahramanlarý gösteriyor.
+~
+E
+taht fildiþi~
+Büyük ve gerçekten güzel.Üzerinde hayvanlarýn ve büyülü yaratýklarýn
+iþlemeleri var.
+~
+S
+#15218
+Büyük Hol~
+Büyük holün güney-batý köþesinde duruyorsun. Gerçekten geniþ; tavan üstünde
+duruyor dýþardaki bulutlar kadar yukarda olmalý. Gerçekten de usta biri
+tarafýndan boyanmýþ. Buraya birkaç yüz kiþi sýðar heralde. Batýda Kral
+Velmar'ýn tahtý doðuda ise küçük bir koridor var.
+~
+0 D 0
+D1
+Bir koridor görüyorsun.
+~
+~
+0 -1 15219
+D2
+Kral'ýn büyük holünü görüyorsun.
+~
+~
+0 -1 15213
+D3
+Tahtýn olduðu büyük holü görüyorsun.
+~
+~
+0 -1 15217
+E
+tavan~
+Tavandaki iþlemeler tanrýlarý ve kahramanlarý gösteriyor.
+~
+S
+#15219
+Küçük Koridor~
+Kuzeye ve güneye devam eden küçük bir koridorda duruyorsun. Batýda büyük hole
+bir çýkýþ var.
+~
+0 D 0
+D0
+Koridor kuzeye devam ediyor.
+~
+~
+0 -1 15224
+D2
+Koridor güneye devam ediyor.
+~
+~
+0 -1 15214
+D3
+Batýda büyük holü görüyorsun.
+~
+~
+0 -1 15218
+S
+#15220
+Koridor~
+Kuzeye ve güneye devam eden bir koridorda duruyorsun. Doðuda bir kapý var.
+~
+0 D 0
+D0
+Koridor merdiven baþlangýcýna devam ediyor.
+~
+~
+0 -1 15225
+D1
+Kapý küçükve göze çarpmýyor.
+~
+kapý~
+1 -1 15221
+D2
+Koridor güneye devam ediyor.
+~
+~
+0 -1 15215
+S
+#15221
+Hizmetli Koridoru~
+Doðuya doðru uzanan bir koridorda duruyorsun.Kuzeyde ve batýda kapýlar var.
+Koridor tamamen hizmetliler tarafýndan kullanýlýyor. Ama kalenin geri kalaný
+kadar güzel gözüküyor.
+~
+0 D 0
+D0
+Orada bir kapý var.
+~
+kapý~
+1 -1 15226
+D1
+koridor doðuya devam ediyor.
+~
+~
+0 -1 15222
+D3
+Kapý tahtadan yapýlmýþ.
+~
+tahta kapý~
+1 -1 15220
+S
+#15222
+Hizmetli Koridorunun Sonu~
+Koridor burada sadece batýya devam ediyor ayrýca kuzeyde bir kapý var.
+~
+0 D 0
+D0
+Kapý uþaða ayrýlmýþbir odaya çýkýyor.
+~
+kapý~
+1 15208 15227
+D3
+Devam eden koridoru görüyorsun.
+~
+~
+0 -1 15221
+S
+#15223
+Eðitim odasý~
+Burasý kale muhafýzlarýnýn eðitim odasý. Çok geniþ, duvarlardaki raflar
+silahlarla dolu. Çoðu silah sadece eðitim için ayrýlmýþ, Çoðu uzun
+zamandýr bilenmemiþ ama aralarýnda savaþta kullanýlabilecek olanlarda
+var elbette.Kuzeyde bir kapý var.
+~
+0 D 0
+D0
+Kapý büyük ve aðýr.
+~
+kapý büyük aðýr~
+1 -1 15228
+D1
+Küçük bir koridor görüyorsun.
+~
+~
+0 -1 15224
+S
+#15224
+Küçük Koridor~
+Güneye ve kuzeye devam eden küçük bir koridorda duruyorsun. Ayrýca batýya
+bir çýkýþ var oradan baðýrýþlar ve kýlýç sesleri geliyor.
+~
+0 D 0
+D0
+Koridor kuzeye merdivenlere devam ediyor.
+~
+~
+0 -1 15229
+D2
+Devam eden koridoru görüyorsun.
+~
+~
+0 -1 15219
+D3
+Eðitim odasýný görüyorsun.
+~
+~
+0 -1 15223
+S
+#15225
+Merdiven Odasý~
+Kalenin ikinci katýna çýkan geniþ ve güzel bir merdivende duruyorsun.
+Merdivenler mermerden yapýlmýþ etraftaki sütunlar da aðaçlara benzetilmiþ.
+Etrafý iþlemeli.
+~
+0 D 0
+D2
+Koridoru görüyorsun.
+~
+~
+0 -1 15220
+D4
+Merdivenler ikinci kata çýkýyor.
+~
+~
+0 -1 15249
+E
+merdiven~
+Mermerden yapýlmýþlar kalenin geri kalaný gibi iþçilik çok güzel.
+~
+E
+sütun aðaç~
+Çok güzel etrafýnda kuþ ve dal iþlemeleri var.
+~
+S
+#15226
+Hizmetli Bölümü~
+Çoðu hizmetliye ev görevi gören büyük bir odadasýn. Oda rahat görünen
+yataklarla dolu. Ayrýca hizmetlilerin eþyalarýnýn olduðu bir sandýk var.
+~
+0 D 0
+D2
+Kapý tahtadan yapýlmýþ.
+~
+tahta kapý~
+1 -1 15221
+E
+yatak~
+Bütün yataklar rahat gözüküyor buranýn sadece hizmetli odasý olmasýna raðmen.
+~
+S
+#15227
+Uþak Bölümü~
+Burasý baþuþaðýn odasý olmalý, Odada büyük bir yatak var çok rahat gözüküyor.
+Burasý neredeyse lüks denecek seviyede.Uþak baya þanslý.Sadece güneye bir
+çýkýþ var.
+~
+0 D 0
+D2
+Koridoru görüyorsun.
+~
+kapý~
+1 15208 15222
+E
+yatak~
+çok rahat gözüküyor.
+~
+S
+#15228
+Muhafýz Kýþlasý~
+Her tarafý ranza olan bir odadasýn. Ayrýca masalar ve sandalyelerde var.
+Görev baþýnda olmayan muhafýzlar burada uyuyor, dinleniyor, içki içiyor,
+boþ zamanlarýný geçiriyorlar.
+~
+0 D 0
+D2
+Kapý büyük ve aðýr.
+~
+kapý~
+1 -1 15223
+E
+ranza~
+Biraz sert gözüküyorlar ama uyumak için yeterli.
+~
+S
+#15229
+Merdivenler~
+Aþaðýya ilerleyen merdivenlerde duruyorsun. Aþaðýya baktýðýnda kaleye ilk
+girdiðin zamanki gibi etkileyici ve güzel gözükmüyor... Daha çok bir
+hapishaneyi andýrýyor.
+~
+0 D 0
+D2
+küçük bir koridor görüyorsun.
+~
+~
+0 -1 15224
+D5
+Merdivenler loþ odaya iniyor.
+~
+~
+0 -1 -1
+E
+merdiven~
+Granitten yapýlmýþlar ve hafif aydýnlatýlmýþ bir yere iniyorlar.
+~
+S
+#15230
+Koridordaki Kývrým~
+Koridorda kuzeye ve doðuya çýkýþý olan bir kývrýmdasýn.
+~
+0 D 0
+D0
+Devam eden koridoru görüyorsun.
+~
+~
+0 -1 15235
+D1
+Devam eden koridoru görüyorsun.
+~
+~
+0 -1 15231
+S
+#15231
+Koridor~
+Eski zamanlarý andýran kahraman heykelleri ve resimlerle dekore edilmiþ uzun
+bir koridordasýn. Doðuya ve batýya devam ediyor.
+~
+0 D 0
+D1
+Devam eden koridoru görüyorsun.
+~
+~
+0 -1 15232
+D3
+Devam eden koridoru görüyorsun.
+~
+~
+0 -1 15230
+S
+#15232
+Koridor~
+Eski zamanlarý andýran kahraman heykelleri ve resimlerle dekore edilmiþ uzun
+bir koridordasýn. Doðuya ve batýya devam ediyor.
+~
+0 D 0
+D1
+Devam eden koridoru görüyorsun.
+~
+~
+0 -1 15233
+D3
+Devam eden koridoru görüyorsun.
+~
+~
+0 -1 15231
+S
+#15233
+Koridor~
+Eski zamanlarý andýran kahraman heykelleri ve resimlerle dekore edilmiþ uzun
+bir koridordasýn. Batýya devam ediyor ayrýca kuzeyde lüks misafir kanadýný
+görüyorsun.
+~
+0 D 0
+D0
+Misafir kanadýný görüyorsun.
+~
+~
+0 -1 15238
+D3
+Devam eden koridoru görüyorsun.
+~
+~
+0 -1 15232
+S
+#15234
+Güney-doðu Kulesi.~
+Kalenin üç kulesinden birindesin.Kalenin bu kýsmý pek güzel döþenmemiþ fakat
+çok büyük bir alaný gözetliyor...
+~
+0 D 0
+D4
+Kulenin tepesindeki oda nedense karanlýk görünüyor.
+~
+~
+0 -1 15252
+D5
+Kulenin altýna inen merdivenleri görüyorsun.
+~
+~
+0 -1 15209
+S
+#15235
+Koridor~
+Eski zamanlarý andýran kahraman heykelleri ve resimlerle dekore edilmiþ uzun
+bir koridordasýn. Güneye ve kuzeye devam ediyor.Ayrýca doðuya bir çýkýþ var.
+~
+0 D 0
+D0
+Devam eden koridoru görüyorsun.
+~
+~
+0 -1 15240
+D1
+Küçük bir oda görüyorsun.
+~
+~
+0 -1 15236
+D2
+Devam eden koridoru görüyorsun.
+~
+~
+0 -1 15230
+S
+#15236
+Hazine Odasýndan Önce~
+Önünde büyük demirden bir kapý var. Kapý büyük ve saðlam görünüyor.
+Üstünde bir iþaret var.
+~
+0 D 0
+D1
+Çelik bir kapý.
+~
+çelik kapý~
+2 15207 15237
+D3
+You see the corridor.
+~
+~
+0 -1 15235
+E
+iþaret~
+Hazine odasýna yabancýlar giremez , izinsiz giriþler CEZALANDIRILACAKTIR!!!
+~
+S
+#15237
+Görkemli Hazine~
+Odaya girdiðin gibi, aðzýn açýk kalýyor.Asalar tablolar altýnlar gümüþler
+mücevherler herþey var. Fakat hepsi satmak için çok tanýdýk ve bir hýrsýz
+olarak yakalanýp kralýn muhafýzlarýnýn elinde ölmek pek iç açýcý bir durum
+olmaz.
+~
+0 DN 0
+D3
+Büyük çelik bir kapý görüyorsun.
+~
+çelik kapý~
+2 15207 15236
+E
+tablo asa mücevher~
+Bir ömür deðil bin ömür geçirmeye yeter bunlarýn deðeri.
+~
+S
+#15238
+Misafir Kanadý~
+Kaleye gelen önemli misafirlerin konuk edildiði yerdesin.Doðuda gösteriþli
+kuzeyde ise diðerine nazaran sade bir kapý var.
+~
+0 D 0
+D0
+Kapý misafir odasýna çýkýyormuþ gibi görünüyor.
+~
+küçük kapý~
+1 -1 15243
+D1
+Kapýnýn ardýnda misafir odasýný görüyorsun.
+~
+kapý~
+1 -1 15239
+D2
+Koridoru görüyorsun.
+~
+~
+0 -1 15233
+S
+#15239
+Misafir Odasý~
+Burada çok önemli kiþiler misafir ediliyor olmalý çünkü hayal gücünün
+sýnýrlarýný zorlayacak kadar lüks. Burasý sadece oturma odasý ama çok
+geniþ ve güzel dekore edilmiþ. Eþyalar sadece güzel deðil ayný zamanda
+rahat. Kuzeyde yatak odasýna bir çýkýþ var, batýda bir kapý görünüyor.
+~
+0 D 0
+D0
+Yatak odasýný görüyorsun.
+~
+~
+0 -1 15244
+D3
+Kapýnýn ardýnda misafir kanadýnýn giriþini görüyorsun
+~
+kapý~
+1 -1 15238
+S
+#15240
+Koridor~
+Eski zamanlarý andýran kahraman heykelleri ve resimlerle dekore edilmiþ
+uzun bir koridordasýn. Güneye ve kuzeye devam ediyor.
+~
+0 D 0
+D0
+Devam eden koridoru görüyorsun.
+~
+~
+0 -1 15245
+D2
+Devam eden koridoru görüyorsun.
+~
+~
+0 -1 15235
+S
+#15241
+Balo Salonu~
+Muhteþem balo odasýnda duruyorsun. Gerçekten geniþ ve güney-doðu köþesinde
+orkestra için bir sahne var.
+~
+0 D 0
+D0
+Balo salonunu görüyorsun.
+~
+~
+0 -1 15246
+D1
+Doðuda sahneyi görüyorsun.
+~
+~
+0 -1 15242
+S
+#15242
+Sahnede~
+Önünde sahne duruyor.40 müzisyen ayný anda burada çalabilir.
+Balo salonu kuzeye ve batýya devam ediyor.
+~
+0 D 0
+D0
+Balo salonunu görüyorsun.
+~
+~
+0 -1 15247
+D3
+Balo salonunu görüyorsun.
+~
+~
+0 -1 15241
+E
+sahne~
+Keþke müzisyen olsaydým.
+~
+S
+#15243
+Misafir Odasý~
+Büyük bir odada duruyorsun.Yeteri kadar rahat olmasýna raðmen çok önemli
+konuklar burada kalmayý bir hakaret sayabilir, ama yine de kaleye yakýþan
+bir yer.
+~
+0 D 0
+D2
+Kapýnýn ardýnda misafir kanadýnýn giriþi duruyor.
+~
+kapý~
+1 -1 15238
+S
+#15244
+Yatak Odasý~
+Odada dört yatak var ve canýn üzerlerine atlamak istiyor hepsi çok rahat
+üzerindeki çarþaflarýn hepsi çok kaliteli.
+~
+0 D 0
+D2
+Suitin oturma odasýný görüyorsun.
+~
+~
+0 -1 15239
+E
+yatak~
+büyük rahat inanýlmaz!uykuya davetiye çýkarýyor.
+~
+S
+#15245
+Koridor~
+Eski zamanlarý andýran kahraman heykelleri ve resimlerle dekore edilmiþ
+uzun bir koridordasýn. Güneye ve kuzeye devam ediyor.Doðuda geniþ bir
+odaya geçiþ var.
+~
+0 D 0
+D0
+Devam eden koridoru görüyorsun.
+~
+~
+0 -1 15249
+D1
+Balo salonunu görüyorsun.
+~
+~
+0 -1 15246
+D2
+Devam eden koridoru görüyorsun.
+~
+~
+0 -1 15240
+S
+#15246
+Balo Salonu~
+Muhteþem balo odasýnda duruyorsun. Gerçekten geniþ ve güney-doðu köþesinde
+orkestra için bir sahne var.
+~
+0 D 0
+D1
+Balo salonunu görüyorsun.
+~
+~
+0 -1 15247
+D2
+Balo salonunu görüyorsun.
+~
+~
+0 -1 15241
+D3
+Koridoru görüyorsun.
+~
+~
+0 -1 15245
+S
+#15247
+Balo Salonu~
+Muhteþem balo odasýnda duruyorsun. Gerçekten geniþ ve güney-doðu köþesinde
+orkestra için bir sahne var.
+~
+0 D 0
+D1
+Doðuda kuleyi görüyorsun.
+~
+~
+0 -1 15248
+D2
+Güneyde sahneyi görüyorsun.
+~
+~
+0 -1 15242
+D3
+Balo salonunu görüyorsun.
+~
+~
+0 -1 15246
+S
+#15248
+Kulenin Ýçinde~
+Kulenin üç muhteþem kulesinin kuzey-doðuda olanýnda duruyorsun. Batýda
+balo salonuna giriþ ve kulenin tepesine çýkan merdivenler yukarýya doðru
+ilerliyor.
+~
+0 D 0
+D3
+Balo salonunu görüyorsun.
+~
+~
+0 -1 15247
+D4
+Merdivenler kulenin tepesine ilerliyor.
+~
+~
+0 -1 15254
+E
+merdivenler~
+Merdivenler granitten yapýlmýþ ve çok saðlam gözüküyorlar.
+~
+S
+#15249
+Büyük Merdiven~
+Aþaðýya ve yukarýya devam eden muhteþem merdivenlerde duruyorsun.Doðuda
+meþeden yapýlma bir kapý, Güneyde de bir koridor var.
+~
+0 D 0
+D1
+kapý büyük ve meþeden yapýlmýþ.
+~
+meþe kapý~
+1 15213 15250
+D2
+Koridoru görüyorsun.
+~
+~
+0 -1 15245
+D4
+Merdivenler kulenin tepesine çýkýyor.
+~
+~
+0 -1 15253
+D5
+Merdivenler kalenin ilk katýna iniyor.
+~
+~
+0 -1 15225
+E
+merdiven~
+Çok güzel etrafýnda kuþ ve dal iþlemeleri var.
+~
+S
+#15250
+Rahat Oda~
+Geniþ hoþbir oturma odasýndasýn.Ýçerisi sýcacýk þöminede ateþ yanýyor ve
+bir masanýn etrafýnda rahat sandalyeler var.Batýda bir kapý ve doðuda da
+bir çýkýþ var.
+~
+0 D 0
+D1
+Geniþ bir yatak odasý görüyorsun.
+~
+~
+0 -1 15251
+D3
+Kapý büyük ve meþeden yapýlmýþ.
+~
+meþe kapý~
+1 15213 15249
+E
+þömine~
+þöminedeki ateþ uzun süre yanacaða benziyor.
+~
+E
+masa~
+Çok hoþ , meþeden yapýlmýþ bir masa
+~
+E
+sandalyeler~
+hepsi þömineye yakýn ve rahat görünüyor.
+~
+S
+#15251
+Kral'ýn Yatak Odasý~
+Bu muhteþem bir manzarasý olan büyük bir yatak odasý. Odanýn bir yanýnda
+çok güzel bir yatak duruyor. Odanýn her yerinde kitaplarla dolu raflar
+var.Kitaplar arasýnda 'Selenge ve diðer korunan bölgelerin tarihi' ve
+'Büyü - Baþlangýç için bilgiler' gibi kitaplar var.Batýda bir çýkýþ var.
+~
+0 D 0
+D3
+Batý büyük ve hoþ bir oda var.
+~
+~
+0 -1 15250
+E
+raf kitaplýk kitap~
+Kral gerçekten çok akýllý ve bilge biri olmalý kitaplar her çeþitten
+bilgiyi barýndýrýyor.
+~
+E
+yatak~
+Uyumak için yeterince rahat, yo asla cesaret edemezsin o kralýn yataðý!
+~
+E
+selenge tarihi~
+tamamen sýkýcý bilgilerle dolu.
+~
+E
+büyü~
+baþlangýç? bu kitapta bildiðin herþey var!.
+Demekki büyücülüðün seviyeleri de var.
+~
+S
+#15252
+Kulenin Tepesi~
+Uzun bir týrmanýþtan sonra nihayet kulenin tepesine vardýn.Oda küçük
+ve sadece küçük bir kandilden ýþýk geliyor odanýn ortasýnda küçük bir
+masa var tek çýkýþ geldiðn merdivenler.
+~
+0 D 0
+D5
+merdivenler aþaðýya iniyor.
+~
+~
+0 -1 15234
+E
+Masa~
+Masa garip görünüþlü eþyalarla dolu.
+~
+E
+kandil~
+normal bir kandil küçük ve ilgi çekici deðil.
+~
+S
+#15253
+Kulenin tepesi~
+Kulenin tepesine nihayet vardýn.Ýlginç bir yer deðil ve sadece koruma için
+yapýlmýþ. Pencereler okçular için gerçekten ideal.Tek çýkýþ geldiðin yer
+olan merdivenler.
+~
+0 D 0
+D5
+merdivenler ikinci kata iniyor.
+~
+~
+0 -1 15249
+E
+pencere~
+Pencereler büyük bir alaný gösteriyor.
+~
+S
+#15254
+Kulenin tepesi~
+Bu kulelerden en yükseði ve gözetleme için kullanýlýyor.Dört tarafta açýk
+bir þekilde gözüküyor. Kuzeyde ve doðuda daðlar var batýda uzakta güzel
+bir göl görünüyor ve güneyde de selenge var.tek çýkýþ geldiðin merdivenler.
+~
+0 D 0
+D0
+To the north, the tall White Mountains have their highest peaks.
+The mountaintops disappear in the white clouds, far above the
+plains. The sight of those high, far mountains fills you with a
+desire to scale them, to see the world from that vantage.
+~
+~
+0 -1 -1
+D1
+In the east you see an arm of the dominating mountain range on this
+continent, the White Mountains. Though not as high as those in the
+north, the sight of those mountains fills you with awe.
+~
+~
+0 -1 -1
+D2
+To the south, rolling hills stretch away, as far as you can see.
+~
+~
+0 -1 -1
+D3
+As you look west, you see a river flowing through all of Midgaard
+and continuing beyond it towards a great lake. Still further
+away, you can glimpse something silvery that has to be the Sea.
+~
+~
+0 -1 -1
+D5
+merdivenler ikinci kata iniyor.
+~
+~
+0 -1 15248
+S
+#0
+
+
+#RESETS
+*
+M 1 15201 1 15217 1  *                    King Welmar
+E 1 15201 -1 16
+E 1 15202 -1 17
+E 1 15203 -1 6
+E 1 15204 -1 0
+G 1 15213 1
+*
+M 1 15203 1 15242 1 Loads of guards..
+E 1 15218 -1 16
+E 1 15214 -1 5
+*
+M 1 15204 1 15223 1 Two in the Training Room.
+E 1 15206 -1 16  .. both wielding training swords.
+E 1 15214 -1 5
+M 1 15205 1 15223 1
+E 1 15206 -1 16
+E 1 15214 -1 5
+*
+M 1 15206 1 15235 1
+E 1 15218 -1 16
+E 1 15214 -1 5
+*
+M 1 15207 1 15228 1
+E 1 15218 -1 16
+E 1 15214 -1 5
+*
+M 1 15208 1 15223 1
+E 1 15222 -1 16
+E 1 15221 -1 5
+*
+M 1 15209 1 15208 1
+E 1 15222 -1 16
+E 1 15221 -1 5
+*
+M 1 15210 1 15232 1
+E 1 15218 -1 16
+E 1 15214 -1 5
+*
+M 1 15220 1 15217 1
+E 1 15219 -1 16
+E 1 15220 -1 5
+*
+M 1 15221 1 15217 1
+E 1 15219 -1 16
+E 1 15220 -1 5
+*
+M 1 15211 1 15219 1
+E 1 15222 -1 16
+E 1 15214 -1 5
+*
+M 1 15228 1 15247 1 *  The next four are recent!
+E 1 15222 -1 16
+E 1 15221 -1 5
+*
+M 1 15229 1 15209 1
+E 1 15222 -1 16
+E 1 15221 -1 5
+*
+M 1 15226 1 15208 1 *   Two guards in the Guard Room.
+E 1 15222 -1 16
+E 1 15221 -1 5
+*
+M 1 15227 1 15208 1 *  (These guys are sitting)
+E 1 15222 -1 16
+E 1 15221 -1 5
+*
+M 1 15212 1 15223 1 *  Peter
+E 1 15220 -1 5   *  Also swapped these two lines so he will wear something.
+E 1 15215 -1 16  *  Changed max(broadsword) to 10.
+*
+M 1 15213 1 15223 1 *   The Training Master
+E 1 15219 -1 16
+*
+M 1 15214 1 15217 1 *  The Herald
+*
+M 1 15216 1 15227 1 *  The Butler
+G 1 15208 1         * .. with his key
+*
+M 1 15217 5 15210 1 *  Some Cleaning Women
+M 1 15217 5 15210 1
+M 1 15217 5 15241 1
+M 1 15217 5 15241 1
+M 1 15217 5 15238 1
+*
+M 1 15219 1 15252 1 *  The Astrologer
+G 1 15211 10        * .. with a brown potion
+* G 1 3042 100        .. a recall scroll
+* G 1 3040 100        .. and an identify scroll
+*
+M 1 15222 1 15205 1 *  The Chef and some cooks
+G 1 15216 50        *.. Lobster
+G 1 15217 50        *.. Some Russian Caviar
+M 1 15223 2 15205 1
+G 1 15209 1         *.. the Cook has the key to the chest.
+M 1 15223 2 15205 1
+*
+M 1 15224 1 15236 1 *  Dick & David + EQ
+E 1 15218 -1 16
+E 1 15214 -1 5
+G 1 15207 1         *  And David has the key.
+M 1 15225 1 15236 1 *
+E 1 15218 -1 16
+E 1 15214 -1 5
+*
+O 1 15225 1 15237 1 * iron chest
+P 1 15223 1 15225 1 * A huge treasure in iron chest.
+*
+* O 1 3021 1 15223 1  * Some weapons in training room.
+* O 1 3021 1 15223 1
+* O 1 3023 1 15223
+* O 1 3020 1 15223
+O 1 15210 1 15226 1 *  And the chest in the servants' quarters.
+O 1 15205 1 15252 1 *  The telescope by the Astrologer.
+*
+M 1 15230 1 15237 1 * executioner
+E 1 15224 1 16      * evil weapon 10d11
+E 1 15226 1 17      * great key
+M 1 15202 1 15254 1 * ghost
+*
+D 1 15206 1 1       *   Closing doors
+D 1 15207 3 1
+D 1 15220 1 1
+D 1 15221 3 1
+D 1 15221 0 1
+D 1 15226 2 1
+D 1 15222 0 2
+D 1 15227 2 2       * (Tog bort d|rr mellan 23/24)
+D 1 15223 0 1       * (Och la till en mellan 23/28)
+D 1 15228 2 1
+D 1 15236 1 2
+D 1 15237 3 2
+D 1 15238 0 1
+D 1 15243 2 1
+D 1 15238 1 1
+D 1 15239 3 1
+D 1 15249 1 2
+D 1 15250 3 2
+S
+
+#SPECIALS
+M 15219 spec_cast_mage           * astrologer
+S
+
+#$

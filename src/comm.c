@@ -2579,11 +2579,28 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
     case CON_READ_MOTD:
 	write_to_buffer( d,
-    "\n\rWelcome to Multi User Dungeon of Anatolia. Enjoy!!...\n\r",
+    "\n\rUzak Diyarlar'a hoþgeldin. Ölümün tadýný çýkar!!...\n\r",
 	    0 );
 	ch->next	= char_list;
 	char_list	= ch;
 	d->connected	= CON_PLAYING;
+
+	/*
+	 *
+	 * Oyuncu IP'sini logla
+	 *
+	 *
+	 */
+
+	FILE *ip_log2;
+	char dizin[100];
+
+	sprintf(dizin,"%s%s",IP_DIR,ch->name);
+	ip_log2=fopen(dizin,"a");
+	fprintf(ip_log2,"%s %s\n",(char *) ctime( &current_time ),d->host);
+	fclose(ip_log2);
+
+	/* IP loglama bitti */
 
 	{
 	int count;
