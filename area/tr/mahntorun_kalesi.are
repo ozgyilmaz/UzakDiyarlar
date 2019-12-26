@@ -1,0 +1,3813 @@
+#AREA
+mahntorun_kalesi.are~
+Mahn-Tor'un Kalesi~
+{ 5 35} Chris   Mahn-Tor'un Kalesi~
+2300 2399
+#MOBILES
+#2300
+Kara Þövalye~
+Kara Þövalye~
+Kara þövalye etrafý kolaçan ediyor.
+~
+Kara þövalyenin üzerinde siyah bir zýrh gözüne çarpmakta, muhtemelen
+buradaki katliamýn sorumlularýndan biri olmalý. Ruhu bu diyarlarda
+hapsolmuþ, serbest býrakýlmayý bekliyor.
+~
+human~
+AB DH -1000 0
+25 0 5d10+550 12d9+100 2d10+7 none
+-7 -7 -7 6
+EFNU 0 0 0
+stand stand male 1250
+0 0 medium 0
+#2301
+Yaþlý Aðaç~
+Yaþlý Aðaç~
+Yýllardan beri burada bulunan yaþlý aðaç, karþýnda tüm heybetiyle duruyor.
+~
+Yaþlý aðacýn duruþu yýllardan beridir rüzgarýn onu parçalayýp,
+hýrpaladýðýný gösteriyor, yalnýzca bir kaç yapraðý geride
+kalmýþ. Gövdesi bükülmüþ, ve yýpranmýþ olan bu yaþlý aðaç,
+sanki rüzgarýn onu ileri ve geriye doðru itmesiyle beraber
+inliyor gibi.
+~
+human~
+AB 0 250 0
+20 0 3d9+333 10d9+100 2d8+5 none
+-4 -4 -4 7
+EFNU 0 0 0
+stand stand none 250
+0 0 medium 0
+#2302
+maðara canavarý~
+maðara canavarý~
+Maðara canavarý yerdeki cesedi yiyor.
+~
+Karþýndaki maðara canavarý sanki birden fazla cesedin birleþmesi
+ile olmuþmuþ; bir kuþun gagasý, kocaman gözler, kýllý vücut,
+uzun pençelere sahip eller ve ayaklar. Seni görünce hýrlamaya baþlýyor.
+~
+human~
+ABF CEP 0 0
+15 0 3d9+208 7d9+100 2d6+3 none
+-2 -2 -2 7
+EFNU 0 0 0
+stand stand none 125
+0 0 medium 0
+#2303
+Kara kurbaða~
+Kara kurbaða~
+Bir kara kurbaðasý burada oturup, ötmekte.
+~
+Karþýnda bir inek büyüklüðünde gri kara kurbaðasý durmakta.
+~
+human~
+AB 0 -250 0
+14 0 2d10+190 7d9+100 1d12+3 none
+-1 -1 -1 8
+EFNU 0 0 0
+sit sit none 127
+0 0 medium 0
+#2304
+Aðlayan söðüt aðacý~
+Aðlayan söðüt aðacý~
+Geniþ bir söðüt aðacý burada aðlýyor.
+~
+Aðlayan söðüt aðacýnýn bir sürü dallarý bulunmakta. Söðüt aðacýndan
+gelen kesik aðlama seslerini duyabiliyorsun.
+~
+human~
+AB DH 1000 0
+25 0 5d10+550 12d9+100 2d10+7 none
+-7 -7 -7 6
+EFNU 0 0 0
+stand stand female 1000
+0 0 medium 0
+#2305
+sis canavarý~
+Sis Canavarý~
+Etrafýndaki sislerden oluþan bir canavar karþýnda duruyor.
+~
+Sislerden oluþmuþ, þeytani yaratýk karþýnda duruyor.
+~
+human~
+ABF Q 0 0
+15 0 3d9+208 7d9+100 2d6+3 none
+-2 -2 -2 7
+EFNU 0 0 0
+stand stand none 50
+0 0 medium 0
+#2306
+Bataklýk Hayaleti~
+Bataklýk Hayaleti~
+Sislerin içinde duran bataklýk hayaleti
+~
+Bataklýk hayaleti sisten oluþmuþ, ve güçlü bir savaþçý görünümünde bir canavar.
+Sana yaklaþtýkça içini bir soðukluk kaplýyor.
+~
+human~
+ABCF 0 -1000 0
+20 0 3d9+333 10d9+100 2d8+5 none
+-4 -4 -4 7
+EFNU 0 0 0
+stand stand male 1250
+0 0 medium 0
+#2307
+Köylü Ogre~
+Köylü Ogre~
+Köylü ogre günlük iþleriyle uðraþýyor.
+~
+Karþýnda acýnasý bir þekilde, haddinden fazla çalýþtýrýlmýþ bir ogre
+görüyorsun. Üzerine eski püskü bezlerden oluþan bir kýyafet giymekte.
+Kafasý yere doðru eðilmiþ bu canavar seni farkedip, korkuyla sana doðru
+bakmaya baþlýyor.
+~
+human~
+AGH 0 -200 0
+10 0 2d7+121 5d9+100 2d4+2 none
+1 1 1 8
+EFNU 0 0 0
+stand stand none 10
+0 0 medium 0
+#2308
+Savaþçý Ogre~
+Savaþçý Ogre~
+Etrafýna keskin bakýþlar atan savaþçý ogre burada duruyor.
+~
+Oldukça zihnde ve dinç ogre, metalik gri bir zýrh giymekte.
+~
+human~
+ACFGH 0 -350 0
+15 0 3d9+208 7d9+100 2d6+3 none
+-2 -2 -2 7
+EFNU 0 0 0
+stand stand male 250
+0 0 medium 0
+#2309
+Muhafýz Ogre~
+Muhafýz Ogre~
+Muhafýz ogre burada görev yerinde nöbet tutuyor.
+~
+Nöbet yerinden bir saniye bile ayrýlmayan bu muhafýz ogre, etrafýný
+dikkatlice izliyor. Nedense muhafýzýn canýný kurtarmak için savaþtan
+kaçmak yerine, ölümüne savaþacaðý fikrine kapýlýyorsun.
+~
+human~
+ABCFG 0 -500 0
+19 0 3d9+308 9d9+100 2d7+5 none
+-4 -4 -4 7
+EFNU 0 0 0
+stand stand male 500
+0 0 medium 0
+#2310
+ogre þaman~
+Ogre Þaman~
+Ogre þaman burada mistik sözleri fýsýldýyarak, kollarýný etrafa doðru sallýyor.
+~
+Ogre þamanýn üstünde ince bir kürk, ve post bulunmakta. Vücudunun her
+tarafýnda her çeþit kutsal semboller ve muska bulunmakta. Sana bakýp,
+hiddetleniyor.
+~
+human~
+ABCFGHQ DH -750 0
+20 0 3d9+333 20d9+100 2d7+5 none
+-4 -4 -4 6
+EIKU 0 0 0
+stand stand male 2500
+0 0 medium 0
+#2311
+ogre þefi~
+Ogre Þefi~
+Ogre Þefi etrafýný süzüyor.
+~
+Hayatýnda gördüðün en büyük ogre karþýnda durmakta, oldukça aðýr zýrhlarla
+kuþanmýþ, formda bir görüntüsü var. Karþýnda tüm heybetiyle dikilip sana
+doðru acýmasýz bir þekilde hýrlýyor.
+~
+human~
+ABCFGH DH -1000 0
+25 0 5d10+550 12d9+100 2d10+7 none
+-7 -7 -7 6
+EFNU 0 0 0
+stand stand male 2500
+0 0 medium 0
+#2312
+Barbar~
+Barbar~
+Karþýnda kalýn kürkler içinde bir barbar duruyor.
+~
+Barbarýn üzerinde kalýn kürkler bulunmakta. Görünüþe göre soðuða epeyce
+alýþmýþ durumda.
+~
+human~
+ABCFGH 0 0 0
+20 0 3d9+333 10d9+100 2d8+5 none
+-4 -4 -4 7
+EFNU 0 0 0
+stand stand male 250
+0 0 medium 0
+#2313
+Beyaz Panter~
+Beyaz Panter~
+Beyaz Panter sana hýrlýyor.
+~
+Beyaz panter, devasa bir koca ayaða benziyor. Uzun kollarý ve
+onlarýn ucunda bulunan uzun kývrýmlý pençelere, sivri diþlerle
+dolu bir aðýza sahip.
+~
+human~
+ABCFGH 0 -350 0
+16 0 3d9+233 8d9+100 2d6+4 none
+-2 -2 -2 7
+EFNU 0 0 0
+stand stand none 50
+0 0 medium 0
+#2314
+buz solucan~
+Buz Solucaný~
+Büyük bir buz solucaný burada, buzu ve karý delerek sana doðru geliyor.
+~
+Bu buz solucaný 10 metre yüksekliðe sahip.
+~
+human~
+ABCFG 0 0 0
+20 0 3d9+333 10d9+100 2d8+5 none
+-4 -4 -4 7
+EFNU 0 0 0
+stand stand none 175
+0 0 medium 0
+#2315
+Vatandaþ Minotaur~
+Vatandaþ Minotaur~
+Bir Minotaur vatandaþ buzlu sokaklarda hýzlýce yürümekte.
+~
+Üzerinde bir post bulunan, ve üþümüþ bir ifadeye sahip vatandaþ, sýcak bir
+yer aramakta.
+~
+human~
+ABCGH 0 100 0
+15 0 3d9+208 7d9+100 2d6+3 none
+-2 -2 -2 7
+EFNU 0 0 0
+stand stand none 500
+0 0 medium 0
+#2316
+minotaur muhafýz~
+Muhafýz Minotaur~
+Ýzinsiz girdiðini farkeden muhafýz sana saldýrýyor.
+~
+Kalýn ve aðýr kürkler giymiþ bir minotaur muhafýz.
+~
+human~
+ABCFG 0 -330 0
+22 0 5d10+400 11d9+100 4d4+6 none
+-5 -5 -5 7
+EFNU 0 0 0
+stand stand male 1250
+0 0 medium 0
+#2317
+minotaur savaþçý~
+Minotaur Savaþçý~
+Minotaur savaþçý burada izinsiz girenleri arýyor.
+~
+Ýnce kürkler ve kalýn giymiþ büyük bir minotaur görüyorsun. Kürkü siyah
+gözleri kýrmýzý olan bu yaratýk þehri koruyabilecek kapasitede gözüküyor.
+~
+human~
+ACFG 0 -330 0
+21 0 4d10+360 10d9+100 4d4+5 none
+-5 -5 -5 7
+EFNU 0 0 0
+stand stand male 1250
+0 0 medium 0
+#2318
+minotaur kapýmuhafýzý kapý muhafýz~
+Minotaur Kapý Muhafýzý~
+Bir minotaur burada Mahn-Tor'un kalesinin kapýsýný korumakta.
+~
+Minotaur tam olarak kalenin kapýsýnda dikiliyor
+~
+human~
+ABCG D -330 0
+25 0 5d10+550 12d9+100 2d10+7 none
+-7 -7 -7 6
+EFNU 0 0 0
+stand stand none 1250
+0 0 medium 0
+#2319
+minotaur kýdemli muhafýzý~
+Kýdemli Minotaur Muhafýzý~
+Kýdemli Minotaur muhafýzý burada kaleyi korumakta.
+~
+Kýdemli Minotaur Muhafýzý mavý bir zýrh giymekte. Oldukça tehlikeli
+ve yetenekli görünüyor.
+~
+human~
+ABCFG D -330 0
+25 0 5d10+550 12d9+100 2d10+7 none
+-7 -7 -7 6
+EFNU 0 0 0
+stand stand male 2250
+0 0 medium 0
+#2320
+minotaur kraliyet muhafýzý~
+Minotaur Kraliyet Muhafýzý~
+Minotaur Kraliyet Muhafýzý senin izinsiz olarak burada bulunduðunu anlayýp, sana saldýrýyor.
+~
+Minotaur kraliyet muhafýzý aðýr ve saðlam kýrmýzý zýrhlar giymekte.
+~
+human~
+ABCFG D -330 0
+26 0 5d10+600 13d9+100 3d7+7 none
+-7 -7 -7 6
+EFNU 0 0 0
+stand stand male 2500
+0 0 medium 0
+#2321
+muhafýz minotaur elit~
+Elit Minotaur Muhafýzý~
+Elit Minotaur Muhafýzý sana doðru hamle yapýyor.
+~
+Bu minotaur'un elinde büyük bir gürz bulunmakta vede kan kýrmýzý kürk ve zýrh giymekte.
+~
+human~
+ABCFG D -250 0
+28 0 6d12+703 14d9+100 5d4+8 none
+-8 -8 -8 6
+EFNU 0 0 0
+stand stand male 3750
+0 0 medium 0
+#2322
+harmkýzý kýz harem köle~
+Harem Hatunu~
+Harem hatunu burada korku içinde duruyor.
+~
+Oldukça çekici bir bayan görmektesin, vücudunun belli yerlerinde köle
+olduðunu kanýtlayan darbeler bulunmakta.
+~
+human~
+ABCGH 0 1000 0
+2 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+#2323
+baþhizmetkar hizmetkar baþ minotaur~
+Baþhizmetkar Minotaur~
+Baþhizmektar burada, efendisinin emirlerini bekliyor.
+~
+Muhafýzlara nazaran, daha ince bir kürk giymekte.
+~
+human~
+ABCGH 0 250 0
+20 0 3d9+333 10d9+100 2d8+5 none
+-4 -4 -4 7
+EFNU 0 0 0
+stand stand male 250
+0 0 medium 0
+#2324
+minotaur yüzük taþýyýcýsý yüzüktaþýyýcýsý~
+Minotaur Yüzük Taþýyýcýs~
+Minotaur yüzük taþýyýcýsý burada nöbet tutuyor.
+~
+Yüzük taþýyýcýsý oldukça büyük bir minotaur; kemerinden sarkan
+renkli anahtarlar gözüne çarpmakta. Bronz dizlikler giymekte.
+~
+human~
+ABCGR DH -300 0
+29 0 6d12+703 29d9+100 3d7+7 none
+-8 -8 -8 1
+FU 0 0 0
+stand stand male 2500
+0 0 medium 0
+#2325
+gorak minotaur savaþçý efendisi~
+Gorak~
+Gorak, Minotaur savaþ efendisi burada pratik yapýyor.
+~
+Gorak tam bir hayvan! Kaslarý zýrhýndan taþmakta olan bu minotaur Mahn-Tor
+kabilesinin savaþ efendisi.
+~
+human~
+ABF DH -300 0
+30 0 6d12+853 15d9+100 4d6+8 none
+-9 -9 -9 6
+EFNU 0 0 0
+stand stand male 5000
+0 0 medium 0
+#2326
+darkoth minotaur anti-paladin anti paladin efendi~
+Darkoth~
+Darkoth, anti-paladin minotaur, sana sinsice sýrýtmakta.
+~
+Mahn-Tor kabilesinin anti-paladin efendisinin etrafýndaki karanlýk ayla
+gözüne çok çabuk çarpmakta.
+~
+human~
+ABF DH -1000 0
+33 0 6d12+853 15d9+100 4d6+10 none
+-9 -9 -9 6
+EFNU 0 0 0
+stand stand male 5000
+0 0 medium 0
+#2327
+tyrgoth minotaur paladin efendi~
+Tyrgoth~
+Tyrgoth, paladin minotaur, burada sessizce ibadet etmekte.
+~
+Tyrgoth Mahn-Tor kabilesi paladinlerinin efendisi. Onun huzurunda
+kendini güvende ve rahat hissediyorsun.
+~
+human~
+AB DH 1000 0
+34 2 6d12+853 15d9+100 4d6+10 none
+-9 -9 -9 6
+EFNU 0 0 0
+stand stand male 5000
+0 0 medium 0
+#2328
+amyrok minotaur sihirbaz efendisi~
+Amyrok~
+Amyrok, sihirbaz minotaur, burada kadim sanatlarý fýsýldýyor.
+~
+Amyrok küçük bir minotaur olmak üzere Mahn-Tor sihirbazlarýnýn efendisidir.
+Boyutuna karþýn oldukça zararlý olduðunu düþünüyorsun.
+~
+human~
+ABFR DH 300 0
+30 0 6d12+778 30d9+100 5d4+7 none
+-9 -9 -9 1
+FU 0 0 0
+stand stand male 5000
+0 0 medium 0
+#2329
+sumaron minotaur ermiþ efendisi~
+Sumaron~
+Sumaron, Mahn-Tor'un efendi ermiþi burada kutsal bir tören düzenliyor.
+~
+Sumaron Mahn-Tor kabilesindeki ermiþlerin efendisi olmakla beraber oldukça
+iyi niyetlidir. Onun yanýnda kendini huzursuzluklardan arýnmýþ hissediyorsun.
+~
+human~
+ABFQ DH 1000 0
+30 0 6d12+853 30d9+100 5d4+8 none
+-9 -9 -9 4
+EIKU 0 0 0
+stand stand male 5000
+0 0 medium 0
+#2330
+nasturn minotaur druid efendisi~
+Nasturn~
+Nasturn, druid minotaur burada doðanýn sanatlarý üzerine çalýþmakta.
+~
+Nasturn normal görünümlü bir minotaurdur. Üzerinde deri
+ekipman bulunmakta, ve metalik birþey giymemektedir. Sana
+bakýp gülümsüyor.
+~
+human~
+ABQ DH 500 0
+30 0 6d12+853 30d9+100 5d4+8 none
+-9 -9 -9 4
+EIKU 0 0 0
+stand stand male 5000
+0 0 medium 0
+#2331
+belrak minotaur korucu efendisi~
+Belrak~
+Belrak,  korucu minotaur, ziyaretçilerin olmasýný hoþnut bir þekilde karþýlamýyor.
+~
+Belrak yeþil ve kahverengi derilerle kuþanmýþ. Diðer minotaurlara
+oranla oldukça hareketli ve zayýf bir vücut yapýsýna sahip.
+Sana sinsi bir sýrýtýþla bakýyor.
+~
+human~
+ABF DH 500 0
+30 0 6d12+853 15d9+100 4d6+8 none
+-9 -9 -9 6
+EFNU 0 0 0
+stand stand male 5000
+0 0 medium 0
+#2332
+dorgar minotaur hýrsýz efendisi~
+Dorgar~
+Dorgar, hýrsýz minotaur , gölgelerin arasýnda saklanýyor.
+~
+Dorgar tamaman siyahlara bürünmüþ. Diðer minotaurlara oranla
+uzun ve çelimsiz bir minotaur. Oldukça yetenkli bir hýrsýza benziyor.
+~
+human~
+ABCF Q -500 0
+30 0 6d12+853 15d9+100 4d6+8 none
+-9 -9 -9 6
+EFNU 0 0 0
+stand stand male 5000
+0 0 medium 0
+#2333
+oldstyle mahn-tor mahn tor minotaur baþ efendi~
+Mahn-Tor~
+Mahn-Tor, the minotaur'larýn baþ efendisi, sana bakýyor.
+~
+Mahn-tor bütün heybetiyle karþýnda duruyor. Basit bir þekilde düþünecek
+olursan; o KOCAMAN! Mahn-tor kabilenin en saðlam ve dayanýklý zýrhlarý ve
+cüppelerini giymekte. Þu ana kadar gördüðün bütün Minotaurlar arasýnda
+en büyük baltayý onun taþýdýðýný kolaylýkla görebiliyorsun, vede sanýrým
+neden kabilenin baþ efendisi olduðunu anladýn.
+~
+human~
+ABCR BDHTU -500 0
+33 0 10d10+1000 33d9+100 4d6+8 none
+-10 -10 -10 0
+FU 0 0 0
+stand stand male 5000
+0 0 medium 0
+#0
+
+#OBJECTS
+#2300
+savaþ eldivenleri~
+bir çift minotaur savaþ eldiveni~
+Bir çift metal savaþ eldivenleri burada duruyor.~
+leather steel~
+armor 0 AH
+8 8 8 0 0
+25 60 2600 P
+A
+19 1
+A
+18 1
+E
+savaþ eldivenler~
+Bu eldivenler, güç ve koruma saðlayan metal plakalarla kaplanmýþ.
+~
+#2301
+çivili demir zýrh~
+çivili demir zýrh~
+Üzerinde çiviler bulunan demir bir zýrh burada duruyor.~
+iron~
+armor 0 AD
+7 7 7 0 0
+22 80 4200 P
+A
+19 2
+#2302
+Siyah bacaklýk~
+bir çift siyah minotaur bacaklýk~
+Bir çift siyah minotaur bacaklýðý burada duruyor.~
+brass~
+armor 0 AF
+9 9 9 0 0
+30 90 2600 P
+#2303
+kolluk siyah~
+bir çift siyah minotaur kolluk~
+Bir çift siyah minotaur kolluðu burada duruyor.~
+iron~
+armor 0 AI
+9 9 9 0 0
+30 90 2600 P
+#2304
+gorak sopasý~
+gorak'ýn sopasý~
+Gorak'ýn dövüþ sopasý burada duruyor.~
+steel~
+weapon AGI AN
+exotic 3 12 blast 0
+28 240 4700 P
+A
+19 3
+A
+18 3
+#2305
+zifiri karanlýk pelerin~
+zifiri karanlýk pelerin~
+Zifiri karanlýk bir pelerin burada duruyor.~
+leather~
+container G AK
+150 0 0 30 90
+20 30 860 P
+A
+20 -2
+E
+zifiri karanlýk pelerin~
+Ýçinde gizli cepleri olduðunu farkediyorsun.
+~
+#2306
+kolye boyun siyah~
+siyah kolye~
+Bir siyah kolye burada duruyor.~
+iron~
+armor GJL AC
+9 9 9 0 0
+30 100 3400 P
+A
+4 1
+A
+17 -100
+A
+24 -10
+#2307
+çivili eldiven~
+çivili eldiven~
+Bir çift çivili eldiven burada duruyor.~
+leather~
+armor 0 AH
+3 3 3 0 0
+20 100 1570 P
+A
+19 2
+E
+çivili eldiven~
+Oldukça zarar verici gözüküyor.
+~
+#2308
+gölge kalkan~
+gölge kalkan~
+Gölge kalkaný burada.~
+oak~
+armor AGJL AJ
+8 8 8 3 0
+27 150 4900 P
+A
+20 -2
+A
+17 -2
+E
+gölge kalkan~
+Kalkanýn derinliklerine bakýyorsun, ve içindeki karanlýðý farkedince titriyorsun.
+~
+#2309
+kýsa kýlýç kýsakýlýç þafak söken þafaksöken~
+"þafaksöken" adlý kýsakýlýç~
+Þeytani görünüþlü bir kýsa kýlýç burada duruyor.~
+unknown~
+weapon CGJL AN
+sword 3 14 pierce 0
+39 90 3500 P
+A
+19 4
+A
+18 2
+E
+kýsa kýlýç kýsakýlýç þafaksöken~
+Kýlýcýn boyuna doðru "Þafak Söken" adlarý iþaretli.
+~
+#2310
+altýn miðfer~
+altýn bir miðfer~
+Saf altýndan yapýlmýþ bir miðfer burada durmakta.~
+gold~
+armor AGKL AE
+7 7 7 2 0
+20 150 3000 P
+A
+3 1
+A
+4 1
+#2311
+zýrh altýn~
+altýn zýrh~
+Altýn bir zýrh burada duruyor.~
+gold~
+armor AGKL AD
+9 9 9 3 0
+32 180 6700 P
+A
+13 25
+#2312
+dalgalý beyaz kukuleta ipek~
+dalgalý beyaz kukuleta~
+Ýpekten yapýlmýþ, dalgalý beyaz bir kukuleta burada duruyor.~
+silk~
+armor AG AC
+5 5 5 1 0
+10 50 760 P
+#2313
+kalkan geniþ kule~
+geniþ kule kalkaný~
+Geniþ bir kule kalkaný burada duruyor.~
+steel~
+armor AG AJ
+9 9 9 3 0
+30 390 4100 P
+E
+kalkan geniþ kule~
+Üzerinde altýn iþaret bulunan saf beyaz bir kalkan.
+~
+#2314
+kemsilen kem silen topuz geniþ çift-elli çift elli~
+"Kemsilen" adlý bir topuz~
+Geniþ bir topuz burada durmakta.~
+iron~
+weapon AGKL AN
+mace 5 9 blast F
+38 240 3200 P
+A
+19 3
+A
+18 1
+E
+kemsilen kem silen geniþ topuz~
+Boylamasýna "Kem Silen" harfleri iþlenmiþ, bir topuz.
+~
+#2315
+rünlü kukuleta~
+rünlü bir kukuleta~
+Rünlü küçük bir kukuleta burada durmakta.~
+glass~
+clothing G AE
+0 0 0 0 0
+15 20 2600 P
+A
+3 2
+E
+kukuleta rünlü~
+Aklýný çalýþtýrmana yarayacaðýndan eminsin.
+~
+#2316
+yüzük þeritli~
+þeritli yüzük~
+Altýn ve gümüþ þeritlerden oluþan küçük bir yüzük burada duruyor.~
+gold silver~
+jewelry AG AB
+0 0 0 0 0
+30 20 1520 P
+A
+12 30
+E
+þeritli yüzük~
+Yüzük altýn ve gümüþ þeritlerden oluþmakta.
+~
+#2317
+küçük küre~
+küçük küre~
+Küçük bir küre burada duruyor. Ýçerisine baktýðýnda parýltýlar görmektesin.~
+crystal~
+armor AG AK
+8 8 8 4 0
+27 10 3200 P
+A
+20 -2
+E
+küçük küre~
+Renkli parýltýlar hareket etmekte.
+~
+#2318
+asa büyülü~
+büyülü asa~
+Büyülü bir asa burada duruyor.~
+platinium~
+weapon G AN
+staff 6 5 pound F
+27 100 2900 P
+A
+20 -2
+A
+19 3
+A
+18 1
+E
+büyülü asa~
+Boðum boðum bir gövdeye sahip asa. Nedense çok güçlü olduðu fikrine kapýlýyorsun.
+~
+#2319
+kemer kese bir sürü birsürü~
+birsürü keseye sahip kemer~
+Bir kemer burada duruyor.~
+leather~
+container Y AL
+250 0 0 10 25
+0 50 1000 P
+E
+kemer kese bir sürü birsürü~
+Görünüþe göre üzerinde bir sürü küçük keseler bulunmakta.
+~
+#2320
+cüppe yünlü aðýr~
+yünlü aðýr cüppe~
+Aðýr bir yün burada duruyor.~
+wool~
+armor G AK
+8 8 8 0 0
+25 100 1950 P
+#2321
+broþ fildiþi~
+hayat broþu~
+Küçük bir fildiþi broþu burada duruyor.~
+ivory~
+jewelry AGI AC
+0 0 0 0 0
+30 50 1520 P
+A
+13 30
+#2322
+kitap sanat iyileþtirme~
+iyileþtirme sanatýnýn kitabý~
+Küçük bir kitap burada duruyor.~
+paper~
+scroll 0 AO
+30 'cure light' 'cure light' 'cure light' ''
+0 50 800 P
+E
+kitap sanat iyileþtirme~
+Vücut yapýsý ve ilaçlar hakkýnda bir kitap.
+~
+#2323
+topuz büyük mitril~
+büyük mitril topuz~
+Mitrilden yapýlmýþ büyük bir topuz burada duruyor.~
+mithril~
+weapon AG AN
+mace 5 5 crush 0
+26 130 1960 P
+A
+19 3
+A
+18 1
+#2324
+sembol altýn kutsal~
+kutsal altýn sembol~
+Altýn zincirlerle kaplý kutsal bir sembol burada duruyor.~
+gold~
+jewelry G AC
+0 0 0 0 0
+5 30 110 P
+A
+12 10
+#2325
+yüzük ince mermer~
+ince mermer yüzük~
+Mermerden yapýlmýþ ince yüzük burada duruyor.~
+marble~
+jewelry G AB
+0 0 0 0 0
+8 50 470 P
+A
+17 -2
+#2326
+bileklik ince mermer~
+ince mermer bileklik~
+Mermerden yapýlmýþ ince bir bileklik burada duruyor.~
+marble~
+jewelry G AM
+0 0 0 0 0
+5 80 550 P
+A
+5 1
+#2327
+çizme yürüyüþ~
+yürüyüþ çizmeleri~
+Bir çift deri çizme burada býrakýlmýþ.~
+leather~
+armor G AG
+5 5 5 0 0
+30 50 2500 P
+A
+14 30
+E
+çizme yürüyüþ~
+Bu çizmelerle yürürken ayaklarýnýn rahat olacaðýndan eminsin.
+~
+#2328
+pelerin buzlu beyaz~
+buzlu beyaz pelerin~
+Soðuk beyaz bir pelerin burada durmakta.~
+cloth~
+armor AG AK
+8 8 8 2 0
+25 50 2000 P
+E
+pelerin buzlu beyaz~
+Dokunduðun anda üzerinden dumanlar çýkmaya baþlýyor, sanki kuru buzdan
+yapýlmýþ...
+~
+#2329
+asa buz~
+buz asa~
+Buzdan yapýlmýþ bir asa burada duruyor.~
+ice~
+weapon G AN
+staff 7 4 pound BF
+28 130 1470 P
+A
+12 20
+A
+18 2
+E
+asa buz~
+The runes "FrIgID" are inscribed in the icy staff.
+~
+#2330
+yüzük oyulmuþ ahþap~
+oyulmuþ ahþap yüzük~
+Ahþap bir yüzük yerde duruyor.~
+wood~
+jewelry G AB
+0 0 0 0 0
+7 30 460 P
+A
+19 1
+A
+18 1
+#2331
+hayat boynuzu~
+hayat boynuzu~
+Üzerinde bir takým þeyler yapýlmýþ minotaur boynuzu.~
+bone~
+wand G AO
+30 8 8 'cure light' 0
+1 50 930 P
+E
+hayat boynuzu~
+Ýki ucu altýn ile biten boynuz. Üzerinde antik bir dil ile yazýlmýþ
+yazýlar bulunmakta.
+~
+#2332
+hayat kemeri~
+hayat kemeri~
+Garip bir kemer burada duruyor.~
+leather~
+clothing G AL
+0 0 0 0 0
+30 90 7600 P
+A
+5 3
+#2333
+kan kýrmýzý taþ~
+kan kýrmýzý taþ~
+Kan kýrmýzý bir taþ burada duruyor.~
+stone~
+warp_stone BGT AO
+3 0 0 0 0
+20 20 580 P
+A
+13 20
+E
+taþ kan kýrmýzý~
+Taþ, senin kalbinle ayný hýzda atýyor.
+~
+#2334
+büyük ok~
+büyük ok~
+Büyük bir ok burada býrakýlmýþ.~
+wood~
+weapon G AN
+exotic 3 10 pierce F
+27 150 4300 P
+A
+19 2
+A
+18 1
+#2335
+çanta deri küçük~
+küçük deri çanta~
+Küçük bir deri çanta burada býrakýlmýþ.~
+leather~
+container GY AK
+200 0 0 20 80
+0 90 500 P
+E
+çanta deri küçük~
+Ýçine baktýðýn zaman oldukça büyük görünüyor.
+~
+#2336
+kukuleta siyah deri~
+siyah deri kukuleta~
+Siyah deriden yapýlmýþ bir kukuleta burada duruyor.~
+leather~
+armor G AE
+5 5 5 0 0
+10 50 730 P
+#2337
+kolluk siyah deri~
+siyah deri kolluk~
+Deriden yapýlmýþ bir kolluk burada duruyor.~
+leather~
+armor 0 AI
+7 7 7 0 0
+20 50 1450 P
+#2338
+pantolon siyah deri~
+siyah deri pantolon~
+Deriden yapýlmýþ bir pantolon burada durmakta.~
+leather~
+armor G AF
+7 7 7 0 0
+20 50 1450 P
+E
+pantolon siyah deri~
+Oldukça sinsi gözüküyorlar.
+~
+#2339
+kýlýç kýsa kýsakýlýç süssüz~
+süssüz bir kýsa kýlýç~
+Çýplak görünümlü bir kýsa kýlýç burada duruyor.~
+steel~
+weapon G AN
+sword 4 8 pierce 0
+26 110 2300 P
+A
+19 1
+E
+kýsa kýlýç kýsakýlýç süssüz~
+Ardýlan yeteneði için oldukça kullanýþlýya benziyor.
+~
+#2340
+küre büyük~
+büyük küre~
+Büyük bir küre burada duruyor.~
+glass~
+armor ABG AK
+9 9 9 6 0
+31 10 4100 P
+A
+2 2
+A
+18 5
+A
+19 4
+A
+6 1
+A
+20 -2
+E
+büyük küre~
+Kürenin içerisinde parýldýyan renkli objeler var.
+~
+#2341
+zincir demirzincir siyah zýrh~
+siyah demirzincirli zýrh~
+Siyah demirzincirli zýrh burada bulunmakta.~
+iron~
+armor G AD
+9 9 9 2 0
+30 120 7000 P
+A
+5 1
+A
+1 1
+#2342
+çivili kalkan~
+çivili kalkan~
+Üzerinde çiviler bulunan bir kalkan burada bulunuyor.~
+unknown~
+armor 0 AJ
+10 10 10 3 0
+35 50 6600 P
+A
+19 3
+#2343
+yüzük demir~
+demir yüzük~
+Demirden yapýlmýþ bir yüzük burada duruyor.~
+gem~
+jewelry G AB
+0 0 0 0 0
+13 10 1020 P
+A
+17 -3
+A
+19 1
+#2344
+miðfer boynuzlu~
+boynuzlu miðfer~
+Üzerinde bir çift boynuz bulunan miðfer burada duruyor.~
+iron~
+armor 0 AE
+10 10 10 2 0
+35 80 3400 P
+#2345
+balta güç mahn-tor~
+mahn-tor'un güç baltasý~
+Oldukça büyük bir balta burada duruyor.~
+titanium~
+weapon BG AN
+axe 7 5 slash 0
+31 260 3400 P
+A
+19 4
+A
+18 1
+A
+6 1
+E
+balta güç~
+Baltanýn üzerinde "Ölüm" yazmakta.
+~
+#2346
+zýrh semavi~
+semavi zýrh~
+Parýldayan bir zýrh burada duruyor.~
+unknown~
+armor AJ AD
+8 8 8 4 0
+27 20 5500 P
+A
+20 -2
+E
+zýrh semavi~
+Neredeyse içini görebileceksin.
+~
+#2347
+semavi miðfer~
+semavi miðfer~
+Parýldayan bir miðfer burada duruyor.~
+unknown~
+armor AJ AE
+8 8 8 4 0
+25 50 2200 P
+E
+zýrh semavi~
+Neredeyse içini görebileceksin.
+~
+#2348
+semavi kýlýç~
+semavý kýlýç~
+Parýldayan bir kýlýç burada.~
+unknown~
+weapon AJ AN
+exotic 3 10 slash 0
+25 30 3200 P
+A
+19 1
+A
+18 1
+E
+zýrh semavi~
+Neredeyse içini görebileceksin.
+~
+#2349
+söðüt dalý~
+söðüt dalý~
+Söðüt aðacýnýn küçük bir dalý burada duruyor.~
+wood~
+wand G AO
+20 5 5 'heat metal' 0
+13 30 2600 P
+#2350
+kulübe anahtarý~
+Kulübenin anahtarý~
+Küçük bir anahtar burada duruyor.~
+iron~
+key 0 A
+2 0 0 0 0
+0 10 0 P
+#2351
+kýrmýzý anahtar~
+kýrmýzý anahtar~
+Küçük kýrmýzý bir anahtar burada duruyor.~
+brass~
+key 0 A
+2 0 0 0 0
+0 10 0 P
+#2352
+siyah anahtar~
+siyah anahtar~
+Küçük siyah bir anahtar burada duruyor.~
+oak~
+key 0 A
+2 0 0 0 0
+0 10 0 P
+#2353
+beyaz anahtar~
+beyaz anahtar~
+Küçük beyaz bir anahtar burada duruyor.~
+wood~
+key 0 A
+2 0 0 0 0
+0 10 0 P
+#2354
+kahverengi anahtar~
+kahverengi anahtar~
+Küçük kahverengi bir anahtar burada duruyor.~
+wood~
+key 0 A
+2 0 0 0 0
+0 10 0 P
+#2355
+sarý anahtar~
+sarý anahtar~
+Küçük sarý bir anahtar burada duruyor.~
+wood~
+key 0 A
+2 0 0 0 0
+0 10 0 P
+#2356
+maron anahtar~
+maron anahtar~
+Küçük maron renkli bir anahtar burada duruyor.~
+bronze~
+key 0 A
+2 0 0 0 0
+0 10 0 P
+#2357
+yeþil anahtar~
+yeþil anahtar~
+Küçük yeþil bir anahtar burada duruyor.~
+copper~
+key 0 A
+2 0 0 0 0
+0 10 0 P
+#2358
+gri anahtar~
+gri anahtar~
+Küçük gri bir anahtar burada duruyor.~
+lead~
+key 0 A
+2 0 0 0 0
+0 10 0 P
+#2359
+iþaretli anahtar~
+iþaretli anahtar~
+Küçük iþaretli bir anahtar burada duruyor.~
+mithril~
+key 0 A
+2 0 0 0 0
+0 10 0 P
+E
+iþaretli anahtar~
+Anahtarýn üzerindeki iþaretler asaliyet içinde iþlenmiþ.
+~
+#2360
+kürklü çizme~
+kürklü çizme~
+Bir çift kürklü çizme burada duruyor.~
+fur~
+armor G AG
+3 3 3 1 0
+7 50 470 P
+A
+14 10
+#2361
+post panter beyaz~
+Panterin beyaz postu~
+Beyaz bir post burada duruyor.~
+silk~
+armor Q AK
+6 6 6 1 0
+15 90 1080 P
+#2362
+bilek kapan bilekkapan kýlýç~
+"Bilek Kapan" adlý kýlýç~
+Üzerinde iþaret bulunan bir kýlýç.~
+iron~
+weapon 0 AN
+sword 5 4 slash 0
+17 130 1310 P
+E
+bilek kapan kýlýç bilekkapan~
+Kýlýcýn üzerinde "Bilek Kapan" yazmakta, aceba ne anlama geliyor...
+~
+#2363
+çelik kolluk~
+bir çift çelik kolluk~
+Bir çift çelikten yapýlmýþ kolluk burada duruyor.~
+steel~
+armor 0 AI
+6 6 6 0 0
+15 0 1050 P
+#2364
+çelik bacaklýk~
+bir çift çelik bacaklýk~
+Bir çift çelikten yapýlmýþ bacaklýk burada duruyor.~
+steel~
+armor 0 AF
+6 6 6 0 0
+15 70 1050 P
+#2365
+saval balta savaþbaltasý~
+savaþ baltasý~
+Oldukça tehlikeli görünen bir balta burada duruyor.~
+steel~
+weapon 0 AN
+axe 5 5 slash 0
+17 180 1310 P
+#2366
+çelik zýrh~
+çelik zýrh~
+Ýnce çelikten yapýlmýþ bir zýrh burada duruyor.~
+steel~
+armor 0 AD
+6 6 6 0 0
+15 100 2100 P
+#2367
+çelik miðfer~
+çelik miðfer~
+Çelikten yapýlmýþ bir miðfer burada duruyor.~
+steel~
+armor 0 AE
+6 6 6 0 0
+15 60 1050 P
+#2368
+halberd huge two-handed~
+a huge halberd~
+A huge halberd has been left here.~
+wood~
+weapon G AN
+polearm 3 8 cleave F
+18 180 690 P
+A
+19 1
+A
+18 1
+#2369
+çelik mavi miðfer~
+çelik mavi miðfer~
+Çelikten yapýlmýþ mavi bir miðfer burada duruyor.~
+steel~
+armor 0 AE
+8 8 8 0 0
+25 80 1950 P
+#2370
+çelik mavi bacaklýk~
+bir çift çelik mavi bacaklýk~
+Bir çift çelikten yapýlmýþ mavi bacaklýk burada duruyor.~
+steel~
+armor 0 AF
+8 8 8 0 0
+25 80 1950 P
+#2371
+çelik mavi kolluk~
+bir çift çelik mavi kolluk~
+Bir çift çelikten yapýlmýþ mavi kolluk burada duruyor.~
+steel~
+armor 0 AI
+8 8 8 0 0
+25 80 1950 P
+#2372
+kýlýç el çift çift-el~
+çift-elli kýlýç~
+Büyük bir kýlýç burada duruyor.~
+steel~
+weapon G AN
+sword 5 5 slash F
+22 180 2500 P
+A
+19 2
+A
+18 2
+#2373
+çelik kýrmýzý miðfer~
+çelik kýrmýzý miðfer~
+Çelikten yapýlmýþ kýrmýzý bir miðfer burada duruyor.~
+steel~
+armor 0 AE
+7 7 7 0 0
+20 80 1450 P
+#2374
+çelik kýrmýzý bacaklýk~
+bir çift çelik kýrmýzý bacaklýk~
+Çelikten yapýlmýþ bir çift kýrmýzý bacaklýk burada duruyor.~
+steel~
+armor 0 AF
+7 7 7 0 0
+20 80 1450 P
+#2375
+çelik kýrmýzý kolluk~
+bir çift kýrmýzý kolluk~
+Çelikten yapýlmýþ bir çift kýrmýzý kolluk burada duruyor.~
+steel~
+armor 0 AI
+7 7 7 0 0
+20 80 1450 P
+#2376
+kýlýç minotaur~
+Minotaur Kýlýcý~
+Oldukça büyük bir kýlýç burada duruyor.~
+bronze~
+weapon G AN
+polearm 5 4 slash F
+22 190 830 P
+A
+19 1
+A
+18 1
+#2377
+kankýrmýzý miðfer çelik kan kýrmýzý~
+kan kýrmýzý çelik miðfer~
+Çelikten yapýlmýþ kan kýrmýzý miðfer burada duruyor.~
+steel~
+armor 0 AE
+8 8 8 0 0
+25 80 1950 P
+#2378
+bacaklýk kan kýrmýzý çelik~
+bir çift kan kýrmýzý çelik bacaklýk~
+Çelikten yapýlmýþ bir çift kan kýrmýzý bacaklýk burada duruyor.~
+steel~
+armor 0 AF
+8 8 8 0 0
+25 80 1950 P
+#2379
+kolluk kan kýrmýzý çelik~
+bir çift kan kýrmýzý çelik kolluk~
+Çelikten yapýlmýþ bir çift kan kýrmýzý kolluk burada duruyor.~
+steel~
+armor 0 AI
+8 8 8 0 0
+25 80 1950 P
+#2380
+teber geniþ~
+geniþ teber~
+Geniþ bir teber burada duruyor.~
+steel~
+weapon G AN
+mace 7 5 pound 0
+29 200 2300 P
+A
+19 3
+A
+18 1
+E
+star morning morningstar~
+It looks damaging.
+~
+#2381
+çivili demir~
+çivili demir~
+Üzerinde çiviler bulunan bir parmaklýk.~
+brass~
+weapon 0 AN
+exotic 4 4 punch 0
+17 90 1970 P
+E
+spiked brass knuckles~
+A band held in the hand that has spikes on the front side.
+~
+#2382
+yüzük anahtarlýk çokrenkli çok renkli~
+çok renkli anahtarlýk~
+Ýçinde bir sürü renkli anahtar bulunan, anahtarlýk burada duruyor.~
+steel cloth~
+container 0 AC
+10 0 0 2 100
+0 30 0 P
+#2383
+aðýr çekiç odundan~
+Odundan yapýlmýþ aðýr bir çekiç~
+Odundan yapýlmýþ aðýr bir çekiç burada duruyor.~
+wood~
+weapon 0 AN
+mace 5 5 blast 0
+28 220 1700 P
+#2384
+iksir sisli~
+sisli iksir~
+Sisli bir iksir burada duruyor.~
+glass~
+potion AGN A
+20 'heal' '' '' ''
+11 30 800 P
+#2385
+kolan kese~
+kolan~
+Bir kolan burada duruyor.~
+cloth~
+container 0 AL
+15 0 0 2 100
+0 50 20 P
+E
+kese kolan~
+Kolanýn üzerinde bir kaç kese olduðunu farkediyorsun.
+~
+#2386
+ogre mýzrak mýzraðý~
+ogre mýzraðý~
+Oldukça etkili bir ogre mýzraðý burada duruyor.~
+wood~
+weapon 0 AN
+staff 2 10 thrust F
+17 80 320 P
+#2387
+ogre savaþ sopasý~
+ogre savaþ sopasý~
+Oldukça büyük, ve etkili bir sopa burada duruyor.~
+wood~
+weapon 0 AN
+mace 5 4 pound 0
+17 100 880 P
+#2388
+pelerin ayý derisi ayýderisi~
+ayý derili pelerin~
+Bir ayýnýn derisinden yapýlmýþ pelerin burada duruyor.~
+bearskin~
+armor 0 AK
+7 7 7 0 0
+20 120 1450 P
+#2389
+kulak küpe halka kuþtüylü~
+bir çift kuþtüylü küpe~
+Üzerinde kuþ tüyleri olan bir çift küpe burada duruyor.~
+fur~
+jewelry AG AE
+0 0 0 0 0
+0 20 500 P
+#2390
+eldiven ogre gücü~
+ogre gücünün eldiveni~
+Bir çift aðýr eldiven burada duruyor.~
+gold amethyst~
+armor BG AH
+9 9 9 0 0
+23 130 5800 P
+A
+19 4
+A
+1 4
+E
+eldiveni ogre gücü~
+Oldukça kullanýþlý görünen bir çift eldiven.
+~
+#2391
+sopa devasa~
+devasa sopa~
+Devasa bir sopa burada duruyor.~
+wood~
+weapon 0 AN
+mace 4 7 blast F
+23 190 1520 P
+#2392
+kukuleta ince yün~
+ince yünlü kukuleta~
+Ýnce yünlü bir kukuleta burada duruyor.~
+fur~
+armor 0 AC
+6 6 6 0 0
+15 50 1050 P
+#2393
+ceket yünlü~
+yünlü ceket~
+Yünlü bir ceket burada duruyor.~
+fur~
+armor 0 AD
+6 6 6 0 0
+15 60 2100 P
+#0
+
+#ROOMS
+#2300
+Karanlýk Orman~
+Bir akþam kadar karanlýk olan bir ormanýn içinde dolaþýyorsun. Göðe kadar
+uzanan aðaçlar, gökyüzünden gelen ýþýðý ve rüzgarý engelliyorlar. Havada bir
+çürüme ve ceset kokusu hakim. Duyduðun sesler içini ürpertiyor, daha güvenli
+bir yere geri dönmek istiyorsun. Yol kuzeye doðru daha açýk topraklara uzanmakta
+ayný zamanda güneye, ormanýn derinliklerine doðru uzanmakta. Küçük bir tabela
+burada duruyor.
+~
+0 C 3
+D0
+~
+~
+0 0 5280
+D2
+~
+~
+0 -1 2301
+E
+tabela~
+     []==================================[]
+     |      Dikkat edin!   |  Bölgeden    |
+     |      zevk almanýz   | dileðiyle!   |
+     |  Her zaman          | <Siradril>   |
+     |   grup halinde      |  Skurge      |
+     |      dolaþýn        | Ragnarok     |
+     []==================================[]
+~
+S
+#2301
+Karanlýk Orman~
+Dikkatli bir þekilde ormanýn karanlýklarýnda yolculuk ediyorsun. Kocaman
+iskelet görünümünde aðaçlar önündeki kuleye doðru sýrayla dizilmiþ.
+Patika kuzeye ve güneye doðru devam ediyor.
+~
+0 AC 3
+D0
+~
+~
+0 -1 2300
+D2
+~
+~
+0 -1 2302
+S
+#2302
+Ormanda küçük bir yol ayrýmý~
+Orman yolu burada 3 yöne ayrýlmakta; doðu, kuzey ve güney. Aðaçlar yer
+yer boþluk býraktýðýndan güneþ ýþýðý burada görülebilmekte. Sanki bu
+karanlýk ormanda, kutsal bir daire içerisinde korunmaktasýn.
+Yerde kan ile yazýlmýþ bir iþaret görmektesin.
+~
+0 0 3
+D0
+~
+~
+0 0 2301
+D1
+~
+~
+0 0 2304
+D2
+~
+~
+0 0 2303
+E
+kan iþaret~
+Bataklýktaki ogrelere dikkat et...
+~
+S
+#2303
+Ormanýn Kenarý~
+Ormanýn kenarýnda durmaktasýn; kuzeye doðru olan patika ormanýn
+derinliklerine, ölümcül karanlýðýyla sessizliðine ilerlemekte.
+Batýda ise ayak izlerinin bulunduðu bir bölgeye ilerlemekte patika.
+Iþýðýn ve karanlýðýn tam sýnýrýnda olmak sana huzursuzluk veriyor.
+~
+0 0 4
+D0
+~
+~
+0 -1 2302
+D3
+~
+~
+0 -1 2309
+S
+#2304
+Ormanýn ortalarý~
+Ormanýn Karanlýðýna doðru ilerleyen küçük patika üzerinde yürümektesin.
+Uzun zamandýr temiz bir hava solumadýðýn bu ormanda, hiç çýt çýkmamakla
+beraber aðaçlarýn tepelerine doðru tek tük ýþýn dalgalarýný görebilmektesin.
+Üzerinde bulunduðun patika güneye ormanýn daha derinliklerine gitmekte,
+batý tarafýnda ise bir kesiþme görmektesin.
+~
+0 A 3
+D2
+~
+~
+0 0 2305
+D3
+~
+~
+0 0 2302
+S
+#2305
+Karanlýk Orman~
+Ormanýn karanlýðý ve ürkütücülüðü arasýnda yoluna devam etmektesin, gittikçe
+yürümenin zorlaþtýðýný kolaylýkla farkedebiliyorsun. Hareket ettiðinde ayaklarýndan
+çýkan sesler, baþkalarýný çekicek diye tedirgin olmaya baþlýyorsun. Doðuda
+bataklýk yolunu, kuzeyda ana yolu, güneyde ise ormanýn derinliklerini görebilmektesin.
+~
+0 A 3
+D0
+~
+~
+0 0 2304
+D1
+~
+~
+0 -1 2327
+D2
+~
+~
+0 0 2306
+S
+#2306
+Ormanda bir sapak~
+Orman yolu burada kuzeye ve batýya doðru sapmakta. Kuzey tarafýndaki yolda
+yer yer bataklýk bulunmakta, ve neminde etkisi hissedilmekte. Batý tarafýndaki
+yol ise bir kaç tepenin bulunduðu bir yola doðru gitmekte. Kuzey tarafýndan
+bataklýk canavarlarýnýn sesini duyabiliyorsun.
+~
+0 A 3
+D0
+~
+~
+0 0 2305
+D3
+~
+~
+0 0 2307
+S
+#2307
+Kanlý Yol Ayrýmý~
+Küçük bir yol ayrýmýndasýn. Patika doðuya, batýya ve güneye doðru ayrýlmakta.
+Buraya girdiðinde bir anlýk için donuyorsun ve etrafýna bakýyorsun; zamanýnda
+burada çok büyük bir muharebe yaþandýðýndan hiç þüphen yok. Her yer kan içinde.
+Yerlerde cesetlerin yanlarýnda yer yer zýrhlar ve kýlýçlar görüyorsun. Kan
+izleri doðuya ve güneye doðru ayrýlmakta.
+~
+0 A 4
+D1
+~
+~
+0 0 2306
+D2
+~
+~
+0 0 2310
+D3
+~
+~
+0 0 2308
+S
+#2308
+Dað Yamacýndaki Patika~
+Patika bir dað yamacýna doðru devam ediyor. Daða týrmanmak ve inmek seni
+gittikçe yormaya baþladý. Doðuya baktýðýnda açýk bir alan görmektesin, daðlarýn
+devamý ise kuzey tarafýnda bulunmakta.
+~
+0 0 4
+D0
+~
+~
+0 0 2309
+D1
+~
+~
+0 0 2307
+S
+#2309
+Dað Yamacýndaki Patika~
+Burada bir sürü kayalar bulunmakta, hepside yanlýþ bir hamlenle ölümüne
+sebebiyet verebilecek nitelikye. Taþlarýn üzerinde hareket ederken
+kendini tedirgin hissediyorsun; kaydýðýn takdirde daðdan düþüp kendini
+yaralayacaksýn. Doðuda daha rahat bir zemin gözüne çarpmakta, ama ayný
+zemin seni ormanýn karanlýklarýna götürmekte.
+~
+0 0 4
+D1
+~
+~
+0 0 2303
+D2
+~
+~
+0 0 2308
+D3
+~
+Before the tower
+~
+0 0 29350
+S
+#2310
+Daðýn Tepesi~
+Dað yamacýna týrmanman oldukça zaman aldý. Ayaðýn hafifçe kayýyor ve ayaðýnýn
+altýndaki küçük yaþlar aþþaðýya doðru düþüyor, neyseki hemen kendini toparlýyorsun.
+Yol doðuya ve batýya doðru ayrýlmakta. Bulunduðun patika güneyde daha yükseklere,
+kuzeyde ise alçaklara doðru devam etmekte.
+~
+0 C 5
+D0
+~
+~
+0 0 2307
+D1
+~
+~
+0 0 2312
+D2
+~
+~
+0 0 2314
+D3
+~
+~
+0 0 2311
+S
+#2311
+Seyrek Sýradaðlar~
+Düzensiz çalýlarla kaplý sýra daðlardasýn. Hayati semboller burada minimum
+seviyede; Yalnýzca çýplak kayalar ve kuru çamurlar görülmekte. Doðuya doðru
+devam eden patikada sýradaðlardan çýkýþ var, güneyde ise sýradaðlarýn devamý
+bulunmakta.
+~
+0 0 4
+D1
+~
+~
+0 0 2310
+D2
+~
+~
+0 0 2313
+S
+#2312
+Sýra daðlarýn Yamacý~
+Sýradaðlarýn kenarýnda durmaktasýn; aþþaðýya baktýðýnda karanlýk bir orman
+görmektesin, ölüm ve çürüme namýna herþey bulunmakta. Buradan bile rüzgar
+o iðrenç kokuyu sana doðru getirmekte. Bir ucu güneyde sýradaðlara doðru devam
+eden yol, diðer ucunda ise batýya; sýradaðlarýnýn çýkýþýna devam etmektedir.
+~
+0 0 4
+D2
+~
+~
+0 0 2315
+D3
+~
+~
+0 0 2310
+S
+#2313
+Sýradaðlarda~
+Sýradaðlarýn üzerinde yolculuktasýn, etrafýnda tek gördüðün þey ölü bitkiler
+ve kayalar. Yol doðuya, kuzeye ve güneye doðru devam ediyor.
+~
+0 0 4
+D0
+~
+~
+0 0 2311
+D1
+~
+~
+0 0 2314
+D2
+~
+~
+0 0 2317
+S
+#2314
+Büyük yaþlý aðacýn önü~
+Kayalarýn daire þeklinde bir form aldýklarý garip bir yere geldin, etraf taþ
+duvarlarla kaplanmýþ, ve onun altýndada daire þeklinde bir düzine aðaç
+bulunmakta. Ortada ise yaþlý ve kocaman bir aðaç aðlamakta. Tepeler her yöne
+doðru devam etmekte.
+~
+0 0 4
+D0
+~
+~
+0 0 2310
+D1
+~
+~
+0 0 2315
+D2
+~
+~
+0 0 2318
+D3
+~
+~
+0 0 2313
+S
+#2315
+Karanlýk Maðaranýn Önü~
+Kocaman karanlýk bir maðaranýn önündesin. Maðaranýn dýþýndaki taþlar
+ve kayalar kanla kaplanmýþ, etraflarýnda ise kýrýk kemikler bulunmakta.
+Maðaranýn içinden tahammül edemediðin bir koku gelmekte. Maðaranýn giriþi
+doðuda kalýyorken, tepeleri kuzeye, güneye ve batýya doðru devam etmekte.
+~
+0 0 4
+D0
+~
+~
+0 0 2312
+D1
+~
+~
+0 0 2316
+D2
+~
+~
+0 0 2319
+D3
+~
+~
+0 0 2314
+S
+#2316
+Korkunç Maðaranýn Ýçerisi~
+Maðaranýn içerisindeki koku yüzünden, neredeyse nefes alamayacak hale
+geldin. Etrafa baktýðýnda devasa, ve iðrenç bir yaratýðýn bu maðarayý
+kendisine ev yaptýðýný anlýyorsun. Her tarafta kemikler, yarý yenmiþ
+cesetler görmektesin. Etrafta bir sürü kürk, giysi, ve bitki görmektesin.
+Güvenli yol batýda kalýyor.
+~
+0 AD 0
+D3
+~
+~
+0 0 2315
+E
+pile~
+It appears to be some sort of nest......
+~
+S
+#2317
+Kýyaya bakan Tepeler~
+Sýradaðlarýn yamacýnda, aþþaðýdaki kayalýða bakmaktasýn. Güneyde kayalýk,
+çok geniþ bir deniz görüyorsun. Kayalarýn üzerinde martýlarýn yuva yaptýðýný
+kolaylýkla anlayabiliyorsun. Aþþaðýya inmek mümkün olsada, biraz yorucu
+olacaða benziyor. Tepeler kuzeye doðru devam ederken, deniz kýyýsý
+doðuya doðru devam etmekte.
+~
+0 0 4
+D0
+~
+~
+0 0 2313
+D1
+~
+~
+0 0 2318
+D5
+~
+~
+0 0 2320
+S
+#2318
+Kýyaya bakan Tepeler~
+Kayalýklý, kýyýya bakan tepenin tam bariyerinde durmaktasýn. Denizden esen
+þiddetli rüzgar yüzünden kendini çok az ileriye doðru yöneltmektesin. Denizden
+esen tuzlu hava bütün vücuduna iþlemiþ durumda. Dilersen aþþaðýya inebilirsin,
+veyahut kuzeye yönelip daðlarda gezmeye devam edebilirsin. Kayalýklar doðuya
+ve batýya doðru kýyý boyunca devam etmekte.
+~
+0 0 4
+D0
+~
+~
+0 0 2314
+D1
+~
+~
+0 0 2319
+D3
+~
+~
+0 0 2317
+D5
+~
+~
+0 0 2321
+S
+#2319
+Kýyýya bakan tepeler~
+Sert kayalýklara bakan bir daðýn yamacýndasýn. Denizden gelen rüzgar çok
+sert bir þekilde bedenine çarpamkta. Güvenli bir þekilde aþþaðýya inebileceðini
+düþünüyorsun. Sýradaðlar kuzeye doðru devam etmekte, batýya doðru ise kýyý
+boyunca kayalýklar var.
+~
+0 0 4
+D0
+~
+~
+0 0 2315
+D3
+~
+~
+0 0 2318
+D5
+~
+~
+0 0 2322
+S
+#2320
+Kayalýklý kumsal~
+Kayalýklarýn altýndasýn. Yol güneye ve doðuya doðru devam ediyor. Güneydoðuda
+ise bir tapýnak görmektesin, daða týrmanman mümkün.
+~
+0 0 2
+D1
+~
+~
+0 0 2321
+D2
+~
+~
+0 0 2323
+D4
+~
+~
+0 0 2317
+S
+#2321
+Kayalýklý kumsal~
+Kayalýklarýn altýndasýn. Yol batýya ve doðuya doðru devam ediyor. Güneyde
+ise bir tapýnak görmektesin, daða týrmanman mümkün.
+~
+0 0 2
+D1
+~
+~
+0 0 2322
+D2
+~
+~
+0 0 2324
+D3
+~
+~
+0 0 2320
+D4
+~
+~
+0 0 2318
+S
+#2322
+Kayalýklý Kumsal~
+Kayalýklarýn altýndasýn. Yol güneye ve batýya doðru devam ediyor. Güneybatýda
+ise bir tapýnak görmektesin, daða týrmanman mümkün.
+~
+0 0 2
+D2
+~
+~
+0 0 2325
+D3
+~
+~
+0 0 2321
+D4
+~
+~
+0 0 2319
+S
+#2323
+Deniz Kýyýsý~
+Deniz kýyýsý boyunca yürüyorsun. Denizin büyüklüðü gözlerini yormaya baþlýyor,
+doðuda bir tapýnak görüyorsun. Kýyý kuzeye doðru devam etmekte.
+~
+0 0 2
+D0
+~
+~
+0 0 2320
+D1
+~
+~
+0 0 2324
+S
+#2324
+Kan Denizi Geçidi~
+Kendini daha önce görmediðin bir tapýnakta buluyorsun. Yapýlan heykellerin,
+3 insan boyunda olmasý dikkatini çekiyor, güney tarafa baktýðýnda mavi bir
+geçit görmektesin. Denize baktýðýn zaman neredeyse bir ada görüyor gibisin
+fakat bir göz yanýlmasýda olabilir bu. Kýyý kuzey doðu ve batý boyunca devam etmekte.
+Geçidin altýndaki kayalarýn üzerinde bir yazý görmektesin.
+~
+0 0 2
+D0
+~
+~
+0 0 2321
+D1
+~
+~
+0 0 2325
+D2
+~
+~
+0 0 2326
+D3
+~
+~
+0 0 2323
+E
+geçit mavi~
+Dönmekte olan mavi bir geçit görmektesin. Geçidin "diðer tarafýnda" birþeyler
+kýpýrdamakta.
+~
+E
+kaya yazý~
+"Kardeþliðimize katýlmak isteyen herkes bu geçitten adým atsýn"
+~
+S
+#2325
+Deniz Kýyýsý~
+Deniz kýyýsý boyunca yürüyorsun. Denizin büyüklüðü gözlerini yormaya baþlýyor,
+batýda bir tapýnak görüyorsun. Kýyý kuzeye doðru devam etmekte.
+~
+0 0 2
+D0
+~
+~
+0 0 2322
+D3
+~
+~
+0 0 2324
+S
+#2326
+Mavi Iþýk Hüzmesinin Ýçi~
+Mavi bir ýþýk hüzmesinin içinde süzülüyorsun, sanki üzerindeki bütün aðýrlýklar
+kaldýrýlmýþ, vücudunu bile hissetmiyorsun. Kendini öne doðru atýyorsun; birden
+üstüne bir aðýrlýk çöküyor ve kendini yerde buluyorsun. Burada iki tane pencere
+görmektesin, kuzeydeki pencerede kayalýklý bir sahil, güneyde ise donmuþ bir
+diyar görmektesin.
+~
+0 CD 0
+D0
+~
+~
+0 0 2324
+D2
+~
+~
+0 -1 2353
+S
+#2327
+Bataklýk Yolu~
+Bu loþ patika seni karanlýk bir bataklýðýn derinlerine götürmekte; ilerideki aðaçlar
+bataklýðýn içerisine ýþýðýn girmesini engellemekte. Patika doðuda bataklýðýn derinlerine
+ilerlerken, batýda ise karanlýk orman kalmakta.
+~
+0 ACD 3
+D1
+~
+~
+0 0 2328
+D3
+~
+~
+0 0 2305
+S
+#2328
+Bataklýk Yolu~
+Loþ, nemli bir bataklýk yolunda ilerlemektesin. Etrafýnda yer yer bataklýk kumlarý
+görmektesin. Batýdaki ormanýn aksine, bataklýkta yaþam bulunmakta. Bazýlarý
+zararlý, bazýlarý ise zararsýz. Yol doðuya ve batýya doðru ilerlemekte.
+~
+0 AD 3
+D1
+~
+~
+0 0 2329
+D3
+~
+~
+0 0 2327
+S
+#2329
+Bataklýk Yolu~
+Birden bire bastýran sisin etkisi altýnda ilerlemeye devam ediyorsun, her taraftan
+bir çeþit gaz çýkmaya baþlýyor. Ýçinden bir ses her an sorun çýkabileceðini söylemekte.
+Uzun, ve büyük söðüt aðaçlarý teker teker karþýnda boy göstermeye baþlýyor. Bu söðüt
+aðaçlarýnýn gövdeleri neredeyse birleþik olduðu için hiçbir ýþýk süzmesi içeriye girememekte.
+Yol batýya ve doðuya doðru devam ediyor.
+~
+0 AD 3
+D1
+~
+~
+0 -1 2330
+D3
+~
+~
+0 0 2328
+S
+#2330
+Bataklýk Yolunda Sapak~
+Daha katý ve aðýr bir zemine adým atýyorsun. Buradada bataklýðýn geri kalan yerleri
+gibi sis etkisini göstermekte. Küçük bir patika güneye devam ederken, batýda ise
+sisli yol kalmakta.
+~
+0 AD 3
+D2
+~
+~
+0 0 2331
+D3
+~
+~
+0 0 2329
+S
+#2331
+Bataklýk Yolu~
+Tortul atýklarýn bulunduðu yolda kendini zorla ileriye atýyorsun. Bir sis duvarý
+doðuda ne olduðunu görmeni engellerken, daha aðýr bir zemin kuzeye doðru
+devam etmekte.
+~
+0 AD 3
+D0
+~
+~
+0 0 2330
+D1
+~
+~
+0 0 2335
+S
+#2332
+Sis'in Ýçinde~
+Hareket halindeki sis bütün görüþ alanýný kapadýðý için etrafta ümitsizce dolanmaktasýn.
+Herhangi bir yönde ilerleyebilirsin.
+~
+0 ADN 4
+D0
+~
+~
+0 0 2337
+D1
+~
+~
+0 0 2334
+D2
+~
+~
+0 0 2335
+D3
+~
+~
+0 0 2334
+S
+#2333
+Sis'in Ýçinde~
+Ýnce bir sis duvarý etrafýný sarmalamakta, etrafýný neredeyse göremiyorsun.
+Bir kör gibi ilerlemek zorundasýn, vede hiçbir ses duymamaktasýn. Dilediðin
+yönde ilerleyebilirsin.
+~
+0 ADN 3
+D0
+~
+~
+0 0 2333
+D1
+~
+~
+0 0 2336
+D2
+~
+~
+0 0 2333
+D3
+~
+~
+0 0 2335
+S
+#2334
+Sis'in Ýçinde~
+Sisin içerisine bakmaya çalýþýyorsun... Fakat nafile, sis seni arasýna almýþ,
+sanki seninle dalga geçer gibi oynuyor. Etrafta ne bir ses var, nede sis duvarýný
+delip geçen bir ýþýk. Kaybolduðuna eminsim.
+~
+0 ADN 4
+D0
+~
+~
+0 0 2338
+D1
+~
+~
+0 0 2332
+D2
+~
+~
+0 0 2336
+D3
+~
+~
+0 0 2332
+S
+#2335
+Sis'in Ýçinde~
+Bir bataklýðýn içerisine düþüyorsun, fakat kendini hemen toparlayýp kurtuluyorsun.
+Sanki bataklýk seni içine yuttu ve kaçmana izin vermiyor. Vede sis seni burada
+tutan hücre gardiyaný gibi davranýyor. Nerede olduðunu bilmiyorsun, ve birden
+küçük bir kahkaha duyuyorsun; nedense sana atýldýðýna emin gibisin.
+~
+0 ADN 4
+D0
+~
+~
+0 0 2332
+D1
+~
+~
+0 0 2333
+D2
+~
+~
+0 0 2337
+D3
+~
+~
+0 0 2331
+S
+#2336
+Sis'in Ýçinde~
+Sanki bir ömür boyu buradaydýn gibi gelmeye baþlýyor. Birden bire doðuda aðaçlar ve
+tepeler belirmeye baþlýyor. Sis duvarý etkisini kaybediyor.
+~
+0 ADN 4
+D0
+~
+~
+0 0 2334
+D1
+~
+~
+0 0 2339
+D2
+~
+~
+0 0 2338
+D3
+~
+~
+0 0 2333
+S
+#2337
+Sis'in Ýçinde~
+Sis duvarýnýn içerisindesin, sanki seni boðuyor; nefes almaný engelliyor. Üzerine
+her basýþýnda hafif bir ezilme sesi çýkýyor yerden, ama sis bu sesi soðurup
+yankýlanmasýný  engelliyor. Her yöne doðru gidebilmektesin.
+~
+0 ADN 4
+D0
+~
+~
+0 0 2335
+D1
+~
+~
+0 0 2338
+D2
+~
+~
+0 0 2332
+D3
+~
+~
+0 0 2338
+S
+#2338
+Sis'in Ýçinde~
+Hareket halindeki sis bütün görüþ alanýný kapadýðý için etrafta ümitsizce dolanmaktasýn.
+Herhangi bir yönde ilerleyebilirsin. Aceba bu lanet yerin çýkýþý nerede?
+~
+0 ADN 3
+D0
+~
+~
+0 0 2336
+D1
+~
+~
+0 0 2337
+D2
+~
+~
+0 0 2334
+D3
+~
+~
+0 0 2337
+S
+#2339
+Aðýr Zeminli Yol~
+Aðýr bir zemine sahip yol, sisin arasýndan belirginleþiyor. Bu yol kuzeye, ormanlýk
+bir araziye doðru devam etmekte. Ýnce aðaçlarýn arasýndan gökyüzünü görebilmektesin.
+Ýnce bir sis duvarý batýda kendisini göstermekte.
+~
+0 0 4
+D0
+~
+~
+0 0 2340
+D3
+~
+~
+0 0 2336
+S
+#2340
+Aðaçlý Yol~
+Bu yol küzeye ince bir koruya doðru devam etmekte. Yüksek çalýlar, ve ince
+aðaçlar yolun her iki tarafýndada boy göstermekte. Kuzeye baktýðýnda aðaçlarýn
+tepesinde kendisini gösteren bir duman görmektesin. Biraz dikkatli baktýðýnda ise
+kuzeyde aðaçtan yapýlmýþ büyük bir kapý görmektesin.
+~
+0 C 3
+D0
+~
+~
+0 0 2341
+D2
+~
+~
+0 0 2339
+S
+#2341
+Ogre Köyünün Önündeki Kapý~
+Aðaçtan yapýlmýþ kývrýmlý büyük bir kapýnýn önündesin. Kapý aðzýna kadar açýk
+olduðundan, içerideki köyü rahatlýkla görebiliyorsun. Aceba burada neyin yaþadýðýný
+düþünürken, birden Ogreleri farkediyorsun! Kapýnýn kuzeyine, köyün içine doðru devam
+edebilirsin, veyahut güneye, aðaçlý bir yola geri dönebilirsin.
+~
+0 0 3
+D0
+~
+~
+0 0 2343
+D2
+~
+~
+0 0 2340
+S
+#2342
+Derme çatma kulübelerin arasýnda~
+Ogre Köyünün kulübeleri arasýnda yürümektesin. Görünüþe göre ogreler köylerini
+ormanýn kalbinde kurmuþlar. Yakýndaki bataklýk onlara avcýlýk namýna büyük yarar saðlamakta.
+Küçük bir patika doðuya ve kuzeye doðru devam etmekte.
+~
+0 0 1
+D0
+~
+~
+0 0 2345
+D1
+~
+~
+0 0 2343
+S
+#2343
+Ogre Köyünün Ýçerisi~
+Ogre köyünün kapýlarýnýn kuzeyinde durmaktasýn. Bir sürü derme çatma yapýlmýþ
+kulübeler ve yemek ateþleri görmektesin. Kuzey tarafta kocaman ateþ alaný görmektesin.
+Onun arkasýndada çeþit çeþit kulübeler durmakta. Küçük bir yol doðuya ve batýya
+kulübelerin arasýna gitmekte. Köyün çýkýþý güney tarafýnda kalýyor.
+~
+0 0 1
+D0
+~
+~
+0 0 2346
+D1
+~
+~
+0 0 2344
+D2
+~
+~
+0 0 2341
+D3
+~
+~
+0 0 2342
+S
+#2344
+Derma Çatma Kulübelerin Arasýnda~
+Köyün içinde ilerliyorsun. Saman ve odundan yapýlmýþ kulübeler etrafýný sarmakta.
+Kulübelerin içerisinden çeþit çeþit sesler duymaktasýn. Ýnanýlmaz bir koku seni
+neredeyse bayýltacak. Böyle bir yerde nasýl bir canlý yaþadýðýný merak etmektesin.
+Küçük bir yol batýya ve kuzeye doðru devam etmekte.
+~
+0 0 1
+D0
+~
+~
+0 0 2347
+D3
+~
+~
+0 0 2343
+S
+#2345
+Toplanma Yeri~
+Görünüþe göre burasý Ogrelerin toplandýðý bir yer. Oldukça geniþ ve ortasýnda
+kocaman bir taht bulunmakta. Yerdeki izlere göre tahtýn hemen önü oldukça
+kullanýlmýþ olsa gerek. Burada toplanýp savaþtan önce, ve sonra tören yapýldýðý
+hissine kapýlýyorsun. Küçük bir patika doðuya ve güneye doðru devam etmekte.
+~
+0 0 1
+D1
+~
+~
+0 0 2346
+D2
+~
+~
+0 0 2342
+S
+#2346
+Geniþ Ateþ Alaný~
+Ateþ alanýnýn önünde duruyorsun. Dýþarýdaki soðuktan sonra ateþin önünde
+durduðun her an kendine gelmektesin. Alanýn önündeki kafesler boþ, fakat
+maceracýlarý hapsetmek için oldukça geniþ olduklarýda gözünden kaçmýyor.
+Kuzey tarafta ogreler misafirlerini kabul ediyorlar. Doðuya, batýya ve güneye
+doðru köyün içerilerine giden yollar bulunmakta.
+~
+0 0 1
+D0
+~
+door~
+1 -1 2348
+D1
+~
+~
+0 0 2347
+D2
+~
+~
+0 0 2343
+D3
+~
+~
+0 0 2345
+S
+#2347
+Köyün Çöplüðü~
+Buradaki koku neredeyse seni ele geçirecek derecede kuvvetli. Etrafýnda
+köylülerin yemeklerinin artýklarý bulunmakta; yarý yenmiþ cesetleri, çürümekte
+olan yemekler ve diðer iðrenç þeyler. Yol güneye ve batýya daha temiz
+havayla kaplý alana doðru devam etmekte.
+~
+0 0 1
+D2
+~
+~
+0 0 2344
+D3
+~
+~
+0 0 2346
+S
+#2348
+Misafirhane'nin Giriþi~
+Misafirhanenin giriþindesin. Duvarlarda bir sürü av hatýralarý bulunmakta.
+Diðer kýsýmlarda ise geniþ sandýklar bulunmakta. Doðudaki ve batýdaki
+kapýlar kilitli, misafirhane kuzeye doðru devam ediyor. Güneyde ise
+misafirhanenin çýkýþý bulunmakta.
+~
+0 D 0
+D0
+~
+~
+0 -1 2349
+D2
+~
+door~
+1 -1 2346
+S
+#2349
+Taht Odasý~
+Kötü dekore edilmiþ taht odasýnda bulunuyorsun. Ýnsan ve diðer canlýlarýn
+kafataslarýyla dekore edilmiþ bir taht odanýn ortasýnda oturmakta. Kuzeye
+ve güneye doðru açýlan kapýlar bulunmakta.
+~
+0 D 0
+D0
+~
+~
+0 0 2350
+D2
+~
+~
+0 0 2348
+S
+#2350
+Ogre Þef'inin Odasý~
+Ogre Þefinin özel odasýnda bulunuyorsun. Odanýn bir köþesinde bir çuval dolusu
+kürk bulunmakta iken, diðer köþesinde kocaman sandýklar bulunuyorr. Bütün
+sandýklarýn kendilerine özel kilitleri bulunmakta. Odanýn içerisinde bir sürü savaþ
+ve av hatýralarý bulunurken, ölü düþmanlarýn cesetleride duvarlarý süslemekte.
+Bir ogreye göre daha bir güzel dekore edilmiþ olduðu gözünden kaçmýyor, odanýn
+tek çýkýþý güney tarafýnda bulunuyor.
+~
+0 D 0
+D2
+~
+~
+0 0 2349
+S
+#2351
+Issýz Donmuþ Topraklar~
+Issýz donmuþ topraklarda gezinmektesin. Nefesini verdiðin anda hemen önünde
+bir buhar olarak oluþmaya baþlamakta. Yaðan kar, ve esen rüzgar nerede olduðunu
+anlamaný imkansýz hale getiriyor.
+~
+0 0 5
+D0
+~
+~
+0 0 2353
+D1
+~
+~
+0 0 2352
+D2
+~
+~
+0 0 2355
+D3
+~
+~
+0 0 2354
+S
+#2352
+Issýz Donmuþ Topraklar~
+Issýz donmuþ topraklarda gezinmektesin. Nefesini verdiðin anda hemen önünde
+bir buhar olarak oluþmaya baþlamakta. Yaðan kar, ve esen rüzgar nerede olduðunu
+anlamaný imkansýz hale getiriyor.
+~
+0 0 5
+D0
+~
+~
+0 -1 2357
+D1
+~
+~
+0 -1 2354
+D2
+~
+~
+0 -1 2358
+D3
+~
+~
+0 0 2351
+S
+#2353
+Buzlu Tapýnak~
+Küçük bir tapýnaðýn içindesin, görünüþe göre tamamen buzdan yapýlmýþ. Donmuþ
+duvarlarla çevrili bu tapýnakta mavi bir geçit görmektesin. Ya kuzeye gider, geçide
+girersin, yada güneye karlý bir diyara adým atarsýn. Yaðan kar yüzünden her geçen
+saniye görüþ alanýn dahada azalmakta.
+~
+0 D 0
+D0
+~
+~
+0 0 2326
+D2
+~
+~
+0 0 2351
+S
+#2354
+Issýz Donmuþ Topraklar~
+Issýz donmuþ topraklarda gezinmektesin. Nefesini verdiðin anda hemen önünde
+bir buhar olarak oluþmaya baþlamakta. Yaðan kar, ve esen rüzgar nerede olduðunu
+anlamaný imkansýz hale getiriyor.
+~
+0 0 5
+D0
+~
+~
+0 0 2359
+D1
+~
+~
+0 0 2351
+D2
+~
+~
+0 0 2356
+D3
+~
+~
+0 0 2352
+S
+#2355
+Issýz Donmuþ Topraklar~
+Issýz donmuþ topraklarda gezinmektesin. Nefesini verdiðin anda hemen önünde
+bir buhar olarak oluþmaya baþlamakta. Yaðan kar, ve esen rüzgar nerede olduðunu
+anlamaný imkansýz hale getiriyor.
+~
+0 0 5
+D0
+~
+~
+0 0 2351
+D1
+~
+~
+0 0 2356
+D2
+~
+~
+0 0 2357
+D3
+~
+~
+0 0 2356
+S
+#2356
+Issýz Donmuþ Topraklar~
+Issýz donmuþ topraklarda gezinmektesin. Nefesini verdiðin anda hemen önünde
+bir buhar olarak oluþmaya baþlamakta. Yaðan kar, ve esen rüzgar nerede olduðunu
+anlamaný imkansýz hale getiriyor.
+~
+0 0 5
+D0
+~
+~
+0 0 2354
+D1
+~
+~
+0 0 2355
+D2
+~
+~
+0 0 2359
+D3
+~
+~
+0 0 2355
+S
+#2357
+Issýz Donmuþ Topraklar~
+Issýz donmuþ topraklarda gezinmektesin. Nefesini verdiðin anda hemen önünde
+bir buhar olarak oluþmaya baþlamakta. Yaðan kar, ve esen rüzgar nerede olduðunu
+anlamaný imkansýz hale getiriyor.
+~
+0 0 5
+D0
+~
+~
+0 0 2355
+D1
+~
+~
+0 0 2358
+D2
+~
+~
+0 0 2352
+D3
+~
+~
+0 0 2359
+S
+#2358
+Issýz Donmuþ Topraklar~
+Issýz donmuþ topraklarda gezinmektesin. Nefesini verdiðin anda hemen önünde
+bir buhar olarak oluþmaya baþlamakta. Yaðan kar, ve esen rüzgar nerede olduðunu
+anlamaný imkansýz hale getiriyor.
+~
+0 0 5
+D0
+~
+~
+0 0 2352
+D1
+~
+~
+0 0 2359
+D2
+~
+~
+0 0 2360
+D3
+~
+~
+0 0 2357
+S
+#2359
+Issýz Donmuþ Topraklar~
+Issýz donmuþ topraklarda gezinmektesin. Nefesini verdiðin anda hemen önünde
+bir buhar olarak oluþmaya baþlamakta. Yaðan kar, ve esen rüzgar nerede olduðunu
+anlamaný imkansýz hale getiriyor.
+~
+0 0 5
+D0
+~
+~
+0 0 2356
+D1
+~
+~
+0 0 2357
+D2
+~
+~
+0 0 2354
+D3
+~
+~
+0 0 2358
+S
+#2360
+Issýz Donmuþ Topraklarýn Ucu~
+Kayalýklý bir tepenin aþaðýsýnda bulunuyorsun. Kuzeyde, ýssýz donmuþ topraklar
+bulunmakta. Kar yaðýþý burada az olduðu için, tepeye týrmanman mümkün.
+~
+0 C 5
+D0
+~
+~
+0 0 2358
+D4
+~
+~
+0 0 2361
+S
+#2361
+Tepenin Yamacý~
+Tepenin yamacýnda bulunuyorsun, aþþaðýya baktýðýnda tepenin yüksekliði
+gözünü bir an için korkutuyor. Ýstersen tepenin doruðuna kadar týrmanabilirsin,
+fakat dorukta ne olduðunu bulutlar yüzünden göremiyorsun.
+~
+0 C 5
+D4
+~
+~
+0 0 2362
+D5
+~
+~
+0 0 2360
+S
+#2362
+Mahn-Tor Þehrinin Kapýlarý~
+Tepenin doruðunda bulunuyorsun, güneye baktýðýn zaman devasa bir kapý
+görmektesin. Bu kapýlarýn tamamen buzdan yapýldýðýný kolaylýkla anlýyorsun.
+Oldukça büyük bir þehir, ve onun içerisindeki kale gözüne çarpmakta. Dilersen
+aþþaðý inebilirsin.
+~
+0 0 5
+D2
+~
+gate huge gates ice~
+1 -1 2364
+D5
+~
+~
+0 0 2361
+E
+kapý kapýlar buz geniþ~
+Kapýlar neredeyse tamamen buzdan yapýlmýi dikkatlice baktýðýnda kapýya, kapýnýn
+üzerinde yarým insan, yarým öküz gibi çeþit çeþit cesetler görüyorsun.
+~
+S
+#2363
+Mahn-Tor Þehrinin Caddesi~
+Donmuþ dükkan ve evlerin önünden geçiyorsun. Çoðu kapýlar kapalý, ve camlara
+baktýðýnda ise içerilerde ýþýk görmektesin. Oldukça soðuk bir rüzgar bedenine çarpmakta.
+Cadde doðuya ve güneye doðru devam ediyor.
+~
+0 0 1
+D1
+~
+~
+0 0 2364
+D2
+~
+~
+0 0 2366
+S
+#2364
+Mahn-Tor Kapýlarýnýn Ýçerisi~
+Mahn-Tor Kapýlarýnýn Ýçerisinde duruyorsun. Bütün þehir gözlerinin önünde
+serilmiþ durumda; yapýlar oldukça saðlanmýþ fakat buzlanmýþ halde duruyor.
+Yaðan kar, ve soðuk havanýn etkisiyle caddeler buzlanmýþ durumda. Þehrin
+caddeleri doðuya ve batýya doðru devam ediyor. Ana cadde ise güneyinde kalýyor.
+~
+0 0 1
+D0
+~
+kapýlar kapý buz~
+1 -1 2362
+D1
+~
+~
+0 -1 2365
+D2
+~
+~
+0 0 2367
+D3
+~
+~
+0 -1 2363
+S
+#2365
+Mahn-Tor Þehrinin Caddesi~
+Mahn-Tor þehrinin donmuþ sokaklarýnda yürüyorsun. Mermerden yapýlmýþ caddede
+ilerlerken dikkatli adýmlar atmaktasýn. Küçük evler, ve kapalý dükkanlar etrafý kaplýyor.
+Cadde batýya ve güneye doðru devam ediyor.
+~
+0 0 1
+D2
+~
+~
+0 0 2368
+D3
+~
+~
+0 0 2364
+S
+#2366
+Mahn-Tor Þehrinin Caddesi~
+Mahn-Tor þehrinin donmuþ sokaklarýnda yürüyorsun. Mermerden yapýlmýþ caddede
+ilerlerken dikkatli adýmlar atmaktasýn. Küçük evler, ve kapalý dükkanlar etrafý kaplýyor.
+Güneyde bir tane taverna gözüne çarpmakta. Penceresinden gelen parlak ýþýklar neredeyse
+seni içeriye çekiyor. Cadde kuzeye ve doðuya doðru devam ediyor.
+Tavernanýn üzerinde küçük bir tabela gözüne çarpýyor.
+~
+0 0 1
+D0
+~
+~
+0 0 2363
+D1
+~
+~
+0 -1 2367
+D2
+~
+~
+0 -1 2369
+E
+küçük tabela~
+[]==============[]
+ |  Kýrýlmýþ    |
+ |   Boynuz     |
+ |  Tavernasý   |
+[]==============[]
+~
+S
+#2367
+Mahn-Tor Meydaný~
+Meydanýn tam ortasýnda akan çelme, soðuðun etkisiyle donmuþ durumda.
+Buz ve karlarýn kapladýðý meydan, doðuda ve batýda küçük caddelere uzanmakta.
+Kuzeyde, Mahn-Tor þehrinin kapýlarýný görebilmektesin. Güneyde ise küçük bir dükkan
+görmektesin.
+Dükkanýn kapýsýna küçük bir not asýlmýþ.
+~
+0 0 1
+D0
+~
+~
+0 0 2364
+D1
+~
+~
+0 0 2368
+D2
+~
+~
+0 0 2370
+D3
+~
+~
+0 0 2366
+E
+not~
+[]======)====[]
+ |  Ekipman  |
+ |  Dükkaný  |
+[]=====)=====[]
+~
+S
+#2368
+Mahn-Tor Þehrinin Caddesi~
+Mahn-Tor þehrinin donmuþ sokaklarýnda yürüyorsun. Mermerden yapýlmýþ caddede
+ilerlerken dikkatli adýmlar atmaktasýn. Küçük evler, ve kapalý dükkanlar etrafý kaplýyor.
+Cadde her yöne doðru devam ediyor. Doðuda büyük bir yapý görmektesin.
+~
+0 0 1
+D0
+~
+~
+0 0 2365
+D1
+~
+~
+0 0 2375
+D2
+~
+~
+0 0 2371
+D3
+~
+~
+0 0 2367
+S
+#2369
+Kýrýlmýþ Boynuz Tavernasý~
+Sýcak bir tavernanýn içerisindesin, her odada iki tane þömine bulunmakta. Küçük
+masalar ve bar odanýn tek dekoru. Tavernada bir sürü minotaur bulunmakta, çoðu
+sana þüpheli bir þekilde bakýyor, bazýlarý ise sana yaklaþýyor. Büyük bir kapý kuzeye
+tavernanýn dýþarýsýna doðru uzanýyor.
+~
+0 D 0
+D0
+~
+~
+0 0 2366
+S
+#2370
+Mahn-Tor Ekipman Dükkaný~
+Ekipman dükkanýn içerisindesin, burada maceracýlar için getirtilmiþ özel ekipmanlar
+satýlmakta. Büyük þöminelerle ýsýnan ve aydýnlanan odanýn arka tarafýnda bir tane
+masa bulunmakta. Dükkanýn kapýsý kuzeyde duruyor.
+~
+0 D 0
+D0
+~
+~
+0 0 2367
+S
+#2371
+Mahn-Tor Terkedilmiþ Dükkan~
+Küçük bir dükkana giriyorsun; dükkanýn içerisi soðuk ve karanlýk. Dükkanýn içi
+boþ raflarla kaplanmýþ. Bir zamanlar kullanýlmýþ olduðu belli olan bu dükkanda
+artýk hiçbirþey olmadýðý aþikar durumda. Küçük bir kapý kuzeye doðru açýlmakta.
+~
+0 D 0
+D0
+~
+~
+0 0 2368
+S
+#2372
+Gorak'ýn Çalýþma Odasý~
+Bu odada herçeþit zýrh ve silah bulunmakta. Bir sürü kum torbasý, ve kukla
+pratik amacýyla burada dizilmiþ. Bu odanýn efendisinin bir savaþçý olduðundan
+hiç þüphen yok, kýrmýzý bir kapý doðuya doðru açýlýyor.
+~
+0 D 0
+D1
+~
+kýrmýzý~
+2 2351 2388
+E
+kýrmýzý~
+Koridora açýlan kýrmýzý kapý.
+~
+S
+#2373
+Darkoth'un Karanlýk Sanatlar Odasý~
+Oda oldukça karanlýk, her tarafta ölüm ve kem ile anýlabilecek eþyalar bulunmakta.
+Kadim semboller duvarlarý süslemekte, kanlar içinde bir çember gözüne çarpmakta.
+Bu odanýn kutsal bir amaç için kullanýlmadýðý aþikar. Siyah bir kapý doðuya doðru
+açýlmakta.
+~
+0 AD 0
+D1
+~
+siyah~
+2 2352 2389
+E
+siyah~
+Siyah bir kapý koridora açýlmakta.
+~
+S
+#2374
+Tyrgoth'un Kutsal Mabedi~
+Ýyilik tanrýlarýnýn idolleri odayý doldurmakta. Beyaz mobilyalar ve dekorasyon, odaya
+kutsal bir görünüm vermekte. Ýyiliðin bir savaþçýsý veya kulunun burada yaþadýðýndan
+þüphe yok. Beyaz bir kapý doðuya açýlýyor.
+~
+0 D 0
+D1
+~
+beyaz~
+2 2353 2392
+E
+beyaz~
+Beyaz bir kapý koridora açýlmakta.
+~
+S
+#2375
+Mahn-Tor kalesine giden yol~
+Kayalýklý bir yolda yürüyorsun. Doðuda sarp bir yol görüyorsun, sarp yolun sonundaki
+kale rahatlýkla görülüyor. Soðuk havayý soludukça ciðerlerin donuyor, parlak ýþýklar doðudaki
+sarp yolda yanmakta.
+~
+0 C 5
+D1
+~
+~
+0 0 2377
+D3
+~
+~
+0 0 2368
+S
+#2376
+Küçük Muhafýz Odasý~
+Küçük bir muhafýz odasýna giriyorsun, kocaman bir þömine odayý ýsýtýp, aydýnlatmakta.
+Odanýn etrafýna baktýðýnda oldukça iyi dekore edildiði gözüne çarpýyor, ince halýlar
+ve perdeler odanýn sýcak kalmasýna yardýmcý oluyor. Küçük bir kapý güneye doðru açýlýyor.
+~
+0 D 0
+D2
+~
+~
+0 0 2377
+S
+#2377
+Mahn-Tor Kalesinin Önü~
+Büyük bir kalenin önünde duruyorsun. Tahtadan yapýlmýþ kapýlar kalenin giriþini
+saðlamakta. Havanýn soðuk olmasý nedeniyle muhafýzlarýn "çoðu" sýcak yerlere
+çekilmiþler. Þehrin ýþýklarý batýda parlamakta, kuzeyde ve güneyde küçük muhafýz
+odalarý görmektesin.
+~
+0 0 1
+D0
+~
+~
+0 0 2376
+D1
+~
+kapý~
+2 2350 2379
+D2
+~
+~
+0 0 2378
+D3
+~
+~
+0 0 2375
+S
+#2378
+Küçük Muhafýz Odasý~
+Küçük bir muhafýz odasýna giriyorsun, kocaman bir þömine odayý ýsýtýp, aydýnlatmakta.
+Odanýn etrafýna baktýðýnda oldukça iyi dekore edildiði gözüne çarpýyor, ince halýlar
+ve perdeler odanýn sýcak kalmasýna yardýmcý oluyor. Küçük bir kapý kuzeye doðru açýlýyor.
+~
+0 D 0
+D0
+~
+~
+0 0 2377
+S
+#2379
+Mahn-Tor Kalesinin Giriþi~
+Devasa kalenin giriþindesin. Kaleyi cücelerin yaptýðýný anlamak hiçte zor deðil,
+klasik cüce iþçiliði ile taþtan yapýlmýþ bir kalenin karþýsýndasýn. Kocaman bir çift
+kapý batý tarafýnda kaleyi dýþarýnýn soðuðundan korumakta. Geniþ bir koridor doðuda
+uzanmaktayken, kalenin derinlerine doðru ilerliyor.
+~
+0 D 0
+D1
+~
+~
+0 0 2380
+D3
+~
+kapý~
+2 2350 2377
+S
+#2380
+Geniþ Koridor~
+Geniþ bir koridordasýn, koridor boyunca çeþitli resimler, ve heykeller görmektesin.
+Koridorun tepesindeki þamdanlar, koridoru aydýnlatmakta. Doðudan gelen sesler, ve
+parlak ýþýk dikkatini çekmekte. Batýda ise kalenin giriþi gözükmekte
+~
+0 D 0
+D1
+~
+~
+0 0 2381
+D3
+~
+~
+0 0 2379
+S
+#2381
+Ana Koridor~
+Mahn-Tor Kalesinin ana koridorundasýn. Koridor oldukça geniþ ve uzun;
+duvarlara asýlý olan meþaleler aracýlýðýyla zar zor aydýnlanmakta. Doðuda
+devasa altýn bir taht görüyorsun, koridor güneye doðru devam ediyor.
+Küçük bir koridor ise batýya doðru uzanmakta.
+~
+0 D 0
+D1
+~
+~
+0 0 2383
+D2
+~
+~
+0 0 2382
+D3
+~
+~
+0 0 2380
+S
+#2382
+Büyük Koridor~
+Kalenin içerisinde büyük bir koridordasýn. Duvarlarda bulunan meþaleler ile aydýnlanan
+bu büyük koridor, kuzeye ve doðuya doðru devam ederken, küçük bir koridor ise
+güneye, kalenin derinliklerine doðru devam etmekte.
+~
+0 D 0
+D0
+~
+~
+0 -1 2381
+D1
+~
+~
+0 0 2384
+D2
+~
+~
+0 -1 2387
+S
+#2383
+Tahtýn önünde~
+Mahn-Tor'un Tahtýnýn önünde duruyorsun, taht o kadar büyükki, neredeyse
+bütün duvarý kaplamakta. Koridor güneye ve batýya doðru devam etmekte.
+~
+0 D 0
+D1
+~
+taht altýn büyük~
+1 0 2385
+D2
+~
+~
+0 0 2384
+D3
+~
+~
+0 0 2381
+E
+taht büyük altýn~
+Taht çok büyük...
+~
+S
+#2384
+Büyük koridor~
+Kalenin içerisinde büyük bir koridordasýn. Duvarlarda bulunan meþaleler ile aydýnlanan
+bu büyük koridor, kuzeye ve batýya doðru devam ederken, kuzeyde büyük bir altýn taht
+gözüne çarpmakta. Koridorun yüksekliði baþýný hafifçe döndürüyor.
+~
+0 D 0
+D0
+~
+~
+0 0 2383
+D3
+~
+~
+0 0 2382
+S
+#2385
+Gizli Koridor~
+Bir meþale ile aydýnlanan küçük bir koridordasýn. Koridor batý kanadýný doðu kanadý ile
+birleþtirmekte. Geniþ altýn bir kapý batýda dururken, doðuda ise geniþ taþtan bir kapý bulunuyor.
+~
+0 D 0
+D1
+~
+kapý büyük taþ~
+2 2359 2386
+D3
+~
+altýn gizli~
+1 0 2383
+E
+kapý büyük taþ~
+Oldukça saðlam görünüþlü bir kapý.~
+E
+altýn~
+Gizli bir kapýnýn arka tarafýnýn görüntüsüne benziyor.
+~
+S
+#2386
+Yatak Odalarýnýn Giriþi~
+Yatak odalarýnýn giriþindesin. Kocaman bir halý bütün yeri kaplarken,
+tavana asýlý þamdanlar burayý aydýnlatmakta. Kocaman bir þömine ise odayý
+ýsýtmakta. Güneyde ve doðuda yatak odalarýný görmektsin. Kocaman taþtan
+bir kapý ise batýya açýlmakta.
+~
+0 D 0
+D1
+~
+~
+0 0 2395
+D2
+~
+~
+0 0 2393
+D3
+~
+kapý büyük taþ~
+2 2359 2385
+E
+kapý büyük taþ~
+Kocaman taþtan yapýlmýþ bir kapý...
+~
+S
+#2387
+Muhafýzlý Koridor~
+Muhafýzlarýn bulunduðu koridor oldukça geniþ, acil bir durumda kolaylýkla
+burayý korumayý kolaylaþtýracak derecede. Muhtemelen buranýn sonunda,
+çok öenmli birþey bulunmakta. Küçük bir koridor güneye ilerleken, kuzeyde
+ise ana koridor bulunmakta.
+~
+0 D 0
+D0
+~
+~
+0 0 2382
+D2
+~
+~
+0 0 2388
+S
+#2388
+Korunan Koridor~
+Meþaleler ile aydýnlanan bir koridorda ilerliyorsun. Koridorda kimseden çýt çýkmýyor,
+her duvarda renkli bir kapý bulunmakta. Doðuda sarý bir kapý, batýda kýrmýzý bir kapý
+bulunmakta. Koridor güneye ve kuzeye doðru uzanýyor.
+~
+0 D 0
+D0
+~
+~
+0 0 2387
+D1
+~
+sarý~
+2 2355 2390
+D2
+~
+~
+0 0 2389
+D3
+~
+kýrmýzý~
+2 2351 2372
+E
+sarý~
+Üzerinde "Sumaron" yazan sarý bir kapý burada duruyor.
+~
+E
+kýrmýzý~
+Üzerinde "Gorak" yazan kýrmýzý bir kapý burada duruyor.
+~
+S
+#2389
+Korunan Koridor~
+Meþaleler ile aydýnlanan bir koridorda ilerliyorsun. Koridorda kimseden çýt çýkmýyor,
+her duvarda renkli bir kapý bulunmakta. Doðuda maron renkli bir kapý, batýda siyah
+bir kapý bulunmakta. Koridor güneye ve kuzeye doðru uzanýyor.
+
+~
+0 D 0
+D0
+~
+~
+0 0 2388
+D1
+~
+maron~
+2 2356 2391
+D2
+~
+~
+0 0 2392
+D3
+~
+siyah~
+2 2352 2373
+E
+Maron renkli~
+Üzerinde "Amyrok" yazan maron renkli bir kapý burada duruyor.
+~
+E
+siyah~
+Üzerinde "Darkoth" yazan siyah bir kapý burada duruyor.
+~
+S
+#2390
+Sumaron'un Mabedi~
+Bir çeþit mabede girdin. Küçük bir tapýnak olduðunu düþünmeye baþlýyorsun,
+her tarafta çeþit çeþit dinleri anýmsatan iþaretler bulunmakta. Bu odada bir
+ermiþin yaþadýðýndan eminsin. Batýda sarý bir kapý görüyorsun.
+~
+0 D 0
+D3
+~
+sarý~
+2 2355 2388
+E
+sarý~
+Koridora uzanan sarý bir kapý.
+~
+S
+#2391
+Amyrok'un Kadim Sanatlarý Çalýþtýðý Odasý~
+Bu oda bir sürü büyülerin bulunduðu parþömenlerle kaplý raflar ile çevrelenmekte.
+Odanýn ortasýnda kocaman bir pentagram bulunmakta, odadan gelen duman kokusu,
+parþömenler ve pentagram burada bir büyücünün olduðundan emin olmana sebebiyet
+veriyor. Maron renkli bir kapý batýya doðru açýlýyor.
+~
+0 D 0
+D3
+~
+maron~
+2 2356 2389
+E
+maron renkli~
+Maron renkli kapý koridora açýlýyor.
+~
+S
+#2392
+Korunan Koridor~
+Meþaleler ile aydýnlanan bir koridorda ilerliyorsun. Koridorda kimseden çýt
+çýkmýyor, her duvarda renkli bir kapý bulunmakta. Doðuda yeþil bir kapý,
+batýda ise beyaz bir kapý bulunmakta. Koridor güneye ve kuzeye doðru uzanýyor.
+
+~
+0 D 0
+D0
+~
+~
+0 0 2389
+D1
+~
+yeþil~
+2 2357 2394
+D2
+~
+~
+0 0 2397
+D3
+~
+beyaz~
+2 2353 2374
+E
+yeþil~
+Üzerinde "Nasturn" yazan yeþil bir kapý.
+~
+E
+beyaz~
+Üzerinde "Tyrgoth" yazan beyaz bir kapý burada duruyor.
+~
+S
+#2393
+Harem Odasý~
+Görünüþe göre burasý kalenin harem odasý. Odanýn her tarafýnda kürkler ve
+yataklar bulunmakta. Oda loþ bir ýþýkla aydýnlanýyor, fakat oldukça sýcak. Bir yerlerden
+çalan müzik sesi kulaðýnda çýnlýyor. Kuzeye ve doðuya doðru yatak odalarý görüyorsun.
+~
+0 D 0
+D0
+~
+~
+0 0 2386
+D1
+~
+~
+0 0 2396
+S
+#2394
+Nasturn'un Mütevazi Odasý~
+Bu oda bir sürü doðal eþyalarla kaplý, aðaçlar ve bitkiler bu odada bir druidin yaþadýðýný
+iþaret etmekte. Yeþil bir kapý batýya doðru açýlýyor.
+~
+0 D 0
+D3
+~
+yeþil~
+2 2357 2392
+E
+yeþil~
+Yeþil kapý koridora doðru açýlýyor.
+~
+S
+#2395
+Oturma Odasý~
+Taþlarla yontulmuþ bir çok þekil bu odayý dekora ediyor. Ýnce bir halý yerleri
+kaplamaktayken, kürkler ve resimlerde duvarlarý kaplamakta. Güneyde ve batýda
+yatak odalarý bulunmakta.
+~
+0 D 0
+D2
+~
+~
+0 0 2396
+D3
+~
+~
+0 0 2386
+S
+#2396
+Mahn-Tor'un Yatak Odasý~
+Mahn-Tor'un yatak odasý olduðu aþikar durumda. Gördüðün en büyük yatak, odanýn
+neredeyse yarýsýný kaplýyor durumda, her yerde bulunan mumlar ile þömine odayý
+aydýnlatýp, ýsýtma görevini üstleniyor. Kuzeyde ve batýda duran kapýlar gözüne çarpmakta.
+~
+0 DH 0
+D0
+~
+~
+0 0 2395
+D3
+~
+~
+0 0 2393
+S
+#2397
+Korunan Koridorun Sonu~
+Koridorun sonundasýn. Renkli kapýlar koridorun duvarlarýnda dizilmekte. Batý
+duvarýnda kahverengi bir kapý görüyorsun, doðu duvarlarýnda ise gri bir kapý
+gözükmekte. Koridor kuzeye doðru devam etmekte.
+~
+0 D 0
+D0
+~
+~
+0 0 2392
+D1
+~
+gri~
+2 2358 2398
+D3
+~
+kahverengi~
+2 2354 2399
+E
+gri~
+Üzerinde "Dorgar" yazan gri bir kapý durmakta.
+~
+E
+kahverengi~
+Üzerinde "Belrak" yazýlý kahverengi bir kapý durmakta.
+~
+S
+#2398
+Dorgar'ýn Sönük Odasý~
+Oda oldukça kirli ve daðýnýk durumda. Her tarafta alakasýz farklý eþyalar bulunmakta.
+Görünüþe göre bu odaya giren eþyalarýn hiçbiri, birdaha bu odadan çýkmamýþ. "Gri" bir
+kapý batýya doðru açýlmakta.
+~
+0 D 0
+D3
+~
+gri~
+2 2358 2397
+E
+gri~
+Koridora çýkan kapý.
+~
+S
+#2399
+Belrak'ýn Yeþil Odasý~
+Odanýn her tarafý yemyeþil; bütün mobilyalar ve diðer eþyalarýn hepsi doðanýn rengini
+göstermekte. Odanýn her tarafý doðanýn belirgin nesneleri kokmakta. Görünüþe göre
+burada bir korucu yaþamakta. "Kahverengi" bir kapý doðuya doðru açýlmakta.
+~
+0 D 0
+D1
+~
+kahverengi~
+2 2354 2397
+E
+kahverengi~
+Koridora açýlan bir kapý.
+~
+S
+#0
+
+#RESETS
+M 0 2300   1 2307  1	* the Dark Ethereal Knight
+E 1 2346   5    5	*   a suit of ethereal plate
+E 1 2347   5    6	*   an ethereal helm
+E 1 2348  10   16	*   an ethereal blade
+M 0 2301   1 2314  1	* the Old Treant
+M 0 2302   1 2316  1	* the Cave Dweller
+M 0 2303   4 2311  1	* the Rock Toad
+M 0 2303   4 2312  1	* the Rock Toad
+M 0 2303   4 2313  1	* the Rock Toad
+M 0 2303   4 2319  1	* the Rock Toad
+M 0 2304   1 2330  1	* the Weeping Willow
+G 1 2349  15     	*   a willow branch
+M 0 2305   3 2332  1	* the Mistling
+M 0 2305   3 2337  1	* the Mistling
+M 0 2305   3 2333  1	* the Mistling
+M 0 2306   1 2336  1	* the Swamp Wraith
+G 1 2384  20     	*   a misty potion
+M 0 2307   5 2346  1	* the Ogre Villager
+E 1 2385  25   13	*   a belt pouch
+M 0 2307   5 2343  1	* the Ogre Villager
+E 1 2385  25   13	*   a belt pouch
+M 0 2307   5 2345  1	* the Ogre Villager
+M 0 2307   5 2348  1	* the Ogre Villager
+M 0 2307   5 2344  1	* the Ogre Villager
+M 0 2308   4 2347  1	* the Ogre Warrior
+E 1 2386  25   16	*   an ogre spear
+M 0 2308   4 2342  1	* the Ogre Warrior
+E 1 2386  25   16	*   an ogre spear
+M 0 2308   4 2348  1	* the Ogre Warrior
+E 1 2386  25   16	*   an ogre spear
+M 0 2308   4 2346  1	* the Ogre Warrior
+E 1 2386  25   16	*   an ogre spear
+M 0 2309   4 2348  1	* the Ogre Guard
+E 1 2387  25   16	*   an ogre war club
+M 0 2309   4 2342  1	* the Ogre Guard
+E 1 2387  25   16	*   an ogre war club
+M 0 2309   4 2341  2	* the Ogre Guard
+E 1 2387  25   16	*   an ogre war club
+M 0 2309   4 2341  2	* the Ogre Guard
+E 1 2387  25   16	*   an ogre war club
+M 0 2310   1 2349  1	* The Ogre Shaman
+E 1 2388  20   12	*   a bearskin cloak
+E 1 2389  10    6	*   a pair of feathered earrings
+M 0 2311   1 2350  1	* the Ogre Chieftain
+E 1 2390   5    9	*   gauntlets of ogre power
+E 1 2391  10   16	*   a massive club
+M 0 2312   3 2351  1	* the Plains Barbarian
+E 1 2392  20    4	*   a thick fur cape
+E 1 2393  20    5	*   a fur lined tunic
+E 1 2360  20    8	*   a pair of fur lined boots
+M 0 2312   3 2354  1	* the Plains Barbarian
+E 1 2392  20    4	*   a thick fur cape
+E 1 2393  20    5	*   a fur lined tunic
+E 1 2360  20    8	*   a pair of fur lined boots
+M 0 2312   3 2359  1	* the Plains Barbarian
+E 1 2392  20    4	*   a thick fur cape
+E 1 2393  20    5	*   a fur lined tunic
+E 1 2360  20    8	*   a pair of fur lined boots
+M 0 2313   3 2357  1	* the White Yeti
+E 1 2361  20   12	*   the white pelt of a yeti
+M 0 2313   3 2359  1	* the White Yeti
+E 1 2361  20   12	*   the white pelt of a yeti
+M 0 2313   3 2355  1	* the White Yeti
+E 1 2361  20   12	*   the white pelt of a yeti
+M 0 2314   3 2352  1	* the Ice Worm
+M 0 2314   3 2354  1	* the Ice Worm
+M 0 2314   3 2356  1	* the Ice Worm
+M 0 2315   5 2363  1	* the Minotaur Citizen
+E 1 2362  35   16	*   a kopesh sword
+M 0 2315   5 2367  1	* the Minotaur Citizen
+E 1 2362  35   16	*   a kopesh sword
+M 0 2315   5 2365  1	* the Minotaur Citizen
+E 1 2362  35   16	*   a kopesh sword
+M 0 2315   5 2364  1	* the Minotaur Citizen
+E 1 2362  35   16	*   a kopesh sword
+M 0 2315   5 2370  1	* the Minotaur Citizen
+E 1 2362  35   16	*   a kopesh sword
+M 0 2316   3 2368  1	* the Minotaur Guard
+E 1 2363  15   10	*   a pair of steel vambraces
+E 1 2364  15    7	*   a pair of steel greaves
+E 1 2365  10   16	*   a battle axe
+M 0 2316   3 2366  1	* the Minotaur Guard
+E 1 2363  15   10	*   a pair of steel vambraces
+E 1 2364  15    7	*   a pair of steel greaves
+E 1 2365  10   16	*   a battle axe
+M 0 2316   3 2362  1	* the Minotaur Guard
+E 1 2363  15   10	*   a pair of steel vambraces
+E 1 2364  15    7	*   a pair of steel greaves
+E 1 2365  10   16	*   a battle axe
+M 0 2317   3 2367  1	* the Minotaur Warrior
+E 1 2366  15    5	*   a steel breast plate
+E 1 2367  15    6	*   a steel helm
+E 1 2368  10   16	*   a huge halberd
+M 0 2317   3 2376  1	* the Minotaur Warrior
+E 1 2366  15    5	*   a steel breast plate
+E 1 2367  15    6	*   a steel helm
+E 1 2368  10   16	*   a huge halberd
+M 0 2317   3 2378  1	* the Minotaur Warrior
+E 1 2366  15    5	*   a steel breast plate
+E 1 2367  15    6	*   a steel helm
+E 1 2368  10   16	*   a huge halberd
+M 0 2318   1 2377  1	* the Minotaur Gatekeeper
+G 1 2350   1     	*   the keep key
+M 0 2319   2 2380  1	* the High Minotaur Guard
+E 1 2369  15    6	*   a blue steel helm and visor
+E 1 2370  15    7	*   a pair of blue steel greaves
+E 1 2371  15   10	*   a pair of blue steel vambraces
+E 1 2366  15    5	*   a steel breast plate
+E 1 2372  10   16	*   a two-handed sword
+M 0 2319   2 2379  1	* the High Minotaur Guard
+E 1 2369  15    6	*   a blue steel helm and visor
+E 1 2370  15    7	*   a pair of blue steel greaves
+E 1 2371  15   10	*   a pair of blue steel vambraces
+E 1 2366  15    5	*   a steel breast plate
+E 1 2372  10   16	*   a two-handed sword
+M 0 2320   2 2383  1	* the Royal Minotaur Guard
+E 1 2373  10    6	*   a red steel helm and visor
+E 1 2374  10    7	*   a pair of red steel greaves
+E 1 2375  10   10	*   a pair of red steel vambraces
+E 1 2366  15    5	*   a steel breast plate
+E 1 2376  10   16	*   a minotaur glaive
+M 0 2320   2 2382  1	* the Royal Minotaur Guard
+E 1 2373  10    6	*   a red steel helm and visor
+E 1 2374  10    7	*   a pair of red steel greaves
+E 1 2375  10   10	*   a pair of red steel vambraces
+E 1 2366  15    5	*   a steel breast plate
+E 1 2376  10   16	*   a minotaur glaive
+M 0 2321   2 2385  2	* the Elite Minotaur Guard
+E 1 2377   5    6	*   a crimson steel helm and visor
+E 1 2378   5    7	*   a pair of crimson steel greaves
+E 1 2379   5   10	*   a pair of crimson steel vambraces
+E 1 2366  15    5	*   a steel breast plate
+E 1 2380   5   16	*   a huge morningstar
+M 0 2321   2 2385  2	* the Elite Minotaur Guard
+E 1 2377   5    6	*   a crimson steel helm and visor
+E 1 2378   5    7	*   a pair of crimson steel greaves
+E 1 2379   5   10	*   a pair of crimson steel vambraces
+E 1 2366  15    5	*   a steel breast plate
+E 1 2380   5   16	*   a huge morningstar
+G 1 2359   1     	*   a runed key
+M 0 2322   5 2393  5	* the Harem Girl
+M 0 2322   5 2393  5	* the Harem Girl
+M 0 2322   5 2393  5	* the Harem Girl
+M 0 2322   5 2393  5	* the Harem Girl
+M 0 2322   5 2393  5	* the Harem Girl
+M 0 2323   1 2395  1	* the Minotaur Butler
+M 0 2324   1 2387  1	* the Minotaur Ring-Keeper
+G 1 2381  20     	*   some huge spiked brass knuckles
+E 1 2383   5   16	*   a huge wooden maul
+E 1 2382   1   13	*   a multi-colored key ring
+P 1 2351   1 2382  1	*   a red key
+P 1 2352   1 2382  1	*   a black key
+P 1 2353   1 2382  1	*   a white key
+P 1 2354   1 2382  1	*   a brown key
+P 1 2355   1 2382  1	*   a yellow key
+P 1 2356   1 2382  1	*   a maroon key
+P 1 2357   1 2382  1	*   a green key
+P 1 2358   1 2382  1	*   a grey key
+M 0 2325   1 2372  1	* Gorak
+E 1 2300  10    9	*   a pair of minotaur combat gloves
+E 1 2301   5    5	*   a suit of spiked garde armor
+E 1 2302   5    7	*   a pair of black minotaur greaves
+E 1 2303   5   10	*   a pair of black minotaur vambraces
+E 1 2304   3   16	*   the rod of weaponry
+M 0 2326   1 2373  1	* Darkoth
+E 1 2305  20   12	*   a pitch black cloak
+E 1 2306  15    4	*   a black plate neckguard
+E 1 2307   5    9	*   a pair of spiked gauntlets
+E 1 2308  10   11	*   the shadow shield
+E 1 2309   3   16	*   a shortsword named "Nightbringer"
+M 0 2327   1 2374  1	* Tyrgoth
+E 1 2310  10    6	*   a golden helm and visor
+E 1 2311   5    5	*   a gilded gold breast plate
+E 1 2312  15    4	*   a billowing white cape
+E 1 2313  20   11	*   a huge tower shield
+E 1 2314   3   16	*   a huge mace named "Dawnbringer"
+M 0 2328   1 2391  1	* Amyrok
+E 1 2315  10    1	*   a pair of wire rimmed spectacles
+E 1 2316   5    2	*   a banded ring
+E 1 2317   5   12	*   a minor globe of invulnerability
+E 1 2318   3   16	*   a gnarled magius staff
+E 1 2319  10   13	*   a girdle of many pouches
+M 0 2329   1 2390  1	* Sumaron
+E 1 2320  15   12	*   a heavy woolen robe
+E 1 2321   5    3	*   a brooch of life
+E 1 2322  20   17	*   a manual of healing arts
+E 1 2323   3   16	*   a huge mithril mace
+E 1 2324  15    4	*   a golden holy symbol
+M 0 2330   1 2394  1	* Nasturn
+E 1 2325  10    1	*   a thick marble ring
+E 1 2326  10   15	*   a thick marble bracelet
+E 1 2327  10    8	*   boots of striding
+E 1 2328  10   12	*   an icy white cloak
+E 1 2329   3   16	*   an ice staff
+M 0 2331   1 2399  1	* Belrak
+E 1 2330  10    2	*   a carved wooden ring
+E 1 2331  20   17	*   the horn of life
+E 1 2332  10   13	*   the belt of life
+G 1 2333   5     	*   a blood red stone
+E 1 2334   3   16	*   a huge crossbow
+M 0 2332   1 2398  1	* Dorgar
+E 1 2335  15   12	*   a small leather pack
+E 1 2336  10    6	*   a black leather hood
+E 1 2337  20   10	*   a pair of black leather sleeves
+E 1 2338  10    7	*   a pair of black leather pants
+E 1 2339  10   16	*   a wicked shortsword
+M 0 2333   1 2396  1	* Mahn-Tor
+E 1 2340   5   12	*   a major globe of invulnerability
+E 1 2341   5    5	*   a suit of black minotaur chainmail
+E 1 2342  15   14	*   a spiked buckler
+E 1 2343  10    2	*   a studded ring
+E 1 2344  10    6	*   a horned minotaur helm
+E 1 2345   1   16	*   mahn-Tor's Great Axe
+D 0 2377   1    2	* Before the Keep of Mahn-Tor east
+D 0 2379   3    2	* The entryway to the Keep of Mahn-Tor west
+D 0 2383   1    1	* Standing before the throne east
+D 0 2385   1    2	* The secret hallway east
+D 0 2386   3    2	* Entry to the Royal Chambers west
+D 0 2388   1    2	* The guarded hall east
+D 0 2388   3    2	* The guarded hall west
+D 0 2389   1    2	* The guarded hall east
+D 0 2389   3    2	* The guarded hall west
+D 0 2392   1    2	* The guarded hall east
+D 0 2392   3    2	* The guarded hall west
+D 0 2397   1    2	* The end of the guarded hall east
+D 0 2398   3    2	* Dorgar's Dismal Domicile west
+D 0 2362   2    1	* Before the gates of Mahn-Tor south
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 2300 spec_cast_undead    	* the Dark Ethereal Knight
+M 2302 spec_breath_acid    	* the Cave Dweller
+M 2306 spec_poison         	* the Swamp Wraith
+M 2310 spec_cast_cleric    	* The Ogre Shaman
+M 2313 spec_breath_frost   	* the White Yeti
+M 2314 spec_breath_acid    	* the Ice Worm
+M 2324 spec_cast_mage      	* the Minotaur Ring-Keeper
+M 2326 spec_cast_undead    	* Darkoth
+M 2328 spec_cast_mage      	* Amyrok
+M 2329 spec_cast_cleric    	* Sumaron
+M 2330 spec_cast_cleric    	* Nasturn
+M 2333 spec_cast_mage      	* Mahn-Tor
+S
+
+#$

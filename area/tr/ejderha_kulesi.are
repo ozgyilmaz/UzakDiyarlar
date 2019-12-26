@@ -1,0 +1,1605 @@
+#AREA
+ejderha_kulesi.are~
+Ejderha Kulesi~
+{ 5 30} Wench   Ejderha Kulesi~
+2200 2299
+#MOBILES
+#2200
+eskitip yavru ejderha~
+yavru ejderha~
+Yeni doðmuþ bir yavru ejderha aðzýndaki kemiði çiðniyor.
+~
+Odaya girince yavru ejderhanýn sana týsladýðýný farkediyorsun. Birkaç
+ayak boyunda olduðu halde sivri diþleri onu sevmeye kalkmamak konusunda
+seni uyarýyor.
+~
+dragon~
+ABG 0 -900 0
+7 0 2d6+85 3d9+100 1d8+1 none
+4 4 4 9
+EFNU 0 0 0
+stand stand none 100
+0 0 medium 0
+F res H
+F vul I
+#2201
+eskitip ejderan~
+Ejderan~
+Ejderan burada duruyor.
+~
+O hem insaný hem ejderhayý andýran korkunç bir varlýk. Kanat açýklýðý
+yedi ayak kadar. Odaya girdiðinde kaþlarýný çatýyor ve kargýsýný kaldýrýyor.
+~
+human~
+ABCF D -900 0
+13 0 2d10+170 6d9+100 2d5+3 none
+-1 -1 -1 8
+EFNU 0 0 0
+stand stand male 100
+0 0 medium 0
+#2202
+eskitip türbe lord efendi~
+ejderha efendisi~
+Türbenin lordu burada.
+~
+Seni görmekten mutlu olduðu söylenemez.
+~
+human~
+ABCF T -1000 0
+27 0 5d10+650 13d9+100 5d4+7 none
+-8 -8 -8 6
+EFNU 0 0 0
+stand stand male 1750
+0 0 medium 0
+#2203
+eskitip büyücü güçlü~
+güçlü büyücü~
+Önündeki kitaplarla çalýþan bir büyücü görüyorsun.
+~
+Güçlü görünüþlü bir büyücü burada, büyüler üzerine çalýþýyor. Büyücünün
+insan olduðunu farkedince þaþýrýyorsun. Buradaki yaratýklar onu kabul
+ettiklerine göre oldukça güçlü olmalý.
+~
+human~
+ABR BDH -900 0
+22 0 4d10+360 22d9+100 2d7+5 none
+-5 -5 -5 3
+FU 0 0 0
+stand stand male 30
+0 0 medium 0
+#2204
+eskitip tehu ejder~
+kutsal ejderan~
+Kutsal Ejderan burada, derin düþüncelere dalmýþ.
+~
+Basit cüppelere sarýnmýþ bir ejder görüyorsun. Boynunda beþ baþlý ejder
+madalyonu taþýyor.
+~
+human~
+ABCFQ DH -900 0
+22 0 5d10+400 22d9+100 2d8+6 none
+-5 -5 -5 5
+EIKU 0 0 0
+stand stand male 20
+0 0 medium 0
+#2205
+eskitip kral ejderan~
+Ejderan Kral~
+Kendi yüceliði üzerine düþünen bir ejderan görüyorsun.
+~
+Ejderanlarýn kralý altýn bir tahtta oturuyor. Ufacýk bir enerji harcayarak
+senin kafaný kül edebilir. Aslýnda onun büyük bir güç tarafýndan kontrol
+edildiðini farkediyorsun.
+
+~
+human~
+ABC DH -900 0
+26 0 5d10+600 13d9+100 3d7+7 none
+-7 -7 -7 6
+EFNU 0 0 0
+stand stand male 40
+0 0 medium 0
+#2206
+eskitip hizmetkar ejderan~
+hizmetkar~
+Bir hizmetkar burada bekliyor.
+~
+O kralýn kadýnlarýndan birisi. Neredeyse çýrýlçýplak. Bir býçak çýkarýp
+kendini savunmaya hazýrlandýðýný görünce þaþýrýyorsun.
+~
+human~
+AB 0 -500 0
+6 0 2d7+71 3d9+100 1d7+1 none
+4 4 4 9
+EFNU 0 0 0
+stand stand female 5
+0 0 medium 0
+#2207
+eskitip ejderan koruma~
+koruma~
+Bir koruma görüyorsun, sana ters ters bakýyor.
+~
+O kendini kralý korumaya adamýþ bir ejder. Senin varlýðýn onu tedirgin
+ediyor.
+~
+human~
+ABF CDF -800 0
+18 0 3d9+283 9d9+100 2d7+4 none
+-3 -3 -3 7
+EFNU 0 0 0
+stand stand male 250
+0 0 medium 0
+#2220
+eskitip tiamat ejder~
+Tiamat~
+Beþ baþlý bir ejderha sana týslýyor.
+~
+Kulenin efendisi Tiamat'ý görüyorsun. Her an buraya izinsiz girerek
+yaptýðýn terbiyesizliði ödetebilir.... hem de HAYATINLA!!!
+~
+human~
+ABCF DFTV -1000 0
+52 0 50d10+5500 26d9+100 6d7+20 none
+-22 -22 -22 2
+EFNU AB CD 0
+stand stand female 2500
+0 0 medium 0
+#2221
+kýzýl ejderha~
+Kýzýl Ejderha~
+Kýzýl Ejderha burada, senin varlýðýn üzerine düþünüyor.
+~
+Kaçmak için geri döndügünde kalman gerektiðini bildiriyor,
+hem de SONSUZA KADAR!!!
+~
+dragon~
+ABCF DF -1000 0
+54 60 25d10+8000 22d9+900 11d11+26 none
+-85 -85 -85 -24
+EFNR H 0 0
+stand stand male 8000
+0 0 medium 0
+F res H
+#2222
+kara ejderha~
+Kara Ejderha~
+Kara Ejderha burada, varlýðýnýn önemsizliðine gülüyor.
+~
+Silahlarýna gülümseyerek bakýyor. Onun tek bir týrnaðýnýn boyu iki
+kiþinin kaldýrmaya gücünün yetmeyeceði kadim kýlýçlar büyüklüðünde.
+~
+dragon~
+ABCF DF -900 0
+40 40 15d10+3700 19d9+400 5d9+13 none
+-19 -19 -19 -1
+EFNR K 0 J
+stand stand male 1000
+0 0 medium 0
+F res H
+F vul I
+#2223
+beyaz ejderha~
+Beyaz Ejderha~
+Beyaz Ejderha burada, seni bekliyor.
+~
+Boyu bir kale yüksekliðinde...
+~
+dragon~
+ABCF DF -1000 0
+39 20 10d10+3500 18d9+400 3d20+12 none
+-12 -12 -12 5
+EFNR I 0 H
+stand stand female 1750
+0 0 medium 0
+F res H
+F vul I
+#2225
+yeþil ejderha~
+Kadim Yeþil Ejderha~
+Kadim Yeþil Ejderha burada, sert bakýþlarýyla seni izliyor.
+~
+Aðzýndan dumanlar çýkararak sana bebeklerini rahatsýz etmenin bedelini
+ödeteceðini söylüyor.
+~
+dragon~
+ABCF DF -1000 0
+47 70 25d10+6000 20d9+800 4d8+24 none
+-34 -34 -34 -10
+EFNR L 0 P
+stand stand female 1000
+0 0 medium 0
+F res H
+F vul I
+#2226
+eskitip hidra~
+iri hidra~
+Bir hidra burada, kapýyý tutuyor.
+~
+Giriþi koruyan bir hidra görüyorsun. Seni görmekten memnun olmamýþ.
+~
+human~
+ABCF DF -800 0
+18 0 3d9+283 9d9+100 2d7+4 none
+-3 -3 -3 7
+EFNU 0 0 0
+stand stand none 250
+0 0 medium 0
+#2227
+eskitip köle insan~
+bir köle~
+Bir köle görüyorsun, aðýr bir iþte çalýþýyor.
+~
+Bundan yýllar önce gürzra aramaya gelmiþ. Ýþte gürzRA!!!
+~
+human~
+ABS DF 0 0
+5 0 2d7+46 2d9+100 1d5+1 none
+6 6 6 9
+BEFJNU 0 0 0
+stand stand male 5
+0 0 medium 0
+#2240
+eskitip zombi ejder~
+zombi ejder~
+Zombi ejder burada, bakýþlarý hiçbir þey ifade etmiyor.
+~
+Eskiden kabilenin savaþçýlarýndanmýþ. Þimdi ise koridoru koruyor.
+~
+human~
+ABCF DF -400 0
+9 0 2d6+110 4d9+100 1d8+2 none
+2 2 2 8
+EFNU 0 0 0
+stand stand none 75
+0 0 medium 0
+#2241
+faz ejderha~
+Faz Ejderha~
+Faz Ejderha burada, salonu arþýnlýyor.
+~
+Bu küçük ejderha hiç de sakin görünmüyor.
+~
+dragon~
+ACFGH DF -300 0
+10 0 2d7+121 5d9+100 2d4+2 none
+1 1 1 8
+EFNR 0 0 0
+stand stand male 250
+0 0 medium 0
+#2242
+aptal ejder~
+aptal ejder~
+Aptal bir ejder burada, senin taklitini yapýyor.
+~
+Bu bir ejder mi yoksa bir þaklaban mý?
+~
+human~
+AGHS DF 0 0
+5 0 2d7+46 2d9+100 1d5+1 none
+6 6 6 9
+BEFJNU 0 0 0
+stand stand male 25
+0 0 medium 0
+#2243
+eskitip kraliçe ejder~
+Kraliçe Ejder~
+Bir ejder burada, oldukça önemli birine benziyor.
+~
+Kölelerine yapmalarý gerekenleri anlatmaktan yorulmuþ. Onu yalnýz býrakmak
+iyi olabilir, ne dersin?
+~
+human~
+ABC DFH -600 0
+20 0 3d9+333 10d9+100 2d8+5 none
+-4 -4 -4 7
+EFNU 0 0 0
+stand stand female 500
+0 0 medium 0
+#0
+#OBJECTS
+#2200
+çentikli asa~
+çentikli asa~
+Bir çentikli asa burada unutulmuþ.~
+steel~
+weapon 0 AN
+staff 2 7 thrust 0
+10 150 153 P
+#2201
+gümüþ kama~
+gümüþ kama~
+Bir gümüþ kama yerde yatýyor.~
+silver~
+weapon 0 AN
+dagger 4 7 pierce 0
+22 10 2000 P
+A
+20 -2
+#2202
+ejderdiþi kama~
+ejderdiþi kama~
+Ejderha diþinden yapýlmýþ teklikeli bir kama burada unutulmuþ.~
+bone~
+weapon 0 AN
+dagger 5 6 pierce 0
+30 80 3200 P
+A
+19 4
+A
+2 1
+#2203
+ejder bileklik~
+ejderderisi bileklik~
+Kalýn deriden bir bileklik yerde yatýyor.~
+dragonskin~
+armor 0 AM
+6 6 6 3 0
+15 100 1170 P
+#2204
+siyah ipek kemer~
+siyah ipek kemer~
+Kaliteli ipekten dokunmuþ bir kemer burada sallanýyor.~
+silk~
+armor 0 AL
+6 6 6 2 0
+17 250 3900 P
+A
+5 2
+#2210
+beyaz ipek kemer~
+beyaz ipek kemer~
+Kaliteli ipekten dokunmuþ bir kemer burada sallanýyor.~
+silk~
+armor 0 AL
+6 6 6 2 0
+17 250 3900 P
+A
+1 2
+#2211
+platin bileklik~
+platin bileklik~
+Kararmýþ platinden bir bileklik yere düþürülmüþ.~
+platinium~
+armor A AM
+7 7 7 0 0
+20 50 1450 P
+#2220
+kutsal iþaret~
+kutsal iþaret~
+Altýndan yapýlmýþ kutsal bir iþaret burada duruyor.~
+gold~
+jewelry A ACO
+0 0 0 0 0
+10 20 270 P
+A
+12 15
+#2221
+kara cüppe~
+kara cüppe~
+Duvardaki kancada bir kara cüppe sallanýyor.~
+leather~
+armor 0 AK
+5 5 5 0 0
+21 30 2000 P
+A
+19 2
+#2222
+zümrüt kýlýç~
+zümrüt kýlýç~
+Bir zümrüt kýlýç duvarýn dibinde yatýyor.~
+steel~
+weapon 0 AN
+sword 5 6 slash D
+28 240 2300 P
+A
+19 2
+#2223
+taþ gürz~
+taþ gürz~
+Aðýr görünümlü bir taþ gürz burada unutulmuþ.~
+stone~
+weapon 0 AN
+mace 3 6 crush 0
+18 180 940 P
+#2224
+elmas yüzük~
+elmas yüzük~
+Bir elmas yüzük yerde yatýyor.~
+diamond~
+jewelry 0 AB
+0 0 0 0 0
+37 60 6800 P
+A
+19 3
+A
+18 3
+#2230
+bakýr yüzük~
+bakýr yüzük~
+Bir bakýr yüzük burada unutulmuþ.~
+copper~
+jewelry 0 AB
+0 0 0 0 0
+15 10 2600 P
+A
+4 2
+#2231
+çelik anahtar~
+çelik anahtar~
+Bir çelik anahtar burada unutulmuþ.~
+steel~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+#2232
+yakut anahtar~
+yakut anahtar~
+Yakuttan yapýlmýþ bir anahtar burada unutulmuþ.~
+ruby~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+#2233
+beyaz anahtar~
+beyaz anahtar~
+Bir beyaz anahtar burada unutulmuþ.~
+ivory~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+#2234
+gri anahtar~
+gri anahtar~
+Bir gri anahtar yerde dinleniyor.~
+wood~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+#2237
+taþ anahtar~
+taþ anahtar~
+Bir taþ anahtar burada unutulmuþ.~
+stone~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+#2240
+siyah anahtar~
+siyah anahtar~
+Bir siyah anahtar yerde duruyor.~
+onyx~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+#2241
+platin anahtar~
+platin anahtar~
+Bir platin anahtar yerde duruyor.~
+platinium~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+#2242
+diþli kalkan~
+diþli kalkan~
+Bir diþli kalkan yerde duruyor.~
+steel~
+armor 0 AJ
+8 8 8 3 0
+25 200 3900 P
+A
+5 1
+#2243
+altýn deðnek~
+altýn deðnek~
+Burada bir altýn deðnek düþürülmüþ.~
+gold~
+wand A AO
+25 10 10 'dispel magic' 0
+14 50 5500 P
+#2244
+gümüþ asa~
+gümüþ asa~
+Bir gümüþ asa burada, sahibini bekliyor.~
+silver~
+staff AG AO
+25 20 20 'faerie fog' 0
+14 50 11700 P
+#2245
+ejder asa~
+ejder asasý~
+Meþe aðacýndan yapýlmýþ güçlü bir asa burada.~
+oak~
+staff AG AO
+25 10 10 'call lightning' 0
+15 50 10200 P
+#2246
+pullu zýrh~
+pullu zýrh~
+Bir pullu zýrh burada unutulmuþ.~
+steel~
+armor A AD
+8 8 8 0 0
+25 200 3900 P
+#2250
+kara asa~
+kara asa~
+Bir asanýn soluk dýþ yüzeyini fark ediyorsun.~
+onyx~
+staff AJ AO
+30 3 3 'energy drain' 0
+14 250 5300 P
+#2251
+kara iksir~
+kara iksir~
+Bir iksirin soluk dýþ yüzeyini fark ediyorsun.~
+glass~
+potion 0 A
+30 'blindness' 'harm' '' ''
+9 10 1060 P
+#2252
+mor iksir~
+bir mor iksir~
+Bir mor iksir burada bekliyor.~
+glass~
+potion H A
+30 'cure critical' 'protection evil' '' ''
+7 10 600 P
+#2254
+çivili eldivenler~
+bir çift çivili eldiven~
+Bir çift çivili eldiven burada, yeni sahibini bekliyor.~
+iron~
+armor AG AH
+4 4 4 0 0
+20 100 2500 P
+A
+1 1
+A
+19 2
+#2260
+altýn kýlýç~
+altýn kýlýç~
+Bir altýn kýlýç burada, yeni sahibini bekliyor.~
+gold~
+weapon A AN
+sword 3 5 slash 0
+16 100 2500 P
+A
+4 1
+A
+3 1
+#2261
+elmas broþ~
+bir elmas broþ~
+Bir elmas broþ burada, yeni sahibini bekliyor.~
+diamond~
+jewelry G AC
+0 0 0 0 0
+25 20 980 P
+A
+12 25
+#2270
+rün parþömen~
+rün parþömen~
+Bir rün parþömen burada, okunmayý bekliyor.~
+vellum~
+scroll G AO
+30 'armor' 'protection evil' 'shield' ''
+12 10 1960 P
+#2271
+ejderderisi eldiven~
+bir çift ejderderisi eldiven~
+Bir çift ejderderisi eldiven yerde yatýyor.~
+dragonskin~
+armor 0 AH
+6 6 6 3 0
+17 50 4000 P
+A
+2 2
+#2275
+ejder miðferi~
+ejder miðferi~
+Bir ejderhanýn kafatasýndan yapýlmýþ miðfer yerde duruyor.~
+dragonskin~
+armor 0 AE
+10 10 10 5 0
+35 150 4100 P
+A
+13 15
+#2276
+ejder miðferi~
+ejder miðferi~
+Bir ejderhanýn kafatasýndan yapýlmýþ miðfer yerde duruyor.~
+fur~
+armor 0 AK
+6 6 6 1 0
+16 100 1910 P
+A
+13 10
+A
+1 1
+#2280
+pullu ejder bacaklýk~
+bir çift pullu ejder bacaklýðý~
+Bir çift pullu ejder bacaklýðý yerde duruyor.~
+dragonskin~
+armor 0 AF
+7 7 7 3 0
+20 150 1590 P
+#2281
+pullu ejder kolluk~
+bir çift pullu ejder kolluðu~
+Bir çift pullu ejder kolluðu yerde yatýyor.~
+dragonskin~
+armor 0 AI
+7 7 7 3 0
+20 120 1590 P
+#2285
+ejderkuyruðu kýrbaç~
+ejderkuyruðu kýrbacý~
+Bir ejderkuyruðu kýrbacý yerde yatýyor.~
+dragonskin~
+weapon BJ AN
+whip 6 5 whip 0
+24 140 1530 P
+A
+19 3
+A
+18 3
+#2286
+bakýr topuz~
+bakýr topuz~
+Bir bakýr topuz yerde yatýyor.~
+copper wood~
+weapon 0 AN
+mace 4 5 crush 0
+15 120 750 P
+#2287
+kristal kama~
+kristal kama~
+Bir kristal kama yerde yatýyor.~
+silver~
+weapon 0 AN
+dagger 2 4 pierce 0
+5 10 360 P
+#2299
+altýn anahtar~
+altýn anahtar~
+Bir altýn anahtar yerde yatýyor.~
+gold~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+#0
+
+#ROOMS
+#2201
+Kule Kapýsý~
+Uzun bir kulenin giriþindesin. Hava yaðmurlu ve periyodik olarak þimþekler
+çakýyor. Koruya geri dönmenin iyi bir fikir olduðunu düþünüyorsun.
+~
+0 A 1
+D0
+Büyük çelik geçidi görüyorsun. Ötesinde ise kulenin antresi uzanýyor.
+~
+geçit çelik~
+1 2231 2202
+D1
+Gölgeler görüþünü engelliyor.
+~
+~
+0 0 1304
+E
+geçit~
+Geçit yüksek ve güvenli. Bunu kim diktiyse mahremiyete önem veriyormuþ.
+~
+S
+#2202
+Antre~
+Burasý kulenin giriþi. Hol kuzeye merdivenlere doðru ilerliyor. Duvarda
+korku verici bir tablo var. Görünce hemen etrafýna bakýyorsun.
+~
+0 CD 0
+D0
+Uzun koridoru görüyorsun.
+~
+~
+0 -1 2203
+D2
+Geçidi görüyorsun.
+~
+~
+0 -1 2201
+E
+tablo~
+Tablo korkunç bir þekilde ölen bir adamý anlatýyor. Ayný kaderi paylaþmamayý
+diliyorsun.
+~
+S
+#2203
+Koridor~
+Bu koridor sonsuza kadar ilerleyecekmiþ gibi görünüyor. Yine de uzakta bir
+merdiven çarpýyor gözüne.
+~
+0 D 0
+D0
+Koridor devam ediyor.
+~
+~
+0 -1 2204
+D2
+Antreyi görüyorsun.
+~
+~
+0 -1 2202
+S
+#2204
+Koridor~
+Koridorda aðýr adýmlarla ilerliyorsun. Doðuda ve batýda kapýlar olduðunu
+farkediyorsun.
+~
+0 D 0
+D0
+Koridor devam ediyor.
+~
+~
+0 -1 2207
+D1
+Bir kapý görüyorsun. Üzerinde iþaret var.
+~
+kapý~
+1 -1 2205
+D2
+Koridor devam ediyor.
+~
+~
+0 -1 2203
+D3
+Meþe kapýyý görüyorsun. Üzerinde bir yazýt var.
+~
+kapý meþe~
+1 -1 2206
+E
+yazýt~
+Yazýt: "DEPO"
+~
+E
+iþaret~
+Ýþaret: "REVÝR"
+~
+
+S
+#2205
+Kreþ~
+Sanki buraya bir kasýrga vurmuþ. Oyuncaklar etrafa daðýlmýþ. Bir grup ejder
+yavrusu bir kemik için kavga ediyorlar.
+~
+0 D 1
+D1
+Büyük taþ kapýyý görüyorsun.
+~
+kapý taþ~
+2 2297 2223
+D3
+Koridoru görüyorsun.
+~
+~
+1 -1 2204
+S
+#2206
+Depo~
+Odanýn her tarafý toz içinde. Uzun süredir buraya kimse girmemiþ gibi.
+~
+0 D 1
+D1
+Koridoru Görüyorsun.
+~
+~
+1 -1 2204
+D5
+Özel birþey görmüyorsun.
+~
+kapý~
+1 -1 2208
+E
+toz~
+Toza daha yakýndan bakýnca bir kapýnýn izlerini görüyorsun.
+~
+S
+#2207
+Koridorun sonu~
+Nihayet koridorun sonuna eriþebildin. Büyük bir merdiven yukarý yöneliyor.
+~
+0 D 0
+D2
+Salon devam ediyor.
+~
+~
+0 -1 2204
+D4
+Ýkinci kat
+~
+~
+0 -1 2210
+E
+sign~
+The sign reads:
+    This area is kind of tough.  You probably shouldn't go up these stairs
+    alone if you are under 18th level, or at all if you under 14th level.
+    Have fun! -- Wench
+~
+S
+#2208
+Koruyucunun Odasý~
+Çürük basamaklarý týrmandýktan sonra kocaman bir hidra ile karþý karþýya
+kaldýn. YUKARI ne kadar hýzlý týrmanabilirsin?
+~
+0 D 1
+D2
+Gri kapýyý görüyorsun.
+~
+kapý gri~
+1 2234 2209
+D4
+Depo odasýný görüyorsun.
+~
+kapý~
+1 -1 2206
+S
+#2209
+Hazine Odasý~
+Hidrayý geçtin ve artýk buradasýn. Gördüðün hazine seni þaþkýna çeviriyor.
+Artýk hem zenginsin hem de bu güvenli yerde dinlenebilirsin. Batý duvarýnda
+yakutlarla iþlenmiþ bir kapý var.
+~
+0 CD 1
+D0
+Özel birþey görmüyorsun.
+~
+gri kapý~
+2 2234 2208
+D3
+Yakut kapýyý görüyorsun.
+~
+kapý yakut~
+2 2232 2218
+S
+#2210
+Ýkinci Kat~
+Ýkinci kata vardýn. Üzerine atýlan ve týslayan birçok ejder adam görüyorsun.
+Burada ne kadar kalacaðýný merak ediyorum.
+~
+0 D 1
+D2
+Avluyu görüyorsun.
+~
+~
+0 1 2211
+D5
+Birinci katý görüyorsun.
+~
+~
+0 -1 2207
+S
+#2211
+Avlu~
+Büyük bir avluya benzeyen yerdesin. Burayý koruyan insanlar seni gördüklerine
+memnun olmadýlar...
+~
+0 D 1
+D0
+Özel birþey görmüyorsun.
+~
+~
+0 -1 2210
+D1
+Tahta bir kapý görüyorsun.
+~
+kapý tahta~
+1 -1 2212
+D2
+Avluyu görüyorsun.
+~
+~
+0 -1 2213
+S
+#2212
+Zevk Salonu~
+Bu süslü odaya girince duruyorsun. Burasý kralýn harem salonu.
+~
+0 D 1
+D3
+Avluyu görüyorsun.
+~
+~
+0 -1 2211
+S
+#2213
+Avlu~
+Salonda ilerliyorsun. Doðuda ve batýda süslü odalar var.
+~
+0 0 1
+D0
+Avluyu görüyorsun.
+~
+~
+0 -1 2211
+D1
+Siyah kapýyý görüyorsun.
+~
+kapý siyah~
+1 2240 2214
+D2
+Avluyu görüyorsun.
+~
+~
+0 -1 2216
+D3
+Beyaz kapýyý görüyorsun.
+~
+kapý beyaz~
+1 2233 2215
+S
+#2214
+Kütüphane~
+Kitaplarla dolu büyük bir odadasýn. Masada barýþçýl bir adam oturmuþ
+çalýþýyor.
+~
+0 D 1
+D3
+Avluyu görüyorsun.
+~
+siyah kapý~
+1 2240 2213
+S
+#2215
+Kutsal Oda~
+Bu oda küçük ejderha biblolarýyla süslenmiþ. Biblolar sakin ve düþüncelere
+dalmýþ.
+~
+0 D 1
+D1
+Avluyu görüyorsun.
+~
+beyaz kapý~
+1 2233 2213
+S
+#2216
+Avlu Sonu~
+Avlunun sonuna geldin. Sandalyede büyük bir ejderha oturuyor. Sen girince
+elleriyle bir hareket yapýyor ve üç korumasýnýn saldýrýsýna uðruyorsun.
+~
+0 D 1
+D0
+Avluyu görüyorsun.
+~
+~
+0 -1 2213
+D1
+Özel odayý görüyorsun.
+~
+~
+0 -1 2217
+S
+#2217
+yatak odasý~
+Burasý ejder kralýn kiþisel odasý. Boþ deðil.
+~
+0 D 1
+D3
+Avuluyu görüyorsun.
+~
+~
+0 -1 2216
+S
+#2218
+Türbe Giriþi~
+Aðýr kertenkele kokusuyla dolmuþ geniþ bir odadasýn. Seni neyin beklediðini
+merak ediyorsun.
+~
+0 D 1
+D1
+Hazine odasýný görüyorsun.
+~
+yakut kapý~
+2 2232 2209
+D3
+Türbeyi görüyorsun.
+~
+~
+0 -1 2219
+S
+#2219
+Türbe~
+Batýya devam eden geniþ bir odadasýn. Bir sürü tabut görüyorsun. Açtýðýnda
+birþeylerin artýklarýyla karþýlaþacaksýn. Aðýr bir kertenkele kokusu var.
+~
+0 D 1
+D1
+Giriþi görüyorsun.
+~
+~
+0 -1 2218
+D3
+Özel birþey görmüyorsun.
+~
+~
+0 -1 2222
+S
+#2220
+Ýn~
+Beyaz Ejderha tarafýndan kullanýlan indesin. Sana gülümsüyor. Birine
+saldýrmadan önce hep böyle yapar.
+~
+0 D 1
+D2
+Maðara Giriþi
+~
+~
+0 0 2235
+S
+#2221
+Ýn~
+Kara ejderha tarafýndan kullanýlan geniþ bir odaya girdin. Senin geliþinle
+buralar þenlenebilir.
+~
+0 D 1
+D0
+Maðara giriþi
+~
+~
+0 0 2241
+S
+#2222
+Türbe Sonu~
+Türbenin sonuna geldin. Buralar terkedilmiþ. Duvarýn önünde duran garip bir
+tabut var.
+~
+0 D 1
+D1
+Türbeyi görüyorsun.
+~
+~
+0 -1 2219
+D3
+
+~
+tabut~
+1 0 2232
+E
+tabut~
+Batý duvarýnýn önündeki tabur. Kapalý.
+~
+S
+#2223
+Büyük Salon Giriþi~
+Büyük bir salona girdin. Duvarlarda insanlarla ejderhalar arasýndaki büyük
+bir savaþý anlatan duvar halýlarý var. Görünüþe göre kazanan ejderhalar
+olmuþ.
+~
+0 D 1
+D1
+Salon devam ediyor.
+~
+~
+0 -1 2224
+D3
+Reviri görüyorsun.
+~
+kapý taþ~
+1 2297 2205
+S
+#2224
+Büyük Salon~
+Kuzeyde dar bir pasaj görüyorsun, büyük salonsa doðuya devam ediyor.
+~
+0 D 1
+D0
+Dar pasajý görüyorsun.
+~
+~
+0 -1 2225
+D1
+Salonu görüyorsun.
+~
+~
+0 -1 2229
+S
+#2225
+Dar Pasaj~
+Bu dar pasaj bir yere gidiyor ama nereye? ? ! !
+~
+0 D 1
+D0
+Büyük bir in görüyorsun. Teklikeli bir in ! ! !
+~
+~
+0 -1 2226
+D2
+Büyük salonu görüyorsun.
+~
+~
+0 -1 2224
+S
+#2226
+Ýn~
+Etrafa kemiklerin daðýlmýþ olduðu büyük bir ine girdin. Bu kemiklerin sýrrýný
+Kýzýl Ejderha ile göz göze gelince çözüyorsun. Ne yazýk, belki de bu çözdüðün
+son sýr olacak. Aþaðýda bir kapý var.
+~
+0 D 1
+D2
+Dar Pasaj
+~
+~
+0 -1 2225
+D5
+Kapýyý görüyorsun.
+~
+kapý~
+1 -1 2227
+S
+#2227
+Yeraltý Tüneli~
+Bir yeraltý tüneline girdin. Burasý oldukça karanlýk ve pis. Selenge'da
+bir barda olmak isterdin.
+~
+0 AD 2
+D0
+Tüneli görüyorsun.
+~
+~
+0 -1 2228
+D4
+Kýzýl Ejderha'nýn inini görüyorsun.
+~
+kapý~
+1 -1 2226
+S
+#2228
+Yeraltý Tüneli~
+Bu tünel ölümcül bir sona gidiyor. Tuzaða düþmekten korkuyorsun.
+~
+0 ACD 2
+D2
+Tüneli görüyorsun.
+~
+~
+0 -1 2227
+S
+#2229
+Büyük Salonun Sonu~
+Büyük salonun sonuna geldin. Önünde büyük altýn bir kapý görüyorsun. Üzerinde
+güzel ejderha iþlemeleri var.
+~
+0 D 1
+D1
+Altýn kapýyý görüyorsun.
+~
+kapý altýn~
+2 2299 2230
+D3
+Salonu görüyorsun.
+~
+~
+0 -1 2224
+E
+sign~
+Congratulations on making it this far!  Watch out, it gets a little
+    nasty here... :) - Wench
+~
+S
+#2230
+EJDER ini~
+Dev bir ine girdin. Burada büyük bir þey ya yaþýyor ya da yaþamýþ. Batýda
+altýn bir kapý var.
+~
+0 D 2
+D3
+Altýn kapýyý görüyorsun.
+~
+kapý altýn~
+2 2299 2229
+S
+#2231
+Son.....~
+Son hayvan inine eriþtin. Burayý beþ baþlý dev bir ejderha kullanýyor. Birden
+ÇOK CÝDDÝ problemlerin olduðunu farkediyorsun....
+~
+0 D 2
+D2
+Daðýn zirvesini görüyorsun.
+~
+~
+2 2241 2243
+S
+#2232
+Merdiven~
+Bu þarap mahzenine giden eskimiþ bir merdiven. Onyýllardýr kullanýlmamýþ
+görünüyor. Uzun bir süredir buralarý ilk gören olmanýn gururunu yaþýyorsun.
+Yaþayan birþeylerin olmadýðýný bilmek bir güven duygusu veriyor.
+~
+0 D 2
+D1
+Türbe
+~
+~
+0 0 2222
+D5
+Þarap mahzeni
+~
+~
+0 0 2233
+S
+#2233
+Þarap Mahzeni~
+Burasý Ejder Kulesi'nin eski þarap mahzeni. Raflar boþ. Uzun zamandýr burada
+yaþayan olmamýþ. Doðuya doðru tünel devam ediyor ve çocuðum, o taraf çürümüþ
+ceset kokuyor.
+~
+0 A 2
+D1
+Tünel
+~
+~
+0 0 2234
+D4
+Merdiven
+~
+~
+0 0 2232
+S
+#2234
+Tünel~
+Bu tünel millerce ilerliyor. Ucunu görmeye çalýþýyorsun fakat gözlerin bu
+arayýþtan yorgun düþüyor. Kokunun yoðunluðu ikiye katlandý. Tünel doðuya
+devam ediyor. Batýda ise bir þarap mahzeni var.
+~
+0 AI 2
+D0
+Bir maðara giriþi
+~
+~
+0 0 2235
+D1
+Tünel
+~
+~
+0 0 2236
+D3
+Tünel
+~
+~
+0 0 2233
+S
+#2235
+Bir Maðara Giriþi~
+Dev bir maðara giriþinin önündesin. Etrafa daðýlmýþ kemikler görüyorsun.
+Kimi insan kemiði, kimi ise ayýrt edilemiyor. Buraya gelen ilk gezgin sen
+deðilsin anlaþýlan. Ýçerden gelen koku berbat. Kuzeyinde maðara ve içerde
+hareket eden birþeyin sesi geliyor. Tünel güneyde.
+~
+0 AI 2
+D0
+Hayvan ini
+~
+~
+0 0 2220
+D2
+Tünel
+~
+~
+0 0 2234
+S
+#2236
+Tünelin Sonu~
+Ýþte, tünelin sonundasýn. Batýda miller boyunca ilerleyen tüneli görüyorsun.
+Üzerinde hafifçe seçebildiðin bir kapý var ki girmeni önermem. Güneyde ise
+bir köprü görüyorsun.
+~
+0 AI 2
+D2
+Köprü
+~
+~
+0 0 2237
+D3
+Tünel
+~
+~
+0 0 2234
+D4
+Kapý
+~
+~
+0 0 2202
+S
+#2237
+Köprü~
+Eski bir tahta köprüdesin. Saðlam görümüyor, acele etmelisin. Güneyde,
+köprünün diðer tarafýnda, küçük bir açýk alan var.
+~
+0 AD 2
+D0
+Tünel sonu
+~
+~
+0 0 2236
+D2
+Küçük açýk alan
+~
+~
+0 0 2238
+S
+#2238
+Küçük Açýk Alan~
+Küçük bir açýk alandasýn. Kuzeyinde eski tahta köprü var. Güneyinde açýk
+alaný görüyorsun. Evet, tekrar gün ýþýðýyla buluþtun! Ne güzel bir duygu!
+~
+0 AD 2
+D0
+Köprü
+~
+~
+0 0 2237
+D2
+Açýk Alan
+~
+~
+0 0 2239
+S
+#2239
+Açýk Alan~
+Açýk bir alandasýn. Etrafýnda daðlar var. Açýklýðýn ortasýnda bir kuyu
+görüyorsun. Kuyunun önündeyse bir iþaret var. Bir patika daða doðru çýkýyor.
+Kuzeyde küçük bir açýk alan var.
+~
+0 0 2
+D0
+Küçük açýk alan
+~
+~
+0 0 2238
+D4
+Bir patika
+~
+~
+0 0 2240
+D5
+Kuyu
+~
+~
+0 0 2244
+E
+iþaret~
+'Bu kuyu dipsizdir. Buraya düþenlerden bir daha haber alýnamamýþtýr. Ýnan
+aþaðý inmek istemezsin. ' -Jai
+~
+E
+kuyu~
+Kuyu ÇOK DERÝN görünüyor! Sonu yok gibi!
+~
+S
+#2240
+Bir Patika~
+Bu patika daðýn yamacýndan yukarý týrmanýyor. Altýnda açýk bir alan var.
+Batýda bir maðara giriþi duruyor. Patika yukarý, daðýn tepesine doðru devam
+ediyor.
+~
+0 0 2
+D3
+Maðara giriþi
+~
+~
+0 0 2241
+D4
+Patika devam ediyor.
+~
+~
+0 0 2242
+D5
+Açýk Alan
+~
+~
+0 0 2239
+S
+#2241
+Bir maðara giriþi~
+Büyük bir maðaranýn giriþinde duruyorsun. Derin nefes alýþlarýn sesi geliyor
+kulaðýna. Etrafta yatan birkaç iskelet var. Maðara güneyinde kalýyor. Patika
+ise doðuya devam ediyor.
+~
+0 0 2
+D1
+Patika
+~
+~
+0 0 2240
+D2
+Bir in
+~
+~
+0 0 2221
+S
+#2242
+Patika devam ediyor~
+Patika yukarý, daðýn zirvesine doðru devam ediyor. Patika ayný zamanda
+aþaðý da devam ediyor. Baþka da birþey görmüyorsun.
+~
+0 0 2
+D4
+Daðýn Zirvesi
+~
+~
+0 0 2243
+D5
+Patika
+~
+~
+0 0 2240
+S
+#2243
+Daðýn Zirvesi~
+Daðýn zirvesindesin. Burasý dünyanýn zirvesi gibi. Kuzeyinde büyük platin
+bir kapý var. Kapýnýn ardýndan gelen güçlü homurtular duyuyorsun. Büyük ve
+aç birþeyin sesleri bunlar. Fakat eðer anahtarýn yoksa korkacak birþey yok,
+zaten içeri giremezsin. Anahtarý bulmayý düþünüyorsan, sana yapmamaný
+öneririm. Ýnsanlar beþ kafalý ejderha Taimat'ýn buraya Tanrýlar tarafýndan
+hapsedildiðini söylerler. Fakat kim inanýr ki böyle eski hikayelere? Eðer
+korktuysan aþaðýya inip daða geri dönebilirsin.
+~
+0 0 2
+D0
+Platin Kapý
+~
+kapý platin~
+2 2241 2231
+D5
+Patika devam ediyor.
+~
+~
+0 0 2242
+E
+platin kapý~
+Büyük bir platin kapý seni koruyor.
+~
+S
+#2244
+Kuyu~
+Yo Hayýr ! Seni uyarmýþtým ! Dipsiz bir kuyuya düþtün. Hayatýn gözlerinin
+önünden geçiyor. Oldukça acýklý deðil mi? Artýk Kahkaha Tanrýsý'ný dinlemeyi
+öðrenirsin herhalde...
+~
+0 BC 0
+S
+#0
+#RESETS
+M 0 2200  12 2241  1	* the dragon hatchling
+M 0 2200  12 2239  1	* the dragon hatchling
+M 0 2200  12 2201  1	* the dragon hatchling
+G 1 2231  -1     	*   a steel key
+M 0 2200  12 2202  1	* the dragon hatchling
+M 0 2200  12 2203  2	* the dragon hatchling
+M 0 2200  12 2203  2	* the dragon hatchling
+M 0 2200  12 2205  4	* the dragon hatchling
+M 0 2200  12 2205  4	* the dragon hatchling
+M 0 2200  12 2205  4	* the dragon hatchling
+M 0 2200  12 2205  4	* the dragon hatchling
+M 0 2201   7 2203  2	* the Draconian
+E 1 2200  20   16	*   a jagged spear
+M 0 2201   7 2204  3	* the Draconian
+E 1 2200  20   16	*   a jagged spear
+M 0 2201   7 2204  3	* the Draconian
+E 1 2200  20   16	*   a jagged spear
+M 0 2201   7 2204  3	* the Draconian
+E 1 2200  20   16	*   a jagged spear
+M 0 2200  12 2207  1	* the dragon hatchling
+M 0 2227   5 2207  2	* A human slave
+M 0 2200  12 2206  1	* the dragon hatchling
+M 0 2226   1 2208  1	* a large hydra
+G 1 2234   1     	*   a grey key
+G 1 2243   9     	*   a golden wand
+G 1 2223  20     	*   a stone club
+E 1 2244   5   17	*   a silver staff
+D 0 2230   3    2	* THE Lair west
+D 0 2218   1    2	* Entrance to the Crypt east
+D 0 2201   0    2	* The Tower Gates north
+D 0 2229   1    2	* The Great Hall Ends. east
+D 0 2243   0    2	* The top of the mountain north
+D 0 2209   3    2	* The Treasure Room west
+D 0 2222   3    2	* The Crypt Ends west
+M 0 2201   7 2210  2	* the Draconian
+E 1 2200  20   16	*   a jagged spear
+M 0 2207  20 2210  5	* A bodyguard
+E 1 2286  20   16	*   a copper hammer
+M 0 2207  20 2211  5	* A bodyguard
+E 1 2286  -1   16	*   a copper hammer
+M 0 2207  20 2211  5	* A bodyguard
+E 1 2260  10   16	*   a golden scimitar
+M 0 2206   5 2212  5	* a concubine
+E 1 2287  10   16	*   a silver dagger
+M 0 2206   5 2212  5	* a concubine
+G 1 2233   2     	*   a white key
+E 1 2287  10   16	*   a silver dagger
+M 0 2206   5 2212  5	* a concubine
+G 1 2240   2     	*   a black key
+E 1 2287  10   16	*   a silver dagger
+M 0 2206   5 2212  5	* a concubine
+E 1 2287  10   16	*   a silver dagger
+M 0 2203   1 2214  1	* a powerful mage
+E 1 2223  10   12	*   a stone club
+E 1 2250  10   17	*   a black staff
+G 1 2251  10     	*   a cyan potion
+E 1 2261   3    3	*   a diamond brooch
+M 0 2242   5 2214  1	* the draconian fool
+M 0 2204   1 2214  1	* the holy Draconian
+E 1 2220  -1    3	*   a holy symbol
+E 1 2211  10   14	*   a platinum bracelet.
+E 1 2210  10   13	*   a white silk belt
+G 1 2270  10     	*   a runed scroll
+G 1 2252  10     	*   a magenta potion
+M 0 2205   1 2216  1	* the Draconian King
+E 1 2222   8   16	*   an emerald sword
+E 1 2276  -1   12	*   a fur cloak
+E 1 2242  -1   11	*   a crested shield
+E 1 2254  -1    9	*   a pair of spiked gauntlets
+G 1 2232   2     	*   a ruby key
+M 0 2207  20 2216  5	* A bodyguard
+M 0 2207  20 2216  5	* A bodyguard
+M 0 2207  20 2216  5	* A bodyguard
+M 0 2242   5 2216  4	* the draconian fool
+M 0 2242   5 2216  4	* the draconian fool
+M 0 2243   1 2217  1	* the Draconian Queen
+E 1 2203  -1   14	*   a dragon skin bracelet
+E 1 2204   5   13	*   a black silk belt
+E 1 2201  -1   16	*   a silver dagger
+M 0 2227   5 2217  4	* A human slave
+M 0 2227   5 2217  4	* A human slave
+M 0 2241   2 2217  2	* the phase dragon
+M 0 2240   8 2218  2	* a Draconian zombie
+M 0 2240   8 2218  2	* a Draconian zombie
+M 0 2240   8 2219  2	* a Draconian zombie
+M 0 2240   8 2219  2	* a Draconian zombie
+M 0 2240   8 2232  1	* a Draconian zombie
+M 0 2240   8 2233  1	* a Draconian zombie
+M 0 2240   8 2234  1	* a Draconian zombie
+M 0 2240   8 2236  1	* a Draconian zombie
+M 0 2223   1 2220  1	* the Great White Dragon
+E 1 2246  10    5	*   scale mail
+M 0 2222   1 2221  1	* the Great Black Dragon
+E 1 2280  10    7	*   a pair of dragon scale leggings
+M 0 2202   1 2222  1	* the dragon master
+E 1 2202  -1   16	*   a dragon's tooth knife
+E 1 2281  -1   10	*   a set of dragon scale sleeves
+E 1 2271  -1    9	*   a pair of dragon skin gloves
+M 0 2221   1 2226  1	* the Great Red Dragon
+E 1 2275   5    6	*   a helm of dragon kind
+E 1 2245   5   17	*   the staff of the dragon
+G 1 2299   2     	*   a tarnished gold key
+M 0 2225   1 2230  1	* the Ancient Green Dragon
+G 1 2241   2     	*   a platinum key
+G 1 2285   5     	*   a dragon tailed whip
+E 1 2261   3    3	*   a diamond brooch
+M 0 2220   1 2231  1	* Tiamat
+S
+#SHOPS
+0
+#SPECIALS
+M 2200 spec_breath_any     	* the dragon hatchling
+M 2203 spec_cast_mage      	* a powerful mage
+M 2204 spec_cast_cleric    	* the holy Draconian
+M 2205 spec_breath_any     	* the Draconian King
+M 2220 spec_breath_any     	* Tiamat
+M 2221 spec_breath_fire    	* the Great Red Dragon
+M 2222 spec_breath_acid    	* the Great Black Dragon
+M 2223 spec_breath_frost   	* the Great White Dragon
+M 2225 spec_breath_gas     	* the Ancient Green Dragon
+M 2226 spec_poison         	* a large hydra
+M 2227 spec_thief          	* A human slave
+M 2240 spec_cast_undead    	* a Draconian zombie
+M 2241 spec_breath_gas     	* the phase dragon
+M 2242 spec_thief          	* the draconian fool
+M 2243 spec_breath_any     	* the Draconian Queen
+S
+#$
