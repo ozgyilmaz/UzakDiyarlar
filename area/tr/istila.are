@@ -1,0 +1,300 @@
+#AREA
+istila.are~
+Ýstila~
+{90 100} Asena Ýstila~
+560 569
+
+#MOBILES
+#560
+koruyucu kumandan istila~
+istila kumandaný~
+Istila kumandaný burada kabalýna hizmet ediyor.
+~
+Bu güçlü adam, Ýstila Kabalý'na koruyucu olarak hizmet ediyor. O'nun
+vazifesi meclise sýzmak isteyenlere hadlerini bildirmek. 
+~
+human~
+ABJKWe DFHJVZ -1000 0
+92 40 2d500+25000 1d200+600 10d40+50 slash
+-77 -77 -77 -42
+ACEFIKNOU AB 0 S
+stand stand male 5000
+0 0 medium 0
+
+#561
+kem ruhban kabal istila~
+þeytani ruhban~
+Bu kara ruhban istilanýn neferlerini güçlendirip, iyileþtiriyor.
+~
+Karþýnda gördüðün ruhban diyardaki en güçlü din adamlarýndan biridir.
+Þimdiye kadar gerçekleþen bütün istilalara þahit olan bu adam ilerlemiþ
+yaþýna raðmen halen kabalýna hizmet ediyor. Kendi yöntemiyle gücünü, kabal
+yoldaþlarýný kuvvetlendirip, iyileþtirmeye adamýþ. Tüm Cabülka-Cabülsa
+topraklarýnýn istila edileceði günü görmeyi bekliyor.
+~
+human~
+ABQVae DFH -1000 0
+90 0 1d1+28999 1d1+999 2d14+30 magic
+-85 -85 -85 -15
+FHIK ABC D 0
+stand stand male 1000
+0 0 medium 0
+
+#0
+
+
+
+#OBJECTS
+#560
+kýr mimber kafatasý~
+kafatasý~
+Mimberin üzerinde kýr renginde kemiklerden oluþan bir kafatasý görüyorsun.~
+bone~
+container CEORY P
+10 15 562 15 100
+60 2 20 P
+#561
+küre yuvar hiçlik~
+hiçlik küresi~
+Küresel biçimli küçük bir hiçlik havada süzülüyor.~
+unknown~
+treasure CETO AO
+0 0 0 0 0
+60 2 10000 P
+#562
+kafatasý grimsi çene~
+kafatasýnýn grimsi çenesi~
+kafatasýnýn gri renkli çenesi~
+bone~
+key CEORY A
+0 0 0 0 0
+40 2 0 P
+#563
+beyaz obje geçit~
+Büyülü beyaz geçit~
+Büyülü beyaz bir nesne açýklýkta tuhaf gölgeler oluþturuyor.~
+energy~
+portal AO 0
+0 0 B 560 0
+0 0 0 P
+#564
+siyah obje geçit~
+SÝyah Geçit~
+Büyülü siyah bir nesne açýklýkta tuhaf gölgeler oluþturuyor.~
+energy~
+portal AO 0
+0 0 E 0 0
+0 0 0 P
+#565
+yeþil obje geçit~
+Büyülü yeþil geçit~
+Büyülü yeþil bir nesne açýklýkta tuhaf gölgeler oluþturuyor.~
+energy~
+portal AO 0
+0 0 B 3124 0
+0 0 0 P
+#0
+
+#ROOMS
+#560
+Kuyu~
+Aðzý büyük bir kaya parçasýyla týkalý harabe bir kuyunun yanýnda
+duruyorsun. Gölgelerin içinde seni izleyen birilerinin olduðunu
+biliyorsun.
+~
+0 ACD 0
+D0
+Bu yön laðýmlardaki depo odasýna gidiyor.
+~
+~
+0 -1 16081
+D5
+Taþtan tünelin oldukça aþaðýsýnda bir meþalenin titrek ýþýltýsý kuyunun
+güney duvarýna vuruyor.
+~
+giriþ~
+3 -1 561
+S
+#561
+Kuyunun Dibi~
+Burasý kuzeye bakan bir kapý aralýðýndaki titrek bir meþalenin loþ
+ýþýðýyla aydýnlatýlmýþ. Güçlü bir insana ait gibi görünen bir gölge
+ateþin ýþýðýyla kuzey duvarýnda dans ediyor.
+~
+0 ACD 0
+D0
+Kapý iyi aydýnlatýlmýþ meclis odasýna ulaþýyor. Duvarýn üzerine
+büyük bir þeyin silüeti düþmüþ.
+~
+~
+0 -1 562
+D4
+Sadece kuyunun aðzýný seçebiliyorsun.
+~
+giriþ~
+3 -1 560
+S
+#562
+Dipsiz çukur~
+Dipsiz kuyudan aþaðý doðru hiç durmadan düþüyorsun. Tutunacak bir duvarýn
+belirtisini bile göstermeyen karanlýk seni sarmalýyor. Yukarý bakýyor ve
+aþaðýdaki hiçliðin aynýsýný görüyorsun. Aþaðýda seni ne bekliyor? Dibe
+ulaþabilecek misin?
+~
+0 ADN 0
+D5
+Karanlýk çukurun diplerine doðru düþerken
+~
+~
+0 0 564
+S
+#563
+Dipsiz çukur~
+Dipsiz kuyudan aþaðý doðru hiç durmadan düþüyorsun. Tutunacak bir duvarýn
+belirtisini bile göstermeyen karanlýk seni sarmalýyor. Yukarý bakýyor ve
+aþaðýdaki hiçliðin aynýsýný görüyorsun. Aþaðýda seni ne bekliyor? Dibe
+ulaþabilecek misin?
+~
+0 ADN 0
+D5
+Karanlýk çukurun diplerine doðru düþerken
+~
+~
+0 0 564
+S
+#564
+Dipsiz çukur~
+Dipsiz kuyudan aþaðý doðru hiç durmadan düþüyorsun. Tutunacak bir duvarýn
+belirtisini bile göstermeyen karanlýk seni sarmalýyor. Yukarý bakýyor ve
+aþaðýdaki hiçliðin aynýsýný görüyorsun. Aþaðýda seni ne bekliyor? Dibe
+ulaþabilecek misin?
+~
+0 ADN 0
+D5
+Karanlýk çukurun diplerine doðru düþerken
+~
+~
+0 0 565
+S
+#565
+Dipsiz çukur~
+Dipsiz kuyudan aþaðý doðru hiç durmadan düþüyorsun. Tutunacak bir duvarýn
+belirtisini bile göstermeyen karanlýk seni sarmalýyor. Yukarý bakýyor ve
+aþaðýdaki hiçliðin aynýsýný görüyorsun. Aþaðýda seni ne bekliyor? Dibe
+ulaþabilecek misin?
+~
+0 ADN 0
+D5
+Karanlýk çukurun diplerine doðru düþerken
+~
+~
+0 0 566
+S
+#566
+Dipsiz çukur~
+Dipsiz kuyudan aþaðý doðru hiç durmadan düþüyorsun. Tutunacak bir duvarýn
+belirtisini bile göstermeyen karanlýk seni sarmalýyor. Yukarý bakýyor ve
+aþaðýdaki hiçliðin aynýsýný görüyorsun. Aþaðýda seni ne bekliyor? Dibe
+ulaþabilecek misin?
+~
+0 AD 0
+D5
+Karanlýk çukurun diplerine doðru düþerken
+~
+~
+0 0 567
+S
+#567
+Gölgeli Meclis~
+Duvarlarýnda danseden gölgelerin olduðu meclisin içerisindesin. Ölüm
+temalý imgelerle ve çatlaklarla kaplý duvarlar, çok güçlü bir büyüyle
+yakýlmýþ gibi simsiyah.
+~
+0 ADX 0
+D0
+Zifiri karanlýk ...
+~
+~
+5 -1 568
+D1
+Zifiri karanlýk ...
+~
+~
+0 -1 567
+D2
+Zifiri karanlýk ...
+~
+~
+0 -1 569
+D3
+Zifiri karanlýk ...
+~
+~
+0 -1 567
+S
+#568
+Pentagram~
+Siyah taþlardan kesilmiþ büyük bir salona adým attýn. Pentagramýn
+çizgilerinin ortasýndan siyah bir mimber tüm görkemiyle yükseliyor. Dev
+mimberin üstünde bir insan kafatasý görüyorsun. Etraf, odayý çevreleyen
+basamaklarýn üstündeki birçok mumla aydýnlatýlmýþ. Doðu duvarýnda üzerine
+kanla "Ýstilacýlarýn Kardeþliði" yazýlý büyük bir deri parçasý görüyorsun.
+Batý duvarýnda ise siyah bir taþýn üzerinde kanla "Ölüm Meleði" yazýyor.
+~
+0 ADX 0
+H 100 M 110
+D2
+Karanlýk koridoru görüyorsun.
+~
+~
+0 -1 567
+S
+#569
+Cenk Meydaný~
+Ýstila kabalýna mensup deðilsen buraya yüksek ihtimalle kaçtýn. Karanlýðýn
+seni ürperttiðini farkediyorsun. Adrenalinin azalmasýný beklerken dinlenmek
+istiyorsun fakat burasý dinlenmek için güvenli bir yer deðil. Burasý Ýstila
+Kabalý'nýn Cenk Meydaný.
+~
+0 ADX 0
+H 50 M 50
+D0
+Karanlýk koridoru görüyorsun.
+~
+~
+0 -1 567
+S
+#0
+
+
+
+#RESETS
+M 0 561   1 568  1    	*  Invader's healer
+M 0 560   1 567  1	*  Invader's keeper.
+E 0 562   0 11		*  Invader's key
+O 0 560   1 568       	*  Invader's container
+P 0 561   1 560  1	*    in to the container
+D 0 561   4 1		*  Invader's enterance
+D 0 560   5 1		*  Invader's enterance
+O 0 563   1 568       	*  Invader's white portal
+O 0 564   1 568       	*  Invader's dark portal
+O 0 565   1 568       	*  Invader's green portal
+S
+
+#SHOPS
+0
+#SPECIALS
+M 560 spec_fight_invader
+M 561 spec_cast_cabal
+S
+
+#OMPROGS
+O 561 get_prog get_prog_cabal_item
+O 561 sac_prog sac_prog_cabal_item
+M 560 greet_prog greet_prog_invader	* chro
+S
+
+#PRACTICERS
+M 560 group_cabal	*guard
+S
+#$

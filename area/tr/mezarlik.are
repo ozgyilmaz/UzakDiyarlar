@@ -1,0 +1,950 @@
+#AREA
+mezarlik.are~
+Mezarlýk~
+{ 5 10} Alfa    Mezarlik~
+3600 3699
+#MOBILES
+#3600
+bahçývan henry~
+bahçývan henry~
+Bahçývan Henry burada oturuyor. Sarhoþ görünüyor.
+~
+Uzun ve iri yapýlý, ellilerinin sonuna gelmiþ bir adam. Yüzünde
+onyýllarýn yorgunluðu oldukça belirgin. Çömelmi hali ise keder ve
+çöküntünün bir anlatýmý. Kaybolmuþ cennetin hatýrasýnda sürükleniyor.
+~
+human~
+AG 0 350 0
+4 0 2d7+46 2d9+100 1d5+1 none
+6 6 6 9
+EFNU 0 0 0
+sit sit male 2
+0 0 medium 0
+#3601
+zombi~
+bir çürümüþ zombi~
+Çürümüþ bir zombi kollarýný uzatmýþ sana doðru geliyor.
+~
+Çürümüþ vücudunda kurtçuklar geziniyor. 
+~
+human~
+ABF J -750 0
+4 0 2d7+46 2d9+100 1d5+1 none
+6 6 6 9
+EFNU 0 0 0
+stand stand male 2
+0 0 medium 0
+#3602
+hortlak~
+korkunç hortlak~
+Korkunç bir hortlak burada.
+~
+O uzun kollarý ve pençeye benzeyen uzun keskin týrnaklarýyla yürüyen bir
+ölü. Koyu sarý gözleriyle aç aç sana bakýyor.
+~
+human~
+ABF J -750 0
+6 0 2d7+71 3d9+100 1d7+1 none
+4 4 4 9
+EFNU 0 0 0
+stand stand male 5
+0 0 medium 0
+#3603
+iskelet~
+bir tozlu iskelet~
+Bir tozlu iskelet burada.
+~
+Tozlu kemiklerin rengi neredeyse kahverengi. Çok uzun zaman önce gömülmüþ
+olmalý.
+~
+human~
+ABF J -750 0
+3 0 2d6+35 1d9+100 1d6+0 none
+7 7 7 10
+EFNU 0 0 E
+stand stand male 0
+0 0 medium 0
+#3604
+iskelet~
+bir tozlu iskelet~
+Bir tozlu iskelet burada.
+~
+Tozlu kemiklerin rengi neredeyse kahverengi. Çok uzun zaman önce gömülmüþ
+olmalý.
+~
+human~
+AF J -750 0
+3 0 2d6+35 1d9+100 1d6+0 none
+7 7 7 10
+EFNU 0 0 E
+stand stand male 0
+0 0 medium 0
+#3605
+zombi~
+bir çürümüþ zombi~
+Çürümüþ bir zombi kollarýný uzatmýþ sana doðru geliyor.
+~
+Çürümüþ vücudunda kurtçuklar geziniyor.
+~
+human~
+AF J -750 0
+4 0 2d7+46 2d9+100 1d5+1 none
+6 6 6 9
+EFNU 0 0 0
+stand stand male 5
+0 0 medium 0
+#0
+#OBJECTS
+#3600
+þamdan~
+bir þamdan~
+Kalay ve kurþun karýþýmýndan bir þamdan burada duruyor.~
+parafin~
+light 0 AO
+0 0 24 0 0
+0 50 10 P
+E
+þamdan~
+Kalay ve kurþundan yapýlmýþ, üç kollu eski bir þamdan. Sarýmsý renkte
+mumlarý var.
+~
+#3601
+brendi þiþesi~
+bir brendi þiþesi~
+Bir birendi þiþesi yerde yatýyor.~
+glass~
+drink 0 A
+32 32 'whisky' 0 0
+0 20 100 P
+E
+brendi þiþesi~
+Bu özel bir 'Ejder Kaný' brendi þiþesi. Boynu küçük bir ejderhayý
+andýrýyor. Böyle þiþeler boþ olduklarýnda bile para ederler.
+~
+#3602
+brendi þiþesi~
+bir brendi þiþesi~
+Bir birendi þiþesi yerde yatýyor.~
+glass~
+drink 0 A
+32 0 'whisky' 0 0
+0 20 100 P
+E
+brendi þiþesi~
+Bu özel bir 'Ejder Kaný' brendi þiþesi. Boynu küçük bir ejderhayý
+andýrýyor. Böyle þiþeler boþ olduklarýnda bile para ederler.
+~
+#3603
+el arabasý~
+bir el arabasý~
+Yeþil boyalý bir el arabasý burada duruyor.~
+wood~
+boat 0 A
+0 0 0 0 0
+0 1000 50 P
+E
+el arabasý~
+Meþe aðacýndan yapýlmýþ ve koyu yeþile boyanmýþ aðýr bir el arabasý.
+~
+#3604
+kürek~
+bir kürek~
+Bir kürek burada yatýyor.~
+iron ebony~
+weapon 0 AN
+mace 1 5 pound 0
+0 80 169 P
+E
+kürek~
+Sapý tahtadan geniþ metal bir kürek.
+~
+#3605
+topuz~
+bir topuz~
+Bir topuz yerde yatýyor.~
+unknown~
+weapon 0 AN
+mace 1 4 claw 0
+0 80 140 P
+E
+týrmýk~
+Tahtadan sapý olan geniþ metal bir týrmýk.
+~
+#3610
+iskelet~
+tozlu bir iskelet~
+Tozlu bir iskelet yerde yatýyor.~
+bone~
+furniture 0 A
+0 0 0 0 0
+0 150 0 P
+E
+iskelet~
+Kemikler neredeyse kahverengi olmuþ. Öleli çok olmuþ olmalý. Ýskelet
+mükemmel durumda.
+~
+#3611
+ametist mücevher~
+bir ametist mücevher~
+Büyük, parlayan, mor bir mücevher burada.~
+amethyst~
+warp_stone T AO
+0 0 0 0 0
+0 10 2500 P
+E
+ametist~
+Oldukça derin mor bir rengi var.
+~
+#3612
+pandantif gümüþ~
+bir pandantif gümüþ~
+Bir pandantif gümüþ burada býrakýlmýþ.~
+silver~
+jewelry 0 AC
+0 0 0 0 0
+7 10 800 P
+A
+1 1
+A
+17 -1
+E
+pandantif gümüþ~
+Thor'un çekicine benziyor. Saf gümüþten yapýlmýþ.
+~
+#3613
+gümüþ kama~
+bir gümüþ kama~
+Uzun bir gümüþ kama burada yatýyor.~
+silver~
+weapon 0 AN
+dagger 2 4 pierce 0
+6 10 430 P
+A
+19 1
+E
+gümüþ hançer~
+Uzun bir hançer. Gümüþten yapýlmýþ. Kabzasýna bir rün iþlenmiþ.
+~
+#0
+
+#ROOMS
+#3600
+Mezarlýkta bir çakýl yol~
+Mezalýk boyunca kuzey ve güneye giden çakýl bir yoldasýn. Yolun iki
+kenarýnda koyu renk yaprak dökmeyen aðaçlar var. Kuzeyde bir demir kapý,
+batý ve doðuya doðru ise çakýl yol var.
+~
+0 0 2
+D0
+Demir parmaklýklar boyunca Elm Caddesi'ni görüyorsun.
+~
+ýzgara~
+1 -1 3124
+D1
+Çakýl yol koyu yaprak dökmeyen aðaçlarýn arasýndan doðuya ilerliyor.
+~
+~
+0 -1 3650
+D2
+Çakýl yol güneye ilerliyor.
+~
+~
+0 -1 3601
+D3
+Çakýl yol koyu yaprak dökmeyen aðaçlarýn arasýndan batýya ilerliyor.
+~
+~
+0 -1 3606
+S
+#3601
+Mezarlýkta bir çakýl yol~
+Mezalýk boyunca kuzey ve güneye giden çakýl bir yoldasýn. Yolun iki
+kenarýnda koyu renk yaprak dökmeyen aðaçlar var.
+~
+0 0 2
+D0
+Çakýl yol kuzeye ilerliyor.
+~
+~
+0 -1 3600
+D2
+Çakýl yol güneye ilerliyor.
+~
+~
+0 -1 3602
+S
+#3602
+Mezarlýkta bir çakýl yol~
+Mezalýk boyunca kuzey ve güneye giden çakýl bir yoldasýn. Yolun iki
+kenarýnda koyu renk yaprak dökmeyen aðaçlar var.
+~
+0 0 2
+D0
+Çakýl yol kuzeye ilerliyor.
+~
+~
+0 -1 3601
+D2
+Çakýl yol güneye ilerliyor.
+~
+~
+0 -1 3603
+S
+#3603
+Mezarlýkta bir çakýl yol~
+Mezalýk boyunca kuzey ve güneye giden çakýl bir yoldasýn. Yolun iki
+kenarýnda koyu renk yaprak dökmeyen aðaçlar var.
+~
+0 0 2
+D0
+Çakýl yol kuzeye ilerliyor.
+~
+~
+0 -1 3602
+D2
+Çakýl yol güneyde küçük yapýnýn önündeki alana ilerliyor.
+~
+~
+0 -1 3604
+S
+#3604
+Küçük Kilisenin Önünde~
+Küçük bir kilisenin önünde açýk alandasýn. Çakýl bir yol kuzeye,
+mezarlýða yöneliyor. Kilise giriþi ise güneyde.
+~
+0 0 2
+D0
+Çakýl yol kuzeye ilerliyor.
+~
+~
+0 -1 3603
+D1
+Çakýl yol koyu yaprak dökmeyen aðaçlarýn arasýndan doðuya ilerliyor.
+~
+~
+0 -1 3638
+D2
+Kilise kapýsý kara aðaçtan yapýlmýþ.
+~
+kapý~
+1 -1 3405
+D3
+Çakýl yol koyu yaprak dökmeyen aðaçlarýn arasýndan batýya ilerliyor.
+~
+~
+0 -1 3618
+S
+#3606
+Mezarlýkta bir çakýl yol~
+Mezalýðýn koyu renk yaprak dökmeyen aðaçlarýnýn arasýnda ilerleyen çakýl
+bir patikadasýn. Burada eski bir mezar var.
+~
+0 0 2
+D1
+Çakýl yol doðuya bir çakýl yola doðru ilerliyor.
+~
+~
+0 -1 3600
+D2
+Çakýl yol güneye ilerliyor.
+~
+~
+0 -1 3608
+D5
+
+~
+kabir taþý~
+1 -1 3607
+E
+kabir taþý~
+Bu dikdörtgen, yere yüzü yukarý gelecek þekilde yerleþtirilmiþ gri bir
+taþ. Zamanla üzerindeki isim silinmiþ.
+~
+S
+#3607
+Tozlu Kabirde~
+Büyük bir mezar taþýnýn altýnda, karanlýk bir defin odasýndasýn. Tek
+çýkýþ yukarýya.
+~
+0 AD 1
+D4
+
+~
+kabir taþý~
+1 -1 3606
+S
+#3608
+Mezarlýkta bir çakýl yol~
+Mezalýðýn koyu renk yaprak dökmeyen aðaçlarýnýn arasýnda ilerleyen çakýl
+bir patikadasýn. Burada eski bir mezar var.
+~
+0 0 2
+E
+kabir taþý~
+Bu dikdörtgen, yere yüzü yukarý gelecek þekilde yerleþtirilmiþ gri bir
+taþ. Zamanla üzerindeki isim silinmiþ.
+~
+D0
+Çakýl yol kuzeye ilerliyor.
+~
+~
+0 -1 3606
+D3
+Çakýl yol batýya ilerliyor.
+~
+~
+0 -1 3610
+D5
+
+~
+kabir taþý~
+1 -1 3609
+S
+#3609
+Tozlu Kabirde~
+Büyük bir mezar taþýnýn altýnda, karanlýk bir defin odasýndasýn. Tek
+çýkýþ yukarýya.
+~
+0 AD 1
+D4
+
+~
+kabir taþý~
+1 -1 3608
+S
+#3610
+Mezarlýkta bir çakýl yol~
+Mezalýðýn koyu renk yaprak dökmeyen aðaçlarýnýn arasýnda ilerleyen çakýl
+bir patikadasýn. Burada eski bir mezar var.
+~
+0 0 2
+E
+kabir taþý~
+Bu dikdörtgen, yere yüzü yukarý gelecek þekilde yerleþtirilmiþ gri bir
+taþ. Zamanla üzerindeki isim silinmiþ.
+~
+D1
+Çakýl yol doðuya ilerliyor.
+~
+~
+0 -1 3608
+D2
+Çakýl yol güneye ilerliyor.
+~
+~
+0 -1 3612
+D5
+
+~
+kabir taþý~
+1 -1 3611
+S
+#3611
+Tozlu Kabirde~
+Büyük bir mezar taþýnýn altýnda, karanlýk bir defin odasýndasýn. Tek
+çýkýþ yukarýya.
+~
+0 AD 1
+D4
+
+~
+kabir taþý~
+1 -1 3610
+S
+#3612
+Mezarlýkta bir çakýl yol~
+Mezalýðýn koyu renk yaprak dökmeyen aðaçlarýnýn arasýnda ilerleyen çakýl
+bir patikadasýn. Patika kuzeye ve doðuya ilerliyor. Batýda küçük bir kulübe
+var.
+~
+0 0 2
+D0
+Çakýl yol kuzeye ilerliyor.
+~
+~
+0 -1 3610
+D1
+Çakýl yol doðuya ilerliyor.
+~
+~
+0 -1 3614
+D3
+Bu tahta kapýlý, siyah boyalý küçük bir kulübe.
+~
+kapý~
+1 -1 3613
+S
+#3613
+Mezarlýktaki Kulübede~
+Burasý bahçede kullanýlan ekipmanlarýn konulduðu bir depo gibi görünüyor.
+Tek çýkýþ doðuda.
+~
+0 D 1
+D1
+
+~
+kapý~
+1 -1 3612
+S
+#3614
+Mezarlýkta bir çakýl yol~
+Mezalýðýn koyu renk yaprak dökmeyen aðaçlarýnýn arasýnda ilerleyen çakýl
+bir patikadasýn. Burada eski bir mezar var.
+~
+0 0 2
+E
+kabir taþý~
+Bu dikdörtgen, yere yüzü yukarý gelecek þekilde yerleþtirilmiþ gri bir
+taþ. Zamanla üzerindeki isim silinmiþ.
+~
+D2
+Çakýl yol güneye ilerliyor.
+~
+~
+0 -1 3616
+D3
+Çakýl yol batýya ilerliyor.
+~
+~
+0 -1 3612
+D5
+
+~
+kabir taþý~
+1 -1 3615
+S
+#3615
+Tozlu Kabirde~
+Büyük bir mezar taþýnýn altýnda, karanlýk bir defin odasýndasýn. Tek
+çýkýþ yukarýya.
+~
+0 AD 1
+D4
+
+~
+kabir taþý~
+1 -1 3614
+S
+#3616
+Mezarlýkta bir çakýl yol~
+Mezalýðýn koyu renk yaprak dökmeyen aðaçlarýnýn arasýnda ilerleyen çakýl
+bir patikadasýn. Burada eski bir mezar var.
+~
+0 0 2
+E
+kabir taþý~
+Bu dikdörtgen, yere yüzü yukarý gelecek þekilde yerleþtirilmiþ gri bir
+taþ. Zamanla üzerindeki isim silinmiþ.
+~
+D0
+Çakýl yol kuzeye ilerliyor.
+~
+~
+0 -1 3614
+D2
+Çakýl yol güneye ilerliyor.
+~
+~
+0 -1 3618
+D5
+
+~
+kabir taþý~
+1 -1 3617
+S
+#3617
+Tozlu Kabirde~
+Büyük bir mezar taþýnýn altýnda, karanlýk bir defin odasýndasýn. Tek
+çýkýþ yukarýya.
+~
+0 AD 1
+D4
+
+~
+kabir taþý~
+1 -1 3616
+S
+#3618
+Mezarlýkta bir çakýl yol~
+Mezalýðýn koyu renk yaprak dökmeyen aðaçlarýnýn arasýnda ilerleyen çakýl
+bir patikadasýn. Burada eski bir mezar var.
+~
+0 0 2
+E
+kabir taþý~
+Bu dikdörtgen, yere yüzü yukarý gelecek þekilde yerleþtirilmiþ gri bir
+taþ. Zamanla üzerindeki isim silinmiþ.
+~
+D0
+Çakýl yol kuzeye ilerliyor.
+~
+~
+0 -1 3616
+D1
+Çakýl yol doðuya bir çeþit binaya doðru ilerliyor.
+~
+~
+0 -1 3604
+D5
+
+~
+kabir taþý~
+1 -1 3619
+S
+#3619
+Tozlu Kabirde~
+Büyük bir mezar taþýnýn altýnda, karanlýk bir defin odasýndasýn. Tek
+çýkýþ yukarýya.
+~
+0 AD 1
+D4
+
+~
+kabir taþý~
+1 -1 3618
+S
+#3638
+Mezarlýkta bir çakýl yol~
+Mezalýðýn koyu renk yaprak dökmeyen aðaçlarýnýn arasýnda ilerleyen çakýl
+bir patikadasýn. Burada eski bir mezar var.
+~
+0 0 2
+E
+kabir taþý~
+Bu dikdörtgen, yere yüzü yukarý gelecek þekilde yerleþtirilmiþ gri bir
+taþ. Zamanla üzerindeki isim silinmiþ.
+~
+D0
+Çakýl yol kuzeye ilerliyor.
+~
+~
+0 -1 3640
+D3
+Çakýl yol batýya bir çeþit binaya doðru ilerliyor.
+~
+~
+0 -1 3604
+D5
+
+~
+kabir taþý~
+1 -1 3639
+S
+#3639
+Tozlu Kabirde~
+Büyük bir mezar taþýnýn altýnda, karanlýk bir defin odasýndasýn. Tek
+çýkýþ yukarýya.
+~
+0 AD 1
+D4
+
+~
+kabir taþý~
+1 -1 3638
+S
+#3640
+Mezarlýkta bir çakýl yol~
+Mezalýðýn koyu renk yaprak dökmeyen aðaçlarýnýn arasýnda ilerleyen çakýl
+bir patikadasýn. Burada eski bir mezar var.
+~
+0 0 2
+E
+kabir taþý~
+Bu dikdörtgen, yere yüzü yukarý gelecek þekilde yerleþtirilmiþ gri bir
+taþ. Zamanla üzerindeki isim silinmiþ.
+~
+D0
+Çakýl yol kuzeye ilerliyor.
+~
+~
+0 -1 3642
+D2
+Çakýl yol güneye ilerliyor.
+~
+~
+0 -1 3638
+D5
+
+~
+kabir taþý~
+1 -1 3641
+S
+#3641
+Tozlu Kabirde~
+Büyük bir mezar taþýnýn altýnda, karanlýk bir defin odasýndasýn. Tek
+çýkýþ yukarýya.
+~
+0 AD 1
+D4
+
+~
+kabir taþý~
+1 -1 3640
+S
+#3642
+Mezarlýkta bir çakýl yol~
+Mezalýðýn koyu renk yaprak dökmeyen aðaçlarýnýn arasýnda ilerleyen çakýl
+bir patikadasýn. Burada eski bir mezar var.
+~
+0 0 2
+E
+kabir taþý~
+Bu dikdörtgen, yere yüzü yukarý gelecek þekilde yerleþtirilmiþ gri bir
+taþ. Zamanla üzerindeki isim silinmiþ.
+~
+D1
+Çakýl yol doðuya ilerliyor.
+~
+~
+0 -1 3644
+D2
+Çakýl yol güneye ilerliyor.
+~
+~
+0 -1 3640
+D5
+
+~
+kabir taþý~
+1 -1 3643
+S
+#3643
+Tozlu Kabirde~
+Büyük bir mezar taþýnýn altýnda, karanlýk bir defin odasýndasýn. Tek
+çýkýþ yukarýya.
+~
+0 AD 1
+D4
+
+~
+kabir taþý~
+1 -1 3642
+S
+#3644
+Mezarlýkta bir çakýl yol~
+Mezalýðýn koyu renk yaprak dökmeyen aðaçlarýnýn arasýnda ilerleyen çakýl
+bir patikadasýn. Burada eski bir mezar var.
+~
+0 0 2
+E
+kabir taþý~
+Bu dikdörtgen, yere yüzü yukarý gelecek þekilde yerleþtirilmiþ gri bir
+taþ. Zamanla üzerindeki isim silinmiþ.
+~
+D0
+Çakýl yol kuzeye ilerliyor.
+~
+~
+0 -1 3646
+D3
+Çakýl yol batýya ilerliyor.
+~
+~
+0 -1 3642
+D5
+
+~
+kabir taþý~
+1 -1 3645
+S
+#3645
+Tozlu Kabirde~
+Büyük bir mezar taþýnýn altýnda, karanlýk bir defin odasýndasýn. Tek
+çýkýþ yukarýya.
+~
+0 AD 1
+D4
+
+~
+kabir taþý~
+1 -1 3644
+S
+#3646
+Mezarlýkta bir çakýl yol~
+Mezalýðýn koyu renk yaprak dökmeyen aðaçlarýnýn arasýnda ilerleyen çakýl
+bir patikadasýn. Burada eski bir mezar var.
+~
+0 0 2
+E
+kabir taþý~
+Bu dikdörtgen, yere yüzü yukarý gelecek þekilde yerleþtirilmiþ gri bir
+taþ. Zamanla üzerindeki isim silinmiþ.
+~
+D2
+Çakýl yol güneye ilerliyor.
+~
+~
+0 -1 3644
+D3
+Çakýl yol batýya ilerliyor.
+~
+~
+0 -1 3648
+D5
+
+~
+kabir taþý~
+1 -1 3647
+S
+#3647
+Tozlu Kabirde~
+Büyük bir mezar taþýnýn altýnda, karanlýk bir defin odasýndasýn. Tek
+çýkýþ yukarýya.
+~
+0 AD 1
+D4
+
+~
+kabir taþý~
+1 -1 3646
+S
+#3648
+Mezarlýkta bir çakýl yol~
+Mezalýðýn koyu renk yaprak dökmeyen aðaçlarýnýn arasýnda ilerleyen çakýl
+bir patikadasýn. Burada eski bir mezar var.
+~
+0 0 2
+E
+kabir taþý~
+Bu dikdörtgen, yere yüzü yukarý gelecek þekilde yerleþtirilmiþ gri bir
+taþ. Zamanla üzerindeki isim silinmiþ.
+~
+D0
+Çakýl yol kuzeye ilerliyor.
+~
+~
+0 -1 3650
+D1
+Çakýl yol doðuya ilerliyor.
+~
+~
+0 -1 3646
+D5
+
+~
+kabir taþý~
+1 -1 3649
+S
+#3649
+Tozlu Kabirde~
+Büyük bir mezar taþýnýn altýnda, karanlýk bir defin odasýndasýn. Tek
+çýkýþ yukarýya.
+~
+0 AD 1
+D4
+
+~
+kabir taþý~
+1 -1 3648
+S
+#3650
+Mezarlýkta bir çakýl yol~
+Mezalýðýn koyu renk yaprak dökmeyen aðaçlarýnýn arasýnda ilerleyen çakýl
+bir patikadasýn. Burada eski bir mezar var.
+~
+0 0 2
+E
+kabir taþý~
+Bu dikdörtgen, yere yüzü yukarý gelecek þekilde yerleþtirilmiþ gri bir
+taþ. Zamanla üzerindeki isim silinmiþ.
+~
+D2
+Çakýl yol güneye ilerliyor.
+~
+~
+0 -1 3648
+D3
+Çakýl yol batýya, bir çakýl yola doðru ilerliyor.
+~
+~
+0 -1 3600
+D5
+
+~
+kabir taþý~
+1 -1 3651
+S
+#3651
+Tozlu Kabirde~
+Büyük bir mezar taþýnýn altýnda, karanlýk bir defin odasýndasýn. Tek
+çýkýþ yukarýya.
+~
+0 AD 1
+D4
+
+~
+kabir taþý~
+1 -1 3650
+S
+#0
+#RESETS
+D 0 3124   2    2	* Elm Street south
+D 0 3600   0    1	* A Gravel Road in the Graveyard north
+D 0 3604   2    1	* In front of the Chapel south
+D 0 3606   5    1	* A Gravel Path on the Graveyard down
+D 0 3607   4    1	* In a dusty Tomb up
+O 0 3610  13 3607	* a dusty skeleton
+D 0 3608   5    1	* A Gravel Path on the Graveyard down
+D 0 3609   4    1	* In a dusty Tomb up
+M 0 3603   4 3609  1	* a dusty skeleton
+D 0 3610   5    1	* A Gravel Path on the Graveyard down
+D 0 3611   4    1	* In a dusty Tomb up
+M 0 3603   4 3611  1	* a dusty skeleton
+O 0 3613  10 3611	* a silver dagger
+D 0 3612   3    1	* A Gravel Path on the Graveyard west
+D 0 3613   1    1	* In a shed on the Graveyard east
+M 0 3600   1 3613  1	* Henry the Gardener
+G 1 3601  -1     	*   a brandy bottle
+O 0 3602  -1 3613	* a brandy bottle
+O 0 3603   1 3613	* a wheelbarrow
+O 0 3604  -1 3613	* a shovel
+O 0 3605  -1 3613	* a rake
+D 0 3614   5    1	* A Gravel Path on the Graveyard down
+D 0 3615   4    1	* In a dusty Tomb up
+O 0 3610  13 3615	* a dusty skeleton
+D 0 3616   5    1	* A Gravel Path on the Graveyard down
+D 0 3617   4    1	* In a dusty Tomb up
+M 0 3602   1 3617  1	* the ghastly ghoul
+G 1 3612  -1     	*   a silver pendant
+D 0 3618   5    1	* A Gravel Path on the Graveyard down
+D 0 3619   4    1	* In a dusty Tomb up
+O 0 3610  13 3619	* a dusty skeleton
+D 0 3638   5    1	* A Gravel Path on the Graveyard down
+D 0 3639   4    1	* In a dusty Tomb up
+M 0 3603   4 3639  1	* a dusty skeleton
+D 0 3640   5    1	* A Gravel Path on the Graveyard down
+D 0 3641   4    1	* In a dusty Tomb up
+O 0 3610  13 3641	* a dusty skeleton
+D 0 3642   5    1	* A Gravel Path on the Graveyard down
+D 0 3643   4    1	* In a dusty Tomb up
+O 0 3603   5 3643	* a wheelbarrow
+D 0 3644   5    1	* A Gravel Path on the Graveyard down
+D 0 3645   4    1	* In a dusty Tomb up
+M 0 3601   1 3645  1	* the rotting zombie
+G 1 3611  -1     	*   a amethyst
+D 0 3646   5    1	* A Gravel Path on the Graveyard down
+D 0 3647   4    1	* In a dusty Tomb up
+O 0 3610  13 3647	* a dusty skeleton
+D 0 3648   5    1	* A Gravel Path on the Graveyard down
+D 0 3649   4    1	* In a dusty Tomb up
+M 0 3603   4 3649  1	* a dusty skeleton
+D 0 3650   5    1	* A Gravel Path on the Graveyard down
+D 0 3651   4    1	* In a dusty Tomb up
+M 0 3604   4 3606  1	* a dusty skeleton
+M 0 3604   4 3604  1	* a dusty skeleton
+M 0 3604   4 3612  1	* a dusty skeleton
+M 0 3604   4 3640  1	* a dusty skeleton
+M 0 3605   3 3651  1	* the rotting zombie
+M 0 3605   3 3644  1	* the rotting zombie
+M 0 3605   3 3638  1	* the rotting zombie
+S
+#SHOPS
+0
+#SPECIALS
+M 3601 spec_cast_undead    	* the rotting zombie
+M 3602 spec_cast_undead    	* the ghastly ghoul
+M 3603 spec_cast_undead    	* a dusty skeleton
+M 3604 spec_cast_undead    	* a dusty skeleton
+M 3605 spec_cast_undead    	* the rotting zombie
+S
+#$

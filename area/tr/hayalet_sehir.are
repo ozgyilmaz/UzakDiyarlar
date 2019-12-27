@@ -1,0 +1,2915 @@
+#AREA
+hayalet_sehir.are~
+Hayalet Þehir~
+{45 65} Yaegar  Hayalet Þehir~
+8100 8200
+
+#HELPS
+0 'HAYALET ÞEHÝR'~
+This is purely a simple hack-n-slash area with the interesting added feature
+that you can't recall... You have to fight your way through the many powerful
+high level undead that populate this place. To a good mudder its heaven. To
+someone who flees when fighting the children in Mud School, its probably gonna
+be considered impossible. Either way, have fun.
+
+
+~
+
+0 $~
+
+
+#MOBILES
+#8100
+hortlak~
+bir hortlak~
+Bir hortlak çýðlýk atarak sana saldýrdý!
+~
+Buranýn eski muhafýzlarýndan birinin ruhu, bu pis hortlak. Senin de bu
+lanetli araziye gelen önceki davetsiz misafirlerle ayný kaderi paylaþman
+için elinden geleni yapacak.- ÖLÜM!.
+~
+undead~
+AFGO DFHT -1000 0
+60 0 25d10+9750 1d10+5000 11d9+36 slash
+-28 -28 -28 0
+EFNQ R 0 NX
+stand stand none 5000
+I 0 medium 0
+#8101
+ruh~
+bir ruh~
+Bir ruh sana doðru uzun, sessiz adýmlarla geliyor. Kýrmýzý parýldayan
+gözlerinde ölüm var.
+~
+Buranýn eski muhafýzlarýndan birinin ruhu, bu pis hortlak. Senin de bu
+lanetli araziye gelen önceki davetsiz misafirlerle ayný kaderi paylaþman
+için elinden geleni yapacak.- ÖLÜM!.
+~
+undead~
+AFGO DFT -1000 0
+47 0 25d10+3500 1d20+3440 6d6+17 pierce
+-17 -17 -17 2
+EFNQ R 0 N
+stand stand none 5000
+I 0 medium 0
+#8102
+gulyabani~
+bir gulyabani~
+Sarý benizli bir gulyabani, hala üzerinde yaþarken giydiði zýrhýyla, sana
+saldýrýyor.
+~
+Buranýn eski muhafýzlarýndan birinin ruhu, bu pis hortlak. Senin de bu
+lanetli araziye gelen önceki davetsiz misafirlerle ayný kaderi paylaþman
+için elinden geleni yapacak.- ÖLÜM!.
+~
+undead~
+AFGO DF -1000 0
+45 0 25d10+3000 10d10+330 8d4+16 slash
+-15 -15 -15 4
+EFNQ R 0 NX
+stand stand none 4500
+I 0 medium 0
+#8103
+hayalet~
+bir hayalet~
+Uzun süredir ölü bir maceracýnýn hayaleti sana doðru çýlgýnca uluyor.
+~
+Buranýn eski muhafýzlarýndan birinin ruhu, bu pis hortlak. Senin de bu
+lanetli araziye gelen önceki davetsiz misafirlerle ayný kaderi paylaþman
+için elinden geleni yapacak.- ÖLÜM!.
+~
+undead~
+AFGO DFTU -1000 0
+48 0 25d10+3750 10d10+110 6d6+18 pound
+-18 -18 -18 2
+EFNU R 0 NX
+stand stand none 5000
+I 0 medium 0
+#8104
+vampir~
+bir vampir~
+Þeytani bir vampir tabutundan kalkýyor ve saldýrýyor.!
+~
+Þeytani Baron ve iki kardeþi, onlarý tamamiyle yokedecek güce sahip olmayan
+Xanan tarafýndan buraya hapsedilmiþ vampirlerdiler. Ve þimdi onlarý tekrar
+dirilttiðin için sana müteþekkirler.!
+~
+undead~
+ABFGO DFN -1000 0
+54 0 25d10+5250 10d10+1110 7d6+22 pierce
+-24 -24 -24 -1
+EFNQ BR 0 NX
+stand stand none 5300
+0 0 medium 0
+#8105
+büyücü~
+bir büyücü~
+Çýldýrmýþ bir büyücü üzerine doðru bir sürü büyü yolluyor.
+~
+Bu kudretli hortlak, daha önceden ihanete uðrayarak öldürülmüþ olan
+Xantharus'un efendisi olmalý. Ama durumu tahmin etti ve bir büyücü
+olarak geri döndü. Þimdi intikam arýyor.
+~
+human~
+ABFGO DF -1000 0
+58 0 50d10+6250 10d10+1110 5d10+25 pierce
+-28 -28 -28 2
+EFNQ AB T K
+stand stand male 5800
+0 0 medium 0
+#8106
+zebani~
+bir zebani~
+Bir zebani aðzýný þapýrdatarak, çýlgýnca kýkýrdýyor!
+~
+Bu tuhaf yaratýk, buranýn negatif enerjiyle yasýçanýlmýþ alt alemlerinin bir
+muhafýzý.
+~
+undead~
+AFGHO DF -1000 0
+52 0 50d10+4750 10d10+4440 6d7+20 pound
+-22 -22 -22 0
+EFNQ R 0 N
+stand stand none 5000
+I 0 medium 0
+#8107
+geri dönmüþ~
+bir geri dönmüþ~
+Bir geri dönmüþ burada, eskinin hesabýný soracak birilerini arýyor.
+~
+Bu zavallý ruh, bir zamanlar Soleil'in güçlü ve iyi bir rahibiydi. Ama
+þeytani Gomez'in adamlarý tarafýndan yakalanýp, iþkence edilerek öldürüldü.
+Onun ruhu buraya döndü ve uzun süredir ölü olan katillerini arýyor. Amacýnýn
+dýþýndaki herþeyi görmezden gelir ama yoluna çýkarsan saldýrmaktan çekinmez.
+~
+undead~
+AGO DFN 0 0
+57 0 50d10+6000 10d10+1000 6d8+24 pierce
+-27 -27 -27 -2
+EFNQ R 0 N
+stand stand none 5300
+I 0 medium 0
+#8108
+karabasan~
+bir karabasan~
+Bir karabasan burada, rüyalara sýzmayý bekliyor.
+~
+Bu ruh, bir zamanlar Hayalet Þehir'e bir bahis sonucu giren kudretli bir
+savaþçýydý. Buranýn sakinleri tarafýndan hemen avlandý, ama ölürken ne kadar
+ýstýrap çekmiþ ki, ruhu sonunu yaþadýðý bu bölgeyi lanetlemek için burada
+kalmýþ.
+~
+undead~
+ABGO DFTU 0 0
+48 0 25d10+3750 10d10+1000 6d6+18 pierce
+-18 -18 -18 2
+EFNQ R 0 N
+stand stand none 5000
+I 0 medium 0
+#8109
+mezar mahluk~
+bir mezar mahluðu~
+Bir mezar mahluðu þeytanice kýkýrdayýp sana sataþýyor.
+~
+Bu yaratýk, þeytanlýðýna raðmen sana saldýrmayacak; sadece sataþacak. Buna
+raðmen kendini korumaktan da çekinmez.
+~
+undead~
+ABGO DF -1000 0
+55 0 50d10+5500 10d10+1000 10d4+23 pierce
+-25 -25 -25 0
+EFNQ R 0 N
+stand stand none 5300
+0 0 medium 0
+#8110
+güçlü zebani~
+güçlü bir zebani~
+Güçlü bir Zebani ileriye doðru ateþ ve gaz kusuyor!
+~
+Bu tuhaf yaratýk, buranýn negatif enerjiyle yasýçanýlmýþ alt alemlerinin bir
+muhafýzý.
+~
+undead~
+ABFGO DFT -1000 0
+58 0 50d10+6250 10d10+1000 5d10+25 pound
+-28 -28 -28 -2
+EFNQ R 0 N
+stand stand none 5600
+I 0 medium 0
+#8111
+hortlak ejderha~
+bir hortlak ejderha~
+Bir hortlak Ejderha ileriye doðru zehirli buhar püskürtüyor!
+~
+Bu iðrenç yaratýk, yaþarken Xantharus'a en iyi þekilde hizmet etmiþ bir
+ejderhanýn ruhu. Öyle ki Xantharus onu öldükten sonra da hizmet etmesi için
+canladýrmýþ.
+~
+undead~
+ABFGO DFT -1000 0
+62 0 50d10+7250 10d10+1000 6d9+32 pound
+-32 -32 -32 -3
+EFNQ R 0 N
+stand stand none 7000
+0 0 medium 0
+#8112
+hortlak canavar~
+hortlak canavar~
+Bir hortlak canavar ayaklarýný sürterek saldýrýyor!
+~
+Buranýn eski muhafýzlarýndan birinin ruhu, bu pis hortlak yaratýk , senin de
+bu lanetli araziye gelen önceki davetsiz misafirlerle ayný kaderi paylaþman
+için elinden geleni yapacak.- ÖLÜM!.
+~
+undead~
+AFGO DF -1000 0
+45 0 25d10+3000 10d10+1000 8d4+16 slash
+-15 -15 -15 10
+EFNQ R 0 N
+stand stand none 5000
+0 0 medium 0
+#8113
+dev sýçan~
+dev sýçan~
+Dev bir sýçan vahþice saldýrýyor!
+~
+Dev derken, 10 adým boydan bahsettim!...
+~
+rat~
+ACFGHO DFQ -1000 0
+40 0 10d10+1850 10d10+100 4d8+13 charge
+-13 -13 -13 4
+EFNQ 0 0 0
+stand stand none 5000
+0 0 medium 0
+#8114
+dev örümcek~
+dev örümcek~
+Dev bir örümcek üzerine geliyor!
+~
+Örümcekler istediklerinde iyi sýçrayan canlýlardýr.
+~
+undead~
+ACFGHO DFQ -1000 0
+45 0 25d10+3000 10d10+1000 8d4+16 charge
+-15 -15 -15 4
+EFNQ 0 0 0
+stand stand none 5000
+P 0 medium 0
+#8115
+pusucu~
+pusucu~
+Tependeki bir pusucu seni boðmak için fýrsat kolluyor!
+~
+Bu sapkýn iðrenç yaratýk, inine giren misafirlerle besleniyor-
+~
+undead~
+ABFGHO T 0 0
+52 0 50d10+4750 10d10+1000 6d7+20 pierce
+-20 -20 -20 2
+EFNQ 0 0 0
+stand stand none 5000
+0 0 medium 0
+#8116
+vampirella~
+bir vampirella~
+Güzel bir diþi etkileyici þekilde bakýyor, keskin diþlerini göstererek...
+~
+Bu bir vampirella, Seni etkileyecek ve harcayacak, DÖVÜÞ!
+~
+undead~
+ABGO DFHT -1000 0
+50 0 50d10+4250 10d10+1000 5d8+19 slash
+-20 -20 -20 2
+EFNQ 0 0 N
+stand stand none 5000
+I 0 medium 0
+#8117
+xantharus~
+Xantharus~
+Xantharus burada, özgür kalmayý bekliyor.
+~
+Bu acýnasý zavallý kimse Xantharus'tan baþkasý deðil, bu þehre hortlakleri
+getirerek burayý yokeden ve daha sonra kontrolu elinde tututamayan güçlü
+büyücü. Büyük Hata'sý O'nu bulmadan bir çýkýþ yolu bulmak umuduyla buraya
+kaçmýþ.
+~
+undead~
+ABGHO 0 -400 0
+50 0 50d10+4250 10d10+1000 5d8+19 pound
+-20 -20 -20 2
+EFNQ R 0 N
+stand stand none 5000
+I 0 medium 0
+#8118
+çürümüþ ceset~
+bir çürümüþ ceset~
+Çürümüþ bir ceset sana doðru sendeliyor.
+~
+Bu þey ve yandaþlarý bir zamanlar güzel olan bu þehrin sakinlerinden olmalý.
+Onlarý öldürmek, onlar için yapabileceðin en iyi þey...
+~
+undead~
+AGO 0 0 0
+40 0 10d10+1850 10d10+1000 4d8+13 slash
+-13 -13 -13 3
+EFNQ 0 0 N
+stand stand none 3000
+I 0 medium 0
+#8119
+efendi~
+efendi~
+Efendi, arazisini inceliyor, ve þeytanca kahkahalar atýyor.
+~
+Zayýf Xantharus'un yaratýklarýn kontrolünü kaybetmesinden sonra burayý ele
+geçiren Efendi hakkýnda çok az þey biliniyor. Ama þu kesin ki çok kudretli
+görünen bu þeytani büyücü seni yoketmekten çekinmeyecek.
+~
+human~
+ABFGHO CDEFH -1000 0
+60 0 50d10+6750 10d10+1000 8d6+28 pierce
+-30 -30 -30 0
+EFNQ 0 0 0
+stand stand none 5300
+0 0 medium 0
+#8120
+sürünen tepecik~
+sürünen tepecik~
+Sürünen bir tepecik... þeyy ýý... üzerine doðru sürünüyor.
+~
+KOÞ! 12 ayak yüksekliðindeki bir çöp yýðýný sana saldýrýyor!
+~
+unique~
+AFGO N 0 0
+45 -1 50d10+3000 10d10+1000 8d4+16 slash
+-15 -14 -15 4
+EFNQ 0 0 0
+stand stand none 5200
+0 0 medium 0
+#8121
+kampflut~
+bir kampflut~
+Bir Kampflut burada, sana saldýrýyor!
+~
+Bu çirkin diriltilmiþ aðaç, dokunaca benzer çirkin dallarý ve büyük diþli
+bir aðzý olan antik bir meþe aðacýna benziyor. Kötü tavýrlarýna raðmen,
+kötü niyetli deðil, sadece basitçe... AÇ!
+~
+undead~
+AFGO N 0 0
+50 0 50d10+4250 10d10+1000 5d8+19 pierce
+-20 -20 -20 2
+EFNQ 0 0 0
+stand stand none 5000
+0 0 medium 0
+#8122
+siyah puding~
+siyah puding~
+Siyah bir puding sana doðru pörtleyerek geliyor.
+~
+Bu siyah dev kütle, silah ve zýrhlarý eritiyor, eðer fýrsat bulursa,seni
+de iþtahla silip süpürecek!
+~
+undead~
+AFGO N 0 0
+52 0 50d10+4750 10d10+1000 6d7+20 pierce
+-22 -22 -22 2
+EFNQ 0 0 0
+stand stand none 5100
+0 0 medium 0
+#8123
+yeþil balçýk~
+yeþil balçýk~
+Bir parça yeþil balçýk üzerine damlayarak, cildini yakýyor.
+~
+Yeþil Balçýk metali bile eritebilir, derinin üzerindeki etkisini hayal et!
+~
+undead~
+ABFGO 0 0 0
+40 0 50d10+1850 10d10+1000 4d8+13 slash
+-13 -13 -13 4
+EFNQ 0 0 0
+stand stand none 5000
+0 0 medium 0
+#8124
+gri çamur~
+gri çamur~
+Gri bir çamur yýðýntýsý sana doðru sýzýyor.
+~
+"Ah," "Ne kadar korktum!" dediðini duyar gibiyim. O zaman bekle ve gör!
+~
+undead~
+AFGO N -1000 0
+58 0 50d10+6250 10d10+1000 5d10+25 pierce
+-28 -28 -28 0
+EFNQ R 0 N
+stand stand none 5000
+I 0 medium 0
+#8125
+hareketli aðaç~
+hareketli aðaç~
+Hareketli bir aðaç sana dallarý ile saldýrýyor.
+~
+Bu aðaç kötü ve þeytani, yani pek dost sayýlmaz...
+~
+undead~
+AFGO 0 0 0
+45 0 50d10+3000 10d10+1000 8d4+16 pound
+-15 -15 -15 3
+EFNQ R 0 N
+stand stand none 5000
+I 0 medium 0
+#8126
+aðaç ruhu~
+Bir aðacýn ruhu~
+Bir aðacýn ruhu bu þeytani yerde sana bir sýðýnak saðlýyor.
+~
+Bu Ruh, bu mekandaki tek iyi yaratýk. Sen dinlenirken seni koruyabilir,
+hatta yeterince ödeme yaparsan yaralarýný bile iyileþtirebilir...
+
+~
+undead~
+ABGO BCDFN 400 0
+65 0 50d10+8250 10d10+1000 11d5+35 pierce
+-35 -35 -35 -5
+EFNQ 0 0 0
+stand stand none 5000
+0 0 medium 0
+#8127
+ölü þövalye~
+ölü þövalye~
+Ölü bir þövalye sana meydan okuyor ve saldýrýyor!
+~
+Bu ruh, Efendi'nin þeytanlýðýyla, hortlak bir hizmetkar olarak, sonsuzluðun
+içine çekilmiþ bir Paladin'in ruhu. Süslere bezenmiþ, antik bir zýrh ve
+parlak, gümüþ bir kýlýçla, çürüyen yüzü haricinde ayný yaþarkenki kadar
+karizmatik görünüyor...
+~
+undead~
+ABFGO DF -1000 0
+60 0 50d10+6250 10d10+1000 8d6+28 pierce
+-30 -30 -30 0
+EFNQ R 0 N
+stand stand none 5000
+I 0 medium 0
+#8128
+kabus~
+bir kabus~
+Bir kabus, alt düzlemlerin sadýk bir yerlisi, burada dinleniyor.
+~
+Kanatlý bir ata binen bu kara varlýk, iþini bitirmiþ efendisinin onu
+görevlendireceði yere gitmek için bekliyor.
+~
+undead~
+ABGO FT -1000 0
+45 0 50d10+3000 10d10+1000 8d4+16 pound
+-15 -15 -15 4
+EFNQ R 0 N
+stand stand none 5000
+I 0 medium 0
+#8129
+avcý~
+bir avcý~
+Bir avcý dört ayaðýnýn üzerinde þahlanarak saldýrýyor.
+~
+Bu iblisimsi varlýk, bacaklar yerini keskin kýlýçlar, gözler yerine de
+parýldayan elmaslara sahip olan dev bir örümceðe benziyor.
+~
+undead~
+ABFGO DF -1000 0
+58 0 50d10+6250 10d10+1000 5d10+25 slash
+-28 -28 -28 0
+EFNQ 0 0 0
+stand stand none 5000
+0 0 medium 0
+#8130
+cambiyon gözcüsü~
+Orcus'un gözcüsü~
+Orcus'un bir gözcüsü sana dikkatlice göz atýyor.
+~
+Bu yarý-insan, yarý-iblis yaratýk hortlaklerýn Prensi olan Orcus'un
+gözcülerinden. Gizli bir görevde ve dolayýsýyla belayý mümkün olduðunca
+önlemek istiyor. Efendi'nin gücününün boyutunu araþtýrýp, bu tuhaf adamýn
+varlýklarý için tehdit olup olmadýðý konusunda Orcus'u uyarmakla yükümlü.
+~
+undead~
+ACGHO DEFQV -1000 0
+50 0 50d10+4250 10d10+1000 5d8+19 pound
+-40 -40 -40 2
+EFNQ 0 0 0
+stand stand none 5000
+0 0 medium 0
+#8131
+orcus~
+Orcus~
+Orcus, hortlak Prensi, sana tehditkar gözlerle bakýyor.
+~
+Orcus'un karþýsýnda duruyorsun. Bir boðanýn göz ve burnuna, bir keçinin
+boynuz ve toynaklarýna sahip, þiþkin bir adama benziyor. Bir toynaðýnda
+tepesinde keçi baþý olan bir deðnek tutarken, sana þüphe dolu gözlerle
+bakýyor. Burada olmak istemiyor, dolayýsýyla Birincil Maddesel Düzlem'in
+saldýrýlarýyla uðraþmak yanlýsý deðil.
+~
+undead~
+ABGHO BCDEFHN -1000 0
+65 0 50d10+8250 10d10+1000 11d5+35 pierce
+-35 -35 -35 -4
+EFNQ R 0 N
+stand stand none 5000
+I 0 medium 0
+#8132
+su mahluku~
+su mahluku~
+Bir su mahluku sana doðru hamle yapýyor!
+~
+Bu sudan oluþan yýlan, dövüþerek savunacaðý kuyusunun içinde duruyor.
+~
+snake~
+ABFGO N 0 0
+51 0 50d10+4500 10d10+1000 5d8+20 bite
+-20 -20 -20 2
+EFNQ 0 0 0
+stand stand none 0
+0 0 medium 0
+#8133
+dev örümcek~
+dev bir örümcek~
+Dev bir örümcek sana doðru iniyor!
+~
+Dev derken, 10 feet boydan bahsettim!...
+~
+undead~
+ABCFGHO DFQ -1000 0
+48 0 50d10+3750 10d10+1000 6d6+18 charge
+-18 -18 -18 3
+EFNQ 0 0 0
+stand stand none 5000
+0 0 medium 0
+#8134
+baron vampir~
+bir baron vampir~
+Baron vampir tabutundan kalkýyor ve diþlerini göstererek saldýrýyor!
+~
+Þeytani Baron ve iki kardeþi, onlarý tamamiyle yokedecek güce sahip olmayan
+Xanan tarafýndan buraya hapsedilmiþ vampirlerdiler. Ve þimdi sana onlarý
+rahatsýz ederek tekrar dirilttiðin için müteþekkirler.!
+~
+undead~
+ABFGO DF -1000 0
+60 0 50d10+6750 10d10+1000 8d6+28 pierce
+-30 -30 -30 0
+EFNQ BR 0 JNX
+stand stand none 5000
+I 0 medium 0
+#0
+
+
+#OBJECTS
+#8100
+asa orcus~
+Orcus'un Asasý~
+Orcus'un asasý burada, þeytanice parýldýyor.
+~
+wood~
+staff BEGH AO
+60 100 100 'pass door' 0
+55 50 30000 P
+A
+1 2
+A
+2 2
+A
+3 2
+A
+4 2
+A
+5 2
+A
+12 250
+A
+17 -50
+A
+18 25
+A
+19 25
+A
+23 -10
+A
+24 -10
+#8101
+el vecna~
+Vecna'nýn Eli~
+Vecna'nýn Eli burada duruyor.
+~
+leather steel~
+armor EHJMQ AH
+18 19 18 10 0
+56 5 10000 P
+A
+2 3
+A
+3 3
+A
+12 100
+A
+18 3
+A
+19 3
+A
+24 -3
+#8102
+göz vecna~
+Vecna'nýn Gözü~
+Vecna'nýn Gözü burada, þeytanice parýldýyor.
+~
+leather steel~
+armor AEJM AE
+18 18 18 10 0
+56 1 10000 P
+A
+3 3
+A
+4 3
+A
+12 50
+#8103
+kýlýç kas~
+Kas'ýn kýlýcý~
+Kas'ýn kýlýcý seni çaðýrýyor!
+~
+steel~
+weapon BEGJM AN
+sword 5 10 pierce D
+47 20 17000 P
+A
+17 20
+A
+18 5
+A
+19 5
+#8104
+bilezik~
+bilezik~
+Bir bilezik tozlanmýþ þekilde burada duruyor.
+~
+steel~
+armor GM AE
+17 17 17 10 0
+54 25 18000 P
+A
+3 -3
+A
+4 -3
+#8105
+hazine~
+bir hazine yýðýný~
+Bir hazine yýðýný buraya serpilmiþ.
+~
+leather~
+container 0 AO
+400 0 0 50 50
+1 150 0 P
+#8106
+sandýk~
+bir sandýk~
+Bir sandýk burada duruyor.
+~
+steel~
+container 0 1
+150 0 0 20 100
+48 100 0 P
+#8107
+cüppe et~
+Etten cüppe~
+Ýnsan etinden yapýlmýþ bir cüppe burada býrakýlmýþ.
+~
+human flesh~
+armor EJ AK
+15 15 15 6 0
+58 25 13000 P
+A
+12 150
+A
+13 25
+#8108
+deðnek kemik~
+bir kemik deðnek~
+Bir insan kemiðinden yapýlmýþ deðnek burada duruyor.
+~
+human femur~
+weapon EJ AN
+exotic 6 9 crush 0
+58 25 13000 P
+A
+12 15
+A
+17 -10
+A
+18 4
+A
+19 4
+#8109
+kemik~
+bir kemik~
+Bir kemik burada duruyor.
+~
+silver~
+trash 0 A
+0 0 0 0 0
+1 50 0 P
+#8110
+elmas asa~
+bir elmas asa~
+Bir elmas asa burada kudretle parlýyor.
+~
+wood~
+staff AG AO
+50 20 20 'sanctuary' 0
+58 10 40000 P
+A
+12 50
+#8111
+pelerin~
+Kara Pelerin~
+Kara bir pelerin burada duruyor.
+~
+unknown~
+armor 0 AK
+17 17 17 11 0
+51 10 0 P
+#8112
+kýlýç~
+Kara Kýlýç~
+Kapkara bir kýlýç burada þeytanca duruyor.
+~
+steel~
+weapon BCEJ AN
+sword 6 10 slash 0
+55 35 30000 P
+A
+1 1
+A
+5 1
+A
+17 -20
+A
+18 2
+A
+19 4
+#8113
+zýrh~
+Kara Zýrh~
+Bir Kara Zýrh burada duruyor.
+~
+steel~
+armor CEJ AE
+16 16 17 10 0
+50 25 15000 P
+A
+17 -10
+A
+18 4
+A
+19 7
+#8114
+miðfer~
+Kara Miðfer~
+Bir Kara Miðfer sana sahip olmak için duruyor
+~
+steel~
+armor CHM AE
+18 18 18 12 0
+55 75 15000 P
+A
+3 -3
+A
+4 -3
+#8115
+kavanoz~
+kavanoz~
+Cam bir kavanoz burada duruyor.
+~
+glass~
+container 0 AO
+25 0 0 10 100
+48 10 0 P
+#8116
+zehir~
+bir miktar zehir~
+Bir miktar zehir burada duruyor.
+~
+food~
+food 0 A
+1 0 0 A 0
+1 0 0 P
+#8117
+Lanetli Sembol~
+Lanetli Sembol~
+Þeytana teslim olmuþ bir rahibe ait Lanetli bir Sembol burada duruyor.
+~
+unknown~
+light EJ A
+0 0 -1 0 0
+48 5 500 P
+A
+2 3
+#8118
+Kutsal Sembol~
+Kutsal Sembol~
+Ýyiliðe hizmet eden bir rahibe ait Kutsal bir Sembol burada duruyor.
+~
+unknown~
+light AK A
+0 0 -1 0 0
+48 5 500 P
+A
+5 3
+#8119
+ceset~
+ceset~
+Zavallý bir maceracýya ait olan ceset burada duruyor.
+~
+meat~
+furniture 0 0
+0 0 0 0 0
+0 75 0 P
+#8120
+anahtar~
+siyah anahtar~
+Siyah bir anahtar burada duruyor.
+~
+iron~
+key B AO
+2 0 0 0 0
+0 5 0 P
+#8121
+kavanoz kan~
+bir kavanoz insan kaný~
+Ýçinde insan kaný olan bir kavanoz burada duruyor.
+~
+glass~
+potion BEJ AO
+60 'poison' 'weaken' 'curse' ''
+45 10 300 P
+#8122
+miðfer hayalet~
+Hayalet Miðferi~
+Tepesinde birþey oyulmuþ olan dev bir miðfer yerde duruyor...~
+adamantite~
+armor ACY AE
+39 39 39 37 30
+57 20 99000 P
+A
+3 2
+A
+13 50
+A
+18 5
+A
+19 5
+A
+24 -5
+
+#0
+
+#ROOMS
+#8100
+Tozlu bir Patika~
+Ýlerideki þehre doðru giden tozlu bir patikadasýn. Ýðrenç bir koku
+farkediyorsun. Önünde bir levha gördün.
+~
+0 4 2
+D0
+~
+~
+0 -1 8101
+D2
+~
+~
+0 -1 9584
+E
+levha~
+H A Y A L E T  Þ E H R E  H O Þ G E L D Ý N !
+Bu bölge Randalin tarafýndan Türkçeleþtirilmiþtir.
+                                Nüfus : 0
+
+~
+S
+#8101
+Þehir~
+En lanetli hortlaklarýn ve muhafýzlarýn doldurduðu söylenen Hayalet Þehire
+ulaþtýn. Devam etmeli misin? Bir daha evine dönemeyebilirsin! Ya da baþka
+kaçýþlar arayabilirsin... Senin seçimin!
+~
+0 4 1
+D0
+~
+~
+0 -1 8102
+D2
+~
+~
+0 -1 8100
+S
+#8102
+Ana Cadde~
+Bu caddeye adým attýðýnda, tamamiyle bir korku ve dehþet dalgasýnýn içinden
+geçtiðini hissediyorsun. Titreyerek, Tanrýlar tarafýndan yasaklanmýþ bu
+bölgeye girmek için kendini toparlýyorsun. Caddenin saðýnda ve solunda evler
+sýralanmýþ. Ýlerde küçük bir þehir meydaný var..
+~
+0 8192 1
+D0
+~
+~
+0 -1 8106
+D1
+~
+~
+1 0 8104
+D3
+~
+~
+1 0 8103
+S
+#8103
+Harabe Bir Ev~
+Bu evin içi buram buram ölüm kokuyor. Buranýn eski sakinlerinin kaderi
+duvarlara sürünmüþ, kurumuþ kan ve yerlerdeki kemiklerden açýkça belli
+oluyor. Þimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+~
+0 8|8192 0
+D1
+~
+~
+1 0 8102
+S
+#8104
+Harabe Bir Ev~
+Bu evin içi buram buram ölüm kokuyor. Buranýn eski sakinlerinin kaderi
+duvarlara sürünmüþ, kurumuþ kan ve yerlerdeki kemiklerden açýkça belli
+oluyor. Þimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+~
+0 8|8192 0
+D3
+~
+~
+1 0 8102
+S
+#8105
+Þehir Meydaný~
+Þehir Meydaný'na geldin. Artýk dümdüz, ýssýz, kavrulmuþ ve harap edilmiþ bu
+meydandan çýkan birkaç yöne doðru devam edebilirsin. Ya da aþaðý doðru uzanan
+sokaklara gidebilirsin. Meydanýn tam ortasýnda bir havuz var.
+~
+0 8192 1
+D0
+~
+~
+0 -1 8108
+D1
+~
+~
+0 -1 8106
+S
+#8106
+Þehir Meydaný~
+Þehir Meydaný'na geldin. Artýk dümdüz, ýssýz, kavrulmuþ ve harap edilmiþ bu
+meydandan çýkan birkaç yöne doðru devam edebilirsin. Ya da aþaðý doðru uzanan
+sokaklara gidebilirsin. Meydanýn tam ortasýnda bir havuz var.
+~
+0 8192 1
+D0
+~
+~
+0 -1 8109
+D1
+~
+~
+0 -1 8107
+D2
+~
+~
+0 -1 8102
+D3
+~
+~
+0 -1 8105
+S
+#8107
+Þehir Meydaný~
+Þehir Meydaný'na geldin. Artýk dümdüz, ýssýz, kavrulmuþ ve harap edilmiþ bu
+meydandan çýkan birkaç yöne doðru devam edebilirsin. Ya da aþaðý doðru uzanan
+sokaklara gidebilirsin. Meydanýn tam ortasýnda bir havuz var.
+~
+0 8192 1
+D0
+~
+~
+0 -1 8110
+D3
+~
+~
+0 -1 8106
+S
+#8108
+Þehir Meydaný~
+Þehir Meydaný'na geldin. Artýk dümdüz, ýssýz, kavrulmuþ ve harap edilmiþ bu
+meydandan çýkan birkaç yöne doðru devam edebilirsin. Ya da aþaðý doðru uzanan
+sokaklara gidebilirsin. Meydanýn tam ortasýnda bir havuz var.
+~
+0 8192 1
+D0
+~
+~
+0 -1 8111
+D1
+~
+~
+0 -1 8109
+D2
+~
+~
+0 -1 8105
+D3
+~
+~
+0 -1 8114
+S
+#8109
+Meydandaki Havuz~
+Meydanýn tam ortasýnda, havuzun yanýnda duruyorsun. Her yönde evlerin ve
+dükkanlarýn bulunduðu yollar var. Etrafýnda az miktarda çimen yetiþtiðine
+göre havuzun içinde hala bir miktar su bulunuyor olmalý.
+~
+0 8192 1
+D0
+~
+~
+0 -1 8112
+D1
+~
+~
+0 -1 8110
+D2
+~
+~
+0 -1 8106
+D3
+~
+~
+0 -1 8108
+S
+#8110
+Þehir Meydaný~
+Þehir Meydaný'na geldin. Artýk dümdüz, ýssýz, kavrulmuþ ve harap edilmiþ bu
+meydandan çýkan birkaç yöne doðru devam edebilirsin. Ya da aþaðý doðru uzanan
+sokaklara gidebilirsin. Meydanýn tam ortasýnda bir havuz var.
+~
+0 8192 1
+D0
+~
+~
+0 -1 8113
+D1
+~
+~
+0 -1 8124
+D2
+~
+~
+0 -1 8107
+D3
+~
+~
+0 -1 8109
+S
+#8111
+Þehir Meydaný~
+Þehir Meydaný'na geldin. Artýk dümdüz, ýssýz, kavrulmuþ ve harap edilmiþ bu
+meydandan çýkan birkaç yöne doðru devam edebilirsin. Ya da aþaðý doðru uzanan
+sokaklara gidebilirsin. Meydanýn tam ortasýnda bir havuz var.
+~
+0 8192 1
+D1
+~
+~
+0 -1 8112
+D2
+~
+~
+0 -1 8108
+S
+#8112
+Þehir Meydaný~
+Þehir Meydaný'na geldin. Artýk dümdüz, ýssýz, kavrulmuþ ve harap edilmiþ bu
+meydandan çýkan birkaç yöne doðru devam edebilirsin. Ya da aþaðý doðru uzanan
+sokaklara gidebilirsin. Meydanýn tam ortasýnda bir havuz var.
+~
+0 8192 1
+D0
+~
+~
+0 -1 8134
+D1
+~
+~
+0 -1 8113
+D2
+~
+~
+0 -1 8109
+D3
+~
+~
+0 -1 8111
+S
+#8113
+Þehir Meydaný~
+Þehir Meydaný'na geldin. Artýk dümdüz, ýssýz, kavrulmuþ ve harap edilmiþ bu
+meydandan çýkan birkaç yöne doðru devam edebilirsin. Ya da aþaðý doðru uzanan
+sokaklara gidebilirsin. Meydanýn tam ortasýnda bir havuz var.
+~
+0 8192 1
+D2
+~
+~
+0 -1 8110
+D3
+~
+~
+0 -1 8112
+S
+#8114
+Bir Ara sokak~
+Meydanýn batýsýndaki bir ara sokaktasýn. Kuzeye ve güneye doðru evler
+uzanýyor.
+~
+0 8192 1
+D0
+~
+~
+1 0 8115
+D1
+~
+~
+0 -1 8108
+D2
+~
+~
+1 0 8116
+D3
+~
+~
+0 -1 8117
+S
+#8115
+Harabe Bir Ev~
+Bu evin içi buram buram ölüm kokuyor. Buranýn eski sakinlerinin kaderi
+duvarlara sürünmüþ, kurumuþ kan ve yerlerdeki kemiklerden açýkça belli
+oluyor. Þimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+~
+0 8|8192 0
+D2
+~
+~
+1 0 8114
+S
+#8116
+Harabe Bir Ev~
+Bu evin içi buram buram ölüm kokuyor. Buranýn eski sakinlerinin kaderi
+duvarlara sürünmüþ, kurumuþ kan ve yerlerdeki kemiklerden açýkça belli
+oluyor. Þimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+~
+0 8|8192 0
+D0
+~
+~
+1 0 8114
+S
+#8117
+Bir Ara sokak~
+Meydanýn batýsýndaki bir ara sokaktasýn. Kuzeye ve güneye doðru evler
+uzanýyor.
+~
+0 8192 1
+D0
+~
+~
+1 0 8118
+D1
+~
+~
+0 -1 8114
+D2
+~
+~
+1 0 8119
+D3
+~
+~
+0 -1 8120
+S
+#8118
+Harabe Bir Ev~
+Bu evin içi buram buram ölüm kokuyor. Buranýn eski sakinlerinin kaderi
+duvarlara sürünmüþ, kurumuþ kan ve yerlerdeki kemiklerden açýkça belli
+oluyor. Þimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+~
+0 8|8192 0
+D2
+~
+~
+1 0 8117
+S
+#8119
+Harabe Bir Ev~
+Bu evin içi buram buram ölüm kokuyor. Buranýn eski sakinlerinin kaderi
+duvarlara sürünmüþ, kurumuþ kan ve yerlerdeki kemiklerden açýkça belli
+oluyor. Þimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+~
+0 8|8192 0
+D0
+~
+~
+1 0 8117
+S
+#8120
+Bir Ara sokak~
+Meydanýn batýsýndaki bir ara sokaktasýn. Kuzeye ve güneye doðru evler
+uzanýyor.
+~
+0 8192 1
+D0
+~
+~
+1 0 8121
+D1
+~
+~
+0 -1 8117
+D2
+~
+~
+1 0 8122
+D3
+~
+~
+1 0 8123
+S
+#8121
+Harabe Bir Ev~
+Bu evin içi buram buram ölüm kokuyor. Buranýn eski sakinlerinin kaderi
+duvarlara sürünmüþ, kurumuþ kan ve yerlerdeki kemiklerden açýkça belli
+oluyor. Þimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+~
+0 8|8192 0
+D2
+~
+~
+1 0 8120
+S
+#8122
+Harabe Bir Ev~
+Bu evin içi buram buram ölüm kokuyor. Buranýn eski sakinlerinin kaderi
+duvarlara sürünmüþ, kurumuþ kan ve yerlerdeki kemiklerden açýkça belli
+oluyor. Þimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+~
+0 8|8192 0
+D0
+~
+~
+1 0 8120
+S
+#8123
+Harabe Bir Ev~
+Bu evin içi buram buram ölüm kokuyor. Buranýn eski sakinlerinin kaderi
+duvarlara sürünmüþ, kurumuþ kan ve yerlerdeki kemiklerden açýkça belli
+oluyor. Þimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+~
+0 8|8192 0
+D1
+~
+~
+1 0 8120
+S
+#8124
+Bir Ara sokak~
+Meydanýn doðusundaki bir ara sokaktasýn. Kuzeye ve güneye doðru evler
+uzanýyor.
+~
+0 8192 1
+D0
+~
+~
+1 0 8125
+D1
+~
+~
+0 -1 8127
+D2
+~
+~
+1 0 8126
+D3
+~
+~
+0 -1 8110
+S
+#8125
+Harabe Bir Ev~
+Bu evin içi buram buram ölüm kokuyor. Buranýn eski sakinlerinin kaderi
+duvarlara sürünmüþ, kurumuþ kan ve yerlerdeki kemiklerden açýkça belli
+oluyor. Þimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+~
+0 8|8192 0
+D2
+~
+~
+1 0 8124
+S
+#8126
+Harabe Bir Ev~
+Bu evin içi buram buram ölüm kokuyor. Buranýn eski sakinlerinin kaderi
+duvarlara sürünmüþ, kurumuþ kan ve yerlerdeki kemiklerden açýkça belli
+oluyor. Þimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+~
+0 8|8192 0
+D0
+~
+~
+1 0 8124
+S
+#8127
+Bir Ara sokak~
+Meydanýn doðusundaki bir ara sokaktasýn. Kuzeye ve güneye doðru evler
+uzanýyor.
+~
+0 8192 1
+D0
+~
+~
+1 0 8128
+D1
+~
+~
+0 -1 8130
+D2
+~
+~
+1 0 8129
+D3
+~
+~
+0 -1 8124
+S
+#8128
+Harabe Bir Ev~
+Bu evin içi buram buram ölüm kokuyor. Buranýn eski sakinlerinin kaderi
+duvarlara sürünmüþ, kurumuþ kan ve yerlerdeki kemiklerden açýkça belli
+oluyor. Þimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+~
+0 8|8192 0
+D2
+~
+~
+1 0 8127
+S
+#8129
+Harabe Bir Ev~
+Bu evin içi buram buram ölüm kokuyor. Buranýn eski sakinlerinin kaderi
+duvarlara sürünmüþ, kurumuþ kan ve yerlerdeki kemiklerden açýkça belli
+oluyor. Þimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+~
+0 8|8192 0
+D0
+~
+~
+1 0 8127
+S
+#8130
+Bir Ara sokak~
+Meydanýn doðusundaki bir ara sokaðýn sonundasýn. Kuzeye,doðuya ve güneye doðru
+evler uzanýyor.
+~
+0 8192 1
+D0
+~
+~
+1 0 8131
+D1
+~
+~
+1 0 8133
+D2
+~
+~
+1 0 8132
+D3
+~
+~
+0 -1 8127
+S
+#8131
+Harabe Bir Ev~
+Bu evin içi buram buram ölüm kokuyor. Buranýn eski sakinlerinin kaderi
+duvarlara sürünmüþ, kurumuþ kan ve yerlerdeki kemiklerden açýkça belli
+oluyor. Þimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+~
+0 8|8192 0
+D2
+~
+~
+1 0 8130
+S
+#8132
+Harabe Bir Ev~
+Bu evin içi buram buram ölüm kokuyor. Buranýn eski sakinlerinin kaderi
+duvarlara sürünmüþ, kurumuþ kan ve yerlerdeki kemiklerden açýkça belli
+oluyor. Þimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+~
+0 8|8192 0
+D0
+~
+~
+1 0 8130
+S
+#8133
+Harabe Bir Ev~
+Bu evin içi buram buram ölüm kokuyor. Buranýn eski sakinlerinin kaderi
+duvarlara sürünmüþ, kurumuþ kan ve yerlerdeki kemiklerden açýkça belli
+oluyor. Þimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+~
+0 8|8192 0
+D3
+~
+~
+1 0 8130
+S
+#8134
+Ana Cadde~
+Güneye doðu Þehir Meydaný, kuzeyde ise bir kesiþmenin bulunduðu
+Ana Caddedesin. Evler caddenin iki yanýnda sýralanmýþ.
+~
+0 8192 1
+D0
+~
+~
+0 -1 8137
+D1
+~
+~
+1 0 8136
+D2
+~
+~
+0 -1 8112
+D3
+~
+~
+1 0 8135
+S
+#8135
+Harabe Bir Ev~
+Bu evin içi buram buram ölüm kokuyor. Buranýn eski sakinlerinin kaderi
+duvarlara sürünmüþ, kurumuþ kan ve yerlerdeki kemiklerden açýkça belli
+oluyor. Þimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+~
+0 8|8192 0
+D1
+~
+~
+1 0 8134
+S
+#8136
+Harabe Bir Ev~
+Bu evin içi buram buram ölüm kokuyor. Buranýn eski sakinlerinin kaderi
+duvarlara sürünmüþ, kurumuþ kan ve yerlerdeki kemiklerden açýkça belli
+oluyor. Þimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+~
+0 8|8192 0
+D3
+~
+~
+1 0 8134
+S
+#8137
+Bir kesiþme~
+Evlerden yoksun bir yol kesiþmesinde duruyorsun. Buranýn kuzey batýsýnda
+bir park, batýda ise eski belediye baþkanýnýn yerleþim yeri duruyor. Kuzeye
+doðru giden patikanýn nereye vardýðýndan emin deðilsin çünkü o bölge kara
+bir sisle örtülmüþ...
+~
+0 8192 1
+D0
+~
+~
+0 -1 8155
+D2
+~
+~
+0 -1 8134
+D3
+~
+~
+0 -1 8138
+S
+#8138
+Belediye Baþkaný'nýn Evi'ne Giden Yol~
+Bu yol bir zamanlar bakýmlý ve güzeldi. Þimdi ise yýkýntýlarla dolu ve
+özenle dizilmiþ kaldýrým taþlarýnýn arasýnda gri pis otlarýn türediði
+lanetli bir yer haline gelmiþ. Batýda ve doðuda kavþaklar var.
+~
+0 8192 1
+D1
+~
+~
+0 -1 8137
+D3
+~
+~
+0 -1 8139
+S
+#8139
+Bir Kavþak~
+Bu noktada, pislik patikasý kuzeye, bir zamanlar kýtadaki en güzel
+çiçeklerin bulunduðu, oldukça kasvetli görünen bir bahçeye doðru devam
+ediyor. Ama artýk burasý uðursuz aðaçlar ve patika boyunca türemiþ gri
+yabani otlarýn evi olmuþ.
+~
+0 8192 1
+D0
+~
+~
+0 -1 8171
+D1
+~
+~
+0 -1 8138
+D3
+~
+~
+0 -1 8140
+S
+#8140
+Belediye Baþkaný'nýn Evi'nin Dýþý~
+Yol, bir zamanlar Belediye Baþkaný'nýn evi olan yýpranmýþ bir konaðýn önünde
+sona eriyor. Hortlaklerin baskýnýndan bu yana, oldukça bakýmsýzlaþmasýna
+raðmen, diðer konutlarla karþýlaþtýrdýðýnda durumu senin içine burada önemli
+bir kiþi (ya da þeyin) hala yaþadýðý þüphesini düþürüyor.
+~
+0 8192 1
+D1
+~
+~
+0 -1 8139
+D3
+~
+~
+1 0 8141
+S
+#8141
+Koridor~
+Duvarlarýnda gözden düþmüþ, berbat görünüþlü bir ailenin tablolarýnýn
+bulunduðu, loþ ýþýklý bir koridora geldin. Batýda bir sonraki kata giden
+yamuk bir merdiven yolu bulunuyor. Kuzey ve güneye doðru ise kapýlar var.
+~
+0 1|8|8192 0
+D0
+~
+~
+1 0 8143
+D1
+~
+~
+1 0 8140
+D2
+~
+~
+1 0 8142
+D3
+~
+~
+0 -1 8144
+S
+#8142
+Baþkan'ýn Konaðýndaki Bir Oda~
+Bu oda buram buram leþ kokuyor, nedeni etraftaki cesetler olmalý. Bütün
+duvarlara kan sürülmüþ ve berbat görünüþlü bir sarmaþýk pencerelerin kýrýk
+camlarýnýn arasýna sarýlmýþ. Kusmamak için aðzýný kapatýyorsun.
+~
+0 1|8|8192 0
+D0
+~
+~
+1 0 8141
+S
+#8143
+Baþkan'ýn Konaðýndaki Bir Oda~
+Bu oda buram buram leþ kokuyor, nedeni etraftaki cesetler olmalý. Bütün
+duvarlara kan sürülmüþ ve berbat görünüþlü bir sarmaþýk pencerelerin kýrýk
+camlarýnýn arasýna sarýlmýþ. Kusmamak için aðzýný kapatýyorsun.
+~
+0 1|8|8192 0
+D2
+~
+~
+1 0 8141
+S
+#8144
+Koridor~
+Duvarlarýnda gözden düþmüþ, berbat görünüþlü bir ailenin tablolarýnýn
+bulunduðu, loþ ýþýklý bir koridora geldin. Batýda bir sonraki kata giden
+yamuk bir merdiven yolu bulunuyor. Kuzey ve güneye doðru ise kapýlar var.
+~
+0 1|8|8192 0
+D0
+~
+~
+1 0 8146
+D1
+~
+~
+0 0 8141
+D2
+~
+~
+1 0 8145
+D3
+~
+~
+0 -1 8147
+S
+#8145
+Baþkan'ýn Konaðýndaki Bir Oda~
+Bu oda buram buram leþ kokuyor, nedeni etraftaki cesetler olmalý. Bütün
+duvarlara kan sürülmüþ ve berbat görünüþlü bir sarmaþýk pencerelerin kýrýk
+camlarýnýn arasýna sarýlmýþ. Kusmamak için aðzýný kapatýyorsun.
+~
+0 1|8|8192 0
+D0
+~
+~
+1 0 8144
+S
+#8146
+Baþkan'ýn Konaðýndaki Bir Oda~
+Bu oda buram buram leþ kokuyor, nedeni etraftaki cesetler olmalý. Bütün
+duvarlara kan sürülmüþ ve berbat görünüþlü bir sarmaþýk pencerelerin kýrýk
+camlarýnýn arasýna sarýlmýþ. Kusmamak için aðzýný kapatýyorsun.
+~
+0 1|8|8192 0
+D2
+~
+~
+1 0 8144
+S
+#8147
+Merdivenler~
+Bu eðri büðrü merdivenler oldukça dengesiz görünüyor ve bununla beraber üst
+kattan gelen dehþet verici koku, devam etme konusunda cesaretini kýrýyor...
+~
+0 1|8|8192 0
+D1
+~
+~
+0 -1 8144
+D4
+~
+~
+0 -1 8148
+S
+#8148
+Merdivenler~
+Merdivenlerin tepesinde, nefesini tutmak için duruyorsun ve iðrenç kokulu
+hava ciðerlerine doluyor. Öksürerek nefes almak için mücadele ediyorsun ve
+devam etmek için kendini zorluyorsun.
+~
+0 1|8|8192 0
+D1
+~
+~
+0 -1 8149
+D5
+~
+~
+0 -1 8147
+S
+#8149
+Koridor~
+Duvarlarýnda gözden düþmüþ, berbat görünüþlü bir ailenin tablolarýnýn
+bulunduðu, loþ ýþýklý bir koridora geldin. Kuzey ve güneye doðru kapýlar
+var. Koridor doðuda göz alýcý bir giriþ kapýsýyla bitiyor.
+~
+0 1|8|8192 0
+D0
+~
+~
+1 0 8150
+D1
+~
+~
+1 0 8152
+D2
+~
+~
+1 0 8151
+D3
+~
+~
+0 -1 8148
+S
+#8150
+Baþkan'ýn Konaðýndaki Bir Oda~
+Bu oda buram buram leþ kokuyor, muhtemelen etrafta yatan çürüyen cesetlerden dolayý..
+Bütün duvarlara kan sürülmüþ ve berbat görünüþlü bir sarmaþýk pencerelerin kýrýk
+camlarýnýn arasýna sarýlmýþ. Kusmamak için aðzýný kapatýyorsun.
+~
+0 1|8|8192 0
+D2
+~
+~
+1 0 8149
+S
+#8151
+Baþkan'ýn Konaðýndaki Bir Oda~
+Bu oda buram buram leþ kokuyor, nedeni etraftaki cesetler olmalý. Bütün
+duvarlara kan sürülmüþ ve berbat görünüþlü bir sarmaþýk pencerelerin kýrýk
+camlarýnýn arasýna sarýlmýþ. Kusmamak için aðzýný kapatýyorsun.
+~
+0 1|8|8192 0
+D0
+~
+~
+1 0 8149
+S
+#8152
+Baþkan'ýn çalýþma odasý~
+Bu odaya girdiðin anda, etrafta koku olmamasýna oldukça þaþýrýyorsun. Bunun
+yanýnda diðer odalardan farklý olarak, bu çalýþma odasýnýn durumunun iyiliði
+de seni þaþýrtýyor. Üzerinde antik yazýlar bulunan raflarla çevrili rahat
+bir mekan burasý. Geniþ meþeden yapýlmýþ bir masa odayý dolduruyor ve onun
+arkasýnda da rahat, deri bir koltuk var. Burasý kimin yeri olabilir acaba?
+~
+0 8|8192 0
+D0
+~
+~
+1 0 8153
+D2
+~
+~
+1 0 8154
+D3
+~
+~
+1 0 8149
+S
+#8153
+Bir Yatakodasý~
+Bu odada süslüce oyulmuþ, üzerinde saten örtüler bulunan geniþ bir yatak
+var. Onun karþýsýnda ise buranýn efendisinin bakirelerinin yaslandýðý rahat
+bir divan duruyor. Duvardaki bir tablo dikkatini çekiyor.
+~
+0 1|8|8192 0
+D2
+~
+~
+1 0 8152
+E
+tablo~
+Bu yakýþýklý ama þeytani görünen Kont Philippe Gaspar duGascoigne'in
+ortayaþlardaki halini resmediyor.
+~
+S
+#8154
+Bir Yatakodasý~
+Kuzeydeki kopyasý ne kadar güzel, rahat ve cömertçe yapýlmýþsa, bu yatak
+odasý da o kadar yýkýk dökük ve kokulu. Duvarlara kan bulanmýþ ve ortadaki
+avizeden iple bir ceset sarkýtýlmýþ. Burada her kim yaþýyorsa kabul edilemez
+bir kiþilikte olmalý...
+~
+0 1|8|8192 0
+D0
+~
+~
+1 0 8152
+S
+#8155
+Karanlýk Sis~
+Yolu aniden kaplayan kalýn bir sis tabakasýnýn içinden geçiyorsun.
+Ayaklarýný ancak görebiliyorsun. Uðulamalar, çýðlýklar, öfke dolu
+haykýrýþlar ve dehþet her yönden yaklaþýyor ve kalbini saran korkuyu
+hissedebiliyorsun.
+~
+0 1|8192 1
+D1
+~
+~
+0 -1 8156
+D2
+~
+~
+0 -1 8137
+S
+#8156
+Karanlýk Sis~
+Yolu aniden kaplayan kalýn bir sis tabakasýnýn içinden geçiyorsun.
+Ayaklarýný ancak görebiliyorsun. Uðulamalar, çýðlýklar, öfke dolu
+haykýrýþlar ve dehþet her yönden yaklaþýyor ve kalbini saran korkuyu
+hissedebiliyorsun.
+~
+0 1|8192 1
+D0
+~
+~
+0 -1 8159
+D2
+~
+~
+0 -1 8157
+D3
+~
+~
+0 -1 8155
+S
+#8157
+Küçük bir ev~
+Sis aniden kayboluyor ve kendini küçük taþ bir binanýn dýþýnda dururken
+buluyorsun. Pencereleri yok ama kalýn, meþeden bir kapý doðusunda duruyor.
+~
+0 8192 1
+D0
+~
+~
+0 -1 8156
+D1
+~
+~
+1 0 8158
+S
+#8158
+Bir Ýblisin geçici konutu~
+O HAYIR!
+Yanlýþlýkla ORCUS'un Birincil Maddesel Düzlem'deki geçici mabedine düþtün!
+Eðer burada deðilse hemen KAÇ! Eðer buradaysa...
+~
+0 8|8192 0
+D3
+~
+~
+1 0 8157
+S
+#8159
+Karanlýk Sis~
+Yolu aniden kaplayan kalýn bir sis tabakasýnýn içinden geçiyorsun.
+Ayaklarýný ancak görebiliyorsun. Uðulamalar, çýðlýklar, öfke dolu
+haykýrýþlar ve dehþet her yönden yaklaþýyor ve kalbini saran korkuyu
+hissedebiliyorsun.
+~
+0 1|8192 1
+D0
+~
+~
+0 -1 8163
+D1
+~
+~
+0 -1 8160
+D2
+~
+~
+0 -1 8156
+S
+#8160
+Açýklýk bir alan~
+Sisten yoksun, doðuda bir kapýsý olan , harabe bir kulubenin ön bahçesini
+oluþturan açýklýk bir alandasýn. Pencerelere baktýðýnda hayal meyal bazý
+þekillerin kýpýrdadýðýný görüyorsun.
+~
+0 8192 1
+D1
+~
+~
+1 0 8161
+D3
+~
+~
+0 -1 8159
+S
+#8161
+Kulübe'nin Ýçi~
+Bu kulübe de týpký diðer konutlar gibi yýkýntýdan ibaret. Yerleri kýrýlmýþ
+mobilyalar ve çürüyen cesetler doldurmuþ. Doðuya doðru, aþaðýya inen bir
+merdiven görüyorsun.
+~
+0 1|8192 0
+D1
+~
+~
+0 -1 8162
+D3
+~
+~
+1 0 8160
+S
+#8162
+Merdivenler~
+Bu merdivenler, kasabadaki diðer yapýlardan daha eski görünüyor ve antik
+taþlardan yapýlmýþlar. Aþaðýda ne olduðunu görmek için dikkatle bakýyorsun
+ama gördüðün tek þey karanlýk...
+~
+0 1|4|8192 0
+D3
+~
+~
+0 -1 8161
+D5
+~
+~
+0 -1 -1
+S
+#8163
+Karanlýk Sis~
+Yolu aniden kaplayan kalýn bir sis tabakasýnýn içinden geçiyorsun.
+Ayaklarýný ancak görebiliyorsun. Uðulamalar, çýðlýklar, öfke dolu
+haykýrýþlar ve dehþet her yönden yaklaþýyor ve kalbini saran korkuyu
+hissedebiliyorsun.
+~
+0 1|8192 1
+D0
+~
+~
+0 -1 8164
+D2
+~
+~
+0 -1 8159
+S
+#8164
+Karanlýk Sis~
+Yolu aniden kaplayan kalýn bir sis tabakasýnýn içinden geçiyorsun.
+Ayaklarýný ancak görebiliyorsun. Uðulamalar, çýðlýklar, öfke dolu
+haykýrýþlar ve dehþet her yönden yaklaþýyor ve kalbini saran korkuyu
+hissedebiliyorsun. Doðuya doðru taþ bir binayý seçer gibisin...
+~
+0 1|8192 1
+D0
+~
+~
+0 -1 8195
+D1
+~
+~
+0 -1 8165
+D2
+~
+~
+0 -1 8163
+S
+#8165
+Türbenin Dýþý~
+Bu küçük taþ yapý, muhtemelen bir türbe. Oldukça iyi durumda olmasý,
+bu hortlak kentin yeni sakinlerini düþününce seni þaþýrtmýyor. Geniþ,
+demir bir kapý doðuda, ve yüzeyinde gümüþ rünler olduðunu görüyorsun.
+~
+0 4|8192 1
+D1
+~
+~
+1 0 8166
+D3
+~
+~
+0 -1 8164
+E
+rünler kapý~
+Kapýdaki rünlerde þöyle yazýyor:-
+
+  "Burasý Palem Baronluðu'nun eski tiraný Þeytani Baron Shereck ve
+   O'nun iki kardeþinin ebedi uyku mekanýdýr. Anon'un Baþbüyücüsü
+   Xanad'ýn kudretli büyüsünün hapsinde, Baron'un hortlak müttefikleri
+   bu uykuyu bozamazlar. Dua et! Bunu her kim okuyorsa! Bu kapýyý
+   çiðneme! Eðer yaparsan onlarýn hortlak çýlgýnlýðýný dünyaya tekrar
+   salýverirsin!"
+~
+S
+#8166
+Türbenin Ýçi~
+Türbe'nin içi karanlýk, rutubetli ve sýkýþýk. Asýrlardýr buraya kimse
+gelmemiþ gibi görünüyor. Bileðin derinliðinde bir toz tabakasý ve
+bileklerinin kalýnlýðýndaki örümcek aðlarý yürümeni zorlaþtýrýyor. Bu
+aðlarý ören þeyle karþýlaþmamayý umuyorsun.
+~
+0 1|128|8192 0
+D3
+~
+~
+1 0 8165
+D5
+~
+~
+0 -1 8167
+S
+#8167
+Türbe~
+Üç kapý ve bir merdiven buradan kaçýþý saðlýyor. Duvarlardaki resimler ve
+tavandaki çerçevelere asýlmýþ çürüyen cesetler, sende bu kaçýþlarý kullanma
+isteði uyandýrýyor.
+~
+0 1|128|8192 0
+D0
+~
+~
+1 0 8168
+D1
+~
+~
+1 0 8170
+D2
+~
+~
+1 0 8169
+D4
+~
+~
+0 -1 8166
+S
+#8168
+Türbedeki Bir Oda~
+Türbenin ana çemberindeki bu üç inziva yeri hemen hemen ayný. Kapaðýnda
+sahibinin görünüþünün kabartma halinde resmedildiði taþtan tabutlar var.
+Bunun dýþýnda mekan oldukça yalýn, ya da?
+~
+0 1|128|8192 0
+D2
+~
+~
+1 0 8167
+S
+#8169
+Türbedeki Bir Oda~
+Türbenin ana çemberindeki bu üç inziva yeri hemen hemen ayný. Kapaðýnda
+sahibinin görünüþünün kabartma halinde resmedildiði taþtan tabutlar var.
+Bunun dýþýnda mekan oldukça yalýn, ya da?
+~
+0 1|128|8192 0
+D0
+~
+~
+1 0 8167
+S
+#8170
+Türbedeki Bir Oda~
+Türbenin ana çemberindeki bu üç inziva yeri hemen hemen ayný. Kapaðýnda
+sahibinin görünüþünün kabartma halinde resmedildiði taþtan tabutlar var.
+Bunun dýþýnda mekan oldukça yalýn, ya da?
+~
+0 1|128|8192 0
+D3
+~
+~
+1 0 8167
+S
+#8171
+Bahçeye giden patika~
+Patikanýn içi çirkin ve ölü görünen bitkilerle dolu. Sanki onlarýn yaþamý
+yanlarýnda duran diþe benzeyen dikenleriyle daha canlý gözüken baþka
+bitkiler tarafýndan emilmiþ gibi görünüyor...
+~
+0 8192 3
+D0
+~
+~
+0 -1 8172
+D2
+~
+~
+0 -1 8139
+S
+#8172
+Bahçeye giden patika~
+Patikanýn içi çirkin ve ölü görünen bitkilerle dolu. Sanki onlarýn yaþamý
+yanlarýnda duran diþe benzeyen dikenleriyle daha canlý gözüken baþka
+bitkiler tarafýndan emilmiþ gibi görünüyor. Ve aniden küfrederek, patikanýn
+ortasýna açýlmýþ ve dallarla örtülmüþ küçük bir deliðe düþüyorsun.
+~
+0 4|8192 3
+D0
+~
+~
+0 -1 8173
+D2
+~
+~
+0 -1 8171
+D5
+~
+~
+0 -1 8174
+S
+#8173
+Bahçeye giden patika~
+Patikanýn içi çirkin ve ölü görünen bitkilerle dolu. Sanki onlarýn yaþamý
+yanlarýnda duran diþe benzeyen dikenleriyle daha canlý gözüken baþka
+bitkiler tarafýndan emilmiþ gibi görünüyor. Bahçe kapýlarý tam karþýnda...
+Ýçeri gönülsüzce giriyorsun. Burasý gerçek bir labirente benziyor...
+~
+0 4|8192 3
+D0
+~
+~
+1 0 8177
+D2
+~
+~
+0 -1 8172
+S
+#8174
+Bir Kaçýþ Oyuðu~
+Burasý þehre getirdiði þeytanlarca korkutulan, Ölüm Büyücüsü Xantharus'un
+korkakça gizlendiði yer. Kaçmak için herþeyi yapardý ama þu an deliðinden
+çýkmak için fazla þoke olmuþ görünüyor.
+~
+0 1|8192 0
+D4
+~
+~
+0 -1 8172
+S
+#8175
+Bahçe~
+Kendini dikenli dallar ve hayatlarý kendilerinden çalýnmýþ çürük
+aðaçlarýn oluþturduðu bir labirentte kaybolmuþ buluyorsun. Ýyi ki
+ulumalar ve çýðlýklar ortamdaki donuk havayý zaman zaman daðýtýyor.
+Aksi takdirde etrafýnýn ürkütücülüðünü arttýrmaktan baþka bir iþe
+yaramayan bu donukluk içinde yutulabilirdin.
+~
+0 1|8192 3
+D0
+~
+~
+0 -1 8180
+D1
+~
+~
+0 -1 8176
+S
+#8176
+Bahçe~
+Kendini dikenli dallar ve hayatlarý kendilerinden çalýnmýþ çürük
+aðaçlarýn oluþturduðu bir labirentte kaybolmuþ buluyorsun. Ýyi ki
+ulumalar ve çýðlýklar ortamdaki donuk havayý zaman zaman daðýtýyor.
+Aksi takdirde etrafýnýn ürkütücülüðünü arttýrmaktan baþka bir iþe
+yaramayan bu donukluk içinde yutulabilirdin.
+~
+0 1|8192 3
+D0
+~
+~
+0 -1 8181
+D1
+~
+~
+0 -1 8177
+D3
+~
+~
+0 -1 8175
+S
+#8177
+Bahçe~
+Kendini dikenli dallar ve hayatlarý kendilerinden çalýnmýþ çürük
+aðaçlarýn oluþturduðu bir labirentte kaybolmuþ buluyorsun. Ýyi ki
+ulumalar ve çýðlýklar ortamdaki donuk havayý zaman zaman daðýtýyor.
+Aksi takdirde etrafýnýn ürkütücülüðünü arttýrmaktan baþka bir iþe
+yaramayan bu donukluk içinde yutulabilirdin.
+~
+0 1|8192 3
+D0
+~
+~
+0 -1 8182
+D1
+~
+~
+0 -1 8178
+D3
+~
+~
+0 -1 8176
+S
+#8178
+Bahçe~
+Kendini dikenli dallar ve hayatlarý kendilerinden çalýnmýþ çürük
+aðaçlarýn oluþturduðu bir labirentte kaybolmuþ buluyorsun. Ýyi ki
+ulumalar ve çýðlýklar ortamdaki donuk havayý zaman zaman daðýtýyor.
+Aksi takdirde etrafýnýn ürkütücülüðünü arttýrmaktan baþka bir iþe
+yaramayan bu donukluk içinde yutulabilirdin.
+~
+0 1|8192 3
+D0
+~
+~
+0 -1 8183
+D1
+~
+~
+0 -1 8179
+D3
+~
+~
+0 -1 8177
+S
+#8179
+Bahçe~
+Kendini dikenli dallar ve hayatlarý kendilerinden çalýnmýþ çürük
+aðaçlarýn oluþturduðu bir labirentte kaybolmuþ buluyorsun. Ýyi ki
+ulumalar ve çýðlýklar ortamdaki donuk havayý zaman zaman daðýtýyor.
+Aksi takdirde etrafýnýn ürkütücülüðünü arttýrmaktan baþka bir iþe
+yaramayan bu donukluk içinde yutulabilirdin.
+~
+0 1|8192 3
+D0
+~
+~
+0 -1 8184
+D3
+~
+~
+0 -1 8178
+S
+#8180
+Bahçe~
+Kendini dikenli dallar ve hayatlarý kendilerinden çalýnmýþ çürük
+aðaçlarýn oluþturduðu bir labirentte kaybolmuþ buluyorsun. Ýyi ki
+ulumalar ve çýðlýklar ortamdaki donuk havayý zaman zaman daðýtýyor.
+Aksi takdirde etrafýnýn ürkütücülüðünü arttýrmaktan baþka bir iþe
+yaramayan bu donukluk içinde yutulabilirdin.
+~
+0 1|8192 3
+D0
+~
+~
+0 -1 8185
+D1
+~
+~
+0 -1 8181
+D2
+~
+~
+0 -1 8175
+S
+#8181
+Bahçe~
+Kendini dikenli dallar ve hayatlarý kendilerinden çalýnmýþ çürük
+aðaçlarýn oluþturduðu bir labirentte kaybolmuþ buluyorsun. Ýyi ki
+ulumalar ve çýðlýklar ortamdaki donuk havayý zaman zaman daðýtýyor.
+Aksi takdirde etrafýnýn ürkütücülüðünü arttýrmaktan baþka bir iþe
+yaramayan bu donukluk içinde yutulabilirdin.
+~
+0 1|8192 3
+D0
+~
+~
+0 -1 8186
+D1
+~
+~
+0 -1 8182
+D2
+~
+~
+0 -1 8176
+D3
+~
+~
+0 -1 8180
+S
+#8182
+Bahçe~
+Kendini dikenli dallar ve hayatlarý kendilerinden çalýnmýþ çürük
+aðaçlarýn oluþturduðu bir labirentte kaybolmuþ buluyorsun. Ýyi ki
+ulumalar ve çýðlýklar ortamdaki donuk havayý zaman zaman daðýtýyor.
+Aksi takdirde etrafýnýn ürkütücülüðünü arttýrmaktan baþka bir iþe
+yaramayan bu donukluk içinde yutulabilirdin.
+~
+0 1|8192 3
+D0
+~
+~
+0 -1 8187
+D1
+~
+~
+0 -1 8183
+D2
+~
+~
+0 -1 8177
+D3
+~
+~
+0 -1 8181
+S
+#8183
+Bahçe~
+Kendini dikenli dallar ve hayatlarý kendilerinden çalýnmýþ çürük
+aðaçlarýn oluþturduðu bir labirentte kaybolmuþ buluyorsun. Ýyi ki
+ulumalar ve çýðlýklar ortamdaki donuk havayý zaman zaman daðýtýyor.
+Aksi takdirde etrafýnýn ürkütücülüðünü arttýrmaktan baþka bir iþe
+yaramayan bu donukluk içinde yutulabilirdin.
+~
+0 1|8192 3
+D0
+~
+~
+0 -1 8188
+D1
+~
+~
+0 -1 8184
+D2
+~
+~
+0 -1 8178
+D3
+~
+~
+0 -1 8182
+S
+#8184
+Bahçe~
+Kendini dikenli dallar ve hayatlarý kendilerinden çalýnmýþ çürük
+aðaçlarýn oluþturduðu bir labirentte kaybolmuþ buluyorsun. Ýyi ki
+ulumalar ve çýðlýklar ortamdaki donuk havayý zaman zaman daðýtýyor.
+Aksi takdirde etrafýnýn ürkütücülüðünü arttýrmaktan baþka bir iþe
+yaramayan bu donukluk içinde yutulabilirdin.
+~
+0 1|8192 3
+D0
+~
+~
+0 -1 8189
+D2
+~
+~
+0 -1 8179
+D3
+~
+~
+0 -1 8183
+S
+#8185
+Bahçe~
+Kendini dikenli dallar ve hayatlarý kendilerinden çalýnmýþ çürük
+aðaçlarýn oluþturduðu bir labirentte kaybolmuþ buluyorsun. Ýyi ki
+ulumalar ve çýðlýklar ortamdaki donuk havayý zaman zaman daðýtýyor.
+Aksi takdirde etrafýnýn ürkütücülüðünü arttýrmaktan baþka bir iþe
+yaramayan bu donukluk içinde yutulabilirdin.
+~
+0 1|8192 3
+D0
+~
+~
+0 -1 8190
+D1
+~
+~
+0 -1 8186
+D2
+~
+~
+0 -1 8180
+S
+#8186
+Bahçe~
+Kendini dikenli dallar ve hayatlarý kendilerinden çalýnmýþ çürük
+aðaçlarýn oluþturduðu bir labirentte kaybolmuþ buluyorsun. Ýyi ki
+ulumalar ve çýðlýklar ortamdaki donuk havayý zaman zaman daðýtýyor.
+Aksi takdirde etrafýnýn ürkütücülüðünü arttýrmaktan baþka bir iþe
+yaramayan bu donukluk içinde yutulabilirdin.
+~
+0 1|8192 3
+D0
+~
+~
+0 -1 8191
+D1
+~
+~
+0 -1 8187
+D2
+~
+~
+0 -1 8181
+D3
+~
+~
+0 -1 8185
+S
+#8187
+Bahçe~
+Kendini dikenli dallar ve hayatlarý kendilerinden çalýnmýþ çürük
+aðaçlarýn oluþturduðu bir labirentte kaybolmuþ buluyorsun. Ýyi ki
+ulumalar ve çýðlýklar ortamdaki donuk havayý zaman zaman daðýtýyor.
+Aksi takdirde etrafýnýn ürkütücülüðünü arttýrmaktan baþka bir iþe
+yaramayan bu donukluk içinde yutulabilirdin.
+~
+0 1|8192 3
+D0
+~
+~
+0 -1 8192
+D1
+~
+~
+0 -1 8188
+D2
+~
+~
+0 -1 8182
+D3
+~
+~
+0 -1 8186
+S
+#8188
+Bahçe~
+Kendini dikenli dallar ve hayatlarý kendilerinden çalýnmýþ çürük
+aðaçlarýn oluþturduðu bir labirentte kaybolmuþ buluyorsun. Ýyi ki
+ulumalar ve çýðlýklar ortamdaki donuk havayý zaman zaman daðýtýyor.
+Aksi takdirde etrafýnýn ürkütücülüðünü arttýrmaktan baþka bir iþe
+yaramayan bu donukluk içinde yutulabilirdin.
+~
+0 1|8192 3
+D0
+~
+~
+0 -1 8193
+D1
+~
+~
+0 -1 8189
+D2
+~
+~
+0 -1 8183
+D3
+~
+~
+0 -1 8187
+S
+#8189
+Bahçe~
+Kendini dikenli dallar ve hayatlarý kendilerinden çalýnmýþ çürük
+aðaçlarýn oluþturduðu bir labirentte kaybolmuþ buluyorsun. Ýyi ki
+ulumalar ve çýðlýklar ortamdaki donuk havayý zaman zaman daðýtýyor.
+Aksi takdirde etrafýnýn ürkütücülüðünü arttýrmaktan baþka bir iþe
+yaramayan bu donukluk içinde yutulabilirdin.
+~
+0 1|8192 3
+D0
+~
+~
+0 -1 8194
+D2
+~
+~
+0 -1 8184
+D3
+~
+~
+0 -1 8188
+S
+#8190
+Bahçe~
+Kendini dikenli dallar ve hayatlarý kendilerinden çalýnmýþ çürük
+aðaçlarýn oluþturduðu bir labirentte kaybolmuþ buluyorsun. Ýyi ki
+ulumalar ve çýðlýklar ortamdaki donuk havayý zaman zaman daðýtýyor.
+Aksi takdirde etrafýnýn ürkütücülüðünü arttýrmaktan baþka bir iþe
+yaramayan bu donukluk içinde yutulabilirdin.
+~
+0 1|8192 3
+D1
+~
+~
+0 -1 8191
+D2
+~
+~
+0 -1 8185
+S
+#8191
+Bahçe~
+Kendini dikenli dallar ve hayatlarý kendilerinden çalýnmýþ çürük
+aðaçlarýn oluþturduðu bir labirentte kaybolmuþ buluyorsun. Ýyi ki
+ulumalar ve çýðlýklar ortamdaki donuk havayý zaman zaman daðýtýyor.
+Aksi takdirde etrafýnýn ürkütücülüðünü arttýrmaktan baþka bir iþe
+yaramayan bu donukluk içinde yutulabilirdin.
+
+~
+0 1|8192 3
+D1
+~
+~
+0 -1 8192
+D2
+~
+~
+0 -1 8186
+D3
+~
+~
+0 -1 8190
+S
+#8192
+Bahçe~
+Aniden aydýnlýk, uzun meþeler ve taze, yeþil çimenlerin doldurduðu bir
+alana geldin. Ýyiliðin güçleri, burada sýkýþan ya da tuzaða düþenler için
+bu karanlýklar diyarýnda ayak basacak bir yer yapmayý baþarmýþ. Huzur içinde
+yatabilirsin, hem de istediðin kadar.
+~
+0 4|1024 3
+D1
+~
+~
+0 -1 8193
+D2
+~
+~
+0 -1 8187
+D3
+~
+~
+0 -1 8191
+S
+#8193
+Bahçe~
+Kendini dikenli dallar ve hayatlarý kendilerinden çalýnmýþ çürük
+aðaçlarýn oluþturduðu bir labirentte kaybolmuþ buluyorsun. Ýyi ki
+ulumalar ve çýðlýklar ortamdaki donuk havayý zaman zaman daðýtýyor.
+Aksi takdirde etrafýnýn ürkütücülüðünü arttýrmaktan baþka bir iþe
+yaramayan bu donukluk içinde yutulabilirdin.
+~
+0 1|8192 3
+D1
+~
+~
+0 -1 8194
+D2
+~
+~
+0 -1 8188
+D3
+~
+~
+0 -1 8192
+S
+#8194
+Bahçe~
+Kendini dikenli dallar ve hayatlarý kendilerinden çalýnmýþ çürük
+aðaçlarýn oluþturduðu bir labirentte kaybolmuþ buluyorsun. Ýyi ki
+ulumalar ve çýðlýklar ortamdaki donuk havayý zaman zaman daðýtýyor.
+Aksi takdirde etrafýnýn ürkütücülüðünü arttýrmaktan baþka bir iþe
+yaramayan bu donukluk içinde yutulabilirdin.
+~
+0 1|8192 3
+D2
+~
+~
+0 -1 8189
+D3
+~
+~
+0 -1 8193
+S
+#8195
+Karanlýk Sis~
+Yolu aniden kaplayan kalýn bir sis tabakasýnýn içinden geçiyorsun.
+Ayaklarýný ancak görebiliyorsun. Uðulamalar, çýðlýklar, öfke dolu
+haykýrýþlar ve dehþet her yönden yaklaþýyor ve kalbini saran korkuyu
+hissedebiliyorsun. Doðuya doðru taþ bir binayý seçer gibisin. Saðýnda
+zeminden sisin içine doðru uzanan bir delik var.
+~
+0 1|8192 1
+D0
+~
+~
+0 -1 8197
+D2
+~
+~
+0 -1 8164
+D5
+~
+~
+0 -1 8196
+S
+#8196
+Ejderha'nýn Ýni~
+Her ejderha türü, canlý ya da hortlak, ayný alýþkanlýklara sahiptir.
+Bunlardan biri de inlerini dekore etme þekilleridir. Bu sebepten eðer
+girdiðinizde etrafa saçýlmýþ dev bir hazine, kan ve kýzarmýþ cesetler
+görürseniz, en azýndan buranýn onlardan birinin ini olduðundan %90 emin
+olabilirsiniz...
+~
+0 1|8192 0
+D4
+~
+~
+0 -1 8195
+S
+#8197
+Karanlýk Sis~
+Yolu aniden kaplayan kalýn bir sis tabakasýnýn içinden geçiyorsun.
+Ayaklarýný ancak görebiliyorsun. Uðulamalar, çýðlýklar, öfke dolu
+haykýrýþlar ve dehþet her yönden yaklaþýyor ve kalbini saran korkuyu
+hissedebiliyorsun. Doðuya doðru taþ bir binayý seçer gibisin.
+~
+0 1|8192 1
+D0
+~
+~
+0 -1 8198
+D2
+~
+~
+0 -1 8195
+S
+#8198
+Karanlýk Sis~
+Yolu aniden kaplayan kalýn bir sis tabakasýnýn içinden geçiyorsun.
+Ayaklarýný ancak görebiliyorsun. Uðulamalar, çýðlýklar, öfke dolu
+haykýrýþlar ve dehþet her yönden yaklaþýyor ve kalbini saran korkuyu
+hissedebiliyorsun. Doðuya doðru taþ bir binayý seçer gibisin. Emin
+deðilsin ama ilerde, yukarda karanlýk bir tünel gördüðünü sanýyorsun.
+~
+0 1|8192 1
+D0
+~
+~
+0 -1 8199
+D2
+~
+~
+0 -1 8197
+S
+#8199
+Karanlýk Bir Tünel~
+Bu olabilirmi? EVET!! Bir kaçýþ yolu!! Bu tünelden temiz hava ve taze çimen
+kokusu geliyor. Týrmanýp kaçabilsen bile tünel o kadar dar ki tekrar geri
+inebileceðinden þüphelisin. Yine de bu odanýn tanrýlarca kutsanmýþ olduðunu
+hissediyorsun, bu nedenle kaçabileceðinden eminsin...
+~
+0 1|4 1
+D2
+~
+~
+0 -1 8198
+S
+#0
+
+
+#RESETS
+*
+D 1 8102 1 1
+D 1 8102 3 1
+D 1 8103 1 1
+D 1 8104 3 1
+D 1 8114 0 1
+D 1 8114 2 1
+D 1 8115 2 1
+D 1 8116 0 1
+D 1 8117 0 1
+D 1 8117 2 1
+D 1 8118 2 1
+D 1 8119 0 1
+D 1 8120 0 1
+D 1 8120 2 1
+D 1 8120 3 1
+D 1 8121 2 1
+D 1 8122 0 1
+D 1 8123 1 1
+D 1 8124 0 1
+D 1 8124 2 1
+D 1 8125 2 1
+D 1 8126 0 1
+D 1 8127 0 1
+D 1 8127 2 1
+D 1 8128 2 1
+D 1 8129 0 1
+D 1 8130 0 1
+D 1 8130 2 1
+D 1 8130 1 1
+D 1 8131 2 1
+D 1 8132 0 1
+D 1 8133 3 1
+D 1 8134 1 1
+D 1 8134 3 1
+D 1 8135 1 1
+D 1 8136 3 1
+D 1 8140 3 1
+D 1 8141 0 1
+D 1 8141 1 1
+D 1 8141 2 1
+D 1 8142 0 1
+D 1 8143 2 1
+D 1 8144 0 1
+D 1 8144 2 1
+D 1 8145 0 1
+D 1 8146 2 1
+D 1 8149 0 1
+D 1 8149 1 1
+D 1 8149 2 1
+D 1 8150 2 1
+D 1 8151 0 1
+D 1 8152 0 1
+D 1 8152 2 1
+D 1 8152 3 1
+D 1 8153 2 1
+D 1 8154 0 1
+D 1 8157 1 1
+D 1 8158 3 1
+D 1 8160 1 1
+D 1 8161 3 1
+D 1 8165 1 1
+D 1 8166 3 1
+D 1 8167 0 1
+D 1 8167 1 1
+D 1 8167 2 1
+D 1 8168 2 1
+D 1 8169 0 1
+D 1 8170 3 1
+*
+O 1 8109 0 8103   *   LOADS BONES
+O 1 8109 0 8104
+O 1 8109 0 8115   *  LOADS BONES
+O 1 8109 0 8116
+O 1 8109 0 8118    *  LOADS BONES
+O 1 8109 0 8119
+O 1 8109 0 8121     * LOADS BONES
+O 1 8109 0 8122
+O 1 8109 0 8123      * LOADS BONES
+O 1 8109 0 8125
+O 1 8109 0 8126     * LOADS BONES
+O 1 8109 0 8128
+O 1 8109 0 8129  *    LOADS BONES
+O 1 8109 0 8131
+O 1 8109 0 8132   *   LOADS BONES
+O 1 8109 0 8133
+*
+M 1 8102 1 8104 1 *     LOADS WIGHT
+M 1 8102 1 8119  1  *  LOADS WIGHT
+M 1 8102 1 8121   1  * LOADS WIGHT
+*
+M 1 8132 1 8108    1  * LOADS WIERD
+M 1 8132 1 8109    2  * LOADS WIERD
+M 1 8132 1 8110    1  * LOADS WIERD
+*
+M 1 8108 1 8131     1 * LOADS HAUNT
+O 1 8119 0 8131   *   LOADS CORPSE
+*
+M 1 8114 6 8115      1 * LOADS GIANT SPIDERS
+M 1 8114 6 8119      1 * LOADS GIANT SPIDERS
+M 1 8113 6 8121  1 *   LOADS GIANT RATS
+M 1 8113 6 8116  1 *   LOADS GIANT RATS
+M 1 8114 6 8132  1  *  LOADS GIANT SPIDERS
+M 1 8114 6 8122  1  *  LOADS GIANT SPIDERS
+M 1 8113 6 8103  1 *   LOADS GIANT RATS
+M 1 8113 6 8118  1 *   LOADS GIANT RATS
+M 1 8114 6 8129  1 *   LOADS GIANT SPIDERS
+M 1 8114 6 8129  1 *   LOADS GIANT SPIDERS
+M 1 8113 6 8125  1  *  LOADS GIANT RATS
+M 1 8113 6 8125  1  *  LOADS GIANT RATS
+*
+M 1 8106 2 8123  1 *    LOADS LESSER DEMONS
+M 1 8106 2 8133  1 *   LOADS LESSER DEMONS
+*
+M 1 8101 2 8126  1 *   LOADS WRAITH
+M 1 8101 2 8128  1  *  LOADS WRAITH
+M 1 8101 2 8132  1  *  LOADS WRAITH
+*
+M 1 8118 10 8106  1  *  LOADS ANIMATED CORPSES
+M 1 8118 10 8113  1  *  LOADS ANIMATED CORPSES
+M 1 8118 10 8120  1  *  LOADS ANIMATED CORPSES
+*
+M 1 8112 8 8112  1  *  LOADS UNDEAD MONSTERS
+M 1 8112 8 8130  1  *  LOADS UNDEAD MONSTERS
+M 1 8112 8 8137  1  *  LOADS UNDEAD MONSTERS
+*
+M 1 8103 6 8198  1 *   LOADS GHOST
+M 1 8103 6 8195  1 *   LOADS GHOST
+M 1 8103 6 8159  1 *   LOADS GHOST
+M 1 8103 6 8155  1 *   LOADS GHOST
+M 1 8103 6 8156  1 *   LOADS GHOST
+M 1 8103 6 8164  1 *   LOADS GHOST
+*
+M 0 8100 2 8135  1  *  LOADS SPECTRE
+E 0 8122 0 6	    * wears helm
+M 0 8100 2 8136  1 *   LOADS SPECTRE
+E 0 8122 0 6	    * wears helm
+*
+M 1 8130 1 8139  1 *   LOADS CAMBION SCOUT
+E 1 8103 0 16       * WIELDS SWORD OF KAS
+E 1 8117 0 17       * HOLDS SYMBOL
+*
+M 1 8128 3 8142  1  *  LOADS NIGHTMARE
+M 1 8128 3 8143  1  *  LOADS NIGHTMARE
+M 1 8128 3 8140  1  *  LOADS NIGHTMARE
+*
+M 1 8129 1 8143  1  *  LOADS RETRIEVER
+*
+M 1 8127 1 8145  1 *   LOADS DEATH KNIGHT
+E 1 8112 0 16      *  WIELDS SWORD
+E 1 8113 0 5       *  WEARS ARMOR
+E 1 8114 0 6       *  WEARS HELM
+*
+M 1 8115 1 8145  1  *  LOADS LURKER
+M 1 8115 1 8146  1  *  LOADS LURKER
+M 1 8115 1 8147  1  *  LOADS LURKER
+*
+M 1 8109 1 8150  1  *  LOADS CRYPT THING
+E 1 8104 0 6       *  LOADS CIRCLET
+*
+M 1 8110 1 8151  1   * LOADS GREATER DEMON
+*
+M 1 8119 1 8152  1   * LOADS MASTER
+E 1 8107 0 12       * LOADS ROBES
+E 1 8108 0 16       * WIELDS BONE
+E 1 8110 0 17       * HOLDS GEM
+G 1 8120 0			0          GIVES KEY
+*
+M 1 8116 1 8153  1   * LOADS SUCCUBUS
+O 1 8115 0 8153     * LOADS JAR
+P 1 8116 0 8115  1   * PUTS POISON IN JAR
+O 1 8106 0 8153     * LOADS CHEST
+P 1 8105 0 8106   1  * PUTS HOARD IN CHEST
+*
+M 1 8105 1 8154  1   * LOADS LICH
+E 1 8101 0 9         *LOADS HAND
+E 1 8102 0 6         *LOADS EYE
+*
+M 1 8131 1 8158  1   * LOADS ORCUS
+E 1 8100 0 17        *HOLDS ROD
+*
+M 1 8123 2 8165   1  * LOADS SLIME
+M 1 8133 2 8166  1   * LOADS SPIDERS
+M 1 8123 2 8167  1   * LOADS SLIME
+M 1 8104 2 8168  2   * LOADS VAMPIRE
+E 1 8111 0 12        * WEARS CLOAK
+G 1 8121 0			0          GIVES BLOOD
+M 1 8104 2 8168  2   * LOADS VAMPIRE
+E 1 8111 0 12        * WEARS CLOAK
+G 1 8121 0			0          GIVES BLOOD
+M 1 8134 1 8170  1   * LOADS BARON
+E 1 8111 0 12        * WEARS CLOAK
+G 1 8121 0			0          GIVES BLOOD
+*
+M 1 8117 1 8174   1   * LOADS XANTHARUS
+G 1 8118 0			0          GIVES HOLY SYMBOL
+*
+M 1 8120 4 8175   4   * LOADS MOUNDS
+M 1 8121 4 8178   4  * LOADS KAMPFLUTS
+M 1 8122 2 8181   2  * LOADS PUDDINGS
+M 1 8124 2 8184   2 *  LOADS OOZES
+M 1 8125 8 8187   8  * LOADS TREES
+M 1 8126 1 8192   1  * LOADS SPIRIT
+M 1 8107 1 8190   1   *LOADS REVENANT
+*
+M 1 8111 1 8196   1 *   LOADS DRAGON
+O 1 8105 0 8196     * LOADS HOARD
+*
+R 1 8175 4          * RANDOM EXITS IN MAZE
+R 1 8176 4
+R 1 8177 4
+R 1 8178 4
+R 1 8179 4
+R 1 8180 4
+R 1 8181 4
+R 1 8182 4
+R 1 8183 4
+R 1 8184 4
+R 1 8185 4
+R 1 8186 4
+R 1 8187 4
+R 1 8188 4
+R 1 8189 4
+R 1 8190 4
+R 1 8191 4
+S
+
+#OLIMITS
+O 8100 1 * Rod of Orcus
+O 8113 1 * A suit of dark armor
+O 8110 10 * sanctuary potion
+O 8122 2 * helm
+S
+
+#OMPROGS
+O 8122 wear_prog wear_prog_headguard
+O 8122 remove_prog remove_prog_headguard
+S
+
+#$

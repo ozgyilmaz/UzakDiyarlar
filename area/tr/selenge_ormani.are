@@ -1,0 +1,2463 @@
+#AREA
+selenge_ormani.are~
+Selenge Ormaný~
+{ 5 15} Jai   Selenge Ormaný~
+9400 9499
+
+#MOBILES
+#9401
+ziyaretçi~
+ziyaretçi~
+Ormaný gezmeye gelmiþ bir ziyaretçi burada.
+~
+Ormanda dolaþmaktan zevk aldýðý bakýþlarýndan
+belli. Seni farketmedi bile.
+~
+human~
+ABG 0 400 0
+8 0 2d7+71 3d9+100 1d7+1 punch
+3 3 3 8
+IE 0 I H
+stand stand male 75
+0 0 medium 0
+
+#9402
+ziyaretçi~
+ziyaretçi~
+Ormaný gezmeye gelmiþ bir ziyaretçi burada.
+~
+Ormanda dolaþmaktan zevk aldýðý bakýþlarýndan
+belli. Seni farketti.
+~
+human~
+ABGT DVc 400 0
+8 0 2d10+150 6d9+100 1d10+3 punch
+0 1 0 7
+IE 0 I H
+stand stand male 75
+0 0 medium 0
+
+#9403
+ziyaretçi~
+ziyaretçi~
+Ormaný gezmeye gelmiþ bir ziyaretçi burada.
+~
+Ormanda dolaþmaktan zevk aldýðý bakýþlarýndan
+belli. Seni farketti.
+~
+human~
+ABGS DVc 400 0
+8 0 2d10+150 6d9+100 1d10+3 punch
+0 1 0 7
+IE 0 I H
+stand stand male 75
+0 0 medium 0
+
+#9404
+ziyaretçi~
+kaybolmuþ ziyaretçi~
+Ormanda yolunu kaybetmiþ bir ziyaretçi burada.
+~
+Kaybolmak onu korkutmuþ.
+~
+human~
+ABGH 0 400 0
+8 0 2d7+71 3d9+100 1d7+1 punch
+3 3 3 8
+IE 0 I H
+stand stand male 75
+0 0 medium 0
+
+#9405
+bekçi~
+orman bekçisi~
+Ormana bekçilik yapan adam burada.
+~
+Bu yaþlý adam ormanýn eskilerinden. Kim bilir neler biliyor
+ormanýn karanlýk yüzü hakkýnda.
+~
+human~
+AGR CDEFGHc 700 0
+14 0 2d10+150 6d9+100 1d10+3 none
+0 0 0 5
+EFNQ 0 0 0
+stand stand male 250
+0 0 medium 0
+
+#9406
+sansar~
+sansar~
+Bir sansar hastalýklý gözleriyle sana bakýyor.
+~
+Bir sansar görüyorsun. Hastalýðý gözlerine kadar ilerlemiþ.
+Yoksa saldýracak birini mi arýyor?!!
+~
+fido~
+AFGH ZV -700 0
+6 0 2d7+71 3d9+100 1d7+1 none
+4 4 4 9
+H 0 0 0
+stand stand male 0
+0 0 medium 0
+
+#9407
+tilki~
+tilki~
+Bir tilki hastalýklý gözleriyle sana bakýyor.
+~
+Bir tilki görüyorsun. Hastalýðý gözlerine kadar ilerlemiþ.
+Yoksa saldýracak birini mi arýyor?!!
+~
+fox~
+AFGH ZV -700 0
+4 0 2d7+71 3d9+100 1d7+1 none
+9 9 9 13
+H 0 0 0
+stand stand male 0
+0 0 medium 0
+
+#9408
+gölge~
+lanetli gölge~
+Bir gölge SENÝ izliyor.
+~
+Simsiyah bir gölge.
+~
+human~
+AGT ZV -700 0
+14 0 2d10+150 6d9+100 1d10+3 none
+0 0 0 5
+G 0 0 0
+stand stand male 250
+0 0 medium 0
+
+#9409
+sarhoþ~
+Sarhoþ~
+Sarhoþun biri burada, dans etmeye çalýþýyor.
+~
+Ormaný meyhane olarak kullananlardan...
+~
+human~
+ACGH 0 0 0
+4 0 2d7+21 1d9+100 1d5+0 none
+6 5 7 8
+EFNU 0 0 0
+stand stand male 2
+0 0 medium 0
+
+#9410
+serseri~
+serseri~
+Serserinin biri burada, aðaca birþeyler kazýyor.
+~
+Seni faketmemiþ gibi davranan bu serseriye dikkat
+etmelisin.
+~
+ýsdarl~
+AGS PV -300 0
+9 0 2d6+110 4d9+100 1d8+2 none
+2 2 2 8
+EFNQ 0 0 0
+stand stand none 0
+AHV AEJK medium 0
+
+#9411
+sürüngen~
+sürüngen~
+Bir sürüngen görüyorsun, gözlerindeki lanet seni þaþýrtýyor.
+~
+O da karanlýktan etkilenenlerden.
+~
+snake~
+ABC 0 0 0
+4 0 2d7+46 2d9+100 1d5+1 bite
+6 6 6 9
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+
+#9412
+iþçi orman~
+orman iþçisi~
+Bir orman iþçisi burada, elindeki kazmayla çalýþýyor.
+~
+Oldukça yorgun görünüyor.
+~
+human~
+AGHT 0 100 0
+6 0 2d6+35 1d9+100 1d6+0 none
+5 4 6 8
+EFNU 0 0 0
+stand stand male 2
+0 0 medium 0
+
+#9413
+iþçi orman~
+orman iþçisi~
+Bir orman iþçisi burada, aðacýn dibinde uyuyakalmýþ.
+~
+Horluyor.
+~
+human~
+ABHT 0 150 0
+7 0 2d6+35 1d9+100 1d6+0 none
+2 3 4 7
+EFNU 0 0 0
+sleep sit male 3
+0 0 medium 0
+
+#9414
+baykuþ~
+baykuþ~
+Bir baykuþ görüyorsun, dalýn üzerinden seni seyrediyor.
+~
+Orman kadar yaþlý olsa gerek. Gözleri buranýn hikayesini
+bilirmiþ gibi bakýyor.
+~
+song_bird~
+AGR DFHTc 300 0
+38 0 10d10+1300 10d10+1300 4d7+11 peck
+-11 -20 -15 -10
+EN 0 0 0
+stand stand male 0
+W 0 medium 0
+#0
+
+#OBJECTS
+#9401
+mermer heykelli çeþme~
+mermer heykelli çeþme~
+Heykelli bir mermer çeþme görüyorsun.~
+marble~
+fountain 0 0
+100000 100000 'water' 0 0
+0 0 0 G
+E
+çeþme mermer~
+Karanlýðýn içinde suyu tertemiz bir çeþme.
+~
+#9402
+bakýr çeþme~
+bir bakýr çeþme~
+Büyük bir bakýr çeþme görüyorsun.~
+copper~
+fountain 0 0
+100000 100000 'water' 0 0
+0 0 0 G
+E
+çeþme bakýr~
+Selenge Beyi'nin ziyaretçiler için yaptýrdýðý bir çeþme.
+~
+#9403
+çaký~
+bir çaký~
+Bir çaký yerde yeni sahibini bekliyor.~
+iron~
+weapon U AN
+dagger 1 4 pierce 0
+0 10 210 P
+A
+18 1
+E
+çaký~
+Kalitesiz birþeye benziyor.
+~
+#9404
+gümüþ kýlýç~
+bir gümüþ kýlýç~
+Yerde gümüþ bir kýlýç görüyorsun.~
+silver~
+weapon U AN
+sword 1 6 slash 0
+1 30 360 P
+A
+18 1
+E
+kýlýç~
+Kalitesiz birþeye benziyor.
+~
+#9405
+gümüþ kama~
+bir gümüþ kama~
+Yerde gümüþ bir kama görüyorsun.~
+silver~
+weapon U AN
+dagger 1 4 pierce 0
+0 10 210 P
+A
+18 1
+E
+kama~
+Kalitesiz birþeye benziyor.
+~
+#0
+
+#ROOMS
+#9400
+Selenge Ormaný~
+Selenge þehrinin batýsýnda kalan ormanýn giriþindesin.
+Yüksek aðaçlar güneþ ýþýðýnýn bir kýsmýný emiyorlar. Toprak yaðan
+yaðmurlarla her zaman yumuþak ve verimli. Ormanýn batý bölümünde
+aðaçlarýn arasýnda geniþ aralýklar bulunuyor.
+~
+0 0 3
+D1
+~
+~
+0 0 9401
+D3
+~
+~
+0 0 3047
+S
+#9401
+Selenge Ormaný~
+     Söylendiðine göre ormanýn ilk fidanlarý yaklaþýk üç yüzyýl önce
+dikilmiþ. Daha sonra gelen efendiler de buranýn bakýmýný hiç ihmal
+etmemiþler. Kitaplarda da isminden bahsedilen bir büyücü üç yüzyýl
+önce, orman henüz batýya doðru yayýlmamýþken, aðaçlarýn daha hýzlý
+geliþmeleri için efendisinin isteði üzerine büyüler yapmýþ ormana.
+Büyülerin ardýndan aðaçlar hýzla büyümüþler. Bunun üzerine de efendi
+ormana büyücünün bir heykelini diktirmiþ. Yaþlý büyücü Haman birkaç
+yýl sonra Thalos'a yaptýðý gezide hayatýný kaybetmiþ.
+~
+0 0 3
+D1
+~
+~
+0 0 9402
+D3
+~
+~
+0 0 9400
+S
+#9402
+Selenge Ormaný~
+     Yýllar geçtikçe, orman batýya doðru geniþlerken, ilk zamanlarda
+dikilen aðaçlarýn bulunduðu doðu bölümü karanlýk bir düþünceyle
+kavrulur olmuþ. Aðaçlarýn da, altýnda yaþayan hayvanlarýn da renkleri
+kararmaya baþlamýþ. Öyle yavaþmýþ ki bu deðiþim hiç kimse fark etmemiþ...
+~
+0 0 3
+D1
+~
+~
+0 0 9403
+D3
+~
+~
+0 0 9401
+S
+#9403
+Selenge Ormaný~
+Sonra Haman'ýn torunlarý Heran ve Gmeran birden bire kaybolmuþlar.
+Þehrin kapýlarý kapatýlmýþ ve her yer muhafýzlar tarafýndan didik
+didik aranmýþ. Hiçbir iz bulunamayýnca Miden'nir bölgesinden iki kolcu
+gelmiþ. Kolcular çocuklarýn izlerini ormanda bulmuþlar. Ýzler ormanýn
+doðusuna kadar ilerliyor ve sonra yokoluyormuþ. Efendi hiddetlenmiþ ve
+ormanýn doðu bölümünün yokedilmesini emretmiþ...
+~
+0 0 3
+D1
+~
+~
+0 0 9404
+D3
+~
+~
+0 0 9402
+S
+#9404
+Selenge Ormaný~
+O geniþ gövdeli aðaçlarý yere indirmek hiç de kolay olmamýþ. Yabani
+otlar temizlenmiþ, hayvanlar tek tek öldürülmüþ. Yine de bu çabalar
+hiçbir iþe yaramamýþ. Aðaçlar yeniden ve yeniden büyümüþler. Doðu
+bölümü yine vahþi hayvanlarla dolmuþ. Selenge'liler tedirginmiþ.
+Efendi sandýk dolusu altýn vererek Thalos'dan iki büyücü getirtmiþ.
+Büyücüler üç gün üç gece büyülerle saldýrmýþlar doðu ormanýna. Orman
+acýlar içinde baðýrmýþ. Haykýrýþlarý tapýnaðýn duvarlarýný titretmiþ.
+Dördüncü gece efendi ve Thalos'lu iki büyücü yataklarýnda ölü
+bulunmuþlar. Son dördüne girerken ay, efendinin oðlu Rehazar babasýnýn
+tahtýna oturmuþ...
+~
+0 0 3
+D1
+~
+~
+0 0 9405
+D3
+~
+~
+0 0 9403
+S
+#9405
+Selenge Ormaný~
+Rehazar akýllýca davranýp ormanýn kendi haline býrakýlmasýný emretmiþ.
+O günden sonra doðu ormaný -her ne kadar korusa da karanlýðýný- kimseye
+saldýrmamýþ. Ýþte böyledir geceleri aðaçlarý aðlayan Selenge Ormaný'nýn
+hikayesi...
+~
+0 0 3
+D1
+~
+~
+0 0 9406
+D3
+~
+~
+0 0 9404
+S
+#9406
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Koca bir meþe aðacý doðu yönünü kapatmýþ.
+~
+0 0 3
+D0
+~
+~
+0 0 9407
+D2
+~
+~
+0 0 9412
+D3
+~
+~
+0 0 9405
+S
+#9407
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Batýda orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9408
+D1
+~
+~
+0 0 9421
+D2
+~
+~
+0 0 9406
+S
+#9408
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Batýda orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9409
+D1
+~
+~
+0 0 9420
+D2
+~
+~
+0 0 9407
+S
+#9409
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Batýda orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9410
+D1
+~
+~
+0 0 9419
+D2
+~
+~
+0 0 9408
+S
+#9410
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Batýda orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9411
+D1
+~
+~
+0 0 9418
+D2
+~
+~
+0 0 9409
+S
+#9411
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Batýda ve kuzeyde orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D1
+~
+~
+0 0 9417
+D2
+~
+~
+0 0 9410
+S
+#9412
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Batýda orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9406
+D1
+~
+~
+0 0 9423
+D2
+~
+~
+0 0 9413
+S
+#9413
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Batýda orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9412
+D1
+~
+~
+0 0 9424
+D2
+~
+~
+0 0 9414
+S
+#9414
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Batýda orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9413
+D1
+~
+~
+0 0 9425
+D2
+~
+~
+0 0 9415
+S
+#9415
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Batýda orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9414
+D1
+~
+~
+0 0 9426
+D2
+~
+~
+0 0 9416
+S
+#9416
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Batýda ve güneyde orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9415
+D1
+~
+~
+0 0 9427
+S
+#9417
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Kuzeyde orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D1
+~
+~
+0 0 9438
+D2
+~
+~
+0 0 9418
+D3
+~
+~
+0 0 9411
+S
+#9418
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9417
+D1
+~
+~
+0 0 9437
+D2
+~
+~
+0 0 9419
+D3
+~
+~
+0 0 9410
+S
+#9419
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9418
+D1
+~
+~
+0 0 9436
+D2
+~
+~
+0 0 9420
+D3
+~
+~
+0 0 9409
+S
+#9420
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9419
+D1
+~
+~
+0 0 9435
+D2
+~
+~
+0 0 9421
+D3
+~
+~
+0 0 9408
+S
+#9421
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Bir ceviz aðacý doðu yönünü kapatmýþ.
+~
+0 0 3
+D0
+~
+~
+0 0 9420
+D2
+~
+~
+0 0 9422
+D3
+~
+~
+0 0 9407
+S
+#9422
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Koca bir meþe aðacý batý yönünü kapatmýþ.
+~
+0 0 3
+D0
+~
+~
+0 0 9421
+D1
+~
+~
+0 0 9433
+D2
+~
+~
+0 0 9423
+S
+#9423
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9422
+D1
+~
+~
+0 0 9432
+D2
+~
+~
+0 0 9424
+D3
+~
+~
+0 0 9412
+S
+#9424
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9423
+D1
+~
+~
+0 0 9431
+D2
+~
+~
+0 0 9425
+D3
+~
+~
+0 0 9413
+S
+#9425
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9424
+D1
+~
+~
+0 0 9430
+D2
+~
+~
+0 0 9426
+D3
+~
+~
+0 0 9414
+S
+#9426
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9425
+D1
+~
+~
+0 0 9429
+D2
+~
+~
+0 0 9427
+D3
+~
+~
+0 0 9415
+S
+#9427
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Bir ceviz aðacý doðu yönünü kapatmýþ ve güneyde orman sýnýr duvarý
+yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9426
+D3
+~
+~
+0 0 9416
+S
+#9428
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Bir ceviz aðacý batý yönünü kapatmýþ; doðuda, batýda ve güneyde orman
+sýnýr duvarý yükseliyor..
+~
+0 0 3
+D0
+~
+~
+0 0 9429
+S
+#9429
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9430
+D1
+~
+~
+0 0 9452
+D2
+~
+~
+0 0 9428
+D3
+~
+~
+0 0 9426
+S
+#9430
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9431
+D1
+~
+~
+0 0 9451
+D2
+~
+~
+0 0 9429
+D3
+~
+~
+0 0 9425
+S
+#9431
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Büyük bir ceviz aðacý doðu yönünü kapatmýþ.
+~
+0 0 3
+D0
+~
+~
+0 0 9432
+D2
+~
+~
+0 0 9430
+D3
+~
+~
+0 0 9424
+S
+#9432
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Büyük bir ceviz aðacý doðu yönünü kapatmýþ.
+~
+0 0 3
+D0
+~
+~
+0 0 9433
+D2
+~
+~
+0 0 9421
+D3
+~
+~
+0 0 9423
+S
+#9433
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9434
+D1
+~
+~
+0 0 9448
+D2
+~
+~
+0 0 9432
+D3
+~
+~
+0 0 9422
+S
+#9434
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Bir ceviz aðacý batý yönünü kapatmýþ.
+~
+0 0 3
+D0
+~
+~
+0 0 9435
+D1
+~
+~
+0 0 9447
+D2
+~
+~
+0 0 9433
+S
+#9435
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9436
+D1
+~
+~
+0 0 9446
+D2
+~
+~
+0 0 9434
+D3
+~
+~
+0 0 9420
+S
+#9436
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor. Bir ceviz aðacýna kazýnmýþ yazýyý fark ediyorsun.
+~
+0 0 3
+D0
+~
+~
+0 0 9437
+D1
+~
+~
+0 0 9445
+D2
+~
+~
+0 0 9435
+D3
+~
+~
+0 0 9419
+E
+yazý~
+Biri aþýk olduðu kadýnýn adýný aðaca kazýmýþ.
+~
+S
+#9437
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9438
+D1
+~
+~
+0 0 9444
+D2
+~
+~
+0 0 9436
+D3
+~
+~
+0 0 9418
+S
+#9438
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9439
+D1
+~
+~
+0 0 9443
+D2
+~
+~
+0 0 9437
+D3
+~
+~
+0 0 9417
+S
+#9439
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Büyük bir ceviz aðacý doðu yönünü kapatmýþ ve batýda orman sýnýr
+duvarý yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9440
+D2
+~
+~
+0 0 9438
+S
+#9440
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Kuzeyde ve batýda orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D1
+~
+~
+0 0 9441
+D2
+~
+~
+0 0 9439
+S
+#9441
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Kuzeyde ve doðuda orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D2
+~
+~
+0 0 9442
+D3
+~
+~
+0 0 9440
+S
+#9442
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Büyük bir ceviz aðacý batý yönünü kapatmýþ ve doðuda orman sýnýr
+duvarý yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9441
+D2
+~
+~
+0 0 9443
+S
+#9443
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Doðuda orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9442
+D2
+~
+~
+0 0 9444
+D3
+~
+~
+0 0 9438
+S
+#9444
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Doðuda orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9443
+D2
+~
+~
+0 0 9445
+D3
+~
+~
+0 0 9437
+S
+#9445
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9444
+D1
+~
+~
+0 0 9453
+D2
+~
+~
+0 0 9446
+D3
+~
+~
+0 0 9436
+S
+#9446
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9445
+D1
+~
+~
+0 0 9454
+D2
+~
+~
+0 0 9447
+D3
+~
+~
+0 0 9435
+S
+#9447
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9446
+D1
+~
+~
+0 0 9455
+D2
+~
+~
+0 0 9448
+D3
+~
+~
+0 0 9434
+S
+#9448
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9447
+D1
+~
+~
+0 0 9456
+D2
+~
+~
+0 0 9449
+D3
+~
+~
+0 0 9433
+S
+#9449
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Büyük bir ceviz aðacý batý yönünü kapatmýþ.
+~
+0 0 3
+D0
+~
+~
+0 0 9448
+D1
+~
+~
+0 0 9457
+D2
+~
+~
+0 0 9450
+S
+#9450
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Büyük bir ceviz aðacý batý yönünü kapatmýþ.
+~
+0 0 3
+D0
+~
+~
+0 0 9449
+D1
+~
+~
+0 0 9458
+D2
+~
+~
+0 0 9451
+S
+#9451
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9450
+D1
+~
+~
+0 0 9459
+D2
+~
+~
+0 0 9452
+D3
+~
+~
+0 0 9430
+S
+#9452
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Güneyde orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9451
+D1
+~
+~
+0 0 9460
+D3
+~
+~
+0 0 9429
+S
+#9453
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Kuzeyde orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D1
+~
+~
+0 0 9464
+D2
+~
+~
+0 0 9454
+D3
+~
+~
+0 0 9445
+S
+#9454
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9453
+D1
+~
+~
+0 0 9465
+D2
+~
+~
+0 0 9455
+D3
+~
+~
+0 0 9446
+S
+#9455
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9454
+D1
+~
+~
+0 0 9466
+D2
+~
+~
+0 0 9456
+D3
+~
+~
+0 0 9447
+S
+#9456
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9455
+D1
+~
+~
+0 0 9467
+D2
+~
+~
+0 0 9457
+D3
+~
+~
+0 0 9448
+S
+#9457
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9456
+D1
+~
+~
+0 0 9468
+D2
+~
+~
+0 0 9458
+D3
+~
+~
+0 0 9449
+S
+#9458
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9457
+D1
+~
+~
+0 0 9469
+D2
+~
+~
+0 0 9459
+D3
+~
+~
+0 0 9450
+S
+#9459
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Doðuda orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9458
+D2
+~
+~
+0 0 9460
+D3
+~
+~
+0 0 9451
+S
+#9460
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Doðuda orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9459
+D2
+~
+~
+0 0 9461
+D3
+~
+~
+0 0 9452
+S
+#9461
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Doðuda ve batýda orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9460
+D2
+~
+~
+0 0 9462
+S
+#9462
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Doðuda ve batýda orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9461
+D2
+~
+~
+0 0 9463
+S
+#9463
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Huzur dolu bu görüntüye
+kuþ sesleri doluyor.
+Doðuda, batýda ve güneyde orman sýnýr duvarý yükseliyor.
+~
+0 0 3
+D0
+~
+~
+0 0 9462
+S
+#9464
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Doðudan gelen garip
+sesler tüylerini diken diken ediyor.
+Kuzeyde orman sýnýr duvarý yükseliyor, doðuda ise ormanýn doðu bölümünü
+batýdan ayýran uzun demir parmaklýðý görüyorsun. Birileri demirlerden
+iki tanesini keserek senin de geçebileceðin bir aralýk açmýþlar.
+~
+0 0 3
+D1
+~
+~
+0 0 9476
+D2
+~
+~
+0 0 9465
+D3
+~
+~
+0 0 9453
+S
+#9465
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Doðudan gelen garip
+sesler tüylerini diken diken ediyor.
+Doðuda ormanýn doðu bölümünü batýdan ayýran uzun demir parmaklýðý
+görüyorsun.
+~
+0 0 3
+D0
+~
+~
+0 0 9464
+D2
+~
+~
+0 0 9466
+D3
+~
+~
+0 0 9454
+S
+#9466
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Doðudan gelen garip
+sesler tüylerini diken diken ediyor.
+Doðuda ormanýn doðu bölümünü batýdan ayýran uzun demir parmaklýðý
+görüyorsun.
+~
+0 0 3
+D0
+~
+~
+0 0 9465
+D3
+~
+~
+0 0 9455
+S
+#9467
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Doðudan gelen garip
+sesler tüylerini diken diken ediyor.
+Doðuda ormanýn doðu bölümünü batýdan ayýran uzun demir parmaklýðý
+görüyorsun.
+~
+0 0 3
+D2
+~
+~
+0 0 9468
+D3
+~
+~
+0 0 9456
+S
+#9468
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Doðudan gelen garip
+sesler tüylerini diken diken ediyor.
+Doðuda ormanýn doðu bölümünü batýdan ayýran uzun demir parmaklýðý
+görüyorsun.
+~
+0 0 3
+D0
+~
+~
+0 0 9467
+D2
+~
+~
+0 0 9469
+D3
+~
+~
+0 0 9457
+S
+#9469
+Ormanýn Batý Bölümü~
+Düzenli bir þekilde büyümüþ aðaçlarýn arasýndasýn. Toprak sýk yaðan
+yaðmurlar nedeniyle oldukça yumuþak. Aðaçlarýn tutmayý býraktýðý
+yapraklar yerde eþsiz bir örtü oluþturmuþlar. Doðudan gelen garip
+sesler tüylerini diken diken ediyor.
+Güneyde orman sýnýr duvarý yükseliyor, doðuda ormanýn doðu bölümünü
+batýdan ayýran uzun demir parmaklýðý görüyorsun.
+~
+0 0 3
+D0
+~
+~
+0 0 9468
+D3
+~
+~
+0 0 9458
+S
+#9470
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+Güneyde ve batýda çürümüþ orman sýnýr duvarýný görüyorsun.
+~
+0 NA 3
+D0
+~
+~
+0 0 9471
+D1
+~
+~
+0 0 9485
+S
+#9471
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+Batýda ormanýn doðu bölümünü batýdan ayýran uzun demir parmaklýðý
+görüyorsun.
+~
+0 NA 3
+D0
+~
+~
+0 0 9472
+D1
+~
+~
+0 0 9484
+D2
+~
+~
+0 0 9470
+S
+#9472
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+Batýda ormanýn doðu bölümünü batýdan ayýran uzun demir parmaklýðý
+görüyorsun.
+~
+0 NA 3
+D0
+~
+~
+0 0 9473
+D1
+~
+~
+0 0 9483
+D2
+~
+~
+0 0 9471
+S
+#9473
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+Batýda ormanýn doðu bölümünü batýdan ayýran uzun demir parmaklýðý
+görüyorsun.
+~
+0 NA 3
+D0
+~
+~
+0 0 9474
+D1
+~
+~
+0 0 9482
+D2
+~
+~
+0 0 9472
+S
+#9474
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+Batýda ormanýn doðu bölümünü batýdan ayýran uzun demir parmaklýðý
+görüyorsun.
+~
+0 NA 3
+D0
+~
+~
+0 0 9475
+D1
+~
+~
+0 0 9481
+D2
+~
+~
+0 0 9473
+S
+#9475
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+Batýda ormanýn doðu bölümünü batýdan ayýran uzun demir parmaklýðý
+görüyorsun.
+~
+0 NA 3
+D0
+~
+~
+0 0 9476
+D1
+~
+~
+0 0 9480
+D2
+~
+~
+0 0 9474
+S
+#9476
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+Batýda ormanýn doðu bölümünü batýdan ayýran uzun demir parmaklýðý
+görüyorsun.
+~
+0 NA 3
+D0
+~
+~
+0 0 9477
+D1
+~
+~
+0 0 9479
+D2
+~
+~
+0 0 9475
+D3
+~
+~
+0 0 9464
+S
+#9477
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+Kuzeyde ve batýda çürümüþ orman sýnýr duvarýný görüyorsun.
+~
+0 NA 3
+D1
+~
+~
+0 0 9478
+D2
+~
+~
+0 0 9476
+S
+#9478
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+Kuzeyde çürümüþ orman sýnýr duvarýný görüyorsun.
+~
+0 NA 3
+D2
+~
+~
+0 0 9479
+D3
+~
+~
+0 0 9477
+S
+#9479
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+~
+0 NA 3
+D0
+~
+~
+0 0 9478
+D2
+~
+~
+0 0 9480
+D3
+~
+~
+0 0 9476
+S
+#9480
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+~
+0 NA 3
+D0
+~
+~
+0 0 9479
+D2
+~
+~
+0 0 9481
+D3
+~
+~
+0 0 9475
+S
+#9481
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+~
+0 NA 3
+D0
+~
+~
+0 0 9480
+D2
+~
+~
+0 0 9482
+D3
+~
+~
+0 0 9474
+S
+#9482
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+~
+0 NA 3
+D0
+~
+~
+0 0 9481
+D2
+~
+~
+0 0 9483
+D3
+~
+~
+0 0 9473
+S
+#9483
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+~
+0 NA 3
+D0
+~
+~
+0 0 9482
+D1
+~
+~
+0 0 9486
+D2
+~
+~
+0 0 9484
+D3
+~
+~
+0 0 9472
+S
+#9484
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+~
+0 NA 3
+D0
+~
+~
+0 0 9483
+D1
+~
+~
+0 0 9487
+D2
+~
+~
+0 0 9485
+D3
+~
+~
+0 0 9471
+S
+#9485
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+Güneyde çürümüþ orman sýnýr duvarýný görüyorsun.
+~
+0 NA 3
+D0
+~
+~
+0 0 9484
+D1
+~
+~
+0 0 9488
+D3
+~
+~
+0 0 9470
+S
+#9486
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+~
+0 NA 3
+D1
+~
+~
+0 0 9491
+D2
+~
+~
+0 0 9487
+D3
+~
+~
+0 0 9483
+E
+heykel dev~
+Büyücü Haman'ýn heykeli karþýnda duruyor. Ne kadar da haþmetli.
+~
+S
+#9487
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+~
+0 NA 3
+D0
+~
+~
+0 0 9486
+D1
+~
+~
+0 0 9490
+D2
+~
+~
+0 0 9488
+D3
+~
+~
+0 0 9484
+S
+#9488
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+Doðuda çürümüþ orman sýnýr duvarýný görüyorsun.
+~
+0 NA 3
+D0
+~
+~
+0 0 9487
+D2
+~
+~
+0 0 9489
+D3
+~
+~
+0 0 9485
+S
+#9489
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+Güneyde, doðuda ve batýda çürümüþ orman sýnýr duvarýný görüyorsun.
+~
+0 NA 3
+D0
+~
+~
+0 0 9488
+S
+#9490
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+Doðuda ve güneyde çürümüþ orman sýnýr duvarýný görüyorsun.
+~
+0 NA 3
+D0
+~
+~
+0 0 9491
+D3
+~
+~
+0 0 9487
+S
+#9491
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+Doðuda çürümüþ orman sýnýr duvarýný görüyorsun.
+~
+0 NA 3
+D0
+~
+~
+0 0 9492
+D2
+~
+~
+0 0 9490
+D3
+~
+~
+0 0 9486
+S
+#9492
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+Doðuda çürümüþ orman sýnýr duvarýný görüyorsun.
+~
+0 NA 3
+D0
+~
+~
+0 0 9493
+D2
+~
+~
+0 0 9491
+S
+#9493
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+Doðuda çürümüþ orman sýnýr duvarýný görüyorsun.
+~
+0 NA 3
+D0
+~
+~
+0 0 9494
+D2
+~
+~
+0 0 9492
+S
+#9494
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+Doðuda çürümüþ orman sýnýr duvarýný görüyorsun.
+~
+0 NA 3
+D0
+~
+~
+0 0 9495
+D2
+~
+~
+0 0 9493
+S
+#9495
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+Doðuda çürümüþ orman sýnýr duvarýný görüyorsun.
+~
+0 NA 3
+D0
+~
+~
+0 0 9496
+D2
+~
+~
+0 0 9494
+S
+#9496
+Ormanýn Doðu Bölümü~
+En küçüðünün boyunun batý bölümündekilerden daha uzun olduðu iri
+aðaçlar arasýndasýn. Güneþ çok uzun zamandýr ýþýðýný veremiyor bu
+topraklara. Garip sesler duyuyorsun. Aðaçlarýn burada neler görüp
+neler gizlediðini kimse bilmiyor...
+Doðuda ve kuzeyde çürümüþ orman sýnýr duvarýný görüyorsun.
+~
+0 NA 3
+D2
+~
+~
+0 0 9495
+S
+#0
+
+#RESETS
+M 0 9401   5 9420  1	* ziyaretçi
+M 0 9401   5 9430  1	* ziyaretçi
+M 0 9401   5 9450  1	* ziyaretçi
+M 0 9401   5 9443  1	* ziyaretçi
+M 0 9401   5 9460  1	* ziyaretçi
+
+M 0 9402   1 9464  1	* savaþçý ziyaretçi
+E 1 9404  -1    16	* gümüþ kýlýç
+
+M 0 9403   2 9490  1	* hýrsýz ziyaretçi
+E 1 9405  -1    16	* gümüþ hançer
+
+M 0 9404   1 9494  1	* kaybolmuþ ziyaretçi
+
+M 0 9405   1 9453  1	* bekçi
+
+M 0 9406   2 9477  1	* sansar
+M 0 9406   2 9485  1	* sansar
+
+M 0 9407   1 9481  2	* tilki
+
+M 0 9408   1 9486  1	* gölge
+
+M 0 9409   2 9452  1	* sarhoþ
+M 0 9409   2 9471  1	* sarhoþ
+
+M 0 9410   1 9422  1	* serseri
+E 1 9403  -1    16	* çaký
+
+M 0 9411   3 9492  3	* sürüngen
+
+M 0 9412   1 9464  1	* çalýþan iþçi
+
+M 0 9413   1 9464  1	* uyuyan iþçi
+
+M 0 9414   1 9486  1	* baykuþ
+
+O 0 9401   0 9486  1    * Heykel Çeþmesi
+O 0 9402   0 9423  1    * Bakýr Çeþme
+
+
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 9411 spec_fido	* sürüngen
+M 9407 spec_fido	* tilki
+M 9406 spec_fido	* sansar
+M 9411 spec_poison	* sürüngen
+M 9403 spec_thief	* hýrsýz ziyaretçi
+S
+
+#$

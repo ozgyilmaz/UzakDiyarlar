@@ -1,0 +1,1284 @@
+#AREA
+mekanikdusler.are~
+Mekanik Düþler~
+{ 1  5} Furey   Mekanik Düþler~
+8600 8699
+#MOBILES
+#8600
+bekçi~
+bekçi~
+Morris ekipmaný bekçisi burada.
+~
+Bu kadýnýn iþi ekipmanýn düzeyini ayarlamak.
+~
+human~
+A 0 1000 0
+8 0 2d7+96 4d9+100 1d7+2 none
+3 3 3 9
+EFNU 0 0 0
+stand stand female 5
+0 0 medium 0
+#0
+#OBJECTS
+#8600
+morris zilli tozluk~
+bir çift morris zilli tozluðu~
+Üzerine düzinelerce pirinç zil eklenmiþ bir çift tozluk burada.~
+leather brass~
+armor 0 AF
+3 3 3 0 0
+3 50 310 P
+E
+motto~
+'Time on the ground is time wasted.'
+~
+E
+bells morris~
+These are a set of sturdy leather leggings with small brass bells sewn on.
+They look like the leggings worn by Morris dancers.  There is a motto tooled
+into the leather.
+~
+#8601
+morris mendil~
+bir morris mendili~
+Beyaz bir mendil burada.~
+cloth~
+armor 0 AM
+3 3 3 0 0
+3 50 310 P
+E
+mendil~
+Bu Morris dans törenlerinde kullanýlan iyi dokunmuþ bir mendil.
+~
+#8602
+beyaz morris kuþak~
+bir morris kuþaðý~
+Beyaz bir kuþak burada.~
+cloth~
+armor 0 AL
+3 3 3 0 0
+3 50 310 P
+E
+kuþak~
+Bu Morris dans törenlerinde kullanýlan iyi dokunmuþ bir kuþak.
+~
+#8603
+morris asa~
+bir morris asasý~
+Tahtadan yapýlmýþ, kýsa, kalýn, cilalanmýþ bir Morris deðneði burada.~
+wood~
+staff 0 AO
+10 4 4 'protection evil' 0
+6 50 1460 P
+E
+asa~
+Bir Noel aðacýndan yapýlmýþ, yaklaþýk bir metre boyunda ve iyi cilalanmýþ
+bir Morris deðneði. Bir silahtan çok bir dans aletine benziyor.
+~
+#0
+
+#ROOMS
+#8600
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8606
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8601
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8603
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8602
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8610
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8620
+S
+#8601
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8607
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8602
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8604
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8600
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8611
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8621
+S
+#8602
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8608
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8600
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8605
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8601
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8612
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8622
+S
+#8603
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8600
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8604
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8606
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8605
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8613
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8623
+S
+#8604
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 CN 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8601
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8605
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8607
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8603
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8614
+D5
+Terk edilmiþ ambarý görüyorsun.
+~
+~
+0 0 3050
+S
+#8605
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8602
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8603
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8608
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8604
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8615
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8625
+S
+#8606
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8603
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8607
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8600
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8608
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8616
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8626
+S
+#8607
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8604
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8608
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8601
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8606
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8617
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8627
+S
+#8608
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8605
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8606
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8602
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8607
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8618
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8628
+S
+#8610
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8616
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8611
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8613
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8612
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8620
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8600
+S
+#8611
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yeni Düþ'e giden yolu görüyorsun.
+~
+~
+0 0 8630
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8612
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8614
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8610
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8621
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8601
+S
+#8612
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8618
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8610
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8615
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8611
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8622
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8602
+S
+#8613
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8610
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8614
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8616
+D3
+Gölcüðün yanýndaki yolu görüyorsun.
+~
+~
+0 0 8636
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8623
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8603
+S
+#8614
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8611
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8615
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8617
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8613
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8624
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8604
+S
+#8615
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8612
+D1
+Geniþ bir dans salonu görüyorsun.
+~
+~
+0 0 8632
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8618
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8614
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8625
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8605
+S
+#8616
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8613
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8617
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8610
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8618
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8626
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8606
+S
+#8617
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8614
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8618
+D2
+Küçük bir salon görüyorsun.
+~
+~
+0 0 8634
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8616
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8627
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8607
+S
+#8618
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8615
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8616
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8612
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8617
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8628
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8608
+S
+#8620
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8626
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8621
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8623
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8622
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8600
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8610
+S
+#8621
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8627
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8622
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8624
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8620
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8601
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8611
+S
+#8622
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8628
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8620
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8625
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8621
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8602
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8612
+S
+#8623
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8620
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8624
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8626
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8625
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8603
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8613
+S
+#8624
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8621
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8625
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8627
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8623
+D4
+Gökyüzüne doðru bir dað sýrtý görüyorsun.
+~
+~
+0 0 8638
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8614
+S
+#8625
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8622
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8623
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8628
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8624
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8605
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8615
+S
+#8626
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8623
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8627
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8620
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8628
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8606
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8616
+S
+#8627
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8624
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8628
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8621
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8626
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8607
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8617
+S
+#8628
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 N 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8625
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8626
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8622
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8627
+D4
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8608
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8618
+S
+#8630
+Yeni Düþ'e Yol~
+Yumuþak virajlarý olan bir kuzey-güney yolundasýn. Doðunda güneþ ýþýðýnda
+parlayarak akan genç bir nehir var. Batýnda yeþil yapraklar ve eðrelti
+otlarý görüyorsun. Kaldýrýmlý yoldan giderken saðlýklý kaslarýnýn
+sýcaklýðýný hissediyorsun. Çok istiyorsanýz burada ANIMSA diyebilirsiniz.
+~
+0 0 2
+D0
+Bir köy meydaný görüyorsun.
+~
+~
+0 0 8631
+D2
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8611
+S
+#8631
+Yeni Düþ Kasaba Meydaný~
+Yeni Düþ kasabasýnýn çimenle örtülü meydanýndasýn. Güç bir yolculuðun
+ardýndan meþe aðacýnýn yanýnda dinleniyorsun. Sýcak ve okþayýcý bir bahar
+meltemini vücudunda hissediyorsun.
+~
+0 0 2
+D2
+Yeni Düþ'e bir yol görüyorsun.
+~
+~
+0 0 8630
+S
+#8632
+Büyük Dans Salonu~
+Duvarlarý ve yeri oldukça iyi cilalanmýþ büyük bir salondasýn. Üç sýra
+dansçý kadýnlý erkekli yöresel bir oyunu oynuyorlar. Ýki kemancý, bir flütçü
+ve bir harpsikord müziði çalýyor. Dansçýlarýn çýðlýklarýný duyuyorsun.
+Ýstersen ANIMSA diyebilirsin.
+~
+0 0 2
+E
+dansçý dansçýlar~
+Dansçýlar bütün gece buradaydýlar ve þafaða kadar kalmayý düþünüyorlar.
+~
+D3
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8615
+S
+#8634
+Bir Küçük Salon~
+Pürüzlü tahta bir tabana sahip küçük bir salondasýn. Baðýrýp çaðýran bir
+fukaranýn peþine düþmüþ düzinelerce insan görüyorsun. Dur bir dakika. Bu
+adamlarýn hepsi ellerini kaldýrmýþ ve gülümsüyor. Baþlarýndaki kiþi onlara
+bir spiral þeklini aldýrmýþ! Bunlar DANS ediyor. Artýk insanlarýn böyle dans
+etmediðini düþünüyorsun. Ýstersen ANIMSA diyebilirsin.
+~
+0 0 2
+D0
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8617
+S
+#8636
+Gölcüðün yanýndaki yol~
+Bir gölcüðün yanýndan geçiyorsun. Yol kenarýnda bir aðaç kulübe
+görüyorsun. Ýstersen ANIMSA diyebilirsin.
+~
+0 0 2
+E
+kulübe~
+Bir acemi tarafýndan yapýlmýþ.
+~
+D1
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8613
+D3
+Aðaçlarýn ardýnda bir tahta kilise görüyorsun.
+~
+~
+0 0 8637
+S
+#8637
+Eski Aðaç Kilise~
+Salona girince hayatýn boyunca karþýlaþtýðýn en büyük insan kalabalýðýnýn
+içinde buluyorsun kendini. Bu gördüðün en gürültülü ve telaþlý kalabalýk
+ayný zamanda. Salonun önünde bir grup müzisyen bir dans müziði çalýyor.
+~
+0 0 2
+D1
+Gölcüðün yanýndaki yolu görüyorsun.
+~
+~
+0 0 8636
+S
+#8638
+Dað Yolu~
+Bir daðýn sýrtýnda bir yolu takip ediyorsun. Uzak vadiler çevrelemiþ
+aþaðýný, karþýnda ise yalnýz gökyüzü var. Atlý kadýnlar ve erkekler
+görüyorsun. Bir atýn olmasýný isterdin. Ýstersen ANIMSA diyebilirsin.
+~
+0 0 2
+D4
+Birkaç dönüm genç Noel Aðacý görüyorsun.
+~
+~
+0 0 8639
+D5
+Yapay hayaller görüyor, menekþe rengi fosfor tadýyorsun.
+~
+~
+0 0 8624
+S
+#8639
+Noel Aðacý Çiftliði~
+Burasý Dað Yolunun tepesindeki Noel Aðacý Çiftliði. Etrafýnda iðne
+yapraklý koyu yeþil Noel Aðaçlarý duruyor.
+~
+0 0 2
+D5
+Gökyüzüne doðru bir dað sýrtý görüyorsun.
+~
+~
+0 0 8638
+S
+#8699
+Boþluk~
+Serin bir elektrik boþluðunda, saydam bir yerin üzerinde asýlý
+durumdasýn. Bir þey sinirlerini dolduruyor ve algýlarýný karýþtýrýyor.
+Gökyüzü yerle ayný renk. Ufuk çizgisi bulman olanaksýz.
+~
+0 CL 2
+S
+#0
+#RESETS
+R 0 8600   6     	* The Void
+R 0 8601   6     	* The Void
+R 0 8602   6     	* The Void
+R 0 8603   6     	* The Void
+R 0 8604   6     	* The Void
+R 0 8605   6     	* The Void
+R 0 8606   6     	* The Void
+R 0 8607   6     	* The Void
+R 0 8608   6     	* The Void
+R 0 8610   6     	* The Void
+R 0 8611   6     	* The Void
+R 0 8612   6     	* The Void
+R 0 8613   6     	* The Void
+R 0 8614   6     	* The Void
+R 0 8615   6     	* The Void
+R 0 8616   6     	* The Void
+R 0 8617   6     	* The Void
+R 0 8618   6     	* The Void
+R 0 8620   6     	* The Void
+R 0 8621   6     	* The Void
+R 0 8622   6     	* The Void
+R 0 8623   6     	* The Void
+R 0 8624   6     	* The Void
+R 0 8625   6     	* The Void
+R 0 8626   6     	* The Void
+R 0 8627   6     	* The Void
+R 0 8628   6     	* The Void
+M 0 8600   1 8699  1	* the keeper
+O 0 8600  80 8631	* morris bells
+O 0 8601  80 8632	* a morris handkerchief
+O 0 8601  80 8634	* a morris handkerchief
+O 0 8602  80 8637	* a morris sash
+O 0 8603   4 8639	* a morris staff
+S
+#SHOPS
+0
+#SPECIALS
+S
+#$

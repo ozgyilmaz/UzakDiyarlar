@@ -1,0 +1,3397 @@
+#AREA
+semavi_duzlem.are~
+Semavi Düzlem~
+{10 35} Andersen Semavi Düzlem~
+7700 7799
+
+#MOBILES
+#7700
+semavi muhafýz~
+semavi muhafýz~
+Gri bir silüet semavi düzlemin giriþini koruyor.
+~
+Özel bir iþlevden yoksun, düz gri renkli insansý bir þekil görüyorsun.
+Önünde kollarýný baðlamýþ bir þekilde duruyor. Seninle ilgilenmiyor gibi
+görünüyor.
+~
+human~
+ABT DFHN 0 0
+37 0 10d10+1500 18d9+100 3d10+12 none
+-12 -12 -12 5
+EFNU 0 0 0
+stand stand none 5000
+0 0 medium 0
+#7701
+kabus~
+zifiri siyah bir kabus~
+Yanan toynaklarýyla seni tekmelemeye hazýrlanan bir kabus burada
+~
+Ölümlülere iþkence yapmasý için aþaðý diyarlarýn efendileri tarafýndan
+dünyaya gönderilen bu kabus, tamamen kötü bir varlýk. Bu ata benzeyen
+varlýðýn derisinin rengi en karanlýk geceden daha siyah ve toynaklarý
+alevler içinde.
+~
+human~
+AD DJT -950 0
+18 0 3d9+283 9d9+100 2d7+4 none
+-3 -3 -3 7
+EFNU 0 0 0
+stand stand none 300
+0 0 medium 0
+#7702
+gece acuze~
+kötü bir gece acuzesi~
+Bir gece acuzesi ruhunu çalmak için sana uzanýyor.
+~
+Uðursuz efendisine iþkence etmesi için ölümlüleri avlayan ve ruhlarýný
+çalmayý kendine amaç edinmiþ, gölgeli bir yaratýk görüyorsun. Ellerinde uzun
+pençeler ve yüzünde kem bir gülümseme var.
+~
+human~
+ADFR DJ -1000 0
+24 0 5d10+450 24d9+100 4d4+5 none
+-6 -6 -6 2
+FU 0 0 0
+stand stand female 625
+0 0 medium 0
+#7703
+görünmez avcý~
+görünmez bir avcý~
+Havada dalgalý bir bozulma görüyorsun.
+~
+Tek gördüðün, havadaki dalgalý bozulma. Dokunmak için uzanýyorsun ve
+hiçbir þey hissetmiyorsun, en küçük bir hareket bile yok.
+~
+human~
+AD BT 200 0
+17 0 3d9+258 8d9+100 3d4+4 none
+-3 -3 -3 7
+EFNU 0 0 0
+stand stand none 50
+0 0 medium 0
+#7704
+ruhsuz varlýk~
+zavallý, ruhsuz bir varlýk~
+Ruhsuz varlýk bilinçsizce ortalýkta geziniyor
+~
+Bu þanssýz varlýðýn ruhu bedeninden çekip alýnmýþ. Þimdi ise etrafýnda
+olan bitenin farkýnda olmadan etrafta dolaþýyor.
+~
+human~
+A 0 0 0
+10 0 2d7+121 5d9+100 2d4+2 none
+1 1 1 8
+EFNU 0 0 0
+stand stand none 12
+0 0 medium 0
+#7705
+gayomart avcý~
+bir gayomart avcý~
+Bir gayomart avcý githzerainin iþaretlerini arýyor.
+~
+Hemen hemen insan uzunluðunda, buruþuk derili insansý bir yaratýk
+görüyorsun. Tüm gayomartlar gibi, diþleri sivri ve keskin, gözleri çökmüþ ve
+fersiz.
+~
+human~
+ACS DFJP -500 0
+11 0 2d7+121 5d9+100 2d4+2 none
+1 1 1 7
+BEFJNU 0 0 0
+stand stand male 50
+0 0 medium 0
+#7706
+gayomart savaþçý~
+bir gayomart savaþçýsý~
+Güçlendirilmiþ zýrhlar kuþanmýþ insansý bir þekil görüyorsun
+~
+Hemen hemen insan uzunluðunda, buruþuk derili insansý bir yaratýk
+görüyorsun. Tüm gayomartlar gibi, diþleri sivri ve keskin, gözleri çökmüþ ve
+fersiz. Güçlendirilmiþ, süslü zýrhlar ve havada boynuna doðru savrulurken
+ýslýk sesleri çýkaran bir kýlýç kuþanmýþ.
+~
+human~
+A J -500 0
+15 0 3d9+208 7d9+100 2d6+3 none
+-2 -2 -2 7
+EFNU 0 0 0
+stand stand male 125
+0 0 medium 0
+#7707
+gayomart muhafýz~
+bir gayomart muhafýzý~
+Güçlendirilmiþ zýrhlar kuþanmýþ insansý bir þekil yolunu kesiyor.
+~
+Hemen hemen insan uzunluðunda, buruþuk derili insansý bir yaratýk
+görüyorsun. Tüm gayomartlar gibi, diþleri sivri ve keskin, gözleri çökmüþ ve
+fersiz. Güçlendirilmiþ, süslü zýrhlar ve havada boynuna doðru savrulurken
+ýslýk sesleri çýkaran bir kýlýç kuþanmýþ.
+~
+human~
+ABF J -500 0
+15 0 3d9+208 7d9+100 2d6+3 none
+-2 -2 -2 7
+EFNU 0 0 0
+stand stand male 300
+0 0 medium 0
+#7708
+gayomart þövalye~
+bir gayomart þövalyesi~
+Siyah zýrhlar içindeki insansý bir silüet sessizce seni süzüyor
+~
+Normal bir adamdan yaklaþýk bir ayak daha uzun olan buruþuk derili
+insansý bir þekil görüyorsun. Bedensel özellikleri güçlendirilmiþ bir zýrh
+takýmý tarafýndan gizlenmiþ -- sadece nefes alýp veriþini ve kýnýndan
+çekilen bir kýlýcýn sesini duyuyorsun.
+~
+human~
+A J -500 0
+25 0 5d10+550 12d9+100 2d10+7 none
+-7 -7 -7 6
+EFNU 0 0 0
+stand stand male 500
+0 0 medium 0
+#7709
+gayomart koruyucu~
+bir gayomart koruyucusu~
+Siyah bir gayomart þövalyesi kraliçesini koruyor.
+~
+Normal bir adamdan yaklaþýk bir ayak daha uzun olan buruþuk derili
+insansý bir þekil görüyorsun. Bedensel özellikleri güçlendirilmiþ bir zýrh
+takýmý tarafýndan gizlenmiþ -- sadece nefes alýp veriþini ve kýnýndan
+çekilen bir kýlýcýn sesini duyuyorsun.
+~
+human~
+ABF J -500 0
+25 0 5d10+550 12d9+100 2d10+7 none
+-7 -7 -7 6
+EFNU 0 0 0
+stand stand male 500
+0 0 medium 0
+#7710
+gayomart giþ~
+kem bir kiþ~
+Sivri diþleriyle sana sýrýtan kýsa bir gayomart görüyorsun.
+~
+Hemen hemen insan uzunluðunda, buruþuk derili insansý bir yaratýk
+görüyorsun. Tüm gayomartlar gibi, diþleri sivri ve keskin, gözleri çökmüþ ve
+fersiz. Giþler diðer gayomartlardan farklý olarak, büyü sanatlarýnda
+ustadýrlar. Bunu üzerine doðru gelen bir yýldýrýmdan anlayabiliyorsun.
+~
+human~
+AR J -500 0
+11 0 2d7+121 11d9+100 1d7+2 none
+1 1 1 6
+FU 0 0 0
+stand stand male 150
+0 0 medium 0
+#7711
+gayomart giþ~
+kem bir giþ~
+Bir giþ, ellerinden alevler atlarken sana sýrýtýyor.
+~
+Hemen hemen insan uzunluðunda, buruþuk derili insansý bir yaratýk
+görüyorsun. Tüm gayomartlar gibi, diþleri sivri ve keskin, gözleri çökmüþ ve
+fersiz. Giþler diðer gayomartlardan farklý olarak, büyü sanatlarýnda
+ustadýrlar. Bunu üzerine doðru gelen bir yýldýrýmdan anlayabiliyorsun.
+~
+human~
+ACFR J -500 0
+11 0 2d7+121 11d9+100 1d7+2 none
+1 1 1 6
+FU 0 0 0
+stand stand male 150
+0 0 medium 0
+#7712
+gayomart büyücü~
+bir gayomart büyücü~
+Elinde gümüþi renkli bir kýlýç tutan cüppeli bir figür burada duruyor.
+~
+Emen hemen insan uzunluðunda, buruþuk derili insansý bir yaratýk
+görüyorsun. Tüm gayomartlar gibi, diþleri sivri ve keskin, gözleri çökmüþ ve
+fersiz. Kaçmak için arkaný döndüðünde, arkanda bir alev topunun gücünü
+hissediyorsun.
+~
+human~
+AFR DEJ -500 0
+20 0 3d9+308 20d9+100 3d4+4 none
+-4 -4 -4 3
+FU 0 0 0
+stand stand male 500
+0 0 medium 0
+#7713
+gayomart ölü kam kraliçe~
+ölü kam kraliçe~
+Gayomartlarýn kötü kam-kraliçesi seni yoketmek üzere sana uzanýyor
+~
+Gayomartlarýn kam kraliçesi bir zamanlar insanmýþ, fakat artýk deðil.
+Derisi kafatasýnýn etrafýna tamamen çürümüþ ve uðursuz sihir ve bu varlýk
+boyutunun güçleri sayesinde hala bir arada duruyor. Fersiz gözlerindeki buz
+gibi bakýþ seni bir korku nöbeti geçirmeni saðlýyor.
+~
+human~
+ABF DEFHJ -750 0
+30 0 6d12+853 15d9+100 4d6+8 none
+-9 -9 -9 6
+EFNU 0 0 0
+stand stand female 5000
+0 0 medium 0
+#7714
+lord gith~
+lord gith~
+Lord Gith aniden siyah bir bulutun içinden beliriyor, buz gibi ve ölümcül
+gözleriyle doðrudan sana bakýyor.
+~
+Lord Gith, gayomartlarýn zihin-yüzenlerin köleliðinden kurtulup özgürlüðe
+ulaþmasýný saðlayan, onlarýn ölü koruyucusu. Uzun çaðlardýr ölü fakat þimdi,
+ölümlülerin bilgisinin ötesindeki uðursuz anlaþmalar sayesinde, tam önünde
+duruyor. Sana doðru elini uzatýyor. Kalbinin teklemeye baþladýðýný ve
+boynunun sýkýþtýðýný hissetmeye baþlýyorsun. Ölmek üzeresin.
+~
+human~
+ABF BDFHJ -900 0
+35 0 10d10+1300 17d9+100 4d7+11 none
+-11 -11 -11 5
+EFNU 0 0 0
+stand stand male 250
+0 0 medium 0
+#7715
+hayalet~
+güçsüz bir hayalet~
+Tüm yaþamý yok etmeyi amaç edinmiþ bir hayalet ortalýkta geziniyor.
+~
+Hayalet hiç ses çýkarmýyor. Bir daha asla huzur bulamamak üzere
+lanetlenmiþ ve eski benliðinin gölgeli kabuðunun içinde sýkýþmýþ halde
+sonsuza kadar dolaþmaya mahkum edilmiþ. Bu yaratýðýn zihni çektiði
+iþkenceler sonucunda harap olmuþ ve yok edilmiþ, ve þimdi ise sen de dahil
+olmak üzere karþýsýna çýkan tüm gerçekten yaþayan varlýklarý yok etmeyi
+kendine amaç edinmiþ.
+~
+human~
+A JTU -1000 0
+16 0 3d9+233 8d9+100 2d6+4 none
+-2 -2 -2 7
+EFNU 0 0 0
+stand stand none 50
+0 0 medium 0
+#7716
+githzerai mahkum~
+hapsedilmiþ bir githzerai~
+Bir githzerai mahkumu burada, kaçýþ planý kuruyor.
+~
+Ýlgisiz görünen, insansý bir yaratýk görüyorsun. Bu yaratýðýn ýrký,
+zihin-yüzücüler tarafýndan köle olarak alýnan insan ýrkýnýn bir kolu ile
+gayomartlarýn iliþkisinden meydana gelmiþ. Fakat malesef ki insanlar ve
+gayomartlar düþman olduklarýndan, bu kiþi burada esir düþmüþ durumda.
+Kaçmayý düþünüyor gibi.
+~
+human~
+A J -250 0
+10 0 2d7+121 5d9+100 2d4+2 none
+1 1 1 8
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+#7717
+zihinyüzücü mahkum~
+iþkence görmüþ bir zihinyüzücü mahkumu~
+Gördüðü iþkencelerin yaralarýyla kaplý bir zihinyüzücü burada yatýyor.
+~
+Kafasýnýn ortasýndan ahtapot koluna benzer dört tane kol çýkan, bir
+zamanlar uzun boylu olduðunu tahmin ettiðin insansý bir yaratýk görüyorsun.
+Kamburu çýkmýþ, her tarafý gayomartlar tarafýndan gördüðü iþkenceler
+yüzünden yara bere ile kaplý. Seni görünce köþeye siniyor.
+~
+human~
+ABR 0 0 0
+8 0 2d6+85 8d9+100 1d6+1 none
+4 4 4 7
+FU 0 0 0
+stand stand none 0
+0 0 medium 0
+#7718
+ejderha kýrmýzý köle~
+köle edilmiþ bir kýrmýzý ejderha~
+Nefesiyle fýrýný ýsýtan kýrmýzý, dev bir ejderha buraya zincirlenmiþ
+~
+Pullu bir derisi olan bu güçlü canavar, kalenin sakinleri tarafýndan
+sihirle baðlanmýþ ve boyunduruk altýna alýnmýþ. Yine de hala inanýlmaz
+heybetli bir görüntüsü var. Boyu neredeyse beþ veya altý metreyi buluyor ve
+bir o kadar da geniþ bir kanat açýklýðý var. Açýk aðzýndan dumanlar
+süzülürken seni izliyor.
+~
+dragon~
+ABR D -400 0
+28 0 5d10+650 28d9+100 2d10+7 none
+-8 -8 -8 1
+FR 0 0 0
+stand stand male 250
+0 0 medium 0
+#7719
+ateþ fýrýn alev~
+büyük bir ateþ patlamasý~
+Fýrýnýn alevleri derini yakýyor!
+~
+Ateþ canlýymýþçasýna derinle besleniyor ve saçlarýnýn arasýný yalayarak
+geçiyor.
+~
+human~
+ABDF J 0 0
+13 0 2d10+170 6d9+100 2d5+3 none
+-1 -1 -1 8
+EFNU 0 0 0
+stand stand none 250
+0 0 medium 0
+#0
+#OBJECTS
+#7700
+balyoz gri~
+aðýr, gri bir balyoz~
+Yerde duran bir balyoz, aðýrlýyla yeri çatlatmýþ~
+iron~
+weapon JK AN
+mace 4 10 crush 0
+38 350 5200 P
+A
+19 6
+A
+18 -2
+A
+2 -1
+E
+balyoz gri~
+Bu gri renkli balyoz oldukça sert ve aðýr.
+~
+#7701
+parþömen menekþe~
+menekþe renkli bir parþömen~
+Menekþe renkli, kývrýlmýþ bir parþömen burada duruyor.~
+paper~
+scroll I A
+15 'armor' 'bless' 'shield' ''
+11 10 1510 P
+E
+parþömen menekþe~
+Parþömen, çok hoþ bir kokusu olan, yumuþak, menekþe renkli bir kaðýda
+yazýlmýþ.
+~
+#7702
+tablet parþömen siyah~
+siyah, kazýnmýþ bir tablet~
+Simsiyah taþtan kazýnmýþ bir tablet yerde duruyor.~
+stone~
+scroll E A
+30 'summon' 'charm person' '' ''
+32 50 2100 P
+E
+tablet parþömen siyah~
+Üzerine garip yazýlar kazýnmýþ, simsiyah, dörtgen bir tablet.
+~
+#7703
+parþömen gayomart~
+üzerinde gayomart yazýlarý olan bir parþömen~
+Yabancý bir dille yazýlmýþ bir parþömen görüyorsun.~
+paper~
+scroll 0 A
+24 'lightning bolt' 'lightning bolt' '' ''
+7 10 1240 P
+E
+parþömen gayomart~
+Üzerinde anlamadýðýn bir dilde yazýlar olan bir parþömen.
+~
+#7704
+kolye iblis~
+küçük bir iblis kolyesi~
+Küçük bir kolye burada tozlar arasýnda duruyor.~
+ebony~
+wand EH AO
+25 5 5 'energy drain' 0
+11 50 2600 P
+A
+4 -1
+A
+3 -1
+E
+kolye iblis~
+Garip bir metal alaþýmýndan yapýlmýþ dairesel bir kolye. Kolyenin üzerine
+çeþitli semboller, yýlanlar, iþkenceye maruz kalan kurbanlar ve
+anlatýlmayacak dehþette resimler iþlenmiþ. Merkezinde ise söylenmesi güç
+hatta içindeki bir hisse göre söylenmemesi gereken bir isim kazýnmýþ.
+~
+#7705
+týlsým þeytani~
+þeytani bir týlsým~
+Yerde neredeyse somut bir kötülük yayan bir týlsým duruyor.~
+copper~
+staff EH AO
+25 6 5 'flamestrike' 0
+14 50 5300 P
+A
+13 -10
+E
+týlsým þeytani~
+Metal bir zincirden sarkan, kýrmýzý, dairesel bir taþtan yapýlmýþ bir
+týlsým. Kendine ait bir yaþamý varmýþçasýna, bir nabýz gibi atýyor ve ona
+yakýn olan herhangi bir yerde kendini rahat hissetmiyorsun. Tam merkezine
+bir kelime kazýnmýþ ve bu kelimeyi okumak bile korkmana yetiyor.
+~
+#7706
+býçak gümüþi~
+gümüþi renkte bir býçak~
+Geniþ aðýzlý gümüþi renkte bir býçak burada duruyor.~
+iron~
+weapon 0 AN
+dagger 2 4 stab 0
+6 30 480 P
+A
+19 1
+A
+18 1
+E
+býçak gümüþi~
+Býçak, kendi dünyanda hiç görmediðin, tuhaf, gümüþi bir metalden
+dövülmüþ. Oldukça sert ve keskin, fakat dokununca bir o kadar da sývý bir
+hissi var.
+~
+#7707
+hançer gümüþi~
+gümüþi renkte bir hançer~
+Keskin görünen gümüþi bir hançer yerde duruyor.~
+silver~
+weapon 0 AN
+dagger 3 6 pierce 0
+13 30 980 P
+A
+19 2
+A
+18 2
+E
+hançer gümüþi~
+Hançer, kendi dünyanda hiç görmediðin, tuhaf, gümüþi bir metalden
+dövülmüþ. Oldukça sert ve keskin, fakat dokununca bir o kadar da sývý bir
+hissi var.
+~
+#7708
+kýlýç ince~
+aþýrý keskin ve ince bir kýlýç~
+Kenarlarý ýþýkla parýldayan jilet gibi keskin bir kýlýç yerde duruyor.~
+steel~
+weapon 0 AN
+sword 4 4 slice 0
+16 30 2300 P
+A
+19 3
+A
+18 1
+A
+2 1
+E
+kýlýç ince~
+Kýlýç, tuhaf, gümüþi bir metalden dövülmüþ. En geniþ noktasýnda bile en
+fazla birkaç santim kalýnlýðýnda olmasýna raðmen kesinlikle esneyebilir bir
+yapýya sahip deðil. Bu jilet keskinkiðindeki kýlýç muhtemelen bir taþý bile
+kesebilir.
+~
+#7709
+kýlýç ince çift~
+ince bir çift-elli kýlýç~
+Aðýr olduðu kadar ince býçaklý bir çift-elli kýlýç yerde duruyor.~
+iron~
+weapon 0 AN
+sword 3 10 slash F
+24 160 2600 P
+A
+19 2
+A
+18 1
+E
+kýlýç ince çift~
+Kýlýç, tuhaf, gümüþi bir metalden dövülmüþ. En geniþ noktasýnda bile en
+fazla birkaç santim kalýnlýðýnda olmasýna raðmen kesinlikle esneyebilir bir
+yapýya sahip deðil. Bu jilet keskinkiðindeki kýlýç muhtemelen bir taþý bile
+kesebilir.
+~
+#7710
+kýlýç gümüþi~
+gümüþi bir kýlýç~
+Tuhaf ve alýþýlmamýþ bir ýþýk yayan gümüþi renkli bir kýlýç yerde duruyor.~
+silver~
+weapon A AN
+sword 5 5 slash F
+19 130 4600 P
+A
+19 2
+A
+2 2
+E
+sword silvery~
+Kýlýç, kendi dünyanda hiç görmediðin, tuhaf, gümüþi bir metalden
+dövülmüþ. Oldukça sert ve keskin, fakat dokununca bir o kadar da sývý bir
+hissi var.
+~
+#7711
+döven dikenli demir~
+dikenli demir bir döven~
+Üzerinde uðursuz dikenler olan paslý demir bir döven yerde duruyor.~
+iron~
+weapon BE AN
+flail 6 6 claw 0
+29 140 2800 P
+A
+18 3
+A
+19 3
+E
+döven dikenli demir~
+Bu korkunç silah pek çok can almýþ. Bunu demirin üzerindeki kan
+lekelerinden ve üzerindeki birçok dikene yapýþmýþ et parçalarýndan
+anlayabiliyorsun.
+~
+#7712
+kýlýç gayomart çift~
+gayomartlarýn lanetli kýlýcý~
+Kötülük sarmaþýklarý yayan uðursuz bir kýlýç yerde duruyor.~
+iron~
+weapon EHM AN
+sword 9 3 slash F
+31 250 5100 P
+A
+18 5
+A
+4 -1
+A
+3 -1
+A
+19 2
+A
+1 1
+E
+kýlýç gayomart~
+Bu kýlýcýn býçaðý düz gri. Fakat dokunur dokunmaz ruhuna ulaþmaya çalýþan
+kem bir varlýk hissediyorsun. Belki de bunu almak o kadar da iyi bir fikir
+deðildi.
+~
+#7713
+taþ yanan~
+parlak yanan bir taþ~
+Oda küçük bir taþtan gelen ýþýkla aydýnlanýyor~
+stone~
+light 0 AO
+0 0 -1 0 0
+20 10 1440 P
+A
+20 -2
+A
+17 -2
+E
+taþ yanan~
+Oldukça fazla ýsý yayan bir taþ, fakat elinde tutmakta zorlanmýyorsun.
+Taþýn yaydýðý ýþýk metrelerce uzaðý bile aydýnlatýyor.
+~
+#7714
+toz semavi~
+semavi tozlar~
+Parýldayan tozlar gözlerinin önünde süzülüyor.~
+sulfur~
+treasure 0 A
+0 0 0 0 0
+0 10 100 P
+E
+toz semavi~
+Semavi düzlemin tortularý.
+~
+#7715
+güçlendirilmiþ yelek~
+güçlendirilmiþ bir yelek~
+Karmaþýk þekillerle iþlenmiþ bir güçlendirilmiþ yelek burada duruyor.~
+wood~
+armor 0 AD
+6 6 6 0 0
+15 450 2100 P
+E
+güçlendirilmiþ yelek~
+Bu yelek en kaliteli çelikten, ustaca ve özenle iþlenmiþ.
+~
+#7716
+güçlendirilmiþ etek~
+güçlendirilmiþ bir etek~
+Karmaþýk þekillerle iþlenmiþ bir güçlendirilmiþ etek burada duruyor.~
+wood~
+armor 0 AF
+7 7 7 0 0
+20 200 1450 P
+E
+güçlendirilmiþ etek~
+Bu etek en saðlam çelikten, ustaca ve özenle iþlenmiþ
+~
+#7717
+güçlendirilmiþ kolluk~
+bir çift güçlendirilmiþ kolluk~
+Karmaþýk þekillerle iþlenmiþ bir çift kolluk burada duruyor~
+wood~
+armor 0 AI
+7 7 7 0 0
+20 150 1450 P
+E
+güçlendirilmiþ kolluk~
+Kolluklar en saðlam çelikten, ustaca ve özenle iþlenmiþ.
+~
+#7718
+eldiven süslü~
+bir çift süslü eldiven~
+Özenle tasarlanmýþ bir çift süslü eldiven burada duruyor~
+iron~
+armor 0 AH
+7 7 7 0 0
+20 50 2700 P
+A
+19 1
+A
+18 1
+A
+1 1
+E
+eldiven süslü~
+Eldivenler en saðlam çelikten, ustaca ve özenle iþlenmiþ.
+~
+#7719
+yelek çatlak deri~
+çatlak deriden yapýlmýþ çürüyen bir yelek~
+Bir parça çürüyen deri burada býrakýlmýþ~
+leather~
+armor 0 AD
+9 9 9 2 0
+31 50 8500 P
+A
+20 -2
+A
+17 -6
+E
+yelek çatlak deri~
+Bu eskimiþ yelek kýsmen bozulmamýþ halde. Derinin tümü çatlamýþ ve
+kuruyarak kabuk baðlamýþ. Yeleðin üzeri lekeler, yanýklar, çizikler ve kan
+izleriyle kaplý.
+~
+#7720
+iksir menekþe~
+menekþe renkli bir iksir~
+Ýçinde yarýsaydam, menekþe renkli bir sývý olan uzun, ince bir þiþe burada duruyor.~
+glass~
+potion 0 A
+18 'invisibility' 'protection evil' 'detect evil' ''
+2 20 320 P
+E
+iksir menekþe~
+Þiþedeki menekþe renkli sývý kýpýrdanýyor gibi.
+~
+#7721
+iksir þiþe bulanýk~
+bulanýk renkli bir þiþe~
+Ýçinde bulanýk çamur renkli bir karýþým olan küçük bir þiþe burada duruyor.~
+glass~
+potion 0 A
+15 'blindness' 'shield' '' ''
+10 10 760 P
+E
+iksir þiþe bulanýk~
+Þiþenin içindeki bulanýk sývý laðým suyu gibi görünüyor.
+~
+#7722
+iksir gümüþi~
+gümüþi renkli bir iksir~
+Ýçinde ýþýk yansýtan gümüþi renkli bir sývý olan sekiz kenarlý bir þiþe burada duruyor.~
+glass~
+potion 0 A
+20 'detect invis' 'detect magic' 'detect poison' ''
+1 20 320 P
+E
+iksir gümüþi~
+Sekiz kenarlý þiþenin içinde ýþýkta titreþen gümüþi renkli bir sývý
+duruyor.
+~
+#7723
+nane þeker~
+lezzetli görünen bir nane þekeri~
+Birileri oldukça lezzetli görünen bir nane þekerini buraya düþürmüþ~
+chocolate~
+pill 0 A
+35 'refresh' 'heal' '' ''
+11 0 990 P
+E
+nane þeker~
+Oldukça lezzetli görünen bu nane þekerinin ferahlatýcý bir kokusu var.
+~
+#7724
+pentagram~
+siyah bir pentagram~
+Siyah metalden yapýlmýþ küçük bir pentagram buraya býrakýlmýþ.~
+blackmoor~
+key F AO
+0 0 0 0 0
+0 100 0 P
+E
+pentagram~
+Bir çemberin içindeki beþ köþeli bir yýldýz. Çemberin üzerine yabancý bir
+dilde kazýnmýþ kelimeler var.
+~
+#7725
+kese çürüyen~
+çürüyen bir kese~
+Çürüyen bir kese yerde duruyor.~
+none~
+money 0 A
+100 0 0 0 0
+0 10 0 P
+E
+kese çürüyen~
+Kesenin üzerindeki deliklerden galiba metalin ýþýldamalarýný görüyorsun.
+~
+#0
+
+
+
+#ROOMS
+#7700
+Gökkuþaðý'nýn Dibi~
+Göklere doðru uzanan, titrek bir ýþýkla parýldayan bir gökkuþaðýnýn
+önünde duruyorsun. Nasýl olduðunu anlamadan doðal dünyadan ayrýlmýþ gibi
+hissediyorsun, tapýnaðýn sivri kulesi bile sadece birkaç metre aþaðýnda
+duruyor.
+~
+0 0 1
+E
+gökkuþaðý~
+Gökkuþaðý, ýþýðýn kýrýlan renklerinden oluþturduðu ýþýnlarla parýldýyor.
+~
+D4
+Gökkuþaðý, yukarýya doðru devam ediyor, sadece metreler sonra varlýðý
+siliniyor.
+~
+~
+0 -1 7701
+D5
+Aþaðýda Selenge Tapýnaðý'ný görebiliyorsun.
+~
+~
+0 -1 1036
+S
+#7701
+Gökkuþaðý'nda~
+Rengarenk ýþýklarla çevrelenmiþ bir biçimde, gökkuþaðýnýn üzerinde
+duruyorsun. Gökkuþaðýnýn dibine doðru, þimdi oldukça uzakta olan Selenge
+Tapýnaðý'ný kýsmen seçebiliyorsun.
+~
+0 0 5
+E
+gökkuþaðý~
+Gökkuþaðý, ýþýðýn kýrýlan renklerinden oluþturduðu ýþýnlarla parýldýyor.
+~
+D4
+Gökkuþaðý yukarýya devam ediyor ve yavaþça karanlýða karýþýyor.
+~
+~
+0 -1 7702
+D5
+Gökkuþaðý aþaðýya, Selenge'ye doðru devam ediyor.
+~
+~
+0 -1 7700
+S
+#7702
+Gökkuþaðý'nda~
+Rengarenk ýþýklarla çevrelenmiþ bir biçimde, gökkuþaðýnýn üzerinde
+duruyorsun. Gökkuþaðýnýn dibine doðru, kilometrelerce aþaðýda görünen
+Selenge Þehri'ni ve etrafýný görebiliyorsun.
+~
+0 0 5
+E
+gökkuþaðý~
+Gökkuþaðý, ýþýðýn kýrýlan renklerinden oluþturduðu ýþýnlarla parýldýyor.
+~
+D4
+Gökkuþaðý yukarýya devam ediyor ve yavaþça karanlýða karýþýyor.
+~
+~
+0 -1 7703
+D5
+Gökkuþaðý aþaðýya, evin olarak bildiðin diyara devam ediyor.
+~
+~
+0 -1 7701
+S
+#7703
+Gökkuþaðý'nda~
+Rengarenk ýþýklarla çevrelenmiþ bir biçimde, gökkuþaðýnýn üzerinde
+duruyorsun. Gökkuþaðý, yukarýya ve aþaðýya doðru alabildiðine uzanýyor.
+~
+0 0 5
+E
+gökkuþaðý~
+Gökkuþaðý, ýþýðýn kýrýlan renklerinden oluþturduðu ýþýnlarla parýldýyor.
+~
+D4
+Gökkuþaðý yukarýya doðru devam ediyor. Sonuna doðru parlayan, beyaz bir
+ýþýk görüyorsun
+~
+~
+0 -1 7704
+D5
+Gökkuþaðý aþaðya doðru devam ederek karanlýða karýþýyor
+~
+~
+0 -1 7702
+S
+#7704
+Gökkuþaðý'nda~
+Gökkuþaðý'nýn sonuna yaklaþýyorsun. Rengarenk ýþýk huzmeleri birleþmeye
+ve yoðunlaþmaya baþlýyor. Etrafta her yerde yýldýzýmsý, parlayan toz
+zerrecikler var. Yukarýya doðru ise bir köprü devam ediyor.
+~
+0 0 5
+D4
+Gökkuþaðý yukarýya doðru devam ediyor ve ýþýk huzmeleri birleþerek ýþýl
+ýþýl parlayan bir köprüye dönüþüyor.
+~
+~
+0 -1 7705
+D5
+Gökkuþaðý aþaðýya doðru devam ederek karanlýða karýþýyor
+~
+~
+0 -1 7703
+E
+köprü~
+Gökkuþaðýnýn renkleri, büyük, beyaz bir kapýya doðru giden, parlak bir
+köprüye doðru birleþiyor.
+~
+E
+zerre yýldýz toz~
+Yýldýzýmsý zerrecikler gözlerinin önünde dansediyorlar. Ýnanýlmaz
+güzeller ve bir o kadar da gerçek dýþý görünüyorlar -ellerin, aralarýndan
+geçiyor-
+~
+E
+gökkuþaðý~
+Gökkuþaðý, gözlerinin önünde, onlarý kör edercesine, birbirine karýþan ve
+birleþen ýþýklarla parlýyor.
+~
+S
+#7705
+Gökkuþaðý'nýn sonundaki parlayan köprü~
+Uzun bir týrmanýþtan sonra gökuþaðýnýn sonuna eriþtin. Gözalýcý renkler
+birleþerek, kuzeydeki büyük, beyaz kapýya giden çok güzel bir köprü
+oluþturuyorlar. Etrafýn tamamen yumuþak, huzur dolu, sadece uçuþan
+yýldýzýmsý zerreler tarafýndan parlaklýðý engellenen bir ýþýklar sarýlý.
+~
+0 0 1
+D0
+Köprü ,büyük, beyaz bir kapýya doðru devam ediyor. O tarafta ayakta duran
+gri bir figür görüyorsun.
+~
+~
+0 -1 7706
+D5
+Köprü, çok güzel renkleri olan bir ýþýk tayfýyla aþaðýya doðru
+alabildiðine uzanýyor.
+~
+~
+0 -1 7704
+E
+kapý~
+Ötesinde ise ilerilerdeki ýþýk zerreciklerinin yayýldýðý yerlerden,
+mutlak bir karanlýk var.
+~
+E
+köprü~
+Köprü bu dünyaya ait olmayan bir ýþýkla parýldýyor.
+~
+E
+gökkuþaðý~
+Gökkuþaðý, köprüden çýkýyormuþ gibi görünüyor ve aþaðýya doðru görüþ
+alanýndan çýkýyor.
+~
+E
+zerre yýldýz toz~
+Yýldýzýmsý zerrecikler gözlerinin önünde dansediyorlar. Ýnanýlmaz
+güzeller ve bir o kadar da gerçek dýþý görünüyorlar -ellerin, aralarýndan
+geçiyor-
+~
+S
+#7706
+Semavi Kapý~
+Köprü, ötesinde gümüþi, yýlansý sarmaþýklar, yýldýzlar ve arasýra görülen
+ýþýk patlamalarý olan karanlýk bir düzlüðün görülebildiði, inci renkli,
+büyük bir kapýnýn önünde sona eriyor.
+~
+0 0 1
+E
+kapý~
+Kocaman, oldukça sert ve yarýsaydam bir maddeden dövülmüþ, parlayan bir
+kapý görüyorsun. Bu kapýyý oluþturan, incelikle oyulmuþ karmaþýk
+parmaklýklarýn herbirinin kalýnlýðý neredeyse bir adamýn bileði kadar. Kapý
+yaklaþýk on-oniki metre uzunluðunda. Kapýnýn bir tarafýndaki duvarlardan
+birine bir plaka asýlmýþ.
+~
+E
+plaka~
+Plakada þu yazýyor; "Bu kapý, ölümlü insanlarý varlýðýn dýþ boyutlarýnýn
+tehlikelerinden ve güzel ya da çirkin olan tüm sakinlerinden sonsuza kadar
+korumak için burada bulunsun." (Semavi Kapý ve Gayomart Kalesi (Astral
+Plane, Githyanki Keep) Andersen tarafýndan yazýlmýþtýr ve Uzak Diyarlar için
+Lirac tarafýndan Türkçe'ye çevrilmiþtir)
+~
+D0
+Kapýnýn içinden, alabildiðine uzanan büyük bir karanlýk düzlüðü görüyorsun.
+~
+gate~
+1 -1 7707
+D2
+Köprü gökkuþaðýna doðru devam ediyor ve aþaðýya doðru gözden kayboluyor.
+~
+~
+0 -1 7705
+S
+#7707
+Semavi Düzlem'in Ýçine Doðru~
+Kapýdan içeriye, ve baþka bir gerçekliðe adým attýn. Kendini gümüþi ýþýk
+sarmaþýklarýyla ve kýrýlgan, parlak toz zerrecikleriyle dolu karanlýk bir
+düzlükte süzülür halde buluyorsun. Ortamýn aðýrlýksýzlýðý kafaný karýþtýyor,
+lakin güneydeki kapýdan geriye dönmek için hala geç kalmýþ deðilsin.
+~
+0 C 2
+E
+kapý~
+Buradan inci renkli kapýlar çok küçük ve güçsüz görünüyor. Parmaklýklarýn
+arasýndan Semavi Koruyucu'yu görüyorsun, dünyaný varlýðýn dýþ boyutlarýnýn
+tehlikelerinden koruyor.
+~
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7708
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7709
+D2
+Semavi kapý geldiðin dünyaya açýlýyor.
+~
+gate~
+1 -1 7706
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7710
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7711
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7712
+S
+#7708
+Semavi Düzlem'de Keþif~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk düzlüðünde süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý kafaný karýþtýyor, nerede olduðunu ayýrt etmekte ve yön
+algýna sahip olmakta zorlanýyorsun.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7713
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7710
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7707
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7712
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7714
+S
+#7709
+Semavi Düzlem'de Keþif~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk düzlüðünde süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý kafaný karýþtýyor, nerede olduðunu ayýrt etmekte ve yön
+algýna sahip olmakta zorlanýyorsun.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7714
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7716
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7707
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7710
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7711
+S
+#7710
+Semavi Düzlem'de Keþif~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk bir düzlükte süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý kafaný karýþtýyor, nerede olduðunu ayýrt etmekte ve yön
+algýna sahip olmakta zorlanýyorsun.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7715
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7707
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7708
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7713
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7709
+S
+#7711
+Semavi Düzlem'de Keþif~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk bir düzlükte süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý kafaný karýþtýyor, nerede olduðunu ayýrt etmekte ve yön
+algýna sahip olmakta zorlanýyorsun.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7716
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7712
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7717
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7709
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7707
+S
+#7712
+Semavi Düzlem'de Keþif~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk bir düzlükte süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý kafaný karýþtýyor, nerede olduðunu ayýrt etmekte ve yön
+algýna sahip olmakta zorlanýyorsun.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7717
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7708
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7711
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7707
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7715
+S
+#7713
+Semavi Düzlem'de Gezinti~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk düzlüðünde süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý kýsmen kafa karýþtýrýcý. Tüm çýkýþlar semavi düzlüklere
+gidiyor.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7718
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7715
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7708
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7720
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7714
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7710
+S
+#7714
+Semavi Düzlem'de Gezinti~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk düzlüðünde süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý kýsmen kafa karýþtýrýcý. Tüm çýkýþlar semavi düzlüklere
+gidiyor.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7719
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7717
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7709
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7718
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7708
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7713
+S
+#7715
+Semavi Düzlem'de Gezinti~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk düzlüðünde süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý kýsmen kafa karýþtýrýcý, buna raðmen içgüdülerin eve yakýn
+olduðunu söylüyor. Tüm çýkýþlar semavi düzlüklere gidiyor.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7720
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7722
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7710
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7713
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7712
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7716
+S
+#7716
+Semavi Düzlem'de Gezinti~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk düzlüðünde süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý kýsmen kafa karýþtýrýcý, buna raðmen içgüdülerin eve yakýn
+olduðunu söylüyor. Tüm çýkýþlar semavi düzlüklere gidiyor.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7721
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7719
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7711
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7709
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7715
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7717
+S
+#7717
+Semavi Düzlem'de Gezinti~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk düzlüðünde süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý kýsmen kafa karýþtýrýcý, buna raðmen içgüdülerin eve yakýn
+olduðunu söylüyor. Tüm çýkýþlar semavi düzlüklere gidiyor.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7722
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7711
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7712
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7714
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7716
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7721
+S
+#7718
+Semavi Düzlem'de Dolaþýrken~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk düzlüðünde süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý oldukça kafa karýþtýrýcý. Yakýnda gümüþi ýþýktan bir kordon
+görüyorsun.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7709
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7714
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7713
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7719
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7733
+D5
+Gümüþi ýþýktan bir kordon görüyorsun.
+~
+~
+0 -1 7736
+S
+#7719
+Semavi Düzlem'de Dolaþýrken~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk düzlüðünde süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý oldukça kafa karýþtýrýcý. Yakýnda gümüþi ýþýktan bir kordon
+görüyorsun. Çýkýþlardan çoðu semavi düzlüklere uzanýyor.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7710
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7718
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7714
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7716
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7734
+D5
+Gümüþi ýþýktan bir kordon görüyorsun.
+~
+~
+0 -1 7738
+S
+#7720
+Semavi Düzlem'de Dolaþýrken~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk düzlüðünde süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý oldukça kafa karýþtýrýcý. Yakýnda gümüþi ýþýktan bir kordon
+görüyorsun. Çýkýþlarýn çoðu semavi düzlüklere uzanýyor.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7711
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7713
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7715
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7721
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7735
+D5
+Gümüþi ýþýktan bir kordon görüyorsun.
+~
+~
+0 -1 7740
+S
+#7721
+Semavi Düzlem'de Dolaþýrken~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk düzlüðünde süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý oldukça kafa karýþtýrýcý. Yakýnda gümüþi ýþýktan bir kordon
+görüyorsun. Çýkýþlarýn çoðu semavi düzlüklere uzanýyor.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7712
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7720
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7716
+D3
+Gümüþi ýþýktan bir kordon görüyorsun.
+~
+~
+0 -1 7742
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7717
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7733
+S
+#7722
+Semavi Düzlem'de Dolaþýrken~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk düzlüðünde süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý oldukça kafa karýþtýrýcý. Yakýnda gümüþi ýþýktan bir kordon
+görüyorsun. Çýkýþlarýn çoðu semavi düzlüklere uzanýyor.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7712
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7717
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7715
+D4
+Gümüþi ýþýktan bir kordon görüyorsun.
+~
+~
+0 -1 7744
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7734
+S
+#7723
+Semavi Düzlem'de Seyahat~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk düzlüðünde süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý gerçekten kafa karýþtýrýcý. Yakýnda gümüþi ýþýktan bir kordon
+görüyorsun. Çýkýþlarýn çoðu semavi düzlüklere uzanýyor.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7724
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7728
+D2
+Gümüþi ýþýktan bir kordon görüyorsun.
+~
+~
+0 -1 7737
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7726
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7732
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7735
+S
+#7724
+Semavi Düzlem'de Seyahat~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk düzlüðünde süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý gerçekten kafa karýþtýrýcý. Yakýnda gümüþi ýþýktan bir kordon
+görüyorsun. Çýkýþlarýn çoðu semavi düzlüklere uzanýyor.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7725
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7729
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7723
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7733
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7730
+D5
+Gümüþi ýþýktan bir kordon görüyorsun.
+~
+~
+0 -1 7739
+S
+#7725
+Semavi Düzlem'de Seyahat~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk düzlüðünde süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý gerçekten kafa karýþtýrýcý. Yakýnda gümüþi ýþýktan bir kordon
+görüyorsun. Çýkýþlarýn çoðu semavi düzlüklere uzanýyor.
+~
+0 0 2
+D0
+Gümüþi ýþýktan bir kordon görüyorsun.
+~
+~
+0 -1 7741
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7727
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7724
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7734
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7728
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7730
+S
+#7726
+Semavi Düzlem'de Seyahat~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk düzlüðünde süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý gerçekten kafa karýþtýrýcý. Yakýnda gümüþi ýþýktan bir kordon
+görüyorsun. Çýkýþlarýn çoðu semavi düzlüklere uzanýyor.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7731
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7723
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7727
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7735
+D4
+Gümüþi ýþýktan bir kordon görüyorsun.
+~
+~
+0 -1 7743
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7729
+S
+#7727
+Semavi Düzlem'de Seyahat~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlak toz
+zerrecikleriyle dolu karanlýk düzlüðünde süzülür halde buluyorsun. Ortamýn
+aðýrlýksýzlýðý gerçekten kafa karýþtýrýcý. Yakýnda gümüþi ýþýktan bir kordon
+görüyorsun. Çýkýþlarýn çoðu semavi düzlüklere uzanýyor.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7726
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7732
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7733
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7725
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7731
+D5
+Gümüþi ýþýktan bir kordon görüyorsun.
+~
+~
+0 -1 7744
+S
+#7728
+Semavi Düzlem'in Ýçinde~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlayan toz
+zerrecikleriyle dolu kara düzlüðün derinlerinde buluyorsun. Ortamýn
+aðýrlýksýzlýðý gerçekten kafa karýþtýrýcý ve yön algýna hakim olmakta
+zorlanýyorsun. Tüm çýkýþlar semavi düzlüklere uzanýyor.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7709
+D1
+Semavi düzlük derinlere doðru uzanýyor.
+~
+~
+0 -1 7747
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7734
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7723
+D4
+Semavi düzlük derinlere doðru uzanýyor.
+~
+~
+0 -1 7745
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7725
+S
+#7729
+Semavi Düzlem'in Ýçinde~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlayan toz
+zerrecikleriyle dolu kara düzlüðün derinlerinde buluyorsun. Ortamýn
+aðýrlýksýzlýðý gerçekten kafa karýþtýrýcý ve yön algýna hakim olmakta
+zorlanýyorsun. Tüm çýkýþlar semavi düzlüklere uzanýyor.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7730
+D1
+Semavi düzlük derinlere doðru uzanýyor.
+~
+~
+0 -1 7749
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7735
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7724
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7726
+D5
+Semavi düzlük derinlere doðru uzanýyor.
+~
+~
+0 -1 7746
+S
+#7730
+Semavi Düzlem'in Ýçinde~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlayan toz
+zerrecikleriyle dolu kara düzlüðün derinlerinde buluyorsun. Ortamýn
+aðýrlýksýzlýðý gerçekten kafa karýþtýrýcý ve yön algýna hakim olmakta
+zorlanýyorsun. Tüm çýkýþlar semavi düzlüklere uzanýyor.
+~
+0 0 2
+D0
+Semavi düzlük derinlere doðru uzanýyor.
+~
+~
+0 -1 7747
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7733
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7729
+D3
+Semavi düzlük derinlere doðru uzanýyor.
+~
+~
+0 -1 7745
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7725
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7724
+S
+#7731
+Semavi Düzlem'in Ýçinde~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlayan toz
+zerrecikleriyle dolu kara düzlüðün derinlerinde buluyorsun. Ortamýn
+aðýrlýksýzlýðý gerçekten kafa karýþtýrýcý ve yön algýna hakim olmakta
+zorlanýyorsun. Tüm çýkýþlar semavi düzlüklere uzanýyor.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7732
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7734
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7726
+D3
+Semavi düzlük derinlere doðru uzanýyor.
+~
+~
+0 -1 7748
+D4
+Semavi düzlük derinlere doðru uzanýyor.
+~
+~
+0 -1 7746
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7727
+S
+#7732
+Semavi Düzlem'in Ýçinde~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlayan toz
+zerrecikleriyle dolu kara düzlüðün derinlerinde buluyorsun. Ortamýn
+aðýrlýksýzlýðý gerçekten kafa karýþtýrýcý ve yön algýna hakim olmakta
+zorlanýyorsun. Tüm çýkýþlar semavi düzlüklere uzanýyor.
+~
+0 0 2
+D0
+Semavi düzlük derinlere doðru uzanýyor.
+~
+~
+0 -1 7749
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7735
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7731
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7727
+D4
+Semavi düzlük derinlere doðru uzanýyor.
+~
+~
+0 -1 7748
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7723
+S
+#7733
+Semavi Düzlem'de Kayboluþ~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlayan toz
+zerrecikleriyle dolu karanlýk bir düzlükte buluyorsun. Ortamýn
+aðýrlýksýzlýðý inanýlmaz derecede kafa karýþtýrýcý ve tüm hislerine hakim
+olmakta zorlanýyorsun. Tüm çýkýþlar semavi düzlüklere uzanýyor.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7727
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7724
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7730
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7721
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7718
+S
+#7734
+Semavi Düzlem'de Kayboluþ~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlayan toz
+zerrecikleriyle dolu karanlýk bir düzlükte buluyorsun. Ortamýn
+aðýrlýksýzlýðý inanýlmaz derecede kafa karýþtýrýcý ve tüm hislerine hakim
+olmakta zorlanýyorsun. Tüm çýkýþlar semavi düzlüklere uzanýyor.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7728
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7725
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7731
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7722
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7719
+S
+#7735
+Semavi Düzlem'de Kayboluþ~
+Kendini gümüþi ýþýk sarmaþýklarýyla ve kýrýlgan, parlayan toz
+zerrecikleriyle dolu karanlýk bir düzlükte buluyorsun. Ortamýn
+aðýrlýksýzlýðý inanýlmaz derecede kafa karýþtýrýcý ve tüm hislerine hakim
+olmakta zorlanýyorsun. Tüm çýkýþlar semavi düzlüklere uzanýyor.
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7729
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7726
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7732
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7723
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7720
+S
+#7736
+Gümüþi Kordon'da Yürüyüþ~
+Semavi düzlüklerden kývrýlan ve dolanan gümüþi renkte bir ýþýk kordonunun
+üzerinde duruyorsun.
+~
+0 0 2
+D0
+Iþýk kordonu görüþ alanýnýn dýþýna doðru kývrýlarak ilerliyor.
+~
+~
+0 -1 7737
+D4
+Semavi düzlüklerin sonsuz geniþliðini görüyorsun.
+~
+~
+0 -1 7718
+S
+#7737
+Gümüþi Kordon'da Yürüyüþ~
+Semavi düzlüklerden kývrýlan ve dolanan gümüþi renkte bir ýþýk kordonunun
+üzerinde duruyorsun.
+~
+0 0 2
+D0
+Semavi düzlüklerin sonsuz geniþliðini görüyorsun.
+~
+~
+0 -1 7723
+D2
+Iþýk kordonu görüþ alanýnýn dýþýna doðru kývrýlarak ilerliyor.
+~
+~
+0 -1 7736
+S
+#7738
+Gümüþi Kordon'da Yürüyüþ~
+Semavi düzlüklerden kývrýlan ve dolanan gümüþi renkte bir ýþýk kordonunun
+üzerinde duruyorsun.
+~
+0 0 2
+D1
+Iþýk kordonu görüþ alanýnýn dýþýna doðru kývrýlarak ilerliyor.
+~
+~
+0 -1 7739
+D4
+Semavi düzlüklerin sonsuz geniþliðini görüyorsun.
+~
+~
+0 -1 7719
+S
+#7739
+Gümüþi Kordon'da Yürüyüþ~
+Semavi düzlüklerden kývrýlan ve dolanan gümüþi renkte bir ýþýk kordonunun
+üzerinde duruyorsun.
+~
+0 0 2
+D3
+Iþýk kordonu görüþ alanýnýn dýþýna doðru kývrýlarak ilerliyor.
+~
+~
+0 -1 7738
+D4
+Semavi düzlüklerin sonsuz geniþliðini görüyorsun.
+~
+~
+0 -1 7724
+S
+#7740
+Gümüþi Kordon'da Yürüyüþ~
+Semavi düzlüklerden kývrýlan ve dolanan gümüþi renkte bir ýþýk kordonunun
+üzerinde duruyorsun.
+~
+0 0 2
+D1
+Iþýk kordonu görüþ alanýnýn dýþýna doðru kývrýlarak ilerliyor.
+~
+~
+0 -1 7741
+D4
+Semavi düzlüklerin sonsuz geniþliðini görüyorsun.
+~
+~
+0 -1 7720
+S
+#7741
+Gümüþi Kordon'da Yürüyüþ~
+Semavi düzlüklerden kývrýlan ve dolanan gümüþi renkte bir ýþýk kordonunun
+üzerinde duruyorsun.
+~
+0 0 2
+D2
+Semavi düzlüklerin sonsuz geniþliðini görüyorsun.
+~
+~
+0 -1 7725
+D3
+Iþýk kordonu görüþ alanýnýn dýþýna doðru kývrýlarak ilerliyor.
+~
+~
+0 -1 7740
+S
+#7742
+Gümüþi Kordon'da Yürüyüþ~
+Semavi düzlüklerden kývrýlan ve dolanan gümüþi renkte bir ýþýk kordonunun
+üzerinde duruyorsun.
+~
+0 0 2
+D0
+Iþýk kordonu görüþ alanýnýn dýþýna doðru kývrýlarak ilerliyor.
+~
+~
+0 -1 7743
+D1
+Semavi düzlüklerin sonsuz geniþliðini görüyorsun.
+~
+~
+0 -1 7721
+S
+#7743
+Gümüþi Kordon'da Yürüyüþ~
+Semavi düzlüklerden kývrýlan ve dolanan gümüþi renkte bir ýþýk kordonunun
+üzerinde duruyorsun.
+~
+0 0 2
+D2
+Iþýk kordonu görüþ alanýnýn dýþýna doðru kývrýlarak ilerliyor.
+~
+~
+0 -1 7742
+D5
+Semavi düzlüklerin sonsuz geniþliðini görüyorsun.
+~
+~
+0 -1 7726
+S
+#7744
+Gümüþi Kordon'da Yürüyüþ~
+Semavi düzlüklerden kývrýlan ve dolanan gümüþi renkte bir ýþýk kordonunun
+üzerinde duruyorsun.
+~
+0 0 2
+D4
+Semavi düzlüklerin sonu olmayan geniþliðini görüyorsun.
+~
+~
+0 -1 7727
+D5
+Semavi düzlüklerin sonsuz geniþliðini görüyorsun.
+~
+~
+0 -1 7722
+S
+#7745
+Semavi Düzlem'in Derinliklerinde~
+Semavi düzlüklerin derinliklerinde seyahat ettin. Burada herhalde
+varlýðýn baþka bir boyutunda olduðundan düzlüðün dokusu çarpýlmaya ve
+bükülmeye baþlýyor. Düzlüðü çizen ýþýk sarmaþýklarýndan bazýlarý diðer
+dünyalara açýlan geçitlere dönüþüyor. Aralarýndan birinden geçerken dikkat
+et, bir daha asla geri dönemeyebilirsin...
+~
+0 0 2
+D0
+Semavi düzlük derinlere doðru devam ediyor.
+~
+~
+0 -1 7746
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7730
+D2
+The nexial link has been blocked by the gods for your protection.
+~
+~
+0 -1 -1
+D3
+Semavi düzlük derinlere doðru devam ediyor.
+~
+~
+0 -1 7749
+D4
+Boyutsal baðlantýnýn içinden, taþtan yapýlmýþ bir kale görüyorsun.
+~
+~
+0 -1 7750
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7728
+S
+#7746
+Semavi Düzlem'in Derinliklerinde~
+Semavi düzlüklerin derinliklerinde seyahat ettin. Burada herhalde
+varlýðýn baþka bir boyutunda olduðundan düzlüðün dokusu çarpýlmaya ve
+bükülmeye baþlýyor. Düzlüðü çizen ýþýk sarmaþýklarýndan bazýlarý diðer
+dünyalara açýlan geçitlere dönüþüyor. Aralarýndan birinden geçerken dikkat
+et, bir daha asla geri dönemeyebilirsin...
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7733
+D1
+The nexial link has been blocked by the gods for your protection.
+~
+~
+0 -1 -1
+D2
+Semavi düzlük derinlere doðru devam ediyor.
+~
+~
+0 -1 7745
+D3
+Semavi düzlük derinlere doðru devam ediyor.
+~
+~
+0 -1 7747
+D4
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7729
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7731
+S
+#7747
+Semavi Düzlem'in Derinliklerinde~
+Semavi düzlüklerin derinliklerinde seyahat ettin. Burada herhalde
+varlýðýn baþka bir boyutunda olduðundan düzlüðün dokusu çarpýlmaya ve
+bükülmeye baþlýyor. Düzlüðü çizen ýþýk sarmaþýklarýndan bazýlarý diðer
+dünyalara açýlan geçitlere dönüþüyor. Aralarýndan birinden geçerken dikkat
+et, bir daha asla geri dönemeyebilirsin...
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7734
+D1
+Semavi düzlük derinlere doðru devam ediyor.
+~
+~
+0 -1 7746
+D2
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7730
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7728
+D4
+The nexial link has been blocked by the gods for your protection.
+~
+~
+0 -1 -1
+D5
+Semavi düzlük derinlere doðru devam ediyor.
+~
+~
+0 -1 7748
+S
+#7748
+Semavi Düzlem'in Derinliklerinde~
+Semavi düzlüklerin derinliklerinde seyahat ettin. Burada herhalde
+varlýðýn baþka bir boyutunda olduðundan düzlüðün dokusu çarpýlmaya ve
+bükülmeye baþlýyor. Düzlüðü çizen ýþýk sarmaþýklarýndan bazýlarý diðer
+dünyalara açýlan geçitlere dönüþüyor. Aralarýndan birinden geçerken dikkat
+et, bir daha asla geri dönemeyebilirsin...
+~
+0 0 2
+D0
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7735
+D1
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7731
+D2
+Semavi düzlük derinlere doðru devam ediyor.
+~
+~
+0 -1 7749
+D3
+The nexial link has been blocked by the gods for your protection.
+~
+~
+0 -1 -1
+D4
+Semavi düzlük derinlere doðru devam ediyor.
+~
+~
+0 -1 7747
+D5
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7732
+S
+#7749
+Semavi Düzlem'in Derinliklerinde~
+Semavi düzlüklerin derinliklerinde seyahat ettin. Burada herhalde
+varlýðýn baþka bir boyutunda olduðundan düzlüðün dokusu çarpýlmaya ve
+bükülmeye baþlýyor. Düzlüðü çizen ýþýk sarmaþýklarýndan bazýlarý diðer
+dünyalara açýlan geçitlere dönüþüyor. Aralarýndan birinden geçerken dikkat
+et, bir daha asla geri dönemeyebilirsin...
+~
+0 0 2
+D0
+Semavi düzlük derinlere doðru devam ediyor.
+~
+~
+0 -1 7748
+D1
+Semavi düzlük derinlere doðru devam ediyor.
+~
+~
+0 -1 7745
+D2
+Semavi düzlük derinlere doðru devam ediyor.
+~
+~
+0 -1 7732
+D3
+Semavi düzlük sonsuzluða doðru uzanýyor.
+~
+~
+0 -1 7729
+D4
+The nexial link has been blocked by the gods for your protection.
+~
+~
+0 -1 -1
+D5
+The nexial link has been blocked by the gods for your protection.
+~
+~
+0 -1 -1
+S
+#7750
+Gayomart Kalesi'nin Ýçinde~
+Semavi Düzlem'den çýkan boyut kapýsýnýn tam içinde duruyorsun. Görünüþe
+göre bir zamanlar insan olan Gayomartlarýn inini buldun. Önünde taþtan
+yapýlmýþ kaleye giden çelik bir kapý var.
+~
+0 C 0
+E
+kapý~
+Kapý, taþa çakýlmýþ paslý, çelik plakalardan oluþuyor.
+~
+D0
+Kaleye doðru açýlan paslý, çelik bir kapý görüyorsun.
+~
+kapý~
+1 -1 7751
+D5
+Aþaðýnda semavi düzleme açýlan boyut kapýsý var.
+~
+~
+0 -1 7745
+S
+#7751
+Bir muhafýz odasý~
+Kalenin hemen giriþinde bulunan küçük bir binadasýn. Doðuya ve batýya
+açýlan kapýlar var. Duvarlarda kalenin savunulmasý için yapýlmýþ küçük
+silahlar bir kancaya asýlmýþ biçimde duruyorlar.
+~
+0 D 0
+E
+kapý~
+Kapý, taþa çakýlmýþ paslý, çelik plakalardan oluþuyor.
+~
+E
+demir kapý~
+Demir kapý, taþýn derinine çakýlmýþ demir plakalardan oluþuyor.
+~
+D1
+Gri taþtan bir yola açýlan demir bir kapý görüyorsun.
+~
+door iron~
+1 -1 7761
+D2
+Boyut kapýsýna açýlan paslý çelikten bir kapý görüyorsun.
+~
+steel~
+1 -1 7750
+D3
+Gri taþtan bir yola açýlan demir bir kapý görüyorsun.
+~
+door iron~
+1 -1 7752
+S
+#7752
+Gri bir yol~
+Ayaklarýný bastýðýn yer, resmi, gri kaldýrým taþlarýndan oluþuyor. Soluk,
+kýrmýzý bir güneþ, baþýnýn üstündeki turuncu gökte asýlý duruyor. Bir þehire
+ait olabileceðini düþündüðün seslerin hiçbirini duymuyorsun. Kaldýrým
+taþlarýndan yapýlmýþ yol kuzeye dönüyor, doðuda da demir bir kapýyla sona
+eriyor.
+~
+0 0 1
+E
+demir kapý~
+Kapý, taþýn derinine çakýlmýþ demir plakalardan oluþuyor.
+~
+D0
+Gri kaldýrým taþlarý devam ediyor.
+~
+~
+0 -1 7753
+D1
+Kalenin duvarýna yaslanmýþ, küçük, taþ bir yapýya açýlan demir bir kapý
+görüyorsun.
+~
+demir kapý~
+1 -1 7751
+S
+#7753
+Gri bir yol~
+Ayaklarýný bastýðýn yer, resmi, gri kaldýrým taþlarýndan oluþuyor. Soluk,
+kýrmýzý bir güneþ, baþýnýn üstündeki turuncu gökte asýlý duruyor. Bir þehire
+ait olabileceðini düþündüðün seslerin hiçbirini duymuyorsun. Kaldýrým
+taþlarndan yapýlmýþ yol kuzeye ve güneye devam ediyor. Doðuda ve batýda ise
+taþ binalara açýlan kapýlar var.
+~
+0 0 1
+E
+kapý~
+Kapý, birçok demir plaka ile süslenmiþ ve tal duvara iyice yerleþtirilmiþ.
+~
+E
+kapý tahta~
+Kalýn kapý, düðümlü, bükülmüþ gri bir odundan yapýlmýþ.
+~
+D0
+Gri kaldýrým taþlarý devam ediyor.
+~
+~
+0 -1 7754
+D1
+Tahta kapýlý, küçük, taþtan bir bina görüyorsun.
+~
+kapý tahta~
+1 -1 7762
+D2
+Gri kaldýrým taþlarý devam ediyor.
+~
+~
+0 -1 7752
+D3
+Demir bir kapý, taþtan yapýlmýþ bu büyük binaya giriþ yolunu kapatýyor.
+~
+kapý demir~
+1 -1 7769
+S
+#7754
+Gri bir yol~
+Ayaklarýný bastýðýn yer, resmi, gri kaldýrým taþlarýndan oluþuyor. Soluk,
+kýrmýzý bir güneþ, baþýnýn üstündeki turuncu gökte asýlý duruyor. Bir þehire
+ait olabileceðini düþündüðün seslerin hiçbirini duymuyorsun. Kaldýrým
+taþlarýndan yapýlmýþ yol, doðuya ve güneye devam ediyor.
+~
+0 0 1
+D1
+Gri kaldýrým taþlarý devam ediyor.
+~
+~
+0 -1 7755
+D2
+Gri kaldýrým taþlarý devam ediyor.
+~
+~
+0 -1 7753
+S
+#7755
+Gri bir yol~
+Ayaklarýný bastýðýn yer, resmi, gri kaldýrým taþlarýndan oluþuyor. Soluk,
+kýrmýzý bir güneþ, baþýnýn üstündeki turuncu gökte asýlý duruyor. Bir þehire
+ait olabileceðini düþündüðün seslerin hiçbirini duymuyorsun. Kaldýrým
+taþlarndan yapýlmýþ yol doðuya ve batýya devam ediyor. Kuzeyde iste büyük
+bir bina ve bir çift büyük kapý görüyorsun.
+~
+0 0 1
+E
+kapý metal~
+Kapýlar, oldukça sert, ve neredeyse bir o kadar da dokunulamayacak kadar
+kaygan görünen gümüþi bir maddeden yapýlmýþ. Üzerinde de insanlar ve ilginç
+ahtapol kollarýndan aðýzlarý olan insansý yaratýklar arasýnda yapýlan bir
+savaþýn resmi iþlenmiþ.
+~
+D0
+Bir çift metal kapý önünde yükseliyor.
+~
+kapý metal~
+1 -1 7774
+D1
+Gri kaldýrým taþlarý devam ediyor.
+~
+~
+0 -1 7756
+D3
+Gri kaldýrým taþlarý devam ediyor.
+~
+~
+0 -1 7754
+S
+#7756
+Gri bir yol~
+Ayaklarýný bastýðýn yer, resmi, gri kaldýrým taþlarýndan oluþuyor. Soluk,
+kýrmýzý bir güneþ, baþýnýn üstündeki turuncu gökte asýlý duruyor. Bir þehire
+ait olabileceðini düþündüðün seslerin hiçbirini duymuyorsun. Kaldýrým
+taþlarndan yapýlmýþ yol doðuya ve batýya devam ediyor. Güneyde, uzun, taþ
+bir binaya açýlan bir kapý görüyorsun.
+~
+0 0 1
+E
+kapý tahta~
+Kalýn kapý, düðümlü, bükülmüþ gri bir odundan yapýlmýþ.
+~
+D1
+Gri kaldýrým taþlarý devam ediyor.
+~
+~
+0 -1 7757
+D2
+Uzun, tahta kapýlý taþ bir bina görüyorsun.
+~
+kapý tahta~
+1 -1 7764
+D3
+Gri kaldýrým taþlarý devam ediyor.
+~
+~
+0 -1 7755
+S
+#7757
+Gri bir yol~
+Ayaklarýný bastýðýn yer, resmi, gri kaldýrým taþlarýndan oluþuyor. Soluk,
+kýrmýzý bir güneþ, baþýnýn üstündeki turuncu gökte asýlý duruyor. Bir þehire
+ait olabileceðini düþündüðün seslerin hiçbirini duymuyorsun. Kaldýrým
+taþlarndan yapýlmýþ yol batýya ve güneye devam ediyor. Kuzeyde, tahta kapýlý
+uzun, taþtan bir bina görüyorsun.
+~
+0 0 1
+E
+kapý tahta~
+Kalýn kapý, düðümlü, bükülmüþ gri bir odundan yapýlmýþ.
+~
+D0
+Tahta kapýlý, uzun, taþ bir bina görüyorsun.
+~
+kapý tahta~
+1 -1 7773
+D2
+Gri kaldýrým taþlarý devam ediyor.
+~
+~
+0 -1 7758
+D3
+Gri kaldýrým taþlarý devam ediyor.
+~
+~
+0 -1 7756
+S
+#7758
+Gri bir yol~
+Ayaklarýný bastýðýn yer, resmi, gri kaldýrým taþlarýndan oluþuyor. Soluk,
+kýrmýzý bir güneþ, baþýnýn üstündeki turuncu gökte asýlý duruyor. Bir þehire
+ait olabileceðini düþündüðün seslerin hiçbirini duymuyorsun. Kaldýrým
+taþlarndan yapýlmýþ yol güneye ve kuzeye devam ediyor. Doðuda büyük, taþ bir
+binaya açýlan demir kapýlar var.
+~
+0 0 1
+E
+demir kapý~
+Taþ duvara çekiçle iyice çakýlmýþ demir plakalardan oluþan bir kapý.
+~
+D0
+Gri kaldýrým taþlarý devam ediyor.
+~
+~
+0 -1 7757
+D1
+Büyük, taþ bir binaya açýlan demir kapýlar görüyorsun.
+~
+demir kapý~
+1 -1 7767
+D2
+Gri kaldýrým taþlarý devam ediyor.
+~
+~
+0 -1 7759
+S
+#7759
+Gri bir yol~
+Ayaklarýný bastýðýn yer, resmi, gri kaldýrým taþlarýndan oluþuyor. Soluk,
+kýrmýzý bir güneþ, baþýnýn üstündeki turuncu gökte asýlý duruyor. Bir þehire
+ait olabileceðini düþündüðün seslerin hiçbirini duymuyorsun. Kaldýrým
+taþlarndan yapýlmýþ yol güneye ve kuzeye devam ediyor.
+~
+0 0 1
+D0
+Gri kaldýrým taþlarý devam ediyor.
+~
+~
+0 -1 7758
+D2
+Gri kaldýrým taþlarý devam ediyor.
+~
+~
+0 -1 7760
+S
+#7760
+Gri bir yol~
+Ayaklarýný bastýðýn yer, resmi, gri kaldýrým taþlarýndan oluþuyor. Soluk,
+kýrmýzý bir güneþ, baþýnýn üstündeki turuncu gökte asýlý duruyor. Bir þehire
+ait olabileceðini düþündüðün seslerin hiçbirini duymuyorsun. Kaldýrým
+taþlarndan yapýlmýþ yol batýya ve kuzeye devam ediyor. Doðuda büyük, taþ bir
+binaya açýlan demir bir kapý görüyorsun.
+~
+0 0 1
+E
+demir kapý~
+Taþ duvara çekiçle iyice çakýlmýþ demir plakalardan oluþan bir kapý
+görüyorsun.
+~
+D0
+Gri kaldýrým taþlarý devam ediyor.
+~
+~
+0 -1 7759
+D1
+Büyük, taþ bir binaya açýlan demirden yapýlmýþ bir görüyorsun.
+~
+demir kapý~
+1 -1 7765
+D3
+Gri kaldýrým taþlarý devam ediyor.
+~
+~
+0 -1 7761
+S
+#7761
+Gri bir yol~
+Ayaklarýný bastýðýn yer, resmi, gri kaldýrým taþlarýndan oluþuyor. Soluk,
+kýrmýzý bir güneþ, baþýnýn üstündeki turuncu gökte asýlý duruyor. Bir þehire
+ait olabileceðini düþündüðün seslerin hiçbirini duymuyorsun. Kaldýrým
+taþlarndan yapýlmýþ yol doðuya devam ediyor ve batýda demir bir kapýnýn
+önünde sona eriyor. Kuzeyde ise küçük, taþ bir binaya açýlan bir kapý
+görüyorsun.
+~
+0 0 1
+E
+demir kapý~
+Taþa çakýlmýþ demir plakalardan oluþan bir kapý.
+~
+E
+kapý tahta~
+Kalýn kapý, düðümlü, bükülmüþ gri bir odundan yapýlmýþ.
+~
+D0
+Tahta kapýlý küçük, taþtan yapýlmýþ bir bina görüyorsun.
+~
+kapý tahta~
+1 -1 7763
+D1
+Gri kaldýrým taþlarý devam ediyor.
+~
+~
+0 -1 7760
+D3
+Kalenin duvarýna yaslanmýþ küçük, taþ bir yapýya açýlan demir bir kapý
+görüyorsun.
+~
+demir kapý~
+1 -1 7751
+S
+#7762
+Küçük bir bina~
+Birkaç gayomartýn kaldýðý, loþ ýþýklý bir binaya adým attýn. Aðýr, taþ
+bloklardan oluþan duvarlarýn üzerinde, garip bir biçimde düðümlenmiþ ve
+bükülmüþ taþ paneller var. Etraftaki þamdanlarýn içinde loþ bir ýþýk vererek
+yanan mumlar var.
+~
+0 D 0
+E
+kapý tahta~
+Kalýn kapý, düðümlü, bükülmüþ gri bir odundan yapýlmýþ.
+~
+D3
+Tahta kapý gri kaldýrýmlý yola açýlýyor.
+~
+kapý tahta~
+1 -1 7753
+S
+#7763
+Küçük bir bina~
+Birkaç gayomartýn kaldýðý, loþ ýþýklý bir binaya adým attýn. Aðýr, taþ
+bloklardan oluþan duvarlarýn üzerinde, garip bir biçimde düðümlenmiþ ve
+bükülmüþ taþ paneller var. Etraftaki þamdanlarýn içinde loþ bir ýþýk vererek
+yanan mumlar var.
+~
+0 D 0
+E
+kapý tahta~
+Kalýn kapý, düðümlü, bükülmüþ gri bir odundan yapýlmýþ.
+~
+D2
+Tahta kapý, gri kaldýrýmlý yola açýlýyor.
+~
+kapý tahta~
+1 -1 7761
+S
+#7764
+Büyük bir mesken~
+Loþ ýþýklarla aydýnlanmýþ, kubbeli tavaný ve yüksek pencereleri olan
+büyük bir binaya girdin. Duvarlar, baþýnýn üzerinde birkaç metre boyunca
+uzanan büyük taþ bloklardan oluþuyor. Yerde pentagramlar ve bunun gibi
+uðursuz mühürlerin karakalemle çizilmiþ þablonlarý var.
+~
+0 D 0
+E
+kapý tahta~
+Kalýn kapý, düðümlü, bükülmüþ gri bir odundan yapýlmýþ.
+~
+D0
+Tahta kapý, gri kaldýrým taþlý yola açýlýyor.
+~
+kapý tahta~
+1 -1 7756
+S
+#7765
+Gayomart Silahhanesi~
+Burasý bitmemiþ silahlarla dolu büyük bir oda. Garip bir biçimde parlayan
+gümüþi metal parçalarý burada keskin býçaklara, hançerlere ve kýlýçlara
+dönüþüyor. Kuzeydeki açýk bir eþikten gelen çekiç sesleri, ýsý patlamalarý
+ve ilginç kokular duyuyorsun. Batýda demir bir kapý var.
+~
+0 D 0
+E
+demir kapý~
+The door is made from many hammered iron plates, set deep into the stone
+wall. Taþ bir duvara çekiçle iyice çakýlmýþ demir plakalardan oluþan bir
+kapý görüyorsun.
+~
+D0
+Beyaz, sýcak bir ocakla ýþýyan büyük bir oda görüyorsun.
+~
+~
+0 -1 7766
+D3
+Demir kapý gri kaldýrýmlý yola açýlýyor.
+~
+demir kapý~
+1 -1 7760
+S
+#7766
+Demirci Ocaðý~
+Odanýn ortasýnda oldukça fazla ýsý yayan ve içinden gayomartlar
+tarafýndan kullanýlan gümüþi maddenin erimesinden kaynaklanan kokularýn
+yükseldiði büyük bir ocak var. Batýda sýcak metali soðutmak için kullanýlan,
+içine buzlu su akan bir oluk görüyorsun. Kuzey ve güneye giden kapý
+aralýklarý var. Fýrýn doðuda kalýyor.
+~
+0 D 0
+E
+kapý fýrýn~
+Tüm fýrýn dokunulamayacak kadar akkor haline gelmiþ. Fýrýn kapýsý açmaya
+bile cesaret edilemeyecek kadar sýcak görünüyor.
+~
+D0
+Kuzeyde bir zýrhhane görüyorsun.
+~
+~
+0 -1 7767
+D1
+Fýrýn kapýsýndaki ýzgaradan sadece ateþleri görebiliyorsun.
+~
+kapý fýrýn~
+1 -1 7768
+D2
+Güneyde silahhaneyi görüyorsun.
+~
+~
+0 -1 7765
+S
+#7767
+Gayomart Zýrhhanesi~
+Bitmemiþ zýrhlarla dolu büyük bir odadasýn. Bu odada sert gayomart
+çelikleri, zarif, güçlü zýrhlara çevriliyor. Güneyden çekiç sesleri, ýsý
+patlamalarý ve tuhaf kokular geliyor. Batýda demir bir kapý var.
+~
+0 D 0
+E
+demir kapý~
+Taþ duvara çekiçle iyice çakýlmýþ demir plakalardan oluþan bir kapý
+görüyorsun.
+~
+D2
+Akkor bir fýrýnla aydýnlanan bir oda görüyorsun.
+~
+~
+0 -1 7766
+D3
+Demir kapý, gri kaldýrýmlý yola açýlýyor.
+~
+demir kapý~
+1 -1 7758
+S
+#7768
+Fýrýnýn içinde~
+Nefes almak için güçlükle soluyorsun ve kükürt ile sülfür karýþýmý
+zehirle öksürüyorsun. Alnýndan damlamak üzere olan ter etrafýný sarmýþ
+alevler yüzünden aniden buhara döndü. Sýcaktan sarhoþ ve bayýlacakmýþ gibi
+hissediyorsun.... Ölüp kül olmadan buradan çýksan iyi edersin.
+~
+0 D 0
+D0
+Ateþler gözünü kör ederek görüþünü engelliyor.
+~
+~
+0 -1 7768
+D1
+The flames blind you and obscure your vision.
+~
+~
+0 -1 -1
+D2
+Ateþler gözünü kör ederek görüþünü engelliyor.
+~
+~
+0 -1 7768
+D3
+Ateþler gözünü kör ederek görüþünü engelliyor.
+~
+kapý fýrýn~
+1 -1 7766
+S
+#7769
+Bir muhafýz odasý~
+Kalenin hapishanesi olarak yapýlmýþ küçük, oldukça boþ bir yapýnýn
+içindesin. Bu yapý küçük çünkü gayomartlar esir alma alýþkanlýðýna pek sahip
+deðillerdir, esir düþenler de fazla hayatta kalmazlar. Batýda hücre odasý
+var ve gri, taþ yol doðuda kalýyor.
+~
+0 D 0
+E
+demir kapý~
+Birçok demir plakanýn taþa çakýlmasýyla oluþmuþ bir kapý.
+~
+D1
+Demir kapý, gri kaldýrým taþlý yola açýlýyor.
+~
+demir kapý~
+1 -1 7753
+D3
+Bir hücre odasý görüyorsun.
+~
+~
+0 -1 7770
+S
+#7770
+Hücre odasý~
+Batýdaki duvarda duran bir meþalenin ýþýðý titreþerek bu loþ koridoru
+aydýnlatýyor. Duvarlarda kýrbaçlar, prangalar ve zincirler asýlý ve belli ki
+yeni kullanýlmýþlar. Kuzey ve güneyde hücrelerin kapýlarý var. Muhafýz odasý
+ise doðuda.
+~
+0 D 0
+E
+kapý hücre~
+Hücre kapýsý tahtadan yapýlmýþ ve yaklaþýk üç metre boyunda. Kapýnýn
+altýnda mahkuma yemek vermek yapýlmýþ bir kýsým var.
+~
+D0
+Küçük bir hücre görüyorsun.
+~
+kapý hücre~
+1 -1 7771
+D1
+Muhafýz odasýný görüyorsun.
+~
+~
+0 -1 7769
+D2
+Küçük bir hücre görüyorsun.
+~
+kapý hücre~
+1 -1 7772
+S
+#7771
+Sýkýþýk bir hücre~
+Küçük, soðuk, nemli bir hücredesin. Tek çýkýþ, geldiðin yön olan güneye.
+~
+0 D 0
+E
+kapý hücre~
+Hücre kapýsý tahtadan yapýlmýþ ve yaklaþýk üç metre boyunda. Kapýnýn
+altýnda mahkuma yemek vermek yapýlmýþ bir kýsým var.
+~
+D2
+Hücre odasýný görüyorsun.
+~
+kapý hücre~
+1 -1 7770
+S
+#7772
+Küçük bir hücre~
+Küçük, soðuk, bunaltýcý bir hücredesin. Tek çýkýþ, geldiðin yön olan
+kuzeye.
+~
+0 D 0
+E
+kapý hücre~
+Hücre kapýsý tahtadan yapýlmýþ ve yaklaþýk üç metre boyunda. Kapýnýn
+altýnda mahkuma yemek vermek yapýlmýþ bir kýsým var.
+~
+D0
+Hücre odasýný görüyorsun.
+~
+kapý hücre~
+1 -1 7770
+S
+#7773
+Büyük bir mesken~
+Loþ ýþýklarla aydýnlanmýþ, kubbeli tavaný ve yüksek pencereleri olan
+büyük bir binaya girdin. Duvarlar, baþýnýn üzerinde birkaç metre boyunca
+uzanan büyük taþ bloklardan oluþuyor. Yerde pentagramlar ve bunun gibi
+uðursuz mühürlerin karakalemle çizilmiþ þablonlarý var.
+~
+0 D 0
+E
+kapý tahta~
+Kalýn kapý, düðümlü, bükülmüþ gri bir odundan yapýlmýþ.
+~
+D2
+Tahta kapý, gri kaldýrým taþlý yola açýlýyor.
+~
+kapý tahta~
+1 -1 7757
+S
+#7774
+Salonun güney ucu~
+Duvarlara çakýlmýþ yanan, mavi taþlarla aydýnlanan büyük, taþ bir
+salondasýn. Duvarlarda dizili, ilginç, gümüþi bir metalden yapýlmýþ silahlar
+tutan zýrh takýlmlarý var. Büyük salon, kuzeye devam ediyor ve güneyde, bir
+çift büyük kapýda bitiyor.
+~
+0 D 0
+E
+kapý metal~
+Kapýlar, oldukça sert, ve neredeyse bir o kadar da dokunulamayacak kadar
+kaygan görünen gümüþi bir maddeden yapýlmýþ. Üzerinde de insanlar ve ilginç
+ahtapol kollarýndan aðýzlarý olan insansý yaratýklar arasýnda yapýlan bir
+savaþýn resmi iþlenmiþ.
+~
+E
+zýrh takýmlarý~
+Zýrh takýmlarý oldukça karmaþýk ve süslü bir biçimde iþlenmiþ.
+~
+E
+silahlar~
+Aðýr teberler, mýzraklar, güçlü kýlýçlar... Kýsaca her tür ölüm daðýtan
+alet...
+~
+D0
+Büyük salon kuzeye devam ediyor.
+~
+~
+0 -1 7775
+D2
+Metal kapýlar, gri kaldýrým taþlý yola açýlýyor.
+~
+kapý metal~
+1 -1 7755
+S
+#7775
+Salonun kuzey ucu~
+Duvarlara çakýlmýþ yanan, mavi taþlarla aydýnlanan büyük, taþ bir
+salondasýn. Duvarlarda dizili, ilginç, gümüþi bir metalden yapýlmýþ silahlar
+tutan zýrh takýlmlarý var. Büyük salon güneye devam ediyor. Kuzeyde kemerli
+bir kapý, loþ bir odaya açýlýyor.
+~
+0 D 0
+E
+zýrh takýmlarý~
+Zýrh takýmlarý oldukça karmaþýk ve süslü bir biçimde iþlenmiþ.
+~
+E
+silahlar~
+Aðýr teberler, mýzraklar, güçlü kýlýçlar... Kýsaca her tür ölüm daðýtan
+alet...
+~
+E
+kemerli kapý~
+Kemerli kapý, görüþünü engelleyecek biçimde, siyah bir sisle kaplanmýþ.
+~
+D0
+Bir sunaða çýkan bir merdiven gördüðünü düþünüyorsun.
+~
+kapý kemerli~
+1 -1 7776
+D2
+Büyük salon güneye devam ediyor.
+~
+~
+0 -1 7774
+S
+#7776
+Sunak Odasý~
+Gözlerin loþ ýþýða alýþmaya çalýþýrken, etrafta basamak basamak dizilmiþ,
+yüzleri sunaða dönük dizilmiþ gayomart heykelleri görüyorsun.
+~
+0 AD 0
+E
+kemerli kapý~
+Kemerli kapý görüþünü engelleyecek biçimde siyah bir sisle kaplanmýþ.
+~
+D0
+Basamaklar kuzeye, aðýr bir kurban sunaðýna çýkýyor.
+~
+~
+0 -1 7777
+D2
+Galiba salonu görebiliyorsun.
+~
+kapý kemerli~
+1 -1 7775
+S
+#7777
+Sunaðýn önünde~
+Güçlü basamaklarý týrmanýp Lord Giþ'e, gayomartlarýn uzun süre önce ölmüþ
+olan efendisine, kurbanlar sunulan bir sunaðýn önüne geldin. Altýnda
+delikler olan sunak kanla kaplý ve önünde duran korkunç varlýk tarafýndan
+emilen anlatýlmaz bir güç yayýyor.
+~
+0 AD 0
+E
+delik delikler~
+Sunaðýn altýndaki bu deliklerden, sayýsýz miktarlarda kan akmýþ.
+~
+E
+sunak~
+Kan lekeleriyle kaplý, büyük bir kurban sunaðý.
+~
+E
+kan leke~
+Kan lekeleri sunaðýn altýndan yavaþça ayaklarýnýn dibine akýyor.
+~
+D2
+Basamaklar güneye, sunak odasýna devam ediyor.
+~
+~
+0 -1 7776
+D5
+Sunaðýn altýnda kan sýzan küçük delikler olan bir geçiþ görüyorsun.
+~
+delik~
+1 -1 7778
+S
+#7778
+Yeraltý Dünya'sýna Geçiþ~
+Sunaktaki küçük delikten içeriye indin ve kývrýlan bir karanlýk
+düzlüðünün önünde duruyorsun. Düzlükten kayýp ruhlarýn ve uzun süredir ölü
+olan varlýklarýn ulumalarýný duyuyorsun.
+~
+0 AD 1
+E
+düzlük geçit~
+Düzlük nabýz gibi atýyor ve yukarýdan sýzan kan ile besleniyor. Neredeyse
+elle tutulabilir bir öfke dalgasý üzerinden geçerek ruhuna büyük korku
+saçýyor.
+~
+E
+kan~
+Kan yukarýdan aþaðýdaki karanlýk düzlüðe damlýyor.
+~
+D4
+Sunak odasýný görüyorsun.
+~
+delik~
+1 -1 7777
+D5
+Karanlýk düzlüðne doðru baktýn ve neredeyse elle tutulabilecek kem bir
+dalga üzerinden geçti. Bu düzlüðe adým atmak kötü bir fikir olabilir.
+~
+geçit~
+2 7724 7779
+S
+#7779
+Mutlak karanlýk ve keder~
+Zifiri karanlýk... Bir varlýk üzerine doðru þekillenirken, korkunç bir
+acý ve ölüm hissi üzerine çöküyor.
+~
+0 AC 9
+S
+#0
+#RESETS
+R 0 7708   6            * Exploring the Astral Plane
+R 0 7709   6            * Exploring the Astral Plane
+R 0 7710   6            * Exploring the Astral Plane
+R 0 7711   6            * Exploring the Astral Plane
+R 0 7712   6            * Exploring the Astral Plane
+R 0 7713   6            * Roaming the Astral Plane
+R 0 7714   6            * Roaming the Astral Plane
+R 0 7715   6            * Roaming the Astral Plane
+R 0 7716   6            * Roaming the Astral Plane
+R 0 7717   6            * Roaming the Astral Plane
+R 0 7718   6            * Wandering the Astral Plane
+R 0 7719   6            * Wandering the Astral Plane
+R 0 7720   6            * Wandering the Astral Plane
+R 0 7721   6            * Wandering the Astral Plane
+R 0 7722   6            * Wandering the Astral Plane
+R 0 7723   6            * Travelling the Astral Plane
+R 0 7724   6            * Travelling the Astral Plane
+R 0 7725   6            * Travelling the Astral Plane
+R 0 7726   6            * Travelling the Astral Plane
+R 0 7727   6            * Travelling the Astral Plane
+R 0 7728   6            * Traversing the Astral Plane
+R 0 7729   6            * Traversing the Astral Plane
+R 0 7730   6            * Traversing the Astral Plane
+R 0 7731   6            * Traversing the Astral Plane
+R 0 7732   6            * Traversing the Astral Plane
+R 0 7733   6            * Lost in the Astral Plane
+R 0 7734   6            * Lost in the Astral Plane
+R 0 7735   6            * Lost in the Astral Plane
+R 0 7736   6            * Walking the Silvery Strand
+R 0 7737   6            * Walking the Silvery Strand
+R 0 7738   6            * Walking the Silvery Strand
+R 0 7739   6            * Walking the Silvery Strand
+R 0 7740   6            * Walking the Silvery Strand
+R 0 7741   6            * Walking the Silvery Strand
+R 0 7742   6            * Walking the Silvery Strand
+R 0 7743   6            * Walking the Silvery Strand
+R 0 7744   6            * Walking the Silvery Strand
+M 0 7700   1 7706  1    * The Astral Guardian
+E 1 7700  -1   16       *   a massive slate-grey sledgehammer
+D 0 7706   0    1       * The Astral Gate north
+D 0 7707   2    1       * Into the Astral Plane south
+M 0 7701   2 7733  1    * A pitch-black nightmare
+G 1 7704  -1            *   a small demon's amulet
+M 0 7701   2 7734  1    * A pitch-black nightmare
+G 1 7704  -1            *   a small demon's amulet
+M 0 7702   1 7746  1    * An evil night hag
+G 1 7705  -1            *   a devilish talisman
+M 0 7703   4 7720  1    * An invisible stalker
+G 1 7714  -1            *   some astral powder
+M 0 7703   4 7724  1    * An invisible stalker
+G 1 7714  -1            *   some astral powder
+M 0 7703   4 7726  1    * An invisible stalker
+G 1 7714  -1            *   some astral powder
+M 0 7703   4 7730  1    * An invisible stalker
+G 1 7714  -1            *   some astral powder
+M 0 7704  10 7713  1    * A poor soulless being
+E 1 3022  -1   16       *   a long sword
+M 0 7704  10 7714  1    * A poor soulless being
+E 1 3022  -1   16       *   a long sword
+M 0 7704  10 7715  1    * A poor soulless being
+E 1 3022  -1   16       *   a long sword
+M 0 7704  10 7716  1    * A poor soulless being
+E 1 3022  -1   16       *   a long sword
+M 0 7704  10 7717  1    * A poor soulless being
+E 1 3022  -1   16       *   a long sword
+M 0 7704  10 7718  1    * A poor soulless being
+E 1 3022  -1   16       *   a long sword
+M 0 7704  10 7719  1    * A poor soulless being
+E 1 3022  -1   16       *   a long sword
+M 0 7704  10 7720  1    * A poor soulless being
+E 1 3022  -1   16       *   a long sword
+M 0 7704  10 7721  1    * A poor soulless being
+E 1 3022  -1   16       *   a long sword
+M 0 7704  10 7722  1    * A poor soulless being
+E 1 3022  -1   16       *   a long sword
+M 0 7705   8 7718  2    * A githyanki hunter
+E 1 7707  -1   16       *   a silvery dagger
+M 0 7705   8 7720  2    * A githyanki hunter
+E 1 7707  -1   16       *   a silvery dagger
+M 0 7705   8 7722  2    * A githyanki hunter
+E 1 7707  -1   16       *   a silvery dagger
+M 0 7705   8 7724  2    * A githyanki hunter
+E 1 7707  -1   16       *   a silvery dagger
+M 0 7706   6 7723  3    * A githyanki warrior
+E 1 7708  -1   16       *   an extremely sharp and thin sword
+E 1 7715  -1    5       *   a splint mail vest
+M 0 7706   6 7727  3    * A githyanki warrior
+E 1 7708  -1   16       *   an extremely sharp and thin sword
+E 1 7715  -1    5       *   a splint mail vest
+M 0 7708   3 7730  2    * A githyanki knight
+E 1 7709  -1   16       *   a thin two-handed sword
+E 1 7715  -1    5       *   a splint mail vest
+E 1 7716  -1    7       *   a splint mail skirt
+E 1 7717  -1   10       *   a pair of splint mail sleeves
+M 0 7710   6 7729  3    * An evil gish
+E 1 7706  -1   16       *   a silvery knife
+M 0 7710   6 7731  3    * An evil gish
+E 1 7706  -1   16       *   a silvery knife
+M 0 7715   3 7745  1    * An insubstantial ghost
+G 1 7721  -1            *   a vial of murky fluid
+M 0 7715   3 7747  1    * An insubstantial ghost
+G 1 7721  -1            *   a vial of murky fluid
+M 0 7715   3 7749  1    * An insubstantial ghost
+G 1 7721  -1            *   a vial of murky fluid
+D 0 7750   0    1       * Inside the Githyanki Keep north
+D 0 7751   2    1       * A guard station south
+D 0 7751   1    1       * A guard station east
+D 0 7751   3    1       * A guard station west
+D 0 7752   1    1       * A grey road east
+D 0 7753   1    1       * A grey road east
+D 0 7753   3    1       * A grey road west
+D 0 7755   0    1       * A grey road north
+D 0 7756   2    1       * A grey road south
+D 0 7757   0    1       * A grey road north
+D 0 7758   1    1       * A grey road east
+D 0 7760   1    1       * A grey road east
+D 0 7761   0    1       * A grey road north
+D 0 7761   3    1       * A grey road west
+D 0 7762   3    1       * A small building west
+D 0 7763   2    1       * A small building south
+D 0 7764   0    1       * A large dwelling north
+D 0 7773   2    1       * A large dwelling south
+D 0 7765   3    1       * The Githyanki Weaponry west
+D 0 7766   1    1       * The Forge east
+D 0 7767   3    1       * The Githyanki Armoury west
+D 0 7768   3    1       * Inside the furnace west
+D 0 7769   1    1       * A guard station east
+D 0 7770   0    1       * The cellblock north
+D 0 7770   2    1       * The cellblock south
+D 0 7771   2    1       * A cramped cell south
+D 0 7772   0    1       * A tiny cell north
+D 0 7774   2    1       * South End of the Hall south
+D 0 7775   0    1       * North End of the Hall north
+D 0 7776   2    1       * The Altar Chamber south
+D 0 7777   5    1       * Before the Altar down
+D 0 7778   4    1       * A Gateway to the Underworld up
+D 0 7778   5    2       * A Gateway to the Underworld down
+M 0 7707   8 7751  1    * A githyanki guardian
+E 1 7708  -1   16       *   an extremely sharp and thin sword
+E 1 7715  -1    5       *   a splint mail vest
+M 0 7707   8 7751  1    * A githyanki guardian
+E 1 7708  -1   16       *   an extremely sharp and thin sword
+E 1 7715  -1    5       *   a splint mail vest
+M 0 7707   8 7765  1    * A githyanki guardian
+E 1 7708  -1   16       *   an extremely sharp and thin sword
+E 1 7715  -1    5       *   a splint mail vest
+M 0 7707   8 7765  1    * A githyanki guardian
+E 1 7708  -1   16       *   an extremely sharp and thin sword
+E 1 7715  -1    5       *   a splint mail vest
+M 0 7707   8 7767  1    * A githyanki guardian
+E 1 7708  -1   16       *   an extremely sharp and thin sword
+E 1 7715  -1    5       *   a splint mail vest
+M 0 7707   8 7767  1    * A githyanki guardian
+E 1 7708  -1   16       *   an extremely sharp and thin sword
+E 1 7715  -1    5       *   a splint mail vest
+M 0 7707   8 7769  1    * A githyanki guardian
+E 1 7708  -1   16       *   an extremely sharp and thin sword
+E 1 7715  -1    5       *   a splint mail vest
+M 0 7707   8 7769  1    * A githyanki guardian
+E 1 7708  -1   16       *   an extremely sharp and thin sword
+E 1 7715  -1    5       *   a splint mail vest
+M 0 7708   3 7755  1    * A githyanki knight
+E 1 7709  -1   16       *   a thin two-handed sword
+E 1 7715  -1    5       *   a splint mail vest
+E 1 7716  -1    7       *   a splint mail skirt
+E 1 7717  -1   10       *   a pair of splint mail sleeves
+M 0 7711   6 7753  1    * An evil gish
+E 1 7706  -1   16       *   a silvery knife
+M 0 7711   6 7759  1    * An evil gish
+E 1 7706  -1   16       *   a silvery knife
+M 0 7711   6 7762  2    * An evil gish
+E 1 7706  -1   16       *   a silvery knife
+M 0 7711   6 7763  2    * An evil gish
+E 1 7706  -1   16       *   a silvery knife
+M 0 7711   6 7762  2    * An evil gish
+E 1 7706  -1   16       *   a silvery knife
+G 1 7722  -1            *   a silvery-colored potion
+M 0 7711   6 7763  2    * An evil gish
+E 1 7706  -1   16       *   a silvery knife
+G 1 7722  -1            *   a silvery-colored potion
+M 0 7712   4 7764  1    * A warlock of the Gith
+E 1 7710  -1   16       *   a silvery sword
+G 1 7703  -1            *   a scroll with githyanki writings on it
+M 0 7712   4 7773  1    * A warlock of the Gith
+E 1 7710  -1   16       *   a silvery sword
+G 1 7703  -1            *   a scroll with githyanki writings on it
+M 0 7712   4 7774  2    * A warlock of the Gith
+E 1 7710  -1   16       *   a silvery sword
+G 1 7703  -1            *   a scroll with githyanki writings on it
+M 0 7712   4 7774  2    * A warlock of the Gith
+E 1 7710  -1   16       *   a silvery sword
+G 1 7703  -1            *   a scroll with githyanki writings on it
+M 0 7716   1 7772  1    * An imprisoned githzerai
+M 0 7717   1 7771  1    * A tortured mindflayer prisoner
+M 0 7718   1 7768  1    * The enslaved red dragon
+E 1 7713  -1    0       *   a brightly flaming stone
+M 0 7719   6 7768  6    * A massive blast of fire
+M 0 7719   6 7768  6    * A massive blast of fire
+M 0 7719   6 7768  6    * A massive blast of fire
+M 0 7719   6 7768  6    * A massive blast of fire
+M 0 7719   6 7768  6    * A massive blast of fire
+M 0 7719   6 7768  6    * A massive blast of fire
+M 0 7709   2 7776  2    * A githyanki protector
+E 1 7709  -1   16       *   a thin two-handed sword
+E 1 7715  -1    5       *   a splint mail vest
+E 1 7716  -1    7       *   a splint mail skirt
+E 1 7717  -1   10       *   a pair of splint mail sleeves
+E 1 7718  -1    9       *   a pair of ornately designed gauntlets
+M 0 7709   2 7776  2    * A githyanki protector
+E 1 7709  -1   16       *   a thin two-handed sword
+E 1 7715  -1    5       *   a splint mail vest
+E 1 7716  -1    7       *   a splint mail skirt
+E 1 7717  -1   10       *   a pair of splint mail sleeves
+E 1 7718  -1    9       *   a pair of ornately designed gauntlets
+M 0 7713   1 7777  1    * The lich-queen
+E 1 7711  -1   16       *   an iron barbed flail
+E 1 7724  -1   17       *   a black pentagram
+G 1 7702  -1            *   a black etched tablet
+M 0 7714   1 7779  1    * Lord Gith
+E 1 7712  -1   16       *   the unholy sword of the githyanki
+E 1 7719  -1    5       *   a decaying vest made from cracked leather
+G 1 7725  -1            *   a rotting pouch
+S
+#SHOPS
+0
+#SPECIALS
+M 7702 spec_cast_mage           * An evil night hag
+M 7705 spec_thief               * A githyanki hunter
+M 7710 spec_cast_mage           * An evil gish
+M 7711 spec_cast_mage           * An evil gish
+M 7712 spec_cast_mage           * A warlock of the Gith
+M 7713 spec_cast_undead         * The lich-queen
+M 7714 spec_cast_undead         * Lord Gith
+M 7715 spec_cast_undead         * An insubstantial ghost
+M 7717 spec_cast_mage           * A tortured mindflayer prisoner
+M 7718 spec_cast_mage           * The enslaved red dragon
+M 7719 spec_breath_fire         * A massive blast of fire
+S
+#$
+
