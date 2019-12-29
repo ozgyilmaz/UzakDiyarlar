@@ -1,13 +1,13 @@
 #AREA
-plains.are~
-Plains~
-{ 1 20} Copper  Plains of the North~
+kuzeyin_duzlukleri.are~
+Kuzeyin Düzlükleri~
+{ 1 20} Copper  Kuzeyin Düzlükleri~
 300 399
 #MOBILES
 #300
-oldstyle druid Aruncus~
-Aruncus the Druid~
-Aruncus the Druid is walking around here, searching for herbs.
+rahip Aruncus~
+Rahip Aruncus~
+Rahip Aruncus etrafta dolaþýp ihtiyaç duyduðu bitkileri arýyor.
 ~
 Aruncus is a tall, skinny druid with a face marked by nature.
 He seems to be in peace with himself and his surroundings.
@@ -20,9 +20,9 @@ EFNU 0 0 0
 stand stand male 25
 0 0 medium 0
 #301
-oldstyle hermit sorbus~
-Sorbus the Hermit~
-Sorbus the Hermit is sitting here, roasting a rabbit.
+keþiþ sorbus~
+Keþiþ Sorbus~
+Keþiþ Sorbus burada oturmuþ bir tavþan kýzartýyor.
 ~
 Sorbus bares the marks of a long, hard life in solitude.
 He is dressed in simple clothing and looks like he has little
@@ -36,9 +36,9 @@ EFNU 0 0 0
 sit sit male 0
 0 0 medium 0
 #303
-oldstyle citizen~
-the citizen~
-There is a citizen of Ofcol here glaring at you ... stranger!
+vatandaþ~
+vatandaþ~
+Bir Ofcol vatandaþý burada ve dik dik sana bakýyor ... yabancý!
 ~
 He seems like a nice person with no interest in harming you or others.
 He wears normal, light clothing and has an anonymous face.
@@ -51,9 +51,9 @@ EFNU 0 0 0
 stand stand male 10
 0 0 medium 0
 #304
-oldstyle citizen~
-the citizen~
-There is a citizen of Ofcol here glaring at you ... stranger!
+vatandaþ~
+vatandaþ~
+Bir Ofcol vatandaþý burada ve dik dik sana bakýyor ... yabancý!
 ~
 She seems like a nice person with no interest in harming you or others.
 She wears a minimum of clothing and has big ... eyes.
@@ -66,9 +66,9 @@ EFNU 0 0 0
 stand stand female 5
 0 0 medium 0
 #305
-oldstyle worm Shudde-M'ell~
+solucan Shudde-M'ell~
 Shudde-M'ell~
-Shudde-M'ell the Giant worm of G'harne is guarding his treasure.
+Shudde-M'ell, G'harne'nin dev solucaný hazineyi koruyor.
 ~
 Shudde-M'ell is about 15 ft long and is surrounded by an evil stench,
 The worm is the protector of the treasure of G'harne and has been so
@@ -82,9 +82,9 @@ EFNU 0 0 0
 stand stand male 683
 0 0 medium 0
 #306
-oldstyle luxan shopkeeper~
+luxan tezgahtar~
 Luxan~
-Luxan the Shopkeeper is here, eager to sell you anything.
+Tezgahtar Luxan burada, gayretle sana bir þeyler satmaya çalýþýyor.
 ~
 Luxan is dressed in a strange jacket.
 He looks like a mean trader from the outskirts of Midgaard.
@@ -99,9 +99,9 @@ EFNU 0 0 0
 stand stand male 400
 0 0 medium 0
 #308
-oldstyle keeper innkeeper~
-the Innkeeper~
-An Innkeeper is here waiting for your order.
+bekçi hancý~
+Hancý~
+Hancý burada senin emirlerini bekliyor.
 ~
 The Innkeeper looks skilled in brewing different beers and mixing the
 wierdest drinks known. He also looks very big.
@@ -114,9 +114,9 @@ EFNU 0 0 0
 stand stand male 5
 0 0 medium 0
 #309
-oldstyle rabbit~
-the cute rabbit~
-A cute rabbit is here.
+tavþan~
+sevimli tavþan~
+Sevimli bir tavþan burada.
 ~
 It is a small, furry creature with long ears and big feet.
 ~
@@ -128,9 +128,9 @@ ENR 0 0 0
 stand stand none 0
 0 0 medium 0
 #350
-oldstyle dragon pet~
-the pet dragon~
-Ravan's pet dragon is bouncing around here flapping her cute wings.
+evcil ejderha~
+evcil ejderha~
+Ravan'ýn evcil ejderhasý etrafta zýplayýp sevimli kanatlarýný çýrpýyor.
 ~
 Ravan's pet dragon is about 3 ft. tall with small pointy teeth.
 The small wings are eagerly trying to lift her from the ground,
@@ -146,46 +146,46 @@ stand stand female 0
 #0
 #OBJECTS
 #300
-herbs herb timian~
-a small dusk of timian herbs~
-Some herbs are lying here, small green leaves and tiny pink flowers.~
+bitkiler~
+ufak bir bitki öbeði~
+Burada küçük yeþil yapraklý ve minik pembe çiçekli bazý bitkiler var.~
 plant_organism~
 food 0 A
 1 1 0 0 0
 0 10 10 P
 E
-herbs herb timian~
+bitkiler~
 This herb smells rather spicy; maybe you should try it?
 ~
 #301
-herbs herb gyvel~
-a small dusk of black gyvel~
-Some black gyvel is lying here, dark green with black leaves and tiny
+bitkiler~
+koyu renkli bir bitki öbeði~
+Burada koyu yeþil ve siyah yapraklý, minik kan kýrmýzýsý çiçekleri olan
 blood red flowers.~
 food~
 food 0 A
 1 1 0 0 0
 0 10 10 P
 E
-herbs herb gyvel~
+bitkiler~
 This herb smells rather special, but is it poisonous?
 ~
 #302
-plant ivy~
-a small dusk of poison ivy~
-Some poison ivy is growing here.~
+bitkiler sarmaþýk~
+ufak bir zehirli sarmaþýk öbeði~
+Burada bir miktar zehirli sarmaþýk yetiþmiþ.~
 plant_organism~
 food 0 A
 1 1 0 1 0
 0 10 0 P
 E
-plant ivy~
+bitkiler sarmaþýk~
 This plant has dark green juicy leaves.
 You notice some small white thorns on it.~
 #303
-blood jar~
-a dark red jar~
-A small jar in a dark, red colour.~
+kan kavanoz~
+koyu kýrmýzý bir kavanoz~
+Ýçinde koyu kýrmýzý renkli bir þey olan küçük bir kavanoz.~
 glass~
 drink 0 A
 2 2 'blood' 0 0
@@ -196,9 +196,9 @@ The jar is made of dry clay, covered with markings suggesting its
 occult origin.
 ~
 #304
-wild flowers~
-wild flowers~
-A bunch of pretty wild flowers is here.~
+yabani çiçekler~
+yabani çiçekler~
+Burada hoþ bir yabani çiçek demeti var.~
 plant_organism~
 trash K AEO
 0 0 0 0 0
@@ -208,9 +208,9 @@ wild flowers~
 These wild flowers are really pretty.
 Just like the flowers you would wear in your hair.~
 #307
-amulet~
-a strange amulet~
-A strange looking amulet is lying here, half covered with dust.~
+muska~
+tuhaf bir muska~
+Garip görünen bir muska burada, nerdeyse tamamen toz içinde kalmýþ.~
 bronze~
 jewelry GH AC
 0 0 0 0 0
@@ -224,9 +224,9 @@ have belonged to a druid.  It is weird looking with symbols from nature
 dominating it.
 ~
 #308
-staff stick~
-a druish staff~
-A staff with druidic marks have been left here.~
+asa baston~
+bir rahip asasý~
+Üzerinde dini semboller olan bir asa burada býrakýlmýþ.~
 wood~
 trash 0 AO
 0 0 0 0 0
@@ -237,9 +237,9 @@ Then staff is about 5 ft long, engraved with mythical signs and figures.
 Otherwise the staff seems of no real interest.
 ~
 #309
-rabbit roast wabbit~
-a rabbit roast~
-You see a deliciously looking rabbit roast.~
+tavþan kýzartmasý~
+bir tavþan kýzartmasý~
+Leziz görünen bir tavþan kýzartmasý gözüne çarpýyor.~
 meat~
 food 0 A
 24 24 0 0 0
@@ -251,9 +251,9 @@ You guess that this once was a ferocious rabbit who's life now has
 changed to that of a tasty wabbit woast.
 ~
 #310
-template scroll~
-a strange template~
-A strange template made of an exotic green metal is placed here~
+þablon parþömen~
+garip bir þablon~
+Garip, yeþil bir kaðýt burada duruyor.~
 vellum~
 scroll G AO
 15 'sleep' 'blindness' 'fireball' ''
@@ -267,9 +267,9 @@ Inscripted upon is the words 'Ep ep fi'hur G'harne
 And beneath the inscription you see horrifying death scenes depicted.
 ~
 #311
-potion clear~
-a clear potion~
-A clear potion wrapped in leather is unnoticed placed here.~
+iksir berrak~
+berrak iksir~
+Deriye sarýlmýþ berrak bir iksir dikkat çekmeyecek þekilde buraya konmuþ.~
 glass~
 potion G A
 20 'detect evil' 'detect invis' 'detect magic' ''
@@ -285,9 +285,9 @@ potion. When you look through it you notice strange things...
 The clear potion is certainly not of this world.
 ~
 #312
-scroll jhyfrdow~
-a scroll titled 'jhyfrdow'~
-An odd looking scroll is here.~
+parþömen jhyfrdow~
+'jhyfrdow' baþlýklý bir parþömen~
+Burada acayip görünen bir parþömen var.~
 vellum~
 scroll 0 A
 18 'protection evil' '' '' ''
@@ -308,7 +308,7 @@ men doing some kind of a ritual.
 
 #ROOMS
 #300
-Path in the plains~
+Ovalardaki patika~
 You are walking on a path situated in the rough plains.
 You feel the strong winds blow through your hair as you study
 the beautiful landscaping here. The path continues east, north
@@ -338,7 +338,7 @@ You see the grassy plains.
 0 -1 316
 S
 #301
-Path in the plains~
+Ovalardaki patika~
 You are walking on a path situated in the rough plains.
 You feel the strong winds blow through your hair as you study
 the beautiful landscaping here. The path continues east and west.
@@ -356,7 +356,7 @@ You notice nothing special, except that the path in the plains continues.
 0 -1 300
 S
 #302
-Path in the plains~
+Ovalardaki patika~
 You are walking on a path situated in the rough plains.
 You feel the strong winds blow through your hair as you study
 the beautiful landscaping here. The path continues north and west.
@@ -374,7 +374,7 @@ You notice nothing special, except that the path in the plains continues.
 0 -1 301
 S
 #303
-Path in the plains~
+Ovalardaki patika~
 You are walking on a path situated in the rough plains.
 You feel the strong winds blow through your hair as you study
 the beautiful landscaping here. The path leads north and south.
@@ -403,7 +403,7 @@ To the west you can see more of the beautiful grassy plains.
 0 -1 315
 S
 #304
-Path in the plains~
+Ovalardaki patika~
 You are walking on a path situated in the rough plains.
 You feel the strong winds blow through your hair as you study
 the beautiful landscaping here. The Path leads north and south.
@@ -421,7 +421,7 @@ The path leads south towards the town.
 0 -1 303
 S
 #305
-Path in the plains~
+Ovalardaki patika~
 You are walking on a path situated in the rough plains.
 You feel the strong winds blow through your hair as you watch the
 beautiful landscaping here. To the east and west you see the grassy plains.
@@ -450,7 +450,7 @@ You see the grassy plains here.
 0 -1 320
 S
 #306
-Path in the foothills~
+Dað eteklerindeki patika~
 You are on the path leading through the small foothills.
 The wind blow through your hair as you study the beautiful
 landscaping here. From the north you sense a certain freshness.
@@ -474,7 +474,7 @@ The path in the plains wind through the small foothills.
 0 -1 305
 S
 #307
-Path in the foothills~
+Dað eteklerindeki patika~
 You are walking on a path situated in the small foothills.
 The winds are more than average here but it feels nice. You can follow
 the path east or west.
@@ -492,7 +492,7 @@ To the west the path takes a bend southwards.
 0 -1 306
 S
 #308
-Path in the foothills~
+Dað eteklerindeki patika~
 You are walking on a narrow path in the foothills.
 You feel the strong winds blow through your hair as you study
 the beautiful landscaping here. The path goes north and west.
@@ -510,7 +510,7 @@ To the west you can see the path continues.
 0 -1 307
 S
 #309
-Path in the foothills~
+Dað eteklerindeki patika~
 You are walking on a path situated in foothills.
 To the west you sense a certain freshness and the path continues
 south and east.
@@ -533,7 +533,7 @@ You see grassy plains and perhaps some crystal clear water.
 0 -1 326
 S
 #310
-Path in the foothills~
+Dað eteklerindeki patika~
 You are walking on a long path in the east-west direction.
 The surroundings are green, vegetated foothills.
 You are able to force your way through some dense plants to the north.
@@ -556,7 +556,7 @@ You just see the path through the foothills.
 0 -1 309
 S
 #311
-Path in the foothills~
+Dað eteklerindeki patika~
 You are walking on the long, narrow path through the foothills.
 To your east you see a T-intersection and to the west the path
 continues far.
@@ -574,7 +574,7 @@ You can see the long path through the plains.
 0 -1 310
 S
 #312
-The path intersection~
+Patika kesiþmesi~
 You are standing on an intersection between 3 paths.
 To the west you can follow a long, narrow path through the foothills.
 To the north a wide path leads to the Village of Ofcol and an
@@ -603,7 +603,7 @@ You can see the long narrow path running through the foothills.
 0 -1 311
 S
 #313
-Road to Ofcol~
+Ofcol Yolu~
 You are walking on a wide road with trail marks on it.  To the north
 you see the village of Ofcol and to the south there is the T intersection.
 You can enter the foothills west.  The foothills to your east are too
@@ -627,7 +627,7 @@ You think you can climb these foothills.
 0 -1 327
 S
 #314
-Outside Ofcol~
+Ofcol'un Dýþý~
 You are standing outside the village of Ofcol.
 The village looks very small, but still a nice and safe place to stay.
 You may enter the city to the north or journey towards the
@@ -647,7 +647,7 @@ Here you see the road go towards the intersection.
 0 -1 313
 S
 #315
-Gallow hill~
+Daraðacý tepesi~
 You walk in the grassy plains. On this little hill you can see
 two gallows, with rotting human tissue hanging from the ropes.
 There is a sign here.
@@ -676,15 +676,17 @@ The plains extend far to the west.
 E
 sign~
 The sign says:
-  Loyal citizens of Midgaard.  These are the earthly remains of the
+
+  Loyal citizens of Selenge.  These are the earthly remains of the
   two heretics 'Dim' and 'Gamma' of this world. Having forged them-
   selves to immortality, they called upon themselves the anger of the
   implementators.  Let this be a lesson too all .....
+
                                     -- the Powers that Be.
 ~
 S
 #316
-Grassy plains~
+Çimenlik ovalar~
 You walk in the grassy plains among the herbs which grow here. The wind is
 strong and rough. Far to the north you can see the foothills and further on
 mountain peaks are visible.
@@ -702,7 +704,7 @@ When you look to the east you notice at small path.
 0 -1 300
 S
 #317
-Grassy plains~
+Çimenlik ovalar~
 You walk in the grassy plains among the herbs which grow here. The wind is
 strong and rough. Far to the north you can see the foothills and further on
 mountain peaks are visible. City of Midgaard is to the south but so are some
@@ -726,7 +728,7 @@ A small path is running through the plains.
 0 -1 303
 S
 #318
-Grassy plains~
+Çimenlik ovalar~
 You walk in the beautiful grassy plains. The wind is strong and rough.
 Far to the north you can see the foothills and further on mountain peaks
 are visible.
@@ -749,7 +751,7 @@ The plains extend far to the south.
 0 -1 316
 S
 #319
-Grassy plains~
+Çimenlik ovalar~
 You walk in the grassy plains among the herbs which grow here. The wind is
 strong and rough. To the north you can see the foothills and just behind
 mountain peaks are visible.
@@ -773,7 +775,7 @@ The plains extend far to the south.
 0 -1 318
 S
 #320
-Grassy plains~
+Çimenlik ovalar~
 You walk in some grassy plains. The wind is strong and rough. To the
 north you can see the foothills and further on mountain peaks are visible.
 ~
@@ -800,7 +802,7 @@ The plains extend far to the west.
 0 -1 319
 S
 #321
-Grassy plains~
+Çimenlik ovalar~
 You walk in the grassy plains. The wind is fairly strong.
 ~
 0 0 4
@@ -816,7 +818,7 @@ A small path is running through the plains.
 0 -1 305
 S
 #322
-Grassy foothills~
+Çimenlik dað etekleri~
 You walk in the grassy foothills north of the plains. The wind is rough.
 To the north you can see foothills and just behind them mountain peaks
 are visible.
@@ -839,7 +841,7 @@ The small foothills extend far to the west.
 0 -1 330
 S
 #323
-The steep foothills~
+Dik dað etekleri~
 You walk in the steep foothills. It is rather hard to move here.
 To the north you can see a grassy valley with wildflowers.
 ~
@@ -861,7 +863,7 @@ On the horizon you can see the City of Midgaard.
 0 -1 330
 S
 #324
-The steep foothills~
+Dik dað etekleri~
 You are walking in the steep foothills. It is rather hard to move here.
 To the north you can see the mountains towering over you.  Pine trees
 grow here.
@@ -899,7 +901,7 @@ the sky.
 ~
 S
 #325
-The steep foothills~
+Dik dað etekleri~
 You are walking in the steep foothills. It is rather hard to move here.
 Further to the north you can see the mountains towering over you.
 Several pinetrees grow here.
@@ -922,7 +924,7 @@ The foothills extend far to the west.
 0 -1 324
 S
 #326
-The pool in the foothills~
+Dað eteklerindeki su birikintisi~
 You are standing by a pool in the small foothills. It is clear and cold.
 A steep slope rises up into the foothills to the north. Behind them ...
 the mountains.
@@ -950,7 +952,7 @@ you can't see the bottom of it ... it must be pretty deep.
 ~
 S
 #327
-The foothills~
+Dað etekleri~
 You are walking in some foothills. It is rather hard to move here.
 Further to the north you can see the mountains towering over you.
 Several pinetrees grow here.
@@ -968,7 +970,7 @@ To the south a steep slope runs down to a small path in the foothills.
 0 -1 310
 S
 #330
-In front of hut in foothills~
+Dað eteklerindeki kulübenin önü~
 You are standing in the foothills. To the west, well hidden among the small
 foothills and pines, you see a small hut. To the north you can see
 the foothills, and some pineforrest. Further on mountain peaks are visible.
@@ -996,7 +998,7 @@ door~
 1 -1 331
 S
 #331
-Hermit's hut~
+Keþiþin kulübesi~
 You are inside the hermit's hut. It is rather old, but serves it purpose.
 It keeps its habitant from the rough winds and dangerous beasts of the
 plains and foothills. There is a small fireplace here.
@@ -1013,7 +1015,7 @@ The hermit cooks here.
 ~
 S
 #332
-The ancient path~
+Kadim patika~
 You are moving on an ancient path. The path is slightly covered with
 leaves and twitches.
 To the north you can see the T-crossing and the path continues south.
@@ -1036,7 +1038,7 @@ An Ancient Path through the Dark Forest.
 0 -1 2400
 S
 #333
-The ancient path~
+Kadim patika~
 You are standing on the ancient path which runs north and south.
 The path is hardly visible here.
 ~
@@ -1053,7 +1055,7 @@ You trace the path carefully and see no immediate dangers.
 0 -1 334
 S
 #334
-The ancient path~
+Kadim patika~
 You are standing on the ancient path which runs north and south.
 The path is hardly visible here.
 ~
@@ -1070,7 +1072,7 @@ You trace the path carefully and see no immediate dangers.
 0 -1 335
 S
 #335
-The ancient path~
+Kadim patika~
 The path runs north and east from here.  You notice some markers placed
 along the side of the path.
 ~
@@ -1096,7 +1098,7 @@ arranged makes you think there is something special about them.
 ~
 S
 #336
-The wooden bridge~
+Tahta köprü~
 You have stepped upon a wooden bridge. It looks old but safe to cross.
 It is made of a wood you haven't seen before.
 ~
@@ -1119,7 +1121,7 @@ You notice it's possible to enter the ring.
 ~
 S
 #337
-The ancient path~
+Kadim patika~
 You find yourself located between the bridge and the rock formations.
 As you approach the formations you begin to realize the true size of
 them, about 15 feet tall and almost perfect rectangular shape.
@@ -1143,7 +1145,7 @@ You notice it's possible to enter the ring.
 ~
 S
 #338
-Grassy plains~
+Çimenlik ovalar~
 You walk in the grassy plains among the herbs which grow here. The wind is
 strong and rough. Far to the north you can see the foothills and further on
 mountain peaks are visible.
@@ -1165,7 +1167,7 @@ D5
 0 -1 8855
 S
 #339
-The Stones of G'harne~
+G'harne'nin taþlarý~
 You are in the center of 7, 15 ft tall monolith like black stones.
 In the center of the ring formed by the monolith you can't help
 noticing a big sacrifice altar. The ground is covered with dirt, but the
@@ -1202,7 +1204,7 @@ It resembles black marble, but somehow feels different.
 ~
 S
 #340
-Dark smelly tunnels~
+Kötü kokan karanlýk tüneller~
 You are standing in a gloomy tunnel leading south and west, right under
 the altar of G'harne.  The walls are covered with a smelly slime and small
 rotting pieces of a meat like substance, fills the air with an unbearable
@@ -1230,7 +1232,7 @@ You puke.
 ~
 S
 #341
-Dead end of tunnel~
+Tünelin çýkmaz sonu~
 The tunnel comes to an abrupt end here. It simply looks like it
 hasn't been excavated further.  North of here the tunnel makes a turn east.
 ~
@@ -1241,7 +1243,7 @@ D0
 0 -1 340
 S
 #342
-Dark smelly tunnels~
+Kötü kokan karanlýk tüneller~
 You are standing in a gloomy tunnel leading east and west.
 The walls are covered with a smelly slime and small rotting pieces of a
 meat like substance, fills the air with an unbearable stench.
@@ -1265,7 +1267,7 @@ You puke.
 ~
 S
 #343
-Dark smelly tunnels~
+Kötü kokan karanlýk tüneller~
 You are standing in a small smelly tunnel under the plains.
 The smell is growing stronger to the west, so is the density of the
 slime and other undeterminable substances ...
@@ -1287,7 +1289,7 @@ BWADR! ...
 ~
 S
 #344
-The Hall of G'harne~
+G'harne'nin Salonu~
 You stand in the hall of G'harne. The walls are dressed with strange
 carving, symbolizing human sacrifice and people worshipping giant worms.
 Disgusting slime and gore are also very dominant in your view of this room.
@@ -1304,14 +1306,14 @@ You puke.
 ~
 S
 #345
-Steep slope~
-You try to climb down the slope.
+Dik bayýr~
+Bayýrda ilerlemeye çalýþýyorsun.
 >
-You slip!
-You fall and tumble.
-You hit your head HARD.
-You die.
-You've fallen, and you can't get up!
+Ayaðýn kaydý!
+Yuvarlandýn ve yere yýkýldýn.
+Kafaný FENA çarptýn.
+Öleceksin.
+Devrildin, ve kalkacak gücün bile yok!
 ~
 0 C 2
 S
