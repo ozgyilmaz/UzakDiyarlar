@@ -1,16 +1,16 @@
 #AREA
-gstrong.are~
-Goblin Stronghold~
-{10 20} Badaxe  Goblin Stronghold~
+goblin_kalesi.are~
+Goblin Kalesi~
+{10 20} Badaxe  Goblin Kalesi~
 29000 29099
 
 #MOBILES
 #29001
-king goblin Grumm~
-Grumm~
-Grumm, King of the Goblins isn't happy to see you.
+goblin kralý grumm~
+grumm~
+Goblin Kralý Grumm seni gördüðü için pek mutlu deðil!
 ~
-You see a balding, overweight goblin, but he looks quite tough!
+Kel, kilolu bir goblin görüyorsun fakat çokda güçlü olsa gerek.
 ~
 goblin~
 ABFHT Jb -600 0
@@ -20,11 +20,12 @@ FKNPR A BQ C
 stand stand male 800
 0 0 medium 0
 #29002
-shaman goblin~
-The goblin shaman~
-A goblin up from his writing and glares at your intrusion on his work.
+goblin þamaný~
+þaman~
+Yazýsýndan kalkýp odaya girip onu bölmeye cürret eden kiþiye(Sana)
+sinirle bakýyor.
 ~
-His face is sour and pale. He probably takes his religion very seriously.
+Yüzü ekþi ve soluk bir goblin. Ýþine kendini çok verdiðini düþündürüyor.
 ~
 goblin~
 ABFHQ J -600 0
@@ -34,14 +35,13 @@ PR A Q C
 stand stand male 90
 0 0 medium 0
 #29003
-mage goblin~
-Goblin Mage~
-A goblin mage is angered by your intrusion.
+goblin büyücü~
+goblin~
+Goblin büyücüsü onu rahatsýz etmenden dolayý bir hayli sinirli.
 ~
-This goblin mage has been working for months towards this moment. And YOU
-have intruded upon him! He looks REALLY pissed off! Clad in a pile of filth
-your dog would not sleep in, he is much smaller than the other goblins in the
-stronghold.
+Goblin büyücüsü uzun süredir bu an için çalýþmaktaydý, ve SEN bu aný
+MAHFETTÝN! GERÇEKTENDE çok sinirli bir þekilde sana bakýyor! Goblin
+kalesindeki diðer goblinlerden oldukça kýsa olduðunu görüyorsun.
 ~
 goblin~
 ABFHR BCDEFJVd -600 0
@@ -51,11 +51,11 @@ PR A Q C
 stand stand male 100
 0 0 medium 0
 #29004
-champion goblin knarl~
-Knarl~
-Before you is the biggest goblin you have ever seen.
+þampiyon goblin knarl~
+knarl~
+Önünde gördüðün en güçlü goblin duruyor.
 ~
-Knarl glares right back at you.
+Knarl sana sinsice sýrýtýyor.
 ~
 goblin~
 ABFT FJPVb -1000 0
@@ -65,11 +65,12 @@ CDEFKPR A BQ C
 stand stand male 100
 0 0 medium 0
 #29005
-guard goblin~
-goblin guard~
-A goblin guard eyes you suspiciously.
+goblin muhafýz~
+muhafýz goblin~
+Goblin muhafýzý þüpheli bir þekilde seni süzüyor.
 ~
-A bit larger than your average goblin, guards are bullies to the others.
+Averaj goblinlerden daha geniþ bir gobline bakýyorsun. Etrafýndaki diðer
+goblinlere kabadayýlýk ediyor.
 ~
 goblin~
 ABFT J -600 29005
@@ -79,11 +80,12 @@ R A Q C
 stand stand male 100
 0 0 medium 0
 #29006
-guard goblin~
-a goblin guard~
-A goblin guard eyes you suspiciously.
+muhafýz goblin~
+goblin muhafýzý~
+Goblin muhafýzý burada sana þüpheli bir þekilde bakýyor.
 ~
-A bit larger than your average goblin, guards are bullies to the others.
+Averaj goblinlerden daha geniþ bir gobline bakýyorsun. Etrafýndaki diðer
+goblinlere kabadayýlýk ediyor.
 ~
 goblin~
 AFT J -600 29006
@@ -94,10 +96,10 @@ stand stand male 100
 0 0 medium 0
 #29007
 goblin~
-The goblin~
-A goblin is here, slacking off.
+goblin~
+Goblin burada boþ boþ dolanýyor.
 ~
-He's ugly, green, and smelly... What's more to say?
+Çirkin, yeþil ve iðrenç bir þekilde kokan birisi. Daha ne söylenebilirki?
 ~
 goblin~
 AFT J -600 29007
@@ -107,11 +109,12 @@ R A Q C
 stand stand male 0
 0 0 small 0
 #29008
-goblin prisoner~
-the goblin prisoner~
-A goblin is here, shackled to the wall.
+goblin mahkum~
+goblin mahkum~
+Goblin burada duvara zincirlenmiþ duruyor.
 ~
-You notice his skin is more blueish... perhaps he's from another tribe?
+Derisinin daha mavimsi olduðunu görüyorsun, belkide baþka bir kabileye
+baðlý.
 ~
 goblin~
 AT J -600 0
@@ -121,11 +124,11 @@ AT J -600 0
 6 6 1 0
 0 0 small 0
 #29009
-leper goblin~
-the goblin~
-This goblin looks very sick.
+cüzzamlý goblin~
+goblin~
+Bu goblin çok hasta gözüküyor.
 ~
-He screams! Don't look at me!! Aaargh... leper outcast unclean!
+Sana baðýrýyor! Bana bakma! ! Aaargh... Dýþlanmýþ cüzzamlý ve pis...
 ~
 goblin~
 ACFGS FJPQXbd 0 29009
@@ -136,10 +139,10 @@ stand stand male 2
 0 A small 0
 #29010
 goblin~
-the goblin~
-A goblin is here, peeling potatoes.
+goblin~
+Goblin burada, patates doðruyor.
 ~
-He's ugly, green, and smelly... What's more to say?
+Çirkin, yeþil ve iðrenç bir þekilde kokan birisi. Daha ne söylenebilirki?
 ~
 goblin~
 ABFT J -600 29010
@@ -149,11 +152,11 @@ R A Q C
 stand stand male 20
 0 0 small 0
 #29011
-demon lesser~
-The Lesser Demon~
-A dark, horned figure is trapped inside the pentagram.
+zayýf iblis~
+zayýf iblis~
+Karanlýk, boynuzlu bir figür pentagramýn içinde hapsolmuþ.
 ~
-He really wants to get out of that pentagram. Maybe you should let him out?
+Gerçektende pentagramdan çýkmak istiyor; belkide yardým etmelisin ona?
 ~
 human~
 ABG Hb -1000 0
@@ -163,11 +166,11 @@ CDEFIKMN AB HQ EN
 stand stand male 100
 0 0 large 0
 #29012
-girl dancing goblin Britta~
-the dancing girl~
-A pretty female goblin entertains the court.
+dansöz goblin britta~
+danseden bir kýz~
+Güzel diþi goblin etrafýndakileri etkilemeye çalýþýyor.
 ~
-She is quite pretty, even for a goblin.
+Bu kýz gerçektende güzel, goblin olsa bile.
 ~
 goblin~
 ABFT J -600 0
@@ -177,11 +180,12 @@ R A Q C
 stand stand female 100
 0 0 small 0
 #29013
-goblin jester~
-the goblin jester~
-A obnoxious little runt makes fun of you.
+soytarý goblin~
+soytarý goblin~
+Tiksindirici bu küçük goblin seninle dalga geçmeye çalýþýyor.
 ~
-He wears a stupid green suit with bells on it. You hate him.
+Üzerinde ziller olan,aptal, yeþil bir kostüm giyiyor. Ondan nefret
+ediyorsun.
 ~
 goblin~
 AFT J -600 0
@@ -196,73 +200,73 @@ stand stand male 10
 
 #OBJECTS
 #29001
-jacket goblin scale mail~
-a goblin scale mail jacket~
-A goblin scale mail jacket is lying on the ground.~
+zýrhlý goblin ceketi~
+zýrhlý goblin ceketi~
+bir zýrhlý goblin ceketi yerde duruyor.~
 bone~
 armor 0 AD
 3 4 4 0 0
 10 100 849 G
 #29002
-jerkin goblin scale mail~
-a goblin scale mail jerkin~
-A goblin scale mail jerkin is lying on the ground.~
+zýrhlý goblin yeleði~
+zýrhlý goblin yeleði~
+bir zýrhlý goblin yeleði yerde duruyor~
 bone~
 armor 0 AD
 3 4 4 0 0
 9 90 530 G
 #29003
-skirt goblin scale mail~
-a goblin long scale mail skirt~
-A goblin long scale mail skirt is lying on the ground.~
+zýrhlý goblin eteði~
+zýrhlý ve uzun goblin eteði~
+zýrhlý ve uzun bir goblin eteði yerde duruyor~
 bone~
 armor 0 AF
 3 5 4 0 0
 11 120 500 G
 #29004
-sleeves goblin scale mail~
-a pair of goblin scale mail sleeves~
-A pair of goblin scale mail sleeves is lying on the ground.~
+zýrhlý giysi kolu~
+bir çift zýrhlý giysi kolu~
+bir çift zýrhlý giysi kolu yerde duruyor~
 bone~
 armor 0 AI
 3 4 4 0 0
 8 60 400 G
 #29005
-shirt goblin chain mail~
-a goblin chain mail shirt~
-A goblin chain mail shirt is lying on the ground.~
+zýrhlý goblin gömleði~
+zýrhlý goblin gömleði~
+zýrhlý goblin gömleði yerde duruyor.~
 steel~
 armor 0 AD
 5 4 5 0 0
 12 180 800 G
 #29006
-skirt goblin chain mail~
-a goblin long chain mail skirt~
-A goblin long chain mail skirt is lying on the ground.~
+saðlam zýrhlý goblin eteði~
+saðlam zýrhlý goblin eteði~
+saðlam zýrhlý goblin eteði yerde duruyor~
 steel~
 armor 0 AF
 5 4 5 0 0
 12 100 800 G
 #29007
-gauntlets goblin chain mail~
-a pair of goblin chain mail gauntlets~
-A pair of goblin chain mail gauntlets is lying on the ground.~
+saðlam zýrhlý goblin eldiveni~
+bir çift saðlam zýrhlý goblin eldiveni~
+bir çift saðlam zýrhlý goblin eldiveni yerde duruyor.~
 steel~
 armor 0 AH
 5 4 5 0 0
 10 40 700 P
 #29008
-sleeves goblin chain mail~
-a pair of goblin chain mail sleeves~
-A pair of goblin chain mail sleeves is lying on the ground.~
+saðlam zýrhlý goblin giysi kolu~
+bir çift saðlam zýrhlý goblin giysi kolu~
+bir çift saðlam zýrhlý goblin giysi kolu yerde duruyor.~
 steel~
 armor 0 AI
 5 4 5 0 0
 10 80 390 P
 #29009
-crown king goblin~
-the Great Crown of the Goblin King~
-A simple crown of silver lies here. It looks quite old.~
+goblin kral tacý~
+Goblin kralýnýn muhteþem tacý~
+Sýradan gümüþ bir tac burada duruyor. Oldukça eski görünüyor.~
 silver~
 armor G AE
 4 6 5 3 0
@@ -270,9 +274,9 @@ armor G AE
 A
 13 21
 #29010
-grumm axe~
-the Great War Axe of Grumm~
-A quite large, two-handed and double bladed axe lies before you.~
+grumm balta~
+Grumm ýn muhteþem savaþ baltasý~
+oldukça geniþ, iki elli ve çift býçaklý balta önünde duruyor~
 iron~
 weapon ABEGLRY AN
 axe 5 5 slash CDF
@@ -282,9 +286,9 @@ A
 A
 19 4
 #29011
-helmet goblin horned dark~
-a dark goblin horned helmet~
-A dark goblin horned helmet lies here~
+boynuzlu siyah goblin miðferi~
+boynuzlu siyah goblin miðferi~
+boynuzlu siyah goblin miðferi burada duruyor~
 iron~
 armor 0 AE
 3 5 4 0 0
@@ -294,9 +298,9 @@ A
 A
 19 1
 #29012
-arm guards granite~
-a pair of carved granite armguards.~
-You see a large hollow tube carved of granite.~
+granit kolluk~
+bir çift keskin granit kolluk~
+bir çift keskin granit kolluk görüyorsun~
 stone~
 armor GM AI
 6 6 9 2 0
@@ -308,9 +312,9 @@ arm guards armguards granite~
 These heavy armguards have been carved from the rock of these caverns.
 ~
 #29013
-cape green filthy~
-a filthy green cape~
-You see a pile of green rags on the floor~
+kirli yeþil pelerin~
+kirli yeþil pelerin~
+kirli yeþil pelerin yerde duruyor.~
 cloth~
 armor G AK
 1 2 1 1 0
@@ -327,9 +331,9 @@ You see a cape ridden with filth and vermin. You're not going to WEAR it are
 you?
 ~
 #29014
-dagger shard stone~
-a stone shard~
-A sharp pointed rock lies here.~
+kýrýk taþlý hançer~
+kýrýk taþ~
+sivri uçlu kýrýk bir taþ yerde duruyor~
 stone~
 weapon AG AN
 dagger 4 4 stab D
@@ -343,9 +347,9 @@ A stone shard~
 Looks like it would make a good weapon.
 ~
 #29015
-sword goblin short~
-a goblin's shortsword~
-It looks heavier than your average shortsword, but it could use sone oiling.~
+kýsa goblin kýlýç~
+kýsa goblin kýlýcý~
+normal bir kýsa kýlýçtan daha aðýr görünüyor, ama yinede biraz yaðlanma yapýlabilinir.~
 iron~
 weapon G AN
 sword 4 4 slash D
@@ -353,21 +357,21 @@ sword 4 4 slash D
 A
 19 1
 #29016
-potion frothing black~
-a frothing black potion~
-You see a frothing black potion. ~
+köpüren siyah iksir~
+köpüren siyah iksir~
+köpüren siyah iksir görüyorsun~
 glass~
 potion BG AO
-15 'heal' 'curse' 'heal' 'remove curse'   
+15 'heal' 'curse' 'heal' 'remove curse'
 10 20 10000 G
 E
 frothing black potion~
 It's moving. You can see little bugs and other chunks floating in it.
 ~
 #29017
-sword long two two-hand two-handed~
-a long two-handed sword~
-A long two-handed sword has been left here.~
+çift-elli uzun kýlýç~
+çift-elli uzun kýlýç~
+çift-elli uzun bir kýlýç burada býrakýlmýþ~
 iron~
 weapon AG AN
 sword 4 6 slash DF
@@ -381,41 +385,41 @@ A
 A
 5 -2
 #29018
-key shaman goblin~
-the goblin shaman's key~
-An old rusty key has been forgotten here.~
+þaman goblinin anahtarý~
+þaman goblinin anahtarý~
+eski püskü bir anahtar burada unutulmuþ.~
 iron~
 key 0 AN
 0 0 0 0 0
 5 10 0 G
 #29019
-key king goblin~
-the goblin king's key~
-An old rusty key has been forgotten here.~
+goblin kral anahtar~
+goblin kral'ýnýn anahtarý~
+eski püskü bir anahtar burada býrakýlmýþ~
 iron~
 key 0 AN
 0 0 0 0 0
 5 10 0 G
 #29020
-key mage goblin~
-the goblin mage's key~
-An old rusty key has been forgotten here.~
+anahtar büyücü goblin~
+goblin büyücüsü'nün anahtarý~
+eski püskü bir anahtar burada duruyor.~
 iron~
 key 0 AN
 0 0 0 0 0
 5 10 0 G
 #29021
-key dungeon goblin~
-the goblin dungeon key~
-An old rusty key has been forgotten here.~
+anahtar zindan goblin~
+goblin zindanýnýn anahtarý~
+Eski bir anahtar burada býrakýlmýþ.~
 iron~
 key 0 AN
 0 0 0 0 0
 5 10 0 G
 #29022
-rock big~
-a big rock~
-You see a big rock in the middle of the room. It looks real heavy.~
+kaya büyük~
+büyük kaya~
+Odanýn ortasýnda büyük bir kaya görüyorsun. Gerçektende aðýr olsa gerek.~
 stone~
 container ABGLRY AQ
 600 0 0 100 10
@@ -433,9 +437,9 @@ A
 A
 17 -2
 #29023
-ring britta~
-Britta's Ring~
-You almost miss a tiny ring of gold.~
+yüzük britta~
+Britta'nýn yüzüðü~
+Neredeyse farketmediðin altýn küçük bir yüzük.~
 gold~
 treasure G AB
 0 0 0 0 0
@@ -445,9 +449,9 @@ A
 A
 3 2
 #29024
-Bookcase~
-Bookcase~
-A large wooden bookcase~
+kitaplýk~
+kitaplýk~
+geniþ ahþap kitaplýk~
 wood~
 container 0 0
 100 0 0 50 72
@@ -458,9 +462,9 @@ Its a rather large wooden bookcase. There are many books in it, but they
 are all written in GOBLIN!
 ~
 #29025
-Desk~
-A large mahogany desk~
-A large mahogany desk is here.~
+masa~
+mahun aðacýndan yapýlmýþ bir masa~
+mahun aðacýndan yapýlmýþ bir masa burada duruyor.~
 wood~
 container 0 0
 100 0 0 50 72
@@ -470,9 +474,9 @@ Desk~
 This is a beautiful desk.
 ~
 #29026
-Throne~
-King Grumm's Throne~
-King Grumm's Throne is here.~
+taht~
+Kral Grumm'ýn Tahtý~
+Kral Grumm'ýn Tahtý burada~
 wood~
 furniture A 0
 2 200 ABCDEFGHIJKL 200 200
@@ -484,9 +488,9 @@ many fine gems and precious metals. Unfortunately, the largest of these have
 long since been scavenged.
 ~
 #29027
-table~
-a large mahogany feast table~
-A large mahogany feast table is here.~
+masa~
+yemek masasý~
+Yemek masasý burada~
 wood~
 furniture 0 0
 0 0 0 0 0
@@ -497,9 +501,9 @@ This is by far the finest table you have ever seen. It stretches clear into
 the north end of the Great Hall.
 ~
 #29028
-table~
-A large mahogany feast table~
-A large mahogany feast table is here.~
+masa~
+yemek masasý~
+Yemek masasý burada~
 wood~
 furniture 0 0
 0 0 0 0 0
@@ -510,17 +514,17 @@ This is by far the finest table you have ever seen. It stretches clear into
 the south end of the Great Hall.
 ~
 #29029
-gold~
-a small pile of gold~
-A small pile of gold is here glitering.~
+altýn~
+altýn yýðýný~
+altýn yýðýný burada parýldýyor.~
 gold~
 money 0 A
 0 75 0 0 0
 0 0 0 P
 #29030
-mace heavy iron~
-a heavy iron mace~
-A heavy iron mace lies in the rubble.~
+aðýr demir topuz~
+aðýr demirle dövülmüþ topuz~
+aðýr demirle dövülmüþ topuz burada duruyor.~
 iron~
 weapon 0 AN
 mace 4 5 pound 0
@@ -531,537 +535,538 @@ mace 4 5 pound 0
 
 #ROOMS
 #29001
-The Entry Hall to the Goblin Stronghold~
-You step into a cavern chiseled from solid granite. The first thing
-you notice is the stench. You see goblins everywhere, clad for battle.
-Perhaps they are training for an assault on Midgaard, as they have been
-spotted outside the South Gate more and more frequently. Whatever their
-purpose here, you must put a stop to it. You see a hallways leading east
-and west, and a set of great doors to the south.
-   There is a small (Glowing) (Huming) tablet.
+Goblin Kalesinin Giriþi~
+Katý granitlerin keskinleþtirdiði büyük bir maðaraya adýmýný atýyorsun.
+Ýlk farkettiðin þey bulunduðun yerde etkisini süren pis koku oluyor. Savaþ
+zýrhlarýný kuþanmýþ goblinler her taraftalar. Ýçinden bir düþünce belkide
+goblinlerin yakýnda Selenge'ye saldýrabileceðini söylüyor, belkide güney
+kapýsýnýn dýþýnda gördüðün goblinlerinde bir etkisi olabilir bu düþünceye
+varmanda. Her ne amaç güderlerse gütsünler, senin buna bir son vermen
+gerekiyor. Doðuya, batýya uzanan koridorlar vede güneye doðru geniþ kapýlar
+görmektesin. Burada parlayan küçük bir tablet bulunmakta.
 ~
 0 D 0
 D5
-Poor Alley.
+Arka sokak
 ~
 ~
 0 -1 3044
 D1
-A Hallway in the Stronghold.
+Kalede bir koridor.
 ~
 ~
 0 -1 29019
 D2
-North end of the Great Hall.
+Geniþ hol'ün Kuzey ucu
 ~
-Great Doors~
+Geniþ Kapý~
 1 -1 29002
 D3
-A Hallway in the Stronghold.
+Kalede bir koridor.
 ~
 ~
 0 -1 29018
 E
-small tablet~
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-+                                                                    +
-+   This area has been groked, modified, debugged (?:) and adapted   +
-+   by jaceks in hot, monday's night, june'96                        +
-+                                                                    +
-+   PS. prepare to die                                               +
-+                                                                    +
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Bu bölge 96 yýlýnýn haziran ayýnýn sýcak bir gecesi düzeltildi, onarýldý ve
+uyarlandý + ++++++++ + + DN. Ölmeye hazýrlan ++ Bu harita Siradril
+tarafýndan türkçeye çevrilmiþtir. + + +
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 #29002
-North End of the Great Hall~
-This mighty vaulted cavern seems much too fine to have been crafted by
-the likes of what you see here. Walls are built from carved granite blocks
-which must weigh over a ton apiece. The smooth rock arches up to a perfect
-semi-circular stone ceiling upon which a great battle scene is painted.
-Tapestries and paintings line the walls, but these have fallen into
-disrepair at the hands of the goblin occupants. A long mahogany dining
-table stretches for a full twenty yards, well into the south end of the
-Great Hall. You now notice that the subjects of the artwork here are
-dwarven, not goblin. Perhaps the goblin legions overran this fortress and
-drove the dwarves out. In any event, your work has just begun. The guards
-have noticed you. You better be ready. The Great Hall continues south, with
-doors east and west.
+Geniþ Hol'ün Kuzey Ucu~
+Bu kubbeli maðara etrafýnda gördüðün goblin türünün muazzam bir eseridir.
+Keskin granit bloklarýndan yapýlmýþ duvarlar her blok baþý 1 ton dan daha
+aðýr olsa gerek. Kaygan kaya yukarýdaki mükemmel yarý daire þeklindeki savaþ
+resmini aydýnlatýyor. Duvarlarda çeþitli resimler ve çizimler duruyor, fakat
+goblinlerin ellerine geçtiðinden beri onarýlmadýðýda apaçýk ortada olsa
+gerek. Mahun aðacýndan yapýlmýþ uzun bir yemek masasý yaklaþýk 20 metrelik
+uzunluðuyla karþýnda duruyor. Güneh tarafta Geniþ Hol'ün sonu bulunmakta.
+Buradaki sanat eserlerinin goblinler tarafýndan deðilde cüceler tarafýndan
+yapýldýðýný anlýyorsun. Belkide goblin ordularý buraya bir baskýn verip
+cüceleri buradan dýþarý sürmüþlerdir. Burada ne olmuþ olursa görevin daha
+yeni baþladý. Muhafýzlar seni farketti. Hazýr olan iyi olur. Geniþ Hol
+güneye doðru devam ediyor, ayný zamanda batý ve doðu duvarlarýndaki kapýlarý
+farkediyorsun.
 ~
 0 D 0
 D0
-The Entry Hall to the Goblin Stronghold.
+Goblin Kale'sinin Giriþi
 ~
-Great Doors~
+Geniþ kapý~
 1 -1 29001
 D1
-The Kitchen.
+Mutfak
 ~
 ~
 0 -1 29023
 D2
-South End of the Great Hall.
+Geniþ Hol'ün güney ucu.
 ~
 ~
 0 -1 29003
 D3
-The Training Room.
+Eðitim odasý.
 ~
 ~
 1 -1 29021
 S
 #29003
-South End of the Great Hall~
-This mighty vaulted cavern seems much too fine to have been crafted by
-the likes of what you see here. Walls are built from carved granite blocks
-which must weigh over a ton apiece. The smooth rock arches up to a perfect
-semi-circular stone ceiling upon which a great battle scene is painted.
-Tapestries and paintings line the walls, but these have fallen into
-disrepair at the hands of the goblin occupants. A long mahogany dining
-table stretches for a full twenty yards, well into the north end of the
-Great Hall. A grand archway leads south, and through it you can see a
-throne.
+Geniþ Hol'ün Güney Ucu~
+Bu kubbeli maðara etrafýnda gördüðün goblin türünün muazzam bir eseridir.
+Keskin granit bloklarýndan yapýlmýþ duvarlar her blok baþý 1 ton dan daha
+aðýr olsa gerek. Kaygan kaya yukarýdaki mükemmel yarý daire þeklindeki savaþ
+resmini aydýnlatýyor. Duvarlarda çeþitli resimler ve çizimler duruyor, fakat
+goblinlerin ellerine geçtiðinden beri onarýlmadýðýda apaçýk ortada olsa
+gerek. Mahun aðacýndan yapýlmýþ uzun bir yemek masasý yaklaþýk 20 metrelik
+uzunluðuyla karþýnda duruyor. Kuzey taraftaki Geniþ Hol'e uzanmakta. Güneye
+doðru büyük kemerli bir geçit bulunmakta, dikkatlice bakýnca güneyde taht'ý
+görmektesin.
 ~
 0 D 0
 D0
-North End of the Great Hall.
+Geniþ Hol'ün kuzey ucu
 ~
 ~
 0 -1 29002
 D2
-King Grumm's Throne Room.
+Kral Grumm'un Taht Odasý
 ~
 ~
 0 -1 29004
 S
 #29004
-King Grumm's Throne Room~
-Chaos reigns in the court of King Grumm. Jesters, dancing girls,
-officious-looking goblins, and a myriad of other distractions compete for
-the time of the king. The Throne Room is a perfectly-round chamber with
-a large statue of a heroic-looking dwarf in the centre. Once again,
-tapestries line the walls, portraying battles and glory. If it was possible
-to instil more chaos into this carnival atmosphere, you have succeeded. The
-king leaps to his feat, and goblin guards bar your escape back south. Grumm
-dosen't look like he wants to talk! There is a doorway to your east, and
-another to the west.
+Kral Grumm'un Taht Odasý~
+Kral Grumm'un odasýnda kaos hükmetmekte. Soytarýlar, danseden kadýnlar,
+iþgüzar görünümlü goblinler, ve çok büyük sayýda dikkat daðýtan kiþiler
+kralýn vakti için yarýþmakta. Taht odasý mükkemmel daire þeklinde bir saray
+odasýný andýrýyor, odanýn ortasýnda kahramanvari görünümlü bir cüce heykeli
+bulunmakta. Bir kez daha duvarlarda çizimler görüyorsun; savaþlarý ve
+zaferleri portreleyen. Eðer kaosun daha fazla hükmetmesi mümkündü ise
+buradaki karnaval atmosferinde bunu baþardýn. Kral ayaða kalkýyor, ve goblin
+muhafýzlarý güney tarafýndaki kapýya yönelerek kapýyý kaplýyor. Grumm'un
+konuþmaya tenezzül edecek gibi bir havasý yok! Doðuya ve batýya doðru
+kapýlar bulunmakta.
 ~
 0 D 0
 D0
-South End of the Great Hall.
+Geniþ Hol'ün Güney Ucu
 ~
 ~
 0 -1 29003
 D1
-A Bedroom.
+Goblin Büyücüsünün Odasý
 ~
 ~
 1 -1 29006
 D2
-Hidden Passage.
+Gizli Pasaj
 ~
-Tapestry~
+Perde~
 1 -1 29007
 D3
-A Bedroom.
+Goblin Þaman'ýnýn Odasý
 ~
 ~
 1 -1 29005
 S
 #29005
-Goblin Shaman's Quarters~
-This room is a delightful change from the rest of the fortress. The
-air is sweet with the smell of incence, and the room is clean (by goblin
-standards anyways). There is a large bookcase on the north wall, and before
-it, a desk and chair.
+Goblin Þaman'ýnýn Odasý~
+Bu odada kalenin diðer kýsýmlarýndaki kaos hükmetmemekte. Havada güzel
+bir koku var, odada oldukça temiz görünmekte(goblin standarlarýna göre).
+Kuzeydeki duvarda geniþ bir kitaplýk var, ve onun hemen önündede bir masa
+ile sandalye.
 ~
 0 D 0
 D1
-King Grumm's Throne Room.
+Kral Grumm'un Taht odasý.
 ~
 ~
 1 -1 29004
 S
 #29006
-Goblin Mage's Quarters~
-A very heavy mist hovers above the floor here. It's not enough to
-obscure your vision though, and when you look closer, you can see an inlaid
-pentagram has been added to the granite stonework. The room is otherwise
-spartan, though you can see a small cot and a desk. Otherwise the room is
-barren.
+Goblin Büyücüsünün Odasý~
+Çok aðýr bir sis hemen zeminin üstünde odaya yayýlmakta. Görüþünü
+kapamakta yeterli olmadýðý ortada bu sisin, daha yakýndan baktýðýnda ,
+granit iþlemenin üstüne bir pentagram kakýlmýþ. Bunlarýn dýþýnda yalýn bir
+oda, küçük bir karyola, masa görmektesin. Bunlarýn dýþýnda oda çok anlamsýz.
 ~
-0 ADN 0 
+0 ADN 0
 D3
-King Grumm's Throne Room.
+Kral Grumm'un Taht Odasý.
 ~
 ~
 1 -1 29004
 S
 #29007
-Hidden Passage~
-This passage s obscured behind the curtian. It leads north into the
-Throne Room, and to the south there is a door.
+Gizli Pasaj~
+Bu pasaj bir perdenin arkasýnda saklanmakta. Kuzeydeki Taht odasýna ve
+güneydeki bir kapýya koridor görevi yapýyor.
 ~
 0 D 0
 D0
-King Grumm's Throne Room.
+Kral Grumm'un Taht Odasý
 ~
-Tapestry~
+Perde~
 1 -1 29004
 D2
-Hidden Passage.
+Gizli Pasaj
 ~
 ~
 1 29020 29008
 S
 #29008
-Hidden Passage~
-After opening the first door, you are dismayed to be confronted with a
-second. The door leads south, with another leading back north.
+Gizli Pasaj~
+Ýlk kapýyý açtýktan sonra, korkmamak için bir kaç saniyeliðine kendini
+toparlýyorsun. Güneyde ve kuzeyde kapý bulunmakta.
 ~
 0 D 0
 D0
-Hidden Passage.
+Gizli Pasaj
 ~
 ~
 1 29020 29007
 D2
-Hidden Passage.
+Gizli Pasaj
 ~
 ~
 1 29018 29009
 S
 #29009
-Hidden Passage~
-After opening the second door, you are dismayed to be confronted with
-a third. The door leads south, with another leading back north.
+Gizli Pasaj~
+Ýkinci kapýyý açtýktan sonra, korkmamak için bir kaç saniyeliðine kendini
+toparlýyorsun. Güneyde ve kuzeyde kapý bulunmakta.
 ~
 0 D 0
 D0
-Hidden Passage.
+Gizli Pasaj
 ~
 ~
 1 29018 29008
 D2
-The Treasure Chamber of the Goblin Stronghold.
+Goblin Kalesinin Hazine Odasý
 ~
 ~
 1 29019 29010
 S
 #29010
-The Treasure Chamber of the Goblin Stronghold~
-After opening the third door you come opon a cache of gold and
-jewelry. There are no exits, save the door you came through.
+Goblin Kalesinin Hazine Odasý~
+Üçüncü Kapýyý açtýktan sonra, altýn ve mücevher yýðýnýnýn arasýnda
+buluyorsun kendini. Geldiðin kapý dýþýnda odadan baþka bir çýkýþ yok.
 ~
 0 D 0
 D0
-Hidden Passage.
+Gizli Pasaj
 ~
 ~
 1 29019 29009
 S
 #29011
-A Small Cell in the Dungeon~
-As you step through the door to this room, you hear a slam and a
-click. You spin quickly and are dismayed to see that the door has closed
-and locked. You hear maniacal laughter coming from the far side of the
-door. There is no escape. You will spend your days rotting in this goblin
-prision.
+Zindanda küçük bir hücre~
+Bu odanýn kapýsýndan içeri girdiðinde, bir çarpma ve klik sesi
+duyuyorsun. Hemen arkana dönüp baktýðýnda kapýnýn kapatýlmýþ ve kilitlenmiþ
+olduðunu farkediyorsun. Kapýnýn dýþýndan iðrenç bir kahkaha duymaktasýn.
+Kaçmanýn yolu yok. Zamanýný bu goblin hücresinde çürüyerek geçireceksin
+artýk.
 ~
 0 D 0
 D5
-A Tiny Crawlspace.
+Minik iþçilik alaný
 ~
 ~
 1 -1 29024
 S
 #29012
-A Small Cell in the Dungeon~
-This is a little 6x6 cell with a floor of straw. The air is damp here.
-The far wall has a set of shackles set in the stone. Nice place to visit,
-but you wouldn't want to live here.
+Zindanda küçük bir hücre~
+Burasý 6 metrekarelik bir hücre, ayaklarýnýn altýnda saman var. Odanýn
+havasý nemli ve rutubetli. Uzaktaki duvarda duran pranga seti gözüne
+çarpýyor. Ziyaret etmek için güzel fakat yaþamak için çok kötü bir yer
+olduðunu düþünüyorsun buranýn.
 ~
 0 D 0
 D2
-A Hall in the Dungeon.
+Zindanda bir hol
 ~
 ~
 1 29021 29025
 S
 #29013
-A Small Cell in the Dungeon~
-This is a little 6x6 cell with a floor of straw. The air is damp here.
-The far wall has a set of shackles set in the stone. Nice place to visit,
-but you wouldn't want to live here.
+Zindanda küçük bir hücre~
+Burasý 6 metrekarelik bir hücre, ayaklarýnýn altýnda saman var. Odanýn
+havasý nemli ve rutubetli. Uzaktaki duvarda duran pranga seti gözüne
+çarpýyor. Ziyaret etmek için güzel fakat yaþamak için çok kötü bir yer
+olduðunu düþünüyorsun buranýn.
 ~
 0 D 0
 D0
-A Hall in the Dungeon.
+Zindanda bir hol
 ~
 ~
 1 29021 29025
 S
 #29014
-A Small Cell in the Dungeon~
-This is a little 6x6 cell with a floor of straw. The air is damp here.
-The far wall has a set of shackles set in the stone. Nice place to visit,
-but you wouldn't want to live here.
+Zindanda küçük bir hücre~
+Burasý 6 metrekarelik bir hücre, ayaklarýnýn altýnda saman var. Odanýn
+havasý nemli ve rutubetli. Uzaktaki duvarda duran pranga seti gözüne
+çarpýyor. Ziyaret etmek için güzel fakat yaþamak için çok kötü bir yer
+olduðunu düþünüyorsun buranýn.
 ~
 0 D 0
 D2
-A Hall in the Dungeon.
+Zindanda bir hol
 ~
 ~
 1 29021 29026
 S
 #29015
-A Small Cell in the Dungeon~
-This is a little 6x6 cell with a floor of straw. The air is damp here.
-The far wall has a set of shackles set in the stone. Nice place to visit,
-but you wouldn't want to live here.
+Zindanda küçük bir hücre~
+Burasý 6 metrekarelik bir hücre, ayaklarýnýn altýnda saman var. Odanýn
+havasý nemli ve rutubetli. Uzaktaki duvarda duran pranga seti gözüne
+çarpýyor. Ziyaret etmek için güzel fakat yaþamak için çok kötü bir yer
+olduðunu düþünüyorsun buranýn.
 ~
 0 D 0
 D0
-A Hall in the Dungeon.
+Zindanda bir hol
 ~
 ~
 1 29021 29026
 S
 #29016
-The Dungeon~
-Below the iron grate is a small guardroom. There is a table and some
-chairs, but not much else of interest. A hallway leads west, with the iron
-grate exiting up.
+Zindan~
+Demir kapýnýn ardýnda küçük bir muhafýz odasý bulunmakta. Odada bir masa
+ve bir kaç sandalye bulunmakta, baþka dikkatini çeken birþey yok. Batýya
+doðru uzanan bir koridor ile yukarýya çýkan demir kapý etraftaki tek çýkýþ
+yollarý.
 ~
 0 D 0
 D3
-A Hall in the Dungeon.
+Zindanda bir hol
 ~
 ~
 0 -1 29026
 D4
-A Hallway in the Stronghold.
+Kalede bir koridor.
 ~
 ~
 1 -1 29017
 S
 #29017
-A Hallway in the Stronghold~
-This corridor is lit by torches set in wall brackets. An iron grate is
-set in the floor, and from below you can hear moaning and scraping. The
-hallway leads east with a large room to the south.
+Kalede bir koridor~
+Duvara tutturulmuþ meþalelerle aydýnlanýyor bu oda. Yerde demir bir kapý
+görüyorsun, buradan inlemeler ve çýðlýklar duyuyorsun. Koridor doðuya ve
+güneydeki geniþ bir odaya doðru uzanýyor.
 ~
 0 D 0
 D1
-A Hallway in the Stronghold.
+Kalede bir koridor
 ~
 ~
 0 -1 29018
 D2
-Goblin Barraks.
+Goblin Barakalarý
 ~
 ~
 0 -1 29027
 D5
-A grate.
+Demir kapý
 ~
-grate~
+demir kapý~
 1 -1 29016
 S
 #29018
-A Hallway in the Stronghold~
-This corridor is lit by torches set in wall brackets. The hall
-continues to the west, and the Entry Hall is to your east. There is also an
-arched doorway to the south. You can hear the sounds of combat to the
-south.
+Kalede bir koridor~
+Duvara tutturulmuþ meþalelerle aydýnlanýyor bu oda. Koridor batýya doðru
+devam ediyor, Giriþ Holü doðuda kalýyor. Ayný zamanda güney tarafýnda bir
+oda görüyorsun. Güney tarafýndan kýlýç,balta sesleri geliyor.
 ~
 0 D 0
 D1
-The Entry Hall to the Goblin Stronghold.
+Goblin Kalesinin Giriþi
 ~
 ~
 0 -1 29001
 D2
-The Goblin Training Room.
+Goblin Eðitim Odasý
 ~
 ~
 0 -1 29021
 D3
-A Hallway in the Stronghold.
+Kalede bir koridor
 ~
 ~
 0 -1 29017
 S
 #29019
-A Hallway in the Stronghold~
-This corridor is lit by torches set in wall brackets. The hallway
-continues to the east, and the Entry Hall is to your west. There is also an
-arched doorway to the south. Something smells foul there.
+Kalede bir koridor~
+Duvara tutturulmuþ meþalelerle aydýnlanýyor bu oda. Koridor doðuya doðru
+devam ediyor, Giriþ Holü batýda kalýyor. Ayný zamanda güney tarafýnda bir
+oda görüyorsun. Burnuna garip kokular geliyor...
 ~
 0 D 0
 D1
-A Hallway in the Stronghold.
+Kalede bir koridor
 ~
 ~
 0 -1 29020
 D2
-The Kitchen.
+Mutfak
 ~
 ~
 0 -1 29023
 D3
-Entry Hall to the Goblin Stronghold.
+Goblin Kalesinin Giriþi
 ~
 ~
 0 -1 29001
 S
 #29020
-A Hallway in the Stronghold~
-This corridor is lit by torches set in wall brackets. The hallway
-continues to the west, and there is an arched doorway to the south.
+Kalede bir koridor~
+Duvara tutturulmuþ meþalelerle aydýnlanýyor bu oda. Koridor batýya doðru
+devam ediyor. Ayný zamanda güney tarafýnda bir oda görüyorsun.
 ~
 0 D 0
 D2
-Goblin Barraks.
+Goblin Barakalarý.
 ~
 ~
 0 -1 29022
 D3
-A Hallway in the Stronghold.
+Kalede bir koridor
 ~
 ~
 0 -1 29019
 S
 #29021
-Goblin Training Room~
-This is where the goblins are shaped into something resembling a
-fighting unit. Assorted dummies and training equipment lie around. The room
-has a sticky film of blood on the floor. Apparently the goblins believe in
-the Darwinian theory of military training.
+Goblin Eðitim Odasý~
+Goblinler burada savaþçý eðitimi görüp savaþçý olma yetisi kazanýyorlar.
+Çeþitli manken hedefler, ve bir sürü eðitim eþyasý etrafta duruyor. Yerde
+yapýþkan hale gelmiþ kan duruyor. Görünüþe göre goblinler cücelerin savaþ
+eðitimi teorisine katýlmaktalar.
 ~
 0 D 0
 D0
-A Hallway in the Stronghold.
+Kalede bir koridor
 ~
 ~
 0 -1 29018
 D1
-South End of the Great Hall.
+Geniþ Hol'ün güney ucu
 ~
 ~
 1 -1 29002
 S
 #29022
-Goblin Barraks~
-This room is where the goblin soldiers sleep. The room is a full 20
-yards square and there are bunks along each wall. There is graphic
-graphitti scrawled on the walls, but it's in goblin and all you can make
-out are the drawings of goblin females. There is an arched doorway leading
-north.
+Goblin Barakalarý~
+Bu oda goblin askerlerinin uyumasý için. 20 metrekarelik geniþliðe sahip,
+bir sürü ranzanýn içinde bulunduðu bir odadasýn. Burada duvarlara kazýnmýþ
+çeþitli çizimler görüyorsun, fakat bu goblin eliþine daha çok benziyor, ve
+gördüðün çizimler goblin diþilerine ait. Kuzeye doðru bir kapý görüyorsun.
 ~
 0 D 0
 D0
-A Hallway in the Stronghold.
+Kalede bir koridor
 ~
 ~
 0 -1 29020
 S
 #29023
-The Kitchen~
-A large kitchen area fills this room. Large pots bubble with
-foul-smelling goblin cuisine. There is nothing in this room to interest
-you. There is a door to your west, and an arched doorway to the north.
+Mutfak~
+Geniþ bir mutfaktasýn, fokurdayan tencereler, ve çok kötü koku odada
+dikkat ettiðin tek þey. Batýda ve kuzeyde kapýlar duruyor.
 ~
 0 D 0
 D0
-A Hallway in the Stronghold.
+Kalede bir Koridor
 ~
 ~
 0 -1 29019
 D3
-South End of the Great Hall.
+Geniþ Hol'ün güney ucu
 ~
 ~
 1 -1 29002
 S
 #29024
-A Tiny Crawlspace~
-Below the cell there is a tiny crawlspace. There is a portal here.
+Minik iþçilik alaný~
+Hücrenin altýnda minik bir iþçilik alaný bulunmakta. Alanýn içinde bir
+tane geçit görüyorsun.
 ~
 0 D 0
 D4
-A Small Cell in the Dungeon.
+Zindanda küçük bir hücre
 ~
 ~
 1 -1 29011
 S
 #29025
-A Hall in the Dungeon~
-This place is a new addition to the Stronghold. The hallway is little
-more than a tunnel through the rock. The hall leads east, with doors to
-your north, south, and west.
+Zindanda bir Koridor~
+Burasý kaleye daha sonradan monte edilmiþ bir alana benziyor. Koridor
+daha çok küçük bir tünele benziyor. Koridor doðuya devam ediyor, kuzeyde
+güneyde ve batýda kapýlar var.
 ~
 0 D 0
 D0
-A Small Cell in the Dungeon.
+Zindanda küçük bir hücre
 ~
 ~
 1 29021 29012
 D1
-A Hall in the Dungeon.
+Zindanda bir koridor
 ~
 ~
 0 -1 29026
 D2
-A Small Cell in the Dungeon.
+Zindanda küçük bir hücre
 ~
 ~
 1 29021 29013
 D3
-A Small Cell in the Dungeon.
+Zindanda küçük bir hücre
 ~
 ~
 1 29021 29011
 S
 #29026
-A Hall in the Dungeon~
-This place is a new addition to the Stronghold. The hallway is little
-more than a tunnel through the rock. The hall leads west, with doors to
-your north and south, a room to your east.
+Zindanda bir koridor~
+Burasý kaleye daha sonradan monte edilmiþ bir alana benziyor. Koridor
+daha çok küçük bir tünele benziyor. Koridor batýya doðru devam ediyor,
+kuzeyde güneyde ve doðuda kapýlar var.
 ~
 0 D 0
 D0
-A Small Cell in the Dungeon.
+Zindanda küçük bir hücre
 ~
 ~
 1 29021 29014
 D1
-The Dungeon.
+Zindan
 ~
 ~
 0 -1 29016
 D2
-A Small Cell in the Dungeon.
+Zindanda küçük bir hücre
 ~
 ~
 1 29021 29015
 D3
-A Hall in the Dungeon.
+Zindanda küçük bir hücre
 ~
 ~
 0 -1 29025
 S
 #29027
-Goblin Barraks~
-This room is where the goblin soldiers sleep. The room is a full 20
-yards square and there are bunks along each wall. There is graphic
-graphitti scrawled on the walls, but it's in goblin and all you can make
-out are the drawings of goblin females. There is an arched doorway leading
-north.
+Goblin Barakalarý~
+Bu oda goblin askerlerinin uyumasý için. 20 metrekarelik geniþliðe sahip,
+bir sürü ranzanýn içinde bulunduðu bir odadasýn. Burada duvarlara kazýnmýþ
+çeþitli çizimler görüyorsun, fakat bu goblin eliþine daha çok benziyor, ve
+gördüðün çizimler goblin diþilerine ait. Kuzeye doðru bir kapý görüyorsun.
 ~
 0 D 0
 D0
-A Hallway in the Stronghold.
+Kalede bir koridor
 ~
 ~
 0 -1 29017
@@ -1277,4 +1282,3 @@ S
 
 
 #$
-

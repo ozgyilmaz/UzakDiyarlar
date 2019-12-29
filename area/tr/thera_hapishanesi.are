@@ -1,0 +1,1735 @@
+#AREA
+thera_hapishanesi.are~
+Thera Hapishanesi~
+{80 130} RM Thera Hapishanesi~
+
+15000 15099
+
+#MOBILES
+
+#15000
+baþ gardiyan~
+Hücre gardiyanlarýnýn baþý~
+Hapisanedeki gardiyanlarýn baþý burada.
+~
+Bu adam yýllardýr burada. Hapishanesini zarardan koruyor. Kötü
+büyücüden tek etkilenmeyen kiþi o. O güçlü ve bilge.
+~
+human~
+ABWe  DFHJVZ 0 0
+130 20 10d400+28000 10d50+9000 20d20+100 pierce
+-150 -150 -150 -151
+CEFKNU ABHQY TPKIL J
+stand stand male 5000
+A 0 medium 0
+
+#15003
+hücre gardiyan~
+Hücrenin gardiyaný~
+Hapisanenin gardiyaný burada.
+~
+Omzunda gardiyanlarýn iþaretini taþýyan, iþini yapan, güçlü
+bir gardiyan.
+~
+human~
+ABWe  DFHJVZ 0 0
+95 20 10d400+14000 10d50+2000 10d15+12 pierce
+-80 -70 -72 -81
+CEFKNU ABH  0 J
+stand stand male 5000
+A 0 medium 0
+
+#15001
+hücre temizlikçi~
+Hapishane temizlikçisi~
+Hapishane temizlikçilerinden biri burada.
+~
+Öyle acýklý aðlýyor ve þarký söylüyor ama sen hiçbir þey anlayamýyorsun.
+Neden ayný zamanda hep þarký söyleyip hem de aðlýyor? Birden anlýyorsun,
+þarký söylemek : þimdi öleceksin!
+~
+human~
+ACGT  DFJZ 0 0
+80 20 10d400+12000 10d50+1000 12d10+12 pierce
+-50 -50 -50 -51
+CEFKNU 0 0 S
+stand stand male 5000
+A 0 medium 0
+
+#15002
+suçlu~
+Suçlu~
+Bir suçlu burada dinleniyor.
+~
+Suçlunun sýkýlmýþ gözleri var, zombi gibi! Diðer yaratýklara hiç
+benzemiyor. Aniden birinin fýsýldadýðýný farediyorsun:
+"nasýl isterseniz efendim".
+~
+human~
+ACGT  DFJZ 0 0
+88 20 10d400+12000 10d50+1000 12d12+30 pierce
+-50 -50 -50 -51
+CEFKNU 0 0 S
+stand stand male 5000
+A 0 medium 0
+
+#15009
+eski büyücü Kwal~
+Eski büyücü Kwal~
+Eski büyücü Kwal planlarý üzerinde çalýþýyor.
+~
+Kadýnýn gözlerine bakýnca korkuyu görüyorsun. Fakat bu onun korkusu
+deðil. Bu senin korkun, sonun geliyor, gözlerini yakaladý, ruhunu
+çaðýrýyor! Gözlerinde þimdi de nefret ve kýzgýnlýðýn gölgeleri
+oynaþýyor. Anlaþýlan onu rahatsýz ettin. Birden baðýrýyor:
+"Hepiniz bunu ödeyeceksiniz!!"
+~
+dark-elf~
+ABWeCFGT  DFHJVZ 0 0
+109 20 30d100+27000 10d50+2300 23d27+190 pierce
+-88 -85 -90 -81
+CEFKNU ABHQY TPKIL 0
+
+stand stand female 5000
+ABCDEFG 0 medium 0
+
+#15010
+uyandýrýlmýþ þeytan~
+Bir uyandýrýlmýþ þeytan~
+Bir uyandýrýlmýþ þeytan birþeyleri arar gibi.
+~
+Çok sinirli!
+~
+dark-elf~
+ABWeCFGT  DFHJVZ 0 0
+109 20 10d400+22000 10d50+2300 23d10+30 pierce
+-88 -85 -90 -81
+CEFKNU ABHQY TPKIL 0
+
+stand stand female 5000
+ABCDEFG 0 medium 0
+
+
+#0
+
+
+
+#OBJECTS
+
+#15002
+paslý çeþme~
+bir çeþme~
+Küçük bir paslý çeþme burada.~
+~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 G
+E
+çeþme paslý~
+Güzel görünmese de suyu içilebilir.
+~
+#15001
+kirli somun~
+bir büyük, kirli somun~
+Bir büyük, kirli somun yerde duruyor.~
+food~
+food 0 A
+20 40 0 0 0
+0 20 22 P
+
+#15005
+gardiyan yüzük~
+parlak bir gardiyan yüzüðü~
+Yerde parlak bir yüzük görüyorsun.
+~
+gold~
+armor BEGH AB
+29 30 30 30 29
+88 10 8000 P
+A
+1 3
+A
+2 3
+A
+12 100
+A
+13 100
+A
+17 -20
+A
+18 5
+A
+19 5
+A
+23 -2
+A
+24 -1
+
+
+#15006
+suçlu tasma~
+bir suçlu tasmasý~
+Yerde güzel bir tasma duruyor.
+~
+gold~
+armor BEGH AC
+25 35 35 35 21
+85 10 8400 P
+A
+4 3
+A
+5 3
+A
+12 100
+A
+13 100
+A
+17 -5
+A
+18 5
+A
+19 5
+A
+23 -2
+
+#15007
+ýþýk hale~
+bir ýþýk halesi~
+Mistik bir ýþýk halesi burada.
+~
+light~
+armor BEGH AQ
+25 25 25 25 21
+85 10 8400 P
+A
+1 1
+A
+5 1
+A
+12 200
+A
+13 200
+A
+17 -20
+A
+18 7
+A
+19 7
+A
+23 -5
+
+
+#15008
+kayýp ruh kalkan~
+kayýp ruh kalkaný~
+Kayýp ruhun parlayan kalkaný burada.
+~
+gold~
+armor BEGH AJ
+21 21 21 21 80
+70 10 8400 P
+A
+13 150
+A
+17 -30
+A
+23 -5
+
+
+#15003
+ambros asa~
+ambros asasý~
+Ambros asasý burada.
+~
+wood~
+staff BEGH AO
+100 50 50 'frenzy' 0
+90 50 30000 P
+A
+5 3
+A
+12 400
+A
+13 400
+A
+17 -30
+A
+18 25
+A
+19 25
+A
+23 -4
+A
+24 -4
+
+#15010
+eski asa~
+eskilerin asasý~
+Eskilerin asasý burada.
+~
+wood~
+staff BEGH AO
+100 20 20 'sanctuary' 0
+75 50 30000 P
+A
+5 3
+A
+13 100
+A
+18 5
+A
+24 -10
+
+#15011
+koruma pelerin~
+Kutsal Koruma pelerini~
+Bir pelerin inanýlmaz güzelliðiyle yerde duruyor.~
+leather~
+armor ACY AC
+39 39 39 37 30
+84 10 99000 P
+A
+3 2
+A
+18 8
+A
+19 8
+A
+24 -4
+
+#0
+
+#ROOMS
+#15001
+Hücre No:001~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 DN 0
+D2
+Uzun koridor.
+~
+~
+0 -1 15021
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:001               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15002
+Hücre No:002~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 DN 0
+D2
+Uzun koridor.
+~
+~
+0 -1 15022
+
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:002               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15003
+Hücre No:003~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 DN 0
+D2
+Uzun koridor.
+~
+~
+0 -1 15023
+
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:003               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15004
+Hücre No:004~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 DN 0
+D2
+Uzun koridor.
+~
+~
+0 -1 15024
+
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:004               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15005
+Hücre No:005~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 DN 0
+D2
+Uzun koridor.
+~
+~
+0 -1 15025
+
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:005               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15006
+Hücre No:006~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 DN 0
+D2
+Uzun koridor.
+~
+~
+0 -1 15026
+
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:006               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15007
+Hücre No:007~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 DN 0
+D2
+Uzun koridor.
+~
+~
+0 -1 15027
+
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:007               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15008
+Hücre No:008~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 DN 0
+D2
+Uzun koridor.
+~
+~
+0 -1 15028
+
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:008               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15009
+Hücre No:009~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 DN 0
+D2
+Uzun koridor.
+~
+~
+0 -1 15029
+
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:009               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15010
+Hücre No:010~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 DN 0
+D2
+Uzun koridor.
+~
+~
+0 -1 15030
+
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:010               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15011
+Hücre No:011~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 DN 0
+D2
+Uzun koridor.
+~
+~
+0 -1 15031
+
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:011               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15012
+Hücre No:012~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 DN 0
+D2
+Uzun koridor.
+~
+~
+0 -1 15032
+
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:012               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15013
+Hücre No:013~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 DN 0
+D2
+Uzun koridor.
+~
+~
+0 -1 15033
+
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:013               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15014
+Hücre No:014~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 DN 0
+D2
+Uzun koridor.
+~
+~
+0 -1 15034
+
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:014               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15015
+Hücre No:015~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 DN 0
+D2
+Uzun koridor.
+~
+~
+0 -1 15035
+
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:015               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15016
+Hücre No:016~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 DN 0
+D2
+Uzun koridor.
+~
+~
+0 -1 15036
+
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:016               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15017
+Hücre No:017~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 DN 0
+D2
+Uzun koridor.
+~
+~
+0 -1 15037
+
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:017               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15018
+Hücre No:018~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 DN 0
+D2
+Uzun koridor.
+~
+~
+0 -1 15038
+
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:018               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15019
+Hücre No:019~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 0 9
+
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:019               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15020
+Hücre No:020~
+Burasý kirli ve daðýnýk bir hücre. Oldukça küçük. Havada aðýr bir
+koku var. Köþede tuvaleti ve çeþmeyi görüyorsun. Buradan çýkýþ yok,
+duvarlar kapalý. Duvarlara bakýnca için kararýyor.Duvarda küçük
+bir tablet var.
+~
+0 J 3
+D2
+Uzun koridor.
+~
+~
+0 -1 15040
+
+E
+küçük tablet~
+++++++++++++++++++++++++++++++++++++++++++
++             Hücre No:020               +
++            Gürültü  Yapma              +
+++++++++++++++++++++++++++++++++++++++++++
+~
+S
+
+#15021
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 001 nolu hücre giriþi var.
+Koridor doðuya devam ediyor.
+~
+0 DN 0
+
+D0
+Kuzey 001 nolu hücre.
+~
+~
+0 -1 15001
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15022
+
+D3
+Batýda hapishanenin giriþi var.
+~
+~
+0 -1 15000
+
+S
+
+
+#15022
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 002 nolu hücre giriþi var.
+Koridor doðuya devam ediyor.
+~
+0 DN 0
+
+D0
+Kuzey 002 nolu hücre.
+~
+~
+0 -1 15002
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15023
+
+D3
+Batýda uzun koridor var.
+~
+~
+0 -1 15021
+
+S
+
+
+#15023
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 003 nolu hücre giriþi var.
+Koridor doðuya devam ediyor.
+~
+0 DN 0
+
+D0
+Kuzey 003 nolu hücre.
+~
+~
+0 -1 15003
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15024
+
+D3
+Batýda uzun koridor var.
+~
+~
+0 -1 15022
+
+S
+
+
+#15024
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 004 nolu hücre giriþi var.
+Koridor doðuya devam ediyor.
+~
+0 DNV 0
+
+D0
+Kuzey 004 nolu hücre.
+~
+~
+0 -1 15004
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15025
+
+D3
+Batýda uzun koridor var.
+~
+~
+0 -1 15023
+
+S
+
+
+#15025
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 005 nolu hücre giriþi var.
+Koridor doðuya devam ediyor.
+~
+0 DNV 0
+
+D0
+Kuzey 005 nolu hücre.
+~
+~
+0 -1 15005
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15026
+
+D3
+Batýda uzun koridor var.
+~
+~
+0 -1 15024
+
+S
+
+
+#15026
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 006 nolu hücre giriþi var.
+Koridor doðuya devam ediyor.
+~
+0 DNV 0
+
+D0
+Kuzey 006 nolu hücre.
+~
+~
+0 -1 15006
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15027
+
+D3
+Batýda uzun koridor var.
+~
+~
+0 -1 15025
+
+S
+
+
+#15027
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 007 nolu hücre giriþi var.
+Koridor doðuya devam ediyor.
+~
+0 DNV 0
+
+D0
+Kuzey 007 nolu hücre.
+~
+~
+0 -1 15007
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15028
+
+D3
+Batýda uzun koridor var.
+~
+~
+0 -1 15026
+
+S
+
+
+#15028
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 008 nolu hücre giriþi var.
+Koridor doðuya devam ediyor.
+~
+0 DNV 0
+
+D0
+Kuzey 008 nolu hücre.
+~
+~
+0 -1 15008
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15029
+
+D3
+Batýda uzun koridor var.
+~
+~
+0 -1 15027
+
+S
+
+
+#15029
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 009 nolu hücre giriþi var.
+Koridor doðuya devam ediyor.
+~
+0 DNV 0
+
+D0
+Kuzey 009 nolu hücre.
+~
+~
+0 -1 15009
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15030
+
+D3
+Batýda uzun koridor var.
+~
+~
+0 -1 15028
+
+S
+
+
+#15030
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 010 nolu hücre giriþi var.
+Koridor doðuya devam ediyor.
+~
+0 DNV 0
+
+D0
+Kuzey 010 nolu hücre.
+~
+~
+0 -1 15010
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15031
+
+D3
+Batýda uzun koridor var.
+~
+~
+0 -1 15029
+
+S
+
+
+#15031
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 011 nolu hücre giriþi var.
+Koridor doðuya devam ediyor.
+~
+0 DNV 0
+
+D0
+Kuzey 011 nolu hücre.
+~
+~
+0 -1 15011
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15032
+
+D3
+Batýda uzun koridor var.
+~
+~
+0 -1 15030
+
+S
+
+
+#15032
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 012 nolu hücre giriþi var.
+Koridor doðuya devam ediyor.
+~
+0 DNV 0
+
+D0
+Kuzey 012 nolu hücre.
+~
+~
+0 -1 15012
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15033
+
+D3
+Batýda uzun koridor var.
+~
+~
+0 -1 15031
+
+S
+
+
+#15033
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 013 nolu hücre giriþi var.
+Koridor doðuya devam ediyor.
+~
+0 DNV 0
+
+D0
+Kuzey 013 nolu hücre.
+~
+~
+0 -1 15013
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15034
+
+D3
+Batýda uzun koridor var.
+~
+~
+0 -1 15032
+
+S
+
+
+#15034
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 014 nolu hücre giriþi var.
+Koridor doðuya devam ediyor.
+~
+0 DNV 0
+
+D0
+Kuzey 014 nolu hücre.
+~
+~
+0 -1 15014
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15035
+
+D3
+Batýda uzun koridor var.
+~
+~
+0 -1 15033
+
+S
+
+
+#15035
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 015 nolu hücre giriþi var.
+Koridor doðuya devam ediyor.
+~
+0 DNV 0
+
+D0
+Kuzey 015 nolu hücre.
+~
+~
+0 -1 15015
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15036
+
+D3
+Batýda uzun koridor var.
+~
+~
+0 -1 15034
+
+S
+
+
+#15036
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 016 nolu hücre giriþi var.
+Koridor doðuya devam ediyor.
+~
+0 DNV 0
+
+D0
+Kuzey 016 nolu hücre.
+~
+~
+0 -1 15016
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15037
+
+D3
+Batýda uzun koridor var.
+~
+~
+0 -1 15035
+D2
+Güneyde eski kanalizasyon sistemi var.
+~
+~
+0 -1 20000
+S
+
+
+#15037
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 017 nolu hücre giriþi var.
+Koridor doðuya devam ediyor.
+~
+0 DNV 0
+
+D0
+Kuzey 017 nolu hücre.
+~
+~
+0 -1 15017
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15038
+
+D3
+Batýda uzun koridor var.
+~
+~
+0 -1 15036
+
+S
+
+
+#15038
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 018 nolu hücre giriþi var.
+Koridor doðuya devam ediyor.
+~
+0 DNV 0
+
+D0
+Kuzey 018 nolu hücre.
+~
+~
+0 -1 15018
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15039
+
+D3
+Batýda uzun koridor var.
+~
+~
+0 -1 15037
+
+S
+
+
+#15039
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 019 nolu hücre giriþi var.
+Koridor doðuya devam ediyor.
+~
+0 0 3
+
+D0
+Kuzey 019 nolu hücre.
+~
+~
+0 -1 15019
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15040
+
+D3
+Batýda uzun koridor var.
+~
+~
+0 -1 15038
+
+S
+
+
+#15040
+Uzun Koridor~
+Bu uzun ve karanlýk bir koridor. Kuzeyde 020 nolu hücre giriþi var.
+Koridor birden bitiyor.
+~
+0 DN 3
+
+D0
+Kuzey 020 nolu hücre.
+~
+~
+0 -1 15020
+
+D3
+Batýda uzun koridor var.
+~
+~
+0 -1 15039
+
+S
+
+#15000
+Hapishane Giriþi~
+Duvarlarýnda kan olan karanlýk bir odadasýn, ve buradan kaçýþ yok.
+Burada azýlý katiller ve canavarlar yatar. Yöneticiler hepsine
+GEREKTÝÐÝ gibi davranýr.
+~
+0 0 1
+
+D1
+Doðuda uzun koridor var.
+~
+~
+0 -1 15021
+
+D2
+Hapishane yolu.
+~
+~
+0 -1 15090
+
+S
+
+
+
+
+
+#15099
+Hapishane yolu~
+Hapishane yolunda yürüyorsun. Adýmlarýna dikkat et, bir yanlýþýn
+senin sonun hazýrlayabilir. Aklýna bir hikaye geliyor.
+~
+0 0 1
+
+D0
+Tam olarak göremiyorsun.
+~
+~
+0 -1 8019
+
+D1
+Hapishane yolu.
+~
+~
+0 -1 15098
+
+D3
+Tam olarak göremiyorsun.
+~
+~
+0 -1 29427
+
+S
+
+
+#15098
+Hapishane yolu~
+Hapishane yolunda yürüyorsun. Adýmlarýna dikkat et, bir yanlýþýn
+senin sonun hazýrlayabilir. Thera'nýn eski zamanlarýnda Kwal isimli
+güçlü bir büyücü yaþarmýþ.
+~
+0 0 1
+
+D1
+Tam olarak göremiyorsun.
+~
+~
+0 -1 5028
+
+D0
+Hapishane yolu.
+~
+~
+0 -1 15097
+
+D3
+Hapishane yolu.
+~
+~
+0 -1 15099
+
+S
+
+
+#15097
+Hapishane yolu~
+Hapishane yolunda yürüyorsun. Adýmlarýna dikkat et, bir yanlýþýn
+senin sonun hazýrlayabilir. Yakalanýp bu hapishaneye kapatýldýðýnda
+herkes artýk sorunlarýn bittiðini düþünmüþ.
+~
+0 0 1
+
+D1
+Tam olarak göremiyorsun.
+~
+~
+0 -1 5067
+
+D2
+Hapishane yolu.
+~
+~
+0 -1 15098
+
+D5
+Hapishane yolu.
+~
+~
+0 -1 15096
+
+S
+
+
+#15096
+Hapishane yolu~
+Hapishane yolunda yürüyorsun. Adýmlarýna dikkat et, bir yanlýþýn
+senin sonun hazýrlayabilir. Fakat o yeri ve göðü yokedebilecek
+gücü çoktan ele geçirmiþ.
+~
+0 0 1
+
+D4
+Hapishane yolu.
+~
+~
+0 -1 15097
+
+D1
+Hapishane yolu.
+~
+~
+0 -1 15095
+
+D5
+Tam olarak göremiyorsun.
+~
+~
+0 -1 5001
+
+
+S
+
+
+#15095
+Hapishane yolu~
+Hapishane yolunda yürüyorsun. Adýmlarýna dikkat et, bir yanlýþýn
+senin sonun hazýrlayabilir. O bu hapishaneyi ve içindekileri
+lanetledikten sonra tanrýlar onu terketmiþ.
+~
+0 0 1
+
+D0
+Tam olarak göremiyorsun.
+~
+~
+0 -1 15099
+
+D3
+Hapishane yolu.
+~
+~
+0 -1 15096
+
+D1
+Hapishane yolu.
+~
+~
+0 -1 15094
+
+S
+
+
+#15094
+Hapishane yolu~
+Hapishane yolunda yürüyorsun. Adýmlarýna dikkat et, bir yanlýþýn
+senin sonun hazýrlayabilir. Hikayeye göre o ruhlarýn gerçekliðine
+bir yol bulmuþ ve þeytani ölümsüzlerin yardýmýný almýþ.
+~
+0 0 1
+
+D3
+Hapishane yolu.
+~
+~
+0 -1 15095
+
+D0
+Tam olarak göremiyorsun.
+~
+~
+0 -1 15098
+
+D1
+Hapishane yolu.
+~
+~
+0 -1 15093
+
+S
+
+
+#15093
+Hapishane yolu~
+Hapishane yolunda yürüyorsun. Adýmlarýna dikkat et, bir yanlýþýn
+senin sonun hazýrlayabilir.
+~
+0 0 1
+
+D3
+Hapishane yolu.
+~
+~
+0 -1 15094
+
+D1
+Tam olarak göremiyorsun.
+~
+~
+0 -1 15091
+
+D2
+Hapishane yolu.
+~
+~
+0 -1 15092
+
+S
+
+
+#15092
+Hapishane yolu~
+Hapishane yolunda yürüyorsun. Adýmlarýna dikkat et, bir yanlýþýn
+senin sonun hazýrlayabilir.
+~
+0 0 1
+
+D0
+Hapishane yolu.
+~
+~
+0 -1 15093
+
+D2
+Tam olarak göremiyorsun.
+~
+~
+0 -1 3049
+
+D1
+Hapishane yolu.
+~
+~
+0 -1 15091
+
+S
+
+
+#15091
+Hapishane yolu~
+Hapishane yolunda yürüyorsun. Adýmlarýna dikkat et, bir yanlýþýn
+senin sonun hazýrlayabilir.
+~
+0 0 1
+
+D3
+Hapishane yolu.
+~
+~
+0 -1 15092
+
+D1
+Tam olarak göremiyorsun.
+~
+~
+0 -1 5205
+
+D0
+Hapishane yolu.
+~
+~
+0 -1 15090
+
+S
+
+
+#15090
+Hapishane yolu~
+Hapishane yolunda yürüyorsun. Adýmlarýna dikkat et, bir yanlýþýn
+senin sonun hazýrlayabilir.
+~
+0 0 1
+
+D0
+Uzun koridorun giriþi.
+~
+~
+0 -1 15000
+
+D2
+Hapishane yolu.
+~
+~
+0 -1 15091
+
+
+S
+#0
+
+
+
+
+#RESETS
+
+M 0 15000 1 15040 1  * Cell guardian
+E 0 15003 -1 17      * Rod of ambrossia
+E 0 15007 -1 18      * aura of light
+
+M 0 15003 4 15021 1  * head of the guardians
+
+M 0 15003 4 15026 1  * cell gurdian
+E 0 15005 -1 2      * Ring ,
+M 0 15003 4 15031 1 * cell gurdian
+E 0 15005 -1 2 * Ring ,
+M 0 15003 4 15036 1  * cell gurdian
+
+
+M 0 15002 6 15001 2  * criminal
+E 0 15006 -1 3
+M 0 15002 6 15004 2  * crimianl
+M 0 15002 6 15009 2  * crimianl
+E 0 15006 -1 3
+M 0 15002 6 15016 2  * criminal
+
+M 0 15001 6 15022 2  * cleaner
+M 0 15001 6 15024 2  * cleaner
+M 0 15001 6 15035 2  * cleaner
+M 0 15001 6 15031 2  * cleaner
+
+M 0 15010 1 15019 1 * kwal
+E 0 15011 -1 3
+
+M 0 15009 1 15020 1 * kwal
+E 0 15008 -1 11
+E 0 15010 -1 18
+
+R 0 15099 3 * entrence road
+R 0 15098 3 * entrence road
+R 0 15097 3 * entrence road
+R 0 15096 3 * entrence road
+R 0 15095 3 * entrence road
+R 0 15094 3 * entrence road
+R 0 15093 3 * entrence road
+R 0 15092 3 * entrence road
+R 0 15091 3 * entrence road
+R 0 15090 2 * entrence road
+
+
+O 0 15002 10 15001   * dusty fountain
+O 0 15002 10 15002   * dusty fountain
+O 0 15002 10 15003   * dusty fountain
+O 0 15002 10 15004   * dusty fountain
+O 0 15002 10 15005   * dusty fountain
+O 0 15002 10 15006   * dusty fountain
+O 0 15002 10 15007   * dusty fountain
+O 0 15002 10 15008   * dusty fountain
+O 0 15002 10 15009   * dusty fountain
+O 0 15002 10 15010   * dusty fountain
+O 0 15002 10 15011   * dusty fountain
+O 0 15002 10 15012   * dusty fountain
+O 0 15002 10 15013   * dusty fountain
+O 0 15002 10 15014   * dusty fountain
+O 0 15002 10 15015   * dusty fountain
+O 0 15002 10 15016   * dusty fountain
+O 0 15002 10 15017   * dusty fountain
+O 0 15002 10 15018   * dusty fountain
+O 0 15002 10 15019   * dusty fountain
+O 0 15002 10 15020   * dusty fountain
+
+O 0 15001 1 15001    * diry pie
+O 0 15001 1 15002    * diry pie
+O 0 15001 1 15003    * diry pie
+O 0 15001 1 15004    * diry pie
+O 0 15001 1 15005    * diry pie
+O 0 15001 1 15006    * diry pie
+O 0 15001 1 15007    * diry pie
+O 0 15001 1 15008    * diry pie
+O 0 15001 1 15009    * diry pie
+O 0 15001 1 15010    * diry pie
+O 0 15001 1 15011    * diry pie
+O 0 15001 1 15012    * diry pie
+O 0 15001 1 15013    * diry pie
+O 0 15001 1 15014    * diry pie
+O 0 15001 1 15015    * diry pie
+O 0 15001 1 15016    * diry pie
+O 0 15001 1 15017    * diry pie
+O 0 15001 1 15018    * diry pie
+O 0 15001 1 15019    * diry pie
+O 0 15001 1 15020    * diry pie
+
+S
+
+#SPECIALS
+M 15000 spec_breath_any   * head of the guardians
+M 15009 spec_breath_any   * kwal
+S
+
+#OLIMITS
+O 15003 2 *Rod of ambrossia
+O 15008 2 *Shield of ancients
+O 15010 10 *sanctuary potion
+O 15011 1 *divine protection
+
+S
+
+#OMPROGS
+O 15008 fight_prog fight_prog_ancient_shield
+O 15008 wear_prog wear_prog_ancient_shield
+O 15008 remove_prog remove_prog_ancient_shield
+O 15011 wear_prog wear_prog_neckguard
+O 15011 remove_prog remove_prog_neckguard
+S
+
+#$

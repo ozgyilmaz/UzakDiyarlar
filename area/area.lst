@@ -4,7 +4,7 @@ zoology.are
 tr/havada.are
 tr/hayvanat.are
 plains.are
-gstrong.are
+tr/goblin_kalesi.are
 firetop2.are
 gerghlm2.are
 ofcol2.are
@@ -12,7 +12,7 @@ immort.are
 tr/selenge.are
 haon.are
 arachnos.are
-canyon.are
+tr/hizmetkar_kanyonu.are
 dylan.are
 catacomb.are
 chapel.are
@@ -23,7 +23,7 @@ tr/satranc.are
 tr/semavi_duzlem.are
 tr/cuce_kralligi.are
 drow.are
-thalos.are
+tr/eski_thalos.are
 eastern.are
 aarak2.are
 galaxy.are
@@ -54,12 +54,12 @@ tr/bakimevi.are
 newbie2.are
 tr/zumrut_koyu.are
 tr/mezarlik.are
-gnome.are
+tr/gnom_koyu.are
 tr/selenge_ormani.are
 moria.are
 tr/korig.are
 mirkwd2.are
-hood.are
+tr/tehlikeli_semt.are
 group.are
 grove.are
 valley.are
@@ -103,6 +103,6 @@ tr/sumut.are
 tr/selenge_cezaevi.are
 isles.are
 tr/garp_diyar.are
-cells.are
+tr/thera_hapishanesi.are
 spirriv.are
 $

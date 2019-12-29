@@ -1,0 +1,2236 @@
+#AREA
+gnom_koyu.are~
+Gnom Köyü~
+{ 5 15} Vougon  Gnom Köyü~
+1500 1599
+#MOBILES
+#1500
+gnom çocuk~
+bir gnom çocuk~
+Sevimli bir gnom çocuðu burda oynuyor.
+~
+Bu küçük ve neþeli çocuk bumerangýyla öyle masum oynuyorki onu kucaklayýp
+kollarýnla sýký sýký sarmak istiyorsun.
+~
+human~
+ACE 0 600 0
+3 0 2d6+35 1d9+100 1d6+0 none
+7 7 7 10
+EFNU 0 0 0
+stand stand male 2
+0 0 medium 0
+#1501
+kadýn gnom~
+bir kadýn gnom~
+Bir kadýn gnom burada, güzel gözükmeye çalýþýyor.
+~
+Çekici bir kadýn gibi davranmaya çalýþan kýsa ve yamru yumru bir kadýn.
+Seni etkilemek için güzel görünmeye dikkat ediyor  ...
+~
+human~
+ACE 0 600 0
+5 0 2d6+60 2d9+100 1d6+1 none
+5 5 5 9
+EFNU 0 0 0
+stand stand female 25
+0 0 medium 0
+#1502
+erkek gnom~
+bir erkek gnom~
+Ýþine giden bir erkek gnom burada.
+~
+Tam bir gnom örneði.Kýsa ve güçsüz gözüküyor ama ayný zamanda seni
+aldatabilecek kadar zeki.
+~
+human~
+AC 0 500 0
+6 0 2d7+71 3d9+100 1d7+1 none
+4 4 4 9
+EFNU 0 0 0
+stand stand male 22
+0 0 medium 0
+#1503
+gnom mucit~
+bir gnom mucit~
+Bir gnom mucidi burada,derin düþünceler içinde görünüyor.
+~
+Ýcat etmek üzere olduðu anlayamadýðýn bir þeylere yuðunlaþmýþ bir gnom.
+ Saçlarý bembeyaz ama oldukça güçlü gözüküyor.
+~
+human~
+ABCR 0 500 0
+7 0 2d7+71 7d9+100 1d5+1 none
+4 4 4 7
+FU 0 0 0
+stand stand male 50
+0 0 medium 0
+#1504
+gnom muhafýz~
+bir gnom muhafýz~
+Bir gnom muhafýz burada bir þeyleri koruyor.
+~
+Ýyi eðitilmiþ bir gnom.  Çok güçlü olmayabilir ama silah kullanmaktaki
+yeteneði bu açýðýný kapatýyor.
+~
+human~
+AB 0 400 0
+8 0 2d7+96 4d9+100 1d7+2 none
+3 3 3 9
+EFNU 0 0 0
+stand stand male 75
+0 0 medium 0
+#1505
+gnom lideri~
+gnom lideri~
+Süslü elbiseler giymiþ çok güçlü gözüken bir gnom burada.
+~
+Lider seni çok fena dövebilecekmiþ gibi gözüküyor.  Sadece güçlü deðil
+ayný zamanda bilge ve becerikli.  Onunla uðraþmasan iyi olur.
+~
+human~
+ABQ 0 550 0
+15 0 3d9+208 15d9+100 2d5+3 none
+-2 -2 -2 6
+EIKU 0 0 0
+stand stand male 400
+0 0 medium 0
+#1507
+küçük trol~
+küçük bir trol~
+Küçük bir troll homurdanarak sana doðru ilerliyor.
+~
+Suratý insana benzeyen ama gözleri ve diþleri hahþi bir hayvaný andýran
+kýsa ve týknaz bir trol.
+~
+troll~
+ABCF 0 -900 0
+8 0 2d7+96 4d9+100 1d7+2 none
+3 3 3 9
+EFNR 0 0 0
+stand stand male 40
+0 0 medium 0
+#1508
+tarla faresi~
+bir tarla faresi~
+Bir tarla faresi ayaklarýndan kaçýyor.
+~
+Bu fare küçük ve sevimli bir yaratýk.
+~
+human~
+ABCI 0 100 0
+1 0 2d6+10 0d9+100 1d4+0 none
+9 9 9 10
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+#1509
+sýçan~
+bir sýçan~
+Bir sýçan çýðlýklar atarak etrafýnda dolaþýyor.
+~
+Ölümü hakeden çirkin ve kötü bir yaratýk.
+~
+human~
+AC 0 -200 0
+2 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+#1510
+büyük sýçan~
+büyük bir sýçan~
+Büyük bir sýçan sana koþup botlarýný kemirmeye baþlýyor.
+~
+içinde bu rezil yaratýðý öldürme dürtüsü var.
+~
+human~
+AC 0 -200 0
+4 0 2d7+46 2d9+100 1d5+1 none
+6 6 6 9
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+#1511
+dev sýçan~
+dev bir sýçan~
+Dev bir sýçan homurtular çýkararak sana saldýrmaya hazýrlanýyor.
+~
+Ortalama bir köpek kadar büyük bir sýçan görüyorsun.
+~
+human~
+AC 0 -200 0
+6 0 2d7+71 3d9+100 1d7+1 none
+4 4 4 9
+EFNU 0 0 0
+stand stand male 1
+0 0 medium 0
+#1512
+dev trol~
+dev trol~
+Dev bir trol etrafta geziniyor.
+~
+Canlý ve kocaman bir vücudu var. Güçlü kolunu seni ezmek için
+kaldýrdýðýnda korkudan büzülüyorsun.
+~
+troll~
+ABF 0 -800 0
+14 0 2d10+190 7d9+100 1d12+3 none
+-1 -1 -1 8
+EFNR 0 0 0
+stand stand male 450
+0 0 medium 0
+#1513
+siyah yarasa~
+siyah bir yarasa~
+Siyah bir yarasa tavandan sarkýyor.
+~
+Büyük kanatlarý ve diþleriyle küçük ve acayip bir yarasa.
+~
+bat~
+A 0 -500 0
+5 0 2d6+60 2d9+100 1d6+1 none
+5 5 5 9
+ENR 0 0 0
+stand stand none 0
+0 0 medium 0
+#1514
+zombi gnom~
+zombi gnom~
+Bir zombi gnom ayaklarýný sürüyerek sana doðru ilerliyor.
+~
+Yýllar önce hayatýný kaybetmiþ bir yaratýk.Bedeni bazý kötü güçler
+tarafýndan yerinden çýkarýlmýþ.
+~
+human~
+A 0 -700 0
+7 0 2d6+85 3d9+100 1d8+1 none
+4 4 4 9
+EFNU 0 0 0
+stand stand none 34
+0 0 medium 0
+#1515
+ateþ yarasasý~
+ateþ yarasasý~
+Parlak alevler içinde bir ateþ yarasasý sana saldýrmaya hazýrlanýyor .
+~
+Biçimi büyük bir yarasayý andýran bir alev görüyorsun.  Yaratýk tavandan
+sarkmýþ bir halde seni ýsýrmaya hazýrlanýyor.
+~
+bat~
+ABCF D -900 0
+12 0 2d10+150 6d9+100 1d10+3 none
+0 0 0 8
+ENR 0 0 0
+stand stand male 300
+0 0 medium 0
+#1516
+hobgoblin muhafýz~
+hobgoblin muhafýz~
+Hobgoblin muhafýzý düþünmeden sana saldýrýyor.
+~
+Çok büyük ve gerçekten çirkin bir hobgoblin görüyorsun.  Þeytani bir
+þekilde gülümserken seni ezmeye çalýþýyor.
+~
+human~
+ABF 0 -700 0
+6 0 2d7+71 3d9+100 1d7+1 none
+4 4 4 9
+EFNU 0 0 0
+stand stand male 37
+0 0 medium 0
+#1517
+hobgoblin asker~
+hobgoblin asker~
+Bir hobgoblin asker burada duruyor.
+~
+Seçkin muhafýzlarýn arasýna katýlamamýþ ortalama bir goblin.
+Korkmuþ gözüküyor.
+~
+human~
+ABF 0 -600 0
+3 0 2d6+35 1d9+100 1d6+0 none
+7 7 7 10
+EFNU 0 0 0
+stand stand male 10
+0 0 medium 0
+#1518
+hobgoblin koruyucu~
+hobgoblin koruyucu~
+Bir hobgoblin koruyucu burada hayatý pahasýna kralýný koruyor.
+~
+Seçkin hobgoblin muhafýzlarýndan birini görüyorsun. Uzun boylu ve güçlü.
+Diþlerini gýcýrdatarak sana saldýrmaya hazýrlanýyor.
+~
+human~
+AB 0 -500 0
+7 0 2d6+85 3d9+100 1d8+1 none
+4 4 4 9
+EFNU 0 0 0
+stand stand male 30
+0 0 medium 0
+#1519
+hobgoblin kral~
+hobgoblin kral~
+Gösteriþli bir kral burada, tahtýnda oturuyor.
+~
+Adaleleri cüppesine sýðmayan hobgoblin kral aptal görünüþüyle
+yaratmaya çalýþtýðý bilge etkiyi yok ediyor .
+~
+human~
+ABR 0 -500 0
+12 0 2d8+134 12d9+100 1d8+2 none
+1 1 1 6
+FU 0 0 0
+sit stand male 300
+0 0 medium 0
+#1520
+hobgoblin madenci~
+hobgoblin madenci~
+Bir hobgonlin madenci burada altýn arýyor.
+~
+Bu madenci çalýþmaktan tamamen toz içinde kalmýþ.
+~
+human~
+ABC 0 -400 0
+5 0 2d6+60 2d9+100 1d6+1 none
+5 5 5 9
+EFNU 0 0 0
+stand stand male 35
+0 0 medium 0
+#1521
+haznedar~
+haznedar~
+Bir haznedar burda altýnlarý sayýyor.
+~
+Haznedar yaþlý ve gözlüklü bir hobgoblin.
+Gözüktüðü kadarýyla ancak önündeki iki ayaðý görebiliyor.
+~
+human~
+ABC 0 -200 0
+10 0 2d7+121 5d9+100 2d4+2 none
+1 1 1 8
+EFNU 0 0 0
+stand stand male 250
+0 0 medium 0
+#1522
+gnom mahkum~
+gnom bir mahkum~
+Gnom bir mahkum burda samanlarýn içinde dinleniyor.
+~
+Mahkum zar zor yaþamaya devam ediyor.
+~
+human~
+ABC 0 100 0
+3 0 2d6+35 1d9+100 1d6+0 none
+7 7 7 10
+EFNU 0 0 0
+rest stand male 0
+0 0 medium 0
+#1523
+insan bir mahkum~
+insan bir mahkum~
+Ýnsan bir mahkum burda samanlarýn içinde dinleniyor.
+~
+Mahkum zar zor yaþamaya devam ediyor.
+~
+human~
+ABC 0 100 0
+3 0 2d6+35 1d9+100 1d6+0 none
+7 7 7 10
+EFNU 0 0 0
+rest stand female 0
+0 0 medium 0
+#1524
+yengeç~
+bir yengeç~
+Bir yengeç sana doðru aðýr aðýr ilerliyor.
+~
+Onu uyandýrdýðýn için kýzmýþ büyük bir yengeç görüyorsun.
+~
+human~
+ABCF 0 -10 0
+5 0 2d6+60 2d9+100 1d6+1 none
+5 5 5 9
+EFNU 0 0 0
+stand stand male 10
+0 0 medium 0
+#1526
+hobgoblin aþçý~
+hobgoblin aþçý~
+Bir hobgoblin aþçý burda birþeyler piþiriyor.
+~
+Kirli ve þiþman bir hobgoblin.
+Tencerenin içindeki þeyi karýþtýrýrken geðirip duruyor.
+~
+human~
+ABC 0 -300 0
+7 0 2d6+85 3d9+100 1d8+1 none
+4 4 4 9
+EFNU 0 0 0
+stand stand male 130
+0 0 medium 0
+#0
+#OBJECTS
+#1500
+kanlý anahtar~
+kanlý anahtar~
+Kanlý bir anahtar yerde duruyor.~
+wood blood~
+key 0 A
+2 0 0 0 0
+0 10 0 P
+#1501
+kirli anahtar~
+kirli anahtar~
+Kirli bir anahtar yerde duruyor.~
+wood~
+key 0 A
+2 0 0 0 0
+0 10 0 P
+#1502
+oyuncak bumerang~
+oyuncak bumerang~
+Oyuncak bir bumerang yerden alýnmak istiyor.~
+wood~
+weapon 0 AN
+exotic 2 4 pound 0
+5 50 730 P
+#1503
+budaklý deðnek~
+budaklý bir deðnek~
+Budaklý bir deðnek burada.~
+ebony~
+weapon 0 AN
+exotic 1 9 pound 0
+5 150 730 P
+#1504
+gnom kýlýcý~
+gnom kýlýcý~
+Bir gnom kýlýcý gözüne takýlýyor.~
+iron~
+weapon 0 AN
+sword 3 3 slash 0
+7 150 610 P
+#1505
+çivili kalkan~
+çivili kalkan~
+çivili bir kalkan yerde duruyor.~
+iron-wood~
+armor 0 AJ
+4 4 4 1 0
+5 100 750 P
+#1506
+kan rengi iksir~
+kan rengi iksir~
+Kan rengi bir iksir yerde duruyor.~
+glass~
+potion 0 A
+15 'cure blindness' 'cure critical' 'giant strength' ''
+7 220 480 P
+#1507
+kan rengi pelerin~
+kan rengi pelerin~
+Kan renginde bir pelerin köþede duruyor.~
+cloth~
+armor G AC
+4 4 4 0 0
+5 150 480 P
+#1508
+yarasa yüzük~
+yarasa yüzüðü~
+üstünde yarasa iþlemesi olan bir yüzük yerde duruyor .~
+silver~
+jewelry G AB
+0 0 0 0 0
+10 20 270 P
+A
+14 15
+#1509
+boncuklu kolye~
+boncuklu kolye~
+Yerde ipe dizilmiþ güzel boncuklar görüyorsun.~
+pearl~
+jewelry 0 AC
+0 0 0 0 0
+5 80 220 P
+A
+18 1
+#1510
+kývýlcým kýlýç~
+kývýlcým kýlýç~
+Kývýlcýmlar saçan bir kýlýç yerde duruyor.~
+steel~
+weapon AG AN
+sword 4 4 slash 0
+12 200 930 P
+#1511
+hasýr sepet~
+hasýr sepet~
+hasýrdan yapýlmýþ bir sepet yerde duruyor.~
+wood~
+container 0 A
+90 0 0 20 100
+0 50 0 P
+#1512
+yerfýstýðý~
+yerfýstýðý~
+Yerde bir avuç kadar yer fýstýðý görüyorsun.~
+food~
+food 0 A
+16 16 0 0 0
+0 90 0 P
+#1513
+tahýl~
+tahýl~
+Yerde biraz tahýl var.~
+unknown~
+food 0 A
+15 15 0 0 0
+0 80 0 P
+#1514
+sal~
+bir sal~
+Bir sal yerde duruyor.~
+wood~
+boat 0 A
+0 0 0 0 0
+0 240 0 P
+#1515
+gnom bot~
+gnom botu~
+Yerde bir çift gnom botu olduðunu fakediyorsun.~
+leather~
+armor 0 AG
+4 4 4 0 0
+7 120 610 P
+A
+14 10
+#1516
+sikke~
+bir miktar sikke~
+Bir miktar sikke.~
+silver~
+money 0 A
+100 0 0 0 0
+0 10 0 P
+#1517
+sikke~
+bir miktar sikke~
+Bir miktar sikke.~
+silver~
+money 0 A
+500 0 0 0 0
+0 10 0 P
+#1519
+taþ kalkan~
+taþ kalkan~
+Bir taþ levha yerde duruyor.~
+stone iron~
+armor 0 AJ
+4 4 4 2 0
+16 350 3700 P
+A
+1 2
+#1520
+þeritli aðýr zýrh~
+Þeritli aðýr zýrh~
+Þeritli büyük bir zýrh yerde duruyor~
+iron~
+armor 0 AD
+6 6 6 0 0
+15 300 2100 P
+#1521
+büyük gürz~
+büyük gürz~
+Büyük bir gürz yerde duruyor.~
+wood~
+weapon 0 AN
+mace 1 12 pound F
+6 220 460 P
+A
+18 -1
+#1522
+muz~
+muz~
+Bir muz yenilmeyi bekliyor.~
+food~
+food 0 A
+6 6 0 0 0
+0 50 0 P
+#1523
+yaþam iksiri~
+yaþam iksiri~
+Bir yaþam iksiri burada býrakýlmýþ.~
+clay~
+potion H A
+32 'cure poison' 'bless' '' ''
+6 10 630 P
+#1524
+tahta gürz~
+tahta gürz~
+Tahtadan bir gürz yerde duruyor.~
+wood~
+weapon 0 AN
+mace 2 3 pound 0
+3 100 220 P
+A
+18 -1
+#0
+
+#ROOMS
+#1501
+Köy Giriþi~
+Kuzeye ve doðuya uzanan tozlu bir yolda duruyorsun. Doðudan küçük köyün
+sesleri geliyor.
+~
+0 C 2
+D0
+A dusty path heads towards the eastern road.
+~
+~
+0 -1 3526
+D1
+Tozlu bir yol görüyorsun.
+~
+~
+0 -1 1502
+S
+#1502
+Tozlu Patika~
+Bu köye giden yol. Doðuya ve batýya devam ediyor ayrýca kuzeyde küçük
+bir ev var.
+~
+0 0 1
+D0
+Küçük bir ev görüyorsun.
+~
+~
+0 -1 1509
+D1
+Bir yol görüyorsun.
+~
+~
+0 -1 1503
+D3
+Bir patika görüyorsun.
+~
+~
+0 -1 1501
+S
+#1503
+Köyün Ýçinde Bir Yol~
+Yol kuzeye ve güneye devam ediyor etrafta birkaç kiþi var ama fazla deðil.
+~
+0 0 1
+D0
+Bir yol görüyorsun.
+~
+~
+0 -1 1505
+D1
+Bir patika görüyorsun.
+~
+~
+0 -1 1504
+D2
+Bir yol görüyorsun.
+~
+~
+0 -1 1507
+D3
+Bir yol görüyorsun.
+~
+~
+0 -1 1502
+S
+#1504
+Tozlu Patika~
+Köyün dýþýnda bir patikadasýn.  Kuzeyde ve güneyde evler var yol doðuya
+devam ediyor. Burada bir iþaret var.
+~
+0 0 1
+D0
+Küçük bir ev görüyorsun.
+~
+~
+0 -1 1512
+D1
+Bir patika görüyorsun.
+~
+~
+0 -1 1559
+D2
+Küçük bir ev görüyorsun.
+~
+~
+0 -1 1513
+D3
+Bir yol görüyorsun.
+~
+~
+0 -1 1503
+E
+iþaret~
+Uyarý: bundan sonrasý çoðunlukla Vougon tarafýndan yazýlmýþtýr.
+                    (giggle)    - Sandman
+~
+S
+#1505
+Köyün Ýçinde Bir Yol~
+Yol kuzeye ve güneye devam ediyor etrafta birkaç kiþi var ama fazla deðil.
+~
+0 0 1
+D0
+Bir yol görüyorsun.
+~
+~
+0 -1 1506
+D1
+Küçük bir ev görüyorsun.
+~
+~
+0 -1 1511
+D2
+Bir yol görüyorsun.
+~
+~
+0 -1 1503
+D3
+Küçük bir ev görüyorsun.
+~
+~
+0 -1 1510
+S
+#1506
+Köyün Ýçinde Bir Yol~
+Yol kuzeye ve güneye devam ediyor etrafta birkaç kiþi var ama fazla deðil.
+~
+0 0 1
+D0
+Bir yol görüyorsun.
+~
+~
+0 -1 1526
+D2
+Bir yol görüyorsun.
+~
+~
+0 -1 1505
+S
+#1507
+Köyün Ýçinde Bir Yol~
+Yol kuzeye ve güneye devam ediyor etrafta birkaç kiþi var ama fazla deðil.
+~
+0 0 1
+D0
+Bir yol görüyorsun.
+~
+~
+0 -1 1503
+D2
+Bir yol görüyorsun.
+~
+~
+0 -1 1508
+D3
+Bir dükkan görüyorsun.
+~
+~
+0 -1 1514
+S
+#1508
+Köyün Ýçinde Bir Yol~
+Yol kuzeye ve güneye devam ediyor etrafta birkaç kiþi var ama fazla deðil.
+~
+0 0 1
+D0
+Bir yol görüyorsun.
+~
+~
+0 -1 1507
+D1
+Bir dükkan görüyorsun.
+~
+~
+0 -1 1516
+D2
+Bir patika görüyorsun.
+~
+~
+0 -1 1517
+D3
+Bir dükkan görüyorsun.
+~
+~
+0 -1 1515
+S
+#1509
+Küçük bir ev~
+Bu odundan yapýlmýþ küçük ve güzel bir ev.  Harcanan emeði ve bunu
+yapan yaratýlýcýðý eve girdiðinde farkediyorsun.
+~
+0 D 0
+D2
+Bir patika görüyorsun.
+~
+~
+0 -1 1502
+S
+#1510
+Küçük bir ev~
+Bu odundan yapýlmýþ küçük ve güzel bir ev.  Harcanan emeði ve bunu
+yapan yaratýlýcýðý eve girdiðinde farkediyorsun.
+~
+0 D 0
+D1
+Bir patika görüyorsun.
+~
+~
+0 -1 1505
+S
+#1511
+Küçük bir ev~
+Bu odundan yapýlmýþ küçük ve güzel bir ev.  Harcanan emeði ve bunu
+yapan yaratýlýcýðý eve girdiðinde farkediyorsun.
+~
+0 D 0
+D3
+Bir patika görüyorsun.
+~
+~
+0 -1 1505
+S
+#1512
+Küçük bir ev~
+Bu odundan yapýlmýþ küçük ve güzel bir ev.  Harcanan emeði ve bunu
+yapan yaratýlýcýðý eve girdiðinde farkediyorsun.
+~
+0 D 0
+D2
+Bir patika görüyorsun.
+~
+~
+0 -1 1504
+S
+#1513
+Küçük bir ev~
+Bu odundan yapýlmýþ küçük ve güzel bir ev.  Harcanan emeði ve bunu
+yapan yaratýlýcýðý eve girdiðinde farkediyorsun.
+~
+0 D 0
+D0
+Bir patika görüyorsun.
+~
+~
+0 -1 1504
+S
+#1514
+Bir dükkan~
+Bu güzel köyün sayýsý az olan dükkanlarýndan birindesin. Eþyalar güzel
+gözüküyor, ama bildiðin gibi gnomlar yabancýlarla iþ yapmazlar.
+~
+0 D 0
+D1
+Bir yol görüyorsun.
+~
+~
+0 -1 1507
+S
+#1515
+Bir dükkan~
+Bu güzel köyün sayýsý az olan dükkanlarýndan birindesin. Eþyalar güzel
+gözüküyor, ama bildiðin gibi gnomlar yabancýlarla iþ yapmazlar.
+~
+0 D 0
+D1
+Bir yol görüyorsun.
+~
+~
+0 -1 1508
+S
+#1516
+Bir dükkan~
+Bu güzel köyün sayýsý az olan dükkanlarýndan birindesin. Eþyalar güzel
+gözüküyor, ama bildiðin gibi gnomlar yabancýlarla iþ yapmazlar.
+~
+0 D 0
+D3
+Bir yol görüyorsun.
+~
+~
+0 -1 1508
+S
+#1517
+Nehir Kenarýndaki Patika~
+Kuzeye ve doðuya devam eden bir patikadasýn.Yol diðer yönlerden küçük
+bir nehirle çevrilmiþ. Su çok soðuk gözüküyor.
+~
+0 C 2
+D0
+Bir yol görüyorsun.
+~
+~
+0 -1 1508
+D2
+Bir nehir görüyorsun.
+~
+~
+0 -1 1520
+D3
+Bir patika görüyorsun.
+~
+~
+0 -1 1518
+E
+nehir~
+Nehir gayet güzel duruyor, ama yüzmek için çok soðuk.
+~
+S
+#1518
+Nehir Kenarýndaki Patika~
+Doðu ve batýya devam eden bir yol. Yolda yeni yetiþen otlar var,
+anlaþýlan artýk çok kullanýlmýyor. Güney de nehir batýda ise küçük
+bir kulübe var.
+~
+0 0 2
+D1
+Bir patika görüyorsun.
+~
+~
+0 -1 1517
+D2
+Bir nehir görüyorsun.
+~
+~
+0 -1 1521
+D3
+Yýkýlmaya yüz tutmuþ bir kulübe görüyorsun.
+~
+~
+0 -1 1519
+E
+kulübe~
+Kulübe güzel yapýlmýþ, ama baya hasar görmüþ.
+~
+E
+nehir~
+Nehir gayet güzel duruyor, ama yüzmek için çok soðuk.
+~
+S
+#1519
+Küçük Bir Kulübe~
+Bu tam bir harabe!  Kerpiç duvarlar kan lekeriyle dolu. Etrafta yýrtýk
+elbiseler ve çöpler var, köþedeki bir iskelet de gözünden kaçmýyor.
+~
+0 D 0
+D1
+Bir patika görüyorsun.
+~
+~
+0 -1 1518
+E
+iskelet~
+Hala üstünde biraz et var ve bir insana ait gibi gözüküyor.Kafatasý açýk
+ama o kadar zarar görmemiþ galiba ilk bulan sensin.
+~
+S
+#1520
+Nehrin Üstünde~
+Nehir buz gibi, heralde derinlerinde daha fazla canlý vardýr. Akýntý batýya
+devam ediyor güneyde de bir arazi var.
+~
+0 0 7
+D0
+Bir patika görüyorsun.
+~
+~
+0 -1 1517
+D2
+Yeþil bir arazi görüyorsun.
+~
+~
+0 -1 1522
+D3
+Küçük bir nehir görüyorsun.
+~
+~
+0 -1 1521
+S
+#1521
+Nehrin Üstünde~
+akýntý doðudan geliyor, ama bir engel yüzünden ilerleyemiyorsun.
+~
+0 0 7
+D0
+Bir patika görüyorsun.
+~
+~
+0 -1 1518
+D1
+Küçük bir nehir görüyorsun.
+~
+~
+0 -1 1520
+S
+#1522
+Farelerin Hayalleri Tarlasý~
+Uzun yeþil çimlere sahip güzel bir arazi.  Ayaðýnýn etrafýnda birþey
+dolaþýyor bunu hissediyorsun. Doðuda bir maðara var.
+~
+0 0 2
+D0
+Küçük bir nehir görüyorsun.
+~
+~
+0 -1 1520
+D1
+Karanlýk ve gizemli bir maðara görüyorsun.
+~
+~
+0 -1 1523
+S
+#1523
+Karanlýk Maðara~
+Karanlýk yayýlan ýþýðý emiyor. Burasý ürkütücü, gözlerini zorlayýp ileri
+bakýyorsun, sanki birþey hareket ediyor.
+~
+0 A 3
+D0
+~
+~
+0 -1 1524
+D3
+Yeþil bir arazi görüyorsun.
+~
+~
+0 -1 1522
+S
+#1524
+Darker Cave~
+Maðara karardýkça korkun artýyor. Yaþamýn için endiþe duyuyorsun sanki
+gölgeler hareket ediyor.
+~
+0 A 3
+D2
+~
+~
+0 -1 1523
+S
+#1526
+Tozlu Patika~
+Bir çok yöne giden güzel bir yoldasýn. Kuzeyde büyük bir ev doðuda ise
+kýþla var.
+~
+0 C 1
+D0
+Büyük beyaz bir ev görüyorsun.
+~
+~
+0 -1 1558
+D2
+Bir yol görüyorsun.
+~
+~
+0 -1 1506
+D3
+Büyük bir kýþlanýn giriþini görüyorsun.
+~
+~
+0 -1 1527
+E
+kýþla~
+Bu kýþla gnomlarýn köyü savunmada kullandýðý kale.
+~
+S
+#1527
+Demir Kapýlar~
+Gnom kýþlasýnýn giriþindesin. Ýyi güçlendirilmiþ ve savunmaya elveriþli
+bir yer.
+~
+0 0 1
+D1
+Bir patika görüyorsun.
+~
+~
+0 -1 1526
+D3
+Uzun bir koridor görüyorsun.
+~
+~
+0 -1 1528
+S
+#1528
+Uzun Bir Koridor~
+Artýk kýþlanýn içindesin; Muhafýzlar seni öldürmediði için þanslýsýn. Etrafý
+taradýkça buranun iyi temizlenmiþ bir yer olduðunu farkediyorsun. Güneyde
+depo odasý kuzeyde muhafýz odasý var.
+~
+0 D 0
+D0
+Muhafýz odasýný görüyorsun.
+~
+~
+0 -1 1530
+D1
+Giriþi görüyorsun.
+~
+~
+0 -1 1527
+D2
+Depo odasýný görüyorsun.
+~
+~
+0 -1 1532
+D3
+Uzun bir koridor görüyorsun.
+~
+~
+0 -1 1529
+S
+#1529
+Uzun Bir Koridor~
+Artýk kýþlanýn içindesin, Muhafýzlar seni öldürmediði için þanslýsýn. Etrafý
+taradýkça buranun iyi temizlenmiþ bir yer olduðunu farkediyorsun. Güneyde bir
+hol var.
+~
+0 D 0
+D1
+Uzun bir koridor görüyorsun.
+~
+~
+0 -1 1528
+D2
+Bir hol görüyorsun.
+~
+~
+0 -1 1534
+D3
+Küçük bir oda görüyorsun.
+~
+~
+0 -1 1535
+S
+#1530
+Muhafýz Odasý~
+Gnom muhafýzlarýnýn odasýndasýn. Bütün yataklar düzgün ve mükemmel.
+Yerde bir elbise bile yok herþey çok düzenli. Doðuda küçük bir
+depo odasý var.
+~
+0 D 0
+D1
+Küçük bir depo odasý görüyorsun.
+~
+~
+0 -1 1531
+D2
+Uzun bir koridor görüyorsun.
+~
+~
+0 -1 1528
+S
+#1531
+Küçük Bir Depo Odasý~
+Burasý gnomlarýn elbise ve zýrhlarýný sakladýðý yer. Fazla birþey yok
+ama sen de bir þeyler getirebilirdin.
+~
+0 D 0
+D3
+Muhafýz odasýný görüyorsun.
+~
+~
+0 -1 1530
+S
+#1532
+Küçük Bir Depo Odasý~
+Burasý gnomlarýn silahlarýný sakladýðý yer. Doðuda bir kapý var.
+~
+0 D 0
+D0
+Uzun bir koridor görüyorsun.
+~
+~
+0 -1 1528
+D1
+Küçük bir oda görüyorsun.
+~
+~
+0 -1 1533
+S
+#1533
+Küçük Bir Depo Odasý~
+Gnom eþyalarýnýn depolandýðý baþka bir oda. Raflarda haritalar ve
+savaþ planlarý var.
+~
+0 D 0
+D3
+Küçük bir oda görüyorsun.
+~
+~
+0 -1 1532
+S
+#1534
+Hol~
+Muhafýzlarýn yemek odasýndasýn. Tabureler ve masalar düzen içinde,
+parlak tabaklar etrafý aydýnlatýyor.
+~
+0 D 0
+D0
+Uzun bir koridor görüyorsun.
+~
+~
+0 -1 1529
+S
+#1535
+Küçük Bir Oda~
+Küçük ve sade bir oda. Tek ilginç yaný aþaðý inen merdivenler.
+~
+0 D 0
+D1
+Uzun bir koridor görüyorsun.
+~
+~
+0 -1 1529
+D5
+Karanlýktan birþey gözükmüyor.
+~
+~
+0 -1 1536
+S
+#1536
+Az Kullanýlan Küçük Oda~
+Kýþlanýn kullanýlmayan bölümünde kalan bir odadasýn. Bütün oda örümcek
+aðlarý ve tozla kaplanmýþ. Geldiðin merdiven arkanda doðuda bir kapý var.
+~
+0 AD 1
+D1
+Paslý bir kapý görüyorsun.
+~
+paslý kapý~
+2 1500 1537
+D4
+Küçük bir oda görüyorsun
+~
+~
+0 -1 1535
+S
+#1537
+Karanlýk Koridor~
+Kendini kýþlanýn çok eski bir bölümünde buluyorsun.  Heralde uzun yýllar
+boyunca buradan geen ilk kiþisin. Koridor güneye devam ediyor doðuda bir
+kapý var.
+~
+0 AD 2
+D1
+~
+~
+0 -1 1538
+D2
+~
+~
+0 -1 1539
+D3
+Paslý bir kapý görüyorsun.
+~
+kapý~
+2 1500 1536
+S
+#1538
+Ýþkence Odasý~
+Çaresiz kurbanlarý konuþturmak için kullanýlmýþ bir oda. Makineler eski
+gözüküyor ama hala kullanýlabilir durumda.
+~
+0 AD 2
+D3
+~
+~
+0 -1 1537
+E
+makine~
+makine kollarý ve ayaklarý kenetliyor ve çalýþtýkça acý veriyor. Onun
+kollarýný koparýrcasýna çektiðini hayal edebiliyorsun.
+~
+S
+#1539
+Karanlýk Koridor~
+Koridor kuzeye ve güneye devam ediyor. Yer iðrenç bir balçýkla kaplanmýþ.
+Doðuda ve batýda kapý var.
+~
+0 AD 2
+D0
+~
+~
+0 -1 1537
+D1
+~
+~
+0 -1 1542
+D2
+~
+~
+0 -1 1540
+D3
+~
+~
+0 -1 1541
+S
+#1540
+Karanlýk Koridor~
+Koridor kuzeye ve güneye devam ediyor. Yer iðrenç bir balçýkla kaplanmýþ.
+Doðuda ve batýda kapý var.
+~
+0 AD 2
+D0
+~
+~
+0 -1 1539
+D1
+~
+~
+0 -1 1544
+D2
+~
+~
+0 -1 1543
+D3
+~
+~
+0 -1 1545
+S
+#1541
+Cezaevi Hücresi~
+Karanlýk ve tiksindirici bir hücredesin. Yerde cesetler var. Kokudan
+nefes alamýyorsun.
+~
+0 AD 2
+D1
+~
+~
+0 -1 1539
+S
+#1542
+Cezaevi Hücresi~
+Karanlýk ve tiksindirici bir hücredesin. Yerde cesetler var. Kokudan
+nefes alamýyorsun.
+~
+0 AD 2
+D3
+~
+~
+0 -1 1539
+S
+#1543
+Cezaevi Hücresi~
+Karanlýk ve tiksindirici bir hücredesin. Yerde cesetler var. Kokudan
+nefes alamýyorsun.
+~
+0 AD 2
+D0
+~
+~
+0 -1 1540
+S
+#1544
+Cezaevi Hücresi~
+Karanlýk ve tiksindirici bir hücredesin. Yerde cesetler var. Kokudan
+nefes alamýyorsun.
+~
+0 AD 2
+D3
+~
+~
+0 -1 1540
+S
+#1545
+Karanlýk Koridorun Sonu~
+Karanlýk koridorun ve belkide zavallý hayatýnýn sonuna ulaþtýn. Gölgelerde
+bir gariplik var sanki canlýlar.
+~
+0 AD 2
+D1
+~
+~
+0 -1 1540
+D3
+Çürük bir kapý görüyorsun.
+~
+kapý~
+2 1501 1546
+S
+#1546
+Merdiven~
+Bir merdivenle dikey bir tünele girin.
+~
+0 AD 3
+D1
+Çürük bir kapý görüyorsun.
+~
+kapý~
+2 1501 1545
+D5
+~
+~
+0 -1 1547
+S
+#1547
+Barýnak~
+Kýþlada yeni bir barýnaða girdin. Köþede herhangi birþey saklanýyor
+olabilir.
+~
+0 AD 2
+D2
+~
+~
+0 -1 1548
+D4
+~
+~
+0 -1 1546
+S
+#1548
+Nemli Koridor~
+Geniþ, karanlýk ve nemli bir koridor. Sýcaklýk gittikçe artýyor.
+Korkmaya baþlasan iyi olur.
+~
+0 ADN 2
+D0
+~
+~
+0 -1 1547
+D1
+~
+~
+0 -1 1549
+D3
+~
+~
+0 -1 1551
+S
+#1549
+Nemli Koridor~
+Geniþ, karanlýk ve nemli bir koridor. Sýcaklýk gittikçe artýyor.
+Korkmaya baþlasan iyi olur.
+~
+0 ADN 2
+D2
+~
+~
+0 -1 1550
+D3
+~
+~
+0 -1 1548
+S
+#1550
+Nemli Koridor~
+Geniþ, karanlýk ve nemli bir koridor. Sýcaklýk gittikçe artýyor.
+Korkmaya baþlasan iyi olur.
+~
+0 ADN 2
+D0
+~
+~
+0 -1 1549
+D2
+~
+~
+0 -1 1555
+S
+#1551
+Nemli Koridor~
+Geniþ, karanlýk ve nemli bir koridor. Sýcaklýk gittikçe artýyor.
+Korkmaya baþlasan iyi olur.
+~
+0 ADN 2
+D1
+~
+~
+0 -1 1548
+D2
+~
+~
+0 -1 1552
+S
+#1552
+Nemli Koridor~
+Geniþ, karanlýk ve nemli bir koridor. Sýcaklýk gittikçe artýyor.
+Korkmaya baþlasan iyi olur.
+~
+0 ADN 2
+D0
+~
+~
+0 -1 1551
+D2
+~
+~
+0 -1 1553
+S
+#1553
+Nemli Koridor~
+Geniþ, karanlýk ve nemli bir koridor. Sýcaklýk gittikçe artýyor.
+Korkmaya baþlasan iyi olur.
+~
+0 ADN 2
+D0
+~
+~
+0 -1 1552
+D1
+~
+~
+0 -1 1554
+S
+#1554
+Nemli Koridor~
+Geniþ, karanlýk ve nemli bir koridor. Sýcaklýk gittikçe artýyor.
+Korkmaya baþlasan iyi olur.
+~
+0 ADN 2
+D0
+~
+~
+0 -1 1556
+D1
+~
+~
+0 -1 1555
+D3
+~
+~
+0 -1 1553
+S
+#1555
+Nemli Koridor~
+Geniþ, karanlýk ve nemli bir koridor. Sýcaklýk gittikçe artýyor.
+Korkmaya baþlasan iyi olur.
+~
+0 ADN 2
+D0
+~
+~
+0 -1 1550
+D3
+~
+~
+0 -1 1554
+S
+#1556
+Koridorun sonu~
+Kendini daha fazla tehlikede hissetmek için koridordan çýktýn.
+Odaya senden önce bir sýcaklýk yayýlýyor.
+~
+0 ADN 2
+D1
+~
+~
+0 -1 1557
+D2
+~
+~
+0 -1 1554
+S
+#1557
+Minber~
+Sonunda labirentten kurtuldun. Yarasa þeklinde muhteþem bir minber
+burada. Doðuya doðru bir geçiþ var.
+~
+0 ADN 2
+D3
+~
+~
+0 -1 1556
+S
+#1558
+Liderin Evi~
+Büyük ve lüks bir eve giriyorsun. Yerler halýlarla duvarlarda tablolarla
+kaplanmýþ. Daha adým attýðýnda kendini ayrýcalýklý hissetmeye baþladýn.
+~
+0 D 0
+D2
+Bir patika görüyorsun.
+~
+~
+0 -1 1526
+S
+#1559
+Kullanýlmayan Patika~
+Kasabanýn doðusunda uzun zamandýr kullanýlmadýðý belli bir yoldasýn.
+Bu yolun neden kullanýlmadýðýný ve yolun sonunda ne olduðunu düþünüyorsun.
+~
+0 C 1
+D1
+Bir patika görüyorsun.
+~
+~
+0 -1 1560
+D3
+Bir patika görüyorsun.
+~
+~
+0 -1 1504
+S
+#1560
+Yüksek Çimli Patika~
+Patika devam ettikçe çimlerin boyu daha da yükseliyor. Bu yolun neden
+kullanýlmadýðýný ve yolun sonunda ne olduðunu düþünüyorsun.
+~
+0 0 2
+D1
+Bir meydan görüyorsun.
+~
+~
+0 -1 1561
+D3
+Bir patika görüyorsun.
+~
+~
+0 -1 1559
+S
+#1561
+Meydan~
+çevredeki daðlar birden ilerleyiþini durduruyor. Patika batýya devam
+ediyor ama kuzeyde de bir maden olduðunu farkediyorsun.
+~
+0 0 2
+D0
+Bir maden görüyorsun.
+~
+~
+0 -1 1562
+D3
+Bir patika görüyorsun.
+~
+~
+0 -1 1560
+S
+#1562
+Madenlere Giriþ~
+Madene girdiðin anda, sanki duvarlarýn üstüne kapandýðýný zannedip
+korkuyorsun. Birden ýþýk kullanmaya gerek olmadýðýný görüp þaþýrýyorsun.
+~
+0 D 2
+D1
+Bir maden görüyorsun.
+~
+~
+0 -1 1563
+D2
+Bir meydan görüyorsun.
+~
+~
+0 -1 1561
+S
+#1563
+Madenler~
+Maden mili en azýndan burada saðlam gözüküyor. Odun destekler
+kalýn ve saðlam. Duvarda meþaleler dizili, her yöne çýkýþ var.
+~
+0 D 2
+D0
+Bir maden görüyorsun.
+~
+~
+0 -1 1582
+D1
+Bir maden görüyorsun.
+~
+~
+0 -1 1564
+D2
+Bir maden görüyorsun.
+~
+~
+0 -1 1574
+D3
+Giriþi görüyorsun.
+~
+~
+0 -1 1562
+S
+#1564
+Madenler~
+Maden mili en azýndan burada saðlam gözüküyor. Odun destekler
+kalýn ve saðlam. Duvarda meþaleler dizili, her yöne çýkýþ var.
+~
+0 D 2
+D0
+Büyük bir oda görüyorsun.
+~
+~
+0 -1 1583
+D1
+Madeni görüyorsun.
+~
+~
+0 -1 1565
+D2
+Büyük bir oda görüyorsun.
+~
+~
+0 -1 1573
+D3
+Madeni görüyorsun.
+~
+~
+0 -1 1563
+S
+#1565
+Madenler~
+Maden mili en azýndan burada saðlam gözüküyor. Odun destekler
+kalýn ve saðlam. Duvarda meþaleler dizili, kuzey dýþýnda her
+yöne çýkýþ var.
+~
+0 D 2
+D1
+Geçidi görüyorsun.
+~
+~
+0 -1 1566
+D2
+Büyük bir oda görüyorsun.
+~
+~
+0 -1 1572
+D3
+Madeni görüyorsun.
+~
+~
+0 -1 1564
+S
+#1566
+Geçit~
+Daðýn içinde çok güzel yapýlmýþ bir yoldasýn. Burayý yapmak için mükemmel
+bir çalýþma gösterilmiþ olduðunu farkediyorsun.
+~
+0 D 1
+D2
+Geçidi görüyorsun.
+~
+~
+0 -1 1567
+D3
+Madeni görüyorsun.
+~
+~
+0 -1 1565
+S
+#1567
+Geçit~
+Daðýn içinde çok güzel yapýlmýþ bir yoldasýn. Burayý yapmak için mükemmel
+bir çalýþma gösterilmiþ olduðunu farkediyorsun.
+~
+0 D 1
+D0
+Geçidi görüyorsun.
+~
+~
+0 -1 1566
+D2
+Geniþ bir koridor görüyorsun.
+~
+~
+0 -1 1568
+S
+#1568
+Büyük Hol~
+Hobgoblin krallýðýnýn büyük holünde durdun; anlaþýlan þansýn pek yaver
+gitmiyor. Altýn sütunlar salonu kaplýyor ve ayaðýnýn altýna kýrmýzý bir
+halý uzanmýþ olduðunu farkediyorsun.
+~
+0 D 0
+D0
+Geçidi görüyorsun.
+~
+~
+0 -1 1567
+D2
+Büyük bir oda görüyorsun.
+~
+~
+0 -1 1569
+S
+#1569
+Taht Odasý~
+Hobgoblinlerle dolu büyük ve parlak bir oda. Güneyde duvarýn
+yanýnda altýndan yapýlmýþ geniþ bir taht var.
+~
+0 D 0
+D0
+Geniþ bir koridor görüyorsun.
+~
+~
+0 -1 1568
+S
+#1570
+Hazine Odasý~
+Hobgoblinlerin hazine odasýndasýn. Altýn, gümüþ ve bronz sikkelerden
+parlayan ýþýk gözlerini kör ediyor.
+~
+0 D 0
+D0
+Büyük bir oda görüyorsun.
+~
+~
+0 -1 1571
+S
+#1571
+Korunan Oda~
+Ýyi korunan bir odadasýn. Madenlerden daha saðlam yapýlmýþ ve etraf
+fenerlerle aydýnlatýlmýþ.
+~
+0 D 1
+D0
+Büyük bir oda görüyorsun.
+~
+~
+0 -1 1572
+D2
+Büyük bir oda görüyorsun.
+~
+~
+0 -1 1570
+S
+#1572
+Korunan Oda~
+Ýyi korunan bir odadasýn. Madenlerden daha saðlam yapýlmýþ ve etraf
+fenerlerle aydýnlatýlmýþ.
+~
+0 D 1
+D0
+Büyük bir oda görüyorsun.
+~
+~
+0 -1 1565
+D2
+Büyük bir oda görüyorsun.
+~
+~
+0 -1 1571
+S
+#1573
+Hobgoblin Cephaneliði~
+Muhafýzlar silahlarýný ve zýrhlarýný burada tutuyor. Tavandaki kancalarda
+asýlý duran paslý kýlýçlar çürümüþ kalkanlar var.
+~
+0 D 1
+D0
+Madeni görüyorsun.
+~
+~
+0 -1 1564
+S
+#1574
+Madenler~
+Meþalelerin sönmeye yüz tuttuðu bir maden bölümündesin. Görebildiklerin
+sadece örümcek aðlarý ve ayaðýnýn etrafýnda dolaþan sýçanlar.
+~
+0 D 2
+D0
+Madeni görüyorsun.
+~
+~
+0 -1 1563
+D2
+Karanlýk ve tiksindirici bir oda görüyorsun.
+~
+~
+0 -1 1575
+S
+#1575
+Zindanlara Giriþ~
+Ýlerledikçe karanlýk ve tiksindirici bir yere giriyorsun. Duvarlara baktýkça
+tüylerin ürperiyor. Çýkýþlarýn çoðu hücrelere giriyor.
+~
+0 D 2
+D0
+Madeni görüyorsun.
+~
+~
+0 -1 1574
+D1
+Bir hücre görüyorsun.
+~
+~
+0 -1 1577
+D2
+Karanlýk ve tiksindirici bir oda görüyorsun.
+~
+~
+0 -1 1576
+D3
+Bir hücre görüyorsun.
+~
+~
+0 -1 1581
+S
+#1576
+Zindanlar~
+Madenlerin en derin ve karanlýk yerindesin.Meþalelerden gelen ýþýklar
+ancak olduðun yeri aydýnlatýyor. Çýkýþlarýn çoðu hücrelere giriyor.
+~
+0 D 2
+D0
+Karanlýk ve tiksindirici bir oda görüyorsun.
+~
+~
+0 -1 1575
+D1
+Bir hücre görüyorsun.
+~
+~
+0 -1 1578
+D2
+Bir hücre görüyorsun.
+~
+~
+0 -1 1579
+D3
+Bir hücre görüyorsun.
+~
+~
+0 -1 1580
+S
+#1577
+Bir Hücre~
+Küflü ve karanlýk bir hücredesin. Yer ýslak ve kirli samanlarla kaplanmýþ.
+Duvarlar balçýktan parlýyor. Samanlarýn içinde bir þeyin dolaþtýðýný
+görüyorsun.
+~
+0 D 2
+D3
+Karanlýk ve tiksindirici bir oda görüyorsun.
+~
+~
+0 -1 1575
+S
+#1578
+Bir Hücre~
+Küflü ve karanlýk bir hücredesin. Yer ýslak ve kirli samanlarla kaplanmýþ.
+Duvarlar balçýktan parlýyor. Samanlarýn içinde bir þeyin dolaþtýðýný
+görüyorsun.
+~
+0 D 2
+D3
+Karanlýk ve tiksindirici bir oda görüyorsun.
+~
+~
+0 -1 1576
+S
+#1579
+Bir Hücre~
+Küflü ve karanlýk bir hücredesin. Yer ýslak ve kirli samanlarla kaplanmýþ.
+Duvarlar balçýktan parlýyor. Samanlarýn içinde bir þeyin dolaþtýðýný
+görüyorsun.
+~
+0 D 2
+D0
+Karanlýk ve tiksindirici bir oda görüyorsun.
+~
+~
+0 -1 1576
+S
+#1580
+Bir Hücre~
+Küflü ve karanlýk bir hücredesin. Yer ýslak ve kirli samanlarla kaplanmýþ.
+Duvarlar balçýktan parlýyor. Samanlarýn içinde bir þeyin dolaþtýðýný
+görüyorsun.
+~
+0 D 2
+D1
+Karanlýk ve tiksindirici bir oda görüyorsun.
+~
+~
+0 -1 1576
+S
+#1581
+Bir Hücre~
+Küflü ve karanlýk bir hücredesin. Yer ýslak ve kirli samanlarla kaplanmýþ.
+Duvarlar balçýktan parlýyor. Samanlarýn içinde bir þeyin dolaþtýðýný
+görüyorsun.
+~
+0 D 2
+D1
+Karanlýk ve tiksindirici bir oda görüyorsun.
+~
+~
+0 -1 1575
+S
+#1582
+Küçük Maden Mili~
+Maden milinin küçük bir uzatmasýndasýn. Yer tozla kaplý ve seninkilerden
+baþka ayak izi yok.
+~
+0 D 2
+D0
+Küçük bir maden mili görüyorsun.
+~
+~
+0 -1 1588
+D2
+Madeni görüyorsun.
+~
+~
+0 -1 1563
+S
+#1583
+Hobgoblin Muhafýz Odasý~
+Oda birkaç hobgoblinle korunuyor. Oda çok karýþýk bir durumda her tarafta
+elbiseler var. Yataklar toplanmamýþ ve daðýnýk.
+~
+0 D 2
+D0
+Büyük bir oda görüyorsun.
+~
+~
+0 -1 1584
+D1
+Bir yemekhane görüyorsun.
+~
+~
+0 -1 1585
+D2
+Madeni görüyorsun.
+~
+~
+0 -1 1564
+S
+#1584
+Hobgoblin Muhafýz Odasý~
+Iyyk! Ýlerledikçe koku çok kötüleþiyor burda ne iþin var bilmiyorsun.
+~
+0 D 2
+D2
+Büyük bir oda görüyorsun~
+~
+0 -1 1583
+S
+#1585
+Yemekhane~
+Hobgoblinlerin yemek yediði yerde duruyorsun.  Çürük masalar ve kýrýk
+tabaklar odanýn her yerinde. Az kalsýn çürümüþ bir et parçasýna basýyordun.
+Ama þanslýsýn ki basmadan farkettin.
+~
+0 D 2
+D0
+Küçük bir oda görüyorsun.
+~
+~
+0 -1 1586
+D1
+Bir mutfak görüyorsun.
+~
+~
+0 -1 1587
+D3
+Büyük bir oda görüyorsun.
+~
+~
+0 -1 1583
+S
+#1586
+Depo Odasý~
+Un meyve tahýl ve yarasa artýklarý ile dolu küçük bir odadasýn.
+~
+0 D 1
+D2
+Yemekhaneyi görüyorsun.
+~
+~
+0 -1 1585
+S
+#1587
+Mutfak~
+Mutfak insanlarýn yaradýlýþýndan beri temizlenmemiþ gözüküyor. Ayak
+bileklerine kadar çöpler ve artýk yemekler var. Tencerede birþey
+piþiyor ve içinde bir insan eli var!!!
+~
+0 D 2
+D3
+Yemekhaneyi görüyorsun.
+~
+~
+0 -1 1585
+S
+#1588
+Küçük Bir Maden Mili~
+Maden milinde, bir tünele çýkan bir yere geldin. Çýkýþlar güneye ve kuzeye.
+~
+0 D 2
+D0
+Neredeyse oyulmuþ bir yer görüyorsun.
+~
+~
+0 -1 1589
+D2
+Küçük bir maden mili görüyorsun.
+~
+~
+0 -1 1582
+D5
+Bir delik görüyorsun.
+~
+~
+0 -1 1590
+S
+#1589
+Münzevi Barýnaðý~
+Oda küçük bir maðara gibi, duvarlar madenin duvarlarýndan farklý. Oda
+zar zor aydýnlatýlmýþ ama bir þeyin sana yöneldiði farkedebiliyorsun.
+~
+0 D 2
+D2
+Küçük bir maden mili görüyorsun.
+~
+~
+0 -1 1588
+S
+#1590
+Delik~
+Bir deliðin içindesin.
+~
+0 D 3
+D4
+Küçük bir maden mili görüyorsun.
+~
+~
+0 -1 1588
+S
+#0
+#RESETS
+M 0 1502   3 1503  1	* a gnome man
+E 1 1503  20   16	*   a gnarled staff
+M 0 1502   3 1505  1	* a gnome man
+E 1 1503  20   16	*   a gnarled staff
+M 0 1502   3 1506  1	* a gnome man
+E 1 1503  20   16	*   a gnarled staff
+M 0 1500   3 1509  1	* a gnome child
+G 1 1502  20     	*   a toy boomerang
+M 0 1501   3 1509  1	* a gnome woman
+M 0 1500   3 1510  1	* a gnome child
+G 1 1502  20     	*   a toy boomerang
+M 0 1501   3 1510  1	* a gnome woman
+M 0 1500   3 1511  1	* a gnome child
+G 1 1502  20     	*   a toy boomerang
+M 0 1501   3 1511  1	* a gnome woman
+M 0 1503   3 1513  1	* a gnome scientist
+G 1 1511  12     	*   a wicker basket
+P 1 1513  12 1511  1	*   some grain
+M 0 1503   3 1514  1	* a gnome scientist
+G 1 1511  12     	*   a wicker basket
+P 1 1512  12 1511  1	*   some peanuts
+M 0 1503   3 1515  1	* a gnome scientist
+E 1 1514  12   16	*   a skiff
+M 0 1504   6 1519  1	* a gnome guard
+G 1 1500   3     	*   a bloody key
+G 1 1506  -1     	*   a bloody potion
+E 1 1507  10    3	*   a bloody cloak
+M 0 1508   2 1522  2	* a field mouse
+M 0 1508   2 1522  2	* a field mouse
+M 0 1507   1 1524  1	* a small troll
+M 0 1504   6 1527  2	* a gnome guard
+E 1 1504  20   16	*   a gnome sword
+M 0 1504   6 1530  2	* a gnome guard
+E 1 1504  20   16	*   a gnome sword
+M 0 1504   6 1530  2	* a gnome guard
+E 1 1504  20   16	*   a gnome sword
+M 0 1504   6 1534  1	* a gnome guard
+E 1 1504  12   16	*   a gnome sword
+D 0 1536   1    2	* A Small Unused Room east
+M 0 1509   3 1541  3	* a rat
+E 1 1505  10   11	*   a studded shield
+M 0 1510   3 1542  3	* a large rat
+E 1 1503  12   16	*   a gnarled staff
+M 0 1511   3 1543  3	* a giant rat
+R 0 1548   4     	* A Damp Hallway
+R 0 1549   4     	* A Damp Hallway
+R 0 1550   4     	* A Damp Hallway
+R 0 1551   4     	* A Damp Hallway
+R 0 1552   4     	* A Damp Hallway
+R 0 1553   4     	* A Damp Hallway
+R 0 1554   4     	* A Damp Hallway
+R 0 1555   4     	* A Damp Hallway
+M 0 1512   1 1545  1	* the troll
+G 1 1501   4     	*   a dirty key
+D 0 1545   3    2	* End of the Dark Hallway west
+D 0 1546   1    2	* A Ladder east
+M 0 1513  10 1548  2	* a black bat
+M 0 1514  10 1548  2	* the zombie gnome
+M 0 1513  10 1550  2	* a black bat
+M 0 1514  10 1550  2	* the zombie gnome
+M 0 1513  10 1551  2	* a black bat
+M 0 1514  10 1551  2	* the zombie gnome
+M 0 1513  10 1553  2	* a black bat
+M 0 1514  10 1553  2	* the zombie gnome
+M 0 1513  10 1555  2	* a black bat
+M 0 1514  10 1555  2	* the zombie gnome
+M 0 1515   1 1556  1	* the fire bat
+G 1 1505  18     	*   a studded shield
+G 1 1512  20     	*   some peanuts
+G 1 1516   3     	*   a pile of coins
+O 0 1517   3 1557	* a pile of coins
+M 0 1505   1 1558  1	* the chief gnome
+E 1 1508   5    1	*   a bat ring
+E 1 1509  12    3	*   a bead necklace
+E 1 1510   5   16	*   an electrum sword
+M 0 1520   6 1563  2	* a hobgoblin miner
+M 0 1520   6 1565  2	* a hobgoblin miner
+M 0 1518   5 1569  5	* the hobgoblin bodyguard
+E 1 1521  30   16	*   a large club
+M 0 1518   5 1569  5	* the hobgoblin bodyguard
+E 1 1521  30   16	*   a large club
+M 0 1518   5 1569  5	* the hobgoblin bodyguard
+E 1 1521  30   16	*   a large club
+M 0 1518   5 1569  5	* the hobgoblin bodyguard
+E 1 1521  30   16	*   a large club
+M 0 1518   5 1569  5	* the hobgoblin bodyguard
+E 1 1521  30   16	*   a large club
+M 0 1519   1 1569  1	* the king of the hobgoblins
+E 1 1520   5    5	*   heavy banded mail
+M 0 1521   1 1570  1	* the treasurer
+O 0 1516  10 1570	* a pile of coins
+O 0 1517  10 1570	* a pile of coins
+M 0 1517  30 1571 10	* the hobgoblin soldier
+E 1 1524  40   16	*   a wooden club
+M 0 1517  30 1571 10	* the hobgoblin soldier
+E 1 1524  40   16	*   a wooden club
+M 0 1517  30 1571 10	* the hobgoblin soldier
+E 1 1524  40   16	*   a wooden club
+M 0 1517  30 1571 10	* the hobgoblin soldier
+E 1 1524  40   16	*   a wooden club
+M 0 1517  30 1572 10	* the hobgoblin soldier
+E 1 1524  40   16	*   a wooden club
+M 0 1517  30 1572 10	* the hobgoblin soldier
+E 1 1524  40   16	*   a wooden club
+M 0 1517  30 1572 10	* the hobgoblin soldier
+E 1 1524  40   16	*   a wooden club
+M 0 1517  30 1572 10	* the hobgoblin soldier
+E 1 1524  40   16	*   a wooden club
+O 0 1521  40 1573	* a large club
+M 0 1522   5 1577  1	* a gnome prisoner
+M 0 1522   5 1578  1	* a gnome prisoner
+M 0 1522   5 1579  1	* a gnome prisoner
+M 0 1523   5 1580  1	* a human prisoner
+M 0 1523   5 1581  1	* a human prisoner
+M 0 1517  30 1583  5	* the hobgoblin soldier
+M 0 1517  30 1583  5	* the hobgoblin soldier
+M 0 1517  30 1584  5	* the hobgoblin soldier
+M 0 1517  30 1584  5	* the hobgoblin soldier
+M 0 1526   1 1587  1	* the cook
+M 0 1524   1 1589  1	* a hermit
+M 0 1520   6 1590  2	* a hobgoblin miner
+S
+#SHOPS
+0
+#SPECIALS
+M 1503 spec_cast_mage      	* a gnome scientist
+M 1505 spec_cast_cleric    	* the chief gnome
+M 1509 spec_poison         	* a rat
+M 1510 spec_poison         	* a large rat
+M 1511 spec_poison         	* a giant rat
+M 1513 spec_breath_acid    	* a black bat
+M 1514 spec_cast_undead    	* the zombie gnome
+M 1515 spec_breath_fire    	* the fire bat
+M 1519 spec_cast_mage      	* the king of the hobgoblins
+S
+#$

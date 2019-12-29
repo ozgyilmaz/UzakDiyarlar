@@ -1,0 +1,2124 @@
+#AREA
+hizmetkar_kanyonu.are~
+Hizmetkar Kanyonu~
+{ 5 30} Raff    Hizmetkar Kanyonu~
+9200 9299
+#MOBILES
+#9201
+daðcý~
+daðcý~
+Bir daðcý senle ayný yönde ilerliyor.
+~
+O da, daðýn arkasýnda ne olduðunu görmek istiyor.
+~
+human~
+ACGT 0 500 0
+3 1 10d5+15 1d1+99 1d4+1 punch
+7 7 7 8
+JN 0 HIJR 0
+stand stand male 30
+0 0 medium 0
+#9202
+tekgöz~
+tekgöz~
+Aç bir tekgöz seni izliyor!
+~
+Akþam yemeðini yemek üzereymiþ gibi görünüyor. (Belki de akþam yemeði
+sensin? )
+~
+giant~
+ABFQT DF -700 0
+22 7 10d10+600 10d10+100 6d4+10 smash
+-7 -7 -7 -2
+ACDIO AB CD 0
+stand stand male 600
+0 0 huge 0
+#9203
+ufak hizmetkar~
+ufak hizmetkar~
+Ufak bir hizmetkar hareket ediyor.
+~
+Ufak bir hizmetkar, tercihinin aksine reddedilmiþ.
+~
+human~
+AG 0 0 0
+1 0 2d6+10 0d9+100 1d4+0 none
+9 9 9 10
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+#9204
+hizmetkar muhafýz~
+muhafýz hizmetkar~
+Kanyonun muhafýz hizmetkarý.
+~
+Ne tür bir element olduðunu söyleyemiyorsun. Belkide hepsinden birer parça?
+~
+human~
+AB 0 0 0
+20 0 3d9+333 10d9+100 2d8+5 none
+-4 -4 -4 7
+EFNU 0 0 0
+stand stand none 500
+0 0 medium 0
+#9205
+küçük hizmetkar~
+küçük hizmetkar~
+Küçük bir hizmetkar.
+~
+Küçük bir hizmetkar, kanyonun sakinlerinden.
+~
+human~
+ABG 0 0 0
+5 0 2d6+60 2d9+100 1d6+1 none
+5 5 5 9
+EFNU 0 0 0
+stand stand none 12
+0 0 medium 0
+#9206
+orta büyüklükte hizmetkar~
+orta büyüklükte hizmetkar~
+Orta büyüklükte bir hizmetkar.
+~
+Orta büyüklükte bir hizmetkar, kanyonun sakinlerinden.
+~
+human~
+ABG 0 10 0
+10 0 2d7+121 5d9+100 2d4+2 none
+1 1 1 8
+EFNU 0 0 0
+stand stand none 37
+0 0 medium 0
+#9207
+büyük hizmetkar~
+büyük hizmetkar~
+Büyük hizmetkar.
+~
+Büyük hizmetkar, kanyonun sakinlerinden.
+~
+human~
+ABG 0 20 0
+15 0 3d9+208 7d9+100 2d6+3 none
+-2 -2 -2 7
+EFNU 0 0 0
+stand stand none 100
+0 0 medium 0
+#9208
+toprak hizmetkar yönetici~
+toprak yöneticisi~
+Toprak hizmetkarlarýnýn Yöneticisi.
+~
+Yeryüzünün kendisi kadar eski gözüküyor. Yeryüzünün bütün sýrlarýný ve
+bilgisini barýndýrýyor. Nerede baþladýðýný ve nerede bittiðini tam olarak
+söyleyemiyorsun.
+~
+human~
+ABKQe H 0 0
+30 0 6d12+853 30d9+100 5d4+8 none
+-9 -9 -9 4
+EIKU AB 0 0
+stand stand none 5000
+0 0 medium 0
+#9209
+ateþ hizmetkar yönetici~
+ateþ yöneticisi~
+Ateþ hizmetkarlarýnýn Yöneticisi.
+~
+Ona baktýðýnda, tahtýndaki ateþle karýþýyormuþ gibi görünüyor
+~
+human~
+ABKe H 0 0
+30 0 6d12+853 15d9+100 4d6+8 none
+-9 -9 -9 6
+EFNU AB 0 0
+stand stand none 5000
+0 0 medium 0
+#9210
+hava hizmetkar yönetici~
+hava yöneticisi~
+Hava hizmetkarlarýnýn Yöneticisi.
+~
+Ona baktýðýnda gökyüzünün kendisiymiþ gibi görünüyor.
+~
+human~
+ABKe H 0 0
+30 0 6d12+853 15d9+100 4d6+8 none
+-9 -9 -9 6
+EFNU AB 0 0
+stand stand none 5000
+0 0 medium 0
+#9211
+þimþek hizmetkar yönetici~
+þimþek yöneticisi~
+Þimþek hizmetkarlarýnýn Yöneticisi.
+~
+Ona göz attýðýnda kör edici bir ýþýk huzmesi görüyorsun ve saðýr edici
+bir gürleme duyuyorsun. Gözlerini ovalýyorsun ve baktýðýnda, sana
+sýrýttýðýný görüyorsun.
+~
+human~
+ABKe H 0 0
+30 0 6d12+853 15d9+100 4d6+8 none
+-9 -9 -9 6
+EFNU AB 0 0
+stand stand none 5000
+0 0 medium 0
+#9212
+su hizmetkar yönetici~
+su yöneticisi~
+Su hizmetkarlarýnýn Yöneticisi.
+~
+Sen ona bakarken deðiþiyor ve etrafýnda girdap gibi dönmeye baþlýyor.
+Korktuðun an elemental formuna geri dönüyor.
+~
+water fowl~
+ABKe H 0 0
+30 0 6d12+853 15d9+100 4d6+8 none
+-9 -9 -9 6
+EFNR AB 0 0
+stand stand none 5000
+0 0 medium 0
+#9214
+su birikinti hizmetkar~
+su birikintisi~
+Su hizmetkarlarýndan bir su birikintisi.
+~
+Sana çelme takarak yere düþürüyor ve ayaklarýn ýslanýyor.
+~
+water fowl~
+AG 0 0 0
+8 0 2d7+96 4d9+100 1d7+2 none
+3 3 3 9
+EFNR 0 0 0
+stand stand none 11
+0 0 medium 0
+#9215
+alev ateþ hizmetkar~
+alev~
+Ateþ hizmetkarlarýndan küçük bir alev.
+~
+Çimlere doðru için için yanarak gidiyor.
+~
+human~
+AG 0 0 0
+4 0 2d7+46 2d9+100 1d5+1 none
+6 6 6 9
+EFNU 0 0 0
+stand stand none 7
+0 0 medium 0
+#9216
+kara buz tane hizmetkar~
+kar tanesi~
+Su hizmetkarlarýndan bir kar tanesi.
+~
+Biraz mavimsi gözüküyor.
+~
+human~
+AG 0 520 0
+3 0 2d6+35 1d9+100 1d6+0 none
+7 7 7 10
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+#9217
+kara toprak hizmetkar~
+küçük kaya~
+Toprak hizmetkarlarýndan küçük bir kaya.
+~
+Küçük bir taþa benziyor.
+~
+human~
+AG 0 0 0
+3 0 2d6+35 1d9+100 1d6+0 none
+7 7 7 10
+EFNU 0 0 0
+stand stand none 4
+0 0 medium 0
+#9218
+kývýlcým enerji yýldýrým hizmetkar~
+kývýlcým~
+Küçük bir kývýlcým elektrik yayýyor.
+~
+Iþýk hýzýyla oradan oraya zýplýyor.
+~
+human~
+AG 0 0 0
+4 0 2d7+46 2d9+100 1d5+1 none
+6 6 6 9
+EFNU 0 0 0
+stand stand none 7
+0 0 medium 0
+#9219
+asit damla hizmetkar~
+asit damlasý~
+Küçük bir asit damlasý taþý yemekle meþgul.
+~
+Büyülü bir asit damlasý elektrik ve suyun arasýnda.
+~
+human~
+AG 0 0 0
+9 0 2d6+110 4d9+100 1d8+2 none
+2 2 2 8
+EFNU 0 0 0
+stand stand none 50
+0 0 medium 0
+#9220
+lav hizmetkar canavar~
+lav canavarý~
+Bir lav canavarý oradan oraya gidiyor.
+~
+Büyülü lava canavarý ateþle toprak arasýnda.
+~
+human~
+AG 0 0 0
+8 0 2d7+96 4d9+100 1d7+2 none
+3 3 3 9
+EFNU 0 0 0
+stand stand none 15
+0 0 medium 0
+#9221
+çamur hizmetkar canavar~
+çamur canavarý~
+Bir çamur canavarý kükrüyor.
+~
+Büyülü çamur canavarý su ve toprak arasýnda.
+~
+human~
+AG 0 0 0
+7 0 2d6+85 3d9+100 1d8+1 none
+4 4 4 9
+EFNU 0 0 0
+stand stand none 20
+0 0 medium 0
+#9222
+sis hizmetkar hava~
+hizmetkar sis~
+Hava burada gerçekten sisli.
+~
+Büyülü sis su ve hava arasýnda.
+~
+human~
+AG 0 0 0
+6 0 2d7+71 3d9+100 1d7+1 none
+4 4 4 9
+EFNU 0 0 0
+stand stand none 15
+0 0 medium 0
+#9223
+partikül hizmetkar~
+partikül~
+Çok çok küçük bir partikül.
+~
+Büyülü olduðu belli bir enerji.
+~
+human~
+AG 0 0 0
+5 0 2d6+60 2d9+100 1d6+1 none
+5 5 5 9
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+#9224
+toz hizmetkar bulut~
+toz bulutu~
+Bir toz bulutu hapþýrmana neden oluyor.
+~
+Büyülü toz bulutu hava ve toprak arasýnda.
+~
+human~
+AGS DF 0 0
+6 0 2d6+60 3d9+100 1d6+1 none
+5 5 5 9
+BEFJNU 0 0 0
+stand stand none 5
+0 0 medium 0
+#9225
+polen hizmetkar~
+polen~
+Bir polen havada uçuþuyor.
+~
+Büyülü polenin hava elementi olduðu belli.
+~
+human~
+AGS DF 0 0
+2 0 2d6+10 1d9+100 1d4+0 none
+9 9 9 10
+BEFJNU 0 0 0
+stand stand none 1
+0 0 medium 0
+#9226
+mavi alev~
+mavi alev~
+Mavi bir alev yanýyor.
+~
+Yüzü varmýþ gibi görünen insansý bir figür görüyorsun. Nasýl olduysa
+ateþin içine tuzaða düþürülmüþ.
+~
+human~
+ABG 0 -100 0
+26 0 5d10+600 13d9+100 3d7+7 none
+-7 -7 -7 6
+EFNU 0 0 0
+stand stand none 1250
+0 0 medium 0
+#9227
+manyeto~
+manyeto~
+Bir manyeto bulduðu herþeyi çarpýyor.
+~
+Ýnsansý figür manyeto alanýnda tuzaða düþürülmüþ görünüyor.
+~
+human~
+ABG 0 -150 0
+22 0 5d10+400 11d9+100 4d4+6 none
+-5 -5 -5 7
+EFNU 0 0 0
+stand stand none 500
+0 0 medium 0
+#9228
+buz haydut~
+buz haydut~
+Buz Haydut kalbine soðuðun korkusunu salýyor.
+~
+Ýnsansý figür buzla kaplanmýþ ancak hala canlý gözüküyor.
+~
+human~
+ABGH P -250 0
+24 0 5d10+500 12d9+100 2d10+6 none
+-6 -6 -6 6
+EFNU 0 0 0
+stand stand none 1500
+0 0 medium 0
+#9229
+kara canavarý~
+kaya canavarý~
+Kaya Cavanarý oldukça sessiz, bekliyor.
+~
+Toprak içine hapsedilmiþ insansý figür hala canlý görünüyor.
+~
+human~
+ABG 0 -310 0
+23 0 5d10+450 11d9+100 3d6+6 none
+-6 -6 -6 6
+EFNU 0 0 0
+stand stand none 950
+0 0 medium 0
+#9230
+kasýrga~
+kasýrga~
+Bir kasýrga gökyüzünü karýþtýrýyor.
+~
+Kasýrga içine hapsedilmiþ insansý bir figür.
+~
+human~
+ABG P -10 0
+28 0 6d12+703 14d9+100 5d4+8 none
+-8 -8 -8 6
+EFNU 0 0 0
+stand stand none 2054
+0 0 medium 0
+#9231
+büyücü hizmetkar~
+hizmetkar büyücü~
+Hizmetkar büyücü bir büyü için taþ topluyor.
+~
+Elemental büyücü buraya Teslimiyet Taþýný aramaya gelmiþ. Karþýt hisleri
+tercüme etmeye yarayacaðýný düþünüyor.
+~
+human~
+ABGR B -50 0
+17 0 3d9+233 17d9+100 1d12+3 none
+-2 -2 -2 4
+FU 0 0 0
+stand stand none 400
+0 0 medium 0
+#9232
+gökkuþaðý savaþçýsý~
+gökkuþaðý savaþçýsý~
+Gökkuþaðý Mezhebi'nden baðlýlýðýný haykýrýyor.
+~
+Elemental güçlere hizmeti sayesinde özel güçler verilmiþ bir Gökkuþaðý
+Savaþçýsý.
+~
+human~
+AGQ 0 150 0
+18 0 3d9+283 18d9+100 2d6+4 none
+-3 -3 -3 6
+EIKU 0 0 0
+stand stand none 400
+0 0 medium 0
+#9233
+ilüzyonist~
+ilüzyonist~
+Ýlüzyonist güçler üzerine çalýþýyor.
+~
+Aldatma üzerine yeni bir büyü üzerinde çalýþýyor. <kuþanýlan> Ýlüzyon Kýlýcý
+~
+human~
+ABGR 0 -50 0
+12 0 2d8+134 12d9+100 1d8+2 none
+1 1 1 6
+FU 0 0 0
+stand stand none 95
+0 0 medium 0
+#9234
+simyacý~
+simyacý~
+Bir simyacý büyülü otlarý ve taþlarý topluyor.
+~
+Nadide olan þifalý bitkilerin bu kanyonda yetiþtiðine dair söylentiler var.
+~
+human~
+AGS DF -50 0
+13 0 2d10+150 6d9+100 1d10+3 none
+0 0 0 7
+BEFJNU 0 0 0
+stand stand none 95
+0 0 medium 0
+#9235
+bebek gökkuþaðý ejderha~
+bebek gökkuþaðý ejderhasý~
+Bir bebek gökkuþaðý ejderhasý elementlerle oynuyor.
+~
+Sadece bebek bir ejderha standartlarýnda.
+~
+human~
+ABG DF 0 0
+16 0 3d9+233 8d9+100 2d6+4 none
+-2 -2 -2 7
+EFNU 0 0 0
+stand stand none 500
+0 0 medium 0
+#9236
+küçük þeytan~
+küçük þeytan~
+Küçük bir þeytan eðleniyor.
+~
+Küçük bir þeytan birkaç eþya çalýyor ve oldukça tiksindirici.
+~
+human~
+ACGH PQ -500 0
+5 0 2d6+60 2d9+100 1d6+1 none
+5 5 5 9
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+#9237
+büyük hizmetkar~
+büyük hizmetkar~
+BÜYÜK bir hizmetkar burada duruyor.
+~
+BÜYÜK, baþka söze gerek var mý?
+~
+human~
+ABG 0 30 0
+20 0 3d9+333 10d9+100 2d8+5 none
+-4 -4 -4 7
+EFNU 0 0 0
+stand stand none 500
+0 0 medium 0
+#9238
+iksir satýcýsý~
+iksir satýcýsý~
+Bir iksir satýcýsý sana iksirlerini tanýtýyor.
+~
+BANA SALDIRMANI TAVSÝYE ETMEM.
+~
+human~
+ABEGR 0 900 0
+30 0 6d12+778 30d9+100 5d4+7 none
+-9 -9 -9 1
+FU ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#9239
+savaþ büyücüsü~
+Savaþ Büyücüsü~
+Bir büyücü savaþ büyüleri için taþ ve toz topluyor.
+~
+Bir savaþ büyücüsü büyüler üzerine çalýþýyor.
+~
+human~
+ABGKRe D -50 0
+46 30 3d9+8233 17d9+4100 10d12+33 none
+-12 -12 -12 -4
+F ABC 0 0
+stand stand none 400
+0 0 medium 0
+#0
+#OBJECTS
+#9201
+toprak yüzük~
+toprak yüzüðü~
+Tüm ýþýklarý soðuran siyah bir yüzük burada dinleniyor.~
+oldstyle~
+furniture I AB
+0 0 0 0 0
+7 50 1140 P
+A
+4 1
+A
+3 1
+#9202
+taþ göðüslük~
+taþ göðüslük~
+Taþ bir göðüslük toprakla konuþuyor.~
+stone~
+armor 0 AD
+10 10 10 2 0
+31 700 5500 P
+A
+5 1
+A
+2 -2
+#9203
+ateþ hançeri~
+ateþ hançeri~
+Ateþ figürleriyle bezenmiþ bir hançer deðdiði yerleri yakýyor.~
+unknown~
+weapon A AN
+dagger 5 6 pierce A
+29 20 2800 P
+A
+19 4
+#9204
+kýzýl alev fularý~
+kýzýl alev fularý~
+Ruhani alevlerden yapýlmýþ bir fular burada süzülüyor.~
+ethereal~
+armor A AC
+9 9 9 3 0
+30 30 3100 P
+A
+19 1
+#9205
+rüzgar çizme~
+bir çift rüzgar çizmesi~
+Bir çift rüzgar çizmesi çevresinde hava akýmý oluþturuyor.~
+fiber~
+armor G AG
+8 8 8 2 0
+26 10 5200 P
+A
+2 2
+#9206
+kasýrga miðferi~
+kasýrga miðferi~
+Üzerinde kasýrga iþlemeleri olan bir miðfer burada býrakýlmýþ.~
+iron~
+armor B AE
+9 9 9 3 0
+31 40 3800 P
+A
+20 -2
+#9207
+yýldýrým kýlýç~
+yýldýrým kýlýcý~
+Kývýlcýmlar saçan bir kýlýç burada bekliyor.~
+unknown~
+weapon AB AN
+sword 5 5 slash H
+25 100 2200 P
+A
+19 3
+A
+18 -1
+#9208
+elektrik kalkan~
+elektrik kalkaný~
+Enerjiden yapýlmýþ bir kalkan burada oturuyor.~
+unknown~
+armor B AJ
+9 9 9 4 0
+28 80 4500 P
+A
+5 1
+A
+1 -1
+#9209
+buz kemeri~
+buz kemeri~
+Büyülü buzdan yapýlmýþ bir kemer burada býrakýlmýþ.~
+ice~
+armor 0 AL
+10 10 10 3 0
+31 100 1540 P
+A
+5 -2
+#9210
+þelale pelerini~
+þelale pelerini~
+Üzerinde büyülü þelalelerin dansettiði bir pelerin burada býrakýlmýþ.~
+unknown~
+armor 0 AK
+9 9 9 2 0
+30 60 3000 P
+A
+18 -2
+A
+12 25
+#9211
+hizmetkar muskasý~
+hizmetkar muskasý~
+Ateþ, su, yýldýrým, toprak ve hava desenleri olan bir muska burada býrakýlmýþ.~
+unknown~
+jewelry A AC
+0 0 0 0 0
+20 10 860 P
+A
+20 -2
+#9212
+hizmetkar bileklik~
+hizmetkar bilekliði~
+Büyülü bir bileklik burada býrakýlmýþ.~
+unknown~
+gem 0 AM
+0 0 0 0 0
+20 40 580 P
+A
+13 20
+#9213
+platin bileklik~
+platin bileklik~
+Platin bir bileklik burada yatýyor.~
+platinium~
+armor 0 AM
+9 9 9 2 0
+26 40 1700 P
+A
+4 -2
+A
+1 1
+#9214
+platin bacaklýk~
+bir çift platin bacaklýk~
+Bir çift platin bacaklýk burada yatýyor.~
+platinium~
+armor 0 AF
+9 9 9 2 0
+26 40 1700 P
+A
+3 -2
+A
+2 1
+#9215
+ateþ deðnek~
+ateþ deðneði~
+Bir ateþ deðneði burada býrakýlmýþ.~
+wood~
+wand A AO
+15 3 3 'fireball' 0
+16 70 3900 P
+#9216
+buz asa~
+buz asa~
+Buzdan bir asa burada býrakýlmýþ.~
+ice~
+wand A AO
+12 3 3 'frost breath' 0
+25 70 13700 P
+#9217
+deprem deðnek~
+deprem deðneði~
+Bir deprem deðneði burada býrakýlmýþ.~
+ebony~
+wand A AO
+7 3 3 'earthquake' 0
+7 70 1000 P
+#9218
+rüzgar deðnek~
+rüzgar deðneði~
+Bir rüzgar deðneði burada býrakýlmýþ.~
+wood~
+wand A AO
+11 1 1 'gas breath' 0
+27 70 12600 P
+#9219
+yýldýrým deðnek~
+yýldýrým deðneði~
+Bir yýldýrým deðneði burada býrakýlmýþ.~
+ebony~
+wand A AO
+9 1 1 'lightning bolt' 0
+7 70 1420 P
+#9220
+taþ gürz~
+taþ gürz~
+Taþtan yapýlmýþ bir gürz burada unutulmuþ.~
+stone~
+weapon 0 AN
+mace 3 7 pound F
+13 160 730 P
+A
+19 1
+A
+18 -2
+#9221
+kýzýl yükleme deðnek~
+yükleme deðneði~
+Kýzýl bir kaya burada býrakýlmýþ.~
+stone~
+wand 0 AO
+19 2 2 'harm' 0
+13 20 2800 P
+A
+1 -2
+#9222
+lav ýþýk~
+lav ýþýðý~
+Bir lav ýþýðý burada býrakýlmýþ.~
+oldstyle~
+light A A
+0 0 1000 0 0
+0 40 250 P
+#9223
+enerji parþömen~
+enerji parþömeni~
+Bir enerji parþömeni burada býrakýlmýþ.~
+paper~
+scroll B A
+19 'cure critical' 'refresh' '' ''
+5 10 860 P
+#9224
+su testisi~
+su testisi~
+Büyük fakat hafif bir su testisi burada býrakýlmýþ.~
+glass~
+drink 0 A
+150 150 'water' 0 0
+0 20 200 P
+#9225
+büyülü toz~
+büyülü toz~
+Bir miktar büyülü toz etrafa daðýlmýþ.~
+unknown~
+pill 0 A
+20 'detect invis' '' '' ''
+0 10 300 P
+#9226
+alev mýzrak~
+alev mýzraðý~
+Mavi alevlerden yapýlmýþ bir mýzrak topraðý yakýyor.~
+flame~
+weapon A AN
+lance 2 15 thrust A
+29 140 220 P
+A
+18 3
+A
+13 -20
+#9227
+buz saçak hançer~
+buz saçaðý hançeri~
+Parlayan bir hançer burada bekliyor. Oldukça SOÐUK görünüyor!~
+ice~
+weapon A AN
+dagger 6 4 pierce B
+28 10 1630 P
+A
+1 -1
+A
+19 3
+#9228
+çýð~
+ÇýÐ~
+Bir çýð seni ezmeye çalýþýyor!~
+unknown~
+weapon 0 AN
+exotic 1 25 blast 0
+24 160 3000 P
+A
+18 -1
+#9229
+sabah yýldýzý zincir~
+sabah yýldýzý~
+Zincirle baðlanmýþ bir yýldýz burada bekliyor.~
+wood~
+weapon A AN
+flail 6 4 crush 0
+23 110 3300 P
+A
+17 -6
+A
+20 -4
+#9230
+þok kýrbaç~
+Þok Kýrbacý~
+Hareketleri yýlana benzeyen bir kýrbaç görüyorsun.~
+leather~
+weapon B AN
+whip 3 8 stab 0
+20 100 64 P
+A
+1 -2
+A
+19 4
+#9231
+yokolma iksiri~
+yokolma iksiri~
+Herkes tarafýndan farkedilmeyi engelleyecek bir iksir burada dinleniyor.~
+glass~
+potion 0 AO
+15 'invisibility' '' '' ''
+0 10 250 P
+#0
+
+#ROOMS
+#9201
+Dað Yolu~
+Sarp bir daða çýkan, dað yolundasýn. You are on a mountain path which
+ascends a steep mountainside. Patika daðýn etrafýnda bir yýlan gibi
+kývrýldýðý için patika sonunda ne olduðunu göremiyorsun. Daðýn arkasýndan
+gelen bölgeden büyük bir gücün varlýðýný seziyorsun.
+~
+0 0 5
+D0
+~
+~
+0 -1 5267
+D4
+~
+~
+0 -1 9202
+S
+#9202
+Dað Yolu~
+Daðý çevreleyen kayalý patikadasýn. Daha göremediðin bir parlama
+seziyorsun, daðýn arkasýndan..
+~
+0 0 5
+D0
+Gateway to abysis.
+~
+~
+0 -1 25000
+D4
+~
+~
+0 -1 9203
+D5
+~
+~
+0 -1 9201
+S
+#9203
+Daðkenarý Mezarlarý~
+Daða çýkmayý baþaramayan kiþilerin yýðýnlar halindeki mezarlarýný
+görüyorsun. Gömülmemiþ bir kaç cesedin yorgunluktan ölmediðini
+farkediyorsun. Patika daðýn doðu tarafýna kývrýlýyor.
+~
+0 0 5
+D4
+~
+~
+0 -1 9204
+D5
+~
+~
+0 -1 9202
+E
+beden vücut ölü~
+Boyunlarý kýrýlmýþ ve vücutlarý çiðnenmiþ gibi gözüküyor.
+~
+E
+mezar taþ~
+You are sure glad that YOU aren't under one of those piles! Many of the
+tombstones have the same name on them, 'Raff'. He must come here a lot.
+~
+S
+#9204
+Dað Yolunda Kör Viraj~
+Normal bir dað patikasý gibi gözükse de öyle DEÐÝL! This looks like a
+normal mountain path, but it is NOT! Patikanýn bu tarafý büyük(ve tabii ki
+insan yiyen) bir Tek Gözün bölgesi! Patika son týrmanýþýný yüksek bir yerde
+tamamlýyor.
+~
+0 0 5
+D4
+~
+~
+0 -1 9205
+D5
+~
+~
+0 -1 9203
+S
+#9205
+Uzak Manzara~
+Kanyonun üstünden baktýðýnda þok edici bir manzarayla karþýlaþýyorsun.
+Burada bir iþarette: DÝKKAT! ELEMENTAL KANYON yazýyor. Kanyonun batý
+tarafýndaki lav akýntýlarýndan alevler sýçrýyor. Kuzey batýda gökyüzü komik,
+hava sisli gözüküyor. Kuzey doðuda elektrik akýmlarýnýn sýçramalarýný
+görebiliyorsun. Doðu da güçlü ve büyülü bir nehir görüyorsun. Ayrýca doðuda
+kanyon duvarýna doðru ilerleyen bir maðaranýn giriþini görüyorsun. Patika
+kuzeye, etrafa bakýlabilecek bir yere daha ilerliyor.
+~
+0 0 5
+D0
+~
+~
+0 -1 9206
+D5
+~
+~
+0 -1 9204
+S
+#9206
+Manzara~
+Kanyonda dolaþan elemental hizmetkarlar görüyorsun. Kanyondan gelen
+uðultu yükseliyor. Patika burada kanyonu týrmanýyor.
+~
+0 0 5
+D2
+~
+~
+0 -1 9205
+D5
+~
+~
+0 -1 9207
+S
+#9207
+Hizmetkar Kanyonu Giriþi~
+Buradaki üstün güçlerin sesleri ve görüntüleri sana huþu veriyor.
+Elemental hizmetkarlar efendilerinin emirlerini yerine getiriyorlar. Baþka
+bir manzaraya bakmak için yukarý týrmanabilir veya kuzeydeki yol ayrýmýna
+gidebilirsin.
+~
+0 0 3
+D0
+~
+~
+0 -1 9209
+D4
+~
+~
+0 -1 9206
+S
+#9208
+Kanyonun Zemini~
+Çeþitli elemental suretler kanyonda dolaþýyor. Bazýlarý iþlerine gidiyor
+gibi bazýlarýysa iþleri yokmuþ gibi gözüküyor. Kanyon kuzeye ve doðuya devam
+ediyor.
+~
+0 0 3
+D0
+~
+~
+0 -1 9211
+D1
+~
+~
+0 -1 9209
+S
+#9209
+Hizmetkar Geçidi~
+Batýda lavlarýn sýçradýðýný görebiliyorsun. Kuzey doðuda nehre doðru
+giden bir patika var. Doðuda kanyon duvarýna doðru giden bir maðaranýn
+giriþi var. Güney ise geldiðin yola, kanyonun çýkýþýna doðru gidiyor.
+~
+0 CD 0
+D0
+~
+~
+0 -1 9212
+D1
+~
+~
+0 -1 9210
+D2
+~
+~
+0 -1 9207
+D3
+~
+~
+0 -1 9208
+D4
+~
+Entrance to the Combat Magician Chamber.
+~
+0 -1 9261
+S
+#9261
+Savaþ Büyücüsünün Odasý~
+	You are standing in the middle of this magical chamber.This
+room is full of shelves which hold various spell components. The entire
+room smells of smoke and incense. This room is obviously used by a
+practicing mage.
+~
+0 0 0
+D5
+~
+~
+0 -1 9209
+S
+#9210
+Kanyonun Zemini~
+Çeþitli elemental suretler kanyonun zemininde dolanýyorlar. Bazýlarýnýn
+iþi varmýþ gibi görünse de bazýlarýnýn iþi yok gibi gözüküyor. Kanyon kuzeye
+ve batýya devam ediyor. Kanyon duvarýna doðru giden bir maðaranýn giriþi
+doðuda.
+~
+0 0 3
+D0
+~
+~
+0 -1 9213
+D1
+~
+~
+0 -1 9220
+D3
+~
+~
+0 -1 9209
+S
+#9211
+Kanyonun Zemini~
+Çeþitli elemental suretler kanyonun zemininde dolanýyorlar. Bazýlarýnýn
+iþi varmýþ gibi görünse de bazýlarýnýn iþi yok gibi gözüküyor. Kanyon kuzeye
+güneye ve batýya devam ediyor.
+~
+0 0 3
+D0
+~
+~
+0 -1 9214
+D1
+~
+~
+0 -1 9212
+D2
+~
+~
+0 -1 9208
+S
+#9212
+Kanyonun Zemini~
+Çeþitli elemental suretler kanyonun zemininde dolanýyorlar. Bazýlarýnýn
+iþi varmýþ gibi görünse de bazýlarýnýn iþi yok gibi gözüküyor. Kanyon
+zemininden her yöne çýkýþ var.
+~
+0 0 3
+D0
+~
+~
+0 -1 9215
+D1
+~
+~
+0 -1 9213
+D2
+~
+~
+0 -1 9209
+D3
+~
+~
+0 -1 9211
+S
+#9213
+Kanyonun Zemini~
+Çeþitli elemental suretler kanyonun zemininde dolanýyorlar. Bazýlarýnýn
+iþi varmýþ gibi görünse de bazýlarýnýn iþi yok gibi gözüküyor. Kanyon zemini
+kuzeye güneye ve batýya doðru gidiyor. Doðuya doðru bir patika var.
+~
+0 0 3
+D0
+~
+~
+0 -1 9216
+D1
+~
+~
+0 -1 9228
+D2
+~
+~
+0 -1 9210
+D3
+~
+~
+0 -1 9212
+S
+#9214
+Kanyonun Zemini~
+Çeþitli elemental suretler kanyonun zemininde dolanýyorlar. Bazýlarýnýn
+iþi varmýþ gibi görünse de bazýlarýnýn iþi yok gibi gözüküyor. Kanyon zemini
+kuzeye güneye ve batýya doðru geniþliyor. Batýda bir bahçe yanýyor.
+~
+0 0 3
+D0
+~
+~
+0 -1 9217
+D1
+~
+~
+0 -1 9215
+D2
+~
+~
+0 -1 9211
+D3
+~
+~
+0 -1 9237
+S
+#9215
+Kanyonun Zemini~
+Çeþitli elemental suretler kanyonun zemininde dolanýyorlar. Bazýlarýnýn
+iþi varmýþ gibi görünse de bazýlarýnýn iþi yok gibi gözüküyor. Buradan her
+tarafa çýkýþ mevcut.
+~
+0 0 3
+D0
+~
+~
+0 -1 9218
+D1
+~
+~
+0 -1 9216
+D2
+~
+~
+0 -1 9212
+D3
+~
+~
+0 -1 9214
+S
+#9216
+Kanyonun Zemini~
+Çeþitli elemental suretler kanyonun zemininde dolanýyorlar. Bazýlarýnýn
+iþi varmýþ gibi görünse de bazýlarýnýn iþi yok gibi gözüküyor. Kanyon zemini
+kuzeye, güneye ve batýya doðru yayýlýyor.
+~
+0 0 3
+D0
+~
+~
+0 -1 9219
+D2
+~
+~
+0 -1 9213
+D3
+~
+~
+0 -1 9215
+S
+#9217
+Kanyonun Zemini~
+Çeþitli elemental suretler kanyonun zemininde dolanýyorlar. Bazýlarýnýn
+iþi varmýþ gibi görünse de bazýlarýnýn iþi yok gibi gözüküyor. Kanyon zemini
+doðu ve güneye yayýlýyor. Kuzeyde bir çýkýntýya týrmanabilirsin.
+~
+0 0 3
+D0
+~
+~
+0 -1 9253
+D1
+~
+~
+0 -1 9218
+D2
+~
+~
+0 -1 9214
+S
+#9218
+Kanyonun Zemini~
+Çeþitli elemental suretler kanyonun zemininde dolanýyorlar. Bazýlarýnýn
+iþi varmýþ gibi görünse de bazýlarýnýn iþi yok gibi gözüküyor. Kanyon zemini
+doðuya, güneye ve batýya doðru yayýlýyor.
+~
+0 0 3
+D1
+~
+~
+0 -1 9219
+D2
+~
+~
+0 -1 9215
+D3
+~
+~
+0 -1 9217
+S
+#9219
+Kanyonun Zemini~
+Çeþitli elemental suretler kanyonun zemininde dolanýyorlar. Bazýlarýnýn
+iþi varmýþ gibi görünse de bazýlarýnýn iþi yok gibi gözüküyor. Kanyon zemini
+güney ve batýya doðru yayýlýyor. Kuzeydeki çýkýntýya týrmanabilirsin.
+~
+0 0 3
+D0
+~
+~
+0 -1 9254
+D2
+~
+~
+0 -1 9216
+D3
+~
+~
+0 -1 9218
+S
+#9220
+Karanlýk Maðara~
+Doðuya doðru giden büyük kayalarla dolu bir patika görüyorsun. Çok güçlü
+enerji kaynaðý seziyorsun doðu yönünde.
+~
+0 AD 3
+D1
+~
+~
+0 -1 9221
+D3
+~
+~
+0 -1 9210
+S
+#9221
+Karanlýk Maðaralar~
+Bir ýþýk kaynaðýyla bile önünü zor görebilirsin. Maðaradaki kayalar,
+karanlýktan daha kara. Etrafýnda çok büyük bir güç seziyorsun. Patika güneye
+ve doðuya gidiyormuþ gibi gözükse de, ne tarafa yürüdüðünü bile söylemek
+zor, önünü göremezken..
+~
+0 AD 3
+D1
+~
+~
+0 -1 9222
+D2
+~
+~
+0 -1 9223
+D3
+~
+~
+0 -1 9220
+S
+#9222
+Karanlýk Maðaralar~
+Bir ýþýk kaynaðýyla bile önünü zor görebilirsin. Maðaradaki kayalar,
+karanlýktan daha kara. Etrafýnda çok büyük bir güç seziyorsun. Patika güneye
+ve batýya gidiyormuþ gibi gözükse de, ne tarafa yürüdüðünü bile söylemek
+zor, önünü göremezken..
+~
+0 AD 3
+D2
+~
+~
+0 -1 9224
+D3
+~
+~
+0 -1 9221
+S
+#9223
+Karanlýk Maðaralar~
+Bir ýþýk kaynaðýyla bile önünü zor görebilirsin. Maðaradaki kayalar,
+karanlýktan daha kara. Etrafýnda çok büyük bir güç seziyorsun. Patika kuzeye
+,güneye ve doðuya gidiyormuþ gibi gözükse de, ne tarafa yürüdüðünü bile
+söylemek zor, önünü göremezken..
+~
+0 AD 3
+D0
+~
+~
+0 -1 9221
+D1
+~
+~
+0 -1 9224
+D2
+~
+~
+0 -1 9225
+S
+#9224
+Karanlýk Maðaralar~
+Bir ýþýk kaynaðýyla bile önünü zor görebilirsin. Maðaradaki kayalar,
+karanlýktan daha kara. Etrafýnda çok büyük bir güç seziyorsun. Patika
+kuzeye, güneye ve doðuya gidiyormuþ gibi gözükse de, ne tarafa yürüdüðünü
+bile söylemek zor, önünü göremezken..
+~
+0 AD 3
+D0
+~
+~
+0 -1 9222
+D2
+~
+~
+0 -1 9226
+D3
+~
+~
+0 -1 9223
+S
+#9225
+Koyu Karanlýk Maðaralar~
+Iþýðýn burada iþe yarýyormuþ gibi gözükmüyor. Büyülü ýþýk kaynaklarý bile
+bir adým ötenden daha ilerisini gösteremeyecek gibi gözüküyor. Birden
+patikanýn kývrýldýðýný ve deðiþtiðini hatýrlýyorsun, ancak karanlýktan
+dolayý farkedememiþtin. Doðuda büyük bir güç seziyorsun.
+~
+0 AD 3
+D0
+~
+~
+0 -1 9223
+D1
+~
+~
+0 -1 9226
+S
+#9226
+Koyu Karanlýk Maðaralar~
+Iþýðýn burada iþe yarýyormuþ gibi gözükmüyor. Büyülü ýþýk kaynaklarý bile
+bir adým ötenden daha ilerisini gösteremeyecek gibi gözüküyor. Birden
+patikanýn kývrýldýðýný ve deðiþtiðini hatýrlýyorsun, ancak karanlýktan
+dolayý farkedememiþtin. Doðuda büyük bir güç seziyorsun.
+~
+0 AD 3
+D0
+~
+~
+0 -1 9224
+D1
+~
+~
+0 -1 9227
+D3
+~
+~
+0 -1 9225
+S
+#9227
+Toprak Odasý~
+Burasý Toprak Efendisinin yeri. Depremler ve heyelanlar hakkýnda kararlar
+veriyor. Kayaya oyulmuþ büyük bir tahtta oturuyor.
+~
+0 AD 3
+D3
+~
+~
+0 -1 9226
+E
+mermer taht~
+The ruler notices your stare, and doesn't like it one bit! The whole
+earth seems to shake with his emotion.
+~
+S
+#9228
+Nehir Boyu~
+Nehirdeki su büyüyle parlýyor ve hava kabarcýklarý oluþturuyor. Her ne
+kadar oyun kabarcýklarý üzerinde oyuncu bir þekilde patlasa da, ýslanmýþ
+hissetmiyorsun. Patika kuzeye nehrin derinliklerine iniyor. Batýda bir
+manzara görüyorsun.
+~
+0 0 3
+D0
+~
+~
+0 -1 9229
+D3
+~
+~
+0 -1 9213
+S
+#9229
+Nehirde~
+Devam etmek için nehirin içine doðru yürümek zorundasýn. Bileklerine
+kadar suya girsen de ýslanmýþ hissetmiyorsun. Nehir güneye devam etse de
+kuzeye giderek geri dönebilirsin.
+~
+0 0 6
+D0
+~
+~
+0 -1 9230
+D2
+~
+~
+0 -1 9228
+S
+#9230
+Hizmetkar Körfezi~
+Su burada çok berrak gözüküyor. Senden 30 feet aþaðýsýný rahatlýkla
+görebiliyorsun. Sonra suyun üstünde yürüdüðünü farkediyorsun. Kesinlike
+büyülü bir nehir..
+~
+0 0 6
+D0
+~
+~
+0 -1 9233
+D1
+~
+~
+0 -1 9231
+D2
+~
+~
+0 -1 9229
+S
+#9231
+Hizmetkar Körfezi~
+Su burada çok berrak gözüküyor. Senden 30 feet aþaðýsýný rahatlýkla
+görebiliyorsun. Sonra suyun üstünde yürüdüðünü farkediyorsun. Kesinlike
+büyülü bir nehir..
+~
+0 0 6
+D0
+~
+~
+0 -1 9234
+D1
+~
+~
+0 -1 9232
+D3
+~
+~
+0 -1 9230
+S
+#9232
+Hizmetkar Körfezi~
+Su burada çok berrak gözüküyor. Senden 30 feet aþaðýsýný rahatlýkla
+görebiliyorsun. Sonra suyun üstünde yürüdüðünü farkediyorsun. Kesinlike
+büyülü bir nehir..
+~
+0 0 6
+D0
+~
+~
+0 -1 9235
+D3
+~
+~
+0 -1 9231
+S
+#9233
+Hizmetkar Körfezi~
+Su burada çok berrak gözüküyor. Senden 30 feet aþaðýsýný rahatlýkla
+görebiliyorsun. Sonra suyun üstünde yürüdüðünü farkediyorsun. Kesinlike
+büyülü bir nehir..
+~
+0 0 6
+D1
+~
+~
+0 -1 9234
+D2
+~
+~
+0 -1 9230
+S
+#9234
+Hizmetkar Körfezi~
+Su burada çok berrak gözüküyor. Senden 30 feet aþaðýsýný rahatlýkla
+görebiliyorsun. Sonra suyun üstünde yürüdüðünü farkediyorsun. Kesinlike
+büyülü bir nehir..
+~
+0 0 6
+D1
+~
+~
+0 -1 9235
+D2
+~
+~
+0 -1 9231
+D3
+~
+~
+0 -1 9233
+S
+#9235
+Hizmetkar Körfezi~
+Su burada çok berrak gözüküyor. Senden 30 feet aþaðýsýný rahatlýkla
+görebiliyorsun. Sonra suyun üstünde yürüdüðünü farkediyorsun. Kesinlike
+büyülü bir nehir..
+~
+0 0 6
+D2
+~
+~
+0 -1 9232
+D3
+~
+~
+0 -1 9234
+D5
+~
+~
+0 -1 9236
+S
+#9236
+Su Odasý~
+Bu çember kanyonun zemininde büyü ile yaratýlmýþ. Çok, çok uzun zaman
+önce de burada varmýþ gibi gözüküyor. Suyun içinde olmana raðmen rahatlýkla
+nefes alabiliyorsun.
+~
+0 D 6
+D4
+~
+~
+0 -1 9235
+S
+#9237
+Alevli Yol~
+Alev gayzerlerinden fýþkýran alevler yüzünden patikada dikkatle
+yürüyorsun. Minyatür volkanlar nehirlere lava kusuyor. Alevler sýcak ancak
+çokta tehlikeli deðil. Patika doðu ve güney yönünde geniþliyor.
+~
+0 0 5
+D1
+~
+~
+0 -1 9214
+D2
+~
+~
+0 -1 9238
+S
+#9238
+Alevli Yol~
+Alev gayzerlerinden fýþkýran alevler yüzünden patikada dikkatle
+yürüyorsun. Batýdaki bahçe sönmez ateþle parlýyor.
+~
+0 0 5
+D0
+~
+~
+0 -1 9237
+D3
+~
+~
+0 -1 9242
+S
+#9242
+Yanan Bahçeler~
+Etrafýndaki bahçenin tümü yanýyor; kayalar, aðaçlar ve hava bile
+yanýyormuþ görünüyor. Büyülü ateþ zarar verici gözükmüyor. Patika doðudaki
+lav yataklarýna ilerliyor.
+~
+0 0 5
+D1
+~
+~
+0 -1 9238
+D3
+~
+~
+0 -1 9245
+S
+#9245
+Ateþ Odasý~
+Mavi alevden yapýlmýþ tahtýnda oturuyor, Ateþ Efendisi. Küçük titrek
+ýþýklar efendileri için aþaðý yukarý dans ediyor.
+~
+0 0 3
+D1
+~
+~
+0 -1 9242
+S
+#9246
+Elektrikli Yol~
+Patika yolu etraftaki elektrikten parlýyor ve výzýldýyor. Kuzeyde çökmüþ
+bir bölge görüyorsun. Patika doðuya doðru gidiyor.
+~
+0 0 3
+D0
+~
+~
+0 -1 9248
+D1
+~
+~
+0 -1 9253
+S
+#9247
+Elektrikli Oyun Yeri~
+Görünüþte normal bir hava olsa da, yakýnlarda daha önemli birþey olduðunu
+hissediyorsun. Elektrik oyun yeri kuzeye ve doðuya doðru yayýlýyor.
+~
+0 0 4
+D0
+~
+~
+0 -1 9249
+D1
+~
+~
+0 -1 9248
+S
+#9248
+Elektrikli Oyun Yeri~
+Görünüþte normal bir hava olsa da, yakýnlarda daha önemli birþey olduðunu
+hissediyorsun. Güneye giden elektrikli bir patika var. Elektrik oyun yeri
+kuzeye ve batýya doðru yayýlýyor.
+~
+0 0 4
+D0
+~
+~
+0 -1 9250
+D2
+~
+~
+0 -1 9246
+D3
+~
+~
+0 -1 9247
+S
+#9249
+Elektrikli Oyun Yeri~
+Görünüþte normal bir hava olsa da, yakýnlarda daha önemli birþey olduðunu
+hissediyorsun. Elektrik oyun yeri güneye ve doðuya doðru devam ediyor.
+~
+0 0 4
+D1
+~
+~
+0 -1 9250
+D2
+~
+~
+0 -1 9247
+S
+#9250
+Elektrikli Oyun Yeri~
+Görünüþte normal bir hava olsa da, yakýnlarda daha önemli birþey olduðunu
+hissediyorsun. Elektrik oyun yeri güneye ve batýya doðru yayýlýyor. Doðuda
+daha önemli birþey dikkatini çekiyor.
+~
+0 0 4
+D1
+~
+~
+0 -1 9251
+D2
+~
+~
+0 -1 9248
+D3
+~
+~
+0 -1 9249
+S
+#9251
+Yýldýrým Geçidi~
+Tepeye doðru çýkan merdivenlerin üstünde aralýklarla parlayan ýþýk
+çakmalarý görüyorsun. Elektrik oyun yeri batýda kalýyor.
+~
+0 0 4
+D3
+~
+~
+0 -1 9250
+D4
+~
+~
+0 -1 9252
+S
+#9252
+Yýldýrým Odasý~
+Burada bir çeþit kontrol paneli bulunmakta. Elektrik Efendisi, elektrik
+güçlerini buradan kontrol ediyor.
+~
+0 D 6
+D5
+~
+~
+0 -1 9251
+S
+#9253
+Batý Mesa~
+Batýya doðru giden bir elektrik patikasýnýn baþýndasýn. Mesa doðuya doðru
+devam ediyor. Ya da kanyon zeminine güneye giderek týrmanabilirsin.
+~
+0 0 4
+D1
+~
+~
+0 -1 9254
+D2
+~
+~
+0 -1 9217
+D3
+~
+~
+0 -1 9246
+S
+#9254
+Doðu Mesa~
+Kuzeye doðru giden bir patikanýn baþýndasýn. Mesa batýya doðru devam
+ediyor. Ya da kanyon zeminine inmek için güneye týrmanabilirsin.
+~
+0 0 4
+D0
+~
+~
+0 -1 9255
+D2
+~
+~
+0 -1 9219
+D3
+~
+~
+0 -1 9253
+S
+#9255
+Havada Süzülüþ~
+Son hatýrladýðýn, mesada yürüdüðün. Last you knew, you were walking on
+the mesa. Kavramayacak kadar hýzlý bir þekilde patikadan düþtün. Ölümüne
+düþerken, havada yürüyebildiðini farkediyorsun. Ýnce hava kuzey ve doðuda da
+var, orada yürüyebilirsin. Geldiðin yol güneyde.
+~
+0 0 4
+D0
+~
+~
+0 -1 9257
+D1
+~
+~
+0 -1 9256
+D2
+~
+~
+0 -1 9254
+S
+#9256
+Havada Süzülüþ~
+Aþaðý bakýyorsun ve yerden 100 fit yukarda olduðunu farkediyorsun. Rüzgar
+kulaðýna güven verici birþeyler fýsýldarmýþ gibi geliyor. Güneyde daha fazla
+ince hava varken, kuzeyde birkaç portal görüyorsun.
+~
+0 0 4
+D0
+~
+~
+0 -1 9258
+D3
+~
+~
+0 -1 9255
+S
+#9257
+Havada Süzülüþ~
+Aþaðý bakýyorsun ve yerden 100 fit yukarda olduðunu farkediyorsun. Rüzgar
+kulaðýna güven verici birþeyler fýsýldarmýþ gibi geliyor. Güneyde daha fazla
+ince hava varken, doðuda birkaç portal görüyorsun.
+~
+0 0 4
+D1
+~
+~
+0 -1 9258
+D2
+~
+~
+0 -1 9255
+S
+#9258
+Havada Süzülüþ~
+Aþaðý bakýyorsun ve yerden 100 fit yukarda olduðunu farkediyorsun. Rüzgar
+kulaðýna güven verici birþeyler fýsýldarmýþ gibi geliyor. Burada havanýn
+ortasýnda durmuþ bir portal var. Portal doðuya doðru devam ediyor. Güneye
+veya batýya gidebilirsin istersen.
+~
+0 0 4
+D1
+~
+~
+0 -1 9259
+D2
+~
+~
+0 -1 9256
+D3
+~
+~
+0 -1 9257
+D4
+Kerkes þehri.
+~
+~
+0 -1 5600
+E
+geçit~
+Through the portal you see a tunnel.
+~
+S
+#9259
+Rüzgarlý Tünel~
+Bir tünel doðuya doðru ilerliyor. Batýda portala girebilirsin. A tunnel
+leads east. To the west you can enter a portal. Burada, tüneldeki rüzgar
+epey bir hiddetli.
+~
+0 0 4
+D1
+~
+~
+0 -1 9260
+D3
+~
+~
+0 -1 9258
+E
+geçit~
+Through the portal you see nothing but sky.
+~
+S
+#9260
+Hava Odasý~
+Küçük tornadolar gidip gelerek dans ediyorlar. Çemberin arkasýnda,
+bulutlardan yapýlmýþ kocaman bir taht görüyorsun. Bir tünel batýya doðru
+gidiyor.
+~
+0 D 6
+D3
+~
+~
+0 -1 9259
+E
+taht bulutlarý~
+Although the cloud throne appears solid enough to sit on, I wouldn't try
+it if I were you!
+~
+S
+#0
+#RESETS
+M 0 9239   1 9261  1    * The Combat Magician
+M 0 9201   3 9201  3	* the mountain climber
+M 0 9201   3 9202  3	* the mountain climber
+G 1 9231  30     	*   anti-cyclops elixir
+M 0 9201   3 9203  3	* the mountain climber
+M 0 9238   1 9203  1	* the elixir vendor
+G 1 9231  30     	*   anti-cyclops elixir
+M 0 9202   0 9204  0	* the cyclops
+E 1 9213  10   10	*   a platinum arm band
+E 1 9214  10    7	*   some platinum leg bands
+M 0 9204   1 9209  1	* the elemental guardian
+E 1 9211   8    3	*   an elemental amulet
+E 1 9212   8   14	*   an elemental bracelet
+M 0 9208   1 9227  1	* the Earth Ruler
+E 1 9201   6    1	*   the earth ring
+E 1 9202   6    5	*   a stoney breastplate
+M 0 9209   1 9245  1	* the Fire Ruler
+E 1 9203   6   16	*   a fiery dagger
+E 1 9204   6    3	*   a flame red cape
+M 0 9210   1 9260  1	* The Air Ruler
+E 1 9205   6    8	*   the wind boots
+E 1 9206   6    6	*   a hurricane helmet
+M 0 9211   1 9252  1	* The Lightning Ruler
+E 1 9207   6   16	*   a sparking lightning sword
+E 1 9208   6   11	*   an electric shield
+M 0 9212   1 9236  1	* The Water Ruler
+E 1 9209   6   13	*   an icy girth
+E 1 9210   6   12	*   a waterfall cloak
+M 0 9203  15 9208 15	* a tiny elemental
+M 0 9203  15 9210 15	* a tiny elemental
+M 0 9203  15 9217 15	* a tiny elemental
+M 0 9203  15 9219 15	* a tiny elemental
+E 1 9225  10   17	*   magic dust
+M 0 9203  15 9215 15	* a tiny elemental
+M 0 9203  15 9215 15	* a tiny elemental
+M 0 9203  15 9218 15	* a tiny elemental
+M 0 9205  15 9218 15	* a small elemental
+M 0 9205  12 9207 12	* a small elemental
+M 0 9205  12 9250 12	* a small elemental
+M 0 9205  12 9209 12	* a small elemental
+M 0 9205  12 9234 12	* a small elemental
+M 0 9205  12 9222 12	* a small elemental
+E 1 9224  10   17	*   a water jug
+M 0 9206   9 9246  9	* a medium elemental
+M 0 9206   9 9212  9	* a medium elemental
+E 1 9221  10   17	*   a lodestone
+M 0 9206   9 9254  9	* a medium elemental
+M 0 9206   9 9225  9	* a medium elemental
+E 1 9219   7   17	*   elemental wand of lightning
+M 0 9207   6 9218  6	* a large elemental
+M 0 9207   6 9260  6	* a large elemental
+E 1 9220  16   16	*   a stone club
+M 0 9207   6 9242  6	* a large elemental
+M 0 9207   6 9209  6	* a large elemental
+M 0 9207   6 9218  6	* a large elemental
+E 1 9223  10   17	*   an energy scroll
+M 0 9226   1 9238  1	* the Blue Flame
+E 1 9226  10   16	*   a flame lance
+M 0 9227   1 9238  1	* the Magneto
+E 1 9230  10   16	*   the Shock Whip
+M 0 9228   1 9242  1	* the Ice Bandit
+E 1 9227  10   16	*   an icicle
+M 0 9229   1 9242  1	* the Rock Monster
+E 1 9228  10   16	*   the avalanche
+M 0 9230   1 9242  1	* the Hurricane
+E 1 9229  10   16	*   the morning star
+M 0 9231   5 9216  5	* an elemental magician
+E 1 9215  10   17	*   elemental wand of fire
+M 0 9231   5 9211  5	* an elemental magician
+E 1 9215  10   17	*   elemental wand of fire
+M 0 9232   8 9209  8	* a rainbow warrior
+E 1 9220  16   16	*   a stone club
+M 0 9232   8 9208  8	* a rainbow warrior
+M 0 9233   8 9253  8	* an illusionist
+M 0 9233   7 9218  7	* an illusionist
+M 0 9233   7 9255  7	* an illusionist
+M 0 9234   6 9230  6	* an alchemist
+E 1 9218  10   16	*   elemental wand of wind and air
+M 0 9234   6 9238  6	* an alchemist
+E 1 9217  10   16	*   an elemental rod of earthquake
+M 0 9235   2 9249  2	* a baby rainbow dragon
+M 0 9235   2 9257  2	* a baby rainbow dragon
+E 1 9216  10   16	*   an ice staff
+M 0 9236  15 9202 15	* a little imp
+M 0 9236  15 9207 15	* a little imp
+M 0 9236  15 9237 15	* a little imp
+M 0 9236  15 9220 15	* a little imp
+M 0 9236  15 9228 15	* a little imp
+M 0 9236  15 9246 15	* a little imp
+M 0 9236  15 9255 15	* a little imp
+M 0 9214  15 9233 15	* a puddle
+E 1 9216   5   17	*   an ice staff
+M 0 9214  15 9234 15	* a puddle
+M 0 9214  15 9235 15	* a puddle
+E 1 9224  10   17	*   a water jug
+M 0 9214  15 9230 15	* a puddle
+M 0 9214  15 9231 15	* a puddle
+M 0 9214  15 9232 15	* a puddle
+M 0 9214  15 9236 15	* a puddle
+M 0 9214  15 9236 15	* a puddle
+M 0 9215  15 9242 15	* a flame
+M 0 9215  15 9245 15	* a flame
+E 1 9215   5   17	*   elemental wand of fire
+M 0 9215  15 9242 15	* a flame
+E 1 9215   5   17	*   elemental wand of fire
+M 0 9215  15 9242 15	* a flame
+M 0 9215  15 9245 15	* a flame
+M 0 9215  15 9245 15	* a flame
+M 0 9217  15 9221 15	* a small rock
+M 0 9217  15 9222 15	* a small rock
+M 0 9217  15 9223 15	* a small rock
+E 1 9217   5   17	*   an elemental rod of earthquake
+M 0 9217  15 9224 15	* a small rock
+M 0 9217  15 9225 15	* a small rock
+M 0 9217  15 9227 15	* a small rock
+M 0 9217  15 9227 15	* a small rock
+M 0 9217  15 9226 15	* a small rock
+M 0 9218  15 9247 15	* a small spark
+M 0 9218  15 9248 15	* a small spark
+M 0 9218  15 9249 15	* a small spark
+M 0 9218  15 9250 15	* a small spark
+E 1 9219   7   17	*   elemental wand of lightning
+M 0 9218  15 9251 15	* a small spark
+M 0 9218  15 9252 15	* a small spark
+E 1 9218   7   17	*   elemental wand of wind and air
+M 0 9218  15 9252 15	* a small spark
+M 0 9218  15 9246 15	* a small spark
+M 0 9225  15 9255 15	* an eddie
+E 1 9218   7   17	*   elemental wand of wind and air
+M 0 9225  15 9256 15	* an eddie
+M 0 9225  15 9257 15	* an eddie
+M 0 9225  15 9258 15	* an eddie
+M 0 9225  15 9259 15	* an eddie
+M 0 9225  15 9260 15	* an eddie
+M 0 9225  15 9260 15	* an eddie
+M 0 9225  15 9255 15	* an eddie
+E 1 9225  10   17	*   magic dust
+M 0 9219   8 9228  8	* a small blob of acid
+M 0 9219   8 9229  8	* a small blob of acid
+M 0 9219   8 9238  8	* a small blob of acid
+M 0 9219   8 9246  8	* a small blob of acid
+M 0 9216   5 9232  5	* a small snowflake
+M 0 9216   5 9232  5	* a small snowflake
+M 0 9216   5 9212  5	* a small snowflake
+M 0 9216   5 9225  5	* a small snowflake
+M 0 9220   8 9238  8	* a lava beast
+M 0 9220   8 9242  8	* a lava beast
+M 0 9220   8 9220  8	* a lava beast
+E 1 9222  10   17	*   a lava lamp
+M 0 9220   8 9221  8	* a lava beast
+M 0 9221   8 9222  8	* a mud monster
+M 0 9221   8 9222  8	* a mud monster
+M 0 9221   8 9231  8	* a mud monster
+M 0 9221   8 9231  8	* a mud monster
+M 0 9222   8 9232  8	* an elemental mist
+M 0 9222   8 9213  8	* an elemental mist
+M 0 9222   8 9255  8	* an elemental mist
+M 0 9222   8 9254  8	* an elemental mist
+M 0 9223   8 9248  8	* a particle
+M 0 9223   8 9253  8	* a particle
+M 0 9223   8 9221  8	* a particle
+M 0 9223   8 9210  8	* a particle
+M 0 9224   8 9227  8	* a dust cloud
+M 0 9224   8 9222  8	* a dust cloud
+E 1 9225  10    5	*   magic dust
+M 0 9224   8 9259  8	* a dust cloud
+M 0 9224   8 9257  8	* a dust cloud
+S
+#SHOPS
+9238  0  0  0  0  0 	 105  15 	 0 23 	* the elixir vendor
+0
+#SPECIALS
+M 9239 spec_cast_mage           * The Combat Magician
+M 9202 spec_cast_cleric    	* the cyclops
+M 9204 spec_breath_any     	* the elemental guardian
+M 9207 spec_breath_any     	* a large elemental
+M 9208 spec_cast_cleric    	* the Earth Ruler
+M 9209 spec_breath_fire    	* the Fire Ruler
+M 9210 spec_breath_gas     	* The Air Ruler
+M 9211 spec_breath_lightning	* The Lightning Ruler
+M 9212 spec_breath_acid    	* The Water Ruler
+M 9219 spec_breath_acid    	* a small blob of acid
+M 9223 spec_breath_lightning	* a particle
+M 9224 spec_thief          	* a dust cloud
+M 9225 spec_thief          	* an eddie
+M 9226 spec_breath_fire    	* the Blue Flame
+M 9227 spec_breath_lightning	* the Magneto
+M 9228 spec_breath_frost   	* the Ice Bandit
+M 9230 spec_breath_gas     	* the Hurricane
+M 9231 spec_cast_mage      	* an elemental magician
+M 9232 spec_cast_cleric    	* a rainbow warrior
+M 9233 spec_cast_mage      	* an illusionist
+M 9234 spec_thief          	* an alchemist
+M 9235 spec_breath_any     	* a baby rainbow dragon
+M 9237 spec_breath_any     	* a HUGE elemental
+M 9238 spec_cast_mage      	* the elixir vendor
+S
+
+#OMPROGS
+O 9205 wear_prog wear_prog_wind_boots
+O 9205 remove_prog remove_prog_wind_boots
+S
+
+#OLIMITS
+O 9205 2
+S
+
+#PRACTICERS
+M 9208 group_draconian		* ruler
+M 9209 group_draconian		* ruler
+M 9210 group_draconian		* ruler
+M 9211 group_draconian		* ruler
+M 9212 group_draconian		* ruler
+M 9239 group_combat		* magician
+S
+
+#$
