@@ -1,13 +1,13 @@
 #AREA
-catacomb.are~
-Catacombs~
-{10 20} Raff    Dwarven Catacombs~
+cuce_mezarligi.are~
+Cüce Mezarlýðý~
+{10 20} Raff    Cüce Mezarlýðý~
 2000 2099
 #MOBILES
 #2001
-oldstyle bat~
-a bat~
-A bat flaps wildly at you!
+yarasa~
+bir yarasa~
+Bir yarasa sana doðru vahþice kanat çýrpýyor!
 ~
 Your typical smelly, blind flying mammal.
 ~
@@ -19,9 +19,9 @@ ENR 0 0 0
 stand stand none 0
 0 0 medium 0
 #2002
-oldstyle page templar~
-a templar page~
-A templar page in training is here looking mildly confused.
+ulak þövalye ulaðý~
+bir þövalye ulaðý~
+Henüz eðitilmekte olan bir þövalye ulaðý kafasý karýþmýþ halde burada duruyor.
 ~
 He has lost his family and everything of his former life.
 ~
@@ -33,9 +33,9 @@ EFNU 0 0 0
 stand stand male 30
 0 0 medium 0
 #2003
-oldstyle spelunker explorer~
-a spelunker~
-A spelunker knows his way around these tunnels.
+maðara kaþifi~
+bir maðara kaþifi~
+Bir maðara kaþifi bu tünellerde yolunu kolaylýkla buluyor gibi.
 ~
 He recently discovered these catacombs and wants to see where they lead.
 He just hopes he doesn't get killed in the process.  He carries only
@@ -50,9 +50,9 @@ EFNU 0 0 0
 stand stand male 40
 0 0 medium 0
 #2004
-oldstyle gravedigger digger robber graverobber~
-a graverobber~
-A graverobber uncovers dead bodies.
+mezar kazýcý soyguncu mezar soyguncusu~
+bir mezar soyguncusu~
+Bir mezar soyguncusu ölü bedenleri kýyasýya inceliyor.
 ~
 Working for an evil necromancer isn't the greatest thing in the world.
 They seem like little more than zombie servants themselves.
@@ -65,9 +65,9 @@ EFNU 0 0 0
 stand stand male 5
 0 0 medium 0
 #2005
-oldstyle mist swirling~
-some mist~
-Some mist swirls about you here ... it seems ALIVE!
+süzülen sis~
+bir miktar sis~
+Bir miktar sis senin etrafýnda süzülüyor ... sakýn CANLI olmasýn?!
 ~
 In fact it IS alive in a magical sort of sense.
 ~
@@ -79,8 +79,8 @@ EFNU 0 0 0
 stand stand none 10
 0 0 medium 0
 #2006
-oldstyle ~
-It~
+þey o~
+Ve iþte O..~
 ~
 ~
 human~
@@ -91,9 +91,9 @@ EFNU 0 0 0
 stand stand none 50
 0 0 medium 0
 #2007
-oldstyle skeleton skeletal soldier~
-a skeleton~
-A skeletal soldier fights in the battle of the underworld.
+iskelet asker~
+bir iskelet~
+Bir iskelet asker yeraltýnýn muharebe meydanlarýnda hala savaþýyor.
 ~
 Even though he has died in the physical sense of the word, the battle
 continues for him in his charmed state.
@@ -106,14 +106,14 @@ EFNU 0 0 E
 stand stand male 55
 0 0 medium 0
 #2008
-oldstyle templar~
-a templar~
-A templar shouts "AKK! SLAY THE INFIDEL!"
+þövalye~
+bir þövalye~
+Bir þövalye baðýrýyor "EVVET! ÖLDÜRÜN KAFÝRÝ!"
 ~
-As you peer closely he peers back at you
-A templar peers closely at you.
-A templar tells you, "You are an evil force trying to spread your ways!".
-A templar tells you, "You must die for your sin!".
+Sen onu dikkatle inceleyince, o da dikkatle seni incelemeye baþlýyor.
+Bir þövalye yakýndan dikkatle seni inceliyor.
+Bir þövalye sana þöyle diyor, "Sen kötülük yaymaya çalýþan bozuk bir tohumsun!".
+Bir þövalye ekliyor, "Günahýn yüzünden þimdi ÖLMELÝSÝN!".
 ~
 human~
 ACF 0 600 0
@@ -123,9 +123,9 @@ EFNU 0 0 0
 stand stand male 25
 0 0 medium 0
 #2009
-oldstyle wraith~
-a mysterious wraith~
-A mysterious ghostly wraith forms before your eyes.
+hayalet~
+gizemli bir hayalet~
+Gizemli bir hayalet gözlerinin önünde birden cisimleþiyor.
 ~
 Hard to tell much about the mysterious form even upon further inspection.
 ~
@@ -137,9 +137,9 @@ EFNU 0 0 0
 stand stand male 30
 0 0 medium 0
 #2010
-oldstyle officer templar~
-the templar officer~
-A templar officer keeps an eye on things here.
+þövalye subayý~
+þövalye subayý~
+Bir þövalye subayý etrafta olan biteni gözlüyor.
 ~
 A templar officer tells you "Better move along evil one!"
 ~
@@ -151,9 +151,9 @@ EFNU 0 0 0
 stand stand male 30
 0 0 medium 0
 #2011
-oldstyle zombie mage~
-zombie~
-A blank-faced zombie mage joins the battle.
+zombi büyücü~
+zombi~
+Boþ boþ bakan bir büyücü zombi savaþa katýlýyor.
 ~
 He seems to lack real interest in what he is doing.
 ~
@@ -165,9 +165,9 @@ FU 0 0 0
 stand stand male 27
 0 0 medium 0
 #2012
-oldstyle shadow shadows~
-the shadow~
-Eerie shadows fill the room.
+gölgeler~
+gölge~
+Ürkütücü gölgeler odayý kaplýyor.
 ~
 Looks vaguely you-shaped.
 ~
@@ -179,11 +179,11 @@ EFNU 0 0 0
 stand stand none 40
 0 0 medium 0
 #2013
-oldstyle bat vampire~
-The vampire~
-A bat flaps wildly at you!
+yarasa vampir~
+Vampir~
+Bir yarasa sana doðru vahþice kanat çýrpýyor!
 ~
-A rather LARGE "bat" ...
+Biraz daha ÝRÝCE bir "yarasa" ...
 ~
 bat~
 ABF F -100 0
@@ -193,9 +193,9 @@ ENR 0 0 0
 stand stand male 50
 0 0 medium 0
 #2014
-oldstyle necromancer necro cleric~
-the evil necromancer~
-The evil necromancer makes undead soldiers from corpses.
+ölümbüyücüsü ölüm büyücüsü~
+kara ölümbüyücüsü~
+Kara ölümbüyücüsü cesetleri hortlatýp yeni askerler yaratýyor.
 ~
 Though he seems absorbed in his work, you'd bet he'd take the time out
 to kill you to get a fresh corpse!
@@ -208,9 +208,9 @@ EFNU 0 0 0
 stand stand male 55
 0 0 medium 0
 #2015
-oldstyle grand templar leader~
-the grand templar~
-The grand templar stands here quietly observing your actions
+ulu þövalye lider~
+Ulu Þövalye~
+Ulu Þövalye sessizce burada senin hareketlerini seyrediyor.
 ~
 A slight, tolerant smile comes briefly across his face.  In the blink
 of an eye he seems stern again.
@@ -223,9 +223,9 @@ EFNU 0 0 0
 stand stand male 75
 0 0 medium 0
 #2016
-oldstyle prism dragon prismdragon~
-the prism dragon~
-The light shines off a beautiful but dangerous dragon lurking here.
+prizma ejderha~
+prizma ejderha~
+Iþýk, burada pusuya yatmýþ güzel ancak tehlikeli ejderhanýn üzerinden yansýyor.
 ~
 The spray of colored light bouncing off his scales is almost blinding.
 ~
@@ -237,9 +237,9 @@ EFNU 0 0 0
 stand stand male 1500
 0 0 medium 0
 #2017
-oldstyle darken dark beast darkenbeast~
-The DarkenBeast~
-You hear and smell the presence of the darkenbeast.
+karanlýk canavar karanlýkcanavar~
+Karanlýk Canavar~
+Göremesen de, Karanlýk Canavarýn varlýðýný diðer tüm duyularýnla hissediyorsun.
 ~
 You see nothing more than the sense of darkness and evil.
 ~
@@ -253,17 +253,17 @@ stand stand none 1000
 #0
 #OBJECTS
 #2001
-glowing key~
-a glowing key~
-A circular, glowing key radiates a bright aura around it.~
+parýldayan anahtar~
+parýldayan bir anahtar~
+Halka þeklinde, parýldayan anahtar etrafýna parlak bir aura yayýyor.~
 steel~
 key ABG A
 39 0 0 0 0
 0 10 0 P
 #2002
-granite plate mail platemail~
-a suit of granite platemail~
-A suit of platemail hewn from granite stands by itself in the corner.~
+granit zýrh~
+granite bir zýrh~
+Granitten oyulmuþ bir göðüs zýrhý bir köþede kendi kendine duruyor.~
 granite~
 armor BJ AD
 8 8 8 2 0
@@ -271,9 +271,9 @@ armor BJ AD
 A
 2 -1
 #2003
-onyx ring~
-an onyx ring~
-A ring with a very dark onyx stone in it has been left in the dirt.~
+akik yüzük~
+akik bir yüzük~
+Kapkara akik taþlý olan bir yüz tozun içine býrakýlmýþ.~
 onyx~
 jewelry J AB
 0 0 0 0 0
@@ -283,9 +283,9 @@ A
 A
 17 -1
 #2004
-neutralizer sword~
-the neutralizer~
-A long thin sword with a wide blade makes you wonder.~
+kýsýrlaþtýrýcý kýlýç~
+Kýsýrlaþtýrýcý~
+Geniþ býçaklý uzun ince bir kýlýç merakýný uyandýrýyor.~
 iron~
 weapon BJK AN
 sword 4 5 slash 0
@@ -295,9 +295,9 @@ A
 A
 18 1
 #2005
-sword excalibur~
-the sword Excalibur~
-A sword gleams by the light of its magical silvery blade.~
+kýlýç excalibur~
+kýlýç Excalibur~
+Bir kýlýç, gümüþi býçaðýndaki büyüyle ýþýldýyor.~
 steel~
 weapon AGKL AN
 sword 10 4 slash 0
@@ -307,9 +307,9 @@ A
 A
 18 3
 #2006
-crown~
-a kingly crown~
-The crown of a long lost King lies forgotten here.~
+taç kral tacý~
+bir kral tacý~
+Uzun süre önce kaybolmuþ bir kralýn tacý burada unutulmuþ.~
 gold~
 key I AE
 0 0 0 0 0
@@ -317,33 +317,33 @@ key I AE
 A
 17 -6
 #2007
-stone~
-stone~
-The stone is surrounded by a bright glow, better look closer.~
+taþ~
+taþ~
+Taþ parlak bir ýþýkla çevrelenmiþ. En iyisi yakýndan bakmak...~
 stone~
 container A 0
 15 ABCD 2006 15 100
 0 0 0 P
 #2008
-holy water flask~
-a flask of holy water~
-A flask of holy water is here.~
+kutsal su matarasý~
+bir kutsal su matarasý~
+Bir kutsal su matarasý burada.~
 copper~
 potion A AO
 25 'bless' 'sanctuary' '' ''
 11 20 880 P
 #2009
-chainmail chain mail suit~
-a suit of chainmail~
-A nice suit of chainmail has been left behind.~
+zincirzýrh zincir zýrh giysi~
+bir zincirzýrh~
+Hoþ bir zincirzýrh burada terk edilmiþ.~
 iron~
 armor I AD
 5 5 5 0 0
 10 200 1450 P
 #2010
-white cape~
-a white cape~
-A blazing cape of white lies in a careful pile.~
+beyaz pelerin~
+beyaz bir pelerin~
+Iþýldayan beyaz renkten bir pelerin dikkatle buraya uzanmýþ.~
 cloth~
 armor A AC
 5 5 5 0 0
@@ -351,9 +351,9 @@ armor A AC
 A
 18 1
 #2011
-shield defense~
-the shield of defense~
-A large shield lies protecting the ground.~
+kalkan savunma~
+savunma kalkaný~
+Büyük bir kalkan bir þeyleri savunmaya hazýr bir halde bekliyor.~
 iron~
 armor G AJ
 6 6 6 4 0
@@ -369,9 +369,9 @@ A
 A
 17 -2
 #2012
-scale shield dragonscale~
-a dragonscale shield~
-A shield from from the scales of a large dragon lies here.~
+pul kalkan ejderha pulu~
+ejderha pulundan bir kalkan~
+Büyük bir ejderhanýn pullarýndan yapýlmýþ kalkan burada uzanýyor.~
 dragonskin~
 armor 0 AJ
 7 7 7 4 0
@@ -379,17 +379,17 @@ armor 0 AJ
 A
 20 -2
 #2013
-prism wand~
-a prism wand~
-A wand made of a triangular prism twinkles in the dust.~
+prizma deðnek~
+bir prizma deðnek~
+Üçgen prizmadan yapýlmýþ bir deðnek tozun içinde titrek bir þekilde parlýyor.~
 glass~
 wand AG AO
 11 4 4 'colour spray' 0
 12 40 2200 P
 #2014
-shadow cloak~
-a shadow cloak~
-The shadows in the corner of the room seems strange ...~
+gölge pelerini~
+bir gölge pelerini~
+Odanýn köþesindeki gölgeler biraz acayip görünüyor ...~
 cloth~
 armor G AK
 7 7 7 2 0
@@ -397,17 +397,17 @@ armor G AK
 A
 14 -30
 #2015
-misty potion~
-a misty potion~
-A potion of swirling mist-like substance is here.~
+buðulu iksir~
+buðulu bir iksir~
+Buharlaþan sis benzeri bir maddeden oluþan iksir burada.~
 glass~
 potion 0 AO
 10 'pass door' 'faerie fire' '' ''
 12 10 920 P
 #2016
-templar templars sword wooden~
-a templar's sword~
-A sword made of wood has been left here.~
+þövalye kýlýcý þövalyenin kýlýcý ahþap~
+bir þövalyenin kýlýcý~
+Tahtadan yapýlmýþ bir kýlýç burada býrakýlmýþ.~
 wood~
 weapon I AN
 sword 2 6 slash 0
@@ -415,19 +415,20 @@ sword 2 6 slash 0
 A
 18 2
 #0
-
 #ROOMS
 #2001
-North entrance to the catacombs~
+Mezarlýðýn kuzey giriþi~
 You are almost surprised to see a tunnel leading off to the south
 into utter darkness.  The floorboards above you haven't been moved
 in a long time, yet there is life down here.  A beam of light from
 the opening above you falls upon a message scrawled on the wall here.
+
 The message reads:
      Adventure for the strong yet calculating
      Death for the weak and shallow
      Treasure for the smart and lucky
      Death for the stupid and accursed
+
 An ancient Glyph above the entrance keeps monsters from wandering up
 from the catacombs.
 ~
@@ -442,7 +443,7 @@ floorboard board~
 1 -1 6524
 S
 #2002
-North/south tunnel~
+Kuzey/güney tüneli~
 This part of the catacombs looked roughly hewn and man-made. There is
 a large cross painted on the floor of the tunnel.To the south it seems
 maybe a bit lighter for some odd reason.  To the north a ray of light
@@ -463,7 +464,7 @@ The cross is a Templar's cross. It seems to have had a fresh coat of
 paint recently.~
 S
 #2003
-Weapon training area~
+Silah pratik alaný~
 This is a place to keep up on there weapon skills.  Much of the
 equipment looks old and worn but upon further inspection seems quite
 sturdy in fact.
@@ -479,7 +480,7 @@ D2
 0 -1 2008
 S
 #2004
-Prayer training area~
+Yakarýþ ve eðitim alaný~
 The templar's curious mix of religion and fighting is evident here.
 A central painting depicts a cross composed of swords.  The elders
 teach the ancient art of prayer to the young pages.
@@ -495,7 +496,7 @@ D3
 0 -1 2003
 S
 #2005
-Junction of hallways~
+Koridorlarýn kesiþimi~
 Training facilities are evident to the west. To the south lies a hallway
 which has doors every couple of feet, looks like living quarters of some
 sort.  To the east the tunnel leads back into the natural catacombs.
@@ -515,7 +516,7 @@ D3
 0 -1 2004
 S
 #2006
-Hallway~
+Koridor~
 The hallway takes on a more indoor look to the west.  To the east it
 looks awfully dark.
 ~
@@ -530,7 +531,7 @@ D3
 0 -1 2005
 S
 #2007
-Intersection~
+Kesiþme~
 The tunnel continues to the north and the south, becoming less hewn and
 more natural to the south.  A passageway lined with paneling leads west.
 ~
@@ -549,7 +550,7 @@ D3
 0 -1 2006
 S
 #2008
-Pages' sleeping quarters~
+Ulaklarýn yatakhanesi~
 Several bunk beds are lined up across the room.  It looks rather spartan
 and there is little evidence of toys or games.  Most of the desks are
 filled with books and papers of little interest.
@@ -581,7 +582,7 @@ D3
 0 -1 2008
 S
 #2010
-N/S hallway~
+K/G koridor~
 The hallway leads north an south.  A door leads to a templar's room to
 the east.  The decoration looks rather sparse here.
 ~
@@ -600,7 +601,7 @@ D2
 0 0 2014
 S
 #2011
-A Middle-aged templar's room~
+Orta yaþlý bir þövalyenin odasý~
 This is a room furnished in a room becoming a low level templar scribe.
 No real amenities but better than a communal sleeping quarters. As far
 as you can tell he would be a rank equivalent to a Sargeant.
@@ -612,7 +613,7 @@ D3
 0 -1 2010
 S
 #2012
-Humid, damp tunnel~
+Yaþ, rutubetli tünel~
 As the tunnel leads south it gets more humid and damp.  Moss covers the
 walls and ferns even grow in the cracks here and there.  To the north it
 seems much more sterile.
@@ -628,7 +629,7 @@ D2
 0 -1 2019
 S
 #2013
-Administration room~
+Ýdari oda~
 The elders gather here to discuss training strategies and count their
 loot.  You notice papers which look like important secret documents
 lying around. An escape passage leads west.
@@ -654,7 +655,7 @@ trainees are kidnapped from the villages too!
 ~
 S
 #2014
-N/S hallway~
+K/G koridor~
 The hallway continues to become more important-looking as you wander
 south.  A room to the east looks rather more pleasant that some of the
 others.
@@ -674,7 +675,7 @@ D2
 0 -1 2017
 S
 #2015
-Mid-level leader's room~
+Orta düzey liderin odasý~
 A rather nice looking room considering the drab conditions down here.
 Through all the signs of decoration you can still see evidence of water
 leaks.
@@ -686,7 +687,7 @@ D3
 0 -1 2014
 S
 #2016
-Mess hall~
+Yemekhane~
 The a huge table with an immaculate white table cloth stretches way off
 to the south.  The room is kept immaculately clean by the nights
 themselves.  They truly belive that cleanliness is next to godliness.
@@ -702,7 +703,7 @@ D2
 0 -1 2023
 S
 #2017
-N/S hallway~
+K/G koridor~
 The hallway continues north and south.  A peculiar kind of glow seems
 to come from somewhere further along the hallway to the south. The room
 to the east looks like the lap of luxury.
@@ -722,7 +723,7 @@ D2
 0 -1 2024
 S
 #2018
-High officer's room~
+Yüksek subayýn odasý~
 First thing you notice in this room is the pleasant aroma of cedar.  All
 the paneling in the room is made of fine cedar.  A painting of an
 elegant knight hangs on the wall.
@@ -739,7 +740,7 @@ with a silvery blade.
 ~
 S
 #2019
-Mossy intersection~
+Yosunlu kesiþme~
 There is a turn off to the passage here.  The main passage leads north
 and south. To the south it seems to get impossibly darker.  To the east
 you hear... birds?  A small rivulet of water seeps in from the passage
@@ -760,7 +761,7 @@ D2
 0 -1 2026
 S
 #2020
-The holy grove~
+Kutsal Koru~
 A small grove of birches grow seem to grow from solid rock.  You hear
 birds singing but try as you might you cant see any.  A strange glow
 emanates from a place somewhere to the southeast in the grove.
@@ -776,7 +777,7 @@ D3
 0 -1 2019
 S
 #2021
-The holy grove~
+Kutsal Koru~
 The trees seem real enough even though they take root in solid rock.
 You hear other small animals scampering through the light undergrowth
 yet you see nothing. The grove continues south, east and west. An out of
@@ -801,7 +802,7 @@ D3
 0 -1 2020
 S
 #2022
-The holy grove~
+Kutsal Koru~
 The grove continues west and south.  The glow is roughly to the south
 somewhere.
 ~
@@ -816,7 +817,7 @@ D3
 0 -1 2021
 S
 #2023
-Mess hall~
+Yemekhane~
 "mess" isn't exactly the best word to describe this room.  On the
 contrary, it is immaculately clean.  A very long table stretches way off
 to the north. A hallway is to the east.
@@ -832,7 +833,7 @@ D1
 0 -1 2024
 S
 #2024
-End of a hallway~
+Koridorun sonu~
 You hear voices coming from a room to the west.  the hallway goes north.
 To the east lies a room which seems to glow with power and piety.
 ~
@@ -851,7 +852,7 @@ D3
 0 -1 2023
 S
 #2025
-Grand Templar's room~
+Ulu Þövalyenin odasý~
 All the items in this room look ancient yet strangely very powerful and
 rich.  There is an aura of great holiness about the room.
 ~
@@ -862,7 +863,7 @@ D3
 0 -1 2024
 S
 #2026
-Very dark passage~
+Kör karanlýk geçit~
 This room is so dark that even powerful magic lights seems to barely
 illuminate the ground in front of you.  If its possible it seems even
 darker to the south.  The passage also leads back north.
@@ -878,7 +879,7 @@ D2
 0 -1 2030
 S
 #2027
-The holy grove~
+Kutsal Koru~
 The grove continues north and east.  To the east a strange humming can
 barely be heard.
 ~
@@ -893,7 +894,7 @@ D1
 0 -1 2028
 S
 #2028
-The holy grove~
+Kutsal Koru~
 All of a sudden all the mysterious sounds of the grove stop. Or perhaps
 its just the strange humming and glowing from a clearing to the south
 drowning out everything else. There is a sort of magical forcefield door
@@ -915,7 +916,7 @@ D3
 0 -1 2027
 S
 #2029
-Very dark caveway~
+Kapkaranlýk maðara giriþi~
 This room is so very dark that no one is quite sure whats in it, so
 there's nothing really to describe except maybe the powerful sense of
 evil coming from the east and the almost overcoming urge to run to the
@@ -932,7 +933,7 @@ D3
 0 -1 2033
 S
 #2030
-Deep within the catacombs~
+Mezarlýðýn derinlikleri~
 It stinks like a lair in here.  A rotten smell of humanoid flesh
 lingers.  You stumble over what you think are corpses in the utter
 darkness. You sense a evil growl from somewhere in the room. maybe
@@ -953,7 +954,7 @@ D3
 0 -1 2029
 S
 #2031
-Very dark cavern~
+Kör karanlýk maðara~
 The cavern is hard to describe due to the extreme magical darkness.
 Probing with a light source seems to reveal nothing but more darkness.
 ~
@@ -968,7 +969,7 @@ D3
 0 -1 2030
 S
 #2032
-The holy place~
+Kutsal bölge~
 A glowing stone lies in the center of the clearing.  You recognize it as
 the stone of the Excalibur.  The strange humming glowing makes it
 difficult to see if the Excalibur is there or not. Might want to take a
@@ -982,7 +983,7 @@ glow glowing field forcefield door~
 2 2001 2028
 S
 #2033
-Misty passageway~
+Sisli geçit~
 Warm mist swirl about you making you feel threatened as well as
 protected at the same time.  The swirling mist makes it tough to tell
 directions quite clearly, but you seem to be able to go north or south.
@@ -999,7 +1000,7 @@ D2
 0 -1 2042
 S
 #2034
-Intersection of caverns~
+Maðara kesiþimi~
 Caverns head north, south and east from this peculiar spot. Medium
 sized caverns from the east and the north join to form a huge cavern
 heading south.  The walls of the cavern are made of a bizarre mixture
@@ -1020,7 +1021,7 @@ D2
 0 -1 2044
 S
 #2035
-Entrance to the burial grounds~
+Kabristanlara giriþ~
 You have entered what appears to be a burial ground of sorts. The
 templars buried their dead here.  Chills go down your spine as you feel
 something watching you.  You hear the random groan of a ghost, the howl
@@ -1037,7 +1038,7 @@ D3
 0 -1 2034
 S
 #2036
-The burial grounds~
+Kabristanlar~
 Random tombs to unknown warriors were lain in rows as far as the eye
 can see.  To your horror many of the graves are empty and desecrated.
 A gap in the rows of tombs leads south and there are more graves to the
@@ -1058,7 +1059,7 @@ D3
 0 -1 2035
 S
 #2037
-The burial grounds~
+Kabristanlar~
 It seems as if many of the warriors could not stop fighting even in
 death.  They fight amongst each other and flail at any living being
 that would wander near.
@@ -1074,7 +1075,7 @@ D3
 0 -1 2036
 S
 #2038
-The burial grounds~
+Kabristanlar~
 Legions of skeletal warriors wander by and battle the enemy even in
 death.  Old battlelines have been forgotten and new ones made. Its a
 gruesome scene.
@@ -1090,7 +1091,7 @@ D3
 0 -1 2037
 S
 #2039
-New graves~
+Yeni mezarlar~
 The tombs in this section seem somewhat more recent.  Rotting zombie
 warriors groan and wail with blank stares.  You hear sounds of digging
 off a bit to the south.
@@ -1106,7 +1107,7 @@ D3
 0 -1 2038
 S
 #2040
-Misty cavern~
+Sisli maðara~
 A chilling icy mist swirl about you.  The dampness and warmth has become
 bitter cold.  The walls of the cavern are several feet thick with ice
 here.  An icy wind blows from the south.
@@ -1122,7 +1123,7 @@ D2
 0 -1 2048
 S
 #2041
-Misty cavern~
+Sisli maðara~
 The temperature is a pleasant and mild here.  This is due to a warm wind
 blowing in from the east and a chilly breeze blowing in from the west.
 The updrafts create bizarre icy-steamy mists which dance along the
@@ -1139,7 +1140,7 @@ D3
 0 -1 2040
 S
 #2042
-Mist cavern~
+Sis maðarasý~
 A warm wind blows in from the east.  The air is still stifling hot in
 here despite the breeze.  The mist seems thick enough to be alive. . .
 ~
@@ -1158,7 +1159,7 @@ D3
 0 -1 2041
 S
 #2043
-Waterfall of mist~
+Sis þelalesi~
 River of hot mist pour down in a cascade from a hole in the cavern.  It
 falls like water down from the heights like a waterfall and creates
 beautiful swirls.  It causes a hot wind to flow west.
@@ -1174,7 +1175,7 @@ The hole is much too high up for you to reach.
 ~
 S
 #2044
-Huge multicolored tunnel~
+Rengarenk devasa tünel~
 The tunnel leads north and south.  To the south there is an odd
 twinkling phenomenon.
 ~
@@ -1189,7 +1190,7 @@ D2
 0 -1 2050
 S
 #2045
-Desolate ruins~
+Issýz yýkýntýlar~
 Several mausoleums used to grace the way here but these have been
 defiled. And most have been torn down and burned by looters. Some still
 seem to be intact to the south.  To the northwest is a seeming field of
@@ -1202,7 +1203,7 @@ D2
 0 -1 2051
 S
 #2046
-Curators place~
+Müdürün bölmesi~
 The undertaker, the historian and the curator used to be here. Now they
 too have joined the legions of the undead.  From the looks of the place
 they seem to have starved to death.  Rickety stairs head down into a
@@ -1223,7 +1224,7 @@ Surprisingly the stairs look sturdy enough.
 ~
 S
 #2047
-Fresh graves~
+Taze mezarlar~
 Graves of recent casualties lie here.  Even the most recent don't seem to
 have been left undisturbed.  You hear sounds of digging in progress
 further to the south.
@@ -1243,7 +1244,7 @@ D3
 0 -1 2046
 S
 #2048
-Twisty cavern~
+Kývrýlan maðara~
 The way twist this way and that and its all you can do to keep your head
 from spinning.  The air is very cold here and layers of ice on the wall.
 The sounds of metal on ice echo through the cavern. A side passage leads
@@ -1264,7 +1265,7 @@ D2
 0 -1 2056
 S
 #2049
-Striped tunnel~
+Þerit tüneli~
 The walls of the tunnels have many brilliant colors in them from the
 various veins of crystals running in them.  An odd twinkling comes from
 the east.
@@ -1280,7 +1281,7 @@ D3
 0 -1 2048
 S
 #2050
-Prism cave~
+Prizmatik maðara~
 The roof of this cave peaks over a hundred feet high making it one of
 the biggest in the catacombs.  Crystals of every color cast prismatic
 sprays of light everywhere.  The light from your lamp causes almost a
@@ -1307,7 +1308,7 @@ D3
 0 -1 2049
 S
 #2051
-Ruined monument~
+Yýkýlmýþ anýt~
 A monument to a famous king once stood here. Not much is left to even
 signify that is was here at all.  A building of some sort can be entered
 through a basement to the east.  The southern gate of the grounds is to
@@ -1328,7 +1329,7 @@ D2
 0 -1 2054
 S
 #2052
-Basement~
+Bodrum~
 Its dark and it smells like. ...BATS down here!  All you see is a swirl
 of the darkness and lots of scratching bats madly flailing around. A set
 of stairs go up into the building and a broken window leads west.
@@ -1344,7 +1345,7 @@ D4
 0 -1 2046
 S
 #2053
-Fresh graves~
+Taze mezarlar~
 The graves here seem very recent.  You notice many signs of digging and
 defilement.  There are piles of fresh bodies here awaiting burial.  A
 strange sense of evil magic from the south makes the hairs on the back
@@ -1361,7 +1362,7 @@ D2
 0 -1 2055
 S
 #2054
-Southern gate~
+Güney geçidi~
 A rusty gate here no longer keeps anyone out or in.  You see a lonely
 E/W passage to the south.  A little used trail winds east through a
 crack in the wall.
@@ -1381,7 +1382,7 @@ D2
 0 -1 2059
 S
 #2055
-Scene of ghastly horror~
+Ölülerin dehþet manzarasý~
 An army of undead creatures of all types are lined up patiently. Their
 leader is an evil demonoid necromancer.  His plans to use his army of
 undead to take over the world seem about ready to get underway.
@@ -1397,7 +1398,7 @@ D2
 0 -1 2062
 S
 #2056
-Twisty passage~
+Kývrýlan geçit~
 The passage bends north and east here.  To the east your not certain
 what lies ahead due to all the twists and turns you've made.  To the
 north is seems cold.
@@ -1413,7 +1414,7 @@ D1
 0 -1 2057
 S
 #2057
-Cross of caverns~
+Maðara kesiþmesi~
 A little-used cavern enters from the south. A passage twists away to
 the west.  An odd twinkling comes from the cave to the north.
 ~
@@ -1432,7 +1433,7 @@ D3
 0 -1 2056
 S
 #2058
-Lonely tunnel~
+Kimsesiz tünel~
 Something indescribable makes you feel lonesome and sad here. Its just
 a feeling you get from this tunnel.  The tunnel east and west.
 ~
@@ -1447,7 +1448,7 @@ D3
 0 -1 2050
 S
 #2059
-Lonely tunnel~
+Kimsesiz tünel~
 Something indescribable makes you feel lonesome and sad here. You see a
 gate to a burial ground to the north.  This lonesome tunnel sighs along
 west and east.
@@ -1467,7 +1468,7 @@ D3
 0 -1 2058
 S
 #2060
-Bend in the lonely tunnel~
+Kimsesiz tünelde yol ayrýmý~
 Something indescribable makes you feel lonesome and sad here. The
 tunnel bends west and south.
 ~
@@ -1482,7 +1483,7 @@ D3
 0 -1 2059
 S
 #2061
-Lonely tunnel~
+Kimsesiz tünel~
 Something indescribable makes you feel lonesome and sad here. The very
 walls of the tunnel seems to groan.  to the north the tunnel bends and
 east is an intersection.
@@ -1498,7 +1499,7 @@ D1
 0 -1 2062
 S
 #2062
-Intersection~
+Kesiþme~
 To the north you enter the burial grounds.  a trail of blood leads that
 direction.  Also you feel an ominous sense of evil magic from there.
 The tunnel to the west creaks and sighs as if alive.  To the south you
@@ -1519,7 +1520,7 @@ D3
 0 -1 2061
 S
 #2063
-Tunnel~
+Tünel~
 The tunnel heads north and south.  North you see an intersection and
 far to the south you sense light and smell a fresh breeze.
 ~
@@ -1534,7 +1535,7 @@ D2
 0 -1 2064
 S
 #2064
-Tunnel~
+Tünel~
 The tunnel slopes noticeably down to the north and you sense the surface
 could be reached to the south.
 ~
@@ -1549,7 +1550,7 @@ D2
 0 -1 2065
 S
 #2065
-Southern entrance to the catacombs~
+Mezarlýðýn güney giriþi~
 Through a trapdoor above you streams light.  Through a doorway to
 the south streams darkness.  A message has been scrawled upon the wall
 here.  The message reads:
@@ -1571,7 +1572,7 @@ floorboard board~
 1 -1 6527
 S
 #2066
-Unknown passage~
+Meçhul dehliz~
 Oh dear you seem to have lost your way.  You look back from whence you
 came but there's no exit there anymore.  There are exits in other
 directions but you have a feeling that you are hopelessly lost.
@@ -1587,7 +1588,7 @@ D2
 0 -1 2068
 S
 #2067
-Unknown passage~
+Meçhul dehliz~
 Oh dear you seem to have lost your way.  You look back from whence you
 came but there's no exit there anymore.  There are exits in other
 directions but you have a feeling that you are hopelessly lost.
@@ -1603,7 +1604,7 @@ D3
 0 -1 2066
 S
 #2068
-Unknown passage~
+Meçhul dehliz~
 Oh dear you seem to have lost your way.  You look back from whence you
 came but there's no exit there anymore.  There are exits in other
 directions but you have a feeling that you are hopelessly lost.
@@ -1619,7 +1620,7 @@ D1
 0 -1 2069
 S
 #2069
-Unknown passage~
+Meçhul dehliz~
 Oh dear you seem to have lost your way.  You look back from whence you
 came but there's no exit there anymore.  There are exits in other
 directions but you have a feeling that you are hopelessly lost.
@@ -1771,7 +1772,7 @@ M 2016 spec_breath_any     	* the prism dragon
 M 2017 spec_poison         	* The DarkenBeast
 S
 
-#OLIMITS 
+#OLIMITS
 O 2005 1	* excalibur
 O 2008 10	* sanctuary potion
 
@@ -1779,7 +1780,7 @@ S
 
 #OMPROGS
 O 2005 speech_prog speech_prog_excalibur
-O 2005 wear_prog wear_prog_excalibur		
+O 2005 wear_prog wear_prog_excalibur
 O 2005 remove_prog remove_prog_excalibur
 O 2005 death_prog death_prog_excalibur
 O 2005 sac_prog sac_prog_excalibur
