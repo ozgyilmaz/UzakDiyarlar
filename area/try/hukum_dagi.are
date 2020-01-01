@@ -1,14 +1,14 @@
 #AREA
-mtdoom.are~
-Kurgan Mount Doom~
-{45 65} Yaegar  Kurgan Mount Doom~
+hukum_dagi.are~
+Hüküm Daðý~
+{45 65} Yaegar  Hüküm Daðý~
 14700 14850
- 
+
 #MOBILES
 #14700
-lord krothgar~
-the Lord Krothgar~
-The Lord Krothgar glares balefully at you.
+lord krotgar~
+Lord Krotgar~
+Lord Krotgar burada, nefretle gülümsüyor.
 ~
 Krothgar, standing at over eight feet tall and clad in full spiked black
 plate mail, is an imposing... man. It is said his fists have the power to
@@ -23,9 +23,9 @@ EFHIJKNU B C 0
 stand stand male 1000
 0 0 medium 0
 #14701
-death knight~
-a death knight~
-A death knight gazes evilly at you.
+ölüm þövalyesi~
+ölüm þövalyesi~
+Ölüm þövalyesi burada, þeytanca gülümsüyor.
 ~
 This fellow and his comrades are servants of the demon lord Marmandes, and
 will take only his orders, despite the fact that Krothgar could probably
@@ -41,9 +41,9 @@ CBEGK AB D H
 stand stand none 1000
 0 0 medium 0
 #14702
-iron golem~
-an iron golem~
-An iron golem stands ready to rend his master's enemies apart.
+demir golem~
+demir golem~
+Demir bir golem görüyorsun, efendisinin düþmanlarýný parçalamaya hazýr!
 ~
 This soulless automaton was created by Krothgar's fell scientist-mages to
 serve him as a bodyguard (for appearance's sake only- he scarcely has need
@@ -57,9 +57,9 @@ EFNU 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14703
-marmandes demon prince~
-the demon prince Marmandes~
-The demon prince Marmandes watches you curiously.
+marmandes iblis prens~
+Ýblis Prens Marmandes~
+Ýblis Prens Marmandes burada, seni izliyor!
 ~
 Marmandes has been sent here by his evil masters to observe and aid their
 servant Krothgar, and as such he will prefer to avoid direct combat, being
@@ -75,9 +75,9 @@ EFIKU 0 H N
 stand stand male 1000
 0 0 large 0
 #14704
-axtraxes arch mage~
-axtraxes~
-A vile arch mage screams at your intrusion and attacks!
+akstrak baþbüyücü~
+Baþbüyücü Akstrak~
+Baþbüyücüyü görüyorsun, geliþini çýðlýklarla karþýlýyor!
 ~
 This foul-tempered, evil man is Krothgar's magical assistant and adviser,
 and in charge of the dark lord's impressive force of mages. He is infuriated
@@ -85,15 +85,15 @@ at your untimely interruption and reacts aggressively.
 ~
 human~
 ABFGH DEHJ -1000 0
-54 0 50d10+5250 5d5+5000 7d6+22 punch 
+54 0 50d10+5250 5d5+5000 7d6+22 punch
 -24 -24 -24 -1
 EFIKNU B C D
 stand stand male 1000
 0 0 medium 0
 #14705
-high priest~
-an evil high priest~
-An evil high priest is angered by your sacrilege!
+yüksek rahip~
+karanlýk yüksek rahip~
+Karanlýðýn emrinde bir yüksek rahip görüyorsun, varlýðýndan rahatsýz oldu!
 ~
 You have interrupted this foul priest of unspeakable gods during a very
 critical ceremony! He is extremely angry, and so will his worshippers be...
@@ -107,9 +107,9 @@ CDEFIJKNQ 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14706
-elite guard~
-an elite guard~
-An elite guard attempts to prevent you proceeding further.
+seçkin muhafýz~
+seçkin muhafýz~
+Seçkin bir muhafýz görüyorsun, varlýðýn onu tedirgin ediyor!
 ~
 This fellow is clad in full body spiked black plate mail just like his lord,
 and carries a HUGE spiked morning star, which he swings casually like it was
@@ -123,9 +123,9 @@ CDEFIJKQ 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14707
-destrier~
-a destrier~
-A destrier, mount of some evil knight, snorts angrily at you.
+destriyer~
+destriyer~
+Kara þövalyelerden birine ait olan bir destriyer görüyorsun.
 ~
 This mammoth horse must weigh double any other equine steed you have ever
 seen. Its jet black coat seems to glow with an inner evil, and you gasp in
@@ -139,9 +139,9 @@ FKU 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14708
-evil priest~
-an evil priest~
-An evil priest screams in fanatical fury!
+kara rahip~
+kara rahip~
+Bir kara rahip görüyorsun, varlýðýný çýðlýklarla karþýlýyor!
 ~
 This foul creature is one of the evil priests of the dark lord, and he is
 keen to send your soul to him!
@@ -154,9 +154,9 @@ EFIKNU 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14709
-scientist mage~
-an evil scientist mage~
-An evil scientist mage roars in fury as you spoil his experiment!
+kara büyücü~
+kara büyücü~
+Bir kara büyücü burada, gürleyerek rahatsýzlýðýný gösteriyor!
 ~
 You have burst in at a very inappropriate time, and spoiled years of work.
 Good ;)
@@ -171,9 +171,9 @@ FIKU B C 0
 stand stand male 1000
 0 0 medium 0
 #14710
-blackguard guard~
-a member of the blackguard~
-A member of the blackguard charges toward you.
+kara muhafýz~
+kara muhafýz~
+Bir kara muhafýz görüyorsun, üzerine doðru ilerliyor.
 ~
 This guard is a meber of the blackguard, the fanatical warriors who make up
 the bulk of Lord Krothgar's evil army.
@@ -186,9 +186,9 @@ CDEFIJKQ 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14711
-red dragon~
-a red dragon~
-A red dragon prepares to incinerate you.
+kýzýl ejderha~
+kýzýl ejderha~
+Kýzýl bir ejderha görüyorsun, seni parçalamaya hazýrlanýyor.
 ~
 This dragon is one of Krothgar's five favorites, and is loyal to its master.
 Huge teeth protrude from a mouth capable of spewing forth destructive matter
@@ -203,9 +203,9 @@ CEFM 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14712
-black dragon~
-a black dragon~
-A black dragon prepares to incinerate you.
+kara ejderha~
+kara ejderha~
+Kara bir ejderha görüyorsun, seni parçalamaya hazýrlanýyor.
 ~
 This dragon is one of Krothgar's five favorites, and is loyal to its master.
 Huge teeth protrude from a mouth capable of spewing forth destructive matter
@@ -220,9 +220,9 @@ CEFM 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14713
-white dragon~
-a white dragon~
-A white dragon prepares to incinerate you.
+beyaz ejderha~
+beyaz ejderha~
+Beyaz bir ejderha burada, seni yoketmeye hazýrlanýyor.
 ~
 This dragon is one of Krothgar's five favorites, and is loyal to its master.
 Huge teeth protrude from a mouth capable of spewing forth destructive matter
@@ -237,9 +237,9 @@ CEFM 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14714
-blue dragon~
-a blue dragon~
-A blue dragon prepares to incinerate you.
+mavi ejderha~
+mavi ejderha~
+Mavi bir ejderha görüyorsun, üzerine ilerliyor.
 ~
 This dragon is one of Krothgar's five favorites, and is loyal to its master.
 Huge teeth protrude from a mouth capable of spewing forth destructive matter
@@ -254,9 +254,9 @@ CEFM 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14715
-green dragon~
-a green dragon~
-A green dragon prepares to incinerate you.
+yeþil ejderha~
+yeþil ejderha~
+Yeþil bir ejderha görüyorsun, nefesinden çýkan ýsý derini yakýyor.
 ~
 This dragon is one of Krothgar's five favorites, and is loyal to its master.
 Huge teeth protrude from a mouth capable of spewing forth destructive matter
@@ -271,9 +271,9 @@ CEFM 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14716
-fire elemental~
-a fire elemental~
-A fire elemental burns everything in sight.
+ateþ hizmetkarý~
+ateþ hizmetkarý~
+Bir ateþ hizmetkarý görüyorsun, gördüðü herþeyi yakýyor.
 ~
 This magically-summoned being serves the mages of the tower- sometimes.
 ~
@@ -285,9 +285,9 @@ EF H 0 0
 stand stand none 1000
 0 0 medium 0
 #14717
-efreeti~
-an efreeti~
-An efreeti hovers above an iron flask here.
+efreti~
+efreti~
+Bir efreti görüyorsun, demir sütunun üzerinde bekliyor.
 ~
 This being, summoned from the Elemental Plane of Fire by the flask on the
 floor, is not happy, for the power of the flask has been exhausted and he
@@ -302,9 +302,9 @@ FIK H 0 0
 stand stand male 1000
 0 0 medium 0
 #14718
-shedu~
-a shedu~
-A shedu sits in a corner of this room.
+þedu~
+þedu~
+Bir þedu görüyorsun, odanýn köþesinde duruyor.
 ~
 This unfortunate creature was captured by agents of Krothgar, who brought it
 here to amuse him. He occasionally spends time torturing it, but has grown
@@ -318,9 +318,9 @@ FIKU 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14719
-illithid~
-an evil illithid~
-An evil illithid eyes your cranium off.
+kara ilithid~
+kara ilithid~
+Kara ilithid burada, varlýðýný izliyor.
 ~
 This foul mind flayer wants brains, and since Krothgar's followers aren't the
 brightest of creatures it is near starvation. You are a nice surprise...
@@ -333,39 +333,39 @@ EFKU 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14720
-slave~
-a wretched slave~
-A wretched slave awaits sacrifice.
+zavallý köle~
+köle~
+Zavallý bir köle görüyorsun, kurban edilmeyi bekliyor.
 ~
 This pathetic wretch has lost all hope. Squatting naked and shivering in the
 corner of the cell he gibbers insanely and begs for mercy.
 ~
 human~
 ABH 0 0 0
-10 0  2d7+121 5d5+100 2d4+2 punch        
+10 0  2d7+121 5d5+100 2d4+2 punch
 1 1 1 7
 F 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14721
-slave~
-a wretched slave~
-A female slave will soon "service" Krothgar's legions.
+zavallý köle~
+köle~
+Zavallý bir köle görüyorsun, Krotgar'ýn lejyonlarýna hizmet etmeyi bekliyor.
 ~
 This pathetic wretch has lost all hope. Squatting naked and shivering in the
 corner of the cell she gibbers insanely and begs for mercy.
 ~
 human~
 ABH 0 0 0
-10 0  2d7+121 5d5+100 2d4+2 slap        
+10 0  2d7+121 5d5+100 2d4+2 slap
 1 1 1 7
 F 0 0 0
 stand stand female 1000
 0 0 medium 0
 #14722
 mutant~
-a mutant~
-A hideous mutant drools and screams insanely.
+mutant~
+Bir mutant görüyorsun, varlýðýný çýðlýklarla karþýlýyor.
 ~
 These unnatural beings are foul products of the insane experiments of the
 scientist mages upon captured slaves in an attempt to create the perfect
@@ -380,9 +380,9 @@ FIJKNU 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14723
-hydra~
-a twelve-headed hydra~
-A 12 headed hydra roars at you.
+hidra~
+oniki baþlý hidra~
+Oniki baþlý bir hidra görüyorsun.
 ~
 This mighty creature has allied with Krothgar in exchange for a steady diet
 of humans and elves. It will fight ferociously to defend the home of its
@@ -396,24 +396,24 @@ EFU 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14724
-quasit~
-a quasit~
-A quasit squeaks aggressively at you.
+kuvasit~
+kuvasit~
+Bir kuvasit görüyorsun, saldýrgan sesler çýkarýyor.
 ~
 This angry creature is the familiar of some mage or another. It is angered
 at being seen.
 ~
 unique~
 ABFGH BDFPQT -1000 0
-25 0 5d10+550 5d5+1000 2d10+7 magic    
+25 0 5d10+550 5d5+1000 2d10+7 magic
 -7 -7 -7 4
 EFU 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14725
-succubus~
-a succubus~
-A succubus smiles seductively at you.
+sukubus~
+sukubus~
+Bir sukubus görüyorsun, seni baþtan çýkartýcý bir gülümsemeyle karþýlýyor.
 ~
 This lustful demoness is the current concubine of Korgthar, though her
 appetite is insatiable and she is always on the lookout for new prey... err
@@ -427,9 +427,9 @@ EFIU 0 0 0
 stand stand female 1000
 0 0 medium 0
 #14726
-earth elemental~
-an earth elemental~
-An earth elemental smashes everything in sight.
+toprak hizmetkarý~
+toprak hizmetkarý~
+Bir toprak hizmetkarý görüyorsun, gördüðü herþeyi yerle bir ediyor.
 ~
 This magically-summoned being serves the mages of the tower- sometimes.
 ~
@@ -441,9 +441,9 @@ EFU 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14727
-water elemental~
-a water elemental~
-A water elemental inundates everything in sight.
+su hizmetkarý~
+su hizmetkarý~
+Bir su hizmetkarý görüyorsun, gördüðü herþeyi boðuyor.
 ~
 This magically-summoned being serves the mages of the tower- sometimes.
 ~
@@ -455,9 +455,9 @@ EFU I 0 0
 stand stand none 1000
 0 0 medium 0
 #14728
-air elemental~
-an air elemental~
-An air elemental blows over everything in sight.
+hava hizmetkarý~
+hava hizmetkarý~
+Bir hava hizmetkarý görüyorsun, gördüðü herþeyi parçalýyor.
 ~
 This magically-summoned being serves the mages of the tower- sometimes.
 ~
@@ -469,9 +469,9 @@ EFU 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14729
-hell hound hellhound~
-a hellhound~
-A hellhound lopes toward you.
+cehennem tazýsý~
+cehennem tazýsý~
+Bir cehennem tazýsý sana doðru koþuyor.
 ~
 Breathing fire and reeking of brimstone, this unholy red-hued hound is indeed
 a terrible sight to behold.
@@ -484,9 +484,9 @@ EFU 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14730
-fire giant~
-a fire giant~
-A fire giant waves his sword menacingly at you.
+ateþ devi~
+ateþ devi~
+Bir ateþ devi burada, kýlýcýný sana sallýyor.
 ~
 These fellows are guardians of the massive volcano known as Mount Doom, upon
 which rests the inpregnable fortress of their master, Lord Krothgar. They
@@ -500,9 +500,9 @@ CEFIKQ 0 D C
 stand stand male 1000
 0 0 medium 0
 #14731
-frost giant~
-a frost giant~
-A frost giant glares icily at you.
+buz devi~
+buz devi~
+Bir buz devi burada, donduran bakýþlarýyla seni izliyor.
 ~
 These emissaries are here to form an alliance with the forces of Mount Doom.
 They do not take kindly to intrusions.
@@ -515,9 +515,9 @@ CEFIKQ 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14732
-hill giant~
-a hill giant~
-A hill giant grunts at you.
+dað devi~
+dað devi~
+Bir dað devi seni izliyor.
 ~
 These fellows are guardians of the lands surrounding the massive volcano
 known as Mount Doom, upon which rests the inpregnable fortress of their
@@ -531,9 +531,9 @@ CEFIKQ 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14733
-cloud giant~
-a cloud giant~
-A cloud giant laughs mercilessly at you. Hmph.
+bulut devi~
+bulut devi~
+Bir bulut devi küçümseyici bakýþlarla seni izliyor.
 ~
 These emissaries are here to form an alliance with the forces of Mount Doom.
 They do not take kindly to intrusions.
@@ -547,8 +547,8 @@ stand stand male 1000
 0 0 medium 0
 #14734
 ogre~
-an ogre servant~
-An ogre servant serves the giant soldiers.
+ogre~
+Bir ogre burada, devlere hizmet ediyor.
 ~
 This fellow may seem huge to you, but by giant standards he's a veritable
 runt, as they never cease to point out to him as he makes his way about,
@@ -556,15 +556,15 @@ serving food and drinks in between kicks to the head.
 ~
 human~
 ABGH J -400 0
-30 0 6d12+853 5d5+1000 4d6+8 punch     
+30 0 6d12+853 5d5+1000 4d6+8 punch
 -9 -9 -9 3
 CEFIK 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14735
-ogre mage~
-an ogre mage~
-An ogre mage glares suspicously at you.
+ogre büyücü~
+ogre büyücü~
+Bir ogre büyücü seni dikkatle izliyor.
 ~
 These eastern cousins of the ogres and giants of the west have been invited
 here to form an alliance with the troops of Krothgar. They are deeply
@@ -579,9 +579,9 @@ EFIKQ 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14736
-troll~
-a troll~
-A troll foot soldier yawns loudly.
+arba~
+arba~
+Bir arba görüyorsun, gürültüyle esniyor.
 ~
 These grotesques were bred for combat, not sentry duty, and the boredom is
 almost killing them. They don't even notice your presence.
@@ -594,9 +594,9 @@ CEFIKQ 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14737
-ettin~
-an ettin~
-An ettin turns both its heads to stare at you.
+ethin~
+ethin~
+Bir ethin görüyorsun, iki kafasýyla seni izliyor.
 ~
 This two-headed giant is a guard of the more important inhabitants of the
 fortress. He takes his duties very seriously.
@@ -609,9 +609,9 @@ CEFIKQ 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14738
-chief assassin~
-the chief assassin~
-The chief assassin smiles as she draws her swords.
+þef suikastçi~
+þef suikastçi~
+Bir suikastçi görüyorsun, eli silahýnda seni izliyor.
 ~
 This beauty is actually the lethal head of Krothgar's elite assassins, who
 have achieved more for his cause than a dozen armies. She asks for no quarter,
@@ -625,9 +625,9 @@ CEFIK 0 0 0
 stand stand female 1000
 0 0 medium 0
 #14739
-assassin~
-an assassin~
-An assassin prepares for combat.
+suikastçi~
+suikastçi~
+Bir suikastçi dövüþe hazýrlanýyor.
 ~
 This woman is a member of Krothgar's assassin company, and has slain more
 men and women than any one hundred of his regular soldiers.
@@ -640,9 +640,9 @@ CEFIK 0 0 0
 stand stand female 1000
 0 0 medium 0
 #14740
-drow ambassador~
-a drow ambassador~
-A drow ambassador snarls at you.
+karayel elçi~
+karayel elçi~
+Bir karayel elçi seni izliyor.
 ~
 This priestess is here to secure an alliance between her people and Krothgar's
 forces. She is not happy about your intrusion into this matter.
@@ -655,9 +655,9 @@ CEFIKQ 0 0 0
 stand stand female 1000
 0 0 medium 0
 #14741
-warg~
-a warg~
-A hairy warg patrols for trespassers here.
+yeþil gul~
+yeþil gul~
+Yeþil renkli bir gul seni izliyor.
 ~
 This beast is a servant of the hill giants who patrol the plains of Doom.
 ~
@@ -669,9 +669,9 @@ CEFIK 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14742
-ghoul~
-a bloodthirsty ghoul~
-A bloodthirsty ghoul slavers uncontrollably.
+gul~
+gul~
+Kana susamýþ bir gul görüyorsun, seni izliyor.
 ~
 This hideous undead wants to feast on your flesh!
 ~
@@ -683,9 +683,9 @@ EFK 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14743
-vampire~
-a vampire~
-A vampire smiles at you...
+vampir~
+vampir~
+Bir vampir sana gülümsüyor...
 ~
 This vamp is treacherous and deadly. You can see why Krothgar likes having
 her around...
@@ -698,9 +698,9 @@ EFIKNQ 0 D 0
 stand stand female 1000
 0 0 medium 0
 #14744
-lich~
-an ancient lich~
-An ancient lich awakens from his slumber and looks around.
+kadim liç~
+kadim liç~
+Kadim bir liç düþüncelerinden sýyrýlýp sana bakýyor.
 ~
 Even the mages of Krothgar know not of the existence of this secret tomb.
 Buried within is the old lord of the Fortress, who was imprisoned in here
@@ -715,9 +715,9 @@ CEFIKQ 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14745
-stone golem~
-a stone golem~
-A stone golem stands ready to rend his master's enemies apart.
+taþ golem~
+taþ golem~
+Bir taþ golem burada, efendisinin düþmanlarýný yoketmeye hazýr!
 ~
 This soulless automaton was created by Krothgar's fell evil priests to
 serve him as a bodyguard (for appearance's sake only- he scarcely has need
@@ -731,9 +731,9 @@ EFNU 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14746
-keeper~
-The keeper of the mutant pit~
-The Keeper of the Mutant Pit snarls angrily at you.
+bekçi~
+bekçi~
+Bir bekçi görüyorsun, tüm nefretiyle seni izliyor.
 ~
 
 ~
@@ -745,9 +745,9 @@ CEFIKQ 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14747
-naga princess~
-a naga princess~
-A princess of the Naga glares haughtily at you.
+prenses naga~
+prenses naga~
+Prenses Naga'yý görüyorsun, seni izliyor!
 ~
 This snake with a woman's head seems unimpressed by your intrusion, but
 she refrains from attacking, hoping that the guards of the castle will see
@@ -765,12 +765,12 @@ stand stand male 1000
 
 #OBJECTS
 #14700
-krothgar armor~
-the armor of Lord Krothgar~
-The armor of Lord Krothgar lies here.~
+lord krotgar zýrhý~
+Lord Krotgar'ýn Zýrhý~
+Lord Krotgar'ýn zýrhý burada duruyor.~
 steel~
 armor 2|16|64|128|512|2048 1|8
-21 21 21 10 0 
+21 21 21 10 0
 65 25 8000 P
 A
 1 2
@@ -787,12 +787,12 @@ A
 A
 24 -1
 #14701
-krothgar sword~
-the sword of Lord Krothgar~
-The sword of Lord Krothgar is here.~
+lord krotgar kýlýç~
+Lord Krotgar'ýn Kýlýcý~
+Lord Krotgar'ýn Kýlýcý burada duruyor.~
 steel~
 weapon 2|16|64|128|512|2048 1|8192
-sword 6 11 pierce 0 
+sword 6 11 pierce 0
 65 15 10000 P
 A
 13 50
@@ -801,12 +801,12 @@ A
 A
 19 10
 #14702
-krothgar shield~
-the shield of Lord Krothgar~
-The shield of Lord Krothgar is here.~
+lord krotgar kalkan~
+Lord Krotgar'ýn Kalkaný~
+Lord Krotgar'ýn Kalkaný burada duruyor.~
 steel~
 armor 2|16|64|128|512|2048 1|512
-21 21 21 10 0 
+21 21 21 10 0
 65 15 6000 P
 A
 17 -30
@@ -815,9 +815,9 @@ A
 A
 24 -3
 #14703
-krothgar helm~
-the cursed helm of Lord Krothgar~
-The cursed helm of Lord Krothgar is here.~
+lord krotgar miðfer~
+Lord Krotgar'ýn Miðferi~
+Lord Krotgar'ýn Miðferi burada duruyor.~
 steel~
 armor 2|16|64|128|512|2048|4096 1|16
 21 21 21 10 0
@@ -827,12 +827,12 @@ A
 A
 4 -5
 #14704
-two handed sword~
-a two-handed sword~
-A two-handed sword lies here.~
+çift-el kýlýç~
+çift elli kýlýç~
+Bir çift elli kýlýç burada duruyor.~
 steel~
 weapon 2|16|64|512 1|32768
-sword 6 10 crush F 
+sword 6 10 crush F
 56 10 4000 p
 A
 1 3
@@ -843,12 +843,12 @@ A
 A
 19 6
 #14705
-burnt helm~
-a burnt helm~
-A burnt helm painted with a hideous visage lies here.~
+soluk miðfer~
+soluk miðfer~
+Soluk bir miðfer burada duruyor.~
 steel~
 armor 2|16|64|512|4096 1|16
-18 18 18 9 0 
+18 18 18 9 0
 56 5 3000 P
 A
 12 20
@@ -859,12 +859,12 @@ A
 A
 17 -10
 #14706
-iron fist~
-the iron fist~
-The legendary iron fist lies here.~
+demir yumruk~
+demir yumruk~
+Efsanevi demir yumruk burada duruyor.~
 iron~
 armor 2|16|64|512|4096 1|128
-16 16 16 8 0 
+16 16 16 8 0
 50 10 40000 P
 A
 2 -2
@@ -873,34 +873,34 @@ A
 A
 19 8
 #14707
-barbed flail~
-a demon's barbed flail~
-A demon's barbed flail lies here.~
+iblisin deri topuzu~
+iblisin deri topuzu~
+Deri bir topuz uzanmýþ dinleniyor.~
 steel~
 weapon 2|16|64|512 1|8192
-flail 7 9 whip 0 
+flail 7 9 whip 0
 60 10 10000 P
 A
 18 6
 A
 19 6
 #14708
-flaming spear~
-a flaming spear~
-A flaming spear burns into the ground here.~
+atevli tomruk~
+atevli tomruk~
+Üzerinde alevlerin oynaþtýðý kocaman bir tomruk görüyorsun.~
 steel~
 furniture 1|2|16|64|512|65536 1|16384
-0 0 0 0 0 
+0 0 0 0 0
 20 5 0 P
 A
 18 4
 #14709
-staff power~
-a staff of power~
-A staff of power has been left here.~
+güç asasý~
+güç asasý~
+Bir güç asasý yerde dinleniyor.~
 wood~
 staff 1|64 1|16384
-54 11 11 'energy drain' 0 
+54 11 11 'energy drain' 0
 40 10 2000 P
 A
 3 2
@@ -909,162 +909,162 @@ A
 A
 17 -20
 #14710
-robes archmage~
-robes of the archmage~
-The robes of the archmage are crumpled up in a corner here.~
+baþbüyücü cüppesi~
+baþbüyücü cüppesi~
+Baþbüyücünün cüppesi burada yatýyor.~
 cloth~
 armor 1|64 1|1024
-17 17 18 9 0 
+17 17 18 9 0
 54 5 1000 P
 A
 12 50
 #14711
-vial dust~
-a vial of magic dust~
-A vial of magic dust is here.~
+büyülü toz þiþesi~
+büyülü toz þiþesi~
+Bir büyülü toz þiþesi burada yatýyor.~
 glass~
 potion 1|64 1|16384
-54 'heal' 'heal' 'heal' 'heal' 
+54 'heal' 'heal' 'heal' 'heal'
 20 3 20000 P
 #14712
-dagger~
-a sacrifical dagger~
-A sacrificial dagger is stuck in the ground here.~
+kurban hançeri~
+kurban hançeri~
+Bir hançer burada duruyor.~
 steel~
 weapon 16|512 1|8192
-dagger 5 11 pierce 0 
+dagger 5 11 pierce 0
 54 5 1000 P
 #14713
-robes~
-the high priest's robes~
-The high priest's robes lie here.~
+yüksek rahip cüppesi~
+yüksek rahip cüppesi~
+Yüksek rahip cüppesi burada yatýyor.~
 cloth~
 armor 16|512 1|1024
-18 18 17 8 0 
+18 18 17 8 0
 54 5 5000 P
 A
 4 4
 #14714
-mask~
-the high priest's death mask~
-The high priest's ceremonial mask is here.~
+yüksek rahip seramoni ölüm maskesi~
+yüksek rahip ölüm maskesi~
+Yerde bir seramoni maskesi duruyor.~
 cloth~
 armor 16|512 1|16
-18 18 17 8 0 
+18 18 17 8 0
 54 3 3000 P
 A
 5 3
 A
 13 20
 #14715
-spiked plate mail~
-a suit of spiked plate mail~
-A suit of spiked plate mail has been foolishly discarded here.~
+çivili zýrh~
+çivili zýrh~
+Çivili bir zýrh burada unutulmuþ.~
 steel~
 armor 2|16|512 1|8
-16 17 17 8 0 
+16 17 17 8 0
 50 20 2000 P
 A
 17 -15
 #14716
-morning star~
-a huge morning star~
-A huge morning star is buried in the ground here.~
+sabah yýldýzý~
+sabah yýldýzý~
+Büyük bir gürz burada býrakýlmýþ.~
 wood steel~
 weapon 2|16|64|512 1|32768
-mace 5 10 crush 0 
+mace 5 10 crush 0
 50 15 3000 P
 A
 18 -5
 A
 19 10
 #14717
-helm~
-a dark helm~
-A dark helm lies here.~
+kara miðfer~
+kara miðfer~
+Kara bir miðfer burada býrakýlmýþ.~
 steel~
 armor 2|16|512 1|16
-16 17 17 8 0 
+16 17 17 8 0
 50 5 2000 P
 #14718
-dagger~
-a sacrifical dagger~
-A sacrificial dagger is stuck in the ground here.~
+kurban hançeri~
+kurban hançeri~
+Bir kurban hançeri burada býrakýlmýþ.~
 steel~
 weapon 16|512 1|8192
-dagger 4 10 pierce 0 
+dagger 4 10 pierce 0
 40 5 2000 P
 #14719
-robes~
-the priest's robes~
-The priest's robes lie here.~
+rahip cüppesi~
+rahip cüppesi~
+Bir rahip cüppesi burada býrakýlmýþ.~
 cloth~
 armor 16|512 1|1024
-13 13 13 6 0 
+13 13 13 6 0
 40 5 1000 P
 #14720
-mask~
-the priest's death mask~
-The priest's ceremonial mask is here.~
+rahip seramoni ölüm maske~
+rahibin ölüm maskesi~
+Bir seramoni maskesi burada býrakýlmýþ.~
 cloth~
 armor 16|512 1|16
-13 13 13 6 0 
+13 13 13 6 0
 40 3 1000 P
 #14721
-mage robes~
-the mage's robes~
-Some dirty robes covered in chemical stains lie here.~
+büyücü cüppesi~
+büyücünün cüppesi~
+Kirli bir cüppe burada býrakýlmýþ.~
 cloth~
 armor 0 1|1024
-15 15 14 7 0 
+15 15 14 7 0
 45 1 1000 P
 #14722
-wand~
-a magic wand~
-A magic wand is here.~
+büyülü deðnek~
+büyülü deðnek~
+Büyülü bir deðnek dinleniyor.~
 unknown~
 wand 1|64 1|16384
-31 9 9 'cure critical' 0 
+31 9 9 'cure critical' 0
 25 4 4000 P
 #14723
-elixir chemicals~
-an elixir of noxious chemicals~
-An elixir of noxious chemicals bubbles away here.~
+zararlý kimyasal iksir~
+zararlý kimyasal iksiri~
+Bir iksir burada býrakýlmýþ.~
 glass~
 potion 2 1|16384
-45 'poison' 'weaken' 'acid blast' '' 
+45 'poison' 'weaken' 'acid blast' ''
 40 4 0 P
 #14724
-dragon scale~
-a dragon scale~
-A huge dragon scale has been dropped here.~
+ejderha zýrhý~
+ejderha zýrhý~
+Büyük bir ejderha zýrhý burada düþürülmüþ.~
 dragonskin~
 armor 2|16|512 1|512
-15 15 15 7 0 
+15 15 15 7 0
 45 10 2000 P
 A
 17 -18
 A
 23 -5
 #14725
-tooth~
-a dragon tooth~
-A dragon's tooth lies here.~
+ejderha diþi~
+ejderha diþi~
+Bir ejderha diþi burada býrakýlmýþ.~
 bone~
 weapon 2|16|512 1|16384
-exotic 5 8 pierce 0 
+exotic 5 8 pierce 0
 45 10 2000 P
 A
 18 5
 A
 19 5
 #14726
-claw~
-dragon claws~
-A pair of dragon claws is here.~
+ejderha pençesi~
+bir çift ejderha pençesi~
+Bir çift ejderha pençesi burada býrakýlmýþ.~
 bone~
 armor 2|16|512 1|128
-16 14 14 8 0 
+16 14 14 8 0
 45 10 1000 P
 A
 2 -2
@@ -1073,12 +1073,12 @@ A
 A
 19 4
 #14727
-hide~
-a dragon hide~
-A dragon hide is piled up here.~
+ejderha derisi~
+ejderha derisi~
+Bir ejderha derisi burada býrakýlmýþ~
 bone~
 armor 2|16|512 1|1024
-15 15 15 8 0 
+15 15 15 8 0
 45 10 1000 P
 A
 13 15
@@ -1089,25 +1089,25 @@ A
 A
 24 -2
 #14728
-brazier~
-a bronze brazier~
-A bronze brazier is here.~
+tunç asa~
+tunç asa~
+Tunçtan yapýlmýþ bir asa burada dinleniyor.~
 bronze~
 staff 64 1|16384
-53 1 1 'summon' 0 
+53 1 1 'summon' 0
 40 4 3000 P
 #14729
-flask~
-an empty flask~
-This flask has been drained of all magical properties.~
+þiþe~
+þiþe~
+Büyükçe bir þiþe burada býrakýlmýþ.~
 unknown~
 container 0 1|16384
 1 0 0 0 100
 1 500 0 P
 #14730
-manacles~
-a pair of manacles~
-A pair of manacles lies here.~
+kelepçe~
+bir çift kelepçe~
+Bir çift kelepçe burada býrakýlmýþ~
 iron~
 armor 64|4096 1|256
 0 0 0 0 0
@@ -1117,19 +1117,19 @@ A
 A
 17 10
 #14731
-robes~
-an illithid's robes~
-An illithid's robes lie here, discarded.~
+ilithidin cüppesi~
+ilithidin cüppesi~
+Ýlithidin cüppesi burada býrakýlmýþ.~
 wool~
 armor 64 1|1024
-16 16 18 8 0 
+16 16 18 8 0
 50 1 3000 P
 A
 12 25
 #14732
-gem~
-a gem~
-This gem pulses evilly.~
+cevher~
+cevher~
+Bir cevher þeytanca parlýyor.~
 unknown~
 light 1|16|512 1|16384
 0 0 -1 0 0
@@ -1143,105 +1143,105 @@ A
 A
 17 -10
 #14733
-chest~
-a chest~
-A heavy chest rests here.~
+sandýk~
+sandýk~
+Aðýr bir sandýk burada býrakýlmýþ.~
 steel~
 container 0 0
-10000 1 0 0 0 
+10000 1 0 0 0
 1 0 0 P
 #14734
-treasure~
-a great treasure~
-A great treasure lies here.~
+ganimet~
+büyük ganimet~
+Büyük bir ganimet burada býrakýlmýþ.~
 gold~
 money 1 1
-0 0 0 0 0 
+0 0 0 0 0
 0 100 50000 P
 #14735
-bed~
-a luxurious bed~
-A luxurious bed sits here.~
+lüks yatak~
+lüks yatak~
+Lüks bir yatak burada býrakýlmýþ.~
 silver~
 furniture 0 0
-0 0 0 0 0 
+0 0 0 0 0
 1 0 0 P
 #14736
-silk~
-some expensive silk~
-Some expensive silk has been left here.~
+pahalý ipek~
+pahalý ipek~
+Pahalý bir ipek burada býrakýlmýþ.~
 silver~
 treasure 0 1|1024
 0 0 0 0 0
 10 1 15000 P
 #14737
-stone~
-a stone~
-A stone is here.~
+taþ~
+taþ~
+Bir taþ burada býrakýlmýþ.~
 stone~
 staff 64 1|16384
-53 1 1 'summon' 0 
+53 1 1 'summon' 0
 45 5 0 P
 #14738
-bowl~
-a bowl~
-A bowl is here.~
+çanak~
+çanak~
+Bir çanak burada býrakýlmýþ.~
 unknown~
 staff 64 1|16384
-53 1 1 'summon' 0 
+53 1 1 'summon' 0
 45 5 0 P
 #14739
-censer~
-a censer~
-A censer is here.~
+kiremit parçasý~
+kiremit parçasý~
+Bir kiremit parçasý burada býrakýlmýþ.~
 unknown~
 staff 64 1|16384
-53 1 1 'summon' 0 
+53 1 1 'summon' 0
 45 5 0 P
 #14740
-spiked collar~
-a spiked collar~
-A spiked collar rests here.~
+çivili tasma~
+çivili tasma~
+Çivili bir tasma burada býrakýlmýþ.~
 leather~
 armor 16|4096 1|4
-14 14 14 6 0 
+14 14 14 6 0
 42 5 1000 P
 A
 19 4
 #14741
-sword~
-a giant sword~
-A giant sword rests here.~
+dev kýlýç~
+dev kýlýcý~
+Bir dev kýlýcý burada dinleniyor.~
 steel~
 weapon 0 1|8192
-sword 4 11 crush 0 
+sword 4 11 crush 0
 45 25 2000 P
 A
 19 4
 #14742
-rock~
-a throwing rock~
-A throwing rock lies on the ground here.~
+kaya~
+kaya~
+Bir kaya burada dinleniyor.~
 stone~
 furniture 0 1|16384
-0 0 0 0 0 
+0 0 0 0 0
 45 15 0 P
 A
 18 -4
 A
 19 4
 #14743
-club~
-a wooden club~
-A normal wooden club lies here.~
+aðaç saplý gürz~
+aðaç saplý gürz~
+Aðaç saplý bir gürz burada yatýyor.~
 wood~
 weapon 0 1|8192
-mace 4 11 pound 0 
+mace 4 11 pound 0
 45 5 2000 P
 #14744
-collar~
-a slave collar~
-A slave collar lies here.~
+köle tasma~
+köle tasmasý~
+Bir köle tasmasý burada býrakýlmýþ.~
 leather~
 armor 4096 1|4
 0 0 0 0 0
@@ -1255,100 +1255,100 @@ A
 A
 17 10
 #14745
-glaive~
-a glaive~
-A glaive has been left propped up here.~
+zincir~
+zincir~
+Bir zincir yerde sürünüyor.~
 unknown~
 weapon 64 1|8192
-exotic 5 8 slash 0 
+exotic 5 8 slash 0
 49 10 0 P
 A
 18 3
 A
 19 3
 #14746
-potion~
-a magical potion~
-A magical potion rolls around on the floor here.~
+büyülü iksir þiþe~
+büyülü iksir~
+Büyülü bir iksir þiþesi yerde duruyor.~
 glass~
 potion 64 1|16384
-34 'armor' 'bless' 'shield' '' 
+34 'armor' 'bless' 'shield' ''
 30 3 3000 P
 #14747
-pole arm~
-a pole arm~
-A pole arm lies here.~
+kargý~
+kargý~
+Bir kargý görüyorsun.~
 iron~
 weapon 0 1|8192
-polearm 6 8 crush 0 
+polearm 6 8 crush 0
 48 10 2000 P
 A
 18 -2
 A
 19 6
 #14748
-chainmail~
-a suit of black chainmail~
-A tight-fitting suit of black chainmail lies here.~
+örgülü kara zýrh~
+örgülü kara zýrh~
+Örgülü bir zýrh burada býrakýlmýþ.~
 leather~
 armor 16|4096 1|8
-16 16 17 8 0 
+16 16 17 8 0
 48 10 1000 P
 A
 2 -2
 A
 17 -20
 #14749
-black sword~
-the black sword~
-The black sword glows here.~
+kara kýlýç~
+kara kýlýç~
+Kara bir kýlýç burada býrakýlmýþ.~
 steel~
 weapon 1|16|64|512 1|8192
-sword 5 11 slash 0 
+sword 5 11 slash 0
 53 5 3000 P
 A
 18 8
 #14750
-blue sword~
-the blue sword~
-The blue sword hums here.~
+mavi kýlýç~
+mavi kýlýç~
+Mavi bir kýlýç burada býrakýlmýþ.~
 unknown~
 weapon 2|16|64|512 1|8192
-sword 5 11 slash 0 
+sword 5 11 slash 0
 53 5 0 0
 A
 19 8
 #14751
-black robes~
-black robes~
-Some black robes with no special properties lie here.~
+kara cüppe~
+kara cüppe~
+Kara bir cüppe burada unutulmuþ.~
 steel~
 armor 0 1|1024
-15 15 14 7 0 
+15 15 14 7 0
 47 1 1000 P
 E
-robes~
+cüppe~
 They look extraordinarily unencumbering.
 ~
 #14752
-vial poison~
-a vial of poison~
-A vial of poison is here.~
+zehir þiþesi~
+zehir þiþesi~
+Bir zehir þiþesi burada býrakýlmýþ.~
 glass~
 potion 0 1|16384
-37 'blindness' 'poison' 'poison' '' 
+37 'blindness' 'poison' 'poison' ''
 30 3 2000 O
 E
 vial poison~
 It looks very deadly.
 ~
 #14753
-drow cloak~
-a drow cloak~
-A black Drow cloak is crumpled on the floor here.~
+karayel pelerini~
+karayel pelerini~
+Siyah bir pelerin burada býrakýlmýþ.~
 leather~
 armor 4 1|1024
-16 16 17 8 0 
+16 16 17 8 0
 50 1 2000 P
 A
 2 1
@@ -1359,12 +1359,12 @@ A
 A
 24 -1
 #14754
-drow boots~
-a pair of drow boots~
-A pair of black drow boots is here.~
+karayel çizme~
+bir çift karayel çizmesi~
+Bir çift karayel çizmesi burada býrakýlmýþ.~
 leather~
 armor 4 1|64
-17 16 16 8 0 
+17 16 16 8 0
 50 1 2000 P
 A
 2 1
@@ -1373,12 +1373,12 @@ A
 A
 17 -5
 #14755
-drow chain chainmail~
-a suit of drow chainmail~
-A suit of finely crafted adamantite chainmail is here.~
+karayel örgülü zýrhý~
+karayel örgülü zýrhý~
+Bir karayel örgülü zýrhý burada unutulmuþ.~
 cloth~
 armor 64 1|8
-17 17 16 8 0 
+17 17 16 8 0
 50 5 2000 P
 A
 5 1
@@ -1387,25 +1387,24 @@ A
 A
 17 -10
 #14756
-tentacle whip~
-a greater tentacle whip~
-A rod with several writhing tentacles attached is here.
-~
+dokunaç kýrbaç~
+dokunaç kýrbacý~
+Dokunaçlarla örülmüþ bir kýrbaç burada unutulmuþ.~
 leather~
 weapon 64 1|8192
-whip 6 8 whip 0 
+whip 6 8 whip 0
 50 10 4000 P
 A
 18 4
 A
 19 6
 #14757
-tiara~
-a tiara~
-A tiara lies here.~
+tiyara~
+tiyara~
+Bir tiyara burada býrakýlmýþ.~
 unknown~
 armor 64|512 1|16
-17 17 16 7 0 
+17 17 16 7 0
 50 1 2000 P
 A
 3 2
@@ -1414,17 +1413,17 @@ A
 A
 12 25
 #14758
-key~
-a door key~
-This key allows access to the upper levels.~
+anahtar~
+anahtar~
+Üst seviyelere çýkmaya yarayacak bir anahtar burada býrakýlmýþ.~
 iron~
 key 0 1|16384
 0 0 0 0 0
 0 0 0 P
 #14759
-plate dark undead~
-Dark Plate of Undead~
-A large plate is lying on the floor.~
+kara hortlak zýrhý~
+Kara Hortlak Zýrhý~
+Büyükçe bir zýrh burada býrakýlmýþ.~
 adamantite~
 armor CY AD
 31 31 31 29 10
@@ -1443,7 +1442,7 @@ A
 
 #ROOMS
 #14700
-Approaching the Plains of Mount Doom~
+Hüküm Daðý Düzlükleri Yakýnýnda~
 You are heading directly toward Mount Doom, on a narrow path that leads to
 the desolate, monster-infested plains that surround it. This is the fell
 domain of Lord Krothgar, whose forbidding black fortress can be seen atop the
@@ -1462,13 +1461,12 @@ D2
 0 -1 6154
 S
 #14701
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D0
@@ -1481,13 +1479,12 @@ D1
 0 -1 14702
 S
 #14702
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D0
@@ -1504,13 +1501,12 @@ D3
 0 -1 14701
 S
 #14703
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D0
@@ -1527,13 +1523,12 @@ D3
 0 -1 14702
 S
 #14704
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D0
@@ -1554,13 +1549,12 @@ D3
 0 -1 14703
 S
 #14705
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D0
@@ -1577,13 +1571,12 @@ D3
 0 -1 14704
 S
 #14706
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D0
@@ -1600,13 +1593,12 @@ D3
 0 -1 14705
 S
 #14707
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D0
@@ -1619,13 +1611,12 @@ D3
 0 -1 14706
 S
 #14708
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D0
@@ -1642,13 +1633,12 @@ D2
 0 -1 14701
 S
 #14709
-The Foothills of Mount Doom~
-You have come to the base of the mountain. From here you may continue to
-slowly make your way up the mountain, or head back to the eerie plains below.
-The ground here is rocky and treacherous, dotted by small crevices in the
-volcanic rock and jagged shards of granite protrustions. The wind is even
-stronger here than on the plains, and you fancy you can hear voices and
-screams.
+Hüküm Daðý Tepeleri~
+Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
+devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
+volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
+Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
+ve çýðlýklar duyuyorsun.
 ~
 0 0 4
 D0
@@ -1669,13 +1659,12 @@ D3
 0 -1 14708
 S
 #14710
-The Foothills of Mount Doom~
-You have come to the base of the mountain. From here you may continue to
-slowly make your way up the mountain, or head back to the eerie plains below.
-The ground here is rocky and treacherous, dotted by small crevices in the
-volcanic rock and jagged shards of granite protrustions. The wind is even
-stronger here than on the plains, and you fancy you can hear voices and
-screams.
+Hüküm Daðý Tepeleri~
+Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
+devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
+volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
+Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
+ve çýðlýklar duyuyorsun.
 ~
 0 0 4
 D0
@@ -1696,13 +1685,12 @@ D3
 0 -1 14709
 S
 #14711
-The Foothills of Mount Doom~
-You have come to the base of the mountain. From here you may continue to
-slowly make your way up the mountain, or head back to the eerie plains below.
-The ground here is rocky and treacherous, dotted by small crevices in the
-volcanic rock and jagged shards of granite protrustions. The wind is even
-stronger here than on the plains, and you fancy you can hear voices and
-screams.
+Hüküm Daðý Tepeleri~
+Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
+devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
+volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
+Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
+ve çýðlýklar duyuyorsun.
 ~
 0 0 4
 D0
@@ -1723,13 +1711,12 @@ D3
 0 -1 14710
 S
 #14712
-The Foothills of Mount Doom~
-You have come to the base of the mountain. From here you may continue to
-slowly make your way up the mountain, or head back to the eerie plains below.
-The ground here is rocky and treacherous, dotted by small crevices in the
-volcanic rock and jagged shards of granite protrustions. The wind is even
-stronger here than on the plains, and you fancy you can hear voices and
-screams.
+Hüküm Daðý Tepeleri~
+Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
+devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
+volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
+Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
+ve çýðlýklar duyuyorsun.
 ~
 0 0 4
 D0
@@ -1750,13 +1737,12 @@ D3
 0 -1 14711
 S
 #14713
-The Foothills of Mount Doom~
-You have come to the base of the mountain. From here you may continue to
-slowly make your way up the mountain, or head back to the eerie plains below.
-The ground here is rocky and treacherous, dotted by small crevices in the
-volcanic rock and jagged shards of granite protrustions. The wind is even
-stronger here than on the plains, and you fancy you can hear voices and
-screams.
+Hüküm Daðý Tepeleri~
+Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
+devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
+volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
+Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
+ve çýðlýklar duyuyorsun.
 ~
 0 0 4
 D0
@@ -1777,13 +1763,12 @@ D3
 0 -1 14712
 S
 #14714
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D0
@@ -1800,13 +1785,12 @@ D3
 0 -1 14713
 S
 #14715
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D0
@@ -1823,13 +1807,12 @@ D2
 0 -1 14708
 S
 #14716
-The Foothills of Mount Doom~
-You have come to the base of the mountain. From here you may continue to
-slowly make your way up the mountain, or head back to the eerie plains below.
-The ground here is rocky and treacherous, dotted by small crevices in the
-volcanic rock and jagged shards of granite protrustions. The wind is even
-stronger here than on the plains, and you fancy you can hear voices and
-screams.
+Hüküm Daðý Tepeleri~
+Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
+devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
+volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
+Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
+ve çýðlýklar duyuyorsun.
 ~
 0 0 4
 D0
@@ -1850,13 +1833,12 @@ D3
 0 -1 14715
 S
 #14717
-The Upper Slopes of Mount Doom~
-You are steadily drawing near the summit. The ground has become quite smooth
-here, to the point of sliperiness, and you stop more than once to regain your
-footing on the glassy obsidian that coats the upper slopes. The fortress
-of Lord Krogthar looms closer than ever now, and you mentally prepare
-yourself for the the upcoming battles. The foes you have fought so far have
-been minor compared to those to come.
+Hüküm Daðý Bayýrlarý~
+Zirvenin yakýnlarýnda dönüp duruyorsun. Zemin tepelere göre daha
+düz ve cama benzer kara bir volkanik artýklar nedeniyle daha kaygan.
+Lord Korgtar'ýn Ýstihkamýna oldukça yakýnsýn. Biliyorsun ki daha
+aþaðýlarda yaþayan yaratýklar yukarýdakiler yanýnda oldukça önemsiz
+kalacaktýr.
 ~
 0 0 5
 D0
@@ -1877,15 +1859,14 @@ D3
 0 -1 14716
 S
 #14718
-The Upper Slopes of Mount Doom~
-You are steadily drawing near the summit. The ground has become quite smooth
-here, to the point of sliperiness, and you stop more than once to regain your
-footing on the glassy obsidian that coats the upper slopes. The fortress
-of Lord Krogthar looms closer than ever now, and you mentally prepare
-yourself for the the upcoming battles. The foes you have fought so far have
-been minor compared to those to come.
+Hüküm Daðý Bayýrlarý~
+Zirvenin yakýnlarýnda dönüp duruyorsun. Zemin tepelere göre daha
+düz ve cama benzer kara bir volkanik artýklar nedeniyle daha kaygan.
+Lord Korgtar'ýn Ýstihkamýna oldukça yakýnsýn. Biliyorsun ki daha
+aþaðýlarda yaþayan yaratýklar yukarýdakiler yanýnda oldukça önemsiz
+kalacaktýr.
 
-The fortress lies directly north of here.
+Ýstihkam tam kuzeyde.
 ~
 0 0 5
 D0
@@ -1906,13 +1887,12 @@ D3
 0 -1 14717
 S
 #14719
-The Upper Slopes of Mount Doom~
-You are steadily drawing near the summit. The ground has become quite smooth
-here, to the point of sliperiness, and you stop more than once to regain your
-footing on the glassy obsidian that coats the upper slopes. The fortress
-of Lord Krogthar looms closer than ever now, and you mentally prepare
-yourself for the the upcoming battles. The foes you have fought so far have
-been minor compared to those to come.
+Hüküm Daðý Bayýrlarý~
+Zirvenin yakýnlarýnda dönüp duruyorsun. Zemin tepelere göre daha
+düz ve cama benzer kara bir volkanik artýklar nedeniyle daha kaygan.
+Lord Korgtar'ýn Ýstihkamýna oldukça yakýnsýn. Biliyorsun ki daha
+aþaðýlarda yaþayan yaratýklar yukarýdakiler yanýnda oldukça önemsiz
+kalacaktýr.
 ~
 0 0 5
 D0
@@ -1933,13 +1913,12 @@ D3
 0 -1 14718
 S
 #14720
-The Foothills of Mount Doom~
-You have come to the base of the mountain. From here you may continue to
-slowly make your way up the mountain, or head back to the eerie plains below.
-The ground here is rocky and treacherous, dotted by small crevices in the
-volcanic rock and jagged shards of granite protrustions. The wind is even
-stronger here than on the plains, and you fancy you can hear voices and
-screams.
+Hüküm Daðý Tepeleri~
+Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
+devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
+volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
+Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
+ve çýðlýklar duyuyorsun.
 ~
 0 0 4
 D0
@@ -1960,13 +1939,12 @@ D3
 0 -1 14719
 S
 #14721
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D0
@@ -1983,13 +1961,12 @@ D3
 0 -1 14720
 S
 #14722
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D0
@@ -2006,13 +1983,12 @@ D2
 0 -1 14715
 S
 #14723
-The Foothills of Mount Doom~
-You have come to the base of the mountain. From here you may continue to
-slowly make your way up the mountain, or head back to the eerie plains below.
-The ground here is rocky and treacherous, dotted by small crevices in the
-volcanic rock and jagged shards of granite protrustions. The wind is even
-stronger here than on the plains, and you fancy you can hear voices and
-screams.
+Hüküm Daðý Tepeleri~
+Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
+devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
+volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
+Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
+ve çýðlýklar duyuyorsun.
 ~
 0 0 4
 D0
@@ -2033,15 +2009,14 @@ D3
 0 -1 14722
 S
 #14724
-The Upper Slopes of Mount Doom~
-You are steadily drawing near the summit. The ground has become quite smooth
-here, to the point of sliperiness, and you stop more than once to regain your
-footing on the glassy obsidian that coats the upper slopes. The fortress
-of Lord Krogthar looms closer than ever now, and you mentally prepare
-yourself for the the upcoming battles. The foes you have fought so far have
-been minor compared to those to come.
+Hüküm Daðý Bayýrlarý~
+Zirvenin yakýnlarýnda dönüp duruyorsun. Zemin tepelere göre daha
+düz ve cama benzer kara bir volkanik artýklar nedeniyle daha kaygan.
+Lord Korgtar'ýn Ýstihkamýna oldukça yakýnsýn. Biliyorsun ki daha
+aþaðýlarda yaþayan yaratýklar yukarýdakiler yanýnda oldukça önemsiz
+kalacaktýr.
 
-The Fortress lies directly east of here.
+Ýstihkam tam doðuda.
 ~
 0 0 5
 D0
@@ -2062,7 +2037,7 @@ D3
 0 -1 14723
 S
 #14725
-Outside the Fortress of Lord Korgthar~
+Lord Korgtar Ýstihkamýnýn Dýþý~
 You have finally reached the summit, and are standing beneath the gates of
 the Fortress, which you may climb up to by means of an iron staircase. You
 can sense many pairs of eyes upon you, and you wonder how far you will be
@@ -2091,15 +2066,14 @@ D4
 1 0 14750
 S
 #14726
-The Upper Slopes of Mount Doom~
-You are steadily drawing near the summit. The ground has become quite smooth
-here, to the point of sliperiness, and you stop more than once to regain your
-footing on the glassy obsidian that coats the upper slopes. The fortress
-of Lord Krogthar looms closer than ever now, and you mentally prepare
-yourself for the the upcoming battles. The foes you have fought so far have
-been minor compared to those to come.
+Hüküm Daðý Bayýrlarý~
+Zirvenin yakýnlarýnda dönüp duruyorsun. Zemin tepelere göre daha
+düz ve cama benzer kara bir volkanik artýklar nedeniyle daha kaygan.
+Lord Korgtar'ýn Ýstihkamýna oldukça yakýnsýn. Biliyorsun ki daha
+aþaðýlarda yaþayan yaratýklar yukarýdakiler yanýnda oldukça önemsiz
+kalacaktýr.
 
-The Fortress lies due west of here.
+Ýstihkam tam batýda.
 ~
 0 0 5
 D0
@@ -2120,13 +2094,12 @@ D3
 0 -1 14725
 S
 #14727
-The Foothills of Mount Doom~
-You have come to the base of the mountain. From here you may continue to
-slowly make your way up the mountain, or head back to the eerie plains below.
-The ground here is rocky and treacherous, dotted by small crevices in the
-volcanic rock and jagged shards of granite protrustions. The wind is even
-stronger here than on the plains, and you fancy you can hear voices and
-screams.
+Hüküm Daðý Tepeleri~
+Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
+devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
+volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
+Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
+ve çýðlýklar duyuyorsun.
 ~
 0 0 4
 D0
@@ -2147,13 +2120,12 @@ D3
 0 -1 14726
 S
 #14728
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D0
@@ -2170,13 +2142,12 @@ D3
 0 -1 14727
 S
 #14729
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D0
@@ -2193,13 +2164,12 @@ D2
 0 -1 14722
 S
 #14730
-The Foothills of Mount Doom~
-You have come to the base of the mountain. From here you may continue to
-slowly make your way up the mountain, or head back to the eerie plains below.
-The ground here is rocky and treacherous, dotted by small crevices in the
-volcanic rock and jagged shards of granite protrustions. The wind is even
-stronger here than on the plains, and you fancy you can hear voices and
-screams.
+Hüküm Daðý Tepeleri~
+Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
+devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
+volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
+Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
+ve çýðlýklar duyuyorsun.
 ~
 0 0 4
 D0
@@ -2220,13 +2190,12 @@ D3
 0 -1 14729
 S
 #14731
-The Upper Slopes of Mount Doom~
-You are steadily drawing near the summit. The ground has become quite smooth
-here, to the point of sliperiness, and you stop more than once to regain your
-footing on the glassy obsidian that coats the upper slopes. The fortress
-of Lord Krogthar looms closer than ever now, and you mentally prepare
-yourself for the the upcoming battles. The foes you have fought so far have
-been minor compared to those to come.
+Hüküm Daðý Bayýrlarý~
+Zirvenin yakýnlarýnda dönüp duruyorsun. Zemin tepelere göre daha
+düz ve cama benzer kara bir volkanik artýklar nedeniyle daha kaygan.
+Lord Korgtar'ýn Ýstihkamýna oldukça yakýnsýn. Biliyorsun ki daha
+aþaðýlarda yaþayan yaratýklar yukarýdakiler yanýnda oldukça önemsiz
+kalacaktýr.
 ~
 0 0 5
 D0
@@ -2247,15 +2216,14 @@ D3
 0 -1 14730
 S
 #14732
-The Upper Slopes of Mount Doom~
-You are steadily drawing near the summit. The ground has become quite smooth
-here, to the point of sliperiness, and you stop more than once to regain your
-footing on the glassy obsidian that coats the upper slopes. The fortress
-of Lord Krogthar looms closer than ever now, and you mentally prepare
-yourself for the the upcoming battles. The foes you have fought so far have
-been minor compared to those to come.
+Hüküm Daðý Bayýrlarý~
+Zirvenin yakýnlarýnda dönüp duruyorsun. Zemin tepelere göre daha
+düz ve cama benzer kara bir volkanik artýklar nedeniyle daha kaygan.
+Lord Korgtar'ýn Ýstihkamýna oldukça yakýnsýn. Biliyorsun ki daha
+aþaðýlarda yaþayan yaratýklar yukarýdakiler yanýnda oldukça önemsiz
+kalacaktýr.
 
-The Fortress lies due south of here.
+Ýstihkam tam güneyde.
 ~
 0 0 5
 D0
@@ -2276,13 +2244,12 @@ D3
 0 -1 14731
 S
 #14733
-The Upper Slopes of Mount Doom~
-You are steadily drawing near the summit. The ground has become quite smooth
-here, to the point of sliperiness, and you stop more than once to regain your
-footing on the glassy obsidian that coats the upper slopes. The fortress
-of Lord Krogthar looms closer than ever now, and you mentally prepare
-yourself for the the upcoming battles. The foes you have fought so far have
-been minor compared to those to come.
+Hüküm Daðý Bayýrlarý~
+Zirvenin yakýnlarýnda dönüp duruyorsun. Zemin tepelere göre daha
+düz ve cama benzer kara bir volkanik artýklar nedeniyle daha kaygan.
+Lord Korgtar'ýn Ýstihkamýna oldukça yakýnsýn. Biliyorsun ki daha
+aþaðýlarda yaþayan yaratýklar yukarýdakiler yanýnda oldukça önemsiz
+kalacaktýr.
 ~
 0 0 5
 D0
@@ -2303,13 +2270,12 @@ D3
 0 -1 14732
 S
 #14734
-The Foothills of Mount Doom~
-You have come to the base of the mountain. From here you may continue to
-slowly make your way up the mountain, or head back to the eerie plains below.
-The ground here is rocky and treacherous, dotted by small crevices in the
-volcanic rock and jagged shards of granite protrustions. The wind is even
-stronger here than on the plains, and you fancy you can hear voices and
-screams.
+Hüküm Daðý Tepeleri~
+Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
+devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
+volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
+Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
+ve çýðlýklar duyuyorsun.
 ~
 0 0 4
 D0
@@ -2330,13 +2296,12 @@ D3
 0 -1 14733
 S
 #14735
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D0
@@ -2353,13 +2318,12 @@ D3
 0 -1 14734
 S
 #14736
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D0
@@ -2376,13 +2340,12 @@ D2
 0 -1 14729
 S
 #14737
-The Foothills of Mount Doom~
-You have come to the base of the mountain. From here you may continue to
-slowly make your way up the mountain, or head back to the eerie plains below.
-The ground here is rocky and treacherous, dotted by small crevices in the
-volcanic rock and jagged shards of granite protrustions. The wind is even
-stronger here than on the plains, and you fancy you can hear voices and
-screams.
+Hüküm Daðý Tepeleri~
+Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
+devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
+volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
+Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
+ve çýðlýklar duyuyorsun.
 ~
 0 0 4
 D0
@@ -2403,13 +2366,12 @@ D3
 0 -1 14736
 S
 #14738
-The Foothills of Mount Doom~
-You have come to the base of the mountain. From here you may continue to
-slowly make your way up the mountain, or head back to the eerie plains below.
-The ground here is rocky and treacherous, dotted by small crevices in the
-volcanic rock and jagged shards of granite protrustions. The wind is even
-stronger here than on the plains, and you fancy you can hear voices and
-screams.
+Hüküm Daðý Tepeleri~
+Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
+devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
+volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
+Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
+ve çýðlýklar duyuyorsun.
 ~
 0 0 4
 D0
@@ -2430,13 +2392,12 @@ D3
 0 -1 14737
 S
 #14739
-The Foothills of Mount Doom~
-You have come to the base of the mountain. From here you may continue to
-slowly make your way up the mountain, or head back to the eerie plains below.
-The ground here is rocky and treacherous, dotted by small crevices in the
-volcanic rock and jagged shards of granite protrustions. The wind is even
-stronger here than on the plains, and you fancy you can hear voices and
-screams.
+Hüküm Daðý Tepeleri~
+Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
+devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
+volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
+Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
+ve çýðlýklar duyuyorsun.
 ~
 0 0 4
 D0
@@ -2457,13 +2418,12 @@ D3
 0 -1 14738
 S
 #14740
-The Foothills of Mount Doom~
-You have come to the base of the mountain. From here you may continue to
-slowly make your way up the mountain, or head back to the eerie plains below.
-The ground here is rocky and treacherous, dotted by small crevices in the
-volcanic rock and jagged shards of granite protrustions. The wind is even
-stronger here than on the plains, and you fancy you can hear voices and
-screams.
+Hüküm Daðý Tepeleri~
+Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
+devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
+volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
+Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
+ve çýðlýklar duyuyorsun.
 ~
 0 0 4
 D0
@@ -2484,13 +2444,12 @@ D3
 0 -1 14739
 S
 #14741
-The Foothills of Mount Doom~
-You have come to the base of the mountain. From here you may continue to
-slowly make your way up the mountain, or head back to the eerie plains below.
-The ground here is rocky and treacherous, dotted by small crevices in the
-volcanic rock and jagged shards of granite protrustions. The wind is even
-stronger here than on the plains, and you fancy you can hear voices and
-screams.
+Hüküm Daðý Tepeleri~
+Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
+devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
+volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
+Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
+ve çýðlýklar duyuyorsun.
 ~
 0 0 4
 D0
@@ -2511,13 +2470,12 @@ D3
 0 -1 14740
 S
 #14742
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D0
@@ -2534,13 +2492,12 @@ D3
 0 -1 14741
 S
 #14743
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D1
@@ -2553,13 +2510,12 @@ D2
 0 -1 14736
 S
 #14744
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D1
@@ -2576,13 +2532,12 @@ D3
 0 -1 14743
 S
 #14745
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D1
@@ -2599,13 +2554,12 @@ D3
 0 -1 14744
 S
 #14746
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D1
@@ -2622,13 +2576,12 @@ D3
 0 -1 14745
 S
 #14747
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D1
@@ -2645,13 +2598,12 @@ D3
 0 -1 14746
 S
 #14748
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D1
@@ -2668,13 +2620,12 @@ D3
 0 -1 14747
 S
 #14749
-The Plains of Mount Doom~
-A chill wind blows across the desolate wastes, and you shiver uncomfortably
-as you proceed. The bones of past adventurers lay scattered across the
-hard ground, among rusted weapons and shards of jagged rock that resemble
-teeth. It almost looks as if the very earth had devoured them. But the
-sudden howl of a warg (or a ghoul) alerts you to the very real dangers
-lurking nearby and you press on.
+Hüküm Daðý Düzlükleri~
+Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
+zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
+ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
+onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
+bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
 ~
 0 0 2
 D2
@@ -2691,7 +2642,7 @@ D4
 1 -1 -1
 S
 #14750
-Inside the Fell Fortress~
+Ýstihkamýn Ýçi~
 You are standing inside the gates of the fortress, at a crossroads. The
 passages are remarkably plain for a den of evil- simply dressed grey flag
 stones on floor and walls, the monotony broken only by the occasional torch
@@ -2721,7 +2672,7 @@ D5
 1 -1 14725
 S
 #14751
-The Cell Block~
+Hücre Bloðu~
 Here the prisoner of Krogthar are kept. There are not many cells, as the
 Lord Korgthar is not fond of taking prisoners (hassles, hassles...). If
 you think security is a little lax, think of what lurks outside to deter
@@ -2746,7 +2697,7 @@ D3
 0 -1 14750
 S
 #14752
-A Cell~
+Hücre~
 A dank, dismal affair with little in the way of bedding or toilet facilities.
 The stench is actually quite horrendous and you find yourself eager to leave.
 ~
@@ -2757,7 +2708,7 @@ D2
 1 0 14751
 S
 #14753
-A Cell~
+Hücre~
 A dank, dismal affair with little in the way of bedding or toilet facilities.
 The stench is actually quite horrendous and you find yourself eager to leave.
 ~
@@ -2768,7 +2719,7 @@ D0
 1 0 14751
 S
 #14754
-The Cell Block~
+Hücre Bloðu~
 Here the prisoner of Krogthar are kept. There are not many cells, as the
 Lord Korgthar is not fond of taking prisoners (hassles, hassles...). If
 you think security is a little lax, think of what lurks outside to deter
@@ -2793,7 +2744,7 @@ D3
 0 -1 14751
 S
 #14755
-A Cell~
+Hücre~
 A dank, dismal affair with little in the way of bedding or toilet facilities.
 The stench is actually quite horrendous and you find yourself eager to leave.
 ~
@@ -2804,7 +2755,7 @@ D2
 1 0 14754
 S
 #14756
-A Cell~
+Hücre~
 A dank, dismal affair with little in the way of bedding or toilet facilities.
 The stench is actually quite horrendous and you find yourself eager to leave.
 ~
@@ -2815,7 +2766,7 @@ D0
 1 0 14754
 S
 #14757
-A Cell~
+Hücre~
 A dank, dismal affair with little in the way of bedding or toilet facilities.
 The stench is actually quite horrendous and you find yourself eager to leave.
 ~
@@ -2826,7 +2777,7 @@ D3
 1 0 14754
 S
 #14758
-Some Quarters~
+Karargahlar~
 You are standing before a solid wooden door that leads to the quarters of
 some of the many types of troops that serve Krothgar.
 ~
@@ -2841,7 +2792,7 @@ D2
 0 -1 14750
 S
 #14759
-An Ante-Room~
+Antre Odasý~
 You are standing in a well-furnished anteroom with doors leading in all four
 directions. No noise comes from behind any- they are quite solid and are
 effectively soundproof.
@@ -2865,7 +2816,7 @@ D3
 1 0 14760
 S
 #14760
-Assassins' Quarters~
+Suikastçilerin Karargahý~
 In this room reside some of the assassins that serve Korthgar. He may not
 be the brightest of tyrants, but Krothgar was smart enough to work out it was
 easier to send a single assassin to slay a king and collapse an empire than
@@ -2879,7 +2830,7 @@ D1
 1 0 14759
 S
 #14761
-The Chief Assassin's Quarters~
+Þef Suikastçinin Karargahý~
 You have entered the quarters of the Chief of Krothgar's ruthlessly
 efficient assassins, and caught her in flagrante delicto with two naked men
 strapped to racks. She swears and draws her swords, making no attempt to
@@ -2892,7 +2843,7 @@ D2
 1 0 14759
 S
 #14762
-Assassins' Quarters~
+Suikastçilerin Karargahý~
 In this room reside some of the assassins that serve Korthgar. He may not
 be the brightest of tyrants, but Krothgar was smart enough to work out it was
 easier to send a single assassin to slay a king and collapse an empire than
@@ -2906,7 +2857,7 @@ D3
 1 0 14759
 S
 #14763
-Some Quarters~
+Karargahlar~
 You are standing before a solid wooden door that leads to the quarters of
 some of the many types of troops that serve Krothgar.
 ~
@@ -2921,7 +2872,7 @@ D3
 1 0 14764
 S
 #14764
-A Corridor~
+Koridor~
 You are advancing along a dark corridor that leads to the quarters of Lord
 Krothgar's blackguard.
 ~
@@ -2940,7 +2891,7 @@ D2
 1 0 14765
 S
 #14765
-The Keeper's Chamber~
+Bekçinin Odasý~
 Here resides the keeper of the Mutant Pit, where the failed experiments of
 the scientist mages are kept to do away with prisoners or insolent guards.
 He likes his job, and isn't about to let you hurt his mutants.
@@ -2956,7 +2907,7 @@ D5
 1 0 14766
 S
 #14766
-The Mutant Pit~
+Mutant Merkezi~
 Ack! You're in the mutant pit! Surrounded by gore, excrement, mucous, vomit
 and the remains of dying mutants, you gag and choke and struggle to get out,
 only to find your way blocked by several mutants...
@@ -2968,7 +2919,7 @@ D4
 1 0 14765
 S
 #14767
-A Corridor~
+Koridor~
 You are advancing along a dark corridor that leads to the quarters of Lord
 Krothgar's blackguard.
 ~
@@ -2983,7 +2934,7 @@ D3
 1 0 14768
 S
 #14768
-The Guard Common Room~
+Muhafýz Umumi Odasý~
 Doors lead in all directions from this messy rec room. Blood, beer and food
 stain the straw-covered floor while decomposing human, orc and ogre corpse
 hang from hooks in the ceiling, evidently used as practice dummies.
@@ -3003,7 +2954,7 @@ D2
 1 0 14769
 D3
 This door reads- "Upper level access. Authorised personnel only!~
-door~
+kapý door~
 1 14758 14779
 D5
 ~
@@ -3011,7 +2962,7 @@ D5
 0 -1 14806
 S
 #14769
-Guard Quarters~
+Muhafýz Karargahý~
 This rooms is full of messy bunks and snoring guards. Dice and cards are
 scattered across the filthy stone floor, and rats gnaw at the boots of the
 guards.
@@ -3023,7 +2974,7 @@ D0
 1 0 14768
 S
 #14770
-Guard Quarters~
+Muhafýz Karargahý~
 This rooms is full of messy bunks and snoring guards. Dice and cards are
 scattered across the filthy stone floor, and rats gnaw at the boots of the
 guards.
@@ -3035,7 +2986,7 @@ D2
 1 0 14768
 S
 #14771
-Guest Quarters~
+Misafir Bölümü~
 Down this southern corridor lie the guest rooms, where the many emissaries
 from the powerful races Krothgar is attempting to gain as allies currently
 reside. They frown upon intruders...
@@ -3051,7 +3002,7 @@ D2
 0 -1 14772
 S
 #14772
-Guest Quarters~
+Misafir Bölümü~
 Down this southern corridor lie the guest rooms, where the many emissaries
 from the powerful races Krothgar is attempting to gain as allies currently
 reside. They frown upon intruders...
@@ -3075,7 +3026,7 @@ D3
 1 0 14773
 S
 #14773
-Guest Quarters~
+Misafir Bölümü~
 These quarters are well-decorated, with well-preserved tapestries and rugs,
 and carved wooden furniture. Alliances with other powers are crucial to
 Krothgar's plans, and he is doing his best to impress his diabolical guests.
@@ -3087,7 +3038,7 @@ D1
 1 0 14772
 S
 #14774
-Guest Quarters~
+Misafir Bölümü~
 These quarters are well-decorated, with well-preserved tapestries and rugs,
 and carved wooden furniture. Alliances with other powers are crucial to
 Krothgar's plans, and he is doing his best to impress his diabolical guests.
@@ -3099,7 +3050,7 @@ D3
 1 0 14772
 S
 #14775
-Guest Quarters~
+Misafir Bölümü~
 Down this southern corridor lie the guest rooms, where the many emissaries
 from the powerful races Krothgar is attempting to gain as allies currently
 reside. They frown upon intruders...
@@ -3123,7 +3074,7 @@ D3
 1 0 14776
 S
 #14776
-Guest Quarters~
+Misafir Bölümü~
 These quarters are well-decorated, with well-preserved tapestries and rugs,
 and carved wooden furniture. Alliances with other powers are crucial to
 Krothgar's plans, and he is doing his best to impress his diabolical guests.
@@ -3135,7 +3086,7 @@ D1
 1 0 14775
 S
 #14777
-Guest Quarters~
+Misafir Bölümü~
 These quarters are well-decorated, with well-preserved tapestries and rugs,
 and carved wooden furniture. Alliances with other powers are crucial to
 Krothgar's plans, and he is doing his best to impress his diabolical guests.
@@ -3147,7 +3098,7 @@ D3
 1 0 14775
 S
 #14778
-Guest Quarters~
+Misafir Bölümü~
 These quarters are well-decorated, with well-preserved tapestries and rugs,
 and carved wooden furniture. Alliances with other powers are crucial to
 Krothgar's plans, and he is doing his best to impress his diabolical guests.
@@ -3159,7 +3110,7 @@ D0
 1 0 14775
 S
 #14779
-The Fortress~
+Ýstihkam~
 You have entered the restricted area. Staircases run up and down from here,
 and a narrow passage stretches away to the west.
 ~
@@ -3182,7 +3133,7 @@ D5
 0 -1 14787
 S
 #14780
-A Narrow Corridor~
+Dar Koridor~
 This corridor runs through the center of the Fortress to the mage towers,
 on the western wall of the fortress. A junction lies to the west.
 ~
@@ -3197,7 +3148,7 @@ D3
 0 -1 14781
 S
 #14781
-A Junction~
+Kesiþim~
 You may head through doors to the north or south from here, or back east
 to the outer fortress. There is a sign on the south door, and a plaque on
 the northern.
@@ -3216,7 +3167,7 @@ D2
 ~
 1 0 14782
 E
-sign~
+sign iþaret~
 The sign reads-
 
         The Quarters of the Archmage. Please do not enter. Important
@@ -3236,7 +3187,7 @@ The plaque reads-
 ~
 S
 #14782
-The Quarters of the Archmage~
+Baþbüyücü Karargahý~
 You have barged into the quarters of Axtraxes, arch mage of Krothgar, and
 ruined his experiment. He's BOUND to be upset.
 ~
@@ -3247,7 +3198,7 @@ D0
 1 0 14781
 S
 #14783
-The Elemental Laboratories~
+Hizmetkar Laboratuvarlarý~
 This vast room extends in all directions. You see vats, urns, beakers, jars,
 alembics and a hundred other items scattered about on desks, benches, chairs
 and floors. Everything appears rather damaged, as if someone (or something)
@@ -3272,7 +3223,7 @@ D3
 0 -1 14784
 S
 #14784
-Western End of the Lab~
+Laboratuvarýn Batý Sonu~
 This vast room extends in all directions. You see vats, urns, beakers, jars,
 alembics and a hundred other items scattered about on desks, benches, chairs
 and floors. Everything appears rather damaged, as if someone (or something)
@@ -3285,7 +3236,7 @@ D1
 0 -1 14783
 S
 #14785
-Northern End of the Lab~
+Laboratuvarýn Kuzey Sonu~
 This vast room extends in all directions. You see vats, urns, beakers, jars,
 alembics and a hundred other items scattered about on desks, benches, chairs
 and floors. Everything appears rather damaged, as if someone (or something)
@@ -3298,7 +3249,7 @@ D2
 0 -1 14783
 S
 #14786
-Eastern End of the Lab~
+Laboratuvarýn Doðu Sonu~
 This vast room extends in all directions. You see vats, urns, beakers, jars,
 alembics and a hundred other items scattered about on desks, benches, chairs
 and floors. Everything appears rather damaged, as if someone (or something)
@@ -3311,7 +3262,7 @@ D3
 0 -1 14783
 S
 #14787
-The Lower Chambers~
+Alt Odalar~
 You have entered the lower levels of the Fortress, where hideous creatures
 lurk and evil priests engage in foul ceremonies to their demonic deities.
 ~
@@ -3330,7 +3281,7 @@ D4
 0 -1 14779
 S
 #14788
-An Ancient Crypt~
+Yeraltý Türbesi~
 This crypt has remained untouched for centuries. It houses the remains of
 the foul lich king who once ruled this Fortress and much of the surrounding
 land under an iron fist (literally, Krothgar's golem now wears it). You
@@ -3343,7 +3294,7 @@ crypt door~
 0 0 14787
 S
 #14789
-The Unholy Temple~
+Lanetli Tapýnak~
 You have entered the grounds of the unholy temple of the Fortress. Screaming
 virgins are torn asunder in foul rituals upon altars soaked with the blood
 of thousands of innocents while evil priests look on and pray for a visitation
@@ -3368,7 +3319,7 @@ D3
 0 -1 14790
 S
 #14790
-The Unholy Temple~
+Lanetli Tapýnak~
 You have entered the grounds of the unholy temple of the Fortress. Screaming
 virgins are torn asunder in foul rituals upon altars soaked with the blood
 of thousands of innocents while evil priests look on and pray for a visitation
@@ -3384,7 +3335,7 @@ D1
 0 -1 14789
 S
 #14791
-The Unholy Temple~
+Lanetli Tapýnak~
 You have entered the grounds of the unholy temple of the Fortress. Screaming
 virgins are torn asunder in foul rituals upon altars soaked with the blood
 of thousands of innocents while evil priests look on and pray for a visitation
@@ -3401,7 +3352,7 @@ D5
 0 -1 32700
 S
 #14792
-The Hydra Lair~
+Hidra Ýni~
 Here Krothgar keeps his hydra, which guards the treasure of the evil temple.
 It is a wild and ferocious beast, which will tear apart anything that enters
 its lair save Krothgar or the high priest.
@@ -3413,7 +3364,7 @@ D3
 0 -1 14789
 S
 #14793
-A Spiral Staircase~
+Sarmal Merdiven~
 You are ascending a spiral staircase that winds up into the heights of the
 multitude of towers that adorn the heights of the Fortress.
 ~
@@ -3428,7 +3379,7 @@ D5
 0 -1 14779
 S
 #14794
-A Landing~
+Merdiven Sahanlýðý~
 You have come to a landing, upon which are 4 doors leading in the cardinal
 directions. The staircase continues its climb in the center.
 ~
@@ -3459,7 +3410,7 @@ D5
 0 0 14793
 S
 #14795
-A Bedchamber~
+Yatak Odasý~
 You have entered a luxurious boudoir full of expensive furniture and a wide
 variety of perfumes, unguents and other cosmetics. Piles of clothing are
 piled on the floor, as if someone had but recently gone through them in
@@ -3472,7 +3423,7 @@ D0
 1 0 14794
 S
 #14796
-A Bedchamber~
+Yatak Odasý~
 You have entered a luxurious boudoir full of expensive furniture and a wide
 variety of perfumes, unguents and other cosmetics. Piles of clothing are
 piled on the floor, as if someone had but recently gone through them in
@@ -3485,7 +3436,7 @@ D1
 1 0 14794
 S
 #14797
-A Hall~
+Yemek Salonu~
 You have entered a long dining hall filled with a huge table lined with
 high-backed chairs. Seated in these chairs are skeletons (the normal sort)
 clad in royal regalia- these are the many opponents that Krothgar has
@@ -3498,7 +3449,7 @@ D2
 1 0 14794
 S
 #14798
-A Bedchamber~
+Yatak Odasý~
 You have entered a luxurious boudoir full of expensive furniture and a wide
 variety of perfumes, unguents and other cosmetics. Piles of clothing are
 piled on the floor, as if someone had but recently gone through them in
@@ -3511,7 +3462,7 @@ D3
 1 0 14794
 S
 #14799
-A Spiral Staircase~
+Sarmal Merdiven~
 You are ascending a spiral staircase that winds up into the heights of the
 multitude of towers that adorn the heights of the Fortress.
 ~
@@ -3526,7 +3477,7 @@ D5
 0 -1 14794
 S
 #14800
-The Throne Room~
+Taht Odasý~
 You have entered the Throne Room of Lord Krothgar. He sits here, upon his
 throne, located in the center of the 5 towers which emerge in all directions
 from this room. In each tower resides a powerful dragon, loyal allies of the
@@ -3560,7 +3511,7 @@ D5
 0 -1 14799
 S
 #14801
-Dragon Tower~
+Ejderha Kulesi~
 In this tower rests a huge dragon, the largest of its kind. It will not
 appreciate being disturbed by a mortal such as yourself...
 ~
@@ -3571,7 +3522,7 @@ D2
 0 -1 14800
 S
 #14802
-Dragon Tower~
+Ejderha Kulesi~
 In this tower rests a huge dragon, the largest of its kind. It will not
 appreciate being disturbed by a mortal such as yourself...
 ~
@@ -3582,7 +3533,7 @@ D1
 0 -1 14800
 S
 #14803
-Dragon Tower~
+Ejderha Kulesi~
 In this tower rests a huge dragon, the largest of its kind. It will not
 appreciate being disturbed by a mortal such as yourself...
 ~
@@ -3593,7 +3544,7 @@ D0
 0 -1 14800
 S
 #14804
-Dragon Tower~
+Ejderha Kulesi~
 In this tower rests a huge dragon, the largest of its kind. It will not
 appreciate being disturbed by a mortal such as yourself...
 ~
@@ -3604,7 +3555,7 @@ D3
 0 -1 14800
 S
 #14805
-Dragon Tower~
+Ejderha Kulesi~
 In this tower rests a huge dragon, the largest of its kind. It will not
 appreciate being disturbed by a mortal such as yourself...
 ~
@@ -3615,7 +3566,7 @@ D5
 0 -1 14800
 S
 #14806
-Stables~
+Ahýr~
 Here, the blackguard keep their steeds, evil destriers bred on the plains
 of Hel itself.
 ~

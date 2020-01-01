@@ -1,14 +1,14 @@
 #AREA
-white.are~
-White Lotus~
-{1  50} Strahd  Temple of the White Lotus~
+beyaz_lotus_tapinagi.are~
+Beyaz Lotus Tapýnaðý~
+{1  50} Strahd  Beyaz Lotus Tapýnaðý~
 10701 10873
 
 #MOBOLD
 #10701
-monk cleaning~
-monk~
-A temple monk is here cleaning and polishing the walkway.
+keþiþ temizlikçi~
+keþiþ~
+Bir tapýnak keþiþi burada yolu temizliyor ve parlatýyor.
 ~
 He looks to be a student of the temple. He is dressed in a loose brown
 robe. He is diligently cleaning the walkway.
@@ -19,9 +19,9 @@ robe. He is diligently cleaning the walkway.
 8 8 1
 
 #10702
-monk elder~
-elder monk~
-An elder monk is here murmering and praying.
+keþiþ yaþlý~
+yaþlý keþiþ~
+Yaþlý bir keþiþ burada dua ediyor.
 ~
 ~
 3 0 800 S
@@ -30,9 +30,9 @@ An elder monk is here murmering and praying.
 8 8 1
 
 #10703
-monk student~
-student~
-A temple student is here practicing his kung fu.
+keþiþ öðrenci~
+öðrenci~
+Bir tapýnak öðrencisi burada kung fu çalýþýyor.
 ~
 ~
 3 0 654 S
@@ -41,9 +41,9 @@ A temple student is here practicing his kung fu.
 8 8 1
 
 #10704
-monk advanced student~
-student~
-A temple student is here practicing his kung fu.
+keþiþ geliþkin öðrenci~
+öðrenci~
+Bir tapýnak öðrencisi burada kung fu çalýþýyor.
 ~
 ~
 3 0 453 S
@@ -52,9 +52,9 @@ A temple student is here practicing his kung fu.
 8 8 1
 
 #10705
-teacher monk~
-teacher~
-A temple teacher is here instructing students.
+öðretmen keþiþ~
+öðretmen~
+Bir tapýnak öðretmeni burada öðrencileri eðitiyor.
 ~
 ~
 3 0 453 S
@@ -63,9 +63,9 @@ A temple teacher is here instructing students.
 8 8 1
 
 #10706
-guard temple~
-temple guard~
-A temple guard is here.
+muhafýz tapýnak~
+tapýnak muhafýzý~
+Bir tapýnak muhafýzý burada.
 ~
 ~
 3 0 320 S
@@ -74,9 +74,9 @@ A temple guard is here.
 8 8 1
 
 #10707
-guard white lotus~
-guard~
-A guard of the White Lotus is standing here.
+muhafýz beyaz lotus~
+muhafýz~
+Bir Beyaz Lotus muhafýzý burada duruyor.
 ~
 ~
 3 0 453 S
@@ -85,9 +85,9 @@ A guard of the White Lotus is standing here.
 8 8 1
 
 #10708
-kitchen attendant~
-kitchen attendant~
-A kitchen attendant is here cooking for the soldiers.
+mutfak görevlisi~
+mutfak görevlisi~
+Bir mutfak görevlisi burada askerler için yemek yapýyor.
 ~
 ~
 3 0 675 S
@@ -96,9 +96,9 @@ A kitchen attendant is here cooking for the soldiers.
 8 8 1
 
 #10709
-kitchen attendant~
-kitchen attendant~
-A kitchen attendant is here cooking for the soldiers.
+mutfak görevlisi~
+mutfak görevlisi~
+Bir mutfak görevlisi burada askerler için yemek yapýyor.
 ~
 ~
 3 0 675 S
@@ -107,9 +107,9 @@ A kitchen attendant is here cooking for the soldiers.
 8 8 1
 
 #10710
-soldier temple gambling~
-temple soldier~
-A temple soldier is here gambling.
+asker tapýnak kumar~
+tapýnak askeri~
+Bir tapýnak askeri burada kumar oynuyor.
 ~
 ~
 3 0 675 S
@@ -118,9 +118,9 @@ A temple soldier is here gambling.
 8 8 1
 
 #10711
-soldier temple eating~
-temple soldier~
-A temple soldier is here stuffing his mouth with rice.
+asker tapýnak týkýnan~
+tapýnak askeri~
+Bir tapýnak askeri burada pirinç týkýnýyor.
 ~
 ~
 3 0 675 S
@@ -129,9 +129,9 @@ A temple soldier is here stuffing his mouth with rice.
 8 8 1
 
 #10712
-officer temple~
-temple officer~
-A temple office is here drinking wine.
+görevli tapýnak~
+tapýnak görevlisi~
+Bir tapýnak görevlisi burada þarap içiyor.
 ~
 ~
 3 0 675 S
@@ -140,9 +140,9 @@ A temple office is here drinking wine.
 8 8 1
 
 #10713
-prisoner~
-prisoner~
-A prisoner is here barfing on the ground.
+mahkum~
+mahkum~
+Bir mahkum burada yere kusuyor.
 ~
 ~
 3 0 675 S
@@ -151,9 +151,9 @@ A prisoner is here barfing on the ground.
 8 8 1
 
 #10714
-monk wandering~
-wandering monk~
-A monk is here wandering and praying.
+keþiþ yakaran~
+yakaran keþiþ~
+Bir keþiþ burada yakarýyor ve dua ediyor.
 ~
 ~
 3 0 675 S
@@ -162,9 +162,9 @@ A monk is here wandering and praying.
 8 8 1
 
 #10715
-song bird~
-song bird~
-A small colorful songbird is here chirping merrily.
+bülbül~
+bülbül~
+Bir bülbül burada neþeli bir þekilde cývýldýyor.
 ~
 ~
 3 0 675 S
@@ -173,9 +173,9 @@ A small colorful songbird is here chirping merrily.
 8 8 0
 
 #10716
-member poison clan~
-Poison Clan member~
-A member of the Poison clan is here looking tough.
+üye zehir klaný~
+Zehir Klaný üyesi~
+Bir Zehir Klaný üyesi acýmasýzca sana bakýyor.
 ~
 ~
 1|2 0 -300 S
@@ -184,9 +184,9 @@ A member of the Poison clan is here looking tough.
 8 8 1
 
 #10717
-small frog~
-small frog~
-A small frog is here croaking.
+küçük kurbaða~
+küçük kurbaða~
+Küçük bir kurbaða burada vraklýyor.
 ~
 ~
 1|2 0 200 S
@@ -195,9 +195,9 @@ A small frog is here croaking.
 8 8 0
 
 #10718
-tiny centipede~
-tiny centipede~
-A tiny centipede is crawling on the ground.
+minik kýrkayak~
+minik kýrkayak~
+Minik bir kýrkayak yerde sürünüyor.
 ~
 ~
 1|2 0 -100 S
@@ -206,9 +206,9 @@ A tiny centipede is crawling on the ground.
 8 8 0
 
 #10719
-silver snake~
-silver snake~
-A silver snake is slithering at your feet.
+gümüþ yýlan~
+gümüþ yýlan~
+gümüþ bir yýlan ayaðýna doðru süzülüyor.
 ~
 ~
 1|2 0 -100 S
@@ -217,9 +217,9 @@ A silver snake is slithering at your feet.
 8 8 0
 
 #10720
-small green lizard~
-small green lizard~
-A small green lizard is climbing on a nearby tree.
+küçük yeþil kertenkele~
+küçük yeþil kertenkele~
+küçük bir yeþil kertenkele yakýndaki bir aðaca týrmanýyor.
 ~
 ~
 1|2 0 -100 S
@@ -228,9 +228,9 @@ A small green lizard is climbing on a nearby tree.
 8 8 0
 
 #10721
-small red scorpion~
-small red scorpion~
-A small red scorpion is scuttling across the path.
+küçük kýzýl akrep~
+küçük kýzýl akrep~
+Küçük bir kýzýl akrep yolun karþýsýna seðirtiyor.
 ~
 ~
 1|2 0 -100 S
@@ -239,9 +239,9 @@ A small red scorpion is scuttling across the path.
 8 8 0
 
 #10722
-Expert Scorpion~
+Ma Tang üstad akrep~
 Ma Tang~
-Ma Tang, Expert of the Scorpion technique is here.
+Ma Tang, Akrep tekniðinin üstadý burada.
 ~
 ~
 1|2|32 0 -900 S
@@ -250,9 +250,9 @@ Ma Tang, Expert of the Scorpion technique is here.
 8 8 1
 
 #10723
-Expert Toad~
+Lee Ho üstad kurbaða~
 Lee Ho~
-Lee Ho, Expert of the Toad technique is here.
+Lee Ho, Kurbaða tekniðinin üstadý burada.
 ~
 ~
 1|2 128|8192 600 S
@@ -261,9 +261,9 @@ Lee Ho, Expert of the Toad technique is here.
 8 8 1
 
 #10724
-Expert Centipede~
+Tang Seung Qwe üstad kýrkayak~
 Tang Seung Qwe~
-Tang Seung Qwe, Expert of the Centipede technique is here.
+Tang Seung Qwe, Kýrkayak tekniðinin üstadý burada.
 ~
 ~
 1|2|32 0 -700 S
@@ -272,9 +272,9 @@ Tang Seung Qwe, Expert of the Centipede technique is here.
 8 8 1
 
 #10725
-Expert Lizard~
+Yeun Sun Ho üstad kertenkele~
 Yeun Sun Ho~
-Yeun Sun Ho, Expert of the Lizard technique is here.
+Yeun Sun Ho, Kertenkele tekniðinin üstadý burada.
 ~
 ~
 1|2 0 -700 S
@@ -283,9 +283,9 @@ Yeun Sun Ho, Expert of the Lizard technique is here.
 8 8 1
 
 #10726
-teachers last student~
-Teacher's last student~
-Teacher's last student is here searching for the 5 Deadly Venoms.
+öðretmenin son öðrencisi~
+Öðretmenin son öðrencisi~
+Öðretmenin son öðrencisi burada 5 Ölümcül Zehiri arýyor.
 ~
 ~
 1|2 0 800 S
@@ -294,9 +294,9 @@ Teacher's last student is here searching for the 5 Deadly Venoms.
 8 8 1
 
 #10727
-Buddha Golden Enlightenment statue~
-statue of the Golden Buddha~
-The statue of the Golden Buddha of Enlightenment sits here.
+buddha altýn aydýnlýk heykeli~
+Altýn Buddha heykeli~
+Aydýnlýðýn Altýn Buddha heykeli burada duruyor.
 ~
 ~
 1|2 0 1000 S
@@ -305,9 +305,9 @@ The statue of the Golden Buddha of Enlightenment sits here.
 8 8 1
 
 #10728
-Buddha Golden Wisdom statue~
-statue of the Golden Buddha~
-The statue of the Golden Buddha of Wisdom sits here.
+buddha altýn bilgelik heykeli~
+Altýn Buddha heykeli~
+Bilgeliðin Altýn Buddha heykeli burada duruyor.
 ~
 ~
 1|2 0 1000 S
@@ -316,9 +316,9 @@ The statue of the Golden Buddha of Wisdom sits here.
 8 8 1
 
 #10729
-Buddha Golden Contentment statue~
-statue of the Golden Buddha~
-The statue of the Golden Buddha of Contentment sits here.
+buddha altýn huzur heykeli~
+Altýn Buddha heykeli~
+Huzurun Altýn Buddha heykeli burada duruyor.
 ~
 ~
 1|2 0 1000 S
@@ -327,9 +327,9 @@ The statue of the Golden Buddha of Contentment sits here.
 8 8 1
 
 #10730
-shrine attendant~
-shrine attendant~
-An atttendant is here tending to the shrines.
+türbe bakýcýsý~
+türbe bakýcýsý~
+Bir bakýcý burada türbelerle ilgileniyor.
 ~
 ~
 1|2 0 1000 S
@@ -338,9 +338,9 @@ An atttendant is here tending to the shrines.
 8 8 0
 
 #10731
-monk chanting~
-chanting monk~
-A monk is sitting here chanting.
+keþiþ ilahi okuyan~
+ilahi okuyan keþiþ~
+Bir keþiþ burada oturmuþ ilahi okuyor.
 ~
 ~
 1|2 0 1000 S
@@ -351,7 +351,7 @@ A monk is sitting here chanting.
 #10732
 Wei Chin~
 Wei Chin~
-Wei Chin is here.
+Wei Chin burada.
 ~
 ~
 1|2 0 -900 S
@@ -362,7 +362,7 @@ Wei Chin is here.
 #10733
 Wu Tak~
 Wu Tak~
-A visiting monk named, 'Wu Tak' is here.
+Wu Tak adýnda bir misafir keþiþ burada.
 ~
 ~
 1|2 0 -950 S
@@ -371,9 +371,9 @@ A visiting monk named, 'Wu Tak' is here.
 8 8 1
 
 #10734
-White Lotus Chief~
-White Lotus Chief~
-The White Lotus Chief is here meditating.
+beyaz lotus lideri~
+Beyaz Lotus Lideri~
+Beyaz Lotus Lideri burada meditasyon yapýyor.
 ~
 ~
 1|2|32 8|16|32|512 -1000 S
@@ -382,9 +382,9 @@ The White Lotus Chief is here meditating.
 8 8 1
 
 #10735
-chief personal guard~
-personal guard of the White Lotus Chief~
-The personal guard of the White Lotus Chief is here.
+özel koruma lider~
+Beyaz Lotus Lideri'nin özel korumasý~
+Beyaz Lotus Lideri'nin özel korumasý burada.
 ~
 ~
 1|2 8|16|32|512 -1000 S
@@ -393,9 +393,9 @@ The personal guard of the White Lotus Chief is here.
 8 8 1
 
 #10736
-chamber attendant~
-chamber attendant~
-The attendant to the 36 chambers is here to welcome you.
+meclis görevlisi~
+meclis görevlisi~
+36 meclisin görevlisi seni buyur etmek için burada.
 ~
 ~
 1|2 8|16|32|512 790 S
@@ -404,9 +404,9 @@ The attendant to the 36 chambers is here to welcome you.
 8 8 1
 
 #10737
-teacher 1st chamber~
-teacher of the 1st chamber~
-The teacher of the 1st chamber is waiting patiently for a student.
+öðretmen 1.nci meclis~
+1.nci meclisin öðretmeni~
+1.nci meclisin öðretmeni sabýrla bir öðrenci bekliyor.
 ~
 ~
 1|2 8|16|32|512 790 S
@@ -415,9 +415,9 @@ The teacher of the 1st chamber is waiting patiently for a student.
 8 8 1
 
 #10738
-teacher 2nd chamber~
-teacher of the 2nd chamber~
-The teacher of the 2nd chamber is waiting patiently for a student.
+öðretmen 2.nci meclis~
+2.nci meclisin öðretmeni~
+2.nci meclisin öðretmeni sabýrla bir öðrenci bekliyor.
 ~
 ~
 1|2 8|16|32|512 600 S
@@ -426,9 +426,9 @@ The teacher of the 2nd chamber is waiting patiently for a student.
 8 8 1
 
 #10739
-teacher whirlwind kick~
-teacher of the whirlwind kick~
-The teacher of the whirlwind kick is here waiting to test you.
+öðretmen kasýrga tekmesi~
+kasýrga tekmesinin öðretmeni~
+Kasýrga tekmesinin öðretmeni burada, seni sýnamak için bekliyor.
 ~
 ~
 1|2 8|16|32|512 550 S
@@ -437,9 +437,9 @@ The teacher of the whirlwind kick is here waiting to test you.
 8 8 1
 
 #10740
-teacher chin kang palm~
-teacher of the chin kang palm~
-The teacher of the chin kang palm is here waiting to test you.
+öðretmen chin kang aya~
+chin kang ayasýnýn öðretmeni~
+Chin kang ayasýnýn öðretmeni burada, seni sýnamak için bekliyor.
 ~
 ~
 1|2 8|16|32|512 550 S
@@ -448,9 +448,9 @@ The teacher of the chin kang palm is here waiting to test you.
 8 8 1
 
 #10741
-teacher lizard style~
-teacher of the lizard style~
-The teacher of the lizard style is standing on the wall.
+öðretmen kertenkele stili~
+kertenkele stilinin öðretmeni~
+Kertenkele stilinin öðretmeni duvarýn üzerinde duruyor.
 ~
 ~
 1|2 8|16|512 990 S
@@ -459,9 +459,9 @@ The teacher of the lizard style is standing on the wall.
 8 8 1
 
 #10742
-teacher crane style~
-teacher of the crane style~
-The teacher of the crane style is here meditating.
+öðretmen turna stili~
+turna stilinin öðretmeni~
+Turna stilinin öðretmeni burada meditasyon yapýyor.
 ~
 ~
 1|2 8|16|512 990 S
@@ -470,9 +470,9 @@ The teacher of the crane style is here meditating.
 8 8 1
 
 #10743
-teacher dragon style~
-teacher of the dragon style~
-The teacher of the dragon style is awaiting your arrival.
+öðretmen ejderha stili~
+ejderha stilinin öðretmeni~
+Ejderha stilinin öðretmeni geliþini bekliyor.
 ~
 ~
 1|2|32 8|16|32|512 -700 S
@@ -481,9 +481,9 @@ The teacher of the dragon style is awaiting your arrival.
 8 8 1
 
 #10745
-teacher tiger style~
-teacher of the tiger style~
-The teacher of the tiger style sits here eating a pork bun.
+öðretmen kaplan stili~
+kaplan stilinin öðretmeni~
+Kaplan stilinin öðretmeni burada domuz eti kurabiyesi yiyiyor.
 ~
 ~
 1|2|32 8|16|32|512 -50 S
@@ -492,9 +492,9 @@ The teacher of the tiger style sits here eating a pork bun.
 8 8 1
 
 #10746
-teacher scorpion style~
-teacher of the scorpion style~
-The teacher of the scorpion style is trying to decide how to kill you.
+öðretmen akrep stili~
+akrep stilinin öðretmeni~
+Akrep stilinin öðretmeni burda, seni nasýl öldüreceðine karar veriyor.
 ~
 ~
 1|2|32 8|16|32|512 -1000 S
@@ -503,9 +503,9 @@ The teacher of the scorpion style is trying to decide how to kill you.
 8 8 1
 
 #10747
-teacher snake style~
-teacher of the snake style~
-The teacher of the snake style is sitting here on a silver throne.
+öðretmen yýlan stili~
+yýlan stilinin öðretmeni~
+Yýlan stilinin öðretmeni gümüþ bir tahtta oturuyor.
 ~
 ~
 1|2 8|16|32|512 -1000 S
@@ -514,9 +514,9 @@ The teacher of the snake style is sitting here on a silver throne.
 8 8 1
 
 #10748
-teacher centipede style~
-teacher of the centipede style~
-The teacher of the centipede style is waiting for you.
+öðretmen kýrkayak stili~
+kýrkayak stilinin öðretmeni~
+Kýrkayak stilinin öðretmeni burada seni bekliyor.
 ~
 ~
 1|2|32 8|16|32|512 -1000 S
@@ -525,9 +525,9 @@ The teacher of the centipede style is waiting for you.
 8 8 1
 
 #10749
-teacher toad style~
-teacher of the toad style~
-The teacher of the toad style is waiting for you.
+öðretmen kurbaða stili~
+kurbaða stilinin öðretmeni~
+Kurbaða stilinin öðretmeni burada seni bekliyor.
 ~
 ~
 1|2 8|16|32|128|512 400 S
@@ -536,9 +536,9 @@ The teacher of the toad style is waiting for you.
 8 8 1
 
 #10750
-teacher iron monk style~
-teacher of the iron monk style~
-The teacher of the iron monk style is here meditating.
+öðretmen demir keþiþ stili~
+Demir keþiþ stilinin öðretmeni~
+Demir keþiþ stilinin öðretmeni burada meditasyon yapýyor.
 ~
 ~
 1|2 8|16|32|512 -100 S
@@ -547,9 +547,9 @@ The teacher of the iron monk style is here meditating.
 8 8 1
 
 #10751
-teacher iron head style~
-teacher of the iron head style~
-The teacher of the iron head style is praying he'll spare you.
+öðretmen demir kafa stili~
+Demir kafa stilinin öðretmeni~
+Demir kafa stilinin öðretmeni senin canýný baðýþlamak için yakarýyor.
 ~
 ~
 1|2 8|16|32|512 300 S
@@ -558,9 +558,9 @@ The teacher of the iron head style is praying he'll spare you.
 8 8 1
 
 #10752
-teacher hawk style~
-teacher of the hawk style~
-The teacher of the hawk style is here drinking wine.
+öðretmen atmaca stili~
+atmaca stilinin öðretmeni~
+Atmaca stilinin öðretmeni burada þarap içiyor.
 ~
 ~
 1|2 8|16|32|512 500 S
@@ -569,9 +569,9 @@ The teacher of the hawk style is here drinking wine.
 8 8 1
 
 #10753
-teacher quivering palm style~
-teacher of the quivering palm style~
-The teacher of the quivering palm style sits patiently on a stool here.
+öðretmen titreyen aya stili~
+titreyen aya stilinin öðretmeni~
+Titreyen aya stilinin öðretmeni bir taburede sakince oturuyor.
 ~
 ~
 1|2 8|16|32|512 500 S
@@ -580,9 +580,9 @@ The teacher of the quivering palm style sits patiently on a stool here.
 8 8 1
 
 #10754
-teacher five pace palm style~
-teacher of the five pace palm style~
-The teacher of the five pace palm style is waiting patiently.
+öðretmen baþ adým aya stili~
+beþ adým ayasý stilinin öðretmeni~
+Beþ adým ayasý stilinin öðretmeni sabýrla bekliyor.
 ~
 ~
 1|2 8|16|32|512 500 S
@@ -591,9 +591,9 @@ The teacher of the five pace palm style is waiting patiently.
 8 8 1
 
 #10755
-healing monk chanting~
-chanting monk~
-A monk is here praying and chanting.
+keþiþ ilahi okuyan þifacý~
+ilahi okuyan keþiþ~
+Bir keþiþ burada oturmuþ ilahi okurken yakarýyor.
 ~
 ~
 1|2 8|16|32|512 500 S
@@ -602,9 +602,9 @@ A monk is here praying and chanting.
 8 8 1
 
 #10756
-teacher weightless boxing~
-teacher of weightless boxing~
-The teacher of weightless boxing is here saying, 'Damn You!'
+öðretmen aðýrlýksýz boks~
+aðýrlýksýz boksun öðretmeni~
+Aðýrlýksýz boksun öðretmeni sana 'Lanet Olsun!' diyor.
 ~
 ~
 1|2|32 8|16|32|512 500 S
@@ -613,9 +613,9 @@ The teacher of weightless boxing is here saying, 'Damn You!'
 8 8 1
 
 #10757
-teacher lightning strike~
-teacher of the lightning strike~
-The teacher of the lightning strike sits on the floor here.
+öðretmen þimþek vuruþu~
+þimþek vuruþu öðretmeni~
+Þimþek vuruþunun öðretmeni burada yere oturmuþ.
 ~
 ~
 1|2|32 8|16|32|512 -200 S
@@ -624,9 +624,9 @@ The teacher of the lightning strike sits on the floor here.
 8 8 1
 
 #10758
-teacher iron skin~
-teacher of the iron skin technique~
-The teacher of the iron skin technique sits on the floor here.
+öðretmen demir deri~
+demir deri tekniði öðretmeni~
+Demir deri tekniðinin öðretmeni burada yere oturmuþ.
 ~
 ~
 1|2|32 8|16|32|128|512 -200 S
@@ -635,9 +635,9 @@ The teacher of the iron skin technique sits on the floor here.
 8 8 1
 
 #10759
-teacher chinese long sword~
-teacher of chinese long sword~
-The teacher of the chinese long sword is here cutting up apples.
+öðretmen çin uzun kýlýç~
+çin uzun kýlýcýnýn öðretmeni~
+Çin uzun kýlýcýnýn öðretmeni burada elmalarý kesiyor.
 ~
 ~
 1|2|32 8|16|32|512 -100 S
@@ -646,9 +646,9 @@ The teacher of the chinese long sword is here cutting up apples.
 8 8 1
 
 #10760
-teacher butterfly swords~
-teacher of butterfly swords~
-The teacher of the butterfly swords is here sharpening his blades.
+öðretmen kelebek kýlýçlarý~
+kelebek kýlýçlarýnýn öðretmeni~
+Kelebek kýlýçlarýnýn öðretmeni burada kýlýçlarýný bileyliyor.
 ~
 ~
 1|2|32 8|16|32|512 -100 S
@@ -657,9 +657,9 @@ The teacher of the butterfly swords is here sharpening his blades.
 8 8 1
 
 #10761
-teacher long spear~
-teacher of chinese long spear~
-The teacher of the chinese long spear is here making kabobs.
+öðretmen uzun cirit~
+çin uzun ciritinin öðretmeni~
+Çin uzun ciritinin öðretmeni burada kebap yapýyor.
 ~
 ~
 1|2|32 8|16|32|512 -300 S
@@ -668,9 +668,9 @@ The teacher of the chinese long spear is here making kabobs.
 8 8 1
 
 #10762
-teacher deadly palm~
-teacher of deadly palm~
-The teacher of the deadly palm is here writing poetry.
+öðretmen ölümcül aya~
+ölümcül ayanýn öðretmeni~
+Ölümcül ayanýn öðretmeni burada þiir yazýyor.
 ~
 ~
 1|2 8|16|32|512 -300 S
@@ -679,9 +679,9 @@ The teacher of the deadly palm is here writing poetry.
 8 8 1
 
 #10763
-teacher fivechops~
-teacher of the five chops~
-The teacher of the five chops is here watching the home choping channel.
+öðretmen beþ darbe~
+beþ darbenin öðretmeni~
+Beþ darbenin öðretmeni burada matematikle uðraþýyor.
 ~
 ~
 1|2 8|16|32|512 -400 S
@@ -690,9 +690,9 @@ The teacher of the five chops is here watching the home choping channel.
 8 8 1
 
 #10764
-teacher angry buddha~
-teacher of the angry buddha~
-The teacher of the angry buddha is here being...well..angry...
+öðretmen öfkeli buddha~
+öfkeli buddha'nýn öðretmeni~
+Öfkeli buddha stilinin öðretmeni burada emm... öfkeli...
 ~
 ~
 1|2|32 8|16|32|512 -700 S
@@ -701,9 +701,9 @@ The teacher of the angry buddha is here being...well..angry...
 8 8 1
 
 #10766
-first master~
-1st master of the White Lotus Clan~
-The 1st master of the White Lotus Clan is here softly chanting.
+birinci üstad~
+Beyaz Lotus Klanýnýn birinci üstadý~
+Beyaz Lotus Klanýnýn birinci üstadý burada huzurlu bir ilahi okuyor.
 ~
 ~
 1|2|32 8|16|32|512 -700 S
@@ -712,9 +712,9 @@ The 1st master of the White Lotus Clan is here softly chanting.
 8 8 1
 
 #10767
-second master~
-2nd master of the White Lotus Clan~
-The 2nd master of the White Lotus Clan is here watching MTV.
+ikinci üstad~
+Beyaz Lotus Klanýnýn ikinci üstadý~
+Beyaz Lotus Klanýnýn ikinci üstadý burada meditasyon yapýyor.
 ~
 ~
 1|2|32 8|16|32|512 -600 S
@@ -723,9 +723,9 @@ The 2nd master of the White Lotus Clan is here watching MTV.
 8 8 1
 
 #10768
-third master~
-3rd master of the White Lotus Clan~
-The 3rd master of the White Lotus Clan is here eating dumplings.
+üçüncü üstad~
+Beyaz Lotus Klanýnýn üçüncü üstadý~
+Beyaz Lotus Klanýnýn üçüncü üstadý burada tatlýsýný yiyiyor.
 ~
 ~
 1|2|32 8|16|32|512 -500 S
@@ -734,9 +734,9 @@ The 3rd master of the White Lotus Clan is here eating dumplings.
 8 8 1
 
 #10769
-fourth master~
-4th master of the White Lotus Clan~
-The 4th master of the White Lotus Clan is waiting to test you.
+dördüncü üstad~
+Beyaz Lotus Klanýnýn dördüncü üstadý~
+Beyaz Lotus Klanýnýn dördüncü üstadý burada, seni sýnamaya hazýr.
 ~
 ~
 1|2|32 8|16|32|512 -400 S
@@ -745,9 +745,9 @@ The 4th master of the White Lotus Clan is waiting to test you.
 8 8 1
 
 #10770
-fifth master~
-5th master of the White Lotus Clan~
-The 5th master of the White Lotus Clan praying for your soul.
+beþinci üstad~
+Beyaz Lotus Klanýnýn beþinci üstadý~
+Beyaz Lotus Klanýnýn beþinci üstadý senin ruhun için dua ediyor.
 ~
 ~
 1|2|32 8|16|32|512 -300 S
@@ -756,9 +756,9 @@ The 5th master of the White Lotus Clan praying for your soul.
 8 8 1
 
 #10771
-abbot~
-Abbot~
-The Abbot awaits patiently to test your kung fu.
+baþrahip~
+Baþrahip~
+Baþrahip sabýrla kung funu sýnamak için bekliyor.
 ~
 ~
 1|2|32 8|16|32|512 -200 S
@@ -767,9 +767,9 @@ The Abbot awaits patiently to test your kung fu.
 8 8 1
 
 #10772
-grand abbot~
-Grand Abbot~
-The Grand Abbot is here doing what Grand Abbots normally do.
+yüce baþrahip~
+Yüce Baþrahip~
+Yüce Baþrahip burada yüce baþrahiplerin normalde yaptýðýný yapýyor.
 ~
 ~
 1|2|32 8|16|32|512 -100 S
@@ -778,9 +778,9 @@ The Grand Abbot is here doing what Grand Abbots normally do.
 8 8 1
 
 #10773
-disciple of buddha~
-disciple of buddha~
-A disciple of buddha is here chanting and praying.
+buddha müridi~
+buddha müridi~
+Bir buddha müridi burada ilahiler okurken bir yandan da yakarýyor.
 ~
 ~
 1|2 8|16|32|512 100 S
@@ -791,7 +791,7 @@ A disciple of buddha is here chanting and praying.
 #10774
 Buddha~
 Buddha~
-Before you sits The Buddha.
+Buddha'nýn kendisi karþýnda oturuyor!.
 ~
 ~
 1|2|32 8|16|32|512 -1000 S
@@ -800,9 +800,9 @@ Before you sits The Buddha.
 8 8 1
 
 #10775
-Expert Snake~
+üstad yýlan~
 Hung Wei Tung~
-Hung Wei Tung, Expert of the Snake technique is here.
+Hung Wei Tung, Yýlan tekniðinin üstadý burada.
 ~
 ~
 1|2 0 -100 S
@@ -826,27 +826,27 @@ Hung Wei Tung, Expert of the Snake technique is here.
 
 #OBJOLD
 #12701
-mop~
-mop~
-A wet soggy mop is here on the ground.~
+bez~
+bez~
+Sulu, ýslak bir bez yerde duruyor.~
 ~
 5 0 1|8192
 0 1 25 4
 3 10000 10000
 
 #12702
-soap~
-soap~
-A bottle of soap is here.~
+sabun~
+sabun~
+Bir kutu sabun burada.~
 ~
 10 0 1
 15 33 0 0
 1 10000 10000
 
 #12703
-prayer beads~
-prayer beads~
-A string of prayer beads are here.~
+tespih~
+tespih~
+Bir ibadet tespihi burada.~
 ~
 9 0 1|4
 5 0 0 0
@@ -859,18 +859,18 @@ A
 12 5
 
 #12704
-chinese broadsword~
-chinese broadsword~
-A large chinese broadsword lies on the ground.~
+çin pala~
+çin palasý~
+Büyük bir çin palasý yerde duruyor.~
 ~
 5 0 1|8192
 0 1 45 3
 7 10000 10000
 
 #12705
-white lotus shield~
-white lotus shield~
-A medium size wooden sheild with a picture of a white lotus is here.~
+beyaz lotus kalkan~
+beyaz lotus kalkaný~
+Üzerinde beyaz lotus olan, orta boy bir ahþap kalkan burada.~
 ~
 9 64 1|512
 10 0 0 0
@@ -879,90 +879,90 @@ A
 22 -5
 
 #12706
-large cleaver~
-large cleaver~
-A very large chinese cleaver is stuck in the ground.~
+büyük satýr~
+büyük satýr~
+Çok büyük bir çin satýrý yere saplanmýþ.~
 ~
 5 0 1|8192
 0 1 15 1
 2 10000 10000
 
 #12707
-chopsticks chopstick ivory~
-pair of chopsticks~
-A pair of ivory chopsticks are stuck in the ground here.~
+yemek çubuk fildiþi~
+bir çift yemek çubuðu~
+Bir çift fildiþinden yemek çubuðu, burada yere saplanmýþ.~
 ~
 3 0 1|16384
 9 12 0 0
 1 10000 10000
 
 #12708
-pair ivory dice~
-pair of ivory dice~
-A pair of ivory dice are sitting on the ground.~
+fildiþi zar~
+bir çift fildiþi zar~
+Bir çift fildiþinden zar yerde duruyor.~
 ~
 26 64 1|16384
 13 2 2 2
 1 10000 10000
 
 #12709
-deck playing cards~
-a deck of playing cards~
-A deck of playing cards lie on the ground.~
+deste iskambil kaðýt kaðýdý~
+bir deste iskambil kaðýdý~
+Bir deste iskambil kaðýdý yere saçýlmýþ.~
 ~
 4 64 1|16384
 13 56 0 0
 1 10000 10000
 
 #12710
-bowl rice~
-bowl of rice~
-A small bowl of rice is just sitting here, steaming.~
+çanak pirinç~
+bir çanak pirinç~
+Küçük bir çanak pirinç yerde buhar saçýyor.~
 ~
 19 0 1
 10 0 0 0
 1 10000 10000
 
 #12711
-jug wine~
-jug of wine~
-A small clay jug with a red paper top is  sitting here.~
+þarap testi~
+bir testi þarap~
+Kapaðýnda kýrmýzý bir kaðýt olan kilden yapýlmýþ bir testi.~
 ~
 17 0 1
 5 5 2 0
 1 10000 10000
 
 #12712
-green icky chunky barf~
-a pool of green icky chunky barf~
-A small pool of green icky chunky barf~
+yeþil iðrenç kusmuk~
+yeþil bir kusmuk birikintisi~
+küçük, yeþil iðrenç bir kusmuk birikintisi.~
 ~
 10 0 1
 3 68 33 0
 1 10000 10000
 
 #12713
-beautiful feather~
-a beautiful feather~
-A beautifully colored feather is laying here on the ground.~
+güzel kuþtüyü~
+güzel bir kuþtüyü~
+güzel renkleri olan bir kuþtüyü.~
 ~
 3 64 1
 3 56 2 0
 1 10000 10000
 
 #12714
-big knife~
-big knife~
-A big knife is laying on the ground here.~
+büyük býçak~
+büyük býçak~
+Büyük bir býçak yerde uzanmýþ duruyor.~
 ~
 5 0 1|8192
 0 1 46 11
 3 10000 10000
 
 #12715
-poison clan insignia coin~
-poison clan insignia~
-A small insignia coin is laying here on the ground.~
+zehir klan niþan~
+zehir klaný niþaný~
+Küçük bir rütbe niþaný yerde duruyor.~
 ~
 5 0 1|16384
 0 0 0 7
@@ -975,9 +975,9 @@ A
 1 1
 
 #12716
-scorpion technique style book~
-scorpion style~
-You see a small book with a small scorpion on the cover here.~
+akrep tekniði stili kitap kitabý~
+akrep stili~
+Kapaðýnda bir akrep sembolü olan küçük bir kitap görüyorsun.~
 ~
 5 0 1|8192
 0 1 70 8
@@ -990,18 +990,18 @@ A
 13 12
 
 #12717
-toad technique style book~
-toad style~
-You see a small book with a small toad on the cover here.~
+kurbaða tekniði stili kitap kitabý~
+kurbaða stili~
+Kapaðýnda bir kurbaða sembolü olan küçük bir kitap görüyorsun.~
 ~
 26 0 1
 31 1 36 66
 1 10000 10000
 
 #12718
-centipede technique style book~
-centipede style~
-You see a small book with a small centipede on the cover here.~
+kýrkayak tekniði stili kitap kitabý~
+kýrkayak stili~
+Kapaðýnda bir kýrkayak sembolü olan küçük bir kitap görüyorsun.~
 ~
 5 0 1|16384
 0 1 66 5
@@ -1014,9 +1014,9 @@ A
 19 2
 
 #12719
-lizard technique style book~
-lizard style~
-You see a small book with a small lizard on the cover here.~
+kertenkele tekniði stili kitap kitabý~
+kertenkele stili~
+Kapaðýnda bir kertenkele sembolü olan küçük bir kitap görüyorsun.~
 ~
 5 0 1|16384
 0 1 64 5
@@ -1029,27 +1029,27 @@ A
 17 -5
 
 #12720
-orange~
-orange~
-You see a small perfect orange on the ground.~
+portakal~
+portakal~
+Mükemmel bir portakal yerde duruyor.~
 ~
 26 64 1
 44 81 0 0
 1 10000 10000
 
 #12721
-enchanted prayer beads~
-enchanted prayer beads~
-You see a small strand of prayer beads on the ground.~
+efsunlu tespih~
+efsunlu tespih~
+Küçük bir dizim tespih yerde duruyor.~
 ~
 26 64 1
 44 57 0 0
 1 10000 10000
 
 #12722
-iron monk technique book~
-iron monk technique~
-You see a small book with the iron monk technique written in it.~
+demir keþiþ teknik kitap~
+demir keþiþ tekniði~
+Ýçinde demir keþiþ tekniði yazýlý küçük bir kitap görüyorsun.~
 ~
 5 64 1|16384
 0 1 67 5
@@ -1062,9 +1062,9 @@ A
 20 -5
 
 #12723
-weightless boxing technique~
-weightless boxing technique~
-You see a small book of kung fu laying on the ground here.~
+aðýrlýksýz boks teknik~
+aðýrlýksýz boks tekniði~
+Yerde küçük bir kung fu eðitim kitabý görüyorsun.~
 ~
 5 64 1|8192
 0 1 90 7
@@ -1073,225 +1073,225 @@ A
 17 -10
 
 #12725
-white chinese longsword~
-white chinese longsword~
-A shiny white chinese longsword is stuck in the ground here.~
+beyaz çin uzun kýlýç~
+beyaz çin uzun kýlýcý~
+Beyaz bir çin uzun kýlýcý, yere saplanmýþ parlýyor.~
 ~
 5 64 1|8192
 0 1 75 1
 3 10000 10000
 
 #12726
-key chambers~
-key to the 36 chambers~
-A small stone key lies on the ground here.~
+anahtar meclisler~
+36 meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12727
-key 2nd chamber~
-key to the 2nd chamber~
-A small stone key lies on the ground here.~
+2'nci meclis anahtar~
+2'nci meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12728
-key 3rd chamber~
-key to the 3rd chamber~
-A small stone key lies on the ground here.~
+3'üncü meclis anahtar~
+3'üncü meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12729
-key 4th chamber~
-key to the 4th chamber~
-A small stone key lies on the ground here.~
+4'üncü meclis anahtar~
+4'üncü meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12730
-whirlwind kick~
-whirlwind kick~
-A small book teaching the Whirlwind Kick style is here.~
+kasýrga tekmesi~
+kasýrga tekmesi~
+Kasýrga Tekmesi stilinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 64 7
 1 10000 10000
 
 #12731
-key 5th chamber~
-key to the 5th chamber~
-A small stone key lies on the ground here.~
+5'inci meclis anahtar~
+5'inci meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12732
-chin kang palm~
-chin kang palm~
-A small book teaching the chin kang palm style is here.~
+chin kang ayasý~
+chin kang ayasý~
+Chin kang ayasý stilinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 65 6
 1 10000 10000
 
 #12733
-key 6th chamber~
-key to the 6th chamber~
-A small stone key lies on the ground here.~
+6'ncý meclis anahtar~
+6'ncý meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12734
-lizard style~
-lizard style~
-A small book teaching the lizard style is here.~
+kertenkele stili~
+kertenkele stili~
+Kertenkele stilinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 66 12
 1 10000 10000
 
 #12735
-key 7th chamber~
-key to the 7th chamber~
-A small stone key lies on the ground here.~
+7'nci meclis anahtar~
+7'nci meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12736
-crane style~
-crane style~
-A small book teaching the crane style is here.~
+turna stili~
+turna stili~
+Turna stilinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 67 11
 1 10000 10000
 
 #12737
-key 8th chamber~
-key to the 8th chamber~
-A small stone key lies on the ground here.~
+8'inci meclis anahtar~
+8'inci meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12738
-dragon style~
-dragon style~
-A small book teaching the dragon style is here.~
+ejderha stili~
+ejderha stili~
+Ejderha stilinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 68 10
 1 10000 10000
 
 #12739
-key 9th chamber~
-key to the 9th chamber~
-A small stone key lies on the ground here.~
+9'uncu meclis anahtar~
+9'uncu meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12740
-tiger style~
-tiger style~
-A small book teaching the tiger style is here.~
+kaplan stili~
+kaplan stili~
+Kaplan stilinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 69 5
 1 10000 10000
 
 #12741
-key 10th chamber~
-key to the 10th chamber~
-A small stone key lies on the ground here.~
+10'uncu meclis anahtar~
+10'uncu meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12742
-scorpion style~
-scorpion style~
-A small book teaching the scorpion style is here.~
+akrep stili~
+akrep stili~
+Akrep stilinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 70 8
 1 10000 10000
 
 #12743
-key 11th chamber~
-key to the 11th chamber~
-A small stone key lies on the ground here.~
+11'inci meclis anahtar~
+11'inci meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12745
-key 12th chamber~
-key to the 12th chamber~
-A small stone key lies on the ground here.~
+12'nci meclis anahtar~
+12'nci meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12746
-snake style~
-snake style~
-A small book teaching the snake style is here.~
+yýlan stili~
+yýlan stili~
+Yýlan stilinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 71 11
 1 10000 10000
 
 #12747
-key 13th chamber~
-key to the 13th chamber~
-A small stone key lies on the ground here.~
+13'üncü meclis anahtar~
+13'üncü meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12748
-centipede style~
-centipede style~
-A small book teaching the centipede style is here.~
+kýrkayak stili~
+kýrkayak stili~
+Kýrkayak stilinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 72 4
 1 10000 10000
 
 #12749
-key 14th chamber~
-key to the 14th chamber~
-A small stone key lies on the ground here.~
+14'üncü meclis anahtar~
+14'üncü meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12750
-toad style~
-toad style~
-A small book teaching the toad style is here.~
+kurbaða stili~
+kurbaða stili~
+Kurbaða stilinin eðitim kitabý burada.~
 ~
 9 0 1|8
 10 0 0 0
@@ -1304,144 +1304,144 @@ A
 19 2
 
 #12751
-key 15th chamber~
-key to the 15th chamber~
-A small stone key lies on the ground here.~
+15'inci meclis anahtar~
+15'inci meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12752
-iron monk style~
-iron monk style~
-A small book teaching the iron monk style is here.~
+demir keþiþ stili~
+demir keþiþ stili~
+Demir keþiþ stilinin eðitim kitabý burada.~
 ~
 4 0 1|16384
 44 25 25 36
 1 10000 10000
 
 #12753
-key 16th chamber~
-key to the 16th chamber~
-A small stone key lies on the ground here.~
+16'ncý meclis anahtar~
+16'ncý meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12754
-iron head style~
-iron head style~
-A small book teaching the iron monk style is here.~
+demir kafa stili~
+demir kafa stili~
+Demir kafa stilinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 75 7
 1 10000 10000
 
 #12755
-key 17th chamber~
-key to the 17th chamber~
-A small stone key lies on the ground here.~
+17'nci meclis anahtar~
+17'nci meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12756
-hawk style~
-hawk style~
-A small book teaching the hawk style is here.~
+atmaca stili~
+atmaca stili~
+Atmaca stilinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 76 5
 1 10000 10000
 
 #12757
-key 18th chamber~
-key to the 18th chamber~
-A small stone key lies on the ground here.~
+18'inci meclis anahtar~
+18'inci meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12758
-quivering palm style~
-quivering palm style~
-A small book teaching the quivering palm style is here.~
+titreyen aya stili~
+titreyen aya stili~
+Titreyen aya stilinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 77 6
 1 10000 10000
 
 #12759
-key 20th chamber~
-key to the 20th chamber~
-A small stone key lies on the ground here.~
+20'nci meclis anahtar~
+20'nci meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12760
-key 21st chamber~
-key to the 21st chamber~
-A small stone key lies on the ground here.~
+21'inci meclis anahtar~
+21'inci meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12761
-key 22nd chamber~
-key to the 22nd chamber~
-A small stone key lies on the ground here.~
+22'nci meclis anahtar~
+22'nci meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12762
-weightless boxing~
-weightless boxing~
-A small book teaching the weightless boxing style is here.~
+aðýrlýksýz boks~
+aðýrlýksýz boks~
+Aðýrlýksýz boks stilinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 79 6
 1 10000 10000
 
 #12763
-key 23rd chamber~
-key to the 23rd chamber~
-A small stone key lies on the ground here.~
+23'üncü meclis anahtar~
+23'üncü meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12764
-lightning strike~
-lightning strike~
-A small book teaching the lightning strike style is here.~
+þimþek vuruþu~
+þimþek vuruþu~
+Þimþek vuruþu stilinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 80 6
 1 10000 10000
 
 #12765
-key 24th chamber~
-key to the 24th chamber~
-A small stone key lies on the ground here.~
+24'üncü meclis anahtar~
+24'üncü meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12766
-iron skin technique~
-iron skin technique~
-A small book teaching the iron skin technique is here.~
+demir deri tekniði~
+demir deri tekniði~
+Demir deri tekniðinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 81 6
@@ -1450,108 +1450,108 @@ A
 17 -15
 
 #12767
-key 25th chamber~
-key to the 25th chamber~
-A small stone key lies on the ground here.~
+25'inci meclis anahtar~
+25'inci meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12768
-chinese longsword technique~
-chinese longsword~
-A small book teaching the chinese longsword technique is here.~
+çin uzunuzunkýlýç uzunkýlýcý tekniði~
+çin uzunkýlýcý~
+Çin uzunkýlýcý tekniðinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 82 1
 5 10000 10000
 
 #12769
-key 25th chamber~
-key to the 25th chamber~
-A small stone key lies on the ground here.~
+25'inci meclis anahtar~
+25'inci meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12770
-chinese butterfly sword technique~
-chinese butterfly sword~
-A small book teaching the chinese butterfly sword technique is here.~
+çin kelebek kýlýç kýlýcý tekniði~
+çin kelebek kýlýcý~
+Çin kelebek kýlýcý tekniðinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 83 1
 6 10000 10000
 
 #12771
-key 26th chamber~
-key to the 26th chamber~
-A small stone key lies on the ground here.~
+26'ncý meclis anahtar~
+26'ncý meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12772
-chinese long spear technique~
-chinese long spear~
-A small book teaching the chinese long spear technique is here.~
+çin uzun mýzrak mýzraðý tekniði~
+çin uzun mýzraðý~
+Çin uzun mýzraðý tekniðinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 84 11
 1 10000 10000
 
 #12773
-key 27th chamber~
-key to the 27th chamber~
-A small stone key lies on the ground here.~
+27'nci meclis anahtar~
+27'nci meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12774
-deadly palm style~
-deadly palm style~
-A small book teaching the deadly palm style is here.~
+ölümcül aya stili~
+ölümcül aya stili~
+Ölümcül aya stilinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 85 6
 1 10000 10000
 
 #12775
-key 28th chamber~
-key to the 28th chamber~
-A small stone key lies on the ground here.~
+28'inci meclis anahtar~
+28'inci meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12776
-Flying buddha style~
-flying buddha style~
-A small book teaching the flying buddha style is here.~
+uçan buddha stili~
+uçan buddha stili~
+Uçan buddha stilinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 86 1
 1 10000 10000
 
 #12777
-key 29th chamber~
-key to the 29th chamber~
-A small stone key lies on the ground here.~
+29'uncu meclis anahtar~
+29'uncu meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12778
-angry buddha style~
-angry buddha style~
-A small book teaching the angry buddha style is here.~
+öfkeli buddha stili~
+öfkeli buddha stili~
+Öfkeli buddha stilinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 87 1
@@ -1560,81 +1560,81 @@ A
 18 3
 
 #12779
-key 30th chamber~
-key to the 30th chamber~
-A small stone key lies on the ground here.~
+30'uncu meclis anahtar~
+30'uncu meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12780
-key 31st chamber~
-key to the 31st chamber~
-A small stone key lies on the ground here.~
+31'inci meclis anahtar~
+31'inci meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12781
-key 32nd chamber~
-key to the 32nd chamber~
-A small stone key lies on the ground here.~
+32'nci meclis anahtar~
+32'nci meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12782
-key 33rd chamber~
-key to the 33rd chamber~
-A small stone key lies on the ground here.~
+33'üncü meclis anahtar~
+33'üncü meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12783
-key 34th chamber~
-key to the 34th chamber~
-A small stone key lies on the ground here.~
+34'üncü meclis anahtar~
+34'üncü meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12784
-key 35th chamber~
-key to the 35th chamber~
-A small stone key lies on the ground here.~
+35'inci meclis anahtar~
+35'inci meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12785
-key 36th chamber~
-key to the 36th chamber~
-A small stone key lies on the ground here.~
+36'ncý meclis anahtar~
+36'ncý meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12786
-holy mace~
-holy mace of the Grand Abbot~
-A large polearm with a mace on top is here.~
+kutsal gürz~
+Yüce Baþrahibin kutsal gürzü~
+Üzerinde bir gürz olan büyük bir kargý burada duruyor.~
 ~
 5 0 1|8192
 0 1 90 0
 6 10000 10000
 
 #12787
-Hand of buddha~
-Hand of Buddha~
-The enormous Hand of Buddha is floating above you.~
+buddha eli~
+Buddha'nýn Eli~
+Buddha'nýn devasa eli üzerinde süzülüyor.~
 ~
 5 1|2|64|256 1|8192
 0 1 100 6
@@ -1649,63 +1649,63 @@ A
 12 100
 
 #12788
-blessed fountain~
-blessed fountain~
-a glowing fountain of Buddha is flowing quietly here.~
+kutsanmýþ çeþme~
+kutsanmýþ çeþme~
+Buddha nýn parýldayan bir çeþmesi burada sessizce akýyor.~
 ~
 25 64 0
 0 0 0 0
 500 10000 10000
 
 #12789
-key 19th chamber~
-key to the 19th chamber~
-A small stone key lies on the ground here.~
+19'uncu meclis anahtar~
+19'uncu meclisin anahtarý~
+Küçük, taþtan yapýlýmýþ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12790
-five pace palm style~
-five pace palm style~
-A small book teaching the five pace palm style is here.~
+beþ adým ayasý stili~
+beþ adým ayasý stili~
+Beþ adým ayasý stilinin eðitim kitabý burada.~
 ~
 5 0 1|8192
 0 1 78 6
 1 10000 10000
 
 #12791
-rice cake~
-rice cake~
-You see a small perfect rice cake on the ground.~
+pirinç pasta~
+pirinç pastasý~
+Mükemmel görünen küçük bir pirinç pastasý yerde duruyor.~
 ~
 26 64 1
 44 28 0 0
 1 10000 10000
 
 #12792
-chinese butterfly sword technique light~
-chinese butterfly sword~
-A small book teaching the chinese butterfly sword technique is here.~
+çin kelebek kýlýç kýlýcý tekniði hafif~
+çin kelebek kýlýcý~
+Çin kelebek kýlýcý tekniðinin eðitim kitabý burada.~
 ~
 5 0 1|16384
 0 1 83 1
 5 10000 10000
 
 #12793
-chinese longsword technique light~
-chinese longsword~
-A small book teaching the chinese longsword technique is here.~
+çin uzunuzunkýlýç uzunkýlýcý tekniði hafif~
+çin uzunkýlýcý~
+Çin uzunkýlýcý tekniðinin eðitim kitabý burada.~
 ~
 5 0 1|16384
 0 1 82 1
 4 10000 10000
 
 #12794
-ring white lotus chambers~
-ring of the 36 chambers~
-A ring of the 36 chambers of the White Lotus is here.~
+yüzük beyaz lotus meclis~
+36 meclisin yüzüðü~
+Beyaz Lotus'un 36 meclisinin yüzüðü burada.~
 ~
 9 1|2|64|128|256|4096 1|2
 20 0 0 0
@@ -1742,9 +1742,9 @@ A
 24 -2
 
 #12795
-Cell door key prison~
-cell door key~
-A small shiney silver key is sitting on the ground here.~
+hücre kapý anahtar hapishane~
+hücre kapý anahtarý~
+Parlak küçük gümüþten bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
@@ -1763,9 +1763,9 @@ A small shiney silver key is sitting on the ground here.~
 
 #ROOMS
 #10701
-Gateway to Temple~
+Tapýnak Kapýsý~
 You stand before the grand gateway to the Temple of the White Lotus Clan.
-Twin snow white and golden dragons decorate the black steel gates of the 
+Twin snow white and golden dragons decorate the black steel gates of the
 entrance.
 A small path winds down the mountain to the east.
 The black steel gates are to the south.
@@ -1784,10 +1784,10 @@ gate gates black steel~
 S
 
 #10702
-Path in Courtyard~
+Avludaki Patika~
 The path is made of large flat stones. Beautiful stone gardens fill these large
-courtyard. In fact the only place to walk  where you will not destroy 
-something beautiful is on this path. The sky above you is unusually 
+courtyard. In fact the only place to walk  where you will not destroy
+something beautiful is on this path. The sky above you is unusually
 blue with puffy white clouds. Everything is tranquil and harmonious.
 ~
 107 0 1
@@ -1804,7 +1804,7 @@ steps~
 S
 
 #10703
-Stone Steps~
+Taþ Basamaklar~
 Large roughly carved stone steps lead up to the temple. The look like
 quite a climb. More stone gardens and small shrubs like the stone steps.
 From this far below the Temple, it seems to tower over you with its
@@ -1824,7 +1824,7 @@ steps~
 S
 
 #10704
-Stone Steps~
+Taþ Basamaklar~
 Large roughly carved stone steps lead up to the temple. You are about
 half way to the temple. This climb seems almost endless. Small lizards
 occasionally scamper across the stones before you. The wind seems to
@@ -1839,12 +1839,12 @@ steps~
 D2
 You see the Temple of the White Lotus Clan.
 ~
-Temple~
+Tapýnak~
 0 -1 10705
 S
 
 #10705
-Before the Temple of the White Lotus Clan~
+Beyaz Lotus Klaný Tapýnaðýnýn Önünde~
 You stand at the top of a steep stone staircase that connects the temple
 to the valley below. The temples wooden structure seem in harmony
 with the bare rock face that it sits on top of. Before you a short wooden
@@ -1868,7 +1868,7 @@ steps~
 S
 
 #10706
-Temple Doors~
+Tapýnak Kapýlarý~
 Two large red double doors stand before you. The red wood of the doors
 are bound by black iron braces. Twin white and golden dragons adorn
 the doors. Two halves of a white lotus come together as the door closes
@@ -1899,7 +1899,7 @@ You see the wooden deck that leads around the temple.
 S
 
 #10707
-Walkway Around Temple~
+Tapýnak Çevresindeki Yürüyüþ Yolu~
 A polished wooden walkway leads around the temple. You pause to lean
 against the railing and admire the view from this mountain top. Far below
 you see Crystalmir lake, glimmering faintly.  To the northwest you see a
@@ -1920,7 +1920,7 @@ walkway~
 S
 
 #10708
-Walkway Around Temple~
+Tapýnak Çevresindeki Yürüyüþ Yolu~
 A polished wooden walkway leads around the temple. Pretty pink and white
 flowers grown next to the railing. The temple wall to the south of you is
 decorated with the symbol of the white lotus.
@@ -1940,10 +1940,10 @@ walkway~
 S
 
 #10709
-Walkway Around Temple~
+Tapýnak Çevresindeki Yürüyüþ Yolu~
 A polished wooden walkway leads around the temple. North of you is a
 large wooden building. The bustling noise of many people can be heard
-from within. 
+from within.
 The Building is to the north.
 The walkway continues to the east and south.
 ~
@@ -1966,11 +1966,11 @@ walkway~
 S
 
 #10710
-Walkway Around Temple~
+Tapýnak Çevresindeki Yürüyüþ Yolu~
 A polished wooden walkway leads around the temple. To the North you
 see a large wooden building. As you look over the railing notice that the
 mountain drops sharply away. The shear wall of the mountain seems
-to disappear into the mists far below. 
+to disappear into the mists far below.
 The walkway continues to the north and south.
 ~
 107 0 1
@@ -1987,9 +1987,9 @@ walkway~
 S
 
 #10711
-Walkway Around Temple~
-A polished wooden walkway leads around the temple. As you look over the 
-railing notice that the mountain drops sharply away. The shear wall of the 
+Tapýnak Çevresindeki Yürüyüþ Yolu~
+A polished wooden walkway leads around the temple. As you look over the
+railing notice that the mountain drops sharply away. The shear wall of the
 mountain seems to disappear into the mists far below. Screams of fighting
 are coming from the south.
 The walkway continues to the north and south.
@@ -2008,9 +2008,9 @@ walkway~
 S
 
 #10712
-Walkway Around Temple~
-A polished wooden walkway leads around the temple. As you look over the 
-railing notice that the mountain drops sharply away. The shear wall of the 
+Tapýnak Çevresindeki Yürüyüþ Yolu~
+A polished wooden walkway leads around the temple. As you look over the
+railing notice that the mountain drops sharply away. The shear wall of the
 mountain seems to disappear into the mists far below. Screams of fighting
 are coming from the south.
 The walkway continues to the north and south.
@@ -2029,7 +2029,7 @@ walkway~
 S
 
 #10713
-Walkway Around Temple~
+Tapýnak Çevresindeki Yürüyüþ Yolu~
 A polished wooden walkway leads around the temple. You look out
 across the temple training grounds to south. As you look out across
 the railing you can see the dark forest of Hoan-dor in the distance.
@@ -2049,9 +2049,9 @@ walkway~
 S
 
 #10714
-Walkway Around Temple~
+Tapýnak Çevresindeki Yürüyüþ Yolu~
 A polished wooden walkway leads around the temple. You look out
-across the temple training grounds to south. 
+across the temple training grounds to south.
 The walkway continues to the east and west.
 ~
 107 0 1
@@ -2068,7 +2068,7 @@ walkway~
 S
 
 #10715
-Walkway Around Temple~
+Tapýnak Çevresindeki Yürüyüþ Yolu~
 A polished wooden walkway leads around the temple. You look out
 across the temple training grounds to south. Farther to the east
 are a pair of large red doors and a stairway that leads to the grounds below.
@@ -2088,11 +2088,11 @@ walkway~
 S
 
 #10716
-Temple Doors~
+Tapýnak Kapýlarý~
 Two large red double doors stand before you. The red wood of the doors
 are bound by black iron braces. Twin white and golden dragons adorn
 the doors. Two halves of a white lotus come together as the door closes
-to make the single white flower of the clan. 
+to make the single white flower of the clan.
 A wooden stairway to the south leads to the grounds below.
 Well polished wooden decks lead off to the east and west.
 ~
@@ -2120,11 +2120,11 @@ walkway~
 S
 
 #10717
-Walkway Around Temple~
+Tapýnak Çevresindeki Yürüyüþ Yolu~
 A polished wooden walkway leads around the temple. As you look out
 across the railing to the south, you can see the temple arena area.
 Further to the west you see a pair of large red doors and a staircase
-that leads to the grounds below.  
+that leads to the grounds below.
 Well polished wooden decks lead off to the east and west.
 ~
 107 0 1
@@ -2141,7 +2141,7 @@ walkway~
 S
 
 #10718
-Walkway Around Temple~
+Tapýnak Çevresindeki Yürüyüþ Yolu~
 A polished wooden walkway leads around the temple. As you look out
 across the railing to the south, you can see the temple arena area.
 Well polished wooden decks lead off to the east and west.
@@ -2160,7 +2160,7 @@ walkway~
 S
 
 #10719
-Walkway Around Temple~
+Tapýnak Çevresindeki Yürüyüþ Yolu~
 A polished wooden walkway leads around the temple. As you look out
 across the railing to the south, you can see the temple arena area.
 To the northeast you see a large garden.
@@ -2180,8 +2180,8 @@ walkway~
 S
 
 #10720
-Walkway Around Temple~
-A polished wooden walkway leads around the temple. 
+Tapýnak Çevresindeki Yürüyüþ Yolu~
+A polished wooden walkway leads around the temple.
 To the northeast you see a large garden. Further to the north you see a
 staircase that descends to the garden below.
 Well polished wooden decks lead off to the north and south.
@@ -2200,8 +2200,8 @@ walkway~
 S
 
 #10721
-Walkway Around Temple~
-A polished wooden walkway leads around the temple. 
+Tapýnak Çevresindeki Yürüyüþ Yolu~
+A polished wooden walkway leads around the temple.
 To the northeast you see a large garden. A wooden staircase leads down
 to a stone path to the east.
 Well polished wooden decks lead off to the north and south.
@@ -2225,9 +2225,9 @@ walkway~
 S
 
 #10722
-Walkway Around Temple~
-A polished wooden walkway leads around the temple. 
-To the northeast you see a large garden. Further to the south you see a 
+Tapýnak Çevresindeki Yürüyüþ Yolu~
+A polished wooden walkway leads around the temple.
+To the northeast you see a large garden. Further to the south you see a
 wooden staircase that leads down to the garden below. As you look across
 the railing to the east you notice a couple small paths that wind around from
 the staircase and then disappear into the garden.
@@ -2247,9 +2247,9 @@ walkway~
 S
 
 #10723
-Walkway Around Temple~
-A polished wooden walkway leads around the temple. 
-To the east you see a large garden. 
+Tapýnak Çevresindeki Yürüyüþ Yolu~
+A polished wooden walkway leads around the temple.
+To the east you see a large garden.
 Well polished wooden decks lead off to the west and south.
 ~
 107 0 1
@@ -2266,9 +2266,9 @@ walkway~
 S
 
 #10724
-Walkway Around Temple~
-A polished wooden walkway leads around the temple. 
-To the north you see a large garden. 
+Tapýnak Çevresindeki Yürüyüþ Yolu~
+A polished wooden walkway leads around the temple.
+To the north you see a large garden.
 Well polished wooden decks lead off to the east and west.
 ~
 107 0 1
@@ -2285,8 +2285,8 @@ walkway~
 S
 
 #10725
-Walkway Around Temple~
-A polished wooden walkway leads around the temple. 
+Tapýnak Çevresindeki Yürüyüþ Yolu~
+A polished wooden walkway leads around the temple.
 To the north you see a large garden. Further to the west you see a pair
 of large red doors and a stone stairway that leads down the mountain.
 Well polished wooden decks lead off to the east and west.
@@ -2305,7 +2305,7 @@ walkway~
 S
 
 #10726
-Stone Path~
+Taþlý Patika~
 This is a small stone and gravel path that winds though a beautiful rock
 garden. To either side of you are large patches of sculpted sand. To the
 north you see the Temple of the White Lotus Clan. Wooden steps lead
@@ -2325,7 +2325,7 @@ yard~
 S
 
 #10727
-Practice Yard~
+Pratik Avlusu~
 You stand in the practice yard of the temple. Various students are here
 practicing their kung fu. This is basically a large cement yard. Several
 higher monks are walking about the practice area correcting the students.
@@ -2350,7 +2350,7 @@ yard~
 S
 
 #10728
-Practice Yard~
+Pratik Avlusu~
 You stand in the practice yard of the temple. Various students are here
 practicing their kung fu. This is basically a large cement yard. Several
 higher monks are walking about the practice area correcting the students.
@@ -2370,7 +2370,7 @@ yard~
 S
 
 #10729
-Practice Yard~
+Pratik Avlusu~
 You stand in the practice yard of the temple. Various students are here
 practicing their kung fu. This is basically a large cement yard. Several
 higher monks are walking about the practice area correcting the students.
@@ -2395,7 +2395,7 @@ yard~
 S
 
 #10730
-Practice Yard~
+Pratik Avlusu~
 You stand in the practice yard of the temple. Various students are here
 practicing their kung fu. This is basically a large cement yard. Several
 higher monks are walking about the practice area correcting the students.
@@ -2415,7 +2415,7 @@ yard~
 S
 
 #10731
-Practice Yard~
+Pratik Avlusu~
 You stand in the practice yard of the temple. Various students are here
 practicing their kung fu. This is basically a large cement yard. Several
 higher monks are walking about the practice area correcting the students.
@@ -2440,7 +2440,7 @@ yard~
 S
 
 #10732
-Practice Yard~
+Pratik Avlusu~
 You stand in the practice yard of the temple. Various students are here
 practicing their kung fu. This is basically a large cement yard. Several
 higher monks are walking about the practice area correcting the students.
@@ -2460,7 +2460,7 @@ yard~
 S
 
 #10733
-Practice Yard~
+Pratik Avlusu~
 You stand in the practice yard of the temple. Various students are here
 practicing their kung fu. This is basically a large cement yard. Several
 higher monks are walking about the practice area correcting the students.
@@ -2484,7 +2484,7 @@ bridge~
 S
 
 #10734
-Practice Yard~
+Pratik Avlusu~
 You stand in the practice yard of the temple. Various students are here
 practicing their kung fu. This is basically a large cement yard. Several
 higher monks are walking about the practice area correcting the students.
@@ -2504,7 +2504,7 @@ yard~
 S
 
 #10735
-Practice Yard~
+Pratik Avlusu~
 This is the very center of a large cement practice yard. This is where the
 students of the temple come to learn kung fu. On the ground here is a
 large white lotus engraved into the cement.
@@ -2533,7 +2533,7 @@ yard~
 S
 
 #10736
-Bamboo Bridge~
+Bambu Köprü~
 This is a small bamboo bridge that cross a gurgling stream from the pond
 to the north. To the east you can hear the sounds of instructors yelling at
 the students. To the west are the training grounds of the temple.
@@ -2552,7 +2552,7 @@ yard~
 S
 
 #10737
-Training yard~
+Eðitim Avlusu~
 This area of the temple is filled with what look like small ponds. It is
 rumored that these 1000 ponds were made to represent the 1000 lakes
 of a mystical training grounds called Jyusenkyo. large bamboo poles
@@ -2583,7 +2583,7 @@ yard~
 S
 
 #10738
-Training yard~
+Eðitim Avlusu~
 This area of the temple is filled with what look like small ponds. It is
 rumored that these 1000 ponds were made to represent the 1000 lakes
 of a mystical training grounds called Jyusenkyo. large bamboo poles
@@ -2605,13 +2605,13 @@ yard~
 S
 
 #10739
-Training yard~
+Eðitim Avlusu~
 This area of the temple is filled with what look like small ponds. It is
 rumored that these 1000 ponds were made to represent the 1000 lakes
 of a mystical training grounds called Jyusenkyo. large bamboo poles
 are stuck in the middle of the ponds. Many students are training
 their combat skills and concentration. To the north and west of you is
-the edge of the mountain top. The sharp steep side of the mountain 
+the edge of the mountain top. The sharp steep side of the mountain
 disappears into the mists and forest below.
  ~
 107 0 1
@@ -2628,13 +2628,13 @@ yard~
 S
 
 #10740
-Training yard~
+Eðitim Avlusu~
 This area of the temple is filled with what look like small ponds. It is
 rumored that these 1000 ponds were made to represent the 1000 lakes
 of a mystical training grounds called Jyusenkyo. large bamboo poles
 are stuck in the middle of the ponds. Many students are training
-their combat skills and concentration. To the west of you is the edge of 
-the mountain top. The sharp steep side of the mountain  disappears into the 
+their combat skills and concentration. To the west of you is the edge of
+the mountain top. The sharp steep side of the mountain  disappears into the
 mists and forest below.
  ~
 107 0 1
@@ -2656,13 +2656,13 @@ yard~
 S
 
 #10741
-Training yard~
+Eðitim Avlusu~
 This area of the temple is filled with what look like small ponds. It is
 rumored that these 1000 ponds were made to represent the 1000 lakes
 of a mystical training grounds called Jyusenkyo. large bamboo poles
 are stuck in the middle of the ponds. Many students are training
-their combat skills and concentration. To the west and south of you is the 
-edge of the mountain top. The sharp steep side of the mountain  disappears 
+their combat skills and concentration. To the west and south of you is the
+edge of the mountain top. The sharp steep side of the mountain  disappears
 into the mists and forest below.
  ~
 107 0 1
@@ -2679,13 +2679,13 @@ yard~
 S
 
 #10742
-Training yard~
+Eðitim Avlusu~
 This area of the temple is filled with what look like small ponds. It is
 rumored that these 1000 ponds were made to represent the 1000 lakes
 of a mystical training grounds called Jyusenkyo. large bamboo poles
 are stuck in the middle of the ponds. Many students are training
-their combat skills and concentration. To the south of you is the edge of the 
-mountain top. The sharp steep side of the mountain  disappears into the 
+their combat skills and concentration. To the south of you is the edge of the
+mountain top. The sharp steep side of the mountain  disappears into the
 mists and forest below.
  ~
 107 0 1
@@ -2702,7 +2702,7 @@ yard~
 S
 
 #10743
-Bamboo Bridge~
+Bambu Köprü~
 This is a small bamboo bridge that cross a gurgling stream from the pond
 to the north. To the west you can hear the sounds of instructors yelling at
 the students. To the east is the arena of the temple.
@@ -2847,7 +2847,7 @@ Arena~
 You are in the arena area of the temple. Here the temple monks come to
 practice their skill against others. The entire arena is a bamboo forest.
 Once in a while a master is known to visit this area to test the students.
-To the south and east of you is the steep edge of the mountain. Far below 
+To the south and east of you is the steep edge of the mountain. Far below
 you can see nothing but mists and forest.
  ~
 107 0 1
@@ -2868,7 +2868,7 @@ Arena~
 You are in the arena area of the temple. Here the temple monks come to
 practice their skill against others. The entire arena is a bamboo forest.
 Once in a while a master is known to visit this area to test the students.
-To the south of you is the steep edge of the mountain. Far below you can 
+To the south of you is the steep edge of the mountain. Far below you can
 see nothing but mists and forest.
  ~
 107 0 1
@@ -2894,7 +2894,7 @@ Arena~
 You are in the arena area of the temple. Here the temple monks come to
 practice their skill against others. The entire arena is a bamboo forest.
 Once in a while a master is known to visit this area to test the students.
-To the south of you is the steep edge of the mountain. Far below you can 
+To the south of you is the steep edge of the mountain. Far below you can
 see nothing but mists and forest. To the west the bamboo forest becomes
 to dense to allow passage.
  ~
@@ -2941,7 +2941,7 @@ forest~
 S
 
 #10753
-Stone Path~
+Taþlý Patika~
 This is a small stone path that leads to the temple garden. It seems to wind
 around to the south and then back north as it disappears in to some very
 dense vegetation. To the west of you are the wooden steps that lead up to
@@ -2961,7 +2961,7 @@ steps~
 S
 
 #10754
-Path of the Mantis~
+Peygamberdevesi Patikasý~
 This is a small stone path that leads to the temple garden. It continues south
 and then winds back to the north before it disappears in to the thick garden
 area. The path is named after the famous Mantis style of the gardener
@@ -2981,7 +2981,7 @@ path~
 S
 
 #10755
-Path of the Mantis~
+Peygamberdevesi Patikasý~
 This is a small stone path that leads to the temple garden. It continues east
 and then winds back to the north before it disappears in to the thick garden
 area. Xiang Fung was once a the peaceful gardener of the temple. He was
@@ -3001,7 +3001,7 @@ path~
 S
 
 #10756
-Path of the Mantis~
+Peygamberdevesi Patikasý~
 This is a small stone path that leads to the temple garden. The path continues
 to the north and west. To the north you can see the beautiful gardens of
 Xiang Fung.
@@ -3020,7 +3020,7 @@ path~
 S
 
 #10757
-Path of the Mantis~
+Peygamberdevesi Patikasý~
 This is a small stone path that leads to the temple garden. The path continues
 to the north and south. To the north you can see the beautiful gardens of
 Xiang Fung.
@@ -3039,7 +3039,7 @@ path~
 S
 
 #10758
-Path of the Mantis~
+Peygamberdevesi Patikasý~
 This is a small stone path that leads to the temple garden. This is the
 beginning of the gardens of Xiang Fung. He spent many hours here
 tending to every flower and shrub. The garden here is so dense that
@@ -3060,10 +3060,10 @@ path~
 S
 
 #10759
-Path of the Mantis~
-This is a small stone path that leads to the temple garden. The garden here 
-is so dense that it blocks out the sky. Rays of light break through the 
-canopy and light the pathway. Something seems to be wrong here. The 
+Peygamberdevesi Patikasý~
+This is a small stone path that leads to the temple garden. The garden here
+is so dense that it blocks out the sky. Rays of light break through the
+canopy and light the pathway. Something seems to be wrong here. The
 flowers seem to be wilted and and shrubs dying. From the outside this
 would appear to be a beautiful paradise of a garden. From the inside it
 is seems to be dying. Almost as if the very heart of the garden were
@@ -3083,13 +3083,13 @@ path~
 S
 
 #10760
-Path of the Mantis~
-This is a small stone path that leads to the temple garden. The garden here 
-is so dense that it blocks out the sky. Rays of light break through the 
+Peygamberdevesi Patikasý~
+This is a small stone path that leads to the temple garden. The garden here
+is so dense that it blocks out the sky. Rays of light break through the
 canopy and light the pathway. All of the flowers and other plants are dead.
 The smell of rotting vegetation and decay assaults your sense of smell.
 This is definitely not the beautiful gardens that Xiang Fung once labored
-so hard apon. Something new has taken over. 
+so hard apon. Something new has taken over.
 The path continues to the north and east.
  ~
 107 0 1
@@ -3106,10 +3106,10 @@ path~
 S
 
 #10761
-Garden of the 5 Deadly Venoms~
+5 Ölümcül Zehir Bahçesi~
 As you enter this part of the garden you see a large clan symbol burned
 into the ground. You recognize it as the symbol of the Poison clan. There
-have been rumors that recently some of the poison clan has taken up 
+have been rumors that recently some of the poison clan has taken up
 residence at the Temple. Now you know what has been killing the beautiful
 gardens. A path leads to the north and to the east.
  ~
@@ -3127,11 +3127,11 @@ path~
 S
 
 #10762
-Garden Path~
+Bahçe Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
-Every couple of feet a dead branch or shrubbery blocks the path. The 
-garden is a deadly quiet. The birds no longer sing, and the crickets no 
-longer chirp. This is definitely not the same garden that Xiang Fung left 
+Every couple of feet a dead branch or shrubbery blocks the path. The
+garden is a deadly quiet. The birds no longer sing, and the crickets no
+longer chirp. This is definitely not the same garden that Xiang Fung left
 so long ago.
 A path leads to the north and to the west.
  ~
@@ -3149,12 +3149,12 @@ path~
 S
 
 #10763
-Garden Path~
+Bahçe Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
-Every couple of feet a dead branch or shrubbery blocks the path. The 
-garden is a deadly quiet. The birds no longer sing, and the crickets no 
-longer chirp. This is definitely not the same garden that Xiang Fung left so 
-long ago. A gently breeze stirs the dry brown leaves that cover the soft dirt 
+Every couple of feet a dead branch or shrubbery blocks the path. The
+garden is a deadly quiet. The birds no longer sing, and the crickets no
+longer chirp. This is definitely not the same garden that Xiang Fung left so
+long ago. A gently breeze stirs the dry brown leaves that cover the soft dirt
 beneath you.
 A path leads to the north and to the south.
  ~
@@ -3172,7 +3172,7 @@ path~
 S
 
 #10764
-Garden Path~
+Bahçe Yolu~
 You come apon a split in the path. Many dead rosebushes almost obscure
 the western path. The putrid smell of rotting vegetation turns your
 stomach.
@@ -3197,7 +3197,7 @@ path~
 S
 
 #10765
-Garden Path~
+Bahçe Yolu~
 This is an obcure path, almost hidden by death rosebushes. The canopy
 seems to be more dense here and the light barely seeps through the
 intertwined branches overhead.
@@ -3217,13 +3217,13 @@ path~
 S
 
 #10766
-Training Room of the Snake~
+Yýlanýn Eðitim Odasý~
 This room is filled with many different training devices. The stone walls
 are richly decorated with silver silk curtains and large silver statues
-of a coiled snake. Hung Wei Tung is the second pupil of the poison clan, 
-and expert of the snake technique. Hung Wei Tung was brought up by a 
+of a coiled snake. Hung Wei Tung is the second pupil of the poison clan,
+and expert of the snake technique. Hung Wei Tung was brought up by a
 wealthy family and joined the Poison Clan just to learn a specialized Kung
-Fu. He has come to the garden to practice his techniques and as a guest to 
+Fu. He has come to the garden to practice his techniques and as a guest to
 the White Lotus Chief.
 The only exit is to the south.
  ~
@@ -3236,7 +3236,7 @@ path~
 S
 
 #10767
-Garden Path~
+Bahçe Yolu~
 The vegetation here is a little better than that you have seen previously.
 It is still far from the beauty that Xiang Fung brought to the garden.
 Around you stand large green bamboo stalks, and rich beds of flowers.
@@ -3256,7 +3256,7 @@ path~
 S
 
 #10768
-Garden Path~
+Bahçe Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 Every couple of feet a dead branch or shrubbery blocks the path.
 The path continues to the west and south.
@@ -3275,7 +3275,7 @@ path~
 S
 
 #10769
-Garden Path~
+Bahçe Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 Every couple of feet a dead branch or shrubbery blocks the path.
 The path continues to the north and east.
@@ -3294,7 +3294,7 @@ path~
 S
 
 #10770
-Garden Path~
+Bahçe Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 Every couple of feet a dead branch or shrubbery blocks the path.
  ~
@@ -3317,7 +3317,7 @@ path~
 S
 
 #10771
-Training Room of the Lizard~
+Kertenkelenin Eðitim Odasý~
 You stand amidst a room filled with all sorts of walls. Many walls of stone,
 wood, and various other materials are propped up around the room. This
 is the training room of the Yeun Sun Ho, the fourth pupil of the Poison
@@ -3334,7 +3334,7 @@ path~
 S
 
 #10772
-Garden Path~
+Bahçe Yolu~
 You are on the north end of the garden path. Through the thick brush to the
 north you see the sharp cliff of the mountain.
 The path continues to the east and west.
@@ -3353,10 +3353,10 @@ path~
 S
 
 #10773
-Training Room of the Scorpion~
+Akrebin Eðitim Odasý~
 This room is filled with large poles and other training devices. Here Ma
 Tang comes to train. Ma Tang is the third pupil of the Poison Clan and
-expert of the Scorpion technique. 
+expert of the Scorpion technique.
 The path continues to the east, south and west.
  ~
 107 0 1
@@ -3378,9 +3378,9 @@ path~
 S
 
 #10774
-Training Room of the Toad~
+Kurbaðanýn Eðitim Odasý~
 This large stone room is filled with beds of nails and sharp poles. Large
-thick sheets of metal hang about the room. This is the training room of 
+thick sheets of metal hang about the room. This is the training room of
 Lee Ho, expert of the Toad technique and fifth pupil of the Poison Clan.
 The path continues to the east and south.
  ~
@@ -3398,11 +3398,11 @@ path~
 S
 
 #10775
-Training Room of the Centipede~
+Kýrkayaðýn Eðitim Odasý~
 This room is almost devoid of any furniture or equipment. As you look up
-to the ceiling you notice many objects that look as though they can be 
-dropped hanging over you. This the training room of the first pupil of 
-the Poison Clan, Tang Seung Qwe. 
+to the ceiling you notice many objects that look as though they can be
+dropped hanging over you. This the training room of the first pupil of
+the Poison Clan, Tang Seung Qwe.
 The path continues to the east and north.
  ~
 107 0 1
@@ -3419,7 +3419,7 @@ path~
 S
 
 #10776
-Garden Path~
+Bahçe Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 Every couple of feet a dead branch or shrubbery blocks the path.
 The path continues to the north, east and west.
@@ -3443,7 +3443,7 @@ path~
 S
 
 #10777
-Garden Path~
+Bahçe Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 Xiang Fung would be deeply saddened at the state of his garden if he knew.
 The path continues to the south and west.
@@ -3462,7 +3462,7 @@ path~
 S
 
 #10778
-Garden Path~
+Bahçe Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 Multicolored dragonflies and other exotic insects buzz by you.
 The path continues to the north and west.
@@ -3481,7 +3481,7 @@ path~
 S
 
 #10779
-Garden Path~
+Bahçe Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 The path continues to the east and west.
  ~
@@ -3499,7 +3499,7 @@ path~
 S
 
 #10780
-Garden Path~
+Bahçe Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 The garden becomes to dense to pass to the west.
 The path continues to the south and east.
@@ -3518,7 +3518,7 @@ path~
 S
 
 #10781
-Garden Path~
+Bahçe Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 The path continues to the south and north.
  ~
@@ -3536,7 +3536,7 @@ path~
 S
 
 #10782
-Garden Path~
+Bahçe Yolu~
 This small path winds across a shallow pond. White lotus leaves float
 gently on the suface of the water. Dead branches and murky water
 contaminate the once pristine scene.
@@ -3556,7 +3556,7 @@ path~
 S
 
 #10783
-Garden Path~
+Bahçe Yolu~
 This small path winds across a shallow pond. White lotus leaves float
 gently on the suface of the water. Here in the center of the pond the
 water seems to be cleaner as if out of reach of the encroaching poison.
@@ -3576,7 +3576,7 @@ path~
 S
 
 #10784
-Garden Path~
+Bahçe Yolu~
 This small path winds across a shallow pond. White lotus leaves float
 gently on the suface of the water. Here in the center of the pond the
 water seems to be cleaner as if out of reach of the encroaching poison.
@@ -3596,7 +3596,7 @@ path~
 S
 
 #10785
-Garden Path~
+Bahçe Yolu~
 This small path winds across a shallow pond. White lotus leaves float
 gently on the suface of the water. The water is murky and dark as if
 a poison of some sort has contaminated it.
@@ -3616,7 +3616,7 @@ path~
 S
 
 #10786
-Garden Path~
+Bahçe Yolu~
 This is a small garden path. Decaying plants and dry brush clutters lay
 across the path. What once used to be Xiang Fungs paradise, is now
 nothing but overgrown weeds and dead plants.
@@ -3636,11 +3636,11 @@ path~
 S
 
 #10787
-Garden Path~
+Bahçe Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
-Every couple of feet a dead branch or shrubbery blocks the path. The 
-garden is a deadly quiet. The birds no longer sing, and the crickets no 
-longer chirp. This is definitely not the same garden that Xiang Fung left 
+Every couple of feet a dead branch or shrubbery blocks the path. The
+garden is a deadly quiet. The birds no longer sing, and the crickets no
+longer chirp. This is definitely not the same garden that Xiang Fung left
 so long ago.
 The path continues to the west and south.
  ~
@@ -3658,7 +3658,7 @@ path~
 S
 
 #10788
-Wooden Hall~
+Ahþap Salon~
 This is a long wooden hallway covered with the emblems of the White
 Lotus Clan. The smooth wooden floors are well polished and the sounds
 of conversation can be heard farther down the hall. The wooden walkway
@@ -3689,7 +3689,7 @@ cell bars~
 S
 
 #10789
-Prison Cell~
+Hapishane Hücresi~
 This is one of the cells used for detaining prisoners of the Clan. It is
 surprisingly clean for a prison cell. The cell is pretty much bare except for
 a small bench against the far wall.
@@ -3704,7 +3704,7 @@ cell bars~
 S
 
 #10790
-Prison Cell~
+Hapishane Hücresi~
 This is one of the cells used for detaining prisoners of the Clan. It is
 surprisingly clean for a prison cell. The cell is pretty much bare except for
 a small bench against the far wall.
@@ -3719,10 +3719,10 @@ cell bars~
 S
 
 #10791
-Wooden Hall~
+Ahþap Salon~
 This is a long wooden hallway covered with the emblems of the White
 Lotus Clan. The smooth wooden floors are well polished and the sounds
-of conversation can be heard farther down the hall. 
+of conversation can be heard farther down the hall.
 The hall continues to the north and south.
 A prison cell lies to the west.
 A large noisy room lies to the east.
@@ -3751,10 +3751,10 @@ cell bars~
 S
 
 #10792
-Guard Room~
+Nöbetçi Odasý~
 You stand in the main guard station of the Clan. This very large room is
 littered with various tables and chairs. The guards spend most of their time
-here either gambling or drinking. Very few people have the courage or the 
+here either gambling or drinking. Very few people have the courage or the
 love of death to bother the White Lotus Clan.
 The only exit is to the hall to the west.
  ~
@@ -3767,7 +3767,7 @@ hall~
 S
 
 #10793
-Prison Cell~
+Hapishane Hücresi~
 This is one of the cells used for detaining prisoners of the Clan. It is
 surprisingly clean for a prison cell. The cell is pretty much bare except for
 a small bench against the far wall.
@@ -3782,7 +3782,7 @@ cell bars~
 S
 
 #10794
-Wooden Hall~
+Ahþap Salon~
 This is a long wooden hallway covered with the emblems of the White
 Lotus Clan. The smooth wooden floors are well polished and the sounds
 of conversation can be heard from either direction down the hall. The hall
@@ -3813,7 +3813,7 @@ room~
 S
 
 #10795
-Mess Hall~
+Yemekhane~
 This is the Kitchen and mess hall for the guard building. Many long tables
 and benches are lined up in this room. Very large barrels that are filled with
 steamed rice sit at the end of every table.
@@ -3828,7 +3828,7 @@ hall~
 S
 
 #10796
-Wooden Hall~
+Ahþap Salon~
 This is a smaller hallway that splits off from the large main one. Small lotus
 leaves are carved into the walls. The wooden floors are also well polished,
 but appear to be less travelled than that of the main hallway.
@@ -3848,7 +3848,7 @@ hall~
 S
 
 #10797
-Wooden Hall~
+Ahþap Salon~
 This is a smaller hallway that splits off from the large main one. Small lotus
 leaves are carved into the walls. The wooden floors are also well polished,
 but appear to be less travelled than that of the main hallway.
@@ -3869,9 +3869,9 @@ hall~
 S
 
 #10798
-Armoury~
+Cephanelik~
 You stand in a room filled with many racks of weapons and armor. Most
-of the equipment is in good condition and all bear the symbol of the 
+of the equipment is in good condition and all bear the symbol of the
 White Lotus Clan.
 The only exit is to the south.
  ~
@@ -3884,7 +3884,7 @@ hall~
 S
 
 #10799
-Wooden Hall~
+Ahþap Salon~
 You are in a wooden hall. Your footsteps echo lightly on the well polish
 floor. Grand pictures of dragons and temples are carved into the walls.
 Further to the south you see a large wooden door with a dragon head
@@ -3905,7 +3905,7 @@ door wooden~
 S
 
 #10800
-General's Office~
+General'in Çalýþma Odasý~
 This is the office of General Chow, head of the militia at the temple.
 He normally sits in his office, drinks wine and laughs alot. Most
 people are smart enough not to cause trouble at the temple. His office
@@ -3921,7 +3921,7 @@ door wooden~
 S
 
 #10801
-Wooden Hall~
+Ahþap Salon~
 You are in a large wooden hall that runs north south. Here there are various
 stories of dragons, wars and temples carved into the polished wooden walls.
 To the north and to the west you hear loud sounds of voices.
@@ -3953,7 +3953,7 @@ room barracks.~
 S
 
 #10802
-Weapons Room~
+Silah Odasý~
 This is a large room filled with weapons for the militia. Many different
 carvings depicting battles atop of the mountain at the temple of the White
 Lotus clan span the walls.
@@ -3968,7 +3968,7 @@ hall~
 S
 
 #10803
-Barracks~
+Kýþla~
 These are the barrack for the temple guard. Many beds and tables fill the
 room. This is where the militia spends most of its time, since few people
 ever are stupid enough to attack the temple and anger the White Lotus
@@ -3984,7 +3984,7 @@ hall~
 S
 
 #10804
-End of Long Wooden Hall~
+Uzun Ahþap Salonun Sonu~
 This is the end of a long wooden hallway. As you look to the south you
 see the entrance far down the hall. To the east and west come sounds of
 conversation and gambling.
@@ -4010,7 +4010,7 @@ room~
 S
 
 #10805
-Barracks~
+Kýþla~
 These are the barrack for the temple guard. Many beds and tables fill the
 room. This is where the militia spends most of its time, since few people
 ever are stupid enough to attack the temple and anger the White Lotus
@@ -4026,7 +4026,7 @@ hall~
 S
 
 #10806
-Barracks~
+Kýþla~
 These are the barrack for the temple guard. Many beds and tables fill the
 room. This is where the militia spends most of its time, since few people
 ever are stupid enough to attack the temple and anger the White Lotus
@@ -4042,13 +4042,13 @@ hall~
 S
 
 #10807
-Inside the Temple Doors~
+Tapýnak Kapýlarýnýn Ýçi~
 You stand in a grand hallway, decorated with many statues of Buddha.
 Golden dragons climb the wooden columns that reach up to the ceiling
 far above. The large white lotus emblem is embedded into the black
 marble floor of the hallway. A pair of red wood doors lie to the north
-The red wood of the doors are bound by black iron braces. Twin white 
-and golden dragons adorn the doors. Two halves of a white lotus come 
+The red wood of the doors are bound by black iron braces. Twin white
+and golden dragons adorn the doors. Two halves of a white lotus come
 together as the door closes to make the single white flower of the clan.
 The hall continues to the south.
  ~
@@ -4066,7 +4066,7 @@ hall hallway~
 S
 
 #10808
-Hall of the Dragon~
+Ejderha Salonu~
 You stand in a grand hallway, decorated with many statues of Buddha.
 Golden dragons climb the wooden columns that reach up to the ceiling
 far above. To the west you can hear the sounds of chanting. The smell
@@ -4096,13 +4096,13 @@ room smoke~
 S
 
 #10809
-Inside the Temple Doors~
+Tapýnak Kapýlarýnýn Ýçi~
 You stand in a grand hallway, decorated with many statues of Buddha.
 Golden dragons climb the wooden columns that reach up to the ceiling
 far above. The large white lotus emblem is embedded into the black
 marble floor of the hallway. A pair of red wood doors lie to the south
-The red wood of the doors are bound by black iron braces. Twin white 
-and golden dragons adorn the doors. Two halves of a white lotus come 
+The red wood of the doors are bound by black iron braces. Twin white
+and golden dragons adorn the doors. Two halves of a white lotus come
 together as the door closes to make the single white flower of the clan.
 The hall continues to the north.
  ~
@@ -4120,7 +4120,7 @@ door doors red~
 S
 
 #10810
-Hall of the Dragon.~
+Ejderha Salonu~
 This is a very dark wooden hallway. Stairs lead up to the second floor from
 here. This hall is drastically different from that of the main hall. It has no
 carvings, no dragons, and basically has no decorations at all. the wooden
@@ -4148,9 +4148,9 @@ stairs wooden~
 S
 
 #10811
-Hall of the Dragon.~
-This is a very dark wooden hallway. This hall is drastically different from 
-that of the main hall. It has no carvings, no dragons, and basically has no 
+Ejderha Salonu~
+This is a very dark wooden hallway. This hall is drastically different from
+that of the main hall. It has no carvings, no dragons, and basically has no
 decorations at all. the wooden paneled walls are adorn only with small candles.
 The hall continues to the east and south.
  ~
@@ -4168,9 +4168,9 @@ hall hallway~
 S
 
 #10812
-Hall of the Dragon.~
-This is a very dark wooden hallway. This hall is drastically different from 
-that of the main hall. It has no carvings, no dragons, and basically has no 
+Ejderha Salonu~
+This is a very dark wooden hallway. This hall is drastically different from
+that of the main hall. It has no carvings, no dragons, and basically has no
 decorations at all. the wooden paneled walls are adorn only with small candles.
 The hall continues to the south and west.
  ~
@@ -4188,9 +4188,9 @@ hall hallway~
 S
 
 #10813
-Hall of the Dragon.~
-This is a very dark wooden hallway. This hall is drastically different from 
-that of the main hall. It has no carvings, no dragons, and basically has no 
+Ejderha Salonu~
+This is a very dark wooden hallway. This hall is drastically different from
+that of the main hall. It has no carvings, no dragons, and basically has no
 decorations at all. the wooden paneled walls are adorn only with small candles.
 The hall continues to the north and south.
  ~
@@ -4208,9 +4208,9 @@ hall hallway~
 S
 
 #10814
-Hall of the Dragon.~
-This is a very dark wooden hallway. This hall is drastically different from 
-that of the main hall. It has no carvings, no dragons, and basically has no 
+Ejderha Salonu~
+This is a very dark wooden hallway. This hall is drastically different from
+that of the main hall. It has no carvings, no dragons, and basically has no
 decorations at all. the wooden paneled walls are adorn only with small candles.
 The hall continues to the north and west.
  ~
@@ -4228,9 +4228,9 @@ hall hallway~
 S
 
 #10815
-Hall of the Dragon.~
-This is a very dark wooden hallway. This hall is drastically different from 
-that of the main hall. It has no carvings, no dragons, and basically has no 
+Ejderha Salonu~
+This is a very dark wooden hallway. This hall is drastically different from
+that of the main hall. It has no carvings, no dragons, and basically has no
 decorations at all. the wooden paneled walls are adorn only with small candles.
 You see here a large wooden arch. The arch is covered with different chinese
 characters depicting the 36 basic styles of the clan.
@@ -4251,7 +4251,7 @@ steps darkeness~
 S
 
 #10816
-Temple~
+Tapýnak~
 The temple is filled with incense smoke and the resonant sounds of many
 monks chanting. The chanting seems to almost have a life of its own as it
 can be felt even through the hard granite below you. There are red candles
@@ -4281,9 +4281,9 @@ You can't see much through the haze of incense smoke.
 S
 
 #10817
-Southern end of the Temple~
+Tapýnaðýn Güney Sonu~
 Around you are many monks chanting and praying. Tall wooden pillars
-disappear in the haze above you. The constant and monotonous tapping of 
+disappear in the haze above you. The constant and monotonous tapping of
 a some wooden object rattles your brain and seems to be almost hypnotizing.
 The temple is filled with incense smoke and the resonant sounds of many
 monks chanting. The chanting seems to almost have a life of its own as it
@@ -4304,7 +4304,7 @@ You can't see much through the haze of incense smoke.
 S
 
 #10818
-Golden Buddha of Contentment~
+Huzurun Altýn Buddhasý~
 Before you stands a giant golden statue of a buddha. This is the Buddha
 of Contentment. Many red candles surround the statue's base and all around
 the floor. Many offerings of oranges and rice cakes sit in front of the statue.
@@ -4324,7 +4324,7 @@ You can't see much through the haze of incense smoke.
 S
 
 #10819
-Golden Buddha of Wisdom~
+Bilgeliðin Altýn Buddhasý~
 Before you stands a giant golden statue of a buddha. This is the Buddha
 of Wisdom. Many monks come here to pray for enlightenment to a problem
 or a decision. Many red candles surround the statue's base and all around
@@ -4350,7 +4350,7 @@ You can't see much through the haze of incense smoke.
 S
 
 #10820
-Golden Buddha of Enlightenment~
+Aydýnlýðýn Altýn Buddhasý~
 Before you stands a giant golden statue of a buddha. This is the Buddha
 of Wisdom. The chanting here seems to be the loudest. The constant
 sounding of a gold and the tapping of a hollow wooden ball drowned
@@ -4374,9 +4374,9 @@ You can't see much through the haze of incense smoke.
 S
 
 #10821
-Northern end of the Temple~
+Tapýnaðýn Kuzey Sonu~
 Around you are many monks chanting and praying. Tall wooden pillars
-disappear in the haze above you. The constant and monotonous tapping of 
+disappear in the haze above you. The constant and monotonous tapping of
 a some wooden object rattles your brain and seems to be almost hypnotizing.
 The temple is filled with incense smoke and the resonant sounds of many
 monks chanting. The chanting seems to almost have a life of its own as it
@@ -4397,7 +4397,7 @@ You can't see much through the haze of incense smoke.
 S
 
 #10822
-Top of the Stairs~
+Merdivenin Sonu~
 You stand at the top of a flight of wooden stairs. Loud chanting and murmurs
 can be heard from downstairs. These halls seem to be more lavishly furnished
 than the ones below. The walls are covered with gold and silver dragons and
@@ -4419,8 +4419,8 @@ You see a wooden stairway descending to the temple below.
 S
 
 #10823
-2nd floor hallway~
-You are in a lavishly furnish hallway. The walls are covered with gold and 
+2'nci kat koridoru~
+You are in a lavishly furnish hallway. The walls are covered with gold and
 silver dragons and small tables with ancient vases line the hall.
 Brightly color red lanterns hang from the ceiling, flickering gently as the
 candles inside of them burn slowly away.
@@ -4441,8 +4441,8 @@ You see a hallway.
 S
 
 #10824
-2nd floor hallway~
-You are in a lavishly furnish hallway. The walls are covered with gold and 
+2'nci kat koridoru~
+You are in a lavishly furnish hallway. The walls are covered with gold and
 silver dragons and small tables with ancient vases line the hall.
 Brightly color red lanterns hang from the ceiling, flickering gently as the
 candles inside of them burn slowly away.
@@ -4462,8 +4462,8 @@ You see a hallway.
 S
 
 #10825
-2nd floor hallway~
-You are in a lavishly furnish hallway. The walls are covered with gold and 
+2'nci kat koridoru~
+You are in a lavishly furnish hallway. The walls are covered with gold and
 silver dragons and small tables with ancient vases line the hall.
 Brightly color red lanterns hang from the ceiling, flickering gently as the
 candles inside of them burn slowly away.
@@ -4483,8 +4483,8 @@ You see a hallway.
 S
 
 #10826
-2nd floor hallway~
-You are in a lavishly furnish hallway. The walls are covered with gold and 
+2'nci kat koridoru~
+You are in a lavishly furnish hallway. The walls are covered with gold and
 silver dragons and small tables with ancient vases line the hall.
 Brightly color red lanterns hang from the ceiling, flickering gently as the
 candles inside of them burn slowly away.
@@ -4504,8 +4504,8 @@ You see a hallway.
 S
 
 #10827
-2nd floor hallway~
-You are in a lavishly furnish hallway. The walls are covered with gold and 
+2'nci kat koridoru~
+You are in a lavishly furnish hallway. The walls are covered with gold and
 silver dragons and small tables with ancient vases line the hall.
 Brightly color red lanterns hang from the ceiling, flickering gently as the
 candles inside of them burn slowly away.
@@ -4525,9 +4525,9 @@ You see a hallway.
 S
 
 #10828
-Rooms of the White Lotus Chief~
-These are the rooms of the White Lotus Chief. He is often meditating or 
-reading. He does not like to be disturbed. This room is furnished with 
+Beyaz Lotus Liderinin Odalarý~
+These are the rooms of the White Lotus Chief. He is often meditating or
+reading. He does not like to be disturbed. This room is furnished with
 the occasional chair or table. Although not poor looking, it isn't furnished
 with much. It is basically an entry for the other rooms.
 The hall continues to the east.
@@ -4557,7 +4557,7 @@ You see the meditation room of the White Lotus Chief.
 S
 
 #10829
-Guest Room~
+Misafir Odasý~
 This is where the personal guests of the White Lotus Chief stay. The room
 is nicely done, with bamboo walls and a wooden floor. A luxurious bed
 with silk sheets and pillows stands against the far wall.
@@ -4572,7 +4572,7 @@ You see a hallway.
 S
 
 #10830
-Room of Wei Chin~
+Wei Chin'in Odasý~
 This is the room of Wei Chin, the nephew of the White Lotus Chief.
 He is here to serve his uncle and practice his kung fu. His room looks
 very much unlived in. Wei Chin is usually out traveling and looking
@@ -4588,11 +4588,11 @@ You see a hallway.
 S
 
 #10831
-Meditation Chamber~
-This room is filled with long scrolls that hang on the walls. The scrolls 
+Meditasyon Odasý~
+This room is filled with long scrolls that hang on the walls. The scrolls
 recite many teachings of Buddha. Small incense burners sit in each corner
 of the room. A small knee high table stands in the middle of the room. The
-White Lotus Chief often comes here to pray and meditate. Except for the 
+White Lotus Chief often comes here to pray and meditate. Except for the
 the day of the Dragon Boat festival, on that day he relaxes and spends his
 day in the steaming pool.
 There are exits in all directions.
@@ -4621,7 +4621,7 @@ You see a room.
 S
 
 #10832
-Library~
+Kütüphane~
 You stand amidst many rows of shelves. The shelves tower above you and
 are full of texts from many different areas of the world.
 The only exit is to the north.
@@ -4639,7 +4639,7 @@ bookcase~
 S
 
 #10833
-Hidden Room~
+Gizli Oda~
 This is a secret room hidden behind one of the bookshelfs. This is where
 many special books and scrolls are kept.the room is lit by a dim lightsource
 that is out of sight up above.
@@ -4653,7 +4653,7 @@ bookcase~
 S
 
 #10834
-Shrine~
+Türbe~
 This is the private shrine of the White Lotus Chief. He spends many hours
 every day here praying and studying. The room is pretty much bare with
 the exception of a large shrine, decorated with golden buddhas and many
@@ -4672,10 +4672,10 @@ D3
 S
 
 #10835
-Steaming Pool~
-This is a very large steaming pool. The White Lotus Chief comes here 
+Sauna~
+This is a very large steaming pool. The White Lotus Chief comes here
 during dragon boat festival to relax. Numerous stone dragon heads spit
-steaming streams into the pool. 
+steaming streams into the pool.
 There are exits to the south and east.
  ~
 107 8 0
@@ -4690,10 +4690,10 @@ D2
 S
 
 #10836
-Chamber of the White Lotus Chief~
+Beyaz Lotus Liderinin Meclisi~
 This is the lavishly furnished bedroom of the White Lotus Chief. The few
 hours of the day that he is not meditating nor studying, he is here sleeping.
-Many ancient and beautiful vases adorn the corners of the room. 
+Many ancient and beautiful vases adorn the corners of the room.
 There are exits to the north and east.
  ~
 107 8 0
@@ -4708,7 +4708,7 @@ D1
 S
 
 #10837
-Entrance to the 36 Chambers~
+36 Meclisin Giriþi~
 This cold stone room is complete bare except for a door on the east wall.
 This is the entrance to the 36 Chambers of the White Lotus. It is here that
 the higher monks and students come to test their skills. The stairway seems
@@ -4723,7 +4723,7 @@ D1
 S
 
 #10838
-1st Chamber of the White Lotus~
+Beyaz Lotus'un 1'inci Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
 is the first chamber. It is a basic skill chamber where students test thier
@@ -4738,7 +4738,7 @@ D1
 S
 
 #10839
-2nd Chamber of the White Lotus~
+Beyaz Lotus'un 2'nci Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
 is the second chamber. It is a basic skill chamber where students test thier
@@ -4753,11 +4753,11 @@ D1
 S
 
 #10840
-3rd Chamber of the White Lotus~
+Beyaz Lotus'un 3'üncü Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This is
-the chamber of the Whirlwind Kick technique. It is a a more difficult 
-chamber than the two previous ones. From here on, your skills are tested 
+the chamber of the Whirlwind Kick technique. It is a a more difficult
+chamber than the two previous ones. From here on, your skills are tested
 against the masters of the temple.
 And to lose from this chamber on..is to lose ones life....
 The only exit is to the east.
@@ -4770,7 +4770,7 @@ D1
 S
 
 #10841
-4th Chamber of the White Lotus~
+Beyaz Lotus'un 4'üncü Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Chin Kang Palm technique.
@@ -4784,7 +4784,7 @@ D1
 S
 
 #10842
-5th Chamber of the White Lotus~
+Beyaz Lotus'un 5'inci Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Lizard style.
@@ -4798,7 +4798,7 @@ D1
 S
 
 #10843
-6th Chamber of the White Lotus~
+Beyaz Lotus'un 6'ncý Meclisi~
 This cold stone room is complete bare except for a door on the south wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Northern Crane style.
@@ -4812,7 +4812,7 @@ D2
 S
 
 #10844
-7th Chamber of the White Lotus~
+Beyaz Lotus'un 7'nci Meclisi~
 This cold stone room is complete bare except for a door on the west wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Dragon style.
@@ -4826,7 +4826,7 @@ D3
 S
 
 #10845
-8th Chamber of the White Lotus~
+Beyaz Lotus'un 8'inci Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Tiger style.
@@ -4840,7 +4840,7 @@ D3
 S
 
 #10846
-9th Chamber of the White Lotus~
+Beyaz Lotus'un 9'uncu Meclisi~
 This cold stone room is complete bare except for a door on the west wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Scorpion style.
@@ -4854,7 +4854,7 @@ D3
 S
 
 #10847
-10th Chamber of the White Lotus~
+Beyaz Lotus'un 10'uncu Meclisi~
 This cold stone room is complete bare except for a door on the west wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Snake style.
@@ -4868,7 +4868,7 @@ D3
 S
 
 #10848
-11th Chamber of the White Lotus~
+Beyaz Lotus'un 11'inci Meclisi~
 This cold stone room is complete bare except for a door on the west wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Centipede style.
@@ -4882,7 +4882,7 @@ D3
 S
 
 #10849
-12th Chamber of the White Lotus~
+Beyaz Lotus'un 12'nci Meclisi~
 This cold stone room is complete bare except for a door on the south wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Toad style.
@@ -4896,7 +4896,7 @@ D2
 S
 
 #10850
-13th Chamber of the White Lotus~
+Beyaz Lotus'un 13'üncü Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Iron Monk style.
@@ -4910,7 +4910,7 @@ D1
 S
 
 #10851
-14th Chamber of the White Lotus~
+Beyaz Lotus'un 14'üncü Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Iron head technique.
@@ -4924,7 +4924,7 @@ D1
 S
 
 #10852
-15th Chamber of the White Lotus~
+Beyaz Lotus'un 15'inci Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Southern Hawk style.
@@ -4938,7 +4938,7 @@ D1
 S
 
 #10853
-16th Chamber of the White Lotus~
+Beyaz Lotus'un 16'ncý Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Quivering Palm technique.
@@ -4952,7 +4952,7 @@ D1
 S
 
 #10854
-17th Chamber of the White Lotus~
+Beyaz Lotus'un 17'nci Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Five Pace Palm style.
@@ -4966,7 +4966,7 @@ D1
 S
 
 #10855
-18th Chamber of the White Lotus~
+Beyaz Lotus'un 18'inci Meclisi~
 This cold stone room is complete bare except for a door on the south wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Chamber of mediation. This room is a room to rest
@@ -4982,10 +4982,10 @@ D2
 S
 
 #10856
-19th Chamber of the White Lotus~
+Beyaz Lotus'un 19'uncu Meclisi~
 This cold stone room is complete bare except for a door on the west wall.
 It is here that the higher monks and students come to test their skills. This
-is the chamber of the Weightless Boxing Style. 
+is the chamber of the Weightless Boxing Style.
 The only exit is to the west.
  ~
 107 8|512 0
@@ -4996,10 +4996,10 @@ D3
 S
 
 #10857
-20th Chamber of the White Lotus~
+Beyaz Lotus'un 20'nci Meclisi~
 This cold stone room is complete bare except for a door on the west wall.
 It is here that the higher monks and students come to test their skills. This
-is the chamber of the Lightning Punch. 
+is the chamber of the Lightning Punch.
 The only exit is to the west.
  ~
 107 8|512 0
@@ -5010,10 +5010,10 @@ D3
 S
 
 #10858
-21st Chamber of the White Lotus~
+Beyaz Lotus'un 21'inci Meclisi~
 This cold stone room is complete bare except for a door on the west wall.
 It is here that the higher monks and students come to test their skills. This
-is the chamber of the Poison touch. 
+is the chamber of the Poison touch.
 The only exit is to the west.
  ~
 107 8|512 0
@@ -5024,10 +5024,10 @@ D3
 S
 
 #10859
-22nd Chamber of the White Lotus~
+Beyaz Lotus'un 22'nci Meclisi~
 This cold stone room is complete bare except for a door on the west wall.
 It is here that the higher monks and students come to test their skills. This
-is the chamber of the Shaolin Long Sword. 
+is the chamber of the Shaolin Long Sword.
 The only exit is to the west.
  ~
 107 8|512 0
@@ -5038,10 +5038,10 @@ D3
 S
 
 #10860
-23rd Chamber of the White Lotus~
+Beyaz Lotus'un 23'üncü Meclisi~
 This cold stone room is complete bare except for a door on the west wall.
 It is here that the higher monks and students come to test their skills. This
-is the chamber of the Shaolin Butterfly Swords. 
+is the chamber of the Shaolin Butterfly Swords.
 The only exit is to the west.
  ~
 107 8|512 0
@@ -5052,10 +5052,10 @@ D3
 S
 
 #10861
-24th Chamber of the White Lotus~
+Beyaz Lotus'un 24'üncü Meclisi~
 This cold stone room is complete bare except for a door on the south wall.
 It is here that the higher monks and students come to test their skills. This
-is the chamber of the Shaolin Long Spear. 
+is the chamber of the Shaolin Long Spear.
 The only exit is to the south.
  ~
 107 8|512 0
@@ -5066,10 +5066,10 @@ D2
 S
 
 #10862
-25th Chamber of the White Lotus~
+Beyaz Lotus'un 25'inci Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
-is the chamber of the Deadly Palm technique. 
+is the chamber of the Deadly Palm technique.
 The only exit is to the east.
  ~
 107 8|512 0
@@ -5080,10 +5080,10 @@ D1
 S
 
 #10863
-26th Chamber of the White Lotus~
+Beyaz Lotus'un 26'ncý Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
-is the chamber of the Flying Buddha. 
+is the chamber of the Flying Buddha.
 The only exit is to the east.
  ~
 107 8|512 0
@@ -5094,10 +5094,10 @@ D1
 S
 
 #10864
-27th Chamber of the White Lotus~
+Beyaz Lotus'un 27'nci Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
-is the chamber of the Angry Buddha. 
+is the chamber of the Angry Buddha.
 The only exit is to the east.
  ~
 107 8|512 0
@@ -5108,10 +5108,10 @@ D1
 S
 
 #10865
-28th Chamber of the White Lotus~
+Beyaz Lotus'un 28'inci Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
-is the chamber of the 1st Master. 
+is the chamber of the 1st Master.
 The only exit is to the east.
  ~
 107 8|512 0
@@ -5122,10 +5122,10 @@ D1
 S
 
 #10866
-29th Chamber of the White Lotus~
+Beyaz Lotus'un 29'uncu Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
-is the chamber of the 2nd Master. 
+is the chamber of the 2nd Master.
 The only exit is to the east.
  ~
 107 8|512 0
@@ -5136,10 +5136,10 @@ D1
 S
 
 #10867
-30th Chamber of the White Lotus~
+Beyaz Lotus'un 30'uncu Meclisi~
 This cold stone room is complete bare except for a door on the south wall.
 It is here that the higher monks and students come to test their skills. This
-is the chamber of the 3rd Master. 
+is the chamber of the 3rd Master.
 The only exit is to the south.
  ~
 107 8|512 0
@@ -5150,10 +5150,10 @@ D2
 S
 
 #10868
-31st Chamber of the White Lotus~
+Beyaz Lotus'un 31'inci Meclisi~
 This cold stone room is complete bare except for a door on the west wall.
 It is here that the higher monks and students come to test their skills. This
-is the chamber of the 4th Master. 
+is the chamber of the 4th Master.
 The only exit is to the west.
  ~
 107 8|512 0
@@ -5164,10 +5164,10 @@ D3
 S
 
 #10869
-32nd Chamber of the White Lotus~
+Beyaz Lotus'un 32'nci Meclisi~
 This cold stone room is complete bare except for a door on the west wall.
 It is here that the higher monks and students come to test their skills. This
-is the chamber of the 5th Master. 
+is the chamber of the 5th Master.
 The only exit is to the west.
  ~
 107 8|512 0
@@ -5178,7 +5178,7 @@ D3
 S
 
 #10870
-33rd Chamber of the White Lotus~
+Beyaz Lotus'un 33'üncü Meclisi~
 This is the chamber of the Abbot of the White Lotus Clan. If you have reached
 this room you are indeed an excellent fighter. The Abbot comes here
 periodically when there is a student that is proficient enought with their skills.
@@ -5192,7 +5192,7 @@ D3
 S
 
 #10871
-34th Chamber of the White Lotus~
+Beyaz Lotus'un 34'üncü Meclisi~
 You are indeed and expert! This is the 34th Chamber of the White Lotus
 Clan. Very few people have the stamina or skill to make it here.
 The Grand Abbot of the the Temple awaits you. He is here as the last
@@ -5207,7 +5207,7 @@ D3
 S
 
 #10872
-35th Chamber of the White Lotus~
+Beyaz Lotus'un 35'inci Meclisi~
 This is a room of meditation and rest. You may drink deeply from the fountain
 and eat to fill your body. Ahead is the 36th chamber. From there you will have
 graduated from the Temple and sent out to explore the lands. Know well that
@@ -5223,8 +5223,8 @@ D3
 S
 
 #10873
-36th Chamber of the White Lotus~
-This is the 36th Chamber of the White Lotus Clan. It is the ultimate test of 
+Beyaz Lotus'un 36'ncý Meclisi~
+This is the 36th Chamber of the White Lotus Clan. It is the ultimate test of
 one's abilities. If you survive you will surely be blessed by Buddha...
  ~
 107 8|512 0
@@ -5408,7 +5408,7 @@ M 0 10704 12 10745 1*	monk advanced student
 M 0 10704 12 10745 1*	monk advanced student
 *
 M 0 10705 6 10737 1*	monk teacher
-* 
+*
 M 0 10705 6 10741 1*	monk teacher
 *
 M 0 10705 6 10735 1*	monk teacher
@@ -5489,7 +5489,7 @@ M 0 10710 6 10803 1*	Gambling soldier
 *
 M 0 10710 6 10805 1*	Gambling soldier
 E 1 12709 99 17        	cards
-* 
+*
 M 0 10710 6 10805 1*	Gambling soldier
 *
 M 0 10710 6 10805 1*	Gambling soldier
@@ -5863,10 +5863,10 @@ M  10734 spec_cast_mage	White Lotus Chief
 *M  10768 spec_teacher		Teacher 30th Chamber Third Master
 *M  10769 spec_teacher		Teacher 31st Chamber Fourth Master
 *M  10770 spec_teacher		Teacher 32nd Chamber Fifth Master
-*M  10771 spec_teacher		Teacher 33rd Chamber Abbot 
-*M  10772 spec_teacher		Teacher 34th Chamber Grand Abbot 
-*M  10773 spec_teacher		Teacher 35th Chamber Disciple 
-*M  10774 spec_buddha		Teacher 36th Chamber Buddha 
+*M  10771 spec_teacher		Teacher 33rd Chamber Abbot
+*M  10772 spec_teacher		Teacher 34th Chamber Grand Abbot
+*M  10773 spec_teacher		Teacher 35th Chamber Disciple
+*M  10774 spec_buddha		Teacher 36th Chamber Buddha
 *
 *
 ******NOTES*****

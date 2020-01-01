@@ -1,5 +1,5 @@
 #AREA
-mirkwd2.are~
+mirkwood.are~
 Mirkwood~
 { 5 15} Yaegar  Mirkwood~
 8800 8899
@@ -21,9 +21,9 @@ Checked and beta tested by Quartz.
 
 #MOBILES
 #8800
-sylvan elf scout~
-a sylvan elf scout~
-A Sylvan Elf scout is offended at your intrusion!
+elf gözcüsü~
+elf gözcüsü~
+Bir elf gözcüsü varlýðýný farketti!
 ~
 The Sylvan Elves are a good people, but centuries of subjection to the
 violences and prejudices of other races have made them wary and very
@@ -39,9 +39,9 @@ DF ABNI AN GH
 stand sit male 103
 0 0 small 0
 #8801
-sylvan elf warrior~
-a sylvan elf warrior~
-A Sylvan Elf warrior lunges at you with his sword!
+elf savaþçý~
+elf savaþçý~
+Bir elf savaþçý silahýný çekiyor!
 ~
 The Sylvan Elves are a good people, but centuries of subjection to the
 violences and prejudices of other races have made them wary and very
@@ -56,9 +56,9 @@ CEF AB 0 D
 rest stand male 150
 0 0 small 0
 #8802
-orc scout~
-an orc scout~
-An Orcish scout screams and attacks!
+ork gözcü~
+ork gözcü~
+Ork gözcü seni farketti ve çýðlýk atmaya baþladý!
 ~
 These foul creatures have been sent in advance by Orcish forces to scout
 out the defenses of Mirkwood. So far, their attempts have resulted only
@@ -73,26 +73,26 @@ CDF AB 0 CD
 stand stand male 211
 0 0 medium 0
 #8803
-orc warrior~
-an orc warrior~
-An Orcish warrior screams and attacks!
+ork savaþçý~
+ork savaþçý~
+Ork savaþçý çýðlýk atarak saldýrýyor!
 ~
 These fell minions of Sauron have been sent in an attempt to subjugate
 Mirkwood. So far, their attempts have resulted only in their own demise,
-but eventually the Elves will be worn down by the sheer weight of numbers 
+but eventually the Elves will be worn down by the sheer weight of numbers
 of the immense Orcish hordes.
 ~
 orc~
 ACFG J -400 0
 5 1 2d6+60 1d1+99 1d6+1 grep
-5 5 7 5 
+5 5 7 5
 EIN AB 0 C
 stand stand male 0
 0 0 medium 0
 #8804
-guard~
-a wood elf guard~
-A Wood Elf guard angrily accosts you.
+orman elfi muhafýzý~
+orman elfi muhafýzý~
+Bir orman elfi muhafýzý dikkatle seni izliyor.
 ~
 This angry guard is incensed at your trespass in the hall of his king, and
 will attempt to forcibly eject you.
@@ -105,9 +105,9 @@ CKNRT ABHLN 0 0
 stand stand male 50
 0 0 small 0
 #8805
-chief guard~
-the chief of the guard~
-A Wood Elf chief of the guard lunges at you with his sword!
+muhafýz þefi~
+muhafýz þefi~
+Muhafýz þefi silahýný çekerek üzerine geliyor!
 ~
 The Wood Elves are a good people, but centuries of subjection to the
 violences and prejudices of other races have made them wary and very
@@ -122,9 +122,9 @@ CDEFRTU HLN C 0
 stand stand male 100
 0 0 medium 0
 #8806
-galion butler~
-Galion the butler~
-A Wood Elf butler glares at you accusingly.
+kahya galon~
+Kahya Galon~
+Elf kahyasý varlýðýndan tedirgin oldu.
 ~
 Galion has a tremenous fondness for Dorwinion Wine, and he is now well and
 truly inebriated. However that does not mean he won't react to your intrusion.
@@ -137,9 +137,9 @@ KN AB 0 0
 stand stand male 0
 0 0 medium 0
 #8807
-thranduil king~
-Thranduil, king of the Wood Elves~
-Thranduil, King of the Wood Elves, eyes you suspiciously.
+tanduil kral~
+Kral Tanduil~
+Orman elflerinin kralý Tanduil seni dikkatle izliyor.
 ~
 While not immune to the prejudices of his brethren, Thranduil is a trifle
 wiser (and more civilized) and he will not attack without provocation.
@@ -152,9 +152,9 @@ CDEK 0 D 0
 sit sit male 0
 0 0 medium 0
 #8808
-wood elf male~
-a male wood elf~
-A male Wood Elf glares angrily at you.
+erkek elf~
+erkek elf~
+Bir elf erkeði sana sinirle bakýyor.
 ~
 This person won't attack you like the guards will, but that doesn't mean
 he likes you any more than they do...
@@ -167,9 +167,9 @@ FR 0 0 0
 stand stand male 0
 0 0 small 0
 #8809
-wood elf female~
-a female wood elf~
-A female Wood Elf glares angrily at you.
+elf kadýn~
+kadýn elf~
+Bir elf kadýný sana sinirle bakýyor.
 ~
 This person won't attack you like the guards will, but that doesn't mean
 ahe likes you any more than they do...
@@ -182,9 +182,9 @@ FR 0 0 0
 stand stand female 0
 0 0 small 0
 #8810
-turnkey elf~
-the turnkey~
-The turnkey sleeps here.
+elf gardiyan~
+gardiyan~
+Gardiyan uyuyakalmýþ.
 ~
 This surly fellow is almost always passed out from copious alcohol consumption.
 ~
@@ -196,9 +196,9 @@ FJ 0 0 0
 sleep sleep male 20
 0 0 small 0
 #8811
-thorin oakenshield~
-Thorin Oakenshield~
-Thorin Oakenshield politely bows before you.
+torin meþekalkaný~
+Torin Meþekalkaný~
+Torin Meþekalkaný seni saygýyla selamlýyor.
 ~
 This Dwarf is descended from noble blood. He and his fellows were waylaid
 by the Wood Elves while journeying to avenge their brethren against the
@@ -215,22 +215,22 @@ stand stand male 40
 
 #OBJECTS
 #8800
-pool~
-a pool~
-A pool of crystal-clear water fills this clearing.
+havuz~
+havuz~
+Temiz bir su havuzu görüyorsun.
 ~
 air~
 fountain 0 0
 10000 10000 'water' 0 0
 0 0 0 P
 E
-pool~
+havuz~
 It looks tasty. Have a drink!
 ~
 #8801
-sword~
-an elvish sword~
-A beautiful sword has been left here.~
+elf kýlýç~
+elf kýlýcý~
+Güzel bir kýlýç burada býrakýlmýþ.~
 adamantite~
 weapon G AN
 sword 1 5 slash 0
@@ -238,9 +238,9 @@ sword 1 5 slash 0
 A
 18 2
 #8802
-cloak~
-a plain elven cloak~
-A plain, but practical, Elven cloak lies here.~
+elf fularý~
+elf fularý~
+Güzel bir elf fularý burada býrakýlmýþ.~
 cloth~
 armor G AC
 3 3 3 0 1
@@ -250,9 +250,9 @@ A
 A
 17 -2
 #8803
-boots~
-a pair of plain elven boots~
-A plain, but practical, pair of Elven boots.~
+elf çizme~
+bir çift elf çizmesi~
+Bir çift elf çizmesi burada býrakýlmýþ.~
 leather~
 armor G AG
 3 4 4 0 2
@@ -262,25 +262,25 @@ A
 A
 14 50
 #8804
-water flask~
-a water flask~
-An Elven water flask. It is rumored that they can provide water for days.~
+su þiþesi~
+su þiþesi~
+Elf iþi bir su þiþesi görüyorsun.~
 porcelain~
 drink 0 A
 10 10 'water' 0 0
 0 15 50 G
 #8805
-shield~
-a spiked metal shield~
-An Orcish spiked metal shield has been left here.~
+çivili metal kalkan~
+çivili metal kalkan~
+Ork iþi bir metal kalkan burada býrakýlmýþ.~
 steel~
 armor 0 AJ
 3 4 4 0 3
 5 40 400 G
 #8806
-scimitar~
-an orcish scimitar~
-An Orcish scimitar has been left here.~
+ork kýlýç~
+ork kýlýcý~
+Ork iþi bir kýlýç burada býrakýlmýþ.~
 iron~
 weapon G AN
 sword 1 6 cleave 0
@@ -290,9 +290,9 @@ A
 A
 19 1
 #8807
-helm~
-an ugly spiked helm~
-An ugly Orcish spiked helm has been left here.~
+çirkin çivili miðfer~
+çirkin çivili miðfer~
+Ork iþi bir miðfer burada býrakýlmýþ.~
 bronze~
 armor G AE
 4 3 3 0 2
@@ -300,37 +300,37 @@ armor G AE
 A
 17 -5
 #8808
-flask wine~
-a flask of Dorwinion wine~
-A half-drunk flask of fine Dorwinion wine lies here.~
+þarap þiþesi~
+þarap þiþesi~
+Bir þarap þiþesi burada býrakýlmýþ.~
 porcelain~
 drink 0 A
 10 5 'red wine' 0 0
-5 60 150 G 
+5 60 150 G
 #8809
-barrel wine~
-a barrel of Dorwinion wine~
-A barrel of Dorwinion wine is here.~
+þarap testisi~
+þarap testisi~
+Bir þarap testisi burada býrakýlmýþ.~
 wood~
 drink 0 A
 50 50 'wine' 0 0
 0 100 300 G
 #8810
-barrel~
-an empty barrel~
-This empty barrel would make a fine boat.~
+fýçý~
+boþ fýçý~
+Boþ bir fýçý buraya atýlmýþ.~
 wood~
 drink 0 A
 100 0 'water' 0 0
 1 140 200 G
 #8811
-sword~
-a fine elven sword~
-A fine Elven sword glimmers softly here.~
+güzel elf kýlýç~
+güzel bir elf kýlýcý~
+Güzel bir elf kýlýcý burada býrakýlmýþ.~
 metal~
 weapon AL AN
 sword 2 12 cleave DF
-14 45 600 G 
+14 45 600 G
 A
 2 1
 A
@@ -338,17 +338,17 @@ A
 A
 19 3
 #8812
-key~
-a key~
-A key to a cell door is here.~
+anahtar~
+anahtar~
+Bir hücre anahtarý burada unutulmuþ.~
 iron~
 key 0 AO
 0 0 0 0 0
 0 10 0 G
 #8813
-key~
-a key~
-A key to a cave door is here.~
+anahtar~
+anahtar~
+Bir maðara anahtarý burada unutulmuþ.~
 iron~
 key 0 AO
 0 0 0 0 0
@@ -358,11 +358,11 @@ key 0 AO
 #ROOMS
 
 #8800
-Entrance to Mirkwood~
+Puslu Ormanýn Giriþi~
 You have entered the quasi-magical Elven forest of Mirkwood, populated by
 Sylvan Elves and their mysterious allies. Strangers are frowned upon here,
-so be on your guard. It is rumored that many different races of Elves actually 
-inhabit this forest, in various parts and sometimes they are carefully hidden, 
+so be on your guard. It is rumored that many different races of Elves actually
+inhabit this forest, in various parts and sometimes they are carefully hidden,
 away from the prying eyes of strangers.
 There is a sign tacked to a tree nearby.
      There is a small (Glowing) (Huming) tablet.
@@ -381,9 +381,9 @@ D2
 ~
 0 -1 8855
 E
-sign~
+iþaret~
 This area serves as a connector for many areas with an Elven or Faerie flavour,
-favored areas of the Immortal Yaegar. Tread carefully, and remember to keep 
+favored areas of the Immortal Yaegar. Tread carefully, and remember to keep
 track of where you have been.
 
 --Yaegar
@@ -409,7 +409,7 @@ small tablet~
 ~
 S
 #8801
-The Path Through Mirkwood~
+Puslu Ormanda Yol~
 You are advancing along a narrow path that runs deep into the forest of
 Mirkwood. Giant, ancient trees tower over you to either side, and sweet
 songbirds sing in their lofty branches. However, despite this serene scene,
@@ -426,7 +426,7 @@ D2
 0 -1 8800
 S
 #8802
-The Path Through Mirkwood~
+Puslu Ormanda Yol~
 You are advancing along a narrow path that runs deep into the forest of
 Mirkwood. Giant, ancient trees tower over you to either side, and sweet
 songbirds sing in their lofty branches. However, despite this serene scene,
@@ -443,7 +443,7 @@ D2
 0 -1 8801
 S
 #8803
-A Fork in the Path~
+Yol Ayrýmý~
 You have reached a point where the path branches, with paths running to the
 east and west. A wild animal suddenly howls angrily some distance away, and
 you involuntarily jump.
@@ -463,7 +463,7 @@ D3
 0 -1 8820
 S
 #8804
-A Broad Path~
+Geniþ Yol~
 This branch of the path widens out after a short distance, and you notice
 signs of heavy use, evidently by non-Elves, as Elves do not leave footprints.
 The trees are thinner and smaller in this part of the forest, giving the
@@ -480,7 +480,7 @@ D3
 0 -1 8803
 S
 #8805
-Another Junction~
+Kesiþim~
 The path once again divides, this time into northern and southern branches.
 To the north an impressive-looking citadel looms over the treetops, while
 to the south the trail becomes significantly narrower, and overgrown.
@@ -500,7 +500,7 @@ D3
 0 -1 8804
 S
 #8806
-A Bend in the Road~
+Yol Bükümü~
 The northern road bends to the east at this point, allowing you to gaze
 upon a wondrous Elven Fortress. Although you are more than a mile away,
 it still looms large ahead of you.
@@ -516,7 +516,7 @@ D2
 0 -1 8805
 S
 #8807
-Plains~
+Düzlükler~
 The road opens onto an area cleared of trees here, a broad plain dotted with
 the occasional hedge or distant farmhouse. There is a marked path running
 due east toward the west gate of the distant fortress.
@@ -528,7 +528,7 @@ D3
 0 -1 8806
 S
 #8808
-The Southern Trail~
+Güney Yolu~
 Progress along this narrow, overgrown path is next to impossible, and you
 find yourself having to stop several times for a rest. There doesn't seem to
 be any quick end to it either.
@@ -544,7 +544,7 @@ D2
 0 -1 8809
 S
 #8809
-The Southern Trail~
+Güney Yolu~
 Progress along this narrow, overgrown path is next to impossible, and you
 find yourself having to stop several times for a rest. There doesn't seem to
 be any quick end to it either.
@@ -565,7 +565,7 @@ D4
 0 -1 8810
 S
 #8810
-A Guard Post~
+Muhafýz Noktasý~
 You have stumbled into a Sylvan Elf guard post, from which they carefully
 watch out for intruding Orcs or Goblins. They dislike strangers in general,
 and detest interlopers into their personal areas even more. Expect a violent
@@ -578,7 +578,7 @@ D5
 0 -1 8809
 S
 #8811
-The Southern Trail~
+Güney Yolu~
 Progress along this narrow, overgrown path is next to impossible, and you
 find yourself having to stop several times for a rest. There doesn't seem to
 be any quick end to it either.
@@ -600,7 +600,7 @@ D2
 0 -1 8812
 S
 #8812
-A Dead End~
+Ölümcül Son~
 WHAT? After all that exertion, the path ends at a DEAD END??? Ah well, I
 guess you had better turn back...
 ~
@@ -611,7 +611,7 @@ D0
 0 -1 8811
 S
 #8813
-The Eastern Path~
+Doðu Yolu~
 This path is certainly less overgrown than the north-south one. You actually
 find yourself able to move relatively quickly through the forest, stopping
 only occasionally to hack away an overhanging branch or vine.
@@ -627,7 +627,7 @@ D3
 0 -1 8811
 S
 #8814
-The Eastern Path~
+Doðu Yolu~
 This path is certainly less overgrown than the north-south one. You actually
 find yourself able to move relatively quickly through the forest, stopping
 only occasionally to hack away an overhanging branch or vine.
@@ -643,7 +643,7 @@ D3
 0 -1 8813
 S
 #8815
-A Bend in the Path~
+Yol Bükümü~
 You have reached a point where the path bends to the north.
 ~
 0 0 3
@@ -657,7 +657,7 @@ D3
 0 -1 8814
 S
 #8816
-The Northern Path~
+Kuzey Yolu~
 The path here is fairly clear and free of vegetation. It actually looks
 fairly well-maintained. You think you can hear a distant singing to the
 north.
@@ -673,7 +673,7 @@ D2
 0 -1 8815
 S
 #8817
-The Northern Path~
+Kuzey Yolu~
 The path here is fairly clear and free of vegetation. It actually looks
 fairly well-maintained. You think you can hear a distant singing to the
 north.
@@ -694,7 +694,7 @@ D2
 0 -1 8816
 S
 #8818
-The End of the Path~
+Yolun Sonu~
 The path ends here in a small clearing with a small shallow pool of crystal
 clear water. You feel strangely at ease here.
 ~
@@ -705,7 +705,7 @@ D3
 0 -1 8817
 S
 #8819
-Approaching the Holy Grove~
+Kutsal Koru Yakýný~
 The singing is clearly audible here, and it is coming from a well-tended
 grove to the east. Dimly visible are all manner of man and beast, and
 although they would usually feed upon each other, they all seem to be at
@@ -722,7 +722,7 @@ D2
 0 -1 8817
 S
 #8820
-The Western Path~
+Batý Yolu~
 This path is rather overgrown but it is still easily navigable. You fancy
 you can see a rope ladder ascending into the brances of a tall oak near the
 eastern side of the road.
@@ -742,7 +742,7 @@ D4
 0 -1 8821
 S
 #8821
-A Guard Post~
+Muhafýz Noktasý~
 You have stumbled into a Sylvan Elf guard post, from which they carefully
 watch out for intruding Orcs or Goblins. They dislike strangers in general,
 and detest interlopers into their personal areas even more. Expect a violent
@@ -755,7 +755,7 @@ D5
 0 -1 8820
 S
 #8822
-A Bend to the North~
+Kuzeye Büküm~
 The path bends to the north here, running for some distance toward a stream.
 ~
 0 0 3
@@ -769,7 +769,7 @@ D1
 0 -1 8820
 S
 #8823
-A Northern Path~
+Kuzey Yolu~
 This path is fairly even and well-used, so going is not as rough as the
 previous paths. There is a wide stream dead ahead.
 ~
@@ -784,7 +784,7 @@ D2
 0 -1 8822
 S
 #8824
-A Stream~
+Dere~
 This stream is too wide and deep to wade across. You'll need a boat or a
 spell. Mind you, you could always whip out your rod and start angling :)
 ~
@@ -803,7 +803,7 @@ D2
 0 -1 8823
 S
 #8825
-A Northern Path~
+Kuzey Yolu~
 This path is fairly even and well-used, so going is not as rough as the
 previous paths. There is a wide stream to the south.
 A broad, tree-lined path runs to the east.
@@ -823,7 +823,7 @@ D2
 0 -1 8824
 S
 #8826
-A Junction~
+Kesiþim~
 You have reached a point where you can proceed either north or west. Your
 choice. You still have the feeling you're being watched...
 ~
@@ -842,7 +842,7 @@ D3
 0 -1 8827
 S
 #8827
-The Western Path~
+Batý Yolu~
 The path you are on here runs down a gently sloping hill, to the base of a
 beautiful valley below.
 ~
@@ -857,7 +857,7 @@ D5
 0 -1 8828
 S
 #8828
-The Hill~
+Tepe~
 The path you are on here runs down a gently sloping hill, to the base of a
 beautiful valley below.
 ~
@@ -872,7 +872,7 @@ D5
 0 -1 8829
 S
 #8829
-The Base of the Hill~
+Tepe Dibi~
 You can proceed east toward the valley from here, or return to the summit
 above.
 ~
@@ -887,7 +887,7 @@ D4
 0 -1 8828
 S
 #8830
-A Northern Path~
+Kuzey Yolu~
 This path is fairly even and well-used, so going is not as rough as the
 previous paths. There is a narrow path to the east.
 ~
@@ -906,7 +906,7 @@ D2
 0 -1 8826
 S
 #8831
-A Narrow Path~
+Dar Yol~
 You are walking along a narrow path that runs from the major northern path
 through Mirkwood. Up ahead the path ends in a dead end.
 ~
@@ -917,7 +917,7 @@ D3
 0 -1 8830
 S
 #8832
-A Northern Path~
+Kuzey Yolu~
 This path is fairly even and well-used, so going is not as rough as the
 previous paths.
 ~
@@ -932,7 +932,7 @@ D2
 0 -1 8830
 S
 #8833
-A Northern Path~
+Kuzey Yolu~
 This path is fairly even and well-used, so going is not as rough as the
 previous paths. There is a broad junction to the north.
 ~
@@ -947,7 +947,7 @@ D2
 0 -1 8832
 S
 #8834
-A Broad Junction~
+Geniþ Kesiþim~
 You have come to another junction in the forest. The path to the east runs
 through some handsome aspen and pine, but the northern passage is lined by
 sickly-looking, dying trees of unidentifiable type.
@@ -967,7 +967,7 @@ D2
 0 -1 8833
 S
 #8835
-An Evil Section of the Forest~
+Ormanýn Kara Bölümü~
 There is a palpable evil in this area that causes you to shiver as you pass
 by the blighted vegetation that lines this twisted gray path. The sky can
 no longer be seen overhead- instead a canopy of decaying leaves and rotten
@@ -984,7 +984,7 @@ D2
 0 -1 8834
 S
 #8836
-An Evil Section of the Forest~
+Ormanýn Kara Bölümü~
 There is a palpable eveil in this area that causes you to shiver as you pass
 by the blighted vegetation that lines this twisted gray path. The sky can
 no longer be seen overhead- instead a canopy of decaying leaves and rotten
@@ -1001,7 +1001,7 @@ D3
 0 -1 8837
 S
 #8837
-An Evil Section of the Forest~
+Ormanýn Kara Bölümü~
 There is a palpable eveil in this area that causes you to shiver as you pass
 by the blighted vegetation that lines this twisted gray path. The sky can
 no longer be seen overhead- instead a canopy of decaying leaves and rotten
@@ -1019,7 +1019,7 @@ D3
 0 -1 8838
 S
 #8838
-An Evil Section of the Forest~
+Ormanýn Kara Bölümü~
 There is a palpable eveil in this area that causes you to shiver as you pass
 by the blighted vegetation that lines this twisted gray path. The sky can
 no longer be seen overhead- instead a canopy of decaying leaves and rotten
@@ -1043,7 +1043,7 @@ D3
 0 -1 8839
 S
 #8839
-An Evil Section of the Forest~
+Ormanýn Kara Bölümü~
 There is a palpable eveil in this area that causes you to shiver as you pass
 by the blighted vegetation that lines this twisted gray path. The sky can
 no longer be seen overhead- instead a canopy of decaying leaves and rotten
@@ -1062,7 +1062,7 @@ D2
 0 -1 8840
 S
 #8840
-The Cliff Face~
+Uçurum Önü~
 You are standing before the gash in the cliff-face now, wondering whether
 you should continue into the inky darkness beyond...
 ~
@@ -1078,7 +1078,7 @@ It is entrance to unknown area. Not implemented. Sorry (14000)
 0 -1 0
 S
 #8841
-A Bend in the Path~
+Yol Bükümü~
 You reach a bend in the path, where you can head north or west.
 ~
 0 0 3
@@ -1092,7 +1092,7 @@ D3
 0 -1 8834
 S
 #8842
-A Bend in the Path~
+Yol Bükümü~
 You reach a bend in the path, where you can head south or east.
 ~
 0 0 3
@@ -1106,7 +1106,7 @@ D2
 0 -1 8841
 S
 #8843
-A Junction~
+Kesiþim~
 The path once again divides, this time into northern and southern branches.
 To the north lies another bend in the trail, while to the south the trail
 becomes significantly narrower, and overgrown.
@@ -1126,7 +1126,7 @@ D3
 0 -1 8842
 S
 #8844
-A Dead End~
+Ölümcül Son~
 The passage ends in a dead end, but you see a small rope ladder hanging down
 from a nearby oak tree, disappearing in its bushy branches above.
 ~
@@ -1141,7 +1141,7 @@ D4
 0 -1 8846
 S
 #8845
-A Bend in the Path~
+Yol Bükümü~
 Here, the path bends sharply to the east, heading toward an area of the
 forest that is very different from the previous section. A second path
 runs to the north.
@@ -1161,7 +1161,7 @@ D2
 0 -1 8843
 S
 #8846
-A Guard Post~
+Muhafýz Noktasý~
 You have stumbled into a Sylvan Elf guard post, from which they carefully
 watch out for intruding Orcs or Goblins. They dislike strangers in general,
 and detest interlopers into their personal areas even more. Expect a violent
@@ -1174,7 +1174,7 @@ D5
 0 -1 8844
 S
 #8847
-A T-Junction~
+T Kavþaðý~
 You have come out of Mirkwood onto a rather dusty trail. At this point you
 may proceed east toward some well-cultivated fields, or south and west back
 into the forest.
@@ -1194,7 +1194,7 @@ D3
 0 -1 8845
 S
 #8848
-Cultivated Field~
+Ýþlenmiþ Tarla~
 This field borders on a neatly-tended area with several small farmhouses and
 a small watch-tower near a wide stream.
 ~
@@ -1205,7 +1205,7 @@ D3
 0 -1 8847
 S
 #8849
-A Desolate Section of the Forest~
+Ormanýn Issýzlýðýnda~
 You have entered a rather forlorn section of the forest, littered with dead
 and dying trees, plus the occasional corpse. Howls and cries of pain sound
 far off to the south.
@@ -1221,7 +1221,7 @@ D1
 0 -1 8850
 S
 #8850
-A Desolate Section of the Forest~
+Ormanýn Issýzlýðýnda~
 You have entered a rather forlorn section of the forest, littered with dead
 and dying trees, plus the occasional corpse. Howls and cries of pain sound
 far off to the south.
@@ -1237,7 +1237,7 @@ D3
 0 -1 8849
 S
 #8851
-A Desolate Section of the Forest~
+Ormanýn Issýzlýðýnda~
 You have entered a rather forlorn section of the forest, littered with dead
 and dying trees, plus the occasional corpse. Howls and cries of pain sound
 far off to the south.
@@ -1254,7 +1254,7 @@ D3
 0 -1 8852
 S
 #8852
-The Path to Firetop Mountain~
+Ateþ Daðýna Yol~
 The path runs past the rubble and up into the foothills of an immense
 mountain range. far in the distance looms Firetop Mountain.
 ~
@@ -1269,7 +1269,7 @@ D1
 0 -1 8851
 S
 #8853
-The Path Continues~
+Yol~
 You continue for what seems like an eternity, drawing slowly closer to the
 distant peak.
 ~
@@ -1284,13 +1284,13 @@ D2
 0 -1 8852
 S
 #8854
-The Path Continues~
+Yol~
 You continue for what seems like an eternity, drawing slowly closer to the
 distant peak.
 ~
 0 0 4
 D0
-It is entrance to Firetop Mountain 
+It is entrance to Firetop Mountain
 ~
 ~
 0 -1 5735
@@ -1300,7 +1300,7 @@ D2
 0 -1 8853
 S
 #8855
-Approaching Mirkwood~
+Puslu Orman Civarý~
 The forest begins to surround you as you step into its depths. The path
 abruptly turns to the north and you continue.
 ~
@@ -1312,10 +1312,10 @@ D0
 D4
 ~
 ~
-0 -1 338 
+0 -1 338
 S
 #8856
-A Broad Tree-Lined Path~
+Üçlü Geniþ Yol~
 This path runs for some distance toward a huge cave, entrance to which is
 restricted by a massive, handsome door that glows with magic. Magnificent
 oaks tower high to either side, and everywhere there is light and beauty.
@@ -1332,7 +1332,7 @@ D3
 0 -1 8825
 S
 #8857
-A Broad Tree-Lined Path~
+Üçlü Geniþ Yol~
 This path runs for some distance toward a huge cave, entrance to which is
 restricted by a massive, handsome door that glows with magic. Magnificent
 oaks tower high to either side, and everywhere there is light and beauty.
@@ -1350,7 +1350,7 @@ D3
 0 -1 8856
 S
 #8858
-Inside the Cave~
+Maðarada~
 You are in the castle of the Wood Elven King Thranduil. The corridor here
 is usually deserted. It would be advisable to keep a low profile, as the
 natives are hostile...
@@ -1371,7 +1371,7 @@ D3
 1 8813 8857
 S
 #8859
-Inside the Cave~
+Maðarada~
 You are in the castle of the Wood Elven King Thranduil. The corridor here
 is usually deserted. It would be advisable to keep a low profile, as the
 natives are hostile...
@@ -1387,7 +1387,7 @@ D2
 0 -1 8858
 S
 #8860
-A Guard Room~
+Muhafýz Odasý~
 You have stumbled into the guard room! The guards will definitely not
 be happy to see you. You fancy you can hear muffled cries for help.
 ~
@@ -1406,7 +1406,7 @@ D3
 1 0 8859
 S
 #8861
-Storage Room~
+Depo~
 In this room the Elves store their foodstuffs and beloved Dorwinion Wine.
 A trapdoor in the floor allows access to the river, and it is through here
 that the Elves deposit their empty barrels, so that the river may carry
@@ -1423,7 +1423,7 @@ D5
 1 0 8862
 S
 #8862
-The River~
+Nehir~
 You are floating along a river that will carry you back through the forest,
 and eventually to Lake Town.
 ~
@@ -1438,7 +1438,7 @@ D4
 1 0 8861
 S
 #8863
-The River~
+Nehir~
 You are floating along a river that will carry you back through the forest,
 and eventually to Lake Town.
 ~
@@ -1453,7 +1453,7 @@ D2
 0 -1 8866
 S
 #8864
-Inside the Cave~
+Maðarada~
 You are in the castle of the Wood Elven King Thranduil. The corridor here
 is usually deserted. It would be advisable to keep a low profile, as the
 natives are hostile...
@@ -1469,7 +1469,7 @@ D1
 1 0 8865
 S
 #8865
-The Throne Room of Thrandul~
+Taht Odasý~
 Now you've blown it. You've gone and stumbled into the King's Throne Room.
 He is seated upon an intricately-carved wooden throne at the end of the hall.
 Dour guards glare at you on all sides.
@@ -1481,7 +1481,7 @@ D3
 1 0 8864
 S
 #8866
-The River~
+Nehir~
 You are floating along a river that will carry you back through the forest,
 and eventually to Lake Town.
 ~
@@ -1496,7 +1496,7 @@ D3
 0 -1 8824
 S
 #8867
-A Cell~
+Hücre~
 This damp cell is small and cramped, and offers little comfort to its
 single inhabitant.
 ~
@@ -1507,7 +1507,7 @@ D2
 1 0 8860
 S
 #8868
-A Northern Path~
+Kuzey Yolu~
 This path runs more or less directly north toward a rather old-looking
 section of the woods.
 ~
@@ -1522,7 +1522,7 @@ D2
 0 -1 8845
 S
 #8869
-A Northern Path~
+Kuzey Yolu~
 You are progressing along a long, straight northern path. Up ahead, you can
 see some sort of clearing.
 ~

@@ -1,0 +1,868 @@
+#AREA
+lic_kulesi.are~
+Lich Tower~
+{45 75} Ryzen   Liç Kulesi~
+29350 29399
+
+#MOBILES
+#29350
+Ölüm þövalyesi~
+Bir Ölüm Þövalyesi~
+Çoktan ölmüþ, iskelet bir þövalye burayý koruyor.
+~
+Ölüm þövalyeleri çok güçlü düþmanlardýr.Efsane karakamlarýn güçlü efsunlarý sayesinde ölüye dönüþmüþlerdir.
+Ýlk yaþamlarýnda hepsi diyarda nam salan þövalye ve savaþçýlardý.
+~
+human~
+AFGO c -750 0
+40 0 15d10+1850 45d10+950 4d8+15 magic
+-12 -12 -12 0
+CDEIKU LPQ IJ HN
+stand stand none 800
+AHIMV ABCDEFGHIJK medium 0
+#29351
+iþkenceci sorgulayýcý ~
+Sorgulayýcý~
+Sorgulayýcý burada hangi iþkencelerle istediði cevaplarý alabileceðini düþünüyor
+~
+Bir zombi gibi gözüküyor ama görüntüsü seni aldatmasýn o çok daha kötü ve güçlü.
+Kurbanlarýný iþkence ederken hayatta tutmak için güçlü büyülere sahip biri.
+~
+human~
+ABOQ Hc -1000 0
+50 0 15d10+4250 45d10+950 5d8+19 magic
+-20 -20 -20 -2
+CN ILQ P HN
+stand stand none 800
+AHIMV ABCDEFGHIJK medium 0
+#29352
+küçük iblis~
+Küçük bir iblis~
+Küçük bir iblis burada alevlerin içinde bekliyor.
+~
+Agresif görünen bir iblis mangalýn alevlerinin içinde duruyor.  Büyük ihtimalle
+zorla çaðýrýlmýþ ve bunun için sinirli.  Güçlü pençeleri ve uzun diþleri seni
+ne kadar hýzlý koþabileceðin konusunda düþünmeye sevk ediyor.
+~
+human~
+ABT T -1000 0
+50 0 15d10+4250 45d10+950 5d8+19 magic
+-20 -20 -20 -2
+CDFHK H LPQ IN
+stand stand none 800
+ACHMV ABCDEFGHIJK medium 0
+#29353
+büyük iblis~
+Büyük Bir Ýblis~
+Büyük bir iblis burada duruyor.
+~
+Büyük ve lanetli görünen bir iblis , heryerini alevler sarmýþ.  Kanatlarý, kuyruðu, boynuzlarý,
+diþleri, pençeleri kýsacasý herþeyiyle aklýndaki iblis portresi tam karþýnda duruyor.
+Siyaha çalan derisi alev kýrmýzýsý ile karýþýyor çoðu yerde ve içinde ateþler yanan gözleri ruhunu emmeye çalýþýyor.
+Kork ölümlü çünkü ölmek üzeresin.
+~
+dragon~
+ABOT HT -1000 0
+65 0 50d10+8250 45d10+950 11d5+35 magic
+-35 -35 -35 -10
+CFKM HLQ BDHIJK CFIN
+stand stand none 800
+ACHZc ADEFIKLPQUVX large 0
+#29354
+Liç Lordu Myzelak~
+Liç Lordu Myzelak~
+Liç Lordu Myzelak burada tahtýnda oturuyor.
+~
+Kötülüðün þaheseri.Myzelak yýllarca büyüsünü mükemmelleþtirmek için uðraþtý ve sonunda bir ölü olarak yaþayabildi.
+Ýþte karakamlarýn en yücelerinden bir tanesi karþýnda duruyor.Daha büyük bir planla uðraþýyor gibi gözüküyor.
+~
+human~
+ABQR HJ -1000 0
+75 0 50d10+11000 45d10+1950 9d11+45 magic
+-45 -45 -45 -14
+FIJN 0 CDHIJ N
+stand stand none 800
+AHMV ABCDEFGHIJK medium 0
+#29355
+liç ejder~
+Liç Ejder~
+Myzelak'ýn kadim Liç Ejderi burada.
+~
+Çok büyük ve gerçekten korkutucu.Aðzýndan dumanlar çýkýyor.Etleri çürümüþ ve gözlerinde danseden alevler var.
+Belki de koþmaya baþlasan iyi olacak.
+~
+dragon~
+ABOT T -1000 0
+60 0 50d10+6750 45d10+1950 8d6+28 magic
+-30 -30 -30 -10
+CDFMO 0 HIJK FKN
+stand stand none 800
+AHZc ADEFIKLPQUVX giant 0
+#29356
+Seçkin Ölüm Þövalyesi~
+Seçkin bir Ölüm Þövalyesi~
+Seçkin bir Ölüm Þövalyesi þeytani bir kahkaha atýp üstüne saldýrýyor.
+~
+Ýri bir iskelet bedeni var. Rünlerle kaplý ve büyük ihtimalle ejder derisinden yapýlmýþ siyah bir kalkan taþýyor.
+En kuvvetlilerinden biri olmalý çünkü elinde taþýdýðý senin gövden kadar olan topuzu sanki hafif bir çubukmuþ gibi savuruyor.
+~
+giant~
+ABOT 0 -900 0
+70 0 50d10+9750 45d10+2950 8d10+40 magic
+-40 -40 -40 -10
+CDFIKO 0 CHI HJNP
+stand stand none 800
+AHMV ABCDEFGHIJK large 0
+#0
+
+
+
+#OBJECTS
+#29350
+siyah topuz ~
+Eski siyah bir topuz~
+Eski , demirden yapýlmýþ siyah bir topuz yerde duruyor.~
+iron~
+weapon B AN
+mace 6 7 pound 0
+40 25 1000 P
+#29351
+yanan kafatasý~
+yanan bir kafatasý~
+Bir insanýn kafatasý yerde , mavi alevler içinde dönüyor.~
+stone~
+light AG AO
+0 0 999 0 0
+48 5 1000 P
+A
+5 -2
+A
+13 25
+A
+12 25
+A
+18 2
+A
+19 2
+A
+3 2
+#29352
+alýn asa~
+altýn bir asa~
+Küçük altýn bir asa yerde duruyor.~
+gold~
+wand 0 AO
+50 10 10 'shield' 0
+50 3 5000 P
+#29353
+kristal asa~
+Kristal asa~
+Küçük kristal bir asa yerde duruyor.~
+stone~
+staff G AO
+70 5 5 'heal' 0
+60 10 7800 P
+#29354
+Lal taþýndan bir yüzük~
+Lal taþýndan bir yüzük~
+Lal taþýndan bir yüzük yerde duruyor.~
+gold~
+treasure AG AB
+0 0 0 0 0
+58 1 900 P
+A
+19 3
+A
+12 50
+A
+3 2
+A
+18 2
+#29355
+gece bilekliði~
+Gece Bilekliði~
+Kadim rünlerle kaplý bir bileklik yerde duruyor..~
+admantite~
+armor BG AM
+18 18 17 8 0
+54 5 1500 P
+A
+18 2
+A
+19 2
+A
+5 1
+#29356
+Gece yazgýsý~
+Gece Yazgýsý~
+Doðal olmayan bir mavi ýþýk yerde duruyor..~
+silver~
+armor AG AC
+21 21 21 10 0
+64 3 2000 P
+A
+14 25
+A
+12 50
+A
+3 1
+A
+4 1
+#29357
+Kadim uzun kýlýç~
+Kadim uzun kýlýç~
+Kadim uzun kýlýç yerde, þeytani bir þekilde parlýyor..~
+admantite~
+weapon AG AN
+sword 10 8 slash DH
+70 12 2500 P
+A
+19 3
+A
+18 3
+#29358
+siyah ejder derisi~
+siyah ejder derisi~
+Siyah bir ejder derisi burada.~
+admantite~
+armor 0 AJ
+21 22 21 10 0
+65 30 1200 P
+A
+18 3
+A
+19 5
+A
+13 25
+A
+1 2
+A
+3 -2
+#29359
+cehennem kýlýcý~
+Cehennem Gazabý~
+Alevler saçan bir kýlýç yerde duruyor.~
+admantite~
+weapon ABEGM AN
+exotic 10 8 bite CE
+73 10 5000 P
+A
+2 1
+A
+1 1
+A
+18 5
+A
+19 5
+A
+4 -1
+A
+3 -1
+#29360
+büyücü cüppesi~
+Büyücü'nün Cüppesi~
+Aylar ve yýldýzlarla iþlenmiþ uzun siyah bir cüppe yerde duruyor.~
+unknown~
+armor G AK
+24 24 24 11 0
+72 10 3000 P
+A
+3 3
+A
+12 150
+#29361
+sonsuzluk parþömeni~
+Sonsuzluk Parþömeni~
+Tüm sorularýn cevabýna sahip bir parþömen burada duruyor.(þanssýzlýk ki onu okuyabilecek tek kiþiyi az önce yokettin)~
+silver~
+armor ABG AO
+23 23 24 11 0
+74 4 7500 P
+A
+18 2
+A
+19 2
+A
+2 -1
+A
+1 -2
+A
+4 2
+A
+3 2
+A
+13 50
+A
+12 50
+#29362
+gümüþi iksir~
+gümüþi iksir ~
+Gümüþi bir iksir masanýn üstünde býrakýlmýþ~
+glass~
+potion AG AO
+40 'invisibility' 'detect invis' 'detect magic' 'detect poison'
+40 2 5400 P
+#29363
+altýn anahtar~
+altýn bir anahtar~
+Altýn bir anahtar kitabýn içinde duruyor.~
+gold~
+key 0 A
+0 0 0 0 0
+40 1 0 P
+#29364
+su botlarý~
+Su botlarý~
+Üzerinde balýk ve deniz resimleri olan bir çift  deri bot yerde duruyor~
+mithril~
+boat G AG
+0 0 0 0 0
+40 5 1000 P
+A
+18 2
+A
+2 1
+A
+17 -5
+#29365
+hýrsýz ceketi~
+Hýrsýz'ýn Ceketi~
+Bir sürü cebi olan bir ceket yerde duruyor..~
+admantite~
+armor G AD
+13 13 12 5 0
+40 15 900 P
+A
+18 3
+A
+2 3
+#29366
+boþ kaðýt~
+bir parça boþ kaðýt~
+bir parça boþ kaðýt rafta duruyor.~
+paper~
+gem 0 AO
+0 0 0 0 3
+35 1 2000 P
+#29367
+tahta sandalye~
+Büyük tahta bir sandalye~
+Büyük tahta bir sandalye burada duruyor.~
+wood~
+furniture 0 0
+0 0 0 0 0
+30 50 0 P
+#29368
+yemek masasý~
+uzun yemek masasý~
+Uzun yemek masasý burada duruyor.~
+wood~
+furniture 0 0
+0 0 0 0 0
+30 100 0 P
+#29369
+tahta kitap rafý~
+Eski, tahtadan yapýlmýþ kitap rafý~
+Doðu duvarýnda eski bir raf var.~
+wood~
+container 0 0
+10 0 0 0 75
+40 200 0 P
+#29370
+çalýþma masasý~
+Büyük çalýþma masasý~
+Batý duvarýnda bir çalýþma masasý duruyor.~
+wood~
+container 0 0
+999 0 22001 499 75
+40 150 0 P
+#29371
+gömme dolap~
+Duvarda bir gömme dolap~
+Duvara oyulmuþ bir gömme dolap burada duruyor.~
+stone~
+container 0 0
+999 0 29363 499 75
+40 999 0 P
+#29372
+kese~
+efsunlu kese~
+kadim ve büyülü bir kese burada açýlmayý bekliyor.~
+leather~
+container AG 0
+100 0 0 50 75
+40 50 0 P
+#29373
+Taþ tabela~
+Büyük Taþ Tabela~
+Büyük Taþ Tabela~
+stone~
+furniture 0 0
+0 0 0 0 0
+1 200 0 P
+E
+Tabela~
+Bu bölge seviye 45 ve 75 arasýdýr.
+~
+E
+Tabela~
+Bölgeye seviye 45 ten düþük kiþilerin girmesi tehlikelidir.Agresif moblar barýndýrýr.Ama görünmezi saptayamazlar.
+Görünmezseniz rahat rahat gezebilirsiniz.
+~
+#0
+
+
+
+#ROOMS
+#29350
+Kuleden Önce~
+Büyük siyah bir kulenin karþýsýnda duruyorsun.Ýçerden yükselen kötülük buradan bile hissediliyor.
+Ýnsaný ürperten kötülük ve ölümle dolu bir büyü duvarlarý koruyor.Kuzeyde bütün umutlarý öldüren bir dað gözüküyor.
+. Doðudaki yola ilerleyerek buradan gidebilir yada batýda yeni bir maceraya adým atabilirsin.
+~
+0 0 0
+D1
+~
+~
+0 0 2309
+D3
+~
+~
+0 0 29351
+S
+#29351
+Kemerli Geçidin Altýnda~
+Odanýn duvarlarý arkanda uzanýyor ve kafaýnýn üstündeki kemeri rünleriyle tamalýyor.Burasý gerçekten sinir bozucu bir yer.
+Batýdan meþalelerin ýþýðý geliyor, kuzeyden de lanetli bir kükreme duyuluyor.
+~
+0 D 0
+D0
+~
+~
+0 0 29352
+D1
+~
+~
+0 0 29350
+D3
+~
+~
+0 0 29353
+S
+#29352
+Liç Ejderin Odasý~
+Hazinelerle dolu bir odada duruyorsun  Sýradýþý bir obje gözüne takýlýyor.Büyük bir oturma yeri olan bir eyer e benziyor.
+Bunun hangi hayvana takýlabileceðini düþünürken arkandaki liç ejderhayý farkediyorsun.Tek çýkýþ güneye.
+~
+0 D 0
+D2
+~
+~
+0 0 29351
+S
+#29353
+Giriþ Holü~
+Büyük bir halý yeri kaplýyor.  Halý insanlarýn ve yarý insanlarýn ölüler tarafýndan katlediþini resmediyor.
+Meþaleler duvarlardaki eski zamanlarda gerçekleþen savaþlardan kalma kalkanlarý, silahlarý ve ganimetleri aydýnlatýyor.
+Ýki çýkýþ güneye ve batýya ilerliyor.Durduðun yerden çýkýþlarda ne olduðu belli olmuyor.
+~
+0 D 0
+D1
+~
+~
+0 0 29351
+D2
+~
+~
+0 0 29354
+D3
+~
+~
+0 0 29356
+S
+#29354
+Yemek Odasý~
+Bu oda yemek odasý olarak kullanýlýyor. Masa çok tozlu anlaþýlan uzun zamandýr kullanýlmýyor.
+Batýda mutfak ve kuzeyde bir hol var.
+~
+0 D 0
+D0
+~
+~
+0 0 29353
+D3
+~
+~
+0 0 29355
+S
+#29355
+Mutfak~
+Odaya girdiðin gibi reflekslerin burnunu kapatmak için harekete geçiyor.Temiz hava almak için en yakýn çýkýþý arýyorsun.
+Kuzeyde merdivenler doðuda ise yemek odasý var ve güneye bir depo odasý açýlýyor.
+~
+0 D 0
+D0
+~
+~
+0 0 29356
+D1
+~
+~
+0 0 29354
+D2
+~
+~
+0 0 29369
+S
+#29356
+Merdivenlerin Tabaný~
+Karþýnda basamaklar yukarýya karanlýða uzanýyor.  Basamaklardan koyu bir kötülük yayýlýyor odaya.
+Güneye mutfaða , doðuya giriþ holüne veya yukarý bilinmeyene ilerleyebilirsin.,
+~
+0 D 0
+D1
+~
+~
+0 0 29353
+D2
+~
+~
+0 0 29355
+D4
+~
+~
+0 0 29357
+S
+#29357
+Merdivenlerde~
+Basamaklar yukarýda ve aþaðýda karanlýða ilerliyor.Doðudan da bir kapý aralýðýndan ýþýk geliyor.
+Heryer korkutucu bir görünüme sahip ve hiç duymadýðýn çýðlýklar kulaklarýný týrmalýyor.
+~
+0 D 0
+D1
+~
+~
+0 0 29362
+D4
+~
+~
+0 0 29358
+D5
+~
+~
+0 0 29356
+S
+#29358
+Merdivenlerde~
+Merdivenlerde yolculuðuna devam ediyorsun.  Dikkatlice dinleyince çýðlýk atan ve iþkence
+gören ruhlarýn sesleri güneyden ve doðýdan kulaðýna geliyor.
+~
+0 D 0
+D1
+~
+~
+0 0 29365
+D2
+~
+~
+0 0 29363
+D4
+~
+~
+0 0 29359
+D5
+~
+~
+0 0 29357
+S
+#29359
+Merdivenlerin En Yüksek Noktasý~
+Merdivenlerin en yüksek noktasýndasýn. Güneye ve doðuya koridorlar uzanýyor.
+Ve merdivenler aþaðýya karanlýða ilerliyor.
+~
+0 D 0
+D1
+~
+~
+0 0 29368
+D2
+~
+~
+0 0 29366
+D5
+~
+~
+0 0 29358
+S
+#29360
+Liç'in Çalýþma Odasý~
+Küçük oda parþömenlerle ve kitaplarla dolu her tarafta bir not var. Birkaç gaz lambasý etrafý ve
+Kulenin sahibini görmeni saðlýyor.Batý duvarýnda bir çalýþmasý ve güney duvarýnda bir gömme dolap var.
+Tek çýkýþ doðuya kütüphaneye.
+~
+0 D 0
+D1
+~
+~
+0 0 29361
+S
+#29361
+Kütüphane~
+Her taraf kitaplýklarla ve raflarla dolu kitaplarý açýp baktýðýnda anlaþýlmayan bir dilde yazýlar görüyorsun.
+Duvar kenarlarýnda masalar ve araþtýrma yapan biri için her türlü imkan mevcut.Kütüphane kuzeye devam ediyor
+batý da bir çýkýþ var
+~
+0 D 0
+D0
+~
+~
+0 0 29362
+D3
+~
+~
+0 0 29360
+S
+#29362
+Kütüphane~
+Bu kadar büyük bir kütüphane hiç görmemiþ olmalýsýn.Kuzey ve doðu duvarlarý tamamen kitaplarla kaplý.
+Güneye kütüphane devam ediyor ve batýda da merdivenler var.
+~
+0 D 0
+D2
+~
+~
+0 0 29361
+D3
+~
+~
+0 0 29357
+S
+#29363
+Çaðrý Odasý~
+Bir pentagramýn etrafýnda anlaþýlmaz ve etkileyici rünler var.Bilinmeyen boyutlardan iblisleri çaðýrmak için kullanýlýyor herhalde bu oda.
+Odanýn ortasýnda alevler dansediyor.Çýkýþlar kuzeye merdivenlere ve doðuya iþkence odasýna.
+~
+0 D 0
+D0
+~
+~
+0 0 29358
+D1
+~
+~
+0 0 29364
+S
+#29364
+Ýþkence Odasý~
+Heryerde iþkence için kullanýlan aletler var. Doðu duvarýna 3 iðrenç beden asýlmýþ
+, hepsinin içi karakam sanatý gereði dýþarý çýkarýlmýþ ve organlarý incelenmek üzere kavanozlara koyulmuþ.
+Bu adamlarýn suçsuz ve masum olduðuna þüphe yok ve böyle bir kötülük senin bile sinirlerini geriyor.
+Bu konuda birþeyler yapmayý seçebilirsin.Çýkýþlar kuzeye ve batýya çaðrý odalarýna çýkýyor.
+~
+0 D 0
+D0
+~
+~
+0 0 29365
+D3
+~
+~
+0 0 29363
+S
+#29365
+Çaðrý Odasý~
+Bir pentagramýn etrafýnda anlaþýlmaz ve etkileyici rünler var.Bilinmeyen boyutlardan iblisleri çaðýrmak için kullanýlýyor herhalde bu oda.
+Odanýn ortasýnda gümüþi bir alev var.Çýkýþlar batýya merdivenlere ve güneye iþkence odasýna.
+~
+0 D 0
+D2
+~
+~
+0 0 29364
+D3
+~
+~
+0 0 29358
+S
+#29366
+Büyük Hol~
+Ýyi dekore edilmiþ büyük bir holde duruyorsun. Kuzeyde merdivenler ve doðuda iki büyük kapý duruyor..
+~
+0 D 0
+D0
+~
+~
+0 0 29359
+D1
+~
+~
+1 0 29367
+S
+#29367
+Liç'in Taht Odasý~
+Odaya girdiðin gibi gözlerin doðu duvarýndaki kemik tahta kitleniyor.Hepsi özenle seçilmiþ.
+Oda tam bir karakamýn zevkine göre düzenlenmiþ.Kadim parþömenler ve büyülü eþyalar
+gözlerini meþgul ederken Liç Lord Myzelak ý farkediyorsun.Çýkýþlar kuzeydeki ve batýdaki kapýlar.
+~
+0 D 0
+D0
+~
+~
+1 0 29368
+D3
+~
+~
+1 0 29366
+S
+#29368
+Büyük Hol~
+Ýyi dekore edilmiþ büyük bir holde duruyorsun. Arkanda batýda merdivenler ve güneyde büyük kapýlar duruyor.
+~
+0 D 0
+D2
+~
+~
+1 0 29367
+D3
+~
+~
+0 0 29359
+S
+#29369
+Depo Odasý~
+Bu oda mutfaktan geri kalanlarýn depo edildiði yer gibi gözüküyor.Güneyde kapalý bir kapý eski bir tünelin varlýðýný gösteriyor.
+Kuzeye iðrenç kokulu mutfaða veya güneye karanlýk tünele ilerleyebilirsin.
+~
+0 D 0
+D0
+~
+~
+0 0 29355
+D2
+~
+~
+0 0 29370
+S
+#29370
+Çukurun Üstünde~
+Büyük bir meþale duvara asýlmýþ etrafý aydýnlatýyor.Önünde zemin yok oluyor ve büyük bir çukur beliriyor.
+Kuzeye depo odasýna yada aþaðýya çukurun karanlýðýna ilerleyebilirsin.
+~
+0 D 0
+D0
+~
+~
+0 0 29369
+D5
+~
+~
+0 0 29371
+S
+#29371
+Çukurun Altýna~
+Bir çukurun dibindesin.Bu siyah duvarlý odada yapýlabilecek tek þey güneye ilerlemek gibi gözüküyor..
+~
+0 D 0
+D4
+~
+~
+0 0 29370
+D2
+~
+~
+0 0 29372
+S
+#29372
+Karanlýk Tünel~
+Kadim ve karanlýk bir tünelde duruyorsun. Güneyden bir ýþýk odaya akýyor.
+Kuzeye karanlýða yada güneye ýþýða gidebilirsin.
+~
+0 AD 0
+D0
+~
+~
+0 0 29371
+D2
+~
+~
+0 0 29373
+S
+#29373
+Maðaralardan Önce~
+Evet onu buldun, kadim olanlarýn söylediðini.Bu lanetlilerin maðaralarýna giriþ.Büyük bir çukur önünde duruyor.
+Büyülü yaratýklar ve kurtlar onun etrafýný sarmýþ.Eðer ölümlü biri cehenneme girmek istiyorsa burdan geçmenin
+tek yol olduðu bilinen bir þey.
+~
+0 D 0
+D5
+~
+~
+0 0 22000
+D0
+~
+~
+0 0 29372
+S
+#0
+
+
+
+#SPECIALS
+M 29353 spec_cast_undead Load to: A Major Demon
+M 29354 spec_cast_mage Load to: Myzelak the Lich Lord
+S
+
+
+
+#RESETS
+D 0 29366 1 1 The east door of A Large Hall is closed
+D 0 29367 0 1 The north door of The Lich's Throne Room is closed
+D 0 29367 3 1 The west door of The Lich's Throne Room is closed
+D 0 29368 2 1 The south door of A Large Hall is closed
+O 0 29373 0 29350 A large obsidian cross loaded to Before the Tower
+M 0 29355 1 29352 1*Load The Dracolich
+M 0 29350 4 29353 1*Load A Death Knight
+E 0 29350 0 16 An old black mace is loaded wielded of A Death Knight
+O 0 29367 0 29354 A large wooden chair loaded to The Dining Hall
+O 0 29368 0 29354 A huge dining table loaded to The Dining Hall
+M 0 29350 4 29360 1*Load A Death Knight
+E 0 29350 0 16 An old black mace is loaded wielded of A Death Knight
+O 0 29370 0 29360 A large mahogany desk loaded to Lich's Study
+O 0 29371 0 29360 A closet carved into the wall loaded to Lich's Study
+P 0 29361 0 29370 1*The infinity scroll put inside the Infinity Scroll
+P 0 29362 0 29370 1*A silvery potion  put inside a silvery potion
+P 0 29363 0 29372 1*A golden key put inside a golden key
+P 0 29364 0 29371 1*Boots of waterwalking put inside boots of waterwalking
+P 0 29365 0 29371 1*A thieve's tunic put inside a Thieve's Tunic
+P 0 29366 0 29369 1*A blank piece of paper put inside a blank piece of paper
+O 0 29372 0 29361 A powerful grimoire loaded to The Library
+M 0 29350 4 29362 1*Load A Death Knight
+E 0 29350 0 16 An old black mace is loaded wielded of A Death Knight
+O 0 29369 0 29362 An old wooden bookshelf loaded to The Library
+M 0 29353 1 29363 1*Load A Major Demon
+E 0 29356 0 3 The amulet of the night is loaded around the neck (1) of A Major Demon
+M 0 29351 1 29364 1*Load The Inquisitor
+E 0 29351 0 0 A flaming skull is loaded as a light of The Inquisitor
+M 0 29352 1 29365 1*Load A Minor Demon
+E 0 29355 0 14 The bracer of the night is loaded on the left wrist of A Minor Demon
+M 0 29356 2 29366 1*Load An Elite Death Knight
+E 0 29357 0 16 An ancient longsword is loaded wielded of An Elite Death Knight
+E 0 29358 0 11 A black dragon scale is loaded as a shield of An Elite Death Knight
+M 0 29354 1 29367 1*Load Myzelak the Lich Lord
+E 0 29359 0 16 The hell's wraith is loaded wielded of Myzelak the Lich Lord
+E 0 29360 0 12 Sorceror's robes is loaded about the shoulders of Myzelak the Lich Lord
+M 0 29356 2 29368 1*Load An Elite Death Knight
+E 0 29357 0 16 An ancient longsword is loaded wielded of An Elite Death Knight
+E 0 29358 0 11 A black dragon scale is loaded as a shield of An Elite Death Knight
+M 0 29350 4 29369 1*Load A Death Knight
+E 0 29350 0 16 An old black mace is loaded wielded of A Death Knight
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$
