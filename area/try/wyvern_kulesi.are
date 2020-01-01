@@ -1,13 +1,14 @@
 #AREA
-wyvern.are~
-Wyvern's Tower~
-{ 5 30} Tyrst   Wyvern's Tower~
+wyvern_kulesi.are~
+Wyvern Kulesi~
+{ 5 30} Tyrst   Wyvern Kulesi~
 1600 1799
+
 #MOBILES
 #1601
-oldstyle killer frog~
-a killer frog~
-A killer frog rises up out of the water.
+katil kurbaða~
+katil kurbaða~
+Bir katil kurbaða suyun üzerinde yükseliyor.
 ~
 The killer frog looks ravenous.
 ~
@@ -19,9 +20,9 @@ EFNU 0 0 0
 stand stand none 1
 0 0 medium 0
 #1602
-oldstyle stone gargoyle~
-the stone gargoyle~
-A stone gargoyle looms over you.
+taþ gargohol~
+taþ gargohol~
+Taþtan bir gargohol seni izliyor.
 ~
 As you look, the figure seems to shift and move ...
 ~
@@ -33,9 +34,9 @@ EFNU 0 0 0
 stand stand male 20
 0 0 medium 0
 #1603
-oldstyle angry gargoyle~
-an angry gargoyle~
-An angry gargoyle glares at you.
+kýzgýn gargohol~
+kýzgýn gargohol~
+Kýzgýn bir gargohol dikkatle seni izliyor.
 ~
 He looks ready to attack!
 ~
@@ -47,9 +48,9 @@ EFNU 0 0 0
 stand stand male 25
 0 0 medium 0
 #1604
-oldstyle elite gargoyle~
-the elite gargoyle~
-An elite gargoyle guards this room against intrusion.
+elit gargohol~
+elit gargohol~
+Bir elit gargohol bu odayý meraklýlarýn gözlerine karþý koruyor.
 ~
 He snarls at you and says LEAVE OR DIE!
 ~
@@ -61,9 +62,9 @@ EFNU 0 0 0
 stand stand male 40
 0 0 medium 0
 #1605
-oldstyle gargoyle shaman~
-the gargoyle shaman~
-The gargoyle shaman is here, preparing to do battle.
+gargohol þaman~
+gargohol þaman~
+Gargohol þaman savaþa hazýrlanýyor!
 ~
 She says 'I can SEE you! I have been waiting ...'.
 ~
@@ -75,9 +76,9 @@ EIKU 0 0 0
 stand stand female 150
 0 0 medium 0
 #1606
-oldstyle carnivorous plant~
-a carnivorous plant~
-Amidst the jungle here, a huge Carnivorous plant reaches out to grab you!
+etçil bitki~
+etçil bitki~
+Büyük bir etçil bitki seni yakalamaya çalýþýyor!
 ~
 The plant looks something like a Venus fly-trap, only MUCH larger.
 ~
@@ -89,13 +90,13 @@ EFNU 0 0 0
 stand stand none 0
 0 0 medium 0
 #1607
-oldstyle gruesome ogre~
-a gruesome ogre~
-A huge, gruesome ogre is sprawled here, gnawing some strange meat.
+korkunç ogre~
+korkunç ogre~
+Büyük ve korkunç bir ogre parçaladýðý etleri yiyor.
 ~
 It thinks that perhaps you would make a better meal.
 ~
-human~
+ogre~
 ABCFG 0 -200 0
 10 0 2d7+121 5d9+100 2d4+2 none
 1 1 1 8
@@ -103,9 +104,9 @@ EFNU 0 0 0
 sit stand none 60
 0 0 medium 0
 #1608
-oldstyle shadow~
-a shadow~
-A dark shadow moves about the room.
+gölge kara~
+gölge~
+Kara bir gölge odanýn içinde hareket ediyor.
 ~
 The Shadow is vaguely humanoid. Two glowing pinpoints look at you.
 ~
@@ -117,9 +118,9 @@ EFNU 0 0 0
 stand stand none 45
 0 0 medium 0
 #1609
-oldstyle evil wight~
-an evil wight~
-An evil wight lurks in the shadows!
+kara savaþçý~
+kara savaþçý~
+Kara bir savaþçý gölgelerin içinde gizleniyor!
 ~
 He glares at you savagely and charges!
 ~
@@ -131,9 +132,9 @@ EFNU 0 0 0
 stand stand male 110
 0 0 medium 0
 #1610
-oldstyle burly minotaur~
-A burly minotaur~
-A burly minotaur watches you solemnly.
+iriyarý minotor~
+iriyarý minotor~
+Ýriyarý bir minotor seni izliyor!
 ~
 This powerful creature wonders whether to kill you or not ...
 ~
@@ -145,9 +146,9 @@ EFNU 0 0 0
 stand stand male 75
 0 0 medium 0
 #1612
-oldstyle savage minotaur~
-the savage minotaur~
-A bloodthirsty minotaur slowly counts his loot
+vahþi minotor~
+vahþi minotor~
+Kana susamýþ vahþi bir minotor ganimetlerini sayýyor.
 ~
 He looks up at you and screams 'SO! Coming to steal my hoard!'
 ~
@@ -159,9 +160,9 @@ EFNU 0 0 0
 stand stand male 0
 0 0 medium 0
 #1613
-oldstyle minotaur captain~
-the captain~
-Sitting here in this room is the Minotaur Captain.
+minotor yüzbaþý~
+yüzbaþý~
+Minotor Yüzbaþýsý'ný görüyorsun!
 ~
 He looks at you, and a sinister grin slowly spreads on his face ...
 ~
@@ -173,9 +174,9 @@ EFNU 0 0 0
 stand stand male 0
 0 0 medium 0
 #1614
-oldstyle black pudding~
-the black pudding~
-A huge black pudding fills the center of the room!!
+kara puding~
+kara puding~
+Kocaman kara bir puding odanýn ortasýnda hareket ediyor!!
 ~
 It is a huge black blob that oozes about the room. Its heading toward YOU!
 ~
@@ -187,9 +188,9 @@ EFNU 0 0 0
 stand stand none 0
 0 0 medium 0
 #1615
-oldstyle lesser golem~
-a lesser golem~
-A lesser Golem stands guarding the entrance.
+küçük golem~
+küçük golem~
+Küçük bir golem giriþi koruyor.
 ~
 The golem appears to be made of some kind of clay, enchanted to come to life!
 ~
@@ -201,13 +202,13 @@ EFNU 0 0 0
 stand stand none 0
 0 0 medium 0
 #1616
-oldstyle ancient wyvern~
-the ancient wyvern~
-An enormous, ancient wyvern stares down at your tiny form...
+kadim vivern~
+kadim vivern~
+Büyük ve kadim bir vivern varlýðýna gülüyor...
 ~
 It thunders loudly 'I must protect my Master's wealth!'
 ~
-human~
+wyvern~
 ACFG DF -1000 0
 18 0 3d9+283 9d9+100 2d7+4 none
 -3 -3 -3 7
@@ -215,9 +216,9 @@ EFNU 0 0 0
 stand rest male 0
 0 0 medium 0
 #1617
-oldstyle spectre~
-the spectre~
-A spectre has begun to materialize in front of you!
+hayalet~
+hayalet~
+Bir hayalet yavaþ yavaþ maddeleþiyor!
 ~
 Terror fills your heart as you view this master of the undead.
 ~
@@ -229,9 +230,9 @@ EFNU 0 0 0
 stand stand male 0
 0 0 medium 0
 #1702
-oldstyle trapper~
-a trapper~
-A trapper stands here, bartering his pelts.
+avcý~
+avcý~
+Bir avcý elindeki hayvan postlarýný sayýyor.
 ~
 The trapper is clad mostly in the fur of various animals he's caught.
 ~
@@ -243,9 +244,9 @@ EFNU 0 0 0
 stand stand male 6
 0 0 medium 0
 #1704
-oldstyle hunter~
-a hunter~
-A hunter rests in here, carrying a fresh kill.
+avcý~
+avcý~
+Taze bir ceset taþýyan avcý dinleniyor.
 ~
 The hunter is rugged and sturdy from his occupation.
 ~
@@ -257,9 +258,9 @@ EFNU 0 0 0
 rest stand male 6
 0 0 medium 0
 #1706
-oldstyle ranger~
-a ranger~
-A grim ranger reclines at a table.
+korucu~
+korucu~
+Amansýz bir korucu bir masaya yaslanmýþ dinleniyor.
 ~
 The years of wanderings have left the ranger hardened and strong.
 ~
@@ -271,9 +272,9 @@ EFNU 0 0 0
 rest stand male 0
 0 0 medium 0
 #1707
-oldstyle ranger leader~
-a ranger leader~
-A leader of the Rangers is watching you solemnly.
+þef korucu~
+þef korucu~
+Korucularýn þefi seni izliyor.
 ~
 This individual has quite a reputation at the local trading posts!
 ~
@@ -285,9 +286,9 @@ EFNU 0 0 0
 stand stand male 0
 0 0 medium 0
 #1708
-oldstyle ranger lord~
-the Lord of the Rangers~
-The Lord of the Rangers catches your eye.
+korucularýn lordu~
+Korucularýn Lordu~
+Korucularýn Lordu'nun gözleri senin üzerinde.
 ~
 ~
 human~
@@ -298,13 +299,13 @@ EFNU 0 0 0
 stand stand male 0
 0 0 medium 0
 #1710
-oldstyle male centaur~
-a centaur~
-A male centaur wanders about this area.
+erkek sentor~
+sentor~
+Erkek bir sentor etrafý dolaþýyor.
 ~
 The centaur has the upper torso of a man and lower body of a horse.
 ~
-human~
+centaur~
 AC 0 200 0
 7 0 2d6+85 3d9+100 1d8+1 none
 4 4 4 9
@@ -312,13 +313,13 @@ EFNU 0 0 0
 stand stand male 6
 0 0 medium 0
 #1711
-oldstyle female centaur~
-a centaur~
-A female centaur wanders about this area.
+diþi sentor~
+sentor~
+Diþi bir sentor etrafý dolaþýyor.
 ~
 The centaur has the upper torso of a woman and lower body of a horse.
 ~
-human~
+centaur~
 AC 0 200 0
 7 0 2d6+85 3d9+100 1d8+1 none
 4 4 4 9
@@ -326,13 +327,13 @@ EFNU 0 0 0
 stand stand female 5
 0 0 medium 0
 #1712
-oldstyle old centaur~
-an old centaur~
-An old centaur is resting in a corner.
+yaþlý sentor~
+yaþlý sentor~
+Yaþlý bir sentor köþede dinleniyor.
 ~
 This centaur has lived a full life.
 ~
-human~
+centaur~
 AC 0 200 0
 6 0 2d7+71 3d9+100 1d7+1 none
 4 4 4 9
@@ -340,13 +341,13 @@ EFNU 0 0 0
 rest rest male 5
 0 0 medium 0
 #1714
-oldstyle centaur elder~
-an elder centaur~
-One of the centaur elders is here, watching you.
+yaþlý sentor~
+yaþlý sentor~
+Yaþlý bir sentor seni izliyor.
 ~
 The elders act as counselors and advisors to the chief.
 ~
-human~
+centaur~
 ABC B 200 0
 9 0 2d6+110 4d9+100 1d8+2 none
 2 2 2 8
@@ -354,13 +355,13 @@ EFNU 0 0 0
 stand stand male 0
 0 0 medium 0
 #1715
-oldstyle centaur guard~
-a centaur guard~
-A strong centaur is standing guard here.
+sentor muhafýz güçlü~
+muhafýz sentor~
+Güçlü bir sentor etrafý gözlüyor.
 ~
 He appears to be blocking entrance to the next room.
 ~
-human~
+centaur~
 AB B 200 0
 10 0 2d7+121 5d9+100 2d4+2 none
 1 1 1 8
@@ -368,14 +369,14 @@ EFNU 0 0 0
 stand stand male 0
 0 0 medium 0
 #1716
-oldstyle centaur chief~
-the centaur chief~
-The chief of the centaur villagers reclines here.
+þef sentor~
+þef sentor~
+Sentorlarýn þefi dinleniyor.
 ~
 He has been the leader of this tribe for many years, and has acquired much
 wisdom.
 ~
-human~
+centaur~
 ABC B 200 0
 12 0 2d10+150 6d9+100 1d10+3 none
 0 0 0 8
@@ -383,9 +384,9 @@ EFNU 0 0 0
 rest stand male 0
 0 0 medium 0
 #1720
-oldstyle displacer beast~
-a displacer beast~
-A displacer beast is grazing nearby.
+sürgün canavar~
+sürgün canavar~
+Bir sürgün etrafý izliyor.
 ~
 As you watch this strange creature, its position seems to flicker and shift.
 ~
@@ -399,17 +400,17 @@ stand stand none 0
 #0
 #OBJECTS
 #1601
-rusty cleaver~
-a rusty cleaver~
-A rusty cleaver lies on a counter top.~
+paslý satýr~
+paslý satýr~
+Paslý bir satýr görüyorsun.~
 iron~
 weapon 0 AN
 dagger 1 6 chop 0
 1 20 230 P
 #1602
-fine mace~
-the fine mace~
-There is a large mace of fine quality here.~
+güzel gürz~
+güzel gürz~
+Güzel bir gürz burada býrakýlmýþ.~
 iron~
 weapon G AN
 mace 2 6 pound 0
@@ -417,9 +418,9 @@ mace 2 6 pound 0
 A
 18 1
 #1603
-elven dagger~
-a long elven dagger~
-A long elven dagger made of adamantite is here.~
+uzun elf hançeri~
+uzun elf hançeri~
+Uzun bir elf hançeri görüyorsun.~
 steel~
 weapon AG AN
 dagger 2 5 pierce 0
@@ -427,9 +428,9 @@ dagger 2 5 pierce 0
 A
 18 2
 #1604
-steel broad sword~
-a steel broad sword~
-A fine steel broad sword is lying on the ground.~
+geniþ çelik kýlýç~
+geniþ çelik kýlýç~
+Geniþ bir çelik kýlýç yerde yatýyor.~
 steel~
 weapon AG AN
 sword 3 6 slash 0
@@ -439,9 +440,9 @@ A
 A
 18 1
 #1605
-steel broad sword~
-a steel broad sword~
-A very fine steel broad sword is lying on the ground.~
+geniþ çelik kýlýç~
+geniþ çelik kýlýç~
+Geniþ bir çelik kýlýç yerde yatýyor.~
 steel~
 weapon AG AN
 sword 3 7 slash 0
@@ -451,9 +452,9 @@ A
 A
 18 2
 #1606
-rod might~
-the rod of might~
-A Rod of Might is lying here.~
+güç gürzü~
+güç gürzü~
+Güç gürzü yerde dinleniyor.~
 oak~
 weapon BG AN
 mace 3 7 blast 0
@@ -463,9 +464,9 @@ A
 A
 18 2
 #1612
-black kite shield~
-a black kite shield~
-There is a large black kite shield lying here.~
+siyah uçurtma kalkaný~
+siyah uçurtma kalkaný~
+Siyah bir uçurtma kalkaný görüyorsun.~
 onyx~
 armor AG AJ
 6 6 6 2 0
@@ -473,9 +474,9 @@ armor AG AJ
 A
 20 1
 #1614
-helm~
-a commander's helm~
-A commander's helm rests on a table here.~
+komutan miðferi~
+komutan miðferi~
+Bir komutan miðferi yerde dinleniyor.~
 steel~
 armor AG AE
 7 7 7 2 0
@@ -486,9 +487,9 @@ E
 helm~
 This elegant helm is plated in mithril and silver.~
 #1615
-bracer~
-a mithril bracer~
-A magical bracer made from mithril lies on the ground!~
+mitril bileklik~
+mitril bileklik~
+Mitrilden yapýlmýþ bir bileklik yerde yatýyor!~
 mithril~
 armor BG AM
 4 6 6 2 0
@@ -496,9 +497,9 @@ armor BG AM
 A
 1 1
 #1616
-dark blue cloak~
-a dark blue cloak~
-A valuable cloak of dark blue cloth lies on the floor.~
+koyu mavi fular~
+koyu mavi fular~
+Koyu mavi renkte deðerli olabilecek bir fular yerde yatýyor.~
 cloth~
 clothing AG AC
 0 0 0 0 0
@@ -506,41 +507,41 @@ clothing AG AC
 A
 17 6
 #1621
-dark red potion~
-a dark red potion~
-A dark red potion rests on the ground.~
+koyu kýrmýzý iksir~
+koyu kýrmýzý iksir~
+Koyu kýrmýzý bir iksir görüyorsun.~
 glass~
 potion AG AO
 9 'cure blindness' 'cure critical' '' ''
 5 10 320 P
 #1651
-bronze chest~
-a bronze chest~
-There is a sturdy bronze chest in the corner.~
+tunç sandýk~
+tunç sandýk~
+Saðlam bir tunç sandýk görüyorsun.~
 bronze~
 container 0 A
 30 AC 0 10 100
 0 100 100 P
 #1652
-ale barrel~
-a barrel of ale~
-There is a small barrel in one corner.~
+fýçý bira~
+fýçý bira~
+Bir fýçý bira görüyorsun. Soðuk soðuk...~
 wood~
 drink 0 A
 150 2 'ale' 0 0
 0 80 10 P
 #1691
-key twin towers~
-the twin towers key~
-There is a shiny skeleton key on the ground here.~
+ikiz kule anahtarý kemik~
+ikiz kule anahtarý~
+Kemikten yapýlmýþ bir anahtar görüyorsun.~
 oldstyle~
 key 0 A
 1 0 0 0 0
 0 10 0 P
 #1692
-strange key~
-a strange key~
-There is a very strange-looking key on the ground here.~
+tuhaf anahtar~
+tuhaf anahtar~
+Çok tuhaf bir anahtar görüyorsun.~
 oldstyle~
 key AG AO
 2 0 0 0 0
@@ -551,9 +552,9 @@ E
 strange key~
 This key is of an unusual shape ... must go to an unusual lock!~
 #1701
-short bow~
-a short bow~
-A short bow has been carelessly left here.~
+kýsa yay~
+kýsa yay~
+Kýsa bir yay burada býrakýlmýþ.~
 wood~
 weapon 0 AN
 bow 2 4 pierce 0
@@ -563,9 +564,9 @@ short bow~
 It looks like the bows used by rustin hunters.
 ~
 #1702
-long bow~
-a long bow~
-A long bow has been foolishly abandoned here.~
+uzun yay~
+uzun yay~
+Uzun bir yay burada býrakýlmýþ.~
 wood~
 weapon AG AN
 bow 3 6 pound 0
@@ -573,9 +574,9 @@ bow 3 6 pound 0
 A
 13 5
 #1704
-ancient sword~
-an ancient long sword~
-An ancient long sword has been left here.~
+kadim uzunkýlýç~
+kadim uzunkýlýç~
+Kadim bir uzunkýlýç burada býrakýlmýþ.~
 iron~
 weapon BG AN
 sword 3 8 slash 0
@@ -585,17 +586,17 @@ A
 A
 18 3
 #1711
-fur cap~
-a fur cap~
-A fur cap lies here on the ground.~
+kürk kasket~
+kürk kasket~
+Kürk bir kasket burada býrakýlmýþ.~
 fur~
 armor 0 AE
 2 2 2 0 0
 0 10 168 P
 #1712
-travelling boots~
-a pair of travelling boots~
-A sturdy pair of travelling boots lies here.~
+dað çizmesi~
+bir çift dað çizmesi~
+Bir çift dað çizmesi burada býrakýlmýþ.~
 fur~
 armor G AG
 5 5 5 0 0
@@ -603,9 +604,9 @@ armor G AG
 A
 14 10
 #1713
-bronze ring~
-a bronze ring~
-A ring of etched bronze gleams dimly on the ground.~
+tunç yüzük~
+tunç yüzük~
+Tunç bir yüzük görüyorsun.~
 bronze~
 jewelry G AB
 0 0 0 0 0
@@ -616,7 +617,7 @@ A
 
 #ROOMS
 #1601
-Rough East-West Path~
+Engebeli Doðu-Batý Yolu~
 You are on a very rough and overgrown path heading east-west over rugged
 terrain.  To the east the path passes between low hills.
 ~
@@ -633,7 +634,7 @@ The cross-roads and a trading post lie in this direction.
 0 0 1702
 S
 #1602
-Rough Path Between the Hills~
+Tepeler Arasýnda Engebeli Yol~
 Here the path passes between low hills. The going is very rough, but
 to the east the ground is smoother. In that direction a pair of tower
 looms above the hills.
@@ -651,7 +652,7 @@ The road continues.
 0 0 1601
 S
 #1603
-Path through an Open Area~
+Açýk Alana Giden Yol~
 You are on a path through an open area. East of here loom two tall towers,
 joined by a barbican and surrounded by a murky moat. West the path passes
 between low hills.
@@ -669,10 +670,10 @@ The road continues.
 0 0 1602
 S
 #1604
-West Side of Moat~
+Hendeðin Batýsý~
 You stand on the west side of a moat that encircles two towers, each
 over 50 feet high. You will need a boat to go east across the moat. A
-rugged path heads west, and another one heads north to a cluster of low 
+rugged path heads west, and another one heads north to a cluster of low
 buildings.
 ~
 0 0 2
@@ -693,7 +694,7 @@ An old ill-kept roads leads away to the west.
 0 0 1603
 S
 #1605
-Path North of Moat~
+Hendeðin Kuzeyindeki Yol~
 You walk on a faint path heading south toward the west side of the moat,
 and north to three small buildings.
 ~
@@ -710,7 +711,7 @@ The path ends west of the moat.
 0 0 1604
 S
 #1606
-Cluster of Buildings~
+Bina Kümesi~
 You are in the middle of a cluster of small buildings. There is a building
 to the north, east, and west.  A sign over the eastern building says
 'House of Pancakes'.
@@ -738,14 +739,14 @@ There is an entrance to a building here.
 0 0 1608
 S
 #1607
-House of Pancakes~
+Gözleme Evi~
 The moment you enter this room, the ceiling descends and crushes you
 into a pancake.  Don't you hate it when that happens?
 ~
 0 BC 0
 S
 #1608
-Old Store Room~
+Eski Depo Odasý~
 You have entered what appears to be an old storeroom. Most of the items
 that were in here appear to have been ruined long ago.
 ~
@@ -756,7 +757,7 @@ D1
 0 0 1606
 S
 #1609
-Empty Room~
+Boþ Oda~
 This room appears to be completely empty. The only exit seems to be the
 way you came.  There are some scratches around the floor.
 ~
@@ -772,7 +773,7 @@ You see a concealed opening leading down.
 0 0 1610
 S
 #1610
-Minotaur's Room~
+Minatorun Odasý~
 You have entered a secret chamber under the empty room. In this room is
 the worn but cared-for gear and trappings of some large humanoid.
 ~
@@ -783,7 +784,7 @@ D4
 0 0 1609
 S
 #1620
-Western Moat~
+Batý Hendeði~
 You are in the middle of the moat, on the west side of the tower.  There is a
 landing on both sides of the moat.  Deep throated 'ribbids' come from the
 water all around you.
@@ -807,7 +808,7 @@ D3
 0 0 1604
 S
 #1621
-Northern Moat~
+Kuzey Hendeði~
 You are in the middle of the moat, on the north side of the tower.  There is
 no place to land here.  Deep throated 'ribbids' come from the water all
 around you.
@@ -819,7 +820,7 @@ D2
 0 0 1620
 S
 #1622
-Southern Moat~
+Güney Hendeði~
 You are in the middle of the moat, on the south side of the tower.  There is
 no place to land here.  Deep throated 'ribbids' come from the water all
 around you.
@@ -831,8 +832,8 @@ D0
 0 0 1620
 S
 #1623
-Tower Foyer~
-You are on a foyer on the west side of the structure. The moat is west of 
+Kule Giriþi~
+You are on a foyer on the west side of the structure. The moat is west of
 here. There is also a large door eastward into the structure.  You notice that
 the walls are ornately decorated with very life-like stone gargoyles.
 ~
@@ -847,7 +848,7 @@ D3
 0 0 1620
 S
 #1624
-The Grand Lobby~
+Büyük Hol~
 You have entered a vast lobby. This lobby appears to have once been very
 ornately furnished, but now everything is decayed and moldering.  A highly
 ornate balcony surrounds the lobby. To the east, below the balcony, is an
@@ -865,7 +866,7 @@ D3
 0 0 1623
 S
 #1625
-Base of the Western Tower~
+Batý Kulesi Zemini~
 You stand in the center of the Western tower's base. Torch brackets occupy
 the four corners of this huge room. Above each torch is a lifelike ornate
 stone gargoyle.  There are doors north and south, and passages east and west.
@@ -889,7 +890,7 @@ D3
 0 0 1624
 S
 #1626
-The Musty Corridor~
+Küflü Koridor~
 You are walking along a musty east-west corridor joining the two towers.
 There are room on each side of the corridor, and openings at each end.
 ~
@@ -912,7 +913,7 @@ D3
 0 0 1625
 S
 #1627
-Kitchen~
+Mutfak~
 You have entered what must once have been a kitchen. The rusting remains of
 various utensils lie on countertops. There is also an old wash basin and a
 pot-belly stove.  There is a door south, and a serving hatch east.
@@ -924,7 +925,7 @@ D2
 0 0 1625
 S
 #1628
-Conservatory~
+Sera~
 You are in the tower's private conservatory. However, through years of neglect,
 the plants have grown into a hideous jungle.  The only exit is north.
 ~
@@ -935,7 +936,7 @@ D0
 0 0 1625
 S
 #1629
-The Dining Hall~
+Yemek Odasý~
 You have entered a fabulous dining hall.  The wrecked remains of a long table
 dominate the room. A horrible odor pervades the room, like some foul-smelling
 beast has been eating and shitting in here.  There is a serving hatch west and
@@ -948,7 +949,7 @@ D2
 0 0 1626
 S
 #1630
-Art Gallery~
+Sanat Galerisi~
 You are in the ruined remains of an art gallery. Everything appears to
 have been stolen long ago, however.  The only exit is north.
 ~
@@ -959,7 +960,7 @@ D0
 0 0 1626
 S
 #1631
-Base of the Eastern Tower~
+Doðu Kulesi Zemini~
 You stand in the center of the Eastern tower's base. Torch brackets occupy the
 four corners of this huge room.  Above each torch is a lifelike ornate stone
 gargoyle.  There are are open doors to the north and south, and passages east
@@ -986,7 +987,7 @@ You see a spiral staircase leading up.
 0 0 1635
 S
 #1632
-The Common Room~
+Umumi Oda~
 You are in what must once have been a common room for all residents of the
 tower. There is a huge fire pit with a chimney in the center, and the smashed
 remains of a great many table and chairs.  The exit is south.
@@ -1003,7 +1004,7 @@ You notice a grate in the bottom of the fire pit.  Maybe it's an opening ...
 1 -1 1634
 S
 #1633
-Servant's Quarters~
+Uþaklarýn Bölümü~
 You are in what once was the servant's quarters, as evidenced by the shabby
 belongings and decor. What little remains is rotting and of little value
 anyway.  The only exit is north.
@@ -1015,7 +1016,7 @@ D0
 0 0 1631
 S
 #1634
-A Large Murky Cellar~
+Büyük Karanlýk Mahzen~
 You are in a large, murky cellar. An almost tangible air of horror pervades
 the room.  A thin layer of nitre covers the walls and ceiling.  Rotting
 furniture looms obliquely about the room.
@@ -1027,7 +1028,7 @@ D4
 1 -1 1632
 S
 #1635
-On the First Staircase~
+Ýlk Merdivende~
 You are on a Spiral staircase connecting the first and second levels of
 the eastern tower. You can go up or down.
 ~
@@ -1042,7 +1043,7 @@ D5
 0 0 1631
 S
 #1636
-Second Level of the Eastern Tower~
+Doðu Kulesinin Ýkinci Katý~
 You are in the center of the second level of the Eastern tower. This large
 room appears quite empty, except for the candle abras firmly fixed to the
 walls.  An opening leads westward, and a spiral staircase leads down.
@@ -1058,7 +1059,7 @@ D5
 0 0 1635
 S
 #1637
-The Elegant Hall~
+Zarif Salon~
 You are in what was once a elegant hall, although everything is moldering now.
 The rotted remains of a plush carpet covers the floor, while several moldy
 tapestries adorn the each side of the hall.  There are door north and south,
@@ -1083,7 +1084,7 @@ D3
 0 0 1640
 S
 #1638
-The Shaman's Room~
+Þaman'ýn Odasý~
 You have entered an elegantly furnished room that looks to be still in use!
 Costly paintings and pieces of furniture are tastefully situated.  On the
 north wall is an altar to Knar, the ghastly patron of Gargoyles.  The only
@@ -1096,7 +1097,7 @@ D2
 0 0 1637
 S
 #1639
-The Library~
+Kütüphane~
 This room appears to have been a library.  Empty book shelves line each wall.
 The only exit is north.
 ~
@@ -1107,10 +1108,10 @@ D0
 0 0 1637
 S
 #1640
-Second Level of the Western Tower~
-You are in the center of the western tower's second floor.  A large spiral 
+Batý Kulesinin Ýkinci Katý~
+You are in the center of the western tower's second floor.  A large spiral
 staircase of 29 steps connects this level with the third.  There are doors
-to the east and west.  Except for a torch bracket in each corner, the 
+to the east and west.  Except for a torch bracket in each corner, the
 room is barren.
 ~
 0 D 1
@@ -1129,7 +1130,7 @@ You see the spiral staircase leading up.
 0 0 1642
 S
 #1641
-On the Balcony~
+Balkon~
 You are on the balcony overlooking the Grand lobby.  You have a fabulous
 view of the entire room.  The only exit is the way you came in.
 ~
@@ -1140,8 +1141,8 @@ D1
 0 0 1640
 S
 #1642
-The Spiral Stairs~
-You are on a large spiral staircase of 29 steps, leading between the 
+Sarmal Merdiven~
+You are on a large spiral staircase of 29 steps, leading between the
 second and third floors.  You can go up or down.
 ~
 0 D 2
@@ -1155,7 +1156,7 @@ D5
 0 0 1640
 S
 #1643
-Third Level of Western Tower~
+Batý Kulesinin Üçüncü Katý~
 You stand in the center of the western tower's third floor.  This large room
 glows mysteriously with a strange light all its own.  From a door to the east
 comes a strange inky blackness.  A spiral staircase leads down.
@@ -1171,7 +1172,7 @@ D5
 0 0 1642
 S
 #1644
-It's too dark to see anything!~
+Çok karanlýk!~
 ~
 0 AD 3
 D0
@@ -1192,7 +1193,7 @@ D3
 1 -1 1643
 S
 #1645
-The Armory~
+Zýrhçý~
 In this room, which has somehow evaded the ravages of time, are neatly stored
 racks of common weapons.  They appear to be quite ordinary; however, a chest
 in one corner catches your eye.  The only exit is the way you came in.
@@ -1204,7 +1205,7 @@ D2
 1 -1 1644
 S
 #1646
-The Officer's Quarters~
+Subay Bölümü~
 You have entered a lavish but functional room decked out in a military style.
 Murals on the wall show battle scenes in gargoyles, minotaurs, and huge,
 flying snake-like reptiles with poisonous tails fight humans and dwarves.
@@ -1218,7 +1219,7 @@ D0
 1 -1 1644
 S
 #1647
-Third Level of Eastern Tower~
+Doðu Kulesinin Üçüncü Katý~
 You are in the center of the Eastern Tower's third floor.  The room you are in
 glows with a mysterious light that has no source.  In the center of the room a
 ladder climbs up to a hatchway in the ceiling.  The hatchway is a strange
@@ -1236,7 +1237,7 @@ The hatchway appears securely fastened.  In it is a strange keyhole.
 1 -1 1648
 S
 #1648
-Turret of the Eastern Tower~
+Doðu Kulesi Tareti~
 You stand in the turret of the eastern tower.  A huge hole has been
 made in the roof by some enormous beast, letting the daylight (or moonlight)
 in.  There is a hatchway in the floor, and an opening to the west leading out
@@ -1254,8 +1255,8 @@ D5
 1 -1 1647
 S
 #1649
-On the Catwalk~
-You are outdoors on a catwalk between the turrets of the eastern and 
+Koridor~
+You are outdoors on a catwalk between the turrets of the eastern and
 western towers.  There is a 40 foot drop to the north and south.  You have
 a fabulous view of the surrounding countryside, which consists of a bleak
 wilderness.  At the east end of the catwalk is a small opening leading
@@ -1274,7 +1275,7 @@ A mirror-like portal glimmers, allowing entry into the western turret.
 0 0 1650
 S
 #1650
-Turret of the Western Tower~
+Batý Kulesi Tareti~
 You are in the turret of the western tower.  You feel very strange here.
 Scattered about this room are a great many coins and valuable articles.
 Yet you can't get rid of a feeling of dread!  A mirror-like portal is in the
@@ -1292,7 +1293,7 @@ A mirror-like portal glimmers in this wall.
 0 0 1651
 S
 #1651
-On the Other Side~
+Diðer Tarafta~
 You are outdoors on a catwalk between the turrets of the Eastern and Western
 towers.  There is no opening into the western tower of any kind.  You have a
 fabulous view of your surroundings, a murky city partially obscured by strange
@@ -1310,7 +1311,7 @@ D3
 0 0 1652
 S
 #1652
-The Chamber~
+Oda~
 You are in a small carpeted chamber. The chamber is empty except for a single
 chair facing a mirror on the wall.
 ~
@@ -1321,7 +1322,7 @@ D1
 0 0 1651
 S
 #1701
-Main Eastern Road~
+Ana Doðu Yolu~
 You are on the old Eastern Road.  The crossroads to the east joins ANOTHER
 northern route to this road, which continues east.  South of the crossroads is
 an old building.  The area around here is lightly timbered.
@@ -1338,12 +1339,12 @@ D3
 0 0 5267
 S
 #1702
-Crossroads to the Wilderness~
+Kýra Doðru Kesiþim~
 You are at a crossroads to the wilderness areas east and north of here,
 and the more civilized areas to the west. The main road is west, an
 older road continues east, and a simple trail heads north.  To the south,
 an old ram-shackle building is being used as a trading post for the
-surrounding wilderness. 
+surrounding wilderness.
 ~
 0 0 3
 D0
@@ -1367,7 +1368,7 @@ D3
 0 0 1701
 S
 #1703
-Trading Post~
+Ticaret Bölümü~
 You are in a trading post just south of the crossroads, where rangers,
 trappers and hunters from the surrounding area come to buy, sell, and
 barter goods.
@@ -1380,7 +1381,7 @@ The door opens out on the crossroads.
 0 0 1702
 S
 #1704
-Trail north of crossroads~
+Kavþaðýn Kuzeyindeki Patika~
 You are on a primitive north-south trail. South of here is a major cross-
 roads and an old building. To the north the trail continues toward a
 deep, dark forest.
@@ -1398,7 +1399,7 @@ A major crossroads and a building lie in this direction.
 0 0 1702
 S
 #1705
-Trail south of forest~
+Ormanýn Güneyindeki Patika~
 You are on a primitive north-south trail.  Just north of here looms the
 entrance to a deep, dark forest. To the south the trail continues.
 ~
@@ -1415,7 +1416,7 @@ The trail continues.
 0 0 1704
 S
 #1706
-Entrance to the forest~
+Ormanýn Giriþi~
 You are at the entrance to dark forest comprised mostly of huge black oak
 and towering firs.  A trail from the south continues north on into the
 woods at this point.
@@ -1433,7 +1434,7 @@ You see the trail head back on south.
 0 0 1705
 S
 #1707
-Trail in Dark Oak Forest~
+Kara Meþe Ormanýnda Patika~
 The trail here passes through groves of closely knit Black Oak. Some of
 these trees are of enormous size.  Rustling and other low noises come
 from the forest on either side of the trail.  The trail continues on north
@@ -1452,7 +1453,7 @@ The edge of the forest is visible in this direction.
 0 0 1706
 S
 #1708
-Junction in Dark Forest~
+Kara Ormanda Kesiþim~
 You are in the midst of a deep dark forest of huge oak trees.  There is a
 junction of trails here, with paths leading south, west and east.
 ~
@@ -1474,7 +1475,7 @@ You see the path to the Centaur village.
 0 0 1709
 S
 #1709
-Path to Centaur Village~
+Kentaur Kasabasýna Yol~
 You are on an east-west path in the forest.  Here the forest is mostly
 towering firs, not quite as dense as the oak groves that can be seen eastward.
 Westward, the trail heads toward a small clearing.
@@ -1492,7 +1493,7 @@ There is a small clearing in this direction.
 0 0 1710
 S
 #1710
-The East side of the Centaur Clearing~
+Kentaur Açýklýðýnýn Doðu Tarafý~
 You are on the east side of a clearing.  Small primitive huts are scattered
 about the edges of this clearing.  Beyond these on all sides are towering
 fir trees.  A path leads east out of the clearing. The clearing continues to
@@ -1521,7 +1522,7 @@ You see the west side of the clearing.
 0 0 1711
 S
 #1711
-West side of the Centaur Clearing~
+Kentaur Açýklýðýnýn Batý Tarafý~
 You are on the west side of the clearing in the center of the Centaur village.
 Huts surround the clearing on all sides, and beyond are towering firs.  The
 clearing continues to the east.  To the west is a very large hut.
@@ -1549,7 +1550,7 @@ There is a hut here.
 0 0 1716
 S
 #1712
-A Centaur's Hut~
+Kentaur Kulübesi~
 You are inside a smallish hut, the home of a family of Centaurs.  The hut
 is sparsely furnished, mostly the trappings of survival.
 ~
@@ -1561,7 +1562,7 @@ The opening leads out onto the clearing.
 0 0 1710
 S
 #1713
-A Centaur's Hut~
+Kentaur Kulübesi~
 You are inside a smallish hut, the home of a family of Centaurs.  The hut
 is sparsely furnished, mostly the trappings of survival.
 ~
@@ -1573,7 +1574,7 @@ The opening leads out onto the clearing.
 0 0 1710
 S
 #1714
-A Centaur's Hut~
+Kentaur Kulübesi~
 You are inside a smallish hut, the home of a family of Centaurs.  The hut
 is sparsely furnished, mostly the trappings of survival.
 ~
@@ -1585,7 +1586,7 @@ The opening leads out onto the clearing.
 0 0 1711
 S
 #1715
-A Centaur's Hut~
+Kentaur Kulübesi~
 You are inside a smallish hut, the home of a family of Centaurs.  The hut
 is sparsely furnished, mostly the trappings of survival.
 ~
@@ -1597,7 +1598,7 @@ The opening leads out onto the clearing.
 0 0 1711
 S
 #1716
-Entrance to a Large Hut~
+Büyük Kulübe Giriþi~
 You are in the entry foyer of a large hut.  A curtain separates this section
 of the hut from the next section to the west.  To the east is an opening out
 onto the clearing.
@@ -1615,7 +1616,7 @@ There is a curtain here separating this section from the next.
 0 0 1717
 S
 #1717
-Back of a Large Hut~
+Büyük Kulübenin Arkasý~
 You are in the back of a large hut.  A curtain separates this section from
 the front of the hut to the east.  This room is finely decorated, if
 somewhat primitive.  The decor suggests someone of authority lives here.
@@ -1628,7 +1629,7 @@ There is a curtain here separating this room from the front of the hut.
 0 0 1716
 S
 #1720
-Eastern Path in Dark Forest~
+Kara Ormanda Doðu Yolu~
 You are on an east-west path through extremely old growths of oak.  The path
 is fairly faint here.  Undergrowth closes in so closely that little can
 be seen in any direction.

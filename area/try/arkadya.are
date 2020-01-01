@@ -1,66 +1,66 @@
 #AREA
-arcadia.are~
+arkadya.are~
 Arcadia~
-{30 90} Cernunn Arcadia~
+{30 90} Cernunn Arkadya~
 12000 12157
 
 
 #MOBILES
 #12000
-Oberon oberon King king~
+oberon kral~
 Oberon~
-Oberon, King of the Seelie Court, stands here watching over his realm.
+Oberon, Seelie Sarayýnýn kralý, burada krallýðýyla ilgileniyor.
 ~
-Oberon appears as a tall, regal man with shoulder length, light blonde 
-hair, eyes of forest green and golden skin.  His every feature 
-exemplefies what it is to be nobility.  He is the embodyment of the 
+Oberon appears as a tall, regal man with shoulder length, light blonde
+hair, eyes of forest green and golden skin.  His every feature
+exemplefies what it is to be nobility.  He is the embodyment of the
 Seelie way, light, love, celebration, honor and wisdom.
 ~
 elf~
 ABT CDEFHJ 1000 0
 86 0 50d20+16500 10d20+2000 13d10+56 bite
 -56 -53 -51 -26
-EFHIKN BLQ 0 NZ 
+EFHIKN BLQ 0 NZ
 stand stand male 5000
 AHMV ABCDEFGHIJK medium 0
 #12001
-titania queen~
-Queen Titania~
-Queen Titania of the Seelie Court is here dancing with her fairy maids.
+titanya kraliçe~
+Kraliçe Titanya~
+Titanya, Seelie Sarayýnýn Kraliçesi burada peri hizmetçileriyle dans ediyor.
 ~
-The Queen of the Seelie is a tall, fair-skinned, perfectly perportioned 
-woman.  She radiates a soft golden glow, her laughter is like the 
-sparkling of water off of a stream and her smile is the dazzling radiance 
+The Queen of the Seelie is a tall, fair-skinned, perfectly perportioned
+woman.  She radiates a soft golden glow, her laughter is like the
+sparkling of water off of a stream and her smile is the dazzling radiance
 of the sun.
 ~
 elf~
 ABQ CDEHJT 1000 0
 84 0 50d20+15500 10d20+2000 9d14+51 bite
 -53 -50 -52 -23
-FKN BLQ C NZ 
+FKN BLQ C NZ
 stand stand female 5000
 AHMV ABCDEFGHIJK medium 0
 #12002
-puck~
-Puck~
-The Puck lurks here dreaming up yet another scheme.
+peri~
+pixie~
+Peri burada, bir baþka dalaverenin hayaliyle pusuda.
 ~
-A jester for both the Courts, a master of trickery and deceit and 
+A jester for both the Courts, a master of trickery and deceit and
 laughter and joy, Puck is a dangerous one indeed.
 ~
 human~
 AGHS BNPQTUe 0 0
 94 0 50d20+22000 10d20+2000 13d10+56 bite
 -55 -56 -54 -26
-BEFHIJKNY BLQ C NZ 
+BEFHIJKNY BLQ C NZ
 sit sit male 100
 AHMV ABCDEFGHIJK medium 0
 #12003
 thomas~
-True Thomas~
-The poet master of the Seelie Court stands here.
+Doðrucu Thomas~
+Seelie Srayýnýn þiir üstadý burada duruyor.
 ~
-Thomas is an old Fae but he retains the power of his position still.  His 
+Thomas is an old Fae but he retains the power of his position still.  His
 voice is clear and strong and his mind is much quicker than yours.
 ~
 elf~
@@ -69,152 +69,152 @@ ABR ACDEFJZ  850 0
 -40 -40 -42 -18
 BEFHIJKNY BLQ C NZ
 stand stand male 500
-AHMV ABCDEFGHIJK medium 0 
+AHMV ABCDEFGHIJK medium 0
 #12004
-king gwyn nudd~
+kral gwyn nudd~
 Gwyn ap Nudd~
-Gwyn ap Nudd, soverign of the Unseelie Court stands before you.
+Gwyn ap Nudd, Unseelie Sarayýnýn efendisi karþýnda duruyor.
 ~
-The King of night, the dead, winter and ice, Gwyn ap Nudd is the 
-complete opposite of his brother Oberon.  His hair is raven black, his 
-skin a pale white, his eyes an ice blue.  His stare fills your soul with 
-a chill and yet you get a strange feeling of exhillaration.  Gwyn 
+The King of night, the dead, winter and ice, Gwyn ap Nudd is the
+complete opposite of his brother Oberon.  His hair is raven black, his
+skin a pale white, his eyes an ice blue.  His stare fills your soul with
+a chill and yet you get a strange feeling of exhillaration.  Gwyn
 embodies not only the terror of death but the seductive beauty of night.
 ~
 elf~
 ABT JZ -1000 0
 86 0 50d20+16500 10d20+2000 13d10+56 slash
 -56 -53 -51 -26
-EFHIKN BLQ 0 NZ 
+EFHIKN BLQ 0 NZ
 stand stand male 500
 AHMV ABCDEFGHIJK medium 0
 #12005
-morrigan queen~
-The Morrigan~
-The terrible Morrigan waits here ready to devour you.
+morrigan kraliçe~
+Kraliçe Morrigan~
+Korkunç Morrigan burada, seni yoketmeye hazýr bekliyor.
 ~
-The Morrigan is the Queen of the Unseelie and the most destructive of all 
-the Fae.  She is the most feared of all the creatures of the night, for 
+The Morrigan is the Queen of the Unseelie and the most destructive of all
+the Fae.  She is the most feared of all the creatures of the night, for
 while the Puck may be harmfull the Morrigan is deadly.
 ~
 unique~
 ACFGOT CDEFZ -1000 0
 84 0 50d20+15500 10d20+2000 9d14+51 pierce
 -53 -50 -52 -23
-ABDHNY BLQ 0 NSZ 
+ABDHNY BLQ 0 NSZ
 stand stand female 5050
 0 0 medium 0
 #12006
-sidhe noble~
-a sidhe noble~
-A sidhe noble is here surveying his lands.
+sidhe soylusu~
+bir sidhe soylusu~
+Bir sidhe soylusu topraklarýný teftiþ ediyor.
 ~
-This sidhe, like all others of his kind, is a study in perfection.  He 
+This sidhe, like all others of his kind, is a study in perfection.  He
 radiates strength, beauty, and nobility.
 ~
 elf~
 AGT J 800 0
 77 0 50d20+12000 10d20+2000 9d12+47 pound
 -55 -53 -52 -25
-CFIU 0 BLQ MZ 
+CFIU 0 BLQ MZ
 stand stand male 500
 AHMV ABCDEFGHIJK medium 0
 #12007
-sidhe noble~
-a sidhe noble~
-A sidhe noble is here surveying her lands.
+sidhe soylusu~
+bir sidhe soylusu~
+Bir sidhe soylusu topraklarýný teftiþ ediyor.
 ~
-This sidhe, like all others of her kind, is a study in perfection.  
+This sidhe, like all others of her kind, is a study in perfection.
 She radiates strength, beauty, and nobility.
 ~
 elf~
 AGT J 800 0
 77 0 50d20+12000 10d20+2000 9d12+47 pound
 -55 -53 -52 -25
-CFIU 0 BLQ MZ 
+CFIU 0 BLQ MZ
 stand stand female 500
 AHMV ABCDEFGHIJK medium 0
 #12008
-sidhe noble~
-a sidhe noble~
-A sidhe noble is here surveying his lands.
+sidhe soylusu~
+bir sidhe soylusu~
+Bir sidhe soylusu topraklarýný teftiþ ediyor.
 ~
 This sidhe, like all others of his kind, is a study in perfection.  He
-radiates strength, beauty, and nobility. There is an air of pompus 
+radiates strength, beauty, and nobility. There is an air of pompus
 superiority about him that makes you want to slit his throat.
 ~
 elf~
 AGT J -800 0
 77 0 50d20+12000 10d20+2000 9d12+47 pound
 -55 -53 -52 -25
-CFIU 0 BLQ NZ 
+CFIU 0 BLQ NZ
 stand stand male 500
 AHMV ABCDEFGHIJK medium 0
 #12009
-sidhe noble~
-a sidhe noble~
-A sidhe noble is here surveying her lands.
+sidhe soylusu~
+bir sidhe soylusu~
+Bir sidhe soylusu topraklarýný teftiþ ediyor.
 ~
 This sidhe, like all others of her kind, is a study in perfection.  She
-radiates strength, beauty, and nobility.  However you sense a tired 
+radiates strength, beauty, and nobility.  However you sense a tired
 air of decadence about her.
 ~
 elf~
 AGT J -800 0
 77 0 50d20+12000 10d20+2000 9d12+47 pound
 -55 -53 -52 -25
-CFIU 0 BLQ NZ 
+CFIU 0 BLQ NZ
 stand stand female 500
 AHMV ABCDEFGHIJK medium 0
 #12010
-sidhe guard~
-a sidhe guard~
-A sidhe guard captain stands here guarding his homeland.
+sidhe muhafýzý~
+bir sidhe muhafýzý~
+Bir sidhe muhafýz kaptaný memleketini koruyor.
 ~
-This captain leads his men with all the charisma and natural born 
+This captain leads his men with all the charisma and natural born
 leadership that graces all of the sidhe.
 ~
 elf~
 ABT JN 900 0
 66 0 50d20+8500 10d20+2000 7d9+36 pound
 -22 -25 -23 -5
-EIKLQRTU 0 BLQ MZ 
+EIKLQRTU 0 BLQ MZ
 stand stand male 500
 AHMV ABCDEFGHIJK medium 0
 #12011
-sidhe guard~
-a sidhe guard~
-A sidhe guard captain stands here protecting what is his.
+sidhe muhafýzý~
+bir sidhe muhafýzý~
+Bir sidhe muhafýz kaptaný memleketini koruyor.
 ~
-This captain leads his men with a cunning and skill that is immpossible 
+This captain leads his men with a cunning and skill that is immpossible
 not to admire.
 ~
 elf~
 ABT JN -900 0
 65 0 50d20+8250 10d20+2000 11d5+35 pound
 -22 -25 -23 -5
-EIKLQRTU 0 BLQ NZ 
+EIKLQRTU 0 BLQ NZ
 stand stand male 500
 AHMV ABCDEFGHIJK medium 0
 #12012
-sidhe knight~
-a noble sidhe knight~
-A noble sidhe knight of the Seelie court is here on a quest.
+sidhe þövalyesi~
+bir soylu sidhe þövalyesi~
+Seelie Sarayýnýn soylu sidhe þövalyesi, burada bir görevde.
 ~
-This knight is the epitome of chivalry.  The embodyment of honor, 
+This knight is the epitome of chivalry.  The embodyment of honor,
 loyalty, courage and skill in battle.
 ~
 elf~
 AGT GJ 1000 0
 72 0 50d20+10250 10d20+2000 8d11+42 slash
 -43 -41 -39 -10
-CDEFIKLS 0 BLQ MZ 
+CDEFIKLS 0 BLQ MZ
 stand stand male 500
 AHMV ABCDEFGHIJK medium 0
 #12013
-sidhe knight~
-a noble sidhe knight~
-A noble sidhe knight of the Seelie court is here on a quest.
+sidhe þövalyesi~
+bir soylu sidhe þövalyesi~
+Seelie Sarayýnýn soylu sidhe þövalyesi, burada bir görevde.
 ~
 This knight is the epitome of chivalry.  The embodyment of honor,
 loyalty, courage and skill in battle.
@@ -223,15 +223,15 @@ elf~
 AGT GJ 1000 0
 75 0 50d20+11000 10d20+2000 9d11+45 slash
 -43 -41 -39 -10
-CDEFIKLS N BLQ MZ 
+CDEFIKLS N BLQ MZ
 stand stand female 500
 AHMV ABCDEFGHIJK medium 0
 #12014
-sidhe knight~
-a noble sidhe knight~
-A noble sidhe knight of the Unseelie court is here on a quest.
+sidhe þövalyesi~
+bir soylu sidhe þövalyesi~
+Unseelie Sarayýnýn soylu sidhe þövalyesi, burada bir görevde.
 ~
-This knight is the epitome of chivalry.  The embodyment of power and 
+This knight is the epitome of chivalry.  The embodyment of power and
 skill in battle.
 ~
 elf~
@@ -242,11 +242,11 @@ CDEFIKLS M BLQ NZ
 stand stand male 500
 AHMV ABCDEFGHIJK medium 0
 #12015
-sidhe knight~
-a noble sidhe knight~
-A noble sidhe knight of the Unseelie court is here on a quest.
+sidhe þövalyesi~
+bir soylu sidhe þövalyesi~
+Unseelie Sarayýnýn soylu sidhe þövalyesi, burada bir görevde.
 ~
-This knight is the epitome of chivalry.  The embodyment of power and 
+This knight is the epitome of chivalry.  The embodyment of power and
 skill in battle.
 ~
 elf~
@@ -257,9 +257,9 @@ CDEFIKLS N BLQ MZ
 stand stand female 500
 AHMV ABCDEFGHIJK medium 0
 #12016
-sidhe knight~
-a noble sidhe knight~
-A noble sidhe knight stands here looking bored.
+sidhe þövalyesi~
+bir soylu sidhe þövalyesi~
+Bir soylu sidhe þövalyesi oldukça sýkýlmýþ görünüyor.
 ~
 This knight is the epitome of chivalry.  The embodyment of honor,
 loyalty, courage and skill in battle.
@@ -272,11 +272,11 @@ CDEFIKLS N BLQ MZ
 stand stand male 500
 AHMV ABCDEFGHIJK medium 0
 #12017
-sidhe knight~
-a noble sidhe knight~
-A sidhe knight is here embroiled within the affairs of the court.
+sidhe þövalyesi~
+bir soylu sidhe þövalyesi~
+Bir sidhe þövalyesi burada sarayýn iþlerine burnunu sokuyor.
 ~
-This knight is the epitome of chivalry.  The embodyment of power and 
+This knight is the epitome of chivalry.  The embodyment of power and
 skill in battle.
 ~
 elf~
@@ -287,12 +287,12 @@ CDEFIKLS M BLQ NZ
 stand stand male 500
 AHMV ABCDEFGHIJK medium 0
 #12018
-sidhe knight~
-a noble sidhe knight~
-A noble sidhe knight is attempting to win the favor of a beautiful patron.
+sidhe þövalyesi~
+bir soylu sidhe þövalyesi~
+Bir soylu sidhe þövalyesi güzel birisinin gönlünü kazanmaya çalýþýyor.
 ~
-This knight is the epitome of chivalry.  The embodyment of power and 
-skill in battle. 
+This knight is the epitome of chivalry.  The embodyment of power and
+skill in battle.
 ~
 elf~
 ABT GJ -1000 0
@@ -302,25 +302,25 @@ CDEFIKLS M BLQ NZ
 stand stand female 500
 AHMV ABCDEFGHIJK medium 0
 #12019
-troll guard~
-a troll guard~
-A stoic troll guard stands here watching you.
+rugar muhafýz~
+bir rugar muhafýz~
+Soðukkanlý bir rugar muhafýzý burada durmuþ seni izliyor.
 ~
-This troll stands about 9 feet tall and looks as if he was made of 
-stone.  Once the rulers of Arcadia trolls such as this one now serve the 
+This troll stands about 9 feet tall and looks as if he was made of
+stone.  Once the rulers of Arcadia trolls such as this one now serve the
 sidhe as faithfull warriors.
 ~
 giant~
 ABT Nbcd 1000 0
 69 0 50d20+9500 10d20+2000 7d11+39 pierce
 -39 -39 -39 -9
-CDIKNQU B 0 NPZ 
+CDIKNQU B 0 NPZ
 stand stand male 500
 AHMV ABCDEFGHIJK giant 0
 #12020
-troll guard~
-a troll guard~
-A stoic troll guard stands here watching you.
+rugar muhafýz~
+bir rugar muhafýz~
+Soðukkanlý bir rugar muhafýzý burada durmuþ seni izliyor.
 ~
 This troll stands about 9 feet tall and looks as if he was made of
 stone.  Once the rulers of Arcadia trolls such as this one now serve the
@@ -334,30 +334,30 @@ CDIKNQU B 0 JNPZ
 stand stand male 500
 AHMV ABCDEFGHIJK giant 0
 #12021
-pooka jester~
-a pooka jester~
-A pooka jester is here making you look foolish.
+pooka soytarý~
+a pooka soytarýsý~
+Bir pooka soytarýsý burada seni þapþal yapmaya uðraþýyor.
 ~
-Dressed in a garishly bright, multi-colored, clashing, frilly lace 
-jump-suit, it hurts just to look at him.  This pooka is a master of making 
-people laugh.  You don't even mind when he throws the pie in your face. 
-After all, it's all in good fun. 
+Dressed in a garishly bright, multi-colored, clashing, frilly lace
+jump-suit, it hurts just to look at him.  This pooka is a master of making
+people laugh.  You don't even mind when he throws the pie in your face.
+After all, it's all in good fun.
 ~
 human~
 AGHS P 100 0
 60 0 50d20+6750 10d20+2000 8d6+28 slash
 -32 -33 -33 -15
-BEFHJN 0 BX NZ 
+BEFHJN 0 BX NZ
 stand stand male 500
 AHMV ABCDEFGHIJK medium 0
 #12022
-pooka jester~
-a pooka jester~
-A pooka jester is here planning your fall.
+pooka soytarý~
+bir pooka soytarýsý~
+Bir pooka soyratýsý burada seni düþürmeyi planlýyor.
 ~
 Dressed in a garishly bright, multi-colored, clashing, frilly lace
 jump-suit, it hurts just to look at him.  This pooka is a master of making
-fun of people.  You don't ever realy know if his jokes are truly just for 
+fun of people.  You don't ever realy know if his jokes are truly just for
 fun....
 ~
 human~
@@ -368,11 +368,11 @@ BEFHJN 0 BX NZ
 stand stand male 500
 AHMV ABCDEFGHIJK medium 0
 #12023
-satyr drinker drunk~
-a satyr drinker~
-A satyr is sitting here with a bottle on one side and a woman on the other.
+sarhoþ satir~
+bir satir sarhoþ~
+Bir satir burada, bir yanýnda þiþesi bir yanýnda kadýnýyla oturuyor.
 ~
-Half-man, half-goat satyrs are the party animals of the Fae.  Renowned 
+Half-man, half-goat satyrs are the party animals of the Fae.  Renowned
 for their great stamina they can drink more than almost any other being.
 ~
 satyr~
@@ -383,11 +383,11 @@ CDIN LQ C NZ
 sit sit male 1000
 0 0 medium 0
 #12024
-satyr piper~
-a satyr piper~
-A satyr piper is here playing a lively dancing jig.
+kavalcý satir~
+bir satir kavalcý~
+Bir satir kavalcýsý burada, hareketli bir dans parçasý çalýyor.
 ~
-The piper seems to be almost lost in the music issuing from his pipes.  
+The piper seems to be almost lost in the music issuing from his pipes.
 As you listen you too are drawn into the music.....
 ~
 satyr~
@@ -398,30 +398,30 @@ EHN B C NZ
 stand stand male 500
 0 0 medium 0
 #12025
-satyr singer~
-a satyr singer~
-A beautiful female satyr is here singing of her lost love.
+satir þarkýcý~
+bir satir þarkýcý~
+Güzel bir diþi satir kayýp aþkýnýn þarkýsýný söylüyor.
 ~
-The singer is a satyr, half goat, half human.  The lower portion of her 
-body consists of goat legs covered by short, thick, brown hair, while the 
-upper portion is that of a well proportioned human female, covered only 
-by her long, sandy blonde hair.  Her singing is exquisite and the slight 
+The singer is a satyr, half goat, half human.  The lower portion of her
+body consists of goat legs covered by short, thick, brown hair, while the
+upper portion is that of a well proportioned human female, covered only
+by her long, sandy blonde hair.  Her singing is exquisite and the slight
 swaying of her body as she sings entrances you.
 ~
 satyr~
 AGR d 100 0
 62 0 50d20+7250 10d20+2000 6d9+32 slash
 -30 -26 -28 -1
-FHJ B 0 NZ 
+FHJ B 0 NZ
 stand stand female 500
 0 0 medium 0
 #12026
-satyr lusty~
-a lusty satyr~
-A satyr is here chasing after a young nymph.
+satir azgýn~
+azgýn bir satir~
+Bir satir burada genç bir periyi kovalýyor.
 ~
-This satyr seems totaly obsessed with catching the beautiful woodland 
-nymph.  You can tell by the look in his eyes that it would be a BAD idea 
+This satyr seems totaly obsessed with catching the beautiful woodland
+nymph.  You can tell by the look in his eyes that it would be a BAD idea
 to get in his way.
 ~
 satyr~
@@ -432,25 +432,25 @@ CDR P BLQ NZ
 stand stand male 500
 AHMV ABCDEFGHIJK medium 0
 #12027
-boggan craftsman shoe maker~
-a boggan craftsman~
-A boggan craftsman is here working on a project.
+boggan ustasý ayakkbý üreticisi~
+bir boggan ustasý~
+Bir boggan ustasý burada bir proje üzerine uðraþýyor.
 ~
-This little craftsman is dressed in a dark jerkin with bright red pants 
-and a dark brown cap.  He holds in his hands what will be a finely 
+This little craftsman is dressed in a dark jerkin with bright red pants
+and a dark brown cap.  He holds in his hands what will be a finely
 wrought item when he is finished.
 ~
 dwarf~
 ABT JZ 300 0
 52 0 50d20+4750 10d20+2000 6d7+20 slash
 -34 -35 -34 -2
-C LQ C NRZ 
+C LQ C NRZ
 sit sit male 320
 AHMV ABCDEFGHIJK small 0
 #12028
-boggan smith~
-a boggan smith~
-A boggan smith is here making fine armor.
+boggan demirci~
+bir boggan demircisi~
+Bir boggan demircisi burada kaliteli zýrhlar yapýyor.
 ~
 This little smith is dressed in a dark leather apron  with bright red pants.
 He is working on a dark, rough-looking piece of armor.
@@ -459,31 +459,31 @@ dwarf~
 ABT JZ 300 0
 52 0 50d20+4750 10d20+2000 6d7+20 slash
 -34 -35 -34 -2
-C LQ C NRZ 
+C LQ C NRZ
 sit sit male 320
 AHMV ABCDEFGHIJK small 0
 #12029
-eshu adventurer~
-an adventurous eshu~
-An adventurous eshu is wandering around searching for excitement.
+eshu maceracý~
+maceraperest bir eshu~
+Maceraperest bir eshu, ortalýkta dolanýp biraz heyecan arýyor.
 ~
-This tall, dark, man-shaped creature is almost completely covered in 
+This tall, dark, man-shaped creature is almost completely covered in
 bright purple, flowing robes with a winding turban hiding his face.
 ~
 human~
 AT TU 0 0
 58 0 50d20+6250 10d20+2000 5d10+25 pierce
 -30 -30 -31 -10
-CDEI 0 C NZ 
+CDEI 0 C NZ
 stand stand male 500
 AHMV ABCDEFGHIJK medium 0
 #12030
-eshu storyteller~
-an eshu~
-An eshu sits here telling tales of his myriad adventures.
+eshu masalcý~
+bir eshu~
+Bir eshu burada oturmuþ, myriad maceralarýný anlatýyor.
 ~
 This dark-skinned man in flowing purple robes is either telling the most
-outrageous lies you have ever heard or he is one hell of a lot more 
+outrageous lies you have ever heard or he is one hell of a lot more
 experienced than you will ever be.
 ~
 human~
@@ -494,9 +494,9 @@ CDEI 0 0 NZ
 stand stand male 500
 AHMV ABCDEFGHIJK medium 0
 #12031
-eshu drinker drunk~
-a drunken eshu~
-An eshu is sitting here working on his sixth pint of ale.
+eshu sarhoþ içkili~
+içkili bir eshu~
+Bir eshu burada oturmuþ altýncý ale maþrapasýnýn üzerinde çalýþýyor.
 ~
 This guy could put some bartender's children through college.
 ~
@@ -508,11 +508,11 @@ CDEI 0 0 NZ
 stand stand male 500
 AHMV ABCDEFGHIJK medium 0
 #12032
-redcap thug~
-a savage redcap~
-A redcap jumps out of a hole and starts chewing on your leg.
+kýzýlbere haydut~
+gaddar bir kýzýlbere~
+Bir kýzýlbere aniden fýrlayýp ayaðýnýn üzerinde tepinmeye baþlýyor.
 ~
-This nasty little creature is a blood-stained mouth with sharp-clawed 
+This nasty little creature is a blood-stained mouth with sharp-clawed
 appendages dressed in a brown tunic with a blood red hat.
 ~
 halfling~
@@ -523,9 +523,9 @@ BDJVY M LQ NZ
 stand stand male 500
 AHMV ABCDEFGHIJK small 0
 #12033
-redcap murderer~
-a murderous redcap~
-A murderous redcap attacks from behind.
+kýzýlbere katil~
+cani bir kýzýlbere~
+Cani bir kýzýlbere arkandan saldýrýyor.
 ~
 This redcap is a killing machine.  All sharp teeth, claws, and talons.
 ~
@@ -537,11 +537,11 @@ BDJVY M LQ NZ
 stand stand male 500
 AHMV ABCDEFGHIJK small 0
 #12034
-sluagh watcher~
-a sluagh watcher~
-A sluagh stands here watching all from the shadows.
+sluah gözcü~
+bir sluah gözcüsü~
+Bir sluah gölgelerin içinden olan biteni izliyor.
 ~
-While not ugly this dark creature bears no resemblance to the other fae you 
+While not ugly this dark creature bears no resemblance to the other fae you
 have seen. Even the Unseelie don't rival the natural repulsion you feel towards
 this creature.
 ~
@@ -549,28 +549,28 @@ urlock~
 AHS BCDEFJNPQUZ -20 0
 36 0 10d20+1400 10d20+2000 3d10+11 pound
 -12 -12 -13 -1
-EFHJK M LQ NSZ 
+EFHJK M LQ NSZ
 stand stand female 500
 AHMV ABCDEFGHIJK small 0
 #12035
-sluagh guardian~
-a sluagh guardian~
-A sluagh guardian sees you and moves to protect it's home.
+sluah gardian~
+bir sluah gardiyaný~
+Bir sluah gardiyaný seni görüyor ve vatanýný korumak için harekete geçiyor.
 ~
-This dark fae is not willing to let you in on it's secrets, you had best 
+This dark fae is not willing to let you in on it's secrets, you had best
 leave now.
 ~
 urlock~
 AHS BCDEFJNPQUZ -20 0
 36 0 10d20+1400 10d20+2000 3d10+11 pierce
 -12 -12 -13 -1
-EFHJK M LQ NSZ 
+EFHJK M LQ NSZ
 stand stand female 500
-AHMV ABCDEFGHIJK small 0 
+AHMV ABCDEFGHIJK small 0
 #12036
-pixie~
-a pixie~
-A small pixie is here looking for a few sylphs.
+küçük peri~
+küçük bir peri~
+Küçük bir peri burada birkaç hava perisi arýyor.
 ~
 He looks like a little elf about 3 inches tall with small insect wings.
 ~
@@ -582,26 +582,26 @@ FHKR 0 D Z
 stand stand male 500
 AHMV ABCDEFGHIJK tiny 0
 #12037
-sprite~
-a sprite~
-A small sprite notices you and decides to have some fun.
+þakacý peri~
+þakacý bir peri~
+Küçük þakacý bir peri seni görüyor ve biraz eðlenmeye karar veriyor.
 ~
-This sprite looks like a little man with butterfly wings and a mishcevous 
+This sprite looks like a little man with butterfly wings and a mishcevous
 smile on his face.
 ~
 quickling~
 AFHW BTV -300 0
 32 0 10d20+1000 10d20+2000 6d4+9 pierce
 -18 -18 -18 -1
-EFIK 0 D NZ 
+EFIK 0 D NZ
 stand stand male 500
 AHMV ABCDEFGHIJK tiny 0
 #12038
-sylph~
-a sylph~
-A lovely, gossamer winged sylph floats upon the wind.
+hava perisi~
+hava perisi~
+Sevimli, að kanatlý bir hava perisi rüzgarn üzerinde süzülüyor.
 ~
-This beautiful and elusive creature is like the wind itself.  Her grace 
+This beautiful and elusive creature is like the wind itself.  Her grace
 and form amaze and beguile you.
 ~
 pixie~
@@ -612,9 +612,9 @@ FH 0 LQ NZ
 stand stand female 500
 AHMV ABCDEFGHIJK tiny 0
 #12039
-nymph~
-a beautiful nymph~
-A beautiful nymph plays in the water.
+göl perisi~
+bir göl perisi~
+Güzel bir göl perisi suyun içinde oynuyor.
 ~
 A scantily clad nymph stands here half in the water.
 ~
@@ -622,43 +622,43 @@ elf~
 ABHQ J 100 0
 30 0 10d20+853 10d20+2000 4d6+8 slash
 -20 -15 -18 -1
-FN R B NZ 
+FN R B NZ
 stand stand female 500
 AHMV ABCDEFGHIJK medium 0
 #12040
-dryad~
-a playful dryad~
-A playful dryad runs among the trees.
+orman perisi~
+bir orman perisi~
+Oyuncu bir orman perisi aðaçlarýn arasýnda koþuþturuyor.
 ~
-This beautiful brown skinned maiden with dark eyes, clothed in a few 
+This beautiful brown skinned maiden with dark eyes, clothed in a few
 leaves runs among the trees darting in and out of sight.
 ~
 elf~
 AGHQ J 100 0
 30 0 10d20+853 10d20+2000 4d6+8 slash
 -20 -15 -18 -1
-FN R B NZ 
+FN R B NZ
 stand stand female 500
 AHMV ABCDEFGHIJK medium 0
 #12041
-mermaid~
-an exotic mermaid~
-An exotic mermaid swims quickly away from you.
+deniz kýzý~
+bir deniz kýzý~
+Egzotik bir deniz kýzý çabukça yüzerek senden uzaklaþýyor.
 ~
-This aquatic beauty has a well formed upper human half and a strong 
+This aquatic beauty has a well formed upper human half and a strong
 finned tail.
 ~
 unique~
 ABHT Tc 250 0
 30 0 10d20+853 10d20+2000 4d6+8 pierce
 -20 -15 -18 -1
-FMW R 0 JNZ 
+FMW R 0 JNZ
 stand stand female 500
 0 0 medium 0
 #12042
-merman~
-an strange merman~
-An strange merman swims quickly around you.
+deniz çocuðu~
+garip bir deniz çocuðu~
+Garip bir deniz çocuðu hýzla etrafýnda yüzüyor.
 ~
 This aquatic creature has a well formed upper human half and a strong
 finned tail.
@@ -671,11 +671,11 @@ FMW R 0 JNZ
 stand stand male 500
 0 0 medium 0
 #12043
-flower fae~
-a flower faery~
-A beautiful flower grows here.
+çiçek~
+bir çiçek~
+Güzel bir çiçek burada büyüyor.
 ~
-Something seems quite strange about this flower.  It almost seems to be 
+Something seems quite strange about this flower.  It almost seems to be
 alive.
 ~
 quickling~
@@ -686,9 +686,9 @@ FNU ABES D GHNZ
 stand stand none 0
 AHMV ABCDEFGHIJK tiny 0
 #12044
-acorn fae~
-an acorn faery~
-A small acorn lies here.
+meþe palamut~
+bir meþe palamudu~
+Küçük bir meþe palamudu burada duruyor.
 ~
 Looks like an ordinary acorn...only it keeps moving.....
 ~
@@ -700,11 +700,11 @@ FNU ABES D GHNZ
 stand stand none 0
 AHMV ABCDEFGHIJK tiny 0
 #12045
-boy charmer~
-A little boy~
-A little boy with a set of small pipes.
+baðlayýcý oðlan~
+küçük bir oðlan~
+Küçük kavalý olan bir oðlan.
 ~
-This little boy has seemingly charmed several forest creatures with his 
+This little boy has seemingly charmed several forest creatures with his
 strange music.  He holds a small set of glowing pipes in his hands.
 ~
 quickling~
@@ -715,11 +715,11 @@ FNU ABES D GHNZ
 stand stand none 0
 AHMV ABCDEFGHIJK tiny 0
 #12046
-cusidhe pet~
-A CuSidhe~
-A large white hound with blood red ears.
+cuside hayvan~
+Bir CuSidhe~
+Kan kýrmýzýsý kulaklý iri bir tazý.
 ~
-This hound is strangely quiet and well behaved, it's eyes contain a 
+This hound is strangely quiet and well behaved, it's eyes contain a
 measure of intelligence rarely seen in a normal animal.
 ~
 lupus~
@@ -730,11 +730,11 @@ CDFLN 0 0 NYZ
 stand stand male 0
 BHMV ABCDEFGHIJKQV tiny 0
 #12047
-bosidhe pet~
-A BoSidhe~
-A large white bull with blood red horns.
+bosidhe hayvan~
+Bir BoSidhe~
+Kan kýrmýzýsý boynuzlu iri bir boða.
 ~
-This large bull is pure white with red horns.  Its eyes hold an 
+This large bull is pure white with red horns.  Its eyes hold an
 intelligence that is not common in one of it's species.
 ~
 lupus~
@@ -745,27 +745,27 @@ CDILN 0 0 YZ
 stand stand male 0
 BHMV ABCDEFGHIJKQV huge 0
 #12048
-catsidhe pet~
-A CatSidhe~
-A large white cat with red ears.
+kedisidhe hayvan~
+Bir KediSidhe~
+Kýrmýzý kulaklý iri bir kedi.
 ~
-This cat is all white with red ears.  In it's eyes you can see 
+This cat is all white with red ears.  In it's eyes you can see
 inteligence.
 ~
 cat~
 ARU DFPZ 0 0
 50 0 20d20+4250 10d20+2000 5d8+19 claw
 -24 -25 -23 -2
-BEFHJKNV 0 0 Z 
+BEFHJKNV 0 0 Z
 stand stand female 0
 AGV ACDEFHJKQUV medium 0
 #12049
 bransidhe pet~
-A BranSidhe~
-A giant, black, raven like bird.
+Bir BranSidhe~
+Dev, siyah kuzguna benzeyen bir kuþ.
 ~
-This Sidhe bird is the messenger that travels between the world of the 
-living and the dead, both Seelie and Unseelie.  It looks like a raven 
+This Sidhe bird is the messenger that travels between the world of the
+living and the dead, both Seelie and Unseelie.  It looks like a raven
 only its the size of a small child.
 ~
 avian~
@@ -781,33 +781,33 @@ AHMV ABCDEFGHIJKPU small 0
 
 #OBJECTS
 #12000
-acorn hat~
-An acorn hat~
-A small brown cap lies here.~
+palamut kep~
+Bir palamut kep~
+Küçük kahverengi bir kep burada duruyor.~
 wood~
 armor G AE
 5 6 5 3 0
 22 3 30 P
 #12001
-nectar~
-A drop of nectar~
-A small drop af amber nectar.~
+nektar~
+Bir nektar damlasý~
+Küçük bir kehribar nektarý damlasý.~
 cloth~
 potion Q A
 25 'refresh' 'cure critical' 'cure poison' 'cure blindness'
 22 1 0 P
 #12002
-trident~
-A silver trident~
-A long, perfectly balanced silver trident.~
+zýpkýn~
+Gümüþ bir zýpkýn~
+Uzun, mükemmel aðýrlýkta bir zýpkýn.~
 silver~
 weapon AG AN
 staff 6 6 pierce 0
 28 30 800 P
 #12003
-opal bracelet~
-an opal bracelet~
-A gleeming opal bracelet shines faintly from the floor.~
+opal bileklik~
+opal bir bileklik~
+Opal bir bileklik yerde hafifçe parlýyor.~
 silver~
 armor AG AM
 10 7 9 0 0
@@ -815,9 +815,9 @@ armor AG AM
 A
 19 3
 #12004
-gossamer gown~
-A light gossamer gown~
-This see through gossamer gown leaves little to the imagination.~
+ince gecelik~
+Hafif, ince bir gecelik~
+Bu görülmeye deðer gecelik, gerisini hayalgücüne býrakýyor.~
 cloth~
 armor AFG AD
 10 10 10 0 0
@@ -827,9 +827,9 @@ A
 A
 2 2
 #12005
-slender sword~
-A small slender sword~
-A small slender blade of good craftsmanship.~
+ince kýlýç~
+Küçük ince bir kýlýç~
+Ustalýkla yapýlmýþ küçük ince bir kýlýç.~
 silver~
 weapon G AN
 sword 4 9 slash 0
@@ -837,9 +837,9 @@ sword 4 9 slash 0
 A
 18 3
 #12006
-boots~
-A pair of grey boots~
-A pair boots made of some grey material you haven't seen before.~
+çizmeler~
+Bir çift gri çizme~
+Daha önce karþýlaþmadýðýn gri bir maddeden yapýlmýþ bir çift çizme.~
 leather~
 armor G AG
 10 11 8 8 0
@@ -849,9 +849,9 @@ A
 A
 14 110
 #12007
-pixie bow~
-A pixie bow~
-A small elegantly crafted bow with tiny arrows.~
+peri yayý~
+Bir peri yayý~
+Zarif bir iþçiliðin eseri bir yay ve minik oklar.~
 silver~
 wand ABC AO
 30 18 18 'curse' 0
@@ -859,9 +859,9 @@ wand ABC AO
 A
 20 1
 #12008
-wavy kris blade~
-A dull kris blade~
-A dull kris blade with a broken handle and a few chips.~
+dalgalý kris býçaðý~
+Renksiz bir kris býçaðý~
+Birkaç çentiði olan kýrýk kabzalý renksiz bir kris býçaðý.~
 iron~
 weapon CG AN
 dagger 4 10 pierce D
@@ -869,9 +869,9 @@ dagger 4 10 pierce D
 A
 19 4
 #12009
-jagged blade~
-A jagged blade~
-A jagged, broken and chipped blade.~
+diþli býçak~
+bir diþli býçak~
+Diþli, kýrýlmýþ ve ufalanmýþ bir býçak.~
 unknown~
 weapon G AN
 sword 4 11 cleave 0
@@ -885,9 +885,9 @@ A
 A
 1 2
 #12010
-red cap~
-A red cap~
-This hat looks as if it were dyed with the blood of several animals.~
+kýrmýzý kasket~
+kýrmýzý bir kasket~
+Bu kasket çeþitli hayvanlarýn kanýyla boyanmýþa benziyor.~
 cloth~
 armor EGJ AE
 12 12 13 4 0
@@ -897,9 +897,9 @@ A
 A
 3 -3
 #12011
-club~
-A blood stained club~
-This heavy club is marred by several blood stains.~
+kiriþ~
+Kan lekeli bir kiriþ~
+Bu aðýr kiriþin üzerinde birçok kan lekesi var.~
 wood~
 weapon EJ AN
 mace 6 6 pound D
@@ -909,9 +909,9 @@ A
 A
 12 -50
 #12012
-book~
-A book of Tales~
-This book contains the adventures of a wandering Eshu.~
+kitap~
+Bir hikaye kitabý~
+Bu kitap maceracý bir Eshu nun hikayelerini anlatýyor.~
 paper~
 treasure G AO
 0 0 0 0 0
@@ -921,26 +921,27 @@ A
 A
 4 3
 #12013
-khopesh~
-A gleaming khopesh~
-A bright, wide-bladed khopesh with a gold and ivory handle.~
+khopeþ~
+Parýldayan bir khopeþ~
+Parlak, geniþ býçaklý, altýn ve fildiþinden kabzasý olan bir khopeþ.~
 unknown~
 weapon G AN
 sword 8 7 slash 0
 56 30 1200 P
 #12014
-unfinished helmet~
-An unfinished helmet~
-This helmet looks to be of unparalleled craftsmanship, too bad it was never finished.~
+bitmemiþ miðfer~
+Bitmemiþ bir miðfer~
+Benzersiz bir iþçilikle yapýlmýþ bir miðfer, hiç bir zaman
+tamamlanamayacak olmasý çok kötü.~
 unknown~
 armor G AEO
 14 14 12 12 0
 51 15 800 G
 #12015
-unfinished boots~
-An unfinished pair of boots~
-These boots would be the best pair you had ever seen if their maker had 
-ever finished them.~
+bitmemiþ çizme~
+Bir çift bitmemiþ çizme~
+Eðer ustasý onlarý bitirmiþ olsaydý bu botlar þimdiye kadar gördüklerinin
+en iyileri olabilirdi.~
 leather~
 armor G AGO
 14 14 12 10 0
@@ -950,17 +951,17 @@ A
 A
 2 4
 #12016
-stitching needle~
-A stitching needle~
-A small iron stitching needle.~
+dikiþ iðnesi~
+Bir dikiþ iðnesi~
+Küçük, demir bir dikiþ iðnesi.~
 iron~
 weapon AG AN
 dagger 6 9 pierce 0
 51 1 200 P
 #12017
-leather apron~
-A scorched leather apron~
-A thick leather apron marked by many burns lies here.~
+deri önlük~
+Kurutulmuþ bir deri önlük~
+Üzerinde yanýk izleri olan kalýn deri bir önlük burada duruyor.~
 leather~
 armor 0 AK
 14 14 14 8 0
@@ -968,17 +969,17 @@ armor 0 AK
 A
 13 30
 #12018
-pan pipes~
-Pan pipes~
-A small set of playing pipes of varying lengths.~
+pan flüt~
+Pan flütü~
+Deðiþik boylarda borularý olan bir flüt.~
 wood~
 wand G AO
 50 10 10 'charm person' 0
 60 3 400 P
 #12019
-flagon~
-A flagon of dark ale~
-A large wooden flagon of almost endless capacity.~
+sürahi~
+Bir sürahi koyu ale~
+Büyük neredeyse sonsuz kapasiteli ahþap bir sürahi.~
 wood~
 drink G AO
 200 100 'water' 0 0
@@ -988,9 +989,9 @@ A
 A
 5 3
 #12020
-jester cap~
-A jester's cap~
-A multi-colored cap with four parts, each ending in a large silver bell.~
+soytarý þapka~
+Bir soytarý þapkasý~
+Çok renkli, her biri büyük gümüþ zillerle biten dört baþý olan bir þapka.~
 cloth~
 armor BGHI AE
 17 17 18 10 0
@@ -1002,9 +1003,9 @@ A
 A
 3 -3
 #12021
-unfinished axe~
-An unfinished axe~
-A large, impressive axe that seems just a little unbalanced.~
+bitmamiþ balta~
+Bitmemiþ bir balta~
+Biraz dengesiz görünen, iri, etkieyici bir balta.~
 unknown~
 weapon 0 AN
 axe 5 10 chop 0
@@ -1016,9 +1017,9 @@ A
 A
 1 1
 #12022
-ember~
-A fiery ember~
-A glowing ember from a forge.~
+kor~
+Kýzgýn bir kor~
+Demir ocaðýndan kýzgýn, parlayan bir kor.~
 stone~
 light A A
 0 0 30 0 0
@@ -1026,25 +1027,25 @@ light A A
 A
 1 4
 #12023
-pile coals~
-A pile of coals~
-A small pile of coals lies beside the forge.~
+kömür yýðýn~
+Bir kömür yýðýný~
+Küçük bir kömür yýðýný demir ocaðýnýn yanýnda duruyor.~
 stone~
 container A 0
 100 0 0 50 100
 100 1 0 P
 #12024
-forge~
-A HUGE stone forge~
-A HUGE stone forge is built into the mountain wall.~
+demir ocak ocaðý~
+BÜYÜK bir demir ocaðý~
+BÜYÜK, taþtan bir demir ocaðý daðýn surlarýna kurulmuþ.~
 stone~
 container 0 0
 100 0 0 50 100
 100 1 0 W
 #12025
-dark sword~
-A crude, dark sword~
-A crudely made sword of some dark metal that is obviously not fit for use.~
+karanlýk kýlýç~
+Kaba, karanlýk bir kýlýç~
+Karanlýk bir metalden kabaca yapýlmýþ bir kýlýç, belli ki kullanmak için deðil..~
 mithril~
 weapon CFHJKM AN
 exotic 6 6 slice 0
@@ -1066,134 +1067,134 @@ A
 A
 12 -50
 #12026
-fountain~
-A beautiful crystal fountain~
+çeþme~
+Çok güzel kristal bir çeþme~
 A fountain of crystal reflects light from a thousand facets.~
 glass~
 fountain A 0
 1000 1000 'water' 0 0
 0 0 0 P
 E
-fountain~
-A beautiful fountain of some light and dark crystal reflects light from a 
+çeþme~
+A beautiful fountain of some light and dark crystal reflects light from a
 thousand different facets inviting you to watch as much as it does to drink.
 ~
 #12027
-bucket~
-A wooden bucket~
-This is the bucket the boggans use to cool items from the forge.~
+kova~
+Ahþap bir kova~
+Bogganlarýn ocaktan çýkardýklarýný soðutmak için kullandýklarý kova.~
 wood~
 drink 0 A
 5 5 'water' 8 0
 1 8 0 W
 E
-water~
-The water in the bucket looks quite dirty.  It doesn't look like it would 
+su~
+The water in the bucket looks quite dirty.  It doesn't look like it would
 quench your thirst.
 ~
 #12028
-slime pool~
-slime pool~
-a slime pool is here.~
+balçýk birikinti~
+balçýk birikintisi~
+Bir balçýk birikintisi burada.~
 unknown~
 container 0 0
 100 0 0 50 100
 1 0 0 A
 #12029
-slime bit~
-A bit of slime~
-A small bit of purple slime with luminescent blue streaks.~
+balçýk parça~
+Bir parça balçýk~
+Parlak çizgili küçük bir parça mor balçýk.~
 unknown~
 pill A A
 30 'know alignment' 'armor' 'detect invisibility' ''
 28 2 0 G
 #12030
-bookshelf~
-A large oak bookshelf~
-This bookshelf is filled with books on various subjects.~
+kitaplýk~
+Geniþ bir meþe kitaplýk~
+Çeþitli konularda kitaplarla dolu bir kitaplýk.~
 unknown~
 container 0 0
 100 0 12065 50 100
 0 0 0 P
 #12031
-manuscript~
-An ancient manuscript~
-An ancient manuscript on the subject of the Seelie and Unseelie.~
+el yazmasý~
+Kadim bir el yazmasý~
+Seelie ve Useelie hakkýnda kadim bir el yazmasý.~
 unknown~
 treasure 0 A
 0 0 0 0 0
 20 3 2000 P
 E
-page2~
-The change of nature does not cause the change of court nor does the 
-change of court cause the change in nature.  With the fae such things as 
-cause are irrelevent, they simply are.  It is one of the things that make 
-the fae so able to facinate mortals. 
+sayfa2~
+The change of nature does not cause the change of court nor does the
+change of court cause the change in nature.  With the fae such things as
+cause are irrelevent, they simply are.  It is one of the things that make
+the fae so able to facinate mortals.
 ~
 E
-page1~
-The Seelie and Unseelie houses are the cornerstone of the fae nature.  
-The Seelie is all that is chivalrous, good, fair, beautiful, light and 
-graceful while the Unseelie is the counterpart of each of these 
-qualities.  Just as the fae court switches alliances with each season so 
-do individual fae.  While being immortal in nature, the fae are not 
-unchanging.  The fae switch from one court to another at times within 
-their existence.  The change is one of internal alliance and a once 
-honest and loving Seelie fae can become a dishonest and distrusting one 
+sayfa1~
+The Seelie and Unseelie houses are the cornerstone of the fae nature.
+The Seelie is all that is chivalrous, good, fair, beautiful, light and
+graceful while the Unseelie is the counterpart of each of these
+qualities.  Just as the fae court switches alliances with each season so
+do individual fae.  While being immortal in nature, the fae are not
+unchanging.  The fae switch from one court to another at times within
+their existence.  The change is one of internal alliance and a once
+honest and loving Seelie fae can become a dishonest and distrusting one
 by changing courts.
 ~
 #12032
-manuscript~
-An ancient manuscript~
-A manuscript on the subject of Puck the fool of the fae.~
+el yazmasý~
+Kadim bir el yazmasý~
+Fae nin budalasý Puck hakkýnda kadim bir el yazmasý.~
 unknown~
 treasure 0 A
 0 0 0 0 0
 20 3 2000 P
 E
-page2~
-The Fool seems to also ignore the house differences.  He seems to owe no 
-particular alliegence to either court and seems to retain full use of his 
-seemingly addled faculties throughout the year despite the seasonal 
+sayfa2~
+The Fool seems to also ignore the house differences.  He seems to owe no
+particular alliegence to either court and seems to retain full use of his
+seemingly addled faculties throughout the year despite the seasonal
 variences that so affect his kind.
 ~
 E
-page1~
-Puck is perhaps the single most powerful of all the fae.  Even Gwyn ap 
-Nudd and Oberon pay this wanderer heed.  While usually he is nothing more 
-than a trickster it seems that he is the only fae that has not gone a 
-change of roles since the last cycle of fae existence. Why the Fool is 
-exempt from these yearly changes is a mystery that only he may know and 
+sayfa1~
+Puck is perhaps the single most powerful of all the fae.  Even Gwyn ap
+Nudd and Oberon pay this wanderer heed.  While usually he is nothing more
+than a trickster it seems that he is the only fae that has not gone a
+change of roles since the last cycle of fae existence. Why the Fool is
+exempt from these yearly changes is a mystery that only he may know and
 as is his nature he isn't telling.
 ~
 #12033
-jester stick~
-A jester's stick~
-A carved wooden stick with a puppet jester head on top.~
+soytarý asasý~
+Bir soytarý asasý~
+Tepesinde bir soytarý kuklasý olan oymalý bir sopa.~
 unknown~
 staff BI AO
 60 20 20 'faerie fog' 0
 58 7 6200 G
 #12034
-jester stick~
-A jester's stick~
-A carved wooden stick with a puppet jester head on top.~
+soytarý asasý~
+Bir soytarý asasý~
+Tepesinde bir soytarý kuklasý olan oymalý bir sopa.~
 unknown~
 staff BI AO
 60 20 20 'blindness' 0
 58 7 9200 G
 #12035
-jester stick~
-A jester's stick~
-A carved wooden stick with a puppet jester head on top.~
+soytarý asasý~
+Bir soytarý asasý~
+Tepesinde bir soytarý kuklasý olan oymalý bir sopa.~
 unknown~
 staff BI AO
 60 20 20 'teleport' 0
 58 7 8200 G
 #12036
-white marble mace~
-A white  mace~
-A large white marble mace.~
+beyaz mermer gürz~
+Beyaz bir gürz~
+Büyük, beyaz mermerden bir gürz.~
 marble~
 weapon GK AN
 mace 8 10 pound D
@@ -1207,9 +1208,9 @@ A
 A
 19 7
 #12037
-spiked club~
-A twisted spiked club~
-A large spiked club made of dark twisted wood.~
+çivili sopa~
+Bükümlü bir çivili sopa~
+Koyu bükümlü ahþaptan yapýlmýþ büyük bir çivili sopa.~
 wood~
 weapon GJ AN
 mace 8 10 blast 0
@@ -1220,12 +1221,12 @@ A
 5 2
 A
 1 2
-A 
+A
 19 7
 #12038
-ice shield~
-An ice shield~
-A large shield made of pure ice.~
+buz kalkan~
+Buz bir kalkan~
+Saf buzdan yapýlmþ bir kalkan.~
 ice~
 armor G AJ
 23 23 22 16 0
@@ -1235,9 +1236,9 @@ A
 A
 24 -7
 #12039
-oath ring~
-An oath ring~
-A brightly gleeming ring with a small inscription on the inside.~
+ant yüzük yüzüðü~
+Bir ant yüzüðü~
+Ýç tarafýnda küçük bir yazý olan parlak bir yüzük.~
 unknown~
 treasure G AB
 0 0 0 0 0
@@ -1247,25 +1248,25 @@ A
 A
 17 -5
 #12040
-noble cape~
-A noble's cape~
-A long well made cape of some rich purple cloth.~
+soylu pelerin~
+Bir soylunun pelerini~
+Kaliteli yapým, mor, uzun bir zengin giysisi.~
 unknown~
 armor G AC
 22 22 22 16 0
 72 5 1200 P
 #12041
-noble sword~
-A sidhe broadsword~
-A well made sidhe broadsword with a strange inscription.~
+soylu kýlýç~
+Bir sidhe geniþ kýlýçý~
+Üzerinde garip yaýtlar olan kaliteli yapým bir sidhe geniþ kýlýcý.~
 unknown~
 weapon G AN
 sword 10 8 slash 0
 72 5 1200 P
 #12042
-noble breastplate~
-A sidhe breastplate~
-A well made sidhe noble's breastplate with fine engraving.~
+soylu göðüs zýrhý zýrh~
+Bir sidhe göðüs zýrhý~
+Kaliteli yapým, iþlemeli bir sidhe soylusu zýrhý.~
 unknown~
 armor G AD
 22 22 21 17 0
@@ -1273,9 +1274,9 @@ armor G AD
 A
 4 2
 #12043
-sidhe armguards~
-A pair of sidhe armguards~
-A pair of bright silver armguards of fine craftsmanship.~
+sidhe kolluðu kolluk~
+Bir çift sidhe kolluðu~
+Bir çift parlak gümüþ, kaliteli kolluk.~
 unknown~
 armor G AI
 22 23 21 16 0
@@ -1283,9 +1284,9 @@ armor G AI
 A
 1 1
 #12044
-sidhe greaves~
-A pair of sidhe greaves~
-A set of bright silver leg armor.~
+sidhe bacaklýðý bacaklýk~
+Bir çift sidhe bacaklýðý~
+Bir çift parlak gümüþ, bacak zýrhý takýmý.~
 unknown~
 armor G AF
 23 23 21 16 0
@@ -1293,9 +1294,9 @@ armor G AF
 A
 14 50
 #12045
-sidhe braceers~
-An engraved sidhe bracer~
-A light metal bracer of intricate design.~
+sidhe bilekliði bileklik~
+Ýþlemeli bir sidhe bilekliði~
+Karmakarýþýk iþlemeli bir metal bileklik.~
 unknown~
 armor G AM
 22 21 23 16 0
@@ -1305,9 +1306,9 @@ A
 A
 18 5
 #12046
-noble circlet~
-A noble's circlet~
-This silver circlet is covered in sidhe designs and pale green gems.~
+soylu tacý taç~
+Bir soylunun tacý~
+Sidhe desenleriyle iþlenmiþ ve üzerinde yeþil cevherler olan bir taç.~
 unknown~
 armor G AE
 23 23 23 17 0
@@ -1319,9 +1320,9 @@ A
 A
 5 5
 #12047
-noble rapier~
-A noble's rapier~
-The iron sword of a sidhe noble.~
+soylu ince kýlýcý kýlýç~
+Bir soylunun ince kýlýcý~
+Bir sidhe soylusunun demir kýlýcý.~
 iron~
 weapon G AN
 sword 8 12 slash 0
@@ -1331,9 +1332,9 @@ A
 A
 19 5
 #12048
-heart night~
-The heart of Night~
-The black heart of night pulses with power.~
+gecenin kalbi kalp~
+Gecenin Kalbi~
+Gecenin kara kalbi güçle atýyor.~
 unknown~
 treasure G AO
 0 0 0 0 0
@@ -1349,17 +1350,17 @@ A
 A
 12 50
 #12049
-night blood~
-night's blood~
-A drop of the blood of the Queen of night.~
+gecenin kaný~
+gecenin kaný~
+Gecenin Kraliçesinin bir damla kaný.~
 unknown~
 potion G AO
 80 'pass door' 'sanctuary' '' ''
 82 3 9900 P
 #12050
-stag horned helmet~
-A stag horned helmet~
-This dark helm has two silver antlers of seven tines on the top.~
+geyik boynuzlu miðfer~
+Bir geyik boynuzlu miðfer~
+Üzerinde yedi çatallý iki gümüþ boynuz olan bir miðfer.~
 unknown~
 armor G AE
 28 28 28 11 0
@@ -1367,9 +1368,9 @@ armor G AE
 A
 18 6
 #12051
-silver torc~
-A silver torc~
-The silver torc of the Unseelie King.~
+gümüþ asa~
+Gümüþ bir meþale~
+Unseelie Kralý'nýn gümüþ asasý.~
 silver~
 armor G AC
 28 28 28 10 0
@@ -1377,17 +1378,17 @@ armor G AC
 A
 4 3
 #12052
-poetry~
-poetry~
-A large paper with poetry written on it.~
+þiir~
+þiir~
+Üzerine þiir yazýlmýþ büyük bir kaðýt.~
 unknown~
 scroll G A
 80 'enchant weapon' 'enchant weapon' 'enchant weapon' ''
 78 2 5000 P
 #12053
-robe~
-A poet's robe~
-A heay blue poet's robe.~
+cüppe~
+Bir þairin cüppesi~
+Þairin koyu mavi cüppesi.~
 unknown~
 armor G AK
 25 25 25 18 0
@@ -1395,9 +1396,9 @@ armor G AK
 A
 3 4
 #12054
-gown~
-An embroidered gown~
-A finely embroidered court gown.~
+önlük~
+Ýnce nakýþ önlük~
+Ýnce nakþedilmiþ saray önlüðü.~
 unknown~
 armor G AK
 28 29 29 22 0
@@ -1405,9 +1406,9 @@ armor G AK
 A
 12 100
 #12055
-locket~
-A summer locket~
-A golden locket that contains the essence of summer.~
+madalyon~
+Bir yaz madalyonu~
+Yazýn kokusunu taþýyan bir madalyon.~
 unknown~
 armor G AC
 28 28 29 22 0
@@ -1419,9 +1420,9 @@ A
 A
 19 4
 #12056
-golden torc~
-A golden torc~
-The torc of Rulership of the Seelie Court.~
+altýn asa~
+Altýn bir meþale~
+Seelie Sarayýnýn Hükümdarlýk asasý.~
 gold~
 armor G AC
 28 28 28 20 0
@@ -1433,9 +1434,9 @@ A
 A
 4 2
 #12057
-cloak shadows~
-The cloak of shadows~
-A cloak made of shifting formless shadows.~
+gölgelerin pelerini~
+Gölgelerin pelerini~
+Deðiþen þekilsiz gölgelerden bir pelerin.~
 unknown~
 armor CG AC
 27 28 28 21 0
@@ -1443,25 +1444,25 @@ armor CG AC
 A
 2 3
 #12058
-bag tricks~
-A bag of tricks~
-A doe skin bag that looks empty.~
+hile çantasý~
+Bir hile çantasý~
+Boþ görünen geyik derisi bir çanta.~
 unknown~
 container G AO
 1000 0 0 500 100
 82 2 0 P
 #12059
-orange~
-An orange~
-A small orange orange.~
+portakal~
+Bir portakal~
+Küçük turuncu bir portakal.~
 unknown~
 pill 0 A
 82 'curse' 'sleep' 'blindness' 'poison'
 83 1 0 P
 #12060
-pebble~
-A small pebble~
-This is a small pebble that has had a hole worn through it.~
+deri~
+Küçük yýpranmýþ bir deri~
+Aþýnarak içe doðru delinmiþ pütürlü bir deri.~
 unknown~
 boat MN AO
 0 0 0 0 0
@@ -1471,73 +1472,73 @@ A
 A
 6 1
 #12061
-slime bit~
-A bit of slime~
-A small bit of blue slime with luminescent green streaks.~
+balçýk parçasý~
+Bir parça balçýk~
+Parlak yeþil damarlý mavi bir balçýk parçasý.~
 unknown~
 boat A A
 30 0 0 600 0
 28 2 0 G
 #12062
-bed~
-An unmade bed~
-A totally unkempt bed with covers thrown everywhere.~
+yatak~
+Bitmemiþ bir yatak~
+Kýlýfý etrafa saçýlmýþ darmadaðýn bir yatak.~
 unknown~
 container 0 0
 100 0 0 50 72
 0 0 0 P
 #12063
-bed~
-A well made bed~
-A bed with all the covers in perfect order.~
+yatak~
+Kaliteli bir yatak~
+Tüm kýlýf yerleri mükemmel oturmuþ bir yatak.~
 unknown~
 container 0 0
 100 0 0 50 72
 0 0 0 P
 #12064
-scroll armor~
-A scroll of armor making~
-This scroll is entitled "The secrets of Boggan armor".~
+zýrh parþömeni~
+Bir zýrh oluþturma parþömeni~
+"Boggan zýrhýnýn sýrlarý" diye adlandýrýlmýþ bir parþömen.~
 unknown~
 scroll FG A
 60 'armor' 'shield' 'stone skin' 'bless'
 55 3 19000 P
 #12065
-oak key~
-A small oak key~
-This key is made of dark hard oak.~
+meþe anahtar~
+Küçük bir mese anahtar~
+Sert koyu meþeden yapýlmýþ bir anahtar.~
 unknown~
 key B A
 0 0 0 0 0
 55 1 0 P
 #12066
-page~
-A page of glowing script~
-The letters on this page are glowing and seem to move and change.~
+sayfa~
+Parlayan yazýlý bir sayfa~
+Sayfanýn üzerindeki yazýlar parlýyor ve sanki hareket ediyorlar.~
 unknown~
 scroll AG A
 50 'word of recall' '' '' ''
 55 4 10000 P
 #12067
-black key~
-A small Black key~
-A small black key.~
+sihay anahtar~
+Küçük Siyah bir anahtar~
+Küçük siyah bir anahtar.~
 unknown~
 key CF A
 0 0 0 0 0
 55 1 0 W
 #12068
-glowing dust~
-Some glowing dust~
-This dust glows faintly as you look at it.~
+parlayan toz parlak~
+Bir miktar parlayan toz~
+Toz, ona baktýðýnda zayýf bir þekilde parlýyor.~
 unknown~
 pill G A
 90 'dispel evil' 'create spring' 'armor' ''
 82 1 0 P
 #12069
-crested shield~
-A crested shield~
-This shield bears the crest of one of the sidhe noble houses.~
+armalý kalkan~
+Armalý bir kalkan~
+Üzerinde sidhe soylu evlerinden birinin armasýný taþýyan bir kalkan.~
 unknown~
 armor G AJ
 24 24 25 17 0
@@ -1550,14 +1551,14 @@ A
 
 #ROOMS
 #12001
-In a Field~
-You are standing out in a field of tall grass.  To the southeast 
-you can see a hill with it's top shrouded in mist.  Behind the mist you 
-catch faint glimpses of what looks to be a large castle.  To the east and 
-south is the hillside and to the west and north tangled brush prevents 
+Bir Açýk Arazi~
+You are standing out in a field of tall grass.  To the southeast
+you can see a hill with it's top shrouded in mist.  Behind the mist you
+catch faint glimpses of what looks to be a large castle.  To the east and
+south is the hillside and to the west and north tangled brush prevents
 any movement.
 ~
-0 0 2 
+0 0 2
 D1
 Toward the hillside.
 ~
@@ -1570,13 +1571,13 @@ Toward the hillside.
 0 0 12005
 S
 #12002
-On the Hillside.~
-You are on the side of a gently sloping hill.  The mist still 
-obscures the top but you can no longer recapture the glimpses of the 
-building through the mist.  You can head south up the hill, west to the 
+Yamaç Tarafýnda~
+You are on the side of a gently sloping hill.  The mist still
+obscures the top but you can no longer recapture the glimpses of the
+building through the mist.  You can head south up the hill, west to the
 field or east around the hill.  To the north brambles block all movement.
 ~
-0 0 4 
+0 0 4
 D1
 On the Hillside.
 ~
@@ -1594,13 +1595,13 @@ In a Field.
 0 -1 12001
 S
 #12003
-On the Hillside.~
+Yamaç Tarafýnda~
 You are on the side of a gently sloping hill.  The mist still
 obscures the top but you can no longer recapture the glimpses of the
 building through the mist.  You can head south up the hill, east to the
 field or west around the hill.  To the north brambles block all movement.
 ~
-0 0 4 
+0 0 4
 D1
 In a Field.
 ~
@@ -1618,14 +1619,14 @@ On the Hillside..
 0 -1 12002
 S
 #12004
-In a Field~
+Bir Açýk Arazi~
 You are standing out in a field of tall grass.  To the southeast
 you can see a hill with it's top shrouded in mist.  Behind the mist you
 catch faint glimpses of what looks to be a large castle.  To the west and
 south is the hillside and to the east and north tangled brush prevents
 any movement.
 ~
-0 0 2 
+0 0 2
 D2
 Toward the hillside.
 ~
@@ -1638,13 +1639,13 @@ Toward the hillside.
 0 -1 12003
 S
 #12005
-On the Hillside.~
+Yamaç Tarafýnda~
 You are on the side of a gently sloping hill.  The mist still
 obscures the top but you can no longer recapture the glimpses of the
 building through the mist.  You can head east up the hill, north to the
 field or south around the hill.  To the west brambles block all movement.
 ~
-0 0 4 
+0 0 4
 D0
 In a Field.
 ~
@@ -1662,8 +1663,8 @@ On the Hillside..
 0 -1 12009
 S
 #12006
-Further up the Hillside.~
-You are almost to the top of this hill.  Above you is the top of the 
+Yamacýn Yukarý Kýsmý~
+You are almost to the top of this hill.  Above you is the top of the
 hill and in all other directions the hill extends.~
 0 0 4
 D0
@@ -1693,11 +1694,11 @@ On top of the Hill.
 0 -1 12021
 S
 #12007
-Further up the Hillside.~
+Yamacýn Yukarý Kýsmý~
 You are almost to the top of this hill.  Above you is the top of the
 hill and in all other directions the hill extends. You could't find a
 path to the up.~
-0 0 4 
+0 0 4
 D0
 On the Hillside.
 ~
@@ -1720,13 +1721,13 @@ On the Hillside.
 0 -1 12006
 S
 #12008
-On the Hillside.~
+Yamaç Tarafýnda~
 You are on the side of a gently sloping hill.  The mist still
 obscures the top but you can no longer recapture the glimpses of the
 building through the mist.  You can head west up the hill, north to the
 field or south around the hill.  To the east brambles block all movement.
 ~
-0 0 4 
+0 0 4
 D0
 In a Field.
 ~
@@ -1744,7 +1745,7 @@ Further up the Hill.
 0 -1 12007
 S
 #12009
-On the Hillside.~
+Yamaç Tarafýnda~
 You are on the side of a gently sloping hill.  The mist still
 obscures the top but you can no longer recapture the glimpses of the
 building through the mist.  You can head east up the hill, south to the
@@ -1768,12 +1769,12 @@ In a Field.
 0 -1 12013
 S
 #12010
-Further up the Hillside.~
+Yamacýn Yukarý Kýsmý~
 You are almost to the top of this hill.  Above you is the top of the
 hill and in all other directions the hill extends.You could't find a
 path to the up.
 ~
-0 0 4 
+0 0 4
 D0
 On the Hillside.
 ~
@@ -1796,12 +1797,12 @@ On the Hillside.
 0 -1 12009
 S
 #12011
-Further up the Hillside.~
+Yamacýn Yukarý Kýsmý~
 You are almost to the top of this hill.  Above you is the top of the
 hill and in all other directions the hill extends.You could't find a
 path to the up.
 ~
-0 0 4 
+0 0 4
 D0
 On the Hillside.
 ~
@@ -1824,13 +1825,13 @@ On the Hillside.
 0 -1 12010
 S
 #12012
-On the Hillside.~
+Yamaç Tarafýnda~
 You are on the side of a gently sloping hill.  The mist still
 obscures the top but you can no longer recapture the glimpses of the
 building through the mist.  You can head west up the hill, south to the
 field or north around the hill.  To the east brambles block all movement.
 ~
-0 0 4 
+0 0 4
 D0
 On the Hillside.
 ~
@@ -1843,11 +1844,11 @@ In a Field.
 0 -1 12016
 S
 #12013
-In a Field~
+Bir Açýk Arazi~
 You are standing out in a field of tall grass.  To the northeast
 you can see a hill with it's top shrouded in mist.  Behind the mist you
 catch faint glimpses of what looks to be a large castle.  To the east and
-north is the hillside, to the south is more field and to the west tangled 
+north is the hillside, to the south is more field and to the west tangled
 brush prevents any movement.
 ~
 0 0 2
@@ -1868,13 +1869,13 @@ In a Field.
 0 -1 12017
 S
 #12014
-On the Hillside.~
+Yamaç Tarafýnda~
 You are on the side of a gently sloping hill.  The mist still
 obscures the top but you can no longer recapture the glimpses of the
-building through the mist.  You can head north up the hill, west to the 
+building through the mist.  You can head north up the hill, west to the
 field or east around the hill.
 ~
-0 0 4 
+0 0 4
 D0
 Further up the Hill.
 ~
@@ -1892,13 +1893,13 @@ In a Field.
 0 -1 12013
 S
 #12015
-On the Hillside.~
+Yamaç Tarafýnda~
 You are on the side of a gently sloping hill.  The mist still
 obscures the top but you can no longer recapture the glimpses of the
 building through the mist.  You can head north up the hill, south or
 east to the field or west around the hill.
 ~
-0 0 4 
+0 0 4
 D0
 Further up the Hill.
 ~
@@ -1921,14 +1922,14 @@ On the Hillside.
 0 -1 12014
 S
 #12016
-In a Field~
+Bir Açýk Arazi~
 You are standing out in a field of tall grass.  To the northwest
 you can see a hill with it's top shrouded in mist.  Behind the mist you
 catch faint glimpses of what looks to be a large castle.  To the west and
-north is the hillside, to the south is more field and to the east tangled 
+north is the hillside, to the south is more field and to the east tangled
 brush prevents any movement.
 ~
-0 0 2 
+0 0 2
 D0
 On a Hillside.
 ~
@@ -1946,7 +1947,7 @@ On a Hillside.
 0 -1 12015
 S
 #12017
-In a Field~
+Bir Açýk Arazi~
 You are standing out in a field of tall grass.  To the northwest
 you can see a hill with it's top shrouded in mist.  Behind the mist you
 catch faint glimpses of what looks to be a large castle.  To the east and
@@ -1966,13 +1967,13 @@ In a Field.
 0 -1 12018
 S
 #12018
-The Path's Beginning~
+Patika Baþlangýcý~
 You are in a field like almost any field.  To the east and west the field
 continues and to the north you see a path of grass that is noticeably
 darker than the rest which circles around the hill.  To the south are
 more plentiful trail.
 ~
-0 VW 2  
+0 VW 2
 D0
 Along the Path
 ~
@@ -1995,14 +1996,14 @@ In a Field
 0 -1 12017
 S
 #12019
-In a Field~
+Bir Açýk Arazi~
 You are standing out in a field of tall grass.  To the north
 you can see a hill with it's top shrouded in mist.  Behind the mist you
 catch faint glimpses of what looks to be a large castle.  To the west and
-east is more field, to the north you can head up the hill and to the 
+east is more field, to the north you can head up the hill and to the
 south you see a path.
 ~
-0 0 2  
+0 0 2
 D0
 On a Hillside.
 ~
@@ -2020,14 +2021,14 @@ In a Field.
 0 -1 12018
 S
 #12020
-In a Field~
+Bir Açýk Arazi~
 You are standing out in a field of tall grass.  To the northwest
 you can see a hill with it's top shrouded in mist.  Behind the mist you
 catch faint glimpses of what looks to be a large castle.  To the west and
 north is more field and to the east and south tangled brush prevents any
 movement.
 ~
-0 0 2 
+0 0 2
 D0
 In a Field.
 ~
@@ -2039,17 +2040,17 @@ D3
 0 0 12019
 S
 #12021
-At the Top of the Hill~
-You are standing on the top of the hill.  The structure you thought 
-you saw from the bottom must have just been something created by a 
-combination of the light, the mist and your imagination because there is 
-not castle here.  There is however a small standing stone with some worn 
+Tepenin Doruðu~
+You are standing on the top of the hill.  The structure you thought
+you saw from the bottom must have just been something created by a
+combination of the light, the mist and your imagination because there is
+not castle here.  There is however a small standing stone with some worn
 engravings on it.  The only exit is down.
 ~
-0 0 2 
+0 0 2
 E
 standing stone engravings~
-The engravings on the stone are very worn but you can barely make out the 
+The engravings on the stone are very worn but you can barely make out the
 words "Three times around the faery tor, till you'll find the faery door."
 ~
 D5
@@ -2059,8 +2060,8 @@ Down the hill.
 0 -1 12006
 S
 #12022
-Along the path~
-You are standing on the path of dark grass. The path continues to 
+Patika Yolunda~
+You are standing on the path of dark grass. The path continues to
 the west and south but all other directions are hazy.
 ~
 0 VW 2
@@ -2076,11 +2077,11 @@ Further along the Path.
 0 -1 12023
 S
 #12023
-Along the path~
+Patika Yolunda~
 You are standing on the path of dark grass. The path continues to
 the north but all other directions are hazy.
 ~
-0 VW 2 
+0 VW 2
 D0
 Further along the Path
 ~
@@ -2093,7 +2094,7 @@ Off the Path
 0 -1 12022
 S
 #12024
-Along the path~
+Patika Yolunda~
 You are standing on the path of dark grass. The path continues to
 the north but all other directions are hazy.
 ~
@@ -2115,12 +2116,12 @@ Off the Path
 0 -1 12023
 S
 #12025
-Along the path~
+Patika Yolunda~
 You are standing on the path of dark grass. The path continues to
-the north but all other directions are hazy. To the east brambles 
+the north but all other directions are hazy. To the east brambles
 block all movement.
 ~
-0 VW 2 
+0 VW 2
 D0
 Further along the Path
 ~
@@ -2133,11 +2134,11 @@ Off the Path
 0 -1 12024
 S
 #12026
-Along the path~
+Patika Yolunda~
 You are standing on the path of dark grass. The path continues to
 the north but all other directions are hazy.
 ~
-0 VW 2 
+0 VW 2
 D0
 Further along the Path
 ~
@@ -2155,7 +2156,7 @@ Along the Path
 0 -1 12025
 S
 #12027
-Along the path~
+Patika Yolunda~
 You are standing on the path of dark grass. The path continues to
 the east but all other directions are hazy.
 ~
@@ -2172,7 +2173,7 @@ Off the Path
 0 -1 12026
 S
 #12028
-Along the path~
+Patika Yolunda~
 You are standing on the path of dark grass. The path continues to
 the east but all other directions are hazy.
 ~
@@ -2194,11 +2195,11 @@ Along the Path
 0 -1 12027
 S
 #12029
-Along the path~
+Patika Yolunda~
 You are standing on the path of dark grass. The path continues to
 the east but all other directions are hazy.
 ~
-0 VW 2 
+0 VW 2
 D1
 Further along the Path
 ~
@@ -2216,11 +2217,11 @@ Along the Path
 0 -1 12028
 S
 #12030
-Along the path~
+Patika Yolunda~
 You are standing on the path of dark grass. The path continues to
 the south but all other directions are hazy.
 ~
-0 VW 2 
+0 VW 2
 D2
 Further along the Path
 ~
@@ -2233,12 +2234,12 @@ Along the Path
 0 -1 12029
 S
 #12031
-Along the path~
+Patika Yolunda~
 You are standing on the path of dark grass. The path continues to
-the south but all other directions are hazy. To the west brambles block 
+the south but all other directions are hazy. To the west brambles block
 all movement.
 ~
-0 VW 2 
+0 VW 2
 D0
 Along the Path
 ~
@@ -2251,12 +2252,12 @@ Further along the Path
 0 -1 12032
 S
 #12032
-Along the path~
+Patika Yolunda~
 You are standing on the path of dark grass. The path continues to
-the south but all other directions are hazy.  To the east brambles block 
+the south but all other directions are hazy.  To the east brambles block
 all movement.
 ~
-0 VW 2  
+0 VW 2
 D0
 Along the Path
 ~
@@ -2269,12 +2270,12 @@ Further along the Path
 0 -1 12033
 S
 #12033
-Along the path~
+Patika Yolunda~
 You are standing on the path of dark grass. The path continues to
-the west but all other directions are hazy.  To the south brambles block 
+the west but all other directions are hazy.  To the south brambles block
 all movement.
 ~
-0 VW 2 
+0 VW 2
 D0
 Along the Path
 ~
@@ -2287,12 +2288,12 @@ Further along the Path
 0 -1 12034
 S
 #12034
-Along the path~
+Patika Yolunda~
 You are standing on the path of dark grass. The path continues to
-the west but all other directions are hazy.  To the south brambles block 
+the west but all other directions are hazy.  To the south brambles block
 all movement.
 ~
-0 VW 2 
+0 VW 2
 D0
 Off the Path
 ~
@@ -2310,12 +2311,12 @@ Further along the Path
 0 -1 12035
 S
 #12035
-Along the path~
+Patika Yolunda~
 You are standing on the path of dark grass. The path continues to
-the north but all other directions are hazy. To the west and south 
+the north but all other directions are hazy. To the west and south
 brambles block all movement.
 ~
-0 VW 2  
+0 VW 2
 D0
 Further along the Path
 ~
@@ -2328,12 +2329,12 @@ Along the Path
 0 -1 12034
 S
 #12036
-Along the path~
+Patika Yolunda~
 You are standing on the path of dark grass. The path continues to
 the north but all other directions are hazy. To the east and west brambles
 block all movement.
 ~
-0 VW 2 
+0 VW 2
 D0
 Further along the Path
 ~
@@ -2346,12 +2347,12 @@ Along the Path
 0 -1 12035
 S
 #12037
-Along the path~
+Patika Yolunda~
 You are standing on the path of dark grass. The path continues to
 the east but all other directions are hazy. To the west brambles block all
 movement.
 ~
-0 VW 2 
+0 VW 2
 D0
 Off the Path
 ~
@@ -2369,12 +2370,12 @@ Along the Path
 0 -1 12036
 S
 #12038
-Along the path~
+Patika Yolunda~
 You are standing on the path of dark grass. The path continues to
-the south but all other directions are hazy. To the east and north 
+the south but all other directions are hazy. To the east and north
 brambles block all movement.
 ~
-0 VW 2 
+0 VW 2
 D2
 Along the Path
 ~
@@ -2387,12 +2388,12 @@ Along the Path
 0 -1 12037
 S
 #12039
-Along the path~
+Patika Yolunda~
 You are standing on the path of dark grass. The path continues to
-the west but all other directions are hazy.  To the east and south 
+the west but all other directions are hazy.  To the east and south
 brambles block all movement.
 ~
-0 VW 2  
+0 VW 2
 D0
 Along the Path
 ~
@@ -2405,12 +2406,12 @@ The end of the Path
 0 -1 12040
 S
 #12040
-The End of the Path~
-You stand at the end of what you now know to be a faery trod.  
-To the north stands the open gate to Arcadia.  From beyond the gates 
+Patikanýn Bitimi~
+You stand at the end of what you now know to be a faery trod.
+To the north stands the open gate to Arcadia.  From beyond the gates
 strains of music and laughter catch your ear and draw you forward.
 ~
-0 VW 2 
+0 VW 2
 D0
 Arcadia
 ~
@@ -2423,10 +2424,10 @@ Along the Path
 0 -1 12039
 S
 #12041
-The Deep end of the Lake~
-You are in the depths of a lake of crystal blue waters.  The cool 
-waters carress and soothe your aches.  The water seems so peaceful that 
-you don't ever want to leave.  The lake extends to the north and east 
+Gölün Derin Bitimi~
+You are in the depths of a lake of crystal blue waters.  The cool
+waters carress and soothe your aches.  The water seems so peaceful that
+you don't ever want to leave.  The lake extends to the north and east
 while a rock face borders it to the west and south.
 ~
 0 0 7
@@ -2442,13 +2443,13 @@ The Lake Shore
 0 -1 12042
 S
 #12042
-The Lake Shore~
-You stand in the shallows of a blue crystal lake.  The water is warm 
-and inviting and you catch glimpses of what look like swimmers farther 
-out in the lake to the west.  To the south a rock face blocks all 
+Göl Kýyýsý~
+You stand in the shallows of a blue crystal lake.  The water is warm
+and inviting and you catch glimpses of what look like swimmers farther
+out in the lake to the west.  To the south a rock face blocks all
 movement and to the north is more of the shore.
 ~
-0 0 6 
+0 0 6
 D0
 The Lake Shore
 ~
@@ -2466,13 +2467,13 @@ The Deep end of the Lake
 0 -1 12041
 S
 #12043
-An Enchanted Forest~
-All around you are massive trees with emerald leaves and silver 
-bark.  The forest floor is covered in flowers and soft mosses.  Sunlight 
-filters softly through the canopy above lighting the world with a soft 
+Efsunlu Bir Orman~
+All around you are massive trees with emerald leaves and silver
+bark.  The forest floor is covered in flowers and soft mosses.  Sunlight
+filters softly through the canopy above lighting the world with a soft
 difused glow.
 ~
-0 0 3 
+0 0 3
 D0
 An Enchanted Forest
 ~
@@ -2490,13 +2491,13 @@ The Lake Shore
 0 -1 12042
 S
 #12044
-An Enchanted Forest~
+Efsunlu Bir Orman~
 All around you are massive trees with emerald leaves and silver
 bark.  The forest floor is covered in flowers and soft mosses.  Sunlight
 filters softly through the canopy above lighting the world with a soft
 difused glow.
 ~
-0 0 3 
+0 0 3
 D0
 An Enchanted Forest
 ~
@@ -2519,13 +2520,13 @@ An Enchanted Forest
 0 -1 12043
 S
 #12045
-An Enchanted Forest~
+Efsunlu Bir Orman~
 All around you are massive trees with emerald leaves and silver
 bark.  The forest floor is covered in flowers and soft mosses.  Sunlight
 filters softly through the canopy above lighting the world with a soft
 difused glow.
 ~
-0 0 3 
+0 0 3
 D0
 An Enchanted Forest
 ~
@@ -2543,13 +2544,13 @@ An Enchanted Forest
 0 -1 12044
 S
 #12046
-An Enchanted Forest~
+Efsunlu Bir Orman~
 All around you are massive trees with emerald leaves and silver
 bark.  The forest floor is covered in flowers and soft mosses.  Sunlight
 filters softly through the canopy above lighting the world with a soft
 difused glow.
 ~
-0 0 3 
+0 0 3
 D0
 An Enchanted Forest
 ~
@@ -2567,13 +2568,13 @@ An Enchanted Forest
 0 -1 12045
 S
 #12048
-An Enchanted Forest~
+Efsunlu Bir Orman~
 All around you are massive trees with emerald leaves and silver
 bark.  The forest floor is covered in flowers and soft mosses.  Sunlight
 filters softly through the canopy above lighting the world with a soft
 difused glow.
 ~
-0 0 3 
+0 0 3
 D0
 An Enchanted Forest
 ~
@@ -2586,7 +2587,7 @@ An Enchanted Forest
 0 -1 12046
 S
 #12049
-An Enchanted Forest~
+Efsunlu Bir Orman~
 All around you are massive trees with emerald leaves and silver
 bark.  The forest floor is covered in flowers and soft mosses.  Sunlight
 filters softly through the canopy above lighting the world with a soft
@@ -2610,13 +2611,13 @@ An Enchanted Forest
 0 -1 12050
 S
 #12050
-An Enchanted Forest~
+Efsunlu Bir Orman~
 All around you are massive trees with emerald leaves and silver
 bark.  The forest floor is covered in flowers and soft mosses.  Sunlight
 filters softly through the canopy above lighting the world with a soft
 difused glow.
 ~
-0 0 3 
+0 0 3
 D0
 An Enchanted Forest
 ~
@@ -2639,13 +2640,13 @@ An Enchanted Forest
 0 -1 12051
 S
 #12051
-An Enchanted Forest~
+Efsunlu Bir Orman~
 All around you are massive trees with emerald leaves and silver
 bark.  The forest floor is covered in flowers and soft mosses.  Sunlight
 filters softly through the canopy above lighting the world with a soft
 difused glow.
 ~
-0 0 3 
+0 0 3
 D0
 An Enchanted Forest
 ~
@@ -2668,13 +2669,13 @@ An Enchanted Forest
 0 -1 12052
 S
 #12052
-An Enchanted Forest~
+Efsunlu Bir Orman~
 All around you are massive trees with emerald leaves and silver
 bark.  The forest floor is covered in flowers and soft mosses.  Sunlight
 filters softly through the canopy above lighting the world with a soft
 difused glow.
 ~
-0 0 3 
+0 0 3
 D0
 An Enchanted Forest
 ~
@@ -2697,13 +2698,13 @@ An Enchanted Forest
 0 -1 12053
 S
 #12053
-An Enchanted Forest~
+Efsunlu Bir Orman~
 All around you are massive trees with emerald leaves and silver
 bark.  The forest floor is covered in flowers and soft mosses.  Sunlight
 filters softly through the canopy above lighting the world with a soft
 difused glow.
 ~
-0 0 3 
+0 0 3
 D0
 An Enchanted Forest
 ~
@@ -2726,13 +2727,13 @@ The Lake Shore
 0 -1 12054
 S
 #12054
-The Lake Shore~
+Göl Kýyýsý~
 You stand in the shallows of a blue crystal lake.  The water is warm
 and inviting and you catch glimpses of what look like swimmers farther
-out in the lake to the west.  To the south and to the north is more of the 
+out in the lake to the west.  To the south and to the north is more of the
 shore and the Forest lies east..
 ~
-0 0 6 
+0 0 6
 D0
 The Lake Shore
 ~
@@ -2755,7 +2756,7 @@ The Deep end of the Lake
 0 -1 12055
 S
 #12055
-The Deep end of the Lake~
+Gölün Derin Bitimi~
 You are in the depths of a lake of crystal blue waters.  The cool
 waters carress and soothe your aches.  The water seems so peaceful that
 you don't ever want to leave.  The lake extends to the north, south and east
@@ -2779,13 +2780,13 @@ The Deep end of the Lake.
 0 -1 12041
 S
 #12056
-The Lake Shore~
+Göl Kýyýsý~
 You stand in the shallows of a blue crystal lake.  The water is warm
 and inviting and you catch glimpses of what look like swimmers farther
 out in the lake to the south.  To the west a rock face blocks all
 movement to the east is more of the shore and the Forest is north.
 ~
-0 0 6 
+0 0 6
 D0
 An Enchanted Forest
 ~
@@ -2803,10 +2804,10 @@ The Deep end of the Lake
 0 -1 12055
 S
 #12057
-The Lake Shore~
+Göl Kýyýsý~
 You stand in the shallows of a blue crystal lake.  The water is warm
 and inviting and you catch glimpses of what look like swimmers farther
-out in the lake. The lake extends to the south and west and the Forest is 
+out in the lake. The lake extends to the south and west and the Forest is
 to the north and east.
 ~
 0 0 6
@@ -2832,13 +2833,13 @@ The Lake Shore
 0 -1 12056
 S
 #12059
-An Enchanted Forest~
+Efsunlu Bir Orman~
 All around you are massive trees with emerald leaves and silver
 bark.  The forest floor is covered in flowers and soft mosses.  Sunlight
 filters softly through the canopy above lighting the world with a soft
 difused glow.
 ~
-0 0 3 
+0 0 3
 D0
 An Enchanted Forest
 ~
@@ -2861,13 +2862,13 @@ The Lake Shore
 0 -1 12057
 S
 #12060
-An Enchanted Forest~
+Efsunlu Bir Orman~
 All around you are massive trees with emerald leaves and silver
 bark.  The forest floor is covered in flowers and soft mosses.  Sunlight
 filters softly through the canopy above lighting the world with a soft
 difused glow.
 ~
-0 0 3 
+0 0 3
 D0
 An Enchanted Forest
 ~
@@ -2890,13 +2891,13 @@ An Enchanted Forest
 0 -1 12059
 S
 #12061
-An Enchanted Forest~
+Efsunlu Bir Orman~
 All around you are massive trees with emerald leaves and silver
 bark.  The forest floor is covered in flowers and soft mosses.  Sunlight
 filters softly through the canopy above lighting the world with a soft
 difused glow.
 ~
-0 0 3 
+0 0 3
 D0
 An Enchanted Forest
 ~
@@ -2919,13 +2920,13 @@ An Enchanted Forest
 0 -1 12060
 S
 #12062
-An Enchanted Forest~
+Efsunlu Bir Orman~
 All around you are massive trees with emerald leaves and silver
 bark.  The forest floor is covered in flowers and soft mosses.  Sunlight
 filters softly through the canopy above lighting the world with a soft
 difused glow.
 ~
-0 0 3 
+0 0 3
 D0
 An Enchanted Forest
 ~
@@ -2948,13 +2949,13 @@ An Enchanted Forest
 0 -1 12061
 S
 #12063
-An Enchanted Forest~
+Efsunlu Bir Orman~
 All around you are massive trees with emerald leaves and silver
 bark.  The forest floor is covered in flowers and soft mosses.  Sunlight
 filters softly through the canopy above lighting the world with a soft
 difused glow.
 ~
-0 0 3 
+0 0 3
 D0
 The Forest Edge
 ~
@@ -2972,14 +2973,14 @@ An Enchanted Forest
 0 -1 12062
 S
 #12064
-The Forest Edge~
-You stand on the edge of a great forest.  Ancient trunks extend form 
-the earth up into the heavens seemingly holding up the sky itself.  
-Further into the forest it seems as if the sky is the trees as the canopy 
-above obscures all but fleeting glimpses of blue skies.  A meadow extends 
+Orman Sýnýrý~
+You stand on the edge of a great forest.  Ancient trunks extend form
+the earth up into the heavens seemingly holding up the sky itself.
+Further into the forest it seems as if the sky is the trees as the canopy
+above obscures all but fleeting glimpses of blue skies.  A meadow extends
 to the north and the forest extends to the south and west.
 ~
-0 0 3 
+0 0 3
 D0
 The Flower Meadow
 ~
@@ -2997,14 +2998,14 @@ The Forest Edge
 0 -1 12065
 S
 #12065
-The Forest Edge~
+Orman Sýnýrý~
 You stand on the edge of a great forest.  Ancient trunks extend form
 the earth up into the heavens seemingly holding up the sky itself.
 Further into the forest it seems as if the sky is the trees as the canopy
 above obscures all but fleeting glimpses of blue skies.  A meadow extends
 to the north and the forest extends in all other directions.
 ~
-0 0 3 
+0 0 3
 D0
 The Flower Meadow
 ~
@@ -3027,7 +3028,7 @@ The Forest Edge
 0 -1 12066
 S
 #12066
-The Forest Edge~
+Orman Sýnýrý~
 You stand on the edge of a great forest.  Ancient trunks extend form
 the earth up into the heavens seemingly holding up the sky itself.
 Further into the forest it seems as if the sky is the trees as the canopy
@@ -3057,14 +3058,14 @@ The Forest Edge
 0 -1 12067
 S
 #12067
-The Forest Edge~
+Orman Sýnýrý~
 You stand on the edge of a great forest.  Ancient trunks extend form
 the earth up into the heavens seemingly holding up the sky itself.
 Further into the forest it seems as if the sky is the trees as the canopy
 above obscures all but fleeting glimpses of blue skies.  A meadow extends
 to the north and the forest extends in all other directions.
 ~
-0 0 3 
+0 0 3
 D0
 The Flower Meadow
 ~
@@ -3087,14 +3088,14 @@ The Forest Edge
 0 -1 12068
 S
 #12068
-The Forest Edge~
+Orman Sýnýrý~
 You stand on the edge of a great forest.  Ancient trunks extend form
 the earth up into the heavens seemingly holding up the sky itself.
 Further into the forest it seems as if the sky is the trees as the canopy
 above obscures all but fleeting glimpses of blue skies.  A meadow extends
 to the north and the forest extends in all other directions.
 ~
-0 0 3 
+0 0 3
 D0
 The Flower Meadow
 ~
@@ -3117,14 +3118,14 @@ The Forest Edge
 0 -1 12069
 S
 #12069
-The Forest Edge~
+Orman Sýnýrý~
 You stand on the edge of a great forest.  Ancient trunks extend form
 the earth up into the heavens seemingly holding up the sky itself.
 Further into the forest it seems as if the sky is the trees as the canopy
 above obscures all but fleeting glimpses of blue skies. The forest extends in
 all  directions.
 ~
-0 0 3 
+0 0 3
 D0
 The Flower Meadow
 ~
@@ -3147,7 +3148,7 @@ The Forest Edge
 0 -1 12070
 S
 #12070
-An Enchanted Forest~
+Efsunlu Bir Orman~
 All around you are massive trees with emerald leaves and silver
 bark.  The forest floor is covered in flowers and soft mosses.  Sunlight
 filters softly through the canopy above lighting the world with a soft
@@ -3171,14 +3172,14 @@ The Lake Shore
 0 -1 12056
 S
 #12071
-The Forest Edge~
+Orman Sýnýrý~
 You stand on the edge of a great forest.  Ancient trunks extend form
 the earth up into the heavens seemingly holding up the sky itself.
 Further into the forest it seems as if the sky is the trees as the canopy
-above obscures all but fleeting glimpses of blue skies. The wall of an 
+above obscures all but fleeting glimpses of blue skies. The wall of an
 Inn lies to the north and the forest extends in all other directions.
 ~
-0 0 3 
+0 0 3
 D1
 The Forest Edge
 ~
@@ -3191,15 +3192,15 @@ An Enchanted Forest
 0 -1 12070
 S
 #12072
-The Forest Edge~
+Orman Sýnýrý~
 You stand on the edge of a great forest.  Ancient trunks extend form
 the earth up into the heavens seemingly holding up the sky itself.
 Further into the forest it seems as if the sky is the trees as the canopy
 above obscures all but fleeting glimpses of blue skies.  A dirt road is
-to the north, a meadow to the east and the forest extends in all other 
+to the north, a meadow to the east and the forest extends in all other
 directions.
 ~
-0 0 3 
+0 0 3
 D0
 The Dirt Trod
 ~
@@ -3222,14 +3223,14 @@ The Forest Edge
 0 -1 12071
 S
 #12073
-The Flower Meadow~
-You are standing in a meadow full of tall grasses and an amazing 
-array of flowers.  The miasma of scents makes you slightly dizzy and the 
-swirl of colors as the flowers sway in the breeze doesn't help you 
-concentrate.  To the north there is a dirt road and off to the north east 
+Çiçek Tarlasý~
+You are standing in a meadow full of tall grasses and an amazing
+array of flowers.  The miasma of scents makes you slightly dizzy and the
+swirl of colors as the flowers sway in the breeze doesn't help you
+concentrate.  To the north there is a dirt road and off to the north east
 you see a hill with a glorious castle on top.
 ~
-0 0 2 
+0 0 2
 D0
 The Dirt Trod
 ~
@@ -3252,14 +3253,14 @@ The Forest Edge
 0 -1 12072
 S
 #12074
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
 concentrate.  To the north there is a dirt road and to the north
 you see a hill with a glorious castle on top.
 ~
-0 0 2 
+0 0 2
 D0
 Before the Castle Gates
 ~
@@ -3282,14 +3283,14 @@ The Flower Meadow
 0 -1 12073
 S
 #12075
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
-concentrate.  Off to the north west you see a hill with a glorious castle 
-on top and the meadow extends northward. 
+concentrate.  Off to the north west you see a hill with a glorious castle
+on top and the meadow extends northward.
 ~
-0 0 2 
+0 0 2
 D0
 The Flower Meadow
 ~
@@ -3312,14 +3313,14 @@ The Flower Meadow
 0 -1 12074
 S
 #12076
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
-concentrate.  Off to the north west you see a hill with a glorious castle 
-on top. 
+concentrate.  Off to the north west you see a hill with a glorious castle
+on top.
 ~
-0 0 2 
+0 0 2
 D0
 The Flower Meadow
 ~
@@ -3342,14 +3343,14 @@ The Flower Meadow
 0 -1 12075
 S
 #12077
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
-concentrate.  Off to the north west you see a hill with a glorious castle 
-on top. 
+concentrate.  Off to the north west you see a hill with a glorious castle
+on top.
 ~
-0 0 2 
+0 0 2
 D0
 The Flower Meadow
 ~
@@ -3367,7 +3368,7 @@ The Flower Meadow
 0 -1 12076
 S
 #12078
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
@@ -3391,13 +3392,13 @@ The Flower Meadow
 0 -1 12079
 S
 #12079
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
 concentrate. Off to the west you see a hill with a glorious castle on top.
 ~
-0 0 2 
+0 0 2
 D0
 The Flower Meadow
 ~
@@ -3420,7 +3421,7 @@ The Flower Meadow
 0 -1 12080
 S
 #12080
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
@@ -3449,11 +3450,11 @@ Before the Castle Gates
 0 -1 12081
 S
 #12081
-Before the Castle Gates~
-The glowing gates of the Sidhe Castle stand open before you and from 
-inside you hear the sounds of laughter and revalry.  To the south you can 
-see a meadow that extends into a forest even farther south and to the 
-north you glimpse far off mountain peaks. A dirt road extends to the west 
+Kale Kapýlarýnda~
+The glowing gates of the Sidhe Castle stand open before you and from
+inside you hear the sounds of laughter and revalry.  To the south you can
+see a meadow that extends into a forest even farther south and to the
+north you glimpse far off mountain peaks. A dirt road extends to the west
 toward what looks to be an inn.
 ~
 0 0 2
@@ -3479,12 +3480,12 @@ The Dirt Trod
 0 -1 12082
 S
 #12082
-On the Dirt Trod~
-You are on a dirt road that cuts through a field of flowers from an 
-inn and the Sidhe castle.  The field extends to the north and south while 
+Toprak Yolda~
+You are on a dirt road that cuts through a field of flowers from an
+inn and the Sidhe castle.  The field extends to the north and south while
 the castle is east and the inn west.
 ~
-0 0 1 
+0 0 1
 D0
 The Flower Field
 ~
@@ -3507,7 +3508,7 @@ The Dirt Trod
 0 -1 12083
 S
 #12083
-On the Dirt Trod~
+Toprak Yolda~
 You are on a dirt road that cuts through a field of flowers from an
 inn and the Sidhe castle.  The field extends to the north and south while
 the castle is east and the inn west.
@@ -3535,12 +3536,12 @@ The Dog Tail Inn
 1 0 12084
 S
 #12084
-The Dog Tail Inn~
-This bustling inn is full of inhabitants.  There are several tables 
-full of customers but you can't seem to find the proprieter.  The only 
+Ýt Kuyruðu Haný~
+This bustling inn is full of inhabitants.  There are several tables
+full of customers but you can't seem to find the proprieter.  The only
 exit is back to the east.
 ~
-0 D 0 
+0 D 0
 D1
 The Dirt Trod
 ~
@@ -3548,14 +3549,14 @@ The Dirt Trod
 1 0 12083
 S
 #12085
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
-concentrate. Off to the south east you see a hill with a glorious castle on 
+concentrate. Off to the south east you see a hill with a glorious castle on
 top and to the south is the wall of an inn.
 ~
-0 0 2 
+0 0 2
 D0
 The Flower Meadow
 ~
@@ -3568,12 +3569,12 @@ The Flower Meadow
 0 -1 12086
 S
 #12086
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
-concentrate. Off to the south east you see a hill with a glorious castle on 
-top. 
+concentrate. Off to the south east you see a hill with a glorious castle on
+top.
 ~
 0 0 2
 D0
@@ -3598,12 +3599,12 @@ The Flower Meadow
 0 -1 12085
 S
 #12087
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
-concentrate. Off to the south east you see a hill with a glorious castle on 
-top. 
+concentrate. Off to the south east you see a hill with a glorious castle on
+top.
 ~
 0 0 2
 D0
@@ -3628,12 +3629,12 @@ The Flower Meadow
 0 -1 12086
 S
 #12089
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
-concentrate. Off to the south west you see a hill with a glorious castle on 
-top. 
+concentrate. Off to the south west you see a hill with a glorious castle on
+top.
 ~
 0 0 2
 D0
@@ -3658,14 +3659,14 @@ Behind the Hill
 0 -1 12156
 S
 #12090
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
-concentrate. Off to the south west you see a hill with a glorious castle on 
-top. 
+concentrate. Off to the south west you see a hill with a glorious castle on
+top.
 ~
-0 0 2 
+0 0 2
 D0
 The Flower Meadow
 ~
@@ -3688,13 +3689,13 @@ The Flower Meadow
 0 -1 12089
 S
 #12091
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
 concentrate. Off to the west you see a hill with a glorious castle on top.
 ~
-0 0 2 
+0 0 2
 D0
 The Flower Meadow
 ~
@@ -3712,12 +3713,12 @@ The Flower Meadow
 0 -1 12090
 S
 #12092
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
-concentrate. Off to the south west you see a hill with a glorious castle on 
-top. To the north mountains rise sharply out of the ground. 
+concentrate. Off to the south west you see a hill with a glorious castle on
+top. To the north mountains rise sharply out of the ground.
 ~
 0 0 2
 D2
@@ -3732,14 +3733,14 @@ The Flower Meadow
 0 -1 12093
 S
 #12093
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
 concentrate. Off to the south west you see a hill with a glorious castle on
 top. To the north mountains rise sharply out of the ground.
 ~
-0 0 2 
+0 0 2
 D1
 The Flower Meadow
 ~
@@ -3757,7 +3758,7 @@ The Flower Meadow
 0 -1 12094
 S
 #12094
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
@@ -3787,14 +3788,14 @@ The Flower Meadow
 0 -1 12095
 S
 #12095
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
 concentrate. Off to the south  you see a hill with a glorious castle on
-top. To the north a path leads up the mountain. 
+top. To the north a path leads up the mountain.
 ~
-0 0 2 
+0 0 2
 D0
 Path up the Mountains
 ~
@@ -3817,14 +3818,14 @@ The Flower Meadow
 0 -1 12096
 S
 #12096
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
 concentrate. Off to the south east you see a hill with a glorious castle on
 top. To the north a steep path leads up the mountain.
 ~
-0 0 2 
+0 0 2
 D0
 Path up the Mountains
 ~
@@ -3847,7 +3848,7 @@ The Flower Meadow
 0 -1 12097
 S
 #12097
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
@@ -3872,14 +3873,14 @@ The Flower Meadow
 0 -1 12098
 S
 #12098
-The Flower Meadow~
+Çiçek Tarlasý~
 You are standing in a meadow full of tall grasses and an amazing
 array of flowers.  The miasma of scents makes you slightly dizzy and the
 swirl of colors as the flowers sway in the breeze doesn't help you
 concentrate. Off to the south east you see a hill with a glorious castle on
 top. To the north mountains rise sharply out of the ground.
 ~
-0 0 2 
+0 0 2
 D1
 The Flower Meadow
 ~
@@ -3892,13 +3893,13 @@ The Flower Meadow
 0 -1 12085
 S
 #12099
-A Dark Section of the Caves~
-This section of the caves seems darker and less inviting than the 
-rest.  The warm lights in the other parts of the caves are not found here 
-and the place seems sort of slimy and eerie.  The only exit is back to 
+Maðaralarýn Karanlýk Bir Bölgesi~
+This section of the caves seems darker and less inviting than the
+rest.  The warm lights in the other parts of the caves are not found here
+and the place seems sort of slimy and eerie.  The only exit is back to
 the east toward the lighter part of the cave.
 ~
-0 AD 5 
+0 AD 5
 D1
 The Lighter Part of the Caves.
 ~
@@ -3911,14 +3912,14 @@ Abyss~
 1 0 12113
 S
 #12100
-The Great Stone Forge~
-This room is filled with a large forge that seems to be build 
-directly into the stone of the caverns.  As with all the other chambers 
-this one is well lit and dry.  The air is much warmer here but amazingly 
-free of smoke. You see a small dark space behind the forge to the west.  
+Büyük Taþ Demir Ocaðý~
+This room is filled with a large forge that seems to be build
+directly into the stone of the caverns.  As with all the other chambers
+this one is well lit and dry.  The air is much warmer here but amazingly
+free of smoke. You see a small dark space behind the forge to the west.
 The only other exit is back into the main caves.
 ~
-0 D 0  
+0 D 0
 D1
 The Workplace Before the Forge
 ~
@@ -3931,13 +3932,13 @@ The Dark Hole Behind the Forge
 0 -1 12099
 S
 #12101
-The Workplace Before the Forge~
-This large open area on filled with anvils, hammers and other 
-metalworking tools.  The area is covered by a rock overhang and to the 
-north it looks as if caves extend into the mountains.  From a cave chamber 
+Demir Ocaðýnýn Önündeki Atölye~
+This large open area on filled with anvils, hammers and other
+metalworking tools.  The area is covered by a rock overhang and to the
+north it looks as if caves extend into the mountains.  From a cave chamber
 to the west you hear the sounds of a forge.  The path to the meadow is south.
 ~
-0 D 0 
+0 D 0
 D0
 The Boggan Caverns
 ~
@@ -3960,12 +3961,12 @@ The Great Stone Forge.
 0 -1 12100
 S
 #12102
-Up on a Path in the Mountains~
-You stand on a path that leads from the meadow into the mountains 
-all around you.  To the north you see caves, from the west you hear 
+Daðda Ýçinde Bir Patika~
+You stand on a path that leads from the meadow into the mountains
+all around you.  To the north you see caves, from the west you hear
 the sounds of metalworking and from the east you hear deep voices.
 ~
-0 D 0  
+0 D 0
 D0
 The Boggan Caverns.
 ~
@@ -3988,12 +3989,12 @@ The Workplace Before the Forge.
 0 -1 12101
 S
 #12103
-An Empty Rock Shelf~
-There is absolutely nothing of interest on this small rock shelf.  
-To the north are some cave entrances, from the east you hear voices and 
+Boþ Bir Kaya Girintisi~
+There is absolutely nothing of interest on this small rock shelf.
+To the north are some cave entrances, from the east you hear voices and
 to the west you hear the sound of metal banging on metal.
 ~
-0 D 0  
+0 D 0
 D0
 The Boggan Caverns.
 ~
@@ -4016,12 +4017,12 @@ Up on a Path in the Mountains.
 0 -1 12102
 S
 #12104
-The Crafts Shoppe~
-This room is a workplace for some sort of craftsmen.  There are 
-tools for leatherworking, and sweing strewn all over the room.  To the 
+Zanaat Dükkaný~
+This room is a workplace for some sort of craftsmen.  There are
+tools for leatherworking, and sweing strewn all over the room.  To the
 east and north the cavern extends and to the west is a rock ledge.
 ~
-0 D 0  
+0 D 0
 D0
 A Cluttered Room.
 ~
@@ -4039,12 +4040,12 @@ The Rock Ledge.
 0 -1 12103
 S
 #12105
-A Storage Room~
-This room is filled with shelves and chests containing cloth and 
-pins and patterns.  There are small boxes on several shelves that contain 
+Bir Ambar~
+This room is filled with shelves and chests containing cloth and
+pins and patterns.  There are small boxes on several shelves that contain
 several little metal tols you can't even identify.
 ~
-0 D 0  
+0 D 0
 D3
 The Crafts Shoppe.
 ~
@@ -4052,11 +4053,11 @@ The Crafts Shoppe.
 0 -1 12104
 S
 #12106
-A Cluttered Chamber~
-This room is cluttered with various objects of little value.  It 
+Darmadaðýn Bir Oda~
+This room is cluttered with various objects of little value.  It
 looks as if it is a place kept by several absent minded bachelors.
 ~
-0 D 0  
+0 D 0
 D2
 The Crafts Shoppe.
 ~
@@ -4069,15 +4070,15 @@ The Kitchen.
 0 -1 12107
 S
 #12107
-The Kitchen~
-This large cavern looks like it gets very little use and a lot less 
-cleaning.  A few pots lie in a sink and several dirty plates lie in piles 
-on the large stone table in the centre of the room.  The room is well lit 
-and warm and you get the feeling that if it weren't so dirty this 
-cavern might actually be a nice place to live.  There is what looks to be 
+Mutfak~
+This large cavern looks like it gets very little use and a lot less
+cleaning.  A few pots lie in a sink and several dirty plates lie in piles
+on the large stone table in the centre of the room.  The room is well lit
+and warm and you get the feeling that if it weren't so dirty this
+cavern might actually be a nice place to live.  There is what looks to be
 a bedroom to the north and some kind of hall to the east.
 ~
-0 D 0 
+0 D 0
 D0
 A Small Bedroom.
 ~
@@ -4100,15 +4101,15 @@ The Welcoming Hall.
 0 -1 12108
 S
 #12108
-The Welcoming Hall~
-Used in former days to greet visitors this room remains only the 
-vestiges of hospitality.  There are several tattered banners hanging from 
-above and a few comfortable, if dusty, pieces of furniture sitting in 
-various places around the room.  To the north is a bedroom, the south 
-the path to the meadow, the east the kitchen and the trophy room is to 
+Kabul Salonu~
+Used in former days to greet visitors this room remains only the
+vestiges of hospitality.  There are several tattered banners hanging from
+above and a few comfortable, if dusty, pieces of furniture sitting in
+various places around the room.  To the north is a bedroom, the south
+the path to the meadow, the east the kitchen and the trophy room is to
 the west.
 ~
-0 D 0 
+0 D 0
 D0
 A Small Bedroom.
 ~
@@ -4131,16 +4132,16 @@ The Trophy Room.
 0 -1 12109
 S
 #12109
-The Trophy Room~
-In dusty, locked cases all around the room you get glimpses of the 
-finest sets of armor, weapons, clothing, and gems you have ever seen.  
-Woven tapestries of immortal battles lie rotting in the cases beside 
-still gleaming swords in scabards covered in myriad patters of 
-interlocking spiral beadwork.  The treasured creations of some of the 
-realm's finest craftsmen lay in these cases just beyond your grasp.  To 
+Av Odasý~
+In dusty, locked cases all around the room you get glimpses of the
+finest sets of armor, weapons, clothing, and gems you have ever seen.
+Woven tapestries of immortal battles lie rotting in the cases beside
+still gleaming swords in scabards covered in myriad patters of
+interlocking spiral beadwork.  The treasured creations of some of the
+realm's finest craftsmen lay in these cases just beyond your grasp.  To
 the north is a bedroom and to the south you hear sounds of metalworking.
 ~
-0 D 0 
+0 D 0
 D0
 A Small Bedroom.
 ~
@@ -4158,13 +4159,13 @@ The Workplace Before the Forge.
 0 -1 12101
 S
 #12110
-A Small Bedroom~
-The rooms seems to be in a great state of dissarray.  The bed is 
-unmade and dirty clothes are strewn all about.  A deck of cards is 
-scattered about the room and several layers of dust cover everything.  
+Küçük Bir Yatak Odasý~
+The rooms seems to be in a great state of dissarray.  The bed is
+unmade and dirty clothes are strewn all about.  A deck of cards is
+scattered about the room and several layers of dust cover everything.
 The inhabitant of this room must never sleep.
 ~
-0 D 0 
+0 D 0
 D2
 The Trophy Room.
 ~
@@ -4172,13 +4173,13 @@ The Trophy Room.
 0 -1 12109
 S
 #12111
-A Small Bedroom~
+Küçük Bir Yatak Odasý~
 The rooms seems to be in a great state of dissarray.  The bed is
 unmade and dirty clothes are strewn all about.  A deck of cards is
 scattered about the room and several layers of dust cover everything.
 The inhabitant of this room must never sleep.
 ~
-0 D 0  
+0 D 0
 D2
 The Welcoming Hall.
 ~
@@ -4186,13 +4187,13 @@ The Welcoming Hall.
 0 -1 12108
 S
 #12112
-A Small Bedroom~
-This room seems in perfect order.  The bed lies made in the corner and 
-all the items on the dressers are meticulously arranged in some 
-indecipherable order.  Despite it's order the room is still rather dusty 
+Küçük Bir Yatak Odasý~
+This room seems in perfect order.  The bed lies made in the corner and
+all the items on the dressers are meticulously arranged in some
+indecipherable order.  Despite it's order the room is still rather dusty
 and it seems as if no one has used it in a long time.
 ~
-0 D 0  
+0 D 0
 D2
 The Kitchen.
 ~
@@ -4200,12 +4201,12 @@ The Kitchen.
 0 -1 12107
 S
 #12113
-A Dark Abyss~
-This dark hole is slimy and wet.  There is a strange stench about 
-the place and the air is still and cold.  The hole extends to the north 
+Karanlýk Dipsiz Bir Çukur~
+This dark hole is slimy and wet.  There is a strange stench about
+the place and the air is still and cold.  The hole extends to the north
 and the way out is up.
 ~
-0 AD 5 
+0 AD 5
 D0
 More Darkness and Slime.
 ~
@@ -4218,13 +4219,13 @@ The Dark Space Behind the Forge.
 1 0 12099
 S
 #12114
-More Darkness and Slime~
-Still dark and wet the walls seem to be closing in and they seem 
-increasingly covered in slime that seems to trickle down the walls and 
-onto your skin.  There is a rough wooden door with blood traced in 
+Daha Fazla Karanlýk Ve Balçýk~
+Still dark and wet the walls seem to be closing in and they seem
+increasingly covered in slime that seems to trickle down the walls and
+onto your skin.  There is a rough wooden door with blood traced in
 strange designs on it to the west.
 ~
-0 AD 5 
+0 AD 5
 D2
 A Dark Abyss.
 ~
@@ -4237,13 +4238,13 @@ The Forbidden Room.
 1 0 12115
 S
 #12115
-The Forbiden Room~
-There are strange symbols drawn in several colors (one of them the 
-color of dried blood) on all of the walls.  There is a pile of rags in 
-one corner and some papers with scrawled markings on them on the floor.  
+Yasak Oda~
+There are strange symbols drawn in several colors (one of them the
+color of dried blood) on all of the walls.  There is a pile of rags in
+one corner and some papers with scrawled markings on them on the floor.
 You get the feeling you shouldn't be here.
 ~
-0 AD 5 
+0 AD 5
 D1
 More Darkness and Slime.
 ~
@@ -4251,12 +4252,12 @@ More Darkness and Slime.
 1 0 12114
 S
 #12116
-Top of the Western Guard Tower~
-You are at the top of the western guard tower.  You can look out 
-upon the land from here and see a beautiful forest to the south, a 
+Batý Gözcü Kulesinin Tepesi~
+You are at the top of the western guard tower.  You can look out
+upon the land from here and see a beautiful forest to the south, a
 flowered meadow all around the castle and dark mountains to the north.
 ~
-0 D 0 
+0 D 0
 D5
 In the Guard Tower.
 ~
@@ -4264,12 +4265,12 @@ In the Guard Tower.
 0 -1 12117
 S
 #12117
-Inside the Guard Tower~
-You are inside one of the guard towers of this wondrous castle.  The 
-room is well gloomy and rather unkempt.  There is a table in the room 
+Gözcü Kulesinin Ýç Kýsmý~
+You are inside one of the guard towers of this wondrous castle.  The
+room is well gloomy and rather unkempt.  There is a table in the room
 where the guards obviously sit to play cards and drink.
 ~
-0 D 0 
+0 D 0
 D4
 The Top of the Western Tower.
 ~
@@ -4282,14 +4283,14 @@ The Guard Barracks.
 0 -1 12118
 S
 #12118
-The Guard Barracks~
-This room serves as a barracks for the guards of this majestic 
-castle.  There are several large beds and a few tables.  The room is 
+Muhafýz Kýþlasý~
+This room serves as a barracks for the guards of this majestic
+castle.  There are several large beds and a few tables.  The room is
 gloomy, wet, and in a state of disorder.
 ~
-0 D 0 
+0 D 0
 D1
-The Gates of the Fae Stronghold.
+Fae Kalesi Kapýlarý.
 ~
 ~
 1 0 12119
@@ -4300,15 +4301,15 @@ In the Guard Tower.
 0 -1 12117
 S
 #12119
-The Gates of the Fae Stronghold~
-Huge gold and silver gates tower above you.  To either side of the 
-gates are tall slender towers, silver to the west and gold to the east.  
-The gates themselves stand open and to the north the castle opens into a 
-long hallway draped with many tapestries with swimming vivid colors and 
-complex patterns. To the south you see a field of green grass out side 
+Fae Kalesi Kapýlarý~
+Huge gold and silver gates tower above you.  To either side of the
+gates are tall slender towers, silver to the west and gold to the east.
+The gates themselves stand open and to the north the castle opens into a
+long hallway draped with many tapestries with swimming vivid colors and
+complex patterns. To the south you see a field of green grass out side
 the gates.
 ~
-0 D 0 
+0 D 0
 D0
 The Entryway.
 ~
@@ -4331,13 +4332,13 @@ silver~
 1 0 12118
 S
 #12120
-The East Tower~
-This room is obviously a guard barracks.  The soldiers seem to be 
-wel disiplined ones because the room is in perfect order.  All the beds 
-are made and the tables clear.  There is a stairway up into the tower and 
+Doðu Kulesi~
+This room is obviously a guard barracks.  The soldiers seem to be
+wel disiplined ones because the room is in perfect order.  All the beds
+are made and the tables clear.  There is a stairway up into the tower and
 a door to the west.
 ~
-0 D 0  
+0 D 0
 D3
 The Gates of the Fae Stronghold.
 ~
@@ -4350,13 +4351,13 @@ Inside the East Tower
 0 -1 12121
 S
 #12121
-Inside the East Tower~
-The golden walls of this chamber reflect the soft lamplight giving 
-this chamber a soft glow.  This room is used by the guards for recreation 
-when they are off duty.  There are several dartboards on the walls with 
+Doðu Kulesi Ýç Kýsmý~
+The golden walls of this chamber reflect the soft lamplight giving
+this chamber a soft glow.  This room is used by the guards for recreation
+when they are off duty.  There are several dartboards on the walls with
 knives stuck in them.  Also a new deck of cards sits on one of the tables.
 ~
-0 D 0 
+0 D 0
 D4
 The Top of the Eastern Guard Tower.
 ~
@@ -4369,12 +4370,12 @@ The East Tower.
 0 -1 12120
 S
 #12122
-Top of the Eastern Guard Tower~
+Doðu Gözcü Kulesinin Tepesi~
 You are at the top of the eastern guard tower.  You can look out
 upon the land from here and see a beautiful forest to the south, a
 flowered meadow all around the castle and dark mountains to the north.
 ~
-0 D 0  
+0 D 0
 D5
 Inside the East Tower.
 ~
@@ -4382,13 +4383,13 @@ Inside the East Tower.
 0 -1 12121
 S
 #12123
-The Entryway~
-The castle's entryway is adorned with many colorful tapestries 
-depicting beautiful nymphs, saytrs, sprites and Sidhe dancing in glades, 
-ponds, caves and castles.  The castle hallway extends to the north and 
+Giriþ Yolu~
+The castle's entryway is adorned with many colorful tapestries
+depicting beautiful nymphs, saytrs, sprites and Sidhe dancing in glades,
+ponds, caves and castles.  The castle hallway extends to the north and
 back south to the gates.
 ~
-0 D 0  
+0 D 0
 D0
 The Hall of Spring.
 ~
@@ -4401,16 +4402,16 @@ The Gates of the Fae Stronghold.
 0 -1 12119
 S
 #12124
-The Hall of Spring~
-The scents, sounds and colors of spring grip you as you enter this 
-room.  You feel newly awakened, refreshed, and heartened.  Spring 
-inhabits every item in this hall, but one item especially calls to you.  
-A tapestry on the east wall depicts two young figures, one boy and one 
-girl.  For a moment you long for the lost innocence of that youth and you 
-yearn to enter the tapestry, but then you pull yourself away from it's 
+Ýlkbahar Salonu~
+The scents, sounds and colors of spring grip you as you enter this
+room.  You feel newly awakened, refreshed, and heartened.  Spring
+inhabits every item in this hall, but one item especially calls to you.
+A tapestry on the east wall depicts two young figures, one boy and one
+girl.  For a moment you long for the lost innocence of that youth and you
+yearn to enter the tapestry, but then you pull yourself away from it's
 strange lure.  The hall continues north and south.
 ~
-0 D 0 
+0 D 0
 D0
 The Hall of Summer.
 ~
@@ -4428,17 +4429,17 @@ The Castle Entryway.
 0 -1 12123
 S
 #12125
-The Hall of Summer~
-This hall is all green leaves and grass of a summer day.  Golden 
-raidience shines down from the open roof above and birds chirp.  From 
-somewhere you hear a brook babbling.  The eastern wall is dominated by a 
-tapestry that shows two lovers in the prime of their life, and passions, 
-in a summer field.  You sense that if you entered the now shimmering 
-tapestry you too would be forever young and beautiful, unchanging and 
-untouchable.  The tapestry dims and you hear laughter in the distance.  
+Yaz Salonu~
+This hall is all green leaves and grass of a summer day.  Golden
+raidience shines down from the open roof above and birds chirp.  From
+somewhere you hear a brook babbling.  The eastern wall is dominated by a
+tapestry that shows two lovers in the prime of their life, and passions,
+in a summer field.  You sense that if you entered the now shimmering
+tapestry you too would be forever young and beautiful, unchanging and
+untouchable.  The tapestry dims and you hear laughter in the distance.
 The hall continues to the north and south.
 ~
-0 D 0 
+0 D 0
 D0
 The Hall of Autumn.
 ~
@@ -4456,15 +4457,15 @@ The Hall of Spring.
 0 -1 12124
 S
 #12126
-The Hall of Autumn~
-The smell of fallen leaves and aproaching rain drifts sweetly through 
-your senses.  Around you you see all the colors of autumn, bright reds, 
-orange, yellows, browns and pale green.  Soft rain drizzles in from the 
+Sonbahar Salonu~
+The smell of fallen leaves and aproaching rain drifts sweetly through
+your senses.  Around you you see all the colors of autumn, bright reds,
+orange, yellows, browns and pale green.  Soft rain drizzles in from the
 clouded grey sky above this chamber. There is a soft quiet sense to this room,
-and when you look at the tapestry on the west wall depicting a middle 
-aged couple resting quietly in each others arms you long for quiet 
-companionship and find yourself reaching toward the tapestry.  You are 
-shaken out of the trance by a raven's croak and you stand for a moment 
+and when you look at the tapestry on the west wall depicting a middle
+aged couple resting quietly in each others arms you long for quiet
+companionship and find yourself reaching toward the tapestry.  You are
+shaken out of the trance by a raven's croak and you stand for a moment
 confused.  The hall continues to the north and south.
 ~
 0 D 0
@@ -4490,19 +4491,19 @@ tapestry~
 1 0 12152
 S
 #12127
-The Hall of Winter~
-This hall is carpeted in deep, light snow that seems to be falling 
-in from the ceiling.  Small ice statues can be seen in the distance and 
-the treelike branches above are covered to near breaking with ice.  A cold 
-wind blows with a shrill sound through the hall.  Totaly unmoved by the 
-wind is a bright white tapestry on the west wall that shows an old couple 
-whose faces show infinite wisdom and complacency.  You are entranced by 
-the wisdom that the old couple wears like a mantle and you suddenly 
-desire to seek it out by joining them in the tapestry. Then you hear a 
-high pitched cackling and you shiver with the cold.  The Hall continues 
+Kýþ Salonu~
+This hall is carpeted in deep, light snow that seems to be falling
+in from the ceiling.  Small ice statues can be seen in the distance and
+the treelike branches above are covered to near breaking with ice.  A cold
+wind blows with a shrill sound through the hall.  Totaly unmoved by the
+wind is a bright white tapestry on the west wall that shows an old couple
+whose faces show infinite wisdom and complacency.  You are entranced by
+the wisdom that the old couple wears like a mantle and you suddenly
+desire to seek it out by joining them in the tapestry. Then you hear a
+high pitched cackling and you shiver with the cold.  The Hall continues
 to the north and south.
 ~
-0 D 0 
+0 D 0
 D0
 An Intersection of Hallways.
 ~
@@ -4525,9 +4526,9 @@ tapestry~
 1 0 12151
 S
 #12128
-A Hallway Intersection~
-This large chamber is well apointed with tapestries and paintings 
-along the walls.  To the north is a large courtyard and to the east and 
+Bir Koridor Kesiþmesi~
+This large chamber is well apointed with tapestries and paintings
+along the walls.  To the north is a large courtyard and to the east and
 west are large chambers. From the south a chill wind blows in.
 ~
 0 D 0
@@ -4553,9 +4554,9 @@ The Chamber of Beltane.
 0 -1 12129
 S
 #12129
-The Chamber of Beltane~
-This Chamber is dominated by the large fire pit in the center of the 
-room. The walls are highly polished and reflect back the fire's light 
+Beltane Odasý~
+This Chamber is dominated by the large fire pit in the center of the
+room. The walls are highly polished and reflect back the fire's light
 intensifying it.  To the north and east is a hallway.
 ~
 0 D 0
@@ -4571,10 +4572,10 @@ A Hallway intersection.
 0 -1 12128
 S
 #12130
-The Chamber of Imbolc~
-This room has a floor of bare earth and it looks as if the earth has 
-been plowed and planted.  The walls are bare and not much else of 
-interest seems to be in this room.  To the north is a hallway and to the 
+Imbolc Odasý~
+This room has a floor of bare earth and it looks as if the earth has
+been plowed and planted.  The walls are bare and not much else of
+interest seems to be in this room.  To the north is a hallway and to the
 west is the intersection.
 ~
 0 D 0
@@ -4590,12 +4591,12 @@ A Hallway intersection.
 0 -1 12128
 S
 #12131
-The Base of the Tower~
-You are at the base of a tall guard tower at the western end of the 
-castle.  The room is bare and rather dusty.  To the east is a hallway 
+Kulenin Temeli~
+You are at the base of a tall guard tower at the western end of the
+castle.  The room is bare and rather dusty.  To the east is a hallway
 leading back to the main chambers and there is a stairway up into the tower.
 ~
-0 D 0 
+0 D 0
 D1
 A Hallway.
 ~
@@ -4608,9 +4609,9 @@ Inside the Western Tower.
 0 -1 12142
 S
 #12132
-A Hallway~
-This hallway extends east and west connecting the western guard 
-tower with the main chambers.  It seems a little darker and less well 
+Bir Koridor~
+This hallway extends east and west connecting the western guard
+tower with the main chambers.  It seems a little darker and less well
 kept in this part of the castle.
 ~
 0 D 0
@@ -4626,9 +4627,9 @@ The Base of the Western Tower.
 0 -1 12131
 S
 #12133
-A Hallway~
-This hallway connects the western tower with the main chambers of 
-the castle.  To the north and south are some of the chambers. To the west 
+Bir Koridor~
+This hallway connects the western tower with the main chambers of
+the castle.  To the north and south are some of the chambers. To the west
 is the tower and to the east is a courtyard.
 ~
 0 D 0
@@ -4654,9 +4655,9 @@ A Hallway.
 0 -1 12132
 S
 #12134
-The Courtyard~
-This castle's courtyard is a large open area with a large flower 
-and herb garden.  Also several small trees provide shade for anyone 
+Avlu~
+This castle's courtyard is a large open area with a large flower
+and herb garden.  Also several small trees provide shade for anyone
 wanting to recline beside the fountain at the center.
 ~
 0 D 0
@@ -4682,12 +4683,12 @@ A Hallway.
 0 -1 12133
 S
 #12135
-A Hallway~
-This hallway connects the eastern tower to the main chambers of the 
-castle.  To the north and south are two chambers and to the west is the 
+Bir Koridor~
+This hallway connects the eastern tower to the main chambers of the
+castle.  To the north and south are two chambers and to the west is the
 courtyard.  The east tower lies to the east.
 ~
-0 D 0 
+0 D 0
 D0
 The Chamber of Samhain.
 ~
@@ -4710,11 +4711,11 @@ The Courtyard.
 0 -1 12134
 S
 #12136
-A Hallway~
-This Hallway connects the eastern tower to the main chambers of the 
+Bir Koridor~
+This Hallway connects the eastern tower to the main chambers of the
 castle.  To the east is the tower base and to the west is another hallway.
 ~
-0 D 0 
+0 D 0
 D1
 The Base of the Eastern Tower.
 ~
@@ -4727,13 +4728,13 @@ A Hallway.
 0 -1 12135
 S
 #12137
-The Base of the Eastern Tower~
-This guard tower seems unussually well ordered.  These are clearly 
-not ordinary soldiers.  The walls of the tower are bright and sparkiling 
-golden.  To the west is a hallway leading to the main chambers of the 
+Doðu Kulesinin Temeli~
+This guard tower seems unussually well ordered.  These are clearly
+not ordinary soldiers.  The walls of the tower are bright and sparkiling
+golden.  To the west is a hallway leading to the main chambers of the
 castle and there is a staircase going up the tower.
 ~
-0 D 0 
+0 D 0
 D3
 A Hallway.
 ~
@@ -4746,11 +4747,11 @@ Inside the Eastern Tower.
 0 -1 12138
 S
 #12138
-Inside the Eastern Tower~
-This room is sparse except for a small table and the three racks of 
-weapons that line the walls.  The weapons seem well cared for and in good 
-condition.  Unfortunately they are also locked into the racks so you 
-cannot get one for yourself.  A staircase leads downward and up to the 
+Doðu Kulesinin Ýç Kýsmý~
+This room is sparse except for a small table and the three racks of
+weapons that line the walls.  The weapons seem well cared for and in good
+condition.  Unfortunately they are also locked into the racks so you
+cannot get one for yourself.  A staircase leads downward and up to the
 top of the tower.
 ~
 0 D 0
@@ -4766,10 +4767,10 @@ The Base of the Eastern Tower.
 0 -1 12137
 S
 #12139
-The Chamber of Samhain~
-This chamber's walls have vivid tapestries depicting the king of the 
-Unseelie court at the head of his hunting party, chasing a great stag 
-through a dark forest.  There are also several hunting horns hanging on 
+Samhain Odasý~
+This chamber's walls have vivid tapestries depicting the king of the
+Unseelie court at the head of his hunting party, chasing a great stag
+through a dark forest.  There are also several hunting horns hanging on
 the walls, along with the mounted heads of several animals.
 ~
 0 D 0
@@ -4785,14 +4786,14 @@ An Audience Chamber.
 0 -1 12140
 S
 #12140
-An Audience Chamber~
-This large room contains many seats designed to keep anyone waiting 
-for an audience quite comfortable.  There are also several tapestries on 
-the wall depicting various court scenes, many of which are dominated by a 
-fiery King and a shining Queen.  To the south is a courtyard and to the 
+Bir Kabul Odasý~
+This large room contains many seats designed to keep anyone waiting
+for an audience quite comfortable.  There are also several tapestries on
+the wall depicting various court scenes, many of which are dominated by a
+fiery King and a shining Queen.  To the south is a courtyard and to the
 east and west are some large decorated chambers.
 ~
-0 D 0 
+0 D 0
 D0
 The Court of the Fae.
 ~
@@ -4804,7 +4805,7 @@ The Chamber of Samhain.
 ~
 0 -1 12139
 D2
-The Courtyard. 
+The Courtyard.
 ~
 ~
 0 -1 12134
@@ -4815,12 +4816,12 @@ The Chamber of Lughnasadh.
 0 -1 12141
 S
 #12141
-The Chamber of Lughnasadh~
-This chamber holds several tapestries that depict times of harvest 
-on the walls.  There are several sickle like objects on the walls and 
+Lughnasadh Odasý~
+This chamber holds several tapestries that depict times of harvest
+on the walls.  There are several sickle like objects on the walls and
 there is, strangely out of place a bookcase along the northern wall.
 ~
-0 D 0 
+0 D 0
 D1
 The Audience Chamber.
 ~
@@ -4833,14 +4834,14 @@ A Hallway.
 0 -1 12133
 S
 #12142
-Inside the Western Guard Tower~
-This room is used as a store place for the weapons of the guard.  It 
-looks as if the guardsmen don't much care about the state of their 
-weapons because the weapons racks are empty of all but a few broken 
-shafts, handles and shards of blades.  The staircase leads back down or 
+Batý Gözcü Kulesinin Ýçinde~
+This room is used as a store place for the weapons of the guard.  It
+looks as if the guardsmen don't much care about the state of their
+weapons because the weapons racks are empty of all but a few broken
+shafts, handles and shards of blades.  The staircase leads back down or
 up to the top of the tower.
 ~
-0 D 0 
+0 D 0
 D4
 The Top of the Western Guard Tower.
 ~
@@ -4853,14 +4854,14 @@ The Base of the Western Tower.
 0 -1 12131
 S
 #12143
-Top of the Western Guard Tower~
+Batý Gözcü Kulesinin Tepesi~
 You are at the top of the western guard tower.  You can look out
 upon the land from here and see a beautiful forest to the south, a
-flowered meadow all around the castle and dark mountains to the north.  A 
-large brass brazier filled with coals stands here giving off a good bit 
+flowered meadow all around the castle and dark mountains to the north.  A
+large brass brazier filled with coals stands here giving off a good bit
 of smoke.
 ~
-0 D 0 
+0 D 0
 D5
 In the Guard Tower.
 ~
@@ -4868,14 +4869,14 @@ In the Guard Tower.
 1 0 12142
 S
 #12144
-The Court of the Fae~
-This large hall is lined with seats and benches along the western 
-and eastern walls.  Many noble and servant Fae wander the room engaged in 
-either services, conversations, dancing or games.  Rich purple draperies 
-hang high above to the north and angle down towards the large golden 
+Fae Sarayý~
+This large hall is lined with seats and benches along the western
+and eastern walls.  Many noble and servant Fae wander the room engaged in
+either services, conversations, dancing or games.  Rich purple draperies
+hang high above to the north and angle down towards the large golden
 throne that sits farther to the north.
 ~
-0 D 0 
+0 D 0
 D0
 The Throne of the Seelie Fae.
 ~
@@ -4888,14 +4889,14 @@ The Audience Chamber.
 0 -1 12140
 S
 #12145
-The Top of the Eastern Guard Tower~
-You are standing at the top of the eastern guard tower.  From here 
-you can see all of the countryside for miles around.  A field of flowers 
+The Doðu Gözcü Kulesinin Tepesi~
+You are standing at the top of the eastern guard tower.  From here
+you can see all of the countryside for miles around.  A field of flowers
 and a forest are to the south while dark mountains can be seen to the north.
-A large brass brazier burns brightly here, giving off a great amount of 
+A large brass brazier burns brightly here, giving off a great amount of
 light and heat.  The trapdoor leads back down into the tower.
 ~
-0 D 0 
+0 D 0
 D5
 Inside the Eastern Tower.
 ~
@@ -4903,10 +4904,10 @@ trapdoor~
 1 12065 12138
 S
 #12146
-The Throne of the Seelie Fae~
-This is the Golden throne of Oberon and Titania.  All around 
-attendants await their every whim and dancers and jesters perform with a 
-skill unparralelled in any mortal court.  Thick purple draperies fall 
+Seelie Fae Tahtý~
+This is the Golden throne of Oberon and Titania.  All around
+attendants await their every whim and dancers and jesters perform with a
+skill unparralelled in any mortal court.  Thick purple draperies fall
 from the ceiling and are gathered back behind the massive throne.
 ~
 0 D 0
@@ -4922,12 +4923,12 @@ The Court of the Fae.
 0 -1 12144
 S
 #12147
-Behind the Royal Drapes~
-You are standing in a small space hidden behind the large purple 
-drapes.  You can stand here unobserved and still hear the goings on of 
+Kraliyet Süslerinin Arkasýnda~
+You are standing in a small space hidden behind the large purple
+drapes.  You can stand here unobserved and still hear the goings on of
 the court outside quite well.
 ~
-0 D 0 
+0 D 0
 D2
 The Throne of the Seelie Fae.
 ~
@@ -4940,9 +4941,9 @@ floor~
 1 12067 12148
 S
 #12148
-The Watcher's Home~
-This small bare room is home to one of the Fae who watches from 
-behind the throne of the Seelie.  Nothing of interest is in this room 
+Gözcünün Evi~
+This small bare room is home to one of the Fae who watches from
+behind the throne of the Seelie.  Nothing of interest is in this room
 other than the rag bed and the small pool of slime in the corner.
 ~
 0 D 0
@@ -4953,14 +4954,14 @@ Behind the Royal Drapes.
 0 -1 12147
 S
 #12149
-The Hidden Court~
-This is the hidden court of the Unseelie Fae during the seasonal 
-reign of the Seelie. The room is dark and cold, totaly unlike the rest of 
+Gizli Avlu~
+This is the hidden court of the Unseelie Fae during the seasonal
+reign of the Seelie. The room is dark and cold, totaly unlike the rest of
 the currently Seelie castle. There is a large dark throne cloaked in darkness
-here. You can't quite make out if it is occupied.  To the south is more 
+here. You can't quite make out if it is occupied.  To the south is more
 of the Dark court.
 ~
-0 D 0 
+0 D 0
 D2
 The Hidden Court.
 ~
@@ -4973,14 +4974,14 @@ wall~
 1 0 12127
 S
 #12150
-The Hidden Court~
+Gizli Avlu~
 This is the hidden court of the Unseelie Fae during the seasonal
 reign of the Seelie. The room is dark and cold, totaly unlike the rest of
 the currently Seelie castle. There is a large dark throne cloaked in darkness
 here. You can't quite make out if it is occupied.  To the north is more
 of the Dark court.
 ~
-0 D 0 
+0 D 0
 D0
 The Hidden Court.
 ~
@@ -4993,9 +4994,9 @@ The Hall of Autumn.
 1 0 12126
 S
 #12151
-Eternal Winter~
-Your body is gripped by the freezing chill of ice and your mind is 
-paralyzed by the all encompassing wisdom that only death can bring.  You 
+Ebedi Kýþ~
+Your body is gripped by the freezing chill of ice and your mind is
+paralyzed by the all encompassing wisdom that only death can bring.  You
 find yourself unable to even contemplate leaving this eternal winter.
 ~
 0 DLNTUVW 0
@@ -5026,11 +5027,11 @@ hope~
 1 -1 12155
 S
 #12152
-Eternal Autumn~
-You find yourself growing more and more lethargic.  You seem so 
+Ebedi Sonbahar~
+You find yourself growing more and more lethargic.  You seem so
 comfortable that you really don't ever want to leave this place.
 ~
-0 DLNTUVW 0 
+0 DLNTUVW 0
 D0
 Eternal Autumn.
 ~
@@ -5058,10 +5059,10 @@ hope~
 1 -1 12155
 S
 #12153
-Eternal Summer~
-You are now within eternal summer.  The blazing sun drives its rays 
-into you and all you can do is sit and rejoice in the sounds and the 
-light that pour into you.  You are unable to leave for you are part now 
+Ebedi Yaz~
+You are now within eternal summer.  The blazing sun drives its rays
+into you and all you can do is sit and rejoice in the sounds and the
+light that pour into you.  You are unable to leave for you are part now
 of the eternal summer.
 ~
 0 DLNTUVW 0
@@ -5092,11 +5093,11 @@ hope~
 1 -1 12155
 S
 #12154
-Eternal Spring~
-The power of eternal spring grips you and you find yourself overcome 
-with youth and clildish pleasure.  Your limbs have shortened and you are 
-no longer as tall as you once were.  It doesn't matter though because you 
-are young and you don't ever want to grow old.  You can stay here and be 
+Ebedi Ýlkbahar~
+The power of eternal spring grips you and you find yourself overcome
+with youth and clildish pleasure.  Your limbs have shortened and you are
+no longer as tall as you once were.  It doesn't matter though because you
+are young and you don't ever want to grow old.  You can stay here and be
 young forever.
 
 ~
@@ -5128,14 +5129,14 @@ hope~
 1 -1 12155
 S
 #12155
-Hope~
-Just as you glimpsed eternity trapped in eternity your mortality has 
+Umut~
+Just as you glimpsed eternity trapped in eternity your mortality has
 let you grasp onto your hope and escape from your own actions.
 ~
-0 CD 0  
+0 CD 0
 S
 #12156
-Behind the Hill~
+Tepenin Ardýnda~
 In the shadow of the hill where the castle lies is a small glade.
 Many woodland creatures, small and large are gathered around a little boy
 playing a pipe.  The music captures you for a moment and then the boy
@@ -5166,8 +5167,8 @@ The Flower Meadow
 0 -1 12087
 S
 #12157
-Under the Hill~
-You are Under the hill that the Fae stronghold stands upon.  There 
+Tepenin Altýnda~
+You are Under the hill that the Fae stronghold stands upon.  There
 are several wondrous creatures standing here studying you.
 ~
 0 M 2

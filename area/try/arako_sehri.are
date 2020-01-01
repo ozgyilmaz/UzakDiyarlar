@@ -1,15 +1,15 @@
 #AREA
-aarak2.are~
-Aarakocran City~
-{15 30} Slash   Aarakocran city~
+arako_sehri.are~
+Arako Þehri~
+{15 30} Slash   Arako þehri~
 5600 5699
 
 #MOBILES
 
 #5600
-bird aarakocra food vendor~
-the food vendor~
-The vendor holds up a nice fat rat and smiles at you.
+arako yiyecek satýcýsý~
+yiyecek satýcýsý~
+Yiyecek satýcýsýný burada, þiþman bir sýçaný havaya kaldýrmýþ, gülümsüyor.
 ~
 A fat bird with shiny feathers.  He eyes you cautiously and suggests you LIST
 his wares.
@@ -22,9 +22,9 @@ EF 0 0 0
 stand stand male 1000
 0 0 medium 0
 #5601
-bird aarakocra delicacy vendor~
-delicacy vendor bird~
-The delicacy vendor is watching you closely.
+arako kuþ nadide mal satýcýsý~
+nadide mal satýcýsý~
+Nadide mallarýn satýcýsý seni dikkatle izliyor.
 ~
 A tall skinny bird with many black feathers.  He eyes you harshly and
 suggests you LIST his rare, imported wares.
@@ -37,9 +37,9 @@ EF 0 0 0
 stand stand male 10000
 0 0 medium 0
 #5602
-bird aarakocra trinket vendor~
-the trinket vendor~
-A trinket vendor stares at her wares, enchanted by their beauty.
+ziynet eþyasý satýcýsý kuþ arako~
+ziynet eþyasý satýcýsý~
+Ziynet eþyasý satýcýsýný görüyorsun, sattýðý mallarýn güzelliðine vurulmuþ.
 ~
 A beautiful bird with bright plumage stands before you.  She considers
 suggesting you LIST her wares, but decides she doesn't want to part with any of
@@ -53,9 +53,9 @@ ABG T 0 0
 stand stand male 10000
 0 0 medium 0
 #5603
-bird aarakocran young child boy~
-the child~
-A young aarakocran is whistling a tune.
+arako kuþ çocuk oðlan~
+çocuk~
+Bir arako çocuðu ýslýk çalýyor.
 ~
 The child is very curious about everything about you.  He looks you over hoping
 you will give him a shiny piece of metal or a pretty stone.
@@ -68,9 +68,9 @@ ACGHM PT 100 0
 stand stand male 340
 0 0 medium 0
 #5604
-bird aarakocran young child girl~
-the child~
-A young aarakocran is clicking her beak.
+arako kuþ çocuk kýz~
+çocuk~
+Bir arako çocuðu gagasýný týkýrdatýyor.
 ~
 The child is very curious about everything about you.  She looks you over
 hoping you will give her a shiny piece of metal or a pretty stone.
@@ -83,9 +83,9 @@ EFNU 0 0 0
 stand stand male 440
 0 0 medium 0
 #5605
-bird aarakocran taxidermist~
-The taxidermist~
-The Aarakocran Taxidermist has his hands in a corpse.
+arako kuþ hayvan doldurma sanatçýsý~
+hayvan doldurma sanatçýsý~
+Hayvan doldurma sanatçýsý pençelerini cesetin içine sokmuþ uðraþýyor.
 ~
 The Aarakocran Taxidermist is adjusting a glass eye inside a lifelike
 snow leopard's head.  It is obvious he does not like to be disturbed.  He
@@ -101,9 +101,9 @@ EFNU ABCD 0 0
 stand stand male 1000
 0 0 medium 0
 #5606
-bird taxidermist~
-Taxidermist~
-The Aarakocran Taxidermist has his claws in a corpse.
+arako kuþ hayvan doldurma sanatçýsý~
+hayvan doldurma sanatçýsý~
+Hayvan doldurma sanatçýsý pençelerini cesetin içine sokmuþ uðraþýyor.
 ~
 The Aarakocran Taxidermist is adjusting a glass eye inside a lifelike
 snow leopard's head.  It is obvious he does not like to be disturbed.  He
@@ -119,9 +119,9 @@ EF 0 0 0
 stand stand male 10000
 0 0 medium 0
 #5608
-bird aarakocra child lame~
-a lame aarakocra~
-A young aarakocra looks uncomfortable in his wing and arm cast.
+arako kuþ çocuk topal~
+topal arako~
+Genç bir arako görüyorsun, yaralý kanadý yüzünden uçamýyor.
 ~
 This young bird drank too much and tried to fly home, crashing into the side
 of a cliff.  He won't be able to fly until his arm bone has knitted back
@@ -135,9 +135,9 @@ EF 0 0 0
 stand stand male 1000
 0 0 medium 0
 #5609
-bird aarakocra commander military~
-the humming military commander~
-You want to shield your ears from the incredible humming given off by the military commander!
+kuþ arako askeri komutan~
+výzýldayan komutan~
+Arako askeri komutaný burada, výzýldamasý kulaklarýný patlatýyor!
 ~
 The humming commander was moving tokens representing Aarakocran
 soldiers around a map, but he pushes that aside and lunges at your throat!
@@ -150,9 +150,9 @@ CEFR A 0 0
 stand stand male 1000
 0 0 medium 0
 #5610
-bird aarakocra commander holy~
-the glowing commander~
-You want to shield your eyes from the incredible glow of the holy commander!
+kutsal komutan arako kuþ~
+ýþýldayan komutan~
+Arako askeri komutaný burada, parlaklýðý gözlerini yakýyor!
 ~
 The commander was calculating a new backbreaking tax on an abacus, but
  he pushes that aside and lunges at your throat!
@@ -165,9 +165,9 @@ CEFR 0 0 0
 stand stand male 1000
 0 0 medium 0
 #5611
-bird aarakocran warrior~
-the fierce warrior~
-A fierce warrior rolls his eyes and decides to slay you...
+arako kuþ savaþçý acýmasýz~
+acýmasýz savaþçý~
+Acýmasýz bir savaþçý üzerine doðru uçuyor...
 ~
 The proud Aarakocran warrior defends his city against all threats.  He has
 decided you are a threat.  Prepare to die, dirt dweller!
@@ -180,9 +180,9 @@ CEFIR 0 0 0
 stand stand male 1000
 0 0 medium 0
 #5612
-bird aarakocran guard~
-the stalwart guard~
-A stalwart warrior chokes on his worm crisps and draws his blade!
+arako kuþ muhafýz yapýlý~
+yapýlý muhafýz~
+Yapýlý bir muhafýz silahýný kavrýyor!
 ~
 The proud Aarakocran warrior defends his city against all threats.  He has
 decided you are a threat.  Prepare to die, dirt dweller!
@@ -195,9 +195,9 @@ CDEFIJKR 0 0 0
 stand stand male 1000
 0 0 medium 0
 #5613
-bird aarakocran revolutionary castro~
-the aarakocran revolutionary~
-A revolutionary plots the overthrow of his corrupt government.
+kuþ arako devrimci~
+devrimci~
+Devrimci burada, yönetimi yýkma planlarý yapýyor.
 ~
 The bitter revolutionary is plotting to overthrow his corrupt government.  He
 has been secretly flying about building an organization against the corrupt
@@ -213,9 +213,9 @@ EF 0 0 0
 stand stand male 1000
 0 0 medium 0
 #5614
-bird aarakocra junk dealer fred~
-the junk dealer~
-A junk dealer tries to eek out a living.
+kuþ arako ývýr zývýrcý~
+ývýr zývýrcý~
+Ivýr zývýrcýyý görüyorsun, bir yaþamý almanýn peþinde!
 ~
 A fat bird with a bad slouch.  He is festooned with all kinds of shiny and dull
 metal objects.  His name is Fred.  He asks if you are interested in a bargain?
@@ -228,9 +228,9 @@ CEF ABCD 0 0
 stand stand male 1000
 0 0 medium 0
 #5615
-bird aarakocran merchant~
-the merchant~
-A merchant is on his way to a meeting.
+arako tüccar kuþ~
+tüccar~
+Bir tüccar toplantýya yetiþmeye çalýþýyor.
 ~
 The business man has an intent look in his eye.  He is much to busy to be
 concerned with you...
@@ -243,9 +243,9 @@ CEF 0 0 0
 stand stand female 1000
 0 0 medium 0
 #5616
-bird aarakocran matron~
-the matron~
-An aarakocran matron eyes you cautiously.
+arako yönetici kadýn kuþ~
+yönetici kadýn~
+Yönetici kadýn seni dikkatle izliyor.
 ~
 The matron looks down at you through her long, superior beak.  She thinks
 having your kind here is an insult to her people.  She considers slaying you,
@@ -259,9 +259,9 @@ ECF 0 0 0
 stand stand female 1000
 0 0 medium 0
 #5617
-bird aarakocran clansman~
-the clansman~
-An aarakocran clansman is rooting for grubs.
+kuþ arako klancý~
+klancý~
+Klancý bir arako topraðý eþeliyor.
 ~
 The clansman pulls a fat, juicy grub worm from the ground and pops it into his
 beak.  Your mouth waters as you imagine the delicate texture of the grub.
@@ -274,9 +274,9 @@ CEFR 0 0 0
 stand stand male 1000
 0 0 medium 0
 #5618
-bird aarakocran captain~
-the captain~
-The Aarakocran slashes at you!
+kuþ arako yüzbaþý~
+yüzbaþý~
+Yüzbaþý üzerine yükleniyor!
 ~
 Although the captain has been sitting at as desk for the last few years, she
 can still hold her own in a scrape.  The bald patches in her feathers are not a
@@ -290,9 +290,9 @@ CEFR 0 0 0
 stand stand male 1000
 0 0 medium 0
 #5619
-bird aarakocran secretary~
-the secretary~
-The Secretary decides to prevent you from disturbing the captain!
+kuþ arako sekreter~
+sekreter~
+Sekreter burada, yüzbaþýyý rahatsýz etmeni engelliyor!
 ~
 Although you are dazzled by the brilliant plumage on the secretary, you can
 see he was chosen for his intelligence and strength.  His wing muscles bulge
@@ -307,9 +307,9 @@ CEF 0 0 0
 stand stand male 1000
 0 0 medium 0
 #5620
-bird aarakocra aarakocran weapons vendor~
-the weapons vendor~
-An Aarakocran weapons vendor is sharpening some talon extenders on a stone.
+kuþ arako silah satýcýsý~
+silah satýcýsý~
+Silah satýcýsý burada, silahlarý keskinleþtiriyor!
 ~
 The vendor has no problems looking at you and carrying on a conversation as
 he sharpens two pairs of talon extenders simultaneously on a round sharpening
@@ -325,9 +325,9 @@ CEFIR 0 0 0
 stand stand male 1000
 0 0 medium 0
 #5621
-bird aarakocra aarakocran armorer armourer~
-the armorer~
-An Aarakocran armorer is hammering out a bit of plate.
+arako kuþ zýrhçý~
+zýrhçý~
+Zýrhçý çelik bir plakayý döðüyor.
 ~
 As the armorer looks up at you, the hammer comes down upon his claw and he
 lets out a piercing shriek.
@@ -340,9 +340,9 @@ CEFIKR 0 0 0
 stand stand male 1000
 0 0 medium 0
 #5622
-bird aarakocra aarakocran shaman holy guildmaster~
-the holy aarakocran guildmaster~
-Your guildmaster patiently adds a new tile to a huge mosaic.
+kuþ arako kutsal lonca efendisi~
+kutsal lonca efendisi~
+Lonca efendisini görüyorsun, düþünüyor!
 ~
 The shaman's plumage is generally a drab grey, but there is a tremendous
 orange and yellow starburst on her chest.
@@ -355,11 +355,11 @@ CEFIKR ABCD 0 0
 stand stand male 1000
 0 0 medium 0
 #5623
-bird aarakocra aarakocran sneaky guildmaster thief assassin~
-the sneaky aarakocran guildmaster~
-Your guildmaster is picking a *HUGE* (Glowing) Mithral lock.
+arako kuþ suikastçi hýrsýz lonca efendisi~
+sessiz lonca efendisi~
+Lonca efendisi burada, büyük bir kilitle uðraþýyor.
 ~
-well, COUNT your money!
+Paraný SAY!
 ~
 song bird~
 ABGKS T 0 0
@@ -369,9 +369,9 @@ EFIKNR ABCD 0 0
 stand stand male 1000
 0 0 medium 0
 #5624
-bird aarakocra aarakocran strong guildmaster warrior hero~
-the strong aarakocran guildmaster~
-..998..999..1000.  Your guildmaster sets down some *HUGE* barbells.
+arako kuþ savaþçý güçlü lonca efendisi~
+güçlü lonca efendisi~
+..998..999..1000.  Lonca efendisi büyük aðýrlýklar kaldýrarak çalýþýyor.
 ~
 Your guildmaster's plumage is so black that it is blue.  You can see huge
 muscles rippling down his legs, wings, and chest.  He has an air of command and
@@ -385,9 +385,9 @@ CDEFIJKR ABCD 0 0
 stand stand male 1000
 0 0 medium 0
 #5625
-bird aarakocra aarakocran cityguard guard~
-the cityguard~
-A cityguard scans the horizon for signs of trouble.
+kuþ arako þehir muhafýzý~
+þehir muhafýzý~
+Þehir muhafýzý ufku inceliyor.
 ~
 The cityguard is charged with keeping peace within the city.  She is especially
 on the lookout for the person who stole from the military treasury last week.
@@ -400,9 +400,9 @@ CDEFIR 0 0 0
 stand stand female 1000
 0 0 medium 0
 #5626
-bird aarakocra aarakocran cityguard guard~
-the cityguard~
-A cityguard scans the horizon for signs of trouble.
+kuþ arako þehir muhafýzý~
+þehir muhafýzý~
+Þehir muhafýzý ufku inceliyor.
 ~
 The cityguard is charged with keeping peace within the city.  He is especially
 on the lookout for the person who stole from the military treasury last week.
@@ -415,9 +415,9 @@ CDEFR 0 0 0
 stand stand male 1000
 0 0 medium 0
 #5627
-bird aarakocra aarakocran cityguard guard~
-the cityguard~
-A cityguard is guarding the temple.
+kuþ arako þehir muhafýzý~
+þehir muhafýzý~
+Þehir muhafýzý tapýnaðý koruyor.
 ~
 The cityguard is charged with defending the temple against invaders from the
 north.
@@ -430,9 +430,9 @@ CDEFIR 0 0 0
 stand stand male 1000
 0 0 medium 0
 #5628
-bat breakfast lunch dinner snack appetizer~
-the small bat~
-A bat brings back memories of your mother's great cooking.
+yarasa küçük~
+küçük yarasa~
+Küçük bir yarasa sana annenin yemeklerini hatýrlatýyor.
 ~
 A recipe comes to mind...
       Ingredients:
@@ -456,8 +456,8 @@ stand stand male 1000
 0 0 small 0
 #5629
 kobold~
-the kobold~
-A kobold has been staked to the ground.
+kobold~
+Bir kobold burada duruyor.
 ~
 When you look into the kobolds eyes you learn more about pain, suffering,
 torture, and humiliation than you could have learned in a score of years.
@@ -475,38 +475,35 @@ stand stand male 1000
 0 0 small 0
 #0
 
-
 #OBJECTS
-
 #5600
-worm crisps~
-a packet of worm crisps~
-You are enticed by the odor of spicy worm crisps.~
+taze kurt paketi~
+taze kurt paketi~
+Ýçinde baharatlý ve taze kurtlarýn olduðu bir paket burada duruyor.~
 food~
 food 0 A
 20 20 0 0 0
 1 10 5 P
-
 #5601
-bowl curry curried grubs~
-a bowl of curried grubs~
-You smell the delicate aroma of curried grubs.~
+kase baharatlý larva yemek~
+bir kase baharatlý larva~
+Güzel kokular yayan bir larva yemeði burada duruyor.~
 food~
 food 0 A
 50 50 0 0 0
 2 1 30 P
 #5602
-cup spicy rodent stew~
-a cup of spicy rodent stew~
-A cup with some red liquid rests here.~
+baharatlý kemirgen yahnisi~
+baharatlý kemirgen yahnisi~
+Yerde duran yahninin kokusu iþtahýný kabartýyor.~
 food~
 food 0 A
 40 40 0 0 0
 3 1 25 P
 #5603
-meat seasoned rat kabob~
-a seasoned rat kabob~
-Some meat and vegetables on a stick lies on the ground.~
+sýçan yemek sebzeli~
+sýçan yemeði~
+Yerde sebzeli sýçan yemeði duruyor.~
 food~
 food 0 A
 30 30 0 0 0
@@ -520,9 +517,9 @@ food 0 A
 30 30 0 0 0
 1 1 20 P
 #5605
-talon extenders~
-some talon extenders~
-Some shiny metal talons catch your fancy.~
+pençeli eldiven~
+bir çift pençeli eldiven~
+Bir çift pençeli eldiven görüyorsun.~
 steel~
 armor 0 AH
 5 6 5 1 0
@@ -530,41 +527,41 @@ armor 0 AH
 A
 19 2
 #5606
-packet black centipede spice~
-spice of the black, aquatic centipede~
-A packet of black spice has been forgotten here.~
+kýrkayak baharatý~
+kýrkayak baharatý~
+Etrafa daðýlmýþ kýrkayak baharatý görüyorsun.~
 glass~
 pill 0 A
 20 'teleport' 'curse' '' ''
 20 10 11900 P
 #5607
-seaweed~
-aromatic seaweed~
-You smell the dreamy smell of seaweed.~
+deniz yosunu~
+deniz yosunu~
+Taze deniz yosunu görüyorsun.~
 glass~
 pill 0 A
 20 'detect magic' '' '' ''
 2 100 100 P
 #5608
-chameleon~
-a desiccated chameleon~
-A small chameleon corpse blends in with the ground.~
+bukalemun kuyruk~
+bukalemun kuyruðu~
+Bir bukalemun kuyruðu görüyorsun.~
 snakeskin~
 pill 0 A
 11 'detect invis' '' '' ''
 9 100 400 P
 #5609
-giant squid eye eyeball~
-the eye of a giant squid~
-An eyeball looks up at you strangely.~
+mürekkepbalýðý gözü~
+mürekkepbalýðý gözü~
+Bir mürekkepbalýðý gözü görüyorsun.~
 gut~
 pill 0 A
 13 'poison' 'plague' '' ''
 4 100 100 P
 #5610
-shiny bit green glass~
-a shiny bit of green glass~
-You see a shiny bit of green glass and need to possess it.~
+parlak yeþil cam~
+parlak yeþil cam~
+Parlak yeþil bir cam görüyorsun.~
 glass~
 treasure G AO
 0 0 0 0 0
@@ -572,9 +569,9 @@ treasure G AO
 A
 2 1
 #5611
-shiny bit blue glass~
-a shiny bit of blue glass~
-You see a shiny bit of blue glass and decide it will soon be yours.~
+parlak mavi cam~
+parlak mavi cam~
+Parlak mavi bir cam görüyorsun.~
 glass~
 treasure G AO
 0 0 0 0 0
@@ -582,9 +579,9 @@ treasure G AO
 A
 1 1
 #5612
-gold circlet~
-a bright gold circlet~
-You have a sudden urge to pick up a bright gold circlet.~
+altýn halka~
+altýn halka~
+Parlak altýn bir halka görüyorsun.~
 gold~
 treasure G AO
 0 0 0 0 0
@@ -592,9 +589,9 @@ treasure G AO
 A
 5 1
 #5613
-piece string~
-a pretty piece of string~
-The most beautiful piece of string you have ever seen rests here.~
+boncuklu ip parça~
+boncuklu ip~
+Gördüðün en güzel boncuklarýn üzerine dizildiði bir ip parçasý görüyorsun.~
 steel~
 treasure G AO
 0 0 0 0 0
@@ -602,154 +599,154 @@ treasure G AO
 A
 13 4
 #5614
-silver coin disk~
-one silver coin~
-A shiny silver disk seems to call your name.~
+gümüþ disk~
+gümüþ disk~
+Parlak bir gümüþ disk görüyorsun.~
 silver~
 trash 0 A
 0 0 0 0 0
 1 10 100 P
 #5615
-red glass~
-glittering red glass~
-You decide the important thing in your life is having some red glass.~
+parlak kýrmýzý cam~
+parlak kýrmýzý cam~
+Parlak kýrmýzý bir cam görüyorsun.~
 glass~
 trash 0 A
 0 0 0 0 0
 1 10 20 P
 #5616
-ball string~
-a ball of string~
-A ball of string asks to be unrolled and hidden in your nest.~
+toplu ip parça~
+toplu ip~
+Üzerine toplarýn dizildiði bir ip parçasý görüyorsun.~
 glass~
 trash 0 A
 0 0 0 0 0
 1 10 300 P
 #5617
-red string thread~
-a fine red thread~
-A thin piece of string has the deepest color you have ever seen.~
+camlý ip parça~
+camlý ip~
+Üzerine camlarýn dizildiði bir ip parçasý görüyorsun.~
 glass~
 trash 0 A
 0 0 0 0 0
 1 10 40 P
 #5618
-gem garnet stone~
-a flawed garnet stone~
-A gem glows with a mystical inner light.~
+lal taþý~
+lal taþý~
+Yerde parlayan bir taþ görüyorsun.~
 stone~
 trash A A
 0 0 0 0 0
 1 10 50 P
 #5619
-nest~
-a fancy nest~
-A fancy nest of string and straw seems very inviting.~
+süslü yuva~
+süslü yuva~
+Süslü bir yuva görüyorsun. Ýçinde neler yok ki...~
 wood~
 container 0 0
 10000 0 0 0 0
 1 0 0 P
 #5620
-nest~
-a straw nest~
-A straw nest with shiny twigs makes you feel sleepy.  ~
+süslü yuva~
+süslü yuva~
+Süslü bir yuva görüyorsun. Parlaklýðý seni uyutuyor...~
 wood~
 container 0 0
 10000 0 0 0 0
 1000 0 0 P
 #5621
-nest~
-a huge nest~
-A huge family nest of rough twigs looks preferable to adventuring.  ~
+büyük yuva~
+büyük yuva~
+Büyük bir yuva görüyorsun. Ne kadar da büyük...~
 wood~
 container 0 0
 10000 0 0 0 0
 1000 0 0 P
 #5622
-hand ashtray~
-an ashtray~
-An ashtray made out of the hand of a smurf lies on the floor.~
+el tablasý~
+el tablasý~
+Bir el tablasý uzanmýþ yatýyor.~
 gut~
 furniture 0 AO
 0 0 0 0 0
 1 1 0 P
 #5623
-stuffed snow leopard~
-a stuffed snow leopard~
-A magnificent stuffed snow leopard almost appears to be walking.~
+doldurulmuþ kar leoparý~
+doldurulmuþ kar leoparý~
+Doldurulmuþ bir kar leoparý görüyorsun. Canlý gibi!~
 gut~
 furniture 0 AL
 0 0 0 0 0
 1 20 0 P
 #5624
-stuffed jaguar~
-a stuffed jaguar~
-A stuffed giant king jaguar appears to pace menacingly.~
+doldurulmuþ jaguar~
+doldurulmuþ jaguar~
+Doldurulmuþ bir jaguar görüyorsun. Canlý gibi!~
 paper~
 furniture 0 0
 500 0 0 0 0
 500 0 0 P
 #5625
-stuffed orc~
-a stuffed orc~
-A stuffed orc in combat pose is glued to the floor.~
+doldurulmuþ ork~
+doldurulmuþ ork~
+Doldurulmuþ bir ork görüyorsun. Canlý gibi!~
 paper~
 furniture 0 0
 0 0 0 0 0
 500 0 0 P
 #5626
-stuffed grizzly bear~
-a stuffed grizzly bear~
-A stuffed grizzly bear prepares to maul you.  ~
+doldurulmuþ gri ayý~
+doldurulmuþ gri ayý~
+Doldurulmuþ bir gri ayý görüyorsun. Canlý gibi!~
 wood~
 container 0 0
 500 0 0 0 0
 1 0 0 P
 #5627
-dragon head~
-a stuffed dragon's head~
-A fierce dragon's head is nailed to the wall.~
+doldurulmuþ ejderha baþý~
+doldurulmuþ ejderha baþý~
+Doldurulmuþ bir ejderha baþý görüyorsun. Canlý gibi!~
 wood~
 treasure 0 0
 0 0 0 0 0
 5 0 100 P
 #5628
-glass eye~
-a glass eye~
-A glass eye looks back at you.~
+cam göz~
+cam göz~
+Bir cam göz seni izliyor.~
 glass~
 treasure G AO
 0 0 0 0 0
-10 4 10 P 
+10 4 10 P
 A
 3 3
 #5629
-glass eye~
-a glass eye~
-A flawed glass eye looks back at you.~
+cam göz~
+cam göz~
+Bir cam göz seni izliyor.~
 glass~
 trash 0 A
 500 0 0 0 0
 5 2 3 P
 #5630
-painting~
-a strange bird painting~
-A strange bird painting hangs on the wall.~
+garip kuþ resmi resim~
+garip kuþ resmi~
+Garip bir kuþ resmi duvara asýlmýþ.~
 paper~
 furniture 0 0
 500 0 0 0 0
 50 0 0 P
 E
-painting~
+kuþ resim resmi~
 The painting is of an aarakocran shaman, and appears very lifelike.  The eyes
 seem to follow you about the room.  The painting begins to speak!  The Shaman
 utters 'xipodf sdfi dsfiop ewroia !wuer' which you recognize as being some kind
 of curse on the old Aarakocran high tongue.
 ~
 #5631
-hand ashtray~
-an ashtray~
-An ashtray made out of the hand of a dwarf lies on the floor.~
+el tablasý~
+el tablasý~
+Bir el tablasý uzanmýþ yatýyor.~
 gold~
 treasure G AO
 0 0 0 0 0
@@ -757,45 +754,45 @@ treasure G AO
 A
 5 1
 #5632
-canoe~
-a light weight canoe~
-A canoe is lies here unused.~
+hafif kano~
+hafif kano~
+Hafif bir kano görüyorsun.~
 wood~
 trash 0 A
 0 0 0 0 0
 4 0 0 P
 E
-canoe~
+kano~
 Hey!  This canoe has a hole in it!
 ~
 #5633
-chain collar~
-a thick collar and chain~
-An empty chain and collar rest here.~
+kalýn zincirli kolye~
+kalýn zincirli kolye~
+Kalýn zincirli bir kolye görüyorsun.~
 copper~
 armor 0 AC
 5 5 5 1 0
 1 1000 100 G
 #5634
-bottle potion clear~
-a clear potion with feathers inside~
-Feathers float about inside a clear bottle.~
+berrak iksir þiþe~
+berrak iksir~
+Bir iksir þiþesi burada býrakýlmýþ.~
 glass~
 potion 0 AO
-5 'fly' '' '' '' 
+5 'fly' '' '' ''
 1 50 1001 P
 #5635
-tapestry~
-a faded tapestry~
-A faded tapestry depicts the famous "Battle of the 1000".  ~
+soluk kilim~
+soluk kilim~
+Soluk renklere sahip bir kilim görüyorsun.~
 wood~
 container 0 0
 10000 0 0 0 0
 100 0 0 P
 #5636
-sword~
-a sword~
-You see a sword here.~
+kýlýç~
+kýlýç~
+Bir kýlýç görüyorsun.~
 steel~
 weapon AG AN
 sword 5 6 pierce 0
@@ -805,9 +802,9 @@ A
 A
 19 3
 #5637
-mace~
-a mace~
-You see a mace here.~
+gürz~
+gürz~
+Bir gürz görüyorsun.~
 bronze~
 weapon AG AN
 mace 5 7 crush 0
@@ -817,23 +814,23 @@ A
 A
 19 3
 #5638
-vest~
-an open-winged vest~
-You see an Aarakocran-manufacture open-winged vest here.~
+düðmeli yelek~
+düðmeli yelek~
+Düðmeli bir yelek görüyorsun.~
 steel~
 armor AO AD
 5 5 5 1 1
 5 100 1000 G
 E
-vest~
-This vest has been designed to give proper room for large wing muscles, and
+yelek~
+This yelek has been designed to give proper room for large wing muscles, and
 has holes in the back which are large enough to allow you to put it on and
 take it off without getting your feathers caught.
 ~
 #5639
-shield spiked~
-a wicked, spiked shield~
-You see a shield here.~
+demir uçlu kalkan~
+demir uçlu kalkan~
+Demir uçlu bir kalkan görüyorsun.~
 steel~
 armor AO AJ
 5 5 5 1 1
@@ -841,39 +838,39 @@ armor AO AJ
 A
 19 5
 #5640
-cloak~
-a cloak~
-You see a cloak here.~
+fular~
+fular~
+Bir fular görüyorsun.~
 wool~
 armor A AC
 5 5 5 1 1
 5 100 1000 G
 #5641
-helmet~
-a full-view helmet~
-You see an Aarakocran-manufacture full-view helmet here.~
+miðfer~
+miðfer~
+Bir miðfer görüyorsun.~
 steel~
 armor AO AE
-5 1 1 1 1 
+5 1 1 1 1
 5 100 100 G
 E
-helmet~
-This helmet has been designed to give you an unobstructed view of a full 180
+miðfer~
+This miðfer has been designed to give you an unobstructed view of a full 180
 degrees.  There is also a cleverly designed beak guard to allow you to eat and
-drink without removing the helmet.
+içecek without removing the miðfer.
 ~
 #5642
-leggings~
-a pair of leggings~
-You see a pair of leggings here.~
+bacaklýk~
+bir çift bacaklýk~
+Bir çift bacaklýk görüyorsun.~
 steel~
 armor AO AF
 5 10 10 1 1
 5 100 1000 G
 #5643
-boots~
-a pair of open-toe boots~
-You see a pair of Aarakocran-manufacture boots here.~
+çizme~
+bir çift çizme~
+Bir çift çizme görüyorsun.~
 snakeskin~
 armor A AG
 5 5 5 1 1
@@ -883,13 +880,13 @@ A
 A
 18 1
 E
-boots~
+çizme~
 These boots have large toe holes, to accommodate large Aarakocran feet.
 ~
 #5644
-talon extenders talons~
-a pair of talon extenders~
-You see a pair of talon extenders here.~
+uzun pençe~
+bir çift uzun pençe~
+Bir çift uzun pençe görüyorsun.~
 tin~
 armor AO AH
 5 1 1 1 1
@@ -897,55 +894,55 @@ armor AO AH
 A
 19 4
 #5645
-wing guards wingguards~
-a pair of wing guards~
-You see a pair of wing guards here.~
+kanat koruyucu~
+bir çift kanat koruyucu~
+Bir çift kanat koruyucu görüyorsun.~
 iron~
 armor AO AI
-5 5 5 1 1 
+5 5 5 1 1
 5 100 1000 G
 #5646
-cape~
-a cape~
-You see a cape here.~
+pelerin~
+pelerin~
+Bir pelerin görüyorsun.~
 snakeskin~
 armor A AK
 5 3 3 1 1
 5 100 1000 G
 #5647
-belt~
-a belt~
-You see a belt here.~
+kemer~
+kemer~
+Bir kemer görüyorsun.~
 copper~
 armor A AL
 5 3 3 1 1
 3 100 1000 G
 #5648
-bracer~
-a bracer~
-You see a bracer here.~
+bileklik~
+bileklik~
+Bir bileklik görüyorsun.~
 tin~
 armor AO AM
 5 5 5 2 1
 5 100 1000 G
 #5649
-vest~
-an open-winged vest~
-You see an Aarakocran-manufacture open-winged vest here.~
+astarsýz yelek~
+astarsýz yelek~
+Astarsýz bir yelek görüyorsun.~
 steel~
 armor B AD
 5 5 5 5 1
 5 100 1000 G
 E
-vest~
-This vest has been designed to give proper room for large wing muscles, and
+yelek~
+This yelek has been designed to give proper room for large wing muscles, and
 has holes in the back which are large enough to allow you to put it on and
 take it off without getting your feathers caught.
 ~
 #5650
-shield spiked~
-a wicked, spiked shield~
-You see a wicked, spiked shield here.~
+demir uçlu kalkan~
+demir uçlu kalkan~
+Demir uçlu bir kalkan görüyorsun.~
 steel~
 armor BO AJ
 5 5 5 5 5
@@ -953,39 +950,39 @@ armor BO AJ
 A
 19 5
 #5651
-cloak~
-a cloak~
-You see a cloak here.~
+fular~
+fular~
+Bir fular görüyorsun.~
 wool~
 armor B AC
 5 3 4 1 1
 5 100 1000 G
 #5652
-helmet~
-a full-view helmet~
-You see an Aarakocran-manufacture full-view helmet here.~
+miðfer~
+miðfer~
+Bir miðfer görüyorsun.~
 brass~
 armor BO AE
 5 3 4 1 1
 5 100 1000 G
 E
-helmet~
-This helmet has been designed to give you an unobstructed view of a full 180
+miðfer~
+This miðfer has been designed to give you an unobstructed view of a full 180
 degrees.  There is also a cleverly designed beak guard to allow you to eat and
-drink without removing the helmet.
+içecek without removing the miðfer.
 ~
 #5653
-leggings~
-a pair of leggings~
-You see a pair of leggings here.~
+bacaklýk~
+bir çift bacaklýk~
+Bir çift bacaklýk görüyorsun.~
 steel~
 armor BO AF
 5 5 5 3 1
 5 100 1000 G
 #5654
-boots~
-a pair of open-toe boots~
-You see a pair of Aarakocran-mangufacture boots here.~
+çizme~
+bir çift çizme~
+Bir çift çizme görüyorsun.~
 brass~
 armor B AG
 5 3 4 3 1
@@ -995,13 +992,13 @@ A
 A
 18 1
 E
-boots~
+çizme~
 These boots have large toe holes, to accommodate large Aarakocran feet.
 ~
 #5655
-talon extenders~
-a pair of talon extenders~
-You see a pair of talon extenders here.~
+uzun pençe~
+bir çift uzun pençe~
+Bir çift uzun pençe görüyorsun.~
 bronze~
 armor BO AH
 5 1 1 1 0
@@ -1009,81 +1006,81 @@ armor BO AH
 A
 19 4
 #5656
-sleeves~
-a pair of sleeves~
-You see a pair of sleeves here.~
+kolluk~
+bir çift kolluk~
+Bir çift kolluk görüyorsun.~
 steel~
 armor BO AI
 5 3 3 1 1
 5 100 1000 G
 #5657
-cape~
-a cape~
-You see a cape here.~
+pelerin~
+pelerin~
+Bir pelerin görüyorsun.~
 wool~
 armor BO AK
 5 4 4 1 1
 5 100 1000 G
 #5658
-belt~
-a belt~
-You see a belt here.~
+kemer~
+kemer~
+Bir kemer görüyorsun.~
 tin~
 armor B AL
 5 5 5 1 1
 5 100 1000 G
 #5659
-bracer~
-a bracer~
-You see a bracer here.~
+bileklik~
+bileklik~
+Bir bileklik görüyorsun.~
 steel~
 armor BO AM
 5 5 5 1 1
 5 100 1000 G
 #5660
-purse~
-a generic purse~
-A generic purse generates the VNUM for the 'make purse' spell.  ~
+küçük çanta~
+küçük çanta~
+küçük bir çanta görüyorsun.~
 steel~
 container 0 A
 50 0 0 0 0
 5 50 0 P
 #5661
-fire campfire~
-a campfire~
-There are the remains of a campfire here.  ~
+kamp ateþi~
+kamp ateþi~
+Bir kamp ateþinden arta kalanlarý görüyorsun.~
 fire~
 container 0 0
 10000 0 0 0 0
 5 0 0 P
 #5662
-gold key~
-a shiny gold key~
-A shiny key gives a glint of gold.~
+altýn anahtar~
+altýn anahtar~
+Altýn bir anahtar görüyorsun.~
 gold~
 key AB A
 0 0 0 0 0
 1 0 0 P
 #5663
-string green thread~
-a frayed bit of green thread~
-A piece of string, beautiful beyond measure, looks loose.~
+yeþil asa~
+yeþil asa~
+yeþil bir asa görüyorsun.~
 steel~
 staff AG AO
 7 1 1 'charm person' 0
 6 1 1000 P
 #5664
-stuffed polar bear~
-a stuffed polar bear~
-A stuffed polar bear prepares to maul you.  ~
+ayý derisinden çanta~
+ayý derisinden çanta~
+Ayý derisinden yapýlmýþ bir çanta görüyorsun.~
 wood~
 container 0 0
 500 0 0 0 0
 500 0 0 P
 #5665
-small talon extenders~
-some small talon extenders~
-A pair of small shiny metal talons catch your fancy.~
+kýsa pençe~
+bir çift kýsa pençe~
+Bir çift kýsa pençe görüyorsun.~
 iron~
 armor 0 AH
 5 5 5 3 1
@@ -1091,9 +1088,9 @@ armor 0 AH
 A
 19 2
 #5666
-small mace~
-a small mace~
-You see a small mace here.~
+küçük gürz~
+küçük gürz~
+Küçük bir gürz görüyorsun.~
 wood~
 weapon 0 AN
 mace 5 5 pound 0
@@ -1103,9 +1100,9 @@ A
 A
 19 1
 #5667
-small sticker~
-a small rat sticker~
-A small rat sticker would come in handy, and there is one here.~
+iþlemeli gürz~
+iþlemeli gürz~
+Ýþlemeli bir gürz görüyorsun.~
 rubber~
 weapon 0 AN
 mace 5 5 pound 0
@@ -1115,15 +1112,15 @@ A
 A
 18 2
 E
-small sticker~
+iþlemeli gürz~
 This is a medium length piercing blade, primarily used to catch rats.  It is
-fairly long, but the point is about as long as a dagger's.  The sticker looks
-as sturdy as a short sword.
+fairly long, but the point is about as long as a hançer's.  The sticker looks
+as sturdy as a short kýlýç.
 ~
 #5668
-large sticker~
-a large rat sticker~
-A large rat sticker causes you to dream of a large rat dinner.~
+sýçan derisi saplý büyük gürz~
+sýçan derisi saplý büyük gürz~
+Büyük bir gürz görüyorsun.~
 rubber~
 weapon 0 AN
 mace 5 5 pound 0
@@ -1133,43 +1130,43 @@ A
 A
 19 1
 E
-sticker~
+sýçan derisi saplý büyük gürz~
 This is a long metal blade, primarily used to catch rats.  It is about as big
-as a small sword, and has a sharp slashing blade.  It looks as sturdy as a
-short sword.
+as a small kýlýç, and has a sharp slashing blade.  It looks as sturdy as a
+short kýlýç.
 ~
 #5669
-helmet~
-a full-view helmet of plate~
-You see an Aarakocran-manufacture full-view helmet here.~
+miðfer~
+miðfer~
+Bir miðfer görüyorsun.~
 steel~
 armor O AE
 5 5 5 1 1
 15 100 1000 G
 E
-helmet~
-This helmet has been designed to give you an unobstructed view of a full 180
+miðfer~
+This miðfer has been designed to give you an unobstructed view of a full 180
 degrees.  There is also a cleverly designed beak guard to allow you to eat and
-drink without removing the helmet.
+içecek without removing the miðfer.
 ~
 #5670
-vest~
-an open-winged vest~
-You see an Aarakocran-manufacture open-winged vest here.~
+astarsýz yelek~
+astarsýz yelek~
+Astarsýz bir yelek görüyorsun.~
 snakeskin~
 armor 0 AD
 6 5 7 1 1
 16 100 1000 G
 E
-vest~
-This vest has been designed to give proper room for large wing muscles, and
+yelek~
+This yelek has been designed to give proper room for large wing muscles, and
 has holes in the back which are large enough to allow you to put it on and
 take it off without getting your feathers caught.
 ~
 #5671
-boots~
-a pair of open-toe boots~
-You see a pair of Aarakocran-mangufacture boots here.~
+çizme~
+bir çift çizme~
+Bir çift çizme görüyorsun.~
 brass~
 armor 0 AG
 5 6 7 1 1
@@ -1179,21 +1176,21 @@ A
 A
 18 1
 E
-boots~
+çizme~
 These boots have large toe holes, to accommodate large Aarakocran feet.
 ~
 #5672
-lump metal~
-a lump of shiny metal~
-A lump of shiny metal is a good thing to carry around and possess.~
+metal parçasý parlak~
+parlak metal parçasý~
+Parlak bir metal parçasý görüyorsun.~
 iron~
 trash 0 A
 500 0 0 0 0
 5 0 0 G
 #5673
-pick lockpick metal bit~
-a lockpick~
-A L-shaped bit of metal has been left on the ground.~
+kilit açýcý~
+kilit açýcý~
+L þeklinde bir kilit açýcý görüyorsun.~
 steel~
 treasure 0 AO
 0 0 0 0 0
@@ -1201,94 +1198,94 @@ treasure 0 AO
 A
 2 1
 #5674
-bottle alcohol rotgut~
-a bottle of rotgut~
-You are surprised to see a bottle of alcohol out in the open.~
+içki matarasý~
+içki matarasý~
+Ýçi içki dolu bir matara görüyorsun.~
 glass~
 drink 0 A
 8 8 'vodka' 0 0
 10 5 140 G
 #5675
-cracked crystal ball~
-a crystal ball~
-A broken crystal ball has been abandoned here.~
+çatlamýþ kristal küre~
+çatlamýþ kristal küre~
+Çatlamýþ bir kristal küre görüyorsun.~
 glass~
 treasure 0 A
 0 0 0 0 0
 5 12 50 G
 E
-ball~
+çatlamýþ kristal küre~
 You shake the crystal ball, and hold it in front of your eyes.  In a few
 seconds, a small blue tetrahedron floats to the surface.  Written on the face
 of the tetrahedron are the words 'please shake me again'.
 ~
 #5676
-rock~
-a worthless rock~
-A worthless rock that is very important to a lonely kobold rests here.~
+deðersiz kaya~
+deðersiz kaya~
+Deðersiz bir kaya görüyorsun. Kobold olabilir.~
 stone~
 treasure 0 A
 0 0 0 0 0
 1 20 300 G
 E
-rock~
+kaya~
 When you look at the rock, you think of a lonely kobold balling his eyes
 out in some dinghy back room.
 ~
 #5677
-flying helmet~
-a leather flying helmet~
-You see an Aarakocran-manufacture leather flying helmet here.~
+kanatlý miðfer~
+kanatlý miðfer~
+Kanatlý bir miðfer görüyorsun. Ne kadar da güzel!~
 steel~
 armor 0 AE
 5 6 7 3 1
 16 100 1200 G
 E
-helmet~
-This helmet is made of leather and covers the entire face and upper beak.
-Glass protects the eyes while leaving view unobstructed.
+miðfer~
+This miðfer is made of leather and covers the entire face and upper beak.
+cam protects the eyes while leaving view unobstructed.
 ~
 #5678
-wing guards wingguards~
-a pair of tough leather wing guards~
-You see a pair of tough leather wing guards here.~
+kanat koruyucu~
+bir çift kanat koruyucu~
+Bir çift kanat koruyucu görüyorsun.~
 iron~
 armor 0 AI
 5 5 5 3 1
 12 100 400 G
 #5679
-fountain water~
-a fountain~
-A large fountain gushes forth here.~
+çeþme su~
+çeþme~
+Büyük bir çeþme görüyorsun.~
 marble~
 fountain G 0
 100000 10000 'milk' 0 0
 0 0 0 P
 #5680
-cannon tube~
-a cannon~
-A mysterious thick metal tube rests here.~
+kalýn metal deðnek~
+kalýn metal deðnek~
+Kalýn metalden bir deðnek görüyorsun.~
 steel~
 wand 0 AO
 50 1 1 'high explosive' 0
 20 12 34570 G
 E
-tube cannon~
+kalýn metal deðnek~
 The revolutionary is experimenting with gunpowder from the far east, in an
-attempt to create a 'super weapon'.
+attempt to create a 'super silah'.
 ~
 #5681
-skin waterskin~
-a water skin~
-A soggy leather skin looks like it might hold water.~
+su matarasý~
+su matarasý~
+Bir su matarasý görüyorsun.~
 leather~
 drink 0 A
 100 100a'water' 0 0
 2 30 400 G
 #5682
-bug glowbug chitin~
-a dead glowbug~
-You see the shiny chitin of a dead glowbug.~
+ölü ateþ böceði~
+ölü ateþ böceði~
+Ölmüþ bir ateþ böceði görüyorsun. Hala ýþýldýyor!~
 gut~
 light G A
 0 0 80 0 0
@@ -1298,7 +1295,7 @@ light G A
 
 #ROOMS
 #5600
-Flying~
+Havada~
 Ahh; to be in the air again, unencumbered by the cares of the material world
 and flying free above all other creatures.  You sense that the wind patterns
 are shifting, something very strange is going on below.
@@ -1315,10 +1312,10 @@ mill about and the wind seems rather strange.~
 0 -1 9258
 S
 #5601
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D1
@@ -1331,10 +1328,10 @@ D5
 0 -1 5602
 S
 #5602
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D1
@@ -1351,7 +1348,7 @@ D4
 0 -1 5601
 S
 #5603
-The Taxidermist's Gallery~
+Hayvan Doldurma Galerisi~
 You gape in amazement at how incredibly lifelike some of the stuffed animals
 and trophies appear.
 ~
@@ -1363,7 +1360,7 @@ You see the sales counter.
 0 -1 5616
 S
 #5604
-Temple of the Rising Sun~
+Yükselen Güneþ Tapýnaðý~
 You stand in a huge temple hewn directly from the cliff wall.  Giant murals
 depict fierce Aarakocran warriors flying into battle on the tails of
 whirlwinds.  There is a small plaque at eye level.
@@ -1380,8 +1377,8 @@ You see the private chambers of the Chief shaman.
 ~
 0 -1 5699
 D2
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5653
@@ -1409,7 +1406,7 @@ a sick bunch.
 ~
 S
 #5699
-Shaman's private chambers~
+Þaman'ýn Özel Odalarý~
 You stand in a holy room.  The walls are covered with astrological symbols,
 calendars, and star charts.
    In the center of the room is a huge mosaic, made of thousands of bits of
@@ -1429,7 +1426,7 @@ what heaven must be like.
 ~
 S
 #5608
-The Dump~
+Çöplük~
 Wait, this isn't the dump!  Behind all of this mess is a beaten up table.
 You see a lot of things, but nothing here is very pretty or very shiny, and you
 decide to leave.
@@ -1446,7 +1443,7 @@ to game!
 ~
 S
 #5609
-Runed stall~
+Rünlü Tezgah~
 This stall is painted with strange gold runes, such as triangles and eyes.
 ~
 0 0 1
@@ -1464,7 +1461,7 @@ D5
 0 -1 5616
 S
 #5610
-A Food vendor's stall~
+Yiyecek Tezgahý~
 You stand before a brightly colored stall.  Small animals and large insects
 are hanging from racks all around you.
 ~
@@ -1483,7 +1480,7 @@ D5
 0 -1 5617
 S
 #5611
-Top of Market Square~
+Market Meydanýnýn Ortasý~
 You stand in the middle of a huge bazaar.  There are stalls to the West and
 East.  A staircase has been built out of sandstone leading down, and you see
 some more stalls down there.  If you attempt to go South you will fall off the
@@ -1495,8 +1492,8 @@ D1
 ~
 0 -1 5612
 D2
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5660
@@ -1514,7 +1511,7 @@ D5
 0 -1 5618
 S
 #5612
-A Food vendor's stall~
+Yiyecek Tezgahý~
 You stand before a drab colored stall.  Small animals and large insects are
 hanging from racks all around you.
 ~
@@ -1525,8 +1522,8 @@ You see the warrior's guild.
 ~
 0 -1 5613
 D2
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5661
@@ -1540,7 +1537,7 @@ D5
 0 -1 5619
 S
 #5613
-Warrior's guild~
+Savaþçý Loncasý~
 This building has no exit to the south, as the warriors do not like having
 their privacy violated.  You see lots of equipment to practice with, and a
 huge set of weights.
@@ -1556,7 +1553,7 @@ D5
 0 -1 5620
 S
 #5616
-The Taxidermy Stand~
+Hayvan Doldurma Tezgahý~
 The first thing you notice about the taxidermy shop is the odor of tanned
 hides.
 
@@ -1578,8 +1575,8 @@ D1
 ~
 0 -1 5617
 D2
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5665
@@ -1594,7 +1591,7 @@ D4
 0 -1 5609
 S
 #5617
-Armory stall~
+Zýrh Tezgahý~
 There is a large, battered anvil here and a bunch of little bits of metal
 and bronze.  Most of what the armorer is selling looks pretty old, but you
 stop to ask if he has anything newer under the counter.
@@ -1605,8 +1602,8 @@ D1
 ~
 0 -1 5618
 D2
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5666
@@ -1620,7 +1617,7 @@ D4
 0 -1 5610
 S
 #5618
-Bottom of Market Square~
+Market Meydanýnýn Alt Kesimi~
 You are at the bottom of the market square.  Stalls continue to your East
 and West, while dwellings lie to the Down.  To the South, you see a (Glowing)
 (Shimmering) (Pulsating) blue ball, about 10' across, hovering in the air.
@@ -1654,7 +1651,7 @@ sure...
 0 -1 5625
 S
 #5619
-A jeweler's stall~
+Mücevher Tezgahý~
 You stand in front of a big beautiful bird with bright plumage.  The stall
 is painted in bright colors and features a mural of fierce bird warriors
 attacking a dragon sitting on a huge pile of gold and gems.
@@ -1674,7 +1671,7 @@ D4
 0 -1 5612
 S
 #5620
-The Weaponsmith's stall~
+Silah Tezgahý~
 This stall looks like it has expended very rapidly, and has almost become a
 shop.  It doesn't look like the weaponsmith couldn't take down the stall very
 easily, as he has installed a blast furnace, a grinding wheel, and some forging
@@ -1692,7 +1689,7 @@ You see the Warrior's guild.
 0 -1 5613
 S
 #5621
-A stone dwelling~
+Taþ Ýkametgah~
 You are inside a large building constructed from standstone and mortar.  There
 is a latrine in the southeast corner.
 ~
@@ -1703,7 +1700,7 @@ D1
 0 -1 5623
 S
 #5622
-A Guard Shack~
+Muhafýz Kulübesi~
 You see a small wooden shack before you.  It doesn't look very well designed
 to you.  There is a big sign in front of the shack.  The sign is covered with
 what you consider chicken scratchings.
@@ -1716,7 +1713,7 @@ You see a temple.
 0 -1 5604
 S
 #5623
-A stone dwelling~
+Taþ Ýkametgah~
 You are inside a large building constructed from standstone and mortar.  There
 is a latrine in the southeast corner.
 ~
@@ -1726,8 +1723,8 @@ D1
 ~
 0 -1 5624
 D2
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5672
@@ -1737,7 +1734,7 @@ D3
 0 -1 5621
 S
 #5624
-A stone dwelling~
+Taþ Ýkametgah~
 You are inside a large building constructed from standstone and mortar.  There
 is a latrine in the southeast corner.
 ~
@@ -1747,8 +1744,8 @@ D1
 ~
 0 -1 5625
 D2
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5673
@@ -1758,7 +1755,7 @@ D3
 0 -1 5623
 S
 #5625
-Town Square~
+Þehir Meydaný~
 You stand in the middle of the Town Square.  Stone dwellings lie to the East
 and West, and the Bazaar lies to the Up.  There is a path to the Down.  There
 is nothing to the South.
@@ -1769,8 +1766,8 @@ D1
 ~
 0 -1 5626
 D2
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5674
@@ -1791,7 +1788,7 @@ see some wicked, jagged crags through a part in the clouds below.
 0 -1 5632
 S
 #5626
-A stone dwelling~
+Taþ Ýkametgah~
 You are inside a large building constructed from sandstone and mortar on the
 south wall, and using the north face of the canyon as the north wall.
 ~
@@ -1801,8 +1798,8 @@ D1
 ~
 0 -1 5627
 D2
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5675
@@ -1812,7 +1809,7 @@ D3
 0 -1 5625
 S
 #5627
-A stone dwelling~
+Taþ Ýkametgah~
 You are inside a large building constructed from sandstone and mortar on the
 south wall, and using the north face of the canyon as the north wall.
 ~
@@ -1827,7 +1824,7 @@ D5
 0 -1 5634
 S
 #5630
-On the north cliff face~
+Uçurumun Kuzeyi~
 It looks like you could slide back on your belly a bit to the East, but
 forget about going West, it's much to steep.  There is a little bit of level
 ground Down from here, but there is no way you could reach it.  You see the
@@ -1840,14 +1837,14 @@ D1
 ~
 0 -1 5631
 D2
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5679
 S
 #5631
-The Shanty town~
+Kulübeler~
 You are in an area of straw huts constructed by the less prosperous
 Aarakocrans in a vain attempt to emulate the stone buildings to the Up.  These
 structures do not have the natural permanence of the well built buildings or
@@ -1856,8 +1853,8 @@ together.
 ~
 0 0 5
 D2
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5680
@@ -1871,15 +1868,15 @@ D5
 0 -1 5638
 S
 #5632
-A rough stone path~
+Taþ Yol~
 You are on a rough stone path on the north cliff face.  Your passage East and
 West is blocked, but you may still move Up and Down.  There is nothing to the
 south.
 ~
 0 0 5
 D2
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5681
@@ -1893,7 +1890,7 @@ D5
 0 -1 5639
 S
 #5633
-Thieves guild~
+Hýrsýzlar Loncasý~
 The thieves guild is pretty small, as most thieves have left the city for
 bigger and better booties, but the recent prosperity of the shopkeepers has
 caused operations to begin expanding again.
@@ -1965,7 +1962,7 @@ WALK INTO AN AGGRESSIVE AREA stealthily.  Use invisibility for this...
 ~
 S
 #5634
-On the north cliff face~
+Uçurumun Kuzeyi~
 You can easily climb up to a stone building built into the shelf above you.
 You *might* be able to go down, but I wouldn't try it...
 ~
@@ -1983,7 +1980,7 @@ around a large animal about 2000' feet down...
 0 -1 5641
 S
 #5635
-On the north cliff face~
+Uçurumun Kuzeyi~
 You are standing on a part of the cliff that is at about a 45% angle.  You
 can stay here as long as you want.  You are glad sandstone is a very strong
 and sturdy geological formation.
@@ -1997,7 +1994,7 @@ D5
 0 -1 5642
 S
 #5636
-Small level area on the cliff face~
+Uçurumun Kenarýndaki Küçük Düzlük~
 You stand on a small level area on the cliff face.  Better stay here, it
 looks like a single step in any direction would leave you heading down at a
 rapid speed.  The good news is that the cliff is so steep here you would
@@ -2005,14 +2002,14 @@ probably survive your fall all the way to the bottom far below...
 ~
 0 0 5
 D2
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5685
 S
 #5637
-On the north cliff face~
+Uçurumun Kuzeyi~
 The view from up here is quite breathtaking.  You can see down for at least
 half a mile.  You wish to stay here and soak up nature's beauty almost as much
 as the last guy who stopped here, and he left claw marks for at least 50' down
@@ -2020,8 +2017,8 @@ the side of the crag.  You wave at his bones below and commend his good taste.
 ~
 0 0 5
 D2
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5686
@@ -2031,7 +2028,7 @@ D5
 0 -1 5644
 S
 #5638
-The Shanty town~
+Kulübeler~
 You are in an area of straw huts constructed by the less prosperous
 Aarakocrans in a vain attempt to emulate the stone buildings to the Up.  These
 structures do not have the natural permanence of the well built buildings or
@@ -2040,8 +2037,8 @@ together.
 ~
 0 0 5
 D2
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5687
@@ -2051,7 +2048,7 @@ D4
 0 -1 5631
 S
 #5639
-Bend in the path~
+Yol Bükümü~
 Actually more of a natural feature of the north cliff wall than a path, this
 bend allows you to leave Up or continue East.  There is nothing to the South.
 ~
@@ -2061,8 +2058,8 @@ D1
 ~
 0 -1 5640
 D2
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5688
@@ -2072,7 +2069,7 @@ D4
 0 -1 5632
 S
 #5640
-The Shanty town~
+Kulübeler~
 You are in an area of straw huts constructed by the less prosperous
 Aarakocrans in a vain attempt to emulate the stone buildings to the Up.  These
 structures do not have the natural permanence of the well built buildings or
@@ -2094,8 +2091,8 @@ D1
 ~
 0 -1 5641
 D2
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5689
@@ -2105,7 +2102,7 @@ D3
 0 -1 5639
 S
 #5641
-The Shanty town~
+Kulübeler~
 You are in an area of straw huts constructed by the less prosperous
 Aarakocrans in a vain attempt to emulate the stone buildings to the Up.  These
 structures have neither the natural permanence of the well built buildings or
@@ -2123,7 +2120,7 @@ D5
 0 -1 5648
 S
 #5642
-On the north cliff face~
+Uçurumun Kuzeyi~
 The vegetation has thinned out here and you can't see much of anything
 except stone.  You way is blocked to the West, but you can continue East.
 There is nothing to the south.
@@ -2139,7 +2136,7 @@ D4
 0 -1 5635
 S
 #5643
-A primitive area~
+Ýlkel Bölge~
 You feel a sense of stepping into another time.  All around you are
 traditional family nests which look warm and friendly.  There is none of the
 hustle and bustle of the sprawling city to the north.  You wish things looked a
@@ -2162,7 +2159,7 @@ areas below this ledge.
 0 -1 -1
 S
 #5644
-A primitive area~
+Ýlkel Bölge~
 You feel a sense of stepping into another time.  All around you are
 traditional family nests which look warm and friendly.  There is none of the
 hustle and bustle of the sprawling city to the north.  You wish things looked a
@@ -2189,7 +2186,7 @@ areas below this ledge.
 0 -1 -1
 S
 #5645
-A narrow area on the shelf~
+Kayalýkta Dar Bölge~
 The shelf here is too narrow to place anything upon.  In fact, it is about
 as wide as your feet.  Your arm is holding on to the cliff face to the north.
 You feel much more secure than the last guy who tried to walk here, and you can
@@ -2213,7 +2210,7 @@ attempt to land upon.
 0 -1 -1
 S
 #5646
-A primitive area~
+Ýlkel Bölge~
 You feel a sense of stepping into another time.  All around you are
 traditional family nests which look warm and friendly.  There is none of the
 hustle and bustle of the sprawling city to the north.  You wish things looked a
@@ -2236,7 +2233,7 @@ areas below this ledge.
 0 -1 -1
 S
 #5647
-A primitive area~
+Ýlkel Bölge~
 You feel a sense of stepping into another time.  All around you are
 traditional family nests which look warm and friendly.  There is none of the
 hustle and bustle of the sprawling city to the north.  You wish things looked a
@@ -2259,7 +2256,7 @@ areas below this ledge.
 0 -1 -1
 S
 #5648
-A narrow area on the shelf~
+Kayalýkta Dar Bölge~
 You can walk West on the a small shelf in the cliff wall, but you are
 blocked to the East, and Down is much too steep.  There is nothing to the
 South.  You can probably get back up if the tree limb you are holding on to
@@ -2286,10 +2283,10 @@ firey demise, but you really aren't worth the trouble.)
 0 -1 -1
 S
 #5653
-Flying in the canyon 40 yards south of the temple~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You feel proud to be an Aarakocran,
-and you catch a new thermal...
+Tapýnaðýn Güneyinde Havada Süzülürken~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. You feel proud to be an Aarakocran, and you
+catch a new thermal...
 ~
 0 0 9
 D0
@@ -2307,10 +2304,10 @@ D5
 0 -1 5660
 S
 #5660
-Flying in the canyon 40 yards south of the market square~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You feel proud to be an Aarakocran,
-and you catch a new thermal...
+Market Meydanýnýn Güneyinde Havada Süzülürken~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. You feel proud to be an Aarakocran, and you
+catch a new thermal...
 ~
 0 0 9
 D0
@@ -2332,10 +2329,10 @@ D5
 0 -1 5667
 S
 #5661
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D0
@@ -2348,10 +2345,10 @@ D3
 0 -1 5660
 S
 #5664
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D1
@@ -2364,10 +2361,10 @@ D5
 0 -1 5671
 S
 #5665
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D0
@@ -2388,10 +2385,10 @@ D5
 0 -1 5672
 S
 #5666
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D0
@@ -2412,10 +2409,10 @@ D5
 0 -1 5673
 S
 #5667
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D3
@@ -2432,10 +2429,10 @@ D5
 0 -1 5674
 S
 #5671
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D0
@@ -2460,10 +2457,10 @@ D5
 0 -1 5678
 S
 #5672
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D0
@@ -2492,10 +2489,10 @@ D5
 0 -1 5679
 S
 #5673
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D0
@@ -2524,10 +2521,10 @@ D5
 0 -1 5680
 S
 #5674
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D0
@@ -2556,10 +2553,10 @@ D5
 0 -1 5681
 S
 #5675
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D0
@@ -2580,10 +2577,10 @@ D5
 0 -1 5682
 S
 #5678
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D1
@@ -2604,10 +2601,10 @@ D5
 0 -1 5685
 S
 #5679
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D0
@@ -2632,10 +2629,10 @@ D5
 0 -1 5686
 S
 #5680
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D0
@@ -2660,10 +2657,10 @@ D5
 0 -1 5687
 S
 #5681
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D0
@@ -2688,10 +2685,10 @@ D5
 0 -1 5688
 S
 #5682
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D3
@@ -2708,10 +2705,10 @@ D5
 0 -1 5689
 S
 #5685
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D0
@@ -2736,10 +2733,10 @@ D4
 0 -1 5678
 S
 #5686
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D0
@@ -2760,10 +2757,10 @@ D4
 0 -1 5679
 S
 #5687
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D0
@@ -2784,10 +2781,10 @@ D4
 0 -1 5680
 S
 #5688
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D0
@@ -2808,10 +2805,10 @@ D4
 0 -1 5681
 S
 #5689
-Flying~
-Ahh; to be in the air again, unencumbered by the cares of the material world
-and flying free above all other creatures.  You stop paying attention to your
-location and adventuring ceases to interest you.
+Havada~
+Ah, tekrar havada olabilmek ne kadar güzel. Maddi dünyayý geride býrakýp
+herþeyin üzerinde uçabilmek. Böyle bir yerde kim umursar ki gereklilikleri?
+Düþüncelerinin sakin, ruhun rahat...
 ~
 0 0 9
 D0
@@ -2828,7 +2825,7 @@ D4
 0 -1 5682
 S
 #5605
-Small ledge on the South cliff face~
+Uçurumun Güneyinde Küçük Çýkýntý~
 You are standing on a small ledge on the South face of the cliff.  There is
 nothing to the North, and you are totally blocked on all sides by steep cliff
 walls.
@@ -2850,15 +2847,15 @@ roll down the cliff if something really big and nasty was coming up at you.
 ~
 S
 #5606
-Cave Entrance~
+Maðara Giriþi~
 There is a large cave entrance to the South, and you can walk East along a
 narrow ledge.  There is nothing to the North.
    There is some (Flaming) writing on the cave entrance.
 ~
 0 C 5
 D0
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5671
@@ -2887,14 +2884,14 @@ level 20, even in groups...                   --Slash
 ~
 S
 #5607
-On the south cliff face~
+Uçurumun Güneyi~
 You are walking on a narrow East-West ledge on the south face of a steep
 cliff.  There is nothing to the North.
 ~
 0 0 5
 D0
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5672
@@ -2908,14 +2905,14 @@ D3
 0 -1 5606
 S
 #5614
-On the south cliff face~
+Uçurumun Güneyi~
 You are walking on a narrow East-West ledge on the south face of a steep
 cliff.  There is nothing to the North.
 ~
 0 0 5
 D0
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5673
@@ -2929,14 +2926,14 @@ D3
 0 -1 5607
 S
 #5615
-On the south cliff face~
+Uçurumun Güneyi~
 You are walking on a narrow East-West ledge on the south face of a steep
 cliff.  There is nothing to the North.
 ~
 0 0 5
 D0
-You see the freedom of the air!  Ah, to soar again, free of all your cares
-gliding on thermals above the clouds...
+Yükseklerdeki özgürlüðü görüyorsun. Havada süzülmenin dayanýlmaz
+arzusu ruhunu kavuruyor. Bulutlarýn üzerini düþlüyorsun...
 ~
 ~
 0 -1 5674
@@ -2950,7 +2947,7 @@ D3
 0 -1 5614
 S
 #5628
-On the south cliff face~
+Uçurumun Güneyi~
 You are at the end of a narrow ledge on the south face of a steep cliff.
 You are blocked to the East, but the West looks passable.   There is nothing to
 the North.
@@ -2966,7 +2963,7 @@ D3
 0 -1 5615
 S
 #5629
-Inside the stronghold~
+Kalede~
 The inside of this cave has been straightened into a passable corridor.
 The Aarakocran high command uses this cave to handle defense of the valley as
 the south face of the valley is not reachable except from the air.
@@ -2984,13 +2981,13 @@ D1
 ~
 0 -1 5649
 D5
-It looks like there might be some very nice things down there.
+Aþaðýda güzel þeyler olabilir.
 ~
 ~
 0 -1 5690
 S
 #5649
-Inside the stronghold~
+Kalede~
 You wonder where all the valuables are kept.  You see some nice tapestries
 around, but nothing you can take home with you.
 ~
@@ -3004,13 +3001,13 @@ D3
 ~
 0 -1 5629
 D5
-It looks like there might be some very nice things down there.
+Aþaðýda güzel þeyler olabilir.
 ~
 ~
 0 -1 5691
 S
 #5650
-Inside the stronghold~
+Kalede~
 You wonder where all the valuables are kept.  You see some nice tapestries
 around, but nothing you can take home with you.
 ~
@@ -3024,13 +3021,13 @@ D3
 ~
 0 -1 5649
 D5
-It looks like there might be some very nice things down there.
+Aþaðýda güzel þeyler olabilir.
 ~
 ~
 0 -1 5692
 S
 #5651
-Inside the stronghold~
+Kalede~
 You wonder where all the valuables are kept.  You see some nice tapestries
 around, but nothing you can take home with you.
 ~
@@ -3044,13 +3041,13 @@ D3
 ~
 0 -1 5650
 D5
-It looks like there might be some very nice things down there.
+Aþaðýda güzel þeyler olabilir.
 ~
 ~
 0 -1 5693
 S
 #5652
-Inside the stronghold~
+Kalede~
 You wonder where all the valuables are kept.  You see some nice tapestries
 around, but nothing you can take home with you.  The corridor dead ends here.
 ~
@@ -3061,7 +3058,7 @@ D3
 0 -1 5651
 S
 #5662
-Small ledge on the South cliff face~
+Uçurumun Güneyinde Küçük Çýkýntý~
 You are standing on a small ledge on the South face of the cliff.  There is
 nothing to the North, and you are totally blocked on all sides by steep cliff
 walls.
@@ -3073,7 +3070,7 @@ D0
 0 -1 5653
 S
 #5690
-Planning Room~
+Plan Odasý~
 It doesn't look like there are any valuables here.  You don't understand how
 anyone could plan anything without nice things around to bring peace and
 comfort.
@@ -3085,7 +3082,7 @@ D4
 0 -1 5629
 S
 #5691
-War Room~
+Savaþ Odasý~
 It doesn't look like there are any valuables here.  You don't understand how
 anyone could fight anyone without nice things around to bring peace and
 comfort.
@@ -3097,7 +3094,7 @@ D4
 0 -1 5649
 S
 #5692
-Empty Room~
+Boþ Oda~
 It doesn't look like there are any valuables here.
 ~
 0 D 1
@@ -3107,7 +3104,7 @@ D4
 0 -1 5650
 S
 #5693
-Walkway~
+Önemsiz~
 It doesn't look like there are any valuables here.
 ~
 0 8 1
@@ -3121,7 +3118,7 @@ D5
 0 -1 5696
 S
 #5694
-Captain of the Guard's office~
+Muhafýz Yüzbaþýsý'nýn Ofisi~
 It doesn't look like there are any valuables here.  You don't understand how
 anyone could work without nice things around to bring peace and comfort.
 ~
@@ -3132,7 +3129,7 @@ D1
 0 -1 5695
 S
 #5695
-Secretary's Office~
+Sekreterin Ofisi~
 It doesn't look like there are any valuables here.  You don't understand how
 anyone could work without nice things around to bring peace and comfort.
 ~
@@ -3157,7 +3154,7 @@ to let you escape...
 ~
 S
 #5696
-Three way intersection~
+Üçlü Kesiþim~
 You see a very nice carpet leading off to the West, and a hole leads Down.
 To leave the cave complex, go Up.
 ~
@@ -3180,7 +3177,7 @@ D5
 0 -1 5697
 S
 #5697
-Storage room~
+Depo Odasý~
 Strangely, this 'storage room' seems to be full of boxes of drab colored
 equipment and bland seed rations.  You wonder why they call it a storage room
 if they are not storing anything really valuable here.
@@ -3192,7 +3189,7 @@ D4
 0 -1 5696
 S
 #5698
-Corridor~
+Koridor~
 This corridor looks frequently traveled, so you hunch down and try to look
 inconspicuous.
 ~
@@ -3210,7 +3207,7 @@ avoiding this area and turning around right now.
 0 -1 5684
 S
 #5684
-Corridor~
+Koridor~
 This corridor looks frequently traveled, so you hunch down and try to look
 inconspicuous.
 ~
@@ -3225,10 +3222,10 @@ D3
 0 -1 5698
 S
 #5663
-Confusing Corridor~
-This corridor splits into two sections heading N and E, both sections look
-equally interesting and you have a hard time making up your mind.  It is
-obvious from your footprints that W leads out of this confusing area.
+Karmaþýk Koridor~
+Koridor kuzeye ve doðuya ayrýlýyor. Ne kuzeyde ne de doðuda enteresan birþey
+farkedemiyorsun. Sanýrým bir süre düþünmen gerekecek... Anlaþýlan o ki batý
+seni bu karmaþýk yerden çýkartacaktýr.
 ~
 0 D 1
 D0
@@ -3245,10 +3242,10 @@ D3
 0 -1 5684
 S
 #5676
-Confusing Corridor~
-This corridor splits into two sections heading N and E, both sections look
-equally interesting and you have a hard time making up your mind.  It is
-obvious from your footprints that W leads out of this confusing area.
+Karmaþýk Koridor~
+Koridor kuzeye ve doðuya ayrýlýyor. Ne kuzeyde ne de doðuda enteresan birþey
+farkedemiyorsun. Sanýrým bir süre düþünmen gerekecek... Anlaþýlan o ki batý
+seni bu karmaþýk yerden çýkartacaktýr.
 ~
 0 D 1
 D0
@@ -3265,10 +3262,10 @@ D4
 0 -1 5663
 S
 #5677
-Confusing Corridor~
-This corridor splits into two sections heading N and E, both sections look
-equally interesting and you have a hard time making up your mind.  It is
-obvious from your footprints that W leads out of this confusing area.
+Karmaþýk Koridor~
+Koridor kuzeye ve doðuya ayrýlýyor. Ne kuzeyde ne de doðuda enteresan birþey
+farkedemiyorsun. Sanýrým bir süre düþünmen gerekecek... Anlaþýlan o ki batý
+seni bu karmaþýk yerden çýkartacaktýr.
 ~
 0 D 1
 D0
@@ -3285,10 +3282,10 @@ D3
 0 -1 5663
 S
 #5654
-Confusing Corridor~
-This corridor splits into two sections heading N and E, both sections look
-equally interesting and you have a hard time making up your mind.  It is
-obvious from your footprints that W leads out of this confusing area.
+Karmaþýk Koridor~
+Koridor kuzeye ve doðuya ayrýlýyor. Ne kuzeyde ne de doðuda enteresan birþey
+farkedemiyorsun. Sanýrým bir süre düþünmen gerekecek... Anlaþýlan o ki batý
+seni bu karmaþýk yerden çýkartacaktýr.
 ~
 0 D 1
 D0
@@ -3305,10 +3302,10 @@ D4
 0 -1 5676
 S
 #5655
-Confusing Corridor~
-This corridor splits into two sections heading N and E, both sections look
-equally interesting and you have a hard time making up your mind.  It is
-obvious from your footprints that W leads out of this confusing area.
+Karmaþýk Koridor~
+Koridor kuzeye ve doðuya ayrýlýyor. Ne kuzeyde ne de doðuda enteresan birþey
+farkedemiyorsun. Sanýrým bir süre düþünmen gerekecek... Anlaþýlan o ki batý
+seni bu karmaþýk yerden çýkartacaktýr.
 ~
 0 D 1
 D0
@@ -3325,10 +3322,10 @@ D3
 0 -1 5676
 S
 #5656
-Confusing Corridor~
-This corridor splits into two sections heading N and E, both sections look
-equally interesting and you have a hard time making up your mind.  It is
-obvious from your footprints that W leads out of this confusing area.
+Karmaþýk Koridor~
+Koridor kuzeye ve doðuya ayrýlýyor. Ne kuzeyde ne de doðuda enteresan birþey
+farkedemiyorsun. Sanýrým bir süre düþünmen gerekecek... Anlaþýlan o ki batý
+seni bu karmaþýk yerden çýkartacaktýr.
 ~
 0 D 1
 D0
@@ -3345,10 +3342,10 @@ D4
 0 -1 5677
 S
 #5657
-Confusing Corridor~
-This corridor splits into two sections heading N and E, both sections look
-equally interesting and you have a hard time making up your mind.  It is
-obvious from your footprints that W leads out of this confusing area.
+Karmaþýk Koridor~
+Koridor kuzeye ve doðuya ayrýlýyor. Ne kuzeyde ne de doðuda enteresan birþey
+farkedemiyorsun. Sanýrým bir süre düþünmen gerekecek... Anlaþýlan o ki batý
+seni bu karmaþýk yerden çýkartacaktýr.
 ~
 0 D 1
 D3
@@ -3357,10 +3354,10 @@ D3
 0 -1 5677
 S
 #5658
-Confusing Corridor~
-This corridor splits into two sections heading N and E, both sections look
-equally interesting and you have a hard time making up your mind.  It is
-obvious from your footprints that W leads out of this confusing area.
+Karmaþýk Koridor~
+Koridor kuzeye ve doðuya ayrýlýyor. Ne kuzeyde ne de doðuda enteresan birþey
+farkedemiyorsun. Sanýrým bir süre düþünmen gerekecek... Anlaþýlan o ki batý
+seni bu karmaþýk yerden çýkartacaktýr.
 ~
 0 D 1
 D4
@@ -3369,10 +3366,10 @@ D4
 0 -1 5654
 S
 #5659
-Confusing Corridor~
-This corridor splits into two sections heading N and E, both sections look
-equally interesting and you have a hard time making up your mind.  It is
-obvious from your footprints that W leads out of this confusing area.
+Karmaþýk Koridor~
+Koridor kuzeye ve doðuya ayrýlýyor. Ne kuzeyde ne de doðuda enteresan birþey
+farkedemiyorsun. Sanýrým bir süre düþünmen gerekecek... Anlaþýlan o ki batý
+seni bu karmaþýk yerden çýkartacaktýr.
 ~
 0 D 1
 D3
@@ -3381,10 +3378,10 @@ D3
 0 -1 5654
 S
 #5668
-Confusing Corridor~
-This corridor splits into two sections heading N and E, both sections look
-equally interesting and you have a hard time making up your mind.  It is
-obvious from your footprints that W leads out of this confusing area.
+Karmaþýk Koridor~
+Koridor kuzeye ve doðuya ayrýlýyor. Ne kuzeyde ne de doðuda enteresan birþey
+farkedemiyorsun. Sanýrým bir süre düþünmen gerekecek... Anlaþýlan o ki batý
+seni bu karmaþýk yerden çýkartacaktýr.
 ~
 0 D 1
 D4
@@ -3393,10 +3390,10 @@ D4
 0 -1 5655
 S
 #5669
-Confusing Corridor~
-This corridor splits into two sections heading N and E, both sections look
-equally interesting and you have a hard time making up your mind.  It is
-obvious from your footprints that W leads out of this confusing area.
+Karmaþýk Koridor~
+Koridor kuzeye ve doðuya ayrýlýyor. Ne kuzeyde ne de doðuda enteresan birþey
+farkedemiyorsun. Sanýrým bir süre düþünmen gerekecek... Anlaþýlan o ki batý
+seni bu karmaþýk yerden çýkartacaktýr.
 ~
 0 D 1
 D3
@@ -3405,10 +3402,10 @@ D3
 0 -1 5655
 S
 #5670
-Confusing Corridor~
-This corridor splits into two sections heading N and E, both sections look
-equally interesting and you have a hard time making up your mind.  It is
-obvious from your footprints that W leads out of this confusing area.
+Karmaþýk Koridor~
+Koridor kuzeye ve doðuya ayrýlýyor. Ne kuzeyde ne de doðuda enteresan birþey
+farkedemiyorsun. Sanýrým bir süre düþünmen gerekecek... Anlaþýlan o ki batý
+seni bu karmaþýk yerden çýkartacaktýr.
 ~
 0 D 1
 D4
@@ -3417,10 +3414,10 @@ D4
 0 -1 5656
 S
 #5683
-Confusing Corridor~
-This corridor splits into two sections heading N and E, both sections look
-equally interesting and you have a hard time making up your mind.  It is
-obvious from your footprints that W leads out of this confusing area.
+Karmaþýk Koridor~
+Koridor kuzeye ve doðuya ayrýlýyor. Ne kuzeyde ne de doðuda enteresan birþey
+farkedemiyorsun. Sanýrým bir süre düþünmen gerekecek... Anlaþýlan o ki batý
+seni bu karmaþýk yerden çýkartacaktýr.
 ~
 0 D 1
 D3
@@ -3761,4 +3758,3 @@ O 5644 3
 O 5655 3
 S
 #$
-
