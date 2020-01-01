@@ -8,7 +8,7 @@ tr/goblin_kalesi.are
 firetop2.are
 try/buyuk_gerighelm.are
 ofcol2.are
-immort.are
+try/valhalla.are
 tr/selenge.are
 try/haon_dor.are
 ing/arachnos.are
@@ -60,10 +60,10 @@ try/moria.are
 tr/korig.are
 mirkwd2.are
 tr/tehlikeli_semt.are
-group.are
+ing/group.are
 try/kutsal_koru.are
 try/elf_vadisi.are
-help.are
+ing/help.are
 mega1.are
 mirror.are
 sewer.are
@@ -71,12 +71,12 @@ try/goblin_kavmi.are
 tr/peri_cemberi.are
 tr/arbaini.are
 tr/bataklik.are
-newthalos.are
+ing/newthalos.are
 tr/ofcol.are
 tr/kufal_kosku.are
 tr/redferne.are
-anatolia.are
-social.are
+ing/anatolia.are
+ing/social.are
 tr/aslan.are
 tr/tuze.are
 try/sovalye_kalesi.are
