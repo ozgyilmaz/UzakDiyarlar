@@ -1,7 +1,7 @@
-#AREA 
-RiverSpirit.are~ 
-River of spirits.~ 
-{50 110} RM River of spirits~
+#AREA
+ruhlar_nehri.are~
+Ruhlar Nehri~
+{50 110} RM Ruhlar Nehri~
 20000 20099
 
 #HELPS
@@ -14,9 +14,9 @@ Special thanx to Serdar & Anatolia Consortium~
 #OBJECTS
 
 #20066
-gloves fire ancient~
-a pair of flaming ancient gloves~
-A pair of flaming gloves is burning on the ground.~
+eldivenler ateþ alev kadim~
+bir çift alevden kadim eldiven~
+Bir çift alevden eldiven yerde yanýyor.~
 fire~
 armor 0 AH
 36 42 42 30 30
@@ -31,96 +31,96 @@ A
 
 
 #20070
-scroll ywln~
-a scroll ywln~
-A rolled ywln is here.~
+parþömen ywln~
+ywln adlý bir parþömen~
+Katlanmýþ haldeki bir parþömen burada.~
 vellum~
 scroll G AO
 48 'bless' 'invis' 'cure light' ''
 46 10 8520 P
 E
-scroll~
+parþömen~
 Just try to recite it and see what happen.
 ~
 
 #20072
-paper white~
-a white paper~
-A rolled paper is here.~
+beyaz kaðýt~
+beyaz bir kaðýt~
+Rulo halinde bir kaðýt burada.~
 vellum~
 scroll G AO
 55 'acid blast' 'burning hands' '' ''
 41 10 12100 P
 E
-scroll~
+parþömen~
 Just try to recite it and see what happen.
 ~
 
 #20073
-paper red~
-a red paper~
-A rolled paper is here.~
+kýrmýzý kaðýt~
+kýrmýzý bir kaðýt~
+Rulo halinde bir kaðýt burada.~
 vellum~
 scroll G AO
 55 'fireball' 'lightning ball' '' ''
 45 10 11100 P
 E
-scroll~
+parþömen~
 Just try to recite it and see what happen.
 ~
 
 #20074
-paper green~
-a green paper~
-A rolled paper is here.~
+kaðýt yeþil~
+yeþil bir kaðýt~
+Rulo halinde bir kaðýt burada.~
 vellum~
 scroll G AO
 45 'sleep' 'curse' 'weaken' 'blind'
 42 10 15900 P
 E
-scroll~
+parþömen~
 Just try to recite it and see what happen.
 ~
 
 #20075
-paper cyan~
-a cyan paper~
-A rolled paper is here.~
+kaðýt koyum mavi~
+koyu mavi bir kaðýt~
+Rulo halinde bir kaðýt burada.~
 vellum~
 scroll G AO
 45 'gas breath' '' '' ''
 40 10 20100 P
 E
-scroll~
+parþömen~
 Just try to recite it and see what happen.
 ~
 
 
 
 #20010
-cloud~
-an energy cloud~
-An energy cloud is resting here.
+bulut~
+bir enerji bulutu~
+Bir enerji bulutu burada dinleniyor.
 ~
 ice~
 wand G AO
-72 10 10 'lightning breath' 0 
+72 10 10 'lightning breath' 0
 77 2 19900 P
 
 #20071
-cloud~
-an energy cloud~
-An energy cloud is resting here.
+bulut~
+bir enerji bulutu~
+Bir enerji bulutu burada dinleniyor.
 ~
 ice~
 wand G AO
-50 15 15 'lightning breath' 0 
+50 15 15 'lightning breath' 0
 55 2 28000 P
 
 #20002
-flame dragon~
-flame of a dragon~
-A very bright , continues flame.~
+alev ejderha nefes~
+bir ejderhanýn alevden nefesi~
+Çok parlak, sürekli bir alev..~
 fire~
 light AG A
 0 0 -1 0 0
@@ -134,9 +134,9 @@ A
 A
 24 -5
 #20001
-whip fear dragon~
-fear of a lost dragon~
-A whip shaped form of fear lies here.~
+kýrbaç dehþet ejderha~
+kayýp bir ejderhanýn dehþeti~
+Kýrbaç þekline bürünmüþ bir dehþet parçacýðý burada uzanýyor.~
 none~
 weapon M AN
 whip 20 6 whip DCE
@@ -149,11 +149,10 @@ A
 13 220
 A
 18 15
-A 
+A
 19 15
 A
 24 -10
-
 
 #0
 
@@ -163,9 +162,9 @@ A
 
 
 #20080
-ancient wizard~
-the ancient wizard~
-An old man walks around, talking to himself.
+kadim büyücü~
+kadim büyücü~
+Yaþlý bir adam kendi kendine konuþarak etrafta dolanýyor.
 ~
 He is old, despite being old he looks strong and wise.
 ~
@@ -179,9 +178,9 @@ stand stand male 15000
 
 
 #20014
-demon ice~
-an ice demon~
-An ice demon is here resting.
+iblis buz~
+bir buz iblisi~
+Bir buz iblisi burada dinleniyor.
 ~
    Brrr.. you fell cold as you look at his face.
 ~
@@ -195,9 +194,9 @@ ABCDEFG 0 medium 0
 
 
 #20015
-lost demon~
-a lost demon~
-A lost demon is here looking for his way.
+kaybolmuþ iblis~
+kaybolmuþ bir iblis~
+Kaybolmuþ bir iblis burada yolunu bulmaya çalýþýyor.
 ~
    He is lost looking for the way his home.You should help him if he did
 not grin evilly at you.Better keep your distanse.
@@ -211,9 +210,9 @@ stand stand male 5000
 ABCDEFG 0 medium 0
 
 #20016
-demon angry~
-an angry demon~
-An angry demon is here looking for a victom.
+iblis kýzgýn~
+kýzgýn bir iblis~
+Kýzgýn bir iblis burada kendisine bir kurban arýyor.
 ~
   Angry very angry, wispering something buy you can not understand what he
 says sumone must have disturbed him, he will probubly will revange first
@@ -228,9 +227,9 @@ stand stand male 5000
 ABCDEFG 0 medium 0
 
 #20017
-demon fire~
-a fire demon~
-A fire demon is here playing with lava.
+iblis ateþ~
+bir ateþ iblisi~
+Bir ateþ iblisi burada lavlarla oynuyor.
 ~
   He is burning , flames surround him.
 ~
@@ -243,9 +242,9 @@ stand stand male 5000
 ABCDEFG 0 medium 0
 
 #20018
-anka bird~
-anka bird~
-An anka bird is here singing songs.
+anka kuþu~
+anka kuþu~
+Bir anka kuþu burada þarkýlar söylüyor.
 ~
    So beautiful!
 ~
@@ -258,9 +257,9 @@ stand stand male 5000
 ABCDEFG 0 medium 0
 
 #20019
-watter arial~
-a watter arial~
-A watter arial is here playing with watter.
+su alalisi~
+bir su alalisi~
+Bir su alalisi burada suyla oynuyor.
 ~
 ~
 arial~
@@ -273,11 +272,11 @@ ABCDEFG 0 medium 0
 
 
 #20060
-spirit fear dragon~
-Spirit of fear dragon~
-Spirit of fear dragon is here.
+ruh dehþet ejderhasý~
+Dehþet ejderhasýnýn ruhu~
+Dehþet ejderhasýnýn ruhu burada.
 ~
-  A spriti but has its original body after he died.Here he is behind you 
+  A spriti but has its original body after he died.Here he is behind you
 within his full nothingnes and anger, being killed, hunted.
 ~
 dragon~
@@ -290,9 +289,9 @@ ABCDEFG 0 medium 0
 
 
 #20000
-guardian garden~
-Guardian of garden~
-Guardian of the garden is here
+muhafýz bahçe~
+Bahçenin muhafýzý~
+Bahçenin muhafýzý burada.
 ~
 ~
 human~
@@ -304,9 +303,9 @@ stand stand male 5000
 A 0 medium 0
 
 #20001
-guardian hell road~
-Guardian of the road~
-Guardian of the hell road is here
+muhafýz cehennem yolu~
+Yolun muhafýzý~
+Cehennem yolunun muhafýzý burada.
 ~
 ~
 human~
@@ -319,9 +318,9 @@ A 0 medium 0
 
 
 #20002
-spirit jonny~
-spirit of jonny~
-Spirit of Jonny is here.
+jonny ruh jonnynin ruhu~
+Jonny'nin ruhu~
+Jonny'nin ruhu burada.
 ~
 
 ~
@@ -335,9 +334,9 @@ A 0 medium 0
 
 
 #20003
-spirit kowenno~
-spirit of kowenno~
-Spirit of Kowenno is here.
+ruh kowenno kowennonun ruhu~
+Kowenno'nun ruhu~
+Kowenno'nun ruhu burada.
 ~
 ~
 unique~
@@ -347,12 +346,12 @@ ABWe  DFHJVZ 0 0
 CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
 stand stand male 5000
 A 0 medium 0
- 
+
 
 #20004
-spirit kalel~
-spirit of kalel~
-Spirit of Kalel is here.
+ruh kalel kalelin ruhu~
+Kalel'in ruhu~
+Kalel'in ruhu burada.
 ~
 ~
 unique~
@@ -365,9 +364,9 @@ A 0 medium 0
 
 
 #20005
-spirit thenor~
-spirit of thenor~
-Spirit of Thenor is here.
+ruh thenor thenorun ruhu~
+Thenor'un ruhu~
+Thenor'un ruhu burada.
 ~
 ~
 unique~
@@ -380,9 +379,9 @@ A 0 medium 0
 
 
 #20006
-spirit neruda~
-spirit of neruda~
-Spirit of Neruda is here.
+ruh neruda nerudanýn ruhu~
+Neruda'nýn ruhu~
+Neruda'nýn ruhu burada.
 ~
 ~
 unique~
@@ -395,9 +394,9 @@ A 0 medium 0
 
 
 #20007
-spirit coni~
-spirit of coni~
-Spirit of Coni is here.
+ruh coni coninin ruhu~
+Coni'nin ruhu~
+Coni'nin ruhu burada.
 ~
 ~
 unique~
@@ -409,9 +408,9 @@ stand stand male 5000
 A 0 medium 0
 
 #20008
-spirit takasi~
-spirit of takasi~
-Spirit of Takasi is here.
+ruh takasi takasinin ruhu~
+Takasi'nin ruhu~
+Takasi'nin ruhu burada.
 ~
 ~
 unique~
@@ -421,12 +420,12 @@ ABWe  DFHJVZ 0 0
 CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
 stand stand male 5000
 A 0 medium 0
- 
+
 
 #20009
-spirit rasputin~
-spirit of rasputin~
-Spirit of Rasputin is here.
+ruh rasputin rasputinin ruhu~
+Rasputin'in ruhu~
+Rasputin'in ruhu burada.
 ~
 ~
 unique~
@@ -436,7 +435,7 @@ ABWe  DFHJVZ 0 0
 CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
 stand stand male 5000
 A 0 medium 0
- 
+
 
 
 
@@ -446,7 +445,7 @@ A 0 medium 0
 
 #ROOMS
 #20000
-Entrance to the sewers~
+Kanalizasyonun Giriþi~
 	This is the old sweer system of this cursed prison.Exits are north
 and down.
 ~
@@ -463,9 +462,9 @@ Seweers
 S
 
 #20001
-Sewers~
+Kanalizasyon~
 	This is a dark and teribbly smelling tunnel.You can't see the
-start and the end of the tunnel.Just the sound comming from the 
+start and the end of the tunnel.Just the sound comming from the
 continuing end of the tunnel.You just feel that there is an exit.If
 you are wrong? what will happen.A dead end? an exitless maze? or death?
 You don't know what is whaiting you there, now it't time to go.
@@ -490,7 +489,7 @@ E
 small tablet~
     -------------------------------------------
         		WARNING
-    Watch your step in this department.Secret 
+    Watch your step in this department.Secret
     level is 2.Unautorized entrances forbidden.
     -------------------------------------------
 ++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -503,9 +502,9 @@ small tablet~
 S
 
 #20002
-Dark tunnel~
+Karanlýk tünel~
 	You still feel that terible smell.From where does it come?
-There is watter ant he floor of tunnel but it't so clear that you can 
+There is watter ant he floor of tunnel but it't so clear that you can
 drink it.No it comes from a different place, from walls ? no not from
 walls.Something frightens you, you should better turn back.
 ~
@@ -528,11 +527,11 @@ S
 
 
 #20003
-Dark tunnel~
+Karanlýk tünel~
 	The tunnel is dark and frightining.You still fell that smell and
 hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
-better walk and find out what the problem is. 
+better walk and find out what the problem is.
 ~
 
 0 DNA 6
@@ -552,11 +551,11 @@ S
 
 
 #20004
-Dark tunnel~
+Karanlýk tünel~
 	The tunnel is dark and frightining.You still fell that smell and
 hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
-better walk and find out what the problem is. 
+better walk and find out what the problem is.
 ~
 
 0 DNA 6
@@ -576,11 +575,11 @@ S
 
 
 #20005
-Dark tunnel~
+Karanlýk tünel~
 	The tunnel is dark and frightining.You still fell that smell and
 hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
-better walk and find out what the problem is. 
+better walk and find out what the problem is.
 ~
 
 0 DNA 6
@@ -600,11 +599,11 @@ S
 
 
 #20006
-Dark tunnel~
+Karanlýk tünel~
 	The tunnel is dark and frightining.You still fell that smell and
 hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
-better walk and find out what the problem is. 
+better walk and find out what the problem is.
 ~
 
 0 DNA 6
@@ -624,11 +623,11 @@ S
 
 
 #20007
-Dark tunnel~
+Karanlýk tünel~
 	The tunnel is dark and frightining.You still fell that smell and
 hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
-better walk and find out what the problem is. 
+better walk and find out what the problem is.
 ~
 
 0 DNA 6
@@ -648,11 +647,11 @@ S
 
 
 #20008
-Dark tunnel~
+Karanlýk tünel~
 	The tunnel is dark and frightining.You still fell that smell and
 hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
-better walk and find out what the problem is. 
+better walk and find out what the problem is.
 ~
 
 0 DNA 6
@@ -672,11 +671,11 @@ S
 
 
 #20009
-Dark tunnel~
+Karanlýk tünel~
 	The tunnel is dark and frightining.You still fell that smell and
 hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
-better walk and find out what the problem is. 
+better walk and find out what the problem is.
 ~
 
 0 DNA 6
@@ -696,11 +695,11 @@ S
 
 
 #20010
-Dark tunnel~
+Karanlýk tünel~
 	The tunnel is dark and frightining.You still fell that smell and
 hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
-better walk and find out what the problem is. 
+better walk and find out what the problem is.
 ~
 
 0 DNA 6
@@ -720,11 +719,11 @@ S
 
 
 #20011
-Dark tunnel~
+Karanlýk tünel~
 	The tunnel is dark and frightining.You still fell that smell and
 hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
-better walk and find out what the problem is. 
+better walk and find out what the problem is.
 ~
 
 0 DNA 6
@@ -744,7 +743,7 @@ S
 
 
 #20012
-Dark tunnel~
+Karanlýk tünel~
 	At last you see a light at the end of the tunnel, and the sound
 got clear.You don't feel that smell anymore.And the sound , you realise
 that the sound was just the sound of a watterfall.The tunnels made it
@@ -768,7 +767,7 @@ S
 
 
 #20013
-Exit of the dark tunnel~
+Karanlýk tünelin çýkýþý~
 	It's brighter now.You can see all around without the help of your
 light source.It's more clear that the sound is coming from a watterfall.
 But where is this watterfall?
@@ -791,7 +790,7 @@ S
 
 
 #20014
-Watterfall~
+Þelale~
 .
 .
 .
@@ -834,7 +833,7 @@ S
 
 
 #20015
-River of spirits~
+Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
@@ -851,7 +850,7 @@ River of spirits
 S
 
 #20016
-River of spirits~
+Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
@@ -874,7 +873,7 @@ River of spirits
 S
 
 #20017
-River of spirits~
+Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
@@ -904,7 +903,7 @@ hell road
 S
 
 #20018
-River of spirits~
+Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
@@ -934,7 +933,7 @@ garden road
 S
 
 #20019
-River of spirits~
+Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
@@ -957,7 +956,7 @@ River of spirits
 S
 
 #20020
-River of spirits~
+Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
@@ -986,7 +985,7 @@ hell road
 S
 
 #20021
-River of spirits~
+Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
@@ -1015,7 +1014,7 @@ River of spirits
 S
 
 #20022
-River of spirits~
+Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
@@ -1038,7 +1037,7 @@ River of spirits
 S
 
 #20023
-River of spirits~
+Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
@@ -1067,7 +1066,7 @@ River of spirits
 S
 
 #20024
-River of spirits~
+Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
@@ -1090,7 +1089,7 @@ ocean of neutrality
 S
 
 #20025
-Garden road~
+Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -1110,7 +1109,7 @@ S
 
 
 #20026
-Garden road~
+Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -1136,7 +1135,7 @@ S
 
 
 #20027
-Garden road~
+Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -1162,7 +1161,7 @@ S
 
 
 #20028
-Garden road~
+Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -1195,7 +1194,7 @@ S
 
 
 #20029
-Garden road~
+Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -1220,7 +1219,7 @@ S
 
 
 #20030
-Garden road~
+Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -1246,7 +1245,7 @@ S
 
 
 #20031
-Garden road~
+Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -1280,7 +1279,7 @@ S
 
 
 #20032
-Garden road~
+Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -1306,7 +1305,7 @@ S
 
 
 #20033
-Garden road~
+Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -1340,7 +1339,7 @@ S
 
 
 #20034
-Garden road~
+Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -1365,7 +1364,7 @@ ocean of neutrality
 S
 
 #20035
-Hell road~
+Cehennem yolu~
    My god.What is this? Tere was no such wiev from looking the river, you
 got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
@@ -1382,7 +1381,7 @@ hell road
 
 S
 #20036
-Hell road~
+Cehennem yolu~
    My god.What is this? Here was no such viev from looking the river, you
 got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
@@ -1406,7 +1405,7 @@ hell road
 S
 
 #20037
-Hell road~
+Cehennem yolu~
    My god.What is this? Here was no such viev from looking the river, you
 got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
@@ -1437,7 +1436,7 @@ hell road
 S
 
 #20038
-Hell road~
+Cehennem yolu~
    My god.What is this? Here was no such viev from looking the river, you
 got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
@@ -1461,7 +1460,7 @@ hell road
 S
 
 #20039
-Hell road~
+Cehennem yolu~
    My god.What is this? Here was no such viev from looking the river, you
 got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
@@ -1485,7 +1484,7 @@ hell road
 S
 
 #20040
-Hell road~
+Cehennem yolu~
    My god.What is this? Here was no such viev from looking the river, you
 got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
@@ -1516,7 +1515,7 @@ hell road
 S
 
 #20041
-Hell road~
+Cehennem yolu~
    My god.What is this? Here was no such viev from looking the river, you
 got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
@@ -1540,7 +1539,7 @@ hell road
 S
 
 #20042
-Hell road~
+Cehennem yolu~
    My god.What is this? Here was no such viev from looking the river, you
 got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
@@ -1564,7 +1563,7 @@ hell road
 S
 
 #20043
-Hell road~
+Cehennem yolu~
    My god.What is this? Here was no such viev from looking the river, you
 got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
@@ -1588,7 +1587,7 @@ hell road
 S
 
 #20044
-Hell road~
+Cehennem yolu~
    My god.What is this? Here was no such viev from looking the river, you
 got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
@@ -1612,7 +1611,7 @@ ocean of neutrality
 S
 
 #20045
-Ocean of neutrality~
+Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1648,7 +1647,7 @@ infinet neutrality
 S
 
 #20046
-Ocean of neutrality~
+Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1684,7 +1683,7 @@ infinet neutrality
 S
 
 #20047
-Ocean of neutrality~
+Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1720,7 +1719,7 @@ infinet neutrality
 S
 
 #20048
-Ocean of neutrality~
+Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1756,7 +1755,7 @@ infinet neutrality
 S
 
 #20049
-Ocean of neutrality~
+Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1791,7 +1790,7 @@ infinet neutrality
 S
 
 #20050
-Ocean of neutrality~
+Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1827,7 +1826,7 @@ infinet neutrality
 S
 
 #20051
-Ocean of neutrality~
+Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1863,7 +1862,7 @@ infinet neutrality
 S
 
 #20052
-Ocean of neutrality~
+Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1899,7 +1898,7 @@ infinet neutrality
 S
 
 #20053
-Ocean of neutrality~
+Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1935,7 +1934,7 @@ infinet neutrality
 S
 
 #20054
-Ocean of neutrality~
+Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1971,7 +1970,7 @@ infinet neutrality
 S
 
 #20055
-Ocean of neutrality~
+Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -2007,7 +2006,7 @@ infinet neutrality
 S
 
 #20056
-Ocean of neutrality~
+Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -2043,7 +2042,7 @@ infinet neutrality
 S
 
 #20057
-Ocean of neutrality~
+Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -2079,7 +2078,7 @@ infinet neutrality
 S
 
 #20058
-Ocean of neutrality~
+Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -2115,7 +2114,7 @@ infinet neutrality
 S
 
 #20059
-Ocean of neutrality~
+Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -2145,9 +2144,9 @@ infinet neutrality
 S
 
 #20060
-Deep hole~
+Derin çukur~
 	You are at the bottom of a deep hole you can see around ,
-you realise that there is no exit; a place able to keep a powerful 
+you realise that there is no exit; a place able to keep a powerful
 dragon or its spirit!
 ~
 0 0 9
@@ -2172,7 +2171,7 @@ R 0 20056 4     *ocean of neutrality
 R 0 20057 4     *ocean of neutrality
 R 0 20058 4     *ocean of neutrality
 R 0 20059 3     *ocean of neutrality
- 
+
 M 0 20000 4 20028 2       *1. guardian
 E 0 20010 -1 17
 E 0 20066 -1 14
@@ -2187,7 +2186,7 @@ E 0 20010 -1 17
 M 0 20060 1 20060 1	  *spirit dragon
 E 0 20002 -1 1
 E 0 20001 -1 16
- 
+
 M 0 20002 1 20035 1       *jonny
 M 0 20003 1 20039 1       *kowenno
 M 0 20004 1 20041 1       *neruda
@@ -2255,5 +2254,3 @@ S
 0
 
 #$
-
-

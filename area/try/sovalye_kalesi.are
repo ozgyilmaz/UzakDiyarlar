@@ -1,15 +1,15 @@
 #AREA
-knightcastle.are~
-Knight~
-{90 100} Chronos The Castle of Knights~
+sovalye_kalesi.are~
+Þövalye Kalesi~
+{90 100} Chronos Þövalye Kalesi~
 520 529
 
 
 #MOBILES
 #520
-knight healer cabal~
-A healer~
-The healer of the Knights' is here to heal you.
+þövalye þifacý kabal~
+þifacý~
+Þövalyelerin þifacýsý, seni iyileþtirmek için burada.
 ~
   After retiring long fights, he chose to heal his mates against evils
 with his long experienced wise years.
@@ -22,9 +22,9 @@ FHIK ABC D 0
 stand stand male 1000
 0 0 medium 0
 #521
-knight protector guard~
-the protector~
-Protector, the knight, is guarding the enterance.
+þövalye koruyucu gard~
+koruyucu~
+Þövalye korucuyu, giriþi bekliyor.
 ~
  Although his old age, he is still good enough in all martial arts. His
 bright body armor is shining upon you.
@@ -37,9 +37,9 @@ ACDEFKNU AB 0 0
 stand stand male 5000
 0 0 medium 0
 #522
-knight shopkeeper mount~
-the stable keeper~
-The stable keeper is selling horses.
+þövalye esnaf ahýr sahip binek~
+ahýr sahibi~
+Ahýr sahibi atlarýný satýyor.
 ~
  Although his old age, he is still good enough in all martial arts. His
 bright body armor is shining upon you.
@@ -52,9 +52,9 @@ ACDEFKNU AB 0 0
 stand stand male 5000
 0 0 medium 0
 #523
-grey horse mount~
-the grey horse~
-A grey horse is standing here.
+gri at binek~
+gri at~
+Gri bir at burada duruyor.
 ~
    It is saddled with light tack, and has long slender limbs for speed.
 ~
@@ -66,9 +66,9 @@ FHN AB 0 0
 stand stand male 5000
 0 0 medium 0
 #524
-white horse mount~
-the white horse~
-A white horse is standing here.
+beyaz at binek~
+beyaz at~
+Beyaz bir at burada duruyor.
 ~
    It is saddled with light tack, and has long slender limbs for speed.
 ~
@@ -80,9 +80,9 @@ FHN AB 0 0
 stand stand male 5000
 0 0 medium 0
 #525
-great white horse mount~
-the great white horse~
-A great white horse is standing here.
+büyük beyaz at binek~
+büyük beyaz at~
+Büyük beyaz bir at burada duruyor.
 ~
    It is saddled with light tack, and has long slender limbs for speed.
 ~
@@ -97,25 +97,25 @@ stand stand male 5000
 
 #OBJECTS
 #520
-key golden~
-a golden key~
-A golden key is left on the floor.~
+anahtar altýn~
+altýn bir anahtar~
+Altýndan bir anahtar yerde býrakýlmýþ.~
 gold~
 key ORY AO
 0 0 0 0 0
 40 4 0 P
 #521
-altar~
-the altar~
-There is a huge golden altar in the middle of the room.~
+mimber~
+mimber~
+Altýndan, devasa bir mimber odanýn ortasýnda duruyor.~
 gold~
 container ORY P
 10 15 520 15 100
 60 1 20 P
 #522
-large medal honor~
-Large medal of honor~
-The large medal of honor is left here.~
+büyük onur madalyasý~
+Büyük onur madalyasý~
+Büyük onur madalyasý buraya býrakýlmýþ.~
 gold~
 treasure O AO
 0 0 0 0 0
@@ -198,7 +198,7 @@ The Altar of the Honour~
   You are now in front of the huge golden altar. On the altar you see some
 special signs carved with adamantite letters. When you look up to the
 ceiling you notice that a big model of the same sign is carved with golden
-material. 
+material.
 ~
 0 DX 0
 D2
@@ -258,4 +258,3 @@ M 521 group_cabal	*knights
 S
 
 #$
-

@@ -1,0 +1,875 @@
+#AREA
+jherin_lahiti.are~
+Jher'in Lahiti~
+{35 55} Garth   Jher'in Lahiti~
+32700 32725
+
+#MOBILES
+#32700
+Jher~
+Jher~
+Jher burada sana dik dik bakýyor.
+~
+Bu kötü adamýn bakýþlarýyla donup kalýyorsun.Bu nasýl bir güç.
+~
+human~
+2|4|8|64 8|32|128|512|8192 0 0
+53 0 50d10+5000 5d5+5000 6d7+21 punch
+-23 -23 -23 -1
+EFIJK 0 0 0
+stand stand male 0
+0 0 medium 0
+#32701
+genç warg~
+genç bir warg~
+Genç bir warg seni farkedip hýrlama baþlýyor.
+~
+Yeni yeteneklerini göstermek için kurban olarak seni seçmiþ olmalý.
+~
+oldstyle~
+4|64|128|262144 8|32|512|32768 0 0
+32 0 10d10+1000 5d5+1000 6d4+9 none
+-10 -10 -10 3
+EFIKN 0 0 0
+stand stand male 0
+0 0 medium 0
+#32702
+knanath~
+Knanath~
+Knanath, Jher'in evcil hayvaný sana hýrlýyor.
+~
+Hala boðazýna sarýlmadýðýna göre aç deðil.
+~
+fido~
+2|4|32|64 2|8|32|512 0 0
+43 0 25d10+2500 5d5+1000 3d12+15 beating
+-15 -15 -15 2
+EFI 0 0 0
+stand stand male 0
+0 0 medium 0
+#32703
+anne warg~
+anne warg~
+Bir anne warg yavrularýnýn etrafýnda dolaþýyor.
+~
+Çocuklarýndan uzak dur çünkü onlarý korumak için seni parça parça edebilir.
+~
+oldstyle~
+4|64 8|32|512 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 bite
+-13 -13 -13 3
+EFI 0 0 0
+stand stand female 0
+0 0 medium 0
+#32704
+baba warg~
+baba warg~
+Büyük bir warg burada saldýracak veya eðlenecek birþey arýyor.
+~
+Daha çýðlýk atamadan seni öldürebilir onunla uðraþmamalýsýn.
+~
+oldstyle~
+4|64 8|32|512|32768 0 0
+42 0 25d10+2250 5d5+1000 3d12+14 bite
+-14 -14 -14 3
+EFI 0 0 0
+stand stand male 0
+0 0 medium 0
+#32705
+aç genç warg~
+aç genç warg~
+Genç bir warg burada, aç gözüküyor.
+~
+Aðzýndan salyalarý akýyor iðrenç bir görüntüsü var.
+~
+oldstyle~
+2|4|64|128 0 0 0
+35 0 10d10+1300 5d5+1000 4d7+11 charge
+-11 -11 -11 3
+EFI 0 0 0
+stand stand male 0
+0 0 medium 0
+#32706
+yýlan~
+yýlan~
+Bir yýlan korkunu hissederek bacaklarýnýn arasýnda dolaþýyor.
+~
+Çatallý dilindeki zehri farkedebiliyorsun.
+~
+snake~
+2|32|64 8|32|512 0 0
+20 0  3d9+333 5d5+1000 2d8+5 shbite
+-4 -4 -4 5
+FH L 0 I
+stand stand none 0
+0 0 small 0
+#32707
+ayý~
+ayý~
+Büyük siyah bir ayý gölgelerde saklanýyor.
+~
+ayý sana bakýp þöyle diyor' Jher' i öldürmemde bana yardým eder misin?'
+~
+bear~
+64 8|32|128|512|8192|32768|65536|1048576 0 0
+47 0 25d10+3500 5d5+1000 6d6+17 claw
+-17 -17 -17 2
+CDEFIK 0 0 0
+stand stand male 0
+0 0 large 0
+#32708
+yarasa~
+yarasa~
+Bir yarasa yüzüne saldýrýyor.
+~
+Siyah büyük gözlerini görüyorsun.Ve büyük bir sesle çýðlýk atýyor.
+~
+oldstyle~
+32|64 8|32|512|524288 0 0
+34 0 10d10+1200 5d5+1000 4d7+10 charge
+-11 -11 -11 3
+F 0 0 0
+stand stand none 0
+0 0 small 0
+#32709
+Htrag warg eðitmeni~
+Htrag~
+Htrag burada warglarý eðitiyor.
+~
+Arkasýna bakýp diþlerini gýcýrdatýyor sanýrsan seni farketti.
+~
+oldstyle~
+2|64 8|32|128|512 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 bite
+-13 -13 -13 3
+EFI 0 0 0
+stand stand male 0
+0 0 medium 0
+#32710
+diþi warg~
+diþi warg~
+diþi bir warg kafesin içinde duruyor.
+~
+Yardýmýn için yalvarýyor.
+~
+oldstyle~
+2|4|64 8|32|512 0 0
+35 0 10d10+1300 5d5+1000 4d7+11 bite
+-11 -11 -11 3
+EFI 0 0 0
+stand stand female 0
+0 0 medium 0
+#32711
+erkek varg~
+erkek warg~
+Erkek bir warg boðazýna atýlýyor.
+~
+Tek kelimeyle çok vahþi.
+~
+oldstyle~
+2|4|32|64 8|32|512 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 bite
+-13 -13 -13 3
+EFI 0 0 0
+stand stand male 0
+0 0 medium 0
+#32712
+Sapth köle~
+Sapth~
+Sapth, Jher'in kölesi, yardýmýný bekliyor.
+~
+Gözleri birinin onu Jher'den kurtaracaðý umuduyla dolu.
+~
+human~
+4|64|128 8|32|256|512 0 0
+35 0 10d10+1300 5d5+1000 4d7+11 punch
+-11 -11 -11 3
+EFI 0 0 0
+stand stand male 0
+0 0 medium 0
+#32713
+warg muhafýz~
+muhafýz~
+Muhafýz arkasýnda ne olduðunu bilmediðin bir kapýyý koruyor.
+~
+Savaþmak ve öldürmek için eðitilmiþ.
+~
+oldstyle~
+ABCGT 8|32|512 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 pound
+-13 -13 -13 3
+CDEFIKTU 0 0 0
+stand stand male 0
+0 0 large 0
+#32714
+warg muhafýz~
+muhafýz~
+Muhafýz arkasýnda ne olduðunu bilmediðin bir kapýyý koruyor.
+~
+Savaþmak ve öldürmek için eðitilmiþ.
+~
+oldstyle~
+ABCGT 8|32|512 0 0
+42 0 25d10+2250 5d5+1000 3d12+14 pound
+-14 -14 -14 3
+CDEFIKTU 0 0 0
+stand stand male 0
+0 0 large 0
+#32715
+shaanh~
+Shaanh~
+Shaanh, Jher'in aþk kölesi,köþeye sinmiþ.
+~
+Neredeyse hiç birþey giymiyor ve vücudunun her yerinde çizikler morluklar iþkence izleri var.
+~
+human~
+64|128 8|32|256|512|65536 0 0
+37 0 10d10+1500 5d5+1000 3d10+12 slap
+-12 -12 -12 3
+EIK 0 0 0
+stand stand female 0
+0 0 medium 0
+#32716
+tek gözlü balýk~
+tek gözlü balýk~
+Tek gözü kör kocaman aðza sahip bir balýk bacaklarýnýn arasýnda geziniyor.
+~
+Ýðrenç bir yaratýk.  Bir gözü kör, Ama kokun yüzünden orda olduðunu hissediyor.
+~
+human~
+64|128 8|32|512 0 0
+38 0 10d10+1600 5d5+1000 5d6+12 charge
+-13 -13 -13 3
+EF 0 0 0
+stand stand none 0
+0 0 medium 0
+#0
+
+
+#OBJOLD
+#32700
+bir miktar altýn sikke~
+bir miktar altýn sikke~
+Bir miktar altýn sikke gözüne takýlýyor.~
+~
+20 1 1
+10000 0 0 0
+0 0 0
+#32701
+kemik anahtar~
+kemik anahtar~
+sert beyaz bir anahtar yerde duruyor.~
+~
+18 0 1|16384
+0 0 0 0
+1 0 0
+#32702
+formül~
+formül~
+Warg üretme formülü burda býrakýlmýþ.~
+~
+10 64 1
+35 39 28 28
+0 0 0
+#32703
+jher'in eðri hançeri~
+Jher'in eðri hançeri~
+Jher'in eðri hançeri burada parlýyor.~
+~
+5 1|2|64|512 1|8192
+0 0 0 11
+3 0 0
+A
+12 120
+A
+19 10
+A
+13 100
+A
+4 2
+A
+1 -1
+#32704
+formül~
+formül~
+Warg üretme formülü burda býrakýlmýþ.~
+~
+10 64 1
+35 1 28 12
+0 0 0
+#32705
+formül~
+formül~
+Warg üretme formülü burda býrakýlmýþ.~
+~
+10 64 1|16384
+35 42 4 38
+0 0 0
+A
+19 5
+A
+13 25
+#32706
+ayý diþi~
+Ayý diþi~
+Kumlarýn arasýnda diþe benzer birþey var.~
+~
+5 64|1024|4096 1|8192
+0 0 0 10
+2 0 0
+A
+18 5
+A
+19 8
+#32707
+anahtar~
+büyük pirinç anahtar~
+Büyük pirinçten bir anahtar burada parlýyor.~
+~
+18 0 1|16384
+0 0 0 0
+1 0 0
+#32708
+taht~
+taht~
+Büyük altýn bir taht mücevherlerle kaplanmýþ.~
+~
+12 1 0
+0 0 0 0
+5 0 0
+#32709
+sarý yakut anahtar~
+sarý yakuttan bir anahtar~
+Sarý yakuttan yapýlmýþ bir anahtar yerde parlýyor.~
+~
+18 1|128 1
+0 0 0 0
+5 0 0
+#32710
+abanozdan oyulmuþ~
+Abanoz oymasý biçimli~
+Tozlarýn içinde abanoz bir kaya var.~
+~
+18 32 1
+0 0 0 0
+0 0 0
+#32711
+tozlu altýn sandýk~
+aldýn sandýk~
+Odanýn köþesinde tozlu bir kutu var oturmak için güzel bir yer.~
+~
+15 64 0
+100 15 9910 0
+5 0 0
+#32712
+elmas bileklik~
+elmas bileklik~
+Bir elmas bileklik burada duruyor.~
+~
+9 1|32|64 1|4096
+5 0 0 0
+5 0 0
+A
+12 50
+#32713
+yarým parþömen~
+yarým parþömen~
+Yarýsý yok olmuþ bir parþömen burada duruyor.~
+~
+2 2 1
+50 28 42 81
+5 0 0
+#32714
+parlayan kolye~
+parlayan kolye~
+Kan kýrmýzý taþtan oyulmuþ bir kolye yerde duruyor.~
+~
+9 1|64|512|4096 1|4
+7 0 0 0
+1 0 0
+A
+14 100
+A
+19 4
+#32715
+altýn sikke~
+altýn sikke~
+Bir miktar altýn sikke gözüne takýlýyor.~
+~
+26 1 1
+0 19 -1 -1
+5 0 0
+#0
+
+
+#ROOMS
+#32700
+Jher'in Lahitine Ýniþ~
+Aþaðýya doðru ilerledikçe warglarýn sesini duyuyorsun pek dostça gelmiyor.
+Ve saçýnýn bittiði yerde birden bir ürperme hissediyorsun.
+~
+0 1 3
+D1
+~
+~
+0 -1 32702
+D2
+~
+~
+0 -1 32701
+D4
+~
+~
+0 -1 14791
+S
+#32701
+Maðaranýn Aðzý~
+Maðaranýn aðzýnda ürkütücü bir çatlak var.  Bunu yapmak için çok büyük bir güç gerekli.
+Çünkü duvarlar gerçekten sert.
+~
+0 1 3
+D0
+~
+~
+0 -1 32700
+S
+#32702
+Jher'in Lahitine Ýniþ~
+Karanlýkta ilerledikçe herþey daha bilinmez bir hal alýyor.Acaba yanlýþ mý yapýyorsun.
+Etraf gerçekten ürkütücü bir hal almaya baþladý.Duvarlarda kan lekeleri var.
+~
+0 1 2
+D3
+~
+~
+0 -1 32700
+D5
+~
+~
+0 -1 32703
+S
+#32703
+Maðarada Bir Oda~
+Oda meþalelerle aydýnlatýþmýþ ama warglarýn parlak gözleri yine de kendini belli ediyor.
+Bunlar nadir bulunan yaratýklar çünkü sürekli açlar.Burasý bulunmak için iyi bir yer deðil.
+Bir warg ýn aðzýndan yere damlayan salyalarýn sesini duyabiliyorsun.Uzaklaþsan iyi olacak.
+~
+0 8 2
+D2
+~
+~
+0 -1 32704
+D3
+~
+~
+0 -1 32706
+D4
+~
+~
+0 -1 32702
+S
+#32704
+Maðarada Bir Oda~
+Bu oda leþ gibi warg dýþkýsý kokuyor.Ayrýca oda eski kurbanlarýn kemikleri ile dolu.
+Odayý sadece bir meþale aydýnlatýyor.Odayý inceledikçe için ürperiyor.Bu iðrenö görüntüyü gördükçe
+burdan gitmek istiyorsun.
+~
+0 8 2
+D0
+~
+~
+0 -1 32703
+D5
+kemiklerin altýna gizli bir kapý var.~
+gizli kapý~
+1 -1 32705
+S
+#32705
+Küçük Hazine Odasý~
+Jher sadece iðrenç iþlerle uðraþan kötü biri deðilmiþ ayrýca kanun kadarda zenginmiþ görünen kadarýyla.
+Etraf tamamen altýnlarla ve mücevherlerle dolu.Fakat birden ayaklarýnýn etrafýnda gezinen yýlanlar görüyorsun.
+~
+0 1|8 2
+D4
+~
+~
+1 -1 32704
+S
+#32706
+Karanlýk Koridor~
+Maðaranýn derinliklerine uzanan yolculuðunda warglarýn sesleri giderek artýyor.Durumun pek umutlu deðil.
+Koridor batýya devam ediyor ayný zamanda güneyde de geçebileceðin bir delik var.Ama ordan yarasa sesleri geliyor.
+~
+0 1|8 2
+D1
+~
+~
+0 -1 32703
+D2
+~
+~
+0 -1 32707
+D3
+~
+~
+0 -1 32712
+S
+#32707
+Duvardaki Çatlak~
+Bilinmeyen bir nedenden oluþan bu çatlaðý incelemek için buradasýn.Maðaralar hakkýnda bilmen gereken tek þey ise
+sonsuz bir çukura düþebileceðin olmalýydý.Sanýrsan aþaðýdan su sesi geliyor.
+~
+0 1|4|8 2
+D0
+~
+~
+0 -1 32706
+D3
+~
+~
+0 -1 32708
+S
+#32708
+ÝÐrenç Yeraltý Havuzu~
+Kendini iðrenç bir sývýnýn içinde buluyorsun.Ýçinde olabilecek yaratýklarý düþündükçe ürperiyorsun.
+~
+0 1|8 6
+D1
+~
+~
+0 -1 32707
+D2
+~
+~
+0 -1 32709
+D3
+~
+~
+0 -1 32711
+S
+#32709
+ÝÐrenç Yeraltý Havuzu~
+Ýðrenç sývýdan kabarcýklar çýkýyor.
+~
+0 1|8 6
+D0
+~
+~
+0 -1 32708
+D3
+~
+~
+0 -1 32710
+S
+#32710
+ÝÐrenç Yeraltý Havuzu~
+Ýðrenç sývýdan kabarcýklar çýkýyor.
+~
+0 1|8 6
+D0
+~
+~
+0 -1 32711
+D1
+~
+~
+0 -1 32709
+S
+#32711
+ÝÐrenç Yeraltý Havuzu~
+Ýðrenç sývýdan kabarcýklar çýkýyor.
+~
+0 1|8 6
+D1
+~
+~
+0 -1 32708
+D2
+~
+~
+0 -1 32710
+S
+#32712
+Karanlýk Koridor~
+Tavan gittikçe yükseliyor.  Yürümek için eðilmene gerek yok.
+Yalnýz bir sorun var, normal boyda biri için bu kadar tavan fazla yüksek.
+Arkana baktýnda bugüne kadar gördüðün en büyük yaratýðý görüyorsun.
+~
+0 4|8 2
+D1
+~
+~
+0 -1 32706
+D3
+~
+~
+0 -1 32713
+S
+#32713
+Eðitim Odasý~
+Kuzeyde ve güneyde iki kafes var. Oda iðrenç gözüküyor.Burada yapýlanlar gerçekten çýlgýnlýk.
+~
+0 8 2
+D0
+~
+~
+1 32701 32715
+D1
+~
+~
+0 -1 32712
+D2
+~
+~
+1 32701 32714
+D3
+~
+~
+0 -1 32716
+S
+#32714
+Erkek Warglarýn Kafesi~
+Kafesin kapýsýný açtýðýn gibi üstüne atýlýyorlar.Biri en hýzlý þekilde kafesten fýrlayýp
+Diþi warg ýn yanýna koþuyor.Bu yaratýklar 2 þeye karþý doyumsuzdur, yemek ve diþi warglar.
+~
+0 1|8 2
+D0
+~
+~
+1 32701 32713
+S
+#32715
+Diþi Warglarýn Kafesi~
+Kafese girdiðin gibi büyük bir hata yaptýðýný anlýyorsun.Bir an durup seni izliyorlar.
+Galiba en son ne zaman yemek yediklerini düþünüyorlar.
+~
+0 1|8 2
+D2
+~
+~
+1 -1 32713
+S
+#32716
+Baþka Bir Ýniþ~
+Yol ýþýklarla aydýnlatýlmýþ.Batýya yürümeye devam ettikçe ilerde tünelin güneye döndüðünü farkediyorsun.
+~
+0 1|8 2
+D1
+~
+~
+0 -1 32713
+D2
+~
+~
+0 -1 32717
+S
+#32717
+Baþka Bir Ýniþ~
+Güneye döndükten sonra, tünelin aþaðýya devam ettiðini görüyorsun.Ama moralin yerinde
+en azýndan buraya kadar hayatta kalmayý baþardýn.
+~
+0 1|8 2
+D0
+~
+~
+0 -1 32716
+D5
+~
+~
+0 -1 32718
+S
+#32718
+Taht Odasýna Geçiþ~
+Týrmanýþýn sonuna geldiðinde yol kuzeye uzanýyor. Demirden ve tahtadan yapýlmýþ büyük bir kapý var, bronz bir tutma yeri var.
+Kapýnýn her iki yanýnda büyük warglar muhafýzlýk yapýyor.Ulaþmak için ya onlarý öldürmen yada sessizce kilidi açýp girmen lazým.
+~
+0 1|8 2
+D0
+~
+~
+1 32707 32719
+D4
+~
+~
+0 -1 32717
+S
+#32719
+Taht Odasýnýn Güney Sonu~
+Burasý taht odasý olmalý.Warglarýn sahibi gayet varlýklý biri olmalý
+, ama bütün köleleri acý içinde yaþarken kendi bu kadar rahat yaþadýðýna göre bir o kadar da zalim göründüðü kadarýyla.
+~
+0 8 2
+D0
+~
+~
+0 -1 32720
+D2
+~
+~
+1 -1 32718
+S
+#32720
+Taht Odasýnýn Güney Sonu~
+There is a huge throne made of the finest gold and glistening with the
+finest jewels.  Even with all this brightness, you are overwhelmed by darkness,
+for Jher sits on the throne.
+~
+0 8 2
+D0
+~
+~
+2 32709 32721
+D2
+~
+~
+0 -1 32719
+S
+#32721
+Jher'in Yatak Odasý~
+Burasý Jher'in uyuduðu yer.  Uyurken varglar ona saldýrmasýn diye evcil hayvaný burada
+koruma olarak duruyor.Jher karanlýðý sevdiði için oda tamamen karanlýk.Kýrmýzý yataðýn
+arkasýnda baþka bir yere geçiþ var.Büyük ihtimalle saldýrýya uðrarsa kaçýþ için yapýlmýþ.
+~
+0 1|8 1
+D2
+~
+~
+2 -1 32720
+D4
+~
+~
+0 -1 32722
+S
+#32722
+Jher'in Yatak Odasýnýn Arkasýndaki Tünel~
+Burasý hiç kullanýlmamýþ çünkü Jher buna hiç ihtiyaç duymamýþ.Tünel güneye ilerliyor.
+~
+0 1|8 3
+D2
+~
+~
+0 -1 32723
+D5
+~
+~
+0 -1 32721
+S
+#32723
+Küçük Bir Tünel~
+Hiç kullanmadýðý için bakýmý da yapýlmamýþ.Görünen o ki týrmanman gerekecek.
+~
+0 1|8 3
+D0
+~
+~
+0 -1 32722
+D2
+~
+~
+0 -1 32724
+S
+#32724
+Gizli Oda~
+Sonunda odaya vardýðýnda tamamen bitkin düþtün çünkü yol aþýrý derecede zorluydu.
+Eski bir kutunun üstünde dinleniyorsun.Oturduðun gibi kutu birden açýlýyor.
+Sandýktan altýnlarýn parýltýsý geliyor.Tamamen açmaya çalýþtýðýnda Kilitli olduðunu görerek üzülüyorsun.
+Ama eðer etrafa iyice bakarsan açmak için gereken þeyin nerde olduðunu farkedebilirsin.
+~
+0 1|4|8|8192 3
+S
+#0
+
+
+#RESETS
+*
+* removed/unknown M 1 0 1 32700
+*
+M 1 32703 1 32703 1 *
+*
+*
+*
+*
+M 1 32701 2 32703 1 * a young warg to A room in the cave
+*
+M 1 32704 1 32703 1 *			warg father to A room in the cave
+*
+M 1 32705 1 32704 1 *	the young hungry warg to A room inthe cave
+D 1 32704 5 1	*; A Room in the Cave Close Down
+D 1 32705 4 1 *		; Small Treasure Room Close Up
+*
+M 1 32706 2 32705 1 *	the snake to Small treasure room
+O 1 32700 100 32705	*a pile of gold to Small treasureroom
+*
+M 1 32708 2 32706 1 *	the bat to An unlit hallway
+*
+M 1 32708 1 32708 1 *	the bat to The Disgusting Underground Pool
+*
+M 1 32708 1 32710 1 *	the bat to The Disgusting Underground Pool
+D 1 32715 2 1 *	; The Female Warg Holding Cage Close South
+D 1 32713 0 2	*; Breeding Room Lock North
+D 1 32714 0 1	*; The Male Warg Holding Cage Close North
+*
+M 1 32709 1 32713 1 *	Htrag to Breeding Room
+E 1 32701 1 17
+*
+M 1 32710 2 32715 1 *	the female warg to The Female Warg Holding Cage
+*
+M 1 32711 2 32714 1 *	the male warg to The Male Warg Holding Cage
+*
+M 1 32712 1 32717 1 *	Sapth to A Further Descent
+*
+M 1 32714 1 32718 1 *	the guard to The Passage to the Throne Room
+*
+M 1 32713 1 32718 1 *	the guard to The Passage to the Throne Room
+D 1 32718 0 2	*; The Passage to the Throne Room Lock North
+D 1 32719 2 1	*; Southern end of the Throne Room Close South
+D 1 32713 2 2	*; Breeding Room Lock South
+*
+M 1 32700 1 32720 1 *	Jher to Northern End of the Throne Room
+E 1 32703 100 16
+G 1 32709 100
+O 1 32708 100 32720 1 * the throne to Northern End of the Throne Room
+*
+M 1 32702 1 32721 1 *		Knanath to Jher's Bedroom
+D 1 32720 0 2	*; Northern End of the Throne Room Lock North
+D 1 32721 2 1	*; Jher's Bedroom Close South
+*
+O 1 32711 100 32724 *	the golden chest to The SecretRoom
+*
+M 1 32715 1 32721 1 *	Shaanh to Jher's Bedroom
+E 1 32712 100 14
+E 1 32712 100 15
+*
+M 1 32716 1 32709 1 *	the hideous one-eyed fish to The DisgustingUnderground Pool
+*
+M 1 32716 1 32711 1 *the hideous one-eyed fish to The Disgusting UndergroundPool
+O 1 32714 100 32724	*a glowing zapath necklace to The Secret Room
+O 1 32715 100 32724	*a gold coin to The Secret Room
+S
+
+
+#SHOPS
+32709 10 10 10 10 10 50 100 0 23			*Htrag
+0
+
+
+#SPECIALS
+M  32700 spec_breath_lightning * Jher the trainer of wargs
+M  32701 spec_thief		*a young warg
+M  32702 spec_guard		*the warg prince
+M  32703 spec_poison		*warg mother
+M  32704 spec_fido		*warg father
+M  32705 spec_fido		*the young hungry warg
+M  32706 spec_poison		*the snake
+M  32707 spec_breath_lightning	*Beorn
+M  32708 spec_poison		*the bat
+M  32709 spec_guard		*Htrag the breeder
+M  32710 spec_poison		*the female warg
+M  32711 spec_thief		*the male warg
+M  32712 spec_janitor		*Sapth
+M  32713 spec_guard		*the guard
+M  32714 spec_guard		*the guard
+S
+
+
+#$

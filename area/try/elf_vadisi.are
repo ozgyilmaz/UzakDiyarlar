@@ -1,13 +1,13 @@
 #AREA
-valley.are~
-Valley of the Elves~
-{ 5 20} Hatchet Valley of the Elves~
+elf_vadisi.are~
+Elf Vadisi~
+{ 5 20} Hatchet Elf Vadisi~
 7800 7899
 #MOBILES
 #7800
-oldstyle dog cooshee~
-a cooshee~
-A rather large dog is here, wandering the valley.
+köpek doberman~
+bir doberman~
+Büyükçe bir köpek burada, vadide geziniyor.
 ~
 A beast is the size of the largest common dog.  It has a greenish coat with
 brown spots.  Its shape, along with its colors, make this cooshee almost
@@ -21,9 +21,9 @@ EFNR 0 0 0
 stand stand none 0
 0 0 medium 0
 #7801
-oldstyle elf valley~
-a valley elf~
-A valley elf wanders here, cautious of your intrusion.
+elf vadi elfi~
+bir vadi elfi~
+Bir vadi elfi senin varlýðýn yüzünden ihtiyatla etrafta geziniyor.
 ~
 This elf is almost as tall as you are, but much slimmer and agile.  You see
 hatred in his eyes, and you try to avoid his stare.  His tense body looks ready
@@ -38,9 +38,9 @@ EFNR 0 0 0
 stand stand male 0
 0 0 medium 0
 #7802
-oldstyle elf valley~
-a valley elf~
-A female valley elf wanders here, skirting between the tall grasses.
+vadi elfi~
+bir vadi elfi~
+Diþi bir vadi elfi, uzun çimenler arasýnda dans edercesine etrafta dolaþýyor.
 ~
 This elf is almost as tall as you are, but much slimmer and more agile.
 She glares at you, then quickly disappears before you see more of her.
@@ -53,9 +53,9 @@ EFNR 0 0 0
 stand stand female 0
 0 0 medium 0
 #7803
-oldstyle elf sentry valley~
-a valley elf sentry~
-A valley elf sentry stands here, then noticing you, attacks quickly!
+nöbet tutan vadi elfi nöbetçi~
+nöbet tutan bir vadi elfi~
+Burada nöbet tutan bir vadi elfi seni fark eder etmez hýzlýca saldýrýyor!
 ~
 This elf is almost as tall as you are, but much slimmer and more agile.
 He glares at your intrusion and attacks with menace.
@@ -68,9 +68,9 @@ EFNR 0 0 0
 stand stand male 0
 0 0 medium 0
 #7804
-oldstyle elf sentry valley~
-a valley elf sentry~
-A valley elf sentry stands here, then noticing you, attacks quickly!
+nöbet tutan vadi elfi nöbetçi~
+nöbet tutan bir vadi elfi~
+Burada nöbet tutan bir vadi elfi seni fark eder etmez hýzlýca saldýrýyor!
 ~
 This elf is almost as tall as you are, but much slimmer and more agile.
 She glares at your intrusion and attacks with menace.
@@ -83,9 +83,9 @@ EFNR 0 0 0
 stand stand female 0
 0 0 medium 0
 #7805
-oldstyle elf scout valley~
-a valley elf scout~
-A valley elf scout wanders the valley, searching for intruders like you!
+gözcülük yapan vadi elfi~
+gözcülük yapan bir vadi elfi~
+Gözcülük yapan bir vadi elfi, senin gibi davetsiz konuklarýn izini sürüyor!
 ~
 The elf notices your intrusion and attacks with determination.
 ~
@@ -97,9 +97,9 @@ EFNR 0 0 0
 stand stand male 0
 0 0 medium 0
 #7806
-oldstyle elf valley~
-a valley elf~
-A valley elf is here, doing her duties.
+vadi elfi~
+bir vadi elfi~
+Bir vadi elfi burada kendi iþleriyle uðraþýyor.
 ~
 She is currently doing some menial chores, and ignores your intrusion except
 when you are in her way.
@@ -112,10 +112,10 @@ EFNR 0 0 0
 stand stand female 0
 0 0 medium 0
 #7807
-oldstyle elf elder valley~
-a valley elf elder~
-A valley elf elder is here, studying.  He notices you.
-A valley elf elder shouts 'You have intruded wrongly.  Be prepared to die!'
+ihtiyar vadi elfi~
+ihtiyar bir vadi elfi~
+Ýhtiyar bir vadi elfi burada çalýþýrken seni fark ediyor.
+Ýhtiyar bir vadi elfi baðýrýyor 'Buraya izinsiz girdin.  Ölmeye hazýrlan!'
 ~
 This elf looks quite old, probably twenty or more times your age.  He looks
 quite potent, though.
@@ -128,10 +128,10 @@ EIKR 0 0 0
 stand stand male 0
 0 0 medium 0
 #7808
-oldstyle elf elder valley~
-a valley elf elder~
-A valley elf elder is here, studying.  She notices you.
-A valley elf elder says 'Your arrogance will be your end, human.'
+ihtiyar vadi elfi~
+ihtiyar bir vadi elfi~
+Ýhtiyar bir vadi elfi burada çalýþýrken seni fark ediyor.
+Ýhtiyar bir vadi elfi þöyle söylüyor 'Seni yolun sonuna getiren, küstahlýðýndýr.'
 ~
 This elf looks quite old, probably twenty or more times your age.  She looks
 quite potent, though.
@@ -144,9 +144,9 @@ FR 0 0 0
 stand stand female 0
 0 0 medium 0
 #7809
-oldstyle pyrohydra pyro hydra~
-the pyrohydra~
-A big beast with many heads, each breathing fire, stares at you with malice.
+ateþ hidrasý~
+ateþ hidrasý~
+Her biri ateþ püskürten bir çok baþý olan büyük yaratýk, garezle sana bakýyor.
 ~
 This big beast looks like a small red dragon, but has many more heads than a
 regular dragon, too.  It doesn't look happy.
@@ -159,9 +159,9 @@ EFNU 0 0 0
 stand stand none 0
 0 0 medium 0
 #7810
-oldstyle hermit man old~
-an old hermit~
-An old hermit sits here, smoking a pipe.
+keþiþ adam yaþlý~
+yaþlý bir keþiþ~
+Yaþlý bir keþiþ burada oturmuþ çubuk tüttürüyor.
 ~
 He looks old and feeble.
 ~
@@ -173,9 +173,9 @@ EFNU 0 0 0
 stand stand male 0
 0 0 medium 0
 #7811
-oldstyle talemon wizard mage~
+büyücü talemon~
 Talemon~
-An old mage busies himself with some chemicals.
+Yaþlý bir büyücü bir takým kimyasallarla meþgul.
 ~
 Talemon looks harmless, but the fireballs he throws at you don't.
 ~
@@ -187,9 +187,9 @@ FU 0 0 0
 stand stand male 50
 0 0 medium 0
 #7812
-oldstyle guardian daemon~
-the guardian daemon~
-A huge guardian daemon is here, watching the treasure.
+muhafýz cin~
+muhafýz cin~
+Devasa bir cin burada hazineyi gözetip koruyor.
 ~
 This daemon is unhappy with its summoned job, and is willing to take out it's
 anger at you!
@@ -202,9 +202,9 @@ EFNU 0 0 0
 stand stand none 0
 0 0 medium 0
 #7813
-oldstyle wolf~
-a wolf~
-A wolf is here, looking for small prey.
+kurt~
+bir kurt~
+Bir kurt görüyorsun, sessizce izliyor.
 ~
 The wolf is covered with brown hair.  It looks at you with fright.
 ~
@@ -216,9 +216,9 @@ ENR 0 0 0
 stand stand none 0
 0 0 medium 0
 #7814
-oldstyle antelope~
-an antelope~
-An antelope is here, peacefully munching on grass.
+antilop~
+bir antilop~
+Bir antilop burada, özgürce çimlerde otluyor.
 ~
 With horns and spots over coarse, brown hair, this beast is the spit and
 image of ... an antelope.
@@ -233,17 +233,17 @@ stand stand none 0
 #0
 #OBJECTS
 #7800
-chainmail elven chain mail~
-elven chainmail~
-A shiny metallic shirt is on the floor.~
+elf zincir zýrhý zincirzýrh~
+elf iþi zincirzýrh~
+Parlak metalik bir gömlek yerde duruyor.~
 iron~
 armor 0 AD
 4 4 4 2 0
 5 30 1080 P
 #7801
-boots elven~
-elven boots~
-Some soft boots are on the floor.~
+elf iþi botlar~
+elf iþi botlar~
+Oldukça yumuþak cinsten botlar yerde duruyor.~
 steel~
 armor 0 AG
 3 3 3 0 0
@@ -251,9 +251,9 @@ armor 0 AG
 A
 14 5
 #7802
-longsword elven sword long~
-an elven longsword~
-A shiny blade is on the floor.~
+uzunkýlýç elf iþi uzun kýlýç~
+elf iþi bir uzunkýlýç~
+Parlak bir býçak yerde duruyor.~
 steel~
 weapon G AN
 sword 3 3 slash 0
@@ -261,9 +261,9 @@ sword 3 3 slash 0
 A
 18 1
 #7803
-cloak brown~
-a brown cloak~
-A pile of brown cloth is on the floor.~
+kahverengi pelerin~
+kahverengi bir pelerin~
+Kahverengi bir kumaþ yýðýný yerde duruyor.~
 cloth~
 armor G AC
 3 3 3 0 0
@@ -271,25 +271,25 @@ armor G AC
 A
 2 1
 #7804
-key~
-a key~
-A shiny key is on the floor.~
+anahtar~
+bir anahtar~
+Parlak bir anahtar yerde duruyor.~
 bronze~
 key 0 A
 7846 0 0 0 0
 0 10 0 P
 #7805
-key~
-a key~
-A shiny key is on the floor.~
+anahtar~
+bir anahtar~
+Parlak bir anahtar yerde duruyor.~
 wood~
 key 0 A
 7880 0 0 0 0
 0 10 0 P
 #7806
-ring gold~
-a gold ring~
-A shiny ring is on the floor.~
+yüzük altýn~
+altýn bir yüzük~
+Parlak bir yüzük yerde duruyor.~
 gold~
 jewelry G AB
 0 0 0 0 0
@@ -297,9 +297,9 @@ jewelry G AB
 A
 12 10
 #7807
-quarterstaff staff two-handed~
-a quarterstaff~
-A quarterstaff is on the floor.~
+cirit çift-elli~
+bir cirit~
+Bir cirit yerde duruyor.~
 wood~
 weapon G AN
 staff 5 5 pound F
@@ -307,9 +307,9 @@ staff 5 5 pound F
 A
 19 2
 #7808
-potion~
-a potion~
-A potion is on the floor.~
+iksir~
+bir iksir~
+Bir iksir yerde duruyor.~
 glass~
 potion G A
 10 'armor' 'invisibility' '' ''
@@ -323,121 +323,121 @@ potion G A
 10 'energy drain' '' '' ''
 8 10 580 P
 #7810
-potion~
-a potion~
-A potion is on the floor.~
+iksir~
+bir iksir~
+Bir iksir yerde duruyor.~
 glass~
 potion G A
 10 'improved detect' 'detect magic' 'detect invis' 'weaken'
 4 10 290 P
 #7811
-potion~
-a potion~
-A potion is on the floor.~
+iksir~
+bir iksir~
+Bir iksir yerde duruyor.~
 glass~
 potion G A
 50 'dispel magic' 'dispel magic' 'dispel magic' ''
 6 10 1380 P
 #7812
-potion~
-a potion~
-A potion is on the floor.~
+iksir~
+bir iksir~
+Bir iksir yerde duruyor.~
 glass~
 potion G A
 10 'refresh' 'protection evil' '' ''
 2 10 240 P
 #7813
-potion~
-a potion~
-A potion is on the floor.~
+iksir~
+bir iksir~
+Bir iksir yerde duruyor.~
 glass~
 potion G A
 10 'sleep' '' '' ''
 1 10 250 P
 #7814
-potion~
-a potion~
-A potion is on the floor.~
+iksir~
+bir iksir~
+Bir iksir yerde duruyor.~
 glass~
 potion G A
 10 'bless' '' '' ''
 1 10 220 P
 #7815
-potion~
-a potion~
-A potion is on the floor.~
+iksir~
+bir iksir~
+Bir iksir yerde duruyor.~
 glass~
 potion G A
 10 'cure critical' '' '' ''
 5 10 330 P
 #7816
-potion~
-a potion~
-A potion is on the floor.~
+iksir~
+bir iksir~
+Bir iksir yerde duruyor.~
 glass~
 potion G A
 14 'farsight' '' '' ''
 6 10 420 P
 #7817
-scroll~
-a scroll~
-A scroll is on the floor.~
+parþömen~
+bir parþömen~
+Bir parþömen yerde duruyor.~
 vellum~
 scroll G A
 10 'cure critical' '' '' ''
 5 10 660 P
 #7818
-scroll~
-a scroll~
-A scroll is on the floor.~
+parþömen~
+bir parþömen~
+Bir parþömen yerde duruyor.~
 vellum~
 scroll G A
 16 'enchant armor' '' '' ''
 8 10 1090 P
 #7819
-scroll~
-a scroll~
-A scroll is on the floor.~
+parþömen~
+bir parþömen~
+Bir parþömen yerde duruyor.~
 vellum~
 scroll G A
 10 'detect evil' '' '' ''
 0 10 400 P
 #7820
-scroll~
-a scroll~
-A scroll is on the floor.~
+parþömen~
+bir parþömen~
+Bir parþömen yerde duruyor.~
 vellum~
 scroll G A
 10 'create water' '' '' ''
 0 10 400 P
 #7821
-scroll~
-a scroll~
-A scroll is on the floor.~
+parþömen~
+bir parþömen~
+Bir parþömen yerde duruyor.~
 vellum~
 scroll G A
 10 'magic missile' '' '' ''
 0 10 400 P
 #7822
-scroll~
-a scroll~
-A scroll is on the floor.~
+parþömen~
+bir parþömen~
+Bir parþömen yerde duruyor.~
 vellum~
 scroll G A
 10 'chill touch' '' '' ''
 0 10 400 P
 #7823
-scroll~
-a scroll~
-A scroll is on the floor.~
+parþömen~
+bir parþömen~
+Bir parþömen yerde duruyor.~
 vellum~
 scroll G A
 10 'heal' '' '' ''
 11 10 1360 P
 #7825
-quarterstaff staff two-handed~
-a quarterstaff~
-A quarterstaff is on the floor.~
+cirit çift-elli~
+bir cirit~
+Bir cirit yerde duruyor.~
 wood~
 weapon G AN
 staff 3 7 pound F
@@ -448,7 +448,7 @@ A
 
 #ROOMS
 #7800
-A Path from the Plains~
+Düzlüklerden uzanan bir Patika~
 You are on a path away from the Plains of Ofcol.  The path doesn't look well
 tread, but it is relatively well kept.  To the south are the Plains of Ofcol,
 while this path leads north.
@@ -470,7 +470,7 @@ D3
 0 0 8829
 S
 #7801
-Along the Path~
+Patika~
 You are on the path away from the Plains of Ofcol.  The main path leads north
 to an overlook and south back toward the Plains of Ofcol.  Western and eastern
 side paths can be seen, probably deer trails by the width of them.
@@ -498,7 +498,7 @@ You see the small trail.
 0 0 7802
 S
 #7802
-A Small Trail~
+Dar bir Patika~
 This small deer trail leads north and east.
 ~
 0 0 2
@@ -514,7 +514,7 @@ The main path is to the east.
 0 0 7801
 S
 #7803
-A Small Trail~
+Dar bir Patika~
 This small deer trail leads north and west.
 ~
 0 0 2
@@ -530,7 +530,7 @@ The main path is to the west.
 0 0 7801
 S
 #7804
-The Overlook~
+Tepeden bakýþ~
 You are above a large valley.  Below you, you see humanoid forms wandering
 around the valley.  Rich green grass covers the valley, with some small trees
 dotting the landscape.  To the south is the trail back toward Ofcol.
@@ -548,7 +548,7 @@ You see the entrance to the valley.
 0 0 7805
 S
 #7805
-The Entrance to the Valley of the Elves~
+Elf Vadisi'nin Giriþi~
 You are at the entrance to the Valley of the Elves.  Elves stare at your
 intrusion, but most are too busy to bother with you.  The valley spreads to
 the north, while enlarging toward the east and west.
@@ -576,7 +576,7 @@ The overlook is above you.
 0 0 7804
 S
 #7806
-The Edge of the Valley~
+Vadinin Kenarý~
 You are at the edge of the Valley of the Elves.  High above you, you see a small
 trail circling the entire valley.  The valley continues north and east.
 ~
@@ -593,7 +593,7 @@ The entrance to the valley is to the east.
 0 0 7805
 S
 #7807
-The Edge of the Valley~
+Vadinin Kenarý~
 You are at the edge of the Valley of the Elves.  High above you, you see a small
 trail circling the entire valley.  The valley continues north and west.
 ~
@@ -610,7 +610,7 @@ The entrance to the valley is to the west.
 0 0 7805
 S
 #7808
-The Edge of the Valley~
+Vadinin Kenarý~
 You are at the edge of the Valley of the Elves.  High above you, you see a small
 trail circling the entire valley.  The valley continues north and east.
 ~
@@ -627,7 +627,7 @@ The valley continues east.
 0 0 7809
 S
 #7809
-The Valley of the Elves~
+Elf Vadisi~
 You are in the Valley of the Elves.  The valley continues in all directions.
 ~
 0 0 2
@@ -653,7 +653,7 @@ The valley continues west.
 0 0 7808
 S
 #7810
-The Valley of the Elves~
+Elf Vadisi~
 You are in the Valley of the Elves.  The valley continues in all directions.
 The entrance to the valley is towards the south.
 ~
@@ -680,7 +680,7 @@ The valley continues west.
 0 0 7809
 S
 #7811
-The Valley of the Elves~
+Elf Vadisi~
 You are in the Valley of the Elves.  The valley continues in all directions.
 ~
 0 0 2
@@ -706,7 +706,7 @@ The valley continues west.
 0 0 7810
 S
 #7812
-The Edge of the Valley~
+Vadinin Kenarý~
 You are at the edge of the Valley of the Elves.  High above you, you see a small
 trail circling the entire valley.  The valley continues north and west.
 ~
@@ -723,7 +723,7 @@ The valley continues west.
 0 0 7811
 S
 #7813
-The Edge of the Valley~
+Vadinin Kenarý~
 You are at the edge of the Valley of the Elves.  A steep trail leads up toward
 the deer trail circling the valley.  The valley continues north, south, and
 east.
@@ -751,7 +751,7 @@ The steep trail leads up.
 0 0 7863
 S
 #7814
-The Valley of the Elves~
+Elf Vadisi~
 You are in the Valley of the Elves.  The valley continues in all directions.
 ~
 0 0 2
@@ -777,7 +777,7 @@ The valley continues west.
 0 0 7813
 S
 #7815
-The Valley of the Elves~
+Elf Vadisi~
 You are in the Valley of the Elves.  The valley continues in all directions.
 ~
 0 0 2
@@ -803,7 +803,7 @@ The valley continues west.
 0 0 7814
 S
 #7816
-The Valley of the Elves~
+Elf Vadisi~
 You are in the Valley of the Elves.  The valley continues in all directions.
 ~
 0 0 2
@@ -829,7 +829,7 @@ The valley continues west.
 0 0 7815
 S
 #7817
-The Edge of the Valley~
+Vadinin Kenarý~
 You are at the edge of the Valley of the Elves.  A steep trail leads up toward
 the deer trail circling the valley.  The valley continues north, south, and
 west.
@@ -857,7 +857,7 @@ The steep trail leads up.
 0 0 7853
 S
 #7818
-The Edge of the Valley~
+Vadinin Kenarý~
 You are at the edge of the Valley of the Elves.  High above you, you see a
 small trail circling the entire valley.  The valley continues south and east.
 ~
@@ -874,7 +874,7 @@ The valley continues south.
 0 0 7813
 S
 #7819
-The Valley of the Elves~
+Elf Vadisi~
 You are in the Valley of the Elves.  The valley continues in all directions.
 ~
 0 0 2
@@ -900,7 +900,7 @@ The valley continues west.
 0 0 7818
 S
 #7820
-The Valley of the Elves~
+Elf Vadisi~
 You are in the Valley of the Elves.  The valley continues in all directions.
 ~
 0 0 2
@@ -926,7 +926,7 @@ The valley continues west.
 0 0 7819
 S
 #7821
-The Valley of the Elves~
+Elf Vadisi~
 You are in the Valley of the Elves.  The valley continues in all directions.
 ~
 0 0 2
@@ -952,7 +952,7 @@ The valley continues west.
 0 0 7820
 S
 #7822
-The Edge of the Valley~
+Vadinin Kenarý~
 You are at the edge of the Valley of the Elves.  High above you, you see a small
 trail circling the entire valley.  The valley continues south and west.
 ~
@@ -969,7 +969,7 @@ The valley continues west.
 0 0 7821
 S
 #7823
-The Edge of the Valley~
+Vadinin Kenarý~
 You are at the edge of the Valley of the Elves.  High above you, you see a small
 trail circling the entire valley.  The valley continues south and east.
 ~
@@ -986,7 +986,7 @@ The valley continues south
 0 0 7819
 S
 #7824
-The Edge of the Valley~
+Vadinin Kenarý~
 You are in the Valley of the Elves.  The valley continues in all directions.
 To the north, a small, narrow trail leads away from the valley.
 ~
@@ -1013,7 +1013,7 @@ The valley continues west.
 0 0 7823
 S
 #7825
-The Edge of the Valley~
+Vadinin Kenarý~
 You are at the edge of the Valley of the Elves.  High above you, you see a small
 trail circling the entire valley.  The valley continues south and west.
 ~
@@ -1030,7 +1030,7 @@ The valley continues west.
 0 0 7824
 S
 #7826
-A Trail Leading from the Valley~
+Vadinin dýþýna uzanan bir Patika~
 You are on a narrow trail leading away from the Valley of the Elves.  This
 trail leads north and south.  A rope ladder leads up to a rope bridge.
 ~
@@ -1052,7 +1052,7 @@ You see the rope bridge above you.
 0 0 7858
 S
 #7827
-Along the Trail~
+Patika~
 You are on the trail away from the Valley of the Elves.  The hills around you
 keep this trail narrow.  The trail continues east, south, west and north.
 You see the the field beyond the north trail.
@@ -1080,7 +1080,7 @@ The trail continues west.
 0 0 7868
 S
 #7828
-A Bend in the Trail~
+Patikada bir dönemeç~
 You are on the trail away from the Valley of the Elves.  The hills around you
 keep this trail narrow.  The trail continues north and back west.
 ~
@@ -1097,7 +1097,7 @@ The trail goes back to the west.
 0 0 7827
 S
 #7829
-A Smaller Valley~
+Daha küçük bir Vadi~
 You are in another valley within these hills. To the north, you can see a
 building, and to the south you see the trail away from this valley.  The
 west and east paths surround this building.
@@ -1125,7 +1125,7 @@ You see the trail around the building.
 0 0 7830
 S
 #7830
-A Trail in the Valley~
+Vadideki bir Patika~
 You are on the trail in the Valley of the Elves.  This trail leads north and
 east.  To the north-east is a building.
 ~
@@ -1142,7 +1142,7 @@ You see the trail.
 0 0 7829
 S
 #7831
-A Trail in the Valley~
+Vadideki bir Patika~
 You are on the trail in the Valley of the Elves.  This trail leads west and
 east.  To the north is a building.
 ~
@@ -1159,7 +1159,7 @@ You see the trail.
 0 0 7829
 S
 #7832
-A Trail in the Valley~
+Vadideki bir Patika~
 You are on the trail in the Valley of the Elves.  This trail leads north and
 south.  To the east is a building.
 ~
@@ -1176,7 +1176,7 @@ You see the trail.
 0 0 7830
 S
 #7833
-A Trail in the Valley~
+Vadideki bir Patika~
 You are on the trail in the Valley of the Elves.  This trail leads north and
 west.  To the north-west is a building.
 ~
@@ -1193,7 +1193,7 @@ You see the trail.
 0 0 7831
 S
 #7834
-The Elf Home~
+Elf Yuvasý~
 You are in the home of the valley elves.  The building continues to the north
 and the east, and the exit is to the south.
 ~
@@ -1215,7 +1215,7 @@ door~
 1 -1 7829
 S
 #7835
-The Kitchen~
+Mutfak~
 You are in a community kitchen for this valley elven home.  Pots and pans line
 the walls, along with shelves filled with many foodstuffs.  A big oven is to one
 side, and you can smell elfcakes being baked.
@@ -1234,7 +1234,7 @@ The building continues to the west.
 0 0 7834
 S
 #7836
-A Trail in the Valley~
+Vadideki bir Patika~
 You are on the trail in the Valley of the Elves.  This trail leads north and
 south.  To the west is a building.
 ~
@@ -1251,7 +1251,7 @@ You see the trail.
 0 0 7833
 S
 #7837
-A Trail in the Valley~
+Vadideki bir Patika~
 You are on the trail in the Valley of the Elves.  This trail leads north and
 south.  To the east is a building.
 ~
@@ -1268,7 +1268,7 @@ You see the trail.
 0 0 7832
 S
 #7838
-The Living Room~
+Salon~
 You are in the living room of the elven home.  Mats cover the floor, and a
 on a table is a bowl full of fruits.  Through the window you can see the
 valley, with its wild flowers and tall, green grasses.
@@ -1286,7 +1286,7 @@ The entrance is to the south.
 0 0 7834
 S
 #7839
-The Storage Room~
+Depo~
 You are in the storage room of the elven home.  Sacks of flour cover one side,
 and cleaning accessories cover the other side.  You find nothing of use here.
 A staircase leads up.
@@ -1309,7 +1309,7 @@ You see the second floor.
 0 0 7848
 S
 #7840
-A Trail in the Valley~
+Vadideki bir Patika~
 You are on the trail in the Valley of the Elves.  This trail leads north and
 south.  To the west is a building.
 ~
@@ -1326,7 +1326,7 @@ You see the trail.
 0 0 7836
 S
 #7841
-A Trail in the Valley~
+Vadideki bir Patika~
 You are on the trail in the Valley of the Elves.  This trail leads south and
 east.  To the south-east is a building.
 ~
@@ -1343,7 +1343,7 @@ You see the trail.
 0 0 7837
 S
 #7842
-A Trail in the Valley~
+Vadideki bir Patika~
 You are on the trail in the Valley of the Elves.  This trail leads west and
 east.  To the south is a building.
 ~
@@ -1360,7 +1360,7 @@ You see the trail.
 0 0 7841
 S
 #7843
-A Trail in the Valley~
+Vadideki bir Patika~
 You are on the trail in the Valley of the Elves.  This trail leads east and
 west.  To the south is a building.
 ~
@@ -1377,7 +1377,7 @@ You see the trail.
 0 0 7842
 S
 #7844
-A Trail in the Valley~
+Vadideki bir Patika~
 You are on the trail in the Valley of the Elves.  This trail leads south and
 west.  To the south-west is a building.
 ~
@@ -1394,7 +1394,7 @@ You see the trail.
 0 0 7843
 S
 #7845
-The Elders' Room~
+Ýhtiyarlar Odasý~
 You are in the room of the valley elf elders.  Books written in strange
 languages line the numerous shelves, and scrolls cover a table.  There is a
 smooth spheric object in the center of the room.
@@ -1412,7 +1412,7 @@ door~
 1 7804 7846
 S
 #7846
-The Storage Room~
+Depo~
 You are in a storage room.  Many useless (to you) items fill this room.
 ~
 0 D 0
@@ -1428,7 +1428,7 @@ door~
 1 7804 7845
 S
 #7847
-The Sleeping Quarters~
+Dinlenme Bölmeleri~
 You are in the sleeping quarters of the valley elves.  Cots line the floor,
 with two windows showing a view of the valley.  Books in strange languages
 line the shelves, but nothing of interest is here.
@@ -1446,7 +1446,7 @@ door~
 1 -1 7845
 S
 #7848
-Study~
+Çalýþma Odasý~
 You are in the study room of the valley elves.  Comfortable mats are on the
 floor, and musical instruments are neatly stacked on shelves.  Books in
 strange languages line some other elves.  A stairway leads down to the
@@ -1470,7 +1470,7 @@ You see the first floor.
 0 0 7839
 S
 #7849
-Along a Windy Trail on the Rim of the Valley~
+Vadinin Kenarýndaki Rüzgarlý bir Patika~
 You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
 you can see the valley, filled with wild flowers and tall, green grasses.
 ~
@@ -1490,7 +1490,7 @@ The trail down doesn't look safe to travel on at all.
 0 0 7883
 S
 #7850
-Along a Windy Trail on the Rim of the Valley~
+Vadinin Kenarýndaki Rüzgarlý bir Patika~
 You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
 you can see the valley, filled with wild flowers and tall, green grasses.
 ~
@@ -1510,7 +1510,7 @@ The trail down doesn't look safe to travel on at all.
 0 0 7883
 S
 #7851
-Along a Windy Trail on the Rim of the Valley~
+Vadinin Kenarýndaki Rüzgarlý bir Patika~
 You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
 you can see the valley, filled with wild flowers and tall, green grasses.
 ~
@@ -1530,7 +1530,7 @@ The trail down doesn't look safe to travel on at all.
 0 0 7883
 S
 #7852
-Along a Windy Trail on the Rim of the Valley~
+Vadinin Kenarýndaki Rüzgarlý bir Patika~
 You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
 you can see the valley, filled with wild flowers and tall, green grasses.
 ~
@@ -1550,7 +1550,7 @@ The trail down doesn't look safe to travel on at all.
 0 0 7883
 S
 #7853
-Along a Windy Trail on the Rim of the Valley~
+Vadinin Kenarýndaki Rüzgarlý bir Patika~
 You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
 you can see the valley, filled with wild flowers and tall, green grasses.
 A safe trail leads down into the valley.
@@ -1571,7 +1571,7 @@ The trail down looks safe.
 0 0 7817
 S
 #7854
-Along a Windy Trail on the Rim of the Valley~
+Vadinin Kenarýndaki Rüzgarlý bir Patika~
 You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
 you can see the valley, filled with wild flowers and tall, green grasses.
 ~
@@ -1591,7 +1591,7 @@ The trail down doesn't look safe to travel on at all.
 0 0 7883
 S
 #7855
-Along a Windy Trail on the Rim of the Valley~
+Vadinin Kenarýndaki Rüzgarlý bir Patika~
 You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
 you can see the valley, filled with wild flowers and tall, green grasses.
 ~
@@ -1611,7 +1611,7 @@ The trail down doesn't look safe to travel on at all.
 0 0 7883
 S
 #7856
-Along a Windy Trail on the Rim of the Valley~
+Vadinin Kenarýndaki Rüzgarlý bir Patika~
 You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
 you can see the valley, filled with wild flowers and tall, green grasses.
 ~
@@ -1631,7 +1631,7 @@ The trail down doesn't look safe to travel on at all.
 0 0 7883
 S
 #7857
-Along a Windy Trail on the Rim of the Valley~
+Vadinin Kenarýndaki Rüzgarlý bir Patika~
 You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
 you can see the valley, filled with wild flowers and tall, green grasses.
 ~
@@ -1651,7 +1651,7 @@ The trail down doesn't look safe to travel on at all.
 0 0 7883
 S
 #7858
-On the Rope Bridge~
+Örme Köprü~
 You are on the rope bridge.  From here, you can see the whole Valley of the
 Elves.  To the south, you see the main valley.  To the north-east, you see a
 smaller valley with a building in the center of it.  To the north-west, you
@@ -1674,7 +1674,7 @@ You see the trail.
 0 0 7826
 S
 #7859
-Along a Windy Trail on the Rim of the Valley~
+Vadinin Kenarýndaki Rüzgarlý bir Patika~
 You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
 you can see the valley, filled with wild flowers and tall, green grasses.
 ~
@@ -1695,7 +1695,7 @@ The trail down doesn't look safe to travel on at all.
 0 0 7883
 S
 #7860
-Along a Windy Trail on the Rim of the Valley~
+Vadinin Kenarýndaki Rüzgarlý bir Patika~
 You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
 you can see the valley, filled with wild flowers and tall, green grasses.
 ~
@@ -1719,7 +1719,7 @@ The trail down doesn't look safe to travel on at all.
 0 0 7883
 S
 #7861
-Along a Windy Trail on the Rim of the Valley~
+Vadinin Kenarýndaki Rüzgarlý bir Patika~
 You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
 you can see the valley, filled with wild flowers and tall, green grasses.
 ~
@@ -1739,7 +1739,7 @@ The trail down doesn't look safe to travel on at all.
 0 0 7883
 S
 #7862
-Along a Windy Trail on the Rim of the Valley~
+Vadinin Kenarýndaki Rüzgarlý bir Patika~
 You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
 you can see the valley, filled with wild flowers and tall, green grasses.
 ~
@@ -1759,7 +1759,7 @@ The trail down doesn't look safe to travel on at all.
 0 0 7883
 S
 #7863
-Along a Windy Trail on the Rim of the Valley~
+Vadinin Kenarýndaki Rüzgarlý bir Patika~
 You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
 you can see the valley, filled with wild flowers and tall, green grasses.
 A safe trail leads down into the valley.
@@ -1780,7 +1780,7 @@ The trail down looks safe.
 0 0 7813
 S
 #7864
-Along a Windy Trail on the Rim of the Valley~
+Vadinin Kenarýndaki Rüzgarlý bir Patika~
 You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
 you can see the valley, filled with wild flowers and tall, green grasses.
 ~
@@ -1800,7 +1800,7 @@ The trail down doesn't look safe to travel on at all.
 0 0 7883
 S
 #7865
-Along a Windy Trail on the Rim of the Valley~
+Vadinin Kenarýndaki Rüzgarlý bir Patika~
 You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
 you can see the valley, filled with wild flowers and tall, green grasses.
 ~
@@ -1820,7 +1820,7 @@ The trail down doesn't look safe to travel on at all.
 0 0 7883
 S
 #7866
-Along a Windy Trail on the Rim of the Valley~
+Vadinin Kenarýndaki Rüzgarlý bir Patika~
 You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
 you can see the valley, filled with wild flowers and tall, green grasses.
 ~
@@ -1840,7 +1840,7 @@ The trail down doesn't look safe to travel on at all.
 0 0 7883
 S
 #7867
-Along a Windy Trail on the Rim of the Valley~
+Vadinin Kenarýndaki Rüzgarlý bir Patika~
 You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
 you can see the valley, filled with wild flowers and tall, green grasses.
 ~
@@ -1860,7 +1860,7 @@ The trail down doesn't look safe to travel on at all.
 0 0 7883
 S
 #7868
-A Bend in the Trail~
+Patikadaki bir dönemeç~
 You are on a bend in the trail leading from the main valley.  The hills around
 you make this trail quite narrow.
 ~
@@ -1877,7 +1877,7 @@ The trail continues east.
 0 0 7827
 S
 #7869
-A Bend in the Trail~
+Patikadaki bir dönemeç~
 You are on a bend in the trail leading from the main valley.  The hills around
 you make this trail quite narrow.  To the west, you can see an even smaller
 valley, with looks like a small shack in the center of it.
@@ -1895,7 +1895,7 @@ The entrance to the small valley is to the west.
 0 0 7870
 S
 #7870
-The Small Valley~
+Küçük Vadi~
 You are in the small valley.  Strangely, tall trees grow here, almost as if some
 magic was used to help them grow.  The exit from this valley is to the east, and
 the entrance to the shack is to the west.
@@ -1923,7 +1923,7 @@ door~
 1 -1 7878
 S
 #7871
-The Small Valley~
+Küçük Vadi~
 You are in the small valley.  Strangely, tall trees grow here, almost as if some
 magic was used to help them grow.  To the south-west is a small shack.
 ~
@@ -1940,7 +1940,7 @@ The valley continues to the west.
 0 0 7873
 S
 #7872
-The Small Valley~
+Küçük Vadi~
 You are in the small valley.  Strangely, tall trees grow here, almost as if some
 magic was used to help them grow.  To the north-west is a small shack.
 ~
@@ -1957,7 +1957,7 @@ The valley continues to the west.
 0 0 7877
 S
 #7873
-The Small Valley~
+Küçük Vadi~
 You are in the small valley.  Strangely, tall trees grow here, almost as if some
 magic was used to help them grow.  To the south is a small shack.
 ~
@@ -1974,9 +1974,9 @@ The valley continues to the west.
 0 0 7874
 S
 #7874
-The Small Valley~
+Küçük Vadi~
 You are in the small valley.  Strangely, tall trees grow here, almost as if some
-magic was used to help them grow.  To the south-east is a small shack.  
+magic was used to help them grow.  To the south-east is a small shack.
 To the north is the oak doors of an high tower.
 ~
 0 0 2
@@ -1992,7 +1992,7 @@ The valley continues to the south.
 0 0 7875
 S
 #7875
-The Small Valley~
+Küçük Vadi~
 You are in the small valley.  Strangely, tall trees grow here, almost as if some
 magic was used to help them grow.  To the east is a small shack.
 ~
@@ -2009,7 +2009,7 @@ The valley continues to the south.
 0 0 7876
 S
 #7876
-The Small Valley~
+Küçük Vadi~
 You are in the small valley.  Strangely, tall trees grow here, almost as if some
 magic was used to help them grow.  To the north-east is a small shack.
 ~
@@ -2026,7 +2026,7 @@ The valley continues to the east.
 0 0 7877
 S
 #7877
-The Small Valley~
+Küçük Vadi~
 You are in the small valley.  Strangely, tall trees grow here, almost as if some
 magic was used to help them grow.  To the north is a small shack.
 ~
@@ -2043,7 +2043,7 @@ The valley continues to the west.
 0 0 7876
 S
 #7878
-Inside the Small Shack~
+Küçük Kulübenin Ýçi~
 You are inside the small shack.  A small stove is on the side, with soup
 cooking over it.  You see nothing valuable.
 ~
@@ -2060,7 +2060,7 @@ trap door~
 1 -1 7879
 S
 #7879
-Beneath the Small Shack~
+Küçük Kulübenin Aþaðýsý~
 You are beneath the small shack, in a tunnel that leads south.  It feels
 quite warm down here.
 ~
@@ -2077,7 +2077,7 @@ trap door~
 1 -1 7878
 S
 #7880
-The Den of the Pyrohydra~
+Ateþ Hidrasý'nýn Ýni~
 You are in the den of the pyrohydra.  All the walls are charred, and this
 room is filled with a smell close to that of burning tar.
 ~
@@ -2099,7 +2099,7 @@ door~
 1 7805 7881
 S
 #7881
-The Workroom~
+Çalýþma odasý~
 This room looks like it is used for magical studies.  Potions bubble over
 burners, and the whole room spells of herbs and dead animal flesh.  A furnace
 to the side casts a bright light in this room.  The whole room radiates with
@@ -2112,7 +2112,7 @@ door~
 1 7805 7880
 S
 #7882
-The Storage Room~
+Depo~
 This room is used to store scrolls, potions, and other magical items.  The
 whole room radiates with a magical aura.
 ~
@@ -2123,11 +2123,11 @@ secret door~
 1 7805 7880
 S
 #7883
-WAY Far Down into the Valley~
+Vadinin derinliklerine doðru giden YOL!~
 You have fallen trying to go down this steep hill.  Maybe that wasn't that
 good an idea, huh?
 
-You've fallen, and you can't get up!
+Yuvarlandýn, ve kalkamayacak kadar sersemledin.. Seni zavallý küçük þey!
 ~
 0 C 0
 S

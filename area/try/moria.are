@@ -6,9 +6,9 @@ Moria~
 
 #MOBILES
 #4000
-python snake~
-the huge python~
-The huge python rears its head and hisses at you. 
+piton yýlaný~
+dev piton yýlaný~
+Dev piton kafasýný kaldýrarak sana týslýyor.
 ~
 It sways back and forth contemplating whether or not to eat you.
 ~
@@ -20,9 +20,9 @@ FHNOR 0 F 0
 stand stand either 0
 0 0 large 0
 #4001
-garter snake~
-the garter snake~
-A small green garter snake slithers along the floor.
+küçük yýlan~
+küçük yýlan~
+Küçük yeþil bir yýlan yerde sürünüyor.
 ~
 It looks harmless enough.  Or is it?
 ~
@@ -34,9 +34,9 @@ FHR 0 E 0
 stand stand either 0
 0 0 small 0
 #4002
-centipede~
-the centipede~
-A small centipede here is looking for vegetation.
+kýrkayak~
+kýrkayak~
+Küçük bir kýrkayak burada bitki arýyor.
 ~
 It looks completely harmless but who knows for sure?
 ~
@@ -49,8 +49,8 @@ stand stand none 0
 0 0 tiny 0
 #4003
 kobold~
-the kobold~
-An ugly kobold mumbles something under its breath.
+kobold~
+Çirkin bir kobold gýrtlaktan birþeyler mýrýldanýyor.
 ~
 It looks ugly enough to scare its own mother.
 ~
@@ -62,9 +62,9 @@ R 0 0 0
 stand stand either 18
 0 0 small 0
 #4004
-orc~
-the orc~
-This orc is frothing around the mouth.  Better stay away.
+ork~
+ork~
+Bu orkun aðzýndan köpükler çýkýyor. Uzak dursan iyi olur.
 ~
 You notice a slight tinge of madness in his eyes.
 ~
@@ -76,9 +76,9 @@ CDNR 0 C 0
 stand stand male 60
 B 0 medium 0
 #4005
-orc~
-the large orc~
-This large orc is looking for someone small to pick on.
+ork~
+iri ork~
+Bu iri ork diþlerini karýþtýrmak için küçük birini arýyor.
 ~
 The orc says, "Whatcha look'n at?"
 ~
@@ -90,9 +90,9 @@ CJR 0 0 0
 stand stand either 120
 0 0 medium 0
 #4050
-warrior~
-the warrior~
-This tall warrior has more scars than even you!
+savaþçý~
+savaþçý~
+Bu uzun savaþçýnýn senden daha çok yara izi var.
 ~
 He's surely a strong, brainless fighter.  Like you.
 ~
@@ -104,9 +104,9 @@ CIQR 0 0 0
 stand stand male 300
 0 0 medium 0
 #4051
-warrior~
-the warrior~
-This veteran warrior is old enough to be your father.
+savaþçý~
+savaþçý~
+Bu deneyimli savaþçý neredeyse baban yaþýnda.
 ~
 He seems to know his way with weapons.  And he wants
 to show you what he can do!
@@ -120,8 +120,8 @@ stand stand male 140
 0 0 medium 0
 #4052
 hobgoblin~
-the hobgoblin~
-A small beat-up hobgoblin cringes in the corner.
+hobgoblin~
+Küçük bitkin bir hobgoblin köþeye sinmiþ duruyor.
 ~
 Looking into the eyes of this poor soul makes you feel
 sad as you see the terror and fear in its eyes.  Why
@@ -135,9 +135,9 @@ N 0 0 C
 stand stand male 12
 0 0 medium 0
 #4053
-snake~
-the snake~
-A sickly brown snake watches you with caution.
+yýlan~
+yýlan~
+Hastalýklý bir kahverengi yýlan dikkatle seni izliyor.
 ~
 A closer look reveals a hungry demeanor.  Don't get too close!
 ~
@@ -149,9 +149,9 @@ FGNR 0 EF 0
 stand stand either 0
 0 0 medium 0
 #4054
-centipede~
-the centipede~
-A white centipede crawls along the cave floors randomly.
+kýrkayak~
+kýrkayak~
+Beyaz bir kýrkayak maðara yüzeyi boyunca geliþigüzel sürünüyor.
 ~
 The centipede doesn't really seem to notice you.
 ~
@@ -164,8 +164,8 @@ stand stand none 0
 0 0 small 0
 #4055
 hobgoblin~
-the large hobgoblin~
-A large hobgoblin is here wondering if he should tear you apart.
+iri hobgoblin~
+Ýri bir hobgoblin seni koparýp koparamayacaðýný merak ediyor.
 ~
 Red, bloodshot eyes and drool dripping from its mouth makes you
 wonder just how far away you should be.
@@ -178,11 +178,11 @@ CDJR 0 C 0
 stand stand male 210
 0 0 medium 0
 #4056
-orc~
-the orc~
-An orc is here, looking for something (or perhaps someone) to eat.
+ork~
+ork~
+Bir ork burada yiyecek birþey (ya da belki birisi) için bakýnýyor.
 ~
-As you already know, orcs have quite a ravenous appetite.  
+As you already know, orcs have quite a ravenous appetite.
 Care to be dinner?
 ~
 orc~
@@ -193,9 +193,9 @@ CNR 0 0 0
 stand stand either 60
 0 0 medium 0
 #4057
-lion mountain~
-the mountain lion~
-A mountain lion bears its teeth at the sight of more food.
+aslan dað~
+dað aslaný~
+Bir dað aslaný yeni bir av için diþlerini yalýyor.
 ~
 Huge claws and big teeth make quite a fearsome opponent for
 the weary.  Are you next?
@@ -208,9 +208,9 @@ ER 0 E 0
 stand stand either 0
 0 0 large 0
 #4058
-giant hill~
-the hill giant~
-A hill giant is here tossing rocks around.  Marbles perhaps?
+dað dev~
+dað devi~
+Bir dað devi burada etrafýna kaya fýrlatýyor. Belki de mermer?
 ~
 The hill giant looks like he's about 9 feet tall. By his actions you
 come to the conclusion that he's not very intelligent.  A perfect
@@ -224,10 +224,9 @@ DOR 0 D 0
 stand stand male 500
 0 0 huge 0
 #4100
-mage~
-the Mage~
-A small intelligent looking mage is standing here. It looks like he
-knows his way with magic. 
+büyücü~
+Büyücü~
+Küçük, zeki görünüþlü bir büyücü bir þeyler fýsýldamaya hazýrlanýyor.
 ~
 This guy can ace the SAT with his frontal lobe tied behind his back.
 ~
@@ -239,9 +238,9 @@ FQ 0 C 0
 stand stand male 400
 0 0 medium 0
 #4101
-troll~
-the troll~
-This large mean-looking troll wants to take a closer look at you.
+rugar~
+rugar~
+Bu iri görünümlü rugar sana daha yakýndan bakmayý düþünüyor.
 ~
 Whilst you look at this troll, you realize he is trying to
 figure just how tender you are.
@@ -254,9 +253,9 @@ CEOR 0 0 0
 stand stand male 200
 0 0 large 0
 #4102
-guardian snake~
-the guardian snake~
-A large green snake is guardian for something.
+gardiyan yýlan~
+gardiyan yýlan~
+Ýri yeþil bir yýlan birþeyleri koruyor.
 ~
 You take a closer look at this large snake while it tries to
 bite your head off!
@@ -269,9 +268,9 @@ HMNOR 0 F G
 stand stand either 0
 0 0 medium 0
 #4103
-thief~
-the thief~
-A thief, all dressed in black.
+hýrsýz~
+hýrsýz~
+Tamamen siyahlar içinde bir hýrsýz.
 ~
 Well COUNT your money!
 ~
@@ -283,9 +282,9 @@ EFJN 0 0 0
 stand stand either 100
 0 0 medium 0
 #4104
-orc~
-the orc~
-An ugly orc is standing here waiting for someone to practice on.
+ork~
+ork~
+Çirkin bir ork üzerinde pratik yapabileceði birilerini bekliyor.
 ~
 Yrkk..  He belches in your face!
 ~
@@ -297,9 +296,9 @@ CJR 0 0 0
 stand stand male 150
 0 0 medium 0
 #4105
-centipede~
-a centipede~
-A small harmless centipede is here looking for some vegetation to eat.
+kýrkayak~
+kýrkayak~
+Küçük, zararsýz bir kýrkayak, burada yiyecek yeþillik arýyor.
 ~
 It doesn't seem to pay any attention towards you.  You are probably
 not important.
@@ -312,9 +311,9 @@ FR 0 0 0
 stand stand none 0
 0 0 small 0
 #4106
-warrior~
-the Warrior~
-A human warrior grins an evil grin in your face.
+savaþçý~
+Þavaþçý~
+Bir insan savaþçý suratýna sinsi bir sýrýtýþ sallýyor.
 ~
 He doesn't look friendly at all...  He is no Mr. Rogers!
 ~
@@ -327,8 +326,8 @@ stand stand male 300
 0 0 medium 0
 #4107
 kobold~
-the green kobold~
-A green kobold hobbles along the cave walls puking periodically.
+yeþil kobold~
+Yeþil bir kobold maðara duvarýnda topallarken sürekli kusuyor.
 ~
 It looks a little sick.  Something he ate maybe?
 ~
@@ -340,9 +339,9 @@ NR 0 0 0
 stand stand either 25
 0 0 small 0
 #4150
-bat blue~
-the blue bat~
-A blue bat flies in circles while electrical charges arc here and there.
+mavi yarasa~
+mavi yarasa~
+Mavi bir yarasa daireler çizerek uçarken elektrik akýmlarý oluþturuyor.
 ~
 Bzzzt.  Zap.  Crackle.  Speak about static electricity!
 ~
@@ -354,9 +353,9 @@ R J 0 RYZ
 stand stand either 0
 0 0 tiny 0
 #4151
-bat red~
-the red bat~
-A red bat hangs upside down from the ceiling, glowing.
+kýrmýzý yarasa~
+kýrmýzý yarasa~
+Kýrmýzý bir yarasa tavanda baþaþaðý asýlý duruyor ve parlýyor.
 ~
 You can definitely feel some heat from this thing.  A fever perhaps?
 ~
@@ -368,9 +367,9 @@ R H 0 IR
 stand stand either 0
 0 0 tiny 0
 #4152
-bat green~
-the green bat~
-A green bat flies from wall to wall leaving an awful smell.
+yarasa yeþil~
+yeþil yarasa~
+Yeþil bir yarasa duvardan duvara uçarken berbat bir koku býrakýyor.
 ~
 Whew!  What a stinker!
 ~
@@ -382,9 +381,9 @@ R L 0 0
 stand stand either 0
 B 0 tiny 0
 #4153
-bat white~
-the white bat~
-A white bat rests on the ceiling.  You wonder where the cold is coming from.
+beyaz yarasa~
+beyaz yarasa~
+Beyaz bir yarasa tavanda dinleniyor. Bu soðuðun nereden geldiðini merak ediyorsun.
 ~
 Brrr!  You almost can't distinguish this bat from an ice cube.
 ~
@@ -396,9 +395,9 @@ R I 0 H
 stand stand either 0
 0 0 tiny 0
 #4154
-bat black~
-the black bat~
-A black bat flies from wall to wall leaving something hissing behind.
+siyah yarasa~
+siyah yarasa~
+Siyah bir yarasa duvarlarda uçarken geride týslayan bir sývý býrakýyor.
 ~
 Amazing!  This bat is grooming itself with acid!
 ~
@@ -410,9 +409,9 @@ R K 0 0
 stand stand either 0
 0 0 tiny 0
 #4155
-thief~
-the thief~
-A sneaky thief appears and disappears within the shadows.
+hýrsýz~
+hýsrýz~
+Sinsi bir hýrsýz gölgelerden ortaya çýkýyor ve yok oluyor.
 ~
 He definitely knows what he's doing.  Trust him.
 ~
@@ -424,9 +423,9 @@ BFJNQU 0 0 0
 stand stand male 500
 0 0 medium 0
 #4156
-troll~
-the troll~
-A large ugly troll is here mumbling something.
+rugar~
+rugar~
+Ýri çirkin bir rugar burada birþeyler mýrýldanýyor.
 ~
 He looks quite mean.  Don't mess with him.
 ~
@@ -438,9 +437,9 @@ CEOR 0 0 C
 stand stand male 1000
 0 0 huge 0
 #4157
-mage~
-the Mage~
-A small man is here researching magical incantations.
+büyücü~
+Büyücü~
+Küçük bir adam burada büyüler üzerine araþtýrma yapýyor.
 ~
 His little head is buried into his magic books.  He'd be very
 angry should you bother his studies.
@@ -453,9 +452,9 @@ QU 0 C 0
 stand stand male 200
 0 0 medium 0
 #4158
-snake~
-the snake~
-A brown snake hisses at you.
+yýlan~
+yýlan~
+Kahverengi bir yýlan sana týslýyor.
 ~
 Sickly brown as it is, you know what it really wants is you
 for dinner.
@@ -468,9 +467,9 @@ FGNR 0 EF 0
 fight fight either 0
 0 0 medium 0
 #4159
-troll~
-the small troll~
-A 'small' troll is here happily dancing.  Trala-la-la.  La-la.
+rugar~
+küçük rugar~
+'Küçük' bir rugar burada neþeyle dans ediyor.  Trala-la-la.  La-la.
 ~
 He is so happy, you are disgusted.  Kill him now!
 ~
@@ -482,9 +481,9 @@ EJR 0 0 0
 stand stand male 100
 0 0 large 0
 #4160
-orc~
-the orc~
-A large orc growls in your face.
+ork~
+ork~
+Ýri bir ork suratýna hýrlýyor.
 ~
 He is just looking for a fight isn't he?
 ~
@@ -499,9 +498,9 @@ stand stand either 150
 
 #OBJECTS
 #4000
-ring yellow green~
-a yellow and green ring~
-A ring, with yellow and green ornamentation. It looks very old.~
+sarý yeþil yüzük~
+sarý ve yeþil bir yüzük~
+Sarý ve yeþil iþlemeli bir yüzük. Oldukça eski görünüyor.~
 copper~
 treasure 0 AB
 0 0 0 0 0
@@ -509,34 +508,34 @@ treasure 0 AB
 A
 1 -2
 E
-ring~
+yüzük~
 It feels heavy.
 ~
 #4001
-corpse~
-a corpse~
-A halfway decayed corpse of a cartographer.~
+ceset~
+bir ceset~
+Bir yerbilimcinin yarý çürümüþ cesedi.~
 flesh~
 npc_corpse P A
 0 0 0 0 0
 0 1000 0 P
 E
-corpse~
+ceset~
 Ew.  This must have been the mapper that was lost in Moria.  His rotted hand
 still clutches a partially digested map...
 ~
 #4002
-coins~
-some coins~
-A small pile of coins.~
+sikke~
+bir miktar sikke~
+Küçük bir sikke yýðýný.~
 silver~
 money 0 A
 200 3 0 0 0
 0 5000 0 P
 #4003
-dagger rusty~
-a rusty dagger~
-A worn and rusty dagger is here.~
+hançer paslý~
+paslý bir hançer~
+Yýpranmýþ ve paslý bir hançer burada.~
 iron~
 weapon 0 AN
 dagger 1 5 stab 0
@@ -548,9 +547,9 @@ dagger~
 It's old and rusted, but it still has a good edge.
 ~
 #4004
-bullwhip whip~
-a bullwhip~
-A coiled length of leather is here...looks like a nasty whip!~
+kalýn kýrbaç~
+bir kalýn kýrbaç~
+Sarmalanmýþ deri bir sicim burada...tehlikeli bir kýrbaç gibi görünüyor!~
 leather~
 weapon 0 AN
 whip 1 7 whip 0
@@ -558,9 +557,9 @@ whip 1 7 whip 0
 A
 18 1
 #4005
-club tree huge~
-a huge club~
-An uprooted tree leans against the wall.~
+aðaç kalas kalýn~
+kalýn bir kalas~
+Kökünden sökülmüþ bir aðaç, duvara yaslanmýþ.~
 wood~
 weapon 0 AN
 mace 2 9 crush F
@@ -573,9 +572,9 @@ This is the biggest club you have ever seen!  The giant didn't even bother to
 trim the roots off the end.
 ~
 #4006
-furs smelly~
-some smelly furs~
-A heap of smelly furs sit here.~
+kokmuþ post~
+birkaç kokmuþ post~
+Kokmuþ bir post yýðýný burada duruyor.~
 fur~
 armor 0 AK
 5 6 5 1 3
@@ -588,9 +587,9 @@ They're heavy and smelly and would probably slow you down...but they do look
 like good armor.
 ~
 #4050
-potion purple~
-a purple potion~
-A purple potion is here.~
+iksir mor~
+mor bir iksir~
+Mor bir iksir burada duruyor.~
 glass~
 potion 0 AO
 13 'cure blindness' 'sanctuary' '' ''
@@ -600,9 +599,9 @@ potion purple~
 It looks rather strange!
 ~
 #4051
-helmet metal~
-a metal helmet~
-A metal helmet is here.~
+metal miðfer~
+metal bir miðfer~
+metal bir miðfer burada.~
 iron~
 armor G AE
 4 4 3 2 1
@@ -610,9 +609,9 @@ armor G AE
 A
 20 -1
 #4052
-mushroom~
-a mushroom~
-A small mushroom is here.~
+mantar~
+bir mantar~
+Küçük bir mantar burada.~
 food~
 food 0 A
 2 2 0 1 0
@@ -622,9 +621,9 @@ mushroom~
 Let's put it this way - I wouldn't eat it !
 ~
 #4053
-dirk~
-a thieves dirk~
-A beautifully crafted dirk is lying here.~
+kama~
+bir hýrsýz kamasý~
+Kaliteli iþlenmiþ bir kama burada duruyor.~
 steel~
 weapon G AN
 dagger 2 5 stab 0
@@ -640,9 +639,9 @@ Its blade is double-edged and very thin ... this looks like a good
 thieves weapon.
 ~
 #4054
-axe war~
-a war axe~
-A razor-sharp war axe rests on the ground.~
+balta savaþ~
+bir savaþ baltasý~
+Ustura gibi keskin bir savaþ baltasý yerde dinleniyor.~
 steel~
 weapon G AN
 axe 3 4 chop 0
@@ -654,9 +653,9 @@ axe~
 It has an edge sharp enough to cut a passing thought. A good find, this.
 ~
 #4055
-sword broad~
-a broad sword~
-A well-polished broadsword sits here.~
+pala~
+bir pala~
+Ýyi parlatýlmýþ bir pala burada duruyor.~
 steel~
 weapon 0 AN
 sword 1 10 chop 0
@@ -666,9 +665,9 @@ sword~
 It's much heavier than a long sword, but not as well balanced.
 ~
 #4056
-flail two two-headed~
-a two-headed flail~
-A flail with two heavy, spiked heads is here.~
+baþlý iki topuz~
+iki baþlý topuz~
+Ýki aðýr, sivri uçlu topuz burada duruyor.~
 iron~
 weapon 0 AN
 flail 1 7 smash 0
@@ -683,9 +682,9 @@ It's a stout wooden rod with two spiked balls attached, each weighing over 2
 pounds.  It's a little worn for wear, but looks most painful.
 ~
 #4057
-mace heavy~
-a heavy iron mace~
-A large iron mace with a wicked head rests on the ground.~
+aðýr demir gürz~
+aðýr demir bir gürz~
+Ýri demir bir gürz yerde dinleniyor.~
 iron~
 weapon 0 AN
 mace 2 4 pound 0
@@ -697,9 +696,9 @@ mace~
 A metal shaft mounted with an iron head, shaped into armor-shattering form.
 ~
 #4058
-falchion sword~
-a falchion~
-A curved sword with a heavy tip sits here.~
+kýlýc pala~
+bir Pala~
+Aðýr saplý kavisli bir kýlýc burada duruyor.~
 iron~
 weapon 0 AN
 sword 2 4 chop 0
@@ -710,9 +709,9 @@ It's curved like a scimitar, only with no recurved blade and a tip designed
 for piercing as well as slashing.
 ~
 #4059
-voulge polearm~
-a voulge~
-A long polearm with a curved blade is here.~
+orak kargý~
+bir orak~
+Ucunda kavisli bir býçak bulunan bir kargý burada.~
 iron~
 weapon 0 AN
 polearm 2 6 slash F
@@ -725,9 +724,9 @@ It looks a lot like a staff with a pruning knife tied to the end, but it's
 quite effective.
 ~
 #4100
-blade black demon~
-the black demon blade~
-An evil black demon blade is here.~
+siyah þeytan kýlýcý~
+siyah þeytan kýlýcý~
+Uðursuz bir siyah þeytan kýlýcý burada.~
 adamantite~
 weapon GJL AN
 sword 3 4 cleave CF
@@ -737,9 +736,9 @@ blade~
 You'll become as evil as the weapon, if you use it!
 ~
 #4101
-gloves~
-swordsman's gloves~
-Some gloves are here.  They look like the right equipment for fighting.~
+eldivenleri~
+kýlýc ustasýnýn eldivenleri~
+Bir çift eldiven burada duruyor. Savaþ için doðru ekipmanlara benziyorlar.~
 leather~
 armor G AH
 1 3 3 1 1
@@ -749,9 +748,9 @@ A
 A
 18 1
 #4102
-scroll ysafg~
-a scroll which reads "ysafg"~
-A scroll which reads "ysafg", it looks very fragile and quite old.~
+parþömen ysafg~
+üzerinde "ysafg" yazan bir parþömen~
+Üzerinde "ysafg" yazan bir parþömen, çok narin ve oldukça eski görünüyor.~
 parchment~
 scroll G AO
 10 'identify' '' '' ''
@@ -761,9 +760,9 @@ scroll~
 It looks informative.
 ~
 #4103
-slime mold~
-a green slime mold~
-A green slime mold is here. It smells REAL bad.~
+balçýk küf~
+yeþil bir küf balçýðý~
+Yeþil bir küf balçýðý burada. Bu gerçekten KÖTÜ kokuyor.~
 food~
 food P A
 24 24 0 0 0
@@ -773,9 +772,9 @@ slime mold~
 It wasn't meant to be food, - Certainly not for humans.
 ~
 #4104
-slime mold~
-a green slime mold~
-A green slime mold is here. It smells REAL bad.~
+balçýk küf~
+yeþil bir küf balçýðý~
+Yeþil bir küf balçýðý burada. Bu gerçekten KÖTÜ kokuyor.~
 food~
 food P A
 24 24 0 1 0
@@ -785,9 +784,9 @@ slime mold~
 It wasn't meant to be food, - Certainly not for humans.
 ~
 #4105
-staff iron iron-shod~
-an iron-shod staff~
-A long staff capped with iron leans against a wall.~
+demir kaplama kargý~
+demir kaplama kargý~
+Demirle kaplanmýþ bir kargý duvara yaslanmýþ~
 iron~
 weapon 0 AN
 staff 2 5 pound F
@@ -799,9 +798,9 @@ staff~
 It's a superb weapon for warrior or mage.
 ~
 #4150
-black potion~
-a black potion~
-A thick black potion is here.~
+iksir siyah~
+siyah bir iksir~
+Koyu siyah bir iksir burada.~
 glass~
 potion G AO
 9 'cure critical' '' '' ''
@@ -811,9 +810,9 @@ potion black~
 It looks healthy.
 ~
 #4151
-staff oak~
-a heavy oak staff~
-A ancient heavy oak staff is here.~
+asa meþe~
+aðýr meþe bir asa~
+Kadim, aðýr bir meþe asa burada.~
 wood~
 staff G AO
 15 4 2 'harm' 0
@@ -829,9 +828,9 @@ staff oak~
 You see it has some sort of runes on it.
 ~
 #4152
-dagger light silver~
-a light silver dagger~
-A light silver dagger is here.~
+gümüþ hafif hançer~
+hafif bir gümüþ hançer~
+Hafif bir gümüþ hançer burada.~
 silver~
 weapon 0 AN
 dagger 2 4 stab 0
@@ -845,9 +844,9 @@ dagger light silver~
 It looks like an excellent weapon for thieves.
 ~
 #4153
-star morning morningstar~
-a morning star~
-A heavy, spiked morning star is here.~
+sabah sabahyýldýzý yýldýzý~
+bir sabah yýldýzý~
+Aðýr, sivri bir sabah yýldýzý burada.~
 iron~
 weapon 0 AN
 mace 2 6 smash 0
@@ -862,15 +861,15 @@ It's a huge length of wood studded with iron spikes and bands. You wouldn't
 want to meet this in a dark alley...
 ~
 #4154
-map moria second~
-a map of the second level of Moria~
-A rolled up map is here.~
+ikinci harita moria~
+Moria'nýn ikinci seviye haritasý~
+Kývrýlmýþ bir harita burada.~
 paper~
 map 0 A
 1 0 0 0 0
 0 10 100 W
 E
-map moria second~
+ikinci harita moria~
 .
     * * * MORIA - Map 2 * * *
      = = =============== = =
@@ -890,15 +889,15 @@ Maze--Maze--Maze--Maze
                   (Map 3)
 ~
 #4155
-map moria third~
-a map of the third level of Moria~
-A rolled up map is here.~
+harita moria üçüncü~
+Moria'nýn üçüncü seviye haritasý~
+Kývrýlmýþ bir harita burada.~
 paper~
 map 0 A
 1 0 0 0 0
 0 10 200 G
 E
-map moria third~
+harita moria üçüncü~
 .
                                                    (Map 1*)
                              Long                     |
@@ -937,10 +936,10 @@ map moria third~
 
 #ROOMS
 #3900
-West trail around Midgaard~
+Selenge Çevresindeki Batý Patikasý~
 You are on a dusty trail following the outside wall of Midgaard.
 To the east the wall towers over you and to the west you see the
-forest of Haon-Dor. The trail leads north and south along the wall. 
+forest of Haon-Dor. The trail leads north and south along the wall.
 ~
 0 0 2
 D0
@@ -955,14 +954,14 @@ The dusty trail leads to outside the west gate of Midgaard.
 0 -1 3052
 S
 #3901
-West trail around Midgaard~
+Selenge Çevresindeki Batý Patikasý~
 You are on a dusty trail following the outside wall of Midgaard.
 To the east the wall towers over you and to the west you see the
-forest of Haon-Dor. The trail leads north and south along the wall. 
+forest of Haon-Dor. The trail leads north and south along the wall.
 ~
 0 0 2
 D0
-To the north you notice the path makes a turn, following the City wall. 
+To the north you notice the path makes a turn, following the City wall.
 ~
 ~
 0 -1 3902
@@ -973,9 +972,9 @@ The dusty trail continues towards the south.
 0 -1 3900
 S
 #3902
-Northwest corner of dusty trail.~
+Tozlu Patikanýn Kuzeybatý Köþesi~
 You are standing outside the northwestern corner of the city wall.
-The trail leads east following the north wall and south towards the gate.  
+The trail leads east following the north wall and south towards the gate.
 ~
 0 0 2
 D1
@@ -990,9 +989,9 @@ The dusty trail leads south towards the gate.
 0 -1 3901
 S
 #3903
-Dusty trail along north wall.~
+Kuzey Duvarý Yanýndaki Tozlu Patika~
 You are walking on the trail following the outside of Midgaard's
-northern wall.  
+northern wall.
 ~
 0 0 2
 D1
@@ -1001,18 +1000,18 @@ The dusty trail is winding along the north wall of Midgaard.
 ~
 0 -1 3904
 D3
-The dusty trail turns left around the corner of the wall, behind it Haon-Dor. 
+The dusty trail turns left around the corner of the wall, behind it Haon-Dor.
 ~
 ~
 0 -1 3902
 S
 #3904
-The long dusty trail following the north wall.~
+Kuzey Duvarýný Takip Eden Tozlu Patika~
 You are just outside the northern gate of Midgaard.  You can continue along
 the trail to the east or west, head onwards to the plains of the north, or
 enter Midgaard to the south.  You can just barely make out the buildings of
-Midgaard from here, the Temple of Midgaard looks impressive even from this
-distance.  
+Midgaard from here, the Temple of Mota looks impressive even from this
+distance.
 ~
 0 0 2
 D0
@@ -1021,7 +1020,7 @@ A small path extends into the plains.
 ~
 0 -1 300
 D1
-The dusty trail is winding along the north wall of Midgaard. 
+The dusty trail is winding along the north wall of Midgaard.
 ~
 ~
 0 -1 3905
@@ -1037,13 +1036,13 @@ The dusty trail is winding along the north wall of Midgaard.
 0 -1 3903
 S
 #3905
-Dusty trail along north wall.~
+Kuzey Duvarý Yanýndaki Tozlu Patika~
 You are walking on the trail following the outside of Midgaard's
-northern wall.  
+northern wall.
 ~
 0 0 2
 D1
-The dusty trail turns right around the corner of the wall. 
+The dusty trail turns right around the corner of the wall.
 You notice some mountains in the distance.
 ~
 ~
@@ -1055,9 +1054,9 @@ The dusty trail is winding along the north wall of Midgaard.
 0 -1 3904
 S
 #3906
-Northeast corner of dusty trail.~
+Tozlu Patikanýn Kuzeybatý Köþesi~
 You are standing outside the northeastern corner of the city wall.
-The trail leads west following the north wall and south towards the gate.  
+The trail leads west following the north wall and south towards the gate.
 ~
 0 0 2
 D2
@@ -1072,14 +1071,14 @@ The dusty trail winds close up to the north wall of Midgaard.
 0 -1 3905
 S
 #3907
-East trail around Midgaard~
+Selenge Çevresindeki Doðu Patikasý~
 You are on a dusty trail following the outside wall of Midgaard.
 To the west the wall towers over you and far to the east you see
-some mountains. The trail leads north and south along the wall. 
+some mountains. The trail leads north and south along the wall.
 ~
 0 0 2
 D0
-To the north you notice the path makes a turn, following the City wall. 
+To the north you notice the path makes a turn, following the City wall.
 ~
 ~
 0 -1 3906
@@ -1090,10 +1089,10 @@ The dusty trail continues towards the south.
 0 -1 3908
 S
 #3908
-East trail around Midgaard~
+Selenge Çevresindeki Doðu Patikasý~
 You are on a dusty trail following the outside wall of Midgaard.
 To the west the wall towers over you and far to the east you see
-some mountains. The trail leads north and south along the wall. 
+some mountains. The trail leads north and south along the wall.
 ~
 0 0 2
 D0
@@ -1108,7 +1107,7 @@ The dusty trail leads to outside the east gate of Midgaard.
 0 -1 3053
 S
 #4000
-The hills~
+Tepeler~
 You are on a small bewildered path winding its way between the hills in
 lack of better things to do. To the south you have a splendid view over the
 flat, vast, desolate plains. To the north the hills grow steadily darker and
@@ -1123,7 +1122,7 @@ D0
 ~
 0 0 4001
 D1
-You see the mountains of the dwarven kingdom. 
+You see the mountains of the dwarven kingdom.
 ~
 ~
 0 0 6562
@@ -1133,7 +1132,7 @@ D2
 0 0 3500
 S
 #4001
-The hills~
+Tepeler~
 You are surrounded by dark and sinister hills. Although they seemed fairly
 small from a distance you now get the feeling that they're closing in on you,
 towering over you, overwhelming you ...  The small path seems to have second
@@ -1153,7 +1152,7 @@ D2
 0 0 4000
 S
 #4002
-End of the path~
+Yolun Sonu~
 At this point the path has had enough. With a terrified shudder it cowers
 to the ground, only staying here because you're standing on it. with a slight
 feeling of unease you look around noticing only a few bushes and a large sign
@@ -1194,7 +1193,7 @@ Small crippled bushes desperately trying to grow south.
 ~
 S
 #4010
-The cave~
+Maðara~
 You are in a large cave. The ceiling is lost somewhere above the reach of
 your light. The floor, however, is highly illuminated, your light flickering
 over several tombstones. Only one is whole, the rest have been shattered by
@@ -1221,9 +1220,9 @@ The stone is inscribed with the unfortunate player's famous last words:
 ~
 S
 #4011
-The tunnel~
+Tünel~
 You squeeze your way through a small, narrow tunnel. The sharp-edged rocks
-protruding from the walls threaten to scratch and cut you. 
+protruding from the walls threaten to scratch and cut you.
 To the south you sense a freshness in the air which is rather unusual in these
 damp, stuffy tunnels. To the north the tunnel continues.
 ~
@@ -1238,7 +1237,7 @@ D2
 0 0 4010
 S
 #4012
-The tunnel~
+Tünel~
 You are in a part of the tunnel that looks uncannily like the rest except
 that it goes in a east-north direction. To the north the tunnel widens into
 a cave.
@@ -1254,9 +1253,9 @@ D1
 0 0 4013
 S
 #4013
-The tunnel~
+Tünel~
 This tunnel, leading east-west, seems seldom used.  A thick layer of dust
-covers the floor, making the air stuffy and dry. 
+covers the floor, making the air stuffy and dry.
 ~
 0 AD 3
 D1
@@ -1269,7 +1268,7 @@ D3
 0 0 4012
 S
 #4014
-The tunnel~
+Tünel~
 You are walking in a narrow tunnel. The walls are only roughly shaped,
 sharp rocks protruding everywhere, even from the floor making you stumble in
 the flickering light. To the south the tunnel narrows even more making it
@@ -1295,7 +1294,7 @@ D3
 0 0 4013
 S
 #4015
-The tunnel~
+Tünel~
 You are in a corner tunnel leading west and north.
 ~
 0 AD 3
@@ -1309,7 +1308,7 @@ D3
 0 0 4014
 S
 #4016
-The large cave~
+Geniþ Maðara~
 You are in a large cave, the cave continues east and west, to the south
 you notice a small tunnel.
 ~
@@ -1328,7 +1327,7 @@ D3
 0 0 4023
 S
 #4017
-The large cave~
+Geniþ Maðara~
 You are in the east end of the large cave.
 ~
 0 AD 2
@@ -1338,7 +1337,7 @@ D3
 0 0 4016
 S
 #4018
-The cave~
+Maðara~
 You are in the south end of a cave, to the south you see a tunnel. You
 notice a large pile of bones in the corner.
 ~
@@ -1357,7 +1356,7 @@ Some of the bones are human!
 ~
 S
 #4019
-The tunnel~
+Tünel~
 You are in a north-south leading tunnel.
 ~
 0 AD 3
@@ -1371,7 +1370,7 @@ D2
 0 0 4015
 S
 #4020
-The hole~
+Oyuk~
 You are by a hole in the floor, you can leave down, or north.
 ~
 0 ACD 3
@@ -1385,7 +1384,7 @@ D5
 0 0 4064
 S
 #4021
-The hole~
+Oyuk~
 A hole in the floor leads down here.
 ~
 0 ACD 3
@@ -1399,7 +1398,7 @@ D5
 0 0 4115
 S
 #4022
-The damp tunnel~
+Rutubetli Tünel~
 You are in a damp tunnel.  Your clothes feel wet.  The tunnel continues
 to the north; to the west you see a hole in the floor; and to the east
 there is a large cave.
@@ -1419,7 +1418,7 @@ D3
 0 0 4021
 S
 #4023
-The large cave~
+Geniþ Maðara~
 You are in the western part of the large cave, to the south you see
 a damp tunnel.
 ~
@@ -1434,7 +1433,7 @@ D2
 0 0 4022
 S
 #4024
-The damp tunnel~
+Rutubetli Tünel~
 You are in a corner of a damp tunnel.  You can go west or south.
 ~
 0 AD 3
@@ -1448,7 +1447,7 @@ D3
 0 0 4022
 S
 #4025
-The cave~
+Maðara~
 You are in the north end of a cave.  To the east you see many tunnels.
 ~
 0 AD 2
@@ -1466,7 +1465,7 @@ floor~
 1 -1 16000
 S
 #4026
-The many tunnels~
+Birçok Tünel~
 You are at the intersection of many tunnels.
 ~
 0 AD 3
@@ -1488,7 +1487,7 @@ D3
 0 0 4025
 S
 #4027
-The tunnel~
+Tünel~
 You are in a north-south leading tunnel, you also notice a tunnel to
 the west. From the north you sense the fresh air!
 ~
@@ -1507,7 +1506,7 @@ D3
 0 0 4026
 S
 #4028
-The smelly tunnel~
+Pis Kokulu Tünel~
 You are in a north-south leading tunnel, you see a small light
 to the north. You notice a strange smell from the north..
 ~
@@ -1522,7 +1521,7 @@ D2
 0 0 4026
 S
 #4029
-The cave~
+Maðara~
 You are in a cave that is filled with fresh air, you sense the
 wind blowing from the north. To the south you see a small tunnel
 continue into the mountain.
@@ -1538,9 +1537,9 @@ D2
 0 0 4027
 S
 #4030
-The light cave~
-You are in a light cave,through a hole large above you, A small tunnel to
-the south may be the only way out to return.
+Aydýnlýk Maðara~
+You are in a light cave, through a hole large above you, you see
+the sky. A small tunnel to the south is the only way out.
 ~
 0 0 2
 D2
@@ -1549,8 +1548,8 @@ D2
 0 0 4028
 S
 #4031
-The valley~
-You are in a small valley, surrounded by hills and a mountain to 
+Vadi~
+You are in a small valley, surrounded by hills and a mountain to
 the south. In the mountain there is a cave.
 ~
 0 0 2
@@ -1568,7 +1567,7 @@ Well it doesn't look nice, but it's the only way out.
 ~
 S
 #4032
-The foothills~
+Dað Eteði~
 You are on a winding path that leads through the foothills on the
 other side of the mountain.  The path continues north.
 ~
@@ -1583,7 +1582,7 @@ D2
 0 0 4031
 S
 #4033
-The intersection in the foothills~
+Dað Eteðindeki Kesiþme~
 The small path you are following splits here.  The path continues
 north and south or you can follow a trail east into the mountains.
 ~
@@ -1602,7 +1601,7 @@ D2
 0 0 4032
 S
 #4034
-The grassy area of the foothills~
+Dað Eteðinin Yeþil Bölgesi~
 The grass here is unusually high.  You notice several areas where
 someone or something large has crushed spots of the grass down.  Several very
 large rocks litter this area.  You can go north, west or south.
@@ -1622,7 +1621,7 @@ D3
 0 0 4042
 S
 #4035
-The foothills end~
+Dað Eteðinin Bitimi~
 At this point you are leaving the foothills.  You see a plains area
 to the north of here.  You can spot a small city in the distance from
 here.
@@ -1638,9 +1637,8 @@ D2
 0 0 4034
 S
 #4036
-The plains~
-To the west see the border of the Shienar Kingdom, you may follow this 
-path to reach the kingdom. Jagged mountain far to the north.
+Ovalar~
+The plains.  Exits are south.
 ~
 0 0 2
 D0
@@ -1659,7 +1657,7 @@ In the Borderlands
 0 0 23114
 S
 #4037
-The foothills path~
+Dað Eteði Patikasý~
 Exits are east and west.
 ~
 0 0 2
@@ -1673,7 +1671,7 @@ D3
 0 0 4033
 S
 #4038
-Base of the mountain~
+Daðýn etekleri~
 Exits are east and west.
 ~
 0 0 2
@@ -1768,7 +1766,7 @@ D1
 0 0 4043
 S
 #4050
-The tunnel~
+Tünel~
 The tunnel turns here, continuing to the east and south.
 ~
 0 AD 3
@@ -1782,7 +1780,7 @@ D2
 0 0 4053
 S
 #4051
-The tunnel~
+Tünel~
 You are in a narrow east-west tunnel.
 ~
 0 AD 3
@@ -1796,7 +1794,7 @@ D3
 0 0 4050
 S
 #4052
-The tunnel~
+Tünel~
 You are at a turn, the tunnel continues south and west.
 ~
 0 AD 3
@@ -1810,7 +1808,7 @@ D3
 0 0 4051
 S
 #4053
-The tunnel~
+Tünel~
 You are at a turn, the tunnel continues north and east.
 ~
 0 AD 3
@@ -1824,7 +1822,7 @@ D1
 0 0 4054
 S
 #4054
-The light cave~
+Aydýnlýk Maðara~
 You are in a cave, to south from you there is a large fire that lights
 the entire cave, to the east and west tunnels leads off.
 ~
@@ -1843,7 +1841,7 @@ D3
 0 0 4053
 S
 #4055
-The maze~
+Labirent~
 You are in a maze of small damp tunnels.  The only exit is west.
 ~
 0 AD 3
@@ -1853,7 +1851,7 @@ D3
 0 0 4054
 S
 #4056
-The light cave~
+Aydýnlýk Maðara~
 You are in a light cave, a large fire in front of you lights the room.
 The cave continues to the north and south.
 ~
@@ -1868,7 +1866,7 @@ D2
 0 0 4061
 S
 #4057
-The maze~
+Labrient~
 You are in a maze of small damp tunnels.
 ~
 0 AD 3
@@ -1882,7 +1880,7 @@ D2
 0 0 4062
 S
 #4058
-The maze~
+Labrient~
 You are in a maze of small damp tunnels.
 ~
 0 AD 3
@@ -1896,7 +1894,7 @@ D3
 0 0 4057
 S
 #4059
-The tunnel~
+Tünel~
 You are in a tunnel, only exit is to the east. You sense that the
 tunnel leads slightly down.
 ~
@@ -1911,8 +1909,8 @@ D1
 0 0 4060
 S
 #4060
-The tunnel~
-You are in a small tunnel, to the west the tunnel continues and 
+Tünel~
+You are in a small tunnel, to the west the tunnel continues and
 to the east you see some light.
 ~
 0 AD 3
@@ -1926,7 +1924,7 @@ D3
 0 0 4059
 S
 #4061
-The light cave~
+Aydýnlýk Maðara~
 You are in the south end of a light cave.
 ~
 0 D 2
@@ -1940,7 +1938,7 @@ D3
 0 0 4060
 S
 #4062
-The maze~
+Labrient~
 You are in a maze of small damp tunnels.
 ~
 0 AD 3
@@ -1954,7 +1952,7 @@ D1
 0 0 4065
 S
 #4063
-The maze~
+Labrient~
 You are in a maze of small damp tunnels.
 ~
 0 AD 3
@@ -1968,7 +1966,7 @@ D1
 0 0 4064
 S
 #4064
-The tunnel~
+Tünel~
 You are at the eastern end of a tunnel.
 ~
 0 AD 3
@@ -1982,7 +1980,7 @@ D4
 0 0 4020
 S
 #4065
-The maze~
+Labrient~
 You are in a maze of small damp tunnels.
 ~
 0 AD 3
@@ -1996,7 +1994,7 @@ D3
 0 0 4062
 S
 #4066
-The maze~
+Labrient~
 You are in a maze of small damp tunnels.
 ~
 0 AD 3
@@ -2014,7 +2012,7 @@ D3
 0 0 4065
 S
 #4067
-The maze~
+Labrient~
 You are in a maze of small damp tunnels.
 ~
 0 AD 3
@@ -2024,7 +2022,7 @@ D3
 0 0 4066
 S
 #4068
-The large cave~
+Geniþ Maðara~
 You are in the northwest end of a large cave.
 ~
 0 AD 2
@@ -2038,7 +2036,7 @@ D2
 0 0 4070
 S
 #4069
-The large cave~
+Geniþ Maðara~
 You are in the northeast end of a large cave. To the north the
 is a small damp tunnel.
 ~
@@ -2057,7 +2055,7 @@ D3
 0 0 4068
 S
 #4070
-The large cave~
+Geniþ Maðara~
 You are in the southwest end of a large cave.
 ~
 0 AD 2
@@ -2071,7 +2069,7 @@ D1
 0 0 4071
 S
 #4071
-The large cave~
+Geniþ Maðara~
 You are in the southeast end of a large cave. To the east you
 notice a small tunnel.
 ~
@@ -2090,7 +2088,7 @@ D3
 0 0 4070
 S
 #4072
-The tunnel~
+Tünel~
 You are in a narrow tunnel, which leads both to the east and the
 south. There is also an exit towards the west, where you see a large
 cave.
@@ -2110,7 +2108,7 @@ D3
 0 0 4071
 S
 #4073
-End of tunnel~
+Tünelin Sonu~
 The tunnel stops here.
 ~
 0 AD 3
@@ -2120,7 +2118,7 @@ D3
 0 0 4072
 S
 #4074
-The hole~
+Oyuk~
 You are at a small hole in the floor, you can either leave north
 or try your luck and leave down into the unknown!
 ~
@@ -2135,7 +2133,7 @@ D5
 0 0 4171
 S
 #4100
-The tunnel~
+Tünel~
 Suddenly you feel that the tunnel leads slightly down.
 ~
 0 ACD 3
@@ -2149,7 +2147,7 @@ D3
 0 0 4101
 S
 #4101
-The long tunnel~
+Uzun Tünel~
 You are in a long east-west leading tunnel. The tunnel is quite
 wide at this point.
 ~
@@ -2164,7 +2162,7 @@ D3
 0 0 4102
 S
 #4102
-The long tunnel~
+Uzun Tünel~
 You are in a long east-west leading tunnel. The tunnel becomes
 narrow to the west.
 ~
@@ -2179,7 +2177,7 @@ D3
 0 0 4103
 S
 #4103
-The long tunnel~
+Uzun Tünel~
 You are in a long east-west leading tunnel. The tunnel is quite
 narrow at this point. You notice a small hole leading south.
 ~
@@ -2198,7 +2196,7 @@ D3
 0 0 4104
 S
 #4104
-The long tunnel~
+Uzun Tünel~
 You are in a long east-west leading tunnel. The tunnel starts sloping
 down towards the west.
 ~
@@ -2213,7 +2211,7 @@ D3
 0 0 4152
 S
 #4105
-The golden cave~
+Altýn Maðara~
 You are in a giant cave, all the walls are shining with a soft golden
 light. The cave continues to the south and west.
 ~
@@ -2228,7 +2226,7 @@ D3
 0 0 4106
 S
 #4106
-The golden cave~
+Altýn Maðara~
 You are in a giant cave, all the walls are shining with a soft golden
 light. The cave continues to the south and east, to the north is a narrow
 tunnel.
@@ -2248,7 +2246,7 @@ D2
 0 0 4109
 S
 #4107
-The passage~
+Dar Geçit~
 You are in a small passage, it leads south, to the west is a golden
 cave.
 ~
@@ -2263,7 +2261,7 @@ D3
 0 0 4108
 S
 #4108
-The golden cave~
+Altýn Maðara~
 You are in a giant cave, all the walls are shining with a soft golden
 light. The cave continues to the north and west, east from you there is
 a small passage.
@@ -2283,7 +2281,7 @@ D3
 0 0 4109
 S
 #4109
-The golden cave~
+Altýn Maðara~
 You are in a giant cave, all the walls are shining with a soft golden
 light. The cave continues to the south, east and north.
 ~
@@ -2302,7 +2300,7 @@ D2
 0 0 4114
 S
 #4110
-The tunnel~
+Tünel~
 You are at the end of the tunnel.
 ~
 0 ACD 3
@@ -2312,7 +2310,7 @@ D3
 0 0 4111
 S
 #4111
-The tunnel~
+Tünel~
 You are in a small tunnel, it leads from east to the west.
 ~
 0 AD 3
@@ -2326,7 +2324,7 @@ D3
 0 0 4112
 S
 #4112
-The tunnel~
+Tünel~
 You are in a larger tunnel, it leads from west to east.
 ~
 0 AD 3
@@ -2340,8 +2338,8 @@ D3
 0 0 4113
 S
 #4113
-The passage~
-You are in a passage that leads towards the south. To the east 
+Dar Geçit~
+You are in a passage that leads towards the south. To the east
 you see a tunnel.
 ~
 0 AD 3
@@ -2359,9 +2357,9 @@ D2
 0 0 4116
 S
 #4114
-The golden cave~
+Altýn Maðara~
 You are in a giant cave, all the walls are shining with a soft golden
-light. The cave continues to the north, to the west you see a dark 
+light. The cave continues to the north, to the west you see a dark
 passage.
 ~
 0 D 1
@@ -2375,7 +2373,7 @@ D3
 0 0 4115
 S
 #4115
-The dark passage.~
+Karanlýk Geçit~
 You are in a dark passage, that leads east. In the ceiling you notice
 a small hole, just big enough to pass through.
 ~
@@ -2390,7 +2388,7 @@ D4
 0 0 4021
 S
 #4116
-The passage~
+Dar Geçit~
 You are in a passage that leads north-south. You notice a small
 light to the south.
 ~
@@ -2405,7 +2403,7 @@ D2
 0 0 4120
 S
 #4117
-The secret chamber~
+Gizli Oda~
 You are in a secret chamber.
 ~
 0 AD 3
@@ -2415,7 +2413,7 @@ D2
 0 0 4122
 S
 #4118
-The cave~
+Maðara~
 You are in a light cave, from torches several feet above your
 head fire lights the room. The cave continues to the west and south.
 To the north a small hole leads to a tunnel.
@@ -2431,7 +2429,7 @@ D3
 0 0 4119
 S
 #4119
-The cave~
+Maðara~
 You are in a light cave, from torches several feet above your
 head fire lights the room. The cave continues to the east and south.
 ~
@@ -2450,7 +2448,7 @@ D3
 0 0 4121
 S
 #4120
-The passage~
+Dar Geçit~
 You are in a north-south leading passage. To the south you see light.
 ~
 0 AD 3
@@ -2464,7 +2462,7 @@ D2
 0 0 4125
 S
 #4121
-The secret tunnel~
+Gizli Tünel~
 You are in a secret tunnel that leads west, you feel evilness
 approaching you as you continue west.
 ~
@@ -2479,7 +2477,7 @@ D3
 0 0 4122
 S
 #4122
-The secret chamber~
+Gizli Tünel~
 You are in a secret chamber, the room is filled with an evil
 feeling.
 ~
@@ -2494,7 +2492,7 @@ D1
 0 0 4121
 S
 #4123
-The cave~
+Maðara~
 You are in a light cave, from torches several feet above your
 head fire lights the room. The cave continues to the north and west.
 ~
@@ -2509,7 +2507,7 @@ D3
 0 0 4124
 S
 #4124
-The cave~
+Maðara~
 You are in a light cave, from torches several feet above your
 head fire lights the room. The cave continues to the east and north.
 To the west a passage leads north.
@@ -2529,7 +2527,7 @@ D3
 0 0 4125
 S
 #4125
-The passage~
+Dar Geçit~
 You are in a passage, to the east you see a cave. Light from the
 cave lights up the passage. To the north the passage leads into
 the darkness.
@@ -2545,7 +2543,7 @@ D1
 0 0 4124
 S
 #4150
-The dark hole~
+Karanlýk Oyuk~
 You are standing at a hole, a small passage leads south. You see
 some inscriptions on the wall, most of 'em the usual stuff, like:
 'Super Snude was here' and 'Why does the mayor likes secretaries with
@@ -2559,7 +2557,7 @@ D2
 0 0 4151
 S
 #4151
-The small passage~
+Küçük Geçit~
 You are in a small passage, to the north you see a hole, and to
 the south you see a large tunnel. The air is damp in this area.
 ~
@@ -2578,7 +2576,7 @@ D3
 0 0 4155
 S
 #4152
-The tunnel~
+Tünel~
 You suddenly feel that the tunnel leads down.
 ~
 0 ACD 3
@@ -2592,7 +2590,7 @@ D2
 0 0 4153
 S
 #4153
-The large tunnel~
+Geniþ Tünel~
 You are in a large tunnel leading from the south to the east. The
 air is damp in the area.
 ~
@@ -2611,7 +2609,7 @@ D2
 0 0 4157
 S
 #4154
-The large tunnel~
+Geniþ Tünel~
 You are in a large east-west leading tunnel, the air is damp and
 the floor is wet.
 ~
@@ -2626,7 +2624,7 @@ D3
 0 0 4153
 S
 #4155
-The large tunnel~
+Geniþ Tünel~
 You are in a large tunnel, the tunnel leads west, and to the east
 you notice a long tunnel. The air is damp in this area.
 ~
@@ -2641,7 +2639,7 @@ D3
 0 0 4154
 S
 #4156
-The long tunnel~
+Uzun Tünel~
 You are standing in a long north-south tunnel.
 ~
 0 AD 3
@@ -2655,7 +2653,7 @@ D2
 0 0 4160
 S
 #4157
-The wet tunnel~
+Rutubetli Tünel~
 You are in a wet, north-south leading tunnel, the floor is
 partly covered by water.
 ~
@@ -2674,7 +2672,7 @@ D2
 0 0 4161
 S
 #4158
-The small maze~
+Küçük Labirent~
 You are in a small maze, exits leads off to the east,  south
 and west. The floor is partly covered by water.
 ~
@@ -2693,7 +2691,7 @@ D3
 0 0 4157
 S
 #4159
-The small maze~
+Küçük Labirent~
 You are in a small maze, exits leads off only to the south
 and west. The air is damp in this maze.
 ~
@@ -2708,7 +2706,7 @@ D3
 0 0 4158
 S
 #4160
-In the tunnel at the inscription~
+Tünelde Yazýtlar...~
 You are in a north-south leading tunnel, the air is damp. On
 the wall there is an inscription.
 ~
@@ -2735,7 +2733,7 @@ dragon breathed poison gas; we are also going to die soon.
 ~
 S
 #4161
-The wet tunnel~
+Rutubetli Tünel~
 You are in a north-south leading tunnel.  The floor is fully
 covered by water.
 ~
@@ -2750,7 +2748,7 @@ D2
 0 0 4165
 S
 #4162
-The small maze~
+Küçük Labirent~
 You are in a small maze. The floor is mainly covered by
 water, exits leads north, east and south.
 ~
@@ -2769,7 +2767,7 @@ D2
 0 0 4166
 S
 #4163
-The small maze~
+Küçük Labirent~
 You are in a small maze, where the air is damp. Exits
 leads to the north and east.
 ~
@@ -2788,7 +2786,7 @@ D3
 0 0 4162
 S
 #4164
-The entrance to the small maze~
+Küçük Labirente Giriþ~
 You are in a north-south leading tunnel, and the air is damp.
 To the west you see a small maze.
 ~
@@ -2807,7 +2805,7 @@ D3
 0 0 4163
 S
 #4165
-In the water~
+Suyun Ýçinde~
 You are standing in water, the tunnel continues both to the
 north and south.
 ~
@@ -2822,7 +2820,7 @@ D2
 0 0 4169
 S
 #4166
-The wet maze~
+Rutubetli Labirent~
 You are in a part of the maze where the floor is fully covered
 by water. The maze continues to the north, east and south.
 ~
@@ -2841,7 +2839,7 @@ D2
 0 0 4170
 S
 #4167
-The wet maze~
+Rutubetli Labirent~
 You are in a small maze, the floor is covered by water, the
 maze continues east, west and south.
 ~
@@ -2860,7 +2858,7 @@ D3
 0 0 4166
 S
 #4168
-The end of the tunnel~
+Tünelin Sonu~
 The tunnel suddenly stops here, only exit is to the west.
 The air is damp here.
 ~
@@ -2875,7 +2873,7 @@ D3
 0 0 4167
 S
 #4169
-In the water~
+Suyun Ýçinde~
 You are standing in the water, exits leads both north and east.
 ~
 0 AD 6
@@ -2889,7 +2887,7 @@ D1
 0 0 4170
 S
 #4170
-In the water~
+Suyun Ýçinde~
 You are standing in the water, it continues east and west.
 ~
 0 AD 6
@@ -2907,7 +2905,7 @@ D3
 0 0 4169
 S
 #4171
-End of maze~
+Labirentin Sonu~
 You are at the end of the small maze which continues north.
 Above you a hole leads up.
 ~
@@ -2922,7 +2920,7 @@ D4
 0 0 4074
 S
 #4172
-At the sand bar~
+Kum Bariyeri~
 You are on a little sand bar in the water.
 ~
 0 AD 3
@@ -3095,5 +3093,4 @@ S
 O 4050 10 * sanctuary potion
 
 S
-
 #$
