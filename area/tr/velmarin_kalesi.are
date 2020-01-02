@@ -62,6 +62,7 @@ Bütün muhafýzlar gibi Setris da zýrhlý, duruþundan ve yürüyüþündün tecrübeli
 bir savaþçý olduðu belli oluyor. Öyle olmasa Kral'ý koruma görevini ona
 vermezlerdi zaten.
 ~
+human~
 ABG 0 800 0
 36 0 10d10+1400 359d1+1 3d10+11 punch
 -12 -12 -12 4
@@ -286,6 +287,7 @@ Astrolog burada bir kitap okuyor.
 ~
 Yaþlý ve bilge gözüküyor.
 ~
+human~
 ABR 0 900 0
 45 0 25d10+2750 449d1+1 3d12+14 wrath
 -15 -15 -15 -2

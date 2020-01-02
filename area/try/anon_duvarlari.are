@@ -1,14 +1,14 @@
-#AREA 
-tcwnn2.are~
-The Walls of Anon~
-{50 65} Yaegar  The Walls of Anon~
+#AREA
+anon_duvarlari.are~
+Anon Duvarlarý~
+{50 65} Yaegar  Anon Duvarlarý~
 31200 31400
 
 #MOBILES
 #31200
-east wall guard~
-an east wall guard~
-An east wall guard patrols the battlements, ever alert for approaching enemies.
+doðu duvarý muhafýzý~
+doðu duvarý muhafýzý~
+Bir doðu duvarý muhafýzý burada, devriye geziyor.
 ~
 These dedicated guards are among the elite of the guards of the city,
 selected for their dedication, endurance and keen eyesight. They remain
@@ -19,47 +19,13 @@ human~
 AGT 128|8192 500 0
 50 0 50d10+4250 5d5+5000 5d8+19 pound
 -20 -20 -20 0
-CDEFIKTU 0 0 0 
+CDEFIKTU 0 0 0
 stand stand male 200
 0 0 medium 0
 #31201
-south wall guard~
-a south wall guard~
-A south wall guard patrols the battlements, ever alert for approaching enemies.
-~
-These dedicated guards are among the elite of the guards of the city,
-selected for their dedication, endurance and keen eyesight. They remain
-eternally vigilant, not wishing for their city to fall under the domination
-of evil forces.
-~
-human~
-AGT 128|8192 500 0
-50 0 50d10+4250 5d5+5000 5d8+19 pound 
--20 -20 -20 0
-CDEFIKTU 0 0 0 
-stand stand male 200
-0 0 medium 0
-#31202
-north wall guard~
-a north wall guard~
-A north wall guard patrols the battlements, ever alert for approaching enemies.
-~
-These dedicated guards are among the elite of the guards of the city,
-selected for their dedication, endurance and keen eyesight. They remain
-eternally vigilant, not wishing for their city to fall under the domination
-of evil forces.
-~
-human~
-AGT 128|8192 500 0
-50 0 50d10+4250 5d5+5000 5d8+19 pound 
--20 -20 -20 0
-CDEFIKTU 0 0 0 
-stand stand male 200
-0 0 medium 0
-#31203
-west wall guard~
-an west wall guard~
-An west wall guard patrols the battlements, ever alert for approaching enemies.
+güney duvarý muhafýzý~
+güney duvarý muhafýzý~
+Bir güney duvarý muhafýzý burada, devriye geziyor.
 ~
 These dedicated guards are among the elite of the guards of the city,
 selected for their dedication, endurance and keen eyesight. They remain
@@ -70,13 +36,47 @@ human~
 AGT 128|8192 500 0
 50 0 50d10+4250 5d5+5000 5d8+19 pound
 -20 -20 -20 0
-CDEFIKTU 0 0 0 
+CDEFIKTU 0 0 0
+stand stand male 200
+0 0 medium 0
+#31202
+kuzey duvarý muhafýzý~
+kuzey duvarý muhafýzý~
+Bir kuzey duvarý muhafýzý burada, devriye geziyor.
+~
+These dedicated guards are among the elite of the guards of the city,
+selected for their dedication, endurance and keen eyesight. They remain
+eternally vigilant, not wishing for their city to fall under the domination
+of evil forces.
+~
+human~
+AGT 128|8192 500 0
+50 0 50d10+4250 5d5+5000 5d8+19 pound
+-20 -20 -20 0
+CDEFIKTU 0 0 0
+stand stand male 200
+0 0 medium 0
+#31203
+batý duvarý muhafýzý~
+batý duvarý muhafýzý~
+Bir batý duvarý muhafýzý burada, devriye geziyor.
+~
+These dedicated guards are among the elite of the guards of the city,
+selected for their dedication, endurance and keen eyesight. They remain
+eternally vigilant, not wishing for their city to fall under the domination
+of evil forces.
+~
+human~
+AGT 128|8192 500 0
+50 0 50d10+4250 5d5+5000 5d8+19 pound
+-20 -20 -20 0
+CDEFIKTU 0 0 0
 stand stand male 200
 0 0 medium 0
 #31204
-guard captain east wall~
-the east wall guard captain~
-The east wall guard captain stares grimly at you.
+doðu duvarý muhafýz yüzbaþýsý~
+doðu duvarý muhafýz yüzbaþýsý~
+Doðu duvarý muhafýz yüzbaþýsý seni izliyor.
 ~
 This stern fellow is in charge of the guards on this wall, and has no time
 for idle chit-chat with civilians. Or silly adventurers either. Scars on his
@@ -87,13 +87,13 @@ human~
 ABGT 4|8|16|32|128|8192 800 0
 55 0 50d10+5500 5d5+5000 10d4+23 slash
 -25 -25 -25 -1
-CDEFIKTU 0 0 0 
+CDEFIKTU 0 0 0
 stand stand male 200
 0 0 medium 0
 #31205
-guard captain south wall~
-the south wall guard captain~
-The south wall guard captain stares grimly at you.
+güney duvarý muhafýz yüzbaþýsý~
+güney duvarý muhafýz yüzbaþýsý~
+Güney duvarý muhafýz yüzbaþýsý seni izliyor.
 ~
 This stern fellow is in charge of the guards on this wall, and has no time
 for idle chit-chat with civilians. Or silly adventurers either. Scars on his
@@ -104,13 +104,13 @@ human~
 ABGT 4|8|16|32|128|8192 800 0
 55 0 50d10+5500 5d5+5000 10d4+23 slash
 -25 -25 -25 -1
-CDEFIKTU 0 0 0 
+CDEFIKTU 0 0 0
 stand stand male 200
 0 0 medium 0
 #31206
-guard captain north wall~
-the north wall guard captain~
-The north wall guard captain stares grimly at you.
+kuzey duvarý muhafýz yüzbaþýsý~
+kuzey duvarý muhafýz yüzbaþýsý~
+Kuzey duvarý muhafýz yüzbaþýsý seni izliyor.
 ~
 This stern fellow is in charge of the guards on this wall, and has no time
 for idle chit-chat with civilians. Or silly adventurers either. Scars on his
@@ -121,13 +121,13 @@ human~
 ABGT 4|8|16|32|128|8192 800 0
 55 0 50d10+5500 5d5+5000 10d4+23 slash
 -25 -25 -25 -1
-CDEFIKTU 0 0 0 
+CDEFIKTU 0 0 0
 stand stand male 200
 0 0 medium 0
 #31207
-guard captain west wall~
-the west wall guard captain~
-The west wall guard captain stares grimly at you.
+batý duvarý muhafýz yüzbaþýsý~
+batý duvarý muhafýz yüzbaþýsý~
+Batý duvarý muhafýz yüzbaþýsý seni izliyor.
 ~
 This stern fellow is in charge of the guards on this wall, and has no time
 for idle chit-chat with civilians. Or silly adventurers either. Scars on his
@@ -138,13 +138,13 @@ human~
 ABGT 4|8|16|32|128|8192 800 0
 55 0 50d10+5500 5d5+5000 10d4+23 slash
 -25 -25 -25 -1
-CDEFIKTU 0 0 0 
+CDEFIKTU 0 0 0
 stand stand male 200
 0 0 medium 0
 #31208
-knight~
-a knight~
-A well-armored knight strolls the battlements.
+þövalye~
+þövalye~
+Zýrhlý bir þövalye siperleri geziyor.
 ~
 The knights of Anon are a well-respected and renowned order that has been
 in existence for 15 generations. However constant wars and incursions of
@@ -154,13 +154,13 @@ human~
 ABGT 4|8|16|32|128|8192 1000 0
 58 0 50d10+6250 5d5+5000 5d10+25 slash
 -28 -28 -28 -3
-CDEFIK 0 0 0 
+CDEFIK 0 0 0
 stand stand male 200
 0 0 medium 0
 #31209
-battle mage~
-an elven battle mage~
-An elven battle mage stands ready.
+elf savaþ büyücüsü~
+elf savaþ büyücüsü~
+Bir elf savaþ büyücüsü hazýrlýk yapýyor.
 ~
 While Elves are not by nature particularly interested in war or soldiering,
 there are, as in all races, "black sheep" who feel the call to arms as
@@ -172,13 +172,13 @@ elf~
 ABGR 4|8|16|32|512|524288 400 0
 56 0 50d10+5750 5d5+5000 10d4+24 pound
 -26 -26 -26 -2
-EIK 0 B Z 
+EIK 0 B Z
 stand stand male 200
 0 0 medium 0
 #31210
-marshal~
-the marshal~
-The marshal of the guards marches back and forth, inspecting his men.
+mareþal~
+mareþal~
+Mareþal yukarý aþaðý yürüyerek adamlarýný denetliyor.
 ~
 This ancient veteran is clad in an immaculate uniform that sports more
 medals than it does material. He marches proudly along, constantly on
@@ -188,13 +188,13 @@ human~
 ABGT 4|8|16|32|128|8192 800 0
 62 0 50d10+7250 5d5+5000 6d9+32 slash
 -32 -32 -32 -4
-CEFIK 0 0 0 
+CEFIK 0 0 0
 stand stand male 200
 0 0 medium 0
 #31211
-crossbowman~
-a crossbowman~
-A crossbowman patrols here, alert for invaders.
+tatar okçusu~
+tatar okçusu~
+Bir tatar okçusu devriye geziyor.
 ~
 The crossbowmen of the city of Anon are renowned for their marksmanship
 across the land. Only the very best can ever hope to join their elite
@@ -204,13 +204,13 @@ human~
 ABGT 512|8192 400 0
 48 0 25d10+3750 5d5+1000 6d6+18 pound
 -18 -18 -18 1
-EFIKN 0 0 0 
+EFIKN 0 0 0
 stand stand male 200
 0 0 medium 0
 #31212
-smith~
-the guard smith~
-The wall guard smith grunts at you.
+onarým muhafýzý~
+onarým muhafýzý~
+Onarým muhafýzý seni izliyor.
 ~
 This doughty dwarf spends all his time repairing damaged equipment. He isn't
 one for much conversation.
@@ -219,13 +219,13 @@ dwarf~
 ABGT 4|8|16|32|128|8192 0 0
 59 0 50d10+6500 5d5+5000 8d6+26 pound
 -29 -29 -29 -3
-CDEFIKTU 0 0 0 
+CDEFIKTU 0 0 0
 stand stand male 200
 0 0 medium 0
 #31213
-spectre~
-a vile spectre~
-A vile spectre lunges at you.
+iðrenç hayalet~
+iðrenç hayalet~
+Ýðrenç bir hayalet üzerine yükleniyor.
 ~
 This is the evil soul of a vile sergeant-at-arms who imprisoned the young
 girl here who eventually slew him, dying herself in the process. He has been
@@ -235,13 +235,13 @@ unique~
 2|32|64 4|8|16|32|128|512|8192|32768|524288 -1000 0
 60 0 50d10+6750 5d5+5000 8d6+28 charge
 -30 -30 -30 -3
-EFIKN 0 0 0 
+EFIKN 0 0 0
 stand stand none 200
 0 0 medium 0
 #31214
-ghost~
-a ghost~
-A nearly-insubstantial ghost flits silently about.
+hayalet~
+hayalet~
+Bir hayalet görüyorsun, o da seni görüyor.
 ~
 This is the tormented soul of an innocent peasant girl, captured and dragged
 here by a wicked guard intent on marrying her. She slew him while trying to
@@ -252,13 +252,13 @@ unique~
 2|64|128 2|4|8|16|32|128|512|8192|32768|65536|524288 1000 0
 60 0 50d10+6750 5d5+5000 8d6+28 magic
 -30 -30 -30 -3
-EF 0 0 0 
+EF 0 0 0
 stand stand none 200
 0 0 medium 0
 #31215
-priestess~
-a priestess of Lenny~
-A priestess of Lenny is here tending to the sick.
+rahibe Leni~
+rahibe Leni~
+Rahibe Lenny dua ediyor.
 ~
 This kind woman cures the injuries and ailments of the city guards. She
 smiles at you as you enter, and bids you state your injuries so she can
@@ -268,111 +268,111 @@ human~
 2|64 4|8|16|32|128|512|8192 1000 0
 60 0 50d10+6750 5d5+5000 8d6+28 slap
 -30 -30 -30 -3
-EFNU 0 0 0 
+EFNU 0 0 0
 stand stand female 200
 0 0 medium 0
 #31216
-worker~
-a burly worker~
-A burly worker shoves a heavy barrel onto a scow.
+iriyarý iþçi~
+iriyarý iþçi~
+Ýriyarý bir iþçi büyük bir fýçýyý ittiriyor.
 ~
 These burly fellows would be a tough foe in a barroom brawl. They have more
 tattoos than skin, it seems, and more hair than the average Kodiak grizzly.
 ~
 human~
 64|8388608 8192 0 0
-8 0 2d7+96 5d5+100 1d7+2 punch         
+8 0 2d7+96 5d5+100 1d7+2 punch
 3 3 3 8
-EFNU 0 0 0 
+EFNU 0 0 0
 stand stand male 200
 0 0 medium 0
 #31217
-sailor~
-a sailor~
-A crusty old sailor swigs from his bottle of rum.
+denizci~
+denizci~
+Yaþlý bir denizci þiþesindeki romu yudumluyor.
 ~
 This disreputable-looking fellow is a crew member from one of the scows. He
 is simply waiting till its time to go.
 ~
 human~
 64|8388608 8192 0 0
-8 0 2d7+96 5d5+100 1d7+2 punch         
+8 0 2d7+96 5d5+100 1d7+2 punch
 3 3 3 8
-EFNU 0 0 0 
+EFNU 0 0 0
 stand stand male 200
 0 0 medium 0
 #31218
-dock master~
-the dock master~
-The dock master is here checking cargo inventories.
+rýhtým þefi~
+rýhtým þefi~
+Rýhtým þefi yükleri kontrol ediyor.
 ~
 He is far too busy to speak to you.
 ~
 human~
 2|64|8388608 128 400 0
-12 0 2d10+150 5d5+100 1d10+3 pound   
+12 0 2d10+150 5d5+100 1d10+3 pound
 0 0 0 7
-CEIK 0 0 0 
+CEIK 0 0 0
 stand stand male 200
 0 0 medium 0
 #0
 
 #OBJOLD
 #31200
-sword longsword~
-an ornate Longsword~
-An ornate Longsword is lying here.~
+süslü uzunkýlýç~
+süslü uzunkýlýç~
+Süslü bir uzunkýlýç burada dinleniyor.~
 ~
 5 64 1|8192
-0 0 0 11 
+0 0 0 11
 25 0 0
 A
 18 4
 A
 19 4
 #31201
-breastplate plate~
-an ornate Breastplate~
-An ornate Breastplate with a black and gold coat of arms is lying here.~
+süslü zýrh~
+süslü zýrh~
+Süslü bir zýrh burada oturuyor.~
 ~
 9 0 1|8
-0 0 0 0 
+0 0 0 0
 20 0 0
 A
 5 2
 A
 17 -15
 #31202
-bracer~
-an ornate Bracer~
-An ornate Bracer with a black and gold coat of arms is lying here.~
+süslü bileklik~
+süslü bileklik~
+Süslü bir bileklik kapýya doðru sürünüyor.~
 ~
 9 0 1|4096
-0 0 0 0 
+0 0 0 0
 15 0 0
 A
 2 2
 A
 18 2
 #31203
-cloak~
-a black cloak with gold trim~
-A black cloak with Gold Trim is lying here.~
+altýn iþlemeli siyah pelerin~
+altýn iþlemeli siyah pelerin~
+Altýn iþlemeli siyah bir pelerin burada býrakýlmýþ.~
 ~
 9 0 1|4
-0 0 0 0 
+0 0 0 0
 10 0 0
 A
 12 25
 A
 17 -15
 #31204
-helm~
-an ornate helm~
-An ornate helm bearing a black and gold coat of arms lies here.~
+süslü miðfer~
+süslü miðfer~
+Süslü bir miðfer burada býrakýlmýþ. Enteresan bir dikkatsizlik!~
 ~
 9 0 1|16
-0 0 0 0 
+0 0 0 0
 10 0 0
 A
 3 1
@@ -381,9 +381,9 @@ A
 A
 17 -20
 #31205
-shield~
-an ornate shield~
-A shield bearing the crest of the House of Lenny lies here.~
+süslü kalkan~
+süslü kalkan~
+Süslü bir kalkan burada düþürülmüþ.~
 ~
 9 0 1|512
 0 0 0 0
@@ -395,21 +395,21 @@ A
 A
 24 -2
 #31206
-spear~
-a throwing spear~
-A sturdy throwing spear has been thrust into the ground here.~
+cirit~
+cirit~
+Bir cirit buraya FIRLATILMIÞ!~
 ~
 30 64 1|8192|16384
-0 0 0 0 
+0 0 0 0
 20 0 0
 A
 18 2
 A
 19 2
 #31207
-ring~
-a signet ring~
-A signet ring that identifies the wearer as a trusted wall guard lies here.~
+süslü mühürlü yüzük~
+süslü mühürlü yüzük~
+Süslü bir mühürlü yüzük burada düþürülmüþ.~
 ~
 9 1|2 1|2
 0 0 0 0
@@ -423,9 +423,9 @@ A
 A
 19 2
 #31208
-suit plate mail~
-a suit of plate mail~
-A suit of heavy plate mail is piled up here.~
+aðýr göðüslük~
+aðýr göðüslük~
+Aðýr bir göðüslük burada býrakýlmýþ.~
 ~
 9 1024 1|8
 0 0 0 0
@@ -435,9 +435,9 @@ A
 A
 17 -45
 #31209
-broadsword~
-a finely-made broadsword~
-A knight's broadsword lies here.~
+geniþ-kýlýç geniþ kýlýç~
+geniþ-kýlýç~
+Bir þövalyeye ait bir geniþ-kýlýç burada býrakýlmýþ.~
 ~
 5 1|64|1024 1|8192
 0 0 0 3
@@ -447,9 +447,9 @@ A
 A
 19 8
 #31210
-shield~
-a knight's shield~
-A knight's shield lies here.~
+þövalye kalkaný~
+þövalye kalkaný~
+Bir þövalye kalkaný burada býrakýlmýþ.~
 ~
 9 1024 1|512
 0 0 0 0
@@ -461,9 +461,9 @@ A
 A
 24 -3
 #31211
-helm~
-a knight's helm~
-A knight's helm lies here.~
+þövalye miðferi~
+þövalye miðferi~
+Bir þövalye miðferi burada býrakýlmýþ.~
 ~
 9 1024 1|16
 0 0 0 0
@@ -471,9 +471,9 @@ A knight's helm lies here.~
 A
 4 3
 #31212
-gauntlets~
-a pair of mail gauntlets~
-A pair of mail gauntlets lie here.~
+uzun eldiven~
+bir çift uzun eldiven~
+Bir çift uzun eldiven burada býrakýlmýþ.~
 ~
 9 64|1024 1|16
 0 0 0 0
@@ -485,17 +485,17 @@ A
 A
 19 3
 #31213
-ring~
-a holy signet ring~
-A holy signet ring lies here.~
+kutsal mühürlü yüzük~
+kutsal mühürlü yüzük~
+Mühürlü bir yüzük burada býrakýlmýþ.~
 ~
 9 1|2|64|1024 1|2
 0 0 0 0
 10 0 0
 #31214
-marshal uniform~
-the marshal's uniform~
-The marshal's uniform lies here, neatly pressed.~
+mareþal üniformasý~
+Mareþal'in Üniformasý~
+Mareþal üniformasýný burada býrakmýþ, acaba kendisi nereye gitmiþ?.~
 ~
 9 0 1|8
 0 0 0 0
@@ -505,48 +505,48 @@ A
 A
 19 3
 #31215
-swagger stick~
-the marshal's swagger stick~
-The marshal's swagger stick lies here.~
+mareþalin asasý~
+Mareþal'in Sopasý~
+Mareþal asasýný burada býrakmýþ.~
 ~
 3 1|2|1024 1|16384
 60 1 1 24
 1 0 0
 #31216
-beacon~
-a wall beacon~
-This beacon illuminates the walls for guards patrolling at night.~
+iþaret taþý~
+iþaret taþý~
+Gece devriye gezen muhafýzlar için buraya bir iþaret taþý konulmuþ.~
 ~
 1 64 1|65536
 0 0 -1 0
 5 0 0
 #31217
-pot boiling oil~
-a pot of boiling oil~
-A pot of boiling oil bubbles away here.~
+bir varil dolusu kaynar yað~
+bir varil dolusu kaynar yað~
+Bir varil dolusu kaynmar yað burada býrakýlmýþ.~
 ~
 12 1 0
 0 0 0 0
 100 0 0
 E
-pot boiling oil~
-It is far too heavy to lift.~
+kap dolusu kaynar yað~
+Kaldýramayacaðýn kadar aðýr.~
 #31218
-murderhole murder hole~
-a murder hole~
-A murder hole is in the middle of the floor here.~
+ölüm delik~
+ölüm deliði~
+Bir ölüm deliði odanýn ortasýnda duruyor.~
 ~
 12 0 0
 0 0 0 0
 1 0 0
 E
-murder hole~
+ölüm delik~
 A small square hole with a series of metal bars across it through which
 boiling oil can be poured onto attackers below.~
 #31219
-crossbow~
-a crossbow~
-A finely-crafted crossbow lies here.~
+tatar yayý~
+tatar yayý~
+Güzel bir tatar yayý burada yatýyor.~
 ~
 5 0 1|32768
 0 0 0 11
@@ -554,9 +554,9 @@ A finely-crafted crossbow lies here.~
 A
 18 6
 #31220
-chainmail~
-a suit of chainmail~
-A suit of chainmail lies here.~
+zýrh~
+zýrh~
+Bir zýrh burada býrakýlmýþ.~
 ~
 9 0 1|8
 0 0 0 0
@@ -564,9 +564,9 @@ A suit of chainmail lies here.~
 A
 5 2
 #31221
-leather leggings~
-a pair of leather leggings~
-A pair of leather leggings lie here.~
+deri bacaklýk~
+bir çift deri bacaklýk~
+Bir çift deri bacaklýk burada býrakýlmýþ.~
 ~
 9 0 1|32
 0 0 0 0
@@ -574,37 +574,37 @@ A pair of leather leggings lie here.~
 A
 13 25
 #31222
-leather wristguard~
-a crossbowman's leather wristguard~
-A strip of hardened leather lies here.~
+okçunun deri bileklik parça~
+okçunun deri bilekliði~
+Bir deri parçasý burada býrakýlmýþ.~
 ~
 9 0 1|4096
 0 0 0 0
 1 0 0
 #31223
-scroll~
-a torn scroll~
+ayrýk parþömen~
+ayrýk parþömen~
 ~
 ~
 2 0 1|16384
 50 59 0 0
 1 0 0
 #31224
-key~
-an old key~
-An old key lies here.~
+eski anahtar~
+eski anahtar~
+Eski bir anahtar burada býrakýlmýþ.~
 ~
 18 0 1|16384
 0 0 0 0
 1 0 0
 E
-key~
+anahtar~
 This key is inscribed with silvery runes.
 ~
 #31225
-scroll~
-an old scroll~
-An old scroll has been left here, neatly rolled and sealed.~
+eski parþömen~
+eski parþömen~
+Eski bir parþömen burada unutulmuþ.~
 ~
 2 64 1|16384
 60 65 65 65
@@ -612,7 +612,7 @@ An old scroll has been left here, neatly rolled and sealed.~
 A
 4 3
 E
-scroll~
+parþömen~
 The scroll reads-
 
 "Use the power of this scroll to help send the foul sergeant's spectre
@@ -622,45 +622,45 @@ strongest shall pervail! You will find a key to break the mystic portal,
 use it well"
 ~
 #31226
-footlocker~
-a footlocker~
-A footlocker rests near a bed.~
+komidin~
+komidin~
+Bir komidin yataðýn yanýnda dinleniyor.~
 ~
 15 0 0
 100 1 0 0
 10 0 0
 E
-footlocker~
+komidin~
 It is bolted to the floor. Perhaps its contents are easier to abscond with.
 ~
 #31227
-tapestry~
-an ancient tapestry~
-An ancient tapestry depicting the construction of these walls hangs here.~
+duvar halýsý~
+duvar halýsý~
+Duvarlarýn inþasýný resmeden eski bir duvar halýsý duvardan sarkýyor.~
 ~
 8 1 1|16384
 0 0 0 0
 25 50000 0
 #31228
-tapestry~
-an ancient tapestry~
-An ancient tapestry depicting the construction of Midgaard hangs here.~
+duvar halýsý~
+duvar halýsý~
+Midgaard'ýn inþasýný resmeden eski bir duvar halýsý duvardan sarkýyor.~
 ~
 8 1 1|16384
 0 0 0 0
 25 50000 0
 #31229
-tapestry~
-an ancient tapestry~
-An ancient tapestry depicting the construction of Malathar hangs here.~
+duvar halýsý~
+duvar halýsý~
+Malathar'ýn inþasýný resmeden eski bir duvar halýsý duvardan sarkýyor.~
 ~
 8 1 1|16384
 0 0 0 0
 25 50000 0
 #31230
-tapestry~
-an ancient tapestry~
-An ancient tapestry depicting the construction of Freeport hangs here.~
+duvar halýsý~
+duvar halýsý~
+Feport'un inþasýný resmeden eski bir duvar halýsý duvardan sarkýyor.~
 ~
 8 1 1|16384
 0 0 0 0
@@ -674,33 +674,33 @@ A belaying pin lies here.~
 0 0 0 7
 5 0 0
 #31232
-barrel ale~
-a barrel of ale~
-A barrel of ale sits here, ready to be transported.~
+fýçý ale~
+fýçý ale~
+Bir fýçý ale nakledilmeyi bekliyor.~
 ~
 17 0 1
 25 25 3 0
 25 0 0
 #31233
-barrel~
-an empty barrel~
-An empty barrel rests here.~
+boþ fýçý~
+boþ fýçý~
+Boþ bir fýçý burada dinleniyor.~
 ~
 9 0 1|8
 0 0 0 0
 5 0 0
 #31234
-lantern~
-a lantern~
-A lantern sits here.~
+fener~
+fener~
+Bir fener burada oturuyor.~
 ~
 1 0 1|65536
 0 0 200 0
 2 25 0
 #31235
-rope~
-a coiled rope~
-A coil of rope lies here.~
+dolanmýþ ip~
+dolanmýþ ip~
+Dolanmýþ bir ip çözülmeyi bekliyor.~
 ~
 9 0 1|2048
 0 0 0 0
@@ -708,25 +708,25 @@ A coil of rope lies here.~
 A
 5 2
 #31236
-backpack~
-a leather backpack~
-A leather backpack sits here.~
+deri sýrtçantasý~
+deri sýrtçantasý~
+Deriden bir sýrtçantasý burada oturuyor.~
 ~
 15 0 1|8
 100 1 0 0
 2 0 0
 #31237
-cloth~
-a bolt of cloth~
-A bolt of cloth lies on the floor here.~
+giysi düðmesi~
+giysi düðmesi~
+Bir giysi düðmesi burada oturuyor.~
 ~
 8 0 1
 0 0 0 0
 5 250 0
 #31238
-key~
-a warehouse key~
-A warehouse key is here.~
+depo anahtarý~
+depo anahtarý~
+Bir anahtar burada dinleniyor.~
 ~
 18 0 1|16384
 0 0 0 0
@@ -740,17 +740,17 @@ A scow is moored here.~
 10000 0 0 1
 1000 0 0
 #31240
-cutlass~
-a cutlass~
-A cutlass lies here.~
+pala~
+pala~
+Bir pala burada býrakýlmýþ.~
 ~
 5 0 1|8192
 0 0 0 3
 7 0 0
 #31241
-ring wizardry~
-a ring of wizardry~
-A ring of wizardry has been left here.~
+büyücü yüzük~
+büyücü yüzüðü~
+Bir büyücü yüzüðü burada býrakýlmýþ.~
 ~
 9 1|64 1|2
 0 0 0 0
@@ -760,9 +760,9 @@ A
 A
 12 50
 #31242
-staff power~
-a staff of power~
-A staff of power rests on the floor here.~
+güç asa~
+güç asasý~
+Bir asa yere uzanmýþ dinleniyor.~
 ~
 4 1|64 1|16384
 55 25 25 30
@@ -772,9 +772,9 @@ A
 A
 17 -20
 #31243
-robe magi~
-a white robe of the magi~
-A white robe of the magi lies here.~
+beyaz büyücü cüppesi~
+beyaz büyücü cüppesi~
+Beyaz bir cüppe burada yatýyor.~
 ~
 28 1|64|1024 1|1024
 0 0 0 0
@@ -792,9 +792,9 @@ A
 A
 19 1
 #31244
-boots speed~
-a pair of boots of speed~
-A pair of boots of speed lie here.~
+hýz çizme~
+bir çift hýz çizmesi~
+Bir çift hýz çizmesi burada býrakýlmýþ.~
 ~
 9 1|64 1|64
 0 0 0 0
@@ -806,9 +806,9 @@ A
 A
 17 -10
 #31245
-invincible plate~
-a suit of invincible plate~
-A suit of invincible plate lies here.~
+yenilmez zýrh~
+yenilmez zýrh~
+Bir zýrh burada dinleniyor.~
 ~
 9 2|4|16|32|64|128|512|2048|4096 1|8
 20 0 0 0
@@ -827,7 +827,7 @@ A
 
 #ROOMS
 #31200
-Inside the Guard Tower~
+Muhafýz Kulesinde~
 You are standing inside the northern guard tower at the west gate. This
 tower is a circular affair approximately twenty feet in diameter and forty
 feet high. Straw has been scattered across the stone floor, and some plain
@@ -847,7 +847,7 @@ D4
 0 -1 31202
 S
 #31201
-Inside the Guard Tower~
+Muhafýz Kulesinde~
 You are standing inside the southern guard tower at the west gate. This
 tower is a circular affair approximately twenty feet in diameter and forty
 feet high. Straw has been scattered across the stone floor, and some plain
@@ -868,7 +868,7 @@ D4
 0 -1 31207
 S
 #31202
-Inside the North Tower, West Gatehouse~
+Batý Geçidinin Kuzey Kulesinde~
 You are standing inside the north tower at the west gatehouse. Doors lead
 north into the passages that run through the city walls, and south into the
 gatehouse proper. A staircase winds its way up to the next floor.
@@ -888,7 +888,7 @@ D4
 0 -1 31226
 S
 #31203
-Inside the Western City Wall~
+Batý Þehir Duvarýnda~
 You are making you way along a narrow corridor that runs through the
 center of the cyclopean walls of the city of Anon. Crossbow slits at regular
 intervals allow you to look out upon the western plains that lie beyond
@@ -909,7 +909,7 @@ D2
 1 0 31202
 S
 #31204
-Inside the Western City Wall~
+Batý Þehir Duvarýnda~
 You are making you way along a narrow corridor that runs through the
 center of the cyclopean walls of the city of Anon. Crossbow slits at regular
 intervals allow you to look out upon the western plains that lie beyond
@@ -928,7 +928,7 @@ D2
 0 -1 31203
 S
 #31205
-Inside the Western City Wall~
+Batý Þehir Duvarýnda~
 You are making you way along a narrow corridor that runs through the
 center of the cyclopean walls of the city of Anon. Crossbow slits at regular
 intervals allow you to look out upon the western plains that lie beyond
@@ -949,7 +949,7 @@ D2
 0 -1 31204
 S
 #31206
-Northwest Tower~
+Kuzey-Batý Kulesi~
 This massive circular tower rises at the northwest corner of the city walls.
 It is sixty feet tall, and thirty feet in diameter, making it just about the
 largest tower you've ever seen. Guards march back and forth past you,
@@ -977,7 +977,7 @@ D5
 0 -1 31252
 S
 #31207
-Inside the South Tower, West Gatehouse~
+Batý Geçidinin Güney Kulesinde~
 You are standing inside the north tower at the west gatehouse. Doors lead
 north into the passages that run through the city walls, and south into the
 gatehouse proper. A staircase winds its way up to the next floor. A pile of
@@ -998,7 +998,7 @@ D4
 0 -1 31227
 S
 #31208
-Inside the Western City Wall~
+Batý Þehir Duvarýnda~
 You are making you way along a narrow corridor that runs through the
 center of the cyclopean walls of the city of Anon. Crossbow slits at regular
 intervals allow you to look out upon the western plains that lie beyond
@@ -1019,7 +1019,7 @@ D2
 0 -1 31209
 S
 #31209
-Inside the Western City Wall~
+Batý Þehir Duvarýnda~
 You are making you way along a narrow corridor that runs through the
 center of the cyclopean walls of the city of Anon. Crossbow slits at regular
 intervals allow you to look out upon the western plains that lie beyond
@@ -1038,7 +1038,7 @@ D2
 0 -1 31210
 S
 #31210
-Inside the Western City Wall~
+Batý Þehir Duvarýnda~
 You are making you way along a narrow corridor that runs through the
 center of the cyclopean walls of the city of Anon. Crossbow slits at regular
 intervals allow you to look out upon the western plains that lie beyond
@@ -1059,7 +1059,7 @@ D2
 1 0 31211
 S
 #31211
-Southwest Tower~
+Güney-Batý Kulesi~
 This massive circular tower rises at the southwest corner of the city walls.
 It is sixty feet tall, and thirty feet in diameter, making it just about the
 largest tower you've ever seen. Guards march back and forth past you,
@@ -1090,7 +1090,7 @@ D5
 0 -1 31254
 S
 #31212
-Inside the Guard Tower~
+Muhafýz Kulesinde~
 You are standing inside the northern guard tower at the east gate. This
 tower is a circular affair approximately twenty feet in diameter and forty
 feet high. Straw has been scattered across the stone floor, and some plain
@@ -1112,7 +1112,7 @@ D4
 0 -1 31214
 S
 #31213
-Inside the Guard Tower~
+Muhafýz Kulesinde~
 You are standing inside the southern guard tower at the east gate. This
 tower is a circular affair approximately twenty feet in diameter and forty
 feet high. Straw has been scattered across the stone floor, and some plain
@@ -1133,7 +1133,7 @@ D4
 0 -1 31215
 S
 #31214
-Inside the North Tower, East Gatehouse~
+Doðu Geçidinin Kuzey Kulesinde~
 You are standing inside the north tower at the east gatehouse. Doors lead
 north into the passages that run through the city walls, and south into the
 gatehouse proper. A staircase winds its way up to the next floor. The eastern
@@ -1155,7 +1155,7 @@ D4
 0 -1 31228
 S
 #31215
-Inside the South Tower, East Gatehouse~
+Doðu Geçidinin Güney Kulesinde~
 You are standing inside the south tower at the east gatehouse. Doors lead
 south into the passages that run through the city walls, and north into the
 gatehouse proper. A staircase winds its way up to the next floor. The eastern
@@ -1176,7 +1176,7 @@ D4
 ~
 0 -1 31229
 E
-writing wall~
+duvar yazý~
 The writing says-
 
 "Now my charms are all o'erthrown, and what strength I have's mine own;
@@ -1192,7 +1192,7 @@ The writing says-
 ~
 S
 #31216
-The Gatehouse~
+Geçit~
 You are standing in the gatehouse that houses the great western mithril
 valves of the City of Anon. Massive guard towers lie to the north and south.
 There are murder holes set in the floor at your feet, allowing defenders
@@ -1211,7 +1211,7 @@ D2
 1 0 31207
 S
 #31217
-The Gatehouse~
+Geçit~
 You are standing in the gatehouse that houses the great eastern mithril
 valves of the City of Anon. Massive guard towers lie to the north and south.
 There are murder holes set in the floor at your feet, allowing defenders
@@ -1230,7 +1230,7 @@ D2
 1 0 31215
 S
 #31218
-Inside the Eastern City Wall~
+Doðu Þehir Duvarýnda~
 You are making you way along a narrow corridor that runs through the
 center of the cyclopean walls of the City of Anon. Crossbow slits at regular
 intervals allow you to look out upon the western plains that lie beyond
@@ -1251,7 +1251,7 @@ D2
 1 0 31214
 S
 #31219
-Inside the Eastern City Wall~
+Doðu Þehir Duvarýnda~
 You are making you way along a narrow corridor that runs through the
 center of the cyclopean walls of the City of Anon. Crossbow slits at regular
 intervals allow you to look out upon the western plains that lie beyond
@@ -1270,7 +1270,7 @@ D2
 0 -1 31218
 S
 #31220
-Inside the Eastern City Wall~
+Doðu Þehir Duvarýnda~
 You are making you way along a narrow corridor that runs through the
 center of the cyclopean walls of the City of Anon. Crossbow slits at regular
 intervals allow you to look out upon the western plains that lie beyond
@@ -1291,7 +1291,7 @@ D2
 0 -1 31219
 S
 #31221
-Northeast Tower~
+Kuzey-Doðu Kulesi~
 This massive circular tower rises at the northeast corner of the city walls.
 It is sixty feet tall, and thirty feet in diameter, making it just about the
 largest tower you've ever seen. Guards march back and forth past you,
@@ -1319,7 +1319,7 @@ D5
 0 -1 31253
 S
 #31222
-Inside the Eastern City Wall~
+Doðu Þehir Duvarýnda~
 You are making you way along a narrow corridor that runs through the
 center of the cyclopean walls of the city of Anon. Crossbow slits at regular
 intervals allow you to look out upon the western plains that lie beyond
@@ -1340,7 +1340,7 @@ D2
 0 -1 31223
 S
 #31223
-Inside the Eastern City Wall~
+Doðu Þehir Duvarýnda~
 You are making you way along a narrow corridor that runs through the
 center of the cyclopean walls of the city of Anon. Crossbow slits at regular
 intervals allow you to look out upon the western plains that lie beyond
@@ -1359,7 +1359,7 @@ D2
 0 -1 31224
 S
 #31224
-Inside the Eastern City Wall~
+Doðu Þehir Duvarýnda~
 You are making you way along a narrow corridor that runs through the
 center of the cyclopean walls of the city of Anon. Crossbow slits at regular
 intervals allow you to look out upon the western plains that lie beyond
@@ -1380,7 +1380,7 @@ D2
 1 -1 31225
 S
 #31225
-Southeast Tower~
+Güney-Doðu Kulesi~
 This massive circular tower rises at the southwest corner of the city walls.
 It is sixty feet tall, and thirty feet in diameter, making it just about the
 largest tower you've ever seen. Guards march back and forth past you,
@@ -1408,7 +1408,7 @@ D5
 0 -1 31255
 S
 #31226
-North Tower, Western Gatehouse~
+Kuzey Kulesi, Batý Geçidi~
 You are in the north tower, western gatehouse. The staircase you have been
 using continues up and down through the tower. Doors lead north and south
 onto the battlements.
@@ -1432,7 +1432,7 @@ D5
 0 -1 31202
 S
 #31227
-South Tower, Western Gatehouse~
+Güney Kulesi, Batý Geçidi~
 You are in the south tower, western gatehouse. The staircase you have been
 using continues up and down through the tower. Doors lead north and south
 onto the battlements.
@@ -1456,7 +1456,7 @@ D5
 0 -1 31207
 S
 #31228
-North Tower, Eastern Gatehouse~
+Kuzey Kulesi, Doðu Geçidi~
 You are in the north tower, eastern gatehouse. The staircase you have been
 using continues up and down through the tower. Doors lead north and south
 onto the battlements.
@@ -1480,7 +1480,7 @@ D5
 0 -1 31214
 S
 #31229
-South Tower, Eastern Gatehouse~
+Güney Kulesi, Doðu Geçidi~
 You are in the south tower, eastern gatehouse. The staircase you have been
 using continues up and down through the tower. Doors lead north and south
 onto the battlements.
@@ -1504,7 +1504,7 @@ D5
 0 -1 31215
 S
 #31230
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast northern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1523,7 +1523,7 @@ D3
 1 0 31206
 S
 #31231
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast northern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1540,7 +1540,7 @@ D3
 0 -1 31230
 S
 #31232
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast northern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1555,9 +1555,9 @@ D3
 ~
 ~
 0 -1 31231
-S        
+S
 #31233
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast northern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1574,7 +1574,7 @@ D3
 0 -1 31232
 S
 #31234
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast northern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1591,7 +1591,7 @@ D3
 0 -1 31233
 S
 #31235
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast northern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1608,7 +1608,7 @@ D3
 0 -1 31234
 S
 #31236
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast northern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1625,7 +1625,7 @@ D3
 0 -1 31235
 S
 #31237
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast northern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1642,7 +1642,7 @@ D3
 0 -1 31236
 S
 #31238
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast northern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1659,7 +1659,7 @@ D3
 0 -1 31237
 S
 #31239
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast northern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1676,7 +1676,7 @@ D3
 0 -1 31238
 S
 #31240
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast northern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1695,7 +1695,7 @@ D3
 0 -1 31239
 S
 #31241
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast southern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1714,7 +1714,7 @@ D3
 1 0 31211
 S
 #31242
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast southern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1731,7 +1731,7 @@ D3
 0 -1 31241
 S
 #31243
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast southern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1748,7 +1748,7 @@ D3
 0 -1 31242
 S
 #31244
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast southern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1765,7 +1765,7 @@ D3
 0 -1 31243
 S
 #31245
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast southern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1782,7 +1782,7 @@ D3
 0 -1 31244
 S
 #31246
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast southern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1799,7 +1799,7 @@ D3
 0 -1 31245
 S
 #31247
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast southern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1816,7 +1816,7 @@ D3
 0 -1 31246
 S
 #31248
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast southern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1833,7 +1833,7 @@ D3
 0 -1 31247
 S
 #31249
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast southern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1850,7 +1850,7 @@ D3
 0 -1 31248
 S
 #31250
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast southern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1867,7 +1867,7 @@ D3
 0 -1 31249
 S
 #31251
-Within the Walls~
+Duvarlarýn Ýçinde~
 You are advancing along the long narrow passage that runs through the
 center of the vast southern wall of the City of Anon. This passage, like
 the shorter eastern and western versions, is crossletted at regular
@@ -1886,7 +1886,7 @@ D3
 0 -1 31250
 S
 #31252
-Base of Northwest Tower~
+Kuzey-Batý Kulesi Dibi~
 You have reached the bottom of Northwest tower, the huge tower at the
 northwestern corner of the walls of the City of Anon. It appears to serve
 as some sort of storage area, being as it is full of weapons and armor.
@@ -1899,7 +1899,7 @@ D4
 0 -1 31206
 S
 #31253
-Base of Northeast Tower~
+Kuzey-Doðu Kulesi Dibi~
 This room is dusty and full of cobwebs. It probably hasn't been entered in
 ages. Coughing, you make your way through a jumble of debris, looking for
 another exit, but you find none. You do spy several torn scraps of what
@@ -1912,7 +1912,7 @@ D4
 0 -1 31221
 S
 #31254
-Base of Southwest Tower~
+Güney-Batý Kulesi Dibi~
 This chamber serves as quarters for the wall guard smith. He spends most of
 his day down here in this smithy, repairing the damaged equipment of the
 guards. He may even repair yours.
@@ -1924,7 +1924,7 @@ D4
 0 -1 31211
 S
 #31255
-Base of Southeast Tower~
+Güney-Doðu Kulesi Dibi~
 This rooms is totally devoid of furniture, and looks to have been swept
 recently. Wonder what it will be used for...?
 ~
@@ -1935,7 +1935,7 @@ D4
 0 -1 31225
 S
 #31256
-Northwest Tower~
+Kuzey-Batý Kulesi~
 You are inside the northwest tower of the walls of Anon. Up from here are
 the offices of some of the guard officers and other personnel. Doors lead
 east and south out onto the battlements.
@@ -1959,7 +1959,7 @@ D5
 0 -1 31206
 S
 #31257
-Northeast Tower~
+Kuzey-Doðu Kulesi~
 You are inside the northwest tower of the walls of Anon. From the look of it
 it hasn't been cleaned in ages. A bolted iron trapdoor blocks the staircase
 leading up. How odd...
@@ -1976,7 +1976,7 @@ D3
 D4
 As you look closer, you notice the door is lined with silver runes...
 ~
-door trapdoor up~
+kapý tuzakkapý yukarý~
 1 31224 31311
 D5
 ~
@@ -1984,7 +1984,7 @@ D5
 0 -1 31221
 S
 #31258
-Southwest Tower~
+Güney-Batý Kulesi~
 You are inside the southwest tower of the walls of Anon. Up from here are
 the offices of some of the guard officers and other personnel. Doors lead
 east and north out onto the battlements.
@@ -2008,7 +2008,7 @@ D5
 0 -1 31211
 S
 #31259
-Southeast Tower~
+Güney-Doðu Kulesi~
 You are inside the southeast tower of the walls of Anon. Up from here are
 the offices of some of the guard officers and other personnel. Doors lead
 west and north out onto the battlements.
@@ -2032,7 +2032,7 @@ D5
 0 -1 31225
 S
 #31260
-North Tower, West Gatehouse~
+Kuzey Kulesi, Batý Geçidi~
 Guards nod briefly at you, with slight curiosity as you advance up into
 this guard tower. This level appears to be the quarters of many of them,
 judging by the neatly-made beds and clothes racks. A trapdoor in the ceiling
@@ -2049,7 +2049,7 @@ D5
 0 -1 31226
 S
 #31261
-South Tower, West Gatehouse~
+Güney Kulesi, Batý Geçidi~
 Guards nod briefly at you, with slight curiosity as you advance up into
 this guard tower. This level appears to be the quarters of many of them,
 judging by the neatly-made beds and clothes racks. A trapdoor in the ceiling
@@ -2066,7 +2066,7 @@ D5
 0 -1 31227
 S
 #31262
-North Tower, East Gatehouse~
+Kuzey Kulesi, Doðu Geçidi~
 Guards nod briefly at you, with slight curiosity as you advance up into
 this guard tower. This level appears to be the quarters of many of them,
 judging by the neatly-made beds and clothes racks. A trapdoor in the ceiling
@@ -2083,7 +2083,7 @@ D5
 0 -1 31228
 S
 #31263
-South Tower, East Gatehouse~
+Güney Kulesi, Doðu Geçidi~
 Guards nod briefly at you, with slight curiosity as you advance up into
 this guard tower. This level appears to be the quarters of many of them,
 judging by the neatly-made beds and clothes racks. A trapdoor in the ceiling
@@ -2100,7 +2100,7 @@ D5
 0 -1 31229
 S
 #31264
-The Roof of the Tower~
+Kulenin Çatýsý~
 You are standing on the roof of the tower. Looking around, you can see the
 sprawl of Anon to the east, the roof of the temple dominating the scene in
 the mid-center. To the west you can see the vast plains that stretch for
@@ -2115,7 +2115,7 @@ D5
 1 0 31260
 S
 #31265
-The Roof of the Tower~
+Kulenin Çatýsý~
 You are standing on the roof of the tower. Looking around, you can see the
 sprawl of Anon to the east, the roof of the temple dominating the scene in
 the mid-center. To the west you can see the vast plains that stretch for
@@ -2130,7 +2130,7 @@ D5
 1 0 31261
 S
 #31266
-The Roof of the Tower~
+Kulenin Çatýsý~
 You are standing on the roof of the tower. Looking around, you can see the
 sprawl of Anon to the east, the roof of the temple dominating the scene in
 the mid-center. To the west you can see the vast plains that stretch for
@@ -2145,7 +2145,7 @@ D5
 1 0 31263
 S
 #31267
-The Roof of the Tower~
+Kulenin Çatýsý~
 You are standing on the roof of the tower. Looking around, you can see the
 sprawl of Anon to the east, the roof of the temple dominating the scene in
 the mid-center. To the west you can see the vast plains that stretch for
@@ -2160,7 +2160,7 @@ D5
 1 0 31262
 S
 #31268
-Atop the Gatehouse~
+Geçidin Üzeri~
 You are standing on the short section of the battlements that runs between
 the north and south towers of the western gatehouse. Below, you can see
 travellers making their way into and out of the city.
@@ -2176,7 +2176,7 @@ D2
 1 0 31227
 S
 #31269
-Atop the Gatehouse~
+Geçidin Üzeri~
 You are standing on the short section of the battlements that runs between
 the north and south towers of the eastern gatehouse. Below, you can see
 travellers making their way into and out of the city. Looking west, you
@@ -2194,7 +2194,7 @@ D2
 1 0 31229
 S
 #31270
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the northern half of the battlements on the western
 wall. Looking west, you can see far across the plains. Smoke rises from
 several settlements, including Solace, Midgaard, the Gnome village and the
@@ -2213,7 +2213,7 @@ D2
 1 0 31226
 S
 #31271
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the southern half of the battlements on the western
 wall. Guards nod at you as you pass, before quickly returning to their
 observation of the land and the city, and you admire their dedication to
@@ -2232,7 +2232,7 @@ D2
 0 -1 31277
 S
 #31272
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the northern half of the battlements on the eastern
 wall. Peering over the crenelations, you shudder as you gaze upon the
 desolate wastes of the plains of blood. You cast your eye about to try and
@@ -2252,7 +2252,7 @@ D2
 1 0 31228
 S
 #31273
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the southern half of the battlements on the eastern
 wall. Seagulls circle overhead, and you are puzzling at their presence when
 you suddenly remember the river of Anon runs just south east of here.
@@ -2272,7 +2272,7 @@ D2
 0 -1 31280
 S
 #31274
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the northern half of the battlements on the western
 wall. Looking west, you can see far across the plains. Smoke rises from
 several settlements, including Solace, Midgaard, the Gnome village and the
@@ -2289,7 +2289,7 @@ D2
 0 -1 31270
 S
 #31275
-The Anon Docks~
+Anon Rýhtýmlarý~
 This collection of buildings serves as the dock for the city on the Anon
 River. As most of the city's trade comes in by caravan, the docks are not
 very large.
@@ -2309,7 +2309,7 @@ D3
 0 -1 31281
 S
 #31276
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the northern half of the battlements on the western
 wall. Looking west, you can see far across the plains. Smoke rises from
 several settlements, including Solace, Midgaard, the Gnome village and the
@@ -2328,7 +2328,7 @@ D2
 0 -1 31274
 S
 #31277
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the southern half of the battlements on the western
 wall. Guards nod at you as you pass, before quickly returning to their
 observation of the land and the city, and you admire their dedication to
@@ -2345,7 +2345,7 @@ D2
 0 -1 31279
 S
 #31278
-The Pier~
+Ýskele~
 Several small punts and a couple of larger scows are moored at the jetty
 here. A couple of burly laborers work at moving several heavy barrels onto
 one of the scows. They grunt in greeting as you watch.
@@ -2357,7 +2357,7 @@ D0
 0 -1 31275
 S
 #31279
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the southern half of the battlements on the western
 wall. Guards nod at you as you pass, before quickly returning to their
 observation of the land and the city, and you admire their dedication to
@@ -2376,7 +2376,7 @@ D2
 1 -1 31258
 S
 #31280
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the southern half of the battlements on the eastern
 wall. Seagulls circle overhead, and you are puzzling at their presence when
 you suddenly remember the river of Anon runs just south east of here.
@@ -2394,7 +2394,7 @@ D2
 0 -1 31282
 S
 #31281
-Warehouses~
+Depolar~
 You are standing outside several warehouses. Most of them are boarded up and
 empty. However, there is one to the south that appears to be still in use.
 ~
@@ -2409,7 +2409,7 @@ D2
 1 31238 31284
 S
 #31282
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the southern half of the battlements on the eastern
 wall. Seagulls circle overhead, and you are puzzling at their presence when
 you suddenly remember the river of Anon runs just south east of here.
@@ -2429,7 +2429,7 @@ D2
 1 -1 31259
 S
 #31283
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the northern half of the battlements on the eastern
 wall. Peering over the crenelations, you shudder as you gaze upon the
 desolate wastes of the plains of blood. You cast your eye about to try and
@@ -2447,7 +2447,7 @@ D2
 0 -1 31272
 S
 #31284
-A Warehouse~
+Depo~
 This warehouse is filled with general goods such as coils of rope, piles of
 cheap cloth, barrels of ale and wine, lanterns, flasks of oil, jars of
 spices and dried meats. There is a sweet aroma in the air.
@@ -2459,7 +2459,7 @@ D0
 1 31238 31281
 S
 #31285
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the northern half of the battlements on the eastern
 wall. Peering over the crenelations, you shudder as you gaze upon the
 desolate wastes of the plains of blood. You cast your eye about to try and
@@ -2472,7 +2472,7 @@ A door to the north leads into northwest tower. There is a sign tacked to it.
 D0
 The sign reads- "KEEP OUT! By order of the Marshal"
 ~
-door sign~
+kapý iþaret~
 1 -1 31257
 D2
 ~
@@ -2480,7 +2480,7 @@ D2
 0 0 31283
 S
 #31286
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the huge northern wall of the City of Anon. This wall
 extends for at least twice the distance of the east and west walls,
 protecting the vulnerable northern aspect of the city from the constant
@@ -2501,7 +2501,7 @@ D3
 1 0 31256
 S
 #31287
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the huge northern wall of the City of Anon. This wall
 extends for at least twice the distance of the east and west walls,
 protecting the vulnerable northern aspect of the city from the constant
@@ -2520,7 +2520,7 @@ D3
 0 -1 31286
 S
 #31288
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the huge northern wall of the City of Anon. This wall
 extends for at least twice the distance of the east and west walls,
 protecting the vulnerable northern aspect of the city from the constant
@@ -2539,7 +2539,7 @@ D3
 0 -1 31287
 S
 #31289
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the huge northern wall of the City of Anon. This wall
 extends for at least twice the distance of the east and west walls,
 protecting the vulnerable northern aspect of the city from the constant
@@ -2558,7 +2558,7 @@ D3
 0 -1 31288
 S
 #31290
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the huge northern wall of the City of Anon. This wall
 extends for at least twice the distance of the east and west walls,
 protecting the vulnerable northern aspect of the city from the constant
@@ -2577,7 +2577,7 @@ D3
 0 -1 31289
 S
 #31291
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the huge northern wall of the City of Anon. This wall
 extends for at least twice the distance of the east and west walls,
 protecting the vulnerable northern aspect of the city from the constant
@@ -2596,7 +2596,7 @@ D3
 0 -1 31290
 S
 #31292
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the huge northern wall of the City of Anon. This wall
 extends for at least twice the distance of the east and west walls,
 protecting the vulnerable northern aspect of the city from the constant
@@ -2615,7 +2615,7 @@ D3
 0 -1 31291
 S
 #31293
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the huge northern wall of the City of Anon. This wall
 extends for at least twice the distance of the east and west walls,
 protecting the vulnerable northern aspect of the city from the constant
@@ -2634,7 +2634,7 @@ D3
 0 -1 31292
 S
 #31294
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the huge northern wall of the City of Anon. This wall
 extends for at least twice the distance of the east and west walls,
 protecting the vulnerable northern aspect of the city from the constant
@@ -2653,7 +2653,7 @@ D3
 0 -1 31293
 S
 #31295
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the huge northern wall of the City of Anon. This wall
 extends for at least twice the distance of the east and west walls,
 protecting the vulnerable northern aspect of the city from the constant
@@ -2672,7 +2672,7 @@ D3
 0 -1 31294
 S
 #31296
-Heading Along the Battlements~
+Siperler Boyunca~
 You are heading along the huge northern wall of the City of Anon. This wall
 extends for at least twice the distance of the east and west walls,
 protecting the vulnerable northern aspect of the city from the constant
@@ -2686,7 +2686,7 @@ A door leads east into northeast tower. There is a sign tacked to it.
 D1
 The sign says- "Keep Out! By order of the Marshal"
 ~
-door sign~
+kapý iþaret~
 1 -1 31257
 D3
 ~
@@ -2694,7 +2694,7 @@ D3
 0 -1 31295
 S
 #31297
-Heading Along the Battlements~
+Siperler Boyunca~
 You are strolling along the vast southern wall of the City of Anon, enjoying
 the cool breeze and the scenic view. The guards call this the "easy spot"
 because there has never been an assault from the south on the city, mostly
@@ -2714,7 +2714,7 @@ D3
 1 0 31258
 S
 #31298
-Heading Along the Battlements~
+Siperler Boyunca~
 You are strolling along the vast southern wall of the City of Anon, enjoying
 the cool breeze and the scenic view. The guards call this the "easy spot"
 because there has never been an assault from the south on the city, mostly
@@ -2732,7 +2732,7 @@ D3
 0 -1 31297
 S
 #31299
-Heading Along the Battlements~
+Siperler Boyunca~
 You are strolling along the vast southern wall of the City of Anon, enjoying
 the cool breeze and the scenic view. The guards call this the "easy spot"
 because there has never been an assault from the south on the city, mostly
@@ -2750,7 +2750,7 @@ D3
 0 -1 31298
 S
 #31300
-Heading Along the Battlements~
+Siperler Boyunca~
 You are strolling along the vast southern wall of the City of Anon, enjoying
 the cool breeze and the scenic view. The guards call this the "easy spot"
 because there has never been an assault from the south on the city, mostly
@@ -2768,7 +2768,7 @@ D3
 0 -1 31299
 S
 #31301
-Heading Along the Battlements~
+Siperler Boyunca~
 You are strolling along the vast southern wall of the City of Anon, enjoying
 the cool breeze and the scenic view. The guards call this the "easy spot"
 because there has never been an assault from the south on the city, mostly
@@ -2786,7 +2786,7 @@ D3
 0 -1 31300
 S
 #31302
-Heading Along the Battlements~
+Siperler Boyunca~
 You are strolling along the vast southern wall of the City of Anon, enjoying
 the cool breeze and the scenic view. The guards call this the "easy spot"
 because there has never been an assault from the south on the city, mostly
@@ -2804,7 +2804,7 @@ D3
 0 -1 31301
 S
 #31303
-Heading Along the Battlements~
+Siperler Boyunca~
 You are strolling along the vast southern wall of the City of Anon, enjoying
 the cool breeze and the scenic view. The guards call this the "easy spot"
 because there has never been an assault from the south on the city, mostly
@@ -2822,7 +2822,7 @@ D3
 0 -1 31302
 S
 #31304
-Heading Along the Battlements~
+Siperler Boyunca~
 You are strolling along the vast southern wall of the City of Anon, enjoying
 the cool breeze and the scenic view. The guards call this the "easy spot"
 because there has never been an assault from the south on the city, mostly
@@ -2840,7 +2840,7 @@ D3
 0 -1 31303
 S
 #31305
-Heading Along the Battlements~
+Siperler Boyunca~
 You are strolling along the vast southern wall of the City of Anon, enjoying
 the cool breeze and the scenic view. The guards call this the "easy spot"
 because there has never been an assault from the south on the city, mostly
@@ -2858,7 +2858,7 @@ D3
 0 -1 31304
 S
 #31306
-Heading Along the Battlements~
+Siperler Boyunca~
 You are strolling along the vast southern wall of the City of Anon, enjoying
 the cool breeze and the scenic view. The guards call this the "easy spot"
 because there has never been an assault from the south on the city, mostly
@@ -2876,7 +2876,7 @@ D3
 0 -1 31305
 S
 #31307
-Heading Along the Battlements~
+Siperler Boyunca~
 You are strolling along the vast southern wall of the City of Anon, enjoying
 the cool breeze and the scenic view. The guards call this the "easy spot"
 because there has never been an assault from the south on the city, mostly
@@ -2896,7 +2896,7 @@ D3
 0 -1 31306
 S
 #31308
-Northwest Tower~
+Kuzey-Batý Kulesi~
 This room serves as the quarters of the commanders of the north and west
 wall guards. It is sparsely decorated, featuring only two beds, two wardrobes,
 a mirror and two footlockers. A few weapons are neatly arranged on one wall,
@@ -2913,7 +2913,7 @@ D5
 0 -1 31256
 S
 #31309
-Southwest Tower~
+Güney-Batý Kulesi~
 This room serves as quarters to the Knights of the Grand and Holy Order of
 Anon assigned to wall guard duty. This room resembles a chapel more than
 anything, with two small cots arranged near an altar bearing a chalice and
@@ -2931,7 +2931,7 @@ D5
 0 -1 31258
 S
 #31310
-Southeast Tower~
+Güney-Doðu Kulesi~
 This room serves as the quarters of the commanders of the south and east
 wall guards. It is sparsely decorated, featuring only two beds, two wardrobes,
 a mirror and two footlockers. A few weapons are neatly arranged on one wall,
@@ -2948,7 +2948,7 @@ D5
 0 -1 31259
 S
 #31311
-A Dusty Chamber~
+Tozlu Oda~
 This room has an evil feel to it. The smashed furniture, bloodstains and
 broken bones are bad enough, but in addition there is a definite evil aura
 to this fell domain, as if some foul deed has been perpetrated here. You
@@ -2965,7 +2965,7 @@ D5
 1 31224 31257
 S
 #31312
-The Top of Northwest Tower~
+Kuzey-Batý Kulesi Tepesi~
 This room is the quarters of the Guards Provost-Marshal, Glenwellucan Mad-
 Llleweleucam. He is a rather senile old veteran of more wars than he could
 possibly count. The room is littered with memorabilia, probably worth a
@@ -2982,7 +2982,7 @@ D5
 0 -1 31308
 S
 #31313
-The Roof of Northwest Tower~
+Kuzey-Batý Kulesinin Çatýsý~
 The Marshal uses this area as a relaxation area. There is a deckchair and
 a small table, for use on sunny days- the Marshal sports a very healthy
 tan. An umbrella lies folded up next to a bookcase with several tattered
@@ -2995,7 +2995,7 @@ D5
 1 0 31312
 S
 #31314
-The Battlemages' Quarters~
+Savaþ Büyücüleri Bölümü~
 Here reside the battlemages currently in the employ of the City. As they
 spend little free time doing anything but meditating or learning new spells,
 this room has little of interest. There is a bookcase full of scrolls, but
@@ -3012,7 +3012,7 @@ D5
 0 -1 31309
 S
 #31315
-The Roof of Southwest Tower~
+Güney-Batý Kulesinin Çatýsý~
 This roof is totally featureless. Peering through the crenelations, you
 get a good view of southwestern Anon, though. Due south lies the cursed
 forest wherein a Witches' Coven is supposed to exist, and beyond that lies
@@ -3025,7 +3025,7 @@ D5
 1 0 31314
 S
 #31316
-The Healing Chambers~
+Ýyileþme Odalarý~
 In this room, generous priests and priestesses of Lenny give up their time
 to tend to the illnesses of the city guards. They will tend to others'
 injuries as well, for a fee. Such is the way of Lenny.
@@ -3041,7 +3041,7 @@ D5
 0 -1 31310
 S
 #31317
-The Roof of Southeast Tower~
+Güney-Doðu Kulesinin Çatýsý~
 This roof has been recently swept clean, and a stone altar erected to the
 Gods. The sun is caught by a reflecting crystal so that it shines directly
 onto the altar at all times during the day. The effect is quite splendid.
@@ -3054,7 +3054,7 @@ D5
 1 0 31316
 S
 #31318
-A Dusty Chamber~
+Tozlu Oda~
 This room has an evil feel to it. The smashed furniture, bloodstains and
 broken bones are bad enough, but in addition there is a definite evil aura
 to this fell domain, as if some foul deed has been perpetrated here. You
@@ -3071,7 +3071,7 @@ D5
 1 31224 31311
 S
 #31319
-The Roof of the Cursed Northeast Tower~
+Lanetli Kuzey-Doðu Kulesinin Çatýsý~
 This roof has not bee visited in a long time. The trapdoor is covered in
 silvery mystic runes, as is the stone around it. A chill wind blows here,
 at all times, and birds have been known to die when flying too close. It

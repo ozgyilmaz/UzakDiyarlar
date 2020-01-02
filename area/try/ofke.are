@@ -1,19 +1,18 @@
-#AREA	
-battlerager.are~
-Battlerager~
-{90 100} Chronos The Caven of Martial Arts~
+#AREA
+ofke.are~
+Öfke~
+{90 100} Chronos Öfke~
 540 549
 
 #MOBILES
 #540
-Powerman~
-the Powerman~
-The Powerman of martial arts is here.
+güç adamý usta~
+Güç Adamý~
+Dövüþ Sanatlarýnýn ustasýný görüyorsun.
 ~
-This old giant warrior has spent all his time on martial arts. He 
-never believed the power of magic. He never used potions, wands or 
-staffs. Even he had never used a magical item. Those shows how he
-hates magic.
+Devasa vücudunu savaþ sanatlarýyla eðitmiþ bir üstad görüyorsun.
+O hiçbir zaman büyünün gücüne inanmamýþ, ne bir iksir ne de
+büyülü bir deðnek kullanmýþ. O büyüden ve büyücülerden nefret eder.
 ~
 giant~
 ABJKTVe DFe 0 0
@@ -22,14 +21,13 @@ ABJKTVe DFe 0 0
 AIKFEC AB D 0
 stand stand male 0
 A ABCDE giant 0
- 
+
 #541
-Gordall~
-Gordall~
-Gordall the weaponsmith is here to sell his fine works.
+Gordal~
+Gordal~
+Silah yapýmcýsý Gordal çeliðe þekil veriyor.
 ~
-After spending all his years as a weaponsmaster, Gordall sells his
-proficiencies on his weapons.
+Tecrübeli ve bilgili bir silah yapýmcýsý görüyorsun.
 ~
 human~
 ABTVe DHFVe 800 0
@@ -40,13 +38,12 @@ stand stand male 0
 A ABCDE medium 0
 
 #542
-wiseman~
-A Wiseman~
-A wiseman is here taking care of the young battleragers.
+bilge~
+Bilge~
+Bilge genç savaþçýlarýn geleceði üzerine düþünüyor.
 ~
-Although he never attempted to learn magic, the wiseman can heal
-haters of magic by his beneficial herbs. If you need help just 
-	say 'aid me wiseman'
+Þifalý otlarla yaralarý iyi edebilen bir bilge görüyorsun. Eðer
+yardýma ihtiyacýn varsa 'bilge adam bana yardým et' demeyi deneyin.
 ~
 human~
 ABQVae DFH 1000 0
@@ -55,77 +52,77 @@ ABQVae DFH 1000 0
 FHIK ABC D 0
 stand stand male 5000
 0 0 medium 0
- 
+
 #0
 
 
 
 #OBJECTS
 #540
-key~
-a bone key~
-A key, made of bone, is lying on the ground.~
+kemik anahtar~
+kemik anahtar~
+Kemikten yapýlmýþ bir anahtar yerde duruyor.~
 bone~
 key ORY AO
 0 0 0 0 0
 40 4 0 P
 #541
-skull~
-Skull of mage~
-An old glowing small skull is sitting on the ground.~
+büyücünün kafatasý~
+Büyücünün Kafatasý~
+Eski bir kafatasý ýþýldýyor.~
 bone~
 treasure O AO
 0 0 0 0 0
-60 1 100000 P 
+60 1 100000 P
 #542
-white throne~
-A white throne~
-A large white throne made from bones is standing in front of the wall here.~
+beyaz taht~
+beyaz taht~
+Kemiklerden yapýlmýþ beyaz bir taht görüyorsun.~
 bone~
 container ORY P
 10 15 540 15 100
 60 1 20 P
 #543
-pit~
-the pit for donations~
-A pit for sacrifices is in front of the altar.~
+baðýþ çukuru~
+baðýþ çukuru~
+Mimberin önünde baðýþlar için bir çukur görüyorsun.~
 ~
 container O 0
 10000 0 0 1000 100
 0 0 0 P
 E
-pit~
-This pit is for battleragers, in order to donate themselves.
+çukur~
+Baðýþlar için.
 ~
 #544
-water fall waterfall~
-Waterfall~
-You see a beautiful waterfall here.
+þelale~
+Þelale~
+Bir þelale görüyorsun.
 ~
 water~
 portal AO 0
 0 0 B 5281 0
 0 0 0 P
 #545
-dagger fine gordall~
-a fine dagger~
-A fine dagger lies upon the ground.~
+gordal güzel hançer~
+güzel hançer~
+Yerde bekleyen güzel bir hançer görüyorsun.~
 adamantite~
 weapon 0 AN
 dagger 4 7 pierce ED
 32 450 5600 P
 #546
-sword fine gordall~
-a fine sword~
-A fine sword lies upon the ground.~
+gordal güzel kýlýc~
+güzel kýlýç~
+Yerde bekleyen güzel bir kýlýç görüyorsun.~
 adamantite~
 weapon 0 AN
 sword 5 6 slash ED
 33 450 5600 P
 #547
-axe fine gordall~
-a fine two-handed axe~
-A fine two-handed axe lies upon the ground.~
+gordal güzel balta~
+güzel balta~
+Yerde bekleyen güzel bir balta görüyorsun.~
 adamantite~
 weapon 0 AN
 axe 6 6 cleave DF
@@ -136,8 +133,8 @@ axe 6 6 cleave DF
 
 #ROOMS
 #540
-Front of the caven~
-  Beyond the water fall, you are in front of a caven. Things getting darker. 
+Gizli Maðara'nýn Önünde~
+  Beyond the water fall, you are in front of a caven. Things getting darker.
 You seek for the light but you couldn't find. But the light coming from the
 water fall still can light the enterance of the caven.
 ~
@@ -153,7 +150,7 @@ D3
 S
 
 #541
-The entrance to the Caven of Battlerager~
+Gizli Maðara'nýn Giriþi~
   You see some sort of light coming thru the west, making the inside of
 the caven more noticable. You see lots of weapon and blood tracks on the
 wall. There are several bones on the ground. You notice that the huge man
@@ -171,7 +168,7 @@ D3
 S
 
 #542
-Inside the Caven~
+Gizli Maðara'nýn Ýçinde~
   In spite of the low level light, you notice that the caven continues to
 the west. You see lots of bones again on the ground. You observe that
 there seems no way from the west of the caven.
@@ -189,7 +186,7 @@ w
 S
 
 #543
-Deep in the caven~
+Gizli Maðara'nýn Derinliklerinde~
   You see that there are two openings more in the caven, one to the north
 and one to the south. To the north you see a large white throne. To the
 south you see some clothes and weapons left on the ground. It seems that
@@ -211,7 +208,7 @@ D2
 S
 
 #544
-The donation room~
+Baðýþ Odasý~
   You find lots of weapons and clothings on the floor. You noticed the
 writing on the floor.
       "Every battlerager is your brother."
@@ -226,7 +223,7 @@ D0
 0 -1 543
 S
 #545
-Battle Square~
+Savaþ Alaný~
   You see lots of bones on the floor. You think that you are very near to
 the place where martial arts are practiced. There are four openings in
 all directions. To the east you see the continuing of bones on the floor,
@@ -253,7 +250,7 @@ D3
 S
 
 #546
-Battle House~
+Savaþ Evi~
   You are in the battle house. You see lots of bones and broken weapons on
 the floor. You read the following on the wall:
     "After you kill your first magician, you become a BattleRager."
@@ -267,11 +264,11 @@ D3
 S
 
 #547
-Gordall's Weapon House~
+Gordal'ýn Silah Evi~
   You see the metals hung up on the wall, shining brilliantly. Most
 probably they are the materials that Gordall use to produce his weapons.
 And to the higher portion of the wall you see the newly finished weapons,
-daggers, swords and axes.
+daggers, KILICs and axes.
 ~
 0 WXY 1
 D1
@@ -281,10 +278,10 @@ D1
 S
 
 #548
-The Shrine of Battleragers~
+Savaþ Türbesi~
   You are in front of a large white throne made from bones. There are
 shelves line the walls, upon them there are many jars inside of which are
-blood and heads of magicians. 
+blood and heads of magicians.
   A stone tabled placed on the wall, here.
 ~
 0 WXY 1
@@ -295,7 +292,7 @@ D2
 E
 tablet~
  *******************************************************************
- * 1) No magic, in any form can be used by a battlerager. Likewise * 
+ * 1) No magic, in any form can be used by a battlerager. Likewise *
  *    if  any mortal  casts in your presence, you should punish it *
  *    immediately.                                                 *
  * 2) Members of Shalafi should be  *massacred*, whenever they are *

@@ -1,0 +1,1382 @@
+#AREA
+acemi_bolgesi.are~
+Acemi Bölgesi~
+{ 1 10} Maynard Acemi Bölgesi~
+18600 18699
+
+#HELPS
+-1 'zone newbie'~
+Converted to standard Envy 1.x by Jason Huang (god@sure.net)
+Further conversion to Rom 2.4 by Jaceks and Chicken's Den Staff~
+0 $~
+
+#MOBILES
+#18601
+kuyu canavarý~
+kuyu canavarý~
+Büyük çirkin kuyu canavarý seni tartarak burada duruyor.
+~
+Iyyy... Ne iðrenç bir yaratýk! Siyah, yeþil, ince yapýlý ve her yere
+salyalarýný akýtýyor...
+~
+bear~
+ABC 0 -750 0
+5 0 2d6+60 49d1+1 1d6+1 pierce
+5 5 5 9
+B 0 0 0
+stand stand male 150
+0 0 medium 0
+#18602
+acemi canavar~
+acemi canavarý~
+Acemi canavarý burada kafasý karýþmýþ bir þekilde duruyor. Öldür onu!
+Öldür onu!
+~
+Ne acayip görünen küçük bir canavar. Zararsýz görünüyor, fakat asla
+bilemezsin. Yaklaþýk 4 ayak uzunluðunda, fakat biraz kaslý görünüyor...
+Belki yardýma ihtiyacý olup olmadýðýný sorsan iyi olur. Amaan boþver...
+Öldür gitsin.
+~
+school monster~
+ABC G 0 0
+2 0 2d7+21 19d1+1 1d5+0 scratch
+8 8 8 10
+C 0 0 0
+stand stand male 120
+0 0 medium 0
+#18603
+ejderha yavru~
+yavru ejderha~
+Birinin küçük evcil ejderhasý kaybolmuþ ve burada etrafý kokluyor.
+~
+Oouuuu... Ne kadar tatlý! Küçük yavru bir ejderha. Sadece 3 ayak
+uzunluðunda ve sen ona ölümü kucaklatacaksýn. Hayýr, gerçeði söylemek
+gerekirse onu gerçekten öldürmek istiyorsun. Fakat unutmaki, küçük bir
+ejderha bile büyük bir sorun yaratabilir.
+~
+dragon~
+AB 0 100 0
+4 0 2d7+46 39d1+1 1d5+1 grep
+6 6 6 9
+C 0 0 0
+stand stand male 140
+0 0 medium 0
+#18604
+koruyucu gardiyan acemi~
+acemi gardiyaný~
+Acemi gardiyaný burada ejderhanýn nereye gittiðini merak ediyor.
+~
+Gardiyanýn iþi simyacýnýn evcil ejderhasýna bakmak, fakat iþini pek de
+iyi yapýyor gibi görünmüyor. Sana bakýp, diyorki, "Buralarda ejderha gördün
+mü? Eðer onu bulamazsam efendim kellemi uçuracak."
+~
+human~
+AB 0 0 0
+3 0 2d6+35 29d1+1 1d6+0 punch
+7 7 7 1
+D 0 0 0
+stand stand male 130
+0 0 medium 0
+#18605
+simyacý acemi~
+acemi simyacýsý~
+Acemi simyacýsý burada bir þeyler yapmaya çalýþýyor.
+~
+Komik görünen, kýllý, küçük bir züppe. Bir þeyi baþka bir þeye
+karýþtýrmaya çalýþmakla meþgul görünüyor.
+~
+human~
+AB 0 0 0
+5 0 2d6+60 49d1+1 1d6+1 punch
+5 5 5 9
+E 0 0 0
+stand stand male 150
+0 0 medium 0
+
+#18606
+sürüngen korkunç böceksi~
+korkunç sürüngen~
+Korkunç, küçük, sürünen bir þey, yerde ayaklarýnýn arasýndan sývýþýyor.
+~
+Iyyyk! Eðer burayý temizlemiþ olsalardý, belkide bu iðrenç, küçük, altý
+bacaklý, kahverengi böcek için çekici bir yer haline gelmezdi burasý.
+~
+snake~
+ABFG 0 -250 0
+1 0 2d6+8 9d1+1 1d4+0 punch
+9 9 9 10
+F AB 0 0
+stand stand male 110
+0 0 medium 0
+#18607
+acemi zombi~
+zombi haline getirilmiþ bir acemi~
+Çok sýska görünen bir acemi. Bir zombi gibi görünüyor.
+~
+Bu adam uzun zamandýr kaybolmuþ burada... Þimdi insandan çok bir zombiye
+benziyor. Onun için üzülüyor olabilirsin ama saldýrmaya için harekete geçti!
+~
+human~
+ACFG 0 -500 0
+4 0 2d7+46 39d1+1 1d5+1 punch
+6 6 6 9
+G AB 0 0
+stand stand male 140
+0 0 medium 0
+#18608
+iblis þeytanýmsý~
+iblis~
+Küçük þeytani bir þey (iblis büyük ihtimalle), burada sinsice dolaþýyor.
+~
+Küçük yeþil, belirsiz, insansý þekle sahip,uzun sivrilmiþ bir kuyruða
+sahip yaratýk. Söylemesi zor çünkü, iyice göremeden, gölgelere dalýyor.
+~
+snake~
+ACGH P -800 0
+3 0 2d6+35 29d1+1 1d6+0 smash
+7 7 7 10
+H 0 0 0
+stand stand male 130
+0 0 medium 0
+#18609
+boðaadam~
+heybetli boðaadam~
+Heybetli boðaadam, tadýnýn nasýl olduðunu merak ediyor.
+~
+Bir boðanýn kafasýna sahip, heybetli bir adam. Ayrýca bir boða kadar
+güçlü fakat bir o kadar da aptal görünüyor. Þimdiye kadar gördüðün bütün
+boðalardan daha anlamlý bakýyor ve bu tarafa doðru geliyor!
+~
+dog~
+ABFG 0 -1000 0
+7 0 2d6+80 69d1+1 1d8+1 blast
+4 4 4 9
+I AB 0 0
+stand stand male 170
+0 0 medium 0
+#18610
+hayalet~
+karanlýk hayalet~
+Karanlýk bir hayalet gölgelerde pusuya yatýyor.
+~
+Uzun zaman önce ölmüþ bir maceracýnýn ruhu... Yolundan geçenlere ölüm
+getirme þansýný bekleyerek, burada pusuya yatýyor.
+~
+water fowl~
+ABDFG BDT -850 0
+6 0 2d7+71 59d1+1 1d7+0 bite
+4 4 4 9
+J AB 0 0
+stand stand either 140
+0 0 medium 0
+#18611
+acemi sinir bozan aptal~
+sinir bozan acemi~
+Sinirini bozan bir acemi burada.
+~
+Ne kadar aptal! Hiç susmuyor ve herþey hakkýnda en rahatsýz edici
+yorumlarý yapmaya devam ediyor. En iyisi soðuk, tavlanmýþ çelikle onu
+susturmak. MUHOHAHAHAHAHAHAHAHAHA!
+~
+human~
+ABC FG -500 0
+2 0 2d7+21 19d1+1 1d5+0 punch
+8 8 8 10
+K 0 0 0
+stand stand male 120
+0 0 medium 0
+#18612
+acemi ümitsiz moron~
+ümitsiz acemi~
+Kafasý fena halde karýþmýþ görünen bir acemi burada.
+~
+Ne kadar salak! Yardým dosyalarýnda cevaplandýrýlmýþ her soruyu soracak
+hem de muhtemelen 2 veya 3 defa. Bu herif anlamayacak, en iyisi derdine
+derman olmak.
+~
+human~
+ABC G 0 0
+1 0 2d6+10 9d1+1 1d4+0 punch
+9 9 9 10
+L 0 0 0
+stand stand male 110
+0 0 medium 0
+#18613
+acemi konuþkan~
+konuþkan acemi~
+Bir acemi burada çok konuþuyor.
+~
+Pekala, sonunda havalý görünen bir kýz. Çok konuþuyor ama dost canlýsý ve
+ilginç. Ne yaptýðý hakkýnda bir fikri varmýþ gibi görünüyor, diðer
+gördüklerin gibi deðil.
+~
+human~
+ABG 0 100 0
+3 0 2d6+35 29d1+1 1d6+0 punch
+7 7 7 10
+M 0 0 0
+stand stand male 130
+0 0 medium 0
+#18614
+acemi kayýp~
+kayýp acemi~
+Bir acemi burada amaçsýzca geziniyor.
+~
+Hýmmm... Buralarda bulunmuþ fakat bu sefer evinden biraz fazla uzaklaþmýþ
+görünüyor. Nerede olduðuna dair bir fikri olduðunu sanmýyorsun. Belki de
+dýþarý çýkmasýna yardým etmelisin.
+~
+human~
+ACG 0 300 0
+4 0 2d7+46 39d1+1 1d5+1 punch
+6 6 6 9
+N 0 0 0
+stand stand male 140
+0 0 medium 0
+#18615
+acemi zeki~
+zeki acemi~
+Bir acemi burada ve kendinden emin görünüyor.
+~
+Herþeye sahip bir herif var burada. Güzel ekipmanlara da. Yardým
+dosyalarýný okumak lazým ha?
+~
+human~
+ABC G 0 500
+5 0 2d6+60 49d1+1 1d6+1 punch
+5 5 5 9
+IK 0 0 0
+stand stand male 150
+0 0 medium 0
+#0
+
+
+#OBJECTS
+#18601
+kýlýç acemi~
+parlak yeþil bir acemi kýlýcý~
+Parlak yeþil bir acemi kýlýcý yerde duruyor.~
+steel~
+5 AG AN
+sword 1 7 thrust 0
+4 120 200 G
+A
+19 1
+#18602
+yelek acemi~
+parlak yeþil bir acemi yeleði~
+Parlak yeþil bir acemi yeleði sarýlacak bir vücut arýyor burada.~
+steel~
+armor 0 AD
+3 3 4 0 3
+4 150 250 G
+#18603
+miðfer acemi~
+parlak bir acemi miðferi~
+Parlak bir acemi miðferi gevþek bir kafaya takýlmayý umut ediyor.~
+steel~
+armor AG AE
+4 4 3 1 1
+4 50 220 G
+A
+5 1
+#18604
+pelerin koyu acemi~
+koyu bir acemi pelerini~
+Koyu bir acemi pelerini burada örtünmeyi bekliyor.~
+wool~
+armor AG AK
+3 4 3 1 2
+2 100 180 G
+A
+17 -3
+A
+4 1
+#18605
+yüzük mühür acemi~
+bir acemi mühür yüzüðü~
+Bir acemi mühür yüzüðü burada tozlarýn içinde yatýyor.~
+silver~
+armor FG AB
+4 3 3 1 1
+1 20 200 G
+A
+17 -2
+#18606
+kama acemi~
+ýþýldayan bir acemi kamasý~
+Iþýldayan bir acemi kamasý burada bir sýrta saplanmayý bekliyor.~
+iron~
+weapon AG AN
+dagger 1 7 stab 0
+4 50 140 G
+A
+19 1
+#18607
+tasma ejderha~
+bir evcil ejderha tasmasý~
+Birinin evcil ejderhasý kaçmýþ ve tasmasýný burada býrakmýþ~
+snakeskin~
+armor G AC
+3 3 4 1 1
+4 20 300 G
+A
+18 1
+A
+17 -1
+#18608
+anahtar acemi~
+miniminicik bir anahtar~
+Bir anahtar burada.~
+steel~
+key C A
+0 0 0 0 0
+1 10 10 G
+#18609
+ýþýk kavanoz~
+parlak bir þekilde ýþýldayan bir kavanoz~
+Bir kavanoz ýþýldayan sývý gününü aydýnlatmak istiyor.~
+energy~
+light AG A
+0 0 -1 0 0
+2 20 120 G
+A
+24 -1
+#18610
+boynuz~
+boðaadamýn boynuzlarý~
+Heybetli boðaadamýn boynuzlarý burada yatýyor~
+bone~
+armor G AE
+3 4 4 1 1
+6 100 320 G
+A
+1 1
+#18611
+post deri~
+boðaadamýn kokan postu~
+Heybetli boðaadamýn postu burada yatýyor.~
+air~
+armor 0 AK
+5 5 5 0 3
+6 190 366 G
+A
+17 -6
+A
+13 15
+#18612
+tozluk acemi~
+acemi tozluklarý~
+Bir çift zarif görünen tozluk burada~
+wool~
+armor 0 AF
+3 3 3 0 1
+4 120 200 G
+#18613
+kolluk acemi~
+acemi kolluklarý~
+Bir takým þýk kolluk burada.~
+steel~
+armor G AI
+4 4 3 1 1
+3 140 275 G
+A
+2 1
+#18614
+gürz acemi~
+parlayan bir acemi gürzü~
+Güzel yapýlmýþ bir acemi gürzü burada onu hakeden birini bekliyor.~
+wood~
+weapon AG AN
+mace 1 7 pound 0
+3 170 245 G
+A
+17 -2
+#18615
+küre~
+bir yavru ejderha küresi~
+Bir yavru ejderha küresi burada yatýyor.~
+quartz~
+armor AEGJM AQ
+3 3 3 1 1
+3 20 400 G
+A
+3 1
+A
+4 1
+A
+2 1
+#0
+
+
+#ROOMS
+#18600
+Acemi Bölgesine Giriþ~
+Ahhh... Acemi bölgesine giriþ! Tam senin aramakta olduðun yer. Pekala,
+kendini hazýr hissettiðinde, kuzeye gidebilirsin. Burada (Parlayan)
+(Výzýldayan) küçük bir tabela var.
+~
+0 C 1
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ +
++ + This area has been groked, modified, debugged (? :) and adapted + + in
+saturday's night under attack horde of mosquitos + + by jaceks + + july'96 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~
+D0
+You see the start of the newbie zone.
+~
+~
+0 -1 18601
+D5
+Back to the school that way... Chickening out already?
+~
+~
+0 -1 5379
+S
+#18601
+Geçitin Baþlangýcý~
+Kendini, uzun bir koridorun giriþinde buluyorsun. Etrafta dolaþan
+yaratýklarýn sesini duyabiliyorsun, fakat sesin tam olarak nereden geldiðini
+söyleyemiyorsun. Çýkýþlar, hol boyunca doðuya ve giriþe doðru güneye
+uzanýyor.
+~
+0 D 0
+D1
+More of the hallway there... How exciting!
+~
+~
+0 -1 18602
+D2
+The entrance to the newbie zone... How dull
+~
+~
+0 -1 18600
+S
+#18602
+Kirli Koridor~
+Hol boyunca gezinmeye devam ediyorsun. Çok fazla bir farklýlýk yok
+burada, fakat güneyindeki kapýnýn arkasýndan ve doðu yönünden gürültüler
+geldiðine eminsin. Duvarlar biraz çamurlu ve küflü burada... ööekk, burayý
+temizlemek için birilerini tutmuyorlar mý? Acemiler ne düþünecek sonra? Oh
+pekala, hol boyunca doðuya ve batýya doðru devam edebilirsin.
+~
+0 D 0
+D1
+More of the hallway there... How exciting!
+~
+~
+0 -1 18603
+D2
+A small room lies to the south... You hear something moving about inside.
+~
+door~
+1 -1 18606
+D3
+More of the hallway there... How exciting!
+~
+~
+0 -1 18601
+S
+#18603
+Bir Baðlantý Noktasý~
+Pekala... Iki geçitin kesiþimine ulaþtýn. Geçitin daha karanlýk olan
+kýsmý güneye doðru devam ederken, kuzey ve doðu yönünde geçit aydýnlýk.
+~
+0 D 0
+D0
+A brighter hallway leads off that way.
+~
+door~
+1 -1 18644
+D1
+A brighter hallway leads off that way.
+~
+door~
+1 -1 18646
+D2
+More of the hallway there... How exciting!
+~
+~
+0 -1 18607
+D3
+More of the hallway there... How exciting!
+~
+~
+0 -1 18602
+S
+#18604
+Dar Bir Geçit~
+Dar geçit sade ve süslenmemiþ fakat hala temiz. Güney yönünde arkasýnda
+hareketlenmeler duyduðun meþe aðacýndan küçük bir kapýyla ansýzýn sona
+eriyor koridor.
+~
+0 AD 0
+D0
+A large domed room.
+~
+~
+0 -1 18647
+D2
+A small cluttered room.
+~
+door~
+1 -1 18612
+S
+#18605
+Karanlýk Çukur~
+Karanlýk, nemli, pis bir çukur. Daha da kötüsü, köþeden sana bakan o
+kara, nemli, pis þey de ne öyle? IIyyyy... Eðer köþedeki o þeye
+saldýrmayacaksan, belki de daha güvenli olan, geldiðin yere dönsen daha iyi
+olur.
+~
+0 AD 0
+D4
+You see a ladder leading up
+~
+grate~
+1 18608 18606
+S
+#18606
+Küçük Bir Oda~
+Hýmmm... Ýlginç küçük bir oda. Seni izleyen ilginç küçük bir yaratýk var.
+Burada bulunmana biraz þaþýrmýþ görünüyor. Kuzey ve doðu yönündeki kapýlarla
+burayý terk edebilir veya burada kalýp onu biraz daha rahatsýz edebilirsin.
+Ayrýca buranýn altýnda bir çeþit kuyu var, fakat üzeri bir koruma
+ýzgarasýyla kapatýlmýþ.
+~
+0 D 0
+D0
+More of the hallway there... How exciting!
+~
+door~
+1 -1 18602
+D1
+More of the hallway there... How exciting!
+~
+door~
+1 -1 18607
+D5
+A ladder leads down into darkness.
+~
+grate~
+1 18608 18605
+S
+#18607
+Bir Koridor Daha~
+Ýþte rahatsýz edici geçitlerden bir tane daha. Belki batý yönündeki
+kapýnýn ardýnda daha ilginç bir þeyler vardýr. Veya kuzey ve güney yönündeki
+koridorlarý araþtýrmaya devam edebilirsin.
+~
+0 0 0
+D0
+More of the hallway there... How exciting!
+~
+~
+0 -1 18603
+D2
+More of the hallway there... How exciting!
+~
+~
+0 -1 18611
+D3
+
+~
+door~
+1 -1 18606
+S
+#18608
+Geniþ Arazinin Önündeki Açýk Alan~
+Nihayet açýk bir alandasýn... Yeniden temiz havayý içine çekebilmek çok
+güzel! Doðuya, nemli ve kokan yere geri dönebilir veya geniþ bir araziye
+açýldýðý görünen batýdaki çýkýþa yönelebilirsin.
+~
+0 C 0
+D1
+The end of that darn hallway lies back to the east.
+~
+~
+0 -1 18609
+S
+#18609
+Geçitin Sonu~
+Ahhh... Nihayet, koridorun sonu... Batýdan açýk havaya çýkabilir veya
+doðuya dönüp bir þey kaçýrmadýðýndan emin olabilirsin.
+~
+0 D 0
+D1
+More of the hallway there... How exciting!
+~
+~
+0 -1 18610
+D3
+An open field near The Great Field of Selenge can be seen.
+~
+~
+0 -1 18608
+S
+#18610
+Daha Aydýnlýk Bir Koridor~
+Koridor doðu batý yönünde uzanýyor ve batý tarafýnda biraz daha
+aydýnlanýyor.
+~
+0 D 0
+D1
+A corner in the passage lies to the east.
+~
+~
+0 -1 18611
+D3
+More of the hallway there... How exciting!
+~
+~
+0 -1 18609
+S
+#18611
+Baþka Bir Dönemeç~
+Geçitte baþka bir dönemeç, ve buranýn geri kalaný gibi daðýnýk. Doðu
+yönünde bir kapý var... Nereye açýldýðýný merak ediyor musun? Ve koridor
+batý ve kuzey yönünde devam ediyor.
+~
+0 D 0
+D0
+More of the hallway there... How exciting!
+~
+~
+0 -1 18607
+D1
+You peer into a cluttered little room to the east.
+~
+door~
+1 -1 18612
+D3
+More of the hallway there... How exciting!
+~
+~
+0 -1 18610
+S
+#18612
+Simyacýnýn Odasý~
+Bir sürü küçük þiþe etrafa yayýlmýþ, fakat deðersiz bir yýðýn gibi
+görünüyorlar. Burada çalýþan simyacý her kimse sanatýna gerçekten baðlý
+görünüyor. Ayrýca duvarlara yazýlmýþ bir çok formül ve büyü var... Biraz
+kaðýt satýn alamamýþ mý acaba? Kuzeyde bir kapý var ve ayrýca yanýnda okuman
+gereken büyük bir iþaret olan aþaðý doðru inen karanlýk merdivenler var
+köþede...
+~
+0 D 0
+E
+iþaret merdiven~
+Merdivenlerin yanýndaki iþaret diyorki: Eðer 7. Seviyenin altýnda ve
+yalnýzsanýz veya 4. Seviyenin altýndaysanýz, defolun! Eðer girdiðinizde
+ölürseniz beni suçlamayýn...
+~
+D0
+A nice shiny hallway!
+~
+door~
+1 -1 18604
+D3
+A corner in the passage lies to the west.
+~
+door~
+1 -1 18611
+D5
+A shadowed stairway leading down.
+~
+~
+0 -1 18632
+E
+sign stairs stairway~
+The sign next to the stairs says:
+
+If you are below level 7 and alone, or below level 4 then bugger off!
+Or else don't blame me if you die...
+
+~
+S
+#18620
+Geçitte Bir Dönemeç~
+Diðerlerinden pek de farklý deðil bu dönemeç... Tek fark güneyden gelen
+bir sýcaklýk. Bir çýkýþ olabilir mi acaba? Umut ediyorsun...
+~
+0 AD 0
+D1
+The passage continues east quite a ways.
+~
+~
+0 -1 18621
+D2
+You see an odd red glow from that direction.
+~
+~
+0 -1 18629
+S
+#18621
+Geçitte Bir T Kavþaðý~
+Burasý uzun doðu-batý koridoru ile güneye uzanan koridorun kesiþtiði yer.
+Sanki bir çýkýþa yaklaþýyormuþsun gibi hava burada biraz daha temiz.
+~
+0 AD 0
+D1
+
+~
+~
+0 -1 18622
+D2
+
+~
+~
+0 -1 18633
+D3
+
+~
+~
+0 -1 18620
+S
+#18622
+Baþka Bir Dönemeç~
+Geçit kuzeyden batýya doðru kývrýlýyor burada. Duvarlar hala yol boyunca
+gördüðün ayný iðrenç yeþil mantarla kaplý ve çevrende hareket eden
+yaratýklarýn seslerini duyuyorsun.
+~
+0 AD 0
+D2
+
+~
+~
+0 -1 18628
+D3
+
+~
+~
+0 -1 18621
+S
+#18623
+Koridorda Bir Dönemeç~
+Çevrende hareket eden yaratýklarý duyabiliyorsun... Ve çok da rahatlatýcý
+bir ses deðil doðrusu. Düz, gri, örülmüþ duvarlar ve onlarýn üzerinde
+büyüyen yeþil mantarlardan baþka bahsedecek bir döþeme yok ortalýkta.
+~
+0 AD 0
+D1
+
+~
+~
+0 -1 18624
+D2
+
+~
+~
+0 -1 18627
+S
+#18624
+Baþka Bir Dönemeç~
+Hýmmm... Geçit güneye dönüyor burada. Eðer dikkatli olmazsan kolaylýkla
+þaþýrabileceðinin farkýna varmaya baþlýyorsun ve burada çok fazla zaman
+geçirmeyi istediðini sanmýyorsun.
+~
+0 AD 0
+D2
+
+~
+~
+0 -1 18630
+D3
+
+~
+~
+0 -1 18623
+S
+#18625
+Geniþ Bir Oda~
+Geçit, geniþ oval bir odaya açýlýyor. Gerçekten ilgini çeken pek bir þey
+yok burada.
+~
+0 AD 0
+D1
+
+~
+~
+0 -1 18626
+D2
+
+~
+~
+0 -1 18631
+S
+#18626
+Uzun Bir Doðu-Batý Koridoru~
+Doðu ve batý yönünde uzanan uzun, dar bir geçit burasý. Duvarlar nemli,
+küf ve mantarlarla kaplanmýþ. Çok saðlýksýz bir hava var burada ve bir an
+önce buradan çýkmak istiyorsun...
+~
+0 AD 0
+D1
+
+~
+~
+0 -1 18627
+D3
+
+~
+~
+0 -1 18625
+S
+#18627
+Bir Koridor Kavþaðý~
+Burada dar bir doðu-batý koridoru, daha geniþ bir kuzey-güney koridoru
+ile kavþak oluþturuyor. Hava nemli ve çürümüþ kokuyor. Çok da güzel bir yer
+deðil.
+~
+0 AD 0
+D0
+
+~
+~
+0 -1 18623
+D1
+
+~
+~
+0 -1 18628
+D2
+
+~
+~
+0 -1 18632
+D3
+
+~
+~
+0 -1 18626
+S
+#18628
+Bir Dönemeç Odasý~
+Bu oda geçit kesiþiminden daha fazla bir þey. Kuzeye doðru esen hafif bir
+esinti seziyorsun, fakat hep kötü kokuyor...
+~
+0 AD 0
+D0
+
+~
+~
+0 -1 18622
+D3
+
+~
+~
+0 -1 18627
+S
+#18629
+Kýrmýzý Oda~
+Buradaki kýrmýzý parlamanýn, yerdeki bir geçit kapýsýndan geldiðini
+anlaman kýsa bir zamanýný alýyor. Sanki birisi, bu odanýn zeminine, bir
+arazi boyunca uçuþan bir tozun resmini yapmýþ gibi görünüyor. Çok acayip, o
+kadar gerçekçiki resimden gelen rüzgarý hissedebiliyorsun.
+~
+0 AD 0
+E
+geçit kapýsý yer~
+Ýçine girebilecekmiþsin gibi görünüyor fakat nereye gittiði ya da geri
+dönüp dönemeyeceðin hakkýnda bir fikrin yok.
+~
+D0
+
+~
+~
+0 -1 18620
+D1
+
+~
+~
+0 -1 18630
+S
+#18630
+Kollara Ayrýlan Bir Geçit~
+Kuzey-güney geçidi doðuya doðru bir dala ayrýlýyor burada. Zayýf bir
+esintiyle beraber, kýrmýzý bir parlama geliyor o yönden.
+~
+0 AD 0
+D0
+
+~
+~
+0 -1 18624
+D2
+
+~
+~
+0 -1 18634
+D3
+A very odd red glow emanates from that direction.
+~
+~
+0 -1 18629
+S
+#18631
+Bir Geçit~
+Iyk... Burasý iðrenç. Duvarlara dokunmadan ilerlemeye çalýþsanda, geçit
+çarpmadan geçemeyeceðin kadar dar. Duvarlarý kaplayan mantarýn seni de ele
+geçirdiðine neredeyse ikna oluyorsun.
+~
+0 AD 0
+D0
+
+~
+~
+0 -1 18625
+D1
+
+~
+~
+0 -1 18632
+D2
+
+~
+~
+0 -1 18638
+S
+#18632
+Giriþ~
+Burasý, karanlýk, nemli, iðrenç, ve soðuk. Ayrýca çevrendeki yaratýklarýn
+seslerini duyuyorsun... Ve her nasýlsa çok dost canlýsý gibi gelmiyor.
+Burada dikkatli olman bilgece bir davranýþ olur...
+~
+0 AD 0
+D0
+
+~
+~
+0 -1 18627
+D2
+
+~
+~
+0 -1 18635
+D3
+
+~
+~
+0 -1 18631
+D4
+
+~
+~
+0 -1 18612
+S
+#18633
+Baþka Bir Dönemeç~
+Pekala... Söylenecek ne var ki? Daha fazla mantar, daha fazla acayip ses
+ve kuzeyden hafif bir esinti...
+~
+0 AD 0
+D0
+
+~
+~
+0 -1 18621
+D1
+
+~
+~
+0 -1 18634
+S
+#18634
+Bir Geçit Kavþaðý~
+Soðuk, kokmuþ ve yeþil mantarla kaplý... Geçen haftadan kalanlar gibi.
+Ayrýca buradan çýkmaktan baþka bir þey istemiyorsun.
+~
+0 AD 0
+D0
+
+~
+~
+0 -1 18630
+D2
+
+~
+~
+0 -1 18637
+D3
+
+~
+~
+0 -1 18633
+S
+#18635
+Geçitte Bir Dönemeç~
+Bu yer tam anlamýyla tiksindirici... Bir þey ya da biri burada ölmüþ gibi
+kokuyor. Sýradakinin sen olmadýðýný umuyorsun, fakat çevrende duyduklarýna
+bakýlýrsa, bir þey seninle ayný fikirde deðil gibi görünüyor.
+~
+0 AD 0
+D0
+
+~
+~
+0 -1 18632
+D1
+
+~
+~
+0 -1 18636
+S
+#18636
+Güneye Doðru Bir Dal~
+Doðu-batý yönündeki geçitten güneye doðru bir dal ayrýlýyor. Çevrende
+ölüm kokusu var. Aslýnda duvarlardaki küf ve mantarlar iyi ama baþka bir
+þey... Pekala... Burada her ne yaþýyorsa onun hakkýnda düþünmek
+istemiyorsun.
+~
+0 AD 0
+D1
+
+~
+~
+0 -1 18637
+D2
+
+~
+~
+0 -1 18639
+D3
+
+~
+~
+0 -1 18635
+S
+#18637
+Hala Baþka Bir Dönemeç~
+Geçit burada kuzeye dönüyor. Ne olduðundan emin deðilsin ama o tarafta
+bir þey seziyorsun. Ne olduðunu öðrenmek istediðinden de pek emin deðilsin.
+~
+0 AD 0
+D0
+
+~
+~
+0 -1 18634
+D3
+
+~
+~
+0 -1 18636
+S
+#18638
+Geniþ Bir Oda~
+Odaya girince tökezliyorsun... Çevrende duvarlarýn olmayýþýnýn verdiði
+ani duygu, seni biraz gergin hale getiriyor. Birden bire bütün yönlerde
+sab-vunmasýz hale geliyorsun. Odanýn ne kadar büyük olduðunu
+söyleyemiyorsun, çünkü doðuya doðru ýþýðýnýn ulaþamayacaðý yerlere kadar
+uzanýyor...
+~
+0 AD 0
+D0
+
+~
+~
+0 -1 18631
+D1
+The room extends into shadows...
+~
+~
+0 -1 18639
+S
+#18639
+Geniþ Bir Oda~
+Girdiðinde, ýþýðýnla, doðu duvarýnda bir þeylerin parlamasýna neden
+oluyorsun. Öyle görünüyorki bunlar, duvara karalanmýþ kelimeler ve basit bir
+resim. Batýya doðru, oda ýþýðýnýn ulaþamayacaðý yerlere doðru uzanýyor ve
+karanlýk gölgeler seni bir paranoyak haline getiriyor... Herþey saklanýyor
+olabilir orada. Acý bir þekilde çevrendeki duvarlar olmadan ne kadar da
+açýkta olduðunu farkediyorsun.
+~
+0 AD 0
+E
+yazý kelimeler~
+Yazýda diyorki "boðaadama dikkat edin!"
+~
+E
+duvar~
+There is a crude picture of a man with the head of a bull with some
+writing next to it. Boða kafasýna sahip bir adamýn sade bir resmi var.
+Yanýnda bazý yazýlar var.
+~
+D0
+
+~
+~
+0 -1 18636
+D3
+The room extends as far as (and farther than) you can see...
+~
+~
+0 -1 18638
+S
+#18640
+Heykel Odasý~
+Burada, geçit küçük bir odayla sonlanýyor. Çýkýþlar doðu ve güney yönünde
+uzanýyor. Kuzeyde zevk sahibi biri tarafýndan yapýlmýþ, büyük, harika bir
+heykel olduðunu farkediyorsun.
+~
+0 AD 0
+E
+heykel ~
+Yakýn bir inceleme sonucunda heykelin üzerine monte edilmiþ bir plaka
+olduðunu görüyorsun. Ayrýca yüzü de oldukça tanýdýk geliyor.
+~
+E
+plaka isim~
+Diyorki: Maynard, komik karakterlerin ölüm soytarýsý
+~
+D1
+A long hallway, ending in a set of steps.
+~
+~
+0 -1 18641
+D2
+The hall extends to the south where it seems to darken somewhat.
+~
+~
+0 -1 18644
+S
+#18641
+Koridor~
+Koridor boyunca gezinmeye devam ederken, geçit boyunca duvarlarý donatan,
+pankartlarýn, resimlerin ve diðer güzel süslemelerin farkýna varýyorsun.
+Daha önce girdiðin kasvetli geçitten çok farklý görünüyorlar.
+~
+0 AD 0
+D1
+The hallway ends at a grand marble staircase.
+~
+~
+0 -1 18642
+D3
+The passage leads into a small room.
+~
+~
+0 -1 18640
+S
+#18642
+Kuzey Merdivenleri~
+Koridor, yüksek kubbeli çatýsý olan geniþ bir odaya açýlýyor burada.
+Kapalý geçitten açýða doðru çýktýkça, bütün alana tependen bakan bir balkona
+çýkan merdivenleri görebiliyorsun. Oda güneye doðru devam ediyor ve
+buradakine benzeyen baþka bir merdiven görülebiliyor.
+~
+0 AD 0
+E
+merdiven merdivenler~
+Pürüzsüz güzel mermerden inþa edilmiþler.
+~
+D2
+You see another staircase and two passages leading west and south.
+~
+~
+0 -1 18647
+D3
+An entrance to a bright passage.
+~
+~
+0 -1 18641
+D4
+An open air balcony.
+~
+~
+0 -1 18643
+S
+#18643
+Balkon~
+Buradan çevreki bölgeyi görebilir ve inceleyebilirsin. Odanýn kubbesinde
+yarým daire þeklinde inþa edilmiþ balkon, hemen hemen her yönü görebilmeni
+saðlýyor. Kuzey ucuna doðru bakýndýðýnda, Selengenin kuzeyindeki,
+Ejdermiðferi Daðlarýna doðru uzanan geniþ arazileri görebilirsin.
+~
+0 AD 0
+E
+merdiven~
+Pürüzsüz güzel mermerden inþa edilmiþler.
+~
+D2
+The south end of the balcony.
+~
+~
+0 -1 18645
+D5
+Down the stairs to a large, domed room.
+~
+~
+0 -1 18642
+S
+#18644
+Aydýnlýk Bir Koridor~
+Vaay! Güneydeki kasvetli koridora göre ne kadar deðiþik bir yer. Bu
+odanýn bakýmýný her kim yapýyorsa acemileri gerçekten seviyor olmalý.
+Duvarlar ve yerler temiz. Herþey zevkle döþenmiþ. Ayrýca yerde ilginç bir
+tasarým olduðunu farkediyorsun.
+~
+0 AD 0
+E
+yer tasarým~
+Soytarý loncasýnýn zirvesi gibi görünüyor.
+~
+D0
+A small room with a statue in it.
+~
+~
+0 -1 18640
+D2
+A intersection of passages.
+~
+door~
+1 -1 18603
+S
+#18645
+Balkon~
+Buradan çevreki bölgeyi görebilir ve inceleyebilirsin. Odanýn kubbesinde
+yarým daire þeklinde inþa edilmiþ balkon, hemen hemen her yönü görebilmeni
+saðlýyor. Güney ucuna doðru bakýndýðýnda, büyük þehir Selenge'yi
+görebilirsin.
+~
+0 AD 0
+E
+merdiven~
+Pürüzsüz, güzel mermerden inþa edilmiþler.
+~
+D0
+The north end of the balcony.
+~
+~
+0 -1 18643
+D5
+Back down the south staircase.
+~
+~
+0 -1 18647
+S
+#18646
+Aydýnlýk Bir Koridor~
+Vaay! Güneydeki kasvetli koridora göre ne kadar deðiþik bir yer. Bu
+odanýn bakýmýný her kim yapýyorsa acemileri gerçekten seviyor olmalý.
+Duvarlar ve yerler temiz. Herþey zevkle döþenmiþ. Ayrýca yerde ilginç bir
+tasarým olduðunu farkediyorsun.
+~
+0 AD 0
+E
+yer tasarým~
+Soytarý loncasýnýn zirvesi gibi görünüyor.
+~
+D1
+The passage opens into a domed room with a grand marble staircase.
+~
+~
+0 -1 18647
+D3
+A dark intersection of passages.
+~
+door~
+1 -1 18603
+S
+#18647
+Güney Merdivenleri~
+Koridor, yüksek kubbeli çatýsý olan geniþ bir odaya açýlýyor burada.
+Kapalý geçitten açýða doðru çýktýkça, bütün alana tependen bakan bir balkona
+çýkan merdivenleri görebiliyorsun. Oda kuzeye doðru devam ediyor ve
+buradakine benzeyen baþka bir merdiven görülebiliyor.
+~
+0 AD 0
+E
+merdiven~
+Pürüzsüz güzel mermerden inþa edilmiþ.
+~
+D0
+Another stairway is to the north, as well as a passage to the west.
+~
+~
+0 -1 18642
+D2
+A narrow passage to the south, ending in a wood door.
+~
+~
+0 -1 18604
+D3
+Back down the bright hallway.
+~
+~
+0 -1 18646
+D4
+An open air balcony.
+~
+~
+0 -1 18645
+S
+#0
+
+
+#RESETS
+*
+M 1 18601 1 18605 1 * Pit Beast
+E 1 18604 50 12           *  Cloak
+M 1 18602 3 18600 1 * Newbie Monster
+E 1 18602 99 5            *  Vest
+M 1 18602 3 18607 1 * Newbie Monster
+E 1 18606 99 16           *  Dagger
+M 1 18611 1 18646 1 * Annoying Newbie
+E 1 18606 99 16           *  Dagger
+M 1 18612 1 18642 1 * Clueless Newbie
+M 1 18613 1 18640 1 * Friendly Newbie
+E 1 18602 99 5            *  Vest
+M 1 18614 1 18604 1 * Lost Newbie
+M 1 18615 1 18645 1 * Smart Newbie
+E 1 18613 99 10           *  Sleeves
+E 1 18612 99 7            *  Leggings
+E 1 18602 99 5            *  Vest
+E 1 18614 30 16           *  Mace
+M 1 18603 1 18602 1 * Dragon
+E 1 18607 99 3            *  Collar
+E 1 18615 100 18          *  orb
+M 1 18604 1 18606 1 * Newbie Guard
+E 1 18605 60 1            *  Ring
+E 1 18603 30 6            *  Helm
+G 1 18608 5               *  Key
+M 1 18605 1 18612 1 * Alchemist
+E 1 18609 50 0            *  Light
+G 1 18609 50              *  Light
+M 1 18606 4 18602 1 * Crawler
+M 1 18606 4 18606 1 * Crawler
+M 1 18606 4 18609 1 * Crawler
+M 1 18607 5 18620 1 * Zombie
+M 1 18607 5 18624 1 * Zombie
+M 1 18607 5 18637 1 * Zombie
+M 1 18607 5 18633 1 * Zombie
+M 1 18608 5 18627 1 * Quasit
+M 1 18608 5 18636 1 * Quasit
+M 1 18608 5 18638 1 * Quasit
+M 1 18608 5 18621 1 * Quasit
+M 1 18609 1 18629 1 * Minotaur
+E 1 18610 50 6            *  Horns
+E 1 18611 50 5            *  Hide
+M 1 18610 1 18639 1 * Spectre
+* Doors
+D 1 18602 2 1                   * The Dirty Hallway Close South
+D 1 18606 0 1                   * A Small Room Close North
+D 1 18603 0 1                   * A Nexus Close North
+D 1 18644 2 1                   * A Bright Hallway Close South
+D 1 18603 1 1                   * A Nexus Close East
+D 1 18646 3 1
+D 1 18604 2 1                   * A Narrow Passage Close South
+D 1 18612 0 1                   * The Alchemist's Room Close North
+D 1 18606 5 2                   * A Small Room Lock Down
+D 1 18605 4 2                   * The Dark Pit Lock Up
+D 1 18607 3 1                   * More Of The Hallway Close West
+D 1 18606 1 1                   * A Small Room Close East
+D 1 18611 1 1                   * Another Corner Close East
+D 1 18612 3 1                   * The Alchemist's Room Close West
+*
+S
+
+
+#$

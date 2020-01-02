@@ -1,14 +1,14 @@
 #AREA
-drakyri.are~
-Drakyri Isle~
-{65 90} Ydri    Drakyri Isle~
+drakiri_adasi.are~
+Drakiri Adasý~
+{65 90} Ydri    Drakiri Adasý~
 11800 11949
 
 #MOBILES
 #11800
-drakyri deriki lechandre deia lady~
+drakiri leçantra bayan~
 Lechandre~
-A winged lady in shimmering blue robes stands here, working on something.
+Parýldayan mavi cüppesinin içinde kanatlý bir bayan birþey üzerinde çalýþýyor.
 ~
 Sparkling silver eyes regard you serenely from a fine boned elven face.
 Iridescent wings arch from the shoulder blades, spreading behind the lady
@@ -26,9 +26,9 @@ EFG 0 BJK 0
 stand stand female 55000
 0 0 medium 0
 #11801
-drakyri deriki noriek deiayan lord~
-Noriek~
-A darkly handsome drakyri lord regards you curiously.
+drakiri deriki norek lord~
+Norek~
+Karanlýk ve yakýþýklý bir drakiri merakla seni izliyor.
 ~
 Wavy black hair frames a sharp featured elven face, in stark contrast
 with the pale skin.  Intelligent silver eyes regard you warily.  A
@@ -43,9 +43,9 @@ FG 0 J F
 stand stand male 45700
 0 0 medium 0
 #11802
-drakyri deriki dyrli sh'aya lady~
-Dyrli~
-A drakyri lady stands here, involved in an experiment.
+drakiri deriki dirli bayan~
+Dirli~
+Bir drakiri bayaný burada, çalýþýyor.
 ~
 Golden blonde hair is tied securely back, revealing pointed ears and
 flowing in waves over delicate iridescent wings.  The lady, engrossed in
@@ -60,9 +60,9 @@ FG 0 I H
 stand stand female 15000
 0 0 medium 0
 #11803
-drakyri deriki roweni sequas~
-Roweni~
-A slender drakyri hovers here.
+drakiri deriki roveni~
+Roveni~
+Narin bir drakiri burada bekliyor.
 ~
 The second in command of house Deriki, Roweni wields formidable power.
 She bears the fine boned features of an elf and the iridescent wings
@@ -76,9 +76,9 @@ FG 0 I H
 stand stand female 10000
 0 0 medium 0
 #11804
-drakyri deriki xanil treye man~
-Xanil~
-A drakyri man robed in blue stands here, efficiently taking notes.
+drakiri deriki zanil erkek~
+Zanil~
+Mavi cüppesiyle bir drakiri erkeði birþeyler karalýyor.
 ~
 A ponytail of silvery hair hangs over the man's shoulder as he bends over
 a stack of parchment.  He bears the mark of the treye, third in command,
@@ -92,9 +92,9 @@ FG 0 K 0
 stand stand male 10000
 0 0 medium 0
 #11805
-drakyri deriki tyrena na'deia lady~
-Tyrena~
-A young drakyri lady is here, studying.
+drakiri deriki tirena bayan~
+Tirena~
+Genç bir drakiri bayaný burada çalýþýyor.
 ~
 You notice raven black hair and delicate iridescent wings.  Apparently
 noticing your scrutiny, the girl turns towards you, fixing you with
@@ -110,9 +110,9 @@ FGI 0 0 J
 stand stand female 25300
 0 0 medium 0
 #11806
-drakyri deriki nalyss ira'deia girl~
-Nalyss~
-A drakyri girl grins at you impishly.
+drakiri deriki nalis kýz~
+Nalis~
+Bir drakiri kýzý sena þeytanca gülümsüyor.
 ~
 The girl's silver eyes sparkle with laughter as she watches you watching
 her.  A narrow mark along one cheekbone denotes her as one of the
@@ -126,9 +126,9 @@ FGJ 0 0 0
 stand stand female 5700
 0 0 medium 0
 #11807
-drakyri deriki daeman ira'deian boy~
-Daeman~
-A young boy hovers here, concentrating on a spell.
+drakiri deriki deman genç~
+Deman~
+Genç bir drakiri bir büyüye konsantre oluyor.
 ~
 The intelligent silver eyes are narrowed in concentration as he practices,
 seemingly oblivious to your presence.  A blue mark along his cheekbone
@@ -142,9 +142,9 @@ FGHN 0 0 0
 stand stand male 6000
 0 0 medium 0
 #11808
-drakyri deriki ykandres ira'deian youth~
-Ykandres~
-A winged youth fades in and out of view.
+drakiri deriki yýkades genç~
+Yýkades~
+Kanatlý bir genç bir yokoluyor bir varoluyor.
 ~
 He seems to be perfecting his invisibility and cancellation spells.
 Noticing your intrusion, the youth glances up, flipping back short
@@ -159,9 +159,9 @@ FGJ 0 J K
 stand stand male 7500
 0 0 medium 0
 #11809
-zeion snow owl~
-Zeion~
-A snow owl the color of blue ice cocks its head at you.
+zeyon kar baykuþ~
+Zeyon~
+Mavi buz renginde bir kay baykuþu seni izliyor, DÝKKATLE!.
 ~
 Huge dark eyes examine you curiously.
 ~
@@ -173,9 +173,9 @@ CDEFG 0 IJ H
 stand stand either 0
 ACHW ACDEFHJKPU large 0
 #11810
-drakyri lab assistant~
-the lab assistant~
-An assistant rushes around setting up an experiment.
+drakiri laboratuvar asistaný~
+laboratuvar asistaný~
+Bir asistan heyecanla deney düzenekleri oluþturuyor.
 ~
 He seems a little harried and glares at you for getting in the way.
 ~
@@ -187,9 +187,9 @@ DFG 0 0 0
 stand stand male 1500
 0 0 medium 0
 #11811
-mage training~
-a mage in training~
-A mage in training is here, mumbling an incantation.
+eðitim yapan büyücü~
+eðitim yapan büyücü~
+Eðitim yapan bir büyücü görüyorsun, konsantre olmaya çalýþýyor.
 ~
 The mage seems intent on a spell and unaware of your scrutiny.
 Suddenly, one hand flicks forward and a fireball whooshes past your
@@ -205,9 +205,9 @@ FG 0 0 0
 stand stand either 5000
 0 0 medium 0
 #11812
-writhing form ghostly~
-a writhing form~
-A ghostly form writhes here.
+hayaletimsi kývranan þekil~
+kývranan þekil~
+Hayaletimsi bir þekil burada, kývranýyor.
 ~
 A transparent form hovers here, writhing and moaning.  It seems
 to be trapped in one place by some kind of magic which apparently
@@ -221,9 +221,9 @@ DFG 0 D MNO
 stand stand none 0
 HL 0 medium mist
 #11813
-glyph warding~
-a glyph of warding~
-A protective glyph hovers here.
+glip koruma~
+glip~
+Koruyucu bir glip burada bekliyor.
 ~
 It seems to be made of semi-transparent substance shaped in the form
 of a magical glyph, created to guard the house against outside threats.
@@ -236,9 +236,9 @@ DEFG 0 FMN JOP
 stand stand none 0
 HL 0 medium mist
 #11814
-drakyri treniste dosandre deian lord~
-Dosandre~
-A drakyri lord in gleaming white raises an eyebrow at your intrusion.
+drakiri lord dosande~
+Dosande~
+Parlak beyaz bir drakiri lordu ani varlýðýný fakedince bir kaþýný kaldýrýyor.
 ~
 Light seems to focus on this figure, surrounding the lord with an aura
 of gold.  Shining hair is held back by a slender circlet, revealing
@@ -255,9 +255,9 @@ CDEIK N Y M
 stand stand male 65000
 0 0 medium 0
 #11815
-drakyri treniste denylis deiaya lady~
-Denylis~
-A beautiful winged lady gazes out over the city.
+drakiri denilis bayan~
+Denilis~
+Kanatlý güzel bir bayan þehrin dýþýný izliyor.
 ~
 Shining gold hair catches the light, surrounding the lady with a faint
 golden halo.  Bright blue eyes gaze back at you serenely.  You sense
@@ -271,9 +271,9 @@ DEF 0 N M
 stand stand female 45500
 0 0 medium 0
 #11816
-drakyri treniste kaele sh'ayan~
-Kaele~
-A drakyri stands here, radiating an aura of command.
+drakiri kayele~
+Kayele~
+Bir drakiri burada, bir komut aurasý yayýyor.
 ~
 Powerful golden eyes catch and hold your gaze for a moment, and
 one eyebrow raises in question.  He bears the mark of a sh'ayan
@@ -287,9 +287,9 @@ CDEFK 0 N M
 stand stand male 25500
 0 0 medium 0
 #11817
-drakyri treniste rexena sequas female~
-Rexena~
-A female drakyri hovers here.
+drakiri reksena diþi~
+Reksena~
+Diþi bir drakiri burada bekliyor.
 ~
 A cascade of white streaked golden hair flows in waves over one shoulder.
 Despite the white strands, the pale face betrays a youthful power,
@@ -304,9 +304,9 @@ CDEIK 0 IN HM
 stand stand female 15500
 0 0 medium 0
 #11818
-drakyri treniste deis treye male~
-Deis~
-A male drakyri hovers here.
+drakiri deyis erkek~
+Deyis~
+Erkek bir drakiri burada bekliyor.
 ~
 Gold flecked blue eyes watch you measuringly from a handsome elvish
 face.  On his collar is the mark of the treye, third in command,
@@ -320,9 +320,9 @@ EFI 0 N M
 stand stand male 10200
 0 0 medium 0
 #11819
-drakyri treniste lyrene na'deia girl~
-Lyrene~
-A slender drakyri girl is here, reading.
+drakiri liren kýz~
+Liren~
+Narin bir drakiri kýzý birþeyler okuyor.
 ~
 Golden hair frames a narrow fine boned face and large tawny eyes.
 Though slight, honed muscles betray continuous weapons training and
@@ -337,9 +337,9 @@ CDEHIK 0 NJ MI
 stand stand female 21000
 0 0 medium 0
 #11820
-drakyri treniste josreke ira'deian youth~
+drakiri josreke genç~
 Josreke~
-A white clad youth is here, taking notes.
+Beyazlara bürünmüþ bir genç notlar alýyor.
 ~
 He seems focused on a huge blue bound tome.  A glance at the lettering
 along the spine indicates that it has something to do with magic.
@@ -353,9 +353,9 @@ FG 0 NH MI
 stand stand male 9400
 0 0 medium 0
 #11821
-drakyri treniste rodwen ira'deia girl~
-Rodwen~
-A young girl is here, practicing sword maneuvers.
+drakiri rodven kýz~
+Rodven~
+Genç bir kýz kýlýç hakimiyetini geliþtiriyor.
 ~
 Steel flashes like lightning as the girl moves through several
 maneuvers with a speed and agility that make it seem like a dance.
@@ -370,9 +370,9 @@ EFHIK 0 N M
 stand stand female 9500
 0 0 medium 0
 #11822
-drakyri white paladin~
-a white clad paladin~
-A paladin clad in pure white watches you.
+drakiri beyaz paladin~
+beyazlara bürünmüþ paladin~
+Beyazlara bürünmüþ bir paladin seni izliyor.
 ~
 The paladin seems to follow your every move, as if measuring your
 worth.
@@ -385,9 +385,9 @@ CDFIK 0 N M
 stand stand either 5500
 0 0 medium 0
 #11823
-drakyri reykaris rachal deia lady~
-Rachal~
-A raven haired drakyri lady stands here, radiating evil.
+drakiri racal bayan~
+Racal~
+Kuzgun gibi saçlara sahip bir drakiri bayaný þeytanlýk yayýyor.
 ~
 Raven black hair seems to absorb the little light in the room, framing
 a dark, fine boned face and dark slitted eyes.  An aura of power and
@@ -405,9 +405,9 @@ EFG M H NI
 stand stand female 35500
 0 0 medium 0
 #11824
-drakyri reykaris toryan deiayan man~
+drakiri toryan erkek~
 Toryan~
-A tall winged man in black is here.
+Uzun kanatlara sahip, siyahlara bürünmüþ bir erkek burada bekliyor.
 ~
 Slitted eyes like slashes of darkness gaze back at you.  You sense
 an aura of complete evil and corruption radiating from this man..
@@ -421,9 +421,9 @@ CDFK 0 M N
 stand stand male 30000
 0 0 medium 0
 #11825
-drakyri reykaris janalis sh'aya lady~
+drakiri janalis bayan~
 Janalis~
-A commanding drakyri lady stands here.
+Bir kumandan drakiri bayaný burada bekliyor.
 ~
 An aura of power and command radiate from the slender figure.
 Despite her beauty, you sense something evil and deadly behind the
@@ -438,9 +438,9 @@ EFK 0 M N
 stand stand female 21200
 0 0 medium 0
 #11826
-drakyri reykaris dreyva sequas~
-Dreyva~
-A black clad drakyri watches you.
+drakiri dýreyva~
+Dýreyva~
+Karalara bürünmüþ bir drakiri seni izliyor.
 ~
 Dark slitted eyes seem to follow your every move.  You notice the
 mark of the Reykaris sequas on her collar.
@@ -453,9 +453,9 @@ FIK 0 M N
 stand stand female 15400
 0 0 medium 0
 #11827
-drakyri reykaris delyrus treye man~
-Delyrus~
-A dark drakyri man stands here, muttering an incantation.
+drakiri delirus erkek~
+Delirus~
+Kara bir drakiri erkeði burada, büyü mýrýldanýyor.
 ~
 He notices you watching him and smiles nastily, sending a shiver
 of warning down your spine.  Along the collar is the mark of the
@@ -469,9 +469,9 @@ FI 0 MI NO
 stand stand male 11250
 0 0 medium 0
 #11828
-drakyri reykaris kranali na'deian~
-Kranali~
-A drakyri unfurls his wings and snarls at your intrusion.
+drakiri kýranal~
+Kýranal~
+Bir drakiri varlýðýný kanatlarýný açarak karþýlýyor.
 ~
 Jet black hair frames a handsome elfish face.  Dark slitted eyes
 glare at you angrily.  Between his eyebrows shimmers the black dot
@@ -485,9 +485,9 @@ EFG 0 MH NIP
 stand stand male 23400
 0 0 medium 0
 #11829
-drakyri reykaris sorina ira'deia child~
+drakiri sorina çocuk~
 Sorina~
-A drakyri child is here, playing with polished bones.
+Bir drakiri çocuðu kirlenmiþ kemiklerle oynuyor.
 ~
 She seems to be playing with a collection of humanoid bones, polished
 to a ghastly white gleam.  Noticing your gaze, she giggles and hurls
@@ -503,9 +503,9 @@ FJ 0 0 0
 stand stand female 1000
 0 0 medium 0
 #11830
-drakyri reykaris loryn ira'deia girl~
-Loryn~
-A slender girl watches you from the shadows.
+drakiri lorin kýz~
+Lorin~
+Narin bir kýz gölgelerin ardýndan seni izliyor.
 ~
 Dark slitted eyes gleam from the shadows, and the thin lips part in
 a bitter not-smile.  One hand draws back, and the light glints off
@@ -520,9 +520,9 @@ BEFJK 0 M N
 stand stand female 14300
 0 0 medium 0
 #11831
-drakyri reykaris chake ira'deian man~
-Chake~
-A young drakyri man hovers here, studying.
+drakiri çake erkek~
+çake~
+Genç bir drakiri erkeði burada, çalýþýyor.
 ~
 Short, jet black hair frames a narrow face with high cheekbones and dark
 slitted eyes.  The mark of an ira'deian glimmers along one cheekbone.
@@ -535,9 +535,9 @@ EFK 0 M N
 stand stand male 14300
 0 0 medium 0
 #11832
-hellish guardian~
-the hellish guardian~
-A hellish guardian stalks here, looking for prey.
+tamu muhafýzý~
+tamu muhafýzý~
+Bir tamu muhafýzý av arýyor.
 ~
 A rabid reddish light flickers behind narrow green cat eyes.
 ~
@@ -549,9 +549,9 @@ CDJK 0 MH NI
 stand stand none 1000
 0 0 large 0
 #11833
-howling beast figure~
-a howling beast~
-A warped figure screams with fury!
+uluyan eðilmiþ canavar figürü~
+uluyan canavar~
+Eðilmiþ bir figür uluyor!
 ~
 A warped figure resembling a huge dog with glowing red eyes and
 four long muscular legs ending in wicked claws stands here, straining
@@ -566,9 +566,9 @@ DEFI 0 K P
 stand stand none 0
 0 0 medium 0
 #11834
-eyes demonic figure~
-a demonic figure~
-Mad red eyes glint insanely from the darkness.
+þeytani figür gözler~
+þeytani figür~
+Delirmiþ kýzýl gözler karanlýðýn içinden seni seyrediyor.
 ~
 Barely visible in the darkness, you notice a disfigured shape behind
 the eyes.  Twisted lips part to reveal cruel white canines.  The
@@ -582,9 +582,9 @@ DEFJ 0 DM CN
 stand stand none 1000
 0 0 large 0
 #11835
-wax statue necromancer black figure~
-the necromancer~
-A wax statue of a sinister black clad figure is here.
+balmumu heykel barudi kara figür~
+barudi~
+Karalara bürünmüþ bir figürün balmumundan heykeli burada bekliyor.
 ~
 The statue is intricately molded and seems almost alive..
 The blood red eyes seem to glow with a hellish fire.  Long,
@@ -601,9 +601,9 @@ FG 0 M N
 stand stand either 7500
 0 0 medium 0
 #11836
-mass writhing tentacles~
-a mass of writhing tentacles~
-A mass of writhing tentacles reaches towards you!
+sürünen dokunaçlar~
+sürünen dokunaçlar~
+Sürünen dokunaçlar üzerine doðru ilerliyor!
 ~
 Thick black tentacles the width of your head twine and writh
 menacingly.  The tentacles part momentarily, and you notice a
@@ -617,9 +617,9 @@ DEK 0 0 0
 stand stand none 0
 ACGJ ADEFN huge 0
 #11837
-figure summoned demon~
-a summoned demon~
-A hulking figure snarls viciously.
+çaðrýlmýþ þeytan figür iri~
+çaðrýlmýþ þeytan~
+Ýri bir figür seni süzüyor.
 ~
 You catch a glimpse of hellish red eyes and wickedly sharp black talons.
 ~
@@ -631,9 +631,9 @@ EFG 0 MQ NSY
 stand stand none 10300
 ACH ABCDEFJKQUV large 0
 #11838
-drakyri myrxes jaena deia eyes~
-Jaena~
-Wary silver eyes gleam from the darkness.
+drakiri jena gözler~
+Jena~
+Karanlýðýn içinde her an tetikte olan gözler farkediyorsun.
 ~
 You make out a slender shape crouched warily in the darkness.  The
 silver eyes gleam from a dark, narrow face like twin daggers.
@@ -649,9 +649,9 @@ BEFJK 0 0 0
 stand stand female 65500
 0 0 medium 0
 #11839
-drakyri myrxes neraikis deiayan form~
-Neraikis~
-A slim form crouches in the shadows.
+drakiri nerakis þekil~
+Nerakis~
+Ýnce yapýlý bir þekil gölgelerin içine sinmiþ.
 ~
 The slender form of a drakyri is nearly invisible in the shadows.
 His wary stance betrays a dangerous catlike grace.  You notice
@@ -665,9 +665,9 @@ BEFJ 0 0 0
 stand stand male 65000
 0 0 medium 0
 #11840
-drakyri myrxes katyre sh'aya figure~
-Katyre~
-A black clad figure watches you silently.
+drakiri katire figür~
+Katire~
+Karalara bürünmüþ bir figür sessizce seni izliyor.
 ~
 Lean honed muscles balance with the grace of a cat.  The dark slitted
 eyes seem to follow your every move.  Along one dark collar, you notice
@@ -681,9 +681,9 @@ BEFJ 0 0 0
 stand stand female 52500
 0 0 medium 0
 #11841
-drakyri myrxes ryxis sequen~
-Ryxis~
-A drakyri stalks in the shadows.
+drakiri riksis~
+Riksis~
+Bir drakiri gölgelerin içinde dolaþýyor.
 ~
 Slitted emerald green eyes watch you measuringly from a darkly handsome
 elvish face.  The figure seems at home in the shadows and occasionally
@@ -698,9 +698,9 @@ BEFJ 0 0 0
 stand stand male 41400
 0 0 medium 0
 #11842
-drakyri myrxes gydeas treye form~
-Gydeas~
-A slender form blends into the shadows.
+drakiri gideyas þekil~
+Gideyas~
+Narin bir þekil gölgelerin içine süzülüyor.
 ~
 In the darkness, you can barely make out a slim figure and the arches of
 dark wings.  Dark slitted eyes glitter dangerously from a fair, fine
@@ -715,9 +715,9 @@ BEFJ 0 0 0
 stand stand male 15500
 0 0 medium 0
 #11843
-drakyri myrxes dyraena na'deia lady~
-Dyraena~
-A drakyri lady paces silently.
+drakiri bayan dirayna~
+Dirayna~
+Bir drakiri bayaný sessizce yürüyor.
 ~
 Long hair so black it blends into the shadows frames a pretty, high
 cheekboned face and dark, wary silver eyes.  Though not looking
@@ -733,9 +733,9 @@ BEFJK 0 0 0
 stand stand female 25500
 0 0 medium 0
 #11844
-drakyri myrxes nyxi ira'deia girl~
-Nyxi~
-A slender girl stalks in the shadows.
+drakiri niksi kýz~
+Niksi~
+Narin yapýlý bir kýz gölgelerin içinde geziniyor.
 ~
 The girl moves with a powerful agility that reminds you of a panther.
 Slitted silver eyes pierce the darkness to bore into your own.  Along
@@ -749,9 +749,9 @@ BEFHJ 0 0 0
 stand stand female 15560
 0 0 medium 0
 #11845
-drakyri myrxes delise ira'deia~
+drakiri delise~
 Delise~
-A drakyri emerges from the shadows.
+Bir drakiri gölgelerin içinden beliriyor.
 ~
 Pale green cat eyes seem to glow with a silent power.
 ~
@@ -763,9 +763,9 @@ BEFJ 0 0 0
 stand stand female 15500
 0 0 medium 0
 #11846
-black panther~
-a black panther~
-A black panther prowls silently.~
+kara panter~
+kara panter~
+Kara bir panter hiç ses çýkarmadan yeryüzünü adýmlýyor.~
 Powerful muscles ripple beneath a shadow black coat.  Emerald green
 cat eyes flicker constantly around the room, taking in everything.
 ~
@@ -777,9 +777,9 @@ EFHK 0 0 0
 stand stand male 0
 0 0 large 0
 #11847
-shadow lynx~
-a shadow lynx~
-A lynx stalks restlessly in the shadows.
+gölge vaþak~
+gölge vaþaðý~
+Bir gölge vaþaðý gölgelerin içinde dolaþýyor.
 ~
 The form of a huge, dark lynx is barely visible in the shadows.
 Slitted silver eyes flicker towards you, and she hisses in warning.
@@ -792,9 +792,9 @@ EFHK 0 0 0
 stand stand male 0
 0 0 large 0
 #11848
-night hawk black~
-a night hawk~
-The huge form of a shadow black hawk hovers here.
+gece kara atmaca~
+gece atmacasý~
+Kocaman kara bir atmaca havada asýlý duruyor.
 ~
 She hovers silently, powerful wings outspread.  Beneath the intelligent
 dark eyes, a cruel black beak opens to emit a shrill scream of challenge!
@@ -807,9 +807,9 @@ CDEF 0 0 0
 stand stand female 0
 0 0 huge 0
 #11849
-stalker form~
-the stalker~
-A shadowy form slips silently through the darkness.
+avcý gölge þekil~
+gölge avcý~
+Gölgelerin içinde bir figür sessizce dolaþýyor.
 ~
 The form flits through the shadows with a dangerous silent speed.
 The head turns towards you for a moment, fixing you with a sinister
@@ -823,9 +823,9 @@ BEFJ 0 0 0
 stand stand male 5500
 0 0 medium 0
 #11850
-hunter arrow~
-the hunter~
-You notice the glint of an arrow aimed at you from the shadows.
+avcý ok~
+avcý~
+Gümüþten bir okun seni izlediðini farkediyorsun.
 ~
 A lithe humanoid form crouches in the shadows, aiming a silvery
 arrow at you with dangerous accuracy.
@@ -838,9 +838,9 @@ EFJK 0 0 0
 stand stand female 7000
 0 0 medium 0
 #11851
-drakyri xaek dyana deia lady~
-Dyana~
-A powerful drakyri lady watches warily.
+drakiri bayan diyana~
+Diyana~
+Güçlü bir drakiri bayaný dikkatle seni izliyor.
 ~
 Your eyes are held by a commanding grey gaze.  The lady seems to assess
 you even as you watch her.  She bears the weight of full armor, betraying
@@ -857,9 +857,9 @@ CDEFIK 0 0 0
 stand stand female 65500
 0 0 medium 0
 #11852
-drakyri xaek ryke deiayan lord~
-Ryke~
-A drakyri lord is here, radiating power.
+drakiri rike lord~
+Rike~
+Bir drakiri lordu güç yayýyor.
 ~
 Lean, powerful muscles indicate a lifetime of physical training
 and weapons work.  Along the collar is the mark of the deiayan (consort)
@@ -873,9 +873,9 @@ CDEK 0 0 0
 stand stand male 61000
 0 0 medium 0
 #11853
-drakyri xaek nyxil sh'aya~
-Nyxil~
-A golden haired drakyri is here, practicing.
+drakiri niksil~
+Niksil~
+Altýn saçlý bir drakiri pratik yapýyor.
 ~
 Flashing swords gleam in a fast, dangerous dance as the lady skims
 through sword maneuvers that seem as easy to her as breathing.  Slitted
@@ -891,9 +891,9 @@ CDEHIK 0 0 0
 stand stand female 22500
 0 0 medium 0
 #11854
-drakyri xaek rakael sequas female warrior~
-Rakael~
-A female drakyri warrior is here, practicing sword maneuvers.
+drakiri rakayel diþi savaþçý~
+Rakayel~
+Diþi bir drakiri savaþçýsý kýlýç yeteneðini geliþtiriyor.
 ~
 Silver hair and silver eyes flash in the light as the warrior works
 gracefully through sword maneuvers.  As she spins and parries with
@@ -908,9 +908,9 @@ EFHIK 0 0 0
 stand stand female 17500
 0 0 medium 0
 #11855
-drakyri xaek yeven treye man~
+drakiri yeven erkek~
 Yeven~
-A well muscled drakyri man glances up from his work.
+Kaslý vücuduyla bir drakiri erkeði iþiyle uðraþýyor.
 ~
 He seems to be going over some sort of maps.  Powerful muscles bulge
 beneath leather practice armor, yet he moves with a quickness that
@@ -925,9 +925,9 @@ CDIK 0 0 0
 stand stand male 12100
 0 0 medium 0
 #11856
-drakyri xaek versant na'deian boy~
+drakiri versant çocuk~
 Versant~
-A tall drakyri boy is here, sparring with his sister.
+Uzunca bir drakiri çocuðu kýz kardeþiyle tartýþýyor.
 ~
 Short golden hair frames a handsome, sculpted elvish face and brilliant
 green eyes.  He towers several inches above you, yet his honed
@@ -942,9 +942,9 @@ CDEIK 0 0 0
 stand stand male 16000
 0 0 large 0
 #11857
-drakyri xaek saera ira'deia girl~
-Saera~
-A slender drakyri girl is here, sparring with her brother.
+drakiri sayera kýz~
+Sayera~
+Narin vücuduyla bir drakiri kýzý erkek kardeþiyle tartýþýyor.
 ~
 Mithril flashes in a silvery blur as the girl slashes and dodges with
 deadly speed and accuracy.  Along her cheekbone is the mark of
@@ -958,9 +958,9 @@ CEFIK 0 0 0
 stand stand female 12100
 0 0 medium 0
 #11858
-grey lion~
-the grey lion~
-A massive grey lion stands here.
+gri aslan~
+gri aslan~
+Ýrice bir gri aslan burada bekliyor.
 ~
 Grey fur shimmers over powerful muscles.  Intelligent golden eyes
 follow you warily.
@@ -973,9 +973,9 @@ CDK 0 HO IP
 stand stand male 0
 0 0 large 0
 #11859
-white lion~
-the white lion~
-A huge white lion prowls here.
+beyaz aslan~
+beyaz aslan~
+Ýrice bir beyaz aslan burada duruyor.
 ~
 The lion moves with a powerful, silent grace which is strangely at odds
 with her size.  Deep emerald eyes flicker around the room.
@@ -988,9 +988,9 @@ EFIK 0 IP HO
 stand stand female 0
 0 0 large 0
 #11860
-guardian knight~
-a guardian knight~
-A knight stands here watchfully.
+muhafýz þövalye~
+muhafýz þövalye~
+Bir þövalye etrafý gözlüyor.
 ~
 The knight is tall, powerful, and quite ready to defend.
 ~
@@ -1002,9 +1002,9 @@ CDIK 0 0 0
 stand stand either 2500
 0 0 large 0
 #11861
-drakyri warrior training~
-a warrior in training~
-A drakyri warrior in training is here, practicing defensive maneuvers.
+drakiri savaþçý~
+savaþçý~
+Bir drakiri savaþçý savunma yeteneklerini geliþtiriyor.
 ~
 The drakyri works through defensive maneuvers over and over, with
 growing agility and quickness.
@@ -1017,9 +1017,9 @@ EFK 0 0 0
 stand stand either 1220
 0 0 medium 0
 #11862
-drakyri sparring warrior~
-a sparring warrior~
-A drakyri warrior is here, sparring.
+drakiri savaþçý tartýþan~
+tartýþan savaþçý~
+Bir drakiri savaþçýsý burada, tartýþýyor.
 ~
 The warrior seems quite intent on weapons work.
 ~
@@ -1031,9 +1031,9 @@ EFIK 0 0 0
 stand stand either 1400
 0 0 medium 0
 #11863
-drakyri noriva yxanes deian man~
-Yxanes~
-A tall drakyri man stands here.
+drakiri yiksanes erkek~
+Yiksanes~
+Uzun boylu bir drakiri erkeði burada duruyor.
 ~
 A thin niobium circlet confines short golden hair, framing brilliant
 green eyes and a powerfully sculpted elvish face.  Centered between
@@ -1049,9 +1049,9 @@ FIK 0 MN HO
 stand stand male 62500
 0 0 medium 0
 #11864
-drakyri noriva nerael deiaya lady~
-Nerael~
-A white clad drakyri lady stands here.
+drakiri nerayel bayan~
+Nerayel~
+Beyazlar içinde bir drakiri bayaný burada duruyor.
 ~
 Cascades of shimmering hair the color of white gold fall in waves down
 the lady's white clad back, between delicate iridescent wings.
@@ -1066,9 +1066,9 @@ EFI 0 MNH IO
 stand stand female 61100
 0 0 medium 0
 #11865
-drakyri noriva jorinne sh'aya woman~
-Jorinne~
-A drakyri woman is here, meditating.
+drakiri jorine kadýn~
+Jorine~
+Bir drakiri kadýný meditasyon yapýyor.
 ~
 An aura of health and power surrounds her.  A mark on her collar
 indicates her rank as sh'aya of myr'vale (minor house) Noriva.
@@ -1081,9 +1081,9 @@ FI 0 HIP KO
 stand stand female 53000
 0 0 medium 0
 #11866
-drakyri noriva lerylke sequen paladin~
-Lerylke~
-A drakyri paladin kneels here in prayer.
+drakiri lerilke paladin~
+Lerilke~
+Bir drakiri paladini ibadet ediyor.
 ~
 The paladin emanates peace and health.  Contrary to human beliefs,
 drakyri paladins do not need to be purely good.  In this case,
@@ -1098,9 +1098,9 @@ CDEK 0 MN J
 rest stand male 25000
 0 0 medium 0
 #11867
-drakyri noriva nerr treye male~
-Nerr~
-A male drakyri kneels here, weeding.
+drakiri nerra erkek~
+Nerra~
+Bir drakiri erkeði yabani ot topluyor.
 ~
 Despite his scruffy work clothing, Nerr emanates health and power.
 His slitted golden eyes are narrowed in concentration as he heightens
@@ -1114,9 +1114,9 @@ FIK 0 0 0
 rest stand male 15500
 0 0 medium 0
 #11868
-drakyri noriva yllyra na'deia lady~
+drakiri yiliyra bayan~
 Yllyra~
-A tall drakyri lady is here, studying herb lore.
+Uzun boylu bir drakiri bayaný þifalý otlar üzerine çalýþýyor.
 ~
 She twirls a lock of shiny white gold hair between her fingers as she
 concentrates.  Iridescent wings drape down her back, lifting
@@ -1131,9 +1131,9 @@ FIK 0 0 0
 stand stand female 45500
 0 0 medium 0
 #11869
-drakyri noriva dryna ira'deia girl~
-Dryna~
-A young drakyri girl hovers here, laughing.
+drakiri dirina kýz~
+Dirina~
+Genç bir drakiri kýzý gülüyor.
 ~
 Shimmering golden hair falls in a curtain down her back, between
 fluttering iridescent wings.  Lively green gold eyes sparkle
@@ -1148,9 +1148,9 @@ EFGHI 0 HIJ E
 stand stand female 10500
 0 0 medium 0
 #11870
-drakyri noriva voryl ira'deian boy~
-Voryl~
-A tall drakyri boy is here, studying.
+drakiri voril oðlan~
+Voril~
+Uzun boylu bir drakiri oðlaný burada, çalýþýyor.
 ~
 He seems to be engrossed in a tome on healing.  Wavy white gold hair,
 cut short, frames a handsome, youthful face and sparkling green eyes.
@@ -1164,9 +1164,9 @@ FI 0 H I
 stand stand male 10500
 0 0 medium 0
 #11871
-white cat~
-the white cat~
-A white cat is here, basking in the light.
+beyaz kedi~
+beyaz kedi~
+Beyaz bir kedi dolaþýyor.
 ~
 Snowy white fur gleams softly in the light.  You feel the urge to pet
 it.. but as you reach out your hand, the slitted green eyes snap open
@@ -1180,9 +1180,9 @@ DF 0 0 0
 stand stand male 0
 0 0 medium 0
 #11872
-grey cat silvery~
-the grey cat~
-A silvery grey cat prowls silently.
+gri kedi gümüþi~
+gri kedi~
+Gümüþi bir gri kedi sessizce ilerliyor.
 ~
 Silvery grey fur shimmers in the light.  Bright silver cat eyes
 follow you warily.
@@ -1195,9 +1195,9 @@ FJ 0 0 0
 stand stand female 0
 0 0 medium 0
 #11873
-drakyri guardian spirit form ghost~
-the guardian spirit~
-A ghostly form hovers here.
+drakiri muhafýz ruh þekil hayalet~
+muhafýzýn ruhu~
+Hayalete benzer bir þekil burada bekliyor.
 ~
 As you gaze at it, the form seems to sharpen and come into focus.
 It appears to be the spirit of a drakyri, long dead and set to
@@ -1211,9 +1211,9 @@ FG 0 MN HIJ
 stand stand none 0
 DHL 0 medium mist
 #11874
-drakyri laerkai flame mage~
-The Flame~
-A powerful drakyri mage stands here, surrounded by an aura of heat.
+drakiri büyücü alev~
+Alev~
+Güçlü bir drakiri büyücüsü alev aurasýnýn içinde bekliyor.
 ~
 Even her eyes seem to glow with a strange, reddish light.  You
 sense an aura of raw magical power around her, controllable only
@@ -1227,9 +1227,9 @@ FG H C I
 stand stand female 65000
 0 0 medium 0
 #11875
-drakyri laerkai shield paladin~
-The Shield~
-A drakyri paladin stands here, glowing with divine power.
+drakiri paladin kalkan~
+Kalkan~
+Bir drakiri paladini kontrol ettiði güçle parlýyor.
 ~
 He seems almost too bright to look at, and you are forced to avert your
 gaze after a brief glance.  He is the Shield, one of the most
@@ -1244,9 +1244,9 @@ CDIK N 0 M
 stand stand male 65000
 0 0 medium 0
 #11876
-drakyri laerkai claw knight~
-The Claw~
-A sinister knight clad in black stands here.
+pençe drakiri þövalye uðursuz~
+Pençe~
+Karalara bürünmüþ uðursuz bir þövalye burada bekliyor.
 ~
 The drakyri emanates an aura of pure evil power.  Noting your gaze,
 she smiles a cruel not-smile and flexes wickedly sharp taloned hands.
@@ -1259,9 +1259,9 @@ DEFIK M 0 N
 stand stand female 65000
 0 0 medium 0
 #11877
-drakyri laerkai shadow shadows~
-The Shadow~
-The shadows are deep here.
+gölge gölgeler drakiri~
+Gölge~
+Buradaki gölgeler koyu ve derin.
 ~
 You notice a slim figure shrouded in the deep shadows.  He turns, and
 sharp silver eyes pierce the darkness like knife blades.  His movements
@@ -1276,9 +1276,9 @@ BEFHJ 0 E O
 stand stand male 65000
 0 0 medium 0
 #11878
-drakyri laerkai fist warrior~
-The Fist~
-A powerful drakyri warrior stands here.
+savaþçý drakiri yumruk~
+Yumruk~
+Güçlü bir drakiri savaþçýsý burada bekliyor.
 ~
 She towers at least a head above you, muscles rippling beneath the
 plates of her armor.  Her sheer might would best most warriors in
@@ -1293,9 +1293,10 @@ CDEIK 0 D JKP
 stand stand female 65000
 0 0 large 0
 #11879
-drakyri laerkai hand priest~
-The Hand~
-A powerful drakyri priest is here, haloed in white light.~
+din adamý el drakiri~
+El~
+Güçlü bir drakiri din adamý beyaz bir ýþýða bürünmüþ.
+~
 Though not much taller than yourself, the drakyri seems to tower
 far above you, as if possessed by some divine presense.
 ~
@@ -1307,9 +1308,10 @@ FIK 0 MN HO
 stand stand male 65000
 0 0 medium 0
 #11880
-drakyri laerkai master~
-the Laerkai Master~
-A slender drakyri stands here, emanating power.~
+drakiri efendi layerkayi~
+Layerkayi Efendi~
+Narin yapýlý bir drakiri güç oluþturuyor.
+~
 The brilliant silver eyes of the master Laerkai look deep into your
 own, as if scouring your soul.  She is the leader of the Laerkai, the
 elite protective force of the race, a rank which she has won through
@@ -1326,9 +1328,10 @@ EFGHJK 0 FHIK JOP
 stand stand female 89800
 0 0 medium 0
 #11881
-drakyri guardian~
-The Guardian~
-The Guardian watches you measuringly.~
+drakiri muhafýzý~
+Muhafýz~
+Muhafýz seni izliyor.
+~
 The Guardian is a drakyri raised and trained specially to guard and serve
 the drakyri council.  She excels at many skills, due to decades of
 devotion and training, and is a formidable opponent.
@@ -1341,9 +1344,9 @@ CDEFGK 0 MNI HJP
 stand stand female 10000
 0 0 medium 0
 #11882
-drakyri mediator light~
-The Mediator~
-Shifting grey light pervades the room.
+drakiri arabulucu ýþýk gri~
+Arabulucu~
+Gri bir ýþýk odayý dolduruyor.
 ~
 The light seems to shift and change even as you look at it.  This is
 the drakyri Mediator, a blend of the souls of those drakyri who devoted
@@ -1360,9 +1363,9 @@ EFIK BES JKLQ PT
 stand stand none 65000
 HK 0 huge light
 #11883
-drakyri knight protector~
-a drakyri knight protector~
-A drakyri knight protector stands here.
+drakiri þövalye koruyucu~
+þövalye koruyucu~
+Bir drakiri þövalyesi burada bekliyor.
 ~
 This is a knight trained by myr'vale Xaek and sworn to guard and
 protect the land and its inhabitants til death.
@@ -1375,9 +1378,9 @@ CDEK 0 0 0
 stand stand either 5500
 0 0 medium 0
 #11884
-drakyri mage protector~
-a drakyri mage protector~
-A drakyri mage protector stands here.
+drakiri koruyuvu büyücü~
+büyücü koruyucu~
+Bir drakiri büyücüsü burada bekliyor.
 ~
 Trained by she'vale Deriki, this mage is sworn to protect the land
 and its inhabitants until death.
@@ -1390,9 +1393,9 @@ FG 0 0 0
 stand stand either 6000
 0 0 medium 0
 #11885
-drakyri healer~
-a drakyri healer~
-A drakyri healer stands here.
+drakiri þifacý~
+þifacý~
+Bir drakiri þifacýsý burada duruyor.
 ~
 This is a cleric trained by myr'vale Noriva to tend to the health
 of the land and its inhabitants.  The healer has no allegiances
@@ -1407,9 +1410,9 @@ IK 0 0 0
 stand stand either 6000
 0 0 medium 0
 #11886
-drakyri assassin~
-a drakyri assassin~
-A drakyri assassin merges with the shadows.
+drakiri suikastçi~
+suikastçi~
+Bir drakiri suikastçisi gölgelerin içinde bekliyor.
 ~
 This drakyri has been trained by myr'vale Myrxes to perform special
 jobs in the outside world.  The assassin answers mainly to the laerkai
@@ -1423,9 +1426,9 @@ EFJ 0 0 0
 stand stand either 8000
 0 0 medium 0
 #11887
-drakyri shopkeeper frail old man~
-a frail old man~
-A frail old man smiles mysteriously at you.
+zayýf drakiri yaþlý adam~
+zayýf ve yaþlý adam~
+Zayýf ve yaþlý bir adam sana gülümsüyor.
 ~
 You sense something strange about this old man..  Aware of your
 scrutiny, he glances up, revealing sparkling blue eyes which hold
@@ -1440,9 +1443,9 @@ EFGJK A 0 0
 stand stand male 500000
 0 0 medium 0
 #11888
-drakyri warden~
-The Warden~
-The Warden stands here, guarding the gates.
+drakiri bekçi~
+Bekçi~
+Bekçi burada, kapýlarý koruyor.
 ~
 The Warden is one of the most powerful drakyri, assigned to guard the
 gates to the isle against hostile invasion.  Her sharp silver eyes,
@@ -1461,9 +1464,9 @@ stand stand female 82000
 
 #OBJECTS
 #11800
-blue marble fountain~
-a blue marble fountain~
-A fountain of sculpted marble splashes quietly.~
+mavi mermer çeþme~
+mavi mermer çeþme~
+Mavi mermer bir çeþmeden sessizce su akýyor.~
 marble~
 fountain 0 0
 1000 1000 water 0 0
@@ -1479,25 +1482,25 @@ elven, but twin wings rise from the shoulderblades, sculpted feathers
 cascading over the sorceress' back like a cloak.
 ~
 #11801
-black marble key~
-a black marble key~
-A small key carved of black marble lies here.~
+siyah mermer anahtar taþ~
+siyah mermer anahtar~
+Küçük bir mermer taþý burada býrakýlmýþ.~
 stone~
 key 0 A
 0 0 0 0 0
 1 10 0 P
 #11802
-tentacled key black stone~
-a tentacled key~
-A black stone key carved in the form of 5 writhing tentacles lies here.~
+taþ siyah dokunaç anahtar~
+dokunaçlý anahtar~
+Üzerinde beþ dokunacýn olduðu siyah taþtan anahtar burada býrakýlmýþ.~
 stone~
 key B A
 0 0 0 0 0
 1 10 0 P
 #11803
-lapis lazuli statue~
-the lapis statue~
-A lapis lazuli statue of a praying drakyri kneels here.~
+drakiri heykeli~
+drakiri heykeli~
+Dizlerinin üzerine çökmüþ bir drakiri heykeli burada duruyor.~
 stone~
 fountain 0 0
 1000 1000 milk 0 0
@@ -1510,9 +1513,9 @@ His hands are cupped before him, as if in supplication.  Nestled between
 the hands is a carved bowl filled with cloudy white liquid.
 ~
 #11804
-pool water mirror~
-a pool of water~
-A pool of water gleams in the light.~
+su havuzu~
+su havuzu~
+Bir su havuzu ýþýkta parlýyor.~
 water~
 portal 0 0
 0 0 A 11802 0
@@ -1526,25 +1529,25 @@ ripples and clears, leaving only your reflection.. or perhaps the vision
 was just your imagination?  The water sparkles in the light.
 ~
 #11805
-guardian guardian's key silver~
-the guardian's key~
-An ornate silver key lies here.~
+gümüþ muhafýzýn anahtarý~
+muhafýzýn anahtarý~
+Gümüþ bir anahtar burada unutulmuþ.~
 silver~
 key A A
 0 0 0 0 0
 1 0 0 P
 #11806
-counter black stone~
-a black counter~
-A black counter floats here.  A sign is attached to the counter top.~
+siyah tezgah~
+siyah tezgah~
+Siyah bir tezgah havada süzülüyor. Tepesine bir iþaret iliþtirilmiþ.~
 stone~
 portal B 0
 0 0 A 11818 0
 0 0 0 P
 E
-counter black stone~
-The counter seems to stand on nothing at all.  Your reflection in
-the polished stone counter top seems slightly transparent.
+siyah tezgah~
+Tezgahý yere baðlayan birþey yok. Garip bir þekilde havada süzülüyor.
+Biraz yaklaþtýðýnda siyah taþýn üzerinde kendi yansýný görüyorsun...
 ~
 E
 sign~
@@ -1556,9 +1559,9 @@ Type list to list items.
 Type buy to buy something.
 ~
 #11807
-shimmering curtain light~
-a shimmering curtain~
-A curtain of shimmering light hangs in midair.~
+parlayan ýþýk perde~
+parlayan perde~
+Bir ýþýk kaynaðýný içine hapsetmiþ gibi parlayan perde havada asýlý duruyor.~
 light~
 portal A 0
 0 1 A 11801 0
@@ -1568,9 +1571,9 @@ shimmering curtain light~
 Peering through the curtain, you see a grove of trees.
 ~
 #11808
-table stone~
-a large stone table~
-A large stone table stands here.~
+taþ masa~
+büyük taþ masa~
+Büyük taþ bir masa burada duruyor.~
 stone~
 portal 0 0
 0 0 A 11812 0
@@ -1582,9 +1585,9 @@ Engraved across the center of the table are the words:
                D'lan Treviki Drakyri Laerkai
 ~
 #11809
-mithril ((+*+)) torque deriki~
-a mithril ((+*+)) torque~
-An engraved mithril torque glows here.~
+mitril ((+*+)) tork~
+mitril ((+*+)) tork~
+Oymalý bir mitril tork parlýyor.~
 mithril~
 armor AI AC
 28 28 29 23 0
@@ -1598,15 +1601,15 @@ A
 A
 19 6
 E
-mithril ((+*+)) torque deriki~  
+mithril ((+*+)) torque deriki~
 An inscription along the edge reads:
 
                Sh'evale Deriki Lechandre Deia
 ~
 #11810
-shimmering blue robe~
-a shimmering blue robe~
-A blue robe shimmers here.~
+parlak mavi cüppe~
+parlak mavi cüppe~
+Mavi bir cüppe parlýyor.~
 light~
 armor A AK
 28 27 27 25 0
@@ -1622,9 +1625,9 @@ An inscription along the edge reads:
                Sh'evale Deriki Lechandre Deia
 ~
 #11811
-magic flame~
-a magic flame~
-A strange flame hovers here.~
+büyülü alev~
+büyülü alev~
+Garip bir alev burada bekliyor.~
 fire~
 light A A
 0 0 -1 0 0
@@ -1634,9 +1637,9 @@ A
 A
 19 5
 #11812
-engraved ((+*+)) ring deriki~
-an engraved ((+*+)) ring~
-An intricately engraved ring lies here.~
+oymalý ((+*+)) yüzük~
+oymalý ((+*+)) yüzük~
+Karmaþýk oymalarla bezenmiþ bir yüzük burada yatýyor.~
 mithril~
 armor B AB
 28 28 28 25 0
@@ -1656,9 +1659,9 @@ An inscription along the inside of the band reads:
                She'vale Deriki Noriek Deiayan
 ~
 #11813
-((+*+)) crest deriki~
-a ((+*+)) crest~
-An ornate crest is here.~
+((+*+)) ibik~
+((+*+)) ibik~
+Süslü bir ibik burada bekliyor.~
 mithril~
 armor A AO
 27 27 28 15 0
@@ -1680,9 +1683,9 @@ An inscription along the inside of the band reads:
                She'vale Deriki Noriek Deiayan
 ~
 #11814
-mithril ((+*+)) bracelet deriki~
-a ((+*+)) bracelet~
-An ornate mithril bracelet is here, gleaming.~
+mitril ((+*+)) bileklik~
+((+*+)) bileklik~
+Süslü bir mitril bileklik parlýyor.~
 mithril~
 armor A AM
 27 28 27 25 0
@@ -1692,9 +1695,9 @@ A
 A
 19 7
 #11815
-((+*+)) chain belt deriki~
-a ((+*+)) chain belt~
-An engraved chain belt glitters here.~
+((+*+)) zincir kemer~
+((+*+)) zincir kemer~
+Oymalý bir kemer parlýyor.~
 mithril~
 armor A AL
 27 27 27 24 0
@@ -1706,9 +1709,9 @@ A
 A
 19 7
 #11816
-((+*+)) shoes deriki~
-a pair of ((+*+)) shoes~
-A pair of glittering shoes is here.~
+((+*+)) ayakkabýlar~
+bir çift ((+*+)) ayakkabý~
+Bir çift parlayan ayakkabý burada bekliyor.~
 mithril~
 armor A AG
 26 27 26 24 0
@@ -1724,9 +1727,9 @@ A
 A
 18 -2
 #11817
-((+*+)) armbands arm bands deriki~
-some ((+*+)) armbands~
-A pair of armbands glitters here.~
+((+*+)) kolluk~
+bir çift ((+*+)) kolluk~
+Bir çift kolluk parlýyor.~
 mithril~
 armor AI AF
 27 27 27 23 0
@@ -1740,9 +1743,9 @@ A
 A
 19 7
 #11818
-glittering ((+*+)) earring deriki~
-a glittering ((+*+)) earring~
-An intricately carved earring glitters here.~
+parlak((+*+)) miðfer~
+parlak ((+*+)) miðfer~
+Karmaþýk oymalarla bezenmiþ bir miðfer parlýyor.~
 mithril~
 armor AG AE
 26 26 26 23 0
@@ -1758,9 +1761,9 @@ A
 A
 19 6
 #11819
-glowing ((+*+)) sphere deriki~
-a glowing ((+*+)) sphere~
-A sphere floats here, glowing with an eerie light.~
+parlak ((+*+)) küre~
+parlak ((+*+)) küre~
+Ürkütücü bir ýþýkla parlayan bir küre burada bekliyor.~
 light~
 armor ABI AQ
 26 25 26 24 0
@@ -1774,9 +1777,9 @@ A
 A
 19 6
 #11820
-((+*+)) tunic deriki~
-a ((+*+)) tunic~
-A tunic emblazoned with the Deriki crest is here.~
+((+*+)) tunik~
+((+*+)) tunik~
+Bir tunik burada býrakýlmýþ.~
 silk~
 armor 0 AD
 26 26 25 25 0
@@ -1790,9 +1793,9 @@ A
 A
 20 -5
 #11821
-owl eyes feather~
-Owl eyes~
-A pair of feather rimmed eyes are here.~
+baykuþun gözleri~
+Baykuþun gözleri~
+Tüylerle bezenmiþ bir çift göz burada dinleniyor.~
 feathers~
 armor GI AE
 28 28 27 24 0
@@ -1806,9 +1809,9 @@ A
 A
 20 -5
 #11822
-staff guarding mithril~
-a staff of guarding~
-A polished mithril staff lies here.~
+mitril koruma asa~
+koruma asasý~
+Kirlenmiþ mitril bir asa burada bekliyor.~
 mithril~
 staff B AO
 100 11 11 'sanctuary' 0
@@ -1816,9 +1819,9 @@ staff B AO
 A
 17 -20
 #11823
-gleaming ((-*-)) circlet treniste~
-a gleaming ((-*-)) circlet~
-An engraved golden circlet gleams here.~
+parlak ((-*-)) taç~
+parlak ((-*-)) taç~
+Oymalý bir altýn taç parlýyor.~
 gold~
 armor AIKL AE
 28 27 29 24 0
@@ -1832,9 +1835,9 @@ A
 A
 19 8
 #11824
-((-*-)) set chain armor treniste~
-a set of ((-*-)) chain armor~
-A set of engraved armor lies here.~
+((-*-)) zýrh~
+((-*-)) zýrh~
+Oymalý bir zýrh burada yatýyor.~
 gold~
 armor IKL AD
 28 25 27 24 0
@@ -1846,9 +1849,9 @@ A
 A
 19 8
 #11825
-white ((-*-)) belt treniste~
-a white ((-*-)) belt~
-A gleaming white belt lies here.~
+beyaz ((-*-)) kemer~
+beyaz ((-*-)) kemer~
+Parlak beyaz bir kemer burada yatýyor.~
 leather~
 armor IKL AL
 28 27 25 24 0
@@ -1862,9 +1865,9 @@ A
 A
 19 7
 #11826
-pair ((-*-)) gauntlets treniste~
-a pair of ((-*-)) gauntlets~
-A pair of engraved gauntlets gleams here.~
+((-*-)) eldiven~
+bir çift ((-*-)) eldiven~
+Oymalý bir çift eldiven parlýyor.~
 gold~
 armor IKL AH
 26 27 27 24 0
@@ -1878,9 +1881,9 @@ A
 A
 19 8
 #11827
-pair ((-*-)) leggings treniste~
-a pair of ((-*-)) leggings~
-A pair of engraved golden leggings lies here.~
+((-*-)) bacaklýk~
+bir çift ((-*-)) bacaklýk~
+Bir çift oymalý bacaklýk burada bekliyor.~
 gold~
 armor IKL AF
 26 27 27 23 0
@@ -1894,9 +1897,9 @@ A
 A
 14 60
 #11828
-white ((-*-)) visor treniste~
-a white ((-*-)) visor~
-A gleaming white visor is here.~
+beyaz ((-*-)) kasket~
+beyaz ((-*-)) kasket~
+Parlak beyaz bir kasket burada bekliyor.~
 gold~
 armor AIKL AE
 26 25 25 23 0
@@ -1910,9 +1913,9 @@ A
 A
 19 7
 #11829
-golden ((-*-)) bracer treniste~
-a golden ((-*-)) bracer~
-An intricately carved golden bracer lies here.~
+altýn ((-*-)) bilek baðý~
+altýn ((-*-)) bilek baðý~
+Karmaþýk oymalarla bezenmiþ bir bilek baðý burada yatýyor.~
 gold~
 armor IKL AM
 28 27 27 24 0
@@ -1926,9 +1929,9 @@ A
 A
 19 7
 #11830
-embroidered ((-*-)) cape treniste~
-an embroidered ((-*-)) cape~
-A beautifully embroidered cape is here.~
+nakýþlý ((-*-)) pelerin~
+nakýþlý ((-*-)) pelerin~
+Güzel nakýþlarla süslenmiþ bir pelerin kývrýlmýþ yatýyor.~
 linen~
 armor IKL AK
 26 25 26 23 0
@@ -1946,9 +1949,9 @@ A
 A
 19 5
 #11831
-ancient tome~
-an ancient tome~
-An ancient tome is here, covered with dust.~
+eski kitap~
+eski kitap~
+Tozla kaplanmýþ eski bir kitap burada yatýyor.~
 parchment~
 staff BFG AO
 85 3 3 'detect hidden' 0
@@ -1956,9 +1959,9 @@ staff BFG AO
 A
 3 4
 #11832
-ornate mask~
-an ornate mask~
-An ornately engraved mask is here.~
+süslü maske~
+süslü maske~
+Süslü bir maske burada yatýyor.~
 wood~
 armor BFI AE
 26 26 26 23 0
@@ -1972,9 +1975,9 @@ A
 A
 19 6
 #11833
-((-*-)) sleeves pair golden treniste~
-some ((-*-)) sleeves~
-A pair of engraved golden sleeves lies here.~
+((-*-)) altýn kolluk~
+bir çift ((-*-)) kolluk~
+Bir çift altýn kolluk burada yatýyor.~
 gold~
 armor IKL AI
 25 26 26 25 0
@@ -1988,9 +1991,9 @@ A
 A
 19 7
 #11834
-gleaming white sword~
-a gleaming white sword~
-A white sword gleams brightly.~
+parlak beyaz kýlýç~
+parlak beyaz kýlýç~
+Beyaz bir kýlýç parlýyor.~
 mithril~
 weapon IK AN
 sword 9 12 cleave 0
@@ -2000,9 +2003,9 @@ A
 A
 19 10
 #11835
-gleaming white shield~
-a gleaming white shield~
-a white shield lies here gleaming.~
+parlak beyaz kalkan~
+parlak beyaz kalkan~
+Beyaz bir kalkan parlýyor.~
 mithril~
 armor IK AJ
 27 27 27 23 0
@@ -2014,17 +2017,17 @@ A
 A
 19 7
 #11836
-deep indigo pill~
-a deep indigo pill~
-A deep indigo pill lies here.~
+derin indigo hapý~
+derin indigo hapý~
+Derin bir indigo hapý burada bekliyor.~
 food~
 pill 0 A
 65 'sanctuary' 'bless' '' ''
 55 10 850 P
 #11837
-jet black ->*<- helm reykaris~
-a jet black  ->*<-  helm~
-An engraved black helm absorbs the light.~
+siyah kehribar ->*<- miðfer~
+siyah kehribar ->*<- miðfer~
+Oymalý siyah bir miðfer ýþýðý emiyor.~
 obsidian~
 armor CJL AE
 28 28 28 24 0
@@ -2038,9 +2041,9 @@ A
 A
 19 8
 #11838
-taloned gloves~
-a pair of taloned gloves~
-A pair of gloves with long, wicked talons lies here.~
+pençeli eldiven~
+bir çift pençeli eldiven~
+Uzun sivri pençeleriyle bir çift eldiven burada býrakýlmýþ.~
 obsidian~
 armor JL AH
 28 25 27 24 0
@@ -2054,9 +2057,9 @@ A
 A
 6 2
 #11839
-->*<- breast plate reykaris~
-a  ->*<-  breast plate~
-A dark breast plate is here.~
+->*<- göðüslük~
+->*<- göðüslük~
+Kara bir göðüslük burada bekliyor.~
 obsidian~
 armor EJL AD
 27 28 28 24 0
@@ -2070,9 +2073,9 @@ A
 A
 19 8
 #11840
-dark ->*<- orb reykaris~
-a dark  ->*<-  orb~
-A dark orb floats here, radiating evil.~
+kara ->*<- küre~
+kara ->*<- küre~
+Kara bir küre þeytanlýk yayarak havada asýlý duruyor.~
 nothingness~
 armor CEJL AQ
 27 26 28 24 0
@@ -2086,9 +2089,9 @@ A
 A
 19 6
 #11841
-->*<- legplates leg plates reykaris~
-some  ->*<-  legplates~
-Some evil looking legplates are here.~
+->*<- bacaklýk~
+bir çift  ->*<-  bacaklýk~
+Þeytani görünümüyle bir çift bacaklýk burada bekliyor.~
 obsidian~
 armor EJLM AF
 27 27 27 23 0
@@ -2102,9 +2105,9 @@ A
 A
 19 7
 #11842
-carved ->*<- ring reykaris~
-a carved  ->*<-  ring~
-A dark ring carved with strange symbols lies here.~
+oymalý ->*<- yüzük~
+oymalý ->*<- yüzük~
+Oymalý kara bir yüzük burada yatýyor.~
 obsidian~
 armor EJLM AB
 16 16 16 13 0
@@ -2118,9 +2121,9 @@ A
 A
 19 8
 #11843
-cloak nightmares black~
-a cloak of nightmares~
-A shadowy black cloak writhes with agony.~
+kabus pelerin~
+kabus pelerini~
+Gölgelerle bezenmiþ bir pelerin acýyla kývranýyor.~
 shadows~
 armor CEFJ AK
 24 23 23 23 0
@@ -2140,9 +2143,9 @@ A
 A
 19 6
 #11844
-ebony ->*<- bracer reykaris~
-an ebony  ->*<-  bracer~
-A carved ebony bracer is here.~
+abanoz ->*<- bileklik~
+abanoz ->*<- bileklik~
+Oymalý bir abanoz bileklik burada bekliyor.~
 ebony~
 armor EJL AM
 27 26 24 24 0
@@ -2154,9 +2157,9 @@ A
 A
 5 5
 #11845
-dark ->*<- necklace reykaris~
-a dark  ->*<-  necklace~
-A dark necklace lies here.~
+kara ->*<- fular~
+kara ->*<- fular~
+Kara bir fular burada yatýyor.~
 obsidian~
 treasure EL AC
 0 0 0 0 0
@@ -2172,9 +2175,9 @@ A
 A
 13 175
 #11846
-humanoid skull~
-a humanoid skull~
-A humanoid skull stares at you with empty sockets.~
+kafatasý~
+kafatasý~
+Ýnsansý bir kafatasý burada býrakýlmýþ.~
 bone~
 treasure E AO
 0 0 0 0 0
@@ -2188,9 +2191,9 @@ A
 A
 19 8
 #11847
-pair obsidian ->*<- boots reykaris~
-a pair of  ->*<-  boots~
-A pair of engraved obsidian boots lies here.~
+aytaþý ->*<- çizme~
+bir çift  ->*<-  çizme~
+Oymalý bir çift çizme burada yatýyor.~
 obsidian~
 armor EJL AG
 23 23 22 22 0
@@ -2202,9 +2205,9 @@ A
 A
 13 75
 #11848
-tempered silver throwing dagger~
-a tempered throwing dagger~
-A silver dagger with a sharply tempered edge gleams wickedly.~
+tavlanmýþ gümüþ hançer fýrlatma~
+tavlanmýþ fýrlatma hançeri~
+Tavlanmýþ gümüþ bir hançer burada bekliyor.~
 silver~
 weapon CE AN
 dagger 9 11 pierce DH
@@ -2214,9 +2217,9 @@ A
 A
 19 10
 #11849
-->*<- sleeves obsidian reykaris~
-some  ->*<-  sleeves~
-Some carved obsidian sleeves are here.~
+->*<- kolluk~
+bir çift  ->*<-  kolluk~
+Oymalý bir çift kolluk burada bekliyor.~
 obsidian~
 armor EJL AI
 29 29 29 23 0
@@ -2230,9 +2233,9 @@ A
 A
 19 9
 #11850
-black collar runes runed leather~
-a black runed collar~
-A black leather collar engraved with shimmering runes lies here.~
+kara tasma rünlü deri~
+kara rünlü tasma~
+Rünlerle bezenmiþ siyah deriden bir tasma burada býrakýlmýþ.~
 leather~
 armor BEGHM AC
 27 27 27 22 0
@@ -2257,9 +2260,9 @@ The runes are in no language that you recognize.  As you gaze at them,
 they shimmer, and you feel the urge to wear this collar..
 ~
 #11851
-demon's wings demon black~
-demon's wings~
-A pair of membranous black wings lie here.~
+þeytan kanatlarý kara~
+þeytan kanatlarý~
+Bir çift kara kanat burada yatýyor.~
 leather~
 armor BE AI
 29 29 27 26 0
@@ -2281,9 +2284,9 @@ A
 A
 19 6
 #11852
-onyx -=+)> earring myrxes~
-an onyx -=+)> earring~
-An earring of polished onyx glimmers in the shadows.~
+akik -=+)> küpe~
+akik -=+)> küpe~
+Akikten bir küpe gölgenin içinde parlýyor.~
 stone~
 armor CFI AE
 25 25 25 21 0
@@ -2303,9 +2306,9 @@ Below the Myrxes crest is the inscription:
                    Myr'vale Myxes Jaena Deia
 ~
 #11853
-dark -=+)> gloves myrxes~
-some dark -=+)> gloves~
-A pair of dark gloves absorbs the light.~
+kara -=+)> eldiven~
+bir çift kara -=+)> eldiven~
+Bir çift kara eldiven ýþýðý emiyor.~
 leather~
 armor CFI AH
 25 26 26 21 0
@@ -2319,9 +2322,9 @@ A
 A
 19 6
 #11854
-sharpened stiletto sharp~
-a sharpened stiletto~
-A wickedly sharp stiletto gleams here.~
+sivriltilmiþ hançer~
+sivriltilmiþ hançer~
+Oldukça keskin bir hançer parlýyor.~
 silver~
 weapon CIH AN
 dagger 10 11 pierce DH
@@ -2331,9 +2334,9 @@ A
 A
 19 15
 #11855
-invisible flame~
-an invisible flame~
-An invisible flame burns silently.~
+görünmez alev~
+görünmez alev~
+Görünmez bir alev sessizce yanýyor.~
 fire~
 light CF A
 0 0 -1 0 0
@@ -2345,9 +2348,9 @@ A
 A
 19 7
 #11856
-pair -=+)> sleeves myrxes~
-a pair of -=+)> sleeves~
-Dark sleeves disappear in the shadows.~
+-=+)> kolluk~
+bir çift -=+)> kolluk~
+Bir çift kara kolluk gölgenin içinde kayboluyor.~
 leather~
 armor CFI AI
 26 26 26 21 0
@@ -2361,9 +2364,9 @@ A
 A
 19 6
 #11857
-engraved platinum ][+][ ring xaek~
-an engraved platinum ][+][ ring~
-An engraved platinum ring lies here.~
+oymalý platin ][+][ yüzük~
+oymalý platin ][+][ yüzük~
+Oymalý platin bir yüzük burada yatýyor.~
 platinum~
 armor G AB
 23 23 20 19 0
@@ -2377,9 +2380,9 @@ A
 A
 19 7
 #11858
--=+)> shroud shadows myrxes~
-a -=+)> shroud~
-Deep shadows absorb the light.~
+-=+)> kefen gölge derin~
+-=+)> kefen~
+Derin gölgeler ýþýðý emiyor.~
 shadow~
 armor CFI AK
 25 25 24 20 0
@@ -2391,9 +2394,9 @@ A
 A
 19 7
 #11859
-black slim -=+)> bracer myrxes~
-a slim -=+)> bracer~
-A slender black bracer gleams darkly.~
+ince kara -=+)> ince-kara bileklik~
+ince-kara -=+)> bileklik~
+Kara bir bileklik þeytanca parlýyor.~
 stone~
 armor CFI AM
 23 21 24 20 0
@@ -2407,9 +2410,9 @@ A
 A
 19 6
 #11860
-shadowy -=+)> neckchain neck chain myrxes~
-a shadowy -=+)> neckchain~
-A dark neckchain is here, shrouded in shadow.~
+gölge -=+)> kolye~
+gölge -=+)> kolye~
+Kara bir kolye gölgelerle kaplanmýþ.~
 adamantite~
 armor CFI AC
 24 24 24 20 0
@@ -2423,9 +2426,9 @@ A
 A
 19 6
 #11861
-black -=+)> leggings leather pair myrxes~
-a pair of black -=+)> leggings~
-A pair of black leather leggings lies here in a pool of shadow.~
+kara -=+)> bacaklýk deri~
+bir çift kara -=+)> bacaklýk~
+Deriden bir çift kara bacaklýk gölge havuzunun içinde yüzüyor.~
 leather~
 armor CFI AF
 24 25 25 21 0
@@ -2439,9 +2442,9 @@ A
 A
 19 6
 #11862
-silent -=+)> boots myrxes~
-silent -=+)> boots~
-Some silent looking boots lie here.~
+sessiz -=+)> çizme~
+bir çift sessiz -=+)> çizme~
+Sessiz görünüþlü bir çift çizme burada bekliyor.~
 leather~
 armor CFI AG
 25 24 25 20 0
@@ -2453,9 +2456,9 @@ A
 A
 19 6
 #11863
-hair ring panther black~
-a ring of the panther~
-A ring of black panther hair gleams darkly.~
+panter yüzük kara~
+panter yüzüðü~
+Kara pantere ait bir yüzük þeytanca parlýyor.~
 fur~
 armor CFI AB
 24 24 23 20 0
@@ -2469,9 +2472,9 @@ A
 A
 19 6
 #11864
-black -=+)> belt myrxes~
-a black -=+)> belt~
-An engraved black belt lies here.~
+kara -=+)> kemer~
+kara -=+)> kemer~
+Oymalý kara bir kemer burada bekliyor.~
 leather~
 armor CFI AL
 20 21 20 20 0
@@ -2485,9 +2488,9 @@ A
 A
 13 -200
 #11865
-ring lynx~
-a ring of the lynx~
-A darkly beautiful ring lies here.~
+vaþak yüzük~
+vaþak yüzüðü~
+Güzel bir vaþak yüzüðü burada yatýyor.~
 fur~
 armor CFGI AB
 10 11 11 10 0
@@ -2501,9 +2504,9 @@ A
 A
 19 5
 #11866
-night hawk talons~
-night hawk talons~
-The sharp talons of a hawk gleam cruelly in the darkness.~
+gece atmaca pençeler~
+gece atmacasý pençeleri~
+Gece atmacasýna ait pençeler karanlýkta ilerliyor.~
 bone~
 armor CFI AH
 24 24 24 20 0
@@ -2517,9 +2520,9 @@ A
 A
 19 7
 #11867
-hunter's hunters hunter arrow mithril~
-a hunter's arrow~
-A sharp mithril arrow gleams here.~
+avcý mitril oku~
+avcýnýn oku~
+Mitrilden yapýlmýþ sivri bir ok parlýyor.~
 mithril~
 weapon A AN
 spear 7 12 pierce E
@@ -2529,9 +2532,9 @@ A
 A
 19 10
 #11868
-set ][+][ platemail plate mail xaek~
-a set of ][+][ platemail~
-A set of engraved platemail is here.~
+][+][ zýrh oymalý~
+oymalý ][+][ zýrh~
+Oymalý bir zýrh burada býrakýlmýþ.~
 adamantite~
 armor 0 AD
 26 26 26 20 0
@@ -2541,9 +2544,9 @@ A
 A
 19 7
 #11869
-bracer power~
-a bracer of power~
-A bracer lies here, humming with power.~
+güç bileklik~
+güç bilekliði~
+Bir bileklik burada, güçle parlýyor.~
 adamantite~
 armor B AM
 26 26 26 20 0
@@ -2559,9 +2562,9 @@ A
 A
 13 150
 #11870
-][+][ shield xaek~
-a ][+][ shield~
-An engraved shield is here.~
+oymalý ][+][ kalkan~
+oymalý ][+][ kalkan~
+Oymalý bir kalkan burada býrakýlmýþ.~
 adamantite~
 armor 0 AJ
 25 26 25 21 0
@@ -2573,9 +2576,9 @@ A
 A
 19 7
 #11871
-grey ][+][ legplates leg plates xaek~
-some grey ][+][ legplates~
-A pair of strong grey legplates are here.~
+gri ][+][ bacaklýk~
+bir çift gri ][+][ bacaklýk~
+Bir çift gri bacaklýk burada býrakýlmýþ.~
 platinum~
 armor 0 AF
 25 25 25 20 0
@@ -2589,9 +2592,9 @@ A
 A
 19 6
 #11872
-][+][ helm xaek~
-a ][+][ helm~
-A sturdy helm lies here.~
+saðlam ][+][ miðfer~
+saðlam ][+][ miðfer~
+Saðlam bir miðfer burada býrakýlmýþ.~
 adamantite~
 armor 0 AE
 23 24 23 19 0
@@ -2605,9 +2608,9 @@ A
 A
 19 4
 #11873
-engraved ][+][ crest xaek~
-an engraved ][+][ crest~
-The crest of house Xaek is here, gleaming.~
+oymalý ][+][ ibik~
+oymalý ][+][ ibik~
+Oymalý bir ibik parlýyor.~
 platinum~
 armor 0 AO
 22 22 23 19 0
@@ -2619,9 +2622,9 @@ A
 A
 19 5
 #11874
-][+][ armplates arm plates xaek~
-strong ][+][ armplates~
-Some strong looking armplates are here.~
+güçlü ][+][ kolluk~
+bir çift güçlü ][+][ kolluk~
+Bir çift güçlü kolluk burada bekliyor.~
 adamantite~
 armor 0 AI
 24 24 24 20 0
@@ -2635,9 +2638,9 @@ A
 A
 19 7
 #11875
-balanced adamantite longsword long sword~
-a finely balance adamantite longsword~
-An adamantite longsword of superb craftsmanship gleams here.~
+adamant dengeli uzunkýlýç~
+dengeli adamant uzunkýlýç~
+Adamanttan yapýlmýþ bir uzunkýlýç parlýyor.~
 adamantite~
 weapon AI AN
 sword 10 8 cleave D
@@ -2647,9 +2650,9 @@ A
 A
 19 12
 #11876
-silver carven -(+)- signet ring noriva~
-a carven -(+)- signet ring~
-A beautiful silver signet ring lies here.~
+oymalý gümüþ -(+)- mühürlü yüzük~
+oymalý -(+)- mühürlü yüzük~
+Gümüþten bir yüzük burada yatýyor.~
 silver~
 armor AI AB
 25 25 25 21 0
@@ -2663,9 +2666,9 @@ A
 A
 13 75
 #11877
-niobium -(+)- circlet noriva~
-a niobium -(+)- circlet~
-A beautiful niobium circlet lies here.~
+nobiyum -(+)- taç~
+nobiyum -(+)- tacý~
+Güzel bir taç burada yatýyor.~
 silver~
 armor AI AE
 25 25 25 21 0
@@ -2677,9 +2680,9 @@ A
 A
 18 5
 #11878
-light shimmering -(+)- sphere noriva~
-a shimmering -(+)- sphere~
-A sphere of shimmering light floats here.~
+parlayan -(+)- küre~
+parlayan -(+)- küre~
+Parlayan bir küre havada asýlý duruyor.~
 light~
 armor ABI AQ
 25 25 26 21 0
@@ -2693,9 +2696,9 @@ A
 A
 18 10
 #11879
-inlaid silver -(+)- bracelet noriva~
-an inlaid silver -(+)- bracelet~
-A silver bracelet inlaid with gold is here.~
+iþlemeli gümüþ -(+)- bileklik~
+iþlemeli gümüþ -(+)- bileklik~
+Ýþlemeli gümüþ bir bileklik burada býrakýlmýþ.~
 silver~
 armor AI AM
 24 24 24 20 0
@@ -2709,9 +2712,9 @@ A
 A
 13 100
 #11880
--(+)- girth noriva~
-a beautiful -(+)- girth~
-A beautifully engraved girth lies here.~
+-(+)- kuþak oymalý güzel~
+-(+)- kuþak~
+Oymalý güzel bir kuþak burada býrakýlmýþ.~
 silver~
 armor AI AL
 23 23 22 19 0
@@ -2725,9 +2728,9 @@ A
 A
 18 12
 #11881
-pair -(+)- sleeves noriva~
-a pair of -(+)- sleeves~
-Some gleaming sleeves lie here.~
+-(+)- kolluk~
+bir çift -(+)- kolluk~
+Bir çift kolluk parlýyor.~
 silver~
 armor AI AI
 23 22 22 19 0
@@ -2739,9 +2742,9 @@ A
 A
 19 5
 #11882
-pair -(+)- gloves noriva~
-some finely crafted -(+)- gloves~
-A pair of finely crafted gloves lies here.~
+iþlemeli -(+)- eldiven~
+bir çift iþlemeli -(+)- eldiven~
+Bir çift eldiven burada býrakýlmýþ.~
 leather~
 armor I AH
 20 20 20 20 0
@@ -2755,9 +2758,9 @@ A
 A
 18 9
 #11883
-filligree -(+)- necklace noriva~
-a filligree -(+)- necklace~
-A beautiful filligree necklace bearing the crest of myr'vale Noriva is here.~
+iþlemeli -(+)- kolye~
+iþlemeli -(+)- kolye~
+Ýþlemeli bir kolye burada býrakýlmýþ.~
 silver~
 armor AI AC
 22 22 22 19 0
@@ -2769,9 +2772,9 @@ A
 A
 5 4
 #11884
-tooled -(+)- boots noriva~
-some tooled -(+)- boots~
-Some intricately tooled boots stand here.~
+iþlemeli -(+)- çizme~
+bir çift iþlemeli -(+)- çizme~
+Bir çift iþlemeli çizme burada bekliyor.~
 leather~
 armor I AG
 19 19 19 19 0
@@ -2785,9 +2788,9 @@ A
 A
 19 4
 #11885
-laerkai fury rage~
-laerkai fury~
-A feeling of rage pulses here.~
+korkunç layerkayi öfke~
+Layerkayi'nin öfkesi~
+Öfkeyi hissediyorsun!~
 fire~
 armor AI AQ
 29 29 29 26 0
@@ -2799,9 +2802,9 @@ A
 A
 19 6
 #11886
-laerkai justice shield~
-laerkai justice~
-A finely crafted shield is here.~
+layerkayi adalet kalkan iþlemeli~
+Layerkayi'nin adaleti~
+Ýþlemeli bir kalkan burada bekliyor.~
 mithril~
 armor AI AJ
 29 29 29 26 0
@@ -2815,9 +2818,9 @@ A
 A
 20 -15
 #11887
-laerkai pain~
-laerkai pain~
-A wave of pain slams into you!~
+layerkayi acý~
+Layerkayi'nin acýsý~
+Bir acý dalgasý içine iþliyor!~
 nothingness~
 armor BI AH
 40 40 39 26 0
@@ -2833,9 +2836,9 @@ A
 A
 19 20
 #11888
-shadows laerkai stealth~
-laerkai stealth~
-The shadows are deep here.~
+gölge gizi layerkayi~
+Layerkayi'nin gizi~
+Gölgeler ne kadar da derin!~
 shadows~
 armor CI AG
 29 29 28 26 0
@@ -2849,9 +2852,9 @@ A
 F
 A 0 0 P
 #11889
-laerkai might platemail plate mail~
-laerkai might~
-A set of powerful looking platemail is here, humming.~
+layerkayi kudreti zýrh~
+Layerkayi'nin kudreti~
+Güçlü görünümlü bir zýrh burada býrakýlmýþ.~
 mithril~
 armor BI AD
 28 28 30 26 0
@@ -2863,9 +2866,9 @@ A
 A
 19 10
 #11890
-laerkai life health aura~
-laerkai life~
-An aura of health permeates the room.~
+layerkayi yaþam aura~
+Layerkayi'nin yaþamý~
+Bir yaþam aurasý odayý sarýyor.~
 etherealness~
 armor AI AC
 29 29 30 26 0
@@ -2877,9 +2880,9 @@ A
 A
 18 15
 #11891
-laerkai power presense~
-laerkai power~
-A presense of tremendous power is here.~
+layerkayi güç~
+Layerkayi'nin gücü~
+Yoðun bir güç odayý titretiyor.~
 nothingness~
 armor BI AM
 40 40 40 26 0
@@ -2915,9 +2918,9 @@ skull:
 	       D'lan Treviki Drakyri Laerkai
 ~
 #11892
-honed shortsword zedraikis~
-a honed shortsword 'Zedraikis'~
-A finely honed shortsword gleams wickedly.~
+kýlýç zedrayikis bilenmiþ~
+'Zedrayikis' adýnda kýlýç~
+Bilenmiþ bir kýlýç burada býrakýlmýþ.~
 mithril~
 weapon BCI AN
 sword 12 10 pierce ADH
@@ -2937,9 +2940,9 @@ hilt.  An inscription in the face of the blade reads:
               And Zedraikis' wrath!
 ~
 #11893
-flame balance silver~
-flame of balance~
-A shimmering silver flame hovers here.~
+alevi denge gümüþ~
+denge alevi~
+Parlak gümüþ bir alev yanýyor.~
 fire~
 light AFIJK A
 0 0 -1 0 0
@@ -2969,9 +2972,9 @@ flame balance silver~
 The flame flickers blindingly, and you are forced to look away.
 ~
 #11894
-drakyri arm guards pair silvery~
-drakyri arm guards~
-A pair of silvery arm guards gleam here.~
+drakiri kolluk gümüþ~
+bir çift drakiri kolluðu~
+Bir çift gümüþ kolluk parlýyor.~
 mithril~
 armor A AI
 20 20 21 16 0
@@ -2983,9 +2986,9 @@ A
 A
 19 5
 #11895
-drakyri girth silvery~
-a drakyri girth~
-A gleaming silvery girth is here.~
+drakiri gümüþ kuþak~
+drakiri kuþaðý~
+Gümüþ bir kuþak parlýyor.~
 mithril~
 armor AI AL
 21 20 20 16 0
@@ -2997,9 +3000,9 @@ A
 A
 19 5
 #11896
-drakyri wrist guard~
-a drakyri wrist guard~
-A mithril wrist guard gleams here.~
+drakiri bileklik mitril~
+drakiri bilekliði~
+Mitril bir bileklik parlýyor.~
 mithril~
 armor AI AM
 20 21 21 16 0
@@ -3013,9 +3016,9 @@ A
 A
 19 5
 #11897
-drakyri dagger mithril~
-a drakyri dagger~
-A sharp mithril dagger lies here.~
+drakiri hançer mitril~
+drakiri hançeri~
+Mitrilden yapýlmýþ keskin bir hançer burada bekliyor.~
 mithril~
 weapon AI AN
 dagger 8 8 pierce 0
@@ -3027,25 +3030,25 @@ A
 A
 19 5
 #11898
-green greenish energy pill~
-an energy pill~
-A greenish pill is here, humming with energy.~
+yeþil enerji hapý~
+enerji hapý~
+Yeþil bir hap enerjiyle parlýyor.~
 food~
 pill B A
 65 'haste' 'enhanced armor' '' ''
 55 10 500 P
 #11899
-warp pill~
-a warp pill~
-A mysterious looking pill lies here.~
+yumuþak hap~
+yumuþak hap~
+Garip görünüþlü bir hap burada bekliyor.~
 food~
 pill B A
 61 'teleport' 'curse' 'heal' 'invisibility'
 55 10 9300 P
 #11900
-drakyri bow adamantite~
-an adamantite bow~
-A huge adamantite bow sits towards to wall.~
+yay adamant~
+adamant yay~
+Büyük adamant bir yay duvara dayanmýþ dinleniyor.~
 adamantite~
 weapon B AN
 bow 10 9 pierce 0
@@ -3055,9 +3058,9 @@ A
 A
 18 10
 #11901
-drakyri adamantite lance~
-a drakyri adamantite lance~
-There is a huge adamantite lance sits towards the wall.~
+drakiri adamant mýzrak~
+drakiri adamant mýzrak~
+Büyük bir mýzrak duvara dayanmýþ dinleniyor.~
 adamantite~
 weapon Y AN
 lance 10 9 crush DF
@@ -3065,9 +3068,9 @@ lance 10 9 crush DF
 A
 19 24
 #11902
-drakyri white arrow adamantite~
-a white adamantite arrow~
-A long adamantite arrow sits towards to wall.~
+beyaz ok adamant~
+beyaz adamant ok~
+Uzun beyaz bir ok duvara dayanmýþ dinleniyor.~
 adamantite~
 weapon B AN
 arrow 9 10 blast D
@@ -3077,9 +3080,9 @@ A
 A
 18 7
 #11903
-drakyri arrow adamantite~
-an adamantite arrow~
-A long adamantite arrow sits towards to wall.~
+adamant ok~
+adamant ok~
+Uzun bir ok duvara dayanmýþ dinleniyor.~
 adamantite~
 weapon B AN
 arrow 9 9 blast 0
@@ -3089,9 +3092,9 @@ A
 A
 18 7
 #11904
-drakyri stealth bow~
-a stealth bow~
-A dark stealth bow sits on the floor.~
+giz yayý kara~
+giz yayý~
+Kara bir yay yerde oturuyor.~
 iron~
 weapon B AN
 bow 10 11 pierce 0
@@ -3101,9 +3104,9 @@ A
 A
 18 18
 #11905
-drakyri dark arrow adamantite~
-a dark adamantite arrow~
-A shadowy long stick sits towards to wall.~
+kara adamant ok çubuk~
+kara adamant ok~
+Gölge kadar karanlýk bir çubuk duvara dayanmýþ dinleniyor.~
 iron~
 weapon B AN
 arrow 10 11 blast D
@@ -3159,17 +3162,17 @@ Drakyri Isle written by Ydri,  4/96.
 ~
 S
 #11802
-Silvery Gates~
-You find yourself on a dirt path before a tall gateway.  The double
-gates gleam silvery blue in the light, formed of fine bars of mithril
-interwoven into an intricate, twisting pattern.  Though the bars are
-spaced widely apart in places, you can't seem to see what lays beyond.
+Gümüþ Kapýlar~
+Kendini yüksek bir kapýnýn önündeki bir patikada buldun. En iyi mithril
+barlarla bükülerek örülmüþ Kapýlar ýþýk altýnda mavi,gümüþi bir parýltýyla
+parlýyorlar.  Barlar geniþçe birbirinden ayrýk dursa da arkasýnda ne olduðunu
+göremiyorsun.
 ~
 0 0 1
 D1
-As you glance at the gates, the pattern seems to writhe and shift.
+Kapýlara göz attýðýnda,materyali kývranarak deðiþiyormuþ gibi geliyor.
 ~
-gates double mithril silvery~
+ikili mitril kapýlar~
 1 -1 11803
 D5
 Strange grow.
@@ -3177,110 +3180,107 @@ Strange grow.
 ~
 0 -1 11801
 E
-gates mithril silvery~
-As you glance at the gates, the pattern seems to writhe and shift.
+Mitril kapýlar~
+Kapýlara göz attýðýnda,materyali kývranarak deðiþiyormuþ gibi geliyor.
 ~
 S
 #11803
-Shimmering Pathway~
-Strands of some strange, silvery substance glimmer beneath your feet,
-interwoven to form a wide east-west pathway framed by tall trees.
-Narrower paths branch off to the north and south, and the pathway
-continues east.
+Parýldayan patika~
+Ayaklarýnýn altýndaki toprak garip,donuk bir ýþýkla parýldarken patika
+doðu-batý doðrultusunda sýk aðaçlarla yönlendiriliyor. Daha dar patikalar
+kuzey ve güneye doðru ilerliyor,ayrýca patika doðuya devam ediyor.
 ~
 0 0 1
 D0
-A narrow path winds northward through the trees.
+Dar bir patika kuzeye doðru açýlýyor.
 ~
 ~
 0 -1 11804
 D1
-The pathway continues east.
+Patika doðuya devam ediyor.
 ~
 ~
 0 -1 11808
 D2
-A narrow path winds southward through the trees.
+Dar bir patika güneye doðru açýlýyor.
 ~
 ~
 0 -1 11807
 D3
-The pathway ends at tall silvery gates to the west.
+Patika batýda yüksek gümüþi kapýlarla son buluyor.
 ~
-gates double mithril silvery~
+ikili mitril kapýlar~
 1 -1 11802
 S
 #11804
-Winding path~
-You stand on a narrow path of silver strands which winds east and south
-here through the trees.  A large house is visible in the distance to
-the north.
+Patika sapaðý~
+Güneye ve doðuya ilerleyen gümüþ kýyýlý dar bir patikadasýn.
+Kuzey yönünde büyük bir ev seçilebiliyor.
 ~
 0 0 3
 D1
-The path continues east.
+Patika doðuya devam ediyor.
 ~
 ~
 0 -1 11805
 D2
-The path intersects a larger pathway to the south.
+Patika güneyde baþka bir yolla kesiþiyor.
 ~
 ~
 0 -1 11803
 S
 #11805
-Winding path~
-The path bends north and west here.  A large blue house is visible
-in the distance to the north.
+Patika Sapaðý~
+Patika burada doðu ve kuzey olmak üzere iki yöne devam ediyor.
+Kuzeyde uzak mesafede mavi bir ev gözüne çarpýyor.
 ~
 0 0 3
 D0
-The path continues north.
+Patika kuzeye devam ediyor.
 ~
 ~
 0 -1 11806
 D3
-The path continues west.
+Patika batýya doðru gidiyor.
 ~
 ~
 0 -1 11804
 S
 #11806
-Large clearing~
-The path expands here to form a large clearing framed by trees.  The
-ground remains the interwoven silvery strands which formed the
-pathway to the south.  A blue courtyard is visible a short distance
-off the clearing to the north, and a tall white oak door leads into a
-large white house to the west.
+Geniþ açýklýk~
+Patika burada aðaçlarla çevrelenmiþ geniþ bir açýklýða dönüþüyor. Toprak
+güneye doðru bir patikayý iþaretleyen gümüþi parlaklýðýný kaybetmiyor.
+Kuzeyde, açýklýktan az uzakta, mavi bir avlu görülüyor ayný zamanda yüksek
+beyaz meþe bir kapý da batýdaki beyaz evin içine doðru olan yolun önündeki
+tek engel.
 ~
 0 0 3
 D0
-A blue stone courtyard is visible to the north.
+Kuzeyde mavi bir avlu görülüyor.
 ~
 ~
 0 -1 11819
 D2
-A narrow path winds through the trees to the south.
+Dar bir patika güneye doðru aðaçlarýn arasýnda kayboluyor.
 ~
 ~
 0 -1 11805
 D3
-A white oak door enters the house to the west.  Above the door is
-an inscription in gold inlay:
+Batýda evin giriþi olan beyaz meþe kapý var. Kapýnýn üstünde altýn kakma
+yazýlar var:
 
                  - She'vale Treniste -
 
-                        ((-*-))
+                        {Y((-*-)){x
 ~
-door white oak~
+beyaz meþe kapý~
 1 -1 11836
 S
 #11807
-Winding path~
-You stand on a narrow path formed of interwoven strands of some
-strange silvery material.  To the south, a bronze door leads into
-a house which appears to be made entirely of jade.  A gold inscription
-glimmers above the doorway.
+Patika Sapaðý~
+Gümüþi materyal ile parýldayan dar bir patikadasýn. Güneyde, bronz bir kapý
+tamamen yeþimden yapýlma bir evin içine gidiyor. Altýn bir yazýt kapýnýn
+üstünde donuk bir biçimde parýldýyor.
 ~
 0 0 3
 D0
@@ -3289,133 +3289,131 @@ The path leads north to a larger pathway.
 ~
 0 -1 11803
 D2
-A bronze door leads into the jade house to the south.  Lettered in
-gold above the doorway is the inscription:
+Güneydeki yeþim evin dýþ kapýsý.  Kapýnýn üstünde þu harfler iþlenmiþ:
 
                   - Myr'vale Noriva -
 
-                         -(+)-
+                         {G-(+)-{x
 ~
-door bronze~
+bronz kapý~
 1 -1 11890
 E
-inscription gold~
-The inscription reads:
+Altýn yazýt~
+Yazýtta yazýyor ki:
 
                   - Myr'vale Noriva -
 
-                         -(+)-
+                         {G-(+)-{x
 ~
 S
 #11808
-Shimmering pathway~
-You stand on a shimmering pathway formed of strange interwoven silvery
-strands.  The pathway continues east and west, framed by tall trees.
+Parýldayan Patika~
+Gümüþi materyal ile parýldayan dar bir patikadasýn. Aðaçlarla çevrelenmiþ
+patika doðuya ve batýya devam ediyor
 ~
 0 0 3
 D1
-The pathway continues east.
+Patika doðuya devam ediyor.
 ~
 ~
 0 -1 11809
 D3
-The pathway continues west.
+Patika batýya devam ediyor.
 ~
 ~
 0 -1 11803
 S
 #11809
-Shimmering pathway~
-A narrow path branches off to the south.  Through the trees, you can
-make out the forms of large houses.  A particularly large tree towers
-over the pathway to the north.  
+Parýldayan Patika~
+Dar bir patika kolu güneye açýlýyor.  Aðaçlarýn arasýndan küçük ev þekilleri
+görebiliyorsun. Diðerlerinden daha büyük bir aðaç kuzeye olan patikanýn üstünde
+yükseliyor.
 ~
 0 0 3
 D0
-A large tree towers over the northern edge of the pathway.  The faint
-outline of a doorway is barely visible in the craggy bark.
+Patikanýn kuzey sýnýrýnda büyük bir aðaç yükseliyor. Bir kapýnýn silueti pütürlü
+kabukta zor belli oluyor.
 ~
-tree~
+aðaç~
 1 -1 11817
 D1
-The pathway continues east.
+Patika doðuya devam ediyor.
 ~
 ~
 0 -1 11813
 D2
-A narrow path winds southward.
+Güneye doðru dar bir patika yollanýyor.
 ~
 ~
 0 -1 11810
 D3
-The pathway continues west.
+Patika batýya devam ediyor.
 ~
 ~
 0 -1 11808
 S
 #11810
-Narrow path~
-Interwoven silvery strands form a narrow north-south path between the
-trees.  Tall wrought iron gates stand to the west of the path,
-opening onto a granite courtyard.  The path continues south.
+Dar Patika~
+Kuzey güney doðrultusunda gümüþi parýldýyla örülmüþ bir patika aðaçlarýn
+arasýnda gözüküyor.  Yüksek kývrýlan demir kapýlar patikanýn batýsýnda
+duruyor, granit bir avluya açýlýyor.  Patika güneye devam ediyor.
 ~
 0 0 3
 D0
-The path intersects a wider pathway to the north.
+Patika kuzeyde daha geniþ bir patikayla kesiþiyor.
 ~
 ~
 0 -1 11809
 D2
-The path continues south.
+Patika güneye devam ediyor.
 ~
 ~
 0 -1 11811
 D3
-A huge granite courtyard leading to a huge grey house is visible
-through the iron gates to the west.  Engraved in iron at the apex
-of the gateway is the inscription:
+Devasa gri bir evin önündeki devasa gri bir avlu batýdaki demir kapýlarýn
+ardýnda görülüyor. Kapýnýn tepesinde kazýnmýþ bazý yazýlar görüyorsun:
 
-                       Myr'vale Xaek   ][+][
+                       Myr'vale Xaek   {w][+][{x
 ~
-gates wrought iron~
+kývrýlan demir kapýlar~
 1 -1 11880
 S
 #11811
-End of the narrow path~
-A short walkway leads east off the path to a set of towering black
-gates.  The path leads back northward.
+Dar patikanýn sonu~
+Kasý bir yürüyüþyolu patikanýn doðusunda yükselen kara kapýlarla birleþiyor.
+Patika kuzeye doðru devam ediyor.
 ~
 0 0 3
 D0
-The path continues north.
+Patika kuzeye devam ediyor.
 ~
 ~
 0 -1 11810
 D1
-Huge black gates are visible to the east.
+Devasa kara kapýlar doðuda görülüyor.
 ~
 ~
 0 -1 11853
 S
 #11812
-Outside of space~
-A wave of vertigo washes over you as you gaze around what appears to
-be a formless multicolored void.  A variety of strange objects float
-around you, enticingly near, yet somehow unreachable.  Before you,
-A black counter hangs in midair.
+Uzayýn dýþý~
+Formsuz çok renkli boþluktaki herhangi bir þeye odaklanmaya çalýþýnca
+baþdönmesi dalgasý sana çarparak dikkatini daðýtýyor. Deðiþik türde
+objeler etrafýnda havada yüzüyor,seni ayartmaya çalýþýyorlar fakat
+ulaþýlmazlar. Arkanda simsiyah bir sayaç yarýhavada asýlý duruyor.
 ~
 0 D 0
 D5
-A rope ladder descends to the pathway below.
+Bir ip merdiven aþaðýdaki patikaya iniyor.
 ~
 ~
 0 -1 11813
 S
 #11813
-Shimmering pathway~
-The pathway continues east and west here.  A strange rope ladder,
-formed of the same material as the pathway, hangs suspended above the
-road, apparently without support.
+Parýldayan Patika~
+Patika buradan doðuya ve batýya açýlýyor. Patikayla ayný maddeden yapýlma
+gibi görünen bir ip merdiven patikanýn üstünde havada asýlý duruyor,görünüþe
+göre tutunduðu bir yer de yok.
 ~
 0 0 3
 D1
@@ -3429,1605 +3427,1576 @@ The pathway continues west.
 ~
 0 -1 11809
 D4
-A strange ladder dangles here, apparently without support.
+Garip bir ip merdiven burada sarkýyor,görünüþe göre tutunduðu
+bir desteði de yok.
 ~
 ~
 0 -1 11812
 S
 #11814
-Before the Grey Tower~
-The pathway ends here at a tall grey tower.  Through the open doorway,
-you see marble steps leading up into the tower center.
+Gri Kulenin Önünde~
+Patika burada yüksek gri bir kulede sona eriyor. Açýk kapýdan kulenin
+merkezine giden mermer merdivenler görülüyor.
 ~
 0 0 3
 D3
-The pathway continues west.
+Patika batýya devam ediyor.
 ~
 ~
 0 -1 11813
 D4
-Marble steps ascend into the tower.
+Mermer merdivenler kuleye týrmanýyor.
 ~
 ~
 0 -1 11815
 S
 #11815
-Chamber of the Guardian~
-Dim torchlight permeates the chamber, filling it with a strange greyish
-glow.  The walls, formed of something akin to marble seem impossible
-smooth.  Strangely, you can find no seams in the material, as if the
-entire tower were carved of a single block of stone.  Marble steps
-lead up to double silver doors.
+Gardiyanýn Bölümü~
+Soluk meþale ýþýðý odaya sýzýyor,onu garip gri bir parlaklýkla dolduruyor.
+Mermere benzer bir maddeden yapýlma duvarlar zedelenmesi imkansýz görünüyor.
+Ýlginçtir ki duvarlarda hiç ek yeri göremiyorsun, sanki tüm kule tek parça
+taþtan oluþmuþ. Mermer merdivenler yukarýdaki ikili kapýlara çýkýyor.
 ~
 0 D 0
 D4
-Double silver doors are set into the wall above, fitting seemlessly as
-if carved there.
+Duvara monte edilmiþ ikili gümüþ kapýlar oraya kazýnmýþ gibi duruyorlar.
 ~
-doors double silver~
+ikili gümüþ kapýlar~
 2 11805 11816
 D5
-The marble staircase descends.
+Mermer merdiven aþaðýya iniyor.
 ~
 ~
 0 -1 11814
 S
 #11816
-Council Chamber~
-You find yourself in a wide circular chamber carved of the same strange
-grey stone as the rest of the tower.  A large crescent shaped table
-dominates the center of the room.  Twelve chairs line the outer edge
-of the crescent, and a single larger chair rests at the center of the
-inner edge.  The crests of each of the six drakyri houses are engraved
-in two outer chairs each.  The inner chair is engraved with a depiction
-of a circle bisected by a cross.
+Konsey Odasý~
+Kendini kulenin gerisi gibi gri taþlardan yapýlma geniþ dairesel bir odada
+buldun.  Hilal þekilli bir masa odanýn ortasýna egemen. Hilalin dýþýnda oniki
+tane sandalye, iç tarafýnda ise tek bir büyük sandalye bulunuyor. Altý Drakyri
+evinin sancaðý dýþtaki sandalyelere ikili ikili kazýnmýþ durumda.  Ýçteki
+sandalyenin üstü kazýmalarla iki eþit parçaya bölünen bir hilal ile betinmlenmiþ
+durumda.
 ~
 0 D 0
 D5
-Double silver doors open onto a descending marble stairwell.
+Ýkili gümüþ kapýlar aþaðýya inen bir merdiven boþluðuna açýlýyor.
 ~
-doors double silver~
+ikili gümüþ kapýlar~
 2 11805 11815
 E
-crests~
-The crests represent the six drakyri houses.  The crests of the major
-houses mark the six western chairs:  She'valen Deriki, Treniste, and
-Reykaris.  The six eastern chairs bear the minor house crests of
-She'valen Myrxes, Xaek, and Noriva.
+sancaklar~
+Sancaklar altý Drakyri evinin timsali.  Önemli evlerin batý sandalyelerdeki
+sancaklarý:  She'valen Deriki, Treniste, ve Reykaris.  Doðudaki altý sandalye
+ise küçük evlerin sancaklarýný taþýyor: She'valen Myrxes, Xaek, ve Noriva.
 ~
 S
 #11817
-Hidden lane~
-You stand on a narrow strip of silver leading south to a huge tree
-and east to a black oaken door.  The air seems strangely still
-and quiet.
+Gizli geçit~
+Güneye doðru devasa biraðaca ve doðuya doðru siyah meþe kapýya giden gümüþten
+þeridi andýran bir yoldasýn. Hava garip bir biçimde durgun ve sessiz.
 ~
 0 A 3
 D1
-A black oaken door leads into a grey building to the east.
+Siyah meþe kapý doðudaki gri yapýya gidiyor.
 ~
-door black oaken~
+siyah meþe kapý~
 1 -1 11870
 D2
-The lane ends to the south at a huge tree.
+Geçit güneyde devasa bir aðaçta bitiyor.
 ~
-tree~
+aðaç~
 1 -1 11809
 S
 #11818
-Laerkai Headquarters~
-You find yourself in a large room enclosed by midnight black onyx
-walls.  In the center of the room is a large stone table encircled
-by 7 dark stone chairs, each inscribed with a different symbol.
+Laerkai Karargâhý~
+Kendini simsihay onix duvarlý geniþ bir odada buldun.  Odanýn ortasýnda 7
+kara taþ sandalye ile çevrelenmiþ devasa bir masa bulunuyor.Hepsinin üstünde
+farklý bir arma var.
 ~
 0 AD 0
 E
-dark chairs stone symbol symbols~
-Carved into the back of each of six of the chairs is a symbol:
-flame, shield, claw, shadow, fist, and hand.  Engraved in the
-seventh chair is the whirling blade insignia of the Laerkai Master.
+taþtan kara sandalyeler ve semboller~
+6 sandalyenin her birinin arkasýna bir sembol iþlenmiþ:
+alev, kalkan, pençe, gölge, yumruk, ve el.  Yedinci sandalyeye ise Larkei
+Efendisinin dönen kýlýç niþanlarý kakýlmýþ.
 ~
 S
 #11819
-Blue stone courtyard~
-Gleaming ice blue stone paves a wide circular courtyard centered by a
-sculpted marble fountain.  Strands of silvery green ivy twine around
-the encircling pillars, appearing at first glance to be perfectly crafted
-works of delicate silver filligree.  A marble archway frames a pair
-of gleaming double doors to the north.  Glittering silver forms a strange
-symbol above the archway.
+Mavi taþ avlu~
+Buz mavisi gibi parýldayan kaldýrýmlar geniþ dairesel avlunun etrafýný
+sararken ortasýnda da mermer heykel fýskiye var.  Gümüþi yeþil sarmaþýklar
+sütunlarýn çevresine dolanmýþ halde.Bu onlarýn ilk bakýþta çok iyi oyulmuþ
+narin hatlarýný belli ediyor.  Kuzeyde gözüne parýldayan ikili kapýlar
+çarpýyor. Görkemli gümüþ semboller kapýlarýn etrafýnda yer alýyor.
 ~
 0 0 1
 D0
-Double silver doors lead north into a huge house.  A glittering
-symbol is visible above the archway.
+Ýkili gümüþ kapýlar kuzeydeki devasa eve gidiyor. Kapý eþiðinde görkemli
+bir sembol görüyorsun.
 ~
-doors double silver~
+ikili gümüþ kapýlar~
 1 -1 11820
 D2
-Wide stone steps descend to a wide clearing to the south.
+Geniþ taþ basamaklar güneydeki geniþ açýklýða doðru alçalýyor.
 ~
 ~
 0 -1 11806
 E
-glittering silver symbol~
-Silver, inlayed in the dark marble wall, forms the inscription:
+Görkemli gümüþ sembol~
+Kara mermer duvara kakýlmýþ gümüþ sembolün üstünde bazý yazýlar görüyorsun:
 
-                       chain my body
-              but you will never enslave my mind
+                       Bedenimi zincire vurabilirsin
+              ama benim ruhumu asla ve asla ele geçiremezsin
 
-                          ((+*+))
+                          {B((+*+)){x
 
                       She'vale Deriki
 ~
 S
 #11820
-Blue Marble Corridor~
-Dark blue marble walls frame a wide north-south corridor.  Brilliant
-streaks of white slash the darker blue stone like shafts of lightning.
-Darker swirls of grey and black twine among the white like shadows.
-Archways open east and west, and the corridor continues north.  To the
-south, double silver doors are set into the wall.
+Mavi Mermer Koridor~
+Okyanus mavisi mermer duvarlar kuzey güney koridoru boyunca uzanýyorlar.
+Görkemli beyaz iþleme yollarý daha karanlýk olan mavi taþýn üstünde yýldýrým
+ýþýnlarý gibi görünüyor. Gri ve siyahýn birbirine karýþan tonlarý beyaza
+gölge katýyor. Yol doðuya ve batýya uzanýyorken koridor kuzeye devam ediyor.
+Güneyde ise duvara geçme gümüþ kapýlar görüyorsun.
 ~
 0 D 0
 D0
-A stairwell is visible in the distance to the north.
+Kuzeyde bir merdiven boþluðu görülüyor.
 ~
 ~
 0 -1 11824
 D1
-An archway open onto a large hall to the east.
+Yol doðuda devasa bir hole açýlýyor.
 ~
 ~
 0 -1 11822
 D2
-Double silver doors gleam beneath a black stone archway.
+Ýkili gümüþ kapýlar etraflarýný parýltýlarýyla aydnlatýyorlar.
 ~
-doors double silver~
+ikili gümüþ kapýlar~
 1 -1 11819
 D3
-An archway opens onto a large room to the west.
+Yol batýda daha büyük bir odaya açýlýyor.
 ~
 ~
 0 -1 11821
 S
 #11821
-Wood Panelled Ballroom~
-The dark polished stone of a dance floor gleams amidst the oak panelled
-walls framing the ballroom.  Silver tapestries adorn the walls, glittering
-against the darkened wood.  Suspended from the center of the high ceiling
-is an enormous crystal chandelier.
+Ahþap Panelli Balo Odasý~
+Dans alanýnýn cilalý kara taþlarýnýn parlaklýðý ile göze çarpan meþe
+kaplamalý duvarlar balo odasýný çevreliyor. Gümüþ duvarhalýlarý duvarlarý
+sarýyor, karartýlmýþ ahþaba nispet yaparcasýna parlýyorlar. Tavanýn
+ortasýndan abartýlý boyutlarda bir kristal avize sarkýyor.
 ~
 0 D 0
 D1
-A blue corridor is visible through the archway to the east.
+Doðuda mavi bir koridor gözüküyor.
 ~
 ~
 0 -1 11820
 E
-crystal chandelier~
-The chandelier is intricately wrought, delicate despite its enormity.
-Suspended from the ceiling, it gives the appearance of some huge,
-fragile snowflake frozen in mid-fall.
+Kristal Avize~
+Avize karmakarýþýk hatlara sahip fakat devasa boyuna raðmen hala zarif bir
+görüntüsü var. Tavandan sarkarak ýþýklarý yansýtarak etrafta sonbahar
+ortasýnda uçuþan kartanelerine benzer bir görüntü çýkartýyor.
 ~
 S
 #11822
-Dining Hall~
-Dark, white streaked blue marble frames a long hall running east and
-west.  Dominating the center of the hall is a long table of some
-strange ice blue substance similar to metal.  A feast covers the
-table top from end to end.  You notice a faint shimmer about a meter
-above the table, encasing the entire top.
+Yemek Odasý~
+Kara, beyaz çizgili mavi mermer doðuya ve batýya geniþleyen devasa bir odayý
+çevreliyor. Odanýn ortasýnda buzmavisi renkli tanýmlayamadýðýn bir materyalden
+devasa bir masa bulunuyor. Üstündeki yemekler baþýndan sonuna kadar masayý
+donatýyor,þölen havasý veriyor.  Masadan bir metre ötede tüm tepeyi örten
+sönük bir ýþýk farkediyorsun.
 ~
 0 D 0
 D1
-The odors and sounds of cooking drift through the swinging door to the east.
+Doðudaki sallanan kapýnýn ardýndan yemek yapma sesleri geliyor.
 ~
-swinging door~
+sallanan kapý~
 1 -1 11823
 D3
-A blue corridor is visible through the archway to the west.
+Batýda mavi bir koridor gözüküyor.
 ~
 ~
 0 -1 11820
 E
-faint shimmer~
-It appears to be some sort of magical curtain which serves to both
-preserve the food and protect it from uninvited guests.
+sönük ýþýk~
+Bu ýþýk görünüþe göre yemekleri davetsiz misafirlerden korumak ve hep taze
+saklamak için yaratýlmýþ bir büyü kalkaný.
 ~
 S
 #11823
-Kitchen~
-You stand inside a huge, blue walled kitchen.  Pots and pans hang in
-racks along the walls, alongside knife sets and various silver utensils.
-Over each hangs the telltale shimmer of a protective shield.  A huge
-chopping block dominates the center of the kitchen, littered with 
-what appears to be a meal in preparation.  To one side, a lamb sizzles
-on a spit.
+Mutfak~
+Devasa mavi duvarlý bir mutfaktasýn.  Duvardan çanaklar ve tavalar
+parmaklýklý raflardan sarkýyor, çevrede ise býçaklar ve diðer mutfak
+malzemeleri yer alýyor.Hepsinin üstünde mavi parýltýyla parýldayan bir
+güç kalkaný yer alýyor.  Devasa bir dövme tahtasý mutfaðýn ortasýný
+kaplýyor,üstünde et kalýntýlarý var. Bir tarafta kuzu parçasý cýzýrdayarak
+piþiyor.
 ~
 0 D 0
 D3
-A swinging door opens into the west wall.  Through the window in the
-upper portion of the door, a large hall is visible.
+Sallanan kapý batýya açýlýyor.  Kapýnýn üstündeki küçük pencereden devasa
+oda grünüyor.
 ~
-swinging door~
+sallanan kapý~
 1 -1 11822
 S
 #11824
-Blue Marble Corridor~
-Torchlight flickers over deep blue marble walls, picking out streaks
-of white and darker greys.  Silver, inlayed in the dark marble,
-forms the the insignia:
+Mavi Mermer Koridor~
+Meþale ýþýðý mavi mermer üzerinde oynaþýrken gri ve siyahýn tonlarýný da
+zaman zaman açýða vuruyor. Mavi mermere kazýnýþ gümüþten rütbeler görüyorsun:
 
-                ((+*+))
+                {B((+*+)){x
 
-A winding stairwell is visible to the north.
+Kuzeyde bir merdiven boþluðu görünüyor.
 ~
 0 D 0
 D0
-You see a spiral stairwell.
+Spiral bir merdiven görüyorsun.
 ~
 ~
 0 -1 11825
 D2
-The corridor continues south.
+Koridor güneye devam ediyor.
 ~
 ~
 0 -1 11820
 S
 #11825
-Spiral Stairwell~
-A varnished wood stairwell is set against the north wall, spiraling
-up and down to disappear into the floor and ceiling here.  A blue
-marble corridor runs south.
+Spiral Merdiven~
+Verniklenmiþ,tahta spiral bir merdiven kuzey duvarýnda bulunuyor, yukarýya
+ve aþaðýya doðru spiraller çizerek ilerliyor. Mavi mermer bir koridor güneyde.
 ~
 0 D 0
 D2
-The corridor continues south.
+Koridor güneye devam ediyor.
 ~
 ~
 0 -1 11824
 D4
-The stairwell disappears above.
+Merdiven basamaklarý yukarýda kayboluyor.
 ~
 ~
 0 -1 11830
 D5
-The stairwell disappears below.
+Merdiven basamaklarý zeminden aþaðýya spiraller çizerek yokoluyor.
 ~
 ~
 0 -1 11826
 S
 #11826
-Granite storage room~
-You stand in a dimly lit cavern hewn of solid granite.  Shelves inset in
-the rock walls bear a variety of crates and boxes.  Longer crates lean
-against the eastern and western walls, filling the gaps between shelves.
-A spiral stairwell winds into the light above.
+Granit Depo Odasý~
+Saf granitten yapýlma maðaramsý az ýþýklý bir yerdesin.  Taþ duvara monte
+edilmiþ raflarda deðiþik boyda kutular bulunuyor. Uzun kasalar doðu ve batý
+duvarlarda dizilmiþ halde,raflar arasýndaki boþluðu dolduruyorlar. Spiral
+bir merdiven yukarýya ýþýða doðru yükseliyor.
 ~
 0 AD 0
 D4
-Light filters down the stairwell from above.
+Yukarýdan spiral merdivene ýþýk süzülüyor.
 ~
 ~
 0 -1 11825
 D1
-Several tall crates stand against the east wall.
+Birkaç uzun kasa doðu duvarýnda bulunuyor.
 ~
-crate crates~
+kasa kasalar~
 1 -1 11827
 E
-crates boxes~
-A faint shimmer above the shelves betrays the presence of a protective
-curtain.
+Kasalar kutular~
+Donuk bir parlaklýk var olan koruyucu kalkaný ele veriyor.
 ~
 S
 #11827
-Magic Workroom~
-Shelves line the east and west walls, filled to overflowing with dusty
-tomes and stacks of parchment.  Long tables line the two remaining walls
-and the center of the floor, stacked with strange implements and
-half-written documents.
+Büyülü Çalýþma Odasý~
+Tozlu kitaplarý ve parþömenleri barýndýran raflar doðu ve batý duvarlarýnda
+sýra sýra dizilmiþ durumda.  Uzun masalar geriye kalan iki ve odanýn ortasýný
+kaplýyor. Ýçlerinde yarým yazýlmýþ dökümanlar ve garip aletler bulunduruyor
 ~
 0 AD 0
 D1
-A long bookshelf lines the eastern wall, filled with books.
+Kitaplarla dolu bir kitaplýk doðu duvarýnda bulunuyor.
 ~
-bookshelf shelf~
+kitaplýk raf~
 1 -1 11828
 D2
-A long table stands against the southern wall.
+Uzun bir masa güney duvarýna kadar ulaþýyor.
 ~
 table wall~
 1 -1 11829
 D3
-Long shelves line the western wall, stacked with sheets of parchment
-and vellum.
+Parþömenlerle dolu raflar batý duvarýnda duruyor.
 ~
-shelves~
+raflar~
 1 -1 11826
 E
-tomes parchment shelves shelf~
-A magical barrier shocks you as you reach towards the shelves.
+kitaplar parþömenler raflar raf~
+Raflara ulaþmaya çalýþtýðýnda büyülü bir kalkan seni çarpýyor.
 ~
 E
-implements documents~
-It appears that some sort of arcane studies are in progress here.
+dökümanlar aletler~
+Garip türde anlaþýlmaz öðretiler halihazýrda bekliyormuþ gibi görünüyor.
 ~
 S
 #11828
-Chemical Lab~
-One sniff, and a raunchy stench nearly bowls you over.  The sounds of
-liquid, bubbling and dripping in the constructions of tubing and beakers
-lining the workbenches, fills the air.  Accompanying are clouds of
-white and multicolored steam, which accounts for the stench.  Chemists..
+Kimya Laboratuvarý~
+Bir nefes alýþ ile içine çektiðin iðrenç koku neredeyse seni düþürüyordu.
+Deney þiþelerindeki fokurdayan ve damlayan sývý sesleri havayý dolduruyor.
+Buna eþlik edercesine beyaz dumanlar ve kokunun nedeni renkli buharlar
+havada süzülüyor. Kimyagerler...
 ~
 0 AD 0
 D3
-A workbench leans against the western wall.
+Bir çalýþma masasý batý duvarýnda bulunuyor.
 ~
-workbench bench~
+çalýþma masasý~
 1 -1 11827
 S
 #11829
-Summoning Chamber~
-A warning prickle climbs along the back of your spine as you survey the
-dark walled stone room.  Inlayed in silver in the center of the floor
-is a huge pentagram, filled with strange glimmering runes.  The walls,
-in contrast, are plain black stone, polished to a glossy sheen which
-seems to soak up the flickering torchlight.  A long stone shelf runs
-the length of the north and east walls.
+Çaðrý Odasý~
+Bir uyarý dalgasý kara duvarlý taþ odaya girer girmez omurgandan yukarýya
+doðru soðuk bir biçimde yayýlýyor.  Odanýn tam ortasýnda gümüþ renkli bir
+pentagram ile üstüne iþlenmiþ rünler yere çizilmiþ durumda.  Duvarlar düz,
+siyah taþtan yapýlma ve sanki meþale ýþýðýný emiyor gibiler. Taþ raflar
+kuzey ve doðu duvarlarýnda bulunuyor.
 ~
 0 AD 0
 D0
-A long stone shelf runs along the north wall.
+Kuzey duvarý boyunca bir taþ raf yer alýyor.
 ~
-shelf stone~
+raf taþ~
 1 -1 11827
 E
-stone shelves~
-A continues stone shelf is carved at about waist height from the north
-and east walls.  Strange implements are lined up on the shelf,
-accompanied by thick tomes.  Glancing at the title of one, you can
-make out the words 'summoning' and 'outer planes'.
-A magic curtain glimmers above the shelf, barely visible in the darkness.
+taþ raflar~
+Doðu ve kuzey duvarlarýnda bel boyunda taþtan iþlemeli raflar bulunmakta.
+Garip aletler ve kalýn siyah ciltli kitaplar birlikte taþ raflarda bulunuyor.
+Bir iki tanesinin baþlýðýna göz gezdirince 'Yaratýk Çaðýrýcýlýk' ve
+'dýþ dünyalar' kelimelerini seçiyorsun. Karanlýkta çok az görülebilen bir güç
+kalkaný raflarý koruyor.
 ~
 S
 #11830
-Mirrored Hallway~
-You stand in a long hallway.  Doors open into the north, south, east,
-and west wall.  The walls between the doors are filled with a variety
-of strange, warped mirrors, filling the hall with twisted images
-of its occupants.  A spiral staircase cuts through the northern
-portion of the hall, leading up and down.
+Aynalý Koridor~
+Uzun bir koridordasýn. Kuzey,güney,doðu ve batý yönlerine açýlan kapýlar
+var. Kapýlarýn arasýndaki duvarlar garip görünüþlü aynalarla dolu,odayý
+garip ilüzyonlarla dolduruyorlar. Kuzey duvarýnda bir merdiven yukarýya
+ve aþaðýya doðru ilerliyor.
 ~
 0 D 0
 D0
-A tall oaken door is set into the northern end of the hallway.  A large
-square cut ruby lies embedded in the upper portion of the door, above
-the ornate inscription:
+Uzun meþeden bir kapý kuzey duvarýnda bulunuyor.  Kapýnýn üstünde kýrmýzý
+bir yakut ýþýldýyor, üstündeki yazýlarý fark edip okuyorsun:
 
                 She'vale Deriki Tyrena Na'deia
 ~
-oaken door ruby~
+meþe kapý yakut~
 1 -1 11834
 D1
-A starlike sapphire is inset into the redwood door to the east.
-Beneath the gem, ornate lettering reads:
+Yýldýzvari bir safir doðudaki kýrmýzý ahþap kapýnýn üstünde bulunuyor.
+Safirin altýnda bazý yazýlar görüyorsun:
 
                 She'vale Deriki Daeman Ira'deian
 ~
-redwood door sapphire~
+kýrmýzý kapý safir~
 1 -1 11833
 D2
-Tiny amethysts form a starburst pattern in the white oak door to the
-south.  Below the pattern is the inscription:
+Güneydeki beyaz kapýnýn üstündeki ametist kristal etrafa kapý kadar beyaz
+ýþýltýlar saçýyor. Kristalin altýnda bir yazý var:
 
                 She'vale Deriki Ykandres Ira'deian
 ~
-white oak door amethyst~
+beyaz meþe kapý ametist~
 1 -1 11832
 D3
-Set into the black oak door to the west is a gleaming emerald.
-Beneath the gem are the words:
+Batýdaki siyah meþe kapýya monte edilmiþ bir zümrüt altýnda da bazý yazýlar
+görüyorsun:
 
                 She'vale Deriki Nalyss Ira'deia
 ~
-black oak door emerald~
+siyah meþe kapý zümrüt~
 1 -1 11831
 D4
-The stairwell ascends above.  Halfway up, diamond inlay in the oak
-railing forms the inscription:
+Merdivenler üstünde yükseliyor.  Yarýyolda bir kristal üstünde de bazý yazýlar
+görüyorsun:
 
                 She'vale Deriki Lechandre Deia
 
-                          ((+*+))
+                          {B((+*+)){x
 
                 She'vale Deriki Noriek Deiayan
 ~
 ~
 0 -1 11835
 D5
-The staircase disappears below.
+Merdiven basamaklarý aþaðýda yokoluyor.
 ~
 ~
 0 -1 11825
 E
-mirror mirrors~
-Warped glass mirrors line the walls of the hallway, reflecting strange,
-twisted images of yourself back at you.
+ayna aynalar~
+Eðik,yamuk yumuk aynalar odayý ilüzyonlarla dolduruyolar,bakýnca sana
+benzeyen eciþ,bücüþ formlar görüyorsun.
 ~
 S
 #11831
-Emerald Suite~
-Deep green tapestries adorn varnished black oak wall panels framing a 
-luxurious bedroom suite.  Emerald inlay forms swirling patterns in
-the dark ceiling, glittering in the torchlight.  An inscription in
-silver is visible above the door to the east.
+Zümrüt Süit~
+Koyu yeþil duvar halýlarý siyah meþe duvarlarý kaplýyor. Yerdeki taþa
+iþlenmiþ küçük zümrüt parçalarýndan çýkan yeþil renkler odayý dolduruyor.
+Doðudaki kapýnýn üstünde gümüþten kakma bir yazý görüyorsun.
 ~
 0 D 0
 D1
-A black oak door exits the suite to the east.
+Siyah meþe kapý doðuda süitten bir çýkýþ olarak gözüne çarpýyor.
 ~
-black oak door emerald~
+siyah meþe kapý zümrüt~
 1 -1 11830
 E
-silver inscription~
-The silver lettering reads:
+gümüþ kakma yazý~
+Gümüþ harfleri diyor ki:
 
                 She'vale Deriki Nalyss Ira'deia
 ~
 S
 #11832
-Amethyst Suite~
-White oak walls support layers of rich purple tapestries.  Radiating
-from the center of the ceiling is a huge starburst pattern, formed of
-dozens of glittering amethysts.  Inlayed silver forms an inscription
-in the wood above the northern door.
+Ametist Süit~
+Beyaz meþe duvarlar zengin,pembe duvarhalýlarý ile zenginleþtirilmiþ halde
+göz alýcý bir güzellik yaratýyor.  Tavana iþlenmiþ yüzlerce parlak ametist
+odayý sanki bir yýldýz yaðmuruna tutulmuþ gibi bir izlenim veriyor.
+Kuzeydeki kapýda parlak gümüþ bir yazýt gözüne çarpýyor.
 ~
 0 D 0
 D0
-A white oak door exits the suite to the north.
+Beyaz meþe bir kapý kuzeyde,süitten dýþarý çýkan yolda duruyor.
 ~
-white oak door amethyst~
+beyaz meþe kapý ametist~
 1 -1 11830
 E
-silver inscription~
-The inscription reads:
+gümüþ yazýt~
+Yazýt diyor ki:
 
                 She'vale Deriki Ykandres Ira'deian
 ~
 S
 #11833
-Sapphire Suite~
-You find yourself in a huge suite adorned with azure blue tapestries.
-Brass sconces holding torches are spaced along the redwood panelled
-walls, each bearing a tiny starcut sapphire.  A matching larger sapphire
-is embedded in the center of the ceiling.  Silver lettering glimmers
-against the redwood framing the doorway to the west.
+Safir Süit~
+Kendini gökmavisi duvarhalýlarýyla bezenmiþ müthiþ bir odada buldun. Pirinç
+tutaçlarda yanan meþaleler kýzýl panelli duvarlar boyunca uzanýyor,hepsi
+ortalarýnda küçük bir safir barýndýrýyor.  Tavanýn tam ortasýnda ise
+ötekilere göre çok daha büyük bir safir var. Batýdaki kapýnýn üstünde
+gümüþi harfler parýldýyor.
 ~
 0 D 0
 D3
-A redwood door exits the suite to the west.
+Kýzýlaðaçtan bir kapý batýda süitten çýkýyor.
 ~
-redwood door sapphire~
+kýzýlaðaç kapý safir~
 1 -1 11830
 E
-silver lettering~
-The silver letters form the words:
+gümüþ harfler~
+Gümüþ harfleri birleþtirince karþýna bir yazý çýkýyor:
 
                 She'vale Deriki Daeman Ira'deian
 ~
 S
 #11834
-Ruby Suite~
-Deep red wall hangings grace the varnished golden oak panelled walls, 
-shimmering softly in the torchlight.  Five square cut rubies form a
-pentagon shape embedded in the center of the ceiling.  Above the
-doorway to the south, a silver inscription gleams against the wood.
+Yakut Süit~
+Koyu kýrmýzý duvarlar meþe panelli duvarlardaki meþale ýþýðýnda dans eden
+altýn varaklarý göz önüne seriyor. Tavanda beþgen oluþturacak þekilde
+iþlenmiþ beþ dairesel yakut var. Güneydeki kapýnýn üstünde,ahþabýn üstünde
+ýþýkla neþeyle dans eden yazýttan gelen gümüþ parýltýlar görüyorsun.
 ~
 0 D 0
 D2
-A redwood door exits the suite to the south.
+Kýzýlaðaçtan bir kapý güneyde süitten çýkýyor.
 ~
-redwood door ruby~
+kýzýlaðaç kapý yakut~
 1 -1 11830
 E
-silver inscription~
-The inscription reads:
+gümüþ yazýt~
+Gümüþ yazýt diyor ki:
 
                 She'vale Deriki Tyrena Na'deia
 ~
 S
 #11835
-Diamond Suite~
-White streaked blue marble walls frame an enormous suite decorated with
-shimmering white tapestries.  Woven in silver are depictions of
-spellcasters in battle, surrounded by strange glyphs and runes.
-Inlayed diamond lettering forms an inscription across the center of
-the dark marble ceiling.
+Elmas Süit~
+Beyaz çizgili mavi,mermer duvarlar parýldayan beyaz duvarhalýlarý ile
+bezenmiþ devasa süiti kaplýyor. Duvarlarda ilginç rünler ve kazýnmýþ
+dekorlar eþliðinde savaþan büyücüler betimlenmiþ. Kara mermer duvarda
+elmas harflerle iþlenmiþ yazýtlar görüyorsun.
 ~
 0 D 0
 D5
-A spiral stairwell leads down.
+Spiral basamaklar aþaðýya iniyor.
 ~
 ~
 0 -1 11830
 E
-diamond lettering inscription~
-Glittering diamond picks out an inscription against the dark stone:
+elmas harfler yazýtlar~
+Parýldayan elmaslarýn gözünü almasýndan dolayý zorla okuyabildiðin duvardaki
+kelimeleri birleþtiriyorsun:
 
                 She'vale Deriki Lechandre Deia
 
-                          ((+*+))
+                          {B((+*+)){x
 
                 She'vale Deriki Noriek Deiayan
 ~
 S
 #11836
-Ivory Foyer~
-A crystal chandelier hangs suspended in the center of the room, its
-bright light gleaming off polished ivory and gold trim.  The huge
-white oak entrance door opens into the east wall, framed by a polished
-golden oak archway.  A golden crest is emblazoned across the top of the
-archway, surrounded by silvery lettering.
-
-An archway opens north, and a hallway leads into the house to the west.
+Fildiþi Antre~
+Odanýn ortasýnda kristal bir avizenin ýþýðý cilalý fildiþinin ve altýn
+süslemelerin üstünde adeta dans ediyor. Devasa beyaz meþeden giriþ kapýsý
+onu çevreleyen eþikten doðuya açýlýyor.Kapýnýn üstüne iþlenmiþ bir altýn
+bir taç ve onun çevresinde de bazý harfler var.Kuzeye bir eþik,batýya ise
+bir koridor var.
 ~
 0 D 0
 D0
-A large room is visible to the north.
+Kuzeyde bir oda görülüyor.
 ~
 ~
 0 -1 11837
 D1
-You see the huge white oak entrance door.
+Beyaz meþe giriþ kapýsýný görüyorsun.
 ~
-white oak door~
+beyaz meþe kapý~
 1 -1 11806
 D3
-A hallway leads west.
+Bir koridor batýya gidiyor.
 ~
 ~
 0 -1 11838
 E
-golden crest~
-Sculpted gold forms the symbol:
+altýn taç~
+Sembolun yontulmuþ hali:
 
-                           ((-*-))
+                           {Y((-*-)){x
 ~
 E
-silvery lettering~
-The lettering reads:
+gümüþ harfler~
+Harfleri birleþtirince bir yazý çýkýyor:
 
                     - She'vale Treniste -
 ~
 S
 #11837
-Art Gallery~
-Shallow niches, spaced evenly along the long white walls of the gallery,
-display a wide variety of portraits and figurines, each obviously
-valuable and protected behind a glass case.  Low marble pedestals
-support larger sculptures in the center of the floor.
+Sanat Galerisi~
+Galerinin beyaz meþe duvarlarý sýrayla dizilmiþ sýð oyuklarla kaplý,
+hepsi birbirinden deðerli ve bu nedenle cam koruma ile kaplo figürler
+ve resimlerle dolu.  Zayýf mermer kaideler odanýn ortasýndaki büyükçene
+bir heykeli destekliyorlar.
 ~
 0 D 0
 D2
-An ivory foyer is visible through the southern archway.
+Fildiþinden bir giriþ güneyde görünüyor.
 ~
 ~
 0 -1 11836
 E
-figurines sculptures~
-Figurines and larger sculptures, intricately carved from precious metals,
-stones, and rare woods, grace the niches and pedestals.
+figürler heykeller~
+Karmakarýþýk bir biçimde deðerli madenlerden ve ahþaptan yapýlmýþ figürler
+ve büyük heykeller duvardaki oyuklarý ve kaideleri süslüyor.
 ~
 E
-portraits~
-The portraits depict everthing from battle scenes to flowers, all painted
-by the hands of master artists and probably worth a fortune.
+portreler~
+Büyük artistlerce çizilmiþ ve bir herbiri servet deðerinde olan portreler
+savaþtan çiçeklere herþeyi betimliyor.
 ~
 S
 #11838
-White Hallway~
-Gleaming grey streaked white marble frames a long hallway running
-east-west here.  The glow of torches, affixed in golden sconces along
-the walls, plays over finely woven tapestries.  Archways open east
-and south, and the hallway continues west.
+Beyaz Koridor~
+Doðu-batý yönlerinde ilerleyen parlak mermerden,iþlemeli duvarlý bir
+koridordasýn. Meþalelerin parýltýsý duvarlardaki tutaçlarýnda duran
+meþalelerden gelip duvar halýlarýndan yansýyor. Doðuya ve güneye kapý
+eþiði açýlmýþ,koridor ise batýya devam ediyor.
 ~
 0 D 0
 D1
-A white foyer is visible to the east.
+Beyaz bir giriþ doðuda görülebiliyor.
 ~
 ~
 0 -1 11836
 D2
-A large hall is visible to the south.
+Güney yönünde büyük bir oda var.
 ~
 ~
 0 -1 11839
 D3
-The hallway continues west.
+Koridor batýya devam ediyor.
 ~
 ~
 0 -1 11840
 E
-woven tapestries tapestry~
-The tapestries depict slender winged figures engaged in battle.
+dokuma duvarhalýlarý duvarhalýsý~
+Duvarhalýlarýnýn üstüne kanatlý,savaþan,ince figürler çizlimiþ.
 ~
 S
 #11839
-Dining Hall~
-Dim candlelight picks out the golden grains of the oak table stretching
-the length of the hall, set with white placemats and matching golden 
-silverware.  A wide archway opens north onto a white hallway.
+Yemek Odasý~
+Zayýf mum ýþýðýnda parýldayan masanýn gümüþten iþleme zerreleri gözüne
+çarpýyor. Büyük bir eþik kuzeydeki büyük koridora açýlýyor.
 ~
 0 D 0
 D0
-A marble hallway is visible to the north.
+Kuzeyde mermer bir koridor gözüküyor.
 ~
 ~
 0 -1 11838
 S
 #11840
-White Hallway~
-The hallway stretches west to the base of a spiral staircase and east
-towards the foyer.  A polished golden oak archway opens north into a
-circular stone chamber.
+Beyaz Koridor~
+Koridor batýya,sprial merdivenlerin merkezine ve doðuya,giriþe gidiyor.
+Cilalanmýþ altýn varaklý meþeden bir kapý eþiði kuzeyde dairesel taþ bir
+odaya açýlýyor.
 ~
 0 D 0
 D0
-A circular chamber is visible to the north.
+Dairesel bir oda kuzeyde görülebiliyor.
 ~
 ~
 0 -1 11841
 D1
-The hallway continues east.
+Koridor doðuya devam ediyor.
 ~
 ~
 0 -1 11838
 D3
-A spiral staircase is visible to the west.
+Spiral merdivenler batýda bulunuyor.
 ~
 ~
 0 -1 11844
 S
 #11841
-Tower Base~
-You stand in a circular white marble room, apparently the base of a tall
-tower.  A staircase spirals through the center of the room, leading up.
-A golden oak archway opens south onto a white hallway.
+Kulenin Temeli~
+Büyük ihtimalle koca kulenin temeli olan dairesel bembeyaz mermerden
+bir odada duruyorsun.Merdiven basamaklarý odanýn ortasýndan yukarýya
+yükseliyorlar. Altýn meþe bir eþik güneyde beyaz bir koridora açýlýyor.
 ~
 0 D 0
 D2
-A hallway is visible to the south.
+Güneyde beyaz bir koridor görünüyor.
 ~
 ~
 0 -1 11840
 D4
-A spiral staircase ascends.
+Spiral merdivenler yukarý doðru çýkýyor.
 ~
 ~
 0 -1 11842
 S
 #11842
-Tower Center~
-Curving white marble walls frame a narrow circular room.  The view
-from the small windows spaced along the tower walls shows that you are
-about 15-20 meters above the ground, on the second floor of the tower.
-A spiral staircase winds through the center of the room, leading up
-and down.  A glass enclosed tunnel opens off the western face of the
-tower.
+Kulenin Merkezi~
+Kavisli beyaz mermer duvarlar dairesel bir odayý çevreliyorlar.Odadaki
+küçük pencerelerden bakýnca yerden 15-20 metre yukarýda olduðunu anlýyorsun,
+yani kulenin ikinci katýnda. Spiral merdivenler odanýn ortasýndan yukarý ve
+aþaðýya gidiyor.Cam ile kaplanmýþ bir tünel kulenin batýdaki duvarýndan
+çýkýyor.
 ~
 0 0 0
 D3
-A glass tunnel crosses the gap between the tower and the second floor
-of the house to the west.
+Cam kaplý bir tünel batýda kule ile evin ikinci katý arasýndaki boþluðu
+kaplýyor.
 ~
 ~
 0 -1 11852
 D4
-The staircase winds upwards.
+Merdivenler yukarý týrmanýyor.
 ~
 ~
 0 -1 11843
 D5
-The staircase winds downwards.
+Merdivenler aþaðýya iniyor.
 ~
 ~
 0 -1 11841
 S
 #11843
-Observatory~
-You find yourself about 25 meters above the ground surrounded by glass
-walls and a domed ceiling, giving an excellent view of the surrounding
-landscape.  A city stretches to the south and east, and a dark blue and
-silver house rises to the northeast.  Surrounding the city and stretching
-out to the west is a roiling, formless void.  A spiral staircase descends
-through the center of the room to the floor below.
+Gözlemevi~
+Kendini yerden 25 metre yüksekte cam duvarlý kubbe tavanlý bir odada buldun.
+Bu odadan etraftaki manzara muhteþem þekilde görünüyor. Bir þehir güneye ve
+doðuya uzanýrken koyu mavi ve gümüþ bir ev kuzeydoðuda yükseliyor.  Þehrin
+etrafý batýda çalkalanan ve deðiþen formsuz bir boþlukla kaplý.Spiral bir
+merdiven odanýn ortasýndan aþaðýya doðru iniyor.
 ~
 0 0 0
 D5
-The staircase winds downwards.
+Burada bir merdiven aþaðýya doðru iniyor.
 ~
 ~
 0 -1 11842
 S
 #11844
-Spiral Staircase~
-You stand at the base of a wide spiral staircase ascending to the
-second floor.  A white marble hallway stretches east from here.
+Spiral Merdiven~
+Ýkinci kata doðru çýkan geniþ spiral bir merdivenin tam ortasýnda duruyorsun.
+Beyaz mermerden bir koridor doðuya doðru uzanýyor.
 ~
 0 D 0
 D1
-The hallway continues east.
+Koridor doðuya doðru gidiyor.
 ~
 ~
 0 -1 11840
 D4
-The staircase disappears above.
+Merdivenler yukarýya doðru kayboluyor.
 ~
 ~
 0 -1 11845
 S
 #11845
-Second Floor Hallway~
-A wide hallway stretches west from here, the gleaming marble walls
-broken at intervals by varnished wood doors to the north and south.
-Here, a carved oak door opens into the north wall, and a smaller
-mahogany door opens south.  A spiral staircase descends to the first
-floor.
+Ýkinci Kat Koridoru~
+Geniþ bir koridor buradan batýya doðru gidiyor.Koridorun parýldayan mermer
+duvarlarý aralýklarla kýrýlmýþ,kuzey ve güneyde kapýlara yol veriyor. Kuzey
+duvarýnda meþeden bir kapý var,onun karþýsýnda daha küçük maundan bir kapý
+bulunuyor.Spiral merdivenler aþaðýya,ilk kata doðru iniyor.
 ~
 0 D 0
 D0
-Carved into the golden grains of the door to the north is the
-inscription:
+Kuzeydeki kapýya bazý harfler kazýnmýþ:
 
               She'vale Treniste Dosandre Deian
 
-                          ((-*-))
+                          {Y((-*-)){x
 
               She'vale Treniste Denylis Deiayan
 ~
-oak door~
+meþe kapý~
 1 -1 11850
 D2
-An inscription is engraved in the mahogany door to the south:
+Güneydeki maun kapýda birþeyler yazýyor:
 
               She'vale Treniste Lyrene Na'deia
 ~
-mahogany door~
+maun kapý~
 1 -1 11846
 D3
-The hallway continues west.
+Koridor batýya devam ediyor.
 ~
 ~
 0 -1 11847
 D5
-The staircase disappears below.
+Merdiven aþaðý doðru iniyor.
 ~
 ~
 0 -1 11844
 S
 #11846
-Heir's Bedroom~
-A huge, luxuriously appointed bedroom stretches out around you.  Golden
-threads, interwoven in the white curtains adorning the walls, glitter
-in the torchlight.  A large mahogany door opens northward.  An
-inscription is engraved in the center of the door.
+Kulenin Varisinin Yatak Odasý~
+Devasa,lüksçe döþenmiþ bir odadasýn. Bembeyaz perdeleri baðlamak için
+kullanýlmýþ altýn ipler meþale ýþýðýnda parýldýyorlar. Kuzeye doðru
+maundan bir kapý açýlmýþ durumda.Yaklaþýnca kapýnýn ortasýna iþlenmiþ
+yazýtlar görüyorsun.
 ~
 0 D 0
 D0
-A mahogany door is set into the north wall.  An inscription in the
-center of the door reads:
+Maun kapý kuzey duvarýnda duruyor.Ortasýndaki yazýtlarda yazýyor ki:
 
               She'vale Treniste Lyrene Na'deia
 
-                    (heir to Treniste)
+                    (Treniste'nin Varisi)
 ~
-mahogany door~
+maun kapý~
 1 -1 11845
 E
-inscription~
-The inscription reads:
+yazýt~
+Yazýtlarda diyor ki:
 
               She'vale Treniste Lyrene Na'deia
 
-                    (heir to Treniste)
+                    (Treniste'nin Varisi)
 ~
 S
 #11847
-Wide Hallway~
-You stand at the western end of a wide white marble hallway.  A dark
-oaken door opens northward, and an ashwood door opens west.
+Geniþ Koridor~
+Beyaz mermerden geniþ bir koridorun batý sonundasýn. Kara meþe bir kapý
+kuzeye açýlýyor ve diþbudaktan bir kapý batýya açýlýyor.
 ~
 0 D 0
 D0
-Inscribed in the oaken door to the north are the words:
+Kuzeydeki meþe kapýya birþeyler kazýnmýþ:
 
               She'vale Treniste Rodwen Ira'deia
 ~
-oaken dark door~
+meþe kara kapý~
 1 -1 11849
 D1
-The hallway continues east.
+Koridor doðuya ilerliyor.
 ~
 ~
 0 -1 11845
 D3
-Inscribed in the ashwood door to the west are the words:
+Batýdaki diþbudak kapýya birþeyler kazýnmýþ:
 
               She'vale Treniste Josreke Ira'deian
 ~
-ashwood door~
+diþbudak kapý~
 1 -1 11848
 S
 #11848
-Ashwood Panelled Bedroom~
-Varnished white ashwood walls frame a large, well decorated bedroom.
-Dark tapestries of battling heroes adorn the walls.  Behind a glass case
-affixed to the west wall hang a collection of strange, ornate masks.
-To the east, an ashwood door is set into the wall.  Across the top of the
-door is a short inscription.
+Diþbudak Panelli Yatak Odasý~
+Verniklenmiþ beyaz diþbudaktan duvarlar geniþ,iyi dekore edilmiþ bir odayý
+sýnýrlandýrýyor. Savaþan kahramanlarýn kara duvarhalýlarý duvarlarý süslüyor.
+Batý duvarýna iliþtirilmiþ cam kutunýn içine aþýrý süslü maskeler týkýlmýþ
+durumda.Doðuda, diþbudaktan bir kapý var. Kapýnýn üstünde bir yazý gözüne
+iliþiyor.
 ~
 0 D 0
 D1
-Inscribed in the ashwood door to the east are the words:
+Doðudaki diþbudak kapýda bazý yazýlar görüyorsun:
 
               She'vale Treniste Josreke Ira'deian
 ~
-ashwood door~
+diþbudak kapý~
 1 -1 11847
 E
-ashwood door inscription~
-Inscribed in the ashwood door to the east are the words:
+diþbudak kapý yazýt~
+Doðudaki diþbudak kapýda birþeyler yazýyor:
 
               She'vale Treniste Josreke Ira'deian
 ~
 E
-tapestries tapestry heroes~
-The warriors all appear to be of slender elven build.  All winged, some
-of the warriors battle in midair.
+Duvarhalýlarý duvarhalýsý kahramanlar~
+Kahramanlarýn hepsi elfyapýlý,sýska tipler.Hepsinin kanatlarý var,bazýlarý
+havada çarpýþýyor.
 ~
 E
-collection masks~
-Strange masks, carved mostly of dark wood and painted a variety of
-colors.
+koleksiyon maske~
+Çoðu simsiyah ahþaptan oyulmuþ renkli renklerle bezenmiþ maskeler.
 ~
 S
 #11849
-Dark Oak Panelled Bedroom~
-The light from several torches in golden sconces spaced along the oak
-panelled walls plays over dark velvet curtains and intricately woven
-silken rugs.  A collection of swords gleams beneath a glass case against
-the northern wall.  An inscription is carved into the dark oaken door
-to the south.
+Kara Meþe Panelli Yatak Odasý~
+Kadife perdelerden odadaki birkaç meþaleden yayýlan ýþýk yansýyor ve ipek
+halýlara düþüyor.Bir kýlýç koleksiyonu kuzey duvarýna asýlý duruyor. Güneydeki
+kara meþe kapýya birþeyler yazýlmýþ.
 ~
 0 D 0
 D2
-Inscribed in the dark oaken door to the south are the words:
+Güneydeki kara meþe kapýnýn üstünde gümüþle yazýlmýþ harfler var:
 
                She'vale Treniste Rodwen Ira'deia
 ~
-oaken dark door~
+meþe kara kapý~
 1 -1 11847
 E
-collection swords~
-The swords all appear finely tempered mithril or silver, each bearing
-a different design as well as the Treniste crest.
+koleksiyon kýlýçlar~
+Kýlýçlarýn hepsi mitril veya gümüþten yapýlmýþ gibi duruyor,hepsi Treniste
+niþanýna benzer niþanlar taþýyor.
 ~
 E
-crest~
-                          ((-*-))
+niþan~
+                      ((-*-))
 ~
 E
-oaken dark door inscription~
-Inscribed in the dark oaken door to the south are the words:
+meþe kara kapý yazýt~
+Güneydeki kara meþe kapýnýn üstünde gümüþle yazýlmýþ harfler var:
 
                She'vale Treniste Rodwen Ira'deia
 ~
 S
 #11850
-Marble Sitting Room~
-You stand in a large, marble walled sitting room.  Golden holders hold
-large white candles set in shallow niches spaced along the walls of the
-room.  A glass enclosed tunnel is visible through the sliding door to
-the east, and a pair of golden doors opens north.
+Mermer Oturma Odasý~
+Devasa mermer duvarlý bir odada duruyorsun.Altýn tutaçlar kýsa aralýklarla
+dizilmiþ uzun beyaz mumlar taþýyorlar. Cam kaplamalý bir tünel doðuda
+görünebilirken bir çift altýn kapý kuzeye açýlýyor.
 ~
 0 D 0
 D0
-A pair of golden double doors opens north.  A crest is inset in the white
-marble above the doors:
+Bir çift altýn kapý kuzeye açýlýyor.Kapýlarýn üstündeki beyaz mermerdeki bir
+niþan dikkatini çekiyor:
 
                           ((-*-))
 ~
-golden double doors pair~
+altýn ikili kapýlar çift~
 1 -1 11851
 D1
-A sliding door opens east into a glass enclosed tunnel.
+Bir sürgülü kapý doðudaki cam kaplamalý tünele gidiyor.
 ~
-sliding door~
+sürgülü kapý~
 1 -1 11852
 D2
-An oaken door opens southward.
+Güneye doðru meþe bir kapý var.
 ~
-door oak~
+meþe kapý~
 1 -1 11845
 E
-glass tunnel~
-The tunnel crosses above ground to the white tower to the east.
+cam tünel~
+Tünel doðudaki kule ile kesiþiyor.
 ~
 S
 #11851
-Golden Bedchamber~
-Shimmering golden tapestries hang from the walls, reflecting the torchlight
-in a soft golden glow.  The tapestries part across the center of the
-north wall to reveal a design inlayed in gold in the white marble.
-Double golden doors open into the south wall.  Ornate letters form an
-inscription across the center of the doors.
+Altýn Yatak Odasý~
+Parýldayan altýn duvarhalýlarý duvarlardan sarkýyor ve meþale ýþýðýný altýn
+renkli yumuþak bir parýltýyla yansýtýyorlar.  Duvarhalýlarý kuzey duvarýnda
+halýlar kesiþerek altýn ile mermer duvara iþlenmiþ bir dizayn oluþturuyorlar.
+Çift altýn kapý güney duvarýndan açýlýyor.  Kapýlarýn ortasýnda cafcaflý bir
+yazý var.
 ~
 0 D 0
 D2
-An inscription in the golden doors to the south reads:
+Güneyeki kapýlar arasýndaki yazýyý okuyorsun:
 
               She'vale Treniste Dosandre Deian
 
-                          ((-*-))
+                          {Y((-*-)){x
 
               She'vale Treniste Denylis Deiayan
 ~
-golden double doors pair~
+altýn ikili kapýlar çift~
 1 -1 11850
 E
-double golden doors ornate letters inscription~
-An inscription in the golden doors to the south reads:
+ikili altýn kaplar cafcaflý yazýlar~
+Güneydeki kapýlar arasýndaki yazýyý okuyorsun:
 
               She'vale Treniste Dosandre Deian
 
-                          ((-*-))
+                          {Y((-*-)){x
 
               She'vale Treniste Denylis Deiayan
 ~
 E
-gold design north~
-The design depicts a winged woman garbed in white wielding a blade in
-one hand and holding a set of scales in the other.  The face, intricately
-carven, is elven in shape.
+altýn dizayn kuzey~
+Dizayn kanatlý,meleðe benzeyen bir savaþçý kadýnýn elinde bir kýlýç tutarak
+havada süzülmesini betimliyor.
 ~
 S
 #11852
-Glass Tunnel~
-You find yourself in a narrow east-west glass tunnel spanning the midair
-gap between the tower to the east and the second floor of the house to
-the west.  The ground appears to be about 25 meters below, though the
-curve of the tunnel floor probably distorts it to seem farther than it is.
+Cam Tünel~
+Kendini dar,doðu-batý yönlerinde ilerleyen,doðuda kuleyle batýda ise bir
+evin ikinci katý ile teðet geçiyor. Yer yaklaþýk 25 metre aþaðýda olmasýna
+raðmen tünelin  yapýsý onu olduðundan uzakta gösteriyor.
 ~
 0 D 0
 D1
-The tunnel enters a white tower to the east.
+Tünel doðuda beyaz bir kuleye giriyor.
 ~
 ~
 0 -1 11842
 D3
-A sliding glass door opens west into a large white walled room.
+Batýda sürgülü bir kapý büyük bir mermer odaya açýlýyor.
 ~
 ~
 1 -1 11850
 S
 #11853
-Before the Black Gates~
-Huge black gates loom over the path to the east.  What appears to be
-a humanoid skull is embedded in the archway above the gates, surrounded
-by an inscription in silver.  Tower in the background is a huge black
-stone manor.
+Kara Kapýlarýn Önünde~
+Devasa kara kapýlar doðudaki patikanýn önünde olduðundan daha korkunç bir
+görüntü ile içini ürperterek duruyorlar. Ýnsansý kafasýna benzeyen bir þekil
+kapýlarýn üstündeki eþiðe gömülmek sureti ile takýlmýþ ve etrafý gümüþten bir
+yazýt ile çevrilmiþ durumda.  Arka planda gözüken kuleyi simsiyah devasa bir
+ikametgah olarak görüyorsun.
 ~
 0 0 1
 D1
-Black gates cut across the path to the east.
+Kara kapýlar doðudaki patikayý sona erdirerek duruyorlar.
 ~
-gates black~
+kapýlar kara~
 1 -1 11854
 D3
-A shimmering path is visible to the west.
+Parýldayan bir patika batýnda yer alýyor.
 ~
 ~
 0 -1 11811
 E
-silver inscription~
-The inscription reads:
+gümüþ yazýtlar~
+Yazýtlarý okuyorsun:
 
-                            ->*<-
+                            {D->*<-{x
 
                     - She'vale Reykaris -
 ~
 S
 #11854
-Black Marble Entryway~
-Obsidian wall gleam coldly in the dim torchlight, broken only by the
-dark gates to the west and a wide archway leading east.  A symbol is
-carved into the stone above the archway.
+Kara Mermerden Giriþ~
+Sadece batýda,kara kapýlarla ve doðuda,devasa bir eþikle bölünen obsidiyan
+duvarlar yetersiz meþale ýþýðýnda soðukça parlýyorlar. Eþiðin üstünde,duvarda
+bir oyma sembol görüyorsun.
 ~
 0 AD 0
 D1
-A dark archway opens east.
+Kara bir kapý eþiði doðuya açýlýyor.
 ~
 ~
 0 -1 11855
 D3
-Black gates open west.
+Kara kapýlar batýya açýlýyor.
 ~
-gates black~
+kapýlar kara~
 1 -1 11853
 E
-symbol~
-Cut into the dark stone, the symbol reads:
+sembol~
+Kara taþa oyulmuþ sembolde yazýyor ki:
 
-                           ->*<-
+                           {D->*<-{x
 ~
 S
 #11855
-Domed Room~
-Curving obsidian walls arch above, forming a hermispherical ceiling
-above the large circular chamber.  Bits of silver and small diamonds,
-embedded in the ceiling above, glitter in the faint torchlight, giving
-the illusion of an eternal night sky.
+Kubbeli Oda~
+Obsidiyan duvarlar yukarýda ayný materyalden bir kubbe ile birleþiyor ve
+devasa odanýn dairesel dýþ hatlarýný ortaya çýkartýyorlar. Obsidiyana
+iþlenmiþ küçük gümüþ ve kristal parçalarý donuk meþale ýþýðýnda parýldayarak
+sonsuz gökyüzünün bir ilüzyonunu ortaya çýkartýyorlar.
 ~
 0 AD 0
 D0
-A dark corridor is visible to the north.
+Kuzeyde kara obsidiyan bir koridor yer alýyor.
 ~
 ~
 0 -1 11862
 D2
-A dark tunnel leads southward.
+Kara bir tünel güneye doðru gidiyor.
 ~
 ~
 0 -1 11856
 D3
-Huge black gates are visible to the west.
+Batýda devasa büyüklükte kara kapýlar görüyorsun.
 ~
 ~
 0 -1 11854
 S
 #11856
-Dark tunnel~
-Plain black obsidian walls arch overhead to form a narrow north-south
-tunnel.  Deep niches open off the walls of the tunnel to the east, west,
-and south.  To the north, the tunnel opens onto a a huge domed room.
+Kara Tünel~
+Düz siyah obsidiyan duvarlar bir kuzey-güney doðrultulu tüneli oluþturuyorlar.
+Duvardaki oyuklar güneye,kuzeye,doðuya ve batýya gidiþler açýyor. Kuzeyde
+tünel devasa kubbeli bir odaya açýlýyor.
 ~
 0 AD 0
 D0
-A domed room is visible to the north.
+Kubbeli bir oda kuzeyde görülüyor.
 ~
 ~
 0 -1 11855
 D1
-A deep niche is visible to the east.
+Derin bir oyuk doðuda.
 ~
 ~
 0 -1 11857
 D2
-A deep niche is visible to the south.
+Güneyde derin bir oyuk görüyorsun.
 ~
 ~
 0 -1 11859
 D3
-A deep niche is visible to the west.
+Batýnda derin bir oyuk var.
 ~
 ~
 0 -1 11858
 S
 #11857
-Dark niche~
-You stand in a dark, narrow niche carved of plain black stone.  A
-wide black marble pedestal stands in the center of the floor, probably
-designed to display some large object.
+Kara Oyuk~
+Kendini düz kara taþlardan yapýlma,dar bir oyukta buldun. Geniþ siyah
+mermerden bir sunak sanki büyük bir nesneyi gözler önüne sermek için
+odanýn ortasýnda duruyor.
 ~
 0 ADJ 0
 D3
-A dark tunnel is visible to the west.
+Kara bir tünel batýnda kalýyor.
 ~
 ~
 0 -1 11856
 E
-marble pedestal~
-A low, wide pedestal carved of black marble.  Scratches and worn patches
-mar the polished top of the pedestal.  Strangely, along the sides, you
-notice offwhite streaks of what appears to be wax and darker splotches
-of something very like dried blood..
+mermer sunak~
+Kara mermerden yapýlma kýsa,geniþ bir sunak önünde duruyor.Çizikler ve
+yýpranmanýn izleri her yanýný kaplamýþ durumda,üstündeki cilalý tabakanýn
+güzelliðini bozuyorlar. Ýlginçtir ki sunaðýn yanlarýndan, kan lekeleri
+süzülerek aþaðý dökülürken kurumuþ izlenimi veren lekeler var.
 ~
 S
 #11858
-Dark niche~
-You stand in a dark, narrow niche carved of plain black stone.  A
-wide black marble pedestal stands in the center of the floor, probably
-designed to display some large object.
+Kara Oyuk~
+Kendini düz kara taþlardan yapýlma,dar bir oyukta buldun. Geniþ siyah
+mermerden bir sunak sanki büyük bir nesneyi gözler önüne sermek için
+odanýn ortasýnda duruyor.
 ~
 0 ADJ 0
 D1
-A dark tunnel is visible to the east.
+Kara bir tünel doðunda kalýyor.
 ~
 ~
 0 -1 11856
 E
-marble pedestal~
-A low, wide pedestal carved of black marble.  Scratches and worn patches
-mar the polished top of the pedestal.  Strangely, along the sides, you
-notice offwhite streaks of what appears to be wax and darker splotches
-of something very like dried blood..
+mermer sunak~
+Kara mermerden yapýlma kýsa,geniþ bir sunak önünde duruyor.Çizikler ve
+yýpranmanýn izleri her yanýný kaplamýþ durumda,üstündeki cilalý tabakanýn
+güzelliðini bozuyorlar. Ýlginçtir ki sunaðýn yanlarýndan, kan lekeleri
+süzülerek aþaðý dökülürken kurumuþ izlenimi veren lekeler var.
 ~
 S
 #11859
-Dark niche~
-You stand in a dark, narrow niche carved of plain black stone.  A
-wide black marble pedestal stands in the center of the floor, probably
-designed to display some large object.
+Kara Oyuk~
+Kendini düz kara taþlardan yapýlma,dar bir oyukta buldun. Geniþ siyah
+mermerden bir sunak sanki büyük bir nesneyi gözler önüne sermek için
+odanýn ortasýnda duruyor.
 ~
 0 AD 0
 D0
-A dark tunnel is visible to the north.
+Kara bir tünel kuzeyinde kalýyor.
 ~
 ~
 0 -1 11856
 D5
-Scuff marks are visible in the ground around the pedestal.
+Sürtünme ve aþýnma izleri sunaðýn her yanýný kaplamýþ bulunmakta.
 ~
-pedestal marble~
+sunak mermer~
 2 11801 11860
 E
-marble pedestal~
-A low, wide pedestal carved of black marble.  Scratches and worn patches
-mar the polished top of the pedestal.  Strangely, along the sides, you
-notice offwhite streaks of what appears to be wax and darker splotches
-of something very like dried blood..  A crack runs down the eastern
-side of the pedestal.
+mermer sunak~
+Kara mermerden yapýlma kýsa,geniþ bir sunak önünde duruyor.Çizikler ve
+yýpranmanýn izleri her yanýný kaplamýþ durumda,üstündeki cilalý tabakanýn
+güzelliðini bozuyorlar. Ýlginçtir ki sunaðýn yanlarýndan, kan lekeleri
+süzülerek aþaðý dökülürken kurumuþ izlenimi veren lekeler var. Bir çatlak
+sunaðýn doðusunda aþaðýya doðru yarýlarak iniyor.
 ~
 E
-crack~
-Peering through the crack, you can make out a small carved slot, faintly
-resembling a keyhole.
+çatlak~
+Çatlaðýn içine doðru dikkatle bakýnca gizlenmiþ bir anahtar deliði fark
+ediyorsun.
 ~
 S
 #11860
-Forbidding Doorway~
-Huge double doors, carved of polished black stone, loom forbiddingly to
-the south.  The archway surrounding the door is carved in the shape of
-5 thick, writhing tentacles, topped by a wicked beaked mouth.  Blood,
-both dried and fresh, spatters the door handles, dulling the polished
-sheen.  Strange claw marks gouge the stone floor, their depth and width
-betraying the dangerous strength of their maker.
+Tehlikeli Görünüþlü Kapý Giriþi~
+Cilalý kara taþtan devasa ikili kapýlar tehditkar bir biçimde güneyde
+yükseliyor.Kapýyý çevreleyen eþik  kývranan 5 kalýn dokungaç gibi oyulmuþ
+ve en üstünde ise kötücül görünüþlü bir aðýz var. Kan -kuru ve taze- kapý
+kulplarýndan damlýyor ve kapýnýn þaþalý görünüþünü korkunç bir hale getiriyor.
+Korkunç pençe izleri yerde geliþigüzel duruyor,büyüklükleri onlarýn sahibinin
+korkunçluðunu simgeliyor.
 ~
 0 ADN 0
 D2
-Forbidding black doors gleam with an unnatural sheen, made even more
-eerie by the streaks of blood spattering the handles and running down
-the faces of the doors.
+Tehditkar kara kapýlarýn kulplarýndan damlayan kan onlarýn garip parýldýsýný
+ürkütücü bir hale sokuyor.
 ~
-doors black double~
+kapýlar kara ikili~
 2 11802 11861
 D4
-A square shaped opening is visible above.
+Dairesel bir açýklýk yukarýda.
 ~
-pedestal square opening~
+sunak dairesel açýklýk~
 2 11801 11859
 S
 #11861
-Pentagram Chamber~
-You find yourself in a large chamber hewn of black stone.  A huge
-pentagram is etched into the stone of the floor, dominating the center
-of the chamber.  A rectangular black altar rises from the space
-between the lines in the center of the pentagram.  You notice
-trails of blood streaking the floor between the doors and the altar.
+Pentagram Odasý~
+Kendini dairesel kara taþtan yapýlmýþ devasa bir odada buldun.Odanýn ortasýný
+asitle yakýlarak kazýnmýþ bir pentagram iþgal ediyor. Dikgörtgen bir sunak
+pentagramýn tam ortasýna konmuþ durumda.Kapýlardan ve sunaktan damlayan kanlar
+odayý kaplamýþ,ürkünç bir görüntü ortaya çýkartýyor.
 ~
 0 ADN 0
 D0
-Huge black double doors loom to the north.
+Devasa kara ikili kapýlar kuzeye açýlýyor.
 ~
-doors black double~
+kapýlar kara ikili~
 2 11802 11860
 E
-altar~
-Strange runes are engraved in the sides and face of the altar.  The
-top of the altar is permanently stained with ingrained blood, and fresher
-blood dribbles in streaks down the sides.
+sunak~
+Sunaðýn yüzüne ve çevresine ilginç rünler kazýnmýþ durumda. Sunaðýn üstü
+kalýcý bir biçimde kanla lekelenmiþ durumda,taze olan kanlar ise etrafýndan
+damlýyor.
 ~
 E
 pentagram~
-A huge pentagram etched into the floor of the room.  Strange glyphs and
-runes have been carved in the spaces between the defining lines.
+Devasa bir pentagram odanýn ortasýna kazýnmýþ durumda.Garip semboller ve
+rünler belirli alanlara arasýna iþlenmiþ halde.
 ~
 S
 #11862
-Black Marble Corridor~
-Black marble walls tower above, defining a tall corridor leading east
-and south here.  The faint odor of what could have been blood lingers
-in the air, adding to the gloom of the dark corridor.
+Kara Mermerden Koridor~
+Kara mermer duvarlar etrafýnda yükselerek güney ve doðuya giden bir koridoru
+oluþturuyorlar.  Ortama sinmiþ olan kötü kan kokusu burnunu dolduruyor,odanýn
+karanlýk doðasýný daha da güçlendiriyor.
 ~
 0 AD 0
 D1
-The corridor continues east.
+Koridor doðuya devam ediyor.
 ~
 ~
 0 -1 11863
 D2
-A large circular room is visible through the archway to the south.
+Güneyde eðikten bakýnca büyük,dairesel bir oda görüyorsun.
 ~
 ~
 0 -1 11855
 S
 #11863
-Black Marble Corridor~
-The black marble walls gleam coldly in the dim light.  A tall oak
-door opens to the north, and a similar ash door opens south from here.
-The corridor continues east and west.
+Kara Mermer Koridor~
+Kara mermer duvarlar yetersiz ýþýkta donukça parlýyorlar.Uzun meþe bir kapý
+kuzeye açýlýrken aynýsýnýn diþbudaðýndan yapýlmýþ bir kapý da ters yönünde
+güneye açýlýyor.Koridor doðuya ve batýya devam ediyor.
 ~
 0 AD 0
 D0
-A tall oak door is set into the northern wall.  Gold lettering glimmers
-from the crest of the door frame:
+Uzun bir meþe kapý kuzey duvarýnda bulunuyor.Kapýnýn çerçevesindeki tacýn
+etrafýnda altýn yazýlar görüyorsun:
 
                   She'vale Reykaris Loryn Ira'deia
 ~
-oak door~
+meþe kapý~
 1 -1 11865
 D1
-The corridor continues east.
+Koridor doðuya devam ediyor.
 ~
 ~
 0 -1 11866
 D2
-An ashwood door is set into the southern wall.  An inscription across
-the top of the door frame reads:
+Diþbudak bir kapý güneyde bulunuyor.Dikkatli bakýnca kapýnýn üstünde bir
+yazýt görüyorsun:
 
                   She'vale Reykaris Sorina Ira'deia
 ~
-ash door~
+diþbudak kapý~
 1 -1 11864
 D3
-The corridor continues west.
+Koridor batýya devam ediyor.
 ~
 ~
 0 -1 11862
 S
 #11864
-Dark ash bedroom~
-A single blood red candle in the center of the room bathes the room in
-an eerie reddish glow, picking out the dark grains of black ashwood
-wall panels.  Reddish silks canopy the large bed resting against the east
-wall, and a matching carpet covers the floorboards.  A tall ash door
-exits the room to the north.  Golden lettering along the door frame
-glitters reddish in the light.
+Kara Diþbudak Yatakodasý~
+Tek bir kankýrmýzýsý mum odaya ürkütücü kýrmýzý bir parýltý yayarken kara
+panelli yatak odasýna olduðundan tehlikeli bir hava veriyor.Kýrmýzýmsý ipek
+kumaþlar doðudaki duvarla bitiþik olan geniþ yataðýn üstünü örtüyor. Kuzeyde
+uzun diþbudaktan bir kapý var.Kapýnýn üstündeki altýn yazýt kýrmýzý ýþýðýn
+parýldýsýyla parlýyor.
 ~
 0 D 0
 D0
-Lettering above the doorway reads:
+Kapýnýn üstündeki yazýda diyor ki:
 
                   She'vale Reykaris Sorina Ira'deia
 ~
-ash door~
+diþbudak kapý~
 1 -1 11863
 E
-candle blood red~
-A single blood red candle balances on a nightstand in the center of the
-room.
+mum kan kýrmýzý~
+Tek kankýrmýzýsý bir mum þifonyerin üstünde parýltý saçýyor.
 ~
 E
-golden lettering~
-Lettering above the doorway reads:
+altýn yazýlar~
+Kapýnýn üstündeki yazýlarý okuyorsun:
 
                   She'vale Reykaris Sorina Ira'deia
 ~
 S
 #11865
-Black oak bedroom~
-Black oak wall panels seem to absorb the dim light of the few torches
-spaced along the walls.  Braces of throwing daggers gleam from behind a
-glass case against the north wall.  A short golden inscription gleams
-from above the tall oak door to the south.
+Kara Meþe Yatakodasý~
+Kara meþe duvar panelleri oda duvarlarýndaki birkaç meþaleden gelen
+yetersiz ýþýðý emmek için yapýlmýþ gibi görünüyor.Kuzey duvarýndaki
+fýrlatma hançer koleksiyonunu destekleyen destekler ýþýkta cam bir
+haznenin arkasýndan parýldýyor.  Güneydeki uzun meþe kapýnýn üstünde
+kýza bir yazý parýldýyor.
 ~
 0 D 0
 D2
-A golden inscription above the door reads:
+Kapýnýn üstündeki altýn yazýtta diyor ki:
 
                   She'vale Reykaris Loryn Ira'deia
 ~
-oak door~
+meþe kapý~
 1 -1 11863
 E
-golden inscription~
-A golden inscription above the door reads:
+altýn yazýt~
+Kapýnýn üstündeki yazýtta diyor ki:
 
                   She'vale Reykaris Loryn Ira'deia
 ~
 E
-braces throwing daggers collection~
-The daggers appear finely tempered and quite lethal..
+destekler fýrlatma hançerleri koleksiyon~
+Bu hançerler görünüþe göre çok iyi bilenmiþ ve çok ölümcüller..
 ~
 S
 #11866
-Black Marble Corridor~
-The tall black marble walls are broken to the north, east, and south
-by doorways.  The door to the north is carved mahogany, to the south
-carved ash.  Double black steel doors fill the east wall, framed by
-a black stone archway.  Embedded in the apex of the archway is a humanoid
-skull, surrounded by gold lettering.
+Kara Mermer Koridor~
+Uzun kara mermer duvarlar doðuda,güneyde ve kuzeyde sonlanýyor. Kuzeydeki
+kapý maundan,güneydeki ise diþbudaktan yapýlma. Çift kara demir kapý
+doðudaki duvarda bulunuyor. Kapýlarýn üstündeki eþiðe iþlenmiþ bir insansý
+kafatasý,onun çevresinde de yazýlar fark ediyorsun.
 ~
 0 AD 0
 D0
-The mahogany door sports streaks of blackened wood.  Engraved above
-the doorway are the words:
+Maun kapý karartýlmýþ ahþabýn çizgilerini taþýmakta.Kapýnýn üstünde bazý
+yazýlar var:
 
                   She'vale Reykaris Kranali Na'deian
 ~
-mahogany door~
+maun kapý~
 1 -1 11868
 D1
-Towering black steel doors loom to the east.  Around the skull above
-the doorway is the inscription:
+Kule gibi yükselen ikili gümüþ kapýlar doðunda kalýyor.Kapýnýn üstündeki
+kafatasýnýn çevresinde bir yazý fark ediyorsun:
 
-   She'vale Reykaris Rachal Deia  ->*<-  She'vale Reykaris Toryan Deiayan
+   She'vale Reykaris Rachal Deia  {D->*<-{x  She'vale Reykaris Toryan Deiayan
 ~
-doors double black steel~
+kapýlar ikili kara gümüþ~
 1 -1 11869
 D2
-Above the ash door to the south is the inscription:
+Güneydeki diþbudak kapýnýn üstünde bazý yazýlar fark ediyorsun:
 
                   She'vale Reykaris Chake Ira'deian
 ~
-ash door~
+diþbudak kapý~
 1 -1 11867
 D3
-The corridor continues west.
+Koridor batýya devam ediyor.
 ~
 ~
 0 -1 11863
 E
-humanoid skull~
-The skull gleams whitely against the dark marble archway, its mouth
-seemingly fixed in a permanent feral grin.
+insansý kafatasý~
+Kara mermer eþikteki kafa beyaz beyaz parlýyor.Biraz inceleyince aðzýnýn
+sonsuz rüyasýna göçen insansýnýn ölürkenki yabani sýrýtýþýný halen taþýdýðýný
+ürpererek fark ediyorsun.
 ~
 E
-gold lettering~
-The lettering reads:
+altýn yazýlar~
+Yazýlar diyor ki:
 
-   She'vale Reykaris Rachal Deia  ->*<-  She'vale Reykaris Toryan Deiayan
+   She'vale Reykaris Rachal Deia  {D->*<-{x  She'vale Reykaris Toryan Deiayan
 ~
 S
 #11867
-Ash bedroom~
-A humanoid skull hangs suspended from the center of the ceiling, an inner
-light giving it's eyes a reddish glow white permeates dimly throughout
-the room.  Dark ash wall panels, carved with strange figures, frame the
-room.  To the north, an ash door is set into the wall.  Above the door
-is a short inscription in gold.
+Diþbudak Yatakodasý~
+Bir insansý kafatasý tavandan sarkarken ýþýk onun gözlerine doðal bir
+parlaklýk getiriyor.Garip figürlerle kaplý kara diþbudak duvar panelleri
+odayý çevreliyor.  Kuzeyde diþbudak bir kapý duvarda bulunuyor.Kapýnýn
+üstünde altýndan kýsa bir yazý var.
 ~
 0 D 0
 D0
-The inscription above the door reads:
+Kapýnýn üstündeki yazýda diyor ki:
 
                   She'vale Reykaris Chake Ira'deian
 ~
-ash door~
+diþbudak kapý~
 1 -1 11866
 E
-humanoid skull~
-A reddish light glows from within the skull, beaming eerily from the emtpy
-eye sockets and lipless mouth to bathe the room in a dim, bloody glow.
+insansý kafatasý~
+Kýzýl ýþýk kafatasýnýn içinde parlarken göz boþluklarýna ürkütücü kýrmýzý
+bir görüntü verirken dudaksýz aðzýna sanki kan varmýþ gibi bir görüntü
+veriyor.
 ~
 E
-strange figures~
-Intricately carved, the figures depict weird, hellish creatures.
+garip figürler~
+Karmakarýþýk figürler þekilde oyulmuþ cehennemden çýkma yaratýklar duvarý
+kaplýyor.
 ~
 E
-inscription gold~
-The inscription above the door reads:
+altýn yazý~
+Kapýnýn üstündeki yazýda diyor ki:
 
                   She'vale Reykaris Chake Ira'deian
 ~
 S
 #11868
-Charred mahogany bedroom~
-Streaks of charred and blackened wood mar the once-reddish brown mahogany
-wall panels, as if a thunderstorm once raged through the room, throwing
-random bolts of lightning against the walls.  The acrid odor of smoke
-permeates the chamber.  Gold lettering gleams above the blackened
-mahogany door to the south, somewhow untouched the heat.
+Kömürleþmiþ Maun Yatakodasý~
+Odanýn kömürleþmiþ ve kararmýþ kýzýlvari maun duvarlarýna bakýnca aklýna
+gelen ilk düþünce buraya düþmüþ olabilecek bir þimþeðin mi böyle bir yýkýma
+yol açtýðý oluyor. Dumanýn keskin kokusu odayý dolduruyor. Güneydeki kapýnýn
+üstünde parýldayan altýn harfler var,nedense ýsý buraya dokunmamýþ.
 ~
 0 AD 0
 D2
-Inscribed above the doorway are the words:
+Kapýnýn üstünde yazýlar var:
 
                   She'vale Reykaris Kranali Na'deian
 ~
-mahogany door~
+maun kapý~
 1 -1 11866
 E
-gold lettering~
-Inscribed above the doorway are the words:
+altýn harfler~
+Kapýnýn üstüne altýn harlferle birþeyler yazýlmýþ:
 
                   She'vale Reykaris Kranali Na'deian
 ~
 S
 #11869
-Dark Chamber~
-Black obsidian walls seem to absorb all light in the room, leaving a
-forbidding darkness.  Full humanoid skeletons, embedded in the walls around
-the room, gleam a ghastly white against the dark stone.  Huge double
-black steel doors loom to the west.  Barely visible in the darkness is
-an inscription carved into the stone archway framing the doorway.
+Kara Oda~
+Simsiyah obsidiyan duvarlar odadaki tüm ýþýðý tüketiyor ve geriye sadece
+tehlike içerebilen bir karanlýk kalýyor.Tam insansý iskeletleri odanýn
+etrafýndaki duvarlara sokulmuþ durumda,hayaletî bir beyaz ile parlýyorlar.
+Devasa ikili kara kapýlar batýda bulunuyor. Karanlýðýn içinde zor seçilebilen
+bir yazý kapýnýn üstüne iþlenmiþ.
 ~
 0 AD 0
 D3
-Above the dark doorway is the inscription:
+Kara kapýnýn üstünde bir yazý var:
 
  She'vale Reykaris Rachal Deia
-                                ->*<-
+                                {D->*<-{x
                                        She'vale Reykaris Toryan Deiayan
 ~
-doors black steel double~
+kapýlar gümüþ kara ikili~
 1 -1 11866
 E
-inscription~
-Above the dark doorway is the inscription:
+yazý~
+Kapýnýn üstünde bir yazý var:
 
  She'vale Reykaris Rachal Deia
-                                ->*<-
+                                {D->*<-{x
                                        She'vale Reykaris Toryan Deiayan
 ~
 E
-humanoid skeletons~
-You notice bones rising from the shoulder blades, probably to support
-wings.
+insansý iskeletleri~
+Köprücük kemiklerinden yükselen kemikler fark ediyorsun,büyük ihtimalle
+zamanýnda kanatlarý destekliyorlardý.
 ~
 S
 #11870
-Quiet foyer~
-A still quiet permeates the area, broken only by your movements and the
-occasional crackle of flickering torches.  Above the eastern archway,
-a stooping hawk is carved into the smooth marble wall.  Archways open
-north and south, and an inscription winds around the archway framing the
-entrance door to the west.
+Sessiz Giriþ~
+Odaya sadece ayak seslerinle ve çatýrdayan meþalelerce bozulan sessizlik
+hüküm sürüyor.Doðudaki kapý eþiðinde alçalan bir atmaca duvara çizilmiþ.
+Eþikler kuzeye,güneye ve batýya açýlýyor,ve batýdaki eþikte bazý yazýlar
+görüyorsun.
 ~
 0 D 0
 D0
-A small alcove is visible to the north.
+Küçük bir bölüm kuzeyde görülüyor.
 ~
 ~
 0 -1 11871
 D1
-A small alcove is visible to the east.
+Doðuda küçük bir bölüm var.
 ~
 ~
 0 -1 11872
 D2
-A small alcove is visible to the south.
+Güney tarafýnda küçük bir bölüm dikkatini çekiyor.
 ~
 ~
 0 -1 11873
 D3
-A black oaken door is set into the west wall, framed by a marble archway.
-Twining around the archway is an inscription:
+Batý duvarýna yerleþtirilmiþ kara bir meþe kapý bulunuyor..
+Kapýnýn üstünde bazý yazýlar görüyorsun:
 
                        Myr'vale Myrxes
 
-                 swift      -=+)>      silent
+               hýzlý      {W-=+)>{x      sessiz
 
-                          ..or dead
+                        ..veya ölü
 
-                   - flight of the dagger -
+                     - hançerin uçuþu -
 ~
-door black oaken~
+kara kapýlar meþe~
 1 -1 11817
 E
-inscription~
-Twining around the archway is an inscription:
+yazýlar~
+Kapý eþiðinde bazý yazýlar görüyorsun:
 
                        Myr'vale Myrxes
 
-                 swift      -=+)>      silent
+                hýzlý      {W-=+)>{x      sessiz
 
-                          ..or dead
+                         ..veya ölü
 
-                   - flight of the dagger -
+                      - hançerin uçuþu -
 ~
 S
 #11871
-Alcove~
-Dim torchlight illuminates the interior of a quiet, stone walled alcove.
-Benches line the north, west, and east walls, and an archway leads south.
+Küçük Bölüm~
+Yetersiz meþale ýþýðý sessiz,karanlýk küçük açýklýðý ýþýklandýrýyor.
+Sýralar doðu,kuzey ve batý duvarlarýnda sýra sýra dizilmiþ durumda
+ve güneyde ise bir eþik var.
 ~
 0 D 0
 D2
-A quiet foyer is visible to the south.
+Sessiz bir giriþ güneyde bulunuyor.
 ~
 ~
 0 -1 11870
 S
 #11872
-Alcove~
-Dim torchlight illuminates the interior of a quiet, stone walled alcove.
-Benches line the north, west, and east walls, and an archway leads west.
+Küçük Bölüm~
+Yetersiz meþale ýþýðý sessiz,karanlýk küçük açýklýðý ýþýklandýrýyor.
+Sýralar doðu,kuzey ve batý duvarlarýnda sýra sýra dizilmiþ durumda
+ve güneyde ise bir eþik var.
 ~
 0 D 0
 D3
-A quiet foyer is visible to the west.
+Sessiz bir giriþ batýnda bulunuyor.
 ~
 ~
 0 -1 11870
 S
 #11873
-Alcove~
-Dim torchlight illuminates the interior of a quiet, stone walled alcove.
-Benches line the north, west, and east walls, and an archway leads north.
+Küçük Bölüm~
+Yetersiz meþale ýþýðý sessiz,karanlýk küçük açýklýðý ýþýklandýrýyor.
+Sýralar doðu,kuzey ve batý duvarlarýnda sýra sýra dizilmiþ durumda
+ve güneyde ise bir eþik var.
 ~
 0 D 0
 D0
-A quiet foyer is visible to the north.
+Sessiz bir giriþ kuzeyinde bulunuyor.
 ~
 ~
 0 -1 11870
 D5
-A square shaped crack is barely visible in the stone at your feet.
+Dairesel þekilli bir çatlak ayaklarýn altýndaki taþta zarla zorla görülüyor.
 ~
-stone square crack~
+taþ dairesel çatlak~
 1 -1 11874
 S
 #11874
-Plain stone room~
-You stand in a plain room hewn of dark grey stone.  Wooden targets affixed
-to the walls bear deep gouges and slash marks.  Empty racks, probably
-for knives, line the upper northern wall.
+Süssüz Taþ Oda~
+Kara gri taþtan oluþma bir odadasýn.Duvara iliþtirilmiþ tahta hedeflerde
+birçok kesik barýndýrýyor.Büyük ihtimalle býçak konulan boþ raflar kuzey
+duvarýný kaplýyor.
 ~
 0 AD 0
 D1
-You notice a seam in the wall behind one of the targets affixed to the
-east wall.
+Hedeflerin birisinin arkasýnda,doðu duvarýnda bir ek yeri fark ediyorsun.
 ~
-wall target~
+duvar hedef~
 1 -1 11875
 D4
-Light from above picks out a square shaped crack in the ceiling.
+Tavandaki çatlaktan ýþýk sýzýyor.
 ~
-stone square crack~
+taþ dairesel çatlak~
 1 -1 11873
 E
-wooden targets target~
-Thick slices of wood have been affixed to the stone walls.  Deep gouge
-marks indicate that they have been used for some sort of target
-practice.  An unsettling number of the marks are very close to the target
-centers.
+tahta hedefler hedef~
+Kalýn tahta parçalarý duvarda bulunuyor.Tahtalarda hedef pratiði için
+kullanýldýklarýný gösteren kesik izleri var.  Sayýsýz kesik tahtanýn
+ortalarýna doðru fazlalaþýyor.
 ~
 S
 #11875
-Dark cavern~
-Intricate carvings cover the stone walls, floors, and ceiling.  Most
-of the engraving seems to blend into one continuous, amorphous twisting
-design, amid which a few recongnizable figures.. an archer, a panther,
-a hawk, and a dagger among them.
+Kara maðara~
+Odanýn her yanýný -duvarlarý,tavaný,yerleri- çeþitli çizimler kaplamakta.
+Çoðu figür irbirini izleyen figürler topluluklarýndan oluþurken bazýlarý
+seçilebilir þekilde sade duruyorlar.. bir okçu, bir panter, bir atmaca ve
+bir hançer aralarýndan birkaçý.
 ~
 0 AD 0
 D0
-A stalking panther is engraved in the northern wall.
+Avlanan bir panter kuzey duvarýna kazýnmýþ.
 ~
-panther wall~
+panter duvar~
 1 -1 11876
 D1
-A depiction of a lynx is engraved in the eastern wall.
+Bir vaþak resmi doðu duvarýna çizilmiþ.
 ~
-lynx wall~
+vaþak duvar~
 1 -1 11878
 D3
-Intricate engravings wind through the western wall.
+Oyma resimler batý duvarýna çizilmiþ.
 ~
-engravings wall~
+oyma duvar~
 1 -1 11874
 D5
-An engraving of a stooping hawk dominates the center of the floor.
+Odanýn ortasýnda alçalarak pike yapan bir atmaca resmedilmiþ.
 ~
-hawk floor~
+atmaca yer~
 1 -1 11879
 E
-design~
-You try to follow the design with your eyes, but it eludes you.
+çizimler~
+Çizimleri gözlerinle takip etmeye çalýþýyorsun fakat her seferinde
+þaþýrýyorsun.
 ~
 S
 #11876
@@ -5049,158 +5018,156 @@ Carved above the leaping panther, you notice the inscription:
 
                      Myr'vale Myrxes Nyxi Ira'deia
 ~
-door~
+kapý~
 1 -1 11875
 S
 #11877
-Chamber of the Dagger~
-Grey streaked black marble walls gleam coldly in the dim light, broken
-only by the depiction of a thrown dagger in the center of the northern wall.
-Resting on a low table in the center of the room is a glass case containing 
-3 daggers on black cloth.
+Hançerin Odasý~
+Gri çizgili kara mermer duvarlar sadece bir fýrlatma hançerinin çizildiði
+kuzey duvarý dýþýnda yetersiz meþale ýþýðýnda parlamaya çalýþýyorlar. Odanýn
+ortasýndaki kýsa masanýn üstünde 3 hançer kara kumaþlar içinde cam koruma
+geçirilmiþ halde duruyorlar.
 ~
 0 AD 0
 D2
-You see smooth grey streaked black marble.
+Yumuþak gri çizgilerle bezeli kara mermer görüyorsun.
 ~
-wall~
+duvar~
 1 -1 11878
 D3
-You see smooth grey streaked black marble.
+Yumuþak gri çizgilerle bezeli kara mermer görüyorsun.
 ~
-wall~
+duvar~
 1 -1 11876
 E
-dagger~
-An engraving of a thrown dagger arcs across the northern wall.
-Carved along the hilt of the dagger are the words:
+hançer~
+Bir fýrlatma hançeri güzel bir biçimde kuzey duvarýna resmedilmiþ. Dikkatle
+bakýnca kabzasýnda bazý kelimeler görüyorsun:
 
                     Myr'vale Myrxes Dyraena Na'deia
 ~
 E
-glass case daggers~
-You see three daggers, covered by a low glass case.  The central dagger is
-thin with a narrow hilt, probably for throwing.  It gleams the silver-blue
-of finely tempered mithril.  The crest of Myrxes is engraved in the center
-of the hilt.  The eastern dagger is longer and formed of carved onyx.
-An engraved black panther stalks along the length of the blade.  Honed
-steel forms the third blade, longer than the other two, almost a shortsword.
-Carved above the dark grip is a striking lynx.  The shimmer of some sort
-of protective magic shield surrounds the case and supporting table.
+cam koruma hançerler~
+Küçük cam bir koruma ile kaplanmýþ 3 hançer görüyorsun.Ortadaki hançer dar
+kabzalý,ince bir tane,büyük ihtimalle bir fýrlatma hançeri.Mithrilin gümüþi
+mavi parýltýsýyla parlýyorlar. Myrxes'in armasý hançerin kabzasýnýn ortasýna
+iþlenmiþ durumda. Saðdaki hançer ötekisinden daha uzun ve oniksten yapýlma.
+Bir panter resmi hançerin soðuk çeliði boyunca iþlenmiþ. Bilenmiþ çelik solda
+üçüncü hançeri oluþturuyor,neredeyse bir kýsakýlýç büyüklüðünde.Kara kabzasýnda
+bir vaþak resmi var.Bir tür büyülü korumanýn tehditkar parýltýsý cam koruma ve
+masa üstünde oynaþýyor.
 ~
 S
 #11878
-Chamber of the Lynx~
-A striking lynx fills the eastern wall, cut into the otherwise unadorned
-black onyx walls of the chamber.  A leaping lynx forms an archway above
-the door to the west.  A single emerald forms the eye of the lynx,
-glittering against the dark stone.
+Vaþaðýn Odasý~
+Saldýran bir vaþak doðu duvarýný kaplarken süssüz kara oniks duvarlarý
+bölüyor. Batýdaki odanýn kapýsýnýn üstünü saldýran bir vaþak kaplýyor.
+Tek bir elmas vaþaðýn bir gözünü betimliyor,bu elmas karanlýða karþý
+parlýyor.
 ~
 0 AD 0
 D0
-The northern wall is formed of polished black onyx.
+Kuzey duvarý cilalý oniks taþýndan yapýlma.
 ~
-wall~
+duvar~
 1 -1 11877
 D3
-Carved beneath the leaping lynx, you notice the inscription:
+Saldýran vaþaðýn altýnda bir yazý fark ediyorsun:
 
                    Myr'vale Myrxes Delise Ira'deia
 ~
-door~
+kapý~
 1 -1 11875
 S
 #11879
-Chamber of Shadows~
-Shadows seem to coallesce here, extinguishing nearly all light to
-pinpoints, dulling the polished gleam of the framing onyx walls and
-ceiling.  Engraved in the southern wall are two hawks, one soaring
-and one stooping for a kill.  A midnight black rug, nearly invisible
-in the darkness, muffles all sound to mere whispers.
+Karanlýðýn Odasý~
+Karanlýk burada aþýlmaz bir varlýk gibi duruyor,oniks duvarlarý kaplayan
+tüm parýldýyý ve güzelliði sönükleþtiriyor.Güney duvarýnda iki atmaca
+görüyorsun,birisi avlanýyor,diðeri ise öldürmek için duruyor. Kapkaranlýk
+odada zorla seçebildiðin bir halý odadaki tüm sesleri hafif fýsýltýlara
+dönüþtürüyor.
 ~
 0 AD 0
 D4
-Darkness shrouds the gleam of the onyx ceiling above.
+Oniks tavana kadar her yer karanlýk.
 ~
-ceiling onyx~
+oniks tavan~
 1 -1 11875
 E
-hawk hawks south s~
-Beneath the engraved hawks, you notice an inscription in the dark stone:
+atmaca atmacalar güney s~
+Çizilmiþ atmacalarýn altýnda bir yazý fark ediyorsun:
 
                   Myr'vale Myrxes Jaena Deia
 
-                            -=+)>
+                            {W-=+)>{x
 
                  Myr'vale Myrxes Neraikis Deiayan
 ~
 S
 #11880
-Granite Courtyard~
-Thick stone columns frame a wide courtyard paved with rough granite.
-Wrought iron gates bar entrance to the courtyard to the east, and a
-carved oaken door opens into the large house to the west.
+Granit Avlu~
+Granitle kaplý bir kubbeyle korunan,kalýn geniþ sütunlarla çevrili bir
+odadasýn.Sarmal demir kapýlar doðuda avluya giriþi belirtiyorlar ve
+batýdaki büyük eve de bir meþe kapý açýlýyor.
 ~
 0 0 1
 D1
-Sturdy iron gates break the surrounding wall to the east.  The thick iron
-bars are wrought into the shape of a sword in one gate and a shield in the
-other.
+Güçlü demir kapýlar doðuda duvarda bulunuyorlar.Demir barlar bükülerek
+bir kapýda kýlýç simgesini diðerinde de kalkan simgesini oluþturuyorlar.
 ~
-gates wrought iron~
+kapýlar sarmal demir~
 1 -1 11810
 D3
-A tall oaken door opens into the mansion to the west.  Carven in the
-face of the door is a design:
+Batýdaki eve bir kapý açýlýyor.Kapýnýn üstüne bazý harfler kazýnmýþ:
 
-                       Myr'vale Xaek   ][+][
+                       Myr'vale Xaek   {w][+][{x
 ~
-door oaken~
+kapý meþe~
 1 -1 11881
 S
 #11881
-Iron Hallway~
-Imposing iron walls tower above to form a long north-south hallway.
-Thick steel double doors loom to the west, and a carved oaken door
-opens east.  The hallway continues north and south.
+Demir koridor~
+Kuleler üstündeki kuzey-güney doðrultusunda bir koridordasýn. Kalýn çelik
+kapýlar batýya uzanýyor, iþlemeli bir meþe kapý ise doðuya. Koridor kuzeye
+ve güneye devam ediyor.
 ~
 0 D 0
 D0
-Huge stone doors are visible in the distance.
+Büyük taþ kapýlar uzakta seçilebiliyor.
 ~
 ~
 0 -1 11888
 D1
-An oaken door carved with the crest of house Xaek opens east.
+Üstünde Xaek armasý olan meþe bir kapý doðuda uzanýyor.
 ~
-door oaken~
+kapý meþe~
 1 -1 11880
 D2
-The hallway continues south.
+Koridor güneye devam ediyor.
 ~
 ~
 0 -1 11882
 D3
-Double steel doors are set into the western wall.
+Batý duvarýnda ikili çelik kapýlar bulunuyor.
 ~
-doors double steel~
+kapýlar ikili çelik~
 1 -1 11884
 S
 #11882
-Iron Hallway~
-The hallway terminates to the south at a thick steel door.  Above the
-doorway is the Xaek crest over a crossed shield and sword.
+Demir Koridor~
+Koridor güneyde kalýn,çelik kapýlarla son buluyor. Kapýnýn üstünde Xaek'in
+armasý kýlýç ve kalkanýn üstünde bulunuyor.
 ~
 0 D 0
 D0
-The hallway continues north.
+Koridor kuzeye gidiyor.
 ~
 ~
 0 -1 11881
 D2
-A thick steel door opens south.
+Kalýn çelik bir kapý güneye açýlýyor.
 ~
-door thick steel~
+kapý kalýn çelik~
 1 -1 11883
 S
 #11883
@@ -5451,7 +5418,7 @@ S
 #11893
 Garden Path~
 The mingled odor of fresh herbs and fresh earth permeates the air with
-a sweet earthy scent.  To the east and west, a variety of herbs are 
+a sweet earthy scent.  To the east and west, a variety of herbs are
 planted in neat rows, separated by short white markers.  The path on
 which you stand winds southwards towards a large white wooden gazebo.
 A glass door leads into the house to the north.
@@ -5954,7 +5921,7 @@ D 0 11884 2 1  * practice yard to yeven's office
 D 0 11887 0 1  * .. and back
 
 * D 0 11887 0 1  * .. and back
-* [*****] BUG: Load_resets: 'D': exit 0 not door. 
+* [*****] BUG: Load_resets: 'D': exit 0 not door.
 
 D 0 11888 0 1  * granite doors to bedroom
 D 0 11889 2 1  * .. and back
