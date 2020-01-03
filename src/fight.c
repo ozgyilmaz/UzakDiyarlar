@@ -1076,6 +1076,21 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 
     dam += GET_DAMROLL(ch) * UMIN(100,skill) /100;
 
+		/*
+		 * karizma etkisi
+		 */
+
+		//önce vuranýn karizmasý
+		if(!IS_NPC(ch))
+			dam = (dam * cha_app[get_curr_stat(ch,STAT_CHA)].extra_zarar);
+		//victim'ýn karizmasý
+		if(!IS_NPC(victim))
+			dam = (dam / cha_app[get_curr_stat(victim,STAT_CHA)].extra_zarar);
+
+			/*
+			 * karizma etkisi bitti
+			 */
+
     if (dt == gsn_ambush)
       dam *= 3;
 

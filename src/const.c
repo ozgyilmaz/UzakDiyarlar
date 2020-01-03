@@ -708,7 +708,7 @@ const 	struct	race_type	race_table	[]		=
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 65 */
+    { /* 64 */
     {"dracolich","alavan"}, 	FALSE, 		0,
 	0, 		AFF_INFRARED|AFF_FLYING,	0,
 	IMM_CHARM|IMM_LIGHTNING|IMM_COLD,	RES_FIRE|RES_BASH,
@@ -716,49 +716,49 @@ const 	struct	race_type	race_table	[]		=
 	A|H|Z,		A|C|D|E|F|G|H|I|J|K|P|Q|U|V|X
     },
 
-    {  /* 66 */
+    {  /* 65 */
 	{"air elemental","hava uþaðý"},FALSE,		0,
 	0,		0,		OFF_FADE,
 	0,		RES_WEAPON|RES_SUMMON,		0,
 	A|H|Z,		A|D
     },
 
-    {  /* 67 */
+    {  /* 66 */
 	{"earth elemental","toprak uþaðý"},	FALSE,		0,
 	0,		0,	OFF_FADE,
 	0,		RES_WEAPON|RES_SUMMON,		0,
 	A|H|Z,		A|D
     },
 
-    {  /* 68 */
+    {  /* 67 */
 	{"fire elemental","ateþ uþaðý"},FALSE,		0,
 	0,		0,	OFF_FADE,
 	IMM_FIRE,		RES_WEAPON,		VULN_COLD,
 	A|H|Z,		A|D
     },
 
-    {  /* 69 */
+    {  /* 68 */
 	{"water elemental","su uþaðý"},	FALSE,		0,
 	0,		0,	OFF_FADE,
 	0,		RES_WEAPON|RES_FIRE|RES_COLD,	0,
 	A|H|Z,		A|D
     },
 
-    {  /* 70 */
+    {  /* 69 */
 	{"fish","balýk"},			FALSE,		0,
 	0,		AFF_SWIM,	0,
 	0,		0,		VULN_COLD|VULN_FIRE,
 	A|H|Z,		A|D|E|F|J|K|O|X
     },
 
-    {  /* 71 */
+    {  /* 70 */
 	{"gargoyle","togrýl"},	FALSE,		0,
 	ACT_AGGRESSIVE,	AFF_FLYING,	OFF_FAST,
 	0,		RES_WEAPON,	VULN_COLD|VULN_FIRE,
 	A|G|W,		A|C|D|E|F|H|K|P
     },
 
-    {  /* 72 */
+    {  /* 71 */
 	{"ghost","hayalet"},	FALSE,		0,
 	ACT_UNDEAD,	AFF_FLYING,	OFF_FADE,
 	IMM_DROWNING|IMM_NEGATIVE|IMM_DISEASE|IMM_POISON,
@@ -766,35 +766,35 @@ const 	struct	race_type	race_table	[]		=
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    {  /* 73 */
+    {  /* 72 */
 	{"ghoul","gul"},	FALSE,		0,
 	0,		0,		0,
 	IMM_DISEASE,	RES_CHARM,	VULN_MAGIC,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    {  /* 74 */
+    {  /* 73 */
 	{"gnoll","arböri"},	FALSE,		DETECT_INVIS|DETECT_HIDDEN,
 	0,		0,		OFF_DISARM,
 	0,		0,		0,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    {  /* 75 */
+    {  /* 74 */
 	{"harpy","harpi"},	FALSE,		DETECT_INVIS|DETECT_HIDDEN,
 	0,		AFF_FLYING,		OFF_DISARM,
 	0,		RES_CHARM,		0,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K|P
     },
 
-    {  /* 76 */
+    {  /* 75 */
 	{"lamia","lamia"},	FALSE,		0,
 	ACT_AGGRESSIVE,	0,		OFF_FAST|OFF_DODGE,
 	0,		RES_CHARM,		0,
 	A|G|V,		A|B|C|D|E|F|G|H|I|J|K|Q|U
     },
 
-    {  /* 77 */
+    {  /* 76 */
 	{"lich","yelviçin"},	FALSE,		0,
 	0,		0,		OFF_FAST|OFF_DODGE,
 	IMM_POISON|IMM_DISEASE|IMM_CHARM|IMM_LIGHTNING|IMM_COLD,
@@ -2974,6 +2974,36 @@ const	struct	con_app_type	con_app		[26]		=
     { 22, 99 },
     { 23, 99 },
     { 24, 99 }    /* 25 */
+};
+
+const	struct	cha_app_type	cha_app		[26]		=
+{
+    { 10.0/20.0 },   /* 0 */
+    { 11.0/20.0 },   /* 1 */
+    { 12.0/20.0 },
+    { 13.0/20.0 },
+    { 14.0/20.0 },
+    { 15.0/20.0 },   /* 5 */
+    { 16.0/20.0 },
+    { 16.0/20.0 },
+    { 17.0/20.0 },
+    { 17.0/20.0 },
+    { 18.0/20.0 },   /* 10 */
+    { 19.0/20.0 },
+    { 1.0 },
+    { 1.0 },
+    { 22.0/20.0 },
+    { 22.0/20.0 },   /* 15 */
+    { 24.0/20.0 },
+    { 24.0/20.0 },
+    { 27.0/20.0 },
+    { 27.0/20.0 },
+    { 30.0/20.0 },   /* 20 */
+    { 35.0/20.0 },
+    { 40.0/20.0 },
+    { 45.0/20.0 },
+    { 50.0/20.0 },
+    { 55.0/20.0 },    /* 25 */
 };
 
 

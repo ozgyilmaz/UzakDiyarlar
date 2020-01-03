@@ -554,6 +554,11 @@ struct	con_app_type
     sh_int	shock;
 };
 
+struct	cha_app_type
+{
+    float	extra_zarar;
+};
+
 
 
 /*
@@ -2885,6 +2890,7 @@ extern	const	struct	int_app_type	int_app		[26];
 extern	const	struct	wis_app_type	wis_app		[26];
 extern	const	struct	dex_app_type	dex_app		[26];
 extern	const	struct	con_app_type	con_app		[26];
+extern	const	struct	cha_app_type	cha_app		[26];
 
 extern  const   struct  language_type   language_table     [MAX_LANGUAGE];
 extern	const	struct	translation_type translation_table	[];
