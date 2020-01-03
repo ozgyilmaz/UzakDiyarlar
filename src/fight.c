@@ -593,7 +593,7 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
     int thac0;
     int thac0_00;
     int thac0_32;
-    int dam;
+    int dam, i;
     int diceroll;
     int sn,skill;
     int dam_type;
@@ -620,6 +620,8 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
      */
     if ( victim->position == POS_DEAD || ch->in_room != victim->in_room )
 	return;
+
+	familya_check_improve(ch, victim);
 
     /*
      * Figure out the type of damage message.
@@ -1076,6 +1078,21 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 
     if (dt == gsn_ambush)
       dam *= 3;
+
+			/*
+			 * familya
+			 */
+			if(!IS_NPC(ch))
+			{
+				i= ch->pcdata->familya[victim->race];
+				if (i>0 && (number_range(1,200) < i) && dam > 0)
+				{
+					dam += (i * 3);
+				}
+			}
+			/*
+			 * familya bitti
+			 */
 
     if (!IS_NPC(ch) && get_skill(ch,gsn_deathblow) > 1 &&
 	ch->level >= skill_table[gsn_deathblow].skill_level[ch->iclass] )

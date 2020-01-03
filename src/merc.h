@@ -269,6 +269,8 @@ typedef void OPROG_FUN_AREA args((OBJ_DATA *obj));
 #define MAX_ALIAS		   20
 #define MAX_CLASS		   13
 #define MAX_PC_RACE		   15
+/* unique ve null dahil */
+#define MAX_RACE		    83
 #define MAX_CABAL		    9
 #define MAX_RELIGION		   18
 #define MAX_TIME_LOG		   14
@@ -2223,6 +2225,7 @@ struct	pc_data
     int			last_level;
     sh_int		condition	[MAX_COND];
     sh_int		learned		[MAX_SKILL];
+		sh_int		familya		[MAX_RACE];
     sh_int		points;
     bool              	confirm_delete;
     bool              	confirm_remort;
@@ -3231,6 +3234,7 @@ CHAR_DATA *  check_guard     args((CHAR_DATA *ch, CHAR_DATA *mob));
 /* handler.c */
 AD  	*affect_find args( (AFFECT_DATA *paf, int sn));
 void	affect_check	args( (CHAR_DATA *ch, int where, int vector) );
+void	familya_check_improve args((CHAR_DATA* ch,CHAR_DATA* victim));
 int	count_users	args( (OBJ_DATA *obj) );
 void 	deduct_cost	args( (CHAR_DATA *ch, int cost) );
 void	affect_enchant	args( (OBJ_DATA *obj) );

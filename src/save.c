@@ -344,6 +344,19 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
 	    }
 	}
 
+  for ( sn = 0; sn < MAX_RACE; sn++ )
+  {
+    if(race_table[sn].name[0]==NULL)
+      break;
+    if(!str_cmp(race_table[sn].name[0],"unique"))
+      continue;
+      if ( ch->pcdata->familya[sn] > 0 )
+      {
+    fprintf( fp, "Fm %d '%s'\n",
+        ch->pcdata->familya[sn], race_table[sn].name[0] );
+      }
+  }
+
     for ( paf = ch->affected; paf != NULL; paf = paf->next )
     {
 	if (paf->type < 0 || paf->type>= MAX_SKILL ||
@@ -698,6 +711,9 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
     ch->pcdata->condition[COND_HUNGER]	= 48;
     ch->pcdata->condition[COND_BLOODLUST]	= 48;
     ch->pcdata->condition[COND_DESIRE]	= 48;
+
+    for (stat =0; stat < MAX_RACE; stat++)
+      ch->pcdata->familya[stat]	= 0;
 
     ch->pcdata->nextquest = 0;
     ch->pcdata->questpoints = 0;
@@ -1109,6 +1125,27 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	    KEY( "Exp",		ch->exp,		fread_number( fp ) );
 	    KEY( "Etho",	ch->ethos,		fread_number( fp ) );
 	    break;
+
+      case 'F':
+    		if (!str_cmp(word,"Fm"))
+    	    	{
+    		int sn;
+    		int value;
+    		char *temp;
+
+    		value = fread_number( fp );
+    		temp = fread_word( fp ) ;
+    		sn = race_lookup(temp);
+    		if ( sn < 0 )
+    		{
+    		    fprintf(stderr,"%s",temp);
+    		    bug( "Fread_char: unknown race[for familya]. ", 0 );
+    		}
+    		else
+    		    ch->pcdata->familya[sn] = value;
+    		fMatch = TRUE;
+    	    	}
+    	break;
 
 	case 'G':
 	    KEY( "Gold",	ch->gold,		fread_number( fp ) );

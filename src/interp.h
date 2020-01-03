@@ -170,6 +170,7 @@ DECLARE_DO_FUN(	do_examine	);
 DECLARE_DO_FUN(	do_exits	);
 DECLARE_DO_FUN( do_explode	);
 DECLARE_DO_FUN( do_fade         );
+DECLARE_DO_FUN(	do_familya	);
 DECLARE_DO_FUN(	do_fill		);
 DECLARE_DO_FUN( do_find		);
 DECLARE_DO_FUN( do_flag		);

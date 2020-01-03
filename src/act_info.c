@@ -3719,6 +3719,28 @@ void do_affects_col(CHAR_DATA *ch, char *argument )
 }
 
 
+void do_familya(CHAR_DATA *ch, char *argument )
+{
+	int sn,col;
+	col    = 0;
+	printf_to_char(ch,"Irklara iliþkin irfanýn:\n\r\n\r");
+	for(sn=0;sn<MAX_RACE;sn++)
+	{
+		if(race_table[sn].name[1] == NULL)
+			continue;
+		if(str_cmp(race_table[sn].name[1],"unique"))
+		{
+			printf_to_char(ch,"%-18s %3d%%  ",race_table[sn].name[1], ch->pcdata->familya[sn]);
+			if ( ++col % 3 == 0 )
+				printf_to_char(ch, "\n\r" );
+		}
+	}
+	if ( col % 3 != 0 )
+		printf_to_char(ch, "\n\r" );
+	return;
+}
+
+
 void do_lion_call( CHAR_DATA *ch, char *argument )
 {
   CHAR_DATA *gch;
