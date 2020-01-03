@@ -198,6 +198,7 @@ const	struct	cmd_type	cmd_table	[] =
   { "invis",		do_invis,	POS_DEAD,	IM,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
   { "iptal",	do_nocancel,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "irfan",           do_lore,        POS_RESTING,     0,  LOG_NORMAL, 1,0 },
+  { "iste",		do_iste,		POS_RESTING,	 0,  LOG_NORMAL, 1 },
   { "itekle",		do_push,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
   { "ititle",		do_ititle,	POS_DEAD,	IM,  LOG_NORMAL, 1,CMD_KEEP_HIDE|CMD_GHOST },
   { "iyileþtir",		do_heal,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },

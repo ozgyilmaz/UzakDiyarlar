@@ -1009,6 +1009,7 @@ struct	kill_data
 #define ACT_IS_NPC		(A)		/* Auto set for mobs	*/
 #define ACT_SENTINEL	    	(B)		/* Stays in one room	*/
 #define ACT_SCAVENGER	      	(C)		/* Picks up objects	*/
+#define ACT_MAFYA			(E)
 #define ACT_AGGRESSIVE		(F)    		/* Attacks PC's		*/
 #define ACT_STAY_AREA		(G)		/* Won't leave area	*/
 #define ACT_WIMPY		(H)
