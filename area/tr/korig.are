@@ -1,8 +1,15 @@
-#AREA
-korig.are~
-Korýg~
-{ 5 15} Copper  Korýg~
-3500 3599
+#AREADATA
+Filename korig.are~
+Name Korýg~
+Builder Copper~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 5
+Highlevel 15
+Minvnum 3500
+Maxvnum 3599
+Path ~
+END
 
 #MOBILES
 #3500

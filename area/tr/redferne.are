@@ -1,8 +1,16 @@
-#AREA
-redferne.are~
-Redferne Köþkü~
-{20 30} Diku    Redferne Köþkü~
-7900 7999
+#AREADATA
+Filename redferne.are~
+Name Redferne Köþkü~
+Builder Diku~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 20
+Highlevel 30
+Minvnum 7900
+Maxvnum 7999
+Path ~
+END
+
 #MOBILES
 #7900
 þövalye adbolar~

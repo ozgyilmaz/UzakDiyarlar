@@ -1,8 +1,16 @@
-#AREA
-dylan.are~
-Dylan's Area~
-{15 25} Dylan   Dylan's Area~
-9100 9199
+#AREADATA
+Filename dylan.are~
+Name Dylan's Area~
+Builder Dylan~
+Translator ~
+Language Ýngilizce~
+Lowlevel 15
+Highlevel 25
+Minvnum 9100
+Maxvnum 9199
+Path ~
+END
+
 #MOBILES
 #9101
 oldstyle harpy~

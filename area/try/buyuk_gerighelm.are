@@ -1,8 +1,15 @@
-#AREA
-buyuk_gerighelm.are~
-Büyük Gerighelm~
-{ 1 30} Zarchon Büyük Gerighelm~
-7500 7699
+#AREADATA
+Filename buyuk_gerighelm.are~
+Name Büyük Gerighelm~
+Builder Zarchon~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 1
+Highlevel 30
+Minvnum 7500
+Maxvnum 7699
+Path ~
+END
 
 #MOBILES
 #7500

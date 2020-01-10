@@ -1,9 +1,16 @@
+#AREADATA
+Filename blight.are~
+Name Blight~
+Builder Stile~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 35
+Highlevel 50
+Minvnum 23001
+Maxvnum 24100
+Path ~
+END
 
-#AREA
-blight.are~
-Blight~
-{35 50} Stile   Blight~
-23001 24100
 
 #MOBILES
 #23001

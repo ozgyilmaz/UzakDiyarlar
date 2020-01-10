@@ -1,8 +1,15 @@
-#AREA
-ofke.are~
-Öfke~
-{90 100} Chronos Öfke~
-540 549
+#AREADATA
+Filename ofke.are~
+Name Öfke~
+Builder Chronos~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 90
+Highlevel 100
+Minvnum 540
+Maxvnum 549
+Path ~
+END
 
 #MOBILES
 #540

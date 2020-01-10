@@ -1,8 +1,15 @@
-#AREA
-isdirap_colu.are~
-Istýrap Çölü~
-{10 20} Anon    Istýrap Çölü~
-5000 5099
+#AREADATA
+Filename isdirap_colu.are~
+Name Istýrap Çölü~
+Builder Anon~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 10
+Highlevel 20
+Minvnum 5000
+Maxvnum 5099
+Path ~
+END
 
 #MOBILES
 #5000

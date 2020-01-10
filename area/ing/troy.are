@@ -1,8 +1,15 @@
-#AREA
-troy.are~
-Old Troya~
-{30 45} Yaegar  Aurorix Ilium~
-29500  29600
+#AREADATA
+Filename troy.are~
+Name Old Troya~
+Builder Yaegar~
+Translator ~
+Language Ýngilizce~
+Lowlevel 30
+Highlevel 45
+Minvnum 29500
+Maxvnum 29600
+Path ~
+END
 
 #MOBILES
 #29500
@@ -149,7 +156,7 @@ in charge of the Trojan forces.
 ~
 human~
 AGT 128 400 0
-40 0 15d10+1850 5d5+1000 4d8+13 pound 
+40 0 15d10+1850 5d5+1000 4d8+13 pound
 -13 -13 -13 3
 CDEFIK 0 0 0
 stand stand male 1000
@@ -243,7 +250,7 @@ that's all there is to say, really.
 ~
 human~
 2|64|128 8192 500 0
-30 0 6d12+853 5d5+1000 4d6+8 punch     
+30 0 6d12+853 5d5+1000 4d6+8 punch
 -9 -9 -9 3
 EIK 0 0 0
 stand stand female 1000
@@ -304,7 +311,7 @@ deity of her father, forced Agamemnon to return her.
 ~
 human~
 2|64|128 8192 700 0
-28 0 6d12+703 5d5+1000 2d12+8 punch    
+28 0 6d12+703 5d5+1000 2d12+8 punch
 -8 -8 -8 4
 EIK 0 0 0
 stand stand female 1000
@@ -321,7 +328,7 @@ to his tent to nurse his injured pride.
 ~
 human~
 2|64|128 8192 200 0
-28 0 6d12+703 5d5+1000 2d12+8 punch    
+28 0 6d12+703 5d5+1000 2d12+8 punch
 -8 -8 -8 4
 EIK 0 0 0
 stand stand female 1000
@@ -454,7 +461,7 @@ Sthenelus is an unremarkable squire.
 ~
 human~
 2|64|128 8192 0 0
-28 0 6d12+703 5d5+1000 2d12+8 pound   
+28 0 6d12+703 5d5+1000 2d12+8 pound
 -8 -8 -8 4
 EIK 0 0 0
 stand stand male 1000
@@ -499,7 +506,7 @@ his big mouth, which gets him killed by Achilles eventually.
 ~
 human~
 64|128 0 -400 0
-25 0 5d10+550 5d5+1000 2d10+7 pound    
+25 0 5d10+550 5d5+1000 2d10+7 pound
 -7 -7 -7 4
 EIK 0 0 0
 stand stand male 1000
@@ -529,7 +536,7 @@ noble.
 ~
 human~
 64|128 8192 0 0
-30 0 6d12+853 5d5+1000 4d6+8 punch     
+30 0 6d12+853 5d5+1000 4d6+8 punch
 -9 -9 -9 3
 EIK 0 0 0
 stand stand male 1000
@@ -617,7 +624,7 @@ Pandarus is a fool, a treacherous one at that too. He isn't very important.
 ~
 human~
 64|128 8192 0 0
-25 0 5d10+550 5d5+1000 2d10+7 pound    
+25 0 5d10+550 5d5+1000 2d10+7 pound
 -7 -7 -7 4
 EIK 0 0 0
 stand stand male 1000
@@ -691,7 +698,7 @@ These citizens are sick of the war.
 ~
 human~
 64|128 0 0 0
-20 0  3d9+333 5d5+1000 2d8+5 punch     
+20 0  3d9+333 5d5+1000 2d8+5 punch
 -4 -4 -4 5
 EIK 0 0 0
 stand stand male 1000
@@ -705,7 +712,7 @@ These citizens are sick of the war.
 ~
 human~
 64|128 0 0 0
-20 0  3d9+333 5d5+1000 2d8+5 punch     
+20 0  3d9+333 5d5+1000 2d8+5 punch
 -4 -4 -4 5
 EIK 0 0 0
 stand stand female 1000
@@ -720,7 +727,7 @@ a short thrusting spear~
 A short thrusting spear is jabbed in the dirt here.~
 ~
 5 0 1|8192
-3 0 0 2 
+3 0 0 2
 5 0 0
 A
 18 2
@@ -732,7 +739,7 @@ a long throwing spear~
 A long throwing spear has been thrust into the dirt here.~
 ~
 30 0 1|8192|16384
-0 0 0 0 
+0 0 0 0
 10 0 0
 A
 18 4
@@ -742,7 +749,7 @@ an ox hide shield~
 An ox hide shield rests on the ground here.~
 ~
 9 0 1|512
-0 0 0 0 
+0 0 0 0
 5 0 0
 A
 17 -10
@@ -752,7 +759,7 @@ a boar tusk helm~
 A boar tusk helm lies here.~
 ~
 9 0 1|16
-0 0 0 0 
+0 0 0 0
 5 0 0
 A
 5 2
@@ -764,7 +771,7 @@ a leather jerkin~
 A leather jerkin lies in the dirt here.~
 ~
 9 0 1|8
-0 0 0 0 
+0 0 0 0
 7 0 0
 #29505
 bronze breastplate~
@@ -772,7 +779,7 @@ a bronze breastplate~
 A bronze breastplate has been left here.~
 ~
 9 0 1|8
-0 0 0 0 
+0 0 0 0
 15 0 0
 A
 1 2
@@ -786,7 +793,7 @@ a goblet of watered wine~
 A goblet of watered wine rests here.~
 ~
 17 0 1|16384
-5 4 2 0 
+5 4 2 0
 5 0 0
 #29507
 board game~
@@ -794,7 +801,7 @@ a board game~
 A board game rests on a table here.~
 ~
 13 0 1|16384
-0 0 0 0 
+0 0 0 0
 5 0 0
 A
 4 2
@@ -804,7 +811,7 @@ achilles' breastplate~
 Achilles' breastplate lies here.~
 ~
 9 1|64|512 1|8
-0 0 0 0 
+0 0 0 0
 5 0 0
 A
 5 3
@@ -816,7 +823,7 @@ achilles' greaves~
 Achilles' greaves lie here.~
 ~
 9 1|64|512 1|32
-0 0 0 0 
+0 0 0 0
 5 0 0
 A
 2 3
@@ -828,7 +835,7 @@ achilles' helm~
 Achilles' helm lies here.~
 ~
 9 1|64|512 1|16
-0 0 0 0 
+0 0 0 0
 5 0 0
 A
 4 3
@@ -840,7 +847,7 @@ achilles' sword~
 Achilles' sword lies here.~
 ~
 5 1|512 1|8192
-0 0 0 11 
+0 0 0 11
 10 0 0
 A
 18 8
@@ -852,7 +859,7 @@ a bronze sword~
 A bronze sword lies here.~
 ~
 5 0 1|8192
-0 0 0 11 
+0 0 0 11
 5 0 0
 A
 18 -2
@@ -864,7 +871,7 @@ a bronze dagger~
 A bronze dagger with lions carved upon it lies here.~
 ~
 5 0 AN
-0 0 0 11 
+0 0 0 11
 3 0 0
 #29514
 bronze shield~
@@ -872,7 +879,7 @@ a bronze shield~
 A bronze shield has been left here.~
 ~
 9 0 1|512
-0 0 0 0 
+0 0 0 0
 8 0 0
 A
 17 -13
@@ -882,7 +889,7 @@ achilles' shield~
 Achilles' shield lies here.~
 ~
 9 1|64|512 1|512
-10 0 0 0 
+10 0 0 0
 5 0 0
 A
 17 -15
@@ -892,7 +899,7 @@ a pair of sandals~
 A pair of sandals lie here.~
 ~
 9 0 1|64
-0 0 0 0 
+0 0 0 0
 3 0 0
 #29517
 stone axe~
@@ -900,7 +907,7 @@ a stone axe~
 A stone axe lies here.~
 ~
 5 0 1|8192
-0 0 0 8 
+0 0 0 8
 15 0 0
 #29518
 banner~
@@ -908,7 +915,7 @@ a banner~
 A banner is stuck in the ground here.~
 ~
 13 0 1|16384
-0 0 0 0 
+0 0 0 0
 10 0 0
 #29519
 bronze helm~
@@ -916,7 +923,7 @@ a bronze helm~
 A bronze helm with horsehair plume lies here.~
 ~
 9 0 1|16
-0 0 0 0 
+0 0 0 0
 10 0 0
 A
 5 2
@@ -949,7 +956,7 @@ D1
 ~
 ~
 0 -1 29501
-D4 
+D4
 ~
 ~
 0 -1 923
@@ -980,7 +987,7 @@ You are sailing across the deep seas of the north. Dawn appears, fresh and
 rosy-fingered, and catches you making your way across the wine dark stretches
 of the deep sea, sailing toward whatever adventures may wait.
 
-Mountains loom to the south, though you do see a point where you could 
+Mountains loom to the south, though you do see a point where you could
 set ashore.
 ~
 0 0 7

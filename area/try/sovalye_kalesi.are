@@ -1,8 +1,15 @@
-#AREA
-sovalye_kalesi.are~
-Þövalye Kalesi~
-{90 100} Chronos Þövalye Kalesi~
-520 529
+#AREADATA
+Filename sovalye_kalesi.are~
+Name Þövalye Kalesi~
+Builder Chronos~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 90
+Highlevel 100
+Minvnum 520
+Maxvnum 529
+Path ~
+END
 
 
 #MOBILES

@@ -1,8 +1,15 @@
-#AREA
-tr_hayvanat.are~
-Hayvanat Bahçesi~
-{ 1 15} Anon    Hayvanat Bahçesi~
-8200 8299
+#AREADATA
+Filename hayvanat.are~
+Name Hayvanat Bahçesi~
+Builder Anon~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 1
+Highlevel 15
+Minvnum 8200
+Maxvnum 8299
+Path ~
+END
 
 #MOBILES
 #8200

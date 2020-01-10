@@ -1,8 +1,16 @@
-#AREA
-havada.are~
-Havada~
-{ 5 10} Copper  Havada~
-1000 1099
+#AREADATA
+Filename havada.are~
+Name Havada~
+Builder Copper~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 5
+Highlevel 10
+Minvnum 1000
+Maxvnum 1099
+Path ~
+END
+
 #MOBILES
 #1000
 kadim peri ejderhasý~

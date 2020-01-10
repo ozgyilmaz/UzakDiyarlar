@@ -1,8 +1,15 @@
-#AREA
-lanetli_manastir.are~
-Lanetli Manastýr~
-{60 65} Yaegar  Lanetli Manastýr~
-30800 30900
+#AREADATA
+Filename lanetli_manastir.are~
+Name Lanetli Manastýr~
+Builder Yaegar~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 60
+Highlevel 65
+Minvnum 30800
+Maxvnum 30900
+Path ~
+END
 
 
 #MOBILES

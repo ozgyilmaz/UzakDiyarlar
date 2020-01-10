@@ -1,8 +1,15 @@
-#AREA
-selenge.are~
-Selenge~
-{1 100} Diku    Selenge~
-3000 3399
+#AREADATA
+Filename selenge.are~
+Name Selenge~
+Builder Diku~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 1
+Highlevel 100
+Minvnum 3000
+Maxvnum 3399
+Path ~
+END
 
 #RESETMESSAGE
 Dünya bir baþka ölümün ardýndan sessizce titriyor...~

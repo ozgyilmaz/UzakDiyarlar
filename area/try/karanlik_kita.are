@@ -1,8 +1,15 @@
-#AREA
-karanlik_kita.are~
-Karanlýk Kýta~
-{ 5 35} Mort    Karanlýk Kýta~
-14500 14599
+#AREADATA
+Filename karanlik_kita.are~
+Name Karanlýk Kýta~
+Builder Mort~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 5
+Highlevel 35
+Minvnum 14500
+Maxvnum 14599
+Path ~
+END
 
 #HELPS
 0 DARK CONTINENT~

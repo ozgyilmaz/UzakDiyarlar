@@ -1,8 +1,15 @@
-#AREA
-selenge_cezaevi.are~
-Selenge Cezaevi~
-{ 5 90} Flar     Selenge Cezaevi~
-32000 32100
+#AREADATA
+Filename selenge_cezaevi.are~
+Name Selenge Cezaevi~
+Builder Flar~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 5
+Highlevel 90
+Minvnum 32000
+Maxvnum 32100
+Path ~
+END
 
 
 #MOBILES

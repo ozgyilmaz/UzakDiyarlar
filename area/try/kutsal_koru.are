@@ -1,8 +1,16 @@
-#AREA
-kutsal_koru.are~
-Kutsal Koru~
-{ 5 20} Alfa    Kutsal Koru~
-8900 8999
+#AREADATA
+Filename kutsal_koru.are~
+Name Kutsal Koru~
+Builder Alfa~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 5
+Highlevel 20
+Minvnum 8900
+Maxvnum 8999
+Path ~
+END
+
 #MOBILES
 #8900
 hiyeropant~

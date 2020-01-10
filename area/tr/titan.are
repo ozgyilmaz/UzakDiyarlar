@@ -1,8 +1,15 @@
-#AREA
-titan.are~
-Titan Vadisi~
-{25 50} Xavier  Titan Vadisi~
-18000 18150
+#AREADATA
+Filename titan.are~
+Name Titan Vadisi~
+Builder Xavier~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 25
+Highlevel 50
+Minvnum 18000
+Maxvnum 18150
+Path ~
+END
 
 #FLAG
 AB

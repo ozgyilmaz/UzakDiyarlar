@@ -1,8 +1,16 @@
-#AREA
-kufal_kosku.are~
-Kufal Köþkü~
-{31 35} Quifael Kufal Köþkü~
-6900 6999
+#AREADATA
+Filename kufal_kosku.are~
+Name Kufal Köþkü~
+Builder Quifael~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 31
+Highlevel 35
+Minvnum 6900
+Maxvnum 6999
+Path ~
+END
+
 #MOBILES
 #0
 #OBJECTS

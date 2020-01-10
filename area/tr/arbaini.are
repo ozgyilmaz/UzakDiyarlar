@@ -1,8 +1,16 @@
-#AREA
-arbaini.are~
-Arba Ýni~
-{10 15} Merc    Arba Ýni~
-2800 2899
+#AREADATA
+Filename arbaini.are~
+Name Arba Ýni~
+Builder Merc~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 10
+Highlevel 15
+Minvnum 2800
+Maxvnum 2899
+Path ~
+END
+
 #MOBILES
 #2800
 gardiyan canavar~

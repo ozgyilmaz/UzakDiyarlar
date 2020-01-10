@@ -1,8 +1,15 @@
-#AREA
-eski_thalos.are~
-Eski Thalos~
-{ 1 30} Kahn    Eski Thalos~
-5300 5399
+#AREADATA
+Filename eski_thalos.are~
+Name Eski Thalos~
+Builder Kahn~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 1
+Highlevel 30
+Minvnum 5300
+Maxvnum 5399
+Path ~
+END
 
 #FLAG
 A

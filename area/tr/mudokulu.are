@@ -1,8 +1,15 @@
-#AREA
-tr_mudokulu.are~
-mud okulu~
-{ 1  10} Hatchet Mud Okulu~
-3700 3799
+#AREADATA
+Filename mudokulu.are~
+Name Mud Okulu~
+Builder Hatchet~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 1
+Highlevel 10
+Minvnum 3700
+Maxvnum 3799
+Path ~
+END
 
 #RESETMESSAGE
 Yeryüzü kaybolan yaþamlarýn anýsýna titriyor.~

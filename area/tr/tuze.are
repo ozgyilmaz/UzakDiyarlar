@@ -1,8 +1,15 @@
-#AREA
-tuze.are~
-Tüze Konaðý~
-{90 100} Chronos Tüze Konaðý~
-510 519
+#AREADATA
+Filename tuze.are~
+Name Tüze Konaðý~
+Builder Chronos~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 90
+Highlevel 100
+Minvnum 510
+Maxvnum 519
+Path ~
+END
 
 
 #MOBILES

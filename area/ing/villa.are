@@ -1,8 +1,15 @@
-#AREA	
-villa.are~
-The Village of Anon~
-{ 1 65} Yaegar  The Village of Anon~
-24100 24200
+#AREADATA
+Filename villa.are~
+Name The Village of Anon~
+Builder Yaegar~
+Translator ~
+Language Ýngilizce~
+Lowlevel 1
+Highlevel 65
+Minvnum 24100
+Maxvnum 24200
+Path ~
+END
 
 #MOBILES
 #24100
@@ -29,7 +36,7 @@ The village flint-knapper is here repairing crude tools.
 While the knapper's primary job is to craft tools for the village, such is
 his skill that he may also be able to repair your equipment. Contact with
 merchants from more advanced civilisations to the south have made him
-remarkably conversant with the properties of metals such as copper and silver 
+remarkably conversant with the properties of metals such as copper and silver
 and alloys such as bronze.
 ~
 human~
@@ -46,7 +53,7 @@ A swarthy southern trader is here hawking his wares.
 ~
 This fellow is possessed of much darker skin and eyes than his current
 neighbors, hailing as he does from the island kingdoms far to the south. He
-has brought with him a variety of bronze arms and armor, as well as the 
+has brought with him a variety of bronze arms and armor, as well as the
 occasional crude iron oddity.
 ~
 human~
@@ -75,8 +82,8 @@ witchdoctor~
 the village witchdoctor~
 The village witchdoctor is here selling a variety of potions and brews.
 ~
-This young woman, one of the chief's many daughters, has travelled far and 
-wide, and gathered a variety of exotic herbs and roots that she blends into 
+This young woman, one of the chief's many daughters, has travelled far and
+wide, and gathered a variety of exotic herbs and roots that she blends into
 marvellous potions. They taste even worse than they smell...
 ~
 human~
@@ -91,10 +98,10 @@ wise woman~
 the village wise woman~
 The village wise woman cracks a toothless grin as you enter.
 ~
-Age may have taken what beauty this crone once possessed, but it hasn't 
+Age may have taken what beauty this crone once possessed, but it hasn't
 robbed her of her wits. She is more knowledgable in the properties of items
 than anyone else in the known world (which, admittedly, doesn't cover very
-much. In fact, to these villagers it is about as far as you can see on a 
+much. In fact, to these villagers it is about as far as you can see on a
 clear day).
 ~
 human~
@@ -125,7 +132,7 @@ trader northerner~
 a northern trader~
 A grizzled northerner offers to sell you some supplies.
 ~
-This stout hunter spends six months of the year trapping for fur, and the rest 
+This stout hunter spends six months of the year trapping for fur, and the rest
 of the year fashioning and selling basic equipment.
 ~
 human~
@@ -158,7 +165,7 @@ The village brewer is handing out samples of his sacred drink.
 The art of brewing is held sacred by the northern tribes, and the brewers
 are considered holy men. In accordance with their beliefs, the brewers hand
 out samples of their sacred draught to all who pass by, and while there is
-no real cost, a small "donation" to the sacred coffer is expected. And when 
+no real cost, a small "donation" to the sacred coffer is expected. And when
 the brewer is the size of a grizzly bear, few refuse.
 ~
 human~
@@ -177,7 +184,7 @@ The hedgehog looks like a cute, little, fierce fighter.
 ~
 unique~
 256 0 400 0
-4 0 2d7+46 5d5+100 1d5+1 charge        
+4 0 2d7+46 5d5+100 1d5+1 charge
 6 6 6 9
 F 0 0 0
 stand stand none 1000
@@ -191,7 +198,7 @@ The otter looks like a fierce fighter.
 ~
 unique~
 256 0 400 0
-10 0  2d7+121 5d5+100 2d4+2 claw        
+10 0  2d7+121 5d5+100 2d4+2 claw
 1 1 1 7
 F 0 0 0
 stand stand either 1000
@@ -205,7 +212,7 @@ The hawk looks like a fierce fighter.
 ~
 song bird~
 256 524288 400 0
-15 0 3d9+208 5d5+100 2d6+3 claw     
+15 0 3d9+208 5d5+100 2d6+3 claw
 -2 -2 -2 6
 F 0 0 0
 stand stand either 1000
@@ -219,7 +226,7 @@ The grizzly bear looks like a strong, fierce fighter.
 ~
 bear~
 256 0 0 0
-20 0  3d9+333 5d5+1000 2d8+5 claw      
+20 0  3d9+333 5d5+1000 2d8+5 claw
 -4 -4 -4 5
 CF 0 0 0
 stand stand either 1000
@@ -233,7 +240,7 @@ The aurochs is a BAD ASS.
 ~
 unique~
 256 0 0 0
-30 0 6d12+853 5d5+1000 4d6+8 charge     
+30 0 6d12+853 5d5+1000 4d6+8 charge
 -9 -9 -9 3
 F 0 0 0
 stand stand none 1000
@@ -274,10 +281,10 @@ the village chieftain~
 The village chieftain welcomes you to her village.
 ~
 This strapping giant of a woman has flaming red hair and biceps bigger than
-your thighs. She has ruled this village wisely for many years, through lean 
+your thighs. She has ruled this village wisely for many years, through lean
 times and times of plenty, and her people have the utmost faith in her
-ability. Time and the birth of many children have not softened her 
-well-muscled frame - she is still a very attractive woman, and the men of the 
+ability. Time and the birth of many children have not softened her
+well-muscled frame - she is still a very attractive woman, and the men of the
 village (and some women too) vie for her favours.
 ~
 human~
@@ -297,7 +304,7 @@ rugged lifestyle, and you marvel at their good condition as they pass.
 ~
 human~
 1|64 0 0 0
-4 0 2d7+46 5d5+100 1d5+1 punch         
+4 0 2d7+46 5d5+100 1d5+1 punch
 6 6 6 9
 F 0 0 0
 stand stand male 1000
@@ -312,7 +319,7 @@ rugged lifestyle, and you marvel at their good condition as they pass.
 ~
 human~
 1|64 0 0 0
-4 0 2d7+46 5d5+100 1d5+1 punch        
+4 0 2d7+46 5d5+100 1d5+1 punch
 6 6 6 9
 F 0 0 0
 stand stand female 1000
@@ -327,7 +334,7 @@ and playing harder.
 ~
 human~
 1|64 0 0 0
-3 0 2d7+46 5d5+100 1d5+1 punch        
+3 0 2d7+46 5d5+100 1d5+1 punch
 6 6 6 9
 F 0 0 0
 stand stand male 1000
@@ -341,7 +348,7 @@ When he was young, this poor fellow had his skull staved in by a horse kick.
 ~
 human~
 4|64|128 0 0 0
-4 0 2d7+46 5d5+100 1d5+1 punch        
+4 0 2d7+46 5d5+100 1d5+1 punch
 6 6 6 9
 0 0 0 0
 stand stand male 1000
@@ -355,7 +362,7 @@ This fellow has evidently made many generous donations to the village brewer.
 ~
 human~
 64 0 400 0
-4 0 2d7+46 5d5+100 1d5+1 punch         
+4 0 2d7+46 5d5+100 1d5+1 punch
 6 6 6 9
 0 0 0 0
 stand stand male 1000
@@ -371,7 +378,7 @@ one of the more prosperous villagers.
 ~
 human~
 2|64 0 400 0
-3 0 2d7+46 5d5+100 1d5+1 punch        
+3 0 2d7+46 5d5+100 1d5+1 punch
 6 6 6 9
 F 0 0 0
 stand stand male 1000
@@ -385,7 +392,7 @@ This unsavory fellow preys on the rich foreign merchants from the south.
 ~
 human~
 64|128 2|32768|65536|1048576 0 0
-10 0 2d7+121 5d5+100 2d4+2 punch        
+10 0 2d7+121 5d5+100 2d4+2 punch
 1 1 1 7
 FIN 0 0 0
 stand stand male 1000
@@ -401,7 +408,7 @@ before the militia run it off.
 ~
 wolf~
 64|128 0 0 0
-5 0 2d7+46 5d5+100 1d5+1 bite        
+5 0 2d7+46 5d5+100 1d5+1 bite
 6 6 6 9
 F 0 0 0
 stand stand either 1000
@@ -417,7 +424,7 @@ and carriers of disease.
 ~
 rat~
 64|128 0 0 0
-2 0 2d7+26 5d5+100 1d5+1 charge         
+2 0 2d7+26 5d5+100 1d5+1 charge
 6 6 6 9
 F 0 0 0
 stand stand none 1000
@@ -427,12 +434,12 @@ dog~
 a dog~
 A stray dog whines piteously at you.
 ~
-This mongrel is the unwanted offspring of some hunter's sled dogs, left to 
+This mongrel is the unwanted offspring of some hunter's sled dogs, left to
 fend for itself here in the village.
 ~
 fido~
 64|128 0 0 0
-3 0 2d7+46 5d5+100 1d5+1 bite        
+3 0 2d7+46 5d5+100 1d5+1 bite
 6 6 6 9
 F 0 0 0
 stand stand female 1000
@@ -464,7 +471,7 @@ and bandits has necessitated the introduction of a militia to keep the peace.
 ~
 human~
 8|64 4|128|8192 1000 0
-50 0 50d10+4250 5d5+5000 5d8+19 pound 
+50 0 50d10+4250 5d5+5000 5d8+19 pound
 -20 -20 -20 0
 CEFIKN 0 0 0
 stand stand male 1000
@@ -494,7 +501,7 @@ This Merc looks big and tough. Better be careful.
 ~
 human~
 256 32|512 0 0
-15 0 3d9+208 5d5+100 2d6+3 pound     
+15 0 3d9+208 5d5+100 2d6+3 pound
 -2 -2 -2 6
 CDFKIJ 0 0 0
 stand stand female 1000
@@ -508,7 +515,7 @@ This Merc looks big and tough. Better be careful.
 ~
 human~
 256 8|512 0 0
-20 0  3d9+333 5d5+1000 2d8+5 pound     
+20 0  3d9+333 5d5+1000 2d8+5 pound
 -4 -4 -4 5
 FKNIJ 0 0 0
 stand stand male 1000
@@ -522,7 +529,7 @@ This Merc looks big and tough. Better be careful.
 ~
 human~
 256 512|8192 0 0
-25 0 5d10+550 5d5+1000 2d10+7 pound    
+25 0 5d10+550 5d5+1000 2d10+7 pound
 -7 -7 -7 4
 FIKN 0 0 0
 stand stand male 1000
@@ -536,7 +543,7 @@ This Merc looks big and tough. Better be careful.
 ~
 human~
 256 512|8192 0 0
-30 0 6d12+853 5d5+1000 4d6+8 slash 
+30 0 6d12+853 5d5+1000 4d6+8 slash
 -9 -9 -9 3
 FKIJ 0 0 0
 stand stand male 1000
@@ -580,7 +587,7 @@ The key to the village gates.
 ~
 ~
 18 0 1|16384
-0 0 0 0 
+0 0 0 0
 1 0 0
 #24101
 barrel beer~
@@ -589,7 +596,7 @@ A beer barrel has been left here.
 ~
 ~
 17 0 1
-30 30 1 0 
+30 30 1 0
 60 300 0
 #24102
 bottle beer~
@@ -597,7 +604,7 @@ a bottle of rough beer~
 A beer bottle has been left here.~
 ~
 17 0 1
-4 4 1 0 
+4 4 1 0
 10 20 0
 #24103
 bottle ale~
@@ -605,7 +612,7 @@ a bottle of home brew ale~
 A dark bottle of ale has been left here.~
 ~
 17 0 1
-5 5 3 0 
+5 5 3 0
 10 10 0
 #24104
 bottle firebreather~
@@ -613,7 +620,7 @@ a bottle of rough spirits~
 A firebreather has been left here.~
 ~
 17 0 1
-8 8 7 0 
+8 8 7 0
 10 50 0
 #24105
 bottle local~
@@ -621,7 +628,7 @@ a bottle of brewer's specialty ("Holy Water")~
 A dark bottle has been left here.~
 ~
 17 0 1
-8 8 8 0 
+8 8 8 0
 10 20 0
 #24106
 torch~
@@ -629,7 +636,7 @@ a torch~
 A large torch.~
 ~
 1 0 1|65536
-0 0 24 0 
+0 0 24 0
 1 10 0
 #24107
 lamp~
@@ -637,7 +644,7 @@ a stone lamp~
 A stone lamp that uses animal fat as fuel has been left here.~
 ~
 1 0 1|16384
-0 0 100 0 
+0 0 100 0
 4 60 0
 #24108
 brew yellow~
@@ -645,7 +652,7 @@ a yellow brew~
 A yellow brew.~
 ~
 10 64 1
-12 3 -1 -1 
+12 3 -1 -1
 1 400 0
 #24109
 skin water buffalo~
@@ -653,7 +660,7 @@ a buffalo water skin~
 A buffalo water skin is on the floor.~
 ~
 17 0 1
-25 25 0 0 
+25 25 0 0
 5 30 0
 #24110
 jug water~
@@ -661,7 +668,7 @@ a jug of water~
 A large jug of water sloshes on the floor.~
 ~
 17 1 1
-60 60 0 0 
+60 60 0 0
 85 0 0
 #24111
 club~
@@ -669,7 +676,7 @@ a heavy lead-sheathed club~
 A heavy club sheathed in lead lies here.~
 ~
 5 0 1|8192
-0 0 0 8 
+0 0 0 8
 30 0 0
 A
 18 -2
@@ -681,7 +688,7 @@ a bone mace~
 A bone mace lies here.~
 ~
 5 0 1|8192
-0 0 0 7 
+0 0 0 7
 20 0 0
 A
 18 -1
@@ -693,7 +700,7 @@ a bronze dagger~
 A bronze dagger lies here.~
 ~
 5 0 1|8192
-0 0 0 11 
+0 0 0 11
 15 0 0
 A
 18 -1
@@ -705,7 +712,7 @@ a bronze sword~
 A broad, heavy bronze blade lies here.~
 ~
 5 0 1|8192
-0 0 0 3 
+0 0 0 3
 25 0 0
 A
 18 -2
@@ -717,7 +724,7 @@ a pair of sandals~
 A pair of sandals lies here.~
 ~
 9 0 1|64
-0 0 0 0 
+0 0 0 0
 15 0 0
 #24116
 belt~
@@ -725,7 +732,7 @@ a hide belt~
 A belt crafted of hide is curled up here.~
 ~
 9 0 1|2048
-0 0 0 0 
+0 0 0 0
 20 0 0
 #24117
 bronze helm~
@@ -733,7 +740,7 @@ a bronze helm~
 A bronze helm.~
 ~
 9 0 1|16
-0 0 0 0 
+0 0 0 0
 5 0 0
 A
 17 -2
@@ -745,7 +752,7 @@ a rough fur cloak~
 A rough fur cloak is here.~
 ~
 9 0 1|4
-0 0 0 0 
+0 0 0 0
 5 0 0
 A
 17 -5
@@ -757,7 +764,7 @@ a bronze ring~
 A bronze ring.~
 ~
 18 1 1|2
-0 0 0 0 
+0 0 0 0
 1 0 0
 #24120
 black bread~
@@ -765,7 +772,7 @@ black bread~
 Black bread.~
 ~
 19 0 1
-5 0 0 0 
+5 0 0 0
 3 0 0
 #24121
 cheese~
@@ -773,7 +780,7 @@ cheese~
 A sour cheese.~
 ~
 19 0 1
-8 0 0 0 
+8 0 0 0
 5 0 0
 #24122
 dried meat~
@@ -781,7 +788,7 @@ a strip of dried meat~
 A strip of unidentifiable dried meat.~
 ~
 19 0 1
-10 0 0 0 
+10 0 0 0
 5 0 0
 #24123
 egg~
@@ -789,7 +796,7 @@ an egg~
 An egg (raw), warm from the nest.~
 ~
 19 0 1
-4 0 0 0 
+4 0 0 0
 5 0 0
 #24124
 potion~
@@ -797,7 +804,7 @@ a foul potion~
 A foul potion rolls around here.~
 ~
 10 1|2|64 1
-10 29 28 56 
+10 29 28 56
 2 400 0
 #24125
 totem~
@@ -805,7 +812,7 @@ the village totem~
 The village totem stands here.~
 ~
 12 0 0
-0 0 0 0 
+0 0 0 0
 1000 0 0
 #24126
 wolf head~
@@ -814,7 +821,7 @@ The champion's wolf's head is here.
 ~
 ~
 9 0 1|16
-0 0 0 0 
+0 0 0 0
 75 0 0
 A
 13 250
@@ -825,7 +832,7 @@ The chief's oak club is lying here in the dirt.
 ~
 ~
 5 64 1|8192
-0 10 100 8 
+0 10 100 8
 25 0 0
 A
 17 -15
@@ -839,7 +846,7 @@ a stick~
 A wooden stick.~
 ~
 5 0 1|8192
-0 0 0 7 
+0 0 0 7
 15 0 0
 #24129
 wooden club~
@@ -847,7 +854,7 @@ a wooden club~
 A wooden club is lying here.~
 ~
 5 64 1|8192
-0 0 0 8 
+0 0 0 8
 15 0 0
 A
 19 6
@@ -857,7 +864,7 @@ a boiled leather jerkin~
 A boiled leather jerkin is lying here.~
 ~
 9 0 1|8
-0 0 0 0 
+0 0 0 0
 10 0 0
 A
 5 2
@@ -869,7 +876,7 @@ a rune-covered bone bracelet~
 A rune-covered bone bracelet is lying here.~
 ~
 9 0 1|4096
-0 0 0 0 
+0 0 0 0
 5 0 0
 A
 2 1
@@ -881,7 +888,7 @@ a fur cloak~
 A fur cloak is lying here.~
 ~
 9 0 1|4
-0 0 0 0 
+0 0 0 0
 10 0 0
 A
 12 25
@@ -893,7 +900,7 @@ a boar tusk helm~
 A boar tusk helm lies here.~
 ~
 9 0 1|16
-0 0 0 0 
+0 0 0 0
 10 0 0
 A
 17 -10
@@ -904,7 +911,7 @@ An ox-hide shield lies here.
 ~
 ~
 9 0 1|512
-0 0 0 0 
+0 0 0 0
 20 0 0
 A
 17 -20
@@ -919,7 +926,7 @@ A sturdy throwing spear has been thrust into the ground here.
 ~
 ~
 30 64 1|8192|16384
-0 0 0 0 
+0 0 0 0
 20 0 0
 A
 18 2
@@ -932,7 +939,7 @@ A blank papyrus is here.
 ~
 ~
 2 0 1|16384
-0 0 0 0 
+0 0 0 0
 1 0 0
 #24137
 potion~
@@ -941,7 +948,7 @@ A shimmering potion is here.
 ~
 ~
 10 64 1|16384
-5 82 43 17 
+5 82 43 17
 1 400 0
 #24138
 gate~
@@ -1207,7 +1214,7 @@ S
 #24113
 Approaching the Western Gate~
 You are approaching the western gates of the village, which are constantly
-patrolled by the militia. There is no-one else about here, as the 
+patrolled by the militia. There is no-one else about here, as the
 concentration of residences and shops is nearer to the center of the village.
 ~
 0 8 0
@@ -1223,7 +1230,7 @@ S
 #24114
 Approaching the Eastern Gate~
 You are approaching the eastern gates of the village, which are constantly
-patrolled by the militia. There is no-one else about here, as the 
+patrolled by the militia. There is no-one else about here, as the
 concentration of residences and shops is nearer to the center of the village.
 ~
 0 8 0
@@ -1319,7 +1326,7 @@ S
 #24119
 A Dirt Path~
 You are travelling along a broad path comprised of hard earth packed down
-by the steps of thousands of travellers over the many years. This path  
+by the steps of thousands of travellers over the many years. This path
 circles the wooden walls of the village, and from here you can see some of
 the larger structures within.
 ~
@@ -1336,7 +1343,7 @@ S
 #24120
 A Dirt Path~
 You are travelling along a broad path comprised of hard earth packed down
-by the steps of thousands of travellers over the many years. This path  
+by the steps of thousands of travellers over the many years. This path
 circles the wooden walls of the village, and from here you can see some of
 the larger structures within.
 ~
@@ -1353,7 +1360,7 @@ S
 #24121
 A Dirt Path~
 You are travelling along a broad path comprised of hard earth packed down
-by the steps of thousands of travellers over the many years. This path  
+by the steps of thousands of travellers over the many years. This path
 circles the wooden walls of the village, and from here you can see some of
 the larger structures within.
 ~
@@ -1370,7 +1377,7 @@ S
 #24122
 A Dirt Path~
 You are travelling along a broad path comprised of hard earth packed down
-by the steps of thousands of travellers over the many years. This path  
+by the steps of thousands of travellers over the many years. This path
 circles the wooden walls of the village, and from here you can see some of
 the larger structures within.
 
@@ -1389,7 +1396,7 @@ S
 #24123
 A Dirt Path~
 You are travelling along a broad path comprised of hard earth packed down
-by the steps of thousands of travellers over the many years. This path  
+by the steps of thousands of travellers over the many years. This path
 circles the wooden walls of the village, and from here you can see some of
 the larger structures within.
 ~
@@ -1406,7 +1413,7 @@ S
 #24124
 A Dirt Path~
 You are travelling along a broad path comprised of hard earth packed down
-by the steps of thousands of travellers over the many years. This path  
+by the steps of thousands of travellers over the many years. This path
 circles the wooden walls of the village, and from here you can see some of
 the larger structures within.
 ~
@@ -1423,7 +1430,7 @@ S
 #24125
 A Dirt Path~
 You are travelling along a broad path comprised of hard earth packed down
-by the steps of thousands of travellers over the many years. This path  
+by the steps of thousands of travellers over the many years. This path
 circles the wooden walls of the village, and from here you can see some of
 the larger structures within.
 ~
@@ -1440,7 +1447,7 @@ S
 #24126
 A Dirt Path~
 You are travelling along a broad path comprised of hard earth packed down
-by the steps of thousands of travellers over the many years. This path  
+by the steps of thousands of travellers over the many years. This path
 circles the wooden walls of the village, and from here you can see some of
 the larger structures within.
 ~
@@ -1457,7 +1464,7 @@ S
 #24127
 A Dirt Path~
 You are travelling along a broad path comprised of hard earth packed down
-by the steps of thousands of travellers over the many years. This path  
+by the steps of thousands of travellers over the many years. This path
 circles the wooden walls of the village, and from here you can see some of
 the larger structures within.
 ~
@@ -1474,7 +1481,7 @@ S
 #24128
 A Dirt Path~
 You are travelling along a broad path comprised of hard earth packed down
-by the steps of thousands of travellers over the many years. This path  
+by the steps of thousands of travellers over the many years. This path
 circles the wooden walls of the village, and from here you can see some of
 the larger structures within.
 ~
@@ -1491,7 +1498,7 @@ S
 #24129
 A Dirt Path~
 You are travelling along a broad path comprised of hard earth packed down
-by the steps of thousands of travellers over the many years. This path  
+by the steps of thousands of travellers over the many years. This path
 circles the wooden walls of the village, and from here you can see some of
 the larger structures within.
 ~
@@ -1508,7 +1515,7 @@ S
 #24130
 A Dirt Path~
 You are travelling along a broad path comprised of hard earth packed down
-by the steps of thousands of travellers over the many years. This path  
+by the steps of thousands of travellers over the many years. This path
 circles the wooden walls of the village, and from here you can see some of
 the larger structures within.
 ~
@@ -1525,7 +1532,7 @@ S
 #24131
 A Dirt Path~
 You are travelling along a broad path comprised of hard earth packed down
-by the steps of thousands of travellers over the many years. This path  
+by the steps of thousands of travellers over the many years. This path
 circles the wooden walls of the village, and from here you can see some of
 the larger structures within.
 ~
@@ -1542,7 +1549,7 @@ S
 #24132
 A Dirt Path~
 You are travelling along a broad path comprised of hard earth packed down
-by the steps of thousands of travellers over the many years. This path  
+by the steps of thousands of travellers over the many years. This path
 circles the wooden walls of the village, and from here you can see some of
 the larger structures within.
 ~
@@ -1787,7 +1794,7 @@ D3
 S
 #24146
 Militia Hut~
-Here the foreign mercenaries who have come to the north looking for 
+Here the foreign mercenaries who have come to the north looking for
 employment gather. You may take advantage of their services for a sizeable
 sum of gold should you wish to.
 ~
@@ -1833,7 +1840,7 @@ S
 The Witch Doctor's Hut~
 This hut is cram-packed with magical artefacts, items and spell components
 of every type imaginable (and several unimaginable). Forcing your way through
-the clutter, you eventually find an assistant, a raven-haired witch doctor who 
+the clutter, you eventually find an assistant, a raven-haired witch doctor who
 smiles sweetly and welcomes you to her hut.
 ~
 0 8 0
@@ -2606,10 +2613,10 @@ O 1 24138 1 24101
 *
 M 1 24100 1 24101 1 *  shaman
 *
-M 1 24117 1 24138 1 *  chief 
-E 1 24127 0 16     *  
+M 1 24117 1 24138 1 *  chief
+E 1 24127 0 16     *
 *
-M 1 24101 1 24140 1  
+M 1 24101 1 24140 1
 *
 M 1 24102 1 24144 1 *  trader
 G 1 24115 0	*		0
@@ -2625,9 +2632,9 @@ G 1 24114 0	*		0
 M 1 24103 1 24146 1*     LOADS MERC MASTER
 M 1 24131 1 24147 1 *  LOADS MERCS
 M 1 24132 1 24147 1
-M 1 24133 1 24147 1   
+M 1 24133 1 24147 1
 M 1 24134 1 24147 1
-M 1 24135 1 24147 1   
+M 1 24135 1 24147 1
 M 1 24136 1 24147 1
 *
 M 1 24104 1 24149  1 *  witchdoctor
@@ -2642,7 +2649,7 @@ M 1 24106 1 24154 1 *    LOADS PET SHOP OWNER
 *
 M 1 24110 1 24155 1 *    pets
 M 1 24111 1 24155 1
-M 1 24112 1 24155 1 
+M 1 24112 1 24155 1
 M 1 24113 1 24155 1
 M 1 24114 1 24155 1
 *
@@ -2694,8 +2701,8 @@ M 1 24126 6 24176 1 *    LOADS RATS
 M 1 24127 6 24106 1*    LOADS CATS
 *
 M 1 24128 8 24100 1 *       LOADS GUARDS TO 31000
-E 1 24129 0 16     *      WIELDS SWORD        
-E 1 24130 0 5       *     WEARS BREASTPLATE        
+E 1 24129 0 16     *      WIELDS SWORD
+E 1 24130 0 5       *     WEARS BREASTPLATE
 E 1 24131 0 14      *     WEARS BRACER
 E 1 24131 0 15      *     WEARS BRACER
 E 1 24132 0 3       *     WEARS CLOAK
@@ -2703,9 +2710,9 @@ E 1 24133 0 6       *     WEARS HELM
 E 1 24134 0 11      *     HOLDS SHIELD
 E 1 24135 0 17      *     HOLDS SPEAR
 *
-M 1 24130 8 24115  1 *     LOADS SENTINEL GUARDS TO INSIDE WEST GATE     
-E 1 24129 0 16      *     WIELDS SWORD        
-E 1 24130 0 5       *     WEARS BREASTPLATE        
+M 1 24130 8 24115  1 *     LOADS SENTINEL GUARDS TO INSIDE WEST GATE
+E 1 24129 0 16      *     WIELDS SWORD
+E 1 24130 0 5       *     WEARS BREASTPLATE
 E 1 24131 0 14      *     WEARS BRACER
 E 1 24131 0 15      *     WEARS BRACER
 E 1 24132 0 3       *     WEARS CLOAK
@@ -2714,8 +2721,8 @@ E 1 24134 0 11      *     HOLDS SHIELD
 E 1 24135 0 17      *     HOLDS SPEAR
 *
 M 1 24130 8 24116   1*     LOADS SENTINELS TO INSIDE EAST GATE
-E 1 24129 0 16      *     WIELDS SWORD        
-E 1 24130 0 5       *     WEARS BREASTPLATE        
+E 1 24129 0 16      *     WIELDS SWORD
+E 1 24130 0 5       *     WEARS BREASTPLATE
 E 1 24131 0 14      *     WEARS BRACER
 E 1 24131 0 15       *    WEARS BRACER
 E 1 24132 0 3         *   WEARS CLOAK
@@ -2724,8 +2731,8 @@ E 1 24134 0 11          * HOLDS SHIELD
 E 1 24135 0 17          * HOLDS SPEAR
 *
 M 1 24129 8 24169 1*      LOADS SENTINELS TO NEAR PRISON
-E 1 24129 0 16      *     WIELDS SWORD        
-E 1 24130 0 5        *    WEARS BREASTPLATE        
+E 1 24129 0 16      *     WIELDS SWORD
+E 1 24130 0 5        *    WEARS BREASTPLATE
 E 1 24131 0 14        *   WEARS BRACER
 E 1 24131 0 15         *  WEARS BRACER
 E 1 24132 0 3          *  WEARS CLOAK
@@ -2734,8 +2741,8 @@ E 1 24134 0 11          * HOLDS SHIELD
 E 1 24135 0 17          * HOLDS SPEAR
 *
 M 1 24128 8 24145 1 *       LOADS GUARDS TO NEAR MERC
-E 1 24129 0 16       *    WIELDS SWORD        
-E 1 24130 0 5         *   WEARS BREASTPLATE        
+E 1 24129 0 16       *    WIELDS SWORD
+E 1 24130 0 5         *   WEARS BREASTPLATE
 E 1 24131 0 14     *      WEARS BRACER
 E 1 24131 0 15      *     WEARS BRACER
 E 1 24132 0 3        *    WEARS CLOAK
@@ -2744,8 +2751,8 @@ E 1 24134 0 11         *  HOLDS SHIELD
 E 1 24135 0 17          * HOLDS SPEAR
 *
 M 1 24129 8 24153 1*       LOADS GUARDS TO NEAR PET SHOP
-E 1 24129 0 16      *     WIELDS SWORD        
-E 1 24130 0 5        *    WEARS BREASTPLATE        
+E 1 24129 0 16      *     WIELDS SWORD
+E 1 24130 0 5        *    WEARS BREASTPLATE
 E 1 24131 0 14        *   WEARS BRACER
 E 1 24131 0 15         *  WEARS BRACER
 E 1 24132 0 3           * WEARS CLOAK
@@ -2754,8 +2761,8 @@ E 1 24134 0 11      *     HOLDS SHIELD
 E 1 24135 0 17       *    HOLDS SPEAR
 *
 M 1 24128 8 24165 1*       LOADS GUARDS NEAR POOR DISTRICT
-E 1 24129 0 16      *     WIELDS SWORD        
-E 1 24130 0 5        *    WEARS BREASTPLATE        
+E 1 24129 0 16      *     WIELDS SWORD
+E 1 24130 0 5        *    WEARS BREASTPLATE
 E 1 24131 0 14        *   WEARS BRACER
 E 1 24131 0 15         *  WEARS BRACER
 E 1 24132 0 3      *      WEARS CLOAK

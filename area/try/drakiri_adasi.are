@@ -1,8 +1,16 @@
-#AREA
-drakiri_adasi.are~
-Drakiri Adasý~
-{65 90} Ydri    Drakiri Adasý~
-11800 11949
+#AREADATA
+Filename drakiri_adasi.are~
+Name Drakiri Adasý~
+Builder Ydri~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 65
+Highlevel 90
+Minvnum 11800
+Maxvnum 11949
+Path ~
+END
+
 
 #MOBILES
 #11800

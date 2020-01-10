@@ -881,12 +881,12 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
 #endif
 
 #define KEY( literal, field, value )					\
-				if ( !str_cmp( word, literal ) )	\
-				{					\
-				    field  = value;			\
-				    fMatch = TRUE;			\
-				    break;				\
-				}
+  if ( !str_cmp( word, literal ) )	\
+  {					\
+  field  = value;			\
+  fMatch = TRUE;			\
+  break;				\
+}
 
 void fread_char( CHAR_DATA *ch, FILE *fp )
 {
@@ -899,7 +899,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
     long dev_null;
 
 
-    sprintf(buf,"Loading %s.",ch->name);
+    sprintf(buf,"Karakter yukleme: %s.",ch->name);
     log_string(buf);
     ch->pcdata->bank_s = 0;
     ch->pcdata->bank_g = 0;

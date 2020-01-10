@@ -1,8 +1,15 @@
-#AREA
-camelot.are~
-Camelot~
-{20 52} Lok     Camelot~
-17300 17500
+#AREADATA
+Filename camelot.are~
+Name Camelot~
+Builder Lok~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 20
+Highlevel 52
+Minvnum 17300
+Maxvnum 17500
+Path ~
+END
 
 #MOBILES
 #17301

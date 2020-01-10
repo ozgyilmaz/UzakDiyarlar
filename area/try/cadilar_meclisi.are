@@ -1,8 +1,15 @@
-#AREA
-cadilar_meclisi.are~
-Cadýlar Meclisi~
-{25 35} MacAsp  Cadý Meclisi~
-29120 29180
+#AREADATA
+Filename cadilar_meclisi.are~
+Name Cadýlar Meclisi~
+Builder MacAsp~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 25
+Highlevel 35
+Minvnum 29120
+Maxvnum 29180
+Path ~
+END
 
 #HELPS
 52 coven~

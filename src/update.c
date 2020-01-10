@@ -205,11 +205,11 @@ void gain_exp( CHAR_DATA *ch, int gain )
 
         if (ch->level == 90)
           {
-            sprintf(log_buf, "%s made level 90.", ch->name);
+            sprintf(log_buf, "%s seviye 90 oldu.", ch->name);
             log_string(log_buf);
           }
 
-	sprintf(buf,"$N has attained level %d!",ch->level);
+	sprintf(buf,"$N seviye %d oldu!",ch->level);
 	wiznet(buf,ch,NULL,WIZ_LEVELS,0,0);
 	advance_level( ch );
 	save_char_obj(ch);
@@ -1887,7 +1887,7 @@ void update_handler( void )
 
     if ( --pulse_area     <= 0 )
     {
-	wiznet("AREA & ROOM TICK!",NULL,NULL,WIZ_TICKS,0,0);
+	wiznet("BOLGE & ODA YENILEME!",NULL,NULL,WIZ_TICKS,0,0);
 	pulse_area	= PULSE_AREA;
 	area_update	( );
 	room_update	( );
@@ -1932,7 +1932,7 @@ void update_handler( void )
 
     if ( --pulse_point    <= 0 )
     {
-	wiznet("CHAR TICK!",NULL,NULL,WIZ_TICKS,0,0);
+	wiznet("KARAKTER YENILEME!",NULL,NULL,WIZ_TICKS,0,0);
 	pulse_point     = PULSE_TICK;
 	weather_update	( );
 	char_update	( );

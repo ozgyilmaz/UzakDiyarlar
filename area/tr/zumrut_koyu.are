@@ -1,8 +1,16 @@
-#AREA
-tr_zumrut_koyu.are~
-Zümrüt Köyü~
-{ 1 10} Serendal Zümrüt Köyü~
-100 199
+#AREADATA
+Filename zumrut_koyu.are~
+Name Zümrüt Köyü~
+Builder Serendal~
+Translator ~
+Language Türkçe~
+Lowlevel 1
+Highlevel 10
+Minvnum 100
+Maxvnum 199
+Path ~
+END
+
 #MOBILES
 #101
 köylü~

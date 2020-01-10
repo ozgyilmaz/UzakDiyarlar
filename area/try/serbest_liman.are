@@ -1,8 +1,15 @@
-#AREA
-serbest_liman.are~
-Serbest Liman~
-{ 8 53} Lok     Serbest Liman~
-29201 29276
+#AREADATA
+Filename serbest_liman.are~
+Name Serbest Liman~
+Builder Lok~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 8
+Highlevel 53
+Minvnum 29201
+Maxvnum 29276
+Path ~
+END
 
 #MOBILES
 #29201

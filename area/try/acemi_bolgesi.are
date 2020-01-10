@@ -1,8 +1,15 @@
-#AREA
-acemi_bolgesi.are~
-Acemi Bölgesi~
-{ 1 10} Maynard Acemi Bölgesi~
-18600 18699
+#AREADATA
+Filename acemi_bolgesi.are~
+Name Acemi Bölgesi~
+Builder Maynard~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 1
+Highlevel 10
+Minvnum 18600
+Maxvnum 18699
+Path ~
+END
 
 #HELPS
 -1 'zone newbie'~

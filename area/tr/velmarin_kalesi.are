@@ -1,8 +1,15 @@
-#AREA
-velmarin_kalesi.are~
-Velmar'ýn Kalesi~
-{30 50} Anon    Velmar'ýn Kalesi~
-15200 15299
+#AREADATA
+Filename velmarin_kalesi.are~
+Name Velmar'ýn Kalesi~
+Builder Anon~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 30
+Highlevel 50
+Minvnum 15200
+Maxvnum 15299
+Path ~
+END
 
 
 #MOBILES

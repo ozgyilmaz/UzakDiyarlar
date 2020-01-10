@@ -2413,7 +2413,6 @@ struct	area_data
     char *		file_name;
     char *		name;
     char *		writer;
-    char *		credits;
     sh_int		age;
     sh_int		nplayer;
     sh_int		low_range;
@@ -2424,6 +2423,10 @@ struct	area_data
     unsigned long	count;
     char *		resetmsg;
     long		area_flag;
+		// Yeni degerler
+		char *		language;
+		char *		translator;
+		char *		path;
 };
 
 struct room_history_data

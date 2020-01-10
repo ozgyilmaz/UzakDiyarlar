@@ -1,8 +1,15 @@
-#AREA
-mirkwood.are~
-Mirkwood~
-{ 5 15} Yaegar  Mirkwood~
-8800 8899
+#AREADATA
+Filename mirkwood.are~
+Name Mirkwood~
+Builder Yaegar~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 5
+Highlevel 15
+Minvnum 8800
+Maxvnum 8899
+Path ~
+END
 
 #HELPS
 0 mirkwood~

@@ -1,8 +1,16 @@
-#AREA
-mekanikdusler.are~
-Mekanik Düþler~
-{ 1  5} Furey   Mekanik Düþler~
-8600 8699
+#AREADATA
+Filename mekanik_dusler.are~
+Name Mekanik Düþler~
+Builder Furey~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 1
+Highlevel 5
+Minvnum 8600
+Maxvnum 8699
+Path ~
+END
+
 #MOBILES
 #8600
 bekçi~

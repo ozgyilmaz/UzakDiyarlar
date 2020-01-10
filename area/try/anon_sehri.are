@@ -1,8 +1,15 @@
-#AREA
-anon_sehri.are~
-Anon Þehri~
-{ 1 65} Yaegar  Anon Þehri~
-31000 31199
+#AREADATA
+Filename anon_sehri.are~
+Name Anon Þehri~
+Builder Yaegar~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 1
+Highlevel 65
+Minvnum 31000
+Maxvnum 31199
+Path ~
+END
 
 #HELPS
 0 City Anon~

@@ -1,8 +1,16 @@
-#AREA
-olympus.are~
-Sumut Ýstihkamý~
-{ 5 60} Generic Sumut Ýstihkamý~
-900 999
+#AREADATA
+Filename olympus.are~
+Name Sumut Ýstihkamý~
+Builder Generic~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 5
+Highlevel 60
+Minvnum 900
+Maxvnum 999
+Path ~
+END
+
 #MOBILES
 #901
 amrir kral~

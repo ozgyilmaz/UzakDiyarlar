@@ -1,8 +1,15 @@
-#AREA
-goblin_kavmi.are~
-Goblin Kavmi~
-{10 25} Mort  Goblin Kavmi~
-9901 9999
+#AREADATA
+Filename goblin_kavmi.are~
+Name Goblin Kavmi~
+Builder Mort~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 10
+Highlevel 25
+Minvnum 9901
+Maxvnum 9999
+Path ~
+END
 
 #MOBILES
 #9901

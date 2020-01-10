@@ -1,8 +1,15 @@
-#AREA
-arkadya.are~
-Arcadia~
-{30 90} Cernunn Arkadya~
-12000 12157
+#AREADATA
+Filename arkadya.are~
+Name Arkadya~
+Builder Cernunn~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 30
+Highlevel 90
+Minvnum 12000
+Maxvnum 12157
+Path ~
+END
 
 
 #MOBILES

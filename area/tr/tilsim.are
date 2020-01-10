@@ -1,8 +1,15 @@
-#AREA
-tilsim.are~
-Týlsým~
-{90 100} Asena Týlsým~
-530 539
+#AREADATA
+Filename tilsim.are~
+Name Týlsým~
+Builder Asena~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 90
+Highlevel 100
+Minvnum 530
+Maxvnum 539
+Path ~
+END
 
 #MOBILES
 #530

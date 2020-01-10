@@ -1,8 +1,16 @@
-#AREA
-cuce_kralligi.are~
-Cüce Krallýðý~
-{10 25} Anon    Cüce Krallýðý~
-6500 6599
+#AREADATA
+Filename cuce_kralligi.are~
+Name Cüce Krallýðý~
+Builder Anon~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 10
+Highlevel 25
+Minvnum 6500
+Maxvnum 6599
+Path ~
+END
+
 #MOBILES
 #6500
 cüce muhafýz~

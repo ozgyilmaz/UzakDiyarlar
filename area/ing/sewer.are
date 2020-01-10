@@ -1,8 +1,16 @@
-#AREA
-sewer.are~
-Sewers~
-{ 5 30} Diku    Sewer~
-7000 7499
+#AREADATA
+Filename sewer.are~
+Name Sewers~
+Builder Diku~
+Translator ~
+Language Ýngilizce~
+Lowlevel 5
+Highlevel 30
+Minvnum 7000
+Maxvnum 7499
+Path ~
+END
+
 #MOBILES
 #7000
 oldstyle mud monster mudmonster~
@@ -10,7 +18,7 @@ the horrifying mudmonster~
 A horrifying mudmonster is slowly evolving from the mud ...
 ~
 It sure looks like something out of a horror movie. It strongly resembles
-a huge figure made up from mud alone, and it sure looks like it had human 
+a huge figure made up from mud alone, and it sure looks like it had human
 flesh for breakfast and is strongly intent on having the same for dinner.
 ~
 human~
@@ -168,7 +176,7 @@ the horrifying mudmonster~
 A horrifying mudmonster is slowly evolving from the mud ...
 ~
 It sure looks like something out of a horror movie. It strongly resembles
-a huge figure made up from mud alone, and it sure looks like it had human 
+a huge figure made up from mud alone, and it sure looks like it had human
 flesh for breakfast and is strongly intent on having the same for dinner.
 ~
 human~
@@ -330,7 +338,7 @@ the junior mindflayer~
 The junior mindflayer is here, watching you carefully from the corner.
 ~
 This mindflayer is six foot high. It has a small mace in its belt, and is
-dressed in purple and black cloth. It has four small tentacles in the 
+dressed in purple and black cloth. It has four small tentacles in the
 center of its head.
 ~
 human~
@@ -557,7 +565,7 @@ A
 1 3
 E
 plate breast silvery~
-On the breast plate you notice a relief of large rose. The metal seems to be 
+On the breast plate you notice a relief of large rose. The metal seems to be
 some kind of silver or platinum.
 ~
 #7218
@@ -819,7 +827,7 @@ the smell is absolutely OVERWHELMING.
 S
 #7002
 The muddy sewer junction~
-The muddy sewer stretches into the dark to the south. It looks as if 
+The muddy sewer stretches into the dark to the south. It looks as if
 no person has ever sat his foot here before. It's too muddy for that
 anyway. The sewer leads north, south and east from here.
 ~
@@ -847,7 +855,7 @@ the smell is absolutely OVERWHELMING.
 S
 #7003
 The mudhole~
-You stand in mud all the way up to your thighs and it's not too 
+You stand in mud all the way up to your thighs and it's not too
 comfortable since you are used to a somewhat different environment.
 The sewer leads to the north of here. In the middle you can just make
 out an enormous drainpipe leading down.
@@ -882,7 +890,7 @@ East. The sewer leads into the sewer junction.
 ~
 0 -1 7009
 D5
-The Dark Pit leads down and down and down ... well you can't see the 
+The Dark Pit leads down and down and down ... well you can't see the
 bottom anyway. There are bars that function as a ladder on the side.
 ~
 ~
@@ -901,7 +909,7 @@ East. The mud stretches on into the darkness.
 ~
 0 -1 7011
 D2
-South. There is even more mud in that direction than where you are now. 
+South. There is even more mud in that direction than where you are now.
 Incredible.
 ~
 ~
@@ -915,7 +923,7 @@ S
 #7006
 The muddy sewer~
 You are standing in something that reminds you very much of porridge, this
-has the advantage that it's not hot, it's rather cold actually. The pipe 
+has the advantage that it's not hot, it's rather cold actually. The pipe
 bends to the north and east.
 ~
 0 AD 5
@@ -944,13 +952,13 @@ bend in which you stand leads west and south.
 ~
 0 AD 5
 D2
-The pipe leads into a intersection that goes south and east. The floor here 
+The pipe leads into a intersection that goes south and east. The floor here
 is still covered in mud.
 ~
 ~
 0 -1 7008
 D3
-The pipe (still filled with mud) leads into a intersection that goes north 
+The pipe (still filled with mud) leads into a intersection that goes north
 and south. Interesting.
 ~
 ~
@@ -977,13 +985,13 @@ The bend leads west.
 0 -1 7007
 D1
 East. This way like a place for the annual mud festival, although the stench
-wouldn't allow any happiness at all. The pipe leads into a bend that leads 
+wouldn't allow any happiness at all. The pipe leads into a bend that leads
 north.
 ~
 ~
 0 -1 7014
 D2
-South. There's less mud in that direction. *smile*. Your light doesn't 
+South. There's less mud in that direction. *smile*. Your light doesn't
 cover enough space for you to see much more than that it leads into some
 sort of junction.
 ~
@@ -1013,7 +1021,7 @@ YYEEUUCH! BOOH! THAT looks like a nice place for creepy crawlies.
 ~
 0 -1 7017
 D2
-North. This direction looks quite nice actually. The pipe leads into 
+North. This direction looks quite nice actually. The pipe leads into
 a bend that goes east.
 ~
 ~
@@ -1055,7 +1063,7 @@ S
 #7011
 The muddy sewer pipe~
 You have entered a kind of tube intersection that leads south, west and east.
-Your legs are covered in mud up to the knees. REAL yucky! 
+Your legs are covered in mud up to the knees. REAL yucky!
 ~
 0 AD 5
 D1
@@ -1107,8 +1115,8 @@ the smell is absolutely OVERWHELMING.
 S
 #7013
 A MUDDY intersection~
-You wouldn't want to know the true feeling of standing in this mud up to 
-your hips. >BWAADR<. All that fills your mind right now is the dream of 
+You wouldn't want to know the true feeling of standing in this mud up to
+your hips. >BWAADR<. All that fills your mind right now is the dream of
 a hot bath. This is NOT very clean mud you know, remember you're in the
 sewer! The pipes leads north, south and east.
 ~
@@ -1198,7 +1206,7 @@ enough for you to climb down, WITH both hands on them.
 S
 #7016
 The ordinary bend~
-You are in the middle of a bend in the pipe system of the sewer system, 
+You are in the middle of a bend in the pipe system of the sewer system,
 WHAT a place!!! The pipe leads to the south and the east.
 ~
 0 AD 1
@@ -1248,7 +1256,7 @@ To the north you can see a junction like this one, leading north and west.
 ~
 0 -1 7017
 D1
-To the east there's nothing of particular interest, though there's a 
+To the east there's nothing of particular interest, though there's a
 junction with pipelines leading north and east.
 ~
 ~
@@ -1303,7 +1311,7 @@ entryway~
 S
 #7024
 The sewer~
-You are standing in mud up to your ankles. This is an intersection with 
+You are standing in mud up to your ankles. This is an intersection with
 sewer pipes leading east, south and west.
 ~
 0 ACD 1
@@ -1337,7 +1345,7 @@ east. You notice that the floor to the west is covered in mud.
 ~
 0 -1 7024
 D1
-East. You see nothing of interest in that direction, just another 
+East. You see nothing of interest in that direction, just another
 intersection. This one leads east and south.
 ~
 ~
@@ -1351,7 +1359,7 @@ S
 #7026
 A junction~
 This one seems interesting, a big difference from all the other junctions.
-It seems cleaner than the rest of them. Weird. Something that looks like 
+It seems cleaner than the rest of them. Weird. Something that looks like
 an air shaft leads upwards, but it looks far too slippery to climb.
 The pipes lead to the south, west and north.
 ~
@@ -1400,7 +1408,7 @@ To the west you can just make out an old well.
 S
 #7029
 The Triple Junction~
-You stand in the middle of a huge junction of concrete sewer pipes. The 
+You stand in the middle of a huge junction of concrete sewer pipes. The
 pipes lead into three different directions : east, south and west.
 ~
 0 AD 1
@@ -1416,7 +1424,7 @@ an odd light.
 ~
 0 -1 7030
 D3
-To the west you can just make out another junction similar to the one 
+To the west you can just make out another junction similar to the one
 you are standing in.
 ~
 ~
@@ -1425,9 +1433,9 @@ S
 #7030
 The Quadruple Junction Under the Dump~
 You are standing in something that reminds you of an entry to an ant hive.
-There are enormous concrete pipes leading north, south, east and west. 
+There are enormous concrete pipes leading north, south, east and west.
 There's also a metal ladder built into the concrete wall leading up through
-a layer of garbage. 
+a layer of garbage.
 ~
 0 ACD 1
 D0
@@ -1504,7 +1512,7 @@ West. You can just make out a triple junction leading north and west.
 S
 #7035
 The sewer pipe bend~
-You can look in two different directions where the pipe goes : west and 
+You can look in two different directions where the pipe goes : west and
 north.
 ~
 0 AD 2
@@ -1575,7 +1583,7 @@ West. You see another junction similar to this one leading north and south.
 S
 #7039
 The Sewer Store Room~
-You stand in a small room lit by a single torch set in the wall. The only 
+You stand in a small room lit by a single torch set in the wall. The only
 way out of here is to the north.
 ~
 0 D 1
@@ -1598,7 +1606,7 @@ To the south you can see the pipe leading further south into darkness.
 ~
 0 -1 7043
 D5
-Down and utter darkness. There's absolutely nothing to be seen in that 
+Down and utter darkness. There's absolutely nothing to be seen in that
 direction.
 ~
 ~
@@ -1744,7 +1752,7 @@ and west.
 S
 #7050
 The small room~
-The only thing in this room of interest is a chair, and that's tight to the 
+The only thing in this room of interest is a chair, and that's tight to the
 rock floor. A doorway leads south and another leads east into darkness.
 ~
 0 AD 1
@@ -1766,7 +1774,7 @@ floor makes you think twice about taking it along with you.
 S
 #7051
 The Sewer pipe~
-You are in what reminds you of a foul sewer, as if you liked being here! 
+You are in what reminds you of a foul sewer, as if you liked being here!
 You can see two exits leading either north or south.
 ~
 0 D 1
@@ -1782,7 +1790,7 @@ To the south you can see a strange light flowing from there.
 S
 #7052
 The Grand Sewer~
-You are in a Grand Sewer Pipe. This stretches toward the south. It's large 
+You are in a Grand Sewer Pipe. This stretches toward the south. It's large
 indeed! A doorway leads to the east from here.
 ~
 0 D 1
@@ -1825,7 +1833,7 @@ leads east and a doorway leads west.
 ~
 0 AD 3
 D1
-You can hardly make out much more than that the next place is in a pipe 
+You can hardly make out much more than that the next place is in a pipe
 with more water.
 ~
 ~
@@ -1858,7 +1866,7 @@ You see a lot of light, bright as daylight, but nothing of interest.
 S
 #7057
 The dark passageway~
-You can't see anything but the ground where you put your feet. The 
+You can't see anything but the ground where you put your feet. The
 passageway seems to continue south and north.
 ~
 0 AD 1
@@ -2142,9 +2150,9 @@ S
 #7069
 A ledge by the dark pool~
 You can't see much here but the echo tells you that there's quite a drop
-down. You can just make out a huge dark pool out there in the darkness, 
+down. You can just make out a huge dark pool out there in the darkness,
 mostly because of the trickling of water. The water from the sewer actually
-washes over this ledge and makes it quite slippery. From here it drops, 
+washes over this ledge and makes it quite slippery. From here it drops,
 like a waterfall, into the pool far down.
 ~
 0 AD 5
@@ -2195,7 +2203,7 @@ S
 #7099
 The fissure under the ledge~
 This is a small fissure in the solid rock. Under you lies the deep dark pool.
-The water trickles quietly down from the ledge above you. The water smells 
+The water trickles quietly down from the ledge above you. The water smells
 like the water in a sewer.
 ~
 0 ACD 5
@@ -2212,9 +2220,9 @@ S
 #7101
 Under the mudhole~
 You stand in a small room with a great big opening in the ceiling. From this
-opening there's mud dripping down in large lumps. >YUCK<. You can smell the 
-foul stench of the slimy sediment as you try not to get covered by the 
-falling sludge. To the east there is an entryway leading out from here and 
+opening there's mud dripping down in large lumps. >YUCK<. You can smell the
+foul stench of the slimy sediment as you try not to get covered by the
+falling sludge. To the east there is an entryway leading out from here and
 it seems absolutely impossible to force the muddy descent.
 ~
 0 ACD 5
@@ -2269,7 +2277,7 @@ You have a feeling it would be nice to have your feet free from mud again.
 ~
 0 -1 7104
 D3
-You can see a room in which mud drips from the roof onto the floor in 
+You can see a room in which mud drips from the roof onto the floor in
 great cakes of sludge. There doesn't seem to be any exits from that room
 apart from in you direction.
 ~
@@ -2305,7 +2313,7 @@ S
 #7105
 Down the old well~
 You are dangling on the slippery sides of the old well leading down and up.
-The only secure point here is the metal bars that are cemented into the 
+The only secure point here is the metal bars that are cemented into the
 sides, the ones that you cling frantically to so that you don't fall. Who
 knows how deep this well is?
 ~
@@ -2318,7 +2326,7 @@ Anyway it SEEMS darker down here than up there, if that is possible.
 0 -1 7015
 D5
 Down there nothing at all can be spotted. The darkness that engulfs this
-descent seems utterly impossible in a mortal world. It's so thick that a 
+descent seems utterly impossible in a mortal world. It's so thick that a
 torch down there would be utterly useless.  You'd better not go down any
 further.
 ~
@@ -2332,7 +2340,7 @@ not go down any further.
 S
 #7106
 The northwestern corner of the ledge~
-You stand, swaying out from the ledge, with only a couple of inches of safe, 
+You stand, swaying out from the ledge, with only a couple of inches of safe,
 solid ledge under your feet. The ledge continues to the east but not back
 south. It seems that the ledge is too narrow to turn on so you'll have to
 continue forward.
@@ -2363,7 +2371,7 @@ North. The ledge leads into a corner and turns eastward.
 ~
 0 -1 7106
 D1
-You stare into mid-air, and right under there's absolutely nothing but 
+You stare into mid-air, and right under there's absolutely nothing but
 darkness. You shiver by the thought of falling an utterly unknown distance.
 ~
 ~
@@ -2451,8 +2459,8 @@ South. You can just make out the south-western corner of this ledge.
 S
 #7111
 The southwestern corner of the ledge~
-This seems like a ledge that is a little broader than the one just to the 
-north of here. The ledge seems to lead around some sort of Abyss of total 
+This seems like a ledge that is a little broader than the one just to the
+north of here. The ledge seems to lead around some sort of Abyss of total
 darkness. The ledge seems to have an odd-looking edge here.
 ~
 0 ACD 5
@@ -2489,7 +2497,7 @@ SPLAT!!!
 E
 edge odd-looking~
 This is truly a weird piece of craftsmanship in your eyes. The edge seems to
-form a step leading down, but WHAT a STEP DOWN. The Abyss opens down there 
+form a step leading down, but WHAT a STEP DOWN. The Abyss opens down there
 leading to seemingly total destruction.
 ~
 S
@@ -2553,9 +2561,9 @@ You've fallen, and you can't get up!!!
 S
 #7115
 The Broad ledge~
-You are standing on a ledge that seems quite a lot larger than the rest 
+You are standing on a ledge that seems quite a lot larger than the rest
 of the ledges. This one leads to the west and the east, plus it has an exit
-going to the south. Though you could jump into mid-air, but it probably 
+going to the south. Though you could jump into mid-air, but it probably
 wouldn't be such a good idea. The way south is in utter darkness.
 ~
 0 ACD 4
@@ -2605,7 +2613,7 @@ into the seemingly solid rock face of the ledge.
 E
 ground ledge rock~
 The ground here seems a little different from all the other ledges along the
-Abyss. There's a kind of soft soil on this ledge, maybe you should look 
+Abyss. There's a kind of soft soil on this ledge, maybe you should look
 carefully at this. It seems to be of some interest.
 ~
 S
@@ -2788,7 +2796,7 @@ S
 The Edge of the Water~
 The pool side is dimly lit up by your light. You can see absolutely nothing
 else nearby. The darkness here seems enormously oppressive. The air is
-damp and the rock on which you stand is slippery. The pool seems too dark 
+damp and the rock on which you stand is slippery. The pool seems too dark
 to make anything clear. The rock can be climbed upwards from here.
 ~
 0 ACD 5
@@ -2820,7 +2828,7 @@ This is a heavy black stone door it looks very solid.
 S
 #7201
 The inner Lair~
-You are in a octagonal room with smooth purple stone walls.  The floor is 
+You are in a octagonal room with smooth purple stone walls.  The floor is
 made from black stone.  In the western wall you see a large black stone door.
 ~
 0 AD 0
@@ -2838,7 +2846,7 @@ S
 #7202
 The Lair~
 On the floor you see a lot of human decay, like bones and skulls. You also
-see a lot of slime. On the wall is a torch sitting in its sconce. To the north 
+see a lot of slime. On the wall is a torch sitting in its sconce. To the north
 are a wooden door.
 ~
 0 D 1
@@ -2867,7 +2875,7 @@ The slime is slimy and uninteresting.
 ~
 E
 skull skulls bones decay~
-On all the skulls you notice that there is a three inch hole in the 
+On all the skulls you notice that there is a three inch hole in the
 forehead. All the bones are broken and old.
 ~
 S
@@ -2902,7 +2910,7 @@ The slime is slimy and uninteresting.
 ~
 E
 skull skulls bones decay~
-On all the skulls you notice that there is a three inch hole in the 
+On all the skulls you notice that there is a three inch hole in the
 forehead. All the bones are broken and old.
 ~
 S
@@ -2937,7 +2945,7 @@ The slime is slimy and uninteresting.
 ~
 E
 skull skulls bones decay~
-On all the skulls you notice that there is a three inch hole in the 
+On all the skulls you notice that there is a three inch hole in the
 forehead. All the bones are broken and old.
 ~
 S
@@ -2967,7 +2975,7 @@ The slime is slimy and uninteresting.
 ~
 E
 skull skulls bones decay~
-On all the skulls you notice that there is a three inch hole in the 
+On all the skulls you notice that there is a three inch hole in the
 forehead. All the bones are broken and old.
 ~
 S
@@ -3031,13 +3039,13 @@ The slime is slimy and uninteresting.
 ~
 E
 skull skulls bones decay~
-On all the skulls you notice that there is a three inch hole in the 
+On all the skulls you notice that there is a three inch hole in the
 forehead. All the bones are broken and old.
 ~
 S
 #7208
 The lair entrance.~
-You are in a dry part of the sewer. To the north is a wooden door, you 
+You are in a dry part of the sewer. To the north is a wooden door, you
 can see some slime at the lower part of the door. You also see some skulls
 and some broken bones.
 ~
@@ -3178,7 +3186,7 @@ The water is dirty but it looks like you would be able to swim in it.
 S
 #7216
 Under water in the sewer.~
-You swim in some dirty water and is holding you breath. You'll better 
+You swim in some dirty water and is holding you breath. You'll better
 continue before you drown. It is a good thing that you can hold your light
 above water-level.
 ~
@@ -3270,7 +3278,7 @@ You can see another drain to the east.
 S
 #7221
 The sewer drain.~
-You are in a sewer drain, there is nothing special in here, except for a 
+You are in a sewer drain, there is nothing special in here, except for a
 loud echo.
 ~
 0 AD 3
@@ -3329,7 +3337,7 @@ S
 #7224
 The sewer junction~
 You stand in a junction of three sewer drains. You see some odd scratches on
-the pipe wall, as from a gigantic rat.North and south the sewer continues 
+the pipe wall, as from a gigantic rat.North and south the sewer continues
 as usual, but west it looks a little strange.
 ~
 0 AD 3
@@ -3352,7 +3360,7 @@ S
 #7225
 The sewer~
 You are in a sewer, where the slimy water runs down through a tiny hole.
-You see some odd scratches on the pipe wall, as from a gigantic rat. There 
+You see some odd scratches on the pipe wall, as from a gigantic rat. There
 is a sewer drain south.
 ~
 0 AD 3
@@ -3382,7 +3390,7 @@ You see a slimy sewer drain.
 S
 #7230
 The damp sewer~
-You are in a sewer drain with a funny damp substance on the floor, in the 
+You are in a sewer drain with a funny damp substance on the floor, in the
 substance you see a lot of decay. You see some odd scratches on the wall, as
 from a gigantic rat. Both to the east and west the pipe seems to run down.
 ~
@@ -3439,7 +3447,7 @@ S
 #7233
 The sewer drain~
 You stand in in a sewer drain, you are able to see some kind of cave-like
-room. You see some odd scratches on the drain wall, as from a gigantic rat. 
+room. You see some odd scratches on the drain wall, as from a gigantic rat.
 The sewer leads south.
 ~
 0 AD 3
@@ -3456,7 +3464,7 @@ You see a sewer.
 S
 #7234
 The rat's lair~
-You are in a little cave. You are able to see quite a lot of debris on the 
+You are in a little cave. You are able to see quite a lot of debris on the
 floor. There is a sewer drain west of here.
 ~
 0 AD 3
@@ -3468,7 +3476,7 @@ You see the sewer system that way.
 S
 #7279
 The Wall of the Abyss~
-You hang onto some steps leading down into utter darkness. There's an exit 
+You hang onto some steps leading down into utter darkness. There's an exit
 leading up as well, though you'll have to open the tiny rock again to do so.
 ~
 0 AD 5
@@ -3541,8 +3549,8 @@ S
 #7282
 The Realm of lost souls~
 You are standing in nothing. All around you there are stars.
-Sometimes a shadow flies closely by you, wailing very loudly. 
-To the north there is a small bright hole. To the west there is 
+Sometimes a shadow flies closely by you, wailing very loudly.
+To the north there is a small bright hole. To the west there is
 a small red hole.
 ~
 0 D 0
@@ -3609,8 +3617,8 @@ One of them looks like he has written something at the wall.
 S
 #7285
 The tortureroom.~
-You are standing in a middle of a square room. Along the walls skeletons 
-are hanging in rusty chains. In the middle of the room there is a big metal 
+You are standing in a middle of a square room. Along the walls skeletons
+are hanging in rusty chains. In the middle of the room there is a big metal
 box, covered with dust. To the south you can just make out a small exit.
 ~
 0 D 1
@@ -3626,7 +3634,7 @@ filled with coal, as you see some of them.
 ~
 E
 skeletons~
-When you look at the skeletons, you can see that they once had been in great 
+When you look at the skeletons, you can see that they once had been in great
 pain. They are hanging in their arms, and some of them has been killed
 with a sharp instrument.
 ~
@@ -3635,7 +3643,7 @@ S
 The hells yard~
 You are standing in a lot of mud. A disgusting smell surrounds
 the place, and makes you feel sick. Small flames sometimes shoot
-up from the hot mud. To the west there is a small door. To the 
+up from the hot mud. To the west there is a small door. To the
 north you can see an iron door.
 ~
 0 CD 5
@@ -3654,8 +3662,8 @@ S
 The Entrance to the Realm of silence~
 This is an utterly silent place. As you look around you see that there
 hasn't been a living thing in a long time. The dust lies here in a thick
-layer on the floor and on the furniture. On the wall hangs a bleak and 
-worn tapestry. A winding stone staircase leads up into darkness. On the 
+layer on the floor and on the furniture. On the wall hangs a bleak and
+worn tapestry. A winding stone staircase leads up into darkness. On the
 wall to the west you can see a huge torch stuck into the solid rock.
 A large portcullis blocks your way to the north.
 ~
@@ -3671,13 +3679,13 @@ D4
 0 -1 -1
 E
 stairs staircase~
-This looks as if it has been standing here for at least 12 centuries. It's 
+This looks as if it has been standing here for at least 12 centuries. It's
 Very worn and cracks in the surface mingle with the cores of mineral that
 penetrates the rock from which these steps are chiselled.
 ~
 E
 torch light~
-This VERY old torch looks as if it has burned for ages, yet no traces of 
+This VERY old torch looks as if it has burned for ages, yet no traces of
 the searing flame can be seen on it!
 ~
 E
@@ -3690,7 +3698,7 @@ On the walls of the Abyss~
 You are clutching the steps on the wall so that you don't fall to the ground
 down below.
 A large sign says : I haven't gotten any further ... Yet. But  I'm pushing
-                    to get finished with this sewer. 
+                    to get finished with this sewer.
                                            Greetings and Good Health :)
                                                      Redferne The Gentle
 This stops your journey down, the only exit is up.
@@ -4571,7 +4579,7 @@ The hay is very dirty. The smell of it makes you feel sick.
 S
 #7440
 South-western part of basilisks cave~
-You can see nothing but smoke. 
+You can see nothing but smoke.
 ~
 0 AD 5
 D0
@@ -4816,8 +4824,7 @@ S
 
 #OLIMITS
 O 7221 1
-O 7303 10	* sanctuary potion 
+O 7303 10	* sanctuary potion
 S
 
 #$
-

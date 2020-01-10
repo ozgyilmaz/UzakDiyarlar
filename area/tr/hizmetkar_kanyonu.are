@@ -1,8 +1,16 @@
-#AREA
-hizmetkar_kanyonu.are~
-Hizmetkar Kanyonu~
-{ 5 30} Raff    Hizmetkar Kanyonu~
-9200 9299
+#AREADATA
+Filename hizmetkar_kanyonu.are~
+Name Hizmetkar Kanyonu~
+Builder Raff~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 5
+Highlevel 30
+Minvnum 9200
+Maxvnum 9299
+Path ~
+END
+
 #MOBILES
 #9201
 daðcý~

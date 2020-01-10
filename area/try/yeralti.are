@@ -1,8 +1,15 @@
-#AREA
-yeralti.are~
-Yeraltý~
-{13 50} Silence Yeraltý~
-16000 16300
+#AREADATA
+Filename yeralti.are~
+Name Yeraltý~
+Builder Silence~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 13
+Highlevel 50
+Minvnum 16000
+Maxvnum 16300
+Path ~
+END
 
 #MOBILES
 #16001

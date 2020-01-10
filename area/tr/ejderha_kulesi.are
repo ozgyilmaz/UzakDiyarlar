@@ -1,8 +1,16 @@
-#AREA
-ejderha_kulesi.are~
-Ejderha Kulesi~
-{ 5 30} Wench   Ejderha Kulesi~
-2200 2299
+#AREADATA
+Filename ejderha_kulesi.are~
+Name Ejderha Kulesi~
+Builder Wench~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 5
+Highlevel 30
+Minvnum 2200
+Maxvnum 2299
+Path ~
+END
+
 #MOBILES
 #2200
 eskitip yavru ejderha~

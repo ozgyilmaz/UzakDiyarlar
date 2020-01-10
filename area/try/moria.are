@@ -1,8 +1,15 @@
-#AREA
-moria.are~
-Moria~
-{ 5 15} Alfa    Moria~
-3900 4199
+#AREADATA
+Filename moria.are~
+Name Moria~
+Builder Alfa~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 5
+Highlevel 15
+Minvnum 3900
+Maxvnum 4199
+Path ~
+END
 
 #MOBILES
 #4000

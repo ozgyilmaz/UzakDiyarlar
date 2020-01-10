@@ -1,8 +1,15 @@
-#AREA
-newthalos.are~
-New Thalos~
-{10 35} Conner  New Thalos~
-9500 9799
+#AREADATA
+Filename newthalos.are~
+Name New Thalos~
+Builder Conner~
+Translator ~
+Language Ýngilizce~
+Lowlevel 10
+Highlevel 35
+Minvnum 9500
+Maxvnum 9799
+Path ~
+END
 
 #FLAG
 AB

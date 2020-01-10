@@ -1,8 +1,15 @@
-#AREA
-tr_satranc.are~
-Satranç Tahtasý~
-{10 35} Exxon   Satranç Tahtasý~
-4200 4299
+#AREADATA
+Filename satranc.are~
+Name Satranç Tahtasý~
+Builder Exxon~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 10
+Highlevel 35
+Minvnum 4200
+Maxvnum 4299
+Path ~
+END
 
 #HELPS
 -1 chess chessboard~

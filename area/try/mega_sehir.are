@@ -1,8 +1,15 @@
-#AREA
-mega_sehir.are~
-Mega Þehir~
-{ 5 35} Glop    Mega Þehir~
-8000 8099
+#AREADATA
+Filename mega_sehir.are~
+Name Mega Þehir~
+Builder Glop~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 5
+Highlevel 35
+Minvnum 8000
+Maxvnum 8099
+Path ~
+END
 
 #MOBILES
 #8000

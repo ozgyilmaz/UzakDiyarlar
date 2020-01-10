@@ -705,7 +705,7 @@ bool spec_executioner( CHAR_DATA *ch )
 
 	if ( !IS_NPC(victim) && IS_SET(victim->act, PLR_WANTED)
 	&&   can_see(ch,victim))
-	    { crime = "CRIMINAL"; break; }
+	    { crime = "SUÇLU"; break; }
     }
 
     if ( victim == NULL )
@@ -1199,7 +1199,7 @@ get_room_index(hometown_table[victim->hometown].recall[1]))
        else
     	{
       	  ch->cabal = CABAL_RULER;
-          sprintf(buf, "Üzgünüm ama %s'in izini kaybettim. Gitmeliyim.",
+          sprintf(buf, "Üzgünüm ama %s izini kaybettirdi. Gitmeliyim.",
 	      victim->name);
       	  do_cb(ch, buf);
       	  extract_char(ch, TRUE);

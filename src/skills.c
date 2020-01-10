@@ -470,7 +470,7 @@ void do_glist( CHAR_DATA *ch , char *argument)
 
  if (arg[0] == '\0')
   {
-    send_to_char("Syntax : grupliste <grup>\n\r",ch);
+    send_to_char("Yazým : grupliste <grup>\n\r",ch);
    return;
   }
 
@@ -509,7 +509,7 @@ void do_slook( CHAR_DATA *ch, char *argument)
      one_argument(argument,arg);
      if (arg[0] == '\0')
 	{
-	 send_to_char("Syntax : slook <skill or spell name>.\n\r",ch);
+	 send_to_char("Yazým : slook <skill or spell name>.\n\r",ch);
 	 return;
 	}
 

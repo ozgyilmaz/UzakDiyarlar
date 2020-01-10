@@ -1,8 +1,7 @@
 /***************************************************************************
-*    Uzak Diyarlar, Rom2.4b6 tabanlý Türkçe Mud                            *
-*    http://www.uzakdiyarlar.com                                           *
-*    http://sourceforge.net/projects/uzakdiyarlar                          *
-*    Özgür Yýlmaz (yelbuke@gmail.com)                                      *
+*    Uzak Diyarlar, Anatolia tabanlý Türkçe Mud                            *
+*    http://www.uzakdiyarlar.net                                           *
+*    https://github.com/yelbuke/UzakDiyarlar                               *
 ***************************************************************************/
 #include "ek.h"
 

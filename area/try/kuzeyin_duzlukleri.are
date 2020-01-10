@@ -1,8 +1,16 @@
-#AREA
-kuzeyin_duzlukleri.are~
-Kuzeyin Düzlükleri~
-{ 1 20} Copper  Kuzeyin Düzlükleri~
-300 399
+#AREADATA
+Filename kuzeyin_duzlukleri.are~
+Name Kuzeyin Düzlükleri~
+Builder Copper~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 1
+Highlevel 20
+Minvnum 300
+Maxvnum 399
+Path ~
+END
+
 #MOBILES
 #300
 rahip Aruncus~

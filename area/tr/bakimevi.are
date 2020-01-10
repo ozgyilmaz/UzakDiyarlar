@@ -1,8 +1,16 @@
-#AREA
-tr_bakimevi.are~
-Bakýmevi~
-{ 1  5} Sandman Bakýmevi~
-6600 6699
+#AREADATA
+Filename bakimevi.are~
+Name Bakýmevi~
+Builder Sandman~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 1
+Highlevel 5
+Minvnum 6600
+Maxvnum 6699
+Path ~
+END
+
 #MOBILES
 #6600
 genç cüce~

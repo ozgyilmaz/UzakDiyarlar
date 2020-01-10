@@ -1,8 +1,15 @@
-#AREA
-goblin_kalesi.are~
-Goblin Kalesi~
-{10 20} Badaxe  Goblin Kalesi~
-29000 29099
+#AREADATA
+Filename goblin_kalesi.are~
+Name Goblin Kalesi~
+Builder Badaxe~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 10
+Highlevel 20
+Minvnum 29000
+Maxvnum 29000
+Path ~
+END
 
 #MOBILES
 #29001

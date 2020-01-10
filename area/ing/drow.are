@@ -1,8 +1,16 @@
-#AREA
-drow.are~
-Drow City~
-{15 25} Drkside Drow City~
-5100 5199
+#AREADATA
+Filename drow.are~
+Name Drow City~
+Builder Drkside~
+Translator ~
+Language Ýngilizce~
+Lowlevel 15
+Highlevel 25
+Minvnum 5100
+Maxvnum 5199
+Path ~
+END
+
 #MOBILES
 #5100
 oldstyle goblin slave~
@@ -1247,8 +1255,8 @@ O 5115 wear_prog wear_prog_snake
 O 5115 remove_prog remove_prog_snake
 S
 
-#OLIMITS 
-O 5115 1 
+#OLIMITS
+O 5115 1
 S
 
 #$

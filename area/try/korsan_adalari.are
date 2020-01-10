@@ -1,8 +1,15 @@
-#AREA
-korsan_adalari.are~
-Korsan Adalarý~
-{40 90} Lok     Korsan Adalarý~
-17000 17300
+#AREADATA
+Filename korsan_adalari.are~
+Name Korsan Adalarý~
+Builder Lok~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 40
+Highlevel 90
+Minvnum 17000
+Maxvnum 17300
+Path ~
+END
 
 #MOBILES
 #17011

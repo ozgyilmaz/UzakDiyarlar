@@ -287,7 +287,7 @@ act ("$Z görev ekipmanlarýnýn listesini istiyorsun.",ch, NULL, questman, TO_CHAR
 	    }
 	}
 
-	else if (is_name(arg2, (char*)"girth"))
+	else if (is_name(arg2, (char*)"kemer"))
 	{
 	    if (ch->pcdata->questpoints >= 1000)
 	    {

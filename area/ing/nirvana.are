@@ -1,8 +1,16 @@
-#AREA
-nirvana.are~
-Nirvana~
-{30 35} Fstall  Nirvana~
-9000 9099
+#AREADATA
+Filename nirvana.are~
+Name Nirvana~
+Builder Fstall~
+Translator ~
+Language Ýngilizce~
+Lowlevel 30
+Highlevel 35
+Minvnum 9000
+Maxvnum 9099
+Path ~
+END
+
 #MOBILES
 #9000
 tridrone~
@@ -211,7 +219,7 @@ warp_stone AT AO
 0 0 500 P
 E
 moonstone moon stone white~
-Looking into the smooth surface of this moonstone, you feel strangely at 
+Looking into the smooth surface of this moonstone, you feel strangely at
 peace and balance with the world around you.
 ~
 #0
@@ -222,7 +230,7 @@ Entrance to the Plane of Nirvana~
 You stand before the entrance to a plane of absolute balance and order.  It is
 equally hot and cold, equally light and dark, and made of equal parts of solid
 and liquid.
- 
+
 The plane extends to the west and east, while an exit lies downward.
 ~
 0 0 2
@@ -261,7 +269,7 @@ To the west, the plane seems to extend forever.
 S
 #9002
 The Plane of Nirvana~
-You are on a western strech of the plane.  Boundaries to the east and west seem 
+You are on a western strech of the plane.  Boundaries to the east and west seem
 nonexistent.
 ~
 0 0 2
@@ -278,7 +286,7 @@ The plane continues to the west where is appears to change direction
 S
 #9003
 A Change in Direction~
-Here, the plane seems to direct you to the north.  Also, the plane continues 
+Here, the plane seems to direct you to the north.  Also, the plane continues
 to the west.
 ~
 0 0 2
@@ -343,7 +351,7 @@ To the south, the plane stretches as far as the eye can see.
 S
 #9007
 In the Tower of Nirvana~
-Entering the tower, there seems to be enough light to see by, but no source is 
+Entering the tower, there seems to be enough light to see by, but no source is
 visible.  The hall continues to the east, while a door lies to the west.
 ~
 0 D 0
@@ -360,7 +368,7 @@ door~
 S
 #9008
 A hallway in the Tower of Nirvana~
-You are in a east-west hallway in the tower.  to the west, the hall continues 
+You are in a east-west hallway in the tower.  to the west, the hall continues
 and a door lies to the east.
 ~
 0 D 0
@@ -408,7 +416,7 @@ The Hallway contiues west into oblivion
 S
 #9011
 An intersection in the Tower of Nirvana~
-You are at an intersection where the east-west passage continues, but a large 
+You are at an intersection where the east-west passage continues, but a large
 passage leads to the north.
 ~
 0 D 0
@@ -431,7 +439,7 @@ S
 #9012
 At the door to the Tower of Nirvana~
 You stand on the plane where a mighty door lies to the west.
-The plane also continues north and southward.  There is a large sign on the 
+The plane also continues north and southward.  There is a large sign on the
 door.
 ~
 0 0 2
@@ -460,7 +468,7 @@ enter the Tower of Nirvana.
 S
 #9013
 At the door to the Tower of Nirvana~
-The plane continue to the north and south, while a mighty door lies to the 
+The plane continue to the north and south, while a mighty door lies to the
 east.  There is a sign on the door.
 ~
 0 0 2
@@ -577,8 +585,8 @@ The passage continues westward into oblivion.
 S
 #9020
 The Lair of Primus~
-You are in a large hall, with a massive pool of what appears to be pure energy 
-in the center of the room.  Exits lead in all the cardinal directions.  From 
+You are in a large hall, with a massive pool of what appears to be pure energy
+in the center of the room.  Exits lead in all the cardinal directions.  From
 the pool rises the master of the Plane of Nirvana....
 ~
 0 D 0
@@ -605,7 +613,7 @@ A passage leads west into the unknown.
 S
 #9021
 A Tertian's lair~
-Maybe coming here wasn't such a hot idea.  You feel very unwelcome here.  
+Maybe coming here wasn't such a hot idea.  You feel very unwelcome here.
 Exits lead north and south
 ~
 0 D 0
@@ -623,8 +631,8 @@ S
 #9022
 The office of a Quinton~
 You have stumbled upon the office of a page to Primus.
-Scrolls lie about the room along with many strange objects...you can't imagine 
-what kind of creature would use them.  Exits lead in all the cardinal 
+Scrolls lie about the room along with many strange objects...you can't imagine
+what kind of creature would use them.  Exits lead in all the cardinal
 directions.
 ~
 0 D 0
@@ -699,7 +707,7 @@ To the south you stare into darkness.
 S
 #9026
 An intersection of passages~
-You stand at an intersection.  Exits lead off to the east and south. 
+You stand at an intersection.  Exits lead off to the east and south.
 A door lies to the north
 ~
 0 D 0
@@ -880,7 +888,7 @@ Looking west, you can see an intersection ahead.
 S
 #9036
 Lair of a Hexton~
-You are in a room that is in complete disrepair.  Items are thrown throughout 
+You are in a room that is in complete disrepair.  Items are thrown throughout
 the room making them worthless piles of junk.
 The only exit is back south
 ~
@@ -904,8 +912,8 @@ Looking north, you can make out a hallway.
 S
 #9038
 Office of a Secundus~
-You are standing in a office of one of the Viceroys of the Plane of Nirvana.  
-The occupant doesn't look real thrilled with your presence.  The only exits is 
+You are standing in a office of one of the Viceroys of the Plane of Nirvana.
+The occupant doesn't look real thrilled with your presence.  The only exits is
 west.
 ~
 0 D 0
@@ -955,7 +963,7 @@ To the south you can make out a junction.
 S
 #9041
 Office of a Septon~
-A neat and tidy room, it appear to be inhabited my a neatenss freak.  The only 
+A neat and tidy room, it appear to be inhabited my a neatenss freak.  The only
 exit lies to the north.
 ~
 0 D 0
@@ -993,7 +1001,7 @@ To the west you can see what appears to be a cavernous room.
 S
 #9043
 The Barracks~
-A dusty room, with a almost untolerable odor, the barracks are being inspected 
+A dusty room, with a almost untolerable odor, the barracks are being inspected
 by a Hexton and his personal enterage.
 The only exit lies to the south.
 ~
@@ -1006,8 +1014,8 @@ To the south you can see junction
 S
 #9044
 The Commander's Post~
-You have stumbled on to the office of the Commander of the forces in the Plane 
-Of Nirvana.  The room is well furnished and a sense of courage and bravery 
+You have stumbled on to the office of the Commander of the forces in the Plane
+Of Nirvana.  The room is well furnished and a sense of courage and bravery
 overtakes you as you enter the room.  The only exit lies to the north.
 ~
 0 D 0
@@ -1019,7 +1027,7 @@ To the north you can visualize a junction of passages.
 S
 #9045
 The chamber of the second Secundus~
-This huge room is furnished with the finest, and a personal legion guards the 
+This huge room is furnished with the finest, and a personal legion guards the
 Secundus. the only exit is to the east.
 ~
 0 D 0
@@ -1031,7 +1039,7 @@ To the east you can see a junction
 S
 #9046
 A Passageway~
-You are in a well lit passage.  A sense of forboding danger envelopes you.  
+You are in a well lit passage.  A sense of forboding danger envelopes you.
 Exits lead in all cardinal directions.
 ~
 0 D 0
@@ -1058,7 +1066,7 @@ To the west, a large tunnel can be found.
 S
 #9047
 Chamber of the Octon~
-A small room, sparsely furnished, it leaves you with a sense of fear.  The 
+A small room, sparsely furnished, it leaves you with a sense of fear.  The
 only exit is to the south
 ~
 0 D 0
@@ -1070,7 +1078,7 @@ To the south you can see a passage.
 S
 #9048
 Chamber of the Nonaton~
-You have entered the chamber of the principal law and order overseers.  The 
+You have entered the chamber of the principal law and order overseers.  The
 only exit lies to the north
 ~
 0 D 0
@@ -1082,7 +1090,7 @@ To the north you can see a passageway.
 S
 #9049
 End of the passageway~
-You have reached the end of a long east-west passage.  The passage contiues to 
+You have reached the end of a long east-west passage.  The passage contiues to
 the west, and rooms lie to the north, south, and east.
 ~
 0 D 0
@@ -1109,7 +1117,7 @@ to the west, the passageway continues
 S
 #9050
 Chamber of a Hexton~
-You have entered the chamber of a Hexton.  Trophies adorn the walls, some of 
+You have entered the chamber of a Hexton.  Trophies adorn the walls, some of
 which are human. the only exit is to the south.
 ~
 0 D 0
@@ -1121,7 +1129,7 @@ To the south you can see a passageway.
 S
 #9051
 Chamber of a Hexton~
-You have entered a room where you are not very popular. The only exit lies 
+You have entered a room where you are not very popular. The only exit lies
 northbound.
 ~
 0 D 0
@@ -1133,7 +1141,7 @@ To the north you can see a passage.
 S
 #9052
 Chamber of the Secudus~
-A large canvernous room, this chamber serves as the sleeping quarters for the 
+A large canvernous room, this chamber serves as the sleeping quarters for the
 third Secudus, Viceroy to Primus. The only exit lies to the west.
 ~
 0 D 0
@@ -1193,7 +1201,7 @@ To the north, you can see a passageway.
 S
 #9056
 A large room~
-You have entered a room where you are not wanted.  The only exit lies to the 
+You have entered a room where you are not wanted.  The only exit lies to the
 south.
 ~
 0 D 0
@@ -1205,7 +1213,7 @@ To the south you can visualize a east-west passage.
 S
 #9057
 A room~
-You have entered a room where there was obviously a hurried move going on.  
+You have entered a room where there was obviously a hurried move going on.
 The only exit lies to the north.
 ~
 0 D 0
@@ -1217,8 +1225,8 @@ To the north you can make out a passageway.
 S
 #9058
 Chamber of The First Secundus~
-You have disturbed the rest of the First Viceroy to Primus the Prime, The 
-Secundus.  He does not look like a happy camper. The only exit lies to the 
+You have disturbed the rest of the First Viceroy to Primus the Prime, The
+Secundus.  He does not look like a happy camper. The only exit lies to the
 east.
 ~
 0 D 0

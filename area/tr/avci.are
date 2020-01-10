@@ -1,8 +1,15 @@
-#AREA
-avci.are~
-Avcý Konaðý~
-{90 100} Asena Avcý Konaðý~
-570 579
+#AREADATA
+Filename avci.are~
+Name Avcý Konaðý~
+Builder Asena~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 90
+Highlevel 100
+Minvnum 570
+Maxvnum 579
+Path ~
+END
 
 #MOBILES
 #570

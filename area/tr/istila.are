@@ -1,8 +1,15 @@
-#AREA
-istila.are~
-Ýstila~
-{90 100} Asena Ýstila~
-560 569
+#AREADATA
+Filename istila.are~
+Name Ýstila~
+Builder Asena~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 90
+Highlevel 100
+Minvnum 560
+Maxvnum 569
+Path ~
+END
 
 #MOBILES
 #560
@@ -11,7 +18,7 @@ istila kumandaný~
 Istila kumandaný burada kabalýna hizmet ediyor.
 ~
 Bu güçlü adam, Ýstila Kabalý'na koruyucu olarak hizmet ediyor. O'nun
-vazifesi meclise sýzmak isteyenlere hadlerini bildirmek. 
+vazifesi meclise sýzmak isteyenlere hadlerini bildirmek.
 ~
 human~
 ABJKWe DFHJVZ -1000 0

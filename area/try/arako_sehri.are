@@ -1,8 +1,15 @@
-#AREA
-arako_sehri.are~
-Arako Þehri~
-{15 30} Slash   Arako þehri~
-5600 5699
+#AREADATA
+Filename arako_sehri.are~
+Name Arako Þehri~
+Builder Slash~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 15
+Highlevel 30
+Minvnum 5600
+Maxvnum 5699
+Path ~
+END
 
 #MOBILES
 

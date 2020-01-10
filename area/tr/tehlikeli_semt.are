@@ -1,8 +1,16 @@
-#AREA
-tehlikeli_semt.are~
-Tehlikeli Semt~
-{ 5 15} Raff    Tehlikeli Semt~
-2100 2199
+#AREADATA
+Filename tehlikeli_semt.are~
+Name Tehlikeli Semt~
+Builder Raff~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 5
+Highlevel 15
+Minvnum 2100
+Maxvnum 2199
+Path ~
+END
+
 #MOBILES
 #2101
 arba çete üyesi~

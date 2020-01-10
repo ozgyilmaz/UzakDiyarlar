@@ -1,8 +1,15 @@
-#AREA
-canavar_bitkiler.are~
-Canavar Bitkiler~
-{40 60} Garth   Canavar Bitkiler~
-30230 30270
+#AREADATA
+Filename canavar_bitkiler.are~
+Name Canavar Bitkiler~
+Builder Garth~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 40
+Highlevel 60
+Minvnum 30230
+Maxvnum 30270
+Path ~
+END
 
 #MOBILES
 #30232

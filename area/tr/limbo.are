@@ -1,8 +1,15 @@
-#AREA
-tr_limbo.are~
-Limbo~
-{99 100} Diku    Limbo~
-0 99
+#AREADATA
+Filename limbo.are~
+Name Limbo~
+Builder Diku~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 99
+Highlevel 100
+Minvnum 0
+Maxvnum 99
+Path ~
+END
 
 #MOBILES
 #10

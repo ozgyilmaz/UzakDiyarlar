@@ -1,8 +1,15 @@
-#AREA
-anon_duvarlari.are~
-Anon Duvarlarý~
-{50 65} Yaegar  Anon Duvarlarý~
-31200 31400
+#AREADATA
+Filename anon_duvarlari.are~
+Name Anon Duvarlarý~
+Builder Yaegar~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 50
+Highlevel 65
+Minvnum 31200
+Maxvnum 31400
+Path ~
+END
 
 #MOBILES
 #31200

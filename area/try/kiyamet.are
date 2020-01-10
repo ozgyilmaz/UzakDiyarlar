@@ -1,8 +1,15 @@
-#AREA
-kiyamet.are~
-Kýyamet~
-{70 95} Lok     Kýyamet~
-14001 14199
+#AREADATA
+Filename kiyamet.are~
+Name Kýyamet~
+Builder Lok~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 70
+Highlevel 95
+Minvnum 14001
+Maxvnum 14199
+Path ~
+END
 
 
 #MOBILES

@@ -1,8 +1,15 @@
-#AREA
-yggdrasil.are~
-Yggdrasil~
-{30 45} Glop  Yggdrasil~
-2900 2999
+#AREADATA
+Filename yggdrasil.are~
+Name Yggdrasil~
+Builder Glop~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 30
+Highlevel 45
+Minvnum 2900
+Maxvnum 2999
+Path ~
+END
 
 #MOBILES
 #2900

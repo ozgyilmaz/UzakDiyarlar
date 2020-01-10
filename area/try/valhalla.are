@@ -1,8 +1,15 @@
-#AREA
-valhalla.are~
-Valhalla~
-{91 100} ROM    Valhalla~
-1200 1299
+#AREADATA
+Filename valhalla.are~
+Name Valhalla~
+Builder ROM~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 91
+Highlevel 100
+Minvnum 1200
+Maxvnum 1299
+Path ~
+END
 
 #MOBILES
 #1200

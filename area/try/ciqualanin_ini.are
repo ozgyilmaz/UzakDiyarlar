@@ -1,8 +1,15 @@
-#AREA
-ciqualanin_ini.are~
-Ciquala'nýn Ýni~
-{40 62} Binky   Ciquala'nýn Ýni~
-13400 13499
+#AREADATA
+Filename ciqualanin_ini.are~
+Name Ciquala'nýn Ýni~
+Builder Binky~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 40
+Highlevel 62
+Minvnum 13400
+Maxvnum 13499
+Path ~
+END
 
 #HELPS
 -1 ciquala lair~

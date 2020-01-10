@@ -1,9 +1,15 @@
-#AREA
-ryzen2.are~
-Caverns~
-{25 45} Ryzen   Caverns~
-22000 22049
-
+#AREADATA
+Filename ryzen2.are~
+Name Caverns~
+Builder Ryzen~
+Translator ~
+Language Ýngilizce~
+Lowlevel 25
+Highlevel 45
+Minvnum 22000
+Maxvnum 22049
+Path ~
+END
 
 #MOBILES
 
@@ -14,13 +20,13 @@ A ghost wanders about, stuck in the realms between life and death
 ~
 A shadow of its formal self, the ghost appears as it did in life, with
 the shape of a human body but an astral look to it.  It is a soul which can
-not rest until destroyed and sent into the heavens.  
+not rest until destroyed and sent into the heavens.
 ~
 human~
 AG BTU -200 0
 25 0 5d10+550 1d50+100 2d10+7 wrath
--7 -7 -7 0 
-EFU 0 D N 
+-7 -7 -7 0
+EFU 0 D N
 stand stand none 0
 AHIMV ABCDEFGHIJK medium 0
 #22003
@@ -28,13 +34,13 @@ wraith wicked~
 a Wicked Wraith~
 A wicked looking wraith stares at you, chilling your soul
 ~
-The wraith floats slowly towards you, searching for a new soul to consume.  
+The wraith floats slowly towards you, searching for a new soul to consume.
 ~
 human~
 AGO U -1000 0
 34 0 9d80+1200 34d10+100 4d7+10 claw
 -11 -10 -11 5
-CEFH 0 0 NY 
+CEFH 0 0 NY
 stand stand none 0
 AHIMV ABCDEFGHIJK medium 0
 #22004
@@ -42,13 +48,13 @@ ghastly spectre~
 a spectre~
 A ghastly spectre lurks nearby in the shadows.
 ~
-This long dead spirit is now an evil creation that longs for your blood.  
+This long dead spirit is now an evil creation that longs for your blood.
 ~
 human~
 AGO U -800 0
 32 0 5d10+1000 2d20+1000 6d4+9 slash
 -10 -10 -10 4
-CDFH 0 0 NYZ 
+CDFH 0 0 NYZ
 stand stand none 0
 AHIMV ABCDEFGHIJK medium 0
 #22005
@@ -58,13 +64,13 @@ A ghoul stands here chewing on an old bone.
 ~
 A disgusting undead creature that resembles a zombie, though much more
 ferocious.  It carries around an old arm bone that it chews on constantly,
-tearing the last remnants of flesh from it for food.  
+tearing the last remnants of flesh from it for food.
 ~
 human~
 AGO 0 -950 0
 36 0 5d25+1400 36d10+100 3d10+11 claw
 -12 -12 -12 3
-CDHK 0 0 N 
+CDHK 0 0 N
 stand stand none 500
 AHIMV ABCDEFGHIJK medium 0
 #22006
@@ -73,7 +79,7 @@ a lemure~
 A lowly demon wanders slugishly forward.
 ~
 A Lemure trudges slowly forward.  Its morphous form not allowing it to
-move any faster than at a slow walk.  
+move any faster than at a slow walk.
 ~
 human~
 AGO 0 -600 0
@@ -105,7 +111,7 @@ An imp-like demon flys towards you on leathery wings
 ~
 The Spinagon looks much like a large imp.  It's large leathery wings keep
 it aflight as it wields its monstrous spear, a blade that is sure to keep
-even the hardiest of warriors at bay.  
+even the hardiest of warriors at bay.
 ~
 human~
 AGO T -1000 0
@@ -121,13 +127,13 @@ The ghoul lord stands here, ready to tear you apart.
 ~
 Much like a normal ghoul but about two feet taller, the ghoul lord is a
 monstrous sight.  His long snake-like tongue licks scaly lips as it looks at
-you.  
+you.
 ~
 human~
 ABO J -1000 0
 42 0 5d50+2250 42d10+4400 3d12+14 blast
 -14 -14 -14 0
-CDEFHK 0 0 NZ 
+CDEFHK 0 0 NZ
 stand stand male 800
 AHIMV ABCDEFGHIJK large 0
 #22010
@@ -137,13 +143,13 @@ A black deep dragon is napping here
 ~
 With gleeming scales and razor sharp claws, the Deep Dragon is a mighty
 opponent.  He must have been out hunting because he looks awfully tired now,
-well at least you get the first attack before he kills you.  
+well at least you get the first attack before he kills you.
 ~
 dragon~
 ABG T -800 0
 45 0 10d100+3000 45d10+4100 8d4+16 claw
 -15 -15 -15 -1
-CDEKM 0 HIJK F 
+CDEKM 0 HIJK F
 sleep stand male 20000
 AHZc ADEFIKLPQUVX medium 0
 #22011
@@ -153,7 +159,7 @@ A mounstrous undead beast is here searching for dinner
 ~
 A large undead beast stands here.  Multiple bones stick through its rough
 hide, creating spear like points.  Its skin has decayed away, leaving the
-ribs and organs exposed.  ICK!  
+ribs and organs exposed.  ICK!
 ~
 unique~
 ABFGO Z -900 0
@@ -169,7 +175,7 @@ A cleric is here searching for his lost companions.
 ~
 A cleric of the ancient legend, Ryzen.  He appears to be lost in the
 caverns.  From what he tells you he and his companions became seperated
-during a battle with undead.  
+during a battle with undead.
 ~
 human~
 ABGQ 0 800 0
@@ -185,7 +191,7 @@ A knight in beautiful armor stands here looking lost
 ~
 This young man wears the plate and sword of a grand knight.  A large blue
 dragon is emblazoned on his plate and he wields his silver long sword with
-ease.  
+ease.
 ~
 human~
 AGT C 1000 0
@@ -200,14 +206,14 @@ A Halfling Thief~
 A halfling thief peers around, looking for something to steal
 ~
 Lost from his adventuring companions this little trouble maker is now
-just running around looking for things to slip into his purses.  
+just running around looking for things to slip into his purses.
 ~
 halfling~
 AGS J -400 0
 29 0 6d12+778 29d10+1100 4d6+8 pierce
 -9 -9 -9 4
-FJNS 0 0 Z 
-stand stand male 1200 
+FJNS 0 0 Z
+stand stand male 1200
 AHMV ABCDEFGHIJK small 0
 #22015
 powerful enchantress~
@@ -216,7 +222,7 @@ A powerful enchantress walks about searching for her comrades
 ~
 A beautiful enchantress wanders around looking for her comrades who were
 lost after a fight.  She seems to be quite confident in here magic and she
-wears a gorgeous ring on her finger.  
+wears a gorgeous ring on her finger.
 ~
 human~
 AGR H -600 0
@@ -373,9 +379,9 @@ A
 The Entrance to the Caverns~
 You stand at the entrance to The Caverns of the Damned.  What creatures
 await you in its shadowy corridors can only be guessed.  Two dark tunnels
-lead east and west , into the caverns, from here.  
+lead east and west , into the caverns, from here.
 ~
-0 AD 0 
+0 AD 0
 D4
 ~
 ~
@@ -393,9 +399,9 @@ S
 A Darkened Tunnel~
 The walls seem to project darkness into this shadowy tunnel making it
 hard to make out any details.  All of the exits lead away into further
-darkness.  
+darkness.
 ~
-0 AD 0 
+0 AD 0
 D5
 ~
 ~
@@ -412,9 +418,9 @@ S
 #22002
 A Darkened Tunnel~
 The great expanse of caverns spreads out before you.  Three posible exits
-lead from this room, each one shrouded in darkness.  
+lead from this room, each one shrouded in darkness.
 ~
-0 AD 0 
+0 AD 0
 D5
 ~
 ~
@@ -430,9 +436,9 @@ D3
 S
 #22003
 A Bend in the Tunnel~
-The tunnel turns here slightly, both directions lead into shadows.  
+The tunnel turns here slightly, both directions lead into shadows.
 ~
-0 AD 0 
+0 AD 0
 D2
 ~
 ~
@@ -444,9 +450,9 @@ D0
 S
 #22004
 A Bend in the Tunnel~
-The tunnel turns sharply here.  Directions lead south and north.  
+The tunnel turns sharply here.  Directions lead south and north.
 ~
-0 AD 0 
+0 AD 0
 D2
 ~
 ~
@@ -459,9 +465,9 @@ S
 #22005
 A Darkened Tunnel~
 Blackened tunnels spread out before you.  Exits lead down, east, or
-north.  
+north.
 ~
-0 AD 0 
+0 AD 0
 D5
 ~
 ~
@@ -480,9 +486,9 @@ A Darkened Tunnel~
 The total darkness of these corridors is frightening.  For a moment you
 lose your footing and almost slip on something wet.  Holding your light
 close to the ground you discover a pool of fresh blood.  Exits lead down,
-north, and south.  
+north, and south.
 ~
-0 AD 0 
+0 AD 0
 D5
 ~
 ~
@@ -498,9 +504,9 @@ D0
 S
 #22007
 A Bend in the Tunnel~
-The shadowy tunnel continues to the east and west.  
+The shadowy tunnel continues to the east and west.
 ~
-0 AD 0 
+0 AD 0
 D1
 ~
 ~
@@ -514,9 +520,9 @@ S
 A Darkened Tunnel~
 You stand at the bottom of a flight of stairs.  You are unable to make
 out any details in this poorly lit corridor, however an exit to the
-south is noticeable.  
+south is noticeable.
 ~
-0 AD 0 
+0 AD 0
 D4
 ~
 ~
@@ -529,7 +535,7 @@ S
 #22009
 A Darkened Tunnel~
 You stand in a dark tunnel with exits leading two directions into
-blackness.  
+blackness.
 ~
 0 AD 0
 D3
@@ -544,9 +550,9 @@ S
 #22010
 The End of the Tunnel~
 This shadowy corridor makes an abrupt stop here, the only exit leading
-back to the east.  
+back to the east.
 ~
-0 AD 0  
+0 AD 0
 D1
 ~
 ~
@@ -555,9 +561,9 @@ S
 #22011
 A Darkened Tunnel~
 A flight of stairs lead into darkness above you while a small tunnel
-heads east into further gloom.  
+heads east into further gloom.
 ~
-0 AD 0 
+0 AD 0
 D4
 ~
 ~
@@ -570,9 +576,9 @@ S
 #22012
 A Darkened Tunnel~
 The total blackness of the caverns spreads out before you, shadowing
-everything in mystery.  Exits lead west and south.  
+everything in mystery.  Exits lead west and south.
 ~
-0 AD 0  
+0 AD 0
 D2
 ~
 ~
@@ -585,9 +591,9 @@ S
 #22013
 The End of the Tunnel~
 You have reached the end of the tunnel with nothing but a blank, stone
-wall standing in your way.  The only exit is back to the north.  
+wall standing in your way.  The only exit is back to the north.
 ~
-0 AD 0  
+0 AD 0
 D0
 ~
 ~
@@ -595,9 +601,9 @@ D0
 S
 #22014
 A Dimly Lit Cave~
-You stand in an enormous cave that spreads out to the south and east.  
+You stand in an enormous cave that spreads out to the south and east.
 ~
-0 AD 0  
+0 AD 0
 D1
 ~
 ~
@@ -615,9 +621,9 @@ S
 In the Cave~
 The cave begins to decrease in size at this end.  The ceiling drops at a
 sharp angle forcing you to duck your head.  A small tunnel leads to the
-south while the cave continues to the west.  
+south while the cave continues to the west.
 ~
-0 AD 0  
+0 AD 0
 D3
 ~
 ~
@@ -632,9 +638,9 @@ In the Cave~
 The huge cave ends here in a huge room.  The ceiling towers so far above
 you that it is nearly impossible to see it.  You stare up into the darkness,
 pondering what kind of creatures could be hiding in those shadows.  The only
-exit is north.  
+exit is north.
 ~
-0 AD 0 
+0 AD 0
 D0
 ~
 ~
@@ -644,9 +650,9 @@ S
 A Darkened Tunnel~
 The small tunnel twists away through dark corridors, leaving you in
 question of your exact location.  The tunnel leads north or south
-from here.  
+from here.
 ~
-0 AD 0 
+0 AD 0
 D2
 ~
 ~
@@ -659,9 +665,9 @@ S
 #22018
 A Branch in the Tunnel~
 The tunnel branches off here in three directions.  You may go north,
-east, or west.  
+east, or west.
 ~
-0 A 0 
+0 A 0
 D1
 ~
 ~
@@ -678,9 +684,9 @@ S
 #22019
 A Branch in the Tunnel~
 The tunnel branches off in three directions here again.  Directions lead
-south, down, and east.  
+south, down, and east.
 ~
-0 A 0 
+0 A 0
 D2
 ~
 ~
@@ -698,9 +704,9 @@ S
 A Darkened Tunnel~
 The shadowy tunnel continues to the south and west.  You find
 yourself praying for the lost light of day as the darkness closes in on your
-soul.  
+soul.
 ~
-0 AD 0 
+0 AD 0
 D2
 ~
 ~
@@ -733,7 +739,7 @@ The caverns continue to spread out before you.  Many times you have found
 yourself wandering in circles only to end up in another room that looks the
 same as all of the others.  Exits lead north, down, and west from here.
 ~
-0 AD 0 
+0 AD 0
 D0
 ~
 ~
@@ -750,7 +756,7 @@ S
 #22023
 A Bend in the Tunnel~
 This small, dark tunnel turns sharply.  The only exits appear to be
-east and west.  
+east and west.
 ~
 0 AD 0
 D1
@@ -767,7 +773,7 @@ A Darkened Tunnel~
 Th caverns continue to stretch away as you step into this tunnel.  Your
 light gives away what little details can be found in the room, such as small
 rocks, but nothing out of the ordinary.  You may continue along in this
-tunnel to the west or return to the main tunnel up the stairs.  
+tunnel to the west or return to the main tunnel up the stairs.
 ~
 0 AD 0
 D3
@@ -783,9 +789,9 @@ S
 A Darkened Tunnel~
 Just like all the other tunnels, the monotony is beginning to get to you.
 Darkness, eternal darkness, for just a second you would love to see the
-light of day again and get out of thse cramped tunnels.  
+light of day again and get out of thse cramped tunnels.
 ~
-0 AD 0 
+0 AD 0
 D1
 ~
 ~
@@ -798,9 +804,9 @@ S
 #22026
 A Bend in the Tunnel~
 You've come to a sharp turn in the tunnel.  Exits lead both east and
-north into darkness.  
+north into darkness.
 ~
-0 AD 0  
+0 AD 0
 D1
 ~
 ~
@@ -813,9 +819,9 @@ S
 #22027
 A Bend in the Tunnel~
 The shadowy tunnel bends here, leaving you exits to the north and
-south.  
+south.
 ~
-0 AD 0  
+0 AD 0
 D0
 ~
 ~
@@ -829,9 +835,9 @@ S
 A Set of Stairs~
 You reach the top of a set of stairs.  You hear what sounds like someone
 moving at the bottom of the steps, but looking into the gloom it is
-impossible to tell.  
+impossible to tell.
 ~
-0 AD 0  
+0 AD 0
 D2
 ~
 ~
@@ -844,9 +850,9 @@ S
 #22029
 The Bottom of the Stairs~
 Stairs rise up above you into a higher tunnel.  The only exits available
-appear to be up or north.  
+appear to be up or north.
 ~
-0 AD 0  
+0 AD 0
 D4
 ~
 ~
@@ -860,9 +866,9 @@ S
 A Darkened Tunnel~
 Yet another dark tunnel in what seems like an endless amount of dark
 tunnels.  A low growl is emitted from a room to the east, its inhabitant
-must not be happy.  
+must not be happy.
 ~
-0 AD 0 
+0 AD 0
 D1
 ~
 ~
@@ -876,9 +882,9 @@ S
 A Dead End~
 This room looks just like all the others except it seems to be serving as
 a lair for some animal.  Various bones lie about the room causing you to
-stumble several times.  
+stumble several times.
 ~
-0 AD 0  
+0 AD 0
 D3
 ~
 ~
@@ -888,9 +894,9 @@ S
 A Pitch Black Tunnel~
 The stench of rotting corpses assaults you, as you step into this tunnel.
 A dim light shines from farther down the tunnel, though you don't think
-whatever is living here is going to be too friendly.  
+whatever is living here is going to be too friendly.
 ~
-0 AD 0 
+0 AD 0
 D4
 ~
 ~
@@ -904,9 +910,9 @@ S
 A Pitch Black Tunnel~
 The smell grows stronger the farther you walk down this corridor.  An
 unholy laughter echos from farther down the tunnel forcing you to question
-your bravery.  
+your bravery.
 ~
-0 AD 0  
+0 AD 0
 D0
 ~
 ~
@@ -921,9 +927,9 @@ A Pitch Black Tunnel~
 The first thing you notice as you step into this room are the pieces of
 flesh that appear freshly torn from a body.  From the horrible death cries
 coming from the next room, you are quite certain that the flesh was torn
-from a still living person.  
+from a still living person.
 ~
-0 AD 0 
+0 AD 0
 D3
 ~
 ~
@@ -937,9 +943,9 @@ S
 The Ghoul Lord's Den~
 A horrid creature stands against the far wall eating a human corpse.  The
 amount of blood spilled in the room makes you swoon, and you feel the sudden
-desire to run as fast as posible away from this monster and its dinner.  
+desire to run as fast as posible away from this monster and its dinner.
 ~
-0 AD 0  
+0 AD 0
 D1
 ~
 ~
@@ -948,9 +954,9 @@ S
 #22036
 A Pitch Black Tunnel~
 Yet another dark tunnel guides you through the caverns.  From around the
-corner comes a slight shimmering light.  
+corner comes a slight shimmering light.
 ~
-0 AD 0 
+0 AD 0
 D4
 ~
 ~
@@ -965,9 +971,9 @@ A Crystal Cavern~
 The walls of this cavern are covered in a clear crystaline substance.  A
 faint light from the west illuminates the cavern in brilliant, flashing
 colors that nearly blind you.  You may continue towards the light to the
-west or return to the tunnel to the north.  
+west or return to the tunnel to the north.
 ~
-0 AD 0 
+0 AD 0
 D3
 ~
 ~
@@ -982,9 +988,9 @@ The Dragon's Lair~
 Crystaline formations cover the walls of the cavern.  Your light reflects
 beautiful colors throughout the chamber.  Unfortunately your light also
 illuminates a sleeping dragon.  Perhaps you can sneak away before it notices
-you.  
+you.
 ~
-0 AD 0  
+0 AD 0
 D1
 ~
 ~
@@ -993,9 +999,9 @@ S
 #22039
 A Darkened Tunnel~
 The tunnel you are in splits away from the main corridor and continues to
-head in a south direction.  
+head in a south direction.
 ~
-0 AD 0 
+0 AD 0
 D2
 ~
 ~
@@ -1008,9 +1014,9 @@ S
 #22040
 A Darkened Tunnel~
 The tunnel turns slightly here, granting you exits to the west or
-north.  
+north.
 ~
-0 AD 0 
+0 AD 0
 D3
 ~
 ~
@@ -1024,9 +1030,9 @@ S
 The End of the Tunnel~
 The tunnel drops sharply here, staring down the tunnel all you can see
 are shadows, though the presence of evil seems to be growing stronger as you
-descend through the caverns.  
+descend through the caverns.
 ~
-0 AD 0 
+0 AD 0
 D1
 ~
 ~
@@ -1040,9 +1046,9 @@ S
 A Long Cavern~
 A long cavern spreads out to the east.  Stalagmites and other various
 rock formations clutter the room to such a degree that it is sometimes hard
-to walk.  
+to walk.
 ~
-0 AD 0  
+0 AD 0
 D1
 ~
 ~
@@ -1057,9 +1063,9 @@ A Long Cavern~
 The cavern continues to your east or west.  The beautiful colors that
 line the rocks sometimes catch your attention, holding your eyes for minutes
 at a time.  Fortunately for you it doesn't appear that anything has planned
-to ambush you here as your attention is focussed on nature's magnificence.  
+to ambush you here as your attention is focussed on nature's magnificence.
 ~
-0 AD 0  
+0 AD 0
 D1
 ~
 ~
@@ -1074,9 +1080,9 @@ The End of the Cavern~
 The natural rock formations come to an abrupt stop as you enter this
 room.  The darkness present in the maze seems to be here to such a degree
 that you feel blinded by the infinite amount of shadow.  The presence of
-evil continues to grow stronger, you must be getting close.  
+evil continues to grow stronger, you must be getting close.
 ~
-0 AD 0 
+0 AD 0
 D3
 ~
 ~
@@ -1090,9 +1096,9 @@ S
 A Dimly Lit Tunnel~
 You are nearly overcome with the presence of tremendous evil.  Howls of
 torment can be heard far off in the distance.  The caverns continue to the
-south, but ponder your mortality first, should you continue?  
+south, but ponder your mortality first, should you continue?
 ~
-0 D 0 
+0 D 0
 D2
 ~
 ~
@@ -1107,9 +1113,9 @@ A Dimly Lit Tunnel~
 The sound of rushing water seems to be coming from farther up the
 corridor.  The evil assaulting your soul continues to get stronger with
 every step you take.  You feel yourself tense, expecting maybe the ruler of
-hell himself around the corner.  
+hell himself around the corner.
 ~
-0 D 0  
+0 D 0
 D0
 ~
 ~
@@ -1124,9 +1130,9 @@ A Bend in the Tunnel~
 The sound of rushing water gets louder, perhaps there is a stream or
 river up ahead.  This part of the caverns seems to glow with an unholy
 light, and although it is nice to have light again you start to think you
-prefered the darkness over this.  
+prefered the darkness over this.
 ~
-0 D 0  
+0 D 0
 D2
 ~
 ~
@@ -1141,9 +1147,9 @@ A Dimly Lit Tunnel~
 Light shines forth from the walls of this room, but it is an unnatural
 and queer light.  The sound of a river is stronger now and you assume that
 it can not be much farther up ahead.  You may continue through the caverns
-to the south or return towards the exit, north.  
+to the south or return towards the exit, north.
 ~
-0 D 0 
+0 D 0
 D2
 ~
 ~
@@ -1156,9 +1162,9 @@ S
 #22049
 The End of The Caverns~
 CONGRATULATIONS!!!!  You've found the entrance to the River Styx, and
-Hell. I am sure the demons look forward to having you over for dinner.   
+Hell. I am sure the demons look forward to having you over for dinner.
 ~
-0 D 0 
+0 D 0
 D0
 ~
 ~

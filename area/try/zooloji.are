@@ -1,8 +1,15 @@
-#AREA
-zooloji.are~
-Zooloji~
-{ 1 10} Og      MudSchool Zooloji~
-400 499
+#AREADATA
+Filename zooloji.are~
+Name Zooloji~
+Builder Og~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 1
+Highlevel 10
+Minvnum 400
+Maxvnum 499
+Path ~
+END
 
 #MOBILES
 #400

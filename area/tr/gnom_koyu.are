@@ -1,8 +1,16 @@
-#AREA
-gnom_koyu.are~
-Gnom Köyü~
-{ 5 15} Vougon  Gnom Köyü~
-1500 1599
+#AREADATA
+Filename gnom_koyu.are~
+Name Gnom Köyü~
+Builder Vougon~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 5
+Highlevel 15
+Minvnum 1500
+Maxvnum 1599
+Path ~
+END
+
 #MOBILES
 #1500
 gnom çocuk~

@@ -1,8 +1,15 @@
-#AREA
-peri_cemberi.are~
-Peri Çemberi~
-{10 15} Lok     Peri Çemberi~
-29101 29114
+#AREADATA
+Filename peri_cemberi.are~
+Name Peri Çemberi~
+Builder Lok~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 10
+Highlevel 15
+Minvnum 29101
+Maxvnum 29114
+Path ~
+END
 
 #MOBILES
 #29101

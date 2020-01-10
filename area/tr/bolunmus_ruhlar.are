@@ -1,8 +1,15 @@
-#AREA
-bolunmus_ruhlar.are~
-Bölünmüþ Ruhlar~
-{45 90} Ydri    Bölünmüþ Ruhlar~
-11600 11799
+#AREADATA
+Filename bolunmus_ruhlar.are~
+Name Bölünmüþ Ruhlar~
+Builder Ydri~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 45
+Highlevel 90
+Minvnum 11600
+Maxvnum 11799
+Path ~
+END
 
 #MOBILES
 #11600

@@ -1,8 +1,15 @@
-#AREA
-hukum_dagi.are~
-Hüküm Daðý~
-{45 65} Yaegar  Hüküm Daðý~
-14700 14850
+#AREADATA
+Filename hukum_dagi.are~
+Name Hüküm Daðý~
+Builder Yaegar~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 45
+Highlevel 65
+Minvnum 14700
+Maxvnum 14850
+Path ~
+END
 
 #MOBILES
 #14700

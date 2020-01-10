@@ -1,9 +1,15 @@
-#AREA
-thera_hapishanesi.are~
-Thera Hapishanesi~
-{80 130} RM Thera Hapishanesi~
-
-15000 15099
+#AREADATA
+Filename thera_hapishanesi.are~
+Name Thera Hapishanesi~
+Builder RM~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 80
+Highlevel 130
+Minvnum 15000
+Maxvnum 15099
+Path ~
+END
 
 #MOBILES
 

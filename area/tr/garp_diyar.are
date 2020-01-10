@@ -1,9 +1,15 @@
-#AREA
-garp_diyar.are~
-Garp Diyar~
-{40 90} Xavier  Garp Diyar~
-10000 10050
-
+#AREADATA
+Filename garp_diyar.are~
+Name Garp Diyar~
+Builder Xavier~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 40
+Highlevel 90
+Minvnum 10000
+Maxvnum 10050
+Path ~
+END
 
 #MOBILES
 #10001

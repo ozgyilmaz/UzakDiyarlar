@@ -1,8 +1,15 @@
-#AREA
-solas_kenti.are~
-Solas Kenti~
-{ 5 35} Strahd  Solas Kenti~
-10200 10400
+#AREADATA
+Filename solas_kenti.are~
+Name Solas Kenti~
+Builder Strahd~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 5
+Highlevel 35
+Minvnum 10200
+Maxvnum 10400
+Path ~
+END
 
 #MOBILES
 #10201

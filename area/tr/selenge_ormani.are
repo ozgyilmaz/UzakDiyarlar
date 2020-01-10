@@ -1,8 +1,15 @@
-#AREA
-selenge_ormani.are~
-Selenge Ormaný~
-{ 5 15} Jai   Selenge Ormaný~
-9400 9499
+#AREADATA
+Filename selenge_ormani.are~
+Name Selenge Ormaný~
+Builder Jai~
+Translator ~
+Language Türkçe~
+Lowlevel 5
+Highlevel 15
+Minvnum 9400
+Maxvnum 9499
+Path ~
+END
 
 #MOBILES
 #9401

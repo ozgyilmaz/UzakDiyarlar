@@ -1,8 +1,15 @@
-#AREA
-ruhlar_nehri.are~
-Ruhlar Nehri~
-{50 110} RM Ruhlar Nehri~
-20000 20099
+#AREADATA
+Filename ruhlar_nehri.are~
+Name Ruhlar Nehri~
+Builder RM~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 50
+Highlevel 110
+Minvnum 20000
+Maxvnum 20099
+Path ~
+END
 
 #HELPS
 -1 spirit~

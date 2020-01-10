@@ -1,8 +1,16 @@
-#AREA
-thalos.are~
-Thalos~
-{10 25} Drkside Thalos~
-5200 5299
+#AREADATA
+Filename thalos.are~
+Name Thalos~
+Builder Drkside~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 10
+Highlevel 25
+Minvnum 5200
+Maxvnum 5299
+Path ~
+END
+
 #MOBILES
 #5200
 çokgöz~

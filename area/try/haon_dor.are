@@ -1,8 +1,16 @@
-#AREA
-haon_dor.are~
-Haon Dor~
-{ 5 10} Diku    Haon Dor~
-6000 6199
+#AREADATA
+Filename haon_dor.are~
+Name Haon Dor~
+Builder Diku~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 5
+Highlevel 10
+Minvnum 6000
+Maxvnum 6199
+Path ~
+END
+
 #MOBILES
 #6000
 keresteci garihat~

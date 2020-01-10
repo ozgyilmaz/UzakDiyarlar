@@ -1,8 +1,16 @@
-#AREA
-cuce_mezarligi.are~
-Cüce Mezarlýðý~
-{10 20} Raff    Cüce Mezarlýðý~
-2000 2099
+#AREADATA
+Filename cuce_mezarligi.are~
+Name Cüce Mezarlýðý~
+Builder Raff~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 1
+Highlevel 20
+Minvnum 2000
+Maxvnum 2099
+Path ~
+END
+
 #MOBILES
 #2001
 yarasa~

@@ -1,32 +1,39 @@
-#AREA
-antharia.are~
-Antharia~
-{ 9 42} Amadeus Antharia~
-12300 12400
+#AREADATA
+Filename antharia.are~
+Name Antharia~
+Builder Amadeus~
+Translator ~
+Language Ýngilizce~
+Lowlevel 9
+Highlevel 42
+Minvnum 12300
+Maxvnum 12400
+Path ~
+END
 
 
 #HELPS
 100 ANTHARIA_CREDITS~
 .
-    I give full permission of this area to be used under the condition that 
+    I give full permission of this area to be used under the condition that
 nothing be removed or changed in this area, except bit flags.
-    This area was designed to be the intial starting point of a race of 
-underwater beings that had a complex history and culture.  You will find 
-that, if you go through the room descriptions carefully, there are many 
-places that you could add to this area.  For example, antharia.are tells 
-and hints of a great temple; therefore, you could write a temple area to 
-be connected to this area using the history below and the knowledge of 
-the area rooms, etc.   Other possible area ideas based on antharia.are 
-would be: a zoo including some interesting creatures that antharias had 
-kept from the time of their submersion to animals that they have 
-encountered under the water (which you will find a great connection point 
-for), a temple area (explained above), or Grand Antharia which you will 
-see MANY hints about in the area file itself.  In other words, I believe 
-this area could help many builders with new and creative ways to add to 
+    This area was designed to be the intial starting point of a race of
+underwater beings that had a complex history and culture.  You will find
+that, if you go through the room descriptions carefully, there are many
+places that you could add to this area.  For example, antharia.are tells
+and hints of a great temple; therefore, you could write a temple area to
+be connected to this area using the history below and the knowledge of
+the area rooms, etc.   Other possible area ideas based on antharia.are
+would be: a zoo including some interesting creatures that antharias had
+kept from the time of their submersion to animals that they have
+encountered under the water (which you will find a great connection point
+for), a temple area (explained above), or Grand Antharia which you will
+see MANY hints about in the area file itself.  In other words, I believe
+this area could help many builders with new and creative ways to add to
 their muds.
-     
-     I do ask that you inform me if you use this area, and if you write 
-any more areas that use the idea of Antharia.  
+
+     I do ask that you inform me if you use this area, and if you write
+any more areas that use the idea of Antharia.
 ------------------
 Current Email:  reece@tinuviel.cs.wcu.edu
 Current muds:  Barren Realms:  dogwood.liii.com 8000
@@ -46,7 +53,7 @@ School History textbook..
 world, has a very intestesting history.  Being one of the oldest races
 of beings in existence, they have much knowledge that we do not, and
 much knowledge that they no longer posess.  We can see this more
-clearly by studing a bit of the history of the capital city, Antharia. 
+clearly by studing a bit of the history of the capital city, Antharia.
 	About a thousand years ago, Antharia was a very productive and
 thriving kingdom, so old that many problems that face most kingdoms
 had been solved.  The Realm was ruled by what they called a
@@ -58,17 +65,17 @@ made Antharia one of the best places to live. It was these councils
 who made the discovery that would change the lives of every Antharian.
 	It was discovered that there was going to be a major upheaval
 of the world's outer crust, which would make the whole country of
-Antharia, which was actually a big island, in essense, sink into the ocean. 
+Antharia, which was actually a big island, in essense, sink into the ocean.
 Fearing for the lives of their citizens, the councils worked quickly
-to come up with a solution to the disaster.  
+to come up with a solution to the disaster.
 	After many months of searching, it was decided that there was
 only solution:  the wizards would have to combine their power to
 create a "Gem of Salvation".  This gem would, in essense, keep the
 whole city of Antharia with air, even underwater -- a dome, if you
 will.  However, this also forced the government to make the decisions
 of who would be able to live and who would die...the city could only
-hold so many people.  
-	
+hold so many people.
+
 	The Antharians are very hesistant to talk about this time in
 their history.  Understandbly, it was very hard to make those
 decisions; therefore, much of the next few decades are lost to us.
@@ -111,7 +118,7 @@ being can keep the peace...his presence is enough in itself.
 ~
 human~
 AGT 0 800 0
-25 0 5d10+550 5d5+1000 2d10+7 pound     
+25 0 5d10+550 5d5+1000 2d10+7 pound
 -7 -7 -7 4
 CDEKLTU 0 C 0
 stand stand male 1000
@@ -245,7 +252,7 @@ content.
 ~
 human~
 1|4|64 0 0 0
-10 0  2d7+121 5d5+100 2d4+2 charge         
+10 0  2d7+121 5d5+100 2d4+2 charge
 1 1 1 7
 0 0 0 0
 stand stand none 1000
@@ -257,13 +264,13 @@ An Antharian citizen is standing here.
 ~
 All Antharians share a standard trait: curiosity.  Instead of being
 frightened of you, a foreigner, the Antharian will study you --
-looking at every detail.  
+looking at every detail.
    This Antharian seems to be a simple citizen, going about on his
 daily schedule.
 ~
 human~
 1|64 0 0 0
-15 0 3d9+208 5d5+100 2d6+3 punch     
+15 0 3d9+208 5d5+100 2d6+3 punch
 -2 -2 -2 6
 0 0 0 0
 stand stand male 1000
@@ -281,7 +288,7 @@ daily schedule.
 ~
 human~
 1|64 0 0 0
-16 0 3d9+208 5d5+100 2d6+3 punch     
+16 0 3d9+208 5d5+100 2d6+3 punch
 -2 -2 -2 6
 0 0 0 0
 stand stand female 1000
@@ -297,7 +304,7 @@ into the fray to play with them.
 ~
 human~
 1|64 0 0 0
-9 0 2d6+110 5d5+100 1d8+2 punch        
+9 0 2d6+110 5d5+100 1d8+2 punch
 2 2 2 7
 0 0 0 0
 stand stand male 1000
@@ -313,7 +320,7 @@ their games.
 ~
 human~
 1 0 0 0
-9 0 2d6+110 5d5+100 1d8+2 punch        
+9 0 2d6+110 5d5+100 1d8+2 punch
 2 2 2 7
 0 0 0 0
 stand stand female 1000
@@ -467,7 +474,7 @@ mother of pearl~
 A Mother of Pearl is shining here.~
 ~
 9 64 1|16384
-8 0 0 0 
+8 0 0 0
 10 4000 0
 A
 5 3
@@ -479,7 +486,7 @@ a green gem~
 A green gem is here.~
 ~
 9 256 1|16384
-8 0 0 0 
+8 0 0 0
 10 4000 0
 A
 2 1
@@ -491,7 +498,7 @@ a sea turtle shell~
 A shell from a sea turtle works as a nice piece of armor.~
 ~
 9 2 1|8
-8 0 0 0 
+8 0 0 0
 10 4000 0
 A
 17 -20
@@ -503,7 +510,7 @@ a giant clamshell~
 This is a giant clamshell used to store things.~
 ~
 15 1 1|16384
-8 1 0 0 
+8 1 0 0
 20 4000 0
 #12304
 Antharian Signet ring~
@@ -511,7 +518,7 @@ an Antharian signet ring~
 This is an Antharian Signet ring, worn by all defenders of Antharia.~
 ~
 9 1 1|2
-8 0 0 0 
+8 0 0 0
 5 5000 0
 A
 17 -5
@@ -521,7 +528,7 @@ an Antharian signet ring~
 This is an Antharian Signet ring, worn by all defenders of Antharia.~
 ~
 28 1|32768 1|2
-8 0 0 0 
+8 0 0 0
 5 5000 0
 A
 17 -10
@@ -531,7 +538,7 @@ an Antharian signet ring~
 This is an Antharian Signet ring, worn by all defenders of Antharia.~
 ~
 28 1|32768 1|2
-8 0 0 0 
+8 0 0 0
 5 1000 0
 A
 17 -20
@@ -545,7 +552,7 @@ Antharian plate mail~
 This is a piece of fine Antharian plate mail.~
 ~
 9 32|4096 1|8
-8 0 0 0 
+8 0 0 0
 50 1000 0
 A
 2 1
@@ -563,7 +570,7 @@ Antharian plate mail~
 A fine piece of Antharian plate mail is here.~
 ~
 9 32|4096 1|8
-8 0 0 0 
+8 0 0 0
 50 1000 0
 A
 2 1
@@ -579,7 +586,7 @@ Antharian plate mail~
 A fine piece of Antharian plate mail is here.~
 ~
 9 1024 1|8
-8 0 0 0 
+8 0 0 0
 50 5000 0
 A
 2 1
@@ -593,7 +600,7 @@ a pair of synthetic fins~
 A pair of fins, of Antharian make, are here.~
 ~
 9 256 1|32
-8 0 0 0 
+8 0 0 0
 15 1000 0
 A
 14 150
@@ -603,7 +610,7 @@ a pair of synthetic fins~
 A pair of fins, of Antharian make, are here.~
 ~
 9 256 1|32
-8 0 0 0 
+8 0 0 0
 15 1000 0
 A
 14 200
@@ -613,7 +620,7 @@ a apir of synthetic fins~
 A pair of fins, of Antharian make, are here.~
 ~
 9 256 1|32
-8 0 0 0 
+8 0 0 0
 15 1000 0
 A
 14 250
@@ -623,7 +630,7 @@ an Antharian helmet~
 A helmet made of Antharian metals is here.~
 ~
 9 1 1|16
-8 0 0 0 
+8 0 0 0
 15 1000 0
 A
 12 20
@@ -633,7 +640,7 @@ an Antharian helmet~
 A helmet made of Antharian metals is here.~
 ~
 9 1 1|16
-8 0 0 0 
+8 0 0 0
 15 1000 0
 A
 12 30
@@ -643,7 +650,7 @@ an Antharian helmet~
 A helmet made of Antharian metals is here.~
 ~
 9 1 1|16
-8 0 0 0 
+8 0 0 0
 15 1000 0
 A
 12 40
@@ -655,7 +662,7 @@ a sparkling trident~
 A sparkling trident, of Antharian make, is here.~
 ~
 5 256 AN
-0 0 0 11 
+0 0 0 11
 10 1000 0
 A
 13 40
@@ -669,7 +676,7 @@ a sparkling trident~
 A sparkling trident, of Antharian make, is here.~
 ~
 5 256 AN
-0 0 0 11 
+0 0 0 11
 10 1000 0
 A
 13 40
@@ -683,7 +690,7 @@ a sparkling trident~
 A sparkling trident, of Antharian make, is here.~
 ~
 5 256 AN
-0 0 0 11 
+0 0 0 11
 15 1000 0
 A
 13 60
@@ -697,7 +704,7 @@ a seafood platter~
 A big plate of Seafood is here.~
 ~
 19 0 1|8
-6 0 0 0 
+6 0 0 0
 4 15 0
 #12320
 Caviar~
@@ -705,7 +712,7 @@ a dish of caviar~
 A small dish of Caviar is here.~
 ~
 19 0 1|8
-5 0 0 0 
+5 0 0 0
 4 500 0
 #12321
 Special~
@@ -713,7 +720,7 @@ today's special~
 This is the special of the day....NOT to be missed.~
 ~
 19 0 1|8
-10 0 0 0 
+10 0 0 0
 5 15 0
 #12322
 Sushi~
@@ -721,7 +728,7 @@ some sushi~
 This is sushi.~
 ~
 19 0 1|8
-3 0 0 0 
+3 0 0 0
 5 15 0
 #12330
 Antharian robe~
@@ -729,7 +736,7 @@ an Antharian robe~
 This is an Antharian robe, woven by hand.~
 ~
 9 0 1|1024
-8 0 0 0 
+8 0 0 0
 10 1000 0
 A
 2 1
@@ -743,7 +750,7 @@ an Antharian belt~
 An Antharian belt, just your size, is here.~
 ~
 9 0 1|2048
-8 0 0 0 
+8 0 0 0
 10 1000 0
 A
 24 -4
@@ -755,7 +762,7 @@ Antharian trousers~
 A pair of simple Antharian trousers are here.~
 ~
 9 0 1|32
-8 0 0 0 
+8 0 0 0
 5 1000 0
 A
 5 1
@@ -769,7 +776,7 @@ a round piece of metal~
 A round piece of some unknown metal is here.~
 ~
 3 32 1|16384
-30 7 7 7 
+30 7 7 7
 10 100000 0
 #12334
 Crystal potion~
@@ -777,7 +784,7 @@ a crystal potion~
 A liquid substance in a crystal container is here.~
 ~
 10 32768 1|32
-20 81 0 0 
+20 81 0 0
 3 1000 0
 #12335
 crystal scroll~
@@ -785,7 +792,7 @@ a crystal scroll~
 An amazing scroll of crystal is here.~
 ~
 2 1 1|256
-13 24 0 0 
+13 24 0 0
 3 1000 0
 #12336
 glowing seashell~
@@ -793,7 +800,7 @@ a glowing seashell~
 A glowing seashell is here.~
 ~
 2 1 1|16
-5 44 0 0 
+5 44 0 0
 3 1000 0
 #12337
 antharian bracer~
@@ -801,7 +808,7 @@ an Antharian style bracer~
 An Antharian style bracer is here.~
 ~
 9 64 1|4096
-8 0 0 0 
+8 0 0 0
 5 1000 0
 A
 18 1
@@ -813,7 +820,7 @@ an Antharian style bracer~
 An Antharian style bracer is here.~
 ~
 9 64 1|4096
-8 0 0 0 
+8 0 0 0
 5 1000 0
 A
 18 2
@@ -825,7 +832,7 @@ an Antharian style bracer~
 An Antharian style bracer is here.~
 ~
 9 64 1|4096
-8 0 0 0 
+8 0 0 0
 5 1000 0
 A
 18 3
@@ -837,7 +844,7 @@ a net~
 A glowing net is here.~
 ~
 4 1 1|16384
-25 10 10 0 
+25 10 10 0
 5 1000 0
 A
 22 5
@@ -851,7 +858,7 @@ You are standing just south of the grand temple of Anthar.  This seems
 to be the center of life in the city of Antharia -- Antharians are
 passing by here on a regular basis.  Also, you can almost hear the
 humming power radiating from the Gem of Salvation mounted upon the
-Temple.  
+Temple.
     From here you can walk around the temple to the east or west...or
 you can return to the Sea by going south.  There is also a Magical
 sign posted here, put up by the councils of Antharia after the initial
@@ -1100,7 +1107,7 @@ sign~
 Cyrtpea the Sorceress........North
 Heaustf the Armorer..........East
 Ertuvia the Weaponsmith .....East
-Irghum's Eatery .............South      
+Irghum's Eatery .............South
 
 ~
 S
@@ -1221,7 +1228,7 @@ degree.  However, she does keep her workplace as close to the ruins
 of grand Antharia as possible, and is known to to make special visits
 to Zaertses.  Common Antharians are convinced that Cyrtpea will make
 the discovery that will bring Antharia back to the splendor that it
-once knew.  
+once knew.
     The building itself seems to radiate with magical power, even
 touching you -- a non Antharian.  Cyrtpea sits at her desk, looking at
 books that you are sure hold the secrets of the world.
@@ -1244,7 +1251,7 @@ Antharia is a major part of that heritage.  Right now, there is a kind
 of magic wall between this section of the city, and the older ruined
 section.  Representatives from the other races and the city of
 Anon are working to gain permission to explore this section of
-Antharia.  
+Antharia.
     At this point in time, on Zaertses is allowed to explore these
 ruins.  He is known to tell stories sometimes; however, he is usually
 very quiet about the things that he has seen.  What wanders await us
@@ -1362,7 +1369,7 @@ In this particular section of street there are children playing
 games.  Running and playing, they make you remember your childhood.
 Just like all children, these children have that internal need to
 play IN the street -- instead of in the park or other, more sensible
-places.  
+places.
      Instead of running in fright, these children seem to be intrigued
 by your presence.  Looking at you in curiosity, they almost look as
 though they might talk to you.
@@ -1490,7 +1497,7 @@ took to build something of this magnitude.  Now, with the Gem of
 Salvation mounted on the top of the temple, it is even more
 impressive.  The temple seems to be a focus of tremendous power, you
 feel that if you could just get inside, you could aquire some of that
-power.  
+power.
     The road continues to the north and south.
 ~
 0 0 11
@@ -1657,7 +1664,7 @@ S
 #12316
 Center Street~
 This street seems to split modern Antharia right through the
-middle, connecting the eastern part of the city to the western.  
+middle, connecting the eastern part of the city to the western.
 Antharians are passing by continually, possibly on their way to see
 Heaustf, or maybe to visit the Temple of Anthar.  Walking on Center
 street leaves you no doubt that this is really a major city.
@@ -1814,7 +1821,7 @@ S
 Guild Street~
 You are walking along Guild street, where all the races of the
 world have representatives to help you along while you're here.  They
-can answer any questions and help you with diplomatic problems.  
+can answer any questions and help you with diplomatic problems.
    Just to the north is the Human guild.  The street continues to the
 east and west. The Illithid guild lies to the south.
 ~

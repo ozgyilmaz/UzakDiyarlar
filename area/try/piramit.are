@@ -1,8 +1,16 @@
-#AREA
-piramit.are~
-Piramit~
-{ 5 50} Andersen Piramit~
-8700 8799
+#AREADATA
+Filename piramit.are~
+Name Piramit~
+Builder Andersen~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 5
+Highlevel 50
+Minvnum 8700
+Maxvnum 8799
+Path ~
+END
+
 #MOBILES
 #8700
 engerek yýlan~

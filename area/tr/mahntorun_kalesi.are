@@ -1,8 +1,16 @@
-#AREA
-mahntorun_kalesi.are~
-Mahn-Tor'un Kalesi~
-{ 5 35} Chris   Mahn-Tor'un Kalesi~
-2300 2399
+#AREADATA
+Filename mahntorun_kalesi.are~
+Name Mahn-Tor'un Kalesi~
+Builder Chris~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 5
+Highlevel 35
+Minvnum 2300
+Maxvnum 2399
+Path ~
+END
+
 #MOBILES
 #2300
 Kara Þövalye~

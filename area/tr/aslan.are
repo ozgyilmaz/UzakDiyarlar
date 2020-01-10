@@ -1,8 +1,15 @@
-#AREA
-aslan.are~
-Aslan Kalesi~
-{90 100} Cabal Aslan Kalesi~
-500 510
+#AREADATA
+Filename aslan.are~
+Name Aslan Kalesi~
+Builder Cabal~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 90
+Highlevel 100
+Minvnum 500
+Maxvnum 510
+Path ~
+END
 
 
 #MOBILES

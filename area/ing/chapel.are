@@ -1,8 +1,16 @@
-#AREA
-chapel.are~
-Chapel~
-{15 25} Copper  Chapel Catacombs~
-3400 3499
+#AREADATA
+Filename chapel.are~
+Name Chapel Catacombs~
+Builder Yaegar~
+Translator ~
+Language Ýngilizce~
+Lowlevel 15
+Highlevel 25
+Minvnum 3400
+Maxvnum 3499
+Path ~
+END
+
 #MOBILES
 #3400
 oldstyle skeleton bony~
@@ -904,7 +912,7 @@ oak~
 1 -1 3422
 D4
 You see a large set of stone stairs leading upwards to a small stone door at
-the top. 
+the top.
 ~
 stone trapdoor door~
 2 3410 3405

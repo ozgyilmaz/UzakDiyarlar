@@ -1,8 +1,15 @@
-#AREA
-jherin_lahiti.are~
-Jher'in Lahiti~
-{35 55} Garth   Jher'in Lahiti~
-32700 32725
+#AREADATA
+Filename jherin_lahiti.are~
+Name Jher'in Lahiti~
+Builder Garth~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 35
+Highlevel 55
+Minvnum 32700
+Maxvnum 32725
+Path ~
+END
 
 #MOBILES
 #32700

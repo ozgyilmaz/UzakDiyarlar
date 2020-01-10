@@ -1,8 +1,15 @@
-#AREA
-beyaz_lotus_tapinagi.are~
-Beyaz Lotus Tapýnaðý~
-{1  50} Strahd  Beyaz Lotus Tapýnaðý~
-10701 10873
+#AREADATA
+Filename beyaz_lotus_tapinagi.are~
+Name Beyaz Lotus Tapýnaðý~
+Builder Strahd~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 1
+Highlevel 50
+Minvnum 10701
+Maxvnum 10873
+Path ~
+END
 
 #MOBOLD
 #10701

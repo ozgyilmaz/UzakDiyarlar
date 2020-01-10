@@ -1,8 +1,16 @@
-#AREA
-ofcol.are~
-Ofcol~
-{1 100} Alfa    Ofcol~
-5500 5599
+#AREADATA
+Filename ofcol.are~
+Name Ofcol~
+Builder Alfa~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 1
+Highlevel 100
+Minvnum 5500
+Maxvnum 5599
+Path ~
+END
+
 #MOBILES
 #0
 #OBJECTS

@@ -1,8 +1,16 @@
-#AREA
-bataklik.are~
-Bataklýk~
-{15 25} Generic Bataklýk~
-8300 8399
+#AREADATA
+Filename bataklik.are~
+Name Bataklýk~
+Builder Generic~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 15
+Highlevel 25
+Minvnum 8300
+Maxvnum 8399
+Path ~
+END
+
 #MOBILES
 #8301
 trol~

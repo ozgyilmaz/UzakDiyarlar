@@ -1,8 +1,16 @@
-#AREA
-arachnos.are~
-Arachnos~
-{ 5 20} Mahatma Arachnos~
-6200 6399
+#AREADATA
+Filename arachnos.are~
+Name Arachnos~
+Builder Mahatma~
+Translator ~
+Language Ýngilizce~
+Lowlevel 5
+Highlevel 20
+Minvnum 6200
+Maxvnum 6399
+Path ~
+END
+
 #MOBILES
 #6301
 oldstyle spider young~

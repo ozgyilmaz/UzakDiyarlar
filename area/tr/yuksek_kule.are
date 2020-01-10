@@ -1,8 +1,16 @@
-#AREA
-yuksek_kule.are~
-Yüksek Büyücülük Kulesi~
-{10 30} Skylar  Yüksek Büyücülük Kulesi~
-1300 1499
+#AREADATA
+Filename yuksek_kule.are~
+Name Yüksek Büyücülük Kulesi~
+Builder Skylar~
+Translator ~
+Language Türkçe~
+Lowlevel 10
+Highlevel 30
+Minvnum 1300
+Maxvnum 1499
+Path ~
+END
+
 #MOBILES
 #1300
 gölge muhafýz~

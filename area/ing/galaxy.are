@@ -1,8 +1,16 @@
-#AREA
-galaxy.are~
-Galaxy~
-{20 30} Doctor  Galaxy~
-9300 9399
+#AREADATA
+Filename galaxy.are~
+Name Galaxy~
+Builder Doctor~
+Translator ~
+Language Ýngilizce~
+Lowlevel 20
+Highlevel 30
+Minvnum 9300
+Maxvnum 9399
+Path ~
+END
+
 #MOBILES
 #9301
 oldstyle poor mudder~
@@ -78,7 +86,7 @@ sleep sleep male 100
 #9306
 oldstyle white dwarf~
 a white dwarf~
-A tiny white dwarf is trying to sneak away from duty. 
+A tiny white dwarf is trying to sneak away from duty.
 ~
 Like the red giant, he is also appointed to stand guard for the galaxy.
 But somehow he manages to escape.  Though tiny, it can take a lot of hits!
@@ -158,7 +166,7 @@ Orion is still hunting for Scorpio.
 He is the legendary hunter who almost defeated Taurus the bull, but got
 killed by Scorpio.  The gods put them both up as constellations but one
 appears on one side of the sky and the other the other side so they will
-never meet. 
+never meet.
 ~
 human~
 ABG H 300 0
@@ -187,8 +195,8 @@ oldstyle draco head~
 the Head of Draco~
 The gigantic Head of Draco lurks out from beneath and prepares to roast you.
 ~
-This evil-looking head is even larger than a giant.  He is the last guardian 
-before entering the inner galaxy.  His neck is flexing in a random fashion so 
+This evil-looking head is even larger than a giant.  He is the last guardian
+before entering the inner galaxy.  His neck is flexing in a random fashion so
 hitting the head is certainly not easy.
 ~
 human~
@@ -234,7 +242,7 @@ oldstyle taurus~
 Taurus~
 Taurus wants to leave, but has been forced to stay as a guardian here.
 ~
-You see a wild-looking bull with a bad temper.  He is well-built and looks like 
+You see a wild-looking bull with a bad temper.  He is well-built and looks like
 he can fight well ... indeed he has fought with Orion before and survived.
 ~
 human~
@@ -281,7 +289,7 @@ Cancer the crab is here, hoarding the treasure away from you.
 ~
 You see a gigantic crab (YES, it is bigger than you!) with a crushed shell.
 Legend is that he was crushed by Hercules when he was sent by Hera to kill him.
-So Hera made Cancer a constellation for his work. 
+So Hera made Cancer a constellation for his work.
 ~
 human~
 ABGQ H 0 0
@@ -342,7 +350,7 @@ oldstyle scorpio~
 Scorpio~
 Scorpio is moving his tail towards you, waiting to put an end to some mortals.
 ~
-Ever since he killed Orion in the myths, he has been punished by having 
+Ever since he killed Orion in the myths, he has been punished by having
 Sagittarius' arrow aimed at his heart forever.
 ~
 human~
@@ -372,7 +380,7 @@ Capricorn~
 Capricorn is here, feeling bored ... he wants a fight!
 ~
 You see a mean-looking ram here.  He used to be a fierce fighter in the ancient
-war but now the gods have decided to put him here, to live out the rest of his 
+war but now the gods have decided to put him here, to live out the rest of his
 days in peace.
 ~
 human~
@@ -387,8 +395,8 @@ oldstyle aquarius~
 Aquarius~
 The beautiful Aquarius is standing here, holding THE vessel.
 ~
-The pretty Water Bearer is smiling at you, you think you'd better give her a 
-hand with holding the vessel. 
+The pretty Water Bearer is smiling at you, you think you'd better give her a
+hand with holding the vessel.
 ~
 human~
 ABGQ H 1000 0
@@ -432,7 +440,7 @@ oldstyle bear ursa major~
 Ursa Major the bear~
 Ursa Major the bear is the last defense against any intruders.
 ~
-The Huge Bear which resides in the northern skies is here. 
+The Huge Bear which resides in the northern skies is here.
 You think you'd better turn back.  At least you have got a chance of survival.
 ~
 bear~
@@ -476,8 +484,8 @@ oldstyle polaris polar star~
 Polaris, the polar star~
 Polaris, the polar star, who commands the whole Universe, stands before you!
 ~
-He is the Master of the Universe, (NOT He-Man!), the most powerful!  
-Even the King and the Queen obey him.  As you look at him you notice he is 
+He is the Master of the Universe, (NOT He-Man!), the most powerful!
+Even the King and the Queen obey him.  As you look at him you notice he is
 actually a STAR, with dazzling bright light ... maybe you shouldn't have come
 here at all?
 ~
@@ -1139,7 +1147,7 @@ Indeed it is too bright to tell.  Because what you are witnessing is the
 rare event of a Supernova, how a star explodes itself into galactic dust.
 You may find yourself lucky to witness this rare event but even luckier,
 you have finally got out of this galaxy as your body turns into dust.
-That really HURTS!  
+That really HURTS!
 ~
 0 BC 0
 S
@@ -1179,7 +1187,7 @@ S
 #9323
 Corner of the Galaxy~
 You wonder why the galaxy is limited.  All you have done in Astronomy
-courses now prove worthless.  Well who told you to take one at the start?  
+courses now prove worthless.  Well who told you to take one at the start?
 ~
 0 0 1
 D0
@@ -1349,7 +1357,7 @@ S
 #9332
 Hercules' Mighty Throne~
 You stand before the throne of a long-forgotten hero.  It is full of bounty
-that he got from the Ten Labours. 
+that he got from the Ten Labours.
 ~
 0 0 1
 D2
@@ -1477,7 +1485,7 @@ S
 #9345
 Along the seashore~
 You start to feel the heat of Summer.  Amongst the rocky beach you notice
-hidden forms which could be camouflaged crabs. 
+hidden forms which could be camouflaged crabs.
 ~
 0 0 2
 D1
@@ -1598,7 +1606,7 @@ S
 End of the Mystic Chains~
 You have reached the end of the mystic chains.  Looking up, you notice a
 small landing on which you can climb.  However, there seems to be another
-forcefield blocking your way.  
+forcefield blocking your way.
 ~
 0 0 5
 D4
@@ -1631,7 +1639,7 @@ S
 Tail of the Draco~
 At last you realize that you are on a giant snake-like dragon called the
 Draco, the guardian of the inner galaxy.  You realize that the Draco is
-actually flying now! 
+actually flying now!
 ~
 0 A 4
 D0
@@ -1774,7 +1782,7 @@ S
 #9365
 Cassiopeia's Throne~
 This is the Throne room of the Queen of the Universe.  From here you can see
-every star and constellation in the Universe. 
+every star and constellation in the Universe.
 ~
 0 0 1
 D0
@@ -1803,7 +1811,7 @@ S
 #9367
 Cepheus' Throne~
 This is the Throne room of the King of the Universe.  From here you can see
-every star and constellation in the Universe. 
+every star and constellation in the Universe.
 ~
 0 0 1
 D0
@@ -1851,7 +1859,7 @@ S
 End of the Dipper~
 You have finished the path of the Dipper.  Here, the most prominent feature
 is a set of claw-marks.  You also notice a room to the south; it looks as
-if Polaris could lie here. 
+if Polaris could lie here.
 ~
 0 0 1
 D0

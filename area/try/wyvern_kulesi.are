@@ -1,8 +1,15 @@
-#AREA
-wyvern_kulesi.are~
-Wyvern Kulesi~
-{ 5 30} Tyrst   Wyvern Kulesi~
-1600 1799
+#AREADATA
+Filename wyvern_kulesi.are~
+Name Wyvern Kulesi~
+Builder Tyrst~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 5
+Highlevel 30
+Minvnum 1600
+Maxvnum 1799
+Path ~
+END
 
 #MOBILES
 #1601

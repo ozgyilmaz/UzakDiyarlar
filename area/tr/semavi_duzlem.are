@@ -1,8 +1,15 @@
-#AREA
-semavi_duzlem.are~
-Semavi Düzlem~
-{10 35} Andersen Semavi Düzlem~
-7700 7799
+#AREADATA
+Filename semavi_duzlem.are~
+Name Semavi Düzlem~
+Builder Andersen~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 10
+Highlevel 35
+Minvnum 7700
+Maxvnum 7799
+Path ~
+END
 
 #MOBILES
 #7700

@@ -428,7 +428,7 @@ AREA_DATA		*Serarea;	/* currently read area */
  * Local booting procedures.
 */
 void    init_mm         args( ( void ) );
-void	load_area	args( ( FILE *fp ) );
+void	load_areadata	args( ( FILE *fp ) );
 void	load_helps	args( ( FILE *fp ) );
 void    load_omprogs    args( ( FILE *fp ) );
 void	load_old_mob	args( ( FILE *fp ) );
@@ -595,7 +595,7 @@ void boot_db( void )
 		word = fread_word( fpArea );
 
 		     if ( word[0] == '$'               )                 break;
-		else if ( !str_cmp( word, "AREA"     ) ) load_area    (fpArea);
+    else if ( !str_cmp( word, "AREADATA" ) ) load_areadata(fpArea);
 		else if ( !str_cmp( word, "HELPS"    ) ) load_helps   (fpArea);
 		else if ( !str_cmp( word, "MOBOLD"   ) ) load_old_mob (fpArea);
 		else if ( !str_cmp( word, "MOBILES"  ) ) load_mobiles (fpArea);
@@ -647,45 +647,97 @@ void boot_db( void )
     return;
 }
 
+// Bolge bilgilerini biraz daha detaylandiralim.
 
+#if defined(KEY)
+#undef KEY
+#endif
 
-/*
- * Snarf an 'area' header line.
- */
-void load_area( FILE *fp )
+#define KEY( literal, field, value )					\
+				if ( !str_cmp( word, literal ) )	\
+				{					\
+				    field  = value;			\
+				    fMatch = TRUE;			\
+				    break;				\
+				}
+
+void load_areadata( FILE *fp )
 {
-    AREA_DATA *pArea;
+	AREA_DATA *pArea;
+    char *word=(char*)"End";
+	bool fMatch;
 
-    pArea		= (AREA_DATA *)alloc_perm( sizeof(*pArea) );
-    pArea->reset_first	= NULL;
+	pArea		= (AREA_DATA *)alloc_perm( sizeof(*pArea) );
+
+	pArea->reset_first	= NULL;
     pArea->reset_last	= NULL;
-    pArea->file_name	= fread_string(fp);
-    pArea->name		= fread_string( fp );
-    fread_letter(fp);
-    pArea->low_range	= fread_number(fp);
-    pArea->high_range	= fread_number(fp);
-    fread_letter(fp);
-    pArea->writer	= str_dup( fread_word(fp) );
-    pArea->credits	= fread_string(fp);
-    pArea->min_vnum	= fread_number(fp);
-    pArea->max_vnum	= fread_number(fp);
-    pArea->age		= 15;
+	pArea->age		= 15;
     pArea->nplayer	= 0;
     pArea->empty	= FALSE;
     pArea->count	= 0;
     pArea->resetmsg	= NULL;
     pArea->area_flag	= 0;
+	pArea->language	= NULL;
+	pArea->translator	= NULL;
+	pArea->path	= NULL;
 
     if ( area_first == NULL )
-	area_first = pArea;
+		area_first = pArea;
     if ( area_last  != NULL )
-	area_last->next = pArea;
+		area_last->next = pArea;
     area_last	= pArea;
     pArea->next	= NULL;
     Serarea = pArea;
+	top_area++;
 
-    top_area++;
-    return;
+	while (true)
+	{
+		word   = (char *)(feof( fp ) ? "END" : fread_word( fp ));
+		fMatch = FALSE;
+
+		switch ( UPPER(word[0]) )
+		{
+			case 'B':
+				KEY( "Builder",		pArea->writer,		fread_string( fp ) );
+			break;
+			case 'E':
+				if ( !str_cmp( word, "END" ) )
+				{
+					return;
+				}
+			break;
+			case 'F':
+				KEY( "Filename",		pArea->file_name,		fread_string( fp ) );
+			break;
+			case 'H':
+				KEY( "Highlevel",		pArea->high_range,		fread_number( fp ) );
+			break;
+			case 'L':
+				KEY( "Language",		pArea->language,		fread_string( fp ) );
+				KEY( "Lowlevel",		pArea->low_range,		fread_number( fp ) );
+			break;
+			case 'M':
+				KEY( "Minvnum",		pArea->min_vnum,		fread_number( fp ) );
+				KEY( "Maxvnum",		pArea->max_vnum,		fread_number( fp ) );
+			break;
+			case 'N':
+				KEY( "Name",		pArea->name,		fread_string( fp ) );
+			break;
+			case 'P':
+				KEY( "Path",		pArea->path,		fread_string( fp ) );
+			break;
+			case 'T':
+				KEY( "Translator",		pArea->translator,		fread_string( fp ) );
+			break;
+		}
+
+		if ( !fMatch )
+		{
+			bug( "Fread_areadata: no match.", 0 );
+			fread_to_eol( fp );
+			return;
+		}
+	}
 }
 
 
@@ -3252,7 +3304,7 @@ void do_areas( CHAR_DATA *ch, char *argument )
 	pArea1->low_range,pArea1->high_range,
 	CLR_WHITE_BOLD,
 	CLR_CYAN,
-	pArea1->credits,
+	pArea1->name,
 	CLR_WHITE_BOLD);
 
      sprintf( buf, "%s",buf2);
@@ -3263,7 +3315,7 @@ void do_areas( CHAR_DATA *ch, char *argument )
 	pArea2->low_range,pArea1->high_range,
 	CLR_WHITE_BOLD,
 	CLR_CYAN,
-	pArea2->credits,
+	pArea2->name,
 	CLR_WHITE_BOLD);
       }
      else sprintf(buf2,"\n\r");

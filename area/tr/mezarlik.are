@@ -1,8 +1,16 @@
-#AREA
-mezarlik.are~
-Mezarlýk~
-{ 5 10} Alfa    Mezarlik~
-3600 3699
+#AREADATA
+Filename mezarlik.are~
+Name Mezarlýk~
+Builder Alfa~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 5
+Highlevel 10
+Minvnum 3600
+Maxvnum 3699
+Path ~
+END
+
 #MOBILES
 #3600
 bahçývan henry~
@@ -25,7 +33,7 @@ zombi~
 bir çürümüþ zombi~
 Çürümüþ bir zombi kollarýný uzatmýþ sana doðru geliyor.
 ~
-Çürümüþ vücudunda kurtçuklar geziniyor. 
+Çürümüþ vücudunda kurtçuklar geziniyor.
 ~
 human~
 ABF J -750 0

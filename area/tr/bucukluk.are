@@ -1,8 +1,16 @@
-#AREA
-bucukluk.are~
-Buçukluk Ülkesi~
-{ 5 35} Poohb   Buçukluk Ülkesi~
-1100 1199
+#AREADATA
+Filename bucukluk.are~
+Name Buçukluk Ülkesi~
+Builder Poohb~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 5
+Highlevel 35
+Minvnum 1100
+Maxvnum 1199
+Path ~
+END
+
 #MOBILES
 #1100
 elf büyücü~

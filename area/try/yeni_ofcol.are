@@ -1,8 +1,15 @@
-#AREA
-yeni_ofcol.are~
-Yeni Ofcol~
-{ 5 35} Hatchet Yeni Ofcol~
-600 699
+#AREADATA
+Filename yeni_ofcol.are~
+Name Yeni Ofcol~
+Builder Hatchet~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 5
+Highlevel 35
+Minvnum 600
+Maxvnum 699
+Path ~
+END
 
 #FLAG
 AB

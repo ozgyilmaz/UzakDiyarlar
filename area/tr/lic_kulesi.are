@@ -1,8 +1,15 @@
-#AREA
-lic_kulesi.are~
-Lich Tower~
-{45 75} Ryzen   Liç Kulesi~
-29350 29399
+#AREADATA
+Filename lic_kulesi.are~
+Name Liç Kulesi~
+Builder Ryzen~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 45
+Highlevel 75
+Minvnum 29350
+Maxvnum 29399
+Path ~
+END
 
 #MOBILES
 #29350

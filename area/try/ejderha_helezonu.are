@@ -1,8 +1,15 @@
-#AREA
-ejderha_helezonu.are~
-Ejderha Helezonu~
-{30 65} Anon    Ejderha Helezonu~
-2400 2499
+#AREADATA
+Filename ejderha_helezonu.are~
+Name Ejderha Helezonu~
+Builder Anon~
+Translator Bilinmiyor~
+Language Yarý Türkçe~
+Lowlevel 30
+Highlevel 65
+Minvnum 2400
+Maxvnum 2499
+Path ~
+END
 
 #MOBILES
 #2400

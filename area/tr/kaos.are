@@ -1,8 +1,15 @@
-#AREA
-kaos.are~
-Kaos Çemberi~
-{90 100} Asena Kaos Çemberi~
-550 559
+#AREADATA
+Filename kaos.are~
+Name Kaos Çemberi~
+Builder Asena~
+Translator Bilinmiyor~
+Language Türkçe~
+Lowlevel 90
+Highlevel 100
+Minvnum 550
+Maxvnum 559
+Path ~
+END
 
 
 #MOBILES

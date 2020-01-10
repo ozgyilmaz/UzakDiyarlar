@@ -1,8 +1,15 @@
-#AREA
-tohell.are~
-Hell~
-{32 56} Strahd  Descent to Hell~
-10400 10599
+#AREADATA
+Filename tohell.are~
+Name Descent to Hell~
+Builder Strahd~
+Translator ~
+Language Ýngilizce~
+Lowlevel 32
+Highlevel 56
+Minvnum 10400
+Maxvnum 10599
+Path ~
+END
 
 #MOBILES
 #10401
@@ -127,7 +134,7 @@ oldstyle damned soul~
 a damned soul~
 A damned soul wanders aimlessly here.
 ~
-You see the faint silhouette of a person. Looking closely at it, you can barely 
+You see the faint silhouette of a person. Looking closely at it, you can barely
 make out features that would identify it as the person it was in life.
 ~
 human~
@@ -390,7 +397,7 @@ oldstyle burning fool~
 the burning fool~
 A burning fool is here, crisping away.
 ~
-You can barely make out anything on it. All you can make out are the flames 
+You can barely make out anything on it. All you can make out are the flames
 of Hell consuming it, and the smell of burning flesh.
 ~
 human~
@@ -503,9 +510,9 @@ the ice devil~
 A Greater Ice Devil stands here, cheerfully freezing souls.
 ~
 This devil is a mix of bug, bird, humanoid, and who knows what else.
-Its multi-faceted eyes stare everywhere. It goes about its business of 
+Its multi-faceted eyes stare everywhere. It goes about its business of
 slowly and painfully freezing the damned souls, quickly thawing them
-and then starting over. Every couple of minutes, it takes time out to 
+and then starting over. Every couple of minutes, it takes time out to
 break an appendage off a nearby soul and beat the soul with it.
 ~
 human~
@@ -607,7 +614,7 @@ A Demonic Foreman sits here, looking at blueprints.
 This huge demon has somehow managed to fit himself into
 a oversized, orange jumpsuit. The words,
 
-'4th DEMONsion Construction Co.' are written on the 
+'4th DEMONsion Construction Co.' are written on the
 back in large, black letters.
 He seems none too happy to see you.
 ~
@@ -639,7 +646,7 @@ oldstyle office worker hell~
 office worker from Hell~
 An office worker from Hell is looking for a boss to piss off.
 ~
-Just looking at him makes your blood boil. 
+Just looking at him makes your blood boil.
 AAAAAAAAAAaaaaaaaaaaaarrrrrrrrgggggghhhhh!!!!!!!!!!!
 ~
 human~
@@ -815,7 +822,7 @@ stand stand none 5000
 #10454
 oldstyle stanley~
 Stanley~
-Stanley stands here, waiting to sell you one of his wonderful figurines. 
+Stanley stands here, waiting to sell you one of his wonderful figurines.
 ~
 He is a crafty old fart who looks about 1000 years old, but his figurines
 are pretty well-known.  He was rumored to have disappeared around Solace 100
@@ -831,7 +838,7 @@ stand stand male 5000
 #10455
 oldstyle half eaten horse carcass~
 horse carcass~
-A half-eaten horse carcass is here being digested. 
+A half-eaten horse carcass is here being digested.
 ~
 This is what used to be a horse.  Hmm, maybe - it's hard to tell.  Half
 of it has been digested already.
@@ -1731,7 +1738,7 @@ make your blood run cold...
 S
 #10405
 Gateway to Hell~
-You stand next to the very gateway of Hell. You are surrounded by 
+You stand next to the very gateway of Hell. You are surrounded by
 the sounds of torture and pain. Screams pierce the air and rattle your
 nerves. Displays of the treats of Hell are in all directions.
 A large black iron gates tower over you to the east.
@@ -1947,8 +1954,8 @@ It's too smoky to see.
 S
 #10413
 Trapped souls~
-There are many souls trapped behind the walls of this room, almost as though 
-they were trapped beneath the surface of a frozen lake. Even the floor and 
+There are many souls trapped behind the walls of this room, almost as though
+they were trapped beneath the surface of a frozen lake. Even the floor and
 ceiling show the screaming faces behind them.
 ~
 0 AD 0
@@ -2063,7 +2070,7 @@ vandalized and torn apart. What used to be the shrine has been reduced to
 a large pile of stone and other debris. Various runes and demonic faces
 have been spray-painted on the walls and floor.  Nailed to the ceiling are
 an assortment of skeletons.  All seem to have been dead for a very long
-time. All surfaces of the room are covered with dried blood and dust. 
+time. All surfaces of the room are covered with dried blood and dust.
 ~
 0 AD 0
 D1
@@ -2339,7 +2346,7 @@ It is too dark to see.
 S
 #10432
 Stone Hall~
-This is a roughly carved hallway. The air here is damp and musty. You 
+This is a roughly carved hallway. The air here is damp and musty. You
 hear the sound of something dripping in the distance. Your footsteps
 echo down the hall as you walk. There is a strange and deathly silence
 that fills these halls...
@@ -2372,7 +2379,7 @@ bars~
 S
 #10434
 Stone Hall~
-This is a roughly carved hallway. The air here is damp and musty. You 
+This is a roughly carved hallway. The air here is damp and musty. You
 hear the sound of something dripping in the distance. Your footsteps
 echo down the hall as you walk. There is a strange and deathly silence
 that fills these halls...
@@ -2392,7 +2399,7 @@ It is too dark to see.
 S
 #10435
 Stone Hall~
-This is a roughly carved hallway. The air here is damp and musty. You 
+This is a roughly carved hallway. The air here is damp and musty. You
 hear the sound of something dripping in the distance. Your footsteps
 echo down the hall as you walk. There is a strange and deathly silence
 that fills these halls...
@@ -2417,7 +2424,7 @@ It is too dark to see.
 S
 #10436
 Stone Hall~
-This is a roughly carved hallway. The air here is damp and musty. You 
+This is a roughly carved hallway. The air here is damp and musty. You
 hear the sound of something dripping in the distance. Your footsteps
 echo down the hall as you walk. There is a strange and deathly silence
 that fills these halls...
@@ -2450,7 +2457,7 @@ bars~
 S
 #10438
 Stone Hall~
-This is a roughly carved hallway. The air here is damp and musty. You 
+This is a roughly carved hallway. The air here is damp and musty. You
 hear the sound of something dripping in the distance. Your footsteps
 echo down the hall as you walk. There is a strange and deathly silence
 that fills these halls...
@@ -2470,7 +2477,7 @@ It is too dark to see.
 S
 #10439
 Stone Hall~
-This is a roughly carved hallway. The air here is damp and musty. You 
+This is a roughly carved hallway. The air here is damp and musty. You
 hear the sound of something dripping in the distance. Your footsteps
 echo down the hall as you walk. There is a strange and deathly silence
 that fills these halls...
@@ -2526,7 +2533,7 @@ It's too dark to see.
 S
 #10442
 Stone Hall~
-This is a roughly carved hallway. The air here is damp and musty. You 
+This is a roughly carved hallway. The air here is damp and musty. You
 hear the sound of something dripping in the distance. Your footsteps
 echo down the hall as you walk. There is a strange and deathly silence
 that fills these halls...
@@ -2546,7 +2553,7 @@ It's too dark to see.
 S
 #10443
 Stone Hall~
-This is a roughly carved hallway. The air here is damp and musty. You 
+This is a roughly carved hallway. The air here is damp and musty. You
 hear the sound of something dripping in the distance. Your footsteps
 echo down the hall as you walk. There is a strange and deathly silence
 that fills these halls...
@@ -2572,7 +2579,7 @@ It's too dark to see.
 S
 #10444
 Stone Hall~
-This is a roughly carved hallway. The air here is damp and musty. You 
+This is a roughly carved hallway. The air here is damp and musty. You
 hear the sound of something dripping in the distance. Your footsteps
 echo down the hall as you walk. There is a strange and deathly silence
 that fills these halls...
@@ -2605,7 +2612,7 @@ bars~
 S
 #10446
 Stone Hall~
-This is a roughly carved hallway. The air here is damp and musty. You 
+This is a roughly carved hallway. The air here is damp and musty. You
 hear the sound of something dripping in the distance. Your footsteps
 echo down the hall as you walk. There is a strange and deathly silence
 that fills these halls...
@@ -2625,7 +2632,7 @@ It's too dark to see.
 S
 #10447
 Stone Hall~
-This is a roughly carved hallway. The air here is damp and musty. You 
+This is a roughly carved hallway. The air here is damp and musty. You
 hear the sound of something dripping in the distance. Your footsteps
 echo down the hall as you walk. There is a strange and deathly silence
 that fills these halls...
@@ -2651,7 +2658,7 @@ It's too dark to see.
 S
 #10448
 Stone Hall~
-This is a roughly carved hallway. The air here is damp and musty. You 
+This is a roughly carved hallway. The air here is damp and musty. You
 hear the sound of something dripping in the distance. Your footsteps
 echo down the hall as you walk. There is a strange and deathly silence
 that fills these halls...
@@ -2941,7 +2948,7 @@ S
 Foreman's Office~
 You stand in a crudly constructed office. Blueprints and change orders are
 scattered everywhere. A metal filing cabinet stands in the corner. Before
-you stands a stone table covered with blueprints. On the wall is a 
+you stands a stone table covered with blueprints. On the wall is a
 construction plaque that reads, "4th DEMONsion Contruction"
 ~
 0 AD 0
@@ -3190,7 +3197,7 @@ Meat Locker~
 You are standing in what looks like a meat locker. Rows of beef and other
 meats hang from large steel hooks. You also notice that many of the
 things hanging from the hooks are corpses of people. They reach out to
-you as you pass them as if to plead for help from their frozen mouths. 
+you as you pass them as if to plead for help from their frozen mouths.
 The meat locker continues to the east and south.
 ~
 0 AD 0
@@ -3207,10 +3214,10 @@ You see more of the Meat locker
 S
 #10475
 Meat Locker~
-Rows of beef and other meats hang from large steel hooks. You notice that 
-many of the things hanging from the hooks are corpses of people. They 
-reach out to you as you pass them as if to plead for help from their frozen 
-mouths. 
+Rows of beef and other meats hang from large steel hooks. You notice that
+many of the things hanging from the hooks are corpses of people. They
+reach out to you as you pass them as if to plead for help from their frozen
+mouths.
 The meat locker continues to the south and west.
 There is a freezer door to the east.
 ~
@@ -3231,7 +3238,7 @@ Penguin Room~
 This is what appears to be a replica of an iceberg. Penguins waddle about
 the room pecking at many poor souls half trapped in the icy floor. You
 seem to be outside, as the walls are painted to seem as if you are standing
-on a vast icy slab with nothing but ocean around you. 
+on a vast icy slab with nothing but ocean around you.
 The iceberg continues to the south and east.
 There is a freezer door to the west.
 ~
@@ -3257,7 +3264,7 @@ Penguin Room~
 This is what appears to be a replica of an iceberg. Penguins waddle about
 the room pecking at many poor souls half trapped in the icy floor. You
 seem to be outside, as the walls are painted to seem as if you are standing
-on a vast icy slab with nothing but ocean around you. 
+on a vast icy slab with nothing but ocean around you.
 The iceberg continues to the south and west.
 ~
 0 AD 0
@@ -3293,7 +3300,7 @@ S
 #10479
 Ice Creamery~
 You appear to be standing in a ice-creamery. There seems to be a
-group of people here shouting into containers and then quickly covering 
+group of people here shouting into containers and then quickly covering
 them. How odd...
 The factory continues to the south and west.
 There is a steel door to the east.
@@ -3400,8 +3407,8 @@ You see a room of ice.
 S
 #10484
 Meat Locker~
-You stand in a large meat locker. Chunks of meat hang on the wall and 
-larger corpses hang from steel hooks. Frozen blood and other 
+You stand in a large meat locker. Chunks of meat hang on the wall and
+larger corpses hang from steel hooks. Frozen blood and other
 unrecognizable pieces are littered on the floor.
 The meat locker continues to the north and east.
 There is a freezer door to the west.
@@ -3425,7 +3432,7 @@ door freezer~
 S
 #10485
 Meat Locker~
-Rows of beef and other meats hang from large steel hooks. 
+Rows of beef and other meats hang from large steel hooks.
 The meat locker continues to the north and west.
 ~
 0 AD 0
@@ -3445,7 +3452,7 @@ Penguin Room~
 This is what appears to be a replica of an iceberg. Penguins waddle about
 the room pecking at many poor souls half trapped in the icy floor. You
 seem to be outside, as the walls are painted to seem as if you are standing
-on a vast icy slab with nothing but ocean around you. 
+on a vast icy slab with nothing but ocean around you.
 The iceberg continues to the north and east.
 ~
 0 AD 0
@@ -3465,7 +3472,7 @@ Penguin Room~
 This is what appears to be a replica of an iceberg. Penguins waddle about
 the room pecking at many poor souls half trapped in the icy floor. You
 seem to be outside, as the walls are painted to seem as if you are standing
-on a vast icy slab with nothing but ocean around you. 
+on a vast icy slab with nothing but ocean around you.
 The iceberg continues to the north and west.
 You can hear sounds of machinery to the east.
 ~
@@ -3642,8 +3649,8 @@ S
 #10496
 Blackened Hall~
 This hall looks as if it was burned out recently. The walls are charred and
-smoking. Ashes and bits of burnt timber crunch under your feet as you 
-walk down the hall. A sign on the wall reads, 'No Non-smoking Please'. 
+smoking. Ashes and bits of burnt timber crunch under your feet as you
+walk down the hall. A sign on the wall reads, 'No Non-smoking Please'.
 The hall continues to the south.
 There is a stone door to the east and a prayer room to the west.
 ~
@@ -3681,8 +3688,8 @@ S
 #10498
 Blackened Hall~
 This hall looks as if it was burned out recently. The walls are charred and
-smoking. Ashes and bits of burnt timber crunch under your feet as you 
-walk down the hall. A sign on the wall reads, 'No Non-smoking Please'. 
+smoking. Ashes and bits of burnt timber crunch under your feet as you
+walk down the hall. A sign on the wall reads, 'No Non-smoking Please'.
 The hall continues to the east and south.
 ~
 0 AD 0
@@ -3700,10 +3707,10 @@ S
 #10499
 Blackened Hall~
 This hall looks as if it was burned out recently. The walls are charred and
-smoking. Ashes and bits of burnt timber crunch under your feet as you 
+smoking. Ashes and bits of burnt timber crunch under your feet as you
 walk down the hall. A sign on the wall reads, 'No Non-smoking Please'.
 The hall continues to the west.
-A glass door is to the east. 
+A glass door is to the east.
 ~
 0 AD 0
 D1
@@ -3761,7 +3768,7 @@ soon....
 S
 #10501
 Halls of Judgement~
-You are standing in the Halls of Judgement. There are many alcoves 
+You are standing in the Halls of Judgement. There are many alcoves
 which contain different methods of torture. Each more grotesque than
 the one before it. On the wall a plaque reads, 'If you are here...You are
 Guilty...You have been judged...sound fair? Too bad..'
@@ -3782,9 +3789,9 @@ You see the Court of Hell.
 S
 #10502
 Halls of Judgement~
-You are standing in the Halls of Judgement. There are many alcoves 
+You are standing in the Halls of Judgement. There are many alcoves
 which contain different methods of torture. Each more grotesque than
-the one before it. 
+the one before it.
 The hall continues to the east and west.
 The hall of records is to the north.
 ~
@@ -3807,9 +3814,9 @@ You see the Halls of Judgement.
 S
 #10503
 Halls of Judgement~
-You are standing in the Halls of Judgement. There are many alcoves 
+You are standing in the Halls of Judgement. There are many alcoves
 which contain different methods of torture. Each more grotesque than
-the one before it. 
+the one before it.
 The hall continues to the east and west.
 The Office of Complaints is to the south.
 ~
@@ -3832,9 +3839,9 @@ You see the Halls of Judgement.
 S
 #10504
 Halls of Judgement~
-You are standing in the Halls of Judgement. There are many alcoves 
+You are standing in the Halls of Judgement. There are many alcoves
 which contain different methods of torture. Each more grotesque than
-the one before it. 
+the one before it.
 The hall continues to the east and west.
 ~
 0 AD 0
@@ -3851,9 +3858,9 @@ You see the Halls of Judgement.
 S
 #10505
 Halls of Judgement~
-You are standing in the Halls of Judgement. There are many alcoves 
+You are standing in the Halls of Judgement. There are many alcoves
 which contain different methods of torture. Each more grotesque than
-the one before it. 
+the one before it.
 The hall continues to the east and west.
 ~
 0 AD 0
@@ -3871,7 +3878,7 @@ S
 #10506
 Blackened Hall~
 This hall looks as if it was burned out recently. The walls are charred and
-smoking. Ashes and bits of burnt timber crunch under your feet as you 
+smoking. Ashes and bits of burnt timber crunch under your feet as you
 walk down the hall. A sign on the wall reads, 'No Non-smoking Please'.
 There are exits in all directions.
 ~
@@ -3900,7 +3907,7 @@ S
 #10507
 Blackened Hall~
 This hall looks as if it was burned out recently. The walls are charred and
-smoking. Ashes and bits of burnt timber crunch under your feet as you 
+smoking. Ashes and bits of burnt timber crunch under your feet as you
 walk down the hall. A sign on the wall reads, 'No Non-smoking Please'.
 The hallway continues to the east and west.
 ~
@@ -3919,7 +3926,7 @@ S
 #10508
 Blackened Hall~
 This hall looks as if it was burned out recently. The walls are charred and
-smoking. Ashes and bits of burnt timber crunch under your feet as you 
+smoking. Ashes and bits of burnt timber crunch under your feet as you
 walk down the hall. A sign on the wall reads, 'No Non-smoking Please'.
 The hallway continues to the north and west.
 ~
@@ -3951,7 +3958,7 @@ You see the eternal darkness of the Abyss.
 S
 #10510
 Maintenance Walkway~
-This is a maintence accessway. You walk on a metal catwalk hundreds of 
+This is a maintence accessway. You walk on a metal catwalk hundreds of
 feet above the floor. The catwalk sways unsteadily as you walk on it.
 The catwalk continues to the south.
 To the north is a steel door.
@@ -4014,7 +4021,7 @@ You see a courtyard.
 S
 #10513
 Office of Complaints~
-This is a relatively small office. There is a large hole in the wall where a 
+This is a relatively small office. There is a large hole in the wall where a
 clerk usually sits and takes complaints about Hell. As you peek behind
 the counter you see a large paper shredder and alot of shredded complaints.
 a sign over the clerks desk reads, 'Hours: 12:00am - 12:01am'
@@ -4136,7 +4143,7 @@ You see the eternal darkness of the Abyss.
 S
 #10519
 Maintenance Walkway~
-This is a maintence accessway. You walk on a metal catwalk hundreds of 
+This is a maintence accessway. You walk on a metal catwalk hundreds of
 feet above the floor. The catwalk sways unsteadily as you walk on it.
 The catwalk continues to the east and south.
 ~
@@ -4154,7 +4161,7 @@ You see a maintenance walkway.
 S
 #10520
 Maintenance Walkway~
-This is a maintence accessway. You walk on a metal catwalk hundreds of 
+This is a maintence accessway. You walk on a metal catwalk hundreds of
 feet above the floor. The catwalk sways unsteadily as you walk on it.
 The catwalk continues to the north and west.
 ~
@@ -4174,7 +4181,7 @@ S
 Judge's Chambers~
 This is the private chambers of the High Judge of Hell. He has a cushy job
 and his office reflects that. Golden torches light the walls with dancing
-blue and yellow flames. The judge's black crystal desk sparkles in the 
+blue and yellow flames. The judge's black crystal desk sparkles in the
 torchlight.
 ~
 0 D 0
@@ -4277,7 +4284,7 @@ S
 #10526
 Inside Big Mouth's Stomach~
 You are standing inside Big Mouth's stomach. It is roomy in here. Small
-animals and other odds and ends lie about the stomach. Is that a dragon  
+animals and other odds and ends lie about the stomach. Is that a dragon
 you see? Nah...couldn't be...
 ~
 0 AD 0
@@ -4525,7 +4532,7 @@ S
 Secondary Control Room~
 This is the secondary control room for the reactor core. It is usually used in
 emergencies when the primary control room is contaminated or damaged.
-It isn't used very often since the primary control room is in perfect 
+It isn't used very often since the primary control room is in perfect
 working order.
 ~
 0 AD 0
@@ -4537,7 +4544,7 @@ You see the primary maintenance room.
 S
 #10540
 Office of the Chief Engineer~
-This office belongs to the chief engineer of Hell. Blueprints and pencils 
+This office belongs to the chief engineer of Hell. Blueprints and pencils
 are scattered about the room. The air is heavy with the smell of ammonia
 and sweat. A display of the reactor core is mounted into the wall.
 One wall is completely filled with monitors, each showing various
