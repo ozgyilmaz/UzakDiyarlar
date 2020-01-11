@@ -409,6 +409,7 @@ const	struct	cmd_type	cmd_table	[] =
   { "yudumla",		do_quaff,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
   { "yükselt",	do_enchant, 	POS_RESTING,     0,  LOG_NORMAL, 1,0 },
   { "zaman",		do_time,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { "zar",	do_zar,	POS_STANDING,	 0,  LOG_NORMAL, 1 },
   { "zayi",		do_blink,	POS_FIGHTING,    0,  LOG_NORMAL, 1,CMD_KEEP_HIDE },
   { "zecho",		do_zecho,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "zehir",		do_poison_smoke,POS_FIGHTING,	 0,  LOG_ALWAYS, 1,0 },

@@ -1695,6 +1695,7 @@ struct	kill_data
 #define ROOM_LAW		(S)
 #define ROOM_NOWHERE		(T)
 #define ROOM_BANK               (U)
+#define ROOM_KUMAR          (V)
 #define ROOM_NO_MAGIC           (W)
 #define ROOM_NOSUMMON           (X)
 #define ROOM_REGISTRY           (bb)

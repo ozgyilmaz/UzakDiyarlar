@@ -401,4 +401,5 @@ DECLARE_DO_FUN( do_wiznet	);
 DECLARE_DO_FUN( do_worth	);
 DECLARE_DO_FUN(	do_yell		);
 DECLARE_DO_FUN(	do_zap		);
+DECLARE_DO_FUN(	do_zar		);
 DECLARE_DO_FUN(	do_zecho	);
