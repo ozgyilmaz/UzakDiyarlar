@@ -7,3 +7,9 @@ Uzak Diyarlar 1.0b1 - 02 Ocak 2020
 - Bazı küçük kod eklemeleri yapıldı.
 - Bazı kod hataları düzeltildi.
 - GCC uyumluluğu güncellendi.
+
+Uzak Diyarlar 1.1b1 - 14 Ocak 2020
+- Familya sistemi
+- Karizmanın dövüşe etkisi
+- Mafya sistemine giriş
+- Kumar sistemine giriş
