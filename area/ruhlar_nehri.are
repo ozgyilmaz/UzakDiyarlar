@@ -10,16 +10,13 @@ Minvnum 20000
 Maxvnum 20099
 Path ~
 END
-
 #HELPS
 -1 spirit~
 River of spirits.
 Converted & edited by REAL MUDDERS
 Special thanx to Serdar & Anatolia Consortium~
 0 $~
-
 #OBJECTS
-
 #20066
 eldivenler ateþ alev kadim~
 bir çift alevden kadim eldiven~
@@ -28,14 +25,12 @@ fire~
 armor 0 AH
 36 42 42 30 30
 56 10 136 G
-
 A
 13 150
 A
 19 5
 A
 24 -8
-
 
 #20070
 parþömen ywln~
@@ -49,7 +44,6 @@ E
 parþömen~
 Just try to recite it and see what happen.
 ~
-
 #20072
 beyaz kaðýt~
 beyaz bir kaðýt~
@@ -62,7 +56,6 @@ E
 parþömen~
 Just try to recite it and see what happen.
 ~
-
 #20073
 kýrmýzý kaðýt~
 kýrmýzý bir kaðýt~
@@ -75,7 +68,6 @@ E
 parþömen~
 Just try to recite it and see what happen.
 ~
-
 #20074
 kaðýt yeþil~
 yeþil bir kaðýt~
@@ -88,7 +80,6 @@ E
 parþömen~
 Just try to recite it and see what happen.
 ~
-
 #20075
 kaðýt koyum mavi~
 koyu mavi bir kaðýt~
@@ -102,8 +93,6 @@ parþömen~
 Just try to recite it and see what happen.
 ~
 
-
-
 #20010
 bulut~
 bir enerji bulutu~
@@ -113,7 +102,6 @@ ice~
 wand G AO
 72 10 10 'lightning breath' 0
 77 2 19900 P
-
 #20071
 bulut~
 bir enerji bulutu~
@@ -123,7 +111,6 @@ ice~
 wand G AO
 50 15 15 'lightning breath' 0
 55 2 28000 P
-
 #20002
 alev ejderha nefes~
 bir ejderhanýn alevden nefesi~
@@ -149,7 +136,6 @@ weapon M AN
 whip 20 6 whip DCE
 90 190 1200000 G
 
-
 A
 12 140
 A
@@ -160,14 +146,9 @@ A
 19 15
 A
 24 -10
-
 #0
 
-
-
 #MOBILES
-
-
 #20080
 kadim büyücü~
 kadim büyücü~
@@ -182,7 +163,6 @@ ABKVe DHN 900 0
 AF ABC D 0
 stand stand male 15000
 0 0 medium 0
-
 
 #20014
 iblis buz~
@@ -199,7 +179,6 @@ CEFKNU AB TPKIL 0
 stand stand male 5000
 ABCDEFG 0 medium 0
 
-
 #20015
 kaybolmuþ iblis~
 kaybolmuþ bir iblis~
@@ -215,7 +194,6 @@ ABWeCFGT  DFJVZ 0 0
 CEFKNU AB TPKIL 0
 stand stand male 5000
 ABCDEFG 0 medium 0
-
 #20016
 iblis kýzgýn~
 kýzgýn bir iblis~
@@ -232,7 +210,6 @@ ABWeCFGT  DFJVZ 0 0
 CEFKNU AB TPKIL 0
 stand stand male 5000
 ABCDEFG 0 medium 0
-
 #20017
 iblis ateþ~
 bir ateþ iblisi~
@@ -247,7 +224,6 @@ ABWeCFGT  DFJVZ 0 0
 CEFKNU AB TPKIL 0
 stand stand male 5000
 ABCDEFG 0 medium 0
-
 #20018
 anka kuþu~
 anka kuþu~
@@ -262,7 +238,6 @@ ABWeCFGT  DFJVZ 0 0
 CEFKNU AB TPKIL 0
 stand stand male 5000
 ABCDEFG 0 medium 0
-
 #20019
 su alalisi~
 bir su alalisi~
@@ -276,7 +251,6 @@ ABWeCFGT  DFHJVZ 0 0
 CEFKNU AB TPKIL 0
 stand stand male 5000
 ABCDEFG 0 medium 0
-
 
 #20060
 ruh dehþet ejderhasý~
@@ -294,7 +268,6 @@ CEFKNU ABHQY TPKIL 0
 stand stand male 5000
 ABCDEFG 0 medium 0
 
-
 #20000
 muhafýz bahçe~
 Bahçenin muhafýzý~
@@ -308,7 +281,6 @@ ABWe  DFHJVZ 0 0
 CEFKNU ABHQY TPKIL J
 stand stand male 5000
 A 0 medium 0
-
 #20001
 muhafýz cehennem yolu~
 Yolun muhafýzý~
@@ -323,13 +295,11 @@ CEFKNU ABHQY TPKIL J
 stand stand male 5000
 A 0 medium 0
 
-
 #20002
 jonny ruh jonnynin ruhu~
 Jonny'nin ruhu~
 Jonny'nin ruhu burada.
 ~
-
 ~
 unique~
 ABWe  DFHJVZ 0 0
@@ -338,7 +308,6 @@ ABWe  DFHJVZ 0 0
 CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
 stand stand male 5000
 A 0 medium 0
-
 
 #20003
 ruh kowenno kowennonun ruhu~
@@ -354,7 +323,6 @@ CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
 stand stand male 5000
 A 0 medium 0
 
-
 #20004
 ruh kalel kalelin ruhu~
 Kalel'in ruhu~
@@ -368,7 +336,6 @@ ABWe  DFHJVZ 0 0
 CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
 stand stand male 5000
 A 0 medium 0
-
 
 #20005
 ruh thenor thenorun ruhu~
@@ -384,7 +351,6 @@ CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
 stand stand male 5000
 A 0 medium 0
 
-
 #20006
 ruh neruda nerudanýn ruhu~
 Neruda'nýn ruhu~
@@ -399,7 +365,6 @@ CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
 stand stand male 5000
 A 0 medium 0
 
-
 #20007
 ruh coni coninin ruhu~
 Coni'nin ruhu~
@@ -413,7 +378,6 @@ ABWe  DFHJVZ 0 0
 CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
 stand stand male 5000
 A 0 medium 0
-
 #20008
 ruh takasi takasinin ruhu~
 Takasi'nin ruhu~
@@ -427,7 +391,6 @@ ABWe  DFHJVZ 0 0
 CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
 stand stand male 5000
 A 0 medium 0
-
 
 #20009
 ruh rasputin rasputinin ruhu~
@@ -444,11 +407,7 @@ stand stand male 5000
 A 0 medium 0
 
 
-
-
 #0
-
-
 
 #ROOMS
 #20000
@@ -457,17 +416,12 @@ Kanalizasyonun Giriþi~
 and down.
 ~
 0 DN 6
-
-
 D5
 Seweers
 ~
 ~
 0 -1 20001
-
-
 S
-
 #20001
 Kanalizasyon~
 	This is a dark and teribbly smelling tunnel.You can't see the
@@ -477,21 +431,17 @@ you are wrong? what will happen.A dead end? an exitless maze? or death?
 You don't know what is whaiting you there, now it't time to go.
      There is a small tablet on the wall.
 ~
-
 0 DN 6
-
 D2
 It is too dark.
 ~
 ~
 0 -1 20002
-
 D4
 You can'r see properly.
 ~
 ~
 0 -1 20000
-
 E
 small tablet~
     -------------------------------------------
@@ -507,7 +457,6 @@ small tablet~
 ++++++++++++++++++++++++++++++++++++++++++++++++++++
 ~
 S
-
 #20002
 Karanlýk tünel~
 	You still feel that terible smell.From where does it come?
@@ -516,23 +465,18 @@ drink it.No it comes from a different place, from walls ? no not from
 walls.Something frightens you, you should better turn back.
 ~
 0 DNA 6
-
 D0
 Seweers
 ~
 ~
 0 -1 20001
-
 D1
 Dark tunnel
 ~
 ~
 0 -1 20003
 
-
 S
-
-
 #20003
 Karanlýk tünel~
 	The tunnel is dark and frightining.You still fell that smell and
@@ -540,23 +484,18 @@ hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
 better walk and find out what the problem is.
 ~
-
 0 DNA 6
-
 D3
 The dark tunnel
 ~
 ~
 0 -1 20002
-
 D1
 The dark tunnel
 ~
 ~
 0 -1 20004
 S
-
-
 #20004
 Karanlýk tünel~
 	The tunnel is dark and frightining.You still fell that smell and
@@ -564,23 +503,18 @@ hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
 better walk and find out what the problem is.
 ~
-
 0 DNA 6
-
 D3
 The dark tunnel
 ~
 ~
 0 -1 20003
-
 D0
 The dark tunnel
 ~
 ~
 0 -1 20005
 S
-
-
 #20005
 Karanlýk tünel~
 	The tunnel is dark and frightining.You still fell that smell and
@@ -588,23 +522,18 @@ hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
 better walk and find out what the problem is.
 ~
-
 0 DNA 6
-
 D2
 The dark tunnel
 ~
 ~
 0 -1 20004
-
 D1
 The dark tunnel
 ~
 ~
 0 -1 20006
 S
-
-
 #20006
 Karanlýk tünel~
 	The tunnel is dark and frightining.You still fell that smell and
@@ -612,23 +541,18 @@ hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
 better walk and find out what the problem is.
 ~
-
 0 DNA 6
-
 D3
 The dark tunnel
 ~
 ~
 0 -1 20005
-
 D0
 The dark tunnel
 ~
 ~
 0 -1 20007
 S
-
-
 #20007
 Karanlýk tünel~
 	The tunnel is dark and frightining.You still fell that smell and
@@ -636,23 +560,18 @@ hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
 better walk and find out what the problem is.
 ~
-
 0 DNA 6
-
 D2
 The dark tunnel
 ~
 ~
 0 -1 20006
-
 D0
 The dark tunnel
 ~
 ~
 0 -1 20008
 S
-
-
 #20008
 Karanlýk tünel~
 	The tunnel is dark and frightining.You still fell that smell and
@@ -660,23 +579,18 @@ hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
 better walk and find out what the problem is.
 ~
-
 0 DNA 6
-
 D2
 The dark tunnel
 ~
 ~
 0 -1 20007
-
 D0
 The dark tunnel
 ~
 ~
 0 -1 20009
 S
-
-
 #20009
 Karanlýk tünel~
 	The tunnel is dark and frightining.You still fell that smell and
@@ -684,23 +598,18 @@ hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
 better walk and find out what the problem is.
 ~
-
 0 DNA 6
-
 D2
 The dark tunnel
 ~
 ~
 0 -1 20008
-
 D1
 The dark tunnel
 ~
 ~
 0 -1 20010
 S
-
-
 #20010
 Karanlýk tünel~
 	The tunnel is dark and frightining.You still fell that smell and
@@ -708,23 +617,18 @@ hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
 better walk and find out what the problem is.
 ~
-
 0 DNA 6
-
 D3
 The dark tunnel
 ~
 ~
 0 -1 20009
-
 D1
 The dark tunnel
 ~
 ~
 0 -1 20011
 S
-
-
 #20011
 Karanlýk tünel~
 	The tunnel is dark and frightining.You still fell that smell and
@@ -732,23 +636,18 @@ hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
 better walk and find out what the problem is.
 ~
-
 0 DNA 6
-
 D3
 The dark tunnel
 ~
 ~
 0 -1 20010
-
 D1
 The dark tunnel
 ~
 ~
 0 -1 20012
 S
-
-
 #20012
 Karanlýk tünel~
 	At last you see a light at the end of the tunnel, and the sound
@@ -756,46 +655,36 @@ got clear.You don't feel that smell anymore.And the sound , you realise
 that the sound was just the sound of a watterfall.The tunnels made it
 sound like that, himm relaxing sound.
 ~
-
 0 DNA 6
-
 D3
 The dark tunnel
 ~
 ~
 0 -1 20011
-
 D0
 The dark tunnel
 ~
 ~
 0 -1 20013
 S
-
-
 #20013
 Karanlýk tünelin çýkýþý~
 	It's brighter now.You can see all around without the help of your
 light source.It's more clear that the sound is coming from a watterfall.
 But where is this watterfall?
 ~
-
 0 DN 6
-
 D2
 The dark tunnel
 ~
 ~
 0 -1 20012
-
 D1
 Watterfall.
 ~
 ~
 0 -1 20014
 S
-
-
 #20014
 Þelale~
 .
@@ -828,155 +717,122 @@ your way, from the river.Himm nice place.Looks like the part of heaven.
 You hear the sings of birds, makes you relax, and feel wonderfull.This
 place is full of peace...This is the land of lost spirits.
 ~
-
 0 0 6
-
 D2
 The dark tunnel
 ~
 ~
 0 -1 20015
 S
-
-
 #20015
 Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
 ~
-
 0 0 6
-
 D1
 River of spirits
 ~
 ~
 0 -1 20016
-
 S
-
 #20016
 Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
 ~
-
 0 0 6
-
 D3
 River of spirits
 ~
 ~
 0 -1 20015
-
 D1
 River of spirits
 ~
 ~
 0 -1 20017
-
 S
-
 #20017
 Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
 ~
-
 0 0 6
-
 D3
 River of spirits
 ~
 ~
 0 -1 20016
-
 D1
 River of spirits
 ~
 ~
 0 -1 20018
-
 D2
 hell road
 ~
 ~
 0 -1 20037
 
-
 S
-
 #20018
 Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
 ~
-
 0 0 6
-
 D3
 River of spirits
 ~
 ~
 0 -1 20017
-
 D1
 River of spirits
 ~
 ~
 0 -1 20019
-
 D0
 garden road
 ~
 ~
 0 -1 20028
 
-
 S
-
 #20019
 Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
 ~
-
 0 0 6
-
 D3
 River of spirits
 ~
 ~
 0 -1 20018
-
 D1
 River of spirits
 ~
 ~
 0 -1 20020
-
 S
-
 #20020
 Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
 ~
-
 0 0 6
-
 D3
 River of spirits
 ~
 ~
 0 -1 20019
-
 D1
 River of spirits
 ~
@@ -988,16 +844,13 @@ hell road
 ~
 0 -1 20040
 
-
 S
-
 #20021
 Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
 ~
-
 0 0 6
 D0
 garden road
@@ -1005,51 +858,41 @@ garden road
 ~
 0 -1 20031
 
-
 D3
 River of spirits
 ~
 ~
 0 -1 20020
-
 D1
 River of spirits
 ~
 ~
 0 -1 20022
-
 S
-
 #20022
 Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
 ~
-
 0 0 6
-
 D3
 River of spirits
 ~
 ~
 0 -1 20021
-
 D1
 River of spirits
 ~
 ~
 0 -1 20023
-
 S
-
 #20023
 Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
 ~
-
 0 0 6
 D0
 garden road
@@ -1057,44 +900,35 @@ garden road
 ~
 0 -1 20033
 
-
 D3
 River of spirits
 ~
 ~
 0 -1 20022
-
 D1
 River of spirits
 ~
 ~
 0 -1 20024
-
 S
-
 #20024
 Ruhlar Nehri~
 This is a wonderfull place with full of peace.The river you are on is
 wonderfull.Birds flovers everywhere, and the sound of birds , peaceful
 isn't it?
 ~
-
 0 0 6
-
 D3
 River of spirits
 ~
 ~
 0 -1 20023
-
 D1
 ocean of neutrality
 ~
 ~
 0 -1 20045
-
 S
-
 #20025
 Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
@@ -1103,18 +937,13 @@ peace and the spirits, they look happy becouse of being here.Yes you see
 goodnes because of being good in real life , this must be heaven , or part
 of heaven yes this wonderfull place is part of heaven.
 ~
-
 0 0 3
-
 D1
 garden road
 ~
 ~
 0 -1 20026
-
 S
-
-
 #20026
 Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
@@ -1123,24 +952,18 @@ peace and the spirits, they look happy becouse of being here.Yes you see
 goodnes because of being good in real life , this must be heaven , or part
 of heaven yes this wonderfull place is part of heaven.
 ~
-
 0 0 3
-
 D3
 garden road
 ~
 ~
 0 -1 20025
-
 D1
 garden road
 ~
 ~
 0 -1 20027
-
 S
-
-
 #20027
 Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
@@ -1149,7 +972,6 @@ peace and the spirits, they look happy becouse of being here.Yes you see
 goodnes because of being good in real life , this must be heaven , or part
 of heaven yes this wonderfull place is part of heaven.
 ~
-
 0 0 3
 D3
 garden road
@@ -1157,16 +979,12 @@ garden road
 ~
 0 -1 20026
 
-
 D1
 garden road
 ~
 ~
 0 -1 20028
-
 S
-
-
 #20028
 Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
@@ -1175,31 +993,24 @@ peace and the spirits, they look happy becouse of being here.Yes you see
 goodnes because of being good in real life , this must be heaven , or part
 of heaven yes this wonderfull place is part of heaven.
 ~
-
 0 0 3
-
 D2
 river of spirits
 ~
 ~
 0 -1 20018
-
 D3
 garden road
 ~
 ~
 0 -1 20027
 
-
 D1
 garden road
 ~
 ~
 0 -1 20029
-
 S
-
-
 #20029
 Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
@@ -1208,23 +1019,18 @@ peace and the spirits, they look happy becouse of being here.Yes you see
 goodnes because of being good in real life , this must be heaven , or part
 of heaven yes this wonderfull place is part of heaven.
 ~
-
 0 0 3
 D3
 garden road
 ~
 ~
 0 -1 20028
-
 D1
 garden road
 ~
 ~
 0 -1 20030
-
 S
-
-
 #20030
 Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
@@ -1233,7 +1039,6 @@ peace and the spirits, they look happy becouse of being here.Yes you see
 goodnes because of being good in real life , this must be heaven , or part
 of heaven yes this wonderfull place is part of heaven.
 ~
-
 0 0 3
 D3
 garden road
@@ -1241,16 +1046,12 @@ garden road
 ~
 0 -1 20029
 
-
 D1
 garden road
 ~
 ~
 0 -1 20031
-
 S
-
-
 #20031
 Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
@@ -1259,15 +1060,12 @@ peace and the spirits, they look happy becouse of being here.Yes you see
 goodnes because of being good in real life , this must be heaven , or part
 of heaven yes this wonderfull place is part of heaven.
 ~
-
 0 0 3
-
 D2
 river of spirits
 ~
 ~
 0 -1 20021
-
 
 D3
 garden road
@@ -1275,16 +1073,12 @@ garden road
 ~
 0 -1 20030
 
-
 D1
 garden road
 ~
 ~
 0 -1 20032
-
 S
-
-
 #20032
 Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
@@ -1293,7 +1087,6 @@ peace and the spirits, they look happy becouse of being here.Yes you see
 goodnes because of being good in real life , this must be heaven , or part
 of heaven yes this wonderfull place is part of heaven.
 ~
-
 0 0 3
 D3
 garden road
@@ -1301,16 +1094,12 @@ garden road
 ~
 0 -1 20031
 
-
 D1
 garden road
 ~
 ~
 0 -1 20033
-
 S
-
-
 #20033
 Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
@@ -1319,15 +1108,12 @@ peace and the spirits, they look happy becouse of being here.Yes you see
 goodnes because of being good in real life , this must be heaven , or part
 of heaven yes this wonderfull place is part of heaven.
 ~
-
 0 0 3
-
 D2
 river of spirits
 ~
 ~
 0 -1 20023
-
 
 D3
 garden road
@@ -1335,16 +1121,12 @@ garden road
 ~
 0 -1 20032
 
-
 D1
 garden road
 ~
 ~
 0 -1 20034
-
 S
-
-
 #20034
 Bahçe yolu~
    This road seems to confinue forever, on one side of the road is river
@@ -1353,7 +1135,6 @@ peace and the spirits, they look happy becouse of being here.Yes you see
 goodnes because of being good in real life , this must be heaven , or part
 of heaven yes this wonderfull place is part of heaven.
 ~
-
 0 0 3
 D3
 garden road
@@ -1361,15 +1142,12 @@ garden road
 ~
 0 -1 20033
 
-
 D1
 ocean of neutrality
 ~
 ~
 0 -1 20045
-
 S
-
 #20035
 Cehennem yolu~
    My god.What is this? Tere was no such wiev from looking the river, you
@@ -1377,15 +1155,12 @@ got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
 badness becouse of the baddnes they have done in real world.
 ~
-
 0 0 4
-
 D1
 hell road
 ~
 ~
 0 -1 20036
-
 S
 #20036
 Cehennem yolu~
@@ -1394,23 +1169,18 @@ got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
 badness becouse of the baddnes they have done in real world.
 ~
-
 0 0 4
-
 D3
 hell road
 ~
 ~
 0 -1 20035
-
 D1
 hell road
 ~
 ~
 0 -1 20037
-
 S
-
 #20037
 Cehennem yolu~
    My god.What is this? Here was no such viev from looking the river, you
@@ -1418,30 +1188,24 @@ got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
 badness becouse of the baddnes they have done in real world.
 ~
-
 0 0 4
-
 D0
 river of spirits
 ~
 ~
 0 -1 20017
 
-
 D3
 hell road
 ~
 ~
 0 -1 20036
-
 D1
 hell road
 ~
 ~
 0 -1 20038
-
 S
-
 #20038
 Cehennem yolu~
    My god.What is this? Here was no such viev from looking the river, you
@@ -1449,23 +1213,18 @@ got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
 badness becouse of the baddnes they have done in real world.
 ~
-
 0 0 4
-
 D3
 hell road
 ~
 ~
 0 -1 20037
-
 D1
 hell road
 ~
 ~
 0 -1 20039
-
 S
-
 #20039
 Cehennem yolu~
    My god.What is this? Here was no such viev from looking the river, you
@@ -1473,23 +1232,18 @@ got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
 badness becouse of the baddnes they have done in real world.
 ~
-
 0 0 4
-
 D3
 hell road
 ~
 ~
 0 -1 20038
-
 D1
 hell road
 ~
 ~
 0 -1 20040
-
 S
-
 #20040
 Cehennem yolu~
    My god.What is this? Here was no such viev from looking the river, you
@@ -1497,30 +1251,24 @@ got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
 badness becouse of the baddnes they have done in real world.
 ~
-
 0 0 4
-
 D0
 river of spirits
 ~
 ~
 0 -1 20020
 
-
 D3
 hell road
 ~
 ~
 0 -1 20039
-
 D1
 hell road
 ~
 ~
 0 -1 20041
-
 S
-
 #20041
 Cehennem yolu~
    My god.What is this? Here was no such viev from looking the river, you
@@ -1528,23 +1276,18 @@ got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
 badness becouse of the baddnes they have done in real world.
 ~
-
 0 0 4
-
 D3
 hell road
 ~
 ~
 0 -1 20040
-
 D1
 hell road
 ~
 ~
 0 -1 20042
-
 S
-
 #20042
 Cehennem yolu~
    My god.What is this? Here was no such viev from looking the river, you
@@ -1552,23 +1295,18 @@ got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
 badness becouse of the baddnes they have done in real world.
 ~
-
 0 0 4
-
 D3
 hell road
 ~
 ~
 0 -1 20041
-
 D1
 hell road
 ~
 ~
 0 -1 20043
-
 S
-
 #20043
 Cehennem yolu~
    My god.What is this? Here was no such viev from looking the river, you
@@ -1576,23 +1314,18 @@ got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
 badness becouse of the baddnes they have done in real world.
 ~
-
 0 0 4
-
 D3
 hell road
 ~
 ~
 0 -1 20042
-
 D1
 hell road
 ~
 ~
 0 -1 20044
-
 S
-
 #20044
 Cehennem yolu~
    My god.What is this? Here was no such viev from looking the river, you
@@ -1600,23 +1333,18 @@ got shocked.What happened here , why all the trees burned? Is this a resoult
 of fire?There are also spirits here but they look very unhappy?They see
 badness becouse of the baddnes they have done in real world.
 ~
-
 0 0 4
-
 D3
 hell road
 ~
 ~
 0 -1 20043
-
 D1
 ocean of neutrality
 ~
 ~
 0 -1 20045
-
 S
-
 #20045
 Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
@@ -1626,33 +1354,27 @@ With no reason you  think about all these .BUT BUT one a sudden howe will
 you exit from here?
 ~
 0 N 6
-
 D0
 infinet neutrality
 ~
 ~
 0 0 20055
-
 D1
 infinet neutrality
 ~
 ~
 0 0 20046
-
 D2
 infinet neutrality
 ~
 ~
 0 0 20050
-
 D3
 infinet neutrality
 ~
 ~
 0 0 20024
-
 S
-
 #20046
 Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
@@ -1662,33 +1384,27 @@ With no reason you  think about all these .BUT BUT one a sudden howe will
 you exit from here?
 ~
 0 N 6
-
 D0
 infinet neutrality
 ~
 ~
 0 0 20056
-
 D1
 infinet neutrality
 ~
 ~
 0 0 20047
-
 D2
 infinet neutrality
 ~
 ~
 0 0 20051
-
 D3
 infinet neutrality
 ~
 ~
 0 0 20045
-
 S
-
 #20047
 Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
@@ -1698,33 +1414,27 @@ With no reason you  think about all these .BUT BUT one a sudden howe will
 you exit from here?
 ~
 0 N 6
-
 D0
 infinet neutrality
 ~
 ~
 0 0 20057
-
 D1
 infinet neutrality
 ~
 ~
 0 0 20048
-
 D2
 infinet neutrality
 ~
 ~
 0 0 20052
-
 D3
 infinet neutrality
 ~
 ~
 0 0 20046
-
 S
-
 #20048
 Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
@@ -1734,33 +1444,27 @@ With no reason you  think about all these .BUT BUT one a sudden howe will
 you exit from here?
 ~
 0 N 6
-
 D0
 infinet neutrality
 ~
 ~
 0 0 20058
-
 D1
 infinet neutrality
 ~
 ~
 0 0 20049
-
 D2
 infinet neutrality
 ~
 ~
 0 0 20053
-
 D3
 infinet neutrality
 ~
 ~
 0 0 20047
-
 S
-
 #20049
 Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
@@ -1770,7 +1474,6 @@ With no reason you  think about all these .BUT BUT one a sudden howe will
 you exit from here?
 ~
 0 N 6
-
 D0
 infinet neutrality
 ~
@@ -1781,21 +1484,17 @@ deep hole
 ~
 ~
 0 0 20060
-
 D2
 infinet neutrality
 ~
 ~
 0 0 20054
-
 D3
 infinet neutrality
 ~
 ~
 0 0 20048
-
 S
-
 #20050
 Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
@@ -1805,33 +1504,27 @@ With no reason you  think about all these .BUT BUT one a sudden how will
 you exit from here?
 ~
 0 N 6
-
 D0
 infinet neutrality
 ~
 ~
 0 0 20045
-
 D1
 infinet neutrality
 ~
 ~
 0 0 20051
-
 D2
 infinet neutrality
 ~
 ~
 0 0 20055
-
 D3
 infinet neutrality
 ~
 ~
 0 0 20054
-
 S
-
 #20051
 Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
@@ -1841,33 +1534,27 @@ With no reason you  think about all these .BUT BUT one a sudden howe will
 you exit from here?
 ~
 0 N 6
-
 D0
 infinet neutrality
 ~
 ~
 0 0 20046
-
 D1
 infinet neutrality
 ~
 ~
 0 0 20052
-
 D2
 infinet neutrality
 ~
 ~
 0 0 20056
-
 D3
 infinet neutrality
 ~
 ~
 0 0 20050
-
 S
-
 #20052
 Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
@@ -1877,33 +1564,27 @@ With no reason you  think about all these .BUT BUT one a sudden howe will
 you exit from here?
 ~
 0 N 6
-
 D0
 infinet neutrality
 ~
 ~
 0 0 20047
-
 D1
 infinet neutrality
 ~
 ~
 0 0 20053
-
 D2
 infinet neutrality
 ~
 ~
 0 0 20057
-
 D3
 infinet neutrality
 ~
 ~
 0 0 20051
-
 S
-
 #20053
 Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
@@ -1913,33 +1594,27 @@ With no reason you  think about all these .BUT BUT one a sudden howe will
 you exit from here?
 ~
 0 N 6
-
 D0
 infinet neutrality
 ~
 ~
 0 0 20048
-
 D1
 infinet neutrality
 ~
 ~
 0 0 20054
-
 D2
 infinet neutrality
 ~
 ~
 0 0 20058
-
 D3
 infinet neutrality
 ~
 ~
 0 0 20052
-
 S
-
 #20054
 Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
@@ -1949,33 +1624,27 @@ With no reason you  think about all these .BUT BUT one a sudden howe will
 you exit from here?
 ~
 0 N 6
-
 D0
 infinet neutrality
 ~
 ~
 0 0 20049
-
 D1
 infinet neutrality
 ~
 ~
 0 0 20050
-
 D2
 infinet neutrality
 ~
 ~
 0 0 20059
-
 D3
 infinet neutrality
 ~
 ~
 0 0 20053
-
 S
-
 #20055
 Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
@@ -1985,33 +1654,27 @@ With no reason you  think about all these .BUT BUT one a sudden howe will
 you exit from here?
 ~
 0 N 6
-
 D0
 infinet neutrality
 ~
 ~
 0 0 20050
-
 D1
 infinet neutrality
 ~
 ~
 0 0 20056
-
 D2
 infinet neutrality
 ~
 ~
 0 0 20045
-
 D3
 infinet neutrality
 ~
 ~
 0 0 20059
-
 S
-
 #20056
 Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
@@ -2021,33 +1684,27 @@ With no reason you  think about all these .BUT BUT one a sudden howe will
 you exit from here?
 ~
 0 N 6
-
 D0
 infinet neutrality
 ~
 ~
 0 0 20051
-
 D1
 infinet neutrality
 ~
 ~
 0 0 20057
-
 D2
 infinet neutrality
 ~
 ~
 0 0 20046
-
 D3
 infinet neutrality
 ~
 ~
 0 0 20055
-
 S
-
 #20057
 Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
@@ -2057,33 +1714,27 @@ With no reason you  think about all these .BUT BUT one a sudden howe will
 you exit from here?
 ~
 0 N 6
-
 D0
 infinet neutrality
 ~
 ~
 0 0 20052
-
 D1
 infinet neutrality
 ~
 ~
 0 0 20058
-
 D2
 infinet neutrality
 ~
 ~
 0 0 20047
-
 D3
 infinet neutrality
 ~
 ~
 0 0 20056
-
 S
-
 #20058
 Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
@@ -2093,33 +1744,27 @@ With no reason you  think about all these .BUT BUT one a sudden howe will
 you exit from here?
 ~
 0 N 6
-
 D0
 infinet neutrality
 ~
 ~
 0 0 20053
-
 D1
 infinet neutrality
 ~
 ~
 0 0 20059
-
 D2
 infinet neutrality
 ~
 ~
 0 0 20048
-
 D3
 infinet neutrality
 ~
 ~
 0 0 20057
-
 S
-
 #20059
 Tarafsýzlýk Okyanusu~
    All you see the endless watter , surrounding you!With the whole
@@ -2129,27 +1774,22 @@ With no reason you  think about all these .BUT BUT one a sudden howe will
 you exit from here?
 ~
 0 N 6
-
 D0
 infinet neutrality
 ~
 ~
 0 0 20054
-
 D1
 infinet neutrality
 ~
 ~
 0 0 20055
-
 D3
 infinet neutrality
 ~
 ~
 0 0 20058
-
 S
-
 #20060
 Derin çukur~
 	You are at the bottom of a deep hole you can see around ,
@@ -2158,10 +1798,7 @@ dragon or its spirit!
 ~
 0 0 9
 S
-
-
 #0
-
 #RESETS
 R 0 20045 4     *ocean of neutrality
 R 0 20046 4     *ocean of neutrality
@@ -2178,22 +1815,18 @@ R 0 20056 4     *ocean of neutrality
 R 0 20057 4     *ocean of neutrality
 R 0 20058 4     *ocean of neutrality
 R 0 20059 3     *ocean of neutrality
-
 M 0 20000 4 20028 2       *1. guardian
 E 0 20010 -1 17
 E 0 20066 -1 14
-
 M 0 20000 4 20035 2       *1. guardian
 E 0 20010 -1 17
 M 0 20001 4 20037 2       *2. guardian
 E 0 20010 -1 17
 M 0 20001 4 20040 2       *2. guardian
 E 0 20010 -1 17
-
 M 0 20060 1 20060 1	  *spirit dragon
 E 0 20002 -1 1
 E 0 20001 -1 16
-
 M 0 20002 1 20035 1       *jonny
 M 0 20003 1 20039 1       *kowenno
 M 0 20004 1 20041 1       *neruda
@@ -2202,31 +1835,24 @@ M 0 20006 1 20037 1       *thenor
 M 0 20007 1 20030 1       *coni
 M 0 20008 1 20032 1       *takasi
 M 0 20009 1 20038 1       *rasputin
-
 M 0 20014 3 20035 2
 M 0 20014 3 20045 2
 M 0 20014 3 20025 2
-
 M 0 20015 3 20037 2
 M 0 20015 3 20047 2
 M 0 20015 3 20027 2
-
 M 0 20016 3 20045 2
 M 0 20016 3 20031 2
 M 0 20016 3 20056 2
-
 M 0 20017 3 20040 2
 M 0 20017 3 20021 2
 M 0 20017 3 20027 2
-
 M 0 20018 3 20039 2
 M 0 20018 3 20036 2
 M 0 20018 3 20032 2
-
 M 0 20019 3 20028 2
 M 0 20019 3 20032 2
 M 0 20019 3 20025 2
-
 M 0 20080   1 20025  1	* the wizard
 G 1 20070  -1     	*   scroll
 G 1 20071  -1		*   wand
@@ -2234,30 +1860,21 @@ G 1 20072  -1		*   paper hate
 G 1 20073  -1		*   paper hate
 G 1 20074  -1		*   paper hate
 G 1 20075  -1		*   paper hate
-
 S
-
 #SPECIALS
 M 20060 spec_cast_mage *dragon
 M 20080 spec_cast_mage *wizard
 S
-
 #OLIMITS
 O 20001 3 * fear of a lost dragon
 O 20066 3 *anceint gloves
-
 S
-
 #OMPROGS
 O 20066 fight_prog fight_prog_ancient_gloves
 O 20066 wear_prog wear_prog_ancient_gloves
 O 20066 remove_prog remove_prog_ancient_gloves
 S
-
-
 #SHOPS
 20080  2  3  4 10  0 	 105  15 	 0 23 	* the ancient wizard
-
 0
-
 #$

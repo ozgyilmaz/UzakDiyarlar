@@ -3107,6 +3107,8 @@ void	die_follower	args( ( CHAR_DATA *ch ) );
 bool	is_same_group	args( ( CHAR_DATA *ach, CHAR_DATA *bch ) );
 
 /* act_hera.c */
+int advatoi args((const char *s));
+
 /* enter.c */
 RID  *get_random_room   args ( (CHAR_DATA *ch) );
 /* hunt.c */
