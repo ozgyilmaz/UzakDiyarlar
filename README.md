@@ -8,7 +8,7 @@ The first commit is the pure Anatolia Mud 3.0, cleaned for GCC4 compilation.
 - Bazı kod hataları düzeltildi.
 - GCC uyumluluğu güncellendi.
 
-Uzak Diyarlar 1.1b1 - 14 Ocak 2020
+<b>Uzak Diyarlar 1.1b1 - 14 Ocak 2020</b>
 - Familya sistemi
 - Karizmanın dövüşe etkisi
 - Mafya sistemine giriş
