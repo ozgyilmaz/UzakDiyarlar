@@ -1148,7 +1148,7 @@ void spell_nightfall( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if ( is_affected( ch, sn ) )
   {
-    send_to_char( "Iþýklarý kontrol edebilecek gücün yTamam.\n\r", ch );
+    send_to_char( "Iþýklarý kontrol edebilecek gücün yok.\n\r", ch );
     return;
   }
 
@@ -1570,7 +1570,7 @@ void spell_tattoo( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	    }
 	}
     }
-    send_to_char("Dini bir dövmen yTamam.\n\r", ch);
+    send_to_char("Dini bir dövmen yok.\n\r", ch);
   return;
 }
 
@@ -1589,7 +1589,7 @@ void spell_remove_tattoo( int sn, int level, CHAR_DATA *ch, void *vo, int target
       act("$n $S dövmesini kaldýrýyor.", ch, NULL, victim, TO_NOTVICT);
     }
   else
-  act("$S hiç dövmesi yTamam.", ch, NULL, victim, TO_CHAR);
+  act("$S hiç dövmesi yok.", ch, NULL, victim, TO_CHAR);
 }
 
 
@@ -1893,7 +1893,7 @@ void spell_brew( int sn, int level, CHAR_DATA *ch, void *vo, int target )
       if ( vial->pIndexData->vnum == OBJ_VNUM_POTION_VIAL )
         break;
     if (  vial == NULL )  {
-      send_to_char( "Ýksiri içine mayalayabileceðin bir iksir þiþen yTamam.\n\r", ch );
+      send_to_char( "Ýksiri içine mayalayabileceðin bir iksir þiþen yok.\n\r", ch );
 	return;
     }
 
@@ -1999,7 +1999,7 @@ void spell_shadowlife( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if (is_affected(ch,sn))
     {
-      send_to_char( "Gölgeye can verecek gücün yTamam.\n\r",ch);
+      send_to_char( "Gölgeye can verecek gücün yok.\n\r",ch);
       return;
     }
 
@@ -2571,7 +2571,7 @@ void spell_disperse( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if ( is_affected( ch, sn ) )
     {
-      send_to_char("Yeterli daðýtma gücün yTamam.\n\r",ch);
+      send_to_char("Yeterli daðýtma gücün yok.\n\r",ch);
       return;
     }
 
@@ -3412,7 +3412,7 @@ void spell_mend( int sn, int level, CHAR_DATA *ch, void *vo , int target)
 
     if ( obj->condition > 99 )
     {
-      send_to_char("Onu onarmaya gerek yTamam.\n\r",ch);
+      send_to_char("Onu onarmaya gerek yok.\n\r",ch);
     return;
     }
 
@@ -3606,7 +3606,7 @@ void spell_lion_help ( int sn, int level, CHAR_DATA *ch, void *vo , int target)
 
   if ( (victim = get_char_area(ch,arg)) == NULL)
 	{
-    send_to_char("Etrafta bu isimde biri yTamam.\n\r",ch);
+    send_to_char("Etrafta bu isimde biri yok.\n\r",ch);
 	 return;
 	}
   if (is_safe_nomessage(ch,victim))
@@ -3620,7 +3620,7 @@ void spell_lion_help ( int sn, int level, CHAR_DATA *ch, void *vo , int target)
 
   if (is_affected(ch,sn))
     {
-      send_to_char( "Daha fazla aslaný kontrol edecek gücün yTamam.\n\r", ch);
+      send_to_char( "Daha fazla aslaný kontrol edecek gücün yok.\n\r", ch);
       return;
     }
 
@@ -3710,7 +3710,7 @@ void spell_magic_jar ( int sn, int level, CHAR_DATA *ch, void *vo , int target)
 
     if (IS_NPC(victim))
 	{
-	send_to_char("Kurbanýn bir oyuncu! Buna gerek yTamam.\n\r",ch);
+	send_to_char("Kurbanýn bir oyuncu! Buna gerek yok.\n\r",ch);
 	return;
 	}
 
@@ -3725,7 +3725,7 @@ void spell_magic_jar ( int sn, int level, CHAR_DATA *ch, void *vo , int target)
         break;
 
     if (  vial == NULL )  {
-      send_to_char( "Ýçine kurbanýnýn ruhunu koyabileceðin bir þiþen yTamam.\n\r", ch );
+      send_to_char( "Ýçine kurbanýnýn ruhunu koyabileceðin bir þiþen yok.\n\r", ch );
 
 	return;
     }
@@ -4216,7 +4216,7 @@ void spell_wolf( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if (is_affected(ch,sn))
     {
-      send_to_char("Baþka bir kurt çaðýracak gücün yTamam.\n\r",ch);
+      send_to_char("Baþka bir kurt çaðýracak gücün yok.\n\r",ch);
       return;
     }
 
