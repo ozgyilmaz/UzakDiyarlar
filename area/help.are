@@ -2232,7 +2232,7 @@ See also:  CLASS, WORLD
 IRK       KISALTMA     ÝYÝ      KÖTÜ     TP    BÝLGÝ
 -----      -------   -------  -------   -----  -------------------
 Ýnsan       Ýnsan      Hiç      Hiç       0    ortalama ýrk
-Elf          Elf     Zek,Çev   Güç,Bün   500   iyi yönelim
+Elf         Elf      Zek,Çev   Güç,Bün   500   iyi yönelim
 Yarýelf     YElf     Zek,Çev   Güç,Bün   200   yarý insan, yarý elf
 Karaelf     KElf     Zek,Çev   Güç,Bün   500   kem yönelim
 Grielf      GElf     Zek,Çev   Güç,Bün   500   yansýz, "deðnekler"
@@ -2451,12 +2451,12 @@ ziyaret ediniz.
 
 SINIF       KISALTMA  GEREKEN  EXTRA
 -----       --------  -------  -----
-Ermiþ         Erm      BÝL  	   0
+Ermiþ         Erm      BÝL  	 0
 Hýrsýz        Hýr      ÇEV       0
 Savaþçý       Sav      GÜÇ       0
 Korucu        Krc      GÜÇ      200
-Ninja	        Nin      ÇEV      300
-Anti-paladin  A-P      GÜÇ      300
+Ninja	      Nin      ÇEV      300
+Anti-paladin  Ant      GÜÇ      300
 Paladin       Pal      GÜÇ      400
 Samuray       Sam      GÜÇ      500
 Vampir        Vam      ZEK      300
