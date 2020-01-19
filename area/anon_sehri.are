@@ -1,9 +1,9 @@
 #AREADATA
 Filename anon_sehri.are~
-Name Anon ï¿½ehri~
+Name Anon Þehri~
 Builder Yaegar~
 Translator Bilinmiyor~
-Language Yarï¿½ Tï¿½rkï¿½e~
+Language Yarý Türkçe~
 Lowlevel 1
 Highlevel 65
 Minvnum 31000
@@ -41,9 +41,9 @@ Dungeon_|                        Dryad                       |
 
 #MOBILES
 #31000
-ï¿½ifacï¿½ gath~
-ï¿½ifacï¿½ Gath~
-Anon ï¿½ehrinin yï¿½ksek rahibi ve ï¿½ifacï¿½sï¿½ Gath seni selamlï¿½yor.
+þifacý gath~
+Þifacý Gath~
+Anon þehrinin yüksek rahibi ve þifacýsý Gath seni selamlýyor.
 ~
 "Greetings, Fair Adventurer. How may I help thee? If thou art but a youngster
 I shall aid thee with my magic for free, but if thou art a veteran, then thou
@@ -60,7 +60,7 @@ stand stand male 1000
 #31001
 lonca efendisi dirad~
 Lonca efendisi Dirad~
-Lonca efendisi Dirad sabï¿½rla seni izliyor.
+Lonca efendisi Dirad sabýrla seni izliyor.
 ~
 "Welcome, my child, to the Guild of the Dryads. Should you wish to
 practice a skill or spell that is within my area of expertise, simply
@@ -77,7 +77,7 @@ stand stand male 1000
 #31002
 demirci jolob~
 Demirci Jolob~
-Demirci Jolob gï¿½lï¿½mseyerek selam veriyor.
+Demirci Jolob gülümseyerek selam veriyor.
 ~
 "Well, how can I help ye? If its repairs ye're after, then hand o'er the
 item that be damaged. If not, then I'm afeared there ain't
@@ -91,9 +91,9 @@ FHKN AB 0 0
 stand stand male 1000
 0 0 medium 0
 #31003
-zï¿½rhï¿½ï¿½~
-Zï¿½rhï¿½ï¿½~
-Zï¿½rhï¿½ï¿½ ï¿½rï¿½nlerini takdim ediyor.
+zýrhçý~
+Zýrhçý~
+Zýrhçý ürünlerini takdim ediyor.
 ~
 "Welcome to my place of business, adventurer. Got something you're after?
 Just type BUY <Item>. If you want to know WHAT you can buy (usually a wise
@@ -111,9 +111,9 @@ FHKN AB 0 0
 stand stand male 1000
 0 0 medium 0
 #31004
-silahï¿½ï¿½~
-Silahï¿½ï¿½~
-Silahï¿½ï¿½ dikkatle seni izliyor.
+silahçý~
+Silahçý~
+Silahçý dikkatle seni izliyor.
 ~
 "Greetings stranger, or have we met before? Never mind. Either way, to
 see what I have for sale, type LIST. if you want to buy an item you see
@@ -129,9 +129,9 @@ FHKN AB 0 0
 stand stand male 1000
 0 0 medium 0
 #31005
-paralï¿½ asker satï¿½cï¿½sï¿½~
-Paralï¿½ Asker Satï¿½cï¿½sï¿½~
-Paralï¿½ asker satï¿½cï¿½sï¿½ hï¿½rï¿½ldï¿½yor.
+paralý asker satýcýsý~
+Paralý Asker Satýcýsý~
+Paralý asker satýcýsý hýrýldýyor.
 ~
 "Want a Mercenary? Then type LIST to see what I sell, then type BUY <name>
 to hire 'im. That's it. Now pay up or get out".
@@ -144,9 +144,9 @@ FKN 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31006
-bï¿½yï¿½cï¿½~
-Bï¿½yï¿½cï¿½~
-Bï¿½yï¿½cï¿½ gï¿½lï¿½mseyerek selamlï¿½yor ve nasï¿½l yardï¿½mcï¿½ olabileceï¿½ini soruyor.
+büyücü~
+Büyücü~
+Büyücü gülümseyerek selamlýyor ve nasýl yardýmcý olabileceðini soruyor.
 ~
 "To see what you can buy here," she begins sweetly,"type LIST. If you
 see something you'd like, type BUY <item>. If you have something you
@@ -163,7 +163,7 @@ stand stand female 1000
 #31007
 bilge mitzak~
 Bilge Mitzak~
-Bilge Mitzak gï¿½lï¿½mseyerek selam veriyor.
+Bilge Mitzak gülümseyerek selam veriyor.
 ~
 "Hullo. Come to ID some equipment have you? Well, the process is quite
 simple really. Even dwarves can understand it... hmmph... yes now where was
@@ -179,9 +179,9 @@ FHKN AB 0 0
 stand stand male 1000
 0 0 medium 0
 #31008
-hayvan satï¿½cï¿½sï¿½~
-Hayvan Satï¿½cï¿½sï¿½~
-Hayvan satï¿½cï¿½sï¿½ nazikï¿½e gï¿½lï¿½msedikten sonra isteklerini soruyor.
+hayvan satýcýsý~
+Hayvan Satýcýsý~
+Hayvan satýcýsý nazikçe gülümsedikten sonra isteklerini soruyor.
 ~
 "Greetings. You wish to buy a pet? Well, to see what I have in stock, type
 LIST. Be sure to note the Level of the items that interest you, as you can
@@ -197,9 +197,9 @@ FHKN AB 0 0
 stand stand male 1000
 0 0 medium 0
 #31009
-elf loncasï¿½ efendisi~
-Elf Loncasï¿½ Efendisi~
-Elf Loncasï¿½ Efendisi sana "Hoï¿½geldin" diyor.
+elf loncasý efendisi~
+Elf Loncasý Efendisi~
+Elf Loncasý Efendisi sana "Hoþgeldin" diyor.
 ~
 "Welcome, friend, to the Guild of the Elves. Should you wish to practice
 a skill or spell that is within my area of expertise, simply type PRAC
@@ -216,7 +216,7 @@ stand stand male 1000
 #31010
 bakkal~
 Bakkal~
-Bakkal nazikï¿½e gï¿½lï¿½mseyerek birï¿½ey isteyip istemediï¿½ini soruyor.
+Bakkal nazikçe gülümseyerek birþey isteyip istemediðini soruyor.
 ~
 "To see what you can buy here," she begins sweetly,"type LIST. If you
 see something you'd like, type BUY <item>. If you have something you
@@ -231,9 +231,9 @@ FHKN AB 0 0
 stand stand female 1000
 0 0 medium 0
 #31011
-cï¿½ce fï¿½rï¿½ncï¿½~
-Fï¿½rï¿½ncï¿½~
-Sert gï¿½rï¿½nï¿½ï¿½lï¿½ bir cï¿½ce olan fï¿½rï¿½ncï¿½ seni izliyor.
+cüce fýrýncý~
+Fýrýncý~
+Sert görünüþlü bir cüce olan fýrýncý seni izliyor.
 ~
 "Bread? Course I got bread, STUPID! Thats why it's called a BAKERY. I also
 got pies, rolls an' sandwiches. If ya want an exact list, then type LIST.
@@ -250,7 +250,7 @@ stand stand male 1000
 #31012
 barmen~
 Barmen~
-Barmen selam verdikten sonra bir bardaï¿½ï¿½ temizlemeye koyuluyor.
+Barmen selam verdikten sonra bir bardaðý temizlemeye koyuluyor.
 ~
 "Want a drink, friend? Of COURSE you do. Especially if you're one of them
 spellflinging types. To see whats on tap, type LIST. If you see something
@@ -264,9 +264,9 @@ FHKN 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31013
-cï¿½ce loncasï¿½ efendisi~
-Cï¿½ce Loncasï¿½ Efendisi~
-Cï¿½ce Loncasï¿½ Efendisi sert bakï¿½ï¿½larï¿½yla seni izliyor.
+cüce loncasý efendisi~
+Cüce Loncasý Efendisi~
+Cüce Loncasý Efendisi sert bakýþlarýyla seni izliyor.
 ~
 "You want to train to fight? Good. You want to train to kill? Better. To
 see if I can help you, type PRAC, and that will list what I can teach you
@@ -281,9 +281,9 @@ F 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31014
-kender loncasï¿½ efendisi~
-Kender Loncasï¿½ Efendisi~
-Kender Loncasï¿½ Efendisi ï¿½eytanca sï¿½rï¿½tï¿½yor.
+kender loncasý efendisi~
+Kender Loncasý Efendisi~
+Kender Loncasý Efendisi þeytanca sýrýtýyor.
 ~
 "Sooooo... How can I help you? You want to learn how to STEAL???? How
 insulting! Are you insinuating that I am a- a THIEF??? Listen, Kenders
@@ -300,7 +300,7 @@ stand stand male 1000
 #31015
 dirad garson~
 Dirad Garson~
-Dirad Garson iï¿½ki servisi yapï¿½yor.
+Dirad Garson içki servisi yapýyor.
 ~
 A prominent employee of the Guild.
 Honest, Reliable and Courteous (yeah right).
@@ -315,7 +315,7 @@ stand stand male 1000
 #31016
 elf garson~
 Elf Garson~
-Elf Garson iï¿½ki servisi yapï¿½yor.
+Elf Garson içki servisi yapýyor.
 ~
 A prominent employee of the Guild.
 Honest, Reliable and Courteous (yeah right).
@@ -328,9 +328,9 @@ FKN 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31017
-cï¿½ce garson~
-Cï¿½ce Garson~
-Cï¿½ce garson iï¿½ki servisi yapï¿½yor.
+cüce garson~
+Cüce Garson~
+Cüce garson içki servisi yapýyor.
 ~
 A prominent employee of the Guild.
 Honest, Reliable and Courteous (yeah right).
@@ -343,9 +343,9 @@ FHKN 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31018
-yaï¿½lï¿½ barmen~
-Yaï¿½lï¿½ Barmen~
-Yaï¿½lï¿½ barmen iï¿½ki servisi yapï¿½yor.
+yaðlý barmen~
+Yaðlý Barmen~
+Yaðlý barmen içki servisi yapýyor.
 ~
 A prominent employee of the Guild.
 Honest, Reliable and Courteous (yeah right).
@@ -360,7 +360,7 @@ stand stand male 1000
 #31019
 tarla faresi~
 tarla faresi~
-Kï¿½ï¿½ï¿½k bir tarla faresi gï¿½rï¿½yorsun.
+Küçük bir tarla faresi görüyorsun.
 ~
 The mouse looks like a cute, little, fierce fighter.
 ~
@@ -374,7 +374,7 @@ stand stand none 1000
 #31020
 porsuk~
 porsuk~
-Sadï¿½k bir porsuk sana hï¿½rlï¿½yor.
+Sadýk bir porsuk sana hýrlýyor.
 ~
 The badger looks like a fierce fighter.
 ~
@@ -388,7 +388,7 @@ stand stand none 1000
 #31021
 kartal~
 kartal~
-Sadï¿½k bir kartal gï¿½rï¿½yorsun.
+Sadýk bir kartal görüyorsun.
 ~
 The eagle looks like a fierce fighter.
 ~
@@ -400,9 +400,9 @@ F 0 0 0
 stand stand either 1000
 0 0 medium 0
 #31022
-gri ayï¿½~
-gri ayï¿½~
-Sadï¿½k bir gri ayï¿½ gï¿½rï¿½yorsun.
+gri ayý~
+gri ayý~
+Sadýk bir gri ayý görüyorsun.
 ~
 The grizzly bear looks like a strong, fierce fighter.
 ~
@@ -416,7 +416,7 @@ stand stand either 1000
 #31023
 fil~
 fil~
-Bï¿½Yï¿½K bir fil ayaï¿½ï¿½nï¿½ topraï¿½a sï¿½rterek gï¿½ï¿½ gï¿½sterisi yapï¿½yor.
+BÜYÜK bir fil ayaðýný topraða sürterek güç gösterisi yapýyor.
 ~
 The elephant is a BAD ASS.
 ~
@@ -443,9 +443,9 @@ FKN 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31025
-arod tï¿½ccar~
-Tï¿½ccar Arod~
-Tï¿½ccar Arod gï¿½lgelerin iï¿½inde bekliyor.
+arod tüccar~
+Tüccar Arod~
+Tüccar Arod gölgelerin içinde bekliyor.
 ~
 .........................................................................
 
@@ -459,9 +459,9 @@ FK 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31026
-ilithid loncasï¿½ efendisi~
-ï¿½lithid Loncasï¿½ Efendisi~
-ï¿½lithid Loncasï¿½ Efendisi seni selamlï¿½yor, telepatiyle...
+ilithid loncasý efendisi~
+Ýlithid Loncasý Efendisi~
+Ýlithid Loncasý Efendisi seni selamlýyor, telepatiyle...
 ~
 "Greetings," intones the Guildmaster, his thoughts ringing in your head."You
 wish to train in my arts? Very well. Type PRAC to see what you can learn
@@ -476,9 +476,9 @@ F 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31027
-insan loncasï¿½ efendisi~
-ï¿½nsan Loncasï¿½ Efendisi~
-ï¿½nsan Loncasï¿½ Efendisi reveransla selamlï¿½yor.
+insan loncasý efendisi~
+Ýnsan Loncasý Efendisi~
+Ýnsan Loncasý Efendisi reveransla selamlýyor.
 ~
 "Welcome, honorable student, to the most honorable Guild of the Humans. If
 you wish to learn here, type PRAC to see what I may teach you. If you see
@@ -494,9 +494,9 @@ F 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31028
-aviyan loncasï¿½ efendisi~
-Aviyan Loncasï¿½ Efendisi~
-Aviyan Loncasï¿½ Efendisi "Hoï¿½geldin" diyor.
+aviyan loncasý efendisi~
+Aviyan Loncasý Efendisi~
+Aviyan Loncasý Efendisi "Hoþgeldin" diyor.
 ~
 "*>SCREECH<* You wish to learn Avian skills? Type PRAC to see what I can
 teach you, and if there is something I can teach you that you wish to learn,
@@ -511,8 +511,8 @@ stand stand female 1000
 0 0 medium 0
 #31029
 ilithid garson~
-ï¿½lithid Garson~
-ilithid garson iï¿½ki servisi yapï¿½yor.
+Ýlithid Garson~
+ilithid garson içki servisi yapýyor.
 ~
 A prominent employee of the Guild.
 Honest, Reliable and Courteous (yeah right).
@@ -526,8 +526,8 @@ stand stand none 1000
 0 0 medium 0
 #31030
 insan garson~
-ï¿½nsan Garson~
-ï¿½nsan Garson iï¿½ki servisi yapï¿½yor.
+Ýnsan Garson~
+Ýnsan Garson içki servisi yapýyor.
 ~
 A prominent employee of the Guild.
 Honest, Reliable and Courteous (yeah right).
@@ -542,7 +542,7 @@ stand stand male 1000
 #31031
 aviyan garson~
 Aviyan Garson~
-Aviyan Garson iï¿½ki servisi yapï¿½yor.
+Aviyan Garson içki servisi yapýyor.
 ~
 A prominent employee of the Guild.
 Honest, Reliable and Courteous (yeah right).
@@ -555,9 +555,9 @@ FKN 0 0 0
 stand stand female 1000
 0 0 medium 0
 #31032
-anon savunmasï¿½~
-Anon Savunmasï¿½~
-Anon Savunmasï¿½ gï¿½lï¿½mseyerek selam veriyor.
+anon savunmasý~
+Anon Savunmasý~
+Anon Savunmasý gülümseyerek selam veriyor.
 ~
 The Castellan is a tall, lean man of middle years with graying hair and
 a sinewy frame. He is always polite and helpful, but is more than prepared
@@ -572,9 +572,9 @@ FKN 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31033
-anon vatandaï¿½~
-vatandaï¿½~
-Bir Anon vatandaï¿½ï¿½ yanï¿½ndan geï¿½iyor.
+anon vatandaþ~
+vatandaþ~
+Bir Anon vatandaþý yanýndan geçiyor.
 ~
 Anon is not a huge city in terms of population, but there are a fair number
 of residents, such as this fellow.
@@ -587,9 +587,9 @@ AG 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31034
-anon vatandaï¿½~
-vatandaï¿½~
-Bir Anon vatandaï¿½ï¿½ yanï¿½ndan geï¿½iyor.
+anon vatandaþ~
+vatandaþ~
+Bir Anon vatandaþý yanýndan geçiyor.
 ~
 Anon is not a huge city in terms of population, but there are a fair number
 of residents, such as this lady.
@@ -602,9 +602,9 @@ AG 0 0 0
 stand stand female 1000
 0 0 medium 0
 #31035
-ï¿½ocuk~
-ï¿½ocuk~
-Bir ï¿½ocuk caddede gï¿½lï¿½p eï¿½leniyor.
+çocuk~
+çocuk~
+Bir çocuk caddede gülüp eðleniyor.
 ~
 There are not that many children in Anon, so those that are present are
 treasured by the locals. However, this endearment certainly isn't shared by
@@ -618,9 +618,9 @@ AG 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31036
-ï¿½ï¿½pï¿½ï¿½~
-ï¿½ï¿½pï¿½ï¿½~
-Bir ï¿½ï¿½pï¿½ï¿½ etrafï¿½ temizliyor.
+çöpçü~
+çöpçü~
+Bir çöpçü etrafý temizliyor.
 ~
 "Grumble grumble... you don't think I got anything better to do than pick up
 YOUR crap? Grumble grumble... and these BLOODSTAINS! *SIGH*"
@@ -635,7 +635,7 @@ stand stand male 1000
 #31037
 serseri~
 serseri~
-Bir serseri kolay bir av arï¿½yor.
+Bir serseri kolay bir av arýyor.
 ~
 The footpad skulks about, looking for someone to conk over the head.
 ~
@@ -647,9 +647,9 @@ ACG 0 -200 0
 stand stand male 1000
 0 0 medium 0
 #31038
-sarhoï¿½~
-sarhoï¿½~
-Bir sarhoï¿½ ï¿½arkï¿½ sï¿½ylï¿½yor.
+sarhoþ~
+sarhoþ~
+Bir sarhoþ þarký söylüyor.
 ~
 A drunk who seems to be too happy, and to carry too much money. He mumbles something unintelligible and stumbles away.
 ~
@@ -675,9 +675,9 @@ ABG 0 400 0
 stand stand male 1000
 0 0 medium 0
 #31040
-hï¿½rsï¿½z~
-hï¿½rsï¿½z~
-Bir hï¿½rsï¿½z silahï¿½nï¿½ okï¿½uyor.
+hýrsýz~
+hýrsýz~
+Bir hýrsýz silahýný okþuyor.
 ~
 This clever fellow has robbed dozens of unsuspecting visitors to Anon.
 ~
@@ -690,8 +690,8 @@ stand stand male 1000
 0 0 medium 0
 #31041
 sokak enik~
-sokak eniï¿½i~
-Sokak eniï¿½i yiyecek arï¿½yor.
+sokak eniði~
+Sokak eniði yiyecek arýyor.
 ~
 The beastly fido is foaming at the mouth. You smell the aroma of his latest kill.
 ~
@@ -703,9 +703,9 @@ AGH 0 0 0
 stand stand none 1000
 0 0 medium 0
 #31042
-laï¿½ï¿½m sï¿½ï¿½an~
-laï¿½ï¿½m sï¿½ï¿½anï¿½~
-Bï¿½yï¿½k bir laï¿½ï¿½m sï¿½ï¿½anï¿½ havayï¿½ kokluyor.
+laðým sýçan~
+laðým sýçaný~
+Büyük bir laðým sýçaný havayý kokluyor.
 ~
 Rats! Eeyew! They come up out of the sewer and steal the children of Anon.
 Good.
@@ -720,7 +720,7 @@ stand stand none 1000
 #31043
 kedi~
 kedi~
-Bir kedi ï¿½ï¿½pleri karï¿½ï¿½tï¿½rï¿½yor.
+Bir kedi çöpleri karýþtýrýyor.
 ~
 The cat suddenly emerges, triumphant, with a half-eaten steak, and runs off.
 ~
@@ -732,9 +732,9 @@ AGH 0 0 0
 stand stand female 1000
 0 0 medium 0
 #31044
-ï¿½ehir muhafï¿½zï¿½~
-ï¿½ehir Muhafï¿½zï¿½~
-Bir ï¿½ehir muhafï¿½zï¿½ beladan uzak durmanï¿½ ï¿½neriyor.
+þehir muhafýzý~
+Þehir Muhafýzý~
+Bir þehir muhafýzý beladan uzak durmaný öneriyor.
 ~
 This fellow is a member of one of the best Law Enforcement Agencies on the
 continent. Dedicated, loyal, efficient, he is the epitome of Truth, Justice
@@ -748,9 +748,9 @@ CDFKIJ 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31045
-ï¿½ehir muhafï¿½zï¿½~
-ï¿½ehir Muhafï¿½zï¿½~
-Bir ï¿½ehir muhafï¿½zï¿½ beladan uzak durmanï¿½ ï¿½neriyor.
+þehir muhafýzý~
+Þehir Muhafýzý~
+Bir þehir muhafýzý beladan uzak durmaný öneriyor.
 ~
 This lady is a member of one of the best Law Enforcement Agencies on the
 continent. Dedicated, loyal, efficient, she is the epitome of Truth, Justice
@@ -764,9 +764,9 @@ CDFIJK 0 0 0
 stand stand female 1000
 0 0 medium 0
 #31046
-ï¿½ehir muhafï¿½zï¿½~
-ï¿½ehir Muhafï¿½zï¿½~
-Bir ï¿½ehir muhafï¿½zï¿½ burada bekliyor.
+þehir muhafýzý~
+Þehir Muhafýzý~
+Bir þehir muhafýzý burada bekliyor.
 ~
 This fellow is a member of one of the best Law Enforcement Agencies on the
 continent. Dedicated, loyal, efficient, he is the epitome of Truth, Justice
@@ -780,11 +780,11 @@ CDFIJK 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31047
-hobit paralï¿½ askeri~
-Hobit Paralï¿½ Askeri~
-Bir hobit paralï¿½ askeri kaï¿½larï¿½nï¿½ ï¿½atmï¿½ï¿½ bekliyor.
+hobit paralý askeri~
+Hobit Paralý Askeri~
+Bir hobit paralý askeri kaþlarýný çatmýþ bekliyor.
 ~
-Oldukï¿½a sert gï¿½rï¿½nï¿½yor, dikkatli olmalï¿½sï¿½n...
+Oldukça sert görünüyor, dikkatli olmalýsýn...
 ~
 human~
 AI FJ 0 0
@@ -794,11 +794,11 @@ CDF 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31048
-elf paralï¿½ askeri~
-Elf Paralï¿½ Askeri~
-Bir elf paralï¿½ askeri kaï¿½larï¿½nï¿½ ï¿½atmï¿½ï¿½ bekliyor.
+elf paralý askeri~
+Elf Paralý Askeri~
+Bir elf paralý askeri kaþlarýný çatmýþ bekliyor.
 ~
-Oldukï¿½a sert gï¿½rï¿½nï¿½yor, dikkatli olmalï¿½sï¿½n...
+Oldukça sert görünüyor, dikkatli olmalýsýn...
 ~
 elf~
 AI DJ 0 0
@@ -808,11 +808,11 @@ F 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31049
-cï¿½ce paralï¿½ askeri~
-Cï¿½ce Paralï¿½ Askeri~
-Bir cï¿½ce paralï¿½ askeri kaï¿½larï¿½nï¿½ ï¿½atmï¿½ï¿½ bekliyor.
+cüce paralý askeri~
+Cüce Paralý Askeri~
+Bir cüce paralý askeri kaþlarýný çatmýþ bekliyor.
 ~
-Oldukï¿½a sert gï¿½rï¿½nï¿½yor, dikkatli olmalï¿½sï¿½n...
+Oldukça sert görünüyor, dikkatli olmalýsýn...
 ~
 dwarf~
 AI JN 0 0
@@ -822,11 +822,11 @@ DF 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31050
-asura paralï¿½ askeri~
-Rrol Paralï¿½ Askeri~
-Bir asura paralï¿½ askeri kaï¿½larï¿½nï¿½ ï¿½atmï¿½ï¿½ bekliyor.
+trol paralý askeri~
+Rrol Paralý Askeri~
+Bir trol paralý askeri kaþlarýný çatmýþ bekliyor.
 ~
-Oldukï¿½a sert gï¿½rï¿½nï¿½yor, dikkatli olmalï¿½sï¿½n...
+Oldukça sert görünüyor, dikkatli olmalýsýn...
 ~
 human~
 AI JN 0 0
@@ -836,11 +836,11 @@ CDEF 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31051
-dev paralï¿½ askeri~
-Dev Paralï¿½ Askeri~
-Bir dev paralï¿½ askeri kaï¿½larï¿½nï¿½ ï¿½atmï¿½ï¿½ bekliyor.
+dev paralý askeri~
+Dev Paralý Askeri~
+Bir dev paralý askeri kaþlarýný çatmýþ bekliyor.
 ~
-Oldukï¿½a sert gï¿½rï¿½nï¿½yor, dikkatli olmalï¿½sï¿½n...
+Oldukça sert görünüyor, dikkatli olmalýsýn...
 ~
 giant~
 AI N 0 0
@@ -850,11 +850,11 @@ CDEF 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31052
-yarï¿½-ejderha paralï¿½ askeri~
-Yarï¿½-ejderha Paralï¿½ Askeri~
-Bir yarï¿½-ejderha paralï¿½ askeri kaï¿½larï¿½nï¿½ ï¿½atmï¿½ï¿½ bekliyor.
+yarý-ejderha paralý askeri~
+Yarý-ejderha Paralý Askeri~
+Bir yarý-ejderha paralý askeri kaþlarýný çatmýþ bekliyor.
 ~
-Oldukï¿½a sert gï¿½rï¿½nï¿½yor, dikkatli olmalï¿½sï¿½n...
+Oldukça sert görünüyor, dikkatli olmalýsýn...
 ~
 dragon~
 AI DFJT 0 0
@@ -866,7 +866,7 @@ stand stand male 1000
 #31053
 salvatore~
 Salvatore~
-Salvatore'yi gï¿½rï¿½yorsun, sana burada ne aradï¿½ï¿½ï¿½nï¿½ soruyor.
+Salvatore'yi görüyorsun, sana burada ne aradýðýný soruyor.
 ~
 Salvatore is a broad man of Mediterranean descent in his middle years. He
 goes on to tell you that you can have anything you want, as long as it's
@@ -880,9 +880,9 @@ FHKN AB 0 0
 stand stand male 1000
 0 0 medium 0
 #31054
-ï¿½ehir muhafï¿½zï¿½~
-ï¿½ehir Muhafï¿½zï¿½~
-Bir ï¿½ehir muhafï¿½zï¿½ burada bekliyor.
+þehir muhafýzý~
+Þehir Muhafýzý~
+Bir þehir muhafýzý burada bekliyor.
 ~
 This fellow is a member of one of the best Law Enforcement Agencies on the
 continent. Dedicated, loyal, efficient, he is the epitome of Truth, Justice
@@ -898,7 +898,7 @@ stand stand male 1000
 #31055
 kafe sahip tarey~
 Tarey~
-Kafe sahibi Tarey'i gï¿½rï¿½yorsun.
+Kafe sahibi Tarey'i görüyorsun.
 ~
 Tracey is a cheerful, hard-working restauranteur who built this business
 up from scratch. It serves the best Cafe-style food on all of Anon, which
@@ -915,7 +915,7 @@ stand stand female 1000
 #31056
 menrabbazoh bilge~
 Menrabbazoh~
-Bilge Menrabbazoh ihtiyacï¿½ olanlara eï¿½itimlerinde yardï¿½m ediyor.
+Bilge Menrabbazoh ihtiyacý olanlara eðitimlerinde yardým ediyor.
 ~
 Mengrabbazoah is an old and wise Darkling, the most powerful of his kind
 currently living outside the city of Tentchenanwhan, far beneath the surface
@@ -931,7 +931,7 @@ stand stand male 1000
 #31057
 aliks~
 Aliks~
-Aliks eï¿½yalardaki lanetleri ï¿½ï¿½zme konusunda pratik yapï¿½yor.
+Aliks eþyalardaki lanetleri çözme konusunda pratik yapýyor.
 ~
 Alix smiles and asks you to tell him the name of the item you wish to be
 rid of.
@@ -944,9 +944,9 @@ FHKN 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31058
-kï¿½leya~
-Kï¿½leya~
-Kï¿½leya bï¿½yï¿½lï¿½ eï¿½yalarï¿½nï¿½ ï¿½arj etmeyi ï¿½neriyor.
+kýleya~
+Kýleya~
+Kýleya büyülü eþyalarýný þarj etmeyi öneriyor.
 ~
 Clea smiles languidly and asks you to hand over the stave that needs
 recharging, chuckling at her deliberate innuendo as she does.
@@ -961,7 +961,7 @@ stand stand female 1000
 #31059
 sahaf zanafas~
 Zanafas~
-Sahaf Zanafas eski bir kitaba gï¿½z atï¿½yor.
+Sahaf Zanafas eski bir kitaba göz atýyor.
 ~
 Xanafax is a dealer in rare and ancient books detailing the geography,
 history, social structure and legends of the many races of Anon. He is more
@@ -975,9 +975,9 @@ F 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31060
-ï¿½ilingir dï¿½vart~
-Dï¿½vart~
-ï¿½ilingir Dï¿½vart bir anahtara ï¿½ekil veriyor.
+çilingir dývart~
+Dývart~
+Çilingir Dývart bir anahtara þekil veriyor.
 ~
 Dwart makes locks and keys, and he makes them well. For a Dwarf he is
 surprisingly dextrous. He also purchases keys off of players. Try selling
@@ -991,9 +991,9 @@ F 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31061
-gï¿½ï¿½ artï¿½rï¿½cï¿½ thom~
+güç artýrýcý thom~
 Thom~
-Gï¿½ï¿½ Artï¿½rï¿½cï¿½ Thom hizmet etmek iï¿½in bekliyor.
+Güç Artýrýcý Thom hizmet etmek için bekliyor.
 ~
 Thom will assist you in enhancing your stats. Simply type enhance <stat>
 to do so. Type HELP ENHANCE for assistance.
@@ -1006,9 +1006,9 @@ F 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31062
-tï¿½ccar parlas~
+tüccar parlas~
 Parlas~
-Tï¿½ccar Parlas yapacaï¿½ï¿½ anlaï¿½malarï¿½ dï¿½ï¿½ï¿½nï¿½yor.
+Tüccar Parlas yapacaðý anlaþmalarý düþünüyor.
 ~
 Pharlas is a stout, well-dressed merchant in his mid-fifties. He is currently
 extremely agitated because a swamp spirit has stolen his gem. Perhaps you
@@ -1025,58 +1025,58 @@ stand stand male 1000
 
 #OBJECTS
 #31000
-pï¿½skï¿½llï¿½ anahtar~
-pï¿½skï¿½llï¿½ anahtar~
-ï¿½ehir kapï¿½larï¿½nï¿½n anahtarï¿½nï¿½ gï¿½rï¿½yorsun.~
+püsküllü anahtar~
+püsküllü anahtar~
+Þehir kapýlarýnýn anahtarýný görüyorsun.~
 gold~
 key 0 1|16384
 0 0 0 0 0
 0 1 0 P
 #31001
-tunï¿½ anahtar~
-tunï¿½ anahtar~
-ï¿½ehir zindanï¿½nï¿½n anahtarï¿½nï¿½ gï¿½rï¿½yorsun.~
+tunç anahtar~
+tunç anahtar~
+Þehir zindanýnýn anahtarýný görüyorsun.~
 bronze~
 key 0 1|16384
 0 0 0 0 0
 0 1 0 P
 #31002
-fï¿½ï¿½ï¿½ bira~
-fï¿½ï¿½ï¿½ bira~
-Bir fï¿½ï¿½ï¿½ bira gï¿½rï¿½yorsun.
+fýçý bira~
+fýçý bira~
+Bir fýçý bira görüyorsun.
 ~
 metal~
 drink 0 1
 30 30 'beer' 0 0
 0 60 300 P
 #31003
-ï¿½iï¿½e bira~
-bira ï¿½iï¿½esi~
-Bir ï¿½iï¿½e bira gï¿½rï¿½yorsun.~
+þiþe bira~
+bira þiþesi~
+Bir þiþe bira görüyorsun.~
 glass~
 drink 0 1
 4 4 'beer' 0 0
 0 10 20 P
 #31004
-ï¿½iï¿½e ale~
-ale ï¿½iï¿½esi~
-Koyu bir ale ï¿½iï¿½esi gï¿½rï¿½yorsun.~
+þiþe ale~
+ale þiþesi~
+Koyu bir ale þiþesi görüyorsun.~
 glass~
 drink 0 1
 5 5 'ale' 0 0
 0 10 10 P
 #31005
-ï¿½iï¿½e alevnefesi~
-alevnefesi ï¿½iï¿½esi~
-Bir ï¿½iï¿½e alevnefesi burada bï¿½rakï¿½lmï¿½ï¿½.~
+þiþe alevnefesi~
+alevnefesi þiþesi~
+Bir þiþe alevnefesi burada býrakýlmýþ.~
 glass~
 drink 0 1
 8 8 'firebreather' 0 0
 0 10 50 P
 #31006
-yerli iï¿½ki ï¿½iï¿½esi~
-yerli iï¿½ki ï¿½iï¿½esi~
-Bir ï¿½iï¿½e yerli iï¿½ki burada bï¿½rakï¿½lmï¿½ï¿½.~
+yerli içki þiþesi~
+yerli içki þiþesi~
+Bir þiþe yerli içki burada býrakýlmýþ.~
 glass~
 drink 0 1
 8 8 'local specialty' 0 0
@@ -1084,21 +1084,21 @@ drink 0 1
 #31007
 fener~
 fener~
-Bï¿½yï¿½kï¿½e bir fener burada bï¿½rakï¿½lmï¿½ï¿½.~
+Büyükçe bir fener burada býrakýlmýþ.~
 wood~
 light 0 1|16384
 0 0 24 0 0
 0 1 10 P
 #31008
-camlï¿½ fener~
-camlï¿½ fener~
-Camlï¿½ bir fener gï¿½rï¿½yorsun.~
+camlý fener~
+camlý fener~
+Camlý bir fener görüyorsun.~
 brass~
 light 0 1|16384
 0 0 100 0 0
 0 4 60 P
 E
-camlï¿½ fener~
+camlý fener~
 It is a large and robust but somewhat battered oil lantern made from brass,
 equipped with a handle to make it handy and a hood to protect its flame.
 Some letters have been scratched on its bottom.
@@ -1108,45 +1108,45 @@ letters~
 They say, "Use 'hold lantern' to activate."
 ~
 #31009
-tanï¿½mlama parï¿½ï¿½meni~
-tanï¿½mlama parï¿½ï¿½meni~
-Bir parï¿½ï¿½men burada bï¿½rakï¿½lmï¿½ï¿½.~
+tanýmlama parþömeni~
+tanýmlama parþömeni~
+Bir parþömen burada býrakýlmýþ.~
 vellum~
 scroll 64 1
 12 'identify' '' '' ''
 0 1 2000 P
 #31010
-iksir sarï¿½~
-sarï¿½ iksir~
-Kï¿½ï¿½ï¿½k sarï¿½ bir iksir gï¿½rï¿½yorsun.~
+iksir sarý~
+sarý iksir~
+Küçük sarý bir iksir görüyorsun.~
 glass~
 potion 64 1
 12 'detect invis' '' '' ''
 0 10 220 P
 E
-iksir sarï¿½~
+iksir sarý~
 The iksir has a small label 'Detect The Invisible'.
 ~
 #31011
 bufalo derisinden matara~
 bufalo derisinden matara~
-Bufalo derisinden yapï¿½lmï¿½ï¿½ bir matara burada bï¿½rakï¿½lmï¿½ï¿½.~
+Bufalo derisinden yapýlmýþ bir matara burada býrakýlmýþ.~
 leather~
 drink 0 1
 25 25 'water' 0 0
 0 5 30 P
 #31012
-su ï¿½iï¿½esi~
-su ï¿½iï¿½esi~
-Bï¿½yï¿½k bir su ï¿½iï¿½esi burada bï¿½rakï¿½lmï¿½ï¿½.~
+su þiþesi~
+su þiþesi~
+Büyük bir su þiþesi burada býrakýlmýþ.~
 glass~
 drink 1 1
 60 60 'water' 0 0
 0 85 20 P
 #31013
-aï¿½ï¿½r kurï¿½un gï¿½rz~
-aï¿½ï¿½r kurï¿½un gï¿½rz~
-Kurï¿½undan yapï¿½lmï¿½ï¿½ bir gï¿½rz gï¿½rï¿½yorsun.
+aðýr kurþun gürz~
+aðýr kurþun gürz~
+Kurþundan yapýlmýþ bir gürz görüyorsun.
 ~
 wood~
 weapon 0 1|8192
@@ -1157,9 +1157,9 @@ A
 A
 19 3
 #31014
-saï¿½lam gï¿½rz~
-saï¿½lam gï¿½rz~
-Saï¿½lam gï¿½rï¿½nï¿½mlï¿½ bir gï¿½rz burada yatï¿½yor.
+saðlam gürz~
+saðlam gürz~
+Saðlam görünümlü bir gürz burada yatýyor.
 ~
 wood~
 weapon 0 1|8192
@@ -1170,9 +1170,9 @@ A
 A
 19 1
 #31015
-sivri hanï¿½er~
-sivri hanï¿½er~
-Gï¿½zel bir hanï¿½er gï¿½rï¿½yorsun.
+sivri hançer~
+sivri hançer~
+Güzel bir hançer görüyorsun.
 ~
 steel~
 weapon 0 1|8192
@@ -1183,9 +1183,9 @@ A
 A
 19 -2
 #31016
-eï¿½ri kï¿½lï¿½c~
-eï¿½ri kï¿½lï¿½c~
-Eï¿½ri bir kï¿½lï¿½c gï¿½rï¿½yorsun.
+eðri kýlýc~
+eðri kýlýc~
+Eðri bir kýlýc görüyorsun.
 ~
 steel~
 weapon 2|16|64|512 1|8192
@@ -1196,9 +1196,9 @@ A
 A
 19 2
 #31017
-deri ï¿½izme~
-bir ï¿½ift deri ï¿½izme~
-Bir ï¿½ift deri ï¿½izme burada bï¿½rakï¿½lmï¿½ï¿½.~
+deri çizme~
+bir çift deri çizme~
+Bir çift deri çizme burada býrakýlmýþ.~
 leather~
 armor 0 1|64
 4 4 4 0 0
@@ -1210,7 +1210,7 @@ A
 #31018
 ince deri kemer~
 ince deri kemer~
-ï¿½nce bir deri kemer burada bï¿½rakï¿½lmï¿½ï¿½.~
+Ýnce bir deri kemer burada býrakýlmýþ.~
 leather~
 armor 0 1|2048
 3 3 3 0 0
@@ -1220,9 +1220,9 @@ A
 A
 23 -2
 #31019
-kamikaze alï¿½nbandï¿½~
-kamikaze alï¿½nbandï¿½~
-Bir alï¿½nbandï¿½ gï¿½rï¿½yorsun.~
+kamikaze alýnbandý~
+kamikaze alýnbandý~
+Bir alýnbandý görüyorsun.~
 cloth~
 armor 0 1|16
 4 4 4 0 0
@@ -1230,9 +1230,9 @@ armor 0 1|16
 A
 18 2
 #31020
-kumaï¿½ atkï¿½~
-kumaï¿½ atkï¿½~
-Kumaï¿½ bir atkï¿½ gï¿½rï¿½yorsun.~
+kumaþ atký~
+kumaþ atký~
+Kumaþ bir atký görüyorsun.~
 cloth~
 armor 0 1|4
 3 3 3 0 0
@@ -1242,17 +1242,17 @@ A
 A
 19 1
 #31021
-ï¿½ehir ï¿½eï¿½mesi~
-ï¿½ehir ï¿½eï¿½mesi~
-Gï¿½rï¿½l gï¿½rï¿½l akan bir ï¿½eï¿½me gï¿½rï¿½yorsun.~
+þehir çeþmesi~
+þehir çeþmesi~
+Gürül gürül akan bir çeþme görüyorsun.~
 marble~
 fountain 0 0
 0 0 'water' 0 0
 0 0 0 P
 #31022
-altï¿½n yï¿½zï¿½k~
-altï¿½n yï¿½zï¿½k~
-ALTIN bir yï¿½zï¿½k gï¿½rï¿½yorsun!
+altýn yüzük~
+altýn yüzük~
+ALTIN bir yüzük görüyorsun!
 ~
 gold~
 armor 1 1|2
@@ -1263,51 +1263,51 @@ A
 #31023
 dilim kek~
 dilim kek~
-Bir dilim kek gï¿½rï¿½yorsun.
+Bir dilim kek görüyorsun.
 ~
 food~
 food 0 1
 4 4 0 0 0
 0 1 3 P
 #31024
-dï¿½rï¿½m~
-dï¿½rï¿½m~
-Bir dï¿½rï¿½m gï¿½rï¿½yorsun.
+dürüm~
+dürüm~
+Bir dürüm görüyorsun.
 ~
 food~
 food 0 1
 5 5 0 0 0
 0 1 1 P
 #31025
-peynirli sandviï¿½~
-peynirli sandviï¿½~
-Peynirli bir sandviï¿½ gï¿½rï¿½yorsun.
+peynirli sandviç~
+peynirli sandviç~
+Peynirli bir sandviç görüyorsun.
 ~
 food~
 food 0 1
 5 5 0 0 0
 0 1 3 P
 #31026
-ï¿½iftli ekmek~
-ï¿½iftli ekmek~
-Bï¿½yï¿½kï¿½e bir ekmek gï¿½rï¿½yorsun!
+çiftli ekmek~
+çiftli ekmek~
+Büyükçe bir ekmek görüyorsun!
 ~
 food~
 food 0 1
 24 24 0 0 0
 0 3 3 P
 #31027
-kahve fincanï¿½~
-kahve fincanï¿½~
-Bir fincan kahve gï¿½rï¿½yorsun.~
+kahve fincaný~
+kahve fincaný~
+Bir fincan kahve görüyorsun.~
 porcelain~
 drink 0 1|16384
 1 1 'coffee' 0 0
 0 1 2 P
 #31028
-ruhi iksir ï¿½iï¿½e~
+ruhi iksir þiþe~
 ruhi iksir~
-Bir ï¿½iï¿½e iksir gï¿½rï¿½yorsun.~
+Bir þiþe iksir görüyorsun.~
 glass~
 potion 1|2|64 1
 10 'detect magic' 'bless' '' ''
@@ -1315,16 +1315,16 @@ potion 1|2|64 1
 #31029
 kirli giyotin~
 kirli giyotin~
-Keskin bï¿½ï¿½aï¿½ï¿½yla kirli bir giyotin gï¿½rï¿½yorsun.
+Keskin býçaðýyla kirli bir giyotin görüyorsun.
 ~
 unknown~
 container 0 0
 100 1 0 0 100
 0 0 0 P
 #31030
-kafakesenin yï¿½z maskesi~
-kafakesenin yï¿½z maskesi~
-Kafakesenin maskesini gï¿½rï¿½yorsun.
+kafakesenin yüz maskesi~
+kafakesenin yüz maskesi~
+Kafakesenin maskesini görüyorsun.
 ~
 cloth~
 armor 0 1|16
@@ -1333,9 +1333,9 @@ armor 0 1|16
 A
 13 50
 #31031
-kï¿½lï¿½c uzunkï¿½lï¿½c savunmanï¿½n~
-savunmanï¿½n uzunkï¿½lï¿½cï¿½~
-Savunmanï¿½n uzunkï¿½lï¿½cï¿½ burada duruyor.
+kýlýc uzunkýlýc savunmanýn~
+savunmanýn uzunkýlýcý~
+Savunmanýn uzunkýlýcý burada duruyor.
 ~
 steel~
 weapon 64 1|8192
@@ -1350,17 +1350,17 @@ A
 A
 23 -5
 #31032
-serserinin gï¿½rzï¿½~
-serserinin gï¿½rzï¿½~
-Serserinin gï¿½rzï¿½nï¿½ gï¿½rï¿½yorsun.~
+serserinin gürzü~
+serserinin gürzü~
+Serserinin gürzünü görüyorsun.~
 ~
 weapon 0 1|8192
 mace 3 3 pound 0
 3 15 200 P
 #31033
-sï¿½slï¿½ uzunkï¿½lï¿½c kï¿½lï¿½c~
-Sï¿½slï¿½ Uzunkï¿½lï¿½c~
-Sï¿½slï¿½ bir uzunkï¿½lï¿½c gï¿½rï¿½yorsun.~
+süslü uzunkýlýc kýlýc~
+Süslü Uzunkýlýc~
+Süslü bir uzunkýlýc görüyorsun.~
 steel~
 weapon 64 1|8192
 sword 8 6 slash 0
@@ -1370,9 +1370,9 @@ A
 A
 19 4
 #31034
-sï¿½slï¿½ gï¿½ï¿½ï¿½slï¿½k~
-Sï¿½slï¿½ Gï¿½ï¿½ï¿½slï¿½k~
-Sï¿½slï¿½ bir gï¿½ï¿½ï¿½slï¿½k gï¿½rï¿½yorsun.~
+süslü göðüslük~
+Süslü Göðüslük~
+Süslü bir göðüslük görüyorsun.~
 steel~
 armor 0 1|8
 17 17 16 8 0
@@ -1382,9 +1382,9 @@ A
 A
 17 -15
 #31035
-sï¿½slï¿½ bileklik~
-Sï¿½slï¿½ Bileklik~
-Sï¿½slï¿½ bir bileklik gï¿½rï¿½yorsun.~
+süslü bileklik~
+Süslü Bileklik~
+Süslü bir bileklik görüyorsun.~
 leather gold~
 armor 0 1|4096
 16 17 17 8 0
@@ -1394,9 +1394,9 @@ A
 A
 18 2
 #31036
-iï¿½lemeli pelerin~
-iï¿½lemeli pelerin~
-ï¿½ï¿½lemeli bir pelerin gï¿½rï¿½yorsun.~
+iþlemeli pelerin~
+iþlemeli pelerin~
+Ýþlemeli bir pelerin görüyorsun.~
 cloth~
 armor 0 1|4
 15 17 17 8 0
@@ -1406,9 +1406,9 @@ A
 A
 17 -15
 #31037
-sï¿½slï¿½ miï¿½fer~
-Sï¿½slï¿½ Miï¿½fer~
-Sï¿½slï¿½ bir miï¿½fer gï¿½rï¿½yorsun.~
+süslü miðfer~
+Süslü Miðfer~
+Süslü bir miðfer görüyorsun.~
 steel gold~
 armor 0 1|16
 17 17 17 8 0
@@ -1420,9 +1420,9 @@ A
 A
 17 -20
 #31038
-sï¿½slï¿½ kalkan~
-Sï¿½slï¿½ Kalkan~
-Sï¿½slï¿½ bir kalkan gï¿½rï¿½yorsun.
+süslü kalkan~
+Süslü Kalkan~
+Süslü bir kalkan görüyorsun.
 ~
 steel~
 armor 0 1|512
@@ -1435,9 +1435,9 @@ A
 A
 24 -2
 #31039
-kargï¿½~
-kargï¿½~
-Saï¿½lam bir kargï¿½ gï¿½rï¿½yorsun.
+kargý~
+kargý~
+Saðlam bir kargý görüyorsun.
 ~
 steel~
 weapon 64 1|8192
@@ -1448,27 +1448,27 @@ A
 A
 19 3
 #31040
-boï¿½ parï¿½ï¿½men~
-boï¿½ parï¿½ï¿½men~
-Bir parï¿½ï¿½men burada unutulmuï¿½.
+boþ parþömen~
+boþ parþömen~
+Bir parþömen burada unutulmuþ.
 ~
 vellum~
 scroll 0 1|16384
 20 'armor' 'shield' '' ''
 10 1 3000 P
 #31041
-parï¿½ldayan iksir~
-parï¿½ldayan iksir~
-Parï¿½ldayan bir iksir gï¿½rï¿½yorsun.
+parýldayan iksir~
+parýldayan iksir~
+Parýldayan bir iksir görüyorsun.
 ~
 glass~
 potion 64 1|16384
 5 'fly' 'invis' 'infravision' ''
 1 1 800 P
 #31042
-kï¿½rmï¿½zï¿½ etiket~
-kï¿½rmï¿½zï¿½ etiket~
-Kï¿½rmï¿½zï¿½ bir etiket burada bï¿½rakï¿½lmï¿½ï¿½. Hadi al onu!
+kýrmýzý etiket~
+kýrmýzý etiket~
+Kýrmýzý bir etiket burada býrakýlmýþ. Hadi al onu!
 ~
 ~
 armor 1|128|4096 1|16
@@ -1484,49 +1484,49 @@ The wearer of this item has been officially marked by the deity Yaegar as
 a genuine bona fide irredeemable DORK.
 ~
 #31043
-saï¿½lam ï¿½adï¿½r~
-saï¿½lam ï¿½adï¿½r~
-Saï¿½lam bir ï¿½adï¿½r gï¿½rï¿½yorsun.~
+saðlam çadýr~
+saðlam çadýr~
+Saðlam bir çadýr görüyorsun.~
 ~
 container 262144 1
 10 0 0 0 100
 0 25 1000 P
 #31044
-kï¿½rekli kayï¿½k~
-kï¿½rekli kayï¿½k~
-Bir kï¿½rekli kayï¿½k gï¿½rï¿½yorsun.~
+kürekli kayýk~
+kürekli kayýk~
+Bir kürekli kayýk görüyorsun.~
 wood~
 container 262144|524288 1
 1000 0 0 0 100
 0 50 50 P
 #31045
-kï¿½zarmï¿½ï¿½ balï¿½k tabak~
-kï¿½zarmï¿½ï¿½ balï¿½k~
-Bir tabak kï¿½zarmï¿½ï¿½ balï¿½k gï¿½rï¿½yorsun.~
+kýzarmýþ balýk tabak~
+kýzarmýþ balýk~
+Bir tabak kýzarmýþ balýk görüyorsun.~
 ~
 food 0 1
 4 4 0 0 0
 0 1 1 P
 #31046
-soslu patates kï¿½zarmasï¿½ tabak~
-soslu patates kï¿½zarmasï¿½~
-Bir tabak soslu patates kï¿½zartmasï¿½ gï¿½rï¿½yorsun.~
+soslu patates kýzarmasý tabak~
+soslu patates kýzarmasý~
+Bir tabak soslu patates kýzartmasý görüyorsun.~
 ~
 food 0 1
 6 6 0 0 0
 0 1 3 P
 #31047
-sade patates kï¿½zarmasï¿½ tabak~
-sade patates kï¿½zarmasï¿½~
-Bir tabak sade patates kï¿½zartmasï¿½ gï¿½rï¿½yorsun.~
+sade patates kýzarmasý tabak~
+sade patates kýzarmasý~
+Bir tabak sade patates kýzartmasý görüyorsun.~
 ~
 food 0 1
 7 7 0 0 0
 0 1 3 P
 #31048
-ï¿½ikolatalï¿½ puding kase~
-ï¿½ikolatalï¿½ puding~
-Bir kase ï¿½ikolatalï¿½ puding gï¿½rï¿½yorsun.~
+çikolatalý puding kase~
+çikolatalý puding~
+Bir kase çikolatalý puding görüyorsun.~
 ~
 food 0 1
 4 4 0 0 0
@@ -1534,87 +1534,87 @@ food 0 1
 #31049
 sade puding kase~
 sade puding~
-Bir kase sade puding gï¿½rï¿½yorsun.~
+Bir kase sade puding görüyorsun.~
 ~
 food 0 1
 4 4 0 0 0
 0 1 3 P
 #31050
-parï¿½a pizza~
-parï¿½a pizza~
-Bir parï¿½a pizza gï¿½rï¿½yorsun.~
+parça pizza~
+parça pizza~
+Bir parça pizza görüyorsun.~
 ~
 food 0 1
 5 5 0 0 0
 0 1 3 P
 #31051
-domuz eti salamï¿½~
-domuz eti salamï¿½~
-Bir domuz eti salamï¿½ gï¿½rï¿½yorsun.~
+domuz eti salamý~
+domuz eti salamý~
+Bir domuz eti salamý görüyorsun.~
 ~
 food 0 1
 1 1 0 0 0
 0 1 3 P
 #31052
-patates pï¿½resi tabak~
-patates pï¿½resi~
-Bir tabak patates pï¿½resi gï¿½rï¿½yorsun.~
+patates püresi tabak~
+patates püresi~
+Bir tabak patates püresi görüyorsun.~
 ~
 food 0 1
 2 2 0 0 0
 0 1 3 P
 #31053
-salï¿½alï¿½ kï¿½fte tabak~
-salï¿½alï¿½ kï¿½fte~
-Bir tabak salï¿½alï¿½ kï¿½fte gï¿½rï¿½yorsun.~
+salçalý köfte tabak~
+salçalý köfte~
+Bir tabak salçalý köfte görüyorsun.~
 ~
 food 0 1
 1 1 0 0 0
 0 1 3 P
 #31054
-tavuklu kï¿½fte tabak~
-tavuklu kï¿½fte~
-Bir tabak tavuklu kï¿½fte gï¿½rï¿½yorsun.~
+tavuklu köfte tabak~
+tavuklu köfte~
+Bir tabak tavuklu köfte görüyorsun.~
 ~
 food 0 1
 4 4 0 0 0
 0 1 3 P
 #31055
-ï¿½zï¿½mlï¿½ kek~
-ï¿½zï¿½mlï¿½ kek~
-Bir ï¿½zï¿½mlï¿½ kek gï¿½rï¿½yorsun.~
+üzümlü kek~
+üzümlü kek~
+Bir üzümlü kek görüyorsun.~
 ~
 food 0 1
 4 4 0 0 0
 0 1 3 P
 #31056
-vanilyalï¿½ kek~
-vanilyalï¿½ kek~
-Bir vanilyalï¿½ kek gï¿½rï¿½yorsun.~
+vanilyalý kek~
+vanilyalý kek~
+Bir vanilyalý kek görüyorsun.~
 ~
 food 0 1
 2 2 0 0 0
 0 1 3 P
 #31057
-acï¿½lï¿½ kï¿½fte tabak~
-acï¿½lï¿½ kï¿½fte~
-Bir tabak acï¿½lï¿½ kï¿½fte gï¿½rï¿½yorsun.~
+acýlý köfte tabak~
+acýlý köfte~
+Bir tabak acýlý köfte görüyorsun.~
 ~
 food 0 1
 3 3 0 0 0
 0 1 3 P
 #31058
-balï¿½klï¿½ sandviï¿½~
-balï¿½klï¿½ sandviï¿½~
-Bir balï¿½klï¿½ sandviï¿½ gï¿½rï¿½yorsun.~
+balýklý sandviç~
+balýklý sandviç~
+Bir balýklý sandviç görüyorsun.~
 ~
 food 0 1
 2 2 0 0 0
 0 1 3 P
 #31059
-marullu sandviï¿½~
-marullu sandviï¿½~
-Bir marullu sandviï¿½ gï¿½rï¿½yorsun.~
+marullu sandviç~
+marullu sandviç~
+Bir marullu sandviç görüyorsun.~
 ~
 food 0 1
 8 8 0 0 0
@@ -1624,9 +1624,9 @@ haggis~
 You DO know what's in haggis, don't you?
 ~
 #31060
-yaprak ï¿½ayï¿½ fincan~
-yaprak ï¿½ayï¿½~
-Bir fincan yaprak ï¿½ayï¿½ gï¿½rï¿½yorsun.~
+yaprak çayý fincan~
+yaprak çayý~
+Bir fincan yaprak çayý görüyorsun.~
 ~
 drink 0 1|16384
 1 1 'tea' 0 0
@@ -1634,7 +1634,7 @@ drink 0 1|16384
 #31061
 kahve fincan~
 fincan kahve~
-Bir fincan kahve gï¿½rï¿½yorsun.~
+Bir fincan kahve görüyorsun.~
 ~
 drink 0 1|16384
 1 1 'coffee' 0 0
@@ -1642,47 +1642,47 @@ drink 0 1|16384
 #31062
 gazozlu bira~
 gazozlu bira~
-Bir gazozlu bira gï¿½rï¿½yorsun.~
+Bir gazozlu bira görüyorsun.~
 ~
 drink 0 1|16384
 1 1 'water' 0 0
 0 1 3 P
 #31063
-biberli viski ï¿½iï¿½e~
+biberli viski þiþe~
 biberli viski~
-Bir ï¿½iï¿½e vislki gï¿½rï¿½yorsun.~
+Bir þiþe vislki görüyorsun.~
 ~
 drink 2 1|16384
 2 2 'whisky' 0 0
 0 1 3 P
 #31064
-muzlu sï¿½t~
-muzlu sï¿½t~
-Bir muzlu sï¿½t gï¿½rï¿½yorsun.~
+muzlu süt~
+muzlu süt~
+Bir muzlu süt görüyorsun.~
 ~
 drink 0 1|16384
 2 2 'milk'0 0
 0 1 3 P
 #31065
-ï¿½ilekli sï¿½t~
-ï¿½ilekli sï¿½t~
-Bir ï¿½ilekli sï¿½t gï¿½rï¿½yorsun.~
+çilekli süt~
+çilekli süt~
+Bir çilekli süt görüyorsun.~
 ~
 drink 0 1|16384
 2 2 'milk'0 0
 0 1 3 P
 #31066
-ï¿½ikolatalï¿½ sï¿½t~
-ï¿½ikolatalï¿½ sï¿½t~
-Bir ï¿½ikolatalï¿½ sï¿½t gï¿½rï¿½yorsun.~
+çikolatalý süt~
+çikolatalý süt~
+Bir çikolatalý süt görüyorsun.~
 ~
 drink 0 1|16384
 2 2 'milk' 0 0
 0 1 1 P
 #31067
-yapï¿½ï¿½kan ï¿½ï¿½rek~
-yapï¿½ï¿½kan ï¿½ï¿½rek~
-Bir ï¿½ï¿½rek gï¿½rï¿½yorsun.~
+yapýþkan çörek~
+yapýþkan çörek~
+Bir çörek görüyorsun.~
 ~
 food 0 1
 1 1 0 0 0
@@ -1698,7 +1698,7 @@ food 0 1
 #31069
 peynirli burger~
 peynirli burger~
-Bir peynirli burger gï¿½rï¿½yorsun.~
+Bir peynirli burger görüyorsun.~
 ~
 food 0 1
 4 4 0 0 1
@@ -1706,7 +1706,7 @@ food 0 1
 #31070
 biftek burger~
 biftek burger~
-Bir biftek burger gï¿½rï¿½yorsun.~
+Bir biftek burger görüyorsun.~
 ~
 food 0 1
 6 6 0 0 0
@@ -1714,31 +1714,31 @@ food 0 1
 #31071
 hamburger~
 hamburger~
-Bir hamburger gï¿½rï¿½yorsun.~
+Bir hamburger görüyorsun.~
 ~
 food 0 1
 5 5 0 0 0
 0 1 5 P
 #31072
-karï¿½ï¿½ï¿½k sandviï¿½~
-karï¿½ï¿½ï¿½k sandviï¿½~
-Bir karï¿½ï¿½ï¿½k sandviï¿½ gï¿½rï¿½yorsun.~
+karýþýk sandviç~
+karýþýk sandviç~
+Bir karýþýk sandviç görüyorsun.~
 ~
 food 0 1
 4 4 0 0 0
 0 1 4 P
 #31073
-salamlï¿½ sandviï¿½~
-salamlï¿½ sandviï¿½~
-Bir salamlï¿½ sandviï¿½ gï¿½rï¿½yorsun.~
+salamlý sandviç~
+salamlý sandviç~
+Bir salamlý sandviç görüyorsun.~
 ~
 food 2 1
 4 4 0 0 0
 0 1 4 P
 #31074
-tavuklu sandviï¿½~
-tavuklu sandviï¿½~
-Bir tavuklu sandviï¿½ gï¿½rï¿½yorsun.~
+tavuklu sandviç~
+tavuklu sandviç~
+Bir tavuklu sandviç görüyorsun.~
 ~
 food 0 1
 5 5 0 0 0
@@ -1746,7 +1746,7 @@ food 0 1
 #31075
 peynirli kumpir~
 peynirli kumpir~
-Bï¿½yï¿½k bir peynirli kumpir gï¿½rï¿½yorsun.~
+Büyük bir peynirli kumpir görüyorsun.~
 ~
 food 0 1
 6 6 0 0 0
@@ -1754,15 +1754,15 @@ food 0 1
 #31076
 tavuklu kumpir~
 tavuklu kumpir~
-Bï¿½yï¿½k bir tavuklu kumpir gï¿½rï¿½yorsun.~
+Büyük bir tavuklu kumpir görüyorsun.~
 ~
 food 0 1
 6 6 0 0 0
 0 1 6 P
 #31077
-salamlï¿½ yumurta tabak~
-salamlï¿½ yumurta~
-Bir tabak salamlï¿½ yumurta gï¿½rï¿½yorsun.~
+salamlý yumurta tabak~
+salamlý yumurta~
+Bir tabak salamlý yumurta görüyorsun.~
 ~
 food 0 1
 7 7 0 0 0
@@ -1770,7 +1770,7 @@ food 0 1
 #31078
 biftekli yumurta tabak~
 biftekli yumurta~
-Bir tabak biftekli yumurta gï¿½rï¿½yorsun.~
+Bir tabak biftekli yumurta görüyorsun.~
 ~
 food 0 1
 8 8 0 0 0
@@ -1778,15 +1778,15 @@ food 0 1
 #31079
 sucuklu yumurta tabak~
 sucuklu yumurta~
-Bir tabak sucuklu yumurta gï¿½rï¿½yorsun.~
+Bir tabak sucuklu yumurta görüyorsun.~
 ~
 food 0 1
 7 7 0 0 0
 0 3 9 P
 #31080
-pastï¿½rmalï¿½ yumurta tabak~
-pastï¿½rmalï¿½ yumurta~
-Bir tabak pastï¿½rmalï¿½ yumurta gï¿½rï¿½yorsun.~
+pastýrmalý yumurta tabak~
+pastýrmalý yumurta~
+Bir tabak pastýrmalý yumurta görüyorsun.~
 ~
 food 0 1
 8 8 0 0 0
@@ -1794,53 +1794,53 @@ food 0 1
 #31081
 zehir tozu~
 zehir tozu~
-Etrafa daï¿½ï¿½lmï¿½ï¿½ bir miktar zehir tozu gï¿½rï¿½yorsun.~
+Etrafa daðýlmýþ bir miktar zehir tozu görüyorsun.~
 ~
 trash 16 1
 0 0 0 0 0
 0 0 0 P
 #31082
-geï¿½miï¿½ geï¿½it~
-geï¿½miï¿½e bir geï¿½it~
-Uzak geï¿½miï¿½e uzanan bir geï¿½it gï¿½rï¿½yorsun.~
+geçmiþ geçit~
+geçmiþe bir geçit~
+Uzak geçmiþe uzanan bir geçit görüyorsun.~
 ~
 jewelry 0 0
 14100 0 0 0 0
 0 0 0 P
 #31083
-gelecek geï¿½it~
-geleceï¿½e bir geï¿½it~
-geleceï¿½e uzanan bir geï¿½it gï¿½rï¿½yorsun.~
+gelecek geçit~
+geleceðe bir geçit~
+geleceðe uzanan bir geçit görüyorsun.~
 ~
 jewelry 0 0
 14200 0 0 0 0
 0 0 0 P
 #31084
-gerï¿½ekï¿½stï¿½ye geï¿½it~
-gerï¿½ekï¿½stï¿½ye bir geï¿½it~
-Gerï¿½ekï¿½stï¿½ye uzanan bir geï¿½it gï¿½rï¿½yorsun.~
+gerçeküstüye geçit~
+gerçeküstüye bir geçit~
+Gerçeküstüye uzanan bir geçit görüyorsun.~
 ~
 jewelry 0 0
 14300 0 0 0 0
 0 0 0 P
 #31085
-geï¿½it odalarï¿½nï¿½n anahtarï¿½~
-geï¿½it odalarï¿½nï¿½n anahtarï¿½~
-Geï¿½it odalarï¿½nï¿½n anahtarï¿½nï¿½ gï¿½rï¿½yorsun.~
+geçit odalarýnýn anahtarý~
+geçit odalarýnýn anahtarý~
+Geçit odalarýnýn anahtarýný görüyorsun.~
 ~
 key 1|2 1|16384
 0 0 0 0 0
 0 1 200 P
 #31086
-politika kitabï¿½~
-Politika Kitabï¿½~
-Eski bir kitap gï¿½rï¿½yorsun.~
+politika kitabý~
+Politika Kitabý~
+Eski bir kitap görüyorsun.~
 ~
 trash 0 1|16384
 0 0 0 0 0
 0 5 0 P
 E
-politika kitabï¿½~
+politika kitabý~
 THE POLITICAL STRUCTURE OF ANON-
 
 Although the races of Anon now mingle in relative harmony, each of them still
@@ -2046,9 +2046,9 @@ political structure, though small, independant communities of these magical
 creatures have formed in the Sacred Grove and the Guild of the High Dryad.
 ~
 #31087
-toplumsal olgular kitabï¿½~
-Toplumsal Olgular Kitabï¿½~
-Eski bir kitap gï¿½rï¿½yorsun.~
+toplumsal olgular kitabý~
+Toplumsal Olgular Kitabý~
+Eski bir kitap görüyorsun.~
 ~
 trash 0 1|16384
 0 0 0 0 0
@@ -2247,9 +2247,9 @@ It is also unknown why they have suddenly chosen to emerge, though this will
 doubtless be made known in the years to come.
 ~
 #31088
-tarih kitabï¿½~
-Tarih Kitabï¿½~
-Eski bir kitap gï¿½rï¿½yorsun.~
+tarih kitabý~
+Tarih Kitabý~
+Eski bir kitap görüyorsun.~
 ~
 trash 0 1|16384
 0 0 0 0 0
@@ -2529,15 +2529,15 @@ stay in the one place for too long, preferring instead to satisfy their
 "Wanderlust".
 ~
 #31089
-coï¿½rafya kitabï¿½~
-Coï¿½rafya Kitabï¿½~
-Eski bir kitap gï¿½rï¿½yorsun.~
+coðrafya kitabý~
+Coðrafya Kitabý~
+Eski bir kitap görüyorsun.~
 ~
 trash 0 1|16384
 0 0 0 0 0
 0 5 0 P
 E
-coï¿½rafya kitabï¿½~
+coðrafya kitabý~
 This book is in fine condition, except for one fact- all the maps have been
 unfortunately torn out, so you'll have to go by the text descriptions. The
 book is divided into four chapters- NORTH, SOUTH, EAST and WEST. For more
@@ -2604,7 +2604,7 @@ located several areas of interest.
 To the south one will quickly come across the Graveyard where the dead from
 the battles on the plains were laid to rest- it is rumored their cursed souls
 still roam this place, as well as the ancient catacombs beneath the crypts.
-The ancient Dwarven mine of Moria lies east of here, near the Asura dens.
+The ancient Dwarven mine of Moria lies east of here, near the Troll dens.
 Beyond this lies the swamplands, wherein can be found the ruined city of
 Khellis, and the Old Marsh, where evil monsters have overrun the ruins of
 an ancient civilization. Also in here, it is rumored, lies a gateway to
@@ -2643,8 +2643,8 @@ await?
 ~
 #31090
 kahramanlar kitap~
-Kahramanlar Kitabï¿½~
-Eski bir kitap gï¿½rï¿½yorsun.~
+Kahramanlar Kitabý~
+Eski bir kitap görüyorsun.~
 ~
 trash 0 1|16384
 0 0 0 0 0
@@ -2880,17 +2880,17 @@ the brother and sister from each other that you will face the wrath of
 mortals unmatched since the days of Godot, the warrior born.
 ~
 #31091
-altï¿½n parï¿½asï¿½~
-altï¿½n parï¿½asï¿½~
-Bir altï¿½n parï¿½asï¿½ gï¿½rï¿½yorsun.~
+altýn parçasý~
+altýn parçasý~
+Bir altýn parçasý görüyorsun.~
 ~
 money 0 1
 1 0 0 0 0
 0 1 1 P
 #29601
-kï¿½ï¿½ï¿½k cevher~
-kï¿½ï¿½ï¿½k cevher~
-Kï¿½ï¿½ï¿½k bir cevher burada unutulmuï¿½.~
+küçük cevher~
+küçük cevher~
+Küçük bir cevher burada unutulmuþ.~
 ~
 treasure 2 1|16384
 0 0 0 0 0
@@ -2906,7 +2906,7 @@ holds it.~
 
 #ROOMS
 #31000
-Anon Tapï¿½naï¿½ï¿½~
+Anon Tapýnaðý~
 You are standing before the Temple of Anon- a truly majestic structure
 constructed from pure marble. Tall Corinthian columns flank an impressive
 set of bronze-bound oaken portals, which are never shut save in times of
@@ -2922,28 +2922,28 @@ runs past the Temple.
 ~
 0 0 1
 D0
-Tapï¿½naï¿½ï¿½n ï¿½ï¿½i~
+Tapýnaðýn Ýçi~
 ~
 1 0 31001
 D1
-Doï¿½u Zafer Gï¿½sterisi~
+Doðu Zafer Gösterisi~
 ~
 0 -1 31005
 D2
-ï¿½eref Bulvarï¿½~
+Þeref Bulvarý~
 ~
 0 -1 31004
 D3
-Batï¿½ Zafer Gï¿½sterisi~
+Batý Zafer Gösterisi~
 ~
 0 -1 31003
 D5
-Baï¿½ï¿½ï¿½ Odasï¿½~
+Baðýþ Odasý~
 ~
 0 -1 31002
 S
 #31001
-Tapï¿½naï¿½ï¿½n ï¿½ï¿½i~
+Tapýnaðýn Ýçi~
 Marvelously sculpted likenesses of the Immortals of MUD line the aisle
 of this sanctuary of the Gods. Tapestries on the walls depict their victories
 over their enemies, and many of the treasures they acquired on such campaigns
@@ -2959,12 +2959,12 @@ D1
 ~
 0 -1 5216
 D2
-Anon Tapï¿½naï¿½ï¿½~
+Anon Tapýnaðý~
 ~
 1 0 31000
 S
 #31002
-Baï¿½ï¿½ï¿½ Odasï¿½~
+Baðýþ Odasý~
 In these rooms all the unwanted items donated by your fellow adventurers
 accumulate. There are shelves, bins, chests and cupboards all filled with
 various articles of equipment. Anyone is free to come here and take what
@@ -2974,24 +2974,24 @@ punishment. There is a small sign here.
 ~
 0 4|8 0
 D1
-Silah Baï¿½ï¿½ï¿½ï¿½~
+Silah Baðýþý~
 ~
 0 -1 31164
 D2
-Zï¿½rh Baï¿½ï¿½ï¿½ï¿½~
+Zýrh Baðýþý~
 ~
 0 -1 31163
 D3
-Bï¿½yï¿½lï¿½ Eï¿½ya Baï¿½ï¿½ï¿½ï¿½~
+Büyülü Eþya Baðýþý~
 ~
 0 -1 31165
 D4
-Anon Tapï¿½naï¿½ï¿½~
+Anon Tapýnaðý~
 ~
 0 -1 31000
 S
 #31003
-Batï¿½ Zafer Gï¿½sterisi~
+Batý Zafer Gösterisi~
 You are walking along Victory Parade West. Guards, citizens and fellow
 adventurers pass you in both directions. Tall buildings rise in all
 directions, the most notable being the magnificent temple, towering high
@@ -2999,16 +2999,16 @@ directly to the east of here.
 ~
 0 8 0
 D1
-Anon Tapï¿½naï¿½ï¿½~
+Anon Tapýnaðý~
 ~
 0 -1 31000
 D3
-Batï¿½ Zafer Gï¿½sterisi~
+Batý Zafer Gösterisi~
 ~
 0 -1 31006
 S
 #31004
-ï¿½eref Bulvarï¿½~
+Þeref Bulvarý~
 You are walking along Glory Avenue. Directly to the south it meets Valiant
 Street, and beyond that the Guild of the Dryads. To the north it
 enters the grounds of the Temple.
@@ -3017,7 +3017,7 @@ To the west lies a locksmith while to the east you can see a bookshop.
 ~
 0 8 0
 D0
-Anon Tapï¿½naï¿½ï¿½~
+Anon Tapýnaðý~
 ~
 0 -1 31000
 D1
@@ -3026,7 +3026,7 @@ Sahaf
 ~
 1 0 31321
 D2
-ï¿½eref Bulvarï¿½~
+Þeref Bulvarý~
 ~
 0 -1 31007
 D3
@@ -3035,7 +3035,7 @@ The Locksmith.~
 1 0 31322
 S
 #31005
-Doï¿½u Zafer Gï¿½sterisi~
+Doðu Zafer Gösterisi~
 You are walking along Victory Parade East. The houses of the more notable
 residents of the city line the road here. High fences and savage guard dogs
 deter you from trespassing however, as does the constant eye of the city
@@ -3043,16 +3043,16 @@ guards. Stalwart Lane cuts across Victory Parade directly east of here.
 ~
 0 8 0
 D1
-Doï¿½u Zafer Gï¿½sterisi~
+Doðu Zafer Gösterisi~
 ~
 0 -1 31008
 D3
-Anon Tapï¿½naï¿½ï¿½~
+Anon Tapýnaðý~
 ~
 0 -1 31000
 S
 #31006
-Batï¿½ Zafer Gï¿½sterisinde Kesiï¿½im~
+Batý Zafer Gösterisinde Kesiþim~
 You have come to an intersection, where Victory Parade west meets with
 Liberty Lane. To the south you can hear the sounds of a hammer striking
 an anvil, while to the north you hear nothing. But clearly visible in
@@ -3060,48 +3060,48 @@ both directions are the distinctive walls of Guildhalls.
 ~
 0 8 0
 D0
-Baï¿½ï¿½msï¿½zlï¿½k Sokaï¿½ï¿½~
+Baðýmsýzlýk Sokaðý~
 ~
 0 -1 31038
 D1
-Batï¿½ Zafer Gï¿½sterisi~
+Batý Zafer Gösterisi~
 ~
 0 -1 31003
 D2
-Baï¿½ï¿½msï¿½zlï¿½k Sokaï¿½ï¿½~
+Baðýmsýzlýk Sokaðý~
 ~
 0 -1 31040
 D3
-Batï¿½ Zafer Gï¿½sterisi~
+Batý Zafer Gösterisi~
 ~
 0 -1 31009
 S
 #31007
-Yiï¿½itlik Caddesi ile ï¿½eref Bulvarï¿½ Kesiï¿½imi~
+Yiðitlik Caddesi ile Þeref Bulvarý Kesiþimi~
 You have come to a crossroads, where the north-south running Glory Avenue
 meets the east-west running Valiant Street. Shops line Valiant to the east
 and west, while Glory Avenue runs south toward the Dryads' Guild.
 ~
 0 8 0
 D0
-ï¿½eref Bulvarï¿½~
+Þeref Bulvarý~
 ~
 0 -1 31004
 D1
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 ~
 0 -1 31067
 D2
-ï¿½eref Bulvarï¿½~
+Þeref Bulvarý~
 ~
 0 -1 31010
 D3
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 ~
 0 -1 31065
 S
 #31008
-Sadakat Sokaï¿½ï¿½ ile Doï¿½u Zafer Gï¿½sterisi Kesiï¿½imi~
+Sadakat Sokaðý ile Doðu Zafer Gösterisi Kesiþimi~
 You have come to a crossroads, where Stalwart Lane meets Victory Parade
 east. Shops and residences line Stalwart Lane to the north and south, while
 the gates of the city loom far to the east. The Temple is just to the west
@@ -3109,24 +3109,24 @@ of here.
 ~
 0 8 0
 D0
-Baï¿½ï¿½msï¿½zlï¿½k Sokaï¿½ï¿½~
+Baðýmsýzlýk Sokaðý~
 ~
 0 -1 31042
 D1
-Doï¿½u Zafer Gï¿½sterisi~
+Doðu Zafer Gösterisi~
 ~
 0 -1 31011
 D2
-Baï¿½ï¿½msï¿½zlï¿½k Sokaï¿½ï¿½~
+Baðýmsýzlýk Sokaðý~
 ~
 0 -1 31044
 D3
-Doï¿½u Zafer Gï¿½sterisi~
+Doðu Zafer Gösterisi~
 ~
 0 -1 31005
 S
 #31009
-Batï¿½ Zafer Gï¿½sterisi~
+Batý Zafer Gösterisi~
 You are walking along Victory Parade West. Tall houses line the road, as
 do small gardens and parks. White birds circle high overhead, their feathers
 dazzling in the sun. Surely they are magical creations of the Elven Mages
@@ -3141,7 +3141,7 @@ Alix the Thaumaturgist can be seen disposing of cursed items.~
 ~
 0 -1 31199
 D1
-Batï¿½ Zafer Gï¿½sterisi~
+Batý Zafer Gösterisi~
 ~
 0 -1 31006
 D2
@@ -3149,12 +3149,12 @@ Clea the Artificer is reclining on a couch, while she enchants a stave.~
 ~
 0 -1 31320
 D3
-Batï¿½ Zafer Gï¿½sterisi~
+Batý Zafer Gösterisi~
 ~
 0 -1 31012
 S
 #31010
-ï¿½eref Bulvarï¿½~
+Þeref Bulvarý~
 You are walking along Glory Avenue. To the north Valiant Street meets Glory
 Avenue to the east and west, while to the south lies the Dryads'
 Guild. The great Temple of the city lies to the north, and you are as
@@ -3162,16 +3162,16 @@ ever awed by its size and beauty.
 ~
 0 8 0
 D0
-ï¿½eref Bulvarï¿½~
+Þeref Bulvarý~
 ~
 0 -1 31007
 D2
-Dirad Loncasï¿½nï¿½n Dï¿½ï¿½ï¿½~
+Dirad Loncasýnýn Dýþý~
 ~
 0 -1 31034
 S
 #31011
-Doï¿½u Zafer Gï¿½sterisi~
+Doðu Zafer Gösterisi~
 You are walking along Victory Parade East. The imposing cyclopean walls of
 the city loom up ahead. Tall buildings with large, stained-glass windows
 line each side of the street here, and through them you can see the interiors
@@ -3185,7 +3185,7 @@ To the south you can see Thom the Enhancer's place of business.
 ~
 0 8 0
 D1
-Doï¿½u Zafer Gï¿½sterisi~
+Doðu Zafer Gösterisi~
 ~
 0 -1 31013
 D2
@@ -3193,12 +3193,12 @@ D2
 ~
 0 -1 31323
 D3
-Doï¿½u Zafer Gï¿½sterisi~
+Doðu Zafer Gösterisi~
 ~
 0 -1 31008
 S
 #31012
-Batï¿½ Zafer Gï¿½sterisi~
+Batý Zafer Gösterisi~
 At this point there is a small city square with a fountain and a statue in
 the center. The fountain is full of clear drinking water and is quite
 palatable. The statue is a likeness of Lenny, Chief among the Immortals,
@@ -3212,16 +3212,16 @@ D0
 ~
 0 -1 31191
 D1
-Batï¿½ Zafer Gï¿½sterisi~
+Batý Zafer Gösterisi~
 ~
 0 -1 31009
 D3
-Batï¿½ Zafer Gï¿½sterisi~
+Batý Zafer Gösterisi~
 ~
 0 -1 31014
 S
 #31013
-Doï¿½u Zafer Gï¿½sterisi~
+Doðu Zafer Gösterisi~
 You are walking along Victory Parade East. Children play and scamper at your
 feet, while their mothers watch patiently from the doorways of nearby houses.
 Guards occasionally wander by, keeping their eyes open for any sign of
@@ -3232,7 +3232,7 @@ from the Locksmith to get in, though.
 ~
 0 8 0
 D1
-Doï¿½u Zafer Gï¿½sterisi~
+Doðu Zafer Gösterisi~
 ~
 0 -1 31015
 D2
@@ -3240,19 +3240,19 @@ D2
 ~
 97 31085 31195
 D3
-Doï¿½u Zafer Gï¿½sterisi~
+Doðu Zafer Gösterisi~
 ~
 0 -1 31011
 S
 #31014
-Batï¿½ Zafer Gï¿½sterisi Kapï¿½sï¿½na Doï¿½ru~
+Batý Zafer Gösterisi Kapýsýna Doðru~
 You are approaching the western gates of the city, which are constantly
 patrolled by guards. There is no-one else about here, as the concentration
 of residences and shops is nearer to the Temple.
 ~
 0 8 0
 D1
-Batï¿½ Zafer Gï¿½sterisi~
+Batý Zafer Gösterisi~
 ~
 0 -1 31012
 D3
@@ -3261,7 +3261,7 @@ The Victory Parade West Gate~
 0 -1 31016
 S
 #31015
-Doï¿½u Zafer Gï¿½sterisi Kapï¿½sï¿½na Doï¿½ru~
+Doðu Zafer Gösterisi Kapýsýna Doðru~
 You are approaching the eastern gates of the city, which are constantly
 patrolled by guards. Massive towers rise to either side, completing the
 gatehouse. You see guards patrolling the walls around it. There is no-one
@@ -3274,12 +3274,12 @@ The Victory Parade East Gate~
 ~
 0 -1 31017
 D3
-Doï¿½u Zafer Gï¿½sterisi~
+Doðu Zafer Gösterisi~
 ~
 0 -1 31013
 S
 #31016
-Batï¿½ Zafer Gï¿½sterisi Kapï¿½sï¿½ ï¿½ï¿½inde~
+Batý Zafer Gösterisi Kapýsý Ýçinde~
 You have reached the westernmost extent of Victory Parade, the long road that
 bisects the city. Tall, mithril gates rise above you to the west, standing
 open as they always are, save in times of trouble. Guards nod politely at
@@ -3296,7 +3296,7 @@ D0
 ~
 1 0 31200
 D1
-Batï¿½ Zafer Gï¿½sterisi~
+Batý Zafer Gösterisi~
 ~
 0 -1 31014
 D2
@@ -3309,7 +3309,7 @@ Outside the Gates~
 1 31000 31018
 S
 #31017
-Doï¿½u Zafer Gï¿½sterisi Kapï¿½sï¿½ ï¿½ï¿½inde~
+Doðu Zafer Gösterisi Kapýsý Ýçinde~
 You have reached the westernmost extent of Victory Parade, the long road that
 bisects the city. Tall, mithril gates rise above you to the west, standing
 open as they always are, save in times of trouble. Guards nod politely at
@@ -3334,12 +3334,12 @@ D2
 ~
 1 0 31213
 D3
-Doï¿½u Zafer Gï¿½sterisi~
+Doðu Zafer Gösterisi~
 ~
 0 -1 31015
 S
 #31018
-Batï¿½ Zafer Gï¿½sterisi Kapï¿½sï¿½ Dï¿½ï¿½ï¿½nda~
+Batý Zafer Gösterisi Kapýsý Dýþýnda~
 You are standing outside the Gates at the western end of town. They loom
 high above you, tall, gleaming mithril valves designed to keep the most
 persistent of intruders out. Guards wander back and forth both on the
@@ -3354,7 +3354,7 @@ Halka Yol~
 ~
 0 -1 31020
 D1
-Batï¿½ Zafer Gï¿½sterisi~
+Batý Zafer Gösterisi~
 ~
 1 31000 31016
 D2
@@ -3367,7 +3367,7 @@ D3
 0 -1 24118
 S
 #31019
-Doï¿½u Zafer Gï¿½sterisi Kapï¿½sï¿½ Dï¿½ï¿½ï¿½nda~
+Doðu Zafer Gösterisi Kapýsý Dýþýnda~
 You are standing outside the Gates at the eastern end of town. They loom
 high above you, tall, gleaming mithril valves designed to keep the most
 persistent of intruders out. Guards wander back and forth both on the
@@ -3390,7 +3390,7 @@ Halka Yol~
 ~
 0 -1 31027
 D3
-Doï¿½u Zafer Gï¿½sterisi~
+Doðu Zafer Gösterisi~
 ~
 1 31000 31017
 S
@@ -3411,7 +3411,7 @@ Outside the Victory Parade West Gates~
 0 -1 31018
 S
 #31021
-Halka Yolun Kuzey-Batï¿½ Kï¿½ï¿½esi~
+Halka Yolun Kuzey-Batý Köþesi~
 You are travelling around the northwest corner of the Circuit Road, a broad,
 paved path that circles the city, provided by the Rulers for the benefit of
 travellers who wish to bypass the city on their journeys.
@@ -3438,7 +3438,7 @@ Ovalara Yol~
 ~
 0 -1 31023
 D3
-Halka Yolun Kuzey-Batï¿½ Kï¿½ï¿½esi~
+Halka Yolun Kuzey-Batý Köþesi~
 ~
 0 -1 31021
 S
@@ -3465,7 +3465,7 @@ bypass the city on their travels.
 ~
 0 0 2
 D1
-Halka Yolun Kuzey-Doï¿½u Kï¿½ï¿½esi~
+Halka Yolun Kuzey-Doðu Köþesi~
 ~
 0 -1 31025
 D3
@@ -3474,7 +3474,7 @@ Ovalara Yol~
 0 -1 31023
 S
 #31025
-Halka Yolun Kuzey-Doï¿½u Kï¿½ï¿½esi~
+Halka Yolun Kuzey-Doðu Köþesi~
 You are travelling around the northeast corner of the Circuit Road, a broad,
 paved path that circles the city, provided by the Rulers for the benefit of
 travellers who wish to bypass the city on their journeys.
@@ -3522,7 +3522,7 @@ Southeast Corner of the City~
 0 -1 31028
 S
 #31028
-Halka Yolun Gï¿½ney-Doï¿½u Kï¿½ï¿½esi~
+Halka Yolun Güney-Doðu Köþesi~
 You are travelling around the southeast corner of the Circuit Road, a broad,
 paved path that circles the city, provided by the Rulers for the benefit of
 travellers who wish to bypass the city on their journeys.
@@ -3551,16 +3551,16 @@ bypass the city on their travels.
 ~
 0 0 2
 D1
-Halka Yolun Gï¿½ney-Doï¿½u Kï¿½ï¿½esi~
+Halka Yolun Güney-Doðu Köþesi~
 ~
 0 -1 31028
 D3
-Gï¿½neye Yol~
+Güneye Yol~
 ~
 0 -1 31030
 S
 #31030
-Gï¿½neye Yol~
+Güneye Yol~
 A narrow, irregular but well-trodden trail runs directly south from here.
 There is what looks like a range of hills in that direction, plus the light
 appears to reflect off something that could be water.
@@ -3583,16 +3583,16 @@ bypass the city on their travels.
 ~
 0 0 2
 D1
-Gï¿½neye Yol~
+Güneye Yol~
 ~
 0 -1 31030
 D3
-Halka Yolun Gï¿½ney-Batï¿½ Kï¿½ï¿½esi~
+Halka Yolun Güney-Batý Köþesi~
 ~
 0 -1 31032
 S
 #31032
-Halka Yolun Gï¿½ney-Batï¿½ Kï¿½ï¿½esi~
+Halka Yolun Güney-Batý Köþesi~
 You are travelling around the southwest corner of the Circuit Road, a broad,
 paved path that circles the city, provided by the Rulers for the benefit of
 travellers who wish to bypass the city on their journeys.
@@ -3624,7 +3624,7 @@ Halka Yol~
 0 -1 31032
 S
 #31034
-Dirad Loncasï¿½nï¿½n Dï¿½ï¿½ï¿½~
+Dirad Loncasýnýn Dýþý~
 You are standing outside an impressive wooden structure, surrounded by
 cleverly-pruned topiaries and tall ash, oak and elm trees. The faint scent
 of incense comes from within. The double doors ahead stand open- you may
@@ -3632,16 +3632,16 @@ enter at any time.
 ~
 0 0 1
 D0
-ï¿½eref Bulvarï¿½~
+Þeref Bulvarý~
 ~
 0 -1 31010
 D2
-Dirad Loncasï¿½nï¿½n ï¿½ï¿½i~
+Dirad Loncasýnýn Ýçi~
 ~
 1 0 31035
 S
 #31035
-Dirad Loncasï¿½nï¿½n ï¿½ï¿½i~
+Dirad Loncasýnýn Ýçi~
 Stepping through the doors, you are suddenly overcome by a sense of peace
 and serenity that you have never felt before. All around you, everything
 seems to be in harmony with its environment- from the intricately carved
@@ -3653,11 +3653,11 @@ A pleasant-looking garden lies to the south.
 ~
 0 8 0
 D0
-Dirad Loncasï¿½nï¿½n Dï¿½ï¿½ï¿½~
+Dirad Loncasýnýn Dýþý~
 ~
 1 0 31034
 D1
-Dirad Barï¿½~
+Dirad Barý~
 ~
 0 -1 31037
 D3
@@ -3675,12 +3675,12 @@ Guildmaster.
 ~
 0 8 0
 D1
-Dirad Loncasï¿½nï¿½n ï¿½ï¿½i~
+Dirad Loncasýnýn Ýçi~
 ~
 0 -1 31035
 S
 #31037
-Dirad Barï¿½~
+Dirad Barý~
 This is where Dryads of all ages and levels of experience come to meet,
 converse, drink and basically relax, free from the worries of the outside
 world for a short time. Polished oak tables are ringed by wooden stools,
@@ -3688,23 +3688,23 @@ a few of which are currently filled.
 ~
 0 8 0
 D3
-Dirad Loncasï¿½nï¿½n ï¿½ï¿½i~
+Dirad Loncasýnýn Ýçi~
 ~
 0 -1 31035
 S
 #31038
-Baï¿½ï¿½msï¿½zlï¿½k Sokaï¿½ï¿½~
+Baðýmsýzlýk Sokaðý~
 You are heading along the northern half of Liberty Lane. To the south runs
 Victory Parade, while to the north lies Justice Street. The Castellan's
 office is to the west.
 ~
 0 0 1
 D0
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 ~
 0 -1 31046
 D2
-Zafer Gï¿½sterisi~
+Zafer Gösterisi~
 ~
 0 -1 31006
 D3
@@ -3720,12 +3720,12 @@ job, too.
 ~
 0 8 0
 D1
-Baï¿½ï¿½msï¿½zlï¿½k Sokaï¿½ï¿½~
+Baðýmsýzlýk Sokaðý~
 ~
 1 0 31038
 S
 #31040
-Baï¿½ï¿½msï¿½zlï¿½k Sokaï¿½ï¿½~
+Baðýmsýzlýk Sokaðý~
 You are heading south along Liberty Lane, towards where it meets up with
 Valiant Street. To the north, Victory Parade runs to the east and west,
 directly through the heart of the city. There is a Blacksmith to the west,
@@ -3733,11 +3733,11 @@ and above it a fish and chips shop.
 ~
 0 0 1
 D0
-Zafer Gï¿½sterisi~
+Zafer Gösterisi~
 ~
 0 -1 31006
 D2
-Corner of Liberty Lane and Yiï¿½itlik Caddesi~
+Corner of Liberty Lane and Yiðitlik Caddesi~
 ~
 0 -1 31062
 D3
@@ -3758,7 +3758,7 @@ There is a chippy upstairs from here.
 ~
 0 8 0
 D1
-Baï¿½ï¿½msï¿½zlï¿½k Sokaï¿½ï¿½~
+Baðýmsýzlýk Sokaðý~
 ~
 0 -1 31040
 D4
@@ -3767,27 +3767,27 @@ Chippy~
 0 -1 31190
 S
 #31042
-Sadakat Sokaï¿½ï¿½~
+Sadakat Sokaðý~
 You are marching along the northern half of Stalwart Lane. To the south lies
 Victory Parade, the main road of the City, while to the north runs Justice
 Street. There is an armory to the east here.
 ~
 0 0 1
 D0
-Corner of Justice Street and Sadakat Sokaï¿½ï¿½~
+Corner of Justice Street and Sadakat Sokaðý~
 ~
 0 -1 31054
 D1
-Zï¿½rhï¿½ï¿½~
+Zýrhçý~
 ~
 0 -1 31043
 D2
-Zafer Gï¿½sterisi~
+Zafer Gösterisi~
 ~
 0 -1 31008
 S
 #31043
-Zï¿½rhï¿½ï¿½~
+Zýrhçý~
 You have entered the Armory, an impressive place of business with a range
 of equipment unmatched on the whole continent. Piles of armor gather dust
 in the rear of the shop, while better items are displayed in glass cases
@@ -3795,12 +3795,12 @@ or on racks. If you don't know what to do, try looking at the armorer.
 ~
 0 8 0
 D3
-Sadakat Sokaï¿½ï¿½~
+Sadakat Sokaðý~
 ~
 0 -1 31042
 S
 #31044
-Sadakat Sokaï¿½ï¿½~
+Sadakat Sokaðý~
 You are advancing along the southern half of Stalwart Lane. To the north
 Victory Parade cuts through Stalwart Lane, dividing it into its two halves,
 while to the south Stalwart Lane ends in Valiant Street. There is a
@@ -3808,20 +3808,20 @@ Weaponsmith directly east of here.
 ~
 0 0 1
 D0
-Zafer Gï¿½sterisi~
+Zafer Gösterisi~
 ~
 0 -1 31008
 D1
-Silahï¿½ï¿½~
+Silahçý~
 ~
 0 -1 31045
 D2
-Corner of Stalwart Lane and Yiï¿½itlik Caddesi~
+Corner of Stalwart Lane and Yiðitlik Caddesi~
 ~
 0 -1 31069
 S
 #31045
-Silahï¿½ï¿½~
+Silahçý~
 You have entered the Weaponsmith, a crowded little premise loaded with
 military regalia of all types. The Weaponsmith is an avid collector of
 memorabilia, but his chief business is the buying and selling of weapons.
@@ -3829,12 +3829,12 @@ If you are rather lost, try looking at him for help.
 ~
 0 8 0
 D3
-Baï¿½ï¿½msï¿½zlï¿½k Sokaï¿½ï¿½~
+Baðýmsýzlýk Sokaðý~
 ~
 0 -1 31044
 S
 #31046
-Baï¿½ï¿½msï¿½zlï¿½k Sokaï¿½ï¿½ ile Barï¿½ï¿½ Caddesi Kesiï¿½imi~
+Baðýmsýzlýk Sokaðý ile Barýþ Caddesi Kesiþimi~
 You are standing at the corner of Justice Street and Liberty Lane. There
 is a Smithy to the south, and various shops and guilds to the east. A
 dark lane runs to the west.
@@ -3845,11 +3845,11 @@ mercenaries~
 ~
 0 -1 31047
 D1
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 ~
 0 -1 31049
 D2
-Baï¿½ï¿½msï¿½zlï¿½k Sokaï¿½ï¿½~
+Baðýmsýzlýk Sokaðý~
 ~
 0 -1 31038
 D3
@@ -3858,18 +3858,18 @@ Illithid Guild~
 0 -1 31086
 S
 #31047
-Paralï¿½ Askerler~
+Paralý Askerler~
 You have entered a hiring hall for mercenaries. A stout Mercenary Master
 grunts as you enter. If you don't know what to do, try looking at him.
 ~
 0 8|4096 0
 D2
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 ~
 0 -1 31046
 S
 #31048
-Paralï¿½ Asker Deposu~
+Paralý Asker Deposu~
 You shouldn't be here. Go Away. Or I'll Tell.
 
 
@@ -3883,27 +3883,27 @@ NOW!
 0 8 0
 S
 #31049
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 Justice Street runs past several businesses here, heading west to a
 junction with Liberty Lane and east past several shops toward Stalwart
 Lane. There is a Magic Shop directly north of here.
 ~
 0 0 1
 D0
-Bï¿½yï¿½ Dï¿½kkanï¿½~
+Büyü Dükkaný~
 ~
 0 -1 31050
 D1
-Corner of Honor Avenue and Barï¿½ï¿½ Caddesi~
+Corner of Honor Avenue and Barýþ Caddesi~
 ~
 0 -1 31051
 D3
-Corner of Justice Street and Baï¿½ï¿½msï¿½zlï¿½k Sokaï¿½ï¿½~
+Corner of Justice Street and Baðýmsýzlýk Sokaðý~
 ~
 0 -1 31046
 S
 #31050
-Bï¿½yï¿½ Dï¿½kkanï¿½~
+Büyü Dükkaný~
 This shop is cram-packed with magical artefacts, items and spell components
 of every type imaginable (and several unimaginable). Forcing your way through
 the clutter, you eventually find an assistant, a raven-haired mage who smiles
@@ -3912,12 +3912,12 @@ looking at her.
 ~
 0 8 0
 D2
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 ~
 0 -1 31049
 S
 #31051
-Onur Bulvarï¿½ ile Barï¿½ï¿½ Caddesi Kesiï¿½imi~
+Onur Bulvarý ile Barýþ Caddesi Kesiþimi~
 You are standing at the corner of two of the lesser roads in the city. Honor
 Avenue is a short road that ends at a small tower to the north, while
 Justice Street heads east and west past a variety of shops and houses. Far
@@ -3926,20 +3926,20 @@ of the city.
 ~
 0 0 1
 D0
-Onur Bulvarï¿½~
+Onur Bulvarý~
 ~
 0 -1 31057
 D1
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 ~
 0 -1 31052
 D3
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 ~
 0 -1 31049
 S
 #31052
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 You are walking through the northeastern quarter of town, along Justice
 Street. People garbed in rich, colorful accoutrements hurry past, smiling
 briefly when they feel your gaze upon them. To the north there is an
@@ -3951,16 +3951,16 @@ Bilge~
 ~
 0 -1 31053
 D1
-Corner of Honor Avenue and Barï¿½ï¿½ Caddesi~
+Corner of Honor Avenue and Barýþ Caddesi~
 ~
 0 -1 31054
 D3
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 ~
 0 -1 31051
 S
 #31053
-Bilgenin ï¿½kametgahï¿½~
+Bilgenin Ýkametgahý~
 You have entered the modest dwelling of Mitzak the Sage, an elderly, bearded
 gent who will identify anything- for a price. Drawing on his extensive
 knowledge of Legend Lore, he will be able to give you exact details of the
@@ -3969,12 +3969,12 @@ works, try looking at him.
 ~
 0 4|8 0
 D2
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 ~
 0 -1 31052
 S
 #31054
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 You are advancing along Justice Street, through a small city square where
 fetes are held every Spring. At other times of the year it is fairly
 deserted, save for the occasional guard or customer for the Pet Shop to the
@@ -3982,24 +3982,24 @@ north. Stalwart Lane leads south out of the square, running past more shops.
 ~
 0 0 1
 D0
-Hayvan Dï¿½kkanï¿½~
+Hayvan Dükkaný~
 ~
 0 -1 31055
 D1
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 ~
 0 -1 31093
 D2
-Sadakat Sokaï¿½ï¿½~
+Sadakat Sokaðý~
 ~
 0 -1 31042
 D3
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 ~
 0 -1 31052
 S
 #31055
-Hayvan Dï¿½kkanï¿½~
+Hayvan Dükkaný~
 You have entered a virtual Zoo, a crowded shop packed with a menagerie of
 animals of every type, size, shape and description imaginable. However,
 only a few are for sale- the rest are the owner's personal collection, and
@@ -4007,7 +4007,7 @@ are his pride and joy. To see what to do next, try looking at the owner.
 ~
 0 8|4096 0
 D2
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 ~
 0 -1 31054
 S
@@ -4026,7 +4026,7 @@ NOW!
 0 0 0
 S
 #31057
-Onur Bulvarï¿½~
+Onur Bulvarý~
 You are strolling alone Honor Avenue, a broad, tree-lined boulevard with
 several impressive-looking residences to either side. To the north lies the
 entrance to the small tower which you saw earlier and now recognize as the
@@ -4034,16 +4034,16 @@ Elven Guild, and beyond that loom the cyclopean city walls.
 ~
 0 0 1
 D0
-Elf Loncasï¿½~
+Elf Loncasý~
 ~
 0 -1 31058
 D2
-Corner of Honor Avenue and Barï¿½ï¿½ Caddesi~
+Corner of Honor Avenue and Barýþ Caddesi~
 ~
 0 -1 31051
 S
 #31058
-Elf Loncasï¿½~
+Elf Loncasý~
 You are standing in the forecourt of the tower which holds the chambers of
 the Elven Guild. Here, practitioners of the magic of the Elves come to
 advance their knowledge of their art. Upstairs lie the offices of the Guild,
@@ -4051,7 +4051,7 @@ while downstairs is the Elven Bar.
 ~
 0 8 0
 D2
-Onur Bulvarï¿½~
+Onur Bulvarý~
 ~
 0 -1 31057
 D4
@@ -4059,7 +4059,7 @@ Lonca Ofisleri~
 ~
 0 -1 31059
 D5
-Elf Barï¿½~
+Elf Barý~
 ~
 0 -1 31061
 S
@@ -4077,12 +4077,12 @@ Lonca Efendisinin Ofisi~
 ~
 0 -1 31060
 D5
-Elf Loncasï¿½~
+Elf Loncasý~
 ~
 0 -1 31058
 S
 #31060
-Elf Loncasï¿½ Efendisinin Ofisi~
+Elf Loncasý Efendisinin Ofisi~
 This spacious office is lined on every wall by tall bookcases crammed with
 books on magic and mystical lore, as well as treatises on history, science
 mathematics, philosophy and alchemy. The Guildmaster himself sits behind
@@ -4097,7 +4097,7 @@ Lonca Ofisleri~
 0 -1 31059
 S
 #31061
-Elf Barï¿½~
+Elf Barý~
 Elves are notorious drinkers, mainly due to the fact that their power relies
 solely on mana, and the best way to rapidly regain mana is to be rip-roaring
 drunk. Thus it is extremely rare to see an active adventuring Elf remotely
@@ -4105,23 +4105,23 @@ sober.
 ~
 0 8 0
 D4
-Elf Loncasï¿½~
+Elf Loncasý~
 ~
 0 -1 31058
 S
 #31062
-Baï¿½ï¿½msï¿½zlï¿½k Sokaï¿½ï¿½ ile Yiï¿½itlik Caddesi Kesiï¿½imi~
+Baðýmsýzlýk Sokaðý ile Yiðitlik Caddesi Kesiþimi~
 You are standing at a tree-lined intersection in the southwest quarter of
 town. Liberty Lane runs north from here past shops toward Justice Street.
 There is a Bank to the south.
 ~
 0 0 1
 D0
-Baï¿½ï¿½msï¿½zlï¿½k Sokaï¿½ï¿½~
+Baðýmsýzlýk Sokaðý~
 ~
 0 -1 31040
 D1
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 ~
 0 -1 31065
 D2
@@ -4129,7 +4129,7 @@ Banka~
 ~
 0 -1 31063
 D3
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 ~
 0 -1 31072
 S
@@ -4143,7 +4143,7 @@ are located.
 ~
 0 8 0
 D0
-Corner of Valiant Street and Baï¿½ï¿½msï¿½zlï¿½k Sokaï¿½ï¿½~
+Corner of Valiant Street and Baðýmsýzlýk Sokaðý~
 ~
 0 -1 31062
 D4
@@ -4183,14 +4183,14 @@ A sign says-
 ~
 S
 #31065
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 You are walking along Valiant Street, which is met to the west and east by
 Liberty Lane and Glory Avenue respectively. To the south there is a Grocery
 Store.
 ~
 0 0 1
 D1
-Corner of Valiant Street and ï¿½eref Bulvarï¿½~
+Corner of Valiant Street and Þeref Bulvarý~
 ~
 0 -1 31007
 D2
@@ -4198,7 +4198,7 @@ Bakkal~
 ~
 0 -1 31066
 D3
-Corner of Valiant Street and Baï¿½ï¿½msï¿½zlï¿½k Sokaï¿½ï¿½~
+Corner of Valiant Street and Baðýmsýzlýk Sokaðý~
 ~
 0 -1 31062
 S
@@ -4212,32 +4212,32 @@ negotiate a transaction, simply look at the grocer.
 ~
 0 8 0
 D0
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 ~
 0 -1 31065
 S
 #31067
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 You are walking along Valiant Street, which is met to the west and east by
 Stalwart Lane and Glory Avenue respectively. To the south there is a Bakery,
 from which a delicious aroma wafts.
 ~
 0 0 1
 D1
-Corner of Stalwart Street and ï¿½eref Bulvarï¿½~
+Corner of Stalwart Street and Þeref Bulvarý~
 ~
 0 -1 31069
 D2
-Fï¿½rï¿½n~
+Fýrýn~
 ~
 0 -1 31068
 D3
-Corner of Valiant Street and ï¿½eref Bulvarï¿½~
+Corner of Valiant Street and Þeref Bulvarý~
 ~
 0 -1 31007
 S
 #31068
-Fï¿½rï¿½n~
+Fýrýn~
 The delicious aroma you smelt outside pervades this entire store. Cakes,
 pies, rolls and loaves of freshly-baked bread line the racks behind the
 counter. Also behind the counter is a very mean-looking tattooed Dwarf with
@@ -4247,23 +4247,23 @@ entire nation. If you don't know what to do next, try looking at the Dwarf
 ~
 0 8 0
 D0
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 ~
 0 -1 31067
 S
 #31069
-Sadakat Sokaï¿½ï¿½ ile Yiï¿½itlik Caddesi Kesiï¿½imi~
+Sadakat Sokaðý ile Yiðitlik Caddesi Kesiþimi~
 You are standing at a tree-lined intersection in the southeast quarter of
 town. Stalwart Lane runs north from here past shops toward Justice Street.
 There is a seedy-looking Bar to the south.
 ~
 0 0 1
 D0
-Sadakat Sokaï¿½ï¿½~
+Sadakat Sokaðý~
 ~
 0 -1 31044
 D1
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 ~
 0 -1 31079
 D2
@@ -4271,7 +4271,7 @@ Bar~
 ~
 0 -1 31070
 D3
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 ~
 0 -1 31067
 S
@@ -4284,16 +4284,16 @@ at him. Private booths are available to the south.
 ~
 0 8 0
 D0
-Corner of Valiant Street and Sadakat Sokaï¿½ï¿½~
+Corner of Valiant Street and Sadakat Sokaðý~
 ~
 0 -1 31069
 D2
-ï¿½zel Bï¿½lï¿½m~
+Özel Bölüm~
 ~
 0 -1 31071
 S
 #31071
-ï¿½zel Bï¿½lï¿½m~
+Özel Bölüm~
 This is where the more unsavory customers come to negotiate drug deals,
 slave trading or prostitution. You get a few stares as you enter. Despite
 the rough characters here, no-one ever fights or even lays a blow on another
@@ -4306,39 +4306,39 @@ Bar~
 0 -1 31070
 S
 #31072
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 You are heading into the Guard Sector of town. Guards wander here and there,
 as does the occasional prisoner, led by two guards of course. The road
 continues east and west.
 ~
 0 0 1
 D1
-Corner of Valiant Street and Baï¿½ï¿½msï¿½zlï¿½k Sokaï¿½ï¿½~
+Corner of Valiant Street and Baðýmsýzlýk Sokaðý~
 ~
 0 -1 31062
 D3
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 ~
 0 -1 31073
 S
 #31073
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 You are heading into the Guard Sector of town. Guards wander here and there,
 as does the occasional prisoner, led by two guards of course. The road
 continues east and west.
 ~
 0 0 1
 D1
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 ~
 0 -1 31072
 D3
-Yiï¿½itlik Caddesinde Bï¿½kï¿½m~
+Yiðitlik Caddesinde Büküm~
 ~
 0 -1 31074
 S
 #31074
-Yiï¿½itlik Caddesinde Bï¿½kï¿½m~
+Yiðitlik Caddesinde Büküm~
 At this point Valiant Street bends, with exits to the east and south. The
 prison lies to the south, as does the Dwarven Guild.
 
@@ -4346,32 +4346,32 @@ A new stable has been built to the west of here. Go have a look!
 ~
 0 0 1
 D1
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 ~
 0 -1 31073
 D2
-Zindanï¿½n Dï¿½ï¿½ï¿½~
+Zindanýn Dýþý~
 ~
 0 -1 31075
 S
 #31075
-Zindanï¿½n Dï¿½ï¿½ï¿½~
+Zindanýn Dýþý~
 You are standing outside the grounds of His Majesty's Gaol, the prison of
 Anon, where all the perpretrators of heinous acts are kept. To the south
 looms the impressive mini-fortress that is the Dwarven Guild.
 ~
 0 0 1
 D0
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 ~
 0 -1 31074
 D2
-Cï¿½ce Loncasï¿½~
+Cüce Loncasý~
 ~
 1 0 31076
 S
 #31076
-Cï¿½ce Loncasï¿½~
+Cüce Loncasý~
 Stone walls rise all around you as you enter the training grounds of the
 Dwarven Guild. Several young Dwarves pile eagerly into the bar to the east,
 while other, more mature warriors patiently wait to train with the Master
@@ -4379,11 +4379,11 @@ to the south.
 ~
 0 0 1
 D0
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 ~
 1 0 31075
 D1
-Cï¿½ce Barï¿½~
+Cüce Barý~
 ~
 0 -1 31078
 D2
@@ -4392,19 +4392,19 @@ Lonca Efendisi~
 0 -1 31077
 S
 #31077
-Lonca Efendisinin Odasï¿½~
+Lonca Efendisinin Odasý~
 A burly Dwarf is here curtly issuing instructions to two trainees. You may
 wish to train as well. If so, and you don't know what to do, try looking at
 the Guildmaster.
 ~
 0 8 0
 D0
-Lonca Eï¿½itim Avlusu~
+Lonca Eðitim Avlusu~
 ~
 0 -1 31076
 S
 #31078
-Cï¿½ce Barï¿½~
+Cüce Barý~
 About two dozen hardy Dwarves drink, smoke, fight and gamble here. The noise
 is only equalled in intensity by the acrid stench of stale beer and burning
 pipeweed. A smaller Dwarf busies himself collecting empty steins and
@@ -4413,12 +4413,12 @@ piece or kick in the rump for his efforts.
 ~
 0 8 0
 D3
-Lonca Eï¿½itim Avlusu~
+Lonca Eðitim Avlusu~
 ~
 0 -1 31076
 S
 #31079
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 You have entered a rather seedy area of town, the slums that line the eastern
 half of Valiant Street being legendary the world over. A haven for thieves,
 assassins, backstabbers, footpads and murderers of every description, it is
@@ -4427,16 +4427,16 @@ between life and death.
 ~
 0 1 1
 D1
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 ~
 0 -1 31080
 D3
-Corner of Stalwart Lane and Yiï¿½itlik Caddesi~
+Corner of Stalwart Lane and Yiðitlik Caddesi~
 ~
 0 -1 31069
 S
 #31080
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 You have entered a rather seedy area of town, the slums that line the eastern
 half of Valiant Street being legendary the world over. A haven for thieves,
 assassins, backstabbers, footpads and murderers of every description, it is
@@ -4447,27 +4447,27 @@ on.
 ~
 0 1 1
 D1
-Yiï¿½itlik Caddesinde Bï¿½kï¿½m~
+Yiðitlik Caddesinde Büküm~
 ~
 0 -1 31081
 D3
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 ~
 0 -1 31079
 S
 #31081
-Yiï¿½itlik Caddesinde Bï¿½kï¿½m~
+Yiðitlik Caddesinde Büküm~
 At this bend, there is a small grate set in the ground. Looking down through
 it, you notice a complex network of interconnecting tunnels more than big
 enough for you to wander through, should you so wish.
 ~
 0 1 1
 D2
-Kender Loncasï¿½ Dï¿½ï¿½ï¿½~
+Kender Loncasý Dýþý~
 ~
 0 -1 31082
 D3
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 ~
 0 -1 31080
 D5
@@ -4476,7 +4476,7 @@ grate~
 1 0 7001
 S
 #31082
-Kender Loncasï¿½ Dï¿½ï¿½ï¿½~
+Kender Loncasý Dýþý~
 You are standing outside the house of learning for all the rogues of the
 city previously mentioned. For of all rogues the Kender are the masters.
 The entrance to this shady establishment is through a curtained archway
@@ -4493,14 +4493,14 @@ curtain~
 1 0 31083
 S
 #31083
-Loncanï¿½n ï¿½ï¿½i~
+Loncanýn Ýçi~
 You are standing inside the Kender Guild, surrounded by whores, pimps,
 thieves, muggers and vagabonds. What a nice place. The Guildmaster lurks
 to the south, while there is a Bar to the west...
 ~
 0 1|8 0
 D0
-Yiï¿½itlik Caddesi~
+Yiðitlik Caddesi~
 ~
 1 0 31082
 D2
@@ -4521,7 +4521,7 @@ don't know what to do, try looking at him.
 ~
 0 1|8 0
 D0
-Loncanï¿½n ï¿½ï¿½i~
+Loncanýn Ýçi~
 ~
 0 -1 31083
 S
@@ -4534,12 +4534,12 @@ up upon losing the last hand in poker.
 ~
 0 1|8 0
 D1
-Loncanï¿½n ï¿½ï¿½i~
+Loncanýn Ýçi~
 ~
 0 -1 31083
 S
 #31086
-Barï¿½ï¿½ Caddesi Sonu~
+Barýþ Caddesi Sonu~
 Justice Street ends in a small lane here that the Illithid Guild opens onto
 from the north. Back east several shops open onto Justice Avenue, and before
 that Liberty Lane cuts across this street.
@@ -4548,11 +4548,11 @@ A small building to the west contains a staircase that looks interesting...
 ~
 0 0 1
 D0
-ï¿½lithid Loncasï¿½~
+Ýlithid Loncasý~
 ~
 0 -1 31090
 D1
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 ~
 0 -1 31046
 D3
@@ -4561,7 +4561,7 @@ It's the Darkling Guild.~
 0 -1 31192
 S
 #31087
-ï¿½nsan Loncasï¿½~
+Ýnsan Loncasý~
 You have entered a Martial Arts Dojo devoid of all furniture or decoration
 save several practice mats and some wooden weapons hung on hooks attached
 to the walls. Several students, clad in white Ghis practice basic Karate
@@ -4575,28 +4575,28 @@ Lonca Efendisi~
 ~
 0 -1 31088
 D2
-Dinlenme Odasï¿½~
+Dinlenme Odasý~
 ~
 0 -1 31089
 D3
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 ~
 0 -1 31095
 S
 #31088
-Lonca Efendisinin Odasï¿½~
+Lonca Efendisinin Odasý~
 The Human Guildmaster is here, meditating. As you enter, his eyes flick open
 and he quickly leaps to his feet, bowing before you. If you don't know what
 to do next, try looking at him.
 ~
 0 8 0
 D2
-ï¿½nsan Loncasï¿½~
+Ýnsan Loncasý~
 ~
 0 -1 31087
 S
 #31089
-Dinlenme Odasï¿½~
+Dinlenme Odasý~
 Rigid and disciplined as they are, the members of this Guild don't spend much
 time loafing around. However, when the mood takes them, few can outdrink them
 whatever the beverage, and as the mood can take them quite frequently when
@@ -4605,12 +4605,12 @@ constructed.
 ~
 0 8 0
 D0
-ï¿½nsan Loncasï¿½~
+Ýnsan Loncasý~
 ~
 0 -1 31087
 S
 #31090
-ï¿½lithid Loncasï¿½ ï¿½ï¿½i~
+Ýlithid Loncasý Ýçi~
 You have entered the sparsely-furnished chambers of the Illithid Guildmaster
 of Anon. The Guildmaster himself resides to the north, while the Illithids'
 Bar is to the west.
@@ -4625,12 +4625,12 @@ Bar~
 ~
 0 -1 31091
 D2
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 ~
 0 -1 31086
 S
 #31091
-ï¿½lithidlerin Barï¿½~
+Ýlithidlerin Barý~
 Not many Illithids reside in Anon, so this place is usually empty. Combine
 this with the fact that Mind Flayers have a reputation of sucking out and
 eating the brains of other sentient species, and you'll probably understand
@@ -4658,7 +4658,7 @@ Lonca~
 0 -1 31090
 S
 #31093
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 You are strolling through the fairly deserted northeastern quarter of town.
 Up ahead lies the Dojo where the Human Guildmaster trains his students, and
 to the northeast looms the aerie of the
@@ -4666,43 +4666,43 @@ Avian Guildmaster.
 ~
 0 0 1
 D1
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 ~
 0 -1 31094
 D3
-Corner of Justice Street and Sadakat Sokaï¿½ï¿½~
+Corner of Justice Street and Sadakat Sokaðý~
 ~
 0 -1 31054
 S
 #31094
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 You are strolling through the fairly deserted northeastern quarter of town.
 Up ahead lies the Dojo where the Human Guildmaster trains his students, and
 to the northeast looms the aerie of the Avian Guildmistress.
 ~
 0 0 1
 D1
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 ~
 0 -1 31095
 D3
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 ~
 0 -1 31093
 S
 #31095
-ï¿½nsan Dojosu Dï¿½ï¿½ï¿½~
+Ýnsan Dojosu Dýþý~
 At this bend in the road, you can head east into the Dojo, north toward the
 tall tower which holds the aerie of the Avian Guildmistress, or back west
 toward Stalwart Lane.
 ~
 0 0 1
 D0
-Kulenin Dï¿½ï¿½ï¿½~
+Kulenin Dýþý~
 ~
 0 -1 31096
 D3
-Barï¿½ï¿½ Caddesi~
+Barýþ Caddesi~
 ~
 0 -1 31094
 D1
@@ -4711,7 +4711,7 @@ Lonca~
 0 -1 31087
 S
 #31096
-Kulenin Dï¿½ï¿½ï¿½~
+Kulenin Dýþý~
 You are standing beneath the wooden tower which houses the aerie of the Avian
 Guildmistress. Being generally solitary and outdoor-loving creatures, Avians
 do not congregate here tending instead to visit at odd hours so as to not
@@ -4719,7 +4719,7 @@ be forced to endure a wait indoors for training.
 ~
 0 0 1
 D0
-Kulenin ï¿½ï¿½i~
+Kulenin Ýçi~
 ~
 0 -1 31097
 D2
@@ -4728,7 +4728,7 @@ Outside the Dojo~
 0 -1 31095
 S
 #31097
-Kulenin ï¿½ï¿½i~
+Kulenin Ýçi~
 You have entered the grounds of the Guild. From here you may go up to the
 aerie, or downstairs to the Bar.
 ~
@@ -4738,7 +4738,7 @@ Havada~
 ~
 0 -1 31099
 D2
-Kulenin Dï¿½ï¿½ï¿½~
+Kulenin Dýþý~
 ~
 0 -1 31096
 D5
@@ -4755,7 +4755,7 @@ up and leave if you enter.
 ~
 0 8 0
 D4
-Kulenin ï¿½ï¿½i~
+Kulenin Ýçi~
 ~
 0 -1 31097
 S
@@ -4766,42 +4766,42 @@ new students. If you don't know what to do here, try looking at her.
 ~
 0 8 0
 D5
-Kulenin ï¿½ï¿½i~
+Kulenin Ýçi~
 ~
 0 -1 31097
 S
 #31163
-Zï¿½rh Baï¿½ï¿½ï¿½ï¿½~
+Zýrh Baðýþý~
 Here all the Armor donated by the people of Anon appear.
 ~
 0 8 0
 D0
-Baï¿½ï¿½ï¿½ Odasï¿½~
+Baðýþ Odasý~
 ~
 0 -1 31002
 S
 #31164
-Silah Baï¿½ï¿½ï¿½ï¿½~
+Silah Baðýþý~
 Here all the Weapons donated by the people of Anon appear.
 ~
 0 8 0
 D3
-Baï¿½ï¿½ï¿½ Odasï¿½~
+Baðýþ Odasý~
 ~
 0 -1 31002
 S
 #31165
-Bï¿½yï¿½lï¿½ Eï¿½ya Baï¿½ï¿½ï¿½ï¿½~
+Büyülü Eþya Baðýþý~
 Here all the Magical Items donated by the people of Anon appear.
 ~
 0 8 0
 D1
-Baï¿½ï¿½ï¿½ Odasï¿½~
+Baðýþ Odasý~
 ~
 0 -1 31002
 S
 #31190
-Tavernanï¿½n ï¿½ï¿½i~
+Tavernanýn Ýçi~
 You have entered the local chippy. Your nostrils are almsot immediately
 assailed by a pleasant aroma- it's amazing how good hot fat smells, isn't
 it? You see a portly Italian standing behind a large glass counter full of
@@ -4818,7 +4818,7 @@ D5
 0 -1 31041
 S
 #31191
-Kafenin ï¿½ï¿½i~
+Kafenin Ýçi~
 You have entered a well-scrubbed cafe, furnished in mid-1960's laminex
 style.  Plastic plants rest near the tables, which are covered with red
 and white checked plastic tablecloths.  You can proceed to the counter
@@ -4832,7 +4832,7 @@ D2
 0 -1 31012
 S
 #31192
-Kara Lonca Giriï¿½i~
+Kara Lonca Giriþi~
 You are standing at the top of a set of stone steps covered in dust and
 cobwebs. Footprints show that many others have passed this way, but
 despite this the webs and dust remain as thick as if the steps hadn't
@@ -4865,7 +4865,7 @@ D4
 0 -1 31192
 S
 #31194
-Lonca Odasï¿½~
+Lonca Odasý~
 In this room, the ancient Darkling scholar, Mengrabbazoah, awaits, ready
 to educate you in the ways of his people. You feel overawed standing in
 his presence.
@@ -4877,7 +4877,7 @@ D0
 0 -1 31193
 S
 #31195
-Geï¿½it Odalarï¿½~
+Geçit Odalarý~
 In these rooms lie portals that lead to the other 3 dimensions of the
 world of Anon. Proceed carefully, for you travel at your own risk!
 ~
@@ -4900,7 +4900,7 @@ D3
 0 -1 31198
 S
 #31196
-Boï¿½ Oda~
+Boþ Oda~
 You have entered a plain, nondescript room with whitewashed stone walls
 and a straw-covered floor. Various cracked and broken pots of clay are
 scattered about on the floor.
@@ -4912,7 +4912,7 @@ D3
 0 -1 31195
 S
 #31197
-ï¿½elik Oda~
+Çelik Oda~
 The walls of this room are covered in sheets of steel in which are imbedded
 bits of wire and chrome. There are hunreds of tiny black squares of an unknown
 substance imbedded in it, as well as numerous flashing lights.
@@ -4950,7 +4950,7 @@ D2
 0 -1 31009
 S
 #31320
-Kï¿½leya'nï¿½n Dï¿½kkanï¿½~
+Kýleya'nýn Dükkaný~
 In here Clea, the beautiful Elven Artificer from Malathar, offers a
 popular service, reharging magical staves and wands that have lost their
 energies. Piles of such items can be seen, awaiting retrieval by their
@@ -4977,7 +4977,7 @@ D3
 1 0 31004
 S
 #31322
-ï¿½ilingir~
+Çilingir~
 In this shop sits a small fat dwarf who is busy making locks and keys. He
 will also purchase your keys if you don't want them, for a good price.
 You marvel at all the strange technology about you.
@@ -4989,7 +4989,7 @@ D1
 1 0 31004
 S
 #31323
-Gï¿½ï¿½ Artï¿½rï¿½m Dï¿½kkanï¿½~
+Güç Artýrým Dükkaný~
 In this small shop you can enhance your statistics, with the aid of one
 Thom, the enhancer. He stands ready to help you behind a massive oak desk.
 There are several degrees and diplomas affixed to the walls here.

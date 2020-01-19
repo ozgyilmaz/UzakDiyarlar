@@ -1,9 +1,9 @@
 #AREADATA
 Filename cuce_kralligi.are~
-Name Cï¿½ce Krallï¿½ï¿½ï¿½~
+Name Cüce Krallýðý~
 Builder Anon~
 Translator Bilinmiyor~
-Language Tï¿½rkï¿½e~
+Language Türkçe~
 Lowlevel 10
 Highlevel 25
 Minvnum 6500
@@ -13,11 +13,11 @@ END
 
 #MOBILES
 #6500
-cï¿½ce muhafï¿½z~
-cï¿½ce muhafï¿½z~
-Bir cï¿½ce muhafï¿½z burada.
+cüce muhafýz~
+cüce muhafýz~
+Bir cüce muhafýz burada.
 ~
-Muhafï¿½z ï¿½ok saï¿½lam ve sert gï¿½rï¿½nï¿½yor.
+Muhafýz çok saðlam ve sert görünüyor.
 ~
 dwarf~
 AB D 500 0
@@ -28,11 +28,11 @@ stand stand male 500
 0 0 medium 0
 
 #6501
-cï¿½ce maden iï¿½ï¿½i~
-cï¿½ce madenci~
-Bir cï¿½ce maden iï¿½ï¿½isi burada.
+cüce maden iþçi~
+cüce madenci~
+Bir cüce maden iþçisi burada.
 ~
-ï¿½ok pis ve yorgun gï¿½rï¿½nï¿½yor.
+Çok pis ve yorgun görünüyor.
 ~
 dwarf~
 AG 0 900 0
@@ -58,9 +58,9 @@ stand stand male 2500
 #6503
 esnaf~
 esnaf~
-Bir esnaf burada, sabï¿½rla bekliyor.
+Bir esnaf burada, sabýrla bekliyor.
 ~
-Esnaf biraz ï¿½iï¿½man gibi ama oldukï¿½a da sert.
+Esnaf biraz þiþman gibi ama oldukça da sert.
 ~
 human~
 AB 0 900 0
@@ -70,11 +70,11 @@ EFNU 0 0 0
 stand stand male 5000
 0 0 medium 0
 #6504
-fï¿½rï¿½ncï¿½ granit kafa~
+fýrýncý granit kafa~
 Granit Kafa~
-Fï¿½rï¿½ncï¿½ Granit Kafa mï¿½ï¿½teri bekliyor.
+Fýrýncý Granit Kafa müþteri bekliyor.
 ~
-Granit Kafa'nï¿½n ï¿½stï¿½ baï¿½ï¿½ un olmuï¿½.
+Granit Kafa'nýn üstü baþý un olmuþ.
 ~
 human~
 AB 0 900 0
@@ -88,7 +88,7 @@ kertenkele dev~
 dev kertenkele~
 Dev bir kertenkele burada duruyor.
 ~
-Buranï¿½n habitatï¿½na uyum saï¿½lamï¿½ï¿½ gï¿½rï¿½nï¿½yor. ï¿½ok gï¿½ï¿½lï¿½ ! !
+Buranýn habitatýna uyum saðlamýþ görünüyor. Çok güçlü ! !
 ~
 lizard~
 AG D 100 0
@@ -102,7 +102,7 @@ dev~
 dev~
 Bir dev burada.
 ~
-Boyu 8 feet kadar. Kollarï¿½ ï¿½elik gibi ve ï¿½ok gï¿½ï¿½lï¿½ gï¿½rï¿½nï¿½yor.
+Boyu 8 feet kadar. Kollarý çelik gibi ve çok güçlü görünüyor.
 ~
 giant~
 AG 0 0 0
@@ -112,11 +112,11 @@ EFNR 0 0 0
 stand stand male 100
 0 0 medium 0
 #6507
-cï¿½ce madenci~
-cï¿½ce madenci~
-Bir cï¿½ce madenci burada.
+cüce madenci~
+cüce madenci~
+Bir cüce madenci burada.
 ~
-ï¿½ok pis ve yorgun gï¿½rï¿½nï¿½yor. Kaslarï¿½ bir boï¿½ayï¿½ andï¿½rï¿½yor.
+Çok pis ve yorgun görünüyor. Kaslarý bir boðayý andýrýyor.
 
 ~
 dwarf~
@@ -127,11 +127,11 @@ EFNR 0 0 0
 stand stand male 2
 0 0 medium 0
 #6508
-cï¿½ce maden ï¿½efi~
-cï¿½ce ï¿½ef~
-Bir cï¿½ce maden ï¿½efi burada.
+cüce maden þefi~
+cüce þef~
+Bir cüce maden þefi burada.
 ~
-Cï¿½ce maden ï¿½efi ï¿½ok bï¿½yï¿½k ve gï¿½ï¿½lï¿½.
+Cüce maden þefi çok büyük ve güçlü.
 ~
 dwarf~
 AB 0 0 0
@@ -141,11 +141,11 @@ EFNR 0 0 0
 stand stand male 1000
 0 0 medium 0
 #6509
-cï¿½ce doktor~
-cï¿½ce doktor~
-Cï¿½ce doktor burada.
+cüce doktor~
+cüce doktor~
+Cüce doktor burada.
 ~
-ï¿½elik gibi elleriyle tam bir cerrahi uzmanï¿½.
+Çelik gibi elleriyle tam bir cerrahi uzmaný.
 ~
 dwarf~
 AB DH 1000 0
@@ -155,9 +155,9 @@ EFNR 0 0 0
 stand stand male 75
 0 0 medium 0
 #6510
-cï¿½ce dï¿½ï¿½kï¿½n~
-cï¿½ce dï¿½ï¿½kï¿½n~
-Bir cï¿½ce dï¿½ï¿½kï¿½n burada, yardï¿½m bekliyor.
+cüce düþkün~
+cüce düþkün~
+Bir cüce düþkün burada, yardým bekliyor.
 ~
 ~
 dwarf~
@@ -168,9 +168,9 @@ EFNR 0 0 0
 stand stand male 3
 0 0 medium 0
 #6511
-cï¿½ce~
-cï¿½ce~
-Bir cï¿½ce burada, sï¿½rï¿½tï¿½yor.
+cüce~
+cüce~
+Bir cüce burada, sýrýtýyor.
 ~
 ~
 dwarf~
@@ -181,9 +181,9 @@ EFNR 0 0 0
 stand stand male 62
 0 0 medium 0
 #6512
-cï¿½ce oï¿½lan yetim~
-yetim cï¿½ce~
-Bir yetim cï¿½ce oï¿½lanï¿½ burada. Onun iï¿½in ï¿½zï¿½lï¿½yorsun.
+cüce oðlan yetim~
+yetim cüce~
+Bir yetim cüce oðlaný burada. Onun için üzülüyorsun.
 ~
 ~
 dwarf~
@@ -194,9 +194,9 @@ EFNR 0 0 0
 stand stand male 2
 0 0 medium 0
 #6513
-cï¿½ce kï¿½z yetim~
-yetim cï¿½ce~
-Bir yetim cï¿½ce kï¿½zï¿½ burada. Onun iï¿½in ï¿½zï¿½lï¿½yorsun.
+cüce kýz yetim~
+yetim cüce~
+Bir yetim cüce kýzý burada. Onun için üzülüyorsun.
 ~
 ~
 dwarf~
@@ -207,9 +207,9 @@ EFNR 0 0 0
 stand stand female 2
 0 0 medium 0
 #6514
-cï¿½ce kï¿½ï¿½la muhafï¿½z~
-cï¿½ce muhafï¿½z~
-Bir kï¿½ï¿½la muhafï¿½zï¿½ burada.
+cüce kýþla muhafýz~
+cüce muhafýz~
+Bir kýþla muhafýzý burada.
 ~
 ~
 dwarf~
@@ -222,7 +222,7 @@ stand stand male 150
 #6515
 adam~
 adam~
-Bir adam burada. Oldukï¿½a sinirli gibi. Kendinde deï¿½il.
+Bir adam burada. Oldukça sinirli gibi. Kendinde deðil.
 ~
 ~
 human~
@@ -237,7 +237,7 @@ labirent korucusu~
 korucu~
 Bir labirent korucusu burada.
 ~
-ï¿½OK sert gï¿½rï¿½nï¿½yor.
+ÇOK sert görünüyor.
 ~
 human~
 ABF H -1000 0
@@ -247,9 +247,9 @@ EFNU 0 0 0
 stand stand male 4000
 0 0 medium 0
 #6517
-yï¿½lan dev~
-dev yï¿½lan~
-Dev bir yï¿½lan burada, yutacak birini arï¿½yor.
+yýlan dev~
+dev yýlan~
+Dev bir yýlan burada, yutacak birini arýyor.
 ~
 ~
 snake~
@@ -260,11 +260,11 @@ EFNR 0 0 0
 stand stand male 150
 0 0 medium 0
 #6518
-cï¿½ce maden iï¿½ï¿½i~
-cï¿½ce madenci~
-Bir cï¿½ce maden iï¿½ï¿½isi burada.
+cüce maden iþçi~
+cüce madenci~
+Bir cüce maden iþçisi burada.
 ~
-ï¿½ok pis ve ï¿½ok yorgun gï¿½rï¿½nï¿½yor. Ama diï¿½erlerinin aksine birini
+Çok pis ve çok yorgun görünüyor. Ama diðerlerinin aksine birini
 bekler gibi bir hali var.
 ~
 dwarf~
@@ -279,25 +279,25 @@ stand stand male 175
 #OBJECTS
 
 #6502
-yeï¿½il anahtar~
-bir yeï¿½il anahtar~
-Yeï¿½il bir anahtar yerde duruyor.~
+yeþil anahtar~
+bir yeþil anahtar~
+Yeþil bir anahtar yerde duruyor.~
 wood~
 key 0 A
 0 0 0 0 0
 0 10 0 P
 #6504
-cï¿½ce topuz~
-bir cï¿½ce topuz~
-Bir cï¿½ce topuzu yerde yatï¿½yor.~
+cüce topuz~
+bir cüce topuz~
+Bir cüce topuzu yerde yatýyor.~
 iron wood~
 weapon 0 AN
 mace 4 5 pound 0
 17 30 880 P
 #6505
-cï¿½ce zï¿½rh~
-bir cï¿½ce zï¿½rhï¿½~
-Bir cï¿½ce zï¿½rhï¿½ yerde yatï¿½yor.~
+cüce zýrh~
+bir cüce zýrhý~
+Bir cüce zýrhý yerde yatýyor.~
 iron~
 armor 0 AD
 7 7 7 0 0
@@ -305,31 +305,31 @@ armor 0 AD
 #6506
 asa uzun siyah~
 bir uzun siyah asa~
-Uzun siyah bir asa burada yatï¿½yor.~
+Uzun siyah bir asa burada yatýyor.~
 wood cloth~
 staff 0 AO
 4 10 10 'cure critical' 0
 11 10 4800 P
 #6507
-meï¿½ale uzun~
-bir uzun meï¿½ale~
-Uzun bir meï¿½ale burada bï¿½rakï¿½lmï¿½ï¿½.~
+meþale uzun~
+bir uzun meþale~
+Uzun bir meþale burada býrakýlmýþ.~
 wood cloth~
 light 0 AO
 0 0 50 0 0
 0 10 0 P
 #6508
-topuz cï¿½ce~
-bir cï¿½ce topuzu~
-Bir cï¿½ce topuzu burada yatï¿½yor.~
+topuz cüce~
+bir cüce topuzu~
+Bir cüce topuzu burada yatýyor.~
 wood~
 weapon 0 AN
 mace 2 7 pound 0
 10 10 510 P
 #6509
-cï¿½ce balta~
-bir cï¿½ce baltasï¿½~
-Bir cï¿½ce baltasï¿½ burada yatï¿½yor.~
+cüce balta~
+bir cüce baltasý~
+Bir cüce baltasý burada yatýyor.~
 wood steel~
 weapon 0 AN
 axe 3 7 cleave F
@@ -341,17 +341,17 @@ A
 A
 19 2
 #6510
-cï¿½ce miï¿½fer~
-bir cï¿½ce miï¿½feri~
-Bir cï¿½ce miï¿½feri burada.~
+cüce miðfer~
+bir cüce miðferi~
+Bir cüce miðferi burada.~
 iron~
 armor 0 AE
 7 7 7 0 0
 20 40 1450 P
 #6511
-altï¿½n cï¿½ce yï¿½zï¿½k~
-bir altï¿½n cï¿½ce yï¿½zï¿½ï¿½ï¿½~
-Gï¿½zel bir altï¿½n cï¿½ce yï¿½zï¿½ï¿½ï¿½ burada.~
+altýn cüce yüzük~
+bir altýn cüce yüzüðü~
+Güzel bir altýn cüce yüzüðü burada.~
 gold~
 gem G AB
 0 0 0 0 0
@@ -361,9 +361,9 @@ A
 A
 18 1
 #6512
-cï¿½ce eldiven~
-bir ï¿½ift cï¿½ce eldiveni~
-Bir ï¿½ift cï¿½ce eldiveni burada bï¿½rakï¿½lmï¿½ï¿½.~
+cüce eldiven~
+bir çift cüce eldiveni~
+Bir çift cüce eldiveni burada býrakýlmýþ.~
 leather~
 armor 0 AH
 5 5 5 0 0
@@ -375,72 +375,72 @@ A
 #6513
 not~
 bir not~
-Buruï¿½muï¿½ bir not burada.~
+Buruþmuþ bir not burada.~
 paper~
 furniture 0 A
 0 0 0 0 0
 0 0 0 P
 E
 not~
-Bu kaï¿½ï¿½tta kraliï¿½enin yazdï¿½ï¿½ï¿½ oldukï¿½a ateï¿½li bir aï¿½k mektubu var.
-Pek tabii ki bï¿½ylesine herkese aï¿½ï¿½k bir networkte mektubu
-anlayacaï¿½ï¿½nï¿½z dile ï¿½evirmemizi beklemeyin.
+Bu kaðýtta kraliçenin yazdýðý oldukça ateþli bir aþk mektubu var.
+Pek tabii ki böylesine herkese açýk bir networkte mektubu
+anlayacaðýnýz dile çevirmemizi beklemeyin.
 ~
 #6514
 kale anahtar~
-bir kale anahtarï¿½~
-Bir anahtar burada bï¿½rakï¿½lmï¿½ï¿½.~
+bir kale anahtarý~
+Bir anahtar burada býrakýlmýþ.~
 iron~
 key 0 A
 0 0 0 0 0
 0 0 0 P
 #6516
 anahtar maden~
-bir maden anahtarï¿½~
-Bir anahtar burada bï¿½rakï¿½lmï¿½ï¿½.~
+bir maden anahtarý~
+Bir anahtar burada býrakýlmýþ.~
 iron~
 key 0 A
 0 0 0 0 0
 0 0 0 P
 #6517
-kï¿½mï¿½r yï¿½ï¿½ï¿½n~
-bir kï¿½mï¿½r yï¿½ï¿½ï¿½nï¿½~
-Bir kï¿½mï¿½r yï¿½ï¿½ï¿½nï¿½ burada unutulmuï¿½.~
+kömür yýðýn~
+bir kömür yýðýný~
+Bir kömür yýðýný burada unutulmuþ.~
 coal~
 trash T AO
 0 0 0 0 0
 0 10 0 P
 #6518
 maden kazma~
-bir maden kazmasï¿½~
-Bir maden kazmasï¿½ burada bï¿½rakï¿½lmï¿½ï¿½.~
+bir maden kazmasý~
+Bir maden kazmasý burada býrakýlmýþ.~
 iron wood~
 weapon I AN
 mace 2 3 pierce 0
 3 10 240 P
 #6519
-hap doï¿½um konasura~
-bir kutu doï¿½um kontrol hapï¿½~
-Bir kutu doï¿½um kontrol hapï¿½ burada bï¿½rakï¿½lmï¿½ï¿½.~
+hap doðum kontrol~
+bir kutu doðum kontrol hapý~
+Bir kutu doðum kontrol hapý burada býrakýlmýþ.~
 unknown~
 pill 0 A
 20 'cure light' 'cure light' 'cure light' ''
 0 10 300 P
 E
-doï¿½um kontrol haplar~
-Bir kutunun iï¿½indeler. Bir sï¿½redir kullanï¿½lmamï¿½ï¿½lar.
-Son kullanma tarihi de geï¿½memiï¿½, denemek ister misin?
+doðum kontrol haplar~
+Bir kutunun içindeler. Bir süredir kullanýlmamýþlar.
+Son kullanma tarihi de geçmemiþ, denemek ister misin?
 ~
 #6520
-aï¿½k kale harita~
-bir aï¿½k kalesi haritasï¿½~
-Rulo edilmiï¿½ bir harita burada.~
+aþk kale harita~
+bir aþk kalesi haritasý~
+Rulo edilmiþ bir harita burada.~
 paper~
 map 0 A
 1 0 0 0 0
 0 10 500 P
 E
-harita kale aï¿½k~
+harita kale aþk~
 .
 * * * Castle Strangelove * * *       __________
  = = ==================== = =        \ Queen's \
@@ -481,17 +481,17 @@ harita kale aï¿½k~
                              Kingdom
 ~
 #6521
-demir kï¿½lï¿½e~
-bï¿½yï¿½k miktar demir kï¿½lï¿½esi~
-Burada bï¿½yï¿½k miktar demir kï¿½lï¿½esi duruyor.~
+demir külçe~
+büyük miktar demir külçesi~
+Burada büyük miktar demir külçesi duruyor.~
 iron~
 trash T AO
 0 0 0 0 0
 0 30 0 P
 #6522
-cï¿½ce ï¿½ekici~
-bir cï¿½ce ï¿½ekici~
-Yerde yatan bir cï¿½ce ï¿½ekici gï¿½rï¿½yorsun.~
+cüce çekici~
+bir cüce çekici~
+Yerde yatan bir cüce çekici görüyorsun.~
 iron~
 trash T AO
 0 0 0 0 0
@@ -501,11 +501,11 @@ trash T AO
 
 #ROOMS
 #6500
-Cï¿½ce Kasabasï¿½na Yol~
-Her yanï¿½nda gï¿½ney bï¿½lgesi daï¿½larï¿½ -ki evleridir cï¿½celerle devlerin.
-Batï¿½dan buralarï¿½ terk ederek daï¿½a tekrar tï¿½rmanabilirsin ya da kuzey maden
-bacalarï¿½nï¿½n enginliï¿½ini tararsï¿½n. Pis bir yol gï¿½neye ilerliyor ve o yï¿½nde
-kï¿½ï¿½ï¿½k bir bina gï¿½rï¿½nï¿½yor. ï¿½ï¿½inden gelen aï¿½lama ve yakarma seslerini
+Cüce Kasabasýna Yol~
+Her yanýnda güney bölgesi daðlarý -ki evleridir cücelerle devlerin.
+Batýdan buralarý terk ederek daða tekrar týrmanabilirsin ya da kuzey maden
+bacalarýnýn enginliðini tararsýn. Pis bir yol güneye ilerliyor ve o yönde
+küçük bir bina görünüyor. Ýçinden gelen aðlama ve yakarma seslerini
 duyabiliyorsun.
 ~
 0 0 2
@@ -515,76 +515,76 @@ Yol devam ediyor.
 ~
 0 -1 6501
 D2
-Kï¿½ï¿½ï¿½k ayaklarï¿½n patï¿½rtï¿½sï¿½nï¿½ dï¿½yï¿½yorsun.
+Küçük ayaklarýn patýrtýsýný dýyýyorsun.
 ~
 ~
 0 -1 6601
 D3
-Taï¿½lï¿½ bir yol Moria madenlerinden ayrï¿½lï¿½p Vispa'ya dï¿½nï¿½yor.
+Taþlý bir yol Moria madenlerinden ayrýlýp Vispa'ya dönüyor.
 ~
 ~
 0 -1 6562
 S
 #6501
-Yol - Daï¿½ï¿½n Tabanï¿½~
-Artï¿½k daï¿½ï¿½n tabanï¿½ndasï¿½n. ï¿½evrendeki orman ï¿½ok sï¿½k ve kuzey oldukï¿½a
-karanlï¿½k.
+Yol - Daðýn Tabaný~
+Artýk daðýn tabanýndasýn. Çevrendeki orman çok sýk ve kuzey oldukça
+karanlýk.
 ~
 0 0 4
 D0
-Yol daï¿½ï¿½n tepesine devam ediyor.
+Yol daðýn tepesine devam ediyor.
 ~
 ~
 0 -1 6502
 D2
-Yol ï¿½ehre iniyor.
+Yol þehre iniyor.
 ~
 ~
 0 -1 6500
 S
 #6502
-Yol - Daï¿½ï¿½n Gï¿½beï¿½i~
-Daï¿½ï¿½n gï¿½beï¿½inde dururken gï¿½neye dï¿½nen yolu gï¿½rebiliyorsun. Daï¿½ï¿½n zirvesi
-ise kuzeyde, ï¿½ok yakï¿½n.
+Yol - Daðýn Göbeði~
+Daðýn göbeðinde dururken güneye dönen yolu görebiliyorsun. Daðýn zirvesi
+ise kuzeyde, çok yakýn.
 ~
 0 0 5
 D0
-Buradan daï¿½ï¿½n zirvesi kolayca gï¿½rï¿½nï¿½yor.
+Buradan daðýn zirvesi kolayca görünüyor.
 ~
 ~
 0 -1 6503
 D2
-Daï¿½ï¿½n tabanï¿½ oldukï¿½a yakï¿½n.
+Daðýn tabaný oldukça yakýn.
 ~
 ~
 0 -1 6501
 S
 #6503
-Daï¿½ï¿½n Zirvesi~
-Daï¿½ï¿½n zirvesindesin. Gï¿½neyde daï¿½dan inen bir yol gï¿½rï¿½yorsun. Doï¿½uda ve
-batï¿½da maden giriï¿½ine benzer giriï¿½ler var.
+Daðýn Zirvesi~
+Daðýn zirvesindesin. Güneyde daðdan inen bir yol görüyorsun. Doðuda ve
+batýda maden giriþine benzer giriþler var.
 ~
 0 0 4
 D1
-Daï¿½a giriï¿½ aï¿½aï¿½ï¿½ yï¿½neliyor.
+Daða giriþ aþaðý yöneliyor.
 ~
 ~
 0 -1 6540
 D2
-Yol daï¿½dan aï¿½aï¿½ï¿½, ï¿½ehre ilerliyor.
+Yol daðdan aþaðý, þehre ilerliyor.
 ~
 ~
 0 -1 6502
 D3
-Burada daï¿½a bir giriï¿½ var.
+Burada daða bir giriþ var.
 ~
 ~
 0 -1 6505
 S
 #6504
 Dar Yol~
-Bu Cï¿½ce Krallï¿½ï¿½ï¿½na giden dar yol. Az kullanï¿½lmï¿½ï¿½a benziyor. Yol gï¿½neye
-aï¿½ï¿½lï¿½yor ve kuzeye devam ediyor.
+Bu Cüce Krallýðýna giden dar yol. Az kullanýlmýþa benziyor. Yol güneye
+açýlýyor ve kuzeye devam ediyor.
 ~
 0 0 0
 D0
@@ -599,8 +599,8 @@ D2
 0 -1 6540
 S
 #6505
-Daï¿½ Giriï¿½i~
-Burada daï¿½a giriï¿½ var. Kapï¿½ ï¿½ok gï¿½zel inï¿½a edilmiï¿½ ve iï¿½inden gelen
+Dað Giriþi~
+Burada daða giriþ var. Kapý çok güzel inþa edilmiþ ve içinden gelen
 sesleri duyabiliyorsun.
 ~
 0 0 2
@@ -612,19 +612,19 @@ D1
 D3
 
 ~
-kapï¿½~
+kapý~
 2 6502 6513
 S
 #6506
-Dar Yol Dï¿½nï¿½ï¿½ï¿½~
-Burasï¿½ yolun doï¿½uya kï¿½vrï¿½ldï¿½ï¿½ï¿½ bir bï¿½kï¿½m. Aï¿½aï¿½lar ï¿½ok bï¿½yï¿½mï¿½ï¿½ ve yola
-sarkmï¿½ï¿½. Dar yol gï¿½neye ve doï¿½uya ilerliyor.
+Dar Yol Dönüþü~
+Burasý yolun doðuya kývrýldýðý bir büküm. Aðaçlar çok büyümüþ ve yola
+sarkmýþ. Dar yol güneye ve doðuya ilerliyor.
 ~
 0 0 0
 E
-aï¿½aï¿½~
-Ne kadar da yaï¿½lï¿½lar. Senin bï¿½yï¿½k bï¿½yï¿½k baban altï¿½na iï¿½erken onlar
-burada karbondioksiti oksijene dï¿½nï¿½ï¿½tï¿½rï¿½yordu.
+aðaç~
+Ne kadar da yaþlýlar. Senin büyük büyük baban altýna iþerken onlar
+burada karbondioksiti oksijene dönüþtürüyordu.
 ~
 D1
 
@@ -639,7 +639,7 @@ D2
 S
 #6507
 Dar Yol~
-Bu yol ï¿½ok dar ve kuzeyle batï¿½ya ilerliyor.
+Bu yol çok dar ve kuzeyle batýya ilerliyor.
 ~
 0 0 0
 D0
@@ -654,8 +654,8 @@ D3
 0 -1 6506
 S
 #6508
-Dar Kuzey-Gï¿½ney Yolu~
-Yol kuzeye ve gï¿½neye gidiyor. Kuzeyde bir kapï¿½ gï¿½rï¿½yorsun, gï¿½neydeyse yol
+Dar Kuzey-Güney Yolu~
+Yol kuzeye ve güneye gidiyor. Kuzeyde bir kapý görüyorsun, güneydeyse yol
 devam ediyor.
 ~
 0 0 0
@@ -671,15 +671,15 @@ D2
 0 -1 6507
 S
 #6509
-Krallï¿½k Kapï¿½sï¿½~
-Yol burada batï¿½ya dï¿½nï¿½yor. ï¿½nï¿½nde bir kapï¿½ gï¿½rï¿½yorsun. Yol batï¿½ya ve
-gï¿½neye devam ediyor.
+Krallýk Kapýsý~
+Yol burada batýya dönüyor. Önünde bir kapý görüyorsun. Yol batýya ve
+güneye devam ediyor.
 ~
 0 0 0
 D1
 
 ~
-kapï¿½~
+kapý~
 2 6502 6510
 D2
 
@@ -694,8 +694,8 @@ D3
 S
 #6510
 Kaleye Giden Yol~
-Kesinlikle kaleye ilerleyen yol ï¿½zerindesin. Yol kuzeyde kaleye gidiyor
-ve batï¿½ duvarï¿½nda kapï¿½ var.
+Kesinlikle kaleye ilerleyen yol üzerindesin. Yol kuzeyde kaleye gidiyor
+ve batý duvarýnda kapý var.
 ~
 0 0 0
 D0
@@ -706,13 +706,13 @@ D0
 D3
 
 ~
-kapï¿½~
+kapý~
 2 6502 6509
 S
 #6511
 Kaleye Giden Yol~
-Hala kaleye giden yoldasï¿½n. Cï¿½ce kasabasï¿½ gerinde kaldï¿½. Yol kuzeye ve
-gï¿½neye devam ediyor.
+Hala kaleye giden yoldasýn. Cüce kasabasý gerinde kaldý. Yol kuzeye ve
+güneye devam ediyor.
 ~
 0 0 0
 D0
@@ -727,16 +727,16 @@ D2
 0 -1 6510
 S
 #6512
-Kale Kapï¿½sï¿½~
-Doï¿½uda kaleye bir kapï¿½ var. Kale oldukï¿½a zarif ama bir rulo tuvalet
-kaï¿½ï¿½dï¿½nï¿½ andï¿½rï¿½yor. Gï¿½rdï¿½ï¿½ï¿½n bir iï¿½aret diyor ki: HOï¿½GELDï¿½N Aï¿½K KALESï¿½NE ! !
-BURADA Dï¿½Nï¿½ AYï¿½NLER YASAKTIR ! !
+Kale Kapýsý~
+Doðuda kaleye bir kapý var. Kale oldukça zarif ama bir rulo tuvalet
+kaðýdýný andýrýyor. Gördüðün bir iþaret diyor ki: HOÞGELDÝN AÞK KALESÝNE ! !
+BURADA DÝNÝ AYÝNLER YASAKTIR ! !
 ~
 0 0 0
 D1
 
 ~
-kapï¿½~
+kapý~
 2 6514 6525
 D2
 
@@ -745,31 +745,31 @@ D2
 0 -1 6511
 S
 #6513
-Giriï¿½in ï¿½ï¿½inde~
-Buradaki herï¿½ey kurumla kaplanmï¿½ï¿½. Yol doï¿½uya ve kuzeye devam ediyor.
-Batï¿½da bir kapï¿½ var.
+Giriþin Ýçinde~
+Buradaki herþey kurumla kaplanmýþ. Yol doðuya ve kuzeye devam ediyor.
+Batýda bir kapý var.
 ~
 0 0 0
 D0
-Kï¿½ï¿½ï¿½k yeraltï¿½ yolu kuzeye gidiyor.
+Küçük yeraltý yolu kuzeye gidiyor.
 ~
 ~
 0 -1 6514
 D1
-Yol giriï¿½ten dï¿½ï¿½arï¿½ ï¿½ï¿½kï¿½yor.
+Yol giriþten dýþarý çýkýyor.
 ~
-kapï¿½~
+kapý~
 2 6502 6505
 D3
-Burasï¿½ bir ï¿½eï¿½it depo giriï¿½i gibi.
+Burasý bir çeþit depo giriþi gibi.
 ~
 ~
 0 -1 6526
 S
 #6514
 Yol~
-Kuzeyde dï¿½kkanlara ve gï¿½neyde alanï¿½n kavï¿½aï¿½ï¿½na ilerleyen cï¿½ce kasabasï¿½
-yolundasï¿½n.
+Kuzeyde dükkanlara ve güneyde alanýn kavþaðýna ilerleyen cüce kasabasý
+yolundasýn.
 ~
 0 0 0
 D0
@@ -784,8 +784,8 @@ D2
 0 -1 6513
 S
 #6515
-Yol Dï¿½nï¿½ï¿½ï¿½~
-Yol batï¿½da Cï¿½ce dï¿½kkanï¿½na ve gï¿½neye ilerliyor.
+Yol Dönüþü~
+Yol batýda Cüce dükkanýna ve güneye ilerliyor.
 ~
 0 0 0
 D2
@@ -794,15 +794,15 @@ D2
 ~
 0 -1 6514
 D3
-Cï¿½ce dï¿½kkanï¿½ batï¿½da.
+Cüce dükkaný batýda.
 ~
 ~
 0 -1 6516
 S
 #6516
-Cï¿½ce Dï¿½kkanï¿½~
-Cï¿½ce dï¿½kkanï¿½ndasï¿½n. Burada en iyi cï¿½ce silah ve zï¿½rhlarï¿½nï¿½ satï¿½n
-alabilirsin. Yol kuzeye ve doï¿½uya devam ediyor.
+Cüce Dükkaný~
+Cüce dükkanýndasýn. Burada en iyi cüce silah ve zýrhlarýný satýn
+alabilirsin. Yol kuzeye ve doðuya devam ediyor.
 ~
 0 0 0
 D0
@@ -817,9 +817,9 @@ D1
 0 -1 6515
 S
 #6517
-Dï¿½kkanï¿½n Kuzeyine Giden Yol~
-Cï¿½ce dï¿½kkanï¿½nï¿½n kuzeyine giden bir yoldasï¿½n. Yol kuzeye devam
-ediyor ve Granit Kafa'nï¿½n fï¿½rï¿½nï¿½ batï¿½da.
+Dükkanýn Kuzeyine Giden Yol~
+Cüce dükkanýnýn kuzeyine giden bir yoldasýn. Yol kuzeye devam
+ediyor ve Granit Kafa'nýn fýrýný batýda.
 ~
 0 0 0
 D0
@@ -839,8 +839,8 @@ D3
 0 -1 6535
 S
 #6518
-Dï¿½kkanlarï¿½n Kuzeyi~
-Yol burada doï¿½udaki kï¿½ï¿½laya kï¿½vrï¿½lï¿½yor. Gï¿½neyde dï¿½kkanlarï¿½ gï¿½rebiliyorsun.
+Dükkanlarýn Kuzeyi~
+Yol burada doðudaki kýþlaya kývrýlýyor. Güneyde dükkanlarý görebiliyorsun.
 ~
 0 0 0
 D1
@@ -856,8 +856,8 @@ D2
 S
 #6519
 Hastane Yolu~
-Yol burada hastaneyi geï¿½erek kuzeye ilerliyor. Doï¿½uda kï¿½ï¿½laya ve batï¿½ya
-dï¿½nebilirsiniz.
+Yol burada hastaneyi geçerek kuzeye ilerliyor. Doðuda kýþlaya ve batýya
+dönebilirsiniz.
 ~
 0 0 0
 D0
@@ -877,8 +877,8 @@ D3
 0 -1 6518
 S
 #6520
-Kï¿½ï¿½laya Bitiï¿½ik Yol~
-Yol batï¿½ya devam ediyor. Doï¿½uda ise kï¿½ï¿½la var.
+Kýþlaya Bitiþik Yol~
+Yol batýya devam ediyor. Doðuda ise kýþla var.
 ~
 0 0 0
 D1
@@ -893,14 +893,14 @@ D3
 0 -1 6519
 S
 #6521
-Kï¿½ï¿½laya Giriï¿½~
-Gï¿½neyde kï¿½ï¿½la giriï¿½i var. Yol batï¿½ya devam ediyor.
+Kýþlaya Giriþ~
+Güneyde kýþla giriþi var. Yol batýya devam ediyor.
 ~
 0 0 0
 D2
 
 ~
-kapï¿½~
+kapý~
 1 -1 6523
 D3
 
@@ -909,8 +909,8 @@ D3
 0 -1 6520
 S
 #6522
-Muhafï¿½z Evi~
-Kale giriï¿½ine ait muhafï¿½z evi batï¿½da. Duvarlarda ï¿½ï¿½plak posterler var.
+Muhafýz Evi~
+Kale giriþine ait muhafýz evi batýda. Duvarlarda çýplak posterler var.
 ~
 0 0 0
 E
@@ -924,15 +924,15 @@ D1
 0 -1 6509
 S
 #6523
-ï¿½lk Kï¿½ï¿½la Odasï¿½~
-Kï¿½ï¿½lanï¿½n iki ana odasï¿½ndan ilkindesin. Kï¿½ï¿½la gï¿½neye devam ediyor,
-kuzeyden odayï¿½ terkedebilirsin.
+Ýlk Kýþla Odasý~
+Kýþlanýn iki ana odasýndan ilkindesin. Kýþla güneye devam ediyor,
+kuzeyden odayý terkedebilirsin.
 ~
 0 0 0
 D0
 
 ~
-kapï¿½~
+kapý~
 1 -1 6521
 D2
 
@@ -941,8 +941,8 @@ D2
 0 -1 6524
 S
 #6524
-Kï¿½ï¿½lanï¿½n Arkasï¿½~
-Burasï¿½ kï¿½ï¿½lanï¿½n arkasï¿½. Sï¿½ra sï¿½ra yataklar gï¿½rï¿½yorsun. ï¿½ï¿½erde dayanï¿½lmaz
+Kýþlanýn Arkasý~
+Burasý kýþlanýn arkasý. Sýra sýra yataklar görüyorsun. Ýçerde dayanýlmaz
 bir koku var.
 ~
 0 0 0
@@ -954,19 +954,19 @@ D0
 D5
 
 ~
-kapï¿½~
+kapý~
 1 -1 2001
 S
 #6525
-Aï¿½k Kalesinin ï¿½ï¿½inde~
-Kalenin iï¿½indesin. Boru ï¿½eklinde ve ï¿½zelliksiz bir yer. Yukarï¿½ ï¿½ï¿½kan bir
-merdiven var, batï¿½daki kapï¿½dan kalenin dï¿½ï¿½ï¿½na ï¿½ï¿½kï¿½lï¿½yor.
+Aþk Kalesinin Ýçinde~
+Kalenin içindesin. Boru þeklinde ve özelliksiz bir yer. Yukarý çýkan bir
+merdiven var, batýdaki kapýdan kalenin dýþýna çýkýlýyor.
 ~
 0 0 0
 D3
 
 ~
-kapï¿½~
+kapý~
 2 6514 6512
 D4
 
@@ -975,29 +975,29 @@ D4
 0 -1 6528
 S
 #6526
-Depo Odasï¿½~
-Yerde 8 santimetre kalï¿½nlï¿½ï¿½ï¿½nda toz var. Aylardï¿½r buraya kimse uï¿½ramamï¿½ï¿½.
+Depo Odasý~
+Yerde 8 santimetre kalýnlýðýnda toz var. Aylardýr buraya kimse uðramamýþ.
 ~
 0 0 0
 E
 yer toz~
-Yerdeki bï¿½tï¿½n tozu havaya kaldï¿½rï¿½nca gizli bir kapï¿½ gï¿½rï¿½yorsun.
+Yerdeki bütün tozu havaya kaldýrýnca gizli bir kapý görüyorsun.
 ~
 D1
-Iï¿½ï¿½klï¿½ fakat yï¿½pranmï¿½ï¿½ bir yol.
+Iþýklý fakat yýpranmýþ bir yol.
 ~
 ~
 0 -1 6513
 D5
 
 ~
-kapï¿½~
+kapý~
 1 0 6527
 S
 #6527
-ï¿½arap Mahzeni~
-Etraftaki yoï¿½un ï¿½arap kokusundan buranï¿½n daha ï¿½nce ï¿½arap mahzeni olarak
-kullanï¿½ldï¿½ï¿½ï¿½nï¿½ anlï¿½yorsun.
+Þarap Mahzeni~
+Etraftaki yoðun þarap kokusundan buranýn daha önce þarap mahzeni olarak
+kullanýldýðýný anlýyorsun.
 ~
 0 0 0
 D4
@@ -1008,12 +1008,12 @@ D4
 D5
 
 ~
-kapï¿½~
+kapý~
 1 -1 2065
 S
 #6528
 Kaledeki Merdivenler~
-Merdivenler daire ï¿½izerek aï¿½aï¿½ï¿½ ve yukarï¿½ ilerliyor.
+Merdivenler daire çizerek aþaðý ve yukarý ilerliyor.
 ~
 0 0 0
 D4
@@ -1029,8 +1029,8 @@ D5
 S
 #6529
 Merdivenler~
-Hala merdivenlerde daire ï¿½iziyorsun. Sï¿½rekli daire ï¿½izmekten sï¿½kï¿½ldï¿½n
-artï¿½k. Merdivenler yukarï¿½ ve aï¿½aï¿½ï¿½ ilerliyor.
+Hala merdivenlerde daire çiziyorsun. Sürekli daire çizmekten sýkýldýn
+artýk. Merdivenler yukarý ve aþaðý ilerliyor.
 ~
 0 0 0
 D4
@@ -1046,8 +1046,8 @@ D5
 S
 #6530
 Merdivenlerin Tepesi~
-Kalenin iï¿½inde, merdivenlerin tepesindesin. Doï¿½uda bir ï¿½ï¿½kï¿½ï¿½ var ve
-merdivenler aï¿½aï¿½ï¿½ uzanï¿½yor.
+Kalenin içinde, merdivenlerin tepesindesin. Doðuda bir çýkýþ var ve
+merdivenler aþaðý uzanýyor.
 ~
 0 0 0
 D1
@@ -1062,16 +1062,16 @@ D5
 0 -1 6529
 S
 #6531
-Kraliï¿½enin Bekleme Odasï¿½~
-Burasï¿½ kraliï¿½enin bekleme odasï¿½. Kraliï¿½e insanlarï¿½nï¿½n biblo gibi
-beklemesinden hoï¿½lanï¿½yor. Kraliï¿½enin yatak odasï¿½ kuzeyde, batï¿½da
-merdivenleri gï¿½rebiliyorsun.
+Kraliçenin Bekleme Odasý~
+Burasý kraliçenin bekleme odasý. Kraliçe insanlarýnýn biblo gibi
+beklemesinden hoþlanýyor. Kraliçenin yatak odasý kuzeyde, batýda
+merdivenleri görebiliyorsun.
 ~
 0 0 0
 D0
 
 ~
-kapï¿½~
+kapý~
 2 6502 6532
 D3
 
@@ -1080,22 +1080,22 @@ D3
 0 -1 6530
 S
 #6532
-Yatak Odasï¿½~
-Burasï¿½ kraliï¿½enin yatak odasï¿½. Yatak kï¿½rï¿½ï¿½ kï¿½rï¿½ï¿½. Kï¿½ï¿½ede kirli ï¿½arï¿½af
-yï¿½ï¿½ï¿½n var. Aynaya rujla bir not yazï¿½lmï¿½ï¿½: "doï¿½um kontrol haplarï¿½mï¿½ aramaya
-gidiyorum. Neden beklerken kendine bir iï¿½ki almï¿½yorsun?"
+Yatak Odasý~
+Burasý kraliçenin yatak odasý. Yatak kýrýþ kýrýþ. Köþede kirli çarþaf
+yýðýn var. Aynaya rujla bir not yazýlmýþ: "doðum kontrol haplarýmý aramaya
+gidiyorum. Neden beklerken kendine bir içki almýyorsun?"
 ~
 0 0 0
 D2
 
 ~
-kapï¿½~
+kapý~
 2 6502 6531
 S
 #6534
 Hastane~
-Cï¿½ce hastanesindesin. ï¿½ï¿½rï¿½mï¿½ï¿½ alkol kokuyor. Duvarlarda kan izleri
-gï¿½rï¿½yorsun.
+Cüce hastanesindesin. Çürümüþ alkol kokuyor. Duvarlarda kan izleri
+görüyorsun.
 ~
 0 0 0
 D2
@@ -1105,8 +1105,8 @@ D2
 0 -1 6519
 S
 #6535
-Fï¿½rï¿½n~
-Bu odadaki koku mis gibi. Piï¿½en haburu tadï¿½yorsun sanki. Taze taze...
+Fýrýn~
+Bu odadaki koku mis gibi. Piþen haburu tadýyorsun sanki. Taze taze...
 ~
 0 0 0
 D1
@@ -1116,8 +1116,8 @@ D1
 0 -1 6517
 S
 #6540
-Karanlï¿½k Yol~
-Yol ï¿½ok aï¿½ï¿½nmï¿½ï¿½ ve doï¿½uda madenlere bir giriï¿½ var. Yol kuzeye ve batï¿½ya
+Karanlýk Yol~
+Yol çok aþýnmýþ ve doðuda madenlere bir giriþ var. Yol kuzeye ve batýya
 devam ediyor.
 ~
 0 0 0
@@ -1129,7 +1129,7 @@ D0
 D1
 
 ~
-kapï¿½~
+kapý~
 2 6502 6541
 D3
 
@@ -1138,14 +1138,14 @@ D3
 0 -1 6503
 S
 #6541
-Maden Giriï¿½i~
-Kï¿½ï¿½ï¿½k yol aï¿½aï¿½ï¿½ madenlere yï¿½neliyor. Aï¿½ï¿½nmï¿½ï¿½ yol ise batï¿½ya devam ediyor.
+Maden Giriþi~
+Küçük yol aþaðý madenlere yöneliyor. Aþýnmýþ yol ise batýya devam ediyor.
 ~
 0 0 0
 D3
 
 ~
-kapï¿½~
+kapý~
 2 6502 6540
 D5
 
@@ -1154,9 +1154,9 @@ D5
 0 -1 6542
 S
 #6542
-Madenin ï¿½ï¿½inde~
-Etrafta bir sï¿½rï¿½ delik var. Cï¿½celer bu kayanï¿½n iï¿½inde bu ï¿½ekilde ne
-aramï¿½ï¿½ olabilirler? Bir yol aï¿½aï¿½ï¿½ ve yukarï¿½ gidiyor.
+Madenin Ýçinde~
+Etrafta bir sürü delik var. Cüceler bu kayanýn içinde bu þekilde ne
+aramýþ olabilirler? Bir yol aþaðý ve yukarý gidiyor.
 ~
 0 0 0
 D4
@@ -1172,8 +1172,8 @@ D5
 S
 #6543
 Maden Yolu~
-Madenin derinlerindesin ve kendini hiï¿½ rahat hissetmiyorsun. Yol doï¿½uya
-ve batï¿½da maden bacasï¿½na ilerliyor.
+Madenin derinlerindesin ve kendini hiç rahat hissetmiyorsun. Yol doðuya
+ve batýda maden bacasýna ilerliyor.
 ~
 0 0 0
 D1
@@ -1188,15 +1188,15 @@ D3
 0 -1 6554
 S
 #6544
-Maden Kavï¿½aï¿½ï¿½~
-Madende bir kavï¿½aktasï¿½n. Kuzeyde bir kapï¿½ var. Yol ise gï¿½neye, doï¿½uya ve
-batï¿½ya devam ediyor.
+Maden Kavþaðý~
+Madende bir kavþaktasýn. Kuzeyde bir kapý var. Yol ise güneye, doðuya ve
+batýya devam ediyor.
 ~
 0 0 0
 D0
 
 ~
-kapï¿½~
+kapý~
 2 6502 6546
 D1
 
@@ -1215,9 +1215,9 @@ D3
 0 -1 6543
 S
 #6545
-Kï¿½mï¿½r Odasï¿½~
-Madenin depolandï¿½ï¿½ï¿½ bï¿½lï¿½mdesin. Kolonlar ï¿½ï¿½rï¿½k gibi gï¿½rï¿½nse de oda ï¿½ok
-saï¿½lam.
+Kömür Odasý~
+Madenin depolandýðý bölümdesin. Kolonlar çürük gibi görünse de oda çok
+saðlam.
 ~
 0 0 0
 D3
@@ -1228,8 +1228,8 @@ D3
 S
 #6546
 Maden Labirenti~
-Maden labirentine girdin. Doï¿½uda yazï¿½tlar gï¿½rï¿½yorsun ve gï¿½neyden
-ï¿½ï¿½kabilirsin.
+Maden labirentine girdin. Doðuda yazýtlar görüyorsun ve güneyden
+çýkabilirsin.
 ~
 0 0 0
 D1
@@ -1240,12 +1240,12 @@ D1
 D2
 
 ~
-kapï¿½~
+kapý~
 2 6502 6544
 S
 #6547
-Labirent Yazï¿½tï¿½~
-Labirentin iï¿½indesin. ï¿½ok geï¿½meden kaybolabilirsin.
+Labirent Yazýtý~
+Labirentin içindesin. Çok geçmeden kaybolabilirsin.
 ~
 0 0 0
 D0
@@ -1308,10 +1308,10 @@ D3
 0 -1 6552
 S
 #6551
-Maden Ekipman Odasï¿½~
-Cï¿½ce madenciler tarafï¿½ndan kullanï¿½lan maden ekipmanlarï¿½nï¿½n bulunduï¿½u
-odadasï¿½n. Oda oldukï¿½a kï¿½ï¿½ï¿½k olduï¿½undan burayï¿½ ï¿½ok fazla cï¿½cenin
-kullanmadï¿½ï¿½ï¿½nï¿½ dï¿½ï¿½ï¿½nï¿½yorsun.
+Maden Ekipman Odasý~
+Cüce madenciler tarafýndan kullanýlan maden ekipmanlarýnýn bulunduðu
+odadasýn. Oda oldukça küçük olduðundan burayý çok fazla cücenin
+kullanmadýðýný düþünüyorsun.
 ~
 0 0 0
 D0
@@ -1321,11 +1321,11 @@ D0
 0 -1 6544
 S
 #6552
-Labirenti ï¿½ï¿½zdï¿½n~
-Labirenti ï¿½ï¿½zdï¿½n. Birkaï¿½ oda kaldï¿½ï¿½ï¿½ndan beri bir iï¿½ï¿½inin hatï¿½rlayamayacaï¿½ï¿½
-kadar karï¿½ï¿½ï¿½k bir labirentte olduï¿½unu dï¿½ï¿½ï¿½nï¿½yordun. Burasï¿½ oldukï¿½a ï¿½ssï¿½z.
-Gï¿½neyde nahoï¿½ bir oda var. Kuzeyde labirenti gï¿½rï¿½yorsun. Gï¿½ney ï¿½ï¿½kï¿½ï¿½ï¿½nda bir
-suikast (ï¿½zellikle kraliï¿½eye karï¿½ï¿½) planlayanlarï¿½n bir iï¿½areti var.
+Labirenti Çözdün~
+Labirenti çözdün. Birkaç oda kaldýðýndan beri bir iþçinin hatýrlayamayacaðý
+kadar karýþýk bir labirentte olduðunu düþünüyordun. Burasý oldukça ýssýz.
+Güneyde nahoþ bir oda var. Kuzeyde labirenti görüyorsun. Güney çýkýþýnda bir
+suikast (özellikle kraliçeye karþý) planlayanlarýn bir iþareti var.
 ~
 0 0 0
 D1
@@ -1340,10 +1340,10 @@ D3
 0 -1 6553
 S
 #6553
-Labirent Bekï¿½isinin Odasï¿½~
-Labirent bekï¿½isinin odasï¿½na girdin. Duvarda bir kraliï¿½e haritasï¿½ ve
-ï¿½zerine saplanmï¿½ï¿½ dartlar var. Duvarda sprey ile ï¿½unlar yazï¿½lmï¿½ï¿½: "Kraliï¿½e
-acï¿½ ï¿½ekecek", "Katolik Kurallarï¿½"...
+Labirent Bekçisinin Odasý~
+Labirent bekçisinin odasýna girdin. Duvarda bir kraliçe haritasý ve
+üzerine saplanmýþ dartlar var. Duvarda sprey ile þunlar yazýlmýþ: "Kraliçe
+acý çekecek", "Katolik Kurallarý"...
 ~
 0 0 0
 D1
@@ -1353,9 +1353,9 @@ D1
 0 -1 6552
 S
 #6554
-Maden Bacasï¿½nï¿½n Altï¿½~
-Maden bacasï¿½nï¿½n altï¿½ndasï¿½n. Hava kurum kokuyor, nefes almak oldukï¿½a gï¿½ï¿½.
-Baca doï¿½uya ve yukarï¿½ya ilerliyor.
+Maden Bacasýnýn Altý~
+Maden bacasýnýn altýndasýn. Hava kurum kokuyor, nefes almak oldukça güç.
+Baca doðuya ve yukarýya ilerliyor.
 ~
 0 0 0
 D1
@@ -1370,20 +1370,20 @@ D4
 0 -1 6542
 S
 #6562
-Cï¿½ce Krallï¿½ï¿½ï¿½n Daï¿½larï¿½~
-Cï¿½ce diyarï¿½nï¿½n daï¿½larï¿½ndasï¿½n. Cï¿½celerle devler burada daï¿½larï¿½n
-derinliklerinden kï¿½ymetli taï¿½lar ve mitril ï¿½ï¿½karï¿½rlar. Cï¿½ce kraliï¿½esinin
-sarayï¿½ muazzam zenginliï¿½iyle burada. Fakat dikkat et, madenlerde cinlerin ve
-iblislerin dolaï¿½tï¿½ï¿½ï¿½ sï¿½ylenir. Cï¿½ce krallï¿½ï¿½ï¿½ doï¿½uda.
+Cüce Krallýðýn Daðlarý~
+Cüce diyarýnýn daðlarýndasýn. Cücelerle devler burada daðlarýn
+derinliklerinden kýymetli taþlar ve mitril çýkarýrlar. Cüce kraliçesinin
+sarayý muazzam zenginliðiyle burada. Fakat dikkat et, madenlerde cinlerin ve
+iblislerin dolaþtýðý söylenir. Cüce krallýðý doðuda.
 ~
 0 0 5
 D1
-Cï¿½ce Krallï¿½ï¿½ï¿½ bekliyor ! !
+Cüce Krallýðý bekliyor ! !
 ~
 ~
 0 -1 6500
 D3
-Bï¿½yï¿½k daï¿½ï¿½n kï¿½ï¿½ï¿½k tepelerini gï¿½rï¿½yorsun.
+Büyük daðýn küçük tepelerini görüyorsun.
 ~
 ~
 0 -1 4000

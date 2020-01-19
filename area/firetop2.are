@@ -3,7 +3,7 @@ Filename firetop2.are~
 Name Firetop Mountain~
 Builder Yaegar~
 Translator ~
-Language ï¿½ngilizce~
+Language Ýngilizce~
 Lowlevel 10
 Highlevel 20
 Minvnum 5735
@@ -284,7 +284,7 @@ This huge dullard is so big and so dense that he doesn't seem to have even
 registered your presence. You could easily sneak past and escape his lair
 should you so wish...
 ~
-asura~
+troll~
 ABCG NO 0 5702
 13 0 2d10+170 129d1+1 2d5+3 pierce
 -1 -1 -1 8
@@ -292,16 +292,16 @@ IR 0 0 K
 stand stand male 20
 0 0 medium 0
 #5752
-asura~
-a Asura~
-A Asura with very long, powerful arms lopes toward you.
+troll~
+a Troll~
+A Troll with very long, powerful arms lopes toward you.
 ~
 This ugly monster is only 5 feet tall, but its arms are also nearly five
 feet long, and end with wicked, sharp claws that could cut stone. Yellow
 mucous drips from the fevered beast's slavering maw, and you shudder to
 think fo the germs you could be infecte dwith by this grotesque.
 ~
-asura~
+troll~
 AQBCFG NO -500 5702
 13 0 2d10+170 129d1+1 2d5+3 pierce
 -1 -1 -1 8
@@ -2775,19 +2775,19 @@ a junction
 ~
 0 0 5785
 D5
-a asura den
+a troll den
 ~
 ~
 0 0 5789
 S
 #5789
-The Asura Den~
+The Troll Den~
 While climbing down, you misjudge your step, and go tumbling down into the
 hole, which is a LOT deeper than you originally thought. Stunned, you
 slowly turn over, and find yourself staring into the vacant eye sockets of a
 half-eaten decomposing corpse! Leaping back, you fall onto a pile of whitened
 bones, and in a panicked state you suddenly recognise the odor you detected
-earlier - ASURA.
+earlier - TROLL.
 ~
 0 AD 0
 D0
@@ -2798,7 +2798,7 @@ a rough cavern
 S
 #5790
 A Rough Cavern~
-Proceeding away from the Asura den, you come into a long, rough cavern,
+Proceeding away from the Troll den, you come into a long, rough cavern,
 littered with decaying corpses and shards of broken bones and weapons.
 Remembering the previous occupant of this foul place you encountered, you
 grip your trusty weapons firmly and glare about, ready for anything. A
@@ -3782,7 +3782,7 @@ O 1 5766 -1 5777         *LOADS SWORD
 M 0 5755 3 5778 3        *LOADS PIRANHA (10)
 *
 M 0 5751 1 5781 1        *LOADS OGRE (13)
-M 0 5752 1 5789 1        *LOADS ASURA (13)
+M 0 5752 1 5789 1        *LOADS TROLL (13)
 *
 D 0 5790 0 1
 *
@@ -3936,7 +3936,7 @@ M  5746 spec_cast_mage                  *an old man
 M  5747 spec_poison                     *an old man who is a Wererat
 M  5749 spec_poison                     *a giant Bat
 M  5750 spec_poison                     *a giant Spider
-M  5752 spec_poison                     *a Asura
+M  5752 spec_poison                     *a Troll
 M  5753 spec_poison                     *a giant Rat
 M  5758 spec_cast_undead                        *a Wight
 M  5760 spec_breath_fire                        *a Guard Dog

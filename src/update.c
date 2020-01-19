@@ -586,7 +586,7 @@ void mobile_update( void )
 	if ( IS_AFFECTED(ch, AFF_REGENERATION ) && ch->in_room != NULL )
 	{
 	 ch->hit = UMIN( ch->hit + ch->level / 10, ch->max_hit );
-	 if ( RACE(ch) == 18 /* asura */ )
+	 if ( RACE(ch) == 18 /* troll */ )
 	   ch->hit = UMIN( ch->hit + ch->level / 10, ch->max_hit );
 	 if (ch->cabal == CABAL_BATTLE && is_affected(ch, gsn_bandage))
 	   ch->hit = UMIN( ch->hit + ch->level / 10, ch->max_hit );

@@ -113,7 +113,7 @@ const   struct  language_type       language_table      [ MAX_LANGUAGE ] =
   { "cüce",	LANG_DWARVISH	},
   { "gnom",	LANG_GNOMISH	},
   { "dev",	LANG_GIANT	},
-  { "asura",	LANG_ASURA	},
+  { "trol",	LANG_TROLLISH	},
   { "kedi",	LANG_CAT	}
 };
 
@@ -350,8 +350,8 @@ const 	struct	race_type	race_table	[]		=
     },
 
     {  /* 14 */
-	{"asura","asura"},	TRUE, 		0,/*DETECT_HIDDEN*/
-	0,		AFF_REGENERATION|AFF_INFRARED,	OFF_BERSERK|OFF_TAIL,
+	{"troll","trol"},	TRUE, 		0,/*DETECT_HIDDEN*/
+	0,		AFF_REGENERATION|AFF_INFRARED,	OFF_BERSERK,
  	0,	RES_CHARM|RES_BASH,	VULN_FIRE|VULN_ACID,
 	A|B|H|M|V,		A|B|C|D|E|F|G|H|I|J|K|U|V
     },
@@ -1063,10 +1063,10 @@ const	struct	pc_race_type	pc_race_table	[MAX_PC_RACE]	=
     },
 
     {
-	{"asura","asura"},"Asur",400,{ -1,-1,-1,100,-1,100,-1,100,-1,-1,-1,-1,-1},
+	{"troll","trol"},"Trol",400,{ -1,-1,-1,100,-1,100,-1,100,-1,-1,-1,-1,-1},
 	{ "fast healing","trance" },
 	{ 2, -2, -1, -2, 3,0},	{ 19, 23, 20, 25, 18,25 }, SIZE_LARGE,
-	0,0,0,CR_EVIL,LANG_ASURA
+	0,0,0,CR_EVIL,LANG_TROLLISH
     }
 
   };
