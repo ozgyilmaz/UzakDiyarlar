@@ -654,7 +654,7 @@ struct	class_type
 #define LANG_DWARVISH        3
 #define LANG_GNOMISH         4
 #define LANG_GIANT	     5
-#define LANG_TROLLISH        6
+#define LANG_ASURA        6
 #define LANG_CAT	     7
 #define MAX_LANGUAGE	     8
 
@@ -855,7 +855,7 @@ struct	kill_data
 #define MOB_VNUM_ARMOR			34
 
 #define MOB_VNUM_PATROLMAN	   2106
-#define GROUP_VNUM_TROLLS	   2100
+#define GROUP_VNUM_ASURA	   2100
 #define GROUP_VNUM_OGRES	   2101
 
 
@@ -916,7 +916,7 @@ struct	kill_data
 #define RACE_FELAR		(O)	/* 15 */
 #define RACE_GITHYANKI		(P)
 #define RACE_SATYR		(Q)
-#define RACE_TROLL		(R)
+#define RACE_ASURA		(R)
 
 #define RACE_TOP		(T)
 

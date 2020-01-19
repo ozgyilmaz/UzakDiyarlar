@@ -189,9 +189,9 @@ the ground will not be regenerated if anyone is in the area when it resets.
 ~
 
 0 !~
-Kullaným: !
+Kullanï¿½m: !
 
-Son komutun tekrarlanmasýný saðlar.
+Son komutun tekrarlanmasï¿½nï¿½ saï¿½lar.
 ~
 
 0 NORTH SOUTH EAST WEST UP DOWN~
@@ -206,16 +206,16 @@ Use these commands to walk in a particular direction.
 ~
 
 -1 NAME~
-ÝSÝM SEÇÝMÝ:
-Ýsimler aþaðýda belirtilen kýstaslarýn dýþýnda olmalýdýr.
-1) Cinsel ve argo kökenli isimler
+ï¿½Sï¿½M SEï¿½ï¿½Mï¿½:
+ï¿½simler aï¿½aï¿½ï¿½da belirtilen kï¿½staslarï¿½n dï¿½ï¿½ï¿½nda olmalï¿½dï¿½r.
+1) Cinsel ve argo kï¿½kenli isimler
 2) Mitolojik, tarihi, bilindik isimler
-3) Rasgele harf kombinasyonlarý (Örn: qwert, sdffrsw)
-4) Ünvan, rütbe bildiren isimler
+3) Rasgele harf kombinasyonlarï¿½ (ï¿½rn: qwert, sdffrsw)
+4) ï¿½nvan, rï¿½tbe bildiren isimler
 5) Bilimsel terminoloji
-6) Eþya isimleri
+6) Eï¿½ya isimleri
 
-Seçtiðiniz ismin yukarýda belirtilen kýstaslarýn dýþýnda kalmalýdýr.~
+Seï¿½tiï¿½iniz ismin yukarï¿½da belirtilen kï¿½staslarï¿½n dï¿½ï¿½ï¿½nda kalmalï¿½dï¿½r.~
 
 0 SHOOT THROW STUCK 'STUCK IN'~
 Syntax: shoot <direction> <target>
@@ -2216,7 +2216,7 @@ Githyanki :Human like creatures but high in intelligent. They can be fighter,
 	   caster, or fighter/caster.Cost 250 creation points.
 Satyr	  :Half human ,half goat race.High in dexterity but low much strong.
 	   They are good ranger and thieves.Cost 250 creation points.
-Troll     :Hindered by their slow intellect and mobility, grow to obtain a
+Asura     :Hindered by their slow intellect and mobility, grow to obtain a
            state of health.They cost extra 300 creation points.
 
 P.S.	: Remember that some races have their specific spells, i.e rockseers
@@ -2229,24 +2229,24 @@ See also:  CLASS, WORLD
 
 -1 'RACETABLE'~
 
-IRK       KISALTMA     ÝYÝ      KÖTÜ     TP    BÝLGÝ
+IRK       KISALTMA     ï¿½Yï¿½      Kï¿½Tï¿½     TP    Bï¿½LGï¿½
 -----      -------   -------  -------   -----  -------------------
-Ýnsan       Ýnsan      Hiç      Hiç       0    ortalama ýrk
-Elf         Elf      Zek,Çev   Güç,Bün   500   iyi yönelim
-Yarýelf     YElf     Zek,Çev   Güç,Bün   200   yarý insan, yarý elf
-Karaelf     KElf     Zek,Çev   Güç,Bün   500   kem yönelim
-Grielf      GElf     Zek,Çev   Güç,Bün   500   yansýz, "deðnekler"
-Cüce        Cüce     Bil,Bün     Çev     250   "vahþileþme"
-Karacüce    KCüce    Güç,Bün   Zek,Bil   250   "vahþileþme", "maymuncuk"
-Svirfneblin Svirf      Bil       Zek     250   "irfan", "tanýmlama"
-Felar       Felar    Güç,Bün     Çev     250   "çýplak el"
-Arial       Arial    Zek,Dex   Güç,Bün   250   uçabilen canlýlar
-Gnom        Gnom     Zek,Bil   Güç,Bün   300   "tanýmlama"
-Githyanki   Gith     Zek,Çev   Bil,Bün   250   kem, "kýlýç", "hançer"
-Satir       Satir      Çev       Zek     250   yansýz, "kamuf", "pusu", "arakla"
-Trol        Trol     Güç,Bün   Zek,Çev   400   kem, "trans", "hýzlý iyileþme"
+ï¿½nsan       ï¿½nsan      Hiï¿½      Hiï¿½       0    ortalama ï¿½rk
+Elf         Elf      Zek,ï¿½ev   Gï¿½ï¿½,Bï¿½n   500   iyi yï¿½nelim
+Yarï¿½elf     YElf     Zek,ï¿½ev   Gï¿½ï¿½,Bï¿½n   200   yarï¿½ insan, yarï¿½ elf
+Karaelf     KElf     Zek,ï¿½ev   Gï¿½ï¿½,Bï¿½n   500   kem yï¿½nelim
+Grielf      GElf     Zek,ï¿½ev   Gï¿½ï¿½,Bï¿½n   500   yansï¿½z, "deï¿½nekler"
+Cï¿½ce        Cï¿½ce     Bil,Bï¿½n     ï¿½ev     250   "vahï¿½ileï¿½me"
+Karacï¿½ce    KCï¿½ce    Gï¿½ï¿½,Bï¿½n   Zek,Bil   250   "vahï¿½ileï¿½me", "maymuncuk"
+Svirfneblin Svirf      Bil       Zek     250   "irfan", "tanï¿½mlama"
+Felar       Felar    Gï¿½ï¿½,Bï¿½n     ï¿½ev     250   "ï¿½ï¿½plak el"
+Arial       Arial    Zek,Dex   Gï¿½ï¿½,Bï¿½n   250   uï¿½abilen canlï¿½lar
+Gnom        Gnom     Zek,Bil   Gï¿½ï¿½,Bï¿½n   300   "tanï¿½mlama"
+Githyanki   Gith     Zek,ï¿½ev   Bil,Bï¿½n   250   kem, "kï¿½lï¿½ï¿½", "hanï¿½er"
+Satir       Satir      ï¿½ev       Zek     250   yansï¿½z, "kamuf", "pusu", "arakla"
+Asura        Asura     Gï¿½ï¿½,Bï¿½n   Zek,ï¿½ev   400   kem, "trans", "hï¿½zlï¿½ iyileï¿½me"
 
-Irkýnýz ne olsun (bilgi için: uzakdiyarlar.net)?~
+Irkï¿½nï¿½z ne olsun (bilgi iï¿½in: uzakdiyarlar.net)?~
 
 -1 GNOME GNOMES~
 Gnomes are a race of small, wiry, but tough creatures.  They live a very
@@ -2435,34 +2435,34 @@ might know. And because of their organism they are vulnerable to woods.
 They have a specific spell called 'meld into stone'.
 
 ~
--1  TROLL TROLLS~
+-1  ASURA~
 Long hidden within the sanctity of their mountain caves, a race known in the
-past only as a myth, lies the civilization of the trolls. Built with the
+past only as a myth, lies the civilization of the asuras. Built with the
 undying stamina of the mountains they reside in, these green skinned beasts
 often grow to obtain a state of health few other races believed possible.
-Hindered by their slow intellect and mobility, the troll society seems to
+Hindered by their slow intellect and mobility, the asura society seems to
 have decided as a whole to rejoin the races of the realms, moving out of
 their sanctuaries in numbers reaching high into the thousands
 ~
 -1 'CLASS' 'CLASSES' 'CLASS HELP'~
 
-Aþaðýda sýnýf listesi verilmiþtir. Daha fazla bilgi için web sitesini
+Aï¿½aï¿½ï¿½da sï¿½nï¿½f listesi verilmiï¿½tir. Daha fazla bilgi iï¿½in web sitesini
 ziyaret ediniz.
 
 SINIF       KISALTMA  GEREKEN  EXTRA
 -----       --------  -------  -----
-Ermiþ         Erm      BÝL  	 0
-Hýrsýz        Hýr      ÇEV       0
-Savaþçý       Sav      GÜÇ       0
-Korucu        Krc      GÜÇ      200
-Ninja	      Nin      ÇEV      300
-Anti-paladin  Ant      GÜÇ      300
-Paladin       Pal      GÜÇ      400
-Samuray       Sam      GÜÇ      500
+Ermiï¿½         Erm      Bï¿½L  	 0
+Hï¿½rsï¿½z        Hï¿½r      ï¿½EV       0
+Savaï¿½ï¿½ï¿½       Sav      Gï¿½ï¿½       0
+Korucu        Krc      Gï¿½ï¿½      200
+Ninja	      Nin      ï¿½EV      300
+Anti-paladin  Ant      Gï¿½ï¿½      300
+Paladin       Pal      Gï¿½ï¿½      400
+Samuray       Sam      Gï¿½ï¿½      500
 Vampir        Vam      ZEK      300
 Gan           Gan      ZEK       0
-Biçimci       Biç      ZEK       0
-Ögeci         Öge      ZEK       0
+Biï¿½imci       Biï¿½      ZEK       0
+ï¿½geci         ï¿½ge      ZEK       0
 Karakam       Kam      ZEK      200
 
 ~
@@ -2598,13 +2598,13 @@ playing this game for the first time.
 
 0 GENERAL~
 .
-Uzak Diyarlar karakter katli ve rol yapma gerektiren bir muddýr. Seviyeniz
-10'u geçtikten sonra baþka karakterlerin "Katledilebilir" listesine girmeye
-baþlarsýnýz. Karakter katli ile ilgili daha fazla bilgiyi uzakdiyarlar.net
+Uzak Diyarlar karakter katli ve rol yapma gerektiren bir muddï¿½r. Seviyeniz
+10'u geï¿½tikten sonra baï¿½ka karakterlerin "Katledilebilir" listesine girmeye
+baï¿½larsï¿½nï¿½z. Karakter katli ile ilgili daha fazla bilgiyi uzakdiyarlar.net
 adresinde bulabilirsiniz.
-Uzak Diyarlar'da rol yapmak bir tiyatro oyununda rol almaktan farklýdýr.
-Burada rol yapmak aslýnda yalnýzca burada yaþadýðýnýzý hissetmektir. Rol
-yapmakla ilgili ayrýntýlý bilgiyi uzakdiyarlar.net adresinde bulabilirsiniz.
+Uzak Diyarlar'da rol yapmak bir tiyatro oyununda rol almaktan farklï¿½dï¿½r.
+Burada rol yapmak aslï¿½nda yalnï¿½zca burada yaï¿½adï¿½ï¿½ï¿½nï¿½zï¿½ hissetmektir. Rol
+yapmakla ilgili ayrï¿½ntï¿½lï¿½ bilgiyi uzakdiyarlar.net adresinde bulabilirsiniz.
 
 ~
 
@@ -3733,9 +3733,9 @@ to the others, but their probabities is much lower.
 ~
 
 -1 STAT STATS~
-Uzak Diyarlar'da þu an için 6 karakter niteliði vardýr. Bunlar,
-Güç, Zeka, Bilgelik, Çeviklik, Bünye ve Karizma. Her niteliðin
-karaktere saðladýðý avantajlar vardýr. Niteliklerle ilgili ayrýntýlý
+Uzak Diyarlar'da ï¿½u an iï¿½in 6 karakter niteliï¿½i vardï¿½r. Bunlar,
+Gï¿½ï¿½, Zeka, Bilgelik, ï¿½eviklik, Bï¿½nye ve Karizma. Her niteliï¿½in
+karaktere saï¿½ladï¿½ï¿½ï¿½ avantajlar vardï¿½r. Niteliklerle ilgili ayrï¿½ntï¿½lï¿½
 bilgiyi uzakdiyarlar.net adresinde bulabilirsiniz.
 ~
 

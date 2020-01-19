@@ -1,9 +1,9 @@
 #AREADATA
 Filename arbaini.are~
-Name Arba Ýni~
+Name Arba ï¿½ni~
 Builder Merc~
 Translator Bilinmiyor~
-Language Türkçe~
+Language Tï¿½rkï¿½e~
 Lowlevel 10
 Highlevel 15
 Minvnum 2800
@@ -15,10 +15,10 @@ END
 #2800
 gardiyan canavar~
 gardiyan canavar~
-Bir gardiyan canavar sana bakarak hýrlýyor.
+Bir gardiyan canavar sana bakarak hï¿½rlï¿½yor.
 ~
-Siyah bir kürk canavarý kaplamýþ. En az 50 diþi var. Çenesinden kan damlýyor,
-anlaþýlan az önce birþeyler yemiþ.
+Siyah bir kï¿½rk canavarï¿½ kaplamï¿½ï¿½. En az 50 diï¿½i var. ï¿½enesinden kan damlï¿½yor,
+anlaï¿½ï¿½lan az ï¿½nce birï¿½eyler yemiï¿½.
 ~
 human~
 ABCFG DPQ -200 0
@@ -28,12 +28,12 @@ EFNU 0 0 0
 stand stand male 0
 0 0 medium 0
 #2801
-genç arba~
-genç arba~
-Genç bir arba oturmuþ kemik çiðniyor.
+genï¿½ arba~
+genï¿½ arba~
+Genï¿½ bir arba oturmuï¿½ kemik ï¿½iï¿½niyor.
 ~
-Uzun ve tüylü bir arba. Gözlerin onunkilerle buluþuyor. Birden gülümsüyor,
-elindeki kemiði atýyor ve sana doðru geliyor!!
+Uzun ve tï¿½ylï¿½ bir arba. Gï¿½zlerin onunkilerle buluï¿½uyor. Birden gï¿½lï¿½msï¿½yor,
+elindeki kemiï¿½i atï¿½yor ve sana doï¿½ru geliyor!!
 ~
 human~
 ACFG P -500 0
@@ -45,10 +45,10 @@ sit stand male 25
 #2802
 arba~
 arba~
-Sinirli bir arba görüyorsun.
+Sinirli bir arba gï¿½rï¿½yorsun.
 ~
-Uzun, zayýf ve tüylü bir arba. Gözlerini sana dikmiþ, kendisine benzeyip
-benzemediðinizi konarba ediyor.
+Uzun, zayï¿½f ve tï¿½ylï¿½ bir arba. Gï¿½zlerini sana dikmiï¿½, kendisine benzeyip
+benzemediï¿½inizi konarba ediyor.
 ~
 human~
 ABCFG P -500 0
@@ -62,7 +62,7 @@ bebek arba~
 bebek arba~
 Bir bebek arba burada, bir kadavrayla doktorculuk oynuyor.
 ~
-Tombul, iri ve tüylü bir arba. Seni fark edince "Katýlsana?" diyor.
+Tombul, iri ve tï¿½ylï¿½ bir arba. Seni fark edince "Katï¿½lsana?" diyor.
 ~
 human~
 ABCF P -100 0
@@ -74,10 +74,10 @@ sit stand male 12
 #2804
 dev arba~
 dev arba~
-Dev bir arba burada, ceset yýðýnlarýnýn üstüne uzanmýþ düþünüyor.
+Dev bir arba burada, ceset yï¿½ï¿½ï¿½nlarï¿½nï¿½n ï¿½stï¿½ne uzanmï¿½ï¿½ dï¿½ï¿½ï¿½nï¿½yor.
 ~
-Kaslý ve tüylü bir arba. Ýçeri girdiðini fark edince hýzlý hýzlý solumaya
-baþlýyor.
+Kaslï¿½ ve tï¿½ylï¿½ bir arba. ï¿½ï¿½eri girdiï¿½ini fark edince hï¿½zlï¿½ hï¿½zlï¿½ solumaya
+baï¿½lï¿½yor.
 ~
 giant~
 ABCFG P -1000 0
@@ -87,12 +87,12 @@ EFNR 0 0 0
 rest stand male 150
 0 0 medium 0
 #2805
-diþi arba~
-diþi arba~
-Diþi bir arba burada, ceset yýðýný üstüne uzanmýþ düþünüyor.
+diï¿½i arba~
+diï¿½i arba~
+Diï¿½i bir arba burada, ceset yï¿½ï¿½ï¿½nï¿½ ï¿½stï¿½ne uzanmï¿½ï¿½ dï¿½ï¿½ï¿½nï¿½yor.
 ~
-Ýri ve tüylü bir arba. Ýçeri girdiðini fark edince hýzlý hýzlý solumaya
-baþlýyor.
+ï¿½ri ve tï¿½ylï¿½ bir arba. ï¿½ï¿½eri girdiï¿½ini fark edince hï¿½zlï¿½ hï¿½zlï¿½ solumaya
+baï¿½lï¿½yor.
 ~
 human~
 ABCFG P -800 0
@@ -102,11 +102,11 @@ EFNU 0 0 0
 rest stand female 125
 0 0 medium 0
 #2806
-þiþman kurtçuk~
-þiþman kurtçuk~
-Þiþman bir kurtçuk burada,  etrafta gezinerek yiyecek arýyor.
+ï¿½iï¿½man kurtï¿½uk~
+ï¿½iï¿½man kurtï¿½uk~
+ï¿½iï¿½man bir kurtï¿½uk burada,  etrafta gezinerek yiyecek arï¿½yor.
 ~
-Kalýn ve uzun. Bu þeyde bir baþ göremiyorsun. Cesetten cesede çok hýzlý
+Kalï¿½n ve uzun. Bu ï¿½eyde bir baï¿½ gï¿½remiyorsun. Cesetten cesede ï¿½ok hï¿½zlï¿½
 hareket ediyor.
 ~
 human~
@@ -117,12 +117,12 @@ EFNU 0 0 0
 stand stand none 0
 0 0 medium 0
 #2807
-dolaþan canavar~
-dolaþan canavar~
-Dolaþan bir canavar burada, av arýyor.
+dolaï¿½an canavar~
+dolaï¿½an canavar~
+Dolaï¿½an bir canavar burada, av arï¿½yor.
 ~
-Siyah bir kürk canavarý kaplamýþ. En az 50 diþi var. Çenesinden kan damlýyor,
-anlaþýlan az önce birþeyler yemiþ.
+Siyah bir kï¿½rk canavarï¿½ kaplamï¿½ï¿½. En az 50 diï¿½i var. ï¿½enesinden kan damlï¿½yor,
+anlaï¿½ï¿½lan az ï¿½nce birï¿½eyler yemiï¿½.
 ~
 human~
 ABCFG DP -200 0
@@ -136,8 +136,8 @@ aptal arba~
 aptal arba~
 Aptal bir arba burada, etrafta geziniyor.
 ~
-Uzun, zayýf ve tüylü bir arba. Seni fark ediyor ve neye baktýðýný bulmaya
-çalýþýyor.
+Uzun, zayï¿½f ve tï¿½ylï¿½ bir arba. Seni fark ediyor ve neye baktï¿½ï¿½ï¿½nï¿½ bulmaya
+ï¿½alï¿½ï¿½ï¿½yor.
 ~
 human~
 ACFG P -500 0
@@ -151,15 +151,15 @@ stand stand male 75
 #2800
 kadavra~
 Kadavra~
-Yarýsý yenmiþ bir kadavra burada yatýyor.~
+Yarï¿½sï¿½ yenmiï¿½ bir kadavra burada yatï¿½yor.~
 flesh~
 container 0 A
 30 0 0 30 100
 0 500 1 P
 #2801
-ceset yýðýn yatak~
-ceset yýðýný~
-Ceset yýðýnýndan yapýlmýþ bir yatak görüyorsun.~
+ceset yï¿½ï¿½ï¿½n yatak~
+ceset yï¿½ï¿½ï¿½nï¿½~
+Ceset yï¿½ï¿½ï¿½nï¿½ndan yapï¿½lmï¿½ï¿½ bir yatak gï¿½rï¿½yorsun.~
 unknown~
 container 0 0
 30 0 0 30 100
@@ -167,7 +167,7 @@ container 0 0
 #2802
 arba derisi~
 arba derisi~
-Bir arbaün kirli derisi burada býrakýlmýþ.~
+Bir arbaï¿½n kirli derisi burada bï¿½rakï¿½lmï¿½ï¿½.~
 skin~
 armor 0 AK
 5 5 5 0 0
@@ -176,12 +176,12 @@ A
 1 1
 E
 arba derisi~
-Bu ölü arbanýn derisi. Kötü görünüyor, kötü kokuyor ve kötü hissettiriyor.
+Bu ï¿½lï¿½ arbanï¿½n derisi. Kï¿½tï¿½ gï¿½rï¿½nï¿½yor, kï¿½tï¿½ kokuyor ve kï¿½tï¿½ hissettiriyor.
 ~
 #2803
-opal yüzük~
-opal yüzük~
-Siyah bir opal yüzük burada, yeni sahibini bekliyor.~
+opal yï¿½zï¿½k~
+opal yï¿½zï¿½k~
+Siyah bir opal yï¿½zï¿½k burada, yeni sahibini bekliyor.~
 opal~
 jewelry G AB
 0 0 0 0 0
@@ -189,21 +189,21 @@ jewelry G AB
 A
 19 2
 E
-opal yüzük~
-Basit ve pürüzsüz bir opal yüzük.
+opal yï¿½zï¿½k~
+Basit ve pï¿½rï¿½zsï¿½z bir opal yï¿½zï¿½k.
 ~
 #2804
 deri kemer~
 deri kemer~
-Deri bir kemer yerde býrakýlmýþ.~
+Deri bir kemer yerde bï¿½rakï¿½lmï¿½ï¿½.~
 leather~
 armor G AL
 6 6 6 0 0
 15 50 1050 P
 #2805
-çatlak kemik~
-çatlak kemik~
-Çatlak bir kemik parçasý burada duruyor.~
+ï¿½atlak kemik~
+ï¿½atlak kemik~
+ï¿½atlak bir kemik parï¿½asï¿½ burada duruyor.~
 bone~
 weapon 0 AN
 mace 3 3 pound 0
@@ -216,27 +216,27 @@ A
 
 #ROOMS
 #2801
-Döküntü Yýðýný~
-Bu oda kemik ve kemik parçalarýyla dolu. Burada büyük þeyler yaþýyor.
+Dï¿½kï¿½ntï¿½ Yï¿½ï¿½ï¿½nï¿½~
+Bu oda kemik ve kemik parï¿½alarï¿½yla dolu. Burada bï¿½yï¿½k ï¿½eyler yaï¿½ï¿½yor.
 ~
 0 AD 0
 D0
-Tekrar medeniyete ulaþtýn.
+Tekrar medeniyete ulaï¿½tï¿½n.
 ~
 ~
 0 0 6124
 D2
-Daha güçlü bir koku var.
+Daha gï¿½ï¿½lï¿½ bir koku var.
 ~
 ~
 0 0 2803
 S
 #2802
 Arba Kileri~
-Bu odanýn tüm duvarlarýnda bol miktarda kan ve sakatat var. Onlara týrmanan
-kurtçuklar ve böcekler görüyorsun. Bu yerde uygarlýk yok. Yarý yenmiþ veya
-çürüyen cesetler zemini kapatmýþ. Ve hepsini sinekler, kurtçuklar ve böcekler
-kaplamýþ.
+Bu odanï¿½n tï¿½m duvarlarï¿½nda bol miktarda kan ve sakatat var. Onlara tï¿½rmanan
+kurtï¿½uklar ve bï¿½cekler gï¿½rï¿½yorsun. Bu yerde uygarlï¿½k yok. Yarï¿½ yenmiï¿½ veya
+ï¿½ï¿½rï¿½yen cesetler zemini kapatmï¿½ï¿½. Ve hepsini sinekler, kurtï¿½uklar ve bï¿½cekler
+kaplamï¿½ï¿½.
 ~
 0 AD 0
 D1
@@ -247,59 +247,59 @@ the stench bears down on you once more.
 0 0 2803
 S
 #2803
-Oturma odasý~
-Bu küçük maðara kuzeye, güneye, doðuya ve batýya açýlýyor. Pis Bir koku
-etrafý kaplýyor.
+Oturma odasï¿½~
+Bu kï¿½ï¿½ï¿½k maï¿½ara kuzeye, gï¿½neye, doï¿½uya ve batï¿½ya aï¿½ï¿½lï¿½yor. Pis Bir koku
+etrafï¿½ kaplï¿½yor.
 ~
 0 AD 0
 D0
-Kemik parçalarýnýn oluþturduðu bir iz var.
+Kemik parï¿½alarï¿½nï¿½n oluï¿½turduï¿½u bir iz var.
 ~
 ~
 0 0 2801
 D1
-Tanrým! Burada zemini tamamýyla kapatmýþ cesetler görüyorsun. Burasý açýk
-bir mezarlýða benziyor.
+Tanrï¿½m! Burada zemini tamamï¿½yla kapatmï¿½ï¿½ cesetler gï¿½rï¿½yorsun. Burasï¿½ aï¿½ï¿½k
+bir mezarlï¿½ï¿½a benziyor.
 ~
 ~
 0 0 2804
 D2
-Off! Ýþte kötü kokunun kaynaðý...
+Off! ï¿½ï¿½te kï¿½tï¿½ kokunun kaynaï¿½ï¿½...
 ~
 ~
 0 0 2805
 D3
-Kurtçuklarýn bu odayla batýdaki oda arasýnda sürünüþünü izlerken batý
-odasýnýn duvarýna dayanmýþ cesedin baðýrsaklarýný görünce kendini
-tutamayýp kusuyorsun.
+Kurtï¿½uklarï¿½n bu odayla batï¿½daki oda arasï¿½nda sï¿½rï¿½nï¿½ï¿½ï¿½nï¿½ izlerken batï¿½
+odasï¿½nï¿½n duvarï¿½na dayanmï¿½ï¿½ cesedin baï¿½ï¿½rsaklarï¿½nï¿½ gï¿½rï¿½nce kendini
+tutamayï¿½p kusuyorsun.
 ~
 ~
 0 0 2802
 S
 #2804
-Oyun Odasý~
-Duvarlar kan ve insan parçalarýyla kaplý. Bir duvarýn üstüne bir insan
-kolunun asýlmýþ olduðunu görüyorsun. Göðsü parçalanmýþ ve yarýsý yenmiþ
-bir ceset yerde yatýyor.
+Oyun Odasï¿½~
+Duvarlar kan ve insan parï¿½alarï¿½yla kaplï¿½. Bir duvarï¿½n ï¿½stï¿½ne bir insan
+kolunun asï¿½lmï¿½ï¿½ olduï¿½unu gï¿½rï¿½yorsun. Gï¿½ï¿½sï¿½ parï¿½alanmï¿½ï¿½ ve yarï¿½sï¿½ yenmiï¿½
+bir ceset yerde yatï¿½yor.
 ~
 0 AD 0
 D3
-Batýdan gelen serin bir meltem seni karþýlýyor. Ama rüzgarla yeniden pis
-kokularýn hücumuna uðruyorsun.
+Batï¿½dan gelen serin bir meltem seni karï¿½ï¿½lï¿½yor. Ama rï¿½zgarla yeniden pis
+kokularï¿½n hï¿½cumuna uï¿½ruyorsun.
 ~
 ~
 0 0 2803
 S
 #2805
-Yatak Odasý~
-Koku burada oldukça fazla. Koparýlmýþ ve yarýsý yenmiþ hayvanlarýn, orklarýn
-ve insanlarýn etrafa atýlmýþ cesetlerini görüyorsun.Daha geniþ ve daha iðrenç
-parçalar odanýn köþesine yýðýlmýþ.
+Yatak Odasï¿½~
+Koku burada oldukï¿½a fazla. Koparï¿½lmï¿½ï¿½ ve yarï¿½sï¿½ yenmiï¿½ hayvanlarï¿½n, orklarï¿½n
+ve insanlarï¿½n etrafa atï¿½lmï¿½ï¿½ cesetlerini gï¿½rï¿½yorsun.Daha geniï¿½ ve daha iï¿½renï¿½
+parï¿½alar odanï¿½n kï¿½ï¿½esine yï¿½ï¿½ï¿½lmï¿½ï¿½.
 ~
 0 ACD 5
 D0
-Kuzeyden gelen serin bir meltem seni karþýlýyor. Ama rüzgarla yeniden pis
-kokularýn hücumuna uðruyorsun.
+Kuzeyden gelen serin bir meltem seni karï¿½ï¿½lï¿½yor. Ama rï¿½zgarla yeniden pis
+kokularï¿½n hï¿½cumuna uï¿½ruyorsun.
 ~
 ~
 0 0 2803
@@ -308,19 +308,19 @@ S
 #RESETS
 M 0 2800   2 2801  1	* the guardian beast
 O 0 2805  10 2801	* a cracked bone
-M 0 2801   2 2802  2	* the young troll
-M 0 2801   2 2802  2	* the young troll
-M 0 2802   1 2803  1	* the medium troll
+M 0 2801   2 2802  2	* the young asura
+M 0 2801   2 2802  2	* the young asura
+M 0 2802   1 2803  1	* the medium asura
 O 0 2800  10 2804	* the cadaver-toy
 P 1 2804  -1 2800  1	*   a leather belt
 M 0 2800   2 2803  1	* the guardian beast
-M 0 2803   4 2804  4	* a baby troll
-M 0 2803   4 2804  4	* a baby troll
-M 0 2803   4 2804  4	* a baby troll
-M 0 2803   4 2804  4	* a baby troll
-M 0 2804   1 2805  1	* the giant troll
-E 1 2802   5   12	*   the troll skin
-M 0 2805   1 2805  1	* the large female troll
+M 0 2803   4 2804  4	* a baby asura
+M 0 2803   4 2804  4	* a baby asura
+M 0 2803   4 2804  4	* a baby asura
+M 0 2803   4 2804  4	* a baby asura
+M 0 2804   1 2805  1	* the giant asura
+E 1 2802   5   12	*   the asura skin
+M 0 2805   1 2805  1	* the large female asura
 O 0 2801  10 2805	* the heap of carnage
 P 1 2803   5 2801  1	*   an opal ring
 M 0 2806  10 2803  4	* a fat worm
@@ -329,7 +329,7 @@ M 0 2806  10 2802  4	* a fat worm
 M 0 2806  10 2802  4	* a fat worm
 M 0 2806  10 2804  2	* a fat worm
 M 0 2807   1 2802  1	* the roving beast
-M 0 2808   1 2803  1	* the medium troll
+M 0 2808   1 2803  1	* the medium asura
 S
 #SHOPS
 0

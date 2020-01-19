@@ -3,7 +3,7 @@ Filename zooloji.are~
 Name Zooloji~
 Builder Og~
 Translator Bilinmiyor~
-Language Yarý Türkçe~
+Language Yarï¿½ Tï¿½rkï¿½e~
 Lowlevel 1
 Highlevel 10
 Minvnum 400
@@ -15,7 +15,7 @@ END
 #400
 amip~
 amip~
-Kocaman bir amip sürünüyor.
+Kocaman bir amip sï¿½rï¿½nï¿½yor.
 ~
 Basicly it's a clear sack filled with jelly and colorful floating things.
 ~
@@ -29,7 +29,7 @@ stand stand either 15
 #401
 goril~
 goril~
-Bir goril burada, seni selamlýyor.
+Bir goril burada, seni selamlï¿½yor.
 ~
 The gorilla, hey wait! Thats a man dressed in a gorilla outfit. It's a fake!
 The sign around his neck says 'Come see the gorilla display!'
@@ -44,7 +44,7 @@ stand stand male 45
 #402
 bit~
 bit~
-Hey, iþte kocaman bir BÝT!
+Hey, iï¿½te kocaman bir Bï¿½T!
 ~
 The most heinous thing you could probably think of is standing in front
 of you: A six foot tall pubic lice.  Crabs anyone?
@@ -59,7 +59,7 @@ stand stand female 25
 #403
 hogan~
 Hogan~
-Hogan müþteri bekliyor.
+Hogan mï¿½ï¿½teri bekliyor.
 ~
 John the shopkeeper is obviously not happy.  And who would be at this job?
 ~
@@ -71,9 +71,9 @@ CEIK AB 0 0
 stand stand male 250
 0 0 medium 0
 #404
-köpek balýk balýðý~
-köpek balýðý~
-Köpek balýðý yiyecek arýyor.
+kï¿½pek balï¿½k balï¿½ï¿½ï¿½~
+kï¿½pek balï¿½ï¿½ï¿½~
+Kï¿½pek balï¿½ï¿½ï¿½ yiyecek arï¿½yor.
 ~
 How hungry do you think a shark could possibly be?  You poke its nose to
 piss it off.  Boy does he look angry now!
@@ -86,9 +86,9 @@ DKMV AR LQ 0
 stand stand male 250
 0 0 large 0
 #405
-kaya balýk balýðý~
-kaya balýðý~
-Yaþlý bir kaya balýðý akvaryumun içinde asýlý duruyor.
+kaya balï¿½k balï¿½ï¿½ï¿½~
+kaya balï¿½ï¿½ï¿½~
+Yaï¿½lï¿½ bir kaya balï¿½ï¿½ï¿½ akvaryumun iï¿½inde asï¿½lï¿½ duruyor.
 ~
 This is prehaps the ugliest jellyfish you've ever seen.  Its just a big
 blob with tenticles.  It doesn't even have pretty colors in it.  Just a
@@ -102,9 +102,9 @@ ACG 0 0 0
 stand stand female 250
 0 0 large 0
 #406
-çocuk~
-çocuk~
-Bir çocuk görüyorsun. Öyle mutlu ki, aðzýnýn kenarýndan salya akýyor.
+ï¿½ocuk~
+ï¿½ocuk~
+Bir ï¿½ocuk gï¿½rï¿½yorsun. ï¿½yle mutlu ki, aï¿½zï¿½nï¿½n kenarï¿½ndan salya akï¿½yor.
 ~
 The child is obviously too young to realise that this is prehaps one of
 the stupidest exhibits his little brain could comprehend.
@@ -117,13 +117,13 @@ AG 0 400 0
 stand stand male 110
 0 0 small 0
 #407
-öðretmenin~
-öðretmenin~
-Öðretmenin seni izliyor!
+ï¿½ï¿½retmenin~
+ï¿½ï¿½retmenin~
+ï¿½ï¿½retmenin seni izliyor!
 ~
 Thank God she doesn't see you!  But if you keep looking at her she may!
 ~
-troll~
+asura~
 AGR 0 -500 0
 5 0 2d5+40 5d10+100 2d3+1 pierce
 6 6 6 8
@@ -133,7 +133,7 @@ stand stand female 320
 #408
 goril~
 goril~
-Bir goril dýþkýsýyla oynuyor.
+Bir goril dï¿½ï¿½kï¿½sï¿½yla oynuyor.
 ~
 This gorilla is really foul.  Its making mud pies out of its own feces
 and throwing it at visitors. Duck! one just missed you!
@@ -146,9 +146,9 @@ CDEOU 0 EI 0
 stand stand female 90
 0 0 large 0
 #409
-temizlikçi~
-temizlikçi~
-Bir temizlikçi etrafý temizliyor.
+temizlikï¿½i~
+temizlikï¿½i~
+Bir temizlikï¿½i etrafï¿½ temizliyor.
 ~
 You feel so sorry fort his poor man who has been subjected to cleaning up
 after the gorillas for the rest of his life.
@@ -161,9 +161,9 @@ EN 0 0 0
 stand stand either 110
 0 0 medium 0
 #410
-devekuþu~
-devekuþu~
-Vaaauuv, kocaman bir devekuþu!
+devekuï¿½u~
+devekuï¿½u~
+Vaaauuv, kocaman bir devekuï¿½u!
 ~
 Oh wow! An emu..this brings back such memories of your pet emu that you
 had when you were a wee bit smaller than you are now.  And when he died,
@@ -183,26 +183,26 @@ stand stand either 150
 
 #OBJECTS
 #400
-kutu patlamýþ mýsýr~
-patlamýþ mýsýr~
-Bir kutu patlamýþ mýsýr burada býrakýlmýþ.~
+kutu patlamï¿½ï¿½ mï¿½sï¿½r~
+patlamï¿½ï¿½ mï¿½sï¿½r~
+Bir kutu patlamï¿½ï¿½ mï¿½sï¿½r burada bï¿½rakï¿½lmï¿½ï¿½.~
 food~
 food 0 A
 3 3 0 0 0
 0 3 4 P
 #401
-akvaryum anahtarý~
-akvaryum anahtarý~
-Köpek balýðý akvaryumunun anahtarý burada býrakýlmýþ.
+akvaryum anahtarï¿½~
+akvaryum anahtarï¿½~
+Kï¿½pek balï¿½ï¿½ï¿½ akvaryumunun anahtarï¿½ burada bï¿½rakï¿½lmï¿½ï¿½.
 ~
 iron~
 key 0 A
 0 0 0 0 0
 0 10 0 P
 #402
-köpek balýðý diþinden kolye~
-köpek balýðý diþinden kolye~
-Büyük bir köpek balýðý diþi görüyorsun.
+kï¿½pek balï¿½ï¿½ï¿½ diï¿½inden kolye~
+kï¿½pek balï¿½ï¿½ï¿½ diï¿½inden kolye~
+Bï¿½yï¿½k bir kï¿½pek balï¿½ï¿½ï¿½ diï¿½i gï¿½rï¿½yorsun.
 ~
 coral~
 armor G AC
@@ -211,9 +211,9 @@ armor G AC
 A
 19 1
 #420
-ejderha pençesi~
-Ejderha Pençesi~
-Kocaman bir pençe dinleniyor.~
+ejderha penï¿½esi~
+Ejderha Penï¿½esi~
+Kocaman bir penï¿½e dinleniyor.~
 mithril~
 weapon ABGIORY AN
 sword 6 8 slash AB
@@ -267,7 +267,7 @@ It is flaming and frosting sabre - it is reason of lights.
 
 #ROOMS
 #400
-Müze Giriþi~
+Mï¿½ze Giriï¿½i~
 The museum has this great new exhibit that you've been dying to see
 and now is your chance! Through these doors is a great new exhibit about
 the evolution of life as we know it.  You're so excited you think you're
@@ -285,7 +285,7 @@ D3
 0 0 3700
 S
 #401
-Müzenin Ýçinde~
+Mï¿½zenin ï¿½ï¿½inde~
 You are standing right inside the entrance to the museum.  Wow, this is
 going to be such fun!  You quickly evade your MudSchool teacher and go off
 on your own.  To the north you see the entrance to the mud museum, while
@@ -316,7 +316,7 @@ D4
 0 0 413
 S
 #402
-Hayvan Holü~
+Hayvan Holï¿½~
 This is the Hall of Chordates.  All around you are really boring
 examples of what a chordate is.  A beastly fido is a chordate, as is the
 mayor of Midgaard.  This is boring, you think.
@@ -332,7 +332,7 @@ D2
 0 0 406
 S
 #403
-Deniz Altýnda~
+Deniz Altï¿½nda~
 This is the underwater exhibit of the museum.  Through the aid of
 magic, these underwater creatures have been enabled to breathe air and
 come out and visit you.
@@ -348,7 +348,7 @@ D3
 0 0 401
 S
 #404
-Küçük Yaratýklar Sergisi~
+Kï¿½ï¿½ï¿½k Yaratï¿½klar Sergisi~
 All the tinsy animals here have been made bigger so that you can see
 them.  You sure hope they forgot to magnify the pubic lice!
 ~
@@ -363,7 +363,7 @@ D2
 0 0 405
 S
 #405
-Küçük Yaratýklar Holü~
+Kï¿½ï¿½ï¿½k Yaratï¿½klar Holï¿½~
 Okay, you've decided this is the stupidest most educational field trip
 you've been on.  All around you are slime molds, and tardigradas, all
 sized up for your conveyence.  You thank the Gods that you think you see
@@ -380,7 +380,7 @@ D2
 0 0 411
 S
 #406
-Hayvan Holü~
+Hayvan Holï¿½~
 Wow, you're about as interested in this as you are about the stuff that
 grows in between your toes.  Oh, that's in another hall in this museum.
 Silly you.  You contemplate pulling a fire alarm to make this trip a
@@ -397,7 +397,7 @@ D2
 0 0 407
 S
 #407
-Hayvan Holü~
+Hayvan Holï¿½~
 You are now pulling your hair out!  This is so boring!  Type recall and
 end it all!!!  The gorilla cage is to the west, if you want to inflict
 more punishment on yourself.  Wait!  Over there, to the south, is the exit!
@@ -439,7 +439,7 @@ D2
 0 0 410
 S
 #409
-Köpek Balýðý Akvaryumu~
+Kï¿½pek Balï¿½ï¿½ï¿½ Akvaryumu~
 Wow look at all the sharks in here!  Now this is neat, since of course,
 you're not supposed to be here.  There are sand sharks, hammer-head sharks,
 and many more sharks to play with!
@@ -467,7 +467,7 @@ D2
 0 0 411
 S
 #411
-Müze Çýkýþý~
+Mï¿½ze ï¿½ï¿½kï¿½ï¿½ï¿½~
 It's over!!! That stupid field trip is finally over!!! You celebrate
 with your classmates as you pass through the turnstyle with your
 classmates and head on the bus.  To you south you can return to the
@@ -491,7 +491,7 @@ cage~
 1 0 407
 S
 #413
-Hatýra Dükkaný~
+Hatï¿½ra Dï¿½kkanï¿½~
 Wow, look at all the souvenires.  Too bad you can't afford half of it.
 Uh oh, you'd better get out of here, you think you hear your M.U.D.U.
 teacher coming up the stairs to bring you back together with the class.

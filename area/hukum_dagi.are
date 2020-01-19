@@ -1,9 +1,9 @@
 #AREADATA
 Filename hukum_dagi.are~
-Name Hüküm Daðý~
+Name Hï¿½kï¿½m Daï¿½ï¿½~
 Builder Yaegar~
 Translator Bilinmiyor~
-Language Yarý Türkçe~
+Language Yarï¿½ Tï¿½rkï¿½e~
 Lowlevel 45
 Highlevel 65
 Minvnum 14700
@@ -15,7 +15,7 @@ END
 #14700
 lord krotgar~
 Lord Krotgar~
-Lord Krotgar burada, nefretle gülümsüyor.
+Lord Krotgar burada, nefretle gï¿½lï¿½msï¿½yor.
 ~
 Krothgar, standing at over eight feet tall and clad in full spiked black
 plate mail, is an imposing... man. It is said his fists have the power to
@@ -30,9 +30,9 @@ EFHIJKNU B C 0
 stand stand male 1000
 0 0 medium 0
 #14701
-ölüm þövalyesi~
-ölüm þövalyesi~
-Ölüm þövalyesi burada, þeytanca gülümsüyor.
+ï¿½lï¿½m ï¿½ï¿½valyesi~
+ï¿½lï¿½m ï¿½ï¿½valyesi~
+ï¿½lï¿½m ï¿½ï¿½valyesi burada, ï¿½eytanca gï¿½lï¿½msï¿½yor.
 ~
 This fellow and his comrades are servants of the demon lord Marmandes, and
 will take only his orders, despite the fact that Krothgar could probably
@@ -50,7 +50,7 @@ stand stand none 1000
 #14702
 demir golem~
 demir golem~
-Demir bir golem görüyorsun, efendisinin düþmanlarýný parçalamaya hazýr!
+Demir bir golem gï¿½rï¿½yorsun, efendisinin dï¿½ï¿½manlarï¿½nï¿½ parï¿½alamaya hazï¿½r!
 ~
 This soulless automaton was created by Krothgar's fell scientist-mages to
 serve him as a bodyguard (for appearance's sake only- he scarcely has need
@@ -65,8 +65,8 @@ stand stand none 1000
 0 0 medium 0
 #14703
 marmandes iblis prens~
-Ýblis Prens Marmandes~
-Ýblis Prens Marmandes burada, seni izliyor!
+ï¿½blis Prens Marmandes~
+ï¿½blis Prens Marmandes burada, seni izliyor!
 ~
 Marmandes has been sent here by his evil masters to observe and aid their
 servant Krothgar, and as such he will prefer to avoid direct combat, being
@@ -82,9 +82,9 @@ EFIKU 0 H N
 stand stand male 1000
 0 0 large 0
 #14704
-akstrak baþbüyücü~
-Baþbüyücü Akstrak~
-Baþbüyücüyü görüyorsun, geliþini çýðlýklarla karþýlýyor!
+akstrak baï¿½bï¿½yï¿½cï¿½~
+Baï¿½bï¿½yï¿½cï¿½ Akstrak~
+Baï¿½bï¿½yï¿½cï¿½yï¿½ gï¿½rï¿½yorsun, geliï¿½ini ï¿½ï¿½ï¿½lï¿½klarla karï¿½ï¿½lï¿½yor!
 ~
 This foul-tempered, evil man is Krothgar's magical assistant and adviser,
 and in charge of the dark lord's impressive force of mages. He is infuriated
@@ -98,9 +98,9 @@ EFIKNU B C D
 stand stand male 1000
 0 0 medium 0
 #14705
-yüksek rahip~
-karanlýk yüksek rahip~
-Karanlýðýn emrinde bir yüksek rahip görüyorsun, varlýðýndan rahatsýz oldu!
+yï¿½ksek rahip~
+karanlï¿½k yï¿½ksek rahip~
+Karanlï¿½ï¿½ï¿½n emrinde bir yï¿½ksek rahip gï¿½rï¿½yorsun, varlï¿½ï¿½ï¿½ndan rahatsï¿½z oldu!
 ~
 You have interrupted this foul priest of unspeakable gods during a very
 critical ceremony! He is extremely angry, and so will his worshippers be...
@@ -114,9 +114,9 @@ CDEFIJKNQ 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14706
-seçkin muhafýz~
-seçkin muhafýz~
-Seçkin bir muhafýz görüyorsun, varlýðýn onu tedirgin ediyor!
+seï¿½kin muhafï¿½z~
+seï¿½kin muhafï¿½z~
+Seï¿½kin bir muhafï¿½z gï¿½rï¿½yorsun, varlï¿½ï¿½ï¿½n onu tedirgin ediyor!
 ~
 This fellow is clad in full body spiked black plate mail just like his lord,
 and carries a HUGE spiked morning star, which he swings casually like it was
@@ -132,7 +132,7 @@ stand stand male 1000
 #14707
 destriyer~
 destriyer~
-Kara þövalyelerden birine ait olan bir destriyer görüyorsun.
+Kara ï¿½ï¿½valyelerden birine ait olan bir destriyer gï¿½rï¿½yorsun.
 ~
 This mammoth horse must weigh double any other equine steed you have ever
 seen. Its jet black coat seems to glow with an inner evil, and you gasp in
@@ -148,7 +148,7 @@ stand stand none 1000
 #14708
 kara rahip~
 kara rahip~
-Bir kara rahip görüyorsun, varlýðýný çýðlýklarla karþýlýyor!
+Bir kara rahip gï¿½rï¿½yorsun, varlï¿½ï¿½ï¿½nï¿½ ï¿½ï¿½ï¿½lï¿½klarla karï¿½ï¿½lï¿½yor!
 ~
 This foul creature is one of the evil priests of the dark lord, and he is
 keen to send your soul to him!
@@ -161,9 +161,9 @@ EFIKNU 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14709
-kara büyücü~
-kara büyücü~
-Bir kara büyücü burada, gürleyerek rahatsýzlýðýný gösteriyor!
+kara bï¿½yï¿½cï¿½~
+kara bï¿½yï¿½cï¿½~
+Bir kara bï¿½yï¿½cï¿½ burada, gï¿½rleyerek rahatsï¿½zlï¿½ï¿½ï¿½nï¿½ gï¿½steriyor!
 ~
 You have burst in at a very inappropriate time, and spoiled years of work.
 Good ;)
@@ -178,9 +178,9 @@ FIKU B C 0
 stand stand male 1000
 0 0 medium 0
 #14710
-kara muhafýz~
-kara muhafýz~
-Bir kara muhafýz görüyorsun, üzerine doðru ilerliyor.
+kara muhafï¿½z~
+kara muhafï¿½z~
+Bir kara muhafï¿½z gï¿½rï¿½yorsun, ï¿½zerine doï¿½ru ilerliyor.
 ~
 This guard is a meber of the blackguard, the fanatical warriors who make up
 the bulk of Lord Krothgar's evil army.
@@ -193,9 +193,9 @@ CDEFIJKQ 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14711
-kýzýl ejderha~
-kýzýl ejderha~
-Kýzýl bir ejderha görüyorsun, seni parçalamaya hazýrlanýyor.
+kï¿½zï¿½l ejderha~
+kï¿½zï¿½l ejderha~
+Kï¿½zï¿½l bir ejderha gï¿½rï¿½yorsun, seni parï¿½alamaya hazï¿½rlanï¿½yor.
 ~
 This dragon is one of Krothgar's five favorites, and is loyal to its master.
 Huge teeth protrude from a mouth capable of spewing forth destructive matter
@@ -212,7 +212,7 @@ stand stand none 1000
 #14712
 kara ejderha~
 kara ejderha~
-Kara bir ejderha görüyorsun, seni parçalamaya hazýrlanýyor.
+Kara bir ejderha gï¿½rï¿½yorsun, seni parï¿½alamaya hazï¿½rlanï¿½yor.
 ~
 This dragon is one of Krothgar's five favorites, and is loyal to its master.
 Huge teeth protrude from a mouth capable of spewing forth destructive matter
@@ -229,7 +229,7 @@ stand stand none 1000
 #14713
 beyaz ejderha~
 beyaz ejderha~
-Beyaz bir ejderha burada, seni yoketmeye hazýrlanýyor.
+Beyaz bir ejderha burada, seni yoketmeye hazï¿½rlanï¿½yor.
 ~
 This dragon is one of Krothgar's five favorites, and is loyal to its master.
 Huge teeth protrude from a mouth capable of spewing forth destructive matter
@@ -246,7 +246,7 @@ stand stand none 1000
 #14714
 mavi ejderha~
 mavi ejderha~
-Mavi bir ejderha görüyorsun, üzerine ilerliyor.
+Mavi bir ejderha gï¿½rï¿½yorsun, ï¿½zerine ilerliyor.
 ~
 This dragon is one of Krothgar's five favorites, and is loyal to its master.
 Huge teeth protrude from a mouth capable of spewing forth destructive matter
@@ -261,9 +261,9 @@ CEFM 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14715
-yeþil ejderha~
-yeþil ejderha~
-Yeþil bir ejderha görüyorsun, nefesinden çýkan ýsý derini yakýyor.
+yeï¿½il ejderha~
+yeï¿½il ejderha~
+Yeï¿½il bir ejderha gï¿½rï¿½yorsun, nefesinden ï¿½ï¿½kan ï¿½sï¿½ derini yakï¿½yor.
 ~
 This dragon is one of Krothgar's five favorites, and is loyal to its master.
 Huge teeth protrude from a mouth capable of spewing forth destructive matter
@@ -278,9 +278,9 @@ CEFM 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14716
-ateþ hizmetkarý~
-ateþ hizmetkarý~
-Bir ateþ hizmetkarý görüyorsun, gördüðü herþeyi yakýyor.
+ateï¿½ hizmetkarï¿½~
+ateï¿½ hizmetkarï¿½~
+Bir ateï¿½ hizmetkarï¿½ gï¿½rï¿½yorsun, gï¿½rdï¿½ï¿½ï¿½ herï¿½eyi yakï¿½yor.
 ~
 This magically-summoned being serves the mages of the tower- sometimes.
 ~
@@ -294,7 +294,7 @@ stand stand none 1000
 #14717
 efreti~
 efreti~
-Bir efreti görüyorsun, demir sütunun üzerinde bekliyor.
+Bir efreti gï¿½rï¿½yorsun, demir sï¿½tunun ï¿½zerinde bekliyor.
 ~
 This being, summoned from the Elemental Plane of Fire by the flask on the
 floor, is not happy, for the power of the flask has been exhausted and he
@@ -309,9 +309,9 @@ FIK H 0 0
 stand stand male 1000
 0 0 medium 0
 #14718
-þedu~
-þedu~
-Bir þedu görüyorsun, odanýn köþesinde duruyor.
+ï¿½edu~
+ï¿½edu~
+Bir ï¿½edu gï¿½rï¿½yorsun, odanï¿½n kï¿½ï¿½esinde duruyor.
 ~
 This unfortunate creature was captured by agents of Krothgar, who brought it
 here to amuse him. He occasionally spends time torturing it, but has grown
@@ -327,7 +327,7 @@ stand stand male 1000
 #14719
 kara ilithid~
 kara ilithid~
-Kara ilithid burada, varlýðýný izliyor.
+Kara ilithid burada, varlï¿½ï¿½ï¿½nï¿½ izliyor.
 ~
 This foul mind flayer wants brains, and since Krothgar's followers aren't the
 brightest of creatures it is near starvation. You are a nice surprise...
@@ -340,9 +340,9 @@ EFKU 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14720
-zavallý köle~
-köle~
-Zavallý bir köle görüyorsun, kurban edilmeyi bekliyor.
+zavallï¿½ kï¿½le~
+kï¿½le~
+Zavallï¿½ bir kï¿½le gï¿½rï¿½yorsun, kurban edilmeyi bekliyor.
 ~
 This pathetic wretch has lost all hope. Squatting naked and shivering in the
 corner of the cell he gibbers insanely and begs for mercy.
@@ -355,9 +355,9 @@ F 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14721
-zavallý köle~
-köle~
-Zavallý bir köle görüyorsun, Krotgar'ýn lejyonlarýna hizmet etmeyi bekliyor.
+zavallï¿½ kï¿½le~
+kï¿½le~
+Zavallï¿½ bir kï¿½le gï¿½rï¿½yorsun, Krotgar'ï¿½n lejyonlarï¿½na hizmet etmeyi bekliyor.
 ~
 This pathetic wretch has lost all hope. Squatting naked and shivering in the
 corner of the cell she gibbers insanely and begs for mercy.
@@ -372,7 +372,7 @@ stand stand female 1000
 #14722
 mutant~
 mutant~
-Bir mutant görüyorsun, varlýðýný çýðlýklarla karþýlýyor.
+Bir mutant gï¿½rï¿½yorsun, varlï¿½ï¿½ï¿½nï¿½ ï¿½ï¿½ï¿½lï¿½klarla karï¿½ï¿½lï¿½yor.
 ~
 These unnatural beings are foul products of the insane experiments of the
 scientist mages upon captured slaves in an attempt to create the perfect
@@ -388,8 +388,8 @@ stand stand none 1000
 0 0 medium 0
 #14723
 hidra~
-oniki baþlý hidra~
-Oniki baþlý bir hidra görüyorsun.
+oniki baï¿½lï¿½ hidra~
+Oniki baï¿½lï¿½ bir hidra gï¿½rï¿½yorsun.
 ~
 This mighty creature has allied with Krothgar in exchange for a steady diet
 of humans and elves. It will fight ferociously to defend the home of its
@@ -405,7 +405,7 @@ stand stand none 1000
 #14724
 kuvasit~
 kuvasit~
-Bir kuvasit görüyorsun, saldýrgan sesler çýkarýyor.
+Bir kuvasit gï¿½rï¿½yorsun, saldï¿½rgan sesler ï¿½ï¿½karï¿½yor.
 ~
 This angry creature is the familiar of some mage or another. It is angered
 at being seen.
@@ -420,7 +420,7 @@ stand stand none 1000
 #14725
 sukubus~
 sukubus~
-Bir sukubus görüyorsun, seni baþtan çýkartýcý bir gülümsemeyle karþýlýyor.
+Bir sukubus gï¿½rï¿½yorsun, seni baï¿½tan ï¿½ï¿½kartï¿½cï¿½ bir gï¿½lï¿½msemeyle karï¿½ï¿½lï¿½yor.
 ~
 This lustful demoness is the current concubine of Korgthar, though her
 appetite is insatiable and she is always on the lookout for new prey... err
@@ -434,9 +434,9 @@ EFIU 0 0 0
 stand stand female 1000
 0 0 medium 0
 #14726
-toprak hizmetkarý~
-toprak hizmetkarý~
-Bir toprak hizmetkarý görüyorsun, gördüðü herþeyi yerle bir ediyor.
+toprak hizmetkarï¿½~
+toprak hizmetkarï¿½~
+Bir toprak hizmetkarï¿½ gï¿½rï¿½yorsun, gï¿½rdï¿½ï¿½ï¿½ herï¿½eyi yerle bir ediyor.
 ~
 This magically-summoned being serves the mages of the tower- sometimes.
 ~
@@ -448,9 +448,9 @@ EFU 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14727
-su hizmetkarý~
-su hizmetkarý~
-Bir su hizmetkarý görüyorsun, gördüðü herþeyi boðuyor.
+su hizmetkarï¿½~
+su hizmetkarï¿½~
+Bir su hizmetkarï¿½ gï¿½rï¿½yorsun, gï¿½rdï¿½ï¿½ï¿½ herï¿½eyi boï¿½uyor.
 ~
 This magically-summoned being serves the mages of the tower- sometimes.
 ~
@@ -462,9 +462,9 @@ EFU I 0 0
 stand stand none 1000
 0 0 medium 0
 #14728
-hava hizmetkarý~
-hava hizmetkarý~
-Bir hava hizmetkarý görüyorsun, gördüðü herþeyi parçalýyor.
+hava hizmetkarï¿½~
+hava hizmetkarï¿½~
+Bir hava hizmetkarï¿½ gï¿½rï¿½yorsun, gï¿½rdï¿½ï¿½ï¿½ herï¿½eyi parï¿½alï¿½yor.
 ~
 This magically-summoned being serves the mages of the tower- sometimes.
 ~
@@ -476,9 +476,9 @@ EFU 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14729
-cehennem tazýsý~
-cehennem tazýsý~
-Bir cehennem tazýsý sana doðru koþuyor.
+cehennem tazï¿½sï¿½~
+cehennem tazï¿½sï¿½~
+Bir cehennem tazï¿½sï¿½ sana doï¿½ru koï¿½uyor.
 ~
 Breathing fire and reeking of brimstone, this unholy red-hued hound is indeed
 a terrible sight to behold.
@@ -491,9 +491,9 @@ EFU 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14730
-ateþ devi~
-ateþ devi~
-Bir ateþ devi burada, kýlýcýný sana sallýyor.
+ateï¿½ devi~
+ateï¿½ devi~
+Bir ateï¿½ devi burada, kï¿½lï¿½cï¿½nï¿½ sana sallï¿½yor.
 ~
 These fellows are guardians of the massive volcano known as Mount Doom, upon
 which rests the inpregnable fortress of their master, Lord Krothgar. They
@@ -509,7 +509,7 @@ stand stand male 1000
 #14731
 buz devi~
 buz devi~
-Bir buz devi burada, donduran bakýþlarýyla seni izliyor.
+Bir buz devi burada, donduran bakï¿½ï¿½larï¿½yla seni izliyor.
 ~
 These emissaries are here to form an alliance with the forces of Mount Doom.
 They do not take kindly to intrusions.
@@ -522,9 +522,9 @@ CEFIKQ 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14732
-dað devi~
-dað devi~
-Bir dað devi seni izliyor.
+daï¿½ devi~
+daï¿½ devi~
+Bir daï¿½ devi seni izliyor.
 ~
 These fellows are guardians of the lands surrounding the massive volcano
 known as Mount Doom, upon which rests the inpregnable fortress of their
@@ -540,7 +540,7 @@ stand stand male 1000
 #14733
 bulut devi~
 bulut devi~
-Bir bulut devi küçümseyici bakýþlarla seni izliyor.
+Bir bulut devi kï¿½ï¿½ï¿½mseyici bakï¿½ï¿½larla seni izliyor.
 ~
 These emissaries are here to form an alliance with the forces of Mount Doom.
 They do not take kindly to intrusions.
@@ -569,9 +569,9 @@ CEFIK 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14735
-ogre büyücü~
-ogre büyücü~
-Bir ogre büyücü seni dikkatle izliyor.
+ogre bï¿½yï¿½cï¿½~
+ogre bï¿½yï¿½cï¿½~
+Bir ogre bï¿½yï¿½cï¿½ seni dikkatle izliyor.
 ~
 These eastern cousins of the ogres and giants of the west have been invited
 here to form an alliance with the troops of Krothgar. They are deeply
@@ -588,7 +588,7 @@ stand stand male 1000
 #14736
 arba~
 arba~
-Bir arba görüyorsun, gürültüyle esniyor.
+Bir arba gï¿½rï¿½yorsun, gï¿½rï¿½ltï¿½yle esniyor.
 ~
 These grotesques were bred for combat, not sentry duty, and the boredom is
 almost killing them. They don't even notice your presence.
@@ -603,7 +603,7 @@ stand stand male 1000
 #14737
 ethin~
 ethin~
-Bir ethin görüyorsun, iki kafasýyla seni izliyor.
+Bir ethin gï¿½rï¿½yorsun, iki kafasï¿½yla seni izliyor.
 ~
 This two-headed giant is a guard of the more important inhabitants of the
 fortress. He takes his duties very seriously.
@@ -616,9 +616,9 @@ CEFIKQ 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14738
-þef suikastçi~
-þef suikastçi~
-Bir suikastçi görüyorsun, eli silahýnda seni izliyor.
+ï¿½ef suikastï¿½i~
+ï¿½ef suikastï¿½i~
+Bir suikastï¿½i gï¿½rï¿½yorsun, eli silahï¿½nda seni izliyor.
 ~
 This beauty is actually the lethal head of Krothgar's elite assassins, who
 have achieved more for his cause than a dozen armies. She asks for no quarter,
@@ -632,9 +632,9 @@ CEFIK 0 0 0
 stand stand female 1000
 0 0 medium 0
 #14739
-suikastçi~
-suikastçi~
-Bir suikastçi dövüþe hazýrlanýyor.
+suikastï¿½i~
+suikastï¿½i~
+Bir suikastï¿½i dï¿½vï¿½ï¿½e hazï¿½rlanï¿½yor.
 ~
 This woman is a member of Krothgar's assassin company, and has slain more
 men and women than any one hundred of his regular soldiers.
@@ -647,9 +647,9 @@ CEFIK 0 0 0
 stand stand female 1000
 0 0 medium 0
 #14740
-karayel elçi~
-karayel elçi~
-Bir karayel elçi seni izliyor.
+karayel elï¿½i~
+karayel elï¿½i~
+Bir karayel elï¿½i seni izliyor.
 ~
 This priestess is here to secure an alliance between her people and Krothgar's
 forces. She is not happy about your intrusion into this matter.
@@ -662,9 +662,9 @@ CEFIKQ 0 0 0
 stand stand female 1000
 0 0 medium 0
 #14741
-yeþil gul~
-yeþil gul~
-Yeþil renkli bir gul seni izliyor.
+yeï¿½il gul~
+yeï¿½il gul~
+Yeï¿½il renkli bir gul seni izliyor.
 ~
 This beast is a servant of the hill giants who patrol the plains of Doom.
 ~
@@ -678,7 +678,7 @@ stand stand male 1000
 #14742
 gul~
 gul~
-Kana susamýþ bir gul görüyorsun, seni izliyor.
+Kana susamï¿½ï¿½ bir gul gï¿½rï¿½yorsun, seni izliyor.
 ~
 This hideous undead wants to feast on your flesh!
 ~
@@ -692,7 +692,7 @@ stand stand none 1000
 #14743
 vampir~
 vampir~
-Bir vampir sana gülümsüyor...
+Bir vampir sana gï¿½lï¿½msï¿½yor...
 ~
 This vamp is treacherous and deadly. You can see why Krothgar likes having
 her around...
@@ -705,9 +705,9 @@ EFIKNQ 0 D 0
 stand stand female 1000
 0 0 medium 0
 #14744
-kadim liç~
-kadim liç~
-Kadim bir liç düþüncelerinden sýyrýlýp sana bakýyor.
+kadim liï¿½~
+kadim liï¿½~
+Kadim bir liï¿½ dï¿½ï¿½ï¿½ncelerinden sï¿½yrï¿½lï¿½p sana bakï¿½yor.
 ~
 Even the mages of Krothgar know not of the existence of this secret tomb.
 Buried within is the old lord of the Fortress, who was imprisoned in here
@@ -722,9 +722,9 @@ CEFIKQ 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14745
-taþ golem~
-taþ golem~
-Bir taþ golem burada, efendisinin düþmanlarýný yoketmeye hazýr!
+taï¿½ golem~
+taï¿½ golem~
+Bir taï¿½ golem burada, efendisinin dï¿½ï¿½manlarï¿½nï¿½ yoketmeye hazï¿½r!
 ~
 This soulless automaton was created by Krothgar's fell evil priests to
 serve him as a bodyguard (for appearance's sake only- he scarcely has need
@@ -738,9 +738,9 @@ EFNU 0 0 0
 stand stand none 1000
 0 0 medium 0
 #14746
-bekçi~
-bekçi~
-Bir bekçi görüyorsun, tüm nefretiyle seni izliyor.
+bekï¿½i~
+bekï¿½i~
+Bir bekï¿½i gï¿½rï¿½yorsun, tï¿½m nefretiyle seni izliyor.
 ~
 
 ~
@@ -754,7 +754,7 @@ stand stand none 1000
 #14747
 prenses naga~
 prenses naga~
-Prenses Naga'yý görüyorsun, seni izliyor!
+Prenses Naga'yï¿½ gï¿½rï¿½yorsun, seni izliyor!
 ~
 This snake with a woman's head seems unimpressed by your intrusion, but
 she refrains from attacking, hoping that the guards of the castle will see
@@ -772,9 +772,9 @@ stand stand male 1000
 
 #OBJECTS
 #14700
-lord krotgar zýrhý~
-Lord Krotgar'ýn Zýrhý~
-Lord Krotgar'ýn zýrhý burada duruyor.~
+lord krotgar zï¿½rhï¿½~
+Lord Krotgar'ï¿½n Zï¿½rhï¿½~
+Lord Krotgar'ï¿½n zï¿½rhï¿½ burada duruyor.~
 steel~
 armor 2|16|64|128|512|2048 1|8
 21 21 21 10 0
@@ -794,9 +794,9 @@ A
 A
 24 -1
 #14701
-lord krotgar kýlýç~
-Lord Krotgar'ýn Kýlýcý~
-Lord Krotgar'ýn Kýlýcý burada duruyor.~
+lord krotgar kï¿½lï¿½ï¿½~
+Lord Krotgar'ï¿½n Kï¿½lï¿½cï¿½~
+Lord Krotgar'ï¿½n Kï¿½lï¿½cï¿½ burada duruyor.~
 steel~
 weapon 2|16|64|128|512|2048 1|8192
 sword 6 11 pierce 0
@@ -809,8 +809,8 @@ A
 19 10
 #14702
 lord krotgar kalkan~
-Lord Krotgar'ýn Kalkaný~
-Lord Krotgar'ýn Kalkaný burada duruyor.~
+Lord Krotgar'ï¿½n Kalkanï¿½~
+Lord Krotgar'ï¿½n Kalkanï¿½ burada duruyor.~
 steel~
 armor 2|16|64|128|512|2048 1|512
 21 21 21 10 0
@@ -822,9 +822,9 @@ A
 A
 24 -3
 #14703
-lord krotgar miðfer~
-Lord Krotgar'ýn Miðferi~
-Lord Krotgar'ýn Miðferi burada duruyor.~
+lord krotgar miï¿½fer~
+Lord Krotgar'ï¿½n Miï¿½feri~
+Lord Krotgar'ï¿½n Miï¿½feri burada duruyor.~
 steel~
 armor 2|16|64|128|512|2048|4096 1|16
 21 21 21 10 0
@@ -834,9 +834,9 @@ A
 A
 4 -5
 #14704
-çift-el kýlýç~
-çift elli kýlýç~
-Bir çift elli kýlýç burada duruyor.~
+ï¿½ift-el kï¿½lï¿½ï¿½~
+ï¿½ift elli kï¿½lï¿½ï¿½~
+Bir ï¿½ift elli kï¿½lï¿½ï¿½ burada duruyor.~
 steel~
 weapon 2|16|64|512 1|32768
 sword 6 10 crush F
@@ -850,9 +850,9 @@ A
 A
 19 6
 #14705
-soluk miðfer~
-soluk miðfer~
-Soluk bir miðfer burada duruyor.~
+soluk miï¿½fer~
+soluk miï¿½fer~
+Soluk bir miï¿½fer burada duruyor.~
 steel~
 armor 2|16|64|512|4096 1|16
 18 18 18 9 0
@@ -882,7 +882,7 @@ A
 #14707
 iblisin deri topuzu~
 iblisin deri topuzu~
-Deri bir topuz uzanmýþ dinleniyor.~
+Deri bir topuz uzanmï¿½ï¿½ dinleniyor.~
 steel~
 weapon 2|16|64|512 1|8192
 flail 7 9 whip 0
@@ -894,7 +894,7 @@ A
 #14708
 atevli tomruk~
 atevli tomruk~
-Üzerinde alevlerin oynaþtýðý kocaman bir tomruk görüyorsun.~
+ï¿½zerinde alevlerin oynaï¿½tï¿½ï¿½ï¿½ kocaman bir tomruk gï¿½rï¿½yorsun.~
 steel~
 furniture 1|2|16|64|512|65536 1|16384
 0 0 0 0 0
@@ -902,9 +902,9 @@ furniture 1|2|16|64|512|65536 1|16384
 A
 18 4
 #14709
-güç asasý~
-güç asasý~
-Bir güç asasý yerde dinleniyor.~
+gï¿½ï¿½ asasï¿½~
+gï¿½ï¿½ asasï¿½~
+Bir gï¿½ï¿½ asasï¿½ yerde dinleniyor.~
 wood~
 staff 1|64 1|16384
 54 11 11 'energy drain' 0
@@ -916,9 +916,9 @@ A
 A
 17 -20
 #14710
-baþbüyücü cüppesi~
-baþbüyücü cüppesi~
-Baþbüyücünün cüppesi burada yatýyor.~
+baï¿½bï¿½yï¿½cï¿½ cï¿½ppesi~
+baï¿½bï¿½yï¿½cï¿½ cï¿½ppesi~
+Baï¿½bï¿½yï¿½cï¿½nï¿½n cï¿½ppesi burada yatï¿½yor.~
 cloth~
 armor 1|64 1|1024
 17 17 18 9 0
@@ -926,25 +926,25 @@ armor 1|64 1|1024
 A
 12 50
 #14711
-büyülü toz þiþesi~
-büyülü toz þiþesi~
-Bir büyülü toz þiþesi burada yatýyor.~
+bï¿½yï¿½lï¿½ toz ï¿½iï¿½esi~
+bï¿½yï¿½lï¿½ toz ï¿½iï¿½esi~
+Bir bï¿½yï¿½lï¿½ toz ï¿½iï¿½esi burada yatï¿½yor.~
 glass~
 potion 1|64 1|16384
 54 'heal' 'heal' 'heal' 'heal'
 20 3 20000 P
 #14712
-kurban hançeri~
-kurban hançeri~
-Bir hançer burada duruyor.~
+kurban hanï¿½eri~
+kurban hanï¿½eri~
+Bir hanï¿½er burada duruyor.~
 steel~
 weapon 16|512 1|8192
 dagger 5 11 pierce 0
 54 5 1000 P
 #14713
-yüksek rahip cüppesi~
-yüksek rahip cüppesi~
-Yüksek rahip cüppesi burada yatýyor.~
+yï¿½ksek rahip cï¿½ppesi~
+yï¿½ksek rahip cï¿½ppesi~
+Yï¿½ksek rahip cï¿½ppesi burada yatï¿½yor.~
 cloth~
 armor 16|512 1|1024
 18 18 17 8 0
@@ -952,8 +952,8 @@ armor 16|512 1|1024
 A
 4 4
 #14714
-yüksek rahip seramoni ölüm maskesi~
-yüksek rahip ölüm maskesi~
+yï¿½ksek rahip seramoni ï¿½lï¿½m maskesi~
+yï¿½ksek rahip ï¿½lï¿½m maskesi~
 Yerde bir seramoni maskesi duruyor.~
 cloth~
 armor 16|512 1|16
@@ -964,9 +964,9 @@ A
 A
 13 20
 #14715
-çivili zýrh~
-çivili zýrh~
-Çivili bir zýrh burada unutulmuþ.~
+ï¿½ivili zï¿½rh~
+ï¿½ivili zï¿½rh~
+ï¿½ivili bir zï¿½rh burada unutulmuï¿½.~
 steel~
 armor 2|16|512 1|8
 16 17 17 8 0
@@ -974,9 +974,9 @@ armor 2|16|512 1|8
 A
 17 -15
 #14716
-sabah yýldýzý~
-sabah yýldýzý~
-Büyük bir gürz burada býrakýlmýþ.~
+sabah yï¿½ldï¿½zï¿½~
+sabah yï¿½ldï¿½zï¿½~
+Bï¿½yï¿½k bir gï¿½rz burada bï¿½rakï¿½lmï¿½ï¿½.~
 wood steel~
 weapon 2|16|64|512 1|32768
 mace 5 10 crush 0
@@ -986,65 +986,65 @@ A
 A
 19 10
 #14717
-kara miðfer~
-kara miðfer~
-Kara bir miðfer burada býrakýlmýþ.~
+kara miï¿½fer~
+kara miï¿½fer~
+Kara bir miï¿½fer burada bï¿½rakï¿½lmï¿½ï¿½.~
 steel~
 armor 2|16|512 1|16
 16 17 17 8 0
 50 5 2000 P
 #14718
-kurban hançeri~
-kurban hançeri~
-Bir kurban hançeri burada býrakýlmýþ.~
+kurban hanï¿½eri~
+kurban hanï¿½eri~
+Bir kurban hanï¿½eri burada bï¿½rakï¿½lmï¿½ï¿½.~
 steel~
 weapon 16|512 1|8192
 dagger 4 10 pierce 0
 40 5 2000 P
 #14719
-rahip cüppesi~
-rahip cüppesi~
-Bir rahip cüppesi burada býrakýlmýþ.~
+rahip cï¿½ppesi~
+rahip cï¿½ppesi~
+Bir rahip cï¿½ppesi burada bï¿½rakï¿½lmï¿½ï¿½.~
 cloth~
 armor 16|512 1|1024
 13 13 13 6 0
 40 5 1000 P
 #14720
-rahip seramoni ölüm maske~
-rahibin ölüm maskesi~
-Bir seramoni maskesi burada býrakýlmýþ.~
+rahip seramoni ï¿½lï¿½m maske~
+rahibin ï¿½lï¿½m maskesi~
+Bir seramoni maskesi burada bï¿½rakï¿½lmï¿½ï¿½.~
 cloth~
 armor 16|512 1|16
 13 13 13 6 0
 40 3 1000 P
 #14721
-büyücü cüppesi~
-büyücünün cüppesi~
-Kirli bir cüppe burada býrakýlmýþ.~
+bï¿½yï¿½cï¿½ cï¿½ppesi~
+bï¿½yï¿½cï¿½nï¿½n cï¿½ppesi~
+Kirli bir cï¿½ppe burada bï¿½rakï¿½lmï¿½ï¿½.~
 cloth~
 armor 0 1|1024
 15 15 14 7 0
 45 1 1000 P
 #14722
-büyülü deðnek~
-büyülü deðnek~
-Büyülü bir deðnek dinleniyor.~
+bï¿½yï¿½lï¿½ deï¿½nek~
+bï¿½yï¿½lï¿½ deï¿½nek~
+Bï¿½yï¿½lï¿½ bir deï¿½nek dinleniyor.~
 unknown~
 wand 1|64 1|16384
 31 9 9 'cure critical' 0
 25 4 4000 P
 #14723
-zararlý kimyasal iksir~
-zararlý kimyasal iksiri~
-Bir iksir burada býrakýlmýþ.~
+zararlï¿½ kimyasal iksir~
+zararlï¿½ kimyasal iksiri~
+Bir iksir burada bï¿½rakï¿½lmï¿½ï¿½.~
 glass~
 potion 2 1|16384
 45 'poison' 'weaken' 'acid blast' ''
 40 4 0 P
 #14724
-ejderha zýrhý~
-ejderha zýrhý~
-Büyük bir ejderha zýrhý burada düþürülmüþ.~
+ejderha zï¿½rhï¿½~
+ejderha zï¿½rhï¿½~
+Bï¿½yï¿½k bir ejderha zï¿½rhï¿½ burada dï¿½ï¿½ï¿½rï¿½lmï¿½ï¿½.~
 dragonskin~
 armor 2|16|512 1|512
 15 15 15 7 0
@@ -1054,9 +1054,9 @@ A
 A
 23 -5
 #14725
-ejderha diþi~
-ejderha diþi~
-Bir ejderha diþi burada býrakýlmýþ.~
+ejderha diï¿½i~
+ejderha diï¿½i~
+Bir ejderha diï¿½i burada bï¿½rakï¿½lmï¿½ï¿½.~
 bone~
 weapon 2|16|512 1|16384
 exotic 5 8 pierce 0
@@ -1066,9 +1066,9 @@ A
 A
 19 5
 #14726
-ejderha pençesi~
-bir çift ejderha pençesi~
-Bir çift ejderha pençesi burada býrakýlmýþ.~
+ejderha penï¿½esi~
+bir ï¿½ift ejderha penï¿½esi~
+Bir ï¿½ift ejderha penï¿½esi burada bï¿½rakï¿½lmï¿½ï¿½.~
 bone~
 armor 2|16|512 1|128
 16 14 14 8 0
@@ -1082,7 +1082,7 @@ A
 #14727
 ejderha derisi~
 ejderha derisi~
-Bir ejderha derisi burada býrakýlmýþ~
+Bir ejderha derisi burada bï¿½rakï¿½lmï¿½ï¿½~
 bone~
 armor 2|16|512 1|1024
 15 15 15 8 0
@@ -1096,25 +1096,25 @@ A
 A
 24 -2
 #14728
-tunç asa~
-tunç asa~
-Tunçtan yapýlmýþ bir asa burada dinleniyor.~
+tunï¿½ asa~
+tunï¿½ asa~
+Tunï¿½tan yapï¿½lmï¿½ï¿½ bir asa burada dinleniyor.~
 bronze~
 staff 64 1|16384
 53 1 1 'summon' 0
 40 4 3000 P
 #14729
-þiþe~
-þiþe~
-Büyükçe bir þiþe burada býrakýlmýþ.~
+ï¿½iï¿½e~
+ï¿½iï¿½e~
+Bï¿½yï¿½kï¿½e bir ï¿½iï¿½e burada bï¿½rakï¿½lmï¿½ï¿½.~
 unknown~
 container 0 1|16384
 1 0 0 0 100
 1 500 0 P
 #14730
-kelepçe~
-bir çift kelepçe~
-Bir çift kelepçe burada býrakýlmýþ~
+kelepï¿½e~
+bir ï¿½ift kelepï¿½e~
+Bir ï¿½ift kelepï¿½e burada bï¿½rakï¿½lmï¿½ï¿½~
 iron~
 armor 64|4096 1|256
 0 0 0 0 0
@@ -1124,9 +1124,9 @@ A
 A
 17 10
 #14731
-ilithidin cüppesi~
-ilithidin cüppesi~
-Ýlithidin cüppesi burada býrakýlmýþ.~
+ilithidin cï¿½ppesi~
+ilithidin cï¿½ppesi~
+ï¿½lithidin cï¿½ppesi burada bï¿½rakï¿½lmï¿½ï¿½.~
 wool~
 armor 64 1|1024
 16 16 18 8 0
@@ -1136,7 +1136,7 @@ A
 #14732
 cevher~
 cevher~
-Bir cevher þeytanca parlýyor.~
+Bir cevher ï¿½eytanca parlï¿½yor.~
 unknown~
 light 1|16|512 1|16384
 0 0 -1 0 0
@@ -1150,65 +1150,65 @@ A
 A
 17 -10
 #14733
-sandýk~
-sandýk~
-Aðýr bir sandýk burada býrakýlmýþ.~
+sandï¿½k~
+sandï¿½k~
+Aï¿½ï¿½r bir sandï¿½k burada bï¿½rakï¿½lmï¿½ï¿½.~
 steel~
 container 0 0
 10000 1 0 0 0
 1 0 0 P
 #14734
 ganimet~
-büyük ganimet~
-Büyük bir ganimet burada býrakýlmýþ.~
+bï¿½yï¿½k ganimet~
+Bï¿½yï¿½k bir ganimet burada bï¿½rakï¿½lmï¿½ï¿½.~
 gold~
 money 1 1
 0 0 0 0 0
 0 100 50000 P
 #14735
-lüks yatak~
-lüks yatak~
-Lüks bir yatak burada býrakýlmýþ.~
+lï¿½ks yatak~
+lï¿½ks yatak~
+Lï¿½ks bir yatak burada bï¿½rakï¿½lmï¿½ï¿½.~
 silver~
 furniture 0 0
 0 0 0 0 0
 1 0 0 P
 #14736
-pahalý ipek~
-pahalý ipek~
-Pahalý bir ipek burada býrakýlmýþ.~
+pahalï¿½ ipek~
+pahalï¿½ ipek~
+Pahalï¿½ bir ipek burada bï¿½rakï¿½lmï¿½ï¿½.~
 silver~
 treasure 0 1|1024
 0 0 0 0 0
 10 1 15000 P
 #14737
-taþ~
-taþ~
-Bir taþ burada býrakýlmýþ.~
+taï¿½~
+taï¿½~
+Bir taï¿½ burada bï¿½rakï¿½lmï¿½ï¿½.~
 stone~
 staff 64 1|16384
 53 1 1 'summon' 0
 45 5 0 P
 #14738
-çanak~
-çanak~
-Bir çanak burada býrakýlmýþ.~
+ï¿½anak~
+ï¿½anak~
+Bir ï¿½anak burada bï¿½rakï¿½lmï¿½ï¿½.~
 unknown~
 staff 64 1|16384
 53 1 1 'summon' 0
 45 5 0 P
 #14739
-kiremit parçasý~
-kiremit parçasý~
-Bir kiremit parçasý burada býrakýlmýþ.~
+kiremit parï¿½asï¿½~
+kiremit parï¿½asï¿½~
+Bir kiremit parï¿½asï¿½ burada bï¿½rakï¿½lmï¿½ï¿½.~
 unknown~
 staff 64 1|16384
 53 1 1 'summon' 0
 45 5 0 P
 #14740
-çivili tasma~
-çivili tasma~
-Çivili bir tasma burada býrakýlmýþ.~
+ï¿½ivili tasma~
+ï¿½ivili tasma~
+ï¿½ivili bir tasma burada bï¿½rakï¿½lmï¿½ï¿½.~
 leather~
 armor 16|4096 1|4
 14 14 14 6 0
@@ -1216,9 +1216,9 @@ armor 16|4096 1|4
 A
 19 4
 #14741
-dev kýlýç~
-dev kýlýcý~
-Bir dev kýlýcý burada dinleniyor.~
+dev kï¿½lï¿½ï¿½~
+dev kï¿½lï¿½cï¿½~
+Bir dev kï¿½lï¿½cï¿½ burada dinleniyor.~
 steel~
 weapon 0 1|8192
 sword 4 11 crush 0
@@ -1238,17 +1238,17 @@ A
 A
 19 4
 #14743
-aðaç saplý gürz~
-aðaç saplý gürz~
-Aðaç saplý bir gürz burada yatýyor.~
+aï¿½aï¿½ saplï¿½ gï¿½rz~
+aï¿½aï¿½ saplï¿½ gï¿½rz~
+Aï¿½aï¿½ saplï¿½ bir gï¿½rz burada yatï¿½yor.~
 wood~
 weapon 0 1|8192
 mace 4 11 pound 0
 45 5 2000 P
 #14744
-köle tasma~
-köle tasmasý~
-Bir köle tasmasý burada býrakýlmýþ.~
+kï¿½le tasma~
+kï¿½le tasmasï¿½~
+Bir kï¿½le tasmasï¿½ burada bï¿½rakï¿½lmï¿½ï¿½.~
 leather~
 armor 4096 1|4
 0 0 0 0 0
@@ -1264,7 +1264,7 @@ A
 #14745
 zincir~
 zincir~
-Bir zincir yerde sürünüyor.~
+Bir zincir yerde sï¿½rï¿½nï¿½yor.~
 unknown~
 weapon 64 1|8192
 exotic 5 8 slash 0
@@ -1274,17 +1274,17 @@ A
 A
 19 3
 #14746
-büyülü iksir þiþe~
-büyülü iksir~
-Büyülü bir iksir þiþesi yerde duruyor.~
+bï¿½yï¿½lï¿½ iksir ï¿½iï¿½e~
+bï¿½yï¿½lï¿½ iksir~
+Bï¿½yï¿½lï¿½ bir iksir ï¿½iï¿½esi yerde duruyor.~
 glass~
 potion 64 1|16384
 34 'armor' 'bless' 'shield' ''
 30 3 3000 P
 #14747
-kargý~
-kargý~
-Bir kargý görüyorsun.~
+kargï¿½~
+kargï¿½~
+Bir kargï¿½ gï¿½rï¿½yorsun.~
 iron~
 weapon 0 1|8192
 polearm 6 8 crush 0
@@ -1294,9 +1294,9 @@ A
 A
 19 6
 #14748
-örgülü kara zýrh~
-örgülü kara zýrh~
-Örgülü bir zýrh burada býrakýlmýþ.~
+ï¿½rgï¿½lï¿½ kara zï¿½rh~
+ï¿½rgï¿½lï¿½ kara zï¿½rh~
+ï¿½rgï¿½lï¿½ bir zï¿½rh burada bï¿½rakï¿½lmï¿½ï¿½.~
 leather~
 armor 16|4096 1|8
 16 16 17 8 0
@@ -1306,9 +1306,9 @@ A
 A
 17 -20
 #14749
-kara kýlýç~
-kara kýlýç~
-Kara bir kýlýç burada býrakýlmýþ.~
+kara kï¿½lï¿½ï¿½~
+kara kï¿½lï¿½ï¿½~
+Kara bir kï¿½lï¿½ï¿½ burada bï¿½rakï¿½lmï¿½ï¿½.~
 steel~
 weapon 1|16|64|512 1|8192
 sword 5 11 slash 0
@@ -1316,9 +1316,9 @@ sword 5 11 slash 0
 A
 18 8
 #14750
-mavi kýlýç~
-mavi kýlýç~
-Mavi bir kýlýç burada býrakýlmýþ.~
+mavi kï¿½lï¿½ï¿½~
+mavi kï¿½lï¿½ï¿½~
+Mavi bir kï¿½lï¿½ï¿½ burada bï¿½rakï¿½lmï¿½ï¿½.~
 unknown~
 weapon 2|16|64|512 1|8192
 sword 5 11 slash 0
@@ -1326,21 +1326,21 @@ sword 5 11 slash 0
 A
 19 8
 #14751
-kara cüppe~
-kara cüppe~
-Kara bir cüppe burada unutulmuþ.~
+kara cï¿½ppe~
+kara cï¿½ppe~
+Kara bir cï¿½ppe burada unutulmuï¿½.~
 steel~
 armor 0 1|1024
 15 15 14 7 0
 47 1 1000 P
 E
-cüppe~
+cï¿½ppe~
 They look extraordinarily unencumbering.
 ~
 #14752
-zehir þiþesi~
-zehir þiþesi~
-Bir zehir þiþesi burada býrakýlmýþ.~
+zehir ï¿½iï¿½esi~
+zehir ï¿½iï¿½esi~
+Bir zehir ï¿½iï¿½esi burada bï¿½rakï¿½lmï¿½ï¿½.~
 glass~
 potion 0 1|16384
 37 'blindness' 'poison' 'poison' ''
@@ -1352,7 +1352,7 @@ It looks very deadly.
 #14753
 karayel pelerini~
 karayel pelerini~
-Siyah bir pelerin burada býrakýlmýþ.~
+Siyah bir pelerin burada bï¿½rakï¿½lmï¿½ï¿½.~
 leather~
 armor 4 1|1024
 16 16 17 8 0
@@ -1366,9 +1366,9 @@ A
 A
 24 -1
 #14754
-karayel çizme~
-bir çift karayel çizmesi~
-Bir çift karayel çizmesi burada býrakýlmýþ.~
+karayel ï¿½izme~
+bir ï¿½ift karayel ï¿½izmesi~
+Bir ï¿½ift karayel ï¿½izmesi burada bï¿½rakï¿½lmï¿½ï¿½.~
 leather~
 armor 4 1|64
 17 16 16 8 0
@@ -1380,9 +1380,9 @@ A
 A
 17 -5
 #14755
-karayel örgülü zýrhý~
-karayel örgülü zýrhý~
-Bir karayel örgülü zýrhý burada unutulmuþ.~
+karayel ï¿½rgï¿½lï¿½ zï¿½rhï¿½~
+karayel ï¿½rgï¿½lï¿½ zï¿½rhï¿½~
+Bir karayel ï¿½rgï¿½lï¿½ zï¿½rhï¿½ burada unutulmuï¿½.~
 cloth~
 armor 64 1|8
 17 17 16 8 0
@@ -1394,9 +1394,9 @@ A
 A
 17 -10
 #14756
-dokunaç kýrbaç~
-dokunaç kýrbacý~
-Dokunaçlarla örülmüþ bir kýrbaç burada unutulmuþ.~
+dokunaï¿½ kï¿½rbaï¿½~
+dokunaï¿½ kï¿½rbacï¿½~
+Dokunaï¿½larla ï¿½rï¿½lmï¿½ï¿½ bir kï¿½rbaï¿½ burada unutulmuï¿½.~
 leather~
 weapon 64 1|8192
 whip 6 8 whip 0
@@ -1408,7 +1408,7 @@ A
 #14757
 tiyara~
 tiyara~
-Bir tiyara burada býrakýlmýþ.~
+Bir tiyara burada bï¿½rakï¿½lmï¿½ï¿½.~
 unknown~
 armor 64|512 1|16
 17 17 16 7 0
@@ -1422,15 +1422,15 @@ A
 #14758
 anahtar~
 anahtar~
-Üst seviyelere çýkmaya yarayacak bir anahtar burada býrakýlmýþ.~
+ï¿½st seviyelere ï¿½ï¿½kmaya yarayacak bir anahtar burada bï¿½rakï¿½lmï¿½ï¿½.~
 iron~
 key 0 1|16384
 0 0 0 0 0
 0 0 0 P
 #14759
-kara hortlak zýrhý~
-Kara Hortlak Zýrhý~
-Büyükçe bir zýrh burada býrakýlmýþ.~
+kara hortlak zï¿½rhï¿½~
+Kara Hortlak Zï¿½rhï¿½~
+Bï¿½yï¿½kï¿½e bir zï¿½rh burada bï¿½rakï¿½lmï¿½ï¿½.~
 adamantite~
 armor CY AD
 31 31 31 29 10
@@ -1449,7 +1449,7 @@ A
 
 #ROOMS
 #14700
-Hüküm Daðý Düzlükleri Yakýnýnda~
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri Yakï¿½nï¿½nda~
 You are heading directly toward Mount Doom, on a narrow path that leads to
 the desolate, monster-infested plains that surround it. This is the fell
 domain of Lord Krothgar, whose forbidding black fortress can be seen atop the
@@ -1468,12 +1468,12 @@ D2
 0 -1 6154
 S
 #14701
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D0
@@ -1486,12 +1486,12 @@ D1
 0 -1 14702
 S
 #14702
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D0
@@ -1508,12 +1508,12 @@ D3
 0 -1 14701
 S
 #14703
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D0
@@ -1530,12 +1530,12 @@ D3
 0 -1 14702
 S
 #14704
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D0
@@ -1556,12 +1556,12 @@ D3
 0 -1 14703
 S
 #14705
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D0
@@ -1578,12 +1578,12 @@ D3
 0 -1 14704
 S
 #14706
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D0
@@ -1600,12 +1600,12 @@ D3
 0 -1 14705
 S
 #14707
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D0
@@ -1618,12 +1618,12 @@ D3
 0 -1 14706
 S
 #14708
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D0
@@ -1640,12 +1640,12 @@ D2
 0 -1 14701
 S
 #14709
-Hüküm Daðý Tepeleri~
-Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
-devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
-volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
-Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
-ve çýðlýklar duyuyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Tepeleri~
+Daï¿½ï¿½n yamacï¿½ndasï¿½n. Buradan daï¿½ï¿½n doruklarï¿½na ya da ï¿½rkï¿½tï¿½cï¿½ dï¿½zlï¿½klere
+devam edebilirsin. Burada zemin oldukï¿½a kayalï¿½k ve emniyetsiz. Yerde
+volkanik basï¿½ncï¿½n yarattï¿½ï¿½ï¿½ ï¿½atlaklar ve granit kaya yapï¿½larï¿½ gï¿½rï¿½yorsun.
+Dï¿½zlï¿½klerdekine gï¿½re daha sert esen bir rï¿½zgarla karï¿½ï¿½ karï¿½ï¿½yasï¿½n. Ulumalar
+ve ï¿½ï¿½ï¿½lï¿½klar duyuyorsun.
 ~
 0 0 4
 D0
@@ -1666,12 +1666,12 @@ D3
 0 -1 14708
 S
 #14710
-Hüküm Daðý Tepeleri~
-Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
-devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
-volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
-Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
-ve çýðlýklar duyuyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Tepeleri~
+Daï¿½ï¿½n yamacï¿½ndasï¿½n. Buradan daï¿½ï¿½n doruklarï¿½na ya da ï¿½rkï¿½tï¿½cï¿½ dï¿½zlï¿½klere
+devam edebilirsin. Burada zemin oldukï¿½a kayalï¿½k ve emniyetsiz. Yerde
+volkanik basï¿½ncï¿½n yarattï¿½ï¿½ï¿½ ï¿½atlaklar ve granit kaya yapï¿½larï¿½ gï¿½rï¿½yorsun.
+Dï¿½zlï¿½klerdekine gï¿½re daha sert esen bir rï¿½zgarla karï¿½ï¿½ karï¿½ï¿½yasï¿½n. Ulumalar
+ve ï¿½ï¿½ï¿½lï¿½klar duyuyorsun.
 ~
 0 0 4
 D0
@@ -1692,12 +1692,12 @@ D3
 0 -1 14709
 S
 #14711
-Hüküm Daðý Tepeleri~
-Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
-devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
-volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
-Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
-ve çýðlýklar duyuyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Tepeleri~
+Daï¿½ï¿½n yamacï¿½ndasï¿½n. Buradan daï¿½ï¿½n doruklarï¿½na ya da ï¿½rkï¿½tï¿½cï¿½ dï¿½zlï¿½klere
+devam edebilirsin. Burada zemin oldukï¿½a kayalï¿½k ve emniyetsiz. Yerde
+volkanik basï¿½ncï¿½n yarattï¿½ï¿½ï¿½ ï¿½atlaklar ve granit kaya yapï¿½larï¿½ gï¿½rï¿½yorsun.
+Dï¿½zlï¿½klerdekine gï¿½re daha sert esen bir rï¿½zgarla karï¿½ï¿½ karï¿½ï¿½yasï¿½n. Ulumalar
+ve ï¿½ï¿½ï¿½lï¿½klar duyuyorsun.
 ~
 0 0 4
 D0
@@ -1718,12 +1718,12 @@ D3
 0 -1 14710
 S
 #14712
-Hüküm Daðý Tepeleri~
-Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
-devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
-volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
-Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
-ve çýðlýklar duyuyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Tepeleri~
+Daï¿½ï¿½n yamacï¿½ndasï¿½n. Buradan daï¿½ï¿½n doruklarï¿½na ya da ï¿½rkï¿½tï¿½cï¿½ dï¿½zlï¿½klere
+devam edebilirsin. Burada zemin oldukï¿½a kayalï¿½k ve emniyetsiz. Yerde
+volkanik basï¿½ncï¿½n yarattï¿½ï¿½ï¿½ ï¿½atlaklar ve granit kaya yapï¿½larï¿½ gï¿½rï¿½yorsun.
+Dï¿½zlï¿½klerdekine gï¿½re daha sert esen bir rï¿½zgarla karï¿½ï¿½ karï¿½ï¿½yasï¿½n. Ulumalar
+ve ï¿½ï¿½ï¿½lï¿½klar duyuyorsun.
 ~
 0 0 4
 D0
@@ -1744,12 +1744,12 @@ D3
 0 -1 14711
 S
 #14713
-Hüküm Daðý Tepeleri~
-Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
-devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
-volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
-Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
-ve çýðlýklar duyuyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Tepeleri~
+Daï¿½ï¿½n yamacï¿½ndasï¿½n. Buradan daï¿½ï¿½n doruklarï¿½na ya da ï¿½rkï¿½tï¿½cï¿½ dï¿½zlï¿½klere
+devam edebilirsin. Burada zemin oldukï¿½a kayalï¿½k ve emniyetsiz. Yerde
+volkanik basï¿½ncï¿½n yarattï¿½ï¿½ï¿½ ï¿½atlaklar ve granit kaya yapï¿½larï¿½ gï¿½rï¿½yorsun.
+Dï¿½zlï¿½klerdekine gï¿½re daha sert esen bir rï¿½zgarla karï¿½ï¿½ karï¿½ï¿½yasï¿½n. Ulumalar
+ve ï¿½ï¿½ï¿½lï¿½klar duyuyorsun.
 ~
 0 0 4
 D0
@@ -1770,12 +1770,12 @@ D3
 0 -1 14712
 S
 #14714
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D0
@@ -1792,12 +1792,12 @@ D3
 0 -1 14713
 S
 #14715
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D0
@@ -1814,12 +1814,12 @@ D2
 0 -1 14708
 S
 #14716
-Hüküm Daðý Tepeleri~
-Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
-devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
-volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
-Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
-ve çýðlýklar duyuyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Tepeleri~
+Daï¿½ï¿½n yamacï¿½ndasï¿½n. Buradan daï¿½ï¿½n doruklarï¿½na ya da ï¿½rkï¿½tï¿½cï¿½ dï¿½zlï¿½klere
+devam edebilirsin. Burada zemin oldukï¿½a kayalï¿½k ve emniyetsiz. Yerde
+volkanik basï¿½ncï¿½n yarattï¿½ï¿½ï¿½ ï¿½atlaklar ve granit kaya yapï¿½larï¿½ gï¿½rï¿½yorsun.
+Dï¿½zlï¿½klerdekine gï¿½re daha sert esen bir rï¿½zgarla karï¿½ï¿½ karï¿½ï¿½yasï¿½n. Ulumalar
+ve ï¿½ï¿½ï¿½lï¿½klar duyuyorsun.
 ~
 0 0 4
 D0
@@ -1840,12 +1840,12 @@ D3
 0 -1 14715
 S
 #14717
-Hüküm Daðý Bayýrlarý~
-Zirvenin yakýnlarýnda dönüp duruyorsun. Zemin tepelere göre daha
-düz ve cama benzer kara bir volkanik artýklar nedeniyle daha kaygan.
-Lord Korgtar'ýn Ýstihkamýna oldukça yakýnsýn. Biliyorsun ki daha
-aþaðýlarda yaþayan yaratýklar yukarýdakiler yanýnda oldukça önemsiz
-kalacaktýr.
+Hï¿½kï¿½m Daï¿½ï¿½ Bayï¿½rlarï¿½~
+Zirvenin yakï¿½nlarï¿½nda dï¿½nï¿½p duruyorsun. Zemin tepelere gï¿½re daha
+dï¿½z ve cama benzer kara bir volkanik artï¿½klar nedeniyle daha kaygan.
+Lord Korgtar'ï¿½n ï¿½stihkamï¿½na oldukï¿½a yakï¿½nsï¿½n. Biliyorsun ki daha
+aï¿½aï¿½ï¿½larda yaï¿½ayan yaratï¿½klar yukarï¿½dakiler yanï¿½nda oldukï¿½a ï¿½nemsiz
+kalacaktï¿½r.
 ~
 0 0 5
 D0
@@ -1866,14 +1866,14 @@ D3
 0 -1 14716
 S
 #14718
-Hüküm Daðý Bayýrlarý~
-Zirvenin yakýnlarýnda dönüp duruyorsun. Zemin tepelere göre daha
-düz ve cama benzer kara bir volkanik artýklar nedeniyle daha kaygan.
-Lord Korgtar'ýn Ýstihkamýna oldukça yakýnsýn. Biliyorsun ki daha
-aþaðýlarda yaþayan yaratýklar yukarýdakiler yanýnda oldukça önemsiz
-kalacaktýr.
+Hï¿½kï¿½m Daï¿½ï¿½ Bayï¿½rlarï¿½~
+Zirvenin yakï¿½nlarï¿½nda dï¿½nï¿½p duruyorsun. Zemin tepelere gï¿½re daha
+dï¿½z ve cama benzer kara bir volkanik artï¿½klar nedeniyle daha kaygan.
+Lord Korgtar'ï¿½n ï¿½stihkamï¿½na oldukï¿½a yakï¿½nsï¿½n. Biliyorsun ki daha
+aï¿½aï¿½ï¿½larda yaï¿½ayan yaratï¿½klar yukarï¿½dakiler yanï¿½nda oldukï¿½a ï¿½nemsiz
+kalacaktï¿½r.
 
-Ýstihkam tam kuzeyde.
+ï¿½stihkam tam kuzeyde.
 ~
 0 0 5
 D0
@@ -1894,12 +1894,12 @@ D3
 0 -1 14717
 S
 #14719
-Hüküm Daðý Bayýrlarý~
-Zirvenin yakýnlarýnda dönüp duruyorsun. Zemin tepelere göre daha
-düz ve cama benzer kara bir volkanik artýklar nedeniyle daha kaygan.
-Lord Korgtar'ýn Ýstihkamýna oldukça yakýnsýn. Biliyorsun ki daha
-aþaðýlarda yaþayan yaratýklar yukarýdakiler yanýnda oldukça önemsiz
-kalacaktýr.
+Hï¿½kï¿½m Daï¿½ï¿½ Bayï¿½rlarï¿½~
+Zirvenin yakï¿½nlarï¿½nda dï¿½nï¿½p duruyorsun. Zemin tepelere gï¿½re daha
+dï¿½z ve cama benzer kara bir volkanik artï¿½klar nedeniyle daha kaygan.
+Lord Korgtar'ï¿½n ï¿½stihkamï¿½na oldukï¿½a yakï¿½nsï¿½n. Biliyorsun ki daha
+aï¿½aï¿½ï¿½larda yaï¿½ayan yaratï¿½klar yukarï¿½dakiler yanï¿½nda oldukï¿½a ï¿½nemsiz
+kalacaktï¿½r.
 ~
 0 0 5
 D0
@@ -1920,12 +1920,12 @@ D3
 0 -1 14718
 S
 #14720
-Hüküm Daðý Tepeleri~
-Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
-devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
-volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
-Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
-ve çýðlýklar duyuyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Tepeleri~
+Daï¿½ï¿½n yamacï¿½ndasï¿½n. Buradan daï¿½ï¿½n doruklarï¿½na ya da ï¿½rkï¿½tï¿½cï¿½ dï¿½zlï¿½klere
+devam edebilirsin. Burada zemin oldukï¿½a kayalï¿½k ve emniyetsiz. Yerde
+volkanik basï¿½ncï¿½n yarattï¿½ï¿½ï¿½ ï¿½atlaklar ve granit kaya yapï¿½larï¿½ gï¿½rï¿½yorsun.
+Dï¿½zlï¿½klerdekine gï¿½re daha sert esen bir rï¿½zgarla karï¿½ï¿½ karï¿½ï¿½yasï¿½n. Ulumalar
+ve ï¿½ï¿½ï¿½lï¿½klar duyuyorsun.
 ~
 0 0 4
 D0
@@ -1946,12 +1946,12 @@ D3
 0 -1 14719
 S
 #14721
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D0
@@ -1968,12 +1968,12 @@ D3
 0 -1 14720
 S
 #14722
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D0
@@ -1990,12 +1990,12 @@ D2
 0 -1 14715
 S
 #14723
-Hüküm Daðý Tepeleri~
-Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
-devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
-volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
-Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
-ve çýðlýklar duyuyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Tepeleri~
+Daï¿½ï¿½n yamacï¿½ndasï¿½n. Buradan daï¿½ï¿½n doruklarï¿½na ya da ï¿½rkï¿½tï¿½cï¿½ dï¿½zlï¿½klere
+devam edebilirsin. Burada zemin oldukï¿½a kayalï¿½k ve emniyetsiz. Yerde
+volkanik basï¿½ncï¿½n yarattï¿½ï¿½ï¿½ ï¿½atlaklar ve granit kaya yapï¿½larï¿½ gï¿½rï¿½yorsun.
+Dï¿½zlï¿½klerdekine gï¿½re daha sert esen bir rï¿½zgarla karï¿½ï¿½ karï¿½ï¿½yasï¿½n. Ulumalar
+ve ï¿½ï¿½ï¿½lï¿½klar duyuyorsun.
 ~
 0 0 4
 D0
@@ -2016,14 +2016,14 @@ D3
 0 -1 14722
 S
 #14724
-Hüküm Daðý Bayýrlarý~
-Zirvenin yakýnlarýnda dönüp duruyorsun. Zemin tepelere göre daha
-düz ve cama benzer kara bir volkanik artýklar nedeniyle daha kaygan.
-Lord Korgtar'ýn Ýstihkamýna oldukça yakýnsýn. Biliyorsun ki daha
-aþaðýlarda yaþayan yaratýklar yukarýdakiler yanýnda oldukça önemsiz
-kalacaktýr.
+Hï¿½kï¿½m Daï¿½ï¿½ Bayï¿½rlarï¿½~
+Zirvenin yakï¿½nlarï¿½nda dï¿½nï¿½p duruyorsun. Zemin tepelere gï¿½re daha
+dï¿½z ve cama benzer kara bir volkanik artï¿½klar nedeniyle daha kaygan.
+Lord Korgtar'ï¿½n ï¿½stihkamï¿½na oldukï¿½a yakï¿½nsï¿½n. Biliyorsun ki daha
+aï¿½aï¿½ï¿½larda yaï¿½ayan yaratï¿½klar yukarï¿½dakiler yanï¿½nda oldukï¿½a ï¿½nemsiz
+kalacaktï¿½r.
 
-Ýstihkam tam doðuda.
+ï¿½stihkam tam doï¿½uda.
 ~
 0 0 5
 D0
@@ -2044,7 +2044,7 @@ D3
 0 -1 14723
 S
 #14725
-Lord Korgtar Ýstihkamýnýn Dýþý~
+Lord Korgtar ï¿½stihkamï¿½nï¿½n Dï¿½ï¿½ï¿½~
 You have finally reached the summit, and are standing beneath the gates of
 the Fortress, which you may climb up to by means of an iron staircase. You
 can sense many pairs of eyes upon you, and you wonder how far you will be
@@ -2073,14 +2073,14 @@ D4
 1 0 14750
 S
 #14726
-Hüküm Daðý Bayýrlarý~
-Zirvenin yakýnlarýnda dönüp duruyorsun. Zemin tepelere göre daha
-düz ve cama benzer kara bir volkanik artýklar nedeniyle daha kaygan.
-Lord Korgtar'ýn Ýstihkamýna oldukça yakýnsýn. Biliyorsun ki daha
-aþaðýlarda yaþayan yaratýklar yukarýdakiler yanýnda oldukça önemsiz
-kalacaktýr.
+Hï¿½kï¿½m Daï¿½ï¿½ Bayï¿½rlarï¿½~
+Zirvenin yakï¿½nlarï¿½nda dï¿½nï¿½p duruyorsun. Zemin tepelere gï¿½re daha
+dï¿½z ve cama benzer kara bir volkanik artï¿½klar nedeniyle daha kaygan.
+Lord Korgtar'ï¿½n ï¿½stihkamï¿½na oldukï¿½a yakï¿½nsï¿½n. Biliyorsun ki daha
+aï¿½aï¿½ï¿½larda yaï¿½ayan yaratï¿½klar yukarï¿½dakiler yanï¿½nda oldukï¿½a ï¿½nemsiz
+kalacaktï¿½r.
 
-Ýstihkam tam batýda.
+ï¿½stihkam tam batï¿½da.
 ~
 0 0 5
 D0
@@ -2101,12 +2101,12 @@ D3
 0 -1 14725
 S
 #14727
-Hüküm Daðý Tepeleri~
-Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
-devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
-volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
-Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
-ve çýðlýklar duyuyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Tepeleri~
+Daï¿½ï¿½n yamacï¿½ndasï¿½n. Buradan daï¿½ï¿½n doruklarï¿½na ya da ï¿½rkï¿½tï¿½cï¿½ dï¿½zlï¿½klere
+devam edebilirsin. Burada zemin oldukï¿½a kayalï¿½k ve emniyetsiz. Yerde
+volkanik basï¿½ncï¿½n yarattï¿½ï¿½ï¿½ ï¿½atlaklar ve granit kaya yapï¿½larï¿½ gï¿½rï¿½yorsun.
+Dï¿½zlï¿½klerdekine gï¿½re daha sert esen bir rï¿½zgarla karï¿½ï¿½ karï¿½ï¿½yasï¿½n. Ulumalar
+ve ï¿½ï¿½ï¿½lï¿½klar duyuyorsun.
 ~
 0 0 4
 D0
@@ -2127,12 +2127,12 @@ D3
 0 -1 14726
 S
 #14728
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D0
@@ -2149,12 +2149,12 @@ D3
 0 -1 14727
 S
 #14729
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D0
@@ -2171,12 +2171,12 @@ D2
 0 -1 14722
 S
 #14730
-Hüküm Daðý Tepeleri~
-Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
-devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
-volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
-Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
-ve çýðlýklar duyuyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Tepeleri~
+Daï¿½ï¿½n yamacï¿½ndasï¿½n. Buradan daï¿½ï¿½n doruklarï¿½na ya da ï¿½rkï¿½tï¿½cï¿½ dï¿½zlï¿½klere
+devam edebilirsin. Burada zemin oldukï¿½a kayalï¿½k ve emniyetsiz. Yerde
+volkanik basï¿½ncï¿½n yarattï¿½ï¿½ï¿½ ï¿½atlaklar ve granit kaya yapï¿½larï¿½ gï¿½rï¿½yorsun.
+Dï¿½zlï¿½klerdekine gï¿½re daha sert esen bir rï¿½zgarla karï¿½ï¿½ karï¿½ï¿½yasï¿½n. Ulumalar
+ve ï¿½ï¿½ï¿½lï¿½klar duyuyorsun.
 ~
 0 0 4
 D0
@@ -2197,12 +2197,12 @@ D3
 0 -1 14729
 S
 #14731
-Hüküm Daðý Bayýrlarý~
-Zirvenin yakýnlarýnda dönüp duruyorsun. Zemin tepelere göre daha
-düz ve cama benzer kara bir volkanik artýklar nedeniyle daha kaygan.
-Lord Korgtar'ýn Ýstihkamýna oldukça yakýnsýn. Biliyorsun ki daha
-aþaðýlarda yaþayan yaratýklar yukarýdakiler yanýnda oldukça önemsiz
-kalacaktýr.
+Hï¿½kï¿½m Daï¿½ï¿½ Bayï¿½rlarï¿½~
+Zirvenin yakï¿½nlarï¿½nda dï¿½nï¿½p duruyorsun. Zemin tepelere gï¿½re daha
+dï¿½z ve cama benzer kara bir volkanik artï¿½klar nedeniyle daha kaygan.
+Lord Korgtar'ï¿½n ï¿½stihkamï¿½na oldukï¿½a yakï¿½nsï¿½n. Biliyorsun ki daha
+aï¿½aï¿½ï¿½larda yaï¿½ayan yaratï¿½klar yukarï¿½dakiler yanï¿½nda oldukï¿½a ï¿½nemsiz
+kalacaktï¿½r.
 ~
 0 0 5
 D0
@@ -2223,14 +2223,14 @@ D3
 0 -1 14730
 S
 #14732
-Hüküm Daðý Bayýrlarý~
-Zirvenin yakýnlarýnda dönüp duruyorsun. Zemin tepelere göre daha
-düz ve cama benzer kara bir volkanik artýklar nedeniyle daha kaygan.
-Lord Korgtar'ýn Ýstihkamýna oldukça yakýnsýn. Biliyorsun ki daha
-aþaðýlarda yaþayan yaratýklar yukarýdakiler yanýnda oldukça önemsiz
-kalacaktýr.
+Hï¿½kï¿½m Daï¿½ï¿½ Bayï¿½rlarï¿½~
+Zirvenin yakï¿½nlarï¿½nda dï¿½nï¿½p duruyorsun. Zemin tepelere gï¿½re daha
+dï¿½z ve cama benzer kara bir volkanik artï¿½klar nedeniyle daha kaygan.
+Lord Korgtar'ï¿½n ï¿½stihkamï¿½na oldukï¿½a yakï¿½nsï¿½n. Biliyorsun ki daha
+aï¿½aï¿½ï¿½larda yaï¿½ayan yaratï¿½klar yukarï¿½dakiler yanï¿½nda oldukï¿½a ï¿½nemsiz
+kalacaktï¿½r.
 
-Ýstihkam tam güneyde.
+ï¿½stihkam tam gï¿½neyde.
 ~
 0 0 5
 D0
@@ -2251,12 +2251,12 @@ D3
 0 -1 14731
 S
 #14733
-Hüküm Daðý Bayýrlarý~
-Zirvenin yakýnlarýnda dönüp duruyorsun. Zemin tepelere göre daha
-düz ve cama benzer kara bir volkanik artýklar nedeniyle daha kaygan.
-Lord Korgtar'ýn Ýstihkamýna oldukça yakýnsýn. Biliyorsun ki daha
-aþaðýlarda yaþayan yaratýklar yukarýdakiler yanýnda oldukça önemsiz
-kalacaktýr.
+Hï¿½kï¿½m Daï¿½ï¿½ Bayï¿½rlarï¿½~
+Zirvenin yakï¿½nlarï¿½nda dï¿½nï¿½p duruyorsun. Zemin tepelere gï¿½re daha
+dï¿½z ve cama benzer kara bir volkanik artï¿½klar nedeniyle daha kaygan.
+Lord Korgtar'ï¿½n ï¿½stihkamï¿½na oldukï¿½a yakï¿½nsï¿½n. Biliyorsun ki daha
+aï¿½aï¿½ï¿½larda yaï¿½ayan yaratï¿½klar yukarï¿½dakiler yanï¿½nda oldukï¿½a ï¿½nemsiz
+kalacaktï¿½r.
 ~
 0 0 5
 D0
@@ -2277,12 +2277,12 @@ D3
 0 -1 14732
 S
 #14734
-Hüküm Daðý Tepeleri~
-Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
-devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
-volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
-Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
-ve çýðlýklar duyuyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Tepeleri~
+Daï¿½ï¿½n yamacï¿½ndasï¿½n. Buradan daï¿½ï¿½n doruklarï¿½na ya da ï¿½rkï¿½tï¿½cï¿½ dï¿½zlï¿½klere
+devam edebilirsin. Burada zemin oldukï¿½a kayalï¿½k ve emniyetsiz. Yerde
+volkanik basï¿½ncï¿½n yarattï¿½ï¿½ï¿½ ï¿½atlaklar ve granit kaya yapï¿½larï¿½ gï¿½rï¿½yorsun.
+Dï¿½zlï¿½klerdekine gï¿½re daha sert esen bir rï¿½zgarla karï¿½ï¿½ karï¿½ï¿½yasï¿½n. Ulumalar
+ve ï¿½ï¿½ï¿½lï¿½klar duyuyorsun.
 ~
 0 0 4
 D0
@@ -2303,12 +2303,12 @@ D3
 0 -1 14733
 S
 #14735
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D0
@@ -2325,12 +2325,12 @@ D3
 0 -1 14734
 S
 #14736
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D0
@@ -2347,12 +2347,12 @@ D2
 0 -1 14729
 S
 #14737
-Hüküm Daðý Tepeleri~
-Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
-devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
-volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
-Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
-ve çýðlýklar duyuyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Tepeleri~
+Daï¿½ï¿½n yamacï¿½ndasï¿½n. Buradan daï¿½ï¿½n doruklarï¿½na ya da ï¿½rkï¿½tï¿½cï¿½ dï¿½zlï¿½klere
+devam edebilirsin. Burada zemin oldukï¿½a kayalï¿½k ve emniyetsiz. Yerde
+volkanik basï¿½ncï¿½n yarattï¿½ï¿½ï¿½ ï¿½atlaklar ve granit kaya yapï¿½larï¿½ gï¿½rï¿½yorsun.
+Dï¿½zlï¿½klerdekine gï¿½re daha sert esen bir rï¿½zgarla karï¿½ï¿½ karï¿½ï¿½yasï¿½n. Ulumalar
+ve ï¿½ï¿½ï¿½lï¿½klar duyuyorsun.
 ~
 0 0 4
 D0
@@ -2373,12 +2373,12 @@ D3
 0 -1 14736
 S
 #14738
-Hüküm Daðý Tepeleri~
-Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
-devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
-volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
-Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
-ve çýðlýklar duyuyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Tepeleri~
+Daï¿½ï¿½n yamacï¿½ndasï¿½n. Buradan daï¿½ï¿½n doruklarï¿½na ya da ï¿½rkï¿½tï¿½cï¿½ dï¿½zlï¿½klere
+devam edebilirsin. Burada zemin oldukï¿½a kayalï¿½k ve emniyetsiz. Yerde
+volkanik basï¿½ncï¿½n yarattï¿½ï¿½ï¿½ ï¿½atlaklar ve granit kaya yapï¿½larï¿½ gï¿½rï¿½yorsun.
+Dï¿½zlï¿½klerdekine gï¿½re daha sert esen bir rï¿½zgarla karï¿½ï¿½ karï¿½ï¿½yasï¿½n. Ulumalar
+ve ï¿½ï¿½ï¿½lï¿½klar duyuyorsun.
 ~
 0 0 4
 D0
@@ -2399,12 +2399,12 @@ D3
 0 -1 14737
 S
 #14739
-Hüküm Daðý Tepeleri~
-Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
-devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
-volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
-Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
-ve çýðlýklar duyuyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Tepeleri~
+Daï¿½ï¿½n yamacï¿½ndasï¿½n. Buradan daï¿½ï¿½n doruklarï¿½na ya da ï¿½rkï¿½tï¿½cï¿½ dï¿½zlï¿½klere
+devam edebilirsin. Burada zemin oldukï¿½a kayalï¿½k ve emniyetsiz. Yerde
+volkanik basï¿½ncï¿½n yarattï¿½ï¿½ï¿½ ï¿½atlaklar ve granit kaya yapï¿½larï¿½ gï¿½rï¿½yorsun.
+Dï¿½zlï¿½klerdekine gï¿½re daha sert esen bir rï¿½zgarla karï¿½ï¿½ karï¿½ï¿½yasï¿½n. Ulumalar
+ve ï¿½ï¿½ï¿½lï¿½klar duyuyorsun.
 ~
 0 0 4
 D0
@@ -2425,12 +2425,12 @@ D3
 0 -1 14738
 S
 #14740
-Hüküm Daðý Tepeleri~
-Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
-devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
-volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
-Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
-ve çýðlýklar duyuyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Tepeleri~
+Daï¿½ï¿½n yamacï¿½ndasï¿½n. Buradan daï¿½ï¿½n doruklarï¿½na ya da ï¿½rkï¿½tï¿½cï¿½ dï¿½zlï¿½klere
+devam edebilirsin. Burada zemin oldukï¿½a kayalï¿½k ve emniyetsiz. Yerde
+volkanik basï¿½ncï¿½n yarattï¿½ï¿½ï¿½ ï¿½atlaklar ve granit kaya yapï¿½larï¿½ gï¿½rï¿½yorsun.
+Dï¿½zlï¿½klerdekine gï¿½re daha sert esen bir rï¿½zgarla karï¿½ï¿½ karï¿½ï¿½yasï¿½n. Ulumalar
+ve ï¿½ï¿½ï¿½lï¿½klar duyuyorsun.
 ~
 0 0 4
 D0
@@ -2451,12 +2451,12 @@ D3
 0 -1 14739
 S
 #14741
-Hüküm Daðý Tepeleri~
-Daðýn yamacýndasýn. Buradan daðýn doruklarýna ya da ürkütücü düzlüklere
-devam edebilirsin. Burada zemin oldukça kayalýk ve emniyetsiz. Yerde
-volkanik basýncýn yarattýðý çatlaklar ve granit kaya yapýlarý görüyorsun.
-Düzlüklerdekine göre daha sert esen bir rüzgarla karþý karþýyasýn. Ulumalar
-ve çýðlýklar duyuyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Tepeleri~
+Daï¿½ï¿½n yamacï¿½ndasï¿½n. Buradan daï¿½ï¿½n doruklarï¿½na ya da ï¿½rkï¿½tï¿½cï¿½ dï¿½zlï¿½klere
+devam edebilirsin. Burada zemin oldukï¿½a kayalï¿½k ve emniyetsiz. Yerde
+volkanik basï¿½ncï¿½n yarattï¿½ï¿½ï¿½ ï¿½atlaklar ve granit kaya yapï¿½larï¿½ gï¿½rï¿½yorsun.
+Dï¿½zlï¿½klerdekine gï¿½re daha sert esen bir rï¿½zgarla karï¿½ï¿½ karï¿½ï¿½yasï¿½n. Ulumalar
+ve ï¿½ï¿½ï¿½lï¿½klar duyuyorsun.
 ~
 0 0 4
 D0
@@ -2477,12 +2477,12 @@ D3
 0 -1 14740
 S
 #14742
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D0
@@ -2499,12 +2499,12 @@ D3
 0 -1 14741
 S
 #14743
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D1
@@ -2517,12 +2517,12 @@ D2
 0 -1 14736
 S
 #14744
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D1
@@ -2539,12 +2539,12 @@ D3
 0 -1 14743
 S
 #14745
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D1
@@ -2561,12 +2561,12 @@ D3
 0 -1 14744
 S
 #14746
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D1
@@ -2583,12 +2583,12 @@ D3
 0 -1 14745
 S
 #14747
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D1
@@ -2605,12 +2605,12 @@ D3
 0 -1 14746
 S
 #14748
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D1
@@ -2627,12 +2627,12 @@ D3
 0 -1 14747
 S
 #14749
-Hüküm Daðý Düzlükleri~
-Terkedilmiþ topraklarda esen soðuk rüzgar içini donduruyor. Sert toprak
-zeminin üzerine saçýlmýþ eski maceracýlarýn kemikleri, paslanmýþ silahlar
-ve diþlere benzeyen küçük taþ parçalarý görüyorsun. Sanki bu eski dünya
-onlarý yemiþ ve sindirmiþ, kalan parçalarý da etrafa saçmýþ gibi. Aniden
-bir gulun ulumasý ile etrafý incele iþinden vazgeçiyorsun.
+Hï¿½kï¿½m Daï¿½ï¿½ Dï¿½zlï¿½kleri~
+Terkedilmiï¿½ topraklarda esen soï¿½uk rï¿½zgar iï¿½ini donduruyor. Sert toprak
+zeminin ï¿½zerine saï¿½ï¿½lmï¿½ï¿½ eski maceracï¿½larï¿½n kemikleri, paslanmï¿½ï¿½ silahlar
+ve diï¿½lere benzeyen kï¿½ï¿½ï¿½k taï¿½ parï¿½alarï¿½ gï¿½rï¿½yorsun. Sanki bu eski dï¿½nya
+onlarï¿½ yemiï¿½ ve sindirmiï¿½, kalan parï¿½alarï¿½ da etrafa saï¿½mï¿½ï¿½ gibi. Aniden
+bir gulun ulumasï¿½ ile etrafï¿½ incele iï¿½inden vazgeï¿½iyorsun.
 ~
 0 0 2
 D2
@@ -2649,7 +2649,7 @@ D4
 1 -1 -1
 S
 #14750
-Ýstihkamýn Ýçi~
+ï¿½stihkamï¿½n ï¿½ï¿½i~
 You are standing inside the gates of the fortress, at a crossroads. The
 passages are remarkably plain for a den of evil- simply dressed grey flag
 stones on floor and walls, the monotony broken only by the occasional torch
@@ -2679,7 +2679,7 @@ D5
 1 -1 14725
 S
 #14751
-Hücre Bloðu~
+Hï¿½cre Bloï¿½u~
 Here the prisoner of Krogthar are kept. There are not many cells, as the
 Lord Korgthar is not fond of taking prisoners (hassles, hassles...). If
 you think security is a little lax, think of what lurks outside to deter
@@ -2704,7 +2704,7 @@ D3
 0 -1 14750
 S
 #14752
-Hücre~
+Hï¿½cre~
 A dank, dismal affair with little in the way of bedding or toilet facilities.
 The stench is actually quite horrendous and you find yourself eager to leave.
 ~
@@ -2715,7 +2715,7 @@ D2
 1 0 14751
 S
 #14753
-Hücre~
+Hï¿½cre~
 A dank, dismal affair with little in the way of bedding or toilet facilities.
 The stench is actually quite horrendous and you find yourself eager to leave.
 ~
@@ -2726,7 +2726,7 @@ D0
 1 0 14751
 S
 #14754
-Hücre Bloðu~
+Hï¿½cre Bloï¿½u~
 Here the prisoner of Krogthar are kept. There are not many cells, as the
 Lord Korgthar is not fond of taking prisoners (hassles, hassles...). If
 you think security is a little lax, think of what lurks outside to deter
@@ -2751,7 +2751,7 @@ D3
 0 -1 14751
 S
 #14755
-Hücre~
+Hï¿½cre~
 A dank, dismal affair with little in the way of bedding or toilet facilities.
 The stench is actually quite horrendous and you find yourself eager to leave.
 ~
@@ -2762,7 +2762,7 @@ D2
 1 0 14754
 S
 #14756
-Hücre~
+Hï¿½cre~
 A dank, dismal affair with little in the way of bedding or toilet facilities.
 The stench is actually quite horrendous and you find yourself eager to leave.
 ~
@@ -2773,7 +2773,7 @@ D0
 1 0 14754
 S
 #14757
-Hücre~
+Hï¿½cre~
 A dank, dismal affair with little in the way of bedding or toilet facilities.
 The stench is actually quite horrendous and you find yourself eager to leave.
 ~
@@ -2799,7 +2799,7 @@ D2
 0 -1 14750
 S
 #14759
-Antre Odasý~
+Antre Odasï¿½~
 You are standing in a well-furnished anteroom with doors leading in all four
 directions. No noise comes from behind any- they are quite solid and are
 effectively soundproof.
@@ -2823,7 +2823,7 @@ D3
 1 0 14760
 S
 #14760
-Suikastçilerin Karargahý~
+Suikastï¿½ilerin Karargahï¿½~
 In this room reside some of the assassins that serve Korthgar. He may not
 be the brightest of tyrants, but Krothgar was smart enough to work out it was
 easier to send a single assassin to slay a king and collapse an empire than
@@ -2837,7 +2837,7 @@ D1
 1 0 14759
 S
 #14761
-Þef Suikastçinin Karargahý~
+ï¿½ef Suikastï¿½inin Karargahï¿½~
 You have entered the quarters of the Chief of Krothgar's ruthlessly
 efficient assassins, and caught her in flagrante delicto with two naked men
 strapped to racks. She swears and draws her swords, making no attempt to
@@ -2850,7 +2850,7 @@ D2
 1 0 14759
 S
 #14762
-Suikastçilerin Karargahý~
+Suikastï¿½ilerin Karargahï¿½~
 In this room reside some of the assassins that serve Korthgar. He may not
 be the brightest of tyrants, but Krothgar was smart enough to work out it was
 easier to send a single assassin to slay a king and collapse an empire than
@@ -2898,7 +2898,7 @@ D2
 1 0 14765
 S
 #14765
-Bekçinin Odasý~
+Bekï¿½inin Odasï¿½~
 Here resides the keeper of the Mutant Pit, where the failed experiments of
 the scientist mages are kept to do away with prisoners or insolent guards.
 He likes his job, and isn't about to let you hurt his mutants.
@@ -2941,7 +2941,7 @@ D3
 1 0 14768
 S
 #14768
-Muhafýz Umumi Odasý~
+Muhafï¿½z Umumi Odasï¿½~
 Doors lead in all directions from this messy rec room. Blood, beer and food
 stain the straw-covered floor while decomposing human, orc and ogre corpse
 hang from hooks in the ceiling, evidently used as practice dummies.
@@ -2961,7 +2961,7 @@ D2
 1 0 14769
 D3
 This door reads- "Upper level access. Authorised personnel only!~
-kapý door~
+kapï¿½ door~
 1 14758 14779
 D5
 ~
@@ -2969,7 +2969,7 @@ D5
 0 -1 14806
 S
 #14769
-Muhafýz Karargahý~
+Muhafï¿½z Karargahï¿½~
 This rooms is full of messy bunks and snoring guards. Dice and cards are
 scattered across the filthy stone floor, and rats gnaw at the boots of the
 guards.
@@ -2981,7 +2981,7 @@ D0
 1 0 14768
 S
 #14770
-Muhafýz Karargahý~
+Muhafï¿½z Karargahï¿½~
 This rooms is full of messy bunks and snoring guards. Dice and cards are
 scattered across the filthy stone floor, and rats gnaw at the boots of the
 guards.
@@ -2993,7 +2993,7 @@ D2
 1 0 14768
 S
 #14771
-Misafir Bölümü~
+Misafir Bï¿½lï¿½mï¿½~
 Down this southern corridor lie the guest rooms, where the many emissaries
 from the powerful races Krothgar is attempting to gain as allies currently
 reside. They frown upon intruders...
@@ -3009,7 +3009,7 @@ D2
 0 -1 14772
 S
 #14772
-Misafir Bölümü~
+Misafir Bï¿½lï¿½mï¿½~
 Down this southern corridor lie the guest rooms, where the many emissaries
 from the powerful races Krothgar is attempting to gain as allies currently
 reside. They frown upon intruders...
@@ -3033,7 +3033,7 @@ D3
 1 0 14773
 S
 #14773
-Misafir Bölümü~
+Misafir Bï¿½lï¿½mï¿½~
 These quarters are well-decorated, with well-preserved tapestries and rugs,
 and carved wooden furniture. Alliances with other powers are crucial to
 Krothgar's plans, and he is doing his best to impress his diabolical guests.
@@ -3045,7 +3045,7 @@ D1
 1 0 14772
 S
 #14774
-Misafir Bölümü~
+Misafir Bï¿½lï¿½mï¿½~
 These quarters are well-decorated, with well-preserved tapestries and rugs,
 and carved wooden furniture. Alliances with other powers are crucial to
 Krothgar's plans, and he is doing his best to impress his diabolical guests.
@@ -3057,7 +3057,7 @@ D3
 1 0 14772
 S
 #14775
-Misafir Bölümü~
+Misafir Bï¿½lï¿½mï¿½~
 Down this southern corridor lie the guest rooms, where the many emissaries
 from the powerful races Krothgar is attempting to gain as allies currently
 reside. They frown upon intruders...
@@ -3081,7 +3081,7 @@ D3
 1 0 14776
 S
 #14776
-Misafir Bölümü~
+Misafir Bï¿½lï¿½mï¿½~
 These quarters are well-decorated, with well-preserved tapestries and rugs,
 and carved wooden furniture. Alliances with other powers are crucial to
 Krothgar's plans, and he is doing his best to impress his diabolical guests.
@@ -3093,7 +3093,7 @@ D1
 1 0 14775
 S
 #14777
-Misafir Bölümü~
+Misafir Bï¿½lï¿½mï¿½~
 These quarters are well-decorated, with well-preserved tapestries and rugs,
 and carved wooden furniture. Alliances with other powers are crucial to
 Krothgar's plans, and he is doing his best to impress his diabolical guests.
@@ -3105,7 +3105,7 @@ D3
 1 0 14775
 S
 #14778
-Misafir Bölümü~
+Misafir Bï¿½lï¿½mï¿½~
 These quarters are well-decorated, with well-preserved tapestries and rugs,
 and carved wooden furniture. Alliances with other powers are crucial to
 Krothgar's plans, and he is doing his best to impress his diabolical guests.
@@ -3117,7 +3117,7 @@ D0
 1 0 14775
 S
 #14779
-Ýstihkam~
+ï¿½stihkam~
 You have entered the restricted area. Staircases run up and down from here,
 and a narrow passage stretches away to the west.
 ~
@@ -3155,7 +3155,7 @@ D3
 0 -1 14781
 S
 #14781
-Kesiþim~
+Kesiï¿½im~
 You may head through doors to the north or south from here, or back east
 to the outer fortress. There is a sign on the south door, and a plaque on
 the northern.
@@ -3174,7 +3174,7 @@ D2
 ~
 1 0 14782
 E
-sign iþaret~
+sign iï¿½aret~
 The sign reads-
 
         The Quarters of the Archmage. Please do not enter. Important
@@ -3194,7 +3194,7 @@ The plaque reads-
 ~
 S
 #14782
-Baþbüyücü Karargahý~
+Baï¿½bï¿½yï¿½cï¿½ Karargahï¿½~
 You have barged into the quarters of Axtraxes, arch mage of Krothgar, and
 ruined his experiment. He's BOUND to be upset.
 ~
@@ -3205,7 +3205,7 @@ D0
 1 0 14781
 S
 #14783
-Hizmetkar Laboratuvarlarý~
+Hizmetkar Laboratuvarlarï¿½~
 This vast room extends in all directions. You see vats, urns, beakers, jars,
 alembics and a hundred other items scattered about on desks, benches, chairs
 and floors. Everything appears rather damaged, as if someone (or something)
@@ -3230,7 +3230,7 @@ D3
 0 -1 14784
 S
 #14784
-Laboratuvarýn Batý Sonu~
+Laboratuvarï¿½n Batï¿½ Sonu~
 This vast room extends in all directions. You see vats, urns, beakers, jars,
 alembics and a hundred other items scattered about on desks, benches, chairs
 and floors. Everything appears rather damaged, as if someone (or something)
@@ -3243,7 +3243,7 @@ D1
 0 -1 14783
 S
 #14785
-Laboratuvarýn Kuzey Sonu~
+Laboratuvarï¿½n Kuzey Sonu~
 This vast room extends in all directions. You see vats, urns, beakers, jars,
 alembics and a hundred other items scattered about on desks, benches, chairs
 and floors. Everything appears rather damaged, as if someone (or something)
@@ -3256,7 +3256,7 @@ D2
 0 -1 14783
 S
 #14786
-Laboratuvarýn Doðu Sonu~
+Laboratuvarï¿½n Doï¿½u Sonu~
 This vast room extends in all directions. You see vats, urns, beakers, jars,
 alembics and a hundred other items scattered about on desks, benches, chairs
 and floors. Everything appears rather damaged, as if someone (or something)
@@ -3288,7 +3288,7 @@ D4
 0 -1 14779
 S
 #14788
-Yeraltý Türbesi~
+Yeraltï¿½ Tï¿½rbesi~
 This crypt has remained untouched for centuries. It houses the remains of
 the foul lich king who once ruled this Fortress and much of the surrounding
 land under an iron fist (literally, Krothgar's golem now wears it). You
@@ -3301,7 +3301,7 @@ crypt door~
 0 0 14787
 S
 #14789
-Lanetli Tapýnak~
+Lanetli Tapï¿½nak~
 You have entered the grounds of the unholy temple of the Fortress. Screaming
 virgins are torn asunder in foul rituals upon altars soaked with the blood
 of thousands of innocents while evil priests look on and pray for a visitation
@@ -3326,7 +3326,7 @@ D3
 0 -1 14790
 S
 #14790
-Lanetli Tapýnak~
+Lanetli Tapï¿½nak~
 You have entered the grounds of the unholy temple of the Fortress. Screaming
 virgins are torn asunder in foul rituals upon altars soaked with the blood
 of thousands of innocents while evil priests look on and pray for a visitation
@@ -3342,7 +3342,7 @@ D1
 0 -1 14789
 S
 #14791
-Lanetli Tapýnak~
+Lanetli Tapï¿½nak~
 You have entered the grounds of the unholy temple of the Fortress. Screaming
 virgins are torn asunder in foul rituals upon altars soaked with the blood
 of thousands of innocents while evil priests look on and pray for a visitation
@@ -3359,7 +3359,7 @@ D5
 0 -1 32700
 S
 #14792
-Hidra Ýni~
+Hidra ï¿½ni~
 Here Krothgar keeps his hydra, which guards the treasure of the evil temple.
 It is a wild and ferocious beast, which will tear apart anything that enters
 its lair save Krothgar or the high priest.
@@ -3386,7 +3386,7 @@ D5
 0 -1 14779
 S
 #14794
-Merdiven Sahanlýðý~
+Merdiven Sahanlï¿½ï¿½ï¿½~
 You have come to a landing, upon which are 4 doors leading in the cardinal
 directions. The staircase continues its climb in the center.
 ~
@@ -3417,7 +3417,7 @@ D5
 0 0 14793
 S
 #14795
-Yatak Odasý~
+Yatak Odasï¿½~
 You have entered a luxurious boudoir full of expensive furniture and a wide
 variety of perfumes, unguents and other cosmetics. Piles of clothing are
 piled on the floor, as if someone had but recently gone through them in
@@ -3430,7 +3430,7 @@ D0
 1 0 14794
 S
 #14796
-Yatak Odasý~
+Yatak Odasï¿½~
 You have entered a luxurious boudoir full of expensive furniture and a wide
 variety of perfumes, unguents and other cosmetics. Piles of clothing are
 piled on the floor, as if someone had but recently gone through them in
@@ -3456,7 +3456,7 @@ D2
 1 0 14794
 S
 #14798
-Yatak Odasý~
+Yatak Odasï¿½~
 You have entered a luxurious boudoir full of expensive furniture and a wide
 variety of perfumes, unguents and other cosmetics. Piles of clothing are
 piled on the floor, as if someone had but recently gone through them in
@@ -3484,7 +3484,7 @@ D5
 0 -1 14794
 S
 #14800
-Taht Odasý~
+Taht Odasï¿½~
 You have entered the Throne Room of Lord Krothgar. He sits here, upon his
 throne, located in the center of the 5 towers which emerge in all directions
 from this room. In each tower resides a powerful dragon, loyal allies of the
@@ -3573,7 +3573,7 @@ D5
 0 -1 14800
 S
 #14806
-Ahýr~
+Ahï¿½r~
 Here, the blackguard keep their steeds, evil destriers bred on the plains
 of Hel itself.
 ~
@@ -3738,7 +3738,7 @@ E 1 14716 1 16              *         wields morning star
 E 1 14717 1 6                *        wears helm
 G 1 14758 0			0                           gives key
 *
-M 1 14736 2 14771      1     *          loads trolls
+M 1 14736 2 14771      1     *          loads asuras
 E 1 14747 1 16                *       wields pole arm
 E 1 14748 1 5                  *      wears chainmail
 *
@@ -3917,7 +3917,7 @@ M  14729 spec_breath_fire                        hell hound
 M  14733 spec_cast_cleric                        cloud giant
 M  14734 spec_janitor                            ogre servant
 M  14735 spec_cast_mage                          ogre mage
-M  14736 spec_fido                               troll
+M  14736 spec_fido                               asura
 M  14737 spec_guard                              ettin
 M  14738 spec_cast_mage                          chief assassin
 M  14739 spec_thief                              assassins
