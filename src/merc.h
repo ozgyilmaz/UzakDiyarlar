@@ -449,11 +449,10 @@ struct buf_type
 
 struct	time_info_data
 {
-    int		bmin;
-    int		hour;
-    int		day;
-    int		month;
-    int		year;
+    long	hour;
+    long	day;
+    long	month;
+    long	year;
 };
 
 struct	weather_data
@@ -2215,6 +2214,7 @@ struct	pc_data
 {
     PC_DATA *		next;
     BUFFER * 		buffer;
+		time_t		birth_time;
     bool		valid;
     char *		pwd;
     char *		bamfin;
@@ -2802,9 +2802,6 @@ extern sh_int  gsn_mental_knife;
 #define RACE(ch)		(ch->race)
 #define ORG_RACE(ch)		(IS_NPC(ch) ? ch->pIndexData->race : ch->pcdata->race)
 
-#define GET_AGE(ch)		((int) (17 + ((ch)->played \
-				    + current_time - (ch)->logon )/72000))
-
 #define IS_GOOD(ch)		(ch->alignment >= 350)
 #define IS_EVIL(ch)		(ch->alignment <= -350)
 #define IS_NEUTRAL(ch)		(!IS_GOOD(ch) && !IS_EVIL(ch))
@@ -3271,7 +3268,6 @@ bool	is_old_mob	args ( (CHAR_DATA *ch) );
 int	get_skill	args( ( CHAR_DATA *ch, int sn ) );
 int	get_weapon_sn	args( ( CHAR_DATA *ch, bool second) );
 int	get_weapon_skill args(( CHAR_DATA *ch, int sn ) );
-int     get_age         args( ( CHAR_DATA *ch ) );
 void	reset_char	args( ( CHAR_DATA *ch )  );
 int	get_trust	args( ( CHAR_DATA *ch ) );
 int	get_curr_stat	args( ( CHAR_DATA *ch, int stat ) );
@@ -3422,6 +3418,11 @@ char *	spec_name	args( ( SPEC_FUN *function ) );
 RID *	room_by_name	args( ( char *target, int level, bool error) );
 
 /* update.c */
+void	game_time_update args(( void ));
+void	game_time_to_string args(( time_t gameTime , char *buf ));
+int		game_time_to_year args(( time_t gameTime ));
+int     get_age         args( ( CHAR_DATA *ch ) );
+int		age_to_num	args( ( int age) );
 void	advance_level	args( ( CHAR_DATA *ch ) );
 void	gain_exp	args( ( CHAR_DATA *ch, int gain ) );
 void	gain_condition	args( ( CHAR_DATA *ch, int iCond, int value ) );

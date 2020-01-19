@@ -484,17 +484,11 @@ void boot_db( void )
      * Set time and weather.
      */
     {
-	long lhour, lday, lmonth;
-
-	lhour		= (current_time - 650336715)
-			/ (PULSE_TICK / PULSE_PER_SCD);
-	time_info.bmin	= 0;
-	time_info.hour	= lhour  % 24;
-	lday		= lhour  / 24;
-	time_info.day	= lday   % 35;
-	lmonth		= lday   / 35;
-	time_info.month	= lmonth % 17;
-	time_info.year	= lmonth / 17;
+	time_info.year  = 1;
+	time_info.month = 1;
+	time_info.day   = 1;
+	time_info.hour  = 0;
+	game_time_update();
 
 	     if ( time_info.hour <  5 ) weather_info.sunlight = SUN_DARK;
 	else if ( time_info.hour <  6 ) weather_info.sunlight = SUN_RISE;

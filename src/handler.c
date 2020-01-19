@@ -64,7 +64,6 @@ DECLARE_DO_FUN(do_track		);
  * Local functions.
  */
 void	affect_modify	args( ( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd ) );
-int	age_to_num	args( ( int age) );
 void	raffect_to_char	args( ( ROOM_INDEX_DATA *room, CHAR_DATA *ch) );
 void	raffect_back_char	args( ( ROOM_INDEX_DATA *room, CHAR_DATA *ch) );
 bool	is_safe_rspell	args( ( int level, CHAR_DATA *victim) );
@@ -786,20 +785,6 @@ int get_trust( CHAR_DATA *ch )
 	return LEVEL_HERO - 1;
     else
 	return ch->level;
-}
-
-
-/*
- * Retrieve a character's age.
- */
-int get_age( CHAR_DATA *ch )
-{
-    return 17 + ( ch->played + (int) (current_time - ch->logon) ) / 72000;
-}
-
-int age_to_num( int age )
-{
-    return  age * 72000;
 }
 
 /* command for retrieving stats */
