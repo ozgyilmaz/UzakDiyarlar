@@ -1051,7 +1051,7 @@ bool spec_guard( CHAR_DATA *ch )
 	  else
 	   {
        do_say(ch, (char*)"Tamam, þimdi hatýrladým.");
-		 interpret( ch, (char*)"smile",FALSE);
+		 interpret( ch, (char*)"gülümse",FALSE);
 	   }
 	 }
 
