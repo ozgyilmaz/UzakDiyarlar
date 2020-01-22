@@ -265,7 +265,7 @@ him 50 gold. He tells you that he has access to some goods which are
 very cheap in which you might be interested. When you scoff at his
 fenced goods, Anwar clams up.
 ~
-elf~
+çora~
 ABCEV J -300 0
 95 0 50d10+22500 5d5+5000 12d15+68 slash
 -71 -71 -71 -37
@@ -694,18 +694,18 @@ A
 A
 19 4
 #29218
-örgülü elf kolluk~
-bir çift örgülü elf kolluðu~
-Bir çift örgülü elf kolluðu burada býrakýlmýþ.
+örgülü çora kolluk~
+bir çift örgülü çora kolluðu~
+Bir çift örgülü çora kolluðu burada býrakýlmýþ.
 ~
 mithril~
 armor G AI
 5 5 5 5 0
 10 4 100 P
 #29219
-örgülü elf bacaklýk~
-bir çift örgülü elf bacaklýðý~
-Bir çift örgülü elf bacaklýðý burada býrakýlmýþ.
+örgülü çora bacaklýk~
+bir çift örgülü çora bacaklýðý~
+Bir çift örgülü çora bacaklýðý burada býrakýlmýþ.
 ~
 mithril~
 armor GQ AF
@@ -880,8 +880,8 @@ A
 A
 19 5
 #29234
-trol taþý yeþil~
-trol taþý~
+asura taþý yeþil~
+asura taþý~
 Yeþile boyanmýþ bir taþ burada bekliyor.~
 glass~
 staff FG AO
@@ -2484,7 +2484,7 @@ G 0 29231 0 A very heavy purse is given to Oglethorpe, 1st Master Merchant of Fr
 M 0 29232 1 29270 1*Load Lord Mourning
 E 0 29232 0 8 Bladed boots is loaded on the feet of Lord Mourning
 E 0 29233 0 3 A dimensional cape is loaded around the neck (1) of Lord Mourning
-E 0 29234 0 17 The troll stone is loaded held in the hands of Lord Mourning
+E 0 29234 0 17 The asura stone is loaded held in the hands of Lord Mourning
 M 0 29228 1 29272 1*Load the scruffy pirate
 E 0 29229 0 12 An admiral's cape is loaded about the shoulders of the scruffy pirate
 E 0 29230 0 2 An admiral's signet is loaded on the right finger of the scruffy pirate

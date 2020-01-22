@@ -13,14 +13,14 @@ END
 
 #MOBILES
 #8301
-trol~
-bataklýk trolü~
-Bir bataklýk trolü sana saldýrýyor.
+asura~
+bataklýk asurasý~
+Bir bataklýk asurasý sana saldýrýyor.
 ~
 Bu büyük yaratýk altý ayak boyunda. Sana doðru iki kara pençesini
 kaldýrmýþ gelirken alaylý bir þekilde gülümsüyor.
 ~
-troll~
+asura~
 ABCFG FJc -600 0
 16 0 3d9+233 8d9+100 2d6+4 none
 -2 -2 -2 7
@@ -28,14 +28,14 @@ DEFNR 0 BE HK
 stand rest male 500
 ABHMV ABCDEFGHIJKUV medium 0
 #8302
-trol~
-yeþil trol~
-Yeþil bir trol seni yakalamaya çalýþýyor.
+asura~
+yeþil asura~
+Yeþil bir asura seni yakalamaya çalýþýyor.
 ~
-Bu büyük trol üzerinde bir kule gibi yükseliyor. Ustalýkla kullandýðý bir
+Bu büyük asura üzerinde bir kule gibi yükseliyor. Ustalýkla kullandýðý bir
 mýzraða sahip.
 ~
-troll~
+asura~
 ACFG FJc -400 0
 14 0 2d10+190 7d9+100 1d12+3 none
 -1 -1 -1 8
@@ -743,13 +743,13 @@ D2
 S
 #0
 #RESETS
-M 0 8301   2 8303  1	* a swamp troll
-M 0 8301   2 8308  1	* a swamp troll
-M 0 8302   6 8303  2	* a green troll
+M 0 8301   2 8303  1	* a swamp asura
+M 0 8301   2 8308  1	* a swamp asura
+M 0 8302   6 8303  2	* a green asura
 G 1 8307  -1     	*   a murky green potion
-M 0 8302   6 8304  2	* a green troll
+M 0 8302   6 8304  2	* a green asura
 G 1 8307  -1     	*   a murky green potion
-M 0 8302   6 8306  2	* a green troll
+M 0 8302   6 8306  2	* a green asura
 M 0 8303   3 8303  1	* an ogre
 M 0 8303   3 8313  1	* an ogre
 M 0 8303   3 8307  1	* an ogre

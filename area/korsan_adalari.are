@@ -295,16 +295,16 @@ AB D 400 0
 stand stand male 1000
 0 0 medium 0
 #17029
-lalila elf prensi~
+lalila çora prensi~
 Elf Prensi, Lalila~
-Solgun, bir deri bir kemik kalmýþ bir elf burada yiyecek dileniyor.
+Solgun, bir deri bir kemik kalmýþ bir çora burada yiyecek dileniyor.
 ~
 Lalila thanks you for his rescue. In exchange for his life he tells you
 of a place called hell reef, where you can hear the ghostly siren, is
 where he was shipwrecked and he lost his flaming belt. He was using the belt
 for warmth when he was captured by Redbeard, and brought here for ransom.
 ~
-elf~
+çora~
 ABT 0 1000 0
 56 0 50d10+5750 5d5+5000 10d4+24 pound
 -26 -26 -26 -2

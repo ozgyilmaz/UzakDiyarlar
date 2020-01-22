@@ -1,6 +1,6 @@
 #AREADATA
-Filename elf_vadisi.are~
-Name Elf Vadisi~
+Filename cora_vadisi.are~
+Name Çora Vadisi~
 Builder Hatchet~
 Translator Bilinmiyor~
 Language Yarý Türkçe~
@@ -29,16 +29,16 @@ EFNR 0 0 0
 stand stand none 0
 0 0 medium 0
 #7801
-elf vadi elfi~
-bir vadi elfi~
-Bir vadi elfi senin varlýðýn yüzünden ihtiyatla etrafta geziniyor.
+vadi çorasý~
+bir vadi çorasý~
+Bir vadi çorasý senin varlýðýn yüzünden ihtiyatla etrafta geziniyor.
 ~
-This elf is almost as tall as you are, but much slimmer and agile.  You see
+This çora is almost as tall as you are, but much slimmer and agile.  You see
 hatred in his eyes, and you try to avoid his stare.  His tense body looks ready
 to spring upon you, like a mountain lion stalking its prey.  He sees you
 noticing him, and quietly disappears.
 ~
-elf~
+çora~
 ACFGH P 0 0
 8 0 2d7+96 4d9+100 1d7+2 none
 3 3 3 9
@@ -46,14 +46,14 @@ EFNR 0 0 0
 stand stand male 0
 0 0 medium 0
 #7802
-vadi elfi~
-bir vadi elfi~
-Diþi bir vadi elfi, uzun çimenler arasýnda dans edercesine etrafta dolaþýyor.
+vadi çorasý~
+bir vadi çorasý~
+Diþi bir vadi çorasý, uzun çimenler arasýnda dans edercesine etrafta dolaþýyor.
 ~
-This elf is almost as tall as you are, but much slimmer and more agile.
+This çora is almost as tall as you are, but much slimmer and more agile.
 She glares at you, then quickly disappears before you see more of her.
 ~
-elf~
+çora~
 ACFGH P 0 0
 8 0 2d7+96 4d9+100 1d7+2 none
 3 3 3 9
@@ -61,14 +61,14 @@ EFNR 0 0 0
 stand stand female 0
 0 0 medium 0
 #7803
-nöbet tutan vadi elfi nöbetçi~
-nöbet tutan bir vadi elfi~
-Burada nöbet tutan bir vadi elfi seni fark eder etmez hýzlýca saldýrýyor!
+nöbet tutan vadi çorasý nöbetçi~
+nöbet tutan bir vadi çorasý~
+Burada nöbet tutan bir vadi çorasý seni fark eder etmez hýzlýca saldýrýyor!
 ~
-This elf is almost as tall as you are, but much slimmer and more agile.
+This çora is almost as tall as you are, but much slimmer and more agile.
 He glares at your intrusion and attacks with menace.
 ~
-elf~
+çora~
 ABF P 0 0
 7 0 2d6+85 3d9+100 1d8+1 none
 4 4 4 9
@@ -76,14 +76,14 @@ EFNR 0 0 0
 stand stand male 0
 0 0 medium 0
 #7804
-nöbet tutan vadi elfi nöbetçi~
-nöbet tutan bir vadi elfi~
-Burada nöbet tutan bir vadi elfi seni fark eder etmez hýzlýca saldýrýyor!
+nöbet tutan vadi çorasý nöbetçi~
+nöbet tutan bir vadi çorasý~
+Burada nöbet tutan bir vadi çorasý seni fark eder etmez hýzlýca saldýrýyor!
 ~
-This elf is almost as tall as you are, but much slimmer and more agile.
+This çora is almost as tall as you are, but much slimmer and more agile.
 She glares at your intrusion and attacks with menace.
 ~
-elf~
+çora~
 ABF P 0 0
 7 0 2d6+85 3d9+100 1d8+1 none
 4 4 4 9
@@ -91,13 +91,13 @@ EFNR 0 0 0
 stand stand female 0
 0 0 medium 0
 #7805
-gözcülük yapan vadi elfi~
-gözcülük yapan bir vadi elfi~
-Gözcülük yapan bir vadi elfi, senin gibi davetsiz konuklarýn izini sürüyor!
+gözcülük yapan vadi çorasý~
+gözcülük yapan bir vadi çorasý~
+Gözcülük yapan bir vadi çorasý, senin gibi davetsiz konuklarýn izini sürüyor!
 ~
-The elf notices your intrusion and attacks with determination.
+The çora notices your intrusion and attacks with determination.
 ~
-elf~
+çora~
 ACFG P 0 0
 6 0 2d7+71 3d9+100 1d7+1 none
 4 4 4 9
@@ -105,14 +105,14 @@ EFNR 0 0 0
 stand stand male 0
 0 0 medium 0
 #7806
-vadi elfi~
-bir vadi elfi~
-Bir vadi elfi burada kendi iþleriyle uðraþýyor.
+vadi çorasý~
+bir vadi çorasý~
+Bir vadi çorasý burada kendi iþleriyle uðraþýyor.
 ~
 She is currently doing some menial chores, and ignores your intrusion except
 when you are in her way.
 ~
-elf~
+çora~
 AGH P 0 0
 6 0 2d7+71 3d9+100 1d7+1 none
 4 4 4 9
@@ -120,15 +120,15 @@ EFNR 0 0 0
 stand stand female 0
 0 0 medium 0
 #7807
-ihtiyar vadi elfi~
-ihtiyar bir vadi elfi~
-Ýhtiyar bir vadi elfi burada çalýþýrken seni fark ediyor.
-Ýhtiyar bir vadi elfi baðýrýyor 'Buraya izinsiz girdin.  Ölmeye hazýrlan!'
+ihtiyar vadi çorasý~
+ihtiyar bir vadi çorasý~
+Ýhtiyar bir vadi çorasý burada çalýþýrken seni fark ediyor.
+Ýhtiyar bir vadi çorasý baðýrýyor 'Buraya izinsiz girdin.  Ölmeye hazýrlan!'
 ~
-This elf looks quite old, probably twenty or more times your age.  He looks
+This çora looks quite old, probably twenty or more times your age.  He looks
 quite potent, though.
 ~
-elf~
+çora~
 ABCFQ HN 0 0
 15 0 3d9+208 15d9+100 2d5+3 none
 -2 -2 -2 6
@@ -136,15 +136,15 @@ EIKR 0 0 0
 stand stand male 0
 0 0 medium 0
 #7808
-ihtiyar vadi elfi~
-ihtiyar bir vadi elfi~
-Ýhtiyar bir vadi elfi burada çalýþýrken seni fark ediyor.
-Ýhtiyar bir vadi elfi þöyle söylüyor 'Seni yolun sonuna getiren, küstahlýðýndýr.'
+ihtiyar vadi çorasý~
+ihtiyar bir vadi çorasý~
+Ýhtiyar bir vadi çorasý burada çalýþýrken seni fark ediyor.
+Ýhtiyar bir vadi çorasý þöyle söylüyor 'Seni yolun sonuna getiren, küstahlýðýndýr.'
 ~
-This elf looks quite old, probably twenty or more times your age.  She looks
+This çora looks quite old, probably twenty or more times your age.  She looks
 quite potent, though.
 ~
-elf~
+çora~
 ABCFR N 0 0
 15 0 2d10+190 15d9+100 1d10+3 none
 -1 -1 -1 5
@@ -241,16 +241,16 @@ stand stand none 0
 #0
 #OBJECTS
 #7800
-elf zincir zýrhý zincirzýrh~
-elf iþi zincirzýrh~
+çora zincir zýrhý zincirzýrh~
+çora iþi zincirzýrh~
 Parlak metalik bir gömlek yerde duruyor.~
 iron~
 armor 0 AD
 4 4 4 2 0
 5 30 1080 P
 #7801
-elf iþi botlar~
-elf iþi botlar~
+çora iþi botlar~
+çora iþi botlar~
 Oldukça yumuþak cinsten botlar yerde duruyor.~
 steel~
 armor 0 AG
@@ -259,8 +259,8 @@ armor 0 AG
 A
 14 5
 #7802
-uzunkýlýç elf iþi uzun kýlýç~
-elf iþi bir uzunkýlýç~
+uzunkýlýç çora iþi uzun kýlýç~
+çora iþi bir uzunkýlýç~
 Parlak bir býçak yerde duruyor.~
 steel~
 weapon G AN
@@ -1224,9 +1224,9 @@ door~
 S
 #7835
 Mutfak~
-You are in a community kitchen for this valley elven home.  Pots and pans line
+You are in a community kitchen for this valley çora home.  Pots and pans line
 the walls, along with shelves filled with many foodstuffs.  A big oven is to one
-side, and you can smell elfcakes being baked.
+side, and you can smell çoracakes being baked.
 There is a doorway to the north and one to the west.
 ~
 0 D 0
@@ -1277,7 +1277,7 @@ You see the trail.
 S
 #7838
 Salon~
-You are in the living room of the elven home.  Mats cover the floor, and a
+You are in the living room of the çora home.  Mats cover the floor, and a
 on a table is a bowl full of fruits.  Through the window you can see the
 valley, with its wild flowers and tall, green grasses.
 ~
@@ -1295,7 +1295,7 @@ The entrance is to the south.
 S
 #7839
 Depo~
-You are in the storage room of the elven home.  Sacks of flour cover one side,
+You are in the storage room of the çora home.  Sacks of flour cover one side,
 and cleaning accessories cover the other side.  You find nothing of use here.
 A staircase leads up.
 ~
@@ -1403,7 +1403,7 @@ You see the trail.
 S
 #7845
 Ýhtiyarlar Odasý~
-You are in the room of the valley elf elders.  Books written in strange
+You are in the room of the valley çora elders.  Books written in strange
 languages line the numerous shelves, and scrolls cover a table.  There is a
 smooth spheric object in the center of the room.
 ~
@@ -2142,7 +2142,7 @@ S
 #0
 #RESETS
 D 0 7829   0    1	* A Smaller Valley north
-D 0 7834   2    1	* The Elf Home south
+D 0 7834   2    1	* The Çora Home south
 D 0 7845   1    2	* The Elders' Room east
 D 0 7846   3    2	* The Storage Room west
 D 0 7845   0    1	* The Elders' Room north
@@ -2165,95 +2165,95 @@ M 0 7800   6 7837  1	* a cooshee
 M 0 7800   6 7873  1	* a cooshee
 M 0 7800   6 7823  1	* a cooshee
 M 0 7800   6 7833  1	* a cooshee
-M 0 7801   6 7805  1	* a valley elf
-E 1 7802  -1   16	*   an elven longsword
-M 0 7801   6 7820  1	* a valley elf
-E 1 7802  -1   16	*   an elven longsword
-M 0 7801   6 7818  1	* a valley elf
-E 1 7802  -1   16	*   an elven longsword
-M 0 7801   6 7844  1	* a valley elf
-E 1 7802  -1   16	*   an elven longsword
-M 0 7801   6 7877  1	* a valley elf
-E 1 7802  -1   16	*   an elven longsword
-M 0 7801   6 7816  1	* a valley elf
-E 1 7802  -1   16	*   an elven longsword
-M 0 7802   6 7868  1	* a valley elf
-E 1 7802  -1   16	*   an elven longsword
-M 0 7802   6 7811  1	* a valley elf
-E 1 7802  -1   16	*   an elven longsword
-M 0 7802   6 7865  1	* a valley elf
-E 1 7802  -1   16	*   an elven longsword
-M 0 7802   6 7854  1	* a valley elf
-E 1 7802  -1   16	*   an elven longsword
-M 0 7802   6 7842  1	* a valley elf
-E 1 7802  -1   16	*   an elven longsword
-M 0 7802   6 7820  1	* a valley elf
-E 1 7802  -1   16	*   an elven longsword
-M 0 7803   1 7853  1	* a valley elf sentry
-E 1 7800   9    5	*   elven chainmail
-E 1 7801   9    8	*   elven boots
-E 1 7802  -1   16	*   an elven longsword
+M 0 7801   6 7805  1	* a valley çora
+E 1 7802  -1   16	*   an çora longsword
+M 0 7801   6 7820  1	* a valley çora
+E 1 7802  -1   16	*   an çora longsword
+M 0 7801   6 7818  1	* a valley çora
+E 1 7802  -1   16	*   an çora longsword
+M 0 7801   6 7844  1	* a valley çora
+E 1 7802  -1   16	*   an çora longsword
+M 0 7801   6 7877  1	* a valley çora
+E 1 7802  -1   16	*   an çora longsword
+M 0 7801   6 7816  1	* a valley çora
+E 1 7802  -1   16	*   an çora longsword
+M 0 7802   6 7868  1	* a valley çora
+E 1 7802  -1   16	*   an çora longsword
+M 0 7802   6 7811  1	* a valley çora
+E 1 7802  -1   16	*   an çora longsword
+M 0 7802   6 7865  1	* a valley çora
+E 1 7802  -1   16	*   an çora longsword
+M 0 7802   6 7854  1	* a valley çora
+E 1 7802  -1   16	*   an çora longsword
+M 0 7802   6 7842  1	* a valley çora
+E 1 7802  -1   16	*   an çora longsword
+M 0 7802   6 7820  1	* a valley çora
+E 1 7802  -1   16	*   an çora longsword
+M 0 7803   1 7853  1	* a valley çora sentry
+E 1 7800   9    5	*   çora chainmail
+E 1 7801   9    8	*   çora boots
+E 1 7802  -1   16	*   an çora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7803   4 7866  1	* a valley elf sentry
-E 1 7800   9    5	*   elven chainmail
-E 1 7801   9    8	*   elven boots
-E 1 7802  -1   16	*   an elven longsword
+M 0 7803   4 7866  1	* a valley çora sentry
+E 1 7800   9    5	*   çora chainmail
+E 1 7801   9    8	*   çora boots
+E 1 7802  -1   16	*   an çora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7803   4 7860  1	* a valley elf sentry
-E 1 7800   9    5	*   elven chainmail
-E 1 7801   9    8	*   elven boots
-E 1 7802  -1   16	*   an elven longsword
+M 0 7803   4 7860  1	* a valley çora sentry
+E 1 7800   9    5	*   çora chainmail
+E 1 7801   9    8	*   çora boots
+E 1 7802  -1   16	*   an çora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7803   4 7848  1	* a valley elf sentry
-E 1 7800   9    5	*   elven chainmail
-E 1 7801   9    8	*   elven boots
-E 1 7802  -1   16	*   an elven longsword
+M 0 7803   4 7848  1	* a valley çora sentry
+E 1 7800   9    5	*   çora chainmail
+E 1 7801   9    8	*   çora boots
+E 1 7802  -1   16	*   an çora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7804   4 7850  1	* a valley elf sentry
-E 1 7800   9    5	*   elven chainmail
-E 1 7801   9    8	*   elven boots
-E 1 7802  -1   16	*   an elven longsword
+M 0 7804   4 7850  1	* a valley çora sentry
+E 1 7800   9    5	*   çora chainmail
+E 1 7801   9    8	*   çora boots
+E 1 7802  -1   16	*   an çora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7804   4 7856  1	* a valley elf sentry
-E 1 7800   9    5	*   elven chainmail
-E 1 7801   9    8	*   elven boots
-E 1 7802  -1   16	*   an elven longsword
+M 0 7804   4 7856  1	* a valley çora sentry
+E 1 7800   9    5	*   çora chainmail
+E 1 7801   9    8	*   çora boots
+E 1 7802  -1   16	*   an çora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7804   4 7863  1	* a valley elf sentry
-E 1 7800   9    5	*   elven chainmail
-E 1 7801   9    8	*   elven boots
-E 1 7802  -1   16	*   an elven longsword
+M 0 7804   4 7863  1	* a valley çora sentry
+E 1 7800   9    5	*   çora chainmail
+E 1 7801   9    8	*   çora boots
+E 1 7802  -1   16	*   an çora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7804   4 7848  1	* a valley elf sentry
-E 1 7800   9    5	*   elven chainmail
-E 1 7801   9    8	*   elven boots
-E 1 7802  -1   16	*   an elven longsword
+M 0 7804   4 7848  1	* a valley çora sentry
+E 1 7800   9    5	*   çora chainmail
+E 1 7801   9    8	*   çora boots
+E 1 7802  -1   16	*   an çora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7805   5 7852  1	* a valley elf scout
-E 1 7801   9    8	*   elven boots
-E 1 7802  -1   16	*   an elven longsword
+M 0 7805   5 7852  1	* a valley çora scout
+E 1 7801   9    8	*   çora boots
+E 1 7802  -1   16	*   an çora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7805   5 7862  1	* a valley elf scout
-E 1 7801   9    8	*   elven boots
-E 1 7802  -1   16	*   an elven longsword
+M 0 7805   5 7862  1	* a valley çora scout
+E 1 7801   9    8	*   çora boots
+E 1 7802  -1   16	*   an çora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7805   5 7827  1	* a valley elf scout
-E 1 7801   9    8	*   elven boots
-E 1 7802  -1   16	*   an elven longsword
+M 0 7805   5 7827  1	* a valley çora scout
+E 1 7801   9    8	*   çora boots
+E 1 7802  -1   16	*   an çora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7805   5 7842  1	* a valley elf scout
-E 1 7801   9    8	*   elven boots
-E 1 7802  -1   16	*   an elven longsword
+M 0 7805   5 7842  1	* a valley çora scout
+E 1 7801   9    8	*   çora boots
+E 1 7802  -1   16	*   an çora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7805   5 7876  1	* a valley elf scout
-E 1 7801   9    8	*   elven boots
-E 1 7802  -1   16	*   an elven longsword
+M 0 7805   5 7876  1	* a valley çora scout
+E 1 7801   9    8	*   çora boots
+E 1 7802  -1   16	*   an çora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7806   5 7847  2	* a valley elf
-M 0 7806   5 7847  2	* a valley elf
-M 0 7806   5 7835  1	* a valley elf
-M 0 7806   5 7838  1	* a valley elf
-M 0 7806   5 7839  1	* a valley elf
+M 0 7806   5 7847  2	* a valley çora
+M 0 7806   5 7847  2	* a valley çora
+M 0 7806   5 7835  1	* a valley çora
+M 0 7806   5 7838  1	* a valley çora
+M 0 7806   5 7839  1	* a valley çora
 O 0 7809   9 7846	* a potion
 O 0 7823   9 7846	* a scroll
 O 0 7820   9 7846	* a scroll
@@ -2273,11 +2273,11 @@ O 0 7818   9 7882	* a scroll
 O 0 7814   9 7882	* a potion
 O 0 7813   9 7882	* a potion
 O 0 7823   9 7882	* a scroll
-M 0 7807   1 7845  1	* a valley elf elder
+M 0 7807   1 7845  1	* a valley çora elder
 G 1 7804  -1     	*   a key
 E 1 7806   5    1	*   a gold ring
 E 1 7825  -1   16	*   a quarterstaff
-M 0 7808   1 7845  1	* a valley elf elder
+M 0 7808   1 7845  1	* a valley çora elder
 E 1 7806   5    1	*   a gold ring
 E 1 7825  -1   16	*   a quarterstaff
 M 0 7809   1 7880  1	* the pyrohydra
@@ -2298,8 +2298,8 @@ S
 #SHOPS
 0
 #SPECIALS
-M 7807 spec_cast_cleric    	* a valley elf elder
-M 7808 spec_cast_mage      	* a valley elf elder
+M 7807 spec_cast_cleric    	* a valley çora elder
+M 7808 spec_cast_mage      	* a valley çora elder
 M 7809 spec_breath_fire    	* the pyrohydra
 M 7811 spec_cast_mage      	* Talemon
 S

@@ -26,7 +26,7 @@ ve
 "Merak etmek büyümektir.."
 Sol cep kýsmen çim lekesi ile boyanmýþ.
 ~
-elf~
+çora~
 ACGR BQV 900 0
 80 0 100d12+13500 1d10+850 13d5+50 punch
 -50 -52 -51 -50
@@ -382,7 +382,7 @@ gözleri çevreliyor.  Soluk mavi irisleri neredeyse beyaza çalýyor..
 sanki körmüþcesine. Ama kadýnýn görebildiði aþikar.. yine de baktýðý þey
 her ne ise sana görünmüyor.
 ~
-elf~
+çora~
 ABGQ DGHNT 1000 11621
 85 0 100d12+15000 1d10+2000 9d10+50 crush
 -50 -53 -55 -53
@@ -819,7 +819,7 @@ Sessiz bir figür gölgelerin içine doðru kayboluyor.
 ~
 Ýhtiyatlý yeþil gözler gölgelerin içinde bir kedininkiler gibi ýþýldýyor.
 ~
-elf~
+çora~
 ACFGS FPQVZ 0 0
 82 1 100d12+15500 1d10+850 8d10+30 pierce
 -55 -54 -54 -54
@@ -833,7 +833,7 @@ Bir katil gölgelerde sessizce dolaþýp, av arýyor.
 ~
 Kara gözler zayýflýk ararcasýna, seni tartýyor gibi görünüyor.
 ~
-elf~
+çora~
 ACFGS DFPQZ 0 0
 51 0 50d10+4900 1d10+510 4d8+25 pierce
 -23 -23 -22 -21
@@ -937,7 +937,7 @@ Karanlýk bir yel gölgelerin içinde sessizce bekliyor.
 Ýnce yapýlý figür neredeyse etrafý çevreleyen karanlýðýn bir parçasý
 gibi görünüyor.
 ~
-elf~
+çora~
 ACGS PQVZ 0 0
 72 1 100d12+11000 1d10+720 12d5+30 pierce
 -44 -44 -45 -43
@@ -951,7 +951,7 @@ Kývrak, uðursuz bir varlýk karanlýða doðru sývýþýyor.
 ~
 Figür sürekli hareket halinde, senin dikkatini daðýtýyor.
 ~
-elf~
+çora~
 ACGS PQZ 0 0
 72 1 100d12+11000 1d10+720 12d5+27 pierce
 -45 -46 -44 -42
@@ -966,7 +966,7 @@ biçimde parlýyor.
 ~
 Gri figür etrafýyla bir bütün haline gelmiþ gibi görünüyor.
 ~
-elf~
+çora~
 ABCGS PQZ 0 0
 80 2 100d12+14500 1d10+850 15d5+40 wrath
 -53 -52 -52 -51
@@ -981,7 +981,7 @@ Siyah giyimli bir figür gölgelerin içinden seni gözlüyor.
 Kuzgun karasý saçlar karayel yüzünü ve bir kedininkilere benzeyen
 çekik yeþil gözleri çevreliyor.
 ~
-elf~
+çora~
 ABCGS PQZ 0 0
 78 1 100d12+13500 1d10+780 15d5+10 chill
 -49 -50 -50 -47
@@ -995,7 +995,7 @@ Beyaz giyimli bir figür burada duruyor.
 ~
 Canlý bir alev gibi bulanýklaþýp parýldýyor.
 ~
-elf~
+çora~
 ABCGS BPZ 0 0
 78 1 100d12+13500 1d10+780 15d5+10 flame
 -51 -50 -49 -48
@@ -1024,7 +1024,7 @@ Yllias~
 ~
 Gümüþ gözler, birbirine eþ iki hançer gibi karanlýkta tehditkar bir biçimde parlýyor.
 ~
-elf~
+çora~
 ABCFGS DFPQZ 0 11664
 85 2 100d12+17000 1d10+900 9d10+60 wrath
 -57 -57 -56 -55
@@ -1492,7 +1492,7 @@ Göðsüne iðnelenmiþ þýk bir isim etiketinden þu okunuyor:
 
                "Sherayna"
 ~
-elf~
+çora~
 ABG DF 0 0
 93 0 100d12+19000 1d10+1000 10d10+43 wrath
 -50 -50 -50 -50
@@ -1509,7 +1509,7 @@ Göðsüne iðnelenmiþ gümüþ bir broþtan þu okunuyor:
 
              "Nyvri"
 ~
-elf~
+çora~
 ABG DF 0 0
 90 0 100d12+18000 1d10+1000 10d10+43 magic
 -50 -50 -50 -50
@@ -1532,7 +1532,7 @@ için giriþilen vahþi rekabeti aþmýþ olan öcalýcý, tüm klan üyelerine aþýrý derec
 sadýk.  Köprücük kemiðinin üzerinde, iki çapraz hançerin üzerine doðru alçalan bir
 atmaca figürü parýldýyor.
 ~
-elf~
+çora~
 ABCFGS DFPQa -500 11700
 88 5 100d12+17250 1d10+3000 10d10+49 pierce
 -70 -70 -70 -69
@@ -1553,7 +1553,7 @@ için giriþilen vahþi rekabeti aþmýþ olan öcalýcý, tüm klan üyelerine aþýrý derec
 sadýk.  Köprücük kemiðinin üzerinde, iki çapraz hançerin üzerine doðru alçalan bir
 atmaca figürü parýldýyor.
 ~
-elf~
+çora~
 ABCFGSR DFPQ 0 11700
 88 5 100d12+17700 1d10+6000 10d10+48 pierce
 -70 -70 -70 -69
@@ -1571,7 +1571,7 @@ güç oyunlarýna raðmen bu pozisyonu elinde tutabilmesinin de etkisiyle,
 aþýrý derecede kuvvetli.  Ýki çapraz hançer figürü, köprücük kemiðinin üzerinde
 parýldýyor.
 ~
-elf~
+çora~
 ABCFGRS DFOPQ -500 11700
 85 2 100d12+15750 1d10+1500 9d10+33 wrath
 -57 -57 -58 -56
@@ -1586,7 +1586,7 @@ Narin bir karayel gölgelerle içiçe geçmiþ.
 Figür yaþayan bir gölge misali, güçlü ve akýcý bir zerafetle hareket ediyor.
 Sessiz ve öldürücü haliyle gölgeüstadý, tam anlamýyla ölümcül bir düþman.
 ~
-elf~
+çora~
 ABCFGS DFPQ -500 11700
 80 2 100d12+13500 1d10+1200 9d10+28 pierce
 -53 -53 -52 -51
@@ -1602,7 +1602,7 @@ Býçaküstadý hem zihinsel hem de bedensel olarak yaþayan bir silah keskinliðinde
 bilenmiþ.  Bu tabakanýn kuvvetinin ve zorluluðunun göstergesi olan çapraz çizgili
 yara izleri esmer cildi bozuyor.
 ~
-elf~
+çora~
 ACFGS PQ -500 11700
 75 1 100d10+11250 1d10+900 7d10+35 pierce
 -48 -48 -48 -44
@@ -1618,7 +1618,7 @@ Silah ve gizlilik konusundaki yeteneklerin yanýsýra, büyüüstadý aslolarak
 büyü sanatlarýnda bir uzman.  Bu kombinasyon büyüüstadýný çok yönlü ve
 korkunç etkili bir suikastçi yapýyor.
 ~
-elf~
+çora~
 ACFGRS DOPQT -500 11700
 75 1 100d10+11000 1d10+1500 7d10+34 pierce
 -49 -50 -49 -47
@@ -1638,7 +1638,7 @@ suikast sayesinde olabilir.  Dolayýsýyla daha yüksek rütbeli avcýlar, onun için 
 hedefinden baþka bir þey deðiller.  Bu uðurda, kendisini mükemmele doðru bileme
 çabasýndaki avcý için, baþarýsýz bir suikast giriþimi feci bir ölüm anlamýna geliyor.
 ~
-elf~
+çora~
 ACFGS PQ -500 11700
 70 1 100d10+9500 1d10+900 7d10+30 pierce
 -43 -44 -43 -41
@@ -1653,7 +1653,7 @@ Kara bir þekil gölgelerin içinden seni izleyip gücünü tartýyor.
 Karabýçak öldürme konusunda bir uzman ve bu rütbeye ulaþana kadar þimdiden
 sayýsýz ölümlere sebep olmuþ.
 ~
-elf~
+çora~
 ACFGS PQ -500 11700
 65 1 75d10+8000 1d10+750 8d6+34 pierce
 -37 -38 -38 -37
@@ -1668,7 +1668,7 @@ Bir karayel sana tepeden bakarken zalimce gülümsüyor.
 Öldürme sanatlarýndan iyi anlayan zehirbýçaðýnýn, suikastçilerini iyileþtirmekte
 kullandýðý çok geniþ bir zehir repertuarý var.
 ~
-elf~
+çora~
 ACFGS PQ -500 11700
 60 1 50d10+8000 1d10+700 8d6+28 pierce
 -34 -33 -34 -32
@@ -1683,7 +1683,7 @@ Bir suikastçi sessizce karanlýkta bir görünüp bir yitiyor.
 Kama ustasý suikastçi, iyi niþan alýnmýþ bir býçaðýn sessizliði ve akýcý zerafetiyle
 hareket ediyor.
 ~
-elf~
+çora~
 ACFGS PQ -500 11700
 55 1 50d10+5000 1d10+650 10d4+23 pierce
 -29 -28 -28 -26
@@ -1700,7 +1700,7 @@ tabakada yer alýyor.  Kendisinden yüksektekiler kadar çelikleþmiþ olmasa da,
 çaylak, þimdiden sanatýný öðrenmeye baþlamýþ ve senin için tehlikeli bir
 düþman gibi görünüyor.
 ~
-elf~
+çora~
 ACFGS PQ -50 11700
 50 0 50d10+4500 1d10+600 5d8+19 pierce
 -21 -21 -21 -19
@@ -1717,7 +1717,7 @@ bekliyor.  Ne yazýk.. baþarýsýzlýk ani bir ölüm anlamýna gelecek.
 Ve bu noktada korkaklýk klanýn gazabýnýn üzerine gelmesiyle ve yine
 klan için zerrece deðeri olmayan bedeninin yokoluþuyla sonuçlanacak.
 ~
-elf~
+çora~
 ABGS P -50 11700
 45 0 25d10+3000 1d10+500 8d4+16 pierce
 -15 -15 -15 -12
@@ -1763,7 +1763,7 @@ Bir Zdreni büyüüstadý burada, çaylaklarý eðitiyor.
 Üç büyüüstadý içinde o, þu an çaylaklara öldürücü büyü sanatlarýný öðretmekle
 görevli.
 ~
-elf~
+çora~
 ABCFGRS DOPQT -500 11700
 75 1 100d10+11000 1d10+1500 7d10+34 pierce
 -49 -50 -49 -47
@@ -1780,7 +1780,7 @@ tabakada yer alýyor.  Kendisinden yüksektekiler kadar çelikleþmiþ olmasa da,
 çaylak, þimdiden sanatýný öðrenmeye ve senin için tehlikeli bir düþman
 gibi görünüyor.
 ~
-elf~
+çora~
 ABCFGRS PQ -50 11700
 50 0 50d10+4500 1d10+600 5d8+19 pierce
 -21 -21 -21 -19
@@ -1797,7 +1797,7 @@ tabakada yer alýyor.  Kendisinden yüksektekiler kadar çelikleþmiþ olmasa da,
 çaylak, þimdiden sanatýný öðrenmeye ve senin için tehlikeli bir düþman
 gibi görünüyor.
 ~
-elf~
+çora~
 ABCFGRS PQ -50 11700
 50 0 50d10+4500 1d10+600 5d8+19 pierce
 -21 -21 -21 -19
@@ -1813,7 +1813,7 @@ Býçaküstadý hem zihinsel hem de bedensel olarak yaþayan bir silah
 keskinliðinde bilenmiþ.  Bu tabakanýn kuvvetinin ve zorluluðunun
 göstergesi olan çapraz çizgili yara izleri esmer cildi bozuyor.
 ~
-elf~
+çora~
 ABCFGS PQ -500 11700
 75 1 100d10+11250 1d10+900 7d10+35 pierce
 -48 -48 -48 -44
@@ -1830,7 +1830,7 @@ tabakada yer alýyor.  Kendisinden yüksektekiler kadar çelikleþmiþ olmasa da,
 çaylak, þimdiden sanatýný öðrenmeye baþlamýþ ve senin için tehlikeli bir
 düþman gibi görünüyor.
 ~
-elf~
+çora~
 ABCFGS PQ -50 11700
 50 0 50d10+4500 1d10+600 5d8+19 pierce
 -21 -21 -21 -19
@@ -1847,7 +1847,7 @@ tabakada yer alýyor.  Kendisinden yüksektekiler kadar çelikleþmiþ olmasa da,
 çaylak, þimdiden sanatýný öðrenmeye baþlamýþ ve senin için tehlikeli bir
 düþman gibi görünüyor.
 ~
-elf~
+çora~
 ABCFGS PQ -50 11700
 50 0 50d10+4500 1d10+600 5d8+19 pierce
 -21 -21 -21 -19
@@ -1862,7 +1862,7 @@ Bir Zdreni büyüüstadý burada, bir deney üzerinde yoðunlaþmýþ.
 Üç büyüüstadý içinde o, þu an çaylaklara öldürücü büyü sanatlarýný
 öðretmekle görevli.
 ~
-elf~
+çora~
 ABCFGRS DOPQT -500 11700
 75 1 100d10+11000 1d10+1500 7d10+34 pierce
 -49 -50 -49 -47
@@ -1877,7 +1877,7 @@ Bir zehirbýçaðý burada, büyüüstadýna yardým ediyor.
 Öldürme sanatlarýndan iyi anlayan zehirbýçaðýnýn, suikastçilerini iyileþtirmekte
 kullandýðý çok geniþ bir zehir repertuarý var.
 ~
-elf~
+çora~
 ABCFGS PQ -500 11700
 60 1 50d10+6750 1d10+700 8d6+28 pierce
 -24 -23 -24 -22
@@ -1892,7 +1892,7 @@ Kama ustasý bir suikastçi burada, büyüüstadýna yardým ediyor.
 Kama ustasý bir suikastçi, iyi niþan alýnmýþ bir býçaðýn sessizliði ve akýcý
 zerafetiyle hareket ediyor.
 ~
-elf~
+çora~
 ABCFGS PQ -500 11700
 55 1 50d10+5500 1d10+650 10d4+23 pierce
 -29 -28 -28 -26
@@ -1907,7 +1907,7 @@ Bir zehirbýçaðý burada kimyasallarý karýþtýrýyor.
 Öldürme sanatlarýndan iyi anlayan zehirbýçaðýnýn, suikastçilerini iyileþtirmekte
 kullandýðý çok geniþ bir zehir repertuarý var.
 ~
-elf~
+çora~
 ABCFGS PQ -500 11700
 60 1 50d10+6500 1d10+700 8d6+28 pierce
 -34 -33 -34 -32
@@ -1922,7 +1922,7 @@ Bir zehirbýçaðý burada, esirler üzerinde bir kýsým yeni zehir deniyor.
 Suikastçi zalimce gülümseyip esirleri zehri içmeye zorlarken, beyaz diþler
 ürpertici bir þekilde parýldýyor.
 ~
-elf~
+çora~
 ABCFGS PQ -500 11700
 60 1 50d10+7200 1d10+700 8d6+28 pierce
 -34 -33 -34 -32
@@ -1952,7 +1952,7 @@ Bir karayel burada durmuþ, çekiçle bir maden dövüyor.
 Zýrhustasý önündeki metale vurdukça, esmer yel derisindeki kuvvetli
 kaslarý þiþiyor.
 ~
-elf~
+çora~
 ABCG 0 -200 11700
 50 0 50d10+5000 1d10+500 5d8+20 crush
 -22 -21 -21 -18
@@ -1967,7 +1967,7 @@ Bir karayel burada, demir ocaðýnda çalýþýyor.
 Silahustasý önündeki örste duran hançer þeklindeki kýrmýzý sýcak
 metale çekiçle vurdukça, kývýlcýmlar havada uçuþuyor.
 ~
-elf~
+çora~
 ABCG 0 -200 11700
 50 0 50d10+5000 1d10+500 5d8+20 smash
 -22 -21 -21 -18
@@ -1988,7 +1988,7 @@ için giriþilen vahþi rekabeti aþmýþ olan öcalýcý, tüm klan üyelerine aþýrý derec
 sadýk.  Köprücük kemiðinin üzerinde, iki çapraz hançerin üzerine doðru alçalan bir
 atmaca figürü parýldýyor.
 ~
-elf~
+çora~
 ABCFGRS DFPQa -500 11700
 89 5 100d12+18500 1d10+3500 10d10+51 wrath
 -74 -74 -74 -74
@@ -2008,7 +2008,7 @@ suikast sayesinde olabilir.  Dolayýsýyla daha yüksek rütbeli avcýlar, onun için 
 hedefinden baþka bir þey deðiller.  Bu uðurda kendisini mükemmele doðru bileme
 çabasýndaki avcý için, baþarýsýz bir suikast giriþimi feci bir ölüm anlamýna geliyor.
 ~
-elf~
+çora~
 ACFGS PQ -500 11700
 70 1 100d10+9500 1d10+900 7d10+30 pierce
 -43 -44 -43 -41
@@ -7507,7 +7507,7 @@ E 0 11728 -1 16      * adamantite throwing knife
 M 0 11722 3 11720 2  * screaming captive
 M 0 11722 3 11720 2  * screaming captive
 M 0 11723 1 11730 1  * drow armoursmith
-G 0 11724 5          * dark elven chainmail
+G 0 11724 5          * dark çora chainmail
 M 0 11724 1 11730 1  * drow weaponsmith
 G 0 11729 -1         * adamantite dagger
 

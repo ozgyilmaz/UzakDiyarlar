@@ -447,34 +447,6 @@ even if you can't see the player, and without revealing their identity.  This
 is handy for talking to invisible or switched immortal players.
 ~
 
--1 NOTE NOTES CHANGES NEWS PENALTY IDEA UNREAD~
-The notes on Anatolia replace the bulletin boards and mail systems found
-on many other mud.  The following options are usable:
-
-reading notes:
-note list	: show all notes (unread notes are marked with an N)
-note read	: either by number, or read next to read unread notes
-note remove	: removes a note that you wrote or are the target of
-note catchup	: markes all notes as read
-
-writing new notes:
-note to		: sets the to line (playername, clanname, immortal, or all)
-note subject	: sets the subject for a new note
-note +		: adds a line to a new note (i.e. note + hi guys!)
-note -		: remove a line from a note in progress
-note clear	: erase a note in progress
-note show	: shows the note you are working on
-note post	: posts a new note. This MUST be done to post a note.
-
-When you log in, you will be informed if there are unread notes waiting. Type
-note read to scroll through them one at a time.
-
-Four other note directories exist, these are ideas, news, changes, and
-penalties (gods only).  They are used the exact same way, for example
-idea read 5 will read idea #5.  Posting to the news and changes boards is
-restricted. The 'unread' command can be used to show your unread notes on
-all the note spools.
-~
 0 SHOUT YELL~
 Syntax: shout   <message>
 Syntax: yell    <message>
@@ -603,7 +575,7 @@ For example:
 
 who immortal    lists all immortals playing
 who pk		lists all characters in your PK range
-who elf         lists all elven clerics
+who çora         lists all çora clerics
 who entropy pk  lists all characters in entropy cabal, (if you are a mamber)
 		which are in your PK range
 
@@ -2199,24 +2171,24 @@ character creation process:
 Human:     Humans are the typical, average race, possessing no advantages nor
            disadvantages.
 Elves:     Elves are slender and fragile, yet agile and dextrous creatures.
-	   There are currently THREE elf races.(Elf,Dark-Elf,Half-Elf).
+	   There are currently THREE çora races.(Elf,Dark-Elf,Half-Elf).
 Dwarf:     Dwarves are typically high in constitution and strength, and have
-	   infravision.There are currently THREE: Dwarf,Duergar,Svirfnebli.
+	   infravision.There are currently THREE: Dwarf,Yeg,Svirfnebli.
 Gnome:     Gnomes are typically highly intelligent but low in strength. And
 	   gnomes costs 300 extra exps per level.
-Arial:     Arials are a highly dextrous and smart race.They always fly. And
-	   arials costs 250  exps per level.
+Gamayun:     Gamayuns are a highly dextrous and smart race.They always fly. And
+	   gamayuns costs 250  exps per level.
 Giant:     Giants are great and strong race. They are higher in constitution.
 	   There are currently FOUR: Fire-Gia, Storm-Gia, Frost-Gia, Cloud-Gia.
-Felar:	   They are not strong , but has the ability to see in the dark, called
-	   infravision. And felar costs 250 extra exps per level.
+Börü:	   They are not strong , but has the ability to see in the dark, called
+	   infravision. And börü costs 250 extra exps per level.
 Rockseer  :Rockseer are  fragile, agile and dextrous creatures. They can pass
 	   all kinds of doors. They are neutral, cost 500 extra exps per level.
 Githyanki :Human like creatures but high in intelligent. They can be fighter,
 	   caster, or fighter/caster.Cost 250 creation points.
-Satyr	  :Half human ,half goat race.High in dexterity but low much strong.
+Ciren	  :Half human ,half horse race.High in dexterity but low much strong.
 	   They are good ranger and thieves.Cost 250 creation points.
-Troll     :Hindered by their slow intellect and mobility, grow to obtain a
+Asura     :Hindered by their slow intellect and mobility, grow to obtain a
            state of health.They cost extra 300 creation points.
 
 P.S.	: Remember that some races have their specific spells, i.e rockseers
@@ -2232,19 +2204,14 @@ See also:  CLASS, WORLD
 IRK       KISALTMA     ÝYÝ      KÖTÜ     TP    BÝLGÝ
 -----      -------   -------  -------   -----  -------------------
 Ýnsan       Ýnsan      Hiç      Hiç       0    ortalama ýrk
-Elf         Elf      Zek,Çev   Güç,Bün   500   iyi yönelim
-Yarýelf     YElf     Zek,Çev   Güç,Bün   200   yarý insan, yarý elf
-Karaelf     KElf     Zek,Çev   Güç,Bün   500   kem yönelim
-Grielf      GElf     Zek,Çev   Güç,Bün   500   yansýz, "deðnekler"
+Çora        Çora     Zek,Çev   Güç,Bün   500   iyi yönelim
 Cüce        Cüce     Bil,Bün     Çev     250   "vahþileþme"
-Karacüce    KCüce    Güç,Bün   Zek,Bil   250   "vahþileþme", "maymuncuk"
-Svirfneblin Svirf      Bil       Zek     250   "irfan", "tanýmlama"
-Felar       Felar    Güç,Bün     Çev     250   "çýplak el"
-Arial       Arial    Zek,Dex   Güç,Bün   250   uçabilen canlýlar
-Gnom        Gnom     Zek,Bil   Güç,Bün   300   "tanýmlama"
-Githyanki   Gith     Zek,Çev   Bil,Bün   250   kem, "kýlýç", "hançer"
-Satir       Satir      Çev       Zek     250   yansýz, "kamuf", "pusu", "arakla"
-Trol        Trol     Güç,Bün   Zek,Çev   400   kem, "trans", "hýzlý iyileþme"
+Naga        Naga      Bil       Zek     250   "irfan", "tanýmlama"
+Yeg         Yeg      Güç,Bün   Zek,Bil   250   "vahþileþme", "maymuncuk"
+Gamayun     Gamay    Zek,Dex   Güç,Bün   250   uçabilen canlýlar
+Börü        Börü     Güç,Bün     Çev     250   "çýplak el"
+Ciren       Ciren      Çev       Zek     250   yansýz, "kamuf", "pusu", "arakla"
+Asura       Asur     Güç,Bün   Zek,Çev   400   kem, "trans", "hýzlý iyileþme"
 
 Irkýnýz ne olsun (bilgi için: uzakdiyarlar.net)?~
 
@@ -2347,7 +2314,7 @@ Elves who have turned to evil are frowned upon.
 ~
 -1 'HALF-ELF' HALFELF HALFELVES~
 
-Half-elves are a cross-breed between a human and an elf. They are not quite
+Half-elves are a cross-breed between a human and an çora. They are not quite
 as intelligent as pure elves but have a greater constitution. Like pure
 elves, half-elves see in the dark with infravision.
 
@@ -2359,41 +2326,41 @@ the paths to the Underdark have been found.  Slighty larger than their
 surface cousins, these gnomes are also stronger and a little more hearty from
 centuries of working stone.  The dedication to stone has made them not
 quite as adept mentally as their cousins, but yet they are still regarded
-as very wise.  With their singular dedication to the stone, svirfnebli
+as very wise.  With their singular dedication to the stone, naga
 must be neutral in all  aspects of their lives.  They have the same ability
 in learning the powers of items as their surface cousins.
 
 ~
--1 FELAR~
+-1 BÖRÜ~
 
-The Felar are a race descended from the great cats. For long years in their
-past, the Felar were enslaved by wizards to serve as familiars.  The scars
+The Börü are a race descended from the great cats. For long years in their
+past, the Börü were enslaved by wizards to serve as familiars.  The scars
 of this servitude still show in the relative weakness and dull wits of the
-Felar.  They are renowned, however, for their agility and their "nine lives".
-It is said a Felar can withstand blows in battle (or from an angry master)
+Börü.  They are renowned, however, for their agility and their "nine lives".
+It is said a Börü can withstand blows in battle (or from an angry master)
 that would kill a human outright.
 
-The thick fur of the Felar makes them resistent to cold, but also very
+The thick fur of the Börü makes them resistent to cold, but also very
 vulnerable to fire.  They also abhor water and are liable to drown in it.
-Despite heavy modification by their former masters, the Felar retain the
+Despite heavy modification by their former masters, the Börü retain the
 large claws and fangs of their ancestors.  This gives them the ability to
 inflict extra damage during a fight, but the claws are not retractable so
-it is difficult for a Felar to walk unnoticed.  The Felar are also famed for
-their street fighting ability.  The Felar do not have the discipline or wits
-to be pure magic-users, and some of the Felar still resent the mages, anyway.
-The wars of freedom were long ago, however, so many younger Felar are willing
+it is difficult for a Börü to walk unnoticed.  The Börü are also famed for
+their street fighting ability.  The Börü do not have the discipline or wits
+to be pure magic-users, and some of the Börü still resent the mages, anyway.
+The wars of freedom were long ago, however, so many younger Börü are willing
 to forgive and forget, and some have even begun to dabble in the magic that
 once imprisoned them.
 
 ~
--1 DUERGAR DARK-DWARF DARK-DWARVES~
+-1 YEG~
 
 With the recent excavations unearthing paths to the Underdark, the race of
-dark dwarves known as Duergar has made its way into Anatolia.  Like their
+dark dwarves known as Yeg has made its way into Anatolia.  Like their
 surface cousins they are strong, though their evil ways have changed them
 in other areas.  Unlike their cousins, they are not known for working stone
 and metal, something which has made them less hearty over time.  They have
-become more dexterous through centuries of thievery and deceit.  All Duergar
+become more dexterous through centuries of thievery and deceit.  All Yeg
 are evil.
 
 ~
@@ -2408,9 +2375,9 @@ turn to good are frowned upon.  Dark-Elves are burned by the touch of
 mithril.
 
 ~
--1 SATYR~
+-1 CÝREN ciren~
 
-Satyrs are a race of half human and half goat race.They are evil.  They are
+Cirens are a race of half human and half goat race.They are evil.  They are
 inherently dextrerious. But not strengthful. Due the desterity they can
 steal from someone , camuflage themselves and ambush opponents very easly.
 
@@ -2435,12 +2402,12 @@ might know. And because of their organism they are vulnerable to woods.
 They have a specific spell called 'meld into stone'.
 
 ~
--1  TROLL TROLLS~
+-1  ASURA~
 Long hidden within the sanctity of their mountain caves, a race known in the
-past only as a myth, lies the civilization of the trolls. Built with the
+past only as a myth, lies the civilization of the asuras. Built with the
 undying stamina of the mountains they reside in, these green skinned beasts
 often grow to obtain a state of health few other races believed possible.
-Hindered by their slow intellect and mobility, the troll society seems to
+Hindered by their slow intellect and mobility, the asura society seems to
 have decided as a whole to rejoin the races of the realms, moving out of
 their sanctuaries in numbers reaching high into the thousands
 ~

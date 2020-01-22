@@ -4403,13 +4403,13 @@ void do_who_col( CHAR_DATA *ch, char *argument )
 	 * Format it up.
 	 */
 
-	sprintf( level_buf, "%s%2d%s", CLR_CYAN,wch->level, CLR_WHITE_BOLD);
+	sprintf( level_buf, "%s%3d%s", CLR_CYAN,wch->level, CLR_WHITE_BOLD);
 	sprintf(classbuf,"%s%s%s",CLR_YELLOW,iclass, CLR_WHITE_BOLD);
 
 	if (IS_TRUSTED(ch,LEVEL_IMMORTAL) || ch==wch ||
                    wch->level >= LEVEL_HERO)
 
-	  sprintf( buf, "[%2d %s %s] %s%s%s%s%s\n\r",
+	  sprintf( buf, "[%3d %5s %3s] %s%s%s%s%s\n\r",
 	    wch->level,
 	    RACE(wch) < MAX_PC_RACE ? pc_race_table[RACE(wch)].who_name
 				    : "     ",
@@ -4422,7 +4422,7 @@ void do_who_col( CHAR_DATA *ch, char *argument )
 
 	else
 /*	  sprintf( buf, "[%s %s %s] %s%s%s%s%s\n\r",	*/
-	  sprintf( buf, "[%s %s    ] %s%s%s%s%s\n\r",
+	  sprintf( buf, "[%3s %5s    ] %s%s%s%s%s\n\r",
 		(get_curr_stat(wch, STAT_CHA) < 18 ) ? level_buf : "  ",
 	    RACE(wch) < MAX_PC_RACE ? pc_race_table[RACE(wch)].who_name
 				    : "     ",

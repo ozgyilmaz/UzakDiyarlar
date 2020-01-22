@@ -62,11 +62,11 @@ thief guildmaster~
 the guildmaster~
 Your guildmaster stands here.
 ~
-A small elf dressed in black rests in the corner. As you enter he grabs
+A small çora dressed in black rests in the corner. As you enter he grabs
 a knife an throws it at you. It lands the wall next to your left ear. We
 will now begin, is all he says.
 ~
-elf~
+çora~
 ABJKTVb DF -100 0
 40 15 1d1+30000 1d1+99 1d4+10 digestion
 -15 -15 -15 -15
@@ -185,9 +185,9 @@ oldstyle shopkeeper~
 the shopkeeper~
 The shopkeeper stands here.
 ~
-You see a half-elf sitting on a stool behind his counter.
+You see a yarýçora sitting on a stool behind his counter.
 ~
-human~
+çora~
 ABVXY D 800 0
 23 0 5d10+650 11d9+100 3d6+6 none
 -6 -6 -6 6
@@ -233,7 +233,7 @@ oldstyle vera~
 Vera the veggie lady~
 Vera the veggie lady beams as you look over her stand.
 ~
-A tall slender elf stands before you smiling broadly.
+A tall slender çora stands before you smiling broadly.
 ~
 human~
 ABVXY D 800 0
@@ -406,7 +406,7 @@ oldstyle statue~
 the statue of Satin~
 The statue of Satin stands here.
 ~
-The statue of Satin, a small elven woman in mage robes, smiles serenely
+The statue of Satin, a small çora woman in mage robes, smiles serenely
 and her eyes twinkle with gentle humour.  You take a step back in fear.
 ~
 human~
@@ -1324,11 +1324,11 @@ stand stand male 345
 0 0 tiny 0
 F par GHIJK
 #9585
-oldstyle gardener small elf~
+oldstyle gardener small çora~
 the gardener~
-A small elf stands here tending the garden.
+A small çora stands here tending the garden.
 ~
-A young elf stands here in dirt covered overalls. He seems to be weeding
+A young çora stands here in dirt covered overalls. He seems to be weeding
 his garden.
 ~
 human~

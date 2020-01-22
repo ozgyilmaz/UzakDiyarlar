@@ -343,7 +343,7 @@ should feel rewarded for looking at a mobile.  Be sure to put a ~ BELOW
 the description (not at the end of the line). 
 
 VI.  race~ 
-Every mobile should have a race, whether it be goblin, orc, troll, or 
+Every mobile should have a race, whether it be goblin, orc, asura, or 
 whatever.  See the list below for races that already exist.  If you feel 
 your race is sufficiently distinct to merit creation of a new one,
 include a note containing the abilities the race should have to the
@@ -503,7 +503,7 @@ song bird
   form: edible, animal, bird 
   parts: ACDEFHKP 
 
-troll 
+asura 
   affect flags: regeneration, infravision, detect hidden 
   offensive flags: berserk 
   resistances: charm, bash 
@@ -1429,7 +1429,7 @@ A listing of acceptable liquid types follows:
     salt water             clear           0, 	1,      -2, 	
     coke                   brown           0, 	2,  	   9, 	
     root beer              brown           0, 	2,  	   9, 	
-    elvish wine            green          35, 	2,  	   8, 	
+    çora wine            green          35, 	2,  	   8, 	
     white wine             golden         28, 	1,  	   8, 	
     champagne              golden         32, 	1,  	   8, 	
     mead                   honey-colored  34, 	2,  	   8, 	
@@ -2382,8 +2382,8 @@ are tailored to specific mobiles.  Check them out online for examples of
 unique or area-specific specials that can possibly be coded for your mobiles:
 
 cast_judge       Mobile fires bullets (for Mega-City One only) 
-troll_member     Mobile attacks ogre gang members (gangland mobs only) 
-ogre_member      Mobile attacks troll gang members (gangland mobs only) 
+asura_member     Mobile attacks ogre gang members (gangland mobs only) 
+ogre_member      Mobile attacks asura gang members (gangland mobs only) 
 patrolman        Mobile tries to break up fights (gangland mobs only) 
 mayor		     The Midgaard mayor special (opens/closes city gates, 
 etc.)

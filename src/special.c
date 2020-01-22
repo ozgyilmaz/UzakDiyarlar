@@ -106,7 +106,7 @@ DECLARE_SPEC_FUN(	spec_mayor		);
 DECLARE_SPEC_FUN(	spec_poison		);
 DECLARE_SPEC_FUN(	spec_thief		);
 DECLARE_SPEC_FUN(	spec_nasty		);
-DECLARE_SPEC_FUN(	spec_troll_member	);
+DECLARE_SPEC_FUN(	spec_asura_member	);
 DECLARE_SPEC_FUN(	spec_ogre_member	);
 DECLARE_SPEC_FUN(	spec_patrolman		);
 DECLARE_SPEC_FUN(       spec_cast_cabal         );
@@ -151,7 +151,7 @@ const   struct  spec_type    spec_table[] =
     {	"spec_poison",			spec_poison		},
     {	"spec_thief",			spec_thief		},
     {	"spec_nasty",			spec_nasty		},
-    {	"spec_troll_member",		spec_troll_member	},
+    {	"spec_asura_member",		spec_asura_member	},
     {	"spec_ogre_member",		spec_ogre_member	},
     {	"spec_patrolman",		spec_patrolman		},
     {	"spec_cast_cabal",		spec_cast_cabal		},
@@ -203,7 +203,7 @@ char *spec_name( SPEC_FUN *function)
     return NULL;
 }
 
-bool spec_troll_member( CHAR_DATA *ch)
+bool spec_asura_member( CHAR_DATA *ch)
 {
     CHAR_DATA *vch, *victim = NULL;
     int count = 0;
@@ -271,7 +271,7 @@ bool spec_ogre_member( CHAR_DATA *ch)
     ||  IS_AFFECTED(ch,AFF_CHARM) || ch->fighting != NULL)
         return FALSE;
 
-    /* find an troll to beat up */
+    /* find an asura to beat up */
     for (vch = ch->in_room->people;  vch != NULL;  vch = vch->next_in_room)
     {
         if (!IS_NPC(vch) || ch == vch)
@@ -280,7 +280,7 @@ bool spec_ogre_member( CHAR_DATA *ch)
         if (vch->pIndexData->vnum == MOB_VNUM_PATROLMAN)
             return FALSE;
 
-        if (vch->pIndexData->group == GROUP_VNUM_TROLLS
+        if (vch->pIndexData->group == GROUP_VNUM_ASURA
         &&  ch->level > vch->level - 2 && !is_safe(ch,vch))
         {
             if (number_range(0,count) == 0)

@@ -109,11 +109,11 @@ const   struct  language_type       language_table      [ MAX_LANGUAGE ] =
 {
   { "ortak",	LANG_COMMON	},
   { "insan",	LANG_HUMAN	},
-  { "elf",	LANG_ELVISH	},
+  { "çora",	LANG_CORA	},
   { "cüce",	LANG_DWARVISH	},
   { "gnom",	LANG_GNOMISH	},
   { "dev",	LANG_GIANT	},
-  { "trol",	LANG_TROLLISH	},
+  { "asura",	LANG_ASURA	},
   { "kedi",	LANG_CAT	}
 };
 
@@ -266,132 +266,111 @@ const 	struct	race_type	race_table	[]		=
     },
 
     { /* 2 */
-	{"elf","elf"},		TRUE, 		0,
+	{"çora","çora"},		TRUE, 		0,
 	0,		AFF_INFRARED|AFF_SNEAK,	0,
 	0,		RES_CHARM,	VULN_IRON,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
     { /* 3 */
-        {"half-elf","yarýelf"},     TRUE, 		0,
-        0,              AFF_INFRARED,   0,
-        0,              RES_CHARM,      VULN_IRON,
-        A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
-    },
-
-    { /* 4 */
-        {"dark-elf","karaelf"},     TRUE, 		0,
-        0,              AFF_INFRARED|AFF_SNEAK, 0,
-        0,              RES_CHARM,      VULN_IRON,
-        A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
-    },
-
-    { /* 5 */
-        {"rockseer","grielf"},     TRUE, 		0,
-        0,              AFF_INFRARED|AFF_SNEAK|AFF_PASS_DOOR, 0,
-        0,              RES_CHARM,      VULN_WOOD,
-        A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
-    },
-
-    { /* 6 */
 	{"dwarf","cüce"},	TRUE, 		0,
 	0,		AFF_INFRARED,	0,
 	0,		RES_POISON|RES_DISEASE, VULN_DROWNING,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    {  /* 7 */
-      {"svirfneblin","svirfneblin"},     TRUE, 		0,
+    {  /* 4 */
+      {"naga","naga"},     TRUE, 		0,
       0,                AFF_INFRARED,   0,
       0,                RES_MAGIC|RES_POISON|RES_DISEASE, VULN_BASH,
       A|H|M|V,          A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 8 */
-      {"duergar","karacüce"},        TRUE, 		0,
+    { /* 5 */
+      {"yeg","yeg"},        TRUE, 		0,
       0,                AFF_INFRARED,   0,
       0,                RES_MAGIC|RES_POISON|RES_DISEASE, VULN_DROWNING,
       A|H|M|V,          A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 9 */
-        {"arial","arial"},        TRUE, 		0,
+    { /* 6 */
+        {"gamayun","gamayun"},        TRUE, 		0,
         0,              AFF_FLYING,             0,
         0,              0,              0,
         A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 10 */
+    { /* 7 */
         {"gnome","gnom"},        TRUE, 		0,
         0,              AFF_INFRARED,   0,
         0,              RES_POISON,     VULN_BASH,
         A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 11 */
-        {"felar","felar"},        TRUE, 		0,
+    { /* 8 */
+        {"börü","börü"},        TRUE, 		0,
         0,              AFF_INFRARED,   OFF_TAIL,
         0,              RES_LIGHT|RES_COLD,     VULN_FIRE|VULN_DROWNING,
         A|H|M|V,        A|C|D|E|F|H|J|K|Q|U|V
     },
 
-    { /* 12 */
+    { /* 9 */
 	{"githyanki","githyanki"},	TRUE,  		0,
 	0,		AFF_INFRARED,	0,
 	0, 		0,		0,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 13  */
-	{"satyr","satir"},	TRUE, 		0,
+    { /* 10  */
+	{"ciren","ciren"},	TRUE, 		0,
 	0,		AFF_INFRARED,	0,
 	0,		RES_WOOD|RES_DISEASE,	0,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    {  /* 14 */
-	{"troll","trol"},	TRUE, 		0,/*DETECT_HIDDEN*/
+    {  /* 11 */
+	{"asura","asura"},	TRUE, 		0,/*DETECT_HIDDEN*/
 	0,		AFF_REGENERATION|AFF_INFRARED,	OFF_BERSERK,
  	0,	RES_CHARM|RES_BASH,	VULN_FIRE|VULN_ACID,
 	A|B|H|M|V,		A|B|C|D|E|F|G|H|I|J|K|U|V
     },
 
-    { /* 15 */
+    { /* 12 */
   {"storm giant","fýrtýna devi"},	FALSE, 		0,
   0,		AFF_FLYING,		0,
   0,		RES_LIGHTNING,	VULN_MENTAL|VULN_COLD|VULN_FIRE,
   A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 16 */
+    { /* 13 */
   {"cloud giant","bulut devi"},	FALSE, 		0,
   0,		AFF_FLYING,		0,
   0,		RES_WEAPON,	VULN_MENTAL|VULN_LIGHTNING,
   A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 17 */
+    { /* 14 */
   {"fire giant","ateþ devi"},	FALSE, 		0,
   0,		0,		0,
   0,		RES_FIRE,	VULN_MENTAL|VULN_LIGHTNING|VULN_COLD,
   A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 18 */
+    { /* 15 */
   {"frost giant","buz devi"},	FALSE, 		0,
   0,		0,		0,
   0,		RES_COLD,	VULN_MENTAL|VULN_LIGHTNING|VULN_FIRE,
   A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 19 */
+    { /* 16 */
         {"black dragon","kara ejderha"}, FALSE,  	0,
 	0, 		AFF_INFRARED|AFF_FLYING,	0,
 	0,		RES_BASH|RES_CHARM|RES_ACID,	VULN_PIERCE,
         A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 20 */
+    { /* 17 */
         {"blue dragon","mavi ejderha"}, 	FALSE, 		0,
 	0, 		AFF_INFRARED|AFF_FLYING,	0,
 	0,		RES_BASH|RES_CHARM|RES_LIGHTNING,
@@ -399,35 +378,35 @@ const 	struct	race_type	race_table	[]		=
         A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 21 */
+    { /* 18 */
         {"green dragon","yeþil ejderha"}, FALSE, 		0,
 	0, 		AFF_INFRARED|AFF_FLYING,	0,
 	0,		RES_BASH|RES_CHARM|RES_POISON,	VULN_PIERCE,
         A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 22 */
+    { /* 19 */
         {"red dragon","kýzýl ejderha"}, 	FALSE, 		0,
 	0, 		AFF_INFRARED|AFF_FLYING,	0,
 	0,		RES_BASH|RES_CHARM|RES_FIRE,	VULN_PIERCE,
         A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 23 */
+    { /* 20 */
         {"white dragon","ak ejderha"}, FALSE, 		0,
 	0, 		AFF_INFRARED|AFF_FLYING,	0,
 	0,		RES_BASH|RES_CHARM|RES_COLD,	VULN_PIERCE,
         A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 24 */
+    { /* 21 */
         {"brass dragon","pirinç ejderha"}, FALSE, 		0,
 	0, 		AFF_INFRARED|AFF_FLYING,	0,
 	0,		RES_BASH|RES_CHARM|RES_FIRE,	VULN_PIERCE,
         A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 25 */
+    { /* 22 */
         {"gold dragon","altýn ejderha"}, 	FALSE, 		0,
 	0, 		AFF_INFRARED|AFF_FLYING,	0,
 	0,		RES_BASH|RES_CHARM|RES_FIRE|RES_POISON,
@@ -435,14 +414,14 @@ const 	struct	race_type	race_table	[]		=
         A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 26 */
+    { /* 23 */
         {"silver dragon","gümüþ ejderha"},FALSE, 		0,
 	0, 		AFF_INFRARED|AFF_FLYING,	0,
 	0,		RES_BASH|RES_CHARM|RES_COLD,	VULN_PIERCE,
         A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 27 */
+    { /* 24 */
         {"bronze dragon","tunç ejderha"},FALSE, 		0,
 	0, 		AFF_INFRARED|AFF_FLYING,	0,
 	0,		RES_BASH|RES_CHARM|RES_LIGHTNING,
@@ -450,49 +429,49 @@ const 	struct	race_type	race_table	[]		=
         A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 28 */
+    { /* 25 */
         {"copper dragon","bakýr ejderha"},FALSE, 		0,
 	0, 		AFF_INFRARED|AFF_FLYING,	0,
 	0,		RES_BASH|RES_CHARM|RES_ACID,	VULN_PIERCE,
         A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 29 */
+    { /* 26 */
 	{"bat","yarasa"},		FALSE, 		0,
 	0,		AFF_FLYING/*|AFF_DARK_VISION*/,	OFF_DODGE|OFF_FAST,
 	0,		0,		VULN_LIGHT,
 	A|G|V,		A|C|D|E|F|H|J|K|P
     },
 
-    { /* 30 */
+    { /* 27 */
 	{"bear","ayý"},		FALSE, 		0,
 	0,		0,		OFF_CRUSH|OFF_DISARM|OFF_BERSERK,
 	0,		RES_BASH|RES_COLD,	0,
 	A|G|V,		A|B|C|D|E|F|H|J|K|U|V
     },
 
-    {  /* 31 */
+    {  /* 28 */
 	{"cat","kedi"},		FALSE, 		0,
 	0,		/*AFF_DARK_VISION*/0,	OFF_FAST|OFF_DODGE,
 	0,		0,		0,
 	A|G|V,		A|C|D|E|F|H|J|K|Q|U|V
     },
 
-    {  /* 32 */
+    {  /* 29 */
 	{"centipede","kýrkayak"},	FALSE, 		0,
 	0,		/*AFF_DARK_VISION*/0,	0,
 	0,		RES_PIERCE|RES_COLD,	VULN_BASH,
  	A|B|G|O,		A|C|K
     },
 
-    {  /* 33 */
+    {  /* 30 */
 	{"dog","köpek"},		FALSE, 		0,
 	0,		0,		OFF_FAST,
 	0,		0,		0,
 	A|G|V,		A|C|D|E|F|H|J|K|U|V
     },
 
-    { /* 34 */
+    { /* 31 */
 	{"doll","kukla"},		FALSE, 		0,
 	0,		0,		0,
 	IMM_COLD|IMM_POISON|IMM_HOLY|IMM_NEGATIVE|IMM_MENTAL|IMM_DISEASE
@@ -501,49 +480,49 @@ const 	struct	race_type	race_table	[]		=
 	E|J|M|cc,	A|B|C|G|H|K
     },
 
-    { /* 35 */
+    { /* 32 */
 	{"fido","enik"},		FALSE, 		0,
 	0,		0,		OFF_DODGE|ASSIST_RACE,
 	0,		0,			VULN_MAGIC,
 	A|B|G|V,	A|C|D|E|F|H|J|K|Q|V
     },
 
-    { /* 36 */
+    { /* 33 */
 	{"fox","tilki"},		FALSE, 		0,
 	0,		/*AFF_DARK_VISION*/0,	OFF_FAST|OFF_DODGE,
 	0,		0,		0,
 	A|G|V,		A|C|D|E|F|H|J|K|Q|V
     },
 
-    { /* 37 */
+    { /* 34 */
 	{"goblin","gulyabani"},	FALSE, 		0,
 	0,		AFF_INFRARED,	0,
 	0,		RES_DISEASE,	VULN_MAGIC,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 38 */
+    { /* 35 */
 	{"hobgoblin","ifrit"},	FALSE, 		0,
 	0,		AFF_INFRARED,	0,
 	0,		RES_DISEASE|RES_POISON,	0,
 	A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K|Y
     },
 
-    {  /* 39 */
+    {  /* 36 */
 	{"kobold","argun"},	FALSE, 		0,
 	0,		AFF_INFRARED,	0,
 	0,		RES_POISON,	VULN_MAGIC,
 	A|B|H|M|V,	A|B|C|D|E|F|G|H|I|J|K|Q
     },
 
-    {  /* 40 */
+    {  /* 37 */
 	{"lizard","kertenkele"},	FALSE, 		0,
 	0,		0,		0,
 	0,		RES_POISON,	VULN_COLD,
 	A|G|X|cc,	A|C|D|E|F|H|K|Q|V
     },
 
-    {  /* 41 */
+    {  /* 38 */
 	{"modron","geme"},	FALSE, 		0,
 	0,		AFF_INFRARED,	ASSIST_RACE|ASSIST_ALIGN,
 	IMM_CHARM|IMM_DISEASE|IMM_MENTAL|IMM_HOLY|IMM_NEGATIVE,
@@ -551,91 +530,91 @@ const 	struct	race_type	race_table	[]		=
 	H,		A|B|C|G|H|J|K
     },
 
-    {  /* 42 */
+    {  /* 39 */
 	{"orc","ork"},		FALSE, 		0,
 	0,		AFF_INFRARED,	0,
 	0,		RES_DISEASE,	VULN_LIGHT,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    {  /* 43 */
+    {  /* 40 */
 	{"pig","domuz"},		FALSE, 		0,
 	0,		0,		0,
 	0,		0,		0,
 	A|G|V,	 	A|C|D|E|F|H|J|K
     },
 
-    { /* 44 */
+    { /* 41 */
 	{"rabbit","tavþan"},	FALSE, 		0,
 	0,		0,		OFF_DODGE|OFF_FAST,
 	0,		0,		0,
 	A|G|V,		A|C|D|E|F|H|J|K
     },
 
-    { /* 45 */
+    { /* 42 */
 	{"school monster","okul canavarý"},	FALSE, 		0,
 	ACT_NOALIGN,		0,		0,
 	IMM_CHARM|IMM_SUMMON,	0,		VULN_MAGIC,
 	A|M|V,		A|B|C|D|E|F|H|J|K|Q|U
     },
 
-    {  /* 46 */
+    {  /* 43 */
 	{"snake","yýlan"},	FALSE, 		0,
 	0,		0,		0,
 	0,		RES_POISON,	VULN_COLD,
 	A|G|X|Y|cc,	A|D|E|F|K|L|Q|V|X
     },
 
-    {  /* 47 */
+    {  /* 44 */
 	{"song bird","serçe"},	FALSE, 		0,
 	0,		AFF_FLYING,		OFF_FAST|OFF_DODGE,
 	0,		0,		0,
 	A|G|W,		A|C|D|E|F|H|K|P
     },
 
-    {  /* 48 */
+    {  /* 45 */
 	{"water fowl","ördek"},	FALSE, 		0,
 	0,		AFF_SWIM|AFF_FLYING,	0,
 	0,		RES_DROWNING,		0,
 	A|G|W,		A|C|D|E|F|H|K|P
     },
 
-    {  /* 49 */
+    {  /* 46 */
 	{"wolf","kurt"},		FALSE, 		0,
 	0,		/*AFF_DARK_VISION*/0,	OFF_FAST|OFF_DODGE,
 	0,		0,		0,
 	A|G|V,		A|C|D|E|F|J|K|Q|V
     },
 
-    {  /* 50 */
+    {  /* 47 */
 	{"wyvern","yelbüke"},	FALSE, 		DETECT_INVIS|DETECT_HIDDEN,
 	0,		AFF_FLYING,	OFF_BASH|OFF_FAST|OFF_DODGE,
 	IMM_POISON,	0,	VULN_LIGHT,
 	A|B|G|Z,		A|C|D|E|F|H|J|K|Q|V|X
     },
 
-    { /* 51 */
+    { /* 48 */
         {"dragon","ejderha"}, 	FALSE,		0,
 	0, 		AFF_INFRARED|AFF_FLYING,	0,
 	0,		RES_FIRE|RES_BASH|RES_CHARM,	VULN_PIERCE|VULN_COLD,
 	A|H|Z,		A|C|D|E|F|G|H|I|J|K|P|Q|U|V|X
     },
 
-    { /* 52 */
+    { /* 49 */
 	{"giant","dev"},	FALSE, 		0,
 	0,		0,		0,
 	0,		RES_FIRE|RES_COLD,	VULN_MENTAL|VULN_LIGHTNING,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 53 */
+    { /* 50 */
 	{"golem","golem"},	FALSE, 		0,
 	0,		0,		0,
 	IMM_POISON|IMM_DISEASE,		RES_WEAPON,	VULN_MENTAL|VULN_MAGIC,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 54 */
+    { /* 51 */
 	{"undead","hortlak"},	FALSE,
 	DETECT_INVIS|DETECT_HIDDEN|DETECT_GOOD|DETECT_EVIL,
 	0,		AFF_PASS_DOOR|AFF_INFRARED,	0,
@@ -644,63 +623,56 @@ const 	struct	race_type	race_table	[]		=
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 55 */
+    { /* 52 */
 	{"drow","rayel"},		FALSE,		0,
 	0,		AFF_INFRARED,	0,
 	0,		RES_CHARM,		VULN_IRON,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 56 */
+    { /* 53 */
 	{"draconian","luu"},	FALSE,		0,
 	0,		0,		0,
 	0,		RES_SLASH|RES_POISON,	VULN_COLD,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 57 */
+    { /* 54 */
 	{"sprite","peri"},	FALSE,		DETECT_EVIL,
 	0,		AFF_FLYING,		G,
 	0,		0,			VULN_COLD|VULN_WEAPON,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 58 */
+    { /* 55 */
 	{"aarakocra","kerkes"},	FALSE,		0,
 	ACT_SCAVENGER,	AFF_FLYING,	OFF_FAST,
 	0,		0,		0,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K|P
     },
 
-    { /*  59 */
+    { /*  56 */
 	{"beholder","çokgöz"},	FALSE,		0,
 	0,		AFF_REGENERATION,		0,
 	0,		RES_MAGIC,		0,
 	A|H|M|V,	A|E|K
     },
 
-    {  /* 60 */
+    {  /* 57 */
 	{"tiger","kaplan"},	FALSE,		0,
 	0,	/*AFF_DARK_VISION*/0, OFF_FAST|OFF_DODGE,
 	0,		RES_WEAPON,		0,
 	A|G|V,		A|C|D|E|F|H|J|K|Q|U|V
     },
 
-    {  /* 61 */
+    {  /* 58 */
 	{"lion","aslan"},		FALSE,		0,
 	ACT_SENTINEL,	/*AFF_DARK_VISION*/0,	OFF_FAST|OFF_DODGE,
 	0,		RES_WEAPON,		0,
 	A|G|V,		A|C|D|E|F|H|J|K|Q|U|V
     },
 
-    {  /* 62 */
-	{"centaur","sentor"},	FALSE,		0,
-	0,		0, OFF_BASH|OFF_KICK|OFF_KICK_DIRT|OFF_DODGE,
-	0,		RES_WEAPON,		0,
-	A|G|N|V,		A|B|C|D|E|F|G|H|I|J|K|Q
-    },
-
-    {  /* 63 */
+    {  /* 59 */
 	{"death knight","aldacý"},	FALSE,		0,
 	ACT_UNDEAD,	0, 	OFF_PARRY|OFF_DISARM,
 	IMM_DISEASE|IMM_POISON|IMM_DROWNING,	RES_FIRE|RES_NEGATIVE,
@@ -708,7 +680,7 @@ const 	struct	race_type	race_table	[]		=
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    { /* 64 */
+    { /* 60 */
     {"dracolich","alavan"}, 	FALSE, 		0,
 	0, 		AFF_INFRARED|AFF_FLYING,	0,
 	IMM_CHARM|IMM_LIGHTNING|IMM_COLD,	RES_FIRE|RES_BASH,
@@ -716,49 +688,49 @@ const 	struct	race_type	race_table	[]		=
 	A|H|Z,		A|C|D|E|F|G|H|I|J|K|P|Q|U|V|X
     },
 
-    {  /* 65 */
+    {  /* 61 */
 	{"air elemental","hava uþaðý"},FALSE,		0,
 	0,		0,		OFF_FADE,
 	0,		RES_WEAPON|RES_SUMMON,		0,
 	A|H|Z,		A|D
     },
 
-    {  /* 66 */
+    {  /* 62 */
 	{"earth elemental","toprak uþaðý"},	FALSE,		0,
 	0,		0,	OFF_FADE,
 	0,		RES_WEAPON|RES_SUMMON,		0,
 	A|H|Z,		A|D
     },
 
-    {  /* 67 */
+    {  /* 63 */
 	{"fire elemental","ateþ uþaðý"},FALSE,		0,
 	0,		0,	OFF_FADE,
 	IMM_FIRE,		RES_WEAPON,		VULN_COLD,
 	A|H|Z,		A|D
     },
 
-    {  /* 68 */
+    {  /* 64 */
 	{"water elemental","su uþaðý"},	FALSE,		0,
 	0,		0,	OFF_FADE,
 	0,		RES_WEAPON|RES_FIRE|RES_COLD,	0,
 	A|H|Z,		A|D
     },
 
-    {  /* 69 */
+    {  /* 65 */
 	{"fish","balýk"},			FALSE,		0,
 	0,		AFF_SWIM,	0,
 	0,		0,		VULN_COLD|VULN_FIRE,
 	A|H|Z,		A|D|E|F|J|K|O|X
     },
 
-    {  /* 70 */
+    {  /* 66 */
 	{"gargoyle","togrýl"},	FALSE,		0,
 	ACT_AGGRESSIVE,	AFF_FLYING,	OFF_FAST,
 	0,		RES_WEAPON,	VULN_COLD|VULN_FIRE,
 	A|G|W,		A|C|D|E|F|H|K|P
     },
 
-    {  /* 71 */
+    {  /* 67 */
 	{"ghost","hayalet"},	FALSE,		0,
 	ACT_UNDEAD,	AFF_FLYING,	OFF_FADE,
 	IMM_DROWNING|IMM_NEGATIVE|IMM_DISEASE|IMM_POISON,
@@ -766,35 +738,35 @@ const 	struct	race_type	race_table	[]		=
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    {  /* 72 */
+    {  /* 68 */
 	{"ghoul","gul"},	FALSE,		0,
 	0,		0,		0,
 	IMM_DISEASE,	RES_CHARM,	VULN_MAGIC,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    {  /* 73 */
+    {  /* 69 */
 	{"gnoll","arböri"},	FALSE,		DETECT_INVIS|DETECT_HIDDEN,
 	0,		0,		OFF_DISARM,
 	0,		0,		0,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    {  /* 74 */
+    {  /* 70 */
 	{"harpy","harpi"},	FALSE,		DETECT_INVIS|DETECT_HIDDEN,
 	0,		AFF_FLYING,		OFF_DISARM,
 	0,		RES_CHARM,		0,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K|P
     },
 
-    {  /* 75 */
+    {  /* 71 */
 	{"lamia","lamia"},	FALSE,		0,
 	ACT_AGGRESSIVE,	0,		OFF_FAST|OFF_DODGE,
 	0,		RES_CHARM,		0,
 	A|G|V,		A|B|C|D|E|F|G|H|I|J|K|Q|U
     },
 
-    {  /* 76 */
+    {  /* 72 */
 	{"lich","yelviçin"},	FALSE,		0,
 	0,		0,		OFF_FAST|OFF_DODGE,
 	IMM_POISON|IMM_DISEASE|IMM_CHARM|IMM_LIGHTNING|IMM_COLD,
@@ -802,35 +774,35 @@ const 	struct	race_type	race_table	[]		=
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    {  /* 77 */
+    {  /* 73 */
 	{"minotaur","bogra"},	FALSE,		0,
 	0,		0,		OFF_CRUSH|OFF_FAST|OFF_BASH,
 	0,		0,		0,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K|W
     },
 
-    {  /* 78 */
+    {  /* 74 */
 	{"ogre","ogre"},		FALSE,		0,
 	0,		AFF_INFRARED,	0,
 	0,		RES_DISEASE,	0,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    {  /* 79 */
+    {  /* 75 */
 	{"zombie","hortlak"},		FALSE,		0,
 	0,		AFF_SLOW,	0,
 	IMM_MAGIC|IMM_POISON|IMM_CHARM,	RES_COLD, VULN_WEAPON,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    {  /* 80 */
+    {  /* 76 */
 	{"horse","at"},	FALSE, 		0,
 	0,		0,		OFF_FAST|OFF_DODGE,
 	0,		0,		0,
 	A|G|V,		A|C|D|E|F|J|K|Q
     },
 
-    {  /* 81 */
+    {  /* 77 */
 	{"unique","eþsiz"},	FALSE,		0,
 	0,		0,		0,
 	0,		0,		0,
@@ -872,32 +844,11 @@ const	struct	pc_race_type	pc_race_table	[MAX_PC_RACE]	=
       },
 
       {
-	{"elf","elf"},		" Elf ",500,{ 100,100,100,100,100,-1,-1,100,100,-1 ,-1,-1,100},
+	{"çora","çora"},		"Çora",500,{ 100,100,100,100,100,-1,-1,100,100,-1 ,-1,-1,100},
 	{ "" },
 	{ -2, 5, 0, 2, -2,0 },	{ 18, 25, 21, 23, 16,25 }, SIZE_MEDIUM,
-	-10,30,0,CR_GOOD,LANG_ELVISH
+	-10,30,0,CR_ALL,LANG_CORA
 	},
-
-    {
-	{"half-elf","yarýelf"},	"YElf",200,{ 100,100,100,100,100,100,100,100,100,-1 ,-1,100,100},
-	{ "" },
-	{ -1, 2, 0, 1, -1,0 },	{ 19, 21, 21, 21, 19 ,25}, SIZE_MEDIUM,
-	-10,10,0,CR_ALL,LANG_ELVISH
-    },
-
-    {
-	{"dark-elf","karaelf"},	"KElf",500,{ 100, 100, 100, 100,-1,100,100,-1,100 ,-1,-1,100,100},
-	{ "" },
-	{ -2, 4, 0, 2, -2 ,0},	{ 18, 24, 21, 24, 16,25 }, SIZE_MEDIUM,
-	-10,20,0,CR_EVIL,LANG_ELVISH
-    },
-
-    {
-	{"rockseer","grielf"},"GElf",500,{ 100, 100, 100, 100,-1,-1,100,100,100 ,-1,-1,-1,100},
-	{ "wands" },
-	{ -1, 2, 0, 4, -2 ,0},	{ 18, 24, 21, 24, 16,25 }, SIZE_MEDIUM,
-	-10,20,0,CR_NEUTRAL,LANG_ELVISH
-    },
 
     {
 	{"dwarf","cüce"},	"Cüce",250,{ 100, 100, -1, 100,-1,-1,-1,-1,100 ,-1,-1,-1,100},
@@ -907,166 +858,45 @@ const	struct	pc_race_type	pc_race_table	[MAX_PC_RACE]	=
     },
 
     {
-	{"svirfneblin","svirfneblin"},"Svirf",250,{ 100, 100, 100, 100,-1 ,-1,-1,-1 ,100, -1,-1,-1,100},
+	{"naga","naga"},"Naga",250,{ 100, 100, 100, 100,-1 ,-1,-1,-1 ,100, -1,-1,-1,100},
 	{ "lore", "identify" },
-	{ 0, -1, 3, 0, 0,0 },	{ 20, 19, 23, 18, 19 ,25}, SIZE_SMALL,
-	10,0,2,CR_NEUTRAL,LANG_GNOMISH
+	{ 0, -1, 3, 0, 0,0 },	{ 20, 19, 23, 18, 19 ,25}, SIZE_MEDIUM,
+	10,0,2,CR_GOOD,LANG_NAGA
     },
 
     {
-	{"duergar","karacüce"},	"KCüce",250,{ -1, 100, 100, 100,-1 ,100,-1,-1,-1 , -1,-1,100,-1},
+	{"yeg","yeg"},	"Yeg",250,{ -1, 100, 100, 100,-1 ,100,-1,-1,-1 , -1,-1,100,-1},
 	{ "berserk", "pick lock" },
 	{ 2, -2, -1, 1, 1 ,0},	{ 22, 16, 18, 20, 21,25 }, SIZE_MEDIUM,
-	25,-10,0,CR_EVIL,LANG_DWARVISH
+	25,-10,0,CR_EVIL,LANG_YEG
     },
 
     {
-	{"arial","arial"},"Arial",250,{ 100, 100, 100, 100,-1,100,100,-1,100 ,-1,-1,100,100},
+	{"gamayun","gamayun"},"Gamay",250,{ 100, 100, 100, 100,-1,100,100,-1,100 ,-1,-1,100,100},
 	{ "" },
 	{ -2, 3, 0, 5, -2 ,0},	{ 19, 23, 20, 25, 18,25 }, SIZE_MEDIUM,
-	-10,50,0,CR_ALL,LANG_HUMAN
+	-10,50,0,CR_ALL,LANG_GAMAYUN
     },
 
     {
-	{"gnome","gnom"},	"Gnom",300,{ 100, 100, 100, 100,-1,-1,-1,-1,100 ,-1,-1,-1,100},
-	{ "identify" },
-	{ -2, 3, 5, 0, -2 ,0},	{ 18, 23, 25, 20, 18 ,25}, SIZE_SMALL,
-	0,10,5,CR_NEUTRAL,LANG_GNOMISH
-    },
-/*
-    {
-	{"storm giant","fýrtýna devi"},		"FtDev",600,{ -1, 100, -1, 100,-1,-1,-1,100 ,-1,-1,-1,-1,-1},
-	{ "bash","enhanced damage" ,"sword" },
-	{ 5, -2, -2, -6, 3 ,0},	{ 24, 17, 17, 17, 21,25 }, SIZE_HUGE,
-	20,-20,0,CR_GOOD,LANG_GIANT
-    },
-
-    {
-	{"cloud giant","bulut devi"},	"BtDev",500,{ -1, 100, -1, 100,-1,-1,-1,100,-1,-1,-1,-1,-1},
-	{ "bash","enhanced damage" , "sword"},
-	{ 5, -4, -3, -6, 3 ,0},	{ 25, 16, 17, 16, 22,25 }, SIZE_HUGE,
-	20,-20,0,CR_NEUTRAL,LANG_GIANT
-    },
-
-    {
-	{"fire giant","ateþ devi"},	"AþDev",500,{ -1, 100, -1, 100,-1,100,-1,100 ,-1, -1,-1,-1,-1},
-	{ "bash","enhanced damage" , "sword"},
-	{ 5, -4, -3, -6, 3 ,0},	{ 25, 15, 17, 16, 23,25 }, SIZE_HUGE,
-	20,-20,0,CR_EVIL,LANG_GIANT
-    },
-
-    {
-	{"frost giant","buz devi"},	"BzDev",500,{ -1, 100, -1, 100,-1,100,-1,100 ,-1, -1,-1,-1,-1},
-	{ "bash","enhanced damage","axe" },
-	{ 5, -4, -3, -6, 3 ,0},	{ 25, 15, 17, 16, 23,25 }, SIZE_HUGE,
-	20,-20,0,CR_EVIL,LANG_GIANT
-    },
-*/
-
-    {
-	{"felar","felar"},	"Felar",250,{ -1, -1, 100, 100,-1 ,100,100,100 ,100,-1,-1,-1,-1},
+	{"börü","börü"},	"Börü",250,{ -1, -1, 100, 100,-1 ,100,100,100 ,100,-1,-1,-1,-1},
 	{ "hand to hand" },
 	{ -1, -1, 0, 2, 2 ,0},	{ 17, 17, 20, 23, 23,25 }, SIZE_MEDIUM,
-	10,-10,0,CR_ALL,LANG_CAT
-    },
-
-
- /*  {
-	"dragon","Drago",750,{ 100, 100, -1,100,-1,-1,-1,-1,100,-1,-1,100,-1},
-	{ "hand to hand" , "bash"},
-	{ 2, 1, 0, -6, 2,0 },	{ 21, 19, 19, 18, 25,25 }, SIZE_GIANT,
-	30,0,0,CR_ALL
-    },
-
-   {
-	"black dragon","BlaDr",750,{ 100, 100, -1, 100,-1,-1,-1,-1,100 ,-1,-1,100,-1},
-	{ "hand to hand" , "bash"},
-	{ 2, 0, 0, -6, 2,0 },	{ 21, 19, 19, 18, 25,25 }, SIZE_GARGANTUAN,
-	30,0,0,CR_EVIL
+	10,-10,0,CR_ALL,LANG_BORU
     },
 
     {
-	"blue dragon","BluDr",750,{ 100, 100, -1, 100,-1,-1,-1,-1,100 ,-1,-1,100,-1},
-	{ "hand to hand" , "bash"},
-	{ 2, 1, 0, -6, 2,0 },	{ 21, 19, 19, 18, 25,25 }, SIZE_GARGANTUAN,
-	30,0,0,CR_EVIL
-    },
-
-    {
-	"green dragon","GReDr",750,{ 100, 100, -1, 100,-1,-1,-1,-1,100 ,-1,-1,100,-1},
-	{ "hand to hand" , "bash"},
-	{ 2, 1, 0, -6, 2,0 },	{ 21, 19, 19, 18, 25,25 }, SIZE_GARGANTUAN,
-	30,0,0,CR_EVIL
-    },
-
-    {
-	"red dragon","RedDr",1000,{ 100, 100, -1, 100,-1,-1,-1,-1,100 ,-1,-1,100,-1},
-	{ "hand to hand" , "bash"},
-	{ 2, 2, 0, -6, 2,0 },	{ 21, 19, 19, 18, 25,25 }, SIZE_GARGANTUAN,
-	30,0,0,CR_EVIL
-    },
-
-    {
-	"white dragon","WhiDr",750,{ 100, 100, -1, 100,-1,-1,-1,-1,100 ,-1,-1,100,-1},
-	{ "hand to hand" , "bash"},
-	{ 2, -2, 0, -6, 2,0 },	{ 21, 19, 19, 18, 25,25 }, SIZE_GIANT,
-	30,0,0,CR_EVIL
-    },
-
-    {
-	"brass dragon","WhiDr",750,{ 100, 100, -1, 100,-1,-1,-1,-1,100 ,-1,-1,100,-1},
-	{ "hand to hand" , "bash"},
-	{ 2, 0, 0, -6, 2,0 },	{ 21, 19, 19, 18, 25,25 }, SIZE_GARGANTUAN,
-	30,0,0,CR_GOOD
-    },
-
-    {
-	"gold dragon","WhiDr",1000,{ 100, 100, -1, 100,-1,-1,-1,-1,100 ,-1,-1,100,-1},
-	{ "hand to hand" , "bash"},
-	{ 2, 2, 0, -6, 2,0 },	{ 21, 19, 19, 18, 25,25 }, SIZE_GARGANTUAN,
-	30,0,0,CR_GOOD
-    },
-
-    {
-	"silver dragon","WhiDr",1000,{ 100, 100, -1, 100,-1,-1,-1,-1,100 ,-1,-1,100,-1},
-	{ "hand to hand" , "bash"},
-	{ 2, 2, 0, -6, 2,0 },	{ 21, 19, 19, 18, 25,25 }, SIZE_GARGANTUAN,
-	30,0,0,CR_GOOD
-    },
-
-    {
-	"bronze dragon","WhiDr",750,{ 100, 100, -1, 100,-1,-1,-1,-1,100 ,-1,-1,100,-1},
-	{ "hand to hand" , "bash"},
-	{ 2, 1, 0, -6, 2,0 },	{ 21, 19, 19, 18, 25,25 }, SIZE_GARGANTUAN,
-	30,0,0,CR_GOOD
-    },
-
-    {
-	"copper dragon","WhiDr",750,{ 100, 100, -1, 100,-1,-1,-1,-1,100 ,-1,-1,100,-1},
-	{ "hand to hand" , "bash"},
-	{ 2, 0, 0, -6, 2,0 },	{ 21, 19, 19, 18, 25,25 }, SIZE_GARGANTUAN,
-	30,0,0,CR_GOOD
-    },
-*/
-    {
-	{"githyanki","githyanki"},	"Gith",250,{ 100, -1, -1, 100,-1,-1,100,100,100 ,-1,-1,100,100},
-	{ "sword" ,"dagger"},
-	{ 0, 2, -2, 3, -1,0},	{ 19, 23, 20, 25, 18,25 }, SIZE_MEDIUM,
-	0,0,0,CR_EVIL,LANG_HUMAN
-    },
-
-    {
-	{"satyr","satir"},"Satir",250,{ -1, -1, 100, 100,-1,-1,-1,100,-1 ,-1,-1,-1,-1},
+	{"ciren","ciren"},"Ciren",250,{ -1, -1, 100, 100,-1,-1,-1,100,-1 ,-1,-1,-1,-1},
 	{ "camouflage" ,"ambush", "steal" },
 	{ -1, 0, 0, 3, 0,0},	{ 19, 23, 20, 25, 18,25 }, SIZE_MEDIUM,
-	0,0,0,CR_NEUTRAL,LANG_HUMAN
+	0,0,0,CR_NEUTRAL,LANG_CIREN
     },
 
     {
-	{"troll","trol"},"Trol",400,{ -1,-1,-1,100,-1,100,-1,100,-1,-1,-1,-1,-1},
+	{"asura","asura"},"Asur",400,{ -1,-1,-1,100,-1,100,-1,100,-1,-1,-1,-1,-1},
 	{ "fast healing","trance" },
 	{ 2, -2, -1, -2, 3,0},	{ 19, 23, 20, 25, 18,25 }, SIZE_LARGE,
-	0,0,0,CR_EVIL,LANG_TROLLISH
+	0,0,0,CR_EVIL,LANG_ASURA
     }
 
   };
@@ -4433,7 +4263,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
 	spell_meld_into_stone,	TAR_CHAR_SELF,		POS_STANDING,
 	NULL,			SLOT(584),	12,	18,
   "",	"Derindeki taþlar kumlaþarak dökülüyor.",	"",
-	CABAL_NONE , RACE_ROCKSEER, ALIGN_NONE, GROUP_PROTECTIVE
+	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {

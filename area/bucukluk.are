@@ -13,18 +13,18 @@ END
 
 #MOBILES
 #1100
-elf büyücü~
-elf büyücü~
+çora büyücü~
+çora büyücü~
 Uzun boylu ve bilge görünümlü bir büyücü, düðün töreni hazýrlýklarýna
 yardým ediyor.
 ~
-elf büyücü sakin bir bakýþla etrafýný inceliyor. Bakýþlarý sana
+çora büyücü sakin bir bakýþla etrafýný inceliyor. Bakýþlarý sana
 çevrildiðinde en derin düþüncelerini okuyormuþ hissine kapýlýyorsun.
 Gümüþ renkli bir cüppe ve alacalý bir sopa taþýyor. En yaþlý insandan
 daha da yaþlýymýþ gibi görünse de, kimse ile mukayese edilemeyecek
 bir güce sahip gibi görünüyor.
 ~
-human~
+çora~
 ABGR D 500 0
 18 0 3d9+258 18d9+100 2d6+3 none
 -3 -3 -3 4
@@ -272,15 +272,15 @@ EFNU 0 0 0
 stand stand male 2
 0 0 medium 0
 #1116
-elf savaþçý~
-elf savaþçý~
-elf savaþçý seni sakince izliyor.
+çora savaþçý~
+çora savaþçý~
+çora savaþçý seni sakince izliyor.
 ~
-Uzun boylu ve açýk tenli bir elf savaþçýsý görüyorsun.
+Uzun boylu ve açýk tenli bir çora savaþçýsý görüyorsun.
 Yüzünde mahzun ve yorgun bir ifade var, sanki bu dünyadan
 býkýp usanmýþ gibi.
 ~
-human~
+çora~
 ABR 0 600 0
 17 0 3d9+233 17d9+100 1d12+3 none
 -2 -2 -2 4
@@ -590,9 +590,9 @@ A 0 0 B
 A
 1 -1
 #1106
-elf mýzrak~
-bir elf mýzraðý~
-Bir elf mýzraðý burada duruyor.~
+çora mýzrak~
+bir çora mýzraðý~
+Bir çora mýzraðý burada duruyor.~
 wood~
 weapon BGK AN
 staff 3 7 thrust 0
@@ -1858,8 +1858,8 @@ M 0 1125   1 1128  1	* a halfling beauty
 M 0 1100   1 1128  1	* the Elven Wizard
 E 1 1104   1   12	*   a silvery cloak
 E 1 1100   1    0	*   the rainbow staff
-M 0 1116   1 1136  1	* the elven warrior
-E 1 1106   1   16	*   an elven spear
+M 0 1116   1 1136  1	* the çora warrior
+E 1 1106   1   16	*   an çora spear
 E 1  622  25    6	*   a brass helm
 M 0 1117   1 1136  1	* the dwarven prince
 E 1 1107   1   16	*   a mithril axe
@@ -1937,7 +1937,7 @@ M 1101 spec_thief          	* the Keeper of the Ring
 M 1110 spec_guard          	* a shiriff
 M 1111 spec_guard          	* a shiriff
 M 1112 spec_guard          	* the Thain
-M 1116 spec_cast_mage      	* the elven warrior
+M 1116 spec_cast_mage      	* the çora warrior
 M 1117 spec_cast_cleric    	* the dwarven prince
 M 1121 spec_guard          	* the battle master
 M 1122 spec_thief          	* a halfling youth

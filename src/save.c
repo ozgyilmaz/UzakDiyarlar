@@ -217,9 +217,6 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
 	fprintf( fp, "Tru  %d\n",	ch->trust	);
     fprintf( fp, "Plyd %d\n",
 	ch->pcdata->played + (int) (current_time - ch->logon)	);
-    fprintf( fp, "Not  %ld %ld %ld %ld %ld\n",
-	ch->pcdata->last_note,ch->pcdata->last_idea,ch->pcdata->last_penalty,
-	ch->pcdata->last_news,ch->pcdata->last_changes	);
     fprintf( fp, "Scro %d\n", 	ch->lines		);
     fprintf( fp, "Room %d\n",
         (  ch->in_room == get_room_index( ROOM_VNUM_LIMBO )
@@ -1205,17 +1202,6 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 
 	case 'N':
 	    KEY( "Name",	ch->name,		fread_string( fp ) );
-	    KEY( "Note",	ch->pcdata->last_note,	fread_number( fp ) );
-	    if (!str_cmp(word,"Not"))
-	    {
-		ch->pcdata->last_note			= fread_number(fp);
-		ch->pcdata->last_idea			= fread_number(fp);
-		ch->pcdata->last_penalty		= fread_number(fp);
-		ch->pcdata->last_news			= fread_number(fp);
-		ch->pcdata->last_changes		= fread_number(fp);
-		fMatch = TRUE;
-		break;
-	    }
 	    break;
 
 	case 'P':

@@ -235,7 +235,7 @@ const struct flag_type form_flags[] =
     {	"mist",			FORM_MIST,		TRUE	},
     {	"intangible",		FORM_INTANGIBLE,	TRUE	},
     {	"biped",		FORM_BIPED,		TRUE	},
-    {	"centaur",		FORM_CENTAUR,		TRUE	},
+    {	"ciren",		FORM_CIREN,		TRUE	},
     {	"insect",		FORM_INSECT,		TRUE	},
     {	"spider",		FORM_SPIDER,		TRUE	},
     {	"crustacean",		FORM_CRUSTACEAN,	TRUE	},

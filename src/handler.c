@@ -3363,7 +3363,7 @@ char *form_bit_name(int form_flags)
     if (form_flags & FORM_MIST		) strcat(buf, " mist");
     if (form_flags & FORM_INTANGIBLE	) strcat(buf, " intangible");
     if (form_flags & FORM_BIPED		) strcat(buf, " biped");
-    if (form_flags & FORM_CENTAUR	) strcat(buf, " centaur");
+    if (form_flags & FORM_CIREN	    ) strcat(buf, " ciren");
     if (form_flags & FORM_INSECT	) strcat(buf, " insect");
     if (form_flags & FORM_SPIDER	) strcat(buf, " spider");
     if (form_flags & FORM_CRUSTACEAN	) strcat(buf, " crustacean");

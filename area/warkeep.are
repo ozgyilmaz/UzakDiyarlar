@@ -110,15 +110,15 @@ F 0 0 0
 stand stand none 1000
 0 0 small 0
 #15705
-troll guard~
-a troll guard~
-A troll guard squints suspiciously at you.
+asura guard~
+a asura guard~
+A asura guard squints suspiciously at you.
 ~
-These trolls are meant to prevent strangers from entering the inner keep,
+These asuras are meant to prevent strangers from entering the inner keep,
 but they see so many strange creatures here they aren't sure which type is
 allowed and which isn't.
 ~
-human~
+asura~
 2|8|64 512|8192 -400 0
 25 0 5d10+550 5d5+1000 2d10+7 pound
 -7 -7 -7 4
@@ -655,7 +655,7 @@ A
 #15729
 boots~
 elven boots~
-A pair of elven boots lie here.~
+A pair of çora boots lie here.~
 ~
 9 0 1|64
 0 0 0 0
@@ -666,8 +666,8 @@ A
 14 25
 #15730
 elven cloak~
-a green elven cloak~
-A green elven cloak has been left here.~
+a green çora cloak~
+A green çora cloak has been left here.~
 ~
 9 0 1|4
 0 0 0 0
@@ -1105,7 +1105,7 @@ D3
 S
 #15716
 Guard Room~
-here some of the Trollish guards of the inner keep reside. They dislike
+here some of the asura guards of the inner keep reside. They dislike
 intruders, though they are under orders from Baragar not to slay any, for
 he is intensely curious as to the nature of any visitors, welcome or not.
 ~
@@ -1117,7 +1117,7 @@ D2
 S
 #15717
 Guard Room~
-here some of the Trollish guards of the inner keep reside. They dislike
+here some of the asura guards of the inner keep reside. They dislike
 intruders, though they are under orders from Baragar not to slay any, for
 he is intensely curious as to the nature of any visitors, welcome or not.
 ~
@@ -1603,13 +1603,13 @@ M 1 15703 1 15725 1*                     loads cat
 *
 M 1 15704 1 15724 1*                     loads hawk
 *
-M 1 15705 8 15710  1*                    loads troll guard
+M 1 15705 8 15710  1*                    loads asura guard
 E 1 15713 1 16
 E 1 15714 1 5
-M 1 15705 8 15716    1*                  loads troll guard
+M 1 15705 8 15716    1*                  loads asura guard
 E 1 15713 1 16
 E 1 15714 1 5
-M 1 15705 8 15717   1*                   loads troll guard
+M 1 15705 8 15717   1*                   loads asura guard
 E 1 15713 1 16
 E 1 15714 1 5
 *
@@ -1727,7 +1727,7 @@ M  15701 spec_cast_mage			the witch Alara
 M  15702 spec_cast_undead			a demon
 M  15703 spec_cast_mage			a cat familiar
 M  15704 spec_cast_mage			a hawk familiar
-M  15705 spec_fido			a troll guard
+M  15705 spec_fido			a asura guard
 M  15706 spec_executioner			a flesh golem
 M  15707 spec_breath_fire			a fire drake
 M  15708 spec_janitor			a zombie servant

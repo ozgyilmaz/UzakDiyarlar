@@ -89,14 +89,11 @@ HELP_DATA *		help_last;
 SHOP_DATA *		shop_first;
 SHOP_DATA *		shop_last;
 
-//NOTE_DATA *		note_free;
-
 char			bug_buf		[2*MAX_INPUT_LENGTH];
 CHAR_DATA *		char_list;
 char *			help_greeting;
 char			log_buf		[2*MAX_INPUT_LENGTH];
 KILL_DATA		kill_table	[MAX_LEVEL];
-//NOTE_DATA *		note_list;
 OBJ_DATA *		object_list;
 TIME_INFO_DATA		time_info;
 WEATHER_DATA		weather_info;
@@ -440,7 +437,6 @@ void	load_rooms	args( ( FILE *fp ) );
 void	load_shops	args( ( FILE *fp ) );
 void 	load_socials	args( ( FILE *fp ) );
 void	load_specials	args( ( FILE *fp ) );
-void	load_notes	args( ( void ) );
 void	load_bans	args( ( void ) );
 void    load_olimits    args( ( FILE *fp ) );
 void    load_practicer  args( ( FILE *fp ) );
@@ -634,7 +630,6 @@ void boot_db( void )
 
 	fBootDb	= FALSE;
 	area_update( );
-	load_notes( );
 	load_bans();
     }
 

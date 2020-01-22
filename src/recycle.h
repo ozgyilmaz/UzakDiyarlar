@@ -51,12 +51,6 @@ extern int mobile_count;
 #define BUFFER_OVERFLOW	1
 #define BUFFER_FREED 	2
 
-/* note recycling */
-#define ND NOTE_DATA
-ND	*new_note args( (void) );
-void	free_note args( (NOTE_DATA *note) );
-#undef ND
-
 /* ban data recycling */
 #define BD BAN_DATA
 BD	*new_ban args( (void) );

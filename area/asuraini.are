@@ -1,6 +1,6 @@
 #AREADATA
-Filename arbaini.are~
-Name Arba Ýni~
+Filename asuraini.are~
+Name Asura Ýni~
 Builder Merc~
 Translator Bilinmiyor~
 Language Türkçe~
@@ -28,14 +28,14 @@ EFNU 0 0 0
 stand stand male 0
 0 0 medium 0
 #2801
-genç arba~
-genç arba~
-Genç bir arba oturmuþ kemik çiðniyor.
+genç asura~
+genç asura~
+Genç bir asura oturmuþ kemik çiðniyor.
 ~
-Uzun ve tüylü bir arba. Gözlerin onunkilerle buluþuyor. Birden gülümsüyor,
+Uzun ve tüylü bir asura. Gözlerin onunkilerle buluþuyor. Birden gülümsüyor,
 elindeki kemiði atýyor ve sana doðru geliyor!!
 ~
-human~
+asura~
 ACFG P -500 0
 6 0 2d7+71 3d9+100 1d7+1 none
 4 4 4 9
@@ -43,14 +43,14 @@ EFNU 0 0 0
 sit stand male 25
 0 0 medium 0
 #2802
-arba~
-arba~
-Sinirli bir arba görüyorsun.
+asura~
+asura~
+Sinirli bir asura görüyorsun.
 ~
-Uzun, zayýf ve tüylü bir arba. Gözlerini sana dikmiþ, kendisine benzeyip
+Uzun, zayýf ve tüylü bir asura. Gözlerini sana dikmiþ, kendisine benzeyip
 benzemediðinizi konarba ediyor.
 ~
-human~
+asura~
 ABCFG P -500 0
 8 0 2d7+96 4d9+100 1d7+2 none
 3 3 3 9
@@ -58,13 +58,13 @@ EFNU 0 0 0
 stand stand male 75
 0 0 medium 0
 #2803
-bebek arba~
-bebek arba~
-Bir bebek arba burada, bir kadavrayla doktorculuk oynuyor.
+bebek asura~
+bebek asura~
+Bir bebek asura burada, bir kadavrayla doktorculuk oynuyor.
 ~
-Tombul, iri ve tüylü bir arba. Seni fark edince "Katýlsana?" diyor.
+Tombul, iri ve tüylü bir asura. Seni fark edince "Katýlsana?" diyor.
 ~
-human~
+asura~
 ABCF P -100 0
 5 0 2d6+60 2d9+100 1d6+1 none
 5 5 5 9
@@ -72,14 +72,14 @@ EFNU 0 0 0
 sit stand male 12
 0 0 medium 0
 #2804
-dev arba~
-dev arba~
-Dev bir arba burada, ceset yýðýnlarýnýn üstüne uzanmýþ düþünüyor.
+dev asura~
+dev asura~
+Dev bir asura burada, ceset yýðýnlarýnýn üstüne uzanmýþ düþünüyor.
 ~
-Kaslý ve tüylü bir arba. Ýçeri girdiðini fark edince hýzlý hýzlý solumaya
+Kaslý ve tüylü bir asura. Ýçeri girdiðini fark edince hýzlý hýzlý solumaya
 baþlýyor.
 ~
-giant~
+asura~
 ABCFG P -1000 0
 13 0 2d10+170 6d9+100 2d5+3 none
 -1 -1 -1 8
@@ -87,14 +87,14 @@ EFNR 0 0 0
 rest stand male 150
 0 0 medium 0
 #2805
-diþi arba~
-diþi arba~
-Diþi bir arba burada, ceset yýðýný üstüne uzanmýþ düþünüyor.
+diþi asura~
+diþi asura~
+Diþi bir asura burada, ceset yýðýný üstüne uzanmýþ düþünüyor.
 ~
-Ýri ve tüylü bir arba. Ýçeri girdiðini fark edince hýzlý hýzlý solumaya
+Ýri ve tüylü bir asura. Ýçeri girdiðini fark edince hýzlý hýzlý solumaya
 baþlýyor.
 ~
-human~
+asura~
 ABCFG P -800 0
 11 0 2d8+134 5d9+100 1d10+2 none
 1 1 1 8
@@ -132,14 +132,14 @@ EFNU 0 0 0
 stand stand male 0
 0 0 medium 0
 #2808
-aptal arba~
-aptal arba~
-Aptal bir arba burada, etrafta geziniyor.
+aptal asura~
+aptal asura~
+Aptal bir asura burada, etrafta geziniyor.
 ~
-Uzun, zayýf ve tüylü bir arba. Seni fark ediyor ve neye baktýðýný bulmaya
+Uzun, zayýf ve tüylü bir asura. Seni fark ediyor ve neye baktýðýný bulmaya
 çalýþýyor.
 ~
-human~
+asura~
 ACFG P -500 0
 8 0 2d7+96 4d9+100 1d7+2 none
 3 3 3 9
@@ -165,9 +165,9 @@ container 0 0
 30 0 0 30 100
 0 0 0 P
 #2802
-arba derisi~
-arba derisi~
-Bir arbaün kirli derisi burada býrakýlmýþ.~
+asura derisi~
+asura derisi~
+Bir asuranýn kirli derisi burada býrakýlmýþ.~
 skin~
 armor 0 AK
 5 5 5 0 0
@@ -175,8 +175,8 @@ armor 0 AK
 A
 1 1
 E
-arba derisi~
-Bu ölü arbanýn derisi. Kötü görünüyor, kötü kokuyor ve kötü hissettiriyor.
+asura derisi~
+Bu ölü asuranýn derisi. Kötü görünüyor, kötü kokuyor ve kötü hissettiriyor.
 ~
 #2803
 opal yüzük~
@@ -308,19 +308,19 @@ S
 #RESETS
 M 0 2800   2 2801  1	* the guardian beast
 O 0 2805  10 2801	* a cracked bone
-M 0 2801   2 2802  2	* the young troll
-M 0 2801   2 2802  2	* the young troll
-M 0 2802   1 2803  1	* the medium troll
+M 0 2801   2 2802  2	* the young asura
+M 0 2801   2 2802  2	* the young asura
+M 0 2802   1 2803  1	* the medium asura
 O 0 2800  10 2804	* the cadaver-toy
 P 1 2804  -1 2800  1	*   a leather belt
 M 0 2800   2 2803  1	* the guardian beast
-M 0 2803   4 2804  4	* a baby troll
-M 0 2803   4 2804  4	* a baby troll
-M 0 2803   4 2804  4	* a baby troll
-M 0 2803   4 2804  4	* a baby troll
-M 0 2804   1 2805  1	* the giant troll
-E 1 2802   5   12	*   the troll skin
-M 0 2805   1 2805  1	* the large female troll
+M 0 2803   4 2804  4	* a baby asura
+M 0 2803   4 2804  4	* a baby asura
+M 0 2803   4 2804  4	* a baby asura
+M 0 2803   4 2804  4	* a baby asura
+M 0 2804   1 2805  1	* the giant asura
+E 1 2802   5   12	*   the asura skin
+M 0 2805   1 2805  1	* the large female asura
 O 0 2801  10 2805	* the heap of carnage
 P 1 2803   5 2801  1	*   an opal ring
 M 0 2806  10 2803  4	* a fat worm
@@ -329,7 +329,7 @@ M 0 2806  10 2802  4	* a fat worm
 M 0 2806  10 2802  4	* a fat worm
 M 0 2806  10 2804  2	* a fat worm
 M 0 2807   1 2802  1	* the roving beast
-M 0 2808   1 2803  1	* the medium troll
+M 0 2808   1 2803  1	* the medium asura
 S
 #SHOPS
 0
