@@ -83,7 +83,6 @@ DECLARE_DO_FUN(do_help		);
 DECLARE_DO_FUN(do_look		);
 DECLARE_DO_FUN(do_skills	);
 DECLARE_DO_FUN(do_outfit	);
-DECLARE_DO_FUN(do_unread	);
 
 bool cabal_area_check   args( (CHAR_DATA *ch) );
 
@@ -2761,7 +2760,6 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	  ch->pcdata->confirm_delete = FALSE;
 	}
 
-	do_unread( ch, (char*)"login" );
 
 	break;
     }
