@@ -153,7 +153,7 @@ const	struct	cmd_type	cmd_table	[] =
   { "dua",           do_pray,        POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "dump",		do_dump,	POS_DEAD,	ML,  LOG_ALWAYS, 0, CMD_KEEP_HIDE|CMD_GHOST },
   { "duygu",		do_emote,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
-  { "echo",		do_recho,	POS_DEAD,	L6,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { "duyuru",		do_duyuru,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "eðitim",		do_train,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
   { "ekipman",	do_equipment,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "emret",		do_order,	POS_RESTING,	 0,  LOG_NORMAL, 1,0},
@@ -167,7 +167,6 @@ const	struct	cmd_type	cmd_table	[] =
   { "force",		do_force,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "freeze",		do_freeze,	POS_DEAD,	L7,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "ganlat",		do_gtell,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_GHOST },
-  { "gecho",		do_echo,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "gir", 		do_enter, 	POS_STANDING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
   { "giy",		do_wear,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
   { "göm",		do_bury,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
@@ -288,7 +287,6 @@ const	struct	cmd_type	cmd_table	[] =
   { "parayatýr",	do_deposit,	POS_STANDING,	 0,  LOG_NORMAL, 1,0},
   { "patlat",	do_explode, 	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
   { "peace",		do_peace,	POS_DEAD,	L5,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "pecho",		do_pecho,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "pençe",		do_claw,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0},
   { "permban",	do_permban,	POS_DEAD,	L1,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "pmote",		do_pmote,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
@@ -405,7 +403,6 @@ const	struct	cmd_type	cmd_table	[] =
   { "zaman",		do_time,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "zar",	do_zar,	POS_STANDING,	 0,  LOG_NORMAL, 1 },
   { "zayi",		do_blink,	POS_FIGHTING,    0,  LOG_NORMAL, 1,CMD_KEEP_HIDE },
-  { "zecho",		do_zecho,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "zehir",		do_poison_smoke,POS_FIGHTING,	 0,  LOG_ALWAYS, 1,0 },
   { "",		0,		POS_DEAD,	 0,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST }
 };

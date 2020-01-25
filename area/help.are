@@ -1451,17 +1451,10 @@ command, and then moving you back (if the command didn't change your
 location).
 ~
 
-94 ECHO GECHO PECHO~
-Syntax: echo  <message>
-	gecho <message>
-	pecho <character> <message>
+94 DUYURU~
+Syntax: duyuru  <mesaj>
 
-These commands all perform similar functions.  Echo sends the message to
-all characters in the same room as the user, with no indication of who sent
-it.  Gecho does the same for all players connected to the game, and pecho
-sends the message to the player specified as the target.  Any higher-level
-god will see a prompt in front of your message, informing him or her that it
-is an echo.
+Tüm oyunculara duyuru yapýlmasýný saðlar.
 ~
 
 92 GOTO~
