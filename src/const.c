@@ -865,7 +865,7 @@ const	struct	pc_race_type	pc_race_table	[MAX_PC_RACE]	=
     },
 
     {
-	{"yeg","yeg"},	"Yeg",250,{ -1, 100, 100, 100,-1 ,100,-1,-1,-1 , -1,-1,100,-1},
+	{"yeg","yeg"},	"Yeg",250,{ -1, 100, 100, 100,-1 ,100,100,-1,-1 , -1,-1,100,-1},
 	{ "berserk", "pick lock" },
 	{ 2, -2, -1, 1, 1 ,0},	{ 22, 16, 18, 20, 21,25 }, SIZE_MEDIUM,
 	25,-10,0,CR_EVIL,LANG_YEG

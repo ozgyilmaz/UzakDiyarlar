@@ -169,6 +169,25 @@ int material_lookup (const char *name)
 int race_lookup (const char *name)
 {
    int race;
+   
+   if( !strcmp( name, "duergar" ) )
+	   strcpy( (char*)name, "yeg");
+   if( !strcmp( name, "half-elf" ) )
+	   strcpy( (char*)name, "çora");
+   if( !strcmp( name, "dark-elf" ) )
+	   strcpy( (char*)name, "çora");
+   if( !strcmp( name, "githyanki" ) )
+	   strcpy( (char*)name, "yeg");
+   if( !strcmp( name, "arial" ) )
+	   strcpy( (char*)name, "gamayun");
+   if( !strcmp( name, "felar" ) )
+	   strcpy( (char*)name, "börü");
+   if( !strcmp( name, "rockseer" ) )
+	   strcpy( (char*)name, "çora");
+   if( !strcmp( name, "troll" ) )
+	   strcpy( (char*)name, "asura");
+   if( !strcmp( name, "trol" ) )
+	   strcpy( (char*)name, "asura");
 
    for ( race = 0; race_table[race].name[1] != NULL; race++)
    {

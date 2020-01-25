@@ -2280,24 +2280,31 @@ ill-suited for any other profession. Giants, due to their size and
 stamina, receive the fast healing and bash skills for free.
 
 ~
--1 HUMAN HUMANS MAN~
+-1 ÝNSAN insan~
+Uzak Diyarlarýn en kalabalýk ýrkýdýr. Ýnsan ýrkýný diðer ýrklardan ayýran
+en önemli özellik her türlü ortama kolaylýkla uyum saðlayabilmeleridir.
+Bu nedenle bütün sýnýflar için uygun olan tek ýrktýr. Ayrýca etik olarak da
+tahmin edilebilir bir ýrk deðildir. Ýçlerinde ezileni koruyan, merhameti bol
+olaný da vardýr, þeytaný bile imrendirecek kadar zalim olaný da.
 
-Humans are the most common race in the world, and make up the majority of
-adventurers.  Although they have no special talents like the other races,
-they are more versatile, being skilled in all classes.  Humans are able to
-gain more benefit from magical devices.
-
+Güç, zeka, bilgelik, çeviklik, bünye, karizma bakýmýndan ortalama deðerlere
+sahip bir ýrktýr.
 ~
--1 DWARF DWARVES~
-
-Dwarves are short, stocky demi-humans, known for foul temper and great
-stamina.  Dwarves have high strength and constitution, but poor dexterity.
-They are not as smart as humans, but are usually wiser due to their long
-lifespans.  Dwarves make lots of noise wherever they go and cannot be
-thieves.  Dwarves can be good or neutral.
-Dwarves are resistant to magic, poison and disease, but cannot swim, and so
-are very vulnerable to drowning.  They can see in the dark with infravision.
-
+-1 CÜCE cüce~
+Cüceler Uzak Diyarlarýn kýsa boylu ama güçlü, uzun sakallarýyla meþhur
+ýrklarýndandýr. Pek zeki bir ýrk olmasa da uzun yaþam süreleri, onlarýn
+diyardaki bir çok ýrka göre daha bilge bir ýrk olmasýný saðlamýþtýr. Çeviklik
+bakýmýndan zayýf ve sessiz hareket etme konusunda baþarýz olduklarý için bazý
+sýnýflar için pek uygun deðildirler. Fakat hemen hemen hepsi güçlü ve alt
+etmesi zor savaþçýlardýr. Genel olarak maðaralarda ve daðlarda yaþamayý
+tercih ederler. Ama içlerinde þehirde yaþamayý ya da yaban hayatý sürmeyi
+tercih edenleri de vardýr. Taþ ve maden iþçiliðinde oldukça maharetlidirler.
+Fakat yüzme konusunda da bir o kadar beceriksizdirler. Büyüye, zehire ve
+hastalýklara karþý dirençleri oldukça yüksektir. Yer altýnda yaþamalarý ve
+deðerli madenlere olan düþkünlükleri onlarý Yeg ýrkýna karþý doðal bir düþman
+haline getirmiþtir. Yeglerden daha çok nefret ettikleri hiçbir varlýk yoktur
+diyarda ve bazý söylentilere göre kadim lisanlarýnda yeglerle ilgili yüze
+yakýn hakaret ve küfür mevcuttur.
 ~
 -1 ELF ELVES~
 
@@ -2312,68 +2319,73 @@ with infravision.  Elves must stay good to cast any spells they know.
 Elves who have turned to evil are frowned upon.
 
 ~
--1 'HALF-ELF' HALFELF HALFELVES~
-
-Half-elves are a cross-breed between a human and an çora. They are not quite
-as intelligent as pure elves but have a greater constitution. Like pure
-elves, half-elves see in the dark with infravision.
-
+-1 ÇORA çora~
+Uzak Diyarlarýn gözle görülmeyen, ateþten yaratýlmýþ varlýklarýdýr.
+Niyetleri önceden kestirilemez. Ýçlerinde merhamet dolu olanlarý da vardýr,
+diyara korku salanlarý da... Doðuþtan geliþmiþ görünmezliðe sahiptirler.
+Varlýklarý ateþten olduðu için ateþe karþý hiçbir ýrkýn olmadýðý kadar
+dayanýklýdýrlar. Sessiz hareket kabiliyetleri ve çeviklikleri sayesinde
+bazý sýnýflar için çok daha uygunlardýr. Karanlýk kuytu yerler, ormanlar,
+su kenarlarý gibi þehrin kalabalýðýndan uzak doðanýn sýnýrýnda yerlerde
+yaþamayý severler. Ama içlerinde nüfusun çoðunlukta olduðu þehirlerde
+yaþamayý tercih edenleri de vardýr.
 ~
--1 SVIRF SVIRFNEBLI DEEP-GNOME~
+-1 NAGA~
+Hint ve Budist metinlerde sýkça yer alan, en eski ve bilge ýrklardan biri
+kabul edilen Naga Sanskiritçe yýlan demektir. Genellikle yarý insan
+yarý yýlan olan Nagalara bugün bile Hindistan'da bereket getirmesi için
+tapýnýlmaktadýr. Hemen hemen her kültürde izleri vardýr.
 
-The Svirfnebli, also known as deep gnomes, have made their way into Anatolia as
-the paths to the Underdark have been found.  Slighty larger than their
-surface cousins, these gnomes are also stronger and a little more hearty from
-centuries of working stone.  The dedication to stone has made them not
-quite as adept mentally as their cousins, but yet they are still regarded
-as very wise.  With their singular dedication to the stone, naga
-must be neutral in all  aspects of their lives.  They have the same ability
-in learning the powers of items as their surface cousins.
+Nagalar tamamen yýlan, yýlan kafalý veya belden altý yýlan olabilir, bazý
+efsaneler onlarýn insanlardan çocuk sahibi olabildiðini anlatýr. Güçlü ve
+çekici yaratýklardýr; nehirlerin, maðaralarýn, kýymetli hazinelerin ve
+geçitlerin gizemli koruyucularý olarak görev alýrlar. Tehlikeli olsalar da
+dostluklarýný kazanmak büyük kazançlar getirir, özellikle de diþilerinin
+büyüleyici güzelliðe sahip olduðu söylenmektedir. Kötü karakterli olanlarý
+asuralar gibi yeraltýyla iliþkilendirilir ve göksel kuþ Garuda'nýn en büyük
+düþmanlarýdýr.
 
+Nagalar iki þey olabilirler: Bir kutsama veya lanet, bu sadece onlara
+kalmýþtýr. Yine de yýlan soyuna saygýda kusur etmemek gerekir, ne de olsa
+yerin içinde gizli bütün sýrlarý bilen onlardýr.
 ~
 -1 BÖRÜ~
-
-The Börü are a race descended from the great cats. For long years in their
-past, the Börü were enslaved by wizards to serve as familiars.  The scars
-of this servitude still show in the relative weakness and dull wits of the
-Börü.  They are renowned, however, for their agility and their "nine lives".
-It is said a Börü can withstand blows in battle (or from an angry master)
-that would kill a human outright.
-
-The thick fur of the Börü makes them resistent to cold, but also very
-vulnerable to fire.  They also abhor water and are liable to drown in it.
-Despite heavy modification by their former masters, the Börü retain the
-large claws and fangs of their ancestors.  This gives them the ability to
-inflict extra damage during a fight, but the claws are not retractable so
-it is difficult for a Börü to walk unnoticed.  The Börü are also famed for
-their street fighting ability.  The Börü do not have the discipline or wits
-to be pure magic-users, and some of the Börü still resent the mages, anyway.
-The wars of freedom were long ago, however, so many younger Börü are willing
-to forgive and forget, and some have even begun to dabble in the magic that
-once imprisoned them.
-
+Uzak Diyarlarýn yarý hayvan, yarý insan ýrklarýndandýr. Ýstediði zaman
+kurda dönüþebilme yeteneði olan bir ýrktýr. Genel olarak vahþi doðayý
+severler ve özgürlüklerine düþkündürler. Þehir ortamýnda normal
+insanlardan ayýrt etmek pek mümkün deðildir. Tehlike anýnda güçlü çevik
+bir kurda dönüþürler ve çevrelerine dehþet saçarlar. Dönüþtüklerinde
+hayvani içgüdülerle hareket ettikleri için tekinsizdirler. Ayrýca sahip
+olduklarý kürk nedeniyle ateþe karþý dayanýksýzdýrlar.
+Ýçgüdüsel olarak çevrelerinde olup biten þeyler konusunda (ses, koku,
+gizli kapýlar) diðer ýrklara göre farkýndalýklarý daha fazladýr.
 ~
 -1 YEG~
-
-With the recent excavations unearthing paths to the Underdark, the race of
-dark dwarves known as Yeg has made its way into Anatolia.  Like their
-surface cousins they are strong, though their evil ways have changed them
-in other areas.  Unlike their cousins, they are not known for working stone
-and metal, something which has made them less hearty over time.  They have
-become more dexterous through centuries of thievery and deceit.  All Yeg
-are evil.
-
+Uzak Diyarlarýn habis ruhlu ýrklarýndandýr. Yer altýnýn karanlýk
+dehlizlerini mesken edinen, yer üstündekilere korku salan, zulüm
+etmekten fazlasýyla haz alan, kýsa boylu, güçlü varlýklardýr. Gün
+ýþýðýndan mümkün olduðunca uzak dururlar.Geceleri av olarak seçtikleri
+masumlara sinsi tuzaklar kurarlar. Bazen sýrf eðlence için bazen de
+açlýklarýný gidermek için öldürürler. 
+Kadim lisanda Yeg, aç gözlü, doymak bilmeyen ruh demektir ve kadimler
+bu ismi boþa vermemiþtir. Deðerli madenlere ve öldürmeye karþý doymak
+bilmeyen bir istekleri vardýr. Yer altýnda olmalarý ve deðerli
+madenlere karþý olan düþkünlükleri onlarý cüce ýrkýna karþý doðal bir
+düþman haline getirmiþtir. Tadýný çok sevdikleri için, özellikle
+cücelerin bebeklerini kaçýrdýklarýna dair söylentiler vardýr. 
 ~
--1 'DARK-ELF' DARKELF DARKELVES DARK~
-
-Dark-elves are a race of renegade elves who have turned their energy toward
-evil.  They are inherently intelligent but have neglected intellectual
-studies and become very nimble from years of generations of thievery and
-mischief.  Like elves, dark-elves have infravision and can walk unnoticed.
-Dark elves must stay evil to cast any spells they might know.  Those who
-turn to good are frowned upon.  Dark-Elves are burned by the touch of
-mithril.
-
+-1 CÝREN ciren~
+Uzak Diyarlarýn yarý hayvan, yarý insan ýrklarýndandýr. Bir atýn gövdesine
+ve bacaklarýna sahip olan insansý varlýklardýr. Belden yukarýsý normal bir
+insandan farksýzdýr. Sahip olduklarý güçlü bacaklar ve hýzlarý onlarý
+diðer ýrklara göre daha çevik kýlar. Diðer yarý hayvan ýrklarda olduðu
+gibi vahþi doðada yaþamayý severler. Ormanlara karþý doðal bir baðlýlýklarý
+vardýr. Þehir ortamýndan, sahip olduklarý farklý dýþ görünüþleri ve
+insanlarýn aþaðýlayýcý tavýrlarý nedeniyle genelde uzak dururlar. Ýzin
+almadan bir cirene binmek ya da basit bir at muamelesi görmek cirenler
+arasýnda büyük bir saygýsýzlýk ve hakaret olarak kabul edilir ve onlarý
+en çok sinirlendiren þeylerden biridir. Bir cirenin öfkesini üstüne çekmek
+ise sadece aklý yarýmlarýn isteyeceði türden bir þeydir.
 ~
 -1 CÝREN ciren~
 
@@ -2403,13 +2415,22 @@ They have a specific spell called 'meld into stone'.
 
 ~
 -1  ASURA~
-Long hidden within the sanctity of their mountain caves, a race known in the
-past only as a myth, lies the civilization of the asuras. Built with the
-undying stamina of the mountains they reside in, these green skinned beasts
-often grow to obtain a state of health few other races believed possible.
-Hindered by their slow intellect and mobility, the asura society seems to
-have decided as a whole to rejoin the races of the realms, moving out of
-their sanctuaries in numbers reaching high into the thousands
+Asura Hint ve Budist mitlerindeki genellikle negatif eðilimler taþýyan,
+devasa yapýda ve dünyevi zevklere, özellikle de pahalý þeylere düþkün
+güçlü varlýklara verilen isimdir. Iran bölgesinde Ahura adýný
+almýþlardýr.
+
+Asuralar kimi zaman tanrýlarla savaþýr kimi zaman da karýþýklýða neden
+olurlar, boynuzlu ve uzun kuyruklu, iri diþleri aðýzlarýndan taþan
+yaratýklar olarak tasvir edilirler, efendi veya tanrý/yarýtanrý olarak
+kabul edildikleri olmuþsa da en çok tanýnan görüþ yeraltýnda hüküm
+sürdükleri ve yýkýcý olduklarý yönündedir. Yine de savaþ disiplinleri ve
+zekalarý nedeniyle takdir edilirler, Ýblis vb. sözcükler bu ýrk için
+yetersiz kalýr. Bir Asura'nýn saygýsý ancak onunla savaþarak kazanýlabilir
+çünkü savaþmayan kiþi köleleri olmayý kabul etmiþ demektir.
+
+Bir Asura'nýn arkadaþlýðý riskli, düþmanlýðý ise mutlaka ölümcüldür.
+Tabi ki bazý tanrýsal güçlere sahip deðilseniz.
 ~
 -1 'CLASS' 'CLASSES' 'CLASS HELP'~
 

@@ -5553,7 +5553,7 @@ void do_reboot( CHAR_DATA *ch, char *argument )
 	return;
       }
      reboot_counter = atoi(arg);
-     sprintf(buf,"Anatolia will reboot in %i ticks.\n\r",reboot_counter);
+     sprintf(buf,"Uzak Diyarlar %i tik sonra yeniden baþlatýlacak.\n\r",reboot_counter);
      send_to_char(buf,ch);
      return;
     }
