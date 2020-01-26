@@ -155,6 +155,7 @@ const	struct	cmd_type	cmd_table	[] =
   { "eðitim",		do_train,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
   { "ekipman",	do_equipment,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "emret",		do_order,	POS_RESTING,	 0,  LOG_NORMAL, 1,0},
+  { "eniyi",	do_eniyi,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "envanter",	do_inventory,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "estimate",	do_estimate,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
   { "etkiler",	do_affects_col,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },

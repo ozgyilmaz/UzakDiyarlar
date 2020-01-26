@@ -159,6 +159,7 @@ DECLARE_DO_FUN(	do_eat		);
 DECLARE_DO_FUN(	do_emote	);
 DECLARE_DO_FUN( do_enchant      );
 DECLARE_DO_FUN( do_endure       );
+DECLARE_DO_FUN( do_eniyi       );
 DECLARE_DO_FUN( do_enter	);
 DECLARE_DO_FUN( do_envenom	);
 DECLARE_DO_FUN(	do_equipment	);

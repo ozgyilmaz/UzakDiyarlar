@@ -4424,7 +4424,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	send_to_char("  set char <name> <field> <value>\n\r",ch);
 	send_to_char( "  Field being one of:\n\r",			ch );
 	send_to_char( "    str int wis dex con cha sex class level\n\r",ch );
-	send_to_char( "    race gold hp mana move practice align\n\r",	ch );
+	send_to_char( "    race gold silver hp mana move practice align\n\r",	ch );
 	send_to_char( "    train thirst drunk full hometown ethos\n\r",	ch );
 
 /*** Added By KIO ***/
@@ -4628,6 +4628,12 @@ void do_mset( CHAR_DATA *ch, char *argument )
     if ( !str_prefix( arg2, "gold" ) )
     {
 	victim->gold = value;
+	return;
+    }
+	
+    if ( !str_prefix( arg2, "silver" ) )
+    {
+	victim->silver = value;
 	return;
     }
 

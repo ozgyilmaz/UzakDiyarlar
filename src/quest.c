@@ -1257,11 +1257,10 @@ void quest_update(void)
 
 void do_tell_quest( CHAR_DATA *ch, CHAR_DATA *victim, char *argument )
 {
-char buf[MAX_STRING_LENGTH];
 
-sprintf(buf,"%s anlatýyor '%s'\n\r",victim->name,argument);
-        send_to_char( buf, ch );
-        return;
+	    act_color("$N: $C$t$c",ch,argument,victim,TO_CHAR,POS_DEAD, CLR_MAGENTA_BOLD );
+		
+		return;
 }
 
 CHAR_DATA *get_quest_world( CHAR_DATA *ch, MOB_INDEX_DATA *victim)
@@ -1278,4 +1277,186 @@ CHAR_DATA *get_quest_world( CHAR_DATA *ch, MOB_INDEX_DATA *victim)
     }
 
     return NULL;
+}
+
+void do_eniyi(CHAR_DATA *ch,char *argument)
+{
+	CHAR_DATA *questman;
+	char buf[MAX_STRING_LENGTH];
+	int bolge=0,seviye=0,zz1zz=0,zz2zz=0,zz3zz=0,zararzari=0,ac1ac=0,ac2ac=0,ac3ac=0,actoplam=0;
+	char arg1 [MAX_INPUT_LENGTH];
+	OBJ_DATA *obj,*zz1,*zz2,*zz3,*ac1,*ac2,*ac3;
+	AFFECT_DATA *paf;
+
+	for ( questman = ch->in_room->people; questman != NULL; questman = questman->next_in_room )
+    {
+	if (!IS_NPC(questman)) continue;
+        if (questman->spec_fun == spec_lookup( (char*)"spec_questmaster" )) break;
+    }
+
+    if (questman == NULL || questman->spec_fun != spec_lookup( (char*)"spec_questmaster" ))
+    {
+        send_to_char("Odada bu iþleri yapan bir görevci göremiyorum.\n\r", ch);
+        return;
+    }
+
+if ( argument[0] == '\0' )
+	{
+		send_to_char("Hangi bölgene giyeceðin ekipmanlar hakkýnda bilgi istiyorsun?\n\r",ch);
+		return;
+	}
+	argument = one_argument(argument, arg1);
+
+	seviye = ch->level;
+	bolge=-1;
+	if(!strcmp(arg1,"parmak"))
+		bolge=ITEM_WEAR_FINGER;
+	else if(!strcmp(arg1,"boyun"))
+		bolge=ITEM_WEAR_NECK;
+	else if(!strcmp(arg1,"gövde"))
+		bolge=ITEM_WEAR_BODY;
+	else if(!strcmp(arg1,"kafa"))
+		bolge=ITEM_WEAR_HEAD;
+	else if(!strcmp(arg1,"bacaklar"))
+		bolge=ITEM_WEAR_LEGS;
+	else if(!strcmp(arg1,"ayaklar"))
+		bolge=ITEM_WEAR_FEET;
+	else if(!strcmp(arg1,"eller"))
+		bolge=ITEM_WEAR_HANDS;
+	else if(!strcmp(arg1,"kollar"))
+		bolge=ITEM_WEAR_ARMS;
+	else if(!strcmp(arg1,"vücut"))
+		bolge=ITEM_WEAR_ABOUT;
+	else if(!strcmp(arg1,"bel"))
+		bolge=ITEM_WEAR_WAIST;
+	else if(!strcmp(arg1,"bilek"))
+		bolge=ITEM_WEAR_WRIST;
+	else if(!strcmp(arg1,"süzülen"))
+		bolge=ITEM_WEAR_FLOAT;
+	else
+	{
+		send_to_char("Vücudunda böyle bir bölge göremiyorum!\n\r",ch);
+		return;
+	}
+	if(ch->gold<((ch->level/2)+1))
+	{
+		send_to_char("Yeterli paran yok, bilgi veremem.\n\r",ch);
+		return;
+	}
+
+	zz1=NULL;
+	zz2=NULL;
+	zz3=NULL;
+	ac1=NULL;
+	ac2=NULL;
+	ac3=NULL;
+	
+	act("$n $Z ekipman bilgisi istiyor.", ch, NULL, questman, TO_ROOM);
+
+	for( obj=object_list; obj!=NULL; obj = obj->next )
+	{
+		zararzari=0;
+		actoplam=0;
+		if ( CAN_WEAR(obj,ITEM_TAKE) &&
+			 CAN_WEAR( obj, bolge ) &&
+			 obj->level <= seviye)
+		{
+			if (!obj->enchanted)
+			{
+				for ( paf = obj->pIndexData->affected; paf != NULL; paf = paf->next )
+				{
+					if ( paf->location != APPLY_NONE && paf->modifier != 0 )
+					{
+						if( (paf->location==APPLY_DAMROLL) || (paf->location==APPLY_HITROLL) )
+						{
+							zararzari += paf->modifier;
+						}
+					}
+				}//for
+				if( (zararzari>=zz1zz) )
+				{
+					zz3=zz2;
+					zz2=zz1;
+					zz1=obj;
+					zz1zz=zararzari;
+				}
+				else if( (zararzari>=zz2zz) )
+				{
+					zz3=zz2;
+					zz2=obj;
+					zz2zz=zararzari;
+				}
+				else if( (zararzari>=zz3zz) )
+				{
+					zz3=obj;
+					zz3zz=zararzari;
+				}
+
+			}//if (!obj->enchanted)
+			if(obj->item_type==ITEM_ARMOR)
+			{
+				actoplam = obj->value[0] + obj->value[1] + obj->value[2] + obj->value[3];
+				if( (actoplam>=ac1ac))
+				{
+					ac3=ac2;
+					ac2=ac1;
+					ac1=obj;
+					ac1ac=actoplam;
+				}
+				else if ( (actoplam>=ac2ac) )
+				{
+					ac3=ac2;
+					ac2=obj;
+					ac2ac=actoplam;
+				}
+				else if( (actoplam>=ac3ac))
+				{
+					ac3=obj;
+					ac3ac=actoplam;
+				}
+			}
+		}//if can_wear
+	}//for
+	if(zz1== NULL && ac1==NULL)
+	{
+		do_tell_quest(ch,questman,(char*)"Þu an birþey hatýrlayamýyorum. Sanýrým yaþlanýyorum.");
+		do_tell_quest(ch,questman,(char*)"Daha sonra tekrar uðra lütfen.");
+		return;
+	}
+	ch->gold -= (ch->level/2)+1;
+	do_tell_quest(ch,questman,(char*)"Bir düþüneyim... Evet sanýrým birþeyler hatýrladým.");
+	do_tell_quest(ch,questman,(char*)"Bazý ekipmanlar hatýrlýyorum, senin giyebileceðin seviyede ekipmanlar.");
+
+	if(zz1 != NULL)
+	{
+		do_tell_quest(ch,questman,(char*)"Vuruþlarýnýn gücünü ve isabetini artýracak ekipmanlar. Mesela...");
+		sprintf(buf,"%s",zz1->short_descr);
+		do_tell_quest(ch,questman,(char*)buf);
+	}
+	if(zz2 != NULL)
+	{
+		sprintf(buf,"%s",zz2->short_descr);
+		do_tell_quest(ch,questman,(char*)buf);
+	}
+	if(zz3 != NULL)
+	{
+		sprintf(buf,"%s",zz3->short_descr);
+		do_tell_quest(ch,questman,(char*)buf);
+	}
+	if(ac1 != NULL)
+	{
+		do_tell_quest(ch,questman,(char*)"Bir de seni koruyacak ekipmanlar var aklýma gelen. Mesela...");
+		sprintf(buf,"%s",ac1->short_descr);
+		do_tell_quest(ch,questman,(char*)buf);
+	}
+	if(ac2 != NULL)
+	{
+		sprintf(buf,"%s",ac2->short_descr);
+		do_tell_quest(ch,questman,(char*)buf);
+	}
+	if(ac3 != NULL)
+	{
+		sprintf(buf,"%s",ac3->short_descr);
+		do_tell_quest(ch,questman,(char*)buf);
+	}
 }
