@@ -301,38 +301,38 @@ const 	struct	race_type	race_table	[]		=
     },
 
     { /* 7 */
-        {"gnome","gnom"},        TRUE, 		0,
-        0,              AFF_INFRARED,   0,
-        0,              RES_POISON,     VULN_BASH,
-        A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
-    },
-
-    { /* 8 */
         {"börü","börü"},        TRUE, 		0,
         0,              AFF_INFRARED,   OFF_TAIL,
         0,              RES_LIGHT|RES_COLD,     VULN_FIRE|VULN_DROWNING,
         A|H|M|V,        A|C|D|E|F|H|J|K|Q|U|V
     },
 
-    { /* 9 */
-	{"githyanki","githyanki"},	TRUE,  		0,
-	0,		AFF_INFRARED,	0,
-	0, 		0,		0,
-	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
-    },
-
-    { /* 10  */
+    { /* 8  */
 	{"ciren","ciren"},	TRUE, 		0,
 	0,		AFF_INFRARED,	0,
 	0,		RES_WOOD|RES_DISEASE,	0,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    {  /* 11 */
+    {  /* 9 */
 	{"asura","asura"},	TRUE, 		0,/*DETECT_HIDDEN*/
 	0,		AFF_REGENERATION|AFF_INFRARED,	OFF_BERSERK,
  	0,	RES_CHARM|RES_BASH,	VULN_FIRE|VULN_ACID,
 	A|B|H|M|V,		A|B|C|D|E|F|G|H|I|J|K|U|V
+    },
+	
+    { /* 10 */
+        {"gnome","gnom"},        TRUE, 		0,
+        0,              AFF_INFRARED,   0,
+        0,              RES_POISON,     VULN_BASH,
+        A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
+    },
+	
+    { /* 11 */
+	{"githyanki","githyanki"},	TRUE,  		0,
+	0,		AFF_INFRARED,	0,
+	0, 		0,		0,
+	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
     { /* 12 */
