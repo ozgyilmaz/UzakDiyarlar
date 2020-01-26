@@ -242,6 +242,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
     	fprintf( fp, "Bankg %ld\n", ch->pcdata->bank_g );
     else
     	fprintf( fp, "Bankg %ld\n", ch->pcdata->bank_g );
+	fprintf( fp, "Dilek %s\n", 	print_flags(ch->pcdata->dilek)	);
     fprintf( fp, "Exp  %d\n",	ch->exp			);
     if (ch->act != 0)
 	fprintf( fp, "Act  %s\n",   print_flags(ch->act));
@@ -1095,6 +1096,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	    KEY( "Desc",	ch->description,	fread_string( fp ) );
 	    KEY( "Dead",	ch->pcdata->death,	fread_number( fp ) );
     	    KEY( "Detect",	dev_null,		fread_flag(fp)     );
+		KEY( "Dilek",	ch->pcdata->dilek, 		fread_flag( fp)	  );
 	    break;
 
 	case 'E':

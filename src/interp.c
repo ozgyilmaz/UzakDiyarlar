@@ -141,6 +141,7 @@ const	struct	cmd_type	cmd_table	[] =
   { "dayaným",         do_endure,      POS_STANDING,    0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
   { "deðer",		do_value,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
   { "deny",		do_deny,	POS_DEAD,	L1,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { "dilek",	do_dilek,       POS_RESTING,     0,  LOG_NORMAL, 1 , CMD_KEEP_HIDE | CMD_GHOST},
   { "dinlen",		do_rest,	POS_SLEEPING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
   { "direnç",     do_resistance,  POS_FIGHTING,    0,  LOG_NORMAL, 0,0 },
   { "disconnect",	do_disconnect,	POS_DEAD,	L3,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },

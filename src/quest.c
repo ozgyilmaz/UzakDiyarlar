@@ -734,6 +734,12 @@ act ("$E görevi bitirdiðini haber veriyorsun.",ch, NULL, questman, TO_CHAR);
 		reward = 100 + dice( level, 20);
 		reward = UMAX( 180 , reward );
 		pointreward = number_range(20,40);
+		
+		if(IS_SET(ch->pcdata->dilek,DILEK_FLAG_GOREV))
+		{
+				printf_to_char( ch , "{CGörev dileðin sayesinde kazandýðýn GP artýyor.{x\n\r" );
+				pointreward *= 2;
+		}
 
     sprintf(buf, "Tebrikler!");
     do_tell_quest(ch,questman,buf);
@@ -779,6 +785,12 @@ act ("$E görevi bitirdiðini haber veriyorsun.",ch, NULL, questman, TO_CHAR);
 
 		    reward = 200 + number_range(1, 20 * ch->level);
 		    pointreward = number_range(15,40);
+			
+			if(IS_SET(ch->pcdata->dilek,DILEK_FLAG_GOREV))
+			{
+				printf_to_char( ch , "{CGörev dileðin sayesinde kazandýðýn GP artýyor.{x\n\r" );
+				pointreward *= 2;
+			}
 
         act("$p objesini $E veriyorsun.",ch, obj, questman, TO_CHAR);
 				act("$n $p objesini $E veriyor.",ch, obj, questman, TO_ROOM);

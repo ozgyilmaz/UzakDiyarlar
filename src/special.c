@@ -115,6 +115,7 @@ DECLARE_SPEC_FUN(       spec_stalker            );
 DECLARE_SPEC_FUN(       spec_questmaster        );
 DECLARE_SPEC_FUN(       spec_assassinater       );
 DECLARE_SPEC_FUN(       spec_repairman		);
+DECLARE_SPEC_FUN(       spec_wishmaster		);
 DECLARE_SPEC_FUN(	spec_captain		);
 DECLARE_SPEC_FUN(       spec_headlamia          );
 /* cabal guardians */
@@ -160,6 +161,7 @@ const   struct  spec_type    spec_table[] =
     {   "spec_questmaster",             spec_questmaster        },
     {   "spec_assassinater",            spec_assassinater	},
     {   "spec_repairman",		spec_repairman		},
+	{   "spec_wishmaster",		spec_wishmaster		},
     {	"spec_captain",			spec_captain		},
     {   "spec_headlamia",		spec_headlamia		},
     {	"spec_fight_enforcer",		spec_fight_enforcer	},
@@ -1968,4 +1970,22 @@ bool spec_fight_hunter( CHAR_DATA *ch )
     say_spell(ch,sn);
     (*skill_table[sn].spell_fun) ( sn, ch->level, ch, victim,TARGET_CHAR);
     return TRUE;
+}
+
+bool spec_wishmaster( CHAR_DATA *ch )
+{
+	int i;
+    if ( !IS_AWAKE(ch) )
+        return FALSE;
+	i=number_range(0,150);
+	switch(i)
+	{
+		case 0:
+			do_say(ch, (char*)"Bir dilek tutmak istemez misin? Öyleyse dilek listeme bakmalýsýn.");
+			return TRUE;
+		case 1:
+			do_say(ch, (char*)"Uygun bir ücrete harika bir dilek dilemek istemez misin? Listeme bakmalýsýn.");
+			return TRUE;
+	}
+    return FALSE;
 }

@@ -1940,6 +1940,12 @@ struct	kill_data
 #define WIZ_SPAM		(T)
 
 /*
+ * Dilek Flagleri
+ */
+#define DILEK_FLAG_TECRUBE				(A)
+#define DILEK_FLAG_GOREV				(B)
+
+/*
  * language staff
  */
 
@@ -2219,6 +2225,7 @@ struct	pc_data
     sh_int		time_flag;	/* time log problem */
     int			log_date[MAX_TIME_LOG];	/* last MTL days */
     int			log_time[MAX_TIME_LOG];	/* min.s of playing each day */
+	int			dilek;
 };
 
 

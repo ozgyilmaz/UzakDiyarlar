@@ -322,14 +322,14 @@ const 	struct	race_type	race_table	[]		=
     },
 	
     { /* 10 */
-        {"gnome","gnom"},        TRUE, 		0,
+        {"gnome","gnom"},        FALSE, 		0,
         0,              AFF_INFRARED,   0,
         0,              RES_POISON,     VULN_BASH,
         A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
     },
 	
     { /* 11 */
-	{"githyanki","githyanki"},	TRUE,  		0,
+	{"githyanki","githyanki"},	FALSE,  		0,
 	0,		AFF_INFRARED,	0,
 	0, 		0,		0,
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K

@@ -144,6 +144,7 @@ DECLARE_DO_FUN(	do_deposit	);
 DECLARE_DO_FUN(	do_description	);
 DECLARE_DO_FUN( do_detect_hidden);
 DECLARE_DO_FUN( do_dig		);
+DECLARE_DO_FUN( do_dilek	);
 DECLARE_DO_FUN( do_dirt		);
 DECLARE_DO_FUN(	do_disarm	);
 DECLARE_DO_FUN(	do_disconnect	);

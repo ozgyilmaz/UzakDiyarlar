@@ -2757,6 +2757,13 @@ int xp_compute(CHAR_DATA *gch, CHAR_DATA *victim, int total_levels,int members)
 	  }
 	 }
    }
+   
+   if(IS_SET(gch->pcdata->dilek,DILEK_FLAG_TECRUBE))
+   	{
+   		printf_to_char( gch , "{CTecrübe dileðin sayesinde kazandýðýn TP artýyor.{x\n\r" );
+   		xp *= 2;
+   	}
+	
     return xp;
 }
 
