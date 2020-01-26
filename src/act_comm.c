@@ -142,6 +142,12 @@ void do_channels( CHAR_DATA *ch, char *argument)
     printf_to_char(ch,"AÇIK\n\r");
     else
     printf_to_char(ch,"KAPALI\n\r");
+	
+    printf_to_char(ch,"{kd{x          ");
+    if (!IS_SET(ch->comm,COMM_NOKD))
+    printf_to_char(ch,"AÇIK\n\r");
+    else
+    printf_to_char(ch,"KAPALI\n\r");
 
     printf_to_char(ch,"{tsessiz modu{x     ");
     if (IS_SET(ch->comm,COMM_QUIET))
@@ -265,6 +271,72 @@ void do_immtalk( CHAR_DATA *ch, char *argument )
 	{
     act_new("{i[{I$n{i]: $t{x",ch,argument,d->character,TO_VICT,POS_DEAD);
 	}
+    }
+
+    return;
+}
+
+
+void do_kd( CHAR_DATA *ch, char *argument )
+{
+    DESCRIPTOR_DATA *d;
+    char buf[MAX_INPUT_LENGTH];
+
+	if( IS_NPC( ch ) )
+		return;
+	
+    if ( argument[0] == '\0' )
+    {
+      if (IS_SET(ch->comm,COMM_NOKD))
+      {
+        printf_to_char(ch,"KD kanalý açýldý.\n\r");
+	REMOVE_BIT(ch->comm,COMM_NOKD);
+      }
+      else
+      {
+        printf_to_char(ch,"KD kanalý kapandý.\n\r");
+	SET_BIT(ch->comm,COMM_NOKD);
+      }
+      return;
+    }
+
+	if ( IS_AFFECTED(ch, AFF_CHARM) &&   ch->master != NULL )
+    {
+		printf_to_char( ch , "Teshirliyken kd kanalýný kullanamazsýn.\n\r" );
+		return;
+    }
+
+	if ( IS_SET(ch->comm, COMM_NOKD) )
+    {
+	printf_to_char(ch,"Önce kd kanalýný açmalýsýn.\n\r" );
+	return;
+    }
+
+    if (argument[0] == '\0' )
+    {
+      send_to_char("Oyunculara ne gibi bi'þey söyleyeceksin?.\n\r",ch);
+      return;
+    }
+
+    if (is_affected(ch,gsn_garble))
+      garble(buf,argument);
+    else
+      strcpy(buf,argument);
+
+     act_color( "$n kd: $C$T$c", ch, NULL, buf, TO_CHAR,POS_DEAD, CLR_MAGENTA_BOLD );
+
+    for ( d = descriptor_list; d != NULL; d = d->next )
+    {
+		if( d->connected == CON_PLAYING )
+		{
+			if( d->character != ch )
+			{
+				if( !IS_SET( d->character->comm , COMM_NOKD) )
+				{
+					printf_to_char ( d->character , "%s kd: {G%s{x\n\r" , ch->name , buf  );
+				}
+			}
+		}
     }
 
     return;
@@ -2227,3 +2299,4 @@ void update_total_played( CHAR_DATA *ch )
    ch->logon = current_time;
 
 }
+

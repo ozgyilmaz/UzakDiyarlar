@@ -1895,6 +1895,7 @@ struct	kill_data
 #define COMM_NOGOSSIP           (E)
 #define COMM_NOQUESTION         (F)
 #define COMM_NOMUSIC            (G)
+#define COMM_NOKD		(H)
 #define COMM_NOQUOTE		(I)
 #define COMM_SHOUTSOFF		(J)
 
