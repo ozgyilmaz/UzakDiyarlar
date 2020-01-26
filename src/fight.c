@@ -2674,13 +2674,16 @@ int xp_compute(CHAR_DATA *gch, CHAR_DATA *victim, int total_levels,int members)
     	xp = 15 * xp / (gch->level + 4);
 
     /* randomize the rewards */
-    xp = number_range (xp * 3/4, xp * 5/4);
+    xp = number_range (xp * 8/9, xp * 11/10);
 
     /* adjust for grouping */
     xp = xp * gch->level/total_levels;
 
-    if (members == 2 || members == 3)
-      xp *= ( 3 / 2);
+    if (members == 2)
+      xp *= ( 4/2 ); 
+
+    if (members == 3)
+      xp *= ( 6/2 );
 
     if (gch->level < 15)
 	 xp = UMIN((250 + dice(1,25)),xp);
