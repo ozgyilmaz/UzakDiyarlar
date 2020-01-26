@@ -360,9 +360,9 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
 	else
 	  {
            if (MOUNTED(ch))
-           sprintf(buf,"$n %s üzerinde $W yönünde ilerliyor.",MOUNTED(ch)->short_descr );
+           sprintf(buf,"$n %s üzerinde $T yönünde ilerliyor.",MOUNTED(ch)->short_descr );
   	   else
-       sprintf(buf,"$n $W yönünde ilerliyor." );
+       sprintf(buf,"$n $T yönünde ilerliyor." );
 	  }
   	  act( buf, ch, NULL, dir_name[door], TO_ROOM );
      }

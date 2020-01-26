@@ -116,15 +116,15 @@ EF 0 0 0
 stand stand none 0
 0 0 medium 0
 #16007
-lefur derin gnom~
+lefur naga~
 Lefur~
-Kahverengimsi gri bir gnom dikkatle seni izliyor.
+Kahverengimsi gri bir naga dikkatle seni izliyor.
 ~
-Before you stands a svirfneblin, a deep gnome.  Much like a regular gnome
+Before you stands a naga.  Much like a regular gnome
 the only real difference is the fact that this gnome's skin is a brownish grey
 and he is going slightly bald.
 ~
-gnome~
+naga~
 AC E -500 0
 19 0 3d9+308 5d5+1000 2d7+5 punch
 -4 -4 -4 5
@@ -136,7 +136,7 @@ stand stand male 0
 Tüccar Isdarl~
 Tüccar bir Isdarl kendi iþleriyle meþgul oluyor.
 ~
-A black-skinned and pale-haired elf stands before you heading somewhere
+A black-skinned and pale-haired çora stands before you heading somewhere
 with a purpose to sell his goods.  Although he looks skinny he looks very
 deadly and quick.
 ~
@@ -148,15 +148,15 @@ EIK 0 0 0
 stand stand male 0
 0 0 medium 0
 #16009
-cüce degnar~
-Degnar~
-Karanlýk bir cüce etrafta dolanýyor.
+yeg~
+Yeg~
+Karanlýk bir yeg etrafta dolanýyor.
 ~
 Before you stands an emaciated, evil-visaged dwarf.  His skin is dark grey.
 He wears clothing that is a dark grey, he seems to blend into his
 surroundings.
 ~
-dwarf~
+yeg~
 A C -600 0
 21 0 4d10+360 5d5+1000 4d4+5 pound
 -5 -5 -5 5
@@ -365,16 +365,16 @@ EFIKN 0 0 0
 stand stand male 0
 0 0 medium 0
 #16022
-hami degnar~
-Degnar hamisi~
-Bir degnar burada oturmuþ sana bakarken bir yandan da ale yudumluyor.
+hami yeg~
+Yeg hamisi~
+Bir yeg burada oturmuþ sana bakarken bir yandan da ale yudumluyor.
 ~
-This duergar stares right back at you as you check him over.  He would
+This yeg stares right back at you as you check him over.  He would
 stand about four feet tall at max you figure.  Built like an ox this guy could
 easily pick you up.  You figure he frequents the Gemstone since he just
 seems to fit in.
 ~
-human~
+yeg~
 AG E -500 0
 11 0 2d8+134 5d5+100 1d10+2 punch
 1 1 1 7
@@ -814,15 +814,15 @@ CDEFIJK 0 0 0
 stand stand male 0
 0 0 medium 0
 #16050
-degnar~
+yeg limbeck~
 Limbeck~
-Serüvenci bir degnar burada oturmuþ etrafýndakilere kahramanlýk öykülerini anlatýyor.
+Serüvenci bir yeg burada oturmuþ etrafýndakilere kahramanlýk öykülerini anlatýyor.
 ~
-Before you sits a duergar of impressive build.  From the mutterings around
+Before you sits a yeg of impressive build.  From the mutterings around
 you know his name is Limbeck, a hero down here.  He has reputedly killed
 a purple worm single handed.
 ~
-human~
+yeg~
 AB J -500 0
 33 0 10d10+1100 5d5+1000 6d4+10 punch
 -11 -11 -11 3
@@ -1011,12 +1011,12 @@ ABCT 0 0 0
 stand stand male 0
 EIK 0 medium 0
 #16063
-elf köle~
-Elf köle~
-Elf bir köle emirlere hazýr bekliyor.
+çora köle~
+Çora köle~
+Çora bir köle emirlere hazýr bekliyor.
 ~
-The elven slave looks as if he would defend his master, if he had to. ~
-elf~
+The çora slave looks as if he would defend his master, if he had to. ~
+çora~
 ABC 0 0 0
 24 0 5d10+500 5d5+1000 2d10+6 punch
 -6 -6 -6 4
@@ -1131,9 +1131,9 @@ EIKN 0 0 0
 stand stand male 0
 0 0 medium 0
 #16071
-degnar savaþçý~
+yeg savaþçý~
 Emba~
-Bir degnar savaþçýsý arkadaþlarýyla birlikte ale içiyor.
+Bir yeg savaþçýsý arkadaþlarýyla birlikte ale içiyor.
 ~
 This warrior's name is Emba. Although this group is a strange sight in the
 Underdark due to their different races they work well together.  You
@@ -1141,7 +1141,7 @@ wonder if this group is an indication that the under world races may be
 getting closer together, which would be a very bad thing for the surface
 races.
 ~
-human~
+yeg~
 ABT 0 -800 0
 17 0 3d9+258 5d5+1000 3d4+4 slash
 -3 -3 -3 6
@@ -1199,11 +1199,11 @@ CDEFIJK 0 0 0
 stand stand male 0
 0 0 medium 0
 #16075
-degnar Raesarnt~
+yeg Raesarnt~
 Raesarnt~
-Degnar demircisi Raesarnt, sabýrla seni bekliyor.
+Yeg demircisi Raesarnt, sabýrla seni bekliyor.
 ~
-Raesarnt is a duergar who is now making a bundle in dealing with armour
+Raesarnt is a yeg who is now making a bundle in dealing with armour
 and selling it at a ridiculous price.  Raesarnt is a stocky little fellow who
 obviously has been through a lot in his life.  He walks with a quiet
 confidence of one who has seen everything and knows nothing can best
@@ -1237,13 +1237,13 @@ Jiestis~
 Jiestis hiçbir þey çalmadýðýndan ve aldýklarýnýn parasýný ödediðinden emin
 olmak için seni izliyor.
 ~
-Jiestis is a svirfneblin, a deep gnome.  He sells many varieties of roots and
+Jiestis is a naga.  He sells many varieties of roots and
 mushrooms to those of the Underdark.  It is rumoured that some of his
 food has healing properties.  Jiestis is a small figure who is easy to
 overlook, yet he seems to be very very powerful, not a person to mess
 with.
 ~
-human~
+naga~
 AB D 0 0
 49 0 50d10+4000 5d5+1000 4d10+18 pound
 -19 -19 -19 1
@@ -1251,15 +1251,15 @@ EIK 0 0 0
 stand stand male 0
 0 0 medium 0
 #16078
-lefur gnom~
+naga lefur~
 Lefur~
-Bir lefur sana kin ve güvensizlik dolu bakýþlar atýyor.
+Bir naga sana kin ve güvensizlik dolu bakýþlar atýyor.
 ~
-This svirfneblin or deep gnome has taken sanctuary in the embassy.  By
+This naga has taken sanctuary in the embassy.  By
 the way he is acting you figure he is running from something.  He is
 dressed is dark grey clothing and stands a good five feet tall.
 ~
-human~
+naga~
 AG 0 -500 0
 17 0 3d9+258 5d5+1000 3d4+4 punch
 -3 -3 -3 6
@@ -1267,15 +1267,15 @@ EIK 0 0 0
 stand stand male 0
 0 0 medium 0
 #16079
-lefur yüksek rütbeli~
-Yüksek rütbeli Lefur~
-Yüksek rütbeli bir lefur geliþinle þaþýrmýþ görünüyor.
+naga yüksek rütbeli~
+Yüksek rütbeli naga~
+Yüksek rütbeli bir naga geliþinle þaþýrmýþ görünüyor.
 ~
-This is a svirfneblin dignitary who is using the embassy as a place of rest.
+This is a naga dignitary who is using the embassy as a place of rest.
 He has just been rather shaken up by his visit to the drow city and has
 come here to find comfort in the safe walls of this building.  He is dressed
 in different shades of grey and sports a nice looking necklace ~
-human~
+naga~
 AG 0 -500 0
 16 0 3d9+233 5d5+1000 2d6+4 punch
 -2 -2 -2 6
@@ -1684,9 +1684,9 @@ EFNU 0 0 0
 stand stand male 0
 0 0 medium 0
 #16105
-degnar tüccar~
+yeg tüccar~
 Gulthac~
-Güçlü bir degnar tüccar burada tuhaf yaratýklar satýn almak için bekliyor.
+Güçlü bir yeg tüccar burada tuhaf yaratýklar satýn almak için bekliyor.
 ~
 This is Gulthac who has a booming trade dealing with all sorts of
 grotesque creatures, like the ones that Eurandus creates.  He is a powerful
@@ -1826,11 +1826,11 @@ lefur dövüþçü~
 Hangharid~
 Bir lefur dövüþçü yatakta dinleniyor.
 ~
-This is Hangharid, a svirfneblin fighter.  He has vanquished many foes and
+This is Hangharid, a naga fighter.  He has vanquished many foes and
 all his enemies fear him.  Even though he is a gnome, he has strength that
 rivals that of an ogre.
 ~
-human~
+naga~
 ABT 0 -500 0
 24 0 5d10+500 5d5+1000 2d10+6 punch
 -6 -6 -6 4
@@ -1852,11 +1852,11 @@ EIK 0 0 0
 stand stand male 0
 0 0 medium 0
 #16115
-degnar dövüþçü~
+yeg dövüþçü~
 Wismarel~
-Bir degnar dövüþçü kýlýcýný cilalýyor.
+Bir yeg dövüþçü kýlýcýný cilalýyor.
 ~
-This is Wismarel, a duergar fighter.  Wismarel is here to find his fortune
+This is Wismarel, a yeg fighter.  Wismarel is here to find his fortune
 and hopes to find many powerful magical items.
 ~
 human~
@@ -2149,9 +2149,9 @@ A
 A
 19 5
 #16007
-bakýr-elf kýlýç karanlýk~
+bakýr-çora kýlýç karanlýk~
 Karanlýðýn kýlýcý~
-Bir bakýr-elf býçaðý sanki etrafýna karanlýk yayýyor gibi.~
+Bir bakýr-çora býçaðý sanki etrafýna karanlýk yayýyor gibi.~
 steel~
 weapon C AN
 sword 4 4 slice 0
@@ -2165,7 +2165,7 @@ A
 #16008
 gri miðfer~
 Koyu gri miðfer~
-Duergar yapýmý bir miðfer bir kenarda terk edilmiþ duruyor.~
+Yeg yapýmý bir miðfer bir kenarda terk edilmiþ duruyor.~
 steel~
 armor G AE
 5 5 5 0 0
@@ -2641,8 +2641,8 @@ A
 A
 19 4
 #16046
-bakýr-elf zincirzýrh~
-Siyah bakýr-elf zincirzýrhý~
+bakýr-çora zincirzýrh~
+Siyah bakýr-çora zincirzýrhý~
 Siyah bir zincirzýrh bulunmaya hazýr bir halde yere uzanmýþ.~
 iron~
 armor B AD
@@ -2653,8 +2653,8 @@ A
 A
 13 4
 #16047
-bakýr-elf kýlýcý kýlýç~
-Bir bakýr-elf kýlýcý~
+bakýr-çora kýlýcý kýlýç~
+Bir bakýr-çora kýlýcý~
 Koyu renk bir kýlýç yerde uzanýyor.~
 steel~
 weapon G AN
@@ -2665,8 +2665,8 @@ A
 A
 19 1
 #16048
-bakýr-elf hançeri~
-Bir bakýr-elf hançeri~
+bakýr-çora hançeri~
+Bir bakýr-çora hançeri~
 Koyu renk bir hançer yerde uzanýyor.~
 steel~
 weapon G AN
@@ -2677,8 +2677,8 @@ A
 A
 19 1
 #16049
-bakýr-elf gürzü~
-Bir bakýr-elf gürzü~
+bakýr-çora gürzü~
+Bir bakýr-çora gürzü~
 Koyu renk bir gürz yerde uzanýyor.~
 wood~
 weapon G AN
@@ -2689,9 +2689,9 @@ A
 A
 19 2
 #16050
-duergar zýrhý~
-Duergar zýrhý~
-duergar yapýmý bir göðüs zýrhý burada hazýr bekliyor~
+yeg zýrhý~
+Yeg zýrhý~
+Yeg yapýmý bir göðüs zýrhý burada hazýr bekliyor~
 brass~
 armor G AD
 5 5 5 0 0
@@ -2699,9 +2699,9 @@ armor G AD
 A
 17 -5
 #16051
-duergar miðferi~
-Bir duergar miðferi~
-Duergar yapýmý bir miðfer burada hazýr bekliyor.~
+yeg miðferi~
+Bir yeg miðferi~
+Yeg yapýmý bir miðfer burada hazýr bekliyor.~
 brass~
 armor G AE
 3 3 3 0 0
@@ -2709,9 +2709,9 @@ armor G AE
 A
 17 -3
 #16052
-duergar kalkaný~
-Bir duergar kalkaný~
-Duergar stili bir kalkan burada hazýr bekliyor.~
+yeg kalkaný~
+Bir yeg kalkaný~
+Yeg stili bir kalkan burada hazýr bekliyor.~
 brass~
 armor G AJ
 3 3 3 0 0
@@ -2719,8 +2719,8 @@ armor G AJ
 A
 17 -2
 #16053
-duergar bacaklýklarý~
-Duergar bacaklýklarý~
+yeg bacaklýklarý~
+yeg bacaklýklarý~
 Bir çift bacaklýk burada hazýr bekliyor.~
 brass~
 armor G AF
@@ -2729,9 +2729,9 @@ armor G AF
 A
 17 -2
 #16054
-duergar bilekliði bileklik~
-Bir duergar bilekliði~
-Duergar stili bir bileklik burada hazýr bekliyor.~
+yeg bilekliði bileklik~
+Bir yeg bilekliði~
+Yeg stili bir bileklik burada hazýr bekliyor.~
 silver~
 armor G AM
 6 6 6 0 0
@@ -2795,9 +2795,9 @@ potion 0 A
 15 'detect invis' 'detect magic' 'detect poison' 'detect evil'
 10 2 100 P
 #16062
-svirfneblin bacaklýklarý~
-Svirfneblin bacaklýklarý~
-Bir çift svirfneblin bacaklýðý yerde uzanmýþ keþfedilmeyi bekliyor.~
+naga bacaklýklarý~
+naga bacaklýklarý~
+Bir çift naga bacaklýðý yerde uzanmýþ keþfedilmeyi bekliyor.~
 steel~
 armor G AF
 6 6 6 0 0
@@ -7754,7 +7754,7 @@ S
 Bakýr Sokaðý~
 This is azurite street, a gemstone street.  Once long ago it is said that this
 entire cavern was filled with veins of gems and precious metals.  It was
-first mined by the duergar who lost it to the drow.  Much later a mighty
+first mined by the yeg who lost it to the drow.  Much later a mighty
 wizard came to the area and created a huge cavern from the many tunnels.
 Where the mighty veins once were now only roads exist.
 
@@ -9419,7 +9419,7 @@ The tavern continues
 0 -1 16245
 E
 form slumped~
-This is the body of a very very drunk duergar.  So drunk that he has passed
+This is the body of a very very drunk yeg.  So drunk that he has passed
 out.  Just looking at him you can smell the alcohol that covers his clothing.
 He seems to be sleeping with his mouth open and little droplets of droll
 escape from this open passage and drip onto his tunic. ~
@@ -12142,9 +12142,9 @@ The street of the gods
 0 -1 16111
 S
 #16361
-Lefur Elçiliði Fuayesi~
+Naga Elçiliði Fuayesi~
 You are standing the foyer of the deep gnome presence in the Underdark.
-The svirfneblin maintain this building for their own merchants and people
+The naga maintain this building for their own merchants and people
 should they come into trouble here.  The building has a low ceiling, about
 seven feet off the ground.  The walls and ground are earthy in colour and
 texture.
@@ -15410,28 +15410,28 @@ M 0 16008 12 16080 1 *; loads drow trader to street
 E 0 16007 0  16     *; wields blade of darkness
 M 0 16008 12 16100 1 *; loads drow trader to street
 E 0 16007 0  16     *; wields blade of darkness
-M 0 16009 18 16018 1 *; loads duergar on street
-M 0 16009 18 16030 1 *; loads duergar on street
-M 0 16009 18 16022 1 *; loads duergar on street
-M 0 16009 18 16157 1 *;21 loads duergar on street
+M 0 16009 18 16018 1 *; loads yeg on street
+M 0 16009 18 16030 1 *; loads yeg on street
+M 0 16009 18 16022 1 *; loads yeg on street
+M 0 16009 18 16157 1 *;21 loads yeg on street
 E 0 16008 0  6      *; wears helm
-M 0 16009 18 16140 1 *; loads duergar on street
-M 0 16009 18 16132 1 *; loads duergar on street
+M 0 16009 18 16140 1 *; loads yeg on street
+M 0 16009 18 16132 1 *; loads yeg on street
 E 0 16008 0  6      *; wears helm
-M 0 16009 18 16210 1 *; loads duergar on street
-M 0 16009 18 16218 1 *; loads duergar on street
-M 0 16009 18 16167 1 *; loads duergar on street
+M 0 16009 18 16210 1 *; loads yeg on street
+M 0 16009 18 16218 1 *; loads yeg on street
+M 0 16009 18 16167 1 *; loads yeg on street
 E 0 16008 0  6      *; wears helm
-M 0 16009 18 16134 1 *; loads duergar on street
-M 0 16009 18 16134 1 *; loads duergar on street
-M 0 16009 18 16115 1 *; loads duergar on street
-M 0 16009 18 16111 1 *; loads duergar on street
+M 0 16009 18 16134 1 *; loads yeg on street
+M 0 16009 18 16134 1 *; loads yeg on street
+M 0 16009 18 16115 1 *; loads yeg on street
+M 0 16009 18 16111 1 *; loads yeg on street
 E 0 16008 0  6      *; wears helm
-M 0 16009 18 16113 1 *; loads duergar on street
-M 0 16009 18 16097 1 *; loads duergar on street
-M 0 16009 18 16097 1 *; loads duergar on street
-M 0 16009 18 16109 1 *; loads duergar on street
-M 0 16009 18 16103 1 *; loads duergar on street
+M 0 16009 18 16113 1 *; loads yeg on street
+M 0 16009 18 16097 1 *; loads yeg on street
+M 0 16009 18 16097 1 *; loads yeg on street
+M 0 16009 18 16109 1 *; loads yeg on street
+M 0 16009 18 16103 1 *; loads yeg on street
 E 0 16008 0  6      *; wears helm
 M 0 16010 1  16135 1 *;43 load necromancer on street
 E 0 16009 0  10     *; wears sleeves
@@ -15478,9 +15478,9 @@ M 0 16020 1  16238 1 *; loads grell
 M 0 16021 1  16247 1 *; loads barkeep
 G 0 3002  0
 G 0 16093 0
-M 0 16022 4  16247 1 *; loads duergar patron
-M 0 16022 4  16244 1 *; loads duergar patron
-M 0 16022 4  16245 1 *; loads duergar patron
+M 0 16022 4  16247 1 *; loads yeg patron
+M 0 16022 4  16244 1 *; loads yeg patron
+M 0 16022 4  16245 1 *; loads yeg patron
 M 0 16023 3  16246 1 *; loads drow patron
 M 0 16023 3  16247 1 *; loads drow patron
 M 0 16024 2  16244 1 *; loads human patron
@@ -15669,10 +15669,10 @@ M 0 16059 1  16320 1 *; goblin slave at slave dealer
 M 0 16060 1  16320 1 *; male human slave at slave dealer
 M 0 16061 1  16320 1 *; female human slave at slave dealer
 M 0 16062 1  16320 1 *; kobold slave at slave dealer
-M 0 16063 1  16320 1 *; elf slave at slave dealer
+M 0 16063 1  16320 1 *; çora slave at slave dealer
 M 0 16064 1  16320 1 *; dwarf slave at slave dealer
 *
-M 0 16022 4  16352 1 *; duergar patron
+M 0 16022 4  16352 1 *; yeg patron
 M 0 16023 3  16354 1 *; drow patron
 M 0 16046 3  16342 1 *; halfling patron
 M 0 16048 3  16354 1 *; deep gnome patron

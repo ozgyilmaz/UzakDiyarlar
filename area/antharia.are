@@ -373,14 +373,14 @@ CEFIJK 0 0 0
 stand stand male 1000
 0 0 medium 0
 #12364
-Elven Representative~
-an elven representative~
-An elven representative is standing here.
+Çora Representative~
+an Çora representative~
+An Çora representative is standing here.
 ~
-A young elf is here looking at you.  She is the representative from
-the elven race here in Antharia.
+A young çora is here looking at you.  She is the representative from
+the çora race here in Antharia.
 ~
-elf~
+çora~
 2|1024 0 0 0
 40 0 15d10+1850 5d5+1000 4d8+13 pound
 -13 -13 -13 3
@@ -2079,7 +2079,7 @@ M 1 12360 1 12360  1 *                       load Hum. rep.
 *
 M 1 12365 1 12365  1 *                       load Dwf. rep.
 *
-M 1 12364 1 12364  1 *                       load Elf rep.
+M 1 12364 1 12364  1 *                       load Çora rep.
 *
 M 1 12361 1 12361  1 *                       load Dru. rep.
 *

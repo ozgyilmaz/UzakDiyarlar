@@ -17,7 +17,7 @@ END
 
  The City of Anon-
 
-    Illithid                      Elf                       Avian
+    Illithid                      Çora                      Avian
      Guild      Merc    Magic    Guild     ID       Pet     Guild
        |        Hire    Shop       |       Guy      Shop      |
        |_________|________|________|________|________|________|________Human
@@ -197,16 +197,16 @@ FHKN AB 0 0
 stand stand male 1000
 0 0 medium 0
 #31009
-elf loncasý efendisi~
-Elf Loncasý Efendisi~
-Elf Loncasý Efendisi sana "Hoþgeldin" diyor.
+çora loncasý efendisi~
+Çora Loncasý Efendisi~
+Çora Loncasý Efendisi sana "Hoþgeldin" diyor.
 ~
 "Welcome, friend, to the Guild of the Elves. Should you wish to practice
 a skill or spell that is within my area of expertise, simply type PRAC
 <skillname>. Typing PRAC without an argument will display what skills or
 spells you may learn here".
 ~
-elf~
+çora~
 ABGK HN 1000 0
 10 0  2d7+121 5d5+100 2d4+2 pound
 1 1 1 7
@@ -313,14 +313,14 @@ F 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31016
-elf garson~
-Elf Garson~
-Elf Garson içki servisi yapýyor.
+çora garson~
+Çora Garson~
+Çora Garson içki servisi yapýyor.
 ~
 A prominent employee of the Guild.
 Honest, Reliable and Courteous (yeah right).
 ~
-elf~
+çora~
 ABG HN 0 0
 60 0 50d10+8250 5d5+5000 11d5+35 pound
 -35 -35 -35 -5
@@ -794,13 +794,13 @@ CDF 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31048
-elf paralý askeri~
-Elf Paralý Askeri~
-Bir elf paralý askeri kaþlarýný çatmýþ bekliyor.
+çora paralý askeri~
+Çora Paralý Askeri~
+Bir çora paralý askeri kaþlarýný çatmýþ bekliyor.
 ~
 Oldukça sert görünüyor, dikkatli olmalýsýn...
 ~
-elf~
+çora~
 AI DJ 0 0
 20 0 3d9+333 5d5+1000 2d8+5 pound
 -4 -4 -4 5
@@ -822,13 +822,13 @@ DF 0 0 0
 stand stand male 1000
 0 0 medium 0
 #31050
-trol paralý askeri~
-Rrol Paralý Askeri~
-Bir trol paralý askeri kaþlarýný çatmýþ bekliyor.
+asura paralý askeri~
+Asura Paralý Askeri~
+Bir asura paralý askeri kaþlarýný çatmýþ bekliyor.
 ~
 Oldukça sert görünüyor, dikkatli olmalýsýn...
 ~
-human~
+asura~
 AI JN 0 0
 30 0 6d12+853 5d5+1000 4d6+8 pound
 -9 -9 -9 3
@@ -1951,8 +1951,8 @@ of time before this city falls, which is a pity as it lies on the only road
 that leads to the mysterious lands to the south east.
 ~
 E
-Elf~
-The elven race is smaller in number than the Humans, though it is almost as
+çora~
+The çora race is smaller in number than the Humans, though it is almost as
 powerful. Its holdings consist of-
 
 THE DUCHY OF MALATHAR
@@ -1975,7 +1975,7 @@ whom they trade via the River of Anon.
 E
 Mirkwood~
 This dark, mysterious wood is inhabited by a great number of Elves, most of
-whom answer to the Wood Elf kings, in their great wooden estate in the
+whom answer to the Wood Çora kings, in their great wooden estate in the
 center of the forest. Government is indirect and erratic, however, the elves
 really only coming together in times of great crisis.
 ~
@@ -2060,7 +2060,7 @@ the many races of Anon. For more information on the relevant races, type
 read Elf, Dwarf, Human, Kender, Avian, Illithid, Dryad or Darkling.
 ~
 E
-Elf~
+çora~
 
 The Elves of Anon vary in their social structure according to the various
 sub-types of Elves. This chapter will focus on those Elves known as the
@@ -2068,7 +2068,7 @@ High or True Elves, the Elves that deign to associate with humanity, and
 have a desire for adventure.
 
 High Elves come from a very rigid social structure, a complex feudal system
-where vertical ascension is very difficult. Basically, the path an Elf will
+where vertical ascension is very difficult. Basically, the path an Çora will
 take in life is determined to a very large extent by what their parents did-
 i.e, mages are the children of magicians, warriors the children of warriors,
 nobles the children of nobility, etc. Occasionally, young Elves who
@@ -2260,7 +2260,7 @@ This slim tome contains a brief synopsis of the history of each of the major
 races of the Known World. These synopses have been gathered from extant
 primary sources by Xanafax and compiled here for the dilettante to peruse
 and learn a little about their fellow Anonians. For further information,
-try read elf, read human, etc.
+try read çora, read human, etc.
 ~
 E
 Dryad~
@@ -2298,7 +2298,7 @@ exceedingly fond. Dryads are respected practitioners of the healing arts, as
 well as respected wielders of powerful battle magics.
 ~
 E
-Elf~
+çora~
 
 Aeons ago, when the land of Anon first came into being, Elves were among the
 first races to emerge through the mystical portals that sprang up across the
@@ -2560,7 +2560,7 @@ area.
 
 The great forests to the east are known by several names, though perhaps best
 as Mirkwood, named so by the elves who first settled there. In the depths
-of this forest can be found the elven duchy of Malathar, as well as the
+of this forest can be found the çora duchy of Malathar, as well as the
 sacred Valley of the Elves, and the Dryad Holy Grove. There is also a small
 goblin kingdom further in the forest, where few dare travel. North of this
 lies the magical world of Animaland, a small kingdom ruled and populated by
@@ -2604,7 +2604,7 @@ located several areas of interest.
 To the south one will quickly come across the Graveyard where the dead from
 the battles on the plains were laid to rest- it is rumored their cursed souls
 still roam this place, as well as the ancient catacombs beneath the crypts.
-The ancient Dwarven mine of Moria lies east of here, near the Troll dens.
+The ancient Dwarven mine of Moria lies east of here, near the Asura dens.
 Beyond this lies the swamplands, wherein can be found the ruined city of
 Khellis, and the Old Marsh, where evil monsters have overrun the ruins of
 an ancient civilization. Also in here, it is rumored, lies a gateway to
@@ -2678,7 +2678,7 @@ meaner and more bitter to the people that were living in The Realms.
 
 	Feenix Flarestar was born into this world shortly after it was
 created, and chose the path of the Elf, the Master of offensive magic.
-Feenix was an acomplished youg elf, killed many a monster, and died even
+Feenix was an acomplished youg çora, killed many a monster, and died even
 more time than he killed (but that is story for another time). He learned
 the ropes of adventuring in The Realms rather quickly, and made many
 friends, both mortal and  godly.
@@ -2707,7 +2707,7 @@ feeling of wanderlust was starting up again.
 
 	Feenix left The Realms and headed out into space, looking for
 more adventure. After many failed attempts at finding it, he located a
-place called Anon. He entered the world as an Elf once again, and started
+place called Anon. He entered the world as an Çora once again, and started
 his adventuring career.
 
 	As he slowly progressed, he started to notice that the gods and
@@ -2799,7 +2799,7 @@ races.  His favorite stories were of humankind.
 His sleep and daydreams were both populated by the Mort d'Arthur, Gawaine and
 the Green Knight, and tales by Frank Baum, C. S. Lewis, and Robert Heinlein.
 As an adolescent, Nemo was apprenticed as a magician to his uncle, Kamack.
-Kamack was a kindly old elf, but Nemo quickly surpassed him in magic ability.
+Kamack was a kindly old çora, but Nemo quickly surpassed him in magic ability.
 To avoid the dreadfully dull future that awaited him in his native village
 and to avoid having to marry his pretty but half-witted cousin Edwina, Nemo
 slipped away one summer night to seek out Humankind and his own destiny.
@@ -4100,7 +4100,7 @@ S
 Elf Barý~
 Elves are notorious drinkers, mainly due to the fact that their power relies
 solely on mana, and the best way to rapidly regain mana is to be rip-roaring
-drunk. Thus it is extremely rare to see an active adventuring Elf remotely
+drunk. Thus it is extremely rare to see an active adventuring Çora remotely
 sober.
 ~
 0 8 0
@@ -4529,7 +4529,7 @@ S
 Bar~
 You have entered a seedy bar full of low-lifes of the lowest common
 denominator. A greasy bartender serves drinks to the sullen patrons, while
-in the corner a couple of sailors are roughing up an Elf who refused to pay
+in the corner a couple of sailors are roughing up an Çora who refused to pay
 up upon losing the last hand in poker.
 ~
 0 1|8 0

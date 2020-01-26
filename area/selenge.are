@@ -218,7 +218,7 @@ Yorgun ve yaþlý görünümlü bu kadýnda geçmiþten kalma bilgi ve deneyimi
 açýkça görebiliyorsun. Mavi bir aura ile çevrelenmiþ ve oldukça güzel
 giysiler giymiþ bu kadýn ayrýca loncanýn üstadý.
 ~
-elf~
+çora~
 ABKRVe DEFZ 1000 0
 96 0 1d1+29099 1d1+999 43d48+64 magic
 -65 -65 -65 -35
@@ -279,7 +279,7 @@ Bir sihirbaz giriþi koruyor.
 O kendisini savaþ büyülerinde ustalaþtýrmýþ bir büyücü. Artýk tek görevi
 bu kapýyý ölümcül savunma ve saldýrýlarýyla korumak.
 ~
-elf~
+çora~
 ABRTVe BD 800 0
 30 5 1d1+999 1d1+499 10d4+10 magic
 -12 -12 -12 -8
@@ -1043,7 +1043,7 @@ renkte parladýðýný görüyorsun. Cüppesinin baþ kýsmý kafasýnýn
 neredeyse tamamýný örtüyor. Güçlü ve uzun görünüyor. Kem düþüncelerden
 vazgeçmediðin sürece seni eðitebileceðini biliyorsun.
 ~
-dark-elf~
+çora~
 ABKRVe DEFZ -300 0
 96 0 1d1+29099 1d1+999 20d50+64 slash
 -80 -80 -80 -40
@@ -1059,7 +1059,7 @@ Yaþlý ve yorgun bir lonca efendisi. Gözlerinde derin bilginin izlerini
 görebiliyorsun. Büyülü olmasý muhtemel kaliteli bir kýyafet giyiyor.
 Mavi bir aurayla çevrelendiðini fark ediyorsun.
 ~
-elf~
+çora~
 ABKRVe DEFZ 0 0
 96 0 1d1+29099 1d1+999 20d48+64 magic
 -85 -85 -85 -35
@@ -2269,7 +2269,7 @@ Grove---Galaxy              Midgaard   G'harne       |            \Holy
       Forest Of-----+-------Midgaard---------------Cross---Eastern Road---Point
       Haon Dor              / | | | \              Roads             |
      /     |     Mob Factory  | | |  Machine            \        Gnome Village
-  Old    Troll               /  | |  Dreams               \
+  Old    Asura               /  | |  Dreams               \
  Marsh    Den           Sewer   |  \            Ruins of---Dwarf---Frigid Waste
                                 |    \Midgaard   Thalos    Forest         |
        Redferne's---Chain---Southern    River                |  \      Keep of
@@ -3108,7 +3108,7 @@ Tower    |   	 		Ciquala's Lair		  /|
       Forest Of Haon Dor-------/----+--------------------Midgaard--------Cross
 	  	/    |		|	     Chessboard -/|\| |		 Roads
 	      /	     |		|	    Mob-Factory  -| |\|
-     	    Old    Troll Den	|    	 		 /| | | \
+     	    Old    Asura Den	|    	 		 /| | | \
 	    Marsh    		|		    Sewer | | |  Goblin Str.hold
 			  Drakyri Isle		 Prison --| | \
 							    |   \	Cage & A
@@ -3496,7 +3496,7 @@ map 0 A
 E
 siyah harita~
 .
-Troll Den			{10 - 15}
+Asura Den			{10 - 15}
 from MSM :>>>> 3s 2e 2s 6w n e s...
 
 Valley of The Elves		{5 - 20}

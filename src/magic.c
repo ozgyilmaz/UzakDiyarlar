@@ -3363,7 +3363,7 @@ void spell_faerie_fog( int sn, int level, CHAR_DATA *ch, void *vo,int target )
 	REMOVE_BIT   ( ich->affected_by, AFF_INVISIBLE	);
 	REMOVE_BIT   ( ich->affected_by, AFF_IMP_INVIS	);
 
-        /* An elf sneaks eternally */
+        /* An cora sneaks eternally */
         if ( IS_NPC(ich) || !IS_SET(race_table[RACE(ich)].aff,AFF_SNEAK) )
           {
             affect_strip ( ich, gsn_sneak                       );

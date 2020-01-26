@@ -64,7 +64,6 @@ DECLARE_DO_FUN(do_track		);
  * Local functions.
  */
 void	affect_modify	args( ( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd ) );
-int	age_to_num	args( ( int age) );
 void	raffect_to_char	args( ( ROOM_INDEX_DATA *room, CHAR_DATA *ch) );
 void	raffect_back_char	args( ( ROOM_INDEX_DATA *room, CHAR_DATA *ch) );
 bool	is_safe_rspell	args( ( int level, CHAR_DATA *victim) );
@@ -170,6 +169,25 @@ int material_lookup (const char *name)
 int race_lookup (const char *name)
 {
    int race;
+   
+   if( !strcmp( name, "duergar" ) )
+	   strcpy( (char*)name, "yeg");
+   if( !strcmp( name, "half-elf" ) )
+	   strcpy( (char*)name, "çora");
+   if( !strcmp( name, "dark-elf" ) )
+	   strcpy( (char*)name, "çora");
+   if( !strcmp( name, "githyanki" ) )
+	   strcpy( (char*)name, "yeg");
+   if( !strcmp( name, "arial" ) )
+	   strcpy( (char*)name, "gamayun");
+   if( !strcmp( name, "felar" ) )
+	   strcpy( (char*)name, "börü");
+   if( !strcmp( name, "rockseer" ) )
+	   strcpy( (char*)name, "çora");
+   if( !strcmp( name, "troll" ) )
+	   strcpy( (char*)name, "asura");
+   if( !strcmp( name, "trol" ) )
+	   strcpy( (char*)name, "asura");
 
    for ( race = 0; race_table[race].name[1] != NULL; race++)
    {
@@ -786,20 +804,6 @@ int get_trust( CHAR_DATA *ch )
 	return LEVEL_HERO - 1;
     else
 	return ch->level;
-}
-
-
-/*
- * Retrieve a character's age.
- */
-int get_age( CHAR_DATA *ch )
-{
-    return 17 + ( ch->played + (int) (current_time - ch->logon) ) / 72000;
-}
-
-int age_to_num( int age )
-{
-    return  age * 72000;
 }
 
 /* command for retrieving stats */
@@ -3378,7 +3382,7 @@ char *form_bit_name(int form_flags)
     if (form_flags & FORM_MIST		) strcat(buf, " mist");
     if (form_flags & FORM_INTANGIBLE	) strcat(buf, " intangible");
     if (form_flags & FORM_BIPED		) strcat(buf, " biped");
-    if (form_flags & FORM_CENTAUR	) strcat(buf, " centaur");
+    if (form_flags & FORM_CIREN	    ) strcat(buf, " ciren");
     if (form_flags & FORM_INSECT	) strcat(buf, " insect");
     if (form_flags & FORM_SPIDER	) strcat(buf, " spider");
     if (form_flags & FORM_CRUSTACEAN	) strcat(buf, " crustacean");

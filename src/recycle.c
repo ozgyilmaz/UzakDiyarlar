@@ -49,41 +49,6 @@
 #include "merc.h"
 #include "recycle.h"
 
-/* stuff for recyling notes */
-NOTE_DATA *note_free;
-
-NOTE_DATA *new_note()
-{
-    NOTE_DATA *note;
-
-    if (note_free == NULL)
-	note = (NOTE_DATA *)alloc_perm(sizeof(*note));
-    else
-    {
-	note = note_free;
-	note_free = note_free->next;
-    }
-    VALIDATE(note);
-    return note;
-}
-
-void free_note(NOTE_DATA *note)
-{
-    if (!IS_VALID(note))
-	return;
-
-    free_string( note->text    );
-    free_string( note->subject );
-    free_string( note->to_list );
-    free_string( note->date    );
-    free_string( note->sender  );
-    INVALIDATE(note);
-
-    note->next = note_free;
-    note_free   = note;
-}
-
-
 /* stuff for recycling ban structures */
 BAN_DATA *ban_free;
 

@@ -89,14 +89,11 @@ HELP_DATA *		help_last;
 SHOP_DATA *		shop_first;
 SHOP_DATA *		shop_last;
 
-//NOTE_DATA *		note_free;
-
 char			bug_buf		[2*MAX_INPUT_LENGTH];
 CHAR_DATA *		char_list;
 char *			help_greeting;
 char			log_buf		[2*MAX_INPUT_LENGTH];
 KILL_DATA		kill_table	[MAX_LEVEL];
-//NOTE_DATA *		note_list;
 OBJ_DATA *		object_list;
 TIME_INFO_DATA		time_info;
 WEATHER_DATA		weather_info;
@@ -440,7 +437,6 @@ void	load_rooms	args( ( FILE *fp ) );
 void	load_shops	args( ( FILE *fp ) );
 void 	load_socials	args( ( FILE *fp ) );
 void	load_specials	args( ( FILE *fp ) );
-void	load_notes	args( ( void ) );
 void	load_bans	args( ( void ) );
 void    load_olimits    args( ( FILE *fp ) );
 void    load_practicer  args( ( FILE *fp ) );
@@ -484,17 +480,11 @@ void boot_db( void )
      * Set time and weather.
      */
     {
-	long lhour, lday, lmonth;
-
-	lhour		= (current_time - 650336715)
-			/ (PULSE_TICK / PULSE_PER_SCD);
-	time_info.bmin	= 0;
-	time_info.hour	= lhour  % 24;
-	lday		= lhour  / 24;
-	time_info.day	= lday   % 35;
-	lmonth		= lday   / 35;
-	time_info.month	= lmonth % 17;
-	time_info.year	= lmonth / 17;
+	time_info.year  = 1;
+	time_info.month = 1;
+	time_info.day   = 1;
+	time_info.hour  = 0;
+	game_time_update();
 
 	     if ( time_info.hour <  5 ) weather_info.sunlight = SUN_DARK;
 	else if ( time_info.hour <  6 ) weather_info.sunlight = SUN_RISE;
@@ -640,7 +630,6 @@ void boot_db( void )
 
 	fBootDb	= FALSE;
 	area_update( );
-	load_notes( );
 	load_bans();
     }
 

@@ -1779,6 +1779,7 @@ void do_worth( CHAR_DATA *ch, char *argument )
 void do_score( CHAR_DATA *ch, char *argument )
 {
 	char sex[8];
+  char dogumGunu[20];
 	sex[0]='\0';
 	switch (ch->sex)
 	{
@@ -1793,6 +1794,8 @@ void do_score( CHAR_DATA *ch, char *argument )
 			break;
 
 	}
+  game_time_to_string(ch->pcdata->birth_time,dogumGunu);
+
 
   printf_to_char(ch,"{c,--------------------------------------------------------------------,{w\n\r");
   printf_to_char(ch,"{c| {w%+12s%-30s{c                         |\n\r",ch->name,IS_NPC(ch) ? "" : ch->pcdata->title);
@@ -1802,6 +1805,8 @@ void do_score( CHAR_DATA *ch, char *argument )
   printf_to_char(ch,"{c| Cinsiyet: {w%-13s{c | Ezici  : {w%-3d{c | Akçe        : {w%-7ld{c     |\n\r",sex,GET_AC(ch,AC_BASH),ch->silver);
   printf_to_char(ch,"{c| Sýnýf   : {w%-13s{c | Kesici : {w%-3d{c | Altýn(Banka): {w%-7ld{c     |\n\r",IS_NPC(ch) ? "mobil" : class_table[ch->iclass].name[1],GET_AC(ch,AC_SLASH),IS_NPC(ch) ? 0 : ch->pcdata->bank_g);
   printf_to_char(ch,"{c| Yönelim : {w%-13d{c | Egzotik: {w%-3d{c | Akçe (Banka): {w%-7ld{c     |\n\r",ch->alignment,GET_AC(ch,AC_EXOTIC),IS_NPC(ch) ? 0 : ch->pcdata->bank_s);
+  printf_to_char(ch,"{c| Doðum   : {w%-12s{c |                   |                             |\n\r",dogumGunu);
+  printf_to_char(ch,"{c| Yaþ    : {w%d{c |                   |                             |\n\r",get_age(ch));
   printf_to_char(ch,"{c|-------------------------'--------------|---------------------------,{w\n\r");
   printf_to_char(ch,"{c| Yp    : {w%-7d/%-7d{c | Güç: {w%-2d(%-2d){c  | Pratik : {w%-3d{c              |\n\r",ch->hit,  ch->max_hit,ch->perm_stat[STAT_STR],get_curr_stat(ch,STAT_STR),ch->practice);
   printf_to_char(ch,"{c| Mana  : {w%-7d/%-7d{c | Zek: {w%-2d(%-2d){c  | Eðitim : {w%-3d{c              |\n\r",ch->mana, ch->max_mana,ch->perm_stat[STAT_INT],get_curr_stat(ch,STAT_INT),ch->train);
@@ -1820,18 +1825,20 @@ void do_score( CHAR_DATA *ch, char *argument )
   printf_to_char(ch,"{c'--------------------------------------------------------------------'{x\n\r");
 }
 
-const char *	day_name	[] =
+char *	const	month_name	[] =
 {
-  "Ay", "Boða", "Hile", "Yýldýrým", "Özgürlük",
-  "Tanrýlar", "Güneþ"
-};
-
-const char *	month_name	[] =
-{
-  "Kýþ", "Kýþ Kurdu", "Büyük Ayaz", "the Old Forces",
-  "Büyük Savaþ", "Bahar", "Doða", "Futility", "Ejderha",
-  "Güneþ", "Isý", "Savaþ", "Güneþ'in Gölgesi", "Gölge",
-  "Uzun Gölge", "Kadim Karanlýk", "Yüce Kötülük"
+	(char*)"Albars",
+	(char*)"Kadimler",
+    (char*)"Büyük Acý",
+	(char*)"Zeytin",
+	(char*)"Yýlan",
+	(char*)"Yelbüke",
+	(char*)"Pusu",
+	(char*)"Savaþ",
+	(char*)"Albastý",
+	(char*)"Gölge",
+	(char*)"Kara Ölüm",
+	(char*)"Alacakaranlýk",
 };
 
 
@@ -1845,45 +1852,41 @@ void do_time( CHAR_DATA *ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
     char buf2[MAX_STRING_LENGTH];
-    int day;
 
-    day     = time_info.day + 1;
+	printf_to_char( ch , "Yýl  : %d\n\r", time_info.year );
+	printf_to_char( ch , "Ay   : %s (%d. ay)\n\r", month_name[time_info.month] , time_info.month );
+	printf_to_char( ch , "Gün  : %d\n\r", time_info.day );
+	printf_to_char( ch , "Saat : %d\n\r", time_info.hour );
 
-    sprintf( buf,
-	"Saat %d, günlerden %s ve %s ayýnýn %d. günü.\n\r",
-	time_info.hour,
-	day_name[day % 7],
-	month_name[time_info.month],
-	day);
-
-    send_to_char(buf,ch);
 
     if ( !IS_SET(ch->in_room->room_flags,ROOM_INDOORS) ||
          IS_IMMORTAL(ch) )
     {
-      sprintf( buf, "Þu an$C %s. $c",
-         (time_info.hour>=5 && time_info.hour<9)? "tan zamaný":
-         (time_info.hour>=9 && time_info.hour<12)? "sabah":
-         (time_info.hour>=12 && time_info.hour<18)? "gün ortasý":
-         (time_info.hour>=18 && time_info.hour<21)? "akþam":
+      sprintf( buf, "$C %s vakti. $c",
+         (time_info.hour>=4 && time_info.hour<6)? "þafak":
+         (time_info.hour>=6 && time_info.hour<10)? "sabah":
+         (time_info.hour>=10 && time_info.hour<16)? "öðlen":
+         (time_info.hour>=16 && time_info.hour<20)? "akþam":
          "gece" );
 
       act_color( buf, ch, NULL, NULL, TO_CHAR, POS_RESTING,
-         (time_info.hour>=5 && time_info.hour<9)? COLOR_DAWN:
-         (time_info.hour>=9 && time_info.hour<12)? COLOR_MORNING:
-         (time_info.hour>=12 && time_info.hour<18)? COLOR_DAY:
-         (time_info.hour>=18 && time_info.hour<21)? COLOR_EVENING:
+         (time_info.hour>=4 && time_info.hour<6)? COLOR_DAWN:
+         (time_info.hour>=6 && time_info.hour<10)? COLOR_MORNING:
+         (time_info.hour>=10 && time_info.hour<16)? COLOR_DAY:
+         (time_info.hour>=16 && time_info.hour<20)? COLOR_EVENING:
          COLOR_NIGHT, CLR_NORMAL );
+		printf_to_char(ch,"\n\r\n\r");
     }
 
     if ( !IS_IMMORTAL( ch ) )
       return;
 
     sprintf(buf2, "%s", (char *) ctime( &boot_time ));
-    sprintf(buf,"Uzak Diyarlar baþlangýç saati %s.\n\rSistem zamaný %s.\n\r",
+    sprintf(buf,"CC Mud %s tarihinde baþlatýldý.\n\rSistem zamaný, %s.\n\r",
 	buf2, (char *) ctime( &current_time ) );
 
     send_to_char( buf, ch );
+
     return;
 }
 
@@ -4400,13 +4403,13 @@ void do_who_col( CHAR_DATA *ch, char *argument )
 	 * Format it up.
 	 */
 
-	sprintf( level_buf, "%s%2d%s", CLR_CYAN,wch->level, CLR_WHITE_BOLD);
+	sprintf( level_buf, "%s%3d%s", CLR_CYAN,wch->level, CLR_WHITE_BOLD);
 	sprintf(classbuf,"%s%s%s",CLR_YELLOW,iclass, CLR_WHITE_BOLD);
 
 	if (IS_TRUSTED(ch,LEVEL_IMMORTAL) || ch==wch ||
                    wch->level >= LEVEL_HERO)
 
-	  sprintf( buf, "[%2d %s %s] %s%s%s%s%s\n\r",
+	  sprintf( buf, "[%3d %5s %3s] %s%s%s%s%s\n\r",
 	    wch->level,
 	    RACE(wch) < MAX_PC_RACE ? pc_race_table[RACE(wch)].who_name
 				    : "     ",
@@ -4419,7 +4422,7 @@ void do_who_col( CHAR_DATA *ch, char *argument )
 
 	else
 /*	  sprintf( buf, "[%s %s %s] %s%s%s%s%s\n\r",	*/
-	  sprintf( buf, "[%s %s    ] %s%s%s%s%s\n\r",
+	  sprintf( buf, "[%3s %5s    ] %s%s%s%s%s\n\r",
 		(get_curr_stat(wch, STAT_CHA) < 18 ) ? level_buf : "  ",
 	    RACE(wch) < MAX_PC_RACE ? pc_race_table[RACE(wch)].who_name
 				    : "     ",

@@ -395,7 +395,7 @@ This mighty creature has allied with Krothgar in exchange for a steady diet
 of humans and elves. It will fight ferociously to defend the home of its
 meal ticket.
 ~
-elf~
+çora~
 ABFG J 0 0
 52 0 50d10+4750 5d5+5000 6d7+20 charge
 -22 -22 -22 0
@@ -586,14 +586,14 @@ EFIKQ 0 0 0
 stand stand male 1000
 0 0 medium 0
 #14736
-arba~
-arba~
-Bir arba görüyorsun, gürültüyle esniyor.
+asura~
+asura~
+Bir asura görüyorsun, gürültüyle esniyor.
 ~
 These grotesques were bred for combat, not sentry duty, and the boredom is
 almost killing them. They don't even notice your presence.
 ~
-human~
+asura~
 ABG J -1000 0
 48 0 25d10+3750 5d5+1000 6d6+18 pound
 -18 -18 -18 1
@@ -3738,7 +3738,7 @@ E 1 14716 1 16              *         wields morning star
 E 1 14717 1 6                *        wears helm
 G 1 14758 0			0                           gives key
 *
-M 1 14736 2 14771      1     *          loads trolls
+M 1 14736 2 14771      1     *          loads asuras
 E 1 14747 1 16                *       wields pole arm
 E 1 14748 1 5                  *      wears chainmail
 *
@@ -3917,7 +3917,7 @@ M  14729 spec_breath_fire                        hell hound
 M  14733 spec_cast_cleric                        cloud giant
 M  14734 spec_janitor                            ogre servant
 M  14735 spec_cast_mage                          ogre mage
-M  14736 spec_fido                               troll
+M  14736 spec_fido                               asura
 M  14737 spec_guard                              ettin
 M  14738 spec_cast_mage                          chief assassin
 M  14739 spec_thief                              assassins

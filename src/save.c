@@ -192,6 +192,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
 
     fprintf( fp, "Name %s~\n",	ch->name		);
     fprintf( fp, "Id   %ld\n", ch->id			);
+    fprintf( fp, "Birth  %ld\n", ch->pcdata->birth_time	);
     fprintf( fp, "LogO %ld\n",	current_time		);
     fprintf( fp, "Vers %d\n",   7			);
     fprintf( fp, "Etho %d\n",   ch->ethos		);
@@ -216,9 +217,6 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
 	fprintf( fp, "Tru  %d\n",	ch->trust	);
     fprintf( fp, "Plyd %d\n",
 	ch->pcdata->played + (int) (current_time - ch->logon)	);
-    fprintf( fp, "Not  %ld %ld %ld %ld %ld\n",
-	ch->pcdata->last_note,ch->pcdata->last_idea,ch->pcdata->last_penalty,
-	ch->pcdata->last_news,ch->pcdata->last_changes	);
     fprintf( fp, "Scro %d\n", 	ch->lines		);
     fprintf( fp, "Room %d\n",
         (  ch->in_room == get_room_index( ROOM_VNUM_LIMBO )
@@ -721,6 +719,7 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
     ch->pcdata->countdown = 0;
     ch->pcdata->questobj = 0;
     ch->pcdata->questmob = 0;
+    ch->pcdata->birth_time = current_time - 14688000;// 17 oyun yýlýný çýkarýyoruz ki doðum yýlý doðru olsun
     ch->religion = RELIGION_NONE;
     ch->pcdata->has_killed = 0;
     ch->pcdata->anti_killed = 0;
@@ -1048,6 +1047,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
             KEY( "Bankg",        ch->pcdata->bank_g,       fread_number( fp ) );
 	    KEY( "Bamfout",	ch->pcdata->bamfout,	fread_string( fp ) );
 	    KEY( "Bin",		ch->pcdata->bamfin,	fread_string( fp ) );
+      KEY( "Birth",	ch->pcdata->birth_time,	fread_number( fp ) );
 	    KEY( "Bout",	ch->pcdata->bamfout,	fread_string( fp ) );
 	    break;
 
@@ -1202,17 +1202,6 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 
 	case 'N':
 	    KEY( "Name",	ch->name,		fread_string( fp ) );
-	    KEY( "Note",	ch->pcdata->last_note,	fread_number( fp ) );
-	    if (!str_cmp(word,"Not"))
-	    {
-		ch->pcdata->last_note			= fread_number(fp);
-		ch->pcdata->last_idea			= fread_number(fp);
-		ch->pcdata->last_penalty		= fread_number(fp);
-		ch->pcdata->last_news			= fread_number(fp);
-		ch->pcdata->last_changes		= fread_number(fp);
-		fMatch = TRUE;
-		break;
-	    }
 	    break;
 
 	case 'P':

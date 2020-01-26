@@ -447,34 +447,6 @@ even if you can't see the player, and without revealing their identity.  This
 is handy for talking to invisible or switched immortal players.
 ~
 
--1 NOTE NOTES CHANGES NEWS PENALTY IDEA UNREAD~
-The notes on Anatolia replace the bulletin boards and mail systems found
-on many other mud.  The following options are usable:
-
-reading notes:
-note list	: show all notes (unread notes are marked with an N)
-note read	: either by number, or read next to read unread notes
-note remove	: removes a note that you wrote or are the target of
-note catchup	: markes all notes as read
-
-writing new notes:
-note to		: sets the to line (playername, clanname, immortal, or all)
-note subject	: sets the subject for a new note
-note +		: adds a line to a new note (i.e. note + hi guys!)
-note -		: remove a line from a note in progress
-note clear	: erase a note in progress
-note show	: shows the note you are working on
-note post	: posts a new note. This MUST be done to post a note.
-
-When you log in, you will be informed if there are unread notes waiting. Type
-note read to scroll through them one at a time.
-
-Four other note directories exist, these are ideas, news, changes, and
-penalties (gods only).  They are used the exact same way, for example
-idea read 5 will read idea #5.  Posting to the news and changes boards is
-restricted. The 'unread' command can be used to show your unread notes on
-all the note spools.
-~
 0 SHOUT YELL~
 Syntax: shout   <message>
 Syntax: yell    <message>
@@ -603,7 +575,7 @@ For example:
 
 who immortal    lists all immortals playing
 who pk		lists all characters in your PK range
-who elf         lists all elven clerics
+who çora         lists all çora clerics
 who entropy pk  lists all characters in entropy cabal, (if you are a mamber)
 		which are in your PK range
 
@@ -1479,17 +1451,10 @@ command, and then moving you back (if the command didn't change your
 location).
 ~
 
-94 ECHO GECHO PECHO~
-Syntax: echo  <message>
-	gecho <message>
-	pecho <character> <message>
+94 DUYURU~
+Syntax: duyuru  <mesaj>
 
-These commands all perform similar functions.  Echo sends the message to
-all characters in the same room as the user, with no indication of who sent
-it.  Gecho does the same for all players connected to the game, and pecho
-sends the message to the player specified as the target.  Any higher-level
-god will see a prompt in front of your message, informing him or her that it
-is an echo.
+Tüm oyunculara duyuru yapýlmasýný saðlar.
 ~
 
 92 GOTO~
@@ -2199,24 +2164,24 @@ character creation process:
 Human:     Humans are the typical, average race, possessing no advantages nor
            disadvantages.
 Elves:     Elves are slender and fragile, yet agile and dextrous creatures.
-	   There are currently THREE elf races.(Elf,Dark-Elf,Half-Elf).
+	   There are currently THREE çora races.(Elf,Dark-Elf,Half-Elf).
 Dwarf:     Dwarves are typically high in constitution and strength, and have
-	   infravision.There are currently THREE: Dwarf,Duergar,Svirfnebli.
+	   infravision.There are currently THREE: Dwarf,Yeg,Svirfnebli.
 Gnome:     Gnomes are typically highly intelligent but low in strength. And
 	   gnomes costs 300 extra exps per level.
-Arial:     Arials are a highly dextrous and smart race.They always fly. And
-	   arials costs 250  exps per level.
+Gamayun:     Gamayuns are a highly dextrous and smart race.They always fly. And
+	   gamayuns costs 250  exps per level.
 Giant:     Giants are great and strong race. They are higher in constitution.
 	   There are currently FOUR: Fire-Gia, Storm-Gia, Frost-Gia, Cloud-Gia.
-Felar:	   They are not strong , but has the ability to see in the dark, called
-	   infravision. And felar costs 250 extra exps per level.
+Börü:	   They are not strong , but has the ability to see in the dark, called
+	   infravision. And börü costs 250 extra exps per level.
 Rockseer  :Rockseer are  fragile, agile and dextrous creatures. They can pass
 	   all kinds of doors. They are neutral, cost 500 extra exps per level.
 Githyanki :Human like creatures but high in intelligent. They can be fighter,
 	   caster, or fighter/caster.Cost 250 creation points.
-Satyr	  :Half human ,half goat race.High in dexterity but low much strong.
+Ciren	  :Half human ,half horse race.High in dexterity but low much strong.
 	   They are good ranger and thieves.Cost 250 creation points.
-Troll     :Hindered by their slow intellect and mobility, grow to obtain a
+Asura     :Hindered by their slow intellect and mobility, grow to obtain a
            state of health.They cost extra 300 creation points.
 
 P.S.	: Remember that some races have their specific spells, i.e rockseers
@@ -2232,19 +2197,14 @@ See also:  CLASS, WORLD
 IRK       KISALTMA     ÝYÝ      KÖTÜ     TP    BÝLGÝ
 -----      -------   -------  -------   -----  -------------------
 Ýnsan       Ýnsan      Hiç      Hiç       0    ortalama ýrk
-Elf         Elf      Zek,Çev   Güç,Bün   500   iyi yönelim
-Yarýelf     YElf     Zek,Çev   Güç,Bün   200   yarý insan, yarý elf
-Karaelf     KElf     Zek,Çev   Güç,Bün   500   kem yönelim
-Grielf      GElf     Zek,Çev   Güç,Bün   500   yansýz, "deðnekler"
+Çora        Çora     Zek,Çev   Güç,Bün   500   iyi yönelim
 Cüce        Cüce     Bil,Bün     Çev     250   "vahþileþme"
-Karacüce    KCüce    Güç,Bün   Zek,Bil   250   "vahþileþme", "maymuncuk"
-Svirfneblin Svirf      Bil       Zek     250   "irfan", "tanýmlama"
-Felar       Felar    Güç,Bün     Çev     250   "çýplak el"
-Arial       Arial    Zek,Dex   Güç,Bün   250   uçabilen canlýlar
-Gnom        Gnom     Zek,Bil   Güç,Bün   300   "tanýmlama"
-Githyanki   Gith     Zek,Çev   Bil,Bün   250   kem, "kýlýç", "hançer"
-Satir       Satir      Çev       Zek     250   yansýz, "kamuf", "pusu", "arakla"
-Trol        Trol     Güç,Bün   Zek,Çev   400   kem, "trans", "hýzlý iyileþme"
+Naga        Naga      Bil       Zek     250   "irfan", "tanýmlama"
+Yeg         Yeg      Güç,Bün   Zek,Bil   250   "vahþileþme", "maymuncuk"
+Gamayun     Gamay    Zek,Dex   Güç,Bün   250   uçabilen canlýlar
+Börü        Börü     Güç,Bün     Çev     250   "çýplak el"
+Ciren       Ciren      Çev       Zek     250   yansýz, "kamuf", "pusu", "arakla"
+Asura       Asur     Güç,Bün   Zek,Çev   400   kem, "trans", "hýzlý iyileþme"
 
 Irkýnýz ne olsun (bilgi için: uzakdiyarlar.net)?~
 
@@ -2313,24 +2273,31 @@ ill-suited for any other profession. Giants, due to their size and
 stamina, receive the fast healing and bash skills for free.
 
 ~
--1 HUMAN HUMANS MAN~
+-1 ÝNSAN insan~
+Uzak Diyarlarýn en kalabalýk ýrkýdýr. Ýnsan ýrkýný diðer ýrklardan ayýran
+en önemli özellik her türlü ortama kolaylýkla uyum saðlayabilmeleridir.
+Bu nedenle bütün sýnýflar için uygun olan tek ýrktýr. Ayrýca etik olarak da
+tahmin edilebilir bir ýrk deðildir. Ýçlerinde ezileni koruyan, merhameti bol
+olaný da vardýr, þeytaný bile imrendirecek kadar zalim olaný da.
 
-Humans are the most common race in the world, and make up the majority of
-adventurers.  Although they have no special talents like the other races,
-they are more versatile, being skilled in all classes.  Humans are able to
-gain more benefit from magical devices.
-
+Güç, zeka, bilgelik, çeviklik, bünye, karizma bakýmýndan ortalama deðerlere
+sahip bir ýrktýr.
 ~
--1 DWARF DWARVES~
-
-Dwarves are short, stocky demi-humans, known for foul temper and great
-stamina.  Dwarves have high strength and constitution, but poor dexterity.
-They are not as smart as humans, but are usually wiser due to their long
-lifespans.  Dwarves make lots of noise wherever they go and cannot be
-thieves.  Dwarves can be good or neutral.
-Dwarves are resistant to magic, poison and disease, but cannot swim, and so
-are very vulnerable to drowning.  They can see in the dark with infravision.
-
+-1 CÜCE cüce~
+Cüceler Uzak Diyarlarýn kýsa boylu ama güçlü, uzun sakallarýyla meþhur
+ýrklarýndandýr. Pek zeki bir ýrk olmasa da uzun yaþam süreleri, onlarýn
+diyardaki bir çok ýrka göre daha bilge bir ýrk olmasýný saðlamýþtýr. Çeviklik
+bakýmýndan zayýf ve sessiz hareket etme konusunda baþarýz olduklarý için bazý
+sýnýflar için pek uygun deðildirler. Fakat hemen hemen hepsi güçlü ve alt
+etmesi zor savaþçýlardýr. Genel olarak maðaralarda ve daðlarda yaþamayý
+tercih ederler. Ama içlerinde þehirde yaþamayý ya da yaban hayatý sürmeyi
+tercih edenleri de vardýr. Taþ ve maden iþçiliðinde oldukça maharetlidirler.
+Fakat yüzme konusunda da bir o kadar beceriksizdirler. Büyüye, zehire ve
+hastalýklara karþý dirençleri oldukça yüksektir. Yer altýnda yaþamalarý ve
+deðerli madenlere olan düþkünlükleri onlarý Yeg ýrkýna karþý doðal bir düþman
+haline getirmiþtir. Yeglerden daha çok nefret ettikleri hiçbir varlýk yoktur
+diyarda ve bazý söylentilere göre kadim lisanlarýnda yeglerle ilgili yüze
+yakýn hakaret ve küfür mevcuttur.
 ~
 -1 ELF ELVES~
 
@@ -2345,72 +2312,77 @@ with infravision.  Elves must stay good to cast any spells they know.
 Elves who have turned to evil are frowned upon.
 
 ~
--1 'HALF-ELF' HALFELF HALFELVES~
-
-Half-elves are a cross-breed between a human and an elf. They are not quite
-as intelligent as pure elves but have a greater constitution. Like pure
-elves, half-elves see in the dark with infravision.
-
+-1 ÇORA çora~
+Uzak Diyarlarýn gözle görülmeyen, ateþten yaratýlmýþ varlýklarýdýr.
+Niyetleri önceden kestirilemez. Ýçlerinde merhamet dolu olanlarý da vardýr,
+diyara korku salanlarý da... Doðuþtan geliþmiþ görünmezliðe sahiptirler.
+Varlýklarý ateþten olduðu için ateþe karþý hiçbir ýrkýn olmadýðý kadar
+dayanýklýdýrlar. Sessiz hareket kabiliyetleri ve çeviklikleri sayesinde
+bazý sýnýflar için çok daha uygunlardýr. Karanlýk kuytu yerler, ormanlar,
+su kenarlarý gibi þehrin kalabalýðýndan uzak doðanýn sýnýrýnda yerlerde
+yaþamayý severler. Ama içlerinde nüfusun çoðunlukta olduðu þehirlerde
+yaþamayý tercih edenleri de vardýr.
 ~
--1 SVIRF SVIRFNEBLI DEEP-GNOME~
+-1 NAGA~
+Hint ve Budist metinlerde sýkça yer alan, en eski ve bilge ýrklardan biri
+kabul edilen Naga Sanskiritçe yýlan demektir. Genellikle yarý insan
+yarý yýlan olan Nagalara bugün bile Hindistan'da bereket getirmesi için
+tapýnýlmaktadýr. Hemen hemen her kültürde izleri vardýr.
 
-The Svirfnebli, also known as deep gnomes, have made their way into Anatolia as
-the paths to the Underdark have been found.  Slighty larger than their
-surface cousins, these gnomes are also stronger and a little more hearty from
-centuries of working stone.  The dedication to stone has made them not
-quite as adept mentally as their cousins, but yet they are still regarded
-as very wise.  With their singular dedication to the stone, svirfnebli
-must be neutral in all  aspects of their lives.  They have the same ability
-in learning the powers of items as their surface cousins.
+Nagalar tamamen yýlan, yýlan kafalý veya belden altý yýlan olabilir, bazý
+efsaneler onlarýn insanlardan çocuk sahibi olabildiðini anlatýr. Güçlü ve
+çekici yaratýklardýr; nehirlerin, maðaralarýn, kýymetli hazinelerin ve
+geçitlerin gizemli koruyucularý olarak görev alýrlar. Tehlikeli olsalar da
+dostluklarýný kazanmak büyük kazançlar getirir, özellikle de diþilerinin
+büyüleyici güzelliðe sahip olduðu söylenmektedir. Kötü karakterli olanlarý
+asuralar gibi yeraltýyla iliþkilendirilir ve göksel kuþ Garuda'nýn en büyük
+düþmanlarýdýr.
 
+Nagalar iki þey olabilirler: Bir kutsama veya lanet, bu sadece onlara
+kalmýþtýr. Yine de yýlan soyuna saygýda kusur etmemek gerekir, ne de olsa
+yerin içinde gizli bütün sýrlarý bilen onlardýr.
 ~
--1 FELAR~
-
-The Felar are a race descended from the great cats. For long years in their
-past, the Felar were enslaved by wizards to serve as familiars.  The scars
-of this servitude still show in the relative weakness and dull wits of the
-Felar.  They are renowned, however, for their agility and their "nine lives".
-It is said a Felar can withstand blows in battle (or from an angry master)
-that would kill a human outright.
-
-The thick fur of the Felar makes them resistent to cold, but also very
-vulnerable to fire.  They also abhor water and are liable to drown in it.
-Despite heavy modification by their former masters, the Felar retain the
-large claws and fangs of their ancestors.  This gives them the ability to
-inflict extra damage during a fight, but the claws are not retractable so
-it is difficult for a Felar to walk unnoticed.  The Felar are also famed for
-their street fighting ability.  The Felar do not have the discipline or wits
-to be pure magic-users, and some of the Felar still resent the mages, anyway.
-The wars of freedom were long ago, however, so many younger Felar are willing
-to forgive and forget, and some have even begun to dabble in the magic that
-once imprisoned them.
-
+-1 BÖRÜ~
+Uzak Diyarlarýn yarý hayvan, yarý insan ýrklarýndandýr. Ýstediði zaman
+kurda dönüþebilme yeteneði olan bir ýrktýr. Genel olarak vahþi doðayý
+severler ve özgürlüklerine düþkündürler. Þehir ortamýnda normal
+insanlardan ayýrt etmek pek mümkün deðildir. Tehlike anýnda güçlü çevik
+bir kurda dönüþürler ve çevrelerine dehþet saçarlar. Dönüþtüklerinde
+hayvani içgüdülerle hareket ettikleri için tekinsizdirler. Ayrýca sahip
+olduklarý kürk nedeniyle ateþe karþý dayanýksýzdýrlar.
+Ýçgüdüsel olarak çevrelerinde olup biten þeyler konusunda (ses, koku,
+gizli kapýlar) diðer ýrklara göre farkýndalýklarý daha fazladýr.
 ~
--1 DUERGAR DARK-DWARF DARK-DWARVES~
-
-With the recent excavations unearthing paths to the Underdark, the race of
-dark dwarves known as Duergar has made its way into Anatolia.  Like their
-surface cousins they are strong, though their evil ways have changed them
-in other areas.  Unlike their cousins, they are not known for working stone
-and metal, something which has made them less hearty over time.  They have
-become more dexterous through centuries of thievery and deceit.  All Duergar
-are evil.
-
+-1 YEG~
+Uzak Diyarlarýn habis ruhlu ýrklarýndandýr. Yer altýnýn karanlýk
+dehlizlerini mesken edinen, yer üstündekilere korku salan, zulüm
+etmekten fazlasýyla haz alan, kýsa boylu, güçlü varlýklardýr. Gün
+ýþýðýndan mümkün olduðunca uzak dururlar.Geceleri av olarak seçtikleri
+masumlara sinsi tuzaklar kurarlar. Bazen sýrf eðlence için bazen de
+açlýklarýný gidermek için öldürürler. 
+Kadim lisanda Yeg, aç gözlü, doymak bilmeyen ruh demektir ve kadimler
+bu ismi boþa vermemiþtir. Deðerli madenlere ve öldürmeye karþý doymak
+bilmeyen bir istekleri vardýr. Yer altýnda olmalarý ve deðerli
+madenlere karþý olan düþkünlükleri onlarý cüce ýrkýna karþý doðal bir
+düþman haline getirmiþtir. Tadýný çok sevdikleri için, özellikle
+cücelerin bebeklerini kaçýrdýklarýna dair söylentiler vardýr. 
 ~
--1 'DARK-ELF' DARKELF DARKELVES DARK~
-
-Dark-elves are a race of renegade elves who have turned their energy toward
-evil.  They are inherently intelligent but have neglected intellectual
-studies and become very nimble from years of generations of thievery and
-mischief.  Like elves, dark-elves have infravision and can walk unnoticed.
-Dark elves must stay evil to cast any spells they might know.  Those who
-turn to good are frowned upon.  Dark-Elves are burned by the touch of
-mithril.
-
+-1 CÝREN ciren~
+Uzak Diyarlarýn yarý hayvan, yarý insan ýrklarýndandýr. Bir atýn gövdesine
+ve bacaklarýna sahip olan insansý varlýklardýr. Belden yukarýsý normal bir
+insandan farksýzdýr. Sahip olduklarý güçlü bacaklar ve hýzlarý onlarý
+diðer ýrklara göre daha çevik kýlar. Diðer yarý hayvan ýrklarda olduðu
+gibi vahþi doðada yaþamayý severler. Ormanlara karþý doðal bir baðlýlýklarý
+vardýr. Þehir ortamýndan, sahip olduklarý farklý dýþ görünüþleri ve
+insanlarýn aþaðýlayýcý tavýrlarý nedeniyle genelde uzak dururlar. Ýzin
+almadan bir cirene binmek ya da basit bir at muamelesi görmek cirenler
+arasýnda büyük bir saygýsýzlýk ve hakaret olarak kabul edilir ve onlarý
+en çok sinirlendiren þeylerden biridir. Bir cirenin öfkesini üstüne çekmek
+ise sadece aklý yarýmlarýn isteyeceði türden bir þeydir.
 ~
--1 SATYR~
+-1 CÝREN ciren~
 
-Satyrs are a race of half human and half goat race.They are evil.  They are
+Cirens are a race of half human and half goat race.They are evil.  They are
 inherently dextrerious. But not strengthful. Due the desterity they can
 steal from someone , camuflage themselves and ambush opponents very easly.
 
@@ -2435,14 +2407,23 @@ might know. And because of their organism they are vulnerable to woods.
 They have a specific spell called 'meld into stone'.
 
 ~
--1  TROLL TROLLS~
-Long hidden within the sanctity of their mountain caves, a race known in the
-past only as a myth, lies the civilization of the trolls. Built with the
-undying stamina of the mountains they reside in, these green skinned beasts
-often grow to obtain a state of health few other races believed possible.
-Hindered by their slow intellect and mobility, the troll society seems to
-have decided as a whole to rejoin the races of the realms, moving out of
-their sanctuaries in numbers reaching high into the thousands
+-1  ASURA~
+Asura Hint ve Budist mitlerindeki genellikle negatif eðilimler taþýyan,
+devasa yapýda ve dünyevi zevklere, özellikle de pahalý þeylere düþkün
+güçlü varlýklara verilen isimdir. Iran bölgesinde Ahura adýný
+almýþlardýr.
+
+Asuralar kimi zaman tanrýlarla savaþýr kimi zaman da karýþýklýða neden
+olurlar, boynuzlu ve uzun kuyruklu, iri diþleri aðýzlarýndan taþan
+yaratýklar olarak tasvir edilirler, efendi veya tanrý/yarýtanrý olarak
+kabul edildikleri olmuþsa da en çok tanýnan görüþ yeraltýnda hüküm
+sürdükleri ve yýkýcý olduklarý yönündedir. Yine de savaþ disiplinleri ve
+zekalarý nedeniyle takdir edilirler, Ýblis vb. sözcükler bu ýrk için
+yetersiz kalýr. Bir Asura'nýn saygýsý ancak onunla savaþarak kazanýlabilir
+çünkü savaþmayan kiþi köleleri olmayý kabul etmiþ demektir.
+
+Bir Asura'nýn arkadaþlýðý riskli, düþmanlýðý ise mutlaka ölümcüldür.
+Tabi ki bazý tanrýsal güçlere sahip deðilseniz.
 ~
 -1 'CLASS' 'CLASSES' 'CLASS HELP'~
 

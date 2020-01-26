@@ -165,9 +165,9 @@ CDEFIK 0 0 0
 stand stand male 200
 0 0 medium 0
 #31209
-elf savaþ büyücüsü~
-elf savaþ büyücüsü~
-Bir elf savaþ büyücüsü hazýrlýk yapýyor.
+çora savaþ büyücüsü~
+çora savaþ büyücüsü~
+Bir çora savaþ büyücüsü hazýrlýk yapýyor.
 ~
 While Elves are not by nature particularly interested in war or soldiering,
 there are, as in all races, "black sheep" who feel the call to arms as
@@ -175,7 +175,7 @@ keenly as any Dwarven or Human mercenary. These few become mercenaries or
 adventurers. Some of them, such as this fellow, labor for the forces of
 good, if the price is right.
 ~
-elf~
+çora~
 ABGR 4|8|16|32|512|524288 400 0
 56 0 50d10+5750 5d5+5000 10d4+24 pound
 -26 -26 -26 -2

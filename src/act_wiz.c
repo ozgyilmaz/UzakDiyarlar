@@ -930,13 +930,13 @@ void do_disconnect( CHAR_DATA *ch, char *argument )
 }
 
 
-void do_echo( CHAR_DATA *ch, char *argument )
+void do_duyuru( CHAR_DATA *ch, char *argument )
 {
     DESCRIPTOR_DATA *d;
 
     if ( argument[0] == '\0' )
     {
-	send_to_char( "Global echo what?\n\r", ch );
+	send_to_char( "Neyi duyuracaksýn?\n\r", ch );
 	return;
     }
 
@@ -944,95 +944,16 @@ void do_echo( CHAR_DATA *ch, char *argument )
     {
 	if ( d->connected == CON_PLAYING )
 	{
-	    if (get_trust(d->character) >= get_trust(ch))
-		send_to_char( "global> ",d->character);
+		send_to_char( CLR_RED_BOLD,d->character);
+		send_to_char( "DUYURU: ",d->character);
+		send_to_char( CLR_GREEN_BOLD,d->character);
 	    send_to_char( argument, d->character );
 	    send_to_char( "\n\r",   d->character );
+		send_to_char( CLR_WHITE,d->character);
 	}
     }
 
     return;
-}
-
-
-
-void do_recho( CHAR_DATA *ch, char *argument )
-{
-    DESCRIPTOR_DATA *d;
-
-    if ( argument[0] == '\0' )
-    {
-	send_to_char( "Local echo what?\n\r", ch );
-
-	return;
-    }
-
-    for ( d = descriptor_list; d; d = d->next )
-    {
-	if ( d->connected == CON_PLAYING
-	&&   d->character->in_room == ch->in_room )
-	{
-            if (get_trust(d->character) >= get_trust(ch))
-                send_to_char( "local> ",d->character);
-	    send_to_char( argument, d->character );
-	    send_to_char( "\n\r",   d->character );
-	}
-    }
-
-    return;
-}
-
-void do_zecho(CHAR_DATA *ch, char *argument)
-{
-    DESCRIPTOR_DATA *d;
-
-    if (argument[0] == '\0')
-    {
-	send_to_char("Zone echo what?\n\r",ch);
-	return;
-    }
-
-    for (d = descriptor_list; d; d = d->next)
-    {
-	if (d->connected == CON_PLAYING
-	&&  d->character->in_room != NULL && ch->in_room != NULL
-	&&  d->character->in_room->area == ch->in_room->area)
-	{
-	    if (get_trust(d->character) >= get_trust(ch))
-		send_to_char("zone> ",d->character);
-	    send_to_char(argument,d->character);
-	    send_to_char("\n\r",d->character);
-	}
-    }
-}
-
-void do_pecho( CHAR_DATA *ch, char *argument )
-{
-    char arg[MAX_INPUT_LENGTH];
-    CHAR_DATA *victim;
-
-    argument = one_argument(argument, arg);
-
-    if ( argument[0] == '\0' || arg[0] == '\0' )
-    {
-	send_to_char("Personal echo what?\n\r", ch);
-	return;
-    }
-
-    if  ( (victim = get_char_world(ch, arg) ) == NULL )
-    {
-	send_to_char("Target not found.\n\r",ch);
-	return;
-    }
-
-    if (get_trust(victim) >= get_trust(ch) && get_trust(ch) != MAX_LEVEL)
-        send_to_char( "personal> ",victim);
-
-    send_to_char(argument,victim);
-    send_to_char("\n\r",victim);
-    send_to_char( "personal> ",ch);
-    send_to_char(argument,ch);
-    send_to_char("\n\r",ch);
 }
 
 
@@ -2440,7 +2361,7 @@ void do_shutdown( CHAR_DATA *ch, char *argument )
     append_file( ch, (char*)SHUTDOWN_FILE, buf );
     strcat( buf, "\n\r" );
     if (ch->invis_level < LEVEL_HERO)
-    	do_echo( ch, buf );
+    	do_duyuru( ch, buf );
     reboot_anatolia(FALSE);
     return;
 }
@@ -5553,7 +5474,7 @@ void do_reboot( CHAR_DATA *ch, char *argument )
 	return;
       }
      reboot_counter = atoi(arg);
-     sprintf(buf,"Anatolia will reboot in %i ticks.\n\r",reboot_counter);
+     sprintf(buf,"Uzak Diyarlar %i tik sonra yeniden baþlatýlacak.\n\r",reboot_counter);
      send_to_char(buf,ch);
      return;
     }

@@ -28,17 +28,17 @@ Checked and beta tested by Quartz.
 
 #MOBILES
 #8800
-elf gözcüsü~
-elf gözcüsü~
-Bir elf gözcüsü varlýðýný farketti!
+çora gözcüsü~
+çora gözcüsü~
+Bir çora gözcüsü varlýðýný farketti!
 ~
-The Sylvan Elves are a good people, but centuries of subjection to the
+The Sylvan Çoras are a good people, but centuries of subjection to the
 violences and prejudices of other races have made them wary and very
 hostile toward outsiders. However, if you're tough enough, perhaps he'll
 back down. As natives of Mirkwood, they are virtually imposssible to see
 if they don't want to be seen.
 ~
-elf~
+çora~
 ABCFG FJQ 400 0
 5 0 2d6+60 1d1+99 1d6+1 punch
 5 5 5 10
@@ -46,16 +46,16 @@ DF ABNI AN GH
 stand sit male 103
 0 0 small 0
 #8801
-elf savaþçý~
-elf savaþçý~
-Bir elf savaþçý silahýný çekiyor!
+çora savaþçý~
+çora savaþçý~
+Bir çora savaþçý silahýný çekiyor!
 ~
 The Sylvan Elves are a good people, but centuries of subjection to the
 violences and prejudices of other races have made them wary and very
 hostile toward outsiders. However, if you're tough enough, perhaps he'll
 back down.
 ~
-elf~
+çora~
 ABCFG J 400 0
 7 2 2d6+84 1d1+99 1d8+1 slice
 5 5 7 10
@@ -97,14 +97,14 @@ EIN AB 0 C
 stand stand male 0
 0 0 medium 0
 #8804
-orman elfi muhafýzý~
-orman elfi muhafýzý~
-Bir orman elfi muhafýzý dikkatle seni izliyor.
+orman çorasý muhafýzý~
+orman çorasý muhafýzý~
+Bir orman çorasý muhafýzý dikkatle seni izliyor.
 ~
 This angry guard is incensed at your trespass in the hall of his king, and
 will attempt to forcibly eject you.
 ~
-elf~
+çora~
 AFGTQ J 400 8807
 8 0 2d7+98 1d1+99 1d7+2 smash
 3 3 3 5
@@ -121,7 +121,7 @@ violences and prejudices of other races have made them wary and very
 hostile toward outsiders. However, if you're tough enough, perhaps he'll
 back down.
 ~
-elf~
+çora~
 ABCFGQ J 400 0
 12 1 2d10+150 1d1+99 1d10+3 claw
 1 1 0 7
@@ -136,7 +136,7 @@ Elf kahyasý varlýðýndan tedirgin oldu.
 Galion has a tremenous fondness for Dorwinion Wine, and he is now well and
 truly inebriated. However that does not mean he won't react to your intrusion.
 ~
-elf~
+çora~
 ABCFG J 400 0
 10 0 2d7+120 1d1+99 2d4+2 punch
 2 2 2 8
@@ -146,12 +146,12 @@ stand stand male 0
 #8807
 tanduil kral~
 Kral Tanduil~
-Orman elflerinin kralý Tanduil seni dikkatle izliyor.
+Orman çoralarýnýn kralý Tanduil seni dikkatle izliyor.
 ~
 While not immune to the prejudices of his brethren, Thranduil is a trifle
 wiser (and more civilized) and he will not attack without provocation.
 ~
-elf~
+çora~
 BGR HJ 500 0
 15 1 3d9+180 1d1+149 2d5+1 claw
 -1 -1 -1 2
@@ -159,14 +159,14 @@ CDEK 0 D 0
 sit sit male 0
 0 0 medium 0
 #8808
-erkek elf~
-erkek elf~
-Bir elf erkeði sana sinirle bakýyor.
+erkek çora~
+erkek çora~
+Bir çora erkeði sana sinirle bakýyor.
 ~
 This person won't attack you like the guards will, but that doesn't mean
 he likes you any more than they do...
 ~
-elf~
+çora~
 CGQ J 400 0
 6 0 2d7+70 1d1+99 1d7+1 punch
 4 4 4 5
@@ -174,14 +174,14 @@ FR 0 0 0
 stand stand male 0
 0 0 small 0
 #8809
-elf kadýn~
-kadýn elf~
-Bir elf kadýný sana sinirle bakýyor.
+çora kadýn~
+kadýn çora~
+Bir çora kadýný sana sinirle bakýyor.
 ~
 This person won't attack you like the guards will, but that doesn't mean
 ahe likes you any more than they do...
 ~
-elf~
+çora~
 CGQ J 400 0
 6 0 2d7+65 1d1+99 1d7+1 punch
 5 5 5 5
@@ -189,13 +189,13 @@ FR 0 0 0
 stand stand female 0
 0 0 small 0
 #8810
-elf gardiyan~
+çora gardiyan~
 gardiyan~
 Gardiyan uyuyakalmýþ.
 ~
 This surly fellow is almost always passed out from copious alcohol consumption.
 ~
-elf~
+çora~
 BCG J 0 0
 9 -1 2d6+112 1d1+99 1d8+2 slap
 2 2 2 4
@@ -211,7 +211,7 @@ This Dwarf is descended from noble blood. He and his fellows were waylaid
 by the Wood Elves while journeying to avenge their brethren against the
 dragon Smaug.
 ~
-elf~
+çora~
 CGQ O 500 0
 14 0 2d10+190 1d1+99 1d12+3 punch
 -1 -1 -1 0
@@ -235,8 +235,8 @@ havuz~
 It looks tasty. Have a drink!
 ~
 #8801
-elf kýlýç~
-elf kýlýcý~
+çora kýlýç~
+çora kýlýcý~
 Güzel bir kýlýç burada býrakýlmýþ.~
 adamantite~
 weapon G AN
@@ -245,9 +245,9 @@ sword 1 5 slash 0
 A
 18 2
 #8802
-elf fularý~
-elf fularý~
-Güzel bir elf fularý burada býrakýlmýþ.~
+çora fularý~
+çora fularý~
+Güzel bir çora fularý burada býrakýlmýþ.~
 cloth~
 armor G AC
 3 3 3 0 1
@@ -257,9 +257,9 @@ A
 A
 17 -2
 #8803
-elf çizme~
-bir çift elf çizmesi~
-Bir çift elf çizmesi burada býrakýlmýþ.~
+çora çizme~
+bir çift çora çizmesi~
+Bir çift çora çizmesi burada býrakýlmýþ.~
 leather~
 armor G AG
 3 4 4 0 2
@@ -271,7 +271,7 @@ A
 #8804
 su þiþesi~
 su þiþesi~
-Elf iþi bir su þiþesi görüyorsun.~
+Çora iþi bir su þiþesi görüyorsun.~
 porcelain~
 drink 0 A
 10 10 'water' 0 0
@@ -331,9 +331,9 @@ drink 0 A
 100 0 'water' 0 0
 1 140 200 G
 #8811
-güzel elf kýlýç~
-güzel bir elf kýlýcý~
-Güzel bir elf kýlýcý burada býrakýlmýþ.~
+güzel çora kýlýç~
+güzel bir çora kýlýcý~
+Güzel bir çora kýlýcý burada býrakýlmýþ.~
 metal~
 weapon AL AN
 sword 2 12 cleave DF
@@ -573,7 +573,7 @@ D4
 S
 #8810
 Muhafýz Noktasý~
-You have stumbled into a Sylvan Elf guard post, from which they carefully
+You have stumbled into a Sylvan Çora guard post, from which they carefully
 watch out for intruding Orcs or Goblins. They dislike strangers in general,
 and detest interlopers into their personal areas even more. Expect a violent
 reception if there is a guard present...
@@ -750,7 +750,7 @@ D4
 S
 #8821
 Muhafýz Noktasý~
-You have stumbled into a Sylvan Elf guard post, from which they carefully
+You have stumbled into a Sylvan Çora guard post, from which they carefully
 watch out for intruding Orcs or Goblins. They dislike strangers in general,
 and detest interlopers into their personal areas even more. Expect a violent
 reception if there is a guard present...
@@ -1169,7 +1169,7 @@ D2
 S
 #8846
 Muhafýz Noktasý~
-You have stumbled into a Sylvan Elf guard post, from which they carefully
+You have stumbled into a Sylvan Çora guard post, from which they carefully
 watch out for intruding Orcs or Goblins. They dislike strangers in general,
 and detest interlopers into their personal areas even more. Expect a violent
 reception if there is a guard present...
@@ -1630,15 +1630,15 @@ S
 
 #SPECIALS
 M 8800 spec_poison
-* M 8801 spec_elf
+* M 8801 spec_cora
 M 8802 spec_nasty
 M 8803 spec_nasty
 M 8803 spec_guard
 M 8805 spec_guard
-* M 8806 spec_elf
+* M 8806 spec_cora
 M 8807 spec_cast_mage
-* M 8808 spec_elf
-* M 8809 spec_elf
+* M 8808 spec_cora
+* M 8809 spec_cora
 S
 
 #$

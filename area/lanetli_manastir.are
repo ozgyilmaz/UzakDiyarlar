@@ -125,15 +125,15 @@ EFHIJKNQ 0 0 0
 stand stand none 0
 0 0 large 0
 #30807
-elf bakire~
-elf bakire~
-Çýrýlçýplak vücuduyla bir elf bakire mimbere zincirlenmiþ.
+çora bakire~
+çora bakire~
+Çýrýlçýplak vücuduyla bir çora bakire mimbere zincirlenmiþ.
 ~
-The monks capture and sacrifice female elven virgins to summon devils from
+The monks capture and sacrifice female çora virgins to summon devils from
 the Hells. This one has gone quite insane from the pain and shock of capture
 and subsequent subjection to the cruel rituals of the monks.
 ~
-elf~
+çora~
 2|64 0 0 0
 1 0 2d6+10 5d5+100 1d4+0 punch
 9 9 9 10
@@ -202,16 +202,16 @@ CDEFQ 0 0 0
 stand stand male 0
 0 0 giant 0
 #30812
-yaþlý elf~
-yaþlý elf~
-Yaþlý bir elf kayanýn üzerinde oturuyor.
+yaþlý çora~
+yaþlý çora~
+Yaþlý bir çora kayanýn üzerinde oturuyor.
 ~
-This old elf, one Felthesres by name, is one of the bards of Malathar who has
+This old çora, one Felthesres by name, is one of the bards of Malathar who has
 vowed to remain here and await the return of the Paladin Grimafax from his
 missions. He has been waiting several centuries, and will be waiting for
 much longer before Grimafax returns.
 ~
-elf~
+çora~
 2|64 128 1000 0
 62 0 50d10+7250 5d5+5000 6d9+32 punch
 -32 -32 -32 -4
@@ -360,8 +360,8 @@ A
 A
 19 6
 #30808
-elf uzunkýlýç iþlemeli~
-elf uzunkýlýcý~
+çora uzunkýlýç iþlemeli~
+çora uzunkýlýcý~
 Ýþlemeli bir kýlýç burada düþürülmüþ.~
 ~
 weapon 1|64 1|8192
@@ -372,8 +372,8 @@ A
 A
 18 12
 #30809
-elf iþi örgü zýrhý~
-elf iþi örgü zýrh~
+çora iþi örgü zýrhý~
+çora iþi örgü zýrh~
 Bir örgü zýrhý burada býrakýlmýþ.~
 ~
 armor 1|64 1|8
@@ -1500,7 +1500,7 @@ S
 #30837
 Mezar~
 The tomb is icy cold, almost dangerously so, and is dominated by a huge
-sarcophagus, inside which rests the corpse of an elven paladin. Maybe it
+sarcophagus, inside which rests the corpse of an çora paladin. Maybe it
 wasn't such a good idea releasing him...
 ~
 0 1|8 0
@@ -2172,7 +2172,7 @@ S
 #30879
 Hücreler~
 Here the Necromancers store the results of their twisted experiments on some
-captured elven knights. They howl and scream so much that even their
+captured çora knights. They howl and scream so much that even their
 creators are scared of them.
 ~
 0 1|8 0
@@ -2559,7 +2559,7 @@ E 1 30844 1 15           surcoat
 *
 M 1 30811 1 30819 1*        dwagony-poo
 *
-M 1 30812 1 30800  1*       old elf
+M 1 30812 1 30800  1*       old çora
 *
 M 1 30813 1 30824  1*       bone golem
 O 1 30824 1 30824         bellows
@@ -2719,7 +2719,7 @@ M 30806 spec_cast_undead
 *M 30809 spec_grue
 M 30810 spec_cast_cleric
 M 30811 spec_breath_acid
-*M 30812 spec_elf
+*M 30812 spec_cora
 *M 30813 spec_align_change
 M 30814 spec_poison
 M 30815 spec_fido

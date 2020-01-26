@@ -139,7 +139,6 @@ typedef struct	help_data		HELP_DATA;
 typedef struct	kill_data		KILL_DATA;
 typedef struct	mem_data		MEM_DATA;
 typedef struct	mob_index_data		MOB_INDEX_DATA;
-typedef struct	note_data		NOTE_DATA;
 typedef struct  obj_data		OBJ_DATA;
 typedef struct	obj_index_data		OBJ_INDEX_DATA;
 typedef struct	pc_data			PC_DATA;
@@ -268,9 +267,9 @@ typedef void OPROG_FUN_AREA args((OBJ_DATA *obj));
 #define MAX_SKILL		  426
 #define MAX_ALIAS		   20
 #define MAX_CLASS		   13
-#define MAX_PC_RACE		   15
+#define MAX_PC_RACE		   10
 /* unique ve null dahil */
-#define MAX_RACE		    83
+#define MAX_RACE		    77
 #define MAX_CABAL		    9
 #define MAX_RELIGION		   18
 #define MAX_TIME_LOG		   14
@@ -449,11 +448,10 @@ struct buf_type
 
 struct	time_info_data
 {
-    int		bmin;
-    int		hour;
-    int		day;
-    int		month;
-    int		year;
+    long	hour;
+    long	day;
+    long	month;
+    long	year;
 };
 
 struct	weather_data
@@ -651,13 +649,18 @@ struct	class_type
 
 #define LANG_COMMON          0
 #define LANG_HUMAN           1
-#define LANG_ELVISH          2
+#define LANG_CORA            2
 #define LANG_DWARVISH        3
-#define LANG_GNOMISH         4
-#define LANG_GIANT	     5
-#define LANG_TROLLISH        6
-#define LANG_CAT	     7
-#define MAX_LANGUAGE	     8
+#define LANG_NAGA         4
+#define LANG_YEG	     5
+#define LANG_GAMAYUN        6
+#define LANG_BORU	     7
+#define LANG_CIREN	     8
+#define LANG_ASURA	     9
+#define LANG_GNOMISH		10
+#define LANG_GIANT			11
+#define LANG_CAT			12
+#define MAX_LANGUAGE	     13
 
 struct item_type
 {
@@ -732,31 +735,6 @@ struct prac_type
     const char * 	name;
     sh_int	number;
 };
-
-
-/*
- * Data structure for notes.
- */
-
-#define NOTE_NOTE	0
-#define NOTE_IDEA	1
-#define NOTE_PENALTY	2
-#define NOTE_NEWS	3
-#define NOTE_CHANGES	4
-struct	note_data
-{
-    NOTE_DATA *	next;
-    bool 	valid;
-    sh_int	type;
-    char *	sender;
-    char *	date;
-    char *	to_list;
-    char *	subject;
-    char *	text;
-    time_t  	date_stamp;
-};
-
-
 
 /*
  * An affect.
@@ -856,7 +834,7 @@ struct	kill_data
 #define MOB_VNUM_ARMOR			34
 
 #define MOB_VNUM_PATROLMAN	   2106
-#define GROUP_VNUM_TROLLS	   2100
+#define GROUP_VNUM_ASURA	   2100
 #define GROUP_VNUM_OGRES	   2101
 
 
@@ -901,23 +879,14 @@ struct	kill_data
 /* race table */
 #define RACE_NONE 		(ee - 1)
 #define RACE_HUMAN  		(A)
-#define RACE_ELF 		(B)
-#define RACE_HALF_ELF 		(C)
-#define RACE_DARK_ELF 		(D)
-#define RACE_ROCKSEER		(E)	/* 5 */
+#define RACE_CORA 		(B)
 #define RACE_DWARF 		(F)
-#define RACE_SVIRFNEBLI		(G)
-#define RACE_DUERGAR		(H)
-#define RACE_ARIAL		(I)
-#define RACE_GNOME		(J)	/* 10 */
-#define RACE_STORM_GIANT	(K)
-#define RACE_CLOUD_GIANT	(L)
-#define RACE_FIRE_GIANT		(M)
-#define RACE_FROST_GIANT 	(N)
-#define RACE_FELAR		(O)	/* 15 */
-#define RACE_GITHYANKI		(P)
-#define RACE_SATYR		(Q)
-#define RACE_TROLL		(R)
+#define RACE_NAGA		(G)
+#define RACE_YEG		(H)
+#define RACE_GAMAYUN		(I)
+#define RACE_BORU		(O)	/* 15 */
+#define RACE_CIREN		(Q)
+#define RACE_ASURA		(R)
 
 #define RACE_TOP		(T)
 
@@ -1179,7 +1148,7 @@ struct	kill_data
 #define FORM_INTANGIBLE         (L)
 
 #define FORM_BIPED              (M)
-#define FORM_CENTAUR            (N)
+#define FORM_CIREN              (N)
 #define FORM_INSECT             (O)
 #define FORM_SPIDER             (P)
 #define FORM_CRUSTACEAN         (Q)
@@ -2118,7 +2087,6 @@ struct	char_data
     MOB_INDEX_DATA *	pIndexData;
     DESCRIPTOR_DATA *	desc;
     AFFECT_DATA *	affected;
-    NOTE_DATA *		pnote;
     OBJ_DATA *		carrying;
     OBJ_DATA *		on;
     ROOM_INDEX_DATA *	in_room;
@@ -2215,16 +2183,12 @@ struct	pc_data
 {
     PC_DATA *		next;
     BUFFER * 		buffer;
+		time_t		birth_time;
     bool		valid;
     char *		pwd;
     char *		bamfin;
     char *		bamfout;
     char *		title;
-    time_t              last_note;
-    time_t              last_idea;
-    time_t              last_penalty;
-    time_t              last_news;
-    time_t              last_changes;
     int			perm_hit;
     int			perm_mana;
     int			perm_move;
@@ -2802,9 +2766,6 @@ extern sh_int  gsn_mental_knife;
 #define RACE(ch)		(ch->race)
 #define ORG_RACE(ch)		(IS_NPC(ch) ? ch->pIndexData->race : ch->pcdata->race)
 
-#define GET_AGE(ch)		((int) (17 + ((ch)->played \
-				    + current_time - (ch)->logon )/72000))
-
 #define IS_GOOD(ch)		(ch->alignment >= 350)
 #define IS_EVIL(ch)		(ch->alignment <= -350)
 #define IS_NEUTRAL(ch)		(!IS_GOOD(ch) && !IS_EVIL(ch))
@@ -3076,11 +3037,6 @@ char *	crypt		args( ( const char *key, const char *salt ) );
 #define AREA_LIST       "area.lst"  /* List of areas*/
 #define BUG_FILE        "bugs.txt" /* For 'bug' and bug()*/
 #define TYPO_FILE       "typos.txt" /* For 'typo'*/
-#define NOTE_FILE       "notes.not"/* For 'notes'*/
-#define IDEA_FILE	"ideas.not"
-#define PENALTY_FILE	"penal.not"
-#define NEWS_FILE	"news.not"
-#define CHANGES_FILE	"chang.not"
 #define SHUTDOWN_FILE   "shutdown.txt"/* For 'shutdown'*/
 #define BAN_FILE	"ban.txt"
 #define AREASTAT_FILE	"area_stat.txt"
@@ -3271,7 +3227,6 @@ bool	is_old_mob	args ( (CHAR_DATA *ch) );
 int	get_skill	args( ( CHAR_DATA *ch, int sn ) );
 int	get_weapon_sn	args( ( CHAR_DATA *ch, bool second) );
 int	get_weapon_skill args(( CHAR_DATA *ch, int sn ) );
-int     get_age         args( ( CHAR_DATA *ch ) );
 void	reset_char	args( ( CHAR_DATA *ch )  );
 int	get_trust	args( ( CHAR_DATA *ch ) );
 int	get_curr_stat	args( ( CHAR_DATA *ch, int stat ) );
@@ -3422,6 +3377,11 @@ char *	spec_name	args( ( SPEC_FUN *function ) );
 RID *	room_by_name	args( ( char *target, int level, bool error) );
 
 /* update.c */
+void	game_time_update args(( void ));
+void	game_time_to_string args(( time_t gameTime , char *buf ));
+int		game_time_to_year args(( time_t gameTime ));
+int     get_age         args( ( CHAR_DATA *ch ) );
+int		age_to_num	args( ( int age) );
 void	advance_level	args( ( CHAR_DATA *ch ) );
 void	gain_exp	args( ( CHAR_DATA *ch, int gain ) );
 void	gain_condition	args( ( CHAR_DATA *ch, int iCond, int value ) );

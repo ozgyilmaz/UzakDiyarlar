@@ -51,7 +51,7 @@ Bir Peri havada spiraller çiziyor.
 This winged creature is the epitome of mischief. He loves to pick on travelers,
 and guess what....   It's your turn :).
 ~
-elf~
+çora~
 AFGH 0 -360 0
 36 0 10d10+1400 15d5+25 3d10+11 punch
 -12 -12 -12 0
@@ -66,7 +66,7 @@ A small Pixie flits about the room.
 This winged creature is the epitome of mischief. He loves to pick on travelers,
 and guess what....   It's your turn :).
 ~
-elf~
+çora~
 AFGH 0 -360 0
 33 0 10d10+1100 15d5+25 6d4+10 punch
 -10 -10 -10 0
@@ -112,7 +112,7 @@ The Pixe King is slightly bigger than other pixies.  He is really cool.
 The King loves to frolic and play, especially with new friends.
 He asks you "Will you be my friend?".
 ~
-elf~
+çora~
 ABFG DF 1000 0
 48 0 25d10+3500 23d8+100 6d6+18 charge
 -16 -16 -16 -3
@@ -128,7 +128,7 @@ The GateKeeper is a grim staunch figure.  He looks as if he has been
 carrying a large burden for some time.  You feel sorry for him, but
 he does have the anahtar that you need to continue on through the cave.
 ~
-elf~
+çora~
 ABFGT DF 0 0
 45 0 25d10+2750 24d7+100 8d4+16 pound
 -15 -15 -15 2
@@ -163,7 +163,7 @@ The Pixie Guard doesn't really do much to inspire fear in your heart, but you
 suppose that if pressed, he could fight quite visciously compared to most
 Pixies.
 ~
-elf~
+çora~
 ABGMT 0 1000 2405
 39 0 10d10+1700 5d10+50 5d6+13 pound
 -13 -13 -13 0
@@ -180,7 +180,7 @@ encountered.  His glow has taken on a pale green color, and he is staring
 at you maliciously.  The asa he carries seems familiar, but you are not
 sure from where you remember it.
 ~
-elf~
+çora~
 ACGHR DH -500 0
 58 0 50d10+6000 34d10+100 5d10+25 pound
 -27 -27 -27 -10
@@ -196,7 +196,7 @@ The Pixie Guard doesn't really do much to inspire fear in your heart, but you
 suppose that if pressed, she could fight quite visciously compared to most
 Pixies.
 ~
-elf~
+çora~
 ABGMT 0 1000 2405
 39 0 15d9+1700 5d10+50 3d10+11 scratch
 -13 -13 -13 0
@@ -211,7 +211,7 @@ Bir Peri havada spiraller çiziyor.
 This winged creature is the epitome of mischief. He loves to pick on
 travelers, and guess what.... It's your turn :).
 ~
-elf~
+çora~
 AHS DEPQZ -500 0
 36 0 10d30+1400 100d10+100 3d10+11 pound
 -11 -11 -11 0

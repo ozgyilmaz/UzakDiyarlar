@@ -103,14 +103,14 @@ EIKU 0 0 0
 stand stand male 400
 0 0 medium 0
 #1507
-küçük trol~
-küçük bir trol~
-Küçük bir troll homurdanarak sana doðru ilerliyor.
+küçük asura~
+küçük bir asura~
+Küçük bir asura homurdanarak sana doðru ilerliyor.
 ~
 Suratý insana benzeyen ama gözleri ve diþleri hahþi bir hayvaný andýran
-kýsa ve týknaz bir trol.
+kýsa ve týknaz bir asura.
 ~
-troll~
+asura~
 ABCF 0 -900 0
 8 0 2d7+96 4d9+100 1d7+2 none
 3 3 3 9
@@ -174,14 +174,14 @@ EFNU 0 0 0
 stand stand male 1
 0 0 medium 0
 #1512
-dev trol~
-dev trol~
-Dev bir trol etrafta geziniyor.
+dev asura~
+dev asura~
+Dev bir asura etrafta geziniyor.
 ~
 Canlý ve kocaman bir vücudu var. Güçlü kolunu seni ezmek için
 kaldýrdýðýnda korkudan büzülüyorsun.
 ~
-troll~
+asura~
 ABF 0 -800 0
 14 0 2d10+190 7d9+100 1d12+3 none
 -1 -1 -1 8
@@ -2135,7 +2135,7 @@ G 1 1506  -1     	*   a bloody potion
 E 1 1507  10    3	*   a bloody cloak
 M 0 1508   2 1522  2	* a field mouse
 M 0 1508   2 1522  2	* a field mouse
-M 0 1507   1 1524  1	* a small troll
+M 0 1507   1 1524  1	* a small asura
 M 0 1504   6 1527  2	* a gnome guard
 E 1 1504  20   16	*   a gnome sword
 M 0 1504   6 1530  2	* a gnome guard
@@ -2158,7 +2158,7 @@ R 0 1552   4     	* A Damp Hallway
 R 0 1553   4     	* A Damp Hallway
 R 0 1554   4     	* A Damp Hallway
 R 0 1555   4     	* A Damp Hallway
-M 0 1512   1 1545  1	* the troll
+M 0 1512   1 1545  1	* the asura
 G 1 1501   4     	*   a dirty key
 D 0 1545   3    2	* End of the Dark Hallway west
 D 0 1546   1    2	* A Ladder east

@@ -44,6 +44,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
+#include <math.h>
 #include "merc.h"
 
 /* command procedures needed */
@@ -585,7 +586,7 @@ void mobile_update( void )
 	if ( IS_AFFECTED(ch, AFF_REGENERATION ) && ch->in_room != NULL )
 	{
 	 ch->hit = UMIN( ch->hit + ch->level / 10, ch->max_hit );
-	 if ( RACE(ch) == 18 /* troll */ )
+	 if ( RACE(ch) == 18 /* asura */ )
 	   ch->hit = UMIN( ch->hit + ch->level / 10, ch->max_hit );
 	 if (ch->cabal == CABAL_BATTLE && is_affected(ch, gsn_bandage))
 	   ch->hit = UMIN( ch->hit + ch->level / 10, ch->max_hit );
@@ -872,150 +873,213 @@ int i;
   return(FALSE);
 }
 
+void game_time_update( void )
+{
+	/* varsayýlan deðerler */
+	long milat 			= 0;
+	long bir_oyun_saati	= 5 * 60; /* 300 gerçek saniye , 5 gerçek dakika */
+	long bir_oyun_gunu	= 24 * bir_oyun_saati; /* 120 gerçek dakika , 2 gerçek saat*/
+	long bir_oyun_ayi	= 10 * bir_oyun_gunu; /* 20 gerçek saat */
+	long bir_oyun_yili	= 12 * bir_oyun_ayi; /* 240 gerçek saat, 10 gerçek gün */
+
+	long x , eski_gun;
+	char buf[ MAX_STRING_LENGTH ];
+
+	eski_gun = time_info.day;
+
+	x = (long)(current_time - milat);
+	time_info.year = ceil( (float)x / (float)bir_oyun_yili );
+
+	x = x % bir_oyun_yili;
+	time_info.month = ceil( (float)x / (float)bir_oyun_ayi );
+
+	x = x % bir_oyun_ayi;
+	time_info.day = ceil( (float)x / (float)bir_oyun_gunu );
+
+	x = x % bir_oyun_gunu;
+	time_info.hour = x / bir_oyun_saati;
+
+	if( eski_gun != time_info.day )
+	{
+		sprintf( buf,"Oyun tarihi: %ld/%ld/%ld Saat: %ld",time_info.day,time_info.month,time_info.year,time_info.hour);
+		log_string( buf );
+	}
+}
+
+void game_time_to_string( time_t gameTime , char *buf )
+{
+	/* varsayýlan deðerler */
+	long milat 			= 1000000000;
+	long bir_oyun_saati	= 5 * 60; /* 300 gerçek saniye , 5 gerçek dakika */
+	long bir_oyun_gunu	= 24 * bir_oyun_saati; /* 120 gerçek dakika , 2 gerçek saat*/
+	long bir_oyun_ayi	= 10 * bir_oyun_gunu; /* 20 gerçek saat */
+	long bir_oyun_yili	= 12 * bir_oyun_ayi; /* 240 gerçek saat, 10 gerçek gün */
+
+	long yil , ay , gun , x;
+
+	x = (long)( gameTime - milat );
+	yil = ceil( (float)x / (float)bir_oyun_yili );
+
+	x = x % bir_oyun_yili;
+	ay = ceil( (float)x / (float)bir_oyun_ayi );
+
+	x = x % bir_oyun_ayi;
+	gun = ceil( (float)x / (float)bir_oyun_gunu );
+
+	sprintf( buf, "%ld/%ld/%ld",gun,ay,yil);
+}
+
+int game_time_to_year( time_t gameTime )
+{
+	/* varsayýlan deðerler */
+	long milat 			= 0;
+	long bir_oyun_saati	= 5 * 60; /* 300 gerçek saniye , 5 gerçek dakika */
+	long bir_oyun_gunu	= 24 * bir_oyun_saati; /* 120 gerçek dakika , 2 gerçek saat*/
+	long bir_oyun_ayi	= 10 * bir_oyun_gunu; /* 20 gerçek saat */
+	long bir_oyun_yili	= 12 * bir_oyun_ayi; /* 240 gerçek saat, 10 gerçek gün */
+
+	long yil , x;
+
+	x = (long)( gameTime - milat );
+	yil = ceil( (float)x / (float)bir_oyun_yili );
+	return yil;
+}
+
+int get_age( CHAR_DATA *ch )
+{
+	int birth_year = game_time_to_year(ch->pcdata->birth_time);
+	int current_year = game_time_to_year( current_time );
+    return (current_year - birth_year);
+}
+
+
+int age_to_num( int age )
+{
+    return  age * 72000;
+}
+
 /*
  * Update the weather.
  */
-void weather_update( void )
-{
-    char buf[MAX_STRING_LENGTH];
-    DESCRIPTOR_DATA *d;
-    int diff;
+ void weather_update( void )
+ {
+     char buf[MAX_STRING_LENGTH];
+     DESCRIPTOR_DATA *d;
+     int diff;
 
 
 
-    buf[0] = '\0';
-    if ( ++time_info.bmin  == 2 )
-    {
-	time_info.bmin = 0;
-	time_info.hour++;
-    }
+     buf[0] = '\0';
 
-    switch ( time_info.hour )
-    {
-    case  5:
-	weather_info.sunlight = SUN_LIGHT;
-  strcat( buf, "Gün baþladý.\n\r" );
-	break;
+     switch ( time_info.hour )
+     {
+     case  5:
+ 	weather_info.sunlight = SUN_LIGHT;
+ 	strcat( buf, "Gün baþladý.\n\r" );
+ 	break;
 
-    case  6:
-	weather_info.sunlight = SUN_RISE;
-  strcat( buf, "Güneþ doðudan yükseliyor.\n\r" );
-	break;
+     case  6:
+ 	weather_info.sunlight = SUN_RISE;
+ 	strcat( buf, "Güneþ doðudan yükseliyor.\n\r" );
+ 	break;
 
-    case 19:
-	weather_info.sunlight = SUN_SET;
-  strcat( buf, "Güneþ batýda yavaþça kayboluyor.\n\r" );
-	break;
+     case 19:
+ 	weather_info.sunlight = SUN_SET;
+ 	strcat( buf, "Güneþ batýda yavaþça kayboluyor.\n\r" );
+ 	break;
 
-    case 20:
-	weather_info.sunlight = SUN_DARK;
-  strcat( buf, "Gece baþladý.\n\r" );
-	break;
+     case 20:
+ 	weather_info.sunlight = SUN_DARK;
+ 	strcat( buf, "Gece baþladý.\n\r" );
+ 	break;
+     }
 
-    case 24:
-	time_info.hour = 0;
-	time_info.day++;
-	break;
-    }
+     /*
+      * Weather change.
+      */
+     if ( time_info.month >= 9 && time_info.month <= 12 )
+ 	diff = weather_info.mmhg >  985 ? -2 : 2;
+     else
+ 	diff = weather_info.mmhg > 1015 ? -2 : 2;
 
-    if ( time_info.day   >= 35 )
-    {
-	time_info.day = 0;
-	time_info.month++;
-    }
+     weather_info.change   += diff * dice(1, 4) + dice(2, 6) - dice(2, 6);
+     weather_info.change    = UMAX(weather_info.change, -12);
+     weather_info.change    = UMIN(weather_info.change,  12);
 
-    if ( time_info.month >= 17 )
-    {
-	time_info.month = 0;
-	time_info.year++;
-    }
+     weather_info.mmhg += weather_info.change;
+     weather_info.mmhg  = UMAX(weather_info.mmhg,  960);
+     weather_info.mmhg  = UMIN(weather_info.mmhg, 1040);
 
-    /*
-     * Weather change.
-     */
-    if ( time_info.month >= 9 && time_info.month <= 16 )
-	diff = weather_info.mmhg >  985 ? -2 : 2;
-    else
-	diff = weather_info.mmhg > 1015 ? -2 : 2;
+     switch ( weather_info.sky )
+     {
+     default:
+ 	bug( "Weather_update: bad sky %d.", weather_info.sky );
+ 	weather_info.sky = SKY_CLOUDLESS;
+ 	break;
 
-    weather_info.change   += diff * dice(1, 4) + dice(2, 6) - dice(2, 6);
-    weather_info.change    = UMAX(weather_info.change, -12);
-    weather_info.change    = UMIN(weather_info.change,  12);
+     case SKY_CLOUDLESS:
+ 	if ( weather_info.mmhg <  990
+ 	|| ( weather_info.mmhg < 1010 && number_bits( 2 ) == 0 ) )
+ 	{
+ 	    strcat( buf, "Gökyüzü bulutlanýyor.\n\r" );
+ 	    weather_info.sky = SKY_CLOUDY;
+ 	}
+ 	break;
 
-    weather_info.mmhg += weather_info.change;
-    weather_info.mmhg  = UMAX(weather_info.mmhg,  960);
-    weather_info.mmhg  = UMIN(weather_info.mmhg, 1040);
+     case SKY_CLOUDY:
+ 	if ( weather_info.mmhg <  970
+ 	|| ( weather_info.mmhg <  990 && number_bits( 2 ) == 0 ) )
+ 	{
+ 	    strcat( buf, "Yaðmur baþladý.\n\r" );
+ 	    weather_info.sky = SKY_RAINING;
+ 	}
 
-    switch ( weather_info.sky )
-    {
-    default:
-	bug( "Weather_update: bad sky %d.", weather_info.sky );
-	weather_info.sky = SKY_CLOUDLESS;
-	break;
+ 	if ( weather_info.mmhg > 1030 && number_bits( 2 ) == 0 )
+ 	{
+ 	    strcat( buf, "Bulutlar daðýlýyor.\n\r" );
+ 	    weather_info.sky = SKY_CLOUDLESS;
+ 	}
+ 	break;
 
-    case SKY_CLOUDLESS:
-	if ( weather_info.mmhg <  990
-	|| ( weather_info.mmhg < 1010 && number_bits( 2 ) == 0 ) )
-	{
-    strcat( buf, "Gökyüzü bulutlanýyor.\n\r" );
-	    weather_info.sky = SKY_CLOUDY;
-	}
-	break;
+     case SKY_RAINING:
+ 	if ( weather_info.mmhg <  970 && number_bits( 2 ) == 0 )
+ 	{
+ 	    strcat( buf, "Gökyüzünde þimþekler çakýyor.\n\r" );
+ 	    weather_info.sky = SKY_LIGHTNING;
+ 	}
 
-    case SKY_CLOUDY:
-	if ( weather_info.mmhg <  970
-	|| ( weather_info.mmhg <  990 && number_bits( 2 ) == 0 ) )
-	{
-    strcat( buf, "Yaðmur baþladý.\n\r" );
-	    weather_info.sky = SKY_RAINING;
-	}
+ 	if ( weather_info.mmhg > 1030
+ 	|| ( weather_info.mmhg > 1010 && number_bits( 2 ) == 0 ) )
+ 	{
+ 	    strcat( buf, "Yaðmur dindi.\n\r" );
+ 	    weather_info.sky = SKY_CLOUDY;
+ 	}
+ 	break;
 
-	if ( weather_info.mmhg > 1030 && number_bits( 2 ) == 0 )
-	{
-    strcat( buf, "Bulutlar daðýlýyor.\n\r" );
-	    weather_info.sky = SKY_CLOUDLESS;
-	}
-	break;
+     case SKY_LIGHTNING:
+ 	if ( weather_info.mmhg > 1010
+ 	|| ( weather_info.mmhg >  990 && number_bits( 2 ) == 0 ) )
+ 	{
+ 	    strcat( buf, "Þimþekler durdu.\n\r" );
+ 	    weather_info.sky = SKY_RAINING;
+ 	    break;
+ 	}
+ 	break;
+     }
 
-    case SKY_RAINING:
-	if ( weather_info.mmhg <  970 && number_bits( 2 ) == 0 )
-	{
-    strcat( buf, "Gökyüzünde þimþekler çakýyor.\n\r" );
-	    weather_info.sky = SKY_LIGHTNING;
-	}
+     if ( buf[0] != '\0' )
+     {
+ 	for ( d = descriptor_list; d != NULL; d = d->next )
+ 	{
+ 	    if ( d->connected == CON_PLAYING
+ 	    &&   IS_OUTSIDE(d->character)
+ 	    &&   IS_AWAKE(d->character) )
+ 		send_to_char( buf, d->character );
+ 	}
+     }
 
-	if ( weather_info.mmhg > 1030
-	|| ( weather_info.mmhg > 1010 && number_bits( 2 ) == 0 ) )
-	{
-    strcat( buf, "Yaðmur dindi.\n\r" );
-	    weather_info.sky = SKY_CLOUDY;
-	}
-	break;
-
-    case SKY_LIGHTNING:
-	if ( weather_info.mmhg > 1010
-	|| ( weather_info.mmhg >  990 && number_bits( 2 ) == 0 ) )
-	{
-    strcat( buf, "Þimþekler durdu.\n\r" );
-	    weather_info.sky = SKY_RAINING;
-	    break;
-	}
-	break;
-    }
-
-    if ( buf[0] != '\0' )
-    {
-	for ( d = descriptor_list; d != NULL; d = d->next )
-	{
-	    if ( d->connected == CON_PLAYING
-	    &&   IS_OUTSIDE(d->character)
-	    &&   IS_AWAKE(d->character) )
-		send_to_char( buf, d->character );
-	}
-    }
-
-    return;
-}
+     return;
+ }
 
 
 

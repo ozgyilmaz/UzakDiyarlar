@@ -37,14 +37,14 @@ BKP 0 0 C
 stand stand female 0
 AB ACBCDH large 0
 #14502
-tüccar elf~
+tüccar çora~
 Elf tüccar~
-Bir Elf tüccar mallarýný kontrol ediyor.
+Bir Çora tüccar mallarýný kontrol ediyor.
 ~
-This Elf does not appear to be very prosperous. His violet eyes look you
+This Çora does not appear to be very prosperous. His violet eyes look you
 over as he tries to decide if you are a client or a salesman.
 ~
-elf~
+çora~
 BG J -1 0
 12 0 2d10+150 119d1+1 1d10+3 pound
 0 0 0 8
@@ -243,13 +243,13 @@ BJNQ 0 0 C
 stand stand female 223
 AHMV ABCDEFGHIJ medium 0
 #14516
-elf erkek~
-Elf Erkeði~
-Bir Elf Erkeði birþeyler arýyor.
+çora erkek~
+Çora Erkeði~
+Bir Çora Erkeði birþeyler arýyor.
 ~
-The Elven Man looks at you intently before continuing on his way.
+The Çora Man looks at you intently before continuing on his way.
 ~
-elf~
+çora~
 ABR DEFZ 500 0
 13 0 2d10+170 129d1+1 2d5+3 magic
 -1 -1 -1 8
@@ -257,13 +257,13 @@ FG A B Z
 stand stand male 513
 AHMV ABCDEFGHIJ medium 0
 #14517
-elf kadýn~
-Elf Kadýný~
-Güzel bir Elf Kadýný kendi kendine mýrýldanýyor.
+çora kadýn~
+Çora Kadýný~
+Güzel bir Çora Kadýný kendi kendine mýrýldanýyor.
 ~
 Looking into her eyes causes you great fear.
 ~
-elf~
+çora~
 ABR DEFZ 500 0
 16 0 3d9+233 159d1+1 2d6+4 magic
 -2 -2 -2 7
@@ -328,21 +328,21 @@ treasure A A
 0 0 0 0 0
 5 2 400 P
 #14502
-elf kolyesi~
-Elf Kolyesi~
+çora kolyesi~
+Çora Kolyesi~
 Bir kolye burada düþürülmüþ.~
 steal~
 armor 0 AC
 7 7 7 0 2
 19 50 4700 P
 E
-necklace elven~
+necklace çora~
 Engraved on the back are the words: "Protect that which is important"~
 A
 17 -10
 #14503
-elf iksiri~
-Elf Ýksiri~
+çora iksiri~
+Çora Ýksiri~
 Bir iksir burada düþürülmüþ.~
 glass~
 potion G AO
@@ -354,8 +354,8 @@ Written on the seal of the bottle is a glyph. You believe that the glyph
 stands for "POISON"
 ~
 #14504
-elf su çizmeleri~
-bir çift Elf Su Çizmesi~
+çora su çizmeleri~
+bir çift Çora Su Çizmesi~
 Bir çift çizme burada yatýyor.~
 ash~
 boat A AG
@@ -2411,7 +2411,7 @@ G 1 14501 -1                             * a monkey paw
 M 0 14502 1 14578 1                    * the Elven Merchant to Large Warehouse
 G 1 14502 -1                             * an Elven Necklace
 G 1 14503 -1                             * an Elven potion
-G 1 14504 -1                             * elven Water Walking Boots
+G 1 14504 -1                             * çora Water Walking Boots
 
 M 0 14503 1 14577 1                    * the Dwarven Merchant to Oceanview Home
 G 1 14505 -1                             * a keg of Dwarven Go Juice
