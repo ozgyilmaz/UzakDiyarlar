@@ -747,7 +747,7 @@ void load_helps( FILE *fp )
 	    break;
 	pHelp->text	= fread_string( fp );
 
-	if ( !str_cmp( pHelp->keyword, "greeting" ) )
+	if ( !str_cmp( pHelp->keyword, "merhaba" ) )
 	    help_greeting = pHelp->text;
 
 	if ( help_first == NULL )

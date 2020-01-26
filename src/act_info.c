@@ -855,35 +855,6 @@ void do_socials(CHAR_DATA *ch, char *argument)
     return;
 }
 
-
-
-/* RT Commands to replace news, motd, imotd, etc from ROM */
-
-void do_motd(CHAR_DATA *ch, char *argument)
-{
-    do_help(ch,(char*)"motd");
-}
-
-void do_imotd(CHAR_DATA *ch, char *argument)
-{
-    do_help(ch,(char*)"imotd");
-}
-
-void do_rules(CHAR_DATA *ch, char *argument)
-{
-    do_help(ch,(char*)"rules");
-}
-
-void do_story(CHAR_DATA *ch, char *argument)
-{
-    do_help(ch,(char*)"story");
-}
-
-void do_wizlist(CHAR_DATA *ch, char *argument)
-{
-    do_help(ch,(char*)"wizlist");
-}
-
 /* RT this following section holds all the auto commands from ROM, as well as
    replacements for config */
 
@@ -2288,14 +2259,6 @@ void do_compare( CHAR_DATA *ch, char *argument )
     }
 
     act( msg, ch, obj1, obj2, TO_CHAR );
-    return;
-}
-
-
-
-void do_credits( CHAR_DATA *ch, char *argument )
-{
-    do_help( ch, (char*)"diku" );
     return;
 }
 

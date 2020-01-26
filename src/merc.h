@@ -267,7 +267,7 @@ typedef void OPROG_FUN_AREA args((OBJ_DATA *obj));
 #define MAX_SKILL		  426
 #define MAX_ALIAS		   20
 #define MAX_CLASS		   13
-#define MAX_PC_RACE		   10
+#define MAX_PC_RACE		   11
 /* unique ve null dahil */
 #define MAX_RACE		    77
 #define MAX_CABAL		    9

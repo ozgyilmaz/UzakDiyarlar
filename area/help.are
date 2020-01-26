@@ -188,35 +188,6 @@ less often (15 minutes) if some one is.  Also note that objects lying on
 the ground will not be regenerated if anyone is in the area when it resets.
 ~
 
-0 !~
-Kullaným: !
-
-Son komutun tekrarlanmasýný saðlar.
-~
-
-0 NORTH SOUTH EAST WEST UP DOWN~
-Syntax: north
-Syntax: south
-Syntax: east
-Syntax: west
-Syntax: up
-Syntax: down
-
-Use these commands to walk in a particular direction.
-~
-
--1 NAME~
-ÝSÝM SEÇÝMÝ:
-Ýsimler aþaðýda belirtilen kýstaslarýn dýþýnda olmalýdýr.
-1) Cinsel ve argo kökenli isimler
-2) Mitolojik, tarihi, bilindik isimler
-3) Rasgele harf kombinasyonlarý (Örn: qwert, sdffrsw)
-4) Ünvan, rütbe bildiren isimler
-5) Bilimsel terminoloji
-6) Eþya isimleri
-
-Seçtiðiniz ismin yukarýda belirtilen kýstaslarýn dýþýnda kalmalýdýr.~
-
 0 SHOOT THROW STUCK 'STUCK IN'~
 Syntax: shoot <direction> <target>
 Syntax: throw spear <direction> <target>
@@ -285,7 +256,7 @@ the mobiles only in that direction and it will display far in that direction
 as well.
 ~
 
-0 DROP GET GIVE PUT TAKE~
+0 DROP GIVE PUT TAKE~
 Syntax: drop <object>
 Syntax: drop <amount> coins
 Syntax: get  <object>
@@ -335,7 +306,7 @@ Syntax: inventory
 	EQUIPMENT lists your equipment (armor, weapons, and held items). The
 hand that you use as pro-hand always has the * sign next to it.
 
-	INVENTORY lists your inventory.
+	INVENTORK lists your inventory.
 ~
 
 0 COMPARE~
@@ -428,7 +399,7 @@ things happen.
 also WAKE other sleeping characters.
 ~
 
-0 GTELL ; REPLY SAY TELL~
+0 GTELL ; REPLY SAY~
 Syntax: gtell <message>
 Syntax: say   <message>
 Syntax: tell  <character> <message>
@@ -991,13 +962,6 @@ SELL sells an object to a shop keeper.
 VALUE asks the shop keeper how much he, she, or it will buy the item for.
 ~
 
-0 SACRIFICE~
-Syntax: sacrifice <object>
-
-SACRIFICE offers an object to gods, who may reward you.
-The nature of the reward depends upon the type of object.
-~
-
 0 SCROLL~
 Syntax: scroll
 Syntax: scroll <number>
@@ -1091,24 +1055,7 @@ doesn't save before quitting, you're going to regret it.
 There is no RENT in this mud.  Just SAVE and QUIT whenever you want to leave.
 ~
 
-0 RECALL /~
-Syntax: RECALL
 
-RECALL prays to gods for miraculous transportation from where you are
-back to the Temple of Selenge.
-
-Recalling back to hometown is a spell. But all players below level 10th
-may use this spell by the help of the gods. The gods transfer the players
-below level 10, by only their praying. You must be calm enough to
-concenterate and pray to the gods, so you are not able to pray not
-only in the fights, but also sometime after a fight. Those who are over
-level 10 must find a way to cast the spell to recall.
-
-RECALL costs half of your movement points.
-
-RECALL doesn't work in certain god-forsaken rooms.  Characters afflicted by a
-curse may not recall at all.
-~
 
 -1 SPLIT~
 Syntax: SPLIT <silver> <gold>
@@ -1134,64 +1081,8 @@ There are penalties for using STEAL on other players.
 In order to STEAL successfully, you must practice the appropriate skill.
 ~
 
-0 PRACTICE~
-Syntax: PRACTICE
-Syntax: PRACTICE <skill|spell>
 
-PRACTICE without an argument tells you your current ability level in all
-the skills and spells available to you.  You can check this anywhere.
 
-PRACTICE with an argument practice that skill or spell.  Your learning
-percentage varies from 0% (unlearned) to a some maximum between 80% and 100%,
-depending on your class.  You must be at a guild master to practice.
-
-The higher your intelligence, the more you will learn at each practice
-session.  The higher your wisdom, the more practice sessions you will
-have each time you gain a level.  Unused sessions are saved until you
-do use them.
-
-You can practice your skills and spells with a practicer who knows the
-group corresponding that skill or spell. Below is a list of practicers and
-their groups:
-
- Attack         >>> Towering Black Demon	(Camelot   	)
- Beguiling 	>>> Mighty Beholder		(Thalos    	)
- Benedictions	>>> Templeman			(Selenge	)
- Combat		>>> Combat Magician		(Elemental Can.	)
- Curative	>>> Grand Knight of Paladins	(Redfernes' R.	)
- Defensive	>>> Heimdall			(Valhalla	)
- Draconian	>>> Rulers			(Elemental Can.	)
- Enchantment	>>> Master Enchanter		(High Tower	)
- Enhancement	>>> Healer			(Valley of Titan)
- Fightmaster	>>> Heimdall			(Valhalla	)
- Healing	>>> High Priestess of Ofcol	(Ofcol		)
- Illusion	>>> Master Illusionist		(High Tower	)
- Maladictions	>>> Diana			(Ofcol		)
- Meditation	>>> Hierophant (holy)		(Holy Grove	)
- Protective	>>> Gath			(City of Anon	)
- Transportation	>>> Grand Mistress of Magic	(High Tower	)
- Weaponsmaster  >>> Samurai			(New Thalos	)
- Wizard		>>> Wizard			(Selenge	)
-
-If you SLOOK the spell or skill and find in group NONE , then you
-can practice that in your guild.
-
-FOR MORE HELP , look help of GLIST ,SLOOK , TEACH , LEARN.
-~
-
-0 GLIST~
-Syntax: glist <group>
-
-	Gives the skills and spells of that group.
-example : glist meditation , glist defensive.....
-~
-0 SLOOK~
-Syntax: slook <skill or spell>
-
-	Gives group of corresponding spell or skill.
-example : slook armor , slook meditation.....Then go to the master of that
-skill or spell to learn
-~
 0 TEACH~
 Syntax : teach
 
@@ -1451,11 +1342,6 @@ command, and then moving you back (if the command didn't change your
 location).
 ~
 
-94 DUYURU~
-Syntax: duyuru  <mesaj>
-
-Tüm oyunculara duyuru yapýlmasýný saðlar.
-~
 
 92 GOTO~
 Syntax: goto <location>
@@ -1464,7 +1350,7 @@ Goto takes you to a location.  The location may be specified as a vnum,
 as the name of a mobile, or as the name of an object.
 
 You may not Goto a room if it is PRIVATE and has two (or more) characters
-already present, or if it is SOLITARY and has one (or more) characters
+already present, or if it is SOLITARK and has one (or more) characters
 already present. Some other rooms are barred to players below a certain
 god level.
 
@@ -2001,11 +1887,11 @@ drastically reduced effectiveness. Tearing the flesh by poisoned weapons
 may cause the victim to get posioned.
 ~
 
-0 SANCTUARY 'MASS SANCTUARY'~
+0 SANCTUARK 'MASS SANCTUARK'~
 Syntax: cast sanctuary  <character>
 Syntax: cast 'mass sanctuary'
 
-The SANCTUARY spell reduces the damage taken by the character from any attack
+The SANCTUARK spell reduces the damage taken by the character from any attack
 by one half. It is said to be that a very special tecnique of attack
 passes the sanctuary protection. The mass sanctuary spell affects caster's
 group.
@@ -2192,262 +2078,6 @@ See also:  CLASS, WORLD
 
 ~
 
--1 'RACETABLE'~
-
-IRK       KISALTMA     ÝYÝ      KÖTÜ     TP    BÝLGÝ
------      -------   -------  -------   -----  -------------------
-Ýnsan       Ýnsan      Hiç      Hiç       0    ortalama ýrk
-Çora        Çora     Zek,Çev   Güç,Bün   500   iyi yönelim
-Cüce        Cüce     Bil,Bün     Çev     250   "vahþileþme"
-Naga        Naga      Bil       Zek     250   "irfan", "tanýmlama"
-Yeg         Yeg      Güç,Bün   Zek,Bil   250   "vahþileþme", "maymuncuk"
-Gamayun     Gamay    Zek,Dex   Güç,Bün   250   uçabilen canlýlar
-Börü        Börü     Güç,Bün     Çev     250   "çýplak el"
-Ciren       Ciren      Çev       Zek     250   yansýz, "kamuf", "pusu", "arakla"
-Asura       Asur     Güç,Bün   Zek,Çev   400   kem, "trans", "hýzlý iyileþme"
-
-Irkýnýz ne olsun (bilgi için: uzakdiyarlar.net)?~
-
--1 GNOME GNOMES~
-Gnomes are a race of small, wiry, but tough creatures.  They live a very
-long time and accumulate much wisdom. They are resistant to poisons, but
-they are vulnerable to bashing because of their small size. Gnomes can see
-in the dark with infravision.  Gnomes, due to their large stock of wisdom,
-always stay neutral, else they will lose their spells and are frowned upon.
-
-~
--1 'STORM GIANT' STORMGIANTS~
- Storm giants are the largest of the giant races, ranging from 12-20 feet in
-height.  They are strong , and almost as durable as the dwarves. They aren't
-too bright, however, and their huge size makes them more clumsy than the
-other races.  Giants make the best warriors of any race, but are
-ill-suited for any other profession.
-
-Storm giants resist lightning , can fly.  However, they are the most clever
-of giants. Storm giants, due to their  size and stamina, receive the fast
-healing and bash skills for free. Cloud giants have weapon resistance.
-
-~
--1 'FIRE GIANT' FIREGIANTS~
- Storm giants are the large, ranging from 9-12 feet in height.  They are
-strong , and almost as durable as the dwarves. They aren't too bright,
-however, and their huge size makes them more clumsy than the
-other races.  Giants make the best warriors of any race, but are
-ill-suited for any other profession.
-
-Fire giants resist fire .  However, their slow minds make them extremely
-vulnerable to mental attacks.  Storm giants, due to their  size and
-stamina, receive the fast healing and bash skills for free.
-
-~
--1 'CLOUD GIANT' CLOUDGIANTS~
- Cloud giants are the large, ranging from 9-12 feet in height.  They are
-strong , and almost as durable as the dwarves. They aren't too bright,
-however, and their huge size makes them more clumsy than the
-other races.  Giants make the best warriors of any race, but are
-ill-suited for any other profession.
-
-Fire giants resist fire .  However, their slow minds make them extremely
-vulnerable to mental attacks.  Storm giants, due to their  size and
-stamina, receive the fast healing and bash skills for free. Cloud giants
-have weapon resistance.
-~
--1 'FROST GIANT' FROSTGIANTS~
- Frost giants are the largest of the giant races, ranging from 9-12 feet in
-height.  They are strong , and almost as durable as the dwarves. They aren't
-too bright, however, and their huge size makes them more clumsy than the
-other races.  Giants make the best warriors of any race, but are
-ill-suited for any other profession.
-
-Frost giants resist cold.  However, their slow minds make  them extremely
-vulnerable to mental attacks.  Storm giants, due to their  size and
-stamina, receive the fast healing and bash skills for free.And they are
-born to be enemies of white dragons.
-~
--1 GIANT GIANTS~
-Giants are the largest of the races, ranging from 9-12 feet in height.  They
-are stronger than any other race, and almost as durable as the dwarves.
-They aren't too bright, however, and their huge size makes them more clumsy
-than the other races.  Giants make the best warriors of any race, but are
-ill-suited for any other profession. Giants, due to their size and
-stamina, receive the fast healing and bash skills for free.
-
-~
--1 ÝNSAN insan~
-Uzak Diyarlarýn en kalabalýk ýrkýdýr. Ýnsan ýrkýný diðer ýrklardan ayýran
-en önemli özellik her türlü ortama kolaylýkla uyum saðlayabilmeleridir.
-Bu nedenle bütün sýnýflar için uygun olan tek ýrktýr. Ayrýca etik olarak da
-tahmin edilebilir bir ýrk deðildir. Ýçlerinde ezileni koruyan, merhameti bol
-olaný da vardýr, þeytaný bile imrendirecek kadar zalim olaný da.
-
-Güç, zeka, bilgelik, çeviklik, bünye, karizma bakýmýndan ortalama deðerlere
-sahip bir ýrktýr.
-~
--1 CÜCE cüce~
-Cüceler Uzak Diyarlarýn kýsa boylu ama güçlü, uzun sakallarýyla meþhur
-ýrklarýndandýr. Pek zeki bir ýrk olmasa da uzun yaþam süreleri, onlarýn
-diyardaki bir çok ýrka göre daha bilge bir ýrk olmasýný saðlamýþtýr. Çeviklik
-bakýmýndan zayýf ve sessiz hareket etme konusunda baþarýz olduklarý için bazý
-sýnýflar için pek uygun deðildirler. Fakat hemen hemen hepsi güçlü ve alt
-etmesi zor savaþçýlardýr. Genel olarak maðaralarda ve daðlarda yaþamayý
-tercih ederler. Ama içlerinde þehirde yaþamayý ya da yaban hayatý sürmeyi
-tercih edenleri de vardýr. Taþ ve maden iþçiliðinde oldukça maharetlidirler.
-Fakat yüzme konusunda da bir o kadar beceriksizdirler. Büyüye, zehire ve
-hastalýklara karþý dirençleri oldukça yüksektir. Yer altýnda yaþamalarý ve
-deðerli madenlere olan düþkünlükleri onlarý Yeg ýrkýna karþý doðal bir düþman
-haline getirmiþtir. Yeglerden daha çok nefret ettikleri hiçbir varlýk yoktur
-diyarda ve bazý söylentilere göre kadim lisanlarýnda yeglerle ilgili yüze
-yakýn hakaret ve küfür mevcuttur.
-~
--1 ELF ELVES~
-
-Elves are slightly taller than humans, but have a much lighter build.  They
-lack the strength and stamina of the other races, but are for more agile,
-both in body and mind.
-Elves resist charm spells most effectively, due to their magical nature.
-However, they are burned by the touch of iron, and so are barred from the
-use of iron in their adventuring careers.  Elves are notoriously
-hard to spot and walk unnoticed automatically. They may see in the dark
-with infravision.  Elves must stay good to cast any spells they know.
-Elves who have turned to evil are frowned upon.
-
-~
--1 ÇORA çora~
-Uzak Diyarlarýn gözle görülmeyen, ateþten yaratýlmýþ varlýklarýdýr.
-Niyetleri önceden kestirilemez. Ýçlerinde merhamet dolu olanlarý da vardýr,
-diyara korku salanlarý da... Doðuþtan geliþmiþ görünmezliðe sahiptirler.
-Varlýklarý ateþten olduðu için ateþe karþý hiçbir ýrkýn olmadýðý kadar
-dayanýklýdýrlar. Sessiz hareket kabiliyetleri ve çeviklikleri sayesinde
-bazý sýnýflar için çok daha uygunlardýr. Karanlýk kuytu yerler, ormanlar,
-su kenarlarý gibi þehrin kalabalýðýndan uzak doðanýn sýnýrýnda yerlerde
-yaþamayý severler. Ama içlerinde nüfusun çoðunlukta olduðu þehirlerde
-yaþamayý tercih edenleri de vardýr.
-~
--1 NAGA~
-Hint ve Budist metinlerde sýkça yer alan, en eski ve bilge ýrklardan biri
-kabul edilen Naga Sanskiritçe yýlan demektir. Genellikle yarý insan
-yarý yýlan olan Nagalara bugün bile Hindistan'da bereket getirmesi için
-tapýnýlmaktadýr. Hemen hemen her kültürde izleri vardýr.
-
-Nagalar tamamen yýlan, yýlan kafalý veya belden altý yýlan olabilir, bazý
-efsaneler onlarýn insanlardan çocuk sahibi olabildiðini anlatýr. Güçlü ve
-çekici yaratýklardýr; nehirlerin, maðaralarýn, kýymetli hazinelerin ve
-geçitlerin gizemli koruyucularý olarak görev alýrlar. Tehlikeli olsalar da
-dostluklarýný kazanmak büyük kazançlar getirir, özellikle de diþilerinin
-büyüleyici güzelliðe sahip olduðu söylenmektedir. Kötü karakterli olanlarý
-asuralar gibi yeraltýyla iliþkilendirilir ve göksel kuþ Garuda'nýn en büyük
-düþmanlarýdýr.
-
-Nagalar iki þey olabilirler: Bir kutsama veya lanet, bu sadece onlara
-kalmýþtýr. Yine de yýlan soyuna saygýda kusur etmemek gerekir, ne de olsa
-yerin içinde gizli bütün sýrlarý bilen onlardýr.
-~
--1 BÖRÜ~
-Uzak Diyarlarýn yarý hayvan, yarý insan ýrklarýndandýr. Ýstediði zaman
-kurda dönüþebilme yeteneði olan bir ýrktýr. Genel olarak vahþi doðayý
-severler ve özgürlüklerine düþkündürler. Þehir ortamýnda normal
-insanlardan ayýrt etmek pek mümkün deðildir. Tehlike anýnda güçlü çevik
-bir kurda dönüþürler ve çevrelerine dehþet saçarlar. Dönüþtüklerinde
-hayvani içgüdülerle hareket ettikleri için tekinsizdirler. Ayrýca sahip
-olduklarý kürk nedeniyle ateþe karþý dayanýksýzdýrlar.
-Ýçgüdüsel olarak çevrelerinde olup biten þeyler konusunda (ses, koku,
-gizli kapýlar) diðer ýrklara göre farkýndalýklarý daha fazladýr.
-~
--1 YEG~
-Uzak Diyarlarýn habis ruhlu ýrklarýndandýr. Yer altýnýn karanlýk
-dehlizlerini mesken edinen, yer üstündekilere korku salan, zulüm
-etmekten fazlasýyla haz alan, kýsa boylu, güçlü varlýklardýr. Gün
-ýþýðýndan mümkün olduðunca uzak dururlar.Geceleri av olarak seçtikleri
-masumlara sinsi tuzaklar kurarlar. Bazen sýrf eðlence için bazen de
-açlýklarýný gidermek için öldürürler. 
-Kadim lisanda Yeg, aç gözlü, doymak bilmeyen ruh demektir ve kadimler
-bu ismi boþa vermemiþtir. Deðerli madenlere ve öldürmeye karþý doymak
-bilmeyen bir istekleri vardýr. Yer altýnda olmalarý ve deðerli
-madenlere karþý olan düþkünlükleri onlarý cüce ýrkýna karþý doðal bir
-düþman haline getirmiþtir. Tadýný çok sevdikleri için, özellikle
-cücelerin bebeklerini kaçýrdýklarýna dair söylentiler vardýr. 
-~
--1 CÝREN ciren~
-Uzak Diyarlarýn yarý hayvan, yarý insan ýrklarýndandýr. Bir atýn gövdesine
-ve bacaklarýna sahip olan insansý varlýklardýr. Belden yukarýsý normal bir
-insandan farksýzdýr. Sahip olduklarý güçlü bacaklar ve hýzlarý onlarý
-diðer ýrklara göre daha çevik kýlar. Diðer yarý hayvan ýrklarda olduðu
-gibi vahþi doðada yaþamayý severler. Ormanlara karþý doðal bir baðlýlýklarý
-vardýr. Þehir ortamýndan, sahip olduklarý farklý dýþ görünüþleri ve
-insanlarýn aþaðýlayýcý tavýrlarý nedeniyle genelde uzak dururlar. Ýzin
-almadan bir cirene binmek ya da basit bir at muamelesi görmek cirenler
-arasýnda büyük bir saygýsýzlýk ve hakaret olarak kabul edilir ve onlarý
-en çok sinirlendiren þeylerden biridir. Bir cirenin öfkesini üstüne çekmek
-ise sadece aklý yarýmlarýn isteyeceði türden bir þeydir.
-~
--1 CÝREN ciren~
-
-Cirens are a race of half human and half goat race.They are evil.  They are
-inherently dextrerious. But not strengthful. Due the desterity they can
-steal from someone , camuflage themselves and ambush opponents very easly.
-
-~
--1 GITHYANKI~
-
-Githyanki's are more intelligient then humanbeings. But they are constitutive
-as human race. But they are evil. And they can be either fighter , caster or
-fighter/caster races.They are good warriors . But casters use only offensive
-spells.
-
-~
-
--1 ROCKSEER ROCKSEERS~
-
-Rockseers are a race of renegade elves who lives underworld in rock caves.
-They are inherently intelligent but have neglected intellectualstudies
-and become very translucent from years of generations of trying to pass
-rocks.  Like elves, rockseers have infravision and can walk innocent and
-can pass doors easily.Rockseers must stay neutral to cast any spells they
-might know. And because of their organism they are vulnerable to woods.
-They have a specific spell called 'meld into stone'.
-
-~
--1  ASURA~
-Asura Hint ve Budist mitlerindeki genellikle negatif eðilimler taþýyan,
-devasa yapýda ve dünyevi zevklere, özellikle de pahalý þeylere düþkün
-güçlü varlýklara verilen isimdir. Iran bölgesinde Ahura adýný
-almýþlardýr.
-
-Asuralar kimi zaman tanrýlarla savaþýr kimi zaman da karýþýklýða neden
-olurlar, boynuzlu ve uzun kuyruklu, iri diþleri aðýzlarýndan taþan
-yaratýklar olarak tasvir edilirler, efendi veya tanrý/yarýtanrý olarak
-kabul edildikleri olmuþsa da en çok tanýnan görüþ yeraltýnda hüküm
-sürdükleri ve yýkýcý olduklarý yönündedir. Yine de savaþ disiplinleri ve
-zekalarý nedeniyle takdir edilirler, Ýblis vb. sözcükler bu ýrk için
-yetersiz kalýr. Bir Asura'nýn saygýsý ancak onunla savaþarak kazanýlabilir
-çünkü savaþmayan kiþi köleleri olmayý kabul etmiþ demektir.
-
-Bir Asura'nýn arkadaþlýðý riskli, düþmanlýðý ise mutlaka ölümcüldür.
-Tabi ki bazý tanrýsal güçlere sahip deðilseniz.
-~
--1 'CLASS' 'CLASSES' 'CLASS HELP'~
-
-Aþaðýda sýnýf listesi verilmiþtir. Daha fazla bilgi için web sitesini
-ziyaret ediniz.
-
-SINIF       KISALTMA  GEREKEN  EXTRA
------       --------  -------  -----
-Ermiþ         Erm      BÝL  	 0
-Hýrsýz        Hýr      ÇEV       0
-Savaþçý       Sav      GÜÇ       0
-Korucu        Krc      GÜÇ      200
-Ninja	      Nin      ÇEV      300
-Anti-paladin  Ant      GÜÇ      300
-Paladin       Pal      GÜÇ      400
-Samuray       Sam      GÜÇ      500
-Vampir        Vam      ZEK      300
-Gan           Gan      ZEK       0
-Biçimci       Biç      ZEK       0
-Ögeci         Öge      ZEK       0
-Karakam       Kam      ZEK      200
-
-~
-
 -1 RANGER RANGERS~
                                 RANGER
 Outdoorsmen, hunters, master of woodcraft, Rangers are the guardians of
@@ -2542,15 +2172,7 @@ To change form back to human	type: human
  Powerful mage.But powerful in necromentic spells.
 
 ~
- -1
-HOMETOWN HOMETOWNS~
 
-You can pick one of six cities as your hometown: New Thalos and Selenge are
-all alignments. Ofcol is neutral only. Your hometown is where you will
-recall to and is where the pit is to which your corpse will decay.
-Everyone starts at mud school, which is connected to each of the hometowns.
-
-~
 
 -1 ETHOS~
 .
@@ -2562,32 +2184,7 @@ them when you just happen to obey the laws, then you are chaotic. Ethos can only
 be set once. So don't ask an immortal to change your ethos!
 
 ~
-0 'NEWBIE INFO' NEWBIE~
-.
-	Ah! Another mortal, seeking adventure. You should go through mudschool
-first, to gain experience to face the trials outside.  Be sure to practice
-a weapon in the guild room, or your stay with us shall be very short indeed.
 
-	Type 'equipment' to see what your are wielding, 'spells' to see your
-spells, 'skills' to see your skills, and 'commands' for a list of commands.
-Help is available on most commands and abilities. It is strongly recommended
-that you  go through all the helps at a low level, especially if you are
-playing this game for the first time.
-
-	Please type "help general" to learn more about mud.
-~
-
-0 GENERAL~
-.
-Uzak Diyarlar karakter katli ve rol yapma gerektiren bir muddýr. Seviyeniz
-10'u geçtikten sonra baþka karakterlerin "Katledilebilir" listesine girmeye
-baþlarsýnýz. Karakter katli ile ilgili daha fazla bilgiyi uzakdiyarlar.net
-adresinde bulabilirsiniz.
-Uzak Diyarlar'da rol yapmak bir tiyatro oyununda rol almaktan farklýdýr.
-Burada rol yapmak aslýnda yalnýzca burada yaþadýðýnýzý hissetmektir. Rol
-yapmakla ilgili ayrýntýlý bilgiyi uzakdiyarlar.net adresinde bulabilirsiniz.
-
-~
 
 0 REMORT~
 .
@@ -2936,51 +2533,6 @@ followers.  No one can follow you when this toggle is set.
 
 ~
 
-0 RULES~
-These are the rules of the Realms of Anatolia. Disobeying is grounds
-for deletion. For other matters, use common sense.
-
-1. Remember that this is a roleplaying atmosphere.  If an immortal imposes
-   their will upon you, you must do it.  Do not ask a wizi-invis god 'who they
-   are'.  This is question is considered rude and will not be answered.
-2. Immortals often make announcements via notes, and you are required to
-   follow accordingly.  Not having read the notes is no excuse.  It is the
-   same as if the Immortal told you in person.
-3. Player stealing and killing is permitted and encouraged.
-4. Do not use charmed pets to PK people who are out of your PK range.
-   If a person is not in your pk range, and they do not initiate an attack on
-   your group member, then your pets had better not touch them.
-5. Your presence here is a privilege not a right.  Obey any orders from gods,
-   and you will be fine.
-6. MULTICHARRING: You may have more than one character, but you may not use
-   multiple logins from same terminal. Punishment for this rule is
-   deleting of one char. In addition make sure that roleplaying is done
-   perfectly for all your chars.
-7. Anyone who assists people in multicharing, i.e. holding equipment while
-   they transfer it, 'looking the other way', etc will be punished harshly.
-8. DO NOT, in any way, shape or form, exploit bugs.  It WILL result in a
-   punishment determined by IMPLEMENTORS.  Repeat DO NOT exploit bugs, you
-   WILL be IMMEDIATELY punished.
-9. SPAMMING IS ILLEGAL.  (Spam filling up someone's screen with needless
-   repetion of anything)  You will be given one warning and then deleted.
-   Don't do it.
-10. Sexual harrassment will not be tolerated.  If both parties do not consent
-    to the socials/emotes, then don't do them.
-11. Cheating will not be tolerated. This includes accepting favors from
-    gods and exploiting bugs.
-12. Play as your character should play. If your lawful good, play like a
-    lawful good. Opposing roleplaying will instantly be punished! If you
-    go on doing such things, your character's access may be denied!
-
-  These are simple, clear rules.  If you violate them you WILL be
-  punished.  Punishments may vary, depending on previous rules violations,
-  the situation.  Be prepared for the worst if you are caught breaking
-  these rules.
-
-  Changes  to these rules are at the discretion of the immortals, and
-  may be done withoutwarning, notice, or even evidence of sanity.
-
-~
 0 LAWS LAW ~
 The laws of the land that shall be enforced by the Ruler Cabal are as
 follows :
@@ -3148,7 +2700,7 @@ and you may not cast it in a room with a door that is supposed to reset locked
 or closed.  If anyone *ever* casts it in a room like this, and I hear about it,
 this spell will be taken away, never to return.
 ~
-0 WARCRY~
+0 WARCRK~
 Syntax: warcry
 
 This skill allows one to gain some resistance by yelling out a warcry.
@@ -3378,7 +2930,7 @@ negative attacks, and also increases its endurance against mortal attacks.
 
 ~
 
--1 'HOLY FURY'~
+-1 'HOLY FURK'~
 Syntax: cast 'holy fury' <character>
 
 	This spell enables the caster to increase the pulses of the victim.
@@ -3713,12 +3265,7 @@ to the others, but their probabities is much lower.
 	To you : Mass Heal
 ~
 
--1 STAT STATS~
-Uzak Diyarlar'da þu an için 6 karakter niteliði vardýr. Bunlar,
-Güç, Zeka, Bilgelik, Çeviklik, Bünye ve Karizma. Her niteliðin
-karaktere saðladýðý avantajlar vardýr. Niteliklerle ilgili ayrýntýlý
-bilgiyi uzakdiyarlar.net adresinde bulabilirsiniz.
-~
+
 
 0 LIMITED LIMIT 'LIMIT EQUIPMENTS' 'LIMITED EQUIPMENTS'~
 .
@@ -3733,7 +3280,7 @@ the equipment is more than 1.
 
 ~
 
-0 BURY CEREMONY DIG~
+0 BURK CEREMONY DIG~
 Syntax: bury <corpse>
 Syntax: dig
 

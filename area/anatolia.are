@@ -1,4 +1,6 @@
 #HELPS
+
+
 -1 WIZLIST~
 .
         ________            *********************           ________
@@ -51,6 +53,7 @@
            \/                                                  \/
 
 ~
+
 -1 ANATOLIA~
 .
       ANATOLIA started in early September 1996, using Rom2.4 code. In
@@ -86,6 +89,7 @@ Used snippets (Available on internet) --
 	Some snippets by Erwin S. Andreasen.
 		erwin@pip.dknet.dk
 ~
+
 -1 ROM~
 ROM started in early February 1993, using Merc 1.0 code. In July of 1993,
 ROM II was started, eventually replacing the original ROM.  ROM was up for
@@ -145,6 +149,7 @@ hair-pulling. Hope you enjoy it.
 
 (my apologies if anyone was forgotten in this list)
 ~
+
 -1 IMMORTAL IMMORT GOD WIZARD WIZ~
 .
 	'Immortal' (often, simply, 'immort') refers to players who have reached
@@ -230,65 +235,9 @@ Thanks to ...
       and hours of enjoyment.
 
 ~
+
 -1 MAP MAPS~
 Thanks to Ezra for drawing the originals of several maps on ROM.
-~
-
--1 GREETING~
-.
-[1;36;40m                        _        ____  _                  _
-[1;36;40m         /\ /\ ______ _| | __   |  _ \(_)_   _  __ _ _ __| | __ _ _ __
-[1;36;40m        / / \ |_  / _` | |/ /   | | \ | | | | |/ _` | '__| |/ _` | '__|
-[1;36;40m        \ \_/ // | (_| |   <    | |_/ | | |_| | (_| | |  | | (_| | |
-[1;36;40m         \___//___\__,_|_|\_\  /_____/|_|\__, |\__,_|_|  |_|\__,_|_|
-[1;36;40m                                         |___/
-[0;33;40m        __         [0;37;40m                                         [0;33;40m          __
-[0;33;40m       (**)        [0;37;40m                                         [0;33;40m         (**)
-[0;33;40m       IIII        [0;37;40m                                         [0;33;40m         IIII
-[0;33;40m       ####        [0;37;40m                 DikuMUD                 [0;33;40m         ####
-[0;33;40m       HHHH        [0;37;40mHans Staerfeldt, Katja Nyboe, Tom Madsen,[0;33;40m         HHHH
-[0;33;40m       HHHH        [0;37;40m   Michael Seifert ve Sebastian Hammer   [0;33;40m         HHHH
-[0;33;40m       ####        [0;37;40m                                         [0;33;40m         ####
-[0;33;40m    ___IIII___     [0;37;40m                 MERC 2.1                [0;33;40m      ___IIII___
-[1;37;40m .-`_._"**"_._`-.  [0;37;40m           Hatchet, Furey ve Kahn        [1;37;40m   .-`_._"**"_._`-.
-[1;37;40m|/``  .`\/`.  ``\| [0;37;40m                                         [1;37;40m  |/``  .`\/`.  ``\|
-[1;37;40m`     }    {     ' [0;37;40m            ROM 2.4 (1993-1995)          [1;37;40m  `     }    {     '
-[1;37;40m      ) () (       [0;37;40m                Russ Taylor              [1;37;40m        ) () (
-[1;37;40m      ( :: )       [0;37;40m                                         [1;37;40m        ( :: )
-[1;37;40m      | :: |       [0;37;40m          ANATOLIA 3.0 (1997-1999)       [1;37;40m        | :: |
-[1;37;40m      | )( |       [0;37;40m       Serdar BULUT, Ýbrahim CANPUNAR    [1;37;40m        | )( |
-[1;37;40m      | || |       [0;37;40m       Murat BÝÇER, Devrim Barýþ ACAR    [1;37;40m        | || |
-[1;37;40m      | || |       [0;37;40m                                         [1;37;40m        | || |
-[1;37;40m      | || |       [0;37;40m               Uzak Diyarlar             [1;37;40m        | || |
-[1;37;40m      | || |       [0;37;40m     Jai, Kame, Maru, Nir, Nyah ve Sint  [1;37;40m        | || |
-[1;37;40m      | || |       [0;37;40m                                         [1;37;40m        | || |
-[1;37;40m      ( () )       [1;36;40m             www.uzakdiyarlar.net        [1;37;40m        ( () )
-[1;37;40m       \  /        [0;37;40m                                         [1;37;40m         \  /
-[1;37;40m        \/         [0;37;40m                                         [1;37;40m          \/[0;37;40m
-
-Hangi isimle anýlmak istersin? ~
-
--1 MOTD~
-* Uzak Diyarlar oyuncu katline izin veren bir rol kesme oyunudur.
-* Kurallarý bilmekle yükümlüsünüz.
-* Oyunla ilgili bilgi edinmek için 'yardým' komutunu kullanýn
-  veya www.uzakdiyarlar.net adresini ziyaret edin.
-
-[Devam etmek için ENTER]
-~
-
-92 IMOTD~
-Welcome Immortal!
-
-You are responsible for following the laws of immortal behavior. These can
-be found by typing 'help laws' or 'help commandments'.
-
-* Excessive loading is not allowed, and is grounds for deletion.
-* Asking for promotion is grounds for instant deletion.
-* Type 'help jobs' to get some idea of what you should be doing.
-* Remember you can RENAME players with unwanted nick names.
-
-[Hit Return to continue]
 ~
 
 92 JOBS~
@@ -467,6 +416,7 @@ all.  God rooms, private rooms, and no recall rooms cannot be gated to, and
 no recall rooms cannot be gated out of.  Finally, any god or hero is also
 immune to gate, as well as in player who has no summon set.
 ~
+
 -1 'ASTRAL WALK'~
 .
     The astral walk spell is a powerful transportation magic that opens up a
@@ -479,6 +429,7 @@ recall rooms cannot be astral walked to, and no recall rooms cannot be
 astral walked out of. Finally, any god or hero is also immune to walk, as
 well as in player who has no summon set.
 ~
+
 -1 'MIST WALK'~
 .
     The mist walk spell is a powerful transportation magic that opens up a
@@ -491,6 +442,7 @@ recall rooms cannot be mist walked to, and no recall rooms cannot be mist
 walked out of.  Finally, any god or hero is also immune to mist walk, as
 well as in player who has no summon set.
 ~
+
 -1 'SOLAR FLIGHT'~
 .
     The solar flight spell is a powerful transportation magic that opens up a
@@ -544,6 +496,7 @@ you need the sun light to cast this spell effectively.
 
 Also check FROM20TO21
 ~
+
 -1 FROM20TO21~
 .
 * Reported bugs are fixed.
@@ -665,6 +618,7 @@ low levels, only the spell name will be displayed, at higher levels the
 effects and duration of the spell will also be shown.  Spell effects
 are no longer shown on score (this can be changed by using 'show' command).
 ~
+
 -1 RULER 'CABAL RULER' 'RULER CABAL'~
 .
 	Rulers believe that Law is the key for success for us all. In the
@@ -799,4 +753,5 @@ own class helps.
 ~
 
 0 $~
+
 #$
