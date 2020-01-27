@@ -3519,7 +3519,7 @@ int ethos_check(CHAR_DATA *ch)
 int colour( char type, CHAR_DATA *ch, char *string )
 {
     char	code[ 20 ];
-    char	*p = '\0';
+    char	*p = NULL;
 
     if( IS_NPC( ch ) )
 	return( 0 );
