@@ -2,11 +2,11 @@
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
- *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *	
- *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *	
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *
+ *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
 /*	@(#)telnet.h 1.7 88/08/19 SMI; from UCB 5.1 5/30/85	*/
@@ -23,25 +23,25 @@
 #ifndef _arpa_telnet_h
 #define _arpa_telnet_h
 
-#define	IAC	255		/* interpret as command: */
-#define	DONT	254		/* you are not to use option */
-#define	DO	253		/* please, you use option */
-#define	WONT	252		/* I won't use option */
-#define	WILL	251		/* I will use option */
-#define	SB	250		/* interpret as subnegotiation */
-#define	GA	249		/* you may reverse the line */
-#define	EL	248		/* erase the current line */
-#define	EC	247		/* erase the current character */
-#define	AYT	246		/* are you there */
-#define	AO	245		/* abort output--but let prog finish */
-#define	IP	244		/* interrupt process--permanently */
-#define	BREAK	243		/* break */
-#define	DM	242		/* data mark--for connect. cleaning */
-#define	NOP	241		/* nop */
-#define	SE	240		/* end sub negotiation */
-#define EOR     239             /* end of record (transparent mode) */
+#define	IAC	'\xFF'		/* interpret as command: */
+#define	DONT	'\xFD'		/* you are not to use option */
+#define	DO	'\xFD'		/* please, you use option */
+#define	WONT	'\xFC'		/* I won't use option */
+#define	WILL	'\xFB'		/* I will use option */
+#define	SB	'\xFA'		/* interpret as subnegotiation */
+#define	GA	'\xF9'		/* you may reverse the line */
+#define	EL	'\xF8'		/* erase the current line */
+#define	EC	'\xF7'		/* erase the current character */
+#define	AYT	'\xF6'		/* are you there */
+#define	AO	'\xF5'		/* abort output--but let prog finish */
+#define	IP	'\xF4'		/* interrupt process--permanently */
+#define	BREAK	'\xF3'		/* break */
+#define	DM	'\xF2'		/* data mark--for connect. cleaning */
+#define	NOP	'\xF1'		/* nop */
+#define	SE	'\xF0'		/* end sub negotiation */
+#define EOR     '\xEF'          /* end of record (transparent mode) */
 
-#define SYNCH	242		/* for telfunc calls */
+#define SYNCH	'\xF2'		/* for telfunc calls */
 
 #ifdef TELCMDS
 char *telcmds[] = {
