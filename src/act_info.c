@@ -1776,8 +1776,7 @@ void do_score( CHAR_DATA *ch, char *argument )
   printf_to_char(ch,"{c| Cinsiyet: {w%-13s{c | Ezici  : {w%-3d{c | Akçe        : {w%-7ld{c     |\n\r",sex,GET_AC(ch,AC_BASH),ch->silver);
   printf_to_char(ch,"{c| Sınıf   : {w%-13s{c | Kesici : {w%-3d{c | Altın(Banka): {w%-7ld{c     |\n\r",IS_NPC(ch) ? "mobil" : class_table[ch->iclass].name[1],GET_AC(ch,AC_SLASH),IS_NPC(ch) ? 0 : ch->pcdata->bank_g);
   printf_to_char(ch,"{c| Yönelim : {w%-13d{c | Egzotik: {w%-3d{c | Akçe (Banka): {w%-7ld{c     |\n\r",ch->alignment,GET_AC(ch,AC_EXOTIC),IS_NPC(ch) ? 0 : ch->pcdata->bank_s);
-  printf_to_char(ch,"{c| Doğum   : {w%-12s{c |                   |                             |\n\r",dogumGunu);
-  printf_to_char(ch,"{c| Yaş    : {w%d{c |                   |                             |\n\r",get_age(ch));
+  printf_to_char(ch,"{c| Doğum   : {w%-12s{c  |              |                           |\n\r",dogumGunu);
   printf_to_char(ch,"{c|-------------------------'--------------|---------------------------,{w\n\r");
   printf_to_char(ch,"{c| Yp    : {w%-7d/%-7d{c | Güç: {w%-2d(%-2d){c  | Pratik : {w%-3d{c              |\n\r",ch->hit,  ch->max_hit,ch->perm_stat[STAT_STR],get_curr_stat(ch,STAT_STR),ch->practice);
   printf_to_char(ch,"{c| Mana  : {w%-7d/%-7d{c | Zek: {w%-2d(%-2d){c  | Eğitim : {w%-3d{c              |\n\r",ch->mana, ch->max_mana,ch->perm_stat[STAT_INT],get_curr_stat(ch,STAT_INT),ch->train);
