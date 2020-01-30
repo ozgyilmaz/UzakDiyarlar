@@ -1565,9 +1565,7 @@ if ( victim->hit < victim->max_hit / 4 )
                   victim->perm_stat[STAT_CHA]--;
                   if ( victim->pcdata->death > 10 )  {
 		  char strsave[160];
-		    send_to_char(
-					"Bir hayalete dönüþerek dünya gerçekliðini terkediyorsun.\n\r",
-			victim );
+		    printf_to_char( victim, "{RBir hayalete dönüþerek dünya gerçekliðini terkediyorsun.{x\n\r" );
 			act( "$n öldü ve bir daha dönemeyecek.\n\r",victim,NULL,NULL,TO_ROOM);
 		    victim->last_fight_time = -1;
 		    victim->hit = 1;
@@ -1580,12 +1578,13 @@ if ( victim->hit < victim->max_hit / 4 )
 							}
 			}
 		 }
-		else  if ( ( victim->pcdata->death % 3) == 2 )
+		else  if ( ( victim->pcdata->death % 3) == 2 && victim->level > 15 )
 		 {
                   victim->perm_stat[STAT_CON]--;
+									printf_to_char( victim, "{RBünyenin azaldýðýný hissediyorsun.{x\n\r" );
                   if ( victim->perm_stat[STAT_CON] < 3 )  {
 		  char strsave[160];
-			send_to_char( "Bir hayalete dönüþerek dünya gerçekliðini terkediyorsun.\n\r",victim );
+			printf_to_char( victim, "{RBir hayalete dönüþerek dünya gerçekliðini terkediyorsun.{x\n\r" );
 			act("$n öldü ve bir daha dönemeyecek.\n\r",victim,NULL,NULL,TO_ROOM);
 		    victim->last_fight_time = -1;
 		    victim->hit = 1;
