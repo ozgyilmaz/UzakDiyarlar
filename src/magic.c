@@ -731,7 +731,7 @@ void do_cast( CHAR_DATA *ch, char *argument )
 
     if ( !IS_NPC(ch) && ch->mana < mana )
     {
-      send_to_char( "Yeterli manan yTamam.\n\r", ch );
+      send_to_char( "Yeterli manan yok.\n\r", ch );
 	return;
     }
 

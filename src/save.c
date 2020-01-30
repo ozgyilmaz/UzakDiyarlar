@@ -800,7 +800,7 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
 	if (RACE(ch) == 0)
 	    RACE(ch) = race_lookup("human");
 
-	ch->size = pc_race_table[ORG_RACE(ch)].size;
+	ch->size = race_table[ORG_RACE(ch)].size;
 	ch->dam_type = 17; /*punch */
 
 	ch->detection   = ch->detection|race_table[RACE(ch)].det;

@@ -2241,7 +2241,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	ch->pcdata->points = pc_race_table[race].points;
 
-	ch->size = pc_race_table[race].size;
+	ch->size = race_table[race].size;
 
 	write_to_buffer( d, "\n\rIrk seçimi tamam.\n\rPeki karakterin cinsiyeti ne olsun ( E - K )? ", 0 );
         d->connected = CON_GET_NEW_SEX;

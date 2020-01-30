@@ -319,7 +319,8 @@ void load_mobiles( FILE *fp )
 	pMobIndex->parts		= fread_flag( fp )
 					| race_table[pMobIndex->race].parts;
 	/* size */
-	pMobIndex->size			= size_lookup(fread_word(fp));
+	pMobIndex->size			= race_table[pMobIndex->race].size;
+	fread_word(fp);
 	pMobIndex->material		= str_dup(fread_word( fp ));
 	pMobIndex->mprogs		= NULL;
 	pMobIndex->progtypes		= 0;

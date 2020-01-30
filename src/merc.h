@@ -382,7 +382,7 @@ struct religion_type
 /*
  *  minimum pk level
  */
-#define PK_MIN_LEVEL 5
+#define PK_MIN_LEVEL 15
 
 #define MAX_NEWBIES 120   /* number of newbies allowed */
 #define MAX_OLDIES 999    /* number of oldies allowed */
@@ -694,6 +694,7 @@ struct race_type
 {
     const char *	name[2];			/* call name of the race */
     bool	pc_race;		/* can be chosen by pcs  */
+	sh_int	size;
     long	det;			/* det bits for the race */
     long	act;			/* act bits for the race */
     long	aff;			/* aff bits for the race */
@@ -715,7 +716,7 @@ struct pc_race_type  /* additional data for pc races */
     const char *	skills[5];		/* bonus skills for the race */
     sh_int 	stats[MAX_STATS];	/* starting stats 	*/
     sh_int	max_stats[MAX_STATS];	/* maximum stats 	*/
-    sh_int	size;			/* aff bits for the race*/
+	/*sh_int	size;*/			/* aff bits for the race*/
     int         hp_bonus;               /* Initial hp bonus 	*/
     int         mana_bonus;             /* Initial mana bonus 	*/
     int         prac_bonus;             /* Initial practice bonus */
