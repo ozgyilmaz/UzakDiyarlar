@@ -55,6 +55,7 @@
 #include "db.h"
 #include "recycle.h"
 #include "lookup.h"
+#include "tables.h"
 
 void load_limited_objects();
 
@@ -430,6 +431,7 @@ void	load_helps	args( ( FILE *fp ) );
 void    load_omprogs    args( ( FILE *fp ) );
 void	load_old_mob	args( ( FILE *fp ) );
 void 	load_mobiles	args( ( FILE *fp ) );
+void 	load_new_mobiles	args( ( FILE *fp ) );
 void	load_old_obj	args( ( FILE *fp ) );
 void 	load_objects	args( ( FILE *fp ) );
 void	load_resets	args( ( FILE *fp ) );
@@ -589,6 +591,7 @@ void boot_db( void )
 		else if ( !str_cmp( word, "HELPS"    ) ) load_helps   (fpArea);
 		else if ( !str_cmp( word, "MOBOLD"   ) ) load_old_mob (fpArea);
 		else if ( !str_cmp( word, "MOBILES"  ) ) load_mobiles (fpArea);
+		else if ( !str_cmp( word, "NEW_MOBILES"  ) ) load_new_mobiles (fpArea);
 		else if ( !str_cmp( word, "OBJOLD"   ) ) load_old_obj (fpArea);
 	  	else if ( !str_cmp( word, "OBJECTS"  ) ) load_objects (fpArea);
 		else if ( !str_cmp( word, "RESETS"   ) ) load_resets  (fpArea);
@@ -784,7 +787,7 @@ void load_old_mob( FILE *fp )
 	letter				= fread_letter( fp );
 	if ( letter != '#' )
 	{
-	    bug( "Load_mobiles: # not found.", 0 );
+	    bug( "Load_old_mobiles: # not found.", 0 );
 	    exit( 1 );
 	}
 
@@ -795,7 +798,7 @@ void load_old_mob( FILE *fp )
 	fBootDb = FALSE;
 	if ( get_mob_index( vnum ) != NULL )
 	{
-	    bug( "Load_mobiles: vnum %d duplicated.", vnum );
+	    bug( "Load_old_mobiles: vnum %d duplicated.", vnum );
 	    exit( 1 );
 	}
 	fBootDb = TRUE;
@@ -903,7 +906,7 @@ void load_old_mob( FILE *fp )
 
 	if ( letter != 'S' )
 	{
-	    bug( "Load_mobiles: vnum %d non-S.", vnum );
+	    bug( "Load_old_mobiles: vnum %d non-S.", vnum );
 	    exit( 1 );
 	}
 

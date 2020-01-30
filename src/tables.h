@@ -2,11 +2,11 @@
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
- *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *	
- *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *	
- *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *	
+ *	 Ibrahim Canpunar  {Asena}	canpunar@rorqual.cc.metu.edu.tr    *
+ *	 Murat BICER  {KIO}		mbicer@rorqual.cc.metu.edu.tr	   *
+ *	 D.Baris ACAR {Powerman}	dbacar@rorqual.cc.metu.edu.tr	   *
  *     By using this code, you have agreed to follow the terms of the      *
- *     ANATOLIA license, in the file Anatolia/anatolia.licence             *	
+ *     ANATOLIA license, in the file Anatolia/anatolia.licence             *
  ***************************************************************************/
 
 /***************************************************************************
@@ -25,7 +25,7 @@
  *  benefitting.  We hope that you share your changes too.  What goes	   *
  *  around, comes around.						   *
  ***************************************************************************/
- 
+
 /***************************************************************************
 *	ROM 2.4 is copyright 1993-1995 Russ Taylor			   *
 *	ROM has been brought to you by the ROM consortium		   *
@@ -36,7 +36,16 @@
 *	ROM license, in the file Rom24/doc/rom.license			   *
 ***************************************************************************/
 
+struct yp_tip
+{
+    int min_yp;
+	int max_yp;
+};
+
 /* game tables */
+
+extern	const	struct	yp_tip	yp_tablo[];
+
 extern	const	struct	position_type	position_table[];
 extern	const	struct	sex_type	sex_table[];
 extern	const	struct	size_type	size_table[];
@@ -80,4 +89,3 @@ struct size_type
 {
     const char *name;
 };
-

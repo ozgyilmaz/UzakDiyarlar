@@ -51,6 +51,7 @@
 #include "merc.h"
 #include "db.h"
 #include "lookup.h"
+#include "tables.h"
 
 
 /* values for db2.c */
@@ -189,7 +190,173 @@ void load_socials( FILE *fp)
 
 
 
+void load_new_mobiles( FILE *fp )
+{
+    MOB_INDEX_DATA *pMobIndex;
 
+    for ( ; ; )
+    {
+        sh_int vnum;
+        char letter;
+        int iHash;
+
+        letter                          = fread_letter( fp );
+        if ( letter != '#' )
+        {
+            bug( "Load_new_mobiles: # not found.", 0 );
+            exit( 1 );
+        }
+
+        vnum                            = fread_number( fp );
+        if ( vnum == 0 )
+            break;
+
+        fBootDb = FALSE;
+        if ( get_mob_index( vnum ) != NULL )
+        {
+            bug( "Load_new_mobiles: vnum %d duplicated.", vnum );
+            exit( 1 );
+        }
+        fBootDb = TRUE;
+
+        pMobIndex                       = (MOB_INDEX_DATA *)alloc_perm( sizeof(*pMobIndex) );
+        pMobIndex->vnum                 = vnum;
+		pMobIndex->new_format		= TRUE;
+		newmobs++;
+        pMobIndex->player_name          = fread_string( fp );
+        pMobIndex->short_descr          = fread_string( fp );
+        pMobIndex->long_descr           = fread_string( fp );
+        pMobIndex->description          = fread_string( fp );
+		pMobIndex->race		 			= race_lookup(fread_string( fp ));
+
+        pMobIndex->act                  = fread_flag( fp ) | ACT_IS_NPC | race_table[pMobIndex->race].act;
+        pMobIndex->affected_by          = fread_flag( fp ) | race_table[pMobIndex->race].aff;
+		pMobIndex->level                = fread_number( fp );
+
+		pMobIndex->long_descr[0]        = UPPER(pMobIndex->long_descr[0]);
+        pMobIndex->description[0]       = UPPER(pMobIndex->description[0]);
+
+		pMobIndex->practicer			= 0;
+		pMobIndex->detection			= race_table[pMobIndex->race].det;
+
+/* chronos smashed affection of ROM and created detection of ANATOLIA */
+	if (IS_AFFECTED(pMobIndex,C))	/* detect evil */
+		 SET_BIT(pMobIndex->detection,C);
+	if (IS_AFFECTED(pMobIndex,D))	/* detect invis */
+		 SET_BIT(pMobIndex->detection,D);
+	if (IS_AFFECTED(pMobIndex,E))	/* detect magic */
+		 SET_BIT(pMobIndex->detection,E);
+	if (IS_AFFECTED(pMobIndex,F))	/* detect hidden */
+		 SET_BIT(pMobIndex->detection,F);
+	if (IS_AFFECTED(pMobIndex,G))	/* detect good */
+		 SET_BIT(pMobIndex->detection,G);
+	if (IS_AFFECTED(pMobIndex,Z))	/* dark vision */
+		 SET_BIT(pMobIndex->detection,Z);
+	if (IS_AFFECTED(pMobIndex,ee))	/* acute vision */
+		 SET_BIT(pMobIndex->detection,ee);
+	REMOVE_BIT(pMobIndex->affected_by,(C|D|E|F|G|Z|ee));
+
+        pMobIndex->pShop                = NULL;
+        pMobIndex->alignment            = number_range(-999,999);
+        pMobIndex->group                = 0;
+
+        pMobIndex->hitroll              = hit_roll(pMobIndex->level);
+
+	/* read hit dice */
+        pMobIndex->hit[DICE_NUMBER]     = 1;
+        /* 'd'          */
+        pMobIndex->hit[DICE_TYPE]   	= 1;
+        /* '+'          */
+        pMobIndex->hit[DICE_BONUS]      = number_range( yp_tablo[ pMobIndex->level ].min_yp , yp_tablo[ pMobIndex->level ].max_yp );
+
+ 	/* read mana dice */
+	pMobIndex->mana[DICE_NUMBER]	= 1;
+	pMobIndex->mana[DICE_TYPE]		= 1;
+	pMobIndex->mana[DICE_BONUS]		= number_range( yp_tablo[ pMobIndex->level ].min_yp , yp_tablo[ pMobIndex->level ].max_yp );
+
+	/* read damage dice */
+	pMobIndex->damage[DICE_NUMBER]	= damage_dice_0(pMobIndex->level);
+	pMobIndex->damage[DICE_TYPE]	= damage_dice_1(pMobIndex->level);
+	pMobIndex->damage[DICE_BONUS]	= damage_dice_2(pMobIndex->level);
+	pMobIndex->dam_type				= dam_type_dice();
+
+	/* read armor class */
+	pMobIndex->ac[AC_PIERCE]	= ac_dice(AC_PIERCE,pMobIndex->level);
+	pMobIndex->ac[AC_BASH]		= ac_dice(AC_BASH,pMobIndex->level);
+	pMobIndex->ac[AC_SLASH]		= ac_dice(AC_SLASH,pMobIndex->level);
+	pMobIndex->ac[AC_EXOTIC]	= ac_dice(AC_EXOTIC,pMobIndex->level);
+
+	/* read flags and add in data from the race table */
+	pMobIndex->off_flags		= race_table[pMobIndex->race].off;
+	pMobIndex->imm_flags		= race_table[pMobIndex->race].imm;
+	pMobIndex->res_flags		= race_table[pMobIndex->race].res;
+	pMobIndex->vuln_flags		= race_table[pMobIndex->race].vuln;
+
+	/* vital statistics */
+	pMobIndex->start_pos		= position_dice();
+	pMobIndex->default_pos		= position_dice();
+	pMobIndex->sex				= sex_dice();
+
+	pMobIndex->wealth			= number_range(1,1000);
+
+	pMobIndex->form				= race_table[pMobIndex->race].form;
+	pMobIndex->parts			= race_table[pMobIndex->race].parts;
+	/* size */
+	pMobIndex->size				= race_table[pMobIndex->race].size;
+	pMobIndex->material			= str_dup("none");
+	pMobIndex->mprogs			= NULL;
+	pMobIndex->progtypes		= 0;
+
+	for ( ; ; )
+        {
+            letter = fread_letter( fp );
+
+            if (letter == 'F')
+            {
+		char *word;
+		long vector;
+
+                word                    = fread_word(fp);
+		vector			= fread_flag(fp);
+
+		if (!str_prefix(word,"act"))
+		    REMOVE_BIT(pMobIndex->act,vector);
+                else if (!str_prefix(word,"aff"))
+		    REMOVE_BIT(pMobIndex->affected_by,vector);
+		else if (!str_prefix(word,"off"))
+		    REMOVE_BIT(pMobIndex->affected_by,vector);
+		else if (!str_prefix(word,"imm"))
+		    REMOVE_BIT(pMobIndex->imm_flags,vector);
+		else if (!str_prefix(word,"res"))
+		    REMOVE_BIT(pMobIndex->res_flags,vector);
+		else if (!str_prefix(word,"vul"))
+		    REMOVE_BIT(pMobIndex->vuln_flags,vector);
+		else if (!str_prefix(word,"for"))
+		    REMOVE_BIT(pMobIndex->form,vector);
+		else if (!str_prefix(word,"par"))
+		    REMOVE_BIT(pMobIndex->parts,vector);
+		else
+		{
+		    bug("Flag remove: flag not found.",0);
+		    exit(1);
+		}
+	     }
+	     else
+	     {
+		ungetc(letter,fp);
+		break;
+	     }
+	}
+
+        iHash                   = vnum % MAX_KEY_HASH;
+        pMobIndex->next         = mob_index_hash[iHash];
+        mob_index_hash[iHash]   = pMobIndex;
+        top_mob_index++;
+        kill_table[URANGE(0, pMobIndex->level, MAX_LEVEL-1)].number++;
+    }
+
+    return;
+}
 
 
 /*

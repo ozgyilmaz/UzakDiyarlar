@@ -3356,13 +3356,22 @@ void 	substitute_alias args( (DESCRIPTOR_DATA *d, char *input) );
 
 
 /* magic.c */
-int	find_spell	args( ( CHAR_DATA *ch, const char *name) );
+int	find_spell args( ( CHAR_DATA *ch, const char *name) );
 int 	mana_cost 	(CHAR_DATA *ch, int min_mana, int level);
 int	skill_lookup	args( ( const char *name ) );
 int	slot_lookup	args( ( int slot ) );
 bool	saves_spell	args( ( int level, CHAR_DATA *victim, int dam_type ) );
 bool 	check_dispel	args(( int dis_level, CHAR_DATA *victim, int sn));
 void	obj_cast_spell	args( ( int sn, int level, CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DATA *obj ) );
+/* mob_creator.c */
+int hit_roll args( (int level) );
+int damage_dice_0 args( (int level) );
+int damage_dice_1 args( (int level) );
+int damage_dice_2 args( (int level) );
+int dam_type_dice args( (void) );
+int ac_dice args( (int i,int level) );
+int position_dice args( (void) );
+int sex_dice args( (void) );
 /* save.c */
 void	save_char_obj	args( ( CHAR_DATA *ch ) );
 bool	load_char_obj	args( ( DESCRIPTOR_DATA *d, char *name ) );

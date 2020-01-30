@@ -18,7 +18,7 @@ Further conversion to Rom 2.4 by Jaceks and Chicken's Den Staff~
 0 $~
 
 
-#MOBILES
+#NEW_MOBILES
 #4200
 siyah piyon~
 Siyah Piyon~
@@ -28,12 +28,7 @@ Kýsa boylu bir savaþçý. Zýrhý parlak ve siyah. Canýný vermeye
 hazýr bekliyor.
 ~
 human~
-ACF D -400 4200
-10 0 2d7+121 1d1+99 2d4+1 beating
-1 1 1 8
-EG A 0 0
-stand stand male 60
-B 0 medium 0
+ACF D 10
 #4201
 beyaz piyon~
 Beyaz Piyon~
@@ -43,12 +38,7 @@ Kýsa boylu bir savaþçý. Zýrhý parlak ve beyaz. Canýný vermeye
 hazýr bekliyor.
 ~
 human~
-AC D 400 4201
-10 0 2d7+121 1d1+99 2d4+1 beating
-1 1 1 8
-EG 0 0 0
-stand stand male 55
-A 0 medium 0
+AC D 10
 #4202
 siyah kale~
 Siyah Kale~
@@ -58,12 +48,7 @@ Büyük ve tekerlekli bir yapý. Görünüþe göre rakiplerini
 tek gönderdiði yer birer MEZAR.
 ~
 human~
-AFH 0 -600 0
-27 0 5d10+650 1d1+99 5d4+7 punch
--8 -8 -8 6
-CEI A 0 0
-stand stand male 480
-0 0 medium 0
+AFH 0 27
 #4203
 beyaz kale~
 Beyaz Kale~
@@ -73,12 +58,7 @@ Büyük ve tekerlekli bir yapý. Görünüþe göre rakiplerini
 tek gönderdiði yer birer MEZAR.
 ~
 human~
-AH D 600 0
-27 0 5d10+650 1d1+99 5d4+7 punch
--8 -8 -8 6
-CEI 0 0 0
-stand stand male 470
-0 0 medium 0
+AH D 27
 #4204
 siyah at~
 Siyah At~
@@ -87,12 +67,7 @@ Siyah bir at burada.
 Siyah bir savaþ atý. Gözlerinden ateþ çýkýyor.
 ~
 human~
-AH 0 -400 0
-18 0 3d9+283 1d1+99 2d7+4 pierce
--3 -3 -3 7
-EF A 0 0
-stand stand male 266
-0 0 medium 0
+AH 0 18
 #4205
 beyaz at~
 Beyaz At~
@@ -101,12 +76,7 @@ Beyaz bir at burada.
 Beyaz bir savaþ atý. Gözlerinden ateþ çýkýyor.
 ~
 human~
-AH 0 400 0
-18 0 3d9+283 1d1+99 2d7+4 pierce
--3 -3 -3 7
-EF A 0 0
-stand stand male 256
-0 0 medium 0
+AH 0 18
 #4206
 siyah fil~
 Siyah Fil~
@@ -116,12 +86,7 @@ Siyah bir fil burada.
 iri ve güçlü görünüyor.
 ~
 human~
-AH 0 -500 0
-24 0 5d15+500 1d1+239 2d10+6 punch
--6 -6 -6 6
-CDEF A 0 0
-stand stand male 540
-0 0 medium 0
+AH 0 24
 #4207
 beyaz fil~
 Beyaz Fil~
@@ -131,12 +96,7 @@ Beyaz bir fil burada.
 iri ve güçlü görünüyor.
 ~
 human~
-A DN 500 0
-24 0 5d15+500 1d1+239 2d10+6 punch
--6 -6 -6 6
-CDEF A 0 0
-stand stand male 590
-0 0 medium 0
+A DN 24
 #4208
 siyah vezir~
 Siyah Vezir~
@@ -146,12 +106,7 @@ Simsiyah cüppesi içinde bir vezir. Kralýn ordusunun
 en güçlü üyesi. Seni izliyor... Ne o, korktun mu?
 ~
 human~
-ABFH DFH -750 4210
-32 0 10d10+1000 1d1+319 6d4+9 magic
--10 -10 -10 5
-AFJK A 0 0
-stand stand female 856
-0 0 medium 0
+ABFH DFH 32
 #4209
 beyaz vezir~
 Beyaz Vezir~
@@ -161,12 +116,7 @@ Bembeyaz cüppesi içinde bir vezir. Kralýn ordusunun
 en güçlü üyesi. Seni izliyor... Ne o, korktun mu?
 ~
 human~
-ABH DFHN 750 2411
-32 0 10d10+1000 1d1+319 6d4+9 magic
--10 -10 -10 5
-AFJK 0 0 0
-stand stand female 854
-0 0 medium 0
+ABH DFHN 32
 #4210
 siyah kral~
 Siyah Kral~
@@ -177,12 +127,7 @@ Neden sen deðil de o bir kral? Ýþte sorunun cevabý,
 ne kadar da yüce bir görünüþ.
 ~
 human~
-ABH DFHU -999 0
-36 0 10d10+1400 1d35+99 3d10+12 beating
--12 -12 -12 4
-BCDEF A 0 0
-stand stand male 984
-0 0 medium 0
+ABH DFHU 36
 #4211
 beyaz kral~
 Beyaz Kral~
@@ -193,12 +138,7 @@ Neden sen deðil de o bir kral? Ýþte sorunun cevabý,
 ne kadar da yüce bir görünüþ.
 ~
 human~
-ABH DFHNU 999 0
-36 0 10d10+1400 1d1+359 3d10+12 beating
--12 -12 -12 4
-BCDEF 0 0 0
-stand stand male 988
-0 0 medium 0
+ABH DFHNU 36
 #4212
 halife omar hayalet~
 Omar'ýn hayaleti~
@@ -210,12 +150,7 @@ tahtanýn boþ olduðu vakitlerde dolaþýr karelerin
 üstünde.
 ~
 human~
-AHT BDFHPQTUV 0 0
-60 0 50d10+9500 599d1+1 8d6+28 wrath
--30 -30 -30 0
-FGK 0 0 HIJK
-stand stand male 14999
-0 0 small 0
+AHT BDFHPQTUV 60
 #0
 
 

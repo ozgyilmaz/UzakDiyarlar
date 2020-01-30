@@ -169,7 +169,8 @@ int material_lookup (const char *name)
 int race_lookup (const char *name)
 {
    int race;
-   
+   char buf[MAX_STRING_LENGTH];
+
    if( !strcmp( name, "duergar" ) )
 	   strcpy( (char*)name, "yeg");
    if( !strcmp( name, "half-elf" ) )
@@ -196,6 +197,8 @@ int race_lookup (const char *name)
 	    return race;
    }
 
+   sprintf(buf, "Race_lookup: race not found %s.", name);
+   bug(buf, 0);
    return 0;
 }
 
