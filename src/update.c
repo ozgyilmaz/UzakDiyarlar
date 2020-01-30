@@ -194,7 +194,7 @@ void gain_exp( CHAR_DATA *ch, int gain )
     while ( ch->level < LEVEL_HERO &&
            exp_to_level(ch,ch->pcdata->points) <= 0)
     {
-      send_to_char("Seviyen yükseldi!!  ", ch );
+      printf_to_char(ch , "{GSeviyen yükseldi!!{x  " );
 	ch->level += 1;
 
 	/* added for samurais by chronos */
