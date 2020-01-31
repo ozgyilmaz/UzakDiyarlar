@@ -3282,58 +3282,14 @@ void free_string( char *pstr )
 
 void do_areas( CHAR_DATA *ch, char *argument )
 {
-    char bufpage[6 * MAX_STRING_LENGTH];
-    char buf[MAX_STRING_LENGTH];
-    char buf2[MAX_STRING_LENGTH];
-    AREA_DATA *pArea1;
-    AREA_DATA *pArea2;
-    int iArea;
-    int iAreaHalf;
+    AREA_DATA *pArea;
 
-    if (argument[0] != '\0')
+    printf_to_char(ch,"Bölgeler:\n\r\n\r");
+    for ( pArea = area_first; pArea != NULL; pArea = pArea->next )
     {
-      send_to_char("Bu komutla argüman kullanýlmaz.\n\r",ch);
-	return;
+        printf_to_char(ch,"[{W%2d %3d{x] {c%25s{x - {c%s{x\n\r",pArea->low_range,pArea->high_range,pArea->name,pArea->path);
     }
 
-    iAreaHalf = (top_area + 1) / 2;
-    pArea1    = area_first;
-    pArea2    = area_first;
-    for ( iArea = 0; iArea < iAreaHalf; iArea++ )
-	pArea2 = pArea2->next;
-
-  sprintf(bufpage,"Varolan bölgeler: \n\r");
-    for ( iArea = 0; iArea < iAreaHalf; iArea++ )
-    {
-     sprintf(buf2,"[%s%2d %3d%s] %s%s%s",
-	C_WHITE,
-	pArea1->low_range,pArea1->high_range,
-	CLR_WHITE_BOLD,
-	CLR_CYAN,
-	pArea1->name,
-	CLR_WHITE_BOLD);
-
-     sprintf( buf, "%s",buf2);
-     if (pArea2 != NULL)
-      {
-     sprintf(buf2,"[%s%2d %3d%s] %s%s%s",
-	C_WHITE,
-	pArea2->low_range,pArea1->high_range,
-	CLR_WHITE_BOLD,
-	CLR_CYAN,
-	pArea2->name,
-	CLR_WHITE_BOLD);
-      }
-     else sprintf(buf2,"\n\r");
-     sprintf( buf,"%-69s %s\n\r",buf,buf2);
-
-     strcat( bufpage,buf);
-     pArea1 = pArea1->next;
-     if ( pArea2 != NULL )
-       pArea2 = pArea2->next;
-    }
-    strcat(bufpage,"\n\r");
-    page_to_char(bufpage, ch);
     return;
 }
 
