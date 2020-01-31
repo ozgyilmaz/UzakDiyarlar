@@ -1990,7 +1990,7 @@ void do_recall( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if (ch->level >= 11 && !IS_IMMORTAL(ch) )
+    if (ch->level >= 16 && !IS_IMMORTAL(ch) )
       {
         sprintf(buf, "Seviyesi 10'dan düþük olanlar anýmsama kullanabilir.\n\r");
 	send_to_char(buf,ch);
@@ -2004,6 +2004,13 @@ void do_recall( CHAR_DATA *ch, char *argument )
 	return;
       }
 */
+
+    /* mud okulunda animsa yapan okulun girisine gitsin */
+    if( ( ch->in_room->vnum >= 3700 ) && ( ch->in_room->vnum <= 3799 ) && ch->level < 6 )
+    {
+      point = ROOM_VNUM_SCHOOL;
+    }
+
     if (ch->desc == NULL && !IS_NPC(ch))
       {
 	point =	hometown_table[number_range(0, 4)].recall[number_range(0,2)];

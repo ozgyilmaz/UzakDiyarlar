@@ -1573,35 +1573,49 @@ void area_update( void )
  */
 void reset_area( AREA_DATA *pArea )
 {
-    RESET_DATA *pReset;
-    CHAR_DATA *mob;
-    bool last;
-    int level;
-    int i;
-    ROOM_INDEX_DATA *room;
-    DESCRIPTOR_DATA *d;
-    CHAR_DATA *ch;
+  RESET_DATA *pReset;
+  CHAR_DATA *mob;
+  bool last;
+  int level;
+  int i;
+  ROOM_INDEX_DATA *room;
+  DESCRIPTOR_DATA *d;
+  CHAR_DATA *ch;
 
-    if ( weather_info.sky == SKY_RAINING )
+  if ( weather_info.sky == SKY_RAINING )
+  {
+    for ( d = descriptor_list; d!=NULL; d=d->next)
     {
-     for ( d = descriptor_list; d!=NULL; d=d->next)
-     {
-      if ( d->connected != CON_PLAYING ) continue;
+      if ( d->connected != CON_PLAYING )
+      {
+        continue;
+      }
       ch = ( d->original != NULL ) ? d->original : d->character;
       if ( (ch->in_room->area == pArea) &&
-	   ( get_skill(ch, gsn_track)>50) &&
-           ( !IS_SET(ch->in_room->room_flags, ROOM_INDOORS) ) )
-           send_to_char("Yaðmur izleri temizliyor.\n\r", ch );
-     }
-     for (i=pArea->min_vnum; i<pArea->max_vnum; i++)
-     {
-      room = get_room_index(i);
-      if (room == NULL) continue;
-      if (IS_SET(room->room_flags, ROOM_INDOORS)) continue;
-      room_record( (char*)"erased", room, -1 );
-      if (number_percent() < 50) room_record( (char*)"erased", room, -1 );
-     }
+        ( get_skill(ch, gsn_track)>50) &&
+        ( !IS_SET(ch->in_room->room_flags, ROOM_INDOORS) ) )
+      {
+        send_to_char("Yaðmur izleri temizliyor.\n\r", ch );
+      }
     }
+    for (i=pArea->min_vnum; i<pArea->max_vnum; i++)
+    {
+      room = get_room_index(i);
+      if (room == NULL)
+      {
+        continue;
+      }
+      if (IS_SET(room->room_flags, ROOM_INDOORS))
+      {
+        continue;
+      }
+      room_record( (char*)"erased", room, -1 );
+      if (number_percent() < 50)
+      {
+        room_record( (char*)"erased", room, -1 );
+      }
+    }
+  }
     mob 	= NULL;
     last	= TRUE;
     level	= 0;
@@ -1947,8 +1961,8 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )
 
     if ( pMobIndex == NULL )
     {
-	bug( "Create_mobile: NULL pMobIndex.", 0 );
-	exit( 1 );
+      bug( "Create_mobile: NULL pMobIndex.", 0 );
+      exit( 1 );
     }
 
     mob = new_char();
