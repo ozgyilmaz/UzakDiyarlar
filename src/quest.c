@@ -713,7 +713,41 @@ act ("$Z görev istiyorsun.",ch, NULL, questman, TO_CHAR);
 	}
 	return;
     }
-    else if (!strcmp(arg1, "bitti"))
+    else if (!strcmp(arg1, "iptal"))
+
+    {
+
+      if (!IS_SET(ch->act, PLR_QUESTOR))
+
+      {
+
+        sprintf(buf, "Görevde deðilsin.");
+        do_tell_quest(ch, questman, buf);
+
+        return;
+
+      }
+
+      REMOVE_BIT(ch->act, PLR_QUESTOR);
+      ch->pcdata->questgiver = 0;
+      ch->pcdata->countdown = 0;
+      ch->pcdata->nextquest = 5;
+
+      ch->pcdata->questmob = 0;
+
+      ch->pcdata->questobj = 0;
+
+
+
+      sprintf(buf, "Görevini iptal ettim.");
+
+      do_tell_quest(ch, questman, buf);
+
+      return;
+
+    }
+
+	else if (!strcmp(arg1, "bitti"))
     {
       act("$n $E görevi bitirdiðini haber veriyor.", ch, NULL, questman, TO_ROOM);
 act ("$E görevi bitirdiðini haber veriyorsun.",ch, NULL, questman, TO_CHAR);
@@ -1004,7 +1038,7 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
      return;
     }
 
-    send_to_char("GÖREV KOMUTLARI: puan bilgi zaman iste bitti liste alýþ sigorta.\n\r",ch);
+    send_to_char("GÖREV KOMUTLARI: puan bilgi zaman iste bitti iptal liste alýþ sigorta.\n\r",ch);
     send_to_char("Daha fazla bilgi için: yardým görev.\n\r",ch);
     return;
 }
