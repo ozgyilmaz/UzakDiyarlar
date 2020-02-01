@@ -3439,9 +3439,7 @@ int sex_ok( CHAR_DATA *ch , int iclass)
 int class_ok( CHAR_DATA *ch , int iclass)
 {
  if (pc_race_table[ORG_RACE(ch)].class_mult[iclass] == -1)
-	return 0;
- if ( ch->sex == SEX_MALE && iclass == CLASS_NECROMANCER )
-    return 0;
+  return 0;
  return 1;
 }
 
