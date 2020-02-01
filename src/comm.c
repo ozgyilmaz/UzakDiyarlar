@@ -443,6 +443,8 @@ int main( int argc, char **argv )
     game_loop_mac_msdos( );
 #endif
 
+	data_read();
+
 #if defined(unix)
     control = init_socket( port );
     boot_db( );
@@ -2567,6 +2569,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	ch->next	= char_list;
 	char_list	= ch;
 	d->connected	= CON_PLAYING;
+	data_write();
 
 	/*
 	 *

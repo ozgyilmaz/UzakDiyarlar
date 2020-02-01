@@ -98,6 +98,8 @@ void	track_update	args( ( void ) );
 /* used for saving */
 
 int	save_number = 0;
+extern int max_on;
+extern int max_on_so_far;
 
 
 
@@ -2480,4 +2482,19 @@ void track_update( void )
 	 }
         }
    }
+}
+
+void cevrimici_oyuncu_sayisi( void )
+{
+	DESCRIPTOR_DATA *d;
+	int count;
+	count=0;
+	for ( d = descriptor_list; d != NULL; d = d->next )
+	{
+        	if (d->connected == CON_PLAYING )
+			count++;
+	}
+  max_on = UMAX(count,max_on);
+	max_on_so_far  = UMAX(count,max_on_so_far);
+	return;
 }

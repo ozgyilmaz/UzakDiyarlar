@@ -105,7 +105,7 @@ void do_quest(CHAR_DATA *ch, char *argument)
 
     if (IS_NPC(ch) )  return;
 
-    if (!strcmp(arg1, "info"))
+    if (!strcmp(arg1, "bilgi"))
     {
 	if (IS_SET(ch->act, PLR_QUESTOR))
 	{
@@ -734,7 +734,7 @@ act ("$E görevi bitirdiðini haber veriyorsun.",ch, NULL, questman, TO_CHAR);
 		reward = 100 + dice( level, 20);
 		reward = UMAX( 180 , reward );
 		pointreward = number_range(20,40);
-		
+
 		if(IS_SET(ch->pcdata->dilek,DILEK_FLAG_GOREV))
 		{
 				printf_to_char( ch , "{CGörev dileðin sayesinde kazandýðýn GP artýyor.{x\n\r" );
@@ -785,7 +785,7 @@ act ("$E görevi bitirdiðini haber veriyorsun.",ch, NULL, questman, TO_CHAR);
 
 		    reward = 200 + number_range(1, 20 * ch->level);
 		    pointreward = number_range(15,40);
-			
+
 			if(IS_SET(ch->pcdata->dilek,DILEK_FLAG_GOREV))
 			{
 				printf_to_char( ch , "{CGörev dileðin sayesinde kazandýðýn GP artýyor.{x\n\r" );
@@ -1271,7 +1271,7 @@ void do_tell_quest( CHAR_DATA *ch, CHAR_DATA *victim, char *argument )
 {
 
 	    act_color("$N: $C$t$c",ch,argument,victim,TO_CHAR,POS_DEAD, CLR_MAGENTA_BOLD );
-		
+
 		return;
 }
 
@@ -1362,7 +1362,7 @@ if ( argument[0] == '\0' )
 	ac1=NULL;
 	ac2=NULL;
 	ac3=NULL;
-	
+
 	act("$n $Z ekipman bilgisi istiyor.", ch, NULL, questman, TO_ROOM);
 
 	for( obj=object_list; obj!=NULL; obj = obj->next )

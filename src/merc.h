@@ -3135,6 +3135,10 @@ void	sig_handler		args( (int sig) );
 void	printf_to_char	args( ( CHAR_DATA *, const char *, ... ) );
 void	bugf		args( ( char *, ... ) );
 
+/* data.c */
+void data_write args( (void) );
+void data_read args( (void) );
+
 /* db.c */
 char *	print_flags	args( ( int flag ));
 void	boot_db		args( ( void ) );
@@ -3409,6 +3413,7 @@ void	obj_update	args( ( void ) );
 void    area_update	args( ( void ) );
 void    room_update	args( ( void ) );
 void	track_update	args( ( void ) );
+void cevrimici_oyuncu_sayisi args( (void) );
 
 /*  obj_prog.c */
 void oprog_set(OBJ_INDEX_DATA *, const char *, const char *);

@@ -93,6 +93,7 @@ const char *	where_name	[] =
 
 /* for do_count */
 int max_on = 0;
+int max_on_so_far;
 
 
 
@@ -4403,8 +4404,8 @@ void do_who_col( CHAR_DATA *ch, char *argument )
         if ( d->connected == CON_PLAYING )    count++;
 
     max_on = UMAX(count,max_on);
-    sprintf( buf2, "\n\rOyuncular: %d. Bugün en çok: %d.\n\r",
-		nMatch,max_on );
+    sprintf( buf2, "\n\rOyuncular: %d, bugün: %d, en çok:%d.\n\r",
+		nMatch,max_on,max_on_so_far );
     strcat(output,buf2);
     page_to_char( output, ch );
     return;
