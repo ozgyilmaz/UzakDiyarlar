@@ -619,6 +619,138 @@ steel~
 armor GIRYZ AJ
 8 8 8 3 0
 0 80 10000 P
+#32
+iþlemeli kahraman yüzük~
+%s iþlemeli kahraman yüzüðü [%s]~
+Ýþlemeli bir yüzük yerde duruyor.~
+platinum~
+armor AGIOY ABP
+12 12 12 9 1
+21 300 100000 G
+A
+6 1
+A
+17 -20
+A
+18 10
+A
+12 150
+A
+13 150
+F
+A 14 500 TU
+#33
+desenli kahraman yüzük~
+%s desenli kahraman yüzüðü [%s]~
+Desenli bir yüzük yerde duruyor.~
+platinum~
+armor AGIOY ABP
+12 12 12 9 1
+21 300 100000 G
+A
+6 1
+A
+17 -20
+A
+18 10
+A
+12 150
+A
+13 150
+F
+A 14 500 TU
+#34
+oymalý kahraman yüzük~
+%s oymalý kahraman yüzüðü [%s]~
+Oymalý bir yüzük yerde duruyor.~
+platinum~
+armor AGIOY ABP
+12 12 12 9 1
+21 300 100000 G
+A
+6 1
+A
+17 -20
+A
+18 10
+A
+12 150
+A
+13 150
+F
+A 14 500 TU
+#35
+kakmalý kahraman yüzük~
+%s kakmalý kahraman yüzüðü [%s]~
+Kakmalý bir yüzük yerde duruyor.~
+platinum~
+armor AGIOY ABP
+12 12 12 9 1
+21 300 100000 G
+A
+6 1
+A
+17 -20
+A
+18 10
+A
+12 150
+A
+13 150
+F
+A 14 500 TU
+#36
+parlak kahraman silah~
+%s parlak kahraman silahý [%s]~
+Parlak bir silah yerde duruyor.~
+platinum~
+weapon AGIOY ANP
+exotic 10 4 slash D
+21 100 100000 G
+A
+1 2
+A
+2 2
+A
+4 2
+A
+6 1
+A
+19 25
+A
+18 25
+A
+12 200
+A
+13 200
+A
+14 500
+#37
+mat kahraman silah~
+%s mat kahraman silahý [%s]~
+Mat bir silah yerde duruyor.~
+platinum~
+weapon AGIOY ANP
+exotic 10 4 slash D
+21 100 100000 G
+A
+1 2
+A
+2 2
+A
+4 2
+A
+6 1
+A
+19 25
+A
+18 25
+A
+12 200
+A
+13 200
+A
+14 500
 #42
 iksir þiþesi~
 iksir þiþesi~
@@ -1026,52 +1158,6 @@ F
 A 17 -30 J
 F
 D 0 0 CDEG
-#95
-ring hero~
-the %s Ring of %s~
-An enormous, RING lies here, filling the room with its power.~
-platinum~
-armor AGIOY ABP
-12 12 12 9 1
-21 300 100000 G
-A
-6 1
-A
-17 -20
-A
-18 10
-A
-12 150
-A
-13 150
-F
-A 14 500 TU
-#96
-weapon hero~
-the %s Weapon of %s~
-An enormous, huge WEAPON lies here, filling the room with its power.~
-platinum~
-weapon AGIOY ANP
-exotic 10 4 slash D
-21 100 100000 G
-A
-1 2
-A
-2 2
-A
-4 2
-A
-6 1
-A
-19 25
-A
-18 25
-A
-12 200
-A
-13 200
-A
-14 500
 #97
 mandrake görev asasý~
 %sMandrake görev asasý%s[%s%s%s]~
@@ -1180,9 +1266,14 @@ O 92 remove_prog remove_prog_fire_shield
 O 29 get_prog get_prog_quest_hreward
 O 30 get_prog get_prog_quest_hreward
 O 94 get_prog get_prog_quest_reward
-O 95 get_prog get_prog_quest_reward
-O 96 get_prog get_prog_quest_reward
-O 96 wear_prog wear_prog_quest_weapon
+O 32 get_prog get_prog_quest_reward
+O 33 get_prog get_prog_quest_reward
+O 34 get_prog get_prog_quest_reward
+O 35 get_prog get_prog_quest_reward
+O 36 get_prog get_prog_quest_reward
+O 37 get_prog get_prog_quest_reward
+O 36 wear_prog wear_prog_quest_weapon
+O 37 wear_prog wear_prog_quest_weapon
 O 98 wear_prog wear_prog_katana_sword
 M 15 death_prog death_prog_stalker
 S

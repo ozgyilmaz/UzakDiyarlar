@@ -320,14 +320,14 @@ const 	struct	race_type	race_table	[]		=
  	0,	RES_CHARM|RES_BASH,	VULN_FIRE|VULN_ACID,
 	A|B|H|M|V,		A|B|C|D|E|F|G|H|I|J|K|U|V
     },
-	
+
     { /* 10 */
         {"gnome","gnom"},        FALSE, 		SIZE_MEDIUM, 0,
         0,              AFF_INFRARED,   0,
         0,              RES_POISON,     VULN_BASH,
         A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
     },
-	
+
     { /* 11 */
 	{"githyanki","githyanki"},	FALSE,  		SIZE_MEDIUM, 0,
 	0,		AFF_INFRARED,	0,
@@ -2943,7 +2943,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
     },
 
     {
-	{"acid blast","asit"},		{ 63, 93, 93, 93, 93,93,93,93,63,93,93,63,63},
+	{"acid blast","asit patlamasý"},		{ 63, 93, 93, 93, 93,93,93,93,63,93,93,63,63},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_acid_blast,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	&gsn_acid_blast,	SLOT(70),	40,	12,

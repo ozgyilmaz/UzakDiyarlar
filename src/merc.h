@@ -1431,8 +1431,12 @@ struct	kill_data
 
 /* quest rewards */
 #define QUEST_ITEM1 94
-#define QUEST_ITEM2 95
-#define QUEST_ITEM3 96
+#define QUEST_ITEM_YUZUK1 32
+#define QUEST_ITEM_YUZUK2 33
+#define QUEST_ITEM_YUZUK3 34
+#define QUEST_ITEM_YUZUK4 35
+#define QUEST_ITEM_SILAH1 36
+#define QUEST_ITEM_SILAH2 37
 #define QUEST_ITEM4 30
 #define QUEST_ITEM5 29
 
@@ -1866,21 +1870,15 @@ struct	kill_data
 
 /* The Quests */
 #define QUEST_EYE		(B)
-#define QUEST_WEAPON		(C)
+#define QUEST_SILAH1		(C)
 #define QUEST_GIRTH		(D)
-#define QUEST_RING		(E)
-#define QUEST_WEAPON2		(F)
-#define QUEST_GIRTH2		(G)
-#define QUEST_RING2		(H)
-#define QUEST_WEAPON3		(I)
-#define QUEST_GIRTH3		(J)
-#define QUEST_RING3		(K)
+#define QUEST_YUZUK1		(E)
+#define QUEST_YUZUK2		(F)
+#define QUEST_YUZUK3		(G)
+#define QUEST_YUZUK4		(H)
+#define QUEST_SILAH2		(I)
 #define QUEST_BACKPACK		(L)
-#define QUEST_BACKPACK2		(M)
-#define QUEST_BACKPACK3		(N)
 #define QUEST_DECANTER		(O)
-#define QUEST_DECANTER2		(P)
-#define QUEST_DECANTER3		(Q)
 
 #define QUEST_PRACTICE		(S)
 

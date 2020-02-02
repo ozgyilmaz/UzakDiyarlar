@@ -143,13 +143,13 @@ void do_channels( CHAR_DATA *ch, char *argument)
     else
     printf_to_char(ch,"KAPALI\n\r");
 
-    printf_to_char(ch,"{kd{x          ");
+    printf_to_char(ch,"{kkd{x          ");
     if (!IS_SET(ch->comm,COMM_NOKD))
     printf_to_char(ch,"AÇIK\n\r");
     else
     printf_to_char(ch,"KAPALI\n\r");
 
-    printf_to_char(ch,"{kdg{x          ");
+    printf_to_char(ch,"{kkdg{x          ");
     if (!IS_SET(ch->comm,COMM_NOKDG))
     printf_to_char(ch,"AÇIK\n\r");
     else
@@ -332,8 +332,8 @@ void do_kd( CHAR_DATA *ch, char *argument )
      * Can tell to PC's anywhere, but NPC's only in same room.
      * -- Furey
      */
-    if ( ( victim = get_char_world_without_mirror( ch, arg ) ) == NULL
-    || ( IS_NPC(victim) && victim->in_room != ch->in_room ) )
+     if ( ( victim = get_char_world( ch, arg ) ) == NULL
+     || ( IS_NPC(victim) && victim->in_room != ch->in_room ) )
     {
 	printf_to_char( ch,"Burada deðil.\n\r" );
 	return;

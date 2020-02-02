@@ -2470,7 +2470,7 @@ void do_title( CHAR_DATA *ch, char *argument )
   if ( argument[0] == '\0' )
   {
     printf_to_char(ch, "Ýsteðin üzerine lakabýn sýfýrlandý.\n\r");
-    set_title( ch, "" );
+    set_title( ch, (char*)"" );
 
       return;
   }

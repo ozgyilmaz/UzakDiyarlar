@@ -526,8 +526,10 @@ void fwrite_obj( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest )
     }
 
     if ( obj->pIndexData->vnum == QUEST_ITEM1
-	|| obj->pIndexData->vnum == QUEST_ITEM2
-	|| obj->pIndexData->vnum == QUEST_ITEM3
+      || obj->pIndexData->vnum == QUEST_ITEM_YUZUK1
+           || obj->pIndexData->vnum == QUEST_ITEM_YUZUK2 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK3
+           || obj->pIndexData->vnum == QUEST_ITEM_YUZUK4 || obj->pIndexData->vnum == QUEST_ITEM_SILAH1
+           || obj->pIndexData->vnum == QUEST_ITEM_SILAH2
 	|| obj->pIndexData->vnum == OBJ_VNUM_EYED_SWORD)
       if (strstr(obj->short_descr,ch->name) == NULL)
 	{
