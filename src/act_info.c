@@ -2445,6 +2445,11 @@ void set_title( CHAR_DATA *ch, char *title )
 }
 
 
+void do_titl( CHAR_DATA *ch, char *argument)
+{
+   printf_to_char(ch, "Lakabýný deðiþtirmek istiyorsan komutu tam yazmalýsýn.\n\r");
+}
+
 void do_title( CHAR_DATA *ch, char *argument )
 {
     if ( IS_NPC(ch) )
@@ -2458,7 +2463,16 @@ void do_title( CHAR_DATA *ch, char *argument )
 
     if ( argument[0] == '\0' )
     {
-      printf_to_char(ch, "Lakabýný neyle deðiþtireceksin?\n\r");
+      printf_to_char(ch, "Lakabýný neyle deðiþtireceksin?\n\rLakabýn sýfýrlansýn istersen lakap sýfýrla yazabilirsin.\n\r");
+        return;
+    }
+
+    if (!str_cmp(argument, "sýfýrla"))
+    {
+        char buf[MAX_STRING_LENGTH];
+        sprintf(buf, ", %s", title_table[ch->iclass][ch->level]);
+        set_title(ch, buf);
+        printf_to_char(ch, "Lakabýn sýfýrlandý.\n\r");
         return;
     }
 
