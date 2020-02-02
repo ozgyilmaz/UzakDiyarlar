@@ -23,25 +23,25 @@
 #ifndef _arpa_telnet_h
 #define _arpa_telnet_h
 
-#define	IAC	255		/* interpret as command: */
-#define	DONT	254		/* you are not to use option */
-#define	DO	253		/* please, you use option */
-#define	WONT	252		/* I won't use option */
-#define	WILL	251		/* I will use option */
-#define	SB	250		/* interpret as subnegotiation */
-#define	GA	249		/* you may reverse the line */
-#define	EL	248		/* erase the current line */
-#define	EC	247		/* erase the current character */
-#define	AYT	246		/* are you there */
-#define	AO	245		/* abort output--but let prog finish */
-#define	IP	244		/* interrupt process--permanently */
-#define	BREAK	243		/* break */
-#define	DM	242		/* data mark--for connect. cleaning */
-#define	NOP	241		/* nop */
-#define	SE	240		/* end sub negotiation */
-#define EOR     239             /* end of record (transparent mode) */
+#define	IAC	'\xFF' /* 255 interpret as command: */
+#define	DONT	'\xFE' /* 254 you are not to use option */
+#define	DO	'\xFD' /* 253 please, you use option */
+#define	WONT	'\xFC' /* 252 I won't use option */
+#define	WILL	'\xFB' /* 251 I will use option */
+#define	SB	'\xFA' /* 250 interpret as subnegotiation */
+#define	GA	'\xF9' /* 249 you may reverse the line */
+#define	EL	'\xF8' /* 248 erase the current line */
+#define	EC	'\xF7' /* 247 erase the current character */
+#define	AYT	'\xF6' /* 246 are you there */
+#define	AO	'\xF5' /* 245 abort output--but let prog finish */
+#define	IP	'\xF4' /* 244 interrupt process--permanently */
+#define	BREAK	'\xF3' /* 243 break */
+#define	DM	'\xF2' /* 242 data mark--for connect. cleaning */
+#define	NOP	'\xF1' /* 241 nop */
+#define	SE	'\xF0' /* 240 end sub negotiation */
+#define	EOR	'\xEF' /* 239 end of record (transparent mode) */
 
-#define SYNCH	242		/* for telfunc calls */
+#define	SYNCH	'\xF2' /* 242 for telfunc calls */
 
 #ifdef TELCMDS
 char *telcmds[] = {
