@@ -218,7 +218,7 @@ const	struct	cmd_type	cmd_table	[] =
   { "kaydet",		do_save,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_GHOST },
   { "kaz",		do_dig,  	POS_STANDING,    0,  LOG_NORMAL, 1,0 },
   { "kazan",		do_gain,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
-  { "kd",	do_kd,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { "kdg",	do_kdg,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "keskingörüþ",      do_truesight,   POS_FIGHTING,    0,  LOG_NORMAL, 0,0 },
   { "kilitaç",         do_unlock,      POS_RESTING,     0,  LOG_NORMAL, 1,0},
   { "kilitle",		do_lock,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },

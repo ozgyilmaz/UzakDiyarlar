@@ -8,7 +8,7 @@ Lowlevel 1
 Highlevel 50
 Minvnum 10701
 Maxvnum 10873
-Path ~
+Path 13b 2k d 3k y~
 END
 
 #MOBOLD
@@ -1788,6 +1788,10 @@ You see the black steel gates of the White lotus
 ~
 gate gates black steel~
 1 -1 10702
+D5
+~
+~
+0 0 10001
 S
 
 #10702

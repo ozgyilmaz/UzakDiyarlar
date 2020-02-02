@@ -1896,11 +1896,9 @@ struct	kill_data
 #define COMM_NOGOSSIP           (E)
 #define COMM_NOQUESTION         (F)
 #define COMM_NOMUSIC            (G)
-#define COMM_NOKD		(H)
+#define COMM_NOKDG		(H)
 #define COMM_NOQUOTE		(I)
 #define COMM_SHOUTSOFF		(J)
-
-/* display flags */
 #define COMM_TRUE_TRUST		(K)
 #define COMM_COMPACT		(L)
 #define COMM_BRIEF		(M)
@@ -1909,8 +1907,7 @@ struct	kill_data
 #define COMM_TELNET_GA		(P)
 #define COMM_SHOW_AFFECTS	(Q)
 #define COMM_NOGRATS		(R)
-
-/* penalties */
+#define COMM_NOKD		(S)
 #define COMM_NOEMOTE		(T)
 #define COMM_NOSHOUT		(U)
 #define COMM_NOTELL		(V)

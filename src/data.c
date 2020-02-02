@@ -17,7 +17,7 @@ void data_write(void)
 	cevrimici_oyuncu_sayisi();
 	system("rm -f ../data/data");
 	data=fopen("../data/data","a");
-	fprintf(data,"* Cevrimici oyuncu sayisi\n");
+	fprintf(data,"* Cevrimici oyuncu rekoru\n");
 	fprintf(data,"Encokcevrimici %d\n",max_on_so_far);
 	fprintf(data,"End\n");
 	fclose(data);

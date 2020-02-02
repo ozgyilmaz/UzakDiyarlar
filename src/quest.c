@@ -211,27 +211,31 @@ act ("$Z görev ekipmanlarýnýn listesini istiyorsun.",ch, NULL, questman, TO_CHAR
 550qp..........Decanter of Endless Water\n\r\
 */
 	bufvampire[0] = '\0';
+  bufsamurai[0] = '\0';
 	if ( ch->iclass == CLASS_VAMPIRE )
-  sprintf(bufvampire,"    50gp  Vampir yeteneði (vampir)\n\r");
-	bufsamurai[0] = '\0';
-	if ( ch->iclass == 9 )
-	sprintf(bufsamurai,"%s%s%s",
-  "   100gp  Katana görevi (katana)\n\r",
-  "   100gp  Ýkinci katana görevi(keskin)\n\r",
-  "    50gp  Ölüm sayýsý azaltma (ölüm)\n\r");
+  {
+    sprintf(bufvampire,"    50gp  Vampir yeteneði (vampir)\n\r");
+  }
+	if ( ch->iclass == CLASS_SAMURAI )
+  {
+  	sprintf(bufsamurai,"%s%s%s",
+    "   100gp  Katana görevi (katana)\n\r",
+    "   100gp  Ýkinci katana görevi(keskin)\n\r",
+    "    50gp  Ölüm sayýsý azaltma (ölüm)\n\r");
+  }
   sprintf(buf, "Görev ödülleri:\n\r\
   5000gp  sýrtçantasý    (çanta)\n\r\
   1000gp  kemer          (kemer)\n\r\
-   750gp  akik yüzük     (akik)\n\r\
-   1000gp  platin silah   (platin)\n\r\
-   1000gp  100 pratik     (pratik)\n\r\
+  1000gp  silah          (silah)\n\r\
+  1000gp  100 pratik     (pratik)\n\r\
+   750gp  yüzük          (yüzük)\n\r\
    500gp  testi          (testi)\n\r\
    500gp  350.000 altýn  (altýn)\n\r\
    250gp  1 bünye        (bün)\n\r\
-   200gp  dövme          (dövme)\n\r%s%s\
-   50gp  dövme kaldýrma (kaldýr)\n\r\
-   50gp  dinden çýkma   (dinsiz)\n\r\
-   Ödüllerden birini satýn almak için 'görev alýþ <görev_eþyasý>' yazýn.\n\r",
+   100gp  dövme          (dövme)\n\r%s%s\
+    50gp  dövme kaldýrma (kaldýr)\n\r\
+    50gp  dinden çýkma   (dinsiz)\n\r\
+  Ödüllerden birini satýn almak için 'görev alýþ <görev_eþyasý>' yazýn.\n\r",
 	bufsamurai, bufvampire);
 	send_to_char(buf, ch);
 	return;
@@ -309,9 +313,9 @@ act ("$Z görev ekipmanlarýnýn listesini istiyorsun.",ch, NULL, questman, TO_CHAR
 	}
 	else if (is_name(arg2, (char*)"yüzük"))
 	{
-	    if (ch->pcdata->questpoints >= 1000)
+	    if (ch->pcdata->questpoints >= 750)
 	    {
-		ch->pcdata->questpoints -= 1000;
+		ch->pcdata->questpoints -= 750;
 	        obj = create_object(get_obj_index(QUEST_ITEM2),ch->level);
 	 	if (IS_SET(ch->quest,QUEST_RING) ||
 		    IS_SET(ch->quest,QUEST_RING2) ||
@@ -421,7 +425,7 @@ act_color( "$CGökyüzünde þimþekler çakýyor.$c",   ch, NULL,
 	}
 	else if (is_name(arg2, (char*)"samuray ölüm"))
 	{
-	    if (ch->iclass != 9)
+	    if (ch->iclass != CLASS_SAMURAI)
 	    {
         sprintf(buf, "Üzgünüm %s, fakat sen bir samuray deðilsin.",ch->name);
 		do_tell_quest(ch,questman,buf);
@@ -555,9 +559,9 @@ act_color( "$CGökyüzünde þimþekler çakýyor.$c",   ch, NULL,
       	      return;
     	    }
 
-	    if (ch->pcdata->questpoints >= 200)
+	    if (ch->pcdata->questpoints >= 100)
 	    {
-	      ch->pcdata->questpoints -= 200;
+	      ch->pcdata->questpoints -= 100;
 
    tattoo = create_object(get_obj_index(religion_table[ch->religion].vnum),100);
 
