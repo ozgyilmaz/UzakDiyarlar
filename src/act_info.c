@@ -12,7 +12,6 @@
 /***************************************************************************
  *  Original Diku Mud copyright (C) 1990, 1991 by Sebastian Hammer,        *
  *  Michael Seifert, Hans Henrik St{rfeldt, Tom Madsen, and Katja Nyboe.   *
- *                                                                         *
  *  Merc Diku Mud improvments copyright (C) 1992, 1993 by Michael          *
  *  Chastain, Michael Quan, and Mitchell Tse.                              *
  *                                                                         *
@@ -1752,6 +1751,7 @@ void do_score( CHAR_DATA *ch, char *argument )
 {
 	char sex[8];
   char dogumGunu[20];
+  char bufsamurai[100];
 	sex[0]='\0';
 	switch (ch->sex)
 	{
@@ -1767,6 +1767,12 @@ void do_score( CHAR_DATA *ch, char *argument )
 
 	}
   game_time_to_string(ch->pcdata->birth_time,dogumGunu);
+
+  bufsamurai[0] = '\0';
+  if (ch->iclass != CLASS_SAMURAI)
+  {
+    sprintf(bufsamurai,"Ölüm : {w%-3d{c",ch->pcdata->death);
+  }
 
 
   printf_to_char(ch,"{c,--------------------------------------------------------------------,{w\n\r");
@@ -1786,7 +1792,7 @@ void do_score( CHAR_DATA *ch, char *argument )
   printf_to_char(ch,"{c| Kalan : {w%-10d{c      | Bün: {w%-2d(%-2d){c  | Aðýrlýk: {w%6ld/%-8d{c  |\n\r",(!IS_NPC(ch)?((ch->level + 1) * exp_per_level(ch,ch->pcdata->points) - ch->exp):0),ch->perm_stat[STAT_CON],get_curr_stat(ch,STAT_CON),get_carry_weight(ch), can_carry_w(ch));
   printf_to_char(ch,"{c| TP    : {w%-12ld{c    | Kar: {w%-2d(%-2d){c  | GörevP: {w%-5d{c             |\n\r",ch->exp,ch->perm_stat[STAT_CHA],get_curr_stat(ch,STAT_CHA),IS_NPC(ch) ? 0 :ch->pcdata->questpoints);
   printf_to_char(ch,"{c| Korkak: {w%-10d{c      | ZZ : {w%-3d{c     | GörevZ: {w%-2d{c                |\n\r",ch->wimpy,GET_DAMROLL(ch),IS_NPC(ch) ? 0 :((IS_SET(ch->act, PLR_QUESTOR))?(ch->pcdata->countdown):(ch->pcdata->nextquest)));
-  printf_to_char(ch,"{c|                         | VZ : {w%-3d{c     |                           |{w\n\r",GET_HITROLL(ch));
+  printf_to_char(ch,"{c|                         | VZ : {w%-3d{c     | %-12s                          |\n\r",GET_HITROLL(ch), bufsamurai);
   printf_to_char(ch,"{c|-------------------------'--------------'---------------------------|{w\n\r");
   printf_to_char(ch,"{c| {wDayanýklýlýklar{c                                                    |{w\n\r");
   printf_to_char(ch,"{c| teshir:%s çaðrý :%s büyü :%s silah   :%s ezici:%s delici:%s kesici :%s    |{w\n\r",(ch->res_flags  & IMM_CHARM)?"{w+{c":" ",(ch->res_flags  & IMM_SUMMON)?"{w+{c":" ",(ch->res_flags  & IMM_MAGIC)?"{w+{c":" ",(ch->res_flags  & IMM_WEAPON)?"{w+{c":" ",(ch->res_flags  & IMM_BASH)?"{w+{c":" ",(ch->res_flags  & IMM_PIERCE)?"{w+{c":" ",(ch->res_flags  & IMM_SLASH)?"{w+{c":" ");
@@ -2447,7 +2453,7 @@ void set_title( CHAR_DATA *ch, char *title )
 
 void do_titl( CHAR_DATA *ch, char *argument)
 {
-   printf_to_char(ch, "Lakabýný deðiþtirmek istiyorsan komutu tam yazmalýsýn.\n\r");
+   printf_to_char( ch,"Lakabýný deðiþtirmek istiyorsan 'lakap' komutunu eksiksiz yazmalýsýn.\n\r" );
 }
 
 void do_title( CHAR_DATA *ch, char *argument )
@@ -2461,11 +2467,13 @@ void do_title( CHAR_DATA *ch, char *argument )
          return;
 	}
 
-    if ( argument[0] == '\0' )
-    {
-      printf_to_char(ch, "Lakabýný neyle deðiþtireceksin?\n\rLakabýn sýfýrlansýn istersen lakap sýfýrla yazabilirsin.\n\r");
-        return;
-    }
+  if ( argument[0] == '\0' )
+  {
+    printf_to_char(ch, "Ýsteðin üzerine lakabýn sýfýrlandý.\n\r");
+    set_title( ch, "" );
+
+      return;
+  }
 
     if (!str_cmp(argument, "sýfýrla"))
     {
