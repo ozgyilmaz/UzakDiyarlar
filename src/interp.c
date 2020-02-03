@@ -1159,7 +1159,7 @@ void do_unalias(CHAR_DATA *ch, char *argument)
 
     argument = one_argument(argument,arg);
 
-    if (arg == '\0')
+    if (arg == NULL)
     {
       send_to_char("Hangi kýsayolu kaldýracaksýnýz?\n\r",ch);
 	return;

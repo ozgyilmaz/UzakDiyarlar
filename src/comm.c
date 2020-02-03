@@ -2166,6 +2166,8 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
     case CON_GET_NEW_RACE:
 	one_argument(argument,arg);
+	// ilk denemede string önünde '\376' geliyor, ýrk seçimi hata veriyor. dolaylý çözüm!
+	if(argument[0]<0) argument++; if(arg[0]<0) memmove(arg, arg+1, strlen(arg));
 
 	if (!str_cmp(arg,"yardým"))
 	{
@@ -3520,7 +3522,7 @@ int ethos_check(CHAR_DATA *ch)
 int colour( char type, CHAR_DATA *ch, char *string )
 {
     char	code[ 20 ];
-    char	*p = '\0';
+    char	*p = NULL;
 
     if( IS_NPC( ch ) )
 	return( 0 );
