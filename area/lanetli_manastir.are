@@ -243,7 +243,7 @@ This wyvern is a scout for the monks of the abbey, you surmise. Then again
 it could be a perfectly normal wyvern that just happens to be wearing a
 massive green amulet with "dragon clan" written on it...
 ~
-oldstyle~
+wyvern~
 2|64 524288 -234 0
 61 0 50d10+7000 5d5+5000 6d9+31 none
 -31 -31 -31 -4
@@ -259,7 +259,7 @@ These savage mutant hounds are horrors feared the world over. Only the monks
 have managed to tame these beasts, much to the displeasure of civilized
 folk everywhere.
 ~
-oldstyle~
+asura~
 2|32|64 32768 0 0
 62 0 50d10+7250 5d5+5000 6d9+32 charge
 -32 -32 -32 -4

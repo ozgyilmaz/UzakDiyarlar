@@ -4630,7 +4630,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	victim->gold = value;
 	return;
     }
-	
+
     if ( !str_prefix( arg2, "silver" ) )
     {
 	victim->silver = value;
@@ -5480,7 +5480,7 @@ void do_reboot( CHAR_DATA *ch, char *argument )
 	return;
       }
      reboot_counter = atoi(arg);
-     sprintf(buf,"Uzak Diyarlar %i tik sonra yeniden baþlatýlacak.\n\r",reboot_counter);
+     sprintf(buf,"Uzak Diyarlar %i dakika sonra yeniden baþlatýlacak.\n\r",reboot_counter);
      send_to_char(buf,ch);
      return;
     }

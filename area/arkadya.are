@@ -596,7 +596,7 @@ Küçük þakacý bir peri seni görüyor ve biraz eðlenmeye karar veriyor.
 This sprite looks like a little man with butterfly wings and a mishcevous
 smile on his face.
 ~
-quickling~
+sprite~
 AFHW BTV -300 0
 32 0 10d20+1000 10d20+2000 6d4+9 pierce
 -18 -18 -18 -1
@@ -685,7 +685,7 @@ Güzel bir çiçek burada büyüyor.
 Something seems quite strange about this flower.  It almost seems to be
 alive.
 ~
-quickling~
+sprite~
 ACGU PVd 100 0
 22 0 5d10+400 10d20+2000 4d4+6 none
 -12 -10 -12 -1
@@ -699,7 +699,7 @@ Küçük bir meþe palamudu burada duruyor.
 ~
 Looks like an ordinary acorn...only it keeps moving.....
 ~
-quickling~
+sprite~
 ACGU PVd 100 0
 22 0 5d10+400 10d20+2000 4d4+6 pound
 -12 -10 -12 -1
@@ -714,7 +714,7 @@ Küçük kavalý olan bir oðlan.
 This little boy has seemingly charmed several forest creatures with his
 strange music.  He holds a small set of glowing pipes in his hands.
 ~
-quickling~
+sprite~
 ABCU PVd 100 0
 22 0 5d10+400 10d20+2000 4d4+6 pound
 -12 -10 -12 -1
