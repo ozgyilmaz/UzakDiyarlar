@@ -125,8 +125,8 @@ ihtiyar bir vadi çorasý~
 Ýhtiyar bir vadi çorasý burada çalýþýrken seni fark ediyor.
 Ýhtiyar bir vadi çorasý baðýrýyor 'Buraya izinsiz girdin.  Ölmeye hazýrlan!'
 ~
-This çora looks quite old, probably twenty or more times your age.  He looks
-quite potent, though.
+Bu çora oldukça yaþlý görünüyor, senin yaþýnýn belki de yirmi katý.
+Yaþýna raðmen oldukça güçlü duruyor.
 ~
 çora~
 ABCFQ HN 0 0
@@ -141,8 +141,8 @@ ihtiyar bir vadi çorasý~
 Ýhtiyar bir vadi çorasý burada çalýþýrken seni fark ediyor.
 Ýhtiyar bir vadi çorasý þöyle söylüyor 'Seni yolun sonuna getiren, küstahlýðýndýr.'
 ~
-This çora looks quite old, probably twenty or more times your age.  She looks
-quite potent, though.
+Bu çora oldukça yaþlý görünüyor, senin yaþýnýn belki de yirmi katý.
+Yaþýna raðmen oldukça güçlü duruyor.
 ~
 çora~
 ABCFR N 0 0
@@ -156,8 +156,8 @@ ateþ hidrasý~
 ateþ hidrasý~
 Her biri ateþ püskürten bir çok baþý olan büyük yaratýk, garezle sana bakýyor.
 ~
-This big beast looks like a small red dragon, but has many more heads than a
-regular dragon, too.  It doesn't look happy.
+Bu büyük canavar küçük bir kýrmýzý ejderhaya benziyor, ancak normal bir ejderhadan
+çok daha fazla baþý var. Pek mutlu durmuyor.
 ~
 human~
 ABF 0 0 0
@@ -171,7 +171,7 @@ keþiþ adam yaþlý~
 yaþlý bir keþiþ~
 Yaþlý bir keþiþ burada oturmuþ çubuk tüttürüyor.
 ~
-He looks old and feeble.
+Yaþlý ve zayýf görünüyor.
 ~
 human~
 ABCH 0 0 0
@@ -185,7 +185,7 @@ büyücü talemon~
 Talemon~
 Yaþlý bir büyücü bir takým kimyasallarla meþgul.
 ~
-Talemon looks harmless, but the fireballs he throws at you don't.
+Talemon zararsýz görünüyor, ama sana fýrlattýðý ateþ toplarý için aynýsý denemez.
 ~
 human~
 ABCFR 0 0 0
@@ -199,8 +199,7 @@ muhafýz cin~
 muhafýz cin~
 Devasa bir cin burada hazineyi gözetip koruyor.
 ~
-This daemon is unhappy with its summoned job, and is willing to take out it's
-anger at you!
+Bu cin çaðrýldýðý iþinden memnun deðil ve öfkesini senden çýkarmaya hazýr!
 ~
 human~
 ABF 0 -500 0
@@ -214,7 +213,7 @@ kurt~
 bir kurt~
 Bir kurt görüyorsun, sessizce izliyor.
 ~
-The wolf is covered with brown hair.  It looks at you with fright.
+Kurt kahverengi saçlý. Korku ile sana bakýyor.
 ~
 wolf~
 AFH 0 0 0
@@ -228,8 +227,8 @@ antilop~
 bir antilop~
 Bir antilop burada, özgürce çimlerde otluyor.
 ~
-With horns and spots over coarse, brown hair, this beast is the spit and
-image of ... an antelope.
+Kaba, kahverengi saçlar üzerinde boynuzlarý ve lekeleri olan bu canavar,
+kesinlikle bir antilop.
 ~
 human~
 AH 0 0 0
@@ -457,18 +456,17 @@ A
 #ROOMS
 #7800
 Düzlüklerden uzanan bir Patika~
-You are on a path away from the Plains of Ofcol.  The path doesn't look well
-tread, but it is relatively well kept.  To the south are the Plains of Ofcol,
-while this path leads north.
+Ofcol'dan uzak bir yoldasýn. Yol iyi görünmüyor, ancak nispeten iyi korunuyor.
+Güneyinde Ofcol bulunan bu yol kuzeye doðru uzanmakta.
 ~
 0 0 2
 D0
-The path continues north.
+Yol kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7801
 D2
-You see the Plains of Ofcol.
+Ofcol'u görüyorsun.
 ~
 ~
 0 0 323
@@ -479,9 +477,8 @@ D3
 S
 #7801
 Patika~
-You are on the path away from the Plains of Ofcol.  The main path leads north
-to an overlook and south back toward the Plains of Ofcol.  Western and eastern
-side paths can be seen, probably deer trails by the width of them.
+Ofcoldan uzak bir yoldasýn. Ana yol kuzeyde bir tepeye, güney ise Ofcol'a doðru gitmekte.
+Batý ve doðuda yan yollar görünüyor, geniþliklerine bakýlýrsa geyiklerin kullandýðý bir yol.
 ~
 0 0 2
 D0
