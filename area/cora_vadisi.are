@@ -1107,91 +1107,83 @@ güneyde bu vadiden uzaklaþan bir yol görüyorsun. Batý ve doðu yollarý bu binayý
 ~
 0 0 2
 D0
-You see the building.
+Binayý görüyorsun.
 ~
 door~
 1 -1 7834
 D1
-You see the trail around the building.
+Binanýn etrafýndaki patikayý görüyorsun.
 ~
 ~
 0 0 7831
 D2
-You see the trail leading away from this valley.
+Vadiden uzaklaþan patikayý görüyorsun.
 ~
 ~
 0 0 7828
 D3
-You see the trail around the building.
+Binanýn etrafýndaki patikayý görüyorsun.
 ~
 ~
 0 0 7830
 S
 #7830
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads north and
-east.  To the north-east is a building.
+Çora Vadisinde bir patikadasýn. Bu patika kuzeye ve doðuya doðru gidiyor.
+Kuzeydoðuda bir bina görüyorsun.
 ~
 0 0 2
 D0
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7832
 D1
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7829
 S
 #7831
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads west and
-east.  To the north is a building.
+Çora Vadisinde bir patikadasýn. Bu patika batýya ve doðuya doðru gidiyor.
+Kuzeyde bir bina görüyorsun.
 ~
 0 0 2
 D1
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7833
 D3
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7829
 S
 #7832
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads north and
-south.  To the east is a building.
+Çora Vadisinde bir patikadasýn. Bu patika kuzeye ve
+güneye doðru gidiyor.  Doðuda bir bina görüyorsun.
 ~
 0 0 2
 D0
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7837
 D2
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7830
 S
 #7833
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads north and
-west.  To the north-west is a building.
+Çora Vadisinde bir patikadasýn. Bu patika kuzeye ve
+batýya gidiyor. Kuzeybatýda bir bina görüyorsun.
 ~
 0 0 2
 D0
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7836
 D3
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7831
 S
@@ -1238,35 +1230,29 @@ The building continues to the west.
 S
 #7836
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads north and
-south.  To the west is a building.
+Çora Vadisinde bir patikadasýn. Bu patika kuzeye vesouth.  To the west is a building.
 ~
 0 0 2
 D0
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7840
 D2
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7833
 S
 #7837
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads north and
-south.  To the east is a building.
+Çora Vadisinde bir patikadasýn. Bu patika kuzeye vesouth.  To the east is a building.
 ~
 0 0 2
 D0
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7841
 D2
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7832
 S
@@ -1313,18 +1299,15 @@ You see the second floor.
 S
 #7840
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads north and
-south.  To the west is a building.
+Çora Vadisinde bir patikadasýn. Bu patika kuzeye vesouth.  To the west is a building.
 ~
 0 0 2
 D0
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7844
 D2
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7836
 S
@@ -1335,13 +1318,11 @@ east.  To the south-east is a building.
 ~
 0 0 2
 D1
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7842
 D2
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7837
 S
@@ -1352,13 +1333,11 @@ east.  To the south is a building.
 ~
 0 0 2
 D1
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7843
 D3
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7841
 S
@@ -1369,13 +1348,11 @@ west.  To the south is a building.
 ~
 0 0 2
 D1
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7844
 D3
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7842
 S
@@ -1386,13 +1363,11 @@ west.  To the south-west is a building.
 ~
 0 0 2
 D2
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7840
 D3
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7843
 S
@@ -1671,8 +1646,7 @@ D3
 ~
 0 0 7859
 D5
-You see the trail.
-~
+Patikayý görüyorsun.~
 ~
 0 0 7826
 S
