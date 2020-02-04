@@ -17,9 +17,9 @@ köpek doberman~
 bir doberman~
 Büyükçe bir köpek burada, vadide geziniyor.
 ~
-A beast is the size of the largest common dog.  It has a greenish coat with
-brown spots.  Its shape, along with its colors, make this cooshee almost
-undetectable as it moves.
+Bu doberman neredeyse gördüðün en büyük köpek olabilir. Kahverengi lekeli,
+yeþilimsi bir ceketi var. Þekli, renkleri ile birlikte, bu dobermaný hareket
+ettikçe neredeyse farkedilemez hale getiriyor.
 ~
 dog~
 AGH P 0 0
@@ -33,10 +33,10 @@ vadi çorasý~
 bir vadi çorasý~
 Bir vadi çorasý senin varlýðýn yüzünden ihtiyatla etrafta geziniyor.
 ~
-This çora is almost as tall as you are, but much slimmer and agile.  You see
-hatred in his eyes, and you try to avoid his stare.  His tense body looks ready
-to spring upon you, like a mountain lion stalking its prey.  He sees you
-noticing him, and quietly disappears.
+Bu çora neredeyse senin kadar uzun, ama çok daha ince ve çevik.
+Gözlerindeki nefreti görüp ve bakýþlarýndan kaçýnmaya çalýþýyorsun.
+Gergin vücudu avýný takip eden bir dað aslaný gibi sana saldýrmaya hazýr görünüyor.
+Onu fark ettiðini görüyor ve sessizce kayboluyor.
 ~
 çora~
 ACFGH P 0 0
@@ -50,8 +50,8 @@ vadi çorasý~
 bir vadi çorasý~
 Diþi bir vadi çorasý, uzun çimenler arasýnda dans edercesine etrafta dolaþýyor.
 ~
-This çora is almost as tall as you are, but much slimmer and more agile.
-She glares at you, then quickly disappears before you see more of her.
+Bu çora neredeyse senin kadar uzun, ama çok daha ince ve çevik.
+Sana dik dik bakýyor ve onu daha fazla göremeden çabucak kayboluyor.
 ~
 çora~
 ACFGH P 0 0
@@ -65,8 +65,8 @@ nöbet tutan vadi çorasý nöbetçi~
 nöbet tutan bir vadi çorasý~
 Burada nöbet tutan bir vadi çorasý seni fark eder etmez hýzlýca saldýrýyor!
 ~
-This çora is almost as tall as you are, but much slimmer and more agile.
-He glares at your intrusion and attacks with menace.
+Bu çora neredeyse senin kadar uzun, ama çok daha ince ve çevik.
+Sana tehditkar bir þekilde saldýrýyor!
 ~
 çora~
 ABF P 0 0
@@ -80,8 +80,8 @@ nöbet tutan vadi çorasý nöbetçi~
 nöbet tutan bir vadi çorasý~
 Burada nöbet tutan bir vadi çorasý seni fark eder etmez hýzlýca saldýrýyor!
 ~
-This çora is almost as tall as you are, but much slimmer and more agile.
-She glares at your intrusion and attacks with menace.
+Bu çora neredeyse senin kadar uzun, ama çok daha ince ve çevik.
+Sana tehditkar bir þekilde saldýrýyor!
 ~
 çora~
 ABF P 0 0
@@ -95,7 +95,7 @@ gözcülük yapan vadi çorasý~
 gözcülük yapan bir vadi çorasý~
 Gözcülük yapan bir vadi çorasý, senin gibi davetsiz konuklarýn izini sürüyor!
 ~
-The çora notices your intrusion and attacks with determination.
+Davetsiz giriþin üzerine sana kendinden emin bir þekilde saldýrýyor!
 ~
 çora~
 ACFG P 0 0
@@ -109,8 +109,8 @@ vadi çorasý~
 bir vadi çorasý~
 Bir vadi çorasý burada kendi iþleriyle uðraþýyor.
 ~
-She is currently doing some menial chores, and ignores your intrusion except
-when you are in her way.
+Þu anda bazý angarya iþler yapýyor ve onun yolunda olduðunuz zamanlar haricinde
+burada davetsiz olmanýzý görmezden geliyor.
 ~
 çora~
 AGH P 0 0
