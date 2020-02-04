@@ -1152,7 +1152,7 @@ S
 #7831
 Vadideki bir Patika~
 Çora Vadisinde bir patikadasýn. Bu patika batýya ve doðuya doðru gidiyor.
-Kuzeyde bir bina görüyorsun.
+Kuzeybatýda bir bina görüyorsun.
 ~
 0 0 2
 D1
@@ -1168,8 +1168,8 @@ Patikayý görüyorsun.
 S
 #7832
 Vadideki bir Patika~
-Çora Vadisinde bir patikadasýn. Bu patika kuzeye ve
-güneye doðru gidiyor.  Doðuda bir bina görüyorsun.
+Çora Vadisinde bir patikadasýn. Bu patika kuzeye ve güneye doðru gidiyor.
+Doðuda bir bina görüyorsun.
 ~
 0 0 2
 D0
@@ -1185,8 +1185,8 @@ Patikayý görüyorsun.
 S
 #7833
 Vadideki bir Patika~
-Çora Vadisinde bir patikadasýn. Bu patika kuzeye ve
-batýya gidiyor. Kuzeybatýda bir bina görüyorsun.
+Çora Vadisinde bir patikadasýn. Bu patika kuzeye ve batýya gidiyor.
+Kuzeybatýda bir bina görüyorsun.
 ~
 0 0 2
 D0
@@ -1224,9 +1224,9 @@ door~
 S
 #7835
 Mutfak~
-Vadi çoralarýnýn halk mutfaðýndasýn. Duvarlara sýralanmýþ tencere ve tavalar, yiyecek dolu raflar
-görüyorsun. Bir yanda ise büyükce bir fýrýn bulunuyor, piþmiþ çorabiyelerin kokusunu alabilirsiniz.
-Kuzeyde ve batýda kapýlar bulunuyor.
+Vadi çoralarýnýn halk mutfaðýndasýn. Duvarlara sýralanmýþ tencere ve tavalar,
+yiyecek dolu raflar görüyorsun. Bir yanda ise büyükce bir fýrýn bulunuyor,
+piþmiþ çorabiyelerin kokusunu alýyorsun. Kuzeyde ve batýda kapýlar bulunuyor.
 ~
 0 D 0
 D0
@@ -1276,47 +1276,49 @@ Patikayý görüyorsun.
 S
 #7838
 Salon~
-Çora evinin oturma odasýndasýn. Zemin halýlar ile kaplý ve bir masa üzerinde meyve
-dolu bir kase görüyorsun. Pencereden kýr çiçeklerini ve uzun, yeþil otlarýyla vadiyi izliyorsun.
+Çora evinin oturma odasýndasýn. Zemin halýlar ile kaplý ve bir masa üzerinde
+meyve dolu bir kase görüyorsun. Pencereden kýr çiçeklerini ve uzun,
+yeþil otlarýyla vadiyi izliyorsun.
 ~
 0 D 0
 D1
-The building continues to the east.
+Bina doðuya doðru devam ediyor.
 ~
 ~
 0 0 7839
 D2
-The entrance is to the south.
+Bina güneye doðru devam ediyor.
 ~
 ~
 0 0 7834
 S
 #7839
 Depo~
-You are in the storage room of the çora home.  Sacks of flour cover one side,
-and cleaning accessories cover the other side.  You find nothing of use here.
-A staircase leads up.
+Çora evinin deposundasýn. Odanýn bir tarafý un çuvallarý ve diðer tarafý ve
+temizlik malzemeleri ile kaplý. Burada ilgini çeken hiçbir þey bulamýyorsun.
+Bir merdiven yukarý uzanýyor.
 ~
 0 D 0
 D2
-The building continues to the south.
+Bina güneye doðru devam ediyor.
 ~
 ~
 0 0 7835
 D3
-The building continues to the west.
+Bina batýya doðru devam ediyor.
 ~
 ~
 0 0 7838
 D4
-You see the second floor.
+Ýkinci katý görüyorsun.
 ~
 ~
 0 0 7848
 S
 #7840
 Vadideki bir Patika~
-Çora Vadisinde bir patikadasýn. Bu patika kuzeye vesouth.  To the west is a building.
+Çora Vadisinde bir patikadasýn. Bu patika kuzeye ve güneye doðru gidiyor.
+Batýda bir bina görüyorsun.
 ~
 0 0 2
 D0
