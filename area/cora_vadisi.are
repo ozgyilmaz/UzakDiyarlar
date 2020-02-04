@@ -488,7 +488,8 @@ Tepeyi görüyorsun.
 ~
 0 0 7804
 D1
-Küçük patikayý görüyorsun.
+Küçük Patikayý görüyorsun.
+
 ~
 ~
 0 0 7803
@@ -498,7 +499,8 @@ Ofcol'a giden yolu görüyorsun.
 ~
 0 0 7800
 D3
-Küçük patikayý görüyorsun.
+Küçük Patikayý görüyorsun.
+
 ~
 ~
 0 0 7802
@@ -1112,17 +1114,20 @@ Binayý görüyorsun.
 door~
 1 -1 7834
 D1
-Binanýn etrafýndaki patikayý görüyorsun.
+Binanýn etrafýndaki Patikayý görüyorsun.
+
 ~
 ~
 0 0 7831
 D2
-Vadiden uzaklaþan patikayý görüyorsun.
+Vadiden uzaklaþan Patikayý görüyorsun.
+
 ~
 ~
 0 0 7828
 D3
-Binanýn etrafýndaki patikayý görüyorsun.
+Binanýn etrafýndaki Patikayý görüyorsun.
+
 ~
 ~
 0 0 7830
@@ -1134,11 +1139,13 @@ Kuzeydoðuda bir bina görüyorsun.
 ~
 0 0 2
 D0
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7832
 D1
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7829
 S
@@ -1149,11 +1156,13 @@ Kuzeyde bir bina görüyorsun.
 ~
 0 0 2
 D1
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7833
 D3
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7829
 S
@@ -1164,11 +1173,13 @@ güneye doðru gidiyor.  Doðuda bir bina görüyorsun.
 ~
 0 0 2
 D0
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7837
 D2
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7830
 S
@@ -1179,11 +1190,13 @@ batýya gidiyor. Kuzeybatýda bir bina görüyorsun.
 ~
 0 0 2
 D0
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7836
 D3
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7831
 S
@@ -1234,11 +1247,13 @@ Vadideki bir Patika~
 ~
 0 0 2
 D0
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7840
 D2
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7833
 S
@@ -1248,11 +1263,13 @@ Vadideki bir Patika~
 ~
 0 0 2
 D0
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7841
 D2
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7832
 S
@@ -1303,11 +1320,13 @@ Vadideki bir Patika~
 ~
 0 0 2
 D0
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7844
 D2
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7836
 S
@@ -1318,11 +1337,13 @@ east.  To the south-east is a building.
 ~
 0 0 2
 D1
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7842
 D2
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7837
 S
@@ -1333,11 +1354,13 @@ east.  To the south is a building.
 ~
 0 0 2
 D1
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7843
 D3
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7841
 S
@@ -1348,11 +1371,13 @@ west.  To the south is a building.
 ~
 0 0 2
 D1
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7844
 D3
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7842
 S
@@ -1363,11 +1388,13 @@ west.  To the south-west is a building.
 ~
 0 0 2
 D2
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7840
 D3
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7843
 S
@@ -1646,7 +1673,8 @@ D3
 ~
 0 0 7859
 D5
-Patikayý görüyorsun.~
+Patikayý görüyorsun.
+~
 ~
 0 0 7826
 S
