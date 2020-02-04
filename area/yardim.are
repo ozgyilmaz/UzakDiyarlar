@@ -498,7 +498,7 @@ Yerde duran tüm eþyalarý almak için kullanýlýr.
 0 satýnal~
 Dükkanlardan bir þeyi satýn almak için kullanýlýr.
 
-Kullaným-1: alýþ þey
+Kullaným-1: satýnal þey
 
 Örnek:
 satýnal turta
@@ -992,8 +992,8 @@ kuzey, güney, doðu, batý, yukarý, aþaðý
 
 TEMEL EÞYA KOMUTLARI
 al, koy, býrak, ver, kurban, giy, oku, yudumla, savur, kilitle, aç, kapat,
-maymuncuk, envanter, ekipman, bak, kýyasla, ye, iç, doldur, liste, alýþ,
-satýþ, deðer ...
+maymuncuk, envanter, ekipman, bak, kýyasla, ye, iç, doldur, liste,
+satýnal, satýþ, deðer ...
 
 TEMEL BÝLGÝ / ÝLETÝÞÝM KOMUTLARI
 
