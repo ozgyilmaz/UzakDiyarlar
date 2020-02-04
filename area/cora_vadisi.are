@@ -1277,8 +1277,8 @@ S
 #7838
 Salon~
 Çora evinin oturma odasýndasýn. Zemin halýlar ile kaplý ve bir masa üzerinde
-meyve dolu bir kase görüyorsun. Pencereden kýr çiçeklerini ve uzun,
-yeþil otlarýyla vadiyi izliyorsun.
+meyve dolu bir kase görüyorsun. Pencereden kýr çiçeklerini ve uzun, yeþil
+otlarýyla vadiyi izliyorsun.
 ~
 0 D 0
 D1
@@ -1420,7 +1420,8 @@ door~
 S
 #7846
 Depo~
-Bir depolama odasýndasýn. Birçok önemsiz (senin için) eþya bu odayý dolduruyor.
+Bir depolama odasýndasýn.
+Birçok önemsiz (senin için) eþya bu odayý dolduruyor.
 ~
 0 D 0
 D0
@@ -1436,9 +1437,9 @@ door~
 S
 #7847
 Dinlenme Bölmeleri~
-You are in the sleeping quarters of the valley elves.  Cots line the floor,
-with two windows showing a view of the valley.  Books in strange languages
-line the shelves, but nothing of interest is here.
+Vadi çoralarýnýn dinlenme bölmelerindesin. Yerlerde bebek karyolalarý sýralý,
+vadiyi manzara alan iki pencere görüyorsun. Raflarda tuhaf dillerde kitaplar
+sýralý ancak ilgi çekici bir þey var gibi durmuyor.
 ~
 0 D 0
 D1
@@ -1454,10 +1455,10 @@ door~
 S
 #7848
 Çalýþma Odasý~
-You are in the study room of the valley elves.  Comfortable mats are on the
-floor, and musical instruments are neatly stacked on shelves.  Books in
-strange languages line some other elves.  A stairway leads down to the
-first floor.
+Vadi elflerinin çalýþma odasýndasýn. Yerde konforlu halýlar ve raflara düzgün
+bir þekilde yerleþtirilmiþ müzik aletleri dikkatini çekiyor. Garip dillerde
+yazýlmýþ kitaplar bazý çoralarý sýraya sokuyor.
+Birinci kata inen bir merdiven görüyorsun.
 ~
 0 D 0
 D2
@@ -1471,15 +1472,15 @@ Baþka bir oda görüyorsun.
 door~
 1 -1 7847
 D5
-You see the first floor.
+Birinci katý görüyorsun.
 ~
 ~
 0 0 7839
 S
 #7849
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Elfler Vadisi'nin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun.
 ~
 0 0 2
 D1
@@ -1491,15 +1492,15 @@ D2
 ~
 0 0 7803
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7850
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Elfler Vadisi'nin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun
 ~
 0 0 2
 D0
@@ -1511,15 +1512,15 @@ D3
 ~
 0 0 7849
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7851
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Elfler Vadisi'nin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun
 ~
 0 0 2
 D1
@@ -1531,15 +1532,15 @@ D2
 ~
 0 0 7850
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7852
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Elfler Vadisi'nin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun
 ~
 0 0 2
 D0
@@ -1551,15 +1552,15 @@ D3
 ~
 0 0 7851
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7853
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Elfler Vadisi'nin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun
 A safe trail leads down into the valley.
 ~
 0 0 2
@@ -1572,15 +1573,15 @@ D2
 ~
 0 0 7852
 D5
-The trail down looks safe.
+Aþaðýdaki patika güvenli duruyor.
 ~
 ~
 0 0 7817
 S
 #7854
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Elfler Vadisi'nin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun
 ~
 0 0 2
 D2
@@ -1592,15 +1593,15 @@ D3
 ~
 0 0 7855
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7855
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Elfler Vadisi'nin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun
 ~
 0 0 2
 D0
@@ -1612,15 +1613,15 @@ D1
 ~
 0 0 7854
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7856
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Elfler Vadisi'nin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun
 ~
 0 0 2
 D2
@@ -1632,15 +1633,15 @@ D3
 ~
 0 0 7857
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7857
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Elfler Vadisi'nin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun
 ~
 0 0 2
 D1
@@ -1648,22 +1649,22 @@ D1
 ~
 0 0 7856
 D3
-You see a örme köprü~
+Bir örme köprü görüyorsun
+~
 ~
 0 0 7858
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7858
 Örme Köprü~
-You are on the örme köprü.  From here, you can see the whole Valley of the
-Elves.  To the south, you see the main valley.  To the north-east, you see a
-smaller valley with a building in the center of it.  To the north-west, you
-can see a very small valley with a shack in it's center.  A rope ladder
-leads down into a trail.
+Örme köprünün üzerindesin. Buradan çoralarýn bütün vadisini görebiliyorsun.
+Güneyde ana vadiyi görüyorsun. Kuzeydoðuda, ortasýnda bir bina bulunan daha
+küçük bir vadi görüyorsunuz. Kuzeybatýda, merkezinde bir kulübe bulunan çok
+küçük bir vadi görebilirsiniz. Bir patikaya doðru inen örgü bir merdiven görüyorsun.
 ~
 0 0 2
 D1
@@ -1682,8 +1683,8 @@ Patikayý görüyorsun.
 S
 #7859
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Elfler Vadisi'nin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun
 ~
 0 0 2
 D1
@@ -1696,15 +1697,15 @@ D3
 ~
 0 0 7860
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7860
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Elfler Vadisi'nin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun
 ~
 0 0 2
 D1
@@ -1720,15 +1721,15 @@ D3
 ~
 0 0 8800
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7861
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Elfler Vadisi'nin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun
 ~
 0 0 2
 D0
@@ -1740,15 +1741,15 @@ D3
 ~
 0 0 7862
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7862
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Elfler Vadisi'nin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun
 ~
 0 0 2
 D1
@@ -1760,15 +1761,15 @@ D2
 ~
 0 0 7863
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7863
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Elfler Vadisi'nin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun
 A safe trail leads down into the valley.
 ~
 0 0 2
@@ -1788,8 +1789,8 @@ The trail down looks safe.
 S
 #7864
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Elfler Vadisi'nin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun
 ~
 0 0 2
 D0
@@ -1801,15 +1802,15 @@ D1
 ~
 0 0 7865
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7865
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Elfler Vadisi'nin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun
 ~
 0 0 2
 D2
@@ -1821,15 +1822,15 @@ D3
 ~
 0 0 7864
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7866
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Elfler Vadisi'nin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun
 ~
 0 0 2
 D0
@@ -1841,15 +1842,15 @@ D1
 ~
 0 0 7867
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7867
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Elfler Vadisi'nin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun
 ~
 0 0 2
 D2
@@ -1861,7 +1862,7 @@ D3
 ~
 0 0 7866
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
