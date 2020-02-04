@@ -86,10 +86,10 @@ Tüm oyunculara duyuru yapýlmasýný saðlar.
 
 IRK       KISALTMA     ÝYÝ      KÖTÜ     TP    BÝLGÝ
 -----      -------   -------  -------   -----  -------------------
-Ýnsan       Ýnsan      Hiç      Hiç       0    ortalama ýrk
+Ýnsan       Ýnsan      Hiç       Hiç      0    ortalama ýrk
 Çora        Çora     Zek,Çev   Güç,Bün   500   iyi yönelim
 Cüce        Cüce     Bil,Bün     Çev     250   "vahþileþme"
-Naga        Naga      Bil       Zek      250   "irfan", "tanýmlama"
+Naga        Naga       Bil       Zek     250   "irfan", "tanýmlama"
 Yeg         Yeg      Güç,Bün   Zek,Bil   250   "vahþileþme", "maymuncuk"
 Gamayun     Gamay    Zek,Dex   Güç,Bün   250   uçabilen canlýlar
 Börü        Börü     Güç,Bün     Çev     250   "çýplak el"
