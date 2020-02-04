@@ -1334,8 +1334,8 @@ Patikayý görüyorsun.
 S
 #7841
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads south and
-east.  To the south-east is a building.
+Çora Vadisinde bir patikadasýn. Bu patika doðuya ve güneye doðru gidiyor.
+Güneydoðuda bir bina görüyorsun.
 ~
 0 0 2
 D1
@@ -1351,8 +1351,8 @@ Patikayý görüyorsun.
 S
 #7842
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads west and
-east.  To the south is a building.
+Çora Vadisinde bir patikadasýn. Bu patika batýya ve doðuya doðru gidiyor.
+Güneyde bir bina görüyorsun.
 ~
 0 0 2
 D1
@@ -1368,8 +1368,8 @@ Patikayý görüyorsun.
 S
 #7843
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads east and
-west.  To the south is a building.
+Çora Vadisinde bir patikadasýn.  Bu patika doðuya ve batýya doðru gidiyor.
+Güneyde bir bina görüyorsun.
 ~
 0 0 2
 D1
@@ -1385,8 +1385,8 @@ Patikayý görüyorsun.
 S
 #7844
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads south and
-west.  To the south-west is a building.
+Çora Vadisinde bir patikadasýn.  Bu patika güneye ve batýya doðru gidiyor.
+Güneydoðuda bir bina görüyorsun.
 ~
 0 0 2
 D2
@@ -1402,34 +1402,34 @@ Patikayý görüyorsun.
 S
 #7845
 Ýhtiyarlar Odasý~
-You are in the room of the valley çora elders.  Books written in strange
-languages line the numerous shelves, and scrolls cover a table.  There is a
-smooth spheric object in the center of the room.
+Vadi çorasý ihtiyarlarýnýn odasýndasýn. Garip dillerde yazýlmýþ kitaplarla
+dolu bir raf ve parþömenlerle kaplý bir masa görüyorsun. Odanýn merkezinde
+pürüzsüz bir küresel nesne var.
 ~
 0 D 0
 D0
-You see another room.
+Baþka bir oda görüyorsun.
 ~
 door~
 1 -1 7847
 D1
-You see another room.
+Baþka bir oda görüyorsun.
 ~
 door~
 1 7804 7846
 S
 #7846
 Depo~
-You are in a storage room.  Many useless (to you) items fill this room.
+Bir depolama odasýndasýn. Birçok önemsiz (senin için) eþya bu odayý dolduruyor.
 ~
 0 D 0
 D0
-You see another room.
+Baþka bir oda görüyorsun.
 ~
 door~
 1 7804 7848
 D3
-You see another room.
+Baþka bir oda görüyorsun.
 ~
 door~
 1 7804 7845
@@ -1442,12 +1442,12 @@ line the shelves, but nothing of interest is here.
 ~
 0 D 0
 D1
-You see another room.
+Baþka bir oda görüyorsun.
 ~
 door~
 1 -1 7848
 D2
-You see another room.
+Baþka bir oda görüyorsun.
 ~
 door~
 1 -1 7845
@@ -1461,12 +1461,12 @@ first floor.
 ~
 0 D 0
 D2
-You see another room.
+Baþka bir oda görüyorsun.
 ~
 door~
 1 7804 7846
 D3
-You see another room.
+Baþka bir oda görüyorsun.
 ~
 door~
 1 -1 7847
