@@ -98,6 +98,8 @@ void	track_update	args( ( void ) );
 /* used for saving */
 
 int	save_number = 0;
+extern int max_on;
+extern int max_on_so_far;
 
 
 
@@ -194,7 +196,7 @@ void gain_exp( CHAR_DATA *ch, int gain )
     while ( ch->level < LEVEL_HERO &&
            exp_to_level(ch,ch->pcdata->points) <= 0)
     {
-      send_to_char("Seviyen yükseldi!!  ", ch );
+      printf_to_char(ch , "{GSeviyen yükseldi!!{x  " );
 	ch->level += 1;
 
 	/* added for samurais by chronos */
@@ -2480,4 +2482,19 @@ void track_update( void )
 	 }
         }
    }
+}
+
+void cevrimici_oyuncu_sayisi( void )
+{
+	DESCRIPTOR_DATA *d;
+	int count;
+	count=0;
+	for ( d = descriptor_list; d != NULL; d = d->next )
+	{
+        	if (d->connected == CON_PLAYING )
+			count++;
+	}
+  max_on = UMAX(count,max_on);
+	max_on_so_far  = UMAX(count,max_on_so_far);
+	return;
 }

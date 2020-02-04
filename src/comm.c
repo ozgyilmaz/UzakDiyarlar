@@ -443,6 +443,8 @@ int main( int argc, char **argv )
     game_loop_mac_msdos( );
 #endif
 
+	data_read();
+
 #if defined(unix)
     control = init_socket( port );
     boot_db( );
@@ -1839,7 +1841,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
                 return;
             }
 
- 	    do_help(ch,(char*)"NAME");
+ 	    do_help(ch,(char*)"isim");
 			sprintf( buf, "\n\rDoðru anladým mý, %s (E/H)? ", argument );
 			write_to_buffer( d, buf, 0 );
 	    d->connected = CON_CONFIRM_NEW_NAME;
@@ -2146,7 +2148,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 			MAX_PC_RACE - 1);
 	write_to_buffer( d, buf, 0);
 	write_to_buffer( d, "\n\r", 0);
-	do_help(ch,(char*)"RACETABLE");
+	do_help(ch,(char*)"ýrklar");
 	d->connected = CON_GET_NEW_RACE;
 	break;
 
@@ -2158,12 +2160,14 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 			MAX_PC_RACE - 1);
 	write_to_buffer( d, buf, 0);
 	write_to_buffer( d, "\n\r", 0);
-	do_help(ch,(char*)"RACETABLE");
+	do_help(ch,(char*)"ýrklar");
 	d->connected = CON_GET_NEW_RACE;
 	break;
 
     case CON_GET_NEW_RACE:
 	one_argument(argument,arg);
+	// ilk denemede string önünde '\376' geliyor, ýrk seçimi hata veriyor. dolaylý çözüm!
+	if(argument[0]<0) argument++; if(arg[0]<0) memmove(arg, arg+1, strlen(arg));
 
 	if (!str_cmp(arg,"yardým"))
 	{
@@ -2171,7 +2175,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    if (argument[0] == '\0')
 	      {
 			write_to_buffer( d, "Aþaðýda ýrk listesi verilmiþtir. Lütfen seçiniz:\n\n\r", 0);
-            	do_help(ch,(char*)"RACETABLE");
+            	do_help(ch,(char*)"ýrklar");
 		break;
 	      }
 	    else
@@ -2241,7 +2245,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	ch->pcdata->points = pc_race_table[race].points;
 
-	ch->size = pc_race_table[race].size;
+	ch->size = race_table[race].size;
 
 	write_to_buffer( d, "\n\rIrk seçimi tamam.\n\rPeki karakterin cinsiyeti ne olsun ( E - K )? ", 0 );
         d->connected = CON_GET_NEW_SEX;
@@ -2262,7 +2266,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    return;
 	}
 
-	do_help(ch,(char*)"class help");
+	do_help(ch,(char*)"sýnýflar");
 
 	strcpy( buf, "Bir sýnýf seçin:\n\r[ " );
 	sprintf(buf1,"             (Devam ediyor:)  ");
@@ -2298,7 +2302,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	if (!str_cmp(arg,"help"))
 	  {
 	    if (argument[0] == '\0')
-		do_help(ch,(char*)"class help");
+		do_help(ch,(char*)"sýnýflar");
 	    else
 		do_help(ch,argument);
             write_to_buffer(d,
@@ -2332,15 +2336,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 ( 20 + pc_race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i]) );
 	  ch->perm_stat[i] = UMIN(25, ch->perm_stat[i]);
 	  }
-		/*
-		sprintf(buf,"Güç:%s  Zek:%s  Bil:%s  Çev:%s  Bün:%s Kar:%s \n\r Kabul (E/H)? ",
-        get_stat_alias(ch, STAT_STR),
-        get_stat_alias(ch, STAT_INT),
-        get_stat_alias(ch, STAT_WIS),
-        get_stat_alias(ch, STAT_DEX),
-        get_stat_alias(ch, STAT_CON),
-        get_stat_alias(ch, STAT_CHA) );
-				*/
+
 		sprintf(buf,"Güç:%2d  Zek:%2d  Bil:%2d  Çev:%2d  Bün:%2d  Kar:%2d \n\r Kabul (E/H)? ",
         get_curr_stat(ch, STAT_STR),
         get_curr_stat(ch, STAT_INT),
@@ -2350,12 +2346,12 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
         get_curr_stat(ch, STAT_CHA) );
 
 
-	do_help(ch,(char*)"stats");
+	do_help(ch,(char*)"nitelik");
 	write_to_buffer(d,"\n\rÞimdi sýra nitelik zarlarýný atmada. Uzak Diyarlar'da\n\r",0);
 	write_to_buffer(d,"6 karakter niteliði vardýr. Bunlar:\n\r\n\r",0);
 	write_to_buffer(d,"Güç, Zeka, Bilgelik, Çeviklik, Bünye, Karizma\n\r\n\r",0);
 	write_to_buffer(d,"Her niteliðin karaktere saðladýðý avantajlar farklýdýr.\n\r",0);
-	write_to_buffer(d,"Ayrýntýlý bilgiyi www.uzakdiyarlar.net adresinde bulabilirsin",0);
+	write_to_buffer(d,"Ayrýntýlý bilgiyi www.uzakdiyarlar.net adresinde bulabilirsin.\n\r\n\r",0);
 	write_to_buffer(d, buf,0);
 	d->connected = CON_ACCEPT_STATS;
 	break;
@@ -2364,7 +2360,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	switch( argument[0] )
 	  {
 	  case 'Y': case 'y': case '?':
-	    do_help(ch,(char*)"stats");
+	    do_help(ch,(char*)"nitelik");
 	    break;
 	  case 'e': case 'E':
 	    for (i=0; i < MAX_STATS;i++)
@@ -2372,8 +2368,8 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    write_to_buffer( d, "\n\r", 2 );
 	    if (!align_restrict(ch) )
 	    {
-				write_to_buffer( d, "Sýra geldi karakterin için yönelim (alignment) seçmeye. Yönelim,\n\r",0);
-				write_to_buffer( d, "basit bir ifadeyle karakterin topluma ve doðaya karþý davranýþ\n\r",0);
+				write_to_buffer( d, "Sýra geldi karakterin için yönelim seçmeye. Yönelim, basit\n\r",0);
+				write_to_buffer( d, "bir ifadeyle karakterin topluma ve doðaya karþý davranýþ\n\r",0);
 				write_to_buffer( d, "biçimini belirler. Ayrýntýlý bilgiye siteden ulaþabilirsin.\n\r\n\r",0);
 				write_to_buffer( d, "Üç çeþit yönelim vardýr:\n\r",0);
 				write_to_buffer( d, "iyi, yansýz ve kem\n\r\n\r",0);
@@ -2396,15 +2392,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 ( 20 + pc_race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i]) );
 	  ch->perm_stat[i] = UMIN(25, ch->perm_stat[i]);
 	  }
-		/*
-		sprintf(buf,"Güç:%s  Zek:%s  Bil:%s  Çev:%s  Bün:%s Kar:%s \n\r Kabul (E/H)? ",
-        get_stat_alias(ch, STAT_STR),
-        get_stat_alias(ch, STAT_INT),
-        get_stat_alias(ch, STAT_WIS),
-        get_stat_alias(ch, STAT_DEX),
-        get_stat_alias(ch, STAT_CON),
-        get_stat_alias(ch, STAT_CHA) );
-				*/
+
 		sprintf(buf,"Güç:%2d  Zek:%2d  Bil:%2d  Çev:%2d  Bün:%2d  Kar:%2d \n\r Kabul (E/H)? ",
         get_curr_stat(ch, STAT_STR),
         get_curr_stat(ch, STAT_INT),
@@ -2457,7 +2445,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	  ch->endur = 0;
 	  if (!hometown_check(ch))
 	   {
-	    do_help(ch,(char*)"hometown");
+	    do_help(ch,(char*)"memleket");
             write_to_buffer( d, buf,0);
 	    d->connected = CON_PICK_HOMETOWN;
 	    return;
@@ -2473,7 +2461,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	switch(argument[0])
          {
 	  case 'Y' : case 'y' : case '?' :
-		do_help(ch, (char*)"hometown");
+		do_help(ch, (char*)"memleket");
                 write_to_buffer( d, buf,0);
 		return;
 	  case 'S' : case 's' :
@@ -2557,7 +2545,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
         group_add(ch);
         ch->pcdata->learned[gsn_recall] = 75;
         write_to_buffer( d, "\n\r", 2 );
-	do_help(ch,(char*)"GENERAL");
+	do_help(ch,(char*)"genel");
 	write_to_buffer( d, "[Devam etmek için ENTER]\n\r",0);
         d->connected = CON_READ_NEWBIE;
         return;
@@ -2583,6 +2571,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	ch->next	= char_list;
 	char_list	= ch;
 	d->connected	= CON_PLAYING;
+	data_write();
 
 	/*
 	 *
@@ -2657,7 +2646,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	    char_to_room( ch, get_room_index( ROOM_VNUM_SCHOOL ) );
 	    send_to_char("\n\r",ch);
-	    do_help(ch, (char*)"NEWBIE INFO");
+	    do_help(ch, (char*)"yeni oyuncu");
 	    send_to_char("\n\r",ch);
 
 	    /* give some bonus time */
@@ -3452,9 +3441,7 @@ int sex_ok( CHAR_DATA *ch , int iclass)
 int class_ok( CHAR_DATA *ch , int iclass)
 {
  if (pc_race_table[ORG_RACE(ch)].class_mult[iclass] == -1)
-	return 0;
- if ( ch->sex == SEX_MALE && iclass == CLASS_NECROMANCER )
-    return 0;
+  return 0;
  return 1;
 }
 
@@ -3535,7 +3522,7 @@ int ethos_check(CHAR_DATA *ch)
 int colour( char type, CHAR_DATA *ch, char *string )
 {
     char	code[ 20 ];
-    char	*p = '\0';
+    char	*p = NULL;
 
     if( IS_NPC( ch ) )
 	return( 0 );

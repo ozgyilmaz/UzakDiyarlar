@@ -1547,7 +1547,7 @@ void do_envenom(CHAR_DATA *ch, char *argument)
     int percent,skill;
 
     /* find out what */
-    if (argument == '\0')
+    if (argument == NULL)
     {
       send_to_char("Neyi zehirleyeceksin?\n\r",ch);
 	return;

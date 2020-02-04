@@ -8,7 +8,7 @@ Lowlevel 35
 Highlevel 55
 Minvnum 32700
 Maxvnum 32725
-Path ~
+Path 13b 2k 2d a 5k y 2b k 2b a 2g a~
 END
 
 #MOBILES
@@ -33,7 +33,7 @@ Genç bir warg seni farkedip hýrlama baþlýyor.
 ~
 Yeni yeteneklerini göstermek için kurban olarak seni seçmiþ olmalý.
 ~
-oldstyle~
+human~
 4|64|128|262144 8|32|512|32768 0 0
 32 0 10d10+1000 5d5+1000 6d4+9 none
 -10 -10 -10 3
@@ -61,7 +61,7 @@ Bir anne warg yavrularýnýn etrafýnda dolaþýyor.
 ~
 Çocuklarýndan uzak dur çünkü onlarý korumak için seni parça parça edebilir.
 ~
-oldstyle~
+human~
 4|64 8|32|512 0 0
 40 0 15d10+1850 5d5+1000 4d8+13 bite
 -13 -13 -13 3
@@ -75,7 +75,7 @@ Büyük bir warg burada saldýracak veya eðlenecek birþey arýyor.
 ~
 Daha çýðlýk atamadan seni öldürebilir onunla uðraþmamalýsýn.
 ~
-oldstyle~
+human~
 4|64 8|32|512|32768 0 0
 42 0 25d10+2250 5d5+1000 3d12+14 bite
 -14 -14 -14 3
@@ -89,7 +89,7 @@ Genç bir warg burada, aç gözüküyor.
 ~
 Aðzýndan salyalarý akýyor iðrenç bir görüntüsü var.
 ~
-oldstyle~
+human~
 2|4|64|128 0 0 0
 35 0 10d10+1300 5d5+1000 4d7+11 charge
 -11 -11 -11 3
@@ -131,7 +131,7 @@ Bir yarasa yüzüne saldýrýyor.
 ~
 Siyah büyük gözlerini görüyorsun.Ve büyük bir sesle çýðlýk atýyor.
 ~
-oldstyle~
+bat~
 32|64 8|32|512|524288 0 0
 34 0 10d10+1200 5d5+1000 4d7+10 charge
 -11 -11 -11 3
@@ -145,7 +145,7 @@ Htrag burada warglarý eðitiyor.
 ~
 Arkasýna bakýp diþlerini gýcýrdatýyor sanýrsan seni farketti.
 ~
-oldstyle~
+human~
 2|64 8|32|128|512 0 0
 40 0 15d10+1850 5d5+1000 4d8+13 bite
 -13 -13 -13 3
@@ -159,7 +159,7 @@ diþi bir warg kafesin içinde duruyor.
 ~
 Yardýmýn için yalvarýyor.
 ~
-oldstyle~
+human~
 2|4|64 8|32|512 0 0
 35 0 10d10+1300 5d5+1000 4d7+11 bite
 -11 -11 -11 3
@@ -173,7 +173,7 @@ Erkek bir warg boðazýna atýlýyor.
 ~
 Tek kelimeyle çok vahþi.
 ~
-oldstyle~
+human~
 2|4|32|64 8|32|512 0 0
 40 0 15d10+1850 5d5+1000 4d8+13 bite
 -13 -13 -13 3
@@ -201,7 +201,7 @@ Muhafýz arkasýnda ne olduðunu bilmediðin bir kapýyý koruyor.
 ~
 Savaþmak ve öldürmek için eðitilmiþ.
 ~
-oldstyle~
+human~
 ABCGT 8|32|512 0 0
 40 0 15d10+1850 5d5+1000 4d8+13 pound
 -13 -13 -13 3
@@ -215,7 +215,7 @@ Muhafýz arkasýnda ne olduðunu bilmediðin bir kapýyý koruyor.
 ~
 Savaþmak ve öldürmek için eðitilmiþ.
 ~
-oldstyle~
+human~
 ABCGT 8|32|512 0 0
 42 0 25d10+2250 5d5+1000 3d12+14 pound
 -14 -14 -14 3

@@ -1095,6 +1095,21 @@ ABKQVe DFH 1000 0
 FHIK ABC D 0
 stand stand male 5000
 0 0 huge 0
+#3173
+dilekçi hüssam~
+Hüssam~
+Dilekçi Hüssam burada, küçük taþlar yontuyor.
+~
+Tanrýlarla arasý iyi olan bu eski gezgin diyardaki dilek
+iþleriyle ilgileniyor.
+~
+giant~
+ABTVe CDFJVZ 1000 3000
+85 30 1d1+28999 1d1+1499 5d14+80 crush
+-70 -70 -70 -50
+ACDEFHIKLNOT ABP CD 0
+stand stand male 0
+0 0 huge 0
 
 #0
 
@@ -7492,6 +7507,7 @@ S
 #0
 
 #RESETS
+M 0 3173   1 3170  1    * Hüssam
 M 0 3172   1 3077  1    * Templeman
 M 0 3011   1 3001  1    * Questor
 E 1 3005   1   16       *   Questor weapon
@@ -7931,6 +7947,7 @@ M 3011 spec_questmaster         * hassan
 M 3026 spec_assassinater        * assassin
 M 3003 spec_repairman		* weaponsmith
 M 3004 spec_repairman		* armourer
+M 3173 spec_wishmaster          * hüssam
 S
 
 #OMPROGS

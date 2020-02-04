@@ -8,7 +8,7 @@ Lowlevel 20
 Highlevel 50
 Minvnum 19000
 Maxvnum 19200
-Path ~
+Path 6d 2k d~
 END
 
 
@@ -229,7 +229,7 @@ The Grey Mare's fleshless skull seems to laugh at you as it inspects you
 carefully; as it approaches, it lowers its head, pointing its bone horn
 directly at your chest.
 ~
-unknown~
+ghost~
 AG DFIP -1000 0
 45 0 25d10+3000 5d5+1000 8d4+16 magic
 -15 -15 -15 2
@@ -665,7 +665,7 @@ Something swirls about the mists.
 You can't tell anything about whatever this might be...the mists are just too
 thick.
 ~
-unknown~
+ghost~
 ABFG BDFINQ -1000 0
 50 0 50d10+4250 5d5+5000 5d8+19 magic
 -20 -20 -20 0
@@ -681,7 +681,7 @@ Thousands of ants have clumped together here to form a basketball-sized mass;
 your skin prickles faintly as you watch the creepy creatures climb all over
 each other in their search for food.
 ~
-unknown~
+ghost~
 ABCFG I -1000 0
 35 0 10d10+1300 5d5+1000 4d7+11 magic
 -11 -11 -11 3
@@ -1024,7 +1024,7 @@ look in its eyes.  The Phoenix's plumage glitters brightly, with reddish-purple
 feathers intertwined with a few golden ones; its silvery beak glistens in the
 light, with faint sparkles shining on its razor-sharp edges.
 ~
-bird~
+wyvern~
 ABCFG DFIN 0 0
 50 0 50d10+4250 5d5+5000 5d8+19 pierce
 -20 -20 -20 0

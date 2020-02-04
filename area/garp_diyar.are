@@ -8,7 +8,7 @@ Lowlevel 40
 Highlevel 90
 Minvnum 10000
 Maxvnum 10050
-Path ~
+Path 13b 2k d 3k~
 END
 
 #MOBILES
@@ -1006,6 +1006,10 @@ Uzun tozlu yol.
 ~
 ~
 0 0 18002
+D4
+~
+~
+0 0 10701
 S
 #10002
 Ormanda bir açýklýk~

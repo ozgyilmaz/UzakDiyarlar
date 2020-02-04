@@ -242,6 +242,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
     	fprintf( fp, "Bankg %ld\n", ch->pcdata->bank_g );
     else
     	fprintf( fp, "Bankg %ld\n", ch->pcdata->bank_g );
+	fprintf( fp, "Dilek %s\n", 	print_flags(ch->pcdata->dilek)	);
     fprintf( fp, "Exp  %d\n",	ch->exp			);
     if (ch->act != 0)
 	fprintf( fp, "Act  %s\n",   print_flags(ch->act));
@@ -525,8 +526,10 @@ void fwrite_obj( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest )
     }
 
     if ( obj->pIndexData->vnum == QUEST_ITEM1
-	|| obj->pIndexData->vnum == QUEST_ITEM2
-	|| obj->pIndexData->vnum == QUEST_ITEM3
+      || obj->pIndexData->vnum == QUEST_ITEM_YUZUK1
+           || obj->pIndexData->vnum == QUEST_ITEM_YUZUK2 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK3
+           || obj->pIndexData->vnum == QUEST_ITEM_YUZUK4 || obj->pIndexData->vnum == QUEST_ITEM_SILAH1
+           || obj->pIndexData->vnum == QUEST_ITEM_SILAH2
 	|| obj->pIndexData->vnum == OBJ_VNUM_EYED_SWORD)
       if (strstr(obj->short_descr,ch->name) == NULL)
 	{
@@ -799,7 +802,7 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
 	if (RACE(ch) == 0)
 	    RACE(ch) = race_lookup("human");
 
-	ch->size = pc_race_table[ORG_RACE(ch)].size;
+	ch->size = race_table[ORG_RACE(ch)].size;
 	ch->dam_type = 17; /*punch */
 
 	ch->detection   = ch->detection|race_table[RACE(ch)].det;
@@ -1095,6 +1098,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	    KEY( "Desc",	ch->description,	fread_string( fp ) );
 	    KEY( "Dead",	ch->pcdata->death,	fread_number( fp ) );
     	    KEY( "Detect",	dev_null,		fread_flag(fp)     );
+		KEY( "Dilek",	ch->pcdata->dilek, 		fread_flag( fp)	  );
 	    break;
 
 	case 'E':

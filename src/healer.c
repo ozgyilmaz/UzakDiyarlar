@@ -113,7 +113,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
         spell = spell_cure_light;
 	sn    = skill_lookup("cure light");
 	words = "judicandus dies";
-	 cost  = 1000;
+	 cost  = 100;
     }
 
     else if (!str_prefix(arg,"ciddi"))
@@ -121,7 +121,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
 	spell = spell_cure_serious;
 	sn    = skill_lookup("cure serious");
 	words = "judicandus gzfuajg";
-	cost  = 1600;
+	cost  = 150;
     }
 
     else if (!str_prefix(arg,"kritik"))
@@ -129,7 +129,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
 	spell = spell_cure_critical;
 	sn    = skill_lookup("cure critical");
 	words = "judicandus qfuhuqar";
-	cost  = 2500;
+	cost  = 250;
     }
 
     else if (!str_prefix(arg,"þifa"))
@@ -137,7 +137,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
 	spell = spell_heal;
 	sn = skill_lookup("heal");
 	words = "pzar";
-	cost  = 5000;
+	cost  = 500;
     }
 
     else if (!str_prefix(arg,"körlük"))
@@ -145,7 +145,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
 	spell = spell_cure_blindness;
 	sn    = skill_lookup("cure blindness");
       	words = "judicandus noselacri";
-        cost  = 2000;
+        cost  = 200;
     }
 
     else if (!str_prefix(arg,"hastalýk"))
@@ -153,7 +153,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
 	spell = spell_cure_disease;
 	sn    = skill_lookup("cure disease");
 	words = "judicandus eugzagz";
-	cost = 1500;
+	cost = 150;
     }
 
     else if (!str_prefix(arg,"zehir"))
@@ -161,7 +161,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
 	spell = spell_cure_poison;
 	sn    = skill_lookup("cure poison");
 	words = "judicandus sausabru";
-	cost  = 2500;
+	cost  = 250;
     }
 
     else if (!str_prefix(arg,"lanet") )
@@ -169,7 +169,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
 	spell = spell_remove_curse;
 	sn    = skill_lookup("remove curse");
 	words = "candussido judifgz";
-	cost  = 5000;
+	cost  = 500;
     }
 
     else if (!str_prefix(arg,"mana"))
@@ -177,7 +177,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
         spell = NULL;
         sn = -3;
         words = "candamira";
-        cost = 1000;
+        cost = 100;
     }
 
 
@@ -186,7 +186,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
 	spell =  spell_refresh;
 	sn    = skill_lookup("refresh");
 	words = "candusima";
-	cost  = 500;
+	cost  = 50;
     }
 
     else if (!str_prefix(arg,"yüksek") )
@@ -194,7 +194,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
 	spell =  spell_master_heal;
 	sn    = skill_lookup("master healing");
 	words = "candastra nikazubra";
-	cost  = 20000;
+	cost  = 2000;
     }
 
     else if (!str_prefix(arg,"takat") )
@@ -202,7 +202,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
 	spell =  NULL;
 	sn    = -2;
 	words = "energizer";
-	cost  = 20000;
+	cost  = 2000;
     }
 
     else

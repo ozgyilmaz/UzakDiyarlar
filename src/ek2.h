@@ -1,8 +1,6 @@
 /***************************************************************************
 *    Uzak Diyarlar, Rom2.4b6 tabanlý Türkçe Mud                            *
-*    http://www.uzakdiyarlar.com                                           *
-*    http://sourceforge.net/projects/uzakdiyarlar                          *
-*    Özgür Yýlmaz (yelbuke@gmail.com)                                      *
+*    http://www.uzakdiyarlar.net                                           *
 ***************************************************************************/
 struct sonek_type
 {

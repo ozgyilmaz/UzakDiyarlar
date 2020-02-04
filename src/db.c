@@ -55,6 +55,7 @@
 #include "db.h"
 #include "recycle.h"
 #include "lookup.h"
+#include "tables.h"
 
 void load_limited_objects();
 
@@ -430,6 +431,7 @@ void	load_helps	args( ( FILE *fp ) );
 void    load_omprogs    args( ( FILE *fp ) );
 void	load_old_mob	args( ( FILE *fp ) );
 void 	load_mobiles	args( ( FILE *fp ) );
+void 	load_new_mobiles	args( ( FILE *fp ) );
 void	load_old_obj	args( ( FILE *fp ) );
 void 	load_objects	args( ( FILE *fp ) );
 void	load_resets	args( ( FILE *fp ) );
@@ -589,6 +591,7 @@ void boot_db( void )
 		else if ( !str_cmp( word, "HELPS"    ) ) load_helps   (fpArea);
 		else if ( !str_cmp( word, "MOBOLD"   ) ) load_old_mob (fpArea);
 		else if ( !str_cmp( word, "MOBILES"  ) ) load_mobiles (fpArea);
+		else if ( !str_cmp( word, "NEW_MOBILES"  ) ) load_new_mobiles (fpArea);
 		else if ( !str_cmp( word, "OBJOLD"   ) ) load_old_obj (fpArea);
 	  	else if ( !str_cmp( word, "OBJECTS"  ) ) load_objects (fpArea);
 		else if ( !str_cmp( word, "RESETS"   ) ) load_resets  (fpArea);
@@ -747,7 +750,7 @@ void load_helps( FILE *fp )
 	    break;
 	pHelp->text	= fread_string( fp );
 
-	if ( !str_cmp( pHelp->keyword, "greeting" ) )
+	if ( !str_cmp( pHelp->keyword, "merhaba" ) )
 	    help_greeting = pHelp->text;
 
 	if ( help_first == NULL )
@@ -784,7 +787,7 @@ void load_old_mob( FILE *fp )
 	letter				= fread_letter( fp );
 	if ( letter != '#' )
 	{
-	    bug( "Load_mobiles: # not found.", 0 );
+	    bug( "Load_old_mobiles: # not found.", 0 );
 	    exit( 1 );
 	}
 
@@ -795,7 +798,7 @@ void load_old_mob( FILE *fp )
 	fBootDb = FALSE;
 	if ( get_mob_index( vnum ) != NULL )
 	{
-	    bug( "Load_mobiles: vnum %d duplicated.", vnum );
+	    bug( "Load_old_mobiles: vnum %d duplicated.", vnum );
 	    exit( 1 );
 	}
 	fBootDb = TRUE;
@@ -903,7 +906,7 @@ void load_old_mob( FILE *fp )
 
 	if ( letter != 'S' )
 	{
-	    bug( "Load_mobiles: vnum %d non-S.", vnum );
+	    bug( "Load_old_mobiles: vnum %d non-S.", vnum );
 	    exit( 1 );
 	}
 
@@ -1570,35 +1573,49 @@ void area_update( void )
  */
 void reset_area( AREA_DATA *pArea )
 {
-    RESET_DATA *pReset;
-    CHAR_DATA *mob;
-    bool last;
-    int level;
-    int i;
-    ROOM_INDEX_DATA *room;
-    DESCRIPTOR_DATA *d;
-    CHAR_DATA *ch;
+  RESET_DATA *pReset;
+  CHAR_DATA *mob;
+  bool last;
+  int level;
+  int i;
+  ROOM_INDEX_DATA *room;
+  DESCRIPTOR_DATA *d;
+  CHAR_DATA *ch;
 
-    if ( weather_info.sky == SKY_RAINING )
+  if ( weather_info.sky == SKY_RAINING )
+  {
+    for ( d = descriptor_list; d!=NULL; d=d->next)
     {
-     for ( d = descriptor_list; d!=NULL; d=d->next)
-     {
-      if ( d->connected != CON_PLAYING ) continue;
+      if ( d->connected != CON_PLAYING )
+      {
+        continue;
+      }
       ch = ( d->original != NULL ) ? d->original : d->character;
       if ( (ch->in_room->area == pArea) &&
-	   ( get_skill(ch, gsn_track)>50) &&
-           ( !IS_SET(ch->in_room->room_flags, ROOM_INDOORS) ) )
-           send_to_char("Yaðmur izleri temizliyor.\n\r", ch );
-     }
-     for (i=pArea->min_vnum; i<pArea->max_vnum; i++)
-     {
-      room = get_room_index(i);
-      if (room == NULL) continue;
-      if (IS_SET(room->room_flags, ROOM_INDOORS)) continue;
-      room_record( (char*)"erased", room, -1 );
-      if (number_percent() < 50) room_record( (char*)"erased", room, -1 );
-     }
+        ( get_skill(ch, gsn_track)>50) &&
+        ( !IS_SET(ch->in_room->room_flags, ROOM_INDOORS) ) )
+      {
+        send_to_char("Yaðmur izleri temizliyor.\n\r", ch );
+      }
     }
+    for (i=pArea->min_vnum; i<pArea->max_vnum; i++)
+    {
+      room = get_room_index(i);
+      if (room == NULL)
+      {
+        continue;
+      }
+      if (IS_SET(room->room_flags, ROOM_INDOORS))
+      {
+        continue;
+      }
+      room_record( (char*)"erased", room, -1 );
+      if (number_percent() < 50)
+      {
+        room_record( (char*)"erased", room, -1 );
+      }
+    }
+  }
     mob 	= NULL;
     last	= TRUE;
     level	= 0;
@@ -1944,8 +1961,8 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )
 
     if ( pMobIndex == NULL )
     {
-	bug( "Create_mobile: NULL pMobIndex.", 0 );
-	exit( 1 );
+      bug( "Create_mobile: NULL pMobIndex.", 0 );
+      exit( 1 );
     }
 
     mob = new_char();
@@ -3265,58 +3282,14 @@ void free_string( char *pstr )
 
 void do_areas( CHAR_DATA *ch, char *argument )
 {
-    char bufpage[6 * MAX_STRING_LENGTH];
-    char buf[MAX_STRING_LENGTH];
-    char buf2[MAX_STRING_LENGTH];
-    AREA_DATA *pArea1;
-    AREA_DATA *pArea2;
-    int iArea;
-    int iAreaHalf;
+    AREA_DATA *pArea;
 
-    if (argument[0] != '\0')
+    printf_to_char(ch,"Bölgeler:\n\r\n\r");
+    for ( pArea = area_first; pArea != NULL; pArea = pArea->next )
     {
-      send_to_char("Bu komutla argüman kullanýlmaz.\n\r",ch);
-	return;
+        printf_to_char(ch,"[{W%2d %3d{x] {c%25s{x - {c%s{x\n\r",pArea->low_range,pArea->high_range,pArea->name,pArea->path);
     }
 
-    iAreaHalf = (top_area + 1) / 2;
-    pArea1    = area_first;
-    pArea2    = area_first;
-    for ( iArea = 0; iArea < iAreaHalf; iArea++ )
-	pArea2 = pArea2->next;
-
-  sprintf(bufpage,"Varolan bölgeler: \n\r");
-    for ( iArea = 0; iArea < iAreaHalf; iArea++ )
-    {
-     sprintf(buf2,"[%s%2d %3d%s] %s%s%s",
-	C_WHITE,
-	pArea1->low_range,pArea1->high_range,
-	CLR_WHITE_BOLD,
-	CLR_CYAN,
-	pArea1->name,
-	CLR_WHITE_BOLD);
-
-     sprintf( buf, "%s",buf2);
-     if (pArea2 != NULL)
-      {
-     sprintf(buf2,"[%s%2d %3d%s] %s%s%s",
-	C_WHITE,
-	pArea2->low_range,pArea1->high_range,
-	CLR_WHITE_BOLD,
-	CLR_CYAN,
-	pArea2->name,
-	CLR_WHITE_BOLD);
-      }
-     else sprintf(buf2,"\n\r");
-     sprintf( buf,"%-69s %s\n\r",buf,buf2);
-
-     strcat( bufpage,buf);
-     pArea1 = pArea1->next;
-     if ( pArea2 != NULL )
-       pArea2 = pArea2->next;
-    }
-    strcat(bufpage,"\n\r");
-    page_to_char(bufpage, ch);
     return;
 }
 

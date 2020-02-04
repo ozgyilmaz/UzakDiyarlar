@@ -8,7 +8,7 @@ Lowlevel 10
 Highlevel 15
 Minvnum 29101
 Maxvnum 29114
-Path ~
+Path 3d 8g 2b 2g 2d 2g d~
 END
 
 #MOBILES
@@ -61,7 +61,7 @@ Haþin bir cin burada, muhafýzlýk yapýyor.
 ~
 Toprak rengi giysiler içinde bir cin görüyorsun. Görevinde oldukça iyi.
 ~
-quickling~
+sprite~
 ABCE V 0 0
 13 0 2d10+170 5d5+100 2d5+3 pierce
 -1 -1 -1 6
@@ -76,7 +76,7 @@ Aman tamrým! Bu bir Puk!
 Oldukça uzun boylu. Bir o yana, bir bu yana bakarak ganimetlerine göz kulak
 oluyor.
 ~
-quickling~
+sprite~
 ABCES QV 0 0
 14 0  2d10+190 5d5+100 1d12+3 stab
 -1 -1 -1 6
@@ -105,7 +105,7 @@ Bir þans perisi görüyorsun, elindeki zarlarý sallýyor.
 ~
 Elmas iþlemeli yeiþl bir giysi giyiyor.
 ~
-quickling~
+sprite~
 ACEH QUV 0 0
 13 0 2d10+170 5d5+100 2d5+3 slash
 -1 -1 -1 6
@@ -133,7 +133,7 @@ garson peri~
 ~
 Oldukça yaþlý. Belki de büyü gücünü kaybettiði için bu iþi yapýyordur...
 ~
-quickling~
+sprite~
 ABCEb V 0 0
 45 0 50d10+5500 5d5+5000 10d4+23 pierce
 -25 -25 -25 -1

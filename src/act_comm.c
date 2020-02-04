@@ -143,6 +143,18 @@ void do_channels( CHAR_DATA *ch, char *argument)
     else
     printf_to_char(ch,"KAPALI\n\r");
 
+    printf_to_char(ch,"{kkd{x          ");
+    if (!IS_SET(ch->comm,COMM_NOKD))
+    printf_to_char(ch,"AÇIK\n\r");
+    else
+    printf_to_char(ch,"KAPALI\n\r");
+
+    printf_to_char(ch,"{kkdg{x          ");
+    if (!IS_SET(ch->comm,COMM_NOKDG))
+    printf_to_char(ch,"AÇIK\n\r");
+    else
+    printf_to_char(ch,"KAPALI\n\r");
+
     printf_to_char(ch,"{tsessiz modu{x     ");
     if (IS_SET(ch->comm,COMM_QUIET))
     printf_to_char(ch,"AÇIK\n\r");
@@ -265,6 +277,172 @@ void do_immtalk( CHAR_DATA *ch, char *argument )
 	{
     act_new("{i[{I$n{i]: $t{x",ch,argument,d->character,TO_VICT,POS_DEAD);
 	}
+    }
+
+    return;
+}
+
+void do_kd( CHAR_DATA *ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH],buf[MAX_STRING_LENGTH];
+    CHAR_DATA *victim;
+
+    if ( argument[0] == '\0' )
+    {
+      if (IS_SET(ch->comm,COMM_NOKD))
+      {
+        printf_to_char(ch,"KD kanalý açýldý.\n\r");
+	REMOVE_BIT(ch->comm,COMM_NOKD);
+      }
+      else
+      {
+        printf_to_char(ch,"KD kanalý kapandý.\n\r");
+	SET_BIT(ch->comm,COMM_NOKD);
+      }
+      return;
+    }
+
+	if ( IS_AFFECTED(ch, AFF_CHARM) &&   ch->master != NULL )
+    {
+		printf_to_char( ch , "Teshirliyken kd kanalýný kullanamazsýn.\n\r" );
+		return;
+    }
+
+    if ( IS_SET(ch->comm,COMM_NOKD))
+    {
+	printf_to_char(ch,"Mesajýn iletilemedi.\n\r" );
+	return;
+    }
+
+    if (IS_SET(ch->comm,COMM_NOKD))
+    {
+	printf_to_char(ch,"Önce KD kanalýný açmalýsýn.\n\r");
+	return;
+    }
+
+    argument = one_argument( argument, arg );
+
+    if ( arg[0] == '\0' || argument[0] == '\0' )
+    {
+	printf_to_char(ch,"Kime ne mesaj göndereceksin?\n\r" );
+	return;
+    }
+
+    /*
+     * Can tell to PC's anywhere, but NPC's only in same room.
+     * -- Furey
+     */
+     if ( ( victim = get_char_world( ch, arg ) ) == NULL
+     || ( IS_NPC(victim) && victim->in_room != ch->in_room ) )
+    {
+	printf_to_char( ch,"Burada deðil.\n\r" );
+	return;
+    }
+
+	if( victim == ch )
+	{
+		printf_to_char( ch,"Kendine KD mesajý atamazsýn.\n\r" );
+		return;
+	}
+
+    if ( victim->desc == NULL && !IS_NPC(victim))
+    {
+	act("$N baðlantýsýný kaybetmiþ görünüyor...daha sonra tekrar dene.",
+	    ch,NULL,victim,TO_CHAR);
+        sprintf(buf,"%s: %s%s%s\n\r",PERS(ch,victim),CLR_RED_BOLD,argument,CLR_NORMAL);
+        buf[0] = UPPER(buf[0]);
+        add_buf(victim->pcdata->buffer,buf);
+	return;
+    }
+
+    if ( !(IS_IMMORTAL(ch) && ch->level > LEVEL_IMMORTAL) && !IS_AWAKE(victim) )
+    {
+	act( "$N seni duyamaz.", ch, 0, victim, TO_CHAR );
+	return;
+    }
+
+    if ((IS_SET(victim->comm,COMM_NOKD)) && !IS_IMMORTAL(ch))
+    {
+	act( "$N KD kanalýný almýyor.", ch, 0, victim, TO_CHAR );
+  	return;
+    }
+
+    if (is_affected(ch,gsn_garble))
+      garble(buf,argument);
+    else
+      strcpy(buf,argument);
+
+   if (!is_affected(ch, gsn_deafen))
+     act_color("$N kd: $C$t$c",ch,buf,victim,TO_CHAR,POS_DEAD, CLR_MAGENTA_BOLD );
+
+   act_color( "$n kd: $C$t$c",ch,buf,victim,TO_VICT,POS_DEAD, CLR_RED_BOLD );
+
+    victim->reply	= ch;
+
+    return;
+}
+
+
+void do_kdg( CHAR_DATA *ch, char *argument )
+{
+    DESCRIPTOR_DATA *d;
+    char buf[MAX_INPUT_LENGTH];
+
+	if( IS_NPC( ch ) )
+		return;
+
+    if ( argument[0] == '\0' )
+    {
+      if (IS_SET(ch->comm,COMM_NOKDG))
+      {
+        printf_to_char(ch,"KDG kanalý açýldý.\n\r");
+	REMOVE_BIT(ch->comm,COMM_NOKDG);
+      }
+      else
+      {
+        printf_to_char(ch,"KDG kanalý kapandý.\n\r");
+	SET_BIT(ch->comm,COMM_NOKDG);
+      }
+      return;
+    }
+
+	if ( IS_AFFECTED(ch, AFF_CHARM) &&   ch->master != NULL )
+    {
+		printf_to_char( ch , "Teshirliyken kdg kanalýný kullanamazsýn.\n\r" );
+		return;
+    }
+
+	if ( IS_SET(ch->comm, COMM_NOKDG) )
+    {
+	printf_to_char(ch,"Önce kdg kanalýný açmalýsýn.\n\r" );
+	return;
+    }
+
+    if (argument[0] == '\0' )
+    {
+      send_to_char("Oyunculara ne gibi bi'þey söyleyeceksin?.\n\r",ch);
+      return;
+    }
+
+    if (is_affected(ch,gsn_garble))
+      garble(buf,argument);
+    else
+      strcpy(buf,argument);
+
+     act_color( "$n kdg: $C$T$c", ch, NULL, buf, TO_CHAR,POS_DEAD, CLR_MAGENTA_BOLD );
+
+    for ( d = descriptor_list; d != NULL; d = d->next )
+    {
+		if( d->connected == CON_PLAYING )
+		{
+			if( d->character != ch )
+			{
+				if( !IS_SET( d->character->comm , COMM_NOKDG) )
+				{
+					printf_to_char ( d->character , "%s kdg: {G%s{x\n\r" , ch->name , buf  );
+				}
+			}
+		}
     }
 
     return;

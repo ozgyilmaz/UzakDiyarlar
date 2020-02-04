@@ -1565,9 +1565,7 @@ if ( victim->hit < victim->max_hit / 4 )
                   victim->perm_stat[STAT_CHA]--;
                   if ( victim->pcdata->death > 10 )  {
 		  char strsave[160];
-		    send_to_char(
-					"Bir hayalete dönüþerek dünya gerçekliðini terkediyorsun.\n\r",
-			victim );
+		    printf_to_char( victim, "{RBir hayalete dönüþerek dünya gerçekliðini terkediyorsun.{x\n\r" );
 			act( "$n öldü ve bir daha dönemeyecek.\n\r",victim,NULL,NULL,TO_ROOM);
 		    victim->last_fight_time = -1;
 		    victim->hit = 1;
@@ -1580,12 +1578,13 @@ if ( victim->hit < victim->max_hit / 4 )
 							}
 			}
 		 }
-		else  if ( ( victim->pcdata->death % 3) == 2 )
+		else  if ( ( victim->pcdata->death % 3) == 2 && victim->level > 15 )
 		 {
                   victim->perm_stat[STAT_CON]--;
+									printf_to_char( victim, "{RBünyenin azaldýðýný hissediyorsun.{x\n\r" );
                   if ( victim->perm_stat[STAT_CON] < 3 )  {
 		  char strsave[160];
-			send_to_char( "Bir hayalete dönüþerek dünya gerçekliðini terkediyorsun.\n\r",victim );
+			printf_to_char( victim, "{RBir hayalete dönüþerek dünya gerçekliðini terkediyorsun.{x\n\r" );
 			act("$n öldü ve bir daha dönemeyecek.\n\r",victim,NULL,NULL,TO_ROOM);
 		    victim->last_fight_time = -1;
 		    victim->hit = 1;
@@ -2585,7 +2584,7 @@ void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
 
 
 	xp = xp_compute( gch, victim, group_levels,members );
-	sprintf( buf, "%d tecrübe puaný kazandýn.\n\r", xp );
+	sprintf( buf, "{G%d tecrübe puaný kazandýn.{x\n\r", xp );
 	send_to_char( buf, gch );
 	gain_exp( gch, xp );
 
@@ -2680,17 +2679,16 @@ int xp_compute(CHAR_DATA *gch, CHAR_DATA *victim, int total_levels,int members)
     xp = xp * gch->level/total_levels;
 
     if (members == 2)
-      xp *= ( 4/2 ); 
-
+      xp *= ( 15/10 );
     if (members == 3)
-      xp *= ( 6/2 );
+      xp *= ( 20/10 );
 
     if (gch->level < 15)
-	 xp = UMIN((250 + dice(1,25)),xp);
+	 xp = UMIN((250 + dice(1,40)),xp);
     else if (gch->level < 40)
-	xp = UMIN((225 + dice(1,20)),xp);
+	xp = UMIN((225 + dice(1,40)),xp);
     else if (gch->level < 60)
-	xp = UMIN((200 + dice(1,20)),xp);
+	xp = UMIN((200 + dice(1,40)),xp);
     else xp = UMIN((180 + dice(1,20)),xp);
 
     xp += (xp * ( gch->max_hit - gch->hit )) / (gch->max_hit * 5 );
@@ -2757,6 +2755,13 @@ int xp_compute(CHAR_DATA *gch, CHAR_DATA *victim, int total_levels,int members)
 	  }
 	 }
    }
+
+   if(IS_SET(gch->pcdata->dilek,DILEK_FLAG_TECRUBE))
+   	{
+   		printf_to_char( gch , "{CTecrübe dileðin sayesinde kazandýðýn TP artýyor.{x\n\r" );
+   		xp *= 2;
+   	}
+
     return xp;
 }
 

@@ -98,14 +98,14 @@ void do_quest(CHAR_DATA *ch, char *argument)
     char bufsamurai[100];
     char arg1 [MAX_INPUT_LENGTH];
     char arg2 [MAX_INPUT_LENGTH];
-    int sn,trouble_vnum=0,trouble_n;
+    int sn,trouble_vnum=0;
 
     argument = one_argument(argument, arg1);
     argument = one_argument(argument, arg2);
 
     if (IS_NPC(ch) )  return;
 
-    if (!strcmp(arg1, "info"))
+    if (!strcmp(arg1, "bilgi"))
     {
 	if (IS_SET(ch->act, PLR_QUESTOR))
 	{
@@ -211,73 +211,83 @@ act ("$Z görev ekipmanlarýnýn listesini istiyorsun.",ch, NULL, questman, TO_CHAR
 550qp..........Decanter of Endless Water\n\r\
 */
 	bufvampire[0] = '\0';
+  bufsamurai[0] = '\0';
 	if ( ch->iclass == CLASS_VAMPIRE )
-  sprintf(bufvampire,"    50gp  Vampir yeteneði (vampir)\n\r");
-	bufsamurai[0] = '\0';
-	if ( ch->iclass == 9 )
-	sprintf(bufsamurai,"%s%s%s",
-  "   100gp  Katana görevi (katana)\n\r",
-  "   100gp  Ýkinci katana görevi(keskin)\n\r",
-  "    50gp  Ölüm sayýsý azaltma (ölüm)\n\r");
+  {
+    sprintf(bufvampire,"    50gp  Vampir yeteneði (vampir)\n\r");
+  }
+	if ( ch->iclass == CLASS_SAMURAI )
+  {
+  	sprintf(bufsamurai,"%s%s%s",
+    "   100gp  Katana görevi (katana)\n\r",
+    "   100gp  Ýkinci katana görevi(keskin)\n\r",
+    "    50gp  Ölüm sayýsý azaltma (ölüm)\n\r");
+  }
   sprintf(buf, "Görev ödülleri:\n\r\
   5000gp  sýrtçantasý    (çanta)\n\r\
   1000gp  kemer          (kemer)\n\r\
-   750gp  akik yüzük     (akik)\n\r\
-   1000gp  platin silah   (platin)\n\r\
-   1000gp  100 pratik     (pratik)\n\r\
+  1000gp  silah          (parlak)\n\r\
+  1000gp  silah          (mat)\n\r\
+  1000gp  100 pratik     (pratik)\n\r\
+   750gp  yüzük          (iþlemeli)\n\r\
+   750gp  yüzük          (desenli)\n\r\
+   750gp  yüzük          (oymalý)\n\r\
+   750gp  yüzük          (kakmalý)\n\r\
    500gp  testi          (testi)\n\r\
    500gp  350.000 altýn  (altýn)\n\r\
    250gp  1 bünye        (bün)\n\r\
-   200gp  dövme          (dövme)\n\r%s%s\
-   50gp  dövme kaldýrma (kaldýr)\n\r\
-   50gp  dinden çýkma   (dinsiz)\n\r\
-   Ödüllerden birini satýn almak için 'görev alýþ <görev_eþyasý>' yazýn.\n\r",
+   100gp  dövme          (dövme)\n\r%s%s\
+    50gp  dövme kaldýrma (kaldýr)\n\r\
+    50gp  dinden çýkma   (dinsiz)\n\r\
+  Ödüllerden birini satýn almak için 'görev satýnal <görev_eþyasý>' yazýn.\n\r",
 	bufsamurai, bufvampire);
 	send_to_char(buf, ch);
 	return;
     }
 
-    else if (!strcmp(arg1, "alýþ"))
+    else if (!strcmp(arg1, "satýnal"))
     {
 	if (arg2[0] == '\0')
 	{
-    send_to_char("Bir ödülü satýn almak için 'görev alýþ <görev_eþyasý>' yazýn.\n\r",ch);
+    send_to_char("Bir ödülü satýn almak için 'görev satýnal <görev_eþyasý>' yazýn.\n\r",ch);
 	    return;
 	}
 
 	else if (is_name(arg2, (char*)"çanta"))
 	{
+      if (IS_SET(ch->quest,QUEST_BACKPACK))
+      {
+        do_tell_quest(ch,questman,(char*)"Bu eþyayý zaten almýþsýn. Kaybettiysen sigortadan faydalan.");
+        return;
+      }
+
 	    if (ch->pcdata->questpoints >= 5000)
 	    {
 		ch->pcdata->questpoints -= 5000;
 	        obj = create_object(get_obj_index(QUEST_ITEM4),ch->level);
-	 	if (IS_SET(ch->quest,QUEST_BACKPACK) ||
-		    IS_SET(ch->quest,QUEST_BACKPACK2) ||
-		    IS_SET(ch->quest,QUEST_BACKPACK3) )
-		do_tell_quest(ch,questman,
-		(char*)"Bu görev eþyasý sigorta kapsamýnda.");
-		else SET_BIT(ch->quest,QUEST_BACKPACK);
+	         SET_BIT(ch->quest,QUEST_BACKPACK);
 	    }
 	    else
 	    {
         sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
-		do_tell_quest(ch,questman,buf);
+		      do_tell_quest(ch,questman,buf);
 		return;
 	    }
 	}
 
 	else if (is_name(arg2, (char*)"testi"))
 	{
+    if (IS_SET(ch->quest,QUEST_DECANTER))
+    {
+      do_tell_quest(ch,questman,(char*)"Bu eþyayý zaten almýþsýn. Kaybettiysen sigortadan faydalan.");
+      return;
+    }
+
 	    if (ch->pcdata->questpoints >= 500)
 	    {
 		ch->pcdata->questpoints -= 500;
 	        obj = create_object(get_obj_index(QUEST_ITEM5),ch->level);
-	 	if (IS_SET(ch->quest,QUEST_DECANTER) ||
-		    IS_SET(ch->quest,QUEST_DECANTER2) ||
-		    IS_SET(ch->quest,QUEST_DECANTER3) )
-		do_tell_quest(ch,questman,
-      (char*)"Bu görev eþyasý sigorta kapsamýnda.");
-		else SET_BIT(ch->quest,QUEST_DECANTER);
+	 	SET_BIT(ch->quest,QUEST_DECANTER);
 	    }
 	    else
 	    {
@@ -289,16 +299,16 @@ act ("$Z görev ekipmanlarýnýn listesini istiyorsun.",ch, NULL, questman, TO_CHAR
 
 	else if (is_name(arg2, (char*)"kemer"))
 	{
+    if (IS_SET(ch->quest,QUEST_GIRTH))
+    {
+      do_tell_quest(ch,questman,(char*)"Bu eþyayý zaten almýþsýn. Kaybettiysen sigortadan faydalan.");
+      return;
+    }
 	    if (ch->pcdata->questpoints >= 1000)
 	    {
 		ch->pcdata->questpoints -= 1000;
 	        obj = create_object(get_obj_index(QUEST_ITEM1),ch->level);
-	 	if (IS_SET(ch->quest,QUEST_GIRTH) ||
-		    IS_SET(ch->quest,QUEST_GIRTH2) ||
-		    IS_SET(ch->quest,QUEST_GIRTH3) )
-		do_tell_quest(ch,questman,
-		(char*)"Bu görev eþyasý sigorta kapsamýnda.");
-		else SET_BIT(ch->quest,QUEST_GIRTH);
+	 	SET_BIT(ch->quest,QUEST_GIRTH);
 	    }
 	    else
 	    {
@@ -307,18 +317,18 @@ act ("$Z görev ekipmanlarýnýn listesini istiyorsun.",ch, NULL, questman, TO_CHAR
 		return;
 	    }
 	}
-	else if (is_name(arg2, (char*)"yüzük"))
+	else if (is_name(arg2, (char*)"iþlemeli"))
 	{
-	    if (ch->pcdata->questpoints >= 1000)
+    if (IS_SET(ch->quest,QUEST_YUZUK1))
+    {
+      do_tell_quest(ch,questman,(char*)"Bu eþyayý zaten almýþsýn. Kaybettiysen sigortadan faydalan.");
+      return;
+    }
+	    if (ch->pcdata->questpoints >= 750)
 	    {
-		ch->pcdata->questpoints -= 1000;
-	        obj = create_object(get_obj_index(QUEST_ITEM2),ch->level);
-	 	if (IS_SET(ch->quest,QUEST_RING) ||
-		    IS_SET(ch->quest,QUEST_RING2) ||
-		    IS_SET(ch->quest,QUEST_RING3) )
-		do_tell_quest(ch,questman,
-		(char*)"Bu görev eþyasý sigorta kapsamýnda.");
-		else SET_BIT(ch->quest,QUEST_RING);
+		ch->pcdata->questpoints -= 750;
+	        obj = create_object(get_obj_index(QUEST_ITEM_YUZUK1),ch->level);
+          SET_BIT(ch->quest,QUEST_YUZUK1);
 	    }
 	    else
 	    {
@@ -327,26 +337,106 @@ act ("$Z görev ekipmanlarýnýn listesini istiyorsun.",ch, NULL, questman, TO_CHAR
 		return;
 	    }
 	}
-	else if (is_name(arg2, (char*)"silah"))
-	{
-	    if (ch->pcdata->questpoints >= 1000)
-	    {
-		ch->pcdata->questpoints -= 1000;
-	        obj = create_object(get_obj_index(QUEST_ITEM3),ch->level);
-	 	if (IS_SET(ch->quest,QUEST_WEAPON) ||
-		    IS_SET(ch->quest,QUEST_WEAPON2) ||
-		    IS_SET(ch->quest,QUEST_WEAPON3) )
-		do_tell_quest(ch,questman,
-		(char*)"Bu görev eþyasý sigorta kapsamýnda.");
-		else SET_BIT(ch->quest,QUEST_WEAPON);
-	    }
-	    else
-	    {
+  else if (is_name(arg2, (char*)"desenli"))
+  {
+    if (IS_SET(ch->quest,QUEST_YUZUK2))
+    {
+      do_tell_quest(ch,questman,(char*)"Bu eþyayý zaten almýþsýn. Kaybettiysen sigortadan faydalan.");
+      return;
+    }
+      if (ch->pcdata->questpoints >= 750)
+      {
+    ch->pcdata->questpoints -= 750;
+          obj = create_object(get_obj_index(QUEST_ITEM_YUZUK2),ch->level);
+          SET_BIT(ch->quest,QUEST_YUZUK2);
+      }
+      else
+      {
         sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
-		do_tell_quest(ch,questman,buf);
-		return;
-	    }
-	}
+    do_tell_quest(ch,questman,buf);
+    return;
+      }
+  }
+  else if (is_name(arg2, (char*)"oymalý"))
+  {
+    if (IS_SET(ch->quest,QUEST_YUZUK3))
+    {
+      do_tell_quest(ch,questman,(char*)"Bu eþyayý zaten almýþsýn. Kaybettiysen sigortadan faydalan.");
+      return;
+    }
+      if (ch->pcdata->questpoints >= 750)
+      {
+    ch->pcdata->questpoints -= 750;
+          obj = create_object(get_obj_index(QUEST_ITEM_YUZUK3),ch->level);
+          SET_BIT(ch->quest,QUEST_YUZUK3);
+      }
+      else
+      {
+        sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
+    do_tell_quest(ch,questman,buf);
+    return;
+      }
+  }
+  else if (is_name(arg2, (char*)"kakmalý"))
+  {
+    if (IS_SET(ch->quest,QUEST_YUZUK4))
+    {
+      do_tell_quest(ch,questman,(char*)"Bu eþyayý zaten almýþsýn. Kaybettiysen sigortadan faydalan.");
+      return;
+    }
+      if (ch->pcdata->questpoints >= 750)
+      {
+    ch->pcdata->questpoints -= 750;
+          obj = create_object(get_obj_index(QUEST_ITEM_YUZUK4),ch->level);
+          SET_BIT(ch->quest,QUEST_YUZUK4);
+      }
+      else
+      {
+        sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
+    do_tell_quest(ch,questman,buf);
+    return;
+      }
+  }
+  else if (is_name(arg2, (char*)"parlak"))
+  {
+    if (IS_SET(ch->quest,QUEST_SILAH1))
+    {
+      do_tell_quest(ch,questman,(char*)"Bu eþyayý zaten almýþsýn. Kaybettiysen sigortadan faydalan.");
+      return;
+    }
+      if (ch->pcdata->questpoints >= 1000)
+      {
+    ch->pcdata->questpoints -= 1000;
+          obj = create_object(get_obj_index(QUEST_ITEM_SILAH1),ch->level);
+          SET_BIT(ch->quest,QUEST_SILAH1);
+      }
+      else
+      {
+        sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
+    do_tell_quest(ch,questman,buf);
+    return;
+      }
+  }
+  else if (is_name(arg2, (char*)"mat"))
+  {
+    if (IS_SET(ch->quest,QUEST_SILAH2))
+    {
+      do_tell_quest(ch,questman,(char*)"Bu eþyayý zaten almýþsýn. Kaybettiysen sigortadan faydalan.");
+      return;
+    }
+      if (ch->pcdata->questpoints >= 1000)
+      {
+    ch->pcdata->questpoints -= 1000;
+          obj = create_object(get_obj_index(QUEST_ITEM_SILAH2),ch->level);
+          SET_BIT(ch->quest,QUEST_SILAH2);
+      }
+      else
+      {
+        sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
+    do_tell_quest(ch,questman,buf);
+    return;
+      }
+  }
 	else if (is_name(arg2, (char*)"pratik"))
 	{
 	    if (IS_SET(ch->quest, QUEST_PRACTICE))
@@ -421,7 +511,7 @@ act_color( "$CGökyüzünde þimþekler çakýyor.$c",   ch, NULL,
 	}
 	else if (is_name(arg2, (char*)"samuray ölüm"))
 	{
-	    if (ch->iclass != 9)
+	    if (ch->iclass != CLASS_SAMURAI)
 	    {
         sprintf(buf, "Üzgünüm %s, fakat sen bir samuray deðilsin.",ch->name);
 		do_tell_quest(ch,questman,buf);
@@ -555,9 +645,9 @@ act_color( "$CGökyüzünde þimþekler çakýyor.$c",   ch, NULL,
       	      return;
     	    }
 
-	    if (ch->pcdata->questpoints >= 200)
+	    if (ch->pcdata->questpoints >= 100)
 	    {
-	      ch->pcdata->questpoints -= 200;
+	      ch->pcdata->questpoints -= 100;
 
    tattoo = create_object(get_obj_index(religion_table[ch->religion].vnum),100);
 
@@ -662,9 +752,11 @@ act_color( "$CGökyüzünde þimþekler çakýyor.$c",   ch, NULL,
 	  obj->extra_descr->description = str_dup( buf );
 	  obj->extra_descr->next = NULL;
 	 }
-	 if ( obj->pIndexData->vnum == QUEST_ITEM1
-	      || obj->pIndexData->vnum == QUEST_ITEM2
-	      || obj->pIndexData->vnum == QUEST_ITEM3)
+   if ( obj->pIndexData->vnum == QUEST_ITEM1 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK1
+	      || obj->pIndexData->vnum == QUEST_ITEM_YUZUK2 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK3
+        || obj->pIndexData->vnum == QUEST_ITEM_YUZUK4 || obj->pIndexData->vnum == QUEST_ITEM_SILAH1
+        || obj->pIndexData->vnum == QUEST_ITEM_SILAH2
+      )
 	 {
 	  sprintf( buf, obj->short_descr,
 		IS_GOOD(ch) ? "parlak" :
@@ -713,7 +805,41 @@ act ("$Z görev istiyorsun.",ch, NULL, questman, TO_CHAR);
 	}
 	return;
     }
-    else if (!strcmp(arg1, "bitti"))
+    else if (!strcmp(arg1, "iptal"))
+
+    {
+
+      if (!IS_SET(ch->act, PLR_QUESTOR))
+
+      {
+
+        sprintf(buf, "Görevde deðilsin.");
+        do_tell_quest(ch, questman, buf);
+
+        return;
+
+      }
+
+      REMOVE_BIT(ch->act, PLR_QUESTOR);
+      ch->pcdata->questgiver = 0;
+      ch->pcdata->countdown = 0;
+      ch->pcdata->nextquest = 5;
+
+      ch->pcdata->questmob = 0;
+
+      ch->pcdata->questobj = 0;
+
+
+
+      sprintf(buf, "Görevini iptal ettim.");
+
+      do_tell_quest(ch, questman, buf);
+
+      return;
+
+    }
+
+	else if (!strcmp(arg1, "bitti"))
     {
       act("$n $E görevi bitirdiðini haber veriyor.", ch, NULL, questman, TO_ROOM);
 act ("$E görevi bitirdiðini haber veriyorsun.",ch, NULL, questman, TO_CHAR);
@@ -734,6 +860,12 @@ act ("$E görevi bitirdiðini haber veriyorsun.",ch, NULL, questman, TO_CHAR);
 		reward = 100 + dice( level, 20);
 		reward = UMAX( 180 , reward );
 		pointreward = number_range(20,40);
+
+		if(IS_SET(ch->pcdata->dilek,DILEK_FLAG_GOREV))
+		{
+				printf_to_char( ch , "{CGörev dileðin sayesinde kazandýðýn GP artýyor.{x\n\r" );
+				pointreward *= 2;
+		}
 
     sprintf(buf, "Tebrikler!");
     do_tell_quest(ch,questman,buf);
@@ -779,6 +911,12 @@ act ("$E görevi bitirdiðini haber veriyorsun.",ch, NULL, questman, TO_CHAR);
 
 		    reward = 200 + number_range(1, 20 * ch->level);
 		    pointreward = number_range(15,40);
+
+			if(IS_SET(ch->pcdata->dilek,DILEK_FLAG_GOREV))
+			{
+				printf_to_char( ch , "{CGörev dileðin sayesinde kazandýðýn GP artýyor.{x\n\r" );
+				pointreward *= 2;
+			}
 
         act("$p objesini $E veriyorsun.",ch, obj, questman, TO_CHAR);
 				act("$n $p objesini $E veriyor.",ch, obj, questman, TO_ROOM);
@@ -835,113 +973,70 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
 	    return;
 	}
 
-	trouble_n = 0;
 	if (is_name(arg2, (char*)"kemer"))
 	{
 	  if (IS_SET(ch->quest,QUEST_GIRTH))
 	    {
-		REMOVE_BIT(ch->quest,QUEST_GIRTH);
-		SET_BIT(ch->quest,QUEST_GIRTH2);
-		trouble_n = 1;
+		trouble_vnum = QUEST_ITEM1;
 	    }
-	  else if (IS_SET(ch->quest,QUEST_GIRTH2))
-	    {
-		REMOVE_BIT(ch->quest,QUEST_GIRTH2);
-		SET_BIT(ch->quest,QUEST_GIRTH3);
-		trouble_n = 2;
-	    }
-	  else if (IS_SET(ch->quest,QUEST_GIRTH3))
-	    {
-		REMOVE_BIT(ch->quest,QUEST_GIRTH3);
-		trouble_n = 3;
-	    }
-	 if (trouble_n) trouble_vnum = QUEST_ITEM1;
 	}
 	else if (is_name(arg2, (char*)"çanta"))
 	{
 	  if (IS_SET(ch->quest,QUEST_BACKPACK))
 	    {
-		REMOVE_BIT(ch->quest,QUEST_BACKPACK);
-		SET_BIT(ch->quest,QUEST_BACKPACK2);
-		trouble_n = 1;
+		trouble_vnum = QUEST_ITEM4;
 	    }
-	  else if (IS_SET(ch->quest,QUEST_BACKPACK2))
-	    {
-		REMOVE_BIT(ch->quest,QUEST_BACKPACK2);
-		SET_BIT(ch->quest,QUEST_BACKPACK3);
-		trouble_n = 2;
-	    }
-	  else if (IS_SET(ch->quest,QUEST_BACKPACK3))
-	    {
-		REMOVE_BIT(ch->quest,QUEST_BACKPACK3);
-		trouble_n = 3;
-	    }
-	 if (trouble_n) trouble_vnum = QUEST_ITEM4;
 	}
 	else if (is_name(arg2, (char*)"testi"))
 	{
 	  if (IS_SET(ch->quest,QUEST_DECANTER))
 	    {
-		REMOVE_BIT(ch->quest,QUEST_DECANTER);
-		SET_BIT(ch->quest,QUEST_DECANTER2);
-		trouble_n = 1;
+		trouble_vnum = QUEST_ITEM5;
 	    }
-	  else if (IS_SET(ch->quest,QUEST_DECANTER2))
-	    {
-		REMOVE_BIT(ch->quest,QUEST_DECANTER2);
-		SET_BIT(ch->quest,QUEST_DECANTER3);
-		trouble_n = 2;
-	    }
-	  else if (IS_SET(ch->quest,QUEST_DECANTER3))
-	    {
-		REMOVE_BIT(ch->quest,QUEST_DECANTER3);
-		trouble_n = 3;
-	    }
-	 if (trouble_n) trouble_vnum = QUEST_ITEM5;
 	}
-	else if (is_name(arg2, (char*)"silah"))
+	else if (is_name(arg2, (char*)"parlak"))
 	{
-	  if (IS_SET(ch->quest,QUEST_WEAPON))
+	  if (IS_SET(ch->quest,QUEST_SILAH1))
 	    {
-		REMOVE_BIT(ch->quest,QUEST_WEAPON);
-		SET_BIT(ch->quest,QUEST_WEAPON2);
-		trouble_n = 1;
+		trouble_vnum = QUEST_ITEM_SILAH1;
 	    }
-	  else if (IS_SET(ch->quest,QUEST_WEAPON2))
-	    {
-		REMOVE_BIT(ch->quest,QUEST_WEAPON2);
-		SET_BIT(ch->quest,QUEST_WEAPON3);
-		trouble_n = 2;
-	    }
-	  else if (IS_SET(ch->quest,QUEST_WEAPON3))
-	    {
-		REMOVE_BIT(ch->quest,QUEST_WEAPON3);
-		trouble_n = 3;
-	    }
-	 if (trouble_n) trouble_vnum = QUEST_ITEM3;
 	}
-	else if (is_name(arg2, (char*)"yüzük"))
+  else if (is_name(arg2, (char*)"mat"))
 	{
-	  if (IS_SET(ch->quest,QUEST_RING))
+	  if (IS_SET(ch->quest,QUEST_SILAH2))
 	    {
-		REMOVE_BIT(ch->quest,QUEST_RING);
-		SET_BIT(ch->quest,QUEST_RING2);
-		trouble_n = 1;
+		trouble_vnum = QUEST_ITEM_SILAH2;
 	    }
-	  else if (IS_SET(ch->quest,QUEST_RING2))
-	    {
-		REMOVE_BIT(ch->quest,QUEST_RING2);
-		SET_BIT(ch->quest,QUEST_RING3);
-		trouble_n = 2;
-	    }
-	  else if (IS_SET(ch->quest,QUEST_RING3))
-	    {
-		REMOVE_BIT(ch->quest,QUEST_RING3);
-		trouble_n = 3;
-	    }
-	 if (trouble_n) trouble_vnum = QUEST_ITEM2;
 	}
-	if (!trouble_n)
+  else if (is_name(arg2, (char*)"iþlemeli"))
+	{
+	  if (IS_SET(ch->quest,QUEST_YUZUK1))
+	    {
+		trouble_vnum = QUEST_ITEM_YUZUK1;
+	    }
+	}
+  else if (is_name(arg2, (char*)"desenli"))
+	{
+	  if (IS_SET(ch->quest,QUEST_YUZUK2))
+	    {
+		trouble_vnum = QUEST_ITEM_YUZUK2;
+	    }
+	}
+  else if (is_name(arg2, (char*)"oymalý"))
+	{
+	  if (IS_SET(ch->quest,QUEST_YUZUK3))
+	    {
+		trouble_vnum = QUEST_ITEM_YUZUK3;
+	    }
+	}
+  else if (is_name(arg2, (char*)"kakmalý"))
+	{
+	  if (IS_SET(ch->quest,QUEST_YUZUK4))
+	    {
+		trouble_vnum = QUEST_ITEM_YUZUK4;
+	    }
+	}
+	if (!trouble_vnum)
 	{
     sprintf(buf,"Üzgünüm %s, fakat bahsettiðin ödülü henüz almamýþsýn.\n\r",ch->name);
 	    do_tell_quest(ch,questman,buf);
@@ -969,9 +1064,11 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
 	  obj->extra_descr->description = str_dup( buf );
 	  obj->extra_descr->next = NULL;
 	 }
-	 if ( obj->pIndexData->vnum == QUEST_ITEM1
-	      || obj->pIndexData->vnum == QUEST_ITEM2
-	      || obj->pIndexData->vnum == QUEST_ITEM3)
+	 if ( obj->pIndexData->vnum == QUEST_ITEM1 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK1
+	      || obj->pIndexData->vnum == QUEST_ITEM_YUZUK2 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK3
+        || obj->pIndexData->vnum == QUEST_ITEM_YUZUK4 || obj->pIndexData->vnum == QUEST_ITEM_SILAH1
+        || obj->pIndexData->vnum == QUEST_ITEM_SILAH2
+      )
 	 {
 	  sprintf( buf, obj->short_descr,
       IS_GOOD(ch) ? "parlak" :
@@ -982,17 +1079,10 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
    act( "$N $p objesini $e veriyor.", ch, obj, questman, TO_ROOM );
    act( "$N $p objesini sana veriyor.",   ch, obj, questman, TO_CHAR );
 	obj_to_char(obj, ch);
-  sprintf(buf,"Bu ödülü %i. geri veriþim.",trouble_n );
-	do_tell_quest(ch,questman,buf);
-	if (trouble_n == 3)
-	{
-    sprintf(buf,"Bundan sonra bu eþya sigorta dýþýdýr.\n\r");
-	 do_tell_quest(ch,questman,buf);
-	}
      return;
     }
 
-    send_to_char("GÖREV KOMUTLARI: puan bilgi zaman iste bitti liste alýþ sigorta.\n\r",ch);
+    send_to_char("GÖREV KOMUTLARI: puan bilgi zaman iste bitti iptal liste alýþ sigorta.\n\r",ch);
     send_to_char("Daha fazla bilgi için: yardým görev.\n\r",ch);
     return;
 }
@@ -1257,11 +1347,10 @@ void quest_update(void)
 
 void do_tell_quest( CHAR_DATA *ch, CHAR_DATA *victim, char *argument )
 {
-char buf[MAX_STRING_LENGTH];
 
-sprintf(buf,"%s anlatýyor '%s'\n\r",victim->name,argument);
-        send_to_char( buf, ch );
-        return;
+	    act_color("$N: $C$t$c",ch,argument,victim,TO_CHAR,POS_DEAD, CLR_MAGENTA_BOLD );
+
+		return;
 }
 
 CHAR_DATA *get_quest_world( CHAR_DATA *ch, MOB_INDEX_DATA *victim)
@@ -1278,4 +1367,186 @@ CHAR_DATA *get_quest_world( CHAR_DATA *ch, MOB_INDEX_DATA *victim)
     }
 
     return NULL;
+}
+
+void do_eniyi(CHAR_DATA *ch,char *argument)
+{
+	CHAR_DATA *questman;
+	char buf[MAX_STRING_LENGTH];
+	int bolge=0,seviye=0,zz1zz=0,zz2zz=0,zz3zz=0,zararzari=0,ac1ac=0,ac2ac=0,ac3ac=0,actoplam=0;
+	char arg1 [MAX_INPUT_LENGTH];
+	OBJ_DATA *obj,*zz1,*zz2,*zz3,*ac1,*ac2,*ac3;
+	AFFECT_DATA *paf;
+
+	for ( questman = ch->in_room->people; questman != NULL; questman = questman->next_in_room )
+    {
+	if (!IS_NPC(questman)) continue;
+        if (questman->spec_fun == spec_lookup( (char*)"spec_questmaster" )) break;
+    }
+
+    if (questman == NULL || questman->spec_fun != spec_lookup( (char*)"spec_questmaster" ))
+    {
+        send_to_char("Odada bu iþleri yapan bir görevci göremiyorum.\n\r", ch);
+        return;
+    }
+
+if ( argument[0] == '\0' )
+	{
+		send_to_char("Hangi bölgene giyeceðin ekipmanlar hakkýnda bilgi istiyorsun?\n\r",ch);
+		return;
+	}
+	argument = one_argument(argument, arg1);
+
+	seviye = ch->level;
+	bolge=-1;
+	if(!strcmp(arg1,"parmak"))
+		bolge=ITEM_WEAR_FINGER;
+	else if(!strcmp(arg1,"boyun"))
+		bolge=ITEM_WEAR_NECK;
+	else if(!strcmp(arg1,"gövde"))
+		bolge=ITEM_WEAR_BODY;
+	else if(!strcmp(arg1,"kafa"))
+		bolge=ITEM_WEAR_HEAD;
+	else if(!strcmp(arg1,"bacaklar"))
+		bolge=ITEM_WEAR_LEGS;
+	else if(!strcmp(arg1,"ayaklar"))
+		bolge=ITEM_WEAR_FEET;
+	else if(!strcmp(arg1,"eller"))
+		bolge=ITEM_WEAR_HANDS;
+	else if(!strcmp(arg1,"kollar"))
+		bolge=ITEM_WEAR_ARMS;
+	else if(!strcmp(arg1,"vücut"))
+		bolge=ITEM_WEAR_ABOUT;
+	else if(!strcmp(arg1,"bel"))
+		bolge=ITEM_WEAR_WAIST;
+	else if(!strcmp(arg1,"bilek"))
+		bolge=ITEM_WEAR_WRIST;
+	else if(!strcmp(arg1,"süzülen"))
+		bolge=ITEM_WEAR_FLOAT;
+	else
+	{
+		send_to_char("Vücudunda böyle bir bölge göremiyorum!\n\r",ch);
+		return;
+	}
+	if(ch->gold<((ch->level/2)+1))
+	{
+		send_to_char("Yeterli paran yok, bilgi veremem.\n\r",ch);
+		return;
+	}
+
+	zz1=NULL;
+	zz2=NULL;
+	zz3=NULL;
+	ac1=NULL;
+	ac2=NULL;
+	ac3=NULL;
+
+	act("$n $Z ekipman bilgisi istiyor.", ch, NULL, questman, TO_ROOM);
+
+	for( obj=object_list; obj!=NULL; obj = obj->next )
+	{
+		zararzari=0;
+		actoplam=0;
+		if ( CAN_WEAR(obj,ITEM_TAKE) &&
+			 CAN_WEAR( obj, bolge ) &&
+			 obj->level <= seviye)
+		{
+			if (!obj->enchanted)
+			{
+				for ( paf = obj->pIndexData->affected; paf != NULL; paf = paf->next )
+				{
+					if ( paf->location != APPLY_NONE && paf->modifier != 0 )
+					{
+						if( (paf->location==APPLY_DAMROLL) || (paf->location==APPLY_HITROLL) )
+						{
+							zararzari += paf->modifier;
+						}
+					}
+				}//for
+				if( (zararzari>=zz1zz) )
+				{
+					zz3=zz2;
+					zz2=zz1;
+					zz1=obj;
+					zz1zz=zararzari;
+				}
+				else if( (zararzari>=zz2zz) )
+				{
+					zz3=zz2;
+					zz2=obj;
+					zz2zz=zararzari;
+				}
+				else if( (zararzari>=zz3zz) )
+				{
+					zz3=obj;
+					zz3zz=zararzari;
+				}
+
+			}//if (!obj->enchanted)
+			if(obj->item_type==ITEM_ARMOR)
+			{
+				actoplam = obj->value[0] + obj->value[1] + obj->value[2] + obj->value[3];
+				if( (actoplam>=ac1ac))
+				{
+					ac3=ac2;
+					ac2=ac1;
+					ac1=obj;
+					ac1ac=actoplam;
+				}
+				else if ( (actoplam>=ac2ac) )
+				{
+					ac3=ac2;
+					ac2=obj;
+					ac2ac=actoplam;
+				}
+				else if( (actoplam>=ac3ac))
+				{
+					ac3=obj;
+					ac3ac=actoplam;
+				}
+			}
+		}//if can_wear
+	}//for
+	if(zz1== NULL && ac1==NULL)
+	{
+		do_tell_quest(ch,questman,(char*)"Þu an birþey hatýrlayamýyorum. Sanýrým yaþlanýyorum.");
+		do_tell_quest(ch,questman,(char*)"Daha sonra tekrar uðra lütfen.");
+		return;
+	}
+	ch->gold -= (ch->level/2)+1;
+	do_tell_quest(ch,questman,(char*)"Bir düþüneyim... Evet sanýrým birþeyler hatýrladým.");
+	do_tell_quest(ch,questman,(char*)"Bazý ekipmanlar hatýrlýyorum, senin giyebileceðin seviyede ekipmanlar.");
+
+	if(zz1 != NULL)
+	{
+		do_tell_quest(ch,questman,(char*)"Vuruþlarýnýn gücünü ve isabetini artýracak ekipmanlar. Mesela...");
+		sprintf(buf,"%s",zz1->short_descr);
+		do_tell_quest(ch,questman,(char*)buf);
+	}
+	if(zz2 != NULL)
+	{
+		sprintf(buf,"%s",zz2->short_descr);
+		do_tell_quest(ch,questman,(char*)buf);
+	}
+	if(zz3 != NULL)
+	{
+		sprintf(buf,"%s",zz3->short_descr);
+		do_tell_quest(ch,questman,(char*)buf);
+	}
+	if(ac1 != NULL)
+	{
+		do_tell_quest(ch,questman,(char*)"Bir de seni koruyacak ekipmanlar var aklýma gelen. Mesela...");
+		sprintf(buf,"%s",ac1->short_descr);
+		do_tell_quest(ch,questman,(char*)buf);
+	}
+	if(ac2 != NULL)
+	{
+		sprintf(buf,"%s",ac2->short_descr);
+		do_tell_quest(ch,questman,(char*)buf);
+	}
+	if(ac3 != NULL)
+	{
+		sprintf(buf,"%s",ac3->short_descr);
+		do_tell_quest(ch,questman,(char*)buf);
+	}
 }

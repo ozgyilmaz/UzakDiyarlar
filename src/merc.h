@@ -267,7 +267,7 @@ typedef void OPROG_FUN_AREA args((OBJ_DATA *obj));
 #define MAX_SKILL		  426
 #define MAX_ALIAS		   20
 #define MAX_CLASS		   13
-#define MAX_PC_RACE		   10
+#define MAX_PC_RACE		   11
 /* unique ve null dahil */
 #define MAX_RACE		    77
 #define MAX_CABAL		    9
@@ -382,7 +382,7 @@ struct religion_type
 /*
  *  minimum pk level
  */
-#define PK_MIN_LEVEL 5
+#define PK_MIN_LEVEL 15
 
 #define MAX_NEWBIES 120   /* number of newbies allowed */
 #define MAX_OLDIES 999    /* number of oldies allowed */
@@ -694,6 +694,7 @@ struct race_type
 {
     const char *	name[2];			/* call name of the race */
     bool	pc_race;		/* can be chosen by pcs  */
+	sh_int	size;
     long	det;			/* det bits for the race */
     long	act;			/* act bits for the race */
     long	aff;			/* aff bits for the race */
@@ -715,7 +716,7 @@ struct pc_race_type  /* additional data for pc races */
     const char *	skills[5];		/* bonus skills for the race */
     sh_int 	stats[MAX_STATS];	/* starting stats 	*/
     sh_int	max_stats[MAX_STATS];	/* maximum stats 	*/
-    sh_int	size;			/* aff bits for the race*/
+	/*sh_int	size;*/			/* aff bits for the race*/
     int         hp_bonus;               /* Initial hp bonus 	*/
     int         mana_bonus;             /* Initial mana bonus 	*/
     int         prac_bonus;             /* Initial practice bonus */
@@ -1430,8 +1431,12 @@ struct	kill_data
 
 /* quest rewards */
 #define QUEST_ITEM1 94
-#define QUEST_ITEM2 95
-#define QUEST_ITEM3 96
+#define QUEST_ITEM_YUZUK1 32
+#define QUEST_ITEM_YUZUK2 33
+#define QUEST_ITEM_YUZUK3 34
+#define QUEST_ITEM_YUZUK4 35
+#define QUEST_ITEM_SILAH1 36
+#define QUEST_ITEM_SILAH2 37
 #define QUEST_ITEM4 30
 #define QUEST_ITEM5 29
 
@@ -1865,21 +1870,15 @@ struct	kill_data
 
 /* The Quests */
 #define QUEST_EYE		(B)
-#define QUEST_WEAPON		(C)
+#define QUEST_SILAH1		(C)
 #define QUEST_GIRTH		(D)
-#define QUEST_RING		(E)
-#define QUEST_WEAPON2		(F)
-#define QUEST_GIRTH2		(G)
-#define QUEST_RING2		(H)
-#define QUEST_WEAPON3		(I)
-#define QUEST_GIRTH3		(J)
-#define QUEST_RING3		(K)
+#define QUEST_YUZUK1		(E)
+#define QUEST_YUZUK2		(F)
+#define QUEST_YUZUK3		(G)
+#define QUEST_YUZUK4		(H)
+#define QUEST_SILAH2		(I)
 #define QUEST_BACKPACK		(L)
-#define QUEST_BACKPACK2		(M)
-#define QUEST_BACKPACK3		(N)
 #define QUEST_DECANTER		(O)
-#define QUEST_DECANTER2		(P)
-#define QUEST_DECANTER3		(Q)
 
 #define QUEST_PRACTICE		(S)
 
@@ -1895,10 +1894,9 @@ struct	kill_data
 #define COMM_NOGOSSIP           (E)
 #define COMM_NOQUESTION         (F)
 #define COMM_NOMUSIC            (G)
+#define COMM_NOKDG		(H)
 #define COMM_NOQUOTE		(I)
 #define COMM_SHOUTSOFF		(J)
-
-/* display flags */
 #define COMM_TRUE_TRUST		(K)
 #define COMM_COMPACT		(L)
 #define COMM_BRIEF		(M)
@@ -1907,8 +1905,7 @@ struct	kill_data
 #define COMM_TELNET_GA		(P)
 #define COMM_SHOW_AFFECTS	(Q)
 #define COMM_NOGRATS		(R)
-
-/* penalties */
+#define COMM_NOKD		(S)
 #define COMM_NOEMOTE		(T)
 #define COMM_NOSHOUT		(U)
 #define COMM_NOTELL		(V)
@@ -1937,6 +1934,12 @@ struct	kill_data
 #define WIZ_NEWBIE		(R)
 #define WIZ_PREFIX		(S)
 #define WIZ_SPAM		(T)
+
+/*
+ * Dilek Flagleri
+ */
+#define DILEK_FLAG_TECRUBE				(A)
+#define DILEK_FLAG_GOREV				(B)
 
 /*
  * language staff
@@ -2218,6 +2221,7 @@ struct	pc_data
     sh_int		time_flag;	/* time log problem */
     int			log_date[MAX_TIME_LOG];	/* last MTL days */
     int			log_time[MAX_TIME_LOG];	/* min.s of playing each day */
+	int			dilek;
 };
 
 
@@ -3126,6 +3130,10 @@ void	sig_handler		args( (int sig) );
 void	printf_to_char	args( ( CHAR_DATA *, const char *, ... ) );
 void	bugf		args( ( char *, ... ) );
 
+/* data.c */
+void data_write args( (void) );
+void data_read args( (void) );
+
 /* db.c */
 char *	print_flags	args( ( int flag ));
 void	boot_db		args( ( void ) );
@@ -3347,13 +3355,22 @@ void 	substitute_alias args( (DESCRIPTOR_DATA *d, char *input) );
 
 
 /* magic.c */
-int	find_spell	args( ( CHAR_DATA *ch, const char *name) );
+int	find_spell args( ( CHAR_DATA *ch, const char *name) );
 int 	mana_cost 	(CHAR_DATA *ch, int min_mana, int level);
 int	skill_lookup	args( ( const char *name ) );
 int	slot_lookup	args( ( int slot ) );
 bool	saves_spell	args( ( int level, CHAR_DATA *victim, int dam_type ) );
 bool 	check_dispel	args(( int dis_level, CHAR_DATA *victim, int sn));
 void	obj_cast_spell	args( ( int sn, int level, CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DATA *obj ) );
+/* mob_creator.c */
+int hit_roll args( (int level) );
+int damage_dice_0 args( (int level) );
+int damage_dice_1 args( (int level) );
+int damage_dice_2 args( (int level) );
+int dam_type_dice args( (void) );
+int ac_dice args( (int i,int level) );
+int position_dice args( (void) );
+int sex_dice args( (void) );
 /* save.c */
 void	save_char_obj	args( ( CHAR_DATA *ch ) );
 bool	load_char_obj	args( ( DESCRIPTOR_DATA *d, char *name ) );
@@ -3391,6 +3408,7 @@ void	obj_update	args( ( void ) );
 void    area_update	args( ( void ) );
 void    room_update	args( ( void ) );
 void	track_update	args( ( void ) );
+void cevrimici_oyuncu_sayisi args( (void) );
 
 /*  obj_prog.c */
 void oprog_set(OBJ_INDEX_DATA *, const char *, const char *);

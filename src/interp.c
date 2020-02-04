@@ -137,11 +137,11 @@ const	struct	cmd_type	cmd_table	[] =
   { "çöp",           do_sacrifice,   POS_RESTING,     0,  LOG_NORMAL, 0,0 },
   { "copla",	do_blackjack,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
   { "count",		do_count,	POS_SLEEPING,	HE,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "credits",	do_credits,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "daðýt",		do_split,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
   { "dayaným",         do_endure,      POS_STANDING,    0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
   { "deðer",		do_value,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
   { "deny",		do_deny,	POS_DEAD,	L1,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { "dilek",	do_dilek,       POS_RESTING,     0,  LOG_NORMAL, 1 , CMD_KEEP_HIDE | CMD_GHOST},
   { "dinlen",		do_rest,	POS_SLEEPING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
   { "direnç",     do_resistance,  POS_FIGHTING,    0,  LOG_NORMAL, 0,0 },
   { "disconnect",	do_disconnect,	POS_DEAD,	L3,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
@@ -157,6 +157,7 @@ const	struct	cmd_type	cmd_table	[] =
   { "ekipman",	do_equipment,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "emret",		do_order,	POS_RESTING,	 0,  LOG_NORMAL, 1,0},
   { "envanter",	do_inventory,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { "eniyi",	do_eniyi,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "estimate",	do_estimate,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
   { "etkiler",	do_affects_col,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "familya",	do_familya,	POS_STANDING,	 0,  LOG_NORMAL, 1},
@@ -184,7 +185,6 @@ const	struct	cmd_type	cmd_table	[] =
   { "holylight",	do_holylight,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "iç",		do_drink,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
   { "immtalk",	do_immtalk,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "imotd",          do_imotd,       POS_DEAD,       IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "incele",	do_examine,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
   { "incognito",	do_incognito,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "induct",		do_induct,	POS_DEAD,	 0,  LOG_ALWAYS, 1,0 },
@@ -218,6 +218,7 @@ const	struct	cmd_type	cmd_table	[] =
   { "kaydet",		do_save,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_GHOST },
   { "kaz",		do_dig,  	POS_STANDING,    0,  LOG_NORMAL, 1,0 },
   { "kazan",		do_gain,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
+  { "kdg",	do_kdg,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "keskingörüþ",      do_truesight,   POS_FIGHTING,    0,  LOG_NORMAL, 0,0 },
   { "kilitaç",         do_unlock,      POS_RESTING,     0,  LOG_NORMAL, 1,0},
   { "kilitle",		do_lock,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
@@ -242,6 +243,7 @@ const	struct	cmd_type	cmd_table	[] =
   { "kurban",	do_sacrifice,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
   { "kurtar",		do_rescue,	POS_FIGHTING,	 0,  LOG_NORMAL, 0,0 },
   { "kuyruk",		do_tail,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
+  { "laka",		do_titl,	POS_DEAD,	 0,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
   { "lakap",		do_title,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "limited",	do_limited,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "lisan",		do_speak,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
@@ -253,7 +255,6 @@ const	struct	cmd_type	cmd_table	[] =
   { "maymuncuk",		do_pick,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
   { "memory",		do_memory,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "mezat",        do_auction,     POS_SLEEPING,    0,  LOG_NORMAL, 1, CMD_GHOST  },
-  { "motd",		do_motd,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "mwhere",		do_mwhere,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "nara",         do_warcry,      POS_FIGHTING,    0,  LOG_NORMAL, 1,0},
   { "nerede",		do_where,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
@@ -311,7 +312,6 @@ const	struct	cmd_type	cmd_table	[] =
   { "return",         do_return,      POS_DEAD,       L6,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "rezil",	do_dishonor,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
   { "rica",        do_request,     POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "rules",		do_rules,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "saðýr",		do_deaf,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "saklan",		do_hide,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
   { "saldýr",		do_kill,	POS_FIGHTING,	 0,  LOG_NORMAL, 0,0},
@@ -385,7 +385,6 @@ const	struct	cmd_type	cmd_table	[] =
   { "vur",          do_shoot,       POS_STANDING,    0,  LOG_NORMAL, 1,0 },
   { "wizhelp",	do_wizhelp,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "wizinvis",	do_invis,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "wizlist",	do_wizlist,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "wizlock",	do_wizlock,	POS_DEAD,	L2,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "wiznet",		do_wiznet,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "yaðmayok",		do_noloot,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
@@ -1160,7 +1159,7 @@ void do_unalias(CHAR_DATA *ch, char *argument)
 
     argument = one_argument(argument,arg);
 
-    if (arg == '\0')
+    if (arg == NULL)
     {
       send_to_char("Hangi kýsayolu kaldýracaksýnýz?\n\r",ch);
 	return;

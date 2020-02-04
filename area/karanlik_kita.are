@@ -8,7 +8,7 @@ Lowlevel 5
 Highlevel 35
 Minvnum 14500
 Maxvnum 14599
-Path ~
+Path 34d k 2d~
 END
 
 #HELPS
@@ -277,7 +277,7 @@ Cüce Kadýný yumruðuyla avuç içine vuruyor.
 ~
 Stand back!  She's about to blow!!!
 ~
-dwarven~
+dwarf~
 ABT DF 900 0
 16 0 3d9+233 159d1+1 2d6+4 beating
 -2 -2 -2 7
@@ -291,7 +291,7 @@ Cüce Erkeði~
 ~
 He looks back at you, then dismisses you as unimportant.
 ~
-dwarven~
+dwarf~
 ABT DF 900 0
 19 0 3d9+308 189d1+1 2d7+5 punch
 -4 -4 -4 7
