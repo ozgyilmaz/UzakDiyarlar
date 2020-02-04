@@ -478,50 +478,50 @@ S
 #7801
 Patika~
 Ofcoldan uzak bir yoldasýn. Ana yol kuzeyde bir tepeye, güney ise Ofcol'a
-doðru gitmekte. Batý ve doðuda yan yollar görünüyor, geniþliklerine
-bakýlýrsa geyiklerin kullandýðý bir yol.
+doðru gitmekte. Batý ve doðuda yan yollar görünüyor, geniþliðine
+bakýlýrsa bir geyik patikasý.
 ~
 0 0 2
 D0
-You see the overlook.
+Tepeyi görüyorsun.
 ~
 ~
 0 0 7804
 D1
-You see the small trail.
+Küçük patikayý görüyorsun.
 ~
 ~
 0 0 7803
 D2
-You see the path back toward Ofcol.
+Ofcol'a giden yolu görüyorsun.
 ~
 ~
 0 0 7800
 D3
-You see the small trail.
+Küçük patikayý görüyorsun.
 ~
 ~
 0 0 7802
 S
 #7802
 Dar bir Patika~
-This small deer trail leads north and east.
+Bu küçük geyik patikasý kuzeye ve doðuya doðru uzanýyor.
 ~
 0 0 2
 D0
-The trail continues north.
+Patika kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7867
 D1
-The main path is to the east.
+Ana yol doðuya doðru.
 ~
 ~
 0 0 7801
 S
 #7803
 Dar bir Patika~
-This small deer trail leads north and west.
+Bu küçük geyik patikasý kuzeye ve batýya doðru uzanýyor.
 ~
 0 0 2
 D0
@@ -530,34 +530,33 @@ The trail continues north.
 ~
 0 0 7849
 D3
-The main path is to the west.
+Ana yol batýya doðru.
 ~
 ~
 0 0 7801
 S
 #7804
 Tepeden bakýþ~
-You are above a large valley.  Below you, you see humanoid forms wandering
-around the valley.  Rich green grass covers the valley, with some small trees
-dotting the landscape.  To the south is the trail back toward Ofcol.
+Büyük bir vadinin üzerindesin. Aþaðýda, vadinin etrafýnda dolaþan insansý
+formlar görüyorsun. Zengin yeþil çim, vadiyi kaplayan ve manzarayý süsleyen
+küçük aðaçlar var. Güneyde Ofcol'a doðru giden bir yol görüyorsun.
 ~
 0 0 2
 D2
-You see the path back toward Ofcol.
+Ofcol'a giden yolu görüyorsun.
 ~
 ~
 0 0 7801
 D5
-You see the entrance to the valley.
+Vadiye giriþi görüyorsun.
 ~
 ~
 0 0 7805
 S
 #7805
 Çora Vadisi'nin Giriþi~
-You are at the entrance to the Valley of the Elves.  Elves stare at your
-intrusion, but most are too busy to bother with you.  The valley spreads to
-the north, while enlarging toward the east and west.
+Çora Vadisi'nin giriþindesiniz. Çoralar davetsiz giriþini farkediyor, ama çoðu
+seninle uðraþmak için çok meþgul. Vadi doðuya ve batýya doðru geniþlerken kuzeye yayýlýyor.
 ~
 0 0 2
 D0
