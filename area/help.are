@@ -86,26 +86,28 @@ Example:  PROMPT <%hhp %mm %vmv>
 ~
 -1 SUMMARY~
 ____________________________________________________________________________
-|| MOVEMENT                       |    GROUP                              ||
-|| north south east west up down  |    follow group gtell split           ||
-|| exits recall                   |                                       ||
-|| sleep wake rest stand          |                                       ||
+|| HAREKET                        |    GRUP                               ||
+|| kuzey güney doðu batý yukarý   |    takip grup ganlat daðýt            ||
+|| aþaðý çýkýþlar anýmsa uyu      |                                       ||
+|| dinlen kalk                    |                                       ||
 ||________________________________|_______________________________________||
-|| OBJECTS                        |    INFORMATION / COMMUNICATION        ||
-|| get put drop give sacrifice    |    help credits commands areas        ||
-|| wear wield hold                |    report score time weather where who||
-|| recite quaff zap brandish      |    description password title         ||
-|| lock unlock open close pick    |    bug idea typo                      ||
-|| inventory equipment look       |    cgossip say shout tell yell        ||
-|| eat drink fill compare         |    emote pose                         ||
-|| list buy sell value            |    note pray worth raffect affect     ||
+|| OBJELER                        |    BÝLGÝ / ÝLETÝÞÝM                   ||
+|| koy býrak ver kurban           |    yardým komutlar bölge              ||
+|| giy tut oku                    |    rapor skor zaman havadurumu nerede ||
+|| yudumla çarp savur             |    kim tanim þifre lakap              ||
+|| kilitle kilitaç aç kapat       |    bug söyle baðýr anlat              ||
+|| maymuncuk envanter ekipman     |    haykýr duygu poz                   ||
+|| bak ye iç doldur kýyasla       |    not oda günce odaetki etki         ||
+|| liste satýnal sat deðer        |                                       ||
 ||________________________________|_______________________________________||
-|| COMBAT                         |    OTHER                              ||
-|| kill flee kick rescue disarm   |    ! save quit demand request         ||
-|| backstab cast wimpy            |    practice train quest               ||
+|| DÖVÜÞ                          |    DÝÐER                              ||
+|| öldür kaç tekme kurtar büyü    |    ! kaydet ayrýl talep rica          ||
+|| silahsýzlandýr ardýlan         |    pratik eðitim görev                ||
+|| korkaklýk                      |                                       ||
 ||________________________________|_______________________________________||
-     For more help, type 'help <topic>' for any command, skill, or spell.
-     Also help on: DAMAGE DEATH EXPERIENCE NEWS TICK WIZLIST QUESTS
+     Herhangi bir komut, beceri veya büyü hakkýnda daha
+     fazla yardým için 'yardým <komut>' yazýn.
+     Ayrýca: HASAR DEATH TECRÜBE TICK WIZLIST QUESTS
 
      ~
 
@@ -1057,7 +1059,7 @@ There is no RENT in this mud.  Just SAVE and QUIT whenever you want to leave.
 
 
 
--1 SPLIT~
+-1 DAÐIT~
 Syntax: SPLIT <silver> <gold>
 
 SPLIT splits some coins  between you and all the members of your
@@ -3299,34 +3301,33 @@ course there are strength limitations on drag, but you may drag heavier objects
 that you can carry.
 ~
 
--1 DAMAGE~
-Here are the types of the damages, from small to...
-                                scratch
-                                 graze
-                                  hit
-                                 injure
-                                 wound
-                                  maul
-                                decimate
-                                devastate
-                                  maim
-                                MUTILATE
-                               DISEMBOWEL
-                               DISMEMBER
-                                MASSACRE
-                                 MANGLE
-                            *** DEMOLISH ***
-                            *** DEVASTATE ***
-                            === OBLITERATE ===
-                            ==== ATOMIZE ====
-                        <*> <*> ANNIHILATE <*> <*>
-                        <*>!<*> ERADICATE <*>!<*>
-                     <*><*><*> ELECTRONIZE <*><*><*>
-                    <*>)!(<*>) SKELETONIZE (<*>)!(<*>)
-                       (*)!(*)!(*) NUKE (*)!(*)!(*)
-                     (*)!<*>!(*) TERMINATE (*)!<*>!(*)
-                     <*>!(*)!<*>> TEAR UP <<*)!(*)!<*>
-                      <*) (*>= ! POWER HIT ! =<*) (*>
+-1 HASAR~
+Küçükten büyüðe hasar türleri...
+                                  çizdi
+                                 sýyýrdý
+                                týrmaladý
+                                 örseledi
+                                hýrpaladý
+                                 yýprattý
+                                 yaraladý
+                                  kesti
+                                  biçti
+                                PARÇALADI
+                                 DOÐRADI
+                             -YIKIMA UÐRATTI-
+                                 *KAZIDI*
+                             **KÖTÜRÜM ETTÝ**
+                            *** HARAP ETTÝ ***
+                             *** MAHVETTÝ ***
+                               === SÝLDÝ ===
+                         ==== BOZGUNA UÐRATTI ====
+                         <*> <*> KANA BOÐDU <*> <*>
+                         <*>!<*> TELEF ETTÝ <*>!<*>
+                       <*><*><*> REZÝL ETTÝ <*><*><*>
+                      (<*>)!(<*>) KATLETTÝ (<*>)!(<*>)
+                     (*)!(*)!(*) UN UFAK ETTÝ (*)!(*)!(*)
+                   (*)!<*>!(*) ATOMLARINA AYIRDI (*)!<*>!(*)
+                       <*>!(*)!<*>> ÖpTü <<*)!(*)!<*>
 
 ~
 
