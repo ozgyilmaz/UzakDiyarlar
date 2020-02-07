@@ -1773,16 +1773,20 @@ void do_score( CHAR_DATA *ch, char *argument )
   {
     sprintf(bufsamurai,"Ölüm : {w%-3d{c",ch->pcdata->death);
   }
+  else
+  {
+    sprintf(bufsamurai,"");
+  }
 
 
   printf_to_char(ch,"{c,--------------------------------------------------------------------,{w\n\r");
   printf_to_char(ch,"{c| {w%+12s%-30s{c                         |\n\r",ch->name,IS_NPC(ch) ? "" : ch->pcdata->title);
   printf_to_char(ch,"{c|-------------------------,------------------------------------------,{w\n\r");
   printf_to_char(ch,"{c| Irk     : {w%-13s{c | ZIRH         | PARA                      |\n\r",race_table[ch->race].name[1]);
-  printf_to_char(ch,"{c| Yaþ     : {w%-13d{c | Delici : {w%-3d{c | Altýn       : {w%-7ld{c     |\n\r",get_age(ch),GET_AC(ch,AC_PIERCE),ch->gold);
-  printf_to_char(ch,"{c| Cinsiyet: {w%-13s{c | Ezici  : {w%-3d{c | Akçe        : {w%-7ld{c     |\n\r",sex,GET_AC(ch,AC_BASH),ch->silver);
-  printf_to_char(ch,"{c| Sýnýf   : {w%-13s{c | Kesici : {w%-3d{c | Altýn(Banka): {w%-7ld{c     |\n\r",IS_NPC(ch) ? "mobil" : class_table[ch->iclass].name[1],GET_AC(ch,AC_SLASH),IS_NPC(ch) ? 0 : ch->pcdata->bank_g);
-  printf_to_char(ch,"{c| Yönelim : {w%-13d{c | Egzotik: {w%-3d{c | Akçe (Banka): {w%-7ld{c     |\n\r",ch->alignment,GET_AC(ch,AC_EXOTIC),IS_NPC(ch) ? 0 : ch->pcdata->bank_s);
+  printf_to_char(ch,"{c| Yaþ     : {w%-13d{c | Delici : {w%-4d{c| Altýn       : {w%-7ld{c     |\n\r",get_age(ch),GET_AC(ch,AC_PIERCE),ch->gold);
+  printf_to_char(ch,"{c| Cinsiyet: {w%-13s{c | Ezici  : {w%-4d{c| Akçe        : {w%-7ld{c     |\n\r",sex,GET_AC(ch,AC_BASH),ch->silver);
+  printf_to_char(ch,"{c| Sýnýf   : {w%-13s{c | Kesici : {w%-4d{c| Altýn(Banka): {w%-7ld{c     |\n\r",IS_NPC(ch) ? "mobil" : class_table[ch->iclass].name[1],GET_AC(ch,AC_SLASH),IS_NPC(ch) ? 0 : ch->pcdata->bank_g);
+  printf_to_char(ch,"{c| Yönelim : {w%-13d{c | Egzotik: {w%-4d{c| Akçe (Banka): {w%-7ld{c     |\n\r",ch->alignment,GET_AC(ch,AC_EXOTIC),IS_NPC(ch) ? 0 : ch->pcdata->bank_s);
   printf_to_char(ch,"{c| Doðum   : {w%-12s{c  |              |                           |\n\r",dogumGunu);
   printf_to_char(ch,"{c|-------------------------'--------------|---------------------------,{w\n\r");
   printf_to_char(ch,"{c| Yp    : {w%-7d/%-7d{c | Güç: {w%-2d(%-2d){c  | Pratik : {w%-3d{c              |\n\r",ch->hit,  ch->max_hit,ch->perm_stat[STAT_STR],get_curr_stat(ch,STAT_STR),ch->practice);
@@ -1792,7 +1796,7 @@ void do_score( CHAR_DATA *ch, char *argument )
   printf_to_char(ch,"{c| Kalan : {w%-10d{c      | Bün: {w%-2d(%-2d){c  | Aðýrlýk: {w%6ld/%-8d{c  |\n\r",(!IS_NPC(ch)?((ch->level + 1) * exp_per_level(ch,ch->pcdata->points) - ch->exp):0),ch->perm_stat[STAT_CON],get_curr_stat(ch,STAT_CON),get_carry_weight(ch), can_carry_w(ch));
   printf_to_char(ch,"{c| TP    : {w%-12ld{c    | Kar: {w%-2d(%-2d){c  | GörevP: {w%-5d{c             |\n\r",ch->exp,ch->perm_stat[STAT_CHA],get_curr_stat(ch,STAT_CHA),IS_NPC(ch) ? 0 :ch->pcdata->questpoints);
   printf_to_char(ch,"{c| Korkak: {w%-10d{c      | ZZ : {w%-3d{c     | GörevZ: {w%-2d{c                |\n\r",ch->wimpy,GET_DAMROLL(ch),IS_NPC(ch) ? 0 :((IS_SET(ch->act, PLR_QUESTOR))?(ch->pcdata->countdown):(ch->pcdata->nextquest)));
-  printf_to_char(ch,"{c|                         | VZ : {w%-3d{c     | %-12s                          |\n\r",GET_HITROLL(ch), bufsamurai);
+  printf_to_char(ch,"{c|                         | VZ : {w%-3d{c     | %-12s                |\n\r",GET_HITROLL(ch), bufsamurai);
   printf_to_char(ch,"{c|-------------------------'--------------'---------------------------|{w\n\r");
   printf_to_char(ch,"{c| {wDayanýklýlýklar{c                                                    |{w\n\r");
   printf_to_char(ch,"{c| teshir:%s çaðrý :%s büyü :%s silah   :%s ezici:%s delici:%s kesici :%s    |{w\n\r",(ch->res_flags  & IMM_CHARM)?"{w+{c":" ",(ch->res_flags  & IMM_SUMMON)?"{w+{c":" ",(ch->res_flags  & IMM_MAGIC)?"{w+{c":" ",(ch->res_flags  & IMM_WEAPON)?"{w+{c":" ",(ch->res_flags  & IMM_BASH)?"{w+{c":" ",(ch->res_flags  & IMM_PIERCE)?"{w+{c":" ",(ch->res_flags  & IMM_SLASH)?"{w+{c":" ");

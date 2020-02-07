@@ -2679,9 +2679,9 @@ int xp_compute(CHAR_DATA *gch, CHAR_DATA *victim, int total_levels,int members)
     xp = xp * gch->level/total_levels;
 
     if (members == 2)
-      xp *= ( 15/10 );
-    if (members == 3)
       xp *= ( 20/10 );
+    if (members == 3)
+      xp *= ( 30/10 );
 
     if (gch->level < 15)
 	 xp = UMIN((250 + dice(1,40)),xp);
