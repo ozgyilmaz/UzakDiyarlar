@@ -3077,6 +3077,7 @@ void hunt_victim(CHAR_DATA *ch);
 /* act_info.c */
 void	set_title	args( ( CHAR_DATA *ch, char *title ) );
 char	*get_cond_alias	args( ( OBJ_DATA *obj ) );
+void	mob_score	args((CHAR_DATA *ch,CHAR_DATA *mob));
 
 /* act_move.c */
 void	move_char	args( ( CHAR_DATA *ch, int door, bool follow ) );
@@ -3138,6 +3139,7 @@ void data_read args( (void) );
 char *	print_flags	args( ( int flag ));
 void	boot_db		args( ( void ) );
 CD *	create_mobile	args( ( MOB_INDEX_DATA *pMobIndex ) );
+CD *	mob_assign_perm_stats	args( ( CHAR_DATA *mob ) );
 void	clone_mobile	args( ( CHAR_DATA *parent, CHAR_DATA *clone) );
 OD *	create_object	args( ( OBJ_INDEX_DATA *pObjIndex, int level ) );
 OD *    create_object_nocount args( ( OBJ_INDEX_DATA *pObjIndex, int level ) );

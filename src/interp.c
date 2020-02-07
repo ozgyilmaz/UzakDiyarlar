@@ -265,7 +265,6 @@ const	struct	cmd_type	cmd_table	[] =
   { "noshout",	do_noshout,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "notell",		do_notell,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "notitle",	do_notitle,	POS_DEAD,	L7,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "nskor",		do_nscore,	POS_DEAD,	 IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "objlist",	do_objlist,	POS_DEAD,	ML,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "odaetki",	do_raffects,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "öðren",		do_learn,	POS_STANDING,	 0,  LOG_NORMAL, 1,0},

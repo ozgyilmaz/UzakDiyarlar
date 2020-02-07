@@ -2052,41 +2052,7 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )
         mob->progtypes		= pMobIndex->progtypes;
 	mob->extracted		= FALSE;
 
-	/* computed on the spot */
-
-    	for (i = 0; i < MAX_STATS; i ++)
-            mob->perm_stat[i] = UMIN(25,11 + mob->level/4);
-
-        if (IS_SET(mob->act,ACT_WARRIOR))
-        {
-            mob->perm_stat[STAT_STR] += 3;
-            mob->perm_stat[STAT_INT] -= 1;
-            mob->perm_stat[STAT_CON] += 2;
-        }
-
-        if (IS_SET(mob->act,ACT_THIEF))
-        {
-            mob->perm_stat[STAT_DEX] += 3;
-            mob->perm_stat[STAT_INT] += 1;
-            mob->perm_stat[STAT_WIS] -= 1;
-        }
-
-        if (IS_SET(mob->act,ACT_CLERIC))
-        {
-            mob->perm_stat[STAT_WIS] += 3;
-            mob->perm_stat[STAT_DEX] -= 1;
-            mob->perm_stat[STAT_STR] += 1;
-        }
-
-        if (IS_SET(mob->act,ACT_MAGE))
-        {
-            mob->perm_stat[STAT_INT] += 3;
-            mob->perm_stat[STAT_STR] -= 1;
-            mob->perm_stat[STAT_DEX] += 1;
-        }
-
-        if (IS_SET(mob->off_flags,OFF_FAST))
-            mob->perm_stat[STAT_DEX] += 2;
+	mob = mob_assign_perm_stats(mob);
 
         mob->perm_stat[STAT_STR] += mob->size - SIZE_MEDIUM;
         mob->perm_stat[STAT_CON] += (mob->size - SIZE_MEDIUM) / 2;
@@ -2189,44 +2155,9 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )
 	mob->size		= SIZE_MEDIUM;
 	mob->material		= (char*)"";
 	mob->extracted		= FALSE;
-/*
-        for (i = 0; i < MAX_STATS; i ++)
-            mob->perm_stat[i] = 11 + mob->level/4;
- computed on the spot */
 
-    	for (i = 0; i < MAX_STATS; i ++)
-            mob->perm_stat[i] = UMIN(25,11 + mob->level/4);
+  mob = mob_assign_perm_stats(mob);
 
-        if (IS_SET(mob->act,ACT_WARRIOR))
-        {
-            mob->perm_stat[STAT_STR] += 3;
-            mob->perm_stat[STAT_INT] -= 1;
-            mob->perm_stat[STAT_CON] += 2;
-        }
-
-        if (IS_SET(mob->act,ACT_THIEF))
-        {
-            mob->perm_stat[STAT_DEX] += 3;
-            mob->perm_stat[STAT_INT] += 1;
-            mob->perm_stat[STAT_WIS] -= 1;
-        }
-
-        if (IS_SET(mob->act,ACT_CLERIC))
-        {
-            mob->perm_stat[STAT_WIS] += 3;
-            mob->perm_stat[STAT_DEX] -= 1;
-            mob->perm_stat[STAT_STR] += 1;
-        }
-
-        if (IS_SET(mob->act,ACT_MAGE))
-        {
-            mob->perm_stat[STAT_INT] += 3;
-            mob->perm_stat[STAT_STR] -= 1;
-            mob->perm_stat[STAT_DEX] += 1;
-        }
-
-        if (IS_SET(mob->off_flags,OFF_FAST))
-            mob->perm_stat[STAT_DEX] += 2;
     }
 
     mob->position = mob->start_pos;
@@ -2240,6 +2171,45 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )
     char_list		= mob;
     pMobIndex->count++;
     return mob;
+}
+
+CHAR_DATA * mob_assign_perm_stats(CHAR_DATA* mob)
+{
+  for (i = 0; i < MAX_STATS; i ++)
+        mob->perm_stat[i] = UMIN(25,11 + mob->level/4);
+
+  if (IS_SET(mob->act,ACT_WARRIOR))
+  {
+      mob->perm_stat[STAT_STR] += 3;
+      mob->perm_stat[STAT_INT] -= 1;
+      mob->perm_stat[STAT_CON] += 2;
+  }
+
+  if (IS_SET(mob->act,ACT_THIEF))
+  {
+      mob->perm_stat[STAT_DEX] += 3;
+      mob->perm_stat[STAT_INT] += 1;
+      mob->perm_stat[STAT_WIS] -= 1;
+  }
+
+  if (IS_SET(mob->act,ACT_CLERIC))
+  {
+      mob->perm_stat[STAT_WIS] += 3;
+      mob->perm_stat[STAT_DEX] -= 1;
+      mob->perm_stat[STAT_STR] += 1;
+  }
+
+  if (IS_SET(mob->act,ACT_MAGE))
+  {
+      mob->perm_stat[STAT_INT] += 3;
+      mob->perm_stat[STAT_STR] -= 1;
+      mob->perm_stat[STAT_DEX] += 1;
+  }
+
+  if (IS_SET(mob->off_flags,OFF_FAST))
+      mob->perm_stat[STAT_DEX] += 2;
+
+  return mob;
 }
 
 /* duplicate a mobile exactly -- except inventory */

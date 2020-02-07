@@ -240,7 +240,6 @@ DECLARE_DO_FUN(	do_noshout	);
 DECLARE_DO_FUN( do_nosummon	);
 DECLARE_DO_FUN(	do_notell	);
 DECLARE_DO_FUN( do_notitle	);
-DECLARE_DO_FUN( do_nscore	);
 DECLARE_DO_FUN( do_objlist	);
 DECLARE_DO_FUN(	do_ofind	);
 DECLARE_DO_FUN(	do_oload	);
