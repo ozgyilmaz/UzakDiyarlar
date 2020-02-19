@@ -11,7 +11,7 @@ Maxvnum 499
 Path 2k y d~
 END
 
-#MOBILES
+#NEW_MOBILES
 #400
 amip~
 amip~
@@ -20,12 +20,7 @@ Kocaman bir amip sürünüyor.
 Basicly it's a clear sack filled with jelly and colorful floating things.
 ~
 human~
-ABC 0 0 0
-1 0 2d2+4 1d1+99 1d2+0 bite
-10 10 10 100
-0 0 0 0
-stand stand either 15
-0 0 flesh 0
+ABC 0 1
 #401
 goril~
 goril~
@@ -35,12 +30,7 @@ The gorilla, hey wait! Thats a man dressed in a gorilla outfit. It's a fake!
 The sign around his neck says 'Come see the gorilla display!'
 ~
 human~
-ABH 0 -333 0
-3 0 10d2+15 1d1+99 1d4+1 punch
-2 2 2 0
-0 0 0 0
-stand stand male 45
-0 0 medium 0
+ABH 0 3
 #402
 bit~
 bit~
@@ -50,12 +40,7 @@ The most heinous thing you could probably think of is standing in front
 of you: A six foot tall pubic lice.  Crabs anyone?
 ~
 human~
-ABH 0 -300 0
-2 0 2d5+19 1d1+99 1d5+0 chomp
-7 4 8 10
-K 0 0 0
-stand stand female 25
-0 0 medium 0
+ABH 0 2
 #403
 hogan~
 Hogan~
@@ -64,12 +49,7 @@ Hogan müþteri bekliyor.
 John the shopkeeper is obviously not happy.  And who would be at this job?
 ~
 human~
-ABV 0 200 0
-10 0 2d33+50 10d10+100 3d5+7 pierce
-4 4 4 7
-CEIK AB 0 0
-stand stand male 250
-0 0 medium 0
+ABV 0 10
 #404
 köpek balýk balýðý~
 köpek balýðý~
@@ -79,12 +59,7 @@ How hungry do you think a shark could possibly be?  You poke its nose to
 piss it off.  Boy does he look angry now!
 ~
 human~
-ABF 0 -300 0
-7 1 1d33+61 1d10+100 3d4+1 scratch
-3 3 3 5
-DKMV AR LQ 0
-stand stand male 250
-0 0 large 0
+ABF 0 7
 #405
 kaya balýk balýðý~
 kaya balýðý~
@@ -95,12 +70,7 @@ blob with tenticles.  It doesn't even have pretty colors in it.  Just a
 ugly gray color.
 ~
 human~
-ACG 0 0 0
-5 0 4d5+30 1d10+100 1d6+1 bite
-8 0 8 8
-0 L 0 0
-stand stand female 250
-0 0 large 0
+ACG 0 5
 #406
 çocuk~
 çocuk~
@@ -110,12 +80,7 @@ The child is obviously too young to realise that this is prehaps one of
 the stupidest exhibits his little brain could comprehend.
 ~
 human~
-AG 0 400 0
-1 0 2d5+0 1d1+100 1d2+1 punch
-8 8 8 10
-0 0 0 0
-stand stand male 110
-0 0 small 0
+AG 0 1
 #407
 öðretmenin~
 öðretmenin~
@@ -124,12 +89,7 @@ stand stand male 110
 Thank God she doesn't see you!  But if you keep looking at her she may!
 ~
 asura~
-AGR 0 -500 0
-5 0 2d5+40 5d10+100 2d3+1 pierce
-6 6 6 8
-D BE HK 0
-stand stand female 320
-0 0 medium 0
+AGR 0 5
 #408
 goril~
 goril~
@@ -139,12 +99,7 @@ This gorilla is really foul.  Its making mud pies out of its own feces
 and throwing it at visitors. Duck! one just missed you!
 ~
 bear~
-AG 0 50 0
-4 0 1d10+30 1d1+100 2d2+1 beating
-7 5 7 8
-CDEOU 0 EI 0
-stand stand female 90
-0 0 large 0
+AG 0 4
 #409
 temizlikçi~
 temizlikçi~
@@ -154,12 +109,7 @@ You feel so sorry fort his poor man who has been subjected to cleaning up
 after the gorillas for the rest of his life.
 ~
 human~
-ACG 0 200 0
-3 0 3d10+10 1d100+30 1d4+2 scratch
-7 8 8 9
-EN 0 0 0
-stand stand either 110
-0 0 medium 0
+ACG 0 3
 #410
 devekuþu~
 devekuþu~
@@ -171,12 +121,7 @@ well your mom made some of the tasties meat stew you've ever had to cheer
 you up.
 ~
 human~
-AG 0 500 0
-2 0 1d10+15 3d40+1 2d2+1 bite
-7 7 7 9
-I 0 0 0
-stand stand either 150
-0 0 large 0
+AG 0 2
 #0
 
 

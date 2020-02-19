@@ -11,7 +11,7 @@ Maxvnum 30270
 Path 13b 2k d 2k 4b k 2b 2k 2b 5g 2b k~
 END
 
-#MOBILES
+#NEW_MOBILES
 #30232
 yeþil canavar çiçek~
 canavar çiçek~
@@ -21,12 +21,7 @@ This giant plant is covered with bud. It looks like it could
 smoke you.
 ~
 human~
-64|128 8|128|524288 -500 0
-55 0 50d10+5500 5d5+5000 10d4+23 charge
--25 -25 -25 -1
-EK 0 0 0
-stand stand female 0
-0 0 giant 0
+64|128 8|128|524288 55
 #30233
 mor canavar çiçek~
 canavar çiçek~
@@ -37,12 +32,7 @@ It is a blend of beautiful orange, red, and blue hairs. Just a
 fraction of this plant would be enough to keep you happy for a year.
 ~
 human~
-2|64 8|128|524288 -500 0
-60 0 50d10+6750 5d5+5000 8d6+28 charge
--30 -30 -30 -3
-EK 0 0 0
-stand stand male 0
-0 0 giant 0
+2|64 8|128|524288 60
 #30234
 küçük canavar çiçek~
 canavar çiçek~
@@ -52,12 +42,7 @@ This wrapping of reefer is just what you might need after a hard
 day of work.
 ~
 human~
-64|128 32768|524288 -350 0
-40 0 15d10+1850 5d5+1000 4d8+13 charge
--13 -13 -13 3
-EK 0 0 0
-stand stand male 0
-0 0 small 0
+64|128 32768|524288 40
 #30235
 eþek arýsý~
 eþek arýsý~
@@ -67,12 +52,7 @@ What used to be a cigar is now filled with enough bud to get the
 owner 5 years.
 ~
 human~
-64 524288 -350 0
-46 0 25d10+3250 5d5+1000 6d6+16 none
--16 -16 -16 2
-EK 0 0 0
-stand stand male 0
-0 0 medium 0
+64 524288 46
 #30236
 keskin diþli keçi~
 keskin diþli keçi~
@@ -82,12 +62,7 @@ While not a large quanitity of weed, it's probably enough to get
 you by for an hour or two.
 ~
 human~
-64|128 8|524288 -250 0
-43 0 25d10+2500 5d5+1000 3d12+15 none
--15 -15 -15 2
-K 0 0 0
-stand stand male 0
-0 0 medium 0
+64|128 8|524288 43
 #30237
 keskin diþli ördek~
 keskin diþli ördek~
@@ -99,12 +74,7 @@ messed with. Of course if you've been smoking any of this weed, you
 wouldn't really care.
 ~
 human~
-64|128 8|32768 350 0
-51 0 50d10+4500 5d5+5000 5d8+20 charge
--21 -21 -21 0
-K 0 0 0
-stand stand male 0
-0 0 medium 0
+64|128 8|32768 51
 #30238
 dev solucan~
 dev solucan~
@@ -114,12 +84,7 @@ A big Central American looks at you and says,
 "Hola amigo, muchos dinenos."
 ~
 human~
-64|512 32768|65536 -300 0
-43 0 25d10+2500 5d5+1000 3d12+15 pound
--15 -15 -15 2
-K 0 0 0
-stand stand male 0
-0 0 medium 0
+64|512 32768|65536 43
 #30239
 siyah kelebek kocaman~
 kelebek~
@@ -129,12 +94,7 @@ Just the sweet fragrance of the air is enough to give you
 the munchies.
 ~
 unique~
-32|64 2|8 0 0
-38 0 10d10+1600 5d5+1000 5d6+12 none
--13 -13 -13 3
-K 0 0 0
-stand stand none 0
-0 0 medium 0
+32|64 2|8 38
 #30240
 bitki avcýsý~
 bitki avcýsý~
@@ -143,12 +103,7 @@ bitki avcýsý~
 He breaks into timeless verse singing,
 ~
 human~
-64 8|128|32768|524288 500 0
-57 0 50d10+6000 5d5+5000 6d8+24 pound
--27 -27 -27 -2
-CEIK 0 0 0
-stand stand male 0
-0 0 medium 0
+64 8|128|32768|524288 57
 #0
 
 

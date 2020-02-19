@@ -11,7 +11,7 @@ Maxvnum 2399
 Path 6d 4g 2d g 2d a 3k d g~
 END
 
-#MOBILES
+#NEW_MOBILES
 #2300
 Kara Þövalye~
 Kara Þövalye~
@@ -22,12 +22,7 @@ buradaki katliamýn sorumlularýndan biri olmalý. Ruhu bu diyarlarda
 hapsolmuþ, serbest býrakýlmayý bekliyor.
 ~
 human~
-AB DH -1000 0
-25 0 5d10+550 12d9+100 2d10+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand male 1250
-0 0 medium 0
+AB DH 25
 #2301
 Yaþlý Aðaç~
 Yaþlý Aðaç~
@@ -40,12 +35,7 @@ sanki rüzgarýn onu ileri ve geriye doðru itmesiyle beraber
 inliyor gibi.
 ~
 human~
-AB 0 250 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand none 250
-0 0 medium 0
+AB 0 20
 #2302
 maðara canavarý~
 maðara canavarý~
@@ -56,12 +46,7 @@ ile olmuþmuþ; bir kuþun gagasý, kocaman gözler, kýllý vücut,
 uzun pençelere sahip eller ve ayaklar. Seni görünce hýrlamaya baþlýyor.
 ~
 human~
-ABF CEP 0 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand none 125
-0 0 medium 0
+ABF CEP 15
 #2303
 Kara kurbaða~
 Kara kurbaða~
@@ -70,12 +55,7 @@ Bir kara kurbaðasý burada oturup, ötmekte.
 Karþýnda bir inek büyüklüðünde gri kara kurbaðasý durmakta.
 ~
 human~
-AB 0 -250 0
-14 0 2d10+190 7d9+100 1d12+3 none
--1 -1 -1 8
-EFNU 0 0 0
-sit sit none 127
-0 0 medium 0
+AB 0 14
 #2304
 Aðlayan söðüt aðacý~
 Aðlayan söðüt aðacý~
@@ -85,12 +65,7 @@ Aðlayan söðüt aðacýnýn bir sürü dallarý bulunmakta. Söðüt aðacýndan
 gelen kesik aðlama seslerini duyabiliyorsun.
 ~
 human~
-AB DH 1000 0
-25 0 5d10+550 12d9+100 2d10+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand female 1000
-0 0 medium 0
+AB DH 25
 #2305
 sis canavarý~
 Sis Canavarý~
@@ -99,12 +74,7 @@ Etrafýndaki sislerden oluþan bir canavar karþýnda duruyor.
 Sislerden oluþmuþ, þeytani yaratýk karþýnda duruyor.
 ~
 human~
-ABF Q 0 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand none 50
-0 0 medium 0
+ABF Q 15
 #2306
 Bataklýk Hayaleti~
 Bataklýk Hayaleti~
@@ -114,12 +84,7 @@ Bataklýk hayaleti sisten oluþmuþ, ve güçlü bir savaþçý görünümünde bir canavar.
 Sana yaklaþtýkça içini bir soðukluk kaplýyor.
 ~
 human~
-ABCF 0 -1000 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand male 1250
-0 0 medium 0
+ABCF 0 20
 #2307
 Köylü Ogre~
 Köylü Ogre~
@@ -131,12 +96,7 @@ Kafasý yere doðru eðilmiþ bu canavar seni farkedip, korkuyla sana doðru
 bakmaya baþlýyor.
 ~
 human~
-AGH 0 -200 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand none 10
-0 0 medium 0
+AGH 0 10
 #2308
 Savaþçý Ogre~
 Savaþçý Ogre~
@@ -145,12 +105,7 @@ Etrafýna keskin bakýþlar atan savaþçý ogre burada duruyor.
 Oldukça zihnde ve dinç ogre, metalik gri bir zýrh giymekte.
 ~
 human~
-ACFGH 0 -350 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand male 250
-0 0 medium 0
+ACFGH 0 15
 #2309
 Muhafýz Ogre~
 Muhafýz Ogre~
@@ -161,12 +116,7 @@ dikkatlice izliyor. Nedense muhafýzýn canýný kurtarmak için savaþtan
 kaçmak yerine, ölümüne savaþacaðý fikrine kapýlýyorsun.
 ~
 human~
-ABCFG 0 -500 0
-19 0 3d9+308 9d9+100 2d7+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand male 500
-0 0 medium 0
+ABCFG 0 19
 #2310
 ogre þaman~
 Ogre Þaman~
@@ -177,12 +127,7 @@ tarafýnda her çeþit kutsal semboller ve muska bulunmakta. Sana bakýp,
 hiddetleniyor.
 ~
 human~
-ABCFGHQ DH -750 0
-20 0 3d9+333 20d9+100 2d7+5 none
--4 -4 -4 6
-EIKU 0 0 0
-stand stand male 2500
-0 0 medium 0
+ABCFGHQ DH 20
 #2311
 ogre þefi~
 Ogre Þefi~
@@ -193,12 +138,7 @@ kuþanmýþ, formda bir görüntüsü var. Karþýnda tüm heybetiyle dikilip sana
 doðru acýmasýz bir þekilde hýrlýyor.
 ~
 human~
-ABCFGH DH -1000 0
-25 0 5d10+550 12d9+100 2d10+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand male 2500
-0 0 medium 0
+ABCFGH DH 25
 #2312
 Barbar~
 Barbar~
@@ -208,12 +148,7 @@ Barbarýn üzerinde kalýn kürkler bulunmakta. Görünüþe göre soðuða epeyce
 alýþmýþ durumda.
 ~
 human~
-ABCFGH 0 0 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand male 250
-0 0 medium 0
+ABCFGH 0 20
 #2313
 Beyaz Panter~
 Beyaz Panter~
@@ -224,12 +159,7 @@ onlarýn ucunda bulunan uzun kývrýmlý pençelere, sivri diþlerle
 dolu bir aðýza sahip.
 ~
 human~
-ABCFGH 0 -350 0
-16 0 3d9+233 8d9+100 2d6+4 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand none 50
-0 0 medium 0
+ABCFGH 0 16
 #2314
 buz solucan~
 Buz Solucaný~
@@ -238,12 +168,7 @@ Büyük bir buz solucaný burada, buzu ve karý delerek sana doðru geliyor.
 Bu buz solucaný 10 metre yüksekliðe sahip.
 ~
 human~
-ABCFG 0 0 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand none 175
-0 0 medium 0
+ABCFG 0 20
 #2315
 Vatandaþ Minotaur~
 Vatandaþ Minotaur~
@@ -253,12 +178,7 @@ Bir Minotaur vatandaþ buzlu sokaklarda hýzlýce yürümekte.
 yer aramakta.
 ~
 human~
-ABCGH 0 100 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand none 500
-0 0 medium 0
+ABCGH 0 15
 #2316
 minotaur muhafýz~
 Muhafýz Minotaur~
@@ -267,12 +187,7 @@ Muhafýz Minotaur~
 Kalýn ve aðýr kürkler giymiþ bir minotaur muhafýz.
 ~
 human~
-ABCFG 0 -330 0
-22 0 5d10+400 11d9+100 4d4+6 none
--5 -5 -5 7
-EFNU 0 0 0
-stand stand male 1250
-0 0 medium 0
+ABCFG 0 22
 #2317
 minotaur savaþçý~
 Minotaur Savaþçý~
@@ -282,12 +197,7 @@ Minotaur savaþçý burada izinsiz girenleri arýyor.
 gözleri kýrmýzý olan bu yaratýk þehri koruyabilecek kapasitede gözüküyor.
 ~
 human~
-ACFG 0 -330 0
-21 0 4d10+360 10d9+100 4d4+5 none
--5 -5 -5 7
-EFNU 0 0 0
-stand stand male 1250
-0 0 medium 0
+ACFG 0 21
 #2318
 minotaur kapýmuhafýzý kapý muhafýz~
 Minotaur Kapý Muhafýzý~
@@ -296,12 +206,7 @@ Bir minotaur burada Mahn-Tor'un kalesinin kapýsýný korumakta.
 Minotaur tam olarak kalenin kapýsýnda dikiliyor
 ~
 human~
-ABCG D -330 0
-25 0 5d10+550 12d9+100 2d10+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand none 1250
-0 0 medium 0
+ABCG D 25
 #2319
 minotaur kýdemli muhafýzý~
 Kýdemli Minotaur Muhafýzý~
@@ -311,12 +216,7 @@ Kýdemli Minotaur Muhafýzý mavý bir zýrh giymekte. Oldukça tehlikeli
 ve yetenekli görünüyor.
 ~
 human~
-ABCFG D -330 0
-25 0 5d10+550 12d9+100 2d10+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand male 2250
-0 0 medium 0
+ABCFG D 25
 #2320
 minotaur kraliyet muhafýzý~
 Minotaur Kraliyet Muhafýzý~
@@ -325,12 +225,7 @@ Minotaur Kraliyet Muhafýzý senin izinsiz olarak burada bulunduðunu anlayýp, sana
 Minotaur kraliyet muhafýzý aðýr ve saðlam kýrmýzý zýrhlar giymekte.
 ~
 human~
-ABCFG D -330 0
-26 0 5d10+600 13d9+100 3d7+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand male 2500
-0 0 medium 0
+ABCFG D 26
 #2321
 muhafýz minotaur elit~
 Elit Minotaur Muhafýzý~
@@ -339,12 +234,7 @@ Elit Minotaur Muhafýzý sana doðru hamle yapýyor.
 Bu minotaur'un elinde büyük bir gürz bulunmakta vede kan kýrmýzý kürk ve zýrh giymekte.
 ~
 human~
-ABCFG D -250 0
-28 0 6d12+703 14d9+100 5d4+8 none
--8 -8 -8 6
-EFNU 0 0 0
-stand stand male 3750
-0 0 medium 0
+ABCFG D 28
 #2322
 harmkýzý kýz harem köle~
 Harem Hatunu~
@@ -354,12 +244,7 @@ Oldukça çekici bir bayan görmektesin, vücudunun belli yerlerinde köle
 olduðunu kanýtlayan darbeler bulunmakta.
 ~
 human~
-ABCGH 0 1000 0
-2 0 2d7+21 1d9+100 1d5+0 none
-8 8 8 10
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABCGH 0 2
 #2323
 baþhizmetkar hizmetkar baþ minotaur~
 Baþhizmetkar Minotaur~
@@ -368,12 +253,7 @@ Baþhizmektar burada, efendisinin emirlerini bekliyor.
 Muhafýzlara nazaran, daha ince bir kürk giymekte.
 ~
 human~
-ABCGH 0 250 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand male 250
-0 0 medium 0
+ABCGH 0 20
 #2324
 minotaur yüzük taþýyýcýsý yüzüktaþýyýcýsý~
 Minotaur Yüzük Taþýyýcýs~
@@ -383,12 +263,7 @@ Yüzük taþýyýcýsý oldukça büyük bir minotaur; kemerinden sarkan
 renkli anahtarlar gözüne çarpmakta. Bronz dizlikler giymekte.
 ~
 human~
-ABCGR DH -300 0
-29 0 6d12+703 29d9+100 3d7+7 none
--8 -8 -8 1
-FU 0 0 0
-stand stand male 2500
-0 0 medium 0
+ABCGR DH 29
 #2325
 gorak minotaur savaþçý efendisi~
 Gorak~
@@ -398,12 +273,7 @@ Gorak tam bir hayvan! Kaslarý zýrhýndan taþmakta olan bu minotaur Mahn-Tor
 kabilesinin savaþ efendisi.
 ~
 human~
-ABF DH -300 0
-30 0 6d12+853 15d9+100 4d6+8 none
--9 -9 -9 6
-EFNU 0 0 0
-stand stand male 5000
-0 0 medium 0
+ABF DH 30
 #2326
 darkoth minotaur anti-paladin anti paladin efendi~
 Darkoth~
@@ -413,12 +283,7 @@ Mahn-Tor kabilesinin anti-paladin efendisinin etrafýndaki karanlýk ayla
 gözüne çok çabuk çarpmakta.
 ~
 human~
-ABF DH -1000 0
-33 0 6d12+853 15d9+100 4d6+10 none
--9 -9 -9 6
-EFNU 0 0 0
-stand stand male 5000
-0 0 medium 0
+ABF DH 33
 #2327
 tyrgoth minotaur paladin efendi~
 Tyrgoth~
@@ -428,12 +293,7 @@ Tyrgoth Mahn-Tor kabilesi paladinlerinin efendisi. Onun huzurunda
 kendini güvende ve rahat hissediyorsun.
 ~
 human~
-AB DH 1000 0
-34 2 6d12+853 15d9+100 4d6+10 none
--9 -9 -9 6
-EFNU 0 0 0
-stand stand male 5000
-0 0 medium 0
+AB DH 34
 #2328
 amyrok minotaur sihirbaz efendisi~
 Amyrok~
@@ -443,12 +303,7 @@ Amyrok küçük bir minotaur olmak üzere Mahn-Tor sihirbazlarýnýn efendisidir.
 Boyutuna karþýn oldukça zararlý olduðunu düþünüyorsun.
 ~
 human~
-ABFR DH 300 0
-30 0 6d12+778 30d9+100 5d4+7 none
--9 -9 -9 1
-FU 0 0 0
-stand stand male 5000
-0 0 medium 0
+ABFR DH 30
 #2329
 sumaron minotaur ermiþ efendisi~
 Sumaron~
@@ -458,12 +313,7 @@ Sumaron Mahn-Tor kabilesindeki ermiþlerin efendisi olmakla beraber oldukça
 iyi niyetlidir. Onun yanýnda kendini huzursuzluklardan arýnmýþ hissediyorsun.
 ~
 human~
-ABFQ DH 1000 0
-30 0 6d12+853 30d9+100 5d4+8 none
--9 -9 -9 4
-EIKU 0 0 0
-stand stand male 5000
-0 0 medium 0
+ABFQ DH 30
 #2330
 nasturn minotaur druid efendisi~
 Nasturn~
@@ -474,12 +324,7 @@ ekipman bulunmakta, ve metalik birþey giymemektedir. Sana
 bakýp gülümsüyor.
 ~
 human~
-ABQ DH 500 0
-30 0 6d12+853 30d9+100 5d4+8 none
--9 -9 -9 4
-EIKU 0 0 0
-stand stand male 5000
-0 0 medium 0
+ABQ DH 30
 #2331
 belrak minotaur korucu efendisi~
 Belrak~
@@ -490,12 +335,7 @@ oranla oldukça hareketli ve zayýf bir vücut yapýsýna sahip.
 Sana sinsi bir sýrýtýþla bakýyor.
 ~
 human~
-ABF DH 500 0
-30 0 6d12+853 15d9+100 4d6+8 none
--9 -9 -9 6
-EFNU 0 0 0
-stand stand male 5000
-0 0 medium 0
+ABF DH 30
 #2332
 dorgar minotaur hýrsýz efendisi~
 Dorgar~
@@ -505,12 +345,7 @@ Dorgar tamaman siyahlara bürünmüþ. Diðer minotaurlara oranla
 uzun ve çelimsiz bir minotaur. Oldukça yetenkli bir hýrsýza benziyor.
 ~
 human~
-ABCF Q -500 0
-30 0 6d12+853 15d9+100 4d6+8 none
--9 -9 -9 6
-EFNU 0 0 0
-stand stand male 5000
-0 0 medium 0
+ABCF Q 30
 #2333
 oldstyle mahn-tor mahn tor minotaur baþ efendi~
 Mahn-Tor~
@@ -523,12 +358,7 @@ en büyük baltayý onun taþýdýðýný kolaylýkla görebiliyorsun, vede sanýrým
 neden kabilenin baþ efendisi olduðunu anladýn.
 ~
 human~
-ABCR BDHTU -500 0
-33 0 10d10+1000 33d9+100 4d6+8 none
--10 -10 -10 0
-FU 0 0 0
-stand stand male 5000
-0 0 medium 0
+ABCR BDHTU 33
 #0
 
 #OBJECTS

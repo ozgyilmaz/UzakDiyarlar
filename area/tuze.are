@@ -8,11 +8,11 @@ Lowlevel 90
 Highlevel 100
 Minvnum 510
 Maxvnum 519
-Path ~
+Path 4d 3k 2b 3k d 2k 2d k d 3k 8d 2y d 2y k~
 END
 
 
-#MOBILES
+#NEW_MOBILES
 #510
 adalet tüze muhafýz~
 adaletin kadim muhafýzý~
@@ -24,12 +24,7 @@ yenilmesi çok zor bir rakip gibi görünüyor. Yüzünde , geride býraktýðý þeref
 dolu yýllarýn kalýcý izleri var.
 ~
 human~
-ABJKWe DFHJVZ 0 0
-92 60 1d500+25000 1d200+1600 10d40+50 none
--70 -70 -70 -20
-ACEFIKNOU AB 0 S
-stand stand male 5000
-0 0 medium 0
+ABJKWe DFHJVZ 92
 
 #511
 þifacý kabal tüze rahip ermiþ~
@@ -41,12 +36,7 @@ Bu yaþlý ermiþ, kutsal mabedinde Cabülka Cabülsa'nýn dengesi ve düzeni
 için tanrýsýna dualar ediyor.
 ~
 human~
-ABW DFHJVZ 0 0
-80 20 1d100+18000 1d300+900 15d30+40 divine
--65 -65 -61 -39
-CEFNU AB C S
-stand stand male 0
-0 0 medium 0
+ABW DFHJVZ 80
 #512
 katip yazman tüze~
 yasa katibi~
@@ -57,12 +47,7 @@ Orta yaþlý basit görünüþlü bu adam yargýçlarýn cümlelerini dikte etmek
 için elinde kalemiyle bekliyor.
 ~
 human~
-AGY 0 0 0
-15 15 0d0+0 0d0+0 0d0+0 punch
-0 0 0 0
-0 0 Y 0
-sit stand male 5
-0 0 medium unknown
+AGY 0 15
 #513
 arpçý ozan sanatçý~
 bir arp sanatçýsý~
@@ -72,12 +57,7 @@ Ofcol doðumlu bu genç adam Yargýçlara hizmet etmesi için tutulmuþ
 yetenekli bir ozan.
 ~
 human~
-AG 0 0 0
-11 2 0d0+0 0d0+0 0d0+0 none
-0 0 0 0
-0 0 0 0
-stand sit male 0
-0 0 medium unknown
+AG 0 11
 #0
 
 #OBJECTS

@@ -11,7 +11,7 @@ Maxvnum 3499
 Path 3d 7g b 6g~
 END
 
-#MOBILES
+#NEW_MOBILES
 #3400
 oldstyle skeleton bony~
 the bony skeleton~
@@ -21,12 +21,7 @@ Brown bones with tufts of clothing still hanging from them.  This
 skeleton looks very mindless but still dangerous ...
 ~
 human~
-AF 0 0 0
-1 0 2d6+10 0d9+100 1d4+0 none
-9 9 9 10
-EFNU 0 0 E
-stand stand male 0
-0 0 medium 0
+AF 0 1
 #3401
 oldstyle undead zombie~
 the undead zombie~
@@ -37,12 +32,7 @@ quite different from the next because they were, of course, once alive and
 human.
 ~
 human~
-ABF DF -100 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-EFNU 0 0 0
-stand stand male 2
-0 0 medium 0
+ABF DF 4
 #3402
 oldstyle undead ghoul~
 The ghoul~
@@ -52,12 +42,7 @@ The ghoul no longer resembles the adventurer he once was.  Nonetheless
 he looks like he hasn't forgot his fighting skills.
 ~
 human~
-AF D -500 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 7
-0 0 medium 0
+AF D 6
 #3403
 oldstyle undead wraith~
 The wraith~
@@ -68,12 +53,7 @@ black robe which hides all but the darkness of his face and the glimmer
 in his eyes.
 ~
 human~
-ABF BDF -750 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNU 0 0 0
-stand stand male 50
-0 0 medium 0
+ABF BDF 12
 #3404
 oldstyle undead guardian vampire~
 The guardian vampire~
@@ -83,12 +63,7 @@ The guardian vampire looks quite EVIL.  Just by looking at him the hair on your
 arms raises. He looks mighty tough to be just a minor minion.
 ~
 human~
-ABF DF -1000 0
-28 0 6d12+703 14d9+100 5d4+8 none
--8 -8 -8 6
-EFNU 0 0 0
-stand stand male 750
-0 0 medium 0
+ABF DF 28
 #3405
 oldstyle priest~
 the priest~
@@ -99,12 +74,7 @@ Dressed in white, fine white hair, and a soft slightly wrinkled face ...
 this man has a sacred beauty.  You see a halo around his head.
 ~
 human~
-ABQ DFH 1000 0
-15 0 3d9+208 15d9+100 2d5+3 none
--2 -2 -2 6
-EIKU 0 0 0
-stand stand male 20
-0 0 medium 0
+ABQ DFH 15
 #3406
 oldstyle Mi-Go Fungi~
 the Mi-Go~
@@ -117,12 +87,7 @@ multitudes of very small antennae, where a head would ordinarily be.  These
 beings sometimes walk on all their legs and sometimes on the hind pair only.
 ~
 human~
-AF 0 -500 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNU 0 0 0
-stand stand none 32
-0 0 medium 0
+AF 0 12
 #3407
 oldstyle nightgaunt~
 The nightgaunt~
@@ -135,12 +100,7 @@ of all, it makes absolutely no sound or speech and smiles not at all because
 it has no face, only a suggestive blackness where a face ought to be ...
 ~
 human~
-AFG PQ -1000 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand none 7
-0 0 medium 0
+AFG PQ 10
 #3408
 oldstyle hunting horror~
 The hunting horror~
@@ -153,12 +113,7 @@ and writhing, so it is hard to look at them.  They speak in great harsh
 voices.  A hunting horror is HUGE, normally around 40 feet long.
 ~
 human~
-AF DF -1000 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand none 100
-0 0 medium 0
+AF DF 20
 #3409
 oldstyle weeds~
 some cave weeds~
@@ -167,12 +122,7 @@ Some weeds are creeping across the floor.
 Just some unpleasant looking vine-like growths ...
 ~
 human~
-ACF DPQ 0 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand none 4
-0 0 medium 0
+ACF DPQ 6
 #3410
 oldstyle snapper joe~
 Snapper Joe~
@@ -183,12 +133,7 @@ bright red hair. Half his face is burnt off and he has a perpetual smile.
 He is called up from his service in hell in order to aid the Undying One.
 ~
 human~
-AB D -750 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand male 111
-0 0 medium 0
+AB D 20
 #3411
 oldstyle X-ist eater~
 The X-ist flesh eater~
@@ -201,12 +146,7 @@ It has dog-like face except ... different.  Bright glowing eyes and a grimace
 lead you to believe that he knew that you were coming.
 ~
 human~
-ABF D -1000 0
-17 0 3d9+258 8d9+100 3d4+4 none
--3 -3 -3 7
-EFNU 0 0 0
-stand stand male 78
-0 0 medium 0
+ABF D 17
 #3412
 oldstyle spirit ghost king crotus~
 the spirit of King Crotus~
@@ -220,12 +160,7 @@ softly into the air:
     calls me but I am blocked from its quiet.
 ~
 human~
-ABR DF 350 0
-20 0 3d9+308 20d9+100 3d4+4 none
--4 -4 -4 3
-FU 0 0 0
-stand stand male 2
-0 0 medium 0
+ABR DF 20
 #3413
 oldstyle rock slug~
 the rock slug~
@@ -234,12 +169,7 @@ A rock slug is slowly creeping along, leaving a slime trail behind it.
 It is a large brownish slug.  Got any salt?  Didn't think so ...
 ~
 human~
-AC 0 0 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AC 0 3
 #3414
 oldstyle etcher~
 The mad etcher~
@@ -256,12 +186,7 @@ Would you like hot or cold tea?  Yes the weather is ...'
 And on he babbles ...
 ~
 human~
-AGR A 1000 0
-5 0 2d7+46 5d9+100 1d5+0 none
-6 6 6 8
-FU 0 0 0
-sit sit male 2
-0 0 medium 0
+AGR A 5
 #3415
 oldstyle wife ghost specter~
 The spectral etcher's wife~
@@ -274,12 +199,7 @@ insanely at you thru a broken jaw and missing teeth.  One hand of hers is
 resting on the shoulder of the etcher ... her husband.
 ~
 human~
-AB Q 1000 0
-7 0 2d6+85 3d9+100 1d8+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand female 6
-0 0 medium 0
+AB Q 7
 #3416
 oldstyle body~
 The half-decomposed body~
@@ -288,12 +208,7 @@ A half-decomposed body is lying in the corner here.
 YUK! It's ugly, disgusting ... it smells ... it also moves a bit!
 ~
 human~
-ACF 0 -350 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 4
-0 0 medium 0
+ACF 0 6
 #0
 #OBJECTS
 #3400

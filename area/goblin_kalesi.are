@@ -11,7 +11,7 @@ Maxvnum 29000
 Path 3g 2b y~
 END
 
-#MOBILES
+#NEW_MOBILES
 #29001
 goblin kralý grumm~
 grumm~
@@ -20,12 +20,7 @@ Goblin Kralý Grumm seni gördüðü için pek mutlu deðil!
 Kel, kilolu bir goblin görüyorsun fakat çokda güçlü olsa gerek.
 ~
 goblin~
-ABFHT Jb -600 0
-19 0 10d5+250 1d1+99 2d4+1 17
-4 4 4 1
-FKNPR A BQ C
-stand stand male 800
-0 0 medium 0
+ABFHT Jb 19
 #29002
 goblin þamaný~
 þaman~
@@ -35,12 +30,7 @@ sinirle bakýyor.
 Yüzü ekþi ve soluk bir goblin. Ýþine kendini çok verdiðini düþündürüyor.
 ~
 goblin~
-ABFHQ J -600 0
-15 0 5d6+150 1d1+199 2d3+2 17
-5 5 5 0
-PR A Q C
-stand stand male 90
-0 0 medium 0
+ABFHQ J 15
 #29003
 goblin büyücü~
 goblin~
@@ -51,12 +41,7 @@ MAHFETTÝN! GERÇEKTENDE çok sinirli bir þekilde sana bakýyor! Goblin
 kalesindeki diðer goblinlerden oldukça kýsa olduðunu görüyorsun.
 ~
 goblin~
-ABFHR BCDEFJVd -600 0
-15 0 5d6+150 1d1+199 1d4+1 17
-2 2 2 8
-PR A Q C
-stand stand male 100
-0 0 medium 0
+ABFHR BCDEFJVd 15
 #29004
 þampiyon goblin knarl~
 knarl~
@@ -65,12 +50,7 @@ knarl~
 Knarl sana sinsice sýrýtýyor.
 ~
 goblin~
-ABFT FJPVb -1000 0
-20 0 5d5+350 1d1+99 2d4+2 17
-5 5 5 0
-CDEFKPR A BQ C
-stand stand male 100
-0 0 medium 0
+ABFT FJPVb 20
 #29005
 goblin muhafýz~
 muhafýz goblin~
@@ -80,12 +60,7 @@ Averaj goblinlerden daha geniþ bir gobline bakýyorsun. Etrafýndaki diðer
 goblinlere kabadayýlýk ediyor.
 ~
 goblin~
-ABFT J -600 29005
-12 0 1d5+250 1d1+99 1d3+3 17
-3 3 3 0
-R A Q C
-stand stand male 100
-0 0 medium 0
+ABFT J 12
 #29006
 muhafýz goblin~
 goblin muhafýzý~
@@ -95,12 +70,7 @@ Averaj goblinlerden daha geniþ bir gobline bakýyorsun. Etrafýndaki diðer
 goblinlere kabadayýlýk ediyor.
 ~
 goblin~
-AFT J -600 29006
-13 0 1d5+240 1d1+99 1d3+1 17
-3 3 3 0
-EKR QA C 0
-stand stand male 100
-0 0 medium 0
+AFT J 13
 #29007
 goblin~
 goblin~
@@ -109,12 +79,7 @@ Goblin burada boþ boþ dolanýyor.
 Çirkin, yeþil ve iðrenç bir þekilde kokan birisi. Daha ne söylenebilirki?
 ~
 goblin~
-AFT J -600 29007
-12 0 5d12+105 1d1+99 1d3+2 17
-2 2 2 0
-R A Q C
-stand stand male 0
-0 0 small 0
+AFT J 12
 #29008
 goblin mahkum~
 goblin mahkum~
@@ -124,12 +89,7 @@ Derisinin daha mavimsi olduðunu görüyorsun, belkide baþka bir kabileye
 baðlý.
 ~
 goblin~
-AT J -600 0
-3 0 10d2+15 1d1+99 1d4+1 17
-2 2 2 0
-0 0 Q C
-6 6 1 0
-0 0 small 0
+AT J 3
 #29009
 cüzzamlý goblin~
 goblin~
@@ -138,12 +98,7 @@ Bu goblin çok hasta gözüküyor.
 Sana baðýrýyor! Bana bakma! ! Aaargh... Dýþlanmýþ cüzzamlý ve pis...
 ~
 goblin~
-ACFGS FJPQXbd 0 29009
-15 0 5d5+200 1d1+99 2d3+3 17
-3 3 3 0
-BDEFR AB Q CQ
-stand stand male 2
-0 A small 0
+ACFGS FJPQXbd 15
 #29010
 goblin~
 goblin~
@@ -152,12 +107,7 @@ Goblin burada, patates doðruyor.
 Çirkin, yeþil ve iðrenç bir þekilde kokan birisi. Daha ne söylenebilirki?
 ~
 goblin~
-ABFT J -600 29010
-14 0 10d2+230 1d1+99 2d3+1 17
-2 2 2 0
-R A Q C
-stand stand male 20
-0 0 small 0
+ABFT J 14
 #29011
 zayýf iblis~
 zayýf iblis~
@@ -166,12 +116,7 @@ Karanlýk, boynuzlu bir figür pentagramýn içinde hapsolmuþ.
 Gerçektende pentagramdan çýkmak istiyor; belkide yardým etmelisin ona?
 ~
 human~
-ABG Hb -1000 0
-20 0 1d1+399 1d1+149 5d4+5 5
--7 -7 -7 5
-CDEFIKMN AB HQ EN
-stand stand male 100
-0 0 large 0
+ABG Hb 20
 #29012
 dansöz goblin britta~
 danseden bir kýz~
@@ -180,12 +125,7 @@ Güzel diþi goblin etrafýndakileri etkilemeye çalýþýyor.
 Bu kýz gerçektende güzel, goblin olsa bile.
 ~
 goblin~
-ABFT J -600 0
-9 0 10d2+120 1d1+99 1d4+1 17
-2 2 2 0
-R A Q C
-stand stand female 100
-0 0 small 0
+ABFT J 9
 #29013
 soytarý goblin~
 soytarý goblin~
@@ -195,12 +135,7 @@ Tiksindirici bu küçük goblin seninle dalga geçmeye çalýþýyor.
 ediyorsun.
 ~
 goblin~
-AFT J -600 0
-11 0 10d2+145 1d1+99 1d4+1 17
-2 2 2 0
-0 A Q C
-stand stand male 10
-0 0 small 0
+AFT J 11
 #0
 
 

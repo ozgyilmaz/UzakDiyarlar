@@ -11,7 +11,7 @@ Maxvnum 1099
 Path k 2y~
 END
 
-#MOBILES
+#NEW_MOBILES
 #1000
 kadim peri ejderhasý~
 Bir peri ejderhasý~
@@ -21,12 +21,7 @@ It's a cute little multi-colored dragon... About 2 foot long. It
 gracefully dances around your head.
 ~
 human~
-AGR DE 500 0
-5 0 2d7+46 5d9+100 1d5+0 none
-6 6 6 8
-FU 0 0 0
-stand stand none 1
-AHMV ABCDEFGHIJK medium 0
+AGR DE 5
 #1001
 kadim grifon~
 Bir grifon~
@@ -36,12 +31,7 @@ Golden maned and black all over. It's quite a beautiful creature if not
 for the fact it is hungry and is attacking you!
 ~
 human~
-AFG 0 300 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand male 25
-AHMV ABCDEFGHIJK medium 0
+AFG 0 8
 #0
 
 

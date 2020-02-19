@@ -11,7 +11,7 @@ Maxvnum 8399
 Path 13b g 2b 2g b 3g~
 END
 
-#MOBILES
+#NEW_MOBILES
 #8301
 asura~
 bataklýk asurasý~
@@ -21,12 +21,7 @@ Bu büyük yaratýk altý ayak boyunda. Sana doðru iki kara pençesini
 kaldýrmýþ gelirken alaylý bir þekilde gülümsüyor.
 ~
 asura~
-ABCFG FJc -600 0
-16 0 3d9+233 8d9+100 2d6+4 none
--2 -2 -2 7
-DEFNR 0 BE HK
-stand rest male 500
-ABHMV ABCDEFGHIJKUV medium 0
+ABCFG FJc 16
 #8302
 asura~
 yeþil asura~
@@ -36,12 +31,7 @@ Bu büyük asura üzerinde bir kule gibi yükseliyor. Ustalýkla kullandýðý bir
 mýzraða sahip.
 ~
 asura~
-ACFG FJc -400 0
-14 0 2d10+190 7d9+100 1d12+3 none
--1 -1 -1 8
-DEFNR 0 BE HK
-stand stand male 400
-ABHMV ABCDEFGHIJKUV medium 0
+ACFG FJc 14
 #8303
 ogre~
 ogre~
@@ -50,12 +40,7 @@ Bir ogre burada, suratýna vurmak için hazýrlanýyor.
 Bu kötü yaratýk sizi parçalara ayýrabilecek kadar güçlü.
 ~
 human~
-ACFG 0 -500 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+ACFG 0 20
 #8304
 yaratýk~
 bataklýk yaratýðý~
@@ -64,12 +49,7 @@ Bataklýk yaratýðý burada geziniyor. Acýkmýþ.
 Bataklýk yaratýðý seni un ufak edebilecek yumruklara sahip.
 ~
 human~
-ACFG 0 -700 0
-24 0 5d10+500 12d9+100 2d10+6 none
--6 -6 -6 6
-EFNU 0 0 0
-stand rest none 1250
-AHMV ABCDEFGHIJK medium 0
+ACFG 0 24
 #8305
 gnol~
 gnol~
@@ -78,12 +58,7 @@ Burada bir gnole benzer yaratýk görüyorsun.
 Gnol geliþinle sevinmiþe benziyor.
 ~
 human~
-ACG DF -1000 0
-30 0 6d12+853 15d9+100 4d6+8 none
--9 -9 -9 6
-EFNU 0 0 0
-stand stand male 1250
-AHMV ABCDEFGHIJK medium 0
+ACG DF 30
 #8306
 canavar büyük~
 canavar~
@@ -93,12 +68,7 @@ Bu canavar yirmi ayak uzunluðunda görünüyor ve büyük, yeþil pençelere
 sahip.
 ~
 human~
-ACFG DF -450 0
-21 0 4d10+360 10d9+100 4d4+5 none
--5 -5 -5 7
-EFNU 0 0 0
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+ACFG DF 21
 #8307
 canavar küçük~
 canavar~
@@ -107,12 +77,7 @@ Küçük bir canavar seni görünce korkuyla siniyor.
 Bu küçük canavar senin ufak bir kýlýç hareketinle ölecek gibi görünüyor.
 ~
 human~
-ACGH P 0 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNU 0 0 0
-stand stand male 25
-AHMV ABCDEFGHIJK medium 0
+ACGH P 3
 #8308
 ýþýk perisi~
 ýþýk perisi~
@@ -122,12 +87,7 @@ Bu minik garip yaratýk gözle takip edilecek gibi deðil. Sadece havada
 dönen ýþýk topunu ve bir çift parlak gözü görebiliyorsun.
 ~
 human~
-ACGH P 0 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand none 150
-AHMV ABCDEFGHIJK medium 0
+ACGH P 10
 #8309
 anakonda yýlan~
 anakonda yýlaný~
@@ -136,12 +96,7 @@ Bir anakonda burada, sana bakarak 'iþte bir yemek daha' diyor.
 On metre boyundaki bu canavarsý yýlan oldukça aç görünüyor.
 ~
 snake~
-ACFGH PQ -100 0
-16 0 3d9+233 8d9+100 2d6+4 none
--2 -2 -2 7
-EFNR 0 L I
-stand stand male 500
-AGXYc ADEFKLQVX medium 0
+ACFGH PQ 16
 #8310
 piton yýlan~
 piton yýlaný~
@@ -150,12 +105,7 @@ Bir piton yýlaný burada, yediklerini sindiriyor.
 Gördüðün en büyük piton...
 ~
 snake~
-ACFGH PQ -100 0
-11 0 2d8+134 5d9+100 1d10+2 none
-1 1 1 8
-EFNR 0 L I
-stand stand female 0
-AGXYc ADEFKLQVX medium 0
+ACFGH PQ 11
 #8312
 cadý~
 bataklýk Cadýsý~
@@ -164,12 +114,7 @@ Bataklýk Cadýsý burada...
 Çirkin ve huzursuz... Aman dikkat...
 ~
 human~
-ACGS DF -200 0
-9 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 8
-BEFJNU 0 0 0
-stand stand female 50
-AHMV ABCDEFGHIJK medium 0
+ACGS DF 9
 #8313
 ölüm yaratýk~
 Ölüm Yaratýðý~
@@ -179,12 +124,7 @@ Bu kara görüntünün uzunluðu 13 ayak kadar. Bataklýðýn loþ ýþýðýnda
 týrpanýnýn ucu ýþýldýyor.
 ~
 human~
-ACG DF -200 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand male 700
-AHMV ABCDEFGHIJK medium 0
+ACG DF 20
 #8314
 kurt bataklýk~
 bataklýk kurtu~
@@ -194,12 +134,7 @@ Bu kurt semiz. Büyük ihtimalle senin gibi bataklýða yabancý olanlarý
 yiyerek besleniyor.
 ~
 wolf~
-ACFG Z -200 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFHNR 0 0 0
-stand stand female 0
-AGV ACDEFJKQV medium 0
+ACFG Z 8
 #8318
 çamur yýðýný~
 çamur yýðýný~
@@ -208,12 +143,7 @@ Bir çamur yýðýný sürünerek üzerine geliyor.
 Bu tuhaf çamur birikintisi sizi çok büyük bir dehþetle dolduruyor.
 ~
 human~
-ACG Q -100 0
-13 0 2d10+170 6d9+100 2d5+3 none
--1 -1 -1 8
-EFNU 0 0 0
-stand stand none 0
-AHMV ABCDEFGHIJK medium 0
+ACG Q 13
 #8319
 ork þaman~
 ork Þamaný~
@@ -223,12 +153,7 @@ Bu yaþlý orkun saçlarýnda kemiklerden yapýlmýþ bir taç görüyorsun.
 Suratýna ve ellerine garip semboller var.
 ~
 human~
-ABCDFGQ DF -100 0
-12 0 2d10+150 12d9+100 2d4+3 none
-0 0 0 7
-EIKU 0 0 0
-stand stand male 17
-AHMV ABCDEFGHIJK medium 0
+ABCDFGQ DF 12
 #8320
 dev~
 a bataklýk dev~
@@ -237,12 +162,7 @@ Bir bataklýk devi ilerinizde duruyor.
 Bu dev yaratýk yeþil çürük diþlere ve BÜYÜK bir sopaya sahip.
 ~
 giant~
-ABCDFG DF -100 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNR 0 HI JP
-stand stand male 600
-AHMV ABCDEFGHIJK medium 0
+ABCDFG DF 15
 #8321
 togrýl~
 togrýl~
@@ -251,12 +171,7 @@ Büyük bir togrýl yanýnýzda duruyor, sana köpek diþlerini gösteriyor.
 Bu ürpertici yaratýk seni bir yiyecek gibi kullanacaða benziyor.
 ~
 human~
-ABCDFG DF -100 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNU 0 0 0
-stand stand none 100
-AHMV ABCDEFGHIJK medium 0
+ABCDFG DF 12
 #0
 
 

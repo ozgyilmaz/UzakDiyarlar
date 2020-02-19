@@ -11,7 +11,7 @@ Maxvnum 6599
 Path 6d 3k d~
 END
 
-#MOBILES
+#NEW_MOBILES
 #6500
 cüce muhafýz~
 cüce muhafýz~
@@ -20,13 +20,7 @@ Bir cüce muhafýz burada.
 Muhafýz çok saðlam ve sert görünüyor.
 ~
 dwarf~
-AB D 500 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNR 0 0 0
-stand stand male 500
-0 0 medium 0
-
+AB D 20
 #6501
 cüce maden iþçi~
 cüce madenci~
@@ -35,12 +29,7 @@ Bir cüce maden iþçisi burada.
 Çok pis ve yorgun görünüyor.
 ~
 dwarf~
-AG 0 900 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNR 0 0 0
-stand stand male 175
-0 0 medium 0
+AG 0 12
 #6502
 ruh~
 bir ruh~
@@ -49,12 +38,7 @@ Bir ruh burada, hareketlerini izliyor.
 Siyah ve saydam bir ruh.
 ~
 human~
-AB DF -900 0
-29 0 20d20+778 20d20+500 5d17+8 none
--9 -9 -9 6
-EFNU 0 0 0
-stand stand male 2500
-0 0 medium 0
+AB DF 29
 #6503
 esnaf~
 esnaf~
@@ -63,12 +47,7 @@ Bir esnaf burada, sabýrla bekliyor.
 Esnaf biraz þiþman gibi ama oldukça da sert.
 ~
 human~
-AB 0 900 0
-35 0 10d10+1300 17d9+100 4d7+11 none
--11 -11 -11 5
-EFNU 0 0 0
-stand stand male 5000
-0 0 medium 0
+AB 0 35
 #6504
 fýrýncý granit kafa~
 Granit Kafa~
@@ -77,12 +56,7 @@ Fýrýncý Granit Kafa müþteri bekliyor.
 Granit Kafa'nýn üstü baþý un olmuþ.
 ~
 human~
-AB 0 900 0
-35 0 10d10+1700 17d9+100 4d7+11 none
--31 -31 -31 5
-EFNU 0 0 0
-stand stand male 50
-0 0 medium 0
+AB 0 35
 #6505
 kertenkele dev~
 dev kertenkele~
@@ -91,12 +65,7 @@ Dev bir kertenkele burada duruyor.
 Buranýn habitatýna uyum saðlamýþ görünüyor. Çok güçlü ! !
 ~
 lizard~
-AG D 100 0
-18 0 3d9+283 9d9+100 2d7+4 none
--3 -3 -3 7
-EFNR 0 0 0
-stand stand male 60
-0 0 medium 0
+AG D 18
 #6506
 dev~
 dev~
@@ -105,12 +74,7 @@ Bir dev burada.
 Boyu 8 feet kadar. Kollarý çelik gibi ve çok güçlü görünüyor.
 ~
 giant~
-AG 0 0 0
-16 0 3d9+233 8d9+100 2d6+4 none
--2 -2 -2 7
-EFNR 0 0 0
-stand stand male 100
-0 0 medium 0
+AG 0 16
 #6507
 cüce madenci~
 cüce madenci~
@@ -120,12 +84,7 @@ Bir cüce madenci burada.
 
 ~
 dwarf~
-AB 0 0 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNR 0 0 0
-stand stand male 2
-0 0 medium 0
+AB 0 8
 #6508
 cüce maden þefi~
 cüce þef~
@@ -134,12 +93,7 @@ Bir cüce maden þefi burada.
 Cüce maden þefi çok büyük ve güçlü.
 ~
 dwarf~
-AB 0 0 0
-21 0 4d10+360 10d9+100 4d4+5 none
--5 -5 -5 7
-EFNR 0 0 0
-stand stand male 1000
-0 0 medium 0
+AB 0 21
 #6509
 cüce doktor~
 cüce doktor~
@@ -148,12 +102,7 @@ Cüce doktor burada.
 Çelik gibi elleriyle tam bir cerrahi uzmaný.
 ~
 dwarf~
-AB DH 1000 0
-9 0 2d6+110 4d9+100 1d8+2 none
-2 2 2 8
-EFNR 0 0 0
-stand stand male 75
-0 0 medium 0
+AB DH 9
 #6510
 cüce düþkün~
 cüce düþkün~
@@ -161,12 +110,7 @@ Bir cüce düþkün burada, yardým bekliyor.
 ~
 ~
 dwarf~
-AB 0 500 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNR 0 0 0
-stand stand male 3
-0 0 medium 0
+AB 0 3
 #6511
 cüce~
 cüce~
@@ -174,12 +118,7 @@ Bir cüce burada, sýrýtýyor.
 ~
 ~
 dwarf~
-AB 0 500 0
-9 0 2d6+110 4d9+100 1d8+2 none
-2 2 2 8
-EFNR 0 0 0
-stand stand male 62
-0 0 medium 0
+AB 0 9
 #6512
 cüce oðlan yetim~
 yetim cüce~
@@ -187,12 +126,7 @@ Bir yetim cüce oðlaný burada. Onun için üzülüyorsun.
 ~
 ~
 dwarf~
-AG 0 250 0
-9 0 2d6+110 4d9+100 1d8+2 none
-2 2 2 8
-EFNR 0 0 0
-stand stand male 2
-0 0 medium 0
+AG 0 9
 #6513
 cüce kýz yetim~
 yetim cüce~
@@ -200,12 +134,7 @@ Bir yetim cüce kýzý burada. Onun için üzülüyorsun.
 ~
 ~
 dwarf~
-AG 0 250 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNR 0 0 0
-stand stand female 2
-0 0 medium 0
+AG 0 10
 #6514
 cüce kýþla muhafýz~
 cüce muhafýz~
@@ -213,12 +142,7 @@ Bir kýþla muhafýzý burada.
 ~
 ~
 dwarf~
-AB 0 100 0
-16 0 3d9+233 8d9+100 2d6+4 none
--2 -2 -2 7
-EFNR 0 0 0
-stand stand male 150
-0 0 medium 0
+AB 0 16
 #6515
 adam~
 adam~
@@ -226,12 +150,7 @@ Bir adam burada. Oldukça sinirli gibi. Kendinde deðil.
 ~
 ~
 human~
-AB 0 300 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand male 348
-0 0 medium 0
+AB 0 15
 #6516
 labirent korucusu~
 korucu~
@@ -240,12 +159,7 @@ Bir labirent korucusu burada.
 ÇOK sert görünüyor.
 ~
 human~
-ABF H -1000 0
-29 0 6d12+778 14d9+100 2d12+8 none
--9 -9 -9 6
-EFNU 0 0 0
-stand stand male 4000
-0 0 medium 0
+ABF H 29
 #6517
 yýlan dev~
 dev yýlan~
@@ -253,12 +167,7 @@ Dev bir yýlan burada, yutacak birini arýyor.
 ~
 ~
 snake~
-ABF 0 -1000 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNR 0 0 0
-stand stand male 150
-0 0 medium 0
+ABF 0 15
 #6518
 cüce maden iþçi~
 cüce madenci~
@@ -268,12 +177,7 @@ Bir cüce maden iþçisi burada.
 bekler gibi bir hali var.
 ~
 dwarf~
-ABG 0 0 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNR 0 0 0
-stand stand male 175
-0 0 medium 0
+ABG 0 12
 #0
 
 #OBJECTS

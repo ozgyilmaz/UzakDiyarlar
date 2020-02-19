@@ -14,7 +14,7 @@ END
 #FLAG
 A
 
-#MOBILES
+#NEW_MOBILES
 #5300
 eskitip bebek nazar~
 bebek nazar~
@@ -25,12 +25,7 @@ round body which can charm you with its cuteness.  Baby beholders are known for
 their playful personality.  Hmmm....  It looks like the baby is teething!
 ~
 human~
-ABCHR D 500 0
-5 0 2d7+46 5d9+100 1d5+0 none
-6 6 6 8
-FU 0 0 0
-stand stand none 11
-0 0 medium 0
+ABCHR D 5
 #5301
 eskitip lamia evcil hayvan~
 evcil lamia~
@@ -40,12 +35,7 @@ This is a creature with the upper torso of a beautiful woman, but the lower
 body of a four-legged beast.
 ~
 human~
-ACH 0 500 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-EFNU 0 0 0
-stand stand female 2
-0 0 medium 0
+ACH 0 4
 #5302
 eskitip vatandaþ adam~
 bir Thalos vatandaþý~
@@ -55,12 +45,7 @@ He smiles at you, almost as if he knows you.  He is so friendly, you have no
 choice but to reciprocate.
 ~
 human~
-AGH 0 500 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand male 5
-0 0 medium 0
+AGH 0 5
 #5303
 eskitip muhafýz ihtiþamlý þehirmuhafýzý~
 ihtiþamlý bir þehirmuhafýzý~
@@ -70,12 +55,7 @@ He is dressed in plate, and he looks quite formidable.  At the moment, though,
 he is just giggling with a kid running about.
 ~
 human~
-ACGT H 1000 0
-17 0 3d9+283 8d9+100 3d4+4 none
--3 -3 -3 7
-CDEIKLU 0 0 0
-stand stand male 75
-0 0 medium 0
+ACGT H 17
 #5304
 eskitip vatandaþ kadýn diþi~
 bir Thalos kadýn vatandaþý~
@@ -86,12 +66,7 @@ smiles at you, and your heart flutters at the thought that you have her
 attention, if only for a moment.
 ~
 human~
-AGH 0 500 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand female 5
-0 0 medium 0
+AGH 0 5
 #5305
 eskitip gordon koruyucu~
 Cesur Gordon~
@@ -103,12 +78,7 @@ you suspiciously not only because you are a stranger, but because you are an
 ARMED stranger.  Better not do any funny stuff in his presence.
 ~
 human~
-AT H 1000 0
-35 0 10d10+1400 17d9+100 4d7+11 none
--11 -11 -11 5
-CDEIKLU 0 0 0
-stand stand male 500
-0 0 medium 0
+AT H 35
 #5306
 eskitip rahip~
 baðnaz rahip~
@@ -120,12 +90,7 @@ listens to this fool.  The priest's right fist is covered in golden silk,
 and he clenches it at you.  Other than that, he is dressed all in black.
 ~
 human~
-ABHQ 0 -500 0
-10 0 2d7+121 10d9+100 1d7+2 none
-1 1 1 7
-EIKU 0 0 0
-stand stand male 5
-0 0 medium 0
+ABHQ 0 10
 #5307
 eskitip rahip~
 Thalos rahibi~
@@ -135,12 +100,7 @@ He stands here gloriously telling of Thalos's history, how it is now referred by
 the world as 'The City of Peace'.  He is very happy to be the high priest here.
 ~
 human~
-ABQ H 1000 0
-20 0 3d9+333 20d9+100 2d7+5 none
--4 -4 -4 6
-EIKU 0 0 0
-stand stand male 5
-0 0 medium 0
+ABQ H 20
 #5308
 eskitip golem taþ~
 taþ golem~
@@ -150,12 +110,7 @@ It is a big chunk of rock that has been magically formed into a giant
 stone creature.  It stands here guarding the city.
 ~
 golem~
-AB N 1000 0
-30 0 6d12+853 15d9+100 4d6+8 none
--9 -9 -9 6
-EFNU 0 0 0
-stand stand none 212
-0 0 medium 0
+AB N 30
 #5309
 eskitip belediye baþkaný~
 Thalos belediye baþkaný~
@@ -165,12 +120,7 @@ He looks very busy, but he takes the time to say, 'Hi!  Welcome to Thalos!'
 He looks very proud of his work.
 ~
 human~
-AB 0 800 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand female 50
-0 0 medium 0
+AB 0 20
 #5310
 eskitip dan barmen~
 Barmen Dan~
@@ -179,12 +129,7 @@ Barmen Dan, tezgahýn yanýnda oturmuþ bardak temizliyor.
 He looks at you, and says, 'What's your poison, stranger?'
 ~
 human~
-AB 0 600 0
-30 0 6d12+1253 15d9+100 4d6+8 none
--19 -19 -19 -6
-EFNU 0 0 0
-stand stand male 50
-0 0 medium 0
+AB 0 30
 #5311
 eskitip george kasap~
 Kasap George~
@@ -194,12 +139,7 @@ Looking down at you with blood splattered all over his face and apron,
 he asks, 'How much you want?'
 ~
 human~
-AB 0 600 0
-30 0 6d12+1253 15d9+100 4d6+8 none
--19 -19 -19 -6
-EFNU 0 0 0
-stand stand male 50
-0 0 medium 0
+AB 0 30
 #5312
 eskitip ciftçi betty~
 Çiftçi Betty~
@@ -208,12 +148,7 @@ eskitip ciftçi betty~
 She smiles at you meekly.
 ~
 human~
-AB 0 650 0
-30 0 6d12+1253 15d9+100 4d6+8 none
--19 -19 -19 -6
-EFNU 0 0 0
-stand stand female 50
-0 0 medium 0
+AB 0 30
 #5313
 eskitip thaellor cüce~
 cüce Thaellor~
@@ -223,12 +158,7 @@ Thaellor sweats rivers and complains about the heat as he pounds the
 metal into items of defense and destruction.
 ~
 human~
-AB 0 550 0
-30 0 6d12+1253 15d9+100 4d6+8 none
--19 -19 -19 -6
-EFNU 0 0 0
-stand stand female 50
-0 0 medium 0
+AB 0 30
 #5314
 eskitip ben demirci~
 Demirci Ben~
@@ -237,12 +167,7 @@ Demirci Ben, herkesin ilgisini çekebilecek ufak tefek metal eþyalar satýyor.
 Ben tries to pawn his various wares to you.
 ~
 human~
-AB 0 600 0
-30 0 6d12+1253 15d9+100 4d6+8 none
--19 -19 -19 -6
-EFNU 0 0 0
-stand stand male 50
-0 0 medium 0
+AB 0 30
 #5315
 eskitip kütüphaneci~
 kütüphaneci~
@@ -251,12 +176,7 @@ Kütüphaneci burada, kitaplarý düzenli bir þekilde yerleþtiriyor.
 The librarian looks busy and whispers, 'Shhh!'
 ~
 human~
-ABH 0 500 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand female 0
-0 0 medium 0
+ABH 0 8
 #5316
 eskitip öðrenci çocuk~
 genç bir öðrenci~
@@ -265,12 +185,7 @@ Genç bir öðrenci köþede sessizce çalýþýyor.
 This young scholar is studying to be a priest.
 ~
 human~
-ABH 0 500 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABH 0 6
 #5317
 eskitip büyücü~
 yaþlý bir büyücü~
@@ -279,12 +194,7 @@ Yaþlý bir büyücü tezgahta oturmuþ satýþ bekliyor.
 This old wizard almost looks like he is about to fall over and sleep.
 ~
 human~
-ABR D 550 0
-30 0 6d12+1278 30d9+100 5d4+9 none
--19 -19 -19 -1
-FU 0 0 0
-stand stand male 50
-0 0 medium 0
+ABR D 30
 #5318
 eskitip masöz kadýn~
 güzel masöz~
@@ -295,12 +205,7 @@ smiles at you, and your heart flutters at the thought that you have her
 attention, and you jump to her offer for a massage.
 ~
 human~
-ABH 0 700 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-EFNU 0 0 0
-stand stand female 2
-0 0 medium 0
+ABH 0 4
 #5319
 eskitip banyo adam~
 bir adam~
@@ -310,12 +215,7 @@ He smiles at you, almost as if he knows you.  He is so friendly, you have no
 choice but to reciprocate and join him and the others in the soothing pool.
 ~
 human~
-ABH 0 650 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABH 0 5
 #5320
 eskitip muhafýz ihtiþamlý þehirmuhafýzý~
 ihtiþamlý bir þehir muhafýzý~
@@ -326,12 +226,7 @@ he is looking at a map of Thalos aside his fellow co-workers keeping
 track of each city patrol.
 ~
 human~
-ABCGT H 1000 0
-17 0 3d9+283 8d9+100 3d4+4 none
--3 -3 -3 7
-CDEIKLU 0 0 0
-stand stand male 75
-0 0 medium 0
+ABCGT H 17
 #5321
 eskitip muhafýz þehirmuhafýzý~
 ihtiþamlý bir þehir muhafýzý~
@@ -341,12 +236,7 @@ He is dressed in plate, and he looks quite formidable.  At the moment,
 he is watching the children play with amusement.
 ~
 human~
-ABCGT H 1000 0
-17 0 3d9+283 8d9+100 3d4+4 none
--3 -3 -3 7
-CDEIKLU 0 0 0
-stand stand male 75
-0 0 medium 0
+ABCGT H 17
 #5322
 eskitip ceylan~
 bir ceylan~
@@ -356,12 +246,7 @@ This peaceful creature looks at you with big dark eyes.  Her nose twitches as
 she sniffs at you, but she goes back to chewing some grass.
 ~
 human~
-AGH 0 0 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand female 0
-0 0 medium 0
+AGH 0 5
 #5323
 eskitip geyik~
 bir geyik~
@@ -371,12 +256,7 @@ The deer looks angered at your intrusion.  He butts his head against you,
 albeit ineffectively.
 ~
 human~
-AGH 0 0 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+AGH 0 6
 #5324
 eskitip karaca~
 bir karaca~
@@ -385,12 +265,7 @@ bir karaca~
 He eyes you with contained anger.  You'd better leave him alone!
 ~
 human~
-AFGH 0 0 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+AFGH 0 8
 #5325
 eskitip tavþancýk~
 küçük bir tavþan~
@@ -399,12 +274,7 @@ Küçük bir tavþan çalýdan çalýya giriyor.
 This bunny looks so adorable, you wished you had one just like this!
 ~
 human~
-AGH 0 0 0
-2 0 2d7+21 1d9+100 1d5+0 none
-8 8 8 10
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AGH 0 2
 #5326
 eskitip yýlan~
 zararsýz bir yýlan~
@@ -413,12 +283,7 @@ Zarasýz bir yýlan otlarýn arasýnda sürünüyor.
 Upon careful inspection, you are sure it is NOT a cobra!
 ~
 snake~
-AFGH P 0 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-EFNR 0 0 0
-stand stand none 0
-0 0 medium 0
+AFGH P 4
 #5327
 eskitip papaz~
 bir papaz~
@@ -427,12 +292,7 @@ Bir papaz burada meditasyonda.
 He doesn't like you bothering him, but is too polite to ask you to leave.
 ~
 human~
-AGHQ DN 1000 0
-10 0 2d7+121 10d9+100 1d7+2 none
-1 1 1 7
-EIKU 0 0 0
-stand stand male 2
-0 0 medium 0
+AGHQ DN 10
 #5328
 eskitip rahibe~
 bir rahibe~
@@ -441,12 +301,7 @@ Bir rahibe dikkatle sana bakýyor.
 She wonders why you are staring at her, and how you got in here.
 ~
 human~
-AGHQ DN 1000 0
-10 0 2d7+121 10d9+100 1d7+2 none
-1 1 1 7
-EIKU 0 0 0
-stand stand female 2
-0 0 medium 0
+AGHQ DN 10
 #5329
 eskitip müzisyen ozan~
 Thalos'lu müzisyen~
@@ -455,12 +310,7 @@ Bir ozan Thalos'un zaferlerine dair þarký söylüyor.
 This musical fellow plays a happy song with his fellow comrades.
 ~
 human~
-ABC 0 450 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand male 5
-0 0 medium 0
+ABC 0 8
 #5330
 eskitip müzisyen ozan~
 Thalos'lu müzisyen~
@@ -469,12 +319,7 @@ Bu ozan Thalos'un zaferlerine dair þarký söylerken hoplayýp zýplýyor.
 This musical fellow wanders the world singing of the glory of Thalos.
 ~
 human~
-AC 0 550 0
-9 0 2d6+110 4d9+100 1d8+2 none
-2 2 2 8
-EFNU 0 0 0
-stand stand male 7
-0 0 medium 0
+AC 0 9
 #5331
 eskitip þehirmuhafýzý muhafýz~
 þehir muhafýzý~
@@ -483,12 +328,7 @@ Bir þehir muhafýzý burada duruyor.
 A big, strong, helpful, trustworthy guard.
 ~
 human~
-ACGT 0 1000 0
-15 0 3d9+233 7d9+100 2d6+3 none
--2 -2 -2 7
-CDEIKLU 0 0 0
-stand stand male 25
-0 0 medium 0
+ACGT 0 15
 #5332
 eskitip çöpçü~
 çöpçü~
@@ -496,12 +336,7 @@ Bir çöpçü, etrafta dolaþýp temizlik yazýyor.
 ~
 ~
 human~
-A 0 900 0
-1 0 2d6+10 0d9+100 1d4+0 none
-9 9 9 10
-EFNU 0 0 0
-stand stand male 1
-0 0 medium 0
+A 0 1
 #5333
 eskitip enik köpek~
 sevimsiz enik~
@@ -511,12 +346,7 @@ Fido is a small dog that has a foul smell and pieces of rotted meat hanging
 around his teeth.
 ~
 fido~
-AFH 0 -200 0
-0 0 2d4+2 0d1+99 1d2+0 none
-10 10 10 10
-EN 0 0 0
-stand stand male 0
-0 0 medium 0
+AFH 0 1
 #5334
 eskitip þehirmuhafýzý muhafýz~
 þehir muhafýzý~
@@ -525,12 +355,7 @@ bir þehir muhafýzý burada kapýyý koruyor.
 A big, strong, helpful, trustworthy guard.
 ~
 human~
-ABGT 0 1000 0
-15 0 3d9+233 7d9+100 2d6+3 none
--2 -2 -2 7
-CDEIKLU 0 0 0
-stand stand male 25
-0 0 medium 0
+ABGT 0 15
 #5335
 wizard~
 the wizard~
@@ -541,12 +366,7 @@ wizard. He is equipped with fine clothing, and is wearing many fine
 rings and bracelets.
 ~
 human~
-ABVe DH 900 0
-43 5 25d10+3800 1d1+1999 4d8+32 magic
--35 -35 -35 -15
-AF ABC D 0
-stand stand male 15000
-0 0 medium 0
+ABVe DH 43
 #5336
 baker~
 the baker~
@@ -556,12 +376,7 @@ A fat, nice looking baker. But you can see that he has many scars on his
 body.
 ~
 human~
-ABVe H 900 0
-60 10 20d10+18800 1d1+999 3d8+25 beating
--55 -55 -55 -35
-CDF AB CD 0
-stand stand male 500
-0 0 medium 0
+ABVe H 60
 #5337
 grocer~
 the grocer~
@@ -570,12 +385,7 @@ A grocer stands at the counter, with a slightly impatient look on his face.
 A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
 ~
 human~
-ABVe H 900 0
-55 10 25d10+18000 1d1+999 6d5+20 beating
--55 -55 -55 -15
-EFJ AB CD 0
-stand stand male 1300
-0 0 medium 0
+ABVe H 55
 #5338
 weaponsmith~
 the weaponsmith~
@@ -584,12 +394,7 @@ A weaponsmith.
 A young weaponsmith, who still has lots to learn.
 ~
 human~
-ABTVe Hh 900 0
-86 15 25d10+25000 1d1+999 6d8+20 punch
--50 -50 -50 -25
-CEIK AB CD 0
-stand stand male 25000
-0 0 medium 0
+ABTVe Hh 86
 #5339
 armourer armorer~
 the armourer~
@@ -599,12 +404,7 @@ An old but very strong armourer, he has made more armours in his
 lifetime than you have ever seen.
 ~
 human~
-ABVe 0 900 0
-65 10 25d10+23300 1d1+999 7d5+20 punch
--55 -55 -55 -15
-CEFJKN AB CD 0
-stand stand male 25000
-0 0 medium 0
+ABVe 0 65
 #5340
 jeweller~
 the jeweller~
@@ -613,12 +413,7 @@ The jeweller is standing behind the desk.
 He is fat and has a content although watchful look on his face.
 ~
 human~
-ABVe HV 900 0
-90 10 25d10+28500 1d1+999 5d15+25 slap
--55 -55 -55 -50
-AF AB CD 0
-stand stand male 58000
-0 0 huge 0
+ABVe HV 90
 #5341
 Questor~
 Questor~
@@ -629,12 +424,7 @@ He knows all the zones of realms of Anatolia. It would be a Bad Thing to
 commit a crime in his presence.
 ~
 giant~
-ABTVe CDFJVZ 1000 3000
-85 30 1d1+27999 1d1+1499 5d14+40 crush
--50 -50 -50 -50
-ACDEFHIKLNOT ABP CD 0
-stand stand male 0
-0 0 huge 0
+ABTVe CDFJVZ 85
 #5342
 healer~
 the healer~
@@ -644,12 +434,7 @@ Although retired from adventuring, the healer still lends a hand.
 Type 'heal' to see a listing of spells.
 ~
 human~
-ABQVae DFH 1000 0
-80 10 1d1+26999 1d1+999 2d4+30 divine
--45 -45 -45 -15
-FHIK ABC D 0
-stand stand male 5000
-0 0 huge 0
+ABQVae DFH 80
 #5343
 guildmaster master~
 the guildmaster~
@@ -660,12 +445,7 @@ vast amount of knowledge she possesses. She is wearing fine magic clothing,
 and you notice that she is surrounded by a blue shimmering aura.
 ~
 çora~
-ABKRVe DEFZ 1000 0
-96 0 1d1+29099 1d1+999 3d8+24 magic
--65 -65 -65 -35
-FG ABD C 0
-stand stand female 0
-0 0 medium 0
+ABKRVe DEFZ 96
 #5344
 guildmaster master~
 the guildmaster~
@@ -675,12 +455,7 @@ You are in no doubt that this guildmaster is truly close to your god; he has
 a peaceful, loving look. You notice that he is surrounded by a white aura.
 ~
 human~
-ABKQVe CDEFHZ 1000 0
-96 0 1d1+29099 1d1+999 3d8+24 divine
--65 -65 -65 -35
-EFHIK ABD C 0
-stand stand male 0
-0 0 medium 0
+ABKQVe CDEFHZ 96
 #5345
 templeman~
 the templeman~
@@ -690,14 +465,10 @@ Although very handsome , the templeman serves for IMMORTALS and GODS.
 help 'religion' to see a listing of religions available.
 ~
 human~
-ABQVe DFH 1000 0
-80 10 1d1+20999 1d1+999 2d4+30 divine
--65 -65 -65 -15
-FHIK ABC D 0
-stand stand male 5000
-0 0 huge 0
+ABQVe DFH 80
 
 #0
+
 #OBJECTS
 #5300
 tasma~

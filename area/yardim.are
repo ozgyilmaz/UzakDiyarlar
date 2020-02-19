@@ -85,16 +85,13 @@ Tüm oyunculara duyuru yapýlmasýný saðlar.
 -1 ýrklar~
 
 IRK       KISALTMA     ÝYÝ      KÖTÜ     TP    BÝLGÝ
------      -------   -------  -------   -----  -------------------
-Ýnsan       Ýnsan      Hiç      Hiç       0    ortalama ýrk
-Çora        Çora     Zek,Çev   Güç,Bün   500   iyi yönelim
+-----      -------   -------  --------  -----  -------------------
+Ýnsan       Ýnsan    Zek,Çev   Güç,Bil    0    "tanýmla", "arakla"
+Çora        Çora     Zek,Çev   Güç,Bün   500   "irfan", "kamuflaj"
 Cüce        Cüce     Bil,Bün     Çev     250   "vahþileþme"
-Naga        Naga      Bil       Zek     250   "irfan", "tanýmlama"
-Yeg         Yeg      Güç,Bün   Zek,Bil   250   "vahþileþme", "maymuncuk"
-Gamayun     Gamay    Zek,Dex   Güç,Bün   250   uçabilen canlýlar
-Börü        Börü     Güç,Bün     Çev     250   "çýplak el"
-Ciren       Ciren      Çev       Zek     250   yansýz, "kamuf", "pusu", "arakla"
-Asura       Asur     Güç,Bün   Zek,Çev   400   kem, "trans", "hýzlý iyileþme"
+Gamayun     Gamay    Zek,Çev   Güç,Bün   250   uçabilen canlýlar
+Pardus      Pard       Çev       Güç     250   "vahþileþme" ,"pusu", "arakla"
+Asura       Asur     Güç,Bün   Zek,Çev   400   "trans", "hýzlý iyileþme"
 
 Irkýnýz ne olsun (bilgi için: uzakdiyarlar.net)?~
 
@@ -144,42 +141,6 @@ yaþamayý tercih edenleri de vardýr.
 
 ~
 
--1 naga~
-
-Hint ve Budist metinlerde sýkça yer alan, en eski ve bilge ýrklardan biri
-kabul edilen Naga Sanskiritçe yýlan demektir. Genellikle yarý insan
-yarý yýlan olan Nagalara bugün bile Hindistan'da bereket getirmesi için
-tapýnýlmaktadýr. Hemen hemen her kültürde izleri vardýr.
-
-Nagalar tamamen yýlan, yýlan kafalý veya belden altý yýlan olabilir, bazý
-efsaneler onlarýn insanlardan çocuk sahibi olabildiðini anlatýr. Güçlü ve
-çekici yaratýklardýr; nehirlerin, maðaralarýn, kýymetli hazinelerin ve
-geçitlerin gizemli koruyucularý olarak görev alýrlar. Tehlikeli olsalar da
-dostluklarýný kazanmak büyük kazançlar getirir, özellikle de diþilerinin
-büyüleyici güzelliðe sahip olduðu söylenmektedir. Kötü karakterli olanlarý
-asuralar gibi yeraltýyla iliþkilendirilir ve göksel kuþ Garuda'nýn en büyük
-düþmanlarýdýr.
-
-Nagalar iki þey olabilirler: Bir kutsama veya lanet, bu sadece onlara
-kalmýþtýr. Yine de yýlan soyuna saygýda kusur etmemek gerekir, ne de olsa
-yerin içinde gizli bütün sýrlarý bilen onlardýr.
-
-~
-
--1 börü~
-
-Uzak Diyarlarýn yarý hayvan, yarý insan ýrklarýndandýr. Ýstediði zaman
-kurda dönüþebilme yeteneði olan bir ýrktýr. Genel olarak vahþi doðayý
-severler ve özgürlüklerine düþkündürler. Þehir ortamýnda normal
-insanlardan ayýrt etmek pek mümkün deðildir. Tehlike anýnda güçlü çevik
-bir kurda dönüþürler ve çevrelerine dehþet saçarlar. Dönüþtüklerinde
-hayvani içgüdülerle hareket ettikleri için tekinsizdirler. Ayrýca sahip
-olduklarý kürk nedeniyle ateþe karþý dayanýksýzdýrlar.
-Ýçgüdüsel olarak çevrelerinde olup biten þeyler konusunda (ses, koku,
-gizli kapýlar) diðer ýrklara göre farkýndalýklarý daha fazladýr.
-
-~
-
 -1 yeg~
 
 Uzak Diyarlarýn habis ruhlu ýrklarýndandýr. Yer altýnýn karanlýk
@@ -187,29 +148,13 @@ dehlizlerini mesken edinen, yer üstündekilere korku salan, zulüm
 etmekten fazlasýyla haz alan, kýsa boylu, güçlü varlýklardýr. Gün
 ýþýðýndan mümkün olduðunca uzak dururlar.Geceleri av olarak seçtikleri
 masumlara sinsi tuzaklar kurarlar. Bazen sýrf eðlence için bazen de
-açlýklarýný gidermek için öldürürler. 
+açlýklarýný gidermek için öldürürler.
 Kadim lisanda Yeg, aç gözlü, doymak bilmeyen ruh demektir ve kadimler
 bu ismi boþa vermemiþtir. Deðerli madenlere ve öldürmeye karþý doymak
 bilmeyen bir istekleri vardýr. Yer altýnda olmalarý ve deðerli
 madenlere karþý olan düþkünlükleri onlarý cüce ýrkýna karþý doðal bir
 düþman haline getirmiþtir. Tadýný çok sevdikleri için, özellikle
-cücelerin bebeklerini kaçýrdýklarýna dair söylentiler vardýr. 
-
-~
-
--1 ciren~
-
-Uzak Diyarlarýn yarý hayvan, yarý insan ýrklarýndandýr. Bir atýn gövdesine
-ve bacaklarýna sahip olan insansý varlýklardýr. Belden yukarýsý normal bir
-insandan farksýzdýr. Sahip olduklarý güçlü bacaklar ve hýzlarý onlarý
-diðer ýrklara göre daha çevik kýlar. Diðer yarý hayvan ýrklarda olduðu
-gibi vahþi doðada yaþamayý severler. Ormanlara karþý doðal bir baðlýlýklarý
-vardýr. Þehir ortamýndan, sahip olduklarý farklý dýþ görünüþleri ve
-insanlarýn aþaðýlayýcý tavýrlarý nedeniyle genelde uzak dururlar. Ýzin
-almadan bir cirene binmek ya da basit bir at muamelesi görmek cirenler
-arasýnda büyük bir saygýsýzlýk ve hakaret olarak kabul edilir ve onlarý
-en çok sinirlendiren þeylerden biridir. Bir cirenin öfkesini üstüne çekmek
-ise sadece aklý yarýmlarýn isteyeceði türden bir þeydir.
+cücelerin bebeklerini kaçýrdýklarýna dair söylentiler vardýr.
 
 ~
 
@@ -239,15 +184,15 @@ Tabi ki bazý tanrýsal güçlere sahip deðilseniz.
 Aþaðýda sýnýf listesi verilmiþtir. Daha fazla bilgi için uzakdiyarlar.net
 adresini ziyaret ediniz.
 
-SINIF       KISALTMA  GEREKEN  EXTRA
+SINIF       KISALTMA  GEREKEN   TP
 -----       --------  -------  -----
-Ermiþ         Erm      BÝL  	 0
+Ermiþ         Erm      BÝL  	   0
 Hýrsýz        Hýr      ÇEV       0
 Savaþçý       Sav      GÜÇ       0
 Korucu        Krc      GÜÇ      200
-Ninja	      Nin      ÇEV      300
-Anti-paladin  Ant      GÜÇ      300
-Paladin       Pal      GÜÇ      400
+Ninja         Nin      ÇEV      300
+Kembolar      KmB      GÜÇ      300
+Adbolar       AdB      GÜÇ      400
 Samuray       Sam      GÜÇ      500
 Vampir        Vam      ZEK      300
 Gan           Gan      ZEK       0
@@ -327,7 +272,7 @@ KANAL KULLANIM KURALLARI
 
 9- KK (Kabal Konuþ) kanalý RK içi ve RK dýþý konuþmalarýn yapýlabileceði
    bir kanaldýr.
-   
+
 10- KD (Karakter Dýþý) kanalý RK harici konuþmalar içindir. Oyuncular KD
    kanalý kullanýlarak yapýlan RK dialoglarýný ciddiye almak zorunda
    deðildirler.
@@ -364,7 +309,7 @@ KABAL KURALLARI
 10- Kaballarýndan atýlan ya da ayrýlan karakterler, Yeniyaþam hakký kazanmýþ
     olsalar bile hiçbir surette herhangi bir kabala giremezler.
 
-11- Yeniyaþam hakkýný kullanmýþ kabal üyeleri, yeni yaþamlarýnda herhangi 
+11- Yeniyaþam hakkýný kullanmýþ kabal üyeleri, yeni yaþamlarýnda herhangi
     baþka bir kabalýn üyesi olamazlar.
 
 12- Bir oyuncunun yalnýzca bir karakteri, herhangi bir kabalýn üyesi veya
@@ -425,11 +370,11 @@ BAÐLANTI KURALLARI
 
 4- Bir oyuncu bir baþka oyuncunun 3.maddede belirtilen fiilleri
    gerçekleþtirmesine (herhangi bir þekilde) yardýmcý olamaz.
-   
+
 
 GENEL KURALLAR
 
-1- Oyun içinde ortaya çýkan hatalar (herhangi birine) fayda saðlayýcý 
+1- Oyun içinde ortaya çýkan hatalar (herhangi birine) fayda saðlayýcý
    þekilde kullanýlamaz.
 
 2- Tespit edilen hatalar ölümsüzlere bildirilmek zorundadýr.
@@ -1068,7 +1013,7 @@ Kullaným-1: sat eþya
 
 komut girildiðinde aþaðýdaki liste karþýnýza gelir.
 
-gülümse     kahkaha     aðla        þarký       tokat       elsalla     
+gülümse     kahkaha     aðla        þarký       tokat       elsalla
 esne        zýpla       elöp        kafaat      bekle       volta
 
 þimdilik bununla sýnýrlý olup ileride daha çok sosyal komutu eklenecektir.

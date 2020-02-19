@@ -17,7 +17,7 @@ Converted to standard Envy 1.x by Jason Huang (god@sure.net)
 Further conversion to Rom 2.4 by Jaceks and Chicken's Den Staff~
 0 $~
 
-#MOBILES
+#NEW_MOBILES
 #13400
 lich gardiyan~
 Gardiyan Lich~
@@ -27,12 +27,7 @@ The Guardian lich looks like a decaying corpse, with small glowing points of
 light for eyes.
 ~
 human~
-ABCF BJQT -1000 0
-43 0 25d10+2750 329d1+100 8d4+15 slash
--15 -15 -15 5
-BCDEH AB T K
-stand stand male 4200
-0 0 medium 0
+ABCF BJQT 43
 #13401
 vampir asistan~
 laboratuvar asistaný vampir~
@@ -43,12 +38,7 @@ of magic, and his rather nasty disposition.  He revels in creating loathesome,
 twisted, warped creatures to serve Ciquala.
 ~
 human~
-ABCFH DFJ -1000 13401
-40 0 15d10+1850 219d1+100 4d8+13 beating
--13 -13 -13 4
-BCDEH AB T K
-stand stand male 1200
-0 0 medium 0
+ABCFH DFJ 40
 #13402
 saptýrýlmýþ yaratýk kabus~
 saptýrýlmýþ bir kabus~
@@ -59,12 +49,7 @@ covered with scales, and others with hair.  It's head has 1 large bulbous eye,
 much like that of an insect.  Long talons reach out for you to shred you alive.
 ~
 human~
-AFGH DFT -1000 0
-50 0 50d10+4500 399d1+100 5d8+19 beating
--20 -20 -20 2
-BCDEH AB T K
-stand stand male 5800
-0 0 medium 0
+AFGH DFT 50
 #13403
 itaatkar yaratýk~
 itaatkar bir yaratýk~
@@ -74,12 +59,7 @@ The creature would probably not hurt a fly.  Actually, it is unaware of its own
 existence.
 ~
 human~
-AB HNO -1000 0
-45 0 25d10+3000 349d1+100 8d4+16 pierce
--15 -15 -15 5
-HO BEJ PS K
-stand stand either 5199
-0 0 medium 0
+AB HNO 45
 #13404
 siyah krema küfesi~
 siyah krema~
@@ -89,12 +69,7 @@ As you examine this crate, a black tarlike substance seeps between the boards
 slowly eating the wood away.  It is a black pudding!
 ~
 human~
-ABF 0 -1000 0
-47 0 25d10+3500 369d1+100 6d6+17 slash
--17 -17 -17 3
-BEF ABI 0 K
-stand stand either 0
-0 0 medium 0
+ABF 0 47
 #13405
 devasa mekanizma~
 devasa bir mekanizma~
@@ -104,12 +79,7 @@ This gigantic construct is made of a metallic substance that you do not
 recognize.  He stands about 8' tall, brushing the ceiling.
 ~
 human~
-AB H 0 0
-59 0 50d10+7600 499d1+100 8d6+25 beating
--30 -30 -30 0
-BEF ABI 0 K
-stand stand male 0
-0 0 medium 0
+AB H 59
 #13406
 hortlak gardiyan~
 hortlak gardiyan~
@@ -119,12 +89,7 @@ This creature is a hovering dark shape.  It does not seem to have a body so
 to speak.  As it approaches you, a harsh chill makes you shiver.
 ~
 human~
-ABF BDT -1000 0
-55 0 50d10+6000 449d1+100 6d8+21 beating
--25 -25 -25 1
-BEF ABI 0 K
-stand stand male 7500
-0 0 medium 0
+ABF BDT 55
 #13407
 çatý tavandaki tepedeki yukarýdaki pusucu~
 tavandaki pusucu~
@@ -135,12 +100,7 @@ that it isn't a ceiling, but a LURKER ABOVE!  You had better attack before
 it drops on you!
 ~
 human~
-ABFH 0 -1000 0
-37 0 10d10+1500 269d1+100 3d10+12 pierce
--12 -12 -12 4
-BCDEH AB T K
-stand stand male 0
-0 0 medium 0
+ABFH 0 37
 #13408
 vampir hizmetçi~
 bir vampir hizmetçi~
@@ -151,12 +111,7 @@ enough time at night to feed properly.  He is VERY happy that you walked in
 on him.
 ~
 human~
-ABF BDFH -1000 0
-47 0 25d10+3500 369d1+100 6d6+17 bash
--17 -17 -17 2
-BEF AB 0 K
-stand stand male 5300
-0 0 medium 0
+ABF BDFH 47
 #13409
 insan mekanizmasý~
 insan mekanizmasý~
@@ -167,12 +122,7 @@ to a dull grey substance.  The automaton is very strong, and will be a fierce
 opponent.
 ~
 human~
-ABF NO -1000 0
-42 0 25d10+2250 299d1+100 3d12+14 beating
--14 -14 -14 4
-BEF AB 0 K
-stand stand male 3400
-0 0 medium 0
+ABF NO 42
 #13410
 insan mekanizmasý~
 insan mekanizmasý~
@@ -183,12 +133,7 @@ to a dull grey substance.  The automaton is very strong, and will be a fierce
 opponent.
 ~
 human~
-AB NO -250 0
-43 0 25d10+2500 329d1+100 3d12+15 beating
--15 -15 -15 4
-BEF AB 0 K
-stand stand male 0
-0 0 medium 0
+AB NO 43
 #13411
 insan mekanizmasý~
 insan mekanizmasý~
@@ -199,12 +144,7 @@ to a dull grey substance.  The automaton is very strong, and will be a fierce
 opponent.
 ~
 human~
-ABF NO 250 0
-46 0 25d10+3250 359d1+100 6d6+16 beating
--16 -16 -16 4
-BEF AB 0 K
-stand stand male 0
-0 0 medium 0
+ABF NO 46
 #13412
 insan mekanizmasý~
 insan mekanizmasý~
@@ -215,12 +155,7 @@ to a dull grey substance.  The automaton is very strong, and will be a fierce
 opponent.
 ~
 human~
-ABF NO 1000 0
-49 0 50d10+4000 389d1+100 4d10+18 beating
--20 -20 -20 2
-BEF AB 0 K
-stand stand male 0
-0 0 medium 0
+ABF NO 49
 #13413
 iþkenceci lich~
 iþkenceci lich~
@@ -229,12 +164,7 @@ Kapkara bir yaratýk burada durmuþ, gaddarca sana acý çektirmek için bekliyor.
 You'd better not look to close, he may charm you.
 ~
 human~
-ABF HJ -1000 0
-51 0 50d10+4800 409d1+100 5d8+20 pierce
--22 -22 -22 2
-B AB 0 K
-stand stand male 7500
-0 0 medium 0
+ABF HJ 51
 #13414
 hortlak ejderha~
 Ciquala'nýn Hortlak Ejderhasý~
@@ -243,12 +173,7 @@ Ciquala'nýn hortlak ejderhasý burada, taze bir cesedi emmekle meþgul.
 This skeletal dragon is an ancient red dragon preserved through arcane magic.
 ~
 dragon~
-ABF DFHJ -1000 0
-60 0 50d10+7600 499d1+100 6d8+24 beating
--30 -30 -30 -10
-B AB 0 K
-stand stand female 9500
-0 0 medium 0
+ABF DFHJ 60
 #13415
 Ciquala lich~
 Lich Ciquala~
@@ -259,12 +184,7 @@ Ciquala still looks majestic after all these thousands of years.  But you can
 see the menace in her eye as she looks at you, and prepares her first spell.
 ~
 human~
-ABF DFHJT -1000 0
-62 0 50d15+10000 519d1+100 6d9+29 pierce
--35 -35 -35 -1
-BCDEH AB T K
-stand stand female 10000
-0 0 medium 0
+ABF DFHJT 62
 #13416
 lich~
 Lich~
@@ -274,12 +194,7 @@ The Lich looks like a decaying corpse, with small glowing points of
 light for eyes.
 ~
 human~
-ABCF BD -1000 0
-47 0 25d10+3500 369d1+100 6d6+17 slash
--17 -17 -17 1
-B AB 0 K
-stand stand male 6500
-0 0 medium 0
+ABCF BD 47
 #13417
 vampir~
 vampir~
@@ -289,12 +204,7 @@ The vampire looks incredibly strong.  He is wearing musty clothes, and has
 large fangs that seem to grow longer as he looks back at you.
 ~
 human~
-ABCF BDT -1000 0
-57 0 50d10+6800 469d1+100 6d8+24 slash
--27 -27 -27 1
-B AB 0 K
-stand stand male 7800
-0 0 medium 0
+ABCF BDT 57
 #13418
 vampir asistan~
 laboratuvar asistaný vampir~
@@ -305,12 +215,7 @@ of magic, and his rather nasty disposition.  She revels in creating loathesome,
 twisted, warped creatures to serve Ciquala.
 ~
 human~
-ABCFH DFJ -1000 13401
-32 0 10d10+1000 219d1+100 6d4+9 beating
--10 -10 -10 5
-BCDEH AB T K
-stand stand female 1200
-0 0 medium 0
+ABCFH DFJ 32
 #0
 
 

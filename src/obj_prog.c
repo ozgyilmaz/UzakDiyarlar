@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+ 
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT		           *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -67,23 +79,10 @@ DECLARE_OPROG_FUN_SPEECH( speech_prog_kassandra );
 DECLARE_OPROG_FUN_FIGHT( fight_prog_chaos_blade );
 DECLARE_OPROG_FUN_DEATH( death_prog_chaos_blade );
 
-DECLARE_OPROG_FUN_FIGHT( fight_prog_tattoo_apollon );
-DECLARE_OPROG_FUN_FIGHT( fight_prog_tattoo_zeus );
-DECLARE_OPROG_FUN_FIGHT( fight_prog_tattoo_siebele );
-DECLARE_OPROG_FUN_FIGHT( fight_prog_tattoo_ahrumazda );
-DECLARE_OPROG_FUN_FIGHT( fight_prog_tattoo_hephaestus );
-DECLARE_OPROG_FUN_FIGHT( fight_prog_tattoo_ehrumen );
-DECLARE_OPROG_FUN_FIGHT( fight_prog_tattoo_venus );
-DECLARE_OPROG_FUN_FIGHT( fight_prog_tattoo_deimos );
-DECLARE_OPROG_FUN_FIGHT( fight_prog_tattoo_odin );
-DECLARE_OPROG_FUN_FIGHT( fight_prog_tattoo_phobos );
-DECLARE_OPROG_FUN_FIGHT( fight_prog_tattoo_mars );
-DECLARE_OPROG_FUN_FIGHT( fight_prog_tattoo_athena );
-DECLARE_OPROG_FUN_FIGHT(fight_prog_tattoo_prometheus);
-DECLARE_OPROG_FUN_FIGHT(fight_prog_tattoo_goktengri);
-DECLARE_OPROG_FUN_FIGHT( fight_prog_tattoo_hera);
-DECLARE_OPROG_FUN_FIGHT( fight_prog_tattoo_ares);
-DECLARE_OPROG_FUN_FIGHT( fight_prog_tattoo_eros);
+DECLARE_OPROG_FUN_FIGHT( fight_prog_tattoo_kame );
+DECLARE_OPROG_FUN_FIGHT( fight_prog_tattoo_nir );
+DECLARE_OPROG_FUN_FIGHT( fight_prog_tattoo_nyah );
+DECLARE_OPROG_FUN_FIGHT( fight_prog_tattoo_sint );
 
 DECLARE_OPROG_FUN_FIGHT( fight_prog_golden_weapon );
 DECLARE_OPROG_FUN_DEATH( death_prog_golden_weapon );
@@ -399,38 +398,18 @@ void oprog_set(OBJ_INDEX_DATA *objindex,const char *progtype, const char *name)
 	 objindex->oprogs->fight_prog = fight_prog_sub_weapon;
        else if (!str_cmp(name, "fight_prog_chaos_blade"))
 	 objindex->oprogs->fight_prog = fight_prog_chaos_blade;
-       else if (!str_cmp(name, "fight_prog_tattoo_apollon"))
-	 objindex->oprogs->fight_prog = fight_prog_tattoo_apollon;
-       else if (!str_cmp(name, "fight_prog_tattoo_zeus"))
-	 objindex->oprogs->fight_prog = fight_prog_tattoo_zeus;
-       else if (!str_cmp(name, "fight_prog_tattoo_siebele"))
-	 objindex->oprogs->fight_prog = fight_prog_tattoo_siebele;
-       else if (!str_cmp(name, "fight_prog_tattoo_ahrumazda"))
-         objindex->oprogs->fight_prog = fight_prog_tattoo_ahrumazda;
-       else if (!str_cmp(name, "fight_prog_tattoo_hephaestus"))
-	 objindex->oprogs->fight_prog = fight_prog_tattoo_hephaestus;
-       else if (!str_cmp(name, "fight_prog_tattoo_ehrumen"))
-	 objindex->oprogs->fight_prog = fight_prog_tattoo_ehrumen;
-       else if (!str_cmp(name, "fight_prog_tattoo_venus"))
-	 objindex->oprogs->fight_prog = fight_prog_tattoo_venus;
-       else if (!str_cmp(name, "fight_prog_tattoo_deimos"))
-	 objindex->oprogs->fight_prog = fight_prog_tattoo_deimos;
-       else if (!str_cmp(name, "fight_prog_tattoo_odin"))
-	 objindex->oprogs->fight_prog = fight_prog_tattoo_odin;
-       else if (!str_cmp(name, "fight_prog_tattoo_phobos"))
-	 objindex->oprogs->fight_prog = fight_prog_tattoo_phobos;
-       else if (!str_cmp(name, "fight_prog_tattoo_mars"))
-	 objindex->oprogs->fight_prog = fight_prog_tattoo_mars;
-       else if (!str_cmp(name, "fight_prog_tattoo_athena"))
-	 objindex->oprogs->fight_prog = fight_prog_tattoo_athena;
+       else if (!str_cmp(name, "fight_prog_tattoo_kame"))
+	 objindex->oprogs->fight_prog = fight_prog_tattoo_kame;
+       else if (!str_cmp(name, "fight_prog_tattoo_nir"))
+	 objindex->oprogs->fight_prog = fight_prog_tattoo_nir;
+       else if (!str_cmp(name, "fight_prog_tattoo_nyah"))
+	 objindex->oprogs->fight_prog = fight_prog_tattoo_nyah;
+       else if (!str_cmp(name, "fight_prog_tattoo_sint"))
+   objindex->oprogs->fight_prog = fight_prog_tattoo_sint;
        else if (!str_cmp(name, "fight_prog_golden_weapon"))
 	 objindex->oprogs->fight_prog = fight_prog_golden_weapon;
        else if (!str_cmp(name, "fight_prog_snake"))
 	 objindex->oprogs->fight_prog = fight_prog_snake;
-       else if (!str_cmp(name, "fight_prog_tattoo_prometheus"))
-	 objindex->oprogs->fight_prog = fight_prog_tattoo_prometheus;
-       else if (!str_cmp(name, "fight_prog_tattoo_goktengri"))
-	 objindex->oprogs->fight_prog = fight_prog_tattoo_goktengri;
        else if (!str_cmp(name, "fight_prog_shockwave"))
 	 objindex->oprogs->fight_prog = fight_prog_shockwave;
        else if (!str_cmp(name, "fight_prog_firegauntlets"))
@@ -445,12 +424,6 @@ void oprog_set(OBJ_INDEX_DATA *objindex,const char *progtype, const char *name)
 	 objindex->oprogs->fight_prog = fight_prog_rose_shield;
        else if (!str_cmp(name, "fight_prog_lion_claw"))
 	 objindex->oprogs->fight_prog = fight_prog_lion_claw;
-       else if (!str_cmp(name, "fight_prog_tattoo_hera"))
-	 objindex->oprogs->fight_prog = fight_prog_tattoo_hera;
-       else if (!str_cmp(name, "fight_prog_tattoo_ares"))
-	 objindex->oprogs->fight_prog = fight_prog_tattoo_ares;
-       else if (!str_cmp(name, "fight_prog_tattoo_eros"))
-	 objindex->oprogs->fight_prog = fight_prog_tattoo_eros;
        else if (!str_cmp(name, "fight_prog_ancient_gloves"))
 	 objindex->oprogs->fight_prog = fight_prog_ancient_gloves;
        else if (!str_cmp(name, "fight_prog_ancient_shield"))
@@ -870,7 +843,7 @@ bool death_prog_chaos_blade(OBJ_DATA *obj, CHAR_DATA *ch)
   return FALSE;
 }
 
-void fight_prog_tattoo_apollon(OBJ_DATA *obj, CHAR_DATA *ch)
+void fight_prog_tattoo_kame(OBJ_DATA *obj, CHAR_DATA *ch)
 {
   int sn;
 
@@ -893,7 +866,7 @@ void fight_prog_tattoo_apollon(OBJ_DATA *obj, CHAR_DATA *ch)
 }
 
 
-void fight_prog_tattoo_zeus(OBJ_DATA *obj, CHAR_DATA *ch)
+void fight_prog_tattoo_nir(OBJ_DATA *obj, CHAR_DATA *ch)
 {
   if (get_eq_char(ch, WEAR_TATTOO) == obj)
     switch(number_bits(6)) {
@@ -915,7 +888,7 @@ void fight_prog_tattoo_zeus(OBJ_DATA *obj, CHAR_DATA *ch)
     }
 }
 
-void fight_prog_tattoo_siebele(OBJ_DATA *obj, CHAR_DATA *ch)
+void fight_prog_tattoo_nyah(OBJ_DATA *obj, CHAR_DATA *ch)
 {
   if (get_eq_char(ch, WEAR_TATTOO) == obj)
     switch(number_bits(6)) {
@@ -932,7 +905,7 @@ void fight_prog_tattoo_siebele(OBJ_DATA *obj, CHAR_DATA *ch)
     }
 }
 
-void fight_prog_tattoo_ahrumazda(OBJ_DATA *obj, CHAR_DATA *ch)
+void fight_prog_tattoo_sint(OBJ_DATA *obj, CHAR_DATA *ch)
 {
   if (get_eq_char(ch, WEAR_TATTOO) == obj)
     switch(number_bits(6)) {
@@ -948,285 +921,6 @@ void fight_prog_tattoo_ahrumazda(OBJ_DATA *obj, CHAR_DATA *ch)
       break;
     }
 }
-
- void fight_prog_tattoo_hephaestus(OBJ_DATA *obj, CHAR_DATA *ch)
-{
-  if (get_eq_char(ch, WEAR_TATTOO) == obj)
-    switch(number_bits(6)) {
-    case 0:
-    case 1:
-      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
-      obj_cast_spell(gsn_cure_serious, ch->level, ch, ch, obj);
-      break;
-    case 2:
-      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
-      do_yell(ch,(char*)"And justice for all!....");
-      spell_scream(gsn_scream,ch->level,ch,ch->fighting,TARGET_CHAR);
-      break;
-    }
-}
-
-void fight_prog_tattoo_ehrumen(OBJ_DATA *obj, CHAR_DATA *ch)
-{
-  if (get_eq_char(ch, WEAR_TATTOO) == obj)
-    switch(number_bits(6)) {
-    case 0:
-      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
-      obj_cast_spell(gsn_cure_light, ch->level, ch, ch->fighting, obj);
-      break;
-    case 1:
-      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
-      obj_cast_spell(gsn_cure_serious, ch->level, ch, ch, obj);
-      break;
-    case 2:
-      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
-      spell_dispel_evil(gsn_dispel_evil, ch->level, ch, ch->fighting,TARGET_CHAR);
-      break;
-    }
-}
-
-void fight_prog_tattoo_venus(OBJ_DATA *obj, CHAR_DATA *ch)
-{
-  if (get_eq_char(ch, WEAR_TATTOO) == obj)
-    switch(number_bits(7)) {
-    case 0:
-    case 1:
-    case 2:
-      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
-      obj_cast_spell(gsn_cure_light, ch->level, ch, ch, obj);
-      break;
-    case 3:
-      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
-      obj_cast_spell(gsn_plague, ch->level, ch, ch->fighting, obj);
-      break;
-    case 4:
-      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
-      obj_cast_spell(gsn_bless, ch->level, ch, ch, obj);
-      break;
-    }
-}
-
-void fight_prog_tattoo_ares(OBJ_DATA *obj, CHAR_DATA *ch)
-{
-  if (get_eq_char(ch, WEAR_TATTOO) == obj)
-    switch(number_bits(5)) {
-    case 0:
-      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
-      obj_cast_spell(gsn_dragon_strength, ch->level, ch, ch, obj);
-      break;
-    case 1:
-      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
-      obj_cast_spell(gsn_dragon_breath, ch->level, ch, ch->fighting, obj);
-      break;
-    }
-}
-
-
-void fight_prog_tattoo_odin(OBJ_DATA *obj, CHAR_DATA *ch)
-{
-  if (get_eq_char(ch, WEAR_TATTOO) == obj)
-    switch(number_bits(5)) {
-    case 0:
-      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
-      obj_cast_spell(gsn_cure_critical, ch->level, ch, ch, obj);
-      break;
-    case 1:
-      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
-      obj_cast_spell(gsn_faerie_fire, ch->level, ch, ch->fighting, obj);
-      break;
-    }
-}
-
-void fight_prog_tattoo_phobos(OBJ_DATA *obj, CHAR_DATA *ch)
-{
-  int sn;
-
-  if (get_eq_char(ch, WEAR_TATTOO) == obj)
-    switch(number_bits(6)) {
-    case 0:
-      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
-      obj_cast_spell(gsn_cure_serious, ch->level, ch, ch, obj);
-      break;
-    case 1:
-      if ((sn = skill_lookup("colour spray")) < 0) break;
-      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
-      obj_cast_spell(sn, ch->level, ch, ch->fighting, obj);
-      break;
-    }
-}
-
-void fight_prog_tattoo_mars(OBJ_DATA *obj, CHAR_DATA *ch)
-{
-  if (get_eq_char(ch, WEAR_TATTOO) == obj)
-    switch(number_bits(7)) {
-    case 0:
-      obj_cast_spell(gsn_blindness, ch->level, ch, ch->fighting, obj);
-      send_to_char("Bir kargaþa bulutu yaratýyorsun!\n\r", ch);
-      break;
-    case 1:
-      obj_cast_spell(gsn_poison, ch->level, ch, ch->fighting, obj);
-      send_to_char("Deliliðinin bir kýsmý rakibine geçiyor.\n\r", ch);
-      break;
-    case 2:
-      obj_cast_spell(gsn_haste, ch->level, ch, ch, obj);
-      send_to_char( "Birden hiperaktifleþiyorsun!\n\r", ch);
-      break;
-    case 3:
-      obj_cast_spell(gsn_shield, ch->level, ch, ch, obj);
-      send_to_char( "Paranoyaklaþýyorsun!\n\r", ch);
-      break;
-    }
-}
-
-void fight_prog_tattoo_athena(OBJ_DATA *obj, CHAR_DATA *ch)
-{
-  AFFECT_DATA af;
-
-  if(get_eq_char(ch, WEAR_TATTOO) == obj)
-    {
-    if (number_percent() < 50)
-      {
-	switch(number_bits(4)) {
-	case 0:
-	  if (IS_AFFECTED(ch,AFF_BERSERK) || is_affected(ch,gsn_berserk)
-	      ||  is_affected(ch,skill_lookup("frenzy")))
-	    {
-        send_to_char("Biraz delirdin.\n\r",ch);
-	      return;
-	    }
-
-	  af.where = TO_AFFECTS;
-	  af.type = gsn_berserk;
-	  af.level = ch->level;
-	  af.duration = ch->level / 3;
-	  af.modifier = ch->level / 5;
-	  af.bitvector = AFF_BERSERK;
-
-	  af.location = APPLY_HITROLL;
-	  affect_to_char(ch, &af);
-
-	  af.location = APPLY_DAMROLL;
-	  affect_to_char(ch, &af);
-
-	  af.modifier = 10 * (ch->level / 10);
-	  af.location = APPLY_AC;
-	  affect_to_char(ch, &af);
-
-	  ch->hit += ch->level * 2;
-	  ch->hit = UMIN(ch->hit,ch->max_hit);
-
-    send_to_char("Öfkeyle doldukça nabzýn hýzlanýyor!\n\r",ch);
-	  act("$s gözlerine vahþi bir bakýþ geliyor.",ch,NULL,NULL,TO_ROOM);
-
-	  break;
-	}
-      }
-    else
-      {
-	switch(number_bits(4)) {
-	case 0:
-  do_yell(ch, (char*)"Yýkým iste ki savaþýn köpekleri serbest kalsýn!");
-  break;
-case 1:
-  do_yell(ch, (char*)"Af yok!");
-  break;
-case 2:
-  do_yell(ch, (char*)"Los Valdar Cuebiyari!");
-  break;
-case 3:
-  do_yell(ch, (char*)"Carai an Caldazar! Carai an Ellisande! Al Ellisande!");
-  break;
-case 4:
-  do_yell(ch, (char*)"Siempre Vive el Riesgo!");
-	  break;
-	}
-      }
-    }
-}
-
-
-void fight_prog_tattoo_hera( OBJ_DATA *obj, CHAR_DATA *ch)
-{
-  if (get_eq_char(ch, WEAR_TATTOO) == obj)
-    switch(number_bits(5)) {
-    case 0:
-      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
-      obj_cast_spell(gsn_plague, ch->level, ch, ch->fighting, obj);
-      break;
-    case 1:
-      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
-      obj_cast_spell(gsn_poison, ch->level, ch, ch->fighting, obj);
-    case 2:
-      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
-      obj_cast_spell(gsn_weaken, ch->level, ch, ch->fighting, obj);
-    case 3:
-      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
-      obj_cast_spell(gsn_slow, ch->level, ch, ch->fighting, obj);
-      break;
-    }
-}
-
-
-void fight_prog_tattoo_deimos(OBJ_DATA *obj, CHAR_DATA *ch)
-{
-  int sn;
-  if (get_eq_char(ch, WEAR_TATTOO) == obj)
-    switch(number_bits(6)) {
-    case 0:
-    case 1:
-      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
-      obj_cast_spell(gsn_cure_serious, ch->level, ch, ch, obj);
-      break;
-    case 2:
-      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
-      sn = skill_lookup("web");
-      spell_web(sn, ch->level, ch, ch->fighting,TARGET_CHAR);
-      break;
-    }
-}
-
-
-void fight_prog_tattoo_eros(OBJ_DATA *obj, CHAR_DATA *ch)
-{
-  int sn;
-  if (get_eq_char(ch, WEAR_TATTOO) == obj)
-    switch(number_bits(5)) {
-    case 0:
-    case 1:
-      if ((sn = skill_lookup("heal")) < 0) break;
-      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
-      obj_cast_spell(sn, ch->level, ch, ch, obj);
-      break;
-    case 2:
-      if ((sn = skill_lookup("mass healing")) < 0) break;
-      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
-      obj_cast_spell(sn, ch->level, ch, ch, obj);
-      break;
-    }
-}
-
 
 bool death_prog_golden_weapon(OBJ_DATA *obj, CHAR_DATA *ch)
 {
@@ -1300,29 +994,6 @@ void fight_prog_snake(OBJ_DATA *obj, CHAR_DATA *ch)
 	obj_cast_spell(gsn_weaken, ch->level, ch, ch->fighting, obj);
 	break;
       }
-    }
-}
-
-void fight_prog_tattoo_prometheus(OBJ_DATA *obj, CHAR_DATA *ch)
-{
-  if (get_eq_char(ch, WEAR_TATTOO) == obj)
-    switch(number_bits(5)) {
-    case 0:
-      act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
-      obj_cast_spell(gsn_cure_critical, ch->level, ch, ch, obj);
-      break;
-    case 1:
-    case 2:
-      act_color("$COmzundaki dövme kýzýl renkte parlýyor.$c",
-		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_RED);
-      if (IS_EVIL(ch->fighting))
-      spell_dispel_evil(gsn_dispel_evil,(int)(1.2* (float)ch->level), ch, ch->fighting,TARGET_CHAR);
-      else if (IS_GOOD(ch->fighting))
-      spell_dispel_good(gsn_dispel_good,(int)(1.2* (float)ch->level), ch, ch->fighting,TARGET_CHAR);
-      else
-      spell_lightning_bolt(64, (int)(1.2* (float)ch->level), ch, ch->fighting, TARGET_CHAR);
-      break;
     }
 }
 
@@ -1773,20 +1444,6 @@ void wear_prog_katana_sword(OBJ_DATA *obj, CHAR_DATA *ch)
    send_to_char("Katananýn senin bir parçan olduðunu hissediyorsun!\n\r",ch);
   }
   return;
-}
-
-void fight_prog_tattoo_goktengri(OBJ_DATA *obj, CHAR_DATA *ch)
-{
-  if (get_eq_char(ch, WEAR_TATTOO) == obj)
-    switch(number_bits(4)) {
-    case 0:
-    case 1:
-    act_color("$COmzundaki dövme beyaz renkte parlýyor.$c",
-     ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_WHITE);
-    do_say(ch,(char*)"Onurum hayatýmdýr.");
-      one_hit(ch,ch->fighting,TYPE_UNDEFINED,FALSE);
-      break;
-    }
 }
 
 

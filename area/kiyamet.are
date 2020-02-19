@@ -11,8 +11,7 @@ Maxvnum 14199
 Path 34d k 4d 2g 3d k d k 5d g 2d~
 END
 
-
-#MOBILES
+#NEW_MOBILES
 #14001
 dev çekirge~
 dev çekirge~
@@ -24,12 +23,7 @@ his breastplate of iron with its wings. Its long body
 ends in a scorpion stinger.
 ~
 unique~
-AFT DFJ -1000 0
-91 0 90d20+19000 91d10+9500 10d15+61 bite
--63 -63 -63 -26
-FIKW B M NS
-stand stand none 900
-AGHNO ACDEFHKQV large 0
+AFT DFJ 91
 #14002
 abadon kral melek~
 Abadon~
@@ -41,13 +35,8 @@ He promises you great power and position in the world to
 come. His appearance is to your liking, whatever that may be,
 and you find his voice pleasant and reasonable.
 ~
-angel~
-ABT ABITX -1000 0
-95 0 90d20+23000 91d10+9500 16d10+65 crush
--66 -66 -66 -28
-FV BN HIM MN
-stand stand male 900
-AHMVXd ABCDEFGHIJKP medium 0
+aarakocra~
+ABT ABITX 95
 #14003
 bebekyüz fahiþe kadýn~
 Bebekyüz~
@@ -59,12 +48,7 @@ MYSTERY BABYLON THE GREAT. THE MOTHER
 OF HARLOTS AND ABOMINATIONS OF THE EARTH.
 ~
 human~
-AHQ c -1000 0
-88 0 90d20+17500 91d10+9500 12d11+57 blast
--60 -60 -60 -25
-FN 0 0 0
-stand stand female 900
-AHMV ABCDEFGHIJK medium 0
+AHQ c 88
 #14004
 su melek~
 su meleði~
@@ -73,13 +57,8 @@ Bir melek sularý iþliyor.
 The angel looks you over and tells you that you are too late.
 He has already cast the second vial of wrath into the sea.
 ~
-angel~
-ABT BNT 1000 0
-85 0 90d20+16000 91d10+9500 10d13+55 smash
--58 -58 -58 -24
-CEFKPX BNQR HIN M
-stand stand male 10
-ADHLMV ABCDEFGHIJKP large 0
+aarakocra~
+ABT BNT 85
 #14005
 toprak melek~
 toprak meleði~
@@ -88,13 +67,8 @@ Bir melek topraðý sallýyor!
 The angel looks you over and tells you that you are too late.
 The 6th seal already has been broken.
 ~
-angel~
-ABT BNT 1000 0
-85 0 90d20+16000 91d10+9500 10d13+55 smash
--58 -58 -58 -24
-CEFKPX BNQR HIN M
-stand stand male 900
-ADHLMV ABCDEFGHIJKP large 0
+aarakocra~
+ABT BNT 85
 #14006
 hava melek~
 hava meleði~
@@ -103,13 +77,8 @@ Bir melek göðü maviye boyuyor.
 The angel looks you over and tells you that you are too late.
 He has already scattered the seventh vial of wrath on the wind.
 ~
-angel~
-ABT BNT 1000 0
-85 0 90d20+16000 91d10+9500 10d13+55 divine
--58 -58 -58 -24
-CEFKPX BNQR HIN M
-stand stand male 900
-ADHLMV ABCDEFGHIJKP large 0
+aarakocra~
+ABT BNT 85
 #14007
 ateþ melek~
 ateþ meleði~
@@ -118,13 +87,8 @@ Bir melek ateþi kontrolü altýnda tutuyor.
 The angel looks you over and tells you that you are too late.
 He has already poured the fourth vial of wrath upon the sun.
 ~
-angel~
-ABT BNT 1000 0
-85 0 90d20+16000 91d10+9500 10d13+55 divine
--58 -58 -58 -24
-CEFKPX BNQR HIN M
-stand stand male 900
-ADHLMV ABCDEFGHIJKP large 0
+aarakocra~
+ABT BNT 85
 #14008
 hasat melek~
 hasat meleði~
@@ -132,13 +96,8 @@ Bir melek oraðýyla günahkarlarý biçiyor.
 ~
 The angel has no mercy for those without seals.
 ~
-angel~
-AT BCDFNT 1000 0
-80 0 50d20+13500 91d10+9500 13d9+50 pound
--54 -54 -54 -22
-CEFKPX BNQR HIN M
-stand stand male 900
-ADHLMV ABCDEFGHIJKP large 0
+aarakocra~
+AT BCDFNT 80
 #14009
 cennet savaþçýsý~
 cennet savaþçýsý~
@@ -148,12 +107,7 @@ The army of heaven is approximately 50 troops, lightly
 armed with simple spears and shields.
 ~
 human~
-AT N 1000 0
-75 0 50d20+11000 91d10+9000 9d11+45 slice
--50 -50 -50 -20
-CEP E N M
-stand stand none 900
-AHMSV ABCDEFGHIJK huge 0
+AT N 75
 #14010
 beyaz atlý~
 beyaz atlý~
@@ -163,12 +117,7 @@ The rider is mounted on a lion headed horse, which breathes
 fire, smoke and brimstone as it rears.
 ~
 human~
-AFT DFJ -1000 0
-85 0 90d20+16000 91d10+9500 10d13+55 pound
--58 -58 -58 -24
-CDEFK B MZ N
-stand stand male 900
-ABCHMNV ABCDEFGHIJK large 0
+AFT DFJ 85
 #14011
 kýzýl atlý~
 kýzýl atlý~
@@ -178,12 +127,7 @@ The rider is mounted on a lion headed horse, which breathes
 fire, smoke and brimstone as it rears.
 ~
 human~
-AFT DFJ -1000 0
-85 0 90d20+16000 91d10+9500 10d13+55 pound
--58 -58 -58 -24
-CDEFK B MZ N
-stand stand male 900
-ABCHMNV ABCDEFGHIJK large 0
+AFT DFJ 85
 #14012
 kara atlý~
 kara atlý~
@@ -193,12 +137,7 @@ The rider is mounted on a lion headed horse, which breathes
 fire, smoke and brimstone as it rears.
 ~
 human~
-AFT DFJ -1000 0
-85 0 90d20+16000 91d10+9500 10d13+55 magic
--58 -58 -58 -24
-CDEFK B MZ N
-stand stand male 900
-ABCHMNV ABCDEFGHIJK large 0
+AFT DFJ 85
 #14013
 soluk atlý~
 soluk atlý~
@@ -208,12 +147,7 @@ The rider is mounted on a lion headed horse, which breathes
 fire, smoke and brimstone as it rears.
 ~
 human~
-AFT DFJ -1000 0
-85 0 90d20+16000 91d10+9500 10d13+55 magic
--58 -58 -58 -24
-CDEFK B MZ N
-stand stand male 900
-ABCHMNV ABCDEFGHIJK large 0
+AFT DFJ 85
 #14014
 baþmelek baþ melek~
 Baþmelek~
@@ -222,13 +156,8 @@ Savaþ baþmeleði bir ejderhaya haddini bildiriyor.
 Michael towers some 18', and is dressed in the blinding
 white of heaven. His voice booms in a deep base laugh.
 ~
-angel~
-ABT BDFNTVd 1000 0
-91 0 90d20+19000 91d10+9500 10d15+61 divine
--63 -63 -63 -30
-CEFKPX BNQS EHIN M
-stand stand male 900
-ACDHLMV ABCDEFGHIJKP huge 0
+aarakocra~
+ABT BDFNTVd 91
 #14015
 ejderha~
 ejderha~
@@ -239,12 +168,7 @@ ten horns are ten crowns, and upon the 7 heads are
 blasphemy.
 ~
 dragon~
-ABR DFJT -1000 0
-91 0 90d20+19000 91d10+9500 10d15+61 flame
--63 -63 -63 -32
-IMPWX 0 BEHIJKM FN
-stand stand male 900
-ABCHZcd ACDEFIKLPQUVX huge 0
+ABR DFJT 91
 #14016
 kadýn jezebel peygamber~
 Peygamber Jezebel~
@@ -255,12 +179,7 @@ and the eating of food sacrificed to idols. She will
 gladly try to sway you to her point of view.
 ~
 human~
-AQ  0 -1000 0
-80 0 50d20+13500 91d10+9000 9d12+48 charge
--54 -54 -54 -22
-FN 0 0 0
-sit sit female 900
-AHMV ABCDEFGHIJK medium 0
+AQ  0 80
 #14017
 Balaam öðretmen adam~
 Balak'ýn öðretmeni Balaam~
@@ -271,12 +190,7 @@ on the merits of eating food sacrificed to idols. His
 rapt audience pays you no heed.
 ~
 human~
-AR 0 -1000 0
-80 0 50d20+13500 91d10+9500 13d9+50 blast
--54 -54 -54 -22
-FN 0 0 0
-sit sit male 900
-AHMV ABCDEFGHIJK medium 0
+AR 0 80
 #14018
 balak havari adam~
 Balaam'ýn havarisi Balak~
@@ -287,12 +201,7 @@ fanatical speech on how life has no meaning unless you
 fornicate freely and eat sacrificed food.
 ~
 human~
-AQ 0 -1000 0
-80 0 50d20+13500 91d10+9500 13d9+50 blast
--54 -54 -54 -22
-FN 0 0 0
-sit sit male 900
-AHMV ABCDEFGHIJK medium 0
+AQ 0 80
 #14019
 lanetli kurbaða ruhu~
 lanetli ruh~
@@ -304,13 +213,8 @@ performs a series of miracles to impress you
 with its power and sway you to fight on the
 side of the dragon.
 ~
-demon~
-AR BCDJKPT -1000 0
-83 0 50d20+15000 91d10+9000 10d12+52 acbite
--56 -56 -56 -23
-F BMR FHIZ NOZ
-stand stand none 0
-ACDHILMV ABCDEFGHIJKQ medium 0
+ghost~
+AR BCDJKPT 83
 #14020
 yanlýþ peygamber~
 yanlýþ peygamber~
@@ -326,12 +230,7 @@ If you will worship as he says, step forward and
 receive the mark.
 ~
 human~
-AR 0 -1000 0
-85 0 90d20+16000 91d10+9500 10d13+55 flame
--58 -58 -58 -24
-FN 0 0 N
-stand stand male 900
-AHMV ABCDEFGHIJKW medium 0
+AR 0 85
 #14021
 güneþi kuþanmýþ kadýn~
 güneþi kuþanmýþ kadýn~
@@ -343,12 +242,7 @@ to behold. She tells you to run, for a
 great dragon is hunting her.
 ~
 human~
-ABT  N 1000 0
-89 0 90d20+18000 91d10+9500 12d12+58 wrath
--61 -61 -61 -25
-EFKLS BLQR ANP M
-stand stand female 900
-AHMV ABCDEFGHIJK medium 0
+ABT  N 89
 #14022
 tanrýnýn cümlesi~
 Tanrýnýn Cümlesi~
@@ -361,13 +255,8 @@ in blood, and he treadeth the winepress and
 fierceness and wrath of Almighty God. On his
 thigh is written King of Kings and Lord of Lords.
 ~
-angel~
-ABT BCDEFHJNTVd 1000 0
-95 0 90d20+23000 91d10+9500 16d10+65 wrath
--66 -66 -66 -28
-CEFHKLP ABLNQRS HIOPZ JM
-stand stand male 39000
-ACDHMV ABCDEFGHIJKP giant 0
+aarakocra~
+ABT BCDEFHJNTVd 95
 #14023
 mühürlü~
 mühürlü~
@@ -378,12 +267,7 @@ All of the tribes were marked with a seal so as
 to spare them from the wrath of God.
 ~
 human~
-AT 0 1000 0
-70 0 50d20+9750 91d10+9500 10d15+61 pound
--46 -46 -46 -18
-FI 0 0 0
-stand stand male 900
-AHMV ABCDEFGHIJK medium 0
+AT 0 70
 #14024
 mimli~
 mimli~
@@ -393,12 +277,7 @@ The marked one has chosen the side of evil for
 the final conflict. He seems to be suffering from a pox.
 ~
 human~
-AT X -1000 0
-70 0 50d20+9750 91d10+9500 10d15+61 pound
--46 -46 -46 -18
-FJ 0 0 0
-stand stand male 900
-AHMV ABCDEFGHIJK medium 0
+AT X 70
 #14025
 hayvan~
 hayvan~
@@ -410,13 +289,8 @@ feet like a bear and the mouth of a lion. A huge
 scar runs across one head, where it was mortally
 wounded and healed.
 ~
-demon~
-ABT CTZbd -1000 0
-88 0 90d20+17500 91d10+9500 13d10+56 claw
--60 -60 -60 -25
-AM M HI N
-stand stand male 100
-ABGHMV ABCDEFGHIJKQU huge 0
+ghost~
+ABT CTZbd 88
 #14026
 putperest adam~
 putperest~
@@ -426,12 +300,7 @@ The idolator is engrossed in his worship, and
 does not see you.
 ~
 human~
-AHT 0 -1000 0
-75 0 50d20+11000 91d10+9000 9d11+45 pound
--50 -50 -50 -20
-FJ 0 0 0
-stand stand male 900
-AHMV ABCDEFGHIJK medium 0
+AHT 0 75
 #14027
 pezevenk adam~
 pezevenk~
@@ -441,12 +310,7 @@ The whoremonger has chosen a paticularly sleezy
 woman, who probably is infected.
 ~
 human~
-AHT 0 -1000 0
-75 0 50d20+11000 91d10+9000 9d11+45 pound
--50 -50 -50 -20
-FJ 0 0 0
-stand stand male 900
-AHMV ABCDEFGHIJK medium 0
+AHT 0 75
 #14028
 katil~
 katil~
@@ -457,12 +321,7 @@ is dressed in rags and carries a bloody
 knife.
 ~
 human~
-AHT 0 -1000 0
-75 0 50d20+11000 91d10+9000 9d11+45 pound
--50 -50 -50 -20
-FJ 0 0 0
-stand stand male 900
-AHMV ABCDEFGHIJK medium 0
+AHT 0 75
 #14029
 fahiþe kadýn~
 fahiþe~
@@ -474,12 +333,7 @@ her hips suggestively. She smells nice,
 having bathed in the last week.
 ~
 human~
-AHT 0 -1000 0
-75 0 50d20+11000 91d10+9000 9d11+45 pound
--50 -50 -50 -20
-FJ 0 0 0
-stand stand female 900
-AHMV ABCDEFGHIJK medium 0
+AHT 0 75
 #14030
 hýrsýz~
 hýrsýz~
@@ -490,12 +344,7 @@ your purse. He picks it up and returns
 it to you.
 ~
 human~
-AHS 0 -1000 0
-75 0 50d20+11000 91d10+9000 9d11+45 pound
--50 -50 -50 -20
-FJ 0 0 0
-stand stand male 900
-AHMV ABCDEFGHIJK medium 0
+AHS 0 75
 #14031
 zengin~
 zengin~
@@ -506,12 +355,7 @@ carrying alot of gawdy babbles. He blames
 his sins on the greedy poor.
 ~
 human~
-AHT 0 -1000 0
-75 0 50d20+11000 91d10+9000 9d11+45 pound
--50 -50 -50 -20
-FJ 0 0 0
-stand stand male 900
-AHMV ABCDEFGHIJK medium 0
+AHT 0 75
 #14032
 güçlü adam~
 güçlü~
@@ -523,12 +367,7 @@ has a harried look. He blames his sins on
 his rivals.
 ~
 human~
-AHT 0 -1000 0
-75 0 50d20+11000 91d10+9000 9d11+45 pound
--50 -50 -50 -20
-FJ 0 0 0
-stand stand male 900
-AHMV ABCDEFGHIJK medium 0
+AHT 0 75
 #14033
 ilk kral~
 ilk kral~
@@ -541,12 +380,7 @@ crown are missing. He blames his sins on his
 corrupt ministers who ruined the kingdom.
 ~
 human~
-AHT 0 -1000 0
-75 0 50d20+11000 91d10+9000 9d11+45 pound
--50 -50 -50 -20
-FJ 0 0 0
-stand stand male 900
-AHMV ABCDEFGHIJK medium 0
+AHT 0 75
 #14034
 köle~
 köle~
@@ -556,12 +390,7 @@ The bondsman has somehow escaped his master.
 He blames all his sins on his master.
 ~
 human~
-AHT 0 -1000 0
-75 0 50d20+11000 91d10+9000 9d11+45 pound
--50 -50 -50 -20
-FJ 0 0 0
-stand stand male 900
-AHMV ABCDEFGHIJK medium 0
+AHT 0 75
 #14035
 özgür adam~
 özgür adam~
@@ -571,12 +400,7 @@ The freeman is empoverished. He blames
 all of his sins on the guild.
 ~
 human~
-AHT 0 -1000 0
-75 0 50d20+11000 91d10+9000 9d11+45 pound
--50 -50 -50 -20
-FJ 0 0 0
-stand stand male 900
-AHMV ABCDEFGHIJK medium 0
+AHT 0 75
 #14036
 ilk yüzbaþý~
 ilk yüzbaþý~
@@ -586,12 +410,7 @@ The chief captain is in rags. He blames his sins
 on the king, who ordered him to commit atrocities.
 ~
 human~
-AHT 0 -1000 0
-75 0 50d20+11000 91d10+9000 9d11+45 pound
--50 -50 -50 -20
-FJ 0 0 0
-stand stand male 900
-AHMV ABCDEFGHIJK medium 0
+AHT 0 75
 #14037
 tahtýnda oturan o~
 tahtýnda oturan~
@@ -600,13 +419,8 @@ Tahtýnda oturan "Ben alfa ve omegayým!" diyor. Birþey anlayamadýn...
 He is like jasper and carnelian. You better do as
 he says.
 ~
-angel~
-ABT BCDEFHJNTVd 1000 0
-100 0 90d20+30000 91d10+9500 18d16+90 divine
--150 -150 -150 -150
-FGHKLO ABCDFGHIJKLMNOPQRSZ HI M
-sit sit male 900
-ACDHLMV ABCDEFGHIJKP giant 0
+aarakocra~
+ABT BCDEFHJNTVd 100
 #14038
 koyun kurban~
 koyun~
@@ -614,13 +428,8 @@ Kurban edildiði andaki gibi bekleyen bir koyun görüyorsun.
 ~
 The lamb has seven horns and seven eyes.
 ~
-angel~
-ABJKTc BCDEFHJNTWd 1000 0
-100 0 90d20+30000 91d10+9500 18d16+90 divine
--150 -150 -150 -150
-FGHKLO ABCDFGHIJKLMNOPQRSZ HI M
-sit sit male 900
-ACDHLMV ABCDEFGHIJKP giant 0
+aarakocra~
+ABJKTc BCDEFHJNTWd 100
 #14039
 dört yirmi ulularý~
 dört yirmi ulularý~
@@ -629,13 +438,8 @@ Ulularýný görüyorsun, dört yirmi tahtlarýnda oturuyorlar.
 The elders are in white robes with golden crowns. They
 play harps, and swing golden bowls filled with incense.
 ~
-angel~
-ABQ BNT 1000 0
-75 0 50d20+11000 91d10+9000 9d11+45 divine
--50 -50 -50 -20
-F NQ HI M
-sit stand none 900
-ACDHLMV ABCDEFGHIJKP medium 0
+aarakocra~
+ABQ BNT 75
 #14040
 aslansý yaratýk~
 aslansý yaratýk~
@@ -644,13 +448,8 @@ Aslansý bir yaratýk mýrýldanýyor, "Kutsal, Kutsal, Kutsal, Efendi...".
 The lion creature is full of eyes in front and behind.
 It has 6 wings, and even eyes inside.
 ~
-lupus~
-ABT CDEFJNZ 1000 0
-91 0 90d20+19000 91d10+9500 10d15+61 claw
--63 -63 -63 -26
-FIMPV NQ 0 Y
-stand stand none 0
-BCDGHLMV ABCDEFGHIJKPQUV large 0
+drow~
+ABT CDEFJNZ 91
 #14041
 öküz yaratýk~
 öküz~
@@ -660,12 +459,7 @@ The ox creature is full of eyes in front and behind.
 It has 6 wings, and eleven eyes inside.
 ~
 unique~
-ABT CDEFJNZ 1000 0
-91 0 90d20+19000 91d10+9500 10d15+61 claw
--63 -63 -63 -26
-CDPV NQ 0 0
-stand stand none 900
-CDGHLV ACDEFJKPQW large 0
+ABT CDEFJNZ 91
 #14042
 insan yüzlü yaratýk~
 insan yüzlü yaratýk~
@@ -675,12 +469,7 @@ The human faced creature is full of eyes in front and behind.
 It has 6 wings, and even eyes inside.
 ~
 human~
-ABT CDEFJNZ 1000 0
-91 0 90d20+19000 91d10+9500 10d15+61 pound
--63 -63 -63 -26
-EFIK NQ 0 0
-stand stand none 900
-ACDGHLMV ABCDEFGHIJKLP large 0
+ABT CDEFJNZ 91
 #14043
 kartal~
 kartal~
@@ -690,12 +479,7 @@ The eagle creature is full of eyes in front and behind.
 It has 6 wings, and even eyes inside.
 ~
 unique~
-ABT CDEFJNTZ 1000 0
-91 0 90d20+19000 91d10+9500 10d15+61 claw
--63 -63 -63 -26
-EFIK NQ 0 0
-stand stand none 900
-CDGHLW ADEFKPU large 0
+ABT CDEFJNTZ 91
 #0
 
 

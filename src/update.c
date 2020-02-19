@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT		           *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -186,6 +198,11 @@ void gain_exp( CHAR_DATA *ch, int gain )
     send_to_char( "Ruhun olmadan tecrübe kazanamazsýn.\n\r", ch );
 	 return;
 	}
+  if ( IS_SET(ch->act,PLR_NO_DESCRIPTION) )
+{
+  send_to_char( "En az 350 karakterlik tanýmýn olmadan TP kazanamazsýn.\n\r", ch );
+ return;
+}
 /*
     ch->exp = UMAX( exp_per_level(ch,ch->pcdata->points), ch->exp + gain );
     while ( ch->level < LEVEL_HERO && ch->exp >=
@@ -877,8 +894,11 @@ int i;
 
 void game_time_update( void )
 {
-	/* varsayýlan deðerler */
-	long milat 			= 0;
+/*
+milat: sunucu alindiktan sonra oyunun ilk acildigi gun
+22 agustos 2019 00:00:01
+*/
+	long milat 			= 1566421201;
 	long bir_oyun_saati	= 5 * 60; /* 300 gerçek saniye , 5 gerçek dakika */
 	long bir_oyun_gunu	= 24 * bir_oyun_saati; /* 120 gerçek dakika , 2 gerçek saat*/
 	long bir_oyun_ayi	= 10 * bir_oyun_gunu; /* 20 gerçek saat */
@@ -911,7 +931,7 @@ void game_time_update( void )
 void game_time_to_string( time_t gameTime , char *buf )
 {
 	/* varsayýlan deðerler */
-	long milat 			= 1000000000;
+	long milat 			= 1566421201;
 	long bir_oyun_saati	= 5 * 60; /* 300 gerçek saniye , 5 gerçek dakika */
 	long bir_oyun_gunu	= 24 * bir_oyun_saati; /* 120 gerçek dakika , 2 gerçek saat*/
 	long bir_oyun_ayi	= 10 * bir_oyun_gunu; /* 20 gerçek saat */
@@ -934,7 +954,7 @@ void game_time_to_string( time_t gameTime , char *buf )
 int game_time_to_year( time_t gameTime )
 {
 	/* varsayýlan deðerler */
-	long milat 			= 0;
+	long milat 			= 1566421201;
 	long bir_oyun_saati	= 5 * 60; /* 300 gerçek saniye , 5 gerçek dakika */
 	long bir_oyun_gunu	= 24 * bir_oyun_saati; /* 120 gerçek dakika , 2 gerçek saat*/
 	long bir_oyun_ayi	= 10 * bir_oyun_gunu; /* 20 gerçek saat */
@@ -1111,6 +1131,29 @@ void char_update( void )
 	AFFECT_DATA *paf_next;
 
 	ch_next = ch->next;
+
+  if (!IS_NPC(ch) && (IS_SET(ch->act,PLR_GHOST)))
+  {
+    if(ch->pcdata->ghost_mode_counter > 0)
+    {
+      ch->pcdata->ghost_mode_counter--;
+    }
+    if(ch->pcdata->ghost_mode_counter <= 0)
+    {
+      REMOVE_BIT(ch->act,PLR_GHOST);
+      ch->pcdata->ghost_mode_counter = 0;
+      send_to_char("Artýk bir hayalet deðilsin. Arkaný kollasan iyi olur!\n\r",ch);
+    }
+
+  }
+
+  if (!IS_NPC(ch) && (strlen(ch->description)<350) && (ch->level >= 10))
+  {
+    SET_BIT(ch->act, PLR_NO_DESCRIPTION);
+    wiznet("Tanimi olmayan karakter: $N. PLR_NO_DESCRIPTION set edildi. TP kazanamayacak, göre alamayacak.",ch,NULL,0,0,0);
+  }
+  if (!IS_NPC(ch) && (strlen(ch->description)>=350) && (IS_SET(ch->act, PLR_NO_DESCRIPTION)))
+    REMOVE_BIT(ch->act, PLR_NO_DESCRIPTION);
 
 	/* reset hunters path find */
 	if (!IS_NPC(ch) && ch->cabal == CABAL_HUNTER)
@@ -1951,6 +1994,8 @@ void update_handler( void )
     static  int	    pulse_raffect;
     static  int	    pulse_track;
 
+    game_time_update();
+
     if ( --pulse_area     <= 0 )
     {
 	wiznet("BOLGE & ODA YENILEME!",NULL,NULL,WIZ_TICKS,0,0);
@@ -2423,7 +2468,7 @@ void check_reboot( void )
   case -1:
      break;
   case 0:
-     reboot_anatolia(TRUE);
+     reboot_uzakdiyarlar(TRUE);
      return;
   case 1:
   case 2:

@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+ 
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -1788,6 +1800,30 @@ void do_ostat( CHAR_DATA *ch, char *argument )
 }
 
 
+void do_mobstat( CHAR_DATA *ch, char *argument )
+{
+  char arg1[MAX_INPUT_LENGTH];
+  CHAR_DATA *gch;
+
+  one_argument( argument, arg1 );
+
+  if ( arg1[0] == '\0' )
+  {
+    printf_to_char(ch,"Eksik argüman.\n\r");
+    return;
+  }
+
+  for ( gch = char_list; gch != NULL; gch = gch->next )
+  {
+      if (!IS_NPC(gch))
+          continue;
+      if (gch->level == atoi(arg1))
+        printf_to_char(ch,"Level: %-3d  Damroll: %-4d  Hitroll: %-4d  Hp: %-6d Mn: %-6d Mv: %-6d\n\r",atoi( arg1 ),gch->damroll,gch->hitroll,gch->hit,gch->mana,gch->move);
+
+  }
+}
+
+
 
 void do_mstat( CHAR_DATA *ch, char *argument )
 {
@@ -1818,11 +1854,11 @@ void do_mstat( CHAR_DATA *ch, char *argument )
     send_to_char( buf, ch );
 
     sprintf( buf,
-	"Vnum: %d  Format: %s  Race: %s(%s)  Group: %d  Sex: %s  Room: %d\n\r",
+	"Vnum: %d  Format: %s  Race: %s(%s)  Sex: %s  Room: %d\n\r",
 	IS_NPC(victim) ? victim->pIndexData->vnum : 0,
-	IS_NPC(victim) ? victim->pIndexData->new_format ? "new" : "old" : "pc",
+	IS_NPC(victim) ? "UD" : "PC",
 	race_table[RACE(victim)].name[1],race_table[ORG_RACE(victim)].name[1],
-	IS_NPC(victim) ? victim->group : 0, sex_table[victim->sex].name,
+	sex_table[victim->sex].name,
 	victim->in_room == NULL    ?        0 : victim->in_room->vnum
 	);
     send_to_char( buf, ch );
@@ -1872,7 +1908,7 @@ void do_mstat( CHAR_DATA *ch, char *argument )
 	IS_EVIL(victim)?"Evil":"Other" );
     }
     sprintf(buf,"It belives the religion of %s.\n\r",
-	IS_NPC(victim) ? "Chronos" : religion_table[victim->religion].leader);
+	IS_NPC(victim) ? "None" : religion_table[victim->religion].name);
     send_to_char(buf,ch);
     sprintf( buf,
 	"Lv: %d  Class: %s  Align: %s  Gold: %ld  Silver: %ld  Exp: %d\n\r",
@@ -1894,7 +1930,7 @@ void do_mstat( CHAR_DATA *ch, char *argument )
 	victim->wimpy );
     send_to_char( buf, ch );
 
-    if (IS_NPC(victim) && victim->pIndexData->new_format)
+    if (IS_NPC(victim))
     {
 	sprintf(buf, "Damage: %dd%d  Message:  %s\n\r",
 	    victim->damage[DICE_NUMBER],victim->damage[DICE_TYPE],
@@ -2362,7 +2398,7 @@ void do_shutdown( CHAR_DATA *ch, char *argument )
     strcat( buf, "\n\r" );
     if (ch->invis_level < LEVEL_HERO)
     	do_duyuru( ch, buf );
-    reboot_anatolia(FALSE);
+    reboot_uzakdiyarlar(FALSE);
     return;
 }
 
@@ -4500,7 +4536,18 @@ void do_mset( CHAR_DATA *ch, char *argument )
     if ( !str_cmp( arg2, "questt" ) )
     {
 	 if ( value == -1) value = 30;
-	 if (!IS_NPC(victim)) victim->pcdata->nextquest = value;
+	 if (!IS_NPC(victim))
+    {
+      victim->pcdata->nextquest = value;
+      if (value == 0)
+      {
+        victim->pcdata->questgiver = 0;
+        victim->pcdata->questobj = 0;
+        victim->pcdata->questmob = 0;
+        victim->pcdata->questroom = 0;
+      }
+    }
+
 	return;
     }
     if ( !str_cmp( arg2, "relig" ) )
@@ -5453,7 +5500,7 @@ void do_reboot( CHAR_DATA *ch, char *argument )
 
     if (is_name(arg, (char*)"now"))
      {
-      reboot_anatolia(TRUE);
+      reboot_uzakdiyarlar(TRUE);
       return;
     }
 
@@ -5489,12 +5536,12 @@ void do_reboot( CHAR_DATA *ch, char *argument )
 }
 
 
-void reboot_anatolia( bool fmessage )
+void reboot_uzakdiyarlar( bool fmessage )
 {
     extern bool merc_down;
     DESCRIPTOR_DATA *d,*d_next;
 
-    sprintf( log_buf, "Rebooting ANATOLIA.");
+    sprintf( log_buf, "Oyun yeniden baslatiliyor.");
     log_string(log_buf);
     merc_down = TRUE;
     for ( d = descriptor_list; d != NULL; d = d_next )

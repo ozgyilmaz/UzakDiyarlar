@@ -11,7 +11,7 @@ Maxvnum 2899
 Path 3g 2d 2g 6b k d g~
 END
 
-#MOBILES
+#NEW_MOBILES
 #2800
 gardiyan canavar~
 gardiyan canavar~
@@ -21,12 +21,7 @@ Siyah bir kürk canavarý kaplamýþ. En az 50 diþi var. Çenesinden kan damlýyor,
 anlaþýlan az önce birþeyler yemiþ.
 ~
 human~
-ABCFG DPQ -200 0
-7 0 2d6+85 3d9+100 1d8+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABCFG DPQ 7
 #2801
 genç asura~
 genç asura~
@@ -36,12 +31,7 @@ Uzun ve tüylü bir asura. Gözlerin onunkilerle buluþuyor. Birden gülümsüyor,
 elindeki kemiði atýyor ve sana doðru geliyor!!
 ~
 asura~
-ACFG P -500 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-sit stand male 25
-0 0 medium 0
+ACFG P 6
 #2802
 asura~
 asura~
@@ -51,12 +41,7 @@ Uzun, zayýf ve tüylü bir asura. Gözlerini sana dikmiþ, kendisine benzeyip
 benzemediðinizi konarba ediyor.
 ~
 asura~
-ABCFG P -500 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand male 75
-0 0 medium 0
+ABCFG P 8
 #2803
 bebek asura~
 bebek asura~
@@ -65,12 +50,7 @@ Bir bebek asura burada, bir kadavrayla doktorculuk oynuyor.
 Tombul, iri ve tüylü bir asura. Seni fark edince "Katýlsana?" diyor.
 ~
 asura~
-ABCF P -100 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-sit stand male 12
-0 0 medium 0
+ABCF P 5
 #2804
 dev asura~
 dev asura~
@@ -80,12 +60,7 @@ Kaslý ve tüylü bir asura. Ýçeri girdiðini fark edince hýzlý hýzlý solumaya
 baþlýyor.
 ~
 asura~
-ABCFG P -1000 0
-13 0 2d10+170 6d9+100 2d5+3 none
--1 -1 -1 8
-EFNR 0 0 0
-rest stand male 150
-0 0 medium 0
+ABCFG P 13
 #2805
 diþi asura~
 diþi asura~
@@ -95,12 +70,7 @@ Diþi bir asura burada, ceset yýðýný üstüne uzanmýþ düþünüyor.
 baþlýyor.
 ~
 asura~
-ABCFG P -800 0
-11 0 2d8+134 5d9+100 1d10+2 none
-1 1 1 8
-EFNU 0 0 0
-rest stand female 125
-0 0 medium 0
+ABCFG P 11
 #2806
 þiþman kurtçuk~
 þiþman kurtçuk~
@@ -110,12 +80,7 @@ Kalýn ve uzun. Bu þeyde bir baþ göremiyorsun. Cesetten cesede çok hýzlý
 hareket ediyor.
 ~
 human~
-ACFH PQ 0 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ACFH PQ 3
 #2807
 dolaþan canavar~
 dolaþan canavar~
@@ -125,12 +90,7 @@ Siyah bir kürk canavarý kaplamýþ. En az 50 diþi var. Çenesinden kan damlýyor,
 anlaþýlan az önce birþeyler yemiþ.
 ~
 human~
-ABCFG DP -200 0
-7 0 2d6+85 3d9+100 1d8+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABCFG DP 7
 #2808
 aptal asura~
 aptal asura~
@@ -140,12 +100,7 @@ Uzun, zayýf ve tüylü bir asura. Seni fark ediyor ve neye baktýðýný bulmaya
 çalýþýyor.
 ~
 asura~
-ACFG P -500 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand male 75
-0 0 medium 0
+ACFG P 8
 #0
 #OBJECTS
 #2800

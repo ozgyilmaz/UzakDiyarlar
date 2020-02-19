@@ -20,7 +20,7 @@ After them by Asena.
 ~
 0 $~
 
-#MOBILES
+#NEW_MOBILES
 #14501
 büyük maymun~
 BÜYÜK maymun~
@@ -30,12 +30,7 @@ This BIG monkey must weigh at least 200 pounds. It is covered with black
 fur and has the ugliest teeth you have ever seen.
 ~
 human~
-AF c -500 0
-10 0 2d7+121 99d1+1 2d4+2 pound
-1 1 1 8
-BKP 0 0 C
-stand stand female 0
-AB ACBCDH large 0
+AF c 10
 #14502
 tüccar çora~
 Elf tüccar~
@@ -45,12 +40,7 @@ This Çora does not appear to be very prosperous. His violet eyes look you
 over as he tries to decide if you are a client or a salesman.
 ~
 çora~
-BG J -1 0
-12 0 2d10+150 119d1+1 1d10+3 pound
-0 0 0 8
-DE 0 B Z
-stand stand male 300000
-AHMV ABCDEFGHIJ medium 0
+BG J 12
 #14503
 tüccar cüce~
 Cüce tüccar~
@@ -59,12 +49,7 @@ Cüce tüccar seni selamlýyor, "Hoþgeldin!"
 This merchant has the Eye of the Tiger. "Welcome my friend," he says.
 ~
 dwarf~
-BG J -1 0
-12 0 2d10+150 119d1+1 1d10+3 pound
-0 0 0 8
-DE 0 LQ R
-stand stand male 300000
-AHMV ABCDEFGHIJ medium 0
+BG J 12
 #14504
 tüccar yarýcüce~
 Yarýcüce tüccar~
@@ -74,12 +59,7 @@ This man is only four feet tall but has a powerful body.  His arms reach
 almost to his calves.
 ~
 human~
-AGH 0 90 0
-12 0 2d10+150 119d1+1 1d10+3 pound
-0 0 0 8
-NU 0 0 C
-stand stand either 300000
-AHMV ABCDEFGHIJ small 0
+AGH 0 12
 #14505
 tüccar insan~
 Ýnsan tüccar~
@@ -88,12 +68,7 @@ tüccar insan~
 Many of the merchants you have seen throughout your life resemble this man.
 ~
 human~
-ACS 0 -200 0
-5 1 2d6+60 1d1+99 1d6+1 punch
-7 5 5 10
-BJNQ 0 0 C
-stand stand male 300000
-AHMV ABCDEFGHIJ medium 0
+ACS 0 5
 #14506
 maceracý delioðlan~
 Maceracý Delioðlan~
@@ -103,12 +78,7 @@ This adventurer is a largish, oafish, boy with the largest ego you've ever
 seen.  His ego is writing checks his character will never be able to cash.
 ~
 human~
-ACHS 0 -200 0
-7 0 2d6+85 69d1+1 1d8+1 punch
-4 4 4 9
-BJNQ 0 0 C
-stand stand male 140
-AHMV ABCDEFGHIJ medium 0
+ACHS 0 7
 #14507
 sakallý asker~
 Sakallý Asker~
@@ -118,12 +88,7 @@ This soldier has an alert look about him.  With his pointed beard and
 sharp sword the security he provides comes mostly from his presence.
 ~
 human~
-ABT 0 1000 3000
-15 3 15d15+160 1d1+149 2d4+4 stab
-0 0 0 8
-CDELU 0 C 0
-stand stand male 2200
-AHMV ABCDEFGHIJ medium 0
+ABT 0 15
 #14508
 dikkatli asker~
 Dikkatli Asker~
@@ -133,12 +98,7 @@ This soldier greets you with a bared blade. I don't think you'll be
 sneaking up on him.
 ~
 human~
-ABT 0 1000 3000
-15 3 15d15+160 1d1+149 2d4+4 slash
-0 0 0 8
-CDEKLTU 0 C 0
-stand stand male 1530
-AHMV ABCDEFGHIJ medium 0
+ABT 0 15
 #14509
 uyuyan asker~
 Uyuyan Asker~
@@ -147,12 +107,7 @@ Uyuyan Asker seni farkedemiyor.
 Without looking in his eye you have no idea how tough he would be.
 ~
 human~
-ABT 0 1000 3000
-17 0 3d9+258 169d1+1 3d4+4 pierce
--3 -3 -3 7
-CDEKLTU 0 C 0
-sleep sleep male 2502
-AHMV ABCDEFGHIJ medium 0
+ABT 0 17
 #14510
 Gözcü~
 Gözcü~
@@ -162,12 +117,7 @@ This female Watcher is one of those cultist who protect the rest of the
 world from those they determine are evil.
 ~
 human~
-ABT JN 1000 3000
-20 4 20d20+200 1d1+199 2d4+7 punch
--4 -6 -6 0
-CDEHKLTU 0 C 0
-stand stand female 3200
-AHMV ABCDEFGHIJ medium 0
+ABT JN 20
 #14511
 þiþman domuz~
 þiþman domuz~
@@ -176,12 +126,7 @@ AHMV ABCDEFGHIJ medium 0
 This fat pig is very hungry. He eats just about ANYTHING.
 ~
 pig~
-ACGH Gb 500 0
-5 0 2d6+60 49d1+1 1d6+1 bite
-5 5 5 9
-BDEI 0 0 0
-stand stand either 35
-ABGV ACDEFJKV medium 0
+ACGH Gb 5
 #14512
 köpek~
 köpek~
@@ -191,12 +136,7 @@ The dog looks back at you.  After a few moments it sits up..
 puts a cigar in it's mouth, lights it, and asks, "So..what's up bub?"
 ~
 dog~
-AB F 400 0
-7 3 6d10+60 1d1+149 2d4+1 bite
-4 4 4 8
-CDL 0 C 0
-stand stand either 0
-0 ACDEFHJKUVo medium 0
+AB F 7
 #14513
 tavuk~
 tavuk~
@@ -206,12 +146,7 @@ This chicken is so skinny it WOULDN'T provide enough meat for a soup.
         ************ IT ESCAPE FROM KFC BAR !!! *************
 ~
 song bird~
-CG NOT 0 0
-35 0 10d10+1300 349d1+1 4d7+11 peck
--11 -11 -11 5
-ADIJ C C GL
-stand stand female 5000
-AW ACDFKP small 0
+CG NOT 35
 #14514
 insan erkek~
 Ýnsan Erkek~
@@ -221,12 +156,7 @@ This guy looks like an advertisement for a wilderness clothing company.
 From his buckskins to his fur cap he fits the part.
 ~
 human~
-ACS 0 -200 0
-5 1 2d6+60 1d1+99 1d6+1 punch
-7 5 5 10
-BJNQ 0 0 C
-stand stand male 181
-AHMV ABCDEFGHIJ medium 0
+ACS 0 5
 #14515
 kadýn insan~
 Ýnsan Kadýn~
@@ -236,12 +166,7 @@ She appears to be distracted by some inner thought. Although she seems
 to be in good health, her eyes are puffy and red.
 ~
 human~
-ACS 0 -200 0
-8 0 2d7+96 79d1+1 1d7+2 punch
-3 3 3 9
-BJNQ 0 0 C
-stand stand female 223
-AHMV ABCDEFGHIJ medium 0
+ACS 0 8
 #14516
 çora erkek~
 Çora Erkeði~
@@ -250,12 +175,7 @@ Bir Çora Erkeði birþeyler arýyor.
 The Çora Man looks at you intently before continuing on his way.
 ~
 çora~
-ABR DEFZ 500 0
-13 0 2d10+170 129d1+1 2d5+3 magic
--1 -1 -1 8
-FG A B Z
-stand stand male 513
-AHMV ABCDEFGHIJ medium 0
+ABR DEFZ 13
 #14517
 çora kadýn~
 Çora Kadýný~
@@ -264,12 +184,7 @@ Güzel bir Çora Kadýný kendi kendine mýrýldanýyor.
 Looking into her eyes causes you great fear.
 ~
 çora~
-ABR DEFZ 500 0
-16 0 3d9+233 159d1+1 2d6+4 magic
--2 -2 -2 7
-FG A B Z
-stand stand female 300
-AHMV ABCDEFGHIJ medium 0
+ABR DEFZ 16
 #14518
 cüce kadýn~
 Cüce Kadýný~
@@ -278,12 +193,7 @@ Cüce Kadýný yumruðuyla avuç içine vuruyor.
 Stand back!  She's about to blow!!!
 ~
 dwarf~
-ABT DF 900 0
-16 0 3d9+233 159d1+1 2d6+4 beating
--2 -2 -2 7
-CDEIK A LQ R
-stand stand female 122
-AHMV ABCDEFGHIJ medium 930
+ABT DF 16
 #14519
 cüce erkek~
 Cüce Erkeði~
@@ -292,12 +202,7 @@ Cüce Erkeði~
 He looks back at you, then dismisses you as unimportant.
 ~
 dwarf~
-ABT DF 900 0
-19 0 3d9+308 189d1+1 2d7+5 punch
--4 -4 -4 7
-CDEIK A LQ R
-stand stand male 444
-AHMV ABCDEFGHIJ medium 348
+ABT DF 19
 #14520
 savaþçý goblin~
 Goblin Savaþçý~
@@ -309,12 +214,7 @@ armed and armored, doesn't wear boots, and has claws and talons with which
 to fight.
 ~
 goblin~
-AFG J -300 0
-12 0 2d10+150 119d1+1 1d10+3 slash
-0 0 0 8
-CI 0 LQ C
-stand stand male 123
-AHMV ABCDEFGHIJ huge 666
+AFG J 12
 #0
 
 

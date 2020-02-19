@@ -11,7 +11,7 @@ Maxvnum 99
 Path ~
 END
 
-#MOBILES
+#NEW_MOBILES
 #10
 gölge %s~
 %s gölgesi~
@@ -21,12 +21,7 @@ This dark form seems like it wants to get back at %s for keeping it
 below them for so long....better not get in its way!
 ~
 human~
-AW JPVZee 0 0
-0 0 0d0+0 0d0+0 5d3+15 slash
-0 0 0 0
-EFN EKL H NI
-stand stand male 0
-0 0 medium 0
+AW JPVZee 1
 #11
 özel koruma~
 koruma~
@@ -35,12 +30,7 @@ koruma~
 Çok ama çok kýzgýn.
 ~
 human~
-ATc JNV 1000 0
-20 3 16d15+320 1d1+141 5d5+10 punch
-0 0 0 0
-TQ 0 AB M
-stand stand male 0
-0 0 medium 0
+ATc JNV 20
 #12
 ayý~
 ayý~
@@ -49,12 +39,7 @@ Güçlü bir ayý burada.
 Özel birþey görmüyorsun.
 ~
 bear~
-A 0 0 0
-0 1 1d1+1 1d1+1 3d10+12 claw
-0 0 0 0
-N 0 0 0
-stand stand male 0
-0 0 medium 0
+A 0 1
 #13
 ateþ çýkaran kýzýl þeytan~
 ateþ çýkaran bir kýzýl þeytan~
@@ -63,12 +48,7 @@ Ateþ çýkaran bir kýzýl þeytan burada, çok sinirli.
 Kocaman kýzýl bir þeytan... Ateþ çýkarýyor.
 ~
 unique~
-AB JZ -1000 0
-40 0 1d1+1 1d1+1 2d4+20 slash
--15 -15 -15 -15
-FHI 0 0 0
-stand stand male 0
-0 0 medium 0
+AB JZ 40
 #14
 solucan~
 Solucan~
@@ -78,12 +58,7 @@ This is a Nightwalker summoned from the shadows. Bloody eyes seem glowing.
 This creature has a horible look.
 ~
 human~
-ATOc JFD -750 0
-20 3 16d15+240 1d1+152 5d3+20 punch
-0 0 0 0
-JED G AB M
-stand stand male 0
-0 0 medium 0
+ATOc JFD 20
 #15
 stalker guard~
 the stalker~
@@ -92,12 +67,7 @@ A Stalker stands here, red with anger!
 Angry, very angry.
 ~
 human~
-ATc 0 1000 0
-20 3 16d15+160 1d1+149 4d9+15 slash
-0 0 0 0
-FHINQT AB MN 0
-stand stand male 0
-0 0 medium 0
+ATc 0 20
 #16
 bey~
 bey~
@@ -107,12 +77,7 @@ This noble squire is serving his apprenticeship in the ways of honor
 and chivalry under his master.
 ~
 human~
-ATc JNVHFee 1000 0
-20 3 16d15+160 1d1+149 3d10+12 slash
-0 0 0 0
-EN 0 AB M
-stand stand male 0
-0 0 medium 0
+ATc JNVHFee 20
 #17
 ayna~
 ayna~
@@ -121,12 +86,7 @@ Birinin aynalanmýþ görüntüsü burada.
 Hakkýnda özel bir þey görmüyorsun.
 ~
 human~
-AB 0 0 0
-0 0 0d0+0 0d0+0 0d0+0 none
-0 0 0 0
-EFN EKL H NI
-stand stand male 0
-0 0 medium 0
+AB 0 1
 #18
 hortlak~
 hortlak~
@@ -135,12 +95,7 @@ Bir hortlak bedeni burada.
 Hakkýnda özel bir þey görmüyorsun.
 ~
 undead~
-A 0 0 0
-0 1 1d1+1 1d1+1 3d10+12 punch
-0 0 0 0
-N 0 0 0
-stand stand male 0
-0 0 medium 0
+A 0 1
 #19
 aslan~
 aslan~
@@ -149,12 +104,7 @@ Soylu bir aslan burada.
 Hakkýnda özel bir þey görmüyorsun.
 ~
 lion~
-A 0 0 0
-0 1 1d1+1 1d1+1 3d10+12 claw
-0 0 0 0
-N 0 0 0
-stand stand male 0
-0 0 medium 0
+A 0 1
 #20
 kurt~
 kurt~
@@ -163,12 +113,7 @@ Sinirli bir kurt görüyorsun.
 Hakkýnda özel bir þey görmüyorsun.
 ~
 wolf~
-A 0 0 0
-0 1 1d1+1 1d1+1 3d10+12 claw
-0 0 0 0
-N 0 0 0
-stand stand male 0
-0 0 medium 0
+A 0 1
 #21
 küçük golem~
 küçük golem~
@@ -177,12 +122,7 @@ Küçük bir golem burada.
 The golem appears to be made of some kind of clay, enchanted to come to life!.
 ~
 golem~
-AT V 0 0
-0 1 1d1+1 1d1+1 3d10+12 crush
-0 0 0 0
-EFO 0 0 0
-stand stand none 0
-0 0 small 0
+AT V 1
 #22
 taþ golem~
 taþ golem~
@@ -192,12 +132,7 @@ This is a large stone statue of a man. The statue stands eight feet tall
 and looks powerful enough to rip off your head without straining.
 ~
 golem~
-AT V 0 0
-0 1 1d1+1 1d1+1 3d10+12 crush
-0 0 0 0
-EFO 0 0 0
-stand stand none 0
-0 0 medium 0
+AT V 1
 #23
 demir golem~
 demir golem~
@@ -208,12 +143,7 @@ fifteen feet tall.  In fact it almost looks as if it can move.  You then glance
 at it's eyes and notice with a shock that they are watching you.
 ~
 golem~
-AT V 0 0
-0 1 1d1+1 1d1+1 3d10+12 crush
-0 0 0 0
-EFO 0 0 0
-stand stand none 0
-0 0 medium 0
+AT V 1
 #24
 adament golem~
 adament golem~
@@ -223,12 +153,7 @@ It seems to be forged of dark metal.  It looks strong and durable,
 but somewhat un-intelligent.
 ~
 golem~
-AT V 0 0
-0 1 1d1+1 1d1+1 3d10+12 crush
-0 0 0 0
-EFO 0 0 0
-stand stand none 0
-0 0 large 0
+AT V 1
 #25
 aslan~
 aslan~
@@ -237,12 +162,7 @@ Soylu bir aslan burada.
 Hakkýnda özel bir þey görmüyorsun.
 ~
 lion~
-A 0 0 0
-0 1 1d1+1 1d1+1 3d10+12 claw
-0 0 0 0
-N 0 0 0
-stand stand male 0
-0 0 medium 0
+A 0 1
 #26
 gölge kara~
 gölge~
@@ -251,12 +171,7 @@ Kara bir gölge burada.
 You see nothingness.
 ~
 lion~
-AO 0 0 0
-0 1 1d1+1 1d1+1 3d10+12 claw
-0 0 0 0
-N M 0 0
-stand stand male 0
-0 0 medium 0
+AO 0 1
 #27
 köpek~
 köpek~
@@ -265,12 +180,7 @@ Efendisinden emir bekleyen bir köpek burada.
 Hakkýnda özel bir þey görmüyorsun.
 ~
 dog~
-A 0 0 0
-0 1 1d1+1 1d1+1 3d10+12 claw
-0 0 0 0
-N 0 0 0
-stand stand male 0
-0 0 medium 0
+A 0 1
 #28
 toprak uþak~
 toprak uþaðý~
@@ -279,12 +189,7 @@ Kocaman bir toprak uþaðý hareket etmeye hazýrlanýyor.
 Hakkýnda özel bir þey görmüyorsun.
 ~
 earth elemental~
-A 0 0 0
-0 1 1d1+1 1d1+1 3d10+12 crush
-0 0 0 0
-N 0 E 0
-stand stand male 0
-0 0 large 0
+A 0 1
 #29
 hava uþak~
 hava uþaðý~
@@ -293,12 +198,7 @@ Kocaman bir hava uþaðý esmeye hazýrlanýyor.
 Hakkýnda özel bir þey görmüyorsun.
 ~
 air elemental~
-A 0 0 0
-0 1 1d1+1 1d1+1 3d10+12 crush
-0 0 0 0
-N 0 OS 0
-stand stand male 0
-0 0 large 0
+A 0 1
 #30
 ateþ uþak~
 ateþ uþaðý~
@@ -307,12 +207,7 @@ Kocaman bir ateþ uþaðý yakmaya hazýrlanýyor.
 Hakkýnda özel bir þey görmüyorsun.
 ~
 fire elemental~
-A 0 0 0
-0 1 1d1+1 1d1+1 3d10+12 crush
-0 0 0 0
-N 0 H 0
-stand stand male 0
-0 0 large 0
+A 0 1
 #31
 su uþak~
 su uþaðý~
@@ -321,12 +216,7 @@ Kocaman bir su uþaðý boðmaya hazýrlanýyor.
 Hakkýnda özel bir þey görmüyorsun.
 ~
 water elemental~
-A 0 0 0
-0 1 1d1+1 1d1+1 3d10+12 crush
-0 0 0 0
-N 0 I 0
-stand stand male 0
-0 0 large 0
+A 0 1
 #32
 enerji uþak~
 enerji uþaðý~
@@ -334,13 +224,8 @@ Kocaman bir enerji uþaðý çarpmaya hazýrlanýyor.
 ~
 Hakkýnda özel bir þey görmüyorsun.
 ~
-lightning elemental~
-A 0 0 0
-0 1 1d1+1 1d1+1 3d10+12 crush
-0 0 0 0
-N 0 J 0
-stand stand male 0
-0 0 large 0
+air elemental~
+A 0 1
 #33
 canlandýrýlmýþ silah~
 Canlandýrýlmýþ %s~
@@ -349,12 +234,7 @@ Canlandýrýlmýþ bir silah burada.
 Hakkýnda özel bir þey görmüyorsun.
 ~
 unique~
-A 0 0 0
-0 1 1d1+1 1d1+1 3d10+12 slash
-0 0 0 0
-N 0 0 0
-stand stand male 0
-0 0 large 0
+A 0 1
 #34
 canlandýrýlmýþ zýrh~
 Canlandýrýlmýþ %s~
@@ -363,12 +243,7 @@ Canlandýrýlmýþ bir zýrh burada.
 Hakkýnda özel bir þey görmüyorsun.
 ~
 unique~
-A 0 0 0
-0 1 1d1+1 1d1+1 3d10+12 crush
-0 0 0 0
-N 0 0 0
-stand stand male 0
-0 0 large 0
+A 0 1
 #0
 
 #OBJECTS
@@ -788,137 +663,33 @@ potion G AO
 1 'bless' '' '' ''
 0 10 0 P
 #51
-tattoo atum ra~
-lawful good tattoo of atum-ra~
-A tattoo flying in the air.~
+dövme kame~
+Kameni dövmesi~
+Bir dövme havada süzülüyor.~
 energy~
 tattoo AUTY AR
 0 0 -1 0 0
 0 0 0 P
 #52
-tattoo zeus~
-neutral good tattoo of zeus~
-A tattoo flying in the air.~
+dövme nir~
+Niryani dövmesi~
+Bir dövme havada süzülüyor.~
 energy~
 tattoo AUTY AR
 0 0 -1 0 0
 0 0 0 P
 #53
-tattoo siebele~
-true neutral tattoo of siebele~
-A tattoo flying in the air.~
+dövme nyah~
+Nyahi dövmesi~
+Bir dövme havada süzülüyor.~
 energy~
 tattoo AUTY AR
 0 0 -1 0 0
 0 0 0 P
 #54
-tattoo shamash~
-tattoo of shamash, god of justice~
-A tattoo flying in the air.~
-energy~
-tattoo AUTY AR
-0 0 -1 0 0
-0 0 0 P
-#55
-tattoo ahura mazda~
-chaotic good tattoo of ahuramazda~
-A tattoo flying in the air.~
-energy~
-tattoo AUTY AR
-0 0 -1 0 0
-0 0 0 P
-#56
-tattoo ehrumen~
-chaotic evil tattoo of ehrumen~
-A tattoo flying in the air.~
-energy~
-tattoo AUTY AR
-0 0 -1 0 0
-0 0 0 P
-#57
-tattoo deimos~
-lawful evil tattoo of deimos~
-A tattoo flying in the air.~
-energy~
-tattoo AUTY AR
-0 0 -1 0 0
-0 0 0 P
-#58
-tattoo phobos~
-neutral evil tattoo of phobos~
-A tattoo flying in the air.~
-energy~
-tattoo AUTY AR
-0 0 -1 0 0
-0 0 0 P
-#59
-tattoo odin~
-lawful neutral tattoo of odin~
-A tattoo flying in the air.~
-energy~
-tattoo AUTY AR
-0 0 -1 0 0
-0 0 0 P
-#60
-tattoo teshub~
-chaotic neutral tattoo of teshub~
-A tattoo flying in the air.~
-energy~
-tattoo AUTY AR
-0 0 -1 0 0
-0 0 0 P
-#61
-tattoo ares~
-tattoo of ares, God of War~
-A tattoo flying in the air.~
-energy~
-tattoo AUTY AR
-0 0 -1 0 0
-0 0 0 P
-#62
-tattoo goktengri~
-tattoo of goktengri, God of Honor~
-A tattoo flying in the air.~
-energy~
-tattoo AUTY AR
-0 0 -1 0 0
-0 0 0 P
-#63
-tattoo hera~
-tattoo of hera, god of hate~
-A tattoo flying in the air.~
-energy~
-tattoo AUTY AR
-0 0 -1 0 0
-0 0 0 P
-#64
-tattoo venus~
-tattoo of venus, god of beauty~
-A tattoo flying in the air.~
-energy~
-tattoo AUTY AR
-0 0 -1 0 0
-0 0 0 P
-#65
-tattoo set~
-tattoo of set, god of anger~
-A tattoo flying in the air.~
-energy~
-tattoo AUTY AR
-0 0 -1 0 0
-0 0 0 P
-#66
-tattoo enki~
-tattoo of enki, god of knowledge~
-A tattoo flying in the air.~
-energy~
-tattoo AUTY AR
-0 0 -1 0 0
-0 0 0 P
-#67
-tattoo eros~
-tattoo of eros, god of love~
-A tattoo flying in the air.~
+dövme sint~
+Sintaryan dövmesi~
+Bir dövme havada süzülüyor.~
 energy~
 tattoo AUTY AR
 0 0 -1 0 0
@@ -1010,9 +781,9 @@ weapon TWAIP AN
 sword 10 1 pierce D
 20 80 0 P
 #84
-quest kio~
-quest staff of kio~
-A quest obj flying in the air.~
+kaffa görev asasý~
+Kaffa görev asasý~
+Bir Kaffa görev asasý havada asýlý duruyor.~
 energy~
 treasure ATY A
 0 0 -1 0 0
@@ -1022,9 +793,9 @@ quest~
 The letters '%s' is carved on the staff.
 ~
 #85
-quest conrad~
-quest staff of conrad~
-A quest obj flying in the air.~
+randalin görev asasý~
+Randalin görev asasý~
+Bir Randalin görev asasý havada asýlý duruyor.~
 energy~
 treasure ATY A
 0 0 -1 0 0
@@ -1034,9 +805,9 @@ quest~
 The letters '%s' is carved on the staff.
 ~
 #86
-quest powerman~
-quest staff of powerman~
-A quest obj flying in the air.~
+ged görev asasý~
+Ged görev asasý~
+Bir Ged görev asasý havada asýlý duruyor.~
 energy~
 treasure ATY A
 0 0 -1 0 0
@@ -1127,9 +898,9 @@ spirit~
 The spirit of %s is in this vial.
 ~
 #94
-girth hero~
-the %s Girth of %s~
-An enormous, huge GIRTH lies here, filling the room with its power.~
+kahraman kemer~
+%s kahraman kemeri [%s]~
+Kocaman bir kemer odayý gücüyle dolduruyor.~
 platinum~
 armor AGIOY ALP
 12 12 12 9 2
@@ -1160,7 +931,7 @@ F
 D 0 0 CDEG
 #97
 mandrake görev asasý~
-%sMandrake görev asasý%s[%s%s%s]~
+Mandrake görev asasý~
 Bir mandrake görev asasý havada asýlý duruyor.~
 energy~
 treasure ATY A
@@ -1194,10 +965,10 @@ lance 10 1 none D
 
 #ROOMS
 #1
-The Void~
-You are floating in nothing.
+Boþluk~
+Biçimsiz bir hiçliðin içinde süzülüyorsun. Tüm duyularýn kör olmuþ durumda.
 ~
-0 CD 1
+0 CDKN 1
 S
 #2
 Boþluk~
@@ -1225,23 +996,10 @@ M 13 spec_cast_mage		* summoned demon
 S
 
 #OMPROGS
-O 51 fight_prog fight_prog_tattoo_apollon
-O 52 fight_prog fight_prog_tattoo_zeus
-O 53 fight_prog fight_prog_tattoo_siebele
-O 54 fight_prog fight_prog_tattoo_hephaestus
-O 55 fight_prog fight_prog_tattoo_ehrumen
-O 56 fight_prog fight_prog_tattoo_ahrumazda
-O 57 fight_prog fight_prog_tattoo_deimos
-O 58 fight_prog fight_prog_tattoo_phobos
-O 59 fight_prog fight_prog_tattoo_odin
-O 60 fight_prog fight_prog_tattoo_mars
-O 61 fight_prog fight_prog_tattoo_athena
-O 62 fight_prog fight_prog_tattoo_goktengri
-O 63 fight_prog fight_prog_tattoo_hera
-O 64 fight_prog fight_prog_tattoo_venus
-O 65 fight_prog fight_prog_tattoo_ares
-O 66 fight_prog fight_prog_tattoo_prometheus
-O 67 fight_prog fight_prog_tattoo_eros
+O 51 fight_prog fight_prog_tattoo_kame
+O 52 fight_prog fight_prog_tattoo_nir
+O 53 fight_prog fight_prog_tattoo_nyah
+O 54 fight_prog fight_prog_tattoo_sint
 O 28 wear_prog wear_prog_ranger_staff
 *O 28 death_prog death_prog_ranger_staff
 O 28 fight_prog fight_prog_ranger_staff

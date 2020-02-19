@@ -17,7 +17,7 @@ Converted to standard Envy 1.x by Jason Huang (god@sure.net)
 Further conversion to Rom 2.4 by Jaceks and Chicken's Den Staff~
 0 $~
 
-#MOBILES
+#NEW_MOBILES
 #18601
 kuyu canavarý~
 kuyu canavarý~
@@ -27,12 +27,7 @@ Iyyy... Ne iðrenç bir yaratýk! Siyah, yeþil, ince yapýlý ve her yere
 salyalarýný akýtýyor...
 ~
 bear~
-ABC 0 -750 0
-5 0 2d6+60 49d1+1 1d6+1 pierce
-5 5 5 9
-B 0 0 0
-stand stand male 150
-0 0 medium 0
+ABC 0 5
 #18602
 acemi canavar~
 acemi canavarý~
@@ -45,12 +40,7 @@ Belki yardýma ihtiyacý olup olmadýðýný sorsan iyi olur. Amaan boþver...
 Öldür gitsin.
 ~
 school monster~
-ABC G 0 0
-2 0 2d7+21 19d1+1 1d5+0 scratch
-8 8 8 10
-C 0 0 0
-stand stand male 120
-0 0 medium 0
+ABC G 2
 #18603
 ejderha yavru~
 yavru ejderha~
@@ -62,12 +52,7 @@ gerekirse onu gerçekten öldürmek istiyorsun. Fakat unutmaki, küçük bir
 ejderha bile büyük bir sorun yaratabilir.
 ~
 dragon~
-AB 0 100 0
-4 0 2d7+46 39d1+1 1d5+1 grep
-6 6 6 9
-C 0 0 0
-stand stand male 140
-0 0 medium 0
+AB 0 4
 #18604
 koruyucu gardiyan acemi~
 acemi gardiyaný~
@@ -78,12 +63,7 @@ iyi yapýyor gibi görünmüyor. Sana bakýp, diyorki, "Buralarda ejderha gördün
 mü? Eðer onu bulamazsam efendim kellemi uçuracak."
 ~
 human~
-AB 0 0 0
-3 0 2d6+35 29d1+1 1d6+0 punch
-7 7 7 1
-D 0 0 0
-stand stand male 130
-0 0 medium 0
+AB 0 3
 #18605
 simyacý acemi~
 acemi simyacýsý~
@@ -93,13 +73,7 @@ Komik görünen, kýllý, küçük bir züppe. Bir þeyi baþka bir þeye
 karýþtýrmaya çalýþmakla meþgul görünüyor.
 ~
 human~
-AB 0 0 0
-5 0 2d6+60 49d1+1 1d6+1 punch
-5 5 5 9
-E 0 0 0
-stand stand male 150
-0 0 medium 0
-
+AB 0 5
 #18606
 sürüngen korkunç böceksi~
 korkunç sürüngen~
@@ -109,12 +83,7 @@ Iyyyk! Eðer burayý temizlemiþ olsalardý, belkide bu iðrenç, küçük, altý
 bacaklý, kahverengi böcek için çekici bir yer haline gelmezdi burasý.
 ~
 snake~
-ABFG 0 -250 0
-1 0 2d6+8 9d1+1 1d4+0 punch
-9 9 9 10
-F AB 0 0
-stand stand male 110
-0 0 medium 0
+ABFG 0 1
 #18607
 acemi zombi~
 zombi haline getirilmiþ bir acemi~
@@ -124,12 +93,7 @@ Bu adam uzun zamandýr kaybolmuþ burada... Þimdi insandan çok bir zombiye
 benziyor. Onun için üzülüyor olabilirsin ama saldýrmaya için harekete geçti!
 ~
 human~
-ACFG 0 -500 0
-4 0 2d7+46 39d1+1 1d5+1 punch
-6 6 6 9
-G AB 0 0
-stand stand male 140
-0 0 medium 0
+ACFG 0 4
 #18608
 iblis þeytanýmsý~
 iblis~
@@ -139,12 +103,7 @@ Küçük yeþil, belirsiz, insansý þekle sahip,uzun sivrilmiþ bir kuyruða
 sahip yaratýk. Söylemesi zor çünkü, iyice göremeden, gölgelere dalýyor.
 ~
 snake~
-ACGH P -800 0
-3 0 2d6+35 29d1+1 1d6+0 smash
-7 7 7 10
-H 0 0 0
-stand stand male 130
-0 0 medium 0
+ACGH P 3
 #18609
 boðaadam~
 heybetli boðaadam~
@@ -155,12 +114,7 @@ güçlü fakat bir o kadar da aptal görünüyor. Þimdiye kadar gördüðün bütün
 boðalardan daha anlamlý bakýyor ve bu tarafa doðru geliyor!
 ~
 dog~
-ABFG 0 -1000 0
-7 0 2d6+80 69d1+1 1d8+1 blast
-4 4 4 9
-I AB 0 0
-stand stand male 170
-0 0 medium 0
+ABFG 0 7
 #18610
 hayalet~
 karanlýk hayalet~
@@ -170,12 +124,7 @@ Uzun zaman önce ölmüþ bir maceracýnýn ruhu... Yolundan geçenlere ölüm
 getirme þansýný bekleyerek, burada pusuya yatýyor.
 ~
 water fowl~
-ABDFG BDT -850 0
-6 0 2d7+71 59d1+1 1d7+0 bite
-4 4 4 9
-J AB 0 0
-stand stand either 140
-0 0 medium 0
+ABDFG BDT 6
 #18611
 acemi sinir bozan aptal~
 sinir bozan acemi~
@@ -186,12 +135,7 @@ yorumlarý yapmaya devam ediyor. En iyisi soðuk, tavlanmýþ çelikle onu
 susturmak. MUHOHAHAHAHAHAHAHAHAHA!
 ~
 human~
-ABC FG -500 0
-2 0 2d7+21 19d1+1 1d5+0 punch
-8 8 8 10
-K 0 0 0
-stand stand male 120
-0 0 medium 0
+ABC FG 2
 #18612
 acemi ümitsiz moron~
 ümitsiz acemi~
@@ -202,12 +146,7 @@ hem de muhtemelen 2 veya 3 defa. Bu herif anlamayacak, en iyisi derdine
 derman olmak.
 ~
 human~
-ABC G 0 0
-1 0 2d6+10 9d1+1 1d4+0 punch
-9 9 9 10
-L 0 0 0
-stand stand male 110
-0 0 medium 0
+ABC G 1
 #18613
 acemi konuþkan~
 konuþkan acemi~
@@ -218,12 +157,7 @@ ilginç. Ne yaptýðý hakkýnda bir fikri varmýþ gibi görünüyor, diðer
 gördüklerin gibi deðil.
 ~
 human~
-ABG 0 100 0
-3 0 2d6+35 29d1+1 1d6+0 punch
-7 7 7 10
-M 0 0 0
-stand stand male 130
-0 0 medium 0
+ABG 0 3
 #18614
 acemi kayýp~
 kayýp acemi~
@@ -234,12 +168,7 @@ görünüyor. Nerede olduðuna dair bir fikri olduðunu sanmýyorsun. Belki de
 dýþarý çýkmasýna yardým etmelisin.
 ~
 human~
-ACG 0 300 0
-4 0 2d7+46 39d1+1 1d5+1 punch
-6 6 6 9
-N 0 0 0
-stand stand male 140
-0 0 medium 0
+ACG 0 4
 #18615
 acemi zeki~
 zeki acemi~
@@ -249,12 +178,7 @@ Herþeye sahip bir herif var burada. Güzel ekipmanlara da. Yardým
 dosyalarýný okumak lazým ha?
 ~
 human~
-ABC G 0 500
-5 0 2d6+60 49d1+1 1d6+1 punch
-5 5 5 9
-IK 0 0 0
-stand stand male 150
-0 0 medium 0
+ABC G 5
 #0
 
 

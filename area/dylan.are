@@ -11,7 +11,7 @@ Maxvnum 9199
 Path 6g d 3g b g 4y g~
 END
 
-#MOBILES
+#NEW_MOBILES
 #9101
 oldstyle harpy~
 the screaming, filthy harpy~
@@ -22,12 +22,7 @@ caked in filth and grime and she stinks to high heaven.  Her razor-
 sharp talons flex as she considers you for her dinner.
 ~
 human~
-ACF DFP -500 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand female 1525
-0 0 medium 0
+ACF DFP 20
 #9102
 oldstyle harpy leader~
 the screaming harpy leader~
@@ -39,12 +34,7 @@ matted and greasy and you are sickened by the stench that pervades
 her presence.
 ~
 human~
-ABCF DFP -750 0
-23 0 5d10+450 11d9+100 3d6+6 none
--6 -6 -6 6
-EFNU 0 0 0
-stand stand female 2125
-0 0 medium 0
+ABCF DFP 23
 #9103
 oldstyle air elemental~
 the ghostly air elemental~
@@ -54,12 +44,7 @@ The air elemental is hard to see.  You know that it is there
 because objects behind it seem to waver and are slightly blurred.
 ~
 human~
-ACF DFPQ 0 0
-25 0 5d10+550 12d9+100 2d10+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand none 50
-0 0 medium 0
+ACF DFPQ 25
 #9104
 oldstyle mysterious efreeti~
 the mysterious efreeti~
@@ -69,12 +54,7 @@ The efreeti towers menacingly over you.  It is dressed in the
 finest ghostly silks and a headdress with an elaborate brooch.
 ~
 human~
-AC DHP -100 0
-27 0 5d10+650 13d9+100 5d4+7 none
--8 -8 -8 6
-EFNU 0 0 0
-stand stand none 2500
-0 0 medium 0
+AC DHP 27
 #9105
 oldstyle roc~
 the gigantic roc~
@@ -83,12 +63,7 @@ The gigantic roc.
 This bird has a wingspan that stretches several spear-lengths.  It
 moves surprisingly fast for something of its size.~
 human~
-AG 0 50 0
-24 0 5d10+500 12d9+100 2d10+6 none
--6 -6 -6 6
-EFNU 0 0 0
-stand stand female 0
-0 0 medium 0
+AG 0 24
 #9106
 oldstyle roc~
 the gigantic roc~
@@ -98,12 +73,7 @@ This bird has a wingspan that stretches several spear-lengths.  It
 moves surprisingly fast for something of its size.
 ~
 human~
-AG 0 50 0
-28 0 6d12+703 14d9+100 5d4+8 none
--8 -8 -8 6
-EFNU 0 0 0
-stand stand male 2000
-0 0 medium 0
+AG 0 28
 #9107
 oldstyle wicked witch~
 the ugly, wicked witch~
@@ -114,12 +84,7 @@ with warts and boils.  Her nails are long and sharp and look like
 they would be quite painful.  Her eyes pierce your very soul.
 ~
 human~
-ABCF DH -600 0
-31 0 6d12+928 15d9+100 4d6+9 none
--10 -10 -10 5
-EFNU 0 0 0
-stand stand female 3000
-0 0 medium 0
+ABCF DH 31
 #0
 #OBJECTS
 #9101

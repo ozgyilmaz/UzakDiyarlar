@@ -11,7 +11,7 @@ Maxvnum 7899
 Path 4d 3k 2b 5k b k~
 END
 
-#MOBILES
+#NEW_MOBILES
 #7800
 köpek doberman~
 bir doberman~
@@ -22,12 +22,7 @@ brown spots.  Its shape, along with its colors, make this cooshee almost
 undetectable as it moves.
 ~
 dog~
-AGH P 0 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNR 0 0 0
-stand stand none 0
-0 0 medium 0
+AGH P 5
 #7801
 vadi çorasý~
 bir vadi çorasý~
@@ -39,12 +34,7 @@ to spring upon you, like a mountain lion stalking its prey.  He sees you
 noticing him, and quietly disappears.
 ~
 çora~
-ACFGH P 0 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNR 0 0 0
-stand stand male 0
-0 0 medium 0
+ACFGH P 8
 #7802
 vadi çorasý~
 bir vadi çorasý~
@@ -54,12 +44,7 @@ This çora is almost as tall as you are, but much slimmer and more agile.
 She glares at you, then quickly disappears before you see more of her.
 ~
 çora~
-ACFGH P 0 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNR 0 0 0
-stand stand female 0
-0 0 medium 0
+ACFGH P 8
 #7803
 nöbet tutan vadi çorasý nöbetçi~
 nöbet tutan bir vadi çorasý~
@@ -69,12 +54,7 @@ This çora is almost as tall as you are, but much slimmer and more agile.
 He glares at your intrusion and attacks with menace.
 ~
 çora~
-ABF P 0 0
-7 0 2d6+85 3d9+100 1d8+1 none
-4 4 4 9
-EFNR 0 0 0
-stand stand male 0
-0 0 medium 0
+ABF P 7
 #7804
 nöbet tutan vadi çorasý nöbetçi~
 nöbet tutan bir vadi çorasý~
@@ -84,12 +64,7 @@ This çora is almost as tall as you are, but much slimmer and more agile.
 She glares at your intrusion and attacks with menace.
 ~
 çora~
-ABF P 0 0
-7 0 2d6+85 3d9+100 1d8+1 none
-4 4 4 9
-EFNR 0 0 0
-stand stand female 0
-0 0 medium 0
+ABF P 7
 #7805
 gözcülük yapan vadi çorasý~
 gözcülük yapan bir vadi çorasý~
@@ -98,12 +73,7 @@ Gözcülük yapan bir vadi çorasý, senin gibi davetsiz konuklarýn izini sürüyor!
 The çora notices your intrusion and attacks with determination.
 ~
 çora~
-ACFG P 0 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNR 0 0 0
-stand stand male 0
-0 0 medium 0
+ACFG P 6
 #7806
 vadi çorasý~
 bir vadi çorasý~
@@ -113,12 +83,7 @@ She is currently doing some menial chores, and ignores your intrusion except
 when you are in her way.
 ~
 çora~
-AGH P 0 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNR 0 0 0
-stand stand female 0
-0 0 medium 0
+AGH P 6
 #7807
 ihtiyar vadi çorasý~
 ihtiyar bir vadi çorasý~
@@ -129,12 +94,7 @@ This çora looks quite old, probably twenty or more times your age.  He looks
 quite potent, though.
 ~
 çora~
-ABCFQ HN 0 0
-15 0 3d9+208 15d9+100 2d5+3 none
--2 -2 -2 6
-EIKR 0 0 0
-stand stand male 0
-0 0 medium 0
+ABCFQ HN 15
 #7808
 ihtiyar vadi çorasý~
 ihtiyar bir vadi çorasý~
@@ -145,12 +105,7 @@ This çora looks quite old, probably twenty or more times your age.  She looks
 quite potent, though.
 ~
 çora~
-ABCFR N 0 0
-15 0 2d10+190 15d9+100 1d10+3 none
--1 -1 -1 5
-FR 0 0 0
-stand stand female 0
-0 0 medium 0
+ABCFR N 15
 #7809
 ateþ hidrasý~
 ateþ hidrasý~
@@ -160,12 +115,7 @@ This big beast looks like a small red dragon, but has many more heads than a
 regular dragon, too.  It doesn't look happy.
 ~
 human~
-ABF 0 0 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABF 0 20
 #7810
 keþiþ adam yaþlý~
 yaþlý bir keþiþ~
@@ -174,12 +124,7 @@ Yaþlý bir keþiþ burada oturmuþ çubuk tüttürüyor.
 He looks old and feeble.
 ~
 human~
-ABCH 0 0 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABCH 0 3
 #7811
 büyücü talemon~
 Talemon~
@@ -188,12 +133,7 @@ Yaþlý bir büyücü bir takým kimyasallarla meþgul.
 Talemon looks harmless, but the fireballs he throws at you don't.
 ~
 human~
-ABCFR 0 0 0
-25 0 5d10+500 25d9+100 4d4+6 none
--6 -6 -6 2
-FU 0 0 0
-stand stand male 50
-0 0 medium 0
+ABCFR 0 25
 #7812
 muhafýz cin~
 muhafýz cin~
@@ -203,12 +143,7 @@ This daemon is unhappy with its summoned job, and is willing to take out it's
 anger at you!
 ~
 human~
-ABF 0 -500 0
-25 0 5d10+550 12d9+100 2d10+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABF 0 25
 #7813
 kurt~
 bir kurt~
@@ -217,12 +152,7 @@ Bir kurt görüyorsun, sessizce izliyor.
 The wolf is covered with brown hair.  It looks at you with fright.
 ~
 wolf~
-AFH 0 0 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-ENR 0 0 0
-stand stand none 0
-0 0 medium 0
+AFH 0 4
 #7814
 antilop~
 bir antilop~
@@ -232,12 +162,7 @@ With horns and spots over coarse, brown hair, this beast is the spit and
 image of ... an antelope.
 ~
 human~
-AH 0 0 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AH 0 6
 #0
 #OBJECTS
 #7800

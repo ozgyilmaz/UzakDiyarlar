@@ -11,7 +11,7 @@ Maxvnum 8099
 Path 3g 2d 2g 13d g~
 END
 
-#MOBILES
+#NEW_MOBILES
 #8000
 genç~
 genç~
@@ -22,12 +22,7 @@ mates have cost city authorities many millions of creds a week in
 vandalism repairs.
 ~
 human~
-AC 0 -400 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+AC 0 5
 #8001
 serseri~
 serseri~
@@ -37,12 +32,7 @@ This punk is from one of the rowdiest, scruffiest, and definitely most
 fashionable of all gangs -- the Grunge Mongers.
 ~
 human~
-ACG 0 -500 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ACG 0 10
 #8002
 sarhoþ~
 sarhoþ~
@@ -53,12 +43,7 @@ not be stopped by anyone who tries to deter him from revenge upon the
 Justice Department.
 ~
 human~
-ABF D 0 0
-17 0 3d9+258 8d9+100 3d4+4 none
--3 -3 -3 7
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABF D 17
 #8003
 þehir savunmasý~
 þehir savunmasý~
@@ -68,12 +53,7 @@ A member of a local Block's Citi-Def militia, this man is well-armed
 and undersupervised.
 ~
 human~
-ACG J 0 0
-16 0 3d9+233 8d9+100 2d6+4 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ACG J 16
 #8004
 hýrsýz~
 hýrsýz~
@@ -82,12 +62,7 @@ Bir hýrsýz içine karýþabileceði kalabalýk arýyor.
 He blends into the crowd as his hand travels into another citizen's pocket.
 ~
 human~
-ACGHS DF -150 0
-10 0 2d6+110 5d9+100 1d8+2 none
-2 2 2 8
-BEFJNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ACGHS DF 10
 #8005
 tüccar~
 tüccar~
@@ -97,12 +72,7 @@ A practitioner in Mega-City One's largest growth industry, mugging, is
 looking you over for a possible business transaction.
 ~
 human~
-ACG 0 -400 0
-14 0 2d10+190 7d9+100 1d12+3 none
--1 -1 -1 8
-EFNU 0 0 0
-stand stand female 0
-0 0 medium 0
+ACG 0 14
 #8006
 çaylak yargýç~
 çaylak yargýç~
@@ -113,12 +83,7 @@ crimes you have committed.  Being a rookie he will probably be easier on
 you though.
 ~
 human~
-AG DF 300 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+AG DF 20
 #8007
 tüccar hilib~
 Tüccar Hilib~
@@ -128,12 +93,7 @@ Wallaby Gleep is a heavy-set man who gives you the impression that he is
 unintelligent and unimaginative, but looks can be deceiving.
 ~
 human~
-ABC DFJ -600 0
-22 0 5d10+400 11d9+100 4d4+6 none
--5 -5 -5 7
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABC DFJ 22
 #8008
 tüccar turot~
 Tüccar Turot~
@@ -144,12 +104,7 @@ Scrooge.  Indeed, the only thing guaranteed to bring a spark to his dead
 eyes is the mention of money.
 ~
 human~
-ABCF DF -900 0
-25 0 5d10+550 12d9+100 2d10+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABCF DF 25
 #8009
 Erni Ramirez~
 Erni Ramirez~
@@ -160,12 +115,7 @@ deal out of life.  He is content to run the bite fights for Throt and
 Gleep.
 ~
 human~
-ABC 0 -400 0
-19 0 3d9+308 9d9+100 2d7+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABC 0 19
 #8010
 yargýç ekersel~
 Yargýç Ekersel~
@@ -175,12 +125,7 @@ He is a dedicated, if somewhat pessimistic Judge.  He is the Senior Judge
 of the Downtown Quadrant.
 ~
 human~
-AG DFH 300 0
-30 0 6d12+853 15d9+100 4d6+8 none
--9 -9 -9 6
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+AG DFH 30
 #8011
 yargýç bedov~
 Yargýç Bedov~
@@ -191,12 +136,7 @@ She is fanatically dedicated to her job and has no ambitions other than
 to enforce the LAW.
 ~
 human~
-AG DF 500 0
-25 0 5d10+550 12d9+100 2d10+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand female 0
-0 0 medium 0
+AG DF 25
 #8012
 dövüþçü~
 dövüþçü~
@@ -205,12 +145,7 @@ Bir dövüþçü diþlerini sivriltiyor.
 A bite fighter is here with sharpened teeth and a bad attitude.
 ~
 human~
-ABF 0 -400 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABF 0 20
 #0
 
 #OBJECTS

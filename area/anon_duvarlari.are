@@ -11,7 +11,7 @@ Maxvnum 31400
 Path 6d 4g 4b 3g 4b k b g 6b k~
 END
 
-#MOBILES
+#NEW_MOBILES
 #31200
 doðu duvarý muhafýzý~
 doðu duvarý muhafýzý~
@@ -23,12 +23,7 @@ eternally vigilant, not wishing for their city to fall under the domination
 of evil forces.
 ~
 human~
-AGT 128|8192 500 0
-50 0 50d10+4250 5d5+5000 5d8+19 pound
--20 -20 -20 0
-CDEFIKTU 0 0 0
-stand stand male 200
-0 0 medium 0
+AGT 128|8192 50
 #31201
 güney duvarý muhafýzý~
 güney duvarý muhafýzý~
@@ -40,12 +35,7 @@ eternally vigilant, not wishing for their city to fall under the domination
 of evil forces.
 ~
 human~
-AGT 128|8192 500 0
-50 0 50d10+4250 5d5+5000 5d8+19 pound
--20 -20 -20 0
-CDEFIKTU 0 0 0
-stand stand male 200
-0 0 medium 0
+AGT 128|8192 50
 #31202
 kuzey duvarý muhafýzý~
 kuzey duvarý muhafýzý~
@@ -57,12 +47,7 @@ eternally vigilant, not wishing for their city to fall under the domination
 of evil forces.
 ~
 human~
-AGT 128|8192 500 0
-50 0 50d10+4250 5d5+5000 5d8+19 pound
--20 -20 -20 0
-CDEFIKTU 0 0 0
-stand stand male 200
-0 0 medium 0
+AGT 128|8192 50
 #31203
 batý duvarý muhafýzý~
 batý duvarý muhafýzý~
@@ -74,12 +59,7 @@ eternally vigilant, not wishing for their city to fall under the domination
 of evil forces.
 ~
 human~
-AGT 128|8192 500 0
-50 0 50d10+4250 5d5+5000 5d8+19 pound
--20 -20 -20 0
-CDEFIKTU 0 0 0
-stand stand male 200
-0 0 medium 0
+AGT 128|8192 50
 #31204
 doðu duvarý muhafýz yüzbaþýsý~
 doðu duvarý muhafýz yüzbaþýsý~
@@ -91,12 +71,7 @@ face and the cold look in his eye bespeak of a man who definitely knows how
 to handle himself in battle.
 ~
 human~
-ABGT 4|8|16|32|128|8192 800 0
-55 0 50d10+5500 5d5+5000 10d4+23 slash
--25 -25 -25 -1
-CDEFIKTU 0 0 0
-stand stand male 200
-0 0 medium 0
+ABGT 4|8|16|32|128|8192 55
 #31205
 güney duvarý muhafýz yüzbaþýsý~
 güney duvarý muhafýz yüzbaþýsý~
@@ -108,12 +83,7 @@ face and the cold look in his eye bespeak of a man who definitely knows how
 to handle himself in battle.
 ~
 human~
-ABGT 4|8|16|32|128|8192 800 0
-55 0 50d10+5500 5d5+5000 10d4+23 slash
--25 -25 -25 -1
-CDEFIKTU 0 0 0
-stand stand male 200
-0 0 medium 0
+ABGT 4|8|16|32|128|8192 55
 #31206
 kuzey duvarý muhafýz yüzbaþýsý~
 kuzey duvarý muhafýz yüzbaþýsý~
@@ -125,12 +95,7 @@ face and the cold look in his eye bespeak of a man who definitely knows how
 to handle himself in battle.
 ~
 human~
-ABGT 4|8|16|32|128|8192 800 0
-55 0 50d10+5500 5d5+5000 10d4+23 slash
--25 -25 -25 -1
-CDEFIKTU 0 0 0
-stand stand male 200
-0 0 medium 0
+ABGT 4|8|16|32|128|8192 55
 #31207
 batý duvarý muhafýz yüzbaþýsý~
 batý duvarý muhafýz yüzbaþýsý~
@@ -142,12 +107,7 @@ face and the cold look in his eye bespeak of a man who definitely knows how
 to handle himself in battle.
 ~
 human~
-ABGT 4|8|16|32|128|8192 800 0
-55 0 50d10+5500 5d5+5000 10d4+23 slash
--25 -25 -25 -1
-CDEFIKTU 0 0 0
-stand stand male 200
-0 0 medium 0
+ABGT 4|8|16|32|128|8192 55
 #31208
 þövalye~
 þövalye~
@@ -158,12 +118,7 @@ in existence for 15 generations. However constant wars and incursions of
 chaos have severely depleted their numbers, and now very few remain.
 ~
 human~
-ABGT 4|8|16|32|128|8192 1000 0
-58 0 50d10+6250 5d5+5000 5d10+25 slash
--28 -28 -28 -3
-CDEFIK 0 0 0
-stand stand male 200
-0 0 medium 0
+ABGT 4|8|16|32|128|8192 58
 #31209
 çora savaþ büyücüsü~
 çora savaþ büyücüsü~
@@ -176,12 +131,7 @@ adventurers. Some of them, such as this fellow, labor for the forces of
 good, if the price is right.
 ~
 çora~
-ABGR 4|8|16|32|512|524288 400 0
-56 0 50d10+5750 5d5+5000 10d4+24 pound
--26 -26 -26 -2
-EIK 0 B Z
-stand stand male 200
-0 0 medium 0
+ABGR 4|8|16|32|512|524288 56
 #31210
 mareþal~
 mareþal~
@@ -192,12 +142,7 @@ medals than it does material. He marches proudly along, constantly on
 duty, ever eager to make sure order is maintained on HIS walls.
 ~
 human~
-ABGT 4|8|16|32|128|8192 800 0
-62 0 50d10+7250 5d5+5000 6d9+32 slash
--32 -32 -32 -4
-CEFIK 0 0 0
-stand stand male 200
-0 0 medium 0
+ABGT 4|8|16|32|128|8192 62
 #31211
 tatar okçusu~
 tatar okçusu~
@@ -208,12 +153,7 @@ across the land. Only the very best can ever hope to join their elite
 ranks.
 ~
 human~
-ABGT 512|8192 400 0
-48 0 25d10+3750 5d5+1000 6d6+18 pound
--18 -18 -18 1
-EFIKN 0 0 0
-stand stand male 200
-0 0 medium 0
+ABGT 512|8192 48
 #31212
 onarým muhafýzý~
 onarým muhafýzý~
@@ -223,12 +163,7 @@ This doughty dwarf spends all his time repairing damaged equipment. He isn't
 one for much conversation.
 ~
 dwarf~
-ABGT 4|8|16|32|128|8192 0 0
-59 0 50d10+6500 5d5+5000 8d6+26 pound
--29 -29 -29 -3
-CDEFIKTU 0 0 0
-stand stand male 200
-0 0 medium 0
+ABGT 4|8|16|32|128|8192 59
 #31213
 iðrenç hayalet~
 iðrenç hayalet~
@@ -239,12 +174,7 @@ girl here who eventually slew him, dying herself in the process. He has been
 condemned to remain here for eternity in punishment for his sins.
 ~
 unique~
-2|32|64 4|8|16|32|128|512|8192|32768|524288 -1000 0
-60 0 50d10+6750 5d5+5000 8d6+28 charge
--30 -30 -30 -3
-EFIKN 0 0 0
-stand stand none 200
-0 0 medium 0
+2|32|64 4|8|16|32|128|512|8192|32768|524288 60
 #31214
 hayalet~
 hayalet~
@@ -256,12 +186,7 @@ escape, but died herself in the process, slipping in his blood and breaking
 her neck. Her spirit remains here, tormented by its misery.
 ~
 unique~
-2|64|128 2|4|8|16|32|128|512|8192|32768|65536|524288 1000 0
-60 0 50d10+6750 5d5+5000 8d6+28 magic
--30 -30 -30 -3
-EF 0 0 0
-stand stand none 200
-0 0 medium 0
+2|64|128 2|4|8|16|32|128|512|8192|32768|65536|524288 60
 #31215
 rahibe Leni~
 rahibe Leni~
@@ -272,12 +197,7 @@ smiles at you as you enter, and bids you state your injuries so she can
 heal them.
 ~
 human~
-2|64 4|8|16|32|128|512|8192 1000 0
-60 0 50d10+6750 5d5+5000 8d6+28 slap
--30 -30 -30 -3
-EFNU 0 0 0
-stand stand female 200
-0 0 medium 0
+2|64 4|8|16|32|128|512|8192 60
 #31216
 iriyarý iþçi~
 iriyarý iþçi~
@@ -287,12 +207,7 @@ These burly fellows would be a tough foe in a barroom brawl. They have more
 tattoos than skin, it seems, and more hair than the average Kodiak grizzly.
 ~
 human~
-64|8388608 8192 0 0
-8 0 2d7+96 5d5+100 1d7+2 punch
-3 3 3 8
-EFNU 0 0 0
-stand stand male 200
-0 0 medium 0
+64|8388608 8192 8
 #31217
 denizci~
 denizci~
@@ -302,12 +217,7 @@ This disreputable-looking fellow is a crew member from one of the scows. He
 is simply waiting till its time to go.
 ~
 human~
-64|8388608 8192 0 0
-8 0 2d7+96 5d5+100 1d7+2 punch
-3 3 3 8
-EFNU 0 0 0
-stand stand male 200
-0 0 medium 0
+64|8388608 8192 8
 #31218
 rýhtým þefi~
 rýhtým þefi~
@@ -316,12 +226,7 @@ Rýhtým þefi yükleri kontrol ediyor.
 He is far too busy to speak to you.
 ~
 human~
-2|64|8388608 128 400 0
-12 0 2d10+150 5d5+100 1d10+3 pound
-0 0 0 7
-CEIK 0 0 0
-stand stand male 200
-0 0 medium 0
+2|64|8388608 128 12
 #0
 
 #OBJOLD

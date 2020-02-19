@@ -11,8 +11,7 @@ Maxvnum 11949
 Path 7b 2g d g d 3g~
 END
 
-
-#MOBILES
+#NEW_MOBILES
 #11800
 drakiri leçantra bayan~
 Lechandre~
@@ -27,12 +26,7 @@ her forehead:
                              ((+*+))
 ~
 çora~
-ABGR DFH 0 0
-93 0 100d12+19000 1d100+15000 13d13+63 magic
--61 -63 -64 -33
-EFG 0 BJK 0
-stand stand female 55000
-0 0 medium 0
+ABGR DFH 93
 #11801
 drakiri deriki norek lord~
 Norek~
@@ -44,12 +38,7 @@ mark on the hem of his clothing indicates his rank as consort to the head
 of major house Deriki, Lechandre.
 ~
 çora~
-ABGR DFH 0 0
-93 0 100d12+19000 1d100+14700 12d13+63 wrath
--63 -63 -61 -32
-FG 0 J F
-stand stand male 45700
-0 0 medium 0
+ABGR DFH 93
 #11802
 drakiri deriki dirli bayan~
 Dirli~
@@ -61,12 +50,7 @@ her experiment, does not seem to notice you.  She wears the insignia of
 she'vale Deriki and the mark of the first in command.
 ~
 çora~
-ABGR DFH 0 0
-89 0 100d12+17000 1d100+12000 14d10+59 wrath
--58 -58 -59 -39
-FG 0 I H
-stand stand female 15000
-0 0 medium 0
+ABGR DFH 89
 #11803
 drakiri deriki roveni~
 Roveni~
@@ -77,12 +61,7 @@ She bears the fine boned features of an çora and the iridescent wings
 of the fae.  Pale green eyes watch you measuringly.
 ~
 çora~
-ABGR BDFT 0 0
-85 0 100d12+15000 1d100+10500 10d13+55 magic
--55 -55 -55 -25
-FG 0 I H
-stand stand female 10000
-0 0 medium 0
+ABGR BDFT 85
 #11804
 drakiri deriki zanil erkek~
 Zanil~
@@ -93,12 +72,7 @@ a stack of parchment.  He bears the mark of the treye, third in command,
 of she'vale Deriki.
 ~
 çora~
-ABGR DF 0 0
-82 0 100d10+13500 1d100+10000 10d12+52 magic
--53 -54 -50 -22
-FG 0 K 0
-stand stand male 10000
-0 0 medium 0
+ABGR DF 82
 #11805
 drakiri deriki tirena bayan~
 Tirena~
@@ -111,12 +85,7 @@ marking her as the heir to Deriki.  When she comes into full power, the
 dot will be replaced by the house crest.
 ~
 çora~
-ABGR DFH 0 0
-87 0 100d12+16000 1d100+11500 12d11+57 magic
--56 -55 -57 -27
-FGI 0 0 J
-stand stand female 25300
-0 0 medium 0
+ABGR DFH 87
 #11806
 drakiri deriki nalis kýz~
 Nalis~
@@ -127,12 +96,7 @@ her.  A narrow mark along one cheekbone denotes her as one of the
 younger siblings (ira'deia) of the heir.
 ~
 çora~
-ABCGR DFPTV 0 0
-83 0 100d12+14000 1d100+10000 9d14+53 pierce
--54 -53 -53 -23
-FGJ 0 0 0
-stand stand female 5700
-0 0 medium 0
+ABCGR DFPTV 83
 #11807
 drakiri deriki deman genç~
 Deman~
@@ -143,12 +107,7 @@ seemingly oblivious to your presence.  A blue mark along his cheekbone
 indicates that he is a younger sibling of the Deriki heir.
 ~
 çora~
-ABGR BDFT 0 0
-84 0 100d12+14500 1d100+10000 9d14+54 slash
--55 -54 -53 -24
-FGHN 0 0 0
-stand stand male 6000
-0 0 medium 0
+ABGR BDFT 84
 #11808
 drakiri deriki yýkades genç~
 Yýkades~
@@ -160,12 +119,7 @@ golden locks to examine you with curious grey-silver eyes.  He
 bears the mark of an ira'deian, or younger child, along one cheekbone.
 ~
 çora~
-ACGR BDFTV 0 0
-83 0 100d12+14000 1d100+10000 9d14+53 punch
--52 -52 -52 -14
-FGJ 0 J K
-stand stand male 7500
-0 0 medium 0
+ACGR BDFTV 83
 #11809
 zeyon kar baykuþ~
 Zeyon~
@@ -174,12 +128,7 @@ Mavi buz renginde bir kay baykuþu seni izliyor, DÝKKATLE!.
 Huge dark eyes examine you curiously.
 ~
 unique~
-AC TZ 0 0
-90 0 100d12+17000 1d50+12000 10d10+60 peckb
--60 -59 -60 -20
-CDEFG 0 IJ H
-stand stand either 0
-ACHW ACDEFHJKPU large 0
+AC TZ 90
 #11810
 drakiri laboratuvar asistaný~
 laboratuvar asistaný~
@@ -188,12 +137,7 @@ Bir asistan heyecanla deney düzenekleri oluþturuyor.
 He seems a little harried and glares at you for getting in the way.
 ~
 çora~
-ABCGR DT 0 0
-81 0 100d12+13000 1d50+9500 13d9+51 punch
--50 -50 -52 -21
-DFG 0 0 0
-stand stand male 1500
-0 0 medium 0
+ABCGR DT 81
 #11811
 eðitim yapan büyücü~
 eðitim yapan büyücü~
@@ -206,12 +150,7 @@ about idiots and fried brains.  An odor of singed hair wafts from
 your left ear.
 ~
 çora~
-ACGR DFT 0 0
-80 0 100d12+12500 1d50+9500 13d9+50 scratch
--49 -50 -50 -20
-FG 0 0 0
-stand stand either 5000
-0 0 medium 0
+ACGR DFT 80
 #11812
 hayaletimsi kývranan þekil~
 kývranan þekil~
@@ -222,12 +161,7 @@ to be trapped in one place by some kind of magic which apparently
 holds despite the form's continuous lashing.
 ~
 unique~
-ABGR BITUZ 0 0
-87 0 100d12+16000 1d50+10000 12d11+57 magic
--57 -57 -57 -20
-DFG 0 D MNO
-stand stand none 0
-HL 0 medium mist
+ABGR BITUZ 87
 #11813
 glip koruma~
 glip~
@@ -237,12 +171,7 @@ It seems to be made of semi-transparent substance shaped in the form
 of a magical glyph, created to guard the house against outside threats.
 ~
 unique~
-ABG BDFQTUZ 0 0
-90 0 100d12+17500 1d100+10000 12d12+60 wrath
--60 -60 -60 -28
-DEFG 0 FMN JOP
-stand stand none 0
-HL 0 medium mist
+ABG BDFQTUZ 90
 #11814
 drakiri lord dosande~
 Dosande~
@@ -256,12 +185,7 @@ A golden symbol shimmers between his brows:
                           ((-*-))
 ~
 çora~
-ABGT CHN 1000 0
-90 0 100d12+19000 1d10+1000 12d12+60 holy
--60 -58 -58 -26
-CDEIK N Y M
-stand stand male 65000
-0 0 medium 0
+ABGT CHN 90
 #11815
 drakiri denilis bayan~
 Denilis~
@@ -272,12 +196,7 @@ golden halo.  Bright blue eyes gaze back at you serenely.  You sense
 an aura of great power behind the gentle smile.
 ~
 çora~
-ABGQ CHNT 1000 0
-89 0 100d12+17500 1d10+2000 12d11+59 holy
--59 -59 -58 -25
-DEF 0 N M
-stand stand female 45500
-0 0 medium 0
+ABGQ CHNT 89
 #11816
 drakiri kayele~
 Kayele~
@@ -288,12 +207,7 @@ one eyebrow raises in question.  He bears the mark of a sh'ayan
 on his collar.
 ~
 çora~
-ACGT CHNT 1000 0
-85 0 100d12+16500 1d10+950 10d13+55 wrath
--56 -57 -56 -21
-CDEFK 0 N M
-stand stand male 25500
-0 0 medium 0
+ACGT CHNT 85
 #11817
 drakiri reksena diþi~
 Reksena~
@@ -305,12 +219,7 @@ and her stance betrays an aura of authority.  She bears the mark of
 the Treniste sequas, the second in command.
 ~
 çora~
-ACGT CNT 900 0
-83 0 100d12+15500 1d10+930 9d14+53 cleave
--54 -53 -54 -20
-CDEIK 0 IN HM
-stand stand female 15500
-0 0 medium 0
+ACGT CNT 83
 #11818
 drakiri deyis erkek~
 Deyis~
@@ -321,12 +230,7 @@ face.  On his collar is the mark of the treye, third in command,
 of house Treniste.
 ~
 çora~
-AGQ CNT 900 0
-80 0 100d12+12500 1d50+5000 9d12+50 holy
--48 -48 -49 -19
-EFI 0 N M
-stand stand male 10200
-0 0 medium 0
+AGQ CNT 80
 #11819
 drakiri liren kýz~
 Liren~
@@ -338,12 +242,7 @@ a catlike speed.  A golden dot on her forehead marks this girl as
 the Treniste na'deia, or heir.
 ~
 çora~
-AGT CHNT 980 0
-86 1 100d12+17000 1d10+900 13d10+56 slash
--57 -56 -55 -24
-CDEHIK 0 NJ MI
-stand stand female 21000
-0 0 medium 0
+AGT CHNT 86
 #11820
 drakiri josreke genç~
 Josreke~
@@ -354,12 +253,7 @@ along the spine indicates that it has something to do with magic.
 Along one cheekbone, you notice the tiny mark of a Treniste ira'deian.
 ~
 çora~
-ACGR CDFNT 920 0
-81 0 100d12+12500 1d100+10000 9d12+51 shock
--51 -50 -50 -18
-FG 0 NH MI
-stand stand male 9400
-0 0 medium 0
+ACGR CDFNT 81
 #11821
 drakiri rodven kýz~
 Rodven~
@@ -371,12 +265,7 @@ Noticing your scrutiny, she pauses, and you notice the mark of
 an ira'deia along one cheekbone.
 ~
 çora~
-AGT CNT 920 0
-82 0 100d12+15000 1d10+900 10d12+52 slash
--53 -51 -50 -20
-EFHIK 0 N M
-stand stand female 9500
-0 0 medium 0
+AGT CNT 82
 #11822
 drakiri beyaz paladin~
 beyazlara bürünmüþ paladin~
@@ -386,12 +275,7 @@ The paladin seems to follow your every move, as if measuring your
 worth.
 ~
 çora~
-ABGT CNT 950 0
-85 0 100d12+16500 1d10+950 10d13+55 cleave
--56 -52 -53 -23
-CDFIK 0 N M
-stand stand either 5500
-0 0 medium 0
+ABGT CNT 85
 #11823
 drakiri racal bayan~
 Racal~
@@ -406,12 +290,7 @@ of house Reykaris:
                         ->*<-
 ~
 çora~
-ABFGR DFGHOT -1000 0
-90 0 100d12+17000 1d100+12000 13d10+60 negative
--60 -60 -60 -20
-EFG M H NI
-stand stand female 35500
-0 0 medium 0
+ABFGR DFGHOT 90
 #11824
 drakiri toryan erkek~
 Toryan~
@@ -422,12 +301,7 @@ an aura of complete evil and corruption radiating from this man..
 He bears the mark of the deiayan (consort) of she'vale Reykaris.
 ~
 çora~
-ABFGT GHOT -1000 0
-89 0 100d12+18500 1d10+1000 14d10+59 slash
--58 -58 -59 -27
-CDFK 0 M N
-stand stand male 30000
-0 0 medium 0
+ABFGT GHOT 89
 #11825
 drakiri janalis bayan~
 Janalis~
@@ -439,12 +313,7 @@ blue eyes and pale golden hair.  The mark of the Reykaris sh'aya
 is emblazoned along her collar.
 ~
 çora~
-AFG GHOT -990 0
-86 0 100d12+15500 1d10+960 9d14+56 slice
--55 -56 -56 -24
-EFK 0 M N
-stand stand female 21200
-0 0 medium 0
+AFG GHOT 86
 #11826
 drakiri dýreyva~
 Dýreyva~
@@ -454,12 +323,7 @@ Dark slitted eyes seem to follow your every move.  You notice the
 mark of the Reykaris sequas on her collar.
 ~
 çora~
-AFG GOT -975 0
-83 0 100d12+15750 1d10+930 10d11+53 claw
--54 -52 -53 -21
-FIK 0 M N
-stand stand female 15400
-0 0 medium 0
+AFG GOT 83
 #11827
 drakiri delirus erkek~
 Delirus~
@@ -470,12 +334,7 @@ of warning down your spine.  Along the collar is the mark of the
 Reykaris treye, the third in command.
 ~
 çora~
-ACFGQ BGOT -970 0
-81 0 100d12+13000 1d100+9000 9d12+51 crush
--50 -50 -50 -20
-FI 0 MI NO
-stand stand male 11250
-0 0 medium 0
+ACFGQ BGOT 81
 #11828
 drakiri kýranal~
 Kýranal~
@@ -486,12 +345,7 @@ glare at you angrily.  Between his eyebrows shimmers the black dot
 of the heir to Reykaris.
 ~
 çora~
-ABCFGR BDFGHOT -978 0
-85 0 100d12+15000 1d100+10500 13d9+55 slash
--56 -56 -55 -25
-EFG 0 MH NIP
-stand stand male 23400
-0 0 medium 0
+ABCFGR BDFGHOT 85
 #11829
 drakiri sorina çocuk~
 Sorina~
@@ -504,12 +358,7 @@ mischieviously.  You notice a dark mark along one cheekbone indicating
 her status as an ira'deia, younger child, of house Reykaris.
 ~
 çora~
-ACG GPTV -500 0
-81 0 100d12+13000 1d10+950 9d12+51 pound
--50 -51 -50 -20
-FJ 0 0 0
-stand stand female 1000
-0 0 medium 0
+ACG GPTV 81
 #11830
 drakiri lorin kýz~
 Lorin~
@@ -521,12 +370,7 @@ a silvery throwing dagger balanced in her palm.  Along one cheekbone
 is the mark of an ira'deia of house Reykaris.
 ~
 çora~
-ABCFGS FGPQTV -900 0
-80 0 100d12+12500 1d10+2000 9d12+50 pierce
--50 -45 -46 -18
-BEFJK 0 M N
-stand stand female 14300
-0 0 medium 0
+ABCFGS FGPQTV 80
 #11831
 drakiri çake erkek~
 çake~
@@ -536,12 +380,7 @@ Short, jet black hair frames a narrow face with high cheekbones and dark
 slitted eyes.  The mark of an ira'deian glimmers along one cheekbone.
 ~
 çora~
-ABCFG GOT -900 0
-82 0 100d12+13500 1d10+950 9d12+52 slash
--52 -51 -52 -20
-EFK 0 M N
-stand stand male 14300
-0 0 medium 0
+ABCFG GOT 82
 #11832
 tamu muhafýzý~
 tamu muhafýzý~
@@ -550,12 +389,7 @@ Bir tamu muhafýzý av arýyor.
 A rabid reddish light flickers behind narrow green cat eyes.
 ~
 pig~
-ACFG G -950 0
-79 0 100d12+13000 1d50+5000 9d11+49 claw
--48 -47 -47 -15
-CDJK 0 MH NI
-stand stand none 1000
-0 0 large 0
+ACFG G 79
 #11833
 uluyan eðilmiþ canavar figürü~
 uluyan canavar~
@@ -567,12 +401,7 @@ against the magic which holds it.  The red eyes glint, and
 the long muzzle opens to emit a furious, ear-piercing screech!
 ~
 pig~
-ABCFG O -800 0
-82 0 100d12+14500 1d10+900 9d12+52 bite
--50 -51 -52 -20
-DEFI 0 K P
-stand stand none 0
-0 0 medium 0
+ABCFG O 82
 #11834
 þeytani figür gözler~
 þeytani figür~
@@ -583,12 +412,7 @@ the eyes.  Twisted lips part to reveal cruel white canines.  The
 figure emits a threatening snarl..
 ~
 pig~
-ABCFG GTQ -855 0
-81 0 100d12+14250 1d10+950 10d10+51 claw
--50 -50 -51 -20
-DEFJ 0 DM CN
-stand stand none 1000
-0 0 large 0
+ABCFG GTQ 81
 #11835
 balmumu heykel barudi kara figür~
 barudi~
@@ -602,12 +426,7 @@ blood-freezing snarl, and a trail of very real blood drips from
 the gleaming white fangs!
 ~
 human~
-ABFGR DGOZ -955 0
-80 0 100d12+12500 1d100+8500 9d11+50 claw
--50 -52 -51 -20
-FG 0 M N
-stand stand either 7500
-0 0 medium 0
+ABFGR DGOZ 80
 #11836
 sürünen dokunaçlar~
 sürünen dokunaçlar~
@@ -618,12 +437,7 @@ menacingly.  The tentacles part momentarily, and you notice a
 round, fanged mouth at the center, dripping blood.
 ~
 unique~
-ABCFG OZV -670 0
-81 0 100d12+14000 1d10+950 10d10+51 slash
--51 -50 -51 -20
-DEK 0 0 0
-stand stand none 0
-ACGJ ADEFN huge 0
+ABCFG OZV 81
 #11837
 çaðrýlmýþ þeytan figür iri~
 çaðrýlmýþ þeytan~
@@ -632,12 +446,7 @@ ACGJ ADEFN huge 0
 You catch a glimpse of hellish red eyes and wickedly sharp black talons.
 ~
 unique~
-ABG EZc -900 0
-95 0 100d12+22500 1d100+7500 12d12+65 claw
--65 -65 -63 -24
-EFG 0 MQ NSY
-stand stand none 10300
-ACH ABCDEFJKQUV large 0
+ABG EZc 95
 #11838
 drakiri jena gözler~
 Jena~
@@ -650,12 +459,7 @@ silver eyes gleam from a dark, narrow face like twin daggers.
                         -=+)>
 ~
 çora~
-ABFGS FHPQTVZ 0 0
-73 0 100d12+10250 1d10+1000 8d10+43 pierce
--46 -47 -46 -14
-BEFJK 0 0 0
-stand stand female 65500
-0 0 medium 0
+ABFGS FHPQTVZ 73
 #11839
 drakiri nerakis þekil~
 Nerakis~
@@ -666,12 +470,7 @@ His wary stance betrays a dangerous catlike grace.  You notice
 that he bears the mark of a deiayan of house Myrxes.
 ~
 çora~
-ABFGS FHJPQT 0 0
-73 1 100d12+10250 1d10+900 8d10+43 slash
--43 -43 -43 -12
-BEFJ 0 0 0
-stand stand male 65000
-0 0 medium 0
+ABFGS FHJPQT 73
 #11840
 drakiri katire figür~
 Katire~
@@ -682,12 +481,7 @@ eyes seem to follow your every move.  Along one dark collar, you notice
 the mark of the Myrxes sh'aya.
 ~
 çora~
-ACGS FHPQT 0 0
-70 0 100d12+9000 1d10+900 8d8+40 pierce
--40 -40 -40 -11
-BEFJ 0 0 0
-stand stand female 52500
-0 0 medium 0
+ACGS FHPQT 70
 #11841
 drakiri riksis~
 Riksis~
@@ -699,12 +493,7 @@ merges with them, disappearing from sight.  Along the collar, he
 wears the mark of a sequen, second in command of Myrxes.
 ~
 çora~
-ACGS FPQTV 0 0
-66 0 100d10+8000 1d10+800 11d5+36 pierce
--36 -36 -36 -5
-BEFJ 0 0 0
-stand stand male 41400
-0 0 medium 0
+ACGS FPQTV 66
 #11842
 drakiri gideyas þekil~
 Gideyas~
@@ -716,12 +505,7 @@ boned face.  The mark of the Myrxes treye, third in command, is
 emblazoned on his collar.
 ~
 çora~
-ACGS FPQTZ 0 0
-64 0 100d10+7250 1d10+800 6d9+34 slash
--34 -34 -34 -4
-BEFJ 0 0 0
-stand stand male 15500
-0 0 medium 0
+ACGS FPQTZ 64
 #11843
 drakiri bayan dirayna~
 Dirayna~
@@ -734,12 +518,7 @@ smooth, silent gait displays a dangerous, well controlled power.
 Between her eyebrows is the mark of the Myrxes heir.
 ~
 çora~
-ABCFGS FHPQTZ 0 0
-71 1 100d12+9500 1d10+1000 7d11+41 slash
--41 -41 -41 -11
-BEFJK 0 0 0
-stand stand female 25500
-0 0 medium 0
+ABCFGS FHPQTZ 71
 #11844
 drakiri niksi kýz~
 Niksi~
@@ -750,12 +529,7 @@ Slitted silver eyes pierce the darkness to bore into your own.  Along
 one cheekbone is the mark of an ira'deia of Myrxes.
 ~
 çora~
-ABCGS FPQTZ 0 0
-68 0 100d10+8500 1d10+870 7d9+38 slice
--38 -38 -39 -4
-BEFHJ 0 0 0
-stand stand female 15560
-0 0 medium 0
+ABCGS FPQTZ 68
 #11845
 drakiri delise~
 Delise~
@@ -764,12 +538,7 @@ Bir drakiri gölgelerin içinden beliriyor.
 Pale green cat eyes seem to glow with a silent power.
 ~
 çora~
-ABCGS FPQTZ 0 0
-68 0 100d12+8500 1d10+850 7d9+38 slash
--39 -40 -41 -10
-BEFJ 0 0 0
-stand stand female 15500
-0 0 medium 0
+ABCGS FPQTZ 68
 #11846
 kara panter~
 kara panter~
@@ -778,12 +547,7 @@ Powerful muscles ripple beneath a shadow black coat.  Emerald green
 cat eyes flicker constantly around the room, taking in everything.
 ~
 cat~
-AFG DFPQ 0 0
-63 0 100d10+7500 1d10+750 8d6+33 claw
--33 -33 -33 -13
-EFHK 0 0 0
-stand stand male 0
-0 0 large 0
+AFG DFPQ 63
 #11847
 gölge vaþak~
 gölge vaþaðý~
@@ -793,12 +557,7 @@ The form of a huge, dark lynx is barely visible in the shadows.
 Slitted silver eyes flicker towards you, and she hisses in warning.
 ~
 cat~
-AFG DFPQ 0 0
-63 0 100d10+7500 1d10+750 8d6+33 claw
--33 -33 -34 -13
-EFHK 0 0 0
-stand stand male 0
-0 0 large 0
+AFG DFPQ 63
 #11848
 gece kara atmaca~
 gece atmacasý~
@@ -808,12 +567,7 @@ She hovers silently, powerful wings outspread.  Beneath the intelligent
 dark eyes, a cruel black beak opens to emit a shrill scream of challenge!
 ~
 song bird~
-ACFG PQTZ 0 0
-75 0 100d10+10500 1d10+800 8d11+45 peck
--44 -45 -46 -14
-CDEF 0 0 0
-stand stand female 0
-0 0 huge 0
+ACFG PQTZ 75
 #11849
 avcý gölge þekil~
 gölge avcý~
@@ -824,12 +578,7 @@ The head turns towards you for a moment, fixing you with a sinister
 silver gaze that sends a chill up your spine.
 ~
 çora~
-ACFGS FPQTZ 0 0
-71 0 100d10+9500 1d10+750 7d10+41 pierce
--43 -43 -42 -11
-BEFJ 0 0 0
-stand stand male 5500
-0 0 medium 0
+ACFGS FPQTZ 71
 #11850
 avcý ok~
 avcý~
@@ -839,12 +588,7 @@ A lithe humanoid form crouches in the shadows, aiming a silvery
 arrow at you with dangerous accuracy.
 ~
 çora~
-ACFG FPQTZ 0 0
-72 0 100d10+10250 1d10+770 7d11+42 slash
--44 -43 -44 -11
-EFJK 0 0 0
-stand stand female 7000
-0 0 medium 0
+ACFG FPQTZ 72
 #11851
 drakiri bayan diyana~
 Diyana~
@@ -858,12 +602,7 @@ grey mark of myr'vale Xaek:
                         ][+][
 ~
 çora~
-ABGT HT 0 0
-80 1 100d12+14000 1d10+700 13d9+50 cleave
--48 -48 -47 -15
-CDEFIK 0 0 0
-stand stand female 65500
-0 0 medium 0
+ABGT HT 80
 #11852
 drakiri rike lord~
 Rike~
@@ -874,12 +613,7 @@ and weapons work.  Along the collar is the mark of the deiayan (consort)
 of the head of house Xaek.
 ~
 çora~
-ABGT HT 0 0
-79 1 100d10+13500 1d10+690 10d11+49 slash
--46 -47 -47 -16
-CDEK 0 0 0
-stand stand male 61000
-0 0 medium 0
+ABGT HT 79
 #11853
 drakiri niksil~
 Niksil~
@@ -892,12 +626,7 @@ up to meet your gaze.  On her collar, she bears the mark of the
 Xaek's first commander (sh'aya).
 ~
 çora~
-AGT T 0 0
-67 1 100d10+9000 1d10+800 8d8+37 slash
--37 -37 -37 -5
-CDEHIK 0 0 0
-stand stand female 22500
-0 0 medium 0
+AGT T 67
 #11854
 drakiri rakayel diþi savaþçý~
 Rakayel~
@@ -909,12 +638,7 @@ dizzying speed and grace, she seems almost one with her sword.
 She wears the mark of the sequas, second commander, of Xaek.
 ~
 çora~
-AGT T 0 0
-74 0 100d10+11000 1d10+640 9d10+44 cleave
--44 -45 -43 -13
-EFHIK 0 0 0
-stand stand female 17500
-0 0 medium 0
+AGT T 74
 #11855
 drakiri yeven erkek~
 Yeven~
@@ -926,12 +650,7 @@ make this man a dangerous enemy.  Emblazoned on his collar, you notice
 the mark of the Xaek treye, third commander.
 ~
 çora~
-AGT TZ 0 0
-71 0 100d10+10250 1d10+610 9d9+41 slice
--38 -39 -40 -8
-CDIK 0 0 0
-stand stand male 12100
-0 0 medium 0
+AGT TZ 71
 #11856
 drakiri versant çocuk~
 Versant~
@@ -943,12 +662,7 @@ muscles maintain the perfect balance of a warrior.  A grey dot in the
 center of his forehead marks him as the na'deia (heir) to Xaek.
 ~
 çora~
-ABGT Z 0 0
-76 1 100d10+12000 1d10+680 10d10+46 cleave
--45 -44 -45 -14
-CDEIK 0 0 0
-stand stand male 16000
-0 0 large 0
+ABGT Z 76
 #11857
 drakiri sayera kýz~
 Sayera~
@@ -959,12 +673,7 @@ deadly speed and accuracy.  Along her cheekbone is the mark of
 an ira'deia.
 ~
 çora~
-ABGT Z 0 0
-72 0 100d10+11000 1d10+700 8d11+42 slash
--42 -42 -43 -11
-CEFIK 0 0 0
-stand stand female 12100
-0 0 medium 0
+ABGT Z 72
 #11858
 gri aslan~
 gri aslan~
@@ -974,12 +683,7 @@ Grey fur shimmers over powerful muscles.  Intelligent golden eyes
 follow you warily.
 ~
 cat~
-AB 0 0 0
-82 0 100d10+13500 1d10+700 9d12+52 claw
--50 -50 -50 -19
-CDK 0 HO IP
-stand stand male 0
-0 0 large 0
+AB 0 82
 #11859
 beyaz aslan~
 beyaz aslan~
@@ -989,12 +693,7 @@ The lion moves with a powerful, silent grace which is strangely at odds
 with her size.  Deep emerald eyes flicker around the room.
 ~
 cat~
-AB 0 0 0
-81 0 100d10+13000 1d10+700 9d12+51 chomp
--50 -50 -53 -10
-EFIK 0 IP HO
-stand stand female 0
-0 0 large 0
+AB 0 81
 #11860
 muhafýz þövalye~
 muhafýz þövalye~
@@ -1003,12 +702,7 @@ Bir þövalye etrafý gözlüyor.
 The knight is tall, powerful, and quite ready to defend.
 ~
 çora~
-ABT 0 0 0
-71 0 100d10+10250 1d10+600 9d9+41 cleave
--40 -40 -40 -10
-CDIK 0 0 0
-stand stand either 2500
-0 0 large 0
+ABT 0 71
 #11861
 drakiri savaþçý~
 savaþçý~
@@ -1018,12 +712,7 @@ The drakyri works through defensive maneuvers over and over, with
 growing agility and quickness.
 ~
 çora~
-ABGT 0 0 0
-70 0 100d10+10000 1d10+650 8d10+40 slash
--38 -37 -38 -6
-EFK 0 0 0
-stand stand either 1220
-0 0 medium 0
+ABGT 0 70
 #11862
 drakiri savaþçý tartýþan~
 tartýþan savaþçý~
@@ -1032,12 +721,7 @@ Bir drakiri savaþçýsý burada, tartýþýyor.
 The warrior seems quite intent on weapons work.
 ~
 çora~
-AGT 0 0 0
-86 0 100d10+17000 1d10+600 13d10+56 slice
--49 -48 -49 -16
-EFIK 0 0 0
-stand stand either 1400
-0 0 medium 0
+AGT 0 86
 #11863
 drakiri yiksanes erkek~
 Yiksanes~
@@ -1050,12 +734,7 @@ the arched brows is the shimmering green insignia of myr'vale Noriva:
                            -(+)-
 ~
 çora~
-AGQ DFHT 0 0
-88 0 100d12+16500 1d100+5000 10d13+58 crush
--58 -59 -58 -21
-FIK 0 MN HO
-stand stand male 62500
-0 0 medium 0
+AGQ DFHT 88
 #11864
 drakiri nerayel bayan~
 Nerayel~
@@ -1067,12 +746,7 @@ Above the fine, high cheekbones, clear silver eyes sparkle with energy.
 On her collar, the lady bears the mark of the deiaya of myr'vale Noriva.
 ~
 çora~
-AGQ DFHT 0 0
-84 0 100d12+14500 1d100+5000 13d9+54 pound
--55 -55 -58 -25
-EFI 0 MNH IO
-stand stand female 61100
-0 0 medium 0
+AGQ DFHT 84
 #11865
 drakiri jorine kadýn~
 Jorine~
@@ -1082,12 +756,7 @@ An aura of health and power surrounds her.  A mark on her collar
 indicates her rank as sh'aya of myr'vale (minor house) Noriva.
 ~
 çora~
-ABGQ CDFGH 0 0
-77 0 100d10+11000 1d100+4800 9d10+47 pound
--46 -47 -45 -16
-FI 0 HIP KO
-stand stand female 53000
-0 0 medium 0
+ABGQ CDFGH 77
 #11866
 drakiri lerilke paladin~
 Lerilke~
@@ -1099,12 +768,7 @@ Lerylke is the sequen of myr'vale Noriva, a neutral house.  Hence,
 he is neutral and worships neutral gods and goddesses.
 ~
 çora~
-ABGQT DFNOT 0 0
-74 0 100d10+10500 1d50+4000 9d10+44 cleave
--43 -44 -44 -12
-CDEK 0 MN J
-rest stand male 25000
-0 0 medium 0
+ABGQT DFNOT 74
 #11867
 drakiri nerra erkek~
 Nerra~
@@ -1115,12 +779,7 @@ His slitted golden eyes are narrowed in concentration as he heightens
 the health of the herbs as he weeds.
 ~
 çora~
-ABGQ DFT 0 0
-72 0 100d10+9750 1d100+4500 7d11+42 pound
--41 -42 -42 -10
-FIK 0 0 0
-rest stand male 15500
-0 0 medium 0
+ABGQ DFT 72
 #11868
 drakiri yiliyra bayan~
 Yllyra~
@@ -1132,12 +791,7 @@ occasionally to stretch.  Between her eyebrows shimmers the green
 dot of the Noriva na'deia.
 ~
 çora~
-ABQ DFH 0 0
-77 0 100d10+11000 1d100+4900 9d10+47 pound
--46 -45 -47 -16
-FIK 0 0 0
-stand stand female 45500
-0 0 medium 0
+ABQ DFH 77
 #11869
 drakiri dirina kýz~
 Dirina~
@@ -1149,12 +803,7 @@ with laughter.  Yet beneath the youthful smile, you sense great power.
 On one cheekbone, she bears the mark of an ira'deia of Noriva.
 ~
 çora~
-ACGQ DFPT 0 0
-72 0 100d10+9750 1d100+4300 7d11+42 punch
--40 -42 -43 -11
-EFGHI 0 HIJ E
-stand stand female 10500
-0 0 medium 0
+ACGQ DFPT 72
 #11870
 drakiri voril oðlan~
 Voril~
@@ -1165,12 +814,7 @@ cut short, frames a handsome, youthful face and sparkling green eyes.
 Along one cheekbone is the mark of a Noriva ira'deian.
 ~
 çora~
-ACGQ DFT 0 0
-86 0 100d10+15500 1d100+4250 10d12+56 pound
--55 -55 -55 -21
-FI 0 H I
-stand stand male 10500
-0 0 medium 0
+ACGQ DFT 86
 #11871
 beyaz kedi~
 beyaz kedi~
@@ -1181,12 +825,7 @@ it.. but as you reach out your hand, the slitted green eyes snap open
 and the cat hisses warningly.
 ~
 cat~
-ABC PZ 0 0
-72 0 100d10+9750 1d10+900 7d11+42 claw
--42 -42 -42 -12
-DF 0 0 0
-stand stand male 0
-0 0 medium 0
+ABC PZ 72
 #11872
 gri kedi gümüþi~
 gri kedi~
@@ -1196,12 +835,7 @@ Silvery grey fur shimmers in the light.  Bright silver cat eyes
 follow you warily.
 ~
 cat~
-AB FPZ 0 0
-73 0 100d10+10000 1d10+900 7d11+43 claw
--44 -43 -43 -12
-FJ 0 0 0
-stand stand female 0
-0 0 medium 0
+AB FPZ 73
 #11873
 drakiri muhafýz ruh þekil hayalet~
 muhafýzýn ruhu~
@@ -1212,12 +846,7 @@ It appears to be the spirit of a drakyri, long dead and set to
 guard here.
 ~
 unique~
-ABGQ BDFTUZ 0 0
-89 0 100d10+17000 1d100+6000 13d10+59 magic
--55 -57 -56 -20
-FG 0 MN HIJ
-stand stand none 0
-DHL 0 medium mist
+ABGQ BDFTUZ 89
 #11874
 drakiri büyücü alev~
 Alev~
@@ -1228,12 +857,7 @@ sense an aura of raw magical power around her, controllable only
 by the best.. which she is.
 ~
 çora~
-AGR HT 0 0
-95 0 100d12+20000 1d100+15000 12d12+65 flame
--68 -66 -65 -35
-FG H C I
-stand stand female 65000
-0 0 medium 0
+AGR HT 95
 #11875
 drakiri paladin kalkan~
 Kalkan~
@@ -1245,12 +869,7 @@ devoted and powerful of the drakyri knights, and a member of the
 elite force of drakyri, the Laerkai.
 ~
 çora~
-AGT DHNT 1000 0
-92 0 100d12+20000 1d50+7500 15d10+66 holy
--63 -63 -63 -23
-CDIK N 0 M
-stand stand male 65000
-0 0 medium 0
+AGT DHNT 92
 #11876
 pençe drakiri þövalye uðursuz~
 Pençe~
@@ -1260,12 +879,7 @@ The drakyri emanates an aura of pure evil power.  Noting your gaze,
 she smiles a cruel not-smile and flexes wickedly sharp taloned hands.
 ~
 çora~
-ACGT DHOT -1000 0
-92 5 100d12+20000 1d50+7000 15d10+62 negative
--60 -61 -61 -30
-DEFIK M 0 N
-stand stand female 65000
-0 0 medium 0
+ACGT DHOT 92
 #11877
 gölge gölgeler drakiri~
 Gölge~
@@ -1277,12 +891,7 @@ are characterized by a curious catlike grace which betrays extreme
 power and agility, both dangerous.
 ~
 çora~
-ACGS FHPQT 0 0
-92 0 100d12+19000 1d50+7000 12d12+62 pierce
--62 -62 -61 -30
-BEFHJ 0 E O
-stand stand male 65000
-0 0 medium 0
+ACGS FHPQT 92
 #11878
 savaþçý drakiri yumruk~
 Yumruk~
@@ -1294,12 +903,7 @@ combat, and as she moves her sword, you see that she has the skill
 to be a master.
 ~
 çora~
-AGT HT 0 0
-91 1 100d12+19500 1d10+4500 10d15+61 smash
--60 -60 -60 -30
-CDEIK 0 D JKP
-stand stand female 65000
-0 0 large 0
+AGT HT 91
 #11879
 din adamý el drakiri~
 El~
@@ -1309,12 +913,7 @@ Though not much taller than yourself, the drakyri seems to tower
 far above you, as if possessed by some divine presense.
 ~
 çora~
-AGQ DFHNOT 0 0
-91 0 100d12+18000 10d101+10000 12d11+61 light
--61 -60 -59 -30
-FIK 0 MN HO
-stand stand male 65000
-0 0 medium 0
+AGQ DFHNOT 91
 #11880
 drakiri efendi layerkayi~
 Layerkayi Efendi~
@@ -1329,12 +928,7 @@ the master comes from a union between the Deriki and Myrxes houses.
 Trained by both, she has become a lethal blend of sorcery and stealth.
 ~
 çora~
-ABCFGRS BDFHPQT 0 0
-100 12 100d12+29500 1d100+15000 18d11+85 wrath
--86 -87 -87 -57
-EFGHJK 0 FHIK JOP
-stand stand female 89800
-0 0 medium 0
+ABCFGRS BDFHPQT 100
 #11881
 drakiri muhafýzý~
 Muhafýz~
@@ -1345,12 +939,7 @@ the drakyri council.  She excels at many skills, due to decades of
 devotion and training, and is a formidable opponent.
 ~
 çora~
-ABGQT DFHT 0 0
-94 1 100d12+20000 1d100+12500 15d10+64 shock
--64 -63 -63 -33
-CDEFGK 0 MNI HJP
-stand stand female 10000
-0 0 medium 0
+ABGQT DFHT 94
 #11882
 drakiri arabulucu ýþýk gri~
 Arabulucu~
@@ -1364,12 +953,7 @@ when it is in session and resolves disputes.  Due to its ancient wisdom,
 it passes the final judgment on all issues that affect the race as a whole.
 ~
 unique~
-ABGQRU BCDEFGHTUZ 0 0
-90 16 100d12+16500 1d100+15000 10d13+60 light
--60 -60 -60 -30
-EFIK BES JKLQ PT
-stand stand none 65000
-HK 0 huge light
+ABGQRU BCDEFGHTUZ 90
 #11883
 drakiri þövalye koruyucu~
 þövalye koruyucu~
@@ -1379,12 +963,7 @@ This is a knight trained by myr'vale Xaek and sworn to guard and
 protect the land and its inhabitants til death.
 ~
 çora~
-AGT T 0 0
-66 0 75d10+8750 1d10+600 7d9+36 cleave
--34 -33 -34 -1
-CDEK 0 0 0
-stand stand either 5500
-0 0 medium 0
+AGT T 66
 #11884
 drakiri koruyuvu büyücü~
 büyücü koruyucu~
@@ -1394,12 +973,7 @@ Trained by she'vale Deriki, this mage is sworn to protect the land
 and its inhabitants until death.
 ~
 çora~
-AGR DT 0 0
-68 0 45d10+8500 1d50+4000 8d7+38 magic
--40 -40 -40 -10
-FG 0 0 0
-stand stand either 6000
-0 0 medium 0
+AGR DT 68
 #11885
 drakiri þifacý~
 þifacý~
@@ -1411,12 +985,7 @@ except to the isle as a whole and answers to no one but the laerkai
 master, the mediator, and the warden.
 ~
 çora~
-AGQ DNOT 0 0
-68 0 75d10+8500 1d50+3550 7d9+38 pound
--36 -36 -37 -18
-IK 0 0 0
-stand stand either 6000
-0 0 medium 0
+AGQ DNOT 68
 #11886
 drakiri suikastçi~
 suikastçi~
@@ -1427,12 +996,7 @@ jobs in the outside world.  The assassin answers mainly to the laerkai
 master, and occasionally to the mediator or warden.
 ~
 çora~
-ACS FPQT 0 0
-67 1 50d10+8250 1d10+700 11d5+37 pierce
--42 -42 -43 -19
-EFJ 0 0 0
-stand stand either 8000
-0 0 medium 0
+ACS FPQT 67
 #11887
 zayýf drakiri yaþlý adam~
 zayýf ve yaþlý adam~
@@ -1444,12 +1008,7 @@ a youthful power which is quite at odds with his apparent frailty.
 He winks at you and returns to his work.
 ~
 çora~
-ABG DFT 0 0
-65 0 100d12+8000 1d100+17500 8d7+35 shock
--35 -35 -35 -10
-EFGJK A 0 0
-stand stand male 500000
-0 0 medium 0
+ABG DFT 65
 #11888
 drakiri bekçi~
 Bekçi~
@@ -1461,12 +1020,7 @@ slitted like a cat's catch and hold your own, seeming to weigh your
 very soul.
 ~
 çora~
-ABGT DFHNOTZ 0 0
-88 2 100d12+18500 1d100+8000 15d9+58 lightning
--58 -58 -58 -28
-CDEFHIK A D HIP
-stand stand female 82000
-0 0 medium 0
+ABGT DFHNOTZ 88
 
 #0
 

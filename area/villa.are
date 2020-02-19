@@ -11,7 +11,7 @@ Maxvnum 24200
 Path 6d 4g 4b 3g 4b k b g 8b~
 END
 
-#MOBILES
+#NEW_MOBILES
 #24100
 shaman~
 the village shaman~
@@ -22,12 +22,7 @@ time curing the ailments of the inhabitants of this village, or those of any
 strangers that may pass by.
 ~
 human~
-2|8|64 128|8192 1000 0
-93 0 50d10+20500 5d5+5000 17d10+64 divine
--66 -66 -66 -33
-FHKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|8|64 128|8192 93
 #24101
 flint knapper flint-knapper~
 the village flint-knapper~
@@ -40,12 +35,7 @@ remarkably conversant with the properties of metals such as copper and silver
 and alloys such as bronze.
 ~
 human~
-2|64 128|8192 1000 0
-73 0 50d10+20500 5d5+5000 17d10+64 pound
--66 -66 -66 -33
-FHKIN 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|64 128|8192 73
 #24102
 trader~
 a swarthy southern trader~
@@ -57,12 +47,7 @@ has brought with him a variety of bronze arms and armor, as well as the
 occasional crude iron oddity.
 ~
 human~
-2|64 128|8192 1000 0
-80 0 50d10+20500 5d5+5000 17d10+64 pound
--66 -66 -66 -33
-FHIKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|64 128|8192 80
 #24103
 merc~
 a mercenary~
@@ -71,12 +56,7 @@ A tough mercenary offers to hire out his men to you.
 Type list to see what he has to offer.
 ~
 human~
-2|64 128|8192 1000 0
-93 0 50d10+20500 5d5+5000 17d10+64 slash
--66 -66 -66 -33
-FHKIN 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|64 128|8192 93
 #24104
 witchdoctor~
 the village witchdoctor~
@@ -87,12 +67,7 @@ wide, and gathered a variety of exotic herbs and roots that she blends into
 marvellous potions. They taste even worse than they smell...
 ~
 human~
-2|64 128|8192 1000 0
-83 0 50d10+20500 5d5+5000 17d10+64 pound
--66 -66 -66 -33
-FHKIN 0 0 0
-stand stand female 1000
-0 0 medium 0
+2|64 128|8192 83
 #24105
 wise woman~
 the village wise woman~
@@ -105,12 +80,7 @@ much. In fact, to these villagers it is about as far as you can see on a
 clear day).
 ~
 human~
-2|64 128|8192 1000 0
-83 0 50d10+20500 5d5+5000 17d10+64 pound
--66 -66 -66 -33
-FHKIN 0 0 0
-stand stand female 1000
-0 0 medium 0
+2|64 128|8192 83
 #24106
 beastmaster~
 the village beastmaster~
@@ -121,12 +91,7 @@ that he has domesticated, though from the look of it you may have doubts
 in his ability to exact obedience. That bear sure doesn't look tame...
 ~
 human~
-2|64 128|8192 1000 0
-80 0 50d10+20500 5d5+5000 17d10+64 pound
--66 -66 -66 -33
-FHKIN 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|64 128|8192 80
 #24107
 trader northerner~
 a northern trader~
@@ -136,12 +101,7 @@ This stout hunter spends six months of the year trapping for fur, and the rest
 of the year fashioning and selling basic equipment.
 ~
 human~
-2|64 128|8192 1000 0
-83 0 50d10+20500 5d5+5000 17d10+64 pound
--66 -66 -66 -33
-FKIN 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|64 128|8192 83
 #24108
 daughter woman girl~
 a daughter of the tribe~
@@ -151,12 +111,7 @@ The crop was good this year, and the villagers have sufficient to sell to
 travellers and other villagers.
 ~
 human~
-2|64 128|8192 1000 0
-80 0 50d10+20500 5d5+5000 17d10+64 pound
--66 -66 -66 -33
-FIKN 0 0 0
-stand stand female 1000
-0 0 medium 0
+2|64 128|8192 80
 #24109
 brewer~
 the village brewer~
@@ -169,12 +124,7 @@ no real cost, a small "donation" to the sacred coffer is expected. And when
 the brewer is the size of a grizzly bear, few refuse.
 ~
 human~
-2|64 128|8192 1000 0
-85 0 50d10+20500 5d5+5000 17d10+64 pound
--66 -66 -66 -33
-FIKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|64 128|8192 85
 #24110
 hedgehog~
 the hedgehog~
@@ -183,12 +133,7 @@ A hedgehog, well, does nothing at you.
 The hedgehog looks like a cute, little, fierce fighter.
 ~
 unique~
-256 0 400 0
-4 0 2d7+46 5d5+100 1d5+1 charge
-6 6 6 9
-F 0 0 0
-stand stand none 1000
-0 0 medium 0
+256 0 4
 #24111
 otter~
 the otter~
@@ -197,12 +142,7 @@ A loyal, sleek growls at you.
 The otter looks like a fierce fighter.
 ~
 unique~
-256 0 400 0
-10 0  2d7+121 5d5+100 2d4+2 claw
-1 1 1 7
-F 0 0 0
-stand stand either 1000
-0 0 medium 0
+256 0 10
 #24112
 hawk~
 the hawk~
@@ -211,12 +151,7 @@ A fierce but loyal hawk is here.
 The hawk looks like a fierce fighter.
 ~
 song bird~
-256 524288 400 0
-15 0 3d9+208 5d5+100 2d6+3 claw
--2 -2 -2 6
-F 0 0 0
-stand stand either 1000
-0 0 medium 0
+256 524288 15
 #24113
 grizzly bear~
 the grizzly bear~
@@ -225,12 +160,7 @@ A large, loyal grizzly bear is here.
 The grizzly bear looks like a strong, fierce fighter.
 ~
 bear~
-256 0 0 0
-20 0  3d9+333 5d5+1000 2d8+5 claw
--4 -4 -4 5
-CF 0 0 0
-stand stand either 1000
-0 0 medium 0
+256 0 20
 #24114
 aurochs~
 the aurochs~
@@ -239,12 +169,7 @@ A HUGE Aurochs stomps its feet and lowers its head to charge.
 The aurochs is a BAD ASS.
 ~
 unique~
-256 0 0 0
-30 0 6d12+853 5d5+1000 4d6+8 charge
--9 -9 -9 3
-F 0 0 0
-stand stand none 1000
-0 0 medium 0
+256 0 30
 #24115
 champion~
 the village champion~
@@ -254,12 +179,7 @@ The village champion once tore the head off a rabid Mastodon with his thumbs.
 Imagine what he could do to you...
 ~
 human~
-2|8|64 128|512|8192 0 0
-93 0 50d10+20500 5d5+5000 18d10+64 crush
--76 -76 -76 -33
-0 0 0 0
-stand stand male 1000
-FHIKN 0 medium 0
+2|8|64 128|512|8192 93
 #24116
 merchant~
 a hook-nosed merchant~
@@ -269,12 +189,7 @@ This fellow may not speak your language well, but the language he does know
 very well makes conversation suddenly become much simpler- MONEY.
 ~
 human~
-4|64|128 8|32|8192 0 0
-60 0 50d10+6750 5d5+5000 8d6+28 pound
--30 -30 -30 -3
-FHIKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+4|64|128 8|32|8192 60
 #24117
 chieftain~
 the village chieftain~
@@ -288,12 +203,7 @@ well-muscled frame - she is still a very attractive woman, and the men of the
 village (and some women too) vie for her favours.
 ~
 human~
-64 4|8|128|512|8192 1000 0
-60 0 50d10+6750 5d5+5000 8d6+28 pound
--30 -30 -30 -3
-FIKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+64 4|8|128|512|8192 60
 #24118
 villager~
 a villager~
@@ -303,12 +213,7 @@ The villagers are a hardy lot, toughened by their environment and their
 rugged lifestyle, and you marvel at their good condition as they pass.
 ~
 human~
-1|64 0 0 0
-4 0 2d7+46 5d5+100 1d5+1 punch
-6 6 6 9
-F 0 0 0
-stand stand male 1000
-0 0 medium 0
+1|64 0 4
 #24119
 villager~
 a villager~
@@ -318,12 +223,7 @@ The villagers are a hardy lot, toughened by their environment and their
 rugged lifestyle, and you marvel at their good condition as they pass.
 ~
 human~
-1|64 0 0 0
-4 0 2d7+46 5d5+100 1d5+1 punch
-6 6 6 9
-F 0 0 0
-stand stand female 1000
-0 0 medium 0
+1|64 0 4
 #24120
 child~
 a child~
@@ -333,12 +233,7 @@ The children of the village are a rough and tumble lot, used to working hard
 and playing harder.
 ~
 human~
-1|64 0 0 0
-3 0 2d7+46 5d5+100 1d5+1 punch
-6 6 6 9
-F 0 0 0
-stand stand male 1000
-0 0 medium 0
+1|64 0 3
 #24121
 idiot~
 the village idiot~
@@ -347,12 +242,7 @@ The village idiot gawks at you.
 When he was young, this poor fellow had his skull staved in by a horse kick.
 ~
 human~
-4|64|128 0 0 0
-4 0 2d7+46 5d5+100 1d5+1 punch
-6 6 6 9
-0 0 0 0
-stand stand male 1000
-0 0 medium 0
+4|64|128 0 4
 #24122
 drunk~
 a village drunk~
@@ -361,12 +251,7 @@ A village drunk.
 This fellow has evidently made many generous donations to the village brewer.
 ~
 human~
-64 0 400 0
-4 0 2d7+46 5d5+100 1d5+1 punch
-6 6 6 9
-0 0 0 0
-stand stand male 1000
-0 0 medium 0
+64 0 4
 #24123
 beggar~
 a beggar~
@@ -377,12 +262,7 @@ is likely that this fellow will have a roof over his head soon, provided by
 one of the more prosperous villagers.
 ~
 human~
-2|64 0 400 0
-3 0 2d7+46 5d5+100 1d5+1 punch
-6 6 6 9
-F 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|64 0 3
 #24124
 thief~
 a thief~
@@ -391,12 +271,7 @@ A thief adroitly cuts the strings of another fat merchant's purse.
 This unsavory fellow preys on the rich foreign merchants from the south.
 ~
 human~
-64|128 2|32768|65536|1048576 0 0
-10 0 2d7+121 5d5+100 2d4+2 punch
-1 1 1 7
-FIN 0 0 0
-stand stand male 1000
-0 0 medium 0
+64|128 2|32768|65536|1048576 10
 #24125
 wolf~
 a scrawny wolf~
@@ -407,12 +282,7 @@ quick to repel such unwelcome wildlife, and it is only a matter of time
 before the militia run it off.
 ~
 wolf~
-64|128 0 0 0
-5 0 2d7+46 5d5+100 1d5+1 bite
-6 6 6 9
-F 0 0 0
-stand stand either 1000
-0 0 medium 0
+64|128 0 5
 #24126
 rat~
 a rat~
@@ -422,13 +292,8 @@ These mangy black rodents came with the merchants from the south, hidden
 amongst their goods, and have quickly become a nuisance, being scavengers
 and carriers of disease.
 ~
-rat~
-64|128 0 0 0
-2 0 2d7+26 5d5+100 1d5+1 charge
-6 6 6 9
-F 0 0 0
-stand stand none 1000
-0 0 medium 0
+lizard~
+64|128 0 2
 #24127
 dog~
 a dog~
@@ -438,12 +303,7 @@ This mongrel is the unwanted offspring of some hunter's sled dogs, left to
 fend for itself here in the village.
 ~
 fido~
-64|128 0 0 0
-3 0 2d7+46 5d5+100 1d5+1 bite
-6 6 6 9
-F 0 0 0
-stand stand female 1000
-0 0 medium 0
+64|128 0 3
 #24128
 militia member~
 a member of the village militia~
@@ -454,12 +314,7 @@ standing military or police force. However, the recent influx of foreigners
 and bandits has necessitated the introduction of a militia to keep the peace.
 ~
 human~
-8|64 4|128|8192 1000 0
-50 0 50d10+4250 5d5+5000 5d8+19 pound
--20 -20 -20 0
-EFIKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+8|64 4|128|8192 50
 #24129
 militia member~
 a member of the village militia~
@@ -470,12 +325,7 @@ standing military or police force. However, the recent influx of foreigners
 and bandits has necessitated the introduction of a militia to keep the peace.
 ~
 human~
-8|64 4|128|8192 1000 0
-50 0 50d10+4250 5d5+5000 5d8+19 pound
--20 -20 -20 0
-CEFIKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+8|64 4|128|8192 50
 #24130
 militia member~
 a member of the village militia~
@@ -486,12 +336,7 @@ standing military or police force. However, the recent influx of foreigners
 and bandits has necessitated the introduction of a militia to keep the peace.
 ~
 human~
-2|8|64 4|128|8192 1000 0
-50 0 50d10+4250 5d5+5000 5d8+19 pound
--20 -20 -20 0
-CEFIKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|8|64 4|128|8192 50
 #24131
 minoan merc merc1~
 minoan mercenary~
@@ -500,12 +345,7 @@ A Minoan mercenary scowls menacingly at you.
 This Merc looks big and tough. Better be careful.
 ~
 human~
-256 32|512 0 0
-15 0 3d9+208 5d5+100 2d6+3 pound
--2 -2 -2 6
-CDFKIJ 0 0 0
-stand stand female 1000
-0 0 medium 0
+256 32|512 15
 #24132
 assyrian merc merc2~
 Assyrian mercenary~
@@ -514,12 +354,7 @@ An Assyrian Mercenary scowls menacingly at you.
 This Merc looks big and tough. Better be careful.
 ~
 human~
-256 8|512 0 0
-20 0  3d9+333 5d5+1000 2d8+5 pound
--4 -4 -4 5
-FKNIJ 0 0 0
-stand stand male 1000
-0 0 medium 0
+256 8|512 20
 #24133
 egyptian merc merc3~
 Egyptian mercenary~
@@ -528,12 +363,7 @@ An Egyptian mercenary scowls menacingly at you.
 This Merc looks big and tough. Better be careful.
 ~
 human~
-256 512|8192 0 0
-25 0 5d10+550 5d5+1000 2d10+7 pound
--7 -7 -7 4
-FIKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+256 512|8192 25
 #24134
 trojan merc merc4~
 Trojan mercenary~
@@ -542,12 +372,7 @@ A Trojan mercenary scowls menacingly at you.
 This Merc looks big and tough. Better be careful.
 ~
 human~
-256 512|8192 0 0
-30 0 6d12+853 5d5+1000 4d6+8 slash
--9 -9 -9 3
-FKIJ 0 0 0
-stand stand male 1000
-0 0 medium 0
+256 512|8192 30
 #24135
 nubian merc merc5~
 nubian Mercenary~
@@ -556,12 +381,7 @@ A Nubian mercenary scowls menacingly at you.
 This Merc looks big and tough. Better be careful.
 ~
 human~
-256 8192 0 0
-35 0 10d10+1300 5d5+1000 4d7+11 slash
--11 -11 -11 3
-FIKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+256 8192 35
 #24136
 mycenaean merc merc6~
 Mycenaean mercenary~
@@ -570,12 +390,7 @@ A Mycenaean mercenary scowls menacingly at you.
 This Merc looks big and tough. Better be careful.
 ~
 human~
-256 8|32|512|524288 0 0
-40 0 15d10+1850 5d5+1000 4d8+13 slash
--13 -13 -13 3
-FIKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+256 8|32|512|524288 40
 #0
 
 

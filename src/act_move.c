@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -299,6 +311,9 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
 
 	    if (IS_IMMORTAL(ch))
 		found = TRUE;
+
+    if (IS_SET(ch->act,PLR_GHOST))
+      found = TRUE;
 
 	    for ( obj = ch->carrying; obj != NULL; obj = obj->next_content )
 	    {
@@ -2123,7 +2138,7 @@ void do_train( CHAR_DATA *ch, char *argument )
 	pOutput     = (char*)"Gücün";
     }
 
-    else if ( !str_cmp( argument, "zek" ) )
+    else if ( !str_cmp( argument, "zek" ) || !str_cmp( argument, "zeka" ) )
     {
 	if ( class_table[ch->iclass].attr_prime == STAT_INT )
 	    cost    = 1;
@@ -2131,7 +2146,7 @@ void do_train( CHAR_DATA *ch, char *argument )
 	pOutput     = (char*)"Zekan";
     }
 
-    else if ( !str_cmp( argument, "bil" ) )
+    else if ( !str_cmp( argument, "bil" ) || !str_cmp( argument, "bilgelik" ) )
     {
 	if ( class_table[ch->iclass].attr_prime == STAT_WIS )
 	    cost    = 1;
@@ -2139,7 +2154,7 @@ void do_train( CHAR_DATA *ch, char *argument )
 	pOutput     = (char*)"Bilgeliðin";
     }
 
-    else if ( !str_cmp( argument, "çev" ) )
+    else if ( !str_cmp( argument, "çev" ) || !str_cmp( argument, "çeviklik" ) )
     {
 	if ( class_table[ch->iclass].attr_prime == STAT_DEX )
 	    cost    = 1;
@@ -2147,7 +2162,7 @@ void do_train( CHAR_DATA *ch, char *argument )
 	pOutput     = (char*)"Çevikliðin";
     }
 
-    else if ( !str_cmp( argument, "bün" ) )
+    else if ( !str_cmp( argument, "bün" ) || !str_cmp( argument, "bünye" ) )
     {
 	if ( class_table[ch->iclass].attr_prime == STAT_CON )
 	    cost    = 1;
@@ -2155,7 +2170,7 @@ void do_train( CHAR_DATA *ch, char *argument )
 	pOutput     = (char*)"Bünyen";
     }
 
-    else if ( !str_cmp( argument, "kar") )
+    else if ( !str_cmp( argument, "kar") || !str_cmp( argument, "karizma") )
     {
 	if ( class_table[ch->iclass].attr_prime == STAT_CHA )
 	    cost    = 1;

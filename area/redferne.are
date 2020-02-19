@@ -11,7 +11,7 @@ Maxvnum 7999
 Path 6g d 3g b g y~
 END
 
-#MOBILES
+#NEW_MOBILES
 #7900
 þövalye adbolar~
 Adbolarlarýn büyük þövalyesi~
@@ -21,12 +21,7 @@ Büyük Þövalye burada yardýma muhtaçlara yardým etmek için bekliyor.
 gümüþ giyinmiþ. Çok güçlü görünüyor. Yardým etmek için her zaman hazýr.
 ~
 human~
-AGKQe DH 1000 0
-29 0 6d12+778 29d9+100 5d14+18 none
--9 -9 -9 4
-EIKU AB 0 0
-stand stand male 0
-0 0 medium 0
+AGKQe DH 29
 
 #7901
 adbolar solamnia~
@@ -37,12 +32,7 @@ Kembolarlara karþý yýllar süren mücadelesinden sonra emekli olmuþ ve
 kassandra taþýnýn sorumluluðunu almýþ.
 ~
 human~
-AHSe DEPZ 1000 2402
-91 40 10d30+21400 100d10+100 5d35+60 punch
--41 -41 -41 0
-FHKN 0 0 D
-stand stand male 1499
-0 0 small 0
+AHSe DEPZ 91
 
 #0
 

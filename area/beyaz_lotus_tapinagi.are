@@ -11,7 +11,7 @@ Maxvnum 10873
 Path 13b 2k d 3k y~
 END
 
-#MOBOLD
+#NEW_MOBILES
 #10701
 keþiþ temizlikçi~
 keþiþ~
@@ -20,803 +20,584 @@ Bir tapýnak keþiþi burada yolu temizliyor ve parlatýyor.
 He looks to be a student of the temple. He is dressed in a loose brown
 robe. He is diligently cleaning the walkway.
 ~
-3 0 800 S
-15 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+3 0 15
 #10702
 keþiþ yaþlý~
 yaþlý keþiþ~
 Yaþlý bir keþiþ burada dua ediyor.
 ~
 ~
-3 0 800 S
-25 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+3 0 25
 #10703
 keþiþ öðrenci~
 öðrenci~
 Bir tapýnak öðrencisi burada kung fu çalýþýyor.
 ~
 ~
-3 0 654 S
-5 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+3 0 5
 #10704
 keþiþ geliþkin öðrenci~
 öðrenci~
 Bir tapýnak öðrencisi burada kung fu çalýþýyor.
 ~
 ~
-3 0 453 S
-12 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+3 0 12
 #10705
 öðretmen keþiþ~
 öðretmen~
 Bir tapýnak öðretmeni burada öðrencileri eðitiyor.
 ~
 ~
-3 0 453 S
-20 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+3 0 20
 #10706
 muhafýz tapýnak~
 tapýnak muhafýzý~
 Bir tapýnak muhafýzý burada.
 ~
 ~
-3 0 320 S
-30 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+3 0 30
 #10707
 muhafýz beyaz lotus~
 muhafýz~
 Bir Beyaz Lotus muhafýzý burada duruyor.
 ~
 ~
-3 0 453 S
-30 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+3 0 30
 #10708
 mutfak görevlisi~
 mutfak görevlisi~
 Bir mutfak görevlisi burada askerler için yemek yapýyor.
 ~
 ~
-3 0 675 S
-9 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+3 0 9
 #10709
 mutfak görevlisi~
 mutfak görevlisi~
 Bir mutfak görevlisi burada askerler için yemek yapýyor.
 ~
 ~
-3 0 675 S
-12 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+3 0 12
 #10710
 asker tapýnak kumar~
 tapýnak askeri~
 Bir tapýnak askeri burada kumar oynuyor.
 ~
 ~
-3 0 675 S
-13 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+3 0 13
 #10711
 asker tapýnak týkýnan~
 tapýnak askeri~
 Bir tapýnak askeri burada pirinç týkýnýyor.
 ~
 ~
-3 0 675 S
-11 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+3 0 11
 #10712
 görevli tapýnak~
 tapýnak görevlisi~
 Bir tapýnak görevlisi burada þarap içiyor.
 ~
 ~
-3 0 675 S
-16 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+3 0 16
 #10713
 mahkum~
 mahkum~
 Bir mahkum burada yere kusuyor.
 ~
 ~
-3 0 675 S
-7 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+3 0 7
 #10714
 keþiþ yakaran~
 yakaran keþiþ~
 Bir keþiþ burada yakarýyor ve dua ediyor.
 ~
 ~
-3 0 675 S
-16 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+3 0 16
 #10715
 bülbül~
 bülbül~
 Bir bülbül burada neþeli bir þekilde cývýldýyor.
 ~
 ~
-3 0 675 S
-3 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 0
-
+human~
+3 0 3
 #10716
 üye zehir klaný~
 Zehir Klaný üyesi~
 Bir Zehir Klaný üyesi acýmasýzca sana bakýyor.
 ~
 ~
-1|2 0 -300 S
-23 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 0 23
 #10717
 küçük kurbaða~
 küçük kurbaða~
 Küçük bir kurbaða burada vraklýyor.
 ~
 ~
-1|2 0 200 S
-14 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 0
-
+human~
+1|2 0 14
 #10718
 minik kýrkayak~
 minik kýrkayak~
 Minik bir kýrkayak yerde sürünüyor.
 ~
 ~
-1|2 0 -100 S
-15 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 0
-
+human~
+1|2 0 15
 #10719
 gümüþ yýlan~
 gümüþ yýlan~
 gümüþ bir yýlan ayaðýna doðru süzülüyor.
 ~
 ~
-1|2 0 -100 S
-17 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 0
-
+human~
+1|2 0 17
 #10720
 küçük yeþil kertenkele~
 küçük yeþil kertenkele~
 küçük bir yeþil kertenkele yakýndaki bir aðaca týrmanýyor.
 ~
 ~
-1|2 0 -100 S
-18 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 0
-
+human~
+1|2 0 18
 #10721
 küçük kýzýl akrep~
 küçük kýzýl akrep~
 Küçük bir kýzýl akrep yolun karþýsýna seðirtiyor.
 ~
 ~
-1|2 0 -100 S
-21 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 0
-
+human~
+1|2 0 21
 #10722
 Ma Tang üstad akrep~
 Ma Tang~
 Ma Tang, Akrep tekniðinin üstadý burada.
 ~
 ~
-1|2|32 0 -900 S
-35 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 0 35
 #10723
 Lee Ho üstad kurbaða~
 Lee Ho~
 Lee Ho, Kurbaða tekniðinin üstadý burada.
 ~
 ~
-1|2 128|8192 600 S
-31 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 128|8192 31
 #10724
 Tang Seung Qwe üstad kýrkayak~
 Tang Seung Qwe~
 Tang Seung Qwe, Kýrkayak tekniðinin üstadý burada.
 ~
 ~
-1|2|32 0 -700 S
-33 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 0 33
 #10725
 Yeun Sun Ho üstad kertenkele~
 Yeun Sun Ho~
 Yeun Sun Ho, Kertenkele tekniðinin üstadý burada.
 ~
 ~
-1|2 0 -700 S
-34 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 0 34
 #10726
 öðretmenin son öðrencisi~
 Öðretmenin son öðrencisi~
 Öðretmenin son öðrencisi burada 5 Ölümcül Zehiri arýyor.
 ~
 ~
-1|2 0 800 S
-32 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 0 32
 #10727
 buddha altýn aydýnlýk heykeli~
 Altýn Buddha heykeli~
 Aydýnlýðýn Altýn Buddha heykeli burada duruyor.
 ~
 ~
-1|2 0 1000 S
-44 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 0 44
 #10728
 buddha altýn bilgelik heykeli~
 Altýn Buddha heykeli~
 Bilgeliðin Altýn Buddha heykeli burada duruyor.
 ~
 ~
-1|2 0 1000 S
-45 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 0 45
 #10729
 buddha altýn huzur heykeli~
 Altýn Buddha heykeli~
 Huzurun Altýn Buddha heykeli burada duruyor.
 ~
 ~
-1|2 0 1000 S
-46 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 0 46
 #10730
 türbe bakýcýsý~
 türbe bakýcýsý~
 Bir bakýcý burada türbelerle ilgileniyor.
 ~
 ~
-1|2 0 1000 S
-37 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 0
-
+human~
+1|2 0 37
 #10731
 keþiþ ilahi okuyan~
 ilahi okuyan keþiþ~
 Bir keþiþ burada oturmuþ ilahi okuyor.
 ~
 ~
-1|2 0 1000 S
-25 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 0
-
+human~
+1|2 0 25
 #10732
 Wei Chin~
 Wei Chin~
 Wei Chin burada.
 ~
 ~
-1|2 0 -900 S
-46 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 0 46
 #10733
 Wu Tak~
 Wu Tak~
 Wu Tak adýnda bir misafir keþiþ burada.
 ~
 ~
-1|2 0 -950 S
-48 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 0 48
 #10734
 beyaz lotus lideri~
 Beyaz Lotus Lideri~
 Beyaz Lotus Lideri burada meditasyon yapýyor.
 ~
 ~
-1|2|32 8|16|32|512 -1000 S
-50 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|512 50
 #10735
 özel koruma lider~
 Beyaz Lotus Lideri'nin özel korumasý~
 Beyaz Lotus Lideri'nin özel korumasý burada.
 ~
 ~
-1|2 8|16|32|512 -1000 S
-39 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 8|16|32|512 39
 #10736
 meclis görevlisi~
 meclis görevlisi~
 36 meclisin görevlisi seni buyur etmek için burada.
 ~
 ~
-1|2 8|16|32|512 790 S
-32 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 8|16|32|512 32
 #10737
 öðretmen 1.nci meclis~
 1.nci meclisin öðretmeni~
 1.nci meclisin öðretmeni sabýrla bir öðrenci bekliyor.
 ~
 ~
-1|2 8|16|32|512 790 S
-32 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 8|16|32|512 32
 #10738
 öðretmen 2.nci meclis~
 2.nci meclisin öðretmeni~
 2.nci meclisin öðretmeni sabýrla bir öðrenci bekliyor.
 ~
 ~
-1|2 8|16|32|512 600 S
-33 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 8|16|32|512 33
 #10739
 öðretmen kasýrga tekmesi~
 kasýrga tekmesinin öðretmeni~
 Kasýrga tekmesinin öðretmeni burada, seni sýnamak için bekliyor.
 ~
 ~
-1|2 8|16|32|512 550 S
-34 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 8|16|32|512 34
 #10740
 öðretmen chin kang aya~
 chin kang ayasýnýn öðretmeni~
 Chin kang ayasýnýn öðretmeni burada, seni sýnamak için bekliyor.
 ~
 ~
-1|2 8|16|32|512 550 S
-35 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 8|16|32|512 35
 #10741
 öðretmen kertenkele stili~
 kertenkele stilinin öðretmeni~
 Kertenkele stilinin öðretmeni duvarýn üzerinde duruyor.
 ~
 ~
-1|2 8|16|512 990 S
-36 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 8|16|512 36
 #10742
 öðretmen turna stili~
 turna stilinin öðretmeni~
 Turna stilinin öðretmeni burada meditasyon yapýyor.
 ~
 ~
-1|2 8|16|512 990 S
-37 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 8|16|512 37
 #10743
 öðretmen ejderha stili~
 ejderha stilinin öðretmeni~
 Ejderha stilinin öðretmeni geliþini bekliyor.
 ~
 ~
-1|2|32 8|16|32|512 -700 S
-38 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|512 38
 #10745
 öðretmen kaplan stili~
 kaplan stilinin öðretmeni~
 Kaplan stilinin öðretmeni burada domuz eti kurabiyesi yiyiyor.
 ~
 ~
-1|2|32 8|16|32|512 -50 S
-39 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|512 39
 #10746
 öðretmen akrep stili~
 akrep stilinin öðretmeni~
 Akrep stilinin öðretmeni burda, seni nasýl öldüreceðine karar veriyor.
 ~
 ~
-1|2|32 8|16|32|512 -1000 S
-40 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|512 40
 #10747
 öðretmen yýlan stili~
 yýlan stilinin öðretmeni~
 Yýlan stilinin öðretmeni gümüþ bir tahtta oturuyor.
 ~
 ~
-1|2 8|16|32|512 -1000 S
-41 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 8|16|32|512 41
 #10748
 öðretmen kýrkayak stili~
 kýrkayak stilinin öðretmeni~
 Kýrkayak stilinin öðretmeni burada seni bekliyor.
 ~
 ~
-1|2|32 8|16|32|512 -1000 S
-42 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|512 42
 #10749
 öðretmen kurbaða stili~
 kurbaða stilinin öðretmeni~
 Kurbaða stilinin öðretmeni burada seni bekliyor.
 ~
 ~
-1|2 8|16|32|128|512 400 S
-43 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 8|16|32|128|512 43
 #10750
 öðretmen demir keþiþ stili~
 Demir keþiþ stilinin öðretmeni~
 Demir keþiþ stilinin öðretmeni burada meditasyon yapýyor.
 ~
 ~
-1|2 8|16|32|512 -100 S
-44 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 8|16|32|512 44
 #10751
 öðretmen demir kafa stili~
 Demir kafa stilinin öðretmeni~
 Demir kafa stilinin öðretmeni senin canýný baðýþlamak için yakarýyor.
 ~
 ~
-1|2 8|16|32|512 300 S
-45 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 8|16|32|512 45
 #10752
 öðretmen atmaca stili~
 atmaca stilinin öðretmeni~
 Atmaca stilinin öðretmeni burada þarap içiyor.
 ~
 ~
-1|2 8|16|32|512 500 S
-46 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 8|16|32|512 46
 #10753
 öðretmen titreyen aya stili~
 titreyen aya stilinin öðretmeni~
 Titreyen aya stilinin öðretmeni bir taburede sakince oturuyor.
 ~
 ~
-1|2 8|16|32|512 500 S
-47 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 8|16|32|512 47
 #10754
 öðretmen baþ adým aya stili~
 beþ adým ayasý stilinin öðretmeni~
 Beþ adým ayasý stilinin öðretmeni sabýrla bekliyor.
 ~
 ~
-1|2 8|16|32|512 500 S
-48 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 8|16|32|512 48
 #10755
 keþiþ ilahi okuyan þifacý~
 ilahi okuyan keþiþ~
 Bir keþiþ burada oturmuþ ilahi okurken yakarýyor.
 ~
 ~
-1|2 8|16|32|512 500 S
-60 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 8|16|32|512 60
 #10756
 öðretmen aðýrlýksýz boks~
 aðýrlýksýz boksun öðretmeni~
 Aðýrlýksýz boksun öðretmeni sana 'Lanet Olsun!' diyor.
 ~
 ~
-1|2|32 8|16|32|512 500 S
-49 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|512 49
 #10757
 öðretmen þimþek vuruþu~
 þimþek vuruþu öðretmeni~
 Þimþek vuruþunun öðretmeni burada yere oturmuþ.
 ~
 ~
-1|2|32 8|16|32|512 -200 S
-50 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|512 50
 #10758
 öðretmen demir deri~
 demir deri tekniði öðretmeni~
 Demir deri tekniðinin öðretmeni burada yere oturmuþ.
 ~
 ~
-1|2|32 8|16|32|128|512 -200 S
-51 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|128|512 51
 #10759
 öðretmen çin uzun kýlýç~
 çin uzun kýlýcýnýn öðretmeni~
 Çin uzun kýlýcýnýn öðretmeni burada elmalarý kesiyor.
 ~
 ~
-1|2|32 8|16|32|512 -100 S
-52 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|512 52
 #10760
 öðretmen kelebek kýlýçlarý~
 kelebek kýlýçlarýnýn öðretmeni~
 Kelebek kýlýçlarýnýn öðretmeni burada kýlýçlarýný bileyliyor.
 ~
 ~
-1|2|32 8|16|32|512 -100 S
-52 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|512 52
 #10761
 öðretmen uzun cirit~
 çin uzun ciritinin öðretmeni~
 Çin uzun ciritinin öðretmeni burada kebap yapýyor.
 ~
 ~
-1|2|32 8|16|32|512 -300 S
-53 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|512 53
 #10762
 öðretmen ölümcül aya~
 ölümcül ayanýn öðretmeni~
 Ölümcül ayanýn öðretmeni burada þiir yazýyor.
 ~
 ~
-1|2 8|16|32|512 -300 S
-54 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 8|16|32|512 54
 #10763
 öðretmen beþ darbe~
 beþ darbenin öðretmeni~
 Beþ darbenin öðretmeni burada matematikle uðraþýyor.
 ~
 ~
-1|2 8|16|32|512 -400 S
-55 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 8|16|32|512 55
 #10764
 öðretmen öfkeli buddha~
 öfkeli buddha'nýn öðretmeni~
 Öfkeli buddha stilinin öðretmeni burada emm... öfkeli...
 ~
 ~
-1|2|32 8|16|32|512 -700 S
-57 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|512 57
 #10766
 birinci üstad~
 Beyaz Lotus Klanýnýn birinci üstadý~
 Beyaz Lotus Klanýnýn birinci üstadý burada huzurlu bir ilahi okuyor.
 ~
 ~
-1|2|32 8|16|32|512 -700 S
-58 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|512 58
 #10767
 ikinci üstad~
 Beyaz Lotus Klanýnýn ikinci üstadý~
 Beyaz Lotus Klanýnýn ikinci üstadý burada meditasyon yapýyor.
 ~
 ~
-1|2|32 8|16|32|512 -600 S
-59 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|512 59
 #10768
 üçüncü üstad~
 Beyaz Lotus Klanýnýn üçüncü üstadý~
 Beyaz Lotus Klanýnýn üçüncü üstadý burada tatlýsýný yiyiyor.
 ~
 ~
-1|2|32 8|16|32|512 -500 S
-60 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|512 60
 #10769
 dördüncü üstad~
 Beyaz Lotus Klanýnýn dördüncü üstadý~
 Beyaz Lotus Klanýnýn dördüncü üstadý burada, seni sýnamaya hazýr.
 ~
 ~
-1|2|32 8|16|32|512 -400 S
-61 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|512 61
 #10770
 beþinci üstad~
 Beyaz Lotus Klanýnýn beþinci üstadý~
 Beyaz Lotus Klanýnýn beþinci üstadý senin ruhun için dua ediyor.
 ~
 ~
-1|2|32 8|16|32|512 -300 S
-62 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|512 62
 #10771
 baþrahip~
 Baþrahip~
 Baþrahip sabýrla kung funu sýnamak için bekliyor.
 ~
 ~
-1|2|32 8|16|32|512 -200 S
-63 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|512 63
 #10772
 yüce baþrahip~
 Yüce Baþrahip~
 Yüce Baþrahip burada yüce baþrahiplerin normalde yaptýðýný yapýyor.
 ~
 ~
-1|2|32 8|16|32|512 -100 S
-64 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|512 64
 #10773
 buddha müridi~
 buddha müridi~
 Bir buddha müridi burada ilahiler okurken bir yandan da yakarýyor.
 ~
 ~
-1|2 8|16|32|512 100 S
-65 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 8|16|32|512 65
 #10774
 Buddha~
 Buddha~
 Buddha'nýn kendisi karþýnda oturuyor!.
 ~
 ~
-1|2|32 8|16|32|512 -1000 S
-70 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2|32 8|16|32|512 70
 #10775
 üstad yýlan~
 Hung Wei Tung~
 Hung Wei Tung, Yýlan tekniðinin üstadý burada.
 ~
 ~
-1|2 0 -100 S
-36 2 2 1d1+30000 1d8+32
-100000 80000
-8 8 1
-
+human~
+1|2 0 36
 #0
 
 

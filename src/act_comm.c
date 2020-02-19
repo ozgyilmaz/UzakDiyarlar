@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+ 
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -267,6 +279,8 @@ void do_immtalk( CHAR_DATA *ch, char *argument )
 
     REMOVE_BIT(ch->comm,COMM_NOWIZ);
 
+    write_channel_log(ch,NULL,KANAL_IMM,argument);
+
    if (!is_affected(ch, gsn_deafen))
    act_new("{i[{I$n{i]: $t{x",ch,argument,NULL,TO_CHAR,POS_DEAD);
     for ( d = descriptor_list; d != NULL; d = d->next )
@@ -352,6 +366,7 @@ void do_kd( CHAR_DATA *ch, char *argument )
         sprintf(buf,"%s: %s%s%s\n\r",PERS(ch,victim),CLR_RED_BOLD,argument,CLR_NORMAL);
         buf[0] = UPPER(buf[0]);
         add_buf(victim->pcdata->buffer,buf);
+        ch->pcdata->rk_puani -= 2;
 	return;
     }
 
@@ -367,10 +382,14 @@ void do_kd( CHAR_DATA *ch, char *argument )
   	return;
     }
 
+    write_channel_log(ch,victim,KANAL_KD,argument);
+
     if (is_affected(ch,gsn_garble))
       garble(buf,argument);
     else
       strcpy(buf,argument);
+
+    ch->pcdata->rk_puani -= 2;
 
    if (!is_affected(ch, gsn_deafen))
      act_color("$N kd: $C$t$c",ch,buf,victim,TO_CHAR,POS_DEAD, CLR_MAGENTA_BOLD );
@@ -429,6 +448,9 @@ void do_kdg( CHAR_DATA *ch, char *argument )
     else
       strcpy(buf,argument);
 
+      ch->pcdata->rk_puani -= 4;
+
+
      act_color( "$n kdg: $C$T$c", ch, NULL, buf, TO_CHAR,POS_DEAD, CLR_MAGENTA_BOLD );
 
     for ( d = descriptor_list; d != NULL; d = d->next )
@@ -469,6 +491,7 @@ void do_say( CHAR_DATA *ch, char *argument )
       return;
     }
 
+    write_channel_log(ch,NULL,KANAL_SOYLE,argument);
 
     if (is_affected(ch,gsn_garble))
       garble(buf,(char*)argument);
@@ -514,193 +537,6 @@ void do_say( CHAR_DATA *ch, char *argument )
 }
 
 
-
-void do_shout( CHAR_DATA *ch, char *argument )
-{
-    DESCRIPTOR_DATA *d;
-    char buf[MAX_INPUT_LENGTH];
-    char trans[MAX_STRING_LENGTH];
-
-    if (argument[0] == '\0' )
-    {
-      printf_to_char(ch,"Ne baðýracaksýn?.\n\r");
-      return;
-    }
-
-    WAIT_STATE( ch, 12 );
-
-    if (is_affected(ch,gsn_garble))
-      garble(buf,(char*)argument);
-    else
-      strcpy(buf,argument);
-
-    if (!is_affected(ch, gsn_deafen))
-    act_color( "Sen '$C$T$c' diye baðýrýyorsun.",
-              ch, NULL, buf, TO_CHAR,POS_DEAD, CLR_GREEN_BOLD );
-
-    for ( d = descriptor_list; d != NULL; d = d->next )
-    {
-
-	if ( d->connected == CON_PLAYING &&
-	     d->character != ch &&
-	     d->character->in_room->area == ch->in_room->area &&
-             !is_affected(d->character, gsn_deafen))
-	{
-	    sprintf(trans,"%s",translate(ch,d->character,buf));
-      act_color("$n '$C$t$c' diye baðýrýyor.",
-                ch,trans,d->character,TO_VICT,POS_DEAD,CLR_GREEN_BOLD );
-	}
-    }
-
-    return;
-}
-
-
-
-void do_tell( CHAR_DATA *ch, char *argument )
-{
-    char arg[MAX_INPUT_LENGTH],buf[MAX_STRING_LENGTH];
-    CHAR_DATA *victim;
-
-    if ( IS_SET(ch->comm, COMM_NOTELL) || IS_SET(ch->comm,COMM_DEAF))
-    {
-      printf_to_char(ch,"Mesajýn iletilemedi.\n\r" );
-	return;
-    }
-
-    if ( IS_SET(ch->comm, COMM_QUIET) )
-    {
-      printf_to_char(ch,"Önce sessiz durumundan çýkmalýsýn.\n\r");
-	return;
-    }
-
-    if (IS_SET(ch->comm,COMM_DEAF))
-    {
-      printf_to_char(ch,"Önce saðýr durumundan çýkmalýsýn.\n\r");
-	return;
-    }
-
-    argument = one_argument( (char*)argument, arg );
-
-    if ( arg[0] == '\0' || argument[0] == '\0' )
-    {
-      printf_to_char(ch,"Kime ne mesaj göndereceksin?\n\r" );
-	return;
-    }
-
-    /*
-     * Can tell to PC's anywhere, but NPC's only in same room.
-     * -- Furey
-     */
-    if ( ( victim = get_char_world( ch, arg ) ) == NULL
-    || ( IS_NPC(victim) && victim->in_room != ch->in_room ) )
-    {
-      printf_to_char( ch,"Burada deðil.\n\r" );
-	return;
-    }
-
-    if ( victim->desc == NULL && !IS_NPC(victim))
-    {
-      act("$N baðlantýsýný kaybetmiþ görünüyor...daha sonra tekrar dene.",
-    	    ch,NULL,victim,TO_CHAR);
-        sprintf(buf,"%s tells you '%s'\n\r",PERS(ch,victim),argument);
-        buf[0] = UPPER(buf[0]);
-        add_buf(victim->pcdata->buffer,buf);
-	return;
-    }
-
-    if ( !(IS_IMMORTAL(ch) && ch->level > LEVEL_IMMORTAL) && !IS_AWAKE(victim) )
-    {
-      act( "$N seni duyamaz.", ch, 0, victim, TO_CHAR );
-	return;
-    }
-
-    if ((IS_SET(victim->comm,COMM_QUIET) || IS_SET(victim->comm,COMM_DEAF))
-    && !IS_IMMORTAL(ch))
-    {
-      act( "$N anlatýlanlarý almýyor.", ch, 0, victim, TO_CHAR );
-  	return;
-    }
-
-    if (is_affected(ch,gsn_garble))
-      garble(buf,(char*)argument);
-    else
-      strcpy(buf,argument);
-
-   if (!is_affected(ch, gsn_deafen))
-   act_color("$N: $C$t$c",
-             ch,buf,victim,TO_CHAR,POS_DEAD, CLR_MAGENTA_BOLD );
- act_color("$n: $C$t$c",
-           ch,buf,victim,TO_VICT,POS_DEAD, CLR_RED_BOLD );
-
-    victim->reply	= ch;
-
-    return;
-}
-
-
-void do_reply( CHAR_DATA *ch, char *argument )
-{
-    CHAR_DATA *victim;
-    char buf[MAX_STRING_LENGTH];
-
-    if ( IS_SET(ch->comm, COMM_NOTELL) )
-    {
-      printf_to_char(ch,"Mesajýn iletilemedi.\n\r" );
-	return;
-    }
-
-    if ( ( victim = ch->reply ) == NULL )
-    {
-      printf_to_char(ch,"Burada deðil.\n\r" );
-	return;
-    }
-
-    strcpy(buf,argument);
-    if ( victim->desc == NULL && !IS_NPC(victim))
-    {
-        if (is_affected(ch,gsn_garble))
-          garble(buf,(char*)argument);
-        else
-          strcpy(buf,argument);
-          act("$N baðlantýsýný kaybetmiþ görünüyor...daha sonra tekrar dene.",
-              ch,NULL,victim,TO_CHAR);
-        sprintf(buf,"%s tells you '%s'\n\r",PERS(ch,victim),argument);
-        buf[0] = UPPER(buf[0]);
-        add_buf(victim->pcdata->buffer,buf);
-        return;
-    }
-
-    if ( !IS_IMMORTAL(ch) && !IS_AWAKE(victim) )
-    {
-      act( "$N seni duyamaz.", ch, 0, victim, TO_CHAR );
-	return;
-    }
-
-    if ((IS_SET(victim->comm,COMM_QUIET) || IS_SET(victim->comm,COMM_DEAF))
-    &&  !IS_IMMORTAL(ch) && !IS_IMMORTAL(victim))
-    {
-      act_new("$N anlatýlanlarý almýyor.", ch, 0, victim, TO_CHAR,POS_DEAD);
-        return;
-    }
-
-    if (!IS_IMMORTAL(victim) && !IS_AWAKE(ch))
-    {
-      printf_to_char( ch,"Rüyalarýnda mý?\n\r" );
-	return;
-    }
-
-   if (!is_affected(ch, gsn_deafen))
-   act_color("$N: $C$t$c",
-             ch,buf,victim,TO_CHAR,POS_DEAD, CLR_MAGENTA_BOLD );
- act_color("$n: $C$t$c",
-            ch,buf,victim,TO_VICT,POS_DEAD, CLR_RED_BOLD );
-
-    victim->reply	= ch;
-
-    return;
-}
-
 void do_yell( CHAR_DATA *ch, char *argument )
 {
     DESCRIPTOR_DATA *d;
@@ -713,6 +549,8 @@ void do_yell( CHAR_DATA *ch, char *argument )
       printf_to_char( ch,"Ne haykýracaksýn?\n\r" );
 	return;
     }
+
+    write_channel_log(ch,NULL,KANAL_HAYKIR,argument);
 
     if (is_affected(ch,gsn_garble))
       garble(buf,(char*)argument);
@@ -756,6 +594,8 @@ char buf[MAX_INPUT_LENGTH];
       printf_to_char(ch,"Nasýl bir duygu vereceksin?\n\r" );
         return;
     }
+
+    write_channel_log(ch,NULL,KANAL_DUYGU,argument);
 
     if (is_affected(ch,gsn_garble))
       garble(buf,(char*)argument);
@@ -1785,6 +1625,7 @@ void do_group( CHAR_DATA *ch, char *argument )
       	TO_VICT,POS_SLEEPING,CLR_RED);
       act_color("$C$N grubun için fazla þer yanlýsý!$c", ch, NULL, victim,
       	TO_CHAR,POS_SLEEPING,CLR_RED);
+      ch->pcdata->rk_puani -= 1;
       return;
     }
 
@@ -1794,6 +1635,7 @@ void do_group( CHAR_DATA *ch, char *argument )
       	TO_VICT,POS_SLEEPING,CLR_RED);
       act_color("$C$N grubun için fazla masum!$c", ch, NULL, victim,
       	TO_CHAR,POS_SLEEPING,CLR_RED);
+      ch->pcdata->rk_puani -= 1;
       return;
     }
 
@@ -1807,6 +1649,7 @@ void do_group( CHAR_DATA *ch, char *argument )
       act_color("$CSen $s kabalýndan nefret ediyorsun, onun grubuna nasýl gireceksin?!$c",
       	ch,NULL, victim,TO_VICT,POS_SLEEPING,CLR_RED);
       act_color("$CSen $S kabalýndan nefret ediyorsun, onu grubuna nasýl alabilirsin?!$c",ch, NULL, victim, TO_CHAR,POS_SLEEPING,CLR_RED);
+      ch->pcdata->rk_puani -= 20;
       return;
     }
 
@@ -1963,10 +1806,15 @@ void do_gtell( CHAR_DATA *ch, char *argument )
 	return;
     }
 
+    write_channel_log(ch,NULL,KANAL_GSOYLE,argument);
+
     if (is_affected(ch,gsn_garble))
       garble(buf,argument);
     else
       strcpy(buf,argument);
+
+    ch->pcdata->rk_puani -= 1;
+
 
     /*
      * Note use of printf_to_char, so gtell works on sleepers.
@@ -2051,6 +1899,8 @@ void do_cb( CHAR_DATA *ch, char *argument )
       garble(buf2,argument);
     else
       strcpy(buf2,argument);
+
+    ch->pcdata->rk_puani -= 2;
 
    if (!is_affected(ch, gsn_deafen))
      act_color(buf, ch, argument, NULL, TO_CHAR,POS_DEAD, CLR_BROWN);
@@ -2246,7 +2096,7 @@ void do_remort( CHAR_DATA *ch, char *argument )
     char mkstr[MAX_INPUT_LENGTH];
     char pbuf[MAX_STRING_LENGTH];
     char name[MAX_STRING_LENGTH];
-    int bankg, banks, qp, silver, gold;
+    int bankg, banks, qp, silver, gold, old_tra, old_pra;
 
     if ( IS_NPC(ch) || ( d = ch->desc ) == NULL )
         return;
@@ -2281,7 +2131,7 @@ ch->pcdata->confirm_remort = FALSE;
 	printf_to_char(ch,"Unutma ki, eski karaktere ait aþaðýdaki özellikler aynen korunur:\n\r");
 	printf_to_char(ch,"        bankadakiler dahil tüm altýn ve akçe\n\r");
 	printf_to_char(ch,"        pratik, eðitim seanslarý ve görev puaný\n\r");
-	printf_to_char(ch,"BUNLARA EK OLARAK, artýk fazladan 2 yüzük takabileceksin.\n\r");
+	printf_to_char(ch,"Yeni yaþamýnda 6 yüzük takabileceksin.\n\r");
 	printf_to_char(ch,"             Ve fazladan 10 eðitim seansýn olacak.\n\r");
 
 	sprintf( pbuf, "%s", ch->pcdata->pwd );
@@ -2294,6 +2144,8 @@ ch->pcdata->confirm_remort = FALSE;
 	qp	= ch->pcdata->questpoints;
 	silver	= ch->silver;
 	gold	= ch->gold;
+  old_tra = ch->train;
+  old_pra = ch->practice;
 
 	if (!quit_org(ch, argument, TRUE, TRUE ))	return;
 
@@ -2312,7 +2164,8 @@ ch->pcdata->confirm_remort = FALSE;
 	ch->silver	+= silver;
 	ch->gold	+= gold;
 	ch->pcdata->questpoints	+= qp;
-	ch->train	+= 10;
+  ch->practice += old_pra;
+	ch->train	+= (10 + old_tra);
 
   write_to_buffer( d, "\n\r[Devam etmek için ENTER]\n\r",0);
 	return;
@@ -2322,9 +2175,10 @@ ch->pcdata->confirm_remort = FALSE;
     printf_to_char(ch,"UYARI: bu komutun geri dönüþü yoktur.\n\r");
     printf_to_char(ch,"Yeniyaþam komutunu argümanla yazmak yeniyaþam durumunu iptal edecektir.\n\r");
     printf_to_char(ch,"Unutma ki, eski karaktere ait aþaðýdaki özellikler aynen korunur:\n\r");
-    printf_to_char(ch,"        bankadakiler dahil tüm altýn sikke ve akçe\n\r");
-    printf_to_char(ch,"        pratik, eðitim seanslarý ve görev puaný\n\r");
-    printf_to_char(ch,"BUNLARA EK OLARAK, artýk fazladan 2 yüzük takabileceksin.\n\r");
+  	printf_to_char(ch,"        bankadakiler dahil tüm altýn ve akçe\n\r");
+  	printf_to_char(ch,"        pratik, eðitim seanslarý ve görev puaný\n\r");
+  	printf_to_char(ch,"Yeni yaþamýnda 6 yüzük takabileceksin.\n\r");
+  	printf_to_char(ch,"             Ve fazladan 10 eðitim seansýn olacak.\n\r");
     ch->pcdata->confirm_remort = TRUE;
     wiznet("$N yeniyaþam almak üzere.",ch,NULL,0,0,get_trust(ch));
 

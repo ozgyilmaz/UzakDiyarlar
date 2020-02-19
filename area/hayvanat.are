@@ -11,7 +11,7 @@ Maxvnum 8299
 Path 8g d g y~
 END
 
-#MOBILES
+#NEW_MOBILES
 #8200
 tüccar giles~
 giles~
@@ -22,12 +22,7 @@ ziyaretçilere hizmet ederek geçiriyor. Tembel birisi olduðu için baþka bir
 iþ yapmaya tenezzül etmiyor, hem ayrýca iyide para kazanýyor burada.
 ~
 human~
-ABG D 0 0
-20 0 3d9+333 199d1+1 2d8+5 punch
--4 -4 -4 7
-EFNU 0 0 0
-stand stand male 100
-0 0 medium 0
+ABG D 20
 #8201
 hayvanat bahçesi bekçisi~
 hayvanat bahçesi bekçisi~
@@ -39,12 +34,7 @@ pahalý kýyafetleri var. Kýyafetlerine bakýlarak hayvanlara pek bakmadýðý
 izlenimine kapýlýyorsun.
 ~
 human~
-AB F 0 0
-10 0 2d7+121 99d1+1 2d4+2 punch
-1 1 1 8
-E 0 0 0
-stand stand male 100
-0 0 medium 0
+AB F 10
 #8202
 dev sülük~
 dev bir sülük~
@@ -53,12 +43,7 @@ Dev bir sülük koluna yapýþýyor.
 Dev hafif kahverengi siyahýmsý bir sülük.
 ~
 bear~
-ABEF 0 0 0
-3 0 2d6+35 29d1+1 1d6+0 claw
-7 7 7 10
-0 AB 0 0
-stand stand male 0
-0 0 medium 0
+ABEF 0 3
 #8203
 kaplan~
 kaplan~
@@ -67,12 +52,7 @@ Kaplan burada avlanmak için bekliyor.
 Sýradan fakat aç bir kaplan.
 ~
 cat~
-ABEF J 0 0
-17 0 3d9+258 169d1+1 3d4+4 claw
--3 -3 -3 7
-H AB 0 0
-stand stand female 0
-0 0 medium 0
+ABEF J 17
 #8204
 yunus~
 yunus~
@@ -81,12 +61,7 @@ Mutluca yüzen bir yunus burada.
 Çok tatlý.
 ~
 water fowl~
-ABCE 0 50 0
-10 0 2d7+121 99d1+1 2d4+2 slap
-1 1 1 8
-0 0 0 0
-stand stand female 0
-0 0 medium 0
+ABCE 0 10
 #8205
 tek-boynuzlu at~
 tek-boynuzlu at~
@@ -95,12 +70,7 @@ Tek-boynuzlu bir at burada duruyor.
 Muhteþem.
 ~
 fox~
-AB 0 1000 0
-15 0 3d9+208 149d1+1 2d6+3 pierce
--2 -2 -2 7
-IJ 0 0 0
-stand stand female 0
-0 0 medium 0
+AB 0 15
 #8206
 timsah~
 timsah~
@@ -110,12 +80,7 @@ Büyük yeþil deriye sahip bir yaratýk, çok büyük ve geniþ diþleri var.
 Daha önce doyurulmuþ olmasýný umut ediyorsun.
 ~
 lizard~
-ABF 0 -100 8206
-13 0 2d10+170 129d1+1 2d5+3 cleave
--1 -1 -1 8
-0 AB 0 0
-stand stand female 0
-0 0 medium 0
+ABF 0 13
 #8207
 ayý~
 ayý~
@@ -125,12 +90,7 @@ Yaklaþtýkça hýrýldayan bir ayý.
 zararlarý düþününce kalbin duracak gibi oluyor.
 ~
 bear~
-ABF 0 0 0
-13 0 2d10+170 129d1+1 2d5+3 claw
--1 -1 -1 8
-C AB 0 0
-stand stand female 0
-0 0 medium 0
+ABF 0 13
 #8208
 bebek ejderha~
 bebek ejderha~
@@ -139,12 +99,7 @@ bebek ejderha~
 Bebek olmasýna raðmen pek bir büyük ejderha karþýnda duruyor.
 ~
 dragon~
-AB 0 2 0
-19 0 3d9+308 189d1+1 2d7+5 blast
--4 -4 -4 7
-0 0 0 0
-stand stand female 0
-0 0 large 0
+AB 0 19
 #8209
 fil~
 fil~
@@ -153,12 +108,7 @@ Sýradan bir fil burada duruyor.
 Büyük kulaklara sahip gri bir fil.
 ~
 dragon~
-AB 0 100 0
-14 0 2d10+190 139d1+1 1d12+3 pierce
--1 -1 -1 8
-C 0 0 0
-stand stand female 0
-0 0 large 0
+AB 0 14
 #8210
 goril~
 goril~
@@ -167,12 +117,7 @@ Goril burada duruyor.
 Kýllý geniþ bir goril.
 ~
 human~
-ABF 0 0 0
-15 0 3d9+208 149d1+1 2d6+3 bite
--2 -2 -2 7
-F AB 0 0
-stand stand male 0
-0 0 medium 0
+ABF 0 15
 #8211
 hayvanat bahçesi asistaný bir kadýn~
 hayvanat bahçesi asistaný~
@@ -182,12 +127,7 @@ Hayvanat bahçesindeki hayvanlarý beslemekten sorumlu olan
 bir kadýn.
 ~
 human~
-AB 0 200 0
-10 0 2d7+121 99d1+1 2d4+2 punch
-1 1 1 8
-E 0 0 0
-stand stand female 0
-0 0 medium 0
+AB 0 10
 #8230
 domuz~
 domuz~
@@ -196,12 +136,7 @@ Bir domuz burada yuvarlanýyor.
 Bu sýradan küçük pembe bir domuz. Ne fazlasý var nede eksiði var.
 ~
 pig~
-AB 0 0 0
-3 0 2d6+35 29d1+1 1d6+0 scratch
-7 7 7 10
-0 0 0 0
-stand stand female 0
-0 0 medium 0
+AB 0 3
 #8231
 küçük kuþ~
 küçük kuþ~
@@ -210,12 +145,7 @@ Küçük bir kuþ etrafta uçuyor.
 Gökyüzünde uçarmýþçasýna kafeste uçan küçük bir kuþ.
 ~
 song bird~
-A 0 0 0
-1 0 2d6+10 9d1+1 1d4+0 scratch
-9 9 9 10
-0 0 0 0
-stand stand female 0
-0 0 small 0
+A 0 1
 #8232
 bebek keçi~
 bebek keçi~
@@ -224,12 +154,7 @@ Bebek keçi burada ot yiyor.
 Tasmalý bir bebek keçi görüyorsun.
 ~
 fox~
-ABG 0 0 8232
-2 0 2d7+21 19d1+1 1d5+0 slash
-8 8 8 10
-0 0 0 0
-stand stand female 0
-0 0 tiny 0
+ABG 0 2
 #8233
 anne keçi~
 anne keçi~
@@ -239,12 +164,7 @@ Keçinin geniþ daire þeklinde zilleri var. Ona bakarken senin giysilerini
 çiðnemeye baþlýyor.
 ~
 fox~
-ABG 0 0 8232
-3 0 2d6+35 29d1+1 1d6+0 slash
-7 7 7 10
-0 0 0 0
-stand stand female 0
-0 0 medium 0
+ABG 0 3
 #8234
 baba keçi~
 baba keçi~
@@ -254,12 +174,7 @@ Baba keçi burada ailesini koruyor. Görünüþe göre boynuzlarýyla sana
 epeyce bir zarar verebilir.
 ~
 fox~
-ABG 0 0 8232
-4 0 2d7+46 39d1+1 1d5+1 slash
-6 6 6 9
-0 0 0 0
-stand stand female 0
-0 0 medium 0
+ABG 0 4
 #8235
 üzgün görünümlü eþek~
 eþek~
@@ -268,12 +183,7 @@ eþek~
 Oldukça üzgün ve çaresiz bir eþek duruyor burada.
 ~
 dog~
-AB 0 0 0
-5 0 2d6+60 49d1+1 1d6+1 stab
-5 5 5 9
-0 0 0 0
-stand stand female 0
-0 0 medium 0
+AB 0 5
 #8236
 yaþlý at~
 yaþlý at~
@@ -283,12 +193,7 @@ Bir zamanlat savaþ atýna benzer bir görüntüsü var atýn. Büyük ve kaslý,
 ve muhtemelen emekli olmasýna raðmen zarar verebilir durumda.
 ~
 fox~
-AB 0 0 0
-6 0 2d7+71 59d1+1 1d7+1 kick
-4 4 4 9
-I 0 C 0
-stand stand female 0
-0 0 medium 0
+AB 0 6
 #8237
 papaðan harvey~
 papaðan harvey~
@@ -300,12 +205,7 @@ Tabelanýn üstünde "Harvey konuþan papaðan, lütfen parmaklarýnýza dikkat
 ediniz." Yazýyor.
 ~
 song bird~
-AB 0 0 0
-8 0 2d7+96 79d1+1 1d7+2 peck
-3 3 3 9
-0 0 0 0
-stand stand female 0
-0 0 small 0
+AB 0 8
 #0
 
 #OBJECTS

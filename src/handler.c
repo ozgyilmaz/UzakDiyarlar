@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -69,50 +81,6 @@ void	raffect_back_char	args( ( ROOM_INDEX_DATA *room, CHAR_DATA *ch) );
 bool	is_safe_rspell	args( ( int level, CHAR_DATA *victim) );
 ROOM_INDEX_DATA *	find_location	args( ( CHAR_DATA *ch, char *arg ) );
 
-/* friend stuff -- for NPC's mostly */
-bool is_friend(CHAR_DATA *ch,CHAR_DATA *victim)
-{
-    if (is_same_group(ch,victim))
-	return TRUE;
-
-
-    if (!IS_NPC(ch))
-	return FALSE;
-
-    if (!IS_NPC(victim))
-    {
-	if (IS_SET(ch->off_flags,ASSIST_PLAYERS))
-	    return TRUE;
-	else
-	    return FALSE;
-    }
-
-    if (IS_AFFECTED(ch,AFF_CHARM))
-	return FALSE;
-
-    if (IS_SET(ch->off_flags,ASSIST_ALL))
-	return TRUE;
-
-    if (ch->group && ch->group == victim->group)
-	return TRUE;
-
-    if (IS_SET(ch->off_flags,ASSIST_VNUM)
-    &&  ch->pIndexData == victim->pIndexData)
-	return TRUE;
-
-    if (IS_SET(ch->off_flags,ASSIST_RACE) && RACE(ch) == RACE(victim) )
-	return TRUE;
-
-    if (IS_SET(ch->off_flags,ASSIST_ALIGN)
-    &&  !IS_SET(ch->act,ACT_NOALIGN) && !IS_SET(victim->act,ACT_NOALIGN)
-    &&  ((IS_GOOD(ch) && IS_GOOD(victim))
-    ||	 (IS_EVIL(ch) && IS_EVIL(victim))
-    ||   (IS_NEUTRAL(ch) && IS_NEUTRAL(victim))))
-	return TRUE;
-
-    return FALSE;
-}
-
 /*
  * Room record:
  * For less than 5 people in room create a new record.
@@ -171,23 +139,13 @@ int race_lookup (const char *name)
    int race;
    char buf[MAX_STRING_LENGTH];
 
-   if( !strcmp( name, "duergar" ) )
-	   strcpy( (char*)name, "yeg");
-   if( !strcmp( name, "half-elf" ) )
-	   strcpy( (char*)name, "çora");
-   if( !strcmp( name, "dark-elf" ) )
-	   strcpy( (char*)name, "çora");
-   if( !strcmp( name, "githyanki" ) )
-	   strcpy( (char*)name, "yeg");
-   if( !strcmp( name, "arial" ) )
+   if( !strcmp( name, "duergar" ) || !strcmp( name, "yeg" ) || !strcmp( name, "githyanki" ) || !strcmp( name, "arial" ) )
 	   strcpy( (char*)name, "gamayun");
-   if( !strcmp( name, "felar" ) )
-	   strcpy( (char*)name, "börü");
-   if( !strcmp( name, "rockseer" ) )
+   if( !strcmp( name, "half-elf" ) || !strcmp( name, "dark-elf" ) || !strcmp( name, "rockseer" ) )
 	   strcpy( (char*)name, "çora");
-   if( !strcmp( name, "troll" ) )
-	   strcpy( (char*)name, "asura");
-   if( !strcmp( name, "trol" ) )
+   if( !strcmp( name, "felar" ) || !strcmp( name, "börü" ) || !strcmp( name, "naga" ) || !strcmp( name, "ciren" ) )
+	   strcpy( (char*)name, "pardus");
+   if( !strcmp( name, "troll" ) || !strcmp( name, "trol" ) )
 	   strcpy( (char*)name, "asura");
 
    for ( race = 0; race_table[race].name[1] != NULL; race++)
@@ -549,16 +507,6 @@ int check_immune(CHAR_DATA *ch, int dam_type)
 	return def;
     else
       	return immune;
-}
-
-/* checks mob format */
-bool is_old_mob(CHAR_DATA *ch)
-{
-    if (ch->pIndexData == NULL)
-	return FALSE;
-    else if (ch->pIndexData->new_format)
-	return FALSE;
-    return TRUE;
 }
 
 /* for returning skill information */
@@ -2400,10 +2348,10 @@ CHAR_DATA *get_char_room( CHAR_DATA *ch, char *argument )
     number = number_argument( argument, arg );
     count  = 0;
     ugly   = 0;
-    if ( !str_cmp( arg, "self" ) )
-	return ch;
-    if ( !str_cmp( arg, "ugly" ) )
-	ugly = 1;
+    if ( !str_cmp( arg, "self" ) || !str_cmp( arg, "kendimi" ) || !str_cmp( arg, "bana" ) )
+	   return ch;
+    if ( !str_cmp( arg, "ugly" ) || !str_cmp( arg, "çirkin" ) )
+	   ugly = 1;
 
     for ( rch = ch->in_room->people; rch != NULL; rch = rch->next_in_room )
     {

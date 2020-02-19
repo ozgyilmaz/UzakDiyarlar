@@ -11,7 +11,7 @@ Maxvnum 29276
 Path 34d k 3d~
 END
 
-#MOBILES
+#NEW_MOBILES
 #29201
 mavi dilli kertenkele~
 mavi dilli kertenkele~
@@ -21,12 +21,7 @@ The blue-tongued lizard measures some 18" from head to tail,
 is very quick, and has sharp pointy teeth.
 ~
 lizard~
-ACEHX 0 0 0
-8 0 2d7+96 5d5+100 1d7+2 bite
-3 3 3 8
-FHMR 0 L I
-stand stand none 0
-AGXc ACDEFHKPQV small 0
+ACEHX 0 8
 #29202
 kýrmýzý dilli kertenkele~
 kýrmýzý dilli kertenkele~
@@ -36,12 +31,7 @@ The red-tongued lizard measures some 18" from head to tail,
 is very quick, and has sharp pointy teeth.
 ~
 lizard~
-ACEHX 0 0 0
-9 0 2d6+110 5d5+100 1d8+2 bite
-2 2 2 7
-HMR 0 L I
-stand stand none 0
-AGXc ACDEFHKQV small 0
+ACEHX 0 9
 #29203
 yeþil dilli kertenkele~
 yeþil dilli kertenkele~
@@ -51,12 +41,7 @@ The green-tongued lizard measures some 18" from head to tail,
 is very quick, and has sharp pointy teeth.
 ~
 lizard~
-ACEHX 0 0 0
-8 0 2d7+96 5d5+100 1d7+2 bite
-3 3 3 8
-FHMR 0 L I
-stand stand none 0
-AGXc ACDEFHKQV small 0
+ACEHX 0 8
 #29204
 denizci yaþlý dul kadýn burnu gözcü~
 Dul Kadýn Burnu gözcüsü~
@@ -67,12 +52,7 @@ he has noticed several craft entering and leaving Freeport harbor
 at night, but when he reported it, nobody seemed to care.
 ~
 human~
-ABCEX 0 300 0
-12 0 2d10+150 5d5+100 1d10+3 slash
-0 0 0 7
-EFNU 0 0 0
-stand stand male 100
-AHMV ABCDEFGHIJK medium 0
+ABCEX 0 12
 #29205
 balýkçý~
 balýkçý~
@@ -83,12 +63,7 @@ you really should try the blue-tongued lizards which hide in the
 jetty rocks.
 ~
 human~
-ABCEX 0 200 0
-10 0  2d7+121 5d5+100 2d4+2 pierce
-1 1 1 7
-EFNU 0 0 0
-stand stand male 10
-AHMV ABCDEFGHIJK medium 0
+ABCEX 0 10
 #29206
 rýhtým iþçisi~
 rýhtým iþçisi~
@@ -98,12 +73,7 @@ The dockworker is dressed in loose-fitting cotton clothing and uses
 a rope to lift the heavy crate.
 ~
 human~
-ACEX 0 0 0
-9 0 2d6+110 5d5+100 1d8+2 slash
-2 2 2 7
-EFNU 0 0 0
-stand stand male 10
-AHMV ABCDEFGHIJK medium 0
+ACEX 0 9
 #29207
 rýhtým þefi~
 rýhtým þefi~
@@ -113,12 +83,7 @@ The harbormaster is an old hand at this, and doesn't put up with
 any crap from you. Give him his list or go to the brig.
 ~
 human~
-ABCE 0 0 0
-29 0 6d12+778 5d5+1000 2d12+8 slash
--9 -9 -9 3
-EFNU 0 0 0
-stand stand male 300
-AHMV ABCDEFGHIJK medium 0
+ABCE 0 29
 #29208
 liman vatandaþ~
 liman vatandaþý~
@@ -127,12 +92,7 @@ Bir liman vatandaþý ýslýk çalarak yürüyor.
 The citizen is dressed in light cotton clothing and sandals.
 ~
 human~
-ACEX 0 200 0
-10 0  2d7+121 5d5+100 2d4+2 pierce
-1 1 1 7
-EFNU 0 0 0
-stand stand male 15
-AHMV ABCDEFGHIJK medium 0
+ACEX 0 10
 #29209
 gülen çocuk~
 gülen çocuk~
@@ -141,12 +101,7 @@ Bir çocuk burada, oyun oynuyor.
 The child is dressed in a white cotton shirt.
 ~
 human~
-ACEX 0 500 0
-7 0 2d6+85 5d5+100 1d8+1 pierce
-4 4 4 8
-EFNU 0 0 0
-stand stand female 1
-AHMV ABCDEFGHIJK medium 0
+ACEX 0 7
 #29210
 denizcinin karýsý~
 denizcinin karýsý~
@@ -156,12 +111,7 @@ The sailor's wife is dressed in a simple cotton dress,
 and has hair bleached blond by the sun and the sea.
 ~
 human~
-ACEX 0 100 0
-9 0 2d6+110 5d5+100 1d8+2 slash
-2 2 2 7
-EFNU 0 0 0
-stand stand female 3
-AHMV ABCDEFGHIJK medium 0
+ACEX 0 9
 #29211
 gemi yapým þefi~
 gemi yapým þefi~
@@ -173,12 +123,7 @@ commissioned to build 3 triremes, boats which offer little
 cargo storage, but excellent raiding speed.
 ~
 human~
-ABCE 0 300 0
-95 0 50d10+22500 5d5+5000 12d15+68 slash
--71 -71 -71 -37
-EFNU 0 0 0
-stand stand male 8000
-AHMV ABCDEFGHIJK medium 0
+ABCE 0 95
 #29212
 gemi yapým çýraðý~
 gemi yapým çýraðý~
@@ -188,12 +133,7 @@ The apprentice shipbuilder is a young boy dressed in a dirty
 grey smock.
 ~
 human~
-ABCE 0 300 0
-7 0 2d6+85 5d5+100 1d8+1 slash
-4 4 4 8
-EFNU 0 0 0
-stand stand male 18
-AHMV ABCDEFGHIJK medium 0
+ABCE 0 7
 #29213
 depo yetkilisi~
 depo yetkilisi~
@@ -204,12 +144,7 @@ of his employees. Why just this last month the records show 60 missing
 crates bound for destinations around the world.
 ~
 human~
-ABCE 0 300 0
-34 0 10d10+1200 5d5+1000 4d7+10 slash
--11 -11 -11 3
-EFNU 0 0 0
-stand stand male 340
-AHMV ABCDEFGHIJK medium 0
+ABCE 0 34
 #29214
 liman devriyesi~
 liman devriyesi~
@@ -219,12 +154,7 @@ The harbor patrolman is dressed in light armor. He is well armed
 though, and looks like he is in no mood for your crap.
 ~
 human~
-ACEX 0 500 0
-20 0 3d9+333 5d5+1000 2d8+5 pound
--4 -4 -4 5
-EFNU 0 0 0
-stand stand male 100
-AHMV ABCDEFGHIJK medium 0
+ACEX 0 20
 #29215
 yükleyici~
 yükleyici~
@@ -233,12 +163,7 @@ Bir yükleyici kargoyu limana götürüyor.
 The teamster drives his single mule with a long whip and foul language.
 ~
 human~
-ACEX 0 0 0
-13 0 2d10+170 5d5+100 2d5+3 slash
--1 -1 -1 6
-EFNU 0 0 0
-stand stand male 70
-AHMV ABCDEFGHIJK medium 0
+ACEX 0 13
 #29216
 lefti~
 Batýk Korsan'ýn sahibi Lefti~
@@ -249,12 +174,7 @@ a shady looking bunch talking about how Oglethorpe the master merchant
 had sold out Freeport to the pirates.
 ~
 human~
-ABCDE 0 600 0
-95 0 50d10+22500 5d5+5000 12d15+68 slash
--71 -71 -71 -37
-EFNU 0 0 0
-stand stand male 10000
-AHMV ABCDEFGHIJK medium 0
+ABCDE 0 95
 #29217
 anvar~
 Emporyum'un sahibi Anvar~
@@ -266,12 +186,7 @@ very cheap in which you might be interested. When you scoff at his
 fenced goods, Anwar clams up.
 ~
 çora~
-ABCEV J -300 0
-95 0 50d10+22500 5d5+5000 12d15+68 slash
--71 -71 -71 -37
-EFNU 0 B Z
-stand stand male 15000
-AHMV ABCDEFGHIJK medium 0
+ABCEV J 95
 #29218
 radner cüce zýrhçý~
 cüce zýrhçý Radner~
@@ -283,12 +198,7 @@ nobody he had talked to voted for Mayor Friendly. He offers to repair your
 armor.
 ~
 dwarf~
-ABCESV J 700 0
-94 0 50d10+21500 5d5+5000 10d18+66 slash
--69 -69 -69 -35
-EFNU 0 CLQ R
-stand stand male 15000
-AHMV ABCDEFGHIJK medium 0
+ABCESV J 94
 #29219
 samanta mistik göz cadýsý~
 Mistik Göz'ün cadýsý Samanta~
@@ -300,12 +210,7 @@ She lets slip that Lord Mourning was seen recently in her shop. She offers
 to identify anything you may have.
 ~
 human~
-ABCERV 0 -700 0
-94 0 50d10+21500 5d5+5000 10d18+66 pierce
--69 -69 -69 -35
-EFNU 0 0 0
-stand stand female 15000
-AHMV ABCDEFGHIJK medium 0
+ABCERV 0 94
 #29220
 çýrak tüccar~
 çýrak tüccar~
@@ -315,12 +220,7 @@ The apprentice is trying to fill his docket for the evening's tide. He
 wears a simple yellow smock.
 ~
 human~
-ABCE 0 200 0
-7 0 2d6+85 5d5+100 1d8+1 pierce
-4 4 4 8
-EFNU 0 0 0
-stand stand male 300
-AHMV ABCDEFGHIJK medium 0
+ABCE 0 7
 #29221
 keres tüccar~
 tüccar Keres~
@@ -331,12 +231,7 @@ threatened by Oglethorpe (1st chair) when he brought up the subject of
 missing records of the guild.
 ~
 human~
-ABCEN 0 400 0
-46 0 25d10+3250 5d5+1000 6d6+16 slash
--16 -16 -16 2
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+ABCEN 0 46
 #29222
 elken banker~
 Banker Elken~
@@ -347,12 +242,7 @@ the strange happenings of Freeport. He excuses himself and goes to
 talk to a teller, who in turn leaves the bank in a hurry.
 ~
 human~
-ABCE 0 -500 0
-49 0 50d10+4000 5d5+1000 4d10+18 pierce
--19 -19 -19 1
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+ABCE 0 49
 #29224
 genç bahriye öðrencisi~
 genç bahriye öðrencisi~
@@ -365,12 +255,7 @@ bay, and wound up sinking his boat and having to swim back, missing
 the final race.
 ~
 human~
-ABCE 0 400 0
-14 0  2d10+190 5d5+100 1d12+3 pound
--1 -1 -1 6
-EFNU 0 0 0
-stand stand male 10
-AHMV ABCDEFGHIJK medium 0
+ABCE 0 14
 #29225
 amiral beyaz miðfer yaþlý adam~
 Amiral Beyaz Miðfer~
@@ -383,12 +268,7 @@ first admiral of Freeport, Blacksail, who has acquired an addiction to
 devil weed.
 ~
 human~
-ABCEPQ 0 900 0
-49 0 50d10+4000 5d5+1000 4d10+18 pierce
--19 -19 -19 1
-EFNU 0 0 0
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+ABCEPQ 0 49
 #29226
 yardýmsever baþkan~
 yardýmsever Baþkan~
@@ -399,12 +279,7 @@ Mayor Friendly gets nervous and clams up. You notice that he keeps looking
 at a white marble statue.
 ~
 human~
-ABCE 0 -700 0
-44 0 25d10+2750 5d5+1000 8d4+15 pierce
--15 -15 -15 2
-EFNU 0 0 0
-stand stand male 6000
-AHMV ABCDEFGHIJK medium 0
+ABCE 0 44
 #29227
 hancý mige~
 Tayfa Bölgesi'nin hancýsý Midge~
@@ -416,12 +291,7 @@ the last 6 years. Recently her business picked up again. In fact, she
 just last month had a week stay by a very rich visitor named Lord Vulture.
 ~
 human~
-ABCE 0 400 0
-94 0 50d10+21500 5d5+5000 10d18+66 pound
--69 -69 -69 -35
-EFNU 0 0 0
-stand stand female 9000
-AHMV ABCDEFGHIJK medium 0
+ABCE 0 94
 #29228
 kirli korsan denizci~
 kirli korsan~
@@ -430,12 +300,7 @@ Kirli bir korsan denizci yüklerini indiriyor.
 The sailor reeks of rum and the sea.
 ~
 human~
-ACEX 0 -200 0
-45 0 25d10+3000 5d5+1000 8d4+16 slash
--15 -15 -15 2
-EFNU 0 0 0
-stand stand male 45
-AHMV ABCDEFGHIJK medium 0
+ACEX 0 45
 #29229
 korsan muhafýz~
 korsan muhafýz~
@@ -445,12 +310,7 @@ The guard is heavily armed and moves with military
 precision.
 ~
 human~
-ABCEF 0 -600 0
-46 0 25d10+3250 5d5+1000 6d6+16 pierce
--16 -16 -16 2
-EFNU 0 0 0
-stand stand male 150
-AHMV ABCDEFGHIJK medium 0
+ABCEF 0 46
 #29230
 amiral kara yelken~
 Amiral Kara Yelken~
@@ -462,12 +322,7 @@ to cut him off from all devil weed unless he complies with his every
 whim.
 ~
 human~
-ABCE 0 -200 0
-47 0 25d10+3500 5d5+1000 6d6+17 slash
--17 -17 -17 2
-EFNU 0 0 0
-stand stand male 250
-AHMV ABCDEFGHIJK medium 0
+ABCE 0 47
 #29231
 ogletorp tüccar efendi~
 tüccar efendi Ogletorp~
@@ -479,12 +334,7 @@ He laughs at your puny attempts to frighten him, and vows your slow, cold
 torture. With that, he laughs and eats a blue lizard tongue.
 ~
 human~
-ABCE 0 -1000 0
-47 0 25d10+3500 5d5+1000 6d6+17 slash
--17 -17 -17 2
-EFNU 0 0 0
-stand stand male 1500
-AHMV ABCDEFGHIJK medium 0
+ABCE 0 47
 #29232
 lord yas~
 Lord Yas~
@@ -497,12 +347,7 @@ place! With that Lord Mourning draws his saber and eats a blue lizard
 tongue.
 ~
 human~
-ABCE H -1000 0
-52 0 50d10+4750 5d5+5000 6d7+20 slash
--22 -22 -22 0
-EFNU 0 0 0
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+ABCE H 52
 #29233
 sarhoþ denizci~
 sarhoþ denizci~
@@ -514,12 +359,7 @@ a stain from the red wine he had this morning. There is the gravy from
 the meat he had for lunch.
 ~
 human~
-ACEX 0 0 0
-8 0 2d7+96 5d5+100 1d7+2 pound
-3 3 3 8
-EFNU 0 0 0
-stand stand male 10
-AHMV ABCDEFGHIJK medium 0
+ACEX 0 8
 #0
 
 

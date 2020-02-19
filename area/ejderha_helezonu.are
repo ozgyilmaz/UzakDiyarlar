@@ -11,7 +11,7 @@ Maxvnum 2499
 Path 4d 3k 2b 3k d 2k 4d g y~
 END
 
-#MOBILES
+#NEW_MOBILES
 #2400
 bakýr ejderha~
 The bakýr ejderha~
@@ -22,12 +22,7 @@ copper scales seems to stop time.  The Dragon does not seem happy that you are
 here. It ATTACKS.
 ~
 copper dragon~
-ABFGHTZ DFHZ 350 0
-40 0 15d10+1850 5d5+1000 4d8+13 charge
--13 -13 -13 -2
-CFM AB 0 I
-stand stand male 4999
-0 0 huge 0
+ABFGHTZ DFHZ 40
 #2401
 beyaz ejderha~
 The beyaz ejderha~
@@ -37,12 +32,7 @@ A intimidating Dragon stands before you.  The icy glare blinds you long enough
 for the Ice Dragon to devour you.
 ~
 white dragon~
-ABFGHT DFHZ -350 0
-40 0 15d10+1850 5d5+1000 4d8+13 charge
--13 -13 -13 -2
-CFM AB 0 I
-stand stand male 4999
-0 0 huge 0
+ABFGHT DFHZ 40
 #2402
 Peri~
 bir peri~
@@ -52,12 +42,7 @@ This winged creature is the epitome of mischief. He loves to pick on travelers,
 and guess what....   It's your turn :).
 ~
 çora~
-AFGH 0 -360 0
-36 0 10d10+1400 15d5+25 3d10+11 punch
--12 -12 -12 0
-FHKN AB 0 D
-stand stand male 1499
-0 0 small 0
+AFGH 0 36
 #2414
 Peri~
 bir peri~
@@ -67,12 +52,7 @@ This winged creature is the epitome of mischief. He loves to pick on travelers,
 and guess what....   It's your turn :).
 ~
 çora~
-AFGH 0 -360 0
-33 0 10d10+1100 15d5+25 6d4+10 punch
--10 -10 -10 0
-FHKN AB 0 D
-stand stand male 1499
-0 0 small 0
+AFGH 0 33
 #2403
 zaman ejderha ruh~
 Yaþamýn Ejderha Ruhu~
@@ -82,12 +62,7 @@ The Spirit of the Time Dragon guards the hoard gathered by the copper dragons
 who have stood sentinel over this spot. The Spirit lunges for your SOUL!!!!!!!
 ~
 dragon~
-ABFGT DFHU 0 0
-55 0 50d10+5500 20d12+100 10d4+23 charge
--25 -25 -25 -7
-CFM AB 0 I
-stand stand male 6499
-0 0 huge 0
+ABFGT DFHU 55
 #2404
 buz ejderha ruh~
 Buz Ejderhasýnýn Ruhu~
@@ -97,12 +72,7 @@ The Spirit of the Ice Dragon Stands over the hoard of the previous white dragon
 guardians. The Spirit attempts to leech you life blood from your body.
 ~
 dragon~
-ABFGT DFHU 0 0
-55 0 50d10+5500 20d12+100 10d4+23 charge
--25 -25 -25 -7
-CFM AB 0 I
-stand stand male 6999
-0 0 huge 0
+ABFGT DFHU 55
 #2405
 peri kral~
 Peri Kralý~
@@ -113,12 +83,7 @@ The King loves to frolic and play, especially with new friends.
 He asks you "Will you be my friend?".
 ~
 çora~
-ABFG DF 1000 0
-48 0 25d10+3500 23d8+100 6d6+18 charge
--16 -16 -16 -3
-EN AB 0 D
-stand stand male 2499
-0 0 small 0
+ABFG DF 48
 #2406
 kapý bekçi kapýbekçisi~
 Kapýbekçisi~
@@ -129,12 +94,7 @@ carrying a large burden for some time.  You feel sorry for him, but
 he does have the anahtar that you need to continue on through the cave.
 ~
 çora~
-ABFGT DF 0 0
-45 0 25d10+2750 24d7+100 8d4+16 pound
--15 -15 -15 2
-EFHIKN AB 0 D
-stand stand male 2799
-0 0 small 0
+ABFGT DF 45
 #2407
 sonsuzluk ejderha~
 Sonsuzluðun ejderhasý~
@@ -147,12 +107,7 @@ completely filled by the dragon.  At the time it seems peaceful, but you
 can tell that attacking it would be the dumbest, and last thing you ever did.
 ~
 dragon~
-AT BDFHU 0 0
-65 0 50d15+8250 52d12+100 11d5+35 charge
--37 -37 -37 -20
-CFM 0 0 I
-stand stand male 14999
-0 0 huge 0
+AT BDFHU 65
 
 #2408
 peri muhafýz~
@@ -164,12 +119,7 @@ suppose that if pressed, he could fight quite visciously compared to most
 Pixies.
 ~
 çora~
-ABGMT 0 1000 2405
-39 0 10d10+1700 5d10+50 5d6+13 pound
--13 -13 -13 0
-EIN 0 0 D
-stand stand male 1799
-0 0 small 0
+ABGMT 0 39
 #2409
 büyücü usta peri~
 Bir Usta Peri Büyücüsü~
@@ -181,12 +131,7 @@ at you maliciously.  The asa he carries seems familiar, but you are not
 sure from where you remember it.
 ~
 çora~
-ACGHR DH -500 0
-58 0 50d10+6000 34d10+100 5d10+25 pound
--27 -27 -27 -10
-FHN 0 0 D
-stand stand male 4499
-0 0 small 0
+ACGHR DH 58
 #2410
 bir peri muhafýz~
 Bir Peri Muhafýz~
@@ -197,12 +142,7 @@ suppose that if pressed, she could fight quite visciously compared to most
 Pixies.
 ~
 çora~
-ABGMT 0 1000 2405
-39 0 15d9+1700 5d10+50 3d10+11 scratch
--13 -13 -13 0
-E 0 0 CD
-stand stand female 1899
-0 0 small 0
+ABGMT 0 39
 #2411
 Peri~
 Bir Peri~
@@ -212,12 +152,7 @@ This winged creature is the epitome of mischief. He loves to pick on
 travelers, and guess what.... It's your turn :).
 ~
 çora~
-AHS DEPQZ -500 0
-36 0 10d30+1400 100d10+100 3d10+11 pound
--11 -11 -11 0
-FHKN 0 0 D
-stand stand male 1499
-0 0 small 0
+AHS DEPQZ 36
 #2412
 bekçi koruyucu~
 Bir Koruyucu~
@@ -228,12 +163,7 @@ for many years and in working for three years in midgaard he retired. And
 found this job.
 ~
 human~
-AHS DEHPZ -500 2402
-91 0 10d30+19000 100d10+100 15d15+10 pound
--81 -81 -81 -30
-FHKN 0 0 D
-stand stand male 1499
-0 0 medium 0
+AHS DEHPZ 91
 #2413
 Fireflash~
 Fireflash~
@@ -242,12 +172,7 @@ Ejderhalarýn Lideri burada, dinleniyor.
 	He is , the old dragon, resting and getting off tired of years.
 ~
 gold dragon~
-AHS DEPZ 1000 2402
-91 50 10d30+20400 100d10+100 5d35+60 punch
--75 -75 -75 -30
-FHKN 0 0 D
-stand stand male 1499
-0 0 small 0
+AHS DEPZ 91
 
 #0
 

@@ -11,7 +11,7 @@ Maxvnum 9499
 Path 3g 3b g d~
 END
 
-#MOBILES
+#NEW_MOBILES
 #9401
 ziyaretçi~
 ziyaretçi~
@@ -21,12 +21,7 @@ Ormanda dolaþmaktan zevk aldýðý bakýþlarýndan
 belli. Seni farketmedi bile.
 ~
 human~
-ABG 0 400 0
-8 0 2d7+71 3d9+100 1d7+1 punch
-3 3 3 8
-IE 0 I H
-stand stand male 75
-0 0 medium 0
+ABG 0 8
 
 #9402
 ziyaretçi~
@@ -37,12 +32,7 @@ Ormanda dolaþmaktan zevk aldýðý bakýþlarýndan
 belli. Seni farketti.
 ~
 human~
-ABGT DVc 400 0
-8 0 2d10+150 6d9+100 1d10+3 punch
-0 1 0 7
-IE 0 I H
-stand stand male 75
-0 0 medium 0
+ABGT DVc 8
 
 #9403
 ziyaretçi~
@@ -53,12 +43,7 @@ Ormanda dolaþmaktan zevk aldýðý bakýþlarýndan
 belli. Seni farketti.
 ~
 human~
-ABGS DVc 400 0
-8 0 2d10+150 6d9+100 1d10+3 punch
-0 1 0 7
-IE 0 I H
-stand stand male 75
-0 0 medium 0
+ABGS DVc 8
 
 #9404
 ziyaretçi~
@@ -68,12 +53,7 @@ Ormanda yolunu kaybetmiþ bir ziyaretçi burada.
 Kaybolmak onu korkutmuþ.
 ~
 human~
-ABGH 0 400 0
-8 0 2d7+71 3d9+100 1d7+1 punch
-3 3 3 8
-IE 0 I H
-stand stand male 75
-0 0 medium 0
+ABGH 0 8
 
 #9405
 bekçi~
@@ -84,12 +64,7 @@ Bu yaþlý adam ormanýn eskilerinden. Kim bilir neler biliyor
 ormanýn karanlýk yüzü hakkýnda.
 ~
 human~
-AGR CDEFGHc 700 0
-14 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 5
-EFNQ 0 0 0
-stand stand male 250
-0 0 medium 0
+AGR CDEFGHc 14
 
 #9406
 sansar~
@@ -100,12 +75,7 @@ Bir sansar görüyorsun. Hastalýðý gözlerine kadar ilerlemiþ.
 Yoksa saldýracak birini mi arýyor?!!
 ~
 fido~
-AFGH ZV -700 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-H 0 0 0
-stand stand male 0
-0 0 medium 0
+AFGH ZV 6
 
 #9407
 tilki~
@@ -116,12 +86,7 @@ Bir tilki görüyorsun. Hastalýðý gözlerine kadar ilerlemiþ.
 Yoksa saldýracak birini mi arýyor?!!
 ~
 fox~
-AFGH ZV -700 0
-4 0 2d7+71 3d9+100 1d7+1 none
-9 9 9 13
-H 0 0 0
-stand stand male 0
-0 0 medium 0
+AFGH ZV 4
 
 #9408
 gölge~
@@ -131,12 +96,7 @@ Bir gölge SENÝ izliyor.
 Simsiyah bir gölge.
 ~
 human~
-AGT ZV -700 0
-14 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 5
-G 0 0 0
-stand stand male 250
-0 0 medium 0
+AGT ZV 14
 
 #9409
 sarhoþ~
@@ -146,12 +106,7 @@ Sarhoþun biri burada, dans etmeye çalýþýyor.
 Ormaný meyhane olarak kullananlardan...
 ~
 human~
-ACGH 0 0 0
-4 0 2d7+21 1d9+100 1d5+0 none
-6 5 7 8
-EFNU 0 0 0
-stand stand male 2
-0 0 medium 0
+ACGH 0 4
 
 #9410
 serseri~
@@ -161,13 +116,8 @@ Serserinin biri burada, aðaca birþeyler kazýyor.
 Seni faketmemiþ gibi davranan bu serseriye dikkat
 etmelisin.
 ~
-ýsdarl~
-AGS PV -300 0
-9 0 2d6+110 4d9+100 1d8+2 none
-2 2 2 8
-EFNQ 0 0 0
-stand stand none 0
-AHV AEJK medium 0
+drow~
+AGS PV 9
 
 #9411
 sürüngen~
@@ -177,12 +127,7 @@ Bir sürüngen görüyorsun, gözlerindeki lanet seni þaþýrtýyor.
 O da karanlýktan etkilenenlerden.
 ~
 snake~
-ABC 0 0 0
-4 0 2d7+46 2d9+100 1d5+1 bite
-6 6 6 9
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABC 0 4
 
 #9412
 iþçi orman~
@@ -192,12 +137,7 @@ Bir orman iþçisi burada, elindeki kazmayla çalýþýyor.
 Oldukça yorgun görünüyor.
 ~
 human~
-AGHT 0 100 0
-6 0 2d6+35 1d9+100 1d6+0 none
-5 4 6 8
-EFNU 0 0 0
-stand stand male 2
-0 0 medium 0
+AGHT 0 6
 
 #9413
 iþçi orman~
@@ -207,12 +147,7 @@ Bir orman iþçisi burada, aðacýn dibinde uyuyakalmýþ.
 Horluyor.
 ~
 human~
-ABHT 0 150 0
-7 0 2d6+35 1d9+100 1d6+0 none
-2 3 4 7
-EFNU 0 0 0
-sleep sit male 3
-0 0 medium 0
+ABHT 0 7
 
 #9414
 baykuþ~
@@ -222,13 +157,8 @@ Bir baykuþ görüyorsun, dalýn üzerinden seni seyrediyor.
 Orman kadar yaþlý olsa gerek. Gözleri buranýn hikayesini
 bilirmiþ gibi bakýyor.
 ~
-song_bird~
-AGR DFHTc 300 0
-38 0 10d10+1300 10d10+1300 4d7+11 peck
--11 -20 -15 -10
-EN 0 0 0
-stand stand male 0
-W 0 medium 0
+song bird~
+AGR DFHTc 38
 #0
 
 #OBJECTS

@@ -11,7 +11,7 @@ Maxvnum 399
 Path 4d 3k 2b k~
 END
 
-#MOBILES
+#NEW_MOBILES
 #300
 rahip Aruncus~
 Rahip Aruncus~
@@ -21,12 +21,7 @@ Aruncus is a tall, skinny druid with a face marked by nature.
 He seems to be in peace with himself and his surroundings.
 ~
 human~
-AGH D -500 0
-13 0 2d10+170 6d9+100 2d5+3 none
--1 -1 -1 8
-EFNU 0 0 0
-stand stand male 25
-0 0 medium 0
+AGH D 13
 #301
 keþiþ sorbus~
 Keþiþ Sorbus~
@@ -37,12 +32,7 @@ He is dressed in simple clothing and looks like he has little
 or nothing to say.
 ~
 human~
-AB 0 0 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-EFNU 0 0 0
-sit sit male 0
-0 0 medium 0
+AB 0 4
 #303
 vatandaþ~
 vatandaþ~
@@ -52,12 +42,7 @@ He seems like a nice person with no interest in harming you or others.
 He wears normal, light clothing and has an anonymous face.
 ~
 human~
-ACG 0 0 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 10
-0 0 medium 0
+ACG 0 6
 #304
 vatandaþ~
 vatandaþ~
@@ -67,12 +52,7 @@ She seems like a nice person with no interest in harming you or others.
 She wears a minimum of clothing and has big ... eyes.
 ~
 human~
-ACG 0 0 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand female 5
-0 0 medium 0
+ACG 0 5
 #305
 solucan Shudde-M'ell~
 Shudde-M'ell~
@@ -83,12 +63,7 @@ The worm is the protector of the treasure of G'harne and has been so
 for as long anyone can remember.
 ~
 human~
-ABF D -1000 0
-24 0 5d10+500 12d9+100 2d10+6 none
--6 -6 -6 6
-EFNU 0 0 0
-stand stand male 683
-0 0 medium 0
+ABF D 24
 #306
 luxan tezgahtar~
 Luxan~
@@ -100,12 +75,7 @@ His life is seems to be totally occupied with trading.
 He looks very fit and capable of protecting his goods.
 ~
 human~
-ABC 0 400 0
-23 0 5d10+450 11d9+100 3d6+6 none
--6 -6 -6 6
-EFNU 0 0 0
-stand stand male 400
-0 0 medium 0
+ABC 0 23
 #308
 bekçi hancý~
 Hancý~
@@ -115,12 +85,7 @@ The Innkeeper looks skilled in brewing different beers and mixing the
 wierdest drinks known. He also looks very big.
 ~
 human~
-AB 0 -100 0
-23 0 5d10+450 11d9+100 3d6+6 none
--6 -6 -6 6
-EFNU 0 0 0
-stand stand male 5
-0 0 medium 0
+AB 0 23
 #309
 tavþan~
 sevimli tavþan~
@@ -129,12 +94,7 @@ Sevimli bir tavþan burada.
 It is a small, furry creature with long ears and big feet.
 ~
 rabbit~
-AG 0 0 0
-1 0 2d6+10 0d9+100 1d4+0 none
-9 9 9 10
-ENR 0 0 0
-stand stand none 0
-0 0 medium 0
+AG 0 1
 #350
 evcil ejderha~
 evcil ejderha~
@@ -145,12 +105,7 @@ The small wings are eagerly trying to lift her from the ground,
 but so far they haven't succeeded.
 ~
 dragon~
-ABHR DH 1000 0
-10 0 2d6+110 10d9+100 1d8+1 none
-2 2 2 6
-FR 0 0 0
-stand stand female 0
-0 0 medium 0
+ABHR DH 10
 #0
 #OBJECTS
 #300

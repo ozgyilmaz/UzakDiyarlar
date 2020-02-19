@@ -11,7 +11,7 @@ Maxvnum 7699
 Path 7b y~
 END
 
-#MOBILES
+#NEW_MOBILES
 #7500
 sincap küçük~
 küçük bir sincap~
@@ -20,12 +20,7 @@ Küçük bir sincap burada neþeyle fýndýk kemiriyor.
 He is a Small squirrel, and he is SOO cute!
 ~
 dog~
-AG 0 0 7500
-1 0 2d6+10 9d1+1 1d4+0 bite
-9 9 9 10
-EKN 0 0 0
-stand stand male 10
-0 0 small 0
+AG 0 1
 #7501
 ufak sincap~
 ufak bir sincap~
@@ -35,12 +30,7 @@ He is about 2 1/2 inches high, and weighs about 7 ounces.
 He's got sharp teeth though....
 ~
 cat~
-AG 0 0 7501
-1 0 2d6+10 9d1+1 1d4+0 claw
-9 9 9 1
-EKN 0 0 0
-stand stand male 10
-0 0 small 0
+AG 0 1
 #7502
 yýlan yeþil küçük~
 küçük yeþil bir yýlan~
@@ -50,12 +40,7 @@ His scales remind you of green mirrors.  There is something
 pretty about them though.
 ~
 snake~
-AG 0 0 0
-1 0 2d6+10 9d1+1 1d4+0 scratch
-9 9 9 10
-EKN 0 0 0
-stand stand male 0
-0 0 small 0
+AG 0 1
 #7503
 kýrlangýç kuþ küçük~
 bir kýrlangýç~
@@ -64,12 +49,7 @@ Burada küçük bir kuþ var. Biraz yaklaþýnca, bir kýrlangýç olduðunu anlýyorsun.
 It's a swallow, what do you EXPECT to see???
 ~
 song bird~
-AG 0 0 0
-1 0 2d6+10 9d1+1 1d4+0 slap
-9 9 9 10
-EKN 0 0 0
-stand stand male 0
-0 0 snall 0
+AG 0 1
 #7504
 güney kýrlangýcý kýrlangýç küçük kuþ~
 bir Güney Kýrlangýcý~
@@ -78,12 +58,7 @@ Bir Güney Kýrlangýcý burada....
 An African Swallow is here.... Carrying a cocanut..... :)
 ~
 song bird~
-AG 0 0 0
-2 0 2d7+21 19d1+1 1d5+0 scratch
-8 8 8 10
-EKN 0 0 0
-stand stand male 0
-0 0 small 0
+AG 0 2
 #7505
 rakun kahverengi siyah~
 kahverengi - siyah bir rakun~
@@ -92,12 +67,7 @@ Kahverengi - siyah bir rakun burada, çalýlarý didik didik ediyor.
 He is very clean, must be from all those baths he gives his food...
 ~
 fox~
-AG 0 0 0
-2 0 2d7+21 19d1+1 1d5+0 bite
-8 8 8 10
-EKN 0 0 0
-stand stand male 10
-0 0 medium 0
+AG 0 2
 #7506
 köstebek~
 bir köstebek~
@@ -106,12 +76,7 @@ Bir köstebek burada.  Tabi ki çukur kazýyor..
 He is doing.. Well... Well, whatever ground-hogs DO, of course!
 ~
 cat~
-AG 0 0 0
-2 0 2d7+21 19d1+1 1d5+0 stab
-8 8 8 10
-EKN 0 0 0
-stand stand male 44
-0 0 medium 0
+AG 0 2
 #7507
 tarla faresi küçük~
 bir tarla faresi~
@@ -120,12 +85,7 @@ Bir tarla faresi burada. Gerçekten küçücük...
 He's small, and it is hard to see him clearly...
 ~
 fox~
-AG 0 0 0
-1 0 2d6+10 9d1+1 1d4+0 claw
-9 9 9 10
-EKN 0 0 0
-stand stand male 10
-0 0 tiny 0
+AG 0 1
 #7508
 kanatlý sincap~
 bir kanatlý sincap~
@@ -135,12 +95,7 @@ He's small, furry, and brown.  Makes you wish you could step on him-except
 he's flying, and you're not.  We should fix this...
 ~
 song bird~
-AG T 0 0
-2 0 2d7+21 19d1+1 1d5+0 punch
-8 8 8 10
-EKN 0 0 0
-stand stand male 40
-0 0 small 0
+AG T 2
 #7509
 gözleri parýldayan aþýk~
 gözleri parýldayan bir aþýk~
@@ -150,12 +105,7 @@ He is tall, and very handsome.  You feel that the object of his affections
 must be feeling very good.
 ~
 human~
-AG 0 300 0
-4 0 2d7+46 39d1+1 1d5+1 punch
-6 6 6 9
-EKN 0 0 0
-stand stand male 350
-0 0 medium 0
+AG 0 4
 #7510
 gözleri parýldayan aþýk~
 gözleri parýldayan bir aþýk~
@@ -165,12 +115,7 @@ She is young, beautiful, smart--- Kinda makes you jealous of the guy who
 has nabbed her..
 ~
 human~
-AG 0 300 0
-4 0 2d7+46 39d1+1 1d5+1 punch
-6 6 6 9
-EKN 0 0 0
-stand stand female 60
-0 0 medium 0
+AG 0 4
 #7511
 bitkibilimcinin çýraðý genç~
 Bitkibilimcinin çýraklarýndan biri~
@@ -179,12 +124,7 @@ Bitkibilimcinin çýraklarýndan biri burada.
 He is collecting herbs for use in his training, and his mentors work.
 ~
 human~
-AG 0 0 0
-6 0 2d7+71 59d1+1 1d7+1 punch
-4 4 4 9
-EKN 0 0 0
-stand stand male 90
-0 0 medium 0
+AG 0 6
 #7512
 su yýlaný~
 su yýlaný~
@@ -193,12 +133,7 @@ Bir su yýlaný burada yüzüyor.
 He has green scales,  almost like his cousin in the Park.
 ~
 snake~
-AG 0 0 0
-6 0 2d7+71 59d1+1 1d7+1 whip
-4 4 4 9
-EKN 0 0 0
-stand stand male 110
-0 0 medium 0
+AG 0 6
 #7513
 keskin diþli balýk küçük~
 küçük keskin diþli bir balýk~
@@ -207,12 +142,7 @@ Küçük bir balýk burada özgürce yüzüyor.
 He has many small sharp pointy teeth in his mouth.
 ~
 fish~
-AG 0 0 0
-6 0 2d7+71 59d1+1 1d7+1 smash
-4 4 4 9
-EKN 0 0 0
-stand stand male 133
-0 0 medium 0
+AG 0 6
 #7514
 orta boy balýk~
 orta boy keskin diþli bir balýk~
@@ -221,12 +151,7 @@ Orta boy bir balýk burada özgürce yüzüyor.
 He has many medium sharp pointy teeth in his mouth.
 ~
 fish~
-AG 0 0 0
-7 0 2d6+85 69d1+1 1d8+1 smash
-4 4 4 9
-EKN 0 0 0
-stand stand male 150
-0 0 medium 0
+AG 0 7
 #7515
 keskin diþli balýk büyük~
 büyük keskin diþli bir balýk~
@@ -235,12 +160,7 @@ BÜYÜK, keskin diþli bir balýk burada özgürce yüzüyor.
 He has MANY, MANY,  sharp pointy teeth of the medium type....
 ~
 fish~
-AG 0 0 0
-8 0 2d7+96 79d1+1 1d7+2 smash
-3 3 3 9
-EKN 0 0 0
-stand stand male 170
-0 0 medium 0
+AG 0 8
 #7516
 altýn balýðý küçük mutlu~
 bir altýn balýðý~
@@ -250,12 +170,7 @@ Aw, the little fella must have been dumped here, all alone, to care for
 himself.  You should help him...
 ~
 fish~
-AG 0 0 0
-5 0 2d6+60 49d1+1 1d6+1 bite
-5 5 5 9
-EKN 0 0 0
-stand stand male 170
-0 0 medium 0
+AG 0 5
 #7517
 süs balýðý küçük mutlu~
 bir süs balýðý~
@@ -264,12 +179,7 @@ Mutlu bir süs balýðý burada, öyle MUTLU ki sorma!
 He is almost as cute as the goldfish.  You should help him too.
 ~
 fish~
-AG 0 0 0
-5 0 2d6+60 49d1+1 1d6+1 punch
-5 5 5 9
-EKN 0 0 0
-stand stand male 134
-0 0 medium 0
+AG 0 5
 #7518
 balýk körelmiþ diþli~
 körelmiþ diþli bir balýk~
@@ -280,12 +190,7 @@ and the LARGE ones,  AND NOW!  BLUNTED TEETHED ONES!
 It's enough to make you sick....
 ~
 fish~
-AG 0 0 0
-6 0 2d7+71 59d1+1 1d7+1 claw
-4 4 4 9
-EKN 0 0 0
-stand stand male 130
-0 0 medium 0
+AG 0 6
 #7519
 iðrenç umacý~
 bir umacý~
@@ -294,12 +199,7 @@ bir umacý~
 He looks evil, and mean.  You wonder what he is planning to do down here..
 ~
 human~
-AG 0 -500 0
-9 0 2d6+110 89d1+1 1d8+2 pierce
-2 2 2 9
-EKN 0 0 0
-stand stand male 170
-0 0 medium 0
+AG 0 9
 #7520
 temizlikçi solucan~
 bir temizlikçi solucan~
@@ -308,12 +208,7 @@ BÜYÜK bir temizlikçi solucan burada!
 Now you know why these tunnels are so clean.
 ~
 snake~
-96 552 0 0
-10 0 2d7+121 99d1+1 2d4+2 grep
-1 1 1 8
-EKN 0 0 0
-stand stand male 200
-0 0 medium 0
+96 552 10
 #7521
 vatandaþ adam erkek~
 bir Gerighelm vatandaþý~
@@ -322,12 +217,7 @@ Güzel Gerighelm þehrinin vatandaþlarýndan biri burada, iþleriyle meþgul oluyor.
 The citizen of Gerighelm looks happy, and contented.
 ~
 human~
-AGE 0 0 7521
-6 0 2d7+71 59d1+1 1d7+1 punch
-4 4 4 9
-EKN 0 0 0
-stand stand male 120
-AHMV ABCDEFGHIJK medium 0
+AGE 0 6
 #7522
 vatandaþ kadýn~
 bir Gerighelm vatandaþý~
@@ -336,12 +226,7 @@ Güzel Gerighelm þehrinin vatandaþlarýndan biri burada, alýþveriþ pazarlýðý yapýy
 She looks very worn from all this haggling.  But she is happy nonetheless.
 ~
 human~
-A G 0 7521
-7 0 2d6+85 69d1+1 1d8+1 punch
-4 4 4 9
-EKN 0 0 0
-stand stand female 140
-AHMV ABCDEFGHIJK medium 0
+A G 7
 #7523
 müzisyen ozan~
 bir müzisyen~
@@ -351,12 +236,7 @@ His voice is clear and strong.  It makes you want to join in the song
 (and buy him dinner...)
 ~
 human~
-AG 0 0 0
-10 0 2d7+121 99d1+1 2d4+2 punch
-1 1 1 8
-EKN 0 0 0
-stand stand male 200
-AHMV ABCDEFGHIJK medium 0
+AG 0 10
 #7524
 kocakarý yaþlý~
 bir kocakarý~
@@ -365,12 +245,7 @@ Yaþlý bir kocakarý burada, çocuklara küfrediyor...
 She is wrinkled and bent.  She is also loud.....
 ~
 human~
-AG 0 0 0
-11 0 2d8+134 109d1+1 1d10+2 punch
-1 1 1 8
-EKN 0 0 C
-stand stand female 280
-AHMV ABCDEFGHIJK medium 0
+AG 0 11
 #7525
 kel ihtiyar~
 kel bir ihtiyar~
@@ -380,12 +255,7 @@ He is telling everyone in earshot how he defeated the red dragon and then
 stayed to play with the kings wife.....
 ~
 human~
-AG 0 0 7525
-13 0 2d10+170 129d1+1 2d5+3 punch
--1 -1 -1 8
-EKN 0 0 C
-stand stand male 360
-AHMV ABCDEFGHIJK medium 0
+AG 0 13
 #7526
 çocuk küçük erkek~
 küçük bir erkek çocuðu~
@@ -395,12 +265,7 @@ He has a nice bag of marbles.  Some are red, some are blue, some are green
 with a curlycue.....
 ~
 human~
-AG 0 0 0
-4 0 2d7+46 39d1+1 1d5+1 punch
-6 6 6 9
-EKN 0 0 C
-stand stand male 100
-AHMV ABCDEFGHIJK small 90
+AG 0 4
 #7527
 çocuk küçük kýz~
 küçük bir kýz çocuðu~
@@ -409,12 +274,7 @@ Küçük bir kýz çocuðu burada oyuncak bebeðiyle konuþuyor.
 She is telling her doll The Facts Of Life....
 ~
 human~
-AG 0 0 0
-4 0 2d7+46 39d1+1 1d5+1 punch
-6 6 6 9
-EKN 0 0 C
-stand stand female 100
-AHMV ABCDEFGHIJK small 110
+AG 0 4
 #7528
 çaylak muhafýz~
 bir çaylak muhafýz~
@@ -424,12 +284,7 @@ Hmm.  This is the new idea that the duke of Gerighelm has. It keeps youth
 Off The Streets...
 ~
 human~
-AGT 0 1000 7528
-15 0 3d9+208 149d1+1 2d6+3 scratch
--2 -2 -2 7
-CDEKLT 0 0 C
-stand stand male 600
-AHMV ABCDEFGHIJK medium 0
+AGT 0 15
 #7529
 genç kadýn~
 genç bir kadýn~
@@ -438,12 +293,7 @@ Genç bir kadýn burada yoldan geçenlerle flört ediyor.
 She is about 16. And VERY attractive.
 ~
 human~
-AGT 0 1000 0
-14 0 2d10+190 139d1+1 1d12+3 punch
--1 -1 -1 8
-CDEKL 0 0 C
-stand stand male 520
-AHMV ABCDEFGHIJK medium 0
+AGT 0 14
 #7530
 muhafýz þehir muhafýzý gerighelm~
 bir Gerighelm þehir muhafýzý~
@@ -452,12 +302,7 @@ Bir Gerighelm þehir muhafýzý burada, masumlarý koruyor.
 He is large and strong.  You are glad that he's a Good Guy....
 ~
 human~
-AGT 0 1000 7530
-15 0 3d9+208 149d1+1 2d6+3 punch
--2 -2 -2 7
-CDEKLT 0 0 C
-stand stand male 600
-AHMV ABCDEFGHIJK medium 0
+AGT 0 15
 #7531
 muhafýz þehir muhafýzý gerighelm~
 bir Gerighelm þehir muhafýzý~
@@ -466,12 +311,7 @@ Bir Gerighelm þehir muhafýzý burada, masumlarý koruyor.
 He is large and strong.  You are glad that he's a Good Guy....
 ~
 human~
-AGT 0 1000 7530
-16 0 3d9+233 159d1+1 2d6+4 punch
--2 -2 -2 7
-CDEKLT 0 0 C
-stand stand male 680
-AHMV ABCDEFGHIJK medium 0
+AGT 0 16
 #7532
 muhafýz þehir muhafýzý gerighelm~
 bir Gerighelm þehir muhafýzý~
@@ -480,12 +320,7 @@ Bir Gerighelm þehir muhafýzý burada, masumlarý koruyor.
 He is large and strong.  You are glad that he's a Good Guy....
 ~
 human~
-AGT 0 1000 7530
-17 0 3d9+258 169d1+1 3d4+4 punch
--3 -3 -3 7
-CDEKLT 0 0 C
-stand stand male 740
-AHMV ABCDEFGHIJK medium 0
+AGT 0 17
 #7533
 ale-uzmaný ale uzmaný~
 ale-uzmaný~
@@ -495,12 +330,7 @@ His job is to inspect the wine, cider, and beer of the town.
 He does his job well.....
 ~
 human~
-AG 0 0 0
-17 0 3d9+258 169d1+1 3d4+4 punch
--3 -3 -3 7
-CDEKLT 0 0 C
-stand stand male 740
-AHMV ABCDEFGHIJK medium 0
+AG 0 17
 #7534
 koruyucu gerighelm~
 bir Gerighelm Koruyucusu~
@@ -509,12 +339,7 @@ Bir Gerighelm Koruyucusu burada, kendi halinde duruyor.
 He is worn and tired (WHOA! Army training must be HARD!).
 ~
 human~
-AGT 0 1000 7534
-19 0 3d9+308 189d1+1 2d7+5 punch
--4 -4 -4 7
-CDEKLT 0 0 C
-stand stand male 920
-AHMV ABCDEFGHIJK medium 0
+AGT 0 19
 #7535
 koruyucu gerighelm~
 bir Gerighelm Koruyucusu~
@@ -523,12 +348,7 @@ Bir Gerighelm Koruyucusu burada devriye geziyor.
 He is worn, and tired.  But he still stays at his job!
 ~
 human~
-AGT 0 1000 7534
-20 0 3d9+333 199d1+1 2d8+5 punch
--4 -4 -4 7
-CDEKLT 0 0 C
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+AGT 0 20
 #7536
 saray muhafýzý~
 bir saray muhafýzý~
@@ -537,12 +357,7 @@ Bir saray muhafýzý burada azametle yükseliyor.
 He looks happy with life-- As he is in the best position to enjoy it..
 ~
 human~
-AGT 0 1000 7536
-20 0 3d9+333 199d1+1 2d8+5 punch
--4 -4 -4 7
-CDEKLT 0 0 C
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+AGT 0 20
 #7537
 saray muhafýzý~
 bir saray muhafýzý~
@@ -551,12 +366,7 @@ Bir saray muhafýzý burada azametle yükseliyor.
 He looks happy with life-- As he is in the best position to enjoy it..
 ~
 human~
-AGT 0 1000 7536
-21 0 4d10+360 209d1+1 4d4+5 punch
--5 -5 -5 7
-CDEKLT 0 0 C
-stand stand male 1300
-AHMV ABCDEFGHIJK medium 0
+AGT 0 21
 #7538
 aþçý~
 aþçý~
@@ -565,12 +375,7 @@ Aþçý burada yeni yemek tarifleri üzerine düþüncelere dalmýþ.
 He looks like one of his creampuffs.  To bad he doesn't know how to diet...
 ~
 human~
-AGT 0 1000 0
-22 0 5d10+400 219d1+1 4d4+6 punch
--5 -5 -5 7
-CDEKL 0 0 C
-stand stand male 1600
-AHMV ABCDEFGHIJK medium 0
+AGT 0 22
 #7539
 saray büyücüsü~
 saray büyücüsü~
@@ -579,12 +384,7 @@ Saray büyücüsü burada büyülerini pratik ediyor.
 He is the standard wizard:  Old, decrepit, exceedingly powerful...
 ~
 çora~
-AGHR B 1000 0
-23 0 5d10+450 229d1+1 3d6+6 punch
--6 -6 -6 6
-N B 0 E
-stand stand male 2000
-AHMV ABCDEFGHIJK medium 0
+AGHR B 23
 #7540
 saray rahibi~
 saray rahibi~
@@ -593,12 +393,7 @@ Bu sarayýn rahibi burada, Tanrýsýna aþýrý bir adanmýþlýkla dua ediyor.
 He is the standard priest:  Old, fatherly looking, REAL powerful...
 ~
 human~
-ABGR BH 1000 0
-23 0 5d10+450 229d1+1 3d6+6 punch
--6 -6 -6 6
-EFK 0 0 E
-stand stand male 2000
-AHMV ABCDEFGHIJK medium 0
+ABGR BH 23
 #7550
 baþ muhafýz~
 baþ muhafýz~
@@ -607,12 +402,7 @@ Muhafýzlarýn baþý burada--TANRIM gerçekten DEV GÝBÝ!
 He's HUGE!!!!
 ~
 human~
-AGT 0 1000 7550
-23 0 5d10+450 229d1+1 3d6+6 punch
--6 -6 -6 6
-CDEKLT 0 0 C
-stand stand male 2000
-AHMV ABCDEFGHIJK medium 0
+AGT 0 23
 #7551
 saray bahçývaný~
 saray bahçývaný~
@@ -621,12 +411,7 @@ Saray bahçývaný burada soðuk kanlýlýkla yabani otlarý yoluyor.
 He is grabbing weeds like there is no tomorrow...
 ~
 human~
-AGT 0 1000 0
-23 0 5d10+450 229d1+1 3d6+6 punch
--6 -6 -6 6
-CDEKL 0 0 C
-stand stand male 2000
-AHMV ABCDEFGHIJK medium 0
+AGT 0 23
 #7552
 özel koruma~
 bir özel koruma~
@@ -635,12 +420,7 @@ Bir özel koruma burada Dük'ü koruyor.
 He looks like he will give his life for his Duke.
 ~
 human~
-AGT 0 1000 0
-24 0 5d10+500 239d1+1 2d10+6 punch
--6 -6 -6 6
-CDEKLT 0 0 C
-stand stand male 2200
-AHMV ABCDEFGHIJK medium 0
+AGT 0 24
 #7553
 özel koruma~
 bir özel koruma~
@@ -649,12 +429,7 @@ Bir özel koruma burada Dük'ünü koruyor.
 He looks like he will give his life for his Duke.
 ~
 human~
-AGT 0 1000 0
-25 0 5d10+550 249d1+1 2d10+7 punch
--7 -7 -7 6
-CDEKLT 0 0 C
-stand stand male 2500
-AHMV ABCDEFGHIJK medium 0
+AGT 0 25
 #7554
 dük gerighelm~
 Gerighelm Dükü~
@@ -663,12 +438,7 @@ Gerighelm Dükü burada, görkemli topraklarýný seyre dalmýþ.
 He looks worn, but happy.
 ~
 human~
-ABGRT 0 1000 7550
-30 0 6d12+853 299d1+1 4d6+8 punch
--9 -9 -9 6
-CDEFJKLNU AB 0 E
-stand stand male 4000
-AHMV ABCDEFGHIJK medium 0
+ABGRT 0 30
 #7555
 düþes gerighelm~
 Gerighelm Düþesi~
@@ -677,12 +447,7 @@ Gerighelm Düþesi burada, gece balolarý ve benzeri þeyleri düþünüyor.
 She is a VERY social person...
 ~
 human~
-ABGR 0 1000 0
-25 0 5d10+550 249d1+1 2d10+7 punch
--7 -7 -7 6
-FKN AB 0 E
-stand stand female 2500
-AHMV ABCDEFGHIJK medium 0
+ABGR 0 25
 #7590
 hizmetçi~
 bir hizmetçi~
@@ -691,12 +456,7 @@ Dükün hizmetçilerinden biri burada, görevinin hakkýný vermeye çalýþýyor.
 He looks at you and says, what are you doing here?
 ~
 human~
-AG 0 1000 0
-20 0 3d9+333 199d1+1 2d8+5 punch
--4 -4 -4 7
-CDEKL 0 0 C
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+AG 0 20
 #7591
 yankesici~
 bir yankesici~
@@ -705,12 +465,7 @@ Bir yankesici burada, gizlenmeye çalýþýyor.
 Well, COUNT your money!
 ~
 human~
-ACHS PQ -100 0
-10 0 2d7+121 99d1+1 2d4+2 punch
-1 1 1 8
-EFJN 0 0 0
-stand stand either 200
-0 0 medium 0
+ACHS PQ 10
 #7592
 fýrýncý~
 bir fýrýncý~
@@ -719,12 +474,7 @@ Gerighelm'in fýrýncýsý burada, bir þeyler satmakla meþgul.
 He looks like a friendly old man who likes to bake.
 ~
 human~
-ABV 0 900 0
-50 0 1d1+2999 1d1+199 1d9+30 beating
--25 -25 -25 -25
-CDF ABCD 0 0
-stand stand male 100000
-0 0 medium 0
+ABV 0 50
 #7593
 demirci vendy~
 demirci Vendy~
@@ -734,12 +484,7 @@ The way she is pounding her anvil makes you want to be on his good side.
 The main reason, is that I doubt the anvil can take much more of her pounding.
 ~
 human~
-ABTV 0 900 0
-50 10 1d1+2999 1d1+199 1d8+52 punch
--25 -25 -25 -25
-CEIK ABCD 0 0
-stand stand female 250000
-0 0 medium 0
+ABTV 0 50
 #7594
 büyücü~
 büyücü~
@@ -748,12 +493,7 @@ Büyücü burada, bir þeyler satmakla meþgul.
 He is a powerful old coot....
 ~
 çora~
-ABV D 900 0
-50 0 1d1+2999 1d1+999 1d8+42 magic
--15 -15 -15 -15
-AF ABCD 0 0
-stand stand male 150000
-0 0 medium 0
+ABV D 50
 #7595
 rehin dükkaný sahibi~
 rehin dükkaný sahibi~
@@ -762,12 +502,7 @@ Rehin dükkaný sahibi bir þeyler alýp satýyor.
 He looks almost like the pawn...
 ~
 human~
-ABV 0 900 0
-50 0 1d1+2999 1d1+199 1d8+32 beating
--15 -15 -15 -15
-EFJ ABCD 0 0
-stand stand male 130000
-0 0 medium 0
+ABV 0 50
 #7597
 tüccar~
 tüccar~
@@ -776,12 +511,7 @@ Tüccar burada bazý mallarýný satýyor.
 HE'S A MERCHANT!
 ~
 human~
-AV 0 900 0
-40 0 1d1+1999 1d1+99 1d8+30 beating
--15 -15 -15 -15
-EFJ ABCD 0 0
-stand stand male 80000
-0 0 medium 0
+AV 0 40
 #7604
 bitki bilimci bitkibilimci~
 bitkibilimci~
@@ -790,12 +520,7 @@ Bitkibilimci burada þifalý bitkiler satýyor.
 She looks like she is happy with her lot in life.
 ~
 human~
-ABV 0 900 0
-30 0 1d1+999 1d1+99 1d8+20 beating
--15 -15 -15 -15
-EFJ ABCD 0 0
-stand stand female 150000
-0 0 medium 0
+ABV 0 30
 #7609
 hayvan satýcýsý~
 hayvan satýcýsý~
@@ -804,12 +529,7 @@ Hayvan satýcýsý burada evcil hayvanlarý pazarlamakla meþgul.
 He is covered in his stock..
 ~
 human~
-ABV 0 900 0
-40 0 1d1+1999 1d1+99 1d8+40 punch
--15 -15 -15 -15
-0 ABC 0 0
-stand stand male 9000
-0 0 medium 0
+ABV 0 40
 #7610
 büyücü cadý kocakarý~
 büyücü kocakarý~
@@ -818,12 +538,7 @@ Yaþlý Cadý burada, bir þeyler satmakla meþgul.
 She is old, and ugly- very good witch material...
 ~
 human~
-ABV D 900 7006
-40 0 1d1+1999 1d1+999 1d8+32 magic
--15 -15 -15 -15
-AF ABCD 0 0
-stand stand male 20000
-0 0 medium 0
+ABV D 40
 #7698
 atmaca~
 bir atmaca~
@@ -832,12 +547,7 @@ Sahibine oldukça sadýk görünen bir atmaca burada.
 The hawk glares at you.
 ~
 song bird~
-AG 0 1000 0
-20 0 3d9+333 199d1+1 2d8+5 punch
--4 -4 -4 7
-EKN 0 0 0
-stand stand male 10
-0 0 medium 0
+AG 0 20
 #7699
 ölüm~
 Ölüm~
@@ -847,13 +557,7 @@ It is strong, impertubable looking creature. It notice that you look at its,
 and it says: 'Have a nice day'. Hm?... Death is your only way, probably...
 ~
 human~
-ABGT CDF 100 0
-60 0 50d10+9500 599d1+1 8d6+28 slap
--30 -30 -30 0
-A 0 0 C
-stand stand either 0
-AHMV ABCDEFGHIJK medium 0
-
+ABGT CDF 60
 #0
 
 #OBJECTS

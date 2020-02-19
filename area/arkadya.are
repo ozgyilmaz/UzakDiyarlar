@@ -12,7 +12,7 @@ Path 4d 3k 2b 5k b 3k a 7k~
 END
 
 
-#MOBILES
+#NEW_MOBILES
 #12000
 oberon kral~
 Oberon~
@@ -24,12 +24,7 @@ exemplefies what it is to be nobility.  He is the embodyment of the
 Seelie way, light, love, celebration, honor and wisdom.
 ~
 çora~
-ABT CDEFHJ 1000 0
-86 0 50d20+16500 10d20+2000 13d10+56 bite
--56 -53 -51 -26
-EFHIKN BLQ 0 NZ
-stand stand male 5000
-AHMV ABCDEFGHIJK medium 0
+ABT CDEFHJ 86
 #12001
 titanya kraliçe~
 Kraliçe Titanya~
@@ -41,27 +36,17 @@ sparkling of water off of a stream and her smile is the dazzling radiance
 of the sun.
 ~
 çora~
-ABQ CDEHJT 1000 0
-84 0 50d20+15500 10d20+2000 9d14+51 bite
--53 -50 -52 -23
-FKN BLQ C NZ
-stand stand female 5000
-AHMV ABCDEFGHIJK medium 0
+ABQ CDEHJT 84
 #12002
 peri~
-pixie~
+peri~
 Peri burada, bir baþka dalaverenin hayaliyle pusuda.
 ~
 A jester for both the Courts, a master of trickery and deceit and
 laughter and joy, Puck is a dangerous one indeed.
 ~
-human~
-AGHS BNPQTUe 0 0
-94 0 50d20+22000 10d20+2000 13d10+56 bite
--55 -56 -54 -26
-BEFHIJKNY BLQ C NZ
-sit sit male 100
-AHMV ABCDEFGHIJK medium 0
+sprite~
+AGHS BNPQTUe 94
 #12003
 thomas~
 Doðrucu Thomas~
@@ -71,12 +56,7 @@ Thomas is an old Fae but he retains the power of his position still.  His
 voice is clear and strong and his mind is much quicker than yours.
 ~
 çora~
-ABR ACDEFJZ  850 0
-78 0 50d20+12500 10d20+2000 9d12+48 bite
--40 -40 -42 -18
-BEFHIJKNY BLQ C NZ
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+ABR ACDEFJZ  78
 #12004
 kral gwyn nudd~
 Gwyn ap Nudd~
@@ -89,12 +69,7 @@ a chill and yet you get a strange feeling of exhillaration.  Gwyn
 embodies not only the terror of death but the seductive beauty of night.
 ~
 çora~
-ABT JZ -1000 0
-86 0 50d20+16500 10d20+2000 13d10+56 slash
--56 -53 -51 -26
-EFHIKN BLQ 0 NZ
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+ABT JZ 86
 #12005
 morrigan kraliçe~
 Kraliçe Morrigan~
@@ -105,12 +80,7 @@ the Fae.  She is the most feared of all the creatures of the night, for
 while the Puck may be harmfull the Morrigan is deadly.
 ~
 unique~
-ACFGOT CDEFZ -1000 0
-84 0 50d20+15500 10d20+2000 9d14+51 pierce
--53 -50 -52 -23
-ABDHNY BLQ 0 NSZ
-stand stand female 5050
-0 0 medium 0
+ACFGOT CDEFZ 84
 #12006
 sidhe soylusu~
 bir sidhe soylusu~
@@ -120,12 +90,7 @@ This sidhe, like all others of his kind, is a study in perfection.  He
 radiates strength, beauty, and nobility.
 ~
 çora~
-AGT J 800 0
-77 0 50d20+12000 10d20+2000 9d12+47 pound
--55 -53 -52 -25
-CFIU 0 BLQ MZ
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+AGT J 77
 #12007
 sidhe soylusu~
 bir sidhe soylusu~
@@ -135,12 +100,7 @@ This sidhe, like all others of her kind, is a study in perfection.
 She radiates strength, beauty, and nobility.
 ~
 çora~
-AGT J 800 0
-77 0 50d20+12000 10d20+2000 9d12+47 pound
--55 -53 -52 -25
-CFIU 0 BLQ MZ
-stand stand female 500
-AHMV ABCDEFGHIJK medium 0
+AGT J 77
 #12008
 sidhe soylusu~
 bir sidhe soylusu~
@@ -151,12 +111,7 @@ radiates strength, beauty, and nobility. There is an air of pompus
 superiority about him that makes you want to slit his throat.
 ~
 çora~
-AGT J -800 0
-77 0 50d20+12000 10d20+2000 9d12+47 pound
--55 -53 -52 -25
-CFIU 0 BLQ NZ
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+AGT J 77
 #12009
 sidhe soylusu~
 bir sidhe soylusu~
@@ -167,12 +122,7 @@ radiates strength, beauty, and nobility.  However you sense a tired
 air of decadence about her.
 ~
 çora~
-AGT J -800 0
-77 0 50d20+12000 10d20+2000 9d12+47 pound
--55 -53 -52 -25
-CFIU 0 BLQ NZ
-stand stand female 500
-AHMV ABCDEFGHIJK medium 0
+AGT J 77
 #12010
 sidhe muhafýzý~
 bir sidhe muhafýzý~
@@ -182,12 +132,7 @@ This captain leads his men with all the charisma and natural born
 leadership that graces all of the sidhe.
 ~
 çora~
-ABT JN 900 0
-66 0 50d20+8500 10d20+2000 7d9+36 pound
--22 -25 -23 -5
-EIKLQRTU 0 BLQ MZ
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+ABT JN 66
 #12011
 sidhe muhafýzý~
 bir sidhe muhafýzý~
@@ -197,12 +142,7 @@ This captain leads his men with a cunning and skill that is immpossible
 not to admire.
 ~
 çora~
-ABT JN -900 0
-65 0 50d20+8250 10d20+2000 11d5+35 pound
--22 -25 -23 -5
-EIKLQRTU 0 BLQ NZ
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+ABT JN 65
 #12012
 sidhe þövalyesi~
 bir soylu sidhe þövalyesi~
@@ -212,12 +152,7 @@ This knight is the epitome of chivalry.  The embodyment of honor,
 loyalty, courage and skill in battle.
 ~
 çora~
-AGT GJ 1000 0
-72 0 50d20+10250 10d20+2000 8d11+42 slash
--43 -41 -39 -10
-CDEFIKLS 0 BLQ MZ
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+AGT GJ 72
 #12013
 sidhe þövalyesi~
 bir soylu sidhe þövalyesi~
@@ -227,12 +162,7 @@ This knight is the epitome of chivalry.  The embodyment of honor,
 loyalty, courage and skill in battle.
 ~
 çora~
-AGT GJ 1000 0
-75 0 50d20+11000 10d20+2000 9d11+45 slash
--43 -41 -39 -10
-CDEFIKLS N BLQ MZ
-stand stand female 500
-AHMV ABCDEFGHIJK medium 0
+AGT GJ 75
 #12014
 sidhe þövalyesi~
 bir soylu sidhe þövalyesi~
@@ -242,12 +172,7 @@ This knight is the epitome of chivalry.  The embodyment of power and
 skill in battle.
 ~
 çora~
-AGT GJ -1000 0
-75 0 50d20+11000 10d20+2000 9d11+45 slash
--43 -41 -39 -10
-CDEFIKLS M BLQ NZ
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+AGT GJ 75
 #12015
 sidhe þövalyesi~
 bir soylu sidhe þövalyesi~
@@ -257,12 +182,7 @@ This knight is the epitome of chivalry.  The embodyment of power and
 skill in battle.
 ~
 çora~
-AGT GJ 1000 0
-75 0 50d20+11000 10d20+2000 9d11+45 slash
--43 -41 -39 -10
-CDEFIKLS N BLQ MZ
-stand stand female 500
-AHMV ABCDEFGHIJK medium 0
+AGT GJ 75
 #12016
 sidhe þövalyesi~
 bir soylu sidhe þövalyesi~
@@ -272,12 +192,7 @@ This knight is the epitome of chivalry.  The embodyment of honor,
 loyalty, courage and skill in battle.
 ~
 çora~
-ABT GJ 1000 0
-75 0 50d20+11000 10d20+2000 9d11+45 slash
--43 -41 -39 -10
-CDEFIKLS N BLQ MZ
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+ABT GJ 75
 #12017
 sidhe þövalyesi~
 bir soylu sidhe þövalyesi~
@@ -287,12 +202,7 @@ This knight is the epitome of chivalry.  The embodyment of power and
 skill in battle.
 ~
 çora~
-ABT GJ -1000 0
-75 0 50d20+11000 10d20+2000 9d11+45 slash
--43 -41 -39 -10
-CDEFIKLS M BLQ NZ
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+ABT GJ 75
 #12018
 sidhe þövalyesi~
 bir soylu sidhe þövalyesi~
@@ -302,12 +212,7 @@ This knight is the epitome of chivalry.  The embodyment of power and
 skill in battle.
 ~
 çora~
-ABT GJ -1000 0
-75 0 50d20+11000 10d20+2000 9d11+45 slash
--43 -41 -39 -10
-CDEFIKLS M BLQ NZ
-stand stand female 500
-AHMV ABCDEFGHIJK medium 0
+ABT GJ 75
 #12019
 rugar muhafýz~
 bir rugar muhafýz~
@@ -318,12 +223,7 @@ stone.  Once the rulers of Arcadia asuras such as this one now serve the
 sidhe as faithfull warriors.
 ~
 giant~
-ABT Nbcd 1000 0
-69 0 50d20+9500 10d20+2000 7d11+39 pierce
--39 -39 -39 -9
-CDIKNQU B 0 NPZ
-stand stand male 500
-AHMV ABCDEFGHIJK giant 0
+ABT Nbcd 69
 #12020
 rugar muhafýz~
 bir rugar muhafýz~
@@ -334,12 +234,7 @@ stone.  Once the rulers of Arcadia asuras such as this one now serve the
 sidhe as faithfull warriors.
 ~
 asura~
-ABT Nbcd -1000 0
-71 0 50d20+10000 10d20+2000 9d9+49 pierce
--62 -63 -59 -29
-CDIKNQU B 0 JNPZ
-stand stand male 500
-AHMV ABCDEFGHIJK giant 0
+ABT Nbcd 71
 #12021
 pooka soytarý~
 a pooka soytarýsý~
@@ -351,12 +246,7 @@ people laugh.  You don't even mind when he throws the pie in your face.
 After all, it's all in good fun.
 ~
 human~
-AGHS P 100 0
-60 0 50d20+6750 10d20+2000 8d6+28 slash
--32 -33 -33 -15
-BEFHJN 0 BX NZ
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+AGHS P 60
 #12022
 pooka soytarý~
 bir pooka soytarýsý~
@@ -368,76 +258,51 @@ fun of people.  You don't ever realy know if his jokes are truly just for
 fun....
 ~
 human~
-AGHS PQ -100 0
-60 0 50d20+6750 10d20+2000 8d6+28 slash
--32 -33 -33 -5
-BEFHJN 0 BX NZ
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+AGHS PQ 60
 #12023
-sarhoþ ciren~
-bir ciren sarhoþ~
-Bir ciren burada, bir yanýnda þiþesi bir yanýnda kadýnýyla oturuyor.
+sarhoþ pardus~
+bir pardus sarhoþ~
+Bir pardus burada, bir yanýnda þiþesi bir yanýnda kadýnýyla oturuyor.
 ~
-Half-man, half-horse cirens are the party animals of the Fae.  Renowned
+Half-man, half-tiger pardus are the party animals of the Fae.  Renowned
 for their great stamina they can drink more than almost any other being.
 ~
-ciren~
-ABS d -100 0
-64 0 50d20+8000 10d20+2000 8d7+34 slash
--30 -35 -32 -10
-CDIN LQ C NZ
-sit sit male 1000
-0 0 medium 0
+pardus~
+ABS d 64
 #12024
-kavalcý ciren~
-bir ciren kavalcý~
-Bir ciren kavalcýsý burada, hareketli bir dans parçasý çalýyor.
+kavalcý pardus~
+bir pardus kavalcý~
+Bir pardus kavalcýsý burada, hareketli bir dans parçasý çalýyor.
 ~
 The piper seems to be almost lost in the music issuing from his pipes.
 As you listen you too are drawn into the music.....
 ~
-ciren~
-AGR d 100 0
-66 0 50d20+8250 10d20+2000 11d5+35 slash
--29 -28 -25 -10
-EHN B C NZ
-stand stand male 500
-0 0 medium 0
+pardus~
+AGR d 66
 #12025
-ciren þarkýcý~
-bir ciren þarkýcý~
-Güzel bir diþi ciren kayýp aþkýnýn þarkýsýný söylüyor.
+pardus þarkýcý~
+bir pardus þarkýcý~
+Güzel bir diþi pardus kayýp aþkýnýn þarkýsýný söylüyor.
 ~
-The singer is a ciren, half horse, half human.  The lower portion of her
+The singer is a pardus, half horse, half human.  The lower portion of her
 body consists of goat legs covered by short, thick, brown hair, while the
 upper portion is that of a well proportioned human female, covered only
 by her long, sandy blonde hair.  Her singing is exquisite and the slight
 swaying of her body as she sings entrances you.
 ~
-ciren~
-AGR d 100 0
-62 0 50d20+7250 10d20+2000 6d9+32 slash
--30 -26 -28 -1
-FHJ B 0 NZ
-stand stand female 500
-0 0 medium 0
+pardus~
+AGR d 62
 #12026
-ciren azgýn~
-azgýn bir ciren~
-Bir ciren burada genç bir periyi kovalýyor.
+pardus azgýn~
+azgýn bir pardus~
+Bir pardus burada genç bir periyi kovalýyor.
 ~
-This ciren seems totaly obsessed with catching the beautiful woodland
+This pardus seems totaly obsessed with catching the beautiful woodland
 nymph.  You can tell by the look in his eyes that it would be a BAD idea
 to get in his way.
 ~
-ciren~
-ABT JVbd -100 0
-60 0 50d20+6750 10d20+2000 8d6+28 slash
--28 -28 -20 -2
-CDR P BLQ NZ
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+pardus~
+ABT JVbd 60
 #12027
 boggan ustasý ayakkbý üreticisi~
 bir boggan ustasý~
@@ -448,12 +313,7 @@ and a dark brown cap.  He holds in his hands what will be a finely
 wrought item when he is finished.
 ~
 dwarf~
-ABT JZ 300 0
-52 0 50d20+4750 10d20+2000 6d7+20 slash
--34 -35 -34 -2
-C LQ C NRZ
-sit sit male 320
-AHMV ABCDEFGHIJK small 0
+ABT JZ 52
 #12028
 boggan demirci~
 bir boggan demircisi~
@@ -463,12 +323,7 @@ This little smith is dressed in a dark leather apron  with bright red pants.
 He is working on a dark, rough-looking piece of armor.
 ~
 dwarf~
-ABT JZ 300 0
-52 0 50d20+4750 10d20+2000 6d7+20 slash
--34 -35 -34 -2
-C LQ C NRZ
-sit sit male 320
-AHMV ABCDEFGHIJK small 0
+ABT JZ 52
 #12029
 eshu maceracý~
 maceraperest bir eshu~
@@ -478,12 +333,7 @@ This tall, dark, man-shaped creature is almost completely covered in
 bright purple, flowing robes with a winding turban hiding his face.
 ~
 human~
-AT TU 0 0
-58 0 50d20+6250 10d20+2000 5d10+25 pierce
--30 -30 -31 -10
-CDEI 0 C NZ
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+AT TU 58
 #12030
 eshu masalcý~
 bir eshu~
@@ -494,12 +344,7 @@ outrageous lies you have ever heard or he is one hell of a lot more
 experienced than you will ever be.
 ~
 human~
-AT TU 0 0
-58 0 50d20+6250 10d20+2000 5d10+25 pierce
--30 -30 -31 -10
-CDEI 0 0 NZ
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+AT TU 58
 #12031
 eshu sarhoþ içkili~
 içkili bir eshu~
@@ -508,12 +353,7 @@ Bir eshu burada oturmuþ altýncý ale maþrapasýnýn üzerinde çalýþýyor.
 This guy could put some bartender's children through college.
 ~
 human~
-AT TU -200 0
-58 0 50d20+6250 10d20+2000 5d10+25 pierce
--30 -30 -31 -10
-CDEI 0 0 NZ
-stand stand male 500
-AHMV ABCDEFGHIJK medium 0
+AT TU 58
 #12032
 kýzýlbere haydut~
 gaddar bir kýzýlbere~
@@ -522,13 +362,8 @@ Bir kýzýlbere aniden fýrlayýp ayaðýnýn üzerinde tepinmeye baþlýyor.
 This nasty little creature is a blood-stained mouth with sharp-clawed
 appendages dressed in a brown tunic with a blood red hat.
 ~
-halfling~
-ACFGS JVb -850 0
-38 0 10d20+1600 10d20+2000 5d6+12 pierce
--16 -20 -18 -6
-BDJVY M LQ NZ
-stand stand male 500
-AHMV ABCDEFGHIJK small 0
+çora~
+ACFGS JVb 38
 #12033
 kýzýlbere katil~
 cani bir kýzýlbere~
@@ -536,13 +371,8 @@ Cani bir kýzýlbere arkandan saldýrýyor.
 ~
 This redcap is a killing machine.  All sharp teeth, claws, and talons.
 ~
-halfling~
-ACFGS JVb -850 0
-43 0 10d20+2500 10d20+2000 8d4+15 pierce
--20 -18 -20 0
-BDJVY M LQ NZ
-stand stand male 500
-AHMV ABCDEFGHIJK small 0
+çora~
+ACFGS JVb 43
 #12034
 sluah gözcü~
 bir sluah gözcüsü~
@@ -552,13 +382,8 @@ While not ugly this dark creature bears no resemblance to the other fae you
 have seen. Even the Unseelie don't rival the natural repulsion you feel towards
 this creature.
 ~
-urlock~
-AHS BCDEFJNPQUZ -20 0
-36 0 10d20+1400 10d20+2000 3d10+11 pound
--12 -12 -13 -1
-EFHJK M LQ NSZ
-stand stand female 500
-AHMV ABCDEFGHIJK small 0
+human~
+AHS BCDEFJNPQUZ 36
 #12035
 sluah gardian~
 bir sluah gardiyaný~
@@ -567,13 +392,8 @@ Bir sluah gardiyaný seni görüyor ve vatanýný korumak için harekete geçiyor.
 This dark fae is not willing to let you in on it's secrets, you had best
 leave now.
 ~
-urlock~
-AHS BCDEFJNPQUZ -20 0
-36 0 10d20+1400 10d20+2000 3d10+11 pierce
--12 -12 -13 -1
-EFHJK M LQ NSZ
-stand stand female 500
-AHMV ABCDEFGHIJK small 0
+human~
+AHS BCDEFJNPQUZ 36
 #12036
 küçük peri~
 küçük bir peri~
@@ -581,13 +401,8 @@ Küçük bir peri burada birkaç hava perisi arýyor.
 ~
 He looks like a little çora about 3 inches tall with small insect wings.
 ~
-pixie~
-AGR BTY 100 0
-29 0 10d20+800 10d20+2000 4d6+7 pound
--20 -20 -20 -1
-FHKR 0 D Z
-stand stand male 500
-AHMV ABCDEFGHIJK tiny 0
+sprite~
+AGR BTY 29
 #12037
 þakacý peri~
 þakacý bir peri~
@@ -597,12 +412,7 @@ This sprite looks like a little man with butterfly wings and a mishcevous
 smile on his face.
 ~
 sprite~
-AFHW BTV -300 0
-32 0 10d20+1000 10d20+2000 6d4+9 pierce
--18 -18 -18 -1
-EFIK 0 D NZ
-stand stand male 500
-AHMV ABCDEFGHIJK tiny 0
+AFHW BTV 32
 #12038
 hava perisi~
 hava perisi~
@@ -611,13 +421,8 @@ Sevimli, að kanatlý bir hava perisi rüzgarn üzerinde süzülüyor.
 This beautiful and elusive creature is like the wind itself.  Her grace
 and form amaze and beguile you.
 ~
-pixie~
-AGHQ BNT 300 0
-32 0 10d20+1000 10d20+2000 6d4+9 slash
--20 -18 -16 -1
-FH 0 LQ NZ
-stand stand female 500
-AHMV ABCDEFGHIJK tiny 0
+sprite~
+AGHQ BNT 32
 #12039
 göl perisi~
 bir göl perisi~
@@ -626,12 +431,7 @@ Güzel bir göl perisi suyun içinde oynuyor.
 A scantily clad nymph stands here half in the water.
 ~
 çora~
-ABHQ J 100 0
-30 0 10d20+853 10d20+2000 4d6+8 slash
--20 -15 -18 -1
-FN R B NZ
-stand stand female 500
-AHMV ABCDEFGHIJK medium 0
+ABHQ J 30
 #12040
 orman perisi~
 bir orman perisi~
@@ -641,12 +441,7 @@ This beautiful brown skinned maiden with dark eyes, clothed in a few
 leaves runs among the trees darting in and out of sight.
 ~
 çora~
-AGHQ J 100 0
-30 0 10d20+853 10d20+2000 4d6+8 slash
--20 -15 -18 -1
-FN R B NZ
-stand stand female 500
-AHMV ABCDEFGHIJK medium 0
+AGHQ J 30
 #12041
 deniz kýzý~
 bir deniz kýzý~
@@ -656,12 +451,7 @@ This aquatic beauty has a well formed upper human half and a strong
 finned tail.
 ~
 unique~
-ABHT Tc 250 0
-30 0 10d20+853 10d20+2000 4d6+8 pierce
--20 -15 -18 -1
-FMW R 0 JNZ
-stand stand female 500
-0 0 medium 0
+ABHT Tc 30
 #12042
 deniz çocuðu~
 garip bir deniz çocuðu~
@@ -671,12 +461,7 @@ This aquatic creature has a well formed upper human half and a strong
 finned tail.
 ~
 unique~
-ABHT Tc 250 0
-28 0 10d20+750 10d20+2000 4d6+7 pierce
--20 -15 -18 -1
-FMW R 0 JNZ
-stand stand male 500
-0 0 medium 0
+ABHT Tc 28
 #12043
 çiçek~
 bir çiçek~
@@ -686,12 +471,7 @@ Something seems quite strange about this flower.  It almost seems to be
 alive.
 ~
 sprite~
-ACGU PVd 100 0
-22 0 5d10+400 10d20+2000 4d4+6 none
--12 -10 -12 -1
-FNU ABES D GHNZ
-stand stand none 0
-AHMV ABCDEFGHIJK tiny 0
+ACGU PVd 22
 #12044
 meþe palamut~
 bir meþe palamudu~
@@ -700,12 +480,7 @@ Küçük bir meþe palamudu burada duruyor.
 Looks like an ordinary acorn...only it keeps moving.....
 ~
 sprite~
-ACGU PVd 100 0
-22 0 5d10+400 10d20+2000 4d4+6 pound
--12 -10 -12 -1
-FNU ABES D GHNZ
-stand stand none 0
-AHMV ABCDEFGHIJK tiny 0
+ACGU PVd 22
 #12045
 baðlayýcý oðlan~
 küçük bir oðlan~
@@ -715,12 +490,7 @@ This little boy has seemingly charmed several forest creatures with his
 strange music.  He holds a small set of glowing pipes in his hands.
 ~
 sprite~
-ABCU PVd 100 0
-22 0 5d10+400 10d20+2000 4d4+6 pound
--12 -10 -12 -1
-FNU ABES D GHNZ
-stand stand none 0
-AHMV ABCDEFGHIJK tiny 0
+ABCU PVd 22
 #12046
 cuside hayvan~
 Bir CuSidhe~
@@ -729,13 +499,8 @@ Kan kýrmýzýsý kulaklý iri bir tazý.
 This hound is strangely quiet and well behaved, it's eyes contain a
 measure of intelligence rarely seen in a normal animal.
 ~
-lupus~
-ATU DFPZ 0 0
-22 0 5d10+550 10d20+2000 2d10+7 claw
--7 -7 -7 -1
-CDFLN 0 0 NYZ
-stand stand male 0
-BHMV ABCDEFGHIJKQV tiny 0
+drow~
+ATU DFPZ 22
 #12047
 bosidhe hayvan~
 Bir BoSidhe~
@@ -744,13 +509,8 @@ Kan kýrmýzýsý boynuzlu iri bir boða.
 This large bull is pure white with red horns.  Its eyes hold an
 intelligence that is not common in one of it's species.
 ~
-lupus~
-ATU DFPZ 0 0
-40 0 10d20+2000 10d20+2000 4d8+13 pierce
--21 -20 -21 -2
-CDILN 0 0 YZ
-stand stand male 0
-BHMV ABCDEFGHIJKQV huge 0
+drow~
+ATU DFPZ 40
 #12048
 kedisidhe hayvan~
 Bir KediSidhe~
@@ -760,12 +520,7 @@ This cat is all white with red ears.  In it's eyes you can see
 inteligence.
 ~
 cat~
-ARU DFPZ 0 0
-50 0 20d20+4250 10d20+2000 5d8+19 claw
--24 -25 -23 -2
-BEFHJKNV 0 0 Z
-stand stand female 0
-AGV ACDEFHJKQUV medium 0
+ARU DFPZ 50
 #12049
 bransidhe pet~
 Bir BranSidhe~
@@ -775,13 +530,8 @@ This Sidhe bird is the messenger that travels between the world of the
 living and the dead, both Seelie and Unseelie.  It looks like a raven
 only its the size of a small child.
 ~
-avian~
-AIQU DEFTZe 0 0
-70 0 50d20+9750 10d20+2000 8d10+40 claw
--32 -32 -32 -3
-BEFHJKNX 0 F ENZ
-stand stand none 0
-AHMV ABCDEFGHIJKPU small 0
+aarakocra~
+AIQU DEFTZe 70
 #0
 
 

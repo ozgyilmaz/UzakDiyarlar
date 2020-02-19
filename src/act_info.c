@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açık kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliştirmesi Jai ve Maru tarafından yönetilmektedir.               *
+ * Unutulmaması gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -1238,6 +1250,7 @@ void do_look( CHAR_DATA *ch, char *argument )
 
     if ( !IS_NPC(ch)
     &&   !IS_SET(ch->act, PLR_HOLYLIGHT)
+    &&   !IS_SET(ch->act,PLR_GHOST)
     &&   room_is_dark( ch ) )
     {
       send_to_char( "Zifiri karanlık ... \n\r", ch );
@@ -1749,7 +1762,6 @@ void do_score( CHAR_DATA *ch, char *argument )
 {
 	char sex[8];
   char dogumGunu[20];
-  char bufsamurai[100];
 	sex[0]='\0';
   CHAR_DATA *victim;
   char arg[MAX_INPUT_LENGTH];
@@ -1774,8 +1786,6 @@ void do_score( CHAR_DATA *ch, char *argument )
     }
   }
 
-  bufsamurai[0] = '\0';
-
   if (victim != NULL)
   {
     // Mob
@@ -1799,11 +1809,6 @@ void do_score( CHAR_DATA *ch, char *argument )
     }
 
     game_time_to_string(victim->pcdata->birth_time,dogumGunu);
-
-    if (victim->iclass == CLASS_SAMURAI)
-    {
-      sprintf(bufsamurai,"Ölüm : {w%-3d{c",victim->pcdata->death);
-    }
   }
   else
   {
@@ -1822,11 +1827,6 @@ void do_score( CHAR_DATA *ch, char *argument )
     }
 
     game_time_to_string(ch->pcdata->birth_time,dogumGunu);
-
-    if (ch->iclass == CLASS_SAMURAI)
-    {
-      sprintf(bufsamurai,"Ölüm : {w%-3d{c",ch->pcdata->death);
-    }
   }
 
   printf_to_char(ch,"{c,--------------------------------------------------------------------,{w\n\r");
@@ -1842,11 +1842,12 @@ void do_score( CHAR_DATA *ch, char *argument )
   printf_to_char(ch,"{c| Yp    : {w%-7d/%-7d{c | Güç: {w%-2d(%-2d){c  | Pratik : {w%-3d{c              |\n\r",(victim==NULL?ch:victim)->hit,(victim==NULL?ch:victim)->max_hit,(victim==NULL?ch:victim)->perm_stat[STAT_STR],get_curr_stat((victim==NULL)?ch:victim,STAT_STR),((victim==NULL)?ch:victim)->practice);
   printf_to_char(ch,"{c| Mana  : {w%-7d/%-7d{c | Zek: {w%-2d(%-2d){c  | Eğitim : {w%-3d{c              |\n\r",(victim==NULL?ch:victim)->mana, (victim==NULL?ch:victim)->max_mana,(victim==NULL?ch:victim)->perm_stat[STAT_INT],get_curr_stat((victim==NULL?ch:victim),STAT_INT),(victim==NULL?ch:victim)->train);
   printf_to_char(ch,"{c| Hp    : {w%-7d/%-7d{c | Bil: {w%-2d(%-2d){c  | GüvenS : {w%-3d{c              |\n\r",(victim==NULL?ch:victim)->move, (victim==NULL?ch:victim)->max_move,(victim==NULL?ch:victim)->perm_stat[STAT_WIS],get_curr_stat((victim==NULL?ch:victim),STAT_WIS),get_trust( (victim==NULL?ch:victim) ));
-  printf_to_char(ch,"{c| Seviye: {w%-10d{c      | Çev: {w%-2d(%-2d){c  | Eşya : {w%3d/%-4d{c           |\n\r",(victim==NULL?ch:victim)->level,(victim==NULL?ch:victim)->perm_stat[STAT_DEX],get_curr_stat((victim==NULL?ch:victim),STAT_DEX),(victim==NULL?ch:victim)->carry_number, can_carry_n((victim==NULL?ch:victim)));
-  printf_to_char(ch,"{c| Kalan : {w%-10d{c      | Bün: {w%-2d(%-2d){c  | Ağırlık: {w%6ld/%-8d{c  |\n\r",((victim==NULL?ch:victim)->level + 1) * exp_per_level((victim==NULL?ch:victim),(victim==NULL?ch:victim)->pcdata->points) - (victim==NULL?ch:victim)->exp,(victim==NULL?ch:victim)->perm_stat[STAT_CON],get_curr_stat((victim==NULL?ch:victim),STAT_CON),get_carry_weight((victim==NULL?ch:victim)), can_carry_w((victim==NULL?ch:victim)));
-  printf_to_char(ch,"{c| TP    : {w%-12ld{c    | Kar: {w%-2d(%-2d){c  | GörevP: {w%-5d{c             |\n\r",(victim==NULL?ch:victim)->exp,(victim==NULL?ch:victim)->perm_stat[STAT_CHA],get_curr_stat((victim==NULL?ch:victim),STAT_CHA),(victim==NULL?ch:victim)->pcdata->questpoints);
-  printf_to_char(ch,"{c| Korkak: {w%-10d{c      | ZZ : {w%-3d{c     | GörevZ: {w%-2d{c                |\n\r",(victim==NULL?ch:victim)->wimpy,GET_DAMROLL((victim==NULL?ch:victim)),((IS_SET((victim==NULL?ch:victim)->act, PLR_QUESTOR))?((victim==NULL?ch:victim)->pcdata->countdown):((victim==NULL?ch:victim)->pcdata->nextquest)));
-  printf_to_char(ch,"{c|                         | VZ : {w%-3d{c     | %-12s              |\n\r",GET_HITROLL((victim==NULL?ch:victim)), bufsamurai);
+  printf_to_char(ch,"{c| Seviye: {w%-10d{c      | Çev: {w%-2d(%-2d){c  | Eşya   : {w%-3d / %-4d{c       |\n\r",(victim==NULL?ch:victim)->level,(victim==NULL?ch:victim)->perm_stat[STAT_DEX],get_curr_stat((victim==NULL?ch:victim),STAT_DEX),(victim==NULL?ch:victim)->carry_number, can_carry_n((victim==NULL?ch:victim)));
+  printf_to_char(ch,"{c| Kalan : {w%-10d{c      | Bün: {w%-2d(%-2d){c  | Ağırlık: {w%-6ld / %-8d{c|\n\r",((victim==NULL?ch:victim)->level + 1) * exp_per_level((victim==NULL?ch:victim),(victim==NULL?ch:victim)->pcdata->points) - (victim==NULL?ch:victim)->exp,(victim==NULL?ch:victim)->perm_stat[STAT_CON],get_curr_stat((victim==NULL?ch:victim),STAT_CON),get_carry_weight((victim==NULL?ch:victim)), can_carry_w((victim==NULL?ch:victim)));
+  printf_to_char(ch,"{c| TP    : {w%-12ld{c    | Kar: {w%-2d(%-2d){c  | GörevP : {w%-5d{c            |\n\r",(victim==NULL?ch:victim)->exp,(victim==NULL?ch:victim)->perm_stat[STAT_CHA],get_curr_stat((victim==NULL?ch:victim),STAT_CHA),(victim==NULL?ch:victim)->pcdata->questpoints);
+  printf_to_char(ch,"{c| Korkak: {w%-10d{c      | ZZ : {w%-3d{c     | GörevZ : {w%-2d{c               |\n\r",(victim==NULL?ch:victim)->wimpy,GET_DAMROLL((victim==NULL?ch:victim)),((IS_SET((victim==NULL?ch:victim)->act, PLR_QUESTOR))?((victim==NULL?ch:victim)->pcdata->countdown):((victim==NULL?ch:victim)->pcdata->nextquest)));
+  printf_to_char(ch,"{c| Ölüm  : {w%-3d{c             | VZ : {w%-3d{c     | RolP   : {w%-6ld{c           |\n\r",(victim==NULL?ch:victim)->pcdata->death,GET_HITROLL((victim==NULL?ch:victim)), (victim==NULL?ch:victim)->pcdata->rk_puani);
+  printf_to_char(ch,"{c|                         |              | DinP   : {w%-6ld{c           |\n\r",(victim==NULL?ch:victim)->pcdata->din_puani);
   printf_to_char(ch,"{c|-------------------------'--------------'---------------------------|{w\n\r");
   printf_to_char(ch,"{c| {wDayanıklılıklar{c                                                    |{w\n\r");
   printf_to_char(ch,"{c| teshir:%s çağrı :%s büyü :%s silah   :%s ezici:%s delici:%s kesici :%s    |{w\n\r",((victim==NULL?ch:victim)->res_flags  & IMM_CHARM)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_SUMMON)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_MAGIC)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_WEAPON)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_BASH)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_PIERCE)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_SLASH)?"{w+{c":" ");
@@ -2702,8 +2703,16 @@ void do_practice( CHAR_DATA *ch, char *argument )
 	      )
 		continue;
 
-	    sprintf( buf, "%-18s %3d%%  ",
-		skill_table[sn].name[1], ch->pcdata->learned[sn] );
+    if(ch->pcdata->learned[sn]<75)
+    sprintf( buf, "{r%-18s %3d%%  {x",skill_table[sn].name[1], ch->pcdata->learned[sn] );
+  else if(ch->pcdata->learned[sn]>=75 && ch->pcdata->learned[sn]<85)
+    sprintf( buf, "{g%-18s %3d%%  {x",skill_table[sn].name[1], ch->pcdata->learned[sn] );
+  else if(ch->pcdata->learned[sn]>=85 && ch->pcdata->learned[sn]<100)
+    sprintf( buf, "{G%-18s %3d%%  {x",skill_table[sn].name[1], ch->pcdata->learned[sn] );
+  else if(ch->pcdata->learned[sn]==100)
+    sprintf( buf, "{C%-18s %3d%%  {x",skill_table[sn].name[1], ch->pcdata->learned[sn] );
+  else
+    sprintf( buf, "%-18s %3d%%  ",skill_table[sn].name[1], ch->pcdata->learned[sn] );
 	    strcat( buf2, buf );
 	    if ( ++col % 3 == 0 )
 		strcat( buf2, "\n\r" );
@@ -3476,10 +3485,14 @@ void do_affects_col(CHAR_DATA *ch, char *argument )
 {
     AFFECT_DATA *paf, *paf_last = NULL;
     char buf[MAX_STRING_LENGTH];
+    bool found;
+
+    found = FALSE;
 
     if ( ch->affected != NULL )
     {
-      send_to_char( "Şu büyülerden etkileniyorsun:\n\r", ch );
+      found = TRUE;
+      send_to_char( "Şunlardan etkileniyorsun:\n\r", ch );
 	for ( paf = ch->affected; paf != NULL; paf = paf->next )
 	{
 	    if (paf_last != NULL && paf->type == paf_last->type)
@@ -3512,8 +3525,15 @@ void do_affects_col(CHAR_DATA *ch, char *argument )
 	    paf_last = paf;
 	}
     }
-    else
-    send_to_char("Hiçbir büyünün etkisinde değilsin.\n\r",ch);
+
+    if (!IS_NPC(ch) && (IS_SET(ch->act,PLR_GHOST)))
+    {
+      found = TRUE;
+      printf_to_char(ch,"{rHayalet{w: %d saat",ch->pcdata->ghost_mode_counter);
+    }
+
+    if (found == FALSE)
+      send_to_char("Hiçbir şeyin etkisinde değilsin.\n\r",ch);
 
     return;
 }

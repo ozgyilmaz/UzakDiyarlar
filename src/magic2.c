@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -107,6 +119,7 @@ void spell_portal( int sn, int level, CHAR_DATA *ch, void *vo,int target)
     ||   victim->level >= level + 3
     ||   (!IS_NPC(victim) && victim->level >= LEVEL_HERO)  /* NOT trust */
     ||   (IS_NPC(victim) && is_safe_nomessage(ch, victim) && IS_SET(victim->imm_flags,IMM_SUMMON))
+    ||   (IS_NPC(victim) && (victim->pIndexData->vnum == ch->pcdata->questmob))
     ||   (IS_NPC(victim) && saves_spell( level, victim,DAM_NONE) ) )
     {
         send_to_char( "Baþaramadýn.\n\r", ch );
@@ -158,6 +171,7 @@ void spell_nexus( int sn, int level, CHAR_DATA *ch, void *vo, int target)
     ||   victim->level >= level + 3
     ||   (!IS_NPC(victim) && victim->level >= LEVEL_HERO)  /* NOT trust */
     ||   (IS_NPC(victim) && is_safe_nomessage(ch, victim) && IS_SET(victim->imm_flags,IMM_SUMMON))
+    ||   (IS_NPC(victim) && (victim->pIndexData->vnum == ch->pcdata->questmob))
     ||   (IS_NPC(victim) && saves_spell( level, victim,DAM_NONE) ) )
     {
         send_to_char( "Baþaramadýn.\n\r", ch );
@@ -1544,7 +1558,7 @@ void spell_tattoo( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   for (i = 0; i < MAX_RELIGION; i++)
     {
-      if (!str_cmp(ch->name, religion_table[i].leader))
+      if (!str_cmp(ch->name, religion_table[i].name))
 	{
   	  tattoo = get_eq_char(victim, WEAR_TATTOO);
    	  if (tattoo != NULL)
@@ -1812,8 +1826,8 @@ void spell_tesseract( int sn, int level, CHAR_DATA *ch, void *vo, int target )
       ||   IS_SET(ch->in_room->room_flags, ROOM_NOSUMMON)
       ||   (!IS_NPC(victim) && victim->level >= LEVEL_HERO)  /* NOT trust */
       ||   (IS_NPC(victim) && IS_SET(victim->imm_flags,IMM_SUMMON))
-      ||   (!IS_NPC(victim) && IS_SET(victim->act,PLR_NOSUMMON)
-	    && is_safe_nomessage(ch,victim))
+      ||   (!IS_NPC(victim) && IS_SET(victim->act,PLR_NOSUMMON) && is_safe_nomessage(ch,victim))
+      ||   (IS_NPC(victim) && (victim->pIndexData->vnum == ch->pcdata->questmob))
       ||   (saves_spell( level, victim, DAM_NONE ) ) )
     {
       send_to_char( "Baþaramadýn.\n\r", ch );
@@ -3203,9 +3217,9 @@ void spell_meld_into_stone( int sn, int level, CHAR_DATA *ch, void *vo, int targ
   if ( is_affected( victim, sn ) )
     {
       if (victim == ch)
-      send_to_char("Derin zaten taþla kaplý.\n\r",ch);
+      send_to_char("Zaten olabildiðince taþa dönüþmüþsün.\n\r",ch);
     else
-      act("$S derisi zaten taþla kaplý.",ch,NULL,
+      act("$S zaten olabildiðince taþa dönüþmüþ.",ch,NULL,
 	    victim,TO_CHAR);
       return;
     }
@@ -3217,8 +3231,8 @@ void spell_meld_into_stone( int sn, int level, CHAR_DATA *ch, void *vo, int targ
   af.modifier  = -100;
   af.bitvector = 0;
   affect_to_char( victim, &af );
-  act( "$s derisi taþa dönüþüyor.",victim,NULL,NULL,TO_ROOM );
-  send_to_char( "Derin taþa dönüþüyor.\n\r", victim );
+  act( "$s taþa dönüþüyor.",victim,NULL,NULL,TO_ROOM );
+  send_to_char( "Taþa dönüþüyorsun.\n\r", victim );
   return;
 }
 

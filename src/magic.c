@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+ 
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -3504,6 +3516,7 @@ void spell_gate( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     ||   (IS_NPC(victim) && is_safe_nomessage(ch, victim) && IS_SET(victim->imm_flags,IMM_SUMMON))
     ||   (!IS_NPC(victim) && is_safe_nomessage(ch, victim) && IS_SET(victim->act,PLR_NOSUMMON))
     ||   (!IS_NPC(victim) && ch->in_room->area != victim->in_room->area )
+    ||   (IS_NPC(victim) && (victim->pIndexData->vnum == ch->pcdata->questmob))
     ||   (IS_NPC(victim) && saves_spell( level, victim,DAM_OTHER) ) )
     {
 	send_to_char( "Baþaramadýn.\n\r", ch );
@@ -3932,7 +3945,7 @@ void spell_identify( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     case ITEM_WAND:
     case ITEM_STAFF:
     sprintf( buf, "%d seviyesinde %d þarjý var",
-	    obj->value[2], obj->value[0] );
+	    obj->value[0] , obj->value[2] );
 	send_to_char( buf, ch );
 
 	if ( obj->value[3] >= 0 && obj->value[3] < MAX_SKILL )
@@ -4980,7 +4993,7 @@ send_to_char("Uyuþuk hissediyorsun.\n\r",victim);
     af.modifier  = - UMAX(2,level / 12);
     af.bitvector = AFF_SLOW;
     affect_to_char( victim, &af );
-    send_to_char("Yavaþ l a d ý ð ý n ý   hissediyorun...\n\r", victim );
+    send_to_char("Yavaþ l a d ý ð ý n ý   hissediyorsun...\n\r", victim );
     act("$n yavaþ hareket etmeye baþlýyor.",victim,NULL,NULL,TO_ROOM);
     return;
 }
@@ -5040,6 +5053,7 @@ void spell_summon( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     ||   (!IS_NPC(victim) && is_safe_nomessage(ch,victim) && IS_SET(victim->act,PLR_NOSUMMON))
     ||   (saves_spell( level, victim,DAM_OTHER))
     ||   (ch->in_room->area != victim->in_room->area && !IS_NPC(victim))
+    ||   (IS_NPC(victim) && (victim->pIndexData->vnum == ch->pcdata->questmob))
     ||   (victim->in_room->exit[0] == NULL &&
           victim->in_room->exit[1] == NULL &&
           victim->in_room->exit[2] == NULL &&
@@ -5876,6 +5890,7 @@ void spell_astral_walk( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     ||   (IS_NPC(victim) && is_safe_nomessage(ch, victim) && IS_SET(victim->imm_flags,IMM_SUMMON))
     ||   (!IS_NPC(victim) && is_safe_nomessage(ch, victim) && IS_SET(victim->act,PLR_NOSUMMON))
     ||   (!IS_NPC(victim) && ch->in_room->area != victim->in_room->area )
+    ||   (IS_NPC(victim) && (victim->pIndexData->vnum == ch->pcdata->questmob))
     ||   (IS_NPC(victim) && saves_spell( level, victim,DAM_OTHER) ) )
     {
 	send_to_char( "Baþaramadýn.\n\r", ch );
@@ -5929,6 +5944,7 @@ void spell_mist_walk( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     ||   saves_spell(level,victim,DAM_OTHER)
     ||   (IS_NPC(victim) && is_safe_nomessage(ch, victim) && IS_SET(victim->imm_flags,IMM_SUMMON))
     ||   (!IS_NPC(victim) && is_safe_nomessage(ch, victim) && IS_SET(victim->act,PLR_NOSUMMON))
+    ||   (IS_NPC(victim) && (victim->pIndexData->vnum == ch->pcdata->questmob))
     ||   (!IS_NPC(victim) && ch->in_room->area != victim->in_room->area )
     ||   (IS_NPC(victim) && saves_spell( level, victim,DAM_OTHER) ) )
     {
@@ -5973,6 +5989,7 @@ void spell_solar_flight( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     ||   saves_spell(level,victim,DAM_OTHER)
     ||   (IS_NPC(victim) && is_safe_nomessage(ch, victim) && IS_SET(victim->imm_flags,IMM_SUMMON))
     ||   (!IS_NPC(victim) && is_safe_nomessage(ch, victim) && IS_SET(victim->act,PLR_NOSUMMON))
+    ||   (IS_NPC(victim) && (victim->pIndexData->vnum == ch->pcdata->questmob))
     ||   (!IS_NPC(victim) && ch->in_room->area != victim->in_room->area )
     ||   (IS_NPC(victim) && saves_spell( level, victim,DAM_OTHER) ) )
     {
@@ -6013,6 +6030,7 @@ void spell_helical_flow( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     ||   saves_spell(level,victim,DAM_OTHER)
     ||   (IS_NPC(victim) && is_safe_nomessage(ch, victim) && IS_SET(victim->imm_flags,IMM_SUMMON))
     ||   (!IS_NPC(victim) && is_safe_nomessage(ch, victim) && IS_SET(victim->act,PLR_NOSUMMON))
+    ||   (IS_NPC(victim) && (victim->pIndexData->vnum == ch->pcdata->questmob))
     ||   (!IS_NPC(victim) && ch->in_room->area != victim->in_room->area )
     ||   (IS_NPC(victim) && saves_spell( level, victim,DAM_OTHER) ) )
     {

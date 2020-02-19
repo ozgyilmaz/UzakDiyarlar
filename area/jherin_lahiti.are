@@ -11,7 +11,7 @@ Maxvnum 32725
 Path 13b 2k 2d a 5k y 2b k 2b a 2g a~
 END
 
-#MOBILES
+#NEW_MOBILES
 #32700
 Jher~
 Jher~
@@ -20,12 +20,7 @@ Jher burada sana dik dik bakýyor.
 Bu kötü adamýn bakýþlarýyla donup kalýyorsun.Bu nasýl bir güç.
 ~
 human~
-2|4|8|64 8|32|128|512|8192 0 0
-53 0 50d10+5000 5d5+5000 6d7+21 punch
--23 -23 -23 -1
-EFIJK 0 0 0
-stand stand male 0
-0 0 medium 0
+2|4|8|64 8|32|128|512|8192 53
 #32701
 genç warg~
 genç bir warg~
@@ -34,12 +29,7 @@ Genç bir warg seni farkedip hýrlama baþlýyor.
 Yeni yeteneklerini göstermek için kurban olarak seni seçmiþ olmalý.
 ~
 human~
-4|64|128|262144 8|32|512|32768 0 0
-32 0 10d10+1000 5d5+1000 6d4+9 none
--10 -10 -10 3
-EFIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+4|64|128|262144 8|32|512|32768 32
 #32702
 knanath~
 Knanath~
@@ -48,12 +38,7 @@ Knanath, Jher'in evcil hayvaný sana hýrlýyor.
 Hala boðazýna sarýlmadýðýna göre aç deðil.
 ~
 fido~
-2|4|32|64 2|8|32|512 0 0
-43 0 25d10+2500 5d5+1000 3d12+15 beating
--15 -15 -15 2
-EFI 0 0 0
-stand stand male 0
-0 0 medium 0
+2|4|32|64 2|8|32|512 43
 #32703
 anne warg~
 anne warg~
@@ -62,12 +47,7 @@ Bir anne warg yavrularýnýn etrafýnda dolaþýyor.
 Çocuklarýndan uzak dur çünkü onlarý korumak için seni parça parça edebilir.
 ~
 human~
-4|64 8|32|512 0 0
-40 0 15d10+1850 5d5+1000 4d8+13 bite
--13 -13 -13 3
-EFI 0 0 0
-stand stand female 0
-0 0 medium 0
+4|64 8|32|512 40
 #32704
 baba warg~
 baba warg~
@@ -76,12 +56,7 @@ Büyük bir warg burada saldýracak veya eðlenecek birþey arýyor.
 Daha çýðlýk atamadan seni öldürebilir onunla uðraþmamalýsýn.
 ~
 human~
-4|64 8|32|512|32768 0 0
-42 0 25d10+2250 5d5+1000 3d12+14 bite
--14 -14 -14 3
-EFI 0 0 0
-stand stand male 0
-0 0 medium 0
+4|64 8|32|512|32768 42
 #32705
 aç genç warg~
 aç genç warg~
@@ -90,12 +65,7 @@ Genç bir warg burada, aç gözüküyor.
 Aðzýndan salyalarý akýyor iðrenç bir görüntüsü var.
 ~
 human~
-2|4|64|128 0 0 0
-35 0 10d10+1300 5d5+1000 4d7+11 charge
--11 -11 -11 3
-EFI 0 0 0
-stand stand male 0
-0 0 medium 0
+2|4|64|128 0 35
 #32706
 yýlan~
 yýlan~
@@ -104,12 +74,7 @@ Bir yýlan korkunu hissederek bacaklarýnýn arasýnda dolaþýyor.
 Çatallý dilindeki zehri farkedebiliyorsun.
 ~
 snake~
-2|32|64 8|32|512 0 0
-20 0  3d9+333 5d5+1000 2d8+5 shbite
--4 -4 -4 5
-FH L 0 I
-stand stand none 0
-0 0 small 0
+2|32|64 8|32|512 20
 #32707
 ayý~
 ayý~
@@ -118,12 +83,7 @@ Büyük siyah bir ayý gölgelerde saklanýyor.
 ayý sana bakýp þöyle diyor' Jher' i öldürmemde bana yardým eder misin?'
 ~
 bear~
-64 8|32|128|512|8192|32768|65536|1048576 0 0
-47 0 25d10+3500 5d5+1000 6d6+17 claw
--17 -17 -17 2
-CDEFIK 0 0 0
-stand stand male 0
-0 0 large 0
+64 8|32|128|512|8192|32768|65536|1048576 47
 #32708
 yarasa~
 yarasa~
@@ -132,12 +92,7 @@ Bir yarasa yüzüne saldýrýyor.
 Siyah büyük gözlerini görüyorsun.Ve büyük bir sesle çýðlýk atýyor.
 ~
 bat~
-32|64 8|32|512|524288 0 0
-34 0 10d10+1200 5d5+1000 4d7+10 charge
--11 -11 -11 3
-F 0 0 0
-stand stand none 0
-0 0 small 0
+32|64 8|32|512|524288 34
 #32709
 Htrag warg eðitmeni~
 Htrag~
@@ -146,12 +101,7 @@ Htrag burada warglarý eðitiyor.
 Arkasýna bakýp diþlerini gýcýrdatýyor sanýrsan seni farketti.
 ~
 human~
-2|64 8|32|128|512 0 0
-40 0 15d10+1850 5d5+1000 4d8+13 bite
--13 -13 -13 3
-EFI 0 0 0
-stand stand male 0
-0 0 medium 0
+2|64 8|32|128|512 40
 #32710
 diþi warg~
 diþi warg~
@@ -160,12 +110,7 @@ diþi bir warg kafesin içinde duruyor.
 Yardýmýn için yalvarýyor.
 ~
 human~
-2|4|64 8|32|512 0 0
-35 0 10d10+1300 5d5+1000 4d7+11 bite
--11 -11 -11 3
-EFI 0 0 0
-stand stand female 0
-0 0 medium 0
+2|4|64 8|32|512 35
 #32711
 erkek varg~
 erkek warg~
@@ -174,12 +119,7 @@ Erkek bir warg boðazýna atýlýyor.
 Tek kelimeyle çok vahþi.
 ~
 human~
-2|4|32|64 8|32|512 0 0
-40 0 15d10+1850 5d5+1000 4d8+13 bite
--13 -13 -13 3
-EFI 0 0 0
-stand stand male 0
-0 0 medium 0
+2|4|32|64 8|32|512 40
 #32712
 Sapth köle~
 Sapth~
@@ -188,12 +128,7 @@ Sapth, Jher'in kölesi, yardýmýný bekliyor.
 Gözleri birinin onu Jher'den kurtaracaðý umuduyla dolu.
 ~
 human~
-4|64|128 8|32|256|512 0 0
-35 0 10d10+1300 5d5+1000 4d7+11 punch
--11 -11 -11 3
-EFI 0 0 0
-stand stand male 0
-0 0 medium 0
+4|64|128 8|32|256|512 35
 #32713
 warg muhafýz~
 muhafýz~
@@ -202,12 +137,7 @@ Muhafýz arkasýnda ne olduðunu bilmediðin bir kapýyý koruyor.
 Savaþmak ve öldürmek için eðitilmiþ.
 ~
 human~
-ABCGT 8|32|512 0 0
-40 0 15d10+1850 5d5+1000 4d8+13 pound
--13 -13 -13 3
-CDEFIKTU 0 0 0
-stand stand male 0
-0 0 large 0
+ABCGT 8|32|512 40
 #32714
 warg muhafýz~
 muhafýz~
@@ -216,12 +146,7 @@ Muhafýz arkasýnda ne olduðunu bilmediðin bir kapýyý koruyor.
 Savaþmak ve öldürmek için eðitilmiþ.
 ~
 human~
-ABCGT 8|32|512 0 0
-42 0 25d10+2250 5d5+1000 3d12+14 pound
--14 -14 -14 3
-CDEFIKTU 0 0 0
-stand stand male 0
-0 0 large 0
+ABCGT 8|32|512 42
 #32715
 shaanh~
 Shaanh~
@@ -230,12 +155,7 @@ Shaanh, Jher'in aþk kölesi,köþeye sinmiþ.
 Neredeyse hiç birþey giymiyor ve vücudunun her yerinde çizikler morluklar iþkence izleri var.
 ~
 human~
-64|128 8|32|256|512|65536 0 0
-37 0 10d10+1500 5d5+1000 3d10+12 slap
--12 -12 -12 3
-EIK 0 0 0
-stand stand female 0
-0 0 medium 0
+64|128 8|32|256|512|65536 37
 #32716
 tek gözlü balýk~
 tek gözlü balýk~
@@ -244,12 +164,7 @@ Tek gözü kör kocaman aðza sahip bir balýk bacaklarýnýn arasýnda geziniyor.
 Ýðrenç bir yaratýk.  Bir gözü kör, Ama kokun yüzünden orda olduðunu hissediyor.
 ~
 human~
-64|128 8|32|512 0 0
-38 0 10d10+1600 5d5+1000 5d6+12 charge
--13 -13 -13 3
-EF 0 0 0
-stand stand none 0
-0 0 medium 0
+64|128 8|32|512 38
 #0
 
 

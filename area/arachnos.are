@@ -11,7 +11,7 @@ Maxvnum 6399
 Path 13b g 2b k b y b k~
 END
 
-#MOBILES
+#NEW_MOBILES
 #6301
 oldstyle spider young~
 the young spider~
@@ -21,12 +21,7 @@ He looks freshly hatched and sprightly.  His young fangs are just
 growing in as of late.
 ~
 human~
-ACG D 0 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand female 5
-0 0 medium 0
+ACG D 5
 #6302
 oldstyle dragon Yevaud~
 Yevaud~
@@ -35,12 +30,7 @@ Yevaud the Usurper of Midgaard is here, grinning evilly at you.
 Old, scaly, but still with a lot of bite in him left.
 ~
 dragon~
-ABCG D -1000 0
-24 0 5d10+500 12d9+100 2d10+6 none
--6 -6 -6 6
-EFNR 0 0 0
-stand stand male 500
-0 0 medium 0
+ABCG D 24
 #6303
 oldstyle spider wolf~
 the Wolf Spider~
@@ -49,12 +39,7 @@ The Wolf Spider is here, licking its bloody fangs.
 The Wolf Spider is hairy, very hairy.
 ~
 human~
-ABF 0 -300 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand female 62
-0 0 medium 0
+ABF 0 6
 #6304
 oldstyle orc~
 the orc~
@@ -63,12 +48,7 @@ The orc is stuck in the web and he can't get out.
 You notice an evil look in his eyes.
 ~
 orc~
-AB 0 -400 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNR 0 0 0
-stand stand male 5
-0 0 medium 0
+AB 0 5
 #6305
 oldstyle wasp queen~
 the Queen Wasp~
@@ -78,12 +58,7 @@ to her master.
 You notice a glazed look in her eyes.
 ~
 human~
-ABF 0 -800 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNU 0 0 0
-stand stand female 75
-0 0 medium 0
+ABF 0 12
 #6306
 oldstyle spider drone~
 the drone spider~
@@ -92,12 +67,7 @@ The drone spider walks around doing her master's bidding.
 An ordinary drone spider.
 ~
 human~
-ACG 0 -300 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 10
-0 0 medium 0
+ACG 0 6
 #6307
 oldstyle spider ethereal~
 the ethereal spider~
@@ -106,12 +76,7 @@ The ethereal spider strides here, traveling to different worlds.
 She winks in and out.
 ~
 human~
-ACG 0 1000 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand female 62
-0 0 medium 0
+ACG 0 10
 #6308
 oldstyle slave human~
 the slave of Arachnos~
@@ -120,12 +85,7 @@ The slave works here relentlessly.
 The slave does not mind you, but will fight like a warrior if attacked.
 ~
 human~
-ACG 0 0 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand male 25
-0 0 medium 0
+ACG 0 8
 #6309
 oldstyle quasit~
 the quasit~
@@ -135,12 +95,7 @@ Demoniac in nature, but more mischievous.  He twiddles his thumbs
 and creates a magical treasure!
 ~
 human~
-ACEH BDP 1000 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand male 50
-0 0 medium 0
+ACEH BDP 10
 #6310
 oldstyle spider bird~
 the Bird Spider~
@@ -149,12 +104,7 @@ The Bird Spider snaps its powerful jaws.
 The Bird Spider has very powerful jaws.
 ~
 human~
-ABF 0 -800 0
-14 0 2d10+190 7d9+100 1d12+3 none
--1 -1 -1 8
-EFNU 0 0 0
-stand stand female 87
-0 0 medium 0
+ABF 0 14
 #6311
 oldstyle hermit~
 the Hermit~
@@ -164,12 +114,7 @@ A dishevelled veteran warrior in disguise is what he is, but he
 means well.
 ~
 human~
-ABC D -400 0
-7 0 2d6+85 3d9+100 1d8+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 37
-0 0 medium 0
+ABC D 7
 #6312
 oldstyle donjonkeeper~
 the Donjonkeeper~
@@ -178,12 +123,7 @@ The Donjonkeeper eyes you and wonders how pure your soul is.
 He delves deeper into you as you stare at him.
 ~
 human~
-ABC D 1000 0
-25 0 5d10+550 12d9+100 2d10+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand male 300
-0 0 medium 0
+ABC D 25
 #6313
 oldstyle guardian~
 The guardian~
@@ -192,12 +132,7 @@ The guardian is obviously not doing his job.
 He looks like a lazy bum who sleeps half the time.
 ~
 human~
-AFG P 250 0
-17 0 3d9+258 8d9+100 3d4+4 none
--3 -3 -3 7
-EFNU 0 0 0
-sleep sleep male 80
-0 0 medium 0
+AFG P 17
 #6314
 oldstyle spider empress arachnos~
 Arachnos~
@@ -209,12 +144,7 @@ fangs of normal spiders, but then, as you realize, she does not need
 them.
 ~
 human~
-ABF BD -1000 0
-26 0 5d10+600 13d9+100 3d7+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand female 500
-0 0 medium 0
+ABF BD 26
 #6315
 oldstyle ki-rin~
 the Ki-Rin~
@@ -224,12 +154,7 @@ She is the last bastion of good in this realm.  Her mission is to
 someday free the slaves of the Empress.
 ~
 human~
-ABC D 1000 0
-26 0 5d10+600 13d9+100 3d7+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand female 750
-0 0 medium 0
+ABC D 26
 #6316
 oldstyle dragon wormkin young~
 the young dragon wormkin~
@@ -238,12 +163,7 @@ A wormkin with no teeth plays here.
 Rather small, you almost feel sad in killing it.
 ~
 dragon~
-AB D 1000 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNR 0 0 0
-stand stand male 50
-0 0 medium 0
+AB D 10
 #6317
 oldstyle dragon wormkin medium~
 the medium dragon wormkin~
@@ -252,12 +172,7 @@ A wormkin that has grown a bit stares at you inquisitively.
 A medium-sized dragon--seems it hasn't killed anything yet by itself.
 ~
 dragon~
-AB D 100 0
-13 0 2d10+170 6d9+100 2d5+3 none
--1 -1 -1 8
-EFNR 0 0 0
-stand stand male 250
-0 0 medium 0
+AB D 13
 #6318
 oldstyle spider poisonous~
 the huge, poisonous spider~
@@ -268,12 +183,7 @@ has eight hairy legs that gives it a tremendous speed on almost any surface and
 sharp poisonous fangs to paralyze or kill its prey.
 ~
 human~
-ABG 0 -350 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABG 0 8
 #6319
 oldstyle queen spider~
 the Queen Spider~
@@ -284,12 +194,7 @@ huge, hairy legs that would give it a tremendous speed on almost any surface
 if it wasn't so immensely fat.  Its large, bulbous eyes stare back at you.
 ~
 human~
-ABG D -1000 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand female 0
-0 0 medium 0
+ABG D 15
 #0
 #OBJECTS
 #6303

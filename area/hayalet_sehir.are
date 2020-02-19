@@ -25,7 +25,7 @@ be considered impossible. Either way, have fun.
 0 $~
 
 
-#MOBILES
+#NEW_MOBILES
 #8100
 hortlak~
 bir hortlak~
@@ -36,12 +36,7 @@ lanetli araziye gelen önceki davetsiz misafirlerle ayný kaderi paylaþman
 için elinden geleni yapacak.- ÖLÜM!.
 ~
 undead~
-AFGO DFHT -1000 0
-60 0 25d10+9750 1d10+5000 11d9+36 slash
--28 -28 -28 0
-EFNQ R 0 NX
-stand stand none 5000
-I 0 medium 0
+AFGO DFHT 60
 #8101
 ruh~
 bir ruh~
@@ -53,12 +48,7 @@ lanetli araziye gelen önceki davetsiz misafirlerle ayný kaderi paylaþman
 için elinden geleni yapacak.- ÖLÜM!.
 ~
 undead~
-AFGO DFT -1000 0
-47 0 25d10+3500 1d20+3440 6d6+17 pierce
--17 -17 -17 2
-EFNQ R 0 N
-stand stand none 5000
-I 0 medium 0
+AFGO DFT 47
 #8102
 gulyabani~
 bir gulyabani~
@@ -70,12 +60,7 @@ lanetli araziye gelen önceki davetsiz misafirlerle ayný kaderi paylaþman
 için elinden geleni yapacak.- ÖLÜM!.
 ~
 undead~
-AFGO DF -1000 0
-45 0 25d10+3000 10d10+330 8d4+16 slash
--15 -15 -15 4
-EFNQ R 0 NX
-stand stand none 4500
-I 0 medium 0
+AFGO DF 45
 #8103
 hayalet~
 bir hayalet~
@@ -86,12 +71,7 @@ lanetli araziye gelen önceki davetsiz misafirlerle ayný kaderi paylaþman
 için elinden geleni yapacak.- ÖLÜM!.
 ~
 undead~
-AFGO DFTU -1000 0
-48 0 25d10+3750 10d10+110 6d6+18 pound
--18 -18 -18 2
-EFNU R 0 NX
-stand stand none 5000
-I 0 medium 0
+AFGO DFTU 48
 #8104
 vampir~
 bir vampir~
@@ -102,12 +82,7 @@ Xanan tarafýndan buraya hapsedilmiþ vampirlerdiler. Ve þimdi onlarý tekrar
 dirilttiðin için sana müteþekkirler.!
 ~
 undead~
-ABFGO DFN -1000 0
-54 0 25d10+5250 10d10+1110 7d6+22 pierce
--24 -24 -24 -1
-EFNQ BR 0 NX
-stand stand none 5300
-0 0 medium 0
+ABFGO DFN 54
 #8105
 büyücü~
 bir büyücü~
@@ -118,12 +93,7 @@ Xantharus'un efendisi olmalý. Ama durumu tahmin etti ve bir büyücü
 olarak geri döndü. Þimdi intikam arýyor.
 ~
 human~
-ABFGO DF -1000 0
-58 0 50d10+6250 10d10+1110 5d10+25 pierce
--28 -28 -28 2
-EFNQ AB T K
-stand stand male 5800
-0 0 medium 0
+ABFGO DF 58
 #8106
 zebani~
 bir zebani~
@@ -133,12 +103,7 @@ Bu tuhaf yaratýk, buranýn negatif enerjiyle yasýçanýlmýþ alt alemlerinin bir
 muhafýzý.
 ~
 undead~
-AFGHO DF -1000 0
-52 0 50d10+4750 10d10+4440 6d7+20 pound
--22 -22 -22 0
-EFNQ R 0 N
-stand stand none 5000
-I 0 medium 0
+AFGHO DF 52
 #8107
 geri dönmüþ~
 bir geri dönmüþ~
@@ -150,12 +115,7 @@ Onun ruhu buraya döndü ve uzun süredir ölü olan katillerini arýyor. Amacýnýn
 dýþýndaki herþeyi görmezden gelir ama yoluna çýkarsan saldýrmaktan çekinmez.
 ~
 undead~
-AGO DFN 0 0
-57 0 50d10+6000 10d10+1000 6d8+24 pierce
--27 -27 -27 -2
-EFNQ R 0 N
-stand stand none 5300
-I 0 medium 0
+AGO DFN 57
 #8108
 karabasan~
 bir karabasan~
@@ -167,12 +127,7 @@ savaþçýydý. Buranýn sakinleri tarafýndan hemen avlandý, ama ölürken ne kadar
 kalmýþ.
 ~
 undead~
-ABGO DFTU 0 0
-48 0 25d10+3750 10d10+1000 6d6+18 pierce
--18 -18 -18 2
-EFNQ R 0 N
-stand stand none 5000
-I 0 medium 0
+ABGO DFTU 48
 #8109
 mezar mahluk~
 bir mezar mahluðu~
@@ -182,12 +137,7 @@ Bu yaratýk, þeytanlýðýna raðmen sana saldýrmayacak; sadece sataþacak. Buna
 raðmen kendini korumaktan da çekinmez.
 ~
 undead~
-ABGO DF -1000 0
-55 0 50d10+5500 10d10+1000 10d4+23 pierce
--25 -25 -25 0
-EFNQ R 0 N
-stand stand none 5300
-0 0 medium 0
+ABGO DF 55
 #8110
 güçlü zebani~
 güçlü bir zebani~
@@ -197,12 +147,7 @@ Bu tuhaf yaratýk, buranýn negatif enerjiyle yasýçanýlmýþ alt alemlerinin bir
 muhafýzý.
 ~
 undead~
-ABFGO DFT -1000 0
-58 0 50d10+6250 10d10+1000 5d10+25 pound
--28 -28 -28 -2
-EFNQ R 0 N
-stand stand none 5600
-I 0 medium 0
+ABFGO DFT 58
 #8111
 hortlak ejderha~
 bir hortlak ejderha~
@@ -213,12 +158,7 @@ ejderhanýn ruhu. Öyle ki Xantharus onu öldükten sonra da hizmet etmesi için
 canladýrmýþ.
 ~
 undead~
-ABFGO DFT -1000 0
-62 0 50d10+7250 10d10+1000 6d9+32 pound
--32 -32 -32 -3
-EFNQ R 0 N
-stand stand none 7000
-0 0 medium 0
+ABFGO DFT 62
 #8112
 hortlak canavar~
 hortlak canavar~
@@ -229,12 +169,7 @@ bu lanetli araziye gelen önceki davetsiz misafirlerle ayný kaderi paylaþman
 için elinden geleni yapacak.- ÖLÜM!.
 ~
 undead~
-AFGO DF -1000 0
-45 0 25d10+3000 10d10+1000 8d4+16 slash
--15 -15 -15 10
-EFNQ R 0 N
-stand stand none 5000
-0 0 medium 0
+AFGO DF 45
 #8113
 dev sýçan~
 dev sýçan~
@@ -242,13 +177,8 @@ Dev bir sýçan vahþice saldýrýyor!
 ~
 Dev derken, 10 adým boydan bahsettim!...
 ~
-rat~
-ACFGHO DFQ -1000 0
-40 0 10d10+1850 10d10+100 4d8+13 charge
--13 -13 -13 4
-EFNQ 0 0 0
-stand stand none 5000
-0 0 medium 0
+lizard~
+ACFGHO DFQ 40
 #8114
 dev örümcek~
 dev örümcek~
@@ -257,12 +187,7 @@ Dev bir örümcek üzerine geliyor!
 Örümcekler istediklerinde iyi sýçrayan canlýlardýr.
 ~
 undead~
-ACFGHO DFQ -1000 0
-45 0 25d10+3000 10d10+1000 8d4+16 charge
--15 -15 -15 4
-EFNQ 0 0 0
-stand stand none 5000
-P 0 medium 0
+ACFGHO DFQ 45
 #8115
 pusucu~
 pusucu~
@@ -271,12 +196,7 @@ Tependeki bir pusucu seni boðmak için fýrsat kolluyor!
 Bu sapkýn iðrenç yaratýk, inine giren misafirlerle besleniyor-
 ~
 undead~
-ABFGHO T 0 0
-52 0 50d10+4750 10d10+1000 6d7+20 pierce
--20 -20 -20 2
-EFNQ 0 0 0
-stand stand none 5000
-0 0 medium 0
+ABFGHO T 52
 #8116
 vampirella~
 bir vampirella~
@@ -285,12 +205,7 @@ Güzel bir diþi etkileyici þekilde bakýyor, keskin diþlerini göstererek...
 Bu bir vampirella, Seni etkileyecek ve harcayacak, DÖVÜÞ!
 ~
 undead~
-ABGO DFHT -1000 0
-50 0 50d10+4250 10d10+1000 5d8+19 slash
--20 -20 -20 2
-EFNQ 0 0 N
-stand stand none 5000
-I 0 medium 0
+ABGO DFHT 50
 #8117
 xantharus~
 Xantharus~
@@ -302,12 +217,7 @@ büyücü. Büyük Hata'sý O'nu bulmadan bir çýkýþ yolu bulmak umuduyla buraya
 kaçmýþ.
 ~
 undead~
-ABGHO 0 -400 0
-50 0 50d10+4250 10d10+1000 5d8+19 pound
--20 -20 -20 2
-EFNQ R 0 N
-stand stand none 5000
-I 0 medium 0
+ABGHO 0 50
 #8118
 çürümüþ ceset~
 bir çürümüþ ceset~
@@ -317,12 +227,7 @@ Bu þey ve yandaþlarý bir zamanlar güzel olan bu þehrin sakinlerinden olmalý.
 Onlarý öldürmek, onlar için yapabileceðin en iyi þey...
 ~
 undead~
-AGO 0 0 0
-40 0 10d10+1850 10d10+1000 4d8+13 slash
--13 -13 -13 3
-EFNQ 0 0 N
-stand stand none 3000
-I 0 medium 0
+AGO 0 40
 #8119
 efendi~
 efendi~
@@ -333,12 +238,7 @@ geçiren Efendi hakkýnda çok az þey biliniyor. Ama þu kesin ki çok kudretli
 görünen bu þeytani büyücü seni yoketmekten çekinmeyecek.
 ~
 human~
-ABFGHO CDEFH -1000 0
-60 0 50d10+6750 10d10+1000 8d6+28 pierce
--30 -30 -30 0
-EFNQ 0 0 0
-stand stand none 5300
-0 0 medium 0
+ABFGHO CDEFH 60
 #8120
 sürünen tepecik~
 sürünen tepecik~
@@ -347,12 +247,7 @@ Sürünen bir tepecik... þeyy ýý... üzerine doðru sürünüyor.
 KOÞ! 12 ayak yüksekliðindeki bir çöp yýðýný sana saldýrýyor!
 ~
 unique~
-AFGO N 0 0
-45 -1 50d10+3000 10d10+1000 8d4+16 slash
--15 -14 -15 4
-EFNQ 0 0 0
-stand stand none 5200
-0 0 medium 0
+AFGO N 45
 #8121
 kampflut~
 bir kampflut~
@@ -363,12 +258,7 @@ bir aðzý olan antik bir meþe aðacýna benziyor. Kötü tavýrlarýna raðmen,
 kötü niyetli deðil, sadece basitçe... AÇ!
 ~
 undead~
-AFGO N 0 0
-50 0 50d10+4250 10d10+1000 5d8+19 pierce
--20 -20 -20 2
-EFNQ 0 0 0
-stand stand none 5000
-0 0 medium 0
+AFGO N 50
 #8122
 siyah puding~
 siyah puding~
@@ -378,12 +268,7 @@ Bu siyah dev kütle, silah ve zýrhlarý eritiyor, eðer fýrsat bulursa,seni
 de iþtahla silip süpürecek!
 ~
 undead~
-AFGO N 0 0
-52 0 50d10+4750 10d10+1000 6d7+20 pierce
--22 -22 -22 2
-EFNQ 0 0 0
-stand stand none 5100
-0 0 medium 0
+AFGO N 52
 #8123
 yeþil balçýk~
 yeþil balçýk~
@@ -392,12 +277,7 @@ Bir parça yeþil balçýk üzerine damlayarak, cildini yakýyor.
 Yeþil Balçýk metali bile eritebilir, derinin üzerindeki etkisini hayal et!
 ~
 undead~
-ABFGO 0 0 0
-40 0 50d10+1850 10d10+1000 4d8+13 slash
--13 -13 -13 4
-EFNQ 0 0 0
-stand stand none 5000
-0 0 medium 0
+ABFGO 0 40
 #8124
 gri çamur~
 gri çamur~
@@ -406,12 +286,7 @@ Gri bir çamur yýðýntýsý sana doðru sýzýyor.
 "Ah," "Ne kadar korktum!" dediðini duyar gibiyim. O zaman bekle ve gör!
 ~
 undead~
-AFGO N -1000 0
-58 0 50d10+6250 10d10+1000 5d10+25 pierce
--28 -28 -28 0
-EFNQ R 0 N
-stand stand none 5000
-I 0 medium 0
+AFGO N 58
 #8125
 hareketli aðaç~
 hareketli aðaç~
@@ -420,12 +295,7 @@ Hareketli bir aðaç sana dallarý ile saldýrýyor.
 Bu aðaç kötü ve þeytani, yani pek dost sayýlmaz...
 ~
 undead~
-AFGO 0 0 0
-45 0 50d10+3000 10d10+1000 8d4+16 pound
--15 -15 -15 3
-EFNQ R 0 N
-stand stand none 5000
-I 0 medium 0
+AFGO 0 45
 #8126
 aðaç ruhu~
 Bir aðacýn ruhu~
@@ -436,12 +306,7 @@ hatta yeterince ödeme yaparsan yaralarýný bile iyileþtirebilir...
 
 ~
 undead~
-ABGO BCDFN 400 0
-65 0 50d10+8250 10d10+1000 11d5+35 pierce
--35 -35 -35 -5
-EFNQ 0 0 0
-stand stand none 5000
-0 0 medium 0
+ABGO BCDFN 65
 #8127
 ölü þövalye~
 ölü þövalye~
@@ -453,12 +318,7 @@ parlak, gümüþ bir kýlýçla, çürüyen yüzü haricinde ayný yaþarkenki kadar
 karizmatik görünüyor...
 ~
 undead~
-ABFGO DF -1000 0
-60 0 50d10+6250 10d10+1000 8d6+28 pierce
--30 -30 -30 0
-EFNQ R 0 N
-stand stand none 5000
-I 0 medium 0
+ABFGO DF 60
 #8128
 kabus~
 bir kabus~
@@ -468,12 +328,7 @@ Kanatlý bir ata binen bu kara varlýk, iþini bitirmiþ efendisinin onu
 görevlendireceði yere gitmek için bekliyor.
 ~
 undead~
-ABGO FT -1000 0
-45 0 50d10+3000 10d10+1000 8d4+16 pound
--15 -15 -15 4
-EFNQ R 0 N
-stand stand none 5000
-I 0 medium 0
+ABGO FT 45
 #8129
 avcý~
 bir avcý~
@@ -483,12 +338,7 @@ Bu iblisimsi varlýk, bacaklar yerini keskin kýlýçlar, gözler yerine de
 parýldayan elmaslara sahip olan dev bir örümceðe benziyor.
 ~
 undead~
-ABFGO DF -1000 0
-58 0 50d10+6250 10d10+1000 5d10+25 slash
--28 -28 -28 0
-EFNQ 0 0 0
-stand stand none 5000
-0 0 medium 0
+ABFGO DF 58
 #8130
 cambiyon gözcüsü~
 Orcus'un gözcüsü~
@@ -500,12 +350,7 @@ gözcülerinden. Gizli bir görevde ve dolayýsýyla belayý mümkün olduðunca
 varlýklarý için tehdit olup olmadýðý konusunda Orcus'u uyarmakla yükümlü.
 ~
 undead~
-ACGHO DEFQV -1000 0
-50 0 50d10+4250 10d10+1000 5d8+19 pound
--40 -40 -40 2
-EFNQ 0 0 0
-stand stand none 5000
-0 0 medium 0
+ACGHO DEFQV 50
 #8131
 orcus~
 Orcus~
@@ -518,12 +363,7 @@ bakýyor. Burada olmak istemiyor, dolayýsýyla Birincil Maddesel Düzlem'in
 saldýrýlarýyla uðraþmak yanlýsý deðil.
 ~
 undead~
-ABGHO BCDEFHN -1000 0
-65 0 50d10+8250 10d10+1000 11d5+35 pierce
--35 -35 -35 -4
-EFNQ R 0 N
-stand stand none 5000
-I 0 medium 0
+ABGHO BCDEFHN 65
 #8132
 su mahluku~
 su mahluku~
@@ -532,12 +372,7 @@ Bir su mahluku sana doðru hamle yapýyor!
 Bu sudan oluþan yýlan, dövüþerek savunacaðý kuyusunun içinde duruyor.
 ~
 snake~
-ABFGO N 0 0
-51 0 50d10+4500 10d10+1000 5d8+20 bite
--20 -20 -20 2
-EFNQ 0 0 0
-stand stand none 0
-0 0 medium 0
+ABFGO N 51
 #8133
 dev örümcek~
 dev bir örümcek~
@@ -546,12 +381,7 @@ Dev bir örümcek sana doðru iniyor!
 Dev derken, 10 feet boydan bahsettim!...
 ~
 undead~
-ABCFGHO DFQ -1000 0
-48 0 50d10+3750 10d10+1000 6d6+18 charge
--18 -18 -18 3
-EFNQ 0 0 0
-stand stand none 5000
-0 0 medium 0
+ABCFGHO DFQ 48
 #8134
 baron vampir~
 bir baron vampir~
@@ -562,12 +392,7 @@ Xanan tarafýndan buraya hapsedilmiþ vampirlerdiler. Ve þimdi sana onlarý
 rahatsýz ederek tekrar dirilttiðin için müteþekkirler.!
 ~
 undead~
-ABFGO DF -1000 0
-60 0 50d10+6750 10d10+1000 8d6+28 pierce
--30 -30 -30 0
-EFNQ BR 0 JNX
-stand stand none 5000
-I 0 medium 0
+ABFGO DF 60
 #0
 
 

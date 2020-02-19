@@ -11,7 +11,7 @@ Maxvnum 16300
 Path 6d 10k a~
 END
 
-#MOBILES
+#NEW_MOBILES
 #16001
 infaz memuru göz~
 Ýnfaz memuru göz~
@@ -21,13 +21,8 @@ These eyes are all over the Under dark, they make sure all the rules are
 obeyed.  They are just that, huge eyes that float above the ground.  The
 eye has a dark brown shell, with a huge pupil that never seems to blink.
 The pupil is a very dark green and takes in every action you do. ~
-unknown~
-A CDEF 0 0
-32 0 10d10+1000 5d5+1000 6d4+9 none
--10 -10 -10 3
-EF 0 0 0
-stand stand none 0
-0 0 medium 0
+ghoul~
+A CDEF 32
 #16002
 süzülen göz~
 Süzülen göz~
@@ -38,13 +33,8 @@ These eyes have been known to steal from people and to play "jokes" on
 others.  The eye's pupil is a very dark grey and you can't tell where it is
 focused.
 ~
-unknown~
-A D -350 0
-18 0 3d9+283 5d5+1000 2d7+4 none
--3 -3 -3 6
-EF 0 0 0
-stand stand none 0
-0 0 medium 0
+ghoul~
+A D 18
 #16003
 mahkum~
 Mahkum~
@@ -56,12 +46,7 @@ stares at you and does nothing else.  It looks as if he has lost the will to
 live, you wonder what the enforcers did to him.
 ~
 human~
-AB C -200 0
-18 0 3d9+283 5d5+1000 2d7+4 punch
--3 -3 -3 6
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AB C 18
 #16004
 yüksek infaz memuru göz~
 Yüksek infaz memuru göz~
@@ -72,13 +57,8 @@ enforcers.  The shell of this eye is brown and crusty, almost like scales.
 The pupil of this eye is a very deep red.  Looking at it makes you slightly
 dizzy.
 ~
-unknown~
-A CDEF 0 0
-43 0 25d10+2500 5d5+1000 3d12+15 none
--15 -15 -15 2
-EF 0 0 0
-stand stand none 0
-0 0 medium 0
+ghoul~
+A CDEF 43
 #16005
 seyirci göz~
 Devasa Nazar~
@@ -91,13 +71,8 @@ This body is a sphere with ten eyestalks ontop.  A huge eleventh eye
 resides in the central area.  A large mouth with razor sharp teeth lies below
 this huge eye.  The body is protected by a hard chitinous covering.
 ~
-unknown~
-AB CDEF 0 0
-50 0 50d10+4250 5d5+5000 5d8+19 bite
--20 -20 -20 0
-EF 0 0 0
-stand stand none 0
-0 0 medium 0
+ghoul~
+AB CDEF 50
 #16006
 nazar~
 Nazar~
@@ -108,29 +83,19 @@ moving eyestalks.  A huge eye is in the centre of the sphere.  This huge eye
 seems to disrupt your casting abilities.  This beholder lives in this city and
 masterminds many evil operations.
 ~
-unknown~
-ABC CDEFH -1000 0
-49 0 50d10+4000 5d5+1000 4d10+18 charge
--19 -19 -19 1
-EF 0 0 0
-stand stand none 0
-0 0 medium 0
+ghoul~
+ABC CDEFH 49
 #16007
-lefur naga~
+lefur pardus~
 Lefur~
-Kahverengimsi gri bir naga dikkatle seni izliyor.
+Kahverengimsi gri bir pardus dikkatle seni izliyor.
 ~
-Before you stands a naga.  Much like a regular gnome
+Before you stands a pardus.  Much like a regular gnome
 the only real difference is the fact that this gnome's skin is a brownish grey
 and he is going slightly bald.
 ~
-naga~
-AC E -500 0
-19 0 3d9+308 5d5+1000 2d7+5 punch
--4 -4 -4 5
-EIKR 0 0 0
-stand stand male 0
-0 0 medium 0
+pardus~
+AC E 19
 #16008
 ýsdarl tüccar~
 Tüccar Isdarl~
@@ -141,28 +106,18 @@ with a purpose to sell his goods.  Although he looks skinny he looks very
 deadly and quick.
 ~
 human~
-A D -750 0
-16 0 3d9+233 5d5+1000 2d6+4 pound
--2 -2 -2 6
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+A D 16
 #16009
-yeg~
-Yeg~
-Karanlýk bir yeg etrafta dolanýyor.
+cüce~
+cüce~
+Karanlýk bir cüce etrafta dolanýyor.
 ~
 Before you stands an emaciated, evil-visaged dwarf.  His skin is dark grey.
 He wears clothing that is a dark grey, he seems to blend into his
 surroundings.
 ~
-yeg~
-A C -600 0
-21 0 4d10+360 5d5+1000 4d4+5 pound
--5 -5 -5 5
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+cüce~
+A C 21
 #16010
 ölümbüyücüsü büyücü~
 Ölümbüyücüsü~
@@ -172,12 +127,7 @@ You turn your gaze on a necromancer who seems to have power flowing
 through every one of her movements.  Her visage is gaunt and strained, it
 seems as if at every moment she is concentrating on a spell of some sort. ~
 human~
-AB D -150 0
-43 0 25d10+2500 5d5+1000 3d12+15 punch
--15 -15 -15 2
-EIK 0 0 0
-stand stand female 0
-0 0 medium 0
+AB D 43
 #16011
 behir~
 Behir~
@@ -190,12 +140,7 @@ crocodilian than snake-like.  The scales are ultramarine with bands of
 grey-brown.  The belly is pale blue.
 ~
 snake~
-AB D -100 0
-38 0 10d10+1600 5d5+1000 5d6+12 bite
--13 -13 -13 3
-EF L 0 I
-stand stand none 0
-0 0 medium 0
+AB D 38
 #16012
 savaþçý~
 Savaþçý~
@@ -208,12 +153,7 @@ whatever the reason is the fighter doesn't seem that happy that you are
 staring at him.
 ~
 human~
-ABT C -750 0
-43 0 25d10+2500 5d5+1000 3d12+15 pound
--15 -15 -15 2
-CEIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABT C 43
 #16013
 yüksek papaz~
 Xevior'un bir yüksek papazý~
@@ -224,12 +164,7 @@ shimmer in and out of existence much like a mirage.  He bears the design
 of Xevior on his forehead.
 ~
 human~
-AB CDEFH -666 0
-43 0 25d10+2500 5d5+1000 3d12+15 slap
--15 -15 -15 2
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+AB CDEFH 43
 #16014
 kertenkele adam~
 Kertenkele adam~
@@ -240,12 +175,7 @@ little scales and seems to be light green in colour.  He stares at you as you
 look at him.  Ready for any move you may make on him.
 ~
 lizard~
-A D -600 0
-16 0 3d9+233 5d5+1000 2d6+4 bite
--2 -2 -2 6
-EIKR 0 0 0
-stand stand male 0
-0 0 medium 0
+A D 16
 #16015
 mor solucan~
 Mor solucan~
@@ -257,12 +187,7 @@ uses to slowly crush it's prey if they are unlucky enough not to be
 swallowed whole.
 ~
 human~
-ABF HQ -100 0
-44 0 25d10+2750 5d5+1000 8d4+15 none
--15 -15 -15 2
-EFU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABF HQ 44
 #16016
 mor solucan kocaman~
 Kocaman mor solucan~
@@ -273,12 +198,7 @@ purple and has teeth about 4 inches long each.  The mouth is so large that
 it looks like a small cavern.  You can only see the front of the worm since
 it's whole mass can not possibly fit in the corridor. ~
 human~
-ABF HQ -250 0
-48 0 25d10+3750 5d5+1000 6d6+18 bite
--18 -18 -18 1
-EFU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABF HQ 48
 #16017
 ast nazar~
 Nazar'ýn astý~
@@ -290,12 +210,7 @@ hands he wears a pair of gauntlets that bear the beholders symbol, an eye
 with ten eyestalks around it.
 ~
 human~
-AG DF -750 0
-43 0 25d10+2500 5d5+1000 3d12+15 pound
--15 -15 -15 2
-EF 0 0 0
-stand stand none 0
-0 0 medium 0
+AG DF 43
 #16018
 nazar lejyoner~
 Nazar lejyoneri~
@@ -308,12 +223,7 @@ looks straight at you and you see glowing red eyes.  This figure is a
 githzerai!  You wonder how that happened.
 ~
 human~
-AG DF -850 0
-46 0 25d10+3250 5d5+1000 6d6+16 pound
--16 -16 -16 2
-EF 0 0 0
-stand stand male 0
-0 0 medium 0
+AG DF 46
 #16019
 nazar eþlikçi~
 Baþ eþlikçi~
@@ -325,12 +235,7 @@ leave him in peace.  He holds himself with confidence and you realise it
 would no easy matter to defeat him.
 ~
 human~
-AB DF -900 0
-48 0 25d10+3750 5d5+1000 6d6+18 pound
--18 -18 -18 1
-EF 0 0 0
-stand stand male 0
-0 0 medium 0
+AB DF 48
 #16020
 beyin~
 Beyin~
@@ -342,12 +247,7 @@ beak, below which trail ten six foot long tentacles hang.  The body of the
 grell is a drab olive colour streaked with white; the tentacles are pale
 olive-green.  This grell is the beloved pet of the beholder. ~
 human~
-ABF H -750 0
-46 0 25d10+3250 5d5+1000 6d6+16 none
--16 -16 -16 2
-F 0 0 0
-stand stand none 0
-0 0 medium 0
+ABF H 46
 #16021
 barmen tezgahtar~
 Barmen~
@@ -358,29 +258,19 @@ and you get the feeling if you do anything destructive or stupid he will
 make you pay.
 ~
 human~
-ABT CDN 0 0
-95 0 50d10+22500 5d5+5000 12d15+68 pound
--71 -71 -71 -37
-EFIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+ABT CDN 95
 #16022
-hami yeg~
+hami cüce~
 Yeg hamisi~
-Bir yeg burada oturmuþ sana bakarken bir yandan da ale yudumluyor.
+Bir cüce burada oturmuþ sana bakarken bir yandan da ale yudumluyor.
 ~
-This yeg stares right back at you as you check him over.  He would
+This cüce stares right back at you as you check him over.  He would
 stand about four feet tall at max you figure.  Built like an ox this guy could
 easily pick you up.  You figure he frequents the Gemstone since he just
 seems to fit in.
 ~
-yeg~
-AG E -500 0
-11 0 2d8+134 5d5+100 1d10+2 punch
-1 1 1 7
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+cüce~
+AG E 11
 #16023
 ýsdarl hami~
 Isdarl hamisi~
@@ -389,12 +279,7 @@ Bir ýsdarl burada oturmuþ sessizce kendi iþiyle uðraþýyor.
 The drow doesn't seem to be looking at anything at all.  His dark skin
 blends in with the murky lighting.  The drow looks quick and deadly. ~
 human~
-AB D -600 0
-13 0 2d10+170 5d5+100 2d5+3 punch
--1 -1 -1 6
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AB D 13
 #16024
 hami insan~
 Ýnsan hamisi~
@@ -405,12 +290,7 @@ shape, the only thing going for him is the fact that he looks strong.  He has
 a gut that hangs out right over his belt, and a few scars on his face
 ~
 human~
-AG E -250 0
-14 -1 2d10+190 5d5+100 1d12+3 punch
--1 -1 -1 6
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AG E 14
 #16025
 serüvenci caris~
 Caris~
@@ -422,12 +302,7 @@ good looking.  His eyes are green and seem to hold the key to power in
 them.
 ~
 human~
-AB E 0 0
-22 0 5d10+400 5d5+1000 4d4+6 punch
--5 -5 -5 5
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AB E 22
 #16026
 serüvenci antryg~
 Antryg~
@@ -436,12 +311,7 @@ Antryg burada oturmuþ birasýný yudumluyor.
 Antryg is dressed in long robes that cover up his body.  You can't tell how
 built he is, but you do know he looks very deadly and dangerous ~
 human~
-AB E 0 0
-22 0 5d10+400 5d5+1000 4d4+6 punch
--5 -5 -5 5
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AB E 22
 #16027
 gremlin þekil form~
 Gremlin~
@@ -453,12 +323,7 @@ slimy.  This little fellow has nasty little teeth and questing hands that pick
 up anything.
 ~
 human~
-ACG PQ -50 0
-17 0 3d9+258 5d5+1000 3d4+4 punch
--3 -3 -3 6
-EIK 0 0 0
-stand stand none 0
-0 0 medium 0
+ACG PQ 17
 #16028
 yaratýk sümüksü~
 Sümüksü yaratýk~
@@ -469,12 +334,7 @@ look closely and notice with a start that it seems to be alive.  The slime is
 slowly eating it's way through the wall and floor.
 ~
 human~
-AG 0 0 0
-20 0 3d9+333 5d5+1000 2d8+5 magic
--4 -4 -4 5
-EF 0 0 0
-stand stand none 0
-0 0 medium 0
+AG 0 20
 #16029
 devasa sýçan~
 Devasa sýçan~
@@ -485,12 +345,7 @@ on the surface.  The rat has green eyes that seem to shimmer with hatred.
 The rat's fur is black and brown and very dirty.
 ~
 human~
-AG 0 0 0
-19 0 3d9+308 5d5+1000 2d7+5 charge
--4 -4 -4 5
-EF 0 0 0
-stand stand none 0
-0 0 medium 0
+AG 0 19
 #16030
 jinxkin insansý~
 Jinxkin~
@@ -502,12 +357,7 @@ one of the "little people" who cause trouble.  You then notice this jinxkin
 has dirty but sharp nails.
 ~
 human~
-ACG PQ -400 0
-22 0 5d10+400 5d5+1000 4d4+6 punch
--5 -5 -5 5
-EIK 0 0 0
-stand stand none 0
-0 0 medium 0
+ACG PQ 22
 #16031
 jermlaine insan form~
 Jermlaine~
@@ -520,12 +370,7 @@ the head, all leathery and smooth.  The limbs of this creature are knotty
 and bowed, with hands and feet tipped with thick nails which are filthy.
 ~
 human~
-ACG P -600 0
-21 0 4d10+360 5d5+1000 4d4+5 punch
--5 -5 -5 5
-EIK 0 0 0
-stand stand none 0
-0 0 medium 0
+ACG P 21
 #16032
 bodak insansý~
 Bodak~
@@ -538,12 +383,7 @@ long with oddly distorted features.  The eyes are milky-white, vertical
 ovals of large size.
 ~
 human~
-AB DFHJ -999 0
-45 0 25d10+3000 5d5+1000 8d4+16 pound
--15 -15 -15 2
-EIK 0 0 0
-stand stand none 0
-0 0 medium 0
+AB DFHJ 45
 #16033
 büyücü~
 Büyücü~
@@ -554,12 +394,7 @@ then found out just how little his own power was.  The bodak sucked his
 life away and left him as this husk, skin that clings to the bones.  The mage
 stares at you, his eyes bloodshot and sunken into their sockets. ~
 human~
-ABF D -500 0
-38 0 10d10+1600 5d5+1000 5d6+12 magic
--13 -13 -13 3
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABF D 38
 #16034
 demir golem~
 Demir golem~
@@ -569,12 +404,7 @@ This looks to be an iron statue of a human.  The statue stands a good
 fifteen feet tall.  In fact it almost looks as if it can move.  You then glance
 at it's eyes and notice with a shock that they are watching you. ~
 golem~
-AB D 0 0
-40 0 15d10+1850 5d5+1000 4d8+13 pound
--13 -13 -13 3
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AB D 40
 #16035
 taþ golem~
 Taþ golem~
@@ -585,12 +415,7 @@ looks powerful enough to rip off your head without straining.  The statue
 looks as if it is watching you.
 ~
 golem~
-AB D 0 0
-39 0 15d10+1700 5d5+1000 5d6+13 pound
--13 -13 -13 3
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AB D 39
 #16036
 insan savaþlordu itreres~
 Itreres~
@@ -602,12 +427,7 @@ a bear of a man, he ripples with muscles.  He has scars all over his arms
 and you are pretty sure all over his body.
 ~
 human~
-AB N -500 0
-42 0 25d10+2250 5d5+1000 3d12+14 slap
--14 -14 -14 3
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AB N 42
 #16037
 þeytan~
 Þeytan~
@@ -617,12 +437,7 @@ This is a small imp who has become the familiar of the bodak.  He is the
 eyes and ears of the bodak, if the bodak so desires.
 ~
 human~
-ABG BDFJPQ -750 0
-39 0 15d10+1700 5d5+1000 5d6+13 charge
--13 -13 -13 3
-EF 0 0 0
-stand stand male 0
-0 0 medium 0
+ABG BDFJPQ 39
 #16038
 küçük iblis babau~
 Babau~
@@ -635,12 +450,7 @@ extremities are larger than normal, however.  Its feet, hands, and head are
 the size of a hill giant's.  The taloned fingers are deadly.  This is the babau.
 ~
 unique~
-ACF J -1000 0
-40 0 15d10+1850 5d5+1000 4d8+13 slash
--13 -13 -13 3
-EKNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ACF J 40
 #16039
 hizmetkar~
 Hizmetkar~
@@ -648,12 +458,7 @@ Efendisinden emir bekleyen bir hizmetkar kenarda duruyor.
 ~
 This is a servant.  He is ready to serve whomever his current master is.~
 human~
-ABG J 0 0
-10 0 2d7+121 5d5+100 2d4+2 punch
-1 1 1 7
-EI 0 0 0
-stand stand male 0
-0 0 medium 0
+ABG J 10
 #16040
 topraksý yýðýn~
 topraksý yýðýn~
@@ -665,12 +470,7 @@ thing looks like a large blob that has eyes and mouths all over it, the blob
 is basically earthy in colour.
 ~
 unique~
-ACF BEJQ -1000 0
-41 0 25d10+2000 5d5+1000 4d8+14 charge
--14 -14 -14 3
-EF 0 0 0
-stand stand none 0
-0 0 medium 0
+ACF BEJQ 41
 #16041
 iþçi diþi kadýn~
 Gecelerin iþçisi~
@@ -679,12 +479,7 @@ Edepsiz bir diþi sana hizmetlerini sunuyor.
 You behold a beautiful girl who is yours to command.. for a price.  You
 realise if you touch the goods her "boss" will be mighty upset. ~
 human~
-AC J 0 0
-12 0 2d10+150 5d5+100 1d10+3 slap
-0 0 0 7
-EK 0 0 0
-stand stand female 0
-0 0 medium 0
+AC J 12
 #16042
 garson kadýn~
 Bir tutku bakiresi~
@@ -696,12 +491,7 @@ when she realises that you haven't paid for her services and ignores you
 from then on.
 ~
 human~
-AC J 0 0
-13 0 2d10+170 5d5+100 2d5+3 slap
--1 -1 -1 6
-EK 0 0 0
-stand stand female 0
-0 0 medium 0
+AC J 13
 #16043
 bahþeden adam~
 Bir haz bahþeden~
@@ -712,12 +502,7 @@ about him is perfect.  He looks you over and licks his lips indicating he's
 ready when you have paid up.
 ~
 human~
-AC J 0 0
-11 0 2d8+134 5d5+100 1d10+2 pound
-1 1 1 7
-0 0 0 0
-stand stand male 0
-0 0 medium 0
+AC J 11
 #16044
 asil müþteri~
 Öncelikli bir müþteri~
@@ -728,12 +513,7 @@ a fortune in this establishment.  He is a little overweight and his belly
 spills over his pants.
 ~
 unique~
-AC J 0 0
-14 0 2d10+190 5d5+100 1d12+3 pound
--1 -1 -1 6
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AC J 14
 #16045
 adam kadýn satýcýsý~
 Kadýn satýcýsý~
@@ -743,12 +523,7 @@ This the pimp of the girls and guys of this establishment.  He wears
 expensive jewellery and has a few gold teeth.  He seems nice enough here
 but you realise that he must be a terror to his underlings. ~
 human~
-AC J -1000 0
-16 0 3d9+233 5d5+1000 2d6+4 punch
--2 -2 -2 6
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AC J 16
 #16046
 buçukluk hamisis~
 Buçukluk hamisi~
@@ -760,12 +535,7 @@ have the confidence that one could only find if he had been brought up on
 the streets of this foul city.
 ~
 human~
-AB J -500 0
-13 0 2d10+170 5d5+100 2d5+3 punch
--1 -1 -1 6
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AB J 13
 #16047
 yarý-ork hami~
 Yarý-ork~
@@ -776,12 +546,7 @@ half-orc has a huge nose and it's teeth are yellow and fang like.  The
 half-orc is guzzling down the ale looking for trouble.
 ~
 orc~
-AB J -900 0
-11 0 2d8+134 5d5+100 1d10+2 claw
-1 1 1 7
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AB J 11
 #16048
 gnom hami~
 Lefur hamisi~
@@ -790,12 +555,7 @@ Bir derin gnom burada oturmuþ arkasýný kolluyor.
 This deep gnome sits at the table watching for suckers to prey upon.  His
 skin is grey and his eyes are also grey.  He looks to be very dangerous. ~
 human~
-AB J -750 0
-12 0 2d10+150 5d5+100 1d10+3 punch
-0 0 0 7
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AB J 12
 #16049
 Han görevlisi~
 Han görevlisi~
@@ -807,28 +567,18 @@ who listens patiently to the stories of the adventurers that pass through
 here.
 ~
 human~
-ABT J 0 0
-95 0 50d10+22500 5d5+5000 16d15+68 pound
--71 -71 -71 -37
-CDEFIJK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABT J 95
 #16050
-yeg limbeck~
+cüce limbeck~
 Limbeck~
-Serüvenci bir yeg burada oturmuþ etrafýndakilere kahramanlýk öykülerini anlatýyor.
+Serüvenci bir cüce burada oturmuþ etrafýndakilere kahramanlýk öykülerini anlatýyor.
 ~
-Before you sits a yeg of impressive build.  From the mutterings around
+Before you sits a cüce of impressive build.  From the mutterings around
 you know his name is Limbeck, a hero down here.  He has reputedly killed
 a purple worm single handed.
 ~
-yeg~
-AB J -500 0
-33 0 10d10+1100 5d5+1000 6d4+10 punch
--11 -11 -11 3
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+cüce~
+AB J 33
 #16051
 gnom~
 Geg~
@@ -839,12 +589,7 @@ walking through the inn.  He is one of the heroes of this city, and for that
 reason many people are after his life.
 ~
 human~
-AB J -600 0
-30 0 6d12+853 5d5+1000 4d6+8 pound
--9 -9 -9 3
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AB J 30
 #16052
 ýsdarl~
 Drevlin~
@@ -854,12 +599,7 @@ This is Drevlin, one of the drow's most powerful warrior.  He once
 defeated the drow weapon's master without a weapon.  He is very ruthless
 and quick.  His dark skin and pointed ears makes him look like a demon. ~
 human~
-ABT J -999 0
-31 0 6d12+928 5d5+1000 4d6+9 slash
--10 -10 -10 3
-EFIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABT J 31
 #16053
 yarý-ork~
 Jarre~
@@ -871,12 +611,7 @@ fight inside the inn, Jarre has crushed many an opponents skull just outside
 the door.
 ~
 orc~
-ABT J -999 0
-30 0 6d12+853 5d5+1000 4d6+8 slash
--9 -9 -9 3
-EFIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABT J 30
 #16054
 servis görevlisi~
 Servis görevlisi~
@@ -888,12 +623,7 @@ years now.  Her hair you figure hasn't been washed for a few days now,
 although that is better than you yourself.
 ~
 human~
-AB J 0 0
-13 0 2d10+170 5d5+100 2d5+3 punch
--1 -1 -1 6
-EI 0 0 0
-stand stand female 0
-0 0 medium 0
+AB J 13
 #16055
 köle satýcýsý~
 Köle satýcýsý~
@@ -903,12 +633,7 @@ The slave dealer is huge and looks mighty mean.  He patiently waits for
 you to decide on which slave you wish to buy.
 ~
 human~
-BT 0 900 0
-95 0 50d10+22500 5d5+5000 15d15+68 pound
--71 -71 -71 -37
-CEFIJKU 0 0 0
-stand stand male 0
-0 0 medium 0
+BT 0 95
 #16056
 köle tüccarý~
 Köle tüccarý~
@@ -919,12 +644,7 @@ sporting much jewellery that he has garnished from this prosperous
 trading.
 ~
 human~
-AC J -500 0
-23 0 5d10+450 5d5+1000 3d6+6 punch
--6 -6 -6 4
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AC J 23
 #16057
 tüccar köle alýcýsý~
 Bir köle alýcýsý~
@@ -934,12 +654,7 @@ The mecrchant has a cruel look in his eye, he looks like the type of
 master that any slave would dread.
 ~
 human~
-AC J -900 0
-21 0 4d10+360 5d5+1000 4d4+5 pound
--5 -5 -5 5
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AC J 21
 #16058
 ork köle~
 Ork köle~
@@ -948,12 +663,7 @@ Bir ork köle burada gelecek emirleri bekliyor.
 The orc slave looks none to pleased about being a slave.
 ~
 orc~
-ABC 0 0 0
-18 0 3d9+283 5d5+1000 2d7+4 punch
--3 -3 -3 6
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABC 0 18
 #16059
 goblin köle~
 Goblin köle~
@@ -962,12 +672,7 @@ Bir goblin köle burada gelecek emirleri bekliyor.
 The goblin slave watches you with distrust and hatred.
 ~
 goblin~
-ABC 0 0 0
-16 0 3d9+233 5d5+1000 2d6+4 punch
--2 -2 -2 6
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABC 0 16
 #16060
 erkek insan köle~
 erkek bir insan köle~
@@ -977,12 +682,7 @@ A male human slave stands before you with his back rigid, his spirit hasn't
 been broken... yet.
 ~
 human~
-ABC 0 0 0
-19 0 3d9+308 5d5+1000 2d7+5 punch
--4 -4 -4 5
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABC 0 19
 #16061
 diþi insan köle~
 diþi bir insan köle~
@@ -990,12 +690,7 @@ Diþi bir insan köle burada gelecek emirleri bekliyor.
 ~
 A female human slave stands before you watching you carefully. ~
 human~
-ABC 0 0 0
-11 0 2d8+134 5d5+100 1d10+2 slap
-1 1 1 7
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABC 0 11
 #16062
 kobold köle~
 Kobold~
@@ -1004,12 +699,7 @@ Küçük bir kobold emrinize amade.
 A small kobold looks like a strong fierce fighter.
 ~
 kobold~
-ABCT 0 0 0
-20 0 3d9+333 5d5+1000 2d8+5 slash
--4 -4 -4 5
-0 0 0 0
-stand stand male 0
-EIK 0 medium 0
+ABCT 0 20
 #16063
 çora köle~
 Çora köle~
@@ -1017,12 +707,7 @@ EIK 0 medium 0
 ~
 The çora slave looks as if he would defend his master, if he had to. ~
 çora~
-ABC 0 0 0
-24 0 5d10+500 5d5+1000 2d10+6 punch
--6 -6 -6 4
-EIKR 0 0 0
-stand stand male 0
-0 0 medium 0
+ABC 0 24
 #16064
 cüce köle~
 Cüce köle~
@@ -1032,12 +717,7 @@ The dwarven slave looks outright rebellious, but you realise he would fight
 if ordered to.
 ~
 dwarf~
-ABC 0 0 0
-26 0 5d10+600 5d5+1000 3d7+7 pound
--7 -7 -7 4
-EIKR 0 0 0
-stand stand male 0
-0 0 medium 0
+ABC 0 26
 #16065
 bar görevlisi~
 Bar Görevlisi~
@@ -1048,12 +728,7 @@ retired adventurer and can defeat any mortal who would be idiotic enough
 to attack him.
 ~
 human~
-ABT C 0 0
-95 0 50d10+22500 5d5+5000 12d15+68 slash
--71 -71 -71 -37
-CEFIJK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABT C 95
 #16066
 ýsdarl serüvenci~
 Prax~
@@ -1062,12 +737,7 @@ Serüvenci bir ýsdarl ekibiyle birlikte oturmuþ seni izliyor.
 This adventurer's name is well known in this establishment, he goes by the
 name Prax.  He is an accomplished mage, and seems to breathe magic. ~
 human~
-AB D -500 0
-28 0 6d12+703 5d5+1000 2d12+8 pound
--8 -8 -8 4
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AB D 28
 #16067
 ýsdarl savaþçý~
 Thespan~
@@ -1077,12 +747,7 @@ This drow is a very strong warrior.  He has never been defeated in his
 entire career.  He goes by the name Thespan.
 ~
 human~
-ABT 0 -600 0
-26 0 5d10+600 5d5+1000 3d7+7 slash
--7 -7 -7 4
-EIJK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABT 0 26
 #16068
 ýsdarl hýrsýz~
 Endolar~
@@ -1091,12 +756,7 @@ Isdarl bir hýrsýz ahbaplarýyla masada oturmuþ seni izliyor.
 This drow is not to be trusted, he has a well earned reputation of being
 able to steal anything off of anyone.  Maybe you should check your gold. ~
 human~
-ABS 0 -600 0
-26 0 5d10+600 5d5+1000 3d7+7 punch
--7 -7 -7 4
-EIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+ABS 0 26
 #16069
 gnom büyücü~
 Snaromba~
@@ -1107,12 +767,7 @@ the threshold of becoming powerful, no easy feat in the Underdark.  She is
 clearly very intelligent and cunning.
 ~
 human~
-ABR D -600 0
-16 0 3d9+233 5d5+1000 2d6+4 punch
--2 -2 -2 6
-EIK 0 0 0
-stand stand female 0
-0 0 medium 0
+ABR D 16
 #16070
 gnom hýrsýz~
 Anmictes~
@@ -1124,16 +779,11 @@ they will be a force to be reckoned with.  Knowing this one of the city's
 beholder's has outfitted them and protects them.
 ~
 human~
-ABS 0 -700 0
-16 0 3d9+233 5d5+1000 2d6+4 pound
--2 -2 -2 6
-EIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+ABS 0 16
 #16071
-yeg savaþçý~
+cüce savaþçý~
 Emba~
-Bir yeg savaþçýsý arkadaþlarýyla birlikte ale içiyor.
+Bir cüce savaþçýsý arkadaþlarýyla birlikte ale içiyor.
 ~
 This warrior's name is Emba. Although this group is a strange sight in the
 Underdark due to their different races they work well together.  You
@@ -1141,13 +791,8 @@ wonder if this group is an indication that the under world races may be
 getting closer together, which would be a very bad thing for the surface
 races.
 ~
-yeg~
-ABT 0 -800 0
-17 0 3d9+258 5d5+1000 3d4+4 slash
--3 -3 -3 6
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+cüce~
+ABT 0 17
 #16072
 ýsdarl hýrsýz~
 Shillikif~
@@ -1159,12 +804,7 @@ group has reputedly found a way into the githzerai keep from the
 Underdark.
 ~
 human~
-ABS 0 -700 0
-16 0 3d9+233 5d5+1000 2d6+4 punch
--2 -2 -2 6
-EIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+ABS 0 16
 #16073
 ýsdarl Yie'Stei~
 Yie'Stei~
@@ -1175,12 +815,7 @@ shop even while others have tried to take it from him.  He has a very
 profitable business going.
 ~
 human~
-ABR D 0 0
-50 0 50d10+4250 5d5+5000 5d8+19 magic
--20 -20 -20 0
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABR D 50
 #16074
 ýsdarl zae'tres~
 Zae'tres~
@@ -1192,29 +827,19 @@ there would be a profitable trade in selling arms, especially drow arms to
 those who visit this unique city.
 ~
 human~
-ABT D 0 0
-95 0 50d10+22500 5d5+5000 12d15+68 pound
--71 -71 -71 -37
-CDEFIJK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABT D 95
 #16075
-yeg Raesarnt~
+cüce Raesarnt~
 Raesarnt~
 Yeg demircisi Raesarnt, sabýrla seni bekliyor.
 ~
-Raesarnt is a yeg who is now making a bundle in dealing with armour
+Raesarnt is a cüce who is now making a bundle in dealing with armour
 and selling it at a ridiculous price.  Raesarnt is a stocky little fellow who
 obviously has been through a lot in his life.  He walks with a quiet
 confidence of one who has seen everything and knows nothing can best
 him. ~
-human~
-ABT D 0 0
-95 0 50d10+22500 5d5+5000 12d15+68 pound
--71 -71 -71 -37
-CDEFIJK 0 0 0
-stand stand male 0
-0 0 medium 0
+cüce~
+ABT D 95
 #16076
 satori insan~
 Satori~
@@ -1225,63 +850,43 @@ rumoured that she killed all her rivals by murdering them while they slept.
 She is a beautiful lady who always gets her way.
 ~
 human~
-ABT D -999 0
-40 0 15d10+1850 5d5+1000 4d8+13 slash
--13 -13 -13 3
-EIK 0 0 0
-stand stand female 0
-0 0 medium 0
+ABT D 40
 #16077
 jiestis~
 Jiestis~
 Jiestis hiçbir þey çalmadýðýndan ve aldýklarýnýn parasýný ödediðinden emin
 olmak için seni izliyor.
 ~
-Jiestis is a naga.  He sells many varieties of roots and
+Jiestis is a pardus.  He sells many varieties of roots and
 mushrooms to those of the Underdark.  It is rumoured that some of his
 food has healing properties.  Jiestis is a small figure who is easy to
 overlook, yet he seems to be very very powerful, not a person to mess
 with.
 ~
-naga~
-AB D 0 0
-49 0 50d10+4000 5d5+1000 4d10+18 pound
--19 -19 -19 1
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+pardus~
+AB D 49
 #16078
-naga lefur~
+pardus lefur~
 Lefur~
-Bir naga sana kin ve güvensizlik dolu bakýþlar atýyor.
+Bir pardus sana kin ve güvensizlik dolu bakýþlar atýyor.
 ~
-This naga has taken sanctuary in the embassy.  By
+This pardus has taken sanctuary in the embassy.  By
 the way he is acting you figure he is running from something.  He is
 dressed is dark grey clothing and stands a good five feet tall.
 ~
-naga~
-AG 0 -500 0
-17 0 3d9+258 5d5+1000 3d4+4 punch
--3 -3 -3 6
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+pardus~
+AG 0 17
 #16079
-naga yüksek rütbeli~
-Yüksek rütbeli naga~
-Yüksek rütbeli bir naga geliþinle þaþýrmýþ görünüyor.
+pardus yüksek rütbeli~
+Yüksek rütbeli pardus~
+Yüksek rütbeli bir pardus geliþinle þaþýrmýþ görünüyor.
 ~
-This is a naga dignitary who is using the embassy as a place of rest.
+This is a pardus dignitary who is using the embassy as a place of rest.
 He has just been rather shaken up by his visit to the drow city and has
 come here to find comfort in the safe walls of this building.  He is dressed
 in different shades of grey and sports a nice looking necklace ~
-naga~
-AG 0 -500 0
-16 0 3d9+233 5d5+1000 2d6+4 punch
--2 -2 -2 6
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+pardus~
+AG 0 16
 #16080
 lefur bekçi~
 Bekçi~
@@ -1293,12 +898,7 @@ figure in his homeland, but he fell out of favour and was sent here.  He
 does his duty with a fanatic pride.
 ~
 human~
-AB 0 -700 0
-17 0 3d9+258 5d5+1000 3d4+4 punch
--3 -3 -3 6
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AB 0 17
 #16081
 haydut~
 Haydut~
@@ -1308,12 +908,7 @@ This is one of the younger thieves of the guild.  He has considerable
 experience, like all the thieves in the Underdark.  Although he has plenty
 of experience his skills aren't refined like those of his superiors. ~
 human~
-A Q -450 0
-16 0 3d9+233 5d5+1000 2d6+4 pound
--2 -2 -2 6
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+A Q 16
 #16082
 yankesici~
 Yankesici~
@@ -1324,12 +919,7 @@ himself to the guild, by working the streets he is looking for that perfect
 steal or kill.
 ~
 human~
-AH Q -600 0
-17 0 3d9+258 5d5+1000 3d4+4 punch
--3 -3 -3 6
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AH Q 17
 #16083
 cepçi~
 Cepçi~
@@ -1340,12 +930,7 @@ and knows who to pick on.  He is lean but covered in muscles, with many
 scars from countless fights.
 ~
 human~
-AH D -600 0
-18 0 3d9+283 5d5+1000 2d7+4 punch
--3 -3 -3 6
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AH D 18
 #16084
 dolandýrýcý~
 Dolandýrýcý~
@@ -1356,12 +941,7 @@ guild.  He only has to make his name even and bigger, and thus he is
 willing to take greater risks.
 ~
 human~
-AHS DQ -700 0
-19 0 3d9+308 5d5+1000 2d7+5 punch
--4 -4 -4 5
-EIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+AHS DQ 19
 #16085
 dalavereci~
 Dalavereci~
@@ -1372,12 +952,7 @@ he is proud to be in the guild's main building.  He will defend the guild
 with his life.
 ~
 human~
-ABFS D -500 0
-21 0 4d10+360 5d5+1000 4d4+5 slash
--5 -5 -5 5
-EIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+ABFS D 21
 #16086
 enformasyon görevlisi hýrsýz~
 Enformasyon görevlisi~
@@ -1388,12 +963,7 @@ his ability to both kill and steal.  He lives in the guild where the head thief
 can watch him.
 ~
 human~
-ABS D -500 0
-23 0 5d10+450 5d5+1000 3d6+6 punch
--6 -6 -6 4
-EIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+ABS D 23
 #16087
 hýrsýz üstadý~
 Hýrsýz üstadý~
@@ -1404,12 +974,7 @@ silk and has many items of jewellery.  The thief movements are as fluid as
 water, he seems to flow rather than move.
 ~
 human~
-ABS DEF -700 0
-25 0 5d10+550 5d5+1000 2d10+7 slap
--7 -7 -7 4
-EIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+ABS DEF 25
 #16088
 baþ hýrsýz~
 Baþ hýrsýz~
@@ -1420,12 +985,7 @@ he has a quiet certainty about him, all his movements are precise and
 calculated.  The thief has a cunning that made him the head of this guild,
 and he makes sure non of the other thieves gets near him in power. ~
 human~
-ABS DEF -1000 0
-47 0 25d10+3500 5d5+1000 6d6+17 pound
--17 -17 -17 2
-EFIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+ABS DEF 47
 #16089
 büyücü~
 Meliadus~
@@ -1435,12 +995,7 @@ This is the thieve's guild main mage.  He is the only one who power
 anywhere near that of the head's.  Meliadus is dressed in a long flowing
 robe and lights the room with a rob shaped like a hand holding an orb. ~
 human~
-ABR DEFH -500 0
-40 0 15d10+1850 5d5+1000 4d8+13 magic
--13 -13 -13 3
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABR DEFH 40
 #16090
 eðitmen~
 Eðitmen~
@@ -1451,12 +1006,7 @@ increase in ability and skill.  He is also the only member of the guild who
 is stronger than the leader.
 ~
 human~
-ABKS DN 0 0
-50 0 50d10+4250 5d5+5000 5d8+19 slash
--20 -20 -20 0
-EIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+ABKS DN 50
 #16091
 kiralýk katil suikastçi~
 Kiralýk katil~
@@ -1467,12 +1017,7 @@ dressed in black.  He is very skilled at the art of hitting the critical spot,
 so watch your back.
 ~
 human~
-AG Q -900 0
-20 0 3d9+333 5d5+1000 2d8+5 pound
--4 -4 -4 5
-EIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+AG Q 20
 #16092
 cani suikastçi~
 Cani~
@@ -1483,12 +1028,7 @@ street.  You can barely make out his form as he moves silently, looking for
 the opening.
 ~
 human~
-AG DPQ -999 0
-21 0 4d10+360 5d5+1000 4d4+5 pound
--5 -5 -5 5
-EIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+AG DPQ 21
 #16093
 katil suikastçi~
 Katil~
@@ -1498,12 +1038,7 @@ This assassin is very dangerous, he is built and strong.  He flits in and out
 of the shadows.  As an assassin he has the capability of nailing you with a
 critical hit, watch your back and don't hang around. ~
 human~
-AG DPQ -999 0
-22 0 5d10+400 5d5+1000 4d4+6 pound
--5 -5 -5 5
-EIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+AG DPQ 22
 #16094
 kasap suikastçi~
 Kasap~
@@ -1514,12 +1049,7 @@ survive the first hit, you may be able to kill him.  Do not be deceived by
 the match up, his strike is deadly.
 ~
 human~
-AG DQ -999 0
-23 0 5d10+450 5d5+1000 3d6+6 pound
--6 -6 -6 4
-EIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+AG DQ 23
 #16095
 suikastçi~
 Suikastçi~
@@ -1530,12 +1060,7 @@ who match up with the power of the assassin.  Should you take the time to
 read all of this, I caution you to move right away.
 ~
 human~
-AG D -999 0
-25 0 5d10+550 5d5+1000 2d10+7 pound
--7 -7 -7 4
-EIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+AG D 25
 #16096
 uzman suikastçi~
 Uzman suikastçi~
@@ -1546,12 +1071,7 @@ assassin is sheathed completely in black.  Wearing a mask you can not tell
 what this assassin really looks like.
 ~
 human~
-AG D -999 0
-27 0 5d10+650 5d5+1000 5d4+7 pound
--8 -8 -8 4
-EIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+AG D 27
 #16097
 kýdemli suikastçi~
 Kýdemli suikastçi~
@@ -1562,12 +1082,7 @@ long to write out.  One of the most powerful assassins of the land, he can
 take out almost foe.
 ~
 human~
-AG D -999 0
-29 0 6d12+778 5d5+1000 2d12+8 pound
--9 -9 -9 3
-EIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+AG D 29
 #16098
 baþ suikastçi~
 Baþ suikastçi~
@@ -1578,12 +1093,7 @@ beyond just fighting, he is versed in the art of death.  He has practised
 many long hours to learn how to hit the critical spot.
 ~
 human~
-AG D -999 0
-31 0 6d12+928 5d5+1000 4d6+9 pound
--10 -10 -10 3
-EIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+AG D 31
 #16099
 loncaüstadý suikastçi~
 Loncaüstadý~
@@ -1592,12 +1102,7 @@ Korkunç þöhrete sahip bir suikastçi burada durmuþ seni katletmeyi düþünüyor.
 This is the most powerful assassin in the realm, he has the ability to kill
 any mortal.  His price is extremely high, but he has never failed. ~
 human~
-AG D -999 0
-46 0 25d10+3250 5d5+1000 6d6+16 pound
--16 -16 -16 2
-EIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+AG D 46
 #16100
 suikastçi eðitmeni~
 Eðitmen~
@@ -1607,12 +1112,7 @@ This is a figure of extreme power.  He can defeat anything that walks the
 land and is mortal.
 ~
 human~
-ABK DN 0 0
-50 0 50d10+4250 5d5+5000 5d8+19 pound
--20 -20 -20 0
-EIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+ABK DN 50
 #16101
 karanlýk yaratýk~
 Karanlýk yaratýk~
@@ -1624,12 +1124,7 @@ pulsating through them.  The beast's eyes are a dirty reddish colour and the
 focus right at you.
 ~
 bat~
-AG F -500 0
-44 0 25d10+2750 5d5+1000 8d4+15 charge
--15 -15 -15 2
-EIK 0 0 0
-stand stand none 0
-0 0 medium 0
+AG F 44
 #16102
 skyzorr'n~
 Skyzorr'n~
@@ -1644,12 +1139,7 @@ developed pincer-hands on the two uppermost and dagger-like claws on
 the two lower ones.
 ~
 unique~
-AG F -600 0
-45 0 25d10+3000 5d5+1000 8d4+16 claw
--15 -15 -15 2
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AG F 45
 #16103
 dretch demon~
 The dretch~
@@ -1662,12 +1152,7 @@ slanted downward and the nose appears to be squashed.  The mouth is
 slack and slobbering with many small fangs.
 ~
 unique~
-AG F -800 0
-46 0 25d10+3250 5d5+1000 6d6+16 slash
--16 -16 -16 2
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AG F 46
 #16104
 platin golem heykel~
 Platin golem~
@@ -1677,28 +1162,18 @@ This is a huge golem, but not like any you have seen before.  This golem is
 made out of platinum and it looks to be very strong.  You wouldn't want to
 end up in a battle with a foe like this if you were weak. ~
 golem~
-AG H 0 0
-47 0 25d10+3500 5d5+1000 6d6+17 pound
--17 -17 -17 2
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+AG H 47
 #16105
-yeg tüccar~
+cüce tüccar~
 Gulthac~
-Güçlü bir yeg tüccar burada tuhaf yaratýklar satýn almak için bekliyor.
+Güçlü bir cüce tüccar burada tuhaf yaratýklar satýn almak için bekliyor.
 ~
 This is Gulthac who has a booming trade dealing with all sorts of
 grotesque creatures, like the ones that Eurandus creates.  He is a powerful
 warrior and is rarely beaten in a fight.
 ~
-human~
-AGT J -800 0
-46 0 25d10+3250 5d5+1000 6d6+16 pound
--16 -16 -16 2
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+cüce~
+AGT J 46
 #16106
 büyücü eurandus~
 Eurandus~
@@ -1710,12 +1185,7 @@ which he holds back in braids.  He is very handsome, but his eyes give
 away his insanity.
 ~
 human~
-AGR H -999 0
-47 0 25d10+3500 5d5+1000 6d6+17 pound
--17 -17 -17 2
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AGR H 47
 #16107
 bekçi~
 Bekçi~
@@ -1727,12 +1197,7 @@ darkness between you and him and penetrates into your mind.  You can
 tell that this man is extremely powerful.
 ~
 human~
-AGT DH 0 0
-49 0 50d10+4000 5d5+1000 4d10+18 pound
--19 -19 -19 1
-EFIK 0 0 0
-stand stand male 0
-0 0 medium 0
+AGT DH 49
 #16108
 xaren~
 Xaren~
@@ -1746,12 +1211,7 @@ you are two large eyes.  The skin of this creature looks just like rock and
 thus it seems to fade into the background.
 ~
 unique~
-AB D -500 0
-48 0 25d10+3750 5d5+1000 6d6+18 claw
--18 -18 -18 1
-EFIK 0 0 0
-stand stand none 0
-0 0 medium 0
+AB D 48
 #16109
 pelerinli pelerin~
 Pelerinli~
@@ -1765,12 +1225,7 @@ impossible to distinguish from a real cloak.  In the middle of the front is a
 large gaping mouth and two glowing eyespots.
 ~
 unique~
-AB F -999 0
-48 0 25d10+3750 5d5+1000 6d6+18 charge
--18 -18 -18 1
-EFIK 0 0 0
-stand stand none 0
-0 0 medium 0
+AB F 48
 #16110
 insan dövüþçü~
 Lord Rygar~
@@ -1782,12 +1237,7 @@ muscles rippling all over his body.  He sports a long black beard and his
 hair is black.  He looks very evil.
 ~
 human~
-ABT 0 -500 0
-25 0 5d10+550 5d5+1000 2d10+7 slash
--7 -7 -7 4
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABT 0 25
 #16111
 yarý-ork hýrsýz~
 Orak~
@@ -1799,12 +1249,7 @@ dexterity and intelligence has helped him become one of the leading
 thieves in the Underdark.
 ~
 orc~
-ABS 0 -500 0
-26 0 5d10+600 5d5+1000 3d7+7 punch
--7 -7 -7 4
-EIKN 0 0 0
-stand stand male 0
-0 0 medium 0
+ABS 0 26
 #16112
 ýsdarl büyücü~
 Sabrakarn~
@@ -1815,28 +1260,18 @@ politics of his homeland.  He is here to learn new destructive spells so he
 can become the most feared drow in the land
 ~
 human~
-ABR 0 -700 0
-26 0 5d10+600 5d5+1000 3d7+7 punch
--7 -7 -7 4
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABR 0 26
 #16113
-lefur dövüþçü~
+pardus dövüþçü~
 Hangharid~
-Bir lefur dövüþçü yatakta dinleniyor.
+Bir pardus dövüþçü yatakta dinleniyor.
 ~
-This is Hangharid, a naga fighter.  He has vanquished many foes and
+This is Hangharid, a pardus fighter.  He has vanquished many foes and
 all his enemies fear him.  Even though he is a gnome, he has strength that
 rivals that of an ogre.
 ~
-naga~
-ABT 0 -500 0
-24 0 5d10+500 5d5+1000 2d10+6 punch
--6 -6 -6 4
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+pardus~
+ABT 0 24
 #16114
 ýsdarl cleric~
 Sifrim~
@@ -1845,27 +1280,17 @@ Bir ýsdarl cleric baðdaþ kurmuþ yerde oturuyor.
 Sifrim is one of the few powerful drow clerics.  He is dressed all in black
 and stares at your with glowing eyes.  A dangerous fellow by far. ~
 human~
-ABQ 0 -800 0
-25 0 5d10+550 5d5+1000 2d10+7 punch
--7 -7 -7 4
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABQ 0 25
 #16115
-yeg dövüþçü~
+cüce dövüþçü~
 Wismarel~
-Bir yeg dövüþçü kýlýcýný cilalýyor.
+Bir cüce dövüþçü kýlýcýný cilalýyor.
 ~
-This is Wismarel, a yeg fighter.  Wismarel is here to find his fortune
+This is Wismarel, a cüce fighter.  Wismarel is here to find his fortune
 and hopes to find many powerful magical items.
 ~
-human~
-ABT 0 -500 0
-26 0 5d10+600 5d5+1000 3d7+7 punch
--7 -7 -7 4
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+cüce~
+ABT 0 26
 #16116
 insan büyücü~
 Methuen~
@@ -1874,12 +1299,7 @@ Büyücü bir insan sen odaya dalýnca gözlerini açýyor.
 This is Methuen, a mage.  Methuen has come to the Underdark in search
 of magical items to enhance his considerable magical prowess. ~
 human~
-ABR 0 -400 0
-27 0 5d10+650 5d5+1000 5d4+7 slap
--8 -8 -8 4
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABR 0 27
 #16117
 insan dövüþçü~
 Cedrena~
@@ -1890,12 +1310,7 @@ her fighting abilities.  She is also seeking the fabled purple worms of the
 Underdark.
 ~
 human~
-ABT 0 -250 0
-25 0 5d10+550 5d5+1000 2d10+7 slash
--7 -7 -7 4
-EIK 0 0 0
-stand stand female 0
-0 0 medium 0
+ABT 0 25
 #16118
 han bekçisi~
 Han bekçisi~
@@ -1904,12 +1319,7 @@ Han bekçisi senden gelecek emirler için hazýr bekliyor.
 This is the inn keep of the Traveller's Den.  He makes sure everyone gets
 what they want and provides soft beds for those who wish to stay here. ~
 human~
-ABT 0 0 0
-95 10 50d10+22500 5d5+5000 16d15+68 pound
--71 -71 -71 -37
-EFIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABT 0 95
 #16119
 klan üyesi~
 Ýblis klaný üyesi~
@@ -1920,12 +1330,7 @@ dedicated his life to serving the demons of the abyss.  His eyes glow with
 fanatical desire to be one with the demons.
 ~
 human~
-ABG N -500 0
-17 0 3d9+258 5d5+1000 3d4+4 slap
--3 -3 -3 6
-EIKU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABG N 17
 #16120
 iblis klaný büyücüsü~
 Bir iblis klaný büyücüsü~
@@ -1935,12 +1340,7 @@ This is one of the clan mages, he is dressed in flowing red and black robes.
 He is also wearing red and black bracers.
 ~
 human~
-ABGR N -600 0
-21 0 4d10+360 5d5+1000 4d4+5 punch
--5 -5 -5 5
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABGR N 21
 #16121
 iblis klaný dövüþçüsü~
 Bir iblis klaný dövüþçüsü~
@@ -1951,12 +1351,7 @@ black and red platemail.  He wields a glowing blade that seems to be
 possessed by an evil force.
 ~
 human~
-ABT N -900 0
-23 0 5d10+450 5d5+1000 3d6+6 slash
--6 -6 -6 4
-EIKU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABT N 23
 #16122
 iblis çaðýran~
 Ýblis çaðýran~
@@ -1967,12 +1362,7 @@ the power that is coursing through his body as he attempts to bring demons
 to this plane of existence.
 ~
 human~
-ABR N -600 0
-27 0 5d10+650 5d5+1000 5d4+7 slap
--8 -8 -8 4
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABR N 27
 #16123
 cambion~
 The cambion~
@@ -1983,12 +1373,7 @@ stocky and strong.  He has scaly skin and fangs.  Small fangs protrude
 from his head.
 ~
 human~
-ABGT N -999 0
-30 0 6d12+853 5d5+1000 4d6+8 claw
--9 -9 -9 3
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABGT N 30
 #16124
 asil cambion~
 Asil bir cambion~
@@ -2000,12 +1385,7 @@ and dark skin give him away.  He opens his mouth and you notice small
 red fangs instead of teeth.
 ~
 human~
-ABG N -999 0
-35 0 10d10+1300 5d5+1000 4d7+11 pound
--11 -11 -11 3
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABG N 35
 #16125
 klan baþý~
 Irmugar~
@@ -2017,12 +1397,7 @@ support he took control of the clan and now is attempting to open
 permanent gates to the abyss so the demons can come and go as they
 please. ~
 human~
-ABT HN -999 0
-37 0 10d10+1500 5d5+1000 3d10+12 pound
--12 -12 -12 3
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABT HN 37
 #16126
 iblis hezron~
 Hezron~
@@ -2033,12 +1408,7 @@ red.  His eyes glow green in the light.  His skin is smooth and shimmers in
 the light.  He stands about six feet tall and four feet across.  Down his back
 he has spikes and his hands end with large claws. ~
 unique~
-ABF 0 -999 0
-25 0 5d10+550 5d5+1000 2d10+7 slash
--7 -7 -7 4
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABF 0 25
 #16127
 korku ve alev gözü~
 Bir korku ve alev gözü~
@@ -2049,12 +1419,7 @@ face since the interior of the hood is an opaque black screen.  You can
 sense an aura of pure evil emanating from this creature.
 ~
 unique~
-ABG 0 -999 0
-25 0 5d10+550 5d5+1000 2d10+7 slash
--7 -7 -7 4
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABG 0 25
 #16128
 hayalet~
 Hayalet~
@@ -2064,12 +1429,7 @@ This humanoid figure presents a pale, corpse-like appearance, with pallid
 skin drawn tightly over hollow cheekbones; its flesh is unusually cold and
 clammy.  Its eyes - sunken in the face - are dull and heavy lidded. ~
 human~
-ABG 0 -500 0
-25 0 5d10+550 5d5+1000 2d10+7 punch
--7 -7 -7 4
-EIK 0 0 0
-stand stand male 0
-0 0 medium 0
+ABG 0 25
 #16129
 göz katili~
 Göz katili~
@@ -2080,12 +1440,7 @@ stunted wings cannot support flight.  The upper part of its body is a dark
 grey-green while the lower part is a medium green flecked with dull
 yellow. Its eyes are disproportionably large and apparently lidless. ~
 snake~
-ABG 0 -700 0
-24 0 5d10+500 5d5+1000 2d10+6 charge
--6 -6 -6 4
-EF L 0 I
-stand stand none 0
-0 0 medium 0
+ABG 0 24
 #0
 
 
@@ -2689,9 +2044,9 @@ A
 A
 19 2
 #16050
-yeg zýrhý~
-Yeg zýrhý~
-Yeg yapýmý bir göðüs zýrhý burada hazýr bekliyor~
+cüce zýrhý~
+cüce zýrhý~
+cüce yapýmý bir göðüs zýrhý burada hazýr bekliyor~
 brass~
 armor G AD
 5 5 5 0 0
@@ -2699,9 +2054,9 @@ armor G AD
 A
 17 -5
 #16051
-yeg miðferi~
-Bir yeg miðferi~
-Yeg yapýmý bir miðfer burada hazýr bekliyor.~
+cüce miðferi~
+Bir cüce miðferi~
+cüce yapýmý bir miðfer burada hazýr bekliyor.~
 brass~
 armor G AE
 3 3 3 0 0
@@ -2709,9 +2064,9 @@ armor G AE
 A
 17 -3
 #16052
-yeg kalkaný~
-Bir yeg kalkaný~
-Yeg stili bir kalkan burada hazýr bekliyor.~
+cüce kalkaný~
+Bir cüce kalkaný~
+cüce stili bir kalkan burada hazýr bekliyor.~
 brass~
 armor G AJ
 3 3 3 0 0
@@ -2719,8 +2074,8 @@ armor G AJ
 A
 17 -2
 #16053
-yeg bacaklýklarý~
-yeg bacaklýklarý~
+cüce bacaklýklarý~
+cüce bacaklýklarý~
 Bir çift bacaklýk burada hazýr bekliyor.~
 brass~
 armor G AF
@@ -2729,9 +2084,9 @@ armor G AF
 A
 17 -2
 #16054
-yeg bilekliði bileklik~
-Bir yeg bilekliði~
-Yeg stili bir bileklik burada hazýr bekliyor.~
+cüce bilekliði bileklik~
+Bir cüce bilekliði~
+cüce stili bir bileklik burada hazýr bekliyor.~
 silver~
 armor G AM
 6 6 6 0 0
@@ -2795,9 +2150,9 @@ potion 0 A
 15 'detect invis' 'detect magic' 'detect poison' 'detect evil'
 10 2 100 P
 #16062
-naga bacaklýklarý~
-naga bacaklýklarý~
-Bir çift naga bacaklýðý yerde uzanmýþ keþfedilmeyi bekliyor.~
+pardus bacaklýklarý~
+pardus bacaklýklarý~
+Bir çift pardus bacaklýðý yerde uzanmýþ keþfedilmeyi bekliyor.~
 steel~
 armor G AF
 6 6 6 0 0
@@ -12142,9 +11497,9 @@ The street of the gods
 0 -1 16111
 S
 #16361
-Naga Elçiliði Fuayesi~
+Pardus Elçiliði Fuayesi~
 You are standing the foyer of the deep gnome presence in the Underdark.
-The naga maintain this building for their own merchants and people
+The pardus maintain this building for their own merchants and people
 should they come into trouble here.  The building has a low ceiling, about
 seven feet off the ground.  The walls and ground are earthy in colour and
 texture.

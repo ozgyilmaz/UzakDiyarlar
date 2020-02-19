@@ -11,7 +11,7 @@ Maxvnum 7499
 Path 4g a~
 END
 
-#MOBILES
+#NEW_MOBILES
 #7000
 oldstyle mud monster mudmonster~
 the horrifying mudmonster~
@@ -22,12 +22,7 @@ a huge figure made up from mud alone, and it sure looks like it had human
 flesh for breakfast and is strongly intent on having the same for dinner.
 ~
 human~
-AG P -250 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNU 0 0 0
-rest rest none 5
-0 0 medium 0
+AG P 12
 #7001
 oldstyle bat~
 the small bat~
@@ -38,12 +33,7 @@ though it looks rather peaceful, hanging there. The thought of arousing this
 cruel creature doesn't seem appealing.
 ~
 bat~
-AFG P -500 0
-1 0 2d6+10 0d9+100 1d4+0 none
-9 9 9 10
-ENR 0 0 0
-sleep sleep none 0
-0 0 medium 0
+AFG P 1
 #7002
 oldstyle rat~
 the great sewer rat~
@@ -51,12 +41,7 @@ The huge hungry-looking sewer rat sits here.
 ~
 ~
 human~
-AF J -1000 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand male 2
-0 0 medium 0
+AF J 5
 #7003
 oldstyle spider~
 the small spider~
@@ -64,12 +49,7 @@ The small hairy spider.
 ~
 ~
 human~
-AF P -700 0
-1 0 2d6+10 0d9+100 1d4+0 none
-9 9 9 10
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+AF P 1
 #7004
 oldstyle beetle~
 the giant earth beetle~
@@ -77,12 +57,7 @@ The giant mean-looking earth beetle crawls towards you.
 ~
 ~
 human~
-A J -300 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand male 5
-0 0 medium 0
+A J 8
 #7005
 oldstyle maggot~
 the maggot~
@@ -90,12 +65,7 @@ The giant maggot crawls toward you.
 ~
 ~
 human~
-A J 300 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+A J 3
 #7006
 oldstyle snake~
 the slithering snake~
@@ -103,12 +73,7 @@ The snake slithers towards you.
 ~
 ~
 snake~
-AF J -500 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-EFNR 0 0 0
-stand stand none 0
-0 0 medium 0
+AF J 4
 #7007
 oldstyle wanderer~
 the evil wanderer~
@@ -117,12 +82,7 @@ The evil wanderer stares at you.
 The evil wanderer is very thin.  He is dressed in a grey cloak.
 ~
 human~
-ACH J -1000 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand male 15
-0 0 medium 0
+ACH J 10
 #7008
 oldstyle homonculus homo~
 the homonculus~
@@ -133,12 +93,7 @@ greenish, reptilian skin, leathery wings, and a bat-like mouth, with
 teeth gleaming yellow.
 ~
 human~
-A DJ -780 0
-11 0 2d8+134 5d9+100 1d10+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand none 25
-0 0 medium 0
+A DJ 11
 #7010
 oldstyle chreffn~
 the evil chreffn~
@@ -148,12 +103,7 @@ The head and torso of a chreffn is copper-covered, with yellow,
 glowing eyes. The lower body is in an orange shading.
 ~
 human~
-ACH DP -830 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNU 0 0 0
-stand stand none 75
-0 0 medium 0
+ACH DP 12
 #7011
 oldstyle morkoth~
 the shadowy morkoth~
@@ -164,12 +114,7 @@ somewhere between a human and a rat. It breaths very heavily, while staring
 at you with such a glint in the eyes that reminds you of immense hunger.
 ~
 human~
-AFH J -900 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AFH J 10
 #7013
 oldstyle mud monster mudmonster~
 the horrifying mudmonster~
@@ -180,12 +125,7 @@ a huge figure made up from mud alone, and it sure looks like it had human
 flesh for breakfast and is strongly intent on having the same for dinner.
 ~
 human~
-AFG P -250 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNU 0 0 0
-rest rest none 50
-0 0 medium 0
+AFG P 12
 #7040
 red dragon~
 the red dragon~
@@ -196,12 +136,7 @@ arrives.  It says 'Oh, human YOU woke me up ... Hsss', while
 it moves closer.  'Can one NEVER sleep in peace ... Hsss'.
 ~
 dragon~
-ABFZ DJ -1000 0
-35 90 10d10+1350 16d9+100 6d4+19 none
--70 -70 -70 -10
-EFNU 0 0 0
-stand stand none 5000
-0 0 medium 0
+ABFZ DJ 35
 #7041
 oldstyle sea hag~
 the sea hag~
@@ -212,29 +147,19 @@ Big yellow eyes and sharp teeth.  Its ears are very big,
 and it has small sharp horns.  It hates beauty.
 ~
 human~
-AF J -800 0
-14 0 2d10+190 7d9+100 1d12+3 none
--1 -1 -1 8
-EFNU 0 0 0
-stand stand female 0
-0 0 medium 0
+AF J 14
 #7042
-oldstyle guardian naga~
-the guardian naga~
-The guardian naga looks kindly at you.
+oldstyle guardian pardus~
+the guardian pardus~
+The guardian pardus looks kindly at you.
 ~
-The naga are a snake-liked creature. She is covered in green-gold
+The pardus are a snake-liked creature. She is covered in green-gold
 scale with silvery triangles along her back. Her eyes are golden.
 She notice that you look at her, and she says: 'Watch out. This way
 leads to some evil creatures'.
 ~
-human~
-ABQ J 700 0
-12 0 2d10+150 12d9+100 2d4+3 none
-0 0 0 7
-EIKU 0 0 0
-stand stand female 5
-0 0 medium 0
+pardus~
+ABQ J 12
 #7043
 oldstyle basilisk~
 the scaled basilisk~
@@ -245,12 +170,7 @@ toothy jaws. It is dull brown with yellowish underbelly. It's eyes are
 glowing pale green.
 ~
 human~
-ACF DJ -250 0
-13 0 2d10+170 6d9+100 2d5+3 none
--1 -1 -1 8
-EFNU 0 0 0
-stand stand male 17
-0 0 medium 0
+ACF DJ 13
 #7044
 oldstyle lemure blob~
 the lemure blob~
@@ -262,12 +182,7 @@ interested in you at all, but anyway it attacks. It looks like it's
 mind has been burned out.
 ~
 human~
-AF P -500 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AF P 5
 #7045
 oldstyle jones cruncher ettin~
 Jones~
@@ -278,12 +193,7 @@ closer you saw his second head. He wears an animal skin dress,
 filthy and moth eaten. Jones really stinks...
 ~
 human~
-ACF J -480 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-rest rest male 3
-0 0 medium 0
+ACF J 10
 #7046
 oldstyle herald mouse killer ettin~
 Herald~
@@ -294,12 +204,7 @@ and the one of his heads hangs down. At the rope around his stomach
 hangs dead mouses and rats. He does not smell good.
 ~
 human~
-AC J 200 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-rest rest male 2
-0 0 medium 0
+AC J 6
 #7200
 oldstyle master mind mindflayer~
 the master mindflayer~
@@ -310,12 +215,7 @@ black and purple rod above its head as if it was going to attack you any
 moment now. In the middle of its head are four tentacles with sharp points.
 ~
 human~
-ACFR DJ -800 0
-14 0 2d10+170 14d9+100 1d10+2 none
--1 -1 -1 5
-FU 0 0 0
-stand stand none 50
-0 0 medium 0
+ACFR DJ 14
 #7201
 oldstyle senior mind mindflayer~
 the senior mindflayer~
@@ -326,12 +226,7 @@ and carrying a large mace in its hand. In the center of its head are four large
 tentacles with very sharp points.
 ~
 human~
-ACFR DJ -600 0
-8 0 2d6+85 8d9+100 1d6+1 none
-4 4 4 7
-FU 0 0 0
-stand stand none 20
-0 0 medium 0
+ACFR DJ 8
 #7202
 oldstyle junior mind mindflayer~
 the junior mindflayer~
@@ -342,12 +237,7 @@ dressed in purple and black cloth. It has four small tentacles in the
 center of its head.
 ~
 human~
-ACFR DJ -350 0
-6 0 2d6+60 6d9+100 1d6+0 none
-5 5 5 8
-FU 0 0 0
-stand stand none 10
-0 0 medium 0
+ACFR DJ 6
 #7203
 oldstyle wererat rat were~
 the ugly wererat~
@@ -357,12 +247,7 @@ The wererat is about four foot tall. It looks very much like rat, except
 that it is standing.
 ~
 human~
-ACFG J -700 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand none 2
-0 0 medium 0
+ACFG J 6
 #7204
 oldstyle rat gigantic~
 the gigantic rat~
@@ -372,12 +257,7 @@ The gigantic rat is about ten foot long from head to tail and has claws
 the size of your head looking very nasty.
 ~
 human~
-ABF J -800 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNU 0 0 0
-sleep stand male 125
-0 0 medium 0
+ABF J 12
 #0
 
 #OBJECTS

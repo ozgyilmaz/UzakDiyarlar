@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+ 
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -206,7 +218,7 @@ DECLARE_DO_FUN(	do_inventory	);
 DECLARE_DO_FUN(	do_invis	);
 DECLARE_DO_FUN(	do_judge	);
 DECLARE_DO_FUN(	do_katana	);
-DECLARE_DO_FUN(	do_kdg	);
+DECLARE_DO_FUN(	do_kd	);
 DECLARE_DO_FUN(	do_kick		);
 DECLARE_DO_FUN(	do_kill		);
 DECLARE_DO_FUN(	do_lash		);
@@ -224,6 +236,7 @@ DECLARE_DO_FUN(	do_memory	);
 DECLARE_DO_FUN(	do_mfind	);
 DECLARE_DO_FUN(	do_mwhere	);
 DECLARE_DO_FUN( do_mount	);
+DECLARE_DO_FUN( do_mobstat	);
 DECLARE_DO_FUN( do_dismount	);
 DECLARE_DO_FUN(	do_murde	);
 DECLARE_DO_FUN(	do_murder	);
@@ -285,7 +298,6 @@ DECLARE_DO_FUN( do_rename       );
 DECLARE_DO_FUN(	do_rent		);
 DECLARE_DO_FUN( do_repair	);
 DECLARE_DO_FUN( do_replay	);
-DECLARE_DO_FUN(	do_reply	);
 DECLARE_DO_FUN(	do_report	);
 DECLARE_DO_FUN(	do_request	);
 DECLARE_DO_FUN(	do_rescue	);
@@ -309,7 +321,6 @@ DECLARE_DO_FUN(	do_settraps	);
 DECLARE_DO_FUN(	do_sense	);
 DECLARE_DO_FUN(	do_shield	);
 DECLARE_DO_FUN(	do_shoot	);
-DECLARE_DO_FUN(	do_shout	);
 DECLARE_DO_FUN( do_show		);
 DECLARE_DO_FUN(	do_shutdow	);
 DECLARE_DO_FUN(	do_shutdown	);
@@ -343,7 +354,6 @@ DECLARE_DO_FUN(	do_switch	);
 DECLARE_DO_FUN( do_tail		);
 DECLARE_DO_FUN( do_tame         );
 DECLARE_DO_FUN( do_teach	);
-DECLARE_DO_FUN(	do_tell		);
 DECLARE_DO_FUN( do_throw        );
 DECLARE_DO_FUN( do_tick         );
 DECLARE_DO_FUN( do_tiger	);

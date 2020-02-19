@@ -107,7 +107,7 @@ debris.  The gem is still functioning to this day.
 0 $~
 
 
-#MOBILES
+#NEW_MOBILES
 #12300
 Antharian Peace Guard~
 an Antharian Peace Guard~
@@ -117,12 +117,7 @@ A tall Antharian is standing before you.  You have no doubt that this
 being can keep the peace...his presence is enough in itself.
 ~
 human~
-AGT 0 800 0
-25 0 5d10+550 5d5+1000 2d10+7 pound
--7 -7 -7 4
-CDEKLTU 0 C 0
-stand stand male 1000
-0 0 medium 0
+AGT 0 25
 #12302
 Suretin~
 Suretin~
@@ -133,12 +128,7 @@ your respect.  He is here healing people in the name of Anthar, the
 god of the Antharians.
 ~
 human~
-AQ 0 1000 0
-35 0 10d10+1300 5d5+1000 4d7+11 wrath
--11 -11 -11 3
-EFK 0 0 0
-stand stand male 1000
-0 0 medium 0
+AQ 0 35
 #12344
 Ertuvia~
 Ertuvia~
@@ -150,12 +140,7 @@ are artists of war, and he looks like he could paint a very clear
 portrait of death.
 ~
 human~
-ABT 0 800 0
-32 0 10d10+1000 5d5+1000 6d4+9 pound
--10 -10 -10 3
-CDEFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABT 0 32
 #12345
 Heaustf~
 Heaustf~
@@ -167,12 +152,7 @@ passed from generation to generation.  The secret is well kept, and
 rightly so -- for their's is the best.
 ~
 human~
-2|524288 0 500 0
-70 0 50d10+18500 5d5+5000 17d9+60 pound
--60 -60 -60 -27
-CDEFIJK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|524288 0 70
 #12341
 Irghum~
 Irghum~
@@ -183,12 +163,7 @@ sell Antharian food.  He is highly respected, as producing good food
 in this underwater world is not easy.
 ~
 human~
-2 0 500 0
-70 0 50d10+18500 5d5+5000 17d9+60 pound
--60 -60 -60 -27
-CDEFIJK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 70
 #12348
 Cyrtpea~
 Cyrtpea~
@@ -200,12 +175,7 @@ Transformation, and Cyrtpea and her colleages work hard to recover as
 much of this lost magic as possible.
 ~
 human~
-2|1048576 8192 400 0
-65 0 50d10+18500 5d5+5000 17d9+60 pound
--60 -60 -60 -27
-CDEFIJK 0 0 0
-stand stand female 1000
-0 0 medium 0
+2|1048576 8192 65
 #12340
 Zaertses~
 Zaertses~
@@ -218,12 +188,7 @@ councils, which are said to be displayed in a museum inside the
 Temple.
 ~
 human~
-2 0 400 0
-70 0 50d10+18500 5d5+5000 17d9+60 pound
--60 -60 -60 -27
-CEFIJK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 70
 #12323
 High Guard~
 High Guard of Antharia~
@@ -234,12 +199,7 @@ powerful and impressive than the Peace Guards.  These guards are here
 to make sure that law and order is maintained, and so it shall.
 ~
 human~
-1|64 8 250 0
-32 0 10d10+1000 5d5+1000 6d4+9 pound
--10 -10 -10 3
-CDEFIJK 0 0 0
-stand stand male 1000
-0 0 medium 0
+1|64 8 32
 #12303
 Sucker fish~
 a sucker fish~
@@ -251,12 +211,7 @@ Antharians seem to like it.  All in all, these fish are pretty
 content.
 ~
 human~
-1|4|64 0 0 0
-10 0  2d7+121 5d5+100 2d4+2 charge
-1 1 1 7
-0 0 0 0
-stand stand none 1000
-0 0 medium 0
+1|4|64 0 10
 #12309
 Antharian citizen~
 an Antharian citizen~
@@ -269,12 +224,7 @@ looking at every detail.
 daily schedule.
 ~
 human~
-1|64 0 0 0
-15 0 3d9+208 5d5+100 2d6+3 punch
--2 -2 -2 6
-0 0 0 0
-stand stand male 1000
-0 0 medium 0
+1|64 0 15
 #12310
 Antharian citizen~
 an Antharian citizen~
@@ -287,12 +237,7 @@ looking at every detail.
 daily schedule.
 ~
 human~
-1|64 0 0 0
-16 0 3d9+208 5d5+100 2d6+3 punch
--2 -2 -2 6
-0 0 0 0
-stand stand female 1000
-0 0 medium 0
+1|64 0 16
 #12314
 Antharian child~
 an Antharian child~
@@ -303,12 +248,7 @@ right now in life is play.  PLAY PLAY PLAY!   They try to drag you
 into the fray to play with them.
 ~
 human~
-1|64 0 0 0
-9 0 2d6+110 5d5+100 1d8+2 punch
-2 2 2 7
-0 0 0 0
-stand stand male 1000
-0 0 medium 0
+1|64 0 9
 #12315
 Antharian child~
 an Antharian child~
@@ -319,12 +259,7 @@ mind right now is play.  PLAY PLAY PLAY!  They try to drag you into
 their games.
 ~
 human~
-1 0 0 0
-9 0 2d6+110 5d5+100 1d8+2 punch
-2 2 2 7
-0 0 0 0
-stand stand female 1000
-0 0 medium 0
+1 0 9
 #12318
 Antharian Knight~
 an Antharian Knight~
@@ -336,12 +271,7 @@ very mysterious.   It is said that they are knighted in a very intense
 ceremony in the Temple of Anthar.
 ~
 human~
-1 0 0 0
-42 0 25d10+2250 5d5+1000 3d12+14 slash
--14 -14 -14 3
-CDEFIJK 0 0 0
-stand stand male 1000
-0 0 medium 0
+1 0 42
 #12360
 Human Representative~
 a human representative~
@@ -351,12 +281,7 @@ A young human is here looking at you.  She is the representative
 from the human race here in Antharia.
 ~
 human~
-2|32768 0 0 0
-40 0 15d10+1850 5d5+1000 4d8+13 pound
--13 -13 -13 3
-CEFIJ 0 0 0
-stand stand female 1000
-0 0 medium 0
+2|32768 0 40
 #12365
 Dwarven Representative~
 a dwarven representative~
@@ -366,12 +291,7 @@ A young Dwarf is here looking at you.  He is the representative
 from the Dwarven race here in Antharia.
 ~
 dwarf~
-2|65536 0 0 0
-40 0 15d10+1850 5d5+1000 4d8+13 pound
--13 -13 -13 3
-CEFIJK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|65536 0 40
 #12364
 Çora Representative~
 an Çora representative~
@@ -381,12 +301,7 @@ A young çora is here looking at you.  She is the representative from
 the çora race here in Antharia.
 ~
 çora~
-2|1024 0 0 0
-40 0 15d10+1850 5d5+1000 4d8+13 pound
--13 -13 -13 3
-CEFIJK 0 0 0
-stand stand female 1000
-0 0 medium 0
+2|1024 0 40
 #12361
 Druidic Representative~
 a druidic representative~
@@ -396,12 +311,7 @@ A young druid is here looking at you.   He is the representative
 from the druids here in Antharia.
 ~
 human~
-2|8192 0 0 0
-40 0 15d10+1850 5d5+1000 4d8+13 pound
--13 -13 -13 3
-CEFIJK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|8192 0 40
 #12362
 Kender Representative~
 a kender representative~
@@ -411,12 +321,7 @@ A young Kender is standing here looking at you.  She is the
 representative from the Kender race here in Antharia.
 ~
 human~
-2|16384 0 0 0
-40 0 15d10+1850 5d5+1000 4d8+13 pound
--13 -13 -13 3
-CEFIJK 0 0 0
-stand stand female 1000
-0 0 medium 0
+2|16384 0 40
 #12363
 Antharian Representative~
 an antharian representative~
@@ -427,12 +332,7 @@ representative from the Antharian government here to answer questions
 from visitors.
 ~
 human~
-2 0 0 0
-40 0 15d10+1850 5d5+1000 4d8+13 pound
--13 -13 -13 3
-CEFIJKQ 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 40
 #12370
 illithid Representative~
 an illithid representative~
@@ -442,12 +342,7 @@ A young Illithid is standing here looking at you.  She is the
 representative from the Illithid race here in Antharia.
 ~
 human~
-2|16 0 0 0
-40 0 15d10+1850 5d5+1000 4d8+13 pound
--13 -13 -13 3
-CEFIJK 0 0 0
-stand stand female 1000
-0 0 medium 0
+2|16 0 40
 #12371
 avian Representative~
 an avian representative~
@@ -457,13 +352,7 @@ A young avian is standing here looking at you.  She is the
 representative from the avian race here in Antharia.
 ~
 human~
-2|16777216 0 0 0
-40 0 15d10+1850 5d5+1000 4d8+13 pound
--13 -13 -13 3
-CEFIJK 0 0 0
-stand stand female 1000
-0 0 medium 0
-
+2|16777216 0 40
 #0
 
 

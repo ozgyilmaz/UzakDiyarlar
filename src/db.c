@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -429,8 +441,6 @@ void    init_mm         args( ( void ) );
 void	load_areadata	args( ( FILE *fp ) );
 void	load_helps	args( ( FILE *fp ) );
 void    load_omprogs    args( ( FILE *fp ) );
-void	load_old_mob	args( ( FILE *fp ) );
-void 	load_mobiles	args( ( FILE *fp ) );
 void 	load_new_mobiles	args( ( FILE *fp ) );
 void	load_old_obj	args( ( FILE *fp ) );
 void 	load_objects	args( ( FILE *fp ) );
@@ -589,8 +599,6 @@ void boot_db( void )
 		     if ( word[0] == '$'               )                 break;
     else if ( !str_cmp( word, "AREADATA" ) ) load_areadata(fpArea);
 		else if ( !str_cmp( word, "HELPS"    ) ) load_helps   (fpArea);
-		else if ( !str_cmp( word, "MOBOLD"   ) ) load_old_mob (fpArea);
-		else if ( !str_cmp( word, "MOBILES"  ) ) load_mobiles (fpArea);
 		else if ( !str_cmp( word, "NEW_MOBILES"  ) ) load_new_mobiles (fpArea);
 		else if ( !str_cmp( word, "OBJOLD"   ) ) load_old_obj (fpArea);
 	  	else if ( !str_cmp( word, "OBJECTS"  ) ) load_objects (fpArea);
@@ -761,160 +769,6 @@ void load_helps( FILE *fp )
 	help_last	= pHelp;
 	pHelp->next	= NULL;
 	top_help++;
-    }
-
-    return;
-}
-
-
-
-/*
- * Snarf a mob section.  old style
- */
-void load_old_mob( FILE *fp )
-{
-    MOB_INDEX_DATA *pMobIndex;
-    /* for race updating */
-    int race;
-    char name[MAX_STRING_LENGTH];
-
-    for ( ; ; )
-    {
-	sh_int vnum;
-	char letter;
-	int iHash;
-
-	letter				= fread_letter( fp );
-	if ( letter != '#' )
-	{
-	    bug( "Load_old_mobiles: # not found.", 0 );
-	    exit( 1 );
-	}
-
-	vnum				= fread_number( fp );
-	if ( vnum == 0 )
-	    break;
-
-	fBootDb = FALSE;
-	if ( get_mob_index( vnum ) != NULL )
-	{
-	    bug( "Load_old_mobiles: vnum %d duplicated.", vnum );
-	    exit( 1 );
-	}
-	fBootDb = TRUE;
-
-	pMobIndex			= (MOB_INDEX_DATA *)alloc_perm( sizeof(*pMobIndex) );
-	pMobIndex->vnum			= vnum;
-	pMobIndex->new_format		= FALSE;
-	pMobIndex->player_name		= fread_string( fp );
-	pMobIndex->short_descr		= fread_string( fp );
-	pMobIndex->long_descr		= fread_string( fp );
-	pMobIndex->description		= fread_string( fp );
-
-	pMobIndex->long_descr[0]	= UPPER(pMobIndex->long_descr[0]);
-	pMobIndex->description[0]	= UPPER(pMobIndex->description[0]);
-
-	pMobIndex->act			= fread_flag( fp ) | ACT_IS_NPC;
-	pMobIndex->affected_by		= fread_flag( fp );
-	pMobIndex->practicer		= 0;
-
-	/* chronos corrected detection of ROM */
-	if (IS_AFFECTED(pMobIndex,C))	/* detect evil */
-		 SET_BIT(pMobIndex->detection,C);
-	if (IS_AFFECTED(pMobIndex,D))	/* detect invis */
-		 SET_BIT(pMobIndex->detection,D);
-	if (IS_AFFECTED(pMobIndex,E))	/* detect magic */
-		 SET_BIT(pMobIndex->detection,E);
-	if (IS_AFFECTED(pMobIndex,F))	/* detect hidden */
-		 SET_BIT(pMobIndex->detection,F);
-	if (IS_AFFECTED(pMobIndex,G))	/* detect good */
-		 SET_BIT(pMobIndex->detection,G);
-	if (IS_AFFECTED(pMobIndex,Z))	/* dark vision */
-		 SET_BIT(pMobIndex->detection,Z);
-	if (IS_AFFECTED(pMobIndex,ee))	/* acute vision */
-		 SET_BIT(pMobIndex->detection,ee);
-	REMOVE_BIT(pMobIndex->affected_by,(C|D|E|F|G|Z|ee));
-
-	pMobIndex->pShop		= NULL;
-	pMobIndex->alignment		= fread_number( fp );
-	letter				= fread_letter( fp );
-	pMobIndex->level		= fread_number( fp );
-	pMobIndex->mprogs		= NULL;
-	/*
-	 * The unused stuff is for imps who want to use the old-style
-	 * stats-in-files method.
-	 */
-					  fread_number( fp );	/* Unused */
-					  fread_number( fp );	/* Unused */
-					  fread_number( fp );	/* Unused */
-	/* 'd'		*/		  fread_letter( fp );	/* Unused */
-					  fread_number( fp );	/* Unused */
-	/* '+'		*/		  fread_letter( fp );	/* Unused */
-					  fread_number( fp );	/* Unused */
-					  fread_number( fp );	/* Unused */
-	/* 'd'		*/		  fread_letter( fp );	/* Unused */
-					  fread_number( fp );	/* Unused */
-	/* '+'		*/		  fread_letter( fp );	/* Unused */
-					  fread_number( fp );	/* Unused */
-        pMobIndex->wealth               = fread_number( fp )/20;
-	/* xp can't be used! */		  fread_number( fp );	/* Unused */
-	pMobIndex->start_pos		= fread_number( fp );	/* Unused */
-	pMobIndex->default_pos		= fread_number( fp );	/* Unused */
-
-  	if (pMobIndex->start_pos < POS_SLEEPING)
-	    pMobIndex->start_pos = POS_STANDING;
-	if (pMobIndex->default_pos < POS_SLEEPING)
-	    pMobIndex->default_pos = POS_STANDING;
-
-	/*
-	 * Back to meaningful values.
-	 */
-	pMobIndex->sex			= fread_number( fp );
-
-    	/* compute the race BS */
-   	one_argument(pMobIndex->player_name,name);
-
-   	if (name[0] == '\0' || (race =  race_lookup(name)) == 0)
-   	{
-            /* fill in with blanks */
-            pMobIndex->race = race_lookup("human");
-            pMobIndex->detection = race_table[pMobIndex->race].det;
-            pMobIndex->affected_by =
-		pMobIndex->affected_by | race_table[pMobIndex->race].aff;
-            pMobIndex->off_flags = OFF_DODGE|OFF_DISARM|OFF_TRIP|ASSIST_VNUM;
-            pMobIndex->imm_flags = 0;
-            pMobIndex->res_flags = 0;
-            pMobIndex->vuln_flags = 0;
-            pMobIndex->form = FORM_EDIBLE|FORM_SENTIENT|FORM_BIPED|FORM_MAMMAL;
-            pMobIndex->parts = PART_HEAD|PART_ARMS|PART_LEGS|PART_HEART|
-                               PART_BRAINS|PART_GUTS;
-    	}
-    	else
-    	{
-            pMobIndex->race = race;
-            pMobIndex->detection = race_table[race].det;
-            pMobIndex->affected_by =
-			pMobIndex->affected_by | race_table[race].aff;
-            pMobIndex->off_flags = OFF_DODGE|OFF_DISARM|OFF_TRIP|ASSIST_RACE|
-                                   race_table[race].off;
-            pMobIndex->imm_flags = race_table[race].imm;
-            pMobIndex->res_flags = race_table[race].res;
-            pMobIndex->vuln_flags = race_table[race].vuln;
-            pMobIndex->form = race_table[race].form;
-            pMobIndex->parts = race_table[race].parts;
-    	}
-
-	if ( letter != 'S' )
-	{
-	    bug( "Load_old_mobiles: vnum %d non-S.", vnum );
-	    exit( 1 );
-	}
-
-	iHash			= vnum % MAX_KEY_HASH;
-	pMobIndex->next		= mob_index_hash[iHash];
-	mob_index_hash[iHash]	= pMobIndex;
-	top_mob_index++;
-	kill_table[URANGE(0, pMobIndex->level, MAX_LEVEL-1)].number++;
     }
 
     return;
@@ -1954,8 +1808,6 @@ void reset_area( AREA_DATA *pArea )
 CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )
 {
     CHAR_DATA *mob;
-    int i;
-    AFFECT_DATA af;
 
     mobile_count++;
 
@@ -1986,195 +1838,142 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )
     mob->iclass		= CLASS_CLERIC;
 
 
-    if (pMobIndex->wealth == 0)
+  if (pMobIndex->wealth == 0)
+  {
+    mob->silver = 0;
+    mob->gold   = 0;
+  }
+  else
+  {
+    long wealth;
+
+    wealth = number_range(pMobIndex->wealth/2, 3 * pMobIndex->wealth/2);
+    mob->gold = number_range(wealth/200,wealth/100);
+    mob->silver = wealth - (mob->gold * 100);
+  }
+
+  mob = create_ud_format_mobile( mob, pMobIndex );
+
+  /* link the mob to the world list */
+  mob->next		= char_list;
+  char_list		= mob;
+  pMobIndex->count++;
+  return mob;
+}
+
+CHAR_DATA * create_ud_format_mobile(CHAR_DATA *mob,MOB_INDEX_DATA *pMobIndex)
+{
+  AFFECT_DATA af;
+  int i;
+
+  mob->act 		= pMobIndex->act | ACT_IS_NPC;
+  mob->comm		= COMM_NOCHANNELS|COMM_NOSHOUT|COMM_NOTELL;
+  mob->affected_by	= pMobIndex->affected_by;
+  mob->detection		= pMobIndex->detection;
+  mob->alignment		= number_range(-1000,1000);
+  mob->level		= pMobIndex->level;
+  mob->hitroll		= hitroll_damroll_hesapla(pMobIndex->level);
+  mob->damroll		= hitroll_damroll_hesapla(pMobIndex->level);
+  mob->max_hit		= number_range( yp_tablo[ pMobIndex->level ].min_yp , yp_tablo[ pMobIndex->level ].max_yp );
+  mob->hit		= mob->max_hit;
+  mob->max_mana		= number_range( yp_tablo[ pMobIndex->level ].min_yp , yp_tablo[ pMobIndex->level ].max_yp );
+  mob->mana		= mob->max_mana;
+  mob->damage[DICE_NUMBER]= damage_dice_0(pMobIndex->level);
+  mob->damage[DICE_TYPE]	= damage_dice_1(pMobIndex->level);
+  mob->damage[DICE_BONUS]	= damage_dice_2(pMobIndex->level);
+  mob->dam_type		= dam_type_dice();
+  mob->status		= 0;
+  if (mob->dam_type == 0)
+    switch(number_range(1,3))
     {
-	mob->silver = 0;
-	mob->gold   = 0;
+    case (1): mob->dam_type = 3;        break;  /* slash */
+    case (2): mob->dam_type = 7;        break;  /* pound */
+    case (3): mob->dam_type = 11;       break;  /* pierce */
     }
-    else
-    {
-	long wealth;
+  for (i = 0; i < 4; i++)
+    mob->armor[i]	= pMobIndex->ac[i];
+  mob->armor[AC_PIERCE]	= ac_dice(AC_PIERCE,pMobIndex->level);
+	mob->armor[AC_BASH]		= ac_dice(AC_BASH,pMobIndex->level);
+	mob->armor[AC_SLASH]		= ac_dice(AC_SLASH,pMobIndex->level);
+	mob->armor[AC_EXOTIC]	= ac_dice(AC_EXOTIC,pMobIndex->level);
 
-	wealth = number_range(pMobIndex->wealth/2, 3 * pMobIndex->wealth/2);
-	mob->gold = number_range(wealth/200,wealth/100);
-	mob->silver = wealth - (mob->gold * 100);
-    }
+  mob->off_flags		= race_table[pMobIndex->race].off;
+	mob->imm_flags		= race_table[pMobIndex->race].imm;
+	mob->res_flags		= race_table[pMobIndex->race].res;
+	mob->vuln_flags		= race_table[pMobIndex->race].vuln;
 
-    if (pMobIndex->new_format)
-    /* load in new style */
-    {
-	/* read from prototype */
- 	mob->group		= pMobIndex->group;
-	mob->act 		= pMobIndex->act | ACT_IS_NPC;
-	mob->comm		= COMM_NOCHANNELS|COMM_NOSHOUT|COMM_NOTELL;
-	mob->affected_by	= pMobIndex->affected_by;
-	mob->detection		= pMobIndex->detection;
-	mob->alignment		= pMobIndex->alignment;
-	mob->level		= pMobIndex->level;
-	mob->hitroll		= (mob->level / 2) + pMobIndex->hitroll;
-	mob->damroll		= pMobIndex->damage[DICE_BONUS];
-	mob->max_hit		= dice(pMobIndex->hit[DICE_NUMBER],
-				       pMobIndex->hit[DICE_TYPE])
-				  + pMobIndex->hit[DICE_BONUS];
-	mob->hit		= mob->max_hit;
-	mob->max_mana		= dice(pMobIndex->mana[DICE_NUMBER],
-				       pMobIndex->mana[DICE_TYPE])
-				  + pMobIndex->mana[DICE_BONUS];
-	mob->mana		= mob->max_mana;
-	mob->damage[DICE_NUMBER]= pMobIndex->damage[DICE_NUMBER];
-	mob->damage[DICE_TYPE]	= pMobIndex->damage[DICE_TYPE];
-	mob->dam_type		= pMobIndex->dam_type;
+  mob->start_pos		= position_dice();
+  mob->default_pos		= position_dice();
+  mob->sex				= sex_dice();
 
-	mob->status		= 0;
-        if (mob->dam_type == 0)
-    	    switch(number_range(1,3))
-            {
-                case (1): mob->dam_type = 3;        break;  /* slash */
-                case (2): mob->dam_type = 7;        break;  /* pound */
-                case (3): mob->dam_type = 11;       break;  /* pierce */
-            }
-	for (i = 0; i < 4; i++)
-	    mob->armor[i]	= pMobIndex->ac[i];
-	mob->off_flags		= pMobIndex->off_flags;
-	mob->imm_flags		= pMobIndex->imm_flags;
-	mob->res_flags		= pMobIndex->res_flags;
-	mob->vuln_flags		= pMobIndex->vuln_flags;
-	mob->start_pos		= pMobIndex->start_pos;
-	mob->default_pos	= pMobIndex->default_pos;
-	mob->sex		= pMobIndex->sex;
-        if (mob->sex == 3) /* random sex */
-            mob->sex = number_range(1,2);
-	mob->race		= pMobIndex->race;
-	mob->form		= pMobIndex->form;
-	mob->parts		= pMobIndex->parts;
-	mob->size		= pMobIndex->size;
-	mob->material		= str_dup(pMobIndex->material);
-        mob->progtypes		= pMobIndex->progtypes;
-	mob->extracted		= FALSE;
-
-	mob = mob_assign_perm_stats(mob);
-
-        mob->perm_stat[STAT_STR] += mob->size - SIZE_MEDIUM;
-        mob->perm_stat[STAT_CON] += (mob->size - SIZE_MEDIUM) / 2;
-
-	/* let's get some spell action */
-	if (IS_AFFECTED(mob,AFF_SANCTUARY))
-	{
-	    af.where	 = TO_AFFECTS;
-	    af.type      = skill_lookup("sanctuary");
-	    af.level     = mob->level;
-	    af.duration  = -1;
-	    af.location  = APPLY_NONE;
-	    af.modifier  = 0;
-	    af.bitvector = AFF_SANCTUARY;
-	    affect_to_char( mob, &af );
-	}
-
-	if (IS_AFFECTED(mob,AFF_HASTE))
-	{
-	    af.where	 = TO_AFFECTS;
-	    af.type      = skill_lookup("haste");
-    	    af.level     = mob->level;
-      	    af.duration  = -1;
-    	    af.location  = APPLY_DEX;
-    	    af.modifier  = 1 + (mob->level >= 18) + (mob->level >= 25) +
-			   (mob->level >= 32);
-    	    af.bitvector = AFF_HASTE;
-    	    affect_to_char( mob, &af );
-	}
-
-	if (IS_AFFECTED(mob,AFF_PROTECT_EVIL))
-	{
-	    af.where	 = TO_AFFECTS;
-	    af.type	 = skill_lookup("protection evil");
-	    af.level	 = mob->level;
-	    af.duration	 = -1;
-	    af.location	 = APPLY_SAVES;
-	    af.modifier	 = -1;
-	    af.bitvector = AFF_PROTECT_EVIL;
-	    affect_to_char(mob,&af);
-	}
-
-        if (IS_AFFECTED(mob,AFF_PROTECT_GOOD))
-        {
-	    af.where	 = TO_AFFECTS;
-            af.type      = skill_lookup("protection good");
-            af.level     = mob->level;
-            af.duration  = -1;
-            af.location  = APPLY_SAVES;
-            af.modifier  = -1;
-            af.bitvector = AFF_PROTECT_GOOD;
-            affect_to_char(mob,&af);
-        }
-    }
-    else /* read in old format and convert */
-    {
-	mob->act		= pMobIndex->act;
-	mob->affected_by	= pMobIndex->affected_by;
-	mob->detection		= pMobIndex->detection;
-	mob->alignment		= pMobIndex->alignment;
-	mob->level		= pMobIndex->level;
-	mob->hitroll		= UMAX(pMobIndex->hitroll,pMobIndex->level/4);
-	mob->damroll		= pMobIndex->level /2 ;
-	if (mob->level < 30)
-	mob->max_hit		= mob->level * 20 + number_range(
-					mob->level ,
-					mob->level * 5);
-	else if (mob->level < 60)
-	mob->max_hit		= mob->level * 50 + number_range(
-					mob->level * 10,
-					mob->level * 50);
-	else
-	mob->max_hit		= mob->level * 100 + number_range(
-					mob->level * 20,
-					mob->level * 100);
-	if (IS_SET(mob->act,ACT_MAGE | ACT_CLERIC))
-		mob->max_hit *= 10/9;
-	mob->hit		= mob->max_hit;
-	mob->max_mana		= 100 + dice(mob->level,10);
-	mob->mana		= mob->max_mana;
-	switch(number_range(1,3))
-	{
-	    case (1): mob->dam_type = 3; 	break;  /* slash */
-	    case (2): mob->dam_type = 7;	break;  /* pound */
-	    case (3): mob->dam_type = 11;	break;  /* pierce */
-	}
-	for (i = 0; i < 3; i++)
-	    mob->armor[i]	= interpolate(mob->level,100,-100);
-	mob->armor[3]		= interpolate(mob->level,100,0);
-	mob->race		= pMobIndex->race;
-	mob->off_flags		= pMobIndex->off_flags;
-	mob->imm_flags		= pMobIndex->imm_flags;
-	mob->res_flags		= pMobIndex->res_flags;
-	mob->vuln_flags		= pMobIndex->vuln_flags;
-	mob->start_pos		= pMobIndex->start_pos;
-	mob->default_pos	= pMobIndex->default_pos;
-	mob->sex		= pMobIndex->sex;
-	mob->form		= pMobIndex->form;
-	mob->parts		= pMobIndex->parts;
-	mob->size		= SIZE_MEDIUM;
-	mob->material		= (char*)"";
-	mob->extracted		= FALSE;
-
+  mob->race		= pMobIndex->race;
+  mob->form		= race_table[pMobIndex->race].form;
+  mob->parts		= race_table[pMobIndex->race].parts;
+  mob->size		= race_table[pMobIndex->race].size;
+  mob->material		= str_dup("none");
+  mob->progtypes		= 0;
+  mob->extracted		= FALSE;
   mob = mob_assign_perm_stats(mob);
 
-    }
+  /* let's get some spell action */
+  if (IS_AFFECTED(mob,AFF_SANCTUARY))
+  {
+    af.where	 = TO_AFFECTS;
+    af.type      = skill_lookup("sanctuary");
+    af.level     = mob->level;
+    af.duration  = -1;
+    af.location  = APPLY_NONE;
+    af.modifier  = 0;
+    af.bitvector = AFF_SANCTUARY;
+    affect_to_char( mob, &af );
+  }
 
-    mob->position = mob->start_pos;
+  if (IS_AFFECTED(mob,AFF_HASTE))
+  {
+    af.where	 = TO_AFFECTS;
+    af.type      = skill_lookup("haste");
+    af.level     = mob->level;
+    af.duration  = -1;
+    af.location  = APPLY_DEX;
+    af.modifier  = 1 + (mob->level >= 18) + (mob->level >= 25) + (mob->level >= 32);
+    af.bitvector = AFF_HASTE;
+    affect_to_char( mob, &af );
+  }
 
+  if (IS_AFFECTED(mob,AFF_PROTECT_EVIL))
+  {
+    af.where	 = TO_AFFECTS;
+    af.type	 = skill_lookup("protection evil");
+    af.level	 = mob->level;
+    af.duration	 = -1;
+    af.location	 = APPLY_SAVES;
+    af.modifier	 = -1;
+    af.bitvector = AFF_PROTECT_EVIL;
+    affect_to_char(mob,&af);
+  }
 
-    if (mob->gold > mob->level)
-	mob->gold = dice(6, mob->level);
+  if (IS_AFFECTED(mob,AFF_PROTECT_GOOD))
+  {
+    af.where	 = TO_AFFECTS;
+    af.type      = skill_lookup("protection good");
+    af.level     = mob->level;
+    af.duration  = -1;
+    af.location  = APPLY_SAVES;
+    af.modifier  = -1;
+    af.bitvector = AFF_PROTECT_GOOD;
+    affect_to_char(mob,&af);
+  }
 
-    /* link the mob to the world list */
-    mob->next		= char_list;
-    char_list		= mob;
-    pMobIndex->count++;
-    return mob;
+  mob->position = mob->start_pos;
+  if (mob->gold > mob->level)
+    mob->gold = dice(6, mob->level);
+
+  return mob;
 }
 
 CHAR_DATA * mob_assign_perm_stats(CHAR_DATA* mob)
 {
+  int i;
   for (i = 0; i < MAX_STATS; i ++)
         mob->perm_stat[i] = UMIN(25,11 + mob->level/4);
 
@@ -2227,7 +2026,6 @@ void clone_mobile(CHAR_DATA *parent, CHAR_DATA *clone)
     clone->short_descr	= str_dup(parent->short_descr);
     clone->long_descr	= str_dup(parent->long_descr);
     clone->description	= str_dup(parent->description);
-    clone->group	= parent->group;
     clone->sex		= parent->sex;
     clone->iclass	= parent->iclass;
     clone->race		= parent->race;
@@ -3622,7 +3420,6 @@ int interpolate( int level, int value_00, int value_32 )
 {
     return value_00 + level * (value_32 - value_00) / 32;
 }
-
 
 
 /*

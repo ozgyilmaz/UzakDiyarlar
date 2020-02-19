@@ -11,7 +11,7 @@ Maxvnum 7799
 Path k 2y k 2y~
 END
 
-#MOBILES
+#NEW_MOBILES
 #7700
 semavi muhafýz~
 semavi muhafýz~
@@ -22,12 +22,7 @@ Gri bir silüet semavi düzlemin giriþini koruyor.
 görünüyor.
 ~
 human~
-ABT DFHN 0 0
-37 0 10d10+1500 18d9+100 3d10+12 none
--12 -12 -12 5
-EFNU 0 0 0
-stand stand none 5000
-0 0 medium 0
+ABT DFHN 37
 #7701
 kabus~
 zifiri siyah bir kabus~
@@ -39,12 +34,7 @@ varlýðýn derisinin rengi en karanlýk geceden daha siyah ve toynaklarý
 alevler içinde.
 ~
 human~
-AD DJT -950 0
-18 0 3d9+283 9d9+100 2d7+4 none
--3 -3 -3 7
-EFNU 0 0 0
-stand stand none 300
-0 0 medium 0
+AD DJT 18
 #7702
 gece acuze~
 kötü bir gece acuzesi~
@@ -55,12 +45,7 @@ Uðursuz efendisine iþkence etmesi için ölümlüleri avlayan ve ruhlarýný
 pençeler ve yüzünde kem bir gülümseme var.
 ~
 human~
-ADFR DJ -1000 0
-24 0 5d10+450 24d9+100 4d4+5 none
--6 -6 -6 2
-FU 0 0 0
-stand stand female 625
-0 0 medium 0
+ADFR DJ 24
 #7703
 görünmez avcý~
 görünmez bir avcý~
@@ -70,12 +55,7 @@ Tek gördüðün, havadaki dalgalý bozulma. Dokunmak için uzanýyorsun ve
 hiçbir þey hissetmiyorsun, en küçük bir hareket bile yok.
 ~
 human~
-AD BT 200 0
-17 0 3d9+258 8d9+100 3d4+4 none
--3 -3 -3 7
-EFNU 0 0 0
-stand stand none 50
-0 0 medium 0
+AD BT 17
 #7704
 ruhsuz varlýk~
 zavallý, ruhsuz bir varlýk~
@@ -85,12 +65,7 @@ Bu þanssýz varlýðýn ruhu bedeninden çekip alýnmýþ. Þimdi ise etrafýnda
 olan bitenin farkýnda olmadan etrafta dolaþýyor.
 ~
 human~
-A 0 0 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand none 12
-0 0 medium 0
+A 0 10
 #7705
 gayomart avcý~
 bir gayomart avcý~
@@ -101,12 +76,7 @@ görüyorsun. Tüm gayomartlar gibi, diþleri sivri ve keskin, gözleri çökmüþ ve
 fersiz.
 ~
 human~
-ACS DFJP -500 0
-11 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 7
-BEFJNU 0 0 0
-stand stand male 50
-0 0 medium 0
+ACS DFJP 11
 #7706
 gayomart savaþçý~
 bir gayomart savaþçýsý~
@@ -118,12 +88,7 @@ fersiz. Güçlendirilmiþ, süslü zýrhlar ve havada boynuna doðru savrulurken
 ýslýk sesleri çýkaran bir kýlýç kuþanmýþ.
 ~
 human~
-A J -500 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand male 125
-0 0 medium 0
+A J 15
 #7707
 gayomart muhafýz~
 bir gayomart muhafýzý~
@@ -135,12 +100,7 @@ fersiz. Güçlendirilmiþ, süslü zýrhlar ve havada boynuna doðru savrulurken
 ýslýk sesleri çýkaran bir kýlýç kuþanmýþ.
 ~
 human~
-ABF J -500 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand male 300
-0 0 medium 0
+ABF J 15
 #7708
 gayomart þövalye~
 bir gayomart þövalyesi~
@@ -152,12 +112,7 @@ takýmý tarafýndan gizlenmiþ -- sadece nefes alýp veriþini ve kýnýndan
 çekilen bir kýlýcýn sesini duyuyorsun.
 ~
 human~
-A J -500 0
-25 0 5d10+550 12d9+100 2d10+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand male 500
-0 0 medium 0
+A J 25
 #7709
 gayomart koruyucu~
 bir gayomart koruyucusu~
@@ -169,12 +124,7 @@ takýmý tarafýndan gizlenmiþ -- sadece nefes alýp veriþini ve kýnýndan
 çekilen bir kýlýcýn sesini duyuyorsun.
 ~
 human~
-ABF J -500 0
-25 0 5d10+550 12d9+100 2d10+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand male 500
-0 0 medium 0
+ABF J 25
 #7710
 gayomart giþ~
 kem bir kiþ~
@@ -186,12 +136,7 @@ fersiz. Giþler diðer gayomartlardan farklý olarak, büyü sanatlarýnda
 ustadýrlar. Bunu üzerine doðru gelen bir yýldýrýmdan anlayabiliyorsun.
 ~
 human~
-AR J -500 0
-11 0 2d7+121 11d9+100 1d7+2 none
-1 1 1 6
-FU 0 0 0
-stand stand male 150
-0 0 medium 0
+AR J 11
 #7711
 gayomart giþ~
 kem bir giþ~
@@ -203,12 +148,7 @@ fersiz. Giþler diðer gayomartlardan farklý olarak, büyü sanatlarýnda
 ustadýrlar. Bunu üzerine doðru gelen bir yýldýrýmdan anlayabiliyorsun.
 ~
 human~
-ACFR J -500 0
-11 0 2d7+121 11d9+100 1d7+2 none
-1 1 1 6
-FU 0 0 0
-stand stand male 150
-0 0 medium 0
+ACFR J 11
 #7712
 gayomart büyücü~
 bir gayomart büyücü~
@@ -220,12 +160,7 @@ fersiz. Kaçmak için arkaný döndüðünde, arkanda bir alev topunun gücünü
 hissediyorsun.
 ~
 human~
-AFR DEJ -500 0
-20 0 3d9+308 20d9+100 3d4+4 none
--4 -4 -4 3
-FU 0 0 0
-stand stand male 500
-0 0 medium 0
+AFR DEJ 20
 #7713
 gayomart ölü kam kraliçe~
 ölü kam kraliçe~
@@ -237,12 +172,7 @@ boyutunun güçleri sayesinde hala bir arada duruyor. Fersiz gözlerindeki buz
 gibi bakýþ seni bir korku nöbeti geçirmeni saðlýyor.
 ~
 human~
-ABF DEFHJ -750 0
-30 0 6d12+853 15d9+100 4d6+8 none
--9 -9 -9 6
-EFNU 0 0 0
-stand stand female 5000
-0 0 medium 0
+ABF DEFHJ 30
 #7714
 lord gith~
 lord gith~
@@ -256,12 +186,7 @@ duruyor. Sana doðru elini uzatýyor. Kalbinin teklemeye baþladýðýný ve
 boynunun sýkýþtýðýný hissetmeye baþlýyorsun. Ölmek üzeresin.
 ~
 human~
-ABF BDFHJ -900 0
-35 0 10d10+1300 17d9+100 4d7+11 none
--11 -11 -11 5
-EFNU 0 0 0
-stand stand male 250
-0 0 medium 0
+ABF BDFHJ 35
 #7715
 hayalet~
 güçsüz bir hayalet~
@@ -275,12 +200,7 @@ olmak üzere karþýsýna çýkan tüm gerçekten yaþayan varlýklarý yok etmeyi
 kendine amaç edinmiþ.
 ~
 human~
-A JTU -1000 0
-16 0 3d9+233 8d9+100 2d6+4 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand none 50
-0 0 medium 0
+A JTU 16
 #7716
 githzerai mahkum~
 hapsedilmiþ bir githzerai~
@@ -293,12 +213,7 @@ gayomartlar düþman olduklarýndan, bu kiþi burada esir düþmüþ durumda.
 Kaçmayý düþünüyor gibi.
 ~
 human~
-A J -250 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+A J 10
 #7717
 zihinyüzücü mahkum~
 iþkence görmüþ bir zihinyüzücü mahkumu~
@@ -310,12 +225,7 @@ Kamburu çýkmýþ, her tarafý gayomartlar tarafýndan gördüðü iþkenceler
 yüzünden yara bere ile kaplý. Seni görünce köþeye siniyor.
 ~
 human~
-ABR 0 0 0
-8 0 2d6+85 8d9+100 1d6+1 none
-4 4 4 7
-FU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABR 0 8
 #7718
 ejderha kýrmýzý köle~
 köle edilmiþ bir kýrmýzý ejderha~
@@ -328,12 +238,7 @@ bir o kadar da geniþ bir kanat açýklýðý var. Açýk aðzýndan dumanlar
 süzülürken seni izliyor.
 ~
 dragon~
-ABR D -400 0
-28 0 5d10+650 28d9+100 2d10+7 none
--8 -8 -8 1
-FR 0 0 0
-stand stand male 250
-0 0 medium 0
+ABR D 28
 #7719
 ateþ fýrýn alev~
 büyük bir ateþ patlamasý~
@@ -343,13 +248,9 @@ Ateþ canlýymýþçasýna derinle besleniyor ve saçlarýnýn arasýný yalayarak
 geçiyor.
 ~
 human~
-ABDF J 0 0
-13 0 2d10+170 6d9+100 2d5+3 none
--1 -1 -1 8
-EFNU 0 0 0
-stand stand none 250
-0 0 medium 0
+ABDF J 13
 #0
+
 #OBJECTS
 #7700
 balyoz gri~

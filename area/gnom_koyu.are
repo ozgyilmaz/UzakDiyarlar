@@ -11,7 +11,7 @@ Maxvnum 1599
 Path 8d g~
 END
 
-#MOBILES
+#NEW_MOBILES
 #1500
 gnom çocuk~
 bir gnom çocuk~
@@ -21,12 +21,7 @@ Bu küçük ve neþeli çocuk bumerangýyla öyle masum oynuyorki onu kucaklayýp
 kollarýnla sýký sýký sarmak istiyorsun.
 ~
 human~
-ACE 0 600 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNU 0 0 0
-stand stand male 2
-0 0 medium 0
+ACE 0 3
 #1501
 kadýn gnom~
 bir kadýn gnom~
@@ -36,12 +31,7 @@ Bir kadýn gnom burada, güzel gözükmeye çalýþýyor.
 Seni etkilemek için güzel görünmeye dikkat ediyor  ...
 ~
 human~
-ACE 0 600 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand female 25
-0 0 medium 0
+ACE 0 5
 #1502
 erkek gnom~
 bir erkek gnom~
@@ -51,12 +41,7 @@ Tam bir gnom örneði.Kýsa ve güçsüz gözüküyor ama ayný zamanda seni
 aldatabilecek kadar zeki.
 ~
 human~
-AC 0 500 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 22
-0 0 medium 0
+AC 0 6
 #1503
 gnom mucit~
 bir gnom mucit~
@@ -66,12 +51,7 @@ Bir gnom mucidi burada,derin düþünceler içinde görünüyor.
  Saçlarý bembeyaz ama oldukça güçlü gözüküyor.
 ~
 human~
-ABCR 0 500 0
-7 0 2d7+71 7d9+100 1d5+1 none
-4 4 4 7
-FU 0 0 0
-stand stand male 50
-0 0 medium 0
+ABCR 0 7
 #1504
 gnom muhafýz~
 bir gnom muhafýz~
@@ -81,12 +61,7 @@ Bir gnom muhafýz burada bir þeyleri koruyor.
 yeteneði bu açýðýný kapatýyor.
 ~
 human~
-AB 0 400 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand male 75
-0 0 medium 0
+AB 0 8
 #1505
 gnom lideri~
 gnom lideri~
@@ -96,12 +71,7 @@ Lider seni çok fena dövebilecekmiþ gibi gözüküyor.  Sadece güçlü deðil
 ayný zamanda bilge ve becerikli.  Onunla uðraþmasan iyi olur.
 ~
 human~
-ABQ 0 550 0
-15 0 3d9+208 15d9+100 2d5+3 none
--2 -2 -2 6
-EIKU 0 0 0
-stand stand male 400
-0 0 medium 0
+ABQ 0 15
 #1507
 küçük asura~
 küçük bir asura~
@@ -111,12 +81,7 @@ Suratý insana benzeyen ama gözleri ve diþleri hahþi bir hayvaný andýran
 kýsa ve týknaz bir asura.
 ~
 asura~
-ABCF 0 -900 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNR 0 0 0
-stand stand male 40
-0 0 medium 0
+ABCF 0 8
 #1508
 tarla faresi~
 bir tarla faresi~
@@ -125,12 +90,7 @@ Bir tarla faresi ayaklarýndan kaçýyor.
 Bu fare küçük ve sevimli bir yaratýk.
 ~
 human~
-ABCI 0 100 0
-1 0 2d6+10 0d9+100 1d4+0 none
-9 9 9 10
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABCI 0 1
 #1509
 sýçan~
 bir sýçan~
@@ -139,12 +99,7 @@ Bir sýçan çýðlýklar atarak etrafýnda dolaþýyor.
 Ölümü hakeden çirkin ve kötü bir yaratýk.
 ~
 human~
-AC 0 -200 0
-2 0 2d7+21 1d9+100 1d5+0 none
-8 8 8 10
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+AC 0 2
 #1510
 büyük sýçan~
 büyük bir sýçan~
@@ -153,12 +108,7 @@ Büyük bir sýçan sana koþup botlarýný kemirmeye baþlýyor.
 içinde bu rezil yaratýðý öldürme dürtüsü var.
 ~
 human~
-AC 0 -200 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+AC 0 4
 #1511
 dev sýçan~
 dev bir sýçan~
@@ -167,12 +117,7 @@ Dev bir sýçan homurtular çýkararak sana saldýrmaya hazýrlanýyor.
 Ortalama bir köpek kadar büyük bir sýçan görüyorsun.
 ~
 human~
-AC 0 -200 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 1
-0 0 medium 0
+AC 0 6
 #1512
 dev asura~
 dev asura~
@@ -182,12 +127,7 @@ Canlý ve kocaman bir vücudu var. Güçlü kolunu seni ezmek için
 kaldýrdýðýnda korkudan büzülüyorsun.
 ~
 asura~
-ABF 0 -800 0
-14 0 2d10+190 7d9+100 1d12+3 none
--1 -1 -1 8
-EFNR 0 0 0
-stand stand male 450
-0 0 medium 0
+ABF 0 14
 #1513
 siyah yarasa~
 siyah bir yarasa~
@@ -196,12 +136,7 @@ Siyah bir yarasa tavandan sarkýyor.
 Büyük kanatlarý ve diþleriyle küçük ve acayip bir yarasa.
 ~
 bat~
-A 0 -500 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-ENR 0 0 0
-stand stand none 0
-0 0 medium 0
+A 0 5
 #1514
 zombi gnom~
 zombi gnom~
@@ -211,12 +146,7 @@ Yýllar önce hayatýný kaybetmiþ bir yaratýk.Bedeni bazý kötü güçler
 tarafýndan yerinden çýkarýlmýþ.
 ~
 human~
-A 0 -700 0
-7 0 2d6+85 3d9+100 1d8+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand none 34
-0 0 medium 0
+A 0 7
 #1515
 ateþ yarasasý~
 ateþ yarasasý~
@@ -226,12 +156,7 @@ Biçimi büyük bir yarasayý andýran bir alev görüyorsun.  Yaratýk tavandan
 sarkmýþ bir halde seni ýsýrmaya hazýrlanýyor.
 ~
 bat~
-ABCF D -900 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-ENR 0 0 0
-stand stand male 300
-0 0 medium 0
+ABCF D 12
 #1516
 hobgoblin muhafýz~
 hobgoblin muhafýz~
@@ -241,12 +166,7 @@ Hobgoblin muhafýzý düþünmeden sana saldýrýyor.
 þekilde gülümserken seni ezmeye çalýþýyor.
 ~
 human~
-ABF 0 -700 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 37
-0 0 medium 0
+ABF 0 6
 #1517
 hobgoblin asker~
 hobgoblin asker~
@@ -256,12 +176,7 @@ Seçkin muhafýzlarýn arasýna katýlamamýþ ortalama bir goblin.
 Korkmuþ gözüküyor.
 ~
 human~
-ABF 0 -600 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNU 0 0 0
-stand stand male 10
-0 0 medium 0
+ABF 0 3
 #1518
 hobgoblin koruyucu~
 hobgoblin koruyucu~
@@ -271,12 +186,7 @@ Seçkin hobgoblin muhafýzlarýndan birini görüyorsun. Uzun boylu ve güçlü.
 Diþlerini gýcýrdatarak sana saldýrmaya hazýrlanýyor.
 ~
 human~
-AB 0 -500 0
-7 0 2d6+85 3d9+100 1d8+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 30
-0 0 medium 0
+AB 0 7
 #1519
 hobgoblin kral~
 hobgoblin kral~
@@ -286,12 +196,7 @@ Adaleleri cüppesine sýðmayan hobgoblin kral aptal görünüþüyle
 yaratmaya çalýþtýðý bilge etkiyi yok ediyor .
 ~
 human~
-ABR 0 -500 0
-12 0 2d8+134 12d9+100 1d8+2 none
-1 1 1 6
-FU 0 0 0
-sit stand male 300
-0 0 medium 0
+ABR 0 12
 #1520
 hobgoblin madenci~
 hobgoblin madenci~
@@ -300,12 +205,7 @@ Bir hobgonlin madenci burada altýn arýyor.
 Bu madenci çalýþmaktan tamamen toz içinde kalmýþ.
 ~
 human~
-ABC 0 -400 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand male 35
-0 0 medium 0
+ABC 0 5
 #1521
 haznedar~
 haznedar~
@@ -315,12 +215,7 @@ Haznedar yaþlý ve gözlüklü bir hobgoblin.
 Gözüktüðü kadarýyla ancak önündeki iki ayaðý görebiliyor.
 ~
 human~
-ABC 0 -200 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand male 250
-0 0 medium 0
+ABC 0 10
 #1522
 gnom mahkum~
 gnom bir mahkum~
@@ -329,12 +224,7 @@ Gnom bir mahkum burda samanlarýn içinde dinleniyor.
 Mahkum zar zor yaþamaya devam ediyor.
 ~
 human~
-ABC 0 100 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNU 0 0 0
-rest stand male 0
-0 0 medium 0
+ABC 0 3
 #1523
 insan bir mahkum~
 insan bir mahkum~
@@ -343,12 +233,7 @@ insan bir mahkum~
 Mahkum zar zor yaþamaya devam ediyor.
 ~
 human~
-ABC 0 100 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNU 0 0 0
-rest stand female 0
-0 0 medium 0
+ABC 0 3
 #1524
 yengeç~
 bir yengeç~
@@ -357,12 +242,7 @@ Bir yengeç sana doðru aðýr aðýr ilerliyor.
 Onu uyandýrdýðýn için kýzmýþ büyük bir yengeç görüyorsun.
 ~
 human~
-ABCF 0 -10 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand male 10
-0 0 medium 0
+ABCF 0 5
 #1526
 hobgoblin aþçý~
 hobgoblin aþçý~
@@ -372,13 +252,9 @@ Kirli ve þiþman bir hobgoblin.
 Tencerenin içindeki þeyi karýþtýrýrken geðirip duruyor.
 ~
 human~
-ABC 0 -300 0
-7 0 2d6+85 3d9+100 1d8+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 130
-0 0 medium 0
+ABC 0 7
 #0
+
 #OBJECTS
 #1500
 kanlý anahtar~

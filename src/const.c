@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -279,46 +291,46 @@ const 	struct	race_type	race_table	[]		=
 	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
     },
 
-    {  /* 4 */
-      {"naga","naga"},     TRUE, 		SIZE_MEDIUM, 0,
-      0,                AFF_INFRARED,   0,
-      0,                RES_MAGIC|RES_POISON|RES_DISEASE, VULN_BASH,
-      A|H|M|V,          A|B|C|D|E|F|G|H|I|J|K
-    },
-
-    { /* 5 */
-      {"yeg","yeg"},        TRUE, 		SIZE_MEDIUM, 0,
-      0,                AFF_INFRARED,   0,
-      0,                RES_MAGIC|RES_POISON|RES_DISEASE, VULN_DROWNING,
-      A|H|M|V,          A|B|C|D|E|F|G|H|I|J|K
-    },
-
-    { /* 6 */
+    { /* 4 */
         {"gamayun","gamayun"},        TRUE, 		SIZE_MEDIUM, 0,
         0,              AFF_FLYING,             0,
         0,              0,              0,
         A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K
     },
 
+    { /* 5  */
+  {"pardus","pardus"},	TRUE, 		SIZE_MEDIUM, 0,
+  0,		AFF_INFRARED,	0,
+  0,		RES_WOOD|RES_DISEASE,	0,
+  A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
+    },
+
+    {  /* 6 */
+	{"asura","asura"},	TRUE, 		SIZE_LARGE, 0,
+	0,		AFF_REGENERATION|AFF_INFRARED,	OFF_BERSERK,
+ 	0,	RES_CHARM|RES_BASH,	VULN_FIRE|VULN_ACID,
+	A|B|H|M|V,		A|B|C|D|E|F|G|H|I|J|K|U|V
+    },
+
     { /* 7 */
-        {"börü","börü"},        TRUE, 		SIZE_MEDIUM, 0,
+      {"yeg","yeg"},        FALSE, 		SIZE_MEDIUM, 0,
+      0,                AFF_INFRARED,   0,
+      0,                RES_MAGIC|RES_POISON|RES_DISEASE, VULN_DROWNING,
+      A|H|M|V,          A|B|C|D|E|F|G|H|I|J|K
+    },
+
+    { /* 8 */
+        {"börü","börü"},        FALSE, 		SIZE_MEDIUM, 0,
         0,              AFF_INFRARED,   OFF_TAIL,
         0,              RES_LIGHT|RES_COLD,     VULN_FIRE|VULN_DROWNING,
         A|H|M|V,        A|C|D|E|F|H|J|K|Q|U|V
     },
 
-    { /* 8  */
-	{"ciren","ciren"},	TRUE, 		SIZE_MEDIUM, 0,
-	0,		AFF_INFRARED,	0,
-	0,		RES_WOOD|RES_DISEASE,	0,
-	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K
-    },
-
     {  /* 9 */
-	{"asura","asura"},	TRUE, 		SIZE_LARGE, 0,
-	0,		AFF_REGENERATION|AFF_INFRARED,	OFF_BERSERK,
- 	0,	RES_CHARM|RES_BASH,	VULN_FIRE|VULN_ACID,
-	A|B|H|M|V,		A|B|C|D|E|F|G|H|I|J|K|U|V
+      {"naga","naga"},     FALSE, 		SIZE_MEDIUM, 0,
+      0,                AFF_INFRARED,   0,
+      0,                RES_MAGIC|RES_POISON|RES_DISEASE, VULN_BASH,
+      A|H|M|V,          A|B|C|D|E|F|G|H|I|J|K
     },
 
     { /* 10 */
@@ -818,7 +830,7 @@ const 	struct	race_type	race_table	[]		=
 const	struct	pc_race_type	pc_race_table	[MAX_PC_RACE]	=
 {
   { {"null race","null race"},  "", 0, { 100, 100, 100, 100 ,100,100,100,100,100,100,100,100,100},
-      { "" }, { 13, 13, 13, 13, 13 }, { 18, 18, 18, 18, 18 },0,0,0,0 },
+      { "" }, { 13, 13, 13, 13, 13 },0,0,0,0 },
 
 /*
     {
@@ -827,76 +839,49 @@ const	struct	pc_race_type	pc_race_table	[MAX_PC_RACE]	=
 	{ stat mods },	{ max stats },	size , hp_bonus, mana_bonus,
 	  practice_bonus, align
     },
-    {
-	"giant",	"Giant",500,{ -1, 100, -1, 100,-1,100,-1,100 ,-1, -1,-1,-1,100},
-	{ "bash","enhanced damage" },
-	{ 2, -4, 0, -4, 2 ,0},	{ 25, 15, 17, 16, 23,25 }, SIZE_HUGE,
-	20,-20,0,CR_ALL, LANG_GIANT
-    },
 
 */
 
       {
        {"human","insan"},	"Ýnsan",	0,	{100,100,100,100,100,100,100,100,100 ,100,100,100,100},
-       { "" },
-       { 0, 0, 0, 0, 0 ,0},	{ 20, 20, 20, 20, 20,25 },
+       { "identify", "steal" },
+       { 0, 1, 0, 1, 1 ,0},
         0,0,0,CR_ALL,LANG_HUMAN
       },
 
       {
-	{"çora","çora"},		"Çora",500,{ 100,100,100,100,100,-1,-1,100,100,-1 ,-1,-1,100},
-	{ "" },
-	{ -2, 5, 0, 2, -2,0 },	{ 18, 25, 21, 23, 16,25 },
+	{"çora","çora"},		"Çora",500,{100,100,100,100,100,100,100,100,100 ,100,100,100,100},
+	{ "lore" , "camouflage" },
+	{ 0, 3, 0, 2, -2,0 },
 	-10,30,0,CR_ALL,LANG_CORA
 	},
 
     {
-	{"dwarf","cüce"},	"Cüce",250,{ 100, 100, -1, 100,-1,-1,-1,-1,100 ,-1,-1,-1,100},
+	{"dwarf","cüce"},	"Cüce",250,{100,100,100,100,100,100,100,100,100 ,100,100,100,100},
 	{ "berserk" },
-	{ 0, 0, 1, -4, 5,0 },	{ 21, 19, 19, 18, 25,25 },
+	{ 1, 0, 1, -2, 3,0 },
 	30,0,0,CR_ALL,LANG_DWARVISH
     },
 
     {
-	{"naga","naga"},"Naga",250,{ 100, 100, 100, 100,-1 ,-1,-1,-1 ,100, -1,-1,-1,100},
-	{ "lore", "identify" },
-	{ 0, -1, 3, 0, 0,0 },	{ 20, 19, 23, 18, 19 ,25},
-	10,0,2,CR_GOOD,LANG_NAGA
-    },
-
-    {
-	{"yeg","yeg"},	"Yeg",250,{ -1, 100, 100, 100,-1 ,100,100,-1,-1 , -1,-1,100,-1},
-	{ "berserk", "pick lock" },
-	{ 2, -2, -1, 1, 1 ,0},	{ 22, 16, 18, 20, 21,25 },
-	25,-10,0,CR_EVIL,LANG_YEG
-    },
-
-    {
-	{"gamayun","gamayun"},"Gamay",250,{ 100, 100, 100, 100,-1,100,100,-1,100 ,-1,-1,100,100},
+	{"gamayun","gamayun"},"Gamay",250,{100,100,100,100,100,100,100,100,100 ,100,100,100,100},
 	{ "" },
-	{ -2, 3, 0, 5, -2 ,0},	{ 19, 23, 20, 25, 18,25 },
+	{ -2, 3, 0, 4, -2 ,0},
 	-10,50,0,CR_ALL,LANG_GAMAYUN
     },
 
     {
-	{"börü","börü"},	"Börü",250,{ -1, -1, 100, 100,-1 ,100,100,100 ,100,-1,-1,-1,-1},
-	{ "hand to hand" },
-	{ -1, -1, 0, 2, 2 ,0},	{ 17, 17, 20, 23, 23,25 },
-	10,-10,0,CR_ALL,LANG_BORU
+	{"pardus","pardus"},"Pard",250,{100,100,100,100,100,100,100,100,100 ,100,100,100,100},
+	{  "ambush", "berserk", "steal" },
+	{ 1, -1, 0, 3, 1,0},
+	0,0,0,CR_ALL,LANG_PARDUS
     },
 
     {
-	{"ciren","ciren"},"Ciren",250,{ -1, -1, 100, 100,-1,-1,-1,100,-1 ,-1,-1,-1,-1},
-	{ "camouflage" ,"ambush", "steal" },
-	{ -1, 0, 0, 3, 0,0},	{ 19, 23, 20, 25, 18,25 },
-	0,0,0,CR_NEUTRAL,LANG_CIREN
-    },
-
-    {
-	{"asura","asura"},"Asur",400,{ -1,-1,-1,100,-1,100,-1,100,-1,-1,-1,-1,-1},
+	{"asura","asura"},"Asur",400,{100,100,100,100,100,100,100,100,100 ,100,100,100,100},
 	{ "fast healing","trance" },
-	{ 2, -2, -1, -2, 3,0},	{ 19, 23, 20, 25, 18,25 },
-	0,0,0,CR_EVIL,LANG_ASURA
+	{ 2, -1, -1, 1, 3,0},
+	0,0,0,CR_ALL,LANG_ASURA
     }
 
   };
@@ -909,6 +894,7 @@ const	struct	pc_race_type	pc_race_table	[MAX_PC_RACE]	=
  */
 const	struct	class_type	class_table	[MAX_CLASS]	=
 {
+
     {
         {"invoker","gan"}, "Gan",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
         { 3018, 0, 0, 0, 0, 0 },  75,  18, 6,  60,  100, TRUE,
@@ -934,13 +920,13 @@ const	struct	class_type	class_table	[MAX_CLASS]	=
     },
 
     {
-	{"paladin","paladin"}, "Pal",   STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
+	{"paladin","adbolar"}, "Adb",   STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
 	{ 3063, 0, 0, 0, 0, 0 },  75,  18,  -6,  80, 70, TRUE,
 	400,{2,0,1,0,2,5},CR_GOOD
     },
 
     {
-	{"anti-paladin","anti-paladin"}, "A-P",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
+	{"anti-paladin","kembolar"}, "Kmb",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
 	{ 3061, 0, 0, 0, 0, 0 },  75,  18,  -6,  80, 70, TRUE,
 	300,{2,1,0,1,1,5},CR_EVIL
     },
@@ -966,7 +952,7 @@ const	struct	class_type	class_table	[MAX_CLASS]	=
     {
         {"samurai","samuray"}, "Sam",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
         { 3075, 9633, 0, 0, 0, 0 },  75,  18,  -10,  100,60,FALSE,
-        500,{2,1,1,1,1,5},CR_ALL
+        500,{1,1,1,0,1,5},CR_ALL
     },
 
    {
@@ -2609,23 +2595,10 @@ const struct color_type color_table[] = /*  Last entry should be NULL   */
 const struct religion_type religion_table [] =
 {
   { "", "None", 0 },
-  { "Yo-Kan", "Topraðýn Ruhu", OBJ_VNUM_TATTOO_APOLLON },//degisti
-  { "Ayisit", "Bereket Ruhu", OBJ_VNUM_TATTOO_ZEUS },//degisti
-  { "Ýççite", "Tarafsýz", OBJ_VNUM_TATTOO_SIEBELE },//deðiþti
-  { "Nama", "Ýyi", OBJ_VNUM_TATTOO_HEPHAESTUS },//degisti
-  { "Sün-Caahýn", "Ýyi", OBJ_VNUM_TATTOO_EHRUMEN },//degisti
-  { "Aldacý", "Ölümün Ruhu", OBJ_VNUM_TATTOO_AHRUMAZDA },//degisti
-  { "Ýlbis-Kuha", "Þer", OBJ_VNUM_TATTOO_DEIMOS },//degisti
-  { "Kamos", "Þer", OBJ_VNUM_TATTOO_PHOBOS },//degisti
-  { "Abakan", "Yaðmurun Ruhu", OBJ_VNUM_TATTOO_ODIN },//degisti
-  { "Tial-Holoruk", "Rüzgarýn Ruhu", OBJ_VNUM_TATTOO_MARS },//degisti
-  { "Ure-Amaka", "Ormanýn Ruhu", OBJ_VNUM_TATTOO_ATHENA },//degisti
-  { "Kamui", "Göðün Ruhu", OBJ_VNUM_TATTOO_GOKTENGRI },//degisti
-  { "Uola", "Nefretin Ruhu", OBJ_VNUM_TATTOO_HERA },//degisti
-  { "Bolloh", "Suyun Ruhu", OBJ_VNUM_TATTOO_VENUS },//degisti
-  { "Ot-Ezi", "Ateþin Ruhu", OBJ_VNUM_TATTOO_ARES },//degisti
-  { "Simurg", "Düþ Ruhu", OBJ_VNUM_TATTOO_PROMETHEUS },//degisti
-  { "Kýday Bahsý", "Demirin Ruhu", OBJ_VNUM_TATTOO_EROS }//degisti
+  { "Kamenilik", "Kameniler", OBJ_VNUM_TATTOO_KAME },
+  { "Niryanilik", "Niryaniler", OBJ_VNUM_TATTOO_NIR },
+  { "Nyahilik", "Nyahiler", OBJ_VNUM_TATTOO_NYAH },
+  { "Sintaryanlýk", "Sintaryanlar", OBJ_VNUM_TATTOO_SINT },
 };
 
 const struct ethos_type ethos_table [] =

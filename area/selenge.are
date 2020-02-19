@@ -17,7 +17,7 @@ Dünya bir baþka ölümün ardýndan sessizce titriyor...~
 #FLAG
 AB
 
-#MOBILES
+#NEW_MOBILES
 #3000
 büyücü~
 büyücü~
@@ -27,12 +27,7 @@ Büyücü yaþlý ve bunak gibi görünmesine raðmen hala çok güçlü. Kaliteli
 elbiseler ve bir sürü ilginç görünümlü yüzük taþýyor.
 ~
 human~
-ABKVe DHN 900 0
-83 5 25d10+28800 1d1+1999 10d12+62 magic
--95 -95 -95 -75
-AF ABC D 0
-stand stand male 15000
-0 0 medium 0
+ABKVe DHN 83
 #3001
 fýrýncý~
 fýrýncý~
@@ -42,12 +37,7 @@ Fýrýncý, bir eliyle yüzündeki unlarý temizlerken sana gülümsüyor.
 kaçmýyor.
 ~
 human~
-ABKVe HN 900 0
-60 10 20d10+18800 1d1+999 6d10+45 beating
--65 -65 -65 -25
-CDF AB CD 0
-stand stand male 500
-0 0 medium 0
+ABKVe HN 60
 #3002
 bakkal~
 bakkal~
@@ -57,12 +47,7 @@ Bakkal uzun boyu ve iri cüssesiyle omuzlarýnda iki aðýr un
 torbasý taþýyor.
 ~
 human~
-ABVe HN 900 0
-55 10 25d10+15000 1d1+999 9d10+30 beating
--65 -65 -65 -35
-EFJ AB CD 0
-stand stand male 1300
-0 0 medium 0
+ABVe HN 55
 #3003
 demirci rugal~
 Rugal~
@@ -71,12 +56,7 @@ Demirci Rugal tezgahýn arkasýnda çalýþýyor.
 Genç demircinin hala öðrenmesi gereken þeyler var.
 ~
 human~
-ABTVe HNh 900 0
-86 15 25d10+28000 1d1+999 6d8+60 punch
--90 -90 -90 -55
-CEIK AB CD 0
-stand stand male 25000
-0 0 medium 0
+ABTVe HNh 86
 #3004
 demirci yegin~
 Yegin~
@@ -86,12 +66,7 @@ Yaþlý ve güçlü bir adam görüyorsun. Güçlü kollarýyla senin hayatýn
 boyunca gördüðün zýrh ve silahlardan daha fazlasýný üretmiþtir.
 ~
 human~
-ABVe N 900 0
-65 10 25d10+19300 1d1+999 7d18+50 punch
--85 -85 -85 -45
-CEFJKN AB CD 0
-stand stand male 25000
-0 0 medium 0
+ABVe N 65
 #3005
 hýrsýz~
 hýrsýz~
@@ -100,12 +75,7 @@ Bir hýrsýz, siyahlara bürünmüþ.
 Paraný dikkatli SAY!
 ~
 human~
-ACHS PQ -100 0
-8 1 6d8+80 1d1+99 1d5+1 punch
-2 4 3 7
-EFJN 0 0 0
-stand stand either 100
-0 0 medium 0
+ACHS PQ 8
 #3006
 kaptan~
 kaptan~
@@ -115,12 +85,7 @@ Bu kaptan senin hayatýn boyunca yediðin bezelye tanelerinden
 daha fazla köpekbalýðý öldürmüþtür.
 ~
 human~
-ABTVe H 900 0
-65 15 25d20+18500 1d1+999 5d8+30 beating
--45 -45 -45 -15
-CEI AB CD 0
-stand stand male 1300
-0 0 medium 0
+ABTVe H 65
 #3007
 denizci~
 denizci~
@@ -129,12 +94,7 @@ Denizci burada, seni eðitmek için bekliyor.
 Denizci oldukça güçlü ve saðlýklý görünüyor.
 ~
 human~
-ABJTVe 0 900 0
-96 20 20d20+29200 1d1+999 10d4+73 beating
--55 -55 -55 -25
-FHJN AB CD 0
-stand stand male 58
-0 0 medium 0
+ABJTVe 0 96
 #3008
 kalfa~
 hayvan satýcýsý kalfa~
@@ -143,12 +103,7 @@ Bir kalfa seni saygýyla selamlýyor.
 Kalfa oldukça hamarat ve mutlu bir görünüme sahip.
 ~
 human~
-ABVe H 900 0
-67 5 10d11+19700 1d1+999 4d5+35 punch
--45 -45 -45 -15
-0 AB CD 0
-stand stand male 4000
-0 0 medium 0
+ABVe H 67
 #3009
 kuyumcu~
 kuyumcu~
@@ -157,12 +112,7 @@ Kuyumcu tezgahýn ardýndan seni seyrediyor.
 Dikkatliliði sinir bozsa da oldukça nazik bir görüntüsü var.
 ~
 human~
-ABVe HV 900 0
-90 10 25d10+28500 1d1+999 5d15+75 slap
--80 -85 -85 -50
-AF AB CD 0
-stand stand male 58000
-0 0 huge 0
+ABVe HV 90
 #3010
 derici~
 derici~
@@ -172,12 +122,7 @@ Sadece karnýný doyuracak kadar kazanabilen gururlu bir iþçiyi
 andýrýyor.
 ~
 human~
-ABVe H 900 0
-69 17 25d10+23200 1d1+999 8d8+41 punch
--45 -45 -45 -15
-AFN AB CD 0
-stand stand female 10000
-0 0 medium 0
+ABVe H 69
 #3011
 görevci hassan~
 Hassan~
@@ -188,12 +133,7 @@ içi gibi biliyor. Onunla uðraþmak, tartýþmak emin ol
 akýllýca olmayacaktýr.
 ~
 giant~
-ABTVe CDFJVZ 1000 3000
-85 30 1d1+28999 1d1+1499 5d14+80 crush
--70 -70 -70 -50
-ACDEFHIKLNOT ABP CD 0
-stand stand male 0
-0 0 huge 0
+ABTVe CDFJVZ 85
 #3012
 þifacý efendi~
 þifacý~
@@ -203,12 +143,7 @@ Yaþadýðý maceralardan yorulmuþ olsa da hala maceraperestlere
 yardým ediyor. Sattýðý büyüleri görmek için 'iyileþtir' yazýn.
 ~
 human~
-ABQVae DFH 1000 0
-120 10 1d1+29099 1d1+1999 10d20+50 divine
--150 -150 -150 -100
-FHIK ABC D 0
-stand stand male 5000
-0 0 huge 0
+ABQVae DFH 120
 #3020
 büyücü efendi~
 büyücü efendi~
@@ -219,12 +154,7 @@ açýkça görebiliyorsun. Mavi bir aura ile çevrelenmiþ ve oldukça güzel
 giysiler giymiþ bu kadýn ayrýca loncanýn üstadý.
 ~
 çora~
-ABKRVe DEFZ 1000 0
-96 0 1d1+29099 1d1+999 43d48+64 magic
--65 -65 -65 -35
-FG ABD C 0
-stand stand female 0
-0 0 medium 0
+ABKRVe DEFZ 96
 #3021
 lonca efendisi~
 lonca efendisi~
@@ -234,12 +164,7 @@ Lonca efendisinin barýþçýl ve sevecen bir görünümü var. Tam onun tanrýya
 yakýn biri olduðunu düþünürken beyaz aylasýný farkediyorsun.
 ~
 human~
-ABKQVe CDEFHZ 1000 0
-96 0 1d1+29099 1d1+999 43d48+64 divine
--65 -65 -65 -35
-EFHIK ABD C 0
-stand stand male 0
-0 0 medium 0
+ABKQVe CDEFHZ 96
 #3022
 hýrsýz efendi~
 hýrsýz efendi~
@@ -249,12 +174,7 @@ Efendinin hareketlerini fark edemiyorsun. "Ýþte bir hareket ustasý!"
 diyorsun içinden. Bu kadýn sade giysileriyle halktan birini andýrýyor.
 ~
 human~
-ABKSVe DFZ 1000 0
-96 0 1d1+29099 1d1+199 43d48+64 stab
--65 -65 -65 -35
-BEFHJN ABD C 0
-stand stand female 0
-0 0 medium 0
+ABKSVe DFZ 96
 #3023
 savaþçý efendi~
 savaþçý efendi~
@@ -265,12 +185,7 @@ Vücudundaki derin yara izleri onun, daha sen doðmadan, diyarýn uçsuz bucaksýz
 topraklarýnda silah salladýðýný kanýtlýyor.
 ~
 dwarf~
-ABKTVe DF 1000 0
-96 0 1d1+29099 1d1+199 43d48+64 beating
--60 -60 -60 -40
-ACDEIK ABD C 0
-stand stand male 0
-0 0 medium 0
+ABKTVe DF 96
 #3024
 sihirbaz~
 sihirbaz~
@@ -280,12 +195,7 @@ O kendisini savaþ büyülerinde ustalaþtýrmýþ bir büyücü. Artýk tek görevi
 bu kapýyý ölümcül savunma ve saldýrýlarýyla korumak.
 ~
 çora~
-ABRTVe BD 800 0
-30 5 1d1+999 1d1+499 10d4+10 magic
--12 -12 -12 -8
-AEG AB CD 0
-stand stand male 2000
-0 0 medium 0
+ABRTVe BD 30
 #3025
 arna~
 arna~
@@ -295,12 +205,7 @@ Yaþamýný sadakate adamýþ bir savaþçý görüyorsun. Amacý saldýrýlara karþý
 bu yeri korumak. Ýnancý onu ölümcül bir silah haline getirmiþ.
 ~
 human~
-ABQTVe DJ 800 0
-30 5 1d1+999 1d1+499 5d8+10 divine
--12 -12 -12 -7
-DEIK AB CD 0
-stand stand male 2000
-0 0 medium 0
+ABQTVe DJ 30
 #3026
 suikastçi~
 suikastçi~
@@ -311,12 +216,7 @@ savaþçý. Silahlar ve canlýlar üzerine bilgisi onu ölümcül bir rakip haline
 getirmiþ.
 ~
 human~
-ABSTVe DFPQ 800 0
-30 8 1d1+999 1d1+99 4d10+12 pierce
--12 -12 -12 -6
-BEFJN AB CD 0
-stand stand male 2000
-0 0 medium 0
+ABSTVe DFPQ 30
 #3027
 seðmen~
 seðmen~
@@ -327,12 +227,7 @@ karþý korumak. Silahlar üzerine aldýðý eðitim ve bineðinin verdiði güçle
 oldukça tehlikeli bir rakip
 ~
 human~
-ABTVe DF 800 0
-30 10 1d1+999 1d1+199 11d4+10 punch
--12 -12 -12 -4
-ACDEHIK AB CD 0
-stand stand male 2000
-0 0 medium 0
+ABTVe DF 30
 #3040
 barmen~
 barmen~
@@ -341,12 +236,7 @@ Barmen bir yandan içki karýþýmý hazýrlýyor, bir yandan da seni izliyor.
 Yorgun görünen barmen barda bela çýkmasýndan nefret ediyor.
 ~
 human~
-ABVe 0 900 0
-23 0 1d1+599 1d1+99 1d8+18 beating
--6 -6 -6 0
-FHJN AB CD 0
-stand stand male 150
-0 0 medium 0
+ABVe 0 23
 #3041
 garson~
 garson~
@@ -355,12 +245,7 @@ Bir garson habire koþturuyor.
 Yorgun görünümlü bir garson.
 ~
 human~
-ABVe 0 900 0
-23 0 1d1+599 1d1+99 1d8+18 beating
--6 -6 -6 0
-FHJN AB CD 0
-stand stand male 150
-0 0 medium 0
+ABVe 0 23
 #3042
 garson~
 garson~
@@ -368,12 +253,7 @@ Sakin bir yaþam için büyücülüðü býrakarak garson olan bir adam burada.
 ~
 ~
 human~
-ABRVe D 600 0
-23 0 1d1+599 1d1+99 1d8+18 beating
--6 -6 -6 0
-FJN AB CD 0
-stand stand male 150
-0 0 medium 0
+ABRVe D 23
 #3043
 garson~
 garson~
@@ -381,12 +261,7 @@ Bir garson burada duruyor. Bakýþlarý oldukça derin ve güçlü.
 ~
 ~
 human~
-ABQVe 0 600 0
-23 0 1d1+599 1d1+99 1d8+18 beating
--6 -6 -6 0
-FHJN AB CD 0
-stand stand male 150
-0 0 medium 0
+ABQVe 0 23
 #3044
 garson~
 garson~
@@ -394,12 +269,7 @@ Bir garson burada duruyor. O müþterilerinin para ceplerini ezbere biliyor.
 ~
 ~
 human~
-ABSVe 0 600 0
-23 0 1d1+599 1d1+99 1d8+18 beating
--6 -6 -6 0
-FHJN AB CD 0
-stand stand male 150
-0 0 medium 0
+ABSVe 0 23
 #3045
 garson~
 garson~
@@ -407,12 +277,7 @@ Bir garson burada duruyor. O buradaki herkesi kolayca öldürebilir.
 ~
 ~
 human~
-ABTVe 0 600 0
-23 0 1d1+599 1d1+99 1d8+18 beating
--6 -6 -6 0
-BFHJN AB CD 0
-stand stand male 150
-0 0 medium 0
+ABTVe 0 23
 #3046
 çirkin~
 çirkin~
@@ -422,12 +287,7 @@ Gerçekten çok.. ýmmm.. pis. Müþterilerini memnun tutmaktan hoþlanmýyor.
 Ona bulaþma yoksa çok üzülür.
 ~
 human~
-ABSV 0 600 0
-23 2 1d1+599 1d1+99 1d8+18 beating
--8 -8 -8 -4
-BEFJN AB CD 0
-stand stand male 200
-0 0 medium 0
+ABSV 0 23
 #3060
 yasavul~
 yasavul~
@@ -436,12 +296,7 @@ Bir yasavul burada duruyor.
 Güçlü, yardýmsever, güvenilir bir yasavul.
 ~
 human~
-ACGT 0 1000 3000
-15 3 15d15+160 1d1+149 2d4+4 punch
-0 0 0 8
-CDEKLTU 0 C 0
-stand stand either 150
-0 0 medium 0
+ACGT 0 15
 #3061
 çöpçü~
 çöpçü~
@@ -449,12 +304,7 @@ Bir çöpçü etrafta dolaþarak temizlik yapýyor.
 ~
 ~
 human~
-AGH 0 900 0
-1 0 2d6+10 1d1+99 1d5+0 pound
-10 10 10 10
-NU 0 0 C
-stand stand either 10
-0 0 medium 0
+AGH 0 1
 #3062
 köpek~
 köpek~
@@ -464,12 +314,7 @@ Küçük köpekten berbat bir koku geliyor ve aðzýndan salyalar akarken
 diþlerini gösteriyor.
 ~
 fido~
-AFGHU 0 -200 0
-0 0 1d6+4 1d1+99 1d4+0 bite
-10 10 10 10
-0 0 0 0
-stand stand either 0
-0 0 small 0
+AFGHU 0 1
 #3063
 serseri~
 serseri~
@@ -478,12 +323,7 @@ Bir serseri burada, kurban arýyor.
 Çok kaba ve haþin gözüküyor.
 ~
 human~
-ACS 0 -200 0
-5 1 2d6+60 1d1+99 1d6+1 punch
-7 5 5 10
-BJNQ 0 0 C
-stand stand male 18
-0 0 medium 0
+ACS 0 5
 #3064
 sarhoþ~
 sarhoþ~
@@ -493,12 +333,7 @@ Mutlu görünen sarhoþ, ayný zamanda içki için rahatça para
 harcayabiliyor gibi.
 ~
 human~
-AG 0 0 0
-2 -1 2d6+22 1d1+99 1d6+0 beating
-8 8 8 10
-U 0 0 C
-stand stand male 65
-0 0 medium 0
+AG 0 2
 #3065
 dilenci~
 dilenci~
@@ -507,12 +342,7 @@ Bir dilenci burada, senden birkaç bozukluk istiyor.
 Dilenci hayattan býkmýþ gibi gözüküyor.
 ~
 human~
-AB 0 0 0
-1 0 2d6+10 1d1+99 1d5+0 beating
-8 8 8 10
-FJNU 0 0 C
-stand stand female 0
-0 0 medium 0
+AB 0 1
 #3066
 kedi~
 kedi~
@@ -521,12 +351,7 @@ Bir kedi sana týslýyor.
 Sokak kedisi yarý aç miyavlýyor.
 ~
 cat~
-AFGHU 0 -200 0
-0 1 1d6+4 1d1+99 1d4+0 scratch
-8 8 8 9
-DR 0 0 C
-stand stand either 0
-0 0 small 0
+AFGHU 0 1
 #3067
 yasavul~
 yasavul~
@@ -535,12 +360,7 @@ Bir yasavul kapýyý koruyor.
 Güçlü, yardýmsever, güvenilir bir yasavul.
 ~
 human~
-ABT 0 1000 3000
-15 3 15d15+160 1d1+149 2d4+4 punch
-0 0 0 8
-CDEKLTU 0 C 0
-stand stand either 150
-0 0 medium 0
+ABT 0 15
 #3068
 yasavul~
 yasavul~
@@ -549,12 +369,7 @@ Bir yasavul kapýyý koruyor.
 Güçlü, yardýmsever, güvenilir bir yasavul.
 ~
 human~
-ABT 0 1000 3000
-15 3 15d15+160 1d1+149 2d4+4 punch
-0 0 0 8
-CDEKLTU 0 C 0
-stand stand either 150
-0 0 medium 0
+ABT 0 15
 #3069
 yasavul~
 yasavul~
@@ -563,12 +378,7 @@ Bir yasavul baþkaný koruyor.
 Güçlü, yardýmsever, güvenilir bir yasavul.
 ~
 human~
-ABT BQ 1000 3000
-20 4 20d20+200 1d1+199 2d4+7 punch
--4 -6 -6 0
-CDEHKLTU 0 C 0
-stand stand either 500
-0 0 medium 0
+ABT BQ 20
 #3070
 iksirci~
 iksirci~
@@ -577,12 +387,7 @@ Bir iksirci yaþlý yüzüyle sana gülümsüyor.
 Çok tehlikeli görünüyor. Yerinde olsam onu soymaya kalkmazdým.
 ~
 human~
-ABQRV DEHVF 1000 0
-92 0 1d1+29599 1d1+999 10d10+20 magic
--65 -65 -65 -25
-FGH AB CD 0
-stand stand male 5000
-0 0 medium 0
+ABQRV DEHVF 92
 #3071
 yasavul~
 yasavul~
@@ -591,12 +396,7 @@ Bir yasavul kapýyý koruyor.
 Güçlü, yardýmsever, güvenilir bir yasavul.
 ~
 human~
-ABT 0 1000 3000
-15 3 15d15+160 1d1+149 2d4+4 punch
-0 0 0 8
-CDEKLTU 0 C 0
-stand stand either 150
-0 0 medium 0
+ABT 0 15
 #3072
 yasavul~
 yasavul~
@@ -605,12 +405,7 @@ Yarý uykulu bir yasavul kapýyý koruyor.
 Güçlü, yardýmsever, güvenilir bir yasavul.
 ~
 human~
-ABT 0 1000 3000
-15 3 15d15+160 1d1+149 2d4+4 punch
-0 0 0 8
-CDEKLTU 0 C 0
-stand stand either 150
-0 0 medium 0
+ABT 0 15
 #3090
 tekir~
 tekir~
@@ -619,12 +414,7 @@ Bir tekir burada.
 Küçük, þirin bir savaþçý.
 ~
 cat~
-ABU 0 400 0
-1 2 2d6+11 1d1+99 1d4+0 scratch
-8 8 8 10
-0 0 C 0
-stand stand either 0
-0 0 tiny 0
+ABU 0 1
 #3091
 enik~
 enik~
@@ -633,12 +423,7 @@ Bir enik burada.
 Küçük, þirin bir savaþçý.
 ~
 dog~
-ABU F 400 0
-3 2 4d6+25 1d1+99 1d6+0 bite
-7 7 7 10
-N 0 C 0
-stand stand either 0
-0 Q small 0
+ABU F 3
 #3092
 kaniþ~
 kaniþ~
@@ -647,12 +432,7 @@ Bir kaniþ burada.
 Azýlý bir savaþçý.
 ~
 dog~
-ABU F 400 0
-5 3 3d12+50 1d1+99 1d6+0 bite
-5 5 5 9
-N 0 C 0
-stand stand either 0
-0 Q small 0
+ABU F 5
 #3093
 çomar~
 çomar~
@@ -661,12 +441,7 @@ Bir çomar burada.
 Güçlü ve azýlý bir savaþçý.
 ~
 dog~
-ABU F 400 0
-7 3 6d10+60 1d1+149 2d4+1 bite
-4 4 4 8
-CDL 0 C 0
-stand stand either 0
-0 0 medium 0
+ABU F 7
 #3094
 kurt~
 kurt~
@@ -675,12 +450,7 @@ Eðitimli bir kurt burada.
 Kurt güçlü ve acýmasýz görünüyor.
 ~
 wolf~
-ABU F 0 0
-9 3 6d10+80 1d1+99 2d5+1 bite
-4 4 4 8
-C 0 C 0
-stand stand either 0
-0 0 medium 0
+ABU F 9
 #3095
 kartal~
 kartal~
@@ -689,12 +459,7 @@ Sadýk bir kartal havada asýlý duruyor.
 Kartal güçlü ve acýmasýz görünüyor.
 ~
 song bird~
-ABIU FZ 0 0
-12 3 6d10+130 1d1+99 2d5+3 claw
-0 0 0 8
-N 0 C 0
-stand stand either 0
-0 U small 0
+ABIU FZ 12
 #3096
 aslan~
 aslan~
@@ -703,12 +468,7 @@ aslan~
 Aslan çok acýmasýz görünüyor.
 ~
 cat~
-ABIU F 0 0
-15 2 4d9+205 1d1+99 2d8+3 chomp
--2 -2 -2 7
-C 0 C 0
-stand stand either 0
-0 0 medium 0
+ABIU F 15
 #3097
 kaplan~
 kaplan~
@@ -717,12 +477,7 @@ kaplan~
 Büyük ve çizgili kaplan çok yýrtýcý görünüyor.
 ~
 cat~
-ABIU F 0 0
-20 3 4d9+325 1d1+99 4d4+5 claw
--4 -4 -4 6
-CMN 0 C 0
-stand stand either 0
-0 0 medium 0
+ABIU F 20
 #3100
 hizmetçi~
 hizmetçi~
@@ -732,12 +487,7 @@ Altýn sarýsý saçlarý ve mavi gözleri olan çok güzel bir kadýn. Buraya sýk
 sýk gelmek için iyi bir neden.
 ~
 human~
-ABV 0 1000 0
-23 2 1d1+499 1d1+99 1d8+12 beating
--15 -15 -15 -15
-FG AB CD 0
-stand stand female 180
-0 0 medium 0
+ABV 0 23
 #3120
 zangoç~
 zangoç~
@@ -746,12 +496,7 @@ Bir zangoç burada oturmuþ sýcak çay içiyor.
 Baþka bir mezar kazma iþinden sonra dinleniyormuþ gibi görünüyor.
 ~
 human~
-ABH 0 800 0
-3 0 2d6+35 1d1+99 1d7+0 punch
-7 7 7 10
-0 0 0 C
-sit sit male 75
-0 0 medium 0
+ABH 0 3
 #3121
 kuðu~
 kuðu~
@@ -760,12 +505,7 @@ Bir kuðu gölcüðün sýð yerlerinde yüzüyor.
 Beyaz kuðu çok zarif.
 ~
 water fowl~
-ABU 0 1000 0
-1 0 2d6+10 1d1+99 1d5+0 peck
-8 8 8 10
-CFR 0 0 C
-stand stand either 0
-0 0 small 0
+ABU 0 1
 #3122
 yavru ördek~
 yavru ördek~
@@ -774,12 +514,7 @@ Bir yavru ördek gölcüðün sýð yerlerinde yüzüyor.
 Sevimli olan yavru ördek uzaktan tüy yumaðýna benziyor.
 ~
 water fowl~
-ABU 0 1000 0
-0 0 1d4+0 1d1+99 1d1+0 peckb
-10 10 10 10
-FR 0 0 C
-stand stand either 0
-0 0 tiny 0
+ABU 0 1
 #3123
 serçe~
 serçe~
@@ -788,12 +523,7 @@ Bir serçe zýplaya zýplaya ilerliyor.
 Serçe hayatýn tadýný çýkarýyormuþ gibi görünüyor.
 ~
 song bird~
-AGHU 0 1000 0
-0 0 2d6+0 1d1+99 1d3+0 peck
-10 10 10 10
-R 0 0 C
-stand stand either 0
-0 0 tiny 0
+AGHU 0 1
 #3124
 ördek~
 ördek~
@@ -802,12 +532,7 @@ Bir ördek burada durmuþ vaklýyor.
 Hafif tombul ve lezzetli görünen bir ördek.
 ~
 water fowl~
-AGU 0 1000 0
-1 0 2d6+5 1d1+99 1d4+0 peckb
-10 10 10 10
-FR 0 0 C
-stand stand either 0
-0 0 small 0
+AGU 0 1
 #3140
 yüzbaþý~
 yüzbaþý~
@@ -816,12 +541,7 @@ Yasavullarýn yüzbaþýsý burada, üzgün görünüyor.
 Büyük, güçlü ve kýzgýn bir yüzbaþý.
 ~
 human~
-ABCFT D 1000 3000
-17 4 15d15+190 1d1+199 2d4+6 punch
--2 -2 -2 6
-CDEHKLU 0 C 0
-stand stand male 500
-0 0 medium 0
+ABCFT D 17
 #3141
 yasavul~
 yasavul~
@@ -830,12 +550,7 @@ Bir yasavul burada, üzgün görünüyor.
 Güçlü, yardýmsever, güvenilir bir yasavul.
 ~
 human~
-ABCFT 0 1000 3000
-15 3 15d15+10 1d1+149 2d4+4 punch
-0 0 0 8
-CDEHKLU 0 C 0
-stand stand either 150
-0 0 medium 0
+ABCFT 0 15
 #3142
 sekreter~
 sekreter~
@@ -845,12 +560,7 @@ Bir sekreter masasýnda oturuyor.
 baþkan bugün çok meþgul. Lütfen o gelene kadar oturup bekleyin'.
 ~
 human~
-AB 0 900 0
-12 2 4d12+148 1d1+99 2d7+1 slap
-0 0 0 8
-FHI 0 0 0
-sit sit female 100
-0 0 medium 0
+AB 0 12
 #3143
 baþkan~
 baþkan~
@@ -859,12 +569,7 @@ Baþkan senin elini sýkýyor.
 Orta yaþlarda, kýsa, bodur ve gri renkli saçlý bir adam.
 ~
 human~
-AB N 900 3000
-23 6 6d10+600 1d1+199 1d8+12 punch
--25 -25 -25 -20
-EFNS AB CD 0
-sleep stand male 1000
-0 0 medium 0
+AB N 23
 #3144
 dertli~
 dertli~
@@ -873,12 +578,7 @@ dertli~
 Ýþinde çok iyi - tamamen gözyaþlarýna boðulmuþ durumda.
 ~
 human~
-AH 0 900 0
-1 0 2d6+10 1d1+99 1d5+0 slap
-10 10 10 10
-D 0 0 C
-stand stand male 14
-0 0 medium 0
+AH 0 1
 #3150
 esme~
 Esme~
@@ -888,12 +588,7 @@ Eliyle esmer saçlarýný gözlüklerinin üzerinden alarak geriye doðru
 atarken sana sýcak bir þekilde gülümsüyor.
 ~
 human~
-ABV 0 900 0
-25 0 1d1+999 1d1+199 1d8+10 slap
--15 -15 -15 -15
-FG AB CD 0
-stand stand male 1000
-0 0 medium 0
+ABV 0 25
 #3160
 melankoli haritacý~
 Melankoli~
@@ -906,12 +601,7 @@ ve haritalardan kaldýrarak sana merakla bakarken soluk bir þekilde
 gülümsüyor.
 ~
 human~
-ABV 0 900 0
-84 3 20d10+28800 1d1+399 13d60+60 slap
--65 -65 -65 -35
-FG AB CD 0
-stand stand male 8000
-0 0 medium 0
+ABV 0 84
 #3161
 lister yeþil yýlan~
 Lister~
@@ -922,12 +612,7 @@ seziyorsun, neredeyse sana gülümsüyor gibi. Arkadaþça görünüyor, ama
 o içkili iken sakýn ona yaklaþma.
 ~
 snake~
-ABV D 200 0
-35 3 11d10+1300 1d1+99 6d6+4 bite
--16 -15 -12 0
-FHNR 0 F 0
-stand stand male 0
-0 0 small 0
+ABV D 35
 #3162
 tefeci para otho~
 tefeci Otho~
@@ -937,12 +622,7 @@ Tefeci Otho, masasýnda oturmuþ paralarý çýkarmaný bekliyor.
 görünen para deðiþtirme iþinin bu kalabalýk þehirde iyi para getirdiði.
 ~
 human~
-ABVdE DF 900 0
-75 0 1d1+28099 1d1+199 15d30+60 slap
--65 -65 -65 -35
-FG AB CD 0
-stand stand male 1000
-0 0 medium 0
+ABVdE DF 75
 #3163
 hýrsýz~
 hýrsýz~
@@ -951,12 +631,7 @@ Bir hýrsýz siyahlara bürünmüþ.
 Paraný dikkatli SAY!
 ~
 human~
-ACHS PQ -100 0
-30 1 6d8+700 1d1+99 4d5+5 stab
-2 4 3 7
-EFJN 0 0 0
-stand stand either 100
-0 0 medium 0
+ACHS PQ 30
 #3164
 kasap~
 kasap~
@@ -965,12 +640,7 @@ Kasap burada, et parçalýyor.
 Bu iri kadýn büyük bir önlük takýyor.
 ~
 human~
-ABV H 900 0
-48 1 25d10+6250 1d1+999 6d18+16 none
--35 -35 -35 -15
-EFJ AB CD 0
-stand stand female 7000
-0 0 medium 0
+ABV H 48
 #3165
 çýrak~
 çýrak~
@@ -979,12 +649,7 @@ Demircinin çýraðý burada..
 Siyah saçlý kýsa bir oðlan. Dikkatle ustasýný izliyor.
 ~
 human~
-ABce HV 500 0
-12 1 6d8+300 1d1+99 4d10+5 beating
-2 4 3 7
-EFJN AB 0 0
-stand stand male 100
-0 0 medium 0
+ABce HV 12
 #3166
 þifacý nacya~
 nacya~
@@ -996,12 +661,7 @@ saflýðýný temsil ediyor. Mimberin yanýnda durmuþ yaralarýn tedavisi için
 konsantre oluyor.
 ~
 human~
-ABKRVQae HDEFZ 1000 0
-36 0 1d1+1700 1d1+2000 7d4+50 divine
-0 0 0 0
-FG ABC ABDC 0
-stand stand female 0
-0 0 medium 0
+ABKRVQae HDEFZ 36
 #3167
 lonca efendisi~
 lonca efendisi~
@@ -1012,12 +672,7 @@ fark ediyorsun. Böylesine güvenli bir yerde bile parlak bir göðüs zýrhýný
 giymeyi unutmamýþ. Uzun, iki elli bir kýlýç hemen yanýnda duruyor.
 ~
 human~
-ABKRVe DEFZ 1000 0
-96 0 1d1+29099 1d1+999 20d48+64 slash
--80 -80 -80 -40
-FG ABD C 0
-stand stand male 0
-0 0 medium 0
+ABKRVe DEFZ 96
 #3168
 lonca efendisi suikastçi~
 lonca efendisi~
@@ -1027,12 +682,7 @@ Uzun boylu ve kaslý bir adam. Tüm vücudunu kapatan kara bir cüppe
 giymiþ. Kemeri enteresan bir ekipmaný tutuyor.
 ~
 human~
-ABKRVe DEFZ 0 0
-96 0 1d1+29099 1d1+999 20d48+64 slash
--80 -80 -80 -30
-FG AB DC 0
-stand stand male 0
-0 0 medium 0
+ABKRVe DEFZ 96
 #3169
 lonca efendisi~
 lonca efendisi~
@@ -1044,12 +694,7 @@ neredeyse tamamýný örtüyor. Güçlü ve uzun görünüyor. Kem düþüncelerden
 vazgeçmediðin sürece seni eðitebileceðini biliyorsun.
 ~
 çora~
-ABKRVe DEFZ -300 0
-96 0 1d1+29099 1d1+999 20d50+64 slash
--80 -80 -80 -40
-FG AB DC 0
-stand stand male 0
-0 0 medium 0
+ABKRVe DEFZ 96
 #3170
 lonca efendisi~
 lonca efendisi~
@@ -1060,12 +705,7 @@ görebiliyorsun. Büyülü olmasý muhtemel kaliteli bir kýyafet giyiyor.
 Mavi bir aurayla çevrelendiðini fark ediyorsun.
 ~
 çora~
-ABKRVe DEFZ 0 0
-96 0 1d1+29099 1d1+999 20d48+64 magic
--85 -85 -85 -35
-FG ABD C 0
-stand stand female 0
-0 0 medium 0
+ABKRVe DEFZ 96
 #3171
 lonca efendisi samuray~
 lonca efendisi~
@@ -1074,12 +714,7 @@ lonca efendisi~
 Kýsa fakat kaslý bir adam görüyorsun.
 ~
 human~
-ABKRVe DEFZ 1000 0
-96 0 1d1+29099 1d1+999 20d48+64 slash
--80 -80 -80 -40
-FG ABD C 0
-stand stand male 0
-0 0 medium 0
+ABKRVe DEFZ 96
 #3172
 rahip~
 rahip~
@@ -1089,12 +724,7 @@ Rahip burada, kitaplarda bir þey arýyor.
 hizmetleri sunduðunu görmek için "yardým din" yazabilirsin.
 ~
 human~
-ABKQVe DFH 1000 0
-80 10 1d1+25999 1d1+999 12d44+60 divine
--95 -95 -95 -15
-FHIK ABC D 0
-stand stand male 5000
-0 0 huge 0
+ABKQVe DFH 80
 #3173
 dilekçi hüssam~
 Hüssam~
@@ -1104,13 +734,51 @@ Tanrýlarla arasý iyi olan bu eski gezgin diyardaki dilek
 iþleriyle ilgileniyor.
 ~
 giant~
-ABTVe CDFJVZ 1000 3000
-85 30 1d1+28999 1d1+1499 5d14+80 crush
--70 -70 -70 -50
-ACDEFHIKLNOT ABP CD 0
-stand stand male 0
-0 0 huge 0
-
+ABTVe CDFJVZ 85
+#3174
+kameni dindar~
+dindar~
+Bir dindar Kamenilik inancýyla ilgili bilgiler veriyor.
+~
+Karanlýk bölgelerde geçirdiði yýllarda öðrendiði bilgileri
+baþkalarýyla paylaþmaya, onlarý da Kamenilik yoluna çekmeye
+çalýþan dindar bir cüce.
+~
+dwarf~
+ABRQVe CDFJVZH 93
+#3175
+niryani dindar~
+dindar~
+Bir dindar Niryanilik inancýyla ilgili bilgiler veriyor.
+~
+Eski Thalos'ta geçirdiði yýllarda öðrendiði bilgileri
+baþkalarýyla paylaþmaya, onlarý da Niryanilik yoluna çekmeye
+çalýþan dindar bir insan.
+~
+human~
+ABRQVe CDFJVZH 93
+#3176
+nyahi dindar~
+dindar~
+Bir dindar Nyahilik inancýyla ilgili bilgiler veriyor.
+~
+Bölünmüþ Ruhlar'da geçirdiði yýllarda öðrendiði bilgileri
+baþkalarýyla paylaþmaya, onlarý da Nyahilik yoluna çekmeye
+çalýþan dindar bir çora.
+~
+çora~
+ABRQVe CDFJVZH 93
+#3177
+sintaryan dindar~
+dindar~
+Bir dindar Sintaryanlýk inancýyla ilgili bilgiler veriyor.
+~
+Haon Dor'da geçirdiði yýllarda öðrendiði bilgileri
+baþkalarýyla paylaþmaya, onlarý da Sintaryanlýk yoluna çekmeye
+çalýþan dindar bir insan.
+~
+insan~
+ABRQVe CDFJVZH 93
 #0
 
 #OBJECTS
@@ -6193,7 +5861,7 @@ Aðýr görünüyor. Üzerine küçük bir tabela asýlmýþ.
 ~
 S
 #3125
-Emerald Avenue~
+Emerald Bulvarý~
 Kuzeye doðru devam eden Emerald Bulvarýndasýn. Gezi yolu buranýn
 güneyinde kalýyor.
 ~
@@ -6202,6 +5870,11 @@ D0
 ~
 ~
 0 -1 3121
+D1
+Bakýmsýz bir toplanma yeri görüyorsun.
+~
+~
+0 -1 3363
 D2
 ~
 ~
@@ -6309,6 +5982,11 @@ D0
 ~
 ~
 0 -1 3101
+D1
+Bakýmsýz bir toplanma yeri görüyorsun.
+~
+~
+0 -1 3362
 D2
 ~
 ~
@@ -6781,6 +6459,11 @@ Karanlýk bir sokakla kesiþimi görüyorsun.
 ~
 ~
 0 -1 3251
+D3
+Bakýmsýz bir toplanma yeri görüyorsun.
+~
+~
+0 -1 3361
 S
 #3251
 Duvar Yolu~
@@ -7239,6 +6922,11 @@ Selenge'ýn sakin kýsýmlarýndan biri. Doðudan insanlarýn dualar okurken
 gelen seslerini duyabiliyorsun.
 ~
 0 0 1
+D0
+Bakýmsýz bir toplanma yeri görüyorsun.
+~
+~
+0 -1 3360
 D1
 Klan yolu doðuya devam ediyor.
 ~
@@ -7503,6 +7191,58 @@ Merdivenler meyhaneye iniyor.
 ~
 ~
 0 -1 3356
+S
+#3360
+Toplanma yeri~
+Kamenilik adýnda bir dine mensup kiþilerin toplandýðý bir yerdesin.
+Duvarlarýnda bazý resimlerin olduðu geniþçe ama oldukça bakýmsýz
+bir salon. Gelip dua eden birkaç kiþi görüyorsun.
+~
+0 0 1
+D2
+Klan yolunu görüyorsun
+~
+~
+0 -1 3301
+S
+#3361
+Toplanma yeri~
+Niryanilik adýnda bir dine mensup kiþilerin toplandýðý bir yerdesin.
+Duvarlarýnda bazý resimlerin olduðu geniþçe ama oldukça bakýmsýz
+bir salon. Gelip dua eden birkaç kiþi görüyorsun.
+~
+0 0 1
+D1
+Duvar yolunu görüyorsun
+~
+~
+0 -1 3250
+S
+#3362
+Toplanma yeri~
+Nyahilik adýnda bir dine mensup kiþilerin toplandýðý bir yerdesin.
+Duvarlarýnda bazý resimlerin olduðu geniþçe ama oldukça bakýmsýz
+bir salon. Gelip dua eden birkaç kiþi görüyorsun.
+~
+0 0 1
+D3
+Park yolunu görüyorsun
+~
+~
+0 -1 3131
+S
+#3363
+Toplanma yeri~
+Sintaryanlýk adýnda bir dine mensup kiþilerin toplandýðý bir yerdesin.
+Duvarlarýnda bazý resimlerin olduðu geniþçe ama oldukça bakýmsýz
+bir salon. Gelip dua eden birkaç kiþi görüyorsun.
+~
+0 0 1
+D3
+Klan yolunu görüyorsun
+~
+~
+0 -1 3125
 S
 #0
 
@@ -7894,6 +7634,10 @@ M 0 3012   6 3072  1	* the healer in the dark temple
 O 0 3135    2 3135	* a fountain before the temple of sun
 O 0 3010    1 3069	* donation pit in the temple of sun
 O 0 3010    1 3072	* donation pit in the temple of dark
+M 0 3174   1 3360  1 * kameni dindar
+M 0 3175   1 3361  1 * niryani dindar
+M 0 3176   1 3362  1 * nyahi dindar
+M 0 3177   1 3363  1 * sintaryan dindar
 S
 
 #SHOPS
@@ -7948,6 +7692,10 @@ M 3026 spec_assassinater        * assassin
 M 3003 spec_repairman		* weaponsmith
 M 3004 spec_repairman		* armourer
 M 3173 spec_wishmaster          * hüssam
+M 3174 spec_kameni_dindar
+M 3175 spec_niryani_dindar
+M 3176 spec_nyahi_dindar
+M 3177 spec_sintaryan_dindar
 S
 
 #OMPROGS

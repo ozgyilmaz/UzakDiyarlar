@@ -11,7 +11,7 @@ Maxvnum 1299
 Path 3k 4y k~
 END
 
-#MOBILES
+#NEW_MOBILES
 #1200
 Heimdall~
 Heimdall~
@@ -23,12 +23,7 @@ leaves his side, and shall remain unwinded until the dread ship Naglfar sails
 towards Valhalla on the dawn of Ragnarok.
 ~
 human~
-ABKTVe CDFJZ 1000 0
-97 30 1d1+19999 1d1+499 5d4+40 crush
--20 -20 -20 -10
-ACDEFHIKLNOT ABP CD 0
-stand stand male 0
-0 0 large 0
+ABKTVe CDFJZ 97
 #0
 
 #OBJECTS

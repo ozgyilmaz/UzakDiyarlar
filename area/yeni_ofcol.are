@@ -14,7 +14,7 @@ END
 #FLAG
 AB
 
-#MOBILES
+#NEW_MOBILES
 #600
 þehir muhafýzý muhafýz~
 Ofcol þehir muhafýzý~
@@ -26,12 +26,7 @@ you, this guard will only use his deadly skills for the good of the citizens of
 Ofcol.
 ~
 human~
-ACT N 1000 0
-19 0 3d9+333 9d9+100 2d7+5 none
--4 -4 -4 7
-CDEIKLU 0 0 0
-stand stand male 5
-0 0 medium 0
+ACT N 19
 #601
 mareþal diana~
 Mareþal Diana~
@@ -44,12 +39,7 @@ is the hardest metal she can find.  She is willing to defend Ofcol to her
 death.
 ~
 human~
-ABQKe DHN 1000 0
-73 0 10d10+12000 33d9+100 4d16+20 none
--51 -51 -51 -23
-EIKU AB 0 0
-stand stand female 250
-0 0 medium 0
+ABQKe DHN 73
 #602
 derrick kaptan muhafýz þehir muhafýzý~
 Kaptan Derrick~
@@ -61,12 +51,7 @@ descendent of a surviving cityguard of old Thalos.  He believes that everything
 has to be hard won to be kept, and that laxity is for the weak.
 ~
 human~
-AGQ DHN 1000 0
-27 0 5d10+650 27d9+100 2d10+7 none
--8 -8 -8 4
-EIKU 0 0 0
-stand stand male 250
-0 0 medium 0
+AGQ DHN 27
 #603
 jacklyn kaptan muhafýz þehir muhafýzý~
 Kaptan Jacklyn~
@@ -79,12 +64,7 @@ or her magic, no one has ever found out.  She isn't very strong physically, but
 she need not be.
 ~
 human~
-ABR DN 1000 0
-27 0 5d10+600 27d9+100 2d10+6 none
--7 -7 -7 2
-FU 0 0 0
-stand stand female 250
-0 0 medium 0
+ABR DN 27
 #604
 jim demirci~
 Demirci Jim~
@@ -95,12 +75,7 @@ smiling a very big smile, as he looks at your coins.  You wonder if he likes
 the metals or the value of the coins.
 ~
 human~
-AB N 1000 0
-30 0 6d12+1853 15d9+100 4d6+10 none
--13 -13 -13 2
-EFNU 0 0 0
-stand stand male 750
-0 0 medium 0
+AB N 30
 #605
 sam~
 Sam~
@@ -110,12 +85,7 @@ Sam is a middle-aged workman.  He looks tired, but never too tired to get that
 last sale from you.  He grins at you slightly.
 ~
 human~
-AB N 1000 0
-30 0 6d12+1853 15d9+100 4d6+10 none
--13 -13 -13 2
-EFNU 0 0 0
-stand stand male 250
-0 0 medium 0
+AB N 30
 #606
 bayan tracy~
 Bayan Tracy~
@@ -126,12 +96,7 @@ the hard ways of this world and is ready for it.  She spends her time at the
 shop, trading little things (for a wee bit of profit).
 ~
 human~
-AB N 1000 0
-20 0 3d9+1333 10d9+100 2d8+7 none
--7 -7 -7 3
-EFNU 0 0 0
-stand stand female 450
-0 0 medium 0
+AB N 20
 #607
 marty~
 Marty~
@@ -142,12 +107,7 @@ son, Jim, raise and slaughter the animals for him.  Marty still knows how to
 kill, though.
 ~
 human~
-AB N 1000 0
-30 0 6d12+1853 15d9+100 4d6+10 none
--13 -13 -13 2
-EFNU 0 0 0
-stand stand male 50
-0 0 medium 0
+AB N 30
 #608
 elizabeth çiftçi~
 Çiftçi Elizabeth~
@@ -159,12 +119,7 @@ Farmer Elizabeth smiles at you nicely, but you bet she is doing that just to
 get a good price off of you!
 ~
 human~
-AB N 1000 0
-20 0 3d9+1333 10d9+100 2d8+7 none
--7 -7 -7 3
-EFNU 0 0 0
-stand stand female 250
-0 0 medium 0
+AB N 20
 #609
 nine jenkins~
 Jenkins Nine~
@@ -176,12 +131,7 @@ every time she tastes her whiskey, which is quite often!
 Granny Jenkins cackles again.
 ~
 human~
-AB N 500 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand female 5
-0 0 medium 0
+AB N 6
 #610
 jack~
 Jack~
@@ -192,12 +142,7 @@ their shared affinity for slaughtering animals.)  Jack leers at you as you
 enter.  "Came by to watch, eh?", he asks.
 ~
 human~
-ABFH 0 200 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNU 0 0 0
-stand stand male 5
-0 0 medium 0
+ABFH 0 12
 #611
 Sarah çiftçi~
 Çiftçi Sara~
@@ -208,12 +153,7 @@ that, she doesn't look that bad.  She smiles at you demurely, and goes back to
 her work.
 ~
 human~
-ABH 0 800 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand female 5
-0 0 medium 0
+ABH 0 5
 #612
 tavuk piliç~
 bir piliç~
@@ -223,12 +163,7 @@ The hen has yellow feathers and small wings.  It looks like a chicken, if
 you've ever seen one.
 ~
 human~
-AHI 0 0 0
-1 0 2d6+10 0d9+100 1d4+0 none
-9 9 9 10
-EFNU 0 0 0
-stand stand female 0
-0 0 medium 0
+AHI 0 1
 #613
 inek~
 inek~
@@ -237,12 +172,7 @@ Bir inek burada, otluyor.
 The cow is here happily grazing.  It moos at you and goes back to grazing.
 ~
 human~
-AI 0 0 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AI 0 5
 #614
 inek~
 inek~
@@ -251,12 +181,7 @@ Bir inek burada, saðýlmayý bekliyor.
 The cow is just standing here.  She moos at you and otherwise ignores you.
 ~
 human~
-ABI 0 0 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand female 0
-0 0 medium 0
+ABI 0 5
 #615
 genç at~
 genç at~
@@ -266,12 +191,7 @@ The horse whinnies at you, then runs around you a few times, then just goes
 back to grazing.
 ~
 human~
-AFHI 0 0 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AFHI 0 6
 #616
 domuz~
 domuz~
@@ -280,12 +200,7 @@ Bir domuz burada oynarken, hem kendisini hem seni pislik içinde býrakýyor.
 The pig looks dirty.  It snorts and sniffs at you, then goes back to its slop.
 ~
 pig~
-ABI 0 0 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-EFNR 0 0 0
-stand stand none 0
-0 0 medium 0
+ABI 0 4
 #617
 þehirli adam erkek~
 Þehirli~
@@ -296,12 +211,7 @@ for you.  He looks at you strangely, though, wondering why you are so armed and
 armored.
 ~
 human~
-AH 0 500 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand male 5
-0 0 medium 0
+AH 0 5
 #618
 þehirli kadýn~
 þehirli~
@@ -312,12 +222,7 @@ for you.  She looks at you strangely, though, wondering why you are so armed
 and armored.
 ~
 human~
-AH 0 500 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand female 5
-0 0 medium 0
+AH 0 5
 #619
 çocuk oðlan erkek~
 çocuk~
@@ -327,12 +232,7 @@ The little boy looks up at you and says, 'Hi.  Can I have a piece of candy?'
 He then smiles and runs away, remembering his game.
 ~
 human~
-AH 0 500 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+AH 0 3
 #620
 çocuk kýz~
 çocuk~
@@ -342,12 +242,7 @@ The little girl looks up at you and says, 'Hi.  Can I have a pretty little
 coin?'  She then smiles and runs away, remembering her game.
 ~
 human~
-AH 0 500 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNU 0 0 0
-stand stand female 0
-0 0 medium 0
+AH 0 3
 #621
 hizmetçi kadýn~
 hizmetçi~
@@ -358,12 +253,7 @@ Master and Mistress come back.  You will get me in trouble!  Shoo!', she says.
 She hits you with her broom.
 ~
 human~
-AH 0 500 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand female 2
-0 0 medium 0
+AH 0 5
 #622
 Nyles~
 Barmen Nyles~
@@ -374,12 +264,7 @@ join in.  He keeps an eye on you and his glasses, making sure you don't steal
 any.
 ~
 human~
-AB 0 1000 0
-30 0 6d12+853 15d9+100 4d6+8 none
--9 -9 -9 6
-EFNU 0 0 0
-stand stand male 50
-0 0 medium 0
+AB 0 30
 #623
 þehir muhafýzý muhafýz~
 Ofcol þehir muhafýzý~
@@ -391,12 +276,7 @@ you, this guard will only use his deadly skills for the good of the citizens of
 Ofcol.
 ~
 human~
-ABT N 1000 0
-19 0 3d9+333 9d9+100 2d7+5 none
--4 -4 -4 7
-CDEIKLU 0 0 0
-stand stand male 50
-0 0 medium 0
+ABT N 19
 #624
 ozan~
 bir ozan~
@@ -407,12 +287,7 @@ peaceful city of Ofcol, and to sing of its unmatched glories.  He smiles at
 you, hinting toward a tip from you in ever a subtle way.
 ~
 human~
-AB N 800 0
-13 0 2d10+170 6d9+100 2d5+3 none
--1 -1 -1 8
-EFNU 0 0 0
-stand stand male 50
-0 0 medium 0
+AB N 13
 #625
 uþak~
 bir uþak~
@@ -421,12 +296,7 @@ Bir uþak burada, Altýn Hisar'ýn Bekçisine kimi ihtiyaçlarýný taþýyor.
 The servant smiles good-naturedly at you, then goes on his duties.
 ~
 human~
-AG N 1000 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 5
-0 0 medium 0
+AG N 6
 #626
 bey~
 bir bey~
@@ -435,12 +305,7 @@ Bir bey burada, aceleyle bir iþten diðerine koþuþturuyor.
 This young man smiles at you, but is too busy to chat.
 ~
 human~
-AG N 1000 0
-7 0 2d6+85 3d9+100 1d8+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 5
-0 0 medium 0
+AG N 7
 #627
 ulak~
 bir ulak~
@@ -449,12 +314,7 @@ Bir ulak burada, þövalyesine bir mesaj yolluyor.
 The page smiles for you, asking if he can do you a favor too.
 ~
 human~
-AG N 1000 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand male 5
-0 0 medium 0
+AG N 5
 #628
 rahibe~
 Ofcol'un Rahibesi~
@@ -465,12 +325,7 @@ with the world.  She devotes all her time to help teach you the ways of her
 god, Bahamut.  The dragon symbol around her neck looks almost alive.
 ~
 human~
-ABKe HN 1000 0
-30 20 6d12+2853 15d9+100 4d6+18 none
--19 -19 -19 -6
-EFNU AB 0 0
-stand stand female 50
-0 0 medium 0
+ABKe HN 30
 #629
 zimamdar Jerrold~
 Zimamdar Jerrold~
@@ -481,12 +336,7 @@ STANDING here, young man?  Go help that other squire there!", he yells.  He
 turns to you and with a consipatory tone, whispers, "Kids!"
 ~
 human~
-AGT BHN 1000 0
-20 0 4d10+360 10d9+100 2d8+5 none
--4 -4 -4 7
-CDEIKLU 0 0 0
-stand stand male 50
-0 0 medium 0
+AGT BHN 20
 #630
 ejderhalordu ejderha lordu~
 bir Ejderhalordu~
@@ -497,12 +347,7 @@ power.  He smiles at you with a vicious grin.  You're happy that he doesn't
 look upset at your presence.
 ~
 human~
-AB BHN 1000 0
-29 0 6d12+778 14d9+100 2d12+8 none
--9 -9 -9 6
-EFNU 0 0 0
-stand stand male 50
-0 0 medium 0
+AB BHN 29
 #631
 ejderha altýn~
 Kadim Altýn Ejderha~
@@ -513,12 +358,7 @@ realizing that you're no danger to him, he ignores you.  He waves to one of
 his attendants to escort you away.
 ~
 dragon~
-ABC BHN 1000 0
-48 70 25d20+9250 21d9+900 5d17+34 none
--54 -54 -54 -34
-EFNR 0 0 0
-stand stand male 5000
-0 0 medium 0
+ABC BHN 48
 #632
 refakatçi~
 bir ejderha refakatçisi~
@@ -528,12 +368,7 @@ This elder servant to the Gold Dragon is very loyal to him, willing to risk
 his life for his liege.
 ~
 human~
-ABR BN 1000 0
-21 0 3d9+333 21d9+100 2d7+4 none
--4 -4 -4 3
-FU 0 0 0
-stand stand male 250
-0 0 medium 0
+ABR BN 21
 #633
 ejderhaþövalyesi ejderha þövalyesi~
 bir Ejderhaþövalyesi~
@@ -543,12 +378,7 @@ This person looks like a dragon itself.  His golden scales gleam with power.
 He smiles at you, showing very sharp teeth.
 ~
 human~
-AG BN 1000 0
-21 0 4d10+360 10d9+100 4d4+5 none
--5 -5 -5 7
-EFNU 0 0 0
-stand stand male 250
-0 0 medium 0
+AG BN 21
 #634
 þehir muhafýzý muhafýz~
 Ofcol þehir muhafýzý~
@@ -560,12 +390,7 @@ you, this guard will only use his deadly skills for the good of the citizens of
 Ofcol.
 ~
 human~
-ABT N 1000 0
-19 0 3d9+333 9d9+100 2d7+5 none
--4 -4 -4 7
-CDEIKLU 0 0 0
-stand stand male 50
-0 0 medium 0
+ABT N 19
 #635
 old man~
 the Old Man~
@@ -574,12 +399,7 @@ An Old man is standing here, informing you.
 He is very old. But he still waits for the enterance.
 ~
 human~
-ABCGTe N 1000 0
-81 0 3d9+13333 9d9+100 5d30+45 none
--24 -24 -24 -7
-CDEFGIKLUe 0 0 0
-stand stand male 5
-0 0 giant 0
+ABCGTe N 81
 #0
 
 #OBJECTS

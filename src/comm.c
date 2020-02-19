@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -443,7 +455,7 @@ int main( int argc, char **argv )
     game_loop_mac_msdos( );
 #endif
 
-	data_read();
+	ud_data_read();
 
 #if defined(unix)
     control = init_socket( port );
@@ -2166,8 +2178,6 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
     case CON_GET_NEW_RACE:
 	one_argument(argument,arg);
-	// ilk denemede string önünde '\376' geliyor, ýrk seçimi hata veriyor. dolaylý çözüm!
-	if(argument[0]<0) argument++; if(arg[0]<0) memmove(arg, arg+1, strlen(arg));
 
 	if (!str_cmp(arg,"yardým"))
 	{
@@ -2269,27 +2279,16 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	do_help(ch,(char*)"sýnýflar");
 
 	strcpy( buf, "Bir sýnýf seçin:\n\r[ " );
-	sprintf(buf1,"             (Devam ediyor:)  ");
 	for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
 	{
 	  if (class_ok(ch,iClass))
 	    {
-	     if (iClass < 7 )
-	      {
-	      	strcat( buf, class_table[iClass].name[1] );
-	      	strcat( buf, " ");
-	      }
-	     else
-	      {
-	      	strcat( buf1, class_table[iClass].name[1] );
-	      	strcat( buf1, " ");
-	      }
+	     strcat( buf, class_table[iClass].name[1] );
+	     strcat( buf, " ");
 	    }
 	}
-	strcat( buf, "\n\r " );
-	strcat( buf1, "]:\n\r " );
+	strcat( buf, "]\n\r " );
 	write_to_buffer( d, buf, 0 );
-	write_to_buffer( d, buf1, 0 );
             write_to_buffer(d,
 		"Sýnýfýn ne olsun (bilgi: www.uzakdiyarlar.net)? ",0);
         d->connected = CON_GET_NEW_CLASS;
@@ -2571,7 +2570,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	ch->next	= char_list;
 	char_list	= ch;
 	d->connected	= CON_PLAYING;
-	data_write();
+	ud_data_write();
 
 	/*
 	 *

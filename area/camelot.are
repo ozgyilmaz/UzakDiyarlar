@@ -11,7 +11,7 @@ Maxvnum 17500
 Path 4d 3k 2b 3k d 2k 5d~
 END
 
-#MOBILES
+#NEW_MOBILES
 #17301
 þövalye namlý~
 Namlý þövalye~
@@ -23,12 +23,7 @@ asýlý duran dikenli topuzu görebiliyorsun. Yaverinin elinde duran bayrak,
 
 ~
 human~
-0 0 500 0
-22 0 5d10+400 5d5+1000 4d4+6 pound
--5 -5 -5 5
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+0 0 22
 #17302
 yaver~
 Bir yaver~
@@ -38,12 +33,7 @@ Bir yaver lordunun verdiði görev için burada. Berbat giyinmiþ, kötü kokuyor ve
 acelesi var gibi gözüküyor.
 ~
 human~
-4 32768 250 0
-19 0 3d9+308 5d5+1000 2d7+5 pound
--4 -4 -4 5
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+4 32768 19
 #17303
 þövalye seçkinlik~
 Seçkinliðin Þövalyesi~
@@ -53,12 +43,7 @@ Tam olarak zýrhlarla kuþanmýþ olan þövalye, teçhizatlý bir atýn üzerinde
 duruyor ve bir mýzrak taþýyor.
 ~
 human~
-0 8192 750 0
-25 0 5d10+550 5d5+1000 2d10+7 slash
--7 -7 -7 4
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+0 8192 25
 #17304
 arthur kral~
 Kral Arthur~
@@ -69,12 +54,7 @@ resmedildiði tam tabakalý bir zýrh giyinmiþ. Tuhaf bir edayla Excalibur'u
 taþýyor.
 ~
 human~
-2|8388608 8|128 1000 0
-38 0 10d10+1600 5d5+1000 5d6+12 pound
--13 -13 -13 3
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|8388608 8|128 38
 #17305
 benlad þövalye yeþil~
 Sir Benlad de Haudtesert (yeþil þövalye)~
@@ -84,12 +64,7 @@ Sir Benlad ünlü yeþil zýrhýný kuþanmýþ. Aðýr silahlý görünüyor ve elinde
 kocaman bir balta taþýyor.
 ~
 human~
-32 128 250 0
-30 0 6d12+853 5d5+1000 4d6+8 slash
--9 -9 -9 3
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+32 128 30
 #17306
 galahad þövalye~
 Sir Galahad~
@@ -98,12 +73,7 @@ Sir Galahad, yiðitlik timsali, Lancelot ve Elane'nin piçi, burada.
 Sir Galahad beyaz zýrhýný giymiþ ve çift elli bir kýlýç taþýyor.
 ~
 human~
-2|8388608 4|8|32|8192 1000 0
-40 0 15d10+1850 5d5+1000 4d8+13 slash
--13 -13 -13 3
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|8388608 4|8|32|8192 40
 #17307
 kara þövalye~
 Kara þövalye~
@@ -113,12 +83,7 @@ Kara zýrhýný kuþanmýþ, kalýn miðferli kara bir þövalye, çift-el kýlýcýna
 dayanmýþ burada duruyor.
 ~
 human~
-2|32 8|32 0 0
-20 0  3d9+333 5d5+1000 2d8+5 pound
--4 -4 -4 5
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|32 8|32 20
 #17308
 gareth þövalye~
 Sir Gareth~
@@ -128,12 +93,7 @@ Sir Gareth, Lot'un oðl, bir çok rengi taþýyan zýrhýný gururla taþýyor.
 Soylu bir genç bayaný tehlikeden kurtarmak için sabýrsýz görünüyor.
 ~
 human~
-2 8192 750 0
-34 0 10d10+1200 5d5+1000 4d7+10 pound
--11 -11 -11 3
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2 8192 34
 #17309
 garlon þövalye~
 Sir Garlon~
@@ -143,12 +103,7 @@ Sir Garlon (aþaðýlýk adam) burada gizleniyor. Görünmezlik gücü O'na,
 þeytani bir cadý tarafýndan kötü amaçlar için verilmiþti.
 ~
 human~
-2|32 2|8|32768 -1000 0
-28 0 6d12+703 5d5+1000 2d12+8 pound
--8 -8 -8 4
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|32 2|8|32768 28
 #17310
 gawaine þövalye~
 Sir Gawaine~
@@ -158,12 +113,7 @@ Sir Gawaine, Arthur'un kýzýl saçlý kuzeni, at üstünde, zýrh kuþanmýþ ve
 Galantine adýndaki uzun kýlýcýný taþýyor.
 ~
 human~
-2 0 0 0
-34 0 10d10+1200 5d5+1000 4d7+10 pound
--11 -11 -11 3
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2 0 34
 #17311
 lamorak þövalye~
 Sir Lamorak~
@@ -174,12 +124,7 @@ Morgan le Fey'in onikilisinin yokedicisi ve Sir Gawaine'in baþ-düþmaný burada,
 zýrh kuþanmýþ ve at üstünde bekliyor.
 ~
 human~
-2 0 0 0
-30 0 6d12+853 5d5+1000 4d6+8 smash
--9 -9 -9 3
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2 0 30
 #17312
 lancelot þövalye~
 Sir Lancelot du Lake~
@@ -189,12 +134,7 @@ Sir Lancelot beyaz bir ata binmiþ ve cilalý çelik bir zýrh giymiþ. Kalkaný
 havada, ve mýzraðý seni selamlamak için kalkmýþ.
 ~
 human~
-2|512|1024|8388608 8|32|128|8192 1000 0
-44 0 25d10+2750 5d5+1000 8d4+15 crush
--15 -15 -15 2
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|512|1024|8388608 8|32|128|8192 44
 #17313
 merlin büyücü~
 Merlin~
@@ -205,12 +145,7 @@ bezenmiþ bir cübbeye sarýlmýþ, uzun bir asa taþýyor. Ak sakalý tuhaf çenesini
 ve parlayan mavi gözlerini gizliyor.
 ~
 human~
-2|4|128 4|8|16|512|524288 750 0
-40 0 15d10+1850 5d5+1000 4d8+13 pound
--13 -13 -13 3
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|4|128 4|8|16|512|524288 40
 #17314
 morgan büyücü~
 Morgan Le Fey~
@@ -221,12 +156,7 @@ gördüðün anda hýrlýyor. Ýpek cübbesiyle iðrenç vücudunu gizlemek için çok çaba
 harcamýyor.
 ~
 human~
-4|32|128 0 -1000 0
-24 0 5d10+500 5d5+1000 2d10+6 slap
--6 -6 -6 4
-EFNU 0 0 0
-stand stand female 1000
-AHMV ABCDEFGHIJK medium 0
+4|32|128 0 24
 #17315
 pellinore kral~
 Kral Pellinore~
@@ -236,12 +166,7 @@ King Pellinore sana nesillerdir soyunun aradýðý Görevci Canavar'ý görüp
 görmediðini soruyor. Ortayaþý biraz geçmiþ olsa da iyi bir savaþçýya benziyor.
 ~
 human~
-0 32 0 0
-28 0 6d12+703 5d5+1000 2d12+8 pound
--8 -8 -8 4
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+0 32 28
 #17316
 canavar görevci~
 Görevci Canavar~
@@ -254,12 +179,7 @@ Kesinlikle KAN KAYBEDÝYORSUN!
 Görevci Canavar mükemmel durumda.
 ~
 human~
-2|32|128 8|32|32768|65536 -1000 0
-24 0 5d10+500 5d5+1000 2d10+6 claw
--6 -6 -6 4
-FMU J HIJK FI
-stand stand none 1000
-AHMVZc ABCDEFGHIJKLPQUVX huge 0
+2|32|128 8|32|32768|65536 24
 #17317
 tristram~
 Lyoness'li Sir Tristram~
@@ -269,12 +189,7 @@ Sir Tristram, Isolade'in talibi, Lancelot'tan sonra ikinci olarak görülen
 þövalyedir. Tabakalý bir zýrh giymiþ ve çift-elli bir kýlýç taþýyor.
 ~
 human~
-2 0 0 0
-36 0 10d10+1400 5d5+1000 3d10+11 blast
--12 -12 -12 3
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2 0 36
 #17318
 mordred~
 Mordred~
@@ -284,12 +199,7 @@ Mordred, Lancelot ve Guniver'in gayrý-meþru oðullarý, sihirli zýrhýný giyiyor
 ve lanetli asasýný taþýyor.
 ~
 human~
-32|128 128|32768 -1000 0
-34 0 10d10+1200 5d5+1000 4d7+10 pound
--11 -11 -11 3
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+32|128 128|32768 34
 #17319
 etkilenmiþ þövalye bilinen~
 Bilinirliðin etkilenmiþ þövalyesi~
@@ -299,12 +209,7 @@ Paslý bir zýrh ve çentikli bir kýlýç taþýyan bir þövalye. Daðýnýk görünüyor ve
 sana anlamsýz gözlerle bakýyor.
 ~
 human~
-32 1024 -500 0
-21 0 4d10+360 5d5+1000 4d4+5 pound
--5 -5 -5 5
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+32 1024 21
 #17320
 etkilenmiþ þövalye seçkinlik~
 Seçkinliðin etkilenmiþ þövalyesi~
@@ -314,12 +219,7 @@ Seçkinliðin etkilenmiþ þövalyesi burada paslý zýrhýnýn içinde duruyor. Gözleri
 anlamsýz, kýlýcý çentikli ve oldukça daðýtmýþ görünüyor.
 ~
 human~
-32|128 1024 -750 0
-24 0 5d10+500 5d5+1000 2d10+6 pound
--6 -6 -6 4
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+32|128 1024 24
 #17321
 kadýn bekleyen~
 Bekleyen bir kadýn~
@@ -329,12 +229,7 @@ Bekleyen bir kadýn sana yaklaþýp son görevinle ilgili ayrýntýlarý vermen
 konusunda baský yapýyor. Uzun bir elbise giymiþ ve saçlarýna çiçekler bezenmiþ.
 ~
 human~
-0 262144 500 0
-10 0 2d7+121 5d5+100 2d4+2 punch
-1 1 1 7
-EFNU 0 0 0
-stand stand female 1000
-AHMV ABCDEFGHIJK medium 0
+0 262144 10
 #17322
 kraliçe gwenivere~
 Kraliçe Gwenivere~
@@ -343,12 +238,7 @@ Kraliçe Gwenivere~
 Gwenivere sana yasak aþký Lancelot ile ilgili bir hikaye anlatýyor.
 ~
 human~
-2|4 0 0 0
-12 0 2d10+150 5d5+100 1d10+3 punch
-0 0 0 7
-EFNU 0 0 0
-stand stand female 1000
-AHMV ABCDEFGHIJK medium 0
+2|4 0 12
 #17323
 yaver etkilenmiþ~
 Etkilenmiþ yaver~
@@ -357,12 +247,7 @@ Etkilenmiþ bir yaver burada hareketsizce duruyor.
 Etkilenmiþ bir yaver üzerine karýþýk ve çeþitli deri giysiler giyinmiþ.
 ~
 human~
-4|128 1024|32768 -250 0
-18 0 3d9+283 5d5+1000 2d7+4 pound
--3 -3 -3 6
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+4|128 1024|32768 18
 #17324
 barant kral apres þövalye~
 Barant Les Apres (Yüz Þövalyenin Kralý)~
@@ -374,12 +259,7 @@ pelerin giymiþ ve bir zincirin ucunda dikenli bir topuz taþýyor. Silahýný
 kaldýrýp sana doðru sýrýtýyor.
 ~
 human~
-0 0 750 0
-28 0 6d12+703 5d5+1000 2d12+8 pound
--8 -8 -8 4
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+0 0 28
 #17325
 dagonet ahmak soytarý~
 Dagonet (Arthur'un saray soytarýsý)~
@@ -390,12 +270,7 @@ Dagonet, Arthur'un saray soytarýsý, sanatýnýn ustasýdýr. Birkaç býçaðý
 koruyabileceði izlenimini alýyorsun.
 ~
 human~
-2|128 0 1000 0
-30 0 6d12+853 5d5+1000 4d6+8 pound
--9 -9 -9 3
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|128 0 30
 #17326
 turquine þövalye~
 Turquine~
@@ -405,12 +280,7 @@ Turquine pullu bir zýrh ve kurt þekilli bir miðfer giymiþ. Sýska görünüþlü
 bir adam ve gözleri sürekli saðý solu tarýyor.
 ~
 human~
-2|4|128 32768 -500 0
-32 0 10d10+1000 5d5+1000 6d4+9 pound
--10 -10 -10 3
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|4|128 32768 32
 #17327
 perimones þövalye~
 Perimones (Kýzýl Þövalye)~
@@ -421,12 +291,7 @@ bir adam. Yakut rengi zýrhý, günýþýnda parýldarken, kolluklarýndaki kýzýl
 Galenvine armasý dikkatini çekiyor.
 ~
 human~
-2 8192 500 0
-32 0 10d10+1000 5d5+1000 6d4+9 pound
--10 -10 -10 3
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2 8192 32
 #17328
 asil bayan kadýn acý~
 Acýlý bir soylu kadýný~
@@ -436,12 +301,7 @@ Bu soylu genç kýz, magandalar tarafýndan fena benzetilmiþ. Elleri arkadan
 baðlanmýþ biçimde duruyor. Nazik uzun elbisesi ise kirli ve harap olmuþ.
 ~
 human~
-2 0 200 0
-8 0 2d7+96 5d5+100 1d7+2 punch
-3 3 3 8
-EFNU 0 0 0
-stand stand female 1000
-AHMV ABCDEFGHIJK medium 0
+2 0 8
 #17329
 asilzade~
 bir asilzade~
@@ -452,12 +312,7 @@ Ne kadar varlýklý olduðunu, taktýðý zincirler ve taþýdýðý þiþkin cüzdanla
 gözler önüne seriyor. Bir yerle gitmeye niyetliymiþ gibi görünüyor.
 ~
 human~
-128 0 0 0
-15 0 3d9+208 5d5+100 2d6+3 punch
--2 -2 -2 6
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+128 0 15
 #17330
 köle~
 bir köle~
@@ -466,12 +321,7 @@ Pis bir köle buralarda geziniyor.
 Pislikler içindeki bir köle, gerçekten berbat kokuyor.
 ~
 human~
-4|128 0 0 0
-5 0 2d6+60 5d5+100 1d6+1 punch
-5 5 5 9
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+4|128 0 5
 #17331
 tüccar~
 bir tüccar~
@@ -480,12 +330,7 @@ Parlak giysiler içindeki bir tüccar, mallarýný sana sunuyor!
 Mallarýna dikkat çekebilmek için, bu tüccar oldukça parlak bir tünik giyinmiþ.
 ~
 human~
-4|128 0 0 0
-10 0  2d7+121 5d5+100 2d4+2 punch
-1 1 1 7
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+4|128 0 10
 #17332
 keþiþ~
 Bir keþiþ~
@@ -495,12 +340,7 @@ Bu keþiþ, kahverengi kapþonlu bir cübbe giyinmiþ. Cübbesini beline bir parça
 iple baðlamýþ ve kafasýnýn tepesi katolik modasýna uygun olarak traþlanmýþ.
 ~
 human~
-0 0 0 0
-7 0 2d6+85 5d5+100 1d8+1 pound
-4 4 4 8
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+0 0 7
 #17333
 mandolinci~
 bir mandolinci~
@@ -509,12 +349,7 @@ Bir mandolinci burada neþeli biz ezgi tutturmuþ.
 Festival kýyafetleribe bürünmüþ bir mandolinci burada mandolinini týngýrdatýyor.
 ~
 human~
-2|4 0 100 0
-3 0 2d6+60 5d5+100 1d6+1 punch
-5 5 5 9
-EFNU 0 0 0
-stand stand female 1000
-AHMV ABCDEFGHIJK medium 0
+2|4 0 3
 #17334
 ozan~
 bir ozan~
@@ -523,12 +358,7 @@ Bir ozan burada Khezranlý Randalin adýna aðýt yakýyor.
 Ozan, ipek bacaklýklar, deri bir yelek ve parlak turuncudan bir gömlek giyinmiþ.
 ~
 human~
-2|4 0 100 0
-4 0 2d6+60 5d5+100 1d6+1 punch
-4 5 5 9
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|4 0 4
 #17335
 palyaço~
 bir palyaço~
@@ -538,12 +368,7 @@ Palyaço, akrobatik hareketlerini kafa karýþtýran bir ahenkle gerçekleþtiriyor.
 
 ~
 human~
-2|4 0 100 0
-5 0 2d6+60 5d5+100 1d6+1 punch
-5 5 5 9
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|4 0 5
 #17336
 hizmetkar~
 bir hizmetkar~
@@ -552,12 +377,7 @@ Bir hizmetkar yanýndan rüzgar gibi geçiyor.
 Bir hizmetkar, elinde oldukça leziz görünen sýcak bir yemek taþýyor.
 ~
 human~
-4 32768 0 0
-2 0 2d6+20 5d5+100 1d6+1 punch
-5 5 5 9
-EFNU 0 0 0
-stand stand female 1000
-AHMV ABCDEFGHIJK medium 0
+4 32768 2
 #17337
 iblis~
 Siyah pullu koca bir iblis~
@@ -574,12 +394,7 @@ ortaya çýkan bir kaç pürüz, bu yaratýðýn Camelot'un yokoluþuna
 zemin hazýrlayan bazý þeyler üretmesine neden olmuþ.
 ~
 unique~
-ABKe 4|8|16|32|128|512|1024 -1000 0
-52 0 50d10+7750 5d5+5000 8d9+20 charge
--22 -22 -22 0
-EFNU 0 HIJK F
-stand stand none 1000
-AHMVZc ABCDEFGHIJKLPQUVX medium 0
+ABKe 4|8|16|32|128|512|1024 52
 #17338
 jack demir~
 Demir Jack~
@@ -589,12 +404,7 @@ Kaslarla donanmýþ kollarý olan Demir Jack, demirci önlüðünü ve deri
 bacaklýklarýný giyinmiþ.
 ~
 human~
-2|262144|524288 0 500 0
-30 0 6d12+853 5d5+1000 4d6+8 pound
--9 -9 -9 3
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|262144|524288 0 30
 #17339
 stirrup ahýr sorumlusu~
 Stirrup~
@@ -604,12 +414,7 @@ Stirrup kýsa bir adam ve deri yeleðini giyinmiþ. Kokusu ise ayný atlara
 benziyor.
 ~
 human~
-2 0 400 0
-25 0 5d10+550 5d5+1000 2d10+7 pound
--7 -7 -7 4
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2 0 25
 #17340
 binek atý~
 bir binek atý~
@@ -618,12 +423,7 @@ Bir binek atý burada.
 Uzun narin bacaklarý olan hýzlý bir binek atý, hafif malzemelerle eyerlenmiþ.
 ~
 human~
-256 0 0 0
-18 0 3d9+283 5d5+1000 2d7+4 charge
--3 -3 -3 6
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+256 0 18
 #17341
 savaþatý orta~
 orta boyutta bir savaþatý~
@@ -632,12 +432,7 @@ Orta boyutlarda bir savaþatý buraya baðlanmýþ.
 Orta boylu bir savaþatý aðýr malzemelerle eyerlenmiþ.
 ~
 human~
-256 0 0 0
-23 0 5d10+450 5d5+1000 3d6+6 charge
--6 -6 -6 4
-EFNU 0 0 0
-stand stand female 1000
-AHMV ABCDEFGHIJK medium 0
+256 0 23
 #17342
 savaþatý aðýr~
 Aðýr bir savaþatý~
@@ -646,12 +441,7 @@ Aðýr bir savaþatý yeri çifteleyerek, savaþa hazýr olduðunu gösteriyor!
 Koskoca ve aðýr zýrhlandýrýlmýþ bir savaþ atý, tamamen zincirlerle donatýlmýþ.
 ~
 human~
-256 0 0 0
-28 0 6d12+703 5d5+1000 2d12+8 charge
--8 -8 -8 4
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+256 0 28
 #17343
 akýncý sakson~
 bir Sakson akýncýsý~
@@ -661,12 +451,7 @@ Bir Sakson akýncýsý saksýný (evet bu bir silah ismidir) taþýyor ve çeþitli
 deri malzemelerle donanmýþ.
 ~
 human~
-2|4|32 65536 -200 0
-20 0 3d9+333 5d5+1000 2d8+5 charge
--4 -4 -4 5
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|4|32 65536 20
 #17344
 esir~
 bir esir~
@@ -676,12 +461,7 @@ Bu esir kirli ve bakýmsýz olmasýna raðmen bir zamanlar taþýdýðý asaleti hala
 duruþunda ve endamýnda barýndýrýyor.
 ~
 human~
-4|8388608 65536 0 0
-5 0 2d6+60 5d5+100 1d6+1 punch
-5 5 5 9
-EFNU 0 0 0
-stand stand female 1000
-AHMV ABCDEFGHIJK medium 0
+4|8388608 65536 5
 #17345
 þef sakson render~
 bir Sakson Þefi~
@@ -690,12 +470,7 @@ Bir Sakson þefi burada, akýncýlarýna liderlik ediyor!
 Sakson Þefi Render, savaþ ekipmanlarýný giyinmiþ bekliyor.
 ~
 human~
-2|4|32 8|32|65536 -500 0
-28 0 6d12+703 5d5+1000 2d12+8 pound
--8 -8 -8 4
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|4|32 8|32|65536 28
 #17346
 kuzey sýnýr nöbetçi~
 bir kuzey sýnýrý nöbetçisi~
@@ -704,12 +479,7 @@ Bir kuzey sýnýrý nöbetçisi burada sýnýrý istilacýlardan koruyor.
 Zincir zýrhlar giyinmiþ olan sýnýr nöbetçisi, standart yapým bir kýlýç taþýyor.
 ~
 human~
-2 32|8192 300 0
-20 0  3d9+333 5d5+1000 2d8+5 pound
--4 -4 -4 5
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2 32|8192 20
 #17347
 ileri karakol komutan~
 Kuzey karakol komutaný~
@@ -720,12 +490,7 @@ oturuyor.
 savaþta insanlara liderlik etmek için doðmuþ.
 ~
 human~
-2|1024 8|32|8192 500 0
-25 0 5d10+550 5d5+1000 2d10+7 pound
--7 -7 -7 4
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|1024 8|32|8192 25
 #17348
 iskoç klan üyesi~
 bir Ýskoç klan üyesi~
@@ -735,12 +500,7 @@ Bir Ýskoç klaný üyesi, ekoseli bir eteklik, deri terlikler, ve omuzlarýndan
 sarkan düz bir kumaþ giyinmiþ. 4 fit uzunluðunda oldukça güzel bir kýlýç taþýyor.
 ~
 human~
-2|4 0 0 0
-22 0 5d10+400 5d5+1000 4d4+6 punch
--5 -5 -5 5
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|4 0 22
 #17349
 þef klan iskoç~
 Ýskoç Klaný Þefi~
@@ -752,12 +512,7 @@ Görünüþe bakýlýrsa bir fýçý aleyi mideye indirdikten sonra bile viski içebilir.
 Görünüþe bakýlýrsa...
 ~
 human~
-2|4|512 0 -100 0
-28 0 6d12+703 5d5+1000 2d12+8 pierce
--8 -8 -8 4
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|4|512 0 28
 #17350
 toprak köle meþgul~
 Meþgul bir toprak kölesi~
@@ -766,12 +521,7 @@ Meþgul bir toprak kölesi burada, tarlalarý hasada hazýrlýyor.
 Toprak kölesinin bir tarla aracý ve üstüne giydiði bir paçavrasý var.
 ~
 human~
-2|4 0 0 0
-1 0 1d1+10 1d1+1 1d1+1 punch
-10 10 10 10
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|4 0 1
 #17351
 akýncý ingil~
 bir Ýngil akýncýsý~
@@ -782,12 +532,7 @@ Küçük bir kalkaný özel silahlarý olan Ýngil'i taþýyor. (kývrýk bir kýlýç türü)
 Deri parçalý bir zýrhý var.
 ~
 human~
-2|4|32 0 -200 0
-24 0 5d10+500 5d5+1000 2d10+6 pound
--6 -6 -6 4
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|4|32 0 24
 #17352
 þef ingil~
 Ýngil Þefi~
@@ -797,12 +542,7 @@ Deb bir adam olan Ýngil þefi, kana bulanmýþ ve her cinayetinde sinir bozucu bir
 kahkaha atýyor.
 ~
 human~
-2|32 32 -700 0
-30 0 6d12+853 5d5+1000 4d6+8 pound
--9 -9 -9 3
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|32 32 30
 #17353
 süvari birlik~
 süvari birliði~
@@ -812,12 +552,7 @@ Bu süvari birliði otuza yakýn orta boylu savaþatlarýna binmiþ þövalyeden
 oluþuyor.
 ~
 unique~
-2 0 200 0
-45 0 25d10+3000 5d5+1000 8d4+16 blast
--15 -15 -15 2
-C 0 0 0
-stand stand none 1000
-AHMV ABCDEFGHIJK huge 0
+2 0 45
 #17354
 piyade birlik~
 piyade birliði~
@@ -826,12 +561,7 @@ Piyade birliði burada Pict ordularýyla savaþýyor.
 Piyade birliði elliye yakýn kargýlý yaver ve sipahiden oluþuyor.
 ~
 unique~
-2 0 0 0
-40 0 15d10+1850 5d5+1000 4d8+13 blast
--13 -13 -13 3
-CO 0 0 0
-stand stand none 1000
-AHMV ABCDEFGHIJK huge 0
+2 0 40
 #17355
 bölük pict pictler~
 pict taburu~
@@ -841,12 +571,7 @@ Pict taburu beþ yüz civarý zayýf derecede zýrhlanmýþ eðitimsiz askerden
 oluþuyor.
 ~
 human~
-2 0 -100 0
-50 0 50d10+4250 5d5+5000 5d8+19 charge
--20 -20 -20 0
-CO 0 0 0
-stand stand none 1000
-AHMV ABCDEFGHIJK giant 0
+2 0 50
 #17356
 lider pict~
 Pict Lideri~
@@ -856,12 +581,7 @@ Pict Lideri kendisine þeytani bir görüntü kazandýran mavi savaþ boyalarýný
 sürmüþ. Zaten bu görüntü tuhaf boynuzlu miðferi ile de tamamlanýyor.
 ~
 human~
-2 0 -400 0
-40 0 15d10+1850 5d5+1000 4d8+13 pound
--13 -13 -13 3
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2 0 40
 #17357
 persante þövalye~
 Inde'den Persante (mavi þövalye)~
@@ -871,12 +591,7 @@ Masmavi zýrhý yüzünden, Mavi Þövalye olarak adlandýrýlan Persante, saðlam
 bir bineðin üzerinde mavi sancaðýný dalgalandýrýyor.
 ~
 human~
-8388608 128 400 0
-35 0 10d10+1300 5d5+1000 4d7+11 pound
--11 -11 -11 3
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+8388608 128 35
 #17358
 dodinas þövalye~
 Yýrtýcý Dodinas~
@@ -886,12 +601,7 @@ Dodinas tam bir silah ve dövüþ kasýrgasý, yaklaþan herkesi yerle bir ediyor.
 Ünlü bineði Rue'nin üzerinde duruyor..
 ~
 human~
-8388608 0 100 0
-32 0 10d10+1000 5d5+1000 6d4+9 pound
--10 -10 -10 3
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+8388608 0 32
 #17359
 lionel þövalye~
 Lionel~
@@ -901,12 +611,7 @@ Lionel kana bulanmýþ ve affallamýþ þekilde yürüyor. Yakýnda yenik düþecekmiþ
 gibi bir hali var.
 ~
 human~
-8388608 0 300 0
-30 0 6d12+853 5d5+1000 4d6+8 pound
--9 -9 -9 3
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+8388608 0 30
 #17360
 gaheris þövalye~
 Gaheris~
@@ -916,12 +621,7 @@ Gaheris'in uzun kýzýl saçlarý ve gri bit aygýrý var. Ýngillere çok kýzmýþ
 olacak ki, þefe doðru yolunu kese biçe açarak ilerliyor..
 ~
 human~
-2 0 500 0
-33 0 10d10+1100 5d5+1000 6d4+10 pound
--11 -11 -11 3
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2 0 33
 #17361
 komutan güney karakol~
 Güney karakolu komutaný~
@@ -932,12 +632,7 @@ oturuyor.
 savaþta insanlara liderlik etmek için doðmuþ.
 ~
 human~
-2|1024 8|32|8192 500 0
-25 0 5d10+550 5d5+1000 2d10+7 punch
--7 -7 -7 4
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2|1024 8|32|8192 25
 #17362
 nöbetçi sýnýr güney~
 bir güney sýnýrý nöbetçisi~
@@ -946,12 +641,7 @@ Bir güney sýnýrý nöbetçisi burada, sýnýrý istilacýlara karþý koruyor.
 Sýnýr nöbetçisi zincir bir zýrh ve standart yapým bir kýlýç giyinmiþ.
 ~
 human~
-2 32|8192 300 0
-20 0  3d9+333 5d5+1000 2d8+5 pound
--4 -4 -4 5
-EFNU 0 0 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+2 32|8192 20
 #17363
 esir~
 bir esir~
@@ -961,12 +651,7 @@ Bu esir kirli ve bakýmsýz olmasýna raðmen bir zamanlar taþýdýðý asaleti hala
 duruþunda ve endamýnda barýndýrýyor.
 ~
 human~
-4|8388608 65536 0 0
-5 0 2d6+60 5d5+100 1d6+1 punch
-5 5 5 9
-EFNU 0 0 0
-stand stand female 1000
-AHMV ABCDEFGHIJK medium 0
+4|8388608 65536 5
 #0
 
 #OBJECTS

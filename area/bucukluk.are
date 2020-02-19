@@ -11,7 +11,7 @@ Maxvnum 1199
 Path 5b k~
 END
 
-#MOBILES
+#NEW_MOBILES
 #1100
 çora büyücü~
 çora büyücü~
@@ -25,12 +25,7 @@ daha da yaþlýymýþ gibi görünse de, kimse ile mukayese edilemeyecek
 bir güce sahip gibi görünüyor.
 ~
 çora~
-ABGR D 500 0
-18 0 3d9+258 18d9+100 2d6+3 none
--3 -3 -3 4
-FU 0 0 0
-stand stand male 105
-0 0 medium 0
+ABGR D 18
 #1101
 Girga Blemnec~
 Girga Blemnec~
@@ -42,12 +37,7 @@ yüzük var. Barýþçý bir görünümü olmasýna raðmen, bir saldýrýya
 uðradýðýnda ölümüne dövüþeceði tahmin etmek güç deðil.
 ~
 human~
-ABGS BDF 0 0
-20 0 3d9+308 10d9+100 2d7+5 none
--4 -4 -4 6
-BEFJNU 0 0 0
-stand stand male 61
-0 0 medium 0
+ABGS BDF 20
 #1102
 ihtiyar çiftçi~
 Ýhtiyar Çiftçi~
@@ -59,12 +49,7 @@ durmadan çiftlikte çalýþmaktan dolayý güneþte yanmýþ. Oldukça neþeli
 ve yardýmsever bir görünümü var.
 ~
 human~
-ABH 0 350 0
-7 0 2d6+85 3d9+100 1d8+1 none
-4 4 4 9
-EFNU 0 0 0
-rest rest male 0
-0 0 medium 0
+ABH 0 7
 #1103
 çocuk~
 bir çocuk~
@@ -74,12 +59,7 @@ Küçük bir buçukluk neþe içinde ortalýkta dolaþýyor.
 bir yandan da göz ucuyla sana bakýyor.
 ~
 human~
-ABH 0 100 0
-2 0 2d7+21 1d9+100 1d5+0 none
-8 8 8 10
-EFNU 0 0 0
-sit sit male 0
-0 0 medium 0
+ABH 0 2
 #1104
 bakýcý~
 çocuk bakýcýsý~
@@ -91,12 +71,7 @@ buçuklarla uðraþmak onu hayli bezdirmiþ olmalý. Göz göze geldiðinizde
 bakýþlarýndan daha iyi bir hayatý arzuladýðý anlaþýlýyor.
 ~
 human~
-AB 0 100 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand female 1
-0 0 medium 0
+AB 0 5
 #1105
 inek~
 bir inek~
@@ -106,12 +81,7 @@ Bir inek sakince geviþ getiriyor.
 raðmen çiftesi öldürücü olabilir.
 ~
 human~
-AGI 0 0 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-EFNU 0 0 0
-rest rest none 0
-0 0 medium 0
+AGI 0 4
 #1106
 domuz~
 bir domuz~
@@ -122,12 +92,7 @@ Varlýðýna aldýrýþ etmeden, umarsýzca keyfine bakmaya devam ediyor.
 Domuz oldukça þiþman ve bu yüzden pek hýzlý hareket edemiyor.
 ~
 pig~
-AGI 0 0 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNR 0 0 0
-rest rest none 0
-0 0 medium 0
+AGI 0 3
 #1107
 tavuk~
 bir tavuk~
@@ -136,12 +101,7 @@ BÝr tavuk kümesinde oturuyor.
 Tavuðun parlak ve saðlýklý bir görünüþü var.
 ~
 human~
-AGI 0 0 0
-2 0 2d7+21 1d9+100 1d5+0 none
-8 8 8 10
-EFNU 0 0 0
-sit sit female 0
-0 0 medium 0
+AGI 0 2
 #1108
 boða~
 bir boða~
@@ -152,12 +112,7 @@ dövüþçü olduðu her halinden belli . Sivri boynuzlarý ve arka
 ayaklarý ile karþýsýna çýkan her þeye saldýrmaya hazýr durumda.
 ~
 human~
-ABF 0 0 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABF 0 6
 #1109
 at~
 bir at~
@@ -167,12 +122,7 @@ Bir at sana bakýyor ve geriye kaçýyor. Senden korkmuþ olduðu
 her halinden belli.
 ~
 human~
-ABGI 0 0 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABGI 0 4
 #1110
 þirif~
 bir þirif~
@@ -184,12 +134,7 @@ Belinde ince bir kama var, üzerine ise deri bir zýrh giymiþ.
 Bu buçukluk ile dalaþmanýz pek tavsiye olunmaz.
 ~
 human~
-ACGT 0 150 0
-8 0 2d6+110 4d9+100 1d7+2 none
-3 3 3 9
-CDEIKLU 0 0 0
-sit sit male 2
-0 0 medium 0
+ACGT 0 8
 #1111
 bir þirif~
 bir þirif~
@@ -201,12 +146,7 @@ Belinde ince bir kama var, üzerine ise deri bir zýrh giymiþ.
 Bu buçukluk ile dalaþmanýz pek tavsiye olunmaz.
 ~
 human~
-ACGT 0 150 0
-8 0 2d6+110 4d9+100 1d7+2 none
-3 3 3 9
-CDEIKLU 0 0 0
-sit sit male 2
-0 0 medium 0
+ACGT 0 8
 #1112
 belediye baþkaný~
 belediye baþkaný~
@@ -218,12 +158,7 @@ olduðu müddetçe, Buçukluk Ülkesinin güven içinde olacaðý inancýyla,
 kendinden emin bir tavýrla ortalýkta dolaþýyor.
 ~
 human~
-AGT 0 400 0
-14 0 3d9+208 7d9+100 1d12+3 none
--1 -1 -1 8
-CDEIKLU 0 0 0
-sit sit male 25
-0 0 medium 0
+AGT 0 14
 #1113
 hancý~
 hancý~
@@ -234,12 +169,7 @@ kabartmakla geçiren yaþlý bir buçukluk. Gençliðinde tecrübeli
 bir gezgin olduðu anlaþýlýyor.
 ~
 human~
-ABG 0 200 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNU 0 0 0
-stand stand male 35
-0 0 medium 0
+ABG 0 12
 #1114
 deðirmenci~
 Deðirmenci~
@@ -249,12 +179,7 @@ Deðirmenci, sabýrsýz genç bir buçukluk. Her zaman için
 iþçilerden kendisine daha fazla saygý göstermelerini bekliyor.
 ~
 human~
-ACGH 0 50 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 10
-0 0 medium 0
+ACGH 0 6
 #1115
 deðirmen iþçi~
 deðirmen iþçisi~
@@ -265,12 +190,7 @@ kazanmýþ. Senin farkýnda deðil, ancak istese bir hamlede seni ikiye
 bölebilecekmiþ gibi görünüyor.
 ~
 human~
-AB 0 0 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand male 2
-0 0 medium 0
+AB 0 5
 #1116
 çora savaþçý~
 çora savaþçý~
@@ -281,12 +201,7 @@ Yüzünde mahzun ve yorgun bir ifade var, sanki bu dünyadan
 býkýp usanmýþ gibi.
 ~
 çora~
-ABR 0 600 0
-17 0 3d9+233 17d9+100 1d12+3 none
--2 -2 -2 4
-FU 0 0 0
-sit sit male 25
-0 0 medium 0
+ABR 0 17
 #1117
 cüce prens~
 cüce prens~
@@ -297,12 +212,7 @@ iri yapýlý görünüyor. Parýldayan gözleri, dikkatle senin görüþ
 alanýndan uzaklara bakýyor.
 ~
 human~
-ABQ 0 200 0
-17 0 3d9+1258 17d9+100 2d6+14 none
--3 -3 -3 6
-EIKU 0 0 0
-sit sit male 35
-0 0 medium 0
+ABQ 0 17
 #1118
 esnaf~
 esnaf~
@@ -312,12 +222,7 @@ Esnaf, iþ yerini serserilerden korumak için ölümüne
 dövüþmeye hazýr.
 ~
 human~
-AB 0 600 0
-21 0 4d10+1360 10d9+100 4d4+15 none
--5 -5 -5 7
-EFNU 0 0 0
-stand stand male 600
-0 0 medium 0
+AB 0 21
 #1119
 bakkal~
 bakkal~
@@ -329,12 +234,7 @@ yüzden sattýðý eþyalarýn çalýnmasýný engellemek için her þeyi
 yapmaya hazýr.
 ~
 human~
-AB 0 600 0
-21 0 4d10+1360 10d9+100 4d4+15 none
--5 -5 -5 7
-EFNU 0 0 0
-stand stand male 75
-0 0 medium 0
+AB 0 21
 #1120
 demirci~
 demirci~
@@ -343,12 +243,7 @@ Demirci mütevazi bir þekilde seni dükkanýna buyur ediyor.
 Demirci, saðlam görünüþlü ve güçlü bir savaþçýya benziyor.
 ~
 human~
-AB 0 600 0
-50 0 50d10+8500 25d9+100 5d8+39 none
--40 -40 -40 -23
-EFNU 0 0 0
-stand stand male 900
-0 0 medium 0
+AB 0 50
 #1121
 dövüþ ustasý~
 dövüþ ustasý~
@@ -358,12 +253,7 @@ Dövüþ ustasý bilge bir savaþçýya benziyor. Yüzündeki yara izleri,
 deðerini ispat etmek için yeterli.
 ~
 human~
-ABT 0 350 0
-25 0 5d10+600 12d9+100 2d10+7 none
--7 -7 -7 6
-CDEIKLU 0 0 0
-stand stand male 75
-0 0 medium 0
+ABT 0 25
 #1122
 genç buçukluk~
 genç bir buçukluk~
@@ -373,12 +263,7 @@ Henüz ergenlik döneminin baþlarýnda genç bir buçukluk görüyorsun.
 Boyu dizlerini biraz geçiyor.
 ~
 human~
-AGHS DF 0 0
-3 0 2d7+21 1d9+100 1d5+0 none
-8 8 8 10
-BEFJNU 0 0 0
-stand stand male 0
-0 0 medium 0
+AGHS DF 3
 #1123
 yýpranmýþ gezgin~
 yýpranmýþ bir gezgin~
@@ -389,12 +274,7 @@ Gezgin, görmüþ geçirmiþ birisi. Gençlik yýllarý geçmiþ olsa da
 hala bir kavgada payýna düþeni halledecek biri gibi görünüyor.
 ~
 human~
-AB 0 100 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-sit sit male 8
-0 0 medium 0
+AB 0 8
 #1124
 dedikoducu~
 dedikoducu~
@@ -404,12 +284,7 @@ Dedikoducu durmak bilmeksizin konuþmaya devam ediyor. Bu kadar hýzlý
 konuþabilmesi seni þaþýrtýyor.
 ~
 human~
-ABH 0 0 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-EFNU 0 0 0
-sit sit female 1
-0 0 medium 0
+ABH 0 4
 #1125
 güzel buçukluk~
 güzel bir buçukluk~
@@ -419,12 +294,7 @@ Güzel bir buçukluk kýzý burada.
 taramýþ, bu haliyle çok tatlý görünüyor.
 ~
 human~
-AB 0 1000 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand female 3
-0 0 medium 0
+AB 0 6
 #1126
 öðrenci~
 bir öðrenci~
@@ -436,12 +306,7 @@ bir eda ile gülümsüyor. Henüz dövüþ sanatlarýnda acemi olmasýna
 raðmen, bu durumu belli etmemek için elinden geleni yapmakta.
 ~
 human~
-AB 0 0 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+AB 0 5
 #1127
 piliç þehirli~
 þehirli bir piliç~
@@ -451,12 +316,7 @@ piliç þehirli~
 etrafýný süzüyor.
 ~
 human~
-ABH 0 0 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-EFNU 0 0 0
-sit sit male 5
-0 0 medium 0
+ABH 0 4
 #1128
 köylü~
 bir köylü ~
@@ -465,12 +325,7 @@ BÝr köylü tütünün fayadalarý hakkýnda rüyalar görüyor.
 Köylü yüksek sesle horluyor.
 ~
 human~
-AB 0 0 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-sleep sleep male 3
-0 0 medium 0
+AB 0 5
 #1130
 hancý~
 Hancý~
@@ -481,12 +336,7 @@ kabartmakla geçiren yaþlý bir buçukluk. Gençliðinde tecrübeli
 bir gezgin olduðu anlaþýlýyor.
 ~
 human~
-AB 0 200 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNU 0 0 0
-stand stand male 50
-0 0 medium 0
+AB 0 12
 #1131
 resepsiyon görevli~
 resepsiyon görevlisi~
@@ -495,12 +345,7 @@ Resepsiyon görevlisi önünündeki kaðýtlarý imzalamakla meþgul.
 Resepsiyon görevlisinin oldukça profesyonel bir görünümü var.
 ~
 human~
-AB 0 200 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNU 0 0 0
-stand stand male 3
-0 0 medium 0
+AB 0 12
 #1132
 þirif~
 bir þirif~
@@ -511,12 +356,7 @@ hizasýna geliyor. Sana bakarak gülümsüyor ve kayýp bir çocuk
 görüp görmediðini soruyor.
 ~
 human~
-ABT 0 150 0
-8 0 2d6+110 4d9+100 1d7+2 none
-3 3 3 9
-CDEIKLU 0 0 0
-stand stand male 2
-0 0 medium 0
+ABT 0 8
 #0
 #OBJECTS
 #1100

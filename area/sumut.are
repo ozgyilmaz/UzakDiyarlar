@@ -1,5 +1,5 @@
 #AREADATA
-Filename olympus.are~
+Filename sumut.are~
 Name Sumut Ýstihkamý~
 Builder Generic~
 Translator Bilinmiyor~
@@ -11,7 +11,7 @@ Maxvnum 999
 Path 4d 3k 2b 6k y~
 END
 
-#MOBILES
+#NEW_MOBILES
 #901
 amrir kral~
 Amrir~
@@ -21,12 +21,7 @@ Sumut halkýnýn en ulusunu görüyorsun. Yaþlý ve güçlü. Yýldýrýmlara
 hükmeden Amrir...
 ~
 human~
-ABCQ BDFHNT 1000 0
-100 30 50d10+29000 60d9+10000 18d11+80 none
--86 -86 -87 -63
-EIKU B B 0
-stand stand male 50000
-0 0 medium 0
+ABCQ BDFHNT 100
 #902
 marba~
 Marba~
@@ -38,12 +33,7 @@ yüzünden Amrir'e baþkaldýrmýþ asi Marba. Soylu kaný taþýdýðý için
 Sana bakýyor ve gülümsüyor.
 ~
 human~
-ABC BDFHNT 1000 0
-91 0 150d10+19500 25d9+4100 10d15+60 none
--61 -61 -61 -30
-EFNU B B 0
-stand stand male 40000
-0 0 medium 0
+ABC BDFHNT 91
 #903
 dozrah~
 Dozrah~
@@ -53,12 +43,7 @@ Kralýn habercisi Dozrah'ý görüyorsun. O sahip olduðu miðfer ve çizme
 ile bir yerden bir yere çok hýzlý gidebilir.
 ~
 human~
-ACS BDFHNPT 1000 0
-96 0 150d10+21000 28d9+10000 15d10+63 none
--65 -65 -65 -31
-BEFJNU B B 0
-stand stand male 2500
-0 0 medium 0
+ACS BDFHNPT 96
 #904
 gugorah~
 Gugorah~
@@ -69,12 +54,7 @@ Kaslý vücudunun tepesine diktiði büyük ve zeki kafasýnýn üzerinde
 aðarmýþ saçlarý görüyorsun. Duygularý okuyan gözlerle etrafý gözlüyor.
 ~
 human~
-ABCR BDFHNT 1000 0
-99 0 150d10+27000 59d9+10000 17d11+74 none
--78 -78 -78 -49
-FU B B 0
-sit stand male 5000
-0 0 medium 0
+ABCR BDFHNT 99
 #905
 gugarkaz~
 Gugarkaz~
@@ -86,12 +66,7 @@ görünen bir yay görüyorsun. Her nedense müzikten daha fazla þeyler
 bildiðini düþünüyorsun.
 ~
 human~
-ABC BDFHNT 1000 0
-98 0 150d10+26000 29d9+10000 17d10+75 none
--78 -78 -78 -51
-EFNU B B 0
-stand stand male 2000
-0 0 medium 0
+ABC BDFHNT 98
 #906
 darba~
 Darba~
@@ -102,12 +77,7 @@ zekasýna sahip gibi görünüyor. Kimi haritalarý incelediðini farkediyorsun.
 Sana tehditkar bir þekilde bakarak 'Çok meþgulüm ne istiyorsun? ' diyor.
 ~
 human~
-ABCF BDFHT -1000 0
-99 0 150d10+27000 29d9+10000 18d10+76 none
--79 -79 -79 51
-EFNU B B 0
-stand stand male 2500
-0 0 medium 0
+ABCF BDFHT 99
 #907
 uhuk~
 Uhuk~
@@ -118,12 +88,7 @@ oturmuþ üzümlerin tadýna bakýyor. Sana gülümsüyor ve ona katýlman için
 davet ediyor.
 ~
 human~
-ABC BDFHNT 1000 0
-96 0 150d10+24500 28d9+10000 16d10+64 none
--76 -76 -76 -51
-EFNU B B 0
-stand stand female 3000
-0 0 medium 0
+ABC BDFHNT 96
 #908
 demirci~
 demirci~
@@ -133,12 +98,7 @@ Topal ve çirkin demirciyi görüyorsun. Sumut'ta gördüðün en çirkin þey.
 Yine de sana yardým etmek istediðini düþünüyorsun.
 ~
 human~
-ABC BDFHNT 1000 0
-95 0 150d10+23000 27d9+10000 15d10+63 none
--65 -65 -65 -42
-EFNU B B 0
-stand stand male 3000
-0 0 medium 0
+ABC BDFHNT 95
 #909
 çýrak~
 çýrak~
@@ -148,12 +108,7 @@ Bu yaratýða bakarken, güzelliðini farkediyorsun. Bir erkek gibi giyindiði
 halde, yüzünün ve vücudunun þekli bir kadýnýn güzelliðiyle dolu.
 ~
 human~
-ABCT BDFHNT 0 0
-76 0 115d10+12650 13d9+5000 9d11+47 none
--47 -47 -47 -16
-CDEIKLU 0 0 0
-stand stand female 50
-0 0 medium 0
+ABCT BDFHNT 76
 #910
 asker~
 asker~
@@ -163,12 +118,7 @@ Bu asker Darba'yý bekliyor. Çok güçlü görünmemesine raðmen Darba ona hiç de
 basit olmayan görevler verecek.
 ~
 human~
-ABCF BDFHT 0 0
-85 0 100d10+17000 13d10+10000 13d10+56 none
--51 -51 -51 -15
-EFNU 0 0 0
-stand stand male 250
-0 0 medium 0
+ABCF BDFHT 85
 #911
 müzisyen çýrak~
 müzisyen çýraðý~
@@ -177,12 +127,7 @@ Bir müzisyen burada, Gugarkaz'dan ders alýyor.
 Bu adam Gugarkaz ile müzik üzerine çalýþýyor, ne þans ama...
 ~
 human~
-ABC BDFHT 1000 0
-64 0 102d10+7190 7d9+10000 6d9+34 none
--32 -32 -32 -8
-EFNU 0 0 0
-stand stand male 125
-0 0 medium 0
+ABC BDFHT 64
 #912
 uþak~
 uþak~
@@ -191,12 +136,7 @@ Bir uþak burada, uhuk'a üzüm yediriyor.
 Bu çocuk Uhuk'a hizmet edebildiði için gerçekten çok þanslý.
 ~
 human~
-ABC BDFHT 1000 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 25
-0 0 medium 0
+ABC BDFHT 6
 #913
 savaþ köpek~
 savaþ köpeði~
@@ -206,12 +146,7 @@ Bu muhteþem hayvan ancak köpek olarak adlandýrýlabilir. Savaþ alanlarýnda
 korkutmak amacýyla yetiþtirilmiþ. Görevini iyi yaptýðýndan hiç þüphen yok.
 ~
 human~
-ABCF BDFHT -600 0
-85 0 100d10+17000 17d9+10000 13d10+56 none
--41 -41 -41 -15
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABCF BDFHT 85
 #914
 sulruh~
 Sulruh~
@@ -222,12 +157,7 @@ deðersizliðinin farkýna varýyorsun. Üzerinden yükseliyor.
 Dikkatini iþlerine vermiþ, varlýðýný fark etmiyor.
 ~
 human~
-ABC BDFHNT 1000 0
-100 30 10d10+29000 30d9+10000 18d11+81 none
--85 -85 -85 -40
-EFNU 0 0 0
-stand stand male 5000
-0 0 medium 0
+ABC BDFHNT 100
 #915
 manav~
 Manav~
@@ -238,12 +168,7 @@ hayatýný adamýþ. Sana candan bir gülümsemeyle bakarak leziz sebzelerini
 gösteriyor.
 ~
 human~
-ABC BDFHNT 1000 0
-80 0 50d10+13500 25d9+10000 10d12+49 none
--40 -40 -40 -13
-EFNU 0 0 0
-stand stand male 500
-0 0 medium 0
+ABC BDFHNT 80
 #916
 simyacý~
 Simyacý~
@@ -252,12 +177,7 @@ Yaþlý bir simyacý burada duruyor.
 Simyada ve büyüde oldukça becerikli ve bilgili.
 ~
 human~
-ABC BDFHNT 1000 0
-90 0 50d10+17500 25d9+12000 10d10+60 none
--40 -40 -40 -13
-EFNU 0 0 0
-stand stand male 500
-0 0 medium 0
+ABC BDFHNT 90
 #917
 silah efendisi~
 Silah Efendisi~
@@ -266,12 +186,7 @@ Silah Efendisi burada, yayý ve baltasýyla pratik yapýyor.
 ÇOK büyük ve ÇOK güçlü görünüyor.
 ~
 human~
-ABC BDFHNT 1000 0
-90 0 50d10+17500 25d9+12000 10d10+59 none
--40 -40 -40 -13
-EFNU 0 0 0
-stand stand male 2000
-0 0 medium 0
+ABC BDFHNT 90
 #918
 zýrhçý~
 Zýrhçý~
@@ -281,12 +196,7 @@ Silah efendisine çok benziyor, ÇOK büyük ve ÇOK güçlü. Burada olman
 hoþuna gitmiyor.
 ~
 human~
-ABCF BDFHNT 1000 0
-84 0 10d10+14500 17d9+12000 10d7+50 none
--35 -35 -34 -15
-EFNU 0 0 0
-stand stand male 500
-0 0 medium 0
+ABCF BDFHNT 84
 #919
 soron~
 Soron~
@@ -295,12 +205,7 @@ Soron burada, dinleniyor.
 Çok parlak bir teni olduðunu farkediyorsun. Bakarken gözlerin yanýyor.
 ~
 human~
-ABC BDFHNT 1000 0
-100 85 50d10+29000 30d9+19000 18d11+80 none
--60 -60 -60 -20
-ENR B B 0
-stand stand male 5000
-0 0 medium 0
+ABC BDFHNT 100
 #920
 sah~
 Sah~
@@ -310,12 +215,7 @@ Bu tuhaf yaratýk üç kafaya sahip, biri keçi, biri aslan ve diðeri de bir
 ejderha. Hücreye girerken sana hýrlýyor!
 ~
 human~
-ABCF BDFHT -1000 0
-84 0 100d10+14200 17d9+10000 9d18+60 none
--11 -11 -11 5
-EFNU 0 0 0
-stand stand male 50
-0 0 medium 0
+ABCF BDFHT 84
 #921
 umur~
 Umur~
@@ -325,12 +225,7 @@ Amrir'in eþini görüyorsun. Seni görünce gülümsüyor ve oturup dinlenmen
 için davet ediyor.
 ~
 human~
-ABCQ BDFHNT 1000 0
-99 0 50d10+27000 59d9+12000 17d11+76 none
--59 -59 -59 -13
-EIKU B B 0
-stand stand female 5000
-0 0 medium 0
+ABCQ BDFHNT 99
 #922
 dev kartal~
 Dev kartal~
@@ -339,12 +234,7 @@ Dev bir kartal görüyorsun.
 Ne kartal ama... Alaycý bir tavýrla seni izliyor.
 ~
 human~
-AC BDFHNT 0 0
-75 0 50d10+11550 12d9+10000 8d10+47 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand none 250
-0 0 medium 0
+AC BDFHNT 75
 #923
 vatandaþ~
 vatandaþ~
@@ -353,12 +243,7 @@ Bir vatandaþ burada, cadde boyunca dolaþýyor.
 Mutlu ve tasasýz görünüyor. Gülümseyerek selam veriyor.
 ~
 human~
-ACS BDFHNT 1000 0
-6 0 2d6+60 3d9+100 1d6+1 none
-5 5 5 9
-BEFJNU 0 0 0
-stand stand male 3
-0 0 medium 0
+ACS BDFHNT 6
 #924
 lumuk~
 lumuk~
@@ -370,12 +255,7 @@ yapabilirmiþ gibi bir duruþu var. Tahminine göre ya Amrir ya da Gugorah'a
 hizmet ediyor.
 ~
 human~
-ACZ BDFHNT 0 0
-64 0 102d10+8190 7d9+9100 6d10+30 none
--1 -1 -1 8
-EFNU 0 0 0
-stand stand none 40
-0 0 medium 0
+ACZ BDFHNT 64
 #925
 aþçý~
 aþçý~
@@ -384,12 +264,7 @@ Bir aþçý burada, iþini yapýyor.
 Bu adam mutfakta oldukça fazla zaman geçirmiþe benziyor.
 ~
 human~
-ABC BDFHNT 1000 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand male 5
-0 0 medium 0
+ABC BDFHNT 8
 #926
 gardiyan~
 Gardiyan~
@@ -399,12 +274,7 @@ He looks as though he has spent a lot of time underground, guarding the
 prisoners.
 ~
 human~
-ABCR BDFHNT 0 0
-22 0 4d10+360 22d9+100 2d7+5 none
--5 -5 -5 3
-FU 0 0 0
-stand stand male 50
-0 0 medium 0
+ABCR BDFHNT 22
 #0
 
 #OBJECTS

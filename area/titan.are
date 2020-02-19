@@ -14,7 +14,7 @@ END
 #FLAG
 AB
 
-#MOBILES
+#NEW_MOBILES
 #18001
 þehir muhafýz titan~
 þehir muhafýzý~
@@ -25,12 +25,7 @@ ezip geçebilir. Öldürücü ve kaba yapýsýna raðmen, sana gezintinde iyi
 yolculuklar diliyor.
 ~
 giant~
-ABT CDEFHV 1000 0
-45 0 25d10+3000 1d1+99 3d12+15 slash
--15 -15 -15 4
-EIK ABL N K
-stand stand male 1200
-0 0 large 0
+ABT CDEFHV 45
 #18002
 kedi~
 zavallý bir kedi.~
@@ -41,12 +36,7 @@ hayvanýn bir evi yok ve birþeyler yemek için çöpleri karýþtýrmak zorunda.
 Küçük dostuna acýyorsun.
 ~
 cat~
-AB CDEF -1000 0
-30 0 6d12+853 299d1+5 4d6+8 bash
--9 -9 -9 6
-EIK ABL N K
-stand stand either 0
-0 0 large 0
+AB CDEF 30
 #18003
 bongo davulcu~
 bongo davulcusu~
@@ -55,12 +45,7 @@ Ritimle hareket eden vahþi bir bongo davulcusu burada duruyor.
 Bongoyu gerçekten çok iyi çalan bir bongo davulcusu görüyorsun.
 ~
 giant~
-ABT CDEFJ -1000 18004
-25 0 5d10+750 1d1+99 2d10+7 pierce
--7 -7 -7 0
-EIK ABL N K
-stand stand male 3100
-0 0 large 0
+ABT CDEFJ 25
 #18004
 gitarist~
 grubun gitaristi~
@@ -71,12 +56,7 @@ gerçekten iyi müzik yapýyor. Arkada çalan ezgiyle birlikte ilerleyen
 insanlarýn kulaðýna hoþ gelen bir melodi çalýyor.
 ~
 giant~
-AB CDEFJ -1000 18004
-25 0 5d10+650 1d1+99 2d10+7 pierce
--7 -7 -7 0
-EIK ABL N K
-stand stand male 4330
-0 0 large 0
+AB CDEFJ 25
 #18005
 kavalcý~
 grubun kavalcýsý~
@@ -87,12 +67,7 @@ birliktelik; ahþap gitar, bongo ve kaval! Fakat yaptýklarý müzik oldukça
 güzel! Hiç bitmesin istiyorsun.
 ~
 giant~
-AB CDEFJ -1000 18004
-25 0 5d10+650 1d1+99 2d10+7 blast
--7 -7 -7 6
-EIK ABL N K
-stand stand female 5300
-0 0 large 0
+AB CDEFJ 25
 #18006
 zýrhçý~
 zýrhçý~
@@ -103,12 +78,7 @@ girdiðinde tezgaha yönelerek bir yardýma ihtiyacýn olup olmadýðý
 soruyor. Eðer zýrha ihtiyacýn varsa tam yerine geldin!
 ~
 giant~
-ABT CDEF -500 0
-53 0 50d10+13000 1d1+99 6d7+41 slice
--33 -33 -33 2
-EIK ABCDL N K
-stand stand male 200000
-0 0 large 0
+ABT CDEF 53
 #18007
 hayvancý kýz~
 hayvancý~
@@ -120,12 +90,7 @@ bu hayvanlarýn saldýrý amaçlý kullanýlmadýðý açýkça belli oluyor.
 Fakat ne derler biliyorsun: Dýþ görünüþlerine aldanma!
 ~
 giant~
-ABT CDEFJ -500 0
-53 0 50d10+13000 1d1+99 6d7+31 slice
--43 -43 -43 -10
-EIK ABCDL N K
-stand stand female 200000
-0 0 large 0
+ABT CDEFJ 53
 #18008
 kasap~
 kasap~
@@ -136,12 +101,7 @@ taze, sabah meltemi kadar körpe." Ýlk izlenimin oldukça ilginç. Kýrmýzý et
 ve kümes hayvanlarý arasýnda oldukça fazla seçeneðin var.
 ~
 giant~
-ABT CDEF -1000 0
-51 0 50d10+14000 1d1+99 5d8+39 scratch
--41 -41 -41 -3
-EIK ABDL HIN JKP
-stand stand male 200000
-0 0 large 0
+ABT CDEF 51
 #18009
 manav~
 manav~
@@ -152,12 +112,7 @@ tamamen kendi ürettiði ürünlerini satýyor. Belki birþeyler alarak ona
 iþinde yardýmcý olursun.
 ~
 giant~
-ABT CDEF -1000 0
-51 0 50d10+14000 1d1+140 5d8+49 scratch
--41 -41 -41 -30
-EIK ABDL N K
-stand stand male 200000
-0 0 large 0
+ABT CDEF 51
 #18010
 demirci~
 demirci~
@@ -169,12 +124,7 @@ maden ocaðý görüyorsun. Arkada demiri dövmede kullanýlan birkaç siyah örs
 var. Eðer savaþa gitmen gerekirse burasý silah almak için en ideal yer.
 ~
 giant~
-ABT CDEF 0 0
-53 0 50d10+15000 1d1+99 6d7+41 sting
--43 -43 -43 -30
-CDEFIKN ABDL HIN JKP
-stand stand male 200000
-0 0 large 0
+ABT CDEF 53
 #18011
 kütüphaneci büyücü~
 kütüphaneci~
@@ -184,12 +134,7 @@ Bu kýsa adam kitaplarý odada aþaðý ve yukarý tasnif ederken sendeliyor.
 Burasý sýradan bir kütüphane deðil, burada büyü bilgini geliþtirebilirsin.
 ~
 giant~
-AB CDEFJ 500 0
-48 0 25d10+13750 1d1+99 6d6+48 beating
--38 -38 -38 -12
-CDEFIKN ABDL N K
-stand stand male 200000
-0 0 large 0
+AB CDEFJ 48
 #18012
 terzi~
 terzi~
@@ -201,12 +146,7 @@ büyük koleksiyonun bir parçasý olarak burada duruyor. Burasý modayý takip
 etmek için burasý ideal bir dükkan.
 ~
 giant~
-AB CDEFJ -600 0
-51 0 50d10+15000 1d1+99 5d8+40 pierce
--41 -41 -41 -23
-CDEFIKN ABDL BN K
-stand stand female 200000
-0 0 large 0
+AB CDEFJ 51
 #18013
 barmen~
 barmen~
@@ -217,12 +157,7 @@ viski mi?"... Oda iyi bir zaman geçirmek ve sarhoþ olmak isteyen  insanlarla
 dolu görünüyor.
 ~
 giant~
-ABT CDEFJ -100 0
-51 0 50d10+15000 1d1+99 5d8+39 slash
--41 -41 -41 -23
-CDEFIKN ABDL N K
-stand stand male 200000
-0 0 large 0
+ABT CDEFJ 51
 #18014
 garson~
 kibar garson~
@@ -234,12 +169,7 @@ ve yengeç karýþýmý harika bir çorba. Aþçýmýz bu sefer gerçekten kendini
 aþtý!"...  Burasý oldukça pahalý görünüyor.
 ~
 giant~
-ABT CDEFJ 200 0
-45 0 25d10+14000 1d1+99 8d4+36 pierce
--15 -15 -15 -1
-CDEFIKN ABL N K
-stand stand male 200000
-0 0 large 0
+ABT CDEFJ 45
 #18015
 hancý~
 hancý~
@@ -250,12 +180,7 @@ Sana iyi akþamlar dileyen ortayaþlý bir hancý duruyor.
 Yapabileceðim birþey varsa lütfen söyleyin.!"
 ~
 giant~
-ABT CDEF -1000 0
-51 0 50d10+5000 1d1+99 5d8+20 pierce
--21 -21 -21 -3
-CDEFIKN ABL N K
-stand stand male 200000
-0 0 large 0
+ABT CDEF 51
 #18016
 çiçekçi~
 çiçekçi~
@@ -266,12 +191,7 @@ mýrýldanýyor. Belki hayatýndaki  "özel biri" için  özel birþeyleri
 vardýr...
 ~
 giant~
-ABT CDEFJ -300 0
-48 0 25d10+4750 1d1+99 6d6+18 slice
--18 -18 -18 3
-CDEFIKN ABL N K
-stand stand female 200000
-0 0 large 0
+ABT CDEFJ 48
 #18017
 kasaba þerif~
 kasaba þerifi~
@@ -283,12 +203,7 @@ olur. Hücrelerinin dolu olmasýna raðmen eminim ki istenmeyen bir turist
 için fazladan bir yer bulacaktýr.
 ~
 giant~
-ABT CDEF 500 0
-30 0 6d12+1000 1d1+99 4d6+8 pierce
--9 -9 -9 6
-CDEFIKN ABL N K
-stand stand male 2100
-0 0 large 0
+ABT CDEF 30
 #18018
 gardiyan~
 gardiyan~
@@ -297,12 +212,7 @@ Sandalyesinde uyuyan bir gardiyan görüyorsun.
 ZZZzzzz....ZZZzzzz....ZZZzzzz....ZZZzzzz....ZZZzzzz....
 ~
 giant~
-ABT CDEFJ -500 0
-28 0 6d12+703 1d1+99 2d12+8 claw
--8 -8 -8 6
-CDEFIKN ABL BN K
-stand stand male 3100
-0 0 large 0
+ABT CDEFJ 28
 #18020
 mahkum~
 mahkum~
@@ -312,12 +222,7 @@ mahkum~
 Bu yeni mahkum! Huzuru bozduðu için tutuklanmýþ.
 ~
 giant~
-ABT CDEFJ -1000 0
-25 0 5d10+650 1d1+100 2d10+7 pierce
--7 -7 -7 1
-CDEFIKN ABL N KSZ
-stand stand male 0
-0 0 large 0
+ABT CDEFJ 25
 #18021
 çikolatacý~
 çikolatacý~
@@ -328,12 +233,7 @@ deneyebilecek misin? Kasanýn arkasýnda duran adam çikolatalarýndan
 emin görünüyor. Belki en popülerlerinden birkaçýný sana gösterebilir.
 ~
 giant~
-ABT CDEFJ -100 0
-45 0 25d1+13000 1d1+100 8d4+26 slice
--35 -35 -35 4
-CDEFIKN ABL N K
-stand stand male 200000
-0 0 large 0
+ABT CDEFJ 45
 #18022
 dondurmacý~
 dondurmacý~
@@ -344,12 +244,7 @@ Naneli...Çilekli... Ne istiyorsun? Çok fazla seçenek var. Fakat bahse
 girerim ki hepsi mükemmeldir.!
 ~
 giant~
-ABT CDEF -100 0
-30 0 6d12+853 1d1+99 4d6+15 slap
--9 -9 -9 6
-CDEFIKN ABL N K
-stand stand male 200000
-0 0 large 0
+ABT CDEF 30
 #18023
 balcý~
 balcý~
@@ -359,12 +254,7 @@ Ahh.. Tadý harika. Onsuz ne yapardýn? Seçmek için birçok çeþit bulunuyor.
 Gerçekten hepsini denemelisin.!
 ~
 giant~
-ABT CDEFJ -100 0
-40 0 15d10+7850 1d1+100 4d8+13 beating
--33 -33 -33 -21
-CDEFIKN ABL BN K
-stand stand female 200000
-0 0 large 0
+ABT CDEFJ 40
 #18024
 fýrýncý~
 fýrýncý~
@@ -376,12 +266,7 @@ Ekmek! Kurabiyeler! Turtalar!!! Hepsini denemelisin, adam satýþ yapmak
 için can atýyor.!
 ~
 giant~
-ABT CDEF -100 0
-48 0 25d10+15050 1d1+100 6d6+38 pierce
--48 -48 -48 -24
-CDEFIKN ABL N K
-stand stand male 200000
-0 0 large 0
+ABT CDEF 48
 #18025
 zanaatkar~
 zanaatkar~
@@ -391,12 +276,7 @@ Uzun genç bir delikanlý burada özel kaplarýný satýyor. Yaptýðý kaplar
 ve bunlarýn kapasiteleri ile bu iþin bir numarasý olarak tanýnýyor.
 ~
 giant~
-ABT CDEF -100 0
-48 0 25d10+12750 1d1+100 6d6+38 pierce
--38 -38 -38 -22
-CDEFIKN ABL N K
-stand stand male 200000
-0 0 large 0
+ABT CDEF 48
 #18026
 sihirbaz~
 sihirbaz~
@@ -407,12 +287,7 @@ deðneklerini satmak istiyor. Büyüyle mükemmel þekilde ayarlanmýþlar.
 Ele yatkýnlar.
 ~
 giant~
-ABT CDEF -100 0
-55 0 10d10+15300 1d1+100 4d7+21 slash
--51 -51 -51 -30
-CDEFIKN ABL N K
-stand stand male 200000
-0 0 large 0
+ABT CDEF 55
 #18027
 rahip þövalye~
 þövalye rahip~
@@ -422,12 +297,7 @@ Tamamen zýrhlara bürünmüþ bu adam ölümcül görünüyor. Onunla baþýný belaya
 sokmak ister misin?
 ~
 giant~
-ABT CDEF 1000 0
-40 0 15d10+2200 1d1+90 4d8+13 scratch
--13 -13 -13 4
-CDEFIKN ABL N K
-stand stand male 5250
-0 0 large 0
+ABT CDEF 40
 #18028
 Titan vatandaþ~
 bir Titan vatandaþý~
@@ -436,12 +306,7 @@ Titan vadisinden bir vatandaþ burada duruyor.
 Titan vadisinden, uzun ve güçlü biri sizi selamlayarak þehrine kabul ediyor.
 ~
 giant~
-ABT CDEF -1000 0
-28 0 6d12+703 1d1+100 2d12+8 pierce
--8 -8 -8 6
-CDEFIKN ABL N K
-stand stand male 2500
-0 0 large 0
+ABT CDEF 28
 #18029
 bayan aþçýbaþý~
 bayan aþçýbaþý~
@@ -451,12 +316,7 @@ Evin aþçýbaþýsý olan bayan burada duruyor.
  *SSSsssssssnnnnnniiiiiifffffff!* Kesinlikle çok güzel kokuyor!
 ~
 giant~
-ABT CDEFJ -500 0
-30 0 6d12+953 1d1+100 4d6+8 blast
--9 -9 -9 6
-CDEFIKN ABL N K
-stand stand female 3900
-0 0 large 0
+ABT CDEFJ 30
 #18030
 köle~
 köle~
@@ -466,12 +326,7 @@ Konuþamayacak ve dinleyemeyecek kadar meþgul.  Emirleri yerine getirmek
 için ileri geri koþuþturuyor.
 ~
 giant~
-ABT CDEF -500 0
-30 0 6d12+853 1d1+100 4d6+8 pierce
--9 -9 -9 6
-CDEFIKN ABL N K
-stand stand male 5330
-0 0 large 0
+ABT CDEF 30
 #18031
 pis dilenci~
 pis dilenci~
@@ -481,12 +336,7 @@ Kendisine ait olduðunu söylediði bir pislik yýðýný üzerinde oturuyor.
 Dilenci senden biraz bozukluk istiyor. Kesinlikle fakir biri...
 ~
 giant~
-ABT CDEF -500 0
-25 0 5d10+650 1d1+310 2d10+7 slice
--7 -7 -7 6
-CDEFIKN ABL N K
-stand stand male 10
-0 0 large 0
+ABT CDEF 25
 #18032
 devriye muhafýz~
 devriye muhafýzý~
@@ -496,12 +346,7 @@ Düzeni korumaya çalýþan güçlü bir devriye muhafýzý burada duruyor.
 yapýyor.
 ~
 giant~
-ABT CDEFH 0 0
-40 0 15d10+2100 1d1+201 4d8+13 pierce
--13 -13 -13 4
-CDEFIKN ABL N K
-stand stand male 3330
-0 0 large 0
+ABT CDEFH 40
 #18033
 köylü~
 mutlu köylü~
@@ -511,12 +356,7 @@ Yerinde olsam bu adamla konuþmazdým. Müzikle dans ederken oldukça meþgul
 görünüyor.
 ~
 giant~
-ABT CDEFH -1000 0
-30 0 6d12+953 299d1+1 4d6+8 punch
--9 -9 -9 6
-CDEFIKN ABL N K
-stand stand male 4003
-0 0 large 0
+ABT CDEFH 30
 #18034
 arena muhafýz~
 arena muhafýzý~
@@ -526,12 +366,7 @@ Savaþçýlarýn büyülü canavarla olan savaþlarýný yönetmekle meþgul. Seninle
 konuþmak için hiç zamaný yok.
 ~
 giant~
-ABT CDEFH -1000 0
-48 0 25d10+4750 1d1+120 6d6+18 crush
--18 -18 -18 3
-CDEFIN ABL HIN JKP
-stand stand male 5100
-0 0 large 0
+ABT CDEFH 48
 #18035
 arena muhafýz~
 arena muhafýzý~
@@ -541,12 +376,7 @@ Hünerlerini geliþtiren arena muhafýzý burada duruyor.
 bulamamýþ görünüyor.
 ~
 giant~
-ABT CDEFH -1000 0
-38 0 10d10+1800 1d1+100 5d6+12 slash
--12 -12 -12 4
-CDEFIKN ABL N K
-stand stand male 11300
-0 0 large 0
+ABT CDEFH 38
 #18036
 arena kembolar büyücü~
 arena kembolarý~
@@ -557,12 +387,7 @@ mükemmelleþtirmekle meþgul olduðundan seninle konuþmak için zamaný
 yok. Belki daha sonra...
 ~
 giant~
-ABR CDEFHJ -1000 0
-38 0 10d10+1900 1d1+200 5d6+12 pierce
--12 -12 -12 4
-CDEFIKN ABL N K
-stand stand female 6100
-0 0 large 0
+ABR CDEFHJ 38
 #18037
 arena rahibe~
 arena rahibesi~
@@ -572,12 +397,7 @@ Büyülü yeteneklerini kullanmakta olan rahibe seninle konuþamayacak
 kadar meþgul.
 ~
 giant~
-ABQ CDEFH -1000 0
-38 0 10d10+1900 1d1+200 5d6+12 pierce
--12 -12 -12 4
-CDEFIKN ABL N K
-stand stand female 6800
-0 0 large 0
+ABQ CDEFH 38
 #18038
 arena haydut~
 arena haydutu~
@@ -586,12 +406,7 @@ Bir arena haydutunu düþmanýndan para çalarken görüyorsun.
 Bu hergele ile konuþmaman en iyisi olacaktýr. Kýçýna tekmeyi basabilir!
 ~
 giant~
-ABS CDEFH -1000 0
-38 0 10d10+1900 1d1+200 5d6+12 pierce
--12 -12 -12 4
-CDEFIKN ABL N K
-stand stand male 9100
-0 0 large 0
+ABS CDEFH 38
 #18039
 kötü bebek ejderha~
 bebek ejderha~
@@ -604,12 +419,7 @@ kanatlarýný boþluða yayýyor. Þimdi farkýna varýyorsun ki o KOCAMAN bir
 ejderha ve ayný zamanda çok kötü.
 ~
 dragon~
-ABCFT CDEFJTUV -1000 0
-25 0 5d10+650 1d1+99 2d10+7 crush
--7 -7 -7 0
-BCDEFGHIJLMNO ABL BEHIJPR FJKX
-stand stand male 0
-0 0 large 0
+ABCFT CDEFJTUV 25
 #18040
 kötü aðaç~
 kötü aðaç~
@@ -622,12 +432,7 @@ Alacakaranlýkta bir surat þekli aldý, bir þeytan suratý... Sana doðru öfkeyle
 bakan bir surat. Damarlarýnda kan yerine korkunun dolaþtýðýný hissediyorsun.
 ~
 giant~
-ABR CDEFIJPV -1000 0
-30 0 6d12+853 1d1+100 4d6+8 crush
--9 -9 -9 -1
-BCDEFGHLO AG JPQ EK
-stand stand either 0
-0 0 large 0
+ABR CDEFIJPV 30
 #18041
 öldürücü yaðmur bulut~
 öldürücü yaðmur bulutu~
@@ -637,12 +442,7 @@ Havada dolaþan öldürücü bir yaðmur bulutu görüyorsun.
 saçýyor. Bu ..hmm.. þeyin yanýna gitmemek akýllý bir davranýþ olacaktýr.
 ~
 giant~
-ABFT CDFTV -1000 0
-23 0 5d10+450 1d1+100 3d6+6 slash
--6 -6 -6 1
-DEFGHL AG 0 IKRS
-stand stand either 0
-0 0 large 0
+ABFT CDFTV 23
 #18042
 þeytan alev~
 bir þeytan alevi~
@@ -654,12 +454,7 @@ gerçek dýþý, doða dýþý. Merak ediyorsun, kaçmalý mý yoksa savaþmalý mý...
 Mantýklý olaný seç!
 ~
 giant~
-ABCT FJTZ -1000 0
-35 0 10d10+1500 1d1+234 4d7+11 pierce
--11 -11 -11 -1
-BCDEFGHIJKLMNO AGHP HL EIKY
-stand stand either 0
-0 0 large 0
+ABCT FJTZ 35
 #18043
 su þeytaný~
 su þeytaný~
@@ -669,12 +464,7 @@ Yakýnýndaki bir havuzda ölümcül þeytanlardan, su þeytanýný görüyorsun.
 Kalbinin derinliklerinde bir ses sana ondan uzak durmaný söylüyor.
 ~
 giant~
-ABCT FJYZ -1000 0
-35 0 10d10+1500 1d1+234 4d7+11 pierce
--11 -11 -11 5
-BCDEFGHIJKLMNO AGR EP IJKMZ
-stand stand either 0
-0 0 large 0
+ABCT FJYZ 35
 #18044
 gökyüzü þeytaný~
 gökyüzü þeytaný~
@@ -684,12 +474,7 @@ Büyük, tehlikeli bir kasýrga... Gökyüzü þeytaný burada, ölümcül bir fýrtýna
 yaratýyor. Bu baþka bir ölümcül þeytan. Uzak durulmasý gereken bir diðeri.
 ~
 giant~
-ABCT FJYZ -1000 0
-35 0 10d10+1500 1d1+235 4d7+11 pierce
--11 -11 -11 5
-BCDEFGHIJKLMNO AEFJQ HN CK
-stand stand either 0
-0 0 large 0
+ABCT FJYZ 35
 #18045
 toprak þeytaný~
 toprak þeytaný~
@@ -699,12 +484,7 @@ Boðuk bir gürlemeyle zemini yarýp, günýþýðýna çýkan toprak þeytanýný
 görüyorsun. Nereye giderse yok edecek ölümcül depremler yaratýyor!
 ~
 giant~
-ABCT FJYZ -1000 0
-35 0 10d10+1500 1d1+236 4d7+11 pierce
--11 -11 -11 5
-BCDEFGHIJKLMNO OPS B HIJKNX
-stand stand either 0
-0 0 large 0
+ABCT FJYZ 35
 #18046
 koru þeytaný~
 koru þeytaný~
@@ -715,12 +495,7 @@ yaratýyor. Bütün ahþap þeyleri kontrol etme gücüne sahip. Bu þeytanla baþýný
 belaya sokmak istemezsin.
 ~
 giant~
-ABCT FJYZ -1000 0
-35 0 10d10+1500 1d1+236 4d7+11 pierce
--11 -11 -11 5
-BCDEFGHIJKLMNO FS IP HKQZ
-stand stand either 0
-0 0 large 0
+ABCT FJYZ 35
 #18047
 kaya þeytaný~
 kaya þeytaný~
@@ -730,12 +505,7 @@ Bir kaya þeytaný burada duruyor.
 Kalbine korku, ruhuna acý salýyor. Bu güçlü yaratýk durdurulamaz görünüyor.
 ~
 giant~
-ABCT FJYZ -1000 0
-35 0 10d10+1500 1d1+276 4d7+11 pierce
--12 -12 -12 5
-BCDEFGHIJLNO AC EHIOQR FJKY
-stand stand either 0
-0 0 large 0
+ABCT FJYZ 35
 #18048
 titan kraliyet muhafýz~
 Titan kraliyet muhafýzý~
@@ -744,12 +514,7 @@ Bir Titan Kraliyet muhafýzý burada duruyor.
 Uzun ve güçlü görünümlü bu muhafýz kale duvarlarýný devriye geziyor.
 ~
 giant~
-ABCT FJ -1000 0
-40 0 15d10+2000 1d1+201 4d8+13 slash
--12 -12 -12 -2
-BCDEFGHIK ABL N K
-stand stand male 7000
-0 0 large 0
+ABCT FJ 40
 #18049
 titan çocuk~
 Titan çocuðu~
@@ -758,12 +523,7 @@ Bir Titan çocuðu burada, kayalarla oynuyor.
 Bu küçük çocuk kendini birkaç kaya parçasýyla eðlendiriyor.
 ~
 giant~
-ABCT FJ -1000 0
-33 0 10d10+1300 1d1+111 6d4+10 slash
--11 -11 -11 5
-BCDEFGHIK ABL N K
-stand stand male 330
-0 0 large 0
+ABCT FJ 33
 #18050
 titan kýz çocuk~
 Titan kýz çocuðu~
@@ -774,12 +534,7 @@ giyinmiþ, oldukça tatlý bir kýz. Parktaki diðer çocuklara benziyor.
 Belki bütün titanlý çocuklar birbirine benziyordur.
 ~
 giant~
-ABCT FJ -1000 0
-33 0 10d10+1100 1d1+111 6d4+10 slash
--11 -11 -11 5
-BCDEFGHIK ABL N K
-stand stand female 390
-0 0 large 0
+ABCT FJ 33
 #18051
 uyuyan muhafýz titan~
 bir muhafýz~
@@ -789,12 +544,7 @@ Zzzzzzz....Zzzzzzzz.....Zzzzzzzzz.... *SSSSSHHHHHhhhhhhhhh.......!
 O uyuyor ve uyandýrman hiç hoþuna gitmeyecektir!
 ~
 giant~
-ABCT FJ -1000 0
-40 0 15d10+2000 1d1+111 4d8+13 pierce
--13 -13 -13 4
-BCDEFGHIK ABL BN K
-sleep sleep male 5870
-0 0 large 0
+ABCT FJ 40
 #18052
 öðüt veren~
 öðüt veren~
@@ -804,12 +554,7 @@ Kraliçe ile derin bir muhabbete girmiþ. Onu rahatsýz etmek aptalca
 olacaktýr.
 ~
 dwarf~
-ABCT FJ -1000 0
-50 0 50d10+5000 1d1+212 5d8+19 beating
--20 -20 -20 3
-BCDEFGHIK ABL N KSZ
-stand stand female 7100
-0 0 large 0
+ABCT FJ 50
 #18053
 hayvancý~
 hayvancý~
@@ -820,12 +565,7 @@ suratýna sahip. Dünyadaki en iyi savaþan hayvanlarý satýyor olmalý. Belki
 birkaç tanesi ilgini çeker ?
 ~
 giant~
-ABT FJ -1000 0
-50 0 50d10+14500 1d1+212 5d8+29 pierce
--50 -50 -50 -23
-CDEFIKN ABL N K
-stand stand male 5000
-0 0 large 0
+ABT FJ 50
 #18054
 siyah puma~
 Siyah Puma~
@@ -834,12 +574,7 @@ Sahibini koruyan siyah bir puma burada duruyor.
 Çok iri ve çok tehlikeli. Bu siyah pumayla kötü olmak ÝSTEMEZSÝN!
 ~
 cat~
-ABTV DFHUVZ 1000 0
-40 1 15d10+1500 1d1+200 4d8+13 beating
--13 -13 -13 4
-NE HM GHIJK I
-stand stand male 0
-0 0 large 0
+ABTV DFHUVZ 40
 #18055
 kraken ejderhasý~
 kraken ejderhasý~
@@ -848,12 +583,7 @@ kraken ejderhasý~
 ÇOK çok büyük ve güçlü. Kraken gördüðün en ürkütücü þey olmalý!
 ~
 dragon~
-ABTV DFHTUV 1000 0
-45 1 25d10+2100 1d1+102 8d4+16 beating
--15 -15 -15 3
-NE H GHIJK I
-stand stand male 0
-0 0 large 0
+ABTV DFHTUV 45
 #18056
 sihirli silp~
 Sihirli Silp~
@@ -863,12 +593,7 @@ Küçük fakat güzel bir yaratýk. Bu silp güçsüz bir savaþçý gibi görünüyor,
 aslýnda tehlikeli bir ejderha türüdür.
 ~
 dragon~
-ABORV DFHTUV 1000 0
-50 0 50d10+3000 1d1+499 5d6+14 beating
--20 -20 -20 2
-CEFIOY J HIJKNO B
-stand stand female 0
-0 0 large 0
+ABORV DFHTUV 50
 #18057
 örümcek maymunu~
 örümcek maymunu~
@@ -878,12 +603,7 @@ Küçük fakat þirin bir örümcek maymunu. Sahibi ihtiyaç duyduðu anda
 ona yardým etmek için burada bekliyor.
 ~
 human~
-ABT DV 1000 0
-20 1 3d9+300 1d1+310 2d8+5 beating
--4 -4 -4 7
-C J DN 0
-stand stand male 0
-0 0 large 0
+ABT DV 20
 #18058
 kel aslan~
 kel aslan~
@@ -892,12 +612,7 @@ Sahibini yakýndan takip eden bir kel aslan görüyorsun.
 Küçük, þirin bir erkek aslan. Savaþa hazýr, sahibini takip ediyor.
 ~
 cat~
-ABT DV 1000 0
-25 0 5d10+500 1d1+249 2d10+7 beating
--7 -7 -7 5
-C J HIJKN CF
-stand stand male 0
-0 0 large 0
+ABT DV 25
 #18059
 kurt~
 kurt~
@@ -906,12 +621,7 @@ Siyah irice bir kurt burada, sahibini koruyor.
 Ürkütücü siyah bir kurt burada, sahibini koruyor.
 ~
 dog~
-ABT DTV 1000 0
-30 0 6d12+823 1d1+299 4d6+8 beating
--9 -9 -9 6
-C J HIJKN DF
-stand stand male 0
-0 0 large 0
+ABT DTV 30
 #18060
 java ejderhasý~
 java ejderhasý~
@@ -920,12 +630,7 @@ Korkunç bir Java Ejderhasý burada, sahibini koruyor.
 Kocaman diþi bir Java Ejderhasý. Sahibini büyülü alevleri ile koruyor.
 ~
 dragon~
-ABR DTV 1000 0
-35 1 10d10+1550 1d1+904 4d7+11 beating
--11 -11 -11 5
-C J HIJKN F
-stand stand female 0
-0 0 large 0
+ABR DTV 35
 #18061
 kral draktaks~
 Kral Draktaks~
@@ -934,12 +639,7 @@ Titanlarýn Kralý Draktaks burada duruyor.
 Gururlu bir kral burada durmuþ krallýðýnýn geleceði hakkýnda planlar yapýyor.
 ~
 giant~
-ABT DFV -1000 0
-53 0 50d10+7000 1d1+401 6d7+21 pierce
--22 -22 -22 2
-CDEFGKNO BO HIJ JKP
-stand stand male 19990
-0 0 large 0
+ABT DFV 53
 #18062
 kraliçe kralice kristal~
 Kraliçe Kristal~
@@ -948,12 +648,7 @@ Titanlarýn Kraliçesi Kristal burada duruyor.
 Uzun ve gururlu bir kraliçe. Kraliyetin geleceði üzerine düþünüyor.
 ~
 giant~
-ABT DFV -1000 0
-51 0 50d10+5500 1d1+502 5d8+19 pierce
--21 -21 -21 3
-CDEFGKNO BO HIJ JKP
-stand stand female 16990
-0 0 large 0
+ABT DFV 51
 #18063
 suikastçi~
 suikastçi~
@@ -964,12 +659,7 @@ suikastçiyi görüyorsun. Belli ki kraliyetten biri kral ve krliçeyi yok
 etmek istiyor. Nedeni bilginin çok ötesinde.
 ~
 giant~
-ABT DFV -1000 0
-45 0 25d10+3500 1d1+302 8d4+16 slash
--15 -15 -15 4
-CDEFGKNO ABL N K
-stand stand male 8990
-0 0 large 0
+ABT DFV 45
 #18064
 fare~
 fare~
@@ -978,12 +668,7 @@ Küçük, çirkin bir fare burada duruyor.
 Çirkin bir fare burada, halýnýn üzerinde bir þeyler kemiriyor.
 ~
 giant~
-ABT DFV -500 0
-30 0 6d12+953 1d1+201 4d6+8 beating
--9 -9 -9 6
-CDEFGKNO ABL N K
-stand stand male 0
-0 0 large 0
+ABT DFV 30
 #18065
 köylü~
 köylü~
@@ -992,12 +677,7 @@ Güneþli havanýn tadýný çýkaran mutlu bir köylü burada duruyor.
 Güneþli havanýn tadýný çýkaran mutlu bir köylü burada duruyor.
 ~
 giant~
-ABT DFH -1000 0
-28 0 6d12+703 1d1+504 2d12+8 pierce
--8 -8 -8 6
-CDEFGKNO ABL N K
-stand stand female 100
-0 0 large 0~
+ABT DFH 28
 #18066
 üstad~
 üstad~
@@ -1006,12 +686,7 @@ Savaþçý üstadýn burada duruyor.
 Yaþlý bir adam burada, eski kitaplara bakarak dinleniyor.
 ~
 giant~
-ABJKRVb DF 0 0
-40 0 15d10+8000 1d1+499 4d8+13 slash
--13 -13 -13 4
-FHN AB 0 0
-stand stand male 8000
-0 0 large 0
+ABJKRVb DF 40
 #18067
 talebe rahip~
 talebe rahip~
@@ -1020,12 +695,7 @@ Lonca talebesi burada, yeteneklerini geliþtiriyor.
 Morlara bürünmüþ genç bir adam burada, meditasyon yapýyor.
 ~
 giant~
-ABJKQV DF -250 0
-35 0 10d10+1300 1d1+499 4d7+11 pierce
--11 -11 -11 5
-EFGIK AB 0 0
-stand stand male 4500
-0 0 large 0
+ABJKQV DF 35
 #18068
 talebe savaþçý~
 talebe savaþçý~
@@ -1035,12 +705,7 @@ Asker ceketinden baþka bir þey giymemiþ ufak tefek bir adam, burada olasý
 düþmanlarý ile savaþmak için bekliyor.
 ~
 giant~
-ABJKTV DF 0 0
-35 0 10d10+1300 1d1+99 4d7+11 pierce
--11 -11 -11 5
-ACEFHIK AB 0 0
-stand stand male 5500
-0 0 large 0
+ABJKTV DF 35
 #18069
 üstad~
 üstad~
@@ -1052,12 +717,7 @@ sol kulaðýnýn yanýndan arkandaki duvara saplanýyor. Bütün söylediði
 "Þimdi baþlayabiliriz" oluyor.
 ~
 giant~
-ABJKTVb DFJ -100 0
-40 0 15d10+4000 1d1+99 5d6+13 pierce
--13 -13 -13 3
-BEFHJKN AB B Z
-stand stand male 3000
-0 0 large 0
+ABJKTVb DFJ 40
 #18070
 lonca muhafýz~
 lonca muhafýzý~
@@ -1066,12 +726,7 @@ Kembolar Loncasýnýn muhafýzý burada duruyor.
 Bu adam yarý büyücü, yarý savaþçýya benziyor. Onunla baþýmý belaya sokmazdým.
 ~
 giant~
-ABRT D 0 0
-30 0 6d12+953 3d7+4 4d6+8 pierce
--9 -9 -9 5
-0 0 0 0
-stand stand male 3345
-0 0 large 0
+ABRT D 30
 #18071
 lonca muhafýzý~
 lonca muhafýzý~
@@ -1080,12 +735,7 @@ lonca muhafýzý~
 Bu adam usta bir þafiye benziyor. Onunla baþýmý belaya sokmazdým.
 ~
 giant~
-ABQT D 0 0
-30 0 6d12+1003 3d7+4 4d6+8 pierce
--9 -9 -9 5
-0 0 0 0
-stand stand male 4367
-0 0 large 0
+ABQT D 30
 #18072
 lonca muhafýzý~
 lonca muhafýzý~
@@ -1094,12 +744,7 @@ Savaþçýlar Loncasýnýn muhafýzý burada duruyor.
 Bu adam Konan'ýn kuzenine benziyor. Onunla baþýmý belaya sokmazdým.
 ~
 giant~
-ABTU D 0 0
-30 0 6d12+1100 3d7+4 4d6+8 pierce
--9 -9 -9 -1
-0 0 0 0
-stand stand male 4278
-0 0 large 0
+ABTU D 30
 #18073
 lonca muhafýzý~
 lonca muhafýzý~
@@ -1108,12 +753,7 @@ Orman Loncasýnýn muhafýzý burada duruyor.
 Tamamen siyahlar giyinmiþ bir orman korucusu görüyorsun.
 ~
 giant~
-ABST D 0 0
-30 0 6d12+953 3d7+4 4d6+8 pierce
--9 -9 -9 -1
-0 0 0 0
-stand stand male 5657
-0 0 large 0
+ABST D 30
 #18074
 uþak~
 uþak~
@@ -1122,12 +762,7 @@ Etrafta koþuþturan bir uþak görüyorsun.
 Sarayýn koridorlarýnda koþan ufak bir çocuk görüyorsun.
 ~
 giant~
-AG 0 0 0
-25 0 5d10+650 1d6+1 2d10+7 beating
--7 -7 -7 0
-0 0 0 0
-stand stand male 2267
-0 0 large 0
+AG 0 25
 #18075
 turist~
 turist~
@@ -1137,12 +772,7 @@ Bütün mevkilere dikkatlice bakan bir turist görüyorsun. Baþaþaðý tuttuðu
 küçük bir gezi haritasýný inceliyor.
 ~
 giant~
-ACGH 0 0 0
-25 0 5d10+650 1d6+1 2d10+7 beating
--7 -7 -7 6
-0 0 0 0
-stand stand male 3413
-0 0 large 0
+ACGH 0 25
 #18076
 depo görevli~
 depo görevlisi~
@@ -1152,12 +782,7 @@ Tezgahtara yardým eden depo görevlisi burada duruyor.
 yardýmcýlarýný görebilirsin!
 ~
 giant~
-ABGH J -1000 0
-25 0 5d10+650 1d6+1 2d10+7 beating
--17 -17 -17 5
-DEF 0 B Z
-stand stand male 2333
-0 0 large 0
+ABGH J 25
 #18077
 derici~
 derici~
@@ -1167,12 +792,7 @@ Genç güzel bir bayan burada deri giysiler yapýyor. Oldukça meþgul görünüyor,
 onu rahatsýz etmek istemezsin.
 ~
 giant~
-ABGH J -1000 0
-30 0 6d12+953 1d8+100 4d6+8 pierce
--9 -9 -9 5
-0 0 B 0
-stand stand female 4000
-0 0 large 0
+ABGH J 30
 #18078
 demirci~
 demirci~
@@ -1182,12 +802,7 @@ Ateþin baþýnda çalýþmaktan oldukça bunalmýþ görünüyor. Demiri döverek
 dükkanýnda satmak için birçok yeni silah yapýyor.
 ~
 giant~
-ABGH J -1000 0
-35 0 10d10+1800 1d8+100 4d7+11 slash
--11 -11 -11 4
-0 0 B 0
-stand stand male 8900
-0 0 large 0
+ABGH J 35
 #18079
 teðmen~
 teðmen~
@@ -1197,12 +812,7 @@ Oldukça güçlü görünümde ve çalýþkan görünüyor. Þehri olasý bir saldýrýdan
 kurtarmak için bir savunma planý hazýrlýyor. Onu rahatsýz etmek istemezsin.
 ~
 giant~
-ABGH J -1000 18062
-42 0 25d10+3250 1d8+100 3d12+14 pierce
--14 -14 -14 4
-0 0 D C
-stand stand male 6699
-0 0 large 0
+ABGH J 42
 #18080
 asker~
 asker~
@@ -1211,12 +821,7 @@ Titan Ordusunun bir askeri kýlýçlarýný bileyliyor.
 Kýlýcýný savaþ için bileylemekle meþgul. Emirler için ise her zaman hazýr.
 ~
 giant~
-AGH J -1000 18079
-38 0 10d10+1800 1d8+120 5d6+12 slash
--13 -13 -13 5
-0 0 B 0
-stand stand male 6660
-0 0 large 0
+AGH J 38
 #18087
 zýrhçý~
 zýrhçý~
@@ -1226,12 +831,7 @@ En iyi çeliði en güzel zýrha dönüþtürmek için oldukça çok çalýþýyor. Belki
 senin ölçülerinde birþeyleri vardýr.
 ~
 giant~
-ABGH J -1000 0
-40 0 15d10+3050 1d8+100 4d8+13 bash
--13 -13 -13 4
-0 0 B Z
-stand stand male 7999
-0 0 large 0
+ABGH J 40
 #18090
 hidra ejderhasý~
 Hidra Ejderhasý~
@@ -1240,12 +840,7 @@ Hidra Ejderhasý~
 Kocaman, ölümcül bir Hidra sahibini korumak için burada duruyor.
 ~
 dragon~
-ABJRTV DFTV 1000 0
-35 0 10d10+1550 1d1+348 4d8+13 beating
--11 -11 -11 5
-N H GHIJK FI
-stand stand female 0
-0 0 large 0
+ABJRTV DFTV 35
 #18097
 hakim~
 hakim~
@@ -1256,12 +851,7 @@ geçmelerini istemezsin. Sana ve arkadaþlarýna etkileyici bir büyü
 yapabilir!
 ~
 giant~
-ABCT FJ -1000 0
-42 0 25d10+2250 1d1+1111 3d12+14 pierce
--14 -14 -14 5
-BCDEFH ABL N KS
-stand stand male 9233
-0 0 large 0
+ABCT FJ 42
 #18098
 iksirci~
 iksirci~
@@ -1272,12 +862,7 @@ iksir çeþidinin olduðunu görüyorsun. Ýhtiyacýn olduðunda seni iyileþtirecek
 þeylerin burada olduðundan eminsin.
 ~
 giant~
-ABT CDEFJ -1000 0
-45 0 25d10+3000 1d1+320 8d4+16 slash
--15 -15 -15 -2
-CDEFIKN ABL BN K
-stand stand female 500000
-0 0 large 0
+ABT CDEFJ 45
 #18099
 köylü~
 köylü~
@@ -1288,12 +873,7 @@ giyimli bir köylü. Alýþveriþine kanýt olarak elinde bir çok eþya
 taþýyor. Bu kasabanýn mutlu bir yer olmasýndan memnunluk duyuyorsun.
 ~
 giant~
-ABT CDEF -1000 0
-28 0 6d12+703 1d1+195 2d12+8 pierce
--8 -8 -8 6
-CDEFIKN ABL N K
-stand stand male 100
-0 0 large 0
+ABT CDEF 28
 #18100
 görevci~
 Görevci~
@@ -1304,12 +884,7 @@ Görevci seni tepeden süzüyor. Her bir santimi kas olan devin boyu yaklaþýk
 huzurunda bir suça kalkýþmak aptallýk olurdu.
 ~
 giant~
-ABTVe CDFJVZ 1000 3000
-85 30 1d1+13999 1d1+1499 5d14+40 crush
--50 -50 -50 -50
-ACDEFHIKLNOT ABP CD 0
-stand stand male 0
-0 0 huge 0
+ABTVe CDFJVZ 85
 #18101
 þifacý~
 þifacý~
@@ -1319,12 +894,7 @@ Serüvenleri býraktýktan yýllar sonra bile, hala bir yardým eli uzatýyor.
 Büyüleri listelemek için 'iyileþtir' yazman yeterli.
 ~
 giant~
-ABKQVae DFH 1000 0
-80 10 1d1+10999 1d1+999 2d4+30 divine
--15 -15 -15 -15
-FHIK ABC D 0
-stand stand male 5000
-0 0 huge 0
+ABKQVae DFH 80
 
 #0
 

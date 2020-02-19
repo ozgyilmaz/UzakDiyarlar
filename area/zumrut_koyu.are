@@ -11,7 +11,7 @@ Maxvnum 199
 Path 7d k~
 END
 
-#MOBILES
+#NEW_MOBILES
 #101
 köylü~
 Köylü~
@@ -21,12 +21,7 @@ Orman yeþili bir tunik giymiþ bir köylü görüyorsun. Çizmeleri
 hakiki ceylan derisinden yapýlmýþ gibi duruyor.
 ~
 human~
-AGHS DF 100 0
-1 0 2d4+2 0d9+100 1d2+0 none
-10 10 10 10
-BEFJNU 0 0 0
-stand stand male 1
-0 0 medium 0
+AGHS DF 1
 #102
 köylü~
 Köylü~
@@ -36,12 +31,7 @@ Köylü sessizce, yemek için böðürtlen topluyor. Ýþine o kadar
 dalmýþ ki geldiðinin farkýnda bile deðil.
 ~
 human~
-ABHS DF 100 0
-1 0 2d4+2 0d9+100 1d2+0 none
-10 10 10 10
-BEFJNU 0 0 0
-stand stand male 1
-0 0 medium 0
+ABHS DF 1
 #103
 yelin köylü~
 Yelin~
@@ -51,12 +41,7 @@ Orta boylu ve bilgiç görünümlü bir Zümrüt Orman'lýyý görüyorsun.
 Yelin'in yüzünde kendinden emin bir ifade var.
 ~
 human~
-AGHS DF 100 0
-3 0 2d7+21 1d9+100 1d5+0 none
-8 8 8 10
-BEFJNU 0 0 0
-stand stand male 1
-0 0 medium 0
+AGHS DF 3
 #104
 helin köylü~
 Helin~
@@ -66,12 +51,7 @@ Köyün marangozu Helin, durmak dinlenmek bilmeden çalýþmaya
 devam eden birisi.
 ~
 human~
-AGHS DF 100 0
-3 0 2d7+21 1d9+100 1d5+0 none
-8 8 8 10
-BEFJNU 0 0 0
-stand stand male 1
-0 0 medium 0
+AGHS DF 3
 #105
 pelin köylü~
 Pelin~
@@ -81,12 +61,7 @@ Pelin, bir yandan adaçayýný içerken, diðer yandan yýrtýlan
 gömleðini dikmekte. Halinden  oldukça mutlu olduðu görünüyor.
 ~
 human~
-AGHS DF 100 0
-3 0 2d7+21 1d9+100 1d5+0 none
-8 8 8 10
-BEFJNU 0 0 0
-stand stand male 1
-0 0 medium 0
+AGHS DF 3
 #106
 köylü avcý irel~
 Avcý Ýrel~
@@ -97,12 +72,7 @@ yorgun bir hali var. Yine de av býçaðýný bileyerek ertesi günün
 avý için hazýrlanmayý ihmal etmiyor.
 ~
 human~
-AGHS DF 100 0
-3 0 2d7+21 1d9+100 1d5+0 none
-8 8 8 10
-BEFJNU 0 0 0
-stand stand male 1
-0 0 medium 0
+AGHS DF 3
 #107
 köylü avcý sumru~
 Avcý Sumru~
@@ -112,12 +82,7 @@ Sumru'nun oldukça sinirli olduðu görülüyor. Neden öfkelenmiþ
 olabileceðini merak ediyorsun.
 ~
 human~
-AGHS DF 100 0
-3 0 2d7+21 1d9+100 1d5+0 none
-8 8 8 10
-BEFJNU 0 0 0
-stand stand male 1
-0 0 medium 0
+AGHS DF 3
 #108
 köylü ihtiyar elkin~
 Ýhtiyar Elkin~
@@ -128,12 +93,7 @@ yalnýz baþýna oturuyor. Belli ki senin geldiðinin farkýnda
 bile deðil.
 ~
 human~
-AGHS DF 100 0
-3 0 2d7+21 1d9+100 1d5+0 none
-8 8 8 10
-BEFJNU 0 0 0
-stand stand male 1
-0 0 medium 0
+AGHS DF 3
 #109
 köylü galehir~
 Galehir~
@@ -142,12 +102,7 @@ Galehir burada, neþe içinde gülümsüyor.
 Çok güzel bir köylü kýzý görüyorsun.
 ~
 human~
-AGHS DF 100 0
-3 0 2d7+21 1d9+100 1d5+0 none
-8 8 8 10
-BEFJNU 0 0 0
-stand stand female 1
-0 0 medium 0
+AGHS DF 3
 #110
 köylü dede zümrüt~
 Zümrüt Dede~
@@ -158,12 +113,7 @@ baþvurduðu Zümrüt  Dede, karþýnda duruyor. Yaþlý birisi, yine de dinç
 bir görünümü var.
 ~
 human~
-AGHR 0 100 0
-10 0 2d6+110 10d9+100 1d8+1 none
-2 2 2 6
-FU 0 0 0
-stand stand male 2
-0 0 medium 0
+AGHR 0 10
 #111
 gremalg büyücü~
 Gremalg~
@@ -173,12 +123,7 @@ Uzun boylu ve yaþlý bir büyücü görüyorsun. Yüzünde kötücül bir gülümseme
 ile sana bakýyor.
 ~
 human~
-ABHQ 0 -100 0
-10 0 2d7+121 10d9+100 1d7+2 none
-1 1 1 7
-EIKU 0 0 0
-stand stand male 2
-0 0 medium 0
+ABHQ 0 10
 #112
 reim uþak~
 Reim~
@@ -188,12 +133,7 @@ Kýsa boylu, aptal görünüþlü bir adam görüyorsun. Reim, bütün dikkatini
 vererek neler olup bittiðini anlamaya çalýþýyor.
 ~
 human~
-ABH 0 -100 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand male 1
-0 0 medium 0
+ABH 0 8
 #0
 #OBJECTS
 #100

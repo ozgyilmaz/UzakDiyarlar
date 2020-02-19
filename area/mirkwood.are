@@ -26,7 +26,7 @@ Checked and beta tested by Quartz.
 0 $~
 
 
-#MOBILES
+#NEW_MOBILES
 #8800
 çora gözcüsü~
 çora gözcüsü~
@@ -39,12 +39,7 @@ back down. As natives of Mirkwood, they are virtually imposssible to see
 if they don't want to be seen.
 ~
 çora~
-ABCFG FJQ 400 0
-5 0 2d6+60 1d1+99 1d6+1 punch
-5 5 5 10
-DF ABNI AN GH
-stand sit male 103
-0 0 small 0
+ABCFG FJQ 5
 #8801
 çora savaþçý~
 çora savaþçý~
@@ -56,12 +51,7 @@ hostile toward outsiders. However, if you're tough enough, perhaps he'll
 back down.
 ~
 çora~
-ABCFG J 400 0
-7 2 2d6+84 1d1+99 1d8+1 slice
-5 5 7 10
-CEF AB 0 D
-rest stand male 150
-0 0 small 0
+ABCFG J 7
 #8802
 ork gözcü~
 ork gözcü~
@@ -73,12 +63,7 @@ in their own demise, but eventually the Elves will be worn down by the
 sheer weight of numbers of the immense Orcish hordes.
 ~
 orc~
-ABCFGH J -400 0
-5 0 2d6+60 1d1+99 1d6+1 slap
-10 5 10 10
-CDF AB 0 CD
-stand stand male 211
-0 0 medium 0
+ABCFGH J 5
 #8803
 ork savaþçý~
 ork savaþçý~
@@ -90,12 +75,7 @@ but eventually the Elves will be worn down by the sheer weight of numbers
 of the immense Orcish hordes.
 ~
 orc~
-ACFG J -400 0
-5 1 2d6+60 1d1+99 1d6+1 grep
-5 5 7 5
-EIN AB 0 C
-stand stand male 0
-0 0 medium 0
+ACFG J 5
 #8804
 orman çorasý muhafýzý~
 orman çorasý muhafýzý~
@@ -105,12 +85,7 @@ This angry guard is incensed at your trespass in the hall of his king, and
 will attempt to forcibly eject you.
 ~
 çora~
-AFGTQ J 400 8807
-8 0 2d7+98 1d1+99 1d7+2 smash
-3 3 3 5
-CKNRT ABHLN 0 0
-stand stand male 50
-0 0 small 0
+AFGTQ J 8
 #8805
 muhafýz þefi~
 muhafýz þefi~
@@ -122,12 +97,7 @@ hostile toward outsiders. However, if you're tough enough, perhaps he'll
 back down.
 ~
 çora~
-ABCFGQ J 400 0
-12 1 2d10+150 1d1+99 1d10+3 claw
-1 1 0 7
-CDEFRTU HLN C 0
-stand stand male 100
-0 0 medium 0
+ABCFGQ J 12
 #8806
 kahya galon~
 Kahya Galon~
@@ -137,12 +107,7 @@ Galion has a tremenous fondness for Dorwinion Wine, and he is now well and
 truly inebriated. However that does not mean he won't react to your intrusion.
 ~
 çora~
-ABCFG J 400 0
-10 0 2d7+120 1d1+99 2d4+2 punch
-2 2 2 8
-KN AB 0 0
-stand stand male 0
-0 0 medium 0
+ABCFG J 10
 #8807
 tanduil kral~
 Kral Tanduil~
@@ -152,12 +117,7 @@ While not immune to the prejudices of his brethren, Thranduil is a trifle
 wiser (and more civilized) and he will not attack without provocation.
 ~
 çora~
-BGR HJ 500 0
-15 1 3d9+180 1d1+149 2d5+1 claw
--1 -1 -1 2
-CDEK 0 D 0
-sit sit male 0
-0 0 medium 0
+BGR HJ 15
 #8808
 erkek çora~
 erkek çora~
@@ -167,12 +127,7 @@ This person won't attack you like the guards will, but that doesn't mean
 he likes you any more than they do...
 ~
 çora~
-CGQ J 400 0
-6 0 2d7+70 1d1+99 1d7+1 punch
-4 4 4 5
-FR 0 0 0
-stand stand male 0
-0 0 small 0
+CGQ J 6
 #8809
 çora kadýn~
 kadýn çora~
@@ -182,12 +137,7 @@ This person won't attack you like the guards will, but that doesn't mean
 ahe likes you any more than they do...
 ~
 çora~
-CGQ J 400 0
-6 0 2d7+65 1d1+99 1d7+1 punch
-5 5 5 5
-FR 0 0 0
-stand stand female 0
-0 0 small 0
+CGQ J 6
 #8810
 çora gardiyan~
 gardiyan~
@@ -196,12 +146,7 @@ Gardiyan uyuyakalmýþ.
 This surly fellow is almost always passed out from copious alcohol consumption.
 ~
 çora~
-BCG J 0 0
-9 -1 2d6+112 1d1+99 1d8+2 slap
-2 2 2 4
-FJ 0 0 0
-sleep sleep male 20
-0 0 small 0
+BCG J 9
 #8811
 torin meþekalkaný~
 Torin Meþekalkaný~
@@ -212,12 +157,7 @@ by the Wood Elves while journeying to avenge their brethren against the
 dragon Smaug.
 ~
 çora~
-CGQ O 500 0
-14 0 2d10+190 1d1+99 1d12+3 punch
--1 -1 -1 0
-IKNR 0 ABIN 0
-stand stand male 40
-0 0 medium 0
+CGQ O 14
 #0
 
 #OBJECTS

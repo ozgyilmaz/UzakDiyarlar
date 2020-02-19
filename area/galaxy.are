@@ -11,7 +11,7 @@ Maxvnum 9399
 Path 3g 2d 2g 6b k b k 3b k b k (Gölge Korusundan Giriþ) Edgar'dan b k~
 END
 
-#MOBILES
+#NEW_MOBILES
 #9301
 oldstyle poor mudder~
 a poor mudder~
@@ -20,12 +20,7 @@ A poor mudder, lost in this place.
 You will become him if you are not careful.
 ~
 human~
-ACGS DF 0 0
-4 0 2d6+35 2d9+100 1d6+0 none
-7 7 7 9
-BEFJNU 0 0 0
-stand stand male 5
-0 0 medium 0
+ACGS DF 4
 #9302
 oldstyle star~
 a beautiful star~
@@ -34,12 +29,7 @@ A beautiful white star smiles at you.
 You can't tell what the star looks like, she is too bright!
 ~
 human~
-ABG 0 500 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand female 25
-0 0 medium 0
+ABG 0 8
 #9303
 oldstyle nebula young~
 a young nebula~
@@ -48,12 +38,7 @@ A young nebula, waiting to become a star.
 It hasn't got a definite shape, it is just a cloud of mist.
 ~
 human~
-AG 0 200 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand female 50
-0 0 medium 0
+AG 0 10
 #9304
 oldstyle comet speedy~
 a speedy comet~
@@ -62,12 +47,7 @@ A speedy comet is waiting to crush your head in.
 You see the offspring of Halley's comet, here just to wipe everything out.
 ~
 human~
-ACFG 0 -500 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand male 75
-0 0 medium 0
+ACFG 0 10
 #9305
 oldstyle red supergiant~
 a red supergiant~
@@ -77,12 +57,7 @@ You notice the giant is not as tough as his name sounds ...
 Still he can be very powerful.
 ~
 human~
-ABGH 0 0 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNU 0 0 0
-sleep sleep male 100
-0 0 medium 0
+ABGH 0 15
 #9306
 oldstyle white dwarf~
 a white dwarf~
@@ -92,12 +67,7 @@ Like the red giant, he is also appointed to stand guard for the galaxy.
 But somehow he manages to escape.  Though tiny, it can take a lot of hits!
 ~
 human~
-ACG 0 0 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand male 100
-0 0 medium 0
+ACG 0 15
 #9307
 oldstyle horsehead nebula~
 a horsehead nebula~
@@ -107,12 +77,7 @@ You can only make out its shape from the darkness.  He was cursed to stay in
 here and his face may never be seen by anyone again.
 ~
 human~
-ABG PQ -1000 0
-18 0 3d9+283 9d9+100 2d7+4 none
--3 -3 -3 7
-EFNU 0 0 0
-sit sit male 300
-0 0 medium 0
+ABG PQ 18
 #9308
 oldstyle andromeda~
 poor Andromeda~
@@ -122,12 +87,7 @@ She was once a princess of beauty.  However, her beauty has led to a Goddess's
 jealousy and she has to suffer here endlessly until Perseus comes.
 ~
 human~
-ABEG H 1000 0
-18 0 3d9+283 9d9+100 2d7+4 none
--3 -3 -3 7
-EFNU 0 0 0
-stand stand female 375
-0 0 medium 0
+ABEG H 18
 #9309
 oldstyle hercules~
 the mighty Hercules~
@@ -138,12 +98,7 @@ queen goddess, who disliked him.  But he finished them all and at the end was
 granted immortality. He is a very brave and strong fighter.
 ~
 human~
-ABG H 1000 0
-19 0 3d9+308 9d9+100 2d7+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand male 375
-0 0 medium 0
+ABG H 19
 #9310
 oldstyle pegasus~
 the wild Pegasus~
@@ -152,12 +107,7 @@ The wild pegasus is grazing peacefully.
 It is the legendary horse with wings on its back.
 ~
 human~
-ABGH 0 300 0
-17 0 3d9+258 8d9+100 3d4+4 none
--3 -3 -3 7
-EFNU 0 0 0
-stand stand none 250
-0 0 medium 0
+ABGH 0 17
 #9311
 oldstyle orion~
 Orion the hunter~
@@ -169,12 +119,7 @@ appears on one side of the sky and the other the other side so they will
 never meet.
 ~
 human~
-ABG H 300 0
-19 0 3d9+308 9d9+100 2d7+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand male 375
-0 0 medium 0
+ABG H 19
 #9312
 oldstyle pleiades~
 the Pleiades~
@@ -184,12 +129,7 @@ These are the seven sisters of the Myths, and as for why they are here, no
 one knows; even the Gods themselves have forgotten.
 ~
 human~
-ABG 0 300 0
-11 0 2d8+134 5d9+100 1d10+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand female 150
-0 0 medium 0
+ABG 0 11
 #9313
 oldstyle draco head~
 the Head of Draco~
@@ -200,12 +140,7 @@ before entering the inner galaxy.  His neck is flexing in a random fashion so
 hitting the head is certainly not easy.
 ~
 human~
-ABFG DH -1000 0
-25 0 5d10+550 12d9+100 2d10+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand none 750
-0 0 medium 0
+ABFG DH 25
 #9314
 oldstyle draco baby~
 a baby draco~
@@ -216,12 +151,7 @@ resembles a snake.  Gosh, is this a draco, you wonder, is this the thing
 we are on now?
 ~
 human~
-ACGH 0 -700 0
-9 0 2d6+110 4d9+100 1d8+2 none
-2 2 2 8
-EFNU 0 0 0
-stand stand none 200
-0 0 medium 0
+ACGH 0 9
 #9315
 oldstyle aries~
 Aries~
@@ -231,12 +161,7 @@ You see a white goat here, the first guardian of the Zodiac,
 also the ruler of Spring. He looks as if he is expecting you.
 ~
 human~
-ABGQ H 700 0
-22 0 5d10+400 22d9+100 2d8+6 none
--5 -5 -5 5
-EIKU 0 0 0
-sit sit male 500
-0 0 medium 0
+ABGQ H 22
 #9316
 oldstyle taurus~
 Taurus~
@@ -246,12 +171,7 @@ You see a wild-looking bull with a bad temper.  He is well-built and looks like
 he can fight well ... indeed he has fought with Orion before and survived.
 ~
 human~
-ABFGQ DH -100 0
-22 0 5d10+400 22d9+100 2d8+6 none
--5 -5 -5 5
-EIKU 0 0 0
-stand stand male 500
-0 0 medium 0
+ABFGQ DH 22
 #9317
 oldstyle gemini~
 Gemini~
@@ -261,12 +181,7 @@ As soon as you see him you know that he is the most perfect man you have seen.
 You can't find any imperfections on him.
 ~
 human~
-ABGQ H 1000 0
-22 0 5d10+400 22d9+100 2d8+6 none
--5 -5 -5 5
-EIKU 0 0 0
-stand stand male 500
-0 0 medium 0
+ABGQ H 22
 #9318
 oldstyle gemini~
 Gemini~
@@ -276,12 +191,7 @@ As soon as you see him you see the most imperfect man you have ever seen.
 How can there be such a contrast?  You wonder ...
 ~
 human~
-ABCFGHQ DHU -1000 0
-15 0 3d9+208 15d9+100 2d5+3 none
--2 -2 -2 6
-EIKU 0 0 0
-stand stand male 250
-0 0 medium 0
+ABCFGHQ DHU 15
 #9319
 oldstyle cancer~
 Cancer~
@@ -292,12 +202,7 @@ Legend is that he was crushed by Hercules when he was sent by Hera to kill him.
 So Hera made Cancer a constellation for his work.
 ~
 human~
-ABGQ H 0 0
-22 0 5d10+400 22d9+100 2d8+6 none
--5 -5 -5 5
-EIKU 0 0 0
-stand stand male 600
-0 0 medium 0
+ABGQ H 22
 #9320
 oldstyle leo~
 Leo~
@@ -308,12 +213,7 @@ during his first Labour.  His skin is so weapon-proof that Hercules had to use
 his bare hands to tear the lion into two from its mouth!
 ~
 human~
-ABFGQ DH -100 0
-22 0 5d10+400 22d9+100 2d8+6 none
--5 -5 -5 5
-EIKU 0 0 0
-stand stand male 500
-0 0 medium 0
+ABFGQ DH 22
 #9321
 oldstyle virgo~
 Virgo~
@@ -324,12 +224,7 @@ may not be the maid of chastity and purity at all!  But still she looks
 gorgeous and is waiting for your first move, whatever it is ...
 ~
 human~
-ABGQ H 1000 0
-22 0 5d10+400 22d9+100 2d8+6 none
--5 -5 -5 5
-EIKU 0 0 0
-sit sit female 500
-0 0 medium 0
+ABGQ H 22
 #9322
 oldstyle libra~
 Libra~
@@ -339,12 +234,7 @@ He is a wise old man and can see people's thoughts through their eyes....
 Now all he can see from you is greed and bloodshed.
 ~
 human~
-ABGQ H 1000 0
-22 0 5d10+400 22d9+100 2d8+6 none
--5 -5 -5 5
-EIKU 0 0 0
-stand stand male 500
-0 0 medium 0
+ABGQ H 22
 #9323
 oldstyle scorpio~
 Scorpio~
@@ -354,26 +244,16 @@ Ever since he killed Orion in the myths, he has been punished by having
 Sagittarius' arrow aimed at his heart forever.
 ~
 human~
-ABFGQ DH -200 0
-22 0 5d10+400 22d9+100 2d8+6 none
--5 -5 -5 5
-EIKU 0 0 0
-stand stand male 500
-0 0 medium 0
+ABFGQ DH 22
 #9324
-oldstyle sagittarius~
+oldstyle sagittarius pardus~
 Sagittarius~
-Sagittarius the ciren is waiting to let go of his well aimed arrow ...
+Sagittarius the pardus is waiting to let go of his well aimed arrow ...
 ~
-He is a ciren and a well trained archer. No one can escape his arrows.
+He is a pardus and a well trained archer. No one can escape his arrows.
 ~
-ciren~
-ABGQ H 1000 0
-22 0 5d10+400 22d9+100 2d8+6 none
--5 -5 -5 5
-EIKU 0 0 0
-stand stand male 500
-0 0 medium 0
+pardus~
+ABGQ H 22
 #9325
 oldstyle capricorn~
 Capricorn~
@@ -384,12 +264,7 @@ war but now the gods have decided to put him here, to live out the rest of his
 days in peace.
 ~
 human~
-ABGQ H 700 0
-22 0 5d10+400 22d9+100 2d8+6 none
--5 -5 -5 5
-EIKU 0 0 0
-stand stand male 500
-0 0 medium 0
+ABGQ H 22
 #9326
 oldstyle aquarius~
 Aquarius~
@@ -399,12 +274,7 @@ The pretty Water Bearer is smiling at you, you think you'd better give her a
 hand with holding the vessel.
 ~
 human~
-ABGQ H 1000 0
-22 0 5d10+400 22d9+100 2d8+6 none
--5 -5 -5 5
-EIKU 0 0 0
-stand stand female 500
-0 0 medium 0
+ABGQ H 22
 #9327
 oldstyle pisces mermaid~
 Pisces the mermaid~
@@ -414,12 +284,7 @@ She has been forced to serve her husband, who had been cursed to turn into a
 fish and she deserves your pity.
 ~
 human~
-ABGQ H 1000 0
-22 0 5d10+400 22d9+100 2d8+6 none
--5 -5 -5 5
-EIKU 0 0 0
-sit sit female 500
-0 0 medium 0
+ABGQ H 22
 #9328
 oldstyle pisces fish~
 Pisces the fish~
@@ -429,12 +294,7 @@ He was once a very handsome man but now has turned into an ugly big fish.
 So he becomes jealous of any living thing which is more handsome than him.
 ~
 human~
-ABFGQ H -1000 0
-22 0 5d10+400 22d9+100 2d8+6 none
--5 -5 -5 5
-EIKU 0 0 0
-stand stand male 500
-0 0 medium 0
+ABFGQ H 22
 #9329
 oldstyle bear ursa major~
 Ursa Major the bear~
@@ -444,12 +304,7 @@ The Huge Bear which resides in the northern skies is here.
 You think you'd better turn back.  At least you have got a chance of survival.
 ~
 bear~
-ABFGQ DH 0 0
-27 0 5d10+650 27d9+100 2d10+7 none
--8 -8 -8 4
-IKR 0 0 0
-stand stand none 750
-0 0 medium 0
+ABFGQ DH 27
 #9330
 oldstyle cassiopeia queen~
 Cassiopeia the Queen~
@@ -458,12 +313,7 @@ Cassiopeia, the queen of the Universe, is sitting on her throne.
 She is the Queen of Dignity; facing her you feel all your dignity has gone.
 ~
 human~
-ABGR DH 700 0
-26 0 5d10+550 26d9+100 3d6+6 none
--7 -7 -7 2
-FU 0 0 0
-sit sit female 600
-0 0 medium 0
+ABGR DH 26
 #9331
 oldstyle cepheus king~
 Cepheus the King~
@@ -473,12 +323,7 @@ He is the King of Might as well as of the Universe. You suddenly feel very
 weak and useless in front of him.
 ~
 human~
-ABGR H 700 0
-26 0 5d10+550 26d9+100 3d6+6 none
--7 -7 -7 2
-FU 0 0 0
-sit sit male 600
-0 0 medium 0
+ABGR H 26
 #9332
 oldstyle polaris polar star~
 Polaris, the polar star~
@@ -490,13 +335,9 @@ actually a STAR, with dazzling bright light ... maybe you shouldn't have come
 here at all?
 ~
 human~
-ABG BDH 1000 0
-30 0 6d12+853 15d9+100 4d6+8 none
--9 -9 -9 6
-EFNU 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG BDH 30
 #0
+
 #OBJECTS
 #9301
 comet's tail~

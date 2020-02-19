@@ -11,7 +11,7 @@ Maxvnum 11799
 Path 6g d 3g b g 4y g d~
 END
 
-#MOBILES
+#NEW_MOBILES
 #11600
 sym soytarý~
 Sym~
@@ -27,12 +27,7 @@ ve
 Sol cep kýsmen çim lekesi ile boyanmýþ.
 ~
 çora~
-ACGR BQV 900 0
-80 0 100d12+13500 1d10+850 13d5+50 punch
--50 -52 -51 -50
-FGJN 0 BCN MZ
-stand stand either 1000
-AHMQV ABCDEFGHIJK medium 0
+ACGR BQV 80
 #11601
 anka kuþ~
 Anka kuþu~
@@ -44,12 +39,7 @@ dikkatle süzüyor.
 Elbette, bu yükseklikten, bir böceðe benziyor olmalýsýn..
 ~
 song bird~
-ABCG T 0 0
-65 0 65d10+8500 1d10+650 9d6+30 peck
--35 -33 -34 -20
-FH 0 EC H
-stand stand either 0
-0 0 huge 0
+ABCG T 65
 #11602
 kuþ bülbül~
 bülbül~
@@ -60,12 +50,7 @@ Küçük kuþ kafasýný kaldýrýyor ve senin bakýþýna karþýlýk verdikten sonra,
 müzikal bir tonla cývýldayýp öðle yemeðine geri dönüyor.
 ~
 song bird~
-ACG T 0 0
-45 0 25d10+3000 1d10+450 3d12+15 peck
--17 -17 -17 -17
-FH 0 F O
-stand stand either 0
-0 0 tiny 0
+ACG T 45
 #11603
 öðretmen kadýn heykel~
 öðretmen~
@@ -76,13 +61,8 @@ Uçuþan gri cüppe giymiþ uzun boylu bir kadýnýn taþ heykeli, bir eli
 kitabýn üzerinde dururken, sanki vurgulamak istercesine bir paragrafý
 iþaret ediyor.
 ~
-statue~
-ABG 0 0 0
-60 0 50d10+7750 1d10+600 8d6+28 crush
--32 -31 -30 -25
-DJK CHIR FLQ NP
-stand stand female 0
-HJM ABCEGHIJK large stone
+doll~
+ABG 0 60
 #11604
 öðrenci kýz heykel~
 öðrenci~
@@ -94,13 +74,8 @@ bir yandan da öðretmene bakýyor.  Taþtan gözler parlak ve meraklý,
 ama þimdilik gölgeliler.  Anlama çabasýný gösteren yüzüne hakim çatýk
 kaþlarý olmasa, genç ve yumuþak bir yüzü var.
 ~
-statue~
-ABCG V 0 0
-52 0 50d10+4500 1d10+520 6d7+20 punch
--24 -25 -23 -18
-F N 0 BL
-stand stand female 0
-HJM ABCDEFGHIJK small stone
+doll~
+ABCG V 52
 #11605
 büyücü heykel erkek figür~
 Bir büyücü heykeli~
@@ -111,13 +86,8 @@ Gri damarlý beyaz mermer kýsa boylu, uçuþan uzun cüppe giymiþ bir
 adam formunda oyulmuþ. Elleri öne doðru kalkmýþ, ve taþtan aðzý
 sanki bir büyünün ortasýnda donuvermiþ gibi açýk duruyor.
 ~
-statue~
-AB 0 0 0
-61 0 50d10+7500 1d10+1800 8d6+20 crush
--29 -28 -29 -33
-FJ LQ CHINM P
-stand stand male 3000
-HJM ABCEGIJK small stone
+doll~
+AB 0 61
 #11606
 beyaz tekboynuzlu at~
 Tekboynuz~
@@ -128,12 +98,7 @@ Berrak gözler sonsuz bir zekayý açýða çýkarýyor,
 ama yine de garip, masum bir boþlukla gölgelenmiþler.
 ~
 horse~
-AGZ CDEFGNH 1000 0
-70 2 100d10+9500 1d10+800 12d5+40 cleave
--45 -45 -45 -45
-EFIK LNS BGI M
-stand stand either 0
-ACHV ACDEFHK large 0
+AGZ CDEFGNH 70
 #11607
 hayalperest beyaz heykel~
 hayalperestin heykeli~
@@ -145,13 +110,8 @@ ya geçmiþte ya da gelecekte kaybolmuþçasýna hiçbir þeye bakmýyor.
 Heykel ýþýkta parýldýyor, zaman veya hava tarafýndan hiç yýpratýlmamýþ.
 Ancak hayalperest hiç de bugüne aitmiþ gibi görünmüyor.
 ~
-statue~
-ABGU T 0 0
-57 0 50d10+6000 1d10+570 6d8+24 pound
--27 -28 -26 -20
-F LQ EGHI B
-stand stand female 0
-HJ ABCGHIJK medium stone
+doll~
+ABGU T 57
 #11608
 beyaz þövalye figür~
 Bir beyaz þövalye~
@@ -163,12 +123,7 @@ yansýyan ýþýk, þövalyeyi neredeyse kör edici bir haleyle çevreliyor.
 Zýrhýnýn göðüs kýsmýna parlayan bir haç iþlenmiþ... elbette, beyaz.
 ~
 human~
-AGT CN 900 0
-65 3 65d10+9000 1d10+250 9d6+40 cleave
--37 -38 -36 -27
-DEFIK N EG KMOP
-stand stand either 5000
-0 0 large 0
+AGT CN 65
 #11609
 fildiþi heykel leydi adalet~
 Adalet leydisi~
@@ -179,13 +134,8 @@ Yaþý belirsiz dürüst görünümlü bir kadýnýn heykeli fildiþinden oyulmuþ.
 Öne doðru uzattýðý elinde bir terazi tutuyor.  Heykel bir kenarýndan
 çentik almýþ, ve bu, terazinin hafifçe bir yana yatmasýna sebep olmuþ.
 ~
-statue~
-ABG G 0 0
-68 0 70d10+9500 1d10+680 9d6+45 pound
--37 -38 -38 -35
-EFK HILQ F B
-stand stand female 4000
-HJM ABCGHIJK medium stone
+doll~
+ABG G 68
 #11610
 kaçýk bahçývan cüce~
 Kaçýk Bahçývan~
@@ -197,12 +147,7 @@ yoluna çýkabilecek yaþayan herhangi bir þey için öldürücü gibi gözükse de,
 þaþýrtýcý bir biçimde, bahçe haddinden fazla bakýmlý..
 ~
 gnome~
-ACS V 0 0
-70 0 65d10+10300 1d10+620 9d6+25 bite
--40 -39 -40 -38
-DFJ 0 BINM EP
-stand stand male 1000
-ACHMV ABCDEFGHIJK small 0
+ACS V 70
 #11611
 mýrýldanan heykeltraþ~
 Mýrýldanan Heykeltraþ~
@@ -213,12 +158,7 @@ tutarsýz mýrýldanýþýna devam ediyor.  Duvarlardaki keski izlerine bakýlýrsa,
 bu adam tüm bu sanatsal çalýþmalarýn yaratýcýsý olmalý..
 ~
 human~
-ACGS 0 0 0
-65 0 65d10+8500 1d10+500 9d6+20 punch
--33 -32 -30 -30
-DEFJ 0 Q LO
-stand stand male 2500
-0 0 small 0
+ACGS 0 65
 #11612
 çalý rahip denebi beyaz haç~
 Denebi~
@@ -227,13 +167,8 @@ Diz çöken bir rahip þeklinde budanmýþ çalý yumaðý burada duruyor.
 Ýçsel bir ýþýkla parlýyor gibi görünen beyaz haç, rahibin cüppesinin
 ön kýsmýna iþlenmiþ.  Ýki kolu da yakarýrcasýna havaya kalkmýþ.
 ~
-statue~
-ABGQ N 800 0
-60 0 50d10+7000 1d10+1000 8d6+18 pound
--30 -29 -31 -28
-FK N HKL NP
-rest stand either 0
-HJM ABCDGHIJK medium stone
+doll~
+ABGQ N 60
 #11613
 dindar heykel~
 Dindar~
@@ -242,13 +177,8 @@ Bir dindar heykeli gözleri gökyüzüne dikili bir þekilde burada duruyor.
 Gülünç..  dindarýn bu derece imanla baktýðý yere baktýðda,
 tüm gördüðün þey seyrek hava.
 ~
-statue~
-ABG 0 0 0
-57 0 50d10+6000 1d10+500 6d8+20 scratch
--27 -28 -25 -26
-EF 0 D BC
-stand stand either 0
-HJM ABCDGHIJK medium stone
+doll~
+ABG 0 57
 #11614
 beyaz tavþan~
 beyaz bir tavþan~
@@ -257,12 +187,7 @@ Yumuþacýk beyaz bir tavþan burada sinmiþ, bir þeyleri diþliyor.
 Ah, þirin deðil mi?
 ~
 rabbit~
-ACG 0 0 0
-45 0 25d10+3000 0d0+0 8d4+6 scratch
--15 -16 -15 -15
-DH 0 L R
-stand stand none 0
-0 0 small 0
+ACG 0 45
 #11615
 rahip barýþ çalý adam~
 Barýþ Rahibi~
@@ -272,13 +197,8 @@ Kendisiyle ve etrafýndaki dünyayla barýþýk görünüyor.  Bu þeklin bariz
 biçimde budanmasý gerekiyor, çünkü aðzýnýn olmasý gereken yerden kesilmemiþ
 yapraklar dýþarý fýrlamýþ ve bu haliyle sanki sana dil çýkartýyor gibi.
 ~
-statue~
-ABG 0 0 0
-55 0 50d10+6000 1d10+700 10d4+15 pound
--24 -25 -24 -23
-F N BIH OK
-stand stand male 0
-HJM ABCDGHIJK medium stone
+doll~
+ABG 0 55
 #11616
 yarýsaydam aðlayan ruh figür~
 aðlayan ruh~
@@ -290,13 +210,8 @@ sarsýlarak ve hýçkýrarak havada süzülüyor.
 Fýsýldayarak söylediði birkaç kelimeyi zar zor çýkartýyorsun..
 ".. farklý olmalýydý... baþaramadým.. mecburdum..."
 ~
-spirit~
-ABG BTU 0 0
-51 0 50d10+4800 1d10+600 4d10+18 magic
--25 -26 -26 -25
-FG HIKLQR CD MNOP
-stand stand female 0
-SHL 0 medium mist
+ghost~
+ABG BTU 51
 #11617
 iman~
 bir parça iman~
@@ -305,13 +220,8 @@ gibi geliyor.
 ~
 Sen ona baktýkça sanki cisimleþiyor gibi.
 ~
-nothingness~
-AGS TU 0 0
-62 0 50d10+7800 1d10+620 10d5+10 magic
--35 -34 -33 -31
-EFG BKP D MNO
-stand stand either 0
-HL 0 medium nothingness
+ghoul~
+AGS TU 62
 #11618
 baþýboþ düþünce~
 baþýboþ bir düþünce~
@@ -319,13 +229,8 @@ Baþýboþ bir düþünce amaçsýzca havada süzülüyor.
 ~
 Tuhaf.  Ona baktýðýnda karþý tarafý görebiliyorsun.
 ~
-nothingness~
-AGS TU 0 0
-61 0 50d10+7500 1d10+610 10d5+0 magic
--35 -34 -33 -31
-EFG BKP D MNO
-stand stand either 0
-HL 0 medium nothingness
+ghoul~
+AGS TU 61
 #11619
 hatýralar~
 bir miktar hatýra~
@@ -334,13 +239,8 @@ Bir miktar hatýra eski günlerden konuþarak havada süzülüyor.
 Sana bir þeyi çaðrýþtýrýyorlar..  ama ne olduðunu tam olarak
 hatýrlayamýyorsun..
 ~
-nothingness~
-AGS TU 0 0
-64 0 50d10+8500 1d10+640 10d5+40 magic
--35 -34 -33 -31
-EFG BKP D MNO
-stand stand either 0
-HL 0 medium nothingness
+ghoul~
+AGS TU 64
 #11620
 fikir~
 bir fikir~
@@ -348,13 +248,8 @@ Bir fikir yaylanarak kah ortadan kaybolup kah geri geliyor.
 ~
 Ani bir kavrayýþla bir an için gözlerini kör etti!
 ~
-nothingness~
-AGS TU 0 0
-62 0 50d10+7800 1d10+620 10d5+10 magic
--35 -34 -33 -31
-EFG BKP D MNO
-stand stand either 0
-HL 0 medium nothingness
+ghoul~
+AGS TU 62
 #11621
 beyaz panter gabrian~
 Gabrian~
@@ -366,12 +261,7 @@ ardýndaki tehlikeyi ele veriyor.  Çekik gümüþi gözler sanki
 senin tüm hareketlerini izliyor gibi.
 ~
 cat~
-ABGT PZ 0 11621
-80 2 100d12+14500 1d10+850 15d5+40 claw
--50 -54 -52 -51
-DFKM INQ E H
-stand stand male 0
-0 0 large 0
+ABGT PZ 80
 #11622
 lonari beyaz kadýn~
 Lonari~
@@ -383,12 +273,7 @@ sanki körmüþcesine. Ama kadýnýn görebildiði aþikar.. yine de baktýðý þey
 her ne ise sana görünmüyor.
 ~
 çora~
-ABGQ DGHNT 1000 11621
-85 0 100d12+15000 1d10+2000 9d10+50 crush
--50 -53 -55 -53
-EFGK BGKN EHJ M
-stand stand female 0
-0 0 medium 0
+ABGQ DGHNT 85
 #11623
 myrl þüpheci figür~
 Myrl~
@@ -405,12 +290,7 @@ dövmelerde þu sözler var:
 "Myrl'e de"
 ~
 drow~
-ACGR DFJPQ -900 0
-80 0 100d12+14000 1d10+1050 14d5+50 claw
--50 -53 -52 -51
-EFHJ 0 BCM EZ
-stand stand either 1000
-AHMV ABCDEFGHIJK medium 0
+ACGR DFJPQ 80
 #11624
 cehennem atmacasý~
 cehennem atmacasý~
@@ -419,13 +299,8 @@ Dev, siyah kanatlý bir atmaca burada tünemiþ.
 Kýzgýn yeþil gözler, koyu karanlýk yüze zýt bir þekilde,
 sonsuz bir açlýkla ýþýldýyor, ve bu senin içten içe ürpermene sebep oluyor.
 ~
-hawk~
-ABCFG DFT 0 0
-65 2 65d10+8000 1d10+650 9d6+30 peck
--35 -33 -34 -20
-FH BH M I
-stand stand either 0
-AHW ACDEFK huge 0
+song bird~
+ABCFG DFT 65
 #11625
 sessiz avcý figürü~
 bir sessiz avcý~
@@ -434,12 +309,7 @@ Sessiz siyah giyimli bir figür gölgelere karýþýyor.
 Karanlýk figür bir kedi zarafetiyle gölgelere girip çýkýyor.
 ~
 human~
-ACFGS PQ 0 0
-52 1 50d10+4500 1d10+100 5d8+22 pierce
--23 -24 -22 -24
-BEFJ 0 K P
-stand stand either 0
-0 0 medium 0
+ACFGS PQ 52
 #11626
 sapkýn varlýk~
 Sapkýn Varlýk~
@@ -449,12 +319,7 @@ Kemik ve etlerin dehþet verici bir birleþimi ayaklarýný sürüyerek
 odada yürüyor. Donuk gri gözler fýrýl fýrýl tüm köþeleri araþtýrýyor.
 ~
 unique~
-ABCFG O -500 0
-64 0 50d10+8000 1d10+500 9d6+28 digestion
--33 -34 -34 -32
-CDEFJ LQ K NE
-stand stand none 0
-ABHIM ABCDEFGHIJK large 0
+ABCFG O 64
 #11627
 çýðlýk atan ruh~
 çýðlýk atan ruh~
@@ -465,12 +330,7 @@ kemikler açýða çýkmýþ. Ruh acýyla kývrandýkça, daha büyük et parçalarý sökülüp
 zemine düþüyor.
 ~
 human~
-ABG IU 0 0
-52 0 50d10+4500 1d10+520 6d7+0 scratch
--20 -18 -17 -15
-F 0 0 D
-rest rest either 0
-0 0 medium 0
+ABG IU 52
 #11628
 cüppeli kara ölümbüyücüsü figür~
 Kara ölümbüyücüsü~
@@ -481,12 +341,7 @@ Bir kolu havaya kalktýðýnda, ellerinin kanlý pençelerden ibaret olduðunu
 fark ediyorsun..
 ~
 human~
-ABCFGR DFGO -800 0
-64 0 50d10+8000 1d10+2000 9d6+0 claw
--30 -32 -31 -30
-FG M I HNY
-stand stand either 0
-0 0 medium 0
+ABCFGR DFGO 64
 #11629
 kabus siyah at karanlýk~
 Kabus~
@@ -498,12 +353,7 @@ emiliyor ve sadece cehennem kýrmýzýsý gözlerinin delebildiði,
 karanlýktan ibaret bir aura oluþturuyor.
 ~
 horse~
-AGQZ CDEFGNH 1000 0
-70 2 100d10+10000 1d10+800 12d5+40 cleave
--45 -45 -45 -45
-DEFGI KM CH NOP
-stand stand either 0
-ACHV ACDEFHK large 0
+AGQZ CDEFGNH 70
 #11630
 þaman düþmaný kadýn~
 Þaman Düþmaný~
@@ -516,12 +366,7 @@ ince dudaklar berbat bir gülümseme taklidiyle aralanýyor, ve yüzü korkunç
 þeytani ve tamamen gaddar bir þeye dönüþüyor.
 ~
 human~
-ABFG OZ -800 0
-60 0 50d10+7500 1d10+700 8d6+24 claw
--30 -31 -29 -28
-FGI EM B JNP
-stand stand female 8765
-0 0 medium 0
+ABFG OZ 60
 #11631
 hayalet þövalye insansý varlýk~
 Hayalet Þövalye~
@@ -531,13 +376,8 @@ Bir þeytanlýk ve ölüm aurasý kara þövalyenin etrafýný çevreliyor.
 Kafasýný çevirdiðinde, kanlý kýrmýzý gözleri seni doymak bilmez bir
 açlýkla delecek gibi hissediyorsun..
 ~
-wraith~
-ACGOT OTUZ -400 0
-65 3 65d10+8900 1d10+250 9d6+40 drain
--37 -38 -36 -27
-DEFK I MK HNO
-stand stand either 4000
-DHIM 0 medium nothingness
+undead~
+ACGOT OTUZ 65
 #11632
 kanlý sadist~
 Kanlý Sadist~
@@ -548,12 +388,7 @@ pençeleri figüre korkunç, gaddar bir görüntü veriyor. Vahþi koyu gözler
 bir þeyler ararcasýna odanýn içinde sürekli seðiriyor.
 ~
 human~
-ACFG V -600 0
-68 0 70d10+9250 1d10+680 9d6+45 claw
--37 -38 -38 -35
-DF 0 NQ HNS
-stand stand either 3500
-0 0 medium 0
+ACFG V 68
 #11633
 fanatik mezhep yandaþý~
 fanatik mezhepçi~
@@ -564,12 +399,7 @@ Dilinin o kadar da uzun olmadýðý göz önünde bulundurulursa, göze çarpacak
 derecede iyi iþ çýkarýyor..
 ~
 human~
-ACG 0 0 0
-70 0 65d10+10200 1d10+630 9d6+25 chomp
--38 -39 -40 -38
-F 0 0 0
-stand stand either 1000
-0 0 medium 0
+ACG 0 70
 #11634
 sýrýtýþ~
 Sýrýtýþ~
@@ -580,13 +410,8 @@ benzeyen geniþ bir gülümsemeyle sabitlenmiþ.  Ve sonra tekrar..
 Ne? Süzülen diþler mi?
 Belki de tam olarak kendinde deðilsin...
 ~
-teeth~
-ACG TV 0 0
-65 1 65d10+8500 0d0+0 9d6+30 chomp
--33 -32 -30 -30
-DEF BFCPT EL FK
-stand stand none 0
-0 0 large 0
+ghoul~
+ACG TV 65
 #11635
 mezhepçi yüksek þaman~
 Mezhepçi Yüksek Þaman~
@@ -599,12 +424,7 @@ kurban hançerini sýký sýký kavramýþ. Korkunç yüz sana doðru dönüp
 dudaklarýný yalýyor.
 ~
 human~
-ACFGQ OZ -900 0
-65 0 50d10+8200 1d10+1300 9d6+20 wrath
--35 -34 -35 -33
-DEFG ILQ M NSY
-stand stand either 6200
-0 0 medium 0
+ACFGQ OZ 65
 #11636
 hiçlik kare bölge~
 Bir parça Hiçlik~
@@ -613,13 +433,8 @@ Odanýn merkezindeki karesel bir bölgede tüm maddeler gözden yitiyor.
 Bakmaya yeltendiðinde tüm cesaretin kýrýlýyor.. çünkü gördüðün þey
 koca bir hiç!
 ~
-nothingness~
-AGO BT 0 0
-57 0 50d10+6200 1d10+500 6d8+10 drain
--28 -29 -27 -25
-FG BD 0 HIJKMNOP
-stand stand none 0
-DL 0 medium 0
+ghoul~
+AGO BT 57
 #11637
 kürklü sýçan~
 kürklü sýçan~
@@ -629,12 +444,7 @@ Bu kürklü küçük yaratýk eðer kendini yok etmeye bu derece adanmýþ
 olmasaydý oldukça þirin olabilirdi.
 ~
 rabbit~
-ACG 0 0 0
-45 0 25d10+3000 0d0+0 8d4+6 bite
--15 -16 -15 -15
-FH 0 0 E
-stand stand none 0
-0 0 small 0
+ACG 0 45
 #11638
 ölmüþ han adam~
 Ölmüþ Han~
@@ -644,12 +454,7 @@ Tetikte, zeki gözler ve geliþmiþ kaslar, apaçýk dýþarý yansýyan bir zerafetle
 birleþerek bu adamý oldukça tehlikeli bir düþman haline getiriyor.
 ~
 human~
-AGT VC 0 0
-70 5 50d12+10200 1d10+400 10d6+45 cleave
--41 -42 -41 -40
-ADEFIK 0 D P
-stand stand male 0
-0 0 large 0
+AGT VC 70
 #11639
 beyaz sivri diþ vampir hademe~
 vampir hademe~
@@ -659,13 +464,8 @@ gibi karanlýðý delip geçiyor!
 Karanlýkta sadistçe parlayan kýrmýzý gözleri onu ele vermese,
 neredeyse gölgelerin bir parçasý olacak.
 ~
-vampire~
-AFG BDFOTZ -700 0
-70 0 100d10+10500 1d10+700 7d10+30 drain
--40 -42 -41 -39
-FG B GJK NO
-stand stand either 5650
-CHI ABCDEFGHIJKU medium 0
+undead~
+AFG BDFOTZ 70
 #11640
 kayýp rüyalar~
 bir miktar kayýp rüya~
@@ -673,13 +473,8 @@ Bir miktar kayýp rüya amaçsýzca sürükleniyor.
 ~
 Bir miktar rüya burada býrakýlýp unutulmuþlar.
 ~
-nothingness~
-AG BTU 0 0
-62 0 50d10+8250 1d10+620 10d5+10 magic
--35 -34 -33 -31
-FG 0 0 S
-stand stand none 0
-DHL 0 medium nothingness
+ghoul~
+AG BTU 62
 #11641
 müstehcen bilgiler~
 Müstehcen bilgiler~
@@ -687,13 +482,8 @@ Eski püskü ve gri bir müstehcen bilgi parçacýðý, havada süzülüyor.
 ~
 Kendini daha bilge, ama her nedense biraz da kirli hissediyorsun..
 ~
-nothingness~
-AG ITU 0 0
-61 0 50d10+7600 1d10+610 10d5+0 digestion
--35 -34 -33 -31
-EFG N G KLPQ
-stand stand none 0
-HL 0 medium nothingness
+ghoul~
+AG ITU 61
 #11642
 unutulmuþ yalanlar~
 bir kýsým unutulmuþ yalan~
@@ -702,13 +492,8 @@ Bir miktar unutulmuþ yalan burada saklanýyor.
 Onlara bakmaya yeltendiðinde, gölgelerin daha da derinlerine
 gizleniyorlar.
 ~
-nothingness~
-AGHS PQTU 0 0
-64 0 50d10+8200 1d10+640 10d5+40 drain
--35 -34 -33 -31
-EFGJ 0 F JPS
-stand stand none 0
-HL 0 medium nothingness
+ghoul~
+AGHS PQTU 64
 #11643
 kayýp umutlar~
 bir miktar kayýp umut~
@@ -716,13 +501,8 @@ Bir miktar umut burada kendi hallerinde sürüklenmeye býrakýlmýþ.
 ~
 Oldukça baskýn bir umutsuzluk hissiyle aðýrlaþýyorsun.
 ~
-nothingness~
-AG BTU 0 0
-62 0 50d10+8200 1d10+620 10d5+10 scratch
--35 -34 -33 -31
-EFG I 0 FJPS
-stand stand either 0
-HL 0 medium nothingness
+ghoul~
+AG BTU 62
 #11644
 siyah panter daemias~
 Daemias~
@@ -732,12 +512,7 @@ Güçlü kedi figürünün çekik gümüþi gözleri, o yaþayan bir gölge gibi
 sessiz ve gizli bir þekilde av peþinde dolaþýrken ihtiyatla parýldýyor.
 ~
 cat~
-ABFGT PQV 0 11644
-80 2 100d12+15000 1d10+850 15d5+40 claw
--52 -51 -49 -50
-DEFGH HMQ G I
-stand stand female 0
-0 0 large 0
+ABFGT PQV 80
 #11645
 siyah adam dierek~
 Dierek~
@@ -749,12 +524,7 @@ gözler, acýmasýz bir gülümsemeyle bükülmüþ dudaklarla tuhaf bir zýtlýk
 oluþturuyor.
 ~
 human~
-ABFGRT CDHO -1000 11644
-85 0 100d12+16500 1d10+1000 9d10+50 smash
--50 -53 -55 -53
-EIK BEJM GIK N
-stand stand male 0
-0 0 medium 0
+ABFGRT CDHO 85
 #11646
 gölge hakikat~
 bir Hakikat gölgesi~
@@ -762,13 +532,8 @@ Bir hakikat gölgesi bir köþeye týkýþtýrýlmýþ.
 ~
 Seni alaycý bir biçimde kesiyor.
 ~
-nothingness~
-ABCG QU 0 0
-58 0 5d10+6800 1d10+580 5d10+25 shbite
--58 -56 -59 -57
-ACDEF B C DP
-stand stand none 0
-DHL 0 medium nothingness
+ghoul~
+ABCG QU 58
 #11647
 ödü patlamýþ kurban~
 ödü patlamýþ bir kurban~
@@ -777,12 +542,7 @@ Harcanmak üzere olan bir kurban burada uzanýyor, korkudan çýðlýk atmak üzere.
 Korkudan kaskatý kesilmiþ durumda. Kýmýldamaya bile cesaret edemiyor gibi..
 ~
 human~
-ABG I 0 0
-58 0 5d10+6500 1d10+180 5d10+0 scratch
--52 -50 -51 -46
-DFJ 0 0 P
-rest rest either 0
-0 0 medium 0
+ABG I 58
 #11648
 bahçývan yamaðý cüce~
 bir bahçývan yamaðý~
@@ -791,12 +551,7 @@ Küçük bir cüce otlarý budarken mutlulukla ýslýk çalýyor.
 Bahçeyle oldukça iyi ilgilenmiþ gibi görünüyor.
 ~
 gnome~
-ACG J 0 0
-65 0 65d10+8700 1d10+500 9d6+25 punch
--35 -34 -36 -33
-DFJ 0 BINM EP
-stand stand male 1000
-ACHMV ABCDEFGHIJK small 0
+ACG J 65
 #11649
 saydam form hayalet uþak~
 bir hayalet uþak~
@@ -806,12 +561,7 @@ Tuhaf, içinden tam olarak karþýyý görebiliyorsun..  Alaný oldukça temiz
 tutmuþ gibi görünüyor.
 ~
 ghost~
-ABCG BITU 0 0
-65 0 65d10+8500 1d10+6700 9d6+20 magic
--39 -38 -36 -34
-FG 0 E 0
-stand stand either 100
-DHILM 0 medium mist
+ABCG BITU 65
 #11650
 sessiz figür ykres~
 Ykres~
@@ -820,12 +570,7 @@ Sessiz bir figür gölgelerin içine doðru kayboluyor.
 Ýhtiyatlý yeþil gözler gölgelerin içinde bir kedininkiler gibi ýþýldýyor.
 ~
 çora~
-ACFGS FPQVZ 0 0
-82 1 100d12+15500 1d10+850 8d10+30 pierce
--55 -54 -54 -54
-BEFHJ B MN HI
-stand stand female 5000
-0 0 medium 0
+ACFGS FPQVZ 82
 #11651
 katil~
 bir katil~
@@ -834,12 +579,7 @@ Bir katil gölgelerde sessizce dolaþýp, av arýyor.
 Kara gözler zayýflýk ararcasýna, seni tartýyor gibi görünüyor.
 ~
 çora~
-ACFGS DFPQZ 0 0
-51 0 50d10+4900 1d10+510 4d8+25 pierce
--23 -23 -22 -21
-BEFJ 0 BMN J
-stand stand either 4050
-0 0 medium 0
+ACFGS DFPQZ 51
 #11652
 gece vaþak þekil hayvan~
 gece vaþaðý~
@@ -847,13 +587,8 @@ Kocaman, kara kedi karanlýkta av peþinde dolaþýyor.
 ~
 Çekik gümüþi gözler tehditkar bir biçimde parýldýyor.
 ~
-lynx~
-ACGS DFPQZ 0 0
-66 0 65d10+8800 1d10+660 9d6+35 claw
--37 -38 -36 -35
-EFH HI M J
-stand stand either 0
-AGHV ACDEFJKQU large 0
+fox~
+ACGS DFPQZ 66
 #11653
 uydurma imgelem kara þekil~
 hayal gücünün bir uydurmasý~
@@ -861,13 +596,8 @@ Kara bir þeklin köþedeki aðaçlara doðru uçtuðunu görüyorsun.
 ~
 Orada bir þey gördüðünü düþünüyorsun.. ama belki de sadece senin kuruntun.
 ~
-nothingness~
-AGS BTU 0 0
-62 0 65d10+7800 1d10+650 8d6+30 magic
--33 -34 -34 -33
-EFGH J HI MNP
-stand stand none 0
-DHL 0 medium mist
+ghoul~
+AGS BTU 62
 #11654
 koyu siyah baykuþ~
 kara baykuþ~
@@ -876,13 +606,8 @@ Kocaman bir siyah baykuþ burada tünemiþ.
 Donuk donuk parlayan buz mavisi gözler, zalim bir gaga ve kara tüyler kuþun
 yüzünde hemen göze çarpýyor.
 ~
-owl~
-ABCG DFTZ 0 0
-67 0 65d10+9000 1d10+670 9d6+40 claw
--36 -37 -37 -35
-ADEFK EJ K F
-stand stand either 0
-ACHW ACDEFIJKPU huge 0
+song bird~
+ABCG DFTZ 67
 #11655
 yavru baykuþ yumurta~
 yavru baykuþ~
@@ -892,13 +617,8 @@ Koyu gri kuþ tüyleri, büyük bir baykuþ figürünü ve daha tam þekillenmemiþ
 kanatlarý çevreliyor.  Uzun, zalim siyah pençeler, görünüþteki savunmasýzlýðýn
 arkasýndaki doðuþtan yýrtýcýlýðý açýða çýkarýyor.
 ~
-owl~
-ABCG Z 0 0
-60 0 50d10+7200 1d10+600 8d6+20 peck
--28 -29 -28 -27
-EF 0 EJ B
-stand stand either 0
-ACHW ACDEFIJKPU large 0
+song bird~
+ABCG Z 60
 #11656
 gececi sýska þekil~
 gececi~
@@ -908,13 +628,8 @@ Kara gözler yarýsaydam bir varlýðýn içinden açlýkla ýþýldýyor.  Uzun pençeler
 öne doðru uzanmýþ.  Pençelerden birinden sarkan çürümekte olan bir et parçasý
 olduðunu fark ediyorsun.
 ~
-wraith~
-ACFG BTUZ 0 0
-67 0 65d10+9000 1d10+670 9d6+40 drain
--36 -37 -37 -35
-DEFG 0 G HO
-stand stand none 3250
-CHIL ABDEFJKU medium mist
+undead~
+ACFG BTUZ 67
 #11657
 silüet~
 bir silüet~
@@ -922,13 +637,8 @@ Bir silüet burada süzülüyor.
 ~
 Ýnsansý bir varlýðýn kara bir silüeti.
 ~
-mist~
-AG BITV 0 0
-70 0 100d10+10500 1d10+1000 12d5+20 magic
--45 -44 -43 -41
-EFGN 0 D C
-stand stand none 0
-CHIL ABDEFJKU medium mist
+ghoul~
+AG BITV 70
 #11658
 gecebýçaðý gece býçak karayel~
 Gecebýçaðý~
@@ -938,12 +648,7 @@ Karanlýk bir yel gölgelerin içinde sessizce bekliyor.
 gibi görünüyor.
 ~
 çora~
-ACGS PQVZ 0 0
-72 1 100d12+11000 1d10+720 12d5+30 pierce
--44 -44 -45 -43
-EFGJ 0 0 0
-stand stand either 2550
-0 0 medium 0
+ACGS PQVZ 72
 #11659
 gölge býçak uðursuz varlýk gölgebýçaðý~
 Gölgebýçaðý~
@@ -952,12 +657,7 @@ Kývrak, uðursuz bir varlýk karanlýða doðru sývýþýyor.
 Figür sürekli hareket halinde, senin dikkatini daðýtýyor.
 ~
 çora~
-ACGS PQZ 0 0
-72 1 100d12+11000 1d10+720 12d5+27 pierce
--45 -46 -44 -42
-EFGH 0 0 0
-stand stand either 4500
-0 0 medium 0
+ACGS PQZ 72
 #11660
 pelerinli gri ninja~
 gri ninja~
@@ -967,12 +667,7 @@ biçimde parlýyor.
 Gri figür etrafýyla bir bütün haline gelmiþ gibi görünüyor.
 ~
 çora~
-ABCGS PQZ 0 0
-80 2 100d12+14500 1d10+850 15d5+40 wrath
--53 -52 -52 -51
-DEFGHJ 0 B 0
-stand stand either 6250
-0 0 medium 0
+ABCGS PQZ 80
 #11661
 siyah ninja figür~
 siyah ninja~
@@ -982,12 +677,7 @@ Kuzgun karasý saçlar karayel yüzünü ve bir kedininkilere benzeyen
 çekik yeþil gözleri çevreliyor.
 ~
 çora~
-ABCGS PQZ 0 0
-78 1 100d12+13500 1d10+780 15d5+10 chill
--49 -50 -50 -47
-EFGJ I 0 H
-stand stand female 5200
-0 0 medium 0
+ABCGS PQZ 78
 #11662
 beyaz ninja figür~
 beyaz ninja ~
@@ -996,12 +686,7 @@ Beyaz giyimli bir figür burada duruyor.
 Canlý bir alev gibi bulanýklaþýp parýldýyor.
 ~
 çora~
-ABCGS BPZ 0 0
-78 1 100d12+13500 1d10+780 15d5+10 flame
--51 -50 -49 -48
-EFGJ H 0 I
-stand stand male 5200
-0 0 medium 0
+ABCGS BPZ 78
 #11663
 gölge yýlan~
 gölge yýlaný~
@@ -1011,12 +696,7 @@ Koyu yeþil pullarý loþ ýþýkta parlýyor.  Uzun çatallý bir dil, yýlan uyarýrcasýn
 týsladýkça, beyaz sivri diþlerin arasýnda kývrýlýyor.
 ~
 snake~
-ABFG DFPZ 0 0
-75 0 65d10+12000 1d10+750 10d6+25 shbite
--45 -46 -47 -44
-EFM J 0 0
-stand stand either 3250
-0 0 large 0
+ABFG DFPZ 75
 #11664
 gümüþ gözlü yllias~
 Yllias~
@@ -1025,12 +705,7 @@ Yllias~
 Gümüþ gözler, birbirine eþ iki hançer gibi karanlýkta tehditkar bir biçimde parlýyor.
 ~
 çora~
-ABCFGS DFPQZ 0 11664
-85 2 100d12+17000 1d10+900 9d10+60 wrath
--57 -57 -56 -55
-DEFK 0 NM IP
-stand stand female 6770
-0 0 medium 0
+ABCFGS DFPQZ 85
 #11665
 kuzgun karasý kanatlý reykas ~
 Reykas~
@@ -1039,13 +714,8 @@ Kuzgun karasý kanatlar kara kara parlýyor.
 Gölgelere dikkatle baktýðýnda, aslýndan daha büyük ve korkunç görünen
 kara bir atmaca þeklini zor da olsa seçebiliyorsun.
 ~
-hawk~
-ABCFG DFQTZ 0 11664
-80 0 100d12+14500 1d10+820 9d10+20 claw
--40 -39 -40 -38
-ACDEFG 0 NM P
-stand stand female 0
-ACHW ACDEFJKPU large 0
+song bird~
+ABCFG DFQTZ 80
 #11666
 soytarý menx~
 Menx~
@@ -1056,12 +726,7 @@ Küçük cüce odanýn etrafýnda enerjik bir þekilde zýplayýp, durmadan
 hiperaktif mi olduðunu merak ediyorsun..
 ~
 gnome~
-ACGS IV 0 0
-81 0 100d12+14900 1d10+900 9d10+0 thwack
--42 -42 -41 -39
-EFGJ 0 0 0
-stand stand male 3400
-ACHMV ABCDEFGHIJK small 0
+ACGS IV 81
 #11667
 ürkmüþ beyin~
 ürkmüþ beyin~
@@ -1069,13 +734,8 @@ ACHMV ABCDEFGHIJK small 0
 ~
 Vücutsuz bir beyin gibi görünüyor. Burada durmuþ sadece ürküyor..
 ~
-brain~
-AG T 0 0
-65 0 65d10+8500 1d10+650 9d6+30 charge
--32 -33 -34 -32
-CDEF 0 P D
-stand stand none 0
-DH 0 medium 0
+ghoul~
+AG T 65
 #11668
 uçan kanatlý domuz~
 uçan domuz~
@@ -1084,12 +744,7 @@ Büyük kanatlý bir domuz burada kanat çýrpýyor.
 Senin koltukaltýný kokluyor.
 ~
 pig~
-ABGH T 0 0
-62 0 65d10+7800 1d10+620 9d6+10 crush
--30 -32 -31 -30
-CDEFJ 0 K 0
-stand stand none 0
-0 0 large 0
+ABGH T 62
 #11669
 böðüren inek~
 böðüren bir inek~
@@ -1099,12 +754,7 @@ hatýr hutur yiyor.
 Muh-öÖöÖÖöö..
 ~
 pig~
-ABG 0 0 0
-63 0 65d10+8250 1d10+630 9d6+15 chomp
--33 -34 -32 -31
-CDEF 0 L 0
-stand stand none 0
-0 0 large 0
+ABG 0 63
 #11670
 gerilim~
 Gerilim~
@@ -1113,12 +763,7 @@ Gerilim burada, seni duvara çakmaya çalýþýyor.
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARGGGGGGHHHHHHH!!!
 ~
 unique~
-ACG T 0 0
-65 0 65d10+8000 1d10+650 9d6+30 suction
--35 -35 -35 -33
-ADEJ B D JP
-stand stand none 2500
-DHL 0 medium mist
+ACG T 65
 #11671
 delilik~
 Delilik~
@@ -1127,12 +772,7 @@ Birinin delice bir fikri burada, duvardan duvara zýplýyor.
 Kýkýrdayýp kafana doðru hamle yapýyor.
 ~
 unique~
-ADEG Q 0 0
-67 0 65d10+8800 1d10+800 10d6+30 peck
--38 -37 -38 -36
-DFGH B HI NM
-stand stand none 1780
-DHL 0 medium mist
+ADEG Q 67
 #11672
 ahmak~
 ahmak~
@@ -1142,12 +782,7 @@ Tamamen su katýlmamýþ bir ahmak gibi görünüyor.  Niye ona yardým eli
 uzatmayasýn?  Ya da belki daha iyisi, biraz akýl verebilirsin?
 ~
 human~
-ACG I 0 0
-60 0 50d10+6750 1d10+10 8d6+28 beating
--30 -30 -30 -30
-FJ 0 0 P
-stand stand male 10
-0 0 medium 0
+ACG I 60
 #11673
 psikiyatrist kadýn~
 psikiyatrist~
@@ -1157,12 +792,7 @@ Burnunu dikkatle sana yaklaþtýrmýþ ve kiþisel özellikler ve benlikler
 hakkýnda bir þeyler geveliyor.
 ~
 human~
-ABG J 0 0
-70 -1 100d10+10250 1d10+1000 12d5+30 slap
--38 -39 -40 -37
-DEF 0 P NM
-stand stand female 4750
-0 0 medium 0
+ABG J 70
 #11674
 normal insan~
 normal bir insan~
@@ -1172,12 +802,7 @@ Bu derli toplu sarý saçlarý ve modaya uygun takým elbisesiyle normal bir
 insan.  Peh peh.. Ne kadar da sýkýcý..
 ~
 human~
-ABG 0 0 0
-61 0 50d10+7000 1d10+10 8d6+35 punch
--31 -31 -31 -30
-F 0 0 0
-stand stand either 3400
-0 0 medium 0
+ABG 0 61
 #11675
 bok yýðýný tuvalet canavarý~
 tuvalet canavarý~
@@ -1186,12 +811,7 @@ Kokulu bir þey canavarý... bok... pelte halinde burada koku saçmakla meþgul.
 Ýðrenç..
 ~
 unique~
-ABCFGU NOZ 0 0
-65 0 65d10+8700 1d10+650 9d6+27 suction
--35 -35 -36 -34
-ACD LQ 0 0
-stand stand none 0
-BHJ ABCDEFHIJKU large 0
+ABCFGU NOZ 65
 #11676
 köstebek~
 köstebek~
@@ -1201,12 +821,7 @@ Bu kürklü kahverengi bir köstebek.  Keskin pençeleriyle müthiþ bir hýzla
 toprakta tünel açarken boncuk gibi gözleriyle sana þöyle bir bakýyor.
 ~
 pig~
-ABCGH Z 0 0
-75 0 100d12+12100 1d10+650 14d5+5 claw
--45 -44 -44 -43
-CDJ 0 GO PR
-stand stand either 0
-0 0 large 0
+ABCGH Z 75
 #11677
 renk deðiþtiren çok renkli ýþýk xyrist~
 Xyrist~
@@ -1216,12 +831,7 @@ Girdap oluþturarak dönen ýþýk sürekli yeniden ve yeniden þekilleniyor.  Bir an
 için, dev bir tavþana benziyor.
 ~
 unique~
-ABCGR TUVZ 0 11677
-86 0 100d12+16500 1d10+1000 9d10+60 magic
--57 -57 -58 -56
-ACDEFG ST OP J
-stand stand male 6740
-ACHL ABCDEFGHIJK large mist
+ABCGR TUVZ 86
 #11678
 papaðan fax~
 Fax~
@@ -1230,12 +840,7 @@ Parlak kýrmýzý bir papaðan burada tünemiþ, senin hareketlerinin taklidini yapýyo
 Sen ona bakýyorsun, o da sana bakýyor.  Sen þaþýrýyorsun, o da þaþýrýyor..
 ~
 song bird~
-ABCG T 0 11677
-80 0 100d12+13500 1d10+900 15d15+20 peckb
--50 -50 -49 -48
-CDEFJ 0 J K
-stand stand male 110
-0 0 large 0
+ABCG T 80
 
 #11679
 hava hizmetkarý hizmetkar~
@@ -1246,12 +851,7 @@ Hava düzleminden emirle çaðrýlmýþ uþak, öldürülene veya azad edilene dek
 efendisinin emirlerini yerine getirmekle yükümlü.
 ~
 human~
-ABJ BDTU 0 0
-40 0 15d10+2550 1d10+400 4d8+13 chill
--13 -13 -13 -10
-FG 0 0 0
-stand stand either 0
-0 0 medium 0
+ABJ BDTU 40
 #11680
 uçan yumruk~
 bir uçan yumruk~
@@ -1260,12 +860,7 @@ Uzun eldivenli bir yumruk tehditkar bir biçimde süzülüyor.
 Dik baþlý ve oldukça zorlu görünen bu yumruk, azýlý bir güçle parlýyor.
 ~
 modron~
-ABJ T 0 0
-45 0 25d10+3000 1d10+450 8d4+16 crush
--15 -15 -15 -12
-CDK 0 0 0
-stand stand none 0
-0 0 large 0
+ABJ T 45
 #11681
 gölge kedi gölgekedisi~
 bir gölge kedisi~
@@ -1275,12 +870,7 @@ Gece karasý tüyler büyük, güçlü bir kedinin düzgün kaslarý üzerinde
 hafifçe dalgalanýyor.
 ~
 cat~
-ABJ P 0 0
-50 0 50d10+4500 1d10+500 5d8+19 claw
--21 -19 -20 -19
-DEFH 0 NM JS
-stand stand either 0
-0 0 large 0
+ABJ P 50
 #11682
 gümüþ vaþak~
 bir gümüþ vaþak~
@@ -1290,12 +880,7 @@ Kocaman gümüþ kedi, canlý ve katýksýz bir þimþek izlenimi býrakan
 akýcý bir zerafetle yürüyor.
 ~
 cat~
-ABJ DP 0 0
-55 0 50d10+6000 1d10+550 10d4+23 shbite
--26 -25 -25 -23
-CDFH J 0 M
-stand stand either 0
-0 0 large 0
+ABJ DP 55
 #11683
 kanatlý at pegasus~
 bir pegasus~
@@ -1305,12 +890,7 @@ Güçlü, kar beyazý kanatlar atýn omuz baþlarýndan çýkýyor.
 Zeki deniz mavisi gözler senin her hareketini izliyor gibi görünüyor.
 ~
 pig~
-ABJ DET 500 0
-60 0 50d10+6500 1d10+600 8d6+28 cleave
--30 -30 -30 -30
-FIK 0 0 0
-stand stand either 0
-0 0 large 0
+ABJ DET 60
 #11684
 alev yanan ateþkedisi ateþ kedi~
 bir ateþkedisi~
@@ -1320,12 +900,7 @@ Katýksýz alev, büyük bir kedi formuna bürünmüþ.  Mavi gözler
 ateþin ortasýnda iki fýrýn gibi parýldýyor.
 ~
 cat~
-ABJ P 0 0
-65 0 75d10+8000 1d10+650 8d6+34 flbite
--36 -36 -34 -33
-DEFH H 0 I
-stand stand either 0
-0 0 large 0
+ABJ P 65
 #11685
 kristal þekil buzdan kedi buzkedisi~
 bir buzkedisi~
@@ -1335,12 +910,7 @@ Iþýk büyük, vahþi kristal kedinin üzerinden yansýyor.  Kuvvetli yapýsýnýn
 aksine, kedi sessizce, tam bir katil zerafetiyle yürüyor.
 ~
 cat~
-ABJ P 0 0
-65 0 75d10+8000 1d10+650 8d6+34 flbite
--35 -36 -34 -33
-DEFH I J H
-stand stand either 0
-0 0 large 0
+ABJ P 65
 #11686
 ruhani parýldayan panter~
 ruhani bir panter~
@@ -1351,12 +921,7 @@ Bu dünyaya ait olmadýðý apaçýk meydanda olsa ve burada neredeyse sadece bir haya
 oldukça gerçek bir hasar verebileceði gerçeðini açýða çýkarýyor..
 ~
 cat~
-ABJ BDFPTU 0 0
-70 0 100d10+9500 1d10+700 7d10+30 wrath
--40 -41 -41 -40
-DEFH 0 C OP
-stand stand either 0
-0 0 large 0
+ABJ BDFPTU 70
 #11687
 kara þeytan tenarezzii~
 þeytan tenarezzi'i~
@@ -1368,12 +933,7 @@ bacaklarý çevreliyor.  Onu efendisinin arzularýna baðlayan dar, büyülü bir
 tasma, kalýn boynunu çevreliyor.
 ~
 human~
-ABJ E -500 0
-75 0 100d10+11250 1d10+750 7d10+35 slash
--45 -45 -45 -45
-CDK 0 0 0
-stand stand either 0
-0 0 large 0
+ABJ E 75
 #11688
 devouk kanatlý þeytan~
 þeytan devouk~
@@ -1384,12 +944,7 @@ Ateþ kýrmýzýsý deri, sýska kaslar ve enli, zarýmsý yarasa kanatlarý
 sivri, üçgenimsi bir uçla son buluyor.
 ~
 human~
-ABJ ET -700 0
-80 0 100d12+13500 1d10+800 9d10+28 slash
--50 -50 -50 -50
-CDEKM 0 0 0
-stand stand either 0
-0 0 large 0
+ABJ ET 80
 #11689
 þeytan chrezanni~
 þeytan chrezanni~
@@ -1400,12 +955,7 @@ derinin altýnda dalgalanýyor.  Ýki kaslý kol gövdenin iki yanýndan çýkýp,
 nefret dolu sivri pençelerle son buluyor.
 ~
 human~
-ABJ EO -900 0
-85 0 100d12+16250 1d10+800 9d10+33 claw
--55 -55 -55 -55
-CDK 0 H N
-stand stand either 0
-0 0 huge 0
+ABJ EO 85
 #11690
 azgýn hamster~
 azgýn bir hamster~
@@ -1415,12 +965,7 @@ Yumuþak kahverengi tüyler, hamster'a küçük ve öldürücü bir
 tüy yumaðý görüntüsü veriyor.  Þu kesici ön diþlere bir bakýn!
 ~
 rabbit~
-ABCJ aa 0 0
-90 0 100d12+18000 1d10+900 9d10+38 bite
--60 -60 -60 -58
-DFHJ 0 0 0
-stand stand either 0
-0 0 small 0
+ABCJ aa 90
 #11691
 kuduz güney domuzu~
 kuduz bir güney domuzu~
@@ -1429,12 +974,7 @@ Küçük bir güney domuzu saldýrgan bir biçimde sana týslýyor.
 Huysuzca burnunu çekiyor.  Öldürücü ve kürklü!
 ~
 rabbit~
-ABCJ a 0 0
-92 0 100d12+17250 1d10+950 10d10+38 chomp
--68 -68 -68 -68
-DEFHJ 0 0 0
-stand stand either 0
-0 0 small 0
+ABCJ a 92
 #11692
 dzenian býçak~
 bir Dzenian býçaðý~
@@ -1444,12 +984,7 @@ Enfes bir þekilde mitril'den iþlenmiþ býçaða, güçlü bir büyüyle
 hayat verilmiþ.  Çok kusursuz ve son derece öldürücü.
 ~
 modron~
-ABJT T 0 0
-92 0 100d12+17250 1d10+950 10d10+40 slash
--65 -65 -65 -65
-DEFK 0 0 0
-stand stand none 0
-0 0 medium 0
+ABJT T 92
 #11693
 ruhani kemirgen~
 ruhani bir kemirgen~
@@ -1460,12 +995,7 @@ büyük bir tavþaný andýrýyor.  Küçük olmasýna raðmen, onu öldürücü bir dövüþçü
 haline getiren bir zeka ve eðitime sahip.
 ~
 rabbit~
-ABJT BDFTUZ 0 0
-93 0 100d12+19000 1d10+1000 10d10+43 magic
--75 -74 -74 -74
-CDEFGK 0 C 0
-stand stand either 0
-0 0 small 0
+ABJT BDFTUZ 93
 #11694
 zkare býçak~
 bir Zkare býçaðý~
@@ -1475,12 +1005,7 @@ Güçlü rünler ustalýkla yapýlmýþ sert býçaðýn her iki yüzü boyunca parýldýyor.
 Büyüyle güçlendirilmiþ ve bilenmiþ haliyle, oldukça öldürücü bir düþman.
 ~
 modron~
-ABJT NOT 0 0
-90 0 100d12+19000 1d10+1000 10d10+43 cleave
--70 -70 -70 -68
-CDEFK 0 0 0
-stand stand none 0
-0 0 medium 0
+ABJT NOT 90
 #11695
 zeinia temsilcisi altýn leydi sherayna~
 Zeinia temsilcisi~
@@ -1493,12 +1018,7 @@ Göðsüne iðnelenmiþ þýk bir isim etiketinden þu okunuyor:
                "Sherayna"
 ~
 çora~
-ABG DF 0 0
-93 0 100d12+19000 1d10+1000 10d10+43 wrath
--50 -50 -50 -50
-EFK A 0 0
-stand stand female 10000
-0 0 medium 0
+ABG DF 93
 #11696
 zeinia temsilcisi leydi nyvri~
 Zeinia temsilcisi~
@@ -1510,12 +1030,7 @@ Göðsüne iðnelenmiþ gümüþ bir broþtan þu okunuyor:
              "Nyvri"
 ~
 çora~
-ABG DF 0 0
-90 0 100d12+18000 1d10+1000 10d10+43 magic
--50 -50 -50 -50
-EFK A 0 0
-stand stand female 10000
-0 0 medium 0
+ABG DF 90
 
 
 #11697
@@ -1533,12 +1048,7 @@ sadýk.  Köprücük kemiðinin üzerinde, iki çapraz hançerin üzerine doðru alçalan b
 atmaca figürü parýldýyor.
 ~
 çora~
-ABCFGS DFPQa -500 11700
-88 5 100d12+17250 1d10+3000 10d10+49 pierce
--70 -70 -70 -69
-BDEFHJK 0 CD 0
-stand stand either 10000
-0 0 medium 0
+ABCFGS DFPQa 88
 #11698
 zdreni suikastçi öcalýcý figür~
 Zdreni öcalýcýsý~
@@ -1554,12 +1064,7 @@ sadýk.  Köprücük kemiðinin üzerinde, iki çapraz hançerin üzerine doðru alçalan b
 atmaca figürü parýldýyor.
 ~
 çora~
-ABCFGSR DFPQ 0 11700
-88 5 100d12+17700 1d10+6000 10d10+48 pierce
--70 -70 -70 -69
-BEFJK 0 CD 0
-stand stand either 10000
-0 0 medium 0
+ABCFGSR DFPQ 88
 #11699
 zdreni suikastçi ölümüstadý~
 Zdreni ölümüstadý~
@@ -1572,12 +1077,7 @@ aþýrý derecede kuvvetli.  Ýki çapraz hançer figürü, köprücük kemiðinin üzerinde
 parýldýyor.
 ~
 çora~
-ABCFGRS DFOPQ -500 11700
-85 2 100d12+15750 1d10+1500 9d10+33 wrath
--57 -57 -58 -56
-BEFHJK 0 0 0
-stand stand male 10000
-0 0 medium 0
+ABCFGRS DFOPQ 85
 #11700
 zdreni suikastçi gölgeüstadý karayel figür~
 Zdreni gölgeüstadý~
@@ -1587,12 +1087,7 @@ Figür yaþayan bir gölge misali, güçlü ve akýcý bir zerafetle hareket ediyor.
 Sessiz ve öldürücü haliyle gölgeüstadý, tam anlamýyla ölümcül bir düþman.
 ~
 çora~
-ABCFGS DFPQ -500 11700
-80 2 100d12+13500 1d10+1200 9d10+28 pierce
--53 -53 -52 -51
-BEFJK 0 0 0
-stand stand female 8000
-0 0 medium 0
+ABCFGS DFPQ 80
 #11701
 zdreni suikastçi býçaküstadý~
 Zdreni býçaküstadý~
@@ -1603,12 +1098,7 @@ bilenmiþ.  Bu tabakanýn kuvvetinin ve zorluluðunun göstergesi olan çapraz çizgil
 yara izleri esmer cildi bozuyor.
 ~
 çora~
-ACFGS PQ -500 11700
-75 1 100d10+11250 1d10+900 7d10+35 pierce
--48 -48 -48 -44
-BDEFJ 0 0 0
-stand stand either 7500
-0 0 medium 0
+ACFGS PQ 75
 #11702
 zdreni suikastçi büyüüstadý karayel figür~
 Zdreni büyüüstadý~
@@ -1619,12 +1109,7 @@ büyü sanatlarýnda bir uzman.  Bu kombinasyon büyüüstadýný çok yönlü ve
 korkunç etkili bir suikastçi yapýyor.
 ~
 çora~
-ACFGRS DOPQT -500 11700
-75 1 100d10+11000 1d10+1500 7d10+34 pierce
--49 -50 -49 -47
-BFGJ 0 0 0
-stand stand either 7500
-0 0 medium 0
+ACFGRS DOPQT 75
 #11703
 zdreni suikastçi avcý figür~
 Zdreni avcýsý~
@@ -1639,12 +1124,7 @@ hedefinden baþka bir þey deðiller.  Bu uðurda, kendisini mükemmele doðru bileme
 çabasýndaki avcý için, baþarýsýz bir suikast giriþimi feci bir ölüm anlamýna geliyor.
 ~
 çora~
-ACFGS PQ -500 11700
-70 1 100d10+9500 1d10+900 7d10+30 pierce
--43 -44 -43 -41
-BEFJK 0 0 0
-stand stand either 7000
-0 0 medium 0
+ACFGS PQ 70
 #11704
 zdreni suikastçi karabýçak~
 Zdreni karabýçaðý~
@@ -1654,12 +1134,7 @@ Karabýçak öldürme konusunda bir uzman ve bu rütbeye ulaþana kadar þimdiden
 sayýsýz ölümlere sebep olmuþ.
 ~
 çora~
-ACFGS PQ -500 11700
-65 1 75d10+8000 1d10+750 8d6+34 pierce
--37 -38 -38 -37
-BEFJK 0 0 0
-stand stand either 6500
-0 0 medium 0
+ACFGS PQ 65
 #11705
 zdreni suikastçi karayel zehirbýçaðý~
 Zdreni zehirbýçaðý~
@@ -1669,12 +1144,7 @@ Bir karayel sana tepeden bakarken zalimce gülümsüyor.
 kullandýðý çok geniþ bir zehir repertuarý var.
 ~
 çora~
-ACFGS PQ -500 11700
-60 1 50d10+8000 1d10+700 8d6+28 pierce
--34 -33 -34 -32
-BEFJK L Q 0
-stand stand either 6000
-0 0 medium 0
+ACFGS PQ 60
 #11706
 zdreni suikastçý kama~
 Zdreni kamasý~
@@ -1684,12 +1154,7 @@ Kama ustasý suikastçi, iyi niþan alýnmýþ bir býçaðýn sessizliði ve akýcý zerafet
 hareket ediyor.
 ~
 çora~
-ACFGS PQ -500 11700
-55 1 50d10+5000 1d10+650 10d4+23 pierce
--29 -28 -28 -26
-BEFJK 0 0 0
-stand stand either 5500
-0 0 medium 0
+ACFGS PQ 55
 #11707
 zdreni genç çaylak suikastçi~
 Zdreni çaylaðý~
@@ -1701,12 +1166,7 @@ tabakada yer alýyor.  Kendisinden yüksektekiler kadar çelikleþmiþ olmasa da,
 düþman gibi görünüyor.
 ~
 çora~
-ACFGS PQ -50 11700
-50 0 50d10+4500 1d10+600 5d8+19 pierce
--21 -21 -21 -19
-BFJ 0 0 0
-stand stand either 1000
-0 0 medium 0
+ACFGS PQ 50
 #11708
 genç karayel aday~
 aday~
@@ -1718,12 +1178,7 @@ Ve bu noktada korkaklýk klanýn gazabýnýn üzerine gelmesiyle ve yine
 klan için zerrece deðeri olmayan bedeninin yokoluþuyla sonuçlanacak.
 ~
 çora~
-ABGS P -50 11700
-45 0 25d10+3000 1d10+500 8d4+16 pierce
--15 -15 -15 -12
-BF 0 0 0
-stand stand either 500
-0 0 medium 0
+ABGS P 45
 #11709
 kara gölge panter~
 gölge panteri~
@@ -1734,12 +1189,7 @@ biçimde ýþýldýyor.  Çok iri vücudunun neredeyse tamamý kaslardan yaratýk
 korkunç bir zerafetle hareket ediyor.
 ~
 cat~
-AFG PQ 0 11700
-55 0 50d10+5000 1d10+550 10d4+23 claw
--28 -28 -28 -27
-DEFH 0 0 0
-stand stand either 0
-0 0 large 0
+AFG PQ 55
 #11710
 gardiyan siyah vaþak~
 gardiyan vaþak~
@@ -1749,12 +1199,7 @@ Gece karasý bir vaþak sessizce yürüyor.
 anahtar takýlý.
 ~
 cat~
-ABFG P 0 11700
-55 0 50d10+5000 1d10+550 10d4+23 claw
--28 -28 -28 -27
-DEFH 0 0 0
-stand stand either 0
-0 0 large 0
+ABFG P 55
 #11711
 zdreni suikastçi büyüüstadý~
 Zdreni büyüüstadý~
@@ -1764,12 +1209,7 @@ Bir Zdreni büyüüstadý burada, çaylaklarý eðitiyor.
 görevli.
 ~
 çora~
-ABCFGRS DOPQT -500 11700
-75 1 100d10+11000 1d10+1500 7d10+34 pierce
--49 -50 -49 -47
-BFGJ 0 0 0
-stand stand either 7500
-0 0 medium 0
+ABCFGRS DOPQT 75
 #11712
 zdreni çaylak suikastçi~
 Zdreni çaylaðý~
@@ -1781,12 +1221,7 @@ tabakada yer alýyor.  Kendisinden yüksektekiler kadar çelikleþmiþ olmasa da,
 gibi görünüyor.
 ~
 çora~
-ABCFGRS PQ -50 11700
-50 0 50d10+4500 1d10+600 5d8+19 pierce
--21 -21 -21 -19
-BFJ 0 0 0
-stand stand either 1000
-0 0 medium 0
+ABCFGRS PQ 50
 #11713
 zdreni çaylak suikastçi~
 Zdreni çaylaðý~
@@ -1798,12 +1233,7 @@ tabakada yer alýyor.  Kendisinden yüksektekiler kadar çelikleþmiþ olmasa da,
 gibi görünüyor.
 ~
 çora~
-ABCFGRS PQ -50 11700
-50 0 50d10+4500 1d10+600 5d8+19 pierce
--21 -21 -21 -19
-BFJ 0 0 0
-stand stand either 1000
-0 0 medium 0
+ABCFGRS PQ 50
 #11714
 zdreni býçaküstadý suikastçi~
 Zdreni býçaküstadý~
@@ -1814,12 +1244,7 @@ keskinliðinde bilenmiþ.  Bu tabakanýn kuvvetinin ve zorluluðunun
 göstergesi olan çapraz çizgili yara izleri esmer cildi bozuyor.
 ~
 çora~
-ABCFGS PQ -500 11700
-75 1 100d10+11250 1d10+900 7d10+35 pierce
--48 -48 -48 -44
-BDEFJ 0 0 0
-stand stand either 7500
-0 0 medium 0
+ABCFGS PQ 75
 #11715
 zdreni çaylak suikastçi~
 Zdreni çaylaðý~
@@ -1831,12 +1256,7 @@ tabakada yer alýyor.  Kendisinden yüksektekiler kadar çelikleþmiþ olmasa da,
 düþman gibi görünüyor.
 ~
 çora~
-ABCFGS PQ -50 11700
-50 0 50d10+4500 1d10+600 5d8+19 pierce
--21 -21 -21 -19
-BFJ 0 0 0
-stand stand either 1000
-0 0 medium 0
+ABCFGS PQ 50
 #11716
 zdreni çaylak suikastçi~
 Zdreni çaylaðý~
@@ -1848,12 +1268,7 @@ tabakada yer alýyor.  Kendisinden yüksektekiler kadar çelikleþmiþ olmasa da,
 düþman gibi görünüyor.
 ~
 çora~
-ABCFGS PQ -50 11700
-50 0 50d10+4500 1d10+600 5d8+19 pierce
--21 -21 -21 -19
-BFJ 0 0 0
-stand stand either 1000
-0 0 medium 0
+ABCFGS PQ 50
 #11717
 zdreni suikastçi büyüüstadý~
 Zdreni büyüüstadý~
@@ -1863,12 +1278,7 @@ Bir Zdreni büyüüstadý burada, bir deney üzerinde yoðunlaþmýþ.
 öðretmekle görevli.
 ~
 çora~
-ABCFGRS DOPQT -500 11700
-75 1 100d10+11000 1d10+1500 7d10+34 pierce
--49 -50 -49 -47
-BFGJ 0 0 0
-stand stand either 7500
-0 0 medium 0
+ABCFGRS DOPQT 75
 #11718
 zdreni suikastçi yel zehirbýçaðý~
 Zdreni zehirbýçaðý~
@@ -1878,12 +1288,7 @@ Bir zehirbýçaðý burada, büyüüstadýna yardým ediyor.
 kullandýðý çok geniþ bir zehir repertuarý var.
 ~
 çora~
-ABCFGS PQ -500 11700
-60 1 50d10+6750 1d10+700 8d6+28 pierce
--24 -23 -24 -22
-BEFJK L Q 0
-stand stand male 6000
-0 0 medium 0
+ABCFGS PQ 60
 #11719
 zdreni suikastçi kama~
 Zdreni kamasý~
@@ -1893,12 +1298,7 @@ Kama ustasý bir suikastçi, iyi niþan alýnmýþ bir býçaðýn sessizliði ve akýcý
 zerafetiyle hareket ediyor.
 ~
 çora~
-ABCFGS PQ -500 11700
-55 1 50d10+5500 1d10+650 10d4+23 pierce
--29 -28 -28 -26
-BEFJK 0 0 0
-stand stand female 5500
-0 0 medium 0
+ABCFGS PQ 55
 #11720
 zdreni suikastçi yel zehirbýçaðý~
 Zdreni zehirbýçaðý~
@@ -1908,12 +1308,7 @@ Bir zehirbýçaðý burada kimyasallarý karýþtýrýyor.
 kullandýðý çok geniþ bir zehir repertuarý var.
 ~
 çora~
-ABCFGS PQ -500 11700
-60 1 50d10+6500 1d10+700 8d6+28 pierce
--34 -33 -34 -32
-BEFJK L Q 0
-stand stand either 6000
-0 0 medium 0
+ABCFGS PQ 60
 #11721
 zdreni suikastçi yel zehirbýçaðý~
 Zdreni zehirbýçaðý~
@@ -1923,12 +1318,7 @@ Suikastçi zalimce gülümseyip esirleri zehri içmeye zorlarken, beyaz diþler
 ürpertici bir þekilde parýldýyor.
 ~
 çora~
-ABCFGS PQ -500 11700
-60 1 50d10+7200 1d10+700 8d6+28 pierce
--34 -33 -34 -32
-BEFJK L Q 0
-stand stand either 6000
-0 0 medium 0
+ABCFGS PQ 60
 #11722
 çýðlýk atan esir~
 çýðlýk atan bir esir~
@@ -1938,12 +1328,7 @@ Esir, onu masaya baðlayan sicimleri tüm gücüyle çektikçe, sadece onlarý
 daha da sýkýlaþtýrmak konusunda baþarýlý oluyor.
 ~
 human~
-ABG M 0 11700
-30 0 6d12+853 1d10+300 4d6+6 scratch
--6 -6 -6 -4
-0 0 0 0
-rest rest either 0
-0 0 medium 0
+ABG M 30
 #11723
 zdreni karayel zýrhustasý demirci~
 karayel zýrhustasý~
@@ -1953,12 +1338,7 @@ Zýrhustasý önündeki metale vurdukça, esmer yel derisindeki kuvvetli
 kaslarý þiþiyor.
 ~
 çora~
-ABCG 0 -200 11700
-50 0 50d10+5000 1d10+500 5d8+20 crush
--22 -21 -21 -18
-CDIK 0 0 0
-stand stand male 2500
-0 0 medium 0
+ABCG 0 50
 #11724
 zdreni karayel silahustasý demirci~
 karayel silahustasý~
@@ -1968,12 +1348,7 @@ Silahustasý önündeki örste duran hançer þeklindeki kýrmýzý sýcak
 metale çekiçle vurdukça, kývýlcýmlar havada uçuþuyor.
 ~
 çora~
-ABCG 0 -200 11700
-50 0 50d10+5000 1d10+500 5d8+20 smash
--22 -21 -21 -18
-CDIK 0 0 0
-stand stand male 2500
-0 0 medium 0
+ABCG 0 50
 #11725
 zdreni öcalýcý lider figür~
 bir Zdreni öcalýcýsý~
@@ -1989,12 +1364,7 @@ sadýk.  Köprücük kemiðinin üzerinde, iki çapraz hançerin üzerine doðru alçalan b
 atmaca figürü parýldýyor.
 ~
 çora~
-ABCFGRS DFPQa -500 11700
-89 5 100d12+18500 1d10+3500 10d10+51 wrath
--74 -74 -74 -74
-BDEFHJK 0 CD 0
-stand stand either 10000
-0 0 medium 0
+ABCFGRS DFPQa 89
 #11726
 zdreni suikastçi avcý figür~
 Zdreni avcýsý~
@@ -2009,12 +1379,7 @@ hedefinden baþka bir þey deðiller.  Bu uðurda kendisini mükemmele doðru bileme
 çabasýndaki avcý için, baþarýsýz bir suikast giriþimi feci bir ölüm anlamýna geliyor.
 ~
 çora~
-ACFGS PQ -500 11700
-70 1 100d10+9500 1d10+900 7d10+30 pierce
--43 -44 -43 -41
-BEFJK 0 0 0
-stand stand either 7000
-0 0 medium 0
+ACFGS PQ 70
 
 #0
 

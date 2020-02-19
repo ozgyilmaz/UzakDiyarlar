@@ -11,7 +11,7 @@ Maxvnum 8699
 Path 3d 2g b g y~
 END
 
-#MOBILES
+#NEW_MOBILES
 #8600
 bekçi~
 bekçi~
@@ -20,12 +20,7 @@ Morris ekipmaný bekçisi burada.
 Bu kadýnýn iþi ekipmanýn düzeyini ayarlamak.
 ~
 human~
-A 0 1000 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand female 5
-0 0 medium 0
+A 0 8
 #0
 #OBJECTS
 #8600

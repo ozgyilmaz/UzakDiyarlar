@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+ 
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -94,11 +106,10 @@ const	struct	cmd_type	cmd_table	[] =
   { "acýbana",		do_outfit,	POS_RESTING,	 0,  LOG_NORMAL, 1,0},
   { "advance",	do_advance,	POS_DEAD,	ML,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "affrooms",	do_affrooms,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "al",		do_get,		POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
+  { "al",		do_get,		POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "allow",		do_allow,	POS_DEAD,	L2,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "andaç",         do_trophy,      POS_STANDING,    0,  LOG_NORMAL, 1,0 },
   { "anýmsa",		do_recall,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
-  { "anlat",		do_tell,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
   { "arakla",		do_steal,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
   { "aranýyor",         do_wanted,      POS_STANDING,    0,  LOG_ALWAYS, 1,0 },
   { "ardýlan",	do_backstab,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
@@ -108,7 +119,6 @@ const	struct	cmd_type	cmd_table	[] =
   { "ayýçaðýr",       do_bear_call,   POS_FIGHTING,    0,  LOG_NORMAL, 1,0},
   { "ayrý",		do_qui,		POS_DEAD,	 0,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
   { "ayrýl",		do_quit,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "baðýr",		do_shout,	POS_RESTING,	 3,  LOG_NORMAL, 1, CMD_GHOST },
   { "bak",		do_look,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "bakiye",	do_balance,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
   { "ban",		do_ban,		POS_DEAD,	L2,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
@@ -126,7 +136,6 @@ const	struct	cmd_type	cmd_table	[] =
   { "çaðrýyok",	do_nosummon,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "çarp",		do_zap,		POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
   { "çelme",		do_trip,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
-  { "cevapla",		do_reply,	POS_SLEEPING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
   { "çevrel",         do_circle,      POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
   { "çivi",       do_caltraps,    POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
   { "çýkar",		do_remove,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
@@ -166,9 +175,8 @@ const	struct	cmd_type	cmd_table	[] =
   { "flag",		do_flag,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "force",		do_force,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "freeze",		do_freeze,	POS_DEAD,	L7,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "ganlat",		do_gtell,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_GHOST },
   { "gir", 		do_enter, 	POS_STANDING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
-  { "giy",		do_wear,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
+  { "giy",		do_wear,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
   { "göm",		do_bury,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
   { "görev",          do_quest,       POS_RESTING,     0,  LOG_NORMAL, 1 , CMD_GHOST},
   { "görün",	do_visible,	POS_SLEEPING,	 0,  LOG_NORMAL, 1,0 },
@@ -177,13 +185,14 @@ const	struct	cmd_type	cmd_table	[] =
   { "grant",		do_grant,	POS_DEAD,	L2,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "grup",          do_group,       POS_SLEEPING,    0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
   { "grupliste",          do_glist,       POS_DEAD,        0,  LOG_NEVER,  1, 0},
+  { "ganlat",		do_gtell,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_GHOST },
   { "günce",		do_worth,	POS_SLEEPING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "harakiri",           do_hara,        POS_STANDING,    0,  LOG_NORMAL,1,0 },
   { "havadurumu",	do_weather,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "haykýr",		do_yell,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
   { "hedef",		do_target,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
   { "holylight",	do_holylight,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "iç",		do_drink,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
+  { "iç",		do_drink,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
   { "immtalk",	do_immtalk,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "incele",	do_examine,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
   { "incognito",	do_incognito,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
@@ -201,8 +210,8 @@ const	struct	cmd_type	cmd_table	[] =
   { "iyileþtir",		do_heal,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
   { "ýsýr",		do_vbite,	POS_STANDING,	 0,  LOG_NORMAL, 0,0 },
   { "kaç",		do_flee,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
-  { "kalk",		do_stand,	POS_SLEEPING,	 0,  LOG_NORMAL, 1,0},
-  { "kalk",		do_wake,	POS_SLEEPING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
+  { "kalk",		do_stand,	POS_SLEEPING,	 0,  LOG_NORMAL, 1,CMD_GHOST},
+  { "kalk",		do_wake,	POS_SLEEPING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "kalkan",		do_shield,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
   { "kamp",		do_camp,  	POS_STANDING,    0,  LOG_NORMAL, 1,0 },
   { "kamuflaj",     do_camouflage,  POS_STANDING,    0,  LOG_NORMAL, 1,0 },
@@ -218,7 +227,8 @@ const	struct	cmd_type	cmd_table	[] =
   { "kaydet",		do_save,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_GHOST },
   { "kaz",		do_dig,  	POS_STANDING,    0,  LOG_NORMAL, 1,0 },
   { "kazan",		do_gain,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
-  { "kdg",	do_kdg,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { "kd",		do_kd,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_GHOST },
+  /*{ "kdg",	do_kdg,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },*/
   { "keskingörüþ",      do_truesight,   POS_FIGHTING,    0,  LOG_NORMAL, 0,0 },
   { "kilitaç",         do_unlock,      POS_RESTING,     0,  LOG_NORMAL, 1,0},
   { "kilitle",		do_lock,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
@@ -255,6 +265,7 @@ const	struct	cmd_type	cmd_table	[] =
   { "maymuncuk",		do_pick,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
   { "memory",		do_memory,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "mezat",        do_auction,     POS_SLEEPING,    0,  LOG_NORMAL, 1, CMD_GHOST  },
+  { "mobstat",		do_mobstat,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "mwhere",		do_mwhere,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "nara",         do_warcry,      POS_FIGHTING,    0,  LOG_NORMAL, 1,0},
   { "nerede",		do_where,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
@@ -391,7 +402,7 @@ const	struct	cmd_type	cmd_table	[] =
   { "yardým",		do_help,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "yargýla",          do_judge,       POS_RESTING,     0,  LOG_ALWAYS, 1,CMD_KEEP_HIDE },
   { "yarma",         do_cleave,      POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "ye",		do_eat,		POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
+  { "ye",		do_eat,		POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
   { "yeniyaþa",		do_remor,	POS_STANDING,	 0,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "yeniyaþam",		do_remort,	POS_STANDING,	 0,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "yetenekler",		do_skills,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },

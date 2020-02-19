@@ -12,7 +12,7 @@ Path 6g 3b~
 END
 
 
-#MOBILES
+#NEW_MOBILES
 #32000
 kapýbekçisi kapý bekçi~
 kapýbekçisi~
@@ -22,12 +22,7 @@ Oldukça iri bir bekçi görüyorsun. Horultusu güçlü ve ürkütücü.
 Sanýrým onu hemen öldürmeyi düþünüyorsun...
 ~
 human~
-ABG 0 0 0
-6 0 2d7+71 5d5+100 1d7+1 pound
-4 4 4 8
-EFNU 0 0 0
-stand stand male 100
-0 0 medium 0
+ABG 0 6
 #32001
 sýçan~
 sýçan~
@@ -35,13 +30,8 @@ Bir sýçan kýçýnýn üstüne oturmuþ bir sonraki yemeðini düþünüyor.
 ~
 Günlerdir birþey yememiþ... Þimdi SENÝ yemeyi düþünüyor.
 ~
-rat~
-AG Q 0 0
-5 0 2d6+60 5d5+100 1d6+1 bite
-5 5 5 9
-F 0 0 0
-stand stand male 100
-0 0 medium 0
+lizard~
+AG Q 5
 #32002
 gardiyan~
 Gardiyan~
@@ -51,12 +41,7 @@ Gardiyan burada, dalgýn görünmesine raðmen dikkatli.
 özel eðitime sahip.
 ~
 human~
-ACG 0 0 0
-65 0 50d10+8250 5d5+5000 11d5+35 pound
--35 -35 -35 -5
-EFNU 0 0 0
-stand stand male 100
-0 0 medium 0
+ACG 0 65
 #32003
 cezaevi iþçi~
 cezaevi iþçisi~
@@ -65,12 +50,7 @@ Cezaevi iþçisi burada, mümkün olduðunca az çalýþmaya çalýþýyor.
 Selenge'deki çöpçülere benziyor.
 ~
 human~
-ACG DF 0 0
-9 0 2d6+110 5d5+100 1d8+2 slash
-2 2 2 7
-FIJ 0 0 0
-stand stand male 100
-0 0 medium 0
+ACG DF 9
 #32004
 hücre gardiyaný~
 hücre gardiyaný~
@@ -79,12 +59,7 @@ Hücre gardiyaný burada, yüzünde buz gibi bir gülümseme var.
 Herþeyi cezaevi içinde tutmayý becerebilecek kadar güçlü.
 ~
 human~
-ABG H 100 0
-65 0 50d10+8250 5d5+5000 11d5+35 pound
--35 -35 -35 -5
-CDEFIKU 0 0 0
-stand stand male 100
-0 0 medium 0
+ABG H 65
 #32005
 mahkum~
 mahkum~
@@ -93,12 +68,7 @@ Mahkum burada, oldukça umutsuz görünüyor.
 Hergün deliler gibi çalýþtýrýlmaktan elleri yara olmuþ.
 ~
 human~
-AG 0 0 0
-33 0 10d10+1100 5d5+1000 6d4+10 punch
--11 -11 -11 3
-FKIJ 0 0 0
-stand stand male 100
-0 0 medium 0
+AG 0 33
 #32006
 hamamböceði~
 hamamböceði~
@@ -107,13 +77,8 @@ Büyük bir hamamböceði burada, etrafý kolaçan ediyor.
 Bu bünyeyi besleyebilmek için en azýndan her iki günde bir senin büyüklüðünde bir
 somun yemesi gerekiyor.
 ~
-cockroach~
-AG 0 500 0
-8 0  2d7+96 5d5+100 1d7+2 bite
-3 3 3 8
-F 0 0 0
-stand stand none 100
-0 0 medium 0
+centipede~
+AG 0 8
 #32007
 hizmetkar~
 hizmetkar~
@@ -122,12 +87,7 @@ Hizmetkar burada, birinin kendisine emir vermesini bekliyor.
 Cezaevinin en düþük rütbeli çalýþaný. Rahatlýkla gebertebileceðin biri...
 ~
 human~
-AGH 0 0 0
-13 0  2d10+170 5d5+100 2d5+3 punch
--1 -1 -1 6
-F 0 0 0
-stand stand male 100
-0 0 medium 0
+AGH 0 13
 #32008
 taþ muhafýz~
 taþ muhafýz~
@@ -136,12 +96,7 @@ Muhafýz burada, taþ gibi duruyor.
 Oldukça sert ve yoðun bir þekilde sigara kokuyor.
 ~
 human~
-ABGH 0 0 0
-44 0 25d10+2750 5d5+1000 8d4+15 pound
--15 -15 -15 2
-CDEFIJKU 0 0 0
-stand stand male 100
-0 0 medium 0
+ABGH 0 44
 #32009
 gangster~
 gangster~
@@ -150,12 +105,7 @@ Gangster burada, hizmetkarlara emirler yaðdýrýyor.
 Baþkana önerdiði rüþvetin azlýðý nedeniyle burada.
 ~
 human~
-ACGH 0 0 0
-23 0  5d10+450 5d5+1000 3d6+6 punch
--6 -6 -6 4
-FKIJ 0 0 0
-stand stand male 100
-0 0 medium 0
+ACGH 0 23
 #32010
 topuz müdür~
 Müdür Topuz~
@@ -166,12 +116,7 @@ düþleri ve hareketleriyle hem mahkumlarýn, hem gardiyanlarýn hem de
 Demay'ýn baþ belasý.
 ~
 human~
-AG HU 0 0
-84 0 50d10+15500 5d5+5000 9d14+54 pound
--54 -54 -54 -18
-FHIJK 0 0 0
-stand stand male 100
-0 0 medium 0
+AG HU 84
 #32011
 demay~
 sekreter Demay~
@@ -180,12 +125,7 @@ Sekreter Demay burada, dosyalarla uðraþýyor.
 Hergün gördüðün sekreterlerden. Güzel göðüsler ve sütun gibi bacaklar...
 ~
 human~
-AB 0 1000 0
-40 0 15d10+1850 5d5+1000 4d8+13 slap
--13 -13 -13 3
-0 0 0 0
-stand stand female 100
-FKIJ 0 medium 0
+AB 0 40
 #32012
 tamirci enre~
 Enre~
@@ -195,12 +135,7 @@ Cezaevinin bütün onarým iþlerinin sorumlusu. Çalýþmayý pek sevmese de
 para kazanmak için yapabileceði baþka birþey yok.
 ~
 human~
-ABG 0 0 0
-50 0 50d10+4250 5d5+5000 5d8+19 slap
--20 -20 -20 0
-FIJK 0 0 0
-stand stand male 100
-0 0 medium 0
+ABG 0 50
 #32013
 yardýmcý dot~
 Dot~
@@ -210,12 +145,7 @@ Enre'nin tembelliði yüzünden yapmadýðý iþlerle uðraþýyor. Bir yandan
 çalýþýyor, bir yandan da Enre'nin küfürlerini ve aþaðýlamalarýný dinliyor.
 ~
 human~
-AG 0 0 0
-53 0 50d10+5000 5d5+5000 6d7+21 pound
--23 -23 -23 -1
-CDEFIJK 0 0 0
-stand stand male 100
-0 0 medium 0
+AG 0 53
 #32014
 aþçý wendy~
 Wendy~
@@ -226,12 +156,7 @@ Burada aþçý olarak çalýþmak onu memnun ediyor. Oðlu Yakup'u da hergün
 yanýnda getiriyor.
 ~
 human~
-ABG HN 1000 0
-90 0 50d10+18500 5d5+5000 17d9+60 slap
--60 -60 -60 -27
-CDEFIJK 0 0 0
-stand stand female 100
-0 0 medium 0
+ABG HN 90
 #32015
 buhar canavarý~
 buhar canavarý~
@@ -242,12 +167,7 @@ yapýyor, neden burada duruyor... Bütün bu sorularýn cevabýný ben
 biliyorum, ya sen bilmek ister misin?
 ~
 asura~
-ABFG D 0 0
-30 0  6d12+853 5d5+1000 4d6+8 claw
--9 -9 -9 3
-FNK 0 0 0
-stand stand none 100
-0 0 medium 0
+ABFG D 30
 #32016
 zýrhçý Larry~
 Larry~
@@ -256,12 +176,7 @@ Zýrhçý Larry burada, zýrhlarýný gösteriyor.
 Üzerinde düþünülmesi gereken biri deðil.
 ~
 human~
-ABG 0 0 0
-105 0 50d10+28500 5d5+5000 18d15+68 pound
--81 -81 -81 -47
-CDEFHKN 0 D 0
-stand stand male 100
-0 0 medium 0
+ABG 0 105
 #32017
 demirci gomas~
 Gomas~
@@ -271,12 +186,7 @@ Eski bir hücre muhafýzý. Þimdi ise silah üretimiyle uðraþýyor. Bu iþi
 yapmayý hakedecek bilgi ve beceriye sahip biri.
 ~
 human~
-ABG 0 0 0
-105 0 50d10+28500 5d5+5000 18d15+68 pound
--81 -81 -81 -47
-CDEFHKN 0 D 0
-stand stand male 100
-0 0 medium 0
+ABG 0 105
 #32018
 biftek dilim~
 biftek dilimi~
@@ -286,12 +196,7 @@ Biftek dilimini inceliyorsun. Sen ona bakarken o da yavaþ yavaþ
 uzaklaþmayý deniyor.
 ~
 ghost~
-ABG 0 0 0
-1 0  2d6+10 5d5+100 1d4+0 slice
-9 9 9 10
-F 0 0 0
-stand stand male 100
-0 0 medium 0
+ABG 0 1
 #32019
 dindar ermiþ~
 Dindar Ermiþ~
@@ -301,12 +206,7 @@ Uzaklardan, çook uzaklardan gelmiþ. Geldiði yerde insanlarýn güneþ
 altýnda kavrulduðundan bahsediyor.
 ~
 human~
-ABGK HN 1000 0
-115 0 50d10+29500 5d5+5000 18d15+68 pound
--91 -91 -91 -37
-CDEFHIJK B C 0
-stand stand male 100
-0 0 medium 0
+ABGK HN 115
 #32020
 havlucu çocuk~
 havlucu~
@@ -315,12 +215,7 @@ Havlucu çocuk burada, sýrtýný duvara dayamýþ duruyor.
 Ne kadar berbat bir iþ!! Onun görevi uþu kullananlara havlu yetiþtirmek.
 ~
 human~
-ABG JN 0 0
-5 0 2d6+60 5d5+100 1d6+1 pound
-5 5 5 9
-FK 0 0 0
-stand stand male 100
-0 0 medium 0
+ABG JN 5
 #32021
 cellat~
 Cellat~
@@ -329,12 +224,7 @@ Cellat burada, birilerini öldürmek için son hazýrlýklarýný yapýyor.
 Onun ne bir yüzü, ne de bir ruhu var. O yaþý bilinmeyen bir iblis.
 ~
 human~
-ABG HJN -1000 0
-100 20 50d10+28500 5d5+5000 18d15+88 pound
--91 -91 -91 -37
-EFHKN 0 0 0
-stand stand male 100
-0 0 medium 0
+ABG HJN 100
 #32022
 þey siyah~
 Siyah Þey~
@@ -343,13 +233,8 @@ Siyah bir Þey burada duruyor.
 Ýçinde ve dýþýnda gökkuþaðýndaki renklerin soluk izlerinin oynaþtýðý
 siyah bir kütle görüyorsun. Onun ne olduðunu inan ben de bilmiyorum....
 ~
-unknown~
-ABFG J 0 0
-40 0 15d10+1850 5d5+1000 4d8+13 magic
--13 -13 -13 3
-FK 0 0 0
-stand stand none 100
-0 0 medium 0
+ghoul~
+ABFG J 40
 #32023
 tunç ejderha~
 Tunç Ejderha~
@@ -358,12 +243,7 @@ Büyük, tunç bir ejderha görüyorsun, her nefes alýþýnda sanki gök gürlüyor.
 O bir seferde algýlanamayacak kadar büyük... Burada iþi ne?!
 ~
 dragon~
-AG BDFHJPU 1000 0
-1 0  2d6+10 5d5+100 1d4+0 claw
-9 9 9 10
-F 0 0 0
-stand stand male 100
-0 0 huge 0
+AG BDFHJPU 75
 #32024
 terry~
 Terry~
@@ -373,12 +253,7 @@ Kimyager Terry burada.
 kimyasal maddeleri satan adam bu olmalý.
 ~
 human~
-ACH DH 0 0
-50 0 50d10+4250 5d5+5000 5d8+19 pound
--20 -20 -20 0
-BCDEFIJK 0 C 0
-stand stand male 100
-0 0 medium 0
+ACH DH 50
 
 #0
 

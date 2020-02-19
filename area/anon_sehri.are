@@ -39,7 +39,7 @@ Dungeon_|                        Dryad                       |
 ~
 0 $~
 
-#MOBILES
+#NEW_MOBILES
 #31000
 þifacý gath~
 Þifacý Gath~
@@ -51,12 +51,7 @@ wilst have to pay... To see how I may help thee, type HEAL, which will also
 show you the cost of each service".
 ~
 human~
-ABGKe HN 1000 0
-80 5 50d10+23500 5d5+5000 13d9+50 divine
--60 -60 -60 -13
-FHKN AB 0 0
-stand stand male 1000
-0 0 medium 0
+ABGKe HN 80
 #31001
 lonca efendisi dirad~
 Lonca efendisi Dirad~
@@ -68,12 +63,7 @@ type PRAC <skillname>. Typing PRAC without an argument will display what
 skills or spells you may learn here".
 ~
 human~
-ABG HN 1000 0
-10 0  2d7+121 5d5+100 2d4+2 pound
-1 1 1 7
-F 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG HN 10
 #31002
 demirci jolob~
 Demirci Jolob~
@@ -84,12 +74,7 @@ item that be damaged. If not, then I'm afeared there ain't
 nuthin' I can help ye with".
 ~
 human~
-ABG CDEFHN 1000 0
-60 0 50d10+13500 5d5+5000 13d9+50 pound
--50 -50 -50 -13
-FHKN AB 0 0
-stand stand male 1000
-0 0 medium 0
+ABG CDEFHN 60
 #31003
 zýrhçý~
 Zýrhçý~
@@ -104,12 +89,7 @@ just want to know what it's worth, type VALUE <item> and I'll give you a
 free valuation".
 ~
 human~
-ABG HN 1000 0
-70 0 50d10+13500 5d5+5000 13d9+50 pound
--50 -50 -50 -13
-FHKN AB 0 0
-stand stand male 1000
-0 0 medium 0
+ABG HN 70
 #31004
 silahçý~
 Silahçý~
@@ -122,12 +102,7 @@ you, type SELL <item>. If you just want a valuation, type VALUE <item> and
 I'll let you know what its worth for free".
 ~
 human~
-ABG HN 1000 0
-70 0 50d10+13500 5d5+5000 13d9+50 pound
--50 -50 -50 -13
-FHKN AB 0 0
-stand stand male 1000
-0 0 medium 0
+ABG HN 70
 #31005
 paralý asker satýcýsý~
 Paralý Asker Satýcýsý~
@@ -137,12 +112,7 @@ Paralý asker satýcýsý hýrýldýyor.
 to hire 'im. That's it. Now pay up or get out".
 ~
 human~
-ABG HN 1000 0
-70 0 50d10+13500 5d5+5000 13d9+50 pound
--50 -50 -50 -13
-FKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG HN 70
 #31006
 büyücü~
 Büyücü~
@@ -154,12 +124,7 @@ think I may like to buy, type SELL <item>. Alternatively I can give you
 a free evaluation of the item- simply type VALUE <item>".
 ~
 human~
-ABG HN 1000 0
-80 0 50d10+13500 5d5+5000 13d9+50 pound
--50 -50 -50 -13
-FHKN AB 0 0
-stand stand female 1000
-0 0 medium 0
+ABG HN 80
 #31007
 bilge mitzak~
 Bilge Mitzak~
@@ -172,12 +137,7 @@ and then I will identify it, tell you what it does, and hand it back. Easy,
 eh? Hmmph... Anyway..."
 ~
 human~
-ABG CDEFHN 1000 0
-60 0 50d10+13500 5d5+5000 13d9+50 slash
--50 -50 -50 -13
-FHKN AB 0 0
-stand stand male 1000
-0 0 medium 0
+ABG CDEFHN 60
 #31008
 hayvan satýcýsý~
 Hayvan Satýcýsý~
@@ -190,12 +150,7 @@ to buy, simply type BUY <pet>, and if you wish to name it, add the name that
 you want it to have to the same line, i.e, BUY mouse harold".
 ~
 human~
-ABG HN 1000 0
-80 0 50d10+13500 5d5+5000 13d9+50 slap
--50 -50 -50 -13
-FHKN AB 0 0
-stand stand male 1000
-0 0 medium 0
+ABG HN 80
 #31009
 çora loncasý efendisi~
 Çora Loncasý Efendisi~
@@ -207,12 +162,7 @@ a skill or spell that is within my area of expertise, simply type PRAC
 spells you may learn here".
 ~
 çora~
-ABGK HN 1000 0
-10 0  2d7+121 5d5+100 2d4+2 pound
-1 1 1 7
-F 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABGK HN 10
 #31010
 bakkal~
 Bakkal~
@@ -224,12 +174,7 @@ think I may like to buy, type SELL <item>. Alternatively I can give you
 a free evaluation of the item- simply type VALUE <item>".
 ~
 human~
-ABG HN 1000 0
-60 0 50d10+13500 5d5+5000 13d9+50 pound
--50 -50 -50 -13
-FHKN AB 0 0
-stand stand female 1000
-0 0 medium 0
+ABG HN 60
 #31011
 cüce fýrýncý~
 Fýrýncý~
@@ -241,12 +186,7 @@ If ya wanna buy something, then type BUY <item>. If ya think ya got sumptin'
 I might wanna buy, type SELL <item>. Now buy up!"
 ~
 human~
-ABG HN 1000 0
-60 0 50d10+13500 5d5+5000 13d9+50 blast
--50 -50 -50 -13
-FHKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG HN 60
 #31012
 barmen~
 Barmen~
@@ -257,12 +197,7 @@ spellflinging types. To see whats on tap, type LIST. If you see something
 you fancy, well, then type BUY <item>. OK?"
 ~
 human~
-ABG HN 1000 0
-60 0 50d10+13500 5d5+5000 13d9+50 pound
--50 -50 -50 -13
-FHKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG HN 60
 #31013
 cüce loncasý efendisi~
 Cüce Loncasý Efendisi~
@@ -274,12 +209,7 @@ currently. If you see something you want to learn, type PRAC <skill>. Then
 you can kill KIll KILL!"
 ~
 dwarf~
-ABGQ HN 1000 0
-10 0  2d7+121 5d5+100 2d4+2 pound
-1 1 1 7
-F 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABGQ HN 10
 #31014
 kender loncasý efendisi~
 Kender Loncasý Efendisi~
@@ -291,12 +221,7 @@ do NOT STEAL! We BORROW... Now with that out of the way, type PRAC to see
 what I can teach you, and PRAC skill to learn one of the skills shown."
 ~
 human~
-ABCGO HN 1000 0
-10 0  2d7+121 5d5+100 2d4+2 pound
-1 1 1 7
-F 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABCGO HN 10
 #31015
 dirad garson~
 Dirad Garson~
@@ -306,12 +231,7 @@ A prominent employee of the Guild.
 Honest, Reliable and Courteous (yeah right).
 ~
 human~
-ABG HN 0 0
-55 0 50d10+8250 5d5+5000 11d5+35 pound
--35 -35 -35 -5
-F 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG HN 55
 #31016
 çora garson~
 Çora Garson~
@@ -321,12 +241,7 @@ A prominent employee of the Guild.
 Honest, Reliable and Courteous (yeah right).
 ~
 çora~
-ABG HN 0 0
-60 0 50d10+8250 5d5+5000 11d5+35 pound
--35 -35 -35 -5
-FKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG HN 60
 #31017
 cüce garson~
 Cüce Garson~
@@ -336,12 +251,7 @@ A prominent employee of the Guild.
 Honest, Reliable and Courteous (yeah right).
 ~
 dwarf~
-ABG HN 0 0
-60 0 50d10+8250 5d5+5000 11d5+35 pound
--35 -35 -35 -5
-FHKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG HN 60
 #31018
 yaðlý barmen~
 Yaðlý Barmen~
@@ -351,12 +261,7 @@ A prominent employee of the Guild.
 Honest, Reliable and Courteous (yeah right).
 ~
 human~
-ABG HN 0 0
-60 0 50d10+8250 5d5+5000 11d5+35 pound
--35 -35 -35 -5
-FHKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG HN 60
 #31019
 tarla faresi~
 tarla faresi~
@@ -365,12 +270,7 @@ Küçük bir tarla faresi görüyorsun.
 The mouse looks like a cute, little, fierce fighter.
 ~
 rabbit~
-AI 0 400 0
-4 0 2d7+46 5d5+100 1d5+1 bite
-6 6 6 9
-0 0 0 0
-stand stand none 1000
-0 0 medium 0
+AI 0 4
 #31020
 porsuk~
 porsuk~
@@ -379,12 +279,7 @@ Sadýk bir porsuk sana hýrlýyor.
 The badger looks like a fierce fighter.
 ~
 rabbit~
-AI 0 400 0
-10 0  2d7+121 5d5+100 2d4+2 charge
-1 1 1 7
-0 0 0 0
-stand stand none 1000
-0 0 medium 0
+AI 0 10
 #31021
 kartal~
 kartal~
@@ -393,12 +288,7 @@ Sadýk bir kartal görüyorsun.
 The eagle looks like a fierce fighter.
 ~
 song bird~
-AI T 400 0
-15 0 3d9+208 5d5+100 2d6+3 claw
--2 -2 -2 6
-F 0 0 0
-stand stand either 1000
-0 0 medium 0
+AI T 15
 #31022
 gri ayý~
 gri ayý~
@@ -407,12 +297,7 @@ Sadýk bir gri ayý görüyorsun.
 The grizzly bear looks like a strong, fierce fighter.
 ~
 bear~
-AI 0 0 0
-20 0  3d9+333 5d5+1000 2d8+5 claw
--4 -4 -4 5
-CF 0 0 0
-stand stand either 1000
-0 0 medium 0
+AI 0 20
 #31023
 fil~
 fil~
@@ -421,12 +306,7 @@ BÜYÜK bir fil ayaðýný topraða sürterek güç gösterisi yapýyor.
 The elephant is a BAD ASS.
 ~
 human~
-AI 0 0 0
-30 0 6d12+853 5d5+1000 4d6+8 charge
--9 -9 -9 3
-CF 0 0 0
-stand stand either 1000
-0 0 medium 0
+AI 0 30
 #31024
 kafakesen kuyervo~
 Kafakesen Kuyervo~
@@ -436,12 +316,7 @@ Cuervo has lopped more heads off with his trusty guillotine then you EVER
 will with your weapons.
 ~
 human~
-ABG HJN 0 0
-60 0 50d10+13500 5d5+5000 13d9+50 pound
--50 -50 -50 -13
-FKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG HJN 60
 #31025
 arod tüccar~
 Tüccar Arod~
@@ -452,12 +327,7 @@ Tüccar Arod gölgelerin içinde bekliyor.
 AOD apparently practices safe sex...
 ~
 human~
-ACG DFJ 0 0
-60 5 50d10+15500 5d5+5000 13d9+50 pound
--50 -50 -50 -13
-FK 0 0 0
-stand stand male 1000
-0 0 medium 0
+ACG DFJ 60
 #31026
 ilithid loncasý efendisi~
 Ýlithid Loncasý Efendisi~
@@ -469,12 +339,7 @@ from me, then PRAC <skill> to learn any skill that you desire. Say... you
 have a NICE cranium..."
 ~
 human~
-ABEG HN 0 0
-10 0  2d7+121 5d5+100 2d4+2 pound
-1 1 1 7
-F 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABEG HN 10
 #31027
 insan loncasý efendisi~
 Ýnsan Loncasý Efendisi~
@@ -487,12 +352,7 @@ train hard, and dedicate yourself to the higher disciplines of the martial
 arts".
 ~
 human~
-ABGK HN 1000 0
-10 0  2d7+121 5d5+100 2d4+2 pound
-1 1 1 7
-F 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABGK HN 10
 #31028
 aviyan loncasý efendisi~
 Aviyan Loncasý Efendisi~
@@ -503,12 +363,7 @@ teach you, and if there is something I can teach you that you wish to learn,
 type PRAC <skill>. *>SQWAAK<*"
 ~
 human~
-ABGY HN 1000 0
-10 0  2d7+121 5d5+100 2d4+2 pound
-1 1 1 7
-F 0 0 0
-stand stand female 1000
-0 0 medium 0
+ABGY HN 10
 #31029
 ilithid garson~
 Ýlithid Garson~
@@ -518,12 +373,7 @@ A prominent employee of the Guild.
 Honest, Reliable and Courteous (yeah right).
 ~
 human~
-ABG HN 0 0
-60 0 50d10+8250 5d5+5000 11d5+35 pound
--35 -35 -35 -5
-FHKN AB 0 0
-stand stand none 1000
-0 0 medium 0
+ABG HN 60
 #31030
 insan garson~
 Ýnsan Garson~
@@ -533,12 +383,7 @@ A prominent employee of the Guild.
 Honest, Reliable and Courteous (yeah right).
 ~
 human~
-ABG HN 0 0
-55 0 50d10+8250 5d5+5000 11d5+35 pound
--35 -35 -35 -5
-FKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG HN 55
 #31031
 aviyan garson~
 Aviyan Garson~
@@ -548,12 +393,7 @@ A prominent employee of the Guild.
 Honest, Reliable and Courteous (yeah right).
 ~
 human~
-ABG HN 0 0
-55 0 50d10+8250 5d5+5000 11d5+35 pound
--35 -35 -35 -5
-FKN 0 0 0
-stand stand female 1000
-0 0 medium 0
+ABG HN 55
 #31032
 anon savunmasý~
 Anon Savunmasý~
@@ -565,12 +405,7 @@ to do what it takes to defend his city. A veteran of more than twenty years
 of combat, he is not a man to be toyed with.
 ~
 human~
-AG CDHJN 1000 0
-55 0 50d10+8250 5d5+5000 11d5+35 pound
--35 -35 -35 -5
-FKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+AG CDHJN 55
 #31033
 anon vatandaþ~
 vatandaþ~
@@ -580,12 +415,7 @@ Anon is not a huge city in terms of population, but there are a fair number
 of residents, such as this fellow.
 ~
 human~
-AG 0 0 0
-5 0 2d6+60 5d5+100 1d6+1 punch
-5 5 5 9
-0 0 0 0
-stand stand male 1000
-0 0 medium 0
+AG 0 5
 #31034
 anon vatandaþ~
 vatandaþ~
@@ -595,12 +425,7 @@ Anon is not a huge city in terms of population, but there are a fair number
 of residents, such as this lady.
 ~
 human~
-AG 0 0 0
-5 0 2d6+60 5d5+100 1d6+1 punch
-5 5 5 9
-0 0 0 0
-stand stand female 1000
-0 0 medium 0
+AG 0 5
 #31035
 çocuk~
 çocuk~
@@ -611,12 +436,7 @@ treasured by the locals. However, this endearment certainly isn't shared by
 visitors, who find the spoiled brats insufferable.
 ~
 human~
-AG 0 0 0
-5 0 2d6+60 5d5+100 1d6+1 punch
-5 5 5 9
-0 0 0 0
-stand stand male 1000
-0 0 medium 0
+AG 0 5
 #31036
 çöpçü~
 çöpçü~
@@ -626,12 +446,7 @@ Bir çöpçü etrafý temizliyor.
 YOUR crap? Grumble grumble... and these BLOODSTAINS! *SIGH*"
 ~
 human~
-AG D 900 0
-5 0 2d6+60 5d5+100 1d6+1 punch
-5 5 5 9
-0 0 0 0
-stand stand male 1000
-0 0 medium 0
+AG D 5
 #31037
 serseri~
 serseri~
@@ -640,12 +455,7 @@ Bir serseri kolay bir av arýyor.
 The footpad skulks about, looking for someone to conk over the head.
 ~
 human~
-ACG 0 -200 0
-5 0 2d6+60 5d5+100 1d6+1 punch
-5 5 5 9
-0 0 0 0
-stand stand male 1000
-0 0 medium 0
+ACG 0 5
 #31038
 sarhoþ~
 sarhoþ~
@@ -654,12 +464,7 @@ Bir sarhoþ þarký söylüyor.
 A drunk who seems to be too happy, and to carry too much money. He mumbles something unintelligible and stumbles away.
 ~
 human~
-AG 0 400 0
-5 0 2d6+60 5d5+100 1d6+1 punch
-5 5 5 9
-0 0 0 0
-stand stand male 1000
-0 0 medium 0
+AG 0 5
 #31039
 dilenci~
 dilenci~
@@ -668,12 +473,7 @@ Bir dilenci dileniyor.
 "Hey mista! Spare a veteran a dime?"
 ~
 human~
-ABG 0 400 0
-5 0 2d6+60 5d5+100 1d6+1 punch
-5 5 5 9
-0 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG 0 5
 #31040
 hýrsýz~
 hýrsýz~
@@ -682,12 +482,7 @@ Bir hýrsýz silahýný okþuyor.
 This clever fellow has robbed dozens of unsuspecting visitors to Anon.
 ~
 human~
-AGH CPQU 0 0
-10 0 2d7+121 5d5+100 2d4+2 punch
-1 1 1 7
-F 0 0 0
-stand stand male 1000
-0 0 medium 0
+AGH CPQU 10
 #31041
 sokak enik~
 sokak eniði~
@@ -696,12 +491,7 @@ Sokak eniði yiyecek arýyor.
 The beastly fido is foaming at the mouth. You smell the aroma of his latest kill.
 ~
 fido~
-AGH 0 0 0
-5 0 2d6+60 5d5+100 1d6+1 bite
-5 5 5 9
-0 0 0 0
-stand stand none 1000
-0 0 medium 0
+AGH 0 5
 #31042
 laðým sýçan~
 laðým sýçaný~
@@ -710,13 +500,8 @@ Büyük bir laðým sýçaný havayý kokluyor.
 Rats! Eeyew! They come up out of the sewer and steal the children of Anon.
 Good.
 ~
-rat~
-AGH 0 0 0
-5 0 2d6+60 5d5+100 1d6+1 bite
-5 5 5 9
-0 0 0 0
-stand stand none 1000
-0 0 medium 0
+lizard~
+AGH 0 5
 #31043
 kedi~
 kedi~
@@ -725,12 +510,7 @@ Bir kedi çöpleri karýþtýrýyor.
 The cat suddenly emerges, triumphant, with a half-eaten steak, and runs off.
 ~
 cat~
-AGH 0 0 0
-5 0 2d6+60 5d5+100 1d6+1 claw
-5 5 5 9
-0 0 0 0
-stand stand female 1000
-0 0 medium 0
+AGH 0 5
 #31044
 þehir muhafýzý~
 Þehir Muhafýzý~
@@ -741,12 +521,7 @@ continent. Dedicated, loyal, efficient, he is the epitome of Truth, Justice
 and the Anon Way :).
 ~
 human~
-AGT CN 1000 0
-50 0 50d10+4250 5d5+5000 5d8+19 pound
--20 -20 -20 0
-CDFKIJ 0 0 0
-stand stand male 1000
-0 0 medium 0
+AGT CN 50
 #31045
 þehir muhafýzý~
 Þehir Muhafýzý~
@@ -757,12 +532,7 @@ continent. Dedicated, loyal, efficient, she is the epitome of Truth, Justice
 and the Anon Way :).
 ~
 human~
-AG CN 1000 0
-50 0 50d10+4250 5d5+5000 5d8+19 pound
--20 -20 -20 0
-CDFIJK 0 0 0
-stand stand female 1000
-0 0 medium 0
+AG CN 50
 #31046
 þehir muhafýzý~
 Þehir Muhafýzý~
@@ -773,12 +543,7 @@ continent. Dedicated, loyal, efficient, he is the epitome of Truth, Justice
 and the Anon Way :).
 ~
 human~
-ABG CN 1000 0
-50 0 50d10+4250 5d5+5000 5d8+19 pound
--20 -20 -20 0
-CDFIJK 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG CN 50
 #31047
 hobit paralý askeri~
 Hobit Paralý Askeri~
@@ -787,12 +552,7 @@ Bir hobit paralý askeri kaþlarýný çatmýþ bekliyor.
 Oldukça sert görünüyor, dikkatli olmalýsýn...
 ~
 human~
-AI FJ 0 0
-15 0 3d9+208 5d5+100 2d6+3 pound
--2 -2 -2 6
-CDF 0 0 0
-stand stand male 1000
-0 0 medium 0
+AI FJ 15
 #31048
 çora paralý askeri~
 Çora Paralý Askeri~
@@ -801,12 +561,7 @@ Bir çora paralý askeri kaþlarýný çatmýþ bekliyor.
 Oldukça sert görünüyor, dikkatli olmalýsýn...
 ~
 çora~
-AI DJ 0 0
-20 0 3d9+333 5d5+1000 2d8+5 pound
--4 -4 -4 5
-F 0 0 0
-stand stand male 1000
-0 0 medium 0
+AI DJ 20
 #31049
 cüce paralý askeri~
 Cüce Paralý Askeri~
@@ -815,12 +570,7 @@ Bir cüce paralý askeri kaþlarýný çatmýþ bekliyor.
 Oldukça sert görünüyor, dikkatli olmalýsýn...
 ~
 dwarf~
-AI JN 0 0
-25 0 5d10+550 5d5+1000 2d10+7 pound
--7 -7 -7 4
-DF 0 0 0
-stand stand male 1000
-0 0 medium 0
+AI JN 25
 #31050
 asura paralý askeri~
 Asura Paralý Askeri~
@@ -829,12 +579,7 @@ Bir asura paralý askeri kaþlarýný çatmýþ bekliyor.
 Oldukça sert görünüyor, dikkatli olmalýsýn...
 ~
 asura~
-AI JN 0 0
-30 0 6d12+853 5d5+1000 4d6+8 pound
--9 -9 -9 3
-CDEF 0 0 0
-stand stand male 1000
-0 0 medium 0
+AI JN 30
 #31051
 dev paralý askeri~
 Dev Paralý Askeri~
@@ -843,12 +588,7 @@ Bir dev paralý askeri kaþlarýný çatmýþ bekliyor.
 Oldukça sert görünüyor, dikkatli olmalýsýn...
 ~
 giant~
-AI N 0 0
-35 0 10d10+1300 5d5+1000 4d7+11 charge
--11 -11 -11 3
-CDEF 0 0 0
-stand stand male 1000
-0 0 medium 0
+AI N 35
 #31052
 yarý-ejderha paralý askeri~
 Yarý-ejderha Paralý Askeri~
@@ -857,12 +597,7 @@ Bir yarý-ejderha paralý askeri kaþlarýný çatmýþ bekliyor.
 Oldukça sert görünüyor, dikkatli olmalýsýn...
 ~
 dragon~
-AI DFJT 0 0
-40 0 15d10+1850 5d5+1000 4d8+13 claw
--13 -13 -13 3
-CDEF 0 0 0
-stand stand male 1000
-0 0 medium 0
+AI DFJT 40
 #31053
 salvatore~
 Salvatore~
@@ -873,12 +608,7 @@ goes on to tell you that you can have anything you want, as long as it's
 deep-fried. That includes the pizza...
 ~
 human~
-AG HJN 1000 0
-60 0 50d10+13500 5d5+5000 13d9+50 pound
--50 -50 -50 -13
-FHKN AB 0 0
-stand stand male 1000
-0 0 medium 0
+AG HJN 60
 #31054
 þehir muhafýzý~
 Þehir Muhafýzý~
@@ -889,12 +619,7 @@ continent. Dedicated, loyal, efficient, he is the epitome of Truth, Justice
 and the Anon Way :).
 ~
 human~
-ABG CN 1000 0
-50 0 50d10+4250 5d5+5000 5d8+19 pound
--20 -20 -20 0
-CDEF 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG CN 50
 #31055
 kafe sahip tarey~
 Tarey~
@@ -906,12 +631,7 @@ isn't saying much as it is the ONLY place that serves Cafe-style food in
 all of Anon...
 ~
 human~
-ABG HJN 1000 0
-60 0 50d10+13500 5d5+5000 13d9+50 pound
--50 -50 -50 -13
-FHKN 0 0 0
-stand stand female 1000
-0 0 medium 0
+ABG HJN 60
 #31056
 menrabbazoh bilge~
 Menrabbazoh~
@@ -922,12 +642,7 @@ currently living outside the city of Tentchenanwhan, far beneath the surface
 of Anon.
 ~
 human~
-ABG CDEFHJN -400 0
-10 0  2d7+121 5d5+100 2d4+2 pound
-1 1 1 7
-0 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG CDEFHJN 10
 #31057
 aliks~
 Aliks~
@@ -937,12 +652,7 @@ Alix smiles and asks you to tell him the name of the item you wish to be
 rid of.
 ~
 human~
-ABG CDEFHJN 1000 0
-60 0 50d10+13500 5d5+5000 13d9+50 pound
--50 -50 -50 -13
-FHKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG CDEFHJN 60
 #31058
 kýleya~
 Kýleya~
@@ -952,12 +662,7 @@ Clea smiles languidly and asks you to hand over the stave that needs
 recharging, chuckling at her deliberate innuendo as she does.
 ~
 human~
-ABG CDEFHJN 1000 0
-65 0 50d10+13500 5d5+5000 13d9+50 pound
--50 -50 -50 -13
-FHKN 0 0 0
-stand stand female 1000
-0 0 medium 0
+ABG CDEFHJN 65
 #31059
 sahaf zanafas~
 Zanafas~
@@ -968,12 +673,7 @@ history, social structure and legends of the many races of Anon. He is more
 than willing to sell you a book.
 ~
 human~
-ABG DH 1000 0
-55 0 50d10+13500 5d5+5000 13d9+50 pound
--50 -50 -50 -13
-F 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG DH 55
 #31060
 çilingir dývart~
 Dývart~
@@ -984,12 +684,7 @@ surprisingly dextrous. He also purchases keys off of players. Try selling
 him one!
 ~
 human~
-AG DH 1000 0
-63 0 50d10+13500 5d5+5000 13d9+50 pound
--50 -50 -50 -13
-F 0 0 0
-stand stand male 1000
-0 0 medium 0
+AG DH 63
 #31061
 güç artýrýcý thom~
 Thom~
@@ -999,12 +694,7 @@ Thom will assist you in enhancing your stats. Simply type enhance <stat>
 to do so. Type HELP ENHANCE for assistance.
 ~
 human~
-ABGJ H 0 0
-60 0 50d10+13500 5d5+5000 13d9+50 pound
--50 -50 -50 -13
-F 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABGJ H 60
 #31062
 tüccar parlas~
 Parlas~
@@ -1015,12 +705,7 @@ extremely agitated because a swamp spirit has stolen his gem. Perhaps you
 can retrieve it for him?
 ~
 human~
-ABG H 0 0
-6 0 2d7+71 5d5+100 1d7+1 punch
-4 4 4 8
-0 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG H 6
 #0
 
 #OBJECTS
