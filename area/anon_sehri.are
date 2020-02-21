@@ -3719,7 +3719,7 @@ Elven Guild, and beyond that loom the cyclopean city walls.
 ~
 0 0 1
 D0
-Elf Loncasý~
+Çora Loncasý~
 ~
 0 -1 31058
 D2
@@ -3728,7 +3728,7 @@ Corner of Honor Avenue and Barýþ Caddesi~
 0 -1 31051
 S
 #31058
-Elf Loncasý~
+Çora Loncasý~
 You are standing in the forecourt of the tower which holds the chambers of
 the Elven Guild. Here, practitioners of the magic of the Elves come to
 advance their knowledge of their art. Upstairs lie the offices of the Guild,
@@ -3744,7 +3744,7 @@ Lonca Ofisleri~
 ~
 0 -1 31059
 D5
-Elf Barý~
+Çora Barý~
 ~
 0 -1 31061
 S
@@ -3762,12 +3762,12 @@ Lonca Efendisinin Ofisi~
 ~
 0 -1 31060
 D5
-Elf Loncasý~
+Çora Loncasý~
 ~
 0 -1 31058
 S
 #31060
-Elf Loncasý Efendisinin Ofisi~
+Çora Loncasý Efendisinin Ofisi~
 This spacious office is lined on every wall by tall bookcases crammed with
 books on magic and mystical lore, as well as treatises on history, science
 mathematics, philosophy and alchemy. The Guildmaster himself sits behind
@@ -3782,7 +3782,7 @@ Lonca Ofisleri~
 0 -1 31059
 S
 #31061
-Elf Barý~
+Çora Barý~
 Elves are notorious drinkers, mainly due to the fact that their power relies
 solely on mana, and the best way to rapidly regain mana is to be rip-roaring
 drunk. Thus it is extremely rare to see an active adventuring Çora remotely
@@ -3790,7 +3790,7 @@ sober.
 ~
 0 8 0
 D4
-Elf Loncasý~
+Çora Loncasý~
 ~
 0 -1 31058
 S

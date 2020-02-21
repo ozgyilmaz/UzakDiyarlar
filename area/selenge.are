@@ -3675,7 +3675,7 @@ tabela~
 Tabelada þöyle yazýyor:
 Garson taradýndan ücretsiz olarak saðlanan talimatlar:
 
-   Alýþ  - Garsondan (içecek) birþey alýr.
+   SATINAL  - Garsondan (içecek) birþey alýr.
    Liste - Garson size tüm içecekleri ve spesyaliteleri gösterir
 	   ve her birinin ücretini belrtir.
 ~
@@ -3783,7 +3783,7 @@ tabela~
 Tabelada þöyle yazýyor:
 Hýrýldayan Ayý Haný taradýndan ücretsiz olarak saðlanan talimatlar:
 
-   Alýþ  - Garsondan (içecek) birþey alýr.
+   Satýnal  - Garsondan (içecek) birþey alýr.
    Liste - Garson size tüm içecekleri ve spesyaliteleri gösterir
 	   ve her birinin ücretini belrtir.
 ~
@@ -3816,7 +3816,7 @@ E
 tabela~
 Dükkan tarafýndan ücretsiz olarak verilen liste:
 
-   Alýþ  - Ekmek ya da unlu mamuller alýr.
+   Satýnal  - Ekmek ya da unlu mamuller alýr.
    Liste - Fýrýncý size nazikçe tüm mamülleri ve ücretlerini sýralar.
 ~
 E
@@ -3841,7 +3841,7 @@ not~
 Notta þunlar yazýyor:
 
   Liste - Dükkanda ne çeþit çesit þeylerin satýldýðýný gösterir.
-  Alýþ  - Bir eþya satýn alýr.
+  Satýnal  - Bir eþya satýn alýr.
   Deðer - Dükkan sahibi sizin satmak istediðiniz þeylere ne kadar ödeyeceðini
           söyler (ücretsiz hizmetimizdir).
   Satýþ - Bir eþyayý satar.
@@ -3864,7 +3864,7 @@ not~
 Notta þunlar yazýyor:
 
   Liste - Dükkanda ne çeþit çesit þeylerin satýldýðýný gösterir.
-  Alýþ  - Bir eþya satýn alýr.
+  Satýnal  - Bir eþya satýn alýr.
   Deðer - Dükkan sahibi size satmak istediðiniz þeylere ne kadar ödeyeceðini
           söyler (ücretsiz hizmetimizdir).
   Satýþ - Bir eþyayý satar.
@@ -3955,9 +3955,9 @@ Ana caddeyi görüyorsun.
 S
 #3015
 Ana Cadde~
-Þehrin ortasýndan geçen Ana Caddedesin. Kuzeyde bakkalý, güneyde mücevher
-dükkaný bulunuyor. Batýda pazar yerini görebiliyorsun, cadde doðu ve batý
-yönlerinde uzanýyor.
+Þehrin ortasýndan geçen Ana Caddedesin. Kuzeyde kutsal tapýnak, güneyde de
+mücevher dükkaný bulunuyor. Batýda pazar yerini görebiliyorsun, cadde doðu
+ve batý yönlerinde uzanýyor.
 ~
 0 0 1
 D0
@@ -4082,7 +4082,7 @@ not resim~
 Notta þunlar yazýyor:
 
   Liste - Dükkanýn envanter listesini verir.
-  Alýþ  - Bir eþya satýn alýr.
+  Satýnal  - Bir eþya satýn alýr.
   Deðer - Dükkan sahibi size satmak istediðiniz þeylere ne kadar ödeyeceðini
           söyler (ücretsiz hizmetimizdir ve rakamlar tatminkardýr).
   Satýþ - Bir eþyayý satar.
@@ -4392,7 +4392,7 @@ iþaret~
 Altýn harflerle þunlar yazýlý:-
 
   Liste - Dükkanda satýlanlarý gösterir.
-  Alýþ  - Bir eþya satýn alýr.
+  Satýnal  - Bir eþya satýn alýr.
   Satýþ - Bir eþyayý satar.
   Deðer - Mücevherci satmak istediðiniz þeylere deðer biçer.
 ~
@@ -4423,7 +4423,7 @@ iþaret~
 Ahþap tabelada þunlar yazýyor :-
 
   Liste - Dükkanda satýlanlarý gösterir.
-  Alýþ  - Bir eþya satýn alýr.
+  Satýnal  - Bir eþya satýn alýr.
   Satýþ - Bir eþyayý satar.
   Deðer - Derici satmak istediðiniz þeylere deðer biçer.
 ~

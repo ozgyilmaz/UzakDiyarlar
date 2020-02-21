@@ -17,9 +17,9 @@ köpek doberman~
 bir doberman~
 Büyükçe bir köpek burada, vadide geziniyor.
 ~
-A beast is the size of the largest common dog.  It has a greenish coat with
-brown spots.  Its shape, along with its colors, make this cooshee almost
-undetectable as it moves.
+Bu doberman neredeyse gördüðün en büyük köpek olabilir. Kahverengi lekeli,
+yeþilimsi bir ceketi var. Þekli, renkleri ile birlikte, bu dobermaný hareket
+ettikçe neredeyse farkedilemez hale getiriyor.
 ~
 dog~
 AGH P 5
@@ -28,10 +28,10 @@ vadi çorasý~
 bir vadi çorasý~
 Bir vadi çorasý senin varlýðýn yüzünden ihtiyatla etrafta geziniyor.
 ~
-This çora is almost as tall as you are, but much slimmer and agile.  You see
-hatred in his eyes, and you try to avoid his stare.  His tense body looks ready
-to spring upon you, like a mountain lion stalking its prey.  He sees you
-noticing him, and quietly disappears.
+Bu çora neredeyse senin kadar uzun, ama çok daha ince ve çevik.
+Gözlerindeki nefreti görüp ve bakýþlarýndan kaçýnmaya çalýþýyorsun.
+Gergin vücudu avýný takip eden bir dað aslaný gibi sana saldýrmaya hazýr
+görünüyor. Onu fark ettiðini görüyor ve sessizce kayboluyor.
 ~
 çora~
 ACFGH P 8
@@ -40,8 +40,8 @@ vadi çorasý~
 bir vadi çorasý~
 Diþi bir vadi çorasý, uzun çimenler arasýnda dans edercesine etrafta dolaþýyor.
 ~
-This çora is almost as tall as you are, but much slimmer and more agile.
-She glares at you, then quickly disappears before you see more of her.
+Bu çora neredeyse senin kadar uzun, ama çok daha ince ve çevik.
+Sana dik dik bakýyor ve onu daha fazla göremeden çabucak kayboluyor.
 ~
 çora~
 ACFGH P 8
@@ -50,8 +50,8 @@ nöbet tutan vadi çorasý nöbetçi~
 nöbet tutan bir vadi çorasý~
 Burada nöbet tutan bir vadi çorasý seni fark eder etmez hýzlýca saldýrýyor!
 ~
-This çora is almost as tall as you are, but much slimmer and more agile.
-He glares at your intrusion and attacks with menace.
+Bu çora neredeyse senin kadar uzun, ama çok daha ince ve çevik.
+Sana tehditkar bir þekilde saldýrýyor!
 ~
 çora~
 ABF P 7
@@ -60,8 +60,8 @@ nöbet tutan vadi çorasý nöbetçi~
 nöbet tutan bir vadi çorasý~
 Burada nöbet tutan bir vadi çorasý seni fark eder etmez hýzlýca saldýrýyor!
 ~
-This çora is almost as tall as you are, but much slimmer and more agile.
-She glares at your intrusion and attacks with menace.
+Bu çora neredeyse senin kadar uzun, ama çok daha ince ve çevik.
+Sana tehditkar bir þekilde saldýrýyor!
 ~
 çora~
 ABF P 7
@@ -70,7 +70,7 @@ gözcülük yapan vadi çorasý~
 gözcülük yapan bir vadi çorasý~
 Gözcülük yapan bir vadi çorasý, senin gibi davetsiz konuklarýn izini sürüyor!
 ~
-The çora notices your intrusion and attacks with determination.
+Davetsiz giriþin üzerine sana kendinden emin bir þekilde saldýrýyor!
 ~
 çora~
 ACFG P 6
@@ -79,8 +79,8 @@ vadi çorasý~
 bir vadi çorasý~
 Bir vadi çorasý burada kendi iþleriyle uðraþýyor.
 ~
-She is currently doing some menial chores, and ignores your intrusion except
-when you are in her way.
+Þu anda bazý angarya iþler yapýyor ve onun yolunda olduðunuz zamanlar haricinde
+burada davetsiz olmanýzý görmezden geliyor.
 ~
 çora~
 AGH P 6
@@ -90,8 +90,8 @@ ihtiyar bir vadi çorasý~
 Ýhtiyar bir vadi çorasý burada çalýþýrken seni fark ediyor.
 Ýhtiyar bir vadi çorasý baðýrýyor 'Buraya izinsiz girdin.  Ölmeye hazýrlan!'
 ~
-This çora looks quite old, probably twenty or more times your age.  He looks
-quite potent, though.
+Bu çora oldukça yaþlý görünüyor, senin yaþýnýn belki de yirmi katý.
+Yaþýna raðmen oldukça güçlü duruyor.
 ~
 çora~
 ABCFQ HN 15
@@ -101,8 +101,8 @@ ihtiyar bir vadi çorasý~
 Ýhtiyar bir vadi çorasý burada çalýþýrken seni fark ediyor.
 Ýhtiyar bir vadi çorasý þöyle söylüyor 'Seni yolun sonuna getiren, küstahlýðýndýr.'
 ~
-This çora looks quite old, probably twenty or more times your age.  She looks
-quite potent, though.
+Bu çora oldukça yaþlý görünüyor, senin yaþýnýn belki de yirmi katý.
+Yaþýna raðmen oldukça güçlü duruyor.
 ~
 çora~
 ABCFR N 15
@@ -111,8 +111,8 @@ ateþ hidrasý~
 ateþ hidrasý~
 Her biri ateþ püskürten bir çok baþý olan büyük yaratýk, garezle sana bakýyor.
 ~
-This big beast looks like a small red dragon, but has many more heads than a
-regular dragon, too.  It doesn't look happy.
+Bu büyük canavar küçük bir kýrmýzý ejderhaya benziyor, ancak normal bir ejderhadan
+çok daha fazla baþý var. Pek mutlu durmuyor.
 ~
 human~
 ABF 0 20
@@ -121,7 +121,7 @@ keþiþ adam yaþlý~
 yaþlý bir keþiþ~
 Yaþlý bir keþiþ burada oturmuþ çubuk tüttürüyor.
 ~
-He looks old and feeble.
+Yaþlý ve zayýf görünüyor.
 ~
 human~
 ABCH 0 3
@@ -130,7 +130,7 @@ büyücü talemon~
 Talemon~
 Yaþlý bir büyücü bir takým kimyasallarla meþgul.
 ~
-Talemon looks harmless, but the fireballs he throws at you don't.
+Talemon zararsýz görünüyor, ama sana fýrlattýðý ateþ toplarý için aynýsý denemez.
 ~
 human~
 ABCFR 0 25
@@ -139,8 +139,7 @@ muhafýz cin~
 muhafýz cin~
 Devasa bir cin burada hazineyi gözetip koruyor.
 ~
-This daemon is unhappy with its summoned job, and is willing to take out it's
-anger at you!
+Bu cin çaðrýldýðý iþinden memnun deðil ve öfkesini senden çýkarmaya hazýr!
 ~
 human~
 ABF 0 25
@@ -149,7 +148,7 @@ kurt~
 bir kurt~
 Bir kurt görüyorsun, sessizce izliyor.
 ~
-The wolf is covered with brown hair.  It looks at you with fright.
+Kurt kahverengi saçlý. Korku ile sana bakýyor.
 ~
 wolf~
 AFH 0 4
@@ -158,8 +157,8 @@ antilop~
 bir antilop~
 Bir antilop burada, özgürce çimlerde otluyor.
 ~
-With horns and spots over coarse, brown hair, this beast is the spit and
-image of ... an antelope.
+Kaba, kahverengi saçlar üzerinde boynuzlarý ve lekeleri olan bu canavar,
+kesinlikle bir antilop.
 ~
 human~
 AH 0 6
@@ -382,18 +381,17 @@ A
 #ROOMS
 #7800
 Düzlüklerden uzanan bir Patika~
-You are on a path away from the Plains of Ofcol.  The path doesn't look well
-tread, but it is relatively well kept.  To the south are the Plains of Ofcol,
-while this path leads north.
+Ofcol'dan uzak bir yoldasýn. Yol iyi görünmüyor, ancak nispeten iyi korunuyor.
+Güneyinde Ofcol bulunan bu yol kuzeye doðru uzanmakta.
 ~
 0 0 2
 D0
-The path continues north.
+Yol kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7801
 D2
-You see the Plains of Ofcol.
+Ofcol'u görüyorsun.
 ~
 ~
 0 0 323
@@ -404,1008 +402,1010 @@ D3
 S
 #7801
 Patika~
-You are on the path away from the Plains of Ofcol.  The main path leads north
-to an overlook and south back toward the Plains of Ofcol.  Western and eastern
-side paths can be seen, probably deer trails by the width of them.
+Ofcoldan uzak bir yoldasýn. Ana yol kuzeyde bir tepeye, güney ise Ofcol'a
+doðru gitmekte. Batý ve doðuda yan yollar görünüyor, geniþliðine bakýlýrsa
+bir geyik patikasý.
 ~
 0 0 2
 D0
-You see the overlook.
+Tepeyi görüyorsun.
 ~
 ~
 0 0 7804
 D1
-You see the small trail.
+Küçük Patikayý görüyorsun.
+
 ~
 ~
 0 0 7803
 D2
-You see the path back toward Ofcol.
+Ofcol'a giden yolu görüyorsun.
 ~
 ~
 0 0 7800
 D3
-You see the small trail.
+Küçük Patikayý görüyorsun.
+
 ~
 ~
 0 0 7802
 S
 #7802
 Dar bir Patika~
-This small deer trail leads north and east.
+Bu küçük geyik patikasý kuzeye ve doðuya doðru uzanýyor.
 ~
 0 0 2
 D0
-The trail continues north.
+Patika kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7867
 D1
-The main path is to the east.
+Ana yol doðuya doðru.
 ~
 ~
 0 0 7801
 S
 #7803
 Dar bir Patika~
-This small deer trail leads north and west.
+Bu küçük geyik patikasý kuzeye ve batýya doðru uzanýyor.
 ~
 0 0 2
 D0
-The trail continues north.
+Patika kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7849
 D3
-The main path is to the west.
+Ana yol batýya doðru.
 ~
 ~
 0 0 7801
 S
 #7804
 Tepeden bakýþ~
-You are above a large valley.  Below you, you see humanoid forms wandering
-around the valley.  Rich green grass covers the valley, with some small trees
-dotting the landscape.  To the south is the trail back toward Ofcol.
+Büyük bir vadinin üzerindesin. Aþaðýda, vadinin etrafýnda dolaþan insansý
+formlar görüyorsun. Zengin yeþil çim, vadiyi kaplayan ve manzarayý süsleyen
+küçük aðaçlar var. Güneyde Ofcol'a doðru giden bir yol görüyorsun.
 ~
 0 0 2
 D2
-You see the path back toward Ofcol.
+Ofcol'a giden yolu görüyorsun.
 ~
 ~
 0 0 7801
 D5
-You see the entrance to the valley.
+Vadiye giriþi görüyorsun.
 ~
 ~
 0 0 7805
 S
 #7805
-Elf Vadisi'nin Giriþi~
-You are at the entrance to the Valley of the Elves.  Elves stare at your
-intrusion, but most are too busy to bother with you.  The valley spreads to
-the north, while enlarging toward the east and west.
+Çora Vadisi'nin Giriþi~
+Çora Vadisi'nin giriþindesin. Çoralar davetsiz giriþini farkediyor,
+ama çoðu seninle uðraþmak için çok meþgul. Vadi doðuya ve batýya doðru
+geniþlerken kuzeye yayýlýyor.
 ~
 0 0 2
 D0
-The valley continues north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7810
 D1
-The valley continues east.
+Vadi doðuya doðru devam ediyor.
 ~
 ~
 0 0 7807
 D3
-The valley continues west.
+Vadi batýya doðru devam ediyor..
 ~
 ~
 0 0 7806
 D4
-The overlook is above you.
+Yukarýda tepeyi görüyorsun.
 ~
 ~
 0 0 7804
 S
 #7806
 Vadinin Kenarý~
-You are at the edge of the Valley of the Elves.  High above you, you see a small
-trail circling the entire valley.  The valley continues north and east.
+Çora vadisinin kenarýndasýn. Yukarýda, tüm vadiyi çevreleyen küçük
+bir patika görüyorsun. Vadi kuzey ve doðuya doðru devam ediyor.
 ~
 0 0 2
 D0
-The valley continues north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7809
 D1
-The entrance to the valley is to the east.
+Doðuda vadinin giriþi var.
 ~
 ~
 0 0 7805
 S
 #7807
 Vadinin Kenarý~
-You are at the edge of the Valley of the Elves.  High above you, you see a small
-trail circling the entire valley.  The valley continues north and west.
+Çora vadisinin kenarýndasýn. Yukarýda, tüm vadiyi çevreleyen küçük
+bir patika görüyorsun. Vadi kuzey ve batýya doðru devam ediyor.
 ~
 0 0 2
 D0
-The valley continues north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7811
 D3
-The entrance to the valley is to the west.
+Batýda vadinin giriþi var.
 ~
 ~
 0 0 7805
 S
 #7808
 Vadinin Kenarý~
-You are at the edge of the Valley of the Elves.  High above you, you see a small
-trail circling the entire valley.  The valley continues north and east.
+Çora vadisinin kenarýndasýn. Yukarýda, tüm vadiyi çevreleyen küçük
+bir patika görüyorsun. Vadi kuzey ve doðuya doðru devam ediyor.
 ~
 0 0 2
 D0
-The valley continues north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7813
 D1
-The valley continues east.
+Vadi doðya doðru devam ediyor.
 ~
 ~
 0 0 7809
 S
 #7809
-Elf Vadisi~
-You are in the Valley of the Elves.  The valley continues in all directions.
+Çora Vadisi~
+Çora Vadisindesin. Vadi her yöne doðru devam ediyor.
 ~
 0 0 2
 D0
-The valley continues north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7814
 D1
-The valley continues east.
+Vadi doðuya doðru devam ediyor.
 ~
 ~
 0 0 7810
 D2
-The valley continues south.
+Vadi güneye doðru devam ediyor.
 ~
 ~
 0 0 7806
 D3
-The valley continues west.
+Vadi batýya doðru devam ediyor.
 ~
 ~
 0 0 7808
 S
 #7810
-Elf Vadisi~
-You are in the Valley of the Elves.  The valley continues in all directions.
-The entrance to the valley is towards the south.
+Çora Vadisi~
+Çora Vadisindesin. Vadi her yöne doðru devam ediyor.
 ~
 0 0 2
 D0
-The valley continues north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7815
 D1
-The valley continues east.
+Vadi doðuya doðru devam ediyor.
 ~
 ~
 0 0 7811
 D2
-You see the entrance to the valley.
+Vadinin giriþini görüyorsun.
 ~
 ~
 0 0 7805
 D3
-The valley continues west.
+Vadi batýya doðru devam ediyor.
 ~
 ~
 0 0 7809
 S
 #7811
-Elf Vadisi~
-You are in the Valley of the Elves.  The valley continues in all directions.
+Çora Vadisi~
+Çora vadisindesin. Vadi her yöne doðru devam ediyor.
 ~
 0 0 2
 D0
-The valley continues north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7816
 D1
-The valley continues east.
+Vadi doðuya doðru devam ediyor.
 ~
 ~
 0 0 7812
 D2
-The valley continues south.
+Vadi güneye doðru devam ediyor.
 ~
 ~
 0 0 7807
 D3
-The valley continues west.
+Vadi batýya doðru devam ediyor.
 ~
 ~
 0 0 7810
 S
 #7812
 Vadinin Kenarý~
-You are at the edge of the Valley of the Elves.  High above you, you see a small
-trail circling the entire valley.  The valley continues north and west.
+Çora Vadisinin kenarýndasýn. Yukarýda, tüm vadiyi çevreleyen küçük
+bir patika görüyorsun. Vadi kuzey ve batý yönünde devam ediyor.
 ~
 0 0 2
 D0
-The valley continues north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7817
 D3
-The valley continues west.
+Vadi batýya doðru devam ediyor.
 ~
 ~
 0 0 7811
 S
 #7813
 Vadinin Kenarý~
-You are at the edge of the Valley of the Elves.  A steep trail leads up toward
-the deer trail circling the valley.  The valley continues north, south, and
-east.
+Çora Vadisinin kenarýndasýn. Dik bir patika vadiyi çevreleyen geyik patikasýna
+doðru uzanýyor. Vadi kuzey, güney ve doðu yönünde devam ediyor.
 ~
 0 0 2
 D0
-The valley continues north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7818
 D1
-The valley continues east.
+Vadi doðuya doðru devam ediyor.
 ~
 ~
 0 0 7814
 D2
-The valley continues south.
+Vadi güneye doðru devam ediyor.
 ~
 ~
 0 0 7808
 D4
-The steep trail leads up.
+Dik patika yukarý doðru devam ediyor.
 ~
 ~
 0 0 7863
 S
 #7814
-Elf Vadisi~
-You are in the Valley of the Elves.  The valley continues in all directions.
+Çora Vadisi~
+Çora vadisindesin. Vadi her yöne doðru devam ediyor.
 ~
 0 0 2
 D0
-The valley continues north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7819
 D1
-The valley continues east.
+Vadi doðuya doðru devam ediyor.
 ~
 ~
 0 0 7815
 D2
-The valley continues south.
+Vadi güneye doðru devam ediyor.
 ~
 ~
 0 0 7809
 D3
-The valley continues west.
+Vadi batýya doðru devam ediyor.
 ~
 ~
 0 0 7813
 S
 #7815
-Elf Vadisi~
-You are in the Valley of the Elves.  The valley continues in all directions.
+Çora Vadisi~
+Çora vadisindesin. Vadi her yöne doðru devam ediyor.
 ~
 0 0 2
 D0
-The valley continues north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7820
 D1
-The valley continues east.
+Vadi doðuya doðru devam ediyor.
 ~
 ~
 0 0 7816
 D2
-The valley continues south.
+Vadi güneye doðru devam ediyor.
 ~
 ~
 0 0 7810
 D3
-The valley continues west.
+Vadi batýya doðru devam ediyor.
 ~
 ~
 0 0 7814
 S
 #7816
-Elf Vadisi~
-You are in the Valley of the Elves.  The valley continues in all directions.
+Çora Vadisi~
+Çora vadisindesin. Vadi her yöne doðru devam ediyor.
 ~
 0 0 2
 D0
-The valley continues north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7821
 D1
-The valley continues east.
+Vadi doðuya doðru devam ediyor.
 ~
 ~
 0 0 7817
 D2
-The valley continues south.
+Vadi güneye doðru devam ediyor.
 ~
 ~
 0 0 7811
 D3
-The valley continues west.
+Vadi batýya doðru devam ediyor.
 ~
 ~
 0 0 7815
 S
 #7817
 Vadinin Kenarý~
-You are at the edge of the Valley of the Elves.  A steep trail leads up toward
-the deer trail circling the valley.  The valley continues north, south, and
-west.
+Çora Vadisinin kenarýndasýn. Dik bir patika vadiyi çevreleyen geyik patikasýna
+doðru uzanýyor. Vadi kuzey, güney ve batý yönünde devam ediyor.
 ~
 0 0 2
 D0
-The valley continues north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7822
 D2
-The valley continues south.
+Vadi güneye doðru devam ediyor.
 ~
 ~
 0 0 7812
 D3
-The valley continues west.
+Vadi batýya doðru devam ediyor.
 ~
 ~
 0 0 7816
 D4
-The steep trail leads up.
+Dik patika yukarý doðru devam ediyor.
 ~
 ~
 0 0 7853
 S
 #7818
 Vadinin Kenarý~
-You are at the edge of the Valley of the Elves.  High above you, you see a
-small trail circling the entire valley.  The valley continues south and east.
+Çora Vadisinin kenarýndasýn. Dik bir patika vadiyi çevreleyen geyik patikasýna
+doðru uzanýyor. Vadi, güney ve doðu yönünde devam ediyor.
 ~
 0 0 2
 D1
-The valley continues east.
+Vadi doðuya doðru devam ediyor.
 ~
 ~
 0 0 7819
 D2
-The valley continues south.
+Vadi güneye doðru devam ediyor.
 ~
 ~
 0 0 7813
 S
 #7819
-Elf Vadisi~
-You are in the Valley of the Elves.  The valley continues in all directions.
+Çora Vadisi~
+Çora vadisindesin. Vadi her yöne doðru devam ediyor.
 ~
 0 0 2
 D0
-The valley continues north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7823
 D1
-The valley continues east.
+Vadi doðuya doðru devam ediyor.
 ~
 ~
 0 0 7820
 D2
-The valley continues south.
+Vadi güneye doðru devam ediyor.
 ~
 ~
 0 0 7814
 D3
-The valley continues west.
+Vadi batýya doðru devam ediyor.
 ~
 ~
 0 0 7818
 S
 #7820
-Elf Vadisi~
-You are in the Valley of the Elves.  The valley continues in all directions.
+Çora Vadisi~
+Çora vadisindesin. Vadi her yöne doðru devam ediyor.
 ~
 0 0 2
 D0
-The valley continues north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7824
 D1
-The valley continues east.
+Vadi doðuya doðru devam ediyor.
 ~
 ~
 0 0 7821
 D2
-The valley continues south.
+Vadi güneye doðru devam ediyor.
 ~
 ~
 0 0 7815
 D3
-The valley continues west.
+Vadi batýya doðru devam ediyor.
 ~
 ~
 0 0 7819
 S
 #7821
-Elf Vadisi~
-You are in the Valley of the Elves.  The valley continues in all directions.
+Çora Vadisi~
+Çora vadisindesin. Vadi her yöne doðru devam ediyor.
 ~
 0 0 2
 D0
-The valley continues north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7825
 D1
-The valley continues east.
+Vadi doðuya doðru devam ediyor.
 ~
 ~
 0 0 7822
 D2
-The valley continues south.
+Vadi güneye doðru devam ediyor.
 ~
 ~
 0 0 7816
 D3
-The valley continues west.
+Vadi batýya doðru devam ediyor.
 ~
 ~
 0 0 7820
 S
 #7822
 Vadinin Kenarý~
-You are at the edge of the Valley of the Elves.  High above you, you see a small
-trail circling the entire valley.  The valley continues south and west.
+Çora Vadisinin kenarýndasýn. Dik bir patika vadiyi çevreleyen geyik patikasýna
+doðru uzanýyor. Vadi, güney ve batý yönünde devam ediyor.
 ~
 0 0 2
 D2
-The valley continues south.
+Vadi güneye doðru devam ediyor.
 ~
 ~
 0 0 7817
 D3
-The valley continues west.
+Vadi batýya doðru devam ediyor.
 ~
 ~
 0 0 7821
 S
 #7823
 Vadinin Kenarý~
-You are at the edge of the Valley of the Elves.  High above you, you see a small
-trail circling the entire valley.  The valley continues south and east.
+Çora Vadisinin kenarýndasýn. Dik bir patika vadiyi çevreleyen geyik patikasýna
+doðru uzanýyor. Vadi, güney ve doðu yönünde devam ediyor.
 ~
 0 0 2
 D1
-The valley continues east.
+Vadi doðuya doðru devam ediyor.
 ~
 ~
 0 0 7824
 D2
-The valley continues south
+Vadi güneye doðru devam ediyor.
 ~
 ~
 0 0 7819
 S
 #7824
 Vadinin Kenarý~
-You are in the Valley of the Elves.  The valley continues in all directions.
-To the north, a small, narrow trail leads away from the valley.
+Çora vadisindesin. Vadi her yöne doðru devam ediyor.
+Kuzeyde küçük, vadiden uzaklaþan dar bir patika var.
 ~
 0 0 2
 D0
-A small trail leads away from the valley.
+Küçük bir patika vadiden uzaklaþýyor.
 ~
 ~
 0 0 7826
 D1
-The valley continues east.
+Vadi doðuya doðru devam ediyor.
 ~
 ~
 0 0 7825
 D2
-The valley continues south.
+Vadi güneye doðru devam ediyor.
 ~
 ~
 0 0 7820
 D3
-The valley continues west.
+Vadi batýya doðru devam ediyor.
 ~
 ~
 0 0 7823
 S
 #7825
 Vadinin Kenarý~
-You are at the edge of the Valley of the Elves.  High above you, you see a small
-trail circling the entire valley.  The valley continues south and west.
+Çora Vadisinin kenarýndasýn. tüm vadiyi çevreleyen küçük bir patika görüyorsun.
+Vadi güneye ve batýya doðru devam ediyor.
 ~
 0 0 2
 D2
-The valley continues south.
+Vadi güneye doðru devam ediyor.
 ~
 ~
 0 0 7821
 D3
-The valley continues west.
+Vadi batýya doðru devam ediyor.
 ~
 ~
 0 0 7824
 S
 #7826
 Vadinin dýþýna uzanan bir Patika~
-You are on a narrow trail leading away from the Valley of the Elves.  This
-trail leads north and south.  A rope ladder leads up to a rope bridge.
+Çora Vadisinden uzaklaþan dar bir patika üzerindesin.
+Bu patika kuzeye ve güneye gidiyor. Örme bir merdiven bir örme köprüye uzanýyor.
 ~
 0 0 2
 D0
-The trail continues north.
+Patika kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7827
 D2
-The trail leads back to the valley.
+Patika vadiye doðru uzanýyor.
 ~
 ~
 0 0 7824
 D4
-You see the rope bridge above you.
+Yukarýda örme köprüyü görüyorsun.
 ~
 ~
 0 0 7858
 S
 #7827
 Patika~
-You are on the trail away from the Valley of the Elves.  The hills around you
-keep this trail narrow.  The trail continues east, south, west and north.
-You see the the field beyond the north trail.
+Çora Vadisinden uzaklaþan bir patikadasýn. Çevrendeki tepeler patikayý
+daraltýyor. Patika doðu, güney, batý ve kuzeye doðru devam ediyor.
+Kuzeye doðru bir tarla görüyorsun.
 ~
 0 0 2
 D0
-The Path of Arcadia.
+Arcadia Yolu.
 ~
 ~
 0 0 12018
 D1
-The trail continues east.
+Patika doðuya doðru devam ediyor.
 ~
 ~
 0 0 7828
 D2
-The trail continues south back toward the valley.
+Patika güneye doðru vadiye uzanýyor.
 ~
 ~
 0 0 7826
 D3
-The trail continues west.
+Patika batýya doðru devam ediyor.
 ~
 ~
 0 0 7868
 S
 #7828
 Patikada bir dönemeç~
-You are on the trail away from the Valley of the Elves.  The hills around you
-keep this trail narrow.  The trail continues north and back west.
+Çora Vadisinden uzaklaþan bir patikadasýn. Çevrendeki tepeler patikayý
+daraltýyor. Patika batý ve kuzeye doðru devam ediyor.
 ~
 0 0 2
 D0
-You see a small valley north.
+Kuzeyde küçük bir vadi görüyorsun.
 ~
 ~
 0 0 7829
 D3
-The trail goes back to the west.
+Patika batýya doðru uzanýyor.
 ~
 ~
 0 0 7827
 S
 #7829
 Daha küçük bir Vadi~
-You are in another valley within these hills. To the north, you can see a
-building, and to the south you see the trail away from this valley.  The
-west and east paths surround this building.
+Bu tepelerin içindeki baþka bir vadide bulunuyorsun. Kuzeyde bir bina var ve
+güneyde bu vadiden uzaklaþan bir yol görüyorsun. Batý ve doðu yollarý bu binayý
+çevrelemekte.
 ~
 0 0 2
 D0
-You see the building.
+Binayý görüyorsun.
 ~
 door~
 1 -1 7834
 D1
-You see the trail around the building.
+Binanýn etrafýndaki Patikayý görüyorsun.
+
 ~
 ~
 0 0 7831
 D2
-You see the trail leading away from this valley.
+Vadiden uzaklaþan Patikayý görüyorsun.
+
 ~
 ~
 0 0 7828
 D3
-You see the trail around the building.
+Binanýn etrafýndaki Patikayý görüyorsun.
+
 ~
 ~
 0 0 7830
 S
 #7830
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads north and
-east.  To the north-east is a building.
+Çora Vadisinde bir patikadasýn. Bu patika kuzeye ve doðuya doðru gidiyor.
+Kuzeydoðuda bir bina görüyorsun.
 ~
 0 0 2
 D0
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7832
 D1
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7829
 S
 #7831
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads west and
-east.  To the north is a building.
+Çora Vadisinde bir patikadasýn. Bu patika batýya ve doðuya doðru gidiyor.
+Kuzeybatýda bir bina görüyorsun.
 ~
 0 0 2
 D1
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7833
 D3
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7829
 S
 #7832
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads north and
-south.  To the east is a building.
+Çora Vadisinde bir patikadasýn. Bu patika kuzeye ve güneye doðru gidiyor.
+Doðuda bir bina görüyorsun.
 ~
 0 0 2
 D0
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7837
 D2
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7830
 S
 #7833
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads north and
-west.  To the north-west is a building.
+Çora Vadisinde bir patikadasýn. Bu patika kuzeye ve batýya gidiyor.
+Kuzeybatýda bir bina görüyorsun.
 ~
 0 0 2
 D0
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7836
 D3
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7831
 S
 #7834
-Elf Yuvasý~
-You are in the home of the valley elves.  The building continues to the north
-and the east, and the exit is to the south.
+Çora Yuvasý~
+Vadi çoralarýnýn evindesin. Bina kuzeye ve doðuya devam ediyor.
+Güneye doðru bir çýkýþ var.
 ~
 0 D 0
 D0
-The building continues to the north.
+Bina kuzeye devam ediyor.
 ~
 ~
 0 0 7838
 D1
-The building continues to the east.
+Bina doðuya devam ediyor.
 ~
 ~
 0 0 7835
 D2
-The exit is to the south.
+Güneyde bir çýkýþ görüyorsun.
 ~
 door~
 1 -1 7829
 S
 #7835
 Mutfak~
-You are in a community kitchen for this valley çora home.  Pots and pans line
-the walls, along with shelves filled with many foodstuffs.  A big oven is to one
-side, and you can smell çoracakes being baked.
-There is a doorway to the north and one to the west.
+Vadi çoralarýnýn halk mutfaðýndasýn. Duvarlara sýralanmýþ tencere ve tavalar,
+yiyecek dolu raflar görüyorsun. Bir kenarda ise büyükce bir fýrýn bulunuyor,
+piþmiþ çorabiyelerin kokusunu alýyorsun. Kuzeyde ve batýda kapýlar bulunuyor.
 ~
 0 D 0
 D0
-The building continues to the north.
+Bina kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7839
 D3
-The building continues to the west.
+Bina batýya doðru devam ediyor.
 ~
 ~
 0 0 7834
 S
 #7836
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads north and
-south.  To the west is a building.
+Çora Vadisinde bir patikadasýn. Bu patika kuzeye ve güneye doðru devam ediyor.
+Batýda bir bina görüyorsun.
 ~
 0 0 2
 D0
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7840
 D2
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7833
 S
 #7837
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads north and
-south.  To the east is a building.
+Çora Vadisinde bir patikadasýn. Bu patika kuzeye ve güneye doðru devam ediyor.
+Doðuda bir bina görüyorsun.
 ~
 0 0 2
 D0
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7841
 D2
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7832
 S
 #7838
 Salon~
-You are in the living room of the çora home.  Mats cover the floor, and a
-on a table is a bowl full of fruits.  Through the window you can see the
-valley, with its wild flowers and tall, green grasses.
+Çora evinin oturma odasýndasýn. Zemin halýlar ile kaplý ve bir masa üzerinde
+meyve dolu bir kase görüyorsun. Pencereden kýr çiçeklerini ve uzun, yeþil
+otlarýyla vadiyi izliyorsun.
 ~
 0 D 0
 D1
-The building continues to the east.
+Bina doðuya doðru devam ediyor.
 ~
 ~
 0 0 7839
 D2
-The entrance is to the south.
+Bina güneye doðru devam ediyor.
 ~
 ~
 0 0 7834
 S
 #7839
 Depo~
-You are in the storage room of the çora home.  Sacks of flour cover one side,
-and cleaning accessories cover the other side.  You find nothing of use here.
-A staircase leads up.
+Çora evinin deposundasýn. Odanýn bir tarafý un çuvallarý ve diðer tarafý ve
+temizlik malzemeleri ile kaplý. Burada ilgini çeken hiçbir þey bulamýyorsun.
+Bir merdiven yukarý uzanýyor.
 ~
 0 D 0
 D2
-The building continues to the south.
+Bina güneye doðru devam ediyor.
 ~
 ~
 0 0 7835
 D3
-The building continues to the west.
+Bina batýya doðru devam ediyor.
 ~
 ~
 0 0 7838
 D4
-You see the second floor.
+Ýkinci katý görüyorsun.
 ~
 ~
 0 0 7848
 S
 #7840
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads north and
-south.  To the west is a building.
+Çora Vadisinde bir patikadasýn. Bu patika kuzeye ve güneye doðru gidiyor.
+Batýda bir bina görüyorsun.
 ~
 0 0 2
 D0
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7844
 D2
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7836
 S
 #7841
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads south and
-east.  To the south-east is a building.
+Çora Vadisinde bir patikadasýn. Bu patika doðuya ve güneye doðru gidiyor.
+Güneydoðuda bir bina görüyorsun.
 ~
 0 0 2
 D1
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7842
 D2
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7837
 S
 #7842
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads west and
-east.  To the south is a building.
+Çora Vadisinde bir patikadasýn. Bu patika batýya ve doðuya doðru gidiyor.
+Güneyde bir bina görüyorsun.
 ~
 0 0 2
 D1
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7843
 D3
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7841
 S
 #7843
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads east and
-west.  To the south is a building.
+Çora Vadisinde bir patikadasýn.  Bu patika doðuya ve batýya doðru gidiyor.
+Güneyde bir bina görüyorsun.
 ~
 0 0 2
 D1
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7844
 D3
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7842
 S
 #7844
 Vadideki bir Patika~
-You are on the trail in the Valley of the Elves.  This trail leads south and
-west.  To the south-west is a building.
+Çora Vadisinde bir patikadasýn.  Bu patika güneye ve batýya doðru gidiyor.
+Güneydoðuda bir bina görüyorsun.
 ~
 0 0 2
 D2
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7840
 D3
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7843
 S
 #7845
 Ýhtiyarlar Odasý~
-You are in the room of the valley çora elders.  Books written in strange
-languages line the numerous shelves, and scrolls cover a table.  There is a
-smooth spheric object in the center of the room.
+Vadi çorasý ihtiyarlarýnýn odasýndasýn. Garip dillerde yazýlmýþ kitaplarla
+dolu bir raf ve parþömenlerle kaplý bir masa görüyorsun. Odanýn merkezinde
+pürüzsüz bir küresel nesne var.
 ~
 0 D 0
 D0
-You see another room.
+Baþka bir oda görüyorsun.
 ~
 door~
 1 -1 7847
 D1
-You see another room.
+Baþka bir oda görüyorsun.
 ~
 door~
 1 7804 7846
 S
 #7846
 Depo~
-You are in a storage room.  Many useless (to you) items fill this room.
+Bir depolama odasýndasýn.
+Birçok önemsiz (senin için) eþya bu odayý dolduruyor.
 ~
 0 D 0
 D0
-You see another room.
+Baþka bir oda görüyorsun.
 ~
 door~
 1 7804 7848
 D3
-You see another room.
+Baþka bir oda görüyorsun.
 ~
 door~
 1 7804 7845
 S
 #7847
 Dinlenme Bölmeleri~
-You are in the sleeping quarters of the valley elves.  Cots line the floor,
-with two windows showing a view of the valley.  Books in strange languages
-line the shelves, but nothing of interest is here.
+Vadi çoralarýnýn dinlenme bölmelerindesin. Yerlerde bebek karyolalarý sýralý,
+vadiyi manzara alan iki pencere görüyorsun. Raflarda tuhaf dillerde kitaplar
+sýralý ancak ilgi çekici bir þey var gibi durmuyor.
 ~
 0 D 0
 D1
-You see another room.
+Baþka bir oda görüyorsun.
 ~
 door~
 1 -1 7848
 D2
-You see another room.
+Baþka bir oda görüyorsun.
 ~
 door~
 1 -1 7845
 S
 #7848
 Çalýþma Odasý~
-You are in the study room of the valley elves.  Comfortable mats are on the
-floor, and musical instruments are neatly stacked on shelves.  Books in
-strange languages line some other elves.  A stairway leads down to the
-first floor.
+Vadi elflerinin çalýþma odasýndasýn. Yerde konforlu halýlar ve raflara düzgün
+bir þekilde yerleþtirilmiþ müzik aletleri dikkatini çekiyor. Garip dillerde
+yazýlmýþ kitaplar bazý çoralarý sýraya sokuyor.
+Birinci kata inen bir merdiven görüyorsun.
 ~
 0 D 0
 D2
-You see another room.
+Baþka bir oda görüyorsun.
 ~
 door~
 1 7804 7846
 D3
-You see another room.
+Baþka bir oda görüyorsun.
 ~
 door~
 1 -1 7847
 D5
-You see the first floor.
+Birinci katý görüyorsun.
 ~
 ~
 0 0 7839
 S
 #7849
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Çora vadisinin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun.
 ~
 0 0 2
 D1
@@ -1417,15 +1417,15 @@ D2
 ~
 0 0 7803
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7850
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Çora vadisinin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun.
 ~
 0 0 2
 D0
@@ -1437,15 +1437,15 @@ D3
 ~
 0 0 7849
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7851
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Çora vadisinin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun.
 ~
 0 0 2
 D1
@@ -1457,15 +1457,15 @@ D2
 ~
 0 0 7850
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7852
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Çora vadisinin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun.
 ~
 0 0 2
 D0
@@ -1477,16 +1477,16 @@ D3
 ~
 0 0 7851
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7853
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
-A safe trail leads down into the valley.
+Çora vadisinin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun.
+Vadiye inen güvenli bir patika dikkatini çekiyor.
 ~
 0 0 2
 D0
@@ -1498,15 +1498,15 @@ D2
 ~
 0 0 7852
 D5
-The trail down looks safe.
+Aþaðýdaki patika güvenli duruyor.
 ~
 ~
 0 0 7817
 S
 #7854
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Çora vadisinin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun.
 ~
 0 0 2
 D2
@@ -1518,15 +1518,15 @@ D3
 ~
 0 0 7855
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7855
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Çora vadisinin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun.
 ~
 0 0 2
 D0
@@ -1538,15 +1538,15 @@ D1
 ~
 0 0 7854
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7856
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Çora vadisinin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun.
 ~
 0 0 2
 D2
@@ -1558,15 +1558,15 @@ D3
 ~
 0 0 7857
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7857
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Çora vadisinin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun.
 ~
 0 0 2
 D1
@@ -1574,22 +1574,23 @@ D1
 ~
 0 0 7856
 D3
-You see a rope bridge~
+Bir örme köprü görüyorsun.
+~
 ~
 0 0 7858
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7858
 Örme Köprü~
-You are on the rope bridge.  From here, you can see the whole Valley of the
-Elves.  To the south, you see the main valley.  To the north-east, you see a
-smaller valley with a building in the center of it.  To the north-west, you
-can see a very small valley with a shack in it's center.  A rope ladder
-leads down into a trail.
+Örme köprünün üzerindesin. Buradan çoralarýn bütün vadisini görebiliyorsun.
+Güneyde ana vadiyi görüyorsun. Kuzeydoðuda, ortasýnda bir bina bulunan daha
+küçük bir vadi görüyorsunuz. Kuzeybatýda, merkezinde bir kulübe bulunan çok
+küçük bir vadi görebilirsiniz. Bir patikaya doðru inen örgüden
+bir merdiven görüyorsun.
 ~
 0 0 2
 D1
@@ -1601,19 +1602,19 @@ D3
 ~
 0 0 7859
 D5
-You see the trail.
+Patikayý görüyorsun.
 ~
 ~
 0 0 7826
 S
 #7859
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Çora vadisinin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun.
 ~
 0 0 2
 D1
-You see a rope bridge.
+Örme bir köprü görüyorsun.
 ~
 ~
 0 0 7858
@@ -1622,15 +1623,15 @@ D3
 ~
 0 0 7860
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7860
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Çora vadisinin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun.
 ~
 0 0 2
 D1
@@ -1646,15 +1647,15 @@ D3
 ~
 0 0 8800
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7861
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Çora vadisinin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun.
 ~
 0 0 2
 D0
@@ -1666,15 +1667,15 @@ D3
 ~
 0 0 7862
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7862
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Çora vadisinin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun.
 ~
 0 0 2
 D1
@@ -1686,16 +1687,16 @@ D2
 ~
 0 0 7863
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7863
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
-A safe trail leads down into the valley.
+Çora vadisinin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun.
+Vadiye inen güvenli bir patika dikkatini çekiyor.
 ~
 0 0 2
 D0
@@ -1714,8 +1715,8 @@ The trail down looks safe.
 S
 #7864
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Çora vadisinin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun.
 ~
 0 0 2
 D0
@@ -1727,15 +1728,15 @@ D1
 ~
 0 0 7865
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7865
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Çora vadisinin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun.
 ~
 0 0 2
 D2
@@ -1747,15 +1748,15 @@ D3
 ~
 0 0 7864
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7866
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Çora vadisinin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun.
 ~
 0 0 2
 D0
@@ -1767,15 +1768,15 @@ D1
 ~
 0 0 7867
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7867
 Vadinin Kenarýndaki Rüzgarlý bir Patika~
-You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
-you can see the valley, filled with wild flowers and tall, green grasses.
+Çora vadisinin kenarýnda dar bir yoldasýn. Aþaðýda, kýr çiçekleri ve
+uzun, yeþil otlarla dolu vadiyi görüyorsun.
 ~
 0 0 2
 D2
@@ -1787,256 +1788,262 @@ D3
 ~
 0 0 7866
 D5
-The trail down doesn't look safe to travel on at all.
+Bu patika yolculuða devam etmek için hiç güvenli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7868
 Patikadaki bir dönemeç~
-You are on a bend in the trail leading from the main valley.  The hills around
-you make this trail quite narrow.
+Ana vadiden uzanan patikada bir dönemeçtesin. Çevrenizdeki tepeler bu
+patikayý oldukça daraltýyor.
 ~
 0 0 2
 D0
-The trail continues north.
+Patika kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7869
 D1
-The trail continues east.
+Patika doðuya doðru devam ediyor.
 ~
 ~
 0 0 7827
 S
 #7869
 Patikadaki bir dönemeç~
-You are on a bend in the trail leading from the main valley.  The hills around
-you make this trail quite narrow.  To the west, you can see an even smaller
-valley, with looks like a small shack in the center of it.
+Ana vadiden uzanan patikada bir dönemeçtesin. Çevrendeki tepeler bu
+patikayý oldukça daraltýyor. Batýda, daha da küçük bir vadi görüyorsun,
+ortasýnda küçük bir kulübe var gibi duruyor.
 ~
 0 0 2
 D2
-The trail continues south.
+Patika güneye doðru devam ediyor.
 ~
 ~
 0 0 7868
 D3
-The entrance to the small valley is to the west.
+Küçük vadinin giriþi batýda.
 ~
 ~
 0 0 7870
 S
 #7870
 Küçük Vadi~
-You are in the small valley.  Strangely, tall trees grow here, almost as if some
-magic was used to help them grow.  The exit from this valley is to the east, and
-the entrance to the shack is to the west.
+Küçük vadidesin. Burada garip bir þekilde uzun aðaçlar büyüyor, neredeyse
+büyümelerine yardýmcý olmak için biraz sihir kullanýlmýþ gibi. Bu vadiden
+çýkýþ doðudan, kulübeye giriþ ise batýdandýr.
 ~
 0 0 2
 D0
-The valley continues to the north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7871
 D1
-The exit from this small valley is to the east.
+Bu küçük vadiden çýkýþ doðuya doðrudur.
 ~
 ~
 0 0 7869
 D2
-The valley continues to the south.
+Vadi güneye doðru devam ediyor.
 ~
 ~
 0 0 7872
 D3
-You see the small shack.
+Küçük kulübeyi görüyorsun.
 ~
 door~
 1 -1 7878
 S
 #7871
 Küçük Vadi~
-You are in the small valley.  Strangely, tall trees grow here, almost as if some
-magic was used to help them grow.  To the south-west is a small shack.
+Küçük vadidesin. Burada garip bir þekilde uzun aðaçlar büyüyor, neredeyse
+büyümelerine yardýmcý olmak için biraz sihir kullanýlmýþ gibi.
+Güneybatýda küçük bir kulübe görüyorsun.
 ~
 0 0 2
 D2
-The valley continues to the south.
+Vadi güneye doðru devam ediyor.
 ~
 ~
 0 0 7870
 D3
-The valley continues to the west.
+Vadi batýya doðru devam ediyor.
 ~
 ~
 0 0 7873
 S
 #7872
 Küçük Vadi~
-You are in the small valley.  Strangely, tall trees grow here, almost as if some
-magic was used to help them grow.  To the north-west is a small shack.
+Küçük vadidesin. Burada garip bir þekilde uzun aðaçlar büyüyor, neredeyse
+büyümelerine yardýmcý olmak için biraz sihir kullanýlmýþ gibi.
+Kuzeybatýda küçük bir kulübe görüyorsun.
 ~
 0 0 2
 D0
-The valley continues to the north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7870
 D3
-The valley continues to the west.
+Vadi batýya doðru devam ediyor.
 ~
 ~
 0 0 7877
 S
 #7873
 Küçük Vadi~
-You are in the small valley.  Strangely, tall trees grow here, almost as if some
-magic was used to help them grow.  To the south is a small shack.
+Küçük vadidesin. Burada garip bir þekilde uzun aðaçlar büyüyor, neredeyse
+büyümelerine yardýmcý olmak için biraz sihir kullanýlmýþ gibi.
+Güneyde küçük bir kulübe görüyorsun.
 ~
 0 0 2
 D1
-The valley continues to the east.
+Vadi doðuya doðru devam ediyor.
 ~
 ~
 0 0 7871
 D3
-The valley continues to the west.
+Vadi batýya doðru devam ediyor.
 ~
 ~
 0 0 7874
 S
 #7874
 Küçük Vadi~
-You are in the small valley.  Strangely, tall trees grow here, almost as if some
-magic was used to help them grow.  To the south-east is a small shack.
-To the north is the oak doors of an high tower.
+Küçük vadidesin. Burada garip bir þekilde uzun aðaçlar büyüyor, neredeyse
+büyümelerine yardýmcý olmak için biraz sihir kullanýlmýþ gibi. Güneydoðuda
+küçük bir kulübe kuzeyde ise yüksek bir kulenin meþe kapýlarýný görüyorsun.
 ~
 0 0 2
 D1
-The valley continues to the east.
+Vadi doðuya doðru devam ediyor.
 ~
 ~
 0 0 7873
 D2
-The valley continues to the south.
+Vadi güneye doðru devam ediyor.
 ~
 ~
 0 0 7875
 S
 #7875
 Küçük Vadi~
-You are in the small valley.  Strangely, tall trees grow here, almost as if some
-magic was used to help them grow.  To the east is a small shack.
+Küçük vadidesin. Burada garip bir þekilde uzun aðaçlar büyüyor, neredeyse
+büyümelerine yardýmcý olmak için biraz sihir kullanýlmýþ gibi.
+Doðuda küçük bir kulübe görüyorsun
 ~
 0 0 2
 D0
-The valley continues to the north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7874
 D2
-The valley continues to the south.
+Vadi güneye doðru devam ediyor.
 ~
 ~
 0 0 7876
 S
 #7876
 Küçük Vadi~
-You are in the small valley.  Strangely, tall trees grow here, almost as if some
-magic was used to help them grow.  To the north-east is a small shack.
+Küçük vadidesin. Burada garip bir þekilde uzun aðaçlar büyüyor, neredeyse
+büyümelerine yardýmcý olmak için biraz sihir kullanýlmýþ gibi.
+Kuzeydoðuda küçük bir kulübe görüyorsun.
 ~
 0 0 2
 D0
-The valley continues to the north.
+Vadi kuzeye doðru devam ediyor.
 ~
 ~
 0 0 7875
 D1
-The valley continues to the east.
+Vadi doðuya doðru devam ediyor.
 ~
 ~
 0 0 7877
 S
 #7877
 Küçük Vadi~
-You are in the small valley.  Strangely, tall trees grow here, almost as if some
-magic was used to help them grow.  To the north is a small shack.
+Küçük vadidesin. Burada garip bir þekilde uzun aðaçlar büyüyor, neredeyse
+büyümelerine yardýmcý olmak için biraz sihir kullanýlmýþ gibi.
+Kuzeyde küçük bir kulübe görüyorsun.
 ~
 0 0 2
 D1
-The valley continues to the east.
+Vadi doðuya doðru devam ediyor.
 ~
 ~
 0 0 7872
 D3
-The valley continues to the west.
+Vadi batýya doðru devam ediyor.
 ~
 ~
 0 0 7876
 S
 #7878
 Küçük Kulübenin Ýçi~
-You are inside the small shack.  A small stove is on the side, with soup
-cooking over it.  You see nothing valuable.
+Küçük kulübenin içindesin. Kenarda küçük bir soba görüyorsun,
+üzerinde çorba piþiyor. Deðerli bir þey görmüyorsun.
 ~
 0 D 0
 D1
-You see the valley outside.
+Dýþarýda vadiyi görüyorsun.
 ~
 door~
 1 -1 7870
 D5
-You see a trap door!
+Bir tuzak kapýsý görüyorsun!
 ~
 trap door~
 1 -1 7879
 S
 #7879
 Küçük Kulübenin Aþaðýsý~
-You are beneath the small shack, in a tunnel that leads south.  It feels
-quite warm down here.
+Küçük kulübenin altýnda güneye giden bir tüneldesin. Burasý oldukça
+sýcak hissettiriyor.
 ~
 0 AD 0
 D2
-The room looks reddish down there.
+Kýrmýzýmsý duran bir oda görüyorsun.
 ~
 ~
 0 0 7880
 D4
-Back to known territory!
+Bildiðin bir yere geri döndün!
 ~
 trap door~
 1 -1 7878
 S
 #7880
 Ateþ Hidrasý'nýn Ýni~
-You are in the den of the pyrohydra.  All the walls are charred, and this
-room is filled with a smell close to that of burning tar.
+Sen Ateþ Hidrasý'nýn inindesin. Bütün duvarlar kömürleþmiþ ve bu
+oda tamamen yanan katrana yakýn bir koku ile dolu.
 ~
 0 AD 0
 D0
-You see the relative safety to the north.
+Kuzeydeki nispi güvenliði görüyorsun.
 ~
 ~
 0 0 7879
 D1
-You see breaks in the charred rock to the east.
+Doðudaki kömürleþmiþ kayada kýrýlmalar görüyorsun.
 ~
 secret~
 1 7805 7882
 D3
-You see a door to the west.
+Batýda bir kapý görüyorsun.
 ~
 door~
 1 7805 7881
 S
 #7881
 Çalýþma odasý~
-This room looks like it is used for magical studies.  Potions bubble over
-burners, and the whole room spells of herbs and dead animal flesh.  A furnace
-to the side casts a bright light in this room.  The whole room radiates with
-a magical aura.
+Bu oda büyülü çalýþmalar için kullanýlýyormuþ gibi görünüyor.
+Ýksirler brülörlerin üzerinde kabarcýklar oluþturuyor ve tüm
+oda ot ve ölü hayvan eti kokuyor. Kenardaki bir fýrýn odayý
+aydýnlatýyor. Bütün oda büyülü bir aura kaplý.
 ~
 0 D 0
 D1
@@ -2046,8 +2053,8 @@ door~
 S
 #7882
 Depo~
-This room is used to store scrolls, potions, and other magical items.  The
-whole room radiates with a magical aura.
+Bu oda parþömenleri, iksirleri ve diðer büyülü eþyalarý
+saklamak için kullanýlýyor. Bütün oda büyülü bir aura ile kaplý.
 ~
 0 D 0
 D3
@@ -2057,8 +2064,8 @@ secret door~
 S
 #7883
 Vadinin derinliklerine doðru giden YOL!~
-You have fallen trying to go down this steep hill.  Maybe that wasn't that
-good an idea, huh?
+Dik bir yokuþtan aþaðý inmeye çalýþýrken düþtün.
+Belki de bu iyi bir fikir deðildi ha?
 
 Yuvarlandýn, ve kalkamayacak kadar sersemledin.. Seni zavallý küçük þey!
 ~
