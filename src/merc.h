@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -263,15 +275,16 @@ typedef void OPROG_FUN_AREA args((OBJ_DATA *obj));
 /*
  * Game parameters.
  */
+#define MAKSIMUM_LIMIT 3
 #define MAX_SOCIALS		  256
 #define MAX_SKILL		  426
 #define MAX_ALIAS		   20
 #define MAX_CLASS		   13
-#define MAX_PC_RACE		   11
+#define MAX_PC_RACE		   7
 /* unique ve null dahil */
 #define MAX_RACE		    77
 #define MAX_CABAL		    9
-#define MAX_RELIGION		   18
+#define MAX_RELIGION		   5
 #define MAX_TIME_LOG		   14
 #define MIN_TIME_LIMIT		   600   /* 10 Hours */
 #define MAX_LEVEL		   100
@@ -352,29 +365,16 @@ struct color_type
  */
 
 #define RELIGION_NONE		0
-#define RELIGION_APOLLON	1
-#define RELIGION_ZEUS		2
-#define RELIGION_SIEBELE	3
-#define RELIGION_HEPHAESTUS	4
-#define RELIGION_EHRUMEN	5
-#define RELIGION_AHRUMAZDA	6
-#define RELIGION_DEIMOS		7
-#define RELIGION_PHOBOS		8
-#define RELIGION_ODIN		9
-#define RELIGION_MARS		10
-#define RELIGION_ATHENA		11
-#define RELIGION_GOKTENGRI	12
-#define RELIGION_HERA		13
-#define RELIGION_VENUS		14
-#define RELIGION_ARES		15
-#define RELIGION_PROMETHEUS	16
-#define RELIGION_EROS		17
+#define RELIGION_KAME	1
+#define RELIGION_NIR		2
+#define RELIGION_NYAH	3
+#define RELIGION_SINT	4
 
 /* Religion structure */
 struct religion_type
 {
-  const char *leader;
   const char *name;
+  const char *followers;
   int vnum;
 };
 
@@ -651,16 +651,14 @@ struct	class_type
 #define LANG_HUMAN           1
 #define LANG_CORA            2
 #define LANG_DWARVISH        3
-#define LANG_NAGA         4
 #define LANG_YEG	     5
 #define LANG_GAMAYUN        6
-#define LANG_BORU	     7
-#define LANG_CIREN	     8
+#define LANG_PARDUS	     8
 #define LANG_ASURA	     9
 #define LANG_GNOMISH		10
 #define LANG_GIANT			11
 #define LANG_CAT			12
-#define MAX_LANGUAGE	     13
+#define MAX_LANGUAGE	     8
 
 struct item_type
 {
@@ -715,7 +713,6 @@ struct pc_race_type  /* additional data for pc races */
     sh_int	class_mult[MAX_CLASS];	/* exp multiplier for class, * 100 */
     const char *	skills[5];		/* bonus skills for the race */
     sh_int 	stats[MAX_STATS];	/* starting stats 	*/
-    sh_int	max_stats[MAX_STATS];	/* maximum stats 	*/
 	/*sh_int	size;*/			/* aff bits for the race*/
     int         hp_bonus;               /* Initial hp bonus 	*/
     int         mana_bonus;             /* Initial mana bonus 	*/
@@ -835,8 +832,6 @@ struct	kill_data
 #define MOB_VNUM_ARMOR			34
 
 #define MOB_VNUM_PATROLMAN	   2106
-#define GROUP_VNUM_ASURA	   2100
-#define GROUP_VNUM_OGRES	   2101
 
 
 /* RT ASCII conversions -- used so we can have letters in this file */
@@ -882,11 +877,8 @@ struct	kill_data
 #define RACE_HUMAN  		(A)
 #define RACE_CORA 		(B)
 #define RACE_DWARF 		(F)
-#define RACE_NAGA		(G)
-#define RACE_YEG		(H)
 #define RACE_GAMAYUN		(I)
-#define RACE_BORU		(O)	/* 15 */
-#define RACE_CIREN		(Q)
+#define RACE_PARDUS		(Q)
 #define RACE_ASURA		(R)
 
 #define RACE_TOP		(T)
@@ -1411,23 +1403,10 @@ struct	kill_data
 #define OBJ_VNUM_CHUNK_IRON		6521
 
 /* vnums for tattoos */
-#define OBJ_VNUM_TATTOO_APOLLON		51
-#define OBJ_VNUM_TATTOO_ZEUS		52
-#define OBJ_VNUM_TATTOO_SIEBELE		53
-#define OBJ_VNUM_TATTOO_HEPHAESTUS	54
-#define OBJ_VNUM_TATTOO_EHRUMEN		55
-#define OBJ_VNUM_TATTOO_AHRUMAZDA	56
-#define OBJ_VNUM_TATTOO_DEIMOS		57
-#define OBJ_VNUM_TATTOO_PHOBOS		58
-#define OBJ_VNUM_TATTOO_ODIN		59
-#define OBJ_VNUM_TATTOO_MARS		60
-#define OBJ_VNUM_TATTOO_ATHENA		61
-#define OBJ_VNUM_TATTOO_GOKTENGRI	62
-#define OBJ_VNUM_TATTOO_HERA		63
-#define OBJ_VNUM_TATTOO_VENUS		64
-#define OBJ_VNUM_TATTOO_ARES		65
-#define OBJ_VNUM_TATTOO_PROMETHEUS	66
-#define OBJ_VNUM_TATTOO_EROS		67
+#define OBJ_VNUM_TATTOO_KAME		51
+#define OBJ_VNUM_TATTOO_NIR		52
+#define OBJ_VNUM_TATTOO_NYAH		53
+#define OBJ_VNUM_TATTOO_SINT	54
 
 /* quest rewards */
 #define QUEST_ITEM1 94
@@ -1816,6 +1795,17 @@ struct	kill_data
 #define POS_FIGHTING		      7
 #define POS_STANDING		      8
 
+/*
+ * Channels
+ */
+
+#define KANAL_SOYLE 0
+#define KANAL_KD 1
+#define KANAL_ACEMI 2
+#define KANAL_HAYKIR	3
+#define KANAL_IMM 4
+#define KANAL_GSOYLE 5
+#define KANAL_DUYGU 6
 
 
 /*
@@ -1831,7 +1821,8 @@ struct	kill_data
 #define PLR_AUTOSAC             (F)
 #define PLR_AUTOGOLD		(G)
 #define PLR_AUTOSPLIT		(H)
-//#define PLR_COLOR		(I)
+// tanimi olmayan oyuncular
+#define PLR_NO_DESCRIPTION		(I)
 #define PLR_WANTED		(J)
 #define PLR_NO_TITLE		(K)
 /* RT personal flags */
@@ -1983,8 +1974,6 @@ struct	mob_index_data
     int                 progtypes;
     SHOP_DATA *		pShop;
     sh_int		vnum;
-    sh_int		group;
-    bool		new_format;
     sh_int		count;
     sh_int		killed;
     char *		player_name;
@@ -2105,7 +2094,6 @@ struct	char_data
     char *		description;
     char *		prompt;
     char *		prefix;
-    sh_int		group;
     sh_int		sex;
     sh_int		iclass;
     sh_int		race;
@@ -2120,7 +2108,7 @@ struct	char_data
     sh_int		timer;
     sh_int		wait;
     sh_int		daze;
-    sh_int		hit;
+    int			hit;
     int			max_hit;
     int			mana;
     int			max_mana;
@@ -2217,11 +2205,16 @@ struct	pc_data
     sh_int              countdown;	/* quest */
     sh_int              questobj;	/* quest */
     sh_int              questmob;       /* quest */
+		sh_int              questroom;       /* quest */
+		sh_int              ghost_mode_counter;       /* hayalet modu */
     sh_int		race;		/* orginal race for polymorph */
     sh_int		time_flag;	/* time log problem */
     int			log_date[MAX_TIME_LOG];	/* last MTL days */
     int			log_time[MAX_TIME_LOG];	/* min.s of playing each day */
 	int			dilek;
+	long		rk_puani;
+	long		din_puani;
+	long		yardim_puani;
 };
 
 
@@ -3089,11 +3082,12 @@ void get_obj		args( ( CHAR_DATA *ch, OBJ_DATA *obj,OBJ_DATA *container ) );
 int floating_time	args( ( OBJ_DATA *obj ) );
 bool may_float		args( ( OBJ_DATA *obj ) );
 bool cant_float		args( ( OBJ_DATA *obj ) );
+bool limit_kontrol args( (CHAR_DATA *ch, OBJ_DATA *obj) );
 
 /* act_wiz.c */
 void wiznet		args( (const char *string, CHAR_DATA *ch, OBJ_DATA *obj,
 			       long flag, long flag_skip, int min_level ) );
-void reboot_anatolia	args( ( bool fmessage) );
+void reboot_uzakdiyarlar	args( ( bool fmessage) );
 
 /* ban.c */
 bool	check_ban	args( ( char *site, int type) );
@@ -3132,13 +3126,15 @@ void	printf_to_char	args( ( CHAR_DATA *, const char *, ... ) );
 void	bugf		args( ( char *, ... ) );
 
 /* data.c */
-void data_write args( (void) );
-void data_read args( (void) );
+void ud_data_write args( (void) );
+void ud_data_read args( (void) );
+void write_channel_log args( (CD *ch, CD *vc, int kanal, char *argument) );
 
 /* db.c */
 char *	print_flags	args( ( int flag ));
 void	boot_db		args( ( void ) );
 CD *	create_mobile	args( ( MOB_INDEX_DATA *pMobIndex ) );
+CD * 	create_ud_format_mobile args( (CHAR_DATA *mob,MOB_INDEX_DATA *pMobIndex) );
 CD *	mob_assign_perm_stats	args( ( CHAR_DATA *mob ) );
 void	clone_mobile	args( ( CHAR_DATA *parent, CHAR_DATA *clone) );
 OD *	create_object	args( ( OBJ_INDEX_DATA *pObjIndex, int level ) );
@@ -3233,7 +3229,6 @@ int	race_lookup	args( ( const char *name) );
 long	wiznet_lookup	args( ( const char *name) );
 int	class_lookup	args( ( const char *name) );
 int	cabal_lookup	args( ( const char *argument) );
-bool	is_old_mob	args ( (CHAR_DATA *ch) );
 int	get_skill	args( ( CHAR_DATA *ch, int sn ) );
 int	get_weapon_sn	args( ( CHAR_DATA *ch, bool second) );
 int	get_weapon_skill args(( CHAR_DATA *ch, int sn ) );
@@ -3365,7 +3360,7 @@ bool	saves_spell	args( ( int level, CHAR_DATA *victim, int dam_type ) );
 bool 	check_dispel	args(( int dis_level, CHAR_DATA *victim, int sn));
 void	obj_cast_spell	args( ( int sn, int level, CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DATA *obj ) );
 /* mob_creator.c */
-int hit_roll args( (int level) );
+int hitroll_damroll_hesapla args( (int level) );
 int damage_dice_0 args( (int level) );
 int damage_dice_1 args( (int level) );
 int damage_dice_2 args( (int level) );

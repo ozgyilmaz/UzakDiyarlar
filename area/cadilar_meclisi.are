@@ -39,7 +39,7 @@ the devil, they escape with otherworldly treasure.
 0 $~
 
 
-#MOBILES
+#NEW_MOBILES
 #29120
 aç canavar~
 aç canavar~
@@ -51,12 +51,7 @@ has a dog like snout, perky ears, and 6 legs, and has many more long
 sharp nasty teeth.
 ~
 human~
-FGX F -400 0
-30 0 6d12+853 1d1+99 4d6+8 bite
--9 -9 -9 3
-CFNQ 0 L I
-stand stand male 2000
-AGHMVXc ABCDEFGHIJKPQUVX large 0
+FGX F 30
 #29121
 cadaloz gelda~
 cadaloz Gelda~
@@ -68,12 +63,7 @@ battle with a minion of hell, and you die horribly!' . With that the
 hag breaks into an ugly fit of laughter.
 ~
 insan~
-BCGVX DK 0 0
-28 0 6d12+703 1d1+399 2d12+8 slap
--8 -8 -8 6
-FR 0 C NZ
-stand stand female 1850
-AHMV ABCDEFGHIJK medium 0
+BCGVX DK 28
 #29122
 koru muhafýzý~
 koru muhafýzý~
@@ -87,12 +77,7 @@ running loose in the forest. Avoid the hag. Is there any chance of you
 hiring on to help defend Dunkeldorf?'.
 ~
 human~
-BGX MQ 500 0
-30 0 6d12+853 1d1+99 4d6+8 punch
--9 -9 -9 6
-CDEFINP 0 0 0
-stand stand male 2000
-AHMV ABCDEFGHIJK medium 0
+BGX MQ 30
 #29123
 oduncu~
 oduncu~
@@ -103,12 +88,7 @@ carrying a lumber axe. He sees you and asks 'Have you come from the
 forest? You have? Is it safe again in the forest?
 ~
 human~
-GX 0 400 0
-25 0 5d10+550 1d1+99 2d10+7 punch
--7 -7 -7 6
-EFN 0 0 0
-stand stand male 1500
-AHMV ABCDEFGHIJK medium 0
+GX 0 25
 #29124
 bakkal al~
 bakkal Al~
@@ -121,12 +101,7 @@ woods will strike town next. He gets to talking of the glory days of
 Dunkeldorf, before everyone started disappearing.
 ~
 human~
-BGX 0 450 0
-26 0 5d10+600 1d1+99 3d7+7 slap
--7 -7 -7 5
-CEFN 0 0 0
-stand stand male 1600
-AHMV ABCDEFGHIJK medium 0
+BGX 0 26
 #29125
 mark deðirmenci~
 deðirmenci Mark~
@@ -139,12 +114,7 @@ temple and fighting the guardian there. He wishes you luck and
 godspeed.
 ~
 human~
-BGX 0 550 0
-27 0 5d10+650 1d1+99 5d4+7 punch
--8 -8 -8 5
-CEFN 0 0 0
-stand stand male 1700
-AHMV ABCDEFGHIJK medium 0
+BGX 0 27
 #29126
 demirci Hans~
 demirci Hans~
@@ -157,12 +127,7 @@ to get iron from the old mine in the Murkmire, but the cave has long
 since collapsed and become unstable, so now he trades for it.
 ~
 human~
-BGSX 0 600 0
-29 0 6d12+778 1d1+100 2d12+8 punch
--9 -9 -9 5
-CEFN 0 0 0
-stand stand male 1900
-AHMV ABCDEFGHIJK medium 0
+BGSX 0 29
 #29127
 hancý fritz~
 hancý Fritz~
@@ -174,12 +139,7 @@ tells you a sad tale about his mad sister Gelda running off into the
 forest one night, naked screaming, and never to return.
 ~
 human~
-BGX 0 700 0
-28 0 6d12+703 1d1+100 2d12+8 punch
--8 -8 -8 5
-CEFN 0 0 0
-stand stand male 1800
-AHMV ABCDEFGHIJK medium 0
+BGX 0 28
 #29128
 tacir libby hobit~
 tacir Libby~
@@ -190,12 +150,7 @@ satchel full of curiosities. He sings for you a song of life in the
 shire, and of longbottom leaf.
 ~
 human~
-GX 0 300 0
-26 0 5d10+600 1d1+100 3d7+7 punch
--7 -7 -7 6
-CEFN 0 0 0
-stand stand male 1600
-AHMV ABCDEFGHIJK small 0
+GX 0 26
 #29129
 kaya yýlaný~
 kaya yýlaný~
@@ -206,12 +161,7 @@ crush an ox. Its rounded head gives it away as a non poisonous
 constrictor.
 ~
 snake~
-FGX 0 0 0
-32 0 10d10+1000 1d1+100 6d4+9 bite
--10 -10 -10 4
-H L 0 I
-stand stand none 0
-AGRXYc ADEFKLQVX large 0
+FGX 0 32
 #29130
 beyaz tapýnak muhafýzý~
 Beyaz Tapýnak'ýn muhafýzý~
@@ -235,12 +185,7 @@ in the runes of the sickle and save the cross for dire need. May god be
 with you.'
 ~
 human~
-BGX H 1 0
-33 0 10d10+1100 1d1+100 6d4+10 punch
--11 -11 -11 4
-CDEFN 0 0 0
-stand stand male 2300
-AHMV ABCDEFGHIJK medium 0
+BGX H 33
 #29131
 cadý kadýn~
 cadý~
@@ -250,12 +195,7 @@ The witch looks harried and driven. Her eyes dance wildly, and she
 cackles at you with an insane glee.
 ~
 human~
-FGX D -700 0
-32 0 6d12+885 1d1+300 4d6+8 punch
--9 -9 -9 4
-F 0 CM ENR
-stand stand female 2200
-AHMV ABCDEFGHIJK medium 0
+FGX D 32
 #29132
 büyücü~
 büyücü~
@@ -265,12 +205,7 @@ The warlock looks harried and driven. His eyes dart wildly, and he
 cackles with an insane glee.
 ~
 human~
-FGX D -800 0
-33 0 10d10+1000 1d1+300 4d6+8 punch
--11 -11 -11 0
-F 0 CM ENR
-stand stand male 2300
-AHMV ABCDEFGHIJK medium 0
+FGX D 33
 #29133
 cadýlarýn lideri büyücü~
 cadýlarýn lideri~
@@ -280,12 +215,7 @@ The coven leader looks harried and driven. His eyes dart wildly, and he
 cackles with an insane glee.
 ~
 human~
-FGX DF -900 0
-34 0 10d10+1100 1d1+300 4d6+9 punch
--11 -11 -11 1
-F M C ENR
-stand stand male 2400
-AHMV ABCDEFGHIJK medium 0
+FGX DF 34
 #29134
 cehennem ateþi canavarý~
 cehennem ateþi canavarý~
@@ -298,12 +228,7 @@ terrible talons. It looks at you, and with a fiery laughter, it says:
 battle, but you will not stop our plan!'
 ~
 human~
-BFGX DFH -1000 0
-28 0 6d12+703 1d1+200 2d12+8 bite
--8 -8 -8 6
-F AHL B I
-stand stand none 1800
-ABG ABCDEFJKLMPUV large 0
+BFGX DFH 28
 #0
 
 

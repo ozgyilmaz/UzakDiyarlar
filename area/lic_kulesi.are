@@ -11,7 +11,7 @@ Maxvnum 29399
 Path 6d 4g 2d g 2d a 3k d 4g 2b~
 END
 
-#MOBILES
+#NEW_MOBILES
 #29350
 Ölüm þövalyesi~
 Bir Ölüm Þövalyesi~
@@ -21,12 +21,7 @@ Bir Ölüm Þövalyesi~
 Ýlk yaþamlarýnda hepsi diyarda nam salan þövalye ve savaþçýlardý.
 ~
 human~
-AFGO c -750 0
-40 0 15d10+1850 45d10+950 4d8+15 magic
--12 -12 -12 0
-CDEIKU LPQ IJ HN
-stand stand none 800
-AHIMV ABCDEFGHIJK medium 0
+AFGO c 40
 #29351
 iþkenceci sorgulayýcý ~
 Sorgulayýcý~
@@ -36,12 +31,7 @@ Bir zombi gibi gözüküyor ama görüntüsü seni aldatmasýn o çok daha kötü ve güçlü.
 Kurbanlarýný iþkence ederken hayatta tutmak için güçlü büyülere sahip biri.
 ~
 human~
-ABOQ Hc -1000 0
-50 0 15d10+4250 45d10+950 5d8+19 magic
--20 -20 -20 -2
-CN ILQ P HN
-stand stand none 800
-AHIMV ABCDEFGHIJK medium 0
+ABOQ Hc 50
 #29352
 küçük iblis~
 Küçük bir iblis~
@@ -52,12 +42,7 @@ zorla çaðýrýlmýþ ve bunun için sinirli.  Güçlü pençeleri ve uzun diþleri seni
 ne kadar hýzlý koþabileceðin konusunda düþünmeye sevk ediyor.
 ~
 human~
-ABT T -1000 0
-50 0 15d10+4250 45d10+950 5d8+19 magic
--20 -20 -20 -2
-CDFHK H LPQ IN
-stand stand none 800
-ACHMV ABCDEFGHIJK medium 0
+ABT T 50
 #29353
 büyük iblis~
 Büyük Bir Ýblis~
@@ -69,12 +54,7 @@ Siyaha çalan derisi alev kýrmýzýsý ile karýþýyor çoðu yerde ve içinde ateþler ya
 Kork ölümlü çünkü ölmek üzeresin.
 ~
 dragon~
-ABOT HT -1000 0
-65 0 50d10+8250 45d10+950 11d5+35 magic
--35 -35 -35 -10
-CFKM HLQ BDHIJK CFIN
-stand stand none 800
-ACHZc ADEFIKLPQUVX large 0
+ABOT HT 65
 #29354
 Liç Lordu Myzelak~
 Liç Lordu Myzelak~
@@ -84,12 +64,7 @@ Kötülüðün þaheseri.Myzelak yýllarca büyüsünü mükemmelleþtirmek için uðraþtý ve s
 Ýþte karakamlarýn en yücelerinden bir tanesi karþýnda duruyor.Daha büyük bir planla uðraþýyor gibi gözüküyor.
 ~
 human~
-ABQR HJ -1000 0
-75 0 50d10+11000 45d10+1950 9d11+45 magic
--45 -45 -45 -14
-FIJN 0 CDHIJ N
-stand stand none 800
-AHMV ABCDEFGHIJK medium 0
+ABQR HJ 75
 #29355
 liç ejder~
 Liç Ejder~
@@ -99,12 +74,7 @@ Myzelak'ýn kadim Liç Ejderi burada.
 Belki de koþmaya baþlasan iyi olacak.
 ~
 dragon~
-ABOT T -1000 0
-60 0 50d10+6750 45d10+1950 8d6+28 magic
--30 -30 -30 -10
-CDFMO 0 HIJK FKN
-stand stand none 800
-AHZc ADEFIKLPQUVX giant 0
+ABOT T 60
 #29356
 Seçkin Ölüm Þövalyesi~
 Seçkin bir Ölüm Þövalyesi~
@@ -114,12 +84,7 @@ Seçkin bir Ölüm Þövalyesi þeytani bir kahkaha atýp üstüne saldýrýyor.
 En kuvvetlilerinden biri olmalý çünkü elinde taþýdýðý senin gövden kadar olan topuzu sanki hafif bir çubukmuþ gibi savuruyor.
 ~
 giant~
-ABOT 0 -900 0
-70 0 50d10+9750 45d10+2950 8d10+40 magic
--40 -40 -40 -10
-CDFIKO 0 CHI HJNP
-stand stand none 800
-AHMV ABCDEFGHIJK large 0
+ABOT 0 70
 #0
 
 

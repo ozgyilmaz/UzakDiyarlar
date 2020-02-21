@@ -11,7 +11,7 @@ Maxvnum 10400
 Path Eski Selenge PY'den 6d 3k~
 END
 
-#MOBILES
+#NEW_MOBILES
 #10201
 muhafýz yüzbaþý~
 Yüzbaþý~
@@ -23,12 +23,7 @@ with pride on his chestplate. The gold crest of two coins seems to match
 the wealth of this town.
 ~
 human~
-ABT 4|8|32|128 900 0
-30 0 6d12+853 5d5+1000 4d6+8 slash
--9 -9 -9 3
-CDEFIJKLTU 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABT 4|8|32|128 30
 #10202
 teðmen~
 Teðmen~
@@ -41,12 +36,7 @@ to test his abilities go right ahead. He looks as if he is quite an easy
 fight.
 ~
 human~
-ABGT 4|32|128 800 0
-27 0 5d10+650 5d5+1000 5d4+7 pound
--8 -8 -8 4
-CDEFIJKTU 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABGT 4|32|128 27
 #10203
 çavuþ~
 Çavuþ~
@@ -57,12 +47,7 @@ war. He is a middle age man with graying hair that pokes out from under
 his helmet. He is always waiting for a fight.
 ~
 human~
-ABGT 4|128 400 0
-20 0  3d9+333 5d5+1000 2d8+5 slash
--4 -4 -4 5
-EFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABGT 4|128 20
 #10204
 þehir muhafýz~
 þehir muhafýzý~
@@ -72,12 +57,7 @@ A big strong townguard of Solace.
 
 ~
 human~
-ABGT 0 1000 0
-15 0 3d9+208 5d5+100 2d6+3 pound
--2 -2 -2 6
-CDEIKTU 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABGT 0 15
 #10205
 þehir muhafýz~
 þehir muhafýzý~
@@ -87,12 +67,7 @@ A big strong townguard of Solace.
 
 ~
 human~
-ABFGT 0 1000 0
-15 0 3d9+208 5d5+100 2d6+3 pound
--2 -2 -2 6
-CDEIKTU 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABFGT 0 15
 #10206
 solas vatandaþ~
 Solas vatandaþý~
@@ -101,12 +76,7 @@ Solas vatandaþlarýndan birini görüyorsun.
 He is one of the wealthy citizens of Solace.
 ~
 human~
-1 0 800 0
-10 0 2d7+121 5d5+100 2d4+2 punch
-1 1 1 7
-K 0 0 0
-stand stand male 1000
-0 0 medium 0
+1 0 10
 #10207
 kadýn~
 kadýn~
@@ -115,12 +85,7 @@ Bir kadýn görüyorsun.
 Oldukça güzel.
 ~
 human~
-1 0 800 0
-5 0 2d6+60 5d5+100 1d6+1 slap
-5 5 5 9
-0 0 0 0
-stand stand female 1000
-0 0 medium 0
+1 0 5
 #10208
 matt biracý~
 Matt~
@@ -128,12 +93,7 @@ Biracý Matt burada, içecek birþeyler arýyor.
 ~
 ~
 human~
-1 128 800 0
-25 0 5d10+550 5d5+1000 2d10+7 punch
--7 -7 -7 4
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+1 128 25
 #10209
 tore~
 Tore~
@@ -143,12 +103,7 @@ A fat, nice looking baker. But you can see that he has many scars on his
 body.
 ~
 human~
-2 0 900 0
-23 0 5d10+450 5d5+1000 3d6+6 punch
--6 -6 -6 4
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 23
 #10210
 aþçý yamaðý~
 aþçý yamaðý~
@@ -157,12 +112,7 @@ Aþçý yamaðý burada, denemen için bir kurabiye öneriyor.
 A young neighborhood girl helps out cookie when she is not around.
 ~
 human~
-2 0 900 0
-20 0 3d9+333 5d5+1000 2d8+5 punch
--4 -4 -4 5
-EIK 0 0 0
-stand stand female 1000
-0 0 medium 0
+2 0 20
 #10211
 maril~
 Maril~
@@ -172,12 +122,7 @@ She is a very pretty and loves her birds. Her black hair hangs behind her
 tied in a pony tail.
 ~
 human~
-2 128 900 0
-30 0 6d12+853 5d5+1000 4d6+8 punch
--9 -9 -9 3
-EIK 0 0 0
-stand stand female 1000
-0 0 medium 0
+2 128 30
 #10212
 hayalet jander~
 Jander'in hayaleti~
@@ -188,12 +133,7 @@ red hair. His clothes seems dirty and tattered. His bushy beard obscures
 his stone face.
 ~
 human~
-2 0 900 0
-15 0 3d9+208 5d5+100 2d6+3 magic
--2 -2 -2 6
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 15
 #10213
 gardon hayalet~
 garsonun hayaleti~
@@ -203,12 +143,7 @@ This is the ghost of a long dead waiter. Probably one of the many that
 Jander killed for spilling a drink or something.
 ~
 human~
-2 0 900 0
-15 0 3d9+208 5d5+100 2d6+3 magic
--2 -2 -2 6
-EK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 15
 #10214
 barmen hayalet~
 barmenin hayaleti~
@@ -218,12 +153,7 @@ This is probably another of Jander's victims. Probably got caught with
 his hand in the cash or something.
 ~
 human~
-2 0 900 0
-13 0 2d10+170 5d5+100 2d5+3 magic
--1 -1 -1 6
-EK 0 0 0
-stand stand female 1000
-0 0 medium 0
+2 0 13
 #10215
 þehir muhafýz~
 þehir muhafýzý~
@@ -233,12 +163,7 @@ A big strong townguard of Solace.
 
 ~
 human~
-AGT 0 1000 0
-15 0 3d9+208 5d5+100 2d6+3 pound
--2 -2 -2 6
-CDEIKTU 0 0 0
-stand stand male 1000
-0 0 medium 0
+AGT 0 15
 #10216
 tarla faresi~
 tarla faresi~
@@ -246,13 +171,8 @@ Bir tarla faresi burada, yiyecek arýyor.
 ~
 A dirty nasty field rat . Obviously  looking for food in the town.
 ~
-sýçan~
-1|64 65536 300 0
-10 0  2d7+121 5d5+100 2d4+2 charge
-1 1 1 7
-0 0 0 0
-stand stand none 1000
-0 0 medium 0
+lizard~
+1|64 65536 10
 #10217
 katip~
 Katip~
@@ -262,12 +182,7 @@ a stringy rat like individual. He beams at you through his spectacles
 as if he can see the money in your pockets.
 ~
 human~
-2 128 800 0
-17 0 3d9+258 5d5+1000 3d4+4 punch
--3 -3 -3 6
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 128 17
 #10218
 ganimet muhafýzý~
 ganimet muhafýzý~
@@ -277,12 +192,7 @@ These are like the biggest and meanest men you've every seen.
 They look more like asuras or ogres than men.
 ~
 human~
-ABT 4|8|32|128 800 0
-16 0 3d9+233 5d5+1000 2d6+4 pound
--2 -2 -2 6
-EIJKU 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABT 4|8|32|128 16
 #10219
 çiftçi jen~
 Jen~
@@ -291,12 +201,7 @@ Jen~
 a rather tall man who works hard for his money.
 ~
 human~
-2 0 800 0
-23 0 5d10+450 5d5+1000 3d6+6 punch
--6 -6 -6 4
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 23
 #10220
 manav krista~
 Krista~
@@ -306,12 +211,7 @@ a pretty woman who works hard for her money. Travelling every year
 to the market to sell her fruits.
 ~
 human~
-2 0 800 0
-24 0 5d10+500 5d5+1000 2d10+6 punch
--6 -6 -6 4
-EIK 0 0 0
-stand stand female 1000
-0 0 medium 0
+2 0 24
 #10221
 janni~
 Janni~
@@ -320,12 +220,7 @@ Janni burada.
 Janni has spent his whole life making trinkets for people to enjoy.
 ~
 human~
-2 0 800 0
-22 0 5d10+400 5d5+1000 4d4+6 punch
--5 -5 -5 5
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 22
 #10222
 Nisi bakkal~
 Nisi~
@@ -334,12 +229,7 @@ Bakkal Nisi burada.
 Nisi is a very interesting person. It shows in the wares she sells
 ~
 human~
-2 0 800 0
-24 0 5d10+500 5d5+1000 2d10+6 punch
--6 -6 -6 4
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 24
 #10223
 biracý molin~
 Molin~
@@ -348,12 +238,7 @@ Biracý Molin burada.
 Molin is a grey old man with hair down to his toes.
 ~
 human~
-2 0 800 0
-24 0 5d10+500 5d5+1000 2d10+6 punch
--6 -6 -6 4
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 24
 #10224
 çiftçi rashan~
 Rashan~
@@ -362,12 +247,7 @@ Rashan~
 Rashan is a middle aged man who grows his rutabagas by candlelight.
 ~
 human~
-2 0 800 0
-21 0 4d10+1360 5d5+1000 8d9+5 pound
--5 -5 -5 5
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 21
 #10225
 lexie~
 Lexie~
@@ -377,12 +257,7 @@ Lexie is an accomplish diver. But he seems to have problems keeping
 students.
 ~
 human~
-2 0 800 0
-25 0 5d10+550 5d5+1000 2d10+7 pound
--7 -7 -7 4
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 25
 #10226
 kroben~
 Kroben~
@@ -392,12 +267,7 @@ Kroben is a young man who learned the art of container making from his
 grandfather.
 ~
 human~
-2 0 800 0
-25 0 5d10+550 5d5+1000 2d10+7 pound
--7 -7 -7 4
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 25
 #10227
 otik sandat barmen~
 Otik Sandat~
@@ -409,12 +279,7 @@ Otik whispers, "A magical staff! I bet it was forged by demons from the
 terrible Darken Wood. There are terrible mysteries in that place, there are."
 ~
 human~
-2 0 800 0
-27 0 5d10+1650 5d5+1000 5d8+7 pound
--8 -8 -8 4
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 27
 #10228
 tika barmen~
 Tika~
@@ -426,12 +291,7 @@ looks older than her 19 years. Rough living has hardened her and she
 presents a tough image as protection against her sense of vulnerablility.
 ~
 human~
-2 0 800 0
-16 0 3d9+233 5d5+1000 2d6+4 punch
--2 -2 -2 6
-EIK 0 0 0
-stand stand female 1000
-0 0 medium 0
+2 0 16
 #10229
 hýrsýz siluet gizli~
 Hýrsýz~
@@ -441,12 +301,7 @@ A thin, cloaked figure sits alone at a table near the door, an untouched
 glass of ale before him.
 ~
 human~
-ABS 0 800 0
-17 0 3d9+258 5d5+1000 3d4+4 pound
--3 -3 -3 6
-EFIKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABS 0 17
 #10230
 yaþlý adam~
 yaþlý adam~
@@ -455,12 +310,7 @@ Yaþlý bir adam burada.
 he looks like an old man....go figure..
 ~
 human~
-2 0 800 0
-13 0 2d10+170 5d5+100 2d5+3 punch
--1 -1 -1 6
-EK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 13
 #10231
 çocuk~
 çocuk~
@@ -473,12 +323,7 @@ ago! If only I could catch it. He who walks the paths of the white stag is
 blessed, I hear tell."
 ~
 human~
-2 0 800 0
-7 0 2d6+85 5d5+100 1d8+1 punch
-4 4 4 8
-E 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 7
 #10232
 yumurcak~
 yumurcak~
@@ -487,12 +332,7 @@ Oldukça sevimli bir yumurcak burada.
 he looks like a pain in the ass.
 ~
 human~
-2 0 800 0
-10 0  2d7+121 5d5+100 2d4+2 punch
-1 1 1 7
-EK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 10
 #10233
 büyücü~
 büyücü~
@@ -501,12 +341,7 @@ Bir büyücü görüyorsun.
 He is the typical adventurer. He looks as if he has travelled far.
 ~
 human~
-2 0 800 0
-14 0 2d10+190 5d5+100 1d12+3 punch
--1 -1 -1 6
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 14
 #10234
 hýrsýz~
 hýrsýz~
@@ -515,12 +350,7 @@ Bir hýrsýz burada.
 He is the typical adventurer. He looks as if he has travelled far.
 ~
 human~
-ABS 0 800 0
-12 0 2d10+150 5d5+100 1d10+3 punch
-0 0 0 7
-EFIJN 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABS 0 12
 #10235
 savaþçý~
 savaþçý~
@@ -529,12 +359,7 @@ Bir savaþçý burada.
 He is the typical adventurer. He looks as if he has travelled far.
 ~
 human~
-AT 0 800 0
-16 0 3d9+233 5d5+1000 2d6+4 pound
--2 -2 -2 6
-CDEKI 0 0 0
-stand stand male 1000
-0 0 medium 0
+AT 0 16
 #10236
 tehu~
 tehu~
@@ -543,12 +368,7 @@ Bir tehu burada.
 He is the typical adventurer. He looks as if he has travelled far.
 ~
 human~
-ABQ 0 800 0
-19 0 3d9+308 5d5+1000 2d7+5 pound
--4 -4 -4 5
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABQ 0 19
 #10237
 hayalet kumarbaz~
 kumarbazýn hayaleti~
@@ -557,12 +377,7 @@ Bir kumarbazýn hayaleti burada, üzerine bahse gireceði birþeyler arýyor.
 Even in death this sad spirit is looking to gamble.
 ~
 human~
-2 0 -200 0
-10 0  2d7+121 5d5+100 2d4+2 charge
-1 1 1 7
-E 0 0 0
-stand stand none 1000
-0 0 medium 0
+2 0 10
 #10238
 çocuk~
 çocuk~
@@ -570,25 +385,15 @@ Bir çocuk görüyorsun, yerde bulduðu böcekleri aðzýna atýyor.
 ~
 ~
 human~
-1 0 800 0
-5 0 2d6+60 5d5+100 1d6+1 punch
-5 5 5 9
-0 0 0 0
-stand stand male 1000
-0 0 medium 0
+1 0 5
 #10239
 sýçan~
 sýçan~
 Büyük bir sýçan burada.
 ~
 ~
-rat~
-1|4|64 65536 -100 0
-5 0 2d6+60 5d5+100 1d6+1 charge
-5 5 5 9
-0 0 0 0
-stand stand none 1000
-0 0 medium 0
+lizard~
+1|4|64 65536 5
 #10240
 yarasa~
 yarasa~
@@ -596,12 +401,7 @@ Büyük bir yarasa görüyorsun.
 ~
 ~
 bat~
-2|32 8 100 0
-5 0 2d6+60 5d5+100 1d6+1 charge
-5 5 5 9
-0 0 0 0
-stand stand none 1000
-0 0 medium 0
+2|32 8 5
 #10241
 yaþlý haným~
 yaþlý haným~
@@ -609,12 +409,7 @@ Yaþlý bir haným görüyorsun.
 ~
 ~
 human~
-1|4|64 0 100 0
-8 0 2d7+96 5d5+100 1d7+2 punch
-3 3 3 8
-0 0 0 0
-stand stand male 1000
-0 0 medium 0
+1|4|64 0 8
 #10242
 yorgun maceracý~
 yorgun maceracý~
@@ -622,12 +417,7 @@ Yorgun bir maceracý burada, dinleniyor.
 ~
 ~
 human~
-2 0 100 0
-13 0 2d10+170 5d5+100 2d5+3 punch
--1 -1 -1 6
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 13
 #10243
 magnus büyücü~
 Magnus~
@@ -635,12 +425,7 @@ Büyücü Magnus burada, dinleniyor.
 ~
 ~
 human~
-ABR 0 100 0
-19 0 3d9+308 5d5+1000 2d7+5 punch
--4 -4 -4 5
-0 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABR 0 19
 #10244
 lord kader~
 Kader Lordu~
@@ -648,12 +433,7 @@ Kader Lordu burada, dinleniyor.
 ~
 ~
 human~
-ABT 0 100 0
-18 0 3d9+283 5d5+1000 2d7+4 pound
--3 -3 -3 6
-CDEIJK 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABT 0 18
 #10245
 dýþ ticaret temsilcisi~
 Dýþ Ticaret Temsilcisi~
@@ -661,12 +441,7 @@ Bir temsilci burada, muhafýz yüzbaþýsýyla görüþmeyi bekliyor.
 ~
 ~
 human~
-2 0 100 0
-14 0 2d10+190 5d5+100 1d12+3 punch
--1 -1 -1 6
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2 0 14
 #10246
 koruma~
 koruma~
@@ -674,12 +449,7 @@ Bir koruma görüyorsun.
 ~
 ~
 human~
-ABT 0 100 0
-16 0 3d9+233 5d5+1000 2d6+4 pound
--2 -2 -2 6
-CDEIKTU 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABT 0 16
 #10247
 yüzbaþý sekreter~
 Sekreter~
@@ -690,12 +460,7 @@ The Secretary says 'Sorry, but the Captain is extremely busy today'.
 The Secretary says 'Please sit down and have a seat in the meantime'.
 ~
 human~
-2 0 100 0
-25 0 5d10+550 5d5+1000 2d10+7 pound
--7 -7 -7 4
-EIK 0 0 0
-stand stand female 1000
-0 0 medium 0
+2 0 25
 #10248
 teðmen sekreter~
 Sekreter~
@@ -706,12 +471,7 @@ The Secretary says 'Sorry, but the Lieutenant is extremely busy today'.
 The Secretary says 'Please sit down and have a seat in the meantime'.
 ~
 human~
-2 0 100 0
-20 0  3d9+333 5d5+1000 2d8+5 slap
--4 -4 -4 5
-EIK 0 0 0
-stand stand female 1000
-0 0 medium 0
+2 0 20
 #10249
 sekreter çavuþ~
 Sekreter~
@@ -722,12 +482,7 @@ The Secretary says 'Sorry, but the Sergeant is extremely busy today'.
 The Secretary says 'Please sit down and have a seat in the meantime'.
 ~
 human~
-2 0 100 0
-15 0 3d9+208 5d5+100 2d6+3 pound
--2 -2 -2 6
-EIK 0 0 0
-stand stand female 1000
-0 0 medium 0
+2 0 15
 #10250
 papaðan~
 papaðan~
@@ -736,12 +491,7 @@ Bir papaðan görüyorsun, kuyruðunu oynatýp saða sola sallanýyor.
 The macaw looks like a strong, fearless fighter. It is a beautiful bird.
 ~
 song bird~
-6 0 0 0
-12 0 2d10+150 5d5+100 1d10+3 claw
-0 0 0 7
-F 0 0 0
-stand stand either 1000
-0 0 medium 0
+6 0 12
 #10251
 kuzgun~
 kuzgun~
@@ -750,12 +500,7 @@ Büyük, siyah bir kuzgun burada.
 The raven looks like a strong, fearless fighter.
 ~
 human~
-6 0 0 0
-15 0 3d9+208 5d5+100 2d6+3 claw
--2 -2 -2 6
-EK 0 0 0
-stand stand none 1000
-0 0 medium 0
+6 0 15
 #10252
 doðan avcý~
 doðan~
@@ -765,12 +510,7 @@ The hawk looks like a strong, fearless fighter. It has been trained for
 hunting game.
 ~
 song bird~
-6 0 0 0
-18 0 3d9+283 5d5+1000 2d7+4 claw
--3 -3 -3 6
-EF 0 0 0
-stand stand either 1000
-0 0 medium 0
+6 0 18
 #10253
 savaþ þahin~
 þahin~
@@ -780,12 +520,7 @@ The battle falcon looks like a strong, fearless fighter. This giant breed has
 been trained especially for combat.
 ~
 song bird~
-6 0 0 0
-21 0 4d10+360 5d5+1000 4d4+5 claw
--5 -5 -5 5
-EF 0 0 0
-stand stand either 1000
-0 0 medium 0
+6 0 21
 #0
 
 

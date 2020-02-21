@@ -11,8 +11,7 @@ Maxvnum 5699
 Path 6d 4g 2d g 2d a g 4y k a 4k d 3k d y~
 END
 
-#MOBILES
-
+#NEW_MOBILES
 #5600
 arako yiyecek satýcýsý~
 yiyecek satýcýsý~
@@ -22,12 +21,7 @@ A fat bird with shiny feathers.  He eyes you cautiously and suggests you LIST
 his wares.
 ~
 song bird~
-ABG T 0 0
-30 0 7d10+800 1d8+200 4d8+13 crush
--25 -25 -25 -25
-EF 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG T 30
 #5601
 arako kuþ nadide mal satýcýsý~
 nadide mal satýcýsý~
@@ -37,12 +31,7 @@ A tall skinny bird with many black feathers.  He eyes you harshly and
 suggests you LIST his rare, imported wares.
 ~
 song bird~
-ABGN T 0 0
-34 0 12d10+900 1d8+200 5d8+10 crush
--25 -25 -25 -25
-EF 0 0 0
-stand stand male 10000
-0 0 medium 0
+ABGN T 34
 #5602
 ziynet eþyasý satýcýsý kuþ arako~
 ziynet eþyasý satýcýsý~
@@ -53,12 +42,7 @@ suggesting you LIST her wares, but decides she doesn't want to part with any of
 them.
 ~
 song bird~
-ABG T 0 0
-34 0 8d10+900 1d8+200 5d9+10 crush
--25 -25 -25 -25
-0 0 0 0
-stand stand male 10000
-0 0 medium 0
+ABG T 34
 #5603
 arako kuþ çocuk oðlan~
 çocuk~
@@ -68,12 +52,7 @@ The child is very curious about everything about you.  He looks you over hoping
 you will give him a shiny piece of metal or a pretty stone.
 ~
 song bird~
-ACGHM PT 100 0
-15 -1 2d20+200 2d4+180 2d6+3 crush
--3 -2 -3 7
-0 0 0 0
-stand stand male 340
-0 0 medium 0
+ACGHM PT 15
 #5604
 arako kuþ çocuk kýz~
 çocuk~
@@ -83,12 +62,7 @@ The child is very curious about everything about you.  She looks you over
 hoping you will give her a shiny piece of metal or a pretty stone.
 ~
 song bird~
-ACGHM PT -100 0
-16 0 2d20+210 2d4+180 2d6+3 crush
--3 -2 -3 7
-EFNU 0 0 0
-stand stand male 440
-0 0 medium 0
+ACGHM PT 16
 #5605
 arako kuþ hayvan doldurma sanatçýsý~
 hayvan doldurma sanatçýsý~
@@ -101,12 +75,7 @@ jagged scar on the left side of the taxidermist's face suggests that he can
 hold his own in a scrape.
 ~
 song bird~
-ABGN T -200 0
-23 0 7d10+900 1d8+180 5d4+13 crush
--25 -25 -25 -25
-EFNU ABCD 0 0
-stand stand male 1000
-0 0 medium 0
+ABGN T 23
 #5606
 arako kuþ hayvan doldurma sanatçýsý~
 hayvan doldurma sanatçýsý~
@@ -119,12 +88,7 @@ jagged scar on the right side of the taxidermist's face suggests that he can
 hold his own in a scrape.
 ~
 song bird~
-ABGN T 0 0
-34 0 10d10+900 1d8+180 5d9+13 claw
--25 -25 -25 -25
-EF 0 0 0
-stand stand male 10000
-0 0 medium 0
+ABGN T 34
 #5608
 arako kuþ çocuk topal~
 topal arako~
@@ -135,12 +99,7 @@ of a cliff.  He won't be able to fly until his arm bone has knitted back
 together again.
 ~
 song bird~
-ABG 0 -100 0
-14 0 2d12+150 1d1+99 2d5+4 crush
--3 -3 -3 5
-EF 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG 0 14
 #5609
 kuþ arako askeri komutan~
 výzýldayan komutan~
@@ -150,12 +109,7 @@ The humming commander was moving tokens representing Aarakocran
 soldiers around a map, but he pushes that aside and lunges at your throat!
 ~
 song bird~
-ABCFG DFHQT 0 0
-30 0 3d30+1200 1d9+250 4d6+8 crush
--9 -9 -9 5
-CEFR A 0 0
-stand stand male 1000
-0 0 medium 0
+ABCFG DFHQT 30
 #5610
 kutsal komutan arako kuþ~
 ýþýldayan komutan~
@@ -165,12 +119,7 @@ The commander was calculating a new backbreaking tax on an abacus, but
  he pushes that aside and lunges at your throat!
 ~
 song bird~
-ABCFG DFHNQT 0 0
-30 0 3d30+1200 1d9+250 6d4+8 crush
--9 -9 -9 5
-CEFR 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABCFG DFHNQT 30
 #5611
 arako kuþ savaþçý acýmasýz~
 acýmasýz savaþçý~
@@ -180,12 +129,7 @@ The proud Aarakocran warrior defends his city against all threats.  He has
 decided you are a threat.  Prepare to die, dirt dweller!
 ~
 song bird~
-AFG DFT -100 0
-27 0 5d10+650 4d60+4 5d4+7 crush
--5 -6 -6 5
-CEFIR 0 0 0
-stand stand male 1000
-0 0 medium 0
+AFG DFT 27
 #5612
 arako kuþ muhafýz yapýlý~
 yapýlý muhafýz~
@@ -195,12 +139,7 @@ The proud Aarakocran warrior defends his city against all threats.  He has
 decided you are a threat.  Prepare to die, dirt dweller!
 ~
 song bird~
-ABFGT DFT 100 5612
-24 0 20d6+470 4d60+4 2d10+6 crush
--6 -6 -6 6
-CDEFIJKR 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABFGT DFT 24
 #5613
 kuþ arako devrimci~
 devrimci~
@@ -213,12 +152,7 @@ much better off before merchant outsiders corrupt Aarakocran ideals.  You
 represent such a threat, and you can see his eyes smoldering with inner hatred.
 ~
 song bird~
-ABGH CDFT 100 0
-24 0 20d8+430 4d60+4 2d10+6 crush
--6 -6 -6 4
-EF 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABGH CDFT 24
 #5614
 kuþ arako ývýr zývýrcý~
 ývýr zývýrcý~
@@ -228,12 +162,7 @@ A fat bird with a bad slouch.  He is festooned with all kinds of shiny and dull
 metal objects.  His name is Fred.  He asks if you are interested in a bargain?
 ~
 song bird~
-ABCGN T 0 0
-34 0 1d1+30000 1d80+20 5d4+40 crush
--25 -25 -25 -25
-CEF ABCD 0 0
-stand stand male 1000
-0 0 medium 0
+ABCGN T 34
 #5615
 arako tüccar kuþ~
 tüccar~
@@ -243,12 +172,7 @@ The business man has an intent look in his eye.  He is much to busy to be
 concerned with you...
 ~
 song bird~
-ACHN PT -100 0
-16 0 20d5+200 2d4+180 2d6+4 crush
--2 -2 -2 7
-CEF 0 0 0
-stand stand female 1000
-0 0 medium 0
+ACHN PT 16
 #5616
 arako yönetici kadýn kuþ~
 yönetici kadýn~
@@ -259,12 +183,7 @@ having your kind here is an insult to her people.  She considers slaying you,
 but decides you will probably get killed soon without her help.
 ~
 song bird~
-ACGHN PT -100 0
-16 0 2d7+250 2d4+180 2d6+4 crush
--2 -1 -3 5
-ECF 0 0 0
-stand stand female 1000
-0 0 medium 0
+ACGHN PT 16
 #5617
 kuþ arako klancý~
 klancý~
@@ -274,12 +193,7 @@ The clansman pulls a fat, juicy grub worm from the ground and pops it into his
 beak.  Your mouth waters as you imagine the delicate texture of the grub.
 ~
 song bird~
-ACGHM PT -100 0
-18 0 2d9+300 2d4+180 2d7+4 crush
--4 -4 -4 7
-CEFR 0 0 0
-stand stand male 1000
-0 0 medium 0
+ACGHM PT 18
 #5618
 kuþ arako yüzbaþý~
 yüzbaþý~
@@ -290,12 +204,7 @@ can still hold her own in a scrape.  The bald patches in her feathers are not a
 sign of disease but reminders of the day she slew two dragons singlehandedly.
 ~
 song bird~
-ABFG DFT -100 0
-28 0 5d10+560 4d60+40 5d4+7 crush
--8 -8 -8 5
-CEFR 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABFG DFT 28
 #5619
 kuþ arako sekreter~
 sekreter~
@@ -307,12 +216,7 @@ impressively, and you notice this is the first aarakocran you have seen with
 really beefy legs as a powerful KICK knocks the wind out of you.
 ~
 song bird~
-ABFG DFT -100 0
-25 0 5d10+550 4d60+40 2d10+7 crush
--7 -7 -7 6
-CEF 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABFG DFT 25
 #5620
 kuþ arako silah satýcýsý~
 silah satýcýsý~
@@ -325,12 +229,7 @@ for a large metal furnace.
    He looks powerful enough to claw your face to shreds with a single swath.
 ~
 song bird~
-ABGN T 0 0
-34 0 10d10+1500 1d8+200 5d10+30 crush
--25 -25 -25 -25
-CEFIR 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABGN T 34
 #5621
 arako kuþ zýrhçý~
 zýrhçý~
@@ -340,12 +239,7 @@ As the armorer looks up at you, the hammer comes down upon his claw and he
 lets out a piercing shriek.
 ~
 song bird~
-ABG T 0 0
-34 0 11d11+1500 1d8+200 5d6+30 crush
--25 -25 -25 -25
-CEFIKR 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG T 34
 #5622
 kuþ arako kutsal lonca efendisi~
 kutsal lonca efendisi~
@@ -355,12 +249,7 @@ The shaman's plumage is generally a drab grey, but there is a tremendous
 orange and yellow starburst on her chest.
 ~
 song bird~
-ABGKO HT 0 0
-30 0 10d10+1200 1d1+99 5d9+16 crush
--25 -25 -25 -25
-CEFIKR ABCD 0 0
-stand stand male 1000
-0 0 medium 0
+ABGKO HT 30
 #5623
 arako kuþ suikastçi hýrsýz lonca efendisi~
 sessiz lonca efendisi~
@@ -369,12 +258,7 @@ Lonca efendisi burada, büyük bir kilitle uðraþýyor.
 Paraný SAY!
 ~
 song bird~
-ABGKS T 0 0
-19 0 10d10+400 1d8+20 10d5+10 crush
--25 -25 -25 -25
-EFIKNR ABCD 0 0
-stand stand male 1000
-0 0 medium 0
+ABGKS T 19
 #5624
 arako kuþ savaþçý güçlü lonca efendisi~
 güçlü lonca efendisi~
@@ -385,12 +269,7 @@ muscles rippling down his legs, wings, and chest.  He has an air of command and
 military discipline.
 ~
 song bird~
-ABKT T 0 0
-30 0 1d1+1500 1d8+200 5d9+15 crush
--25 -25 -25 -25
-CDEFIJKR ABCD 0 0
-stand stand male 1000
-0 0 medium 0
+ABKT T 30
 #5625
 kuþ arako þehir muhafýzý~
 þehir muhafýzý~
@@ -400,12 +279,7 @@ The cityguard is charged with keeping peace within the city.  She is especially
 on the lookout for the person who stole from the military treasury last week.
 ~
 song bird~
-ACGT T 1000 0
-19 0 2d6+310 1d1+99 2d7+5 crush
--4 -4 -4 2
-CDEFIR 0 0 0
-stand stand female 1000
-0 0 medium 0
+ACGT T 19
 #5626
 kuþ arako þehir muhafýzý~
 þehir muhafýzý~
@@ -415,12 +289,7 @@ The cityguard is charged with keeping peace within the city.  He is especially
 on the lookout for the person who stole from the military treasury last week.
 ~
 song bird~
-ACG T 1000 0
-17 0 2d6+260 1d1+99 3d4+4 crush
--4 -4 -4 6
-CDEFR 0 0 0
-stand stand male 1000
-0 0 medium 0
+ACG T 17
 #5627
 kuþ arako þehir muhafýzý~
 þehir muhafýzý~
@@ -430,12 +299,7 @@ The cityguard is charged with defending the temple against invaders from the
 north.
 ~
 song bird~
-ABCG T 1000 5627
-18 0 2d6+260 1d1+99 4d3+4 crush
--4 -4 -4 6
-CDEFIR 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABCG T 18
 #5628
 yarasa küçük~
 küçük yarasa~
@@ -455,12 +319,7 @@ A recipe comes to mind...
    (leg of a small bat also makes a handy snack!)
 ~
 bat~
-ABFH 0 -400 0
-5 0 1d6+55 1d4+36 1d6+1 grep
-7 7 7 9
-0 0 0 0
-stand stand male 1000
-0 0 small 0
+ABFH 0 5
 #5629
 kobold~
 kobold~
@@ -474,12 +333,7 @@ his pitiful life, but occasionally closes his eyes and lets out a whimpering
 moan.
 ~
 kobold~
-AB P 1000 0
-1 0 1d6+10 1d1+49 1d4+0 smash
-9 9 9 9
-0 0 0 0
-stand stand male 1000
-0 0 small 0
+AB P 1
 #0
 
 #OBJECTS

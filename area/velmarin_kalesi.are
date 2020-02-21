@@ -12,7 +12,7 @@ Path 4d 3k 2b 5k d k~
 END
 
 
-#MOBILES
+#NEW_MOBILES
 #15201
 Kral Velmar~
 Kral Velmar~
@@ -24,12 +24,7 @@ belli oluyor.Ayrýca bildiðin gibi kral bütün diyarda sevilen birisi çünkü
 merhametli ve iyi biri.
 ~
 human~
-AB DH 1000 0
-48 0 25d10+3750 479d1+11 6d6+18 punch
--18 -18 -18 3
-AEDK 0 0 D
-stand stand male 10000
-0 0 medium 0
+AB DH 48
 #15202
 Korkunç hayalet~
 Korkunç hayalet~
@@ -38,12 +33,7 @@ Kulaklarý çýnlatan bir çýðlýk duyuyorsun , o da ne korkunç bir hayalet.
 Hayalet gerçekten korkutucu görünüyor!
 ~
 modron~
-ACFHR BDFITU -900 0
-30 0 6d12+778 299d1+1 5d4+7 wrath
--9 -9 -9 1
-FGK A 0 D
-stand stand either 0
-0 0 small 0
+ACFHR BDFITU 30
 #15203
 yael kraliyet muhafýzý~
 Kraliyet Muhafýzý Yael~
@@ -54,12 +44,7 @@ bir savaþçý olduðu belli oluyor. Öyle olmasa Kral'ý koruma görevini ona
 vermezlerdi zaten.
 ~
 human~
-AG 0 800 0
-35 0 10d10+1300 349d1+1 4d7+11 punch
--11 -11 -11 5
-CEFIKR 0 0 0
-stand stand male 5500
-0 0 medium 0
+AG 0 35
 #15204
 setris kraliyet muhafýzý~
 Kraliyet muhafýzý Setris~
@@ -70,12 +55,7 @@ bir savaþçý olduðu belli oluyor. Öyle olmasa Kral'ý koruma görevini ona
 vermezlerdi zaten.
 ~
 human~
-ABG 0 800 0
-36 0 10d10+1400 359d1+1 3d10+11 punch
--12 -12 -12 4
-DEFIKR 0 0 0
-stand stand male 5600
-0 0 medium 0
+ABG 0 36
 #15205
 velin kraliyet muhafýzý~
 kraliyet muhafýzý Velin~
@@ -86,12 +66,7 @@ bir savaþçý olduðu belli oluyor. Öyle olmasa Kral'ý koruma görevini ona
 vermezlerdi zaten.
 ~
 human~
-ABG 0 800 0
-37 0 10d10+1500 367d1+1 3d10+12 punch
--12 -12 -12 4
-CDFIKR 0 0 0
-stand stand male 5700
-0 0 medium 0
+ABG 0 37
 #15206
 lutre kraliyet muhafýzý~
 Kraliyet muhafýzý Lutre~
@@ -102,12 +77,7 @@ bir savaþçý olduðu belli oluyor. Öyle olmasa Kral'ý koruma görevini ona
 vermezlerdi zaten.
 ~
 human~
-AG 0 800 0
-38 0 10d10+1600 379d1+1 5d6+12 punch
--13 -13 -13 4
-CDEIKR 0 0 0
-stand stand male 5800
-0 0 medium 0
+AG 0 38
 #15207
 jochem kraliyet muhafýzý~
 Kraliyet Muhafýzý Jochem~
@@ -117,12 +87,7 @@ Bütün muhafýzlar gibi Jochem de zýrhlý, duruþundan ve yürüyüþündün tecrübeli
 bir savaþçý olduðu belli. Birden çok savaþ görmüþ ve yeni bir tane arýyor!
 ~
 human~
-AG 0 900 0
-39 0 15d10+1700 389d1+1 5d6+13 punch
--13 -13 -13 4
-CDEFKR 0 0 0
-stand stand male 5900
-0 0 medium 0
+AG 0 39
 #15208
 ilda kraliyet muhafýzý~
 Kraliyet muhafýzý Ýlda~
@@ -132,12 +97,7 @@ Bütün muhafýzlar gibi Ýlda da zýrhlý, duruþundan ve yürüyüþündün tecrübeli
 bir savaþçý olduðu belli. Birden çok savaþ görmüþ ve yeni bir tane arýyor!
 ~
 human~
-AG 0 900 0
-40 0 15d10+1850 399d1+1 4d8+13 punch
--13 -13 -13 4
-CDEFIR 0 0 0
-stand stand female 6000
-0 0 medium 0
+AG 0 40
 #15209
 noalis kraliyet muhafýzý~
 Kraliyet muhafýzý Noalis~
@@ -147,12 +107,7 @@ Bütün muhafýzlar gibi Andrew de zýrhlý, duruþundan ve yürüyüþündün tecrübeli
 bir savaþçý olduðu belli. Birden çok savaþ görmüþ ve yeni bir tane arýyor!
 ~
 human~
-AG 0 900 0
-40 0 15d10+1850 399d1+1 4d8+13 punch
--13 -13 -13 4
-CDEFIKR 0 0 0
-stand stand male 6000
-0 0 medium 0
+AG 0 40
 #15210
 Baaf kraliyet muhafýzý~
 Kraliyet muhafýzý Baaf~
@@ -162,12 +117,7 @@ Bütün muhafýzlar gibi Baaf da zýrhlý, duruþundan ve yürüyüþündün tecrübeli
 bir savaþçý olduðu belli. Bu adam güçlü gözüküyor.
 ~
 human~
-AG 0 900 0
-35 0 10d10+1300 349d1+1 4d7+11 punch
--11 -11 -11 6
-EFIKR 0 0 0
-stand stand male 5500
-0 0 medium 0
+AG 0 35
 #15211
 filyen kraliyet muhafýzý~
 Kraliyet muhafýzý Filyen~
@@ -177,12 +127,7 @@ Bütün muhafýzlar gibi Filyen de zýrhlý, duruþundan ve yürüyüþündün tecrübeli
 bir savaþçý olduðu belli. Bir kýz gerektiðinde kötü þeyler yapabilir.
 ~
 human~
-AG 0 900 0
-42 0 25d10+1250 339d1+1 3d12+14 punch
--14 -14 -14 4
-CDIKR 0 0 0
-stand stand female 5400
-0 0 medium 0
+AG 0 42
 #15212
 metka kraliyet muhafýzý kaptaný~
 Kraliyet muhafýzý kaptaný Metka~
@@ -194,12 +139,7 @@ hiç birinin savaþta bu adamý deviremeyeceði bir gerçek. Boyu 2 metre var.
 Ama çok seri hareket ediyor. Etrafýna güç ve güven veren bir havasý var.
 ~
 human~
-AG 0 900 0
-51 0 50d10+5000 469d1+1 5d8+20 punch
--21 -21 -21 2
-CDEFIKR 0 0 0
-stand stand male 9700
-0 0 medium 0
+AG 0 51
 #15213
 savaþ öðretmeni~
 Savaþ öðretmeni~
@@ -208,12 +148,7 @@ Savaþ öðretmeni burada eðitim veriyor.
 Yaþlý ama tecrübeli, bu adam insan elinde yapýlmýþ her silahý kullanabilir.
 ~
 human~
-ABGT 0 950 0
-48 0 25d10+3500 459d1+1 6d6+17 punch
--17 -17 -17 3
-CDEFHIKNR 0 0 0
-stand stand male 10000
-0 0 medium 0
+ABGT 0 48
 #15214
 Herald~
 Herald~
@@ -222,12 +157,7 @@ Herald burada duruyýr.
 Bu genç ve kuvvetli adam kraliyet görüþmelerini yapmakla görevli.
 ~
 human~
-A 0 800 0
-31 0 6d12+928 309d1+1 4d6+9 punch
--10 -10 -10 5
-CDEFIKR 0 0 0
-stand stand male 3000
-0 0 medium 0
+A 0 31
 #15215
 ergan katil~
 Katil Ergan~
@@ -238,12 +168,7 @@ geçirmiþti. Çok iyi bir savaþçý olduðu belli oluyor ama onunla savaþacaksan
 sana acýmayacaðýna emin ol.
 ~
 giant~
-ABCFH 0 -1000 0
-42 0 25d10+2250 419d1+1 3d12+14 punch
--14 -14 -14 4
-BDJ A 0 0
-stand stand male 1000
-0 0 medium 0
+ABCFH 0 42
 #15216
 baþ uþak hanna~
 Baþ uþak Hanna~
@@ -252,12 +177,7 @@ Baþ uþak Hanna burada.
 Mükemmel bir uþak , orta yaþlarýnda ve bakýmlý görünüyor.
 ~
 human~
-A 0 500 0
-33 0 10d10+1100 229d1+1 6d4+10 punch
--11 -11 -11 6
-0 0 0 0
-stand stand male 5300
-0 0 large 0
+A 0 33
 #15217
 kadýn temizlikçi~
 Temizlikçi kadýn~
@@ -266,12 +186,7 @@ Temizlik yapan bir kadýn burada kendini farkettirmeye çalýþýyor.
 Kötü bir iþi olsa da iþini seviyormuþ gibi gözüküyor.
 ~
 çora~
-A 0 800 0
-20 -1 3d9+333 199d1+1 2d8+5 punch
--4 -4 -4 7
-I 0 0 D
-stand stand female 100
-0 0 medium 0
+A 0 20
 #15218
 Hamam böceði~
 Hamam böceði~
@@ -281,12 +196,7 @@ Büyük bir hamam böceði duvarda geziniyor.
 söylerler...
 ~
 centipede~
-A 0 -550 0
-28 0 6d12+703 279d1+1 2d12+7 thrust
--8 -8 -8 6
-E 0 0 D
-stand stand either 10000
-0 0 medium 0
+A 0 28
 #15219
 astrolog~
 Astrolog~
@@ -295,12 +205,7 @@ Astrolog burada bir kitap okuyor.
 Yaþlý ve bilge gözüküyor.
 ~
 human~
-ABR 0 900 0
-45 0 25d10+2750 449d1+1 3d12+14 wrath
--15 -15 -15 -2
-FG 0 0 CD
-stand stand male 10000
-0 0 tiny 0
+ABR 0 45
 #15220
 Astel Kral'ýn Muhafýzý~
 Astel Kral'ýn Muhafýzý~
@@ -310,12 +215,7 @@ Asyel in ikizi gibi gözüküyor. Gerektiðinde kral için canýný vermeye hazýr
 ve gerçekten güçlü bir savaþçý.
 ~
 human~
-AB D 900 15201
-51 0 50d10+5000 509d1+1 5d8+20 punch
--21 -21 -21 2
-CDEFHIKR 0 0 0
-stand stand male 10000
-0 0 medium 0
+AB D 51
 #15221
 Asyel Kral'ýn Muhafýzý~
 Asyel Kral'ýn Muhafýzý~
@@ -325,12 +225,7 @@ Astel in ikizi gibi gözüküyor. Gerektiðinde kral için canýný vermeye hazýr
 ve gerçekten güçlü bir savaþçý.
 ~
 human~
-AB D 900 15201
-51 0 50d10+5000 509d1+1 5d8+20 punch
--21 -21 -21 2
-CDEFHIKR 0 0 0
-stand stand male 10000
-0 0 medium 0
+AB D 51
 #15222
 þef aþçý~
 Þef~
@@ -339,12 +234,7 @@ stand stand male 10000
 Anlaþýlan yaptýðý yemekleri çok fazla tatmýþ. Nasýl denir , biraz þiþman.
 ~
 human~
-AH 0 500 0
-45 0 25d10+3000 449d1+1 8d4+16 punch
--15 -15 -15 4
-EH 0 0 C
-stand stand male 4000
-0 0 medium 0
+AH 0 45
 #15223
 aþçý~
 Aþçý~
@@ -353,12 +243,7 @@ Bir aþçý burada yemek yapmakla meþgul.
 Yapmakta olduðu yemek gerçekten güzel kokuyor þef onu iyi yetiþtirmiþ.
 ~
 human~
-ABH 0 300 0
-41 0 25d10+2000 409d1+1 4d8+14 ounch
--14 -14 -14 4
-EH 0 0 C
-stand stand male 3000
-0 0 medium 0
+ABH 0 41
 #15224
 gestra muhafýz~
 Gestra~
@@ -367,12 +252,7 @@ Gestra , acýmasýz bir tavýrda burada bir kapýyý koruyor.
 Gerçekten büyük onu geçmenin çok zor olduðunu farkediyorsun.
 ~
 human~
-AB D 250 0
-36 0 10d10+1400 359d1+1 3d10+11 punch
--12 -12 -12 5
-CDEFIKR 0 0 0
-stand stand male 3600
-0 0 medium 0
+AB D 36
 #15225
 beild muhafýz~
 Beild~
@@ -381,12 +261,7 @@ Beild , acýmasýz bir tavýrda burada bir kapýyý koruyor.
 Gerçekten büyük onu geçmenin çok zor olduðunu farkediyorsun.
 ~
 human~
-AB D 250 0
-36 0 10d10+1400 359d1+1 3d10+11 punch
--12 -12 -12 5
-CEFIKR 0 0 0
-stand stand male 3600
-0 0 medium 0
+AB D 36
 #15226
 Feldir kraliyet muhafýzý~
 Kraliyet muhafýzý Feldir~
@@ -396,12 +271,7 @@ Bütün muhafýzlar gibi Feldir de zýrhlý, duruþundan ve yürüyüþündün tecrübeli
 bir savaþçý olduðu belli oluyor.
 ~
 human~
-AG 0 800 0
-43 0 25d10+2500 429d1+1 3d12+15 punch
--15 -15 -15 4
-CDFIKR 0 0 0
-stand stand male 6700
-0 0 medium 0
+AG 0 43
 #15227
 Yelde kraliyet muhafýzý~
 Kraliyet muhafýzý Yelde~
@@ -411,12 +281,7 @@ Bütün muhafýzlar gibi Yelde de zýrhlý, duruþundan ve yürüyüþündün tecrübeli
 bir savaþçý olduðu belli oluyor.
 ~
 human~
-AG 0 800 0
-42 0 25d10+2250 419d1+1 3d12+14 punch
--14 -14 -14 4
-CDFIKR 0 0 0
-stand stand male 6200
-0 0 medium 0
+AG 0 42
 #15228
 Garrin kraliyet muhafýzý~
 Kraliyet muhafýzý Garrin~
@@ -426,12 +291,7 @@ Bütün muhafýzlar gibi Gatrin de zýrhlý, duruþundan ve yürüyüþündün tecrübeli
 bir savaþçý olduðu belli. Birden çok savaþ görmüþ ve yeni bir tane arýyor!
 ~
 human~
-AG 0 900 0
-44 0 25d10+2750 439d1+1 8d4+15 punch
--15 -15 -15 4
-DEFIKR 0 0 0
-stand stand male 6400
-0 0 medium 0
+AG 0 44
 #15229
 Ardah kraliyet muhafýzý~
 Kraliyet muhafýzý Ardah~
@@ -441,12 +301,7 @@ Bütün muhafýzlar gibi Ardah de zýrhlý, duruþundan ve yürüyüþündün tecrübeli
 bir savaþçý olduðu belli.Bu adam güçlü gözüküyor.
 ~
 human~
-AG 0 900 0
-41 0 25d10+2000 409d1+1 4d8+14 punch
--14 -14 -14 4
-DEIKR 0 0 0
-stand stand male 6100
-0 0 medium 0
+AG 0 41
 #15230
 cellat~
 Cellat~
@@ -455,12 +310,7 @@ Cellat burada baltasý da elinde!
 Büyük.Çok büyük.Hassan gibi iyi niyetli de deðil!
 ~
 giant~
-ABFTc CDEFGNOVc 1000 0
-60 0 50d10+9500 599d1+1 8d6+28 punch
--30 -30 -30 0
-CDEFGHIJKN 0 0 C
-stand stand male 8457
-0 0 large 0
+ABFTc CDEFGNOVc 60
 
 #0
 

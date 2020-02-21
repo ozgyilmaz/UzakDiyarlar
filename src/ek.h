@@ -1,7 +1,15 @@
 /***************************************************************************
-*    Uzak Diyarlar, Rom2.4b6 tabanlý Türkçe Mud                            *
-*    http://www.uzakdiyarlar.net                                           *
-***************************************************************************/
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+ 
 #if defined(macintosh)
 #include <types.h>
 #else

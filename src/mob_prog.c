@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+ 
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT		           *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -58,7 +70,7 @@ DECLARE_DO_FUN(do_murder);
 DECLARE_DO_FUN(do_help);
 DECLARE_DO_FUN(do_murder);
 int find_path( int in_room_vnum, int out_room_vnum, CHAR_DATA *ch, int depth, int in_zone );
-int lookup_religion_leader (const char *name);
+int lookup_religion_name (const char *name);
 void heal_battle(CHAR_DATA *mob,CHAR_DATA *ch );
 void	say_spell	args( ( CHAR_DATA *ch, int sn ) );
 void	one_hit		args( ( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary) );
@@ -709,11 +721,11 @@ void greet_prog_keeper(CHAR_DATA *mob, CHAR_DATA *ch)
 void speech_prog_templeman(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
 {
 char buf[160];
-int chosen = 0,correct = 1;
+int chosen = 0;
 
 if ( !str_cmp( speech, "din" )|| !str_cmp(speech,"dinler") )
 	mob->status = GIVE_HELP_RELIGION;
-    else if (( chosen = lookup_religion_leader( speech)) != 0 )
+    else if (( chosen = lookup_religion_name( speech)) != 0 )
 	mob->status = RELIG_CHOSEN;
     else  return;
 
@@ -722,50 +734,14 @@ if ( !str_cmp( speech, "din" )|| !str_cmp(speech,"dinler") )
     if (( ch->religion > 0) && (ch->religion < MAX_RELIGION) )
 	{
     sprintf(buf,"Zaten %s yolundasýn.",
-		religion_table[ch->religion].leader);
+		religion_table[ch->religion].name);
 	 do_say(mob,buf);
 	 return;
 	}
-    switch( chosen )
-    {
-	case RELIGION_APOLLON:
-	 if ( !IS_GOOD(ch) && ch->ethos != 1) correct = 0;
-	 break;
-	case RELIGION_ZEUS:
-	 if ( !IS_GOOD(ch) && ch->ethos != 2) correct = 0;
-	 break;
-	case RELIGION_SIEBELE:
-	 if ( !IS_NEUTRAL(ch) && ch->ethos != 2) correct = 0;
-	 break;
-	case RELIGION_EHRUMEN:
-	 if ( !IS_GOOD(ch) && ch->ethos != 3) correct = 0;
-	 break;
-	case RELIGION_AHRUMAZDA:
-	 if ( !IS_EVIL(ch) && ch->ethos != 3) correct = 0;
-	 break;
-	case RELIGION_DEIMOS:
-	 if ( !IS_EVIL(ch) && ch->ethos != 1) correct = 0;
-	 break;
-	case RELIGION_PHOBOS:
-	 if ( !IS_EVIL(ch) && ch->ethos != 2) correct = 0;
-	 break;
-	case RELIGION_ODIN:
-	 if ( !IS_NEUTRAL(ch) && ch->ethos != 1) correct = 0;
-	 break;
-	case RELIGION_MARS:
-	 if ( !IS_NEUTRAL(ch) && ch->ethos != 3) correct = 0;
-	 break;
-    }
-
-    if (!correct)
-      {
-        do_say(mob,(char*)"Bahsettiðin din etiðin ve yöneliminle uyuþmuyor.");
-	return;
-      }
 
     ch->religion = chosen;
     sprintf(buf,"Bundan böyle sonsuza kadar %s yolundasýn.",
-		religion_table[ch->religion].leader);
+		religion_table[ch->religion].name);
     do_say(mob,buf);
     return;
    }
@@ -792,14 +768,14 @@ void greet_prog_templeman(CHAR_DATA *mob, CHAR_DATA *ch)
 }
 
 
-int lookup_religion_leader (const char *name)
+int lookup_religion_name (const char *name)
 {
    int value;
 
    for ( value = 0; value < MAX_RELIGION ; value++)
    {
-	if (LOWER(name[0]) == LOWER(religion_table[value].leader[0])
-	&&  !str_prefix( name,religion_table[value].leader))
+	if (LOWER(name[0]) == LOWER(religion_table[value].name[0])
+	&&  !str_prefix( name,religion_table[value].name))
 	    return value;
    }
 

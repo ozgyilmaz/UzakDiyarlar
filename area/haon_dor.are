@@ -11,7 +11,7 @@ Maxvnum 6199
 Path 5b~
 END
 
-#MOBILES
+#NEW_MOBILES
 #6000
 keresteci garihat~
 Keresteci Garihat~
@@ -22,12 +22,7 @@ burada duruyor. Bir savaþçýnýn düþleyeceði azametine raðmen dünyada
 yaþayan en barýþçýl ve zararsýz canlýlardan biri o.
 ~
 human~
-AG 0 350 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 2
-0 0 medium 0
+AG 0 6
 #6002
 boz ayý~
 boz ayý~
@@ -37,12 +32,7 @@ boz ayý~
 hediye edilen oyuncak ayýlara benzer bir tarafýný göremiyorsun.
 ~
 bear~
-AFG 0 -50 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-FNR 0 0 0
-sleep stand none 0
-0 0 medium 0
+AFG 0 8
 #6003
 vahþi tavþan~
 vahþi tavþan~
@@ -53,12 +43,7 @@ Uzun kulaklý ve büyük ayaklý bir tavþan görüyorsun. Daha dikkatli baktýðýnda
 iyice kýzarmýþ gözleriyle kana susadýðýný anlýyorsun.
 ~
 rabbit~
-AFG 0 -150 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-ENR 0 0 0
-sleep stand none 0
-0 0 medium 0
+AFG 0 3
 #6004
 alaca geyik~
 alaca geyik~
@@ -68,12 +53,7 @@ Uzun ve ince bacaklara sahip, büyük kahverengi gözleriyle etrafý izleyen masum
 bir geyik görüyorsun.
 ~
 human~
-ABEGI D 350 0
-2 0 2d7+21 1d9+100 1d5+0 none
-8 8 8 10
-EFNU 0 0 0
-stand stand female 0
-0 0 medium 0
+ABEGI D 2
 #6005
 kahverengi tilki~
 kahverengi tilki~
@@ -82,12 +62,7 @@ Kahverengi bir tilki görüyorsun, avlayacak tavþan arýyor.
 Kýzýl-kahverengi uzun tüyleriyle güzel ve iri bir tilki görüyorsun.
 ~
 fox~
-AG 0 -50 0
-2 0 2d7+21 1d9+100 1d5+0 none
-8 8 8 10
-ENR 0 0 0
-stand stand none 0
-0 0 medium 0
+AG 0 2
 #6100
 özürlü kurt~
 özürlü kurt~
@@ -98,12 +73,7 @@ topal. Hemcinsleriyle kapýþmýþ ve ellerinden kurtulmuþ olabilir. Topallýðý
 onu daha tehlikeli yapmýþ.
 ~
 human~
-AFG 0 -350 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AFG 0 5
 #6101
 boz kurt~
 boz kurt~
@@ -113,12 +83,7 @@ Oldukça iri bir boz kurt görüyorsun. Sivri diþlerini geçirebileceði bir av
 peþindeymiþ gibi duruyor.
 ~
 human~
-AFG 0 -350 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AFG 0 5
 #6102
 kara kurt~
 kara kurt~
@@ -128,12 +93,7 @@ Oldukça iri bir kara kurt görüyorsun. Sivri diþlerini geçirebileceði bir av
 peþindeymiþ gibi duruyor.
 ~
 wolf~
-AFG 0 -150 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-ENR 0 0 0
-stand stand none 0
-0 0 medium 0
+AFG 0 3
 #6103
 kara kurt~
 kara kurt~
@@ -143,12 +103,7 @@ Oldukça iri bir kara kurt görüyorsun. Sivri diþlerini geçirebileceði bir av
 peþindeymiþ gibi duruyor.
 ~
 wolf~
-AFG 0 -150 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-ENR 0 0 0
-stand stand none 0
-0 0 medium 0
+AFG 0 3
 #6112
 yeþil yelbüke~
 yeþil yelbüke~
@@ -160,12 +115,7 @@ the nicks in the horns on its head.  It smells as disgusting as only dragons
 do.
 ~
 dragon~
-ABFG D -1000 0
-45 50 5d10+1550 12d9+400 2d40+20 none
--27 -27 -27 -10
-EFNR 0 0 0
-stand stand none 2500
-0 0 medium 0
+ABFG D 45
 #6115
 buçukluk sargug~
 Sargug~
@@ -176,12 +126,7 @@ tangled brown beard.  He wears ragged brown and green clothing and looks as if
 he is having great fun.
 ~
 human~
-ACEH BDP 1000 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand male 50
-0 0 medium 0
+ACEH BDP 10
 #6116
 yaþlý dindar~
 yaþlý dindar~
@@ -191,12 +136,7 @@ The druid looks quite old.  You would think him venerable, but you know
 he would be a tough foe.
 ~
 human~
-ABCFQ D 0 0
-17 0 3d9+258 17d9+100 2d6+4 none
--3 -3 -3 6
-EIKU 0 0 0
-stand stand male 250
-0 0 medium 0
+ABCFQ D 17
 #6117
 lonca efendi~
 lonca efendisi~
@@ -206,12 +146,7 @@ Lonca efendisi burada bekliyor.
 still hang over his clothes from last camouflage.
 ~
 human~
-ABKRV DEFZ 1000 0
-66 0 1d1+24999 1d1+999 6d18+24 chop
--90 -90 -90 -70
-FG ABD C 0
-stand stand male 0
-0 0 medium 0
+ABKRV DEFZ 66
 #0
 #OBJECTS
 #6000

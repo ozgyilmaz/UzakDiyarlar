@@ -11,7 +11,7 @@ Maxvnum 1799
 Path 6d 4g 2d g 2d a d~
 END
 
-#MOBILES
+#NEW_MOBILES
 #1601
 katil kurbaða~
 katil kurbaða~
@@ -20,12 +20,7 @@ Bir katil kurbaða suyun üzerinde yükseliyor.
 The killer frog looks ravenous.
 ~
 human~
-ABFG 0 -300 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand none 1
-0 0 medium 0
+ABFG 0 5
 #1602
 taþ gargohol~
 taþ gargohol~
@@ -34,12 +29,7 @@ Taþtan bir gargohol seni izliyor.
 As you look, the figure seems to shift and move ...
 ~
 human~
-ABFGH 0 -400 0
-9 0 2d6+110 4d9+100 1d8+2 none
-2 2 2 8
-EFNU 0 0 0
-stand stand male 20
-0 0 medium 0
+ABFGH 0 9
 #1603
 kýzgýn gargohol~
 kýzgýn gargohol~
@@ -48,12 +38,7 @@ Kýzgýn bir gargohol dikkatle seni izliyor.
 He looks ready to attack!
 ~
 human~
-ACFG 0 -600 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand male 25
-0 0 medium 0
+ACFG 0 10
 #1604
 elit gargohol~
 elit gargohol~
@@ -62,12 +47,7 @@ Bir elit gargohol bu odayý meraklýlarýn gözlerine karþý koruyor.
 He snarls at you and says LEAVE OR DIE!
 ~
 human~
-ABC 0 -600 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNU 0 0 0
-stand stand male 40
-0 0 medium 0
+ABC 0 12
 #1605
 gargohol þaman~
 gargohol þaman~
@@ -76,12 +56,7 @@ Gargohol þaman savaþa hazýrlanýyor!
 She says 'I can SEE you! I have been waiting ...'.
 ~
 human~
-ABCGQ DF -900 0
-13 0 2d10+170 13d9+100 1d10+3 none
--1 -1 -1 7
-EIKU 0 0 0
-stand stand female 150
-0 0 medium 0
+ABCGQ DF 13
 #1606
 etçil bitki~
 etçil bitki~
@@ -90,12 +65,7 @@ Büyük bir etçil bitki seni yakalamaya çalýþýyor!
 The plant looks something like a Venus fly-trap, only MUCH larger.
 ~
 human~
-ABFG 0 0 0
-9 0 2d6+110 4d9+100 1d8+2 none
-2 2 2 8
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABFG 0 9
 #1607
 korkunç ogre~
 korkunç ogre~
@@ -104,12 +74,7 @@ Büyük ve korkunç bir ogre parçaladýðý etleri yiyor.
 It thinks that perhaps you would make a better meal.
 ~
 ogre~
-ABCFG 0 -200 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-sit stand none 60
-0 0 medium 0
+ABCFG 0 10
 #1608
 gölge kara~
 gölge~
@@ -118,12 +83,7 @@ Kara bir gölge odanýn içinde hareket ediyor.
 The Shadow is vaguely humanoid. Two glowing pinpoints look at you.
 ~
 human~
-ACFG BDF -1000 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand none 45
-0 0 medium 0
+ACFG BDF 10
 #1609
 kara savaþçý~
 kara savaþçý~
@@ -132,12 +92,7 @@ Kara bir savaþçý gölgelerin içinde gizleniyor!
 He glares at you savagely and charges!
 ~
 human~
-ABCFG DF -1000 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNU 0 0 0
-stand stand male 110
-0 0 medium 0
+ABCFG DF 12
 #1610
 iriyarý minotor~
 iriyarý minotor~
@@ -146,12 +101,7 @@ iriyarý minotor~
 This powerful creature wonders whether to kill you or not ...
 ~
 human~
-ACG D -600 0
-14 0 2d10+190 7d9+100 1d12+3 none
--1 -1 -1 8
-EFNU 0 0 0
-stand stand male 75
-0 0 medium 0
+ACG D 14
 #1612
 vahþi minotor~
 vahþi minotor~
@@ -160,12 +110,7 @@ Kana susamýþ vahþi bir minotor ganimetlerini sayýyor.
 He looks up at you and screams 'SO! Coming to steal my hoard!'
 ~
 human~
-ABCFG D -600 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABCFG D 15
 #1613
 minotor yüzbaþý~
 yüzbaþý~
@@ -174,12 +119,7 @@ Minotor Yüzbaþýsý'ný görüyorsun!
 He looks at you, and a sinister grin slowly spreads on his face ...
 ~
 human~
-ABCFG D -900 0
-17 0 3d9+258 8d9+100 3d4+4 none
--3 -3 -3 7
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABCFG D 17
 #1614
 kara puding~
 kara puding~
@@ -188,12 +128,7 @@ Kocaman kara bir puding odanýn ortasýnda hareket ediyor!!
 It is a huge black blob that oozes about the room. Its heading toward YOU!
 ~
 human~
-ACFG 0 -1000 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ACFG 0 15
 #1615
 küçük golem~
 küçük golem~
@@ -202,12 +137,7 @@ Küçük bir golem giriþi koruyor.
 The golem appears to be made of some kind of clay, enchanted to come to life!
 ~
 golem~
-ABG D 0 0
-16 0 3d9+233 8d9+100 2d6+4 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABG D 16
 #1616
 kadim vivern~
 kadim vivern~
@@ -216,12 +146,7 @@ Büyük ve kadim bir vivern varlýðýna gülüyor...
 It thunders loudly 'I must protect my Master's wealth!'
 ~
 wyvern~
-ACFG DF -1000 0
-18 0 3d9+283 9d9+100 2d7+4 none
--3 -3 -3 7
-EFNU 0 0 0
-stand rest male 0
-0 0 medium 0
+ACFG DF 18
 #1617
 hayalet~
 hayalet~
@@ -230,12 +155,7 @@ Bir hayalet yavaþ yavaþ maddeleþiyor!
 Terror fills your heart as you view this master of the undead.
 ~
 human~
-ACFG BDH -1000 0
-19 0 3d9+308 9d9+100 2d7+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ACFG BDH 19
 #1702
 avcý~
 avcý~
@@ -244,12 +164,7 @@ Bir avcý elindeki hayvan postlarýný sayýyor.
 The trapper is clad mostly in the fur of various animals he's caught.
 ~
 human~
-AC 0 0 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 6
-0 0 medium 0
+AC 0 6
 #1704
 avcý~
 avcý~
@@ -258,12 +173,7 @@ Taze bir ceset taþýyan avcý dinleniyor.
 The hunter is rugged and sturdy from his occupation.
 ~
 human~
-AC 0 0 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-rest stand male 6
-0 0 medium 0
+AC 0 8
 #1706
 korucu~
 korucu~
@@ -272,12 +182,7 @@ Amansýz bir korucu bir masaya yaslanmýþ dinleniyor.
 The years of wanderings have left the ranger hardened and strong.
 ~
 human~
-ACG D 200 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNU 0 0 0
-rest stand male 0
-0 0 medium 0
+ACG D 12
 #1707
 þef korucu~
 þef korucu~
@@ -286,12 +191,7 @@ Korucularýn þefi seni izliyor.
 This individual has quite a reputation at the local trading posts!
 ~
 human~
-ABC D 300 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABC D 15
 #1708
 korucularýn lordu~
 Korucularýn Lordu~
@@ -299,97 +199,62 @@ Korucularýn Lordu'nun gözleri senin üzerinde.
 ~
 ~
 human~
-ABC D 400 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABC D 20
 #1710
-erkek ciren~
-ciren~
-Erkek bir ciren etrafý dolaþýyor.
+erkek pardus~
+pardus~
+Erkek bir pardus etrafý dolaþýyor.
 ~
-The ciren has the upper torso of a man and lower body of a horse.
+The pardus has the upper torso of a man and lower body of a horse.
 ~
-ciren~
-AC 0 200 0
-7 0 2d6+85 3d9+100 1d8+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 6
-0 0 medium 0
+pardus~
+AC 0 7
 #1711
-diþi ciren~
-ciren~
-Diþi bir ciren etrafý dolaþýyor.
+diþi pardus~
+pardus~
+Diþi bir pardus etrafý dolaþýyor.
 ~
-The ciren has the upper torso of a woman and lower body of a horse.
+The pardus has the upper torso of a woman and lower body of a horse.
 ~
-ciren~
-AC 0 200 0
-7 0 2d6+85 3d9+100 1d8+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand female 5
-0 0 medium 0
+pardus~
+AC 0 7
 #1712
-yaþlý ciren~
-yaþlý ciren~
-Yaþlý bir ciren köþede dinleniyor.
+yaþlý pardus~
+yaþlý pardus~
+Yaþlý bir pardus köþede dinleniyor.
 ~
-This ciren has lived a full life.
+This pardus has lived a full life.
 ~
-ciren~
-AC 0 200 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-rest rest male 5
-0 0 medium 0
+pardus~
+AC 0 6
 #1714
-yaþlý ciren~
-yaþlý ciren~
-Yaþlý bir ciren seni izliyor.
+yaþlý pardus~
+yaþlý pardus~
+Yaþlý bir pardus seni izliyor.
 ~
 The elders act as counselors and advisors to the chief.
 ~
-ciren~
-ABC B 200 0
-9 0 2d6+110 4d9+100 1d8+2 none
-2 2 2 8
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+pardus~
+ABC B 9
 #1715
-ciren muhafýz güçlü~
-muhafýz ciren~
-Güçlü bir ciren etrafý gözlüyor.
+pardus muhafýz güçlü~
+muhafýz pardus~
+Güçlü bir pardus etrafý gözlüyor.
 ~
 He appears to be blocking entrance to the next room.
 ~
-ciren~
-AB B 200 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+pardus~
+AB B 10
 #1716
-þef ciren~
-þef ciren~
-Cirenlerin þefi dinleniyor.
+þef pardus~
+þef pardus~
+Parduslarýn þefi dinleniyor.
 ~
 He has been the leader of this tribe for many years, and has acquired much
 wisdom.
 ~
-ciren~
-ABC B 200 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNU 0 0 0
-rest stand male 0
-0 0 medium 0
+pardus~
+ABC B 12
 #1720
 sürgün canavar~
 sürgün canavar~
@@ -398,12 +263,7 @@ Bir sürgün etrafý izliyor.
 As you watch this strange creature, its position seems to flicker and shift.
 ~
 human~
-AH 0 0 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AH 0 10
 #0
 #OBJECTS
 #1601

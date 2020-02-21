@@ -1,8 +1,15 @@
 /***************************************************************************
-*    Uzak Diyarlar, Anatolia tabanlý Türkçe Mud                            *
-*    http://www.uzakdiyarlar.net                                           *
-*    https://github.com/yelbuke/UzakDiyarlar                               *
-***************************************************************************/
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+ 
 #if defined(macintosh)
 #include <types.h>
 #include <time.h>
@@ -13,12 +20,19 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <math.h>
 #include "merc.h"
 #include "interp.h"
 
-int hit_roll(int level)
+int hitroll_damroll_hesapla(int level)
 {
-	return ( level / 2 );
+	int seviyenin_yarisi;
+	int seviyenin_onda_biri;
+
+	seviyenin_yarisi = UMAX(1, (ceil) ((float)(level/2)) );
+	seviyenin_onda_biri = UMAX(1, (ceil) ((float)(level/10)) );
+
+	return ( number_range( UMAX(1,seviyenin_yarisi-seviyenin_onda_biri),UMAX(1,seviyenin_yarisi+(2*seviyenin_onda_biri))) );
 }
 
 int damage_dice_0(int level)

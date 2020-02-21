@@ -12,7 +12,7 @@ Path 6d 10k 2d 7k b~
 END
 
 
-#MOBILES
+#NEW_MOBILES
 #23001
 trolok dha'vol~
 Trolok~
@@ -25,12 +25,7 @@ hooves and rams head that is.  It's all too human eyes burn with hatred upon
 spotting you, it picks it's teeth as it prepares to slaughter you.
 ~
 unique~
-ABCFGT DFJ -1000 0
-35 0 10d10+1300 5d5+1000 4d7+11 bite
--11 -11 -11 3
-CDEFIJNQR A 0 R
-stand stand male 1000
-AB ABCDEFGHIJK medium 0
+ABCFGT DFJ 35
 #23002
 myrddraal fade halfman eyeless lurk fetch shadowman~
 Myrddraal~
@@ -43,12 +38,7 @@ by the Dark One's taint.  It turns it's eyeless gaze upon you...  this may be
 your last battle...
 ~
 unique~
-ACFGST DFHJPQ -1000 0
-40 0 15d10+1850 5d5+1000 4d8+13 pound
--13 -13 -13 3
-BEFGHIQ ABL HIJK R
-stand stand male 1000
-AB ABCDEFGHIJK medium 0
+ACFGST DFHJPQ 40
 #23003
 trolok ko'bal~
 Trolok~
@@ -61,12 +51,7 @@ wolf-like jowls that is.  It's all too human eyes burn with hatred upon
 spotting you, it picks it's teeth as it prepares to slaughter you.
 ~
 unique~
-ABCFGT DFJb -1000 0
-35 0 10d10+1300 5d5+1000 4d7+11 bite
--11 -11 -11 3
-CDEFIJNQR A 0 R
-stand stand male 1000
-AB ABCDEFGHIJK medium 0
+ABCFGT DFJb 35
 #23004
 trolok dhai'mon~
 Trolok~
@@ -79,12 +64,7 @@ beak that is.  It's all too human eyes burn with hatred upon spotting you,
 it pecks at the last of it's meal as it prepares to slaughter you.
 ~
 unique~
-ABCFGT DFJTb -1000 0
-35 0 10d10+1300 5d5+1000 4d7+11 bite
--11 -11 -11 3
-CDEFQ A 0 R
-stand stand male 1000
-AB ABCDEFGHIJK medium 0
+ABCFGT DFJTb 35
 #23005
 sürü kuzgun büyük~
 Kuzgun sürüsü~
@@ -95,12 +75,7 @@ As soon as they spot you they descend, a huge black cloud come down to claim
 your flesh.
 ~
 unique~
-ABCFGS J -1000 0
-45 0 25d10+3000 5d5+1000 8d4+16 claw
--15 -15 -15 2
-EFHN ABLQR 0 H
-stand stand none 1000
-A 0 medium 0
+ABCFGS J 45
 #23006
 trolok kno'mon~
 Trolok~
@@ -113,12 +88,7 @@ boar like snout and tusks that is.  It's all too human eyes burn with hatred
 as it charges to attack.
 ~
 unique~
-ABCFGT DFJb -1000 0
-35 0 10d10+1300 5d5+1000 4d7+11 bite
--11 -11 -11 3
-CDEFIJKNQR A 0 R
-stand stand male 1000
-AB ABCDEFGHIJK medium 0
+ABCFGT DFJb 35
 #23007
 yaratýk yaðlý siyah~
 Yaratýk~
@@ -128,12 +98,7 @@ A grotesque black oily creature slides through the roiling black waters of the
 Lake.  It seems quite hostile.
 ~
 unique~
-ABCFGT DFJ -1000 0
-35 0 10d10+1300 5d5+1000 4d7+11 claw
--11 -11 -11 3
-CEFGMOQ ABD HI J
-stand stand none 1000
-AB ABCDEFGHIJKQ medium 0
+ABCFGT DFJ 35
 #23008
 aðaç eðilmiþ~
 Eðilmiþ aðaç~
@@ -143,12 +108,7 @@ Much like the other trees of the blight, this tree is decayed, and black with
 disease.  Unlike the other trees, this one seems a little more lively.
 ~
 unique~
-ABCFGT DFJ -1000 0
-30 0  6d12+853 5d5+1000 4d6+8 charge
--9 -9 -9 3
-CEFHKNQ ABF 0 H
-stand stand none 0
-AB 0 medium 0
+ABCFGT DFJ 30
 #23009
 draghkar~
 Draghkar~
@@ -159,12 +119,7 @@ drawn to the creature, at the last moment you pull away, and pull out your
 weapons.
 ~
 unique~
-ABCFGRT DF -1000 0
-50 0 50d10+4250 5d5+5000 5d8+19 pound
--20 -20 -20 0
-AEFGHJKNQ AB K H
-stand stand none 10000
-AB ABCDEFGHIJK medium 0
+ABCFGRT DF 50
 #23010
 hastalýklý parçalanmýþ biçimsiz vücut yaratýk~
 Hastalýklý yaratýk~
@@ -175,12 +130,7 @@ energy.  The taint of evil has twisted the creature beyond recognition, you
 fell the emense hatred this creature feels for you, it rambles closer...
 ~
 unique~
-ACFGd DFJX -1000 0
-20 0  3d9+333 5d5+1000 2d8+5 charge
--4 -4 -4 5
-CINQ AB 0 0
-stand stand none 1000
-AB ABCDEFGHIJKLMNOPQUVWXY medium 0
+ACFGd DFJX 20
 #23011
 gardiyan gaidan~
 Gardiyan~
@@ -192,12 +142,7 @@ know the man, but you do know he is deadly, and from the looks of him, not to
 be trifled with.
 ~
 human~
-AGTd BDFJNPQZ 1000 0
-40 0 15d10+1850 5d5+1000 4d8+13 pound
--13 -13 -13 3
-EFGHKLPS AB IJKMQ 0
-stand stand male 1000
-AHMV ABCDEFGHIJK medium 0
+AGTd BDFJNPQZ 40
 #23012
 lord~
 Kulenin Lordu~
@@ -209,12 +154,7 @@ behind to protect what he can of the lost kingdom.  You sense no great evil,
 or good, but a sense of purpose.
 ~
 unique~
-ABCFGOTVd DFHJNVZb 0 0
-60 5 50d10+10000 5d5+5000 8d6+28 wrath
--40 -40 -40 -4
-ADEFGHKN ABLQ CD 0
-stand stand male 1000
-C ABCDEFGHIJK medium 0
+ABCFGOTVd DFHJNVZb 60
 #23013
 lord~
 Kulenin Lordu~
@@ -226,12 +166,7 @@ behind to protect what he can of the lost kingdom.  You sense no great evil,
 or good, but a sense of purpose.
 ~
 unique~
-ABCFGOTVd DFHJNVZb 0 0
-60 5 50d10+10000 5d5+5000 8d6+28 wrath
--40 -40 -40 -4
-ADEFGHKN ABLQ CD 0
-stand stand male 1000
-C ABCDEFGHIJK medium 0
+ABCFGOTVd DFHJNVZb 60
 #23014
 ruh asker~
 Ruh~
@@ -244,12 +179,7 @@ they were, but then return to normal.  The spirit could not save these things
 in life.  It intends to try to do it in death.
 ~
 unique~
-ACFGOTd BDFJPUZd 0 0
-45 0 25d10+3000 5d5+1000 8d4+16 magic
--15 -15 -15 2
-EFGHJKNU ALQ 0 NY
-stand stand none 0
-C ABCDEFGHIJK medium 0
+ACFGOTd BDFJPUZd 45
 #23015
 ruh~
 Ruh~
@@ -262,12 +192,7 @@ they were, but then return to normal.  The spirit could not save these things
 in life.  It intends to try to do it in death.
 ~
 unique~
-ACFGOTd BDFJNPUZd 0 0
-45 0 25d10+3000 5d5+1000 8d4+16 magic
--15 -15 -15 2
-EFGHJKNU ABLQ 0 NY
-stand stand none 1000
-C ABCDEFGHIJK medium 0
+ACFGOTd BDFJNPUZd 45
 #23016
 aðaç eðilmiþ~
 Eðilmiþ aðaç~
@@ -277,12 +202,7 @@ Much like the other trees of the blight, this tree is decayed, and black with
 disease.  Unlike the other trees, this one seems a little more lively.
 ~
 unique~
-ABCFGT DFJ -1000 0
-30 0  6d12+853 5d5+1000 4d6+8 magic
--9 -9 -9 3
-CEFHKNQ ABF 0 H
-stand stand none 1000
-AB 0 medium 0
+ABCFGT DFJ 30
 #23017
 aðaç eðilmiþ~
 Eðilmiþ aðaç~
@@ -292,12 +212,7 @@ Much like the other trees of the blight, this tree is decayed, and black with
 disease.  Unlike the other trees, this one seems a little more lively.
 ~
 unique~
-ABCFGT DFJ -1000 0
-30 0  6d12+853 5d5+1000 4d6+8 magic
--9 -9 -9 3
-CEFHKNQ ABF 0 H
-stand stand none 1000
-AB 0 medium 0
+ABCFGT DFJ 30
 #23018
 aðaç eðilmiþ~
 Eðilmiþ aðaç~
@@ -307,12 +222,7 @@ Much like the other trees of the blight, this tree is decayed, and black with
 disease.  Unlike the other trees, this one seems a little more lively.
 ~
 unique~
-ABCFGT DFJ -1000 0
-30 0  6d12+853 5d5+1000 4d6+8 magic
--9 -9 -9 3
-CEFHKNQ ABF 0 H
-stand stand none 1000
-AB 0 medium 0
+ABCFGT DFJ 30
 #23019
 seanchan sul'dam kadýn~
 Sul'Dam~
@@ -324,12 +234,7 @@ appears to be a military uniform almost, but she looks like no warrior you
 have ever seen.
 ~
 human~
-AGHT DFJb 0 0
-40 0 15d10+1850 5d5+1000 4d8+13 shock
--13 -13 -13 3
-EFHIKNU AB C 0
-stand stand female 1000
-AHMV ABCDEFGHIJK medium 0
+AGHT DFJb 40
 #23020
 metal metalik küre garip~
 Metalik küre~
@@ -341,12 +246,7 @@ You see no eyes on the creature, but feel it 'sees' you somehow.  This
 did not come from any land you have ever heard of.
 ~
 unique~
-AGT DFJTZb 0 0
-45 0 25d10+3000 5d5+1000 8d4+16 flame
--15 -15 -15 2
-EFHKP AMQ 0 0
-stand stand none 1000
-E E medium 0
+AGT DFJTZb 45
 #23021
 tilki uzun ince~
 Tilki benzeri insansý~
@@ -359,12 +259,7 @@ smile, and his attire appearing to be made of something like human flesh,
 he seems like a pretty nice guy.
 ~
 unique~
-ACFGHS DFJPV 0 0
-45 0 25d10+3000 5d5+1000 8d4+16 claw
--15 -15 -15 2
-BEFHKNU ABKLQ 0 Z
-stand stand male 1000
-AB ABCDEFGHIJK medium 0
+ACFGHS DFJPV 45
 #23022
 grolm kurbaða dev~
 Grolm~
@@ -375,13 +270,7 @@ skinned nightmare.  That is all you have time to think about until it is time
 to fight.
 ~
 unique~
-AT DFJ 0 0
-45 0 25d10+3000 5d5+1000 8d4+16 punch
--15 -15 -15 2
-CDEF AB 0 0
-stand stand none 1000
-AB ABCDEFGHIJK medium 0
-
+AT DFJ 45
 #0
 
 #OBJECTS

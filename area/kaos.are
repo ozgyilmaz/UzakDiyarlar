@@ -8,11 +8,10 @@ Lowlevel 90
 Highlevel 100
 Minvnum 550
 Maxvnum 559
-Path ~
+Path 35d g b g d~
 END
 
-
-#MOBILES
+#NEW_MOBILES
 #550
 þifacý usta kabal kaos~
 Þifacý~
@@ -22,12 +21,7 @@ Yaþlý, bilge bir tehu yoldaþlarýný kaosla kutsuyor. Onun inancýna göre
 güç uzun bir yaþamda gizlidir.
 ~
 human~
-ABQVae DFH 1000 0
-90 0 1d1+18999 1d1+999 10d40+30 divine
--45 -45 -45 -15
-FHIK ABC D 0
-stand stand male 1000
-0 0 medium 0
+ABQVae DFH 90
 
 #551
 kaosun bekçisi ivan~
@@ -37,12 +31,7 @@ Kaosun bekçisi Ývan giriþi koruyor.
 Kara zýrhý içinde çelik bir duvar gibi Kaos Halkasý'ný koruyor.
 ~
 human~
-ABKWe DFHJVZ 0 0
-92 50 2d500+25000 1d200+1600 10d40+50 slash
--70 -70 -70 -30
-CEFKNU AB 0 S
-stand stand male 5000
-0 0 medium 0
+ABKWe DFHJVZ 93
 #0
 
 #OBJECTS

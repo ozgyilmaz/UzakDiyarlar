@@ -11,7 +11,7 @@ Maxvnum 2199
 Path 6g d 3g d~
 END
 
-#MOBILES
+#NEW_MOBILES
 #2101
 asura çete üyesi~
 bir asura çete üyesi~
@@ -20,12 +20,7 @@ asura çetesinin bir üyesi burada.
 Küçüklükten beri hep þiddet dolu bir yaþamý olmuþ.
 ~
 asura~
-ACEG 0 -100 2100
-5 0 2d6+60 1d1+99 1d6+1 punch
-5 5 5 9
-DFNU 0 0 0
-stand stand male 10
-0 0 medium 0
+ACEG 0 5
 #2102
 umacý çete üyesi~
 bir umacý çete üyesi~
@@ -34,12 +29,7 @@ Bir umacý  çete üyesi burada.
 Dünyayý bütün arbalardan temizlemek istiyor.
 ~
 human~
-ACEG 0 100 2101
-5 0 2d6+60 1d1+99 1d6+1 punch
-5 5 5 9
-FJNR 0 0 0
-stand stand male 10
-0 0 medium 0
+ACEG 0 5
 #2103
 asura çete lideri~
 asura çete lideri~
@@ -49,12 +39,7 @@ Liderliðini ayý gibi güçlü olmasýna ve kurnazlýðýna borçlu.
 Kaslarýndan oldukça kuvvetli olduðunu anlýyorsun.
 ~
 asura~
-ABFGT 0 0 2100
-13 0 2d20+170 1d1+99 2d5+5 punch
--1 -1 -1 8
-CDEKU 0 E 0
-stand stand male 100
-0 0 medium 0
+ABFGT 0 13
 #2104
 çürütücü asura~
 bir çürütücü~
@@ -64,12 +49,7 @@ Oldukça uzun ve aðýr. Kafaný parçalamak için yeterli güce
 sahip gibi. Bu ne biçim bir arba ! !
 ~
 asura~
-ACFGHT D -333 2100
-11 0 4d8+134 1d1+99 1d10+3 punch
-1 1 1 8
-CDKU 0 C 0
-stand stand male 75
-0 0 medium 0
+ACFGHT D 11
 #2105
 bebek kýz~
 bir kýz~
@@ -78,12 +58,7 @@ Bebek gibi bir kýz burada duruyor.
 Çok güzel ( tamam GÖRECELÝ). Sen yine de dokunmaya kalkma!
 ~
 human~
-ACGHS 0 0 0
-7 0 2d6+85 1d1+99 1d8+1 slap
-4 4 4 9
-FHNU 0 0 0
-stand stand female 50
-0 0 medium 0
+ACGHS 0 7
 #2106
 devriye~
 bir devriye~
@@ -92,12 +67,7 @@ Bir devriye barýþý korumaya çalýþýyor.
 Bu pisliklerle birlikte olmaktansa bir tavernada olmalýydý.
 ~
 human~
-AGT 0 700 0
-8 0 2d7+115 1d1+99 1d7+2 punch
-3 3 3 9
-CKLU 0 0 0
-stand stand male 350
-0 0 medium 0
+AGT 0 8
 #2107
 zararcý umacý~
 bir zararcý~
@@ -106,12 +76,7 @@ Bir Umacý burada spreyle duvarlara çetenin sloganlarýný yazýyor.
 Tedbirli gözlere ve bir sanatçýnýn ellerine sahip.
 ~
 human~
-AGHS P -400 2101
-10 0 2d7+121 1d1+99 2d4+2 punch
-1 1 1 8
-FHJNU 0 0 0
-stand stand male 25
-0 0 medium 0
+AGHS P 10
 #2108
 pitbul~
 bir pitbul~
@@ -122,12 +87,7 @@ Senin gýrtlaðýný parçalarken ona yakýndan bakma þansý buldun. Diþleri kan
 içinde. Senden önce kanlý bir biftek yemiþ olabilir! ! !
 ~
 dog~
-ABFG DQ -100 0
-5 2 4d6+60 2d9+100 1d8+1 bite
-5 5 5 9
-CEGQR 0 0 0
-stand stand male 0
-0 0 small 0
+ABFG DQ 5
 #2109
 pank asura~
 bir pank asura~
@@ -136,12 +96,7 @@ Bir pank burada duvara birþeyler oymakla meþgul.
 Ýþ yaparken rehabilite olmanýn tipik bir örneði. Güzel deðil.
 ~
 asura~
-AFHS P -400 2100
-10 0 2d7+121 1d1+99 2d4+2 punch
-1 1 1 8
-CDFJU 0 0 0
-stand stand male 25
-0 0 medium 0
+AFHS P 10
 #2110
 umacý çete lideri~
 umacý çete lideri~
@@ -150,12 +105,7 @@ Umacý çete lideri býçaðýný þaklatýyor.
 arba liderden daha küçük fakat kuþkusuz daha akýllý.
 ~
 human~
-ABFGS 0 0 2101
-13 0 2d10+160 1d1+99 2d5+3 punch
--1 -1 -1 8
-EFHJKNU 0 G 0
-stand stand male 100
-0 0 medium 0
+ABFGS 0 13
 #2111
 katil~
 bir katil~
@@ -165,13 +115,9 @@ Bu kiþi arba çürütücüler kadar büyük deðil fakat umacý ler için yine de
 bir þef.
 ~
 human~
-ACFGHT D -333 2101
-11 0 2d8+134 1d1+99 1d10+2 punch
-1 1 1 8
-JKNU 0 C 0
-stand stand male 75
-0 0 medium 0
+ACFGHT D 11
 #0
+
 #OBJECTS
 #2101
 asura ceketi~
@@ -1851,14 +1797,6 @@ S
 #SHOPS
 0
 #SPECIALS
-M 2101 spec_asura_member   	* a asura gang member
-M 2102 spec_ogre_member    	* an ogre gang member
-M 2103 spec_asura_member   	* the asura gang leader
-M 2104 spec_asura_member   	* a bruiser
 M 2106 spec_patrolman      	* a patrolman
-M 2107 spec_ogre_member    	* a vandal
-M 2109 spec_asura_member   	* a punk
-M 2110 spec_ogre_member    	* the Ogre gang leader
-M 2111 spec_ogre_member    	* a thug
 S
 #$

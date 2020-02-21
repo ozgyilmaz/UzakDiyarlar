@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+ 
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -108,7 +120,7 @@ int lang_lookup (const char *name)
    int lang;
 
    if (LOWER(name[0]) == 'a' && (!str_prefix(name,"analisan")) )
-   return MAX_LANGUAGE;
+    return MAX_LANGUAGE;
 
    for (lang = 0; lang < MAX_LANGUAGE; lang++)
    {

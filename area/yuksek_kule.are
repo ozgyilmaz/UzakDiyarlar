@@ -11,7 +11,7 @@ Maxvnum 1499
 Path 3g 2d 2g 6b k b k 3b k b k~
 END
 
-#MOBILES
+#NEW_MOBILES
 #1300
 gölge muhafýz~
 bir gölge muhafýz~
@@ -20,12 +20,7 @@ Gölge muhafýzý çýðlýk atarak saldýrýyor.
 Gölge muhafýzý karanlýk dýþýnda hiçbir þeyden yapýlmýþ gibi görünmüyor.
 ~
 human~
-ACFG BDJP -350 0
-7 0 2d6+110 4d9+100 1d8+2 none
-2 2 2 8
-EFNU 0 0 0
-stand stand none 5
-0 0 medium 0
+ACFG BDJP 7
 #1301
 maceracý~
 kaybolmuþ bir maceracý~
@@ -34,12 +29,7 @@ Sýska bir maceracý burada, kayýp ve umutsuz görünüyor.
 Bitkin ve hasta görünüyor; þüphesiz ki uzun süredir burada kayýp.
 ~
 human~
-ABCHQ 0 400 0
-8 0 2d7+96 8d9+100 1d7+2 none
-3 3 3 8
-EIKU 0 0 0
-sit stand male 14
-0 0 medium 0
+ABCHQ 0 8
 #1302
 edgar~
 edgar~
@@ -50,12 +40,7 @@ Selenge'in en iyi dövüþ ustasý, güçlü tavþan katilinin kendisi Korkunç Edgar
 duruyor! ! '
 ~
 human~
-ACEH 0 1000 0
-1 0 2d6+10 0d9+100 1d4+0 none
-9 9 9 10
-EFNU 0 0 0
-stand stand male 1
-0 0 medium 0
+ACEH 0 1
 #1303
 elmas golem~
 golem~
@@ -64,12 +49,7 @@ Devasa bir elmas golem burada nöbet tutuyor.
 Gayet güçlü görünüyor
 ~
 golem~
-ABG D 500 0
-23 0 5d10+450 11d9+100 3d6+6 none
--6 -6 -6 6
-EFNU 0 0 0
-stand stand none 49
-0 0 medium 0
+ABG D 23
 #1304
 genç büyücü~
 bir büyücü~
@@ -79,12 +59,7 @@ Hayat, aþk ve evrenin gizemleri üzerine düþünüyor gibi. Ayný zamanda baþý
 aðrýyor gibi.
 ~
 human~
-AGHR D 450 0
-10 0 2d6+110 10d9+100 1d8+1 none
-2 2 2 6
-FU 0 0 0
-stand stand male 21
-0 0 medium 0
+AGHR D 10
 #1305
 strick barmen~
 barmen strick~
@@ -93,12 +68,7 @@ Strick burada, müþterilere içkilerini havadan gönderiyor.
 Çok zararsýz görünüyor, uyuyan bir ejderin zararsýz göründüðü gibi.
 ~
 human~
-ABG D 750 0
-25 0 5d10+550 12d9+100 2d10+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand male 100
-0 0 medium 0
+ABG D 25
 #1306
 tatorious büyücü~
 tatorious~
@@ -107,12 +77,7 @@ Büyücü Tatorious burada kazandýklarýný sayýyor.
 Tatorious gereksiz bir þekilde sana göz kýrpýyor.
 ~
 human~
-ABGR D 900 0
-25 0 5d10+500 25d9+100 4d4+6 none
--6 -6 -6 2
-FU 0 0 0
-stand stand male 250
-0 0 medium 0
+ABGR D 25
 #1307
 ezmerelda aþçý~
 ezmerelda~
@@ -120,12 +85,7 @@ Aþçý Ezmeralda burada, içinde birþeyler olan bir kap karýþtýrýyor.
 ~
 ~
 human~
-ABGR D -500 0
-20 0 3d9+308 20d9+100 3d4+4 none
--4 -4 -4 3
-FU 0 0 0
-stand stand female 54
-0 0 medium 0
+ABGR D 20
 #1308
 asistan büyücü~
 aþçý'nýn asistaný~
@@ -133,12 +93,7 @@ Aþçý'nýn asistaný burada aþçýya yardým ediyor.
 ~
 ~
 human~
-ABGHR D -200 0
-11 0 2d7+121 11d9+100 1d7+2 none
-1 1 1 6
-FU 0 0 0
-stand stand male 5
-0 0 medium 0
+ABGHR D 11
 #1309
 mahkum~
 mahkum~
@@ -150,12 +105,7 @@ belki baðýrmasýný engellemek için, belki de büyü yapmasýný engellemek için.
 Delirmiþ görünüyor, þüphesiz ki burada ona iyi bakýlmamýþ.
 ~
 human~
-ABCFGHR 0 100 0
-16 0 3d9+208 16d9+100 2d5+3 none
--2 -2 -2 4
-FU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABCFGHR 0 16
 #1310
 muhafýz büyücü~
 muhafýz~
@@ -164,12 +114,7 @@ Muhafýz burada, rahat bir þekerleme yapýyor.
 Çok kirli görünüyor.
 ~
 human~
-ABGR D 100 0
-17 0 3d9+233 17d9+100 1d12+3 none
--2 -2 -2 4
-FU 0 0 0
-sleep sleep male 66
-0 0 medium 0
+ABGR D 17
 #1311
 süpürge~
 bir süpürge~
@@ -178,12 +123,7 @@ Bir çalý süpürgesi burada, bir duvara yaslanmýþ
 Süpürge "Al bunu, hödük!" Diye çýðlýk atýyor.
 ~
 human~
-ABCFGS DF 50 0
-7 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 8
-BEFJNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABCFGS DF 7
 #1312
 zayýf muhafýz eller~
 bedeninden ayrýlmýþ bir çift el~
@@ -192,12 +132,7 @@ Bedeninden ayrýlmýþ bir çift el burada, havada süzülüyor.
 Eller birini boðazlamayý beklercesine seðiriyor.
 ~
 human~
-AFG 0 -400 0
-9 0 2d6+110 4d9+100 1d8+2 none
-2 2 2 8
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AFG 0 9
 #1313
 muhafýz dev gözler~
 bedeninden ayrýlmýþ bir çift göz~
@@ -206,12 +141,7 @@ Bedeninden ayrýlmýþ bir çift göz burada, havada süzülürken sana bakýyor.
 Gözler öfke ile yanýyor
 ~
 human~
-AFG D -600 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AFG D 15
 #1314
 büyücü ziyaretçi~
 büyücü~
@@ -220,12 +150,7 @@ Ziyaretçi büyücü burada, derin bir uykuda ve horluyor.
 Oldukça uykulu görünüyor
 ~
 human~
-ABCGHR D 250 0
-12 0 2d8+134 12d9+100 1d8+2 none
-1 1 1 6
-FU 0 0 0
-sleep sleep male 36
-0 0 medium 0
+ABCGHR D 12
 #1315
 çýrak genç~
 genç, çýrak büyü kullanýcýsý~
@@ -234,12 +159,7 @@ Genç, çýrak büyü kullanýcýsý burada, büyülü derslerini çalýþýyor
 Kendini çalýþmasýna oldukça kaptýrmýþ görünüyor.
 ~
 human~
-ABGHR 0 400 0
-7 0 2d7+71 7d9+100 1d5+1 none
-4 4 4 7
-FU 0 0 0
-sit sit female 18
-0 0 medium 0
+ABGHR 0 7
 #1316
 çýrak genç~
 genç bir çýrak~
@@ -248,12 +168,7 @@ Genç bir çýrak burada, kendi kendine büyülü sözler mýrýldanýyor.
 Ezberlemeye çalýþtýðý büyüler yüzünden etrafa oldukça umursamaz görünüyor.
 ~
 human~
-ABGHR 0 380 0
-7 0 2d7+71 7d9+100 1d5+1 none
-4 4 4 7
-FU 0 0 0
-stand stand male 24
-0 0 medium 0
+ABGHR 0 7
 #1317
 çýrak genç~
 genç bir çýrak~
@@ -262,12 +177,7 @@ Genç bir çýrak burada uyuyor
 Rüya görüyor gibi.
 ~
 human~
-ABGHR 0 350 0
-7 0 2d7+71 7d9+100 1d5+1 none
-4 4 4 7
-FU 0 0 0
-sleep sleep male 10
-0 0 medium 0
+ABGHR 0 7
 #1318
 çýrak genç~
 genç bir çýrak~
@@ -276,12 +186,7 @@ Genç bir çýrak burada köþeye sýkýþmýþ bir kediyi korkutuyor.
 Yaramaz bir genç gibi görünüyor.
 ~
 human~
-ABGHR 0 -200 0
-7 0 2d7+71 7d9+100 1d5+1 none
-4 4 4 7
-FU 0 0 0
-stand stand male 19
-0 0 medium 0
+ABGHR 0 7
 #1319
 kedi yavru~
 küçük bir kedi yavrusu~
@@ -291,12 +196,7 @@ Küçük tüy topu çok mutsuz görünüyor. Yanýk tüyleri ve derisi, üzerinde
 izler býrakmýþ.
 ~
 human~
-ABGH 0 500 0
-1 0 2d6+10 0d9+100 1d4+0 none
-9 9 9 10
-EFNU 0 0 0
-stand stand female 0
-0 0 medium 0
+ABGH 0 1
 #1320
 öðrenci~
 bir öðrenci~
@@ -305,12 +205,7 @@ Oldukça sýkýlmýþ görünen bir büyü öðrencisi burada
 Öðrenci esniyor.
 ~
 human~
-ABGHR 0 350 0
-8 0 2d6+85 8d9+100 1d6+1 none
-4 4 4 7
-FU 0 0 0
-sit sit male 13
-0 0 medium 0
+ABGHR 0 8
 #1321
 öðretmen büyücü~
 bir büyü öðretmeni~
@@ -319,12 +214,7 @@ Büyü öðretmeni senin rahatsýz ediþinle beraber sana saldýrýyor.
 Onu rahatsýz ettiðin için çok kýzgýn görünüyor.
 ~
 human~
-ABFGR D 300 0
-14 0 2d10+170 14d9+100 1d10+2 none
--1 -1 -1 5
-FU 0 0 0
-stand stand male 44
-0 0 medium 0
+ABFGR D 14
 #1322
 öðrenci~
 bir büyü öðrencisi~
@@ -333,12 +223,7 @@ Bir büyü öðrencisi burada ileri seviye görünmezlik pratik ediyor.
 Öðrenci büyüyü pratik ederken var olup yok oluyor.
 ~
 human~
-ABGHR BD 400 0
-8 0 2d6+85 8d9+100 1d6+1 none
-4 4 4 7
-FU 0 0 0
-stand stand male 9
-0 0 medium 0
+ABGHR BD 8
 #1323
 öðretmen büyücü~
 bir büyü öðretmeni~
@@ -346,12 +231,7 @@ Büyü öðretmeni senin rahatsýz ediþinle beraber sana saldýrýyor.
 ~
 ~
 human~
-ABFGR BD 300 0
-15 0 2d10+190 15d9+100 1d10+3 none
--1 -1 -1 5
-FU 0 0 0
-stand stand male 62
-0 0 medium 0
+ABFGR BD 15
 #1324
 öðrenci~
 bir büyü öðrencisi~
@@ -360,12 +240,7 @@ Sýrasýnda uyuyakalmýþ bir büyü öðrencisi burada.
 Öðrenci þiddetli sýkýntýdan yýkýlmýþ görünüyor.
 ~
 human~
-ABGHR D 400 0
-9 0 2d7+96 9d9+100 1d7+1 none
-3 3 3 7
-FU 0 0 0
-sleep sleep female 28
-0 0 medium 0
+ABGHR D 9
 #1325
 büyücü konuþmacý~
 bir büyücü~
@@ -373,12 +248,7 @@ Yaþlý bir büyücü burada konuþma yapýyor.
 ~
 ~
 human~
-ABGHR D 400 0
-18 0 3d9+258 18d9+100 2d6+3 none
--3 -3 -3 4
-FU 0 0 0
-stand stand male 123
-0 0 medium 0
+ABGHR D 18
 #1326
 genç büyücü~
 genç bir büyücü~
@@ -386,12 +256,7 @@ Genç bir büyücü burada çýplak elle dövüþ öðreniyor
 ~
 ~
 human~
-ABGHR D 300 0
-9 0 2d7+96 9d9+100 1d7+1 none
-3 3 3 7
-FU 0 0 0
-stand stand male 34
-0 0 medium 0
+ABGHR D 9
 #1327
 dövüþ usta~
 dövüþ ustasý~
@@ -401,12 +266,7 @@ Oldukça kuvvetli görünüyor. Aslýnda bir büyü kullanýcýsýndan çok bir
 savaþçýya benziyor.
 ~
 human~
-ABFGR D 200 0
-17 0 3d9+233 17d9+100 1d12+3 none
--2 -2 -2 4
-FU 0 0 0
-stand stand female 160
-0 0 medium 0
+ABFGR D 17
 #1328
 büyücü öðretmen~
 bir büyü öðretmeni~
@@ -414,12 +274,7 @@ Bir büyü öðretmeni burada dinleniyor
 ~
 ~
 human~
-ABGR D 200 0
-15 0 2d10+190 15d9+100 1d10+3 none
--1 -1 -1 5
-FU 0 0 0
-rest rest male 50
-0 0 medium 0
+ABGR D 15
 #1329
 büyücü~
 yaþlý bir büyücü~
@@ -427,12 +282,7 @@ Yaþlý bir büyücü burada uyuyor
 ~
 ~
 human~
-ABFGHR D 350 0
-20 0 3d9+308 20d9+100 3d4+4 none
--4 -4 -4 3
-FU 0 0 0
-sleep sleep male 78
-0 0 medium 0
+ABFGHR D 20
 #1330
 yazman büyücü~
 bir yazman~
@@ -440,12 +290,7 @@ Bir el yazmasý üzerinde çalýþan bir yazman burada.
 ~
 ~
 human~
-ABCGHR D 400 0
-14 0 2d10+170 14d9+100 1d10+2 none
--1 -1 -1 5
-FU 0 0 0
-stand stand male 15
-0 0 medium 0
+ABCGHR D 14
 #1331
 yazman büyücü~
 bir yazman~
@@ -455,12 +300,7 @@ Oldukça þirin bir kýz. Fakat ne yazýk ki tek ilgi alaný üzerinde
 çalýþtýðý kelimeler.
 ~
 human~
-ABGHR D 500 0
-15 0 2d10+190 15d9+100 1d10+3 none
--1 -1 -1 5
-FU 0 0 0
-stand stand female 34
-0 0 medium 0
+ABGHR D 15
 #1332
 baþ yazman~
 baþ yazman~
@@ -470,12 +310,7 @@ Oldukça yaþlý görünüyor, derisi bir kýrýþýktan baþka birþey deðil. Baþ
 yazman; "Ne cüretle öneml iþlerimi bölersin ? ? ?" Diye çýðlýk atýyor.
 ~
 human~
-ABFGHR D 100 0
-22 0 4d10+360 22d9+100 2d7+5 none
--5 -5 -5 3
-FU 0 0 0
-stand stand male 281
-0 0 medium 0
+ABFGHR D 22
 #1333
 asistan yazman~
 yazman'ýn asistaný~
@@ -483,12 +318,7 @@ Yazmanýn asistaný burada, parþömenleri katlýyor
 ~
 ~
 human~
-ABFGHR D 100 0
-16 0 3d9+208 16d9+100 2d5+3 none
--2 -2 -2 4
-FU 0 0 0
-stand stand male 52
-0 0 medium 0
+ABFGHR D 16
 #1334
 usta efsuncu büyücü~
 efsuncu~
@@ -496,12 +326,7 @@ Efsuncu burada, iyi yapýlmýþ bir kýlýcýn üzerine büyü yapýyor.
 ~
 ~
 human~
-ABGKRe D 0 0
-43 30 5d100+6400 23d9+100 2d8+35 none
--35 -35 -35 -23
-F AB 0 0
-stand stand male 340
-0 0 medium 0
+ABGKRe D 43
 #1335
 kýlýç danseden~
 danseden bir kýlýç~
@@ -510,12 +335,7 @@ danseden bir kýlýç~
 Oldukça keskin görünüyor.
 ~
 human~
-ABFG 0 -500 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABFG 0 10
 #1336
 simyacý~
 deli simyacý~
@@ -526,12 +346,7 @@ dönüyor ve salyalarý akmaya baþlýyor. Deli Simyacý kafasýný arkaya atýp deli
 gibi kýkýrdýyor.
 ~
 human~
-ABCFGHR D 150 0
-24 0 5d10+450 24d9+100 4d4+5 none
--6 -6 -6 2
-FU 0 0 0
-stand stand male 117
-0 0 medium 0
+ABCFGHR D 24
 #1337
 usta çaðrý~
 çaðrý ustasý~
@@ -539,12 +354,7 @@ usta çaðrý~
 ~
 ~
 human~
-ABFGHR D -200 0
-22 0 4d10+360 22d9+100 2d7+5 none
--5 -5 -5 3
-FU 0 0 0
-stand stand male 50
-0 0 medium 0
+ABFGHR D 22
 #1338
 usta teshir~
 teshir ustasý~
@@ -553,12 +363,7 @@ Usta teshirci þu sözleri mýrýldanýyor, 'uuuzzldctz'.
 Teshir ustasý sana doðru ilerliyor, her zaman yeni bir evcil hayvan arýyor.
 ~
 human~
-ABFR D -400 0
-23 0 5d10+400 23d9+100 2d8+5 none
--5 -5 -5 3
-FU 0 0 0
-stand stand male 233
-0 0 medium 0
+ABFR D 23
 #1339
 golem tahta~
 tahta golem~
@@ -567,12 +372,7 @@ Tahta golem buradaki merdivenlerde sessizce nöbet tutuyor
 Yanýcý görünüyor.
 ~
 golem~
-ABFG D 100 0
-16 0 3d9+233 8d9+100 2d6+4 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand none 50
-0 0 medium 0
+ABFG D 16
 #1340
 usta baðlayýcý~
 usta büyü baðlayýcýsý~
@@ -581,12 +381,7 @@ Usta büyü baðlayýcýsý burada, kararmýþ bir deðneði yeniliyor.
 Usta büyü baðlayýcýsý sana hýrlýyor ve saldýrýyor.
 ~
 human~
-ABCFGHR D -500 0
-23 0 5d10+400 23d9+100 2d8+5 none
--5 -5 -5 3
-FU 0 0 0
-stand stand male 115
-0 0 medium 0
+ABCFGHR D 23
 #1341
 usta yapýcý~
 golem ustasý~
@@ -594,12 +389,7 @@ Golem ustasý burada, bir taþý yontuyor.
 ~
 ~
 human~
-ABFGR D 300 0
-21 0 3d9+333 21d9+100 2d7+4 none
--4 -4 -4 3
-FU 0 0 0
-stand stand male 133
-0 0 medium 0
+ABFGR D 21
 #1342
 golem granit~
 granit golem~
@@ -608,12 +398,7 @@ Granitten yapýlmýiþ bir golem burada, efendisnin emirlerini bekliyor
 Bir heykel gibi görünüyor, sana doðru ayaklarýný sürte sürte yürüyene kadar
 ~
 golem~
-ABFG 0 300 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABFG 0 20
 #1343
 golem tunç~
 tunç golem~
@@ -622,12 +407,7 @@ Iþýðýn altýnda parlayan tunç bir golem burada
 Gayet kýt anlayýþlý görünüyor
 ~
 golem~
-ABG 0 350 0
-18 0 3d9+283 9d9+100 2d7+4 none
--3 -3 -3 7
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABG 0 18
 #1344
 golem et~
 et golem~
@@ -637,12 +417,7 @@ Farklý vücut parçalarýndan birleþtirilmiþ gibi görünüyor; bazý parçalar
 insana ait deðil gibi
 ~
 golem~
-ABFG 0 200 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABFG 0 12
 #1345
 golem kumaþ~
 kumaþ golem~
@@ -651,12 +426,7 @@ Kumaþtan yapýlmýþ bir golem ortalýkta geziniyor.
 Bir paçavra yýðýný gibi görünse de þaþýrtýcý bir þekilde, yürüyebiliyor.
 ~
 golem~
-ABCG 0 350 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABCG 0 8
 #1346
 golem adamantit~
 adamantit golem~
@@ -666,12 +436,7 @@ Kara bir metalden dövülmüþ görünüyor. Güçlü ve dayanýklý gibi, fakat
 kesinlikle zeki deðil
 ~
 golem~
-ABCG 0 350 0
-25 0 5d10+550 12d9+100 2d10+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand none 500
-0 0 medium 0
+ABCG 0 25
 #1347
 golem kil~
 kil golem~
@@ -679,12 +444,7 @@ Kilden yapýlmýþ bir golem burada nöbet tutuyor
 ~
 ~
 golem~
-ABCFG D 200 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABCFG D 15
 #1348
 usta gözbaðcý büyücü~
 gözbaðý ustasý~
@@ -694,12 +454,7 @@ Rengarenk üç baþlý bir ejderha sana doðru hýrlýyor.
 yaþlý bir adama dönüþüyor
 ~
 human~
-ABCGKRe CDEFG 150 0
-101 50 1d99+29333 21d9+5100 12d47+60 magic
--104 -104 -104 -53
-F ABC 0 0
-stand stand male 117
-0 0 medium 0
+ABCGKRe CDEFG 101
 #1349
 karakam usta~
 karakam~
@@ -711,12 +466,7 @@ hizmet eden iki parlak alev gölgenin arasýndan görülebiliyor. Karakam
 ciyaklayarak küfürler ediyor ve hizmetkarlarýna saldýrý emri veriyor.
 ~
 human~
-ABCFGHR D -950 0
-25 0 5d10+500 25d9+100 4d4+6 none
--6 -6 -6 2
-FU 0 0 0
-stand stand male 584
-0 0 medium 0
+ABCFGHR D 25
 #1350
 iskelet ölmemiþ~
 canlandýrýlmýþ bir iskelet~
@@ -725,12 +475,7 @@ Canlandýrýlmýþ iskelet sessiz bir çýðlýk atarak saldýrýyor
 Acý hissetmiyor ve sana doðru acýmasýzca hamle yapýyor.
 ~
 human~
-ABFG D -500 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNU 0 0 E
-stand stand none 0
-0 0 medium 0
+ABFG D 15
 #1351
 ölmemiþ dev~
 ölmemiþ bir dev~
@@ -738,12 +483,7 @@ stand stand none 0
 ~
 ~
 human~
-ABCFG D -500 0
-18 0 3d9+283 9d9+100 2d7+4 none
--3 -3 -3 7
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABCFG D 18
 #1352
 cadý çirkin~
 çirkin bir cadý~
@@ -754,12 +494,7 @@ olmasý gereken yerden senin tüyleri diken diken eden bir kýkýrdama sesi
 geliyor.
 ~
 human~
-ABCFGR D -450 0
-20 0 3d9+308 20d9+100 3d4+4 none
--4 -4 -4 3
-FU 0 0 0
-stand stand female 107
-0 0 medium 0
+ABCFGR D 20
 #1353
 kütüphaneci büyücü~
 kütüphaneci~
@@ -768,12 +503,7 @@ Masasýnda uyuyakalmýþ bir kütüphaneci burada.
 Gayet huzurlu yaþlý bir adam.
 ~
 human~
-ABFGHR D 450 0
-23 0 5d10+400 23d9+100 2d8+5 none
--5 -5 -5 3
-FU 0 0 0
-sleep sleep male 64
-0 0 medium 0
+ABFGHR D 23
 #1354
 çýrak~
 usta'nýn çýraðý~
@@ -785,12 +515,7 @@ loncasý hiyerarþisindeki mevkisini sýrf, bir kiþinin asla kendi baþýna açýða
 edebilmek için býrakmýþ.
 ~
 human~
-ABCFGR D 0 0
-24 0 5d10+450 24d9+100 4d4+5 none
--6 -6 -6 2
-FU 0 0 0
-stand stand male 336
-0 0 medium 0
+ABCFGR D 24
 #1355
 kedi gri hizmetkar~
 gri bir kedi~
@@ -801,12 +526,7 @@ bir þekilde mýrýldýyor. Gayet zararsýz görünüyor, büyük pençelerini
 farkedene kadar.
 ~
 cat~
-ABGR BP 0 0
-15 0 2d10+190 15d9+100 1d10+3 none
--1 -1 -1 5
-R 0 0 0
-stand stand female 0
-0 0 medium 0
+ABGR BP 15
 #1356
 efendi lonca gri~
 yansýzlýðýn efendisi~
@@ -815,12 +535,7 @@ Yansýzlýðýn efendisi burada, evrendeki dengeyi düþünüyor.
 Oldukça huzurlu görünüyor.
 ~
 human~
-ABGR DH 0 0
-30 0 6d12+778 30d9+100 5d4+7 none
--9 -9 -9 1
-FU 0 0 0
-stand stand male 767
-0 0 medium 0
+ABGR DH 30
 #1357
 çýrak siyah~
 siyah cüppeli bir çýrak~
@@ -831,12 +546,7 @@ biriymiþ. Yüzündeki yara artýk kalýcý bir yüz ifadesine dönüþmüþ ve bu onu
 oldukça korku verici kýlýyor.
 ~
 human~
-ABCFGR DP -750 0
-20 0 3d9+308 20d9+100 3d4+4 none
--4 -4 -4 3
-FU 0 0 0
-stand stand female 693
-0 0 medium 0
+ABCFGR DP 20
 #1358
 kedi siyah hizmetkar~
 kara kedi~
@@ -846,12 +556,7 @@ Hem huysuz hem de tehlikeli görünüyor. Evcilleþtirme bu durumda
 kesinlikle soru dýþýnda kalýyor.
 ~
 cat~
-ABGR DP -800 0
-16 0 3d9+208 16d9+100 2d5+3 none
--2 -2 -2 4
-R 0 0 0
-stand stand none 0
-0 0 medium 0
+ABGR DP 16
 #1359
 efendi siyah lonca~
 siyah cüppelerin efendisi~
@@ -860,12 +565,7 @@ Siyah cüppelerin efendisi burada, kem iþler planlýyor.
 Efendi sana dik dik bakýyor.
 ~
 human~
-ABCGR DH -1000 0
-30 0 6d12+778 30d9+100 5d4+7 none
--9 -9 -9 1
-FU 0 0 0
-stand stand male 1105
-0 0 medium 0
+ABCGR DH 30
 #1360
 çýrak beyaz~
 beyaz cüppeli bir çýrak~
@@ -875,12 +575,7 @@ veriyor.
 Çok tutucu görünüyor. Çýrak haykýrýyor; "Sen bu onura layýk deðilsin!"
 ~
 human~
-ABFGR D 750 0
-20 0 3d9+308 20d9+100 3d4+4 none
--4 -4 -4 3
-FU 0 0 0
-stand stand male 370
-0 0 medium 0
+ABFGR D 20
 #1361
 kedi beyaz hizmetkar~
 beyaz bir kedi~
@@ -889,12 +584,7 @@ Beyaz bir kedi burada, tüylerini temizliyor.
 Pençeleri olan bir kürk topundan baþka birþeye benzemiyor.
 ~
 cat~
-ABGR DP 800 0
-15 0 2d10+190 15d9+100 1d10+3 none
--1 -1 -1 5
-R 0 0 0
-stand stand none 0
-0 0 medium 0
+ABGR DP 15
 #1362
 efendi lonca beyaz~
 aktularýn efendisi~
@@ -903,12 +593,7 @@ Aktularýn efendisi burada, davetsiz misafirliðinden kaþlarýný çatýyor.
 Kendini birþey sanan bir piç gibi görünüyor.
 ~
 human~
-ABGR DH 1000 0
-30 0 6d12+778 30d9+100 5d4+7 none
--9 -9 -9 1
-FU 0 0 0
-stand stand male 1095
-0 0 medium 0
+ABGR DH 30
 #1363
 kedi renkli hizmetkar~
 renkli bir kedi~
@@ -918,12 +603,7 @@ Bir kediye göre inanýlmaz büyük, kendi türüne göre bir dev. Tek süsü
 üzerinde çok güzel bir mücevher bulunan bir tasma.
 ~
 cat~
-ABGR DP 800 0
-25 0 5d10+500 25d9+100 4d4+6 none
--6 -6 -6 2
-R 0 0 0
-stand stand female 0
-0 0 medium 0
+ABGR DP 25
 #1364
 yüce hanýmefendi~
 yüce hanýmefendi~
@@ -935,12 +615,7 @@ korumuþ. Yüce Hanýmefendi hizmetkarýný okþuyor ve sana güven verici bir
 þekilde gülümsüyor.
 ~
 human~
-ABGKRe DH 0 0
-50 0 50d10+4000 50d9+100 6d6+17 none
--19 -19 -19 -4
-FU AB 0 0
-stand stand female 2500
-0 0 medium 0
+ABGKRe DH 50
 #1365
 büyücü~
 bir büyücü~
@@ -948,13 +623,9 @@ Gezgin bir büyücü kendi kendine mýrýldanýyor.
 ~
 ~
 human~
-ACGR DP 350 0
-17 0 3d9+233 17d9+100 1d12+3 none
--2 -2 -2 4
-FU 0 0 0
-stand stand male 160
-0 0 medium 0
+ACGR DP 17
 #0
+
 #OBJECTS
 #1301
 taþfýrýn siyah~

@@ -11,7 +11,7 @@ Maxvnum 3699
 Path 3d 7g b g~
 END
 
-#MOBILES
+#NEW_MOBILES
 #3600
 bahçývan henry~
 bahçývan henry~
@@ -22,12 +22,7 @@ onyýllarýn yorgunluðu oldukça belirgin. Çömelmi hali ise keder ve
 çöküntünün bir anlatýmý. Kaybolmuþ cennetin hatýrasýnda sürükleniyor.
 ~
 human~
-AG 0 350 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-EFNU 0 0 0
-sit sit male 2
-0 0 medium 0
+AG 0 4
 #3601
 zombi~
 bir çürümüþ zombi~
@@ -36,12 +31,7 @@ bir çürümüþ zombi~
 Çürümüþ vücudunda kurtçuklar geziniyor.
 ~
 human~
-ABF J -750 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-EFNU 0 0 0
-stand stand male 2
-0 0 medium 0
+ABF J 4
 #3602
 hortlak~
 korkunç hortlak~
@@ -51,12 +41,7 @@ O uzun kollarý ve pençeye benzeyen uzun keskin týrnaklarýyla yürüyen bir
 ölü. Koyu sarý gözleriyle aç aç sana bakýyor.
 ~
 human~
-ABF J -750 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 5
-0 0 medium 0
+ABF J 6
 #3603
 iskelet~
 bir tozlu iskelet~
@@ -66,12 +51,7 @@ Tozlu kemiklerin rengi neredeyse kahverengi. Çok uzun zaman önce gömülmüþ
 olmalý.
 ~
 human~
-ABF J -750 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNU 0 0 E
-stand stand male 0
-0 0 medium 0
+ABF J 3
 #3604
 iskelet~
 bir tozlu iskelet~
@@ -81,12 +61,7 @@ Tozlu kemiklerin rengi neredeyse kahverengi. Çok uzun zaman önce gömülmüþ
 olmalý.
 ~
 human~
-AF J -750 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNU 0 0 E
-stand stand male 0
-0 0 medium 0
+AF J 3
 #3605
 zombi~
 bir çürümüþ zombi~
@@ -95,12 +70,7 @@ bir çürümüþ zombi~
 Çürümüþ vücudunda kurtçuklar geziniyor.
 ~
 human~
-AF J -750 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-EFNU 0 0 0
-stand stand male 5
-0 0 medium 0
+AF J 4
 #0
 #OBJECTS
 #3600

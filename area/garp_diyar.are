@@ -11,7 +11,7 @@ Maxvnum 10050
 Path 13b 2k d 3k~
 END
 
-#MOBILES
+#NEW_MOBILES
 #10001
 zargana uzun kuyruklu~
 Uzun kuyruklu bir zargana~
@@ -21,12 +21,7 @@ Koku duyusuyla avlanan dev bir etobur yaratýk görüyorsun. Senin kanýn ise
 oldukça tatlý olmalý çünkü seni farketti ve sana doðru koþuyor. HIZLI OL!
 ~
 dragon~
-ABFT TVb -1000 0
-60 0 50d10+6750 10d10+4000 8d6+28 acbite
--30 -30 -30 0
-BCDEFIKMN AB HIJKO FHQY
-stand stand male 300
-AHZc ADEFIKLPQUVX huge 0
+ABFT TVb 60
 #10002
 zargana uzun kuyruklu~
 Uzun kuyruklu bir zargana~
@@ -36,12 +31,7 @@ Koku duyusuyla avlanan dev bir etobur yaratýk görüyorsun. Senin kanýn ise
 oldukça tatlý olmalý çünkü seni farketti ve sana doðru koþuyor. HIZLI OL!
 ~
 dragon~
-ABFT TVb -1000 0
-46 0 25d10+3250 10d10+3000 6d6+16 acbite
--16 -16 -16 4
-BCDEFIKMN AB HIJKO FHQY
-stand stand male 300
-AHZc ADEFIKLPQUVX huge 0
+ABFT TVb 46
 #10003
 zargana uzun kuyruklu~
 uzun kuyruklu bir zargana~
@@ -51,12 +41,7 @@ Koku duyusuyla avlanan dev bir etobur yaratýk görüyorsun. Senin kanýn ise
 oldukça tatlý olmalý çünkü seni farketti ve sana doðru koþuyor. HIZLI OL!
 ~
 dragon~
-ABFT TVb -947 0
-46 0 25d10+3250 10d10+3000 6d6+16 acbite
--16 -16 -16 4
-BCDEFIKMN AB HIJKO FHQY
-stand stand male 300
-AHZc ADEFIKLPQUVX huge 0
+ABFT TVb 46
 #10004
 sivrisinek~
 Sivrisinek~
@@ -66,12 +51,7 @@ Deforme olmuþ, dev gibi diþleri olan, minik bir böcek görüyorsun. Tenini
 delmek için sabýrsýzlanýyor.
 ~
 unique~
-ABT BGJTVb -200 0
-40 0 25d10+1850 10d10+3000 4d8+13 shbite
--13 -13 -13 5
-BCEFKO EJL J KM
-stand stand male 300
-0 0 tiny 0
+ABT BGJTVb 40
 #10005
 katrat suikastçisi~
 Bir katrat suikastçisi~
@@ -81,12 +61,7 @@ Aðýr zýrhlar içinde tehlikeli ve silahlý bir adam görüyorsun. Suikastçi tipinde
 birine benziyor. Aklýnda tek bir düþünce varmýþ gibi gözüküyor: ÖLDÜRMEK!
 ~
 human~
-ABT Vb -1000 0
-55 0 50d10+5500 10d10+3000 10d4+23 wrath
--25 -25 -25 0
-BCDEFGHIKNV AH BL J
-stand stand male 300
-AHMV ABCDEFGHIJK large 0
+ABT Vb 55
 #10006
 katrat suikastçisi~
 Bir katrat suikastçisi~
@@ -96,12 +71,7 @@ Aðýr zýrhlar içinde tehlikeli ve silahlý bir adam görüyorsun. Suikastçi tipinde
 birine benziyor. Aklýnda tek bir düþünce varmýþ gibi gözüküyor: ÖLDÜRMEK!
 ~
 human~
-ABT Vb -1000 0
-56 0 50d10+6000 10d10+3000 10d4+24 wrath
--25 -25 -25 0
-BCDEFGHIKNV AH BL J
-stand stand male 300
-AHMV ABCDEFGHIJK large 0
+ABT Vb 56
 #10007
 genç bayan~
 Genç bir bayan~
@@ -110,12 +80,7 @@ Bahçesinden çiçek toplayan hoþ, genç bir bayan burada.
 Bahçesinden çiçek toplayan genç bir bayan görüyorsun.
 ~
 human~
-ABT Nb 850 0
-46 0 25d10+3250 10d10+3000 6d6+16 slap
--16 -16 -16 4
-BCDEFGHIK AI 0 0
-stand stand female 300
-AHMV ABCDEFGHIJK medium 0
+ABT Nb 46
 #10008
 balýkçý~
 Bir balýkçý~
@@ -125,12 +90,7 @@ Balýk tutmayý seven uzun boylu bir adam. Görünüþe göre eve götürmek için
 birkaç balýk yakalamak istiyor.
 ~
 human~
-ABT Nb 1000 0
-50 0 25d10+4250 10d10+3000 5d8+19 slap
--20 -20 -20 0
-BCDEFGHIK AI 0 0
-stand stand male 300
-AHMV ABCDEFGHIJK medium 0
+ABT Nb 50
 #10009
 küçük çocuk~
 Küçük bir çocuk~
@@ -140,12 +100,7 @@ Kumdan kale yapan küçük bir çocuk görüyorsun. Kum onun kaleleri için
 mükemmel ve ona katýlmak istediðini hissediyorsun.
 ~
 human~
-ABT Nb 1000 0
-50 0 25d10+4250 10d10+3000 5d8+19 punch
--20 -20 -20 0
-BCDEFGHIK AI 0 0
-stand stand male 300
-AHMV ABCDEFGHIJK small 0
+ABT Nb 50
 #10010
 yürektazýsý~
 bir yürektazýsý~
@@ -157,12 +112,7 @@ Direk kalbe hamle yaptýklarý için bu ismi almýþlardýr. Diðerleri ise
 kalp atýþlarýný duyduklarýný iddia eder.
 ~
 unique~
-AFGT UVZb -1000 0
-55 0 50d10+5500 10d10+3000 10d4+23 acbite
--25 -25 -25 0
-BCDEFGHIKNO 0 0 0
-stand stand male 300
-0 0 huge 0
+AFGT UVZb 55
 #10011
 sözcü~
 bir sözcü~
@@ -174,12 +124,7 @@ beyaz pantolon ve tünik var. Kötü biri gibi deðil. Konuþmasý seni sýkmaya
 baþlýyor ve yoluna koyulmak istiyorsun.
 ~
 human~
-AFGT UVZb 1000 0
-60 0 50d10+6750 10d10+4000 8d6+28 smash
--30 -30 -30 0
-BCDEFGHIKNO A 0 0
-stand stand male 300
-AHMV ABCDEFGHIJK medium 0
+AFGT UVZb 60
 #10012
 mutlu köylü~
 Mutlu bir köylü~
@@ -190,12 +135,7 @@ uzun uzun öpüyor. Sadece sarhoþ mu yoksa tamamen aklýný mý kaçýrdýðýný
 merak etmeye baþlýyorsun.
 ~
 human~
-AFGT UVZb 1000 0
-60 0 50d10+6750 10d10+4000 8d6+28 smash
--30 -30 -30 0
-BCDEFGHIKN A 0 0
-stand stand male 300
-AHMV ABCDEFGHIJK medium 0
+AFGT UVZb 60
 #10013
 þifacý~
 Bir þifacý~
@@ -206,12 +146,7 @@ saçlarý var ve neredeyse yere deðecek kadar uzun, beyaz bir giysi giyiyor.
 Kafasýný dik tutuyor ve yüzünde hoþ bir gülümseme var.
 ~
 human~
-ABQ HF 1000 0
-106 0 1d1+29000 1d1+11039 4d50+80 slap
--99 -99 -99 -40
-KN ABINS BPQR 0
-stand stand female 0
-AHMV ABCDEFGHIJK medium 0
+ABQ HF 106
 #10014
 sýnýr bekçisi~
 Bir sýnýr bekçisi~
@@ -222,12 +157,7 @@ bir insan aðýrýðýnýn sekiz katý. Zýrh ve silahlarla iyice donanmýþ ve savaþ
 için hazýr görünüyor. Arkadaþ canlý biri olmasý iyi birþey.
 ~
 human~
-AGT DFHJUVb 1000 0
-70 0 50d10+9750 10d10+4000 8d10+40 acbite
--40 -40 -40 -10
-BCDEFGHIJKN ABE BH C
-stand stand male 300
-AHMV ABCDEFGHIJK large 0
+AGT DFHJUVb 70
 #10015
 hýrsýz~
 Bir hýrsýz~
@@ -238,12 +168,7 @@ bir hýrsýz duruyor. Binalarýn gölgelerinde zorlukla farkedilen kara botlar
 ve pantalon giymiþ.
 ~
 human~
-ACT CDGPQVd -902 0
-40 0 25d10+1850 10d10+3000 4d8+13 blast
--13 -13 -13 5
-BCDEFGHIJKN 0 0 0
-stand stand male 300
-AHMV ABCDEFGHIJK small 0
+ACT CDGPQVd 40
 #10016
 dilenci~
 Bir dilenci~
@@ -254,12 +179,7 @@ dilenciler var. Zavallý küçüðe acýyorsun. Kýsa bir sonra kýþ olacak olmasý
 ve gidecek bir yerinin olmamasý ne kadar kötü. N'APALIM, hayat devam ediyor.
 ~
 human~
-ABCH DVb 100 0
-46 0 25d10+3250 10d10+3000 6d6+10 blast
--16 -16 -16 4
-BCDEFGHIJKN AB 0 0
-stand stand male 300
-AHMV ABCDEFGHIJK medium 0
+ABCH DVb 46
 #10017
 Kemik Kadýn~
 Kemik Kadýn~
@@ -272,12 +192,7 @@ sözler duyuyorsun "Kolye'yi almak zorundayým!!" Kadýn onu sana vermeyecek...
 eðer almak istiyorsan bir savaþ yakýndýr.
 ~
 human~
-ABR CDEFJTV 1000 0
-109 0 1d1+29999 1d1+9382 5d50+90 magic
--93 -93 -90 -43
-CDEFIKN IP E JK
-stand stand female 11300
-AHMV ABCDEFGHIJK medium 0
+ABR CDEFJTV 109
 #10018
 kavrayýcý~
 Yaramaz bir kavrayýcý~
@@ -289,12 +204,7 @@ içen bir aþaðýdünya yaratýðý. En iyi, kaplumbaðadan yavaþ olmasýna raðmen,
 buna dikkat etmek.
 ~
 human~
-ACGT JV -986 0
-92 0 50d10+19500 10d10+5200 15d10+62 blast
--62 -62 -62 -29
-CDEFIKN IP E J
-stand stand male 300
-AHMV ABCDEFGHIJK medium 0
+ACGT JV 92
 #10019
 gölge þeyi~
 KOrkUnÇ GöLgE ÞEyi~
@@ -305,12 +215,7 @@ Panis Rahl, son savaþtaki Darken'ýn babasý tarafýndan gönderilmiþti. Bu, safi
 tehlike anlamýna gelir. Ben olsam uzaklýðýmý korurdum.
 ~
 human~
-ABCGT JV -1000 0
-99 0 50d10+29000 10d10+3029 4d50+80 wrath
--69 -69 -69 -30
-CDEFIKN IP F JK
-stand stand none 300
-AHMV ABCDEFGHIJK medium 0
+ABCGT JV 99
 #10020
 hayalet kral~
 Hayalet Kral~
@@ -322,12 +227,7 @@ senin bu taraftan çýkmana izin vermeyecek. Aþaðý dünyanýn efendisi senin
 geçmene neden olabilecek hiçbirþeye göz yummaz.
 ~
 human~
-ABCGT HJV -1000 0
-119 0 50d10+29000 10d10+10203 20d15+100 wrath
--77 -77 -70 -40
-CDEFIKN IP 0 JK
-stand stand male 300
-AHMV ABCDEFGHIJK medium 0
+ABCGT HJV 119
 #10021
 dev kýzýl ejderha~
 Dev kýzýl ejderha~
@@ -339,12 +239,7 @@ eminsin. Bu ejderha her milimetresini kaplayan devasa pullarla kaplanmýþ.
 Senin gördüðün YADA görebileceðin her yaratýktan daha büyük gibi gözüküyor.
 ~
 dragon~
-ABCGT GHJT -1000 0
-119 0 50d10+29000 10d10+10203 20d15+100 wrath
--77 -77 -70 -40
-BCEFIKN IP HIJK FJK
-stand stand female 300
-AHZc ADEFIKLPQUVX giant 0
+ABCGT GHJT 119
 #10022
 gölge kiþilik~
 Kötü gölge kiþilik~
@@ -354,12 +249,7 @@ Kesin hatlarý olmayan karanlýk bir þekil görüyorsun. Darken Rahl tarafýndan
 seni durdurmak için gönderildi. Dikkatli ol, dokunuþu zehir demektir.
 ~
 human~
-ACGT GJ -1000 0
-110 0 50d10+28000 10d10+10203 20d15+95 wrath
--77 -77 -70 -40
-CDFIKN IP 0 JK
-stand stand male 300
-AHMV ABCDEFGHIJK medium 0
+ACGT GJ 110
 #10023
 barmen~
 Barmen~
@@ -370,12 +260,7 @@ ayaklara giymiþ. Parçalanmýþ bir pantalon giymesine ve fakir birine benzemesine
 raðmen bu barý iþletiyor.
 ~
 human~
-ABCGT GJ 1000 0
-50 0 25d10+4250 10d10+3000 5d8+19 wrath
--20 -20 -20 0
-BCDEFIN IP 0 JK
-stand stand male 300
-AHMV ABCDEFGHIJK medium 0
+ABCGT GJ 50
 #10024
 sarhoþ köylü~
 Sarhoþ köylü~
@@ -384,12 +269,7 @@ Sarhoþ bir köylü burada, bira içiyor.
 Üzerinde bira lekeleri olan kýsa bir adam. Onu gördükçe kusmak istiyorsun.
 ~
 human~
-ABCGT GJ 102 0
-50 0 25d10+4250 10d10+3000 5d8+19 wrath
--20 -20 -20 0
-CDEFIKN IP 0 K
-stand stand male 300
-AHMV ABCDEFGHIJK medium 0
+ABCGT GJ 50
 #10025
 kara hýrsýz~
 Küçük bir hýrsýz~
@@ -400,12 +280,7 @@ sadece bir amaçla bekliyor: Pusuyu kurduðu yerden geçen bir zavallýnýn boðazýný
 kesip paralarýna konmak... mesela senin gibi bir zavallý....
 ~
 human~
-ACGT GJ -1000 0
-60 0 50d10+6750 10d10+4000 8d6+28 bite
--30 -30 -30 0
-CDEFKN IP D 0
-stand stand male 300
-AHMV ABCDEFGHIJK medium 0
+ACGT GJ 60
 #10026
 sarý yýlan~
 Sarý bir yýlan~
@@ -416,12 +291,7 @@ yüzüyor. Sana saldýrmadan önce hýzlýca uzaklaþsan iyi olur çünkü bedenin
 bir daha hiç bulunmayabilir!
 ~
 unique~
-ABCGT GJ -1000 0
-30 0 6d12+853 1d1+100 4d6+8 bite
--9 -9 -9 2
-CDEFIKN IP 0 0
-stand stand male 300
-0 0 small 0
+ABCGT GJ 30
 #10027
 yeraltý yaratýðý~
 Bir yeraltý yaratýðý~
@@ -430,12 +300,7 @@ Bir yeraltý yaratýðý, kaybolmuþ görünüyor.
 Hiç ama hiç þekli yok. Sadece insanlar geçerken onlara saldýran düz bir duman.
 ~
 unique~
-ACGT GJ -1000 0
-69 0 50d10+9500 10d10+1000 7d11+39 bite
--40 -40 -40 -10
-CDEFIKN IP 0 0
-stand stand none 300
-0 0 large 0
+ACGT GJ 69
 #10028
 kedi uyuþuk~
 Uyuþuk küçük bir kedi~
@@ -446,12 +311,7 @@ arayýþýna devam ediyor. Bu küçük için üzülüyorsun fakat yapabileceðin hiçbir
 þey yok.
 ~
 unique~
-ACGT GJ 1000 0
-11 0 1d1+130 1d1+100 1d10+2 bite
-1 1 1 9
-CDEFIKN IJP 0 0
-stand stand none 300
-0 0 small 0
+ACGT GJ 11
 #10029
 mord sith~
 Þeytani Mord-Sith~
@@ -462,12 +322,7 @@ beyaz bir nesne var. Bu yaratýk oldukça korkutucu. Kalýp sohbet etmek
 istemezsin.
 ~
 human~
-ABCGT GJ -1000 0
-120 0 50d10+28000 10d10+10203 20d15+95 wrath
--77 -77 -70 -40
-CDEFIKN IP I M
-stand stand female 300
-AHMV ABCDEFGHIJK large 0
+ABCGT GJ 120
 #10030
 mürit~
 Darken Rahl'ýn bir müridi~
@@ -478,12 +333,7 @@ olmadýðýna, aksine iyi biri olduðuna inanýyormuþ gibi görünüyor.
 Ayrýca bu kiþiden uzak dur.
 ~
 human~
-ABCGT GJ -1000 0
-110 0 50d10+28000 10d10+10203 20d15+95 wrath
--77 -77 -70 -40
-BCDEFIKN IP 0 0
-stand stand male 300
-AHMV ABCDEFGHIJK medium 0
+ABCGT GJ 110
 #10031
 darken rahl~
 Þeytani Dark-Rahl~
@@ -494,12 +344,7 @@ beklediðin an buydu. En kýsa süresinde üstesinden gelmelisin çünkü dünyayý
 iþgal etmeye hazýrmýþ gibi gözüküyor.
 ~
 human~
-ABCGT GHJ -1000 0
-125 0 50d10+28000 10d10+10203 20d15+95 wrath
--77 -77 -70 -40
-BCDEFIJKNO LP N K
-stand stand male 300
-AHMV ABCDEFGHIJK large 0
+ABCGT GHJ 125
 #0
 
 

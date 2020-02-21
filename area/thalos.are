@@ -11,7 +11,7 @@ Maxvnum 5299
 Path 6d g~
 END
 
-#MOBILES
+#NEW_MOBILES
 #5200
 çokgöz~
 Kuvvetli çokgöz~
@@ -22,12 +22,7 @@ sana charm'dan parçalamaya kadar her türlü büyüyü yapabilecek
 on tane göz sapý var.  Çokgözlerin kiþilikleri bilinmez.
 ~
 human~
-ABHKRe D -870 0
-25 10 5d10+2500 25d9+100 4d4+16 none
--16 -16 -16 -2
-F ABC 0 0
-stand stand none 1128
-0 0 medium 0
+ABHKRe D 25
 #5201
 kentaur hayvaný~
 Kentaur~
@@ -38,12 +33,7 @@ ayaklý bir hayvaný andýrýyor.  Sana açgözlülükle bakarken dudaklarýný
 yalýyor.
 ~
 human~
-ACFG 0 -999 0
-9 0 2d6+110 4d9+100 1d8+2 none
-2 2 2 8
-EFNU 0 0 0
-stand stand female 50
-0 0 medium 0
+ACFG 0 9
 #5202
 taklit sandýk~
 Taklitçi~
@@ -53,12 +43,7 @@ Saðlam, aðaçtan sandýðýn kenarlarýnda demirden kayýþlar ve önünde bir
 asma kilit var.
 ~
 human~
-ABCFGH P 10 0
-11 0 2d8+134 5d9+100 1d10+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABCFGH P 11
 #5203
 taklit kaya~
 Taklitçi~
@@ -66,12 +51,7 @@ Büyük bir kayanýn altýnda iki ezilmiþ iskelet yatýyor.
 ~
 ~
 human~
-ABCFGH P -10 0
-11 0 2d8+134 5d9+100 1d10+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABCFGH P 11
 #5204
 taklit zemin~
 Taklitçi~
@@ -79,12 +59,7 @@ Bu evin taþ zemini yarýlmýþ.
 ~
 ~
 human~
-ABCFGH P -140 0
-11 0 2d8+134 5d9+100 1d10+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABCFGH P 11
 #5205
 taklit çömlek~
 Taklitçi~
@@ -92,12 +67,7 @@ Kýrýlmýþ çanak çömlek parçalarý yere saçýlmýþ.
 ~
 ~
 human~
-ABCFGH P 200 0
-11 0 2d8+134 5d9+100 1d10+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABCFGH P 11
 #5206
 taklit kalaslar~
 Taklitçi~
@@ -105,12 +75,7 @@ Birkaç uzun tahta alçak bir rafa istiflenmiþ.
 ~
 ~
 human~
-ABCFGH P 0 0
-11 0 2d8+134 5d9+100 1d10+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABCFGH P 11
 #5207
 boynuzlu kertenkele~
 Boynuzlu kertenkele~
@@ -119,12 +84,7 @@ Küçük bir boynuzlu kertenkele dilini þapýrdatýyor ve uzaklaþýyor.
 Ýþte þirin, küçük bir kertenkele. Eðer sürüngenleri seviyorsan!
 ~
 lizard~
-AH 0 0 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNR 0 0 0
-stand stand none 0
-0 0 medium 0
+AH 0 3
 #5208
 taþ golem~
 Taþ golem~
@@ -135,13 +95,9 @@ O büyüyle taþtan, dev bir yaratýða dönüþtürülmüþ büyük bir kaya. Burada
 durmuþ þehri koruyor.
 ~
 golem~
-AB N 600 0
-25 0 5d10+550 12d9+100 2d10+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand none 212
-0 0 medium 0
+AB N 25
 #0
+
 #OBJECTS
 #5200
 mitril yelek~

@@ -17,7 +17,7 @@ Debugged to standard Merc 2.x by Jason Huang (god@sure.net)
 Further conversion to Rom 2.4 by Jaceks and Chicken's Den Staff~
 0 $~
 
-#MOBILES
+#NEW_MOBILES
 #5735
 sentry orc~
 an Orc sentry~
@@ -28,12 +28,7 @@ laziness combined with generous servings of Orcish Ale have rendered him
 quite ineffective at even this simple task.
 ~
 orc~
-ABCFG R -400 5701
-11 0 2d8+134 109d1+1 1d10+2 slice
-1 1 1 8
-CFI AB K P
-stand stand male 20
-0 0 medium 0
+ABCFG R 11
 #5736
 orc~
 a sleeping Orc~
@@ -44,12 +39,7 @@ laziness combined with generous servings of Orcish Ale have rendered him
 quite ineffective at even this simple task.
 ~
 orc~
-ABCFG R -400 5701
-11 0 2d8+134 109d1+1 1d10+2 slice
-1 1 1 8
-CFI AB K P
-sleep sleep male 20
-0 0 medium 0
+ABCFG R 11
 #5737
 snake~
 a small snake~
@@ -60,12 +50,7 @@ box it is coiled about, and although it is quite small, its bite can be
 lethal!
 ~
 snake~
-ABFG J 0 0
-10 0 2d7+121 99d1+1 2d4+2 claw
-1 1 1 8
-CFI AB K P
-stand stand either 20
-0 0 medium 0
+ABFG J 10
 #5738
 orc~
 a drunken Orc~
@@ -77,12 +62,7 @@ very effective combatant, as the alcohol he has imbibed has dulled his
 senses.
 ~
 orc~
-ABCFG M -400 5701
-10 0 2d7+121 99d1+1 2d4+2 slice
-1 1 1 8
-CFI AB K P
-stand stand either 20
-0 0 medium 0
+ABCFG M 10
 #5739
 orc chieftain~
 an Orcish chieftain~
@@ -93,12 +73,7 @@ and he is glad for a more challenging foe. He is the leader of the Orcs in
 this area, and as such will be a tough foe.
 ~
 orc~
-ABCFG HJ -400 5701
-12 0 2d10+150 119d1+1 1d10+2 slice
-0 0 0 8
-CFI AB K P
-stand stand male 100
-0 0 medium 0
+ABCFG HJ 12
 #5740
 orc servant~
 an orcish servant~
@@ -109,12 +84,7 @@ but despite this he still leaps up to defend the chieftain against you. Best
 to slay the ungrateful little wretch.
 ~
 orc~
-ABCFH 0 0 5701
-10 0 2d7+121 99d1+1 2d4+2 slice
-1 1 1 8
-CFI AB K P
-stand stand male 20
-0 0 medium 0
+ABCFH 0 10
 #5741
 orc~
 an eating Orc~
@@ -125,12 +95,7 @@ easily leap in and have a hack before he was even prepared. However, he does
 have several companions...
 ~
 orc~
-ABCG 0 -400 5701
-11 0 2d8+134 109d1+1 1d10+2 slice
-1 1 1 8
-CFI AB K P
-stand stand male 20
-0 0 medium 0
+ABCG 0 11
 #5742
 prisoner~
 A deranged prisoner~
@@ -142,12 +107,7 @@ seeking to attack you but was simply overjoyed at beign released. He is
 quite harmless, but very filthy.
 ~
 human~
-ABCH X 0 0
-8 0 2d7+96 79d1+1 1d7+2 pierce
-3 3 3 9
-IR A 0 Y
-stand stand male 10
-0 0 medium 0
+ABCH X 8
 #5743
 goblin torturer~
 a Goblin torturer~
@@ -158,12 +118,7 @@ and the Dwarf died moments later. The creature is angered, and blames you
 for the Dwarf's premature death!
 ~
 goblin~
-ABCFG J -600 0
-10 0 2d7+121 99d1+1 2d4+2 smash
-1 1 1 8
-IR A 0 Y
-stand stand male 10
-0 0 medium 0
+ABCFG J 10
 #5744
 cyclops iron~
 an iron Cyclops~
@@ -173,12 +128,7 @@ This specially made Iron Golem is extremely tough and powerful. Although not
 aggressive, it will certainly attack if you seek to take its gem.
 ~
 giant~
-ABG DHNO 0 0
-15 0 3d9+208 149d1+1 2d6+3 bite
--2 -2 -2 7
-IR A 0 Y
-stand stand male 10
-0 0 huge 0
+ABG DHNO 15
 #5745
 barbarian~
 an insane Barbarian~
@@ -189,12 +139,7 @@ taking out his frustrations on you! Towering over you at six feet tall and
 weighing in at 280 lbs, he is certainly a force to be reckoned with.
 ~
 giant~
-ABFG NO 0 0
-12 0 2d10+150 119d1+1 1d10+3 crush
-0 0 0 8
-IR A 0 Y
-stand stand male 10
-0 0 huge 0
+ABFG NO 12
 #5746
 old man~
 an old man~
@@ -205,12 +150,7 @@ appearance, this elderly gentleman is more than capable of taking care of
 himself. He can sell you lighting equipment for the journey ahead.
 ~
 human~
-ABCGR CDEFHNO 400 0
-30 0 6d12+853 299d1+1 4d6+8 scratch
--9 -9 -9 6
-0 0 0 0
-stand stand male 500
-0 0 medium 0
+ABCGR CDEFHNO 30
 #5747
 old man wererat~
 an old man who is a Wererat~
@@ -220,12 +160,7 @@ This seemingly harmless old coot is actually a powerful lycanthrope, who
 will not hesitate to kill you if you threaten him.
 ~
 human~
-ABCG DFHNO 0 0
-13 0 2d10+170 129d1+1 2d5+3 punch
--1 -1 -1 8
-IR A 0 P
-stand stand male 20
-0 0 medium 0
+ABCG DFHNO 13
 #5748
 neanderthal caveman man~
 A lumbering Neanderthal~
@@ -236,12 +171,7 @@ but has a blow like a sledgehammer and a hide like a stone wall, so fight
 well!
 ~
 human~
-ABCFG EFJNO 0 0
-12 0 2d10+150 119d1+1 1d10+3 pound
-0 0 0 8
-IR AB 0 0
-stand stand male 0
-0 0 medium 0
+ABCFG EFJNO 12
 #5749
 bat giant~
 a giant Bat~
@@ -252,12 +182,7 @@ pointy fangs dripping potent venom, it is quite a formidable sight. Better
 be careful with this one.
 ~
 bat~
-ABCFG DNOT -400 0
-11 0 2d8+134 109d1+1 1d10+2 beating
-1 1 1 8
-IR AB 0 0
-stand stand either 0
-0 0 medium 0
+ABCFG DNOT 11
 #5750
 spider giant~
 a giant Spider~
@@ -269,12 +194,7 @@ the way its beady eyes stare evilly at you as is approaches, or the way the
 venom dripping from its maw burns into the stone as it falls...
 ~
 human~
-ABFG D -400 0
-12 0 2d10+150 119d1+1 1d10+3 beating
-0 0 0 8
-IR AB 0 0
-stand stand male 0
-0 0 medium 0
+ABFG D 12
 #5751
 ogre~
 an Ogre~
@@ -285,12 +205,7 @@ registered your presence. You could easily sneak past and escape his lair
 should you so wish...
 ~
 asura~
-ABCG NO 0 5702
-13 0 2d10+170 129d1+1 2d5+3 pierce
--1 -1 -1 8
-IR 0 0 K
-stand stand male 20
-0 0 medium 0
+ABCG NO 13
 #5752
 asura~
 a asura~
@@ -302,12 +217,7 @@ mucous drips from the fevered beast's slavering maw, and you shudder to
 think fo the germs you could be infecte dwith by this grotesque.
 ~
 asura~
-AQBCFG NO -500 5702
-13 0 2d10+170 129d1+1 2d5+3 pierce
--1 -1 -1 8
-IR 0 0 K
-stand stand male 20
-0 0 medium 0
+AQBCFG NO 13
 #5753
 rat giant~
 a giant Rat~
@@ -318,12 +228,7 @@ blood. It lashes at you with its sharp claws and seeks to clamp its fangs
 around your neck!
 ~
 human~
-ABFG D -400 0
-10 0 2d7+121 99d1+1 2d4+2 smash
-1 1 1 8
-0 0 AB 0
-stand stand male 30
-0 0 medium 0
+ABFG D 10
 #5754
 giant~
 a burly Giant~
@@ -333,12 +238,7 @@ You have disturbed this big fellow's evening repast, and he is not happy
 about it.
 ~
 giant~
-ABFG NO 0 0
-15 0 3d9+208 149d1+1 2d6+3 crush
--2 -2 -2 7
-IR AB 0 0
-stand stand male 0
-0 0 medium 0
+ABFG NO 15
 #5755
 piranha~
 a vicious Piranha~
@@ -349,12 +249,7 @@ It moves almsot too fast for you to catch it in the water, but eventually
 returns for another bite, which gives you a chance to attack it.
 ~
 human~
-ABFG 0 0 0
-10 0 2d7+121 99d1+1 2d4+2 beating
-1 1 1 8
-IR 0 0 P
-stand stand either 30
-0 0 medium 0
+ABFG 0 10
 #5756
 sandworm giant~
 a giant Sandworm~
@@ -364,12 +259,7 @@ This big fellow makes sea serpents of old look tiny. His circular maw is
 lined with rows and rows of teeth, all ready to bite into you!.
 ~
 human~
-ABFG DNO 0 0
-16 0 3d9+233 159d1+1 2d6+4 crush
--2 -2 -2 7
-IR 0 0 0
-stand stand male 10
-0 0 huge 0
+ABFG DNO 16
 #5757
 skeleton~
 a Skeleton worker~
@@ -380,12 +270,7 @@ to pay any mind to you. It will, however, act to defend itself if assaulted,
 as will its many comrades.
 ~
 human~
-ABCG DNO 0 0
-12 0 2d10+150 119d1+1 2d5+3 pound
-0 0 0 8
-R 0 0 0
-stand satnd male 10
-0 0 medium 0
+ABCG DNO 12
 #5758
 wight~
 a Wight~
@@ -397,12 +282,7 @@ including its long, sharp, poisoned fangs and claws, its resistance to
 physical blows, and its nauseating stench.
 ~
 human~
-ABCFGO DHJNO -1000 0
-14 0 2d10+190 139d1+1 1d12+3 slap
--1 -1 -1 8
-IR AB 0 K
-stand stand male 100
-0 0 medium 0
+ABCFGO DHJNO 14
 #5759
 zombie~
 a Zombie~
@@ -413,12 +293,7 @@ yourself, who fell foul of the Warlock's minions, and has been damned to a
 perpetual undead existence.
 ~
 human~
-ABFG J 0 0
-11 0 2d8+134 109d1+1 1d10+2 blast
-1 1 1 8
-R A 0 0
-stand stand male 30
-0 0 medium 0
+ABFG J 11
 #5760
 dog~
 a Guard Dog~
@@ -429,12 +304,7 @@ you may find that it is not like msot other Dogs, in that it is very tough
 and has certain abilities that may catch you by surprise...
 ~
 dog~
-ABG DFNO 0 0
-12 0 2d10+150 119d1+1 1d10+3 cleave
-0 0 0 8
-0 0 0 0
-stand stand male 10
-0 0 medium 0
+ABG DFNO 12
 #5761
 werewolf man~
 a Werewolf~
@@ -445,12 +315,7 @@ unfortunate curse (Lycanthropy), he is not a bad guy, and will only attack if
 you initiate hostilities by attacking him or his dog.
 ~
 human~
-ABG HNOR 0 0
-13 0 2d1+170 129d1+1 2d5+3 slice
--1 -1 -1 8
-I AB 0 P
-stand stand male 50
-0 0 medium 0
+ABG HNOR 13
 #5762
 ghoul~
 a Ghoul~
@@ -460,12 +325,7 @@ This decaying corpse-like undead slashes at you with its filthy fingernails,
 attempting to slay and devour you!
 ~
 human~
-ABFG DNO -500 0
-13 0 2d10+170 129d1+1 2d5+3 blast
--1 -1 -1 8
-I AB 0 0
-stand stand male 10
-0 0 medium 0
+ABFG DNO 13
 #5763
 vampire~
 an evil Vampire~
@@ -476,12 +336,7 @@ towards you, attempting to make eye contact with you, so that it can charm
 you and then feat upon you at its leisure.
 ~
 human~
-ABCFGO DFHJT -1000 0
-17 0 3d9+258 169d1+1 3d4+4 smash
--3 -3 -3 7
-IR AB K 0
-stand stand male 200
-0 0 medium 0
+ABCFGO DFHJT 17
 #5764
 dwarf~
 a Dwarf~
@@ -492,12 +347,7 @@ Dwarfs playing Five Card Stud. He draws deeply on a long pipe, exhaling some
 noxious smoke, and invites you to join in.
 ~
 dwarf~
-ABCG J 400 0
-12 0 2d10+150 119d1+1 1d10+3 bite
-0 0 0 8
-0 AB P 0
-stand stand male 40
-0 0 medium 0
+ABCG J 12
 #5765
 minotaur~
 a mighty Minotaur~
@@ -508,12 +358,7 @@ enter into battling with him. Although unarmed and unarmored, he is still a
 potentially dangerous foe.
 ~
 human~
-ABFG J -400 0
-14 0 2d10+190 139d1+1 1d12+3 bite
--1 -1 -1 8
-R AB 0 0
-stand stand male 40
-0 0 medium 0
+ABFG J 14
 #5766
 dragon~
 an enormous Red Dragon~
@@ -534,12 +379,7 @@ You have been KILLED!!!
 BATTLE UPDATE : adventurer killed by an enormous red dragon.
 ~
 dragon~
-ABCFG CDEFHJNOT -1000 0
-20 0 4d10+360 199d1+1 2d8+5 beating
--4 -4 -4 7
-R AB 0 K
-stand stand male 500
-0 0 medium 0
+ABCFG CDEFHJNOT 20
 #5767
 warlock~
 the Warlock of Firetop Mountain~
@@ -550,12 +390,7 @@ Velvet and Gold. Sparks fly from his gloved hands as he stares grimly at you,
 waiting for you to move. Already, you know you are in for a heck of a fight...
 ~
 human~
-ABCGR CDEFHJNOU -1000 0
-23 0 5d10+450 229d1+1 3d6+6 pierce
--6 -6 -6 6
-R AB 0 K
-stand stand male 800
-0 0 medium 0
+ABCGR CDEFHJNOU 23
 #5768
 hand~
 a hand~
@@ -564,12 +399,7 @@ An animated Hand strikes at you!
 This hand rises up from the floor and begins to beat you!
 ~
 human~
-ABCFGS D 0 0
-10 0 2d7+121 99d1+1 2d4+2 slash
-1 1 1 8
-0 0 0 0
-stand stand either 0
-0 0 medium 0
+ABCFGS D 10
 #5769
 crocodile croc~
 a crocodile~
@@ -579,12 +409,7 @@ This huge reptile is hideous and mean, and it looks eager to bury its many
 pointed teeth in your body!
 ~
 human~
-ABFG D 0 0
-12 0 2d10+150 119d1+1 1d10+3 crush
-0 0 0 8
-0 0 0 0
-stand stand either 0
-0 0 medium 0
+ABFG D 12
 #5770
 gas beast~
 a gas beast~
@@ -594,12 +419,7 @@ This horrid creature is little more than a gas cloud with a will of its own,
 and as such is very hard to kill.
 ~
 human~
-ABFG DFHJNOT -1000 0
-15 0 3d9+208 149d1+1 1d12+3 punch
--2 -2 -2 7
-0 0 0 0
-stand stand either 10
-0 0 medium 0
+ABFG DFHJNOT 15
 #0
 
 

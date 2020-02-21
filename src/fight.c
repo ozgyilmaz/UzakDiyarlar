@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+ 
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -769,7 +781,7 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
      * Calc damage.
      */
 
-
+/*
     if ( IS_NPC(ch) && (!ch->pIndexData->new_format || wield == NULL))
 	if (!ch->pIndexData->new_format)
 	{
@@ -779,7 +791,7 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 	}
 	else
 	    dam = dice(ch->damage[DICE_NUMBER],ch->damage[DICE_TYPE]);
-
+*/
     else
     {
 	if (sn != -1)
@@ -2465,8 +2477,8 @@ void raw_kill_org( CHAR_DATA *victim, int part )
       return;
     }
 
-		send_to_char("Birkaç dakikalýðýna yenilmez bir hayalete dönüþtün.\n\r",victim);
-	    send_to_char("Birþeye saldýrdýðýnda bu durum bozulacaktýr.\n\r", victim);
+		send_to_char("20 dakikalýðýna yenilmez bir hayalete dönüþtün.\n\r",victim);
+	    send_to_char("Bu sýrada yürümek, içmek, yemek gibi temel þeyleri yapabileceksin.\n\r", victim);
 
     extract_char( victim, FALSE );
 
@@ -2484,7 +2496,8 @@ void raw_kill_org( CHAR_DATA *victim, int part )
   /* RT added to prevent infinite deaths */
   REMOVE_BIT(victim->act, PLR_WANTED);
   REMOVE_BIT(victim->act, PLR_BOUGHT_PET);
-/*  SET_BIT(victim->act, PLR_GHOST); 	*/
+	SET_BIT(victim->act, PLR_GHOST);
+	victim->pcdata->ghost_mode_counter = 20;
 
   victim->pcdata->condition[COND_THIRST] = 40;
   victim->pcdata->condition[COND_HUNGER] = 40;
@@ -2902,14 +2915,14 @@ void dam_message( CHAR_DATA *ch, CHAR_DATA *victim,int dam,int dt,bool immune ,i
 
     if (ch == victim)
     {
-	act_color(buf1,ch,NULL,NULL,TO_ROOM,POS_RESTING,CLR_RED);
-	act_color(buf2,ch,NULL,NULL,TO_CHAR,POS_RESTING,CLR_RED_BOLD);
+	act_color(buf1,ch,NULL,NULL,TO_ROOM,POS_RESTING,CLR_BROWN);
+	act_color(buf2,ch,NULL,NULL,TO_CHAR,POS_RESTING,CLR_RED);
     }
     else
     {
-    	act_color( buf1, ch, NULL, victim, TO_NOTVICT,POS_RESTING,CLR_RED );
-    	act_color( buf2, ch, NULL, victim, TO_CHAR,POS_RESTING,CLR_RED_BOLD );
-    	act_color( buf3, ch, NULL, victim, TO_VICT,POS_RESTING,CLR_RED_BOLD );
+    	act_color( buf1, ch, NULL, victim, TO_NOTVICT,POS_RESTING,CLR_BROWN );
+    	act_color( buf2, ch, NULL, victim, TO_CHAR,POS_RESTING,CLR_GREEN );
+    	act_color( buf3, ch, NULL, victim, TO_VICT,POS_RESTING,CLR_RED );
     }
 
     return;

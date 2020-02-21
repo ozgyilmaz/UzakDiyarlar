@@ -11,7 +11,7 @@ Maxvnum 15099
 Path ~
 END
 
-#MOBILES
+#NEW_MOBILES
 
 #15000
 baþ gardiyan~
@@ -22,13 +22,7 @@ Bu adam yýllardýr burada. Hapishanesini zarardan koruyor. Kötü
 büyücüden tek etkilenmeyen kiþi o. O güçlü ve bilge.
 ~
 human~
-ABWe  DFHJVZ 0 0
-130 20 10d400+28000 10d50+9000 20d20+100 pierce
--150 -150 -150 -151
-CEFKNU ABHQY TPKIL J
-stand stand male 5000
-A 0 medium 0
-
+ABWe  DFHJVZ 130
 #15003
 hücre gardiyan~
 Hücrenin gardiyaný~
@@ -38,13 +32,7 @@ Omzunda gardiyanlarýn iþaretini taþýyan, iþini yapan, güçlü
 bir gardiyan.
 ~
 human~
-ABWe  DFHJVZ 0 0
-95 20 10d400+14000 10d50+2000 10d15+12 pierce
--80 -70 -72 -81
-CEFKNU ABH  0 J
-stand stand male 5000
-A 0 medium 0
-
+ABWe  DFHJVZ 95
 #15001
 hücre temizlikçi~
 Hapishane temizlikçisi~
@@ -55,13 +43,7 @@ Neden ayný zamanda hep þarký söyleyip hem de aðlýyor? Birden anlýyorsun,
 þarký söylemek : þimdi öleceksin!
 ~
 human~
-ACGT  DFJZ 0 0
-80 20 10d400+12000 10d50+1000 12d10+12 pierce
--50 -50 -50 -51
-CEFKNU 0 0 S
-stand stand male 5000
-A 0 medium 0
-
+ACGT  DFJZ 80
 #15002
 suçlu~
 Suçlu~
@@ -72,13 +54,7 @@ benzemiyor. Aniden birinin fýsýldadýðýný farediyorsun:
 "nasýl isterseniz efendim".
 ~
 human~
-ACGT  DFJZ 0 0
-88 20 10d400+12000 10d50+1000 12d12+30 pierce
--50 -50 -50 -51
-CEFKNU 0 0 S
-stand stand male 5000
-A 0 medium 0
-
+ACGT  DFJZ 88
 #15009
 eski büyücü Kwal~
 Eski büyücü Kwal~
@@ -91,14 +67,7 @@ oynaþýyor. Anlaþýlan onu rahatsýz ettin. Birden baðýrýyor:
 "Hepiniz bunu ödeyeceksiniz!!"
 ~
 çora~
-ABWeCFGT  DFHJVZ 0 0
-109 20 30d100+27000 10d50+2300 23d27+190 pierce
--88 -85 -90 -81
-CEFKNU ABHQY TPKIL 0
-
-stand stand female 5000
-ABCDEFG 0 medium 0
-
+ABWeCFGT DFHJVZ 109
 #15010
 uyandýrýlmýþ þeytan~
 Bir uyandýrýlmýþ þeytan~
@@ -107,14 +76,7 @@ Bir uyandýrýlmýþ þeytan birþeyleri arar gibi.
 Çok sinirli!
 ~
 çora~
-ABWeCFGT  DFHJVZ 0 0
-109 20 10d400+22000 10d50+2300 23d10+30 pierce
--88 -85 -90 -81
-CEFKNU ABHQY TPKIL 0
-
-stand stand female 5000
-ABCDEFG 0 medium 0
-
+ABWeCFGT DFHJVZ 109
 
 #0
 

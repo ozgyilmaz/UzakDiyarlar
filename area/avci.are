@@ -8,10 +8,10 @@ Lowlevel 90
 Highlevel 100
 Minvnum 570
 Maxvnum 579
-Path ~
+Path 21d 11k~
 END
 
-#MOBILES
+#NEW_MOBILES
 #570
 avcý malikane koruma AVCI HUNTER~
 koruma~
@@ -21,12 +21,7 @@ Avcý Kabalýnýn Malikanesinin giriþinde duran yabancýlarýn girmesini
 Yüzbinlerce altýn ile özel olarak tutulmuþ kaslý bir koruma.
 ~
 human~
-ABKWe  DFHJVZ 0 0
-92 40 2d500+25000 1d200+600 10d35+50 slash
--77 -77 -77 -37
-CEFKNU AB 0 S
-stand stand male 5000
-0 0 medium 0
+ABKWe  DFHJVZ 92
 #571
 avcý kabal þifacý AVCI hunter~
 þifacý~
@@ -37,12 +32,7 @@ Yüzbinlerce altýn ile tutulmuþ diyarda eþi benzeri az bulunan güçlü ve
 bilge bir þifacý burada avcý kabal mensuplarýna þifa daðýtmayý bekliyor.
 ~
 human~
-ABQVae DFH 1000 0
-80 0 1d1+21999 1d1+999 2d4+50 divine
--75 -75 -75 -15
-FHIK ABC D 0
-stand stand male 1000
-0 0 medium 0
+ABQVae DFH 80
 #572
 avcý malikane koruma AVCI HUNTER~
 koruma~
@@ -52,12 +42,7 @@ Avcý Kabalýnýn Malikanesinin giriþinde duran yabancýlarýn girmesini
 Yüzbinlerce altýn ile özel olarak tutulmuþ kaslý bir koruma.
 ~
 human~
-ABKWe  DFHJVZ -1000 0
-92 40 2d500+22000 1d200+600 5d35+50 slash
--77 -77 -77 -32
-CEFKNU AB 0 S
-stand stand male 5000
-0 0 medium 0
+ABKWe  DFHJVZ 92
 #0
 
 

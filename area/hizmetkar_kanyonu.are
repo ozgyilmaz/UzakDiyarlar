@@ -11,7 +11,7 @@ Maxvnum 9299
 Path 6d 4g 2d g 2d a g~
 END
 
-#MOBILES
+#NEW_MOBILES
 #9201
 daðcý~
 daðcý~
@@ -20,12 +20,7 @@ Bir daðcý senle ayný yönde ilerliyor.
 O da, daðýn arkasýnda ne olduðunu görmek istiyor.
 ~
 human~
-ACGT 0 500 0
-3 1 10d5+15 1d1+99 1d4+1 punch
-7 7 7 8
-JN 0 HIJR 0
-stand stand male 30
-0 0 medium 0
+ACGT 0 3
 #9202
 tekgöz~
 tekgöz~
@@ -35,12 +30,7 @@ Akþam yemeðini yemek üzereymiþ gibi görünüyor. (Belki de akþam yemeði
 sensin? )
 ~
 giant~
-ABFQT DF -700 0
-22 7 10d10+600 10d10+100 6d4+10 smash
--7 -7 -7 -2
-ACDIO AB CD 0
-stand stand male 600
-0 0 huge 0
+ABFQT DF 22
 #9203
 ufak hizmetkar~
 ufak hizmetkar~
@@ -49,12 +39,7 @@ Ufak bir hizmetkar hareket ediyor.
 Ufak bir hizmetkar, tercihinin aksine reddedilmiþ.
 ~
 human~
-AG 0 0 0
-1 0 2d6+10 0d9+100 1d4+0 none
-9 9 9 10
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AG 0 1
 #9204
 hizmetkar muhafýz~
 muhafýz hizmetkar~
@@ -63,12 +48,7 @@ Kanyonun muhafýz hizmetkarý.
 Ne tür bir element olduðunu söyleyemiyorsun. Belkide hepsinden birer parça?
 ~
 human~
-AB 0 0 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand none 500
-0 0 medium 0
+AB 0 20
 #9205
 küçük hizmetkar~
 küçük hizmetkar~
@@ -77,12 +57,7 @@ Küçük bir hizmetkar.
 Küçük bir hizmetkar, kanyonun sakinlerinden.
 ~
 human~
-ABG 0 0 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand none 12
-0 0 medium 0
+ABG 0 5
 #9206
 orta büyüklükte hizmetkar~
 orta büyüklükte hizmetkar~
@@ -91,12 +66,7 @@ Orta büyüklükte bir hizmetkar.
 Orta büyüklükte bir hizmetkar, kanyonun sakinlerinden.
 ~
 human~
-ABG 0 10 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand none 37
-0 0 medium 0
+ABG 0 10
 #9207
 büyük hizmetkar~
 büyük hizmetkar~
@@ -105,12 +75,7 @@ Büyük hizmetkar.
 Büyük hizmetkar, kanyonun sakinlerinden.
 ~
 human~
-ABG 0 20 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand none 100
-0 0 medium 0
+ABG 0 15
 #9208
 toprak hizmetkar yönetici~
 toprak yöneticisi~
@@ -121,12 +86,7 @@ bilgisini barýndýrýyor. Nerede baþladýðýný ve nerede bittiðini tam olarak
 söyleyemiyorsun.
 ~
 human~
-ABKQe H 0 0
-30 0 6d12+853 30d9+100 5d4+8 none
--9 -9 -9 4
-EIKU AB 0 0
-stand stand none 5000
-0 0 medium 0
+ABKQe H 30
 #9209
 ateþ hizmetkar yönetici~
 ateþ yöneticisi~
@@ -135,12 +95,7 @@ Ateþ hizmetkarlarýnýn Yöneticisi.
 Ona baktýðýnda, tahtýndaki ateþle karýþýyormuþ gibi görünüyor
 ~
 human~
-ABKe H 0 0
-30 0 6d12+853 15d9+100 4d6+8 none
--9 -9 -9 6
-EFNU AB 0 0
-stand stand none 5000
-0 0 medium 0
+ABKe H 30
 #9210
 hava hizmetkar yönetici~
 hava yöneticisi~
@@ -149,12 +104,7 @@ Hava hizmetkarlarýnýn Yöneticisi.
 Ona baktýðýnda gökyüzünün kendisiymiþ gibi görünüyor.
 ~
 human~
-ABKe H 0 0
-30 0 6d12+853 15d9+100 4d6+8 none
--9 -9 -9 6
-EFNU AB 0 0
-stand stand none 5000
-0 0 medium 0
+ABKe H 30
 #9211
 þimþek hizmetkar yönetici~
 þimþek yöneticisi~
@@ -165,12 +115,7 @@ bir gürleme duyuyorsun. Gözlerini ovalýyorsun ve baktýðýnda, sana
 sýrýttýðýný görüyorsun.
 ~
 human~
-ABKe H 0 0
-30 0 6d12+853 15d9+100 4d6+8 none
--9 -9 -9 6
-EFNU AB 0 0
-stand stand none 5000
-0 0 medium 0
+ABKe H 30
 #9212
 su hizmetkar yönetici~
 su yöneticisi~
@@ -180,12 +125,7 @@ Sen ona bakarken deðiþiyor ve etrafýnda girdap gibi dönmeye baþlýyor.
 Korktuðun an elemental formuna geri dönüyor.
 ~
 water fowl~
-ABKe H 0 0
-30 0 6d12+853 15d9+100 4d6+8 none
--9 -9 -9 6
-EFNR AB 0 0
-stand stand none 5000
-0 0 medium 0
+ABKe H 30
 #9214
 su birikinti hizmetkar~
 su birikintisi~
@@ -194,12 +134,7 @@ Su hizmetkarlarýndan bir su birikintisi.
 Sana çelme takarak yere düþürüyor ve ayaklarýn ýslanýyor.
 ~
 water fowl~
-AG 0 0 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNR 0 0 0
-stand stand none 11
-0 0 medium 0
+AG 0 8
 #9215
 alev ateþ hizmetkar~
 alev~
@@ -208,12 +143,7 @@ Ateþ hizmetkarlarýndan küçük bir alev.
 Çimlere doðru için için yanarak gidiyor.
 ~
 human~
-AG 0 0 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-EFNU 0 0 0
-stand stand none 7
-0 0 medium 0
+AG 0 4
 #9216
 kara buz tane hizmetkar~
 kar tanesi~
@@ -222,12 +152,7 @@ Su hizmetkarlarýndan bir kar tanesi.
 Biraz mavimsi gözüküyor.
 ~
 human~
-AG 0 520 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AG 0 3
 #9217
 kara toprak hizmetkar~
 küçük kaya~
@@ -236,12 +161,7 @@ Toprak hizmetkarlarýndan küçük bir kaya.
 Küçük bir taþa benziyor.
 ~
 human~
-AG 0 0 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNU 0 0 0
-stand stand none 4
-0 0 medium 0
+AG 0 3
 #9218
 kývýlcým enerji yýldýrým hizmetkar~
 kývýlcým~
@@ -250,12 +170,7 @@ Küçük bir kývýlcým elektrik yayýyor.
 Iþýk hýzýyla oradan oraya zýplýyor.
 ~
 human~
-AG 0 0 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-EFNU 0 0 0
-stand stand none 7
-0 0 medium 0
+AG 0 4
 #9219
 asit damla hizmetkar~
 asit damlasý~
@@ -264,12 +179,7 @@ Küçük bir asit damlasý taþý yemekle meþgul.
 Büyülü bir asit damlasý elektrik ve suyun arasýnda.
 ~
 human~
-AG 0 0 0
-9 0 2d6+110 4d9+100 1d8+2 none
-2 2 2 8
-EFNU 0 0 0
-stand stand none 50
-0 0 medium 0
+AG 0 9
 #9220
 lav hizmetkar canavar~
 lav canavarý~
@@ -278,12 +188,7 @@ Bir lav canavarý oradan oraya gidiyor.
 Büyülü lava canavarý ateþle toprak arasýnda.
 ~
 human~
-AG 0 0 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand none 15
-0 0 medium 0
+AG 0 8
 #9221
 çamur hizmetkar canavar~
 çamur canavarý~
@@ -292,12 +197,7 @@ Bir çamur canavarý kükrüyor.
 Büyülü çamur canavarý su ve toprak arasýnda.
 ~
 human~
-AG 0 0 0
-7 0 2d6+85 3d9+100 1d8+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand none 20
-0 0 medium 0
+AG 0 7
 #9222
 sis hizmetkar hava~
 hizmetkar sis~
@@ -306,12 +206,7 @@ Hava burada gerçekten sisli.
 Büyülü sis su ve hava arasýnda.
 ~
 human~
-AG 0 0 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand none 15
-0 0 medium 0
+AG 0 6
 #9223
 partikül hizmetkar~
 partikül~
@@ -320,12 +215,7 @@ partikül~
 Büyülü olduðu belli bir enerji.
 ~
 human~
-AG 0 0 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AG 0 5
 #9224
 toz hizmetkar bulut~
 toz bulutu~
@@ -334,12 +224,7 @@ Bir toz bulutu hapþýrmana neden oluyor.
 Büyülü toz bulutu hava ve toprak arasýnda.
 ~
 human~
-AGS DF 0 0
-6 0 2d6+60 3d9+100 1d6+1 none
-5 5 5 9
-BEFJNU 0 0 0
-stand stand none 5
-0 0 medium 0
+AGS DF 6
 #9225
 polen hizmetkar~
 polen~
@@ -348,12 +233,7 @@ Bir polen havada uçuþuyor.
 Büyülü polenin hava elementi olduðu belli.
 ~
 human~
-AGS DF 0 0
-2 0 2d6+10 1d9+100 1d4+0 none
-9 9 9 10
-BEFJNU 0 0 0
-stand stand none 1
-0 0 medium 0
+AGS DF 2
 #9226
 mavi alev~
 mavi alev~
@@ -363,12 +243,7 @@ Yüzü varmýþ gibi görünen insansý bir figür görüyorsun. Nasýl olduysa
 ateþin içine tuzaða düþürülmüþ.
 ~
 human~
-ABG 0 -100 0
-26 0 5d10+600 13d9+100 3d7+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand none 1250
-0 0 medium 0
+ABG 0 26
 #9227
 manyeto~
 manyeto~
@@ -377,12 +252,7 @@ Bir manyeto bulduðu herþeyi çarpýyor.
 Ýnsansý figür manyeto alanýnda tuzaða düþürülmüþ görünüyor.
 ~
 human~
-ABG 0 -150 0
-22 0 5d10+400 11d9+100 4d4+6 none
--5 -5 -5 7
-EFNU 0 0 0
-stand stand none 500
-0 0 medium 0
+ABG 0 22
 #9228
 buz haydut~
 buz haydut~
@@ -391,12 +261,7 @@ Buz Haydut kalbine soðuðun korkusunu salýyor.
 Ýnsansý figür buzla kaplanmýþ ancak hala canlý gözüküyor.
 ~
 human~
-ABGH P -250 0
-24 0 5d10+500 12d9+100 2d10+6 none
--6 -6 -6 6
-EFNU 0 0 0
-stand stand none 1500
-0 0 medium 0
+ABGH P 24
 #9229
 kara canavarý~
 kaya canavarý~
@@ -405,12 +270,7 @@ Kaya Cavanarý oldukça sessiz, bekliyor.
 Toprak içine hapsedilmiþ insansý figür hala canlý görünüyor.
 ~
 human~
-ABG 0 -310 0
-23 0 5d10+450 11d9+100 3d6+6 none
--6 -6 -6 6
-EFNU 0 0 0
-stand stand none 950
-0 0 medium 0
+ABG 0 23
 #9230
 kasýrga~
 kasýrga~
@@ -419,12 +279,7 @@ Bir kasýrga gökyüzünü karýþtýrýyor.
 Kasýrga içine hapsedilmiþ insansý bir figür.
 ~
 human~
-ABG P -10 0
-28 0 6d12+703 14d9+100 5d4+8 none
--8 -8 -8 6
-EFNU 0 0 0
-stand stand none 2054
-0 0 medium 0
+ABG P 28
 #9231
 büyücü hizmetkar~
 hizmetkar büyücü~
@@ -434,12 +289,7 @@ Elemental büyücü buraya Teslimiyet Taþýný aramaya gelmiþ. Karþýt hisleri
 tercüme etmeye yarayacaðýný düþünüyor.
 ~
 human~
-ABGR B -50 0
-17 0 3d9+233 17d9+100 1d12+3 none
--2 -2 -2 4
-FU 0 0 0
-stand stand none 400
-0 0 medium 0
+ABGR B 17
 #9232
 gökkuþaðý savaþçýsý~
 gökkuþaðý savaþçýsý~
@@ -449,12 +299,7 @@ Elemental güçlere hizmeti sayesinde özel güçler verilmiþ bir Gökkuþaðý
 Savaþçýsý.
 ~
 human~
-AGQ 0 150 0
-18 0 3d9+283 18d9+100 2d6+4 none
--3 -3 -3 6
-EIKU 0 0 0
-stand stand none 400
-0 0 medium 0
+AGQ 0 18
 #9233
 ilüzyonist~
 ilüzyonist~
@@ -463,12 +308,7 @@ ilüzyonist~
 Aldatma üzerine yeni bir büyü üzerinde çalýþýyor. <kuþanýlan> Ýlüzyon Kýlýcý
 ~
 human~
-ABGR 0 -50 0
-12 0 2d8+134 12d9+100 1d8+2 none
-1 1 1 6
-FU 0 0 0
-stand stand none 95
-0 0 medium 0
+ABGR 0 12
 #9234
 simyacý~
 simyacý~
@@ -477,12 +317,7 @@ Bir simyacý büyülü otlarý ve taþlarý topluyor.
 Nadide olan þifalý bitkilerin bu kanyonda yetiþtiðine dair söylentiler var.
 ~
 human~
-AGS DF -50 0
-13 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 7
-BEFJNU 0 0 0
-stand stand none 95
-0 0 medium 0
+AGS DF 13
 #9235
 bebek gökkuþaðý ejderha~
 bebek gökkuþaðý ejderhasý~
@@ -491,12 +326,7 @@ Bir bebek gökkuþaðý ejderhasý elementlerle oynuyor.
 Sadece bebek bir ejderha standartlarýnda.
 ~
 human~
-ABG DF 0 0
-16 0 3d9+233 8d9+100 2d6+4 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand none 500
-0 0 medium 0
+ABG DF 16
 #9236
 küçük þeytan~
 küçük þeytan~
@@ -505,12 +335,7 @@ Küçük bir þeytan eðleniyor.
 Küçük bir þeytan birkaç eþya çalýyor ve oldukça tiksindirici.
 ~
 human~
-ACGH PQ -500 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ACGH PQ 5
 #9237
 büyük hizmetkar~
 büyük hizmetkar~
@@ -519,12 +344,7 @@ BÜYÜK bir hizmetkar burada duruyor.
 BÜYÜK, baþka söze gerek var mý?
 ~
 human~
-ABG 0 30 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand none 500
-0 0 medium 0
+ABG 0 20
 #9238
 iksir satýcýsý~
 iksir satýcýsý~
@@ -533,12 +353,7 @@ Bir iksir satýcýsý sana iksirlerini tanýtýyor.
 BANA SALDIRMANI TAVSÝYE ETMEM.
 ~
 human~
-ABEGR 0 900 0
-30 0 6d12+778 30d9+100 5d4+7 none
--9 -9 -9 1
-FU ABCD 0 0
-stand stand male 0
-0 0 medium 0
+ABEGR 0 30
 #9239
 savaþ büyücüsü~
 Savaþ Büyücüsü~
@@ -547,13 +362,9 @@ Bir büyücü savaþ büyüleri için taþ ve toz topluyor.
 Bir savaþ büyücüsü büyüler üzerine çalýþýyor.
 ~
 human~
-ABGKRe D -50 0
-46 30 3d9+8233 17d9+4100 10d12+33 none
--12 -12 -12 -4
-F ABC 0 0
-stand stand none 400
-0 0 medium 0
+ABGKRe D 46
 #0
+
 #OBJECTS
 #9201
 toprak yüzük~

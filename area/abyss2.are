@@ -17,7 +17,7 @@ Converted to standard Envy 1.x by Jason Huang (god@sure.net)
 Further conversion to Rom 2.4 by Jaceks and Chicken's Den Staff~
 0 $~
 
-#MOBILES
+#NEW_MOBILES
 
 #25000
 demi lich demi-lich~
@@ -34,12 +34,7 @@ fearsome sight. Despite the wasted, rotten flesh it is garbed in the rich
 clothes of nobility.
 ~
 human~
-ABCF DH -1000 0
-47 0 25d10+3500 469d1+1 6d6+17 punch
--17 -17 -17 3
-CDIKLN AB E CK
-stand stand male 6700
-0 0 medium 0
+ABCF DH 47
 #25001
 keftab~
 Keftab, the Ancient One~
@@ -55,12 +50,7 @@ mossy protrusions, like some strange malignant blemishes. It emits low,
 gutteral mewlings from its fange, quivering oriface.
 ~
 human~
-ABC DP -1000 0
-45 0 25d10+2300 449d1+1 8d4+10 beating
--15 -15 -15 4
-CDEFH AB N C
-stand stand male 6500
-0 0 medium 0
+ABC DP 45
 #25002
 death crimson~
 A Crimson Death~
@@ -71,12 +61,7 @@ victims stain the robe. Its skeletal figure resembles that of the angel of
 death. Its eyes glow with a furious fire to kill.
 ~
 human~
-ABCF DHTU -1000 0
-36 0 10d10+1400 359d1+1 3d10+11 punch
--12 -12 -12 5
-DEHIJK AB D FGNO
-stand stand either 5600
-0 0 medium 0
+ABCF DHTU 36
 #25003
 mist daemon~
 A Mist Daemon~
@@ -86,12 +71,7 @@ A large demon like creature hovers abover you, in a cloud of grey mist.
 Its winged form stares down at you in utter hatred.
 ~
 human~
-ABCF U -1000 0
-34 0 10d10+1200 339d1+1 4d7+10 punch
--11 -11 -11 5
-HIK AB R X
-stand stand either 10000
-0 0 medium 0
+ABCF U 34
 #25004
 black slayer~
 a Black Slayer~
@@ -101,12 +81,7 @@ The black slayer is a shadowy figure, about 7 feet in height. Garbed in
 a heavey, black cloak, in his right hand, he wields a wicked dagger.
 ~
 human~
-ABCF DP -1000 0
-25 0 5d10+550 249d1+1 2d10+7 punch
--7 -7 -7 6
-ACFHIK A C B
-stand stand male 999
-0 0 medium 0
+ABCF DP 25
 #25005
 lost soul~
 a Lost Soul~
@@ -115,12 +90,7 @@ A ghostly apparition floats here, staring at you in utter hatred.
 The lost soul is a ghostly apparition, seeking revenge on the living.
 ~
 human~
-ACF DP -1000 0
-20 0 3d9+333 199d1+1 2d8+5 punch
--4 -4 -4 7
-FGJK A C DS
-stand stand female 666
-0 0 medium 0
+ACF DP 20
 #25006
 storm giant~
 a Storm Giant~
@@ -130,12 +100,7 @@ This huge creature is approximatly 18 feet tall, He grasps a huge bolt
 of lightning it his right hand.... He doesnt look happy to see you.
 ~
 giant~
-ABCF DP -1000 0
-40 0 15d10+1850 399d1+1 4d8+13 punch
--13 -13 -13 4
-CEIKL AB D CIJK
-stand stand male 10000
-0 0 large 0
+ABCF DP 40
 #25007
 white gold manticore~
 a White Gold Manticore~
@@ -146,12 +111,7 @@ entirely of white gold. Its eyes seem to watch your every move..
 they almost appear is if they were alive.
 ~
 bear~
-ABC DH 0 25007
-22 0 5d10+400 219d1+1 4d4+6 punch
--5 -5 -5 6
-ACDHIKL 0 J E
-stand stand male 877
-0 0 medium 0
+ABC DH 22
 #25008
 flaming efreet~
 an Efreet~
@@ -161,12 +121,7 @@ The creature is formed entirely of flames. The creature gives off an
 intense heat.
 ~
 human~
-ABF b -1000 25008
-35 0 10d10+1200 349d1+1 4d7+10 punch
--11 -11 -11 7
-CDEFGHIK AB H LNOS
-stand stand male 5612
-0 0 medium 0
+ABF b 35
 #25009
 hydra~
 the Hydra~
@@ -176,12 +131,7 @@ The huge, scaled creature  has eight heads... each capable of breathing
 a dangerous stream of fire.
 ~
 fox~
-ABCF 0 -1000 0
-36 0 10d10+1400 359d1+1 3d10+11 punch
--12 -12 -12 6
-HK AB R OL
-stand stand female 6090
-0 0 medium 0
+ABCF 0 36
 #25010
 kraken~
 the kraken~
@@ -192,12 +142,7 @@ size. its huge tentacles grasp something... though you can not make out
 what the object is.
 ~
 water fowl~
-ABF 8 -1000 0
-40 0 15d10+1700 399d1+1 4d8+11 punch
--13 -13 -13 7
-AB R C HI
-stand stand male 4504
-0 0 medium 0
+ABF 8 40
 #25011
 treant tree~
 the Treant~
@@ -207,15 +152,10 @@ It is a rather large creature resembling a tree. At the base of the trunk
 is a large opening that looks very much like a mouth.
 ~
 lizard~
-ABCF H -1000 0
-44 0 25d10+2550 439d1+1 8d4+12 punch
--15 -15 -15 4
-CEF AB D CH
-stand stand male 5709
-0 0 medium 0
+ABCF H 44
 #25012
-githyanki~
-a Githyanki~
+gamayun~
+a gamayun~
 A disgusting creature of etheral nature stands here, its body completely
 wraped in bandages..
 ~
@@ -223,13 +163,8 @@ This man sized creature has bandages wrapped all about its body. Its eyes
 glow with a brilliant red fire, in its right hand he grasps a an extremely
 sharp blade of magical nature.
 ~
-human~
-ABCGH DP -1000 25012
-26 0 5d10+600 259d1+1 2d10+7 punch
--7 -7 -7 6
-ADEF 0 LM D
-stand stand male 1500
-0 0 medium 0
+gamayun~
+ABCGH DP 26
 #25013
 kalas~
 Kalas~
@@ -240,12 +175,7 @@ He is a large, muscular man of undead nature. He is clad in rather magical
 looking suit of armor, his sword burning fiercly.
 ~
 human~
-ABF H -1000 0
-50 0 50d10+4500 499d1+1 5d8+19 punch
--20 -20 -20 3
-ABCDEFGHJKN AB H IJK
-stand stand male 12045
-0 0 medium 0
+ABF H 50
 #25014
 death knight~
 the Death knight~
@@ -256,12 +186,7 @@ of a once mighty warrior. Its eyes are fixed coldly upon you, unsheathing
 its sword, he charges for battle.
 ~
 human~
-ABCF H -1000 0
-38 0 10d10+1600 379d1+1 4d8+13 punch
--13 -13 -13 5
-CBEGK AB D H
-stand stand male 6860
-0 0 medium 0
+ABCF H 38
 #25015
 Neo Otyugh~
 the Neo-Otyugh~
@@ -271,12 +196,7 @@ This creature is covered with slime like substance, many tentacles protrude
 from its disgusting body.
 ~
 dog~
-ABCF H -1000 25015
-46 0 25d10+3250 459d1+1 6d6+16 punch
--16 -16 -16 4
-J AB KL I
-stand stand male 10000
-0 0 medium 0
+ABCF H 46
 #25016
 shadow daemon~
 a Shadow Daemon~
@@ -285,12 +205,7 @@ A shadowy figure stands here, looking you over with greed.
 This creature has almost no form, it looks like some sort of shadow with wings.
 ~
 human~
-ACF D -1000 0
-28 0 6d12+703 279d1+1 2d12+8 punch
--8 -8 -8 5
-CDHI AB MNO STZ
-stand stand male 1230
-0 0 medium 0
+ACF D 28
 #25017
 gatekeeper gate keeper~
 the Gatekeeper~
@@ -300,12 +215,7 @@ He is a huge man, his strong, muscular body stands about 8 feet tall.
 He guards the portal beyond him angrily.
 ~
 human~
-ABFG DFHJ -1000 25036
-35 0 10d10+1300 349d1+1 4d7+11 punch
--11 -11 -11 5
-CI AB C D
-stand stand male 5400
-0 0 medium 0
+ABFG DFHJ 35
 #25018
 elemental water prince~
 The Water Prince~
@@ -314,12 +224,7 @@ The prince of water elementals flows here
 He looks like a giant wave about to swoop down upon you.
 ~
 water fowl~
-AB FH 0 0
-32 0 10d10+900 319d1+1 6d4+8 punch
--10 -10 -10 5
-AHI 0 HIJK 0
-stand stand male 4500
-0 0 medium 0
+AB FH 32
 #25019
 earth elemental king~
 The Earth King~
@@ -328,12 +233,7 @@ The King of earth elementals stands here.. cower fool!
 It looks vaguely man-shaped.
 ~
 water fowl~
-AB FH 0 0
-32 0 10d10+900 319d1+1 6d4+8 punch
--10 -10 -10 5
-AHI 0 HIJK 0
-stand stand male 10000
-0 0 medium 0
+AB FH 32
 #25020
 air elemental lord~
 The Lord of Air~
@@ -342,12 +242,7 @@ A huge tornado is squeezed into this impossibly small space.
 It looks sentinent.
 ~
 song bird~
-AB D 0 0
-32 0 10d10+900 319d1+1 6d4+8 punch
--10 -10 -10 5
-AHI 0 HIJK 0
-stand stand male 4906
-0 0 medium 0
+AB D 32
 #25021
 fire elemental sultan~
 The Sultan of Fire~
@@ -356,12 +251,7 @@ The Sultan of fire Elementals stands before you, you feel crisp.
 It looks vaguely man-shaped.
 ~
 dragon~
-AB D 0 0
-32 0 10d10+900 319d1+1 6d4+8 punch
--10 -10 -10 5
-AHI 0 HIJK 0
-stand stand male 4111
-0 0 medium 0
+AB D 32
 #25022
 king goblin~
 The goblin king~
@@ -370,12 +260,7 @@ The goblin king is here.
 He looks like david bowie.
 ~
 goblin~
-A D -351 0
-18 0 3d9+283 179d1+1 2d7+4 punch
--3 -3 -3 7
-0 0 0 0
-stand stand male 940
-0 0 medium 0
+A D 18
 #25023
 goblin cannon~
 A goblin cannon~
@@ -384,12 +269,7 @@ A goblin cannon is here, warming up.
 He looks like a tank.
 ~
 goblin~
-AB 0 -351 0
-30 0 6d12+853 299d1+1 4d6+8 punch
--9 -9 -9 5
-0 0 0 0
-stand stand male 4500
-0 0 medium 0
+AB 0 30
 #25024
 goblin gatling~
 A gatling goblin~
@@ -398,12 +278,7 @@ A gatling goblin is here!  Duck!
 He looks like a walking gatling gun.
 ~
 goblin~
-AB 0 -351 0
-30 0 6d12+853 299d1+1 4d6+8 punch
--9 -9 -9 5
-0 0 0 0
-stand stand male 5400
-0 0 medium 0
+AB 0 30
 #25025
 acid blob~
 An acid blob~
@@ -412,12 +287,7 @@ An acid blob is here
 He looks like a big blob of acid
 ~
 human~
-AB 0 0 0
-20 0 3d9+333 199d1+1 2d8+5 punch
--4 -4 -4 7
-0 0 0 0
-stand stand either 999
-0 0 medium 0
+AB 0 20
 #25026
 acid blob giant~
 A giant acid blob~
@@ -426,12 +296,7 @@ A gaint acid blob is here
 He looks like a huge blob of acid
 ~
 human~
-AB 0 0 0
-50 0 50d10+4500 499d1+1 5d8+19 punch
--20 -20 -20 3
-0 0 0 0
-stand stand either 11111
-0 0 medium 0
+AB 0 50
 #25030
 demon vrock~
 A vrock~
@@ -440,12 +305,7 @@ A Vrock stands here
 It is a vulture/human creature. Extremely ugly, and nasty.
 ~
 human~
-ACF DF -666 25030
-21 0 4d10+360 209d1+1 4d4+5 punch
--5 -5 -5 6
-FI AB C D
-stand stand male 999
-0 0 medium 0
+ACF DF 21
 #25031
 demon hezrou~
 A hezrou~
@@ -454,12 +314,7 @@ A demon Hezrou stands here.
 Not unlike A large toad/man
 ~
 human~
-ACF DF -666 0
-17 0 3d9+258 169d1+1 3d4+4 punch
--3 -3 -3 7
-AKN AB PGS HR
-stand stand male 378
-0 0 medium 0
+ACF DF 17
 #25032
 demon glabrezu~
 A glabrezu~
@@ -468,12 +323,7 @@ A demon Glabrezu stands here.
 I forget what this one looks like.
 ~
 human~
-ACF DF -666 25032
-18 0 3d9+283 179d1+1 2d7+4 punch
--3 -3 -3 7
-J AB 0 0
-stand stand either 490
-0 0 medium 0
+ACF DF 18
 #25033
 demon nalfeshnee~
 Nalfeshnee~
@@ -482,12 +332,7 @@ Nalfeshnee stands here
 This one is big and mean looking.
 ~
 giant~
-ABCF DF -666 25033
-19 0 3d9+308 190d1+1 2d7+5 punch
--4 -4 -4 7
-A AB 0 0
-stand stand either 890
-0 0 medium 0
+ABCF DF 19
 #25034
 demon marilith~
 Marilith~
@@ -496,12 +341,7 @@ Marilith slithers here
 A woman with 6 arms and a snake's tail
 ~
 çora~
-ACF DF -666 25034
-15 0 3d9+208 149d1+1 2d6+3 punch
--2 -2 -2 7
-A AB 0 0
-stand stand female 450
-0 0 tiny 0
+ACF DF 15
 #25035
 demon balor~
 Balor~
@@ -510,12 +350,7 @@ Balor stands here, surrounded by electrical fire
 He is very large, and looks rather deadly
 ~
 dwarf~
-ACF DF -666 0
-20 0 3d9+333 199d1+1 2d8+5 punch
--4 -4 -4 7
-I AB D C
-stand stand male 899
-0 0 medium 0
+ACF DF 20
 #25036
 gatekeeper gate keeper~
 the Gatekeeper~
@@ -525,12 +360,7 @@ He is a huge man, his strong, muscular body stands about 8 feet tall.
 He guards the portal beyond him angrily.
 ~
 human~
-ABFG DFHJ -1000 25017
-35 0 10d10+1300 349d1+1 4d7+11 punch
--11 -11 -11 5
-CDIK AB 0 0
-stand stand male 5400
-0 0 medium 0
+ABFG DFHJ 35
 #0
 
 

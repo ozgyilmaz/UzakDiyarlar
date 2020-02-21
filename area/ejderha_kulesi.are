@@ -11,7 +11,7 @@ Maxvnum 2299
 Path 3k 2d 2g 6b k b k 3b k b 5k~
 END
 
-#MOBILES
+#NEW_MOBILES
 #2200
 eskitip yavru ejderha~
 yavru ejderha~
@@ -22,14 +22,7 @@ ayak boyunda olduðu halde sivri diþleri onu sevmeye kalkmamak konusunda
 seni uyarýyor.
 ~
 dragon~
-ABG 0 -900 0
-7 0 2d6+85 3d9+100 1d8+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand none 100
-0 0 medium 0
-F res H
-F vul I
+ABG 0 7
 #2201
 eskitip ejderan~
 Ejderan~
@@ -39,12 +32,7 @@ O hem insaný hem ejderhayý andýran korkunç bir varlýk. Kanat açýklýðý
 yedi ayak kadar. Odaya girdiðinde kaþlarýný çatýyor ve kargýsýný kaldýrýyor.
 ~
 human~
-ABCF D -900 0
-13 0 2d10+170 6d9+100 2d5+3 none
--1 -1 -1 8
-EFNU 0 0 0
-stand stand male 100
-0 0 medium 0
+ABCF D 13
 #2202
 eskitip türbe lord efendi~
 ejderha efendisi~
@@ -53,12 +41,7 @@ Türbenin lordu burada.
 Seni görmekten mutlu olduðu söylenemez.
 ~
 human~
-ABCF T -1000 0
-27 0 5d10+650 13d9+100 5d4+7 none
--8 -8 -8 6
-EFNU 0 0 0
-stand stand male 1750
-0 0 medium 0
+ABCF T 27
 #2203
 eskitip büyücü güçlü~
 güçlü büyücü~
@@ -69,12 +52,7 @@ insan olduðunu farkedince þaþýrýyorsun. Buradaki yaratýklar onu kabul
 ettiklerine göre oldukça güçlü olmalý.
 ~
 human~
-ABR BDH -900 0
-22 0 4d10+360 22d9+100 2d7+5 none
--5 -5 -5 3
-FU 0 0 0
-stand stand male 30
-0 0 medium 0
+ABR BDH 22
 #2204
 eskitip tehu ejder~
 kutsal ejderan~
@@ -84,12 +62,7 @@ Basit cüppelere sarýnmýþ bir ejder görüyorsun. Boynunda beþ baþlý ejder
 madalyonu taþýyor.
 ~
 human~
-ABCFQ DH -900 0
-22 0 5d10+400 22d9+100 2d8+6 none
--5 -5 -5 5
-EIKU 0 0 0
-stand stand male 20
-0 0 medium 0
+ABCFQ DH 22
 #2205
 eskitip kral ejderan~
 Ejderan Kral~
@@ -101,12 +74,7 @@ edildiðini farkediyorsun.
 
 ~
 human~
-ABC DH -900 0
-26 0 5d10+600 13d9+100 3d7+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand male 40
-0 0 medium 0
+ABC DH 26
 #2206
 eskitip hizmetkar ejderan~
 hizmetkar~
@@ -116,12 +84,7 @@ O kralýn kadýnlarýndan birisi. Neredeyse çýrýlçýplak. Bir býçak çýkarýp
 kendini savunmaya hazýrlandýðýný görünce þaþýrýyorsun.
 ~
 human~
-AB 0 -500 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand female 5
-0 0 medium 0
+AB 0 6
 #2207
 eskitip ejderan koruma~
 koruma~
@@ -131,12 +94,7 @@ O kendini kralý korumaya adamýþ bir ejder. Senin varlýðýn onu tedirgin
 ediyor.
 ~
 human~
-ABF CDF -800 0
-18 0 3d9+283 9d9+100 2d7+4 none
--3 -3 -3 7
-EFNU 0 0 0
-stand stand male 250
-0 0 medium 0
+ABF CDF 18
 #2220
 eskitip tiamat ejder~
 Tiamat~
@@ -146,12 +104,7 @@ Kulenin efendisi Tiamat'ý görüyorsun. Her an buraya izinsiz girerek
 yaptýðýn terbiyesizliði ödetebilir.... hem de HAYATINLA!!!
 ~
 human~
-ABCF DFTV -1000 0
-52 0 50d10+5500 26d9+100 6d7+20 none
--22 -22 -22 2
-EFNU AB CD 0
-stand stand female 2500
-0 0 medium 0
+ABCF DFTV 52
 #2221
 kýzýl ejderha~
 Kýzýl Ejderha~
@@ -161,13 +114,7 @@ Kaçmak için geri döndügünde kalman gerektiðini bildiriyor,
 hem de SONSUZA KADAR!!!
 ~
 dragon~
-ABCF DF -1000 0
-54 60 25d10+8000 22d9+900 11d11+26 none
--85 -85 -85 -24
-EFNR H 0 0
-stand stand male 8000
-0 0 medium 0
-F res H
+ABCF DF 54
 #2222
 kara ejderha~
 Kara Ejderha~
@@ -177,14 +124,7 @@ Silahlarýna gülümseyerek bakýyor. Onun tek bir týrnaðýnýn boyu iki
 kiþinin kaldýrmaya gücünün yetmeyeceði kadim kýlýçlar büyüklüðünde.
 ~
 dragon~
-ABCF DF -900 0
-40 40 15d10+3700 19d9+400 5d9+13 none
--19 -19 -19 -1
-EFNR K 0 J
-stand stand male 1000
-0 0 medium 0
-F res H
-F vul I
+ABCF DF 40
 #2223
 beyaz ejderha~
 Beyaz Ejderha~
@@ -193,14 +133,7 @@ Beyaz Ejderha burada, seni bekliyor.
 Boyu bir kale yüksekliðinde...
 ~
 dragon~
-ABCF DF -1000 0
-39 20 10d10+3500 18d9+400 3d20+12 none
--12 -12 -12 5
-EFNR I 0 H
-stand stand female 1750
-0 0 medium 0
-F res H
-F vul I
+ABCF DF 39
 #2225
 yeþil ejderha~
 Kadim Yeþil Ejderha~
@@ -210,14 +143,7 @@ Aðzýndan dumanlar çýkararak sana bebeklerini rahatsýz etmenin bedelini
 ödeteceðini söylüyor.
 ~
 dragon~
-ABCF DF -1000 0
-47 70 25d10+6000 20d9+800 4d8+24 none
--34 -34 -34 -10
-EFNR L 0 P
-stand stand female 1000
-0 0 medium 0
-F res H
-F vul I
+ABCF DF 47
 #2226
 eskitip hidra~
 iri hidra~
@@ -226,12 +152,7 @@ Bir hidra burada, kapýyý tutuyor.
 Giriþi koruyan bir hidra görüyorsun. Seni görmekten memnun olmamýþ.
 ~
 human~
-ABCF DF -800 0
-18 0 3d9+283 9d9+100 2d7+4 none
--3 -3 -3 7
-EFNU 0 0 0
-stand stand none 250
-0 0 medium 0
+ABCF DF 18
 #2227
 eskitip köle insan~
 bir köle~
@@ -240,12 +161,7 @@ Bir köle görüyorsun, aðýr bir iþte çalýþýyor.
 Bundan yýllar önce gürzra aramaya gelmiþ. Ýþte gürzRA!!!
 ~
 human~
-ABS DF 0 0
-5 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-BEFJNU 0 0 0
-stand stand male 5
-0 0 medium 0
+ABS DF 5
 #2240
 eskitip zombi ejder~
 zombi ejder~
@@ -254,12 +170,7 @@ Zombi ejder burada, bakýþlarý hiçbir þey ifade etmiyor.
 Eskiden kabilenin savaþçýlarýndanmýþ. Þimdi ise koridoru koruyor.
 ~
 human~
-ABCF DF -400 0
-9 0 2d6+110 4d9+100 1d8+2 none
-2 2 2 8
-EFNU 0 0 0
-stand stand none 75
-0 0 medium 0
+ABCF DF 9
 #2241
 faz ejderha~
 Faz Ejderha~
@@ -268,12 +179,7 @@ Faz Ejderha burada, salonu arþýnlýyor.
 Bu küçük ejderha hiç de sakin görünmüyor.
 ~
 dragon~
-ACFGH DF -300 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNR 0 0 0
-stand stand male 250
-0 0 medium 0
+ACFGH DF 10
 #2242
 aptal ejder~
 aptal ejder~
@@ -282,12 +188,7 @@ Aptal bir ejder burada, senin taklitini yapýyor.
 Bu bir ejder mi yoksa bir þaklaban mý?
 ~
 human~
-AGHS DF 0 0
-5 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-BEFJNU 0 0 0
-stand stand male 25
-0 0 medium 0
+AGHS DF 5
 #2243
 eskitip kraliçe ejder~
 Kraliçe Ejder~
@@ -297,13 +198,9 @@ Kölelerine yapmalarý gerekenleri anlatmaktan yorulmuþ. Onu yalnýz býrakmak
 iyi olabilir, ne dersin?
 ~
 human~
-ABC DFH -600 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand female 500
-0 0 medium 0
+ABC DFH 20
 #0
+
 #OBJECTS
 #2200
 çentikli asa~

@@ -1,8 +1,15 @@
 /***************************************************************************
-*    Uzak Diyarlar, Anatolia tabanlý Türkçe Mud                            *
-*    http://www.uzakdiyarlar.net                                           *
-*    https://github.com/yelbuke/UzakDiyarlar                               *
-***************************************************************************/
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+
 #include "ek.h"
 
 const struct pers_suffix_type pers_suffix_table[] =

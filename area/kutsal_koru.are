@@ -11,7 +11,7 @@ Maxvnum 8999
 Path 8d 1k~
 END
 
-#MOBILES
+#NEW_MOBILES
 #8900
 hiyeropant~
 Hiyeropant~
@@ -21,12 +21,7 @@ Oldukça yaþlý ve kendisi kadar yaþlý bir cüppeye bürünmüþ bir adam. Açýk
 mavi gözleri dünyayý izliyor, yaþayan ve büyüyen herþeyi görüyor.
 ~
 human~
-AGHKQe DHN 1000 0
-20 0 3d9+1033 20d9+100 2d7+10 none
--4 -4 -4 6
-EIKU AB 0 0
-stand stand male 2
-0 0 medium 0
+AGHKQe DHN 20
 #8901
 hiyeropant~
 Hiyeropant~
@@ -36,12 +31,7 @@ Oldukça yaþlý ve kendisi kadar yaþlý bir cüppeye bürünmüþ bir kadýn. Açýk
 mavi gözleri dünyayý izliyor, yaþayan ve büyüyen herþeyi görüyor.
 ~
 human~
-AGHQ DHN 1000 0
-20 0 3d9+333 20d9+100 2d7+5 none
--4 -4 -4 6
-EIKU 0 0 0
-stand stand female 2
-0 0 medium 0
+AGHQ DHN 20
 #8902
 yaþlý rahip~
 yaþlý rahip~
@@ -51,12 +41,7 @@ Kutsal korunun diðer rahipleri gibi yaþlý. Çenesinden sarkan gri sakalýn
 her telinde onlarca yýlýn tecrübesi ve bilgisi kendini gösteriyor.
 ~
 human~
-AGHQ N 1000 0
-13 0 2d10+170 13d9+100 1d10+3 none
--1 -1 -1 7
-EIKU 0 0 0
-stand stand male 2
-0 0 medium 0
+AGHQ N 13
 #8903
 yaþlý rahibe~
 yaþlý rahibe~
@@ -65,12 +50,7 @@ Yaþlý bir rahibe görüyorsun, vahþi ve kutsal yaþamý izliyor.
 Oldukça yaþlý, güzel bir gülümsemeyle seni selamlýyor.
 ~
 human~
-AGHQ N 1000 0
-13 0 2d10+170 13d9+100 1d10+3 none
--1 -1 -1 7
-EIKU 0 0 0
-stand stand female 2
-0 0 medium 0
+AGHQ N 13
 #8904
 diþi geyik~
 diþi geyik~
@@ -79,12 +59,7 @@ Bir geyik görüyorsun, çimenleri eziyor.
 Büyük kara gözleriyle seni izleyen barýþçýl bir diþi geyik.
 ~
 human~
-AGH 0 0 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand female 0
-0 0 medium 0
+AGH 0 5
 #8905
 geyik~
 geyik~
@@ -94,12 +69,7 @@ Senin varlýðýndan rahatsýz olmuþ gibi görünüyor. Kafasýný yere eðerek
 sað arka ayaðýyla çimleri kopartýp savuruyor.
 ~
 human~
-AGH 0 0 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+AGH 0 6
 #8906
 erkek geyik~
 erkek geyik~
@@ -108,12 +78,7 @@ Büyükçe bir geyik görüyorsun, bölgesini kolluyor.
 Onu rahatsýz etmesen daha iyi...
 ~
 human~
-AFGH 0 0 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+AFGH 0 8
 #8907
 küçük tavþan~
 küçük tavþan~
@@ -122,12 +87,7 @@ Küçük bir tavþan görüyorsun, zýplayýp duruyor.
 Çok güzel bir tavþan, senin olmasýný isterdin...
 ~
 human~
-AGH 0 0 0
-2 0 2d7+21 1d9+100 1d5+0 none
-8 8 8 10
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AGH 0 2
 #8908
 yýlan~
 zararsýz yýlan~
@@ -136,12 +96,7 @@ Küçük bir yýlan otlarýn arasýnda ilerliyor.
 Biraz inceledikten sonra onun zararsýz bir türden olduðunu anladýn.
 ~
 snake~
-AFGH P 0 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-EFNR 0 0 0
-stand stand none 0
-0 0 medium 0
+AFGH P 4
 #8909
 rahip~
 rahip~
@@ -150,12 +105,7 @@ Rahip burada, meditasyon yapýyor.
 Onu rahatsýz ettin! Yine de senden buradan çýkmaný rica edecek kadar nazik.
 ~
 human~
-AGHQ DN 1000 0
-10 0 2d7+121 10d9+100 1d7+2 none
-1 1 1 7
-EIKU 0 0 0
-stand stand male 2
-0 0 medium 0
+AGHQ DN 10
 #8910
 rahibe~
 rahibe~
@@ -164,12 +114,7 @@ Rahibe burada, seni izliyor.
 Neden ona baktýðýný ve buraya nasýl geldiðini merak ediyor.
 ~
 human~
-AGHQ DN 1000 0
-10 0 2d7+121 10d9+100 1d7+2 none
-1 1 1 7
-EIKU 0 0 0
-stand stand female 2
-0 0 medium 0
+AGHQ DN 10
 #0
 #OBJECTS
 #8901

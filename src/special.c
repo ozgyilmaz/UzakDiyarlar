@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+ 
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT		           *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -106,8 +118,6 @@ DECLARE_SPEC_FUN(	spec_mayor		);
 DECLARE_SPEC_FUN(	spec_poison		);
 DECLARE_SPEC_FUN(	spec_thief		);
 DECLARE_SPEC_FUN(	spec_nasty		);
-DECLARE_SPEC_FUN(	spec_asura_member	);
-DECLARE_SPEC_FUN(	spec_ogre_member	);
 DECLARE_SPEC_FUN(	spec_patrolman		);
 DECLARE_SPEC_FUN(       spec_cast_cabal         );
 DECLARE_SPEC_FUN(       spec_special_guard      );
@@ -116,6 +126,10 @@ DECLARE_SPEC_FUN(       spec_questmaster        );
 DECLARE_SPEC_FUN(       spec_assassinater       );
 DECLARE_SPEC_FUN(       spec_repairman		);
 DECLARE_SPEC_FUN(       spec_wishmaster		);
+DECLARE_SPEC_FUN(       spec_kameni_dindar		);
+DECLARE_SPEC_FUN(       spec_niryani_dindar		);
+DECLARE_SPEC_FUN(       spec_nyahi_dindar		);
+DECLARE_SPEC_FUN(       spec_sintaryan_dindar		);
 DECLARE_SPEC_FUN(	spec_captain		);
 DECLARE_SPEC_FUN(       spec_headlamia          );
 /* cabal guardians */
@@ -152,8 +166,6 @@ const   struct  spec_type    spec_table[] =
     {	"spec_poison",			spec_poison		},
     {	"spec_thief",			spec_thief		},
     {	"spec_nasty",			spec_nasty		},
-    {	"spec_asura_member",		spec_asura_member	},
-    {	"spec_ogre_member",		spec_ogre_member	},
     {	"spec_patrolman",		spec_patrolman		},
     {	"spec_cast_cabal",		spec_cast_cabal		},
     {	"spec_stalker",			spec_stalker		},
@@ -161,7 +173,11 @@ const   struct  spec_type    spec_table[] =
     {   "spec_questmaster",             spec_questmaster        },
     {   "spec_assassinater",            spec_assassinater	},
     {   "spec_repairman",		spec_repairman		},
-	{   "spec_wishmaster",		spec_wishmaster		},
+    {   "spec_wishmaster",		spec_wishmaster		},
+    {   "spec_kameni_dindar",		spec_kameni_dindar		},
+    {   "spec_niryani_dindar",		spec_niryani_dindar		},
+    {   "spec_nyahi_dindar",		spec_nyahi_dindar		},
+    {   "spec_sintaryan_dindar",		spec_sintaryan_dindar		},
     {	"spec_captain",			spec_captain		},
     {   "spec_headlamia",		spec_headlamia		},
     {	"spec_fight_enforcer",		spec_fight_enforcer	},
@@ -205,121 +221,6 @@ char *spec_name( SPEC_FUN *function)
     return NULL;
 }
 
-bool spec_asura_member( CHAR_DATA *ch)
-{
-    CHAR_DATA *vch, *victim = NULL;
-    int count = 0;
-    const char *message;
-
-    if (!IS_AWAKE(ch) || IS_AFFECTED(ch,AFF_CALM) || ch->in_room == NULL
-    ||  IS_AFFECTED(ch,AFF_CHARM) || ch->fighting != NULL)
-	return FALSE;
-
-    /* find an ogre to beat up */
-    for (vch = ch->in_room->people;  vch != NULL;  vch = vch->next_in_room)
-    {
-	if (!IS_NPC(vch) || ch == vch)
-	    continue;
-
-	if (vch->pIndexData->vnum == MOB_VNUM_PATROLMAN)
-	    return FALSE;
-
-	if (vch->pIndexData->group == GROUP_VNUM_OGRES
-	&&  ch->level > vch->level - 2 && !is_safe(ch,vch))
-	{
-	    if (number_range(0,count) == 0)
-		victim = vch;
-
-	    count++;
-	}
-    }
-
-    if (victim == NULL)
-	return FALSE;
-
-    /* say something, then raise hell */
-    switch (number_range(0,6))
-    {
-	default:  message = NULL; 	break;
-  case 0:	message = "$n 'Seni bekliyordum, serseri!' diye baðýrýyor";
-		break;
-	case 1: message = "$n ýrkçý bir öfkeyle $E saldýrýyor.";
-		break;
-	case 2: message = "$n 'Senin gibi bir Umacý pisliðinin buralarda iþi ne?' diyor";
-		break;
-	case 3: message = "$n parmaklarýný kütleterek soruyor, 'Kendini þanslý hissediyor musun?'";
-		break;
-	case 4: message = "$n 'Bu sefer etrafta seni kurtaracak muhafýz da yok!' diyor.";
-		break;
-	case 5: message = "$n 'Kardeþinin yanýna gitme vaktin geldi, ahmak,' diyor";
-		break;
-	case 6: message = "$n 'Haydi baþlayalým,' diyor.";
-		break;
-    }
-
-    if (message != NULL)
-    	act(message,ch,NULL,victim,TO_ALL);
-    multi_hit( ch, victim, TYPE_UNDEFINED );
-    return TRUE;
-}
-
-bool spec_ogre_member( CHAR_DATA *ch)
-{
-    CHAR_DATA *vch, *victim = NULL;
-    int count = 0;
-    const char *message;
-
-    if (!IS_AWAKE(ch) || IS_AFFECTED(ch,AFF_CALM) || ch->in_room == NULL
-    ||  IS_AFFECTED(ch,AFF_CHARM) || ch->fighting != NULL)
-        return FALSE;
-
-    /* find an asura to beat up */
-    for (vch = ch->in_room->people;  vch != NULL;  vch = vch->next_in_room)
-    {
-        if (!IS_NPC(vch) || ch == vch)
-            continue;
-
-        if (vch->pIndexData->vnum == MOB_VNUM_PATROLMAN)
-            return FALSE;
-
-        if (vch->pIndexData->group == GROUP_VNUM_ASURA
-        &&  ch->level > vch->level - 2 && !is_safe(ch,vch))
-        {
-            if (number_range(0,count) == 0)
-                victim = vch;
-
-            count++;
-        }
-    }
-
-    if (victim == NULL)
-        return FALSE;
-
-    /* say something, then raise hell */
-    switch (number_range(0,6))
-    {
-	default: message = NULL;	break;
-  case 0: message = "$n 'Seni bekliyordum, serseri!' diye baðýrýyor";
-          break;
-  case 1: message = "$n ýrkçý bir öfkeyle $E saldýrýyor.";
-          break;
-  case 2: message = "$n 'Senin gibi bir Arba pisliðinin buralarda iþi ne?' diyor";
-          break;
-  case 3: message = "$n parmaklarýný kütleterek soruyor, 'Kendini þanslý hissediyor musun?'";
-          break;
-  case 4: message = "$n 'Bu sefer etrafta seni kurtaracak muhafýz da yok!' diyor.";
-          break;
-  case 5: message = "$n 'Kardeþinin yanýna gitme vaktin geldi, ahmak,' diyor";
-          break;
-  case 6: message = "$n 'Haydi baþlayalým,' diyor.";
-                break;
-    }
-
-    if (message != NULL)
-    	act(message,ch,NULL,victim,TO_ALL);
-    multi_hit( ch, victim, TYPE_UNDEFINED );
-    return TRUE;
-}
 
 bool spec_patrolman(CHAR_DATA *ch)
 {
@@ -1987,5 +1888,61 @@ bool spec_wishmaster( CHAR_DATA *ch )
 			do_say(ch, (char*)"Uygun bir ücrete harika bir dilek dilemek istemez misin? Listeme bakmalýsýn.");
 			return TRUE;
 	}
+    return FALSE;
+}
+
+bool spec_kameni_dindar( CHAR_DATA *ch )
+{
+    if ( !IS_AWAKE(ch) )
+        return FALSE;
+    if (number_range(0,100) == 0) {
+      do_say(ch, (char*)"Merhaba tanrýnýn merhametine muhtaç kiþi.");
+      do_say(ch, (char*)"Kame'nin el yazmalarýný arýyorum.");
+      do_say(ch, (char*)"Yeraltý'nda o el yazmalarýndan bahsedildiðini duydum.");
+      do_say(ch, (char*)"Ama bulmak nasip olmadý.");
+        return TRUE;
+    }
+    return FALSE;
+}
+
+bool spec_niryani_dindar( CHAR_DATA *ch )
+{
+    if ( !IS_AWAKE(ch) )
+        return FALSE;
+    if (number_range(0,100) == 0) {
+      do_say(ch, (char*)"Merhaba tanrýnýn merhametine muhtaç kiþi.");
+      do_say(ch, (char*)"Nir'in el yazmalarýný arýyorum.");
+      do_say(ch, (char*)"Eski Thalos'ta o el yazmalarýndan bahsedildiðini duydum.");
+      do_say(ch, (char*)"Ama bulmak nasip olmadý.");
+        return TRUE;
+    }
+    return FALSE;
+}
+
+bool spec_nyahi_dindar( CHAR_DATA *ch )
+{
+    if ( !IS_AWAKE(ch) )
+        return FALSE;
+    if (number_range(0,100) == 0) {
+      do_say(ch, (char*)"Merhaba tanrýnýn merhametine muhtaç kiþi.");
+      do_say(ch, (char*)"Nyah'ýn el yazmalarýný arýyorum.");
+      do_say(ch, (char*)"Bölümüþ Ruhlar'da o el yazmalarýndan bahsedildiðini duydum.");
+      do_say(ch, (char*)"Ama bulmak nasip olmadý.");
+        return TRUE;
+    }
+    return FALSE;
+}
+
+bool spec_sintaryan_dindar( CHAR_DATA *ch )
+{
+    if ( !IS_AWAKE(ch) )
+        return FALSE;
+    if (number_range(0,100) == 0) {
+      do_say(ch, (char*)"Merhaba tanrýnýn merhametine muhtaç kiþi.");
+      do_say(ch, (char*)"Sint'in el yazmalarýný arýyorum.");
+      do_say(ch, (char*)"Haon Dor'da o el yazmalarýndan bahsedildiðini duydum.");
+      do_say(ch, (char*)"Ama bulmak nasip olmadý.");
+        return TRUE;
+    }
     return FALSE;
 }

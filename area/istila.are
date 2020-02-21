@@ -8,10 +8,10 @@ Lowlevel 90
 Highlevel 100
 Minvnum 560
 Maxvnum 569
-Path ~
+Path 6d 10k a 6k 2b g~
 END
 
-#MOBILES
+#NEW_MOBILES
 #560
 koruyucu kumandan istila~
 istila kumandaný~
@@ -21,12 +21,7 @@ Bu güçlü adam, Ýstila Kabalý'na koruyucu olarak hizmet ediyor. O'nun
 vazifesi meclise sýzmak isteyenlere hadlerini bildirmek.
 ~
 human~
-ABJKWe DFHJVZ -1000 0
-92 40 2d500+25000 1d200+600 10d40+50 slash
--77 -77 -77 -42
-ACEFIKNOU AB 0 S
-stand stand male 5000
-0 0 medium 0
+ABJKWe DFHJVZ 92
 
 #561
 kem ruhban kabal istila~
@@ -40,12 +35,7 @@ yoldaþlarýný kuvvetlendirip, iyileþtirmeye adamýþ. Tüm Cabülka-Cabülsa
 topraklarýnýn istila edileceði günü görmeyi bekliyor.
 ~
 human~
-ABQVae DFH -1000 0
-90 0 1d1+28999 1d1+999 2d14+30 magic
--85 -85 -85 -15
-FHIK ABC D 0
-stand stand male 1000
-0 0 medium 0
+ABQVae DFH 90
 
 #0
 

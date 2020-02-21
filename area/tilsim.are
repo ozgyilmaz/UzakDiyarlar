@@ -8,10 +8,10 @@ Lowlevel 90
 Highlevel 100
 Minvnum 530
 Maxvnum 539
-Path ~
+Path Yüksek Kule'nin Giriþinden k 3d 2k y 3b 4g 4d 4k y 4b 4g 4d 4k y 4b 4g 4d 4k y 2b 5g 2y 6k~
 END
 
-#MOBILES
+#NEW_MOBILES
 #530
 kethüda týlsým cabal kabal~
 kethüda~
@@ -22,12 +22,7 @@ efsunu yaymak için burada etrafýnda süzülüyor. Yaratýk tamamen alevlerden ve
 baþka büyülü materyallerden yaratýlmýþ.
 ~
 çora~
-ABJKRVe FHDe 0 0
-92 30 2d500+25000 1d1+3999 10d25+90 slice
--79 -79 -79 -40
-FKIN ABH C 0
-stand stand male 0
-A ABCDE medium 0
+ABJKRVe FHDe 92
 
 #531
 týlsým þifacý cabal kabal~
@@ -39,12 +34,7 @@ Yaþlý, bilge rahip eski dostlarý olan kadim sanatlar ustalarýný kutsuyor.
 giymekte. Yüzünde gülümsüyen bir tebessüm var.
 ~
 human~
-ABQVae DFH 1000 0
-90 10 1d1+28999 1d1+999 2d4+30 divine
--75 -75 -75 -55
-FHIK ABC D 0
-stand stand male 1000
-0 0 medium 0
+ABQVae DFH 90
 #532
 ateþten kýrmýzý iblis~
 ateþten yaratýlmýþ iblis~
@@ -55,12 +45,7 @@ bir kýzgýn. Ateþten kýrmýzý bir cilde sahip, iki kafalý, kýrmýzý skalalar,
 keskin diþler, 2 kol ve uzun pençelere sahip kaslý bir iblis.
 ~
 unique~
-AB JZ -1000 0
-40 0 1d1+2000 1d1+1 2d4+20 slash
--15 -15 -15 -15
-FHI H 0 0
-stand stand male 0
-0 0 medium 0
+AB JZ 40
 
 #0
 

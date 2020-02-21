@@ -11,7 +11,7 @@ Maxvnum 29600
 Path 4d 3k 2b 6k 2y 8k a~
 END
 
-#MOBILES
+#NEW_MOBILES
 #29500
 ajax~
 Ajax~
@@ -22,12 +22,7 @@ Achilles. He is a proud man, and his pride may one day lead to his
 downfall.
 ~
 human~
-ABGT 128 400 0
-42 0 25d10+2250 5d5+1000 3d12+14 pound
--14 -14 -14 3
-CDEFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABGT 128 42
 #29501
 achilles~
 Achilles~
@@ -41,12 +36,7 @@ long but uneventful life, or a short but action-filled life, and he chose
 the latter.
 ~
 human~
-ABGT 128 500 0
-45 0 25d10+3000 5d5+1000 8d4+16 pound
--15 -15 -15 2
-CDEFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABGT 128 45
 #29502
 odysseus~
 King Odysseus~
@@ -58,12 +48,7 @@ with his quick wits, which keep him alive long after all his allies have
 died.
 ~
 human~
-ABGT 8|32|128 600 0
-40 0 15d10+1850 5d5+1000 4d8+13 pound
--13 -13 -13 3
-CDEFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABGT 8|32|128 40
 #29503
 agamemnon~
 King Agamemnon~
@@ -74,12 +59,7 @@ forces who are amassed here to "rescue" Helen from the Trojans. He is stern
 and haughty, and also quite hard and unrelenting in his quest for vengeance.
 ~
 human~
-ABGT 128 400 0
-38 0 10d10+1600 5d5+1000 5d6+12 pound
--13 -13 -13 3
-CDEFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABGT 128 38
 #29504
 nestor~
 King Nestor~
@@ -90,12 +70,7 @@ his allies Menelaus and Agamemnon. An elderly man, he is one of the few
 to survive the Trojan War and the subsequent journey home.
 ~
 human~
-ABGT 128 700 0
-34 0 10d10+1200 5d5+1000 4d7+10 pound
--11 -11 -11 3
-CDEFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABGT 128 34
 #29505
 menelaus~
 King Menelaus~
@@ -106,12 +81,7 @@ it is because of the kidnapping of his wife Helen by Paris that the Achaens
 have come here. Menelaus is worried for his wife, whom he loves greatly.
 ~
 human~
-ABGT 128 600 0
-36 0 10d10+1400 5d5+1000 3d10+11 pound
--12 -12 -12 3
-CDEFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABGT 128 36
 #29506
 patroclus~
 Patroclus~
@@ -123,12 +93,7 @@ wearing his armor, and is slain by Hector, who thinks him to be Achilles.
 But that is another story.
 ~
 human~
-ABGT 8192 780 0
-33 0 10d10+1100 5d5+1000 6d4+10 slash
--11 -11 -11 3
-CDEFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABGT 8192 33
 #29507
 paris~
 Paris~
@@ -139,12 +104,7 @@ or spiteful man, just a lustful one. Unfortunately his breach of the host-
 guest code of behaviour will cost his whole city its existence.
 ~
 human~
-ABGHT 8192 200 0
-35 0 10d10+1300 5d5+1000 4d7+11 pound
--11 -11 -11 3
-CDEFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABGHT 8192 35
 #29508
 hector~
 Hector~
@@ -155,12 +115,7 @@ believe Virgil. He is the favorite son of his parents, and of Troy. He is
 in charge of the Trojan forces.
 ~
 human~
-AGT 128 400 0
-40 0 15d10+1850 5d5+1000 4d8+13 pound
--13 -13 -13 3
-CDEFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+AGT 128 40
 #29509
 priam~
 King Priam~
@@ -171,12 +126,7 @@ too infirm to command his army in battle so that task falls to his favorite
 son, Hector.
 ~
 human~
-ABGT 128 500 0
-31 0 6d12+928 5d5+1000 4d6+9 pound
--10 -10 -10 3
-CDEFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABGT 128 31
 #29510
 aeneas~
 Aeneas~
@@ -187,12 +137,7 @@ who escapes to found Rome. He is a powerful warrior, and a just and
 honorable, if proud, man.
 ~
 human~
-AGT 128 500 0
-43 0 25d10+2500 5d5+1000 3d12+15 pound
--15 -15 -15 2
-CDEFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+AGT 128 43
 #29511
 helen~
 Helen~
@@ -203,12 +148,7 @@ by Paris, whom she developed a deep affection for due to the machinations
 of Aphrodite.
 ~
 human~
-2|64|128 8192 400 0
-32 0 10d10+1000 5d5+1000 6d4+9 punch
--10 -10 -10 0
-EIK 0 0 0
-stand stand female 1000
-0 0 medium 0
+2|64|128 8192 32
 #29512
 cassandra~
 Cassandra~
@@ -219,12 +159,7 @@ giving her the power of prophecy, which he couldn't reverse, so he cursed
 her by having it that no-one would ever believe her prophecies.
 ~
 human~
-2|64|128 128 700 0
-35 0 10d10+1300 5d5+1000 4d7+11 pound
--11 -11 -11 3
-EIK 0 0 0
-stand stand female 1000
-0 0 medium 0
+2|64|128 128 35
 #29513
 andromache~
 Andromache~
@@ -234,12 +169,7 @@ Andromache is married to Hector, Ilium's favorite son. She stands here on
 the walls watching her husband lead the soldiers into battle.
 ~
 human~
-2|64|128 8192 400 0
-32 0 10d10+1000 5d5+1000 6d4+9 punch
--10 -10 -10 3
-EIK 0 0 0
-stand stand female 1000
-0 0 medium 0
+2|64|128 8192 32
 #29514
 hecabe~
 Hecabe~
@@ -249,12 +179,7 @@ Hecabe is the wife of Priam, and mother of Hector, Paris and Cassandra. And
 that's all there is to say, really.
 ~
 human~
-2|64|128 8192 500 0
-30 0 6d12+853 5d5+1000 4d6+8 punch
--9 -9 -9 3
-EIK 0 0 0
-stand stand female 1000
-0 0 medium 0
+2|64|128 8192 30
 #29515
 automedon~
 Automedon~
@@ -264,12 +189,7 @@ Automedon is one of Achilles' Myrmidons, and serves as his squire. He also
 serves as squire for Patroclus when he goes into battle.
 ~
 human~
-2|8|64 8192 400 0
-32 0 10d10+1000 5d5+1000 6d4+9 pound
--10 -10 -10 3
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|8|64 8192 32
 #29516
 aias~
 Aias~
@@ -280,12 +200,7 @@ tripped when he was ahead by Athena so Odysseus would win. He got a face
 full of dung, and isn't happy about it.
 ~
 human~
-2|8|64 8192 0 0
-35 0 10d10+1300 5d5+1000 4d7+11 pound
--11 -11 -11 3
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|8|64 8192 35
 #29517
 chalcas~
 Chalcas~
@@ -295,12 +210,7 @@ Chalcas is the chief prophet and augur of the Achaen expedition, and offers
 wise advice with his gods-granted powers.
 ~
 human~
-2|8|64 128 500 0
-34 0 10d10+1200 5d5+1000 4d7+10 pound
--11 -11 -11 3
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|8|64 128 34
 #29518
 chryseis~
 Chryseis~
@@ -310,12 +220,7 @@ Chryseis was captured at Thebe by Achilles and alloted to Agamemnon. Apollo,
 deity of her father, forced Agamemnon to return her.
 ~
 human~
-2|64|128 8192 700 0
-28 0 6d12+703 5d5+1000 2d12+8 punch
--8 -8 -8 4
-EIK 0 0 0
-stand stand female 1000
-0 0 medium 0
+2|64|128 8192 28
 #29519
 briseis~
 Briseis~
@@ -327,12 +232,7 @@ who had rightfully captured her. Achilles lost face, and decided to retreat
 to his tent to nurse his injured pride.
 ~
 human~
-2|64|128 8192 200 0
-28 0 6d12+703 5d5+1000 2d12+8 punch
--8 -8 -8 4
-EIK 0 0 0
-stand stand female 1000
-0 0 medium 0
+2|64|128 8192 28
 #29520
 antilochus~
 Antilochus~
@@ -342,12 +242,7 @@ Antilochus is the brother of Thrasymedes, and the son of King Nestor of
 Pylos. He is a brave and capable warrior, and loyal to his father.
 ~
 human~
-8|64 128 500 0
-33 0 10d10+1100 5d5+1000 6d4+10 slash
--11 -11 -11 3
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+8|64 128 33
 #29521
 thrasymedes~
 Thrasymedes~
@@ -357,12 +252,7 @@ Thrasymedes is the brother of Antilochus, and the son of King Nestor of
 Pylos. He is a brave and capable warrior, and loyal to his father.
 ~
 human~
-8|64 128 500 0
-32 0 10d10+1000 5d5+1000 6d4+9 pound
--10 -10 -10 3
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+8|64 128 32
 #29522
 diomedes~
 King Diomedes~
@@ -372,12 +262,7 @@ Diomedes is an affable-enough fellow, very found of Tydeus his father. He
 is of even temper, and much more likeable than most of the surly Achaeans.
 ~
 human~
-8|64 128 800 0
-35 0 10d10+1300 5d5+1000 4d7+11 pound
--11 -11 -11 3
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+8|64 128 35
 #29523
 eurypylus~
 Eurypylus~
@@ -386,12 +271,7 @@ Eurypylus stands ready for combat.
 An Achaean soldier who has seen action fighting Paris. He is unremarkable.
 ~
 human~
-8|64 8192 0 0
-31 0 6d12+928 5d5+1000 4d6+9 pound
--10 -10 -10 3
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+8|64 8192 31
 #29524
 idomeneus~
 King Idomeneus~
@@ -401,12 +281,7 @@ Idomeneus is easily one of the most ablest officers in Agamemnon's staff,
 and quite amiable to boot. He is able in command and in combat.
 ~
 human~
-8|64 128 600 0
-38 0 10d10+1600 5d5+1000 5d6+12 crush
--13 -13 -13 3
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+8|64 128 38
 #29525
 machaon~
 Machaon~
@@ -416,12 +291,7 @@ Machaon, along with his brother Podaleirius, serves as chief physician to
 the Achaen troops.
 ~
 human~
-2|8|64 8192 500 0
-30 0 6d12+853 5d5+1000 4d6+8 pound
--9 -9 -9 3
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|8|64 8192 30
 #29526
 menestheus~
 Menestheus~
@@ -431,12 +301,7 @@ Menestheus is the son of Prince Peteos, ruler of Athens, and has been
 sent in charge of the troops Athens sent to aid her allies.
 ~
 human~
-2|8|64 128 400 0
-35 0 10d10+1300 5d5+1000 4d7+11 pound
--11 -11 -11 3
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|8|64 128 35
 #29527
 meriones~
 Meriones~
@@ -446,12 +311,7 @@ Meriones is squire to Idomeneus, and also second in command of the Cretan
 contingent.
 ~
 human~
-8|64 128 500 0
-35 0 10d10+1300 5d5+1000 4d7+11 pound
--11 -11 -11 3
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+8|64 128 35
 #29528
 sthenelus~
 Sthenelus~
@@ -460,12 +320,7 @@ Sthenelus, squire of Diomedes, stands ready to assist his master.
 Sthenelus is an unremarkable squire.
 ~
 human~
-2|64|128 8192 0 0
-28 0 6d12+703 5d5+1000 2d12+8 pound
--8 -8 -8 4
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|64|128 8192 28
 #29529
 talthybius~
 Talthybius~
@@ -474,12 +329,7 @@ Talthybius, herald of Agamemnon, stands outside the tent.
 He is Agamemnon's chief herald.
 ~
 human~
-2|64|128 8192 0 0
-30 0 6d12+853 5d5+1000 4d6+8 pound
--9 -9 -9 3
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|64|128 8192 30
 #29530
 greater aias~
 the greater Aias~
@@ -490,12 +340,7 @@ of King Telamon, the ruler of Salamis, and is thus sometimes called
 Telamonian Aias.
 ~
 human~
-8|64 128 500 0
-34 0 10d10+1200 5d5+1000 4d7+10 pound
--11 -11 -11 3
-EFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+8|64 128 34
 #29531
 thersites~
 Thersites~
@@ -505,12 +350,7 @@ A common foot soldier, Thersites is remarkable only for his unruliness, and
 his big mouth, which gets him killed by Achilles eventually.
 ~
 human~
-64|128 0 -400 0
-25 0 5d10+550 5d5+1000 2d10+7 pound
--7 -7 -7 4
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+64|128 0 25
 #29532
 tleopolemus~
 Tleopolemus~
@@ -519,12 +359,7 @@ Tleopolemus smiles grimly and readies his weapons.
 Tleopolemus is the son of Heracles and Astyocheia, and hails from Rhodes.
 ~
 human~
-8|64 128 400 0
-34 0 10d10+1200 5d5+1000 4d7+10 pound
--11 -11 -11 3
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+8|64 128 34
 #29533
 antenor~
 Antenor~
@@ -535,12 +370,7 @@ the Achaeans, and when they took Ilium they spared him. He was a Trojan
 noble.
 ~
 human~
-64|128 8192 0 0
-30 0 6d12+853 5d5+1000 4d6+8 punch
--9 -9 -9 3
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+64|128 8192 30
 #29534
 deiphobus~
 Deiphobus~
@@ -550,12 +380,7 @@ Deiphobus is another son of Priam and Hecabe. When Paris is slain he weds
 Helen and is subsequently slain by Menelaus for his troubles.
 ~
 human~
-8|64 128 0 0
-32 0 10d10+1000 5d5+1000 6d4+9 pound
--10 -10 -10 3
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+8|64 128 32
 #29535
 glaucus~
 Glaucus~
@@ -564,12 +389,7 @@ Glaucus son of Hippolochus stands here.
 Glaucus is second in command of the Lycian allies under Sarpedon his cousin.
 ~
 human~
-8|64 8192 200 0
-30 0 6d12+853 5d5+1000 4d6+8 pound
--9 -9 -9 3
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+8|64 8192 30
 #29536
 helenus~
 Helenus~
@@ -579,12 +399,7 @@ Helenus is another son of Priam and Hecabe. Like Cassandra, his sister, he
 has the gift of prophecy. He eventually weds Andromache.
 ~
 human~
-2|8|64 128 400 0
-33 0 10d10+1100 5d5+1000 6d4+10 slash
--11 -11 -11 3
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|8|64 128 33
 #29537
 neoptolemus~
 Neoptolemus~
@@ -594,12 +409,7 @@ Neoptolemus may be the son of Achilles, but he isn't a patch on his father
 in terms of ability or strength.
 ~
 human~
-64|128 8192 0 0
-30 0 6d12+853 5d5+1000 4d6+8 pound
--9 -9 -9 3
-0 0 0 0
-stand stand male 1000
-EIK 0 medium 0
+64|128 8192 30
 #29538
 idaeus~
 Idaeus~
@@ -609,12 +419,7 @@ Idaeus is the herald of king Priam, his chief herald in fact. Not the most
 exciting of jobs, really.
 ~
 human~
-2|64|128 8192 0 0
-28 0 6d12+703 5d5+1000 2d12+8 pound
--8 -8 -8 4
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|64|128 8192 28
 #29539
 pandarus~
 Pandarus~
@@ -623,12 +428,7 @@ Pandarous, son of Lycaon, is here.
 Pandarus is a fool, a treacherous one at that too. He isn't very important.
 ~
 human~
-64|128 8192 0 0
-25 0 5d10+550 5d5+1000 2d10+7 pound
--7 -7 -7 4
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+64|128 8192 25
 #29540
 polydamas~
 Polydamas~
@@ -639,12 +439,7 @@ leaders. He is a cautious, clear-headed strategist, one of the ablest of
 the leaders on either side.
 ~
 human~
-AGT 128 500 0
-38 0 10d10+1600 5d5+1000 5d6+12 slash
--13 -13 -13 3
-CDEFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+AGT 128 38
 #29541
 sarpedon~
 King Sarpedon~
@@ -655,12 +450,7 @@ ruler. His mother, Laodameia, was the daughter of Bellerophon, slayer of
 the Chimera, and tamer of the Pegasus.
 ~
 human~
-2|8|64 128 400 0
-40 0 15d10+1850 5d5+1000 4d8+13 pound
--13 -13 -13 3
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|8|64 128 40
 #29542
 achaean soldier~
 an Achaean soldier~
@@ -669,12 +459,7 @@ An Achaean soldier marches back and forth.
 This fellow has been fighting for nine years.
 ~
 human~
-AGT 0 0 0
-30 0 6d12+853 5d5+1000 4d6+8 pound
--9 -9 -9 3
-CDEIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+AGT 0 30
 #29543
 trojan soldier~
 a Trojan soldier~
@@ -683,12 +468,7 @@ A Trojan soldier marches back and forth.
 This fellow has been fighting for nine years.
 ~
 human~
-AGT 0 0 0
-30 0 6d12+853 5d5+1000 4d6+8 pound
--9 -9 -9 3
-CDEIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+AGT 0 30
 #29544
 trojan citizen~
 a Trojan citizen~
@@ -697,12 +477,7 @@ A Trojan citizen hurries by.
 These citizens are sick of the war.
 ~
 human~
-64|128 0 0 0
-20 0  3d9+333 5d5+1000 2d8+5 punch
--4 -4 -4 5
-EIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+64|128 0 20
 #29545
 trojan citizen~
 a Trojan citizen~
@@ -711,12 +486,7 @@ A Trojan citizen hurries by.
 These citizens are sick of the war.
 ~
 human~
-64|128 0 0 0
-20 0  3d9+333 5d5+1000 2d8+5 punch
--4 -4 -4 5
-EIK 0 0 0
-stand stand female 1000
-0 0 medium 0
+64|128 0 20
 #0
 
 

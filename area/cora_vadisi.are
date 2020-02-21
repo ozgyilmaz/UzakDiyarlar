@@ -11,7 +11,7 @@ Maxvnum 7899
 Path 4d 3k 2b 5k b k~
 END
 
-#MOBILES
+#NEW_MOBILES
 #7800
 köpek doberman~
 bir doberman~
@@ -22,12 +22,7 @@ yeþilimsi bir ceketi var. Þekli, renkleri ile birlikte, bu dobermaný hareket
 ettikçe neredeyse farkedilemez hale getiriyor.
 ~
 dog~
-AGH P 0 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNR 0 0 0
-stand stand none 0
-0 0 medium 0
+AGH P 5
 #7801
 vadi çorasý~
 bir vadi çorasý~
@@ -39,12 +34,7 @@ Gergin vücudu avýný takip eden bir dað aslaný gibi sana saldýrmaya hazýr
 görünüyor. Onu fark ettiðini görüyor ve sessizce kayboluyor.
 ~
 çora~
-ACFGH P 0 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNR 0 0 0
-stand stand male 0
-0 0 medium 0
+ACFGH P 8
 #7802
 vadi çorasý~
 bir vadi çorasý~
@@ -54,12 +44,7 @@ Bu çora neredeyse senin kadar uzun, ama çok daha ince ve çevik.
 Sana dik dik bakýyor ve onu daha fazla göremeden çabucak kayboluyor.
 ~
 çora~
-ACFGH P 0 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNR 0 0 0
-stand stand female 0
-0 0 medium 0
+ACFGH P 8
 #7803
 nöbet tutan vadi çorasý nöbetçi~
 nöbet tutan bir vadi çorasý~
@@ -69,12 +54,7 @@ Bu çora neredeyse senin kadar uzun, ama çok daha ince ve çevik.
 Sana tehditkar bir þekilde saldýrýyor!
 ~
 çora~
-ABF P 0 0
-7 0 2d6+85 3d9+100 1d8+1 none
-4 4 4 9
-EFNR 0 0 0
-stand stand male 0
-0 0 medium 0
+ABF P 7
 #7804
 nöbet tutan vadi çorasý nöbetçi~
 nöbet tutan bir vadi çorasý~
@@ -84,12 +64,7 @@ Bu çora neredeyse senin kadar uzun, ama çok daha ince ve çevik.
 Sana tehditkar bir þekilde saldýrýyor!
 ~
 çora~
-ABF P 0 0
-7 0 2d6+85 3d9+100 1d8+1 none
-4 4 4 9
-EFNR 0 0 0
-stand stand female 0
-0 0 medium 0
+ABF P 7
 #7805
 gözcülük yapan vadi çorasý~
 gözcülük yapan bir vadi çorasý~
@@ -98,12 +73,7 @@ Gözcülük yapan bir vadi çorasý, senin gibi davetsiz konuklarýn izini sürüyor!
 Davetsiz giriþin üzerine sana kendinden emin bir þekilde saldýrýyor!
 ~
 çora~
-ACFG P 0 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNR 0 0 0
-stand stand male 0
-0 0 medium 0
+ACFG P 6
 #7806
 vadi çorasý~
 bir vadi çorasý~
@@ -113,12 +83,7 @@ Bir vadi çorasý burada kendi iþleriyle uðraþýyor.
 burada davetsiz olmanýzý görmezden geliyor.
 ~
 çora~
-AGH P 0 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNR 0 0 0
-stand stand female 0
-0 0 medium 0
+AGH P 6
 #7807
 ihtiyar vadi çorasý~
 ihtiyar bir vadi çorasý~
@@ -129,12 +94,7 @@ Bu çora oldukça yaþlý görünüyor, senin yaþýnýn belki de yirmi katý.
 Yaþýna raðmen oldukça güçlü duruyor.
 ~
 çora~
-ABCFQ HN 0 0
-15 0 3d9+208 15d9+100 2d5+3 none
--2 -2 -2 6
-EIKR 0 0 0
-stand stand male 0
-0 0 medium 0
+ABCFQ HN 15
 #7808
 ihtiyar vadi çorasý~
 ihtiyar bir vadi çorasý~
@@ -145,12 +105,7 @@ Bu çora oldukça yaþlý görünüyor, senin yaþýnýn belki de yirmi katý.
 Yaþýna raðmen oldukça güçlü duruyor.
 ~
 çora~
-ABCFR N 0 0
-15 0 2d10+190 15d9+100 1d10+3 none
--1 -1 -1 5
-FR 0 0 0
-stand stand female 0
-0 0 medium 0
+ABCFR N 15
 #7809
 ateþ hidrasý~
 ateþ hidrasý~
@@ -160,12 +115,7 @@ Bu büyük canavar küçük bir kýrmýzý ejderhaya benziyor, ancak normal bir ejderhad
 çok daha fazla baþý var. Pek mutlu durmuyor.
 ~
 human~
-ABF 0 0 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABF 0 20
 #7810
 keþiþ adam yaþlý~
 yaþlý bir keþiþ~
@@ -174,12 +124,7 @@ Yaþlý bir keþiþ burada oturmuþ çubuk tüttürüyor.
 Yaþlý ve zayýf görünüyor.
 ~
 human~
-ABCH 0 0 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+ABCH 0 3
 #7811
 büyücü talemon~
 Talemon~
@@ -188,12 +133,7 @@ Yaþlý bir büyücü bir takým kimyasallarla meþgul.
 Talemon zararsýz görünüyor, ama sana fýrlattýðý ateþ toplarý için aynýsý denemez.
 ~
 human~
-ABCFR 0 0 0
-25 0 5d10+500 25d9+100 4d4+6 none
--6 -6 -6 2
-FU 0 0 0
-stand stand male 50
-0 0 medium 0
+ABCFR 0 25
 #7812
 muhafýz cin~
 muhafýz cin~
@@ -202,12 +142,7 @@ Devasa bir cin burada hazineyi gözetip koruyor.
 Bu cin çaðrýldýðý iþinden memnun deðil ve öfkesini senden çýkarmaya hazýr!
 ~
 human~
-ABF 0 -500 0
-25 0 5d10+550 12d9+100 2d10+7 none
--7 -7 -7 6
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+ABF 0 25
 #7813
 kurt~
 bir kurt~
@@ -216,12 +151,7 @@ Bir kurt görüyorsun, sessizce izliyor.
 Kurt kahverengi saçlý. Korku ile sana bakýyor.
 ~
 wolf~
-AFH 0 0 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-ENR 0 0 0
-stand stand none 0
-0 0 medium 0
+AFH 0 4
 #7814
 antilop~
 bir antilop~
@@ -231,12 +161,7 @@ Kaba, kahverengi saçlar üzerinde boynuzlarý ve lekeleri olan bu canavar,
 kesinlikle bir antilop.
 ~
 human~
-AH 0 0 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AH 0 6
 #0
 #OBJECTS
 #7800

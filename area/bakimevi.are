@@ -11,7 +11,7 @@ Maxvnum 6699
 Path 6d 3k 2d g~
 END
 
-#MOBILES
+#NEW_MOBILES
 #6600
 genç cüce~
 genç cüce~
@@ -20,12 +20,7 @@ Genç bir cüce elindeki oyuncak baltayla oynuyor.
 Küçük olsa da tamamen zararsýz olmayan bir yaratýk.
 ~
 dwarf~
-ACGT 0 -5 0
-3 0 1d4+30 1d1+99 1d4+2 beating
-7 6 7 10
-DJR 0 0 0
-sit stand either 10
-0 0 small 0
+ACGT 0 3
 #6601
 oyuncak ayý~
 bir oyuncak ayý~
@@ -34,12 +29,7 @@ Sevimli bir oyuncak ayý burada duruyor.
 Bu göðsünde kalbi olan bir oyuncak ayý.
 ~
 doll~
-ACG 0 500 0
-1 0 1d10+10 1d1+99 1d4+0 beating
-8 5 9 10
-NR 0 0 0
-stand stand male 0
-0 0 small cloth
+ACG 0 1
 #6602
 oyuncak bebek~
 bir pejmürde oyuncak bebek~
@@ -49,12 +39,7 @@ Küçük, sevimli bir oyuncak bebek görüyorsun. Soluk alýp verdiðini fark
 ediyorsun.
 ~
 doll~
-ACG 0 300 0
-2 0 2d5+19 1d1+99 1d5+0 beating
-7 4 8 10
-FHR 0 0 0
-sit stand female 0
-0 0 small cloth
+ACG 0 2
 #6603
 oyuncak asker~
 bir oyuncak asker~
@@ -63,12 +48,7 @@ Bir oyuncak asker burada duruyor.
 Oyuncak asker üzeinde pratik yapabileceði bir hedef arýyor.
 ~
 doll~
-ACGT 0 -300 0
-3 1 3d5+36 1d1+99 1d4+3 punch
-6 7 6 9
-IR 0 G E
-stand stand male 0
-0 0 small tin
+ACGT 0 3
 #6604
 korkunç ayý~
 korkunç bir ayý~
@@ -77,12 +57,7 @@ Korkunç bir ayý burada duruyor.
 Bu fabrikadan çýkma korkunç ayý sana bakýyor.
 ~
 doll~
-ACF 0 -400 0
-3 0 3d4+29 1d1+99 1d6+1 chomp
-6 3 7 10
-DJNR 0 0 0
-stand stand male 5
-0 0 small cloth
+ACF 0 3
 #6605
 oyuncak bebek~
 bir yaþlý oyuncak bebek~
@@ -91,12 +66,7 @@ Kötü yola düþmüþ bir yaþlý oyuncak bebek burada.
 Bu bebekle bütün güzelliði yok olana kadar oynanmýþ.
 ~
 doll~
-ACG 0 -2 0
-1 0 1d10+1 1d1+99 1d4+0 beating
-8 5 9 10
-R 0 0 0
-stand stand none 0
-0 0 small cloth
+ACG 0 1
 #6606
 dadý~
 dadý~
@@ -106,12 +76,7 @@ Oldukça yaþlanmýþ cüce bir dadý görüyorsun. Fakat tahminin doðruysa bu
 kadýnda hala dövüþebilecek güç var.
 ~
 dwarf~
-AG 0 10 0
-5 1 4d4+50 5d4+100 1d6+1 slap
-5 5 5 10
-CDR 0 0 0
-stand stand female 50
-0 0 medium 0
+AG 0 5
 #6607
 yasavul~
 silahlý yasavul~
@@ -121,12 +86,7 @@ Bu yapýlý ve iyi silahlanmýþ yasavul labirente benzeyen bu yerde kaybolmuþ
 görünüyor. Kaçsan iyi olacak.
 ~
 dwarf~
-ABCT D -800 0
-8 1 3d10+100 8d4+100 1d7+3 punch
-3 2 3 8
-CDJR 0 0 0
-stand stand male 120
-0 0 medium 0
+ABCT D 8
 #6608
 yumurcak~
 yumurcak~
@@ -136,12 +96,7 @@ Burada her zaman istediðini elde etmiþ bir yumurcak görüyorsun. Belki de
 yeni birþey istediði için aðlýyordur.
 ~
 dwarf~
-ABC 0 -400 0
-1 0 2d4+15 1d1+199 2d2+1 beating
-8 8 8 10
-IJN 0 0 0
-stand stand male 50
-0 0 small 0
+ABC 0 1
 #0
 #OBJECTS
 #6600

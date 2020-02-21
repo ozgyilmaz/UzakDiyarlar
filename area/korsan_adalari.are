@@ -11,7 +11,7 @@ Maxvnum 17300
 Path 4d 3k 2b 3k d 2k 4d 4g b~
 END
 
-#MOBILES
+#NEW_MOBILES
 #17011
 korsan muhafýz~
 muhafýz korsan~
@@ -20,12 +20,7 @@ Pala kuþanmýþ pis bir denizci sana hýrlýyor!
 The pirate guard is clothed in rags, and smells badly.
 ~
 human~
-AFGT 0 300 0
-46 0 25d10+3250 5d5+1000 6d6+16 pound
--16 -16 -16 2
-CDEIKTU 0 0 0
-stand stand male 1000
-0 0 medium 0
+AFGT 0 46
 #17012
 tersane iþçisi korsan~
 tersane iþçisi~
@@ -34,12 +29,7 @@ Bir tersane iþçisi burada, bir kadýrgayý tamir ediyor.
 The shipwright is stripped to the waist, and is sweating profusely.
 ~
 human~
-ABG 0 1000 0
-95 0 50d10+22500 5d5+5000 12d15+68 pound
--71 -71 -71 -37
-CEFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG 0 95
 #17013
 vahþi orman~
 orman vahþisi~
@@ -48,12 +38,7 @@ Bir orman vahþisi burada, yamyamlýk üzerine düþünüyor.
 The jungle savage is clad in a thong and wields a crude spear.
 ~
 human~
-AFGT 0 0 0
-40 0 15d10+1850 5d5+1000 4d8+13 claw
--13 -13 -13 3
-0 0 0 0
-stand stand male 1000
-0 0 medium 0
+AFGT 0 40
 #17014
 kabile reisi þef vahþi~
 Þef Unga-Bunga~
@@ -64,12 +49,7 @@ brains over his long life. He like the rest of his subjects, is
 scantily clad.
 ~
 human~
-ABFGT 0 1000 0
-46 0 25d10+3250 5d5+1000 6d6+16 punch
--16 -16 -16 2
-0 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABFGT 0 46
 #17015
 uyuyan uyuklayan korsan~
 uyuklayan korsan~
@@ -78,12 +58,7 @@ Bir korsan burada, çýlgýnca bir sarhoþluktan sonra sýzmýþ.
 The pirate stinks with the smell of his own vomit.
 ~
 human~
-AG 0 1000 0
-40 0 15d10+1850 5d5+1000 4d8+13 pound
--13 -13 -13 3
-EFIU 0 0 0
-stand stand male 1000
-0 0 medium 0
+AG 0 40
 #17016
 korsan sarhoþ~
 sarhoþ korsan~
@@ -92,12 +67,7 @@ Sarhoþ bir korsan sana doðru yalpalýyor.
 The pirate smells of rum, and is dressed in rags.
 ~
 human~
-AG 0 300 0
-42 0 25d10+2250 5d5+1000 3d12+14 pound
--14 -14 -14 3
-EFIU 0 0 0
-stand stand male 1000
-0 0 medium 0
+AG 0 42
 #17017
 prenses narinendam kadýn~
 Prenses NarinEndam~
@@ -109,12 +79,7 @@ was never paid. One-eye in his anger cast the princess in this prison
 until her manner changed.
 ~
 human~
-ABG 0 500 0
-40 0 15d10+1850 5d5+1000 4d8+13 slap
--13 -13 -13 3
-EIKU 0 0 0
-stand stand female 1000
-0 0 medium 0
+ABG 0 40
 #17018
 rotacý adam~
 rotacý~
@@ -125,12 +90,7 @@ of One-eye's raids, and has served his lord well. He hopes one day
 that he can make a break for it on a raid.
 ~
 human~
-ABG 0 200 0
-48 0 25d10+3750 5d5+1000 6d6+18 pound
--18 -18 -18 1
-EIKU 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABG 0 48
 #17019
 tek gözlü adam korsan lordu~
 Korsan lordu, Tek-göz~
@@ -142,12 +102,7 @@ as a prop to make himself appear rougher than he actually is. His skin
 is a weathered brown from many, many voyages.
 ~
 human~
-ABFGT 0 500 0
-50 0 50d10+4250 5d5+5000 5d8+19 pound
--20 -20 -20 0
-EIKU 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABFGT 0 50
 #17020
 bakire prangaya vurulmuþ prangalý~
 prangaya vurulmuþ bir bakire~
@@ -158,12 +113,7 @@ eyes and see a little hope remains, hope that one day she will be rescued
 or her ransom paid.
 ~
 human~
-ABG 0 200 0
-30 0 6d12+853 5d5+1000 4d6+8 slap
--9 -9 -9 3
-EIKU 0 0 0
-stand stand female 1000
-0 0 medium 0
+ABG 0 30
 #17021
 kracken yaratýk siyah~
 kracken~
@@ -175,12 +125,7 @@ and the beast lets him pass. Others, however, are ignorant of this
 practice, and tend to get eaten.
 ~
 unique~
-ACF E 1000 0
-50 0 50d10+4250 5d5+5000 5d8+19 claw
--20 -20 -20 0
-KU 0 0 0
-stand stand female 1000
-0 0 medium 0
+ACF E 50
 #17022
 muhafýz tersane~
 tersane muhafýzý~
@@ -190,12 +135,7 @@ The dock guard is dressed in light leather armor and coif, and appears
 to be alert and well rested.
 ~
 human~
-ABGT 0 100 0
-54 0 50d10+5250 5d5+5000 7d6+22 pound
--24 -24 -24 -1
-QT 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABGT 0 54
 #17023
 yýlan siyah~
 siyah yýlan~
@@ -204,12 +144,7 @@ Siyah bir yýlan burada, kumlarýn içinde saklanýyor.
 The black snake is some 10' long, and has broad, iron hard scales.
 ~
 snake~
-A Q 0 0
-54 0 50d10+5250 5d5+5000 7d6+22 bite
--24 -24 -24 -1
-FH L 0 I
-stand stand none 1000
-0 0 medium 0
+A Q 54
 #17024
 yengeç siyah~
 siyah yengeç~
@@ -220,12 +155,7 @@ Its eyestalks rise some 3' off the ground, orienting and peering in your
 direction.
 ~
 unique~
-A P 0 0
-50 0 50d10+4250 5d5+5000 5d8+19 slice
--20 -20 -20 0
-0 0 0 0
-stand stand none 1000
-0 0 medium 0
+A P 50
 #17025
 solucan lav~
 lav solucaný~
@@ -238,12 +168,7 @@ molten, but is really so hot from being in the fire that the
 rock upon which it slithers turns into a molten liquid on its skin.
 ~
 human~
-A U 100 0
-56 0 50d10+5750 5d5+5000 10d4+24 magic
--26 -26 -26 -2
-U 0 0 0
-stand stand none 1000
-0 0 medium 0
+A U 56
 #17026
 kertenkele lav~
 lav kertenkelesi~
@@ -257,12 +182,7 @@ like the terrible Rocs (which thankfully have migrated North
 for the season)
 ~
 lizard~
-A 0 0 0
-54 0 50d10+5250 5d5+5000 7d6+22 slash
--24 -24 -24 -1
-U 0 0 0
-stand stand none 1000
-0 0 medium 0
+A 0 54
 #17027
 korsan hýrýldayan~
 hýrýldayan korsan~
@@ -272,12 +192,7 @@ The snarling pirate wears at best leather protective clothing
 and appears to be shaved and well groomed.
 ~
 unique~
-AF 0 200 0
-56 0 50d10+5750 5d5+5000 10d4+24 none
--26 -26 -26 -2
-0 0 0 0
-stand stand male 1000
-0 0 medium 0
+AF 0 56
 #17028
 kýzýlsakal korsan~
 KýzýlSakal~
@@ -288,12 +203,7 @@ He holds his men to a higher standard then the rest of the pirate scum
 which sails the seas. He has a funny looking eyepiece.
 ~
 human~
-AB D 400 0
-60 0 50d10+6750 5d5+5000 8d6+28 pound
--30 -30 -30 -3
-0 0 0 0
-stand stand male 1000
-0 0 medium 0
+AB D 60
 #17029
 lalila çora prensi~
 Çora Prensi, Lalila~
@@ -305,12 +215,7 @@ where he was shipwrecked and he lost his flaming belt. He was using the belt
 for warmth when he was captured by Redbeard, and brought here for ransom.
 ~
 çora~
-ABT 0 1000 0
-56 0 50d10+5750 5d5+5000 10d4+24 pound
--26 -26 -26 -2
-S 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABT 0 56
 #17030
 pele ateþ tanrýsý~
 Ateþ tanrýsý, Pele~
@@ -321,12 +226,7 @@ little interest in the affairs of men, dwarves, elves, etc. He
 stands some 20' tall, and is made entirely of flame.
 ~
 unique~
-ABT DFHJ 0 0
-64 0 50d10+8000 5d5+5000 8d7+34 wrath
--34 -34 -34 -4
-CEFIK H 0 0
-stand stand none 1000
-0 0 medium 0
+ABT DFHJ 64
 #17031
 mizanadireði korsan lordu~
 MizanaDireði~
@@ -339,12 +239,7 @@ from a once profitable career. He knows enough to delegate his work
 to others, and leaves all the major thinking to Shifty.
 ~
 human~
-AB 0 800 0
-70 0 50d10+9750	5d5+5000 8d10+40 pound
--40 -40 -40 -6
-CEFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+AB 0 70
 #17032
 düzenbaz tüccar adam~
 Düzenbaz tüccar~
@@ -356,12 +251,7 @@ of fealty. Shifty is weak from hunger, and his soiled finery speaks for
 his recent fall from grace.
 ~
 human~
-AB 0 500 0
-95 0 50d10+22500 5d5+5000 12d15+68 pound
--71 -71 -71 -37
-CEFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+AB 0 95
 #17033
 korsan tek bacaklý~
 tek bacaklý korsan~
@@ -371,12 +261,7 @@ The pirate is unbalanced due to his long journeys at sea. He is clad in
 cloth jerkin and leggings, and swings his cutlass with years of experience.
 ~
 human~
-AF 0 200 0
-66 0 50d10+8500	5d5+5000 7d9+36 pound
--36 -36 -36 -5
-CEFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+AF 0 66
 #17034
 stiggs miço~
 Miço oðlaný, Stiggs~
@@ -387,12 +272,7 @@ brainwashed over time that the pirate's life is the best life there is.
 Right now Stiggs is in a hurry to prepare shark stew for his Lords snack.
 ~
 human~
-AB 0 100 0
-64 0 50d10+8000 5d5+5000 8d7+34 pound
--34 -34 -34 -4
-CEFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+AB 0 64
 #17035
 kana susamýþ köpekbalýðý~
 kana susamýþ köpekbalýðý~
@@ -402,12 +282,7 @@ The tiger shark is thick and squatish in appearance. You think its jaws
 would make a fine trophy.
 ~
 human~
-AF 0 0 0
-68 0 50d10+9000	5d5+5000 7d10+38 bite
--38 -38 -38 -6
-EF 0 0 0
-stand stand none 1000
-0 0 medium 0
+AF 0 68
 #17036
 köpekbalýðý beyaz büyük~
 büyük beyaz köpekbalýðý~
@@ -418,12 +293,7 @@ Ofcol in the water, and found it pleasing enough to pursue across the
 great expanse of water.
 ~
 human~
-AF 0 0 0
-70 0 50d10+9750	5d5+5000 8d10+40 bite
--40 -40 -40 -6
-EF 0 0 0
-stand stand none 1000
-0 0 medium 0
+AF 0 70
 #17037
 köpekbalýðý camgöz~
 camgöz köpekbalýðý~
@@ -434,12 +304,7 @@ free to sample its lovingly prepared body parts after the combat. No,
 you should drink white wine with Mako.
 ~
 human~
-AF 0 0 0
-60 0 50d10+6750 5d5+5000 8d6+28 bite
--30 -30 -30 -3
-EF 0 0 0
-stand stand none 1000
-0 0 medium 0
+AF 0 60
 #17038
 köpekbalýðý çekiçbaþlý~
 çekiçbaþlý köpekbalýðý~
@@ -449,12 +314,7 @@ The hammerhead shark is swimming slowly along at a great depth, oblivious
 to your presence.
 ~
 human~
-A 0 0 0
-66 0 50d10+8500	5d5+5000 7d9+36 bite
--36 -36 -36 -5
-EF 0 0 0
-stand stand none 1000
-0 0 medium 0
+A 0 66
 #17039
 köpekbalýðý mavi~
 mavi köpekbalýðý~
@@ -465,12 +325,7 @@ for its leisurely evening swim. Maybe if you throw fresh blood in the water
 you can get its attention.
 ~
 human~
-A 0 0 0
-62 0 50d10+7250 5d5+5000 6d9+32 bite
--32 -32 -32 -4
-EF 0 0 0
-stand stand none 1000
-0 0 medium 0
+A 0 62
 #17040
 istiridye dev~
 Mercan mý dedim? Ýstiridyeyi kastetmiþtim..~
@@ -480,12 +335,7 @@ The giant clam is closed and content at the bottom of this warm tropical
 sea. I wonder what's inside?
 ~
 giant~
-AB Q 0 0
-70 0 50d10+9750	5d5+5000 8d10+40 pound
--40 -40 -40 -6
-EF 0 0 0
-stand stand none 1000
-0 0 medium 0
+AB Q 70
 #17041
 atmacakadýn atmaca kadýn~
 atmaca kadýn~
@@ -497,12 +347,7 @@ the talons of the hawkpeople, gloves with spikes protruding from the
 fingers.
 ~
 song bird~
-A T 0 0
-70 0 50d10+9750	5d5+5000 8d10+40 claw
--40 -40 -40 -6
-EFI 0 0 0
-stand stand female 1000
-0 0 medium 0
+A T 70
 #17042
 atmacaadam atmaca adam~
 atmaca adam~
@@ -514,12 +359,7 @@ a glove fitted with spikes on the fingers. Huge grey wings grow from his
 back, which when extended span 12' from tip to tip.
 ~
 song bird~
-AF T 0 0
-72 0 50d10+10250 5d5+5000 8d11+42 claw
--42 -42 -42 -7
-EFI 0 0 0
-stand stand male 1000
-0 0 medium 0
+AF T 72
 #17043
 atmacalordu atmaca lordu adam~
 atmaca lordu~
@@ -531,12 +371,7 @@ from their land by Lord Vulture. He warns you of the terrible Terra-kan,
 a land roving birdlike creature which roams the surface of the island.
 ~
 song bird~
-A JT 100 0
-74 0 50d10+10700 5d5+5000 9d10+44 claw
--44 -44 -44 -8
-EFI 0 0 0
-stand stand male 1000
-0 0 medium 0
+A JT 74
 #17044
 arz-avcýsý kuþ arz avcýsý~
 arz-avcýsý~
@@ -548,12 +383,7 @@ landing on its unsuspecting prey's back. Its squawk begins as a low warble
 and finishes with a rapid burst of CAW, caw-CAW, CAH!.
 ~
 song bird~
-A F 0 0
-76 0 50d10+11500 5d5+5000 10d10+46 claw
--46 -46 -46 -9
-EFI 0 0 0
-stand stand none 1000
-0 0 medium 0
+A F 76
 #17045
 kumarbaz korsan~
 kumarbaz korsan~
@@ -565,12 +395,7 @@ roll, and 3 of a kind gets a bonus roll added. He is so involved in the
 game that he did not notice you enter.
 ~
 human~
-A 0 200 0
-74 0 50d10+10700 5d5+5000 9d10+44 pound
--44 -44 -44 -8
-EFIJ 0 0 0
-stand stand male 1000
-0 0 medium 0
+A 0 74
 #17046
 birinci kaptan korsan~
 birinci kaptan~
@@ -584,12 +409,7 @@ his captive. The mate has served Lord Vulture well, informing him of
 standard military moves of the navy.
 ~
 human~
-AF 0 500 0
-76 0 50d10+11500 5d5+5000 10d10+46 pound
--46 -46 -46 -9
-EFIJ 0 0 0
-stand stand male 1000
-0 0 medium 0
+AF 0 76
 #17047
 elit korsan~
 elit korsan~
@@ -600,12 +420,7 @@ buttons and buckles. He wields a military saber with a precision you have
 seldom seen.
 ~
 human~
-AF DF 400 0
-76 0 50d10+11500 5d5+5000 10d10+46 slash
--46 -46 -46 -9
-EFIJ 0 0 0
-stand stand male 1000
-0 0 medium 0
+AF DF 76
 #17048
 alindra köle kadýn~
 Dunkeldorflu Alindra~
@@ -617,12 +432,7 @@ more sad is that Alindra over her years of captivity has fallen in love
 with Vulture, in spite of his villainy.
 ~
 human~
-AB 0 300 0
-70 0 50d10+9750	5d5+5000 8d10+40 slap
--40 -40 -40 -6
-EFIJ 0 0 0
-stand stand female 1000
-0 0 medium 0
+AB 0 70
 #17049
 Koyunbudu aþçý korsan~
 Aþçý KoyunBudu~
@@ -633,12 +443,7 @@ licking the stirring spoon. He doesn't say much, because he is too busy
 drooling into the stew. He does seem to be unusually sweaty though.
 ~
 human~
-AB V 0 0
-74 0 50d10+10700 5d5+5000 9d10+44 pound
--44 -44 -44 -8
-EFIJ 0 0 0
-stand stand male 1000
-0 0 medium 0
+AB V 74
 #17050
 akbaba lord~
 Lord Akbaba~
@@ -652,12 +457,7 @@ and says `Obviously you are the caliber of soldier I need. Will you
 join me and become richer than your wildest dreams?'
 ~
 human~
-AB B 1000 0
-80 0 50d10+13500 5d5+5000 13d9+50 pound
--50 -50 -50 -13
-EFIJ 0 0 0
-stand stand male 1000
-0 0 medium 0
+AB B 80
 #17051
 katil balina~
 katil balina~
@@ -667,12 +467,7 @@ The orca is large, black, and white, and is not a nice little fishy
 like Free Willy.
 ~
 human~
-ABF 0 0 0
-80 0 50d10+13500 5d5+5000 13d9+50 bite
--50 -50 -50 -13
-EF 0 0 0
-stand stand female 1000
-0 0 medium 0
+ABF 0 80
 #17052
 anka büyük kuzey kuþu~
 büyük kuzey ankasý~
@@ -683,12 +478,7 @@ with an unnatural sanctuary spell. Its plumage matches the
 landscape, making it look like a snow hill when it lands.
 ~
 song bird~
-AB T 0 0
-80 0 50d10+13500 5d5+5000 13d9+50 claw
--50 -50 -50 -13
-F 0 0 0
-stand stand male 1000
-0 0 medium 0
+AB T 80
 #17053
 uluyan kurt sürüsü~
 uluyan kurt sürüsü~
@@ -698,12 +488,7 @@ The wolves dine on seals and caribou normally, but you will
 do in a pinch.
 ~
 wolf~
-ABF 0 0 0
-82 0 50d10+14500 5d5+5000 10d12+52 bite
--52 -52 -52 -15
-EFH 0 0 0
-stand stand none 1000
-0 0 medium 0
+ABF 0 82
 #17054
 ayý maðara ayýsý~
 heybetli maðara ayýsý~
@@ -714,12 +499,7 @@ It is an impressive specimen. It is here, hibernating. Maybe
 you should let it sleep.
 ~
 bear~
-AB 0 0 0
-82 0 50d10+14500 5d5+5000 10d12+52 claw
--52 -52 -52 -15
-CDEF 0 0 0
-stand stand male 1000
-0 0 medium 0
+AB 0 82
 #17066
 korsan~
 kürklere bürünmüþ korsan~
@@ -728,12 +508,7 @@ Kürklere bürünmüþ bir korsan seni görünce `Yo Ho Ho' diye baðýrýyor.
 The pirate is well armed and dangerous.
 ~
 human~
-AT 0 400 0
-84 0 50d10+15500 5d5+5000 9d14+54 pound
--54 -54 -54 -18
-CDEFI0 0 0 0
-stand stand none 1000
-0 0 medium 0
+AT 0 84
 #17067
 muhafýz korsan~
 pusudaki muhafýz~
@@ -743,12 +518,7 @@ The guard is lean, alert, hardened, and itching for
 a fight.
 ~
 human~
-AFT DFQ 500 0
-80 0 50d10+13500 5d5+5000 13d9+50 pound
--50 -50 -50 -13
-EIJKTU 0 0 0
-stand stand none 1000
-0 0 medium 0
+AFT DFQ 80
 #17068
 korsan dümenci~
 dümenci~
@@ -759,12 +529,7 @@ navigated the narrow ice channels around the iceberg
 innumerable times.
 ~
 human~
-AT 0 600 0
-88 0 50d10+17500 5d5+5000 10d15+58 pound
--58 -58 -58 -24
-EFIK 0 0 0
-stand stand male 1000
-0 0 medium 0
+AT 0 88
 #17069
 korsan~
 Beþinci Korsan Lordu, Doðrayýcý~
@@ -778,12 +543,7 @@ When you don't respond, Cutter replies, `very well, lets
 have at it', and he downs a purple potion.
 ~
 human~
-ABT H 1000 0
-90 0 50d10+18500 5d5+5000 17d9+60 pound
--60 -60 -60 -27
-CDEFIJK 0 0 0
-stand stand male 1000
-0 0 medium 0
+ABT H 90
 #17070
 mahkum~
 buz kesmiþ esir~
@@ -804,12 +564,7 @@ clues throughout isles so don't just powermud and miss all.
 Lok charmed me so you wouldn't just mindlessly butcher me.'
 ~
 human~
-ABT 0 1000 0
-80 0 50d10+13500 5d5+5000 13d9+50 pound
--50 -50 -50 -13
-CEFIJK 0 0 0
-stand stand none 1000
-0 0 medium 0
+ABT 0 80
 #0
 
 

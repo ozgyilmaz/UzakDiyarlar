@@ -11,8 +11,7 @@ Maxvnum 30900
 Path 6d 10k 2d 8k~
 END
 
-
-#MOBILES
+#NEW_MOBILES
 #30800
 þeytan keþiþ~
 þeytan keþiþ~
@@ -23,12 +22,7 @@ intruders in their sanctum! And you can rest assured they will do their
 utmost to eject you!
 ~
 human~
-32|64 8|32|8192 -400 0
-60 0 50d10+6750 5d5+5000 8d6+28 pound
--30 -30 -30 -3
-EFHIJKNQ L B J
-stand stand male 0
-0 0 medium 0
+32|64 8|32|8192 60
 #30801
 kil golem heykel~
 kil golem~
@@ -38,12 +32,7 @@ This statue isn't very well-fashioned, and isn't very attractive. You wonder
 why even the unholy monks would use such art in their abbey. Shrug.
 ~
 golem~
-2|64 8|32|8192 0 0
-64 0 50d10+8000 5d5+5000 8d7+34 none
--34 -34 -34 -4
-EFNU 0 0 0
-stand stand male 0
-0 0 medium 0
+2|64 8|32|8192 64
 #30802
 keþiþ efendi~
 efendi~
@@ -54,12 +43,7 @@ and answer only to the abbot himself. They are if anything more diabolical
 than their demented pupils, and twice as deadly.
 ~
 human~
-32|64 8|32|128 -800 0
-63 0 50d10+7500 5d5+5000 7d8+33 pound
--33 -33 -33 -4
-EFHIJKNQ L B J
-stand stand male 0
-0 0 medium 0
+32|64 8|32|128 63
 #30803
 necromancer~
 a necromancer~
@@ -70,12 +54,7 @@ with which they one day intend to conquer the kingdom of Malathar. They are
 horrid, twisted, decrepit old men, who have incredible magical powers.
 ~
 human~
-2|64|128 8|32|512 -800 0
-62 0 50d10+7250 5d5+5000 6d9+32 punch
--32 -32 -32 -4
-FIJQ 0 0 0
-stand stand male 0
-0 0 medium 0
+2|64|128 8|32|512 62
 #30804
 baþrahip~
 baþrahip~
@@ -86,12 +65,7 @@ an iron fist and a lust for conquest and death bordering on the maniacal.
 He may be a shrivelled old man, but he is still immensely powerful.
 ~
 human~
-2|32|64 4|8|16|32|128|512|8192 -1000 0
-65 0 50d10+8250 5d5+5000 11d5+35 pound
--35 -35 -35 -5
-EFHIJKNQ L B J
-stand stand male 0
-0 0 medium 0
+2|32|64 4|8|16|32|128|512|8192 65
 #30805
 wight~
 a wight~
@@ -102,12 +76,7 @@ Malathar slain by the monks and transformed them into horrid wights, and
 additionally infusing them with a manic desire to slay everyone they behold.
 ~
 human~
-2|32|64 512 0 0
-63 0 50d10+7500 5d5+5000 7d8+33 none
--33 -33 -33 -4
-FIJQ 0 0 0
-stand stand none 0
-0 0 small 0
+2|32|64 512 63
 #30806
 kemik iblis~
 kemik iblis~
@@ -118,12 +87,7 @@ their favorite is the bone devil, who only demands seven virgins rather than
 the many scores other devils demand.
 ~
 human~
-2|64 8|32|512|8192 -1000 0
-66 0 50d10+8500	5d5+5000 7d9+36 none
--36 -36 -36 -5
-EFHIJKNQ 0 0 0
-stand stand none 0
-0 0 large 0
+2|64 8|32|512|8192 66
 #30807
 çora bakire~
 çora bakire~
@@ -134,12 +98,7 @@ the Hells. This one has gone quite insane from the pain and shock of capture
 and subsequent subjection to the cruel rituals of the monks.
 ~
 çora~
-2|64 0 0 0
-1 0 2d6+10 5d5+100 1d4+0 punch
-9 9 9 10
-F 0 B Z
-stand stand female 0
-0 0 medium 0
+2|64 0 1
 #30808
 cüce köle~
 cüce köle~
@@ -150,12 +109,7 @@ dwarves from the north and use them in this capacity, to expand and strengthen
 their abbey.
 ~
 dwarf~
-64 512 0 0
-60 0 50d10+6750 5d5+5000 8d6+28 punch
--30 -30 -30 -3
-CDEFIJKS 0 0 0
-stand stand male 0
-0 0 small 0
+64 512 60
 #30809
 ogre köle efendisi~
 ogre köle efendisi~
@@ -165,12 +119,7 @@ This overconfident brute is one of many employed by the monks to keep their
 slaves in line. He rashly expects you to just lie down and die for him. Hmmm.
 ~
 human~
-2|64 512 -500 0
-61 0 50d10+7000 5d5+5000 6d9+31 punch
--31 -31 -31 -4
-CDEFIJ 0 0 0
-stand stand male 0
-0 0 large 0
+2|64 512 61
 #30810
 paladin~
 paladin~
@@ -181,12 +130,7 @@ and imprisoned here. The new clan has not dared to disturb him, for they
 know of his power.
 ~
 human~
-ABG CDEFHN 1000 0
-75 0 50d10+11000 5d5+5000 9d11+45 pound
--45 -45 -45 -9
-EFIJKS N 0 0
-stand stand male 0
-0 0 medium 0
+ABG CDEFHN 75
 #30811
 kara ejderha~
 kara ejderha~
@@ -195,12 +139,7 @@ kara ejderha~
 They aren't called the dragon clan for nothing, pal.
 ~
 black dragon~
-2|64 4|8|16|32|128|512|8192|524288 -1000 0
-70 0 50d10+9750	5d5+5000 8d10+40 claw
--40 -40 -40 -6
-CDEFQ 0 0 0
-stand stand male 0
-0 0 giant 0
+2|64 4|8|16|32|128|512|8192|524288 70
 #30812
 yaþlý çora~
 yaþlý çora~
@@ -212,12 +151,7 @@ missions. He has been waiting several centuries, and will be waiting for
 much longer before Grimafax returns.
 ~
 çora~
-2|64 128 1000 0
-62 0 50d10+7250 5d5+5000 6d9+32 punch
--32 -32 -32 -4
-EFIJKS 0 B Z
-stand stand male 0
-0 0 small 0
+2|64 128 62
 #30813
 kemik golem~
 kemik golem~
@@ -228,12 +162,7 @@ from the cavern entrance. It will not attack, but it will move to defend
 itself.
 ~
 golem~
-2|64 8192 0 0
-62 0 50d10+7250 5d5+5000 6d9+32 none
--32 -32 -32 -4
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+2|64 8192 62
 #30814
 wyvern~
 a wyvern~
@@ -244,12 +173,7 @@ it could be a perfectly normal wyvern that just happens to be wearing a
 massive green amulet with "dragon clan" written on it...
 ~
 wyvern~
-2|64 524288 -234 0
-61 0 50d10+7000 5d5+5000 6d9+31 none
--31 -31 -31 -4
-FHQ 0 0 0
-stand stand male 0
-0 0 small 0
+2|64 524288 61
 #30815
 hayvan~
 hayvan~
@@ -260,12 +184,7 @@ have managed to tame these beasts, much to the displeasure of civilized
 folk everywhere.
 ~
 asura~
-2|32|64 32768 0 0
-62 0 50d10+7250 5d5+5000 6d9+32 charge
--32 -32 -32 -4
-FIJQ 0 0 0
-stand stand none 0
-0 0 medium 0
+2|32|64 32768 62
 #0
 
 #OBJECTS

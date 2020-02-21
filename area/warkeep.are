@@ -26,7 +26,7 @@ yourself pitted against many heinous foes in your journey.
 0 $~
 
 
-#MOBILES
+#NEW_MOBILES
 #15700
 warlock baragar~
 the warlock Baragar~
@@ -41,12 +41,7 @@ He would appear to be almost angelic were it not for the diabolical gleam
 to his eyes, and the evil grin on his thin, cruel lips.
 ~
 human~
-2|8|64|128 4|8|16|32|128|512|8192|524288 -1000 0
-30 0 6d12+853 5d5+1000 4d6+8 pound
--9 -9 -9 3
-FHIJKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|8|64|128 4|8|16|32|128|512|8192|524288 30
 #15701
 woman witch alara~
 the witch Alara~
@@ -58,12 +53,7 @@ a variety of potions, scrolls and throwing daggers. She would be very
 attractive if she didn't cackle insanely so much.
 ~
 human~
-2|64|128 8|512|8192 -1000 0
-28 0 6d12+703 5d5+1000 2d12+8 punch
--8 -8 -8 4
-EIK 0 0 0
-stand stand female 1000
-0 0 medium 0
+2|64|128 8|512|8192 28
 #15702
 demon~
 a demon~
@@ -75,12 +65,7 @@ it again. And now you're in here with this eight foot tall, four armed,
 green skinned monstrosity from the lower planes. Great.
 ~
 unique~
-2|8|32|64 8|128|512|524288 -1000 0
-35 0 10d10+1300 5d5+1000 4d7+11 slash
--11 -11 -11 3
-EIKQ 0 0 0
-stand stand none 1000
-0 0 medium 0
+2|8|32|64 8|128|512|524288 35
 #15703
 cat familiar~
 a cat familiar~
@@ -89,12 +74,7 @@ Alara's familiar, a black cat, hisses at you.
 This angry feline is Alara's familiar. Do away with it.
 ~
 cat~
-2|32|64|128 8|512|8192 -1000 0
-10 0  2d7+121 5d5+100 2d4+2 beating
-1 1 1 7
-FH 0 0 0
-stand stand female 1000
-0 0 large 0
+2|32|64|128 8|512|8192 10
 #15704
 hawk familiar~
 a hawk familiar~
@@ -103,12 +83,7 @@ Alara's familiar, a hawk, screeches at you.
 This angry bird is Baragar's familiar. Do away with it.
 ~
 song bird~
-2|32|64|128 8|512|8192|524288 -1000 0
-12 0 2d10+150 5d5+100 1d10+3 claw
-0 0 0 7
-F 0 0 0
-stand stand none 1000
-0 0 small 0
+2|32|64|128 8|512|8192|524288 12
 #15705
 asura guard~
 a asura guard~
@@ -119,12 +94,7 @@ but they see so many strange creatures here they aren't sure which type is
 allowed and which isn't.
 ~
 asura~
-2|8|64 512|8192 -400 0
-25 0 5d10+550 5d5+1000 2d10+7 pound
--7 -7 -7 4
-CDEFIJKQ 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|8|64 512|8192 25
 #15706
 flesh golem~
 a flesh golem~
@@ -134,12 +104,7 @@ This mindless automaton is a creation of Baragar's. It answers only to him,
 a fact which irritates (and worries) Alara.
 ~
 golem~
-2|64 128|8192 0 0
-26 0 5d10+600 5d5+1000 3d7+7 pound
--7 -7 -7 4
-EFNU 0 0 0
-stand stand none 1000
-0 0 medium 0
+2|64 128|8192 26
 #15707
 fire drake~
 a fire drake~
@@ -149,12 +114,7 @@ This angry dragonkin has been roused from its nap by you, and it isn't happy
 about it...
 ~
 unique~
-2|32|64 8|128|512 -500 0
-28 0 6d12+703 5d5+1000 2d12+8 charge
--8 -8 -8 4
-EFNU 0 0 0
-stand stand male 1000
-0 0 large 0
+2|32|64 8|128|512 28
 #15708
 zombie servant~
 a zombie servant~
@@ -166,12 +126,7 @@ if a little slower, and slew all his staff, turning them subsequently into
 mindless undead. That's what a charming guy he is.
 ~
 undead~
-64 0 0 0
-15 0 3d9+208 5d5+100 2d6+3 punch
--2 -2 -2 6
-EFN 0 0 0
-stand stand none 1000
-0 0 medium 0
+64 0 15
 #15709
 guard~
 a keep guard~
@@ -184,12 +139,7 @@ keep quiet. You may wonder why in that case Baragar bothers having guards.
 Well, so does he.
 ~
 human~
-2|8|64 512 -400 0
-18 0 3d9+283 5d5+1000 2d7+4 pound
--3 -3 -3 6
-CDEFIJKQ 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|8|64 512 18
 #15710
 apprentice~
 an apprentice mage~
@@ -200,12 +150,7 @@ as a student after Alara hooked up with Baragar, a warlock of a different
 gender. She is small, cute, and evil.
 ~
 human~
-2|64|128 8192 -400 0
-21 0 4d10+360 5d5+1000 4d4+5 punch
--5 -5 -5 5
-EFU 0 0 0
-stand stand female 1000
-0 0 medium 0
+2|64|128 8192 21
 #15711
 grell~
 a grell~
@@ -215,12 +160,7 @@ This looks like a huge brain with green tentacles and a huge squid-like
 beak. It hovers in the center of the room, glaring at you menacingly.
 ~
 unique~
-2|32|64 524288 -800 0
-24 0 5d10+500 5d5+1000 2d10+6 charge
--6 -6 -6 4
-EFNU 0 0 0
-stand stand female 1000
-0 0 medium 0
+2|32|64 524288 24
 #15712
 mimic~
 a mimic~
@@ -230,12 +170,7 @@ This mimic has been placed here by Baragar to fool (and hopefully slay)
 potential thieves.
 ~
 human~
-2|32|64 8192 -400 0
-22 0 5d10+400 5d5+1000 4d4+6 charge
--5 -5 -5 5
-EFNU 0 0 0
-stand stand none 1000
-0 0 medium 0
+2|32|64 8192 22
 #15713
 crocodile~
 a hungry crocodile~
@@ -246,12 +181,7 @@ keep them savage. He uses them to punish his guards. They seldom make
 the same mistake twice, because they are usually dead.
 ~
 lizard~
-2|32|64 0 0 0
-19 0 3d9+308 5d5+1000 2d7+5 cleave
--4 -4 -4 5
-EFNU 0 0 0
-stand stand none 1000
-0 0 large 0
+2|32|64 0 19
 #15714
 war dog~
 a savage war dog~
@@ -262,12 +192,7 @@ could find, then infected them with super-rabies to make 'em nice and
 friendly.
 ~
 fido~
-2|32|64 8192 -400 0
-16 0 3d9+233 5d5+1000 2d6+4 bite
--2 -2 -2 6
-EFNQ 0 0 0
-stand stand none 1000
-0 0 medium 0
+2|32|64 8192 16
 #15715
 assassin~
 an assassin~
@@ -278,12 +203,7 @@ Closely aligned with the assassins of Krogthar's domain, they are cold-
 blooded, ruthless fanatics devoted to their ruler.
 ~
 human~
-2|32|64|128 512|8192 -1000 0
-20 0  3d9+333 5d5+1000 2d8+5 pound
--4 -4 -4 5
-EFIJKN 0 0 0
-stand stand female 1000
-0 0 medium 0
+2|32|64|128 512|8192 20
 #15716
 dagar assassin~
 the assassin Dagar~
@@ -294,12 +214,7 @@ weeks infiltrating the keep, and is now in the final stages of his plan.
 However, he'd be more than happy for you to complete the task for him.
 ~
 human~
-2|64 8|32|128|512|32768|65536 400 0
-27 0 5d10+650 5d5+1000 5d4+7 pound
--8 -8 -8 4
-EFIJKN 0 0 0
-stand stand male 1000
-0 0 medium 0
+2|64 8|32|128|512|32768|65536 27
 #15717
 gnoll slave~
 a gnoll slave~
@@ -310,12 +225,7 @@ as miners and laborers helping to excavate the ancient lower cavers beneath
 the keep.
 ~
 fido~
-64|128 0 -400 0
-12 0 2d10+150 5d5+100 1d10+3 bite
-0 0 0 7
-EFN 0 0 0
-stand stand male 0
-0 0 medium 0
+64|128 0 12
 #15718
 ogre slave~
 an ogre slave~
@@ -325,12 +235,7 @@ These evil giant-kin have been captured by Baragar and set to work as miners
 and laborers helping to excavate the ancient lower cavers beneath the keep.
 ~
 human~
-64 512 -400 0
-18 0 3d9+283 5d5+1000 2d7+4 punch
--3 -3 -3 6
-FS 0 0 0
-stand stand male 0
-0 0 medium 0
+64 512 18
 #15719
 flind slave master~
 a flind slave master~
@@ -340,12 +245,7 @@ This gnoll-kin has been placed in charge of the gnolls and ogres that
 labor here, and will not tolerate any interruptions.
 ~
 human~
-2|32|64 512|8192 -500 0
-20 0 3d9+333 5d5+1000 2d8+5 pound
--4 -4 -4 5
-EFIJKNQ 0 0 0
-stand stand male 10000
-0 0 medium 0
+2|32|64 512|8192 20
 #15720
 otyugh~
 an otyugh~
@@ -356,12 +256,7 @@ It rushes toward you on stubby legs. It is used to devour the garbage of
 the keep.
 ~
 unique~
-2|32|64 128|512 0 0
-22 0 5d10+400 5d5+1000 4d4+6 charge
--5 -5 -5 5
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+2|32|64 128|512 22
 #0
 
 

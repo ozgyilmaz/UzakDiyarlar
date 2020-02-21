@@ -11,7 +11,7 @@ Maxvnum 8799
 Path 3g 2d 2g 11d 2k 2d~
 END
 
-#MOBILES
+#NEW_MOBILES
 #8700
 engerek yýlan~
 Korkunç bir engerek~
@@ -21,12 +21,7 @@ The asp is a small, smooth-scaled snake the color of worn pottery.
 The poison bite of this snake has felled many a mighty pharoah.
 ~
 human~
-AFG 0 0 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AFG 0 5
 #8701
 kobra yýlan~
 Bir kobra yýlaný~
@@ -36,12 +31,7 @@ The cobra snake waves back and forth before you, its hood displaying brilliant
 colors designed to serve notice to its prey that it is about to strike.
 ~
 human~
-AFG 0 0 0
-7 0 2d6+85 3d9+100 1d8+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand none 1
-0 0 medium 0
+AFG 0 7
 #8702
 gelincik~
 Kurnaz küçük bir gelincik~
@@ -51,12 +41,7 @@ The mongoose is a wily rodent, a quick hunter of nasty poisonous snakes.
 She sniffs you and appears to be looking for food in your hand.
 ~
 human~
-AG J 10 0
-11 0 2d8+134 5d9+100 1d10+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand female 5
-0 0 medium 0
+AG J 11
 #8703
 Piramit gözcüsü~
 Bir piramit gözcüsü~
@@ -67,12 +52,7 @@ the tombs of the pharoahs.  He is clad from head to foot in utilitarian
 sand-colored clothing.
 ~
 human~
-AB 0 250 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand male 10
-0 0 medium 0
+AB 0 8
 #8704
 mezar soyguncusu~
 Bir mezar soyguncusu~
@@ -81,12 +61,7 @@ Mezar soyguncusu edineceði ganimetin hayaliyle tam bir yýlan gibi süzülüyor.
 The thief brushes against you briefly, then slinks back into the shadows.
 ~
 human~
-AGHS DFP -250 0
-10 0 2d6+110 5d9+100 1d8+2 none
-2 2 2 8
-BEFJNU 0 0 0
-stand stand male 25
-0 0 medium 0
+AGHS DFP 10
 #8705
 ali baba hýrsýz~
 Ali Baba~
@@ -98,12 +73,7 @@ recently from under the nose of the hapless guardians of this pyramid.  Someday
 he might get caught, but not today...
 ~
 human~
-ACGS DFP -300 0
-18 0 3d9+258 9d9+100 3d4+4 none
--3 -3 -3 6
-BEFJNU 0 0 0
-stand stand male 50
-0 0 medium 0
+ACGS DFP 18
 #8706
 sihirli halý~
 Sihirli halý~
@@ -114,12 +84,7 @@ It seems to rise up at the touch of your feet.  Wait, it is rising, a few feet
 above the ground!  In fact, it seems to be ALIVE!
 ~
 human~
-AB DJ 500 0
-9 0 2d6+110 4d9+100 1d8+2 none
-2 2 2 8
-EFNU 0 0 0
-stand stand none 12
-0 0 medium 0
+AB DJ 9
 #8707
 mumya ceset~
 Bir mumya~
@@ -129,12 +94,7 @@ You only see the disfigured, rotting features of decaying human flesh,
 animated by the distempered spirit of a long-deceased person.
 ~
 human~
-AG J -600 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNU 0 0 0
-stand stand none 37
-0 0 medium 0
+AG J 12
 #8708
 kum adam~
 Bir kum adam~
@@ -145,12 +105,7 @@ of the desert floor.  It seems quite large and strong and at home in the heat
 and sandy winds.
 ~
 human~
-AG J 0 0
-14 0 2d10+190 7d9+100 1d12+3 none
--1 -1 -1 8
-EFNU 0 0 0
-stand stand male 75
-0 0 medium 0
+AG J 14
 #8709
 ifrit~
 Ýfrit~
@@ -160,12 +115,7 @@ The efreeti is a mighty being formed from living fire.  He gazes down at you
 with disdain and scorn, arms folded across his mighty chest.
 ~
 human~
-ABF DJ -600 0
-20 0 3d9+333 10d9+100 2d8+5 none
--4 -4 -4 7
-EFNU 0 0 0
-stand stand male 550
-0 0 medium 0
+ABF DJ 20
 #8710
 kadýn heykeli~
 Bir kadýn heykeli~
@@ -176,12 +126,7 @@ outward into the room.  The sandstone of the caryatid is smooth with age,
 but you can still make out a deadly stone sword in the hands of each figure.
 ~
 human~
-AB J 0 0
-24 0 5d10+500 12d9+100 2d10+6 none
--6 -6 -6 6
-EFNU 0 0 0
-stand stand female 1750
-0 0 medium 0
+AB J 24
 #8711
 ecinni~
 Ecinni~
@@ -193,12 +138,7 @@ He smiles down at you congenially, arms folded across his blue-tinged
 skin, and strokes his goatee.
 ~
 human~
-ABR J 600 0
-28 0 5d10+650 28d9+100 2d10+7 none
--8 -8 -8 1
-FU 0 0 0
-stand stand male 3000
-0 0 medium 0
+ABR J 28
 #8712
 hieracosfenks sfenks~
 Bir hieracosfenks~
@@ -210,12 +150,7 @@ to pieces.  They tend to be quite jealous of the sharper wits of their older
 cousins.
 ~
 human~
-AFG J -200 0
-15 0 3d9+208 7d9+100 2d6+3 none
--2 -2 -2 7
-EFNU 0 0 0
-stand stand none 375
-0 0 medium 0
+AFG J 15
 #8713
 diþi sfenks~
 Bir diþi sfenks~
@@ -227,12 +162,7 @@ and the hind legs of a mighty cat.  Right now she is confused, having
 just heard a puzzling riddle from a cousin criosphinx.
 ~
 human~
-ABQ D 100 0
-19 0 3d9+308 19d9+100 3d4+5 none
--4 -4 -4 6
-EIKU 0 0 0
-stand stand female 500
-0 0 medium 0
+ABQ D 19
 #8714
 criosfenks sfenks~
 Bir criosfenks~
@@ -243,12 +173,7 @@ the body of a well-furred feline with eagle-like wings.  He delights in riddles,
 and in poking occasional fun at his easily confused lesser cousins.
 ~
 human~
-ABQ D 300 0
-23 0 5d10+450 23d9+100 4d4+6 none
--6 -6 -6 5
-EIKU 0 0 0
-stand stand male 1250
-0 0 medium 0
+ABQ D 23
 #8715
 erkek sfenks~
 Bir erkek sfenks~
@@ -260,12 +185,7 @@ wings.  Tales are told of pharoahs that were rendered permanently deaf by the
 mighty roar of this sphinx.
 ~
 human~
-ABQ D 400 0
-27 0 5d10+650 27d9+100 2d10+7 none
--8 -8 -8 4
-EIKU 0 0 0
-stand stand none 2500
-0 0 medium 0
+ABQ D 27
 #8716
 büyük sfenks~
 Büyük sfenks~
@@ -277,12 +197,7 @@ it, although you can still make out the features of the handsome face that once
 advised many rulers.
 ~
 human~
-AB DEHN 500 0
-41 0 25d10+2000 20d9+100 4d8+14 none
--14 -14 -14 4
-EFNU 0 0 0
-stand stand none 6250
-0 0 medium 0
+AB DEHN 41
 #8717
 ramses mumya~
 Lanetli Ramses~
@@ -295,13 +210,9 @@ a soft black, his skin a deep chocolate, and his tall frame is totally still,
 his chest not even moving to breathe.
 ~
 human~
-ABQ DEHJN 150 0
-38 0 10d10+1600 38d9+100 3d10+12 none
--13 -13 -13 3
-EIKU 0 0 0
-stand stand male 4400
-0 0 medium 0
+ABQ DEHJN 38
 #0
+
 #OBJECTS
 #8700
 mýsýr gürzü~

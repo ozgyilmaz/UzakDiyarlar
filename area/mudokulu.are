@@ -14,7 +14,7 @@ END
 #RESETMESSAGE
 Yeryüzü kaybolan yaþamlarýn anýsýna titriyor.~
 
-#MOBILES
+#NEW_MOBILES
 #3700
 üstad~
 üstad~
@@ -23,12 +23,7 @@ Bir üstad sana "MUD okuluna hoþgeldin" diyor.
 O büyük ve kötü. Sakýn ona bulaþma.
 ~
 human~
-ABGQTV CH 1000 0
-30 10 1d1+999 1d1+999 2d4+30 beating
--15 -15 -15 -15
-ACEFHIKN ABCD 0 0
-stand stand male 0
-0 0 medium 0
+ABGQTV CH 30
 #3701
 kütle~
 kütle~
@@ -39,12 +34,7 @@ O büyük ve kötü. Zincirlerle baðlanmadýkça onla dövüþmeyi istemiyorsun.
 sonuçlara katlanacaksýn.
 ~
 unique~
-ABGe C 0 0
-5 -5 1d1+49 1d1+99 1d1+0 digestion
--15 -15 -15 -15
-AN AB CD 0
-stand stand none 0
-BSc 0 large 0
+ABGe C 5
 #3702
 canavar~
 canavar~
@@ -54,12 +44,7 @@ Haþin birine benzese de onu öldürebileceðinden eminsin. Nedeni ise onun
 zincirlenmiþ, senin ise serbest olman.
 ~
 school monster~
-AB 0 0 0
-1 0 1d1+7 1d1+99 1d3+0 claw
-10 10 10 10
-0 0 0 0
-stand stand none 10
-0 0 medium 0
+AB 0 1
 #3703
 korkak canavar~
 korkak canavar~
@@ -69,12 +54,7 @@ Korkmuþ görünüyor. Onu öldürebileceðinden eminsin. Nedeni ise onun
 zincirlenmiþ, senin ise serbest olman.
 ~
 school monster~
-ABH 0 0 0
-1 0 1d1+7 1d1+99 1d2+0 claw
-10 10 10 10
-O 0 0 0
-stand stand none 10
-0 0 medium 0
+ABH 0 1
 #3704
 saldýrgan canavar~
 saldýrgan canavar~
@@ -84,12 +64,7 @@ Haþin birine benzese de onu öldürebileceðinden eminsin. Nedeni ise onun
 zincirlenmiþ, senin ise serbest olman.
 ~
 school monster~
-ABF 0 0 0
-1 0 1d1+7 1d1+99 1d4+0 claw
-10 10 10 10
-EK 0 0 0
-stand stand none 10
-0 0 medium 0
+ABF 0 1
 #3705
 korkak saldýrgan canavar~
 korkak saldýrgan canavar~
@@ -99,12 +74,7 @@ Haþin birine benzese de onu öldürebileceðinden eminsin. Nedeni ise onun
 zincirlenmiþ, senin ise serbest olman.
 ~
 school monster~
-ABFH 0 0 0
-1 0 1d1+7 1d1+99 1d3+0 claw
-10 10 10 10
-J 0 0 0
-stand stand none 10
-0 0 medium 0
+ABFH 0 1
 #3706
 iri yaratýk~
 iri yaratýk~
@@ -114,12 +84,7 @@ Haþin görünüyor, onu öldürürken biraz sorun yaþayabilirsin. Ama ödülü
 büyük olacak! ! !
 ~
 school monster~
-AB JZ 0 0
-2 1 2d2+20 1d1+99 1d4+1 claw
-8 8 8 10
-FN 0 0 0
-stand stand none 25
-0 0 medium 0
+AB JZ 2
 #3707
 üstad~
 üstad~
@@ -128,12 +93,7 @@ Bir üstad burada, geliþimin üzerine düþünüyor.
 O büyük ve kötü. Sakýn ona bulaþma.
 ~
 human~
-ABGQTV CH 1000 0
-30 10 1d1+999 1d1+999 2d4+30 beating
--15 -15 -15 -15
-ACEFHIKN ABCD 0 0
-stand stand male 0
-0 0 medium 0
+ABGQTV CH 30
 #3708
 üstad~
 üstad~
@@ -142,12 +102,7 @@ Bir üstad burada, sana gülümsüyor.
 O büyük ve kötü. Sakýn ona bulaþma.
 ~
 human~
-ABGQTV CH 1000 0
-30 10 1d1+999 1d1+999 2d4+30 beating
--15 -15 -15 -15
-ACEFHIKN ABCD 0 0
-stand stand male 0
-0 0 medium 0
+ABGQTV CH 30
 #3709
 tavþan~
 tavþan~
@@ -156,12 +111,7 @@ Bir tavþan etrafta zýplýyor.
 Tavþan sana gülümsüyor. O tamamen zararsýz.
 ~
 rabbit~
-AGHU 0 100 0
-1 0 1d1+10 1d1+99 1d3+0 bite
-10 10 10 10
-0 0 0 0
-stand stand either 0
-0 0 tiny 0
+AGHU 0 1
 #3710
 kertenkele~
 kertenkele~
@@ -170,12 +120,7 @@ Bir kertenkele üzerine týrmanýyor.
 Sana gülümsüyor ve bacaðýný yemeye çalýþýyor.
 ~
 lizard~
-AGU 0 -100 0
-2 0 2d2+20 1d1+99 1d4+1 bite
-8 8 8 10
-R 0 0 0
-stand stand either 0
-0 0 small 0
+AGU 0 2
 #3711
 yaban domuzu~
 yaban domuzu~
@@ -184,12 +129,7 @@ Bir yaban domuzu üzerine doðru koþuyor! ! !
 Sana hýrlýyor.
 ~
 pig~
-AGU 0 0 0
-3 1 3d3+30 1d1+99 1d6+1 charge
-7 7 7 9
-CDFR 0 0 0
-stand stand either 0
-0 0 medium 0
+AGU 0 3
 #3712
 tilki~
 tilki~
@@ -198,12 +138,7 @@ Bir tilki sana dik dik bakýyor.
 Kürkü para edebilir.
 ~
 fox~
-AGHU 0 100 0
-1 1 1d1+12 1d1+99 1d3+1 bite
-8 8 8 10
-NR 0 0 0
-stand stand either 0
-0 0 small 0
+AGHU 0 1
 #3713
 salyangoz~
 salyangoz~
@@ -212,12 +147,7 @@ Bir salyangoz yolundan çekilmeye çalýþýyor.
 En çok gözüne çarpan çýkardýðý salgýsý.
 ~
 unique~
-AGU 0 0 0
-0 0 1d1+0 1d1+99 1d1+0 digestion
-10 10 10 10
-0 0 0 0
-stand stand none 0
-AGQc AFHM tiny 0
+AGU 0 1
 #3714
 hayvan~
 hayvan~
@@ -226,12 +156,7 @@ Bir hayvan seninle beslenmeyi düþünüyor.
 Haþin görünüyor. Uzaklaþsan iyi olur.
 ~
 school monster~
-AFT Z 0 0
-5 1 5d5+55 1d1+99 1d6+3 bite
-5 5 5 8
-EKM 0 HI 0
-stand stand none 50
-0 0 large 0
+AFT Z 5
 #3715
 ayý~
 ayý~
@@ -240,12 +165,7 @@ Bir ayý sana hýrýldýyor.
 Ayý senden iri olmalý. Kafaný yerinden koparmak istiyor.
 ~
 bear~
-AGU 0 0 0
-4 1 4d4+44 1d1+99 1d6+2 claw
-6 5 6 7
-CR 0 0 0
-stand stand either 0
-0 0 large 0
+AGU 0 4
 #3716
 kurt~
 kurt~
@@ -254,12 +174,7 @@ Bir kurt sana hýrýldýyor.
 Kurt rahatsýz edilmek istemiyor.
 ~
 wolf~
-AGU 0 0 0
-4 0 4d4+44 1d1+99 1d6+2 bite
-7 7 7 10
-NR 0 0 0
-stand stand either 0
-0 0 medium 0
+AGU 0 4
 #3717
 üstad~
 selene'nin üstadý~
@@ -268,12 +183,7 @@ Selene'nin üstadý burada, sýrýtýyor ve sana birþeyler satmaya çalýþýyor.
 O büyük ve kötü. Sakýn ona bulaþma.
 ~
 human~
-ABCQTV CH 1000 0
-30 10 1d1+999 1d1+999 2d4+30 beating
--15 -15 -15 -15
-ACEFHIKN ABCD 0 0
-stand stand male 0
-0 0 medium 0
+ABCQTV CH 30
 #3718
 üstad eðitim~
 eðitim üstadý~
@@ -282,12 +192,7 @@ Eðitim üstadý burada, genç öðrencileri EÐÝTÝYOR.
 O büyük ve kötü. Sakýn ona bulaþma.
 ~
 human~
-ABCJQTV CH 1000 0
-30 10 1d1+999 1d1+999 2d4+30 beating
--15 -15 -15 -15
-ACEFHIKN ABCD 0 0
-stand stand male 0
-0 0 medium 0
+ABCJQTV CH 30
 #3719
 üstad pratik~
 pratik üstadý~
@@ -296,12 +201,7 @@ Pratik üstadý sana PRATÝK yapmanda yardým etmek için bekliyor.
 O büyük ve kötü. Sakýn ona bulaþma.
 ~
 human~
-ABCKQTV CH 1000 0
-30 10 1d1+999 1d1+999 2d4+30 beating
--15 -15 -15 -15
-ACEFHIKN ABCD 0 0
-stand stand male 0
-0 0 medium 0
+ABCKQTV CH 30
 #3720
 diplomalý canavar~
 diplomalý canavar~
@@ -311,12 +211,7 @@ Bu korkunç canavar senin MUD okulundaki son sýnavýn olacak. Öldür onu ve
 diploma senin olsun.
 ~
 school monster~
-ABe J 0 0
-3 1 2d4+30 1d1+99 1d6+1 claw
-8 8 8 10
-EFN 0 0 0
-stand stand none 30
-0 0 medium 0
+ABe J 3
 #0
 
 #OBJECTS

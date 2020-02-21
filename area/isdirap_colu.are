@@ -11,7 +11,7 @@ Maxvnum 5099
 Path 3g 2d 2g 3d~
 END
 
-#MOBILES
+#NEW_MOBILES
 #5000
 fukara derviþ~
 fukara derviþ~
@@ -20,12 +20,7 @@ Fukara bir derviþ görüyorsun, amaçsýzca yürüyor.
 Paçavralara bürünmüþ bir derviþ görüyorsun, sakalý da saçý kadar uzamýþ...
 ~
 human~
-ACGH P 900 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand male 3
-0 0 medium 0
+ACGH P 5
 #5001
 derviþ~
 derviþ~
@@ -34,12 +29,7 @@ Derviþ burada, etrafý izliyor.
 Paçavralara bürünmüþ bir derviþ görüyorsun, sakalý da saçý kadar uzamýþ...
 ~
 human~
-AFG P 650 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand male 7
-0 0 medium 0
+AFG P 8
 #5002
 mercan yýlaný~
 mercan yýlaný~
@@ -49,12 +39,7 @@ Zararsýz sayýlabilecek bir yýlan. Boynundan kuyruðuna dek uzanan kýzýl
 halkalar kolayca fark edilebilmesini saðlýyor.
 ~
 snake~
-AG 0 -10 0
-4 0 2d7+46 2d9+100 1d5+1 none
-6 6 6 9
-EFNR 0 0 0
-stand stand none 0
-0 0 medium 0
+AG 0 4
 #5003
 küçük akrep~
 küçük akrep~
@@ -63,12 +48,7 @@ Küçük bir akrep görüyorsun, seni izliyor.
 Kuyruðundaki iðne belki seni deðil ama bir köpeði öldürebilir.
 ~
 human~
-AG 0 -50 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNU 0 0 0
-stand stand none 0
-0 0 medium 0
+AG 0 3
 #5004
 mor dev~
 mor dev~
@@ -77,12 +57,7 @@ Bir dev görüyorsun, gelip geçene saldýrýyor!
 Mor giysilere bürünmüþ. Aman dikkatli ol, oldukça saldýrgandýr...
 ~
 human~
-ABF 0 -100 0
-18 0 3d9+283 9d9+100 2d7+4 none
--3 -3 -3 7
-EFNU 0 0 0
-stand stand none 127
-0 0 medium 0
+ABF 0 18
 #5005
 pirinç ejderha~
 pirinç ejderha~
@@ -90,12 +65,7 @@ Pirinç Ejderha'yý görüyorsun, yüzünü sana çevirip nefesiyle ýsýnmaný saðlýyor.
 ~
 ~
 dragon~
-ABCF DH 450 0
-28 45 6d12+1053 15d9+100 4d40+28 none
--19 -19 -19 -10
-EFNR 0 0 0
-stand stand female 275
-0 0 medium 0
+ABCF DH 28
 #5006
 göçebe lider~
 göçebe lider~
@@ -104,12 +74,7 @@ Göçebe bir lider burada, oturmuþ dua ediyor.
 Muhteþem! Giysilerin içinde tam bir lider, bir hükümdar gibi duruyor.
 ~
 human~
-AGH 0 950 0
-14 0 2d10+190 7d9+100 1d12+3 none
--1 -1 -1 8
-EFNU 0 0 0
-sit sit male 50
-0 0 medium 0
+AGH 0 14
 #5007
 göçebe komutan~
 göçebe komutan~
@@ -119,12 +84,7 @@ O göçebelerin ikinci lideri. Ýpekten pahalý giysilerinin içinde yine de
 sert ve güçlü görünüyor.
 ~
 human~
-AB 0 900 0
-12 0 2d10+150 6d9+100 1d10+3 none
-0 0 0 8
-EFNU 0 0 0
-stand stand male 30
-0 0 medium 0
+AB 0 12
 #5008
 göçebe savaþçý~
 göçebe savaþçý~
@@ -132,12 +92,7 @@ Göçebe bir savaþçý burada.
 ~
 ~
 human~
-AB 0 700 0
-10 0 2d7+121 5d9+100 2d4+2 none
-1 1 1 8
-EFNU 0 0 0
-stand stand male 15
-0 0 medium 0
+AB 0 10
 #5009
 genç köle~
 köle~
@@ -145,12 +100,7 @@ Genç bir köle burada, yorgun gözlerle sana bakýyor.
 ~
 ~
 human~
-ABH 0 1000 0
-3 0 2d6+35 1d9+100 1d6+0 none
-7 7 7 10
-EFNU 0 0 0
-rest rest female 0
-0 0 medium 0
+ABH 0 3
 #5010
 kemik ejderan~
 ejderan~
@@ -160,12 +110,7 @@ Bir kemik yýðýný senin varlýðýnla ayaða kalkýyor, bu bir ejderan!!!
 bir mahlukat. Artýk ölümden de korkmuyor!
 ~
 human~
-ABF DH -1000 0
-30 0 6d12+853 15d9+100 4d6+8 none
--9 -9 -9 6
-EFNU 0 0 0
-stand stand none 3750
-0 0 medium 0
+ABF DH 30
 #5011
 örümceksi insan~
 örümceksi insan~
@@ -174,12 +119,7 @@ stand stand none 3750
 Seninle dövüþmeye oldukça hazýr.
 ~
 human~
-AFG D -1000 0
-8 0 2d7+96 4d9+100 1d7+2 none
-3 3 3 9
-EFNU 0 0 0
-stand stand female 10
-0 0 medium 0
+AFG D 8
 #5012
 kara cüce~
 kara cüce~
@@ -188,12 +128,7 @@ Elindekiyle taþlarý oyan bir cüce görüyorsun.
 Bu kara cüce kafaný kýrmak için sabýrsýzlanýyor.
 ~
 human~
-AFG D -850 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand male 8
-0 0 medium 0
+AFG D 5
 #5013
 mantar~
 mantar~
@@ -202,12 +137,7 @@ Bir mantar görüyorsun, seni izliyor.
 O YaþIyOr!!!
 ~
 human~
-AGH D 850 0
-6 0 2d7+71 3d9+100 1d7+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand male 2
-0 0 medium 0
+AGH D 6
 #5014
 mantar þaman~
 mantar þaman~
@@ -216,12 +146,7 @@ mantar þaman~
 Etrafa sporlar fýrlatýyor.
 ~
 human~
-ABHQ DH 850 0
-8 0 2d7+96 8d9+100 1d7+2 none
-3 3 3 8
-EIKU 0 0 0
-stand stand male 75
-0 0 medium 0
+ABHQ DH 8
 #5015
 toprak kazýcý~
 toprak kazýcý~
@@ -229,12 +154,7 @@ Bir toprak kazýcý görüyorsun, seni aþaðý çaðýrýyor.
 ~
 ~
 human~
-ABCF 0 -200 0
-7 0 2d6+85 3d9+100 1d8+1 none
-4 4 4 9
-EFNU 0 0 0
-stand stand none 22
-0 0 medium 0
+ABCF 0 7
 #5017
 azgýn deve~
 azgýn deve~
@@ -243,12 +163,7 @@ Oldukça tehlikeli bir deve sana bakýyor.
 Onunla DALAÞMA!
 ~
 human~
-ABF 0 -351 0
-5 0 2d6+60 2d9+100 1d6+1 none
-5 5 5 9
-EFNU 0 0 0
-stand stand none 13
-0 0 medium 0
+ABF 0 5
 #0
 
 #OBJECTS

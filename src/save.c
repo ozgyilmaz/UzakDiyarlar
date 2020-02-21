@@ -1,4 +1,16 @@
 /***************************************************************************
+ *                                                                         *
+ * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
+ * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
+ * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ *                                                                         *
+ * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
+ * Web     : http://www.uzakdiyarlar.net                                   *
+ * Discord : https://discord.gg/kXyZzv                                     *
+ *                                                                         *
+ ***************************************************************************/
+
+/***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
  *	 Serdar BULUT {Chronos}		bulut@rorqual.cc.metu.edu.tr       *
@@ -199,6 +211,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
     fprintf( fp, "Home %d\n",   ch->hometown		);
     fprintf( fp, "Cab  %d\n",   ch->cabal		);
     fprintf( fp, "Dead %d\n",   ch->pcdata->death	);
+    fprintf( fp, "GhostCounter %d\n",   ch->pcdata->ghost_mode_counter	);
     fprintf( fp, "Ques %s\n", 	print_flags(ch->quest)	);
 
     if (ch->short_descr[0] != '\0')
@@ -394,7 +407,12 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
     fprintf( fp ,"Relig %d\n", 		ch->religion		);
     fprintf( fp ,"Haskilled %d\n",	ch->pcdata->has_killed	);
     fprintf( fp ,"Antkilled %d\n",	ch->pcdata->anti_killed	);
-
+    if (ch->pcdata->rk_puani !=0)
+        fprintf( fp, "RKPuani %ld\n", ch->pcdata->rk_puani	);
+    if (ch->pcdata->din_puani !=0)
+        fprintf( fp, "DinPuani %ld\n", ch->pcdata->din_puani	);
+    if (ch->pcdata->yardim_puani !=0)
+        fprintf( fp, "YardimPuani %ld\n", ch->pcdata->yardim_puani	);
     /* character log info */
     fprintf( fp, "PlayLog 1\n");	/* 1 stands for version */
     for( l = 0; l < MAX_TIME_LOG; l++)
@@ -732,6 +750,9 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
     ch->riding	= FALSE;
     ch->mount	= NULL;
     ch->in_mind	= NULL;
+    ch->pcdata->rk_puani = 0;
+    ch->pcdata->din_puani = 0;
+    ch->pcdata->yardim_puani = 0;
 
     found = FALSE;
     fclose( fpReserve );
@@ -905,6 +926,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
     log_string(buf);
     ch->pcdata->bank_s = 0;
     ch->pcdata->bank_g = 0;
+    ch->pcdata->ghost_mode_counter = 0;
 
     for ( ; ; )
     {
@@ -1099,6 +1121,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	    KEY( "Dead",	ch->pcdata->death,	fread_number( fp ) );
     	    KEY( "Detect",	dev_null,		fread_flag(fp)     );
 		KEY( "Dilek",	ch->pcdata->dilek, 		fread_flag( fp)	  );
+    KEY( "DinPuani",   ch->pcdata->din_puani,fread_number( fp) );
 	    break;
 
 	case 'E':
@@ -1152,6 +1175,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
     	break;
 
 	case 'G':
+      KEY( "GhostCounter",	ch->pcdata->ghost_mode_counter,		fread_number( fp ) );
 	    KEY( "Gold",	ch->gold,		fread_number( fp ) );
             if ( !str_cmp( word, "Group" )  || !str_cmp(word,"Gr"))
             {
@@ -1264,6 +1288,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 
 	case 'R':
 	    KEY( "Relig",       ch->religion,		fread_number( fp ) );
+      KEY( "RKPuani",   ch->pcdata->rk_puani,fread_number( fp) );
 
 /*	    KEY( "Race",        ch->race,  race_lookup(fread_string( fp )) ); */
 	    if ( !str_cmp( word, "Race" ) )
@@ -1348,6 +1373,9 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 		fMatch = TRUE;
 		break;
 	    }
+	    break;
+  case 'Y':
+	    KEY( "YardimPuani",   ch->pcdata->yardim_puani,fread_number( fp) );
 	    break;
 
 	case 'W':

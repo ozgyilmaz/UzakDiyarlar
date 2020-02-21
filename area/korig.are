@@ -11,7 +11,7 @@ Maxvnum 3599
 Path 6g 1d 3g 1b 2g 1b 2g 1d 2g~
 END
 
-#MOBILES
+#NEW_MOBILES
 #3500
 yelbüke~
 yelbüke~
@@ -20,12 +20,7 @@ Bir yelbüke baþýnýn üzerinde dönüyor.
 Büyük kanatlarýyla bir yelbüke görüyorsun. Neyseki çok aç deðil.
 ~
 wyvern~
-AG 0 -200 0
-8 2 8d8+80 1d1+149 2d6+1 bite
-5 4 5 6
-DNR 0 0 0
-stand stand either 0
-0 0 huge 0
+AG 0 8
 #3501
 gulyabani dað~
 gulyabani~
@@ -34,12 +29,7 @@ Bir dað gulyabanisi burada, kendi kendine mýrýldanýyor.
 Boðum boðum kaslarýyla küçük bir yaratýk.
 ~
 goblin~
-AFGT 0 -500 0
-6 1 4d4+65 1d1+99 2d4+1 punch
-4 6 4 9
-KR 0 0 0
-stand stand male 25
-0 0 small 0
+AFGT 0 6
 #3502
 oðlan küçük~
 küçük oðlan~
@@ -49,12 +39,7 @@ Zavallý çocuðun bir sürü yarasý var, yine de iyileþecek gibi görünüyor.
 Görünüþe göre saldýrýdan sað kurtulan bir tek o.
 ~
 human~
-ABH 0 500 0
-4 0 1d12+47 1d1+99 1d6+0 beating
-8 8 8 10
-I 0 0 C
-rest rest male 0
-0 0 small 0
+ABH 0 4
 #3503
 hancý~
 hancý~
@@ -65,12 +50,7 @@ etmekle geçiriyor. Geceleri ise goulyabanileri gözlüyor. Bu han artýk
 eskisi gibi sakin ve huzurlu bir yer deðil.
 ~
 human~
-ABT 0 500 0
-10 1 1d12+200 1d1+149 2d8+1 punch
-2 2 2 8
-BFKQ AB CD 0
-stand stand male 350
-0 0 medium 0
+ABT 0 10
 #3504
 ozan~
 ozan~
@@ -80,12 +60,7 @@ Odanýn diðer ucundan ozanýn nefesindeki alkolün kokusunu alabiliyorsun.
 Bir süredir burada içiyor.
 ~
 human~
-ABST D 600 0
-8 3 1d12+110 1d1+99 2d6+0 punch
-3 5 3 6
-FIJKNQ 0 0 0
-sit sit male 260
-0 0 medium 0
+ABST D 8
 #3505
 atlý kara~
 kara atlý~
@@ -95,12 +70,7 @@ Bir kanunsuz olduðu çok açýk. Seni ufak parçalara ayýrmaktan kuþku
 duymayacaktýr.
 ~
 human~
-AGHS P -900 0
-8 2 1d12+110 1d1+99 2d5+2 punch
-5 3 3 6
-BFJKQ 0 0 0
-stand stand male 400
-0 0 medium 0
+AGHS P 8
 #3506
 gulyabani teðmen~
 gulyabani teðmen~
@@ -109,12 +79,7 @@ Bir gulyabani teðmen burada, adamlarýný düzene sokmaya çalýþýyor.
 Teðmen biraz sinirli görünüyor. Her an adamlarýndan birine saldýrabilir.
 ~
 goblin~
-AFGT 0 -600 0
-7 1 1d12+100 1d1+149 1d10+1 punch
-3 5 3 8
-DKNR 0 0 0
-stand stand male 55
-0 0 medium 0
+AFGT 0 7
 #3507
 gulyabani lider~
 gulyabani lider~
@@ -124,12 +89,7 @@ Senin onu bulmandan rahatsýz oldu. Kýsa kýlýcýný kaptýðý gibi üzerine
 saldýrýyor.
 ~
 goblin~
-ACFGT 0 -900 0
-9 2 1d12+120 1d1+199 1d12+3 punch
-1 3 1 6
-DJKNR 0 0 0
-stand stand male 500
-0 0 medium 0
+ACFGT 0 9
 #0
 
 #OBJECTS

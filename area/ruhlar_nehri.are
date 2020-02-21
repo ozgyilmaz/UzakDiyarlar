@@ -116,7 +116,7 @@ alev ejderha nefes~
 bir ejderhanýn alevden nefesi~
 Çok parlak, sürekli bir alev..~
 fire~
-light AG A
+armor AG AB
 0 0 -1 0 0
 81 10 6400 P
 A
@@ -148,7 +148,7 @@ A
 24 -10
 #0
 
-#MOBILES
+#NEW_MOBILES
 #20080
 kadim büyücü~
 kadim büyücü~
@@ -157,12 +157,7 @@ Yaþlý bir adam kendi kendine konuþarak etrafta dolanýyor.
 He is old, despite being old he looks strong and wise.
 ~
 human~
-ABKVe DHN 900 0
-93 5 25d10+28800 1d1+1999 10d12+62 magic
--95 -95 -95 -75
-AF ABC D 0
-stand stand male 15000
-0 0 medium 0
+ABKVe DHN 93
 
 #20014
 iblis buz~
@@ -172,13 +167,7 @@ Bir buz iblisi burada dinleniyor.
    Brrr.. you fell cold as you look at his face.
 ~
 human~
-ABWeCFGT  DFJVZ 0 0
-50 20 10d40+5000 10d30+800 10d4+30
--30 -24 -30 -40 -20
-CEFKNU AB TPKIL 0
-stand stand male 5000
-ABCDEFG 0 medium 0
-
+ABWeCFGT  DFJVZ 50
 #20015
 kaybolmuþ iblis~
 kaybolmuþ bir iblis~
@@ -188,12 +177,7 @@ Kaybolmuþ bir iblis burada yolunu bulmaya çalýþýyor.
 not grin evilly at you.Better keep your distanse.
 ~
 human~
-ABWeCFGT  DFJVZ 0 0
-52 20 10d40+4000 10d30+800 10d4+30
--30 -24 -30 -40 -20
-CEFKNU AB TPKIL 0
-stand stand male 5000
-ABCDEFG 0 medium 0
+ABWeCFGT  DFJVZ 52
 #20016
 iblis kýzgýn~
 kýzgýn bir iblis~
@@ -204,12 +188,7 @@ says sumone must have disturbed him, he will probubly will revange first
 he see someone else.
 ~
 human~
-ABWeCFGT  DFJVZ 0 0
-60 20 10d40+3500 10d30+800 10d4+30
--30 -24 -30 -40 -20
-CEFKNU AB TPKIL 0
-stand stand male 5000
-ABCDEFG 0 medium 0
+ABWeCFGT  DFJVZ 60
 #20017
 iblis ateþ~
 bir ateþ iblisi~
@@ -218,12 +197,7 @@ Bir ateþ iblisi burada lavlarla oynuyor.
   He is burning , flames surround him.
 ~
 human~
-ABWeCFGT  DFJVZ 0 0
-69 20 10d40+6000 10d30+800 10d5+20
--30 -24 -30 -40 -20
-CEFKNU AB TPKIL 0
-stand stand male 5000
-ABCDEFG 0 medium 0
+ABWeCFGT  DFJVZ 69
 #20018
 anka kuþu~
 anka kuþu~
@@ -232,12 +206,7 @@ Bir anka kuþu burada þarkýlar söylüyor.
    So beautiful!
 ~
 unique~
-ABWeCFGT  DFJVZ 0 0
-69 20 10d40+7000 10d30+800 10d5+20
--30 -24 -30 -40 -20
-CEFKNU AB TPKIL 0
-stand stand male 5000
-ABCDEFG 0 medium 0
+ABWeCFGT  DFJVZ 69
 #20019
 su alalisi~
 bir su alalisi~
@@ -245,12 +214,7 @@ Bir su alalisi burada suyla oynuyor.
 ~
 ~
 gamayun~
-ABWeCFGT  DFHJVZ 0 0
-71 20 10d40+7000 10d30+800 10d5+40
--30 -24 -30 -40 -20
-CEFKNU AB TPKIL 0
-stand stand male 5000
-ABCDEFG 0 medium 0
+ABWeCFGT  DFHJVZ 71
 
 #20060
 ruh dehþet ejderhasý~
@@ -261,12 +225,7 @@ Dehþet ejderhasýnýn ruhu burada.
 within his full nothingnes and anger, being killed, hunted.
 ~
 dragon~
-ABWeCFGT  DFHJVZ 0 0
-110 20 10d99+29000 10d50+2000 20d10+150 pierce
--150 -150 -150 -151
-CEFKNU ABHQY TPKIL 0
-stand stand male 5000
-ABCDEFG 0 medium 0
+ABWeCFGT  DFHJVZ 110
 
 #20000
 muhafýz bahçe~
@@ -275,12 +234,7 @@ Bahçenin muhafýzý burada.
 ~
 ~
 human~
-ABWe  DFHJVZ 0 0
-80 20 10d99+21000 10d50+2000 10d10+100 pierce
--150 -150 -150 -151
-CEFKNU ABHQY TPKIL J
-stand stand male 5000
-A 0 medium 0
+ABWe  DFHJVZ 80
 #20001
 muhafýz cehennem yolu~
 Yolun muhafýzý~
@@ -288,12 +242,7 @@ Cehennem yolunun muhafýzý burada.
 ~
 ~
 human~
-ABWe  DFHJVZ 0 0
-91 20 10d99+21000 10d50+2000 10d10+100 pierce
--150 -150 -150 -151
-CEFKNU ABHQY TPKIL J
-stand stand male 5000
-A 0 medium 0
+ABWe  DFHJVZ 91
 
 #20002
 jonny ruh jonnynin ruhu~
@@ -302,12 +251,7 @@ Jonny'nin ruhu burada.
 ~
 ~
 unique~
-ABWe  DFHJVZ 0 0
-91 20 10d99+21000 10d50+2000 10d10+100 pierce
--50 -50 -50 -51
-CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
-stand stand male 5000
-A 0 medium 0
+ABWe  DFHJVZ 91
 
 #20003
 ruh kowenno kowennonun ruhu~
@@ -316,12 +260,7 @@ Kowenno'nun ruhu burada.
 ~
 ~
 unique~
-ABWe  DFHJVZ 0 0
-91 20 10d99+21000 10d50+2000 10d10+100 pierce
--50 -50 -50 -51
-CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
-stand stand male 5000
-A 0 medium 0
+ABWe  DFHJVZ 91
 
 #20004
 ruh kalel kalelin ruhu~
@@ -330,12 +269,7 @@ Kalel'in ruhu burada.
 ~
 ~
 unique~
-ABWe  DFHJVZ 0 0
-91 20 10d99+21000 10d50+2000 10d10+100 pierce
--50 -50 -50 -51
-CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
-stand stand male 5000
-A 0 medium 0
+ABWe  DFHJVZ 91
 
 #20005
 ruh thenor thenorun ruhu~
@@ -344,12 +278,7 @@ Thenor'un ruhu burada.
 ~
 ~
 unique~
-ABWe  DFHJVZ 0 0
-91 20 10d99+21000 10d50+2000 10d10+100 pierce
--50 -50 -50 -51
-CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
-stand stand male 5000
-A 0 medium 0
+ABWe  DFHJVZ 91
 
 #20006
 ruh neruda nerudanýn ruhu~
@@ -358,12 +287,7 @@ Neruda'nýn ruhu burada.
 ~
 ~
 unique~
-ABWe  DFHJVZ 0 0
-91 20 10d99+21000 10d50+2000 10d10+100 pierce
--50 -50 -50 -51
-CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
-stand stand male 5000
-A 0 medium 0
+ABWe  DFHJVZ 91
 
 #20007
 ruh coni coninin ruhu~
@@ -372,12 +296,7 @@ Coni'nin ruhu burada.
 ~
 ~
 unique~
-ABWe  DFHJVZ 0 0
-91 20 10d99+21000 10d50+2000 10d10+100 pierce
--50 -50 -50 -51
-CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
-stand stand male 5000
-A 0 medium 0
+ABWe  DFHJVZ 91
 #20008
 ruh takasi takasinin ruhu~
 Takasi'nin ruhu~
@@ -385,12 +304,7 @@ Takasi'nin ruhu burada.
 ~
 ~
 unique~
-ABWe  DFHJVZ 0 0
-91 20 10d99+21000 10d50+2000 10d10+100 pierce
--50 -50 -50 -51
-CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
-stand stand male 5000
-A 0 medium 0
+ABWe  DFHJVZ 91
 
 #20009
 ruh rasputin rasputinin ruhu~
@@ -399,12 +313,7 @@ Rasputin'in ruhu burada.
 ~
 ~
 unique~
-ABWe  DFHJVZ 0 0
-91 20 10d99+21000 10d50+2000 10d10+100 pierce
--50 -50 -50 -51
-CEFKNU ABCDEFGHIJKLMNOPQRSTXYZ TPKIL J
-stand stand male 5000
-A 0 medium 0
+ABWe  DFHJVZ 91
 
 
 #0
