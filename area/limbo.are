@@ -647,9 +647,9 @@ potion G AO
 1 'detect invis' '' '' ''
 0 10 0 P
 #44
-potion golden~
-a golden potion~
-A golden vial shines on the ground.~
+altýn iksir~
+altýn bir iksir~
+Altýn bir iksir yerde parlýyor.~
 glass~
 potion G AO
 1 'frenzy' '' '' ''

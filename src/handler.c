@@ -265,12 +265,12 @@ void familya_check_improve(CHAR_DATA* ch,CHAR_DATA* victim)
 		return;
 	if(ch->pcdata->familya[victim->race] >= 100)
 		return;
-	chance = 10 * int_app[get_curr_stat(ch,STAT_INT)].learn;
+	chance = 3 * int_app[get_curr_stat(ch,STAT_INT)].learn;
 
 	if(number_range(1,10000) > chance)
 		return;
 	ch->pcdata->familya[victim->race]++;
-	printf_to_char(ch,"{G%s ýrkýna iliþkin irfanýn artýyor.{x\n\r",race_table[victim->race].name[1]);
+	printf_to_char(ch,"{g%s ýrkýna iliþkin irfanýn artýyor!{x\n\r",race_table[victim->race].name[1]);
 	return;
 }
 
@@ -736,6 +736,13 @@ void reset_char(CHAR_DATA *ch)
     /* make sure sex is RIGHT! */
     if (ch->sex < 0 || ch->sex > 2)
 	ch->sex = ch->pcdata->true_sex;
+
+  if (IS_SET(ch->act,PLR_GHOST))
+  {
+    ch->pcdata->ghost_mode_counter = 0;
+    REMOVE_BIT(ch->act,PLR_GHOST);
+    printf_to_char(ch,"{cArtýk bir hayalet deðilsin. Arkaný kollasan iyi olur!{x\n\r");
+  }
 
 }
 

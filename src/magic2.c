@@ -4383,7 +4383,7 @@ void spell_insanity ( int sn, int level, CHAR_DATA *ch, void *vo , int target)
     af.modifier  = 0;
     af.bitvector = AFF_BLOODTHIRST;
     affect_to_char( victim, &af );
-    send_to_char( "Bir battlerager kadar saldýrgansýn.\n\r", victim );
+    send_to_char( "Bir Öfke Kabalý üyesi kadar saldýrgansýn.\n\r", victim );
     act("$n kýzýl gözlerle bakýyor.",victim,NULL,NULL,TO_ROOM);
     return;
 }

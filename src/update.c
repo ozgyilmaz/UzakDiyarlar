@@ -174,14 +174,9 @@ void advance_level( CHAR_DATA *ch )
     ch->pcdata->perm_mana	+= add_mana;
     ch->pcdata->perm_move	+= add_move;
 
-    sprintf( buf,
-      "Kazancýn: %d/%d yp, %d/%d mana, %d/%d hp %d/%d pratik.\n\r",
-	add_hp,		ch->max_hit,
-	add_mana,	ch->max_mana,
-	add_move,	ch->max_move,
-	add_prac,	ch->practice
-	);
-    send_to_char( buf, ch );
+
+    printf_to_char( ch, "{GKazancýn: %d/%d yp, %d/%d mana, %d/%d hp %d/%d pratik.{x\n\r" ,add_hp,		ch->max_hit,
+  	add_mana,	ch->max_mana,add_move,	ch->max_move,add_prac,	ch->practice);
     return;
 }
 
@@ -198,11 +193,7 @@ void gain_exp( CHAR_DATA *ch, int gain )
     send_to_char( "Ruhun olmadan tecrübe kazanamazsýn.\n\r", ch );
 	 return;
 	}
-  if ( IS_SET(ch->act,PLR_NO_DESCRIPTION) )
-{
-  send_to_char( "En az 350 karakterlik tanýmýn olmadan TP kazanamazsýn.\n\r", ch );
- return;
-}
+
 /*
     ch->exp = UMAX( exp_per_level(ch,ch->pcdata->points), ch->exp + gain );
     while ( ch->level < LEVEL_HERO && ch->exp >=
@@ -1142,7 +1133,7 @@ void char_update( void )
     {
       REMOVE_BIT(ch->act,PLR_GHOST);
       ch->pcdata->ghost_mode_counter = 0;
-      send_to_char("Artýk bir hayalet deðilsin. Arkaný kollasan iyi olur!\n\r",ch);
+      printf_to_char(ch,"{cArtýk bir hayalet deðilsin. Arkaný kollasan iyi olur!{x\n\r");
     }
 
   }
@@ -1874,8 +1865,10 @@ void aggr_update( void )
 
 	if ( wch->cabal != CABAL_NONE && IS_NPC(wch))
 	{
+    bugf("wch: %s",(char*)wch->name);
 	    for ( ch = wch->in_room->people; ch != NULL; ch = ch_next )
 	    {
+        bugf("ch: %s",(char*)ch->name);
 		ch_next	= ch->next_in_room;
 		if ( !IS_NPC(ch)
 		&& !IS_IMMORTAL(ch)
@@ -1883,6 +1876,7 @@ void aggr_update( void )
 		&& ch->fighting == NULL )
 
 		    multi_hit(wch, ch, TYPE_UNDEFINED);
+        bug("fight",0);
 
 	    }
 	    continue;
