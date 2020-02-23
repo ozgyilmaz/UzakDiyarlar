@@ -9,7 +9,7 @@
  * Discord : https://discord.gg/kXyZzv                                     *
  *                                                                         *
  ***************************************************************************/
- 
+
 /***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
@@ -94,7 +94,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
 
     if ( ch->cabal == CABAL_BATTLE )
     {
-      send_to_char( "Sen BattleRager kabalý üyesisin, pis bir büyücü deðil.\n\r",ch );
+      send_to_char( "Sen Öfke Kabalý üyesisin, pis bir büyücü deðil!\n\r",ch );
         return;
     }
 

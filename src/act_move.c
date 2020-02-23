@@ -234,6 +234,18 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
 	return;
     }
 
+    if (IS_SET(to_room->area->area_flag, AREA_CABAL) && !IS_NPC(ch) && IS_SET(ch->act,PLR_GHOST))
+    {
+      send_to_char( "Orasý bir kabal bölgesi ve hayaletlerin girmesine izin verilmiyor.\n\r", ch );
+	return;
+    }
+
+    if (IS_SET(to_room->area->area_flag, AREA_CABAL) && !IS_NPC(ch) && (ch->level < 20))
+    {
+      send_to_char( "Orasý bir kabal bölgesi. 20. seviyeden önce oraya girmesen iyi olur. Tabii senin için...\n\r", ch );
+	return;
+    }
+
     if (MOUNTED(ch))
     {
         if (MOUNTED(ch)->position < POS_FIGHTING)
@@ -423,7 +435,6 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
   act("$n $M sürerek geldi.", ch, NULL, mount,TO_ROOM );
 else act( "$n geldi.", ch, NULL, NULL, TO_ROOM );
       }
-
     do_look( ch, (char*)"auto" );
 
     if (mount)
@@ -437,14 +448,14 @@ else act( "$n geldi.", ch, NULL, NULL, TO_ROOM );
     if (in_room == to_room) /* no circular follows */
 	return;
 
-
     for (fch = to_room->people,room_has_pc = FALSE;fch != NULL; fch = fch_next)
       {
         fch_next = fch->next_in_room;
         if (!IS_NPC(fch))
+        {
           room_has_pc = TRUE;
+          }
       }
-
     for (fch = to_room->people;fch!=NULL;fch = fch_next) {
       fch_next = fch->next_in_room;
 
@@ -458,7 +469,9 @@ else act( "$n geldi.", ch, NULL, NULL, TO_ROOM );
 
       /* greet programs for npcs  */
       if (room_has_pc && IS_SET(fch->progtypes,MPROG_GREET))
+      {
         (fch->pIndexData->mprogs->greet_prog) (fch,ch);
+      }
     }
 
     /* entry programs for items */
@@ -3183,7 +3196,7 @@ void do_crecall( CHAR_DATA *ch, char *argument )
 	point =	ROOM_VNUM_BATTLE;
       }
 
-      act("$n anýmsama için Battleragers lorduna dua ediyor!", ch, 0,0, TO_ROOM );
+      act("$n anýmsama için Öfke Kabalý lorduna dua ediyor!", ch, 0,0, TO_ROOM );
 
     if ( ( location = get_room_index(point ) )== NULL )
     {

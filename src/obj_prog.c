@@ -9,7 +9,7 @@
  * Discord : https://discord.gg/kXyZzv                                     *
  *                                                                         *
  ***************************************************************************/
- 
+
 /***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT		           *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
@@ -597,12 +597,12 @@ void fight_prog_sub_weapon(OBJ_DATA *obj, CHAR_DATA *ch)
   if (is_wielded_char(ch,obj) && number_percent() < 30)
     {
       if ( ((float) ch->hit)/((float) ch->max_hit) > 0.9)
-      send_to_char("Silahýn fýsýldýyor 'Ýyi iþ çýkarýyorsun!'.\n\r",ch);
+      printf_to_char(ch,"Silahýn fýsýldýyor '{yÝyi iþ çýkarýyorsun!{x'.\n\r");
           else if ( ((float) ch->hit)/((float) ch->max_hit) > 0.6)
-    	send_to_char("Silahýn fýsýldýyor 'Böyle devam et!'.\n\r",ch);
+    	printf_to_char(ch,"Silahýn fýsýldýyor '{yBöyle devam et!{x'.\n\r");
           else if ( ((float) ch->hit)/((float) ch->max_hit) > 0.4)
-    	  send_to_char( "Silahýn fýsýldýyor 'Baþarabilirsin!'.\n\r",ch);
-          else send_to_char("Silahýn fýsýldýyor 'Kaç! Kaç!'.\n\r",ch);
+    	  printf_to_char(ch,"Silahýn fýsýldýyor '{yBaþarabilirsin!{x'.\n\r");
+          else printf_to_char(ch,"Silahýn fýsýldýyor '{yKaç! Kaç!{x'.\n\r");
     }
 }
 

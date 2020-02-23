@@ -9,7 +9,7 @@
  * Discord : https://discord.gg/kXyZzv                                     *
  *                                                                         *
  ***************************************************************************/
- 
+
 /***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
@@ -1900,10 +1900,12 @@ void do_cb( CHAR_DATA *ch, char *argument )
     else
       strcpy(buf2,argument);
 
-    ch->pcdata->rk_puani -= 2;
+    if(!IS_NPC(ch))
+      ch->pcdata->rk_puani -= 2;
 
    if (!is_affected(ch, gsn_deafen))
      act_color(buf, ch, argument, NULL, TO_CHAR,POS_DEAD, CLR_BROWN);
+
     for ( d = descriptor_list; d != NULL; d = d->next )
     {
 	if ( d->connected == CON_PLAYING &&
