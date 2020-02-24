@@ -9,7 +9,7 @@
  * Discord : https://discord.gg/kXyZzv                                     *
  *                                                                         *
  ***************************************************************************/
- 
+
 /***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
@@ -2595,11 +2595,18 @@ void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
 	    continue;
 	}
 
-
-	xp = xp_compute( gch, victim, group_levels,members );
-	sprintf( buf, "{G%d tecrübe puaný kazandýn.{x\n\r", xp );
+  if ( IS_SET(ch->act,PLR_NO_DESCRIPTION) )
+{
+  printf_to_char( ch,"{rEn az 350 karakterlik tanýmýn olmadan TP kazanamazsýn!{x\n\r" );
+}
+else
+{
+  xp = xp_compute( gch, victim, group_levels,members );
+	sprintf( buf, "{g%d tecrübe puaný kazandýn.{x\n\r", xp );
 	send_to_char( buf, gch );
 	gain_exp( gch, xp );
+}
+
 
 	for ( obj = ch->carrying; obj != NULL; obj = obj_next )
 	{

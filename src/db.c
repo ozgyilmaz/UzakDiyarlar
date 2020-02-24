@@ -1808,6 +1808,8 @@ void reset_area( AREA_DATA *pArea )
 CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )
 {
     CHAR_DATA *mob;
+    AFFECT_DATA af;
+    int i;
 
     mobile_count++;
 
@@ -1852,20 +1854,6 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )
     mob->silver = wealth - (mob->gold * 100);
   }
 
-  mob = create_ud_format_mobile( mob, pMobIndex );
-
-  /* link the mob to the world list */
-  mob->next		= char_list;
-  char_list		= mob;
-  pMobIndex->count++;
-  return mob;
-}
-
-CHAR_DATA * create_ud_format_mobile(CHAR_DATA *mob,MOB_INDEX_DATA *pMobIndex)
-{
-  AFFECT_DATA af;
-  int i;
-
   mob->act 		= pMobIndex->act | ACT_IS_NPC;
   mob->comm		= COMM_NOCHANNELS|COMM_NOSHOUT|COMM_NOTELL;
   mob->affected_by	= pMobIndex->affected_by;
@@ -1893,14 +1881,14 @@ CHAR_DATA * create_ud_format_mobile(CHAR_DATA *mob,MOB_INDEX_DATA *pMobIndex)
   for (i = 0; i < 4; i++)
     mob->armor[i]	= pMobIndex->ac[i];
   mob->armor[AC_PIERCE]	= ac_dice(AC_PIERCE,pMobIndex->level);
-	mob->armor[AC_BASH]		= ac_dice(AC_BASH,pMobIndex->level);
-	mob->armor[AC_SLASH]		= ac_dice(AC_SLASH,pMobIndex->level);
-	mob->armor[AC_EXOTIC]	= ac_dice(AC_EXOTIC,pMobIndex->level);
+  mob->armor[AC_BASH]		= ac_dice(AC_BASH,pMobIndex->level);
+  mob->armor[AC_SLASH]		= ac_dice(AC_SLASH,pMobIndex->level);
+  mob->armor[AC_EXOTIC]	= ac_dice(AC_EXOTIC,pMobIndex->level);
 
   mob->off_flags		= race_table[pMobIndex->race].off;
-	mob->imm_flags		= race_table[pMobIndex->race].imm;
-	mob->res_flags		= race_table[pMobIndex->race].res;
-	mob->vuln_flags		= race_table[pMobIndex->race].vuln;
+  mob->imm_flags		= race_table[pMobIndex->race].imm;
+  mob->res_flags		= race_table[pMobIndex->race].res;
+  mob->vuln_flags		= race_table[pMobIndex->race].vuln;
 
   mob->start_pos		= position_dice();
   mob->default_pos		= position_dice();
@@ -1911,7 +1899,6 @@ CHAR_DATA * create_ud_format_mobile(CHAR_DATA *mob,MOB_INDEX_DATA *pMobIndex)
   mob->parts		= race_table[pMobIndex->race].parts;
   mob->size		= race_table[pMobIndex->race].size;
   mob->material		= str_dup("none");
-  mob->progtypes		= 0;
   mob->extracted		= FALSE;
   mob = mob_assign_perm_stats(mob);
 
@@ -1965,9 +1952,11 @@ CHAR_DATA * create_ud_format_mobile(CHAR_DATA *mob,MOB_INDEX_DATA *pMobIndex)
   }
 
   mob->position = mob->start_pos;
-  if (mob->gold > mob->level)
-    mob->gold = dice(6, mob->level);
 
+  /* link the mob to the world list */
+  mob->next		= char_list;
+  char_list		= mob;
+  pMobIndex->count++;
   return mob;
 }
 

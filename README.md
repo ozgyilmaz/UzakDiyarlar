@@ -43,7 +43,7 @@ Uzak Diyarlar 2.0b1
 - [HATA DÜZELTME] Görev kemerindeki çeviri sıkıntısı giderildi.
 - [HATA DÜZELTME] "bir ejderhanın alevden nefesi" isimli eşyanın parmağa giyilememesi sorunu giderildi.
 - [HATA DÜZELTME] Irk ve sınıf seçim ekranlarındaki kaymalar ve sıkıntılar giderildi.
-- Öldükten sonra hayalet haline geçilmesi ile ışık ve sala ihtiyaç duyulmaması.
+- Öldükten sonra hayalet haline geçilmesi ile ışık ve sala ihtiyaç duyulmaması. 20 dakika süren hayalet modundan çıkmak için oyuncu ayrılıp tekrar girebilir.
 - Irkların yönelimleri kaldırıldı. Her ırk her yönelimden olabilecek.
 - "görev bilgi" komutunun oda ve bölge bilgisi vermesi sağlandı.
 - KDG kanalı RK'ya engel olduğu için kaldırıldı.
@@ -76,3 +76,8 @@ Uzak Diyarlar 2.0b1
 - Tüm ırklar tüm sınıfları seçebilir hale getirildi.
 - Samuray ırkının gücü ve çevikliği 1 düşürüldü.
 - Room 1 norecall yapıldı.
+- Kabal bölgesi flagi (AREA_CABAL)
+- Hayaletlerin kabal bölgesine girmesi engelleniyor.
+- Seviye 20 altındakilerin kabal bölgesine girmesi engelleniyor.
+- Dövüş sırasında rakip ırk hakkında bilgi artırma şansı düşürüldü.
+- Bazı komutların PLR_GHOST iken kullanılabilmesi sağlandı.

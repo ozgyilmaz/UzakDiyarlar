@@ -962,6 +962,7 @@ struct	kill_data
  */
 #define AREA_HOMETOWN		(A)
 #define AREA_PROTECTED		(B)
+#define AREA_CABAL		(C)
 
 
 /*
@@ -3134,7 +3135,6 @@ void write_channel_log args( (CD *ch, CD *vc, int kanal, char *argument) );
 char *	print_flags	args( ( int flag ));
 void	boot_db		args( ( void ) );
 CD *	create_mobile	args( ( MOB_INDEX_DATA *pMobIndex ) );
-CD * 	create_ud_format_mobile args( (CHAR_DATA *mob,MOB_INDEX_DATA *pMobIndex) );
 CD *	mob_assign_perm_stats	args( ( CHAR_DATA *mob ) );
 void	clone_mobile	args( ( CHAR_DATA *parent, CHAR_DATA *clone) );
 OD *	create_object	args( ( OBJ_INDEX_DATA *pObjIndex, int level ) );

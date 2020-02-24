@@ -9,7 +9,7 @@
  * Discord : https://discord.gg/kXyZzv                                     *
  *                                                                         *
  ***************************************************************************/
- 
+
 /***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
@@ -1248,7 +1248,7 @@ void damage_to_obj(CHAR_DATA *ch,OBJ_DATA *wield, OBJ_DATA *worn, int damage)
  worn->condition -= damage;
 
  act_color("$C$p $P üzerine hasar býrakýyor.$c",
-	ch,wield,worn,TO_ROOM,POS_RESTING,CLR_GREEN);
+	ch,wield,worn,TO_ROOM,POS_RESTING,CLR_RED);
 
  if (worn->condition < 1)
 	{

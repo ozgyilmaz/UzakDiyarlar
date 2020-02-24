@@ -2676,7 +2676,7 @@ void do_quaff( CHAR_DATA *ch, char *argument )
 
     if (ch->cabal == CABAL_BATTLE && !IS_IMMORTAL(ch))
     {
-      send_to_char("Sen bir BattleRager'sýn, pis bir büyücü deðil!\n\r",ch);
+      send_to_char("Sen Öfke Kabalý üyesisin, pis bir büyücü deðil!\n\r",ch);
       return;
     }
 
@@ -2740,7 +2740,7 @@ void do_recite( CHAR_DATA *ch, char *argument )
     if ( ch->cabal == CABAL_BATTLE )
     {
 	send_to_char(
-	"Parþömen okumak?!  Sen bir BattleRager'sýn, pis bir büyücü deðil!\n\r", ch );
+	"Parþömen okumak?!  Sen Öfke Kabalý üyesisin, pis bir büyücü deðil!\n\r", ch );
 	return;
     }
 

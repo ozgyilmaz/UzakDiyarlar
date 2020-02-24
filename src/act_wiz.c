@@ -9,7 +9,7 @@
  * Discord : https://discord.gg/kXyZzv                                     *
  *                                                                         *
  ***************************************************************************/
- 
+
 /***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *

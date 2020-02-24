@@ -1937,7 +1937,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	  obj_count2 += get_obj_realnumber(obj);
 
 
-	sprintf( log_buf, "%s@%s has connected.", ch->name, d->host );
+	sprintf( log_buf, "%s@%s baglandi.", ch->name, d->host );
 	log_string( log_buf );
 
 

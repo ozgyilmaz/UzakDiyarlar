@@ -9,7 +9,7 @@
  * Discord : https://discord.gg/kXyZzv                                     *
  *                                                                         *
  ***************************************************************************/
- 
+
 /***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
@@ -326,7 +326,7 @@ struct cabal_type cabal_table [] =
   { "Ýstilacýlar",	"istila",	561,568,NULL	},
   { "Karmaþanýn efendileri", 		"kaos",	552,554,NULL	},
   { "Büyü sanatlarýnýn efendileri", 	"týlsým",	531,530,NULL 	},
-  { "DDövüþ sanatlarýnýn efendileri",	"öfke",	541,548,NULL 	},
+  { "Dövüþ sanatlarýnýn efendileri",	"öfke",	541,548,NULL 	},
   { "Þövalyeler", 		"þövalye",	522,524,NULL 	},
   { "Ormanlarýn efendileri", 		"aslan",		502,504,NULL 	},
   { "Tüccarlar",	"avcý",	571,573,NULL 	}

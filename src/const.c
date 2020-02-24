@@ -6168,7 +6168,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
 	{1,1,1,1,1,1,1,1,1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_STANDING,
         &gsn_bandage,     SLOT(0),        0,      0,
-	"",        "You feel less healthy.", 	"",	CABAL_BATTLE,
+	"",        "Daha az saðlýklý hissediyorsun.", 	"",	CABAL_BATTLE,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
