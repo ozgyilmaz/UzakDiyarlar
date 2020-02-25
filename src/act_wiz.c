@@ -627,9 +627,9 @@ void do_outfit ( CHAR_DATA *ch, char *argument )
     obj->condition = 100;
     obj_to_char( obj, ch );
 
-    send_to_char("You have been given some equipments by gods.\n\r",ch);
-    send_to_char("Type 'inventory' to see the list of the objects that you are carrying.\n\r",ch);
-    send_to_char("Try 'wear <object name>' to wear the object.\n\r\n\r",ch);
+    send_to_char("Tanrýlar sana bazý eþyalar bahþediyor.\n\r",ch);
+    send_to_char("Taþýdýðýn eþyalarý görüntülemek için 'envanter' yaz.\n\r",ch);
+    send_to_char("Eþyalarýný giymek için 'giy <eþya adý>' yazmayý dene.\n\r\n\r",ch);
 }
 
 
