@@ -362,7 +362,7 @@ D3
 Bina þehir dýþýndan gelenler için yapýlmýþ bir hediye dükkaný imiþ.
 ~
 kapý~
-2 -1 8205
+1 -1 8205
 D5
 Bulanýk sudaki parýldayan bozukluklar görüyorsun.
 ~
@@ -421,7 +421,7 @@ D1
 Kapý aralýðýndan Hayvanat Bahçesi kuyusunu görüyorsun.
 ~
 kapý~
-2 -1 8201
+1 -1 8201
 E
 iþaret tabela~
 +----------------------+
@@ -551,7 +551,7 @@ Sayýsýz yunus görebiliyorsun kafesin ardýnda, birbirleriyle suda oyun
 oynuyorlar.
 ~
 kafes kapý~
-2 8200 8217
+1 8200 8217
 S
 #8211
 Goril Kafesi~
@@ -563,7 +563,7 @@ D2
 Kafesin hemen dýþýnda küçük bir patika görüyorsun.
 ~
 kafes kapý~
-2 8200 8208
+1 8200 8208
 S
 #8212
 Ayý Kafesi~
@@ -576,7 +576,7 @@ D0
 Kafesin dýþýnda küçük bir patika görüyorsun.
 ~
 kafes kapý~
-2 8200 8208
+1 8200 8208
 S
 #8213
 Patikada bir kývrým~
