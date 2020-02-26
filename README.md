@@ -74,7 +74,7 @@ Uzak Diyarlar 2.0b1
 - Gamayun ırkının çevikliği düşürüldü.
 - Asura ırkının zekası ve çevikliği yükseltildi.
 - Tüm ırklar tüm sınıfları seçebilir hale getirildi.
-- Samuray ırkının gücü ve çevikliği 1 düşürüldü.
+- Samuray sınıfının gücü ve çevikliği 1 düşürüldü.
 - Room 1 norecall yapıldı.
 - Kabal bölgesi flagi (AREA_CABAL)
 - Hayaletlerin kabal bölgesine girmesi engelleniyor.
