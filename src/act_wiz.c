@@ -5548,7 +5548,7 @@ void reboot_uzakdiyarlar( bool fmessage )
     {
 	d_next = d->next;
 	if (fmessage)
-	   write_to_buffer(d,"Anatolia is going down for rebooting NOW!\n\r",0);
+	   write_to_buffer(d,"***** UD ŞİMDİ YENİDEN BAŞLATILIYOR! *****\n\r",0);
         if (d->character != NULL)
 	{
 	   update_total_played(d->character);
