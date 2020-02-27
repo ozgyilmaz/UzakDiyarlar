@@ -1081,7 +1081,7 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
      return;
     }
 
-    send_to_char("GÖREV KOMUTLARI: puan bilgi zaman iste bitti iptal liste özellk satýnal sigorta.\n\r",ch);
+    send_to_char("GÖREV KOMUTLARI: puan bilgi zaman iste bitti iptal liste özellik satýnal sigorta.\n\r",ch);
     send_to_char("Daha fazla bilgi için: yardým görev.\n\r",ch);
     return;
 }
