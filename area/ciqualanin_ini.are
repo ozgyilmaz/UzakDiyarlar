@@ -605,11 +605,11 @@ You think that drinking the contents of any might have undesireable effects.
 D0
 ~
 celldoor~
-2 13404 13408
+1 13404 13408
 D1
 ~
 celldoor~
-2 13404 13407
+1 13404 13407
 D2
 ~
 door~
@@ -644,7 +644,7 @@ the experiments they are working on.
 D3
 ~
 celldoor~
-2 13404 13405
+1 13404 13405
 S
 #13408
 Çalýþma Hücresi~
@@ -656,7 +656,7 @@ the experiments they are working on.
 D2
 ~
 celldoor~
-2 13404 13405
+1 13404 13405
 S
 #13409
 Gardiyan odasý~
@@ -684,7 +684,7 @@ room is also as cold as all the others were.
 D0
 ~
 door~
-2 13405 13411
+1 13405 13411
 D1
 ~
 door~
@@ -709,7 +709,7 @@ British's castle if you examine the map more closely.
 D2
 ~
 door~
-2 13405 13410
+1 13405 13410
 E
 map~
 As you reach for a map to examine it closer, it bursts into ice cold flames and
@@ -813,7 +813,7 @@ D0
 D2
 ~
 tapestry~
-2 13406 13418
+1 13406 13418
 S
 #13418
 Ciquala'nýn Ganimet Salonu~
@@ -826,7 +826,7 @@ slightly disturbed.
 D0
 ~
 tapestry~
-2 13406 13417
+1 13406 13417
 D5
 The stone appears to hide a secret passage going down.~
 stone~

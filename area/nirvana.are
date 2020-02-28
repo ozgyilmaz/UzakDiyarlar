@@ -305,7 +305,7 @@ D3
 A great door lies to the west
 ~
 door~
-2 -1 9013
+1 -1 9013
 S
 #9008
 A hallway in the Tower of Nirvana~
@@ -317,7 +317,7 @@ D1
 A great door lies to the east
 ~
 door~
-2 -1 9012
+1 -1 9012
 D3
 the hallway continues west into oblivion.
 ~
@@ -398,7 +398,7 @@ D3
 A mighty door lies to the west
 ~
 door~
-2 -1 9008
+1 -1 9008
 E
 sign~
 The sign reads:
@@ -422,7 +422,7 @@ D1
 A mighty door sits to the east
 ~
 door~
-2 0 9007
+1 0 9007
 D2
 The plane continues to the south as far as the eye can see
 ~
@@ -656,7 +656,7 @@ D0
 you see a massive door
 ~
 door~
-2 0 9031
+1 0 9031
 D1
 To the east, you spy a dark passage
 ~
@@ -746,7 +746,7 @@ D2
 A large door blocks the way to the south.
 ~
 door~
-2 0 9026
+1 0 9026
 D3
 looking west, you see more of the passage.
 ~

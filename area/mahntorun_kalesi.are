@@ -2863,7 +2863,7 @@ hiç þüphen yok, kýrmýzý bir kapý doðuya doðru açýlýyor.
 D1
 ~
 kýrmýzý~
-2 2351 2388
+1 2351 2388
 E
 kýrmýzý~
 Koridora açýlan kýrmýzý kapý.
@@ -2880,7 +2880,7 @@ açýlmakta.
 D1
 ~
 siyah~
-2 2352 2389
+1 2352 2389
 E
 siyah~
 Siyah bir kapý koridora açýlmakta.
@@ -2896,7 +2896,7 @@ kutsal bir görünüm vermekte. Ýyiliðin bir savaþçýsý veya kulunun burada yaþadýðý
 D1
 ~
 beyaz~
-2 2353 2392
+1 2353 2392
 E
 beyaz~
 Beyaz bir kapý koridora açýlmakta.
@@ -3089,7 +3089,7 @@ birleþtirmekte. Geniþ altýn bir kapý batýda dururken, doðuda ise geniþ taþtan bi
 D1
 ~
 kapý büyük taþ~
-2 2359 2386
+1 2359 2386
 D3
 ~
 altýn gizli~
@@ -3121,7 +3121,7 @@ D2
 D3
 ~
 kapý büyük taþ~
-2 2359 2385
+1 2359 2385
 E
 kapý büyük taþ~
 Kocaman taþtan yapýlmýþ bir kapý...
@@ -3158,7 +3158,7 @@ D0
 D1
 ~
 sarý~
-2 2355 2390
+1 2355 2390
 D2
 ~
 ~
@@ -3166,7 +3166,7 @@ D2
 D3
 ~
 kýrmýzý~
-2 2351 2372
+1 2351 2372
 E
 sarý~
 Üzerinde "Sumaron" yazan sarý bir kapý burada duruyor.
@@ -3191,7 +3191,7 @@ D0
 D1
 ~
 maron~
-2 2356 2391
+1 2356 2391
 D2
 ~
 ~
@@ -3199,7 +3199,7 @@ D2
 D3
 ~
 siyah~
-2 2352 2373
+1 2352 2373
 E
 Maron renkli~
 Üzerinde "Amyrok" yazan maron renkli bir kapý burada duruyor.
@@ -3219,7 +3219,7 @@ ermiþin yaþadýðýndan eminsin. Batýda sarý bir kapý görüyorsun.
 D3
 ~
 sarý~
-2 2355 2388
+1 2355 2388
 E
 sarý~
 Koridora uzanan sarý bir kapý.
@@ -3236,7 +3236,7 @@ veriyor. Maron renkli bir kapý batýya doðru açýlýyor.
 D3
 ~
 maron~
-2 2356 2389
+1 2356 2389
 E
 maron renkli~
 Maron renkli kapý koridora açýlýyor.
@@ -3257,7 +3257,7 @@ D0
 D1
 ~
 yeþil~
-2 2357 2394
+1 2357 2394
 D2
 ~
 ~
@@ -3265,7 +3265,7 @@ D2
 D3
 ~
 beyaz~
-2 2353 2374
+1 2353 2374
 E
 yeþil~
 Üzerinde "Nasturn" yazan yeþil bir kapý.
@@ -3300,7 +3300,7 @@ iþaret etmekte. Yeþil bir kapý batýya doðru açýlýyor.
 D3
 ~
 yeþil~
-2 2357 2392
+1 2357 2392
 E
 yeþil~
 Yeþil kapý koridora doðru açýlýyor.
@@ -3352,11 +3352,11 @@ D0
 D1
 ~
 gri~
-2 2358 2398
+1 2358 2398
 D3
 ~
 kahverengi~
-2 2354 2399
+1 2354 2399
 E
 gri~
 Üzerinde "Dorgar" yazan gri bir kapý durmakta.
@@ -3376,7 +3376,7 @@ kapý batýya doðru açýlmakta.
 D3
 ~
 gri~
-2 2358 2397
+1 2358 2397
 E
 gri~
 Koridora çýkan kapý.
@@ -3392,7 +3392,7 @@ burada bir korucu yaþamakta. "Kahverengi" bir kapý doðuya doðru açýlmakta.
 D1
 ~
 kahverengi~
-2 2354 2397
+1 2354 2397
 E
 kahverengi~
 Koridora açýlan bir kapý.

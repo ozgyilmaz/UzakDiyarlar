@@ -1055,7 +1055,7 @@ D2
 The Blight stretches on to the south.
 ~
 circle~
-2 23025 24090
+1 23025 24090
 S
 #24000
 Koridor~
@@ -2463,7 +2463,7 @@ D2
 A large gilded door lies to the south.
 ~
 ~
-2 23013 24047
+1 23013 24047
 D3
 The hallway continues to the west.
 ~
@@ -2658,7 +2658,7 @@ D0
 A large golden door is set in the northern wall.
 ~
 ~
-2 23013 24043
+1 23013 24043
 S
 #23023
 Blight~
@@ -4839,7 +4839,7 @@ D0
 You just see mountains.
 ~
 circle~
-2 23025 23115
+1 23025 23115
 D1
 The Blight continues on to the east.
 ~
@@ -5599,7 +5599,7 @@ D2
 A large gilded door stands to the south.
 ~
 ~
-2 23014 23096
+1 23014 23096
 D3
 The hallway continues to the west.
 ~
@@ -5674,7 +5674,7 @@ D0
 A great gilded door lies to the north.
 ~
 ~
-2 23014 23092
+1 23014 23092
 S
 #23097
 Siperler~
