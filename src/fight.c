@@ -2526,107 +2526,104 @@ void raw_kill_org( CHAR_DATA *victim, int part )
 
 void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
 {
-    char buf[MAX_STRING_LENGTH];
-    CHAR_DATA *gch;
-    CHAR_DATA *lch;
-    int xp;
-    int members;
-    int group_levels;
+	char buf[MAX_STRING_LENGTH];
+	CHAR_DATA *gch;
+	CHAR_DATA *lch;
+	int xp;
+	int members;
+	int group_levels;
 
-    if ( victim == ch
-	 || (IS_NPC(victim) && victim->pIndexData->vnum < 100 ) )
-	return;
+	if ( victim == ch || (IS_NPC(victim) && victim->pIndexData->vnum < 100 ) )
+		return;
 
-/* quest */
+	/* quest */
+	if (IS_GOLEM(ch) && ch->master != NULL && ch->master->iclass == CLASS_NECROMANCER)
+		gch = ch->master;
+	else
+		gch = ch;
 
-    if (IS_GOLEM(ch) && ch->master != NULL
-	&& ch->master->iclass == CLASS_NECROMANCER)
-	gch = ch->master;
-    else gch = ch;
-    if (!IS_NPC(gch) && IS_QUESTOR(gch) && IS_NPC(victim))
-    {
-        if (gch->pcdata->questmob == victim->pIndexData->vnum)
-        {
-					send_to_char("Görevini neredeyse tamamladın!\n\r",gch);
-					send_to_char("Zamanın bitmeden önce görevciye dönmelisin!\n\r",gch);
-                gch->pcdata->questmob = -1;
-        }
-    }
-/* end quest */
-
-    if (!IS_NPC(victim))
-      return;
-
-    if (IS_NPC(victim) && (victim->master != NULL || victim->leader != NULL))
-      return;
-
-    members = 1;
-    group_levels = 0;
-    for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
-    {
-	if ( is_same_group( gch, ch ) )
-        {
-	    if (!IS_NPC(gch) && gch != ch)
-	      members++;
-	    group_levels += gch->level;
-	}
-    }
-
-    lch = (ch->leader != NULL) ? ch->leader : ch;
-
-    for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
-    {
-	OBJ_DATA *obj;
-	OBJ_DATA *obj_next;
-
-	if ( !is_same_group( gch, ch ) || IS_NPC(gch))
-	    continue;
-
-
-	if ( gch->level - lch->level > 8 )
+	if (!IS_NPC(gch) && IS_QUESTOR(gch) && IS_NPC(victim))
 	{
-		send_to_char("Seviyen bu gruba girebilmek için fazla.\n\r", gch );
-	    continue;
+		if (gch->pcdata->questmob == victim->pIndexData->vnum)
+		{
+			printf_to_char(gch,"{cGörevin neredeyse tamamlandı!\n\rZamanın bitmeden önce görevciye git!{x\n\r");
+			gch->pcdata->questmob = -1;
+		}
+	}
+	/* end quest */
+
+	if (!IS_NPC(victim))
+		return;
+
+	if (IS_NPC(victim) && (victim->master != NULL || victim->leader != NULL))
+		return;
+
+	members = 1;
+	group_levels = 0;
+	for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
+	{
+		if ( is_same_group( gch, ch ) )
+		{
+			if (!IS_NPC(gch) && gch != ch)
+				members++;
+			group_levels += gch->level;
+		}
 	}
 
-	if ( gch->level - lch->level < -8 )
+	lch = (ch->leader != NULL) ? ch->leader : ch;
+
+	for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
 	{
-		send_to_char( "Seviyen bu gruba girebilmek için az.\n\r", gch );
-	    continue;
-	}
+		OBJ_DATA *obj;
+		OBJ_DATA *obj_next;
 
-  if ( IS_SET(ch->act,PLR_NO_DESCRIPTION) )
-{
-  printf_to_char( ch,"{rEn az 350 karakterlik tanımın olmadan TP kazanamazsın!{x\n\r" );
-}
-else
-{
-  xp = xp_compute( gch, victim, group_levels,members );
-	sprintf( buf, "{g%d tecrübe puanı kazandın.{x\n\r", xp );
-	send_to_char( buf, gch );
-	gain_exp( gch, xp );
-}
+		if ( !is_same_group( gch, ch ) || IS_NPC(gch))
+			continue;
 
 
-	for ( obj = ch->carrying; obj != NULL; obj = obj_next )
-	{
-	    obj_next = obj->next_content;
-	    if ( obj->wear_loc == WEAR_NONE )
-		continue;
+		if ( gch->level - lch->level > 8 )
+		{
+			send_to_char("Seviyen bu gruba girebilmek için fazla.\n\r", gch );
+			continue;
+		}
 
-	    if ( ( IS_OBJ_STAT(obj, ITEM_ANTI_EVIL)    && IS_EVIL(ch)    )
-	    ||   ( IS_OBJ_STAT(obj, ITEM_ANTI_GOOD)    && IS_GOOD(ch)    )
-	    ||   ( IS_OBJ_STAT(obj, ITEM_ANTI_NEUTRAL) && IS_NEUTRAL(ch) ) )
-	    {
+		if ( gch->level - lch->level < -8 )
+		{
+			send_to_char( "Seviyen bu gruba girebilmek için az.\n\r", gch );
+			continue;
+		}
+
+		if ( IS_SET(ch->act,PLR_NO_DESCRIPTION) )
+		{
+			printf_to_char( ch,"{rEn az 350 karakterlik tanımın olmadan TP kazanamazsın!{x\n\r" );
+		}
+		else
+		{
+			xp = xp_compute( gch, victim, group_levels,members );
+			sprintf( buf, "{g%d tecrübe puanı kazandın.{x\n\r", xp );
+			send_to_char( buf, gch );
+			gain_exp( gch, xp );
+		}
+
+
+		for ( obj = ch->carrying; obj != NULL; obj = obj_next )
+		{
+			obj_next = obj->next_content;
+			if ( obj->wear_loc == WEAR_NONE )
+				continue;
+
+			if ( ( IS_OBJ_STAT(obj, ITEM_ANTI_EVIL)    && IS_EVIL(ch)    )
+			||   ( IS_OBJ_STAT(obj, ITEM_ANTI_GOOD)    && IS_GOOD(ch)    )
+			||   ( IS_OBJ_STAT(obj, ITEM_ANTI_NEUTRAL) && IS_NEUTRAL(ch) ) )
+			{
 				act( "Sen $p tarafından çarpıldın.", ch, obj, NULL, TO_CHAR );
 				act( "$n $p tarafından çarpıldı.",   ch, obj, NULL, TO_ROOM );
-		obj_from_char( obj );
-		obj_to_room( obj, ch->in_room );
-	    }
+				obj_from_char( obj );
+				obj_to_room( obj, ch->in_room );
+			}
+		}
 	}
-    }
-
-    return;
+	return;
 }
 
 

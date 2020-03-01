@@ -222,7 +222,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
     	fprintf( fp, "Desc %s~\n",	ch->description	);
     if (ch->prompt != NULL || !str_cmp(ch->prompt,"<%hhp %mm %vmv> "))
         fprintf( fp, "Prom %s~\n",      ch->prompt  	);
-    fprintf( fp, "Race %s~\n", pc_race_table[ORG_RACE(ch)].name[0] );
+    fprintf( fp, "Race %s~\n", race_table[ORG_RACE(ch)].name[0] );
     fprintf( fp, "Sex  %d\n",	ch->sex			);
     fprintf( fp, "Cla  %d\n",	ch->iclass		);
     fprintf( fp, "Levl %d\n",	ch->level		);

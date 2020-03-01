@@ -790,7 +790,7 @@ int get_max_train( CHAR_DATA *ch, int stat )
     if (IS_NPC(ch) || ch->level > LEVEL_IMMORTAL)
 	return 25;
 
-    max = (20 + pc_race_table[ORG_RACE(ch)].stats[stat] + /* ORG_RACE && RACE serdar*/
+    max = ( race_table[ORG_RACE(ch)].stats[stat] + /* ORG_RACE && RACE serdar*/
 		class_table[ch->iclass].stats[stat]);
 
     return UMIN(max,25);
@@ -807,7 +807,7 @@ int get_max_train2( CHAR_DATA *ch, int stat )
     if (IS_NPC(ch) || ch->level > LEVEL_IMMORTAL)
 	return 25;
 
-    max = (20 + pc_race_table[ORG_RACE(ch)].stats[stat] +
+    max = ( race_table[ORG_RACE(ch)].stats[stat] +
 		class_table[ch->iclass].stats[stat]);
 
     return UMIN(max,25);

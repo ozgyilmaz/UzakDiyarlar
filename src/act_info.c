@@ -396,9 +396,7 @@ void show_char_to_char_0( CHAR_DATA *victim, CHAR_DATA *ch )
 	&& ch->pcdata->questmob > 0
 	&& victim->pIndexData->vnum == ch->pcdata->questmob)
   {
-    strcat( buf, CLR_RED );
-		strcat( buf, "[hedef] ");
-		strcat( buf, CLR_WHITE );
+		strcat( buf, "{R[hedef]{x ");
 }
 /*
     sprintf(message,"(%s) ",race_table[RACE(victim)].name);
@@ -407,7 +405,7 @@ void show_char_to_char_0( CHAR_DATA *victim, CHAR_DATA *ch )
 */
     if ( RIDDEN(victim)  ) 			strcat( buf, "[binek] "     );
     if ( IS_AFFECTED(victim, AFF_INVISIBLE)   ) strcat( buf, "[görünmez] "      );
-    if ( IS_AFFECTED(victim,AFF_IMP_INVIS )   ) strcat( buf, "[GÖRÜNMEZ] "   );
+    if ( IS_AFFECTED(victim,AFF_IMP_INVIS )   ) strcat( buf, "[geliþmiþ] "   );
     if ( victim->invis_level >= LEVEL_HERO    ) strcat( buf, "[WiZ] "	     );
     if ( IS_AFFECTED(victim, AFF_HIDE)        ) strcat( buf, "[saklý] "       );
     if ( IS_AFFECTED(victim, AFF_FADE)        ) strcat( buf, "[solmuþ] "       );
@@ -415,22 +413,22 @@ void show_char_to_char_0( CHAR_DATA *victim, CHAR_DATA *ch )
     if ( CAN_DETECT(victim, ADET_EARTHFADE)   ) strcat( buf, "[arz] "      );
     if ( IS_AFFECTED(victim, AFF_CHARM)
 	&& victim->master == ch) 		strcat( buf, "[teshir] "    );
-    if ( IS_AFFECTED(victim, AFF_PASS_DOOR)   ) strcat( buf, "[yarýsaydam] ");
-    if ( IS_AFFECTED(victim, AFF_FAERIE_FIRE) ) strcat( buf, "[pembe aura] "  );
+    if ( IS_AFFECTED(victim, AFF_PASS_DOOR)   ) strcat( buf, "{W[yarýsaydam]{x ");
+    if ( IS_AFFECTED(victim, AFF_FAERIE_FIRE) ) strcat( buf, "{M[pembe aura]{x "  );
     if ( IS_NPC(victim) && IS_SET(victim->act,ACT_UNDEAD)
-    &&   CAN_DETECT(ch, DETECT_UNDEAD)     ) strcat( buf, "[hortlak] ");
+    &&   CAN_DETECT(ch, DETECT_UNDEAD)     ) strcat( buf, "{W[hortlak]{x ");
     if ( IS_EVIL(victim)
-    &&   CAN_DETECT(ch, DETECT_EVIL)     ) strcat( buf, "[kýzýl aura] "   );
+    &&   CAN_DETECT(ch, DETECT_EVIL)     ) strcat( buf, "{R[kýzýl aura]{x "   );
     if ( IS_GOOD(victim)
-    &&   CAN_DETECT(ch, DETECT_GOOD)     ) strcat( buf, "[altýn aura] ");
-    if ( IS_AFFECTED(victim, AFF_SANCTUARY)   ) strcat( buf, "[beyaz aura] " );
+    &&   CAN_DETECT(ch, DETECT_GOOD)     ) strcat( buf, "{Y[altýn aura]{x ");
+    if ( IS_AFFECTED(victim, AFF_SANCTUARY)   ) strcat( buf, "{W[beyaz aura]{x " );
     if ( !IS_NPC(victim) && IS_SET(victim->act, PLR_WANTED ) )
 						strcat( buf, "[SUÇLU] ");
 
     if ( victim->position == victim->start_pos && victim->long_descr[0] != '\0' )
     {
 	strcat( buf, victim->long_descr );
-	send_to_char( buf, ch );
+	printf_to_char( ch, "%s", buf );
 	return;
     }
 
@@ -2158,7 +2156,7 @@ void do_whois (CHAR_DATA *ch, char *argument)
 	      sprintf(buf, "[%2d %s %s] %s%s%s%s%s\n\r",
 		      wch->level,
 		      RACE(wch) < MAX_PC_RACE ?
-		        pc_race_table[RACE(wch)].who_name: "     ",
+		        race_table[RACE(wch)].who_name: "     ",
 		      classbuf,
 		      pk_buf,
 		      cabalbuf,
@@ -2171,7 +2169,7 @@ void do_whois (CHAR_DATA *ch, char *argument)
 	  sprintf( buf, "[%s %s    ] %s%s%s%s%s\n\r",
 		(get_curr_stat(wch, STAT_CHA) < 18 ) ? level_buf : "  ",
  		      RACE(wch) < MAX_PC_RACE ?
- 		        pc_race_table[RACE(wch)].who_name: "     ",
+ 		        race_table[RACE(wch)].who_name: "     ",
  		      ( (ch==wch && ch->level < PK_MIN_LEVEL) ||
  		        is_safe_nomessage(ch,wch) ) ?
  		       "" : "(OK) ",
@@ -2232,7 +2230,7 @@ void do_equipment( CHAR_DATA *ch, char *argument )
     int iWear;
     bool found;
 
-    send_to_char( "You are using:\n\r", ch );
+    send_to_char( "Ekipmanlarýn:\n\r", ch );
     found = FALSE;
     for ( iWear = 0; iWear < MAX_WEAR; iWear++ )
     {
@@ -2653,6 +2651,10 @@ void do_description( CHAR_DATA *ch, char *argument )
 	strcat( buf, "\n\r" );
 	free_string( ch->description );
 	ch->description = str_dup( buf );
+  if (!IS_NPC(ch) && (strlen(ch->description)>=350) && (IS_SET(ch->act, PLR_NO_DESCRIPTION)))
+    REMOVE_BIT(ch->act, PLR_NO_DESCRIPTION);
+    if (!IS_NPC(ch) && (strlen(ch->description)<350) && (!IS_SET(ch->act, PLR_NO_DESCRIPTION)))
+      SET_BIT(ch->act, PLR_NO_DESCRIPTION);
     }
 
     printf_to_char(ch, "Tanýmýn:\n\r");
@@ -4228,7 +4230,7 @@ void do_who_col( CHAR_DATA *ch, char *argument )
 
 	  sprintf( buf, "[%3d %5s %3s] %s%s%s%s%s\n\r",
 	    wch->level,
-	    RACE(wch) < MAX_PC_RACE ? pc_race_table[RACE(wch)].who_name
+	    RACE(wch) < MAX_PC_RACE ? race_table[RACE(wch)].who_name
 				    : "     ",
 	    classbuf,
 	    pk_buf,
@@ -4241,7 +4243,7 @@ void do_who_col( CHAR_DATA *ch, char *argument )
 /*	  sprintf( buf, "[%s %s %s] %s%s%s%s%s\n\r",	*/
 	  sprintf( buf, "[%3s %5s    ] %s%s%s%s%s\n\r",
 		(get_curr_stat(wch, STAT_CHA) < 18 ) ? level_buf : "  ",
-	    RACE(wch) < MAX_PC_RACE ? pc_race_table[RACE(wch)].who_name
+	    RACE(wch) < MAX_PC_RACE ? race_table[RACE(wch)].who_name
 				    : "     ",
 /*	    classbuf, 	*/
 	    pk_buf,

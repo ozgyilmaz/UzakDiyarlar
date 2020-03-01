@@ -1980,7 +1980,7 @@ char *translate(CHAR_DATA *ch, CHAR_DATA *victim, char *argument)
       || IS_NPC(ch) || IS_NPC(victim)
       || IS_IMMORTAL(ch) || IS_IMMORTAL(victim)
       || ch->language == LANG_COMMON
-      || ch->language == pc_race_table[ORG_RACE(victim)].language)
+      || ch->language == race_table[ORG_RACE(victim)].language)
    {
     if (IS_IMMORTAL(victim))
 	sprintf(trans,"(%s) %s",language_table[ch->language].name,argument);
@@ -2014,7 +2014,7 @@ void do_speak( CHAR_DATA *ch, char *argument )
      			language_table[ch->language].name);
         printf_to_char(ch,"You can speak :\n\r");
         printf_to_char(ch, "       ortak, %s\n\r",
-      		language_table[pc_race_table[ORG_RACE(ch)].language].name);
+      		language_table[race_table[ORG_RACE(ch)].language].name);
         return;
      }
 
@@ -2027,7 +2027,7 @@ void do_speak( CHAR_DATA *ch, char *argument )
      }
 
  if (language >= MAX_LANGUAGE)
-  ch->language = pc_race_table[ORG_RACE(ch)].language;
+  ch->language = race_table[ORG_RACE(ch)].language;
  else ch->language = language;
 
  printf_to_char(ch,"Artýk %s dili konuþuyorsun.\n\r",language_table[ch->language].name);

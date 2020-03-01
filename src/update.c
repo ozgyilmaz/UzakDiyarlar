@@ -660,11 +660,10 @@ void mobile_update( void )
 	}
 
 	if (ch->pIndexData->pShop != NULL) /* give him some gold */
-	    if ((ch->gold * 100 + ch->silver) < ch->pIndexData->wealth)
-	    {
-		ch->gold += ch->pIndexData->wealth * number_range(1,20)/5000000;
-		ch->silver += ch->pIndexData->wealth * number_range(1,20)/50000;
-	    }
+  {
+    ch->gold = number_range(level,level*30);
+    ch->silver = number_range(level,level*10);
+  }
 
 
 	/*
@@ -1865,10 +1864,10 @@ void aggr_update( void )
 
 	if ( wch->cabal != CABAL_NONE && IS_NPC(wch))
 	{
-    bugf("wch: %s",(char*)wch->name);
+
 	    for ( ch = wch->in_room->people; ch != NULL; ch = ch_next )
 	    {
-        bugf("ch: %s",(char*)ch->name);
+
 		ch_next	= ch->next_in_room;
 		if ( !IS_NPC(ch)
 		&& !IS_IMMORTAL(ch)
@@ -1876,7 +1875,6 @@ void aggr_update( void )
 		&& ch->fighting == NULL )
 
 		    multi_hit(wch, ch, TYPE_UNDEFINED);
-        bug("fight",0);
 
 	    }
 	    continue;

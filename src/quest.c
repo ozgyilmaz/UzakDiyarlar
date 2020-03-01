@@ -130,7 +130,7 @@ void do_quest(CHAR_DATA *ch, char *argument)
     {
       if (ch->pcdata->questmob == -1 )
       {
-        send_to_char("Görevin neredeyse tamamlandý!\n\rZamanýn bitmeden önce görevciye git!\n\r", ch);
+        printf_to_char(ch,"{cGörevin neredeyse tamamlandý!\n\rZamanýn bitmeden önce görevciye git!{x\n\r");
       }
       else if (ch->pcdata->questobj > 0)
       {
@@ -1081,7 +1081,212 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
      return;
     }
 
-    send_to_char("GÖREV KOMUTLARI: puan bilgi zaman iste bitti iptal liste özellik satýnal sigorta.\n\r",ch);
+    else if (!strcmp(arg1, "iade"))
+  	{
+  		if (arg2[0] == '\0')
+  		{
+  			printf_to_char(ch,"Hangi görev ekipmanýný iade etmek istiyorsun?\n\rKullaným: {Rgörev iade <ekipman>{x\n\r");
+  			return;
+  		}
+  		else if (is_name(arg2, "kemer"))
+  		{
+  			if( !IS_SET(ch->pcdata->quest,QUEST_GIRTH) )
+  			{
+  				printf_to_char(ch,"Bu eþyayý zaten almamýþsýn.\n\r");
+  				return;
+  			}
+  			for(obj = object_list; obj != NULL; obj = obj_next)
+  			{
+  				obj_next = obj->next;
+  				if ( (obj->pIndexData->vnum == QUEST_ITEM1) && strstr( obj->short_descr, ch->name))
+  				{
+  					extract_obj( obj );
+  					break;
+  				}
+  			}
+  			REMOVE_BIT( ch->pcdata->quest , QUEST_GIRTH );
+  			ch->pcdata->questpoints += 900;
+  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
+  			return;
+  		}
+  		else if (is_name(arg2, "çanta"))
+  		{
+  			if( !IS_SET(ch->pcdata->quest,QUEST_BACKPACK) )
+  			{
+  				printf_to_char(ch,"Bu eþyayý zaten almamýþsýn.\n\r");
+  				return;
+  			}
+  			for(obj = object_list; obj != NULL; obj = obj_next)
+  			{
+  				obj_next = obj->next;
+  				if ( (obj->pIndexData->vnum == QUEST_ITEM4) && strstr( obj->short_descr, ch->name))
+  				{
+  					extract_obj( obj );
+  					break;
+  				}
+  			}
+  			REMOVE_BIT( ch->pcdata->quest , QUEST_BACKPACK );
+  			ch->pcdata->questpoints += 4500;
+  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 2400 GP hesabýna geçti.\n\r");
+  			return;
+  		}
+  		else if (is_name(arg2, "testi"))
+  		{
+  			if( !IS_SET(ch->pcdata->quest,QUEST_DECANTER) )
+  			{
+  				printf_to_char(ch,"Bu eþyayý zaten almamýþsýn.\n\r");
+  				return;
+  			}
+  			for(obj = object_list; obj != NULL; obj = obj_next)
+  			{
+  				obj_next = obj->next;
+  				if ( (obj->pIndexData->vnum == QUEST_ITEM5) && strstr( obj->short_descr, ch->name))
+  				{
+  					extract_obj( obj );
+  					break;
+  				}
+  			}
+  			REMOVE_BIT( ch->pcdata->quest , QUEST_DECANTER );
+  			ch->pcdata->questpoints += 450;
+  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 2400 GP hesabýna geçti.\n\r");
+  			return;
+  		}
+  		else if (is_name(arg2, "parlak"))
+  		{
+  			if( !IS_SET(ch->pcdata->quest,QUEST_SILAH1) )
+  			{
+  				printf_to_char(ch,"Bu eþyayý zaten almamýþsýn.\n\r");
+  				return;
+  			}
+  			for(obj = object_list; obj != NULL; obj = obj_next)
+  			{
+  				obj_next = obj->next;
+  				if ( (obj->pIndexData->vnum == QUEST_ITEM_SILAH1) && strstr( obj->short_descr, ch->name))
+  				{
+  					extract_obj( obj );
+  					break;
+  				}
+  			}
+  			REMOVE_BIT( ch->pcdata->quest , QUEST_SILAH1 );
+  			ch->pcdata->questpoints += 900;
+  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
+  			return;
+  		}
+      else if (is_name(arg2, "mat"))
+  		{
+  			if( !IS_SET(ch->pcdata->quest,QUEST_SILAH2) )
+  			{
+  				printf_to_char(ch,"Bu eþyayý zaten almamýþsýn.\n\r");
+  				return;
+  			}
+  			for(obj = object_list; obj != NULL; obj = obj_next)
+  			{
+  				obj_next = obj->next;
+  				if ( (obj->pIndexData->vnum == QUEST_ITEM_SILAH2) && strstr( obj->short_descr, ch->name))
+  				{
+  					extract_obj( obj );
+  					break;
+  				}
+  			}
+  			REMOVE_BIT( ch->pcdata->quest , QUEST_SILAH2 );
+  			ch->pcdata->questpoints += 900;
+  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
+  			return;
+  		}
+  		else if (is_name(arg2, "iþlemeli"))
+  		{
+  			if( !IS_SET(ch->pcdata->quest,QUEST_YUZUK1) )
+  			{
+  				printf_to_char(ch,"Bu eþyayý zaten almamýþsýn.\n\r");
+  				return;
+  			}
+  			for(obj = object_list; obj != NULL; obj = obj_next)
+  			{
+  				obj_next = obj->next;
+  				if ( (obj->pIndexData->vnum == QUEST_ITEM_YUZUK1) && strstr( obj->short_descr, ch->name))
+  				{
+  					extract_obj( obj );
+  					break;
+  				}
+  			}
+  			REMOVE_BIT( ch->pcdata->quest , QUEST_YUZUK1 );
+  			ch->pcdata->questpoints += 675;
+  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
+  			return;
+  		}
+      else if (is_name(arg2, "desenli"))
+  		{
+  			if( !IS_SET(ch->pcdata->quest,QUEST_YUZUK2) )
+  			{
+  				printf_to_char(ch,"Bu eþyayý zaten almamýþsýn.\n\r");
+  				return;
+  			}
+  			for(obj = object_list; obj != NULL; obj = obj_next)
+  			{
+  				obj_next = obj->next;
+  				if ( (obj->pIndexData->vnum == QUEST_ITEM_YUZUK2) && strstr( obj->short_descr, ch->name))
+  				{
+  					extract_obj( obj );
+  					break;
+  				}
+  			}
+  			REMOVE_BIT( ch->pcdata->quest , QUEST_YUZUK2 );
+  			ch->pcdata->questpoints += 675;
+  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
+  			return;
+  		}
+      else if (is_name(arg2, "oymalý"))
+  		{
+  			if( !IS_SET(ch->pcdata->quest,QUEST_YUZUK3) )
+  			{
+  				printf_to_char(ch,"Bu eþyayý zaten almamýþsýn.\n\r");
+  				return;
+  			}
+  			for(obj = object_list; obj != NULL; obj = obj_next)
+  			{
+  				obj_next = obj->next;
+  				if ( (obj->pIndexData->vnum == QUEST_ITEM_YUZUK3) && strstr( obj->short_descr, ch->name))
+  				{
+  					extract_obj( obj );
+  					break;
+  				}
+  			}
+  			REMOVE_BIT( ch->pcdata->quest , QUEST_YUZUK3 );
+  			ch->pcdata->questpoints += 675;
+  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
+  			return;
+  		}
+      else if (is_name(arg2, "kakmalý"))
+  		{
+  			if( !IS_SET(ch->pcdata->quest,QUEST_YUZUK4) )
+  			{
+  				printf_to_char(ch,"Bu eþyayý zaten almamýþsýn.\n\r");
+  				return;
+  			}
+  			for(obj = object_list; obj != NULL; obj = obj_next)
+  			{
+  				obj_next = obj->next;
+  				if ( (obj->pIndexData->vnum == QUEST_ITEM_YUZUK4) && strstr( obj->short_descr, ch->name))
+  				{
+  					extract_obj( obj );
+  					break;
+  				}
+  			}
+  			REMOVE_BIT( ch->pcdata->quest , QUEST_YUZUK4 );
+  			ch->pcdata->questpoints += 675;
+  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
+  			return;
+  		}
+
+
+  		else
+  		{
+  			printf_to_char(ch,"Hangi görev ekipmanýný iade etmek istiyorsun?\n\rKullaným: {Rgörev iade <ekipman>{x\n\r");
+  			return;
+  		}
+  	}
+
+    send_to_char("GÖREV KOMUTLARI: puan bilgi zaman iste bitti iptal liste özellk satýnal sigorta iade.\n\r",ch);
     send_to_char("Daha fazla bilgi için: yardým görev.\n\r",ch);
     return;
 }

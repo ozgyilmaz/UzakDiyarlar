@@ -81,3 +81,23 @@ Uzak Diyarlar 2.0b1
 - Seviye 20 altındakilerin kabal bölgesine girmesi engelleniyor.
 - Dövüş sırasında rakip ırk hakkında bilgi artırma şansı düşürüldü.
 - Bazı komutların PLR_GHOST iken kullanılabilmesi sağlandı.
+
+Uzak Diyarlar 2.1b1
+- [HATA DÜZELTME] Mobların altın ve akçesinin olmaması sorunu düzeltildi.
+- [HATA DÜZELTME] Kilitli kapıların hepsinin pickproof olduğu anlaşıldı ve bu durum düzeltildi. (Mautrak)
+- Bazı çeviri hataları düzeltildi, bazı çevrilmemiş yerler Türkçeleştirildi. (Mautrak)
+- Class multiplier kaldırıldı. Her ırk her sınıfı seçebilecek.
+- class_ok() ve sex_ok() kaldırıldı.
+- Irklardaki who_name ırk isimlerini tam olarak gösterecek şekle getirildi.
+- Karakter tanımı ile ilgili geliştirme: Yeterince uzun tanım girince PLR_NO_DESCRIPTION hemen iptal oluyor.
+- who_name değeri pc_race_table'dan race_table'a geçirildi.
+- Karakter yaratımında ırklara bir kez verilen hp_bonus, mana_mobus ve prac_bonus kaldırıldı.
+- align_restrict() kaldırıldı.
+- pc_race_table'daki align kaldırıldı.
+- language değeri pc_race_table'dan race_table'a geçti.
+- points değeri pc_race_table'dan race_table'a geçti.
+- skills (bonus skills) değeri pc_race_table'dan race_table'a geçti.
+- stats değeri pc_race_table'dan race_table'a geçti.
+- pc_race_table kaldırıldı. Artık ırklara ait tüm bilgiler race_table'da saklanıyor.
+- mob wealth kaldırıldı. Dükkan işleten moblara biraz daha fala altın ve akçe verildi.
+- görev eşyalarını %10 GP kaybıyla iade edebilme eklendi. Komut: görev iade <eşya_adı>

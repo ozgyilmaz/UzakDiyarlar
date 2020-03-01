@@ -111,10 +111,6 @@ extern	int	malloc_debug	args( ( int  ) );
 extern	int	malloc_verify	args( ( void ) );
 #endif
 
-int sex_ok( CHAR_DATA *ch , int iclass);
-int class_ok( CHAR_DATA *ch , int iclass);
-
-
 /*
  * Signal handling.
  * Apollo has a problem with __attribute(atomic) in signal.h,
@@ -1693,7 +1689,6 @@ int check_name_connected(DESCRIPTOR_DATA *inp, char *argument)
 }
 
 
-int align_restrict( CHAR_DATA *ch );
 int hometown_check( CHAR_DATA *ch );
 int hometown_ok( CHAR_DATA *ch, int home );
 int ethos_check( CHAR_DATA *ch );
@@ -2017,13 +2012,6 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    return;
 	}
 
-	if (!class_ok(ch,iClass))
-	{
-	    write_to_buffer( d,
-				"Bu sýnýf ýrkýnýz veya cinsiyetinize uygun deðil.\n\rBaþka bir tane seçin: ",0);
-	    return;
-	}
-
 	if (iClass != CLASS_INVOKER
 		&& iClass != CLASS_TRANSMUTER
 		&& iClass != CLASS_ELEMENTALIST )
@@ -2226,14 +2214,10 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	/* Add race stat modifiers
 	for (i = 0; i < MAX_STATS; i++)
-	    ch->mod_stat[i] += pc_race_table[race].stats[i];	*/
+	    ch->mod_stat[i] += race_table[race].stats[i];	*/
 
-	/* Add race modifiers */
-	ch->max_hit += pc_race_table[race].hp_bonus;
 	ch->hit = ch->max_hit;
-	ch->max_mana += pc_race_table[race].mana_bonus;
 	ch->mana = ch->max_mana;
-	ch->practice += pc_race_table[race].prac_bonus;
 
 	ch->detection   = ch->affected_by|race_table[race].det;
 	ch->affected_by = ch->affected_by|race_table[race].aff;
@@ -2246,14 +2230,14 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	/* add skills */
 	for (i = 0; i < 5; i++)
 	{
-	    if (pc_race_table[race].skills[i] == NULL)
+	    if (race_table[race].skills[i] == NULL)
 	 	break;
-	    ch->pcdata->learned[skill_lookup(pc_race_table[race].skills[i])]
+	    ch->pcdata->learned[skill_lookup(race_table[race].skills[i])]
 	      = 100;
 	}
 	/* add cost */
 
-	ch->pcdata->points = pc_race_table[race].points;
+	ch->pcdata->points = race_table[race].points;
 
 	ch->size = race_table[race].size;
 
@@ -2281,11 +2265,8 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	strcpy( buf, "Bir sýnýf seçin:\n\r[ " );
 	for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
 	{
-	  if (class_ok(ch,iClass))
-	    {
-	     strcat( buf, class_table[iClass].name[1] );
-	     strcat( buf, " ");
-	    }
+	  strcat( buf, class_table[iClass].name[1] );
+	  strcat( buf, " ");
 	}
 	strcat( buf, "]\n\r " );
 	write_to_buffer( d, buf, 0 );
@@ -2316,13 +2297,6 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    return;
 	}
 
-	if (!class_ok(ch,iClass))
-	  {
-	    write_to_buffer( d,
-				"Karakterinin ýrkýna uygun olmayan bir sýnýf seçtin.\n\rLütfen baþka bir tane seç: ",0);
-	    return;
-	  }
-
         ch->iclass = iClass;
 
 	ch->pcdata->points += class_table[iClass].points;
@@ -2332,7 +2306,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	for (i=0; i < MAX_STATS; i++)
 	  {
 	   ch->perm_stat[i] = number_range(10,
-( 20 + pc_race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i]) );
+( race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i]) );
 	  ch->perm_stat[i] = UMIN(25, ch->perm_stat[i]);
 	  }
 
@@ -2365,8 +2339,6 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    for (i=0; i < MAX_STATS;i++)
 	      ch->mod_stat[i] = 0;
 	    write_to_buffer( d, "\n\r", 2 );
-	    if (!align_restrict(ch) )
-	    {
 				write_to_buffer( d, "Sýra geldi karakterin için yönelim seçmeye. Yönelim, basit\n\r",0);
 				write_to_buffer( d, "bir ifadeyle karakterin topluma ve doðaya karþý davranýþ\n\r",0);
 				write_to_buffer( d, "biçimini belirler. Ayrýntýlý bilgiye siteden ulaþabilirsin.\n\r\n\r",0);
@@ -2374,13 +2346,6 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 				write_to_buffer( d, "iyi, yansýz ve kem\n\r\n\r",0);
 				write_to_buffer( d, "Karakterinin yöneliminin ne olmasýný istiyorsun ( i - y - k )? ",0);
 	    d->connected = CON_GET_ALIGNMENT;
-	    }
-	    else
-	    {
-	     write_to_buffer( d, "[Devam etmek için ENTER]\n\r",0);
-	     ch->endur = 100;
-	     d->connected = CON_PICK_HOMETOWN;
-	    }
 	    break;
 
 	  case 'h': case 'H':
@@ -2388,7 +2353,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	for (i=0; i < MAX_STATS; i++)
 	  {
 	   ch->perm_stat[i] = number_range(10,
-( 20 + pc_race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i]) );
+( race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i]) );
 	  ch->perm_stat[i] = UMIN(25, ch->perm_stat[i]);
 	  }
 
@@ -2707,12 +2672,12 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
         for (i = 0; i < MAX_STATS; i++)
 	{
 	    if ( ch->perm_stat[i] >
-(20 + pc_race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i] ))
+( race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i] ))
 	  {
 	   ch->train += ( ch->perm_stat[i] -
-(20 + pc_race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i] ));
+( race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i] ));
 	   ch->perm_stat[i] =
-    20 + pc_race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i];
+    race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i];
 	  }
 	}
 
@@ -3430,48 +3395,6 @@ char *get_stat_alias( CHAR_DATA *ch, int where )
 
 	return((char*)stat);
 
-}
-
-int sex_ok( CHAR_DATA *ch , int iclass)
-{
- return 1;
-}
-
-int class_ok( CHAR_DATA *ch , int iclass)
-{
- if (pc_race_table[ORG_RACE(ch)].class_mult[iclass] == -1)
-  return 0;
- return 1;
-}
-
-int align_restrict(CHAR_DATA *ch)
-{
- DESCRIPTOR_DATA *d = ch->desc;
-
-    if (IS_SET(pc_race_table[ORG_RACE(ch)].align,CR_GOOD)
-	|| IS_SET(class_table[ch->iclass].align,CR_GOOD) )
-      {
-				write_to_buffer(d, "Karakteriniz güzel düþüncelerle dolu.\n\r",0);
-	ch->alignment = 1000;
-	return N_ALIGN_GOOD;
-      }
-
-    if (IS_SET(pc_race_table[ORG_RACE(ch)].align,CR_NEUTRAL)
-	|| IS_SET(class_table[ch->iclass].align,CR_NEUTRAL) )
-      {
-				write_to_buffer(d, "Karakteriniz yansýz düþüncelerle dolu.\n\r",0);
-	ch->alignment = 0;
-	return N_ALIGN_NEUTRAL;
-      }
-
-    if (IS_SET(pc_race_table[ORG_RACE(ch)].align,CR_EVIL)
-	|| IS_SET(class_table[ch->iclass].align,CR_EVIL) )
-      {
-				write_to_buffer(d, "Karakteriniz kem düþüncelerle dolu.\n\r",0);
-	ch->alignment = -1000;
-	return N_ALIGN_EVIL;
-      }
-   return N_ALIGN_ALL;
 }
 
 int hometown_check(CHAR_DATA *ch)

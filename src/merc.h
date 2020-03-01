@@ -691,34 +691,22 @@ struct attack_type
 struct race_type
 {
     const char *	name[2];			/* call name of the race */
+    const char 	who_name[8];
+		sh_int	language;		/* language		*/
     bool	pc_race;		/* can be chosen by pcs  */
-	sh_int	size;
+    sh_int	size;
     long	det;			/* det bits for the race */
     long	act;			/* act bits for the race */
     long	aff;			/* aff bits for the race */
     long	off;			/* off bits for the race */
     long	imm;			/* imm bits for the race */
-    long        res;			/* res bits for the race */
+    long  res;			/* res bits for the race */
     long	vuln;			/* vuln bits for the race */
     long	form;			/* default form flag for the race */
     long	parts;			/* default parts for the race */
-};
-
-
-struct pc_race_type  /* additional data for pc races */
-{
-    const char *	name[2];			/* MUST be in race_type */
-    const char 	who_name[6];
-    int		points;			/* cost in exp of the race */
-    sh_int	class_mult[MAX_CLASS];	/* exp multiplier for class, * 100 */
-    const char *	skills[5];		/* bonus skills for the race */
-    sh_int 	stats[MAX_STATS];	/* starting stats 	*/
-	/*sh_int	size;*/			/* aff bits for the race*/
-    int         hp_bonus;               /* Initial hp bonus 	*/
-    int         mana_bonus;             /* Initial mana bonus 	*/
-    int         prac_bonus;             /* Initial practice bonus */
-    sh_int      align;                  /* Alignment 		*/
-    sh_int	language;		/* language		*/
+		int		points;			/* cost in exp of the race */
+		const char *	skills[5];		/* bonus skills for the race */
+		sh_int 	stats[MAX_STATS];	/* starting stats 	*/
 };
 
 struct spec_type
@@ -2000,7 +1988,6 @@ struct	mob_index_data
     sh_int		default_pos;
     sh_int		sex;
     sh_int		race;
-    long		wealth;
     long		form;
     long		parts;
     sh_int		size;
@@ -2865,7 +2852,6 @@ extern  const   struct  item_type	item_table	[];
 extern	const	struct	wiznet_type	wiznet_table	[];
 extern	const	struct	attack_type	attack_table	[];
 extern  const	struct  race_type	race_table	[];
-extern	const	struct	pc_race_type	pc_race_table	[MAX_PC_RACE];
 extern  	struct 	cabal_type      cabal_table     [];
 extern  const   struct  color_type      color_table     [];
 extern	const	struct	religion_type	religion_table	[];
