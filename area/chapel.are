@@ -557,7 +557,7 @@ door~
 D5
 ~
 altar~
-2 3430 3421
+1 3430 3421
 E
 benches rows~
 The benches are not of the comfortable kind.
@@ -830,7 +830,7 @@ You see a large set of stone stairs leading upwards to a small stone door at
 the top.
 ~
 stone trapdoor door~
-2 3410 3405
+1 3410 3405
 E
 letters graffiti~
 'Beware here all of man, because past here lies only death.'
@@ -1317,7 +1317,7 @@ The stench of death is heavy in these caverns.
 D1
 ~
 door~
-2 3411 3408
+1 3411 3408
 D3
 ~
 ~
@@ -1509,7 +1509,7 @@ D5
 A jet black coffin ... who knows what lurks beneath.
 ~
 coffin~
-2 3419 3475
+1 3419 3475
 S
 #3461
 The Catacombs~

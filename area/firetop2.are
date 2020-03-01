@@ -3106,7 +3106,7 @@ D1
 a shipbuilding room
 ~
 ~
-2 5779 5816
+1 5779 5816
 D3
 a junction on the north bank near a bridge
 ~
@@ -3132,7 +3132,7 @@ D3
 a door
 ~
 ~
-2 5779 5815
+1 5779 5815
 S
 #5817
 A Corridor~
@@ -3221,7 +3221,7 @@ D2
 loot room
 ~
 ~
-2 5806 5822
+1 5806 5822
 D3
 a junction
 ~
@@ -3239,7 +3239,7 @@ D0
 outside the loot room
 ~
 ~
-2 5806 5821
+1 5806 5821
 S
 #5823
 A Creepy Room~
@@ -3453,7 +3453,7 @@ D1
 the warlock's chambers
 ~
 chamber door~
-2 5807 5834
+1 5807 5834
 S
 #5834
 The Warlock's Chambers~
@@ -3468,7 +3468,7 @@ D3
 a door
 ~
 door~
-2 5807 5833
+1 5807 5833
 S
 #0
 

@@ -1345,7 +1345,7 @@ D1
 Walking through DragonSpyre
 ~
 wall~
-2 2401 2444
+1 2401 2444
 D2
 Walking through DragonSpyre
 ~
@@ -1439,7 +1439,7 @@ D1
 Walking through DragonSpyre
 ~
 door oaken~
-2 2402 2438
+1 2402 2438
 D3
 Walking through DragonSpyre
 ~
@@ -1457,7 +1457,7 @@ D3
 Walking through DragonSpyre
 ~
 door oaken~
-2 2402 2437
+1 2402 2437
 S
 #2439
 Walking through DragonSpyre~
@@ -1512,7 +1512,7 @@ D0
 Walking through DragonSpyre
 ~
 door~
-2 2402 2443
+1 2402 2443
 D1
 Walking through DragonSpyre
 ~
@@ -1550,7 +1550,7 @@ D2
 Walking through DragonSpyre
 ~
 door~
-2 2402 2441
+1 2402 2441
 S
 #2444
 Walking through DragonSpyre~
@@ -1570,7 +1570,7 @@ D3
 Lair of the White Dragon
 ~
 wall~
-2 2401 2432
+1 2401 2432
 S
 #2445
 Walking through DragonSpyre~
@@ -1671,7 +1671,7 @@ D1
 Walking through DragonSpyre
 ~
 door~
-2 2401 2450
+1 2401 2450
 D2
 Treasure Room
 ~
@@ -1692,7 +1692,7 @@ D3
 Walking through DragonSpyre
 ~
 door~
-2 2401 2449
+1 2401 2449
 S
 
 #2451
@@ -2099,7 +2099,7 @@ D3
 Walking through DragonSpyre
 ~
 gate~
-2 2404 2474
+1 2404 2474
 S
 #2471
 Walking through DragonSpyre~
@@ -2169,7 +2169,7 @@ D1
 Walking through DragonSpyre
 ~
 gate~
-2 0 2470
+1 0 2470
 D3
 Walking through DragonSpyre
 ~
@@ -2239,7 +2239,7 @@ D2
 Treasure Room
 ~
 door~
-2 2404 2478
+1 2404 2478
 S
 #2478
 Treasure Room~
@@ -2252,12 +2252,12 @@ D0
 Walking through DragonSpyre
 ~
 door~
-2 2404 2477
+1 2404 2477
 D2
 Walking through DragonSpyre
 ~
 door~
-2 2404 2483
+1 2404 2483
 S
 #2479
 Walking through DragonSpyre~
@@ -2347,7 +2347,7 @@ D0
 Treasure Room
 ~
 door~
-2 2404 2478
+1 2404 2478
 D2
 Walking through DragonSpyre
 ~
@@ -2482,7 +2482,7 @@ D3
 Pixie King's Bedroom
 ~
 door~
-2 2405 2490
+1 2405 2490
 S
 
 #2490
@@ -2497,7 +2497,7 @@ D1
 Walking through DragonSpyre
 ~
 door~
-2 2405 2489
+1 2405 2489
 S
 
 #2491
@@ -2576,7 +2576,7 @@ D3
 Walking through DragonSpyre
 ~
 door~
-2 -1 2493
+1 -1 2493
 S
 
 #2495

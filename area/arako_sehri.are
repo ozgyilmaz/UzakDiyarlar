@@ -1116,7 +1116,7 @@ armor 0 AI
 12 100 400 G
 #5679
 çeþme su~
-çeþme~
+Çeþme~
 Büyük bir çeþme görüyorsun.~
 marble~
 fountain G 0
@@ -3023,7 +3023,7 @@ To leave the cave complex, go Up.
 D2
 ~
 door~
-2 5662 5698
+1 5662 5698
 D3
 ~
 ~
@@ -3058,7 +3058,7 @@ inconspicuous.
 D0
 ~
 door~
-2 5662 5696
+1 5662 5696
 D1
 There are some heavy footprints leading to the west, so I would suggest
 avoiding this area and turning around right now.

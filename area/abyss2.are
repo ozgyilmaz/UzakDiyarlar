@@ -1441,7 +1441,7 @@ that seem to glowing with a faint aura of red.
 D0
 ~
 gate flaming~
-2 25050 25031
+1 25050 25031
 D1
 ~
 ~
@@ -1788,7 +1788,7 @@ D0
 D2
 ~
 door~
-2 25051 25050
+1 25051 25050
 S
 #25050
 Castle Throne Room~
@@ -1807,7 +1807,7 @@ through the air.
 D2
 ~
 door~
-2 25056 25051
+1 25056 25051
 S
 #25051
 The Vault~
@@ -1821,7 +1821,7 @@ D0
 ~
 door
 ~
-2 25056 25050
+1 25056 25050
 S
 #25052
 The Grand Hallway~

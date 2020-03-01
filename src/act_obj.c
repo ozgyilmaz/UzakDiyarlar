@@ -3857,7 +3857,7 @@ void do_sell( CHAR_DATA *ch, char *argument )
     }
     if ( cost > (keeper->silver + 100 * keeper->gold) )
     {
-      act("$n anlatýyor 'Üzgünüm $p'nin ederini ödeyemem.",
+      act("$n anlatýyor Üzgünüm '$p'nin ederini ödeyemem.",
 	    keeper,obj,ch,TO_VICT);
 	return;
     }

@@ -1422,25 +1422,25 @@ void do_repair(CHAR_DATA *ch, char *argument)
     }
     if (( obj = get_obj_carry(ch, arg)) == NULL)
     {
-	do_say(mob,(char*)"You don't have that item");
+	do_say(mob,(char*)"Sende bu eþya yok.");
 	return;
     }
 
     if (obj->pIndexData->vnum == OBJ_VNUM_HAMMER)
     {
-     do_say(mob,(char*)"That hammer is beyond my power.");
+     do_say(mob,(char*)"Bu çekiç benim ustalýðýmýn üstünde.");
      return;
     }
 
     if (obj->condition >= 100)
     {
-	do_say(mob,(char*)"But that item is not broken.");
+	do_say(mob,(char*)"Bu eþya zaten iyi durumda.");
         return;
     }
 
     if (obj->cost == 0)
     {
-	sprintf(buf ,"%s is beyond repair.\n\r", obj->short_descr);
+	sprintf(buf ,"%s tamir edilemeyecek durumda.\n\r", obj->short_descr);
 	do_say(mob,buf);
    	return;
     }
@@ -1451,7 +1451,7 @@ void do_repair(CHAR_DATA *ch, char *argument)
 
     if (cost > ch->gold)
     {
-	do_say(mob,(char*)"You do not have enough gold for my services.");
+	do_say(mob,(char*)"Hizmetlerimden yararlanmak için yeterince paran yok.");
 	return;
     }
 
@@ -1459,9 +1459,9 @@ void do_repair(CHAR_DATA *ch, char *argument)
 
     ch->gold -= cost;
     mob->gold += cost;
-    sprintf(buf, "$N takes %s from $n, repairs it, and returns it to $n", obj->short_descr);
+    sprintf(buf, "$N $n'dan %s'ý alýyor, tamir ediyor ve $n'a geri veriyor.", obj->short_descr);
     act(buf,ch,NULL,mob,TO_ROOM);
-    sprintf(buf, "%s takes %s, repairs it, and returns it\n\r", mob->short_descr, obj->short_descr);
+    sprintf(buf, "%s %s'ý alýp, tamir edip sana geri veriyor.\n\r", mob->short_descr, obj->short_descr);
     send_to_char(buf, ch);
     obj->condition = 100;
 }
@@ -1483,7 +1483,7 @@ void do_estimate(CHAR_DATA *ch, char *argument)
 
     if ( mob == NULL )
     {
-        send_to_char( "You can't do that here.\n\r", ch );
+        send_to_char( "Burada yapamazsýn..\n\r", ch );
         return;
     }
 
@@ -1491,27 +1491,27 @@ void do_estimate(CHAR_DATA *ch, char *argument)
 
     if (arg[0] == '\0')
     {
-	do_say(mob,(char*)"Try estimate <item>");
+	do_say(mob,(char*)"Ücret <eþya> yazmayý dene.");
    	return;
     }
     if ((obj = (get_obj_carry(ch, arg))) == NULL)
     {
-	do_say(mob,(char*)"You don't have that item");
+	do_say(mob,(char*)"Sende bu eþya yok.");
 	return;
     }
     if (obj->pIndexData->vnum == OBJ_VNUM_HAMMER)
 	{
-	    do_say(mob,(char*)"That hammer is beyond my power.");
+	    do_say(mob,(char*)"Bu çekiç benim ustalýðýmýn üstünde.");
 	    return;
 	}
     if (obj->condition >= 100)
     {
-	do_say(mob,(char*)"But that item's not broken");
+	do_say(mob,(char*)"Bu eþya zaten iyi durumda.");
 	return;
     }
     if (obj->cost == 0)
     {
-	do_say(mob,(char*)"That item is beyond repair");
+	do_say(mob,(char*)"Bu eþya tamir edilemeyecek durumda.");
     	return;
     }
 
@@ -1519,7 +1519,7 @@ void do_estimate(CHAR_DATA *ch, char *argument)
 		((obj->cost * (100 - obj->condition)) /100)    );
     cost /= 100;
 
-    sprintf(buf, "It will cost %d to fix that item", cost);
+    sprintf(buf, "Bu eþyayý tamir etmek sana %d altýna patlar.", cost);
     do_say(mob,buf);
 }
 

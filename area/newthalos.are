@@ -3738,7 +3738,7 @@ door east~
 D2
 ~
 drawbridge draw bridge door~
-2 7901 6100
+1 7901 6100
 D3
 ~
 door west~
@@ -4454,7 +4454,7 @@ D0
 D5
 ~
 secret sesame~
-2 9591 9750
+1 9591 9750
 E
 note~
 LIST : gives you a list of items for sale.
@@ -4704,7 +4704,7 @@ D0
 D1
 ~
 gate~
-2 9500 9658
+1 9500 9658
 D2
 ~
 ~
@@ -4756,7 +4756,7 @@ pretty bad and should be put away safely for a while.
 D0
 ~
 secret gate~
-2 9593 9544
+1 9593 9544
 S
 #9654
 City Hall~
@@ -4827,7 +4827,7 @@ D1
 D3
 ~
 gate~
-2 9500 9650
+1 9500 9650
 S
 #9659
 North-West Tower~
@@ -5284,7 +5284,7 @@ door south~
 D3
 ~
 door west~
-2 9601 9687
+1 9601 9687
 S
 #9683
 Garden Gazebo~
@@ -5390,7 +5390,7 @@ upon a mable dias. The Sultan is not a man to be trifled with.
 D0
 ~
 secret throne~
-2 9600 9690
+1 9600 9690
 D1
 ~
 door~
@@ -5444,7 +5444,7 @@ south. The tunnel continues east.
 D0
 ~
 cell north~
-2 9593 9697
+1 9593 9697
 D1
 ~
 ~
@@ -5452,7 +5452,7 @@ D1
 D2
 ~
 cell south~
-2 9593 9701
+1 9593 9701
 D3
 ~
 door~
@@ -5467,7 +5467,7 @@ south. The tunnel continues east and west.
 D0
 ~
 cell north~
-2 9593 9698
+1 9593 9698
 D1
 ~
 ~
@@ -5475,7 +5475,7 @@ D1
 D2
 ~
 cell south~
-2 9593 9702
+1 9593 9702
 D3
 ~
 ~
@@ -5490,7 +5490,7 @@ south. The tunnel continues east and west.
 D0
 ~
 cell north~
-2 9593 9699
+1 9593 9699
 D1
 ~
 ~
@@ -5498,7 +5498,7 @@ D1
 D2
 ~
 cell south~
-2 9593 9703
+1 9593 9703
 D3
 ~
 ~
@@ -5514,7 +5514,7 @@ stone to the east.
 D0
 ~
 cell north~
-2 9593 9700
+1 9593 9700
 D1
 ~
 crack~
@@ -5522,7 +5522,7 @@ crack~
 D2
 ~
 cell south~
-2 9593 9704
+1 9593 9704
 D3
 ~
 ~
@@ -5539,7 +5539,7 @@ you notice a pair of small red eyes peering at you from the darkness.
 D3
 ~
 crack~
-2 9500 9695
+1 9500 9695
 S
 #9697
 Cell~
@@ -5549,7 +5549,7 @@ You are in a cold, cramped chamber with only one exit.
 D2
 ~
 cell~
-2 9593 9692
+1 9593 9692
 S
 #9698
 Cell~
@@ -5559,7 +5559,7 @@ You are in a cold, cramped chamber with only one exit.
 D2
 ~
 cell~
-2 9593 9693
+1 9593 9693
 S
 #9699
 Cell~
@@ -5569,7 +5569,7 @@ You are in a cold, cramped chamber with only one exit.
 D2
 ~
 cell~
-2 9593 9694
+1 9593 9694
 S
 #9700
 Cell~
@@ -5579,7 +5579,7 @@ You are in a cold, cramped chamber with only one exit.
 D2
 ~
 cell~
-2 9593 9695
+1 9593 9695
 S
 #9701
 Cell~
@@ -5589,7 +5589,7 @@ You are in a cold, cramped chamber with only one exit.
 D0
 ~
 cell~
-2 9593 9692
+1 9593 9692
 S
 #9702
 Cell~
@@ -5599,7 +5599,7 @@ You are in a cold, cramped chamber with only one exit.
 D0
 ~
 cell~
-2 9593 9693
+1 9593 9693
 S
 #9703
 Cell~
@@ -5610,7 +5610,7 @@ D0
 ~
 cell
 cell~
-2 9593 9694
+1 9593 9694
 S
 #9704
 Cell~
@@ -5621,7 +5621,7 @@ D0
 ~
 cell
 cell~
-2 9593 9695
+1 9593 9695
 S
 #9705
 Hall~
@@ -6038,7 +6038,7 @@ Igor's Secret Chamber~
 D4
 ~
 secret sesame~
-2 9591 9636
+1 9591 9636
 S
 #9772
 On the Dark River~

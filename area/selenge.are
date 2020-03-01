@@ -1738,15 +1738,15 @@ Aðýr fakat konforlu bir bank. Önü ýrmaða bakacak þekilde konulmuþ.
 Böylece oturup ýrmaðý ve öte yakadaki evleri seyredebilirsin.
 ~
 #3135
-su çeþme~
-çeþme~
+Su çeþme~
+Çeþme~
 Çeþmeden dýþarýya doðru su fýþkýrýyor.~
 ~
 fountain 0 0
 0 0 'water' 0 0
 0 0 0 G
 E
-çeþme~
+Çeþme~
 Çok güzel. Kaliteli beyaz mermerden yapýlmýþ.
 ~
 #3136
@@ -1898,7 +1898,7 @@ harita selenge~
                                   |
                                   |   /Havada...    /Para Deðiþim Odasý
                    Ermiþ          | /             /
-          Kuzey    Locasý------Tapýnak----Hýrýldayan---Han     Kuzey
+          Kuzey   Loncasý------Tapýnak----Hýrýldayan---Han     Kuzey
          Selenge               Meydaný    Ayý Haný            Selenge
             |     Büyü            |                              |
             |    Dükkaný Fýrýn    |     Bakkal     Demirci       |
@@ -1906,15 +1906,15 @@ harita selenge~
  Kýraç <---Batý---Ana Cadde+----Pazar-----+-Ana Cadde-+---------Doðu----> Doðu
 Toraklar  Kapýsý    |      |    Yeri      |           |        Kapýsý   Patikasý
             |     Büyü   Zýrhçý   |    Mücevher     Savaþçý      |
-            |    Locasý           |    Dükkaný      Locasý    Duvar Yolu
+            |    Loncasý          |    Dükkaný      Loncasý   Duvar Yolu
           Duvar                   |                              |
           Yolu   Deri             |  Grebe'nin Hayvan   Ýksir    |
             |   Dükkaný Haritacý  |    Haný    Dükkaný Dükkaný   |
             |      |       |     Halk    |       |       |       |
           Duvar---Arka Sokak---Meydaný---Arka Sokak------+----Duvar Yolu
           Yolu     |       |      |      |       |       |       |
-            |    Aptal   Sansar   |   Hýrsýz   Rýhtým   Ambar    |
-            |   Tapýnaðý  Haný    |   Locasý   (Bot)             |
+            |  Kembolar  Sansar   |   Hýrsýz   Rýhtým   Ambar    |
+            |  Loncasý    Haný    |   Loncasý  (Bot)             |
             |                   Çöplük           |               |
           Duvar   Hayvanat        |              |              Duvar
           Yolu--- Bahçesi         |              |              Yolu
@@ -2707,7 +2707,7 @@ food 0 A
 0 15 100 P
 #3381
 bütün tavuk~
-bür bütün tavuk~
+bir bütün tavuk~
 Temizlenmiþ bütün bir tavuk burada býrakýlmýþ.~
 food~
 food 0 A
@@ -4953,7 +4953,7 @@ Yeryüzüne, olman gereken yere iniyor!
 0 0 3005
 S
 #3060
-Ant Paladin Loncasýnýn Giriþi~
+Kembolar Loncasýnýn Giriþi~
 Giriþte, pratik alanýnýn batýsýnda duruyorsun. Mekan oldukça loþ ve hiç
 pencere göremiyorsun. Buranýn fazlaca sessiz olmasýnýn en büyük nedeni,
 buranýn uzun zaman önce gözden düþmüþ olmasý. Doðudaki giriþi koruyan
@@ -6266,7 +6266,7 @@ D0
 Kapýdaki notta þöyle yazýyor: "Ýþi olmayan giremez".
 ~
 kapý~
-2 3161 3161
+1 3161 3161
 D2
 Güneyde karanlýk arka sokak var. Karþýsýnda ise Grubby'nin haný görünüyor.
 ~
@@ -6299,7 +6299,7 @@ D2
 Küçük bir kapý güneye, harita dükkanýna çýkýyor.
 ~
 kapý~
-2 3161 3160
+1 3161 3160
 D4
 ~
 ~

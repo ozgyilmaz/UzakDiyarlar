@@ -2020,7 +2020,7 @@ void do_recall( CHAR_DATA *ch, char *argument )
 
     if (ch->level >= 16 && !IS_IMMORTAL(ch) )
       {
-        sprintf(buf, "Seviyesi 10'dan düþük olanlar anýmsama kullanabilir.\n\r");
+        sprintf(buf, "Seviyesi 16'dan düþük olanlar anýmsama kullanabilir.\n\r");
 	send_to_char(buf,ch);
 	return;
       }

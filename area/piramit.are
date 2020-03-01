@@ -1248,7 +1248,7 @@ D2
 You see a strange-looking black shape.
 ~
 sesame~
-2 8723 8723
+1 8723 8723
 D4
 It is too dark for you to see anything along the crevasse.
 ~
@@ -1286,7 +1286,7 @@ D0
 Through the jaws of the tiger you see the blackness of the crevasse.
 ~
 ~
-2 8723 8722
+1 8723 8722
 E
 treasure gold coins valuables~
 You reach for some of the tasty goodies, when you hear a loud rumbling
@@ -1354,7 +1354,7 @@ D3
 You see a large stone coffin.
 ~
 coffin lid~
-2 8712 8727
+1 8712 8727
 E
 man garments pharoah~
 As you look closer at the figure sculpted into the stone coffin you notice a
@@ -1384,7 +1384,7 @@ D1
 You see the backside of the coffin lid, featureless stone.
 ~
 coffin lid~
-2 -1 8726
+1 -1 8726
 D5
 It is too dark to see down the stairway.
 ~
@@ -2088,7 +2088,7 @@ On the southern side of the sand dune is a small hole in the sand.
 For some reason you seem unable to get to it.
 ~
 riddle~
-2 8717 8759
+1 8717 8759
 E
 hieroglyphics symbols~
 Like most of the ancient hieroglyphics of this land, the symbols are

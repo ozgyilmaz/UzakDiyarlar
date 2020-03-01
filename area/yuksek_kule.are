@@ -4560,7 +4560,7 @@ gri ve güçlü görünen metal bir kapý kuzeye giden yolu kesiyor.
 D0
 ~
 kapý metal gri~
-2 1473 1474
+1 1473 1474
 D2
 ~
 ~
@@ -4577,11 +4577,11 @@ obsidyenden yapýlmýþ, güçlü, siyah bir kapý kuzeye giden yolu kesiyor.
 D0
 ~
 kapý obsidyen siyah~
-2 1474 1475
+1 1474 1475
 D2
 ~
 kapý metal gri~
-2 1473 1473
+1 1473 1473
 S
 #1475
 Geniþ bir koridor~
@@ -4594,11 +4594,11 @@ fildiþinden yapýlmýþ, güçlü, beyaz bir kapý kuzeye giden yolu kesiyor.
 D0
 ~
 kapý fildiþi beyaz~
-2 1475 1476
+1 1475 1476
 D2
 ~
 kapý obsidyen siyah~
-2 1474 1474
+1 1474 1474
 S
 #1476
 Giriþ Yolu~
@@ -4614,7 +4614,7 @@ D0
 D2
 ~
 kapý fildiþi beyaz~
-2 1475 1475
+1 1475 1475
 S
 #1477
 Kabul Salonu~

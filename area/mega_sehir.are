@@ -866,7 +866,7 @@ There is also a sign next to the slot.
 D0
 ~
 door~
-2 8013 8027
+1 8013 8027
 D3
 ~
 door~
@@ -885,11 +885,11 @@ south and large vault door is to the north.
 D0
 ~
 vault door~
-2 8012 8028
+1 8012 8028
 D2
 ~
 door~
-2 8013 8026
+1 8013 8026
 E
 vault door~
 This vault seems impervious to breaking.  There is a keyhole in the lock
@@ -904,7 +904,7 @@ The vault is musty with a slight smell of ozone in the air.
 D2
 ~
 vault door~
-2 8012 8027
+1 8012 8027
 S
 #0
 

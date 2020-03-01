@@ -186,7 +186,7 @@ adresini ziyaret ediniz.
 
 SINIF       KISALTMA  GEREKEN   TP
 -----       --------  -------  -----
-Ermiþ         Erm      BÝL  	   0
+Ermiþ         Erm      BÝL  	 0
 Hýrsýz        Hýr      ÇEV       0
 Savaþçý       Sav      GÜÇ       0
 Korucu        Krc      GÜÇ      200
@@ -864,7 +864,7 @@ kim 10            10. seviye ve yukarýsýný listeler.
 kim 15 20         10. ve 20. seviye arasýný listeler.
 kim savaþçý       savaþçýlarý listeler.
 kim savaþçý 1 5   1 ve 5. seviye arasýndaki savaþçýlarý listeler.
-kim elf savaþçý   elf savaþçýlarý listeler
+kim çora savaþçý  çora savaþçýlarý listeler
 
 ~
 
