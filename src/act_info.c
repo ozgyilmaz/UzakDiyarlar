@@ -3161,135 +3161,6 @@ void do_request( CHAR_DATA *ch, char *argument)
   return;
 }
 
-
-void do_hometown(CHAR_DATA *ch, char *argument)
-{
-  int amount;
-  char buf[MAX_INPUT_LENGTH];
-
-  if (IS_NPC(ch))
-    {
-      send_to_char("Memleketini deðiþtiremezsin!\n\r", ch);
-      return;
-    }
-
-  if (ORG_RACE(ch) == 11 || ORG_RACE(ch) == 12
-	|| ORG_RACE(ch) == 13 || ORG_RACE(ch) == 14 )
-    {
-      send_to_char( "Memleketin temelli Titan Vadisi!\n\r", ch);
-      return;
-    }
-
-  if (ch->iclass == 10 || ch->iclass == 11)
-    {
-      send_to_char( "Memleketin temelli Eski Selenge!\n\r", ch);
-      return;
-    }
-
-  if (!IS_SET(ch->in_room->room_flags, ROOM_REGISTRY))
-    {
-      send_to_char( "Memleketini deðiþtirmek için Registry'de olmalýsýn.\n\r",ch);
-      return;
-    }
-
-  amount = (ch->level * ch->level * 250) + 1000;
-
-  if (argument[0] == '\0')
-    {
-      sprintf(buf, "Sana %d altýna patlar.\n\r", amount);
-      send_to_char(buf, ch);
-      return;
-    }
-
-  if (ch->gold < amount)
-    {
-      send_to_char( "Memleketini deðiþtirebilmek için yeterince paran yok!\n\r",ch);
-      return;
-    }
-  if (!str_prefix(argument, "selenge"))
-    {
-      if (ch->hometown == 0)
-        {
-          send_to_char(  "Zaten Selenge'densin!\n\r", ch);
-	  return;
-	}
-      ch->gold -= amount;
-      send_to_char( "Artýk memleketin Selenge.\n\r", ch);
-      ch->hometown = 0;
-      return;
-    }
-
-  else if (!str_prefix(argument, "yenithalos"))
-    {
-      if (ch->hometown == 1)
-        {
-          send_to_char("Zaten Yeni Thalos'dansýn!\n\r", ch);
-	  return;
-	}
-      ch->gold -= amount;
-      send_to_char( "Artýk memleketin Yeni Thalos.\n\r", ch);
-      ch->hometown = 1;
-      return;
-    }
-
-  else if (!str_prefix(argument, "titan"))
-    {
-      if (ch->hometown == 2)
-        {
-          send_to_char( "Zaten Titan Vadisi'ndensin!\n\r", ch);
-	  return;
-	}
-      ch->gold -= amount;
-      send_to_char( "Artýk memleketin Titan Vadisi.\n\r", ch);
-      ch->hometown = 2;
-      return;
-    }
-
-  else if (!str_prefix(argument, "ofcol"))
-    {
-      if (!IS_NEUTRAL(ch))
-	{
-    send_to_char( "Yalnýz tarafsýzlar Ofcol'da yaþayabilir.\n\r", ch);
-	  return;
- 	}
-      if (ch->hometown == 3)
-        {
-          send_to_char( "Zaten Ofcol'dansýn!\n\r", ch);
-	  return;
-	}
-      ch->gold -= amount;
-      send_to_char( "Artýk memleketin Ofcol.\n\r", ch);
-      ch->hometown = 3;
-      return;
-    }
-
-  else if (!str_prefix(argument, "eskiselenge"))
-    {
-      if (ch->iclass == CLASS_VAMPIRE || ch->iclass == CLASS_NECROMANCER)
-	{
-    send_to_char("Yalnýz vampirler ve karakamlar orada yaþar.\n\r", ch);
-	  return;
- 	}
-      if (ch->hometown == 4)
-        {
-          send_to_char("Zaten Eski Selenge'densin!\n\r", ch);
-	  return;
-	}
-      ch->gold -= amount;
-      send_to_char( "Artýk memleketin Eski Selenge.\n\r", ch);
-      ch->hometown = 4;
-      return;
-    }
-
-  else
-    {
-      send_to_char("Geçerli bir seçim deðil.\n\r", ch);
-send_to_char("Seçebileceklerin: selenge, yenithalos, titan, ofcol and eskiselenge.\n\r",ch);
-      return;
-    }
-}
-
-
 void do_detect_hidden( CHAR_DATA *ch, char *argument)
 {
     AFFECT_DATA af;
@@ -4228,7 +4099,7 @@ void do_who_col( CHAR_DATA *ch, char *argument )
 	if (IS_TRUSTED(ch,LEVEL_IMMORTAL) || ch==wch ||
                    wch->level >= LEVEL_HERO)
 
-	  sprintf( buf, "[%3d %5s %3s] %s%s%s%s%s\n\r",
+	  sprintf( buf, "[%3d %8s %3s] %s%s%s%s%s\n\r",
 	    wch->level,
 	    RACE(wch) < MAX_PC_RACE ? race_table[RACE(wch)].who_name
 				    : "     ",
@@ -4241,7 +4112,7 @@ void do_who_col( CHAR_DATA *ch, char *argument )
 
 	else
 /*	  sprintf( buf, "[%s %s %s] %s%s%s%s%s\n\r",	*/
-	  sprintf( buf, "[%3s %5s    ] %s%s%s%s%s\n\r",
+	  sprintf( buf, "[%3s %8s    ] %s%s%s%s%s\n\r",
 		(get_curr_stat(wch, STAT_CHA) < 18 ) ? level_buf : "  ",
 	    RACE(wch) < MAX_PC_RACE ? race_table[RACE(wch)].who_name
 				    : "     ",

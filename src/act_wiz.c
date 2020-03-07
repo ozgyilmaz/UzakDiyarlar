@@ -4775,37 +4775,6 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	return;
       }
 
-    if ( !str_prefix( arg2, "hometown" ) )
-    {
-        if ( IS_NPC(victim) )
-	{
-	    send_to_char( "Mobiles don't have hometowns.\n\r", ch );
-	    return;
-	}
-        if ( value < 0 || value > 4 )
-        {
-            send_to_char( "Please choose one of the following :.\n\r", ch );
-            send_to_char( "Town        Alignment       Value\n\r", ch);
-            send_to_char( "----        ---------       -----\n\r", ch);
-            send_to_char( "Midgaard     Any              0\n\r", ch);
-            send_to_char( "New Thalos   Any              1\n\r", ch);
-            send_to_char( "Titan        Any              2\n\r", ch);
-            send_to_char( "Ofcol        Neutral          3\n\r", ch);
-            send_to_char( "Old Midgaard Evil             4\n\r", ch);
-            return;
-        }
-
-        if ((value == 2 && !IS_GOOD(victim)) || (value == 3 &&
-	!IS_NEUTRAL(victim)) || (value == 4 && !IS_EVIL(victim)))
-        {
-            send_to_char( "The hometown doesn't match this character's alignment.\n\r", ch );
-            return;
-        }
-
-        victim->hometown = value;
-        return;
-    }
-
     if ( !str_prefix( arg2, "thirst" ) )
     {
 	if ( IS_NPC(victim) )

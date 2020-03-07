@@ -1689,8 +1689,6 @@ int check_name_connected(DESCRIPTOR_DATA *inp, char *argument)
 }
 
 
-int hometown_check( CHAR_DATA *ch );
-int hometown_ok( CHAR_DATA *ch, int home );
 int ethos_check( CHAR_DATA *ch );
 
 /*
@@ -1700,7 +1698,6 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 {
     DESCRIPTOR_DATA *d_old, *d_next;
     char buf[MAX_STRING_LENGTH];
-    char buf1[MAX_STRING_LENGTH];
     char arg[MAX_INPUT_LENGTH];
     CHAR_DATA *ch;
     char *pwdnew;
@@ -2397,68 +2394,9 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	  }
           write_to_buffer( d, "\n\r[Devam etmek için ENTER]\n\r",0);
           ch->endur = 100;
-          d->connected = CON_PICK_HOMETOWN;
+					ch->hometown = 0;
+          d->connected = CON_GET_ETHOS;
 	break;
-
-      case CON_PICK_HOMETOWN:
-	sprintf(buf1,", [O]fcol");
-	sprintf(buf,"[S]elenge, Yeni [T]halos%s?",
-		IS_NEUTRAL(ch) ? buf1 : "");
-	if ( ch->endur )
-	 {
-	  ch->endur = 0;
-	  if (!hometown_check(ch))
-	   {
-	    do_help(ch,(char*)"memleket");
-            write_to_buffer( d, buf,0);
-	    d->connected = CON_PICK_HOMETOWN;
-	    return;
-	   }
-          else
-	   {
-            write_to_buffer( d, "[Devam etmek için ENTER]\n\r",0);
-	    ch->endur = 100;
-	    d->connected = CON_GET_ETHOS;
-	   }
-          break;
-	 }
-	switch(argument[0])
-         {
-	  case 'Y' : case 'y' : case '?' :
-		do_help(ch, (char*)"memleket");
-                write_to_buffer( d, buf,0);
-		return;
-	  case 'S' : case 's' :
-		if (hometown_ok(ch,0))
-		 {
-		  ch->hometown = 0;
-		  write_to_buffer(d,"Bundan böyle memleketin Selenge.\n\r",0);
-		  break;
-		 }
- 	  case 'T' : case 't' :
-		if (hometown_ok(ch,1))
-		 {
-		  ch->hometown = 1;
-		  write_to_buffer(d,"Bundan böyle memleketin Yeni Thalos.\n\r",0);
-		  break;
-		 }
-	  case 'O' : case 'o' :
-		if (hometown_ok(ch,3))
-		 {
-		  ch->hometown = 3;
-		  write_to_buffer(d,"Bundan böyle memleketin Ofcol.\n\r",0);
-		  break;
-		 }
-	  default:
-	   write_to_buffer(d, "\n\rGeçerli bir þehir seçmedin.\n\r", 0);
-	   write_to_buffer(d,
-		"Memleketin neresi olsun (bilgi: www.uzakdiyarlar.net)? ", 0);
-	   return;
-	 }
-        ch->endur = 100;
-        write_to_buffer( d, "\n\r[Devam etmek için ENTER]\n\r",0);
-        d->connected = CON_GET_ETHOS;
-        break;
 
       case CON_GET_ETHOS:
 	if ( !ch->endur )
@@ -2590,21 +2528,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    obj_to_char(create_object(get_obj_index(OBJ_VNUM_MAP),0),ch);
 	    obj_to_char(create_object(get_obj_index(OBJ_VNUM_NMAP1),0),ch);
 	    obj_to_char(create_object(get_obj_index(OBJ_VNUM_NMAP2),0),ch);
-
-	    if ( ch->hometown == 0 && IS_EVIL(ch) )
-	      obj_to_char(create_object(get_obj_index(OBJ_VNUM_MAP_SM),0),ch);
-
-	    if (ch->hometown == 1)
-	      obj_to_char(create_object(get_obj_index(OBJ_VNUM_MAP_NT),0),ch);
-
-	    if (ch->hometown == 3)
-      obj_to_char(create_object(get_obj_index(OBJ_VNUM_MAP_OFCOL),0),ch);
-
-	    if (ch->hometown == 2)
-      obj_to_char(create_object(get_obj_index(OBJ_VNUM_MAP_TITAN),0),ch);
-
-	    if (ch->hometown == 4)
-      obj_to_char(create_object(get_obj_index(OBJ_VNUM_MAP_OLD),0),ch);
+			obj_to_char(create_object(get_obj_index(OBJ_VNUM_MAP_SM),0),ch);
 
  	    ch->pcdata->learned[get_weapon_sn(ch,FALSE)]= 40;
 
@@ -3395,37 +3319,6 @@ char *get_stat_alias( CHAR_DATA *ch, int where )
 
 	return((char*)stat);
 
-}
-
-int hometown_check(CHAR_DATA *ch)
-{
- DESCRIPTOR_DATA *d = ch->desc;
-
-  if (ch->iclass == 10 || ch->iclass == 11)
-   {
-    write_to_buffer(d,"\n\r",0);
-    write_to_buffer(d,"Bundan böyle memleketin Eski Selenge.\n\r",0);
-    ch->hometown = 4;
-    write_to_buffer(d,"\n\r",0);
-    return 1;
-   }
-
-  if (ORG_RACE(ch) == 11 || ORG_RACE(ch) == 12
-	|| ORG_RACE(ch) == 13 || ORG_RACE(ch) == 14)
-   {
-    write_to_buffer(d,"\n\r",0);
-    write_to_buffer(d,"Bundan böyle memleketin Titan Vadisi.\n\r",0);
-    ch->hometown = 2;
-    write_to_buffer(d,"\n\r",0);
-    return 1;
-   }
- return 0;
-}
-
-int hometown_ok(CHAR_DATA *ch, int home)
-{
- if (!IS_NEUTRAL(ch) && home == 3) return 0;
- return 1;
 }
 
 int ethos_check(CHAR_DATA *ch)

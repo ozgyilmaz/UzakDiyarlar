@@ -208,7 +208,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
     fprintf( fp, "LogO %ld\n",	current_time		);
     fprintf( fp, "Vers %d\n",   7			);
     fprintf( fp, "Etho %d\n",   ch->ethos		);
-    fprintf( fp, "Home %d\n",   ch->hometown		);
+    fprintf( fp, "Home %d\n",   0		);
     fprintf( fp, "Cab  %d\n",   ch->cabal		);
     fprintf( fp, "Dead %d\n",   ch->pcdata->death	);
     fprintf( fp, "GhostCounter %d\n",   ch->pcdata->ghost_mode_counter	);

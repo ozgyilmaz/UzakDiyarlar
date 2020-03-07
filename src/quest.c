@@ -1106,7 +1106,7 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
   			}
   			REMOVE_BIT( ch->quest , QUEST_GIRTH );
   			ch->pcdata->questpoints += 900;
-  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
+  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 900 GP hesabýna geçti.\n\r");
   			return;
   		}
   		else if (is_name(arg2, (char*)"çanta"))
@@ -1127,7 +1127,7 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
   			}
   			REMOVE_BIT( ch->quest , QUEST_BACKPACK );
   			ch->pcdata->questpoints += 4500;
-  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 2400 GP hesabýna geçti.\n\r");
+  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 4500 GP hesabýna geçti.\n\r");
   			return;
   		}
   		else if (is_name(arg2, (char*)"testi"))
@@ -1148,7 +1148,7 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
   			}
   			REMOVE_BIT( ch->quest , QUEST_DECANTER );
   			ch->pcdata->questpoints += 450;
-  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 2400 GP hesabýna geçti.\n\r");
+  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 450 GP hesabýna geçti.\n\r");
   			return;
   		}
   		else if (is_name(arg2, (char*)"parlak"))
@@ -1169,7 +1169,7 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
   			}
   			REMOVE_BIT( ch->quest , QUEST_SILAH1 );
   			ch->pcdata->questpoints += 900;
-  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
+  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 900 GP hesabýna geçti.\n\r");
   			return;
   		}
       else if (is_name(arg2, (char*)"mat"))
@@ -1190,7 +1190,7 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
   			}
   			REMOVE_BIT( ch->quest , QUEST_SILAH2 );
   			ch->pcdata->questpoints += 900;
-  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
+  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 900 GP hesabýna geçti.\n\r");
   			return;
   		}
   		else if (is_name(arg2, (char*)"iþlemeli"))
@@ -1211,7 +1211,7 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
   			}
   			REMOVE_BIT( ch->quest , QUEST_YUZUK1 );
   			ch->pcdata->questpoints += 675;
-  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
+  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 675 GP hesabýna geçti.\n\r");
   			return;
   		}
       else if (is_name(arg2, (char*)"desenli"))
@@ -1232,7 +1232,7 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
   			}
   			REMOVE_BIT( ch->quest , QUEST_YUZUK2 );
   			ch->pcdata->questpoints += 675;
-  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
+  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 675 GP hesabýna geçti.\n\r");
   			return;
   		}
       else if (is_name(arg2, (char*)"oymalý"))
@@ -1253,7 +1253,7 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
   			}
   			REMOVE_BIT( ch->quest , QUEST_YUZUK3 );
   			ch->pcdata->questpoints += 675;
-  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
+  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 675 GP hesabýna geçti.\n\r");
   			return;
   		}
       else if (is_name(arg2, (char*)"kakmalý"))
@@ -1274,7 +1274,7 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
   			}
   			REMOVE_BIT( ch->quest , QUEST_YUZUK4 );
   			ch->pcdata->questpoints += 675;
-  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
+  			printf_to_char(ch,"Ýade iþlemi tamamlandý. 675 GP hesabýna geçti.\n\r");
   			return;
   		}
 
