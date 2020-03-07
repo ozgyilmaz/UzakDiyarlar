@@ -1840,8 +1840,8 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )
     mob->iclass		= CLASS_CLERIC;
 
 
-    mob->gold = number_range(level/5,level*2);
-    mob->silver = number_range(level/5,level*2);
+    mob->gold = number_range(mob->level/5,mob->level*2);
+    mob->silver = number_range(mob->level/5,mob->level*2);
 
   mob->act 		= pMobIndex->act | ACT_IS_NPC;
   mob->comm		= COMM_NOCHANNELS|COMM_NOSHOUT|COMM_NOTELL;

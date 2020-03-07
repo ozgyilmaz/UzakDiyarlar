@@ -1088,9 +1088,9 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
   			printf_to_char(ch,"Hangi görev ekipmanýný iade etmek istiyorsun?\n\rKullaným: {Rgörev iade <ekipman>{x\n\r");
   			return;
   		}
-  		else if (is_name(arg2, "kemer"))
+  		else if (is_name(arg2, (char*)"kemer"))
   		{
-  			if( !IS_SET(ch->pcdata->quest,QUEST_GIRTH) )
+  			if( !IS_SET(ch->quest,QUEST_GIRTH) )
   			{
   				printf_to_char(ch,"Bu eþyayý zaten almamýþsýn.\n\r");
   				return;
@@ -1104,14 +1104,14 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
   					break;
   				}
   			}
-  			REMOVE_BIT( ch->pcdata->quest , QUEST_GIRTH );
+  			REMOVE_BIT( ch->quest , QUEST_GIRTH );
   			ch->pcdata->questpoints += 900;
   			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
   			return;
   		}
-  		else if (is_name(arg2, "çanta"))
+  		else if (is_name(arg2, (char*)"çanta"))
   		{
-  			if( !IS_SET(ch->pcdata->quest,QUEST_BACKPACK) )
+  			if( !IS_SET(ch->quest,QUEST_BACKPACK) )
   			{
   				printf_to_char(ch,"Bu eþyayý zaten almamýþsýn.\n\r");
   				return;
@@ -1125,14 +1125,14 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
   					break;
   				}
   			}
-  			REMOVE_BIT( ch->pcdata->quest , QUEST_BACKPACK );
+  			REMOVE_BIT( ch->quest , QUEST_BACKPACK );
   			ch->pcdata->questpoints += 4500;
   			printf_to_char(ch,"Ýade iþlemi tamamlandý. 2400 GP hesabýna geçti.\n\r");
   			return;
   		}
-  		else if (is_name(arg2, "testi"))
+  		else if (is_name(arg2, (char*)"testi"))
   		{
-  			if( !IS_SET(ch->pcdata->quest,QUEST_DECANTER) )
+  			if( !IS_SET(ch->quest,QUEST_DECANTER) )
   			{
   				printf_to_char(ch,"Bu eþyayý zaten almamýþsýn.\n\r");
   				return;
@@ -1146,14 +1146,14 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
   					break;
   				}
   			}
-  			REMOVE_BIT( ch->pcdata->quest , QUEST_DECANTER );
+  			REMOVE_BIT( ch->quest , QUEST_DECANTER );
   			ch->pcdata->questpoints += 450;
   			printf_to_char(ch,"Ýade iþlemi tamamlandý. 2400 GP hesabýna geçti.\n\r");
   			return;
   		}
-  		else if (is_name(arg2, "parlak"))
+  		else if (is_name(arg2, (char*)"parlak"))
   		{
-  			if( !IS_SET(ch->pcdata->quest,QUEST_SILAH1) )
+  			if( !IS_SET(ch->quest,QUEST_SILAH1) )
   			{
   				printf_to_char(ch,"Bu eþyayý zaten almamýþsýn.\n\r");
   				return;
@@ -1167,14 +1167,14 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
   					break;
   				}
   			}
-  			REMOVE_BIT( ch->pcdata->quest , QUEST_SILAH1 );
+  			REMOVE_BIT( ch->quest , QUEST_SILAH1 );
   			ch->pcdata->questpoints += 900;
   			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
   			return;
   		}
-      else if (is_name(arg2, "mat"))
+      else if (is_name(arg2, (char*)"mat"))
   		{
-  			if( !IS_SET(ch->pcdata->quest,QUEST_SILAH2) )
+  			if( !IS_SET(ch->quest,QUEST_SILAH2) )
   			{
   				printf_to_char(ch,"Bu eþyayý zaten almamýþsýn.\n\r");
   				return;
@@ -1188,14 +1188,14 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
   					break;
   				}
   			}
-  			REMOVE_BIT( ch->pcdata->quest , QUEST_SILAH2 );
+  			REMOVE_BIT( ch->quest , QUEST_SILAH2 );
   			ch->pcdata->questpoints += 900;
   			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
   			return;
   		}
-  		else if (is_name(arg2, "iþlemeli"))
+  		else if (is_name(arg2, (char*)"iþlemeli"))
   		{
-  			if( !IS_SET(ch->pcdata->quest,QUEST_YUZUK1) )
+  			if( !IS_SET(ch->quest,QUEST_YUZUK1) )
   			{
   				printf_to_char(ch,"Bu eþyayý zaten almamýþsýn.\n\r");
   				return;
@@ -1209,14 +1209,14 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
   					break;
   				}
   			}
-  			REMOVE_BIT( ch->pcdata->quest , QUEST_YUZUK1 );
+  			REMOVE_BIT( ch->quest , QUEST_YUZUK1 );
   			ch->pcdata->questpoints += 675;
   			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
   			return;
   		}
-      else if (is_name(arg2, "desenli"))
+      else if (is_name(arg2, (char*)"desenli"))
   		{
-  			if( !IS_SET(ch->pcdata->quest,QUEST_YUZUK2) )
+  			if( !IS_SET(ch->quest,QUEST_YUZUK2) )
   			{
   				printf_to_char(ch,"Bu eþyayý zaten almamýþsýn.\n\r");
   				return;
@@ -1230,14 +1230,14 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
   					break;
   				}
   			}
-  			REMOVE_BIT( ch->pcdata->quest , QUEST_YUZUK2 );
+  			REMOVE_BIT( ch->quest , QUEST_YUZUK2 );
   			ch->pcdata->questpoints += 675;
   			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
   			return;
   		}
-      else if (is_name(arg2, "oymalý"))
+      else if (is_name(arg2, (char*)"oymalý"))
   		{
-  			if( !IS_SET(ch->pcdata->quest,QUEST_YUZUK3) )
+  			if( !IS_SET(ch->quest,QUEST_YUZUK3) )
   			{
   				printf_to_char(ch,"Bu eþyayý zaten almamýþsýn.\n\r");
   				return;
@@ -1251,14 +1251,14 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
   					break;
   				}
   			}
-  			REMOVE_BIT( ch->pcdata->quest , QUEST_YUZUK3 );
+  			REMOVE_BIT( ch->quest , QUEST_YUZUK3 );
   			ch->pcdata->questpoints += 675;
   			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
   			return;
   		}
-      else if (is_name(arg2, "kakmalý"))
+      else if (is_name(arg2, (char*)"kakmalý"))
   		{
-  			if( !IS_SET(ch->pcdata->quest,QUEST_YUZUK4) )
+  			if( !IS_SET(ch->quest,QUEST_YUZUK4) )
   			{
   				printf_to_char(ch,"Bu eþyayý zaten almamýþsýn.\n\r");
   				return;
@@ -1272,7 +1272,7 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
   					break;
   				}
   			}
-  			REMOVE_BIT( ch->pcdata->quest , QUEST_YUZUK4 );
+  			REMOVE_BIT( ch->quest , QUEST_YUZUK4 );
   			ch->pcdata->questpoints += 675;
   			printf_to_char(ch,"Ýade iþlemi tamamlandý. 800 GP hesabýna geçti.\n\r");
   			return;

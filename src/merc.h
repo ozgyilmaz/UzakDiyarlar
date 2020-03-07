@@ -651,14 +651,20 @@ struct	class_type
 #define LANG_HUMAN           1
 #define LANG_CORA            2
 #define LANG_DWARVISH        3
+#define LANG_BIRD			4
 #define LANG_YEG	     5
 #define LANG_GAMAYUN        6
-#define LANG_PARDUS	     8
-#define LANG_ASURA	     9
-#define LANG_GNOMISH		10
-#define LANG_GIANT			11
-#define LANG_CAT			12
-#define MAX_LANGUAGE	     8
+#define LANG_PARDUS	     7
+#define LANG_ASURA	     8
+#define LANG_GNOMISH		9
+#define LANG_GIANT			10
+#define LANG_CAT			11
+#define LANG_SURUNGEN 12
+#define LANG_ASTRAL 13
+#define LANG_DRAGON 14
+#define LANG_WATER 15
+#define LANG_DOG 16
+#define MAX_LANGUAGE	     17
 
 struct item_type
 {
