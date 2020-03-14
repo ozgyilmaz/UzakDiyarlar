@@ -5939,7 +5939,7 @@ void spell_mist_walk( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     ||   IS_SET(victim->in_room->room_flags, ROOM_SOLITARY)
     ||   IS_SET(ch->in_room->room_flags, ROOM_NOSUMMON)
     ||   IS_SET(victim->in_room->room_flags, ROOM_NOSUMMON)
-    ||   victim->level >= level - 5
+    ||   victim->level >= level + 3
 /*    ||   (!IS_NPC(victim) && victim->level >= LEVEL_HERO)  * NOT trust */
     ||   saves_spell(level,victim,DAM_OTHER)
     ||   (IS_NPC(victim) && is_safe_nomessage(ch, victim) && IS_SET(victim->imm_flags,IMM_SUMMON))

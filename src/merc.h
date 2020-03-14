@@ -276,6 +276,7 @@ typedef void OPROG_FUN_AREA args((OBJ_DATA *obj));
  * Game parameters.
  */
 #define MAKSIMUM_LIMIT 3
+#define MAKSIMUM_LIMIT_KABAL 4
 #define MAX_SOCIALS		  256
 #define MAX_SKILL		  426
 #define MAX_ALIAS		   20
@@ -3239,14 +3240,7 @@ void	affect_remove	args( ( CHAR_DATA *ch, AFFECT_DATA *paf ) );
 void	affect_remove_obj args( (OBJ_DATA *obj, AFFECT_DATA *paf ) );
 void	affect_strip	args( ( CHAR_DATA *ch, int sn ) );
 bool	is_affected	args( ( CHAR_DATA *ch, int sn ) );
-void	affect_to_room	args( ( ROOM_INDEX_DATA *room, AFFECT_DATA *paf ) );
-void	affect_remove_room	args( ( ROOM_INDEX_DATA *room, AFFECT_DATA *paf ) );
-void	affect_strip_room	args( ( ROOM_INDEX_DATA *ch, int sn ) );
-bool	is_affected_room	args( ( ROOM_INDEX_DATA *ch, int sn ) );
-void	affect_join_room	args( ( ROOM_INDEX_DATA *ch, AFFECT_DATA *paf ) );
 void	affect_join	args( ( CHAR_DATA *ch, AFFECT_DATA *paf ) );
-void	char_from_room	args( ( CHAR_DATA *ch ) );
-void	char_to_room	args( ( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex ) );
 void	obj_to_char	args( ( OBJ_DATA *obj, CHAR_DATA *ch ) );
 void	obj_from_char	args( ( OBJ_DATA *obj ) );
 int	apply_ac	args( ( OBJ_DATA *obj, int iWear, int type ) );
@@ -3254,8 +3248,6 @@ OD *	get_eq_char	args( ( CHAR_DATA *ch, int iWear ) );
 void	equip_char	args( ( CHAR_DATA *ch, OBJ_DATA *obj, int iWear ) );
 void	unequip_char	args( ( CHAR_DATA *ch, OBJ_DATA *obj ) );
 int	count_obj_list	args( ( OBJ_INDEX_DATA *obj, OBJ_DATA *list ) );
-void	obj_from_room	args( ( OBJ_DATA *obj ) );
-void	obj_to_room	args( ( OBJ_DATA *obj, ROOM_INDEX_DATA *pRoomIndex ) );
 void	obj_to_obj	args( ( OBJ_DATA *obj, OBJ_DATA *obj_to ) );
 void	obj_from_obj	args( ( OBJ_DATA *obj ) );
 void	extract_obj	args( ( OBJ_DATA *obj ) );
@@ -3264,8 +3256,6 @@ void	extract_obj_1	args( ( OBJ_DATA *obj, bool count ) );
 void	extract_char	args( ( CHAR_DATA *ch, bool fPull ) );
 void	extract_char_nocount	args( ( CHAR_DATA *ch, bool fPull ) );
 void	extract_char_org	args( ( CHAR_DATA *ch, bool fPull, bool Count ) );
-CD *	get_char_room	args( ( CHAR_DATA *ch, char *argument ) );
-CD *	get_char_room2	args( ( CHAR_DATA *ch, ROOM_INDEX_DATA *room,char *argument, int *number ) );
 CD *	get_char_world	args( ( CHAR_DATA *ch, char *argument ) );
 CD *	get_char_area	args( ( CHAR_DATA *ch, char *argument ) );
 OD *	get_obj_type	args( ( OBJ_INDEX_DATA *pObjIndexData ) );
@@ -3280,21 +3270,14 @@ int	get_obj_number	args( ( OBJ_DATA *obj ) );
 int	get_obj_realnumber	args( ( OBJ_DATA *obj ) );
 int	get_obj_weight	args( ( OBJ_DATA *obj ) );
 int	get_true_weight	args( ( OBJ_DATA *obj ) );
-bool	room_is_dark	args( ( CHAR_DATA *ch ) );
-bool	room_dark	args( ( ROOM_INDEX_DATA *pRoomIndex ) );
 bool	isn_dark_safe	args( ( CHAR_DATA *ch ) );
-bool	is_room_owner	args( ( CHAR_DATA *ch, ROOM_INDEX_DATA *room) );
-bool	room_is_private	args( ( ROOM_INDEX_DATA *pRoomIndex ) );
 bool	can_see		args( ( CHAR_DATA *ch, CHAR_DATA *victim ) );
 bool	can_see_obj	args( ( CHAR_DATA *ch, OBJ_DATA *obj ) );
-bool	can_see_room	args( ( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex) );
 bool	can_drop_obj	args( ( CHAR_DATA *ch, OBJ_DATA *obj ) );
 char *	item_type_name	args( ( OBJ_DATA *obj ) );
 char *	affect_loc_name	args( ( int location ) );
-char * raffect_loc_name args( ( int location ) );
 char *	affect_bit_name	args( ( int vector ) );
 char *	detect_bit_name	args( ( int location ) );
-char * raffect_bit_name	args( ( int vector ) );
 char *	extra_bit_name	args( ( int extra_flags ) );
 char * 	wear_bit_name	args( ( int wear_flags ) );
 char *	act_bit_name	args( ( int act_flags ) );
@@ -3305,12 +3288,9 @@ char *	part_bit_name	args( ( int part_flags ) );
 char *	weapon_bit_name	args( ( int weapon_flags ) );
 char *  comm_bit_name	args( ( int comm_flags ) );
 char *	cont_bit_name	args( ( int cont_flags) );
-char *  flag_room_name	args( ( int vector) );
-void    room_record     args( ( char *name, ROOM_INDEX_DATA *room,sh_int door) );
 int	ch_skill_nok	args( ( CHAR_DATA *ch , int skill ) );
 int	ch_skill_nok_nomessage	args( ( CHAR_DATA *ch , int skill ) );
 int  	affect_check_obj	args( (CHAR_DATA *ch, int vector) );
-bool	is_safe_rspell	args( ( int level, CHAR_DATA *victim) );
 int	count_charmed	args( ( CHAR_DATA *ch ) );
 void	add_mind	args( ( CHAR_DATA *ch, char *str) );
 void	remove_mind	args( ( CHAR_DATA *ch, char *str) );
@@ -3332,6 +3312,36 @@ int	get_total_played	args( ( CHAR_DATA *ch ) );
 int	parse_date	args( ( time_t t ) );
 int	parse_time	args( ( time_t t ) );
 int	parse_time_spec	args( ( time_t t ) );
+bool room_has_exit args( ( ROOM_INDEX_DATA *room ) );
+
+/* handler_room.c */
+bool	can_see_room	args( ( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex) );
+bool	room_is_private	args( ( ROOM_INDEX_DATA *pRoomIndex ) );
+bool	is_room_owner	args( ( CHAR_DATA *ch, ROOM_INDEX_DATA *room) );
+void	affect_modify_room	args( ( ROOM_INDEX_DATA *room, AFFECT_DATA *paf, bool fAdd ) );
+void	affect_to_room	args( ( ROOM_INDEX_DATA *room, AFFECT_DATA *paf ) );
+void affect_check_room args( (ROOM_INDEX_DATA *room,int where,int vector) );
+void	affect_remove_room	args( ( ROOM_INDEX_DATA *room, AFFECT_DATA *paf ) );
+void	affect_strip_room	args( ( ROOM_INDEX_DATA *ch, int sn ) );
+bool	is_affected_room	args( ( ROOM_INDEX_DATA *ch, int sn ) );
+void	affect_join_room	args( ( ROOM_INDEX_DATA *ch, AFFECT_DATA *paf ) );
+bool is_safe_rspell_nom args( (int level, CHAR_DATA *victim ) );
+bool is_safe_rspell	args( ( int level, CHAR_DATA *victim) );
+void raffect_to_char args( ( ROOM_INDEX_DATA *room, CHAR_DATA *ch) );
+void raffect_back_char args( ( ROOM_INDEX_DATA *room, CHAR_DATA *ch) );
+char * raffect_loc_name args( ( int location ) );
+char * raffect_bit_name	args( ( int vector ) );
+char *  flag_room_name	args( ( int vector) );
+bool	room_dark	args( ( ROOM_INDEX_DATA *pRoomIndex ) );
+bool	room_is_dark	args( ( CHAR_DATA *ch ) );
+CD *	get_char_room	args( ( CHAR_DATA *ch, char *argument ) );
+CD *	get_char_room2	args( ( CHAR_DATA *ch, ROOM_INDEX_DATA *room,char *argument, int *number ) );
+void	obj_from_room	args( ( OBJ_DATA *obj ) );
+void	obj_to_room	args( ( OBJ_DATA *obj, ROOM_INDEX_DATA *pRoomIndex ) );
+void	char_from_room	args( ( CHAR_DATA *ch ) );
+void	char_to_room	args( ( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex ) );
+void    room_record     args( ( char *name, ROOM_INDEX_DATA *room,sh_int door) );
+
 
 /* interp.c */
 void	interpret	args( ( CHAR_DATA *ch, char *argument, bool is_order ) );

@@ -101,3 +101,11 @@ Uzak Diyarlar 2.1b1
 - pc_race_table kaldırıldı. Artık ırklara ait tüm bilgiler race_table'da saklanıyor.
 - mob wealth kaldırıldı. Dükkan işleten moblara biraz daha fala altın ve akçe verildi.
 - görev eşyalarını %10 GP kaybıyla iade edebilme eklendi. Komut: görev iade <eşya_adı>
+- memleket seçimi kaldırıldı.
+
+Uzak Diyarlar 2.1b2
+- Kabal üyeleri için limit eşya sayısı sınırı 4 yapıldı.
+- handler.c'deki oda fonksiyonları handler_room'a taşındı.
+- gizemli yürüyüşteki kurban seviyesi değiştirildi.
+- ufala ile görev bitirme etkinleştirildi.
+- çıkışsız odalara görev verilmeyecek.

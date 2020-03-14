@@ -1354,7 +1354,7 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
         return;
        }
 
-       if ( (room = victim->in_room) == NULL )
+       if ( (room = victim->in_room) == NULL || room_has_exit( victim->in_room ) == FALSE )
        {
          sprintf(buf, "Üzgünüm ama þu an sana verebileceðim bir görev yok.");
        	do_tell_quest(ch,questman,buf);
@@ -1461,6 +1461,7 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
      if ( vsearch == NULL
 	 || (victim = get_quest_world(ch, vsearch)) == NULL
 	 || (room = victim->in_room ) == NULL
+   || room_has_exit( victim->in_room ) == FALSE
 	 || IS_SET(room->area->area_flag,AREA_HOMETOWN))
      {
        sprintf(buf, "Üzgünüm ama þu an sana verebileceðim bir görev yok.");

@@ -253,6 +253,15 @@ void spell_disintegrate( int sn, int level, CHAR_DATA *ch, void *vo, int target)
   send_to_char("Birkaç dakikalýðýna yenilmez bir hayalete dönüþtün.\n\r",victim);
   send_to_char("Tabii birþeylere saldýrmadýðýn sürece.\n\r", victim);
 
+  if (!IS_NPC(ch) && IS_QUESTOR(ch) && IS_NPC(victim))
+  {
+    if (ch->pcdata->questmob == victim->pIndexData->vnum)
+    {
+      printf_to_char(ch,"{cGörevin neredeyse tamamlandý!\n\rZamanýn bitmeden önce görevciye git!{x\n\r");
+      ch->pcdata->questmob = -1;
+    }
+  }
+
     /*  disintegrate the objects... */
     tattoo = get_eq_char(victim, WEAR_TATTOO); /* keep tattoos for later */
     if (tattoo != NULL)

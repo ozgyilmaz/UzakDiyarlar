@@ -5034,7 +5034,12 @@ bool limit_kontrol (CHAR_DATA *ch, OBJ_DATA *obj)
 					(c_obj->item_type == ITEM_POTION) )
 						continue;
 					limit_sayisi++;
-					if(limit_sayisi > MAKSIMUM_LIMIT)
+					if( !(ch->cabal) && limit_sayisi > MAKSIMUM_LIMIT)
+					{
+						extract_obj( c_obj );
+						limit_sayisi--;
+					}
+          else if( (ch->cabal) && limit_sayisi > MAKSIMUM_LIMIT_KABAL)
 					{
 						extract_obj( c_obj );
 						limit_sayisi--;
@@ -5049,11 +5054,16 @@ bool limit_kontrol (CHAR_DATA *ch, OBJ_DATA *obj)
 				(b_obj->item_type == ITEM_POTION) )
 					continue;
 			limit_sayisi++;
-			if(limit_sayisi > MAKSIMUM_LIMIT)
+			if( !(ch->cabal) && limit_sayisi > MAKSIMUM_LIMIT)
 			{
 				extract_obj( b_obj );
 				limit_sayisi--;
 			}
+      else if( (ch->cabal) && limit_sayisi > MAKSIMUM_LIMIT_KABAL)
+      {
+        extract_obj( c_obj );
+        limit_sayisi--;
+      }
 		}
 	}
 
