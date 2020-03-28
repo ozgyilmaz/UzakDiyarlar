@@ -443,21 +443,17 @@ weapon A AN
 staff 10 1 pierce 0
 0 160 0 P
 #29
-bitmeyen su testisi~
-Bitmeyen su testisi~
+kahraman testi~
+%s kahraman testisi [%s]~
 Küçük bir testi yerde duruyor.~
 leather~
 drink AGIOY A
 100000 100000 'water' 0 0
 21 10 29900 G
-E
-decanter~
-The letters '%s' is carved on the upper surface of the decanter.
-~
 #30
-ipek adamant sýrtçanta çanta sýrt~
-Ýpek Adamant Sýrt Çantasý~
-Çok parlak bir sýrt çantasý görüyorsun.~
+kahraman çanta~
+%s kahraman çantasý [%s]~
+Bir çanta yerde duruyor.~
 silk~
 container AGIOY AKOP
 500 64 0 100 10
@@ -482,10 +478,6 @@ A
 19 20
 A
 24 -20
-E
-çanta sýrtçatasý ipek adamant~
-Üzerinde altýn harflerle '%s' yazýyor.
-~
 #31
 lion shield~
 Shield Lion~

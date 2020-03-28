@@ -2113,15 +2113,17 @@ OBJ_DATA *create_object_org( OBJ_INDEX_DATA *pObjIndex, int level, bool Count )
     obj->enchanted	= FALSE;
 
     for (i=1;i < MAX_CABAL;i++)
+    {
       if (pObjIndex->vnum == cabal_table[i].obj_vnum)
       {
-	/*
-	if ( count_obj_list( pObjIndex, object_list) > 0 )
-	  return(NULL);
-	*/
+        /*
+        if ( count_obj_list( pObjIndex, object_list) > 0 )
+        return(NULL);
+        */
         cabal_table[i].obj_ptr = obj;
-	break;
+        break;
       }
+    }
     if ( ( obj->pIndexData->limit != -1 )  &&
 	 ( obj->pIndexData->count >= obj->pIndexData->limit ) )
 

@@ -2276,7 +2276,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	iClass = class_lookup(argument);
 	argument = one_argument(argument,arg);
 
-	if (!str_cmp(arg,"help"))
+	if (!str_cmp(arg,"yardým"))
 	  {
 	    if (argument[0] == '\0')
 		do_help(ch,(char*)"sýnýflar");
@@ -2432,7 +2432,14 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	  ch->endur = 0;
 	  if (!ethos_check(ch))
 	   {
-			 write_to_buffer(d, "Etiðin ne olsun, (T/Y/K) (bilgi: www.uzakdiyarlar.net)?",0);
+				 write_to_buffer( d, "Sýra geldi karakterin için etik seçmeye. Etik, basit\n\r",0);
+				 write_to_buffer( d, "bir ifadeyle karakterin kanunlara karþý davranýþ\n\r",0);
+				 write_to_buffer( d, "biçimini belirler. Ayrýntýlý bilgiye siteden ulaþabilirsin.\n\r\n\r",0);
+				 write_to_buffer( d, "Üç çeþit etik vardýr:\n\r",0);
+				 write_to_buffer( d, "Tüze: kanunlarýn toplum yaþamý için vazgeçilmez olduðuna inanýr.\n\r",0);
+				 write_to_buffer( d, "Yansýz: kanunlarýn varlýðý veya yokluðuyla ilgilenmez.\n\r",0);
+				 write_to_buffer( d, "Kaos: kanunlarýn özgürlüðün ve iradenin önünde engel olduðuna inanýr.\n\r\n\r",0);
+				 write_to_buffer( d, "Karakterinin etiðinin ne olmasýný istiyorsun ( t - y - k )? ",0);
 	    d->connected = CON_GET_ETHOS;
 	    return;
 	   }

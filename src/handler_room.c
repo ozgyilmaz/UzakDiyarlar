@@ -10,6 +10,28 @@
  *                                                                         *
  ***************************************************************************/
 
+ #if defined(macintosh)
+ #include <types.h>
+ #else
+ #include <sys/types.h>
+ #endif
+ #include <ctype.h>
+ #include <stdlib.h>
+ #include <stdio.h>
+ #include <string.h>
+ #include <time.h>
+ #include "merc.h"
+ #include "magic.h"
+ #include "recycle.h"
+ #include "tables.h"
+
+ /* command procedures needed */
+ DECLARE_DO_FUN(do_return	);
+ DECLARE_DO_FUN(do_wake		);
+ DECLARE_DO_FUN(do_raffects	);
+ DECLARE_DO_FUN(do_say		);
+ DECLARE_DO_FUN(do_track		);
+
  /* visibility on a room -- for entering and exits */
  bool can_see_room( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex )
  {

@@ -739,20 +739,11 @@ act_color( "$CGökyüzünde þimþekler çakýyor.$c",   ch, NULL,
 	}
 	if (obj != NULL)
 	{
-	 if ( obj->pIndexData->vnum == QUEST_ITEM4
-	      || obj->pIndexData->vnum == QUEST_ITEM5)
-	 {
-	  sprintf( buf,obj->pIndexData->extra_descr->description,ch->name );
-	  obj->extra_descr = new_extra_descr();
-	  obj->extra_descr->keyword =
-		str_dup( obj->pIndexData->extra_descr->keyword );
-	  obj->extra_descr->description = str_dup( buf );
-	  obj->extra_descr->next = NULL;
-	 }
    if ( obj->pIndexData->vnum == QUEST_ITEM1 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK1
 	      || obj->pIndexData->vnum == QUEST_ITEM_YUZUK2 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK3
         || obj->pIndexData->vnum == QUEST_ITEM_YUZUK4 || obj->pIndexData->vnum == QUEST_ITEM_SILAH1
-        || obj->pIndexData->vnum == QUEST_ITEM_SILAH2
+        || obj->pIndexData->vnum == QUEST_ITEM_SILAH2 || obj->pIndexData->vnum == QUEST_ITEM4
+        || obj->pIndexData->vnum == QUEST_ITEM5
       )
 	 {
 	  sprintf( buf, obj->short_descr,
@@ -1053,20 +1044,12 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
 	 }
 	}
         obj = create_object(get_obj_index(trouble_vnum),ch->level);
-	if ( obj->pIndexData->vnum == QUEST_ITEM4
-	      || obj->pIndexData->vnum == QUEST_ITEM5)
-	 {
-	  sprintf( buf,obj->pIndexData->extra_descr->description,ch->name );
-	  obj->extra_descr = new_extra_descr();
-	  obj->extra_descr->keyword =
-		str_dup( obj->pIndexData->extra_descr->keyword );
-	  obj->extra_descr->description = str_dup( buf );
-	  obj->extra_descr->next = NULL;
-	 }
+
 	 if ( obj->pIndexData->vnum == QUEST_ITEM1 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK1
 	      || obj->pIndexData->vnum == QUEST_ITEM_YUZUK2 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK3
         || obj->pIndexData->vnum == QUEST_ITEM_YUZUK4 || obj->pIndexData->vnum == QUEST_ITEM_SILAH1
-        || obj->pIndexData->vnum == QUEST_ITEM_SILAH2
+        || obj->pIndexData->vnum == QUEST_ITEM_SILAH2 || obj->pIndexData->vnum == QUEST_ITEM4
+        || obj->pIndexData->vnum == QUEST_ITEM5
       )
 	 {
 	  sprintf( buf, obj->short_descr,

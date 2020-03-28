@@ -153,23 +153,45 @@ int weapon_lookup (const char *name)
     return -1;
 }
 
+/*
+ * Belirtilen büyü/yetenek için ch'nin cabal durumu OK midir?
+ */
 bool cabal_ok(CHAR_DATA *ch, sh_int sn)
 {
   int i;
 
-  if (IS_NPC(ch) || skill_table[sn].cabal == CABAL_NONE ||
-      cabal_table[ch->cabal].obj_ptr == NULL ||
-      cabal_table[ch->cabal].obj_ptr->in_room == NULL ||
-      cabal_table[ch->cabal].obj_ptr->in_room->vnum ==
-        cabal_table[ch->cabal].room_vnum)
+  // ch bir NPC
+  if (IS_NPC(ch))
+    return TRUE;
+
+  // belirtilen yetenek/büyü kabal baðýmlý deðil.
+  if (skill_table[sn].cabal == CABAL_NONE)
+    return TRUE;
+
+  // kabal eþyasýnýn tablodaki pointer'ý henüz boþ.
+  // kabal eþyasý extract edilmiþ olabilir.
+  if (cabal_table[ch->cabal].obj_ptr == NULL)
+    return TRUE;
+
+  // Kabal eþyasý bir odaya býrakýlmamýþ.
+  // Alan kiþi envanterinde taþýyor olabilir.
+  if (cabal_table[ch->cabal].obj_ptr->in_room == NULL )
+    return TRUE;
+
+  // Kabal eþyasý olmasý gereken odada duruyor.
+  if (cabal_table[ch->cabal].obj_ptr->in_room->vnum == cabal_table[ch->cabal].room_vnum)
     return TRUE;
 
   for (i=1;i < MAX_CABAL; i++)
-    if (cabal_table[ch->cabal].obj_ptr->in_room->vnum ==
-          cabal_table[i].room_vnum) {
-            send_to_char( "Kabal gücünün varolmadýðýný hissediyorsun.\n\r",ch);
+  {
+    // Kabal eþyasý baþka bir kabalýn hedef odasýna koyulmuþ.
+    // Artýk eþyasý alýnan kabalýn güçleri iptal edilebilir.
+    if (cabal_table[ch->cabal].obj_ptr->in_room->vnum == cabal_table[i].room_vnum)
+    {
+      send_to_char( "Kabal gücünün varolmadýðýný hissediyorsun.\n\r",ch);
       return FALSE;
     }
+  }
 
   return TRUE;
 }
@@ -225,18 +247,25 @@ const char *weapon_name( int weapon_type)
 
 void familya_check_improve(CHAR_DATA* ch,CHAR_DATA* victim)
 {
-	int chance;
-	if (IS_NPC(ch))
-		return;
-	if(ch->pcdata->familya[victim->race] >= 100)
-		return;
-	chance = 3 * int_app[get_curr_stat(ch,STAT_INT)].learn;
+  int chance;
 
-	if(number_range(1,10000) > chance)
-		return;
-	ch->pcdata->familya[victim->race]++;
-	printf_to_char(ch,"{g%s ýrkýna iliþkin irfanýn artýyor!{x\n\r",race_table[victim->race].name[1]);
-	return;
+  if (IS_NPC(ch))
+  {
+    return;
+  }
+  if(ch->pcdata->familya[victim->race] >= 100)
+  {
+    return;
+  }
+  chance = 2 * int_app[get_curr_stat(ch,STAT_INT)].learn;
+
+  if(number_range(1,10000) > chance)
+  {
+    return;
+  }
+  ch->pcdata->familya[victim->race]++;
+  printf_to_char(ch,"{g%s ýrkýna iliþkin irfanýn artýyor!{x\n\r",race_table[victim->race].name[1]);
+  return;
 }
 
 /*
@@ -3583,13 +3612,14 @@ int parse_time( time_t t )
 
 bool room_has_exit( ROOM_INDEX_DATA *room )
 {
+  int i;
 
   if ( room != NULL )
     return FALSE;
 
   for(i=0;i<6;i++)
   {
-    if (room->exit[dir] != NULL)
+    if (room->exit[i] != NULL)
       return TRUE;
   }
 

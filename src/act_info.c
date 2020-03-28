@@ -1092,41 +1092,46 @@ void do_show(CHAR_DATA *ch, char *argument)
 
 void do_prompt(CHAR_DATA *ch, char *argument)
 {
-   char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH];
 
-   if ( argument[0] == '\0' )
-   {
-	if (IS_SET(ch->comm,COMM_PROMPT))
-   	{
+  if ( argument[0] == '\0' )
+  {
+    if (IS_SET(ch->comm,COMM_PROMPT))
+    {
       printf_to_char(ch,"Suflör kapatýldý.\n\r");
-      	    REMOVE_BIT(ch->comm,COMM_PROMPT);
-    	}
-    	else
-    	{
-        printf_to_char(ch,"Suflör açýldý.\n\r");
-      	    SET_BIT(ch->comm,COMM_PROMPT);
-    	}
-       return;
-   }
+      REMOVE_BIT(ch->comm,COMM_PROMPT);
+    }
+    else
+    {
+      printf_to_char(ch,"Suflör açýldý.\n\r");
+      SET_BIT(ch->comm,COMM_PROMPT);
+    }
+    return;
+  }
 
-   if( !strcmp( argument, "tümü" ) )
-   strcpy( buf, "Yp:%h/%H Mp:%m/%M Hp:%v/%V <%o>->{x ");
-   else
-   {
-      if ( strlen(argument) > 50 )
-         argument[50] = '\0';
-      strcpy( buf, argument );
-      smash_tilde( buf );
-      if (str_suffix("%c",buf))
-	strcat(buf," ");
+  if( !strcmp( argument, "tümü" ) )
+  {
+    strcpy( buf, "Yp:%h/%H Mp:%m/%M Hp:%v/%V <%o>->{x ");
+  }
+  else
+  {
+    if ( strlen(argument) > 50 )
+    {
+      argument[50] = '\0';
+    }
+    strcpy( buf, argument );
+    smash_tilde( buf );
+    if (str_suffix("%c",buf))
+    {
+      strcat(buf," ");
+    }
+  }
 
-   }
-
-   free_string( ch->prompt );
-   ch->prompt = str_dup( buf );
-   printf_to_char(ch,"Suflör %s olarak ayarlandý.\n\r",ch->prompt );
-   send_to_char(buf,ch);
-   return;
+  free_string( ch->prompt );
+  ch->prompt = str_dup( buf );
+  printf_to_char(ch,"Suflör %s olarak ayarlandý.\n\r",ch->prompt );
+  send_to_char(buf,ch);
+  return;
 }
 
 void do_combine(CHAR_DATA *ch, char *argument)

@@ -1107,18 +1107,39 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
       dam *= 3;
 
 			/*
-			 * familya
+			 * ırk bilgisi etkisi (familya)
 			 */
 			if(!IS_NPC(ch))
 			{
-				i= ch->pcdata->familya[victim->race];
-				if (i>0 && (number_range(1,200) < i) && dam > 0)
+				if ( ch->pcdata->familya[victim->race] > 0 &&
+						 number_range(1,200) < ch->pcdata->familya[victim->race] &&
+						 dam > 0 )
 				{
-					dam += (i * 3);
+					i = number_range(1,100);
+					if (i<=5)
+					{
+						dam = dam * 5;
+						printf_to_char(ch,"{gBirden %s ırkına ilişkin bilgini kullanabileceğin fevkalade bir an yakalıyorsun.{x",race_table[victim->race].name[1])
+					}
+					else if (i>5 && i<=10)
+					{
+						dam = dam * 3;
+						printf_to_char(ch,"{gBirden %s ırkına ilişkin bilgini kullanabileceğin güzel bir an yakalıyorsun.{x",race_table[victim->race].name[1])
+					}
+					else if (i>15 && i<=30)
+					{
+						dam = dam * 2;
+						printf_to_char(ch,"{gBirden %s ırkına ilişkin bilgini kullanabileceğin iyi bir an yakalıyorsun.{x",race_table[victim->race].name[1])
+					}
+					else
+					{
+						dam = int(dam * 3 / 2);
+						printf_to_char(ch,"{gBirden %s ırkına ilişkin bilgini kullanabileceğin bir an yakalıyorsun.{x",race_table[victim->race].name[1])
+					}
 				}
 			}
 			/*
-			 * familya bitti
+			 * ırk bilgisi etkisi bitti
 			 */
 
     if (!IS_NPC(ch) && get_skill(ch,gsn_deathblow) > 1 &&
