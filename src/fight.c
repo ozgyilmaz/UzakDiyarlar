@@ -1119,22 +1119,22 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 					if (i<=5)
 					{
 						dam = dam * 5;
-						printf_to_char(ch,"{gBirden %s ýrkýna iliþkin bilgini kullanabileceðin fevkalade bir an yakalýyorsun.{x",race_table[victim->race].name[1])
+						printf_to_char(ch,"{gBirden %s ýrkýna iliþkin bilgini kullanabileceðin fevkalade bir an yakalýyorsun.{x",race_table[victim->race].name[1]);
 					}
 					else if (i>5 && i<=10)
 					{
 						dam = dam * 3;
-						printf_to_char(ch,"{gBirden %s ýrkýna iliþkin bilgini kullanabileceðin güzel bir an yakalýyorsun.{x",race_table[victim->race].name[1])
+						printf_to_char(ch,"{gBirden %s ýrkýna iliþkin bilgini kullanabileceðin güzel bir an yakalýyorsun.{x",race_table[victim->race].name[1]);
 					}
 					else if (i>15 && i<=30)
 					{
 						dam = dam * 2;
-						printf_to_char(ch,"{gBirden %s ýrkýna iliþkin bilgini kullanabileceðin iyi bir an yakalýyorsun.{x",race_table[victim->race].name[1])
+						printf_to_char(ch,"{gBirden %s ýrkýna iliþkin bilgini kullanabileceðin iyi bir an yakalýyorsun.{x",race_table[victim->race].name[1]);
 					}
 					else
 					{
 						dam = int(dam * 3 / 2);
-						printf_to_char(ch,"{gBirden %s ýrkýna iliþkin bilgini kullanabileceðin bir an yakalýyorsun.{x",race_table[victim->race].name[1])
+						printf_to_char(ch,"{gBirden %s ýrkýna iliþkin bilgini kullanabileceðin bir an yakalýyorsun.{x",race_table[victim->race].name[1]);
 					}
 				}
 			}
