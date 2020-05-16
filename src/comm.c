@@ -2340,7 +2340,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 				write_to_buffer( d, "bir ifadeyle karakterin topluma ve doðaya karþý davranýþ\n\r",0);
 				write_to_buffer( d, "biçimini belirler. Ayrýntýlý bilgiye siteden ulaþabilirsin.\n\r\n\r",0);
 				write_to_buffer( d, "Üç çeþit yönelim vardýr:\n\r",0);
-				write_to_buffer( d, "iyi, yansýz ve kem\n\r\n\r",0);
+				write_to_buffer( d, "iyi, yansýz ve kem\n\r\n\r",0);
 				write_to_buffer( d, "Karakterinin yöneliminin ne olmasýný istiyorsun ( i - y - k )? ",0);
 	    d->connected = CON_GET_ALIGNMENT;
 	    break;
