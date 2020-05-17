@@ -3614,7 +3614,7 @@ bool room_has_exit( ROOM_INDEX_DATA *room )
 {
   int i;
 
-  if ( room != NULL )
+  if ( room == NULL )
     return FALSE;
 
   for(i=0;i<6;i++)

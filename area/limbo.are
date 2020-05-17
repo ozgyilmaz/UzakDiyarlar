@@ -772,42 +772,6 @@ gold~
 weapon TWAIP AN
 sword 10 1 pierce D
 20 80 0 P
-#84
-kaffa görev asasý~
-Kaffa görev asasý~
-Bir Kaffa görev asasý havada asýlý duruyor.~
-energy~
-treasure ATY A
-0 0 -1 0 0
-0 0 0 P
-E
-quest~
-The letters '%s' is carved on the staff.
-~
-#85
-randalin görev asasý~
-Randalin görev asasý~
-Bir Randalin görev asasý havada asýlý duruyor.~
-energy~
-treasure ATY A
-0 0 -1 0 0
-0 0 0 P
-E
-quest~
-The letters '%s' is carved on the staff.
-~
-#86
-ged görev asasý~
-Ged görev asasý~
-Bir Ged görev asasý havada asýlý duruyor.~
-energy~
-treasure ATY A
-0 0 -1 0 0
-0 0 0 P
-E
-quest~
-The letters '%s' is carved on the staff.
-~
 #87
 yataðan~
 yataðan~
@@ -921,18 +885,6 @@ F
 A 17 -30 J
 F
 D 0 0 CDEG
-#97
-mandrake görev asasý~
-Mandrake görev asasý~
-Bir mandrake görev asasý havada asýlý duruyor.~
-energy~
-treasure ATY A
-0 0 -1 0 0
-0 0 0 P
-E
-quest~
-The letters '%s' is carved on the staff.
-~
 #98
 kýlýç katana~
 bir katana~
@@ -1006,10 +958,6 @@ O 99 death_prog death_prog_golden_weapon
 O 88 get_prog get_prog_spec_weapon
 O 88 wear_prog wear_prog_eyed_sword
 O 89 speech_prog speech_prog_kassandra
-O 84 get_prog get_prog_quest_obj
-O 85 get_prog get_prog_quest_obj
-O 86 get_prog get_prog_quest_obj
-O 97 get_prog get_prog_quest_obj
 *O 87 fight_prog fight_prog_chaos_blade
 O 92 wear_prog wear_prog_fire_shield
 O 92 remove_prog remove_prog_fire_shield

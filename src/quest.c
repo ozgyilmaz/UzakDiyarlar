@@ -78,13 +78,6 @@ void do_tell_quest( CHAR_DATA *ch, CHAR_DATA *victim, char *argument);
 CHAR_DATA *get_quest_world( CHAR_DATA *ch, MOB_INDEX_DATA *victim );
 extern	MOB_INDEX_DATA	*mob_index_hash	[MAX_KEY_HASH];
 
-/* Object vnums for object quest 'tokens': object quest. */
-
-#define QUEST_OBJQUEST1 84
-#define QUEST_OBJQUEST2 85
-#define QUEST_OBJQUEST3 86
-#define QUEST_OBJQUEST4	97
-
 /* Local functions */
 
 void generate_quest	args(( CHAR_DATA *ch, CHAR_DATA *questman ));
@@ -1274,218 +1267,125 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
     return;
 }
 
+CHAR_DATA * find_a_quest_mob( CHAR_DATA *ch )
+{
+  CHAR_DATA *victim;
+  CHAR_DATA *victim_next = NULL;
+  QUEST_INDEX_DATA *quest_mob_list;
+  QUEST_INDEX_DATA *pQuestMob;
+  QUEST_INDEX_DATA *pQuestMob_next=NULL;
+  int mob_count, selected_mob, level_diff;
+
+  mob_count = 0;
+  quest_mob_list = NULL;
+  pQuestMob = NULL;
+  selected_mob = 0;
+
+
+  for ( victim = char_list; victim != NULL; victim = victim_next )
+  {
+    victim_next = victim->next;
+    if (!IS_NPC(victim))
+    {
+      continue;
+    }
+    level_diff = victim->level - ch->level;
+    if (level_diff > 5 || level_diff < -5)
+    {
+      continue;
+    }
+    if ( IS_SET(victim->act,ACT_TRAIN) || IS_SET(victim->act,ACT_PRACTICE)
+      || IS_SET(victim->act,ACT_IS_HEALER) || IS_SET(victim->act,ACT_NOTRACK) )
+    {
+        continue;
+    }
+
+
+    if ( (victim->in_room == NULL) || (room_has_exit( victim->in_room ) == FALSE ) )
+    {
+      continue;
+    }
+
+    if ( IS_GOOD(victim) && IS_GOOD(ch) )
+    {
+      continue;
+    }
+    mob_count++;
+    pQuestMob = (QUEST_INDEX_DATA *)alloc_mem(sizeof(*pQuestMob));
+    pQuestMob->mob = victim;
+    pQuestMob->next = quest_mob_list;
+    quest_mob_list = pQuestMob;
+
+  }
+  if (mob_count == 0)
+  {
+    return NULL;
+  }
+  selected_mob = number_range(1,mob_count);
+
+  mob_count = 0;
+  for ( pQuestMob = quest_mob_list; pQuestMob != NULL; pQuestMob = pQuestMob_next )
+  {
+    pQuestMob_next = pQuestMob->next;
+
+    mob_count++;
+    if (mob_count == selected_mob)
+    {
+      victim = pQuestMob->mob;
+      break;
+    }
+  }
+  return victim;
+}
+
 void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
 {
-    CHAR_DATA *victim;
-    MOB_INDEX_DATA *vsearch;
-    ROOM_INDEX_DATA *room;
-    OBJ_DATA *eyed;
     char buf [MAX_STRING_LENGTH];
-    int level_diff, i;
-    int mob_buf[300],mob_count;
-    int found;
+    char_data *victim;
 
-    room	=	(ROOM_INDEX_DATA *)alloc_perm( sizeof (*room));
+    victim = find_a_quest_mob(ch);
 
-    mob_count = 0;
-    for ( i=0; i< MAX_KEY_HASH; i++)
+    if (victim == NULL)
     {
-     if ((vsearch  = mob_index_hash[i]) == NULL) continue;
-     level_diff = vsearch->level - ch->level;
-     if ( (ch->level < 51 && (level_diff > 4 || level_diff < -1))
-	   || (ch->level > 50 && (level_diff > 6 || level_diff < 0))
-	   || vsearch->pShop != NULL
-    	   || IS_SET(vsearch->act,ACT_TRAIN)
-    	   || IS_SET(vsearch->act,ACT_PRACTICE)
-    	   || IS_SET(vsearch->act,ACT_IS_HEALER)
-    	   || IS_SET(vsearch->act,ACT_NOTRACK))
-	continue;
-     mob_buf[mob_count] = vsearch->vnum;
-     mob_count++;
-     if (mob_count > 299) break;
-    }
-
-    if (chance(40))
-    {
-       int objvnum = 0;
-       int i;
-
-       if (mob_count > 0)
-       {
-	 found = number_range(0,mob_count-1);
-	 for( i=0; i< mob_count; i++)
-	 {
-	    if ((vsearch = get_mob_index( mob_buf[found] )) == NULL )
-	    {
-		bug("Unknown mob in generate_obj_quest: %d",mob_buf[found]);
-		found++;
-		if ( found > (mob_count-1) ) break;
-		else continue;
-	    }
-	    else break;
-    	 }
-       }
-       else vsearch = NULL;
-
-       if ( vsearch == NULL || ( victim = get_quest_world( ch, vsearch ) ) == NULL )
-       {
-	sprintf(buf, "Üzgünüm ama þu an sana verebileceðim bir görev yok.");
-	do_tell_quest(ch,questman,buf);
-	sprintf(buf, "Daha sonra tekrar dene.");
-	do_tell_quest(ch,questman,buf);
-	ch->pcdata->nextquest = 5;
-        return;
-       }
-
-       if ( (room = victim->in_room) == NULL || room_has_exit( victim->in_room ) == FALSE )
-       {
-         sprintf(buf, "Üzgünüm ama þu an sana verebileceðim bir görev yok.");
-       	do_tell_quest(ch,questman,buf);
-       	sprintf(buf, "Daha sonra tekrar dene.");
-	do_tell_quest(ch,questman,buf);
-	ch->pcdata->nextquest = 5;
-        return;
-       }
-
-	switch(number_range(0,3))
-	{
-	    case 0:
-	    objvnum = QUEST_OBJQUEST1;
-	    break;
-
-	    case 1:
-	    objvnum = QUEST_OBJQUEST2;
-	    break;
-
-	    case 2:
-	    objvnum = QUEST_OBJQUEST3;
-	    break;
-
-	    case 3:
-	    objvnum = QUEST_OBJQUEST4;
-	    break;
-
-	}
-
-
-	if (IS_GOOD(ch))
-		i=0;
-	else if (IS_EVIL(ch))
-		i=2;
-	else i = 1;
-
-        eyed = create_object( get_obj_index(objvnum), ch->level );
-	eyed->owner = str_dup(ch->name);
-	eyed->from = str_dup(ch->name);
-	eyed->altar = hometown_table[ch->hometown].altar[i];
-	eyed->pit = hometown_table[ch->hometown].pit[i];
-	eyed->level = ch->level;
-
-	sprintf( buf, eyed->description, ch->name	 );
-	free_string( eyed->description );
-	eyed->description = str_dup( buf );
-
-        sprintf( buf, eyed->pIndexData->extra_descr->description, ch->name );
-	eyed->extra_descr = new_extra_descr();
-	eyed->extra_descr->keyword =
-		str_dup( eyed->pIndexData->extra_descr->keyword );
-	eyed->extra_descr->description = str_dup( buf );
-	eyed->extra_descr->next = NULL;
-
-	eyed->cost = 0;
-	eyed->timer = 30;
-
-	obj_to_room(eyed, room);
-	ch->pcdata->questobj = eyed->pIndexData->vnum;
-  ch->pcdata->questroom = room->vnum;
-
-  sprintf(buf, "%s hazine dairesinden çalýndý!",eyed->short_descr);
-	do_tell_quest(ch,questman,buf);
-	do_tell_quest(ch,questman, (char*)"Saray büyücüsü sihirli aynasýyla yerini belirledi.");
-
-	/* I changed my area names so that they have just the name of the area
-	   and none of the level stuff. You may want to comment these next two
-	   lines. - Vassago */
-
-     sprintf(buf, "%s bölgesindeki %s isimli yere gitmelisin!",room->area->name, room->name);
-	do_tell_quest(ch,questman,buf);
-	return;
-    }
-
-    /* Quest to kill a mob */
-
-    else
-    {
-     if (mob_count > 0)
-     {
-	found = number_range(0,mob_count-1);
-	for( i=0; i< mob_count; i++)
-	{
-	   if ((vsearch = get_mob_index( mob_buf[found] )) == NULL
-	      || (IS_EVIL(vsearch) && IS_EVIL(ch))
-	      || (IS_GOOD(vsearch) && IS_GOOD(ch))
-	      || (IS_NEUTRAL(vsearch) && IS_NEUTRAL(ch)) )
-		{
-		 if (vsearch == NULL)
-			bug("Unknown mob in mob_quest: %d",mob_buf[found]);
-		 found++;
-		 if ( found > (mob_count-1) )
-		 {
-		   vsearch = NULL;
-		   break;
-		 }
-		 else continue;
-		}
-	   else break;
-    	}
-     }
-     else vsearch = NULL;
-
-     if ( vsearch == NULL
-	 || (victim = get_quest_world(ch, vsearch)) == NULL
-	 || (room = victim->in_room ) == NULL
-   || room_has_exit( victim->in_room ) == FALSE
-	 || IS_SET(room->area->area_flag,AREA_HOMETOWN))
-     {
-       sprintf(buf, "Üzgünüm ama þu an sana verebileceðim bir görev yok.");
+      sprintf(buf, "Üzgünüm ama þu an sana verebileceðim bir görev yok.");
       do_tell_quest(ch,questman,buf);
       sprintf(buf, "Daha sonra tekrar dene.");
-	do_tell_quest(ch,questman,buf);
-	ch->pcdata->nextquest = 5;
-        return;
-     }
+      do_tell_quest(ch,questman,buf);
+      ch->pcdata->nextquest = 5;
+      return;
+    }
 
     if (IS_GOOD(ch))
-       {
-         sprintf(buf, "Diyarýn azýlý asilerinden %s,	zindandan kaçtý!",victim->short_descr);
-	do_tell_quest(ch,questman,buf);
-  sprintf(buf, "Kaçýþýndan bu yana tahminimizce %d sivili katletti!", number_range(2,20));
-	do_tell_quest(ch,questman,buf);
-	do_tell_quest(ch,questman,(char*)"The penalty for this crime is death, and you are to deliver the sentence!");
-        }
-    else
-       {
-         sprintf(buf, "Þahsi düþmaným %s, kraliyet tacýna karþý tehdit oluþturuyor.",victim->short_descr);
-   			do_tell_quest(ch,questman,buf);
-   			sprintf(buf, "Bu tehdit yokedilmeli!");
-        do_tell_quest(ch,questman,buf);
-       }
-
-     if (room->name != NULL)
-     {
-       sprintf(buf, "%s þu sýralar %s bölgesindedir!",victim->short_descr,room->area->name);
-        do_tell_quest(ch,questman,buf);
-
-	/* I changed my area names so that they have just the name of the area
-	   and none of the level stuff. You may want to comment these next two
-	   lines. - Vassago */
-
-	sprintf(buf, "Yeri %s civarýnda.",room->area->name);
-	do_tell_quest(ch,questman,buf);
-     }
-     ch->pcdata->questmob = victim->pIndexData->vnum;
-     ch->pcdata->questroom = room->vnum;
+    {
+      sprintf(buf, "Diyarýn azýlý asilerinden %s,	zindandan kaçtý!",victim->short_descr);
+      do_tell_quest(ch,questman,buf);
+      sprintf(buf, "Kaçýþýndan bu yana tahminimizce %d sivili katletti!", number_range(2,20));
+      do_tell_quest(ch,questman,buf);
+      do_tell_quest(ch,questman,(char*)"Bunun cezasý ölümdür!");
     }
+    else
+    {
+      sprintf(buf, "Þahsi düþmaným %s, kraliyet tacýna karþý tehdit oluþturuyor.",victim->short_descr);
+      do_tell_quest(ch,questman,buf);
+      sprintf(buf, "Bu tehdit yokedilmeli!");
+      do_tell_quest(ch,questman,buf);
+    }
+
+    if (victim->in_room->name != NULL)
+    {
+      sprintf(buf, "%s þu sýralar %s bölgesindedir!",victim->short_descr,victim->in_room->area->name);
+      do_tell_quest(ch,questman,buf);
+
+      /* I changed my area names so that they have just the name of the area
+      and none of the level stuff. You may want to comment these next two
+      lines. - Vassago */
+
+      sprintf(buf, "Yeri %s civarýnda.",victim->in_room->name);
+      do_tell_quest(ch,questman,buf);
+    }
+    
+    ch->pcdata->questmob = victim->pIndexData->vnum;
+    ch->pcdata->questroom = victim->in_room->vnum;
     return;
 }
 

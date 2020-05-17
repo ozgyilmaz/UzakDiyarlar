@@ -151,6 +151,7 @@ typedef struct	help_data		HELP_DATA;
 typedef struct	kill_data		KILL_DATA;
 typedef struct	mem_data		MEM_DATA;
 typedef struct	mob_index_data		MOB_INDEX_DATA;
+typedef struct	quest_index_data		QUEST_INDEX_DATA;
 typedef struct  obj_data		OBJ_DATA;
 typedef struct	obj_index_data		OBJ_INDEX_DATA;
 typedef struct	pc_data			PC_DATA;
@@ -2000,6 +2001,13 @@ struct	mob_index_data
     sh_int		size;
     char *		material;
     long		practicer;
+};
+
+/* mob list for quests */
+struct quest_index_data
+{
+    CHAR_DATA *	mob;
+		QUEST_INDEX_DATA *	next;
 };
 
 
