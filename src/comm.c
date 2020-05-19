@@ -2593,7 +2593,6 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	if (IS_QUESTOR(ch) && ch->pcdata->questmob == 0)
 	{
 	  ch->pcdata->nextquest = ch->pcdata->countdown;
-	  ch->pcdata->questobj = 0;
 	  REMOVE_BIT(ch->act,PLR_QUESTOR);
 	}
 

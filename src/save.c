@@ -400,7 +400,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
 	{
         fprintf( fp ,"QuestCnt %d\n", ch->pcdata->countdown	);
         fprintf( fp ,"QuestMob %d\n", ch->pcdata->questmob	);
-        fprintf( fp ,"QuestObj %d\n", ch->pcdata->questobj	);
+        fprintf( fp ,"QuestRoom %d\n", ch->pcdata->questroom	);
         fprintf( fp ,"QuestGiv %d\n", ch->pcdata->questgiver	);
 	}
 
@@ -738,7 +738,6 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
     ch->pcdata->questpoints = 0;
     ch->pcdata->questgiver = 0;
     ch->pcdata->countdown = 0;
-    ch->pcdata->questobj = 0;
     ch->pcdata->questmob = 0;
     ch->pcdata->birth_time = current_time - 14688000;// 17 oyun yýlýný çýkarýyoruz ki doðum yýlý doðru olsun
     ch->religion = RELIGION_NONE;
@@ -1279,8 +1278,8 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	case 'Q':
 	    KEY( "QuestCnt",	ch->pcdata->countdown,	fread_number( fp) );
 	    KEY( "QuestMob",	ch->pcdata->questmob,	fread_number( fp) );
-	    KEY( "QuestObj",	ch->pcdata->questobj,	fread_number( fp) );
 	    KEY( "QuestGiv",	ch->pcdata->questgiver,	fread_number( fp) );
+      KEY( "QuestRoom",	ch->pcdata->questroom,	fread_number( fp) );
 	    KEY( "QuestPnts",   ch->pcdata->questpoints,fread_number( fp) );
             KEY( "QuestNext",   ch->pcdata->nextquest,	fread_number( fp) );
        	    KEY( "Ques",	ch->quest, 		fread_flag( fp)	  );
@@ -1413,15 +1412,15 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
     	if (get_mob_index(vnum) == NULL)
 	{
     	    bug("Fread_pet: bad vnum %d.",vnum);
-	    pet = create_mobile(get_mob_index(MOB_VNUM_FIDO));
+	    pet = create_mobile(get_mob_index(MOB_VNUM_FIDO), NULL);
 	}
     	else
-    	    pet = create_mobile(get_mob_index(vnum));
+    	    pet = create_mobile(get_mob_index(vnum), NULL);
     }
     else
     {
         bug("Fread_pet: no vnum in file.",0);
-        pet = create_mobile(get_mob_index(MOB_VNUM_FIDO));
+        pet = create_mobile(get_mob_index(MOB_VNUM_FIDO), NULL);
     }
 
     for ( ; ; )

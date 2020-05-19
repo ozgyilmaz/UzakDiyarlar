@@ -2059,9 +2059,8 @@ void do_mstat( CHAR_DATA *ch, char *argument )
 		victim->pcdata->questgiver,victim->pcdata->questpoints,
 		victim->pcdata->nextquest);
 	 send_to_char(buf, ch);
-	 sprintf(buf,"QuestCntDown: %d	QuestObj: %d	Questmob: %d\n\r",
-		victim->pcdata->countdown,victim->pcdata->questobj,
-		victim->pcdata->questmob);
+	 sprintf(buf,"QuestCntDown: %d	Questmob: %d\n\r",
+		victim->pcdata->countdown,victim->pcdata->questmob);
 	 send_to_char(buf, ch);
 	}
 	if  (!IS_SET(victim->act,PLR_QUESTOR))
@@ -2744,7 +2743,7 @@ void do_clone(CHAR_DATA *ch, char *argument )
 	    return;
 	}
 
-	clone = create_mobile(mob->pIndexData);
+	clone = create_mobile(mob->pIndexData, NULL);
 	clone_mobile(mob,clone);
 
 	for (obj = mob->carrying; obj != NULL; obj = obj->next_content)
@@ -2820,7 +2819,7 @@ void do_mload( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    victim = create_mobile( pMobIndex );
+    victim = create_mobile( pMobIndex , NULL);
     char_to_room( victim, ch->in_room );
     act( "$n has created $N!", ch, NULL, victim, TO_ROOM );
     sprintf(buf,"$N loads %s.",victim->short_descr);
@@ -4542,7 +4541,6 @@ void do_mset( CHAR_DATA *ch, char *argument )
       if (value == 0)
       {
         victim->pcdata->questgiver = 0;
-        victim->pcdata->questobj = 0;
         victim->pcdata->questmob = 0;
         victim->pcdata->questroom = 0;
       }

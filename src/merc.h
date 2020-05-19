@@ -2206,7 +2206,6 @@ struct	pc_data
     int                 questpoints;	/* quest */
     sh_int              nextquest;	/* quest */
     sh_int              countdown;	/* quest */
-    sh_int              questobj;	/* quest */
     sh_int              questmob;       /* quest */
 		sh_int              questroom;       /* quest */
 		sh_int              ghost_mode_counter;       /* hayalet modu */
@@ -2392,6 +2391,9 @@ struct	area_data
 		char *		language;
 		char *		translator;
 		char *		path;
+		sh_int		yonelim_iyi;
+		sh_int		yonelim_yansiz;
+		sh_int		yonelim_kem;
 };
 
 struct room_history_data
@@ -3135,7 +3137,7 @@ void write_channel_log args( (CD *ch, CD *vc, int kanal, char *argument) );
 /* db.c */
 char *	print_flags	args( ( int flag ));
 void	boot_db		args( ( void ) );
-CD *	create_mobile	args( ( MOB_INDEX_DATA *pMobIndex ) );
+CD *	create_mobile	args( ( MOB_INDEX_DATA *pMobIndex , AREA_DATA *pArea) );
 CD *	mob_assign_perm_stats	args( ( CHAR_DATA *mob ) );
 void	clone_mobile	args( ( CHAR_DATA *parent, CHAR_DATA *clone) );
 OD *	create_object	args( ( OBJ_INDEX_DATA *pObjIndex, int level ) );

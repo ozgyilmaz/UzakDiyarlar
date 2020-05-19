@@ -680,6 +680,9 @@ void load_areadata( FILE *fp )
 	pArea->language	= NULL;
 	pArea->translator	= NULL;
 	pArea->path	= NULL;
+  pArea->yonelim_iyi	= 33;
+  pArea->yonelim_yansiz	= 34;
+  pArea->yonelim_kem	= 33;
 
     if ( area_first == NULL )
 		area_first = pArea;
@@ -728,6 +731,11 @@ void load_areadata( FILE *fp )
 			break;
 			case 'T':
 				KEY( "Translator",		pArea->translator,		fread_string( fp ) );
+			break;
+      case 'Y':
+				KEY( "Yonelim_iyi",		pArea->yonelim_iyi,		fread_number( fp ) );
+        KEY( "Yonelim_yansiz",		pArea->yonelim_yansiz,		fread_number( fp ) );
+        KEY( "Yonelim_kem",		pArea->yonelim_kem,		fread_number( fp ) );
 			break;
 		}
 
@@ -1525,7 +1533,7 @@ void reset_area( AREA_DATA *pArea )
 	    if (count >= pReset->arg4)
 		break;
 
-	    mob = create_mobile( pMobIndex );
+	    mob = create_mobile( pMobIndex , pRoomIndex->area);
 
 	    /*
 	     * Check for pet shop.
@@ -1805,7 +1813,7 @@ void reset_area( AREA_DATA *pArea )
 /*
  * Create an instance of a mobile.
  */
-CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )
+CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex , AREA_DATA *	pArea)
 {
     CHAR_DATA *mob;
     AFFECT_DATA af;
@@ -1847,7 +1855,34 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )
   mob->comm		= COMM_NOCHANNELS|COMM_NOSHOUT|COMM_NOTELL;
   mob->affected_by	= pMobIndex->affected_by;
   mob->detection		= pMobIndex->detection;
-  mob->alignment		= number_range(-1000,1000);
+
+  /*
+   * Yonelim ayarlama
+   */
+  if ( pArea == NULL )
+  {
+    mob->alignment		= number_range(-1000,1000);
+  }
+  else
+  {
+    i = number_range(1,100);
+    if (i < pArea->yonelim_iyi)
+    {
+      mob->alignment = number_range(350,1000);
+    }
+    else if (i < ( pArea->yonelim_iyi + pArea->yonelim_yansiz ) )
+    {
+      mob->alignment = number_range(-349,349);
+    }
+    else
+    {
+      mob->alignment = number_range(-1000,-350);
+    }
+  }
+  /*
+   * Yonelim ayarlama bitti
+   */
+
   mob->level		= pMobIndex->level;
   mob->hitroll		= hitroll_damroll_hesapla(pMobIndex->level);
   mob->damroll		= hitroll_damroll_hesapla(pMobIndex->level);

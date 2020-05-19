@@ -6287,7 +6287,7 @@ void spell_summon_earth_elm( int sn, int level, CHAR_DATA *ch, void *vo,int targ
 
   if (count_charmed(ch)) return;
 
-  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_EARTH) );
+  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_EARTH), NULL );
 
 
   for (i = 0; i < MAX_STATS; i ++)
@@ -6374,7 +6374,7 @@ void spell_summon_air_elm( int sn, int level, CHAR_DATA *ch, void *vo,int target
 
   if (count_charmed(ch)) return;
 
-  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_AIR) );
+  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_AIR), NULL );
 
 
   for (i = 0; i < MAX_STATS; i ++)
@@ -6450,7 +6450,7 @@ void spell_summon_water_elm( int sn, int level, CHAR_DATA *ch, void *vo,int targ
 
   if (count_charmed(ch)) return;
 
-  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_WATER) );
+  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_WATER), NULL );
 
 
   for (i = 0; i < MAX_STATS; i ++)
@@ -6526,7 +6526,7 @@ void spell_summon_fire_elm( int sn, int level, CHAR_DATA *ch, void *vo,int targe
 
   if (count_charmed(ch)) return;
 
-  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_FIRE) );
+  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_FIRE), NULL );
 
 
   for (i = 0; i < MAX_STATS; i ++)
@@ -6602,7 +6602,7 @@ void spell_summon_light_elm( int sn, int level, CHAR_DATA *ch, void *vo,int targ
 
   if (count_charmed(ch)) return;
 
-  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_LIGHT) );
+  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_LIGHT), NULL );
 
 
   for (i = 0; i < MAX_STATS; i ++)
@@ -6955,8 +6955,8 @@ void spell_animate_object( int sn, int level, CHAR_DATA *ch, void *vo,int target
   }
 
   if (obj->item_type == ITEM_WEAPON)
-	mob = create_mobile(get_mob_index(MOB_VNUM_WEAPON));
-  else	mob = create_mobile(get_mob_index(MOB_VNUM_ARMOR));
+	mob = create_mobile(get_mob_index(MOB_VNUM_WEAPON), NULL);
+  else	mob = create_mobile(get_mob_index(MOB_VNUM_ARMOR), NULL);
 
   sprintf(buf, "canlandýrýlmýþ %s", obj->name);
   free_string( mob->name );

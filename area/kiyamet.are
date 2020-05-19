@@ -9,6 +9,9 @@ Highlevel 95
 Minvnum 14001
 Maxvnum 14199
 Path 34d k 4d 2g 3d k d k 5d g 2d~
+Yonelim_iyi 5
+Yonelim_yansiz 15
+Yonelim_kem 80
 END
 
 #NEW_MOBILES
@@ -5383,11 +5386,6 @@ Taht Odasý
 ~
 ~
 0 0 14197
-D4
-Kara Deliðin Ýçine
-~
-~
-0 0 1
 S
 #14199
 Taht Odasý~

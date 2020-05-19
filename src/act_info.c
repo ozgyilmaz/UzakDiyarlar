@@ -593,14 +593,112 @@ void show_char_to_char_0( CHAR_DATA *victim, CHAR_DATA *ch )
     return;
 }
 
+char *show_char_to_char_1_health_check(CHAR_DATA *ch , CHAR_DATA *victim)
+{
+  int percent;
+
+  // karakterin bilgeligi onemli olsun.
+  // zari tutturursa dogru sonuc ver
+  if( ( number_range(1,26) < get_curr_stat(ch,STAT_WIS) ) || IS_IMMORTAL(ch) )
+  {
+    if ( victim->max_hit > 0 )
+      percent = ( 100 * victim->hit ) / victim->max_hit;
+    else
+      percent = -1;
+  }
+  // irk bilgisi de onemli olsun
+  else if ( number_range(1,100) < ch->pcdata->familya[victim->race] )
+  {
+    if ( victim->max_hit > 0 )
+      percent = ( 100 * victim->hit ) / victim->max_hit;
+    else
+      percent = -1;
+  }
+  else
+  {
+    percent = number_range(20,80);
+  }
+
+  /* vampire ... */
+  if (percent < 90 && ch->iclass == CLASS_VAMPIRE && ch->level > 10)
+  {
+	   gain_condition(ch,COND_BLOODLUST,-1);
+   }
+
+  if (percent >= 100)
+  {
+    return (char*)"mükemmel durumda";
+  }
+  else if (percent >= 90)
+  {
+    return (char*)"birkaç çiziði var";
+  }
+  else if (percent >= 75)
+  {
+    return (char*)"birkaç küçük yarasý var";
+  }
+  else if (percent >=  50)
+  {
+    return (char*)"kanayan yaralarla kaplanmýþ";
+  }
+  else if (percent >= 30)
+  {
+    return (char*)"kötü kanýyor";
+  }
+  else if (percent >= 15)
+  {
+    return (char*)"acý içinde kývranýyor";
+  }
+  else if (percent >= 0 )
+  {
+    return (char*)"yerde sürünüyor";
+  }
+
+  return (char*)"ölmek üzere";
+}
+
+char *show_char_to_char_1_alignment(CHAR_DATA *ch , CHAR_DATA *victim)
+{
+  int alignment;
+
+  // karakterin bilgeligi onemli olsun.
+  // zari tutturursa dogru sonuc ver
+  if( ( number_range(1,26) < get_curr_stat(ch,STAT_WIS) ) || IS_IMMORTAL(ch) )
+  {
+    alignment = victim->alignment;
+  }
+  // irk bilgisi de onemli olsun
+  else if ( number_range(1,100) < ch->pcdata->familya[victim->race] )
+  {
+    alignment = victim->alignment;
+  }
+  else
+  {
+    alignment = number_range(-1000,1000);
+  }
+
+  if (alignment >= 350)
+  {
+    return (char*)"iyi";
+  }
+  else if (alignment <= -350)
+  {
+    return (char*)"kem";
+  }
+  else
+  {
+    return (char*)"yansýz";
+  }
+
+  return (char*)"yansýz";
+}
+
 
 
 void show_char_to_char_1( CHAR_DATA *victim, CHAR_DATA *ch )
 {
-    char buf[MAX_STRING_LENGTH];
     OBJ_DATA *obj;
     int iWear;
-    int percent;
     bool found;
     CHAR_DATA *vict;
 
@@ -616,73 +714,25 @@ else
   act( "$n $E bakýyor.",  ch, NULL, victim, TO_NOTVICT );
 	}
     }
+    printf_to_char(ch,"[{c%s{x] [{c%s{x] [{c%s{x] [{c%s{x]\n\r\n\r",(vict->sex==SEX_MALE?"erkek":"kadýn"),race_table[RACE(vict)].name[1], show_char_to_char_1_alignment(ch,victim),show_char_to_char_1_health_check(ch,victim));
 
     if ( vict->description[0] != '\0' )
     {
-	send_to_char( vict->description, ch );
+      printf_to_char(ch,"%s\n\r\n\r",vict->description);
     }
     else
     {
-      act( "Onun hakkýnda ilgi çekici birþey bulamýyorsun.", ch, NULL, victim, TO_CHAR );
+      printf_to_char(ch,"Onun hakkýnda ilgi çekici birþey bulamýyorsun.\n\r\n\r");
     }
 
     if ( MOUNTED(victim) )
     {
-      sprintf(buf, "%s %s sürüyor.\n\r", PERS(victim,ch), PERS( MOUNTED(victim),ch) );
-        send_to_char( buf,ch);
+      printf_to_char(ch,"%s %s sürüyor.\n\r\n\r",PERS(victim,ch), PERS( MOUNTED(victim),ch));
     }
     if ( RIDDEN(victim) )
     {
-      sprintf(buf,"%s %s tarafýndan sürülüyor.\n\r", PERS(victim,ch), PERS( RIDDEN(victim),ch) );
-        send_to_char( buf,ch);
+      printf_to_char(ch,"%s %s tarafýndan sürülüyor.\n\r\n\r",PERS(victim,ch), PERS( RIDDEN(victim),ch));
     }
-
-    if ( victim->max_hit > 0 )
-	percent = ( 100 * victim->hit ) / victim->max_hit;
-    else
-	percent = -1;
-
-  sprintf( buf,"(%s %s) %s", (vict->sex==SEX_MALE?"Erkek":"Kadýn"),race_table[RACE(vict)].name[1], PERS(vict, ch));
-
-  if (percent >= 100)
-  {
-  strcat( buf, " mükemmel durumda.\n\r");
-  }
-  else if (percent >= 90)
-  {
-  strcat( buf, " birkaç çiziði var.\n\r");
-  }
-  else if (percent >= 75)
-  {
-  strcat( buf," birkaç küçük yarasý var.\n\r");
-  }
-  else if (percent >=  50)
-  {
-  strcat( buf, " kanayan yaralarla kaplanmýþ.\n\r");
-  }
-  else if (percent >= 30)
-  {
-  strcat( buf, " kötü kanýyor.\n\r");
-  }
-  else if (percent >= 15)
-  {
-  strcat ( buf, " acý içinde kývranýyor.\n\r");
-  }
-  else if (percent >= 0 )
-  {
-  strcat (buf, " yerde sürünüyor.\n\r");
-  }
-  else
-  {
-  strcat(buf, " ölmek üzere.\n\r");
-  }
-
-	/* vampire ... */
-    if (percent < 90 && ch->iclass == CLASS_VAMPIRE && ch->level > 10)
-	gain_condition(ch,COND_BLOODLUST,-1);
-
-    buf[0] = UPPER(buf[0]);
-    send_to_char( buf, ch );
 
     found = FALSE;
     for ( iWear = 0; iWear < MAX_WEAR; iWear++ )
@@ -1389,39 +1439,48 @@ void do_look( CHAR_DATA *ch, char *argument )
 	return;
     }
 
+    /*
+     * baslangic:
+     * bak <karakter_ismi>
+     */
     if ( ( victim = get_char_room( ch, arg1 ) ) != NULL )
     {
-	show_char_to_char_1( victim, ch );
+      show_char_to_char_1( victim, ch );
 
-        /* Love potion */
+      /* Love potion */
 
-        if (is_affected(ch, gsn_love_potion) && (victim != ch))
-          {
-            AFFECT_DATA af;
+      if (is_affected(ch, gsn_love_potion) && (victim != ch))
+      {
+        AFFECT_DATA af;
 
-            affect_strip(ch, gsn_love_potion);
+        affect_strip(ch, gsn_love_potion);
 
-            if (ch->master)
-              stop_follower(ch);
-            add_follower(ch, victim);
-            ch->leader = victim;
+        if (ch->master)
+        stop_follower(ch);
+        add_follower(ch, victim);
+        ch->leader = victim;
 
-	    af.where = TO_AFFECTS;
-            af.type = gsn_charm_person;
-            af.level = ch->level;
-            af.duration =  number_fuzzy(victim->level / 4);
-            af.bitvector = AFF_CHARM;
-            af.modifier = 0;
-            af.location = 0;
-            affect_to_char(ch, &af);
+        af.where = TO_AFFECTS;
+        af.type = gsn_charm_person;
+        af.level = ch->level;
+        af.duration =  number_fuzzy(victim->level / 4);
+        af.bitvector = AFF_CHARM;
+        af.modifier = 0;
+        af.location = 0;
+        affect_to_char(ch, &af);
 
-            act("$n sence de tatlý deðil mi?", victim, NULL, ch, TO_VICT);
-            act("$N büyülenmiþ gözlerle sana bakýyor.",victim,NULL,ch,TO_CHAR);
-            act("$N büyülenmiþ gözlerle $e bakýyor.",victim,NULL,ch,TO_NOTVICT);
-          }
+        act("$n sence de tatlý deðil mi?", victim, NULL, ch, TO_VICT);
+        act("$N büyülenmiþ gözlerle sana bakýyor.",victim,NULL,ch,TO_CHAR);
+        act("$N büyülenmiþ gözlerle $e bakýyor.",victim,NULL,ch,TO_NOTVICT);
+      }
 
-	return;
+      return;
     }
+    /*
+     * bitis:
+     * bak <karakter_ismi>
+     */
+
 
     for ( obj = ch->carrying; obj != NULL; obj = obj->next_content )
     {
@@ -3274,7 +3333,7 @@ void do_bear_call( CHAR_DATA *ch, char *argument )
   ch->mana -= 125;
 
   check_improve(ch,gsn_bear_call,TRUE,1);
-  bear = create_mobile( get_mob_index(MOB_VNUM_BEAR) );
+  bear = create_mobile( get_mob_index(MOB_VNUM_BEAR), NULL );
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -3293,7 +3352,7 @@ void do_bear_call( CHAR_DATA *ch, char *argument )
   bear->sex = ch->sex;
   bear->gold = 0;
 
-  bear2 = create_mobile(bear->pIndexData);
+  bear2 = create_mobile(bear->pIndexData, NULL);
   clone_mobile(bear,bear2);
 
   SET_BIT(bear->affected_by, AFF_CHARM);
@@ -3509,7 +3568,7 @@ void do_lion_call( CHAR_DATA *ch, char *argument )
   }
   ch->mana -= 125;
 
-  bear = create_mobile( get_mob_index(MOB_VNUM_LION) );
+  bear = create_mobile( get_mob_index(MOB_VNUM_LION), NULL );
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -3528,7 +3587,7 @@ void do_lion_call( CHAR_DATA *ch, char *argument )
   bear->sex = ch->sex;
   bear->gold = 0;
 
-  bear2 = create_mobile(bear->pIndexData);
+  bear2 = create_mobile(bear->pIndexData, NULL);
   clone_mobile(bear,bear2);
 
   SET_BIT(bear->affected_by, AFF_CHARM);

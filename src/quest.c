@@ -98,7 +98,6 @@ void do_quest(CHAR_DATA *ch, char *argument)
 {
     CHAR_DATA *questman;
     OBJ_DATA *obj=NULL, *obj_next;
-    OBJ_INDEX_DATA *questinfoobj;
     MOB_INDEX_DATA *questinfo;
     ROOM_INDEX_DATA *pRoomIndex;
     char buf [MAX_STRING_LENGTH];
@@ -125,19 +124,6 @@ void do_quest(CHAR_DATA *ch, char *argument)
       {
         printf_to_char(ch,"{cGörevin neredeyse tamamlandý!\n\rZamanýn bitmeden önce görevciye git!{x\n\r");
       }
-      else if (ch->pcdata->questobj > 0)
-      {
-        questinfoobj = get_obj_index(ch->pcdata->questobj);
-        if (questinfoobj != NULL)
-        {
-          pRoomIndex = get_room_index(ch->pcdata->questroom);
-          printf_to_char(ch,"Görevin, {c%s{w bölgesinde {c%s{w isimli odadaki {c%s{w eþyasýný bulmak!\n\r",
-            pRoomIndex->area->name,pRoomIndex->name,questinfoobj->name);
-        }
-        else
-          send_to_char("Henüz bir görevin yok.\n\r",ch);
-        return;
-      }
       else if (ch->pcdata->questmob > 0)
       {
         questinfo = get_mob_index(ch->pcdata->questmob);
@@ -148,12 +134,16 @@ void do_quest(CHAR_DATA *ch, char *argument)
             pRoomIndex->area->name,pRoomIndex->name,questinfo->short_descr);
         }
         else
+        {
           send_to_char("Henüz bir görevin yok.\n\r",ch);
+        }
         return;
       }
     }
     else
-    send_to_char("Henüz bir görevin yok.\n\r",ch);
+    {
+      send_to_char("Henüz bir görevin yok.\n\r",ch);
+    }
     return;
   }
     if (!strcmp(arg1, "puan"))
@@ -776,7 +766,7 @@ act ("$Z görev istiyorsun.",ch, NULL, questman, TO_CHAR);
 
 	generate_quest(ch, questman);
 
-        if (ch->pcdata->questmob > 0 || ch->pcdata->questobj > 0)
+        if (ch->pcdata->questmob > 0 )
 	{
             ch->pcdata->countdown = number_range(15,30);
 	    SET_BIT(ch->act, PLR_QUESTOR);
@@ -806,10 +796,7 @@ act ("$Z görev istiyorsun.",ch, NULL, questman, TO_CHAR);
       ch->pcdata->questgiver = 0;
       ch->pcdata->countdown = 0;
       ch->pcdata->nextquest = 5;
-
       ch->pcdata->questmob = 0;
-
-      ch->pcdata->questobj = 0;
       ch->pcdata->questroom = 0;
 
 
@@ -866,76 +853,13 @@ act ("$E görevi bitirdiðini haber veriyorsun.",ch, NULL, questman, TO_CHAR);
 	        ch->pcdata->questgiver = 0;
 	        ch->pcdata->countdown = 0;
 	        ch->pcdata->questmob = 0;
-		ch->pcdata->questobj = 0;
-	        ch->pcdata->nextquest = 5;
+	        ch->pcdata->nextquest = number_range(1,4);
 		ch->gold += reward;
 		ch->pcdata->questpoints += pointreward;
 
 	        return;
 	    }
-	    else if (ch->pcdata->questobj > 0 && ch->pcdata->countdown > 0)
-	    {
-		bool obj_found = FALSE;
-
-    		for (obj = ch->carrying; obj != NULL; obj= obj_next)
-    		{
-        	    obj_next = obj->next_content;
-
-	    if (obj != NULL && obj->pIndexData->vnum == ch->pcdata->questobj
-		&& strstr( obj->extra_descr->description, ch->name ) != NULL )
-		    {
-			obj_found = TRUE;
-            	        break;
-		    }
-        	}
-		if (obj_found == TRUE)
-		{
-		    int reward, pointreward, pracreward;
-
-		    reward = 200 + number_range(1, 20 * ch->level);
-		    pointreward = number_range(15,40);
-
-			if(IS_SET(ch->pcdata->dilek,DILEK_FLAG_GOREV))
-			{
-				printf_to_char( ch , "{CGörev dileðin sayesinde kazandýðýn GP artýyor.{x\n\r" );
-				pointreward *= 2;
-			}
-
-        act("$p objesini $E veriyorsun.",ch, obj, questman, TO_CHAR);
-				act("$n $p objesini $E veriyor.",ch, obj, questman, TO_ROOM);
-
-        sprintf(buf, "Tebrikler!");
-    do_tell_quest(ch,questman,buf);
-    sprintf(buf,"Karþýlýðýnda sana %d GP ve %d altýn veriyorum.",pointreward,reward);
-		    do_tell_quest(ch,questman,buf);
-		    if (chance(15))
-		    {
-		        pracreward = number_range(1,6);
-            sprintf(buf, "%d pratik seansý kazandýn!\n\r",pracreward);
-		        send_to_char(buf, ch);
-		        ch->practice += pracreward;
-		    }
-
-	            REMOVE_BIT(ch->act, PLR_QUESTOR);
-	            ch->pcdata->questgiver = 0;
-	            ch->pcdata->countdown = 0;
-	            ch->pcdata->questmob = 0;
-		    ch->pcdata->questobj = 0;
-	            ch->pcdata->nextquest = 5;
-		    ch->gold += reward;
-		    ch->pcdata->questpoints += pointreward;
-		    extract_obj(obj);
-		    return;
-		}
-		else
-		{
-      sprintf(buf, "Henüz görevi bitirmedin. Fakat hala zamanýn var!");
-		    do_tell_quest(ch,questman,buf);
-		    return;
-		}
-		return;
-	    }
-	    else if ((ch->pcdata->questmob > 0 || ch->pcdata->questobj > 0) && ch->pcdata->countdown > 0)
+	    else if ( ch->pcdata->questmob > 0 && ch->pcdata->countdown > 0 )
 	    {
         sprintf(buf, "Henüz görevi bitirmedin. Fakat hala zamanýn var!");
 		do_tell_quest(ch,questman,buf);
@@ -1383,7 +1307,7 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
       sprintf(buf, "Yeri %s civarýnda.",victim->in_room->name);
       do_tell_quest(ch,questman,buf);
     }
-    
+
     ch->pcdata->questmob = victim->pIndexData->vnum;
     ch->pcdata->questroom = victim->in_room->vnum;
     return;
@@ -1424,7 +1348,6 @@ void quest_update(void)
                 ch->pcdata->countdown = 0;
                 ch->pcdata->questmob = 0;
                 ch->pcdata->questroom = 0;
-		            ch->pcdata->questobj = 0;
 	    }
 	    if (ch->pcdata->countdown > 0 && ch->pcdata->countdown < 6)
 	    {

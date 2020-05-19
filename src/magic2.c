@@ -446,7 +446,7 @@ void spell_bear_call( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if (count_charmed(ch)) return;
 
-  bear = create_mobile( get_mob_index(MOB_VNUM_BEAR) );
+  bear = create_mobile( get_mob_index(MOB_VNUM_BEAR), NULL );
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -465,7 +465,7 @@ void spell_bear_call( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   bear->sex = ch->sex;
   bear->gold = 0;
 
-  bear2 = create_mobile(bear->pIndexData);
+  bear2 = create_mobile(bear->pIndexData, NULL);
   clone_mobile(bear,bear2);
 
   SET_BIT(bear->affected_by, AFF_CHARM);
@@ -688,7 +688,7 @@ void spell_demon_summon( int sn, int level, CHAR_DATA *ch, void *vo, int target 
 
   if (count_charmed(ch)) return;
 
-  demon = create_mobile( get_mob_index(MOB_VNUM_DEMON) );
+  demon = create_mobile( get_mob_index(MOB_VNUM_DEMON) , NULL);
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -973,7 +973,7 @@ void spell_guard_call( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if (count_charmed(ch)) return;
 
-  guard = create_mobile( get_mob_index(MOB_VNUM_SPECIAL_GUARD) );
+  guard = create_mobile( get_mob_index(MOB_VNUM_SPECIAL_GUARD), NULL );
 
   for (i=0;i < MAX_STATS; i++)
     guard->perm_stat[i] = ch->perm_stat[i];
@@ -999,10 +999,10 @@ void spell_guard_call( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   SET_BIT(guard->affected_by, AFF_CHARM);
   SET_BIT(guard->affected_by, AFF_SANCTUARY);
 
-  guard2 = create_mobile(guard->pIndexData);
+  guard2 = create_mobile(guard->pIndexData, NULL);
   clone_mobile(guard,guard2);
 
-  guard3 = create_mobile(guard->pIndexData);
+  guard3 = create_mobile(guard->pIndexData, NULL);
   clone_mobile(guard,guard3);
 
   guard->master = guard2->master = guard3->master = ch;
@@ -1055,7 +1055,7 @@ void spell_nightwalker( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if (count_charmed(ch)) return;
 
-  walker = create_mobile( get_mob_index(MOB_VNUM_NIGHTWALKER) );
+  walker = create_mobile( get_mob_index(MOB_VNUM_NIGHTWALKER) , NULL);
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -1256,7 +1256,7 @@ else
 
   for (new_mirrors=0; mirrors + new_mirrors < level/5;new_mirrors++)
   {
-    gch = create_mobile( get_mob_index(MOB_VNUM_MIRROR_IMAGE) );
+    gch = create_mobile( get_mob_index(MOB_VNUM_MIRROR_IMAGE), NULL );
     free_string(gch->name);
     free_string(gch->short_descr);
     free_string(gch->long_descr);
@@ -1759,7 +1759,7 @@ void spell_stalker( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     send_to_char("Bir avcý çaðýrmaya çalýþýyorsun.\n\r",ch);
     act("$n bir avcý çaðýrmaya çalýþýyor.",ch,NULL,NULL,TO_ROOM);
 
-  stalker = create_mobile( get_mob_index(MOB_VNUM_STALKER) );
+  stalker = create_mobile( get_mob_index(MOB_VNUM_STALKER), NULL );
 
   af.where		= TO_AFFECTS;
   af.type               = sn;
@@ -2030,7 +2030,7 @@ void spell_shadowlife( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     act("$n $S gölgesine yaþam veriyor!",ch,NULL,victim,TO_NOTVICT);
     act("$n gölgene yaþam veriyor!", ch, NULL, victim, TO_VICT);
 
-  shadow = create_mobile( get_mob_index(MOB_VNUM_SHADOW) );
+  shadow = create_mobile( get_mob_index(MOB_VNUM_SHADOW), NULL );
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -2331,7 +2331,7 @@ void spell_squire( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if (count_charmed(ch)) return;
 
-  squire = create_mobile( get_mob_index(MOB_VNUM_SQUIRE) );
+  squire = create_mobile( get_mob_index(MOB_VNUM_SQUIRE), NULL );
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -3096,7 +3096,7 @@ void spell_animate_dead(int sn,int level, CHAR_DATA *ch, void *vo,int target )
     return;
   }
 
-  undead = create_mobile( get_mob_index(MOB_VNUM_UNDEAD) );
+  undead = create_mobile( get_mob_index(MOB_VNUM_UNDEAD), NULL );
   char_to_room(undead,ch->in_room);
   for (i=0;i < MAX_STATS; i++)
     {
@@ -3671,7 +3671,7 @@ void spell_lion_help ( int sn, int level, CHAR_DATA *ch, void *vo , int target)
     return;
   }
 
-  lion = create_mobile( get_mob_index(MOB_VNUM_HUNTER) );
+  lion = create_mobile( get_mob_index(MOB_VNUM_HUNTER), NULL );
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -4258,7 +4258,7 @@ void spell_wolf( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if (count_charmed(ch)) return;
 
-  demon = create_mobile( get_mob_index(MOB_VNUM_WOLF) );
+  demon = create_mobile( get_mob_index(MOB_VNUM_WOLF), NULL );
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -4744,7 +4744,7 @@ void spell_lesser_golem( int sn, int level, CHAR_DATA *ch, void *vo, int target 
 
   if (count_charmed(ch)) return;
 
-  golem = create_mobile( get_mob_index(MOB_VNUM_LESSER_GOLEM) );
+  golem = create_mobile( get_mob_index(MOB_VNUM_LESSER_GOLEM), NULL );
 
 
   for (i = 0; i < MAX_STATS; i ++)
@@ -4820,7 +4820,7 @@ void spell_stone_golem( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if (count_charmed(ch)) return;
 
-  golem = create_mobile( get_mob_index(MOB_VNUM_STONE_GOLEM) );
+  golem = create_mobile( get_mob_index(MOB_VNUM_STONE_GOLEM), NULL );
 
 
   for (i = 0; i < MAX_STATS; i ++)
@@ -4892,7 +4892,7 @@ void spell_iron_golem( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if (count_charmed(ch)) return;
 
-  golem = create_mobile( get_mob_index(MOB_VNUM_IRON_GOLEM) );
+  golem = create_mobile( get_mob_index(MOB_VNUM_IRON_GOLEM), NULL );
 
 
   for (i = 0; i < MAX_STATS; i ++)
@@ -4964,7 +4964,7 @@ void spell_adamantite_golem( int sn, int level, CHAR_DATA *ch, void *vo, int tar
 
   if (count_charmed(ch)) return;
 
-  golem = create_mobile( get_mob_index(MOB_VNUM_ADAMANTITE_GOLEM) );
+  golem = create_mobile( get_mob_index(MOB_VNUM_ADAMANTITE_GOLEM) , NULL);
 
 
   for (i = 0; i < MAX_STATS; i ++)
@@ -5564,7 +5564,7 @@ void spell_summon_shadow( int sn, int level, CHAR_DATA *ch, void *vo, int target
 
   if (count_charmed(ch)) return;
 
-  shadow = create_mobile( get_mob_index(MOB_VNUM_SUM_SHADOW) );
+  shadow = create_mobile( get_mob_index(MOB_VNUM_SUM_SHADOW), NULL );
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -5902,7 +5902,7 @@ void spell_guard_dogs( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if (count_charmed(ch)) return;
 
-  dog = create_mobile( get_mob_index(MOB_VNUM_DOG) );
+  dog = create_mobile( get_mob_index(MOB_VNUM_DOG) , NULL);
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -5924,7 +5924,7 @@ void spell_guard_dogs( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   dog->damage[DICE_TYPE] = number_range(level/3, level/2);
   dog->damage[DICE_BONUS] = number_range(level/10, level/8);
 
-  dog2 = create_mobile(dog->pIndexData);
+  dog2 = create_mobile(dog->pIndexData, NULL);
   clone_mobile(dog,dog2);
 
   SET_BIT(dog->affected_by, AFF_CHARM);
@@ -6265,7 +6265,7 @@ void spell_mummify( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     return;
   }
 
-  undead = create_mobile( get_mob_index(MOB_VNUM_UNDEAD) );
+  undead = create_mobile( get_mob_index(MOB_VNUM_UNDEAD), NULL );
   char_to_room(undead,ch->in_room);
   for (i=0;i < MAX_STATS; i++)
     {
