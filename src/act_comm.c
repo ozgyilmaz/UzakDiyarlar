@@ -366,7 +366,6 @@ void do_kd( CHAR_DATA *ch, char *argument )
         sprintf(buf,"%s: %s%s%s\n\r",PERS(ch,victim),CLR_RED_BOLD,argument,CLR_NORMAL);
         buf[0] = UPPER(buf[0]);
         add_buf(victim->pcdata->buffer,buf);
-        ch->pcdata->rk_puani -= 2;
 	return;
     }
 
@@ -389,7 +388,10 @@ void do_kd( CHAR_DATA *ch, char *argument )
     else
       strcpy(buf,argument);
 
-    ch->pcdata->rk_puani -= 2;
+    if (ch->level > 15 && victim->level > 15 )
+    {
+      ch->pcdata->rk_puani -= 1;
+    }
 
    if (!is_affected(ch, gsn_deafen))
      act_color("$N kd: $C$t$c",ch,buf,victim,TO_CHAR,POS_DEAD, CLR_MAGENTA_BOLD );
