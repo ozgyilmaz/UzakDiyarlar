@@ -486,7 +486,6 @@ struct	weather_data
 #define CON_READ_MOTD			14
 #define CON_BREAK_CONNECT		15
 #define CON_ROLL_STATS                  16
-#define CON_ACCEPT_STATS                17
 #define CON_PICK_HOMETOWN               18
 #define CON_GET_ETHOS                   19
 #define CON_CREATE_DONE                 20
@@ -2914,6 +2913,8 @@ extern		int			time_sync;
 extern		int			max_newbies;
 extern		int			max_oldies;
 extern		int			iNumPlayers;
+extern		int     ikikat_tp;
+extern		int     ikikat_gp;
 
 /*
  * OS-dependent declarations.

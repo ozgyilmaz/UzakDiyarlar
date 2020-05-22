@@ -2621,6 +2621,13 @@ void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
 		else
 		{
 			xp = xp_compute( gch, victim, group_levels,members );
+
+			if( ikikat_tp > 0 )
+			{
+					printf_to_char( ch , "{CÝki kat TP kazanma etkinliði nedeniyle kazandýðýn TP artýyor.{x\n\r" );
+					xp *= 2;
+			}
+
 			sprintf( buf, "{g%d tecrübe puaný kazandýn.{x\n\r", xp );
 			send_to_char( buf, gch );
 			gain_exp( gch, xp );

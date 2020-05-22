@@ -837,6 +837,12 @@ act ("$E görevi bitirdiðini haber veriyorsun.",ch, NULL, questman, TO_CHAR);
 				pointreward *= 2;
 		}
 
+    if( ikikat_gp > 0 )
+		{
+				printf_to_char( ch , "{CÝki kat GP kazanma etkinliði nedeniyle kazandýðýn GP artýyor.{x\n\r" );
+				pointreward *= 2;
+		}
+
     sprintf(buf, "Tebrikler!");
     do_tell_quest(ch,questman,buf);
     sprintf(buf,"Karþýlýðýnda sana %d GP ve %d altýn veriyorum.",pointreward,reward);
@@ -847,6 +853,12 @@ act ("$E görevi bitirdiðini haber veriyorsun.",ch, NULL, questman, TO_CHAR);
         sprintf(buf, "%d pratik seansý kazandýn!\n\r",pracreward);
 		    send_to_char(buf, ch);
 		    ch->practice += pracreward;
+		}
+    if (number_range(1,8)==1)
+		{
+      pracreward = number_range(1,7);
+      printf_to_char(ch,"%d RK puaný kazandýn.\n\r",pracreward);
+		  ch->pcdata->rk_puani += pracreward;
 		}
 
 	        REMOVE_BIT(ch->act, PLR_QUESTOR);

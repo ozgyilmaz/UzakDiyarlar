@@ -2100,7 +2100,7 @@ void do_remort( CHAR_DATA *ch, char *argument )
     char mkstr[MAX_INPUT_LENGTH];
     char pbuf[MAX_STRING_LENGTH];
     char name[MAX_STRING_LENGTH];
-    int bankg, banks, qp, silver, gold, old_tra, old_pra;
+    int bankg, banks, qp, silver, gold, old_tra, old_pra, rkp;
 
     if ( IS_NPC(ch) || ( d = ch->desc ) == NULL )
         return;
@@ -2150,6 +2150,7 @@ ch->pcdata->confirm_remort = FALSE;
 	gold	= ch->gold;
   old_tra = ch->train;
   old_pra = ch->practice;
+  rkp = ch->pcdata->rk_puani;
 
 	if (!quit_org(ch, argument, TRUE, TRUE ))	return;
 
@@ -2170,6 +2171,7 @@ ch->pcdata->confirm_remort = FALSE;
 	ch->pcdata->questpoints	+= qp;
   ch->practice += old_pra;
 	ch->train	+= (10 + old_tra);
+  ch->pcdata->rk_puani += rkp;
 
   write_to_buffer( d, "\n\r[Devam etmek için ENTER]\n\r",0);
 	return;

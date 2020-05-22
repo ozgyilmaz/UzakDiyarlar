@@ -210,6 +210,7 @@ DECLARE_DO_FUN(	do_holylight	);
 DECLARE_DO_FUN( do_human        );
 DECLARE_DO_FUN( do_hunt         );
 DECLARE_DO_FUN( do_identify     );
+DECLARE_DO_FUN( do_ikikat     );
 DECLARE_DO_FUN(	do_iste	);
 DECLARE_DO_FUN(	do_ititle	);
 DECLARE_DO_FUN(	do_immtalk	);

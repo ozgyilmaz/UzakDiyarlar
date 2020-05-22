@@ -1094,6 +1094,18 @@ int age_to_num( int age )
  }
 
 
+void ikikat_update( void )
+{
+  if (ikikat_tp > 0 )
+  {
+    ikikat_tp--;
+  }
+  if( ikikat_gp > 0 )
+  {
+    ikikat_gp--;
+  }
+}
+
 
 /*
  * Update all chars, including mobs.
@@ -2040,6 +2052,7 @@ void update_handler( void )
 	weather_update	( );
 	char_update	( );
 	quest_update    ( );
+  ikikat_update    ( );
 	obj_update	( );
 	check_reboot	( );
 

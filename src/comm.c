@@ -2301,76 +2301,23 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	write_to_buffer(d, buf, 0 );
 
 	for (i=0; i < MAX_STATS; i++)
-	  {
-	   ch->perm_stat[i] = number_range(10,
-( race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i]) );
-	  ch->perm_stat[i] = UMIN(25, ch->perm_stat[i]);
-	  }
+	{
+		ch->perm_stat[i] = race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i];
+		ch->perm_stat[i] = UMIN(25, ch->perm_stat[i]);
+	}
 
-		sprintf(buf,"Güç:%2d  Zek:%2d  Bil:%2d  Çev:%2d  Bün:%2d  Kar:%2d \n\r Kabul (E/H)? ",
-        get_curr_stat(ch, STAT_STR),
-        get_curr_stat(ch, STAT_INT),
-        get_curr_stat(ch, STAT_WIS),
-        get_curr_stat(ch, STAT_DEX),
-        get_curr_stat(ch, STAT_CON),
-        get_curr_stat(ch, STAT_CHA) );
+	ch->perm_stat[STAT_CHA] = 15;
 
-
-	do_help(ch,(char*)"nitelik");
-	write_to_buffer(d,"\n\rÞimdi sýra nitelik zarlarýný atmada. Uzak Diyarlar'da\n\r",0);
-	write_to_buffer(d,"6 karakter niteliði vardýr. Bunlar:\n\r\n\r",0);
-	write_to_buffer(d,"Güç, Zeka, Bilgelik, Çeviklik, Bünye, Karizma\n\r\n\r",0);
-	write_to_buffer(d,"Her niteliðin karaktere saðladýðý avantajlar farklýdýr.\n\r",0);
-	write_to_buffer(d,"Ayrýntýlý bilgiyi www.uzakdiyarlar.net adresinde bulabilirsin.\n\r\n\r",0);
-	write_to_buffer(d, buf,0);
-	d->connected = CON_ACCEPT_STATS;
+	write_to_buffer( d, "\n\r", 2 );
+	write_to_buffer( d, "Sýra geldi karakterin için yönelim seçmeye. Yönelim, basit\n\r",0);
+	write_to_buffer( d, "bir ifadeyle karakterin topluma ve doðaya karþý davranýþ\n\r",0);
+	write_to_buffer( d, "biçimini belirler. Ayrýntýlý bilgiye siteden ulaþabilirsin.\n\r\n\r",0);
+	write_to_buffer( d, "Üç çeþit yönelim vardýr:\n\r",0);
+	write_to_buffer( d, "iyi, yansýz ve kem\n\r\n\r",0);
+	write_to_buffer( d, "Karakterinin yöneliminin ne olmasýný istiyorsun ( i - y - k )? ",0);
+	d->connected = CON_GET_ALIGNMENT;
 	break;
 
-      case CON_ACCEPT_STATS:
-	switch( argument[0] )
-	  {
-	  case 'Y': case 'y': case '?':
-	    do_help(ch,(char*)"nitelik");
-	    break;
-	  case 'e': case 'E':
-	    for (i=0; i < MAX_STATS;i++)
-	      ch->mod_stat[i] = 0;
-	    write_to_buffer( d, "\n\r", 2 );
-				write_to_buffer( d, "Sýra geldi karakterin için yönelim seçmeye. Yönelim, basit\n\r",0);
-				write_to_buffer( d, "bir ifadeyle karakterin topluma ve doðaya karþý davranýþ\n\r",0);
-				write_to_buffer( d, "biçimini belirler. Ayrýntýlý bilgiye siteden ulaþabilirsin.\n\r\n\r",0);
-				write_to_buffer( d, "Üç çeþit yönelim vardýr:\n\r",0);
-				write_to_buffer( d, "iyi, yansýz ve kem\n\r\n\r",0);
-				write_to_buffer( d, "Karakterinin yöneliminin ne olmasýný istiyorsun ( i - y - k )? ",0);
-	    d->connected = CON_GET_ALIGNMENT;
-	    break;
-
-	  case 'h': case 'H':
-
-	for (i=0; i < MAX_STATS; i++)
-	  {
-	   ch->perm_stat[i] = number_range(10,
-( race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i]) );
-	  ch->perm_stat[i] = UMIN(25, ch->perm_stat[i]);
-	  }
-
-		sprintf(buf,"Güç:%2d  Zek:%2d  Bil:%2d  Çev:%2d  Bün:%2d  Kar:%2d \n\r Kabul (E/H)? ",
-        get_curr_stat(ch, STAT_STR),
-        get_curr_stat(ch, STAT_INT),
-        get_curr_stat(ch, STAT_WIS),
-        get_curr_stat(ch, STAT_DEX),
-        get_curr_stat(ch, STAT_CON),
-        get_curr_stat(ch, STAT_CHA) );
-
-	    write_to_buffer(d, buf,0);
-	    d->connected = CON_ACCEPT_STATS;
-	    break;
-
-	  default:
-		write_to_buffer(d,"Cevap (E/H)? ",0);
-	    break;
-	  }
-	break;
 
       case CON_GET_ALIGNMENT:
 	switch( argument[0])
@@ -2480,6 +2427,14 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	ch->next	= char_list;
 	char_list	= ch;
 	d->connected	= CON_PLAYING;
+	if( ikikat_tp > 0 )
+	{
+			printf_to_char( ch , "\n\r{CÝki kat TP kazanma etkinliði etkin. Kalan süre %d dakika.{x\n\r\n\r" , ikikat_tp );
+	}
+	if( ikikat_gp > 0 )
+	{
+			printf_to_char( ch , "\n\r{CÝki kat GP kazanma etkinliði etkin. Kalan süre %d dakika.{x\n\r\n\r" , ikikat_gp );
+	}
 	ud_data_write();
 
 	/*
@@ -2549,6 +2504,14 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 		ch->pcdata->log_time[l] = 60;
 
 	    do_outfit(ch,(char*)"");
+			if( ikikat_tp > 0 )
+			{
+					printf_to_char( ch , "\n\r{CÝki kat TP kazanma etkinliði etkin. Kalan süre %d dakika.{x\n\r\n\r" , ikikat_tp );
+			}
+			if( ikikat_gp > 0 )
+			{
+					printf_to_char( ch , "\n\r{CÝki kat GP kazanma etkinliði etkin. Kalan süre %d dakika.{x\n\r\n\r" , ikikat_gp );
+			}
 	}
 	else if ( ch->in_room != NULL )
 	{

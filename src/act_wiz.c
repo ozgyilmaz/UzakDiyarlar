@@ -4439,6 +4439,58 @@ void do_advance( CHAR_DATA *ch, char *argument )
     return;
 }
 
+void do_ikikat( CHAR_DATA *ch, char *argument )
+{
+  char arg1 [MAX_INPUT_LENGTH];
+  char arg2 [MAX_INPUT_LENGTH];
+  int value;
+
+  smash_tilde( argument );
+  argument = one_argument( argument, arg1 );
+  argument = one_argument( argument, arg2 );
+
+  if ( arg1[0] == '\0')
+  {
+    send_to_char("Kullaným:\n\r",ch);
+    send_to_char("  ikikat <tp | gp> <dakika>\n\r",ch);
+    send_to_char("Dakika olarak 0 veya pozitif bir deðer verilmelidir.\n\r",ch);
+    return;
+  }
+
+  value = is_number( arg2 ) ? atoi( arg2 ) : 0;
+
+  if (value < 0 )
+  {
+    send_to_char("Kullaným:\n\r",ch);
+    send_to_char("  ikikat <tp | gp> <dakika>\n\r",ch);
+    send_to_char("Dakika olarak 0 veya pozitif bir deðer verilmelidir.\n\r",ch);
+    return;
+  }
+
+  if ( !str_cmp( arg1, "tp" ) )
+  {
+    ikikat_tp = value;
+    if (value != 0)
+      printf_to_char(ch,"Ýki kat TP %d dakikalýðýna açýldý.", value);
+    else
+      printf_to_char(ch,"Ýki kat TP kapatýldý.");
+    return;
+  }
+
+  if ( !str_cmp( arg1, "gp" ) )
+  {
+    ikikat_gp = value;
+    if (value != 0)
+      printf_to_char(ch,"Ýki kat GP %d dakikalýðýna açýldý.", value);
+    else
+      printf_to_char(ch,"Ýki kat GP kapatýldý.");
+    return;
+  }
+
+  return;
+
+}
+
 void do_mset( CHAR_DATA *ch, char *argument )
 {
     char arg1 [MAX_INPUT_LENGTH];
@@ -4458,7 +4510,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	send_to_char("Syntax:\n\r",ch);
 	send_to_char("  set char <name> <field> <value>\n\r",ch);
 	send_to_char( "  Field being one of:\n\r",			ch );
-	send_to_char( "    str int wis dex con cha sex class level\n\r",ch );
+	send_to_char( "    str int wis dex con cha sex class level rkp\n\r",ch );
 	send_to_char( "    race gold silver hp mana move practice align\n\r",	ch );
 	send_to_char( "    train thirst drunk full hometown ethos\n\r",	ch );
 
@@ -4667,6 +4719,12 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	    return;
 	}
 	victim->level = value;
+	return;
+    }
+
+    if ( !IS_NPC(victim) && !str_prefix( arg2, "rkp" ) )
+    {
+	victim->pcdata->rk_puani += value;
 	return;
     }
 

@@ -118,6 +118,9 @@ int			time_sync;
 int			max_newbies;
 int			max_oldies;
 int			iNumPlayers;
+int     ikikat_tp;
+int     ikikat_gp;
+
 
 
 /*
@@ -487,6 +490,9 @@ void boot_db( void )
     {
         init_mm( );
     }
+
+    ikikat_tp = 0;
+    ikikat_gp = 0;
 
     /*
      * Set time and weather.

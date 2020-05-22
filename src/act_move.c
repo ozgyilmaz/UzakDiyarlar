@@ -466,7 +466,6 @@ else act( "$n geldi.", ch, NULL, NULL, TO_ROOM );
           if (IS_SET(obj->progtypes,OPROG_GREET))
             (obj->pIndexData->oprogs->greet_prog) (obj,ch);
         }
-
       /* greet programs for npcs  */
       if (room_has_pc && IS_SET(fch->progtypes,MPROG_GREET))
       {
