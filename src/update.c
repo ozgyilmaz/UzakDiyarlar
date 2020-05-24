@@ -505,7 +505,7 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
 	}
     }
 
-    if ( ch->pcdata->condition[iCond] == -6 && ch->level >= PK_MIN_LEVEL)
+    if ( ch->pcdata->condition[iCond] == -6 && ch->level >= KIDEMLI_OYUNCU_SEVIYESI )
     {
 	switch ( iCond )
 	{

@@ -1264,470 +1264,509 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
  */
 bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bool show )
 {
+	OBJ_DATA *corpse;
+	bool immune;
+	int lost_exp;
 
-    OBJ_DATA *corpse;
-    bool immune;
-    int lost_exp;
-
-    if  ( victim->position == POS_DEAD)
-	return FALSE;
-
-    /*
-     * Stop up any residual loopholes.
-     */
-    if ( dam > 1000 && !IS_IMMORTAL(ch))
-    {
-	char buf[MAX_STRING_LENGTH];
-	sprintf(buf,"%s:Damage more than 1000 points :%d",ch->name,dam);
-	bug( buf,0);
-	if (IS_NPC(ch) && !IS_NPC(ch)) dam = 1000;
-
-/*
- *	For a 100-leveled MUD?....
-
-	dam = 1000;
-	if (!IS_IMMORTAL(ch))
+	if  ( victim->position == POS_DEAD)
 	{
-	    OBJ_DATA *obj;
-	    obj = get_wield_char( ch );
-	    send_to_char("You really shouldn't cheat.\n\r",ch);
-	    if (obj)
-	      extract_obj(obj);
-	}
-*/
-    }
-
-
-    if ( victim != ch )
-    {
-	/*
-	 * Certain attacks are forbidden.
-	 * Most other attacks are returned.
-	 */
-	if ( is_safe( ch, victim ) )
-	    return FALSE;
-
-	if ( victim->position > POS_STUNNED )
-	{
-	    if ( victim->fighting == NULL )
-		set_fighting( victim, ch );
-	    if (victim->timer <= 4)
-	    	victim->position = POS_FIGHTING;
-	}
-
-	if ( victim->position > POS_STUNNED )
-	{
-	    if ( ch->fighting == NULL )
-		set_fighting( ch, victim );
-
-	    /*
-	     * If victim is charmed, ch might attack victim's master.
-	     */
-	    if ( IS_NPC(ch)
-	    &&   IS_NPC(victim)
-	    &&   IS_AFFECTED(victim, AFF_CHARM)
-	    &&   victim->master != NULL
-	    &&   victim->master->in_room == ch->in_room
-	    &&   number_bits( 3 ) == 0 )
-	    {
-		stop_fighting( ch, FALSE );
-		multi_hit( ch, victim->master, TYPE_UNDEFINED );
 		return FALSE;
-	    }
 	}
 
 	/*
-	 * More charm and group stuff.
-	 */
-	if ( victim->master == ch )
-	    stop_follower( victim );
-
-	if ( MOUNTED(victim) == ch || RIDDEN(victim) == ch )
-	    victim->riding = ch->riding = FALSE;
-    }
-
-    /*
-     * No one in combat can sneak, hide, or be invis or camoed.
-     */
-    if ( IS_SET(ch->affected_by, AFF_HIDE)
-	|| IS_SET(ch->affected_by, AFF_INVISIBLE)
-	|| IS_SET(ch->affected_by, AFF_SNEAK)
-	|| IS_SET(ch->affected_by, AFF_FADE)
-	|| IS_SET(ch->affected_by, AFF_CAMOUFLAGE)
-	|| IS_SET(ch->affected_by, AFF_IMP_INVIS)
-	|| CAN_DETECT(ch, ADET_EARTHFADE) )
-      do_visible(ch, (char*)"");
-
-    /*
-     * Damage modifiers.
-     */
-    if ( IS_AFFECTED(victim, AFF_SANCTUARY) &&
-	 !( (dt == gsn_cleave) && (number_percent() < 50) ) )
-	dam /= 2;
-    else if ( CAN_DETECT(victim,ADET_PROTECTOR) )
-        dam = (3 * dam)/5;
-
-    if ( IS_AFFECTED(victim, AFF_PROTECT_EVIL) && IS_EVIL(ch) )
-	dam -= dam / 4;
-
-    if ( IS_AFFECTED(victim, AFF_PROTECT_GOOD) && IS_GOOD(ch) )
-	dam -= dam / 4;
-
-    if ( CAN_DETECT(victim, ADET_AURA_CHAOS)
-	 && victim->cabal == CABAL_CHAOS
-	 && (!IS_NPC(victim) && IS_SET(victim->act, PLR_WANTED)) )
-	dam -= dam / 4;
-
-    if (is_affected(victim, gsn_protection_heat) &&
-	(dam_type == DAM_FIRE) )
-       dam -= dam / 4;
-
-    if (is_affected(victim, gsn_protection_cold) &&
-   	 (dam_type == DAM_COLD) )
-       dam -= dam / 4;
-
-    immune = FALSE;
-
-    if (dt > 0 && dt < MAX_SKILL )
-    {
-	if (CAN_DETECT(victim, ADET_ABSORB)
-	   && skill_table[dt].target == TAR_CHAR_OFFENSIVE
-	   && skill_table[dt].spell_fun != spell_null
-	   && ch != victim
-           && (number_percent() < 2*get_skill(victim, gsn_absorb)/3)
-		/* update.c damages */
-	   && dt != gsn_poison
-	   && dt != gsn_plague
-	   && dt != gsn_witch_curse
-		/* update.c damages */
-           && dt != gsn_mental_knife
-           && dt != gsn_lightning_breath )
+	* Stop up any residual loopholes.
+	*/
+	if ( dam > 1000 && !IS_IMMORTAL(ch))
 	{
-		act("Büyün $S enerji alanýný geçemiyor!",ch,NULL,victim,TO_CHAR);
-		act("Sen $s büyüsünü soðuruyorsun!",ch,NULL,victim,TO_VICT);
-		act("$N $s büyüsünü soðuruyor!",ch,NULL,victim,TO_NOTVICT);
-          check_improve(victim,gsn_absorb,TRUE,1);
-          victim->mana += skill_table[dt].min_mana;
-	  return FALSE;
-	}
-	if (CAN_DETECT(victim, ADET_SPELLBANE)
-	   && skill_table[dt].target != TAR_IGNORE
-	   && skill_table[dt].spell_fun != spell_null
-           && (number_percent() < 2*get_skill(victim, gsn_spellbane)/3)
-		/* update.c damages */
-	   && dt != gsn_poison
-	   && dt != gsn_plague
-	   && dt != gsn_witch_curse
-		/* spellbane passing spell damages */
-           && dt != gsn_mental_knife
-           && dt != gsn_lightning_breath )
-	{
-		act("$N senin büyünü saptýrýyor!",ch,NULL,victim,TO_CHAR);
-		act("Sen $s büyüsünü saptýrýyorsun!",ch,NULL,victim,TO_VICT);
-		act("$N $s büyüsünü saptýrýyor!",ch,NULL,victim,TO_NOTVICT);
-          check_improve(victim,gsn_spellbane,TRUE,1);
-          damage(victim,ch,3 * victim->level,gsn_spellbane,DAM_NEGATIVE, TRUE);
-	  return FALSE;
-	}
-    }
-
-    /*
-     * Check for parry, and dodge.
-     */
-    if ( dt >= TYPE_HIT && ch != victim)
-    {
-	/*
-	 * Some funny stuf.
-	 */
-        if (is_affected(victim,gsn_mirror))
-	{
-		act("$n kýrýlarak küçük cam parçalarýna ayrýlýyor.",
-	      victim,NULL,NULL,TO_ROOM);
-	  extract_char(victim,TRUE);
-	  return FALSE;
+		char buf[MAX_STRING_LENGTH];
+		sprintf(buf,"%s:Damage more than 1000 points :%d",ch->name,dam);
+		bug( buf,0);
+		if (IS_NPC(ch) && !IS_NPC(ch))
+		{
+			dam = 1000;
+		}
 	}
 
-        if ( check_parry( ch, victim ) )
-	    return FALSE;
-        if ( check_cross( ch, victim ) )
-	    return FALSE;
-	if ( check_block( ch, victim) )
-	    return FALSE;
-	if ( check_dodge( ch, victim ) )
-	    return FALSE;
-	if ( check_hand( ch, victim ) )
-	    return FALSE;
-	if ( check_blink( ch, victim ) )
-	   return FALSE;
-    }
 
-    switch(check_immune(victim,dam_type))
-    {
-	case(IS_IMMUNE):
-	    immune = TRUE;
-	    dam = 0;
-	    break;
-	case(IS_RESISTANT):
-	    dam -= dam/3;
-	    break;
-	case(IS_VULNERABLE):
-	    dam += dam/2;
-	    break;
-    }
-
-    if ( dt != TYPE_HUNGER &&  dt >= TYPE_HIT && ch != victim )
-    {
-	 dam = critical_strike(ch, victim, dam);
-	 dam = ground_strike(ch, victim, dam);
-    }
-
-    if ( show )
-      dam_message( ch, victim, dam, dt, immune ,dam_type);
-
-    if (dam == 0)
-	return FALSE;
-
-/* temporarily second wield doesn't inflict damage */
-
-   if (dt != TYPE_HUNGER &&
-	    ( dt >= TYPE_HIT && ch != victim) )
-	check_weapon_destroy( ch, victim , FALSE);
-
-    /*
-     * Hurt the victim.
-     * Inform the victim of his new state.
-     * make sure that negative overflow doesn't happen!
-     */
-    if (dam < 0 || dam > (victim->hit + 16))
-	victim->hit = -16;
-    else victim->hit -= dam;
-
-    if ( !IS_NPC(victim)
-    &&   victim->level >= LEVEL_IMMORTAL
-    &&   victim->hit < 1 )
-	victim->hit = 1;
-
-    update_pos( victim );
-
-    switch( victim->position )
-    {
-    case POS_MORTAL:
-	if ( dam_type == DAM_HUNGER || dam_type == DAM_THIRST) break;
-	act("$n kötü þekilde yaralanmýþ, iyileþtirilmezse ölecek.",
-	    victim, NULL, NULL, TO_ROOM );
-	send_to_char(
-	    "Kötü þekilde yaralandýn, iyileþtirilmezsen öleceksin.\n\r",
-	    victim );
-	break;
-
-    case POS_INCAP:
-	if ( dam_type == DAM_HUNGER || dam_type == DAM_THIRST) break;
-	act("$n aciz durumda ve iyileþtirilmezse ölecek.",
-	    victim, NULL, NULL, TO_ROOM );
-	send_to_char(
-	    "Aciz durumdasýn ve iyileþtirilmezsen öleceksin.\n\r",
-	    victim );
-	break;
-
-    case POS_STUNNED:
-	if ( dam_type == DAM_HUNGER || dam_type == DAM_THIRST) break;
-	act( "$n sersemlemiþ fakat kendine gelecektir.",
-	    victim, NULL, NULL, TO_ROOM );
-	send_to_char("Sersemledin fakat kendine geleceksin.\n\r",
-	    victim );
-	break;
-
-    case POS_DEAD:
-		act( "$n ÖLDÜ!!", victim, 0, 0, TO_ROOM );
-		send_to_char("Ö L D Ü R Ü L D Ü N!!\n\r\n\r", victim );
-	break;
-
-    default:
-	if ( dam_type == DAM_HUNGER || dam_type == DAM_THIRST) break;
-	if ( dam > victim->max_hit / 4 )
-	send_to_char( "Bu gerçekten ACITTI!\n\r", victim );
-if ( victim->hit < victim->max_hit / 4 )
-	send_to_char( "KANAMAN var!\n\r", victim );
-	break;
-    }
-
-    /*
-     * Sleep spells and extremely wounded folks.
-     */
-    if ( !IS_AWAKE(victim) )
-	stop_fighting( victim, FALSE );
-
-    /*
-     * Payoff for killing things.
-     */
-    if ( victim->position == POS_DEAD )
-    {
-	group_gain( ch, victim );
-
-	if ( !IS_NPC(victim) )
+	if ( victim != ch )
 	{
-            /*
-	     * Dying penalty:
-	     * 2/3 way back.
-	     */
+		/*
+		* Certain attacks are forbidden.
+		* Most other attacks are returned.
+		*/
+		if ( is_safe( ch, victim ) )
+		{
+			return FALSE;
+		}
 
-	if (victim == ch || (IS_NPC(ch) && (ch->master == NULL &&
-		 ch->leader == NULL)) || IS_SET(victim->act,PLR_WANTED))
-	{
-	 if ( victim->exp > exp_per_level(victim,victim->pcdata->points)
-				* victim->level )
-	  {
-	   lost_exp = (2 * ( exp_per_level(victim,victim->pcdata->points)
-			* victim->level - victim->exp) / 3 ) + 50;
-	   gain_exp( victim , lost_exp);
-	  }
-	}
-
-	/*
-	 *  Die too much and deleted ... :(
-	 */
-	      if ( !IS_NPC(victim) && ( victim == ch || (IS_NPC(ch) &&
-                   (ch->master == NULL && ch->leader == NULL))
-                   || IS_SET(victim->act,PLR_WANTED) ) )
-              {
-		victim->pcdata->death++;
-		if (victim->iclass == 9)
-		 {
-		  if ( (victim->pcdata->death % 3) == 2)
+		if ( victim->position > POS_STUNNED )
+		{
+			if ( victim->fighting == NULL )
 			{
-                  victim->perm_stat[STAT_CHA]--;
-                  if ( victim->pcdata->death > 10 )  {
-		  char strsave[160];
-		    printf_to_char( victim, "{RBir hayalete dönüþerek dünya gerçekliðini terkediyorsun.{x\n\r" );
-			act( "$n öldü ve bir daha dönemeyecek.\n\r",victim,NULL,NULL,TO_ROOM);
-		    victim->last_fight_time = -1;
-		    victim->hit = 1;
-		    victim->position = POS_STANDING;
-                    sprintf( strsave, "%s%s", PLAYER_DIR, capitalize( victim->name ) );
-                    wiznet("$N is deleted due to 10 deaths limit of Samurai.",ch,NULL,0,0,0);
-                    do_quit_count(victim,(char*)"");
-                    unlink(strsave);
-                    return TRUE;
-							}
+				set_fighting( victim, ch );
 			}
-		 }
-		else  if ( ( victim->pcdata->death % 3) == 2 && victim->level > 15 )
-		 {
-                  victim->perm_stat[STAT_CON]--;
-									printf_to_char( victim, "{RBünyenin azaldýðýný hissediyorsun.{x\n\r" );
-                  if ( victim->perm_stat[STAT_CON] < 3 )  {
-		  char strsave[160];
-			printf_to_char( victim, "{RBir hayalete dönüþerek dünya gerçekliðini terkediyorsun.{x\n\r" );
-			act("$n öldü ve bir daha dönemeyecek.\n\r",victim,NULL,NULL,TO_ROOM);
-		    victim->last_fight_time = -1;
-		    victim->hit = 1;
-		    victim->position = POS_STANDING;
-                    sprintf( strsave, "%s%s", PLAYER_DIR, capitalize( victim->name ) );
-                    wiznet("$N is deleted due to lack of CON.",ch,NULL,0,0,0);
-                    do_quit_count(victim,(char*)"");
-                    unlink(strsave);
-                    return TRUE;
-		  }
-		  else
-			send_to_char( "Bu ölümle yaþam gücünün azaldýðýný hissediyorsun.\n\r", victim);
+			if (victim->timer <= 4)
+			{
+				victim->position = POS_FIGHTING;
+			}
 		}
-	      }
-      }
 
-	raw_kill( victim );
-
-	/* don't remember killed victims anymore */
-
-	if (IS_NPC(ch))
-	{
-	    if ( ch->pIndexData->vnum == MOB_VNUM_STALKER )
-		ch->status = 10;
-	    remove_mind(ch,victim->name);
-	    if ( IS_SET(ch->act, ACT_HUNTER) && ch->hunting == victim )
-	    {
-		ch->hunting = NULL;
-		REMOVE_BIT(ch->act, ACT_HUNTER);
-	    }
-	}
-
-        /* RT new auto commands */
-
-	if ( !IS_NPC(ch) && IS_NPC(victim) )
-	{
-	    corpse = get_obj_list( ch, (char*)"ceset", ch->in_room->contents );
-
-	    if ( IS_SET(ch->act, PLR_AUTOLOOT) &&
-		 corpse && corpse->contains) /* exists and not empty */
-		do_get( ch, (char*)"tümü ceset" );
-
- 	    if (IS_SET(ch->act,PLR_AUTOGOLD) &&
-	        corpse && corpse->contains ) /* exists and not empty */
+		if ( victim->position > POS_STUNNED )
 		{
-		do_get(ch, (char*)"akçe ceset");
-		do_get(ch, (char*)"altýn ceset");
+			if ( ch->fighting == NULL )
+			set_fighting( ch, victim );
+
+			/*
+			* If victim is charmed, ch might attack victim's master.
+			*/
+			if ( IS_NPC(ch)
+			&&   IS_NPC(victim)
+			&&   IS_AFFECTED(victim, AFF_CHARM)
+			&&   victim->master != NULL
+			&&   victim->master->in_room == ch->in_room
+			&&   number_bits( 3 ) == 0 )
+			{
+				stop_fighting( ch, FALSE );
+				multi_hit( ch, victim->master, TYPE_UNDEFINED );
+				return FALSE;
+			}
 		}
 
-	    if ( ch->iclass == CLASS_VAMPIRE && ch->level > 10 && corpse)
+		/*
+		* More charm and group stuff.
+		*/
+		if ( victim->master == ch )
 		{
-			act_color( "$C$n $S cesedinden kan emiyor!!$c",
- 			ch, NULL,victim,TO_ROOM,POS_SLEEPING,CLR_RED_BOLD);
- 		 send_ch_color("$CCesetten kan emiyorsun!!$c\n\r\n\r",
-			ch,POS_SLEEPING,CLR_RED_BOLD );
-		 gain_condition(ch,COND_BLOODLUST,3);
+			stop_follower( victim );
 		}
 
-	    if ( IS_SET(ch->act, PLR_AUTOSAC) )
-	    {
-       	      if ( IS_SET(ch->act,PLR_AUTOLOOT) && corpse && corpse->contains)
-		return TRUE;  /* leave if corpse has treasure */
-	      else
-		do_sacrifice( ch, (char*)"ceset" );
+		if ( MOUNTED(victim) == ch || RIDDEN(victim) == ch )
+		{
+			victim->riding = ch->riding = FALSE;
 		}
 	}
 
-	return TRUE;
-    }
-
-    if ( victim == ch )
-	return TRUE;
-
-    /*
-     * Take care of link dead people.
-     */
-    if ( !IS_NPC(victim) && victim->desc == NULL )
-    {
-	if ( number_range( 0, victim->wait ) == 0 )
+	/*
+	* No one in combat can sneak, hide, or be invis or camoed.
+	*/
+	if ( IS_SET(ch->affected_by, AFF_HIDE) || IS_SET(ch->affected_by, AFF_INVISIBLE)
+			|| IS_SET(ch->affected_by, AFF_SNEAK) || IS_SET(ch->affected_by, AFF_FADE)
+			|| IS_SET(ch->affected_by, AFF_CAMOUFLAGE) || IS_SET(ch->affected_by, AFF_IMP_INVIS)
+			|| CAN_DETECT(ch, ADET_EARTHFADE) )
 	{
-	    if (victim->level < 11) do_recall( victim, (char*)"" );
-	    else do_flee( victim, (char*)"" );
-	    return TRUE;
+		do_visible(ch, (char*)"");
 	}
-    }
 
-    /*
-     * Wimp out?
-     */
-    if ( IS_NPC(victim) && dam > 0 && victim->wait < PULSE_VIOLENCE / 2)
-    {
-	if ( ( ( IS_SET(victim->act, ACT_WIMPY) && number_bits( 2 ) == 0
-	&&   victim->hit < victim->max_hit / 5)
-	||   ( IS_AFFECTED(victim, AFF_CHARM) && victim->master != NULL
-	&&     victim->master->in_room != victim->in_room ) )
-	|| ( CAN_DETECT(victim,ADET_FEAR) && !IS_SET(victim->act,ACT_NOTRACK) ))
-	   {
-	    do_flee( victim, (char*)"" );
-	    victim->last_fought = NULL;
-	   }
-    }
+	/*
+	* Damage modifiers.
+	*/
+	if ( IS_AFFECTED(victim, AFF_SANCTUARY) &&
+	!( (dt == gsn_cleave) && (number_percent() < 50) ) )
+	{
+		dam /= 2;
+	}
+	else if ( CAN_DETECT(victim,ADET_PROTECTOR) )
+	{
+		dam = (3 * dam)/5;
+	}
 
-    if ( !IS_NPC(victim)
-    &&   victim->hit > 0
-    &&   ( victim->hit <= victim->wimpy || CAN_DETECT(victim, ADET_FEAR) )
-    &&   victim->wait < PULSE_VIOLENCE / 2 )
-	do_flee( victim, (char*)"" );
+	if ( IS_AFFECTED(victim, AFF_PROTECT_EVIL) && IS_EVIL(ch) )
+	{
+		dam -= dam / 4;
+	}
 
-    tail_chain( );
-    return TRUE;
+	if ( IS_AFFECTED(victim, AFF_PROTECT_GOOD) && IS_GOOD(ch) )
+	{
+		dam -= dam / 4;
+	}
+
+	if ( CAN_DETECT(victim, ADET_AURA_CHAOS) && victim->cabal == CABAL_CHAOS
+	&& (!IS_NPC(victim) && IS_SET(victim->act, PLR_WANTED)) )
+	{
+		dam -= dam / 4;
+	}
+
+	if (is_affected(victim, gsn_protection_heat) && (dam_type == DAM_FIRE) )
+	{
+		dam -= dam / 4;
+	}
+
+	if (is_affected(victim, gsn_protection_cold) && (dam_type == DAM_COLD) )
+	{
+		dam -= dam / 4;
+	}
+
+	immune = FALSE;
+
+	if (dt > 0 && dt < MAX_SKILL )
+	{
+		if (CAN_DETECT(victim, ADET_ABSORB)
+		&& skill_table[dt].target == TAR_CHAR_OFFENSIVE
+		&& skill_table[dt].spell_fun != spell_null
+		&& ch != victim
+		&& (number_percent() < 2*get_skill(victim, gsn_absorb)/3)
+		/* update.c damages */
+		&& dt != gsn_poison
+		&& dt != gsn_plague
+		&& dt != gsn_witch_curse
+		/* update.c damages */
+		&& dt != gsn_mental_knife
+		&& dt != gsn_lightning_breath )
+		{
+			act("Büyün $S enerji alanýný geçemiyor!",ch,NULL,victim,TO_CHAR);
+			act("Sen $s büyüsünü soðuruyorsun!",ch,NULL,victim,TO_VICT);
+			act("$N $s büyüsünü soðuruyor!",ch,NULL,victim,TO_NOTVICT);
+			check_improve(victim,gsn_absorb,TRUE,1);
+			victim->mana += skill_table[dt].min_mana;
+			return FALSE;
+		}
+
+		if (CAN_DETECT(victim, ADET_SPELLBANE)
+		&& skill_table[dt].target != TAR_IGNORE
+		&& skill_table[dt].spell_fun != spell_null
+		&& (number_percent() < 2*get_skill(victim, gsn_spellbane)/3)
+		/* update.c damages */
+		&& dt != gsn_poison
+		&& dt != gsn_plague
+		&& dt != gsn_witch_curse
+		/* spellbane passing spell damages */
+		&& dt != gsn_mental_knife
+		&& dt != gsn_lightning_breath )
+		{
+			act("$N senin büyünü saptýrýyor!",ch,NULL,victim,TO_CHAR);
+			act("Sen $s büyüsünü saptýrýyorsun!",ch,NULL,victim,TO_VICT);
+			act("$N $s büyüsünü saptýrýyor!",ch,NULL,victim,TO_NOTVICT);
+			check_improve(victim,gsn_spellbane,TRUE,1);
+			damage(victim,ch,3 * victim->level,gsn_spellbane,DAM_NEGATIVE, TRUE);
+			return FALSE;
+		}
+	}
+
+	/*
+	* Check for parry, and dodge.
+	*/
+	if ( dt >= TYPE_HIT && ch != victim)
+	{
+		/*
+		* Some funny stuf.
+		*/
+		if (is_affected(victim,gsn_mirror))
+		{
+			act("$n kýrýlarak küçük cam parçalarýna ayrýlýyor.",
+			victim,NULL,NULL,TO_ROOM);
+			extract_char(victim,TRUE);
+			return FALSE;
+		}
+
+		if ( check_parry( ch, victim ) )
+			return FALSE;
+		if ( check_cross( ch, victim ) )
+			return FALSE;
+		if ( check_block( ch, victim) )
+			return FALSE;
+		if ( check_dodge( ch, victim ) )
+			return FALSE;
+		if ( check_hand( ch, victim ) )
+			return FALSE;
+		if ( check_blink( ch, victim ) )
+			return FALSE;
+	}
+
+	switch(check_immune(victim,dam_type))
+	{
+		case(IS_IMMUNE):
+			immune = TRUE;
+			dam = 0;
+			break;
+		case(IS_RESISTANT):
+			dam -= dam/3;
+			break;
+		case(IS_VULNERABLE):
+			dam += dam/2;
+			break;
+	}
+
+	if ( dt != TYPE_HUNGER &&  dt >= TYPE_HIT && ch != victim )
+	{
+		dam = critical_strike(ch, victim, dam);
+		dam = ground_strike(ch, victim, dam);
+	}
+
+	if ( show )
+	{
+		dam_message( ch, victim, dam, dt, immune ,dam_type);
+	}
+
+	if (dam == 0)
+	{
+		return FALSE;
+	}
+
+	/* temporarily second wield doesn't inflict damage */
+	if (dt != TYPE_HUNGER && ( dt >= TYPE_HIT && ch != victim) )
+	{
+		check_weapon_destroy( ch, victim , FALSE);
+	}
+
+	/*
+	* Hurt the victim.
+	* Inform the victim of his new state.
+	* make sure that negative overflow doesn't happen!
+	*/
+	if (dam < 0 || dam > (victim->hit + 16))
+	{
+		victim->hit = -16;
+	}
+	else
+	{
+		victim->hit -= dam;
+	}
+
+	if ( !IS_NPC(victim) && victim->level >= LEVEL_IMMORTAL && victim->hit < 1 )
+	{
+		victim->hit = 1;
+	}
+
+	update_pos( victim );
+
+	switch( victim->position )
+	{
+		case POS_MORTAL:
+			if ( dam_type == DAM_HUNGER || dam_type == DAM_THIRST)
+			{
+				break;
+			}
+			act("$n kötü þekilde yaralanmýþ, iyileþtirilmezse ölecek.",victim, NULL, NULL, TO_ROOM );
+			send_to_char("Kötü þekilde yaralandýn, iyileþtirilmezsen öleceksin.\n\r",victim );
+			break;
+
+		case POS_INCAP:
+			if ( dam_type == DAM_HUNGER || dam_type == DAM_THIRST)
+			{
+				break;
+			}
+			act("$n aciz durumda ve iyileþtirilmezse ölecek.",victim, NULL, NULL, TO_ROOM );
+			send_to_char("Aciz durumdasýn ve iyileþtirilmezsen öleceksin.\n\r",victim );
+			break;
+
+		case POS_STUNNED:
+			if ( dam_type == DAM_HUNGER || dam_type == DAM_THIRST)
+			{
+				break;
+			}
+			act( "$n sersemlemiþ fakat kendine gelecektir.",victim, NULL, NULL, TO_ROOM );
+			send_to_char("Sersemledin fakat kendine geleceksin.\n\r",victim );
+			break;
+
+		case POS_DEAD:
+			act( "$n ÖLDÜ!!", victim, 0, 0, TO_ROOM );
+			send_to_char("Ö L D Ü R Ü L D Ü N!!\n\r\n\r", victim );
+			break;
+
+		default:
+			if ( dam_type == DAM_HUNGER || dam_type == DAM_THIRST)
+			{
+				break;
+			}
+			if ( dam > victim->max_hit / 4 )
+			{
+				send_to_char( "Bu gerçekten ACITTI!\n\r", victim );
+			}
+			if ( victim->hit < victim->max_hit / 4 )
+			{
+				send_to_char( "KANAMAN var!\n\r", victim );
+			}
+			break;
+	}
+
+	/*
+	* Sleep spells and extremely wounded folks.
+	*/
+	if ( !IS_AWAKE(victim) )
+	{
+		stop_fighting( victim, FALSE );
+	}
+
+	/*
+	* Payoff for killing things.
+	*/
+	if ( victim->position == POS_DEAD )
+	{
+
+		group_gain( ch, victim );
+
+		if ( !IS_NPC(victim) )
+		{
+
+			/*
+			* Dying penalty:
+			* 2/3 way back.
+			*/
+			if (victim == ch || (IS_NPC(ch) && (ch->master == NULL && ch->leader == NULL)) || IS_SET(victim->act,PLR_WANTED))
+			{
+				if ( victim->exp > exp_per_level(victim,victim->pcdata->points) * victim->level )
+				{
+					lost_exp = (2 * ( exp_per_level(victim,victim->pcdata->points) * victim->level - victim->exp) / 3 ) + 50;
+					gain_exp( victim , lost_exp);
+				}
+			}
+
+			/*
+			*  Die too much and deleted ... :(
+			*/
+			if ( !IS_NPC(victim) && ( victim == ch || (IS_NPC(ch) && (ch->master == NULL && ch->leader == NULL))
+					|| IS_SET(victim->act,PLR_WANTED) ) )
+			{
+				if(victim->level >= KIDEMLI_OYUNCU_SEVIYESI && !IS_IMMORTAL(victim))
+				{
+					victim->pcdata->death++;
+
+					if ( (victim->pcdata->death % 3) == 2)
+					{
+						victim->perm_stat[STAT_CHA] = UMAX(1,victim->perm_stat[STAT_CHA]-1);
+						victim->perm_stat[STAT_CON] = UMAX(3,victim->perm_stat[STAT_CON]-1);
+						printf_to_char( victim, "{RBu ölümle bünye ve karizmanýn azaldýðýný hissediyorsun.{x\n\r" );
+					}
+
+					if( victim->perm_stat[STAT_CON] == 3 )
+					{
+						char strsave[160];
+						printf_to_char( victim, "{RBir hayalete dönüþerek dünya gerçekliðini terkediyorsun.{x\n\r" );
+						act("$n öldü ve bir daha dönemeyecek.\n\r",victim,NULL,NULL,TO_ROOM);
+						victim->last_fight_time = -1;
+						victim->hit = 1;
+						victim->position = POS_STANDING;
+						sprintf( strsave, "%s%s", PLAYER_DIR, capitalize( victim->name ) );
+						wiznet("$N bünyesi yetersiz geldiði için silindi.",ch,NULL,0,0,0);
+						do_quit_count(victim,(char*)"");
+						unlink(strsave);
+						return TRUE;
+					}
+
+					if ( victim->iclass == CLASS_SAMURAI && victim->pcdata->death > 15 )
+					{
+						char strsave[160];
+						printf_to_char( victim, "{RBir hayalete dönüþerek dünya gerçekliðini terkediyorsun.{x\n\r" );
+						act("$n öldü ve bir daha dönemeyecek.\n\r",victim,NULL,NULL,TO_ROOM);
+						victim->last_fight_time = -1;
+						victim->hit = 1;
+						victim->position = POS_STANDING;
+						sprintf( strsave, "%s%s", PLAYER_DIR, capitalize( victim->name ) );
+						wiznet("$N 15 ölümü geçtiði için silindi.",ch,NULL,0,0,0);
+						do_quit_count(victim,(char*)"");
+						unlink(strsave);
+						return TRUE;
+					}
+				}
+			}
+		}
+
+		raw_kill( victim );
+
+		/* don't remember killed victims anymore */
+		if (IS_NPC(ch))
+		{
+			if ( ch->pIndexData->vnum == MOB_VNUM_STALKER )
+			{
+				ch->status = 10;
+			}
+			remove_mind(ch,victim->name);
+			if ( IS_SET(ch->act, ACT_HUNTER) && ch->hunting == victim )
+			{
+				ch->hunting = NULL;
+				REMOVE_BIT(ch->act, ACT_HUNTER);
+			}
+		}
+
+		/* RT new auto commands */
+
+		if ( !IS_NPC(ch) && IS_NPC(victim) )
+		{
+			corpse = get_obj_list( ch, (char*)"ceset", ch->in_room->contents );
+
+			if ( IS_SET(ch->act, PLR_AUTOLOOT) && corpse && corpse->contains) /* exists and not empty */
+			{
+				do_get( ch, (char*)"tümü ceset" );
+			}
+
+			if (IS_SET(ch->act,PLR_AUTOGOLD) && corpse && corpse->contains ) /* exists and not empty */
+			{
+				do_get(ch, (char*)"akçe ceset");
+				do_get(ch, (char*)"altýn ceset");
+			}
+
+			if ( ch->iclass == CLASS_VAMPIRE && ch->level > 10 && corpse)
+			{
+				act_color( "$C$n $S cesedinden kan emiyor!!$c",ch, NULL,victim,TO_ROOM,POS_SLEEPING,CLR_RED_BOLD);
+				send_ch_color("$CCesetten kan emiyorsun!!$c\n\r\n\r",ch,POS_SLEEPING,CLR_RED_BOLD );
+				gain_condition(ch,COND_BLOODLUST,3);
+			}
+
+			if ( IS_SET(ch->act, PLR_AUTOSAC) )
+			{
+				if ( IS_SET(ch->act,PLR_AUTOLOOT) && corpse && corpse->contains)
+				{
+					return TRUE;  /* leave if corpse has treasure */
+				}
+				else
+				{
+					do_sacrifice( ch, (char*)"ceset" );
+				}
+			}
+		}
+
+		return TRUE;
+	}
+
+	if ( victim == ch )
+	{
+		return TRUE;
+	}
+
+	/*
+	* Take care of link dead people.
+	*/
+	if ( !IS_NPC(victim) && victim->desc == NULL )
+	{
+		if ( number_range( 0, victim->wait ) == 0 )
+		{
+		if (victim->level < 11)
+		{
+			do_recall( victim, (char*)"" );
+		}
+		else
+		{
+			do_flee( victim, (char*)"" );
+		}
+		return TRUE;
+		}
+	}
+
+	/*
+	* Wimp out?
+	*/
+	if ( IS_NPC(victim) && dam > 0 && victim->wait < PULSE_VIOLENCE / 2)
+	{
+		if ( ( ( IS_SET(victim->act, ACT_WIMPY) && number_bits( 2 ) == 0
+				&& victim->hit < victim->max_hit / 5)
+				||   ( IS_AFFECTED(victim, AFF_CHARM) && victim->master != NULL
+				&&     victim->master->in_room != victim->in_room ) )
+				|| ( CAN_DETECT(victim,ADET_FEAR) && !IS_SET(victim->act,ACT_NOTRACK) ))
+		{
+			do_flee( victim, (char*)"" );
+			victim->last_fought = NULL;
+		}
+	}
+
+	if ( !IS_NPC(victim) && victim->hit > 0
+	  && ( victim->hit <= victim->wimpy || CAN_DETECT(victim, ADET_FEAR) )
+	  && victim->wait < PULSE_VIOLENCE / 2 )
+	{
+		do_flee( victim, (char*)"" );
+	}
+
+	tail_chain( );
+	return TRUE;
 }
 
 bool is_safe(CHAR_DATA *ch, CHAR_DATA *victim)
@@ -2663,7 +2702,6 @@ void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
  */
 int xp_compute(CHAR_DATA *gch, CHAR_DATA *victim, int total_levels,int members)
 {
-  char buf[MAX_STRING_LENGTH];
   int xp;
   int base_exp;
   int level_range;
@@ -2728,7 +2766,7 @@ int xp_compute(CHAR_DATA *gch, CHAR_DATA *victim, int total_levels,int members)
     if (members == 3)
       xp *= ( 30/10 );
 
-    if (gch->level < 15)
+    if (gch->level < KIDEMLI_OYUNCU_SEVIYESI)
 	 xp = UMIN((250 + dice(1,40)),xp);
     else if (gch->level < 40)
 	xp = UMIN((225 + dice(1,40)),xp);
@@ -2738,76 +2776,59 @@ int xp_compute(CHAR_DATA *gch, CHAR_DATA *victim, int total_levels,int members)
 
     xp += (xp * ( gch->max_hit - gch->hit )) / (gch->max_hit * 5 );
 
-    if (IS_GOOD(gch))
+	if (IS_GOOD(gch))
 	{
-	 if (IS_GOOD(victim)) { gch->pcdata->anti_killed++; neg_cha = 1; }
-	 else if (IS_NEUTRAL(victim)) {gch->pcdata->has_killed++; pos_cha =1;}
-	 else if (IS_EVIL(victim)) {gch->pcdata->has_killed++; pos_cha = 1;}
+		if (IS_GOOD(victim)) { gch->pcdata->anti_killed++; neg_cha = 1; }
+		else if (IS_NEUTRAL(victim)) {gch->pcdata->has_killed++; pos_cha =1;}
+		else if (IS_EVIL(victim)) {gch->pcdata->has_killed++; pos_cha = 1;}
 	}
 
-    if (IS_NEUTRAL(gch))
+	if (IS_NEUTRAL(gch))
 	{
-	 if (xp > 0)
-	 {
-	  if (IS_GOOD(victim)) {gch->pcdata->has_killed++; pos_cha = 1;}
-	  else if (IS_NEUTRAL(victim)) {gch->pcdata->anti_killed++; neg_cha = 1;}
-	  else if (IS_EVIL(victim)) {gch->pcdata->has_killed++; pos_cha =1;}
-	 }
+		if (IS_GOOD(victim)) {gch->pcdata->has_killed++; pos_cha = 1;}
+		else if (IS_NEUTRAL(victim)) {gch->pcdata->anti_killed++; neg_cha = 1;}
+		else if (IS_EVIL(victim)) {gch->pcdata->has_killed++; pos_cha =1;}
 	}
 
-    if (IS_EVIL(gch))
+	if (IS_EVIL(gch))
 	{
-	 if (xp > 0)
-	 {
-	  if (IS_GOOD(victim)) {gch->pcdata->has_killed++; pos_cha = 1;}
-	  else if (IS_NEUTRAL(victim)) {gch->pcdata->has_killed++; pos_cha = 1;}
-	  else if (IS_EVIL(victim)) {gch->pcdata->anti_killed++; neg_cha = 1;}
-	 }
+		if (IS_GOOD(victim)) {gch->pcdata->has_killed++; pos_cha = 1;}
+		else if (IS_NEUTRAL(victim)) {gch->pcdata->has_killed++; pos_cha = 1;}
+		else if (IS_EVIL(victim)) {gch->pcdata->anti_killed++; neg_cha = 1;}
 	}
 
- if ( neg_cha )
+	if ( neg_cha )
   {
-    if ( (gch->pcdata->anti_killed % 100) == 99 )
-	{
-		sprintf(buf,"Þimdiye kadar %d %s öldürdün.\n\r",
-			gch->pcdata->anti_killed,
-		IS_GOOD(gch) ? "iyi" :
-		IS_NEUTRAL(gch) ? "yansýz" :
-		IS_EVIL(gch) ? "kem" : "bilinmeyen" );
-	 send_to_char(buf,gch);
-	 if (gch->perm_stat[STAT_CHA] > 3 && IS_GOOD(gch) )
-	 {
-		 send_to_char("Bu yüzden karizman bir azaldý.\n\r", gch);
-	  gch->perm_stat[STAT_CHA] -= 1;
-	 }
+		if ( (gch->pcdata->anti_killed % 100) == 99 )
+		{
+			printf_to_char(gch,"Þimdiye kadar %d adet seninle ayný yönelime sahip canlý öldürdün.",gch->pcdata->anti_killed);
+			if (gch->perm_stat[STAT_CHA] > 3)
+			{
+				printf_to_char(gch,"Bu yüzden karizman bir azaldý.\n\r");
+				gch->perm_stat[STAT_CHA] -= 1;
+			}
+		}
 	}
-   }
-  else if ( pos_cha )
-   {
-    if ( (gch->pcdata->has_killed % 200) == 199 )
+	else if ( pos_cha )
 	{
-		sprintf(buf,"Þimdiye kadar %d %s öldürdün.\n\r",
-			gch->pcdata->anti_killed,
-		IS_GOOD(gch) ? "iyi olmayan" :
-		IS_NEUTRAL(gch) ? "yansýz olmayan" :
-		IS_EVIL(gch) ? "kem olmayan" : "bilinmeyen" );
-	  send_to_char(buf,gch);
-	  if (gch->perm_stat[STAT_CHA] < get_max_train( gch, STAT_CHA)
-		&& IS_GOOD(gch) )
-	  {
-			send_to_char("Karizman bir arttý.\n\r", gch);
-	   gch->perm_stat[STAT_CHA] += 1;
-	  }
-	 }
-   }
+		if ( (gch->pcdata->has_killed % 200) == 199 )
+		{
+			printf_to_char(gch,"Þimdiye kadar %d adet seninle ayný yönelime sahip olmayan canlý öldürdün.",gch->pcdata->has_killed);
+			if ( gch->perm_stat[STAT_CHA] < get_max_train( gch, STAT_CHA ) )
+			{
+				printf_to_char(gch,"Bu yüzden karizman bir arttý.\n\r");
+				gch->perm_stat[STAT_CHA] += 1;
+			}
+		}
+	}
 
-   if(IS_SET(gch->pcdata->dilek,DILEK_FLAG_TECRUBE))
-   	{
-   		printf_to_char( gch , "{CTecrübe dileðin sayesinde kazandýðýn TP artýyor.{x\n\r" );
-   		xp *= 2;
-   	}
+	if(IS_SET(gch->pcdata->dilek,DILEK_FLAG_TECRUBE))
+	{
+		printf_to_char( gch , "{CTecrübe dileðin sayesinde kazandýðýn TP artýyor.{x\n\r" );
+		xp *= 2;
+	}
 
-    return xp;
+	return xp;
 }
 
 

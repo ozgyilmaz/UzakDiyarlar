@@ -306,16 +306,6 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
 	ch->perm_stat[STAT_CON],
 	ch->perm_stat[STAT_CHA] );
 
-/*
-    fprintf (fp, "AMod %d %d %d %d %d %d\n",
-	ch->mod_stat[STAT_STR],
-	ch->mod_stat[STAT_INT],
-	ch->mod_stat[STAT_WIS],
-	ch->mod_stat[STAT_DEX],
-	ch->mod_stat[STAT_CON],
-	ch->mod_stat[STAT_CHA] );
-*/
-
 	fprintf( fp, "Pass %s~\n",	ch->pcdata->pwd		);
 	if (ch->pcdata->bamfin[0] != '\0')
 	    fprintf( fp, "Bin  %s~\n",	ch->pcdata->bamfin);

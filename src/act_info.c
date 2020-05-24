@@ -606,7 +606,7 @@ char *show_char_to_char_1_health_check(CHAR_DATA *ch , CHAR_DATA *victim)
     else
       percent = -1;
   }
-  // irk bilgisi de onemli olsun
+  // irk tanima bilgisi de onemli olsun
   else if ( number_range(1,100) < ch->pcdata->familya[victim->race] )
   {
     if ( victim->max_hit > 0 )
@@ -1891,32 +1891,35 @@ void do_score( CHAR_DATA *ch, char *argument )
     game_time_to_string(ch->pcdata->birth_time,dogumGunu);
   }
 
-  printf_to_char(ch,"{c,--------------------------------------------------------------------,{w\n\r");
-  printf_to_char(ch,"{c| {w%+12s%-30s{c                         |\n\r",(victim==NULL?ch:victim)->name,(victim==NULL?ch:victim)->pcdata->title);
-  printf_to_char(ch,"{c|-------------------------,------------------------------------------,{w\n\r");
-  printf_to_char(ch,"{c| Irk     : {w%-13s{c | ZIRH         | PARA                      |\n\r",race_table[(victim==NULL?ch:victim)->race].name[1]);
-  printf_to_char(ch,"{c| Yaþ     : {w%-13d{c | Delici : {w%-4d{c| Altýn       : {w%-7ld{c     |\n\r",get_age(victim==NULL?ch:victim),GET_AC((victim==NULL?ch:victim),AC_PIERCE),(victim==NULL?ch:victim)->gold);
-  printf_to_char(ch,"{c| Cinsiyet: {w%-13s{c | Ezici  : {w%-4d{c| Akçe        : {w%-7ld{c     |\n\r",sex,GET_AC((victim==NULL?ch:victim),AC_BASH),(victim==NULL?ch:victim)->silver);
-  printf_to_char(ch,"{c| Sýnýf   : {w%-13s{c | Kesici : {w%-4d{c| Altýn(Banka): {w%-7ld{c     |\n\r",class_table[(victim==NULL?ch:victim)->iclass].name[1],GET_AC((victim==NULL?ch:victim),AC_SLASH),(victim==NULL?ch:victim)->pcdata->bank_g);
-  printf_to_char(ch,"{c| Yönelim : {w%-13d{c | Egzotik: {w%-4d{c| Akçe (Banka): {w%-7ld{c     |\n\r",(victim==NULL?ch:victim)->alignment,GET_AC((victim==NULL?ch:victim),AC_EXOTIC),(victim==NULL?ch:victim)->pcdata->bank_s);
-  printf_to_char(ch,"{c| Doðum   : {w%-12s{c  |              |                           |\n\r",dogumGunu);
-  printf_to_char(ch,"{c|-------------------------'--------------|---------------------------,{w\n\r");
-  printf_to_char(ch,"{c| Yp    : {w%-7d/%-7d{c | Güç: {w%-2d(%-2d){c  | Pratik : {w%-3d{c              |\n\r",(victim==NULL?ch:victim)->hit,(victim==NULL?ch:victim)->max_hit,(victim==NULL?ch:victim)->perm_stat[STAT_STR],get_curr_stat((victim==NULL)?ch:victim,STAT_STR),((victim==NULL)?ch:victim)->practice);
-  printf_to_char(ch,"{c| Mana  : {w%-7d/%-7d{c | Zek: {w%-2d(%-2d){c  | Eðitim : {w%-3d{c              |\n\r",(victim==NULL?ch:victim)->mana, (victim==NULL?ch:victim)->max_mana,(victim==NULL?ch:victim)->perm_stat[STAT_INT],get_curr_stat((victim==NULL?ch:victim),STAT_INT),(victim==NULL?ch:victim)->train);
-  printf_to_char(ch,"{c| Hp    : {w%-7d/%-7d{c | Bil: {w%-2d(%-2d){c  | GüvenS : {w%-3d{c              |\n\r",(victim==NULL?ch:victim)->move, (victim==NULL?ch:victim)->max_move,(victim==NULL?ch:victim)->perm_stat[STAT_WIS],get_curr_stat((victim==NULL?ch:victim),STAT_WIS),get_trust( (victim==NULL?ch:victim) ));
-  printf_to_char(ch,"{c| Seviye: {w%-10d{c      | Çev: {w%-2d(%-2d){c  | Eþya   : {w%-3d / %-4d{c       |\n\r",(victim==NULL?ch:victim)->level,(victim==NULL?ch:victim)->perm_stat[STAT_DEX],get_curr_stat((victim==NULL?ch:victim),STAT_DEX),(victim==NULL?ch:victim)->carry_number, can_carry_n((victim==NULL?ch:victim)));
-  printf_to_char(ch,"{c| Kalan : {w%-10d{c      | Bün: {w%-2d(%-2d){c  | Aðýrlýk: {w%-6ld / %-8d{c|\n\r",((victim==NULL?ch:victim)->level + 1) * exp_per_level((victim==NULL?ch:victim),(victim==NULL?ch:victim)->pcdata->points) - (victim==NULL?ch:victim)->exp,(victim==NULL?ch:victim)->perm_stat[STAT_CON],get_curr_stat((victim==NULL?ch:victim),STAT_CON),get_carry_weight((victim==NULL?ch:victim)), can_carry_w((victim==NULL?ch:victim)));
-  printf_to_char(ch,"{c| TP    : {w%-12ld{c    | Kar: {w%-2d(%-2d){c  | GörevP : {w%-5d{c            |\n\r",(victim==NULL?ch:victim)->exp,(victim==NULL?ch:victim)->perm_stat[STAT_CHA],get_curr_stat((victim==NULL?ch:victim),STAT_CHA),(victim==NULL?ch:victim)->pcdata->questpoints);
-  printf_to_char(ch,"{c| Korkak: {w%-10d{c      | ZZ : {w%-3d{c     | GörevZ : {w%-2d{c               |\n\r",(victim==NULL?ch:victim)->wimpy,GET_DAMROLL((victim==NULL?ch:victim)),((IS_SET((victim==NULL?ch:victim)->act, PLR_QUESTOR))?((victim==NULL?ch:victim)->pcdata->countdown):((victim==NULL?ch:victim)->pcdata->nextquest)));
-  printf_to_char(ch,"{c| Ölüm  : {w%-3d{c             | VZ : {w%-3d{c     | RolP   : {w%-6ld{c           |\n\r",(victim==NULL?ch:victim)->pcdata->death,GET_HITROLL((victim==NULL?ch:victim)), (victim==NULL?ch:victim)->pcdata->rk_puani);
-  printf_to_char(ch,"{c|                         |              | DinP   : {w%-6ld{c           |\n\r",(victim==NULL?ch:victim)->pcdata->din_puani);
-  printf_to_char(ch,"{c|-------------------------'--------------'---------------------------|{w\n\r");
-  printf_to_char(ch,"{c| {wDayanýklýlýklar{c                                                    |{w\n\r");
-  printf_to_char(ch,"{c| teshir:%s çaðrý :%s büyü :%s silah   :%s ezici:%s delici:%s kesici :%s    |{w\n\r",((victim==NULL?ch:victim)->res_flags  & IMM_CHARM)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_SUMMON)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_MAGIC)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_WEAPON)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_BASH)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_PIERCE)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_SLASH)?"{w+{c":" ");
-  printf_to_char(ch,"{c| emici :%s ateþ  :%s ayaz :%s þimþek  :%s asit :%s zehir :%s negatif:%s    |{w\n\r",((victim==NULL?ch:victim)->res_flags  & IMM_DROWNING)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_FIRE)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_COLD)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_LIGHTNING)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_ACID)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_POISON)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_NEGATIVE)?"{w+{c":" ");
-  printf_to_char(ch,"{c| kutsal:%s enerji:%s zihin:%s hastalýk:%s ýþýk :%s ses   :%s tahta  :%s    |{w\n\r",((victim==NULL?ch:victim)->res_flags  & IMM_HOLY)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_ENERGY)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_MENTAL)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_DISEASE)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_LIGHT)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_SOUND)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_WOOD)?"{w+{c":" ");
-  printf_to_char(ch,"{c| gümüþ :%s demir :%s                                                  |{w\n\r",((victim==NULL?ch:victim)->res_flags  & IMM_SILVER)?"{w+{c":" ",((victim==NULL?ch:victim)->res_flags  & IMM_IRON)?"{w+{c":" ");
-  printf_to_char(ch,"{c'--------------------------------------------------------------------'{x\n\r");
+  printf_to_char(ch,"{c,---------------------------------------------------------------------,{w\n\r");
+  printf_to_char(ch,"{c|{w%+12s%-30s{c                           |\n\r",(victim==NULL?ch:victim)->name,(victim==NULL?ch:victim)->pcdata->title);
+  printf_to_char(ch,"{c|-------------------------,-------------------------------------------,{w\n\r");
+  printf_to_char(ch,"{c| Irk     : {w%-13s{c | ZIRH         | PARA                       |\n\r",race_table[(victim==NULL?ch:victim)->race].name[1]);
+  printf_to_char(ch,"{c| Yaþ     : {w%-13d{c | Delici : {w%-4d{c| Altýn       : {w%-7ld{c      |\n\r",get_age(victim==NULL?ch:victim),GET_AC((victim==NULL?ch:victim),AC_PIERCE),(victim==NULL?ch:victim)->gold);
+  printf_to_char(ch,"{c| Cinsiyet: {w%-13s{c | Ezici  : {w%-4d{c| Akçe        : {w%-7ld{c      |\n\r",sex,GET_AC((victim==NULL?ch:victim),AC_BASH),(victim==NULL?ch:victim)->silver);
+  printf_to_char(ch,"{c| Sýnýf   : {w%-13s{c | Kesici : {w%-4d{c| Altýn(Banka): {w%-7ld{c      |\n\r",class_table[(victim==NULL?ch:victim)->iclass].name[1],GET_AC((victim==NULL?ch:victim),AC_SLASH),(victim==NULL?ch:victim)->pcdata->bank_g);
+  printf_to_char(ch,"{c| Yönelim : {w%-13d{c | Egzotik: {w%-4d{c| Akçe (Banka): {w%-7ld{c      |\n\r",(victim==NULL?ch:victim)->alignment,GET_AC((victim==NULL?ch:victim),AC_EXOTIC),(victim==NULL?ch:victim)->pcdata->bank_s);
+  printf_to_char(ch,"{c| Doðum   : {w%-12s{c  |              |                            |\n\r",dogumGunu);
+  printf_to_char(ch,"{c|-------------------------'--------------|----------------------------,{w\n\r");
+  printf_to_char(ch,"{c| Yp    : {w%-7d/%-7d{c | Güç: {w%-2d(%-2d){c  | Pratik : {w%-3d{c               |\n\r",(victim==NULL?ch:victim)->hit,(victim==NULL?ch:victim)->max_hit,(victim==NULL?ch:victim)->perm_stat[STAT_STR],get_curr_stat((victim==NULL)?ch:victim,STAT_STR),((victim==NULL)?ch:victim)->practice);
+  printf_to_char(ch,"{c| Mana  : {w%-7d/%-7d{c | Zek: {w%-2d(%-2d){c  | Eðitim : {w%-3d{c               |\n\r",(victim==NULL?ch:victim)->mana, (victim==NULL?ch:victim)->max_mana,(victim==NULL?ch:victim)->perm_stat[STAT_INT],get_curr_stat((victim==NULL?ch:victim),STAT_INT),(victim==NULL?ch:victim)->train);
+  printf_to_char(ch,"{c| Hp    : {w%-7d/%-7d{c | Bil: {w%-2d(%-2d){c  | GüvenS : {w%-3d{c               |\n\r",(victim==NULL?ch:victim)->move, (victim==NULL?ch:victim)->max_move,(victim==NULL?ch:victim)->perm_stat[STAT_WIS],get_curr_stat((victim==NULL?ch:victim),STAT_WIS),get_trust( (victim==NULL?ch:victim) ));
+  printf_to_char(ch,"{c| Seviye: {w%-10d{c      | Çev: {w%-2d(%-2d){c  | Eþya   : {w%-3d / %-4d{c        |\n\r",(victim==NULL?ch:victim)->level,(victim==NULL?ch:victim)->perm_stat[STAT_DEX],get_curr_stat((victim==NULL?ch:victim),STAT_DEX),(victim==NULL?ch:victim)->carry_number, can_carry_n((victim==NULL?ch:victim)));
+  printf_to_char(ch,"{c| Kalan : {w%-10d{c      | Bün: {w%-2d(%-2d){c  | Aðýrlýk: {w%-6ld / %-8d{c |\n\r",((victim==NULL?ch:victim)->level + 1) * exp_per_level((victim==NULL?ch:victim),(victim==NULL?ch:victim)->pcdata->points) - (victim==NULL?ch:victim)->exp,(victim==NULL?ch:victim)->perm_stat[STAT_CON],get_curr_stat((victim==NULL?ch:victim),STAT_CON),get_carry_weight((victim==NULL?ch:victim)), can_carry_w((victim==NULL?ch:victim)));
+  printf_to_char(ch,"{c| TP    : {w%-12ld{c    | Kar: {w%-2d(%-2d){c  | GörevP : {w%-5d{c             |\n\r",(victim==NULL?ch:victim)->exp,(victim==NULL?ch:victim)->perm_stat[STAT_CHA],get_curr_stat((victim==NULL?ch:victim),STAT_CHA),(victim==NULL?ch:victim)->pcdata->questpoints);
+  printf_to_char(ch,"{c| Korkak: {w%-10d{c      | ZZ : {w%-3d{c     | GörevZ : {w%-2d{c                |\n\r",(victim==NULL?ch:victim)->wimpy,GET_DAMROLL((victim==NULL?ch:victim)),((IS_SET((victim==NULL?ch:victim)->act, PLR_QUESTOR))?((victim==NULL?ch:victim)->pcdata->countdown):((victim==NULL?ch:victim)->pcdata->nextquest)));
+  printf_to_char(ch,"{c| Ölüm  : {w%-3d{c             | VZ : {w%-3d{c     | RolP   : {w%-6ld{c            |\n\r",(victim==NULL?ch:victim)->pcdata->death,GET_HITROLL((victim==NULL?ch:victim)), (victim==NULL?ch:victim)->pcdata->rk_puani);
+  printf_to_char(ch,"{c|                         |              | DinP   : {w%-6ld{c            |\n\r",(victim==NULL?ch:victim)->pcdata->din_puani);
+  printf_to_char(ch,"{c|-------------------------'--------------'----------------------------|{w\n\r");
+  printf_to_char(ch,"{c| {wBaðýþýklýklar, Dayanýklýlýklar, Zayýflýklar{c                         |{x\n\r");
+  printf_to_char(ch,"{c| {cteshir:%s%s%s {cçaðrý  :%s%s%s {cbüyü  :%s%s%s {csilah :%s%s%s {cezici :%s%s%s {cdelici  :%s%s%s{c|{x\n\r",((victim==NULL?ch:victim)->imm_flags  & IMM_CHARM)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_CHARM)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_CHARM)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_SUMMON)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_SUMMON)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_SUMMON)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_MAGIC)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_MAGIC)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_MAGIC)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_WEAPON)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_WEAPON)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_WEAPON)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_BASH)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_BASH)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_BASH)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_PIERCE)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_PIERCE)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_PIERCE)?"{w+{x":"{D-{x");
+  printf_to_char(ch,"{c| {ckesici:%s%s%s {cemici  :%s%s%s {cateþ  :%s%s%s {cayaz  :%s%s%s {cþimþek:%s%s%s {casit    :%s%s%s{c|{x\n\r",((victim==NULL?ch:victim)->imm_flags  & IMM_SLASH)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_SLASH)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_SLASH)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_DROWNING)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_DROWNING)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_DROWNING)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_FIRE)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_FIRE)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_FIRE)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_COLD)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_COLD)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_COLD)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_LIGHTNING)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_LIGHTNING)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_LIGHTNING)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_ACID)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_ACID)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_ACID)?"{w+{x":"{D-{x");
+  printf_to_char(ch,"{c| {czehir :%s%s%s {cnegatif:%s%s%s {ckutsal:%s%s%s {cenerji:%s%s%s {czihin :%s%s%s {chastalýk:%s%s%s{c|{x\n\r",((victim==NULL?ch:victim)->imm_flags  & IMM_POISON)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_POISON)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_POISON)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_NEGATIVE)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_NEGATIVE)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_NEGATIVE)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_HOLY)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_HOLY)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_HOLY)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_ENERGY)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_ENERGY)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_ENERGY)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_MENTAL)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_MENTAL)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_MENTAL)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_DISEASE)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_DISEASE)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_DISEASE)?"{w+{x":"{D-{x");
+  printf_to_char(ch,"{c| {cýþýk  :%s%s%s {cses    :%s%s%s {ctahta :%s%s%s {cgümüþ :%s%s%s {cdemir :%s%s%s             {c|{x\n\r",((victim==NULL?ch:victim)->imm_flags  & IMM_LIGHT)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_LIGHT)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_LIGHT)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_SOUND)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_SOUND)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_SOUND)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_WOOD)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_WOOD)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_WOOD)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_SILVER)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_SILVER)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_SILVER)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_IRON)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_IRON)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_IRON)?"{w+{x":"{D-{x");
+  printf_to_char(ch,"{c|---------------------------------------------------------------------|{x\n\r");
+  printf_to_char(ch,"{c| Susuzluk   : {w%-3d{c Açlýk    : {w%-3d{c Memleket Özlemi: {w%-3d{c                |\n\r",(victim==NULL?ch:victim)->pcdata->condition[COND_THIRST],(victim==NULL?ch:victim)->pcdata->condition[COND_HUNGER],(victim==NULL?ch:victim)->pcdata->condition[COND_DESIRE]);
+  printf_to_char(ch,"{c| Kana susama: {w%-3d{c Sarhoþluk: {w%-3d{c                                     |\n\r",(victim==NULL?ch:victim)->pcdata->condition[COND_BLOODLUST],(victim==NULL?ch:victim)->pcdata->condition[COND_DRUNK]);
+  printf_to_char(ch,"{c'---------------------------------------------------------------------'{x\n\r");
 }
 
 void mob_score(CHAR_DATA *ch,CHAR_DATA *mob)
@@ -1937,27 +1940,27 @@ void mob_score(CHAR_DATA *ch,CHAR_DATA *mob)
 
 	}
 
-	printf_to_char(ch,"{c,--------------------------------------------------------------------,\n\r");
-	printf_to_char(ch,"{c| {w%-12s                                 {c                      |\n\r",mob->short_descr);
-	printf_to_char(ch,"{c|--------------------,-----------------------------------------------|\n\r");
-  printf_to_char(ch,"{c| Vnum    : {w%-8d{c | Güç: {w%-2d{c        | Delici : {w%-4d {c| Büyücü : %1s   |\n\r",mob->pIndexData->vnum, mob->perm_stat[STAT_STR],GET_AC(mob,AC_PIERCE), (IS_SET(mob->act,ACT_MAGE))?"{w+{c":"");
-  printf_to_char(ch,"{c| Irk     : {w%-8s{c | Zek: {w%-2d{c        | Ezici  : {w%-4d {c| Ermiþ  : %1s   |\n\r",race_table[mob->race].name[1],mob->perm_stat[STAT_INT],GET_AC(mob,AC_BASH),(IS_SET(mob->act,ACT_CLERIC))?"{w+{c":"");
-  printf_to_char(ch,"{c| Cinsiyet: {w%-8s{c | Bil: {w%-2d{c        | Kesici : {w%-4d {c| Savaþçý: %1s   |\n\r",sex,mob->perm_stat[STAT_WIS],GET_AC(mob,AC_SLASH),(IS_SET(mob->act,ACT_WARRIOR))?"{w+{c":"");
-  printf_to_char(ch,"{c| Sýnýf   : {wmobil{c    | Çev: {w%-2d{c        | Egzotik: {w%-4d {c| Hýrsýz : %1s   |\n\r",mob->perm_stat[STAT_DEX],GET_AC(mob,AC_EXOTIC),(IS_SET(mob->act,ACT_THIEF))?"{w+{c":"");
-  printf_to_char(ch,"{c| Yönelim : {w%-8d{c | Bün: {w%-2d{c        | ZZ     : {w%-4d {c|              |\n\r",mob->alignment,mob->perm_stat[STAT_CON],GET_DAMROLL(mob));
-  printf_to_char(ch,"{c|                    | Kar: {w%-2d{c        | VZ     : {w%-4d {c|              |\n\r",mob->perm_stat[STAT_CHA],GET_HITROLL(mob));
-	printf_to_char(ch,"{c|--------------------|----------------|---------------'--------------'{x\n\r");
+	printf_to_char(ch,"{c,---------------------------------------------------------------------,\n\r");
+	printf_to_char(ch,"{c| {w%-12s                                 {c                       |\n\r",mob->short_descr);
+	printf_to_char(ch,"{c|--------------------,------------------------------------------------|\n\r");
+  printf_to_char(ch,"{c| Vnum    : {w%-8d{c | Güç: {w%-2d{c        | Delici : {w%-4d {c| Büyücü : %1s    |\n\r",mob->pIndexData->vnum, mob->perm_stat[STAT_STR],GET_AC(mob,AC_PIERCE), (IS_SET(mob->act,ACT_MAGE))?"{w+{c":"");
+  printf_to_char(ch,"{c| Irk     : {w%-8s{c | Zek: {w%-2d{c        | Ezici  : {w%-4d {c| Ermiþ  : %1s    |\n\r",race_table[mob->race].name[1],mob->perm_stat[STAT_INT],GET_AC(mob,AC_BASH),(IS_SET(mob->act,ACT_CLERIC))?"{w+{c":"");
+  printf_to_char(ch,"{c| Cinsiyet: {w%-8s{c | Bil: {w%-2d{c        | Kesici : {w%-4d {c| Savaþçý: %1s    |\n\r",sex,mob->perm_stat[STAT_WIS],GET_AC(mob,AC_SLASH),(IS_SET(mob->act,ACT_WARRIOR))?"{w+{c":"");
+  printf_to_char(ch,"{c| Sýnýf   : {wmobil{c    | Çev: {w%-2d{c        | Egzotik: {w%-4d {c| Hýrsýz : %1s    |\n\r",mob->perm_stat[STAT_DEX],GET_AC(mob,AC_EXOTIC),(IS_SET(mob->act,ACT_THIEF))?"{w+{c":"");
+  printf_to_char(ch,"{c| Yönelim : {w%-8d{c | Bün: {w%-2d{c        | ZZ     : {w%-4d {c|               |\n\r",mob->alignment,mob->perm_stat[STAT_CON],GET_DAMROLL(mob));
+  printf_to_char(ch,"{c|                    | Kar: {w%-2d{c        | VZ     : {w%-4d {c|               |\n\r",mob->perm_stat[STAT_CHA],GET_HITROLL(mob));
+	printf_to_char(ch,"{c|--------------------|----------------|---------------'---------------'{x\n\r");
 	printf_to_char(ch,"{c| Yp    : {w%-5d/%-5d{c| Akçe : {w%-7ld {c|\n\r",mob->hit,  mob->max_hit,mob->silver);
 	printf_to_char(ch,"{c| Mana  : {w%-5d/%-5d{c| Altýn: {w%-7ld {c|\n\r",mob->mana, mob->max_mana,mob->gold);
 	printf_to_char(ch,"{c| Hp    : {w%-5d/%-5d{c| Beden: {w%-8d{c|\n\r",mob->move, mob->max_move,mob->size);
 	printf_to_char(ch,"{c| Seviye: {w%-7ld{c    |                |\n\r",mob->level);
-	printf_to_char(ch,"{c|--------------------'-----------------------------------------------,{x\n\r");
-	printf_to_char(ch,"{c| {wDayanýklýlýklar{c                                                    |{x\n\r");
-	printf_to_char(ch,"{c| teshir:%s çaðrý :%s büyü :%s silah   :%s ezici:%s delici:%s kesici :%s    |{x\n\r",(mob->res_flags  & IMM_CHARM)?"{w+{c":" ",(mob->res_flags  & IMM_SUMMON)?"{w+{c":" ",(mob->res_flags  & IMM_MAGIC)?"{w+{c":" ",(mob->res_flags  & IMM_WEAPON)?"{w+{c":" ",(mob->res_flags  & IMM_BASH)?"{w+{c":" ",(mob->res_flags  & IMM_PIERCE)?"{w+{c":" ",(mob->res_flags  & IMM_SLASH)?"{w+{c":" ");
-	printf_to_char(ch,"{c| emici :%s ateþ  :%s ayaz :%s þimþek  :%s asit :%s zehir :%s negatif:%s    |{x\n\r",(mob->res_flags  & IMM_DROWNING)?"{w+{c":" ",(mob->res_flags  & IMM_FIRE)?"{w+{c":" ",(mob->res_flags  & IMM_COLD)?"{w+{c":" ",(mob->res_flags  & IMM_LIGHTNING)?"{w+{c":" ",(mob->res_flags  & IMM_ACID)?"{w+{c":" ",(mob->res_flags  & IMM_POISON)?"{w+{c":" ",(mob->res_flags  & IMM_NEGATIVE)?"{w+{c":" ");
-	printf_to_char(ch,"{c| kutsal:%s enerji:%s zihin:%s hastalýk:%s ýþýk :%s ses   :%s tahta  :%s    |{x\n\r",(mob->res_flags  & IMM_HOLY)?"{w+{c":" ",(mob->res_flags  & IMM_ENERGY)?"{w+{c":" ",(mob->res_flags  & IMM_MENTAL)?"{w+{c":" ",(mob->res_flags  & IMM_DISEASE)?"{w+{c":" ",(mob->res_flags  & IMM_LIGHT)?"{w+{c":" ",(mob->res_flags  & IMM_SOUND)?"{w+{c":" ",(mob->res_flags  & IMM_WOOD)?"{w+{c":" ");
-	printf_to_char(ch,"{c| gümüþ :%s demir :%s                                                  |{x\n\r",(mob->res_flags  & IMM_SILVER)?"{w+{c":" ",(mob->res_flags  & IMM_IRON)?"{w+{c":" ");
-	printf_to_char(ch,"{c'--------------------------------------------------------------------'{x\n\r");
+	printf_to_char(ch,"{c|--------------------'------------------'-----------------------------,{x\n\r");
+  printf_to_char(ch,"{c| {wBaðýþýklýklar, Dayanýklýlýklar, Zayýflýklar{c                         |{x\n\r");
+  printf_to_char(ch,"{c| {cteshir:%s%s%s {cçaðrý  :%s%s%s {cbüyü  :%s%s%s {csilah :%s%s%s {cezici :%s%s%s {cdelici  :%s%s%s{c|{x\n\r",(mob->imm_flags  & IMM_CHARM)?"{w+{x":"{D-{x",(mob->res_flags  & RES_CHARM)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_CHARM)?"{w+{x":"{D-{x",(mob->imm_flags  & IMM_SUMMON)?"{w+{x":"{D-{x",(mob->res_flags  & RES_SUMMON)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_SUMMON)?"{w+{x":"{D-{x",(mob->imm_flags  & IMM_MAGIC)?"{w+{x":"{D-{x",(mob->res_flags  & RES_MAGIC)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_MAGIC)?"{w+{x":"{D-{x",(mob->imm_flags  & IMM_WEAPON)?"{w+{x":"{D-{x",(mob->res_flags  & RES_WEAPON)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_WEAPON)?"{w+{x":"{D-{x",(mob->imm_flags  & IMM_BASH)?"{w+{x":"{D-{x",(mob->res_flags  & RES_BASH)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_BASH)?"{w+{x":"{D-{x",(mob->imm_flags  & IMM_PIERCE)?"{w+{x":"{D-{x",(mob->res_flags  & RES_PIERCE)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_PIERCE)?"{w+{x":"{D-{x");
+  printf_to_char(ch,"{c| {ckesici:%s%s%s {cemici  :%s%s%s {cateþ  :%s%s%s {cayaz  :%s%s%s {cþimþek:%s%s%s {casit    :%s%s%s{c|{x\n\r",(mob->imm_flags  & IMM_SLASH)?"{w+{x":"{D-{x",(mob->res_flags  & RES_SLASH)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_SLASH)?"{w+{x":"{D-{x",(mob->imm_flags  & IMM_DROWNING)?"{w+{x":"{D-{x",(mob->res_flags  & RES_DROWNING)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_DROWNING)?"{w+{x":"{D-{x",(mob->imm_flags  & IMM_FIRE)?"{w+{x":"{D-{x",(mob->res_flags  & RES_FIRE)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_FIRE)?"{w+{x":"{D-{x",(mob->imm_flags  & IMM_COLD)?"{w+{x":"{D-{x",(mob->res_flags  & RES_COLD)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_COLD)?"{w+{x":"{D-{x",(mob->imm_flags  & IMM_LIGHTNING)?"{w+{x":"{D-{x",(mob->res_flags  & RES_LIGHTNING)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_LIGHTNING)?"{w+{x":"{D-{x",(mob->imm_flags  & IMM_ACID)?"{w+{x":"{D-{x",(mob->res_flags  & RES_ACID)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_ACID)?"{w+{x":"{D-{x");
+  printf_to_char(ch,"{c| {czehir :%s%s%s {cnegatif:%s%s%s {ckutsal:%s%s%s {cenerji:%s%s%s {czihin :%s%s%s {chastalýk:%s%s%s{c|{x\n\r",(mob->imm_flags  & IMM_POISON)?"{w+{x":"{D-{x",(mob->res_flags  & RES_POISON)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_POISON)?"{w+{x":"{D-{x",(mob->imm_flags  & IMM_NEGATIVE)?"{w+{x":"{D-{x",(mob->res_flags  & RES_NEGATIVE)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_NEGATIVE)?"{w+{x":"{D-{x",(mob->imm_flags  & IMM_HOLY)?"{w+{x":"{D-{x",(mob->res_flags  & RES_HOLY)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_HOLY)?"{w+{x":"{D-{x",(mob->imm_flags  & IMM_ENERGY)?"{w+{x":"{D-{x",(mob->res_flags  & RES_ENERGY)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_ENERGY)?"{w+{x":"{D-{x",(mob->imm_flags  & IMM_MENTAL)?"{w+{x":"{D-{x",(mob->res_flags  & RES_MENTAL)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_MENTAL)?"{w+{x":"{D-{x",(mob->imm_flags  & IMM_DISEASE)?"{w+{x":"{D-{x",(mob->res_flags  & RES_DISEASE)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_DISEASE)?"{w+{x":"{D-{x");
+  printf_to_char(ch,"{c| {cýþýk  :%s%s%s {cses    :%s%s%s {ctahta :%s%s%s {cgümüþ :%s%s%s {cdemir :%s%s%s             {c|{x\n\r",(mob->imm_flags  & IMM_LIGHT)?"{w+{x":"{D-{x",(mob->res_flags  & RES_LIGHT)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_LIGHT)?"{w+{x":"{D-{x",(mob->imm_flags  & IMM_SOUND)?"{w+{x":"{D-{x",(mob->res_flags  & RES_SOUND)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_SOUND)?"{w+{x":"{D-{x",(mob->imm_flags  & IMM_WOOD)?"{w+{x":"{D-{x",(mob->res_flags  & RES_WOOD)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_WOOD)?"{w+{x":"{D-{x",(mob->imm_flags  & IMM_SILVER)?"{w+{x":"{D-{x",(mob->res_flags  & RES_SILVER)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_SILVER)?"{w+{x":"{D-{x",(mob->imm_flags  & IMM_IRON)?"{w+{x":"{D-{x",(mob->res_flags  & RES_IRON)?"{w+{x":"{D-{x",(mob->vuln_flags  & VULN_IRON)?"{w+{x":"{D-{x");
+  printf_to_char(ch,"{c'---------------------------------------------------------------------'{x\n\r");
 }
 
 char *	const	month_name	[] =
@@ -2183,7 +2186,7 @@ void do_whois (CHAR_DATA *ch, char *argument)
 	if (wch->cabal == 0) cabalbuf[0] = '\0';
 
 	pk_buf[0] = '\0';
-	if (!((ch==wch && ch->level<PK_MIN_LEVEL) || is_safe_nomessage(ch,wch)))
+	if (!((ch==wch && ch->level < KIDEMLI_OYUNCU_SEVIYESI) || is_safe_nomessage(ch,wch)))
 	 {
 	  sprintf(pk_buf,"%s(OK) %s",
 		CLR_RED,CLR_WHITE_BOLD);
@@ -2234,7 +2237,7 @@ void do_whois (CHAR_DATA *ch, char *argument)
 		(get_curr_stat(wch, STAT_CHA) < 18 ) ? level_buf : "  ",
  		      RACE(wch) < MAX_PC_RACE ?
  		        race_table[RACE(wch)].who_name: "     ",
- 		      ( (ch==wch && ch->level < PK_MIN_LEVEL) ||
+ 		      ( (ch==wch && ch->level < KIDEMLI_OYUNCU_SEVIYESI) ||
  		        is_safe_nomessage(ch,wch) ) ?
  		       "" : "(OK) ",
  		      cabalbuf,
@@ -4133,7 +4136,7 @@ void do_who_col( CHAR_DATA *ch, char *argument )
 	if (wch->cabal == 0) cabalbuf[0] = '\0';
 
 	pk_buf[0] = '\0';
-	if (!((ch==wch && ch->level<PK_MIN_LEVEL) || is_safe_nomessage(ch,wch)))
+	if (!((ch==wch && ch->level< KIDEMLI_OYUNCU_SEVIYESI ) || is_safe_nomessage(ch,wch)))
 	  sprintf(pk_buf,"%s(OK) %s", CLR_RED , CLR_WHITE_BOLD );
 
 	act_buf[0] = '\0';

@@ -116,7 +116,6 @@ DECLARE_OPROG_FUN_REMOVE(remove_prog_demonfireshield);
 
 DECLARE_OPROG_FUN_FIGHT(fight_prog_vorbalblade	);
 DECLARE_OPROG_FUN_GET(get_prog_spec_weapon	);
-DECLARE_OPROG_FUN_GET(get_prog_quest_obj	);
 DECLARE_OPROG_FUN_FIGHT(fight_prog_shockwave	);
 DECLARE_OPROG_FUN_FIGHT(fight_prog_snake 	);
 /* new ones by chronos */
@@ -150,7 +149,6 @@ DECLARE_OPROG_FUN_WEAR( wear_prog_fire_shield 	);
 DECLARE_OPROG_FUN_REMOVE( remove_prog_fire_shield );
 DECLARE_OPROG_FUN_WEAR( wear_prog_quest_weapon );
 DECLARE_OPROG_FUN_GET(get_prog_quest_reward	);
-DECLARE_OPROG_FUN_GET(get_prog_quest_hreward	);
 
 DECLARE_OPROG_FUN_FIGHT(fight_prog_ancient_gloves);
 DECLARE_OPROG_FUN_WEAR(wear_prog_ancient_gloves	);
@@ -298,14 +296,10 @@ void oprog_set(OBJ_INDEX_DATA *objindex,const char *progtype, const char *name)
 	 objindex->oprogs->get_prog = get_prog_coconut;
        else if (!str_cmp(name, "get_prog_spec_weapon"))
 	 objindex->oprogs->get_prog = get_prog_spec_weapon;
-       else if (!str_cmp(name, "get_prog_quest_obj"))
-	 objindex->oprogs->get_prog = get_prog_quest_obj;
        else if (!str_cmp(name, "get_prog_snake"))
 	 objindex->oprogs->get_prog = get_prog_snake;
        else if (!str_cmp(name, "get_prog_quest_reward"))
 	 objindex->oprogs->get_prog = get_prog_quest_reward;
-       else if (!str_cmp(name, "get_prog_quest_hreward"))
-	 objindex->oprogs->get_prog = get_prog_quest_hreward;
        else
 	 {
 	   bug("Load_oprogs: 'O': Function not found for vnum %d",
@@ -652,58 +646,20 @@ void get_prog_spec_weapon(OBJ_DATA *obj, CHAR_DATA *ch)
 
 }
 
-void get_prog_quest_hreward(OBJ_DATA *obj, CHAR_DATA *ch)
+void get_prog_quest_reward(OBJ_DATA *obj, CHAR_DATA *ch)
 {
-
-  if ( strstr( obj->extra_descr->description, ch->name ) != NULL )
+  if ( strstr( obj->short_descr, ch->name ) != NULL )
   {
     act_color("$C$p parlamaya baþladý.\n\r$c",
 		ch,obj,NULL,TO_CHAR,POS_SLEEPING,CLR_BLUE);
     return;
   }
 
-  act("Sen $p tarafýndan çarpýldýn ve onu düþürdün.", ch, obj, NULL, TO_CHAR );
-
-  obj_from_char( obj );
-  obj_to_room( obj, ch->in_room );
-
-  return;
-}
-void get_prog_quest_obj(OBJ_DATA *obj, CHAR_DATA *ch)
-{
-
-  if ( strstr( obj->extra_descr->description, ch->name ) != NULL )
-  {
-    if ( IS_AFFECTED( ch, AFF_POISON ) && (dice(1,5)==1) )  {
-      send_to_char( "Silahýn mavi renkte parlýyor.", ch );
-      act( "$s silahý mavi renkte parlýyor.", ch, NULL, NULL, TO_ROOM );
-      spell_cure_poison( gsn_cure_poison, 30, ch, ch, TARGET_CHAR );
-      return;
-    }
-    if ( IS_AFFECTED( ch, AFF_CURSE ) && (dice(1,5)==1) )  {
-      send_to_char( "Silahýn mavi renkte parlýyor.", ch );
-      act( "$s silahý mavi renkte parlýyor.", ch, NULL, NULL, TO_ROOM );
-      spell_remove_curse( gsn_remove_curse, 30, ch, ch, TARGET_CHAR );
-      return;
-    }
-    send_to_char("Görev asasý sabýrla dönmeyi bekliyor.\n\r", ch );
-    return;
-  }
   act( "Sen $p tarafýndan çarpýldýn ve onu düþürdün.", ch, obj, NULL, TO_CHAR );
 
   obj_from_char( obj );
   obj_to_room( obj, ch->in_room );
-
-  switch( dice(1, 10) )  {
-  case 1:
-    spell_curse( gsn_curse, ch->level < 10? 1 : ch->level-9, ch, ch, TARGET_CHAR );
-    break;
-  case 2:
-    spell_poison( gsn_poison, ch->level < 10? 1 : ch->level-9, ch, ch, TARGET_CHAR );
-    break;
-  }
   return;
-
 }
 
 void get_prog_cabal_item(OBJ_DATA *obj, CHAR_DATA *ch)
@@ -1537,23 +1493,6 @@ void wear_prog_quest_weapon(OBJ_DATA *obj, CHAR_DATA *ch)
     else if ( ch->level > 70 && ch->level <= 80)   obj->value[2] = 11;
     else obj->value[2] = 12;
     obj->level = ch->level;
-    return;
-  }
-
-  act( "Sen $p tarafýndan çarpýldýn ve onu düþürdün.", ch, obj, NULL, TO_CHAR );
-
-  obj_from_char( obj );
-  obj_to_room( obj, ch->in_room );
-  return;
-}
-
-
-void get_prog_quest_reward(OBJ_DATA *obj, CHAR_DATA *ch)
-{
-  if ( strstr( obj->short_descr, ch->name ) != NULL )
-  {
-    act_color("$C$p parlamaya baþladý.\n\r$c",
-		ch,obj,NULL,TO_CHAR,POS_SLEEPING,CLR_BLUE);
     return;
   }
 

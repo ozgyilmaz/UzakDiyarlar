@@ -761,18 +761,19 @@ int get_trust( CHAR_DATA *ch )
 /* command for retrieving stats */
 int get_curr_stat( CHAR_DATA *ch, int stat )
 {
-    int max;
+  int max;
 
-    if (IS_NPC(ch) || ch->level > LEVEL_IMMORTAL)
-	max = 25;
-
-    else
-    {
-        max = get_max_train(ch,stat);
- 	max = UMIN(max,25);
-    }
-
-    return URANGE(3,ch->perm_stat[stat] + ch->mod_stat[stat], max);
+  if (IS_NPC(ch) || ch->level > LEVEL_IMMORTAL)
+  {
+    max = 25;
+  }
+  else
+  {
+    max = get_max_train(ch,stat);
+    max = UMIN(max,25);
+  }
+  
+  return URANGE(3,ch->perm_stat[stat] + ch->mod_stat[stat], max);
 }
 
 
@@ -784,29 +785,10 @@ int get_max_train( CHAR_DATA *ch, int stat )
     if (IS_NPC(ch) || ch->level > LEVEL_IMMORTAL)
 	return 25;
 
-    max = ( race_table[ORG_RACE(ch)].stats[stat] + /* ORG_RACE && RACE serdar*/
-		class_table[ch->iclass].stats[stat]);
+    max = ( race_table[ORG_RACE(ch)].stats[stat] + class_table[ch->iclass].stats[stat]);
 
     return UMIN(max,25);
 }
-
-/*
- * command for returning max training score
- * for do_train and stat2train in comm.c
- */
-int get_max_train2( CHAR_DATA *ch, int stat )
-{
-    int max;
-
-    if (IS_NPC(ch) || ch->level > LEVEL_IMMORTAL)
-	return 25;
-
-    max = ( race_table[ORG_RACE(ch)].stats[stat] +
-		class_table[ch->iclass].stats[stat]);
-
-    return UMIN(max,25);
-}
-
 
 /*
  * Retrieve a character's carry capacity.

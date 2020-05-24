@@ -138,13 +138,11 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
     CHAR_DATA *gch;
     int members;
     char buffer[100];
-
     if ( !CAN_WEAR(obj, ITEM_TAKE) )
     {
       send_to_char( "Onu alamazsýn.\n\r", ch );
 	return;
     }
-
     if (obj->pIndexData->limit != -1)
     {
       if ( ( IS_OBJ_STAT(obj, ITEM_ANTI_EVIL)    && IS_EVIL(ch)    )
@@ -158,7 +156,6 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
       if( !limit_kontrol(ch,obj) )
   			return;
     }
-
     if ( ch->carry_number + get_obj_number( obj ) > can_carry_n( ch ) )
     {
       act( "$d: bu kadar çok þey taþýyamazsýn.",
@@ -166,14 +163,12 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 	return;
     }
 
-
     if ( get_carry_weight(ch) + get_obj_weight( obj ) > can_carry_w( ch ) )
     {
       act( "$d: bu kadar aðýrlýk taþýyamazsýn.",
 	    ch, NULL, obj->name, TO_CHAR );
 	return;
     }
-
     if (obj->in_room != NULL)
     {
 	for (gch = obj->in_room->people; gch != NULL; gch = gch->next_in_room)
@@ -184,7 +179,6 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 		return;
 	    }
     }
-
 
     if ( container != NULL )
     {
@@ -198,7 +192,6 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 	|| container->pIndexData->vnum == OBJ_VNUM_HUNTER_ALTAR)
         {
 	  DESCRIPTOR_DATA *d;
-
     act("$P içinden $p aldýn.", ch, obj, container, TO_CHAR );
     if (!IS_AFFECTED(ch,AFF_SNEAK))
       act( "$n $P içinden $p aldý.", ch, obj, container, TO_ROOM );
@@ -215,7 +208,6 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
              act_color("$CKabal gücünde titreme hissediyorsun!$c",
                    d->character,NULL,NULL,TO_CHAR,POS_DEAD,CLR_GREEN);
           }
-
           if (IS_SET(obj->progtypes,OPROG_GET))
             (obj->pIndexData->oprogs->get_prog) (obj,ch);
 	  return;
@@ -265,7 +257,9 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
     {
 	obj_to_char( obj, ch );
         if (IS_SET(obj->progtypes,OPROG_GET))
+        {
           (obj->pIndexData->oprogs->get_prog) (obj,ch);
+        }
     }
 
     return;
@@ -464,7 +458,6 @@ void do_get( CHAR_DATA *ch, char *argument )
         act( "Burada $T yok.", ch, NULL, arg1, TO_CHAR );
 		return;
 	    }
-
 	    get_obj( ch, obj, NULL );
 	}
 	else

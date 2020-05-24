@@ -2205,17 +2205,17 @@ void do_train( CHAR_DATA *ch, char *argument )
     else
     {
       strcpy( buf, "Eðitebileceklerin:" );
-    	if ( ch->perm_stat[STAT_STR] < get_max_train2(ch,STAT_STR))
+    	if ( ch->perm_stat[STAT_STR] < get_max_train(ch,STAT_STR))
     	    strcat( buf, " güç" );
-    	if ( ch->perm_stat[STAT_INT] < get_max_train2(ch,STAT_INT))
+    	if ( ch->perm_stat[STAT_INT] < get_max_train(ch,STAT_INT))
     	    strcat( buf, " zek" );
-    	if ( ch->perm_stat[STAT_WIS] < get_max_train2(ch,STAT_WIS))
+    	if ( ch->perm_stat[STAT_WIS] < get_max_train(ch,STAT_WIS))
     	    strcat( buf, " bil" );
-    	if ( ch->perm_stat[STAT_DEX] < get_max_train2(ch,STAT_DEX))
+    	if ( ch->perm_stat[STAT_DEX] < get_max_train(ch,STAT_DEX))
     	    strcat( buf, " çev" );
-    	if ( ch->perm_stat[STAT_CON] < get_max_train2(ch,STAT_CON))
+    	if ( ch->perm_stat[STAT_CON] < get_max_train(ch,STAT_CON))
     	    strcat( buf, " bün" );
-    	if ( ch->perm_stat[STAT_CHA] < get_max_train2(ch,STAT_CHA))
+    	if ( ch->perm_stat[STAT_CHA] < get_max_train(ch,STAT_CHA))
     	    strcat( buf, " kar" );
     	strcat( buf, " yp mana");
 
@@ -2270,7 +2270,7 @@ void do_train( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( ch->perm_stat[stat]  >= get_max_train2(ch,stat) )
+    if ( ch->perm_stat[stat]  >= get_max_train(ch,stat) )
     {
       act( "$T zaten maksimum.", ch, NULL, pOutput, TO_CHAR );
 	return;
@@ -2629,9 +2629,7 @@ void do_bash_door( CHAR_DATA *ch, char *argument )
     if (IS_AFFECTED(ch,AFF_FLYING))
 	chance -= 10;
 
-    /* level
-    chance += ch->level / 10;
-    */
+    chance += ch->level / 15;
 
     chance += (get_skill(ch,gsn_bash_door) - 90);
 
@@ -3604,7 +3602,7 @@ int send_arrow( CHAR_DATA *ch, CHAR_DATA *victim,OBJ_DATA *arrow , int door, int
 	   if (is_safe(ch,victim) ||
 		(IS_NPC(victim) && IS_SET(victim->act,ACT_NOTRACK)) )
     	    {
-            act("$p $e hasar vermeden yerew düþüyor...",victim,arrow,NULL,TO_ALL);
+            act("$p $e hasar vermeden yere düþüyor...",victim,arrow,NULL,TO_ALL);
         	 	act("$p $e hasar vermeden yere düþüyor...",ch,arrow,NULL,TO_CHAR);
     	 	obj_to_room(arrow,victim->in_room);
     	    }

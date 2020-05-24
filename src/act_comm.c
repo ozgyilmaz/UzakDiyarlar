@@ -388,7 +388,7 @@ void do_kd( CHAR_DATA *ch, char *argument )
     else
       strcpy(buf,argument);
 
-    if (ch->level > 15 && victim->level > 15 )
+    if (ch->level >= KIDEMLI_OYUNCU_SEVIYESI && victim->level >= KIDEMLI_OYUNCU_SEVIYESI )
     {
       ch->pcdata->rk_puani -= 1;
     }

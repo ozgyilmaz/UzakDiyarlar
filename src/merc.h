@@ -290,6 +290,7 @@ typedef void OPROG_FUN_AREA args((OBJ_DATA *obj));
 #define MAX_TIME_LOG		   14
 #define MIN_TIME_LIMIT		   600   /* 10 Hours */
 #define MAX_LEVEL		   100
+#define KIDEMLI_OYUNCU_SEVIYESI		   16
 #define LEVEL_HERO		   (MAX_LEVEL - 9)
 #define LEVEL_IMMORTAL		   (MAX_LEVEL - 8)
 
@@ -379,12 +380,6 @@ struct religion_type
   const char *followers;
   int vnum;
 };
-
-
-/*
- *  minimum pk level
- */
-#define PK_MIN_LEVEL 15
 
 #define MAX_NEWBIES 120   /* number of newbies allowed */
 #define MAX_OLDIES 999    /* number of oldies allowed */
@@ -3240,7 +3235,6 @@ void	reset_char	args( ( CHAR_DATA *ch )  );
 int	get_trust	args( ( CHAR_DATA *ch ) );
 int	get_curr_stat	args( ( CHAR_DATA *ch, int stat ) );
 int 	get_max_train	args( ( CHAR_DATA *ch, int stat ) );
-int 	get_max_train2	args( ( CHAR_DATA *ch, int stat ) );
 int	can_carry_n	args( ( CHAR_DATA *ch ) );
 int	can_carry_w	args( ( CHAR_DATA *ch ) );
 bool	is_name		args( ( char *str, char *namelist ) );

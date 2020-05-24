@@ -2606,8 +2606,8 @@ void spell_disperse( int sn, int level, CHAR_DATA *ch, void *vo, int target )
       &&   !IS_SET(vch->in_room->room_flags, ROOM_NO_RECALL)
       &&   !IS_IMMORTAL(vch)
       && (( IS_NPC(vch) && !IS_SET(vch->act, ACT_AGGRESSIVE) ) ||
-/*      (!IS_NPC(vch) && vch->level > PK_MIN_LEVEL && (vch->level < level || */
-      (!IS_NPC(vch) && vch->level > PK_MIN_LEVEL && (
+/*      (!IS_NPC(vch) && vch->level >= KIDEMLI_OYUNCU_SEVIYESI && (vch->level < level || */
+      (!IS_NPC(vch) && vch->level >= KIDEMLI_OYUNCU_SEVIYESI && (
 	!is_safe_nomessage(ch, vch)))) && vch != ch
       && !IS_SET(vch->imm_flags, IMM_SUMMON))
 	{

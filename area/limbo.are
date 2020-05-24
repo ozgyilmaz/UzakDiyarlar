@@ -964,8 +964,8 @@ O 89 speech_prog speech_prog_kassandra
 *O 87 fight_prog fight_prog_chaos_blade
 O 92 wear_prog wear_prog_fire_shield
 O 92 remove_prog remove_prog_fire_shield
-O 29 get_prog get_prog_quest_hreward
-O 30 get_prog get_prog_quest_hreward
+O 29 get_prog get_prog_quest_reward
+O 30 get_prog get_prog_quest_reward
 O 94 get_prog get_prog_quest_reward
 O 32 get_prog get_prog_quest_reward
 O 33 get_prog get_prog_quest_reward

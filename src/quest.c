@@ -558,7 +558,7 @@ act_color( "$CGökyüzünde þimþekler çakýyor.$c",   ch, NULL,
 	}
 	else if (is_name(arg2, (char*)"bün bünye"))
 	{
-	    if (ch->perm_stat[STAT_CON] >= get_max_train2(ch, STAT_CON))
+	    if (ch->perm_stat[STAT_CON] >= get_max_train(ch, STAT_CON))
 	    {
         sprintf(buf, "Üzgünüm %s, bünye niteliðin yeterince güçlü.",ch->name);
 		do_tell_quest(ch,questman,buf);

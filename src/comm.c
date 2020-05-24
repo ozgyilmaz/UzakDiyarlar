@@ -1954,18 +1954,6 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 		  d->host );
 	  log_string( log_buf );
 
-	/* removing the punishment for the sake of players
-
-	  for (obj = ch->carrying; obj != NULL; obj = inobj) {
-	    inobj = obj->next_content;
-	    extract_obj_nocount(obj);
-	  }
-
-	  for (obj_count = 0; obj_count < MAX_STATS; obj_count++)
-	    ch->perm_stat[obj_count]--;
-
-	  save_char_obj(ch);
-	*/
 	  send_to_char("The gods frown upon your actions.\n\r",ch);
 	}
 
@@ -2209,10 +2197,6 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	for (i=0; i < MAX_STATS;i++)
 	      ch->mod_stat[i] = 0;
 
-	/* Add race stat modifiers
-	for (i = 0; i < MAX_STATS; i++)
-	    ch->mod_stat[i] += race_table[race].stats[i];	*/
-
 	ch->hit = ch->max_hit;
 	ch->mana = ch->max_mana;
 
@@ -2302,8 +2286,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	for (i=0; i < MAX_STATS; i++)
 	{
-		ch->perm_stat[i] = race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i];
-		ch->perm_stat[i] = UMIN(25, ch->perm_stat[i]);
+		ch->perm_stat[i] = get_max_train(ch,i);
 	}
 
 	ch->perm_stat[STAT_CHA] = 15;
@@ -2562,16 +2545,13 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	if (IS_SET(ch->act,PLR_NO_EXP))	REMOVE_BIT(ch->act,PLR_NO_EXP);
        if (IS_SET(ch->act,PLR_CHANGED_AFF)) REMOVE_BIT(ch->act,PLR_CHANGED_AFF);
 
-        for (i = 0; i < MAX_STATS; i++)
+  for (i = 0; i < MAX_STATS; i++)
 	{
-	    if ( ch->perm_stat[i] >
-( race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i] ))
-	  {
-	   ch->train += ( ch->perm_stat[i] -
-( race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i] ));
-	   ch->perm_stat[i] =
-    race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i];
-	  }
+	    if ( ch->perm_stat[i] > get_max_train(ch,i) )
+			{
+				ch->train += ( ch->perm_stat[i] - get_max_train(ch,i) );
+				ch->perm_stat[i] = get_max_train(ch,i);
+			}
 	}
 
 	do_look( ch, (char*)"auto" );

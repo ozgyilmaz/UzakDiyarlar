@@ -4496,7 +4496,6 @@ void do_mset( CHAR_DATA *ch, char *argument )
     char arg1 [MAX_INPUT_LENGTH];
     char arg2 [MAX_INPUT_LENGTH];
     char arg3 [MAX_INPUT_LENGTH];
-    char buf[100];
     CHAR_DATA *victim;
     int value,sn;
 
@@ -4536,47 +4535,82 @@ void do_mset( CHAR_DATA *ch, char *argument )
      */
     if ( !str_cmp( arg2, "str" ) )
     {
-	if ( value < 3 || value > get_max_train(victim,STAT_STR) )
-	{
-	    sprintf(buf,
-		"Strength range is 3 to %d\n\r.",
-		get_max_train(victim,STAT_STR));
-	    send_to_char(buf,ch);
-	    return;
-	}
+    	if ( value < 3 || value > get_max_train(victim,STAT_STR) )
+    	{
+        printf_to_char(ch,"Güç 3 ile %d arasýnda olabilir.\n\r",get_max_train(victim,STAT_STR));
+        return;
+    	}
 
-	victim->perm_stat[STAT_STR] = value;
-	return;
+    	victim->perm_stat[STAT_STR] = value;
+      printf_to_char(ch,"Tamam.\n\r");
+    	return;
     }
 
     if ( !str_cmp( arg2, "int" ) )
     {
-        if ( value < 3 || value > get_max_train(victim,STAT_INT) )
-        {
-            sprintf(buf,
-		"Intelligence range is 3 to %d.\n\r",
-		get_max_train(victim,STAT_INT));
-            send_to_char(buf,ch);
-            return;
-        }
-
-        victim->perm_stat[STAT_INT] = value;
+    	if ( value < 3 || value > get_max_train(victim,STAT_INT) )
+    	{
+        printf_to_char(ch,"Zeka 3 ile %d arasýnda olabilir.\n\r",get_max_train(victim,STAT_INT));
         return;
+    	}
+
+    	victim->perm_stat[STAT_INT] = value;
+      printf_to_char(ch,"Tamam.\n\r");
+    	return;
     }
 
     if ( !str_cmp( arg2, "wis" ) )
     {
-	if ( value < 3 || value > get_max_train(victim,STAT_WIS) )
-	{
-	    sprintf(buf,
-		"Wisdom range is 3 to %d.\n\r",get_max_train(victim,STAT_WIS));
-	    send_to_char( buf, ch );
-	    return;
-	}
+    	if ( value < 3 || value > get_max_train(victim,STAT_WIS) )
+    	{
+        printf_to_char(ch,"Bilgelik 3 ile %d arasýnda olabilir.\n\r",get_max_train(victim,STAT_WIS));
+        return;
+    	}
 
-	victim->perm_stat[STAT_WIS] = value;
-	return;
+    	victim->perm_stat[STAT_WIS] = value;
+      printf_to_char(ch,"Tamam.\n\r");
+    	return;
     }
+
+    if ( !str_cmp( arg2, "dex" ) )
+    {
+    	if ( value < 3 || value > get_max_train(victim,STAT_DEX) )
+    	{
+        printf_to_char(ch,"Çeviklik 3 ile %d arasýnda olabilir.\n\r",get_max_train(victim,STAT_DEX));
+        return;
+    	}
+
+    	victim->perm_stat[STAT_DEX] = value;
+      printf_to_char(ch,"Tamam.\n\r");
+    	return;
+    }
+
+    if ( !str_cmp( arg2, "con" ) )
+    {
+    	if ( value < 3 || value > get_max_train(victim,STAT_CON) )
+    	{
+        printf_to_char(ch,"Bünye 3 ile %d arasýnda olabilir.\n\r",get_max_train(victim,STAT_CON));
+        return;
+    	}
+
+    	victim->perm_stat[STAT_CON] = value;
+      printf_to_char(ch,"Tamam.\n\r");
+    	return;
+    }
+
+    if ( !str_cmp( arg2, "cha" ) )
+    {
+    	if ( value < 3 || value > get_max_train(victim,STAT_CHA) )
+    	{
+        printf_to_char(ch,"Karizma 3 ile %d arasýnda olabilir.\n\r",get_max_train(victim,STAT_CHA));
+        return;
+    	}
+
+    	victim->perm_stat[STAT_CHA] = value;
+      printf_to_char(ch,"Tamam.\n\r");
+    	return;
+    }
+
 /*** Added By KIO  ***/
     if ( !str_cmp( arg2, "questp" ) )
     {
@@ -4609,50 +4643,6 @@ void do_mset( CHAR_DATA *ch, char *argument )
 /*** Added By KIO ***/
 
 
-
-    if ( !str_cmp( arg2, "dex" ) )
-    {
-	if ( value < 3 || value > get_max_train(victim,STAT_DEX) )
-	{
-	    sprintf(buf,
-		"Dexterity ranges is 3 to %d.\n\r",
-		get_max_train(victim,STAT_DEX));
-	    send_to_char( buf, ch );
-	    return;
-	}
-
-	victim->perm_stat[STAT_DEX] = value;
-	return;
-    }
-
-    if ( !str_cmp( arg2, "con" ) )
-    {
-	if ( value < 3 || value > get_max_train(victim,STAT_CON) )
-	{
-	    sprintf(buf,
-		"Constitution range is 3 to %d.\n\r",
-		get_max_train(victim,STAT_CON));
-	    send_to_char( buf, ch );
-	    return;
-	}
-
-	victim->perm_stat[STAT_CON] = value;
-	return;
-    }
-    if ( !str_cmp( arg2, "cha" ) )
-    {
-	if ( value < 3 || value > get_max_train(victim,STAT_CHA) )
-	{
-	    sprintf(buf,
-		"Constitution range is 3 to %d.\n\r",
-		get_max_train(victim,STAT_CHA));
-	    send_to_char( buf, ch );
-	    return;
-	}
-
-	victim->perm_stat[STAT_CHA] = value;
-	return;
-    }
 
     if ( !str_prefix( arg2, "sex" ) )
     {
@@ -5012,15 +5002,15 @@ void do_induct( CHAR_DATA *ch, char *argument)
       return;
 	}
 
-  if (victim->iclass == 3  && i == CABAL_SHALAFI )
+  if (victim->iclass == CLASS_WARRIOR  && i == CABAL_SHALAFI )
   {
-    act("But $N is a filthy warrior!",ch,NULL,victim,TO_CHAR);
+    act("Fakat $N pis bir büyücü!",ch,NULL,victim,TO_CHAR);
     return;
   }
 
-  if (i == CABAL_RULER && get_curr_stat(victim,STAT_INT) < 20)
+  if (i == CABAL_RULER && get_curr_stat(victim,STAT_INT) < 19)
   {
-   act("$N is not clever enough to become a Ruler!",ch,NULL,victim,TO_CHAR);
+   act("$N Tüze için yeterince zeki deðil!",ch,NULL,victim,TO_CHAR);
    return;
   }
 
@@ -5256,7 +5246,7 @@ void do_rename (CHAR_DATA* ch, char* argument)
 	char old_name[MAX_INPUT_LENGTH],
 	     new_name[MAX_INPUT_LENGTH],
 	     strsave [MAX_INPUT_LENGTH];
-
+  OBJ_DATA *obj=NULL, *obj_next;
 	CHAR_DATA* victim;
 	FILE* file;
 
@@ -5351,9 +5341,26 @@ void do_rename (CHAR_DATA* ch, char* argument)
 
 	sprintf( strsave, "%s%s", PLAYER_DIR, capitalize( victim->name ) );
 
-/*
- * NOTE: Players who are level 1 do NOT get saved under a new name
- */
+  for(obj = object_list; obj != NULL; obj = obj_next)
+  {
+    obj_next = obj->next;
+    if ( obj->pIndexData->vnum == QUEST_ITEM1 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK1
+    || obj->pIndexData->vnum == QUEST_ITEM_YUZUK2 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK3
+    || obj->pIndexData->vnum == QUEST_ITEM_YUZUK4 || obj->pIndexData->vnum == QUEST_ITEM_SILAH1
+    || obj->pIndexData->vnum == QUEST_ITEM_SILAH2 || obj->pIndexData->vnum == QUEST_ITEM4
+    || obj->pIndexData->vnum == QUEST_ITEM5
+    )
+    {
+      if(strstr( obj->short_descr, victim->name))
+      {
+        extract_obj( obj );
+      }
+    }
+  }
+
+  /*
+   * NOTE: Players who are level 1 do NOT get saved under a new name
+   */
 	free_string (victim->name);
 	victim->name = str_dup (capitalize(new_name));
 
