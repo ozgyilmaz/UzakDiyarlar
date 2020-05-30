@@ -168,6 +168,7 @@ const struct item_type		item_table	[]	=
     {	ITEM_JEWELRY,	"jewelry"	},
     {   ITEM_JUKEBOX,	"jukebox"	},
     {   ITEM_TATTOO,	"tattoo"	},
+    {   ITEM_MAYMUNCUK,	"maymuncuk"	},
     {   0,		NULL		}
 };
 
@@ -3403,6 +3404,15 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_disintegrate,      TAR_CHAR_OFFENSIVE,   POS_STANDING,
         NULL,                    SLOT(574),    100,       18,
         "ince ýþýk ýþýný", "!disintegrate!", "",	CABAL_NONE ,
+	RACE_NONE, ALIGN_NONE, GROUP_NONE
+    },
+
+    {
+	{"arz yutaðý","arz yutaðý"},       {  93,93,93,93,93,93,93,93,93,93 ,93,93,75},
+        { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
+        spell_arz_yutagi,      TAR_CHAR_OFFENSIVE,   POS_STANDING,
+        NULL,                    SLOT(574),    100,       18,
+        "arz yutaðý", "!arz yutaðý!", "",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 

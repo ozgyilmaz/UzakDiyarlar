@@ -2222,6 +2222,8 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	ch->size = race_table[race].size;
 
+	ch->pcdata->familya[race] = 75;
+
 	write_to_buffer( d, "\n\rIrk seçimi tamam.\n\rPeki karakterin cinsiyeti ne olsun ( E - K )? ", 0 );
         d->connected = CON_GET_NEW_SEX;
         break;
@@ -2451,7 +2453,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	if ( ch->level == 0 )
 	{
-	    int l;
+	    int l, today, day;
 			SET_BIT(ch->act,PLR_AUTOEXIT);
 			SET_BIT(ch->act,PLR_AUTOGOLD);
 	    ch->level	= 1;
@@ -2482,9 +2484,14 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    do_help(ch, (char*)"yeni oyuncu");
 	    send_to_char("\n\r",ch);
 
-	    /* give some bonus time */
+	    /* son 14 gun icin birer saat oynama suresi bonus olarak verilsin. */
+			today = parse_date( current_time );
 	    for( l=0; l < MAX_TIME_LOG; l++)
-		ch->pcdata->log_time[l] = 60;
+			{
+				day = ((365 + today - l) % 365);
+				ch->pcdata->log_date[l]	= day ? day : 365;
+				ch->pcdata->log_time[l] = 60;
+			}
 
 	    do_outfit(ch,(char*)"");
 			if( ikikat_tp > 0 )
@@ -2540,6 +2547,10 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	{
 	  ch->pcdata->nextquest = ch->pcdata->countdown;
 	  REMOVE_BIT(ch->act,PLR_QUESTOR);
+	}
+	if(!IS_NPC(ch) && ch->pcdata->familya[ch->pcdata->race]<75)
+	{
+		ch->pcdata->familya[ch->pcdata->race] = 75;
 	}
 
 	if (IS_SET(ch->act,PLR_NO_EXP))	REMOVE_BIT(ch->act,PLR_NO_EXP);

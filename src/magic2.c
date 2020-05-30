@@ -319,6 +319,103 @@ void spell_disintegrate( int sn, int level, CHAR_DATA *ch, void *vo, int target)
     return;
 }
 
+void spell_arz_yutagi( int sn, int level, CHAR_DATA *ch, void *vo, int target)
+{
+  CHAR_DATA *victim = (CHAR_DATA *) vo;
+  CHAR_DATA *tmp_ch;
+  OBJ_DATA *obj;
+  OBJ_DATA *obj_next;
+  int i,dam=0;
+  OBJ_DATA *tattoo;
+
+
+    if (saves_spell(level,victim,DAM_MENTAL) || number_bits(1) == 0)
+	{
+	 dam = dice( level , 24 ) ;
+	 damage(ch, victim , dam , sn, DAM_MENTAL, TRUE);
+	 return;
+	}
+
+  act_color("$S büyüsü seni $C### YERÝN ÝÇÝNE ÇEKÝYOR ###$c!",
+  victim, NULL, ch, TO_CHAR, POS_RESTING, CLR_RED );
+  act_color( "$s büyüsü $M $C### YERÝN ÝÇÝNE ÇEKÝYOR ###$c!",
+  ch, NULL, victim, TO_NOTVICT, POS_RESTING, CLR_RED );
+  act_color( "Büyün $M $C### YERÝN ÝÇÝNE ÇEKÝYOR ###$c!",
+  ch, NULL, victim, TO_CHAR, POS_RESTING, CLR_RED );
+  send_to_char( "Y U T U L D U N!\n\r", victim );
+
+  act("$N arz tarafýndan yutuldu!\n\r", ch, NULL, victim, TO_CHAR);
+  act("$N arz tarafýndan yutuldu!\n\r", ch, NULL, victim, TO_ROOM);
+
+  send_to_char("Birkaç dakikalýðýna yenilmez bir hayalete dönüþtün.\n\r",victim);
+  send_to_char("Tabii birþeylere saldýrmadýðýn sürece.\n\r", victim);
+
+  if (!IS_NPC(ch) && IS_QUESTOR(ch) && IS_NPC(victim))
+  {
+    if (ch->pcdata->questmob == victim->pIndexData->vnum)
+    {
+      printf_to_char(ch,"{cGörevin neredeyse tamamlandý!\n\rZamanýn bitmeden önce görevciye git!{x\n\r");
+      ch->pcdata->questmob = -1;
+    }
+  }
+
+    /*  disintegrate the objects... */
+    tattoo = get_eq_char(victim, WEAR_TATTOO); /* keep tattoos for later */
+    if (tattoo != NULL)
+      obj_from_char(tattoo);
+
+    victim->gold = 0;
+    victim->silver = 0;
+
+    for ( obj = victim->carrying; obj != NULL; obj = obj_next )
+    {
+        obj_next = obj->next_content;
+	extract_obj( obj );
+    }
+
+    if ( IS_NPC(victim) )
+    {
+      victim->pIndexData->killed++;
+      kill_table[URANGE(0, victim->level, MAX_LEVEL-1)].killed++;
+      extract_char( victim, TRUE );
+      return;
+    }
+
+    extract_char( victim, FALSE );
+
+    while ( victim->affected )
+      affect_remove( victim, victim->affected );
+    victim->affected_by   = 0;
+    for (i = 0; i < 4; i++)
+      victim->armor[i]= 100;
+    victim->position      = POS_RESTING;
+    victim->hit           = 1;
+    victim->mana  	  = 1;
+
+    REMOVE_BIT(victim->act, PLR_WANTED);
+    REMOVE_BIT(victim->act, PLR_BOUGHT_PET);
+
+    victim->pcdata->condition[COND_THIRST] = 40;
+    victim->pcdata->condition[COND_HUNGER] = 40;
+    victim->pcdata->condition[COND_FULL] = 40;
+    victim->pcdata->condition[COND_BLOODLUST] = 40;
+    victim->pcdata->condition[COND_DESIRE] = 40;
+
+    victim->last_death_time = current_time;
+
+    if (tattoo != NULL)
+    {
+      obj_to_char(tattoo, victim);
+      equip_char(victim, tattoo, WEAR_TATTOO);
+    }
+
+    for (tmp_ch = char_list; tmp_ch != NULL; tmp_ch = tmp_ch->next)
+      if (tmp_ch->last_fought == victim)
+        tmp_ch->last_fought = NULL;
+
+    return;
+}
+
 void spell_poison_smoke( int sn, int level, CHAR_DATA *ch, void *vo, int target) {
 
   CHAR_DATA *tmp_vict;

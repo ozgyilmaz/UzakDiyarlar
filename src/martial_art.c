@@ -1491,96 +1491,107 @@ void do_tame(CHAR_DATA *ch, char *argument)
 
 void do_assassinate( CHAR_DATA *ch, char *argument )
 {
-    char arg[MAX_INPUT_LENGTH];
-    CHAR_DATA *victim;
-    char buf[MAX_STRING_LENGTH];
+  char arg[MAX_INPUT_LENGTH];
+  CHAR_DATA *victim;
+  char buf[MAX_STRING_LENGTH];
+  int chance = 0;
+  OBJ_DATA *obj;
 
-    if ( MOUNTED(ch) )
-    {
-      send_to_char("Biniciyken suikast deneyemezsin!\n\r", ch);
-        return;
-    }
-    one_argument( argument, arg );
+  if ( MOUNTED(ch) )
+  {
+    send_to_char("Biniciyken suikast deneyemezsin!\n\r", ch);
+    return;
+  }
 
-	if (ch->master != NULL && IS_NPC(ch))
-	return;
+  one_argument( argument, arg );
 
-    if ( !IS_NPC(ch)
-    &&   ch->level < skill_table[gsn_assassinate].skill_level[ch->iclass] )
-      {
-        send_to_char("Suikast yapmayý bilmiyorsun.\n\r",ch);
-	return;
-      }
+  if (ch->master != NULL && IS_NPC(ch))
+  {
+    return;
+  }
 
-    if ( IS_AFFECTED( ch, AFF_CHARM ) )
-    {
-      send_to_char("Pek sevgili efendini öldürmek istemiyorsun.\n\r",ch);
-	return;
-    }
+  if ( !IS_NPC(ch) && ch->level < skill_table[gsn_assassinate].skill_level[ch->iclass] )
+  {
+    send_to_char("Suikast yapmayý bilmiyorsun.\n\r",ch);
+    return;
+  }
 
-    if ( arg[0] == '\0' )
-    {
-      send_to_char("Kime suikast yapacaksýn?\n\r", ch );
-	return;
-    }
+  if ( IS_AFFECTED( ch, AFF_CHARM ) )
+  {
+    send_to_char("Pek sevgili efendini öldürmek istemiyorsun.\n\r",ch);
+    return;
+  }
 
-    if ( ( victim = get_char_room( ch, arg ) ) == NULL )
-    {
-	send_to_char( "O burada deðil.\n\r", ch );
-	return;
-    }
+  if ( arg[0] == '\0' )
+  {
+    send_to_char("Kime suikast yapacaksýn?\n\r", ch );
+    return;
+  }
 
-    if ( victim == ch )
-    {
-      send_to_char("Ýntihar etmek istemiyorsun.\n\r", ch );
-	return;
-    }
+  if ( ( victim = get_char_room( ch, arg ) ) == NULL )
+  {
+    send_to_char( "O burada deðil.\n\r", ch );
+    return;
+  }
 
-    if ( is_safe( ch, victim ) )
-      return;
+  if ( victim == ch )
+  {
+    send_to_char("Ýntihar etmek istemiyorsun.\n\r", ch );
+    return;
+  }
 
-    if ( IS_IMMORTAL( victim ) && !IS_NPC(victim) )
-    {
-      send_to_char("Ellerin kýpýrdamýyor.\n\r", ch );
-	return;
-    }
+  if ( is_safe( ch, victim ) )
+    return;
 
-    if ( victim->fighting != NULL )
-    {
-      send_to_char("Dövüþen birine suikast deneyemezsin.\n\r", ch );
-	return;
-    }
+  if ( IS_IMMORTAL( victim ) )
+  {
+    send_to_char("Korkudan ellerini kýpýrdatamýyorsun.\n\r", ch );
+    return;
+  }
 
-    if ( (get_wield_char( ch,FALSE ) != NULL) ||
-	 (get_hold_char( ch ) != NULL) )  {
-	send_to_char(
-    "Suikast yapmak için iki elin de boþta olmalý.\n\r", ch );
-	return;
-    }
+  if ( victim->fighting != NULL )
+  {
+    send_to_char("Dövüþen birine suikast deneyemezsin.\n\r", ch );
+    return;
+  }
 
-    if ( (victim->hit < victim->max_hit) &&
-	 (can_see(victim, ch)) &&
-	 (IS_AWAKE(victim) ) )
-    {
-      act( "$N yaralý ve tedirgin... gizlice sokulamazsýn.",
-	    ch, NULL, victim, TO_CHAR );
-	return;
-    }
+  if ( (get_wield_char( ch,FALSE ) != NULL) || (get_hold_char( ch ) != NULL) )
+  {
+    send_to_char("Suikast yapmak için iki elin de boþta olmalý.\n\r", ch );
+    return;
+  }
 
-/*
-    if (IS_SET(victim->imm_flags, IMM_WEAPON))
-      {
-	act("$N seems immune to your assassination attempt.", ch, NULL,
-		 victim, TO_CHAR);
-	act("$N seems immune to $n's assassination attempt.", ch, NULL,
-		victim, TO_ROOM);
-	return;
-      }
-*/
-    WAIT_STATE( ch, skill_table[gsn_assassinate].beats );
-    if ( IS_NPC(ch) ||
+  if ( (victim->hit < victim->max_hit) && (can_see(victim, ch)) && (IS_AWAKE(victim) ) )
+  {
+    act( "$N yaralý ve tedirgin... gizlice sokulamazsýn.",ch, NULL, victim, TO_CHAR );
+    return;
+  }
+
+  WAIT_STATE( ch, skill_table[gsn_assassinate].beats );
+
+  chance += int( get_curr_stat( ch , STAT_INT ) / 4 );
+  chance += int( get_curr_stat( ch , STAT_WIS ) / 4 );
+  chance += int( get_curr_stat( ch , STAT_DEX ) / 4 );
+  chance += int( ( get_skill( ch , gsn_assassinate ) - 75 ) / 2 ) ;
+
+  obj = get_eq_char( ch, WEAR_HANDS );
+
+  if( obj == NULL )
+  {
+    chance += 10;
+  }
+  else if( is_metal( obj ) )
+  {
+    chance -= 20;
+  }
+  else
+  {
+    chance -= 5;
+  }
+
+  if ( IS_NPC(ch) ||
 	!IS_AWAKE(victim)
-	||   number_percent( ) < get_skill(ch,gsn_assassinate))
+	||   number_percent( ) < chance)
       multi_hit(ch,victim,gsn_assassinate);
     else
       {

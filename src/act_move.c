@@ -1166,133 +1166,159 @@ void do_unlock( CHAR_DATA *ch, char *argument )
 
 void do_pick( CHAR_DATA *ch, char *argument )
 {
-    char arg[MAX_INPUT_LENGTH];
-    CHAR_DATA *gch;
-    OBJ_DATA *obj;
-    int door;
+  char arg[MAX_INPUT_LENGTH];
+  OBJ_DATA *obj, *obj_next;
+  int door;
+  bool obj_found = FALSE;
+  int chance = 0;
 
-    one_argument( argument, arg );
-
-    if ( arg[0] == '\0' )
-    {
-      send_to_char( "Neye maymuncuk kullanacaksýn?\n\r", ch );
-	return;
-    }
-
-    if (MOUNTED(ch))
-    {
-      send_to_char("Biniciyken maymuncuk uygulayamazsýn.\n\r", ch);
-        return;
-    }
-
-    WAIT_STATE( ch, skill_table[gsn_pick_lock].beats );
-
-    /* look for guards */
-    for ( gch = ch->in_room->people; gch; gch = gch->next_in_room )
-    {
-	if ( IS_NPC(gch) && IS_AWAKE(gch) && ch->level + 5 < gch->level )
-	{
-    act( "$N kilide çok yakýn duruyor.",
-  ch, NULL, gch, TO_CHAR );
-	    return;
-	}
-    }
-
-    if ( !IS_NPC(ch) && number_percent( ) > get_skill(ch,gsn_pick_lock))
-    {
-      send_to_char("Baþaramadýn.\n\r",ch);
-	check_improve(ch,gsn_pick_lock,FALSE,2);
-	return;
-    }
-
-    if ( ( obj = get_obj_here( ch, arg ) ) != NULL )
-    {
-	/* portal stuff */
-	if (obj->item_type == ITEM_PORTAL)
-	{
-	    if (!IS_SET(obj->value[1],EX_ISDOOR))
-	    {
-		send_to_char("Bunu yapamazsýn.\n\r",ch);
-		return;
-	    }
-
-	    if (!IS_SET(obj->value[1],EX_CLOSED))
-	    {
-        send_to_char("Kapalý deðil.\n\r",ch );
-		return;
-	    }
-
-	    if (obj->value[4] < 0)
-	    {
-        send_to_char("Kilidi açýlamaz.\n\r",ch);
-		return;
-	    }
-
-	    if (IS_SET(obj->value[1],EX_PICKPROOF))
-	    {
-        send_to_char("Bu þeyin kilidini maymuncukla açamazsýn.\n\r",ch);
-		return;
-	    }
-
-	    REMOVE_BIT(obj->value[1],EX_LOCKED);
-      act("$p üzerindeki kilidi maymuncukla açtýn.",ch,obj,NULL,TO_CHAR);
-	    act("$n $p üzerindeki kilidi maymuncukla açtý.",ch,obj,NULL,TO_ROOM);
-	    check_improve(ch,gsn_pick_lock,TRUE,2);
-	    return;
-	}
-
-
-	/* 'pick object' */
-  if ( obj->item_type != ITEM_CONTAINER )
-	    { send_to_char( "Bu bir taþýyýcý deðil.\n\r", ch ); return; }
-	if ( !IS_SET(obj->value[1], CONT_CLOSED) )
-	    { send_to_char("Kapalý deðil.\n\r",ch ); return; }
-	if ( obj->value[2] < 0 )
-	    {send_to_char( "Kilidi açýlamaz.\n\r",   ch ); return; }
-	if ( !IS_SET(obj->value[1], CONT_LOCKED) )
-	    { send_to_char("Kilidi açýlmýþ.\n\r",  ch ); return; }
-	if ( IS_SET(obj->value[1], CONT_PICKPROOF) )
-	    { send_to_char("Bu taþýyýcýnýn kilidini maymuncukla açamazsýn.\n\r",ch ); return; }
-
-	REMOVE_BIT(obj->value[1], CONT_LOCKED);
-  act("$p üzerindeki kilidi maymuncukla açtýn.",ch,obj,NULL,TO_CHAR);
-  act("$n $p üzerindeki kilidi maymuncukla açtý.",ch,obj,NULL,TO_ROOM);
-	check_improve(ch,gsn_pick_lock,TRUE,2);
-	return;
-    }
-
-    if ( ( door = find_door( ch, arg ) ) >= 0 )
-    {
-	/* 'pick door' */
-	ROOM_INDEX_DATA *to_room;
-	EXIT_DATA *pexit;
-	EXIT_DATA *pexit_rev;
-
-	pexit = ch->in_room->exit[door];
-  if ( !IS_SET(pexit->exit_info, EX_CLOSED) && !IS_IMMORTAL(ch))
-	    { send_to_char( "Kapalý deðil.\n\r",ch ); return; }
-	if ( pexit->key < 0 && !IS_IMMORTAL(ch))
-	    { send_to_char( "Bu kilide maymuncuk uygulanamaz.\n\r",ch ); return; }
-	if ( !IS_SET(pexit->exit_info, EX_LOCKED) )
-	    { send_to_char( "Kilidi açýlmýþ.\n\r",  ch ); return; }
-	if ( IS_SET(pexit->exit_info, EX_PICKPROOF) && !IS_IMMORTAL(ch))
-	    { send_to_char( "Bu kapýdaki kilidi maymuncukla açamazsýn.\n\r",ch ); return; }
-
-	REMOVE_BIT(pexit->exit_info, EX_LOCKED);
-  send_to_char( "*Klik*\n\r", ch );
-	act( "$n $d'nin kilidini maymuncukla açýyor.", ch, NULL, pexit->keyword, TO_ROOM );
-	check_improve(ch,gsn_pick_lock,TRUE,2);
-
-	/* pick the other side */
-	if ( ( to_room   = pexit->u1.to_room            ) != NULL
-	&&   ( pexit_rev = to_room->exit[rev_dir[door]] ) != NULL
-	&&   pexit_rev->u1.to_room == ch->in_room )
-	{
-	    REMOVE_BIT( pexit_rev->exit_info, EX_LOCKED );
-	}
-    }
-
+  if(IS_NPC(ch))
+  {
     return;
+  }
+
+  if(ch->iclass != CLASS_THIEF && ch->iclass != CLASS_NINJA && !IS_IMMORTAL(ch))
+  {
+    send_to_char("Kilitlerin ilgi alanýna girdiði söylenemez.\n\r", ch);
+    return;
+  }
+
+  if (MOUNTED(ch))
+  {
+    send_to_char("Biniciyken maymuncuk uygulayamazsýn.\n\r", ch);
+    return;
+  }
+
+  one_argument( argument, arg );
+
+  if ( arg[0] == '\0' )
+  {
+    send_to_char( "Neye maymuncuk kullanacaksýn?\n\r", ch );
+    return;
+  }
+
+  for (obj = ch->carrying; obj != NULL; obj= obj_next)
+  {
+    obj_next = obj->next_content;
+
+    if(obj->item_type == ITEM_MAYMUNCUK)
+    {
+      obj_found = TRUE;
+      extract_obj( obj );
+      break;
+    }
+  }
+
+  if ( obj_found == FALSE )
+  {
+    send_to_char( "Maymuncuk setin yok.\n\r", ch );
+    return;
+  }
+
+  WAIT_STATE( ch, skill_table[gsn_pick_lock].beats );
+
+  chance += int( get_curr_stat( ch , STAT_INT ) / 3 );
+  chance += int( get_curr_stat( ch , STAT_WIS ) / 3 );
+  chance += int( get_curr_stat( ch , STAT_DEX ) / 3 );
+  chance += int( ( get_skill( ch , gsn_pick_lock ) - 75 ) / 2 ) ;
+
+  obj = get_eq_char( ch, WEAR_HANDS );
+
+  if( obj == NULL )
+  {
+    chance += 10;
+  }
+  else if( is_metal( obj ) )
+  {
+    chance -= 20;
+  }
+  else
+  {
+    chance -= 5;
+  }
+
+  if ( number_percent( ) < chance )
+  {
+    send_to_char("Baþaramadýn.\n\r",ch);
+    check_improve(ch,gsn_pick_lock,FALSE,2);
+    return;
+  }
+
+  if ( ( obj = get_obj_here( ch, arg ) ) != NULL )
+  {
+    /* portal stuff */
+    if (obj->item_type == ITEM_PORTAL)
+    {
+      if (!IS_SET(obj->value[1],EX_ISDOOR))
+      {
+        send_to_char("Bunu yapamazsýn.\n\r",ch);
+        return;
+      }
+
+      if (!IS_SET(obj->value[1],EX_CLOSED))
+      {
+        send_to_char("Kapalý deðil.\n\r",ch );
+        return;
+      }
+
+      if (obj->value[4] < 0)
+      {
+        send_to_char("Kilidi açýlamaz.\n\r",ch);
+        return;
+      }
+
+      REMOVE_BIT(obj->value[1],EX_LOCKED);
+      act("$p üzerindeki kilidi maymuncukla açtýn.",ch,obj,NULL,TO_CHAR);
+      act("$n $p üzerindeki kilidi maymuncukla açtý.",ch,obj,NULL,TO_ROOM);
+      check_improve(ch,gsn_pick_lock,TRUE,2);
+      return;
+    }
+
+
+    /* 'pick object' */
+    if ( obj->item_type != ITEM_CONTAINER )
+    { send_to_char( "Bu bir taþýyýcý deðil.\n\r", ch ); return; }
+    if ( !IS_SET(obj->value[1], CONT_CLOSED) )
+    { send_to_char("Kapalý deðil.\n\r",ch ); return; }
+    if ( obj->value[2] < 0 )
+    {send_to_char( "Kilidi açýlamaz.\n\r",   ch ); return; }
+    if ( !IS_SET(obj->value[1], CONT_LOCKED) )
+    { send_to_char("Kilidi açýlmýþ.\n\r",  ch ); return; }
+
+    REMOVE_BIT(obj->value[1], CONT_LOCKED);
+    act("$p üzerindeki kilidi maymuncukla açtýn.",ch,obj,NULL,TO_CHAR);
+    act("$n $p üzerindeki kilidi maymuncukla açtý.",ch,obj,NULL,TO_ROOM);
+    check_improve(ch,gsn_pick_lock,TRUE,2);
+    return;
+  }
+
+  if ( ( door = find_door( ch, arg ) ) >= 0 )
+  {
+    /* 'pick door' */
+    ROOM_INDEX_DATA *to_room;
+    EXIT_DATA *pexit;
+    EXIT_DATA *pexit_rev;
+
+    pexit = ch->in_room->exit[door];
+    if ( !IS_SET(pexit->exit_info, EX_CLOSED) && !IS_IMMORTAL(ch))
+    { send_to_char( "Kapalý deðil.\n\r",ch ); return; }
+    if ( !IS_SET(pexit->exit_info, EX_LOCKED) )
+    { send_to_char( "Kilidi açýlmýþ.\n\r",  ch ); return; }
+
+    REMOVE_BIT(pexit->exit_info, EX_LOCKED);
+    send_to_char( "*Klik*\n\r", ch );
+    act( "$n $d'nin kilidini maymuncukla açýyor.", ch, NULL, pexit->keyword, TO_ROOM );
+    check_improve(ch,gsn_pick_lock,TRUE,2);
+
+    /* pick the other side */
+    if ( ( to_room   = pexit->u1.to_room            ) != NULL
+    &&   ( pexit_rev = to_room->exit[rev_dir[door]] ) != NULL
+    &&   pexit_rev->u1.to_room == ch->in_room )
+    {
+      REMOVE_BIT( pexit_rev->exit_info, EX_LOCKED );
+    }
+  }
+  return;
 }
 
 
@@ -1998,68 +2024,62 @@ void do_camouflage( CHAR_DATA *ch, char *argument )
 
 void do_recall( CHAR_DATA *ch, char *argument )
 {
-    char buf[MAX_STRING_LENGTH];
-    CHAR_DATA *victim;
-    ROOM_INDEX_DATA *location;
-    int point;
-    int lose,skill;
+  char buf[MAX_STRING_LENGTH];
+  CHAR_DATA *victim;
+  ROOM_INDEX_DATA *location;
+  int point;
+  int lose,skill;
 
-    if (IS_GOOD(ch))
-      point = hometown_table[ch->hometown].recall[0];
-    else if (IS_EVIL(ch))
-      point = hometown_table[ch->hometown].recall[2];
-    else
-      point = hometown_table[ch->hometown].recall[1];
+  if (IS_NPC(ch) && !IS_SET(ch->act,ACT_PET))
+  {
+    send_to_char("Yalnýz oyuncular anýmsama kullanabilir.\n\r",ch);
+    return;
+  }
 
-    if (IS_NPC(ch) && !IS_SET(ch->act,ACT_PET))
-    {
-      send_to_char("Yalnýz oyuncular anýmsama kullanabilir.\n\r",ch);
-	return;
-    }
+  if (ch->level >= KIDEMLI_OYUNCU_SEVIYESI && !IS_IMMORTAL(ch) )
+  {
+    send_to_char("Seviyesi 16'dan düþük olanlar anýmsama kullanabilir.\n\r",ch);
+    return;
+  }
 
-    if (ch->level >= 16 && !IS_IMMORTAL(ch) )
-      {
-        sprintf(buf, "Seviyesi 16'dan düþük olanlar anýmsama kullanabilir.\n\r");
-	send_to_char(buf,ch);
-	return;
-      }
-/*
-    if (ch->desc != NULL && current_time - ch->last_fight_time
-	< FIGHT_DELAY_TIME)
-      {
-	send_to_char("You are too pumped to pray now.\n\r",ch);
-	return;
-      }
-*/
+  if (IS_GOOD(ch))
+    point = hometown_table[ch->hometown].recall[0];
+  else if (IS_EVIL(ch))
+    point = hometown_table[ch->hometown].recall[2];
+  else
+    point = hometown_table[ch->hometown].recall[1];
 
-    /* mud okulunda animsa yapan okulun girisine gitsin */
-    if( ( ch->in_room->vnum >= 3700 ) && ( ch->in_room->vnum <= 3799 ) && ch->level < 6 )
-    {
-      point = ROOM_VNUM_SCHOOL;
-    }
+  if (ch->desc == NULL && !IS_NPC(ch))
+  {
+    point =	hometown_table[number_range(0, 4)].recall[number_range(0,2)];
+  }
 
-    if (ch->desc == NULL && !IS_NPC(ch))
-      {
-	point =	hometown_table[number_range(0, 4)].recall[number_range(0,2)];
-      }
+  /* mud okulunda animsa yapan okulun girisine gitsin */
+  if( ( ch->in_room->vnum >= 3700 ) && ( ch->in_room->vnum <= 3799 ) && ch->level < 6 )
+  {
+    point = ROOM_VNUM_SCHOOL;
+  }
+  else if ( ch->level < KIDEMLI_OYUNCU_SEVIYESI )
+  {
+    point = ROOM_VNUM_TEMPLE;
+  }
 
-      act("$n anýmsama duasý ediyor!", ch, 0, 0, TO_ROOM );
+  act("$n anýmsama duasý ediyor!", ch, 0, 0, TO_ROOM );
 
-    if ( ( location = get_room_index(point ) )== NULL )
-    {
-      send_to_char("Kayboldun!\n\r", ch );
-	return;
-    }
+  if ( ( location = get_room_index(point ) )== NULL )
+  {
+    send_to_char("Kayboldun!\n\r", ch );
+    return;
+  }
 
-    if ( ch->in_room == location )
-	return;
+  if ( ch->in_room == location )
+    return;
 
-    if ( IS_SET(ch->in_room->room_flags, ROOM_NO_RECALL)
-    ||   IS_AFFECTED(ch, AFF_CURSE)
-    ||   IS_RAFFECTED(ch->in_room, AFF_ROOM_CURSE) )
+    if ( ( IS_SET(ch->in_room->room_flags, ROOM_NO_RECALL) || IS_AFFECTED(ch, AFF_CURSE) ||
+        IS_RAFFECTED(ch->in_room, AFF_ROOM_CURSE) ) && ch->level >= KIDEMLI_OYUNCU_SEVIYESI )
     {
       send_to_char( "Tanrýlar seni terketti.\n\r", ch );
-	return;
+      return;
     }
 
     if ( ( victim = ch->fighting ) != NULL )
@@ -3180,14 +3200,7 @@ void do_crecall( CHAR_DATA *ch, char *argument )
     {
       send_to_char("Þimdi olmaz.\n\r",ch);
     }
-/*
-    if (ch->desc != NULL && current_time - ch->last_fight_time
-	< FIGHT_DELAY_TIME)
-      {
-	send_to_char("You are too pumped to pray now.\n\r",ch);
-	return;
-      }
-*/
+
     if (ch->desc == NULL && !IS_NPC(ch))
       {
 	point =	ROOM_VNUM_BATTLE;

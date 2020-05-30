@@ -1245,6 +1245,12 @@ void damage_to_obj(CHAR_DATA *ch,OBJ_DATA *wield, OBJ_DATA *worn, int damage)
  char buf[MAX_STRING_LENGTH];
 
  if ( damage == 0) return;
+
+ if( gorev_ekipmani_mi( worn ) )
+ {
+   act_color("$C$p tarafýndan verilecek hasarý $P engelliyor.$c",ch,wield,worn,TO_ROOM,POS_RESTING,CLR_RED);
+   return;
+ }
  worn->condition -= damage;
 
  act_color("$C$p $P üzerine hasar býrakýyor.$c",

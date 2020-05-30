@@ -194,7 +194,7 @@ const	struct	cmd_type	cmd_table	[] =
   { "hedef",		do_target,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
   { "holylight",	do_holylight,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "iç",		do_drink,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
-  { "ikikat",	do_ikikat,	POS_DEAD,	ML,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { "ikikat",	do_ikikat,	POS_DEAD,	L6,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "immtalk",	do_immtalk,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "incele",	do_examine,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
   { "incognito",	do_incognito,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },

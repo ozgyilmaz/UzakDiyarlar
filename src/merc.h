@@ -279,7 +279,7 @@ typedef void OPROG_FUN_AREA args((OBJ_DATA *obj));
 #define MAKSIMUM_LIMIT 3
 #define MAKSIMUM_LIMIT_KABAL 4
 #define MAX_SOCIALS		  256
-#define MAX_SKILL		  426
+#define MAX_SKILL		  427
 #define MAX_ALIAS		   20
 #define MAX_CLASS		   13
 #define MAX_PC_RACE		   7
@@ -1444,6 +1444,7 @@ struct	kill_data
 #define ITEM_JEWELRY		     33
 #define ITEM_JUKEBOX		     34
 #define ITEM_TATTOO		     35
+#define ITEM_MAYMUNCUK		     36
 
 
 /*
@@ -3375,6 +3376,10 @@ int dam_type_dice args( (void) );
 int ac_dice args( (int i,int level) );
 int position_dice args( (void) );
 int sex_dice args( (void) );
+
+/* quest.c */
+bool gorev_ekipmani_mi args( (OBJ_DATA *obj) );
+
 /* save.c */
 void	save_char_obj	args( ( CHAR_DATA *ch ) );
 bool	load_char_obj	args( ( DESCRIPTOR_DATA *d, char *name ) );

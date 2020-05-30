@@ -616,7 +616,7 @@ char *show_char_to_char_1_health_check(CHAR_DATA *ch , CHAR_DATA *victim)
   }
   else
   {
-    percent = number_range(20,80);
+    percent = number_range(51,89);
   }
 
   /* vampire ... */
@@ -1918,7 +1918,7 @@ void do_score( CHAR_DATA *ch, char *argument )
   printf_to_char(ch,"{c| {cýþýk  :%s%s%s {cses    :%s%s%s {ctahta :%s%s%s {cgümüþ :%s%s%s {cdemir :%s%s%s             {c|{x\n\r",((victim==NULL?ch:victim)->imm_flags  & IMM_LIGHT)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_LIGHT)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_LIGHT)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_SOUND)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_SOUND)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_SOUND)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_WOOD)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_WOOD)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_WOOD)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_SILVER)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_SILVER)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_SILVER)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->imm_flags  & IMM_IRON)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->res_flags  & RES_IRON)?"{w+{x":"{D-{x",((victim==NULL?ch:victim)->vuln_flags  & VULN_IRON)?"{w+{x":"{D-{x");
   printf_to_char(ch,"{c|---------------------------------------------------------------------|{x\n\r");
   printf_to_char(ch,"{c| Susuzluk   : {w%-3d{c Açlýk    : {w%-3d{c Memleket Özlemi: {w%-3d{c                |\n\r",(victim==NULL?ch:victim)->pcdata->condition[COND_THIRST],(victim==NULL?ch:victim)->pcdata->condition[COND_HUNGER],(victim==NULL?ch:victim)->pcdata->condition[COND_DESIRE]);
-  printf_to_char(ch,"{c| Kana susama: {w%-3d{c Sarhoþluk: {w%-3d{c                                     |\n\r",(victim==NULL?ch:victim)->pcdata->condition[COND_BLOODLUST],(victim==NULL?ch:victim)->pcdata->condition[COND_DRUNK]);
+  printf_to_char(ch,"{c| Kana susama: {w%-3d{c Sarhoþluk: {w%-3d{c Adrenalin      : {w%-5s{c              |\n\r",(victim==NULL?ch:victim)->pcdata->condition[COND_BLOODLUST],(victim==NULL?ch:victim)->pcdata->condition[COND_DRUNK],(ch->last_fight_time == -1)?"Hayýr":(((current_time - ch->last_fight_time) <FIGHT_DELAY_TIME)?"Evet":"Hayýr"));
   printf_to_char(ch,"{c'---------------------------------------------------------------------'{x\n\r");
 }
 

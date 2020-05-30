@@ -1905,9 +1905,9 @@ void spell_continual_light(int sn,int level,CHAR_DATA *ch,void *vo,int target)
 
 void spell_control_weather(int sn,int level,CHAR_DATA *ch,void *vo,int target)
 {
-    if ( !str_cmp( target_name, "better" ) )
+    if ( !str_cmp( target_name, "iyi" ) )
 	weather_info.change += dice( level / 3, 4 );
-    else if ( !str_cmp( target_name, "worse" ) )
+    else if ( !str_cmp( target_name, "kötü" ) )
 	weather_info.change -= dice( level / 3, 4 );
     else  {
       send_to_char ("ÝYÝ mi olsun, KÖTÜ mü?\n\r", ch );
@@ -5931,7 +5931,7 @@ void spell_mist_walk( int sn, int level, CHAR_DATA *ch, void *vo,int target )
 
     if ( ( victim = get_char_world( ch, target_name ) ) == NULL
     ||   victim == ch
-    ||   !IS_VAMPIRE(ch)
+/*    ||   !IS_VAMPIRE(ch) Karakam da bu buyuye sahip */
     ||   victim->in_room == NULL
     ||   !can_see_room(ch,victim->in_room)
     ||   IS_SET(victim->in_room->room_flags, ROOM_SAFE)

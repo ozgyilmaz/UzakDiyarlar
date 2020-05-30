@@ -2227,7 +2227,7 @@ void do_ofind( CHAR_DATA *ch, char *argument )
 		sprintf( buf, "[%5d] %s%s\n\r",
 		    pObjIndex->vnum, pObjIndex->short_descr,
 	(IS_OBJ_STAT(pObjIndex,ITEM_GLOW) && CAN_WEAR(pObjIndex,ITEM_WEAR_HEAD))
-		? " (Glowing)" : "" );
+		? " [parlayan]" : "" );
 		send_to_char( buf, ch );
 	    }
 	}
@@ -5344,12 +5344,7 @@ void do_rename (CHAR_DATA* ch, char* argument)
   for(obj = object_list; obj != NULL; obj = obj_next)
   {
     obj_next = obj->next;
-    if ( obj->pIndexData->vnum == QUEST_ITEM1 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK1
-    || obj->pIndexData->vnum == QUEST_ITEM_YUZUK2 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK3
-    || obj->pIndexData->vnum == QUEST_ITEM_YUZUK4 || obj->pIndexData->vnum == QUEST_ITEM_SILAH1
-    || obj->pIndexData->vnum == QUEST_ITEM_SILAH2 || obj->pIndexData->vnum == QUEST_ITEM4
-    || obj->pIndexData->vnum == QUEST_ITEM5
-    )
+    if ( gorev_ekipmani_mi( obj ) )
     {
       if(strstr( obj->short_descr, victim->name))
       {

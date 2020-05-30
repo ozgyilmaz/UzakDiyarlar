@@ -533,18 +533,12 @@ void fwrite_obj( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest )
 	return;
     }
 
-    if ( obj->pIndexData->vnum == QUEST_ITEM1
-      || obj->pIndexData->vnum == QUEST_ITEM_YUZUK1
-           || obj->pIndexData->vnum == QUEST_ITEM_YUZUK2 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK3
-           || obj->pIndexData->vnum == QUEST_ITEM_YUZUK4 || obj->pIndexData->vnum == QUEST_ITEM_SILAH1
-           || obj->pIndexData->vnum == QUEST_ITEM_SILAH2
-	|| obj->pIndexData->vnum == OBJ_VNUM_EYED_SWORD)
-      if (strstr(obj->short_descr,ch->name) == NULL)
-	{
-    act("$p yokoluyor!",ch,obj,NULL,TO_CHAR);
-	 extract_obj(obj);
-	 return;
-	}
+    if ( gorev_ekipmani_mi( obj ) && strstr(obj->short_descr,ch->name) == NULL )
+  	{
+      act("$p yokoluyor!",ch,obj,NULL,TO_CHAR);
+  	 extract_obj(obj);
+  	 return;
+  	}
 
     fprintf( fp, "#O\n" );
     fprintf( fp, "Vnum %d\n",   	obj->pIndexData->vnum		);

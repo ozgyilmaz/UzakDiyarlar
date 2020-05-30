@@ -361,6 +361,7 @@ int floating_time( OBJ_DATA *obj )
  {
     default: break;
     case ITEM_KEY 	: ftime = 1;	break;
+    case ITEM_MAYMUNCUK 	: ftime = 1;	break;
     case ITEM_ARMOR 	: ftime = 2;	break;
     case ITEM_TREASURE 	: ftime = 2;	break;
     case ITEM_PILL 	: ftime = 2;	break;
@@ -772,7 +773,7 @@ int get_curr_stat( CHAR_DATA *ch, int stat )
     max = get_max_train(ch,stat);
     max = UMIN(max,25);
   }
-  
+
   return URANGE(3,ch->perm_stat[stat] + ch->mod_stat[stat], max);
 }
 
@@ -2530,6 +2531,7 @@ char *item_type_name( OBJ_DATA *obj )
     case ITEM_CONTAINER:	return (char*)"container";
     case ITEM_DRINK_CON:	return (char*)"drink container";
     case ITEM_KEY:		return (char*)"key";
+    case ITEM_MAYMUNCUK:		return (char*)"maymuncuk";
     case ITEM_FOOD:		return (char*)"food";
     case ITEM_MONEY:		return (char*)"money";
     case ITEM_BOAT:		return (char*)"boat";

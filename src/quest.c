@@ -722,12 +722,7 @@ act_color( "$CGökyüzünde þimþekler çakýyor.$c",   ch, NULL,
 	}
 	if (obj != NULL)
 	{
-   if ( obj->pIndexData->vnum == QUEST_ITEM1 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK1
-	      || obj->pIndexData->vnum == QUEST_ITEM_YUZUK2 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK3
-        || obj->pIndexData->vnum == QUEST_ITEM_YUZUK4 || obj->pIndexData->vnum == QUEST_ITEM_SILAH1
-        || obj->pIndexData->vnum == QUEST_ITEM_SILAH2 || obj->pIndexData->vnum == QUEST_ITEM4
-        || obj->pIndexData->vnum == QUEST_ITEM5
-      )
+   if ( gorev_ekipmani_mi( obj ) )
 	 {
 	  sprintf( buf, obj->short_descr,
 		IS_GOOD(ch) ? "parlak" :
@@ -974,12 +969,7 @@ else sprintf(buf, "Önce bir görev ÝSTEmelisin, %s.",ch->name);
 	}
         obj = create_object(get_obj_index(trouble_vnum),ch->level);
 
-	 if ( obj->pIndexData->vnum == QUEST_ITEM1 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK1
-	      || obj->pIndexData->vnum == QUEST_ITEM_YUZUK2 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK3
-        || obj->pIndexData->vnum == QUEST_ITEM_YUZUK4 || obj->pIndexData->vnum == QUEST_ITEM_SILAH1
-        || obj->pIndexData->vnum == QUEST_ITEM_SILAH2 || obj->pIndexData->vnum == QUEST_ITEM4
-        || obj->pIndexData->vnum == QUEST_ITEM5
-      )
+	 if ( gorev_ekipmani_mi ( obj ) )
 	 {
 	  sprintf( buf, obj->short_descr,
       IS_GOOD(ch) ? "parlak" :
@@ -1236,6 +1226,28 @@ CHAR_DATA * find_a_quest_mob( CHAR_DATA *ch )
         continue;
     }
 
+    if( victim->pIndexData->vnum == MOB_VNUM_SHADOW || victim->pIndexData->vnum == MOB_VNUM_SPECIAL_GUARD
+    || victim->pIndexData->vnum == MOB_VNUM_BEAR || victim->pIndexData->vnum == MOB_VNUM_DEMON
+    || victim->pIndexData->vnum == MOB_VNUM_NIGHTWALKER || victim->pIndexData->vnum == MOB_VNUM_STALKER
+    || victim->pIndexData->vnum == MOB_VNUM_SQUIRE || victim->pIndexData->vnum == MOB_VNUM_MIRROR_IMAGE
+    || victim->pIndexData->vnum == MOB_VNUM_UNDEAD || victim->pIndexData->vnum == MOB_VNUM_LION
+    || victim->pIndexData->vnum == MOB_VNUM_WOLF || victim->pIndexData->vnum == MOB_VNUM_LESSER_GOLEM
+    || victim->pIndexData->vnum == MOB_VNUM_STONE_GOLEM || victim->pIndexData->vnum == MOB_VNUM_IRON_GOLEM
+    || victim->pIndexData->vnum == MOB_VNUM_ADAMANTITE_GOLEM || victim->pIndexData->vnum == MOB_VNUM_HUNTER
+    || victim->pIndexData->vnum == MOB_VNUM_SUM_SHADOW || victim->pIndexData->vnum == MOB_VNUM_DOG
+    || victim->pIndexData->vnum == MOB_VNUM_ELM_EARTH || victim->pIndexData->vnum == MOB_VNUM_ELM_AIR
+    || victim->pIndexData->vnum == MOB_VNUM_ELM_FIRE || victim->pIndexData->vnum == MOB_VNUM_ELM_WATER
+    || victim->pIndexData->vnum == MOB_VNUM_ELM_LIGHT || victim->pIndexData->vnum == MOB_VNUM_WEAPON
+    || victim->pIndexData->vnum == MOB_VNUM_ARMOR )
+    {
+        continue;
+    }
+
+    /* kabal moblarini eleyelim */
+    if( victim->pIndexData->vnum >= 500 && victim->pIndexData->vnum <= 580 )
+    {
+        continue;
+    }
 
     if ( (victim->in_room == NULL) || (room_has_exit( victim->in_room ) == FALSE ) )
     {
@@ -1246,6 +1258,7 @@ CHAR_DATA * find_a_quest_mob( CHAR_DATA *ch )
     {
       continue;
     }
+    
     mob_count++;
     pQuestMob = (QUEST_INDEX_DATA *)alloc_mem(sizeof(*pQuestMob));
     pQuestMob->mob = victim;
@@ -1393,6 +1406,21 @@ CHAR_DATA *get_quest_world( CHAR_DATA *ch, MOB_INDEX_DATA *victim)
     }
 
     return NULL;
+}
+
+bool gorev_ekipmani_mi( OBJ_DATA *obj )
+{
+  if ( obj->pIndexData->vnum == QUEST_ITEM1 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK1
+       || obj->pIndexData->vnum == QUEST_ITEM_YUZUK2 || obj->pIndexData->vnum == QUEST_ITEM_YUZUK3
+       || obj->pIndexData->vnum == QUEST_ITEM_YUZUK4 || obj->pIndexData->vnum == QUEST_ITEM_SILAH1
+       || obj->pIndexData->vnum == QUEST_ITEM_SILAH2 || obj->pIndexData->vnum == QUEST_ITEM4
+       || obj->pIndexData->vnum == QUEST_ITEM5
+     )
+  {
+    return TRUE;
+  }
+
+  return FALSE;
 }
 
 void do_eniyi(CHAR_DATA *ch,char *argument)
