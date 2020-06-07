@@ -2332,8 +2332,7 @@ void spell_golden_aura( int sn, int level, CHAR_DATA *ch, void *vo, int target )
       if (!is_same_group(vch, ch))
 	continue;
 
-      if ( is_affected( vch, sn ) || is_affected(vch, gsn_bless) ||
-	  IS_AFFECTED(vch, AFF_PROTECT_EVIL))
+      if ( is_affected( vch, sn ) || IS_AFFECTED(vch, AFF_PROTECT_EVIL))
 	{
 	  if (vch == ch)
     send_to_char("Zaten altýn bir aurayla korunuyorsun.\n\r",ch);

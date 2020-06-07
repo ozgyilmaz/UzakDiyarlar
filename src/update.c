@@ -1149,10 +1149,9 @@ void char_update( void )
 
   }
 
-  if (!IS_NPC(ch) && (strlen(ch->description)<350) && (ch->level >= 10))
+  if (!IS_NPC(ch) && (strlen(ch->description)<350) && (ch->level >= KIDEMLI_OYUNCU_SEVIYESI))
   {
     SET_BIT(ch->act, PLR_NO_DESCRIPTION);
-    wiznet("Tanimi olmayan karakter: $N. PLR_NO_DESCRIPTION set edildi. TP kazanamayacak, göre alamayacak.",ch,NULL,0,0,0);
   }
   if (!IS_NPC(ch) && (strlen(ch->description)>=350) && (IS_SET(ch->act, PLR_NO_DESCRIPTION)))
     REMOVE_BIT(ch->act, PLR_NO_DESCRIPTION);

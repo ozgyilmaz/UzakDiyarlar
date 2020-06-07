@@ -1142,6 +1142,28 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 			 * ýrk bilgisi etkisi bitti
 			 */
 
+			/*
+			 * Kabal muhafizlari
+			 */
+			if(IS_NPC(ch))
+			{
+				if( ch->spec_fun != spec_lookup( (char*)"spec_fight_enforcer" ) ||
+			  		ch->spec_fun != spec_lookup( (char*)"spec_fight_invader" ) ||
+						ch->spec_fun != spec_lookup( (char*)"spec_fight_ivan" ) ||
+						ch->spec_fun != spec_lookup( (char*)"spec_fight_seneschal" ) ||
+						ch->spec_fun != spec_lookup( (char*)"spec_fight_powerman" ) ||
+						ch->spec_fun != spec_lookup( (char*)"spec_fight_protector" ) ||
+						ch->spec_fun != spec_lookup( (char*)"spec_fight_hunter" ) ||
+						ch->spec_fun != spec_lookup( (char*)"spec_fight_lionguard" ) )
+						{
+							dam *= 4;
+						}
+
+			}
+			/*
+			 * Kabal muhafizlari duzenlemesi bitti
+			 */
+
     if (!IS_NPC(ch) && get_skill(ch,gsn_deathblow) > 1 &&
 	ch->level >= skill_table[gsn_deathblow].skill_level[ch->iclass] )
       {

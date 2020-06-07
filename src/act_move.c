@@ -1167,7 +1167,7 @@ void do_unlock( CHAR_DATA *ch, char *argument )
 void do_pick( CHAR_DATA *ch, char *argument )
 {
   char arg[MAX_INPUT_LENGTH];
-  OBJ_DATA *obj, *obj_next;
+  OBJ_DATA *obj, *obj_eldiven, *obj_next;
   int door;
   bool obj_found = FALSE;
   int chance = 0;
@@ -1222,13 +1222,13 @@ void do_pick( CHAR_DATA *ch, char *argument )
   chance += int( get_curr_stat( ch , STAT_DEX ) / 3 );
   chance += int( ( get_skill( ch , gsn_pick_lock ) - 75 ) / 2 ) ;
 
-  obj = get_eq_char( ch, WEAR_HANDS );
+  obj_eldiven = get_eq_char( ch, WEAR_HANDS );
 
-  if( obj == NULL )
+  if( obj_eldiven == NULL )
   {
     chance += 10;
   }
-  else if( is_metal( obj ) )
+  else if( is_metal( obj_eldiven ) )
   {
     chance -= 20;
   }
@@ -1237,14 +1237,31 @@ void do_pick( CHAR_DATA *ch, char *argument )
     chance -= 5;
   }
 
-  if ( number_percent( ) < chance )
+  obj = get_obj_here( ch, arg );
+
+  // Kabal esyalarini tutan kasalari koruyalim.
+  if ( obj != NULL )
+  {
+    if( obj->pIndexData->vnum >= 500 && obj->pIndexData->vnum <= 580 )
+    {
+      if( obj_eldiven == NULL )
+        chance = 5;
+      else if( is_metal( obj_eldiven ) )
+        chance = 1;
+      else
+        chance = 2;
+    }
+  }
+  // Kabal kasalari duzenlemesi bitti.
+
+  if ( number_percent( ) > chance )
   {
     send_to_char("Baþaramadýn.\n\r",ch);
     check_improve(ch,gsn_pick_lock,FALSE,2);
     return;
   }
 
-  if ( ( obj = get_obj_here( ch, arg ) ) != NULL )
+  if ( obj != NULL )
   {
     /* portal stuff */
     if (obj->item_type == ITEM_PORTAL)

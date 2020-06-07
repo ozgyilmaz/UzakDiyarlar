@@ -2419,9 +2419,9 @@ void do_warcry(CHAR_DATA *ch, char *argument)
       return;
     }
 
-  if (is_affected(ch,gsn_bless) || is_affected(ch, gsn_warcry))
+  if (is_affected(ch, gsn_warcry))
     {
-      send_to_char("Zaten kutsanmýþsýn.\n\r",ch);
+      send_to_char("Zaten daha önce çok etkili bir nara atmýþsýn?!\n\r",ch);
       return;
     }
 

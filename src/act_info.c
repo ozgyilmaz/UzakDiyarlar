@@ -1824,6 +1824,7 @@ void do_score( CHAR_DATA *ch, char *argument )
 {
 	char sex[8];
   char dogumGunu[20];
+  char yonelim_etik[20];
 	sex[0]='\0';
   CHAR_DATA *victim;
   char arg[MAX_INPUT_LENGTH];
@@ -1891,6 +1892,8 @@ void do_score( CHAR_DATA *ch, char *argument )
     game_time_to_string(ch->pcdata->birth_time,dogumGunu);
   }
 
+  sprintf( yonelim_etik, "%s/%s", IS_GOOD((victim==NULL?ch:victim)) ? "iyi" :	IS_EVIL((victim==NULL?ch:victim)) ? "kem" : "yansýz",((victim==NULL?ch:victim)->ethos==1?"tüze":(victim==NULL?ch:victim)->ethos==2?"yansýz":"kaos") );
+
   printf_to_char(ch,"{c,---------------------------------------------------------------------,{w\n\r");
   printf_to_char(ch,"{c|{w%+12s%-30s{c                           |\n\r",(victim==NULL?ch:victim)->name,(victim==NULL?ch:victim)->pcdata->title);
   printf_to_char(ch,"{c|-------------------------,-------------------------------------------,{w\n\r");
@@ -1898,7 +1901,7 @@ void do_score( CHAR_DATA *ch, char *argument )
   printf_to_char(ch,"{c| Yaþ     : {w%-13d{c | Delici : {w%-4d{c| Altýn       : {w%-7ld{c      |\n\r",get_age(victim==NULL?ch:victim),GET_AC((victim==NULL?ch:victim),AC_PIERCE),(victim==NULL?ch:victim)->gold);
   printf_to_char(ch,"{c| Cinsiyet: {w%-13s{c | Ezici  : {w%-4d{c| Akçe        : {w%-7ld{c      |\n\r",sex,GET_AC((victim==NULL?ch:victim),AC_BASH),(victim==NULL?ch:victim)->silver);
   printf_to_char(ch,"{c| Sýnýf   : {w%-13s{c | Kesici : {w%-4d{c| Altýn(Banka): {w%-7ld{c      |\n\r",class_table[(victim==NULL?ch:victim)->iclass].name[1],GET_AC((victim==NULL?ch:victim),AC_SLASH),(victim==NULL?ch:victim)->pcdata->bank_g);
-  printf_to_char(ch,"{c| Yönelim : {w%-13d{c | Egzotik: {w%-4d{c| Akçe (Banka): {w%-7ld{c      |\n\r",(victim==NULL?ch:victim)->alignment,GET_AC((victim==NULL?ch:victim),AC_EXOTIC),(victim==NULL?ch:victim)->pcdata->bank_s);
+  printf_to_char(ch,"{c| Yön/Etk : {w%-13s{c | Egzotik: {w%-4d{c| Akçe (Banka): {w%-7ld{c      |\n\r",yonelim_etik,GET_AC((victim==NULL?ch:victim),AC_EXOTIC),(victim==NULL?ch:victim)->pcdata->bank_s);
   printf_to_char(ch,"{c| Doðum   : {w%-12s{c  |              |                            |\n\r",dogumGunu);
   printf_to_char(ch,"{c|-------------------------'--------------|----------------------------,{w\n\r");
   printf_to_char(ch,"{c| Yp    : {w%-7d/%-7d{c | Güç: {w%-2d(%-2d){c  | Pratik : {w%-3d{c               |\n\r",(victim==NULL?ch:victim)->hit,(victim==NULL?ch:victim)->max_hit,(victim==NULL?ch:victim)->perm_stat[STAT_STR],get_curr_stat((victim==NULL)?ch:victim,STAT_STR),((victim==NULL)?ch:victim)->practice);

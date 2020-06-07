@@ -1206,7 +1206,7 @@ void read_from_buffer( DESCRIPTOR_DATA *d )
      */
     for ( i = 0, k = 0; d->inbuf[i] != '\n' && d->inbuf[i] != '\r'; i++ )
     {
-	if ( k >= MAX_INPUT_LENGTH - 2 )
+	if ( k >= MAX_STRING_LENGTH - 2 )
 	{
 	    write_to_descriptor( d->descriptor, (char*)"Satýr çok uzun.\n\r", 0 );
 

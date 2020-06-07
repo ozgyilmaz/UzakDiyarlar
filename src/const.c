@@ -3245,6 +3245,16 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
     },
 
     {
+	{"poison","zehir"},		{  93,  22, 93,93,93,15,93,93,27,93,93,23,93 },
+	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
+	spell_poison,		TAR_OBJ_CHAR_OFF,	POS_FIGHTING,
+	&gsn_poison,		SLOT(33),	10,	12,
+  "zehir",		"Üzerindeki zehir kuruyor.",
+	"$p üzerindeki zehir kuruyor.", CABAL_NONE ,
+	RACE_NONE, ALIGN_NONE, GROUP_MALADICTIONS
+    },
+
+    {
 	{"cure poison","zehir tedavi"},			{ 93,  23, 93,93,33,93,93,93,93,35,93,93,23 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_cure_poison,	TAR_CHAR_DEFENSIVE,	POS_STANDING,
@@ -4277,16 +4287,6 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
 	spell_plague,		TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	&gsn_plague,		SLOT(503),	20,	12,
   "veba",		"Hastalýðýn çürüyor.",	"", CABAL_NONE ,
-	RACE_NONE, ALIGN_NONE, GROUP_MALADICTIONS
-    },
-
-    {
-	{"poison","zehir"},		{  93,  22, 93,93,93,15,93,93,27,93,93,23,93 },
-	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
-	spell_poison,		TAR_OBJ_CHAR_OFF,	POS_FIGHTING,
-	&gsn_poison,		SLOT(33),	10,	12,
-  "zehir",		"Üzerindeki zehir kuruyor.",
-	"$p üzerindeki zehir kuruyor.", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_MALADICTIONS
     },
 

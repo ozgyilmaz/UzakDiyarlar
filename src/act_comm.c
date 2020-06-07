@@ -282,14 +282,14 @@ void do_immtalk( CHAR_DATA *ch, char *argument )
     write_channel_log(ch,NULL,KANAL_IMM,argument);
 
    if (!is_affected(ch, gsn_deafen))
-   act_new("{i[{I$n{i]: $t{x",ch,argument,NULL,TO_CHAR,POS_DEAD);
+   act_new("{m[$n]: $t{x",ch,argument,NULL,TO_CHAR,POS_DEAD);
     for ( d = descriptor_list; d != NULL; d = d->next )
     {
 	if ( d->connected == CON_PLAYING &&
 	     IS_IMMORTAL(d->character) &&
              !IS_SET(d->character->comm,COMM_NOWIZ) )
 	{
-    act_new("{i[{I$n{i]: $t{x",ch,argument,d->character,TO_VICT,POS_DEAD);
+    act_new("{m[$n]: $t{x",ch,argument,d->character,TO_VICT,POS_DEAD);
 	}
     }
 
@@ -583,7 +583,7 @@ void do_yell( CHAR_DATA *ch, char *argument )
 
 void do_emote( CHAR_DATA *ch, char *argument )
 {
-char buf[MAX_INPUT_LENGTH];
+char buf[MAX_STRING_LENGTH];
 
     if ( !IS_NPC(ch) && IS_SET(ch->comm, COMM_NOEMOTE) )
     {
