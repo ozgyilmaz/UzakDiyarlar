@@ -117,26 +117,7 @@ void	show_char_to_char_0	args( ( CHAR_DATA *victim, CHAR_DATA *ch ) );
 void	show_char_to_char_1	args( ( CHAR_DATA *victim, CHAR_DATA *ch ) );
 void	show_char_to_char	args( ( CHAR_DATA *list, CHAR_DATA *ch ) );
 bool	check_blind		args( ( CHAR_DATA *ch ) );
-bool	show_vwear_to_char	args( ( CHAR_DATA *ch, OBJ_DATA *obj ) );
 bool	show_cwear_to_char	args( ( CHAR_DATA *ch, OBJ_DATA *obj ) );
-
-
-
-
-bool show_vwear_to_char( CHAR_DATA *ch, OBJ_DATA *obj )
-{
- char buf[MAX_STRING_LENGTH];
-
- if (can_see_obj( ch, obj ) )
-   {
-       sprintf(buf,where_name[obj->wear_loc], ' ');
-       send_to_char( buf, ch );
-       send_to_char( format_obj_to_char( obj, ch, TRUE ), ch );
-       send_to_char( "\n\r", ch );
-       return TRUE;
-   }
- return FALSE;
-}
 
 
 bool show_cwear_to_char( CHAR_DATA *ch, OBJ_DATA *obj )
@@ -697,89 +678,150 @@ char *show_char_to_char_1_alignment(CHAR_DATA *ch , CHAR_DATA *victim)
 
 void show_char_to_char_1( CHAR_DATA *victim, CHAR_DATA *ch )
 {
-    OBJ_DATA *obj;
-    int iWear;
-    bool found;
-    CHAR_DATA *vict;
+  OBJ_DATA *obj;
+  int iWear, bolgeye_giyilen_esya_sayisi, i;
+  CHAR_DATA *vict;
+  char buf[MAX_STRING_LENGTH];
+  bool vucuda_giyilen_gizler, ellere_giyilen_gizler;
 
-    vict = is_affected(victim,gsn_doppelganger) ? victim->doppel : victim;
+  vict = is_affected(victim,gsn_doppelganger) ? victim->doppel : victim;
 
-    if ( can_see( victim, ch ) )
+  if ( can_see( victim, ch ) )
+  {
+    if (ch == victim)
     {
-	if (ch == victim)
-  act( "$n kendisine bakýyor.",ch,NULL,NULL,TO_ROOM);
-else
-{
-  act("$n sana bakýyor.", ch, NULL, victim, TO_VICT    );
-  act( "$n $E bakýyor.",  ch, NULL, victim, TO_NOTVICT );
-	}
-    }
-    printf_to_char(ch,"[{c%s{x] [{c%s{x] [{c%s{x] [{c%s{x]\n\r\n\r",(vict->sex==SEX_MALE?"erkek":"kadýn"),race_table[RACE(vict)].name[1], show_char_to_char_1_alignment(ch,victim),show_char_to_char_1_health_check(ch,victim));
-
-    if ( vict->description[0] != '\0' )
-    {
-      printf_to_char(ch,"%s\n\r\n\r",vict->description);
+      act( "$n kendisine bakýyor.",ch,NULL,NULL,TO_ROOM);
     }
     else
     {
-      printf_to_char(ch,"Onun hakkýnda ilgi çekici birþey bulamýyorsun.\n\r\n\r");
+      act("$n sana bakýyor.", ch, NULL, victim, TO_VICT    );
+      act( "$n $E bakýyor.",  ch, NULL, victim, TO_NOTVICT );
+    }
+  }
+
+  printf_to_char(ch,"[{c%s{x] [{c%s{x] [{c%s{x] [{c%s{x]\n\r\n\r",(vict->sex==SEX_MALE?"erkek":"kadýn"),race_table[RACE(vict)].name[1], show_char_to_char_1_alignment(ch,victim),show_char_to_char_1_health_check(ch,victim));
+
+  if ( vict->description[0] != '\0' )
+  {
+    printf_to_char(ch,"%s\n\r\n\r",vict->description);
+  }
+  else
+  {
+    printf_to_char(ch,"Onun hakkýnda ilgi çekici birþey bulamýyorsun.\n\r\n\r");
+  }
+
+  if ( MOUNTED(victim) )
+  {
+    printf_to_char(ch,"%s %s sürüyor.\n\r\n\r",PERS(victim,ch), PERS( MOUNTED(victim),ch));
+  }
+  if ( RIDDEN(victim) )
+  {
+    printf_to_char(ch,"%s %s tarafýndan sürülüyor.\n\r\n\r",PERS(victim,ch), PERS( RIDDEN(victim),ch));
+  }
+
+  act( "$S kullandýklarýna göz atýyorsun:", ch, NULL, victim, TO_CHAR);
+  printf_to_char( ch,"\n\r" );
+
+  vucuda_giyilen_gizler = FALSE;
+  ellere_giyilen_gizler = FALSE;
+
+  obj = get_eq_char( vict, WEAR_ABOUT );
+  if( obj != NULL )
+  {
+    vucuda_giyilen_gizler = TRUE;
+  }
+
+  obj = get_eq_char( ch, WEAR_HANDS );
+  if( obj != NULL )
+  {
+    if( is_metal( obj ) )
+    {
+      ellere_giyilen_gizler = TRUE;
+    }
+  }
+
+  for ( iWear = 0; iWear < MAX_WEAR; iWear++ )
+  {
+    if ( vucuda_giyilen_gizler )
+    {
+      if ( iWear== WEAR_NECK || iWear == WEAR_BODY || iWear == WEAR_LEGS ||
+            iWear == WEAR_ARMS || iWear == WEAR_WAIST )
+      {
+        continue;
+      }
     }
 
-    if ( MOUNTED(victim) )
+    if ( ellere_giyilen_gizler )
     {
-      printf_to_char(ch,"%s %s sürüyor.\n\r\n\r",PERS(victim,ch), PERS( MOUNTED(victim),ch));
-    }
-    if ( RIDDEN(victim) )
-    {
-      printf_to_char(ch,"%s %s tarafýndan sürülüyor.\n\r\n\r",PERS(victim,ch), PERS( RIDDEN(victim),ch));
+      if ( iWear== WEAR_FINGER )
+      {
+        continue;
+      }
     }
 
-    found = FALSE;
-    for ( iWear = 0; iWear < MAX_WEAR; iWear++ )
+    if ( iWear==WEAR_FINGER || iWear==WEAR_NECK || iWear==WEAR_WRIST || iWear==WEAR_TATTOO )
     {
-        if ( iWear==WEAR_FINGER || iWear==WEAR_NECK || iWear==WEAR_WRIST
-		|| iWear==WEAR_TATTOO || iWear == WEAR_STUCK_IN)
+      for ( obj=vict->carrying; obj != NULL; obj = obj->next_content )
+      {
+        if ( obj->wear_loc == iWear )
         {
-	  for ( obj=vict->carrying; obj != NULL; obj = obj->next_content )
-	   {
-	    if ( obj->wear_loc == iWear )
-	     {
-		if (!found)
-		 {
-       act( "$S kullandýklarý:", ch, NULL, victim, TO_CHAR);
-		  send_to_char( "\n\r", ch );
-		  found = TRUE;
-                 }
-                show_vwear_to_char( ch, obj );
-	     }
-
-	   }
-	}
-	else
-        {
-	 if ( ( obj = get_eq_char(vict,iWear)) != NULL )
-	  {
-		if (!found)
-		 {
-       act( "$S kullandýklarý:", ch, NULL, victim, TO_CHAR);
-		  send_to_char( "\n\r", ch );
-		  found = TRUE;
-                 }
-                show_vwear_to_char( ch, obj );
-	  }
+          if (can_see_obj( ch, obj ) )
+          {
+            printf_to_char(ch,"%s %s\n\r",where_name[obj->wear_loc],format_obj_to_char( obj, ch, TRUE ));
+          }
         }
-    }
+      }
 
-    if ( victim != ch
-    &&   !IS_NPC(ch)
-    &&   number_percent( ) < get_skill(ch,gsn_peek))
+      bolgeye_giyilen_esya_sayisi = max_can_wear(vict, iWear) - count_worn(vict, iWear);
+
+      if( bolgeye_giyilen_esya_sayisi > 0 )
+      {
+        for( i=1 ; i <= bolgeye_giyilen_esya_sayisi ; i++ )
+        {
+          printf_to_char(ch,"%s\n\r",where_name[iWear]);
+        }
+      }
+    }
+    else if ( iWear == WEAR_STUCK_IN )
     {
-	send_to_char( "\n\rEnvantere göz atýyorsun:\n\r", ch );
-	check_improve(ch,gsn_peek,TRUE,4);
-	show_list_to_char( vict->carrying, ch, TRUE, TRUE );
+      for ( obj=vict->carrying; obj != NULL; obj = obj->next_content )
+      {
+        if ( obj->wear_loc == iWear )
+        {
+          if (can_see_obj( ch, obj ) )
+          {
+            printf_to_char(ch,"%s %s\n\r",where_name[obj->wear_loc],format_obj_to_char( obj, ch, TRUE ));
+          }
+        }
+      }
     }
+    else
+    {
+      if ( ( obj = get_eq_char(vict,iWear)) != NULL )
+      {
+        if (can_see_obj( ch, obj ) )
+        {
+          sprintf(buf,where_name[obj->wear_loc], ' ');
+          printf_to_char(ch,"%s %s\n\r",buf,format_obj_to_char( obj, ch, TRUE ));
+        }
+      }
+      else
+      {
+        sprintf(buf,where_name[iWear], ' ');
+        printf_to_char(ch,"%s\n\r",buf);
+      }
+    }
+  }
 
-    return;
+  if ( victim != ch
+  &&   !IS_NPC(ch)
+  &&   number_percent( ) < get_skill(ch,gsn_peek))
+  {
+    printf_to_char( ch,"\n\rEnvantere göz atýyorsun:\n\r" );
+    check_improve(ch,gsn_peek,TRUE,4);
+    show_list_to_char( vict->carrying, ch, TRUE, TRUE );
+  }
+  return;
 }
 
 
@@ -1269,344 +1311,354 @@ void do_nosummon(CHAR_DATA *ch, char *argument)
 
 void do_look( CHAR_DATA *ch, char *argument )
 {
-    char buf  [MAX_STRING_LENGTH];
-    char arg1 [MAX_INPUT_LENGTH];
-    char arg2 [MAX_INPUT_LENGTH];
-    char arg3 [MAX_INPUT_LENGTH];
-    EXIT_DATA *pexit;
-    CHAR_DATA *victim;
-    OBJ_DATA *obj;
-    char *pdesc;
-    int door;
-    int number,count;
+  char arg1 [MAX_INPUT_LENGTH];
+  char arg2 [MAX_INPUT_LENGTH];
+  char arg3 [MAX_INPUT_LENGTH];
+  EXIT_DATA *pexit;
+  CHAR_DATA *victim;
+  OBJ_DATA *obj;
+  char *pdesc;
+  int door;
+  int number,count;
 
-    if ( ch->desc == NULL )
-	return;
+  if ( ch->desc == NULL )
+    return;
 
-    if ( ch->position < POS_SLEEPING )
+  if ( ch->position < POS_SLEEPING )
+  {
+    send_to_char( "Yýldýzlardan baþka bir þey göremiyorsun!\n\r", ch );
+    return;
+  }
+
+  if ( ch->position == POS_SLEEPING )
+  {
+    send_to_char( "Bir þey göremiyorsun, uyuyorsun!\n\r", ch );
+    return;
+  }
+
+  if ( !check_blind( ch ) )
+  {
+    send_to_char( "Bir þey göremiyorsun, körsün!\n\r", ch );
+    return;
+  }
+
+  if ( IS_PC(ch)
+      && !IS_SET(ch->act, PLR_HOLYLIGHT)
+      && !IS_SET(ch->act,PLR_GHOST)
+      && room_is_dark( ch ) )
+  {
+    send_to_char( "Zifiri karanlýk ... \n\r", ch );
+    show_char_to_char( ch->in_room->people, ch );
+    return;
+  }
+
+  argument = one_argument( argument, arg1 );
+  argument = one_argument( argument, arg2 );
+  number = number_argument(arg1,arg3);
+  count = 0;
+
+  if ( arg1[0] == '\0' || !str_cmp( arg1, "auto" ) )
+  {
+    /* 'look' or 'look auto' */
+    printf_to_char( ch, "{c%s{x", ch->in_room->name );
+    switch(ch->in_room->sector_type)
     {
-      send_to_char( "Yýldýzlardan baþka bir þey göremiyorsun!\n\r", ch );
-	return;
+      case SECT_INSIDE:
+      printf_to_char(ch," [Ýçeri]");
+      break;
+      case SECT_CITY:
+      printf_to_char(ch," [Þehir]");
+      break;
+      case SECT_FIELD:
+      printf_to_char(ch," [Ova]");
+      break;
+      case SECT_FOREST:
+      printf_to_char(ch," [Orman]");
+      break;
+      case SECT_HILLS:
+      printf_to_char(ch," [Tepe]");
+      break;
+      case SECT_MOUNTAIN:
+      printf_to_char(ch," [Dað]");
+      break;
+      case SECT_WATER_SWIM:
+      case SECT_WATER_NOSWIM:
+      printf_to_char(ch," [Su]");
+      break;
+      case SECT_AIR:
+      printf_to_char(ch," [Hava]");
+      break;
+      case SECT_DESERT:
+      printf_to_char(ch," [Çöl]");
+      break;
+      case SECT_MAX:
+      printf_to_char(ch," [Zorlu]");
+      break;
+      default:
+      printf_to_char(ch," [*Bilinmeyen*]");
+      break;
     }
+    printf_to_char(ch," [{y%s{x]",ch->in_room->area->name);
 
-    if ( ch->position == POS_SLEEPING )
+    if (IS_IMMORTAL(ch) && (IS_NPC(ch) || IS_SET(ch->act,PLR_HOLYLIGHT)))
     {
-      send_to_char( "Bir þey göremiyorsun, uyuyorsun!\n\r", ch );
-	return;
-    }
-
-    if ( !check_blind( ch ) )
-	{
-		send_to_char( "Körsün!\n\r", ch );
-		return;
-	}
-
-    if ( !IS_NPC(ch)
-    &&   !IS_SET(ch->act, PLR_HOLYLIGHT)
-    &&   !IS_SET(ch->act,PLR_GHOST)
-    &&   room_is_dark( ch ) )
-    {
-      send_to_char( "Zifiri karanlýk ... \n\r", ch );
-	show_char_to_char( ch->in_room->people, ch );
-	return;
-    }
-
-    argument = one_argument( argument, arg1 );
-    argument = one_argument( argument, arg2 );
-    number = number_argument(arg1,arg3);
-    count = 0;
-
-    if ( arg1[0] == '\0' || !str_cmp( arg1, "auto" ) )
-    {
-	/* 'look' or 'look auto' */
-  printf_to_char( ch, "{c%s{x", ch->in_room->name );
-  switch(ch->in_room->sector_type)
-	{
-			case SECT_INSIDE:
-				printf_to_char(ch," [Ýçeri]");
-				break;
-			case SECT_CITY:
-				printf_to_char(ch," [Þehir]");
-				break;
-			case SECT_FIELD:
-				printf_to_char(ch," [Ova]");
-				break;
-			case SECT_FOREST:
-				printf_to_char(ch," [Orman]");
-				break;
-			case SECT_HILLS:
-				printf_to_char(ch," [Tepe]");
-				break;
-			case SECT_MOUNTAIN:
-				printf_to_char(ch," [Dað]");
-				break;
-			case SECT_WATER_SWIM:
-			case SECT_WATER_NOSWIM:
-				printf_to_char(ch," [Su]");
-				break;
-			case SECT_AIR:
-				printf_to_char(ch," [Hava]");
-				break;
-			case SECT_DESERT:
-				printf_to_char(ch," [Çöl]");
-				break;
-			case SECT_MAX:
-				printf_to_char(ch," [Zorlu]");
-				break;
-			default:
-				printf_to_char(ch," [*Bilinmeyen*]");
-				break;
-	}
-	printf_to_char(ch," [{y%s{x]",ch->in_room->area->name);
-
-	if (IS_IMMORTAL(ch) && (IS_NPC(ch) || IS_SET(ch->act,PLR_HOLYLIGHT)))
-	{
       printf_to_char(ch," [%d]",ch->in_room->vnum);
-	}
-
-	send_to_char( "\n\r", ch );
-
-	if ( arg1[0] == '\0'
-	|| ( !IS_NPC(ch) && !IS_SET(ch->comm, COMM_BRIEF) ) )
-	{
-	    send_to_char( "  ",ch);
-	    send_to_char( ch->in_room->description, ch );
-	}
-
-        if ( !IS_NPC(ch) && IS_SET(ch->act, PLR_AUTOEXIT) )
-	{
-	    send_to_char("\n\r",ch);
-            do_exits( ch, (char*)"auto" );
-	}
-
-	show_list_to_char( ch->in_room->contents, ch, FALSE, FALSE );
-	show_char_to_char( ch->in_room->people,   ch );
-	return;
     }
 
-    if ( !str_cmp( arg1, "i" ) || !str_cmp(arg1, "in")  || !str_cmp(arg1,"on"))
+    printf_to_char( ch , "\n\r" );
+
+    if ( arg1[0] == '\0' || ( IS_PC(ch) && !IS_SET(ch->comm, COMM_BRIEF) ) )
     {
-	/* 'look in' */
-	if ( arg2[0] == '\0' )
-	{
-    send_to_char( "Neyin içine bakacaksýn?\n\r", ch );
-	    return;
-	}
-
-	if ( ( obj = get_obj_here( ch, arg2 ) ) == NULL )
-	{
-    send_to_char("Onu görmüyorsun.\n\r", ch );
-	    return;
-	}
-
-	switch ( obj->item_type )
-	{
-	default:
-  send_to_char( "O bir taþýyýcý deðil.\n\r", ch );
-	    break;
-
-	case ITEM_DRINK_CON:
-	    if ( obj->value[1] <= 0 )
-	    {
-        send_to_char("Ýçi boþ.\n\r", ch );
-		break;
-	    }
-
-      sprintf( buf, "%s %s sývýsýyla dolu.\n\r",
-		obj->value[1] <     obj->value[0] / 4
-    ? "Yarýdan azý" :
-		obj->value[1] < 3 * obj->value[0] / 4
-    ? "Yarýsý"     : "Yarýdan fazlasý",
-		liq_table[obj->value[2]].liq_color
-		);
-
-	    send_to_char( buf, ch );
-	    break;
-
-	case ITEM_CONTAINER:
-	case ITEM_CORPSE_NPC:
-	case ITEM_CORPSE_PC:
-	    if ( IS_SET(obj->value[1], CONT_CLOSED) )
-	    {
-        send_to_char( "Kapalý.\n\r", ch );
-		break;
-	    }
-
-      act( "$p þunlarý içeriyor:", ch, obj, NULL, TO_CHAR );
-	    show_list_to_char( obj->contains, ch, TRUE, TRUE );
-	    break;
-	}
-	return;
+      printf_to_char( ch , "  ");
+      printf_to_char( ch , ch->in_room->description );
     }
 
-    /*
-     * baslangic:
-     * bak <karakter_ismi>
-     */
-    if ( ( victim = get_char_room( ch, arg1 ) ) != NULL )
+    if ( IS_PC(ch) && IS_SET(ch->act, PLR_AUTOEXIT) )
     {
-      show_char_to_char_1( victim, ch );
+      printf_to_char(ch,"\n\r");
+      do_exits( ch, (char*)"auto" );
+    }
 
-      /* Love potion */
+    show_list_to_char( ch->in_room->contents, ch, FALSE, FALSE );
+    show_char_to_char( ch->in_room->people,   ch );
+    return;
+  }
 
-      if (is_affected(ch, gsn_love_potion) && (victim != ch))
-      {
-        AFFECT_DATA af;
-
-        affect_strip(ch, gsn_love_potion);
-
-        if (ch->master)
-        stop_follower(ch);
-        add_follower(ch, victim);
-        ch->leader = victim;
-
-        af.where = TO_AFFECTS;
-        af.type = gsn_charm_person;
-        af.level = ch->level;
-        af.duration =  number_fuzzy(victim->level / 4);
-        af.bitvector = AFF_CHARM;
-        af.modifier = 0;
-        af.location = 0;
-        affect_to_char(ch, &af);
-
-        act("$n sence de tatlý deðil mi?", victim, NULL, ch, TO_VICT);
-        act("$N büyülenmiþ gözlerle sana bakýyor.",victim,NULL,ch,TO_CHAR);
-        act("$N büyülenmiþ gözlerle $e bakýyor.",victim,NULL,ch,TO_NOTVICT);
-      }
-
+  if ( !str_cmp( arg1, "i" ) || !str_cmp(arg1, "in")  || !str_cmp(arg1,"on"))
+  {
+    /* 'look in' */
+    if ( arg2[0] == '\0' )
+    {
+      printf_to_char( ch,"Neyin içine bakacaksýn?\n\r" );
       return;
     }
-    /*
-     * bitis:
-     * bak <karakter_ismi>
-     */
 
-
-    for ( obj = ch->carrying; obj != NULL; obj = obj->next_content )
+    if ( ( obj = get_obj_here( ch, arg2 ) ) == NULL )
     {
-	if ( can_see_obj( ch, obj ) )
-	{  /* player can see object */
-	    pdesc = get_extra_descr( arg3, obj->extra_descr );
-	    if ( pdesc != NULL )
-	    {
-	    	if (++count == number)
-	    	{
-		    send_to_char( pdesc, ch );
-		    return;
-	    	}
-	    	else continue;
-	    	}
-
- 	    pdesc = get_extra_descr( arg3, obj->pIndexData->extra_descr );
- 	    if ( pdesc != NULL )
- 	    {
- 	    	if (++count == number)
- 	    	{
-		    send_to_char( pdesc, ch );
-		    return;
-	     	}
-		else continue;
-		}
-
-	    if ( is_name( arg3, obj->name ) )
-	    	if (++count == number)
-	    	{
-          send_to_char("Özel bir þey görmüyorsun.\n\r", ch);
-		    return;
-		}
-	  }
+      printf_to_char(ch,"Onu görmüyorsun.\n\r" );
+      return;
     }
 
-    for ( obj = ch->in_room->contents; obj != NULL; obj = obj->next_content )
+    switch ( obj->item_type )
     {
-	if ( can_see_obj( ch, obj ) )
-	{
-	    pdesc = get_extra_descr( arg3, obj->extra_descr );
-	    if ( pdesc != NULL )
-	    	if (++count == number)
-	    	{
-		    send_to_char( pdesc, ch );
-		    return;
-	    	}
+      default:
+        printf_to_char(ch, "O bir taþýyýcý deðil.\n\r" );
+        break;
 
-	    pdesc = get_extra_descr( arg3, obj->pIndexData->extra_descr );
-	    if ( pdesc != NULL )
-	    	if (++count == number)
-	    	{
-		    send_to_char( pdesc, ch );
-		    return;
-	    	}
-	}
+      case ITEM_DRINK_CON:
+        if ( obj->value[1] <= 0 )
+        {
+          printf_to_char(ch,"Ýçi boþ.\n\r" );
+          break;
+        }
 
-	if ( is_name( arg3, obj->name ) )
-	    if (++count == number)
-	    {
-	    	send_to_char( obj->description, ch );
-	    	send_to_char("\n\r",ch);
-	    	return;
-	    }
+        printf_to_char(ch,"%s %s sývýsýyla dolu.\n\r",obj->value[1] < obj->value[0] / 4 ? "Yarýdan azý" : obj->value[1] < 3 * obj->value[0] / 4 ? "Yarýsý"     : "Yarýdan fazlasý",liq_table[obj->value[2]].liq_color);
+
+        break;
+
+      case ITEM_CONTAINER:
+      case ITEM_CORPSE_NPC:
+      case ITEM_CORPSE_PC:
+        if ( IS_SET(obj->value[1], CONT_CLOSED) )
+        {
+          printf_to_char( ch,"Kapalý.\n\r" );
+          break;
+        }
+
+        act( "$p þunlarý içeriyor:", ch, obj, NULL, TO_CHAR );
+        show_list_to_char( obj->contains, ch, TRUE, TRUE );
+        break;
     }
+    return;
+  }
 
-    pdesc = get_extra_descr(arg3,ch->in_room->extra_descr);
-    if (pdesc != NULL)
+  /*
+  * baslangic:
+  * bak <karakter_ismi>
+  */
+  if ( ( victim = get_char_room( ch, arg1 ) ) != NULL )
+  {
+    show_char_to_char_1( victim, ch );
+
+    /* Love potion */
+
+    if (is_affected(ch, gsn_love_potion) && (victim != ch))
     {
-	if (++count == number)
-	{
-	    send_to_char(pdesc,ch);
-	    return;
-	}
-    }
+      AFFECT_DATA af;
 
-    if (count > 0 && count != number)
-    {
-    	if (count == 1)
-      sprintf(buf,"Sadece bir %s görüyorsun.\n\r",arg3);
-    	else
-      sprintf(buf,"Ondan sadece %d tane görüyorsun.\n\r",count);
+      affect_strip(ch, gsn_love_potion);
 
-    	send_to_char(buf,ch);
-    	return;
-    }
+      if (ch->master)
+      stop_follower(ch);
+      add_follower(ch, victim);
+      ch->leader = victim;
 
-    if ( !str_cmp( arg1, "k" ) || !str_cmp( arg1, "kuzey" ) ) door = 0;
-else if ( !str_cmp( arg1, "d" ) || !str_cmp( arg1, "doðu"  ) ) door = 1;
-else if ( !str_cmp( arg1, "g" ) || !str_cmp( arg1, "güney" ) ) door = 2;
-else if ( !str_cmp( arg1, "b" ) || !str_cmp( arg1, "batý"  ) ) door = 3;
-else if ( !str_cmp( arg1, "y" ) || !str_cmp( arg1, "yukarý"    ) ) door = 4;
-else if ( !str_cmp( arg1, "a" ) || !str_cmp( arg1, "aþaðý"  ) ) door = 5;
-    else
-    {
-      send_to_char("Onu görmüyorsun.\n\r", ch );
-	return;
-    }
+      af.where = TO_AFFECTS;
+      af.type = gsn_charm_person;
+      af.level = ch->level;
+      af.duration =  number_fuzzy(victim->level / 4);
+      af.bitvector = AFF_CHARM;
+      af.modifier = 0;
+      af.location = 0;
+      affect_to_char(ch, &af);
 
-    /* 'look direction' */
-    if ( ( pexit = ch->in_room->exit[door] ) == NULL )
-    {
-      send_to_char("Özel bir þey yok.\n\r", ch );
-	return;
-    }
-
-    if ( pexit->description != NULL && pexit->description[0] != '\0' )
-	send_to_char( pexit->description, ch );
-    else
-    send_to_char( "Özel bir þey yok.\n\r", ch );
-
-    if ( pexit->keyword    != NULL
-    &&   pexit->keyword[0] != '\0'
-    &&   pexit->keyword[0] != ' ' )
-    {
-	if ( IS_SET(pexit->exit_info, EX_CLOSED) )
-	{
-    act( "$d kapalý.", ch, NULL, pexit->keyword, TO_CHAR );
-	}
-	else if ( IS_SET(pexit->exit_info, EX_ISDOOR) )
-	{
-    act( "$d açýk.",   ch, NULL, pexit->keyword, TO_CHAR );
-	}
+      act("$n sence de tatlý deðil mi?", victim, NULL, ch, TO_VICT);
+      act("$N büyülenmiþ gözlerle sana bakýyor.",victim,NULL,ch,TO_CHAR);
+      act("$N büyülenmiþ gözlerle $e bakýyor.",victim,NULL,ch,TO_NOTVICT);
     }
 
     return;
+  }
+  /*
+  * bitis:
+  * bak <karakter_ismi>
+  */
+
+
+  for ( obj = ch->carrying; obj != NULL; obj = obj->next_content )
+  {
+    if ( can_see_obj( ch, obj ) )
+    {
+      /* player can see object */
+      pdesc = get_extra_descr( arg3, obj->extra_descr );
+      if ( pdesc != NULL )
+      {
+        if (++count == number)
+        {
+          printf_to_char( ch,pdesc );
+          return;
+        }
+        else
+        {
+          continue;
+        }
+      }
+
+      pdesc = get_extra_descr( arg3, obj->pIndexData->extra_descr );
+
+      if ( pdesc != NULL )
+      {
+        if (++count == number)
+        {
+          printf_to_char( ch,pdesc );
+          return;
+        }
+        else
+        {
+          continue;
+        }
+      }
+
+      if ( is_name( arg3, obj->name ) )
+      if (++count == number)
+      {
+      printf_to_char(ch,"Özel bir þey görmüyorsun.\n\r");
+      return;
+      }
+    }
+  }
+
+  for ( obj = ch->in_room->contents; obj != NULL; obj = obj->next_content )
+  {
+    if ( can_see_obj( ch, obj ) )
+    {
+      pdesc = get_extra_descr( arg3, obj->extra_descr );
+      if ( pdesc != NULL )
+      {
+        if (++count == number)
+        {
+          printf_to_char( ch,pdesc );
+          return;
+        }
+      }
+
+      pdesc = get_extra_descr( arg3, obj->pIndexData->extra_descr );
+      if ( pdesc != NULL )
+      {
+        if (++count == number)
+        {
+          printf_to_char( ch,pdesc );
+          return;
+        }
+      }
+    }
+
+    if ( is_name( arg3, obj->name ) )
+    {
+      if (++count == number)
+      {
+        printf_to_char( ch,obj->description );
+        printf_to_char(ch,"\n\r");
+        return;
+      }
+    }
+  }
+
+  pdesc = get_extra_descr(arg3,ch->in_room->extra_descr);
+  if (pdesc != NULL)
+  {
+    if (++count == number)
+    {
+      printf_to_char(ch,pdesc);
+      return;
+    }
+  }
+
+  if (count > 0 && count != number)
+  {
+    if (count == 1)
+      printf_to_char(ch,"Sadece bir %s görüyorsun.\n\r",arg3);
+    else
+      printf_to_char(ch,"Ondan sadece %d tane görüyorsun.\n\r",count);
+
+    return;
+  }
+
+  if ( !str_cmp( arg1, "k" ) || !str_cmp( arg1, "kuzey" ) )
+    door = 0;
+  else if ( !str_cmp( arg1, "d" ) || !str_cmp( arg1, "doðu"  ) )
+    door = 1;
+  else if ( !str_cmp( arg1, "g" ) || !str_cmp( arg1, "güney" ) )
+    door = 2;
+  else if ( !str_cmp( arg1, "b" ) || !str_cmp( arg1, "batý"  ) )
+    door = 3;
+  else if ( !str_cmp( arg1, "y" ) || !str_cmp( arg1, "yukarý"    ) )
+    door = 4;
+  else if ( !str_cmp( arg1, "a" ) || !str_cmp( arg1, "aþaðý"  ) )
+    door = 5;
+  else
+  {
+    printf_to_char(ch,"Onu görmüyorsun.\n\r" );
+    return;
+  }
+
+  /* 'look direction' */
+  if ( ( pexit = ch->in_room->exit[door] ) == NULL )
+  {
+    printf_to_char(ch,"Özel bir þey yok.\n\r" );
+    return;
+  }
+
+  if ( pexit->description != NULL && pexit->description[0] != '\0' )
+    printf_to_char( ch, pexit->description );
+  else
+    printf_to_char( ch,"Özel bir þey yok.\n\r" );
+
+  if ( pexit->keyword    != NULL
+      && pexit->keyword[0] != '\0'
+      && pexit->keyword[0] != ' ' )
+  {
+    if ( IS_SET(pexit->exit_info, EX_CLOSED) )
+    {
+      act( "$d kapalý.", ch, NULL, pexit->keyword, TO_CHAR );
+    }
+    else if ( IS_SET(pexit->exit_info, EX_ISDOOR) )
+    {
+      act( "$d açýk.",   ch, NULL, pexit->keyword, TO_CHAR );
+    }
+  }
+
+  return;
 }
 
 /* RT added back for the hell of it */
@@ -2296,36 +2348,61 @@ void do_inventory( CHAR_DATA *ch, char *argument )
 
 void do_equipment( CHAR_DATA *ch, char *argument )
 {
-    OBJ_DATA *obj;
-    int iWear;
-    bool found;
+  OBJ_DATA *obj;
+  int iWear, bolgeye_giyilen_esya_sayisi, i;
+  bool found;
+  char buf[MAX_STRING_LENGTH];
 
-    send_to_char( "Ekipmanlarýn:\n\r", ch );
-    found = FALSE;
-    for ( iWear = 0; iWear < MAX_WEAR; iWear++ )
+  printf_to_char( ch , "Ekipmanlarýn:\n\r" );
+
+  found = FALSE;
+
+  for ( iWear = 0; iWear < MAX_WEAR; iWear++ )
+  {
+    if ( iWear==WEAR_FINGER || iWear==WEAR_NECK || iWear==WEAR_WRIST || iWear==WEAR_TATTOO )
     {
-        if ( iWear==WEAR_FINGER || iWear==WEAR_NECK || iWear==WEAR_WRIST
-		|| iWear==WEAR_TATTOO || iWear == WEAR_STUCK_IN)
+      for ( obj=ch->carrying; obj != NULL; obj = obj->next_content )
+      {
+        if ( obj->wear_loc == iWear && show_cwear_to_char( ch, obj ) )
+          found = TRUE;
+      }
+
+      bolgeye_giyilen_esya_sayisi = max_can_wear(ch, iWear) - count_worn(ch, iWear);
+
+      if( bolgeye_giyilen_esya_sayisi > 0 )
+      {
+        for( i=1 ; i <= bolgeye_giyilen_esya_sayisi ; i++ )
         {
-	  for ( obj=ch->carrying; obj != NULL; obj = obj->next_content )
-	   {
-	    if ( obj->wear_loc == iWear
-                 && show_cwear_to_char( ch, obj ) )
-	      found = TRUE;
-	   }
-	}
-	else
-        {
-	 if ( ( obj = get_eq_char(ch,iWear)) != NULL
-              && show_cwear_to_char( ch, obj ) )
-	  found = TRUE;
+          printf_to_char(ch,"%s\n\r",where_name[iWear]);
         }
+      }
     }
+    else if ( iWear == WEAR_STUCK_IN )
+    {
+      for ( obj=ch->carrying; obj != NULL; obj = obj->next_content )
+      {
+        if ( obj->wear_loc == iWear && show_cwear_to_char( ch, obj ) )
+          found = TRUE;
+      }
+    }
+    else
+    {
+      if ( ( obj = get_eq_char(ch,iWear)) != NULL && show_cwear_to_char( ch, obj ) )
+      {
+        found = TRUE;
+      }
+      else
+      {
+        sprintf(buf,where_name[iWear], ' ');
+        printf_to_char(ch,"%s\n\r",buf);
+      }
+    }
+  }
 
-    if ( !found )
-	send_to_char( "Hiçbir þey.\n\r", ch );
+  if ( !found )
+    send_to_char( "Hiçbir þey.\n\r", ch );
 
-    return;
+  return;
 }
 
 
@@ -2713,6 +2790,7 @@ void do_description( CHAR_DATA *ch, char *argument )
 
 	if ( strlen(buf) + strlen(argument) >= MAX_STRING_LENGTH - 2 )
 	{
+
     printf_to_char(ch, "Taným çok uzun.\n\r" );
 	    return;
 	}
@@ -2720,6 +2798,7 @@ void do_description( CHAR_DATA *ch, char *argument )
 	strcat( buf, argument );
 	strcat( buf, "\n\r" );
 	free_string( ch->description );
+
 	ch->description = str_dup( buf );
   if (!IS_NPC(ch) && (strlen(ch->description)>=350) && (IS_SET(ch->act, PLR_NO_DESCRIPTION)))
     REMOVE_BIT(ch->act, PLR_NO_DESCRIPTION);
@@ -2729,6 +2808,7 @@ void do_description( CHAR_DATA *ch, char *argument )
 
     printf_to_char(ch, "Tanýmýn:\n\r");
     printf_to_char(ch, ch->description ? ch->description : (char *)"(Hiç).\n\r");
+
     return;
 }
 

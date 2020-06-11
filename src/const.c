@@ -844,9 +844,9 @@ const	struct	class_type	class_table	[MAX_CLASS]	=
     },
 
     {
-	{"cleric","ermiþ"}, "Erm",  STAT_WIS,  OBJ_VNUM_SCHOOL_MACE,
+	{"cleric","ermiþ"}, "Erm",  STAT_WIS,  OBJ_VNUM_SCHOOL_SWORD,
 	{ 3003, 9619, 9619, 9619, 9619, 9619},  75,  18, 2,  70, 80, TRUE,
-	0,{0,0,3,0,0,5},CR_ALL
+	100,{1,2,2,0,0,5},CR_ALL
     },
 
     {
@@ -876,7 +876,7 @@ const	struct	class_type	class_table	[MAX_CLASS]	=
     {
 	{"ninja","ninja"}, "Nin",  STAT_DEX,  OBJ_VNUM_SCHOOL_DAGGER,
 	{ 3062, 0, 0, 0, 0, 0 },  75,  18,  -10,  90, 60, FALSE,
-	300,{1,0,0,2,0,5},CR_ALL
+	300,{1,0,0,2,1,5},CR_ALL
     },
 
     {
@@ -2983,7 +2983,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
     },
 
     {
-	{"bless","kutsama"},		{ 93,  14, 93, 93,14,93,93,93,93,12,93,93,93 },
+	{"bless","kutsama"},		{ 93,  10, 93, 93,14,93,93,93,93,12,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_bless,		TAR_OBJ_CHAR_DEF,	POS_STANDING,
 	&gsn_bless,		SLOT( 3),	 5,	12,
@@ -2993,7 +2993,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
     },
 
     {
-	{"bless weapon","silah kutsama"},{  93, 93, 93, 93,55,93,93,93,93,93,93,93,93 },
+	{"bless weapon","silah kutsama"},{  93, 55, 93, 93,55,93,93,93,93,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_bless_weapon,	TAR_OBJ_INV,		POS_STANDING,
 	NULL,			SLOT(637),	100,	24,
@@ -3047,7 +3047,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
     },
 
     {
-	{"cancellation","iptal"},	{ 24, 32, 93, 93,93,93,93,93 , 28,93,93,28,93},
+	{"cancellation","iptal"},	{ 24, 26, 93, 93,93,93,93,93 , 28,93,93,28,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_cancellation,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(507),	20,	12,
@@ -3553,7 +3553,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
     },
 
     {
-	{"enchant armor","zýrh yükselt"},	{  26, 93, 93, 93,93,93,93,93 ,93,93,93,93,93},
+	{"enchant armor","zýrh yükselt"},	{  26, 25, 93, 93,93,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_enchant_armor,	TAR_OBJ_INV,		POS_STANDING,
 	NULL,			SLOT(510),	100,	24,
@@ -3562,7 +3562,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
     },
 
     {
-	{"enchant weapon","silah yükselt"},{  33, 93, 93, 93,93,93,93,93,17,93,93,93,93 },
+	{"enchant weapon","silah yükselt"},{  33, 25, 93, 93,93,93,93,93,17,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_enchant_weapon,	TAR_OBJ_INV,		POS_STANDING,
 	NULL,			SLOT(24),	100,	24,
@@ -5027,7 +5027,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
     },
 
     {
-	{"dagger","hançer"},             { 1,  93,  1,  1,1,1,1,1 ,1 ,1,1,1,1},
+	{"dagger","hançer"},             { 1,  1,  1,  1,1,1,1,1 ,1 ,1,1,1,1},
 	{ 2, 2, 1, 1,1,1,1,1,1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_dagger,            SLOT( 0),       0,      0,
@@ -5090,7 +5090,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
     },
 
     {
-	{"sword","kýlýç"},		{  93, 93,  1,  1,1,1,1,1,93 ,1,1,93,93},
+	{"sword","kýlýç"},		{  93, 1,  1,  1,1,1,1,1,93 ,1,1,93,93},
 	{ 2, 2, 1, 1,1,1,1,1,1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_sword,            	SLOT( 0),       0,      0,

@@ -982,16 +982,16 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
     else if (!victim->fighting) check_improve(victim,gsn_counter,FALSE,1);
 
     if ( dt == gsn_backstab && wield != NULL)
-      dam = (1 + ch->level/10) * dam + ch->level;
+      dam = (1 + ch->level/8) * dam + ch->level;
 
     else if ( dt == gsn_dual_backstab && wield != NULL)
-      dam = (1 + ch->level/14) * dam + ch->level;
+      dam = (1 + ch->level/12) * dam + ch->level;
 
     else if (dt == gsn_circle)
-      dam = (ch->level/40 + 1) * dam + ch->level;
+      dam = (ch->level/35 + 1) * dam + ch->level;
 
     else if ( dt == gsn_vampiric_bite && IS_VAMPIRE(ch))
-      dam = (ch->level/20 + 1) * dam + ch->level;
+      dam = (ch->level/14 + 1) * dam + ch->level;
 
     else if ( dt == gsn_cleave && wield != NULL)
       {
@@ -1143,18 +1143,18 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 			 */
 
 			/*
-			 * Kabal muhafizlari
+			 * Kabal muhafizlarinin vurus gucu artirilsin.
 			 */
 			if(IS_NPC(ch))
 			{
-				if( ch->spec_fun != spec_lookup( (char*)"spec_fight_enforcer" ) ||
-			  		ch->spec_fun != spec_lookup( (char*)"spec_fight_invader" ) ||
-						ch->spec_fun != spec_lookup( (char*)"spec_fight_ivan" ) ||
-						ch->spec_fun != spec_lookup( (char*)"spec_fight_seneschal" ) ||
-						ch->spec_fun != spec_lookup( (char*)"spec_fight_powerman" ) ||
-						ch->spec_fun != spec_lookup( (char*)"spec_fight_protector" ) ||
-						ch->spec_fun != spec_lookup( (char*)"spec_fight_hunter" ) ||
-						ch->spec_fun != spec_lookup( (char*)"spec_fight_lionguard" ) )
+				if( ch->spec_fun == spec_lookup( (char*)"spec_fight_enforcer" ) ||
+			  		ch->spec_fun == spec_lookup( (char*)"spec_fight_invader" ) ||
+						ch->spec_fun == spec_lookup( (char*)"spec_fight_ivan" ) ||
+						ch->spec_fun == spec_lookup( (char*)"spec_fight_seneschal" ) ||
+						ch->spec_fun == spec_lookup( (char*)"spec_fight_powerman" ) ||
+						ch->spec_fun == spec_lookup( (char*)"spec_fight_protector" ) ||
+						ch->spec_fun == spec_lookup( (char*)"spec_fight_hunter" ) ||
+						ch->spec_fun == spec_lookup( (char*)"spec_fight_lionguard" ) )
 						{
 							dam *= 4;
 						}
