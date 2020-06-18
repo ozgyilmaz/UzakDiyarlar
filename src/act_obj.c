@@ -154,7 +154,9 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 	return;
       }
       if( !limit_kontrol(ch,obj) )
+      {
   			return;
+      }
     }
     if ( ch->carry_number + get_obj_number( obj ) > can_carry_n( ch ) )
     {
@@ -1068,6 +1070,10 @@ void do_drag( CHAR_DATA *ch, char *argument )
         act( "$n $p tarafýndan çarpýldý ve onu düþürdü.",  ch, obj, NULL, TO_ROOM );
         return;
       }
+      if( !limit_kontrol(ch,obj) )
+      {
+  			return;
+      }
    }
 
    if (obj->in_room != NULL)
@@ -1345,6 +1351,10 @@ void do_give( CHAR_DATA *ch, char *argument )
       {
         send_to_char( "Kurbanýnýn yönelimi eþyanýnkiyle uyuþmuyor.", ch );
 	return;
+      }
+      if( !limit_kontrol(victim,obj) )
+      {
+  			return;
       }
     }
 
@@ -1893,7 +1903,7 @@ void do_drink( CHAR_DATA *ch, char *argument )
 	}
     }
 
-    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 10 && number_bits(3) < 1)
+    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 10 && number_range(0,7) < 1)
     {
 	send_to_char( "Aðzýný bulamýyorsun.  *Hýck*\n\r", ch );
 	return;
@@ -3094,6 +3104,11 @@ void do_steal( CHAR_DATA *ch, char *argument )
       	act( "Tanrýlar $s davranýþýný onaylamýyor.",  ch, obj, NULL, TO_ROOM );
 	percent = 0;
       }
+
+      if( !limit_kontrol(ch,obj) )
+      {
+  			return;
+      }
     }
 
     number = ( obj != NULL ) ? get_obj_number(obj) : 0;
@@ -3615,6 +3630,10 @@ void do_buy( CHAR_DATA *ch, char *argument )
 	    	ch->reply = keeper;
 	    	return;
 	    }
+      if( !limit_kontrol(ch,obj) )
+      {
+  			return;
+      }
 	}
 
   if ( (ch->silver + ch->gold * 100) < cost * number )
@@ -4509,7 +4528,7 @@ void do_butcher(CHAR_DATA *ch, char *argument)
       int i;
       OBJ_DATA *steak;
 
-      numsteaks = number_bits(2) + 1;
+      numsteaks = number_range(0,3) + 1;
 
       if (numsteaks > 1)
 	{
@@ -5010,9 +5029,10 @@ void wear_multi(CHAR_DATA *ch,OBJ_DATA *obj,int iWear,bool fReplace)
 bool limit_kontrol (CHAR_DATA *ch, OBJ_DATA *obj)
 {
 	OBJ_DATA *b_obj,*c_obj;
-    int limit_sayisi;
+    int limit_ekipman_sayisi, limit_iksir_sayisi;
 
-	limit_sayisi=0;
+	limit_ekipman_sayisi=0;
+  limit_iksir_sayisi = 0;
 
 	for ( b_obj = ch->carrying; b_obj != NULL; b_obj = b_obj->next_content)
 	{
@@ -5022,50 +5042,72 @@ bool limit_kontrol (CHAR_DATA *ch, OBJ_DATA *obj)
 			{
 				if ( c_obj->pIndexData->limit != -1)
 				{
-					if( (c_obj->item_type == ITEM_SCROLL) ||
-					(c_obj->item_type == ITEM_PILL) ||
-					(c_obj->item_type == ITEM_POTION) )
-						continue;
-					limit_sayisi++;
-					if( !(ch->cabal) && limit_sayisi > MAKSIMUM_LIMIT)
-					{
-						extract_obj( c_obj );
-						limit_sayisi--;
-					}
-          else if( (ch->cabal) && limit_sayisi > MAKSIMUM_LIMIT_KABAL)
-					{
-						extract_obj( c_obj );
-						limit_sayisi--;
-					}
+          if( c_obj->item_type == ITEM_SCROLL || c_obj->item_type == ITEM_PILL || c_obj->item_type == ITEM_POTION )
+          {
+            limit_iksir_sayisi++;
+            if( limit_iksir_sayisi > MAKSIMUM_LIMIT_IKSIR_HAP_PARSOMEN)
+  					{
+  						extract_obj( c_obj );
+  						limit_iksir_sayisi--;
+  					}
+          }
+          else
+          {
+  					limit_ekipman_sayisi++;
+  					if( !(ch->cabal) && limit_ekipman_sayisi > MAKSIMUM_LIMIT_EKIPMAN)
+  					{
+  						extract_obj( c_obj );
+  						limit_ekipman_sayisi--;
+  					}
+            else if( (ch->cabal) && limit_ekipman_sayisi > MAKSIMUM_LIMIT_EKIPMAN_KABAL)
+  					{
+  						extract_obj( c_obj );
+  						limit_ekipman_sayisi--;
+  					}
+          }
 				}
 			}
 		}
 		if ( b_obj->pIndexData->limit != -1)
 		{
-			if( (b_obj->item_type == ITEM_SCROLL) ||
-				(b_obj->item_type == ITEM_PILL) ||
-				(b_obj->item_type == ITEM_POTION) )
-					continue;
-			limit_sayisi++;
-			if( !(ch->cabal) && limit_sayisi > MAKSIMUM_LIMIT)
-			{
-				extract_obj( b_obj );
-				limit_sayisi--;
-			}
-      else if( (ch->cabal) && limit_sayisi > MAKSIMUM_LIMIT_KABAL)
+      if( c_obj->item_type == ITEM_SCROLL || c_obj->item_type == ITEM_PILL || c_obj->item_type == ITEM_POTION )
       {
-        extract_obj( c_obj );
-        limit_sayisi--;
+        limit_iksir_sayisi++;
+        if( limit_iksir_sayisi > MAKSIMUM_LIMIT_IKSIR_HAP_PARSOMEN)
+        {
+          extract_obj( c_obj );
+          limit_iksir_sayisi--;
+        }
+      }
+      else
+      {
+  			limit_ekipman_sayisi++;
+  			if( !(ch->cabal) && limit_ekipman_sayisi > MAKSIMUM_LIMIT_EKIPMAN)
+  			{
+  				extract_obj( b_obj );
+  				limit_ekipman_sayisi--;
+  			}
+        else if( (ch->cabal) && limit_ekipman_sayisi > MAKSIMUM_LIMIT_EKIPMAN_KABAL)
+        {
+          extract_obj( c_obj );
+          limit_ekipman_sayisi--;
+        }
       }
 		}
 	}
 
-	if ( (obj->pIndexData->limit != -1) && (limit_sayisi==MAKSIMUM_LIMIT) &&
-		((obj->item_type != ITEM_SCROLL) && (obj->item_type != ITEM_PILL) && (obj->item_type != ITEM_POTION)) )
-    {
-				printf_to_char(ch,"Limit ekipman kontenjanýn dolu!\n\r");
-				return FALSE;
-    }
+  if ( (obj->pIndexData->limit != -1) && (limit_ekipman_sayisi==MAKSIMUM_LIMIT_EKIPMAN) &&
+  ((obj->item_type != ITEM_SCROLL) && (obj->item_type != ITEM_PILL) && (obj->item_type != ITEM_POTION)) )
+  {
+    printf_to_char(ch,"Limit ekipman kontenjanýn dolu!\n\r");
+    return FALSE;
+  }
+  else if ( (obj->pIndexData->limit != -1) && (limit_iksir_sayisi==MAKSIMUM_LIMIT_IKSIR_HAP_PARSOMEN) &&
+  ((obj->item_type == ITEM_SCROLL) || (obj->item_type == ITEM_PILL) || (obj->item_type == ITEM_POTION)) )
+  {
+    printf_to_char(ch,"Limit hap/parþömen/iksir kontenjanýn dolu!\n\r");
+    return FALSE;
+  }
 
 	return TRUE;
 }

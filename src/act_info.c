@@ -4809,6 +4809,10 @@ void do_diril( CHAR_DATA *ch, char *argument )
     REMOVE_BIT(ch->act,PLR_GHOST);
     printf_to_char(ch,"Ete kemiðe büründüðünü hissediyorsun. Arkaný kollamaya baþlasan iyi olur!\n\r");
     act ("$n ete kemiðe bürünüyor!",ch,NULL,NULL,TO_ROOM);
+    while ( ch->affected )
+      affect_remove( ch, ch->affected );
+    ch->affected_by	= 0;
+    ch->detection	= 0;
   }
   else
   {

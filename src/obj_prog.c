@@ -763,7 +763,7 @@ void speech_prog_kassandra(OBJ_DATA *obj, CHAR_DATA *ch, char *speech)
 void fight_prog_chaos_blade(OBJ_DATA *obj, CHAR_DATA *ch)
 {
   if ( is_wielded_char(ch,obj) )
-    switch(number_bits(7)) {
+    switch(number_range(0,127)) {
     case 0:
 
     act("Yataðan titriyor!", ch, NULL, NULL, TO_ROOM);
@@ -804,7 +804,7 @@ void fight_prog_tattoo_kame(OBJ_DATA *obj, CHAR_DATA *ch)
   int sn;
 
   if (get_eq_char(ch, WEAR_TATTOO) == obj)
-    switch(number_bits(6)) {
+    switch(number_range(0,63)) {
     case 0:
     case 1:
     act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
@@ -825,7 +825,7 @@ void fight_prog_tattoo_kame(OBJ_DATA *obj, CHAR_DATA *ch)
 void fight_prog_tattoo_nir(OBJ_DATA *obj, CHAR_DATA *ch)
 {
   if (get_eq_char(ch, WEAR_TATTOO) == obj)
-    switch(number_bits(6)) {
+    switch(number_range(0,63)) {
     case 0:
     case 1:
     case 2:
@@ -847,7 +847,7 @@ void fight_prog_tattoo_nir(OBJ_DATA *obj, CHAR_DATA *ch)
 void fight_prog_tattoo_nyah(OBJ_DATA *obj, CHAR_DATA *ch)
 {
   if (get_eq_char(ch, WEAR_TATTOO) == obj)
-    switch(number_bits(6)) {
+    switch(number_range(0,63)) {
     case 0:
       act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_CYAN);
@@ -864,7 +864,7 @@ void fight_prog_tattoo_nyah(OBJ_DATA *obj, CHAR_DATA *ch)
 void fight_prog_tattoo_sint(OBJ_DATA *obj, CHAR_DATA *ch)
 {
   if (get_eq_char(ch, WEAR_TATTOO) == obj)
-    switch(number_bits(6)) {
+    switch(number_range(0,63)) {
     case 0:
       act_color("$COmzundaki dövme mavi renkte parlýyor.$c",
 		   ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_BLUE);
@@ -930,7 +930,7 @@ void fight_prog_snake(OBJ_DATA *obj, CHAR_DATA *ch)
 {
   if ( is_wielded_char(ch,obj) )
     {
-      switch(number_bits(7)) {
+      switch(number_range(0,127)) {
       case 0:
       act("Kýrbacýndaki yýlanlardan biri $M ýsýrýyor!", ch, NULL,
   		ch->fighting, TO_CHAR);
@@ -957,7 +957,7 @@ void fight_prog_snake(OBJ_DATA *obj, CHAR_DATA *ch)
 void fight_prog_shockwave(OBJ_DATA *obj, CHAR_DATA *ch)
 {
   if ( is_wielded_char(ch,obj) )
-    switch(number_bits(5)) {
+    switch(number_range(0,31)) {
     case 0:
     act("Silahýndan fýrlayan bir yýldýrým $M vuruyor!", ch,
 NULL, ch->fighting, TO_CHAR);

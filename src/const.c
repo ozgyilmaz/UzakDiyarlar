@@ -4276,7 +4276,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
 	{"pass door","saydamlýk"},		{  24, 32, 93, 93,93,93,93,93 ,24,24,93,27,24},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_pass_door,	TAR_CHAR_SELF,		POS_STANDING,
-	NULL,			SLOT(74),	20,	12,
+	&gsn_pass_door,			SLOT(74),	20,	12,
   "",			"Cisimleþiyorsun.",	"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_TRANSPORTATION
     },

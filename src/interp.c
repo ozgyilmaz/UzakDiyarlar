@@ -769,7 +769,7 @@ bool check_social( CHAR_DATA *ch, char *command, char *argument )
 	&&   IS_AWAKE(victim)
 	&&   victim->desc == NULL)
 	{
-	    switch ( number_bits( 4 ) )
+	    switch ( number_range(0,15) )
 	    {
 	    case 0:
 

@@ -251,7 +251,7 @@ void check_assist(CHAR_DATA *ch,CHAR_DATA *victim)
 		    CHAR_DATA *target;
 		    int number;
 
-		    if (number_bits(1) == 0)
+		    if (number_range(0,1) == 0)
 			continue;
 
 		    target = NULL;
@@ -764,7 +764,7 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
     /*
      * The moment of excitement!
      */
-    while ( ( diceroll = number_bits( 5 ) ) >= 20 )
+    while ( ( diceroll = number_range(0,31) ) >= 20 )
 	;
 
     if ( diceroll == 0
@@ -1346,7 +1346,7 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 			&&   IS_AFFECTED(victim, AFF_CHARM)
 			&&   victim->master != NULL
 			&&   victim->master->in_room == ch->in_room
-			&&   number_bits( 3 ) == 0 )
+			&&   number_range(0,7) == 0 )
 			{
 				stop_fighting( ch, FALSE );
 				multi_hit( ch, victim->master, TYPE_UNDEFINED );
@@ -1769,7 +1769,7 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 	*/
 	if ( IS_NPC(victim) && dam > 0 && victim->wait < PULSE_VIOLENCE / 2)
 	{
-		if ( ( ( IS_SET(victim->act, ACT_WIMPY) && number_bits( 2 ) == 0
+		if ( ( ( IS_SET(victim->act, ACT_WIMPY) && number_range(0,3) == 0
 				&& victim->hit < victim->max_hit / 5)
 				||   ( IS_AFFECTED(victim, AFF_CHARM) && victim->master != NULL
 				&&     victim->master->in_room != victim->in_room ) )
@@ -2391,7 +2391,7 @@ void death_cry_org( CHAR_DATA *ch, int part )
 		msg = "$s acý çýðlýðýný duyuyorsun.";
 
     if ( part == -1 )
-      part = number_bits(4);
+      part = number_range(0,15);
 
     switch ( part )
     {
@@ -2520,6 +2520,7 @@ void raw_kill_org( CHAR_DATA *victim, int part )
   OBJ_DATA *obj,*obj_next;
   int i;
   OBJ_DATA *tattoo;
+	AFFECT_DATA af;
 
   stop_fighting( victim, TRUE );
 
@@ -2586,6 +2587,33 @@ void raw_kill_org( CHAR_DATA *victim, int part )
   victim->pcdata->condition[COND_FULL] = 40;
   victim->pcdata->condition[COND_BLOODLUST] = 40;
   victim->pcdata->condition[COND_DESIRE] = 40;
+
+	af.where     = TO_AFFECTS;
+	af.type      = gsn_fly;
+	af.level	 = 91;
+	af.duration  = 25;
+	af.location  = 0;
+	af.modifier  = 0;
+	af.bitvector = AFF_FLYING;
+	affect_to_char( victim, &af );
+
+	af.where     = TO_AFFECTS;
+	af.type      = gsn_pass_door;
+	af.level     = 91;
+	af.duration  = 25;
+	af.location  = APPLY_NONE;
+	af.modifier  = 0;
+	af.bitvector = AFF_PASS_DOOR;
+	affect_to_char( victim, &af );
+
+	af.where     = TO_AFFECTS;
+	af.type      = gsn_imp_invis;
+	af.level     = 91;
+	af.duration  = 25 ;
+	af.location  = APPLY_NONE;
+	af.modifier  = 0;
+	af.bitvector = AFF_IMP_INVIS;
+	affect_to_char( victim, &af );
 
   if (tattoo != NULL)
     {
@@ -3455,7 +3483,7 @@ bool mob_cast_cleric( CHAR_DATA *ch, CHAR_DATA *victim )
     {
         int min_level;
 
-        switch ( number_bits( 4 ) )
+        switch ( number_range(0,15) )
         {
         case  0: min_level =  0; spell = "blindness";      break;
         case  1: min_level =  3; spell = "cause serious";  break;
@@ -3495,7 +3523,7 @@ bool mob_cast_mage( CHAR_DATA *ch, CHAR_DATA *victim )
     {
         int min_level;
 
-        switch ( number_bits( 4 ) )
+        switch ( number_range(0,15) )
         {
         case  0: min_level =  0; spell = "blindness";      break;
         case  1: min_level =  3; spell = "chill touch";    break;

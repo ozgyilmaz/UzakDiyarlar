@@ -761,7 +761,7 @@ void mobile_update( void )
 	/* Scavenge */
 	if ( IS_SET(ch->act, ACT_SCAVENGER)
 	&&   ch->in_room->contents != NULL
-	&&   number_bits( 6 ) == 0 )
+	&&   number_range(0,63) == 0 )
 	{
 	    OBJ_DATA *obj;
 	    OBJ_DATA *obj_best;
@@ -791,8 +791,8 @@ void mobile_update( void )
 
 	/* Wander */
 	if ( !IS_SET(ch->act, ACT_SENTINEL)
-	&& number_bits(3) == 0
-	&& ( door = number_bits( 5 ) ) <= 5
+	&& number_range(0,7) == 0
+	&& ( door = number_range(0,31) ) <= 5
 	&& !RIDDEN(ch)
 	&& ( pexit = ch->in_room->exit[door] ) != NULL
 	&&   pexit->u1.to_room != NULL
@@ -1031,7 +1031,7 @@ int age_to_num( int age )
 
      case SKY_CLOUDLESS:
  	if ( weather_info.mmhg <  990
- 	|| ( weather_info.mmhg < 1010 && number_bits( 2 ) == 0 ) )
+ 	|| ( weather_info.mmhg < 1010 && number_range(0,3) == 0 ) )
  	{
  	    strcat( buf, "Gökyüzü bulutlanýyor.\n\r" );
  	    weather_info.sky = SKY_CLOUDY;
@@ -1040,13 +1040,13 @@ int age_to_num( int age )
 
      case SKY_CLOUDY:
  	if ( weather_info.mmhg <  970
- 	|| ( weather_info.mmhg <  990 && number_bits( 2 ) == 0 ) )
+ 	|| ( weather_info.mmhg <  990 && number_range(0,3) == 0 ) )
  	{
  	    strcat( buf, "Yaðmur baþladý.\n\r" );
  	    weather_info.sky = SKY_RAINING;
  	}
 
- 	if ( weather_info.mmhg > 1030 && number_bits( 2 ) == 0 )
+ 	if ( weather_info.mmhg > 1030 && number_range(0,3) == 0 )
  	{
  	    strcat( buf, "Bulutlar daðýlýyor.\n\r" );
  	    weather_info.sky = SKY_CLOUDLESS;
@@ -1054,14 +1054,14 @@ int age_to_num( int age )
  	break;
 
      case SKY_RAINING:
- 	if ( weather_info.mmhg <  970 && number_bits( 2 ) == 0 )
+ 	if ( weather_info.mmhg <  970 && number_range(0,3) == 0 )
  	{
  	    strcat( buf, "Gökyüzünde þimþekler çakýyor.\n\r" );
  	    weather_info.sky = SKY_LIGHTNING;
  	}
 
  	if ( weather_info.mmhg > 1030
- 	|| ( weather_info.mmhg > 1010 && number_bits( 2 ) == 0 ) )
+ 	|| ( weather_info.mmhg > 1010 && number_range(0,3) == 0 ) )
  	{
  	    strcat( buf, "Yaðmur dindi.\n\r" );
  	    weather_info.sky = SKY_CLOUDY;
@@ -1070,7 +1070,7 @@ int age_to_num( int age )
 
      case SKY_LIGHTNING:
  	if ( weather_info.mmhg > 1010
- 	|| ( weather_info.mmhg >  990 && number_bits( 2 ) == 0 ) )
+ 	|| ( weather_info.mmhg >  990 && number_range(0,3) == 0 ) )
  	{
  	    strcat( buf, "Þimþekler durdu.\n\r" );
  	    weather_info.sky = SKY_RAINING;
@@ -1144,7 +1144,12 @@ void char_update( void )
     {
       REMOVE_BIT(ch->act,PLR_GHOST);
       ch->pcdata->ghost_mode_counter = 0;
-      printf_to_char(ch,"{cArtýk bir hayalet deðilsin. Arkaný kollasan iyi olur!{x\n\r");
+      printf_to_char(ch,"Ete kemiðe büründüðünü hissediyorsun. Arkaný kollamaya baþlasan iyi olur!\n\r");
+      act ("$n ete kemiðe bürünüyor!",ch,NULL,NULL,TO_ROOM);
+      while ( ch->affected )
+        affect_remove( ch, ch->affected );
+      ch->affected_by	= 0;
+      ch->detection	= 0;
     }
 
   }
@@ -1474,7 +1479,7 @@ void char_update( void )
             {
                 if (!saves_spell(plague.level + 2,vch,DAM_DISEASE)
 		&&  !IS_IMMORTAL(vch)
-            	&&  !IS_AFFECTED(vch,AFF_PLAGUE) && number_bits(2) == 0)
+            	&&  !IS_AFFECTED(vch,AFF_PLAGUE) && number_range(0,3) == 0)
             	{
                 send_to_char("Ateþinin yükseldiðini hissediyorsun.\n\r",vch);
                 act("$n hastalýktan titriyor.",vch,NULL,NULL,TO_ROOM);
@@ -1914,7 +1919,7 @@ void aggr_update( void )
 	    ||   !IS_AWAKE(ch)
 	    ||   ( IS_SET(ch->act, ACT_WIMPY) && IS_AWAKE(wch) )
 	    ||   !can_see( ch, wch )
-	    ||   number_bits(1) == 0
+	    ||   number_range(0,1) == 0
             ||   is_safe_nomessage(ch,wch))
 
 		continue;
@@ -2214,7 +2219,7 @@ void room_affect_update( void )
                 if (!saves_spell(plague.level ,vch,DAM_DISEASE)
 		&&  !IS_IMMORTAL(vch)
 		&&  !is_safe_rspell(af->level,vch)
-            	&&  !IS_AFFECTED(vch,AFF_PLAGUE) && number_bits(3) == 0)
+            	&&  !IS_AFFECTED(vch,AFF_PLAGUE) && number_range(0,7) == 0)
             	{
                 send_to_char("Ateþinin çýktýðýný hissediyorsun.\n\r",vch);
                 act("$n hasta görünüyor.",vch,NULL,NULL,TO_ROOM);
@@ -2257,7 +2262,7 @@ void room_affect_update( void )
                 if (!saves_spell(paf.level ,vch,DAM_POISON)
 		&&  !IS_IMMORTAL(vch)
 		&&  !is_safe_rspell(af->level,vch)
-            	&&  !IS_AFFECTED(vch,AFF_POISON) && number_bits(3) == 0)
+            	&&  !IS_AFFECTED(vch,AFF_POISON) && number_range(0,7) == 0)
             	{
                 send_to_char("Kendini hasta hissediyorsun.\n\r",vch);
                 act("$n çok hasta görünüyor.",vch,NULL,NULL,TO_ROOM);
@@ -2300,7 +2305,7 @@ void room_affect_update( void )
                 if (!saves_spell(paf.level ,vch,DAM_OTHER)
 		&&  !IS_IMMORTAL(vch)
 		&&  !is_safe_rspell(af->level,vch)
-            	&&  !IS_AFFECTED(vch,AFF_SLOW) && number_bits(3) == 0)
+            	&&  !IS_AFFECTED(vch,AFF_SLOW) && number_range(0,7) == 0)
             	{
                 send_to_char("Acelesiz hareket etmeye baþlýyorsun.\n\r",vch);
                 act("$s hareketlerindeki telaþ kayboluyor.",vch,NULL,NULL,TO_ROOM);
@@ -2344,7 +2349,7 @@ void room_affect_update( void )
 		&&  !IS_IMMORTAL(vch)
 		&&  !is_safe_rspell(af->level,vch)
 		&&  !(IS_NPC(vch) && IS_SET(vch->act,ACT_UNDEAD) )
-            	&&  !IS_AFFECTED(vch,AFF_SLEEP) && number_bits(3) == 0)
+            	&&  !IS_AFFECTED(vch,AFF_SLEEP) && number_range(0,7) == 0)
             	{
 		  if (IS_AWAKE(vch))
 		   {
@@ -2392,7 +2397,7 @@ void room_affect_update( void )
                 if (!saves_spell(paf.level + 2,vch,DAM_MENTAL)
 		&&  !IS_IMMORTAL(vch)
 		&&  !is_safe_rspell(af->level,vch)
-            	&&  !is_affected(vch,gsn_evil_spirit) && number_bits(3) == 0)
+            	&&  !is_affected(vch,gsn_evil_spirit) && number_range(0,7) == 0)
             	{
                 send_to_char("Kendini bu kadar kötü hissetmemiþtin.\n\r",vch);
                 act("$s üstüne þerrin gölgesi düþüyor.",vch,NULL,NULL,TO_ROOM);
@@ -2436,7 +2441,7 @@ void room_affect_update( void )
                 if (!saves_spell(paf.level + 2,vch,DAM_)
 		&&  !IS_IMMORTAL(vch)
 		&&  !is_safe_rspell(af->level,vch)
-            	&&  !IS_AFFECTED(vch,AFF_) && number_bits(3) == 0)
+            	&&  !IS_AFFECTED(vch,AFF_) && number_range(0,7) == 0)
             	{
             	    send_to_char("You feel hot and feverish.\n\r",vch);
             	    act("$n shivers and looks very ill.",vch,NULL,NULL,TO_ROOM);

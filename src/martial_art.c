@@ -371,7 +371,7 @@ void do_bash( CHAR_DATA *ch, char *argument )
 
 	wait = 3;
 
-	switch(number_bits(2)) {
+	switch(number_range(0,1)) {
 	case 0: wait = 1; break;
 	case 1: wait = 2; break;
 	case 2: wait = 4; break;
@@ -3385,7 +3385,7 @@ void do_tail( CHAR_DATA *ch, char *argument )
 
 	wait = 3;
 
-	switch(number_bits(2)) {
+	switch(number_range(0,1)) {
 	case 0: wait = 1; break;
 	case 1: wait = 2; break;
 	case 2: wait = 4; break;
@@ -3748,7 +3748,7 @@ void do_crush( CHAR_DATA *ch, char *argument )
 
 	wait = 3;
 
-	switch(number_bits(2)) {
+	switch(number_range(0,1)) {
 	case 0: wait = 1; break;
 	case 1: wait = 2; break;
 	case 2: wait = 4; break;

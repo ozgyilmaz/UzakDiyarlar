@@ -736,7 +736,12 @@ void reset_char(CHAR_DATA *ch)
   {
     ch->pcdata->ghost_mode_counter = 0;
     REMOVE_BIT(ch->act,PLR_GHOST);
-    printf_to_char(ch,"{cArtýk bir hayalet deðilsin. Arkaný kollasan iyi olur!{x\n\r");
+    printf_to_char(ch,"Ete kemiðe büründüðünü hissediyorsun. Arkaný kollamaya baþlasan iyi olur!\n\r");
+    act ("$n ete kemiðe bürünüyor!",ch,NULL,NULL,TO_ROOM);
+    while ( ch->affected )
+      affect_remove( ch, ch->affected );
+    ch->affected_by	= 0;
+    ch->detection	= 0;
   }
 
 }

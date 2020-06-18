@@ -283,23 +283,23 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
                     }
 	        }
 
-	if ( in_room->sector_type == SECT_AIR
-	||   to_room->sector_type == SECT_AIR )
-	{
-            if ( MOUNTED(ch) )
-            {
-                if( !IS_AFFECTED(MOUNTED(ch), AFF_FLYING) )
-                {
-                  send_to_char( "Bineðin uçamýyor.\n\r", ch );
-                    return;
-                }
-            }
-           else if ( !IS_AFFECTED(ch, AFF_FLYING) && !IS_IMMORTAL(ch))
-	    {
-        send_to_char("Uçamýyorsun.\n\r", ch );
-	      return;
-            }
-	}
+  if ( in_room->sector_type == SECT_AIR
+  ||   to_room->sector_type == SECT_AIR )
+  {
+    if ( MOUNTED(ch) )
+    {
+      if( !IS_AFFECTED(MOUNTED(ch), AFF_FLYING) )
+      {
+      send_to_char( "Bineðin uçamýyor.\n\r", ch );
+      return;
+      }
+    }
+    else if ( !IS_AFFECTED(ch, AFF_FLYING) && !IS_IMMORTAL(ch))
+    {
+      send_to_char("Uçamýyorsun.\n\r", ch );
+      return;
+    }
+  }
 
 	if (( in_room->sector_type == SECT_WATER_NOSWIM
 	||    to_room->sector_type == SECT_WATER_NOSWIM )
@@ -2830,7 +2830,7 @@ void do_vanish( CHAR_DATA *ch, char *argument )
 
   check_improve(ch,gsn_vanish,TRUE,1);
 
-  if (!IS_NPC(ch) && ch->fighting != NULL && number_bits(1) == 1)
+  if (!IS_NPC(ch) && ch->fighting != NULL && number_range(0,1) == 1)
   {
     send_to_char("Baþaramadýn.\n\r",ch);
     return;

@@ -276,8 +276,9 @@ typedef void OPROG_FUN_AREA args((OBJ_DATA *obj));
 /*
  * Game parameters.
  */
-#define MAKSIMUM_LIMIT 3
-#define MAKSIMUM_LIMIT_KABAL 4
+#define MAKSIMUM_LIMIT_EKIPMAN 3
+#define MAKSIMUM_LIMIT_IKSIR_HAP_PARSOMEN	2
+#define MAKSIMUM_LIMIT_EKIPMAN_KABAL 4
 #define MAX_SOCIALS		  256
 #define MAX_SKILL		  427
 #define MAX_ALIAS		   20
@@ -503,9 +504,9 @@ struct	descriptor_data
     sh_int		descriptor;
     sh_int		connected;
     bool		fcommand;
-    char		inbuf		[MAX_STRING_LENGTH];
-    char		incomm		[MAX_STRING_LENGTH];
-    char		inlast		[MAX_STRING_LENGTH];
+    char		inbuf		[4 * MAX_INPUT_LENGTH];
+    char		incomm		[MAX_INPUT_LENGTH];
+    char		inlast		[MAX_INPUT_LENGTH];
     int			repeat;
     char *		outbuf;
     int			outsize;
@@ -2675,6 +2676,7 @@ extern sh_int  gsn_shield_cleave;
 extern sh_int  gsn_weapon_cleave;
 extern sh_int  gsn_slow;
 extern sh_int  gsn_imp_invis;
+extern sh_int  gsn_pass_door;
 extern sh_int  gsn_camp;
 extern sh_int  gsn_push;
 extern sh_int  gsn_tail;
@@ -2823,8 +2825,8 @@ extern sh_int  gsn_mental_knife;
  * Description macros.
  */
 #define PERS(ch, looker)	( can_see( looker, (ch) ) ?         \
-				( IS_NPC(ch) ? (ch)->short_descr :((IS_VAMPIRE(ch) && !IS_IMMORTAL(looker))? "An ugly creature" : (ch)->name ) ) \
-				: ( (!IS_NPC(ch) && (ch)->level > (LEVEL_HERO)) ? "an immortal" : "someone" ) )
+				( IS_NPC(ch) ? (ch)->short_descr :((IS_VAMPIRE(ch) && !IS_IMMORTAL(looker))? "Çirkin bir varlýk" : (ch)->name ) ) \
+				: ( (!IS_NPC(ch) && (ch)->level > (LEVEL_HERO)) ? "bir ölümsüz" : "birisi" ) )
 /* new defines */
 #define MAX_CHARM(ch)	((get_curr_stat(ch,STAT_INT) / 6) + (ch->level / 45))
 
@@ -3164,8 +3166,6 @@ int	number_fuzzy	args( ( int number ) );
 int	number_range	args( ( int from, int to ) );
 int	number_percent	args( ( void ) );
 int	number_door	args( ( void ) );
-int	number_bits	args( ( int width ) );
-long     number_mm       args( ( void ) );
 int	dice		args( ( int number, int size ) );
 int	interpolate	args( ( int level, int value_00, int value_32 ) );
 void	smash_tilde	args( ( char *str ) );

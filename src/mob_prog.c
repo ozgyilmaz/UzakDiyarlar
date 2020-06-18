@@ -1345,7 +1345,7 @@ void fight_prog_golem( CHAR_DATA *mob, CHAR_DATA *ch)
       do_rescue(mob,buf);
      }
 
-    switch ( number_bits( 4 ) )
+    switch ( number_range(0,15) )
      {
 	case  0: spell = "curse";          break;
 	case  1: spell = "weaken";         break;

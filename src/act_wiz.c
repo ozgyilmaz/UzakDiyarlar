@@ -944,28 +944,23 @@ void do_disconnect( CHAR_DATA *ch, char *argument )
 
 void do_duyuru( CHAR_DATA *ch, char *argument )
 {
-    DESCRIPTOR_DATA *d;
+  DESCRIPTOR_DATA *d;
 
-    if ( argument[0] == '\0' )
-    {
-	send_to_char( "Neyi duyuracaksýn?\n\r", ch );
-	return;
-    }
-
-    for ( d = descriptor_list; d; d = d->next )
-    {
-	if ( d->connected == CON_PLAYING )
-	{
-		send_to_char( CLR_RED_BOLD,d->character);
-		send_to_char( "DUYURU: ",d->character);
-		send_to_char( CLR_GREEN_BOLD,d->character);
-	    send_to_char( argument, d->character );
-	    send_to_char( "\n\r",   d->character );
-		send_to_char( CLR_WHITE,d->character);
-	}
-    }
-
+  if ( argument[0] == '\0' )
+  {
+    send_to_char( "Neyi duyuracaksýn?\n\r", ch );
     return;
+  }
+
+  for ( d = descriptor_list; d; d = d->next )
+  {
+    if ( d->connected == CON_PLAYING )
+    {
+      printf_to_char(d->character,"{RDUYURU: {G%s{x\n\r",argument);
+    }
+  }
+
+  return;
 }
 
 
@@ -1458,7 +1453,7 @@ void do_ostat( CHAR_DATA *ch, char *argument )
 
     if ( ( obj = get_obj_world( ch, argument ) ) == NULL )
     {
-	send_to_char( "Nothing like that in hell, earth, or heaven.\n\r", ch );
+	send_to_char( "Ne bu dünyada ne de diðerinde böyle bir þey yok.\n\r", ch );
 	return;
     }
 
@@ -1494,7 +1489,7 @@ void do_ostat( CHAR_DATA *ch, char *argument )
 	obj->in_obj     == NULL    ? "(none)" : obj->in_obj->short_descr,
 	obj->carried_by == NULL    ? "(none)" :
 	    can_see(ch,obj->carried_by) ? obj->carried_by->name
-				 	: "someone",
+				 	: "birisi",
 	obj->wear_loc );
     send_to_char( buf, ch );
 
@@ -2293,7 +2288,7 @@ void do_owhere(CHAR_DATA *ch, char *argument )
     }
 
     if ( !found )
-        send_to_char( "Nothing like that in heaven or earth.\n\r", ch );
+        send_to_char( "Ne bu dünyada ne de diðerinde böyle bir þey yok.\n\r", ch );
     else
         page_to_char(buf_string(buffer),ch);
 
@@ -3680,7 +3675,7 @@ void do_string( CHAR_DATA *ch, char *argument )
 
    	if ( ( obj = get_obj_world( ch, arg1 ) ) == NULL )
     	{
-	    send_to_char( "Nothing like that in heaven or earth.\n\r", ch );
+	    send_to_char( "Ne bu dünyada ne de diðerinde böyle bir þey yok.\n\r", ch );
 	    return;
     	}
 
@@ -3761,7 +3756,7 @@ void do_oset( CHAR_DATA *ch, char *argument )
 
     if ( ( obj = get_obj_world( ch, arg1 ) ) == NULL )
     {
-	send_to_char( "Nothing like that in heaven or earth.\n\r", ch );
+	send_to_char( "Ne bu dünyada ne de diðerinde böyle bir þey yok.\n\r", ch );
 	return;
     }
 
@@ -5554,8 +5549,7 @@ void do_reboot( CHAR_DATA *ch, char *argument )
 	return;
       }
      reboot_counter = atoi(arg);
-     sprintf(buf,"Uzak Diyarlar %i dakika sonra yeniden baþlatýlacak.\n\r",reboot_counter);
-     send_to_char(buf,ch);
+     printf_to_char(ch,"{cUzak Diyarlar %i dakika sonra yeniden baþlatýlacak.{x\n\r",reboot_counter);
      return;
     }
 

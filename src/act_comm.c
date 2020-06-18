@@ -322,12 +322,6 @@ void do_kd( CHAR_DATA *ch, char *argument )
 		return;
     }
 
-    if ( IS_SET(ch->comm,COMM_NOKD))
-    {
-	printf_to_char(ch,"Mesajýn iletilemedi.\n\r" );
-	return;
-    }
-
     if (IS_SET(ch->comm,COMM_NOKD))
     {
 	printf_to_char(ch,"Önce KD kanalýný açmalýsýn.\n\r");
@@ -366,12 +360,6 @@ void do_kd( CHAR_DATA *ch, char *argument )
         sprintf(buf,"%s: %s%s%s\n\r",PERS(ch,victim),CLR_RED_BOLD,argument,CLR_NORMAL);
         buf[0] = UPPER(buf[0]);
         add_buf(victim->pcdata->buffer,buf);
-	return;
-    }
-
-    if ( !(IS_IMMORTAL(ch) && ch->level > LEVEL_IMMORTAL) && !IS_AWAKE(victim) )
-    {
-	act( "$N seni duyamaz.", ch, 0, victim, TO_CHAR );
 	return;
     }
 
@@ -583,7 +571,7 @@ void do_yell( CHAR_DATA *ch, char *argument )
 
 void do_emote( CHAR_DATA *ch, char *argument )
 {
-char buf[MAX_STRING_LENGTH];
+char buf[MAX_INPUT_LENGTH];
 
     if ( !IS_NPC(ch) && IS_SET(ch->comm, COMM_NOEMOTE) )
     {

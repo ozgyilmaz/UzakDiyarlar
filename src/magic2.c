@@ -232,7 +232,7 @@ void spell_disintegrate( int sn, int level, CHAR_DATA *ch, void *vo, int target)
   OBJ_DATA *tattoo;
 
 
-    if (saves_spell(level,victim,DAM_MENTAL) || number_bits(1) == 0)
+    if (saves_spell(level,victim,DAM_MENTAL) || number_range(0,1) == 0)
 	{
 	 dam = dice( level , 24 ) ;
 	 damage(ch, victim , dam , sn, DAM_MENTAL, TRUE);
@@ -329,7 +329,7 @@ void spell_arz_yutagi( int sn, int level, CHAR_DATA *ch, void *vo, int target)
   OBJ_DATA *tattoo;
 
 
-    if (saves_spell(level,victim,DAM_MENTAL) || number_bits(1) == 0)
+    if (saves_spell(level,victim,DAM_MENTAL) || number_range(0,1) == 0)
 	{
 	 dam = dice( level , 24 ) ;
 	 damage(ch, victim , dam , sn, DAM_MENTAL, TRUE);
@@ -657,7 +657,7 @@ void spell_vanish( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   act("$n küçük bir küreyi yere fýrlatýyor.", ch, NULL, NULL, TO_ROOM );
 
-  if (!IS_NPC(ch) && ch->fighting != NULL && number_bits(1) == 1) {
+  if (!IS_NPC(ch) && ch->fighting != NULL && number_range(0,1) == 1) {
     send_to_char("Baþaramadýn.\n\r",ch);
     return;
   }
@@ -1793,7 +1793,7 @@ void spell_old_randomizer(int sn, int level, CHAR_DATA *ch, void *vo, int target
 
   pRoomIndex = get_room_index(ch->in_room->vnum);
 
-  if (number_bits(1) == 0)
+  if (number_range(0,1) == 0)
     {
       send_to_char("Tüm çabalarýna raðmen evren kaosa direniyor.\n\r",ch);
       if (ch->trust >= 56)
@@ -2051,7 +2051,7 @@ void spell_brew( int sn, int level, CHAR_DATA *ch, void *vo, int target )
       }
     else if (obj->item_type == ITEM_TREASURE)
       {
-	switch(number_bits(3)) {
+	switch(number_range(0,7)) {
 	case 0:
 	  spell = skill_lookup("cure critical");
 	  break;
@@ -3642,7 +3642,7 @@ void spell_power_kill ( int sn, int level, CHAR_DATA *ch, void *vo , int target)
   act_color( "$S parmaðýndan çýkan karanlýk seni sarýyor.",
 		victim, NULL, ch, TO_CHAR, POS_RESTING, CLR_RED );
 
-    if (saves_spell(level,victim,DAM_MENTAL) || number_bits(1) == 0)
+    if (saves_spell(level,victim,DAM_MENTAL) || number_range(0,1) == 0)
 	{
 	 dam = dice( level , 24 ) ;
 	 damage(ch, victim , dam , sn, DAM_MENTAL, TRUE);
@@ -4190,7 +4190,7 @@ void spell_witch_curse ( int sn, int level, CHAR_DATA *ch, void *vo , int target
       return;
     }
 
-  if (saves_spell((level+5),victim,DAM_MENTAL) || number_bits(1) == 0)
+  if (saves_spell((level+5),victim,DAM_MENTAL) || number_range(0,1) == 0)
   {
       send_to_char("Baþaramadýn!\n\r",ch);
       return;
@@ -4609,7 +4609,7 @@ void spell_randomizer(int sn, int level, CHAR_DATA *ch, void *vo, int target)
 	return;
     }
 
-  if (number_bits(1) == 0)
+  if (number_range(0,1) == 0)
     {
       send_to_char("Evren karmaþaya direniyor.\n\r",ch);
       af2.where     = TO_AFFECTS;
@@ -5107,7 +5107,7 @@ void spell_adamantite_golem( int sn, int level, CHAR_DATA *ch, void *vo, int tar
 
 void spell_sanctify_lands(int sn, int level, CHAR_DATA *ch, void *vo, int target)
 {
-  if (number_bits(1) == 0)
+  if (number_range(0,1) == 0)
     {
       send_to_char("Baþaramadýn.\n\r",ch);
       return;

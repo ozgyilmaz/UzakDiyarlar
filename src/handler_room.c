@@ -852,7 +852,7 @@ void raffect_back_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
          {
              if (!saves_spell(plague.level - 2,vch,DAM_DISEASE)
  	    &&  !IS_IMMORTAL(vch) &&
-             	!IS_AFFECTED(vch,AFF_PLAGUE) && number_bits(6) == 0)
+             	!IS_AFFECTED(vch,AFF_PLAGUE) && number_range(0,63) == 0)
              {
                send_to_char("Ateþinin yükseldiðini hissediyorsun.\n\r",vch);
              	act("$n çok hasta görünüyor.",vch,NULL,NULL,TO_ROOM);

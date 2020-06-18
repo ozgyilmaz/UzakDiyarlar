@@ -9,7 +9,7 @@
  * Discord : https://discord.gg/kXyZzv                                     *
  *                                                                         *
  ***************************************************************************/
- 
+
 /***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT		           *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
@@ -317,7 +317,7 @@ bool dragon( CHAR_DATA *ch, char *spell_name )
 	v_next = victim->next_in_room;
 	if ( ((RIDDEN(ch) && RIDDEN(ch)->fighting == victim)
 		|| victim->fighting == ch)
-	     && number_bits( 3 ) == 0 )
+	     && number_range(0,7) == 0 )
 	    break;
     }
 
@@ -341,7 +341,7 @@ bool spec_breath_any( CHAR_DATA *ch )
     if ( ch->position != POS_FIGHTING )
 	return FALSE;
 
-    switch ( number_bits( 3 ) )
+    switch ( number_range(0,7) )
     {
     case 0: return spec_breath_fire		( ch );
     case 1:
@@ -412,7 +412,7 @@ bool spec_cast_adept( CHAR_DATA *ch )
     for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
     {
 	v_next = victim->next_in_room;
-	if ( victim != ch && can_see( ch, victim ) && number_bits( 1 ) == 0
+	if ( victim != ch && can_see( ch, victim ) && number_range(0,1) == 0
 	     && !IS_NPC(victim) && victim->level < 11)
 	    break;
     }
@@ -420,7 +420,7 @@ bool spec_cast_adept( CHAR_DATA *ch )
     if ( victim == NULL )
 	return FALSE;
 
-    switch ( number_bits( 4 ) )
+    switch ( number_range(0,15) )
     {
     case 0:
     act( "$n sihirli sözcükler söylüyor 'abrazak'.", ch, NULL, NULL, TO_ROOM );
@@ -477,7 +477,7 @@ bool spec_cast_cleric( CHAR_DATA *ch )
     for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
     {
 	v_next = victim->next_in_room;
-	if ( victim->fighting == ch && number_bits( 2 ) == 0 )
+	if ( victim->fighting == ch && number_range(0,3) == 0 )
 	    break;
     }
 
@@ -501,7 +501,7 @@ bool spec_cast_judge( CHAR_DATA *ch )
     for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
     {
         v_next = victim->next_in_room;
-        if ( victim->fighting == ch && number_bits( 2 ) == 0 )
+        if ( victim->fighting == ch && number_range(0,3) == 0 )
             break;
     }
 
@@ -528,7 +528,7 @@ bool spec_cast_mage( CHAR_DATA *ch )
     for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
     {
 	v_next = victim->next_in_room;
-	if ( victim->fighting == ch && number_bits( 2 ) == 0 )
+	if ( victim->fighting == ch && number_range(0,3) == 0 )
 	    break;
     }
 
@@ -554,7 +554,7 @@ bool spec_cast_undead( CHAR_DATA *ch )
     for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
     {
 	v_next = victim->next_in_room;
-	if ( victim->fighting == ch && number_bits( 2 ) == 0 )
+	if ( victim->fighting == ch && number_range(0,3) == 0 )
 	    break;
     }
 
@@ -565,7 +565,7 @@ bool spec_cast_undead( CHAR_DATA *ch )
     {
 	int min_level;
 
-	switch ( number_bits( 4 ) )
+	switch ( number_range(0,15) )
 	{
 	case  0: min_level =  0; spell = "curse";          break;
 	case  1: min_level =  3; spell = "weaken";         break;
@@ -829,7 +829,7 @@ bool spec_thief( CHAR_DATA *ch )
 
 	if ( IS_NPC(victim)
 	||   victim->level >= LEVEL_IMMORTAL
-	||   number_bits( 5 ) != 0
+	||   number_range(0,31) != 0
 	||   !can_see(ch,victim))
 	    continue;
 
@@ -870,7 +870,7 @@ bool spec_cast_cabal( CHAR_DATA *ch )
     for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
     {
 	v_next = victim->next_in_room;
-	if ( victim != ch && can_see( ch, victim ) && number_bits( 1 ) == 0)
+	if ( victim != ch && can_see( ch, victim ) && number_range(0,1) == 0)
 	  break;
     }
 
@@ -878,7 +878,7 @@ bool spec_cast_cabal( CHAR_DATA *ch )
 	return FALSE;
 
 
-    switch ( number_bits( 4 ) )
+    switch ( number_range(0,15) )
     {
     case 0:
     act( "$n sihirli sözcükler söylüyor 'abracal'.", ch, NULL, NULL, TO_ROOM );
@@ -1143,7 +1143,7 @@ bool spec_nasty( CHAR_DATA *ch )
     if ( (victim = ch->fighting) == NULL)
         return FALSE;   /* let's be paranoid.... */
 
-    switch ( number_bits(2) )
+    switch ( number_range(0,3) )
     {
       case 0:  act("$n para keseni yýrtýp atarak paranýn saçýlmasýna neden oluyor!",
                    ch, NULL, victim, TO_VICT);
@@ -1462,7 +1462,7 @@ bool spec_cast_beholder( CHAR_DATA *ch )
     for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
     {
 	v_next = victim->next_in_room;
-	if ( victim->fighting == ch && number_bits( 1 ) == 0 )
+	if ( victim->fighting == ch && number_range(0,1) == 0 )
 	    break;
     }
 
@@ -1505,7 +1505,7 @@ bool spec_fight_enforcer( CHAR_DATA *ch )
     for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
     {
 	v_next = victim->next_in_room;
-	if ( victim->fighting == ch && number_bits( 1 ) == 0 )
+	if ( victim->fighting == ch && number_range(0,1) == 0 )
 	    break;
     }
 
@@ -1550,7 +1550,7 @@ bool spec_fight_invader( CHAR_DATA *ch )
     for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
     {
 	v_next = victim->next_in_room;
-	if ( victim->fighting == ch && number_bits( 1 ) == 0 )
+	if ( victim->fighting == ch && number_range(0,1) == 0 )
 	    break;
     }
 
@@ -1604,7 +1604,7 @@ bool spec_fight_ivan( CHAR_DATA *ch )
     for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
     {
 	v_next = victim->next_in_room;
-	if ( victim->fighting == ch && number_bits( 1 ) == 0 )
+	if ( victim->fighting == ch && number_range(0,1) == 0 )
 	    break;
     }
 
@@ -1653,7 +1653,7 @@ bool spec_fight_seneschal( CHAR_DATA *ch )
     for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
     {
 	v_next = victim->next_in_room;
-	if ( victim->fighting == ch && number_bits( 1 ) == 0 )
+	if ( victim->fighting == ch && number_range(0,1) == 0 )
 	    break;
     }
 
@@ -1706,7 +1706,7 @@ bool spec_fight_powerman( CHAR_DATA *ch )
     for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
     {
 	v_next = victim->next_in_room;
-	if ( victim->fighting == ch && number_bits( 1 ) == 0 )
+	if ( victim->fighting == ch && number_range(0,1) == 0 )
 	    break;
     }
 
@@ -1746,7 +1746,7 @@ bool spec_fight_protector( CHAR_DATA *ch )
     for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
     {
 	v_next = victim->next_in_room;
-	if ( victim->fighting == ch && number_bits( 1 ) == 0 )
+	if ( victim->fighting == ch && number_range(0,1) == 0 )
 	    break;
     }
 
@@ -1791,7 +1791,7 @@ bool spec_fight_lionguard( CHAR_DATA *ch )
     for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
     {
 	v_next = victim->next_in_room;
-	if ( victim->fighting == ch && number_bits( 1 ) == 0 )
+	if ( victim->fighting == ch && number_range(0,1) == 0 )
 	    break;
     }
 
@@ -1844,7 +1844,7 @@ bool spec_fight_hunter( CHAR_DATA *ch )
     for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
     {
 	v_next = victim->next_in_room;
-	if ( victim->fighting == ch && number_bits( 1 ) == 0 )
+	if ( victim->fighting == ch && number_range(0,1) == 0 )
 	    break;
     }
 
