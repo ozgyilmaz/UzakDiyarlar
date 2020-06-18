@@ -5038,6 +5038,8 @@ bool limit_kontrol (CHAR_DATA *ch, OBJ_DATA *obj)
 	{
 		if (b_obj->item_type==ITEM_CONTAINER)
 		{
+      c_obj = NULL;
+
 			for ( c_obj = b_obj->contains; c_obj != NULL; c_obj = c_obj->next_content )
 			{
 				if ( c_obj->pIndexData->limit != -1)
@@ -5070,12 +5072,12 @@ bool limit_kontrol (CHAR_DATA *ch, OBJ_DATA *obj)
 		}
 		if ( b_obj->pIndexData->limit != -1)
 		{
-      if( c_obj->item_type == ITEM_SCROLL || c_obj->item_type == ITEM_PILL || c_obj->item_type == ITEM_POTION )
+      if( b_obj->item_type == ITEM_SCROLL || b_obj->item_type == ITEM_PILL || b_obj->item_type == ITEM_POTION )
       {
         limit_iksir_sayisi++;
         if( limit_iksir_sayisi > MAKSIMUM_LIMIT_IKSIR_HAP_PARSOMEN)
         {
-          extract_obj( c_obj );
+          extract_obj( b_obj );
           limit_iksir_sayisi--;
         }
       }
@@ -5089,24 +5091,42 @@ bool limit_kontrol (CHAR_DATA *ch, OBJ_DATA *obj)
   			}
         else if( (ch->cabal) && limit_ekipman_sayisi > MAKSIMUM_LIMIT_EKIPMAN_KABAL)
         {
-          extract_obj( c_obj );
+          extract_obj( b_obj );
           limit_ekipman_sayisi--;
         }
       }
 		}
 	}
 
-  if ( (obj->pIndexData->limit != -1) && (limit_ekipman_sayisi==MAKSIMUM_LIMIT_EKIPMAN) &&
-  ((obj->item_type != ITEM_SCROLL) && (obj->item_type != ITEM_PILL) && (obj->item_type != ITEM_POTION)) )
+  if (obj->pIndexData->limit != -1)
   {
-    printf_to_char(ch,"Limit ekipman kontenjanýn dolu!\n\r");
-    return FALSE;
-  }
-  else if ( (obj->pIndexData->limit != -1) && (limit_iksir_sayisi==MAKSIMUM_LIMIT_IKSIR_HAP_PARSOMEN) &&
-  ((obj->item_type == ITEM_SCROLL) || (obj->item_type == ITEM_PILL) || (obj->item_type == ITEM_POTION)) )
-  {
-    printf_to_char(ch,"Limit hap/parþömen/iksir kontenjanýn dolu!\n\r");
-    return FALSE;
+    if ((obj->item_type == ITEM_SCROLL) || (obj->item_type == ITEM_PILL) || (obj->item_type == ITEM_POTION))
+    {
+      if (limit_iksir_sayisi==MAKSIMUM_LIMIT_IKSIR_HAP_PARSOMEN)
+      {
+        printf_to_char(ch,"Limit hap/parþömen/iksir kontenjanýn dolu!\n\r");
+        return FALSE;
+      }
+    }
+    else
+    {
+      if (ch->cabal)
+      {
+        if (limit_ekipman_sayisi==MAKSIMUM_LIMIT_EKIPMAN_KABAL)
+        {
+          printf_to_char(ch,"Limit ekipman kontenjanýn dolu!\n\r");
+          return FALSE;
+        }
+      }
+      else
+      {
+        if (limit_ekipman_sayisi==MAKSIMUM_LIMIT_EKIPMAN)
+        {
+          printf_to_char(ch,"Limit ekipman kontenjanýn dolu!\n\r");
+          return FALSE;
+        }
+      }
+    }
   }
 
 	return TRUE;
