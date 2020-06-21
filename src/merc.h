@@ -47,7 +47,7 @@
 *	By using this code, you have agreed to follow the terms of the	   *
 *	ROM license, in the file Rom24/doc/rom.license			   *
 ***************************************************************************/
-
+#include "protocol.h"
 /*
  * Accommodate old non-Ansi compilers.
  */
@@ -513,6 +513,7 @@ struct	descriptor_data
     int			outtop;
     char *		showstr_head;
     char *		showstr_point;
+		protocol_t *        pProtocol;
 };
 
 
@@ -1654,6 +1655,8 @@ struct	kill_data
 #define DIR_WEST		      3
 #define DIR_UP			      4
 #define DIR_DOWN		      5
+#define MAX_DIR           6
+
 
 
 

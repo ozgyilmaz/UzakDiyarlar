@@ -92,6 +92,8 @@ void	weather_update	args( ( void ) );
 void	char_update	args( ( void ) );
 void	obj_update	args( ( void ) );
 void	aggr_update	args( ( void ) );
+void	msdp_update	args( ( void ) );
+void	gmcp_update	args( ( void ) );
 int	potion_cure_level	args( ( OBJ_DATA *potion ) );
 int	potion_arm_level	args( ( OBJ_DATA *potion ) );
 bool	potion_cure_blind	args( ( OBJ_DATA *potion ) );
@@ -1996,6 +1998,7 @@ void update_handler( void )
     static  int     pulse_mobile;
     static  int     pulse_violence;
     static  int     pulse_point;
+    static  int     pulse_msdp;
     static  int	    pulse_music;
     static  int	    pulse_water_float;
     static  int	    pulse_raffect;
@@ -2048,6 +2051,12 @@ void update_handler( void )
 	track_update( );
     }
 
+    if ( --pulse_msdp <= 0 )
+    {
+        pulse_msdp      = PULSE_PER_SECOND;
+        msdp_update();
+    }
+
     if ( --pulse_point    <= 0 )
     {
 	wiznet("KARAKTER YENILEME!",NULL,NULL,WIZ_TICKS,0,0);
@@ -2070,6 +2079,8 @@ void update_handler( void )
 	}
 
     }
+
+    gmcp_update();
 
     aggr_update( );
     auction_update( );
@@ -2549,5 +2560,302 @@ void cevrimici_oyuncu_sayisi( void )
 	}
   max_on = UMAX(count,max_on);
 	max_on_so_far  = UMAX(count,max_on_so_far);
+	return;
+}
+
+/***************************************************************************
+ * File: update.c
+ *
+ * Add a new msdp_update() function.
+ ***************************************************************************/
+
+void msdp_update( void )
+{
+    DESCRIPTOR_DATA *d;
+    int PlayerCount = 0;
+
+    for ( d = descriptor_list; d != NULL; d = d->next )
+    {
+	if ( d->character && d->connected == CON_PLAYING && !IS_NPC(d->character) )
+        {
+            char buf[MAX_STRING_LENGTH];
+            CHAR_DATA *pOpponent = d->character->fighting;
+            ROOM_INDEX_DATA *pRoom = d->character->in_room;
+            AFFECT_DATA *paf;
+
+            ++PlayerCount;
+
+            MSDPSetString( d, eMSDP_CHARACTER_NAME, d->character->name );
+            MSDPSetNumber( d, eMSDP_ALIGNMENT, d->character->alignment );
+            MSDPSetNumber( d, eMSDP_EXPERIENCE, d->character->exp );
+            MSDPSetNumber( d, eMSDP_EXPERIENCE_MAX, exp_per_level(d->character,
+               d->character->pcdata->points)  );
+            MSDPSetNumber( d, eMSDP_EXPERIENCE_TNL, ((d->character->level + 1) *
+               exp_per_level(d->character, d->character->pcdata->points) -
+               d->character->exp ) );
+
+            MSDPSetNumber( d, eMSDP_HEALTH, d->character->hit );
+            MSDPSetNumber( d, eMSDP_HEALTH_MAX, d->character->max_hit );
+            MSDPSetNumber( d, eMSDP_LEVEL, d->character->level );
+/*
+            MSDPSetNumber( d, eMSDP_RACE, TBD );
+            MSDPSetNumber( d, eMSDP_CLASS, TBD );
+*/
+            MSDPSetNumber( d, eMSDP_MANA, d->character->mana );
+            MSDPSetNumber( d, eMSDP_MANA_MAX, d->character->max_mana );
+            MSDPSetNumber( d, eMSDP_WIMPY, d->character->wimpy );
+            MSDPSetNumber( d, eMSDP_PRACTICE, d->character->practice );
+            MSDPSetNumber( d, eMSDP_MONEY, d->character->silver );
+            MSDPSetNumber( d, eMSDP_MOVEMENT, d->character->move );
+            MSDPSetNumber( d, eMSDP_MOVEMENT_MAX, d->character->max_move );
+            MSDPSetNumber( d, eMSDP_HITROLL, GET_HITROLL(d->character) );
+            MSDPSetNumber( d, eMSDP_DAMROLL, GET_DAMROLL(d->character) );
+            MSDPSetNumber( d, eMSDP_AC, GET_AC(d->character,AC_BASH) );
+            MSDPSetNumber( d, eMSDP_STR, get_curr_stat(d->character,STAT_STR) );
+            MSDPSetNumber( d, eMSDP_INT, get_curr_stat(d->character,STAT_INT) );
+            MSDPSetNumber( d, eMSDP_WIS, get_curr_stat(d->character,STAT_WIS) );
+            MSDPSetNumber( d, eMSDP_DEX, get_curr_stat(d->character,STAT_DEX) );
+            MSDPSetNumber( d, eMSDP_CON, get_curr_stat(d->character,STAT_CON) );
+            MSDPSetNumber( d, eMSDP_STR_PERM, d->character->perm_stat[STAT_STR] );
+            MSDPSetNumber( d, eMSDP_INT_PERM, d->character->perm_stat[STAT_INT] );
+            MSDPSetNumber( d, eMSDP_WIS_PERM, d->character->perm_stat[STAT_WIS] );
+            MSDPSetNumber( d, eMSDP_DEX_PERM, d->character->perm_stat[STAT_DEX] );
+            MSDPSetNumber( d, eMSDP_CON_PERM, d->character->perm_stat[STAT_CON] );
+
+            /* This would be better moved elsewhere */
+            if ( pOpponent != NULL )
+            {
+                int hit_points = (pOpponent->hit * 100) / pOpponent->max_hit;
+                MSDPSetNumber( d, eMSDP_OPPONENT_HEALTH, hit_points );
+                MSDPSetNumber( d, eMSDP_OPPONENT_HEALTH_MAX, 100 );
+                MSDPSetNumber( d, eMSDP_OPPONENT_LEVEL, pOpponent->level );
+                MSDPSetString( d, eMSDP_OPPONENT_NAME, pOpponent->name );
+            }
+            else /* Clear the values */
+            {
+                MSDPSetNumber( d, eMSDP_OPPONENT_HEALTH, 0 );
+                MSDPSetNumber( d, eMSDP_OPPONENT_LEVEL, 0 );
+                MSDPSetString( d, eMSDP_OPPONENT_NAME, "" );
+            }
+
+            /* Only update room stuff if they've changed room */
+            if ( pRoom && pRoom->vnum != d->pProtocol->pVariables[eMSDP_ROOM_VNUM]->ValueInt )
+            {
+                int i; /* Loop counter */
+                buf[0] = '\0';
+
+                for ( i = DIR_NORTH; i < MAX_DIR; ++i )
+                {
+                    if ( pRoom->exit[i] != NULL )
+                    {
+                        const char MsdpVar[] = { (char)MSDP_VAR, '\0' };
+                        const char MsdpVal[] = { (char)MSDP_VAL, '\0' };
+                        extern const char * dir_name[];
+
+                        strcat( buf, MsdpVar );
+                        strcat( buf, dir_name[i] );
+                        strcat( buf, MsdpVal );
+
+                        if ( IS_SET(pRoom->exit[i]->exit_info, EX_CLOSED) )
+                            strcat( buf, "C" );
+                        else /* The exit is open */
+                            strcat( buf, "O" );
+                    }
+                }
+
+                if ( pRoom->area != NULL )
+                    MSDPSetString( d, eMSDP_AREA_NAME, pRoom->area->name );
+
+                MSDPSetString( d, eMSDP_ROOM_NAME, pRoom->name );
+                MSDPSetTable( d, eMSDP_ROOM_EXITS, buf );
+                MSDPSetNumber( d, eMSDP_ROOM_VNUM, pRoom->vnum );
+            }
+/*
+            MSDPSetNumber( d, eMSDP_WORLD_TIME, d->character-> );
+*/
+
+            buf[0] = '\0';
+            for ( paf = d->character->affected; paf; paf = paf->next )
+            {
+                char skill_buf[MAX_STRING_LENGTH];
+                sprintf( skill_buf, "%c%s%c%d",
+                    (char)MSDP_VAR, (char*)skill_table[paf->type].name,
+                    (char)MSDP_VAL, paf->duration );
+                strcat( buf, skill_buf );
+            }
+            MSDPSetTable( d, eMSDP_AFFECTS, buf );
+
+            MSDPUpdate( d );
+        }
+    }
+
+    /* Ideally this should be called once at startup, and again whenever
+     * someone leaves or joins the mud.  But this works, and it keeps the
+     * snippet simple.  Optimise as you see fit.
+     */
+    MSSPSetPlayers( PlayerCount );
+}
+
+/***************************************************************************
+ * GMCP ADDON
+ * File: update.c
+ *
+ * Add a new gmcp_update() function.
+ ***************************************************************************/
+void gmcp_update( void )
+{
+	DESCRIPTOR_DATA *d;
+
+	for ( d = descriptor_list; d != NULL; d = d->next )
+	{
+		if ( d->character && d->connected == CON_PLAYING && !IS_NPC(d->character) )
+        {
+            char buf[MAX_STRING_LENGTH];
+			char buf2[MAX_STRING_LENGTH];
+			ROOM_INDEX_DATA *room = d->character->in_room;
+			CHAR_DATA *enemy = d->character->fighting;
+			AFFECT_DATA *paf;
+
+			UpdateGMCPString( d, GMCP_NAME, d->character->name );
+			UpdateGMCPString( d, GMCP_RACE, (const char*)race_table[d->character->race].name );
+			UpdateGMCPString( d, GMCP_CLASS, (const char*)class_table[d->character->iclass].name );
+
+			UpdateGMCPNumber( d, GMCP_HP, d->character->hit );
+			UpdateGMCPNumber( d, GMCP_MANA, d->character->mana );
+			UpdateGMCPNumber( d, GMCP_MOVE, d->character->move );
+			UpdateGMCPNumber( d, GMCP_MAX_HP, d->character->max_hit );
+			UpdateGMCPNumber( d, GMCP_MAX_MANA, d->character->max_mana );
+			UpdateGMCPNumber( d, GMCP_MAX_MOVE, d->character->max_move );
+
+			UpdateGMCPNumber( d, GMCP_STR, get_curr_stat( d->character, STAT_STR ) );
+			UpdateGMCPNumber( d, GMCP_INT, get_curr_stat( d->character, STAT_INT ) );
+			UpdateGMCPNumber( d, GMCP_WIS, get_curr_stat( d->character, STAT_WIS ) );
+			UpdateGMCPNumber( d, GMCP_DEX, get_curr_stat( d->character, STAT_DEX ) );
+			UpdateGMCPNumber( d, GMCP_CON, get_curr_stat( d->character, STAT_CON ) );
+			UpdateGMCPNumber( d, GMCP_HITROLL, GET_HITROLL( d->character ) );
+			UpdateGMCPNumber( d, GMCP_DAMROLL, GET_DAMROLL( d->character ) );
+			UpdateGMCPNumber( d, GMCP_WIMPY, d->character->wimpy );
+
+			UpdateGMCPNumber( d, GMCP_AC_PIERCE, GET_AC( d->character, AC_PIERCE ) );
+			UpdateGMCPNumber( d, GMCP_AC_BASH, GET_AC( d->character, AC_BASH ) );
+			UpdateGMCPNumber( d, GMCP_AC_SLASH, GET_AC( d->character, AC_SLASH ) );
+			UpdateGMCPNumber( d, GMCP_AC_EXOTIC, GET_AC( d->character, AC_EXOTIC ) );
+
+			UpdateGMCPNumber( d, GMCP_ALIGNMENT, d->character->alignment );
+			UpdateGMCPNumber( d, GMCP_XP, d->character->exp );
+			UpdateGMCPNumber( d, GMCP_XP_MAX, exp_per_level( d->character, d->character->pcdata->points) );
+			UpdateGMCPNumber( d, GMCP_XP_TNL, ( ( d->character->level + 1 ) * exp_per_level( d->character, d->character->pcdata->points ) - d->character->exp ) );
+			UpdateGMCPNumber( d, GMCP_PRACTICE, d->character->practice );
+			UpdateGMCPNumber( d, GMCP_MONEY, d->character->silver );
+
+			sprintf( buf, "%d", room->vnum );
+
+			if ( room && strcmp( buf, d->pProtocol->GMCPVariable[GMCP_ROOM_VNUM] ) )
+			{
+				static const char *exit[] = { "n", "e", "s", "w", "u", "d" };
+				int i;
+				UpdateGMCPString( d, GMCP_AREA, d->character->in_room->area->name );
+				UpdateGMCPString( d, GMCP_ROOM_NAME, d->character->in_room->name );
+				UpdateGMCPNumber( d, GMCP_ROOM_VNUM, d->character->in_room->vnum );
+
+				buf[0] = '\0';
+				buf2[0] = '\0';
+
+				for ( i = DIR_NORTH; i <= DIR_DOWN; i++ )
+				{
+					if ( !room->exit[i] )
+						continue;
+
+					if ( buf[0] == '\0' )
+					{
+						#ifndef COLOR_CODE_FIX
+						sprintf( buf, "\"%s\": \"%d\"", exit[i], room->exit[i]->u1.to_room->vnum );
+						#else
+						sprintf( buf, "\"%s\": \"%d\"", exit[i], room->exit[i]->u1.to_room->vnum );
+						#endif
+					}
+					else
+					{
+						sprintf( buf2, ", \"%s\": \"%d\"", exit[i], room->exit[i]->u1.to_room->vnum );
+						strcat( buf, buf2 );
+					}
+				}
+
+				UpdateGMCPString( d, GMCP_ROOM_EXITS, buf );
+			}
+
+			if ( enemy )
+			{
+				CHAR_DATA *ch;
+				buf[0] = '\0';
+				buf2[0] = '\0';
+
+				for ( ch = room->people; ch; ch = ch->next_in_room )
+				{
+					/* Don't check current ch as this will double up enemies. */
+					if ( ch == d->character )
+						continue;
+
+					if ( enemy == ch->fighting || ch->fighting == d->character )
+					{
+						#ifndef COLOR_CODE_FIX
+						if ( buf[0] == '\0' ) sprintf( buf, "[ { \"name\": \"%s\", \"level\": \"%d\", \"hp\": \"%d\", \"maxhp\": \"%d\" }", enemy->name, enemy->level, enemy->hit, enemy->max_hit );
+						else
+						{
+							sprintf( buf2, ", { \"name\": \"%s\", \"level\": \"%d\", \"hp\": \"%d\", \"maxhp\": \"%d\" }", enemy->name, enemy->level, enemy->hit, enemy->max_hit );
+							strcat( buf, buf2 );
+						}
+						#else
+						if ( buf[0] == '\0' ) sprintf( buf, "[ {{ \"name\": \"%s\", \"level\": \"%d\", \"hp\": \"%d\", \"maxhp\": \"%d\" }", enemy->name, enemy->level, enemy->hit, enemy->max_hit );
+						else
+						{
+							sprintf( buf2, ", {{ \"name\": \"%s\", \"level\": \"%d\", \"hp\": \"%d\", \"maxhp\": \"%d\" }", enemy->name, enemy->level, enemy->hit, enemy->max_hit );
+							strcat( buf, buf2 );
+						}
+						#endif
+					}
+				}
+
+				strcat( buf, " ]" );
+				UpdateGMCPString( d, GMCP_ENEMY, buf );
+			}
+			else
+			{
+				UpdateGMCPString( d, GMCP_ENEMY, "" );
+			}
+
+			buf[0] = '\0';
+			buf2[0] = '\0';
+
+			for ( paf = d->character->affected; paf; paf = paf->next )
+			{
+				#ifndef COLOR_CODE_FIX
+				if ( buf[0] == '\0' ) sprintf( buf, "[ { \"name\": \"%s\", \"duration\": \"%d\" }", (char*)skill_table[paf->type].name, paf->duration );
+				else
+				{
+					sprintf( buf2, ", { \"name\": \"%s\", \"duration\": \"%d\" }", (char*)skill_table[paf->type].name, paf->duration );
+					strcat( buf, buf2 );
+				}
+				#else
+				if ( buf[0] == '\0' ) sprintf( buf, "[ {{ \"name\": \"%s\", \"duration\": \"%d\" }", (char*)skill_table[paf->type].name, paf->duration );
+				else
+				{
+					sprintf( buf2, ", {{ \"name\": \"%s\", \"duration\": \"%d\" }", (char*)skill_table[paf->type].name, paf->duration );
+					strcat( buf, buf2 );
+				}
+				#endif
+            }
+
+			if ( buf[0] == '\0' )
+				sprintf( buf, "[]" );
+			else
+				strcat( buf, " ]" );
+
+			UpdateGMCPString( d, GMCP_AFFECT, buf );
+		}
+
+		SendUpdatedGMCP( d );
+	}
+
 	return;
 }
