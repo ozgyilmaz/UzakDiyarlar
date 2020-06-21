@@ -1663,15 +1663,14 @@ void do_group( CHAR_DATA *ch, char *argument )
 void do_split( CHAR_DATA *ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
-    char arg1[MAX_INPUT_LENGTH],arg2[MAX_INPUT_LENGTH];
+    char arg1[MAX_INPUT_LENGTH];
     CHAR_DATA *gch;
     int members;
-    int amount_gold = 0, amount_silver = 0;
-    int share_gold, share_silver;
-    int extra_gold, extra_silver;
+    int amount_silver = 0;
+    int share_silver;
+    int extra_silver;
 
-    argument = one_argument( argument, arg1 );
-	       one_argument( argument, arg2 );
+    one_argument( argument, arg1 );
 
     if ( arg1[0] == '\0' )
     {
@@ -1681,22 +1680,19 @@ void do_split( CHAR_DATA *ch, char *argument )
 
     amount_silver = atoi( arg1 );
 
-    if (arg2[0] != '\0')
-	amount_gold = atoi(arg2);
-
-    if ( amount_gold < 0 || amount_silver < 0)
+    if ( amount_silver < 0)
     {
       printf_to_char(ch,"Grubun bundan hoþlanmaz.\n\r" );
 	return;
     }
 
-    if ( amount_gold == 0 && amount_silver == 0 )
+    if ( amount_silver == 0 )
     {
       printf_to_char( ch,"Sýfýr sikke daðýttýn ve kimse çakozlamadý.\n\r" );
 	return;
     }
 
-    if ( ch->gold <  amount_gold || ch->silver < amount_silver)
+    if ( ch->silver < amount_silver)
     {
       printf_to_char(ch,"Üzerinde bu kadar yok.\n\r" );
 	return;
@@ -1718,10 +1714,7 @@ void do_split( CHAR_DATA *ch, char *argument )
     share_silver = amount_silver / members;
     extra_silver = amount_silver % members;
 
-    share_gold   = amount_gold / members;
-    extra_gold   = amount_gold % members;
-
-    if ( share_gold == 0 && share_silver == 0 )
+    if ( share_silver == 0 )
     {
       printf_to_char(ch,"Pis cimri.\n\r" );
 	return;
@@ -1729,8 +1722,6 @@ void do_split( CHAR_DATA *ch, char *argument )
 
     ch->silver	-= amount_silver;
     ch->silver	+= share_silver + extra_silver;
-    ch->gold 	-= amount_gold;
-    ch->gold 	+= share_gold + extra_gold;
 
     if (share_silver > 0)
     {
@@ -1739,36 +1730,14 @@ void do_split( CHAR_DATA *ch, char *argument )
  	    amount_silver,share_silver + extra_silver);
     }
 
-    if (share_gold > 0)
-    {
-	printf_to_char(ch,
-    "Sen %d altýn daðýttýn. Senin payýna %d altýn düþtü.\n\r",
-	     amount_gold,share_gold + extra_gold);
-    }
+    sprintf(buf,"$n %d akçe daðýttý. Senin payýna %d akçe düþtü.",amount_silver,share_silver);
 
-    if (share_gold == 0)
-    {
-	sprintf(buf,"$n %d akçe daðýttý. Senin payýna %d akçe düþtü.",
-		amount_silver,share_silver);
-    }
-    else if (share_silver == 0)
-    {
-	sprintf(buf,"$n %d altýn daðýttý. Senin payýna %d altýn düþtü.",
-		amount_gold,share_gold);
-    }
-    else
-    {
-	sprintf(buf,
-"$n %d akçe ve %d altýn daðýttý. Senin payýna %d akçe ve %d altýn düþtü.\n\r",
-	 amount_silver,amount_gold,share_silver,share_gold);
-    }
 
     for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
     {
 	if ( gch != ch && is_same_group(gch,ch) && !IS_AFFECTED(gch,AFF_CHARM))
 	{
 	    act( buf, ch, NULL, gch, TO_VICT );
-	    gch->gold += share_gold;
 	    gch->silver += share_silver;
 	}
     }
@@ -2088,7 +2057,7 @@ void do_remort( CHAR_DATA *ch, char *argument )
     char mkstr[MAX_INPUT_LENGTH];
     char pbuf[MAX_STRING_LENGTH];
     char name[MAX_STRING_LENGTH];
-    int bankg, banks, qp, silver, gold, old_tra, old_pra, rkp;
+    int banks, qp, silver, old_tra, old_pra, rkp;
 
     if ( IS_NPC(ch) || ( d = ch->desc ) == NULL )
         return;
@@ -2121,7 +2090,7 @@ ch->pcdata->confirm_remort = FALSE;
 	printf_to_char(ch,"Bu sýrada muddan koparsan veya mud çökerse:\n\r");
 	printf_to_char(ch,"    AYNI ÝSÝMLE YENÝ BÝR KARAKTER YARAT VE ÖLÜMSÜZLERE DURUMU BÝLDÝR.\n\r");
 	printf_to_char(ch,"Unutma ki, eski karaktere ait aþaðýdaki özellikler aynen korunur:\n\r");
-	printf_to_char(ch,"        bankadakiler dahil tüm altýn ve akçe\n\r");
+	printf_to_char(ch,"        bankadakiler dahil tüm akçe\n\r");
 	printf_to_char(ch,"        pratik, eðitim seanslarý ve görev puaný\n\r");
 	printf_to_char(ch,"Yeni yaþamýnda 6 yüzük takabileceksin.\n\r");
 	printf_to_char(ch,"             Ve fazladan 10 eðitim seansýn olacak.\n\r");
@@ -2132,10 +2101,8 @@ ch->pcdata->confirm_remort = FALSE;
 	sprintf( name, "%s", ch->name );
 	d = ch->desc;
 	banks	= ch->pcdata->bank_s;
-	bankg	= ch->pcdata->bank_g;
 	qp	= ch->pcdata->questpoints;
 	silver	= ch->silver;
-	gold	= ch->gold;
   old_tra = ch->train;
   old_pra = ch->practice;
   rkp = ch->pcdata->rk_puani;
@@ -2153,12 +2120,10 @@ ch->pcdata->confirm_remort = FALSE;
 
         /* give the remorting bonus */
 	ch->pcdata->bank_s += banks;
-	ch->pcdata->bank_g += bankg;
 	ch->silver	+= silver;
-	ch->gold	+= gold;
 	ch->pcdata->questpoints	+= qp;
   ch->practice += old_pra;
-	ch->train	+= (10 + old_tra);
+	ch->train	+= (5 + old_tra);
   ch->pcdata->rk_puani += rkp;
 
   write_to_buffer( d, "\n\r[Devam etmek için ENTER]\n\r",0);
@@ -2169,7 +2134,7 @@ ch->pcdata->confirm_remort = FALSE;
     printf_to_char(ch,"UYARI: bu komutun geri dönüþü yoktur.\n\r");
     printf_to_char(ch,"Yeniyaþam komutunu argümanla yazmak yeniyaþam durumunu iptal edecektir.\n\r");
     printf_to_char(ch,"Unutma ki, eski karaktere ait aþaðýdaki özellikler aynen korunur:\n\r");
-  	printf_to_char(ch,"        bankadakiler dahil tüm altýn ve akçe\n\r");
+  	printf_to_char(ch,"        bankadakiler dahil tüm akçe\n\r");
   	printf_to_char(ch,"        pratik, eðitim seanslarý ve görev puaný\n\r");
   	printf_to_char(ch,"Yeni yaþamýnda 6 yüzük takabileceksin.\n\r");
   	printf_to_char(ch,"             Ve fazladan 10 eðitim seansýn olacak.\n\r");

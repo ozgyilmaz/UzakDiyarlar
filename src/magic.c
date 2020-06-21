@@ -6306,7 +6306,7 @@ void spell_summon_earth_elm( int sn, int level, CHAR_DATA *ch, void *vo,int targ
   for (i=0; i < 3; i++)
     elm->armor[i] = interpolate(elm->level,100,-100);
   elm->armor[3] = interpolate(elm->level,100,0);
-  elm->gold = 0;
+  elm->silver = 0;
   elm->timer = 0;
   elm->damage[DICE_NUMBER] = 3;
   elm->damage[DICE_TYPE] = 10;
@@ -6393,7 +6393,7 @@ void spell_summon_air_elm( int sn, int level, CHAR_DATA *ch, void *vo,int target
   for (i=0; i < 3; i++)
     elm->armor[i] = interpolate(elm->level,100,-100);
   elm->armor[3] = interpolate(elm->level,100,0);
-  elm->gold = 0;
+  elm->silver = 0;
   elm->timer = 0;
   elm->damage[DICE_NUMBER] = 7;
   elm->damage[DICE_TYPE] = 4;
@@ -6469,7 +6469,7 @@ void spell_summon_water_elm( int sn, int level, CHAR_DATA *ch, void *vo,int targ
   for (i=0; i < 3; i++)
     elm->armor[i] = interpolate(elm->level,100,-100);
   elm->armor[3] = interpolate(elm->level,100,0);
-  elm->gold = 0;
+  elm->silver = 0;
   elm->timer = 0;
   elm->damage[DICE_NUMBER] = 8;
   elm->damage[DICE_TYPE] = 4;
@@ -6545,7 +6545,7 @@ void spell_summon_fire_elm( int sn, int level, CHAR_DATA *ch, void *vo,int targe
   for (i=0; i < 3; i++)
     elm->armor[i] = interpolate(elm->level,100,-100);
   elm->armor[3] = interpolate(elm->level,100,0);
-  elm->gold = 0;
+  elm->silver = 0;
   elm->timer = 0;
   elm->damage[DICE_NUMBER] = 11;
   elm->damage[DICE_TYPE] = 5;
@@ -6621,7 +6621,7 @@ void spell_summon_light_elm( int sn, int level, CHAR_DATA *ch, void *vo,int targ
   for (i=0; i < 3; i++)
     elm->armor[i] = interpolate(elm->level,100,-100);
   elm->armor[3] = interpolate(elm->level,100,0);
-  elm->gold = 0;
+  elm->silver = 0;
   elm->timer = 0;
   elm->damage[DICE_NUMBER] = 13;
   elm->damage[DICE_TYPE] = 9;
@@ -7009,7 +7009,7 @@ void spell_animate_object( int sn, int level, CHAR_DATA *ch, void *vo,int target
      mob->damage[DICE_BONUS] = number_range(level/10, level/8);
   }
   mob->sex = ch->sex;
-  mob->gold = 0;
+  mob->silver = 0;
   mob->master = mob->leader = ch;
   SET_BIT(mob->affected_by, AFF_CHARM);
 

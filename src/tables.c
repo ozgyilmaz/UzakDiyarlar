@@ -132,7 +132,7 @@ const struct flag_type plr_flags[] =
     {	"autoexit",		D,	FALSE	},
     {	"autoloot",		E,	FALSE	},
     {	"autosac",		F,	FALSE	},
-    {	"autogold",		G,	FALSE	},
+    {	"autoakce",		G,	FALSE	},
     {	"autosplit",		H,	FALSE	},
     {	"holylight",		N,	FALSE	},
     {	"can_loot",		P,	FALSE	},

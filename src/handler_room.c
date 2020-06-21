@@ -319,12 +319,14 @@ void affect_check_room(ROOM_INDEX_DATA *room,int where,int vector)
  void affect_join_room( ROOM_INDEX_DATA *room, AFFECT_DATA *paf )
  {
      AFFECT_DATA *paf_old;
+     int level;
 
      for ( paf_old = room->affected; paf_old != NULL; paf_old = paf_old->next )
      {
  	if ( paf_old->type == paf->type )
  	{
- 	    paf->level = (paf->level += paf_old->level) / 2;
+      level = (paf->level + paf_old->level) / 2;
+ 	    paf->level = (sh_int) level;
  	    paf->duration += paf_old->duration;
  	    paf->modifier += paf_old->modifier;
  	    affect_remove_room( room, paf_old );

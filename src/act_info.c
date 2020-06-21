@@ -148,7 +148,7 @@ char *format_obj_to_char( OBJ_DATA *obj, CHAR_DATA *ch, bool fShort )
     buf[0] = '\0';
     buf_con[0] = '\0';
 
-    if (obj->pIndexData->vnum > 5)	/* money, gold, etc */
+    if (obj->pIndexData->vnum > 5)	/* money  etc */
     	sprintf(buf_con," [%s%s%s]",
 		CLR_GREEN,
 		get_cond_alias(obj),
@@ -979,8 +979,8 @@ void do_autolist(CHAR_DATA *ch, char *argument)
     else
     send_to_char("KAPALI\n\r",ch);
 
-    send_to_char("otosikke         ",ch);
-    if (IS_SET(ch->act,PLR_AUTOGOLD))
+    send_to_char("otoakçe         ",ch);
+    if (IS_SET(ch->act,PLR_AUTOAKCE))
     send_to_char("AÇIK\n\r",ch);
     else
     send_to_char("KAPALI\n\r",ch);
@@ -1072,20 +1072,20 @@ void do_autoexit(CHAR_DATA *ch, char *argument)
     }
 }
 
-void do_autogold(CHAR_DATA *ch, char *argument)
+void do_autoakce(CHAR_DATA *ch, char *argument)
 {
     if (IS_NPC(ch))
       return;
 
-    if (IS_SET(ch->act,PLR_AUTOGOLD))
+    if (IS_SET(ch->act,PLR_AUTOAKCE))
     {
-      send_to_char("Otosikke kaldýrýldý.\n\r",ch);
-      REMOVE_BIT(ch->act,PLR_AUTOGOLD);
+      send_to_char("Otoakçe kaldýrýldý.\n\r",ch);
+      REMOVE_BIT(ch->act,PLR_AUTOAKCE);
     }
     else
     {
-      send_to_char("Otosikke açýldý.\n\r",ch);
-      SET_BIT(ch->act,PLR_AUTOGOLD);
+      send_to_char("Otoakçe açýldý.\n\r",ch);
+      SET_BIT(ch->act,PLR_AUTOAKCE);
     }
 }
 
@@ -1693,12 +1693,12 @@ void do_examine( CHAR_DATA *ch, char *argument )
 	case ITEM_MONEY:
 	    if (obj->value[0] == 0)
 	    {
-	        if (obj->value[1] == 0)
-          sprintf(buf,"Tuhaf...yýðýn içinde sikke yok.\n\r");
-		else if (obj->value[1] == 1)
-    sprintf(buf,"Vayy. Bir altýn.\n\r");
-		else
-    sprintf(buf,"Yýðýnda %d altýn var.\n\r",obj->value[1]);
+        if (obj->value[1] == 0)
+        sprintf(buf,"Tuhaf...yýðýn içinde akçe yok.\n\r");
+        else if (obj->value[1] == 1)
+        sprintf(buf,"Vayy. Bir akçe.\n\r");
+        else
+        sprintf(buf,"Yýðýnda %d akçe var.\n\r",obj->value[1]);
 	    }
 	    else if (obj->value[1] == 0)
 	    {
@@ -1709,7 +1709,7 @@ void do_examine( CHAR_DATA *ch, char *argument )
 	    }
 	    else
 		sprintf(buf,
-      "Yýðýnda %d altýn ve %d akçe var.\n\r",obj->value[1],obj->value[0]);
+      "Yýðýnda %d akçe var.\n\r",obj->value[1] + obj->value[0]);
 	    send_to_char(buf,ch);
 	    break;
 
@@ -1834,15 +1834,12 @@ void do_worth( CHAR_DATA *ch, char *argument )
 
     if (IS_NPC(ch))
     {
-      printf_to_char(ch,"%ld altýnýn ve %ld akçen var.\n\r",
-	    ch->gold,ch->silver);
-	send_to_char(buf,ch);
+      printf_to_char(ch,"%ld akçen var.\n\r",ch->silver);
 	return;
     }
 
     printf_to_char(ch,
-    "%ld altýnýn, %ld akçen ve %d Tecrübe Puanýn var (seviye atlamaya %d).\n\r",
-	ch->gold, ch->silver,ch->exp,
+    "%ld akçen ve %d Tecrübe Puanýn var (seviye atlamaya %d).\n\r",ch->silver,ch->exp,
 	(ch->level + 1) * exp_per_level(ch,ch->pcdata->points) - ch->exp);
     sprintf(buf,"Þimdiye kadar %3d %s and %3d %s öldürdün.\n\r",
 		ch->pcdata->has_killed,
@@ -1888,6 +1885,8 @@ void do_score( CHAR_DATA *ch, char *argument )
      printf_to_char(ch,"Bu komutla argüman kullanýlmaz.\n\r");
      return;
   }
+
+  victim = NULL;
 
   if(arg[0]!='\0' && IS_IMMORTAL(ch))
   {
@@ -1950,15 +1949,15 @@ void do_score( CHAR_DATA *ch, char *argument )
   printf_to_char(ch,"{c|{w%+12s%-30s{c                           |\n\r",(victim==NULL?ch:victim)->name,(victim==NULL?ch:victim)->pcdata->title);
   printf_to_char(ch,"{c|-------------------------,-------------------------------------------,{w\n\r");
   printf_to_char(ch,"{c| Irk     : {w%-13s{c | ZIRH         | PARA                       |\n\r",race_table[(victim==NULL?ch:victim)->race].name[1]);
-  printf_to_char(ch,"{c| Yaþ     : {w%-13d{c | Delici : {w%-4d{c| Altýn       : {w%-7ld{c      |\n\r",get_age(victim==NULL?ch:victim),GET_AC((victim==NULL?ch:victim),AC_PIERCE),(victim==NULL?ch:victim)->gold);
-  printf_to_char(ch,"{c| Cinsiyet: {w%-13s{c | Ezici  : {w%-4d{c| Akçe        : {w%-7ld{c      |\n\r",sex,GET_AC((victim==NULL?ch:victim),AC_BASH),(victim==NULL?ch:victim)->silver);
-  printf_to_char(ch,"{c| Sýnýf   : {w%-13s{c | Kesici : {w%-4d{c| Altýn(Banka): {w%-7ld{c      |\n\r",class_table[(victim==NULL?ch:victim)->iclass].name[1],GET_AC((victim==NULL?ch:victim),AC_SLASH),(victim==NULL?ch:victim)->pcdata->bank_g);
-  printf_to_char(ch,"{c| Yön/Etk : {w%-13s{c | Egzotik: {w%-4d{c| Akçe (Banka): {w%-7ld{c      |\n\r",yonelim_etik,GET_AC((victim==NULL?ch:victim),AC_EXOTIC),(victim==NULL?ch:victim)->pcdata->bank_s);
+  printf_to_char(ch,"{c| Yaþ     : {w%-13d{c | Delici : {w%-4d{c| Akçe        : {w%-7ld{c      |\n\r",get_age(victim==NULL?ch:victim),GET_AC((victim==NULL?ch:victim),AC_PIERCE),(victim==NULL?ch:victim)->silver);
+  printf_to_char(ch,"{c| Cinsiyet: {w%-13s{c | Ezici  : {w%-4d{c| Akçe (Banka): {w%-7ld{c      |\n\r",sex,GET_AC((victim==NULL?ch:victim),AC_BASH),(victim==NULL?ch:victim)->pcdata->bank_s);
+  printf_to_char(ch,"{c| Sýnýf   : {w%-13s{c | Kesici : {w%-4d{c|                            |\n\r",class_table[(victim==NULL?ch:victim)->iclass].name[1],GET_AC((victim==NULL?ch:victim),AC_SLASH));
+  printf_to_char(ch,"{c| Yön/Etk : {w%-13s{c | Egzotik: {w%-4d{c|                            |\n\r",yonelim_etik,GET_AC((victim==NULL?ch:victim),AC_EXOTIC));
   printf_to_char(ch,"{c| Doðum   : {w%-12s{c  |              |                            |\n\r",dogumGunu);
   printf_to_char(ch,"{c|-------------------------'--------------|----------------------------,{w\n\r");
   printf_to_char(ch,"{c| Yp    : {w%-7d/%-7d{c | Güç: {w%-2d(%-2d){c  | Pratik : {w%-3d{c               |\n\r",(victim==NULL?ch:victim)->hit,(victim==NULL?ch:victim)->max_hit,(victim==NULL?ch:victim)->perm_stat[STAT_STR],get_curr_stat((victim==NULL)?ch:victim,STAT_STR),((victim==NULL)?ch:victim)->practice);
   printf_to_char(ch,"{c| Mana  : {w%-7d/%-7d{c | Zek: {w%-2d(%-2d){c  | Eðitim : {w%-3d{c               |\n\r",(victim==NULL?ch:victim)->mana, (victim==NULL?ch:victim)->max_mana,(victim==NULL?ch:victim)->perm_stat[STAT_INT],get_curr_stat((victim==NULL?ch:victim),STAT_INT),(victim==NULL?ch:victim)->train);
-  printf_to_char(ch,"{c| Hp    : {w%-7d/%-7d{c | Bil: {w%-2d(%-2d){c  | GüvenS : {w%-3d{c               |\n\r",(victim==NULL?ch:victim)->move, (victim==NULL?ch:victim)->max_move,(victim==NULL?ch:victim)->perm_stat[STAT_WIS],get_curr_stat((victim==NULL?ch:victim),STAT_WIS),get_trust( (victim==NULL?ch:victim) ));
+  printf_to_char(ch,"{c| Hp    : {w%-7d/%-7d{c | Bil: {w%-2d(%-2d){c  |                                 |\n\r",(victim==NULL?ch:victim)->move, (victim==NULL?ch:victim)->max_move,(victim==NULL?ch:victim)->perm_stat[STAT_WIS],get_curr_stat((victim==NULL?ch:victim),STAT_WIS));
   printf_to_char(ch,"{c| Seviye: {w%-10d{c      | Çev: {w%-2d(%-2d){c  | Eþya   : {w%-3d / %-4d{c        |\n\r",(victim==NULL?ch:victim)->level,(victim==NULL?ch:victim)->perm_stat[STAT_DEX],get_curr_stat((victim==NULL?ch:victim),STAT_DEX),(victim==NULL?ch:victim)->carry_number, can_carry_n((victim==NULL?ch:victim)));
   printf_to_char(ch,"{c| Kalan : {w%-10d{c      | Bün: {w%-2d(%-2d){c  | Aðýrlýk: {w%-6ld / %-8d{c |\n\r",((victim==NULL?ch:victim)->level + 1) * exp_per_level((victim==NULL?ch:victim),(victim==NULL?ch:victim)->pcdata->points) - (victim==NULL?ch:victim)->exp,(victim==NULL?ch:victim)->perm_stat[STAT_CON],get_curr_stat((victim==NULL?ch:victim),STAT_CON),get_carry_weight((victim==NULL?ch:victim)), can_carry_w((victim==NULL?ch:victim)));
   printf_to_char(ch,"{c| TP    : {w%-12ld{c    | Kar: {w%-2d(%-2d){c  | GörevP : {w%-5d{c             |\n\r",(victim==NULL?ch:victim)->exp,(victim==NULL?ch:victim)->perm_stat[STAT_CHA],get_curr_stat((victim==NULL?ch:victim),STAT_CHA),(victim==NULL?ch:victim)->pcdata->questpoints);
@@ -2006,8 +2005,8 @@ void mob_score(CHAR_DATA *ch,CHAR_DATA *mob)
   printf_to_char(ch,"{c|                    | Kar: {w%-2d{c        | VZ     : {w%-4d {c|               |\n\r",mob->perm_stat[STAT_CHA],GET_HITROLL(mob));
 	printf_to_char(ch,"{c|--------------------|----------------|---------------'---------------'{x\n\r");
 	printf_to_char(ch,"{c| Yp    : {w%-5d/%-5d{c| Akçe : {w%-7ld {c|\n\r",mob->hit,  mob->max_hit,mob->silver);
-	printf_to_char(ch,"{c| Mana  : {w%-5d/%-5d{c| Altýn: {w%-7ld {c|\n\r",mob->mana, mob->max_mana,mob->gold);
-	printf_to_char(ch,"{c| Hp    : {w%-5d/%-5d{c| Beden: {w%-8d{c|\n\r",mob->move, mob->max_move,mob->size);
+	printf_to_char(ch,"{c| Mana  : {w%-5d/%-5d{c| Beden: {w%-8d{c|\n\r",mob->mana, mob->max_mana,mob->size);
+	printf_to_char(ch,"{c| Hp    : {w%-5d/%-5d{c|                |\n\r",mob->move, mob->max_move);
 	printf_to_char(ch,"{c| Seviye: {w%-7ld{c    |                |\n\r",mob->level);
 	printf_to_char(ch,"{c|--------------------'------------------'-----------------------------,{x\n\r");
   printf_to_char(ch,"{c| {wBaðýþýklýklar, Dayanýklýlýklar, Zayýflýklar{c                         |{x\n\r");
@@ -3436,7 +3435,7 @@ void do_bear_call( CHAR_DATA *ch, char *argument )
     bear->armor[i] = interpolate(bear->level,100,-100);
   bear->armor[3] = interpolate(bear->level,100,0);
   bear->sex = ch->sex;
-  bear->gold = 0;
+  bear->silver = 0;
 
   bear2 = create_mobile(bear->pIndexData, NULL);
   clone_mobile(bear,bear2);
@@ -3486,16 +3485,16 @@ void do_identify( CHAR_DATA *ch, char *argument )
 
     if (IS_IMMORTAL(ch))
     act( "$n sana bakýyor!\n\r", rch, obj, ch, TO_VICT );
-    else if (ch->gold < 1)
+    else if (ch->silver < 100)
        {
          act( "$n $p'yi tanýmlamaya devam ediyor.",
                rch, obj, 0, TO_ROOM );
-  	send_to_char(" En azýndan 1 altýnýn olmalý.\n\r", ch);
+  	send_to_char(" En azýndan 100 akçen olmalý.\n\r", ch);
        return;
        }
     else
        {
-       ch->gold -= 1;
+       ch->silver -= 100;
        send_to_char("Para kesen hafifliyor.\n\r", ch);
        }
 
@@ -3671,7 +3670,7 @@ void do_lion_call( CHAR_DATA *ch, char *argument )
     bear->armor[i] = interpolate(bear->level,100,-100);
   bear->armor[3] = interpolate(bear->level,100,0);
   bear->sex = ch->sex;
-  bear->gold = 0;
+  bear->silver = 0;
 
   bear2 = create_mobile(bear->pIndexData, NULL);
   clone_mobile(bear,bear2);

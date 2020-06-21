@@ -1906,11 +1906,11 @@ void do_mstat( CHAR_DATA *ch, char *argument )
 	IS_NPC(victim) ? "None" : religion_table[victim->religion].name);
     send_to_char(buf,ch);
     sprintf( buf,
-	"Lv: %d  Class: %s  Align: %s  Gold: %ld  Silver: %ld  Exp: %d\n\r",
+	"Lv: %d  Class: %s  Align: %s  Silver: %ld  Exp: %d\n\r",
 	victim->level,
 	IS_NPC(victim) ? "mobile" : class_table[victim->iclass].name[1],
 	buf2,
-	victim->gold, victim->silver, victim->exp );
+	victim->silver, victim->exp );
     send_to_char( buf, ch );
 
     sprintf(buf,"Armor: pierce: %d  bash: %d  slash: %d  magic: %d\n\r",
@@ -4505,7 +4505,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	send_to_char("  set char <name> <field> <value>\n\r",ch);
 	send_to_char( "  Field being one of:\n\r",			ch );
 	send_to_char( "    str int wis dex con cha sex class level rkp\n\r",ch );
-	send_to_char( "    race gold silver hp mana move practice align\n\r",	ch );
+	send_to_char( "    race silver hp mana move practice align\n\r",	ch );
 	send_to_char( "    train thirst drunk full hometown ethos\n\r",	ch );
 
 /*** Added By KIO ***/
@@ -4710,12 +4710,6 @@ void do_mset( CHAR_DATA *ch, char *argument )
     if ( !IS_NPC(victim) && !str_prefix( arg2, "rkp" ) )
     {
 	victim->pcdata->rk_puani += value;
-	return;
-    }
-
-    if ( !str_prefix( arg2, "gold" ) )
-    {
-	victim->gold = value;
 	return;
     }
 

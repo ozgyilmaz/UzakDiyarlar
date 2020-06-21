@@ -818,7 +818,7 @@ bool spec_thief( CHAR_DATA *ch )
 {
     CHAR_DATA *victim;
     CHAR_DATA *v_next;
-    long gold,silver;
+    long silver;
 
     if ( ch->position != POS_STANDING )
 	return FALSE;
@@ -843,10 +843,6 @@ bool spec_thief( CHAR_DATA *ch )
 	}
 	else
 	{
-	    gold = victim->gold * UMIN(number_range(1,20),ch->level / 2) / 100;
-	    gold = UMIN(gold, ch->level * ch->level * 10 );
-	    ch->gold     += gold;
-	    victim->gold -= gold;
 	    silver = victim->silver * UMIN(number_range(1,20),ch->level/2)/100;
 	    silver = UMIN(silver,ch->level*ch->level * 25);
 	    ch->silver	+= silver;
@@ -1115,7 +1111,7 @@ get_room_index(hometown_table[victim->hometown].recall[1]))
 bool spec_nasty( CHAR_DATA *ch )
 {
     CHAR_DATA *victim, *v_next;
-    long gold;
+    long silver;
 
     if (!IS_AWAKE(ch)) {
        return FALSE;
@@ -1147,13 +1143,13 @@ bool spec_nasty( CHAR_DATA *ch )
     {
       case 0:  act("$n para keseni yýrtýp atarak paranýn saçýlmasýna neden oluyor!",
                    ch, NULL, victim, TO_VICT);
-               act("$S para kesesini yýrtýyor ve altýnlarýný topluyorsun.",
+               act("$S para kesesini yýrtýyor ve akçelerini topluyorsun.",
                    ch, NULL, victim, TO_CHAR);
                act("$S para kesesi yýrtýlýyor!",
                      ch, NULL, victim, TO_NOTVICT);
-                 gold = victim->gold / 10;  /* steal 10% of his gold */
-                 victim->gold -= gold;
-                 ch->gold     += gold;
+                 silver = victim->silver / 2;  /* steal half of his silver */
+                 victim->silver -= silver;
+                 ch->silver     += silver;
                  return TRUE;
 
         case 1:  do_flee( ch, (char*)"");

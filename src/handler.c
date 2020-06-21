@@ -1446,12 +1446,14 @@ bool is_affected( CHAR_DATA *ch, int sn )
 void affect_join( CHAR_DATA *ch, AFFECT_DATA *paf )
 {
     AFFECT_DATA *paf_old;
+    int level;
 
     for ( paf_old = ch->affected; paf_old != NULL; paf_old = paf_old->next )
     {
 	if ( paf_old->type == paf->type )
 	{
-	    paf->level = (paf->level += paf_old->level) / 2;
+      level = (paf->level + paf_old->level) / 2;
+	    paf->level = (sh_int) level;
 	    paf->duration += paf_old->duration;
 	    paf->modifier += paf_old->modifier;
 	    affect_remove( ch, paf_old );
@@ -2239,24 +2241,9 @@ OBJ_DATA *get_obj_world( CHAR_DATA *ch, char *argument )
 
 void deduct_cost(CHAR_DATA *ch, int cost)
 {
-    int silver = 0, gold = 0;
 
-    silver = UMIN(ch->silver,cost);
+    ch->silver -= cost;
 
-    if (silver < cost)
-    {
-	gold = ((cost - silver + 99) / 100);
-	silver = cost - 100 * gold;
-    }
-
-    ch->gold -= gold;
-    ch->silver -= silver;
-
-    if (ch->gold < 0)
-    {
-	bug("deduct costs: gold %d < 0",ch->gold);
-	ch->gold = 0;
-    }
     if (ch->silver < 0)
     {
 	bug("deduct costs: silver %d < 0",ch->silver);
@@ -2266,37 +2253,22 @@ void deduct_cost(CHAR_DATA *ch, int cost)
 /*
  * Create a 'money' obj.
  */
-OBJ_DATA *create_money( int gold, int silver )
+OBJ_DATA *create_money( int silver )
 {
     char buf[MAX_STRING_LENGTH];
     OBJ_DATA *obj;
 
-    if ( gold < 0 || silver < 0 || (gold == 0 && silver == 0) )
+    if ( silver < 0 || silver == 0 )
     {
-	bug( "Create_money: zero or negative money.",UMIN(gold,silver));
-	gold = UMAX(1,gold);
+	bug( "Create_money: zero or negative money.",silver);
 	silver = UMAX(1,silver);
     }
 
-    if (gold == 0 && silver == 1)
+    if (silver == 1)
     {
 	obj = create_object( get_obj_index( OBJ_VNUM_SILVER_ONE ), 0 );
     }
-    else if (gold == 1 && silver == 0)
-    {
-	obj = create_object( get_obj_index( OBJ_VNUM_GOLD_ONE), 0 );
-    }
-    else if (silver == 0)
-    {
-        obj = create_object( get_obj_index( OBJ_VNUM_GOLD_SOME ), 0 );
-        sprintf( buf, obj->short_descr, gold );
-        free_string( obj->short_descr );
-        obj->short_descr        = str_dup( buf );
-        obj->value[1]           = gold;
-        obj->cost               = gold;
-	obj->weight		= gold/5;
-    }
-    else if (gold == 0)
+    else
     {
         obj = create_object( get_obj_index( OBJ_VNUM_SILVER_SOME ), 0 );
         sprintf( buf, obj->short_descr, silver );
@@ -2305,18 +2277,6 @@ OBJ_DATA *create_money( int gold, int silver )
         obj->value[0]           = silver;
         obj->cost               = silver;
 	obj->weight		= silver/20;
-    }
-
-    else
-    {
-	obj = create_object( get_obj_index( OBJ_VNUM_COINS ), 0 );
-	sprintf( buf, obj->short_descr, silver, gold );
-	free_string( obj->short_descr );
-	obj->short_descr	= str_dup( buf );
-	obj->value[0]		= silver;
-	obj->value[1]		= gold;
-	obj->cost		= 100 * gold + silver;
-	obj->weight		= gold / 5 + silver / 20;
     }
 
     return obj;
@@ -2727,7 +2687,6 @@ char *act_bit_name( int act_flags )
 	if (act_flags & ACT_NOALIGN	) strcat(buf, " no_align");
 	if (act_flags & ACT_NOPURGE	) strcat(buf, " no_purge");
 	if (act_flags & ACT_IS_HEALER	) strcat(buf, " healer");
-	if (act_flags & ACT_IS_CHANGER  ) strcat(buf, " changer");
 	if (act_flags & ACT_GAIN	) strcat(buf, " skill_train");
 	if (act_flags & ACT_UPDATE_ALWAYS) strcat(buf," update_always");
     }
@@ -2738,7 +2697,7 @@ char *act_bit_name( int act_flags )
 	if (act_flags & PLR_AUTOEXIT	) strcat(buf, " autoexit");
 	if (act_flags & PLR_AUTOLOOT	) strcat(buf, " autoloot");
 	if (act_flags & PLR_AUTOSAC	) strcat(buf, " autosac");
-	if (act_flags & PLR_AUTOGOLD	) strcat(buf, " autogold");
+	if (act_flags & PLR_AUTOAKCE	) strcat(buf, " autoakce");
 	if (act_flags & PLR_AUTOSPLIT	) strcat(buf, " autosplit");
 	if (act_flags & PLR_WANTED	) strcat(buf, " wanted");
 	if (act_flags & PLR_NO_TITLE	) strcat(buf, " no_title");

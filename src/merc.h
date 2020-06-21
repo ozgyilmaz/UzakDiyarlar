@@ -984,7 +984,6 @@ struct	kill_data
 #define ACT_IS_HEALER		(aa)
 #define ACT_GAIN		(bb)
 #define ACT_UPDATE_ALWAYS	(cc)
-#define ACT_IS_CHANGER		(dd)
 #define ACT_NOTRACK		(ee)
 
 /* damage classes */
@@ -1298,10 +1297,7 @@ struct	kill_data
  * Defined in #OBJECTS.
  */
 #define OBJ_VNUM_SILVER_ONE	      1
-#define OBJ_VNUM_GOLD_ONE	      2
-#define OBJ_VNUM_GOLD_SOME	      3
 #define OBJ_VNUM_SILVER_SOME	      4
-#define OBJ_VNUM_COINS		      5
 
 #define OBJ_VNUM_CORPSE_NPC	     10
 #define OBJ_VNUM_CORPSE_PC	     11
@@ -1812,7 +1808,7 @@ struct	kill_data
 #define PLR_AUTOEXIT		(D)
 #define PLR_AUTOLOOT		(E)
 #define PLR_AUTOSAC             (F)
-#define PLR_AUTOGOLD		(G)
+#define PLR_AUTOAKCE		(G)
 #define PLR_AUTOSPLIT		(H)
 // tanimi olmayan oyuncular
 #define PLR_NO_DESCRIPTION		(I)
@@ -2087,7 +2083,6 @@ struct	char_data
     bool		valid;
     char *		name;
     long		id;
-    sh_int		version;
     char *		short_descr;
     char *		long_descr;
     char *		description;
@@ -2113,7 +2108,6 @@ struct	char_data
     int			max_mana;
     int			move;
     int			max_move;
-    long		gold;
     long		silver;
     int			exp;
     long		act;
@@ -2193,7 +2187,6 @@ struct	pc_data
     char *		alias[MAX_ALIAS];
     char * 		alias_sub[MAX_ALIAS];
     long		bank_s;
-    long		bank_g;
     int			death;
     int			played;
     int			anti_killed;
@@ -2785,8 +2778,7 @@ extern sh_int  gsn_mental_knife;
 
 #define WAIT_STATE(ch, npulse)	((ch)->wait = IS_IMMORTAL((ch))?1:UMAX((ch)->wait, (npulse)))
 #define DAZE_STATE(ch, npulse)  ((ch)->daze = UMAX((ch)->daze, (npulse)))
-#define get_carry_weight(ch)	((ch)->carry_weight + (ch)->silver/10 +  \
-						      (ch)->gold * 2 / 5)
+#define get_carry_weight(ch)	((ch)->carry_weight + (ch)->silver/10 )
 /*
  * room macros
  */
@@ -3272,7 +3264,7 @@ OD *	get_obj_carry	args( ( CHAR_DATA *ch, char *argument ) );
 OD *	get_obj_wear	args( ( CHAR_DATA *ch, char *argument ) );
 OD *	get_obj_here	args( ( CHAR_DATA *ch, char *argument ) );
 OD *	get_obj_world	args( ( CHAR_DATA *ch, char *argument ) );
-OD *	create_money	args( ( int gold, int silver ) );
+OD *	create_money	args( ( int silver ) );
 int	get_obj_number	args( ( OBJ_DATA *obj ) );
 int	get_obj_realnumber	args( ( OBJ_DATA *obj ) );
 int	get_obj_weight	args( ( OBJ_DATA *obj ) );

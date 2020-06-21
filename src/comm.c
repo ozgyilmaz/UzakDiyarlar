@@ -1518,9 +1518,6 @@ void bust_a_prompt( CHAR_DATA *ch )
 	    sprintf(buf2, "%d",
 		IS_NPC(ch) ? 0 : exp_to_level(ch,ch->pcdata->points) );
 	    i = buf2; break;
-         case 'g' :
-            sprintf( buf2, "%ld", ch->gold);
-            i = buf2; break;
 	 case 's' :
 	    sprintf( buf2, "%ld", ch->silver);
 	    i = buf2; break;
@@ -1955,21 +1952,6 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	  log_string( log_buf );
 
 	  send_to_char("The gods frown upon your actions.\n\r",ch);
-	}
-
-	if (ch->version == 6)
-	{
-	    if (ch->iclass == CLASS_INVOKER
-		 || ch->iclass == CLASS_TRANSMUTER) /* warlock and witch */
-	    {
-		ch->practice += ch->level / 3;
-		do_help(ch, (char*)"new classes");
-	        write_to_buffer( d,
-		"What is your class (Invoker/Transmuter/Elementalist)? ", 0 );
-		d->connected = CON_NEW_CLASSES;
-		break;
-	    }
-
 	}
 
 	break;
@@ -2455,7 +2437,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	{
 	    int l, today, day;
 			SET_BIT(ch->act,PLR_AUTOEXIT);
-			SET_BIT(ch->act,PLR_AUTOGOLD);
+			SET_BIT(ch->act,PLR_AUTOAKCE);
 	    ch->level	= 1;
 	    ch->exp     = base_exp(ch,ch->pcdata->points);
 	    ch->hit	= ch->max_hit;
@@ -2567,21 +2549,21 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	do_look( ch, (char*)"auto" );
 
-	if (ch->gold > 10000 && !IS_IMMORTAL(ch))
+	if (ch->silver > 10000 && !IS_IMMORTAL(ch))
 	{
-	    sprintf(buf,"Ne yazık ki başkanın açacağı yeni bar için %ld altın vergi ödemeniz gerekiyor.\n\r",
-		(ch->gold - 10000) / 2);
+	    sprintf(buf,"Başkanın açacağı yeni bar için %ld akçe vergi ödemeniz gerekiyor.\n\r",
+		(ch->silver - 10000) / 2);
 	    send_to_char(buf,ch);
-	    ch->gold -= (ch->gold - 10000) / 2;
+	    ch->silver -= (ch->silver - 10000) / 2;
 	}
 
 
-	if (ch->pcdata->bank_g > 400000 && !IS_IMMORTAL(ch))
+	if (ch->pcdata->bank_s > 100000 && !IS_IMMORTAL(ch))
 	{
-		sprintf(buf,"Ne yazık ki sultanın savaş giderleri için %ld altın vergi ödemeniz gerekiyor.\n\r",
-		(ch->pcdata->bank_g - 400000) );
+		sprintf(buf,"Ne yazık ki sultanın savaş giderleri için %ld akçe vergi ödemeniz gerekiyor.\n\r",
+		(ch->pcdata->bank_s - 100000) / 10 );
 	    send_to_char(buf,ch);
-	    ch->pcdata->bank_g = 400000;
+	    ch->pcdata->bank_s -= (ch->pcdata->bank_s - 100000) / 10;
 	}
 
 

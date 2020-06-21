@@ -9,7 +9,7 @@
  * Discord : https://discord.gg/kXyZzv                                     *
  *                                                                         *
  ***************************************************************************/
- 
+
 #if defined(macintosh)
 #include <types.h>
 #include <time.h>
@@ -37,9 +37,9 @@ void do_zar (CHAR_DATA * ch, char *argument)
       printf_to_char (ch,"Kumarhanede deðilsin.\n\r");
       return;
     }
-	if (ch->gold < 5)
+	if (ch->silver < 5)
     {
-        printf_to_char (ch,"Zar oynamak için en az 5 altýna ihtiyacýn var.\n\r");
+        printf_to_char (ch,"Zar oynamak için en az 5 akçen ihtiyacýn var.\n\r");
         return;
     }
 
@@ -83,17 +83,17 @@ void do_zar (CHAR_DATA * ch, char *argument)
         return;
 	}
 	yatirilan=advatoi (arg2);
-	if(ch->gold<yatirilan)
+	if(ch->silver<yatirilan)
 	{
-		send_to_char ("Bu oyun lafla deðil altýnla oynanýr!\n\r", ch);
+		send_to_char ("Bu oyun lafla deðil akçeyle oynanýr!\n\r", ch);
         	return;
 	}
 	if( (yatirilan>50000)||(yatirilan<5) )
 	{
-		send_to_char ("Zar en az 5, en çok 50,000 altýnla oynanýr.\n\r", ch);
+		send_to_char ("Zar en az 5, en çok 50,000 akçeyle oynanýr.\n\r", ch);
         return;
 	}
-	ch->gold -= yatirilan;
+	ch->silver -= yatirilan;
 	ch_zar = 0;
 	mekanci_zar = 0;
 
@@ -115,8 +115,8 @@ void do_zar (CHAR_DATA * ch, char *argument)
     }
 	/* ch kazandý */
 	kazanc=2*yatirilan;
-    printf_to_char (ch, "%d altýn KAZANDIN.\n\r", yatirilan);
+    printf_to_char (ch, "%d akçe KAZANDIN.\n\r", yatirilan);
     act ("$n zar attý ve kazandý. Vay beee...\n\r", ch, NULL, NULL, TO_ROOM);
-    ch->gold += kazanc;
+    ch->silver += kazanc;
     return;
 }

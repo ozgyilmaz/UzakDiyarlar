@@ -37,22 +37,21 @@ int hitroll_damroll_hesapla(int level)
 
 int damage_dice_0(int level)
 {
-	int type, number, bonus;
+	int type, number;
+
 	type   = level*7/4;
 	number = UMIN(type/8 + 1, 5);
-	type   = UMAX(2, type/number);
-	bonus  = UMAX(0, level*9/4 - number*type);
 
 	return number;
 }
 
 int damage_dice_1(int level)
 {
-	int type, number, bonus;
+	int type, number;
+
 	type   = level*7/4;
 	number = UMIN(type/8 + 1, 5);
 	type   = UMAX(2, type/number);
-	bonus  = UMAX(0, level*9/4 - number*type);
 
 	return type;
 }
@@ -60,6 +59,7 @@ int damage_dice_1(int level)
 int damage_dice_2(int level)
 {
 	int type, number, bonus;
+
 	type   = level*7/4;
 	number = UMIN(type/8 + 1, 5);
 	type   = UMAX(2, type/number);

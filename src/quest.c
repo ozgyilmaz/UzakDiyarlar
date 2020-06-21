@@ -220,7 +220,6 @@ printf_to_char(ch, "{Cdesenli yüzük{x.......({ydesenli{x ).......{R750 gp{x\n\r"
 printf_to_char(ch, "{Coymalý yüzük{x........({yoymalý{x  ).......{R750 gp{x\n\r");
 printf_to_char(ch, "{Ckakmalý yüzük{x.......({ykakmalý{x ).......{R750 gp{x\n\r");
 printf_to_char(ch, "{Ctesti{x...............({ytesti{x   ).......{R500 gp{x\n\r");
-printf_to_char(ch, "{C350.000 altýn{x.......({yaltýn{x   ).......{R500 gp{x\n\r");
 printf_to_char(ch, "{C1 bünye puaný{x.......({ybünye{x   ).......{R250 gp{x\n\r");
 if ( ch->iclass == CLASS_SAMURAI )
 {
@@ -698,23 +697,6 @@ act_color( "$CGökyüzünde þimþekler çakýyor.$c",   ch, NULL,
 		return;
 	    }
 	}
-	else if (is_name(arg2, (char*)"altýn"))
-	{
-	    if (ch->pcdata->questpoints >= 500)
-	    {
-		ch->pcdata->questpoints -= 500;
-	        ch->gold += 350000;
-          act("$N $e 350.000 altýn veriyor.", ch, NULL, questman, TO_ROOM );
-          act( "$N sana 350.000 altýn veriyor.",   ch, NULL, questman, TO_CHAR );
-	        return;
-	    }
-	    else
-	    {
-		sprintf(buf, "Üzgünüm %s, bunun için yeterli görev puanýn yok.",ch->name);
-		do_tell_quest(ch,questman,buf);
-		return;
-	    }
-	}
 	else
 	{
     sprintf(buf, "Ondan bende yok, %s.",ch->name);
@@ -822,8 +804,7 @@ act ("$E görevi bitirdiðini haber veriyorsun.",ch, NULL, questman, TO_CHAR);
 		int reward=0, pointreward=0, pracreward=0,level;
 
 		level = ch->level;
-		reward = 100 + dice( level, 20);
-		reward = UMAX( 180 , reward );
+		reward = 10 + dice( level, 20);
 		pointreward = number_range(20,40);
 
 		if(IS_SET(ch->pcdata->dilek,DILEK_FLAG_GOREV))
@@ -840,7 +821,7 @@ act ("$E görevi bitirdiðini haber veriyorsun.",ch, NULL, questman, TO_CHAR);
 
     sprintf(buf, "Tebrikler!");
     do_tell_quest(ch,questman,buf);
-    sprintf(buf,"Karþýlýðýnda sana %d GP ve %d altýn veriyorum.",pointreward,reward);
+    sprintf(buf,"Karþýlýðýnda sana %d GP ve %d akçe veriyorum.",pointreward,reward);
 		do_tell_quest(ch,questman,buf);
 		if (chance(2))
 		{
@@ -861,7 +842,7 @@ act ("$E görevi bitirdiðini haber veriyorsun.",ch, NULL, questman, TO_CHAR);
 	        ch->pcdata->countdown = 0;
 	        ch->pcdata->questmob = 0;
 	        ch->pcdata->nextquest = number_range(1,4);
-		ch->gold += reward;
+		ch->silver += reward;
 		ch->pcdata->questpoints += pointreward;
 
 	        return;
@@ -1258,7 +1239,7 @@ CHAR_DATA * find_a_quest_mob( CHAR_DATA *ch )
     {
       continue;
     }
-    
+
     mob_count++;
     pQuestMob = (QUEST_INDEX_DATA *)alloc_mem(sizeof(*pQuestMob));
     pQuestMob->mob = victim;
@@ -1482,9 +1463,9 @@ if ( argument[0] == '\0' )
 		send_to_char("Vücudunda böyle bir bölge göremiyorum!\n\r",ch);
 		return;
 	}
-	if(ch->gold<((ch->level/2)+1))
+	if(ch->silver<((ch->level/2)+1))
 	{
-		send_to_char("Yeterli paran yok, bilgi veremem.\n\r",ch);
+		send_to_char("Yeterli akçen yok, bilgi veremem.\n\r",ch);
 		return;
 	}
 
@@ -1567,7 +1548,7 @@ if ( argument[0] == '\0' )
 		do_tell_quest(ch,questman,(char*)"Daha sonra tekrar uðra lütfen.");
 		return;
 	}
-	ch->gold -= (ch->level/2)+1;
+	ch->silver -= (ch->level/2)+1;
 	do_tell_quest(ch,questman,(char*)"Bir düþüneyim... Evet sanýrým birþeyler hatýrladým.");
 	do_tell_quest(ch,questman,(char*)"Bazý ekipmanlar hatýrlýyorum, senin giyebileceðin seviyede ekipmanlar.");
 

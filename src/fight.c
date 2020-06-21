@@ -1015,11 +1015,10 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 		    corpse && corpse->contains) /* exists and not empty */
 		  do_get( ch, (char*)"tümü ceset" );
 
-		if (IS_SET(ch->act,PLR_AUTOGOLD) &&
+		if (IS_SET(ch->act,PLR_AUTOAKCE) &&
 		    corpse && corpse->contains ) /* exists and not empty */
 		 {
 		  do_get(ch, (char*)"akçe ceset");
-		  do_get(ch, (char*)"altýn ceset");
 		}
 
 		if ( IS_SET(ch->act, PLR_AUTOSAC) )
@@ -1059,11 +1058,10 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 		    corpse && corpse->contains) /* exists and not empty */
 		  do_get( ch, (char*)"tümü ceset" );
 
-		if (IS_SET(ch->act,PLR_AUTOGOLD) &&
+		if (IS_SET(ch->act,PLR_AUTOAKCE) &&
 		    corpse && corpse->contains ) /* exists and not empty */
 		  {
 				do_get(ch, (char*)"akçe ceset");
-				do_get(ch, (char*)"altýn ceset");
 			}
 
 		if ( IS_SET(ch->act, PLR_AUTOSAC) )
@@ -1711,10 +1709,9 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 				do_get( ch, (char*)"tümü ceset" );
 			}
 
-			if (IS_SET(ch->act,PLR_AUTOGOLD) && corpse && corpse->contains ) /* exists and not empty */
+			if (IS_SET(ch->act,PLR_AUTOAKCE) && corpse && corpse->contains ) /* exists and not empty */
 			{
 				do_get(ch, (char*)"akçe ceset");
-				do_get(ch, (char*)"altýn ceset");
 			}
 
 			if ( ch->iclass == CLASS_VAMPIRE && ch->level > 10 && corpse)
@@ -2289,13 +2286,13 @@ void make_corpse( CHAR_DATA *ch )
 	name		= ch->short_descr;
 	corpse		= create_object(get_obj_index(OBJ_VNUM_CORPSE_NPC), 0);
 	corpse->timer	= number_range( 3, 6 );
-	if ( ch->gold > 0 || ch->silver > 0)
+	if ( ch->silver > 0)
 	  {
 	    if (IS_SET(ch->form,FORM_INSTANT_DECAY))
-	      obj_to_room( create_money( ch->gold, ch->silver), ch->in_room);
+	      obj_to_room( create_money( ch->silver), ch->in_room);
 	    else
-	      obj_to_obj( create_money( ch->gold, ch->silver ), corpse );
-	    ch->gold = 0;
+	      obj_to_obj( create_money( ch->silver ), corpse );
+	    ch->silver = 0;
 	}
 	corpse->from = str_dup(ch->short_descr);
 	corpse->cost = 0;
@@ -2318,10 +2315,9 @@ void make_corpse( CHAR_DATA *ch )
 	corpse->altar = hometown_table[ch->hometown].altar[i];
 	corpse->pit = hometown_table[ch->hometown].pit[i];
 
-	if ( ch->gold > 0 || ch->silver > 0)
+	if ( ch->silver > 0)
 	{
-	    obj_to_obj( create_money( ch->gold, ch->silver ), corpse );
-	    ch->gold = 0;
+	    obj_to_obj( create_money( ch->silver ), corpse );
 	    ch->silver = 0;
 	}
 	corpse->cost = 0;

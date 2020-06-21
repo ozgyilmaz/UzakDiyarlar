@@ -267,7 +267,6 @@ void spell_disintegrate( int sn, int level, CHAR_DATA *ch, void *vo, int target)
     if (tattoo != NULL)
       obj_from_char(tattoo);
 
-    victim->gold = 0;
     victim->silver = 0;
 
     for ( obj = victim->carrying; obj != NULL; obj = obj_next )
@@ -364,7 +363,6 @@ void spell_arz_yutagi( int sn, int level, CHAR_DATA *ch, void *vo, int target)
     if (tattoo != NULL)
       obj_from_char(tattoo);
 
-    victim->gold = 0;
     victim->silver = 0;
 
     for ( obj = victim->carrying; obj != NULL; obj = obj_next )
@@ -560,7 +558,7 @@ void spell_bear_call( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     bear->armor[i] = interpolate(bear->level,100,-100);
   bear->armor[3] = interpolate(bear->level,100,0);
   bear->sex = ch->sex;
-  bear->gold = 0;
+  bear->silver = 0;
 
   bear2 = create_mobile(bear->pIndexData, NULL);
   clone_mobile(bear,bear2);
@@ -801,7 +799,7 @@ void spell_demon_summon( int sn, int level, CHAR_DATA *ch, void *vo, int target 
   for (i=0; i < 3; i++)
     demon->armor[i] = interpolate(demon->level,100,-100);
   demon->armor[3] = interpolate(demon->level,100,0);
-  demon->gold = 0;
+  demon->silver = 0;
   demon->timer = 0;
   demon->damage[DICE_NUMBER] = number_range(level/15, level/12);
   demon->damage[DICE_TYPE] = number_range(level/3, level/2);
@@ -1085,7 +1083,7 @@ void spell_guard_call( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     guard->armor[i] = interpolate(guard->level,100,-200);
   guard->armor[3] = interpolate(guard->level,100,-100);
   guard->sex = ch->sex;
-  guard->gold = 0;
+  guard->silver = 0;
   guard->timer = 0;
 
   guard->damage[DICE_NUMBER] = number_range(level/16, level/12);
@@ -1168,7 +1166,7 @@ void spell_nightwalker( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   for (i=0; i < 3; i++)
     walker->armor[i] = interpolate(walker->level,100,-100);
   walker->armor[3] = interpolate(walker->level,100,0);
-  walker->gold = 0;
+  walker->silver = 0;
   walker->timer = 0;
   walker->damage[DICE_NUMBER] = number_range(level/15, level/10);
   walker->damage[DICE_TYPE]   = number_range(level/3, level/2);
@@ -1891,7 +1889,7 @@ void spell_stalker( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   for (i=0; i < 3; i++)
     stalker->armor[i] = interpolate(stalker->level,100,-100);
   stalker->armor[3] = interpolate(stalker->level,100,0);
-  stalker->gold = 0;
+  stalker->silver = 0;
   stalker->invis_level = LEVEL_IMMORTAL;
   stalker->detection = (A|B|C|D|E|F|G|H|ee);
   stalker->affected_by = (H|J|N|O|U|V|aa|cc);
@@ -2144,7 +2142,7 @@ void spell_shadowlife( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     shadow->armor[i] = interpolate(shadow->level,100,-100);
   shadow->armor[3] = interpolate(shadow->level,100,0);
   shadow->sex = victim->sex;
-  shadow->gold = 0;
+  shadow->silver = 0;
 
   name		= IS_NPC(victim) ? victim->short_descr : victim->name;
   sprintf( buf, shadow->short_descr, name );
@@ -2442,7 +2440,7 @@ void spell_squire( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   for (i=0; i < 3; i++)
     squire->armor[i] = interpolate(squire->level,100,-100);
   squire->armor[3] = interpolate(squire->level,100,0);
-  squire->gold = 0;
+  squire->silver = 0;
 
   sprintf( buf, squire->short_descr, ch->name );
   free_string( squire->short_descr );
@@ -3213,7 +3211,7 @@ void spell_animate_dead(int sn,int level, CHAR_DATA *ch, void *vo,int target )
   undead->damage[DICE_TYPE] = number_range(level/6, level/3);
   undead->damage[DICE_BONUS] = number_range(level/12, level/10);
   undead->sex = ch->sex;
-  undead->gold = 0;
+  undead->silver = 0;
 
   SET_BIT(undead->act, ACT_UNDEAD);
   SET_BIT(undead->affected_by, AFF_CHARM);
@@ -3784,7 +3782,7 @@ void spell_lion_help ( int sn, int level, CHAR_DATA *ch, void *vo , int target)
     lion->armor[i] = interpolate(lion->level,100,-100);
   lion->armor[3] = interpolate(lion->level,100,0);
   lion->sex = ch->sex;
-  lion->gold = 0;
+  lion->silver = 0;
   lion->damage[DICE_NUMBER] = number_range(level/15, level/10);
   lion->damage[DICE_TYPE] = number_range(level/3, level/2);
   lion->damage[DICE_BONUS] = number_range(level/8, level/6);
@@ -4370,7 +4368,7 @@ void spell_wolf( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   for (i=0; i < 3; i++)
     demon->armor[i] = interpolate(demon->level,100,-100);
   demon->armor[3] = interpolate(demon->level,100,0);
-  demon->gold = 0;
+  demon->silver = 0;
   demon->timer = 0;
   demon->damage[DICE_NUMBER] = number_range(level/15, level/10);
   demon->damage[DICE_TYPE] = number_range(level/3, level/2);
@@ -4859,7 +4857,7 @@ void spell_lesser_golem( int sn, int level, CHAR_DATA *ch, void *vo, int target 
   for (i=0; i < 3; i++)
     golem->armor[i] = interpolate(golem->level,100,-100);
   golem->armor[3] = interpolate(golem->level,100,0);
-  golem->gold = 0;
+  golem->silver = 0;
   golem->timer = 0;
   golem->damage[DICE_NUMBER] = 3;
   golem->damage[DICE_TYPE] = 10;
@@ -4935,7 +4933,7 @@ void spell_stone_golem( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   for (i=0; i < 3; i++)
     golem->armor[i] = interpolate(golem->level,100,-100);
   golem->armor[3] = interpolate(golem->level,100,0);
-  golem->gold = 0;
+  golem->silver = 0;
   golem->timer = 0;
   golem->damage[DICE_NUMBER] = 8;
   golem->damage[DICE_TYPE] = 4;
@@ -5007,7 +5005,7 @@ void spell_iron_golem( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   for (i=0; i < 3; i++)
     golem->armor[i] = interpolate(golem->level,100,-100);
   golem->armor[3] = interpolate(golem->level,100,0);
-  golem->gold = 0;
+  golem->silver = 0;
   golem->timer = 0;
   golem->damage[DICE_NUMBER] = 11;
   golem->damage[DICE_TYPE] = 5;
@@ -5079,7 +5077,7 @@ void spell_adamantite_golem( int sn, int level, CHAR_DATA *ch, void *vo, int tar
   for (i=0; i < 3; i++)
     golem->armor[i] = interpolate(golem->level,100,-100);
   golem->armor[3] = interpolate(golem->level,100,0);
-  golem->gold = 0;
+  golem->silver = 0;
   golem->timer = 0;
   golem->damage[DICE_NUMBER] = 13;
   golem->damage[DICE_TYPE] = 9;
@@ -5676,7 +5674,7 @@ void spell_summon_shadow( int sn, int level, CHAR_DATA *ch, void *vo, int target
   for (i=0; i < 3; i++)
     shadow->armor[i] = interpolate(shadow->level,100,-100);
   shadow->armor[3] = interpolate(shadow->level,100,0);
-  shadow->gold = 0;
+  shadow->silver = 0;
   shadow->timer = 0;
   shadow->damage[DICE_NUMBER] = number_range(level/15, level/10);
   shadow->damage[DICE_TYPE] = number_range(level/3, level/2);
@@ -6014,7 +6012,7 @@ void spell_guard_dogs( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   for (i=0; i < 3; i++)
     dog->armor[i] = interpolate(dog->level,100,-100);
   dog->armor[3] = interpolate(dog->level,100,0);
-  dog->gold = 0;
+  dog->silver = 0;
   dog->timer = 0;
   dog->damage[DICE_NUMBER] = number_range(level/15, level/12);
   dog->damage[DICE_TYPE] = number_range(level/3, level/2);
@@ -6384,7 +6382,7 @@ void spell_mummify( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   undead->damage[DICE_TYPE] = number_range(undead->level/6, undead->level/3);
   undead->damage[DICE_BONUS] = number_range(undead->level/12, undead->level/10);
   undead->sex = ch->sex;
-  undead->gold = 0;
+  undead->silver = 0;
 
   SET_BIT(undead->act, ACT_UNDEAD);
   SET_BIT(undead->affected_by, AFF_CHARM);

@@ -632,21 +632,15 @@ void boot_db( void )
 	Serarea = NULL;
     }
 
-    /*
-     * Fix up exits.
-     * Declare db booting over.
-     * Reset all areas once.
-     * Load up the songs, notes and ban files.
-     */
     {
-	fix_exits( );
-        load_limited_objects();
-        sprintf(buf,"Total non-immortal levels > 5: %li",total_levels);
-        log_string(buf);
+      fix_exits( );
+      load_limited_objects();
+      sprintf(buf,"Total non-immortal levels > 5: %li",total_levels);
+      log_string(buf);
 
-	fBootDb	= FALSE;
-	area_update( );
-	load_bans();
+      fBootDb	= FALSE;
+      area_update( );
+      load_bans();
     }
 
     return;
@@ -1852,8 +1846,6 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex , AREA_DATA *	pArea)
     mob->cabal		= CABAL_NONE;
     mob->iclass		= CLASS_CLERIC;
 
-
-    mob->gold = number_range(mob->level/5,mob->level*2);
     mob->silver = number_range(mob->level/5,mob->level*2);
 
   mob->act 		= pMobIndex->act | ACT_IS_NPC;
@@ -2040,7 +2032,6 @@ void clone_mobile(CHAR_DATA *parent, CHAR_DATA *clone)
 
     /* start fixing values */
     clone->name 	= str_dup(parent->name);
-    clone->version	= parent->version;
     clone->short_descr	= str_dup(parent->short_descr);
     clone->long_descr	= str_dup(parent->long_descr);
     clone->description	= str_dup(parent->description);
@@ -2057,7 +2048,6 @@ void clone_mobile(CHAR_DATA *parent, CHAR_DATA *clone)
     clone->max_mana	= parent->max_mana;
     clone->move		= parent->move;
     clone->max_move	= parent->max_move;
-    clone->gold		= parent->gold;
     clone->silver	= parent->silver;
     clone->exp		= parent->exp;
     clone->act		= parent->act;
@@ -3659,11 +3649,11 @@ void load_olimits(FILE *fp)
  */
 void load_limited_objects()
 {
-#if defined(linux)
+  #if defined(linux)
   struct dirent *dp;
-#else
+  #else
   struct direct *dp;
-#endif
+  #endif
 
   int i;
   DIR *dirp;
@@ -3677,101 +3667,111 @@ void load_limited_objects()
 
   total_levels = 0;
 
-
   if ( (dirp = opendir(PLAYER_DIR)) == NULL)
-    {
-      bug("Load_limited_objects: unable to open player directory.",0);
-      exit(1);
-    }
+  {
+    bug("Load_limited_objects: unable to open player directory.",0);
+    exit(1);
+  }
 
   for (dp = readdir(dirp); dp != NULL; dp = readdir(dirp) )
+  {
+    if (strlen(dp->d_name) >= 3)
     {
-      if (strlen(dp->d_name) >= 3)
+      sprintf(buf, "%s/",PLAYER_DIR);
+      strcat(buf, dp->d_name);
+      fReadLevel = FALSE;
+      tplayed = 0;
+
+      if ( (pfile = fopen(buf, "r")) == NULL)
       {
-	sprintf(buf, "%s/",PLAYER_DIR);
-	strcat(buf, dp->d_name);
-	fReadLevel = FALSE;
-	tplayed = 0;
+        bug("Load_limited_objects: Can't open player file.",0);
+      }
+      else
+      {
+        for (letter = fread_letter(pfile);letter != EOF;letter = fread_letter(pfile) )
+        {
+          if (letter == 'L')
+          {
+            if (!fReadLevel)
+            {
+              word = fread_word(pfile);
 
-	if ( (pfile = fopen(buf, "r")) == NULL)
-	    bug("Load_limited_objects: Can't open player file.",0);
-	else
-	{
-	  for (letter = fread_letter(pfile);letter != EOF;
-		   letter = fread_letter(pfile) )
-	  {
-	    if (letter == 'L')
-	    {
-		if (!fReadLevel)
-		{
-		  word = fread_word(pfile);
+              if (!str_cmp(word, "evl") || !str_cmp(word,"ev") || !str_cmp(word, "evel"))
+              {
+                i = fread_number(pfile);
+                fReadLevel = TRUE;
+                total_levels += UMAX(0,i - 5);
+                sprintf(log_buf,"[%s]'s file +: %d\n\r",buf, UMAX(0,i-5));
+                dump_to_scr(log_buf);
+                continue;
+              }
+            }
+          }
+          else if (letter == 'P')
+          {
+            word = fread_word(pfile);
 
-		  if (!str_cmp(word, "evl") || !str_cmp(word,"ev")
-			|| !str_cmp(word, "evel"))
-		  {
-			i = fread_number(pfile);
-			fReadLevel = TRUE;
-			total_levels += UMAX(0,i - 5);
-		sprintf(log_buf,"[%s]'s file +: %d\n\r",buf, UMAX(0,i-5));
-			dump_to_scr(log_buf);
-			continue;
-		  }
-	        }
-	     }
-	    else if (letter == 'P')
-	    {
-		  word = fread_word(pfile);
+            if (!str_cmp(word, "layLog") )
+            {
+              int d, t;
+              int today = parse_date( current_time );
 
-		  if (!str_cmp(word, "layLog") )
-		  {
-		    int d, t;
-		    int today = parse_date( current_time );
-
-		    fread_number(pfile);	/* read the version */
-		    while (1)
-	 	    {
-			if ( (d = fread_number(pfile)) < 0 ) break;
-			t = fread_number(pfile);
-			if ( today > 14 )
-			{
-			  if (d <= today && d > (today - 14)) tplayed += t;
-			}
-			else
-			{
-			  if ( d < today ) d+= 365;
-			  if (d<=(today + 365) && d>(today + 351)) tplayed += t;
-			}
-                    }
-
-	        }
-	     }
-	     else if (letter == '#')
-	     {
-		word = fread_word(pfile);
-		if (!str_cmp(word, "O") || !str_cmp(word, "OBJECT"))
-		{
-		  if ( tplayed < MIN_TIME_LIMIT )
-		  {
-			sprintf(log_buf,
-			  "Discarding the player %s for limited equipments!.\n",
-			  buf);
-			dump_to_scr( log_buf );
-			break;
-		  }
-		  fread_word(pfile);
-		  fBootDb = FALSE;
-		  vnum = fread_number(pfile);
-		  if (get_obj_index(vnum) != NULL)
-		  	get_obj_index(vnum)->count++;
-		  fBootDb = TRUE;
-		}
-	     }
-	     else fread_to_eol(pfile);
-	   }
-           fclose(pfile);
-	}
+              fread_number(pfile);	/* read the version */
+              while (1)
+              {
+                if ( (d = fread_number(pfile)) < 0 )
+                {
+                  break;
+                }
+                t = fread_number(pfile);
+                if ( today > 14 )
+                {
+                  if (d <= today && d > (today - 14))
+                  {
+                    tplayed += t;
+                  }
+                }
+                else
+                {
+                  if ( d < today )
+                  {
+                    d+= 365;
+                  }
+                  if (d<=(today + 365) && d>(today + 351))
+                  {
+                    tplayed += t;
+                  }
+                }
+              }
+            }
+          }
+          else if (letter == '#')
+          {
+            word = fread_word(pfile);
+            if (!str_cmp(word, "O") || !str_cmp(word, "OBJECT"))
+            {
+              if ( tplayed < MIN_TIME_LIMIT )
+              {
+                sprintf(log_buf,"Discarding the player %s for limited equipments!.\n",buf);
+                dump_to_scr( log_buf );
+                break;
+              }
+              fread_word(pfile);
+              fBootDb = FALSE;
+              vnum = fread_number(pfile);
+              if (get_obj_index(vnum) != NULL)
+              {
+                get_obj_index(vnum)->count++;
+              }
+              fBootDb = TRUE;
+            }
+          }
+          else fread_to_eol(pfile);
+        }
+        fclose(pfile);
       }
     }
+  }
   closedir(dirp);
 }
 

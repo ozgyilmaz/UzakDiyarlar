@@ -326,7 +326,7 @@ void oprog_set(OBJ_INDEX_DATA *objindex,const char *progtype, const char *name)
      }
 
    /*
-    * returning TRUE prevents destruction, gives player gold
+    * returning TRUE prevents destruction
     */
    if (!str_cmp(progtype, "sac_prog"))
      {
@@ -571,7 +571,7 @@ bool sac_prog_excalibur(OBJ_DATA *obj, CHAR_DATA *ch)
   damage(ch,ch,
 	 (ch->hit - 1) > 1000? 1000 : (ch->hit - 1),
 	 TYPE_HIT,DAM_HOLY, TRUE);
-  ch->gold = 0;
+  ch->silver = 0;
   return TRUE;
 }
 
@@ -692,7 +692,7 @@ bool sac_prog_cabal_item(OBJ_DATA *obj, CHAR_DATA *ch)
   act("Ölümsüzler çileden çýktý!",ch,NULL,NULL,TO_CHAR);
   act("Ölümsüzler çileden çýktý!",ch,NULL,NULL,TO_ROOM);
   damage(ch,ch,(int)(ch->hit/10),TYPE_HIT,DAM_HOLY, TRUE);
-  ch->gold = 0;
+  ch->silver = 0;
 
   obj_from_room(obj);
   for(i=0;i<MAX_CABAL;i++)

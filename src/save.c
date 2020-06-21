@@ -239,22 +239,8 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
 
     fprintf( fp, "HMV  %d %d %d\n", ch->hit, ch->mana, ch->move );
 
-    if (ch->gold > 0)
-      fprintf( fp, "Gold %ld\n",	ch->gold		);
-    else
-      fprintf( fp, "Gold %d\n", 0			);
-    if (ch->silver > 0)
 	fprintf( fp, "Silv %ld\n",ch->silver		);
-    else
-	fprintf( fp, "Silv %d\n",0			);
-    if (ch->pcdata->bank_s > 0)
-    	fprintf( fp, "Banks %ld\n", ch->pcdata->bank_s );
-    else
-    	fprintf( fp, "Banks %ld\n", ch->pcdata->bank_s );
-    if (ch->pcdata->bank_g > 0)
-    	fprintf( fp, "Bankg %ld\n", ch->pcdata->bank_g );
-    else
-    	fprintf( fp, "Bankg %ld\n", ch->pcdata->bank_g );
+  fprintf( fp, "Banks %ld\n", ch->pcdata->bank_s );
 	fprintf( fp, "Dilek %s\n", 	print_flags(ch->pcdata->dilek)	);
     fprintf( fp, "Exp  %d\n",	ch->exp			);
     if (ch->act != 0)
@@ -448,8 +434,6 @@ void fwrite_pet( CHAR_DATA *pet, FILE *fp)
     	fprintf(fp,"Levl %d\n", pet->level);
     fprintf(fp, "HMV  %d %d %d %d %d %d\n",
     	pet->hit, pet->max_hit, pet->mana, pet->max_mana, pet->move, pet->max_move);
-    if (pet->gold > 0)
-    	fprintf(fp,"Gold %ld\n",pet->gold);
     if (pet->silver > 0)
 	fprintf(fp,"Silv %ld\n",pet->silver);
     if (pet->exp > 0)
@@ -839,38 +823,6 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
 	    REMOVE_BIT(ch->pcdata->time_flag, TLP_NOLOG);
 	}
 
-	/* fix levels */
-	if (ch->version < 3 && (ch->level > 35 || ch->trust > 35))
-	{
-	    switch (ch->level)
-	    {
-		case(40) : ch->level = MAX_LEVEL; break;  /* imp -> imp */
-		case(39) : ch->level = MAX_LEVEL - 2; break;/* god -> supreme */
-		case(38) : ch->level = MAX_LEVEL - 4; break;/* deity -> god */
-		case(37) : ch->level = MAX_LEVEL - 7; break;/* angel->demigod */
-	    }
-
-            switch (ch->trust)
-            {
-		case(40) : ch->trust = MAX_LEVEL; break;/* imp -> imp */
-		case(39) : ch->trust = MAX_LEVEL - 2; break;/* god -> supreme */
-		case(38) : ch->trust = MAX_LEVEL - 4; break;/* deity -> god */
-		case(37) : ch->trust = MAX_LEVEL - 7; break;/* angel->demigod */
-		case(36) : ch->trust = LEVEL_HERO; break;/* hero -> hero */
-            }
-	}
-
-	/* ream gold */
-	if (ch->version < 4)
-	{
-	    ch->gold   /= 100;
-	}
-
-	/* anatolia 3.0 class adjustment to be compatible with old versions */
-	if (ch->version == 6)
-	{
-    sprintf(log_buf, "%s bir Uzak Diyarlar oyuncusu deðil.", ch->name);
-	}
     }
 
     return found;
@@ -901,14 +853,13 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
     bool fMatch;
     bool fPlayLog = FALSE;
     int count = 0;
-    int lastlogoff = current_time;
-    long dev_null;
+    long tmp_silver;
 
 
     sprintf(buf,"Karakter yukleme: %s.",ch->name);
     log_string(buf);
     ch->pcdata->bank_s = 0;
-    ch->pcdata->bank_g = 0;
+    tmp_silver = 0;
     ch->pcdata->ghost_mode_counter = 0;
 
     for ( ; ; )
@@ -925,8 +876,12 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 
 	case 'A':
 	    KEY( "Act",		ch->act,		fread_flag( fp ) );
-	    KEY( "AffectedBy",	dev_null,		fread_flag( fp ) );
-	    KEY( "AfBy",	dev_null,		fread_flag( fp ) );
+      if (!str_cmp( word, "AffectedBy") || !str_cmp( word, "AfBy"))
+      {
+        fread_flag( fp );
+        fMatch = TRUE;
+        break;
+      }
 	    KEY( "Alignment",	ch->alignment,		fread_number( fp ) );
 	    KEY( "Alig",	ch->alignment,		fread_number( fp ) );
 	    KEY( "AntKilled",	ch->pcdata->anti_killed,fread_number( fp ) );
@@ -1033,7 +988,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	    {
 		int stat;
 		for (stat = 0; stat < MAX_STATS; stat ++)
-		   dev_null = fread_number(fp);
+		   fread_number(fp);
 		fMatch = TRUE;
 		break;
 	    }
@@ -1051,8 +1006,20 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 
 	case 'B':
 	    KEY( "Bamfin",	ch->pcdata->bamfin,	fread_string( fp ) );
-            KEY( "Banks",        ch->pcdata->bank_s,       fread_number( fp ) );
-            KEY( "Bankg",        ch->pcdata->bank_g,       fread_number( fp ) );
+      if ( !str_cmp( word, "Bankg" ) )
+      {
+        tmp_silver = fread_number( fp );
+        ch->pcdata->bank_s += tmp_silver;
+        fMatch = TRUE;
+        break;
+      }
+      if ( !str_cmp( word, "Banks" ) )
+      {
+        tmp_silver = fread_number( fp );
+        ch->pcdata->bank_s += tmp_silver;
+        fMatch = TRUE;
+        break;
+      }
 	    KEY( "Bamfout",	ch->pcdata->bamfout,	fread_string( fp ) );
 	    KEY( "Bin",		ch->pcdata->bamfin,	fread_string( fp ) );
       KEY( "Birth",	ch->pcdata->birth_time,	fread_number( fp ) );
@@ -1097,12 +1064,21 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	    break;
 
 	case 'D':
-	    KEY( "Damroll",	dev_null,		fread_number( fp ) );
-	    KEY( "Dam",		dev_null,		fread_number( fp ) );
+      if (!str_cmp(word,"Damroll") || !str_cmp(word,"Dam"))
+      {
+        fread_number( fp );
+        fMatch = TRUE;
+        break;
+      }
 	    KEY( "Description",	ch->description,	fread_string( fp ) );
 	    KEY( "Desc",	ch->description,	fread_string( fp ) );
 	    KEY( "Dead",	ch->pcdata->death,	fread_number( fp ) );
-    	    KEY( "Detect",	dev_null,		fread_flag(fp)     );
+      if (!str_cmp(word,"Detect"))
+      {
+        fread_flag(fp);
+        fMatch = TRUE;
+        break;
+      }
 		KEY( "Dilek",	ch->pcdata->dilek, 		fread_flag( fp)	  );
     KEY( "DinPuani",   ch->pcdata->din_puani,fread_number( fp) );
 	    break;
@@ -1110,21 +1086,6 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	case 'E':
 	    if ( !str_cmp( word, "End" ) )
 	    {
-    		/* adjust hp mana move up  -- here for speed's sake
-		int percent;
-
-    		percent = (current_time - lastlogoff) * 25 / ( 2 * 60 * 60);
-
-		percent = UMIN(percent,100);
-
-    		if (percent > 0 && !IS_AFFECTED(ch,AFF_POISON)
-    		&&  !IS_AFFECTED(ch,AFF_PLAGUE))
-    		{
-        	    ch->hit	+= (ch->max_hit - ch->hit) * percent / 100;
-        	    ch->mana    += (ch->max_mana - ch->mana) * percent / 100;
-        	    ch->move    += (ch->max_move - ch->move)* percent / 100;
-    		}
-		*/
    		ch->played = ch->pcdata->played;
 
 		/* if this is an old player, give some played time */
@@ -1159,17 +1120,27 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 
 	case 'G':
       KEY( "GhostCounter",	ch->pcdata->ghost_mode_counter,		fread_number( fp ) );
-	    KEY( "Gold",	ch->gold,		fread_number( fp ) );
-            if ( !str_cmp( word, "Group" )  || !str_cmp(word,"Gr"))
-            {
-                fread_word( fp ) ;
-                fMatch = TRUE;
-            }
+      if ( !str_cmp( word, "Gold" ) )
+      {
+        tmp_silver = fread_number( fp );
+        ch->silver += tmp_silver;
+        fMatch = TRUE;
+        break;
+      }
+      if ( !str_cmp( word, "Group" )  || !str_cmp(word,"Gr"))
+      {
+          fread_word( fp ) ;
+          fMatch = TRUE;
+      }
 	    break;
 
 	case 'H':
-	    KEY( "Hitroll",	dev_null,		fread_number( fp ) );
-	    KEY( "Hit",		dev_null,		fread_number( fp ) );
+      if (!str_cmp(word,"Hitroll") || !str_cmp(word,"Hit"))
+      {
+        fread_number(fp);
+        fMatch = TRUE;
+        break;
+      }
 	    KEY( "Home",	ch->hometown,		fread_number( fp ) );
 	    KEY( "Haskilled",	ch->pcdata->has_killed, fread_number( fp ) );
 
@@ -1206,7 +1177,12 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	    KEY( "Level",	ch->level,		fread_number( fp ) );
 	    KEY( "Lev",		ch->level,		fread_number( fp ) );
 	    KEY( "Levl",	ch->level,		fread_number( fp ) );
-	    KEY( "LogO",	lastlogoff,		fread_number( fp ) );
+      if ( !str_cmp( word, "LogO" ) )
+      {
+        fread_number( fp );
+        fMatch = TRUE;
+        break;
+      }
 	    KEY( "LongDescr",	ch->long_descr,		fread_string( fp ) );
 	    KEY( "LnD",		ch->long_descr,		fread_string( fp ) );
 	    break;
@@ -1293,13 +1269,23 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	    break;
 
 	case 'S':
-	    KEY( "SavingThrow",	dev_null,		fread_number( fp ) );
-	    KEY( "Save",	dev_null,		fread_number( fp ) );
+      if (!str_cmp(word,"SavingThrow") || !str_cmp(word,"Save"))
+      {
+        fread_number(fp);
+        fMatch = TRUE;
+        break;
+      }
 	    KEY( "Scro",	ch->lines,		fread_number( fp ) );
 	    KEY( "Sex",		ch->sex,		fread_number( fp ) );
 	    KEY( "ShortDescr",	ch->short_descr,	fread_string( fp ) );
 	    KEY( "ShD",		ch->short_descr,	fread_string( fp ) );
-            KEY( "Silv",        ch->silver,             fread_number( fp ) );
+      if ( !str_cmp( word, "Silv" ) )
+      {
+        tmp_silver = fread_number( fp );
+        ch->silver += tmp_silver;
+        fMatch = TRUE;
+        break;
+      }
 
 
 	    if ( !str_cmp( word, "Skill" ) || !str_cmp(word,"Sk"))
@@ -1348,8 +1334,12 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	    break;
 
 	case 'V':
-	    KEY( "Version",     ch->version,		fread_number ( fp ) );
-	    KEY( "Vers",	ch->version,		fread_number ( fp ) );
+      if (!str_cmp(word,"Version") || !str_cmp(word,"Vers"))
+      {
+        fread_number(fp);
+        fMatch = TRUE;
+        break;
+      }
 	    if ( !str_cmp( word, "Vnum" ) )
 	    {
 		ch->pIndexData = get_mob_index( fread_number( fp ) );
@@ -1536,10 +1526,6 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
     	     	return;
 	     }
     	     KEY( "Exp",	pet->exp,		fread_number(fp));
-    	     break;
-
-    	 case 'G':
-    	     KEY( "Gold",	pet->gold,		fread_number(fp));
     	     break;
 
     	 case 'H':

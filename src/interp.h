@@ -100,7 +100,7 @@ DECLARE_DO_FUN(	do_at		);
 DECLARE_DO_FUN(	do_auction	);
 DECLARE_DO_FUN( do_autoassist	);
 DECLARE_DO_FUN( do_autoexit	);
-DECLARE_DO_FUN( do_autogold	);
+DECLARE_DO_FUN( do_autoakce	);
 DECLARE_DO_FUN( do_autolist	);
 DECLARE_DO_FUN( do_autoloot	);
 DECLARE_DO_FUN( do_autosac	);

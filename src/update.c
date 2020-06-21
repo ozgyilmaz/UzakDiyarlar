@@ -659,10 +659,9 @@ void mobile_update( void )
 		continue;
 	}
 
-	if (ch->pIndexData->pShop != NULL) /* give him some gold */
+	if (ch->pIndexData->pShop != NULL) /* give him some silver */
   {
-    ch->gold = number_range(ch->level,ch->level*30);
-    ch->silver = number_range(ch->level,ch->level*10);
+    ch->silver = number_range(ch->level,ch->level*5);
   }
 
 
