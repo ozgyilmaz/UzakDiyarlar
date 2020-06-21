@@ -9,6 +9,9 @@ Highlevel 50
 Minvnum 23001
 Maxvnum 24100
 Path 6d 10k 2d 7k b~
+Yonelim_iyi 10
+Yonelim_yansiz 30
+Yonelim_kem 60
 END
 
 
@@ -463,9 +466,9 @@ A
 A
 12 50
 #23020
-albatros amblemli kýlýç~
-Albatros amblemli bir kýlýç~
-Kýlýç üstadýnýn kýlýcý ayaðýnýn önünde duruyor.~
+falagar albatros amblemli kýlýç~
+Falagar'ýn albatros amblemli kýlýcý~
+Kayýp bir ruhun adýný fýsýldayan kýlýç ayaðýnýn önünde duruyor.~
 iron~
 weapon GIM AN
 sword 10 11 slash DE
@@ -505,9 +508,9 @@ A
 A
 18 2
 #23023
-cuendilar yürektaþý hançer~
-bir yürektaþý hançer~
-Garip bir maddeden yapýlmýþ bir hançer, burada duruyor.~
+maar yürektaþý hançer~
+Maar'ýn yürektaþý hançeri~
+Kayýp bir ruha ait hançer, efendisinin adýný fýsýldýyor.~
 unknown~
 weapon GM AN
 dagger 10 11 pierce D

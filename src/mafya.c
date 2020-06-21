@@ -9,7 +9,7 @@
  * Discord : https://discord.gg/kXyZzv                                     *
  *                                                                         *
  ***************************************************************************/
- 
+
 #include <sys/types.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -56,7 +56,7 @@ void do_iste( CHAR_DATA *ch, char *argument )
 	if (argument[0] == '\0')
 	{
 		do_say(mafya, (char*)"Lakap kaldýrtmak:");
-		do_say(mafya, (char*)"aranýyor:  2000 altýn");
+		do_say(mafya, (char*)"aranýyor:  20000 akçe");
 		do_say(mafya, (char*)"talep lakapkaldýr <aranýyor>");
 		return;
     }
@@ -68,20 +68,20 @@ void do_iste( CHAR_DATA *ch, char *argument )
 	{
 		if (!str_prefix(arg2,"aranýyor"))
 		{
-			cost = 2000;
+			cost = 20000;
 			if ( !IS_SET(ch->act, PLR_WANTED) )
 			{
 				do_say(mafya, (char*)"Aranmýyorsun ki! Hatta oldukça zararsýz bi tipe benziyorsun!");
 				return;
 			}
-			if ( cost > ch->pcdata->bank_g )
+			if ( cost > ch->pcdata->bank_s )
 			{
-				do_say(mafya, (char*)"Bankada yeterli altýnýn yok.");
+				do_say(mafya, (char*)"Bankada yeterli akçen yok.");
 				return;
 			}
 			REMOVE_BIT( ch->act, PLR_WANTED );
-			ch->pcdata->bank_g 	    -= cost;
-			mafya->gold  += cost;
+			ch->pcdata->bank_s 	    -= cost;
+			mafya->silver  += cost;
 			do_say(mafya, (char*)"Temiz iþ oldu. Yüzbaþýnýn ofisindeki kayýtlarý sildik. Artýk aranmýyorsun!");
 			do_say(mafya, (char*)"Yine bekleriz.");
 			return;
@@ -91,7 +91,7 @@ void do_iste( CHAR_DATA *ch, char *argument )
 	{
 		do_say(mafya, (char*)"Ne söylediðini anlamýyorum, ama þunlar ilgini çekebilir...");
 		do_say(mafya, (char*)"Lakap kaldýrtmak:");
-		do_say(mafya, (char*)"aranýyor:  2000 altýn");
+		do_say(mafya, (char*)"aranýyor:  20000 akçe");
 		do_say(mafya, (char*)"talep lakapkaldýr <aranýyor>");
 		return;
 	}

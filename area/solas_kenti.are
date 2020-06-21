@@ -2,13 +2,16 @@
 Filename solas_kenti.are~
 Name Solas Kenti~
 Builder Strahd~
-Translator Bilinmiyor~
+Translator Qualyn~
 Language Yarý Türkçe~
 Lowlevel 5
 Highlevel 35
 Minvnum 10200
 Maxvnum 10400
 Path Eski Selenge PY'den 6d 3k~
+Yonelim_iyi 33
+Yonelim_yansiz 34
+Yonelim_kem 33
 END
 
 #NEW_MOBILES

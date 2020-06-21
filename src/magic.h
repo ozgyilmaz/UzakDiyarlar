@@ -95,6 +95,7 @@ DECLARE_SPELL_FUN(	spell_detect_magic	);
 DECLARE_SPELL_FUN(	spell_detect_poison	);
 DECLARE_SPELL_FUN(	spell_detect_undead	);
 DECLARE_SPELL_FUN(	spell_disintegrate	);
+DECLARE_SPELL_FUN(	spell_arz_yutagi	);
 DECLARE_SPELL_FUN(	spell_dispel_evil	);
 DECLARE_SPELL_FUN(      spell_dispel_good       );
 DECLARE_SPELL_FUN(	spell_dispel_magic	);

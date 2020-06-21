@@ -1,0 +1,17 @@
+İYİ
+İyi öldürürse     -> Negatif
+Yansız öldürürse  -> Pozitif
+Kem öldürürse     -> Pozitif
+
+YANSIZ
+İyi öldürürse     -> Pozitif
+Yansız öldürürse  -> Negatif
+Kem öldürürse     -> Pozitif
+
+KEM
+İyi öldürürse     -> Pozitif
+Yansız öldürürse  -> Pozitif
+Kem öldürürse     -> Negatif
+
+Her 100 negatifte karakterin karizması 1 azalır.
+Her 200 pozitifte karakterin karizması 1 artar.

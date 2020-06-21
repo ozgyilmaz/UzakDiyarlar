@@ -138,13 +138,11 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
     CHAR_DATA *gch;
     int members;
     char buffer[100];
-
     if ( !CAN_WEAR(obj, ITEM_TAKE) )
     {
       send_to_char( "Onu alamazsýn.\n\r", ch );
 	return;
     }
-
     if (obj->pIndexData->limit != -1)
     {
       if ( ( IS_OBJ_STAT(obj, ITEM_ANTI_EVIL)    && IS_EVIL(ch)    )
@@ -156,9 +154,10 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 	return;
       }
       if( !limit_kontrol(ch,obj) )
+      {
   			return;
+      }
     }
-
     if ( ch->carry_number + get_obj_number( obj ) > can_carry_n( ch ) )
     {
       act( "$d: bu kadar çok þey taþýyamazsýn.",
@@ -166,14 +165,12 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 	return;
     }
 
-
     if ( get_carry_weight(ch) + get_obj_weight( obj ) > can_carry_w( ch ) )
     {
       act( "$d: bu kadar aðýrlýk taþýyamazsýn.",
 	    ch, NULL, obj->name, TO_CHAR );
 	return;
     }
-
     if (obj->in_room != NULL)
     {
 	for (gch = obj->in_room->people; gch != NULL; gch = gch->next_in_room)
@@ -184,7 +181,6 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 		return;
 	    }
     }
-
 
     if ( container != NULL )
     {
@@ -198,7 +194,6 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 	|| container->pIndexData->vnum == OBJ_VNUM_HUNTER_ALTAR)
         {
 	  DESCRIPTOR_DATA *d;
-
     act("$P içinden $p aldýn.", ch, obj, container, TO_CHAR );
     if (!IS_AFFECTED(ch,AFF_SNEAK))
       act( "$n $P içinden $p aldý.", ch, obj, container, TO_ROOM );
@@ -215,7 +210,6 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
              act_color("$CKabal gücünde titreme hissediyorsun!$c",
                    d->character,NULL,NULL,TO_CHAR,POS_DEAD,CLR_GREEN);
           }
-
           if (IS_SET(obj->progtypes,OPROG_GET))
             (obj->pIndexData->oprogs->get_prog) (obj,ch);
 	  return;
@@ -241,8 +235,7 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 
     if ( obj->item_type == ITEM_MONEY)
     {
-	ch->silver += obj->value[0];
-	ch->gold += obj->value[1];
+	ch->silver += ( obj->value[0] + ( obj->value[1] / 2 ) ) ;
         if (IS_SET(ch->act,PLR_AUTOSPLIT))
         { /* AUTOSPLIT code */
     	  members = 0;
@@ -254,7 +247,7 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 
 	  if ( members > 1 && (obj->value[0] > 1 || obj->value[1]))
 	  {
-	    sprintf(buffer,"%d %d",obj->value[0],obj->value[1]);
+	    sprintf(buffer,"%d", obj->value[0] + ( obj->value[1] / 2 ) );
 	    do_split(ch,buffer);
 	  }
         }
@@ -265,7 +258,9 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
     {
 	obj_to_char( obj, ch );
         if (IS_SET(obj->progtypes,OPROG_GET))
+        {
           (obj->pIndexData->oprogs->get_prog) (obj,ch);
+        }
     }
 
     return;
@@ -275,183 +270,144 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 
 void do_get( CHAR_DATA *ch, char *argument )
 {
-    char arg1[MAX_INPUT_LENGTH];
-    char arg2[MAX_INPUT_LENGTH];
-    OBJ_DATA *obj;
-    OBJ_DATA *obj_next;
-    OBJ_DATA *container;
-    bool found;
 
+  char arg1[MAX_INPUT_LENGTH];
+  char arg2[MAX_INPUT_LENGTH];
+  OBJ_DATA *obj;
+  OBJ_DATA *obj_next;
+  OBJ_DATA *container;
+  bool found;
 
-    argument = one_argument( argument, arg1 );
-    argument = one_argument( argument, arg2 );
+  argument = one_argument( argument, arg1 );
+  argument = one_argument( argument, arg2 );
 
-    if (!str_cmp(arg2,"içinden"))
-	argument = one_argument(argument,arg2);
+  if (!str_cmp(arg2,"içinden"))
+  {
+    argument = one_argument(argument,arg2);
+  }
 
-    /* Get type. */
-    if ( arg1[0] == '\0' )
+  /* Get type. */
+  if ( arg1[0] == '\0' )
+  {
+    send_to_char( "Neyi alacaksýn?\n\r", ch );
+    return;
+  }
+
+  if ( is_number( arg1 ) )
+  {
+    int amount, weight, silver = 0;
+
+    amount = atoi( arg1 );
+
+    if ( amount <= 0 || str_cmp( arg2, "akçe" ) )
     {
-      send_to_char( "Neyi alacaksýn?\n\r", ch );
-	return;
+      send_to_char( "Kullaným: al <miktar> akçe\n\r", ch );
+      return;
     }
 
-    if ( is_number( arg1 ) )
+    weight = amount / 10;
+
+    if ( get_carry_weight(ch) + weight > can_carry_w( ch ) )
     {
-	int amount, weight, gold = 0, silver = 0;
-
-	amount = atoi( arg1 );
-	if ( amount <= 0
-	|| ( str_cmp( arg2, "sikke" ) && str_cmp( arg2, "akçe" ) &&
-	     str_cmp( arg2, "altýn"  ) ) )
-	{
-    send_to_char( "Kullaným: <al> <miktar> <akçe|altýn|sikke>\n\r", ch );
-	    return;
-	}
-
-        if ( !str_cmp( arg2, "altýn") )
-	    weight = amount * 2 / 5;
-	else	weight = amount / 10;
-
-	if ( get_carry_weight(ch) + weight > can_carry_w( ch ) )
-	{
-    act(  "Bu kadar aðýrlýðý taþýyamazsýn.",ch, NULL, NULL, TO_CHAR );
-	     return;
-	}
-
-
-        for ( obj = ch->in_room->contents; obj != NULL; obj = obj_next )
-        {
-            obj_next = obj->next_content;
-
-            switch ( obj->pIndexData->vnum )
-            {
-            case OBJ_VNUM_SILVER_ONE:
-                silver += 1;
-                break;
-
-            case OBJ_VNUM_GOLD_ONE:
-                gold += 1;
-                break;
-
-            case OBJ_VNUM_SILVER_SOME:
-                silver += obj->value[0];
-                break;
-
-            case OBJ_VNUM_GOLD_SOME:
-                gold += obj->value[1];
-                break;
-
-            case OBJ_VNUM_COINS:
-                silver += obj->value[0];
-                gold += obj->value[1];
-                break;
-            }
-        }
-
-        if ( (!str_cmp( arg2, "altýn") && amount > gold )
-      	|| (!str_cmp( arg2, "akçe") && amount > silver ) )
-      	{
-      	    send_to_char("O kadar sikke yok.\n\r", ch);
-      	    return;
-      	}
-
-        if ( !str_cmp( arg2, "altýn") )
-	    { gold = amount; silver = 0; }
-	else	{ silver = amount; gold = 0; }
-
-        for ( obj = ch->in_room->contents; obj != NULL; obj = obj_next )
-        {
-            obj_next = obj->next_content;
-
-            switch ( obj->pIndexData->vnum )
-            {
-            case OBJ_VNUM_SILVER_ONE:
-                if (silver) { silver -= 1; extract_obj(obj); }
-                break;
-
-            case OBJ_VNUM_GOLD_ONE:
-                if (gold) { gold -= 1; extract_obj( obj ); }
-                break;
-
-            case OBJ_VNUM_SILVER_SOME:
-		if (silver) {
-		    if (silver >= obj->value[0])
-			{ silver -= obj->value[0]; extract_obj(obj); }
-		    else { obj->value[0] -= silver; silver = 0;}
-		}
-                break;
-
-            case OBJ_VNUM_GOLD_SOME:
-		if (gold) {
-		    if (gold >= obj->value[1])
-			{ gold -= obj->value[1]; extract_obj(obj); }
-		    else { obj->value[1] -= gold; gold = 0;}
-		}
-                break;
-
-            case OBJ_VNUM_COINS:
-		if (silver) {
-		    if (silver >= obj->value[0]) {
-			    silver -= obj->value[0];
-			    gold = obj->value[1];
-			    extract_obj(obj);
-			    obj = create_money( gold, 0 );
-			    obj_to_room( obj, ch->in_room );
-			    gold = 0;
-			}
-		    else { obj->value[0] -= silver; silver = 0;}
-		}
-		if (gold) {
-		    if (gold >= obj->value[1]) {
-			    gold -= obj->value[1];
-			    silver = obj->value[0];
-			    extract_obj(obj);
-			    obj = create_money( 0, silver );
-			    obj_to_room( obj, ch->in_room );
-			    silver = 0;
-			}
-		    else { obj->value[1] -= gold; gold = 0;}
-		}
-                break;
-            }
-	    if (!silver && !gold) break;
-        }
-
-	/* restore the amount */
-        if ( !str_cmp( arg2, "altýn") )
-	    { gold = amount; silver = 0; }
-	else	{ silver = amount; gold = 0; }
-
-	if ( silver ) ch->silver += amount;
-	else ch->gold += amount;
-
-  act("Yerden bir miktar para aldýn.", ch, NULL, NULL, TO_CHAR );
-  if (!IS_AFFECTED(ch,AFF_SNEAK))
-    act("$n yerden bir miktar para aldý.", ch, NULL, NULL, TO_ROOM );
-
-        if (IS_SET(ch->act,PLR_AUTOSPLIT))
-        { /* AUTOSPLIT code */
-          int members = 0;
-	  CHAR_DATA *gch;
-	  char buffer[MAX_INPUT_LENGTH];
-
-          for (gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
-          {
-            if (!IS_AFFECTED(gch,AFF_CHARM) && is_same_group( gch, ch ) )
-              members++;
-          }
-
-          if ( members > 1 && (amount > 1) )
-          {
-            sprintf(buffer,"%d %d",silver, gold);
-            do_split(ch,buffer);
-          }
-        }
-
-
-	return;
+      act(  "Bu kadar aðýrlýðý taþýyamazsýn.",ch, NULL, NULL, TO_CHAR );
+      return;
     }
+
+
+    for ( obj = ch->in_room->contents; obj != NULL; obj = obj_next )
+    {
+      obj_next = obj->next_content;
+
+      switch ( obj->pIndexData->vnum )
+      {
+        case OBJ_VNUM_SILVER_ONE:
+          silver += 1;
+          break;
+
+        case OBJ_VNUM_SILVER_SOME:
+          silver += obj->value[0];
+          break;
+      }
+    }
+
+    if ( !str_cmp( arg2, "akçe") && (amount > silver)  )
+    {
+      send_to_char("O kadar akçe yok.\n\r", ch);
+      return;
+    }
+
+    silver = amount;
+
+    for ( obj = ch->in_room->contents; obj != NULL; obj = obj_next )
+    {
+      obj_next = obj->next_content;
+
+      switch ( obj->pIndexData->vnum )
+      {
+        case OBJ_VNUM_SILVER_ONE:
+        if (silver)
+        {
+          silver -= 1;
+          extract_obj(obj);
+        }
+        break;
+
+        case OBJ_VNUM_SILVER_SOME:
+        if (silver)
+        {
+          if (silver >= obj->value[0])
+          {
+            silver -= obj->value[0];
+            extract_obj(obj);
+          }
+          else
+          {
+            obj->value[0] -= silver;
+            silver = 0;
+          }
+        }
+        break;
+      }
+      if (!silver)
+      {
+        break;
+      }
+    }
+
+    silver = amount;
+
+    if ( silver )
+    {
+      ch->silver += amount;
+    }
+
+    act("Yerden bir miktar para aldýn.", ch, NULL, NULL, TO_CHAR );
+    if (!IS_AFFECTED(ch,AFF_SNEAK))
+    {
+      act("$n yerden bir miktar para aldý.", ch, NULL, NULL, TO_ROOM );
+    }
+
+    if (IS_SET(ch->act,PLR_AUTOSPLIT))
+    {
+      int members = 0;
+      CHAR_DATA *gch;
+      char buffer[MAX_INPUT_LENGTH];
+
+      for (gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
+      {
+        if (!IS_AFFECTED(gch,AFF_CHARM) && is_same_group( gch, ch ) )
+        members++;
+      }
+
+      if ( members > 1 && (amount > 1) )
+      {
+        sprintf(buffer,"%d",silver);
+        do_split(ch,buffer);
+      }
+    }
+
+    return;
+  }
 
     if ( arg2[0] == '\0' )
     {
@@ -464,7 +420,6 @@ void do_get( CHAR_DATA *ch, char *argument )
         act( "Burada $T yok.", ch, NULL, arg1, TO_CHAR );
 		return;
 	    }
-
 	    get_obj( ch, obj, NULL );
 	}
 	else
@@ -820,12 +775,11 @@ void do_drop( CHAR_DATA *ch, char *argument )
     if ( is_number( arg ) )
     {
 	/* 'drop NNNN coins' */
-	int amount, gold = 0, silver = 0;
+	int amount, silver = 0;
 
 	amount   = atoi(arg);
 	argument = one_argument( argument, arg );
-  if ( amount <= 0
-	|| ( str_cmp( arg, "sikke" ) && str_cmp( arg, "altýn" ) && str_cmp( arg, "akçe"  ) ) )
+  if ( amount <= 0 || ( str_cmp( arg, "akçe"  ) ) )
 	{
     send_to_char( "Bunu yapamazsýn.\n\r", ch );
 	    return;
@@ -843,18 +797,6 @@ void do_drop( CHAR_DATA *ch, char *argument )
 	    silver = amount;
 	}
 
-	else
-	{
-	    if (ch->gold < amount)
-	    {
-        send_to_char("Bu kadar altýnýn yok.\n\r",ch);
-		return;
-	    }
-
-	    ch->gold -= amount;
-  	    gold = amount;
-	}
-
 	for ( obj = ch->in_room->contents; obj != NULL; obj = obj_next )
 	{
 	    obj_next = obj->next_content;
@@ -866,30 +808,14 @@ void do_drop( CHAR_DATA *ch, char *argument )
 		extract_obj(obj);
 		break;
 
-	    case OBJ_VNUM_GOLD_ONE:
-		gold += 1;
-		extract_obj( obj );
-		break;
-
 	    case OBJ_VNUM_SILVER_SOME:
 		silver += obj->value[0];
-		extract_obj(obj);
-		break;
-
-	    case OBJ_VNUM_GOLD_SOME:
-		gold += obj->value[1];
-		extract_obj( obj );
-		break;
-
-	    case OBJ_VNUM_COINS:
-		silver += obj->value[0];
-		gold += obj->value[1];
 		extract_obj(obj);
 		break;
 	    }
 	}
 
-	obj = create_money( gold, silver );
+	obj = create_money( silver );
 	obj_to_room( obj, ch->in_room );
 	if ( !IS_AFFECTED(ch, AFF_SNEAK) )
   act( "$n bir miktar sikke býrakýyor.", ch, NULL, NULL, TO_ROOM );
@@ -1075,6 +1001,10 @@ void do_drag( CHAR_DATA *ch, char *argument )
         act( "$n $p tarafýndan çarpýldý ve onu düþürdü.",  ch, obj, NULL, TO_ROOM );
         return;
       }
+      if( !limit_kontrol(ch,obj) )
+      {
+  			return;
+      }
    }
 
    if (obj->in_room != NULL)
@@ -1172,18 +1102,14 @@ void do_give( CHAR_DATA *ch, char *argument )
     {
 	/* 'give NNNN coins victim' */
 	int amount;
-	bool silver;
 	int weight;
 
 	amount   = atoi(arg1);
-	if ( amount <= 0
-    || ( str_cmp( arg2, "sikke" ) && str_cmp( arg2, "altýn"  ) && str_cmp( arg2, "akçe")) )
+	if ( amount <= 0 || ( str_cmp( arg2, "akçe")) )
 	{
     send_to_char( "Bunu yapamazsýn.\n\r", ch );
 	    return;
 	}
-
-  silver = str_cmp(arg2,"altýn");
 
 	argument = one_argument( argument, arg2 );
 	if ( arg2[0] == '\0' )
@@ -1198,15 +1124,13 @@ void do_give( CHAR_DATA *ch, char *argument )
 	    return;
 	}
 
-	if ( (!silver && ch->gold < amount) || (silver && ch->silver < amount) )
+	if ( ch->silver < amount )
 	{
     send_to_char( "Bu kadarýna sahip deðilsin.\n\r", ch );
 	    return;
 	}
 
-        if ( !silver )
-	    weight = amount * 2 / 5;
-	else	weight = amount / 10;
+  weight = amount / 10;
 
 	if ( !IS_NPC(victim)
 		&& get_carry_weight(victim) + weight > can_carry_w(victim) )
@@ -1215,80 +1139,17 @@ void do_give( CHAR_DATA *ch, char *argument )
 	     return;
 	}
 
-	if (silver)
-	{
-	    ch->silver		-= amount;
-	    victim->silver 	+= amount;
-	}
-	else
-	{
-	    ch->gold		-= amount;
-	    victim->gold	+= amount;
-	}
+  ch->silver		-= amount;
+  victim->silver 	+= amount;
 
-  sprintf(buf,"$n sana %d %s veriyor.",amount, silver ? "akçe" : "altýn");
+  sprintf(buf,"$n sana %d akçe veriyor.",amount);
 	act( buf, ch, NULL, victim, TO_VICT    );
-	act( "$n $E bir miktar sikke veriyor.",  ch, NULL, victim, TO_NOTVICT );
-	sprintf(buf,"$E %d %s veriyorsun.",amount, silver ? "akçe" : "altýn");
+	act( "$n $E bir miktar akçe veriyor.",  ch, NULL, victim, TO_NOTVICT );
+	sprintf(buf,"$E %d akçe veriyorsun.",amount);
 	act( buf, ch, NULL, victim, TO_CHAR    );
         if (IS_SET(victim->progtypes,MPROG_BRIBE))
           (victim->pIndexData->mprogs->bribe_prog) (victim,ch,amount);
 
-	if (IS_NPC(victim) && IS_SET(victim->act,ACT_IS_CHANGER))
-	{
-	    int change;
-
-	    change = (silver ? 95 * amount / 100 / 100
-		 	     : 95 * amount);
-
-
-            if ( silver )
-	       weight = change * 2 / 5;
-	    else weight = change / 10;
-
-            if ( !silver )
-	       weight -= amount * 2 / 5;
-	    else weight -= amount / 10;
-
-	    if (!IS_NPC(ch)
-		&& get_carry_weight(ch) + weight > can_carry_w(ch) )
-	    {
-        act("Bu kadar aðýrlýk taþýyamazsýn.", ch,NULL,NULL,TO_CHAR);
-	        return;
-	    }
-
-	    if (!silver && change > victim->silver)
-	    	victim->silver += change;
-
-	    if (silver && change > victim->gold)
-		victim->gold += change;
-
-	    if (change < 1 && can_see(victim,ch))
-	    {
-        act(
-    	"$n anlatýyor 'Üzgünüm, deðiþtirmem için yeterince vermedin.'",victim,NULL,ch,TO_VICT);
-    		ch->reply = victim;
-		ch->reply = victim;
-		sprintf(buf,"%d %s %s",
-    amount, silver ? "akçe" : "altýn",ch->name);
-		do_give(victim,buf);
-	    }
-	    else if (can_see(victim,ch))
-	    {
-		sprintf(buf,"%d %s %s",
-    change, silver ? "altýn" : "akçe",ch->name);
-		do_give(victim,buf);
-		if (silver)
-		{
-      sprintf(buf,"%d akçe %s",
-			(95 * amount / 100 - change * 100),ch->name);
-		    do_give(victim,buf);
-		}
-    act("$n anlatýyor 'Bereket versin, yine gel.'",
-		    victim,NULL,ch,TO_VICT);
-		ch->reply = victim;
-	    }
-	}
 	return;
     }
 
@@ -1352,6 +1213,10 @@ void do_give( CHAR_DATA *ch, char *argument )
       {
         send_to_char( "Kurbanýnýn yönelimi eþyanýnkiyle uyuþmuyor.", ch );
 	return;
+      }
+      if( !limit_kontrol(victim,obj) )
+      {
+  			return;
       }
     }
 
@@ -1900,7 +1765,7 @@ void do_drink( CHAR_DATA *ch, char *argument )
 	}
     }
 
-    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 10 && number_bits(3) < 1)
+    if ( !IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 10 && number_range(0,7) < 1)
     {
 	send_to_char( "Aðzýný bulamýyorsun.  *Hýck*\n\r", ch );
 	return;
@@ -3072,9 +2937,7 @@ void do_steal( CHAR_DATA *ch, char *argument )
 			((victim->level - ch->level) * 2) : 0;
 
     obj = NULL;
-    if ( str_cmp( arg1, "sikke"  )
-    &&   str_cmp( arg1, "altýn" )
-    &&   str_cmp( arg1, "akçe") )
+    if ( str_cmp( arg1, "akçe") )
     {
 	if ( ( obj = get_obj_carry( victim, arg1 ) ) == NULL )
 	{
@@ -3100,6 +2963,11 @@ void do_steal( CHAR_DATA *ch, char *argument )
         act( "Tanrýlar $p'nin araklanmasýna izin vermez.", ch, obj, NULL, TO_CHAR );
       	act( "Tanrýlar $s davranýþýný onaylamýyor.",  ch, obj, NULL, TO_ROOM );
 	percent = 0;
+      }
+
+      if( !limit_kontrol(ch,obj) )
+      {
+  			return;
       }
     }
 
@@ -3155,35 +3023,25 @@ void do_steal( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( !str_cmp( arg1, "sikke"  )
-    ||   !str_cmp( arg1, "altýn" )
-    ||   !str_cmp( arg1, "akçe"))
+  if ( !str_cmp( arg1, "akçe"  ))
+  {
+    int amount_s = 0;
+    amount_s = victim->silver * number_range(1, 20) / 100;
+
+    if ( amount_s <= 0 )
     {
-	int amount_s = 0;
-	int amount_g = 0;
-  if ( !str_cmp( arg1, "akçe" ) )
-	  amount_s = victim->silver * number_range(1, 20) / 100;
-        else if ( !str_cmp( arg1, "altýn" ) )
-	  amount_g = victim->gold * number_range(1, 7) / 100;
-
-	if ( amount_s <= 0 && amount_g <= 0 )
-	{
-    send_to_char( "Hiç sikke koparamadýn.\n\r", ch );
-	    return;
-	}
-
-	ch->gold     += amount_g;
-	victim->gold -= amount_g;
-	ch->silver     += amount_s;
-	victim->silver -= amount_s;
-  sprintf( buf, "Bingo!  %d %s arakladýn.\n\r",
-           amount_s!=0?amount_s:amount_g,
-           amount_s!=0?"akçe":"altýn" );
-
-	send_to_char( buf, ch );
-	check_improve(ch,gsn_steal,TRUE,2);
-	return;
+    send_to_char( "Hiç akçe koparamadýn.\n\r", ch );
+    return;
     }
+
+    ch->silver     += amount_s;
+    victim->silver -= amount_s;
+    sprintf( buf, "Bingo!  %d akçe arakladýn.\n\r",amount_s);
+
+    send_to_char( buf, ch );
+    check_improve(ch,gsn_steal,TRUE,2);
+    return;
+  }
 
     if ( !can_drop_obj( ch, obj )
    /* ||   IS_SET(obj->extra_flags, ITEM_INVENTORY)*/
@@ -3358,6 +3216,9 @@ OBJ_DATA *get_obj_keeper( CHAR_DATA *ch, CHAR_DATA *keeper, char *argument )
     return NULL;
 }
 
+/*
+* fBuy TRUE ise satin alma islemi. FALSE ise satma islemi.
+*/
 int get_cost( CHAR_DATA *keeper, OBJ_DATA *obj, bool fBuy )
 {
     SHOP_DATA *pShop;
@@ -3394,12 +3255,7 @@ int get_cost( CHAR_DATA *keeper, OBJ_DATA *obj, bool fBuy )
 	    	if ( obj->pIndexData == obj2->pIndexData
 		&&   !str_cmp(obj->short_descr,obj2->short_descr) )
 		  return 0;
-/*
-	 	    if (IS_OBJ_STAT(obj2,ITEM_INVENTORY))
-			cost /= 2;
-		    else
-                    	cost = cost * 3 / 4;
-*/
+
 	    }
     }
 
@@ -3473,7 +3329,7 @@ void do_buy( CHAR_DATA *ch, char *argument )
 	{
  	 cost = 10 * pet->level * pet->level;
 
-	 if ( (ch->silver + 100 * ch->gold) < cost )
+	 if ( ch->silver < cost )
 	 {
      send_to_char( "Onu satýn almaya gücün yetmez.\n\r", ch );
 	    return;
@@ -3487,7 +3343,7 @@ void do_buy( CHAR_DATA *ch, char *argument )
 	 }
 
 	 deduct_cost(ch,cost);
-	 pet = create_mobile( pet->pIndexData );
+	 pet = create_mobile( pet->pIndexData, NULL );
 	 pet->comm = COMM_NOTELL|COMM_NOSHOUT|COMM_NOCHANNELS;
 
 	 char_to_room( pet, ch->in_room );
@@ -3505,7 +3361,7 @@ void do_buy( CHAR_DATA *ch, char *argument )
 
  	cost = 10 * pet->level * pet->level;
 
-	if ( (ch->silver + 100 * ch->gold) < cost )
+	if ( ch->silver < cost )
 	{
     send_to_char( "Onu satýn almaya gücün yetmez.\n\r", ch );
 	    return;
@@ -3530,7 +3386,7 @@ void do_buy( CHAR_DATA *ch, char *argument )
 	}
 
 	deduct_cost(ch,cost);
-	pet			= create_mobile( pet->pIndexData );
+	pet			= create_mobile( pet->pIndexData , NULL);
 	SET_BIT(pet->act, ACT_PET);
 	SET_BIT(pet->affected_by, AFF_CHARM);
 	pet->comm = COMM_NOTELL|COMM_NOSHOUT|COMM_NOCHANNELS;
@@ -3622,16 +3478,18 @@ void do_buy( CHAR_DATA *ch, char *argument )
 	    	ch->reply = keeper;
 	    	return;
 	    }
+      if( !limit_kontrol(ch,obj) )
+      {
+  			return;
+      }
 	}
 
-  if ( (ch->silver + ch->gold * 100) < cost * number )
+  if ( (ch->silver) < cost * number )
 	{
 	    if (number > 1)
-		act("$n anlatýyor 'Bu kadar çok alacak paran yok.",
-		    keeper,obj,ch,TO_VICT);
+		act("$n anlatýyor 'Bu kadar çok alacak paran yok.",keeper,obj,ch,TO_VICT);
 	    else
-	    	act( "$n anlatýyor '$p satýn alacak paran yok'.",
-		    keeper, obj, ch, TO_VICT );
+	    	act( "$n anlatýyor '$p satýn alacak paran yok'.",keeper, obj, ch, TO_VICT );
 	    ch->reply = keeper;
 	    return;
 	}
@@ -3680,8 +3538,7 @@ void do_buy( CHAR_DATA *ch, char *argument )
 	    act( buf, ch, obj, NULL, TO_CHAR );
 	}
 	deduct_cost(ch,cost * number);
-	keeper->gold += cost * number/100;
-	keeper->silver += cost * number - (cost * number/100) * 100;
+	keeper->silver += cost * number;
 
 	for (count = 0; count < number; count++)
 	{
@@ -3813,12 +3670,11 @@ void do_list( CHAR_DATA *ch, char *argument )
 void do_sell( CHAR_DATA *ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
-    char buf2[MAX_STRING_LENGTH];
     char arg[MAX_INPUT_LENGTH];
     CHAR_DATA *keeper;
     OBJ_DATA *obj;
     int cost,roll;
-    int gold, silver;
+    int silver;
     one_argument( argument, arg );
 
     if ( arg[0] == '\0' )
@@ -3855,10 +3711,9 @@ void do_sell( CHAR_DATA *ch, char *argument )
       act(  "$n $p ile ilgilenmiyor.", keeper, obj, ch, TO_VICT );
 	return;
     }
-    if ( cost > (keeper->silver + 100 * keeper->gold) )
+    if ( cost > keeper->silver )
     {
-      act("$n anlatýyor Üzgünüm '$p'nin ederini ödeyemem.",
-	    keeper,obj,ch,TO_VICT);
+      act("$n anlatýyor Üzgünüm '$p'nin ederini ödeyemem.",keeper,obj,ch,TO_VICT);
 	return;
     }
 
@@ -3871,25 +3726,17 @@ void do_sell( CHAR_DATA *ch, char *argument )
         send_to_char("Esnafla pazarlýk ediyorsun.\n\r",ch);
         cost += obj->cost / 2 * roll / 100;
         cost = UMIN(cost,95 * get_cost(keeper,obj,TRUE) / 100);
-	cost = UMIN(cost,(keeper->silver + 100 * keeper->gold));
+	cost = UMIN(cost,keeper->silver );
         check_improve(ch,gsn_haggle,TRUE,4);
     }
 
-    silver = cost - (cost/100) * 100;
-    gold   = cost/100;
+    silver = cost ;
 
-    sprintf( buf2, "$p eþyasýný %s %s%s satýyorsun.",
-      silver!=0?"%d akçeye":"",                         /* silvers  */
-      (silver!=0 && gold != 0)?"ve ":"",		/*   and    */
-      gold!=0?"%d altýna ":"" );
-    sprintf( buf, buf2, silver, gold );
+    sprintf( buf, "$p eþyasýný %d akçeye satýyorsun.",silver);
 
     act( buf, ch, obj, NULL, TO_CHAR );
-    ch->gold     += gold;
     ch->silver 	 += silver;
     deduct_cost(keeper,cost);
-    if ( keeper->gold < 0 )
-	keeper->gold = 0;
     if ( keeper->silver< 0)
 	keeper->silver = 0;
 
@@ -3958,8 +3805,7 @@ void do_value( CHAR_DATA *ch, char *argument )
     }
 
     sprintf( buf,
-	"$n sana anlatýyor '$p için sana %d akçe ve %d altýn veririm'.",
-	cost - (cost/100) * 100, cost/100 );
+	"$n sana anlatýyor '$p için sana %d akçe veririm'.",cost);
     act( buf, keeper, obj, ch, TO_VICT );
     ch->reply = keeper;
 
@@ -4516,7 +4362,7 @@ void do_butcher(CHAR_DATA *ch, char *argument)
       int i;
       OBJ_DATA *steak;
 
-      numsteaks = number_bits(2) + 1;
+      numsteaks = number_range(0,3) + 1;
 
       if (numsteaks > 1)
 	{
@@ -4565,10 +4411,6 @@ void do_butcher(CHAR_DATA *ch, char *argument)
 
 void do_balance(CHAR_DATA *ch, char *argument)
 {
-  char buf[160];
-  char buf2[100];
-  long bank_g;
-  long bank_s;
 
   if (IS_NPC(ch))
     {
@@ -4583,31 +4425,19 @@ void do_balance(CHAR_DATA *ch, char *argument)
     }
 
 
-  if ( ch->pcdata->bank_s + ch->pcdata->bank_g == 0 )  {
+  if ( ch->pcdata->bank_s == 0 )  {
     send_to_char("Bankada paran yok.\n\r", ch );
     return;
   }
 
-  bank_g = ch->pcdata->bank_g;
-  bank_s = ch->pcdata->bank_s;
-  sprintf( buf, "Bankada %s%s%s var.\n\r",
-    bank_g!=0?"%ld altýnýn":"",
-    (bank_g!=0)&&(bank_s!=0)?" ve ":"",
-    bank_s!=0?"%ld akçen":"" );
-  if (bank_g == 0)
-    sprintf( buf2, buf, bank_s );
-  else
-    sprintf( buf2, buf, bank_g, bank_s );
+  printf_to_char( ch, "Bankada %ld akçen var.\n\r", ch->pcdata->bank_s);
 
-  send_to_char(buf2, ch);
 }
 
 void do_withdraw(CHAR_DATA *ch, char *argument)
 {
   long  amount_s;
-  long  amount_g;
   char arg[MAX_INPUT_LENGTH];
-  char buf[100];
   int weight;
 
   if (IS_NPC(ch))
@@ -4629,22 +4459,6 @@ void do_withdraw(CHAR_DATA *ch, char *argument)
   }
 
   amount_s = labs (atol(arg));
-  if ( !str_cmp( argument, "akçe") || argument[0] == '\0' )
-    amount_g = 0;
-  else if ( !str_cmp( argument, "altýn" ) )  {
-    amount_g = amount_s;
-    amount_s = 0;
-  }
-  else {
-    send_to_char("Yalnýz akçe ve altýn sikke çekebilirsin.", ch );
-    return;
-  }
-
-  if ( amount_g > ch->pcdata->bank_g)
-  {
-    send_to_char("Üzgünüm, borç vermiyoruz.\n\r",ch);
-      return;
-  }
 
   if ( amount_s > ch->pcdata->bank_s)
   {
@@ -4652,8 +4466,7 @@ void do_withdraw(CHAR_DATA *ch, char *argument)
       return;
   }
 
-  weight = amount_g * 2 / 5;
-  weight += amount_s / 10;
+  weight = amount_s / 10;
 
   if ( get_carry_weight(ch) + weight > can_carry_w(ch) )
   {
@@ -4661,31 +4474,16 @@ void do_withdraw(CHAR_DATA *ch, char *argument)
      return;
   }
 
-  ch->pcdata->bank_g -= amount_g;
   ch->pcdata->bank_s -= amount_s;
-  ch->gold += (long)(0.98 * amount_g);
   ch->silver += (long)(0.90 * amount_s);
-  if (amount_s > 0  && amount_s < 10 )  {
-    if ( amount_s == 1 )
-    sprintf(buf, "Bir akçe? Seni cimri!\n\r");
-    else
-    sprintf(buf, "%ld akçe? Seni cimri!\n\r", amount_s);
-  }
-  else
-  sprintf(buf,
-    "Ýþte %ld %s, hesap iþlemi olarak %ld sikkeni alýyorum.\n\r",
-    amount_s!=0?amount_s:amount_g,
-    amount_s!=0?"akçe":"altýn",
-    amount_s!=0?(long) UMAX(1, (0.10 * amount_s)):
-                      (long) UMAX(1, (0.02 * amount_g)) );
-  send_to_char(buf, ch);
+
+  printf_to_char(ch,"Ýþte %ld akçe, hesap iþlemi olarak %ld sikkeni alýyorum.\n\r",amount_s,UMAX(1, (0.10 * amount_s)) );
   act("$n vezneye yaklaþýyor.",ch,NULL,NULL,TO_ROOM);
 }
 
 void do_deposit(CHAR_DATA *ch, char *argument)
 {
   long amount_s;
-  long amount_g;
   char buf[100];
   char arg[200];
 
@@ -4707,37 +4505,20 @@ void do_deposit(CHAR_DATA *ch, char *argument)
     return;
   }
   amount_s = labs (atol(arg));
-  if ( !str_cmp( argument, "akçe" ) || argument[0] == '\0' )
-    amount_g = 0;
-  else if ( !str_cmp( argument, "altýn" ) )  {
-    amount_g = amount_s;
-    amount_s = 0;
-  }
-  else {
-    send_to_char("Yalnýz altýn ve akçe yatýrabilirsin.", ch );
-    return;
-  }
 
-  if (amount_g > ch->gold)
-    {
-     send_to_char("Bu sahip olduðundan fazla.\n\r",ch);
-      return;
-    }
   if (amount_s > ch->silver)
     {
       send_to_char("Bu sahip olduðundan fazla.\n\r",ch);
       return;
     }
 
-  if ( (amount_g + ch->pcdata->bank_g) > 400000 )
+  if ( (amount_s + ch->pcdata->bank_s) > 400000 )
     {
-      send_to_char("Bankamýz 400,000 altýndan fazlasýný kabul etmez.\n\r",ch);
+      send_to_char("Bankamýz 400,000 akçeden fazlasýný kabul etmez.\n\r",ch);
       return;
     }
 
   ch->pcdata->bank_s += amount_s;
-  ch->pcdata->bank_g += amount_g;
-  ch->gold -= amount_g;
   ch->silver -= amount_s;
 
   if (amount_s == 1)
@@ -4746,9 +4527,7 @@ void do_deposit(CHAR_DATA *ch, char *argument)
 	}
   else
 	{
-	  sprintf(buf, "%ld %s sikke hesabýna geçti. Yine beklerim!\n\r",
-                amount_s!=0?amount_s:amount_g,
-                amount_s!=0?"akçe":"altýn" );
+	  sprintf(buf, "%ld akçe hesabýna geçti. Yine beklerim!\n\r",amount_s);
 	}
 
   send_to_char(buf, ch);
@@ -5017,52 +4796,110 @@ void wear_multi(CHAR_DATA *ch,OBJ_DATA *obj,int iWear,bool fReplace)
 bool limit_kontrol (CHAR_DATA *ch, OBJ_DATA *obj)
 {
 	OBJ_DATA *b_obj,*c_obj;
-    int limit_sayisi;
+    int limit_ekipman_sayisi, limit_iksir_sayisi;
 
-	limit_sayisi=0;
+	limit_ekipman_sayisi=0;
+  limit_iksir_sayisi = 0;
+
+  if(IS_NPC(ch))
+  {
+    return TRUE;
+  }
 
 	for ( b_obj = ch->carrying; b_obj != NULL; b_obj = b_obj->next_content)
 	{
 		if (b_obj->item_type==ITEM_CONTAINER)
 		{
+      c_obj = NULL;
+
 			for ( c_obj = b_obj->contains; c_obj != NULL; c_obj = c_obj->next_content )
 			{
 				if ( c_obj->pIndexData->limit != -1)
 				{
-					if( (c_obj->item_type == ITEM_SCROLL) ||
-					(c_obj->item_type == ITEM_PILL) ||
-					(c_obj->item_type == ITEM_POTION) )
-						continue;
-					limit_sayisi++;
-					if(limit_sayisi > MAKSIMUM_LIMIT)
-					{
-						extract_obj( c_obj );
-						limit_sayisi--;
-					}
+          if( c_obj->item_type == ITEM_SCROLL || c_obj->item_type == ITEM_PILL || c_obj->item_type == ITEM_POTION )
+          {
+            limit_iksir_sayisi++;
+            if( limit_iksir_sayisi > MAKSIMUM_LIMIT_IKSIR_HAP_PARSOMEN)
+  					{
+  						extract_obj( c_obj );
+  						limit_iksir_sayisi--;
+  					}
+          }
+          else
+          {
+  					limit_ekipman_sayisi++;
+  					if( !(ch->cabal) && limit_ekipman_sayisi > MAKSIMUM_LIMIT_EKIPMAN)
+  					{
+  						extract_obj( c_obj );
+  						limit_ekipman_sayisi--;
+  					}
+            else if( (ch->cabal) && limit_ekipman_sayisi > MAKSIMUM_LIMIT_EKIPMAN_KABAL)
+  					{
+  						extract_obj( c_obj );
+  						limit_ekipman_sayisi--;
+  					}
+          }
 				}
 			}
 		}
 		if ( b_obj->pIndexData->limit != -1)
 		{
-			if( (b_obj->item_type == ITEM_SCROLL) ||
-				(b_obj->item_type == ITEM_PILL) ||
-				(b_obj->item_type == ITEM_POTION) )
-					continue;
-			limit_sayisi++;
-			if(limit_sayisi > MAKSIMUM_LIMIT)
-			{
-				extract_obj( b_obj );
-				limit_sayisi--;
-			}
+      if( b_obj->item_type == ITEM_SCROLL || b_obj->item_type == ITEM_PILL || b_obj->item_type == ITEM_POTION )
+      {
+        limit_iksir_sayisi++;
+        if( limit_iksir_sayisi > MAKSIMUM_LIMIT_IKSIR_HAP_PARSOMEN)
+        {
+          extract_obj( b_obj );
+          limit_iksir_sayisi--;
+        }
+      }
+      else
+      {
+  			limit_ekipman_sayisi++;
+  			if( !(ch->cabal) && limit_ekipman_sayisi > MAKSIMUM_LIMIT_EKIPMAN)
+  			{
+  				extract_obj( b_obj );
+  				limit_ekipman_sayisi--;
+  			}
+        else if( (ch->cabal) && limit_ekipman_sayisi > MAKSIMUM_LIMIT_EKIPMAN_KABAL)
+        {
+          extract_obj( b_obj );
+          limit_ekipman_sayisi--;
+        }
+      }
 		}
 	}
 
-	if ( (obj->pIndexData->limit != -1) && (limit_sayisi==MAKSIMUM_LIMIT) &&
-		((obj->item_type != ITEM_SCROLL) && (obj->item_type != ITEM_PILL) && (obj->item_type != ITEM_POTION)) )
+  if (obj->pIndexData->limit != -1)
+  {
+    if ((obj->item_type == ITEM_SCROLL) || (obj->item_type == ITEM_PILL) || (obj->item_type == ITEM_POTION))
     {
-				printf_to_char(ch,"Limit ekipman kontenjanýn dolu!\n\r");
-				return FALSE;
+      if (limit_iksir_sayisi==MAKSIMUM_LIMIT_IKSIR_HAP_PARSOMEN)
+      {
+        printf_to_char(ch,"Limit hap/parþömen/iksir kontenjanýn dolu!\n\r");
+        return FALSE;
+      }
     }
+    else
+    {
+      if (ch->cabal)
+      {
+        if (limit_ekipman_sayisi==MAKSIMUM_LIMIT_EKIPMAN_KABAL)
+        {
+          printf_to_char(ch,"Limit ekipman kontenjanýn dolu!\n\r");
+          return FALSE;
+        }
+      }
+      else
+      {
+        if (limit_ekipman_sayisi==MAKSIMUM_LIMIT_EKIPMAN)
+        {
+          printf_to_char(ch,"Limit ekipman kontenjanýn dolu!\n\r");
+          return FALSE;
+        }
+      }
+    }
+  }
 
 	return TRUE;
 }

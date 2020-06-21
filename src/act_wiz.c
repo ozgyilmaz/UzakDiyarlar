@@ -944,28 +944,23 @@ void do_disconnect( CHAR_DATA *ch, char *argument )
 
 void do_duyuru( CHAR_DATA *ch, char *argument )
 {
-    DESCRIPTOR_DATA *d;
+  DESCRIPTOR_DATA *d;
 
-    if ( argument[0] == '\0' )
-    {
-	send_to_char( "Neyi duyuracaksýn?\n\r", ch );
-	return;
-    }
-
-    for ( d = descriptor_list; d; d = d->next )
-    {
-	if ( d->connected == CON_PLAYING )
-	{
-		send_to_char( CLR_RED_BOLD,d->character);
-		send_to_char( "DUYURU: ",d->character);
-		send_to_char( CLR_GREEN_BOLD,d->character);
-	    send_to_char( argument, d->character );
-	    send_to_char( "\n\r",   d->character );
-		send_to_char( CLR_WHITE,d->character);
-	}
-    }
-
+  if ( argument[0] == '\0' )
+  {
+    send_to_char( "Neyi duyuracaksýn?\n\r", ch );
     return;
+  }
+
+  for ( d = descriptor_list; d; d = d->next )
+  {
+    if ( d->connected == CON_PLAYING )
+    {
+      printf_to_char(d->character,"{RDUYURU: {G%s{x\n\r",argument);
+    }
+  }
+
+  return;
 }
 
 
@@ -1458,7 +1453,7 @@ void do_ostat( CHAR_DATA *ch, char *argument )
 
     if ( ( obj = get_obj_world( ch, argument ) ) == NULL )
     {
-	send_to_char( "Nothing like that in hell, earth, or heaven.\n\r", ch );
+	send_to_char( "Ne bu dünyada ne de diðerinde böyle bir þey yok.\n\r", ch );
 	return;
     }
 
@@ -1494,7 +1489,7 @@ void do_ostat( CHAR_DATA *ch, char *argument )
 	obj->in_obj     == NULL    ? "(none)" : obj->in_obj->short_descr,
 	obj->carried_by == NULL    ? "(none)" :
 	    can_see(ch,obj->carried_by) ? obj->carried_by->name
-				 	: "someone",
+				 	: "birisi",
 	obj->wear_loc );
     send_to_char( buf, ch );
 
@@ -1911,11 +1906,11 @@ void do_mstat( CHAR_DATA *ch, char *argument )
 	IS_NPC(victim) ? "None" : religion_table[victim->religion].name);
     send_to_char(buf,ch);
     sprintf( buf,
-	"Lv: %d  Class: %s  Align: %s  Gold: %ld  Silver: %ld  Exp: %d\n\r",
+	"Lv: %d  Class: %s  Align: %s  Silver: %ld  Exp: %d\n\r",
 	victim->level,
 	IS_NPC(victim) ? "mobile" : class_table[victim->iclass].name[1],
 	buf2,
-	victim->gold, victim->silver, victim->exp );
+	victim->silver, victim->exp );
     send_to_char( buf, ch );
 
     sprintf(buf,"Armor: pierce: %d  bash: %d  slash: %d  magic: %d\n\r",
@@ -2059,9 +2054,8 @@ void do_mstat( CHAR_DATA *ch, char *argument )
 		victim->pcdata->questgiver,victim->pcdata->questpoints,
 		victim->pcdata->nextquest);
 	 send_to_char(buf, ch);
-	 sprintf(buf,"QuestCntDown: %d	QuestObj: %d	Questmob: %d\n\r",
-		victim->pcdata->countdown,victim->pcdata->questobj,
-		victim->pcdata->questmob);
+	 sprintf(buf,"QuestCntDown: %d	Questmob: %d\n\r",
+		victim->pcdata->countdown,victim->pcdata->questmob);
 	 send_to_char(buf, ch);
 	}
 	if  (!IS_SET(victim->act,PLR_QUESTOR))
@@ -2228,7 +2222,7 @@ void do_ofind( CHAR_DATA *ch, char *argument )
 		sprintf( buf, "[%5d] %s%s\n\r",
 		    pObjIndex->vnum, pObjIndex->short_descr,
 	(IS_OBJ_STAT(pObjIndex,ITEM_GLOW) && CAN_WEAR(pObjIndex,ITEM_WEAR_HEAD))
-		? " (Glowing)" : "" );
+		? " [parlayan]" : "" );
 		send_to_char( buf, ch );
 	    }
 	}
@@ -2294,7 +2288,7 @@ void do_owhere(CHAR_DATA *ch, char *argument )
     }
 
     if ( !found )
-        send_to_char( "Nothing like that in heaven or earth.\n\r", ch );
+        send_to_char( "Ne bu dünyada ne de diðerinde böyle bir þey yok.\n\r", ch );
     else
         page_to_char(buf_string(buffer),ch);
 
@@ -2744,7 +2738,7 @@ void do_clone(CHAR_DATA *ch, char *argument )
 	    return;
 	}
 
-	clone = create_mobile(mob->pIndexData);
+	clone = create_mobile(mob->pIndexData, NULL);
 	clone_mobile(mob,clone);
 
 	for (obj = mob->carrying; obj != NULL; obj = obj->next_content)
@@ -2820,7 +2814,7 @@ void do_mload( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    victim = create_mobile( pMobIndex );
+    victim = create_mobile( pMobIndex , NULL);
     char_to_room( victim, ch->in_room );
     act( "$n has created $N!", ch, NULL, victim, TO_ROOM );
     sprintf(buf,"$N loads %s.",victim->short_descr);
@@ -3681,7 +3675,7 @@ void do_string( CHAR_DATA *ch, char *argument )
 
    	if ( ( obj = get_obj_world( ch, arg1 ) ) == NULL )
     	{
-	    send_to_char( "Nothing like that in heaven or earth.\n\r", ch );
+	    send_to_char( "Ne bu dünyada ne de diðerinde böyle bir þey yok.\n\r", ch );
 	    return;
     	}
 
@@ -3762,7 +3756,7 @@ void do_oset( CHAR_DATA *ch, char *argument )
 
     if ( ( obj = get_obj_world( ch, arg1 ) ) == NULL )
     {
-	send_to_char( "Nothing like that in heaven or earth.\n\r", ch );
+	send_to_char( "Ne bu dünyada ne de diðerinde böyle bir þey yok.\n\r", ch );
 	return;
     }
 
@@ -4440,12 +4434,63 @@ void do_advance( CHAR_DATA *ch, char *argument )
     return;
 }
 
+void do_ikikat( CHAR_DATA *ch, char *argument )
+{
+  char arg1 [MAX_INPUT_LENGTH];
+  char arg2 [MAX_INPUT_LENGTH];
+  int value;
+
+  smash_tilde( argument );
+  argument = one_argument( argument, arg1 );
+  argument = one_argument( argument, arg2 );
+
+  if ( arg1[0] == '\0')
+  {
+    send_to_char("Kullaným:\n\r",ch);
+    send_to_char("  ikikat <tp | gp> <dakika>\n\r",ch);
+    send_to_char("Dakika olarak 0 veya pozitif bir deðer verilmelidir.\n\r",ch);
+    return;
+  }
+
+  value = is_number( arg2 ) ? atoi( arg2 ) : 0;
+
+  if (value < 0 )
+  {
+    send_to_char("Kullaným:\n\r",ch);
+    send_to_char("  ikikat <tp | gp> <dakika>\n\r",ch);
+    send_to_char("Dakika olarak 0 veya pozitif bir deðer verilmelidir.\n\r",ch);
+    return;
+  }
+
+  if ( !str_cmp( arg1, "tp" ) )
+  {
+    ikikat_tp = value;
+    if (value != 0)
+      printf_to_char(ch,"Ýki kat TP %d dakikalýðýna açýldý.", value);
+    else
+      printf_to_char(ch,"Ýki kat TP kapatýldý.");
+    return;
+  }
+
+  if ( !str_cmp( arg1, "gp" ) )
+  {
+    ikikat_gp = value;
+    if (value != 0)
+      printf_to_char(ch,"Ýki kat GP %d dakikalýðýna açýldý.", value);
+    else
+      printf_to_char(ch,"Ýki kat GP kapatýldý.");
+    return;
+  }
+
+  return;
+
+}
+
 void do_mset( CHAR_DATA *ch, char *argument )
 {
     char arg1 [MAX_INPUT_LENGTH];
     char arg2 [MAX_INPUT_LENGTH];
     char arg3 [MAX_INPUT_LENGTH];
-    char buf[100];
     CHAR_DATA *victim;
     int value,sn;
 
@@ -4459,8 +4504,8 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	send_to_char("Syntax:\n\r",ch);
 	send_to_char("  set char <name> <field> <value>\n\r",ch);
 	send_to_char( "  Field being one of:\n\r",			ch );
-	send_to_char( "    str int wis dex con cha sex class level\n\r",ch );
-	send_to_char( "    race gold silver hp mana move practice align\n\r",	ch );
+	send_to_char( "    str int wis dex con cha sex class level rkp\n\r",ch );
+	send_to_char( "    race silver hp mana move practice align\n\r",	ch );
 	send_to_char( "    train thirst drunk full hometown ethos\n\r",	ch );
 
 /*** Added By KIO ***/
@@ -4485,47 +4530,82 @@ void do_mset( CHAR_DATA *ch, char *argument )
      */
     if ( !str_cmp( arg2, "str" ) )
     {
-	if ( value < 3 || value > get_max_train(victim,STAT_STR) )
-	{
-	    sprintf(buf,
-		"Strength range is 3 to %d\n\r.",
-		get_max_train(victim,STAT_STR));
-	    send_to_char(buf,ch);
-	    return;
-	}
+    	if ( value < 3 || value > get_max_train(victim,STAT_STR) )
+    	{
+        printf_to_char(ch,"Güç 3 ile %d arasýnda olabilir.\n\r",get_max_train(victim,STAT_STR));
+        return;
+    	}
 
-	victim->perm_stat[STAT_STR] = value;
-	return;
+    	victim->perm_stat[STAT_STR] = value;
+      printf_to_char(ch,"Tamam.\n\r");
+    	return;
     }
 
     if ( !str_cmp( arg2, "int" ) )
     {
-        if ( value < 3 || value > get_max_train(victim,STAT_INT) )
-        {
-            sprintf(buf,
-		"Intelligence range is 3 to %d.\n\r",
-		get_max_train(victim,STAT_INT));
-            send_to_char(buf,ch);
-            return;
-        }
-
-        victim->perm_stat[STAT_INT] = value;
+    	if ( value < 3 || value > get_max_train(victim,STAT_INT) )
+    	{
+        printf_to_char(ch,"Zeka 3 ile %d arasýnda olabilir.\n\r",get_max_train(victim,STAT_INT));
         return;
+    	}
+
+    	victim->perm_stat[STAT_INT] = value;
+      printf_to_char(ch,"Tamam.\n\r");
+    	return;
     }
 
     if ( !str_cmp( arg2, "wis" ) )
     {
-	if ( value < 3 || value > get_max_train(victim,STAT_WIS) )
-	{
-	    sprintf(buf,
-		"Wisdom range is 3 to %d.\n\r",get_max_train(victim,STAT_WIS));
-	    send_to_char( buf, ch );
-	    return;
-	}
+    	if ( value < 3 || value > get_max_train(victim,STAT_WIS) )
+    	{
+        printf_to_char(ch,"Bilgelik 3 ile %d arasýnda olabilir.\n\r",get_max_train(victim,STAT_WIS));
+        return;
+    	}
 
-	victim->perm_stat[STAT_WIS] = value;
-	return;
+    	victim->perm_stat[STAT_WIS] = value;
+      printf_to_char(ch,"Tamam.\n\r");
+    	return;
     }
+
+    if ( !str_cmp( arg2, "dex" ) )
+    {
+    	if ( value < 3 || value > get_max_train(victim,STAT_DEX) )
+    	{
+        printf_to_char(ch,"Çeviklik 3 ile %d arasýnda olabilir.\n\r",get_max_train(victim,STAT_DEX));
+        return;
+    	}
+
+    	victim->perm_stat[STAT_DEX] = value;
+      printf_to_char(ch,"Tamam.\n\r");
+    	return;
+    }
+
+    if ( !str_cmp( arg2, "con" ) )
+    {
+    	if ( value < 3 || value > get_max_train(victim,STAT_CON) )
+    	{
+        printf_to_char(ch,"Bünye 3 ile %d arasýnda olabilir.\n\r",get_max_train(victim,STAT_CON));
+        return;
+    	}
+
+    	victim->perm_stat[STAT_CON] = value;
+      printf_to_char(ch,"Tamam.\n\r");
+    	return;
+    }
+
+    if ( !str_cmp( arg2, "cha" ) )
+    {
+    	if ( value < 3 || value > get_max_train(victim,STAT_CHA) )
+    	{
+        printf_to_char(ch,"Karizma 3 ile %d arasýnda olabilir.\n\r",get_max_train(victim,STAT_CHA));
+        return;
+    	}
+
+    	victim->perm_stat[STAT_CHA] = value;
+      printf_to_char(ch,"Tamam.\n\r");
+    	return;
+    }
+
 /*** Added By KIO  ***/
     if ( !str_cmp( arg2, "questp" ) )
     {
@@ -4542,7 +4622,6 @@ void do_mset( CHAR_DATA *ch, char *argument )
       if (value == 0)
       {
         victim->pcdata->questgiver = 0;
-        victim->pcdata->questobj = 0;
         victim->pcdata->questmob = 0;
         victim->pcdata->questroom = 0;
       }
@@ -4559,50 +4638,6 @@ void do_mset( CHAR_DATA *ch, char *argument )
 /*** Added By KIO ***/
 
 
-
-    if ( !str_cmp( arg2, "dex" ) )
-    {
-	if ( value < 3 || value > get_max_train(victim,STAT_DEX) )
-	{
-	    sprintf(buf,
-		"Dexterity ranges is 3 to %d.\n\r",
-		get_max_train(victim,STAT_DEX));
-	    send_to_char( buf, ch );
-	    return;
-	}
-
-	victim->perm_stat[STAT_DEX] = value;
-	return;
-    }
-
-    if ( !str_cmp( arg2, "con" ) )
-    {
-	if ( value < 3 || value > get_max_train(victim,STAT_CON) )
-	{
-	    sprintf(buf,
-		"Constitution range is 3 to %d.\n\r",
-		get_max_train(victim,STAT_CON));
-	    send_to_char( buf, ch );
-	    return;
-	}
-
-	victim->perm_stat[STAT_CON] = value;
-	return;
-    }
-    if ( !str_cmp( arg2, "cha" ) )
-    {
-	if ( value < 3 || value > get_max_train(victim,STAT_CHA) )
-	{
-	    sprintf(buf,
-		"Constitution range is 3 to %d.\n\r",
-		get_max_train(victim,STAT_CHA));
-	    send_to_char( buf, ch );
-	    return;
-	}
-
-	victim->perm_stat[STAT_CHA] = value;
-	return;
-    }
 
     if ( !str_prefix( arg2, "sex" ) )
     {
@@ -4672,9 +4707,9 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( !str_prefix( arg2, "gold" ) )
+    if ( !IS_NPC(victim) && !str_prefix( arg2, "rkp" ) )
     {
-	victim->gold = value;
+	victim->pcdata->rk_puani += value;
 	return;
     }
 
@@ -4774,37 +4809,6 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	victim->ethos = value;
 	return;
       }
-
-    if ( !str_prefix( arg2, "hometown" ) )
-    {
-        if ( IS_NPC(victim) )
-	{
-	    send_to_char( "Mobiles don't have hometowns.\n\r", ch );
-	    return;
-	}
-        if ( value < 0 || value > 4 )
-        {
-            send_to_char( "Please choose one of the following :.\n\r", ch );
-            send_to_char( "Town        Alignment       Value\n\r", ch);
-            send_to_char( "----        ---------       -----\n\r", ch);
-            send_to_char( "Midgaard     Any              0\n\r", ch);
-            send_to_char( "New Thalos   Any              1\n\r", ch);
-            send_to_char( "Titan        Any              2\n\r", ch);
-            send_to_char( "Ofcol        Neutral          3\n\r", ch);
-            send_to_char( "Old Midgaard Evil             4\n\r", ch);
-            return;
-        }
-
-        if ((value == 2 && !IS_GOOD(victim)) || (value == 3 &&
-	!IS_NEUTRAL(victim)) || (value == 4 && !IS_EVIL(victim)))
-        {
-            send_to_char( "The hometown doesn't match this character's alignment.\n\r", ch );
-            return;
-        }
-
-        victim->hometown = value;
-        return;
-    }
 
     if ( !str_prefix( arg2, "thirst" ) )
     {
@@ -4987,15 +4991,15 @@ void do_induct( CHAR_DATA *ch, char *argument)
       return;
 	}
 
-  if (victim->iclass == 3  && i == CABAL_SHALAFI )
+  if (victim->iclass == CLASS_WARRIOR  && i == CABAL_SHALAFI )
   {
-    act("But $N is a filthy warrior!",ch,NULL,victim,TO_CHAR);
+    act("Fakat $N pis bir büyücü!",ch,NULL,victim,TO_CHAR);
     return;
   }
 
-  if (i == CABAL_RULER && get_curr_stat(victim,STAT_INT) < 20)
+  if (i == CABAL_RULER && get_curr_stat(victim,STAT_INT) < 19)
   {
-   act("$N is not clever enough to become a Ruler!",ch,NULL,victim,TO_CHAR);
+   act("$N Tüze için yeterince zeki deðil!",ch,NULL,victim,TO_CHAR);
    return;
   }
 
@@ -5231,7 +5235,7 @@ void do_rename (CHAR_DATA* ch, char* argument)
 	char old_name[MAX_INPUT_LENGTH],
 	     new_name[MAX_INPUT_LENGTH],
 	     strsave [MAX_INPUT_LENGTH];
-
+  OBJ_DATA *obj=NULL, *obj_next;
 	CHAR_DATA* victim;
 	FILE* file;
 
@@ -5326,9 +5330,21 @@ void do_rename (CHAR_DATA* ch, char* argument)
 
 	sprintf( strsave, "%s%s", PLAYER_DIR, capitalize( victim->name ) );
 
-/*
- * NOTE: Players who are level 1 do NOT get saved under a new name
- */
+  for(obj = object_list; obj != NULL; obj = obj_next)
+  {
+    obj_next = obj->next;
+    if ( gorev_ekipmani_mi( obj ) )
+    {
+      if(strstr( obj->short_descr, victim->name))
+      {
+        extract_obj( obj );
+      }
+    }
+  }
+
+  /*
+   * NOTE: Players who are level 1 do NOT get saved under a new name
+   */
 	free_string (victim->name);
 	victim->name = str_dup (capitalize(new_name));
 
@@ -5527,8 +5543,7 @@ void do_reboot( CHAR_DATA *ch, char *argument )
 	return;
       }
      reboot_counter = atoi(arg);
-     sprintf(buf,"Uzak Diyarlar %i dakika sonra yeniden baþlatýlacak.\n\r",reboot_counter);
-     send_to_char(buf,ch);
+     printf_to_char(ch,"{cUzak Diyarlar %i dakika sonra yeniden baþlatýlacak.{x\n\r",reboot_counter);
      return;
     }
 

@@ -9,8 +9,13 @@ Highlevel 100
 Minvnum 500
 Maxvnum 510
 Path 7b 2g b k~
+Yonelim_iyi 10
+Yonelim_yansiz 80
+Yonelim_kem 10
 END
 
+#FLAG
+C
 
 #NEW_MOBILES
 #500
@@ -33,7 +38,7 @@ Aslan Adam'larýn muhafýzý giriþi koruyor.
 Seni parçalara bölebilecek pençelere sahip.
 ~
 human~
-ABKWe DFHJVZe 92
+ABKWe DFHJVZec 92
 #502
 lonca efendi~
 lonca efendisi~
@@ -91,7 +96,7 @@ aslan muhafýzý ile birlikte tatmin edici bir koruma oluþturan sarmaþýk
 kapýnýn her iki tarafýnda büyü ile aðaca iþlenmiþ kadim rün'ler tuhaf bir
 parlaklýk ile aydýnlatýyor etrafý.
 ~
-0 DX 0
+0 DX 3
 D0
 Lonca odasý.
 ~
@@ -112,7 +117,7 @@ odadasýn. Arka tarafta ufak bir bölme Lonca Efendisi'nin kiþisel eþyalarýný
 barýndýrýyor. Kapýnýn üzerinde hafif hafif parýldayan, Aslan Gözü'nü andýran
 rün dýþýnda dikkat çekici bir þey gözükmüyor.
 ~
-0 DX 0
+0 DX 3
 D0
 Mimber.
 ~
@@ -150,7 +155,7 @@ yapýmý gibi göz üken onlarca figür baþka bir efsaneyi anlatýyor. Holün
 sonunda sarmaþýklarýn ve ahþap iþçiliðinin ortak eseri spiral bir merdiven
 yukarýya çýkýyor. Batý'da Ormana çýkýþ, doðuda ise Aðacýn Kalbi var.
 ~
-0 DX 0
+0 DX 3
 E
 iþlemelerle kaplý duvar~
 Duvara ilk bakýþýnda basit rölyeflerle karþý karþýya olduðunu dþünmene
@@ -176,7 +181,7 @@ oluþtuðu gösteriyor. Sað tarafta Aslanlarýn kutsal silahlarý için yapýlmýþ
 arý kovanýna benzer bölümler sol tarafta ise diðer eþyalarýn saklanmasý için
 kullanýlan bir kaç raf göze çarpýyor.
 ~
-0 DX 0
+0 DX 3
 D1
 Yüce lonca odasý.
 ~
@@ -195,7 +200,7 @@ aðacýnýn diðer bölümlerinin aksine buraya gündüz yaþam veren güneþ'in
 kemikleri ýsýtan ýþýðý, gece ise göz kýrpan yýldýzlarýn ve cömert ýþýðýndan
 dünyayý mahrum etmeyen Luna'nýn parýltýsý olanca saflýðý ile düþüyor.
 ~
-0 DX 0
+0 DX 3
 D2
 Antre.
 ~

@@ -153,6 +153,7 @@ const	struct	cmd_type	cmd_table	[] =
   { "dilek",	do_dilek,       POS_RESTING,     0,  LOG_NORMAL, 1 , CMD_KEEP_HIDE | CMD_GHOST},
   { "dinlen",		do_rest,	POS_SLEEPING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
   { "direnç",     do_resistance,  POS_FIGHTING,    0,  LOG_NORMAL, 0,0 },
+  { "diril",     do_diril,  POS_RESTING,    0,  LOG_NORMAL, 1,CMD_GHOST},
   { "disconnect",	do_disconnect,	POS_DEAD,	L3,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "doðra",        do_butcher,     POS_STANDING,    0,  LOG_NORMAL, 1,0 },
   { "dök",		do_pour,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_KEEP_HIDE },
@@ -161,7 +162,7 @@ const	struct	cmd_type	cmd_table	[] =
   { "dua",           do_pray,        POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "dump",		do_dump,	POS_DEAD,	ML,  LOG_ALWAYS, 0, CMD_KEEP_HIDE|CMD_GHOST },
   { "duygu",		do_emote,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
-  { "duyuru",		do_duyuru,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { "duyuru",		do_duyuru,	POS_DEAD,	IM,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "eðitim",		do_train,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
   { "ekipman",	do_equipment,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "emret",		do_order,	POS_RESTING,	 0,  LOG_NORMAL, 1,0},
@@ -173,7 +174,7 @@ const	struct	cmd_type	cmd_table	[] =
   { "find",		do_find,	POS_DEAD,	ML,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "fýrlat",          do_throw,       POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
   { "flag",		do_flag,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "force",		do_force,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { "force",		do_force,	POS_DEAD,	L6,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "freeze",		do_freeze,	POS_DEAD,	L7,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "gir", 		do_enter, 	POS_STANDING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
   { "giy",		do_wear,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
@@ -193,6 +194,7 @@ const	struct	cmd_type	cmd_table	[] =
   { "hedef",		do_target,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
   { "holylight",	do_holylight,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "iç",		do_drink,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
+  { "ikikat",	do_ikikat,	POS_DEAD,	L6,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "immtalk",	do_immtalk,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "incele",	do_examine,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
   { "incognito",	do_incognito,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
@@ -285,7 +287,7 @@ const	struct	cmd_type	cmd_table	[] =
   { "omuz",		do_bash,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
   { "onar",	do_smithing,	POS_RESTING,	 0,  LOG_NORMAL, 1,0},
   { "otoliste",	do_autolist,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "otosikke",	do_autogold,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { "otoakçe",	do_autoakce,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "otoçýkýþ",	do_autoexit,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "otodaðýt",	do_autosplit,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
   { "otodestek",	do_autoassist,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
@@ -767,7 +769,7 @@ bool check_social( CHAR_DATA *ch, char *command, char *argument )
 	&&   IS_AWAKE(victim)
 	&&   victim->desc == NULL)
 	{
-	    switch ( number_bits( 4 ) )
+	    switch ( number_range(0,15) )
 	    {
 	    case 0:
 

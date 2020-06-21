@@ -9,7 +9,11 @@ Highlevel 110
 Minvnum 20000
 Maxvnum 20099
 Path ~
+Yonelim_iyi 33
+Yonelim_yansiz 34
+Yonelim_kem 33
 END
+
 #HELPS
 -1 spirit~
 River of spirits.
@@ -18,9 +22,9 @@ Special thanx to Serdar & Anatolia Consortium~
 0 $~
 #OBJECTS
 #20066
-eldivenler ateþ alev kadim~
-bir çift alevden kadim eldiven~
-Bir çift alevden eldiven yerde yanýyor.~
+eldiven qualyn alev kadim~
+Qualyn'in bir çift alevden eldiveni~
+Kayýp bir ruha ait bir çift alevden eldiven yerde yanýyor.~
 fire~
 armor 0 AH
 36 42 42 30 30
@@ -112,9 +116,9 @@ wand G AO
 50 15 15 'lightning breath' 0
 55 2 28000 P
 #20002
-alev ejderha nefes~
-bir ejderhanýn alevden nefesi~
-Çok parlak, sürekli bir alev..~
+alev xen nefes~
+Xen'in alev nefesi~
+Kadim bir ejderha efendisine ait bir nefes burada dinleniyor.~
 fire~
 armor AG AB
 0 0 -1 0 0
@@ -128,9 +132,9 @@ A
 A
 24 -5
 #20001
-kýrbaç dehþet ejderha~
-kayýp bir ejderhanýn dehþeti~
-Kýrbaç þekline bürünmüþ bir dehþet parçacýðý burada uzanýyor.~
+kýrbaç dehþet teosaki~
+Teosaki'nin dehþeti~
+Kayýp bir ruha ait kýrbaç þekline bürünmüþ bir dehþet parçacýðý uzanýyor.~
 none~
 weapon M AN
 whip 20 6 whip DCE

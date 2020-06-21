@@ -111,10 +111,6 @@ extern	int	malloc_debug	args( ( int  ) );
 extern	int	malloc_verify	args( ( void ) );
 #endif
 
-int sex_ok( CHAR_DATA *ch , int iclass);
-int class_ok( CHAR_DATA *ch , int iclass);
-
-
 /*
  * Signal handling.
  * Apollo has a problem with __attribute(atomic) in signal.h,
@@ -138,7 +134,7 @@ int class_ok( CHAR_DATA *ch , int iclass);
  * Socket and TCP/IP stuff.
  */
 #if	defined(macintosh) || defined(MSDOS)
-//const	char	echo_off_str	[] = { '\0' };
+const	char	echo_off_str	[] = { '\0' };
 const	char	echo_on_str	[] = { '\0' };
 const	char 	go_ahead_str	[] = { '\0' };
 #endif
@@ -149,7 +145,7 @@ const	char 	go_ahead_str	[] = { '\0' };
 #include <netinet/in.h>
 #include <sys/socket.h>
 #include "telnet.h"
-//const	char	echo_off_str	[] = { IAC, WILL, TELOPT_ECHO, '\0' };
+const	char	echo_off_str	[] = { IAC, WILL, TELOPT_ECHO, '\0' };
 const	char	echo_on_str	[] = { IAC, WONT, TELOPT_ECHO, '\0' };
 const	char 	go_ahead_str	[] = { IAC, GA, '\0' };
 #endif
@@ -618,6 +614,8 @@ void game_loop_mac_msdos( void )
 	    if ( d->incomm[0] != '\0' )
 	    {
 		d->fcommand	= TRUE;
+		if ( d->pProtocol != NULL )
+        d->pProtocol->WriteOOB = 0;
 		stop_idling( d->character );
 
 		if ( d->connected == CON_PLAYING )
@@ -832,6 +830,8 @@ void game_loop_unix( int control )
 	    if ( d->incomm[0] != '\0' )
 	    {
 		d->fcommand	= TRUE;
+		if ( d->pProtocol != NULL )
+        d->pProtocol->WriteOOB = 0;
 		stop_idling( d->character );
 
 		if (d->showstr_point)
@@ -964,6 +964,7 @@ void init_descriptor( int control )
     dnew->showstr_point = NULL;
     dnew->outsize	= 2000;
     dnew->outbuf	= (char *)alloc_mem( dnew->outsize );
+		dnew->pProtocol     = ProtocolCreate();
 
     size = sizeof(sock);
     if ( getpeername( desc, (struct sockaddr *) &sock, &size ) < 0 )
@@ -1012,6 +1013,8 @@ void init_descriptor( int control )
      */
     dnew->next			= descriptor_list;
     descriptor_list		= dnew;
+
+		ProtocolNegotiate(dnew);
 
     /*
      * Send the greeting.
@@ -1098,6 +1101,8 @@ void close_socket( DESCRIPTOR_DATA *dclose )
 	    bug( "Close_socket: dclose not found.", 0 );
     }
 
+		ProtocolDestroy( dclose->pProtocol );
+
     close( dclose->descriptor );
     free_descriptor(dclose);
 #if defined(MSDOS) || defined(macintosh)
@@ -1112,13 +1117,16 @@ bool read_from_descriptor( DESCRIPTOR_DATA *d )
 {
     size_t iStart;
 
+		static char read_buf[MAX_PROTOCOL_BUFFER];
+    read_buf[0] = '\0';
+
     /* Hold horses if pending command already. */
     if ( d->incomm[0] != '\0' )
 	return TRUE;
 
     /* Check for overflow. */
-    iStart = strlen(d->inbuf);
-    if ( iStart >= sizeof(d->inbuf) - 10 )
+		iStart = 0;
+    if ( strlen(d->inbuf) >= sizeof(d->inbuf) - 10 )
     {
 	sprintf( log_buf, "%s input overflow!", d->host );
 	log_string( log_buf );
@@ -1136,9 +1144,10 @@ bool read_from_descriptor( DESCRIPTOR_DATA *d )
 	if ( c == '\0' || c == EOF )
 	    break;
 	putc( c, stdout );
+
 	if ( c == '\r' )
 	    putc( '\n', stdout );
-	d->inbuf[iStart++] = c;
+	read_buf[iStart++] = c;
 	if ( iStart > sizeof(d->inbuf) - 10 )
 	    break;
     }
@@ -1149,12 +1158,11 @@ bool read_from_descriptor( DESCRIPTOR_DATA *d )
     {
 	int nRead;
 
-	nRead = read( (int)d->descriptor, (void *)(d->inbuf + iStart),
-	    sizeof(d->inbuf) - 10 - iStart );
+	nRead = read( (int)d->descriptor, (void *)(read_buf + iStart),sizeof(read_buf) - 10 - iStart );
 	if ( nRead > 0 )
 	{
 	    iStart += nRead;
-	    if ( d->inbuf[iStart-1] == '\n' || d->inbuf[iStart-1] == '\r' )
+	    if ( read_buf[iStart-1] == '\n' || read_buf[iStart-1] == '\r' )
 		break;
 	}
 	else if ( nRead == 0 )
@@ -1176,7 +1184,8 @@ bool read_from_descriptor( DESCRIPTOR_DATA *d )
     }
 #endif
 
-    d->inbuf[iStart] = '\0';
+		read_buf[iStart] = '\0';
+    ProtocolInput( d, read_buf, iStart, d->inbuf );
     return TRUE;
 }
 
@@ -1315,7 +1324,9 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
     /*
      * Bust a prompt.
      */
-    if (!merc_down && d->showstr_point)
+		 if ( d->pProtocol->WriteOOB ) /* <-- Add this, and the ";" and "else" */
+         ; /* The last sent data was OOB, so do NOT draw the prompt */
+     else if (!merc_down && d->showstr_point)
 	write_to_buffer(d,"\r[Devam etmek için ENTER]\n\r",0);
     else if (fPrompt && !merc_down && d->connected == CON_PLAYING)
     {
@@ -1368,6 +1379,9 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
 
         if ( IS_SET(ch->comm, COMM_PROMPT) )
             bust_a_prompt( d->character );
+
+				if ( !d->pProtocol->bSGA )
+					write_to_buffer( d, GoAheadStr, 0 );
 
 	if (IS_SET(ch->comm,COMM_TELNET_GA))
 	    write_to_buffer(d,go_ahead_str,0);
@@ -1522,9 +1536,6 @@ void bust_a_prompt( CHAR_DATA *ch )
 	    sprintf(buf2, "%d",
 		IS_NPC(ch) ? 0 : exp_to_level(ch,ch->pcdata->points) );
 	    i = buf2; break;
-         case 'g' :
-            sprintf( buf2, "%ld", ch->gold);
-            i = buf2; break;
 	 case 's' :
 	    sprintf( buf2, "%ld", ch->silver);
 	    i = buf2; break;
@@ -1574,6 +1585,11 @@ void bust_a_prompt( CHAR_DATA *ch )
  */
 void write_to_buffer( DESCRIPTOR_DATA *d, const char *txt, int length )
 {
+
+	txt = ProtocolOutput( d, txt, &length );
+	if ( d->pProtocol->WriteOOB > 0 )
+		--d->pProtocol->WriteOOB;
+
     /*
      * Find length in case caller didn't.
      */
@@ -1583,7 +1599,7 @@ void write_to_buffer( DESCRIPTOR_DATA *d, const char *txt, int length )
     /*
      * Initial \n\r if needed.
      */
-    if ( d->outtop == 0 && !d->fcommand )
+		 if ( d->outtop == 0 && !d->fcommand && !d->pProtocol->WriteOOB )
     {
 	d->outbuf[0]	= '\n';
 	d->outbuf[1]	= '\r';
@@ -1693,9 +1709,6 @@ int check_name_connected(DESCRIPTOR_DATA *inp, char *argument)
 }
 
 
-int align_restrict( CHAR_DATA *ch );
-int hometown_check( CHAR_DATA *ch );
-int hometown_ok( CHAR_DATA *ch, int home );
 int ethos_check( CHAR_DATA *ch );
 
 /*
@@ -1705,7 +1718,6 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 {
     DESCRIPTOR_DATA *d_old, *d_next;
     char buf[MAX_STRING_LENGTH];
-    char buf1[MAX_STRING_LENGTH];
     char arg[MAX_INPUT_LENGTH];
     CHAR_DATA *ch;
     char *pwdnew;
@@ -1822,6 +1834,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	{
 	    /* Old player */
  	    write_to_buffer( d, "Parola: ", 0 );
+			ProtocolNoEcho( d, true );
 	    d->connected = CON_GET_OLD_PASSWORD;
 	    return;
 	}
@@ -1887,6 +1900,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    else
 		{
  	    	 write_to_buffer( d, "Þifre: ", 0 );
+				 ProtocolNoEcho( d, true );
 	    	 d->connected = CON_GET_OLD_PASSWORD;
 		 ch->endur++;
 		}
@@ -1903,7 +1917,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	}
 
 
-	write_to_buffer( d, (char *) echo_on_str, 0 );
+	ProtocolNoEcho( d, false );
 
 	if ( check_reconnect( d, ch->name, TRUE ) )
 	    return;
@@ -1962,34 +1976,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 		  d->host );
 	  log_string( log_buf );
 
-	/* removing the punishment for the sake of players
-
-	  for (obj = ch->carrying; obj != NULL; obj = inobj) {
-	    inobj = obj->next_content;
-	    extract_obj_nocount(obj);
-	  }
-
-	  for (obj_count = 0; obj_count < MAX_STATS; obj_count++)
-	    ch->perm_stat[obj_count]--;
-
-	  save_char_obj(ch);
-	*/
 	  send_to_char("The gods frown upon your actions.\n\r",ch);
-	}
-
-	if (ch->version == 6)
-	{
-	    if (ch->iclass == CLASS_INVOKER
-		 || ch->iclass == CLASS_TRANSMUTER) /* warlock and witch */
-	    {
-		ch->practice += ch->level / 3;
-		do_help(ch, (char*)"new classes");
-	        write_to_buffer( d,
-		"What is your class (Invoker/Transmuter/Elementalist)? ", 0 );
-		d->connected = CON_NEW_CLASSES;
-		break;
-	    }
-
 	}
 
 	break;
@@ -2014,13 +2001,6 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    write_to_buffer( d,
 				"Bu bir sýnýf deðil.\n\r"
 				"Sýnýfýnýz NEDÝR (Gan/Biçimci/Ögeci)? ", 0 );
-	    return;
-	}
-
-	if (!class_ok(ch,iClass))
-	{
-	    write_to_buffer( d,
-				"Bu sýnýf ýrkýnýz veya cinsiyetinize uygun deðil.\n\rBaþka bir tane seçin: ",0);
 	    return;
 	}
 
@@ -2091,6 +2071,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	switch ( *argument )
 	{
 		case 'e': case 'E':
+		ProtocolNoEcho( d, true );
 	sprintf( buf, "\n\rTeþekkürler.\n\r%s karakteri için bir þifre girin: ",
 		ch->name );
 	    write_to_buffer( d, buf, 0 );
@@ -2154,7 +2135,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    return;
 	}
 
-	write_to_buffer( d, (char *) echo_on_str, 0 );
+	ProtocolNoEcho( d, false );
 	sprintf(buf,
 "Uzak Diyarlar Mud %d farklý ýrka ev sahipliði yapar. Irklarýn özeti:",
 			MAX_PC_RACE - 1);
@@ -2224,16 +2205,8 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	for (i=0; i < MAX_STATS;i++)
 	      ch->mod_stat[i] = 0;
 
-	/* Add race stat modifiers
-	for (i = 0; i < MAX_STATS; i++)
-	    ch->mod_stat[i] += pc_race_table[race].stats[i];	*/
-
-	/* Add race modifiers */
-	ch->max_hit += pc_race_table[race].hp_bonus;
 	ch->hit = ch->max_hit;
-	ch->max_mana += pc_race_table[race].mana_bonus;
 	ch->mana = ch->max_mana;
-	ch->practice += pc_race_table[race].prac_bonus;
 
 	ch->detection   = ch->affected_by|race_table[race].det;
 	ch->affected_by = ch->affected_by|race_table[race].aff;
@@ -2246,16 +2219,18 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	/* add skills */
 	for (i = 0; i < 5; i++)
 	{
-	    if (pc_race_table[race].skills[i] == NULL)
+	    if (race_table[race].skills[i] == NULL)
 	 	break;
-	    ch->pcdata->learned[skill_lookup(pc_race_table[race].skills[i])]
+	    ch->pcdata->learned[skill_lookup(race_table[race].skills[i])]
 	      = 100;
 	}
 	/* add cost */
 
-	ch->pcdata->points = pc_race_table[race].points;
+	ch->pcdata->points = race_table[race].points;
 
 	ch->size = race_table[race].size;
+
+	ch->pcdata->familya[race] = 75;
 
 	write_to_buffer( d, "\n\rIrk seçimi tamam.\n\rPeki karakterin cinsiyeti ne olsun ( E - K )? ", 0 );
         d->connected = CON_GET_NEW_SEX;
@@ -2281,11 +2256,8 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	strcpy( buf, "Bir sýnýf seçin:\n\r[ " );
 	for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
 	{
-	  if (class_ok(ch,iClass))
-	    {
-	     strcat( buf, class_table[iClass].name[1] );
-	     strcat( buf, " ");
-	    }
+	  strcat( buf, class_table[iClass].name[1] );
+	  strcat( buf, " ");
 	}
 	strcat( buf, "]\n\r " );
 	write_to_buffer( d, buf, 0 );
@@ -2298,7 +2270,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	iClass = class_lookup(argument);
 	argument = one_argument(argument,arg);
 
-	if (!str_cmp(arg,"help"))
+	if (!str_cmp(arg,"yardým"))
 	  {
 	    if (argument[0] == '\0')
 		do_help(ch,(char*)"sýnýflar");
@@ -2316,13 +2288,6 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    return;
 	}
 
-	if (!class_ok(ch,iClass))
-	  {
-	    write_to_buffer( d,
-				"Karakterinin ýrkýna uygun olmayan bir sýnýf seçtin.\n\rLütfen baþka bir tane seç: ",0);
-	    return;
-	  }
-
         ch->iclass = iClass;
 
 	ch->pcdata->points += class_table[iClass].points;
@@ -2330,85 +2295,22 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	write_to_buffer(d, buf, 0 );
 
 	for (i=0; i < MAX_STATS; i++)
-	  {
-	   ch->perm_stat[i] = number_range(10,
-( 20 + pc_race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i]) );
-	  ch->perm_stat[i] = UMIN(25, ch->perm_stat[i]);
-	  }
+	{
+		ch->perm_stat[i] = get_max_train(ch,i);
+	}
 
-		sprintf(buf,"Güç:%2d  Zek:%2d  Bil:%2d  Çev:%2d  Bün:%2d  Kar:%2d \n\r Kabul (E/H)? ",
-        get_curr_stat(ch, STAT_STR),
-        get_curr_stat(ch, STAT_INT),
-        get_curr_stat(ch, STAT_WIS),
-        get_curr_stat(ch, STAT_DEX),
-        get_curr_stat(ch, STAT_CON),
-        get_curr_stat(ch, STAT_CHA) );
+	ch->perm_stat[STAT_CHA] = 15;
 
-
-	do_help(ch,(char*)"nitelik");
-	write_to_buffer(d,"\n\rÞimdi sýra nitelik zarlarýný atmada. Uzak Diyarlar'da\n\r",0);
-	write_to_buffer(d,"6 karakter niteliði vardýr. Bunlar:\n\r\n\r",0);
-	write_to_buffer(d,"Güç, Zeka, Bilgelik, Çeviklik, Bünye, Karizma\n\r\n\r",0);
-	write_to_buffer(d,"Her niteliðin karaktere saðladýðý avantajlar farklýdýr.\n\r",0);
-	write_to_buffer(d,"Ayrýntýlý bilgiyi www.uzakdiyarlar.net adresinde bulabilirsin.\n\r\n\r",0);
-	write_to_buffer(d, buf,0);
-	d->connected = CON_ACCEPT_STATS;
+	write_to_buffer( d, "\n\r", 2 );
+	write_to_buffer( d, "Sýra geldi karakterin için yönelim seçmeye. Yönelim, basit\n\r",0);
+	write_to_buffer( d, "bir ifadeyle karakterin topluma ve doðaya karþý davranýþ\n\r",0);
+	write_to_buffer( d, "biçimini belirler. Ayrýntýlý bilgiye siteden ulaþabilirsin.\n\r\n\r",0);
+	write_to_buffer( d, "Üç çeþit yönelim vardýr:\n\r",0);
+	write_to_buffer( d, "iyi, yansýz ve kem\n\r\n\r",0);
+	write_to_buffer( d, "Karakterinin yöneliminin ne olmasýný istiyorsun ( i - y - k )? ",0);
+	d->connected = CON_GET_ALIGNMENT;
 	break;
 
-      case CON_ACCEPT_STATS:
-	switch( argument[0] )
-	  {
-	  case 'Y': case 'y': case '?':
-	    do_help(ch,(char*)"nitelik");
-	    break;
-	  case 'e': case 'E':
-	    for (i=0; i < MAX_STATS;i++)
-	      ch->mod_stat[i] = 0;
-	    write_to_buffer( d, "\n\r", 2 );
-	    if (!align_restrict(ch) )
-	    {
-				write_to_buffer( d, "Sýra geldi karakterin için yönelim seçmeye. Yönelim, basit\n\r",0);
-				write_to_buffer( d, "bir ifadeyle karakterin topluma ve doðaya karþý davranýþ\n\r",0);
-				write_to_buffer( d, "biçimini belirler. Ayrýntýlý bilgiye siteden ulaþabilirsin.\n\r\n\r",0);
-				write_to_buffer( d, "Üç çeþit yönelim vardýr:\n\r",0);
-				write_to_buffer( d, "iyi, yansýz ve kem\n\r\n\r",0);
-				write_to_buffer( d, "Karakterinin yöneliminin ne olmasýný istiyorsun ( i - y - k )? ",0);
-	    d->connected = CON_GET_ALIGNMENT;
-	    }
-	    else
-	    {
-	     write_to_buffer( d, "[Devam etmek için ENTER]\n\r",0);
-	     ch->endur = 100;
-	     d->connected = CON_PICK_HOMETOWN;
-	    }
-	    break;
-
-	  case 'h': case 'H':
-
-	for (i=0; i < MAX_STATS; i++)
-	  {
-	   ch->perm_stat[i] = number_range(10,
-( 20 + pc_race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i]) );
-	  ch->perm_stat[i] = UMIN(25, ch->perm_stat[i]);
-	  }
-
-		sprintf(buf,"Güç:%2d  Zek:%2d  Bil:%2d  Çev:%2d  Bün:%2d  Kar:%2d \n\r Kabul (E/H)? ",
-        get_curr_stat(ch, STAT_STR),
-        get_curr_stat(ch, STAT_INT),
-        get_curr_stat(ch, STAT_WIS),
-        get_curr_stat(ch, STAT_DEX),
-        get_curr_stat(ch, STAT_CON),
-        get_curr_stat(ch, STAT_CHA) );
-
-	    write_to_buffer(d, buf,0);
-	    d->connected = CON_ACCEPT_STATS;
-	    break;
-
-	  default:
-		write_to_buffer(d,"Cevap (E/H)? ",0);
-	    break;
-	  }
-	break;
 
       case CON_GET_ALIGNMENT:
 	switch( argument[0])
@@ -2432,68 +2334,9 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	  }
           write_to_buffer( d, "\n\r[Devam etmek için ENTER]\n\r",0);
           ch->endur = 100;
-          d->connected = CON_PICK_HOMETOWN;
+					ch->hometown = 0;
+          d->connected = CON_GET_ETHOS;
 	break;
-
-      case CON_PICK_HOMETOWN:
-	sprintf(buf1,", [O]fcol");
-	sprintf(buf,"[S]elenge, Yeni [T]halos%s?",
-		IS_NEUTRAL(ch) ? buf1 : "");
-	if ( ch->endur )
-	 {
-	  ch->endur = 0;
-	  if (!hometown_check(ch))
-	   {
-	    do_help(ch,(char*)"memleket");
-            write_to_buffer( d, buf,0);
-	    d->connected = CON_PICK_HOMETOWN;
-	    return;
-	   }
-          else
-	   {
-            write_to_buffer( d, "[Devam etmek için ENTER]\n\r",0);
-	    ch->endur = 100;
-	    d->connected = CON_GET_ETHOS;
-	   }
-          break;
-	 }
-	switch(argument[0])
-         {
-	  case 'Y' : case 'y' : case '?' :
-		do_help(ch, (char*)"memleket");
-                write_to_buffer( d, buf,0);
-		return;
-	  case 'S' : case 's' :
-		if (hometown_ok(ch,0))
-		 {
-		  ch->hometown = 0;
-		  write_to_buffer(d,"Bundan böyle memleketin Selenge.\n\r",0);
-		  break;
-		 }
- 	  case 'T' : case 't' :
-		if (hometown_ok(ch,1))
-		 {
-		  ch->hometown = 1;
-		  write_to_buffer(d,"Bundan böyle memleketin Yeni Thalos.\n\r",0);
-		  break;
-		 }
-	  case 'O' : case 'o' :
-		if (hometown_ok(ch,3))
-		 {
-		  ch->hometown = 3;
-		  write_to_buffer(d,"Bundan böyle memleketin Ofcol.\n\r",0);
-		  break;
-		 }
-	  default:
-	   write_to_buffer(d, "\n\rGeçerli bir þehir seçmedin.\n\r", 0);
-	   write_to_buffer(d,
-		"Memleketin neresi olsun (bilgi: www.uzakdiyarlar.net)? ", 0);
-	   return;
-	 }
-        ch->endur = 100;
-        write_to_buffer( d, "\n\r[Devam etmek için ENTER]\n\r",0);
-        d->connected = CON_GET_ETHOS;
-        break;
 
       case CON_GET_ETHOS:
 	if ( !ch->endur )
@@ -2529,7 +2372,14 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	  ch->endur = 0;
 	  if (!ethos_check(ch))
 	   {
-			 write_to_buffer(d, "Etiðin ne olsun, (T/Y/K) (bilgi: www.uzakdiyarlar.net)?",0);
+				 write_to_buffer( d, "Sýra geldi karakterin için etik seçmeye. Etik, basit\n\r",0);
+				 write_to_buffer( d, "bir ifadeyle karakterin kanunlara karþý davranýþ\n\r",0);
+				 write_to_buffer( d, "biçimini belirler. Ayrýntýlý bilgiye siteden ulaþabilirsin.\n\r\n\r",0);
+				 write_to_buffer( d, "Üç çeþit etik vardýr:\n\r",0);
+				 write_to_buffer( d, "Tüze: kanunlarýn toplum yaþamý için vazgeçilmez olduðuna inanýr.\n\r",0);
+				 write_to_buffer( d, "Yansýz: kanunlarýn varlýðý veya yokluðuyla ilgilenmez.\n\r",0);
+				 write_to_buffer( d, "Kaos: kanunlarýn özgürlüðün ve iradenin önünde engel olduðuna inanýr.\n\r\n\r",0);
+				 write_to_buffer( d, "Karakterinin etiðinin ne olmasýný istiyorsun ( t - y - k )? ",0);
 	    d->connected = CON_GET_ETHOS;
 	    return;
 	   }
@@ -2570,6 +2420,14 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	ch->next	= char_list;
 	char_list	= ch;
 	d->connected	= CON_PLAYING;
+	if( ikikat_tp > 0 )
+	{
+			printf_to_char( ch , "\n\r{CÝki kat TP kazanma etkinliði etkin. Kalan süre %d dakika.{x\n\r\n\r" , ikikat_tp );
+	}
+	if( ikikat_gp > 0 )
+	{
+			printf_to_char( ch , "\n\r{CÝki kat GP kazanma etkinliði etkin. Kalan süre %d dakika.{x\n\r\n\r" , ikikat_gp );
+	}
 	ud_data_write();
 
 	/*
@@ -2603,9 +2461,9 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	if ( ch->level == 0 )
 	{
-	    int l;
+	    int l, today, day;
 			SET_BIT(ch->act,PLR_AUTOEXIT);
-			SET_BIT(ch->act,PLR_AUTOGOLD);
+			SET_BIT(ch->act,PLR_AUTOAKCE);
 	    ch->level	= 1;
 	    ch->exp     = base_exp(ch,ch->pcdata->points);
 	    ch->hit	= ch->max_hit;
@@ -2625,21 +2483,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    obj_to_char(create_object(get_obj_index(OBJ_VNUM_MAP),0),ch);
 	    obj_to_char(create_object(get_obj_index(OBJ_VNUM_NMAP1),0),ch);
 	    obj_to_char(create_object(get_obj_index(OBJ_VNUM_NMAP2),0),ch);
-
-	    if ( ch->hometown == 0 && IS_EVIL(ch) )
-	      obj_to_char(create_object(get_obj_index(OBJ_VNUM_MAP_SM),0),ch);
-
-	    if (ch->hometown == 1)
-	      obj_to_char(create_object(get_obj_index(OBJ_VNUM_MAP_NT),0),ch);
-
-	    if (ch->hometown == 3)
-      obj_to_char(create_object(get_obj_index(OBJ_VNUM_MAP_OFCOL),0),ch);
-
-	    if (ch->hometown == 2)
-      obj_to_char(create_object(get_obj_index(OBJ_VNUM_MAP_TITAN),0),ch);
-
-	    if (ch->hometown == 4)
-      obj_to_char(create_object(get_obj_index(OBJ_VNUM_MAP_OLD),0),ch);
+			obj_to_char(create_object(get_obj_index(OBJ_VNUM_MAP_SM),0),ch);
 
  	    ch->pcdata->learned[get_weapon_sn(ch,FALSE)]= 40;
 
@@ -2648,11 +2492,24 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    do_help(ch, (char*)"yeni oyuncu");
 	    send_to_char("\n\r",ch);
 
-	    /* give some bonus time */
+	    /* son 14 gun icin birer saat oynama suresi bonus olarak verilsin. */
+			today = parse_date( current_time );
 	    for( l=0; l < MAX_TIME_LOG; l++)
-		ch->pcdata->log_time[l] = 60;
+			{
+				day = ((365 + today - l) % 365);
+				ch->pcdata->log_date[l]	= day ? day : 365;
+				ch->pcdata->log_time[l] = 60;
+			}
 
 	    do_outfit(ch,(char*)"");
+			if( ikikat_tp > 0 )
+			{
+					printf_to_char( ch , "\n\r{CÝki kat TP kazanma etkinliði etkin. Kalan süre %d dakika.{x\n\r\n\r" , ikikat_tp );
+			}
+			if( ikikat_gp > 0 )
+			{
+					printf_to_char( ch , "\n\r{CÝki kat GP kazanma etkinliði etkin. Kalan süre %d dakika.{x\n\r\n\r" , ikikat_gp );
+			}
 	}
 	else if ( ch->in_room != NULL )
 	{
@@ -2682,6 +2539,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	reset_char(ch);
 	if  (!IS_IMMORTAL(ch))
 		act( "$n mud'a giriþ yaptý.", ch, NULL,NULL, TO_ROOM );
+	MXPSendTag( d, "<VERSION>" );
 	wiznet("$N gerçekliðe giriþ yaptý.",ch,NULL,WIZ_LOGINS,0,0);
 
 	if ( ch->exp < (exp_per_level(ch,ch->pcdata->points) * ch->level ) )
@@ -2697,42 +2555,42 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	if (IS_QUESTOR(ch) && ch->pcdata->questmob == 0)
 	{
 	  ch->pcdata->nextquest = ch->pcdata->countdown;
-	  ch->pcdata->questobj = 0;
 	  REMOVE_BIT(ch->act,PLR_QUESTOR);
+	}
+	if(!IS_NPC(ch) && ch->pcdata->familya[ch->pcdata->race]<75)
+	{
+		ch->pcdata->familya[ch->pcdata->race] = 75;
 	}
 
 	if (IS_SET(ch->act,PLR_NO_EXP))	REMOVE_BIT(ch->act,PLR_NO_EXP);
        if (IS_SET(ch->act,PLR_CHANGED_AFF)) REMOVE_BIT(ch->act,PLR_CHANGED_AFF);
 
-        for (i = 0; i < MAX_STATS; i++)
+  for (i = 0; i < MAX_STATS; i++)
 	{
-	    if ( ch->perm_stat[i] >
-(20 + pc_race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i] ))
-	  {
-	   ch->train += ( ch->perm_stat[i] -
-(20 + pc_race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i] ));
-	   ch->perm_stat[i] =
-    20 + pc_race_table[ORG_RACE(ch)].stats[i] + class_table[ch->iclass].stats[i];
-	  }
+	    if ( ch->perm_stat[i] > get_max_train(ch,i) )
+			{
+				ch->train += ( ch->perm_stat[i] - get_max_train(ch,i) );
+				ch->perm_stat[i] = get_max_train(ch,i);
+			}
 	}
 
 	do_look( ch, (char*)"auto" );
 
-	if (ch->gold > 10000 && !IS_IMMORTAL(ch))
+	if (ch->silver > 10000 && !IS_IMMORTAL(ch))
 	{
-	    sprintf(buf,"Ne yazýk ki baþkanýn açacaðý yeni bar için %ld altýn vergi ödemeniz gerekiyor.\n\r",
-		(ch->gold - 10000) / 2);
+	    sprintf(buf,"Baþkanýn açacaðý yeni bar için %ld akçe vergi ödemeniz gerekiyor.\n\r",
+		(ch->silver - 10000) / 2);
 	    send_to_char(buf,ch);
-	    ch->gold -= (ch->gold - 10000) / 2;
+	    ch->silver -= (ch->silver - 10000) / 2;
 	}
 
 
-	if (ch->pcdata->bank_g > 400000 && !IS_IMMORTAL(ch))
+	if (ch->pcdata->bank_s > 100000 && !IS_IMMORTAL(ch))
 	{
-		sprintf(buf,"Ne yazýk ki sultanýn savaþ giderleri için %ld altýn vergi ödemeniz gerekiyor.\n\r",
-		(ch->pcdata->bank_g - 400000) );
+		sprintf(buf,"Ne yazýk ki sultanýn savaþ giderleri için %ld akçe vergi ödemeniz gerekiyor.\n\r",
+		(ch->pcdata->bank_s - 100000) / 10 );
 	    send_to_char(buf,ch);
-	    ch->pcdata->bank_g = 400000;
+	    ch->pcdata->bank_s -= (ch->pcdata->bank_s - 100000) / 10;
 	}
 
 
@@ -2882,6 +2740,7 @@ bool check_reconnect( DESCRIPTOR_DATA *d, char *name, bool fConn )
 		wiznet("$N baðlantýsýný yeniledi.",
 		    ch,NULL,WIZ_LINKS,0,0);
 		d->connected = CON_PLAYING;
+		MXPSendTag( d, "<VERSION>" );
 	    }
 	    return TRUE;
 	}
@@ -3430,79 +3289,6 @@ char *get_stat_alias( CHAR_DATA *ch, int where )
 
 	return((char*)stat);
 
-}
-
-int sex_ok( CHAR_DATA *ch , int iclass)
-{
- return 1;
-}
-
-int class_ok( CHAR_DATA *ch , int iclass)
-{
- if (pc_race_table[ORG_RACE(ch)].class_mult[iclass] == -1)
-  return 0;
- return 1;
-}
-
-int align_restrict(CHAR_DATA *ch)
-{
- DESCRIPTOR_DATA *d = ch->desc;
-
-    if (IS_SET(pc_race_table[ORG_RACE(ch)].align,CR_GOOD)
-	|| IS_SET(class_table[ch->iclass].align,CR_GOOD) )
-      {
-				write_to_buffer(d, "Karakteriniz güzel düþüncelerle dolu.\n\r",0);
-	ch->alignment = 1000;
-	return N_ALIGN_GOOD;
-      }
-
-    if (IS_SET(pc_race_table[ORG_RACE(ch)].align,CR_NEUTRAL)
-	|| IS_SET(class_table[ch->iclass].align,CR_NEUTRAL) )
-      {
-				write_to_buffer(d, "Karakteriniz yansýz düþüncelerle dolu.\n\r",0);
-	ch->alignment = 0;
-	return N_ALIGN_NEUTRAL;
-      }
-
-    if (IS_SET(pc_race_table[ORG_RACE(ch)].align,CR_EVIL)
-	|| IS_SET(class_table[ch->iclass].align,CR_EVIL) )
-      {
-				write_to_buffer(d, "Karakteriniz kem düþüncelerle dolu.\n\r",0);
-	ch->alignment = -1000;
-	return N_ALIGN_EVIL;
-      }
-   return N_ALIGN_ALL;
-}
-
-int hometown_check(CHAR_DATA *ch)
-{
- DESCRIPTOR_DATA *d = ch->desc;
-
-  if (ch->iclass == 10 || ch->iclass == 11)
-   {
-    write_to_buffer(d,"\n\r",0);
-    write_to_buffer(d,"Bundan böyle memleketin Eski Selenge.\n\r",0);
-    ch->hometown = 4;
-    write_to_buffer(d,"\n\r",0);
-    return 1;
-   }
-
-  if (ORG_RACE(ch) == 11 || ORG_RACE(ch) == 12
-	|| ORG_RACE(ch) == 13 || ORG_RACE(ch) == 14)
-   {
-    write_to_buffer(d,"\n\r",0);
-    write_to_buffer(d,"Bundan böyle memleketin Titan Vadisi.\n\r",0);
-    ch->hometown = 2;
-    write_to_buffer(d,"\n\r",0);
-    return 1;
-   }
- return 0;
-}
-
-int hometown_ok(CHAR_DATA *ch, int home)
-{
- if (!IS_NEUTRAL(ch) && home == 3) return 0;
- return 1;
 }
 
 int ethos_check(CHAR_DATA *ch)

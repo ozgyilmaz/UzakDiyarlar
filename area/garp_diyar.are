@@ -9,6 +9,9 @@ Highlevel 90
 Minvnum 10000
 Maxvnum 10050
 Path 13b 2k d 3k~
+Yonelim_iyi 33
+Yonelim_yansiz 34
+Yonelim_kem 33
 END
 
 #NEW_MOBILES
@@ -791,9 +794,9 @@ kaybolmak çok kolaydýr oyüzden Ýnsanlarýn kalesinden ona giden yolu bul
 Darken Rahl savaþý kazanýp ülkeleri kontrol etmeye çok yakýn!
 ~
 #10027
-taç miðfer ateþ ejderha~
-Ateþin Tacý~
-Bir tacýn üstünde ateþ yanýyor.~
+taç ateþ mishakal~
+Mishakal'ýn Ateþ Tacý~
+Bir taç yerde yanarken unutmadýðý efendisi için bir aðýt fýsýldýyor.~
 adamantite~
 armor ACY AE
 39 39 39 37 30

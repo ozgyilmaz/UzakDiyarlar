@@ -9,6 +9,9 @@ Highlevel 90
 Minvnum 11600
 Maxvnum 11799
 Path 6g d 3g b g 4y g d~
+Yonelim_iyi 10
+Yonelim_yansiz 30
+Yonelim_kem 60
 END
 
 #NEW_MOBILES
@@ -2956,9 +2959,9 @@ atmaca figürü oyulmuþ. Üzerinde de þöyle bir yazýt var:
 .
 ~
 #11709
-adamant yakut intikam yemini bandý~
-Ýntikam Yemini~
-Kan kýrmýzýsý adamant ve yakut bir bant, yemini mýrýldanýyor.~
+adamant quanchi intikam yemini bant band~
+Quanchi'nin Ýntikam Yemini~
+Kayýp bir ruha ait kan kýrmýzýsý adamant bir bant, yemini mýrýldanýyor.~
 adamantite~
 armor B AC
 40 40 40 24 0

@@ -9,6 +9,9 @@ Highlevel 20
 Minvnum 29000
 Maxvnum 29000
 Path 3g 2b y~
+Yonelim_iyi 10
+Yonelim_yansiz 20
+Yonelim_kem 70
 END
 
 #NEW_MOBILES
@@ -359,9 +362,9 @@ key 0 AN
 0 0 0 0 0
 5 10 0 G
 #29022
-kaya büyük~
-büyük kaya~
-Odanýn ortasýnda büyük bir kaya görüyorsun. Gerçektende aðýr olsa gerek.~
+wardamir kayýp kaya~
+Wardamir'in kayýp kayasý~
+Müthiþ! Türlü destanlarda bahsi geçen kayýp kaya odanýn ortasýnda duruyor.~
 stone~
 container ABGLRY AQ
 600 0 0 100 10

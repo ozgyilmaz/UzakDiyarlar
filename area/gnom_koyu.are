@@ -2,13 +2,16 @@
 Filename gnom_koyu.are~
 Name Gnom Köyü~
 Builder Vougon~
-Translator Bilinmiyor~
+Translator Qualyn~
 Language Türkçe~
 Lowlevel 5
 Highlevel 15
 Minvnum 1500
 Maxvnum 1599
 Path 8d g~
+Yonelim_iyi 20
+Yonelim_yansiz 60
+Yonelim_kem 20
 END
 
 #NEW_MOBILES

@@ -232,7 +232,7 @@ void spell_disintegrate( int sn, int level, CHAR_DATA *ch, void *vo, int target)
   OBJ_DATA *tattoo;
 
 
-    if (saves_spell(level,victim,DAM_MENTAL) || number_bits(1) == 0)
+    if (saves_spell(level,victim,DAM_MENTAL) || number_range(0,1) == 0)
 	{
 	 dam = dice( level , 24 ) ;
 	 damage(ch, victim , dam , sn, DAM_MENTAL, TRUE);
@@ -253,12 +253,116 @@ void spell_disintegrate( int sn, int level, CHAR_DATA *ch, void *vo, int target)
   send_to_char("Birkaç dakikalýðýna yenilmez bir hayalete dönüþtün.\n\r",victim);
   send_to_char("Tabii birþeylere saldýrmadýðýn sürece.\n\r", victim);
 
+  if (!IS_NPC(ch) && IS_QUESTOR(ch) && IS_NPC(victim))
+  {
+    if (ch->pcdata->questmob == victim->pIndexData->vnum)
+    {
+      printf_to_char(ch,"{cGörevin neredeyse tamamlandý!\n\rZamanýn bitmeden önce görevciye git!{x\n\r");
+      ch->pcdata->questmob = -1;
+    }
+  }
+
     /*  disintegrate the objects... */
     tattoo = get_eq_char(victim, WEAR_TATTOO); /* keep tattoos for later */
     if (tattoo != NULL)
       obj_from_char(tattoo);
 
-    victim->gold = 0;
+    victim->silver = 0;
+
+    for ( obj = victim->carrying; obj != NULL; obj = obj_next )
+    {
+        obj_next = obj->next_content;
+	extract_obj( obj );
+    }
+
+    if ( IS_NPC(victim) )
+    {
+      victim->pIndexData->killed++;
+      kill_table[URANGE(0, victim->level, MAX_LEVEL-1)].killed++;
+      extract_char( victim, TRUE );
+      return;
+    }
+
+    extract_char( victim, FALSE );
+
+    while ( victim->affected )
+      affect_remove( victim, victim->affected );
+    victim->affected_by   = 0;
+    for (i = 0; i < 4; i++)
+      victim->armor[i]= 100;
+    victim->position      = POS_RESTING;
+    victim->hit           = 1;
+    victim->mana  	  = 1;
+
+    REMOVE_BIT(victim->act, PLR_WANTED);
+    REMOVE_BIT(victim->act, PLR_BOUGHT_PET);
+
+    victim->pcdata->condition[COND_THIRST] = 40;
+    victim->pcdata->condition[COND_HUNGER] = 40;
+    victim->pcdata->condition[COND_FULL] = 40;
+    victim->pcdata->condition[COND_BLOODLUST] = 40;
+    victim->pcdata->condition[COND_DESIRE] = 40;
+
+    victim->last_death_time = current_time;
+
+    if (tattoo != NULL)
+    {
+      obj_to_char(tattoo, victim);
+      equip_char(victim, tattoo, WEAR_TATTOO);
+    }
+
+    for (tmp_ch = char_list; tmp_ch != NULL; tmp_ch = tmp_ch->next)
+      if (tmp_ch->last_fought == victim)
+        tmp_ch->last_fought = NULL;
+
+    return;
+}
+
+void spell_arz_yutagi( int sn, int level, CHAR_DATA *ch, void *vo, int target)
+{
+  CHAR_DATA *victim = (CHAR_DATA *) vo;
+  CHAR_DATA *tmp_ch;
+  OBJ_DATA *obj;
+  OBJ_DATA *obj_next;
+  int i,dam=0;
+  OBJ_DATA *tattoo;
+
+
+    if (saves_spell(level,victim,DAM_MENTAL) || number_range(0,1) == 0)
+	{
+	 dam = dice( level , 24 ) ;
+	 damage(ch, victim , dam , sn, DAM_MENTAL, TRUE);
+	 return;
+	}
+
+  act_color("$S büyüsü seni $C### YERÝN ÝÇÝNE ÇEKÝYOR ###$c!",
+  victim, NULL, ch, TO_CHAR, POS_RESTING, CLR_RED );
+  act_color( "$s büyüsü $M $C### YERÝN ÝÇÝNE ÇEKÝYOR ###$c!",
+  ch, NULL, victim, TO_NOTVICT, POS_RESTING, CLR_RED );
+  act_color( "Büyün $M $C### YERÝN ÝÇÝNE ÇEKÝYOR ###$c!",
+  ch, NULL, victim, TO_CHAR, POS_RESTING, CLR_RED );
+  send_to_char( "Y U T U L D U N!\n\r", victim );
+
+  act("$N arz tarafýndan yutuldu!\n\r", ch, NULL, victim, TO_CHAR);
+  act("$N arz tarafýndan yutuldu!\n\r", ch, NULL, victim, TO_ROOM);
+
+  send_to_char("Birkaç dakikalýðýna yenilmez bir hayalete dönüþtün.\n\r",victim);
+  send_to_char("Tabii birþeylere saldýrmadýðýn sürece.\n\r", victim);
+
+  if (!IS_NPC(ch) && IS_QUESTOR(ch) && IS_NPC(victim))
+  {
+    if (ch->pcdata->questmob == victim->pIndexData->vnum)
+    {
+      printf_to_char(ch,"{cGörevin neredeyse tamamlandý!\n\rZamanýn bitmeden önce görevciye git!{x\n\r");
+      ch->pcdata->questmob = -1;
+    }
+  }
+
+    /*  disintegrate the objects... */
+    tattoo = get_eq_char(victim, WEAR_TATTOO); /* keep tattoos for later */
+    if (tattoo != NULL)
+      obj_from_char(tattoo);
+
     victim->silver = 0;
 
     for ( obj = victim->carrying; obj != NULL; obj = obj_next )
@@ -437,7 +541,7 @@ void spell_bear_call( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if (count_charmed(ch)) return;
 
-  bear = create_mobile( get_mob_index(MOB_VNUM_BEAR) );
+  bear = create_mobile( get_mob_index(MOB_VNUM_BEAR), NULL );
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -454,9 +558,9 @@ void spell_bear_call( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     bear->armor[i] = interpolate(bear->level,100,-100);
   bear->armor[3] = interpolate(bear->level,100,0);
   bear->sex = ch->sex;
-  bear->gold = 0;
+  bear->silver = 0;
 
-  bear2 = create_mobile(bear->pIndexData);
+  bear2 = create_mobile(bear->pIndexData, NULL);
   clone_mobile(bear,bear2);
 
   SET_BIT(bear->affected_by, AFF_CHARM);
@@ -551,7 +655,7 @@ void spell_vanish( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   act("$n küçük bir küreyi yere fýrlatýyor.", ch, NULL, NULL, TO_ROOM );
 
-  if (!IS_NPC(ch) && ch->fighting != NULL && number_bits(1) == 1) {
+  if (!IS_NPC(ch) && ch->fighting != NULL && number_range(0,1) == 1) {
     send_to_char("Baþaramadýn.\n\r",ch);
     return;
   }
@@ -679,7 +783,7 @@ void spell_demon_summon( int sn, int level, CHAR_DATA *ch, void *vo, int target 
 
   if (count_charmed(ch)) return;
 
-  demon = create_mobile( get_mob_index(MOB_VNUM_DEMON) );
+  demon = create_mobile( get_mob_index(MOB_VNUM_DEMON) , NULL);
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -695,7 +799,7 @@ void spell_demon_summon( int sn, int level, CHAR_DATA *ch, void *vo, int target 
   for (i=0; i < 3; i++)
     demon->armor[i] = interpolate(demon->level,100,-100);
   demon->armor[3] = interpolate(demon->level,100,0);
-  demon->gold = 0;
+  demon->silver = 0;
   demon->timer = 0;
   demon->damage[DICE_NUMBER] = number_range(level/15, level/12);
   demon->damage[DICE_TYPE] = number_range(level/3, level/2);
@@ -964,7 +1068,7 @@ void spell_guard_call( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if (count_charmed(ch)) return;
 
-  guard = create_mobile( get_mob_index(MOB_VNUM_SPECIAL_GUARD) );
+  guard = create_mobile( get_mob_index(MOB_VNUM_SPECIAL_GUARD), NULL );
 
   for (i=0;i < MAX_STATS; i++)
     guard->perm_stat[i] = ch->perm_stat[i];
@@ -979,7 +1083,7 @@ void spell_guard_call( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     guard->armor[i] = interpolate(guard->level,100,-200);
   guard->armor[3] = interpolate(guard->level,100,-100);
   guard->sex = ch->sex;
-  guard->gold = 0;
+  guard->silver = 0;
   guard->timer = 0;
 
   guard->damage[DICE_NUMBER] = number_range(level/16, level/12);
@@ -990,10 +1094,10 @@ void spell_guard_call( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   SET_BIT(guard->affected_by, AFF_CHARM);
   SET_BIT(guard->affected_by, AFF_SANCTUARY);
 
-  guard2 = create_mobile(guard->pIndexData);
+  guard2 = create_mobile(guard->pIndexData, NULL);
   clone_mobile(guard,guard2);
 
-  guard3 = create_mobile(guard->pIndexData);
+  guard3 = create_mobile(guard->pIndexData, NULL);
   clone_mobile(guard,guard3);
 
   guard->master = guard2->master = guard3->master = ch;
@@ -1046,7 +1150,7 @@ void spell_nightwalker( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if (count_charmed(ch)) return;
 
-  walker = create_mobile( get_mob_index(MOB_VNUM_NIGHTWALKER) );
+  walker = create_mobile( get_mob_index(MOB_VNUM_NIGHTWALKER) , NULL);
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -1062,7 +1166,7 @@ void spell_nightwalker( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   for (i=0; i < 3; i++)
     walker->armor[i] = interpolate(walker->level,100,-100);
   walker->armor[3] = interpolate(walker->level,100,0);
-  walker->gold = 0;
+  walker->silver = 0;
   walker->timer = 0;
   walker->damage[DICE_NUMBER] = number_range(level/15, level/10);
   walker->damage[DICE_TYPE]   = number_range(level/3, level/2);
@@ -1247,7 +1351,7 @@ else
 
   for (new_mirrors=0; mirrors + new_mirrors < level/5;new_mirrors++)
   {
-    gch = create_mobile( get_mob_index(MOB_VNUM_MIRROR_IMAGE) );
+    gch = create_mobile( get_mob_index(MOB_VNUM_MIRROR_IMAGE), NULL );
     free_string(gch->name);
     free_string(gch->short_descr);
     free_string(gch->long_descr);
@@ -1687,7 +1791,7 @@ void spell_old_randomizer(int sn, int level, CHAR_DATA *ch, void *vo, int target
 
   pRoomIndex = get_room_index(ch->in_room->vnum);
 
-  if (number_bits(1) == 0)
+  if (number_range(0,1) == 0)
     {
       send_to_char("Tüm çabalarýna raðmen evren kaosa direniyor.\n\r",ch);
       if (ch->trust >= 56)
@@ -1750,7 +1854,7 @@ void spell_stalker( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     send_to_char("Bir avcý çaðýrmaya çalýþýyorsun.\n\r",ch);
     act("$n bir avcý çaðýrmaya çalýþýyor.",ch,NULL,NULL,TO_ROOM);
 
-  stalker = create_mobile( get_mob_index(MOB_VNUM_STALKER) );
+  stalker = create_mobile( get_mob_index(MOB_VNUM_STALKER), NULL );
 
   af.where		= TO_AFFECTS;
   af.type               = sn;
@@ -1785,7 +1889,7 @@ void spell_stalker( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   for (i=0; i < 3; i++)
     stalker->armor[i] = interpolate(stalker->level,100,-100);
   stalker->armor[3] = interpolate(stalker->level,100,0);
-  stalker->gold = 0;
+  stalker->silver = 0;
   stalker->invis_level = LEVEL_IMMORTAL;
   stalker->detection = (A|B|C|D|E|F|G|H|ee);
   stalker->affected_by = (H|J|N|O|U|V|aa|cc);
@@ -1945,7 +2049,7 @@ void spell_brew( int sn, int level, CHAR_DATA *ch, void *vo, int target )
       }
     else if (obj->item_type == ITEM_TREASURE)
       {
-	switch(number_bits(3)) {
+	switch(number_range(0,7)) {
 	case 0:
 	  spell = skill_lookup("cure critical");
 	  break;
@@ -2021,7 +2125,7 @@ void spell_shadowlife( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     act("$n $S gölgesine yaþam veriyor!",ch,NULL,victim,TO_NOTVICT);
     act("$n gölgene yaþam veriyor!", ch, NULL, victim, TO_VICT);
 
-  shadow = create_mobile( get_mob_index(MOB_VNUM_SHADOW) );
+  shadow = create_mobile( get_mob_index(MOB_VNUM_SHADOW), NULL );
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -2038,7 +2142,7 @@ void spell_shadowlife( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     shadow->armor[i] = interpolate(shadow->level,100,-100);
   shadow->armor[3] = interpolate(shadow->level,100,0);
   shadow->sex = victim->sex;
-  shadow->gold = 0;
+  shadow->silver = 0;
 
   name		= IS_NPC(victim) ? victim->short_descr : victim->name;
   sprintf( buf, shadow->short_descr, name );
@@ -2226,8 +2330,7 @@ void spell_golden_aura( int sn, int level, CHAR_DATA *ch, void *vo, int target )
       if (!is_same_group(vch, ch))
 	continue;
 
-      if ( is_affected( vch, sn ) || is_affected(vch, gsn_bless) ||
-	  IS_AFFECTED(vch, AFF_PROTECT_EVIL))
+      if ( is_affected( vch, sn ) || IS_AFFECTED(vch, AFF_PROTECT_EVIL))
 	{
 	  if (vch == ch)
     send_to_char("Zaten altýn bir aurayla korunuyorsun.\n\r",ch);
@@ -2322,7 +2425,7 @@ void spell_squire( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if (count_charmed(ch)) return;
 
-  squire = create_mobile( get_mob_index(MOB_VNUM_SQUIRE) );
+  squire = create_mobile( get_mob_index(MOB_VNUM_SQUIRE), NULL );
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -2337,7 +2440,7 @@ void spell_squire( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   for (i=0; i < 3; i++)
     squire->armor[i] = interpolate(squire->level,100,-100);
   squire->armor[3] = interpolate(squire->level,100,0);
-  squire->gold = 0;
+  squire->silver = 0;
 
   sprintf( buf, squire->short_descr, ch->name );
   free_string( squire->short_descr );
@@ -2597,8 +2700,8 @@ void spell_disperse( int sn, int level, CHAR_DATA *ch, void *vo, int target )
       &&   !IS_SET(vch->in_room->room_flags, ROOM_NO_RECALL)
       &&   !IS_IMMORTAL(vch)
       && (( IS_NPC(vch) && !IS_SET(vch->act, ACT_AGGRESSIVE) ) ||
-/*      (!IS_NPC(vch) && vch->level > PK_MIN_LEVEL && (vch->level < level || */
-      (!IS_NPC(vch) && vch->level > PK_MIN_LEVEL && (
+/*      (!IS_NPC(vch) && vch->level >= KIDEMLI_OYUNCU_SEVIYESI && (vch->level < level || */
+      (!IS_NPC(vch) && vch->level >= KIDEMLI_OYUNCU_SEVIYESI && (
 	!is_safe_nomessage(ch, vch)))) && vch != ch
       && !IS_SET(vch->imm_flags, IMM_SUMMON))
 	{
@@ -3087,7 +3190,7 @@ void spell_animate_dead(int sn,int level, CHAR_DATA *ch, void *vo,int target )
     return;
   }
 
-  undead = create_mobile( get_mob_index(MOB_VNUM_UNDEAD) );
+  undead = create_mobile( get_mob_index(MOB_VNUM_UNDEAD), NULL );
   char_to_room(undead,ch->in_room);
   for (i=0;i < MAX_STATS; i++)
     {
@@ -3108,7 +3211,7 @@ void spell_animate_dead(int sn,int level, CHAR_DATA *ch, void *vo,int target )
   undead->damage[DICE_TYPE] = number_range(level/6, level/3);
   undead->damage[DICE_BONUS] = number_range(level/12, level/10);
   undead->sex = ch->sex;
-  undead->gold = 0;
+  undead->silver = 0;
 
   SET_BIT(undead->act, ACT_UNDEAD);
   SET_BIT(undead->affected_by, AFF_CHARM);
@@ -3537,7 +3640,7 @@ void spell_power_kill ( int sn, int level, CHAR_DATA *ch, void *vo , int target)
   act_color( "$S parmaðýndan çýkan karanlýk seni sarýyor.",
 		victim, NULL, ch, TO_CHAR, POS_RESTING, CLR_RED );
 
-    if (saves_spell(level,victim,DAM_MENTAL) || number_bits(1) == 0)
+    if (saves_spell(level,victim,DAM_MENTAL) || number_range(0,1) == 0)
 	{
 	 dam = dice( level , 24 ) ;
 	 damage(ch, victim , dam , sn, DAM_MENTAL, TRUE);
@@ -3662,7 +3765,7 @@ void spell_lion_help ( int sn, int level, CHAR_DATA *ch, void *vo , int target)
     return;
   }
 
-  lion = create_mobile( get_mob_index(MOB_VNUM_HUNTER) );
+  lion = create_mobile( get_mob_index(MOB_VNUM_HUNTER), NULL );
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -3679,7 +3782,7 @@ void spell_lion_help ( int sn, int level, CHAR_DATA *ch, void *vo , int target)
     lion->armor[i] = interpolate(lion->level,100,-100);
   lion->armor[3] = interpolate(lion->level,100,0);
   lion->sex = ch->sex;
-  lion->gold = 0;
+  lion->silver = 0;
   lion->damage[DICE_NUMBER] = number_range(level/15, level/10);
   lion->damage[DICE_TYPE] = number_range(level/3, level/2);
   lion->damage[DICE_BONUS] = number_range(level/8, level/6);
@@ -4085,7 +4188,7 @@ void spell_witch_curse ( int sn, int level, CHAR_DATA *ch, void *vo , int target
       return;
     }
 
-  if (saves_spell((level+5),victim,DAM_MENTAL) || number_bits(1) == 0)
+  if (saves_spell((level+5),victim,DAM_MENTAL) || number_range(0,1) == 0)
   {
       send_to_char("Baþaramadýn!\n\r",ch);
       return;
@@ -4249,7 +4352,7 @@ void spell_wolf( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if (count_charmed(ch)) return;
 
-  demon = create_mobile( get_mob_index(MOB_VNUM_WOLF) );
+  demon = create_mobile( get_mob_index(MOB_VNUM_WOLF), NULL );
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -4265,7 +4368,7 @@ void spell_wolf( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   for (i=0; i < 3; i++)
     demon->armor[i] = interpolate(demon->level,100,-100);
   demon->armor[3] = interpolate(demon->level,100,0);
-  demon->gold = 0;
+  demon->silver = 0;
   demon->timer = 0;
   demon->damage[DICE_NUMBER] = number_range(level/15, level/10);
   demon->damage[DICE_TYPE] = number_range(level/3, level/2);
@@ -4504,7 +4607,7 @@ void spell_randomizer(int sn, int level, CHAR_DATA *ch, void *vo, int target)
 	return;
     }
 
-  if (number_bits(1) == 0)
+  if (number_range(0,1) == 0)
     {
       send_to_char("Evren karmaþaya direniyor.\n\r",ch);
       af2.where     = TO_AFFECTS;
@@ -4735,7 +4838,7 @@ void spell_lesser_golem( int sn, int level, CHAR_DATA *ch, void *vo, int target 
 
   if (count_charmed(ch)) return;
 
-  golem = create_mobile( get_mob_index(MOB_VNUM_LESSER_GOLEM) );
+  golem = create_mobile( get_mob_index(MOB_VNUM_LESSER_GOLEM), NULL );
 
 
   for (i = 0; i < MAX_STATS; i ++)
@@ -4754,7 +4857,7 @@ void spell_lesser_golem( int sn, int level, CHAR_DATA *ch, void *vo, int target 
   for (i=0; i < 3; i++)
     golem->armor[i] = interpolate(golem->level,100,-100);
   golem->armor[3] = interpolate(golem->level,100,0);
-  golem->gold = 0;
+  golem->silver = 0;
   golem->timer = 0;
   golem->damage[DICE_NUMBER] = 3;
   golem->damage[DICE_TYPE] = 10;
@@ -4811,7 +4914,7 @@ void spell_stone_golem( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if (count_charmed(ch)) return;
 
-  golem = create_mobile( get_mob_index(MOB_VNUM_STONE_GOLEM) );
+  golem = create_mobile( get_mob_index(MOB_VNUM_STONE_GOLEM), NULL );
 
 
   for (i = 0; i < MAX_STATS; i ++)
@@ -4830,7 +4933,7 @@ void spell_stone_golem( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   for (i=0; i < 3; i++)
     golem->armor[i] = interpolate(golem->level,100,-100);
   golem->armor[3] = interpolate(golem->level,100,0);
-  golem->gold = 0;
+  golem->silver = 0;
   golem->timer = 0;
   golem->damage[DICE_NUMBER] = 8;
   golem->damage[DICE_TYPE] = 4;
@@ -4883,7 +4986,7 @@ void spell_iron_golem( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if (count_charmed(ch)) return;
 
-  golem = create_mobile( get_mob_index(MOB_VNUM_IRON_GOLEM) );
+  golem = create_mobile( get_mob_index(MOB_VNUM_IRON_GOLEM), NULL );
 
 
   for (i = 0; i < MAX_STATS; i ++)
@@ -4902,7 +5005,7 @@ void spell_iron_golem( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   for (i=0; i < 3; i++)
     golem->armor[i] = interpolate(golem->level,100,-100);
   golem->armor[3] = interpolate(golem->level,100,0);
-  golem->gold = 0;
+  golem->silver = 0;
   golem->timer = 0;
   golem->damage[DICE_NUMBER] = 11;
   golem->damage[DICE_TYPE] = 5;
@@ -4955,7 +5058,7 @@ void spell_adamantite_golem( int sn, int level, CHAR_DATA *ch, void *vo, int tar
 
   if (count_charmed(ch)) return;
 
-  golem = create_mobile( get_mob_index(MOB_VNUM_ADAMANTITE_GOLEM) );
+  golem = create_mobile( get_mob_index(MOB_VNUM_ADAMANTITE_GOLEM) , NULL);
 
 
   for (i = 0; i < MAX_STATS; i ++)
@@ -4974,7 +5077,7 @@ void spell_adamantite_golem( int sn, int level, CHAR_DATA *ch, void *vo, int tar
   for (i=0; i < 3; i++)
     golem->armor[i] = interpolate(golem->level,100,-100);
   golem->armor[3] = interpolate(golem->level,100,0);
-  golem->gold = 0;
+  golem->silver = 0;
   golem->timer = 0;
   golem->damage[DICE_NUMBER] = 13;
   golem->damage[DICE_TYPE] = 9;
@@ -5002,7 +5105,7 @@ void spell_adamantite_golem( int sn, int level, CHAR_DATA *ch, void *vo, int tar
 
 void spell_sanctify_lands(int sn, int level, CHAR_DATA *ch, void *vo, int target)
 {
-  if (number_bits(1) == 0)
+  if (number_range(0,1) == 0)
     {
       send_to_char("Baþaramadýn.\n\r",ch);
       return;
@@ -5555,7 +5658,7 @@ void spell_summon_shadow( int sn, int level, CHAR_DATA *ch, void *vo, int target
 
   if (count_charmed(ch)) return;
 
-  shadow = create_mobile( get_mob_index(MOB_VNUM_SUM_SHADOW) );
+  shadow = create_mobile( get_mob_index(MOB_VNUM_SUM_SHADOW), NULL );
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -5571,7 +5674,7 @@ void spell_summon_shadow( int sn, int level, CHAR_DATA *ch, void *vo, int target
   for (i=0; i < 3; i++)
     shadow->armor[i] = interpolate(shadow->level,100,-100);
   shadow->armor[3] = interpolate(shadow->level,100,0);
-  shadow->gold = 0;
+  shadow->silver = 0;
   shadow->timer = 0;
   shadow->damage[DICE_NUMBER] = number_range(level/15, level/10);
   shadow->damage[DICE_TYPE] = number_range(level/3, level/2);
@@ -5893,7 +5996,7 @@ void spell_guard_dogs( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
   if (count_charmed(ch)) return;
 
-  dog = create_mobile( get_mob_index(MOB_VNUM_DOG) );
+  dog = create_mobile( get_mob_index(MOB_VNUM_DOG) , NULL);
 
   for (i=0;i < MAX_STATS; i++)
     {
@@ -5909,13 +6012,13 @@ void spell_guard_dogs( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   for (i=0; i < 3; i++)
     dog->armor[i] = interpolate(dog->level,100,-100);
   dog->armor[3] = interpolate(dog->level,100,0);
-  dog->gold = 0;
+  dog->silver = 0;
   dog->timer = 0;
   dog->damage[DICE_NUMBER] = number_range(level/15, level/12);
   dog->damage[DICE_TYPE] = number_range(level/3, level/2);
   dog->damage[DICE_BONUS] = number_range(level/10, level/8);
 
-  dog2 = create_mobile(dog->pIndexData);
+  dog2 = create_mobile(dog->pIndexData, NULL);
   clone_mobile(dog,dog2);
 
   SET_BIT(dog->affected_by, AFF_CHARM);
@@ -6256,7 +6359,7 @@ void spell_mummify( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     return;
   }
 
-  undead = create_mobile( get_mob_index(MOB_VNUM_UNDEAD) );
+  undead = create_mobile( get_mob_index(MOB_VNUM_UNDEAD), NULL );
   char_to_room(undead,ch->in_room);
   for (i=0;i < MAX_STATS; i++)
     {
@@ -6279,7 +6382,7 @@ void spell_mummify( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   undead->damage[DICE_TYPE] = number_range(undead->level/6, undead->level/3);
   undead->damage[DICE_BONUS] = number_range(undead->level/12, undead->level/10);
   undead->sex = ch->sex;
-  undead->gold = 0;
+  undead->silver = 0;
 
   SET_BIT(undead->act, ACT_UNDEAD);
   SET_BIT(undead->affected_by, AFF_CHARM);

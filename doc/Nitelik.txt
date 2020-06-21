@@ -1,0 +1,12 @@
+NİTELİKLER
+
+char_data'da nitelikleri tutan iki dizi var.
+
+perm_stat
+mod_stat
+
+perm_stat en fazla irktan gelen nitelikle siniftan gelen niteligin toplami kadar olabilir.
+
+mod_stat ise buyu ve esyalarin nitelikler uzerinde yaratacagi degisimdir.
+
+get_curr_stat()'in sonucunun verebilecegi max deger (NPC degilse) perm_stat'tir. o nedenle perm_stat'i en yuksek degerine cikarmis karakter mod_stat'in verecegi artidan etkilenmez, eksiden etkilenir.

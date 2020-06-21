@@ -9,6 +9,9 @@ Highlevel 90
 Minvnum 11800
 Maxvnum 11949
 Path 7b 2g d g d 3g~
+Yonelim_iyi 10
+Yonelim_yansiz 45
+Yonelim_kem 45
 END
 
 #NEW_MOBILES
@@ -2398,9 +2401,9 @@ A
 A
 19 20
 #11888
-gölge gizi layerkayi~
-Layerkayi'nin gizi~
-Gölgeler ne kadar da derin!~
+gölge gizi kenji~
+Kenji'nin gizi~
+Gölgelerin içine saklanmýþ bir gizin fýsýldamalarýný duyuyorsun!~
 shadows~
 armor CI AG
 29 29 28 26 0
@@ -2442,9 +2445,9 @@ A
 A
 18 15
 #11891
-layerkayi güç~
-Layerkayi'nin gücü~
-Yoðun bir güç odayý titretiyor.~
+elendil güç kadim~
+Elendil'in kadim gücü~
+Eski bir ruha ait yoðun güç odayý titretiyor.~
 nothingness~
 armor BI AM
 40 40 40 26 0

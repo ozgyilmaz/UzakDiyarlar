@@ -224,7 +224,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
 	return;
     }
 
-    if (cost > (ch->gold * 100 + ch->silver))
+    if ( cost > ch->silver )
     {
       act("Yeterli akçen yok.",ch,NULL,mob,TO_CHAR);
 	return;
@@ -233,7 +233,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
     WAIT_STATE(ch,PULSE_VIOLENCE);
 
     deduct_cost(ch,cost);
-    mob->gold += cost / 100;
+    mob->silver += cost;
 
     act("$n mýrýldanýyor, '$T'.",mob,NULL,words,TO_ROOM);
     if (sn == -2)

@@ -9,7 +9,7 @@
  * Discord : https://discord.gg/kXyZzv                                     *
  *                                                                         *
  ***************************************************************************/
- 
+
 /***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
@@ -100,7 +100,7 @@ DECLARE_DO_FUN(	do_at		);
 DECLARE_DO_FUN(	do_auction	);
 DECLARE_DO_FUN( do_autoassist	);
 DECLARE_DO_FUN( do_autoexit	);
-DECLARE_DO_FUN( do_autogold	);
+DECLARE_DO_FUN( do_autoakce	);
 DECLARE_DO_FUN( do_autolist	);
 DECLARE_DO_FUN( do_autoloot	);
 DECLARE_DO_FUN( do_autosac	);
@@ -157,6 +157,7 @@ DECLARE_DO_FUN(	do_description	);
 DECLARE_DO_FUN( do_detect_hidden);
 DECLARE_DO_FUN( do_dig		);
 DECLARE_DO_FUN( do_dilek	);
+DECLARE_DO_FUN( do_diril	);
 DECLARE_DO_FUN( do_dirt		);
 DECLARE_DO_FUN(	do_disarm	);
 DECLARE_DO_FUN(	do_disconnect	);
@@ -209,6 +210,7 @@ DECLARE_DO_FUN(	do_holylight	);
 DECLARE_DO_FUN( do_human        );
 DECLARE_DO_FUN( do_hunt         );
 DECLARE_DO_FUN( do_identify     );
+DECLARE_DO_FUN( do_ikikat     );
 DECLARE_DO_FUN(	do_iste	);
 DECLARE_DO_FUN(	do_ititle	);
 DECLARE_DO_FUN(	do_immtalk	);

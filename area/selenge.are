@@ -9,6 +9,9 @@ Highlevel 100
 Minvnum 3000
 Maxvnum 3399
 Path ~
+Yonelim_iyi 33
+Yonelim_yansiz 34
+Yonelim_kem 33
 END
 
 #RESETMESSAGE
@@ -779,6 +782,16 @@ baþkalarýyla paylaþmaya, onlarý da Sintaryanlýk yoluna çekmeye
 ~
 insan~
 ABRQVe CDFJVZH 93
+#3178
+çamur kaçakçý baruk~
+Baruk~
+Kanun dýþý iþler çeviren Baruk burada.
+~
+Uzun süre cezaevinde kalmýþ, þimdilerde de kanunlarla arasý
+pek iyi olmayan bir cüce görüyorsun.
+~
+dwarf~
+ABTVe CDFJVZ 85
 #0
 
 #OBJECTS
@@ -3597,7 +3610,14 @@ leather~
 container 0 A
 50 32 0 5 75
 1 10 9 G
-
+#3398
+maymuncuk seti~
+bir maymuncuk seti~
+Buraya demir bir maymuncuk seti býrakýlmýþ.~
+iron~
+maymuncuk 0 AO
+0 0 0 0 0
+10 100 400 P
 #0
 
 #ROOMS
@@ -4300,6 +4320,11 @@ Halk Meydaný.
 ~
 ~
 0 -1 3025
+D1
+Pis kokan karanlýk çýkmaz sokak.
+~
+~
+0 -1 3364
 D2
 Güney ve kuzey Selenge'ý bölen ýrmaðý görüyorsun. Suyun üstünde küçük bir
 köprü var.
@@ -7244,11 +7269,25 @@ Klan yolunu görüyorsun
 ~
 0 -1 3125
 S
+#3364
+Pis kokan karanlýk çýkmaz sokak~
+Çýkmaz bir sokaktasýn. Çöplüðün pis kokusu sanki buraya dolmuþ.
+Gölgelerin ve karanlýðýn içinde kimler var, pek emin olamýyorsun.
+~
+0 A 2
+D3
+Çöplük.
+~
+~
+0 -1 3030
+S
 #0
 
 #RESETS
 M 0 3173   1 3170  1    * Hüssam
 M 0 3172   1 3077  1    * Templeman
+M 0 3178   1 3364  1    * Baruk
+G 1 3398  -1     	*   maymuncuk seti
 M 0 3011   1 3001  1    * Questor
 E 1 3005   1   16       *   Questor weapon
 O 0 3010   1 3054	* the donation pit
@@ -7661,6 +7700,7 @@ S
 3150  0  0  0  0  0 	 100 100 	 0 23 	* Esme
 3160  0  0  0  0  0 	 100 100 	 0 23 	* Melancholy
 3164  0  0  0  0  0 	 100 100 	 7 21 	* Butcher
+3178  0  0  0  0  0 	 110 100 	 0 23 	* Baruk
 0
 
 #SPECIALS

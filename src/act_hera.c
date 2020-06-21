@@ -730,9 +730,7 @@ int find_path( int in_room_vnum, int out_room_vnum, CHAR_DATA *ch,
 
 			  /* ancestor for first layer is the direction */
 			  hash_enter( &x_room, tmp_room,
-				     ((intptr_t)hash_find(&x_room,q_head->room_nr)
-				      == -1) ? (void*)(i+1)
-				     : hash_find(&x_room,q_head->room_nr));
+				     ((intptr_t)hash_find(&x_room,q_head->room_nr)== -1) ? reinterpret_cast<void*>(i+1) : hash_find(&x_room,q_head->room_nr));
 			}
 		    }
 		  else
@@ -1245,6 +1243,12 @@ void damage_to_obj(CHAR_DATA *ch,OBJ_DATA *wield, OBJ_DATA *worn, int damage)
  char buf[MAX_STRING_LENGTH];
 
  if ( damage == 0) return;
+
+ if( gorev_ekipmani_mi( worn ) )
+ {
+   act_color("$C$p tarafýndan verilecek hasarý $P engelliyor.$c",ch,wield,worn,TO_ROOM,POS_RESTING,CLR_RED);
+   return;
+ }
  worn->condition -= damage;
 
  act_color("$C$p $P üzerine hasar býrakýyor.$c",
@@ -1447,9 +1451,8 @@ void do_repair(CHAR_DATA *ch, char *argument)
 
     cost = ( (obj->level * 10) +
 		((obj->cost * (100 - obj->condition)) /100)    );
-    cost /= 100;
 
-    if (cost > ch->gold)
+    if (cost > ch->silver)
     {
 	do_say(mob,(char*)"Hizmetlerimden yararlanmak için yeterince paran yok.");
 	return;
@@ -1457,8 +1460,8 @@ void do_repair(CHAR_DATA *ch, char *argument)
 
     WAIT_STATE(ch,PULSE_VIOLENCE);
 
-    ch->gold -= cost;
-    mob->gold += cost;
+    ch->silver -= cost;
+    mob->silver += cost;
     sprintf(buf, "$N $n'dan %s'ý alýyor, tamir ediyor ve $n'a geri veriyor.", obj->short_descr);
     act(buf,ch,NULL,mob,TO_ROOM);
     sprintf(buf, "%s %s'ý alýp, tamir edip sana geri veriyor.\n\r", mob->short_descr, obj->short_descr);
@@ -1517,9 +1520,8 @@ void do_estimate(CHAR_DATA *ch, char *argument)
 
     cost = ( (obj->level * 10) +
 		((obj->cost * (100 - obj->condition)) /100)    );
-    cost /= 100;
 
-    sprintf(buf, "Bu eþyayý tamir etmek sana %d altýna patlar.", cost);
+    sprintf(buf, "Bu eþyayý tamir etmek sana %d akçeye patlar.", cost);
     do_say(mob,buf);
 }
 
@@ -1566,7 +1568,7 @@ void do_restring( CHAR_DATA *ch, char *argument )
 
 	cost += (obj->level * 1500);
 
-    if (cost > ch->gold)
+    if (cost > ch->silver)
     {
       act("$N 'Hizmetlerim için yeterli akçen yok,' dedi.",
 		  ch,NULL,mob,TO_CHAR);
@@ -1598,8 +1600,8 @@ void do_restring( CHAR_DATA *ch, char *argument )
 
     WAIT_STATE(ch,PULSE_VIOLENCE);
 
-    ch->gold -= cost;
-    mob->gold += cost;
+    ch->silver -= cost;
+    mob->silver += cost;
     sprintf(buf, "$N takes $n's item, tinkers with it, and returns it to $n.");
 	act(buf,ch,NULL,mob,TO_ROOM);
   sprintf(buf,"%s takes your item, tinkers with it, and returns %s to you.\n\r", mob->short_descr, obj->short_descr);
@@ -2066,12 +2068,10 @@ void auction_update (void)
             case 1 : /* going once */
             case 2 : /* going twice */
             if (auction->bet > 0)
-            sprintf (buf, "%s: %d altýna gidiyor - %s.", auction->item->short_descr,
-                     auction->bet, ((auction->going == 1) ? "bir" : "iki"));
+            sprintf (buf, "%s: %d akçeye gidiyor.", auction->item->short_descr,auction->bet);
             else
-            sprintf (buf, "%s: gidiyor - %s (teklif yok).", auction->item->short_descr,
-                     ((auction->going == 1) ? "bir" : "iki"));
-	    sprintf(bufc,"%s%s%s",CLR_CYAN,buf,CLR_WHITE_BOLD);
+            sprintf (buf, "%s: henüz teklif yok.", auction->item->short_descr);
+	          sprintf(bufc,"%s%s%s",CLR_CYAN,buf,CLR_WHITE_BOLD);
             talk_auction (bufc);
             break;
 
@@ -2079,7 +2079,7 @@ void auction_update (void)
 
             if (auction->bet > 0)
             {
-              sprintf (buf, "%s: satýn alan %s, %d altýn.",
+              sprintf (buf, "%s: %s %d akçeye satýn aldý.",
                     auction->item->short_descr,
                     IS_NPC(auction->buyer) ? auction->buyer->short_descr : auction->buyer->name,
                     auction->bet);
@@ -2091,7 +2091,7 @@ void auction_update (void)
                 act ("Mezatçý beliriyor ve $p eþyasýný $e veriyor.",
                      auction->buyer,auction->item,NULL,TO_ROOM);
 
-                auction->seller->gold += auction->bet; /* give him the money */
+                auction->seller->silver += auction->bet; /* give him the money */
 
                 auction->item = NULL; /* reset item */
 
@@ -2150,7 +2150,7 @@ void do_auction (CHAR_DATA *ch, char *argument)
         {
             /* show item data here */
             if (auction->bet > 0)
-            sprintf (buf, "Bu objeye son verilen teklif %d altýn.\n\r",auction->bet);
+            sprintf (buf, "Bu objeye son verilen teklif %d akçe.\n\r",auction->bet);
             else
             sprintf (buf, "Henüz teklif verilmedi.\n\r");
 	    sprintf(bufc,"%s%s%s",CLR_GREEN,buf,CLR_WHITE_BOLD);
@@ -2160,8 +2160,7 @@ void do_auction (CHAR_DATA *ch, char *argument)
         }
         else
         {
-          sprintf(bufc,"%sNeyi mezata çýkaracaksýn?%s\n\r",CLR_RED,CLR_WHITE);
-            send_to_char (bufc,ch);
+          printf_to_char(ch,"{rNeyi mezata çýkaracaksýn?{x\n\r");
             return;
         }
     }
@@ -2189,8 +2188,8 @@ void do_auction (CHAR_DATA *ch, char *argument)
         auction->item = NULL;
         if (auction->buyer != NULL) /* return money to the buyer */
         {
-            auction->buyer->gold += auction->bet;
-            send_to_char ("Paran iade edildi.\n\r",auction->buyer);
+            auction->buyer->silver += auction->bet;
+            printf_to_char (auction->buyer,"%d akçen iade edildi.\n\r",auction->bet);
         }
         return;
     }
@@ -2219,11 +2218,11 @@ void do_auction (CHAR_DATA *ch, char *argument)
 
             if (newbet < (auction->bet + 1))
             {
-              send_to_char ("Teklifin son tekliften 1 altýn fazla ya da açýlýþ fiyatý kadar olmalý.\n\r",ch);
+              send_to_char ("Teklifin son tekliften 1 akçe fazla ya da açýlýþ fiyatý kadar olmalý.\n\r",ch);
                 return;
             }
 
-            if (newbet > ch->gold)
+            if (newbet > ch->silver)
             {
               send_to_char ("O kadar paran yok!\n\r",ch);
                 return;
@@ -2231,17 +2230,19 @@ void do_auction (CHAR_DATA *ch, char *argument)
 
             /* the actual bet is OK! */
 
-            /* return the gold to the last buyer, if one exists */
+            /* acik artirma devam ediyor. son yapilan teklifin
+             * uzerine cikildi. son teklifi yapana parasini geri ver.
+             */
             if (auction->buyer != NULL)
-                auction->buyer->gold += auction->bet;
+                auction->buyer->silver += auction->bet;
 
-            ch->gold -= newbet; /* substract the gold - important :) */
+            ch->silver -= newbet; /* substract the silver - important :) */
             auction->buyer = ch;
             auction->bet   = newbet;
             auction->going = 0;
             auction->pulse = PULSE_AUCTION; /* start the auction over again */
 
-            sprintf (buf,"%s için %d altýn teklif edildi.\n\r",auction->item->short_descr,newbet);
+            sprintf (buf,"%s için %d akçe teklif edildi.\n\r",auction->item->short_descr,newbet);
 	    sprintf(bufc,"%s%s%s",CLR_MAGENTA,buf,CLR_WHITE_BOLD);
             talk_auction (bufc);
             return;

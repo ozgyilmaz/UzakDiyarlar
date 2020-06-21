@@ -76,14 +76,12 @@ void load_limited_objects();
 extern	int	_filbuf		args( (FILE *) );
 #endif
 
-#if !defined(OLD_RAND)
 #if !defined(linux)
 long random();
 #endif
 void srandom(unsigned int);
 int getpid();
 time_t time(time_t *tloc);
-#endif
 
 
 /* externals for counting purposes */
@@ -118,6 +116,9 @@ int			time_sync;
 int			max_newbies;
 int			max_oldies;
 int			iNumPlayers;
+int     ikikat_tp;
+int     ikikat_gp;
+
 
 
 /*
@@ -370,6 +371,7 @@ sh_int  		gsn_staves;
 sh_int  		gsn_wands;
 sh_int  		gsn_recall;
 sh_int  		gsn_detect_hidden;
+sh_int  gsn_pass_door;
 
 
 
@@ -437,7 +439,7 @@ AREA_DATA		*Serarea;	/* currently read area */
 /*
  * Local booting procedures.
 */
-void    init_mm         args( ( void ) );
+void    init_random_number_generator  args( ( void ) );
 void	load_areadata	args( ( FILE *fp ) );
 void	load_helps	args( ( FILE *fp ) );
 void    load_omprogs    args( ( FILE *fp ) );
@@ -485,8 +487,11 @@ void boot_db( void )
      * Init random number generator.
      */
     {
-        init_mm( );
+        init_random_number_generator( );
     }
+
+    ikikat_tp = 0;
+    ikikat_gp = 0;
 
     /*
      * Set time and weather.
@@ -627,21 +632,15 @@ void boot_db( void )
 	Serarea = NULL;
     }
 
-    /*
-     * Fix up exits.
-     * Declare db booting over.
-     * Reset all areas once.
-     * Load up the songs, notes and ban files.
-     */
     {
-	fix_exits( );
-        load_limited_objects();
-        sprintf(buf,"Total non-immortal levels > 5: %li",total_levels);
-        log_string(buf);
+      fix_exits( );
+      load_limited_objects();
+      sprintf(buf,"Total non-immortal levels > 5: %li",total_levels);
+      log_string(buf);
 
-	fBootDb	= FALSE;
-	area_update( );
-	load_bans();
+      fBootDb	= FALSE;
+      area_update( );
+      load_bans();
     }
 
     return;
@@ -680,6 +679,9 @@ void load_areadata( FILE *fp )
 	pArea->language	= NULL;
 	pArea->translator	= NULL;
 	pArea->path	= NULL;
+  pArea->yonelim_iyi	= 33;
+  pArea->yonelim_yansiz	= 34;
+  pArea->yonelim_kem	= 33;
 
     if ( area_first == NULL )
 		area_first = pArea;
@@ -728,6 +730,11 @@ void load_areadata( FILE *fp )
 			break;
 			case 'T':
 				KEY( "Translator",		pArea->translator,		fread_string( fp ) );
+			break;
+      case 'Y':
+				KEY( "Yonelim_iyi",		pArea->yonelim_iyi,		fread_number( fp ) );
+        KEY( "Yonelim_yansiz",		pArea->yonelim_yansiz,		fread_number( fp ) );
+        KEY( "Yonelim_kem",		pArea->yonelim_kem,		fread_number( fp ) );
 			break;
 		}
 
@@ -1525,7 +1532,7 @@ void reset_area( AREA_DATA *pArea )
 	    if (count >= pReset->arg4)
 		break;
 
-	    mob = create_mobile( pMobIndex );
+	    mob = create_mobile( pMobIndex , pRoomIndex->area);
 
 	    /*
 	     * Check for pet shop.
@@ -1805,7 +1812,7 @@ void reset_area( AREA_DATA *pArea )
 /*
  * Create an instance of a mobile.
  */
-CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )
+CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex , AREA_DATA *	pArea)
 {
     CHAR_DATA *mob;
     AFFECT_DATA af;
@@ -1839,26 +1846,40 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )
     mob->cabal		= CABAL_NONE;
     mob->iclass		= CLASS_CLERIC;
 
-
-  if (pMobIndex->wealth == 0)
-  {
-    mob->silver = 0;
-    mob->gold   = 0;
-  }
-  else
-  {
-    long wealth;
-
-    wealth = number_range(pMobIndex->wealth/2, 3 * pMobIndex->wealth/2);
-    mob->gold = number_range(wealth/200,wealth/100);
-    mob->silver = wealth - (mob->gold * 100);
-  }
+    mob->silver = number_range(mob->level/5,mob->level*2);
 
   mob->act 		= pMobIndex->act | ACT_IS_NPC;
   mob->comm		= COMM_NOCHANNELS|COMM_NOSHOUT|COMM_NOTELL;
   mob->affected_by	= pMobIndex->affected_by;
   mob->detection		= pMobIndex->detection;
-  mob->alignment		= number_range(-1000,1000);
+
+  /*
+   * Yonelim ayarlama
+   */
+  if ( pArea == NULL )
+  {
+    mob->alignment		= number_range(-1000,1000);
+  }
+  else
+  {
+    i = number_range(1,100);
+    if (i < pArea->yonelim_iyi)
+    {
+      mob->alignment = number_range(350,1000);
+    }
+    else if (i < ( pArea->yonelim_iyi + pArea->yonelim_yansiz ) )
+    {
+      mob->alignment = number_range(-349,349);
+    }
+    else
+    {
+      mob->alignment = number_range(-1000,-350);
+    }
+  }
+  /*
+   * Yonelim ayarlama bitti
+   */
+
   mob->level		= pMobIndex->level;
   mob->hitroll		= hitroll_damroll_hesapla(pMobIndex->level);
   mob->damroll		= hitroll_damroll_hesapla(pMobIndex->level);
@@ -2011,7 +2032,6 @@ void clone_mobile(CHAR_DATA *parent, CHAR_DATA *clone)
 
     /* start fixing values */
     clone->name 	= str_dup(parent->name);
-    clone->version	= parent->version;
     clone->short_descr	= str_dup(parent->short_descr);
     clone->long_descr	= str_dup(parent->long_descr);
     clone->description	= str_dup(parent->description);
@@ -2028,7 +2048,6 @@ void clone_mobile(CHAR_DATA *parent, CHAR_DATA *clone)
     clone->max_mana	= parent->max_mana;
     clone->move		= parent->move;
     clone->max_move	= parent->max_move;
-    clone->gold		= parent->gold;
     clone->silver	= parent->silver;
     clone->exp		= parent->exp;
     clone->act		= parent->act;
@@ -2124,15 +2143,17 @@ OBJ_DATA *create_object_org( OBJ_INDEX_DATA *pObjIndex, int level, bool Count )
     obj->enchanted	= FALSE;
 
     for (i=1;i < MAX_CABAL;i++)
+    {
       if (pObjIndex->vnum == cabal_table[i].obj_vnum)
       {
-	/*
-	if ( count_obj_list( pObjIndex, object_list) > 0 )
-	  return(NULL);
-	*/
+        /*
+        if ( count_obj_list( pObjIndex, object_list) > 0 )
+        return(NULL);
+        */
         cabal_table[i].obj_ptr = obj;
-	break;
+        break;
       }
+    }
     if ( ( obj->pIndexData->limit != -1 )  &&
 	 ( obj->pIndexData->count >= obj->pIndexData->limit ) )
 
@@ -2191,6 +2212,7 @@ OBJ_DATA *create_object_org( OBJ_INDEX_DATA *pObjIndex, int level, bool Count )
     case ITEM_CONTAINER:
     case ITEM_DRINK_CON:
     case ITEM_KEY:
+    case ITEM_MAYMUNCUK:
     case ITEM_FOOD:
     case ITEM_BOAT:
     case ITEM_CORPSE_NPC:
@@ -3232,7 +3254,7 @@ void do_dump( CHAR_DATA *ch, char *argument )
  */
 int number_fuzzy( int number )
 {
-    switch ( number_bits( 2 ) )
+    switch ( number_range(0,3) )
     {
     case 0:  number -= 1; break;
     case 3:  number += 1; break;
@@ -3244,26 +3266,29 @@ int number_fuzzy( int number )
 
 
 /*
- * Generate a random number.
+ * UD'deki rastgele sayi uretiminin temel yeri.
+ * Modula ile yapilan hesaplamanin problemini
+ * asmaya calisiyoruz.
  */
 int number_range( int from, int to )
 {
-    int power;
-    int number;
+  int x;
+  int fark;
 
-    if (from == 0 && to == 0)
-	return 0;
+  fark = to - from;
 
-    if ( ( to = to - from + 1 ) <= 1 )
-	return from;
+  if( fark == 0 )
+  {
+    return from;
+  }
 
-    for ( power = 2; power < to; power <<= 1 )
-	;
+  do {
+    x = random();
+  } while (x >= (RAND_MAX - (RAND_MAX % (fark+1))));
 
-    while ( ( number = number_mm() & (power -1 ) ) >= to )
-	;
+  x %= (fark+1);
 
-    return from + number;
+  return x + from;
 }
 
 
@@ -3273,12 +3298,7 @@ int number_range( int from, int to )
  */
 int number_percent( void )
 {
-    int percent;
-
-    while ( (percent = number_mm() & (128-1) ) > 99 )
-	;
-
-    return 1 + percent;
+    return number_range(1,100);
 }
 
 
@@ -3288,97 +3308,14 @@ int number_percent( void )
  */
 int number_door( void )
 {
-    int door;
-
-    while ( ( door = number_mm() & (8-1) ) > 5)
-	;
-
-    return door;
+    return number_range(0,5);
 }
 
-int number_bits( int width )
+void init_random_number_generator( )
 {
-    return number_mm( ) & ( ( 1 << width ) - 1 );
+  srandom(time(NULL)^getpid());
+  return;
 }
-
-
-
-
-/*
- * I've gotten too many bad reports on OS-supplied random number generators.
- * This is the Mitchell-Moore algorithm from Knuth Volume II.
- * Best to leave the constants alone unless you've read Knuth.
- * -- Furey
- */
-
-/* I noticed streaking with this random number generator, so I switched
-   back to the system srandom call.  If this doesn't work for you,
-   define OLD_RAND to use the old system -- Alander */
-
-#if defined (OLD_RAND)
-static  int     rgiState[2+55];
-#endif
-
-void init_mm( )
-{
-#if defined (OLD_RAND)
-    int *piState;
-    int iState;
-
-    piState     = &rgiState[2];
-
-    piState[-2] = 55 - 55;
-    piState[-1] = 55 - 24;
-
-    piState[0]  = ((int) current_time) & ((1 << 30) - 1);
-    piState[1]  = 1;
-    for ( iState = 2; iState < 55; iState++ )
-    {
-        piState[iState] = (piState[iState-1] + piState[iState-2])
-                        & ((1 << 30) - 1);
-    }
-#else
-#if defined(__hpux)
-    srand(time(NULL)^getpid());
-#else
-    srandom(time(NULL)^getpid());
-#endif
-#endif
-    return;
-}
-
-
-
-long number_mm( void )
-{
-#if defined (OLD_RAND)
-    int *piState;
-    int iState1;
-    int iState2;
-    int iRand;
-
-    piState             = &rgiState[2];
-    iState1             = piState[-2];
-    iState2             = piState[-1];
-    iRand               = (piState[iState1] + piState[iState2])
-                        & ((1 << 30) - 1);
-    piState[iState1]    = iRand;
-    if ( ++iState1 == 55 )
-        iState1 = 0;
-    if ( ++iState2 == 55 )
-        iState2 = 0;
-    piState[-2]         = iState1;
-    piState[-1]         = iState2;
-    return iRand >> 6;
-#else
-#if defined(__hpux)
-    return rand() >> 6;
-#else
-    return random() >> 6;
-#endif
-#endif
-}
-
 
 /*
  * Roll some dice.
@@ -3712,11 +3649,11 @@ void load_olimits(FILE *fp)
  */
 void load_limited_objects()
 {
-#if defined(linux)
+  #if defined(linux)
   struct dirent *dp;
-#else
+  #else
   struct direct *dp;
-#endif
+  #endif
 
   int i;
   DIR *dirp;
@@ -3730,101 +3667,111 @@ void load_limited_objects()
 
   total_levels = 0;
 
-
   if ( (dirp = opendir(PLAYER_DIR)) == NULL)
-    {
-      bug("Load_limited_objects: unable to open player directory.",0);
-      exit(1);
-    }
+  {
+    bug("Load_limited_objects: unable to open player directory.",0);
+    exit(1);
+  }
 
   for (dp = readdir(dirp); dp != NULL; dp = readdir(dirp) )
+  {
+    if (strlen(dp->d_name) >= 3)
     {
-      if (strlen(dp->d_name) >= 3)
+      sprintf(buf, "%s/",PLAYER_DIR);
+      strcat(buf, dp->d_name);
+      fReadLevel = FALSE;
+      tplayed = 0;
+
+      if ( (pfile = fopen(buf, "r")) == NULL)
       {
-	sprintf(buf, "%s/",PLAYER_DIR);
-	strcat(buf, dp->d_name);
-	fReadLevel = FALSE;
-	tplayed = 0;
+        bug("Load_limited_objects: Can't open player file.",0);
+      }
+      else
+      {
+        for (letter = fread_letter(pfile);letter != EOF;letter = fread_letter(pfile) )
+        {
+          if (letter == 'L')
+          {
+            if (!fReadLevel)
+            {
+              word = fread_word(pfile);
 
-	if ( (pfile = fopen(buf, "r")) == NULL)
-	    bug("Load_limited_objects: Can't open player file.",0);
-	else
-	{
-	  for (letter = fread_letter(pfile);letter != EOF;
-		   letter = fread_letter(pfile) )
-	  {
-	    if (letter == 'L')
-	    {
-		if (!fReadLevel)
-		{
-		  word = fread_word(pfile);
+              if (!str_cmp(word, "evl") || !str_cmp(word,"ev") || !str_cmp(word, "evel"))
+              {
+                i = fread_number(pfile);
+                fReadLevel = TRUE;
+                total_levels += UMAX(0,i - 5);
+                sprintf(log_buf,"[%s]'s file +: %d\n\r",buf, UMAX(0,i-5));
+                dump_to_scr(log_buf);
+                continue;
+              }
+            }
+          }
+          else if (letter == 'P')
+          {
+            word = fread_word(pfile);
 
-		  if (!str_cmp(word, "evl") || !str_cmp(word,"ev")
-			|| !str_cmp(word, "evel"))
-		  {
-			i = fread_number(pfile);
-			fReadLevel = TRUE;
-			total_levels += UMAX(0,i - 5);
-		sprintf(log_buf,"[%s]'s file +: %d\n\r",buf, UMAX(0,i-5));
-			dump_to_scr(log_buf);
-			continue;
-		  }
-	        }
-	     }
-	    else if (letter == 'P')
-	    {
-		  word = fread_word(pfile);
+            if (!str_cmp(word, "layLog") )
+            {
+              int d, t;
+              int today = parse_date( current_time );
 
-		  if (!str_cmp(word, "layLog") )
-		  {
-		    int d, t;
-		    int today = parse_date( current_time );
-
-		    fread_number(pfile);	/* read the version */
-		    while (1)
-	 	    {
-			if ( (d = fread_number(pfile)) < 0 ) break;
-			t = fread_number(pfile);
-			if ( today > 14 )
-			{
-			  if (d <= today && d > (today - 14)) tplayed += t;
-			}
-			else
-			{
-			  if ( d < today ) d+= 365;
-			  if (d<=(today + 365) && d>(today + 351)) tplayed += t;
-			}
-                    }
-
-	        }
-	     }
-	     else if (letter == '#')
-	     {
-		word = fread_word(pfile);
-		if (!str_cmp(word, "O") || !str_cmp(word, "OBJECT"))
-		{
-		  if ( tplayed < MIN_TIME_LIMIT )
-		  {
-			sprintf(log_buf,
-			  "Discarding the player %s for limited equipments!.\n",
-			  buf);
-			dump_to_scr( log_buf );
-			break;
-		  }
-		  fread_word(pfile);
-		  fBootDb = FALSE;
-		  vnum = fread_number(pfile);
-		  if (get_obj_index(vnum) != NULL)
-		  	get_obj_index(vnum)->count++;
-		  fBootDb = TRUE;
-		}
-	     }
-	     else fread_to_eol(pfile);
-	   }
-           fclose(pfile);
-	}
+              fread_number(pfile);	/* read the version */
+              while (1)
+              {
+                if ( (d = fread_number(pfile)) < 0 )
+                {
+                  break;
+                }
+                t = fread_number(pfile);
+                if ( today > 14 )
+                {
+                  if (d <= today && d > (today - 14))
+                  {
+                    tplayed += t;
+                  }
+                }
+                else
+                {
+                  if ( d < today )
+                  {
+                    d+= 365;
+                  }
+                  if (d<=(today + 365) && d>(today + 351))
+                  {
+                    tplayed += t;
+                  }
+                }
+              }
+            }
+          }
+          else if (letter == '#')
+          {
+            word = fread_word(pfile);
+            if (!str_cmp(word, "O") || !str_cmp(word, "OBJECT"))
+            {
+              if ( tplayed < MIN_TIME_LIMIT )
+              {
+                sprintf(log_buf,"Discarding the player %s for limited equipments!.\n",buf);
+                dump_to_scr( log_buf );
+                break;
+              }
+              fread_word(pfile);
+              fBootDb = FALSE;
+              vnum = fread_number(pfile);
+              if (get_obj_index(vnum) != NULL)
+              {
+                get_obj_index(vnum)->count++;
+              }
+              fBootDb = TRUE;
+            }
+          }
+          else fread_to_eol(pfile);
+        }
+        fclose(pfile);
       }
     }
+  }
   closedir(dirp);
 }
 

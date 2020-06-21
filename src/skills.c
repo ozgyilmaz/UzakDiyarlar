@@ -9,7 +9,7 @@
  * Discord : https://discord.gg/kXyZzv                                     *
  *                                                                         *
  ***************************************************************************/
- 
+
 /***************************************************************************
  *     ANATOLIA 2.1 is copyright 1996-1997 Serdar BULUT, Ibrahim CANPUNAR  *
  *     ANATOLIA has been brought to you by ANATOLIA consortium		   *
@@ -272,10 +272,9 @@ int base_exp(CHAR_DATA *ch, int points)
   int expl;
 
   if (IS_NPC(ch))    return 1500;
-  expl = 1000 + pc_race_table[ORG_RACE(ch)].points +
-			class_table[ch->iclass].points;
+  expl = 1000 + race_table[ORG_RACE(ch)].points + class_table[ch->iclass].points;
 
-  return (expl * pc_race_table[ORG_RACE(ch)].class_mult[ch->iclass]/100);
+  return expl;
 }
 
 int exp_to_level(CHAR_DATA *ch, int points)
@@ -302,10 +301,9 @@ int exp_per_level(CHAR_DATA *ch, int points)
     if (IS_NPC(ch))
 	return 1000;
 
-    expl = 1000 + pc_race_table[ORG_RACE(ch)].points +
-			class_table[ch->iclass].points;
+    expl = 1000 + race_table[ORG_RACE(ch)].points + class_table[ch->iclass].points;
 
-    return expl * pc_race_table[ORG_RACE(ch)].class_mult[ch->iclass]/100;
+    return expl;
 }
 
 

@@ -9,7 +9,7 @@
  * Discord : https://discord.gg/kXyZzv                                     *
  *                                                                         *
  ***************************************************************************/
- 
+
 #if defined(macintosh)
 #include <types.h>
 #include <time.h>
@@ -37,22 +37,21 @@ int hitroll_damroll_hesapla(int level)
 
 int damage_dice_0(int level)
 {
-	int type, number, bonus;
+	int type, number;
+
 	type   = level*7/4;
 	number = UMIN(type/8 + 1, 5);
-	type   = UMAX(2, type/number);
-	bonus  = UMAX(0, level*9/4 - number*type);
 
 	return number;
 }
 
 int damage_dice_1(int level)
 {
-	int type, number, bonus;
+	int type, number;
+
 	type   = level*7/4;
 	number = UMIN(type/8 + 1, 5);
 	type   = UMAX(2, type/number);
-	bonus  = UMAX(0, level*9/4 - number*type);
 
 	return type;
 }
@@ -60,6 +59,7 @@ int damage_dice_1(int level)
 int damage_dice_2(int level)
 {
 	int type, number, bonus;
+
 	type   = level*7/4;
 	number = UMIN(type/8 + 1, 5);
 	type   = UMAX(2, type/number);
@@ -106,15 +106,18 @@ int ac_dice(int i,int level)
 
 int position_dice(void)
 {
-	int pos=4;
-	switch ( number_range( 1, 4 ) )
-	{
-		case 1: pos = POS_SLEEPING; break;
-		case 2: pos = POS_RESTING; break;
-		case 3: pos = POS_SITTING; break;
-		case 4: pos = POS_STANDING; break;
-	}
-	return pos;
+	int dice;
+
+  dice = number_range( 1, 100 );
+
+  if(dice < 50)
+    return POS_STANDING;
+  else if(dice < 75)
+    return POS_SITTING;
+  else if(dice < 90)
+    return POS_RESTING;
+  else
+    return POS_SLEEPING;
 }
 
 int sex_dice(void)

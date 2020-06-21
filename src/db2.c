@@ -310,8 +310,6 @@ void load_new_mobiles( FILE *fp )
 	pMobIndex->default_pos		= 0;
 	pMobIndex->sex				= 0;
 
-	pMobIndex->wealth			= 0;
-
 	pMobIndex->form				= 0;
 	pMobIndex->parts			= 0;
 	/* size */

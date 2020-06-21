@@ -1905,9 +1905,9 @@ void spell_continual_light(int sn,int level,CHAR_DATA *ch,void *vo,int target)
 
 void spell_control_weather(int sn,int level,CHAR_DATA *ch,void *vo,int target)
 {
-    if ( !str_cmp( target_name, "better" ) )
+    if ( !str_cmp( target_name, "iyi" ) )
 	weather_info.change += dice( level / 3, 4 );
-    else if ( !str_cmp( target_name, "worse" ) )
+    else if ( !str_cmp( target_name, "kötü" ) )
 	weather_info.change -= dice( level / 3, 4 );
     else  {
       send_to_char ("ÝYÝ mi olsun, KÖTÜ mü?\n\r", ch );
@@ -5931,7 +5931,7 @@ void spell_mist_walk( int sn, int level, CHAR_DATA *ch, void *vo,int target )
 
     if ( ( victim = get_char_world( ch, target_name ) ) == NULL
     ||   victim == ch
-    ||   !IS_VAMPIRE(ch)
+/*    ||   !IS_VAMPIRE(ch) Karakam da bu buyuye sahip */
     ||   victim->in_room == NULL
     ||   !can_see_room(ch,victim->in_room)
     ||   IS_SET(victim->in_room->room_flags, ROOM_SAFE)
@@ -5939,7 +5939,7 @@ void spell_mist_walk( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     ||   IS_SET(victim->in_room->room_flags, ROOM_SOLITARY)
     ||   IS_SET(ch->in_room->room_flags, ROOM_NOSUMMON)
     ||   IS_SET(victim->in_room->room_flags, ROOM_NOSUMMON)
-    ||   victim->level >= level - 5
+    ||   victim->level >= level + 3
 /*    ||   (!IS_NPC(victim) && victim->level >= LEVEL_HERO)  * NOT trust */
     ||   saves_spell(level,victim,DAM_OTHER)
     ||   (IS_NPC(victim) && is_safe_nomessage(ch, victim) && IS_SET(victim->imm_flags,IMM_SUMMON))
@@ -6287,7 +6287,7 @@ void spell_summon_earth_elm( int sn, int level, CHAR_DATA *ch, void *vo,int targ
 
   if (count_charmed(ch)) return;
 
-  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_EARTH) );
+  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_EARTH), NULL );
 
 
   for (i = 0; i < MAX_STATS; i ++)
@@ -6306,7 +6306,7 @@ void spell_summon_earth_elm( int sn, int level, CHAR_DATA *ch, void *vo,int targ
   for (i=0; i < 3; i++)
     elm->armor[i] = interpolate(elm->level,100,-100);
   elm->armor[3] = interpolate(elm->level,100,0);
-  elm->gold = 0;
+  elm->silver = 0;
   elm->timer = 0;
   elm->damage[DICE_NUMBER] = 3;
   elm->damage[DICE_TYPE] = 10;
@@ -6374,7 +6374,7 @@ void spell_summon_air_elm( int sn, int level, CHAR_DATA *ch, void *vo,int target
 
   if (count_charmed(ch)) return;
 
-  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_AIR) );
+  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_AIR), NULL );
 
 
   for (i = 0; i < MAX_STATS; i ++)
@@ -6393,7 +6393,7 @@ void spell_summon_air_elm( int sn, int level, CHAR_DATA *ch, void *vo,int target
   for (i=0; i < 3; i++)
     elm->armor[i] = interpolate(elm->level,100,-100);
   elm->armor[3] = interpolate(elm->level,100,0);
-  elm->gold = 0;
+  elm->silver = 0;
   elm->timer = 0;
   elm->damage[DICE_NUMBER] = 7;
   elm->damage[DICE_TYPE] = 4;
@@ -6450,7 +6450,7 @@ void spell_summon_water_elm( int sn, int level, CHAR_DATA *ch, void *vo,int targ
 
   if (count_charmed(ch)) return;
 
-  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_WATER) );
+  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_WATER), NULL );
 
 
   for (i = 0; i < MAX_STATS; i ++)
@@ -6469,7 +6469,7 @@ void spell_summon_water_elm( int sn, int level, CHAR_DATA *ch, void *vo,int targ
   for (i=0; i < 3; i++)
     elm->armor[i] = interpolate(elm->level,100,-100);
   elm->armor[3] = interpolate(elm->level,100,0);
-  elm->gold = 0;
+  elm->silver = 0;
   elm->timer = 0;
   elm->damage[DICE_NUMBER] = 8;
   elm->damage[DICE_TYPE] = 4;
@@ -6526,7 +6526,7 @@ void spell_summon_fire_elm( int sn, int level, CHAR_DATA *ch, void *vo,int targe
 
   if (count_charmed(ch)) return;
 
-  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_FIRE) );
+  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_FIRE), NULL );
 
 
   for (i = 0; i < MAX_STATS; i ++)
@@ -6545,7 +6545,7 @@ void spell_summon_fire_elm( int sn, int level, CHAR_DATA *ch, void *vo,int targe
   for (i=0; i < 3; i++)
     elm->armor[i] = interpolate(elm->level,100,-100);
   elm->armor[3] = interpolate(elm->level,100,0);
-  elm->gold = 0;
+  elm->silver = 0;
   elm->timer = 0;
   elm->damage[DICE_NUMBER] = 11;
   elm->damage[DICE_TYPE] = 5;
@@ -6602,7 +6602,7 @@ void spell_summon_light_elm( int sn, int level, CHAR_DATA *ch, void *vo,int targ
 
   if (count_charmed(ch)) return;
 
-  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_LIGHT) );
+  elm = create_mobile( get_mob_index(MOB_VNUM_ELM_LIGHT), NULL );
 
 
   for (i = 0; i < MAX_STATS; i ++)
@@ -6621,7 +6621,7 @@ void spell_summon_light_elm( int sn, int level, CHAR_DATA *ch, void *vo,int targ
   for (i=0; i < 3; i++)
     elm->armor[i] = interpolate(elm->level,100,-100);
   elm->armor[3] = interpolate(elm->level,100,0);
-  elm->gold = 0;
+  elm->silver = 0;
   elm->timer = 0;
   elm->damage[DICE_NUMBER] = 13;
   elm->damage[DICE_TYPE] = 9;
@@ -6955,8 +6955,8 @@ void spell_animate_object( int sn, int level, CHAR_DATA *ch, void *vo,int target
   }
 
   if (obj->item_type == ITEM_WEAPON)
-	mob = create_mobile(get_mob_index(MOB_VNUM_WEAPON));
-  else	mob = create_mobile(get_mob_index(MOB_VNUM_ARMOR));
+	mob = create_mobile(get_mob_index(MOB_VNUM_WEAPON), NULL);
+  else	mob = create_mobile(get_mob_index(MOB_VNUM_ARMOR), NULL);
 
   sprintf(buf, "canlandýrýlmýþ %s", obj->name);
   free_string( mob->name );
@@ -7009,7 +7009,7 @@ void spell_animate_object( int sn, int level, CHAR_DATA *ch, void *vo,int target
      mob->damage[DICE_BONUS] = number_range(level/10, level/8);
   }
   mob->sex = ch->sex;
-  mob->gold = 0;
+  mob->silver = 0;
   mob->master = mob->leader = ch;
   SET_BIT(mob->affected_by, AFF_CHARM);
 

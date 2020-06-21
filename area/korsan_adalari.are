@@ -9,6 +9,9 @@ Highlevel 90
 Minvnum 17000
 Maxvnum 17300
 Path 4d 3k 2b 3k d 2k 4d 4g b~
+Yonelim_iyi 33
+Yonelim_yansiz 34
+Yonelim_kem 33
 END
 
 #NEW_MOBILES
@@ -1847,6 +1850,10 @@ D2
 Into the cave~
 ~
 0 -1 17211
+D4
+Girdabýn Ýçerisi~
+~
+0 -1 17271
 E
 bottom~
 Peering deep into the water, you see orange, red and yellow sea urchins
@@ -2183,6 +2190,10 @@ D2
 Up the southern path~
 ~
 0 -1 17207
+D4
+Havada Süzülürken~
+~
+0 -1 17241
 D5
 Down a shaft~
 hatch~
@@ -2336,6 +2347,10 @@ from which hot air emanates. It is up these stairs that most of the pirates
 scurry when you enter the room.
 ~
 0 8 0
+D0
+Korsan Ýninin Ýçi~
+~
+0 -1 17217
 D1
 The barracks~
 ~

@@ -9,7 +9,13 @@ Highlevel 100
 Minvnum 570
 Maxvnum 579
 Path 21d 11k~
+Yonelim_iyi 5
+Yonelim_yansiz 90
+Yonelim_kem 5
 END
+
+#FLAG
+C
 
 #NEW_MOBILES
 #570
@@ -21,7 +27,7 @@ Avcý Kabalýnýn Malikanesinin giriþinde duran yabancýlarýn girmesini
 Yüzbinlerce altýn ile özel olarak tutulmuþ kaslý bir koruma.
 ~
 human~
-ABKWe  DFHJVZ 92
+ABKWe  DFHJVZc 92
 #571
 avcý kabal þifacý AVCI hunter~
 þifacý~

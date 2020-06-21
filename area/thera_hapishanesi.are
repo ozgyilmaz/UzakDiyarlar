@@ -9,6 +9,9 @@ Highlevel 130
 Minvnum 15000
 Maxvnum 15099
 Path ~
+Yonelim_iyi 5
+Yonelim_yansiz 15
+Yonelim_kem 80
 END
 
 #NEW_MOBILES
@@ -188,9 +191,9 @@ A
 
 
 #15008
-kayýp ruh kalkan~
-kayýp ruh kalkaný~
-Kayýp ruhun parlayan kalkaný burada.
+hotsuma ruh kalkan~
+Hotsuma'nýn ruh kalkaný~
+Kaybolmuþ bir ruhun parlayan kalkaný burada.
 ~
 gold~
 armor BEGH AJ
@@ -205,9 +208,9 @@ A
 
 
 #15003
-ambros asa~
-ambros asasý~
-Ambros asasý burada.
+rathaen yýlan asa~
+Rathaen'in yýlanlý asasý~
+Kayýp bir ruha ait yaþayan bir asa burada, hareket ediyor.
 ~
 wood~
 staff BEGH AO
