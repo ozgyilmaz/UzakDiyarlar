@@ -1184,7 +1184,6 @@ void do_show(CHAR_DATA *ch, char *argument)
 
 void do_prompt(CHAR_DATA *ch, char *argument)
 {
-  char buf[MAX_STRING_LENGTH];
 
   if ( argument[0] == '\0' )
   {
@@ -1201,28 +1200,12 @@ void do_prompt(CHAR_DATA *ch, char *argument)
     return;
   }
 
-  if( !strcmp( argument, "tümü" ) )
+  if(argument[0]!='\0')
   {
-    strcpy( buf, "Yp:%h/%H Mp:%m/%M Hp:%v/%V <%o>->{x ");
-  }
-  else
-  {
-    if ( strlen(argument) > 50 )
-    {
-      argument[50] = '\0';
-    }
-    strcpy( buf, argument );
-    smash_tilde( buf );
-    if (str_suffix("%c",buf))
-    {
-      strcat(buf," ");
-    }
+     printf_to_char(ch,"Bu komutla argüman kullanýlmaz.\n\r");
+     return;
   }
 
-  free_string( ch->prompt );
-  ch->prompt = str_dup( buf );
-  printf_to_char(ch,"Suflör %s olarak ayarlandý.\n\r",ch->prompt );
-  send_to_char(buf,ch);
   return;
 }
 
@@ -1747,7 +1730,7 @@ void do_exits( CHAR_DATA *ch, char *argument )
   if (fAuto)
   {
     sprintf(buf,CLR_CYAN);
-    strcat(buf,"[Çýkýþlar:");
+    strcat(buf,"[");
   }
   else if (IS_IMMORTAL(ch))
   {
@@ -1820,7 +1803,7 @@ void do_exits( CHAR_DATA *ch, char *argument )
 
     if ( fAuto )
 	{
-	  strcat( buf, "]\n\r" );
+	  strcat( buf, " ]\n\r" );
 	  strcat( buf, CLR_WHITE_BOLD);
   }
     send_to_char( buf, ch );

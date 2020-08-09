@@ -1425,159 +1425,95 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
  * bust
  */
 
-void bust_a_prompt( CHAR_DATA *ch )
-{
-    char buf[MAX_STRING_LENGTH];
-    char buf2[MAX_STRING_LENGTH];
-    const char *str;
-    const char *i;
-    char *point;
-    char doors[MAX_INPUT_LENGTH];
-    CHAR_DATA *victim;
-    EXIT_DATA *pexit;
-    bool found;
-		const char *dir_name[] = {"K","D","G","B","Y","A"};
-    int door;
+ void bust_a_prompt( CHAR_DATA *ch )
+ {
+     char buf[MAX_STRING_LENGTH];
+     char buf2[MAX_STRING_LENGTH];
+     const char *str;
+     const char *i;
+     char *point;
+ 	char *pbuff;
+ 	char buffer[ MAX_STRING_LENGTH*2 ];
+     CHAR_DATA *victim;
 
-    point = buf;
-    str = ch->prompt;
-    if (str == NULL || str[0] == '\0')
+     point = buf;
+
+			strcpy( buf, "Yp:%h/%H Mp:%m/%M Hp:%v/%V <%o>{x ");
+			free_string( ch->prompt );
+			ch->prompt = str_dup( buf );
+			str = ch->prompt;
+
+    while( *str != '\0' )
     {
-			printf_to_char(ch, "Yp:%h/%H Mp:%m/%M Hp:%v/%V <%o>->{x ");
-	return;
+       if( *str != '%' )
+       {
+          *point++ = *str++;
+          continue;
+       }
+       ++str;
+       switch( *str )
+       {
+          default :
+             i = " "; break;
+          case 'o' :
+ 		if( ch->fighting != NULL )
+ 		{
+ 			if ((victim = ch->fighting) != NULL)
+ 			{
+ 				if (victim->hit >= 0)
+ 				{
+ 					sprintf( buf2, "%d",((100 * victim->hit) / UMAX(1,victim->max_hit)));
+ 				}
+ 				else
+ 				{
+ 					sprintf(buf2,"0");
+ 				}
+ 			}
+ 		}
+ 		else
+ 		{
+ 			sprintf(buf2,"0");
+ 		}
+             i = buf2; break;
+ /***** FInished ****/
+
+
+          case 'h' :
+             sprintf( buf2, "%d", ch->hit );
+             i = buf2; break;
+          case 'H' :
+             sprintf( buf2, "%d", ch->max_hit );
+             i = buf2; break;
+          case 'm' :
+             sprintf( buf2, "%d", ch->mana );
+             i = buf2; break;
+          case 'M' :
+             sprintf( buf2, "%d", ch->max_mana );
+             i = buf2; break;
+          case 'v' :
+             sprintf( buf2, "%d", ch->move );
+             i = buf2; break;
+          case 'V' :
+             sprintf( buf2, "%d", ch->max_move );
+             i = buf2; break;
+          case '%' :
+             sprintf( buf2, "%%" );
+             i = buf2; break;
+       }
+       ++str;
+       while( (*point = *i) != '\0' )
+          ++point, ++i;
     }
+    	//write_to_buffer( ch->desc, buf, point - buf );
+ 	*point	= '\0';
+ 	pbuff	= buffer;
+ 	colourconv( pbuff, buf, ch );
+ 	write_to_buffer( ch->desc, buffer, 0 );
 
-   while( *str != '\0' )
-   {
-      if( *str != '%' )
-      {
-         *point++ = *str++;
-         continue;
-      }
-      ++str;
-      switch( *str )
-      {
-         default :
-            i = " "; break;
-	case 'e':
-	    found = FALSE;
-	    doors[0] = '\0';
-	    for (door = 0; door < 6; door++)
-	    {
-		if ((pexit = ch->in_room->exit[door]) != NULL
-		&&  pexit ->u1.to_room != NULL
-		&&  (can_see_room(ch,pexit->u1.to_room)
-		||   (IS_AFFECTED(ch,AFF_INFRARED)
-		&&    !IS_AFFECTED(ch,AFF_BLIND)))
-		&&  !IS_SET(pexit->exit_info,EX_CLOSED))
-		{
-		    found = TRUE;
-		    strcat(doors,dir_name[door]);
-		}
-	    }
-	    if (!found)
-	 	strcat(buf,"hiç");
-	    sprintf(buf2,"%s",doors);
-	    i = buf2; break;
- 	 case 'c' :
-	    sprintf(buf2,"%s","\n\r");
-	    i = buf2; break;
-/** added from here by KIO   **/
-	 case 'n' :
-	    sprintf( buf2, "%s", ch->name );
-	    i = buf2; break;
-	 case 'S' :
-	 sprintf( buf2, "%s", (ch->sex == SEX_MALE ? "Erkek":(!ch->sex ? "Hiç":"Diþi")));
-	    i = buf2; break;
-         case 'y' :
-            if (ch->hit >= 0)
-           	sprintf( buf2, "%d%%",((100 * ch->hit) / UMAX(1,ch->max_hit)));
-	    else
-			sprintf( buf2, "KÖTÜ!!");
-	    i = buf2; break;
-         case 'o' :
-	    if ((victim = ch->fighting) != NULL) {
-		if (victim->hit >= 0)
-           	sprintf( buf2, "%d%%",((100 * victim->hit) / UMAX(1,victim->max_hit)));
-	             else
-							 sprintf(buf2,"KÖTÜ!!");
-                     }
-										 else    sprintf(buf2,"Hiç!");
-            i = buf2; break;
-/***** FInished ****/
-
-/* Thanx to zihni:  T for time */
-       case 'T' :
-			 sprintf( buf2, "%d", ((int)time_info.hour % 24 == 0) ? 24 :(int)time_info.hour %24);
- 	   i = buf2; break;
-
-         case 'h' :
-            sprintf( buf2, "%d", ch->hit );
-            i = buf2; break;
-         case 'H' :
-            sprintf( buf2, "%d", ch->max_hit );
-            i = buf2; break;
-         case 'm' :
-            sprintf( buf2, "%d", ch->mana );
-            i = buf2; break;
-         case 'M' :
-            sprintf( buf2, "%d", ch->max_mana );
-            i = buf2; break;
-         case 'v' :
-            sprintf( buf2, "%d", ch->move );
-            i = buf2; break;
-         case 'V' :
-            sprintf( buf2, "%d", ch->max_move );
-            i = buf2; break;
-         case 'x' :
-            sprintf( buf2, "%d", ch->exp );
-            i = buf2; break;
-	 case 'X' :
-	    sprintf(buf2, "%d",
-		IS_NPC(ch) ? 0 : exp_to_level(ch,ch->pcdata->points) );
-	    i = buf2; break;
-	 case 's' :
-	    sprintf( buf2, "%ld", ch->silver);
-	    i = buf2; break;
-         case 'a' :
-               sprintf( buf2, "%s", IS_GOOD(ch) ? "iyi" : IS_EVIL(ch) ?
-                "kem" : "yansýz" );
-            i = buf2; break;
-         case 'r' :
-            if( ch->in_room != NULL )
-               sprintf( buf2, "%s",
-		((!IS_NPC(ch) && IS_SET(ch->act,PLR_HOLYLIGHT)) ||
-		 (!IS_AFFECTED(ch,AFF_BLIND) && !room_is_dark( ch )))
-		? ch->in_room->name : "karanlýk");
-            else
-               sprintf( buf2, " " );
-            i = buf2; break;
-         case 'R' :
-            if( IS_IMMORTAL( ch ) && ch->in_room != NULL )
-               sprintf( buf2, "%d", ch->in_room->vnum );
-            else
-               sprintf( buf2, " " );
-            i = buf2; break;
-         case 'z' :
-            if( IS_IMMORTAL( ch ) && ch->in_room != NULL )
-               sprintf( buf2, "%s", ch->in_room->area->name );
-            else
-               sprintf( buf2, " " );
-            i = buf2; break;
-         case '%' :
-            sprintf( buf2, "%%" );
-            i = buf2; break;
-      }
-      ++str;
-      while( (*point = *i) != '\0' )
-         ++point, ++i;
-   }
-   write_to_buffer( ch->desc, buf, point - buf );
-
-   if (ch->prefix[0] != '\0')
-        write_to_buffer(ch->desc,ch->prefix,0);
-   return;
-}
+    if (ch->prefix[0] != '\0')
+         write_to_buffer(ch->desc,ch->prefix,0);
+    return;
+ }
 
 
 /*
