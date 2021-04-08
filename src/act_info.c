@@ -550,7 +550,10 @@ void show_char_to_char_0( CHAR_DATA *victim, CHAR_DATA *ch )
     sprintf(message," burada, %s'i sürüyor.",PERS(MOUNTED(victim),ch));
 	  strcat(buf, message);
 	}
-  else  strcat( buf, " burada." );
+  else 
+	  {
+		  strcat( buf, " burada." );
+	  }
 	break;
     case POS_FIGHTING:
     strcat( buf, " burada, " );
@@ -2026,7 +2029,7 @@ char *	const	month_name	[] =
 void do_time( CHAR_DATA *ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
-    char buf2[MAX_STRING_LENGTH];
+    char buf2[MAX_STRING_LENGTH - 20];
 
 	printf_to_char( ch , "Yýl  : %d\n\r", time_info.year );
 	printf_to_char( ch , "Ay   : %s (%d. ay)\n\r", month_name[time_info.month-1] , time_info.month );
@@ -2052,7 +2055,9 @@ void do_time( CHAR_DATA *ch, char *argument )
 		printf_to_char(ch,"\n\r\n\r");
     }
     if ( !IS_IMMORTAL( ch ) )
+	{
       return;
+  }
     sprintf(buf2, "%s", (char *) ctime( &boot_time ));
     sprintf(buf,"UD Mud %s tarihinde baþlatýldý.\n\rSistem zamaný, %s.\n\r",
 	buf2, (char *) ctime( &current_time ) );
@@ -4447,10 +4452,14 @@ void do_demand( CHAR_DATA *ch, char *argument)
 
 
   if (IS_SET(obj->progtypes,OPROG_GIVE))
+  {
     (obj->pIndexData->oprogs->give_prog) (obj,ch,victim);
+	}
 
   if (IS_SET(victim->progtypes,MPROG_GIVE))
+  {
     (victim->pIndexData->mprogs->give_prog) (victim,ch,obj);
+}
 
     send_to_char( "Gücün arzýn ürpermesine neden oluyor.\n\r",ch);
 

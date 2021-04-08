@@ -398,7 +398,9 @@ void do_kdg( CHAR_DATA *ch, char *argument )
     char buf[MAX_INPUT_LENGTH];
 
 	if( IS_NPC( ch ) )
+	{
 		return;
+	}
 
     if ( argument[0] == '\0' )
     {
@@ -434,9 +436,13 @@ void do_kdg( CHAR_DATA *ch, char *argument )
     }
 
     if (is_affected(ch,gsn_garble))
+	{
       garble(buf,argument);
+  	}
     else
+	{
       strcpy(buf,argument);
+  	}
 
       ch->pcdata->rk_puani -= 4;
 
@@ -1930,7 +1936,7 @@ char char_lang_lookup( char c )
 char *translate(CHAR_DATA *ch, CHAR_DATA *victim, char *argument)
 {
   static char trans[MAX_STRING_LENGTH];
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH - 3];
   char c;
   int i;
 
