@@ -3,7 +3,7 @@ Filename kutsal_koru.are~
 Name Kutsal Koru~
 Builder Alfa~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 20
 Minvnum 8900
@@ -18,94 +18,94 @@ END
 #8900
 hiyeropant~
 Hiyeropant~
-Kutsal korunun yaşlı Hiyeropant'ı burada, kutsalları bir araya getiriyor.
+Kutsal korunun yaÅŸlÄ± Hiyeropant'Ä± burada, kutsallarÄ± bir araya getiriyor.
 ~
-Oldukça yaşlı ve kendisi kadar yaşlı bir cüppeye bürünmüş bir adam. Açık
-mavi gözleri dünyayı izliyor, yaşayan ve büyüyen herşeyi görüyor.
+OldukÃ§a yaÅŸlÄ± ve kendisi kadar yaÅŸlÄ± bir cÃ¼ppeye bÃ¼rÃ¼nmÃ¼ÅŸ bir adam. AÃ§Ä±k
+mavi gÃ¶zleri dÃ¼nyayÄ± izliyor, yaÅŸayan ve bÃ¼yÃ¼yen herÅŸeyi gÃ¶rÃ¼yor.
 ~
 human~
 AGHKQe DHN 20
 #8901
 hiyeropant~
 Hiyeropant~
-Kutsal korunun yaşlı Hiyeropant'ı burada, kutsalları bir araya getiriyor.
+Kutsal korunun yaÅŸlÄ± Hiyeropant'Ä± burada, kutsallarÄ± bir araya getiriyor.
 ~
-Oldukça yaşlı ve kendisi kadar yaşlı bir cüppeye bürünmüş bir kadın. Açık
-mavi gözleri dünyayı izliyor, yaşayan ve büyüyen herşeyi görüyor.
+OldukÃ§a yaÅŸlÄ± ve kendisi kadar yaÅŸlÄ± bir cÃ¼ppeye bÃ¼rÃ¼nmÃ¼ÅŸ bir kadÄ±n. AÃ§Ä±k
+mavi gÃ¶zleri dÃ¼nyayÄ± izliyor, yaÅŸayan ve bÃ¼yÃ¼yen herÅŸeyi gÃ¶rÃ¼yor.
 ~
 human~
 AGHQ DHN 20
 #8902
-yaşlı rahip~
-yaşlı rahip~
-Yaşlı bir rahip görüyorsun, vahşi ve kutsal yaşamı izliyor.
+yaÅŸlÄ± rahip~
+yaÅŸlÄ± rahip~
+YaÅŸlÄ± bir rahip gÃ¶rÃ¼yorsun, vahÅŸi ve kutsal yaÅŸamÄ± izliyor.
 ~
-Kutsal korunun diğer rahipleri gibi yaşlı. Çenesinden sarkan gri sakalın
-her telinde onlarca yılın tecrübesi ve bilgisi kendini gösteriyor.
+Kutsal korunun diÄŸer rahipleri gibi yaÅŸlÄ±. Ã‡enesinden sarkan gri sakalÄ±n
+her telinde onlarca yÄ±lÄ±n tecrÃ¼besi ve bilgisi kendini gÃ¶steriyor.
 ~
 human~
 AGHQ N 13
 #8903
-yaşlı rahibe~
-yaşlı rahibe~
-Yaşlı bir rahibe görüyorsun, vahşi ve kutsal yaşamı izliyor.
+yaÅŸlÄ± rahibe~
+yaÅŸlÄ± rahibe~
+YaÅŸlÄ± bir rahibe gÃ¶rÃ¼yorsun, vahÅŸi ve kutsal yaÅŸamÄ± izliyor.
 ~
-Oldukça yaşlı, güzel bir gülümsemeyle seni selamlıyor.
+OldukÃ§a yaÅŸlÄ±, gÃ¼zel bir gÃ¼lÃ¼msemeyle seni selamlÄ±yor.
 ~
 human~
 AGHQ N 13
 #8904
-dişi geyik~
-dişi geyik~
-Bir geyik görüyorsun, çimenleri eziyor.
+diÅŸi geyik~
+diÅŸi geyik~
+Bir geyik gÃ¶rÃ¼yorsun, Ã§imenleri eziyor.
 ~
-Büyük kara gözleriyle seni izleyen barışçıl bir dişi geyik.
+BÃ¼yÃ¼k kara gÃ¶zleriyle seni izleyen barÄ±ÅŸÃ§Ä±l bir diÅŸi geyik.
 ~
 human~
 AGH 0 5
 #8905
 geyik~
 geyik~
-Bir geyik görüyorsun, sessizce dolaşıyor.
+Bir geyik gÃ¶rÃ¼yorsun, sessizce dolaÅŸÄ±yor.
 ~
-Senin varlığından rahatsız olmuş gibi görünüyor. Kafasını yere eğerek
-sağ arka ayağıyla çimleri kopartıp savuruyor.
+Senin varlÄ±ÄŸÄ±ndan rahatsÄ±z olmuÅŸ gibi gÃ¶rÃ¼nÃ¼yor. KafasÄ±nÄ± yere eÄŸerek
+saÄŸ arka ayaÄŸÄ±yla Ã§imleri kopartÄ±p savuruyor.
 ~
 human~
 AGH 0 6
 #8906
 erkek geyik~
 erkek geyik~
-Büyükçe bir geyik görüyorsun, bölgesini kolluyor.
+BÃ¼yÃ¼kÃ§e bir geyik gÃ¶rÃ¼yorsun, bÃ¶lgesini kolluyor.
 ~
-Onu rahatsız etmesen daha iyi...
+Onu rahatsÄ±z etmesen daha iyi...
 ~
 human~
 AFGH 0 8
 #8907
-küçük tavşan~
-küçük tavşan~
-Küçük bir tavşan görüyorsun, zıplayıp duruyor.
+kÃ¼Ã§Ã¼k tavÅŸan~
+kÃ¼Ã§Ã¼k tavÅŸan~
+KÃ¼Ã§Ã¼k bir tavÅŸan gÃ¶rÃ¼yorsun, zÄ±playÄ±p duruyor.
 ~
-Çok güzel bir tavşan, senin olmasını isterdin...
+Ã‡ok gÃ¼zel bir tavÅŸan, senin olmasÄ±nÄ± isterdin...
 ~
 human~
 AGH 0 2
 #8908
-yılan~
-zararsız yılan~
-Küçük bir yılan otların arasında ilerliyor.
+yÄ±lan~
+zararsÄ±z yÄ±lan~
+KÃ¼Ã§Ã¼k bir yÄ±lan otlarÄ±n arasÄ±nda ilerliyor.
 ~
-Biraz inceledikten sonra onun zararsız bir türden olduğunu anladın.
+Biraz inceledikten sonra onun zararsÄ±z bir tÃ¼rden olduÄŸunu anladÄ±n.
 ~
 snake~
 AFGH P 4
 #8909
 rahip~
 rahip~
-Rahip burada, meditasyon yapıyor.
+Rahip burada, meditasyon yapÄ±yor.
 ~
-Onu rahatsız ettin! Yine de senden buradan çıkmanı rica edecek kadar nazik.
+Onu rahatsÄ±z ettin! Yine de senden buradan Ã§Ä±kmanÄ± rica edecek kadar nazik.
 ~
 human~
 AGHQ DN 10
@@ -114,7 +114,7 @@ rahibe~
 rahibe~
 Rahibe burada, seni izliyor.
 ~
-Neden ona baktığını ve buraya nasıl geldiğini merak ediyor.
+Neden ona baktÄ±ÄŸÄ±nÄ± ve buraya nasÄ±l geldiÄŸini merak ediyor.
 ~
 human~
 AGHQ DN 10
@@ -123,19 +123,19 @@ AGHQ DN 10
 #8901
 tahta kutu~
 tahta kutu~
-Tahta bir kutu burada bırakılmış.~
+Tahta bir kutu burada bÄ±rakÄ±lmÄ±ÅŸ.~
 wood~
 container 0 0
 100 A 0 100 100
 0 0 0 P
 E
 tahta kutu~
-Geniş ve sağlam. İdeal bir taşıyıcı.
+GeniÅŸ ve saÄŸlam. Ä°deal bir taÅŸÄ±yÄ±cÄ±.
 ~
 #8902
-baharat şişesi~
-baharat şişesi~
-Küçük bir baharat şişesi burada bırakılmış.~
+baharat ÅŸiÅŸesi~
+baharat ÅŸiÅŸesi~
+KÃ¼Ã§Ã¼k bir baharat ÅŸiÅŸesi burada bÄ±rakÄ±lmÄ±ÅŸ.~
 glass~
 container 0 A
 5 AC 0 5 100
@@ -143,7 +143,7 @@ container 0 A
 #8903
 siyah toz~
 bir miktar siyah toz~
-Burada bir miktar toz bırakılmış, oldukça güçlü bir kokusu var.~
+Burada bir miktar toz bÄ±rakÄ±lmÄ±ÅŸ, oldukÃ§a gÃ¼Ã§lÃ¼ bir kokusu var.~
 food~
 food 0 A
 -2 -2 0 0 0
@@ -157,21 +157,21 @@ powder~
     *        *         *
 ~
 #8904
-sarı çekirdek~
-bir miktar sarı çekirdek~
-Yerde bir miktar çekirdek görüyorsun.~
+sarÄ± Ã§ekirdek~
+bir miktar sarÄ± Ã§ekirdek~
+Yerde bir miktar Ã§ekirdek gÃ¶rÃ¼yorsun.~
 food~
 food 0 AO
 1 1 0 0 0
 0 10 0 P
 E
-sarı çekirdek~
-Oldukça doyurucu bir yiyecek gibi görünüyor...
+sarÄ± Ã§ekirdek~
+OldukÃ§a doyurucu bir yiyecek gibi gÃ¶rÃ¼nÃ¼yor...
 ~
 #8905
-kağıt tomarı~
-kağıt tomarı~
-Yerde bir kağıt tomarı görüyorsun.~
+kaÄŸÄ±t tomarÄ±~
+kaÄŸÄ±t tomarÄ±~
+Yerde bir kaÄŸÄ±t tomarÄ± gÃ¶rÃ¼yorsun.~
 paper~
 trash 0 AO
 0 0 0 0 0
@@ -211,21 +211,21 @@ o    .                                                                o
 o                                                                     o
 ~
 #8910
-tahta kargı~
-tahta kargı~
-Yerde duran bir tahta kargı görüyorsun.~
+tahta kargÄ±~
+tahta kargÄ±~
+Yerde duran bir tahta kargÄ± gÃ¶rÃ¼yorsun.~
 wood~
 weapon K AN
 exotic 3 6 pound F
 16 50 1500 P
 E
-tahta kargı~
-Meşe ağacından yapılmış, oldukça sağlam bir kargı.
+tahta kargÄ±~
+MeÅŸe aÄŸacÄ±ndan yapÄ±lmÄ±ÅŸ, oldukÃ§a saÄŸlam bir kargÄ±.
 ~
 #8911
-kahverengi cüppe~
-kahverengi cüppe~
-Bir cüppe burada bırakılmış.~
+kahverengi cÃ¼ppe~
+kahverengi cÃ¼ppe~
+Bir cÃ¼ppe burada bÄ±rakÄ±lmÄ±ÅŸ.~
 cloth~
 armor K AD
 6 6 6 0 0
@@ -233,13 +233,13 @@ armor K AD
 A
 12 10
 E
-kahverengi cüppe~
-Oldukça kalın bir kumaştan dokunmuş, fakat yine de çok esnek.
+kahverengi cÃ¼ppe~
+OldukÃ§a kalÄ±n bir kumaÅŸtan dokunmuÅŸ, fakat yine de Ã§ok esnek.
 ~
 #8913
 mavi ot~
 mavi ot~
-Bir miktar ot burada bırakılmış.~
+Bir miktar ot burada bÄ±rakÄ±lmÄ±ÅŸ.~
 plant_organism sulfur~
 pill 0 A
 15 '' '' 'bless' ''
@@ -247,7 +247,7 @@ pill 0 A
 #8914
 mor ot~
 mor ot~
-Bir miktar ot burada bırakılmış.~
+Bir miktar ot burada bÄ±rakÄ±lmÄ±ÅŸ.~
 plant_organism flour~
 pill 0 A
 15 '' '' 'cure light' ''
@@ -255,7 +255,7 @@ pill 0 A
 #8915
 siyah ot~
 siyah ot~
-Bir miktar ot burada bırakılmış.~
+Bir miktar ot burada bÄ±rakÄ±lmÄ±ÅŸ.~
 plant_organism papper~
 pill 0 A
 5 '' '' 'blindness' ''
@@ -263,15 +263,15 @@ pill 0 A
 #8916
 gri ot~
 gri ot~
-Bir miktar ot burada bırakılmış.~
+Bir miktar ot burada bÄ±rakÄ±lmÄ±ÅŸ.~
 plant_organism~
 pill 0 A
 5 '' 'giant strength' 'poison' ''
 5 10 360 P
 #8917
-kızıl ot~
-kızıl ot~
-Bir miktar ot burada bırakılmış.~
+kÄ±zÄ±l ot~
+kÄ±zÄ±l ot~
+Bir miktar ot burada bÄ±rakÄ±lmÄ±ÅŸ.~
 plant_organism~
 pill 0 A
 15 '' '' 'detect magic' ''
@@ -279,7 +279,7 @@ pill 0 A
 #8918
 turuncu ot~
 turuncu ot~
-Bir miktar ot burada bırakılmış.~
+Bir miktar ot burada bÄ±rakÄ±lmÄ±ÅŸ.~
 plant_organism~
 pill 0 A
 5 '' '' 'cure light' ''
@@ -287,7 +287,7 @@ pill 0 A
 #8919
 pembe ot~
 pembe ot~
-Bir miktar ot burada bırakılmış.~
+Bir miktar ot burada bÄ±rakÄ±lmÄ±ÅŸ.~
 unknown~
 pill 0 A
 5 '' 'cure poison' 'poison' ''
@@ -304,12 +304,12 @@ looking paths lead east and south.
 ~
 0 0 3
 D1
-Yol uzun ağaçların arasına süzülüyor.
+Yol uzun aÄŸaÃ§larÄ±n arasÄ±na sÃ¼zÃ¼lÃ¼yor.
 ~
 ~
 0 -1 8902
 D2
-Yol uzun ağaçların arasına süzülüyor.
+Yol uzun aÄŸaÃ§larÄ±n arasÄ±na sÃ¼zÃ¼lÃ¼yor.
 ~
 ~
 0 -1 8904
@@ -333,13 +333,13 @@ visible in the distance.
 ~
 0 -1 8905
 D3
-Yol uzun ağaçların arasına süzülüyor.
+Yol uzun aÄŸaÃ§larÄ±n arasÄ±na sÃ¼zÃ¼lÃ¼yor.
 ~
 ~
 0 -1 8901
 S
 #8903
-Ağaçların Arasındaki Açıklık~
+AÄŸaÃ§larÄ±n ArasÄ±ndaki AÃ§Ä±klÄ±k~
 You are standing in a clearing in the light woods. Somehow, this place
 seems powerfully DIFFERENT from the rest of the forest, as if something is
 severely strained in the fabric of reality here.  There is a small tablet
@@ -378,7 +378,7 @@ eastern road.
 ~
 0 C 3
 D0
-Yol uzun ağaçların arasına süzülüyor.
+Yol uzun aÄŸaÃ§larÄ±n arasÄ±na sÃ¼zÃ¼lÃ¼yor.
 ~
 ~
 0 -1 8901
@@ -399,7 +399,7 @@ You can barely see a path leading back towards the eastern road.
 0 -1 8951
 S
 #8905
-Kutsal Açıklık~
+Kutsal AÃ§Ä±klÄ±k~
 You are standing in the middle of the sacred glades, where the citizens of
 Midgaard come to celebrate the spring, where farmers give thanks for bountiful
 harvest in the fall, and where lovers stroll in summer. You feel seasons of
@@ -416,7 +416,7 @@ The path wind its way north, disappearing through the tall trees.
 ~
 0 -1 8902
 D1
-Yol uzun ağaçların arasına süzülüyor.
+Yol uzun aÄŸaÃ§larÄ±n arasÄ±na sÃ¼zÃ¼lÃ¼yor.
 ~
 ~
 0 -1 8906
@@ -447,7 +447,7 @@ area through the trees, while paths lead away north and west.
 ~
 0 0 3
 D0
-Yol uzun ağaçların arasına süzülüyor.
+Yol uzun aÄŸaÃ§larÄ±n arasÄ±na sÃ¼zÃ¼lÃ¼yor.
 ~
 ~
 0 -1 8903
@@ -458,7 +458,7 @@ the lawn, a softly shimmering, rainbow-colored mansion.
 ~
 0 -1 8909
 D3
-Yol uzun ağaçların arasına süzülüyor.
+Yol uzun aÄŸaÃ§larÄ±n arasÄ±na sÃ¼zÃ¼lÃ¼yor.
 ~
 ~
 0 -1 8905
@@ -501,7 +501,7 @@ large windows all over the house.
 ~
 S
 #8908
-Güneşli Alan~
+GÃ¼neÅŸli Alan~
 You are standing in the middle of a wide, summery, sunlit field. There is a
 fragrance of spring in the air, a sound of summer and a feeling of eternal
 Saturday afternoon. To the south is a clear, sparkling lake, and to the north
@@ -537,7 +537,7 @@ next to the low wing, which is almost completely windows.
 ~
 S
 #8909
-Çimenlik~
+Ã‡imenlik~
 You are standing on a immaculately manicured green lawn, the kind you only
 get after 200 years of meticulous work. There is a winding stone path leading
 from the wood's edge to the north, to the softly shimmering, rainbow-colored
@@ -553,7 +553,7 @@ To the north, the winding stone path leads into the holy grove.
 D2
 To the south, the path leads straight up to the front door of the mansion.
 ~
-kapı~
+kapÄ±~
 1 -1 8910
 E
 konak~
@@ -564,7 +564,7 @@ large windows all over the house.
 ~
 S
 #8910
-Giriş~
+GiriÅŸ~
 You are standing in the foyer of Dragon's mansion. The wide double door to
 the croquet lawn is to the north, flanked by large windows. The walls are
 panelled in oak and hung with strange paintings.  There is door in the south
@@ -575,11 +575,11 @@ D0
 Through the windows next to the door you can see the croquet lawn, bathed in
 afternoon sunlight.
 ~
-kapı~
+kapÄ±~
 1 -1 8909
 D2
 ~
-kapı~
+kapÄ±~
 1 -1 8911
 E
 tablo tablolar~
@@ -599,11 +599,11 @@ The hallway leads south, and there is a door in the eastern wall.
 0 D 0
 D0
 ~
-kapı~
+kapÄ±~
 1 -1 8910
 D1
 ~
-kapı~
+kapÄ±~
 1 -1 8912
 D2
 ~
@@ -621,7 +621,7 @@ blinds in front of the large east window you can see the edge of the grove.
 0 DJ 0
 D3
 ~
-kapı~
+kapÄ±~
 1 -1 8911
 S
 #8913
@@ -637,19 +637,19 @@ D0
 0 -1 8911
 D1
 ~
-kapı~
+kapÄ±~
 1 -1 8914
 D2
 ~
-kapı~
+kapÄ±~
 1 -1 8915
 D3
 ~
-kapı~
+kapÄ±~
 1 -1 8916
 S
 #8914
-Kızıl Oda~
+KÄ±zÄ±l Oda~
 You are in the red room, one of the guest rooms in Dragon's mansion. The
 walls are wallpapered a deep warm red, and dark mahogany panelling nicely com-
 plements them. There is a large, warm waterbed and a sofa group in dark wood
@@ -659,7 +659,7 @@ pulled away from the wide windows, to reveal a nice view towards the grove.
 0 DJ 0
 D3
 ~
-kapı~
+kapÄ±~
 1 -1 8913
 S
 #8915
@@ -675,11 +675,11 @@ than meticulous housekeeper... There are doors to the north and west.
 0 D 0
 D0
 ~
-kapı~
+kapÄ±~
 1 -1 8913
 D3
 ~
-kapı~
+kapÄ±~
 1 -1 8918
 S
 #8916
@@ -693,11 +693,11 @@ short corridor to the greenhouse.
 0 D 0
 D1
 ~
-kapı~
+kapÄ±~
 1 -1 8913
 D2
 ~
-kapı~
+kapÄ±~
 1 -1 8918
 D3
 ~
@@ -705,7 +705,7 @@ D3
 0 -1 8917
 S
 #8917
-Yeşil Ev~
+YeÅŸil Ev~
 This is Dragons' greenhouse. Green light filters in slantwise through the
 plants, giving the room a subtropical ambience. It is not really hot in here,
 though, rather a pleasantly warm temperature. The walls are all windows, except
@@ -721,7 +721,7 @@ D1
 0 -1 8916
 D2
 ~
-kapı~
+kapÄ±~
 1 -1 8919
 S
 #8918
@@ -734,15 +734,15 @@ west there is a wide double door opening out onto the sunlit terrace.
 0 D 0
 D0
 ~
-kapı~
+kapÄ±~
 1 -1 8916
 D1
 ~
-kapı~
+kapÄ±~
 1 -1 8915
 D3
 ~
-geniş kapı~
+geniÅŸ kapÄ±~
 1 -1 8919
 E
 tablo tablolar~
@@ -760,7 +760,7 @@ portrait of a silver Dragon, sparkling with blue lightening, looking amused.
 ~
 S
 #8919
-Taraça~
+TaraÃ§a~
 You are standing on a sunlit terrace in front of Dragon's mansion. To the
 west, there is a splendid view over the field down over the lake. To the north
 is the greenhouse, its large windowpanes shimmering with weird and wonderful
@@ -771,11 +771,11 @@ together with a matched set of chairs.
 0 CD 0
 D0
 ~
-kapı~
+kapÄ±~
 1 -1 8917
 D1
 ~
-çift kapı~
+Ã§ift kapÄ±~
 1 -1 8918
 D3
 ~
@@ -802,7 +802,7 @@ A wide road lies to the south.
 0 -1 3526
 S
 #8951
-Korunun İçi~
+Korunun Ä°Ã§i~
 As you walk among the stately oaks of this grove, you feel at peace and
 in harmony with this beautiful forest.  If only the rest of the lands were
 so tranquil.  The trail turns towards the east, leading into the secluded

@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -49,11 +49,15 @@
 ***************************************************************************/
 
 #include <stdio.h>
+#include <wchar.h>
+#include <wctype.h>
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
 #include <time.h>
 #include <unistd.h>
+#include <locale.h>
+#include <libexplain/ferror.h>
 #if defined(macintosh)
 #include <types.h>
 #else
@@ -70,6 +74,7 @@
 #include "tables.h"
 
 void load_limited_objects();
+extern const char *explain_ferror(FILE *fp);
 
 
 #if !defined(macintosh)
@@ -100,10 +105,10 @@ HELP_DATA *		help_last;
 SHOP_DATA *		shop_first;
 SHOP_DATA *		shop_last;
 
-char			bug_buf		[2*MAX_INPUT_LENGTH];
+wchar_t			bug_buf		[2*MAX_INPUT_LENGTH];
 CHAR_DATA *		char_list;
-char *			help_greeting;
-char			log_buf		[2*MAX_INPUT_LENGTH];
+wchar_t *			help_greeting;
+wchar_t			log_buf		[2*MAX_INPUT_LENGTH];
 KILL_DATA		kill_table	[MAX_LEVEL];
 OBJ_DATA *		object_list;
 TIME_INFO_DATA		time_info;
@@ -381,14 +386,14 @@ sh_int  gsn_pass_door;
 MOB_INDEX_DATA *	mob_index_hash		[MAX_KEY_HASH];
 OBJ_INDEX_DATA *	obj_index_hash		[MAX_KEY_HASH];
 ROOM_INDEX_DATA *	room_index_hash		[MAX_KEY_HASH];
-char *			string_hash		[MAX_KEY_HASH];
+wchar_t *			string_hash		[MAX_KEY_HASH];
 
 AREA_DATA *		area_first;
 AREA_DATA *		area_last;
 
-char *			string_space;
-char *			top_string;
-char			str_empty	[1];
+wchar_t *			string_space;
+wchar_t *			top_string;
+wchar_t			str_empty	[1];
 
 int			top_affect;
 int			top_area;
@@ -432,7 +437,8 @@ int			sAllocPerm;
  */
 bool			fBootDb;
 FILE *			fpArea;
-char			strArea[MAX_INPUT_LENGTH];
+wchar_t			strArea[MAX_INPUT_LENGTH];
+char			strAreaChar[MAX_INPUT_LENGTH];
 AREA_DATA		*Serarea;	/* currently read area */
 
 
@@ -468,28 +474,28 @@ int	wear_convert	args( ( int oldwear ) );
  */
 void boot_db( void )
 {
-    char buf[MAX_STRING_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
 
     /*
      * Init some data space stuff.
      */
     {
-	if ( ( string_space = (char *)calloc( 1, MAX_STRING ) ) == NULL )
+	if ( ( string_space = (wchar_t *)calloc( 1, MAX_STRING ) ) == NULL )
 	{
-	    bug( "Boot_db: can't alloc %d string space.", MAX_STRING );
+	    bug( L"Boot_db: can't alloc %d string space.", MAX_STRING );
 	    exit( 1 );
 	}
 	top_string	= string_space;
 	fBootDb		= TRUE;
     }
-
+	fwprintf( stderr, L"boot_db :: 1\n" );
     /*
      * Init random number generator.
      */
     {
         init_random_number_generator( );
     }
-
+	fwprintf( stderr, L"boot_db :: 2\n" );
     ikikat_tp = 0;
     ikikat_gp = 0;
 
@@ -501,21 +507,22 @@ void boot_db( void )
 	time_info.month = 1;
 	time_info.day   = 1;
 	time_info.hour  = 0;
+	fwprintf( stderr, L"boot_db :: 3\n" );
 	game_time_update();
-
+	fwprintf( stderr, L"boot_db :: 4\n" );
 	     if ( time_info.hour <  5 ) weather_info.sunlight = SUN_DARK;
 	else if ( time_info.hour <  6 ) weather_info.sunlight = SUN_RISE;
 	else if ( time_info.hour < 19 ) weather_info.sunlight = SUN_LIGHT;
 	else if ( time_info.hour < 20 ) weather_info.sunlight = SUN_SET;
 	else                            weather_info.sunlight = SUN_DARK;
-
+	fwprintf( stderr, L"boot_db :: 5\n" );
 	weather_info.change	= 0;
 	weather_info.mmhg	= 960;
 	if ( time_info.month >= 7 && time_info.month <=12 )
 	    weather_info.mmhg += number_range( 1, 50 );
 	else
 	    weather_info.mmhg += number_range( 1, 80 );
-
+	fwprintf( stderr, L"boot_db :: 6\n" );
 	     if ( weather_info.mmhg <=  980 ) weather_info.sky = SKY_LIGHTNING;
 	else if ( weather_info.mmhg <= 1000 ) weather_info.sky = SKY_RAINING;
 	else if ( weather_info.mmhg <= 1020 ) weather_info.sky = SKY_CLOUDY;
@@ -524,16 +531,16 @@ void boot_db( void )
     }
 
 	/* auction */
-
+	fwprintf( stderr, L"boot_db :: 7\n" );
 	auction = (AUCTION_DATA *) malloc (sizeof(AUCTION_DATA));
 	if (auction == NULL)
 	 {
-	  bug("malloc'ing AUCTION_DATA didn't give %d bytes",sizeof(AUCTION_DATA));
+	  bug(L"malloc'ing AUCTION_DATA didn't give %d bytes",sizeof(AUCTION_DATA));
 	  exit(1);
 	 }
 
         auction->item = NULL; /* nothing is being sold */
-
+	fwprintf( stderr, L"boot_db :: 8\n" );
 	/* room_affect_data */
 	top_affected_room = NULL;
 
@@ -557,7 +564,7 @@ void boot_db( void )
 		*skill_table[sn].pgsn = sn;
 	}
     }
-
+	fwprintf( stderr, L"boot_db :: 9\n" );
     /*
      * Read in all the area files.
      */
@@ -569,10 +576,11 @@ void boot_db( void )
 	    perror( AREA_LIST );
 	    exit( 1 );
 	}
-
+	fwprintf( stderr, L"boot_db :: 20\n" );
 	for ( ; ; )
 	{
-	    strcpy( strArea, fread_word( fpList ) );
+	    wcscpy( strArea, fread_word( fpList ) );
+		fwprintf( stderr, L"boot_db :: %S\n", strArea );
 	    if ( strArea[0] == '$' )
 		break;
 
@@ -582,44 +590,45 @@ void boot_db( void )
 	    }
 	    else
 	    {
-		if ( ( fpArea = fopen( strArea, "r" ) ) == NULL )
+		wcstombs(strAreaChar,strArea,wcslen(strArea));
+		if ( ( fpArea = fopen( strAreaChar, "r" ) ) == NULL )
 		{
-		    perror( strArea );
+		    perror( strAreaChar );
 		    exit( 1 );
 		}
 	    }
 
 	    for ( ; ; )
 	    {
-		char *word;
+		wchar_t *word;
 
 		if ( fread_letter( fpArea ) != '#' )
 		{
-		    bug( "Boot_db: # not found.", 0 );
+		    bug( L"Boot_db: # not found.", 0 );
 		    exit( 1 );
 		}
 
 		word = fread_word( fpArea );
-
+		fwprintf( stderr, L"boot_db :: word :: %S\n", word );
 		     if ( word[0] == '$'               )                 break;
-    else if ( !str_cmp( word, "AREADATA" ) ) load_areadata(fpArea);
-		else if ( !str_cmp( word, "HELPS"    ) ) load_helps   (fpArea);
-		else if ( !str_cmp( word, "NEW_MOBILES"  ) ) load_new_mobiles (fpArea);
-		else if ( !str_cmp( word, "OBJOLD"   ) ) load_old_obj (fpArea);
-	  	else if ( !str_cmp( word, "OBJECTS"  ) ) load_objects (fpArea);
-		else if ( !str_cmp( word, "RESETS"   ) ) load_resets  (fpArea);
-		else if ( !str_cmp( word, "ROOMS"    ) ) load_rooms   (fpArea);
-		else if ( !str_cmp( word, "SHOPS"    ) ) load_shops   (fpArea);
-		else if ( !str_cmp( word, "SOCIALS"  ) ) load_socials (fpArea);
-		else if ( !str_cmp( word, "OMPROGS"  ) ) load_omprogs (fpArea);
-                else if ( !str_cmp( word, "OLIMITS"  ) ) load_olimits (fpArea);
-		else if ( !str_cmp( word, "SPECIALS" ) ) load_specials(fpArea);
-		else if ( !str_cmp( word, "PRACTICERS" ) ) load_practicer(fpArea);
-		else if ( !str_cmp( word, "RESETMESSAGE" ) ) load_resetmsg(fpArea);
-		else if ( !str_cmp( word, "FLAG" ) )	 load_aflag(fpArea);
+    else if ( !wcscasecmp( word, L"AREADATA" ) ) load_areadata(fpArea);
+		else if ( !wcscasecmp( word, L"HELPS"    ) ) load_helps   (fpArea);
+		else if ( !wcscasecmp( word, L"NEW_MOBILES"  ) ) load_new_mobiles (fpArea);
+		else if ( !wcscasecmp( word, L"OBJOLD"   ) ) load_old_obj (fpArea);
+	  	else if ( !wcscasecmp( word, L"OBJECTS"  ) ) load_objects (fpArea);
+		else if ( !wcscasecmp( word, L"RESETS"   ) ) load_resets  (fpArea);
+		else if ( !wcscasecmp( word, L"ROOMS"    ) ) load_rooms   (fpArea);
+		else if ( !wcscasecmp( word, L"SHOPS"    ) ) load_shops   (fpArea);
+		else if ( !wcscasecmp( word, L"SOCIALS"  ) ) load_socials (fpArea);
+		else if ( !wcscasecmp( word, L"OMPROGS"  ) ) load_omprogs (fpArea);
+                else if ( !wcscasecmp( word, L"OLIMITS"  ) ) load_olimits (fpArea);
+		else if ( !wcscasecmp( word, L"SPECIALS" ) ) load_specials(fpArea);
+		else if ( !wcscasecmp( word, L"PRACTICERS" ) ) load_practicer(fpArea);
+		else if ( !wcscasecmp( word, L"RESETMESSAGE" ) ) load_resetmsg(fpArea);
+		else if ( !wcscasecmp( word, L"FLAG" ) )	 load_aflag(fpArea);
 		else
 		{
-		    bug( "Boot_db: bad section name.", 0 );
+		    bug( L"Boot_db: bad section name.", 0 );
 		    exit( 1 );
 		}
 	    }
@@ -631,18 +640,18 @@ void boot_db( void )
 	fclose( fpList );
 	Serarea = NULL;
     }
-
+	fwprintf( stderr, L"boot_db :: 10\n" );
     {
       fix_exits( );
       load_limited_objects();
-      sprintf(buf,"Total non-immortal levels > 5: %li",total_levels);
+      swprintf( buf, MAX_STRING_LENGTH-1, L"Total non-immortal levels > 5: %li",total_levels);
       log_string(buf);
 
       fBootDb	= FALSE;
       area_update( );
       load_bans();
     }
-
+	fwprintf( stderr, L"boot_db :: 11\n" );
     return;
 }
 
@@ -653,7 +662,7 @@ void boot_db( void )
 #endif
 
 #define KEY( literal, field, value )					\
-				if ( !str_cmp( word, literal ) )	\
+				if ( !wcscasecmp( word, literal ) )	\
 				{					\
 				    field  = value;			\
 				    fMatch = TRUE;			\
@@ -663,7 +672,7 @@ void boot_db( void )
 void load_areadata( FILE *fp )
 {
 	AREA_DATA *pArea;
-    char *word=(char*)"End";
+    wchar_t *word=(wchar_t*)"End";
 	bool fMatch;
 
 	pArea		= (AREA_DATA *)alloc_perm( sizeof(*pArea) );
@@ -694,53 +703,53 @@ void load_areadata( FILE *fp )
 
 	while (true)
 	{
-		word   = (char *)(feof( fp ) ? "END" : fread_word( fp ));
+		word   = (wchar_t *)(feof( fp ) ? L"END" : fread_word( fp ));
 		fMatch = FALSE;
 
-		switch ( UPPER(word[0]) )
+		switch ( towupper(word[0]) )
 		{
 			case 'B':
-				KEY( "Builder",		pArea->writer,		fread_string( fp ) );
+				KEY( L"Builder",		pArea->writer,		fread_string( fp ) );
 			break;
 			case 'E':
-				if ( !str_cmp( word, "END" ) )
+				if ( !wcscasecmp( word, L"END" ) )
 				{
 					return;
 				}
 			break;
 			case 'F':
-				KEY( "Filename",		pArea->file_name,		fread_string( fp ) );
+				KEY( L"Filename",		pArea->file_name,		fread_string( fp ) );
 			break;
 			case 'H':
-				KEY( "Highlevel",		pArea->high_range,		fread_number( fp ) );
+				KEY( L"Highlevel",		pArea->high_range,		fread_number( fp ) );
 			break;
 			case 'L':
-				KEY( "Language",		pArea->language,		fread_string( fp ) );
-				KEY( "Lowlevel",		pArea->low_range,		fread_number( fp ) );
+				KEY( L"Language",		pArea->language,		fread_string( fp ) );
+				KEY( L"Lowlevel",		pArea->low_range,		fread_number( fp ) );
 			break;
 			case 'M':
-				KEY( "Minvnum",		pArea->min_vnum,		fread_number( fp ) );
-				KEY( "Maxvnum",		pArea->max_vnum,		fread_number( fp ) );
+				KEY( L"Minvnum",		pArea->min_vnum,		fread_number( fp ) );
+				KEY( L"Maxvnum",		pArea->max_vnum,		fread_number( fp ) );
 			break;
 			case 'N':
-				KEY( "Name",		pArea->name,		fread_string( fp ) );
+				KEY( L"Name",		pArea->name,		fread_string( fp ) );
 			break;
 			case 'P':
-				KEY( "Path",		pArea->path,		fread_string( fp ) );
+				KEY( L"Path",		pArea->path,		fread_string( fp ) );
 			break;
 			case 'T':
-				KEY( "Translator",		pArea->translator,		fread_string( fp ) );
+				KEY( L"Translator",		pArea->translator,		fread_string( fp ) );
 			break;
       case 'Y':
-				KEY( "Yonelim_iyi",		pArea->yonelim_iyi,		fread_number( fp ) );
-        KEY( "Yonelim_yansiz",		pArea->yonelim_yansiz,		fread_number( fp ) );
-        KEY( "Yonelim_kem",		pArea->yonelim_kem,		fread_number( fp ) );
+				KEY( L"Yonelim_iyi",		pArea->yonelim_iyi,		fread_number( fp ) );
+        KEY( L"Yonelim_yansiz",		pArea->yonelim_yansiz,		fread_number( fp ) );
+        KEY( L"Yonelim_kem",		pArea->yonelim_kem,		fread_number( fp ) );
 			break;
 		}
 
 		if ( !fMatch )
 		{
-			bug( "Fread_areadata: no match.", 0 );
+			bug( L"Fread_areadata: no match.", 0 );
 			fread_to_eol( fp );
 			return;
 		}
@@ -761,12 +770,16 @@ void load_helps( FILE *fp )
 	pHelp		= (HELP_DATA *)alloc_perm( sizeof(*pHelp) );
 	pHelp->level	= fread_number( fp );
 	pHelp->keyword	= fread_string( fp );
+	fwprintf( stderr, L"boot_db :: area word :: -%S-\n", pHelp->keyword );
 	if ( pHelp->keyword[0] == '$' )
 	    break;
 	pHelp->text	= fread_string( fp );
-
-	if ( !str_cmp( pHelp->keyword, "merhaba" ) )
+	fwprintf( stderr, L"boot_db :: area word :: merhaba :: test\n" );
+	if ( !wcscmp( pHelp->keyword, L"merhaba" ) )
+	{
+		fwprintf( stderr, L"boot_db :: area word :: merhaba bulundu\n" );
 	    help_greeting = pHelp->text;
+	}
 
 	if ( help_first == NULL )
 	    help_first = pHelp;
@@ -791,13 +804,13 @@ void load_old_obj( FILE *fp )
     for ( ; ; )
     {
 	sh_int vnum;
-	char letter;
+	wchar_t letter;
 	int iHash;
 
 	letter				= fread_letter( fp );
 	if ( letter != '#' )
 	{
-	    bug( "Load_objects: # not found.", 0 );
+	    bug( L"Load_objects: # not found.", 0 );
 	    exit( 1 );
 	}
 
@@ -808,7 +821,7 @@ void load_old_obj( FILE *fp )
 	fBootDb = FALSE;
 	if ( get_obj_index( vnum ) != NULL )
 	{
-	    bug( "Load_objects: vnum %d duplicated.", vnum );
+	    bug( L"Load_objects: vnum %d duplicated.", vnum );
 	    exit( 1 );
 	}
 	fBootDb = TRUE;
@@ -822,10 +835,10 @@ void load_old_obj( FILE *fp )
 	pObjIndex->description		= fread_string( fp );
 	/* Action description */	  fread_string( fp );
 
-	pObjIndex->material		= (char*)"copper";
-	pObjIndex->short_descr[0]	= LOWER(pObjIndex->short_descr[0]);
-	pObjIndex->description[0]	= UPPER(pObjIndex->description[0]);
-	pObjIndex->material		= str_dup("");
+	pObjIndex->material		= (wchar_t*)"copper";
+	pObjIndex->short_descr[0]	= towlower(pObjIndex->short_descr[0]);
+	pObjIndex->description[0]	= towupper(pObjIndex->description[0]);
+	pObjIndex->material		= str_dup( L"");
 
 	pObjIndex->item_type		= fread_number( fp );
 	pObjIndex->extra_flags		= fread_flag( fp );
@@ -845,18 +858,18 @@ void load_old_obj( FILE *fp )
 
 	if (pObjIndex->item_type == ITEM_WEAPON)
 	{
-	    if (is_name((char*)"two",pObjIndex->name)
-	    ||  is_name((char*)"two-handed",pObjIndex->name)
-	    ||  is_name((char*)"claymore",pObjIndex->name)
-      ||  is_name((char*)"iki-el",pObjIndex->name)
-      ||  is_name((char*)"ikiel",pObjIndex->name)
-      ||  is_name((char*)"çift-el",pObjIndex->name))
+	    if (is_name((wchar_t*)"two",pObjIndex->name)
+	    ||  is_name((wchar_t*)"two-handed",pObjIndex->name)
+	    ||  is_name((wchar_t*)"claymore",pObjIndex->name)
+      ||  is_name((wchar_t*)"iki-el",pObjIndex->name)
+      ||  is_name((wchar_t*)"ikiel",pObjIndex->name)
+      ||  is_name((wchar_t*)"Ã§ift-el",pObjIndex->name))
 		SET_BIT(pObjIndex->value[4],WEAPON_TWO_HANDS);
 	}
 
 	for ( ; ; )
 	{
-	    char letter;
+	    wchar_t letter;
 
 	    letter = fread_letter( fp );
 
@@ -891,7 +904,7 @@ void load_old_obj( FILE *fp )
 
 	    else
 	    {
-		ungetc( letter, fp );
+		ungetwc( letter, fp );
 		break;
 	    }
 	}
@@ -942,7 +955,7 @@ void load_resets( FILE *fp )
 
     if ( area_last == NULL )
     {
-	bug( "Load_resets: no #AREA seen yet.", 0 );
+	bug( L"Load_resets: no #AREA seen yet.", 0 );
 	exit( 1 );
     }
 
@@ -950,7 +963,7 @@ void load_resets( FILE *fp )
     {
 	ROOM_INDEX_DATA *pRoomIndex;
 	EXIT_DATA *pexit;
-	char letter;
+	wchar_t letter;
 	OBJ_INDEX_DATA *temp_index;
 
 	if ( ( letter = fread_letter( fp ) ) == 'S' )
@@ -980,7 +993,7 @@ void load_resets( FILE *fp )
 	switch ( letter )
 	{
 	default:
-	    bug( "Load_resets: bad command '%c'.", letter );
+	    bug( L"Load_resets: bad command '%c'.", letter );
 	    exit( 1 );
 	    break;
 
@@ -1015,13 +1028,13 @@ void load_resets( FILE *fp )
 	    || ( pexit = pRoomIndex->exit[pReset->arg2] ) == NULL
 	    || !IS_SET( pexit->exit_info, EX_ISDOOR ) )
 	    {
-		bug( "Load_resets: 'D': exit %d not door.", pReset->arg2 );
+		bug( L"Load_resets: 'D': exit %d not door.", pReset->arg2 );
 		exit( 1 );
 	    }
 
 	    if ( pReset->arg3 < 0 || pReset->arg3 > 2 )
 	    {
-		bug( "Load_resets: 'D': bad 'locks': %d.", pReset->arg3 );
+		bug( L"Load_resets: 'D': bad 'locks': %d.", pReset->arg3 );
 		exit( 1 );
 	    }
 
@@ -1032,7 +1045,7 @@ void load_resets( FILE *fp )
 
 	    if ( pReset->arg2 < 0 || pReset->arg2 > 6 )
 	    {
-		bug( "Load_resets: 'R': bad exit %d.", pReset->arg2 );
+		bug( L"Load_resets: 'R': bad exit %d.", pReset->arg2 );
 		exit( 1 );
 	    }
 
@@ -1063,21 +1076,21 @@ void load_rooms( FILE *fp )
 
     if ( area_last == NULL )
     {
-	bug( "Load_resets: no #AREA seen yet.", 0 );
+	bug( L"Load_resets: no #AREA seen yet.", 0 );
 	exit( 1 );
     }
 
     for ( ; ; )
     {
 	sh_int vnum;
-	char letter;
+	wchar_t letter;
 	int door;
 	int iHash;
 
 	letter				= fread_letter( fp );
 	if ( letter != '#' )
 	{
-	    bug( "Load_rooms: # not found.", 0 );
+	    bug( L"Load_rooms: # not found.", 0 );
 	    exit( 1 );
 	}
 
@@ -1088,13 +1101,13 @@ void load_rooms( FILE *fp )
 	fBootDb = FALSE;
 	if ( get_room_index( vnum ) != NULL )
 	{
-	    bug( "Load_rooms: vnum %d duplicated.", vnum );
+	    bug( L"Load_rooms: vnum %d duplicated.", vnum );
 	    exit( 1 );
 	}
 	fBootDb = TRUE;
 
 	pRoomIndex			= (ROOM_INDEX_DATA *)alloc_perm( sizeof(*pRoomIndex) );
-	pRoomIndex->owner		= str_dup("");
+	pRoomIndex->owner		= str_dup( L"");
 	pRoomIndex->people		= NULL;
 	pRoomIndex->contents		= NULL;
 	pRoomIndex->extra_descr		= NULL;
@@ -1142,7 +1155,7 @@ void load_rooms( FILE *fp )
 		door = fread_number( fp );
 		if ( door < 0 || door > 5 )
 		{
-		    bug( "Fread_rooms: vnum %d has bad door number.", vnum );
+		    bug( L"Fread_rooms: vnum %d has bad door number.", vnum );
 		    exit( 1 );
 		}
 
@@ -1184,7 +1197,7 @@ void load_rooms( FILE *fp )
 	    {
 		if (pRoomIndex->owner[0] != '\0')
 		{
-		    bug("Load_rooms: duplicate owner.",0);
+		    bug( L"Load_rooms: duplicate owner.",0);
 		    exit(1);
 		}
 
@@ -1193,7 +1206,7 @@ void load_rooms( FILE *fp )
 
 	    else
 	    {
-		bug( "Load_rooms: vnum %d has flag not 'DES'.", vnum );
+		bug( L"Load_rooms: vnum %d has flag not 'DES'.", vnum );
 		exit( 1 );
 	    }
 	}
@@ -1257,12 +1270,12 @@ void load_specials( FILE *fp )
     for ( ; ; )
     {
 	MOB_INDEX_DATA *pMobIndex;
-	char letter;
+	wchar_t letter;
 
 	switch ( letter = fread_letter( fp ) )
 	{
 	default:
-	    bug( "Load_specials: letter '%c' not *MS.", letter );
+	    bug( L"Load_specials: letter '%c' not *MS.", letter );
 	    exit( 1 );
 
 	case 'S':
@@ -1276,7 +1289,7 @@ void load_specials( FILE *fp )
 	    pMobIndex->spec_fun	= spec_lookup	( fread_word   ( fp ) );
 	    if ( pMobIndex->spec_fun == 0 )
 	    {
-		bug( "Load_specials: 'M': vnum %d.", pMobIndex->vnum );
+		bug( L"Load_specials: 'M': vnum %d.", pMobIndex->vnum );
 		exit( 1 );
 	    }
 	    break;
@@ -1295,7 +1308,7 @@ void load_specials( FILE *fp )
 void fix_exits( void )
 {
     extern const sh_int rev_dir [];
-    char buf[MAX_STRING_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
     ROOM_INDEX_DATA *pRoomIndex;
     ROOM_INDEX_DATA *to_room;
     EXIT_DATA *pexit;
@@ -1345,7 +1358,7 @@ void fix_exits( void )
 		&&   pexit_rev->u1.to_room != pRoomIndex
 		&&   (pRoomIndex->vnum < 1200 || pRoomIndex->vnum > 1299))
 		{
-		    sprintf( buf, "Fix_exits: %d:%d -> %d:%d -> %d.",
+		    swprintf( buf, MAX_STRING_LENGTH-1, L"Fix_exits: %d:%d -> %d:%d -> %d.",
 			pRoomIndex->vnum, door,
 			to_room->vnum,    rev_dir[door],
 			(pexit_rev->u1.to_room == NULL)
@@ -1368,7 +1381,7 @@ void area_update( void )
 {
     AREA_DATA *pArea;
     DESCRIPTOR_DATA *d;
-    char buf[MAX_STRING_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
 
     for ( pArea = area_first; pArea != NULL; pArea = pArea->next )
     {
@@ -1386,13 +1399,13 @@ void area_update( void )
 	    ROOM_INDEX_DATA *pRoomIndex;
 
 	    reset_area( pArea );
-      sprintf(buf,"%s bölgesi reset'lendi.",pArea->name);
+      swprintf( buf, MAX_STRING_LENGTH-1, L"%s bÃ¶lgesi reset'lendi.",pArea->name);
 	    wiznet(buf,NULL,NULL,WIZ_RESETS,0,0);
 
 	    if (pArea->resetmsg)
-	    	 sprintf(buf,"%s\n\r",pArea->resetmsg);
+	    	 swprintf( buf, MAX_STRING_LENGTH-1, L"%s\n\r",pArea->resetmsg);
 	    else
-      sprintf(buf,"Yaþamýn yeni seslerini duyuyorsun...\n\r");
+      swprintf( buf, MAX_STRING_LENGTH-1, L"YaÅŸamÄ±n yeni seslerini duyuyorsun...\n\r");
 
             for ( d = descriptor_list; d != NULL; d = d->next )
 	       {
@@ -1456,7 +1469,7 @@ void reset_area( AREA_DATA *pArea )
         ( get_skill(ch, gsn_track)>50) &&
         ( !IS_SET(ch->in_room->room_flags, ROOM_INDOORS) ) )
       {
-        send_to_char("Yaðmur izleri temizliyor.\n\r", ch );
+        send_to_char( L"YaÄŸmur izleri temizliyor.\n\r", ch );
       }
     }
     for (i=pArea->min_vnum; i<pArea->max_vnum; i++)
@@ -1470,10 +1483,10 @@ void reset_area( AREA_DATA *pArea )
       {
         continue;
       }
-      room_record( (char*)"erased", room, -1 );
+      room_record( (wchar_t*)"erased", room, -1 );
       if (number_percent() < 50)
       {
-        room_record( (char*)"erased", room, -1 );
+        room_record( (wchar_t*)"erased", room, -1 );
       }
     }
   }
@@ -1495,19 +1508,19 @@ void reset_area( AREA_DATA *pArea )
 	switch ( pReset->command )
 	{
 	default:
-	    bug( "Reset_area: bad command %c.", pReset->command );
+	    bug( L"Reset_area: bad command %c.", pReset->command );
 	    break;
 
 	case 'M':
 	    if ( ( pMobIndex = get_mob_index( pReset->arg1 ) ) == NULL )
 	    {
-		bug( "Reset_area: 'M': bad vnum %d.", pReset->arg1 );
+		bug( L"Reset_area: 'M': bad vnum %d.", pReset->arg1 );
 		continue;
 	    }
 
 	    if ( ( pRoomIndex = get_room_index( pReset->arg3 ) ) == NULL )
 	    {
-		bug( "Reset_area: 'R': bad vnum %d.", pReset->arg3 );
+		bug( L"Reset_area: 'R': bad vnum %d.", pReset->arg3 );
 		continue;
 	    }
 
@@ -1556,13 +1569,13 @@ void reset_area( AREA_DATA *pArea )
 	case 'O':
 	    if ( ( pObjIndex = get_obj_index( pReset->arg1 ) ) == NULL )
 	    {
-		bug( "Reset_area: 'O': bad vnum %d.", pReset->arg1 );
+		bug( L"Reset_area: 'O': bad vnum %d.", pReset->arg1 );
 		continue;
 	    }
 
 	    if ( ( pRoomIndex = get_room_index( pReset->arg3 ) ) == NULL )
 	    {
-		bug( "Reset_area: 'R': bad vnum %d.", pReset->arg3 );
+		bug( L"Reset_area: 'R': bad vnum %d.", pReset->arg3 );
 		continue;
 	    }
 
@@ -1625,13 +1638,13 @@ void reset_area( AREA_DATA *pArea )
 	case 'P':
 	    if ( ( pObjIndex = get_obj_index( pReset->arg1 ) ) == NULL )
 	    {
-		bug( "Reset_area: 'P': bad vnum %d.", pReset->arg1 );
+		bug( L"Reset_area: 'P': bad vnum %d.", pReset->arg1 );
 		continue;
 	    }
 
 	    if ( ( pObjToIndex = get_obj_index( pReset->arg3 ) ) == NULL )
 	    {
-		bug( "Reset_area: 'P': bad vnum %d.", pReset->arg3 );
+		bug( L"Reset_area: 'P': bad vnum %d.", pReset->arg3 );
 		continue;
 	    }
 
@@ -1657,7 +1670,7 @@ void reset_area( AREA_DATA *pArea )
                  ( pObjIndex->count >= pObjIndex->limit ) )
               {
                 last = FALSE;
-                dump_to_scr((char*)"Reseting area: [P] OBJ limit reached\n\r");
+                dump_to_scr((wchar_t*)"Reseting area: [P] OBJ limit reached\n\r");
                 break;
               }
 
@@ -1678,7 +1691,7 @@ void reset_area( AREA_DATA *pArea )
 	case 'E':
 	    if ( ( pObjIndex = get_obj_index( pReset->arg1 ) ) == NULL )
 	    {
-		bug( "Reset_area: 'E' or 'G': bad vnum %d.", pReset->arg1 );
+		bug( L"Reset_area: 'E' or 'G': bad vnum %d.", pReset->arg1 );
 		continue;
 	    }
 
@@ -1687,7 +1700,7 @@ void reset_area( AREA_DATA *pArea )
 
 	    if ( mob == NULL )
 	    {
-		bug( "Reset_area: 'E' or 'G': null mob for vnum %d.",
+		bug( L"Reset_area: 'E' or 'G': null mob for vnum %d.",
 		    pReset->arg1 );
 		last = FALSE;
 		break;
@@ -1752,7 +1765,7 @@ void reset_area( AREA_DATA *pArea )
 	case 'D':
 	    if ( ( pRoomIndex = get_room_index( pReset->arg1 ) ) == NULL )
 	    {
-		bug( "Reset_area: 'D': bad vnum %d.", pReset->arg1 );
+		bug( L"Reset_area: 'D': bad vnum %d.", pReset->arg1 );
 		continue;
 	    }
 
@@ -1783,7 +1796,7 @@ void reset_area( AREA_DATA *pArea )
 	case 'R':
 	    if ( ( pRoomIndex = get_room_index( pReset->arg1 ) ) == NULL )
 	    {
-		bug( "Reset_area: 'R': bad vnum %d.", pReset->arg1 );
+		bug( L"Reset_area: 'R': bad vnum %d.", pReset->arg1 );
 		continue;
 	    }
 
@@ -1822,7 +1835,7 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex , AREA_DATA *	pArea)
 
     if ( pMobIndex == NULL )
     {
-      bug( "Create_mobile: NULL pMobIndex.", 0 );
+      bug( L"Create_mobile: NULL pMobIndex.", 0 );
       exit( 1 );
     }
 
@@ -1919,7 +1932,7 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex , AREA_DATA *	pArea)
   mob->form		= race_table[pMobIndex->race].form;
   mob->parts		= race_table[pMobIndex->race].parts;
   mob->size		= race_table[pMobIndex->race].size;
-  mob->material		= str_dup("none");
+  mob->material		= str_dup( L"none");
   mob->extracted		= FALSE;
   mob = mob_assign_perm_stats(mob);
 
@@ -1927,7 +1940,7 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex , AREA_DATA *	pArea)
   if (IS_AFFECTED(mob,AFF_SANCTUARY))
   {
     af.where	 = TO_AFFECTS;
-    af.type      = skill_lookup("sanctuary");
+    af.type      = skill_lookup( L"sanctuary");
     af.level     = mob->level;
     af.duration  = -1;
     af.location  = APPLY_NONE;
@@ -1939,7 +1952,7 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex , AREA_DATA *	pArea)
   if (IS_AFFECTED(mob,AFF_HASTE))
   {
     af.where	 = TO_AFFECTS;
-    af.type      = skill_lookup("haste");
+    af.type      = skill_lookup( L"haste");
     af.level     = mob->level;
     af.duration  = -1;
     af.location  = APPLY_DEX;
@@ -1951,7 +1964,7 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex , AREA_DATA *	pArea)
   if (IS_AFFECTED(mob,AFF_PROTECT_EVIL))
   {
     af.where	 = TO_AFFECTS;
-    af.type	 = skill_lookup("protection evil");
+    af.type	 = skill_lookup( L"protection evil");
     af.level	 = mob->level;
     af.duration	 = -1;
     af.location	 = APPLY_SAVES;
@@ -1963,7 +1976,7 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex , AREA_DATA *	pArea)
   if (IS_AFFECTED(mob,AFF_PROTECT_GOOD))
   {
     af.where	 = TO_AFFECTS;
-    af.type      = skill_lookup("protection good");
+    af.type      = skill_lookup( L"protection good");
     af.level     = mob->level;
     af.duration  = -1;
     af.location  = APPLY_SAVES;
@@ -2132,7 +2145,7 @@ OBJ_DATA *create_object_org( OBJ_INDEX_DATA *pObjIndex, int level, bool Count )
 
     if ( pObjIndex == NULL )
     {
-	bug( "Create_object: NULL pObjIndex.", 0 );
+	bug( L"Create_object: NULL pObjIndex.", 0 );
 	exit( 1 );
     }
 
@@ -2158,7 +2171,7 @@ OBJ_DATA *create_object_org( OBJ_INDEX_DATA *pObjIndex, int level, bool Count )
 	 ( obj->pIndexData->count >= obj->pIndexData->limit ) )
 
     if ( pObjIndex->new_format == 1 )
-       dump_to_scr( (char*)"" );
+       dump_to_scr( (wchar_t*)"" );
 
     if ( pObjIndex->new_format == 1 )
  	obj->level = pObjIndex->level;
@@ -2182,7 +2195,7 @@ OBJ_DATA *create_object_org( OBJ_INDEX_DATA *pObjIndex, int level, bool Count )
     obj->weight		= pObjIndex->weight;
     obj->extracted	= FALSE;
     obj->progtypes	= pObjIndex->progtypes;
-    obj->from           = str_dup(""); /* used with body parts */
+    obj->from           = str_dup( L""); /* used with body parts */
     obj->pit            = OBJ_VNUM_PIT; /* default for corpse decaying */
     obj->altar          = ROOM_VNUM_ALTAR; /* default for corpses */
     obj->condition	= pObjIndex->condition;
@@ -2199,7 +2212,7 @@ OBJ_DATA *create_object_org( OBJ_INDEX_DATA *pObjIndex, int level, bool Count )
     switch ( obj->item_type )
     {
     default:
-	bug( "Read_object: vnum %d bad type.", pObjIndex->vnum );
+	bug( L"Read_object: vnum %d bad type.", pObjIndex->vnum );
 	break;
 
     case ITEM_LIGHT:
@@ -2386,11 +2399,11 @@ void clear_char( CHAR_DATA *ch )
 /*
  * Get an extra description from a list.
  */
-char *get_extra_descr( const char *name, EXTRA_DESCR_DATA *ed )
+wchar_t *get_extra_descr( const wchar_t *name, EXTRA_DESCR_DATA *ed )
 {
     for ( ; ed != NULL; ed = ed->next )
     {
-	if ( is_name( (char *) name, ed->keyword ) )
+	if ( is_name( (wchar_t *) name, ed->keyword ) )
 	    return ed->description;
     }
     return NULL;
@@ -2416,7 +2429,7 @@ MOB_INDEX_DATA *get_mob_index( int vnum )
 
     if ( fBootDb )
     {
-	bug( "Get_mob_index: bad vnum %d.", vnum );
+	bug( L"Get_mob_index: bad vnum %d.", vnum );
 	exit( 1 );
     }
 
@@ -2443,7 +2456,7 @@ OBJ_INDEX_DATA *get_obj_index( int vnum )
 
     if ( fBootDb )
     {
-	bug( "Get_obj_index: bad vnum %d.", vnum );
+	bug( L"Get_obj_index: bad vnum %d.", vnum );
 	exit( 1 );
     }
 
@@ -2470,7 +2483,7 @@ ROOM_INDEX_DATA *get_room_index( int vnum )
 
     if ( fBootDb )
     {
-	bug( "Get_room_index: bad vnum %d.", vnum );
+	bug( L"Get_room_index: bad vnum %d.", vnum );
 	exit( 1 );
     }
 
@@ -2482,13 +2495,13 @@ ROOM_INDEX_DATA *get_room_index( int vnum )
 /*
  * Read a letter from a file.
  */
-char fread_letter( FILE *fp )
+wchar_t fread_letter( FILE *fp )
 {
-    char c;
+    wchar_t c;
 
     do
     {
-	c = getc( fp );
+	c = getwc( fp );
     }
     while ( isspace(c) );
 
@@ -2504,11 +2517,11 @@ int fread_number( FILE *fp )
 {
     int number;
     bool sign;
-    char c;
+    wchar_t c;
 
     do
     {
-	c = getc( fp );
+	c = getwc( fp );
     }
     while ( isspace(c) );
 
@@ -2517,24 +2530,24 @@ int fread_number( FILE *fp )
     sign   = FALSE;
     if ( c == '+' )
     {
-	c = getc( fp );
+	c = getwc( fp );
     }
     else if ( c == '-' )
     {
 	sign = TRUE;
-	c = getc( fp );
+	c = getwc( fp );
     }
 
-    if ( !isdigit(c) )
+    if ( !iswdigit(c) )
     {
-	bug( "Fread_number: bad format.", 0 );
+	bug( L"Fread_number: bad format.", 0 );
 	exit( 1 );
     }
 
-    while ( isdigit(c) )
+    while ( iswdigit(c) )
     {
 	number = number * 10 + c - '0';
-	c      = getc( fp );
+	c      = getwc( fp );
     }
 
     if ( sign )
@@ -2543,7 +2556,7 @@ int fread_number( FILE *fp )
     if ( c == '|' )
 	number += fread_number( fp );
     else if ( c != ' ' )
-	ungetc( c, fp );
+	ungetwc( c, fp );
 
     return number;
 }
@@ -2551,43 +2564,43 @@ int fread_number( FILE *fp )
 long fread_flag( FILE *fp)
 {
     int number;
-    char c;
+    wchar_t c;
     bool negative = FALSE;
 
     do
     {
-	c = getc(fp);
+	c = getwc(fp);
     }
     while ( isspace(c));
 
     if (c == '-')
     {
 	negative = TRUE;
-	c = getc(fp);
+	c = getwc(fp);
     }
 
     number = 0;
 
-    if (!isdigit(c))
+    if (!iswdigit(c))
     {
 	while (('A' <= c && c <= 'Z') || ('a' <= c && c <= 'z'))
 	{
 	    number += flag_convert(c);
-	    c = getc(fp);
+	    c = getwc(fp);
 	}
     }
 
-    while (isdigit(c))
+    while (iswdigit(c))
     {
 	number = number * 10 + c - '0';
-	c = getc(fp);
+	c = getwc(fp);
     }
 
     if (c == '|')
 	number += fread_flag(fp);
 
     else if  ( c != ' ')
-	ungetc(c,fp);
+	ungetwc(c,fp);
 
     if (negative)
 	return -1 * number;
@@ -2595,10 +2608,10 @@ long fread_flag( FILE *fp)
     return number;
 }
 
-long flag_convert(char letter )
+long flag_convert(wchar_t letter )
 {
     long bitsum = 0;
-    char i;
+    wchar_t i;
 
     if ('A' <= letter && letter <= 'Z')
     {
@@ -2627,15 +2640,15 @@ long flag_convert(char letter )
  *   hash code is simply the string length.
  *   this function takes 40% to 50% of boot-up time.
  */
-char *fread_string( FILE *fp )
+wchar_t *fread_string( FILE *fp )
 {
-    char *plast;
-    char c;
+    wchar_t *plast;
+    wchar_t c;
 
-    plast = top_string + sizeof(char *);
+    plast = top_string + sizeof(wchar_t *);
     if ( plast > &string_space[MAX_STRING - MAX_STRING_LENGTH] )
     {
-	bug( "Fread_string: MAX_STRING %d exceeded.", MAX_STRING );
+	bug( L"Fread_string: MAX_STRING %d exceeded.", MAX_STRING );
 	exit( 1 );
     }
 
@@ -2645,13 +2658,13 @@ char *fread_string( FILE *fp )
      */
     do
     {
-	c = getc( fp );
+	c = getwc( fp );
     }
     while ( isspace(c) );
-
+	fwprintf( stderr, L"boot_db :: fread_string-1\n" );
     if ( ( *plast++ = c ) == '~' )
 	return &str_empty[0];
-
+	fwprintf( stderr, L"boot_db :: fread_string-2\n" );
     for ( ;; )
     {
         /*
@@ -2659,83 +2672,107 @@ char *fread_string( FILE *fp )
          *   it was too dirty for portability.
          *   -- Furey
          */
-
-	switch ( *plast = getc(fp) )
-	{
-        default:
-            plast++;
-            break;
-
-        case EOF:
-	/* temp fix */
-            bug( "Fread_string: EOF", 0 );
-	    return NULL;
-            /* exit( 1 ); */
-            break;
-
-        case '\n':
-            plast++;
-            *plast++ = '\r';
-            break;
-
-        case '\r':
-            break;
-
-        case '~':
-            plast++;
-	    {
-		union
+		fwprintf( stderr, L"boot_db :: test-1\n" );
+		setlocale(LC_ALL, "tr_TR.UTF-8");
+		if ( setlocale( LC_CTYPE, "tr_TR.UTF-8" ) == NULL)
 		{
-		    char *	pc;
-		    char	rgc[sizeof(char *)];
-		} u1;
-		size_t ic;
-		int iHash;
-		char *pHash;
-		char *pHashPrev;
-		char *pString;
-
-		plast[-1] = '\0';
-		iHash     = UMIN( MAX_KEY_HASH - 1, plast - 1 - top_string );
-		for ( pHash = string_hash[iHash]; pHash; pHash = pHashPrev )
-		{
-		    for ( ic = 0; ic < sizeof(char *); ic++ )
-			u1.rgc[ic] = pHash[ic];
-		    pHashPrev = u1.pc;
-		    pHash    += sizeof(char *);
-
-		    if ( top_string[sizeof(char *)] == pHash[0]
-		    &&   !strcmp( top_string+sizeof(char *)+1, pHash+1 ) )
-			return pHash;
+			fwprintf( stderr, L"Locale tr_TR.UTF-8 yapilamadi.\n" );
 		}
-
-		if ( fBootDb )
+		*plast = fgetwc(fp);
+		
+		if (ferror(fp) < 0)
 		{
-		    pString		= top_string;
-		    top_string		= plast;
-		    u1.pc		= string_hash[iHash];
-		    for ( ic = 0; ic < sizeof(char *); ic++ )
-			pString[ic] = u1.rgc[ic];
-		    string_hash[iHash]	= pString;
+			fprintf(stderr, "fgetwc hatasi: %s\n", explain_ferror(fp));
+			clearerr(fp);
+			exit(EXIT_FAILURE);
+		}
+		fwprintf( stderr, L"boot_db :: test-2\n" );
+		if (*plast == L'Ä°')
+		{
+			fwprintf( stderr, L"boot_db :: test-ii\n" );
+			fwprintf( stderr, L"boot_db :: fread_string -%C-\n", *plast );
+            plast++;
+		}
+		else if (*plast == WEOF)
+		{
+			fwprintf( stderr, L"boot_db :: test-3\n" );
+			fwprintf( stderr, L"boot_db :: fread_string -%ld-\n", *plast );
+			//bug( L"Fread_string: WEOF", 0 );
+			return NULL;
+		}
+		else if (*plast == L'\n')
+		{
+			fwprintf( stderr, L"boot_db :: test-4\n" );
+			plast++;
+            *plast++ = '\r';
+		}
+		else if (*plast == L'\r')
+		{
+			fwprintf( stderr, L"boot_db :: test-5\n" );
+		}
+		else if (*plast == L'~')
+		{
+			fwprintf( stderr, L"boot_db :: test-6\n" );
+			plast++;
+			{
+				union
+				{
+					wchar_t *	pc;
+					wchar_t	rgc[sizeof(wchar_t *)];
+				} u1;
+				size_t ic;
+				int iHash;
+				wchar_t *pHash;
+				wchar_t *pHashPrev;
+				wchar_t *pString;
 
-		    nAllocString += 1;
-		    sAllocString += top_string - pString;
-		    return pString + sizeof(char *);
+				plast[-1] = L'\0';
+				iHash     = UMIN( MAX_KEY_HASH - 1, plast - 1 - top_string );
+				for ( pHash = string_hash[iHash]; pHash; pHash = pHashPrev )
+				{
+					for ( ic = 0; ic < sizeof(wchar_t *); ic++ )
+					u1.rgc[ic] = pHash[ic];
+					pHashPrev = u1.pc;
+					pHash    += sizeof(wchar_t *);
+
+					if ( top_string[sizeof(wchar_t *)] == pHash[0]
+					&&   !wcscmp( top_string+sizeof(wchar_t *)+1, pHash+1 ) )
+					return pHash;
+				}
+
+				if ( fBootDb )
+				{
+					pString		= top_string;
+					top_string		= plast;
+					u1.pc		= string_hash[iHash];
+					for ( ic = 0; ic < sizeof(wchar_t *); ic++ )
+					pString[ic] = u1.rgc[ic];
+					string_hash[iHash]	= pString;
+
+					nAllocString += 1;
+					sAllocString += top_string - pString;
+					return pString + sizeof(wchar_t *);
+				}
+				else
+				{
+					return str_dup( top_string + sizeof(wchar_t *) );
+				}
+			}
 		}
 		else
 		{
-		    return str_dup( top_string + sizeof(char *) );
+			fwprintf( stderr, L"boot_db :: test-7\n" );
+			fwprintf( stderr, L"boot_db :: fread_string -%ld-\n", *plast );
+            plast++;
 		}
-	    }
-	}
     }
 }
 
-char *fread_string_eol( FILE *fp )
+wchar_t *fread_string_eol( FILE *fp )
 {
     static bool char_special[256-EOF];
-    char *plast;
-    char c;
+    wchar_t *plast;
+    wchar_t c;
 
     if ( char_special[EOF-EOF] != TRUE )
     {
@@ -2744,10 +2781,10 @@ char *fread_string_eol( FILE *fp )
         char_special['\r' - EOF] = TRUE;
     }
 
-    plast = top_string + sizeof(char *);
+    plast = top_string + sizeof(wchar_t *);
     if ( plast > &string_space[MAX_STRING - MAX_STRING_LENGTH] )
     {
-        bug( "Fread_string: MAX_STRING %d exceeded.", MAX_STRING );
+        bug( L"Fread_string: MAX_STRING %d exceeded.", MAX_STRING );
         exit( 1 );
     }
 
@@ -2757,7 +2794,7 @@ char *fread_string_eol( FILE *fp )
      */
     do
     {
-        c = getc( fp );
+        c = getwc( fp );
     }
     while ( isspace(c) );
 
@@ -2766,7 +2803,7 @@ char *fread_string_eol( FILE *fp )
 
     for ( ;; )
     {
-        if ( !char_special[ ( *plast++ = getc( fp ) ) - EOF ] )
+        if ( !char_special[ ( *plast++ = getwc( fp ) ) - EOF ] )
             continue;
 
         switch ( plast[-1] )
@@ -2775,7 +2812,7 @@ char *fread_string_eol( FILE *fp )
             break;
 
         case EOF:
-            bug( "Fread_string_eol  EOF", 0 );
+            bug( L"Fread_string_eol  EOF", 0 );
             exit( 1 );
             break;
 
@@ -2783,26 +2820,26 @@ char *fread_string_eol( FILE *fp )
             {
                 union
                 {
-                    char *      pc;
-                    char        rgc[sizeof(char *)];
+                    wchar_t *      pc;
+                    wchar_t        rgc[sizeof(wchar_t *)];
                 } u1;
                 size_t ic;
                 int iHash;
-                char *pHash;
-                char *pHashPrev;
-                char *pString;
+                wchar_t *pHash;
+                wchar_t *pHashPrev;
+                wchar_t *pString;
 
                 plast[-1] = '\0';
                 iHash     = UMIN( MAX_KEY_HASH - 1, plast - 1 - top_string );
                 for ( pHash = string_hash[iHash]; pHash; pHash = pHashPrev )
                 {
-                    for ( ic = 0; ic < sizeof(char *); ic++ )
+                    for ( ic = 0; ic < sizeof(wchar_t *); ic++ )
                         u1.rgc[ic] = pHash[ic];
                     pHashPrev = u1.pc;
-                    pHash    += sizeof(char *);
+                    pHash    += sizeof(wchar_t *);
 
-                    if ( top_string[sizeof(char *)] == pHash[0]
-                    &&   !strcmp( top_string+sizeof(char *)+1, pHash+1 ) )
+                    if ( top_string[sizeof(wchar_t *)] == pHash[0]
+                    &&   !wcscmp( top_string+sizeof(wchar_t *)+1, pHash+1 ) )
                         return pHash;
                 }
 
@@ -2811,17 +2848,17 @@ char *fread_string_eol( FILE *fp )
                     pString             = top_string;
                     top_string          = plast;
                     u1.pc               = string_hash[iHash];
-                    for ( ic = 0; ic < sizeof(char *); ic++ )
+                    for ( ic = 0; ic < sizeof(wchar_t *); ic++ )
                         pString[ic] = u1.rgc[ic];
                     string_hash[iHash]  = pString;
 
                     nAllocString += 1;
                     sAllocString += top_string - pString;
-                    return pString + sizeof(char *);
+                    return pString + sizeof(wchar_t *);
                 }
                 else
                 {
-                    return str_dup( top_string + sizeof(char *) );
+                    return str_dup( top_string + sizeof(wchar_t *) );
                 }
             }
         }
@@ -2835,21 +2872,21 @@ char *fread_string_eol( FILE *fp )
  */
 void fread_to_eol( FILE *fp )
 {
-    char c;
+    wchar_t c;
 
     do
     {
-	c = getc( fp );
+	c = getwc( fp );
     }
     while ( c != '\n' && c != '\r' );
 
     do
     {
-	c = getc( fp );
+	c = getwc( fp );
     }
     while ( c == '\n' || c == '\r' );
 
-    ungetc( c, fp );
+    ungetwc( c, fp );
     return;
 }
 
@@ -2858,15 +2895,15 @@ void fread_to_eol( FILE *fp )
 /*
  * Read one word (into static buffer).
  */
-char *fread_word( FILE *fp )
+wchar_t *fread_word( FILE *fp )
 {
-    static char word[MAX_INPUT_LENGTH];
-    char *pword;
-    char cEnd;
+    static wchar_t word[MAX_INPUT_LENGTH];
+    wchar_t *pword;
+    wchar_t cEnd;
 
     do
     {
-	cEnd = getc( fp );
+	cEnd = getwc( fp );
     }
     while ( isspace( cEnd ) );
 
@@ -2883,17 +2920,16 @@ char *fread_word( FILE *fp )
 
     for ( ; pword < word + MAX_INPUT_LENGTH; pword++ )
     {
-	*pword = getc( fp );
+	*pword = getwc( fp );
 	if ( cEnd == ' ' ? isspace(*pword) : *pword == cEnd )
 	{
 	    if ( cEnd == ' ' )
-		ungetc( *pword, fp );
+		ungetwc( *pword, fp );
 	    *pword = '\0';
 	    return word;
 	}
     }
-
-    bug( "Fread_word: word too long.", 0 );
+    bug( L"Fread_word: word too long.", 0 );
     exit( 1 );
     return NULL;
 }
@@ -2918,7 +2954,7 @@ void *alloc_mem( int sMem )
 
     if ( iList == MAX_MEM_LIST )
     {
-        bug( "Alloc_mem: size %d too large.", sMem );
+        bug( L"Alloc_mem: size %d too large.", sMem );
         exit( 1 );
     }
 
@@ -2956,8 +2992,8 @@ void free_mem( void *pMem, int sMem )
 
     if (*magic != MAGIC_NUM)
     {
-        bug("Attempt to recyle invalid memory of size %d.",sMem);
-        bug((char*) pMem + sizeof(*magic),0);
+        bug( L"Attempt to recyle invalid memory of size %d.",sMem);
+        bug((wchar_t*) pMem + sizeof(*magic),0);
         return;
     }
 
@@ -2972,7 +3008,7 @@ void free_mem( void *pMem, int sMem )
 
     if ( iList == MAX_MEM_LIST )
     {
-        bug( "Free_mem: size %d too large.", sMem );
+        bug( L"Free_mem: size %d too large.", sMem );
         exit( 1 );
     }
 
@@ -2990,7 +3026,7 @@ void free_mem( void *pMem, int sMem )
  */
 void *alloc_perm( int sMem )
 {
-    static char *pMemPerm;
+    static wchar_t *pMemPerm;
     static int iMemPerm;
     void *pMem;
 
@@ -2998,14 +3034,14 @@ void *alloc_perm( int sMem )
 	sMem++;
     if ( sMem > MAX_PERM_BLOCK )
     {
-	bug( "Alloc_perm: %d too large.", sMem );
+	bug( L"Alloc_perm: %d too large.", sMem );
 	exit( 1 );
     }
 
     if ( pMemPerm == NULL || iMemPerm + sMem > MAX_PERM_BLOCK )
     {
 	iMemPerm = 0;
-	if ( ( pMemPerm = (char *)calloc( 1, MAX_PERM_BLOCK ) ) == NULL )
+	if ( ( pMemPerm = (wchar_t *)calloc( 1, MAX_PERM_BLOCK ) ) == NULL )
 	{
 	    perror( "Alloc_perm" );
 	    exit( 1 );
@@ -3025,18 +3061,18 @@ void *alloc_perm( int sMem )
  * Duplicate a string into dynamic memory.
  * Fread_strings are read-only and shared.
  */
-char *str_dup( const char *str )
+wchar_t *str_dup( const wchar_t *str )
 {
-    char *str_new;
+    wchar_t *str_new;
 
     if ( str[0] == '\0' )
 	return &str_empty[0];
 
     if ( str >= string_space && str < top_string )
-	return (char *) str;
+	return (wchar_t *) str;
 
-    str_new = (char *)alloc_mem( strlen(str) + 1 );
-    strcpy( str_new, str );
+    str_new = (wchar_t *)alloc_mem( wcslen(str) + 1 );
+    wcscpy( str_new, str );
     return str_new;
 }
 
@@ -3047,26 +3083,26 @@ char *str_dup( const char *str )
  * Null is legal here to simplify callers.
  * Read-only shared strings are not touched.
  */
-void free_string( char *pstr )
+void free_string( wchar_t *pstr )
 {
     if ( pstr == NULL
     ||   pstr == &str_empty[0]
     || ( pstr >= string_space && pstr < top_string ) )
 	return;
 
-    free_mem( pstr, strlen(pstr) + 1 );
+    free_mem( pstr, wcslen(pstr) + 1 );
     return;
 }
 
 
-void do_areas( CHAR_DATA *ch, char *argument )
+void do_areas( CHAR_DATA *ch, wchar_t *argument )
 {
     AREA_DATA *pArea;
 
-    printf_to_char(ch,"Bölgeler:\n\r\n\r");
+    printf_to_char(ch,L"BÃ¶lgeler:\n\r\n\r");
     for ( pArea = area_first; pArea != NULL; pArea = pArea->next )
     {
-        printf_to_char(ch,"[{W%2d %3d{x] {c%25s{x - {c%s{x\n\r",pArea->low_range,pArea->high_range,pArea->name,pArea->path);
+        printf_to_char(ch,L"[{W%2d %3d{x] {c%25s{x - {c%s{x\n\r",pArea->low_range,pArea->high_range,pArea->name,pArea->path);
     }
 
     return;
@@ -3074,37 +3110,37 @@ void do_areas( CHAR_DATA *ch, char *argument )
 
 
 
-void do_memory( CHAR_DATA *ch, char *argument )
+void do_memory( CHAR_DATA *ch, wchar_t *argument )
 {
-    char buf[MAX_STRING_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
 
-    sprintf( buf, "Affects %5d\n\r", top_affect    ); send_to_char( buf, ch );
-    sprintf( buf, "Areas   %5d\n\r", top_area      ); send_to_char( buf, ch );
-    sprintf( buf, "ExDes   %5d\n\r", top_ed        ); send_to_char( buf, ch );
-    sprintf( buf, "Exits   %5d\n\r", top_exit      ); send_to_char( buf, ch );
-    sprintf( buf, "Helps   %5d\n\r", top_help      ); send_to_char( buf, ch );
-    sprintf( buf, "Socials %5d\n\r", social_count  ); send_to_char( buf, ch );
-    sprintf( buf, "Mobs    %5d(%d new format)\n\r", top_mob_index,newmobs );
+    swprintf( buf, MAX_STRING_LENGTH-1, L"Affects %5d\n\r", top_affect    ); send_to_char( buf, ch );
+    swprintf( buf, MAX_STRING_LENGTH-1, L"Areas   %5d\n\r", top_area      ); send_to_char( buf, ch );
+    swprintf( buf, MAX_STRING_LENGTH-1, L"ExDes   %5d\n\r", top_ed        ); send_to_char( buf, ch );
+    swprintf( buf, MAX_STRING_LENGTH-1, L"Exits   %5d\n\r", top_exit      ); send_to_char( buf, ch );
+    swprintf( buf, MAX_STRING_LENGTH-1, L"Helps   %5d\n\r", top_help      ); send_to_char( buf, ch );
+    swprintf( buf, MAX_STRING_LENGTH-1, L"Socials %5d\n\r", social_count  ); send_to_char( buf, ch );
+    swprintf( buf, MAX_STRING_LENGTH-1, L"Mobs    %5d(%d new format)\n\r", top_mob_index,newmobs );
     send_to_char( buf, ch );
-    sprintf( buf, "(in use)%5d\n\r", mobile_count  ); send_to_char( buf, ch );
-    sprintf( buf, "Objs    %5d(%d new format)\n\r", top_obj_index,newobjs );
+    swprintf( buf, MAX_STRING_LENGTH-1, L"(in use)%5d\n\r", mobile_count  ); send_to_char( buf, ch );
+    swprintf( buf, MAX_STRING_LENGTH-1, L"Objs    %5d(%d new format)\n\r", top_obj_index,newobjs );
     send_to_char( buf, ch );
-    sprintf( buf, "Resets  %5d\n\r", top_reset     ); send_to_char( buf, ch );
-    sprintf( buf, "Rooms   %5d\n\r", top_room      ); send_to_char( buf, ch );
-    sprintf( buf, "Shops   %5d\n\r", top_shop      ); send_to_char( buf, ch );
+    swprintf( buf, MAX_STRING_LENGTH-1, L"Resets  %5d\n\r", top_reset     ); send_to_char( buf, ch );
+    swprintf( buf, MAX_STRING_LENGTH-1, L"Rooms   %5d\n\r", top_room      ); send_to_char( buf, ch );
+    swprintf( buf, MAX_STRING_LENGTH-1, L"Shops   %5d\n\r", top_shop      ); send_to_char( buf, ch );
 
-    sprintf( buf, "Strings %5d strings of %7d bytes (max %d).\n\r",
+    swprintf( buf, MAX_STRING_LENGTH-1, L"Strings %5d strings of %7d bytes (max %d).\n\r",
 	nAllocString, sAllocString, MAX_STRING );
     send_to_char( buf, ch );
 
-    sprintf( buf, "Perms   %5d blocks  of %7d bytes.\n\r",
+    swprintf( buf, MAX_STRING_LENGTH-1, L"Perms   %5d blocks  of %7d bytes.\n\r",
 	nAllocPerm, sAllocPerm );
     send_to_char( buf, ch );
 
     return;
 }
 
-void do_dump( CHAR_DATA *ch, char *argument )
+void do_dump( CHAR_DATA *ch, wchar_t *argument )
 {
     int count,count2,num_pcs,aff_count;
     CHAR_DATA *fch;
@@ -3129,7 +3165,7 @@ void do_dump( CHAR_DATA *ch, char *argument )
     aff_count = 0;
 
     /* mobile prototypes */
-    fprintf(fp,"MobProt	%4d (%8d bytes)\n",
+    fwprintf(fp, L"MobProt	%4d (%8d bytes)\n",
 	top_mob_index, (int)(top_mob_index * (sizeof(*pMobIndex))));
 
     /* mobs */
@@ -3145,7 +3181,7 @@ void do_dump( CHAR_DATA *ch, char *argument )
     for (fch = char_free; fch != NULL; fch = fch->next)
 	count2++;
 
-    fprintf(fp,"Mobs	%4d (%8d bytes), %2d free (%d bytes)\n",
+    fwprintf(fp, L"Mobs	%4d (%8d bytes), %2d free (%d bytes)\n",
 	count, (int)(count * (sizeof(*fch))), count2, (int)(count2 * (sizeof(*fch))));
 
     /* pcdata */
@@ -3153,7 +3189,7 @@ void do_dump( CHAR_DATA *ch, char *argument )
     for (pc = pcdata_free; pc != NULL; pc = pc->next)
 	count++;
 
-    fprintf(fp,"Pcdata	%4d (%8d bytes), %2d free (%d bytes)\n",
+    fwprintf(fp, L"Pcdata	%4d (%8d bytes), %2d free (%d bytes)\n",
 	num_pcs, (int)(num_pcs * (sizeof(*pc))), count, (int)(count * (sizeof(*pc))));
 
     /* descriptors */
@@ -3163,7 +3199,7 @@ void do_dump( CHAR_DATA *ch, char *argument )
     for (d= descriptor_free; d != NULL; d = d->next)
 	count2++;
 
-    fprintf(fp, "Descs	%4d (%8d bytes), %2d free (%d bytes)\n",
+    fwprintf(fp, L"Descs	%4d (%8d bytes), %2d free (%d bytes)\n",
 	count, (int)(count * (sizeof(*d))), count2, (int)(count2 * (sizeof(*d))));
 
     /* object prototypes */
@@ -3175,7 +3211,7 @@ void do_dump( CHAR_DATA *ch, char *argument )
             nMatch++;
         }
 
-    fprintf(fp,"ObjProt	%4d (%8d bytes)\n",
+    fwprintf(fp, L"ObjProt	%4d (%8d bytes)\n",
 	top_obj_index, (int)(top_obj_index * (sizeof(*pObjIndex))));
 
 
@@ -3190,7 +3226,7 @@ void do_dump( CHAR_DATA *ch, char *argument )
     for (obj = obj_free; obj != NULL; obj = obj->next)
 	count2++;
 
-    fprintf(fp,"Objs	%4d (%8d bytes), %2d free (%d bytes)\n",
+    fwprintf(fp, L"Objs	%4d (%8d bytes), %2d free (%d bytes)\n",
 	count, (int)(count * (sizeof(*obj))), count2, (int)(count2 * (sizeof(*obj))));
 
     /* affects */
@@ -3198,15 +3234,15 @@ void do_dump( CHAR_DATA *ch, char *argument )
     for (af = affect_free; af != NULL; af = af->next)
 	count++;
 
-    fprintf(fp,"Affects	%4d (%8d bytes), %2d free (%d bytes)\n",
+    fwprintf(fp, L"Affects	%4d (%8d bytes), %2d free (%d bytes)\n",
 	aff_count, (int)(aff_count * (sizeof(*af))), count, (int)(count * (sizeof(*af))));
 
     /* rooms */
-    fprintf(fp,"Rooms	%4d (%8d bytes)\n",
+    fwprintf(fp, L"Rooms	%4d (%8d bytes)\n",
 	top_room, (int)(top_room * (sizeof(*room))));
 
      /* exits */
-    fprintf(fp,"Exits	%4d (%8d bytes)\n",
+    fwprintf(fp, L"Exits	%4d (%8d bytes)\n",
 	top_exit, (int)(top_exit * (sizeof(*exit))));
 
     fclose(fp);
@@ -3214,14 +3250,14 @@ void do_dump( CHAR_DATA *ch, char *argument )
     /* start printing out mobile data */
     fp = fopen("mob.dmp","w");
 
-    fprintf(fp,"\nMobile Analysis\n");
-    fprintf(fp,  "---------------\n");
+    fwprintf(fp, L"\nMobile Analysis\n");
+    fwprintf(fp, L"---------------\n");
     nMatch = 0;
     for (vnum = 0; nMatch < top_mob_index; vnum++)
 	if ((pMobIndex = get_mob_index(vnum)) != NULL)
 	{
 	    nMatch++;
-	    fprintf(fp,"#%-4d %3d active %3d killed     %s\n",
+	    fwprintf(fp, L"#%-4d %3d active %3d killed     %s\n",
 		pMobIndex->vnum,pMobIndex->count,
 		pMobIndex->killed,pMobIndex->short_descr);
 	}
@@ -3230,14 +3266,14 @@ void do_dump( CHAR_DATA *ch, char *argument )
     /* start printing out object data */
     fp = fopen("obj.dmp","w");
 
-    fprintf(fp,"\nObject Analysis\n");
-    fprintf(fp,  "---------------\n");
+    fwprintf(fp, L"\nObject Analysis\n");
+    fwprintf(fp, L"---------------\n");
     nMatch = 0;
     for (vnum = 0; nMatch < top_obj_index; vnum++)
 	if ((pObjIndex = get_obj_index(vnum)) != NULL)
 	{
 	    nMatch++;
-	    fprintf(fp,"#%-4d %3d active %3d reset      %s\n",
+	    fwprintf(fp, L"#%-4d %3d active %3d reset      %s\n",
 		pObjIndex->vnum,pObjIndex->count,
 		pObjIndex->reset_num,pObjIndex->short_descr);
 	}
@@ -3352,7 +3388,7 @@ int interpolate( int level, int value_00, int value_32 )
  * Removes the tildes from a string.
  * Used for player-entered strings that go into disk files.
  */
-void smash_tilde( char *str )
+void smash_tilde( wchar_t *str )
 {
     for ( ; *str != '\0'; str++ )
     {
@@ -3366,57 +3402,27 @@ void smash_tilde( char *str )
 
 
 /*
- * Compare strings, case insensitive.
- * Return TRUE if different
- *   (compatibility with historical functions).
- */
-bool str_cmp( const char *astr, const char *bstr )
-{
-    if ( astr == NULL )
-    {
-	bug( "Str_cmp: null astr.", 0 );
-	return TRUE;
-    }
-
-    if ( bstr == NULL )
-    {
-	bug( "Str_cmp: null bstr.", 0 );
-	return TRUE;
-    }
-
-    for ( ; *astr || *bstr; astr++, bstr++ )
-    {
-	if ( LOWER(*astr) != LOWER(*bstr) )
-	    return TRUE;
-    }
-
-    return FALSE;
-}
-
-
-
-/*
  * Compare strings, case insensitive, for prefix matching.
  * Return TRUE if astr not a prefix of bstr
  *   (compatibility with historical functions).
  */
-bool str_prefix( const char *astr, const char *bstr )
+bool str_prefix( const wchar_t *astr, const wchar_t *bstr )
 {
     if ( astr == NULL )
     {
-	bug( "Strn_cmp: null astr.", 0 );
+	bug( L"Strn_cmp: null astr.", 0 );
 	return TRUE;
     }
 
     if ( bstr == NULL )
     {
-	bug( "Strn_cmp: null bstr.", 0 );
+	bug( L"Strn_cmp: null bstr.", 0 );
 	return TRUE;
     }
 
     for ( ; *astr; astr++, bstr++ )
     {
-	if ( LOWER(*astr) != LOWER(*bstr) )
+	if ( towlower(*astr) != towlower(*bstr) )
 	    return TRUE;
     }
 
@@ -3430,22 +3436,22 @@ bool str_prefix( const char *astr, const char *bstr )
  * Returns TRUE is astr not part of bstr.
  *   (compatibility with historical functions).
  */
-bool str_infix( const char *astr, const char *bstr )
+bool str_infix( const wchar_t *astr, const wchar_t *bstr )
 {
     int sstr1;
     int sstr2;
     int ichar;
-    char c0;
+    wchar_t c0;
 
-    if ( ( c0 = LOWER(astr[0]) ) == '\0' )
+    if ( ( c0 = towlower(astr[0]) ) == '\0' )
 	return FALSE;
 
-    sstr1 = strlen(astr);
-    sstr2 = strlen(bstr);
+    sstr1 = wcslen(astr);
+    sstr2 = wcslen(bstr);
 
     for ( ichar = 0; ichar <= sstr2 - sstr1; ichar++ )
     {
-	if ( c0 == LOWER(bstr[ichar]) && !str_prefix( astr, bstr + ichar ) )
+	if ( c0 == towlower(bstr[ichar]) && !str_prefix( astr, bstr + ichar ) )
 	    return FALSE;
     }
 
@@ -3459,14 +3465,14 @@ bool str_infix( const char *astr, const char *bstr )
  * Return TRUE if astr not a suffix of bstr
  *   (compatibility with historical functions).
  */
-bool str_suffix( const char *astr, const char *bstr )
+bool str_suffix( const wchar_t *astr, const wchar_t *bstr )
 {
     int sstr1;
     int sstr2;
 
-    sstr1 = strlen(astr);
-    sstr2 = strlen(bstr);
-    if ( sstr1 <= sstr2 && !str_cmp( astr, bstr + sstr2 - sstr1 ) )
+    sstr1 = wcslen(astr);
+    sstr2 = wcslen(bstr);
+    if ( sstr1 <= sstr2 && !wcscasecmp( astr, bstr + sstr2 - sstr1 ) )
 	return FALSE;
     else
 	return TRUE;
@@ -3477,15 +3483,15 @@ bool str_suffix( const char *astr, const char *bstr )
 /*
  * Returns an initial-capped string.
  */
-char *capitalize( const char *str )
+wchar_t *capitalize( const wchar_t *str )
 {
-    static char strcap[MAX_STRING_LENGTH];
+    static wchar_t strcap[MAX_STRING_LENGTH];
     int i;
 
     for ( i = 0; str[i] != '\0'; i++ )
-	strcap[i] = LOWER(str[i]);
+	strcap[i] = towlower(str[i]);
     strcap[i] = '\0';
-    strcap[0] = UPPER(strcap[0]);
+    strcap[0] = towupper(strcap[0]);
     return strcap;
 }
 
@@ -3493,7 +3499,7 @@ char *capitalize( const char *str )
 /*
  * Append a string to a file.
  */
-void append_file( CHAR_DATA *ch, char *file, char *str )
+void append_file( CHAR_DATA *ch, wchar_t *file, wchar_t *str )
 {
     FILE *fp;
 
@@ -3501,14 +3507,14 @@ void append_file( CHAR_DATA *ch, char *file, char *str )
 	return;
 
     fclose( fpReserve );
-    if ( ( fp = fopen( file, "a" ) ) == NULL )
+    if ( ( fp = fopen( (char*)file, "a" ) ) == NULL )
     {
-	perror( file );
-	send_to_char( "Dosya açýlamadý!\n\r", ch );
+	perror( (char*)file );
+	send_to_char( L"Dosya aÃ§Ä±lamadÄ±!\n\r", ch );
     }
     else
     {
-	fprintf( fp, "[%5d] %s: %s\n",
+	fwprintf( fp, L"[%5d] %s: %s\n",
 	    ch->in_room ? ch->in_room->vnum : 0, ch->name, str );
 	fclose( fp );
     }
@@ -3522,9 +3528,9 @@ void append_file( CHAR_DATA *ch, char *file, char *str )
 /*
  * Reports a bug.
  */
-void bug( const char *str, int param )
+void bug( const wchar_t *str, int param )
 {
-    char buf[MAX_STRING_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH-500];
 
     if ( fpArea != NULL )
     {
@@ -3541,31 +3547,32 @@ void bug( const char *str, int param )
 	    fseek( fpArea, 0, 0 );
 	    for ( iLine = 0; ftell( fpArea ) < iChar; iLine++ )
 	    {
-		while ( getc( fpArea ) != '\n' )
+		while ( getwc( fpArea ) != '\n' )
 		    ;
 	    }
 	    fseek( fpArea, iChar, 0 );
 	}
 
-	sprintf( buf, "[*****] FILE: %s LINE: %d", strArea, iLine );
+	swprintf( buf, MAX_STRING_LENGTH-1, L"[*****] FILE: %s LINE: %d", strArea, iLine );
 	log_string( buf );
 /* RT removed because we don't want bugs shutting the mud
 	if ( ( fp = fopen( "shutdown.txt", "a" ) ) != NULL )
 	{
-	    fprintf( fp, "[*****] %s\n", buf );
+	    fwprintf( fp, L"[*****] %s\n", buf );
 	    fclose( fp );
 	}
 */
     }
 
-    strcpy( buf, "[*****] BUG: " );
-    sprintf( buf + strlen(buf), str, param );
+    //wcscpy( buf, L"[*****] BUG: " );
+	//log_string( str );
+    swprintf( buf,MAX_INPUT_LENGTH-1, L"[*****] BUG: %S", str );
     log_string( buf );
 /* RT removed due to bug-file spamming
     fclose( fpReserve );
     if ( ( fp = fopen( BUG_FILE, "a" ) ) != NULL )
     {
-	fprintf( fp, "%s\n", buf );
+	fwprintf( fp, L"%s\n", buf );
 	fclose( fp );
     }
     fpReserve = fopen( NULL_FILE, "r" );
@@ -3579,13 +3586,13 @@ void bug( const char *str, int param )
 /*
  * Writes a string to the log.
  */
-void log_string( const char *str )
+void log_string( const wchar_t *str )
 {
-    char *strtime;
+    wchar_t *strtime;
 
-    strtime                    = ctime( &current_time );
-    strtime[strlen(strtime)-1] = '\0';
-    fprintf( stderr, "%s :: %s\n", strtime, str );
+    strtime                    = (wchar_t*)ctime( &current_time );
+    strtime[wcslen(strtime)-1] = '\0';
+    fwprintf( stderr, L"%s :: %S\n", strtime, str );
     return;
 }
 
@@ -3615,7 +3622,7 @@ void load_olimits(FILE *fp)
 {
   int vnum;
   int limit;
-  char ch;
+  wchar_t ch;
   OBJ_INDEX_DATA *pIndex;
 
   for (ch = fread_letter(fp); ch != 'S'; ch = fread_letter(fp) )
@@ -3627,7 +3634,7 @@ void load_olimits(FILE *fp)
 	  limit = fread_number(fp);
 	  if ( (pIndex = get_obj_index(vnum)) == NULL)
 	    {
-	      bug("Load_olimits: bad vnum %d",vnum);
+	      bug( L"Load_olimits: bad vnum %d",vnum);
 	      exit(1);
 	    }
 	  else pIndex->limit = limit;
@@ -3637,7 +3644,7 @@ void load_olimits(FILE *fp)
 	  fread_to_eol(fp);
 	  break;
 	default:
-	  bug("Load_olimits: bad command '%c'",ch);
+	  bug( L"Load_olimits: bad command '%c'",ch);
 	  exit(1);
 	}
     }
@@ -3658,9 +3665,9 @@ void load_limited_objects()
   int i;
   DIR *dirp;
   FILE *pfile;
-  char letter;
-  char *word;
-  char buf[MAX_INPUT_LENGTH];
+  wchar_t letter;
+  wchar_t *word;
+  wchar_t buf[MAX_INPUT_LENGTH];
   bool fReadLevel;
   int vnum;
   int tplayed;
@@ -3669,7 +3676,7 @@ void load_limited_objects()
 
   if ( (dirp = opendir(PLAYER_DIR)) == NULL)
   {
-    bug("Load_limited_objects: unable to open player directory.",0);
+    bug( L"Load_limited_objects: unable to open player directory.",0);
     exit(1);
   }
 
@@ -3677,14 +3684,14 @@ void load_limited_objects()
   {
     if (strlen(dp->d_name) >= 3)
     {
-      sprintf(buf, "%s/",PLAYER_DIR);
-      strcat(buf, dp->d_name);
+      swprintf( buf, MAX_STRING_LENGTH-1, L"%s/",PLAYER_DIR);
+      wcscat(buf, (wchar_t*)dp->d_name);
       fReadLevel = FALSE;
       tplayed = 0;
 
-      if ( (pfile = fopen(buf, "r")) == NULL)
+      if ( (pfile = fopen((char*)buf, "r")) == NULL)
       {
-        bug("Load_limited_objects: Can't open player file.",0);
+        bug( L"Load_limited_objects: Can't open player file.",0);
       }
       else
       {
@@ -3696,12 +3703,12 @@ void load_limited_objects()
             {
               word = fread_word(pfile);
 
-              if (!str_cmp(word, "evl") || !str_cmp(word,"ev") || !str_cmp(word, "evel"))
+              if (!wcscasecmp(word, L"evl") || !wcscasecmp(word,L"ev") || !wcscasecmp(word, L"evel"))
               {
                 i = fread_number(pfile);
                 fReadLevel = TRUE;
                 total_levels += UMAX(0,i - 5);
-                sprintf(log_buf,"[%s]'s file +: %d\n\r",buf, UMAX(0,i-5));
+                swprintf(log_buf,(2*MAX_INPUT_LENGTH)-1, L"[%s]'s file +: %d\n\r",buf, UMAX(0,i-5));
                 dump_to_scr(log_buf);
                 continue;
               }
@@ -3711,7 +3718,7 @@ void load_limited_objects()
           {
             word = fread_word(pfile);
 
-            if (!str_cmp(word, "layLog") )
+            if (!wcscasecmp(word, L"layLog") )
             {
               int d, t;
               int today = parse_date( current_time );
@@ -3748,11 +3755,11 @@ void load_limited_objects()
           else if (letter == '#')
           {
             word = fread_word(pfile);
-            if (!str_cmp(word, "O") || !str_cmp(word, "OBJECT"))
+            if (!wcscasecmp(word, L"O") || !wcscasecmp(word, L"OBJECT"))
             {
               if ( tplayed < MIN_TIME_LIMIT )
               {
-                sprintf(log_buf,"Discarding the player %s for limited equipments!.\n",buf);
+                swprintf(log_buf,(2*MAX_INPUT_LENGTH)-1, L"Discarding the player %s for limited equipments!.\n",buf);
                 dump_to_scr( log_buf );
                 break;
               }
@@ -3778,13 +3785,13 @@ void load_limited_objects()
 /*
  * Given a name, return the appropriate prac fun.
  */
-long prac_lookup( const char *name )
+long prac_lookup( const wchar_t *name )
 {
    int i;
 
    for ( i = 0; prac_table[i].name != NULL; i++)
    {
-        if (LOWER(name[0]) == LOWER(prac_table[i].name[0])
+        if (towlower(name[0]) == towlower(prac_table[i].name[0])
         &&  !str_prefix( name,prac_table[i].name))
             return (1 << prac_table[i].number);
    }
@@ -3800,12 +3807,12 @@ void load_practicer( FILE *fp )
     for ( ; ; )
     {
 	MOB_INDEX_DATA *pMobIndex;
-	char letter;
+	wchar_t letter;
 
 	switch ( letter = fread_letter( fp ) )
 	{
 	default:
-	    bug( "Load_specials: letter '%c' not *MS.", letter );
+	    bug( L"Load_specials: letter '%c' not *MS.", letter );
 	    exit( 1 );
 
 	case 'S':
@@ -3819,7 +3826,7 @@ void load_practicer( FILE *fp )
 	    SET_BIT(pMobIndex->practicer,prac_lookup( fread_word(fp) ) );
 	    if ( pMobIndex->practicer == 0 )
 	    {
-		bug( "Load_practicers: 'M': vnum %d.", pMobIndex->vnum );
+		bug( L"Load_practicers: 'M': vnum %d.", pMobIndex->vnum );
 		exit( 1 );
 	    }
 	    break;

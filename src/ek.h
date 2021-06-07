@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -16,22 +16,23 @@
 #include <sys/types.h>
 #endif
 #include <stdio.h>
+#include <wchar.h>
 #include <string.h>
 #include <time.h>
 #include "merc.h"
 
-char * son_harf_unlu(CHAR_DATA *ch, int say);
+wchar_t * son_harf_unlu(CHAR_DATA *ch, int say);
 
 struct pers_suffix_type
 {
-    char *belirtec;
-    char *birisi;
-	char *olumsuz;
-	char *sesli_eki;
-	char *bir;//a,ý
-	char *iki;//e,i
-	char *uc;//o,u
-	char *dort;//ö,ü
+    wchar_t *belirtec;
+    wchar_t *birisi;
+	wchar_t *olumsuz;
+	wchar_t *sesli_eki;
+	wchar_t *bir;//a,Ä±
+	wchar_t *iki;//e,i
+	wchar_t *uc;//o,u
+	wchar_t *dort;//Ã¶,Ã¼
 };
 
 extern	const	struct	pers_suffix_type	pers_suffix_table[];

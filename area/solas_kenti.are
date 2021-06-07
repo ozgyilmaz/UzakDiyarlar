@@ -3,7 +3,7 @@ Filename solas_kenti.are~
 Name Solas Kenti~
 Builder Strahd~
 Translator Qualyn~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 35
 Minvnum 10200
@@ -16,9 +16,9 @@ END
 
 #NEW_MOBILES
 #10201
-muhafız yüzbaşı~
-Yüzbaşı~
-Muhafızların Yüzbaşısı burada.
+muhafÄ±z yÃ¼zbaÅŸÄ±~
+YÃ¼zbaÅŸÄ±~
+MuhafÄ±zlarÄ±n YÃ¼zbaÅŸÄ±sÄ± burada.
 ~
 The Captain of the Guard is an older but very powerful man. His obsidian
 armor seems to glow faintly. The crest of the town of Solace is displayed
@@ -28,9 +28,9 @@ the wealth of this town.
 human~
 ABT 4|8|32|128 30
 #10202
-teğmen~
-Teğmen~
-Teğmen burada.
+teÄŸmen~
+TeÄŸmen~
+TeÄŸmen burada.
 ~
 The Lieutenant seems like a happy fellow. Although he seems to have
 the brain of a 7 year old. His steel armor is covered with finger paint.
@@ -41,9 +41,9 @@ fight.
 human~
 ABGT 4|32|128 27
 #10203
-çavuş~
-Çavuş~
-Çavuş burada, çekicini parlatıyor.
+Ã§avuÅŸ~
+Ã‡avuÅŸ~
+Ã‡avuÅŸ burada, Ã§ekicini parlatÄ±yor.
 ~
 This is the tough and burly Sergeant at Arms. He wears the red armor of
 war. He is a middle age man with graying hair that pokes out from under
@@ -52,9 +52,9 @@ his helmet. He is always waiting for a fight.
 human~
 ABGT 4|128 20
 #10204
-şehir muhafız~
-şehir muhafızı~
-Şehir muhafızı burada.
+ÅŸehir muhafÄ±z~
+ÅŸehir muhafÄ±zÄ±~
+Åehir muhafÄ±zÄ± burada.
 ~
 A big strong townguard of Solace.
 
@@ -62,9 +62,9 @@ A big strong townguard of Solace.
 human~
 ABGT 0 15
 #10205
-şehir muhafız~
-şehir muhafızı~
-Şehir muhafızı burada.
+ÅŸehir muhafÄ±z~
+ÅŸehir muhafÄ±zÄ±~
+Åehir muhafÄ±zÄ± burada.
 ~
 A big strong townguard of Solace.
 
@@ -72,27 +72,27 @@ A big strong townguard of Solace.
 human~
 ABFGT 0 15
 #10206
-solas vatandaş~
-Solas vatandaşı~
-Solas vatandaşlarından birini görüyorsun.
+solas vatandaÅŸ~
+Solas vatandaÅŸÄ±~
+Solas vatandaÅŸlarÄ±ndan birini gÃ¶rÃ¼yorsun.
 ~
 He is one of the wealthy citizens of Solace.
 ~
 human~
 1 0 10
 #10207
-kadın~
-kadın~
-Bir kadın görüyorsun.
+kadÄ±n~
+kadÄ±n~
+Bir kadÄ±n gÃ¶rÃ¼yorsun.
 ~
-Oldukça güzel.
+OldukÃ§a gÃ¼zel.
 ~
 human~
 1 0 5
 #10208
-matt biracı~
+matt biracÄ±~
 Matt~
-Biracı Matt burada, içecek birşeyler arıyor.
+BiracÄ± Matt burada, iÃ§ecek birÅŸeyler arÄ±yor.
 ~
 ~
 human~
@@ -100,7 +100,7 @@ human~
 #10209
 tore~
 Tore~
-Tore burada, bir eliyle yüzündeki unu temizliyor.
+Tore burada, bir eliyle yÃ¼zÃ¼ndeki unu temizliyor.
 ~
 A fat, nice looking baker. But you can see that he has many scars on his
 body.
@@ -108,9 +108,9 @@ body.
 human~
 2 0 23
 #10210
-aşçı yamağı~
-aşçı yamağı~
-Aşçı yamağı burada, denemen için bir kurabiye öneriyor.
+aÅŸÃ§Ä± yamaÄŸÄ±~
+aÅŸÃ§Ä± yamaÄŸÄ±~
+AÅŸÃ§Ä± yamaÄŸÄ± burada, denemen iÃ§in bir kurabiye Ã¶neriyor.
 ~
 A young neighborhood girl helps out cookie when she is not around.
 ~
@@ -119,7 +119,7 @@ human~
 #10211
 maril~
 Maril~
-Maril burada, kuş satıyor.
+Maril burada, kuÅŸ satÄ±yor.
 ~
 She is a very pretty and loves her birds. Her black hair hangs behind her
 tied in a pony tail.
@@ -140,7 +140,7 @@ human~
 #10213
 gardon hayalet~
 garsonun hayaleti~
-Bir garsonun hayaletini görüyorsun, sana hizmet etmek için bekliyor.
+Bir garsonun hayaletini gÃ¶rÃ¼yorsun, sana hizmet etmek iÃ§in bekliyor.
 ~
 This is the ghost of a long dead waiter. Probably one of the many that
 Jander killed for spilling a drink or something.
@@ -150,7 +150,7 @@ human~
 #10214
 barmen hayalet~
 barmenin hayaleti~
-Bir barmenin hayaletini görüyorsun, isteklerini bekliyor.
+Bir barmenin hayaletini gÃ¶rÃ¼yorsun, isteklerini bekliyor.
 ~
 This is probably another of Jander's victims. Probably got caught with
 his hand in the cash or something.
@@ -158,9 +158,9 @@ his hand in the cash or something.
 human~
 2 0 13
 #10215
-şehir muhafız~
-şehir muhafızı~
-Bir şehir muhafızı görüyorsun, devriye geziyor.
+ÅŸehir muhafÄ±z~
+ÅŸehir muhafÄ±zÄ±~
+Bir ÅŸehir muhafÄ±zÄ± gÃ¶rÃ¼yorsun, devriye geziyor.
 ~
 A big strong townguard of Solace.
 
@@ -170,7 +170,7 @@ AGT 0 15
 #10216
 tarla faresi~
 tarla faresi~
-Bir tarla faresi burada, yiyecek arıyor.
+Bir tarla faresi burada, yiyecek arÄ±yor.
 ~
 A dirty nasty field rat . Obviously  looking for food in the town.
 ~
@@ -179,7 +179,7 @@ lizard~
 #10217
 katip~
 Katip~
-Katip burada, vergilerini ödemeni bekliyor.
+Katip burada, vergilerini Ã¶demeni bekliyor.
 ~
 a stringy rat like individual. He beams at you through his spectacles
 as if he can see the money in your pockets.
@@ -187,9 +187,9 @@ as if he can see the money in your pockets.
 human~
 2 128 17
 #10218
-ganimet muhafızı~
-ganimet muhafızı~
-Ganimet muhafızı burada, şehrin parasını koruyor.
+ganimet muhafÄ±zÄ±~
+ganimet muhafÄ±zÄ±~
+Ganimet muhafÄ±zÄ± burada, ÅŸehrin parasÄ±nÄ± koruyor.
 ~
 These are like the biggest and meanest men you've every seen.
 They look more like asuras or ogres than men.
@@ -197,9 +197,9 @@ They look more like asuras or ogres than men.
 human~
 ABT 4|8|32|128 16
 #10219
-çiftçi jen~
+Ã§iftÃ§i jen~
 Jen~
-Çiftçi Jen burada.
+Ã‡iftÃ§i Jen burada.
 ~
 a rather tall man who works hard for his money.
 ~
@@ -234,18 +234,18 @@ Nisi is a very interesting person. It shows in the wares she sells
 human~
 2 0 24
 #10223
-biracı molin~
+biracÄ± molin~
 Molin~
-Biracı Molin burada.
+BiracÄ± Molin burada.
 ~
 Molin is a grey old man with hair down to his toes.
 ~
 human~
 2 0 24
 #10224
-çiftçi rashan~
+Ã§iftÃ§i rashan~
 Rashan~
-Çiftçi Rashan burada.
+Ã‡iftÃ§i Rashan burada.
 ~
 Rashan is a middle aged man who grows his rutabagas by candlelight.
 ~
@@ -274,7 +274,7 @@ human~
 #10227
 otik sandat barmen~
 Otik Sandat~
-Otik Sandat burada, bara doğru ilerliyor.
+Otik Sandat burada, bara doÄŸru ilerliyor.
 ~
 Otik is an older man with a gift for cooking.
 
@@ -286,7 +286,7 @@ human~
 #10228
 tika barmen~
 Tika~
-Barmen Tika burada, içki ve yemek servisi yapıyor.
+Barmen Tika burada, iÃ§ki ve yemek servisi yapÄ±yor.
 ~
 Curly auburn hair tumbles around Tika's lightly freckled face. Her striking
 green eyes match her low-cut blouse. She is a brash young barmaid who
@@ -296,9 +296,9 @@ presents a tough image as protection against her sense of vulnerablility.
 human~
 2 0 16
 #10229
-hırsız siluet gizli~
-Hırsız~
-Gizlenmiş bir siluet görüyorsun.
+hÄ±rsÄ±z siluet gizli~
+HÄ±rsÄ±z~
+GizlenmiÅŸ bir siluet gÃ¶rÃ¼yorsun.
 ~
 A thin, cloaked figure sits alone at a table near the door, an untouched
 glass of ale before him.
@@ -306,18 +306,18 @@ glass of ale before him.
 human~
 ABS 0 17
 #10230
-yaşlı adam~
-yaşlı adam~
-Yaşlı bir adam burada.
+yaÅŸlÄ± adam~
+yaÅŸlÄ± adam~
+YaÅŸlÄ± bir adam burada.
 ~
 he looks like an old man....go figure..
 ~
 human~
 2 0 13
 #10231
-çocuk~
-çocuk~
-Küçük bir çocuk burada.
+Ã§ocuk~
+Ã§ocuk~
+KÃ¼Ã§Ã¼k bir Ã§ocuk burada.
 ~
 he is a small boy lost in his own daydreams.
 
@@ -330,34 +330,34 @@ human~
 #10232
 yumurcak~
 yumurcak~
-Oldukça sevimli bir yumurcak burada.
+OldukÃ§a sevimli bir yumurcak burada.
 ~
 he looks like a pain in the ass.
 ~
 human~
 2 0 10
 #10233
-büyücü~
-büyücü~
-Bir büyücü görüyorsun.
+bÃ¼yÃ¼cÃ¼~
+bÃ¼yÃ¼cÃ¼~
+Bir bÃ¼yÃ¼cÃ¼ gÃ¶rÃ¼yorsun.
 ~
 He is the typical adventurer. He looks as if he has travelled far.
 ~
 human~
 2 0 14
 #10234
-hırsız~
-hırsız~
-Bir hırsız burada.
+hÄ±rsÄ±z~
+hÄ±rsÄ±z~
+Bir hÄ±rsÄ±z burada.
 ~
 He is the typical adventurer. He looks as if he has travelled far.
 ~
 human~
 ABS 0 12
 #10235
-savaşçı~
-savaşçı~
-Bir savaşçı burada.
+savaÅŸÃ§Ä±~
+savaÅŸÃ§Ä±~
+Bir savaÅŸÃ§Ä± burada.
 ~
 He is the typical adventurer. He looks as if he has travelled far.
 ~
@@ -374,25 +374,25 @@ human~
 ABQ 0 19
 #10237
 hayalet kumarbaz~
-kumarbazın hayaleti~
-Bir kumarbazın hayaleti burada, üzerine bahse gireceği birşeyler arıyor.
+kumarbazÄ±n hayaleti~
+Bir kumarbazÄ±n hayaleti burada, Ã¼zerine bahse gireceÄŸi birÅŸeyler arÄ±yor.
 ~
 Even in death this sad spirit is looking to gamble.
 ~
 human~
 2 0 10
 #10238
-çocuk~
-çocuk~
-Bir çocuk görüyorsun, yerde bulduğu böcekleri ağzına atıyor.
+Ã§ocuk~
+Ã§ocuk~
+Bir Ã§ocuk gÃ¶rÃ¼yorsun, yerde bulduÄŸu bÃ¶cekleri aÄŸzÄ±na atÄ±yor.
 ~
 ~
 human~
 1 0 5
 #10239
-sıçan~
-sıçan~
-Büyük bir sıçan burada.
+sÄ±Ã§an~
+sÄ±Ã§an~
+BÃ¼yÃ¼k bir sÄ±Ã§an burada.
 ~
 ~
 lizard~
@@ -400,31 +400,31 @@ lizard~
 #10240
 yarasa~
 yarasa~
-Büyük bir yarasa görüyorsun.
+BÃ¼yÃ¼k bir yarasa gÃ¶rÃ¼yorsun.
 ~
 ~
 bat~
 2|32 8 5
 #10241
-yaşlı hanım~
-yaşlı hanım~
-Yaşlı bir hanım görüyorsun.
+yaÅŸlÄ± hanÄ±m~
+yaÅŸlÄ± hanÄ±m~
+YaÅŸlÄ± bir hanÄ±m gÃ¶rÃ¼yorsun.
 ~
 ~
 human~
 1|4|64 0 8
 #10242
-yorgun maceracı~
-yorgun maceracı~
-Yorgun bir maceracı burada, dinleniyor.
+yorgun maceracÄ±~
+yorgun maceracÄ±~
+Yorgun bir maceracÄ± burada, dinleniyor.
 ~
 ~
 human~
 2 0 13
 #10243
-magnus büyücü~
+magnus bÃ¼yÃ¼cÃ¼~
 Magnus~
-Büyücü Magnus burada, dinleniyor.
+BÃ¼yÃ¼cÃ¼ Magnus burada, dinleniyor.
 ~
 ~
 human~
@@ -438,9 +438,9 @@ Kader Lordu burada, dinleniyor.
 human~
 ABT 0 18
 #10245
-dış ticaret temsilcisi~
-Dış Ticaret Temsilcisi~
-Bir temsilci burada, muhafız yüzbaşısıyla görüşmeyi bekliyor.
+dÄ±ÅŸ ticaret temsilcisi~
+DÄ±ÅŸ Ticaret Temsilcisi~
+Bir temsilci burada, muhafÄ±z yÃ¼zbaÅŸÄ±sÄ±yla gÃ¶rÃ¼ÅŸmeyi bekliyor.
 ~
 ~
 human~
@@ -448,15 +448,15 @@ human~
 #10246
 koruma~
 koruma~
-Bir koruma görüyorsun.
+Bir koruma gÃ¶rÃ¼yorsun.
 ~
 ~
 human~
 ABT 0 16
 #10247
-yüzbaşı sekreter~
+yÃ¼zbaÅŸÄ± sekreter~
 Sekreter~
-Yüzbaşının sekreteri burada.
+YÃ¼zbaÅŸÄ±nÄ±n sekreteri burada.
 ~
 She looks very busy.
 The Secretary says 'Sorry, but the Captain is extremely busy today'.
@@ -465,9 +465,9 @@ The Secretary says 'Please sit down and have a seat in the meantime'.
 human~
 2 0 25
 #10248
-teğmen sekreter~
+teÄŸmen sekreter~
 Sekreter~
-Teğmenin sekreteri burada.
+TeÄŸmenin sekreteri burada.
 ~
 She looks very busy.
 The Secretary says 'Sorry, but the Lieutenant is extremely busy today'.
@@ -476,9 +476,9 @@ The Secretary says 'Please sit down and have a seat in the meantime'.
 human~
 2 0 20
 #10249
-sekreter çavuş~
+sekreter Ã§avuÅŸ~
 Sekreter~
-Çavuşun sekreteri burada.
+Ã‡avuÅŸun sekreteri burada.
 ~
 She looks very busy.
 The Secretary says 'Sorry, but the Sergeant is extremely busy today'.
@@ -487,9 +487,9 @@ The Secretary says 'Please sit down and have a seat in the meantime'.
 human~
 2 0 15
 #10250
-papağan~
-papağan~
-Bir papağan görüyorsun, kuyruğunu oynatıp sağa sola sallanıyor.
+papaÄŸan~
+papaÄŸan~
+Bir papaÄŸan gÃ¶rÃ¼yorsun, kuyruÄŸunu oynatÄ±p saÄŸa sola sallanÄ±yor.
 ~
 The macaw looks like a strong, fearless fighter. It is a beautiful bird.
 ~
@@ -498,16 +498,16 @@ song bird~
 #10251
 kuzgun~
 kuzgun~
-Büyük, siyah bir kuzgun burada.
+BÃ¼yÃ¼k, siyah bir kuzgun burada.
 ~
 The raven looks like a strong, fearless fighter.
 ~
 human~
 6 0 15
 #10252
-doğan avcı~
-doğan~
-Büyük bir avcı doğan görüyorsun.
+doÄŸan avcÄ±~
+doÄŸan~
+BÃ¼yÃ¼k bir avcÄ± doÄŸan gÃ¶rÃ¼yorsun.
 ~
 The hawk looks like a strong, fearless fighter. It has been trained for
 hunting game.
@@ -515,9 +515,9 @@ hunting game.
 song bird~
 6 0 18
 #10253
-savaş şahin~
-şahin~
-Büyük bir savaş şahini burada.
+savaÅŸ ÅŸahin~
+ÅŸahin~
+BÃ¼yÃ¼k bir savaÅŸ ÅŸahini burada.
 ~
 The battle falcon looks like a strong, fearless fighter. This giant breed has
 been trained especially for combat.
@@ -530,9 +530,9 @@ song bird~
 
 #OBJOLD
 #10201
-miğfer aytaşı~
-aytaşı miğferi~
-Siyah bir miğfer yerde duruyor.~
+miÄŸfer aytaÅŸÄ±~
+aytaÅŸÄ± miÄŸferi~
+Siyah bir miÄŸfer yerde duruyor.~
 ~
 9 64|1024 1|16
 8 0 0 0
@@ -542,9 +542,9 @@ A
 A
 1 1
 #10202
-kolluk aytaşı~
-bir çift aytaşı kolluğu~
-Bir çift siyah kolluk burada bırakılmış.~
+kolluk aytaÅŸÄ±~
+bir Ã§ift aytaÅŸÄ± kolluÄŸu~
+Bir Ã§ift siyah kolluk burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64|1024 1|256
 8 0 0 0
@@ -554,9 +554,9 @@ A
 A
 24 -5
 #10203
-bacaklık aytaşı~
-bir çift aytaşı bacaklığı~
-Bir çift siyah bacaklık burada bırakılmış.~
+bacaklÄ±k aytaÅŸÄ±~
+bir Ã§ift aytaÅŸÄ± bacaklÄ±ÄŸÄ±~
+Bir Ã§ift siyah bacaklÄ±k burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64|1024 1|32
 9 0 0 0
@@ -566,9 +566,9 @@ A
 A
 2 2
 #10204
-aytaşı eldiven~
-bir çift aytaşı eldiveni~
-Bir çift siyah eldiven burada bırakılmış.~
+aytaÅŸÄ± eldiven~
+bir Ã§ift aytaÅŸÄ± eldiveni~
+Bir Ã§ift siyah eldiven burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64|1024 1|128
 11 0 0 0
@@ -578,9 +578,9 @@ A
 A
 23 -3
 #10205
-aytaşı çizme~
-bir çift aytaşı çizmesi~
-Bir çift siyah çizme burada bırakılmış.~
+aytaÅŸÄ± Ã§izme~
+bir Ã§ift aytaÅŸÄ± Ã§izmesi~
+Bir Ã§ift siyah Ã§izme burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64|1024 1|64
 9 0 0 0
@@ -590,9 +590,9 @@ A
 A
 23 -6
 #10206
-aytaşı fular~
-aytaşı fuları~
-Siyah bir fular burada bırakılmış.~
+aytaÅŸÄ± fular~
+aytaÅŸÄ± fularÄ±~
+Siyah bir fular burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64|1024 1|4
 9 0 0 0
@@ -602,9 +602,9 @@ A
 A
 24 -2
 #10207
-aytaşı kemer~
-aytaşı kemeri~
-Siyah bir kemer burada bırakılmış.~
+aytaÅŸÄ± kemer~
+aytaÅŸÄ± kemeri~
+Siyah bir kemer burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64|1024 1|2048
 9 0 0 0
@@ -614,9 +614,9 @@ A
 A
 24 -2
 #10208
-aytaşı kalkan büyük~
-büyük aytaşı kalkanı~
-Siyah ve büyük bir kalkan burada bırakılmış.~
+aytaÅŸÄ± kalkan bÃ¼yÃ¼k~
+bÃ¼yÃ¼k aytaÅŸÄ± kalkanÄ±~
+Siyah ve bÃ¼yÃ¼k bir kalkan burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64|1024 1|512
 9 0 0 0
@@ -627,8 +627,8 @@ A
 19 3
 #10209
 muska solas~
-Solas muskası~
-Parlak, siyah bir muska burada bırakılmış.~
+Solas muskasÄ±~
+Parlak, siyah bir muska burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64|1024 1|4
 9 0 0 0
@@ -638,17 +638,17 @@ A
 A
 19 1
 #10210
-aytaşı anahtar~
-aytaşı anahtarı~
-Siyah bir anahtar burada bırakılmış.~
+aytaÅŸÄ± anahtar~
+aytaÅŸÄ± anahtarÄ±~
+Siyah bir anahtar burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 18 0 1
 0 0 0 0
 5 10000 100
 #10211
-kılıç keder veren~
-"Keder Veren" adında siyah kılıç~
-Siyah bir kılıç burada, yeni bir sahip bekliyor.~
+kÄ±lÄ±Ã§ keder veren~
+"Keder Veren" adÄ±nda siyah kÄ±lÄ±Ã§~
+Siyah bir kÄ±lÄ±Ã§ burada, yeni bir sahip bekliyor.~
 ~
 5 32|64 1|8192
 0 6 8 1
@@ -672,9 +672,9 @@ A
 A
 19 4
 #10212
-mühürlü yüzük solas~
-Solas mühürlü yüzüğü~
-Parlak bir yüzük burada unutulmuş.~
+mÃ¼hÃ¼rlÃ¼ yÃ¼zÃ¼k solas~
+Solas mÃ¼hÃ¼rlÃ¼ yÃ¼zÃ¼ÄŸÃ¼~
+Parlak bir yÃ¼zÃ¼k burada unutulmuÅŸ.~
 ~
 9 64 1|2
 6 0 0 0
@@ -684,17 +684,17 @@ A
 A
 13 4
 #10213
-aytaşı bileklik~
-aytaşı bilekliği~
-Yerde yatan siyah bir bileklik görüyorsun.~
+aytaÅŸÄ± bileklik~
+aytaÅŸÄ± bilekliÄŸi~
+Yerde yatan siyah bir bileklik gÃ¶rÃ¼yorsun.~
 ~
 9 0 1|4097
 7 0 0 0
 9 0 500
 #10214
 silah dolap~
-silah dolabı~
-Bir silah dolabı görüyorsun.~
+silah dolabÄ±~
+Bir silah dolabÄ± gÃ¶rÃ¼yorsun.~
 ~
 15 0 0
 7 15 10210 0
@@ -706,15 +706,15 @@ The cabinet doors are made of smoked glass. Something seems to be
 calling you from within.
 ~
 #10215
-kılıç ejderha dilimleyci~
-"Ejderha Dilimleyici" adında siyah kılıç~
-Siyah ve parlak bir kılıç burada, dinleniyor.~
+kÄ±lÄ±Ã§ ejderha dilimleyci~
+"Ejderha Dilimleyici" adÄ±nda siyah kÄ±lÄ±Ã§~
+Siyah ve parlak bir kÄ±lÄ±Ã§ burada, dinleniyor.~
 ~
 5 32|64 1|8192
 0 6 8 1
 30 10000 100
 E
-kılıç~
+kÄ±lÄ±Ã§~
 The blade of the sword is a full meter long, and straight as an arrow, with
 lightly fluted sides. Both edges keened down to perfect lines, invisibly
 sharp. Perfection like this could of only been forged by a god. The black
@@ -734,9 +734,9 @@ A
 A
 23 -15
 #10216
-çelik miğfer~
-çelik miğfer~
-Çelik bir miğfer burada bırakılmış.~
+Ã§elik miÄŸfer~
+Ã§elik miÄŸfer~
+Ã‡elik bir miÄŸfer burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64|1024 1|16
 5 0 0 0
@@ -746,9 +746,9 @@ A
 A
 3 1
 #10217
-kolluk çelik~
-bir çift çelik kolluk~
-Bir çift çelik kolluk burada bırakılmış.~
+kolluk Ã§elik~
+bir Ã§ift Ã§elik kolluk~
+Bir Ã§ift Ã§elik kolluk burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64|1024 1|256
 7 0 0 0
@@ -758,9 +758,9 @@ A
 A
 24 -1
 #10218
-bacaklık çelik~
-bir çift çelik bacaklık~
-Bir çift çelik bacaklık burada bırakılmış.~
+bacaklÄ±k Ã§elik~
+bir Ã§ift Ã§elik bacaklÄ±k~
+Bir Ã§ift Ã§elik bacaklÄ±k burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64|1024 1|32
 8 0 0 0
@@ -770,9 +770,9 @@ A
 A
 2 1
 #10219
-eldiven çelik~
-bir çift çelik eldiven~
-Bir çift çelik eldiven burada bırakılmış.~
+eldiven Ã§elik~
+bir Ã§ift Ã§elik eldiven~
+Bir Ã§ift Ã§elik eldiven burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64|1024 1|128
 9 0 0 0
@@ -784,9 +784,9 @@ A
 A
 1 1
 #10220
-çizme çelik~
-bir çift çelik çizme~
-Bir çift çelik çizme burada bırakılmış.~
+Ã§izme Ã§elik~
+bir Ã§ift Ã§elik Ã§izme~
+Bir Ã§ift Ã§elik Ã§izme burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64|1024 1|64
 8 0 0 0
@@ -796,9 +796,9 @@ A
 A
 23 -2
 #10221
-teğmen fular~
-teğmen fuları~
-Bir teğmen fuları burada bırakılmış.~
+teÄŸmen fular~
+teÄŸmen fularÄ±~
+Bir teÄŸmen fularÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64|1024 1|4
 8 0 0 0
@@ -808,9 +808,9 @@ A
 A
 24 -1
 #10222
-çelik kemer~
-çelik kemer~
-Çelikten bir kemer burada bırakılmış.~
+Ã§elik kemer~
+Ã§elik kemer~
+Ã‡elikten bir kemer burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64|1024 1|2048
 8 0 0 0
@@ -818,9 +818,9 @@ A
 A
 24 -1
 #10223
-çelik kalkan~
-çelik kalkan~
-Çelikten bir kalkan burada bırakılmış.~
+Ã§elik kalkan~
+Ã§elik kalkan~
+Ã‡elikten bir kalkan burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64|1024 1|512
 8 0 0 0
@@ -830,9 +830,9 @@ A
 A
 19 1
 #10224
-çelik bileklik~
-çelik bileklik~
-Çelikten bir bileklik burada bırakılmış.~
+Ã§elik bileklik~
+Ã§elik bileklik~
+Ã‡elikten bir bileklik burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 0 1|4097
 6 0 0 0
@@ -840,16 +840,16 @@ A
 A
 12 5
 #10225
-kılıç kalkan biçen~
+kÄ±lÄ±Ã§ kalkan biÃ§en~
 
-"Kalkan Biçen" adında siyah bir kılıç~
-Siyah bir kılıç burada, dinleniyor.~
+"Kalkan BiÃ§en" adÄ±nda siyah bir kÄ±lÄ±Ã§~
+Siyah bir kÄ±lÄ±Ã§ burada, dinleniyor.~
 ~
 5 2|32|64|4096 1|8192
 0 10 35 11
 35 10000 100
 E
-kılıç~
+kÄ±lÄ±Ã§~
 The blade of the sword is a full meter long, and straight as an arrow, with
 lightly fluted sides. Both edges keened down to perfect lines, invisibly
 sharp. Perfection like this could of only been forged by a god. The black
@@ -871,9 +871,9 @@ A
 A
 24 -10
 #10226
-kızıl miğfer~
-kızıl miğfer~
-Kızıl bir miğfer burada bırakılmış.~
+kÄ±zÄ±l miÄŸfer~
+kÄ±zÄ±l miÄŸfer~
+KÄ±zÄ±l bir miÄŸfer burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64|1024 1|16
 4 0 0 0
@@ -881,9 +881,9 @@ Kızıl bir miğfer burada bırakılmış.~
 A
 21 -1
 #10227
-kolluk kızıl~
-bir çift kızıl kolluk~
-Bir çift kızıl kolluk burada unutulmuş.~
+kolluk kÄ±zÄ±l~
+bir Ã§ift kÄ±zÄ±l kolluk~
+Bir Ã§ift kÄ±zÄ±l kolluk burada unutulmuÅŸ.~
 ~
 9 64|1024 1|256
 6 0 0 0
@@ -891,9 +891,9 @@ Bir çift kızıl kolluk burada unutulmuş.~
 A
 20 -1
 #10228
-bacaklık kızıl~
-bir çift kızıl bacaklık~
-Bir çift kızıl bacaklık burada unutulmuş.~
+bacaklÄ±k kÄ±zÄ±l~
+bir Ã§ift kÄ±zÄ±l bacaklÄ±k~
+Bir Ã§ift kÄ±zÄ±l bacaklÄ±k burada unutulmuÅŸ.~
 ~
 9 64|1024 1|32
 7 0 0 0
@@ -901,9 +901,9 @@ Bir çift kızıl bacaklık burada unutulmuş.~
 A
 14 5
 #10229
-eldiven kızıl~
-bir çift kızıl eldiven~
-Bir çift kızıl eldiven burada unutulmuş.~
+eldiven kÄ±zÄ±l~
+bir Ã§ift kÄ±zÄ±l eldiven~
+Bir Ã§ift kÄ±zÄ±l eldiven burada unutulmuÅŸ.~
 ~
 9 64|1024 1|128
 8 0 0 0
@@ -911,9 +911,9 @@ Bir çift kızıl eldiven burada unutulmuş.~
 A
 21 -1
 #10230
-çizme kızıl~
-bir çift kızıl çizme~
-Bir çift kızıl çizme burada unutulmuş.~
+Ã§izme kÄ±zÄ±l~
+bir Ã§ift kÄ±zÄ±l Ã§izme~
+Bir Ã§ift kÄ±zÄ±l Ã§izme burada unutulmuÅŸ.~
 ~
 9 64|1024 1|64
 7 0 0 0
@@ -923,9 +923,9 @@ A
 A
 23 -1
 #10231
-kızıl teğmen fuları~
-kızıl teğmen fuları~
-Kızıl bir teğmen fuları burada bırakılmış.~
+kÄ±zÄ±l teÄŸmen fularÄ±~
+kÄ±zÄ±l teÄŸmen fularÄ±~
+KÄ±zÄ±l bir teÄŸmen fularÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64|1024 1|4
 7 0 0 0
@@ -933,17 +933,17 @@ Kızıl bir teğmen fuları burada bırakılmış.~
 A
 22 -1
 #10232
-kemer kızıl~
-kızıl kemer~
-Bir kızıl kemer burada unutulmuş.~
+kemer kÄ±zÄ±l~
+kÄ±zÄ±l kemer~
+Bir kÄ±zÄ±l kemer burada unutulmuÅŸ.~
 ~
 9 64|1024 1|2048
 8 0 0 0
 30 10000 100
 #10233
-kalkan kızıl~
-kızıl kalkan~
-Bir kızıl kalkan burada unutulmuş.~
+kalkan kÄ±zÄ±l~
+kÄ±zÄ±l kalkan~
+Bir kÄ±zÄ±l kalkan burada unutulmuÅŸ.~
 ~
 9 64|1024 1|512
 7 0 0 0
@@ -951,9 +951,9 @@ Bir kızıl kalkan burada unutulmuş.~
 A
 17 1
 #10234
-bileklik kızıl~
-kızıl bileklik~
-Bir kızıl bileklik burada unutulmuş.~
+bileklik kÄ±zÄ±l~
+kÄ±zÄ±l bileklik~
+Bir kÄ±zÄ±l bileklik burada unutulmuÅŸ.~
 ~
 9 0 1|4097
 5 0 0 0
@@ -961,15 +961,15 @@ Bir kızıl bileklik burada unutulmuş.~
 A
 12 1
 #10235
-çekiç büyücü ezen~
-"Büyücü Ezen" adında kızıl bir çekiç~
-Kızıl bir çekiç burada unutulmuş.~
+Ã§ekiÃ§ bÃ¼yÃ¼cÃ¼ ezen~
+"BÃ¼yÃ¼cÃ¼ Ezen" adÄ±nda kÄ±zÄ±l bir Ã§ekiÃ§~
+KÄ±zÄ±l bir Ã§ekiÃ§ burada unutulmuÅŸ.~
 ~
 5 2|64 1|8192
 0 6 15 8
 35 10000 100
 E
-çekiç~
+Ã§ekiÃ§~
 This hammer has the words, "MAGE MASHER" engraved into it's head.
 It seems to glow and pulse when pointed at a magic user. It seems to just
 glow when pointed at clerics though.
@@ -981,9 +981,9 @@ A
 A
 12 -50
 #10236
-siyah zırh~
-siyah zırh~
-Siyah bir zırh burada bırakılmış.~
+siyah zÄ±rh~
+siyah zÄ±rh~
+Siyah bir zÄ±rh burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64 1|8
 7 0 0 0
@@ -993,9 +993,9 @@ A
 A
 13 8
 #10237
-büyülü uzun kılıç~
-büyülü uzun kılıç~
-Rünlerle bezenmiş bir uzun kılıç yerde oturuyor.~
+bÃ¼yÃ¼lÃ¼ uzun kÄ±lÄ±Ã§~
+bÃ¼yÃ¼lÃ¼ uzun kÄ±lÄ±Ã§~
+RÃ¼nlerle bezenmiÅŸ bir uzun kÄ±lÄ±Ã§ yerde oturuyor.~
 ~
 5 64 1|8192
 0 3 12 0
@@ -1005,9 +1005,9 @@ A
 A
 19 1
 #10238
-büyülü çekiç~
-büyülü çekiç~
-Rünlerle bezenmiş bir çekiç yerde oturuyor.~
+bÃ¼yÃ¼lÃ¼ Ã§ekiÃ§~
+bÃ¼yÃ¼lÃ¼ Ã§ekiÃ§~
+RÃ¼nlerle bezenmiÅŸ bir Ã§ekiÃ§ yerde oturuyor.~
 ~
 5 64 1|8192
 0 2 10 0
@@ -1015,9 +1015,9 @@ Rünlerle bezenmiş bir çekiç yerde oturuyor.~
 A
 18 2
 #10239
-büyülü kargı~
-büyülü kargı~
-Rünlerle bezenmiş bir kargı yerde dinleniyor.~
+bÃ¼yÃ¼lÃ¼ kargÄ±~
+bÃ¼yÃ¼lÃ¼ kargÄ±~
+RÃ¼nlerle bezenmiÅŸ bir kargÄ± yerde dinleniyor.~
 ~
 5 64 1|8192
 0 6 15 0
@@ -1025,15 +1025,15 @@ Rünlerle bezenmiş bir kargı yerde dinleniyor.~
 A
 18 2
 #10240
-işlemeli hançer~
-işlemeli hançer~
-Üzeri işlemelerle süslenmiş bir hançer burada unutulmuş.~
+iÅŸlemeli hanÃ§er~
+iÅŸlemeli hanÃ§er~
+Ãœzeri iÅŸlemelerle sÃ¼slenmiÅŸ bir hanÃ§er burada unutulmuÅŸ.~
 ~
 9 64 1|8192
 11 0 0 0
 6 1000 100
 E
-işleme hançer~
+iÅŸleme hanÃ§er~
 This armor is imported from the island of Guam.
 ~
 A
@@ -1041,15 +1041,15 @@ A
 #10241
 ekmek~
 ekmek~
-Bir parça ekmek burada bırakılmış.~
+Bir parÃ§a ekmek burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 19 0 1
 20 0 0 0
 5 100 10
 #10242
-çikolata~
-çikolata~
-Bir parça çikolata burada bırakılmış.~
+Ã§ikolata~
+Ã§ikolata~
+Bir parÃ§a Ã§ikolata burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 19 0 1
 10 0 0 0
@@ -1057,47 +1057,47 @@ Bir parça çikolata burada bırakılmış.~
 #10243
 kurabiye~
 kurabiye~
-Bir parça kurabiye burada bırakılmış.~
+Bir parÃ§a kurabiye burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 19 0 1
 10 0 0 0
 5 100 10
 #10244
-börek~
-börek~
-Bir parça börek burada bırakılmış.~
+bÃ¶rek~
+bÃ¶rek~
+Bir parÃ§a bÃ¶rek burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 19 0 1
 12 0 0 0
 5 100 10
 #10245
-çörek~
-çörek~
-Bir parça çörek burada bırakılmış.~
+Ã§Ã¶rek~
+Ã§Ã¶rek~
+Bir parÃ§a Ã§Ã¶rek burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 19 0 1
 7 0 0 0
 5 100 10
 #10246
-fıstıklı kurabiye~
-fıstıklı kurabiye~
-Bir miktar fıstıklı kurabiye burada bırakılmış.~
+fÄ±stÄ±klÄ± kurabiye~
+fÄ±stÄ±klÄ± kurabiye~
+Bir miktar fÄ±stÄ±klÄ± kurabiye burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 19 0 1
 7 0 0 0
 5 100 10
 #10247
-yulaflı kurabiye~
-yulaflı kurabiye~
-Bir miktar yulaflı kurabiye burada bırakılmış.~
+yulaflÄ± kurabiye~
+yulaflÄ± kurabiye~
+Bir miktar yulaflÄ± kurabiye burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 19 0 1
 7 0 0 0
 5 100 10
 #10248
-üzümlü kurabiye~
-üzümlü kurabiye~
-Bir miktar üzümlü kurabiye burada bırakılmış.~
+Ã¼zÃ¼mlÃ¼ kurabiye~
+Ã¼zÃ¼mlÃ¼ kurabiye~
+Bir miktar Ã¼zÃ¼mlÃ¼ kurabiye burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 19 0 1
 7 0 0 0
@@ -1105,7 +1105,7 @@ Bir miktar üzümlü kurabiye burada bırakılmış.~
 #10249
 baston~
 baston~
-Kime ait olduğu belli olmayan bir baston burada bırakılmış.~
+Kime ait olduÄŸu belli olmayan bir baston burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 5 0 1|8192
 0 10 15 12
@@ -1113,9 +1113,9 @@ Kime ait olduğu belli olmayan bir baston burada bırakılmış.~
 A
 15 -10000
 #10250
-büyülü cesim büyük kılıç~
-büyülü cesim kılıç~
-Rün işlemeli büyük bir kılıç yerde duruyor.~
+bÃ¼yÃ¼lÃ¼ cesim bÃ¼yÃ¼k kÄ±lÄ±Ã§~
+bÃ¼yÃ¼lÃ¼ cesim kÄ±lÄ±Ã§~
+RÃ¼n iÅŸlemeli bÃ¼yÃ¼k bir kÄ±lÄ±Ã§ yerde duruyor.~
 ~
 9 64 1|8192
 0 5 15 0
@@ -1123,25 +1123,25 @@ Rün işlemeli büyük bir kılıç yerde duruyor.~
 A
 18 4
 #10251
-havuç~
-havuç~
-Bir havuç burada düşürülmüş.~
+havuÃ§~
+havuÃ§~
+Bir havuÃ§ burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 ~
 19 0 1
 5 0 0 0
 2 100 10
 #10252
-karnıbahar~
-karnıbahar~
-Bir karnıbahar burada düşürülmüş.~
+karnÄ±bahar~
+karnÄ±bahar~
+Bir karnÄ±bahar burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 ~
 19 0 1
 5 0 0 0
 2 100 10
 #10253
-acı biber~
-acı biber~
-Bir acı biber burada düşürülmüş.~
+acÄ± biber~
+acÄ± biber~
+Bir acÄ± biber burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 ~
 19 0 1
 5 0 0 0
@@ -1149,15 +1149,15 @@ Bir acı biber burada düşürülmüş.~
 #10254
 demet kereviz~
 bir demet kereviz~
-Bir demet kereviz burada düşürülmüş.~
+Bir demet kereviz burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 ~
 19 0 1
 5 0 0 0
 2 100 10
 #10255
-bardak buzlu çay~
-bir bardak buzlu çay~
-Bir bardak buzlu çay burada bırakılmış.~
+bardak buzlu Ã§ay~
+bir bardak buzlu Ã§ay~
+Bir bardak buzlu Ã§ay burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 17 0 1
 5 5 11 0
@@ -1165,7 +1165,7 @@ Bir bardak buzlu çay burada bırakılmış.~
 #10256
 bardak su~
 bir bardak su~
-Bir bardak su burada bırakılmış.~
+Bir bardak su burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 17 0 1
 5 5 0 0
@@ -1173,15 +1173,15 @@ Bir bardak su burada bırakılmış.~
 #10257
 bardak limonata~
 bir bardak limonata~
-Bir bardak limonata burada bırakılmış.~
+Bir bardak limonata burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 17 0 1
 5 5 15 0
 5 300 100
 #10258
-şişe buzlu çay~
-bir şişe buzlu çay~
-Bir şişe buzlu çay burada bırakılmış.~
+ÅŸiÅŸe buzlu Ã§ay~
+bir ÅŸiÅŸe buzlu Ã§ay~
+Bir ÅŸiÅŸe buzlu Ã§ay burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 17 0 1
 5 5 11 0
@@ -1189,15 +1189,15 @@ Bir şişe buzlu çay burada bırakılmış.~
 #10259
 elma~
 elma~
-Bir elma burada bırakılmış.~
+Bir elma burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 19 0 1
 5 0 0 0
 2 100 10
 #10260
-üzüm salkım~
-üzüm salkımı~
-Bir üzüm salkımı burada bırakılmış.~
+Ã¼zÃ¼m salkÄ±m~
+Ã¼zÃ¼m salkÄ±mÄ±~
+Bir Ã¼zÃ¼m salkÄ±mÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 19 0 1
 3 0 0 0
@@ -1205,7 +1205,7 @@ Bir üzüm salkımı burada bırakılmış.~
 #10261
 portakal~
 portakal~
-Bir portakal burada bırakılmış.~
+Bir portakal burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 19 0 1
 6 0 0 0
@@ -1213,63 +1213,63 @@ Bir portakal burada bırakılmış.~
 #10262
 armut~
 armut~
-Bir armut burada bırakılmış.~
+Bir armut burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 19 0 1
 6 0 0 0
 2 100 10
 #10263
 solas fular~
-Solas fuları~
-Siyah, parlak bir fular yere düşmüş.~
+Solas fularÄ±~
+Siyah, parlak bir fular yere dÃ¼ÅŸmÃ¼ÅŸ.~
 ~
 9 0 1|4
 5 0 0 0
 15 10000 100
 #10264
-solas yüzük~
-Solas yüzüğü~
-Siyah, parlak bir yüzük yere düşmüş.~
+solas yÃ¼zÃ¼k~
+Solas yÃ¼zÃ¼ÄŸÃ¼~
+Siyah, parlak bir yÃ¼zÃ¼k yere dÃ¼ÅŸmÃ¼ÅŸ.~
 ~
 9 0 1|2
 6 0 0 0
 5 10000 100
 #10265
-solas miğfer~
-Solas miğferi~
-Siyah, parlak bir miğfer yere düşmüş.~
+solas miÄŸfer~
+Solas miÄŸferi~
+Siyah, parlak bir miÄŸfer yere dÃ¼ÅŸmÃ¼ÅŸ.~
 ~
 9 0 1|16
 8 0 0 0
 4 10000 100
 #10266
-donmuş ıspanak~
-donmuş ıspanak~
-Bir miktar donmuş ıspanak burada bırakılmış.~
+donmuÅŸ Ä±spanak~
+donmuÅŸ Ä±spanak~
+Bir miktar donmuÅŸ Ä±spanak burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 0 1|512
 8 0 0 0
 15 10000 100
 #10267
-donmuş balkabak~
-donmuş balkabağı~
-Bir donmuş balkabağı burada bırakılmış.~
+donmuÅŸ balkabak~
+donmuÅŸ balkabaÄŸÄ±~
+Bir donmuÅŸ balkabaÄŸÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 0 1|16
 8 0 0 0
 15 10000 100
 #10268
-donmuş biftek~
-donmuş biftek~
-Bir donmuş biftek burada bırakılmış.~
+donmuÅŸ biftek~
+donmuÅŸ biftek~
+Bir donmuÅŸ biftek burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 0 1|8
 10 0 0 0
 23 10000 100
 #10269
-donmuş kuşkonmaz~
-bir miktar donmuş kuşkonmaz~
-Bir miktar donmuş kuşkonmaz burada bırakılmış.~
+donmuÅŸ kuÅŸkonmaz~
+bir miktar donmuÅŸ kuÅŸkonmaz~
+Bir miktar donmuÅŸ kuÅŸkonmaz burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 5 0 1|8192
 3 3 9 0
@@ -1279,47 +1279,47 @@ A
 #10270
 dut iksiri~
 dut iksiri~
-Bir şişe iksir burada, yudumlanmayı bekliyor.~
+Bir ÅŸiÅŸe iksir burada, yudumlanmayÄ± bekliyor.~
 ~
 10 64 1
 20 81 16 43
 1 400 50
 #10271
-incir hapı~
-incir hapı~
-Bir incir hapı burada bırakılmış.~
+incir hapÄ±~
+incir hapÄ±~
+Bir incir hapÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 26 64 1
 20 20 59 66
 1 4000 50
 #10272
-incir hapı~
-incir hapı~
-Bir incir hapı burada bırakılmış.~
+incir hapÄ±~
+incir hapÄ±~
+Bir incir hapÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 26 64 1
 20 33 58 4
 1 4000 50
 #10274
-incir hapı~
-incir hapı~
-Bir incir hapı burada bırakılmış.~
+incir hapÄ±~
+incir hapÄ±~
+Bir incir hapÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 26 64 1
 20 20 59 66
 1 8000 50
 #10275
-hava tüpü~
-hava tüpü~
-Bir hava tüpü burada bırakılmış.~
+hava tÃ¼pÃ¼~
+hava tÃ¼pÃ¼~
+Bir hava tÃ¼pÃ¼ burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 22 0 1|1024
 0 0 0 0
 30 400 50
 #10276
 palet~
-bir çift palet~
-Bir çift palet burada bırakılmış.~
+bir Ã§ift palet~
+Bir Ã§ift palet burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64 1|64
 6 0 0 0
@@ -1327,17 +1327,17 @@ Bir çift palet burada bırakılmış.~
 A
 2 2
 #10277
-dalgıç kaskı~
-dalgıç kaskı~
-Bir dalgıç kaskı burada bırakılmış.~
+dalgÄ±Ã§ kaskÄ±~
+dalgÄ±Ã§ kaskÄ±~
+Bir dalgÄ±Ã§ kaskÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 0 1|16
 5 0 0 0
 2 400 50
 #10278
-dalış kemeri~
-dalış kemeri~
-Bir dalış kemeri burada bırakılmış.~
+dalÄ±ÅŸ kemeri~
+dalÄ±ÅŸ kemeri~
+Bir dalÄ±ÅŸ kemeri burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 0 1|2048
 8 0 0 0
@@ -1345,7 +1345,7 @@ Bir dalış kemeri burada bırakılmış.~
 #10279
 cepli kemer~
 cepli kemer~
-Bir cepli kemer burada bırakılmış.~
+Bir cepli kemer burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 15 0 1|2048
 50 1 0 0
@@ -1353,111 +1353,111 @@ Bir cepli kemer burada bırakılmış.~
 #10280
 cepli fular~
 cepli fular~
-Bir cepli fular burada bırakılmış.~
+Bir cepli fular burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 15 64 1|4
 125 1 0 0
 5 400 50
 #10281
-taşıma yüzük~
-taşıma yüzüğü~
-Bir taşıma yüzüğü burada bırakılmış.~
+taÅŸÄ±ma yÃ¼zÃ¼k~
+taÅŸÄ±ma yÃ¼zÃ¼ÄŸÃ¼~
+Bir taÅŸÄ±ma yÃ¼zÃ¼ÄŸÃ¼ burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 15 64 1|2
 300 1 0 0
 3 400 50
 #10282
-gezgin cüppe~
-gezgin cüppesi~
-Bir gezgin cüppesi burada bırakılmış.~
+gezgin cÃ¼ppe~
+gezgin cÃ¼ppesi~
+Bir gezgin cÃ¼ppesi burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 0 1|1024
 7 0 0 0
 15 400 50
 #10283
-gezgin hançer~
-gezgin hançeri~
-Bir gezgin hançeri burada bırakılmış.~
+gezgin hanÃ§er~
+gezgin hanÃ§eri~
+Bir gezgin hanÃ§eri burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 5 0 1|8192
 0 1 4 11
 10 400 50
 #10284
-gezgin büyü kitap~
-gezgin büyü kitabı~
-Bir gezgin büyü kitabı burada bırakılmış.~
+gezgin bÃ¼yÃ¼ kitap~
+gezgin bÃ¼yÃ¼ kitabÄ±~
+Bir gezgin bÃ¼yÃ¼ kitabÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 4 0 1|16384
 14 5 5 65
 45 400 50
 #10285
 gezgin kutsal sembol~
-gezgin kutsal sembolü~
-Bir gezgin kutsal sembolü burada bırakılmış.~
+gezgin kutsal sembolÃ¼~
+Bir gezgin kutsal sembolÃ¼ burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 4 0 1|16384
 19 5 5 35
 20 400 50
 #10286
 gezgin yelek~
-gezgin yeleği~
-Bir gezgin yeleği burada bırakılmış.~
+gezgin yeleÄŸi~
+Bir gezgin yeleÄŸi burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 0 1|8
 5 0 0 0
 5 0 500
 #10287
 gezgin fular~
-gezgin fuları~
-Bir gezgin fuları burada bırakılmış.~
+gezgin fularÄ±~
+Bir gezgin fularÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 0 5
 5 0 0 0
 5 0 500
 #10288
-gezgin kılıç~
-gezgin kılıcı~
-Bir gezgin kılıcı burada bırakılmış.~
+gezgin kÄ±lÄ±Ã§~
+gezgin kÄ±lÄ±cÄ±~
+Bir gezgin kÄ±lÄ±cÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 5 64 1|8193
 0 3 4 3
 5 0 500
 #10289
-gezgin zırh~
-gezgin zırhı~
-Bir gezgin zırhı burada bırakılmış.~
+gezgin zÄ±rh~
+gezgin zÄ±rhÄ±~
+Bir gezgin zÄ±rhÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 0 1|8
 5 0 0 0
 5 0 500
 #10290
 gezgin kalkan~
-gezgin kalkanı~
-Bir gezgin kalkanı burada bırakılmış.~
+gezgin kalkanÄ±~
+Bir gezgin kalkanÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 0 1|513
 5 0 0 0
 5 0 500
 #10291
-gezgin çekiç~
-gezgin çekici~
-Bir gezgin çekici burada bırakılmış.~
+gezgin Ã§ekiÃ§~
+gezgin Ã§ekici~
+Bir gezgin Ã§ekici burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 5 0 1|8192
 5 0 0 0
 5 0 500
 #10292
-magnus büyü kitabı~
-Magnus'un büyü kitabı~
-Bir büyü kitabı burada bırakılmış.~
+magnus bÃ¼yÃ¼ kitabÄ±~
+Magnus'un bÃ¼yÃ¼ kitabÄ±~
+Bir bÃ¼yÃ¼ kitabÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 4 0 1|16384
 19 5 5 200
 55 400 50
 #10293
-büyücü cüppe~
-büyücü cüppesi~
-Bir cüppe burada bırakılmış.~
+bÃ¼yÃ¼cÃ¼ cÃ¼ppe~
+bÃ¼yÃ¼cÃ¼ cÃ¼ppesi~
+Bir cÃ¼ppe burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 9 64 1|1024
 10 0 0 0
@@ -1467,9 +1467,9 @@ A
 A
 24 -5
 #10294
-kristal zırh~
-kristal zırh~
-Bir kristal zırh burada, yeni bir sahip bekliyor.~
+kristal zÄ±rh~
+kristal zÄ±rh~
+Bir kristal zÄ±rh burada, yeni bir sahip bekliyor.~
 ~
 9 32|64 1|8
 12 0 0 0
@@ -1481,9 +1481,9 @@ A
 A
 13 10
 #10295
-tırpan~
-tırpan~
-Büyük ve sağlam bir tırpan burada unutulmuş.~
+tÄ±rpan~
+tÄ±rpan~
+BÃ¼yÃ¼k ve saÄŸlam bir tÄ±rpan burada unutulmuÅŸ.~
 ~
 9 1|64|512 1|8192
 0 100 100 0
@@ -1497,7 +1497,7 @@ A
 #10296
 kristal kalkan~
 kristal kalkan~
-Bir kristal kalkan burada, kullnılmayı bekliyor.~
+Bir kristal kalkan burada, kullnÄ±lmayÄ± bekliyor.~
 ~
 9 32|64 1|512
 12 0 0 0
@@ -1505,9 +1505,9 @@ Bir kristal kalkan burada, kullnılmayı bekliyor.~
 A
 13 10
 #10297
-kristal uzun kılıç~
-kristal uzun kılıç~
-Bir kristal uzun kılıç burada, alınmayı bekliyor.~
+kristal uzun kÄ±lÄ±Ã§~
+kristal uzun kÄ±lÄ±Ã§~
+Bir kristal uzun kÄ±lÄ±Ã§ burada, alÄ±nmayÄ± bekliyor.~
 ~
 9 32|64 1|8192
 0 5 12 1
@@ -1517,9 +1517,9 @@ A
 A
 18 3
 #10298
-aytaşı zırh~
-aytaşı zırhı~
-Bir aytaşı zırhı burada, giyilmeyi bekliyor.~
+aytaÅŸÄ± zÄ±rh~
+aytaÅŸÄ± zÄ±rhÄ±~
+Bir aytaÅŸÄ± zÄ±rhÄ± burada, giyilmeyi bekliyor.~
 ~
 9 64|1024 1|8
 15 0 0 0
@@ -1529,9 +1529,9 @@ A
 A
 14 20
 #10299
-çelik zırh~
-çelik zırh~
-Çelikten bir zırh burada, giyilmeyi bekliyor.~
+Ã§elik zÄ±rh~
+Ã§elik zÄ±rh~
+Ã‡elikten bir zÄ±rh burada, giyilmeyi bekliyor.~
 ~
 9 64|1024 1|8
 14 0 0 0
@@ -1541,9 +1541,9 @@ A
 A
 14 15
 #10300
-kızıl zırh~
-kızıl zırh~
-Kızıl bir zırh burada, giyilmeyi bekliyor.~
+kÄ±zÄ±l zÄ±rh~
+kÄ±zÄ±l zÄ±rh~
+KÄ±zÄ±l bir zÄ±rh burada, giyilmeyi bekliyor.~
 ~
 9 64|1024 1|8
 12 0 0 0
@@ -1553,9 +1553,9 @@ A
 A
 14 10
 #10301
-büyülü yay~
-büyülü yay~
-Rünlerle işlenmiş büyülü bir yay görüyorsun.~
+bÃ¼yÃ¼lÃ¼ yay~
+bÃ¼yÃ¼lÃ¼ yay~
+RÃ¼nlerle iÅŸlenmiÅŸ bÃ¼yÃ¼lÃ¼ bir yay gÃ¶rÃ¼yorsun.~
 ~
 9 64 1|8192
 9 6 15 0
@@ -1563,74 +1563,74 @@ Rünlerle işlenmiş büyülü bir yay görüyorsun.~
 A
 18 2
 #10302
-para kasası~
-para kasası~
-Duvara yaslanmış sağlam bir para kasası görüyorsun.~
+para kasasÄ±~
+para kasasÄ±~
+Duvara yaslanmÄ±ÅŸ saÄŸlam bir para kasasÄ± gÃ¶rÃ¼yorsun.~
 ~
 15 0 0
 10000 5 0 0
 0 0 0
 E
-sağlam para kasa~
+saÄŸlam para kasa~
 You see a strong metal box used to keep the town deposits in.
 ~
 #10303
-altın sikke~
-altın sikke yığını~
-Büyükçe bir altın yığını görüyorsun.~
-Bu yığında en az 10,000 altın sikke var.
+altÄ±n sikke~
+altÄ±n sikke yÄ±ÄŸÄ±nÄ±~
+BÃ¼yÃ¼kÃ§e bir altÄ±n yÄ±ÄŸÄ±nÄ± gÃ¶rÃ¼yorsun.~
+Bu yÄ±ÄŸÄ±nda en az 10,000 altÄ±n sikke var.
 ~
 20 0 1
 52385 0 0 0
 0 52385 0
 #10304
-çeşme su~
-Çeşme~
-Büyük, mermer bir çeşme görüyorsun.~
+Ã§eÅŸme su~
+Ã‡eÅŸme~
+BÃ¼yÃ¼k, mermer bir Ã§eÅŸme gÃ¶rÃ¼yorsun.~
 ~
 25 0 0
 50 50 0 0
 500 3000 1000
 E
-Çeşme~
+Ã‡eÅŸme~
 It is very nice.  Made from fine white marble.
 ~
 #10305
-kasa anahtarı~
-kasa anahtarı~
-Kasa anahtarı burada bırakılmış.~
+kasa anahtarÄ±~
+kasa anahtarÄ±~
+Kasa anahtarÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 18 0 1
 0 0 0 0
 5 10000 100
 #10306
-solas şehir anahtar~
-Solas Şehir Anahtarı~
-Altından bir anahtar burada bırakılmış.~
+solas ÅŸehir anahtar~
+Solas Åehir AnahtarÄ±~
+AltÄ±ndan bir anahtar burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 18 0 1
 0 0 0 0
 5 10000 100
 #10307
-ateşli yudum içki içecek~
-"Ateşli Yudum" adında bir içki~
-"Ateşli Yudum" adında bir içecek burada, içilmeyi bekliyor.~
+ateÅŸli yudum iÃ§ki iÃ§ecek~
+"AteÅŸli Yudum" adÄ±nda bir iÃ§ki~
+"AteÅŸli Yudum" adÄ±nda bir iÃ§ecek burada, iÃ§ilmeyi bekliyor.~
 ~
 17 0 1
 1 1 7 0
 3 300 100
 #10308
-jello şişe~
-jello şişesi~
-Bir jello şişesi burada bırakılmış.~
+jello ÅŸiÅŸe~
+jello ÅŸiÅŸesi~
+Bir jello ÅŸiÅŸesi burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 17 0 1
 1 1 3 0
 3 300 100
 #10309
-kanlı kafa içecek~
-"Kanlı Kafa" adında bir içki~
-"Kanlı Kafa" adında bir içecek burada, içilmeyi bekliyor.~
+kanlÄ± kafa iÃ§ecek~
+"KanlÄ± Kafa" adÄ±nda bir iÃ§ki~
+"KanlÄ± Kafa" adÄ±nda bir iÃ§ecek burada, iÃ§ilmeyi bekliyor.~
 ~
 17 0 1
 1 1 5 0
@@ -1640,7 +1640,7 @@ kanlı kafa içecek~
 #ROOMS
 
 #10201
-Solas Geçidi~
+Solas GeÃ§idi~
 This is the gateway to the town of Solace. It keeps the monsters out and
 the people in. This is a quiet farming town on the shores of Crytalmir
 Lake.
@@ -1662,7 +1662,7 @@ You see a small alleyway.
 D2
 You see the Gateway of Solace.
 ~
-geçit~
+geÃ§it~
 1 10306 5365
 D3
 You see a small alleyway.
@@ -1670,7 +1670,7 @@ You see a small alleyway.
 ~
 0 -1 10217
 E
-işaret~
+iÅŸaret~
 
 **WELCOME TO SOLACE**
 
@@ -1708,7 +1708,7 @@ You see the main road of Solace.
 D1
 You see Jander's Bar & Restaurant.
 ~
-kapı~
+kapÄ±~
 1 -1 10257
 D2
 You see the town gateway.
@@ -1718,7 +1718,7 @@ You see the town gateway.
 D3
 You see a house.
 ~
-kapı~
+kapÄ±~
 1 -1 10246
 S
 #10203
@@ -1761,7 +1761,7 @@ You see the main road of Solace.
 0 -1 10203
 S
 #10205
-Ana Yolda Kesişim~
+Ana Yolda KesiÅŸim~
 Here there is an intersection at the main road.
 You see to the east and west, smaller houses and some more shops.
 To the road continues to the north.
@@ -1789,7 +1789,7 @@ You see West Gullen Way.
 0 -1 10227
 S
 #10206
-Doğu Gullen Yolu~
+DoÄŸu Gullen Yolu~
 This is the road called East Gullen Way. It is lined with small houses and
 shops.
 ~
@@ -1802,7 +1802,7 @@ You see East Gullen Way.
 D2
 You see a house.
 ~
-kapı~
+kapÄ±~
 1 -1 10251
 D3
 You see the Intersection of Gullen Way and the main road.
@@ -1811,7 +1811,7 @@ You see the Intersection of Gullen Way and the main road.
 0 -1 10205
 S
 #10207
-Doğu Gullen Yolu~
+DoÄŸu Gullen Yolu~
 This is the road called East Gullen Way. It is lined with small houses and
 shops.
 ~
@@ -1833,7 +1833,7 @@ You see East Gullen Way.
 0 -1 10206
 S
 #10208
-Doğu Gullen Yolu~
+DoÄŸu Gullen Yolu~
 This is the road called East Gullen Way. It is lined with small houses and
 shops.
 ~
@@ -1850,7 +1850,7 @@ You see East Gullen Way.
 0 -1 10207
 S
 #10209
-Doğu Gullen Yolu ile Ketra Yolu Kavşağı~
+DoÄŸu Gullen Yolu ile Ketra Yolu KavÅŸaÄŸÄ±~
 This is the Corner of East Gullen Way and Ketra Road.
 Everything is amazingly clean here.
 But this doesn't look like the wealthier part of town.
@@ -1911,7 +1911,7 @@ You see Ketra Road.
 D3
 You see a Storage Building.
 ~
-kapı~
+kapÄ±~
 1 -1 10254
 S
 #10212
@@ -1934,11 +1934,11 @@ You see one of the towns watchtowers.
 D3
 You see Jander's Bar.
 ~
-kapı~
+kapÄ±~
 1 -1 10255
 S
 #10213
-Güney-Doğu Gözcü Kulesi~
+GÃ¼ney-DoÄŸu GÃ¶zcÃ¼ Kulesi~
 This is the Southeast guardpost and guardtower of Solace.
 It is used as a watch station and coffee break area for the town guards.
 There are some stairs in the corner leading up to the watchtower.
@@ -1961,7 +1961,7 @@ You see stairs leading up to the watchtower.
 ~
 0 -1 10260
 E
-işaret~
+iÅŸaret~
 
 ** WARNING **
 
@@ -1997,7 +1997,7 @@ You are walking down a small alleyway along the north wall of the town.
 D0
 You see a poolhall.
 ~
-kapı~
+kapÄ±~
 1 -1 10256
 D1
 You see a small alleyway.
@@ -2050,7 +2050,7 @@ You are walking down a small alleyway along the north wall of the town.
 D0
 You see an old boarded up building.
 ~
-kapı~
+kapÄ±~
 1 -1 10247
 D1
 You see a small alleyway.
@@ -2080,7 +2080,7 @@ You see the Southwest Guardpost.
 0 -1 10220
 S
 #10220
-Güney-Batı Gözcü Kulesi~
+GÃ¼ney-BatÄ± GÃ¶zcÃ¼ Kulesi~
 This is the Southwest guardpost and guardpost of Solace.
 It is used as a watch station and coffee break area for the town guards.
 There are some stairs in the corner leading up to the watchtower.
@@ -2103,7 +2103,7 @@ You see stairs leading up to the watchtower.
 ~
 0 -1 10261
 E
-işaret~
+iÅŸaret~
 
 ** WARNING **
 
@@ -2153,7 +2153,7 @@ You see Harvest Road.
 D1
 You see a house.
 ~
-kapı~
+kapÄ±~
 1 -1 10249
 D2
 You see Harvest Road.
@@ -2180,7 +2180,7 @@ You see Harvest Road.
 0 -1 10222
 S
 #10224
-Hasat Yolu ile Batı Gullen Yolu Kavşağı~
+Hasat Yolu ile BatÄ± Gullen Yolu KavÅŸaÄŸÄ±~
 This is the corner of West Gullen and Harvest road.
 To the south you can smell baked goods and other food.
 To the east are various small shops and houses.
@@ -2198,7 +2198,7 @@ You see Harvest Road.
 0 -1 10223
 S
 #10225
-Batı Gullen Yolu~
+BatÄ± Gullen Yolu~
 This is the road called West Gullen Way. It is lined with small houses and
 shops.
 ~
@@ -2220,7 +2220,7 @@ You see the corner of West Gullen and Harvest.
 0 -1 10224
 S
 #10226
-Batı Gullen Yolu~
+BatÄ± Gullen Yolu~
 This is the road called West Gullen Way. It is lined with small houses and
 shops.
 ~
@@ -2233,7 +2233,7 @@ You see West Gullen Way.
 D2
 You see a house
 ~
-kapı~
+kapÄ±~
 1 -1 10243
 D3
 You see West Gullen Way.
@@ -2242,7 +2242,7 @@ You see West Gullen Way.
 0 -1 10225
 S
 #10227
-Batı Gullen Yolu~
+BatÄ± Gullen Yolu~
 This is the road called West Gullen Way. It is lined with small houses and
 shops.
 ~
@@ -2255,7 +2255,7 @@ You see the intersection of West Gullen and the main road.
 D2
 You see a house.
 ~
-kapı~
+kapÄ±~
 1 -1 10244
 D3
 You see West Gullen Way.
@@ -2311,7 +2311,7 @@ You see the Marketplace.
 0 -1 10230
 S
 #10230
-Market Meydanı~
+Market MeydanÄ±~
 This is the Marketplace of Solace. Where the farmers come to sell their
 crops. The smell of vegetables and fruit fill the air. There are a couple
 other vendors selling trinkets and other items.
@@ -2339,7 +2339,7 @@ You see the Marketplace.
 ~
 0 -1 10231
 E
-işaret~
+iÅŸaret~
 
 **NOTICE**
 
@@ -2351,7 +2351,7 @@ Any sort of shady actions will be punishable by death.
 ~
 S
 #10231
-Market Meydanı~
+Market MeydanÄ±~
 This is the Marketplace of Solace. Where the farmers come to sell their
 crops. The smell of vegetables and fruit fill the air. There are a couple
 other vendors selling trinkets and other items.
@@ -2379,7 +2379,7 @@ You see the Marketplace.
 0 -1 10232
 S
 #10232
-Market Meydanı~
+Market MeydanÄ±~
 This is the Marketplace of Solace. Where the farmers come to sell their
 crops. The smell of vegetables and fruit fill the air. There are a couple
 other vendors selling trinkets and other items.
@@ -2407,7 +2407,7 @@ You see the Marketplace.
 0 -1 10233
 S
 #10233
-Market Meydanı~
+Market MeydanÄ±~
 This is the Marketplace of Solace. Where the farmers come to sell their
 crops. The smell of vegetables and fruit fill the air. There are a couple
 other vendors selling trinkets and other items.
@@ -2432,7 +2432,7 @@ You see Jen's Vegtable Cart.
 0 -1 10234
 S
 #10234
-Jen'in Sebze Tezgahı~
+Jen'in Sebze TezgahÄ±~
 This is where Jen the farmer comes to sell his crops. His wooden vegtable
 cart stands here filled with all sorts of vegetables. All his vegtables are
 unusually large. What kind of plant food does he use anyway...?
@@ -2445,7 +2445,7 @@ You see the marketplace.
 ~
 0 -1 10233
 E
-işaret~
+iÅŸaret~
 The sign reads:
 
   List  - Show which various items are in the store.
@@ -2456,7 +2456,7 @@ The sign reads:
 ~
 S
 #10235
-Krista'nın Meyve Tezgahı~
+Krista'nÄ±n Meyve TezgahÄ±~
 This is where Krista peddles her fruits. Every year she travels from her
 orchards in the mountains to Solace to sell her fruit. Everything seems
 to have an unusually small size. I wonder if she shrinks heads too...
@@ -2469,7 +2469,7 @@ You see the marketplace.
 ~
 0 -1 10232
 E
-işaret~
+iÅŸaret~
 The sign reads:
 
   List  - Show which various items are in the store.
@@ -2493,7 +2493,7 @@ You see the marketplace.
 ~
 0 -1 10231
 E
-işaret~
+iÅŸaret~
 The sign reads:
 
   List  - Show which various items are in the store.
@@ -2504,7 +2504,7 @@ The sign reads:
 ~
 S
 #10237
-Nisi'nin Donmuş Yiyecekleri~
+Nisi'nin DonmuÅŸ Yiyecekleri~
 This is one of the oddest venders in the marketplace. Nisi claims to have
 various fresh frozen types of vegetables. They are frozen all right. In
 fact they are hard enough to stop an axe swing...go figure..
@@ -2518,7 +2518,7 @@ You see the marketplace.
 ~
 0 -1 10230
 E
-işaret~
+iÅŸaret~
 The sign reads:
 
   List  - Show which various items are in the store.
@@ -2542,7 +2542,7 @@ You see the marketplace.
 ~
 0 -1 10233
 E
-işaret~
+iÅŸaret~
 The sign reads:
 
   List  - Show which various items are in the store.
@@ -2553,7 +2553,7 @@ The sign reads:
 ~
 S
 #10239
-Rashan'ın İçecekleri~
+Rashan'Ä±n Ä°Ã§ecekleri~
 This is one shop to stay away from. Rashan's rutabagas have been know
 to do strange things to people. And true to its reputation the shop is
 very very empty. I'm sure Rashan would be more than willing to sell
@@ -2567,7 +2567,7 @@ You see the marketplace.
 ~
 0 -1 10232
 E
-işaret~
+iÅŸaret~
 The sign reads:
 
   List  - Show which various items are in the store.
@@ -2578,7 +2578,7 @@ The sign reads:
 ~
 S
 #10240
-Leksi'nin Dalış Malzemeleri~
+Leksi'nin DalÄ±ÅŸ Malzemeleri~
 This is one shop that seems to be ahead of its time.
 But who doesn't like scuba diving. If you don't already have
 a diving license you can buy one. Lexie can also train you too. Not  in
@@ -2595,7 +2595,7 @@ You see the marketplace.
 ~
 0 -1 10231
 E
-işaret~
+iÅŸaret~
 The sign reads:
 
   List  - Show which various items are in the store.
@@ -2606,7 +2606,7 @@ The sign reads:
 ~
 S
 #10241
-Kroben'in Taşıyıcıları~
+Kroben'in TaÅŸÄ±yÄ±cÄ±larÄ±~
 This is the catch all, hold all, container shop. Croben sell all sorts.
 Just take your pick. And no he doesn't know how much each one holds.
 What...you think he has nothing better to do than fill each container
@@ -2620,7 +2620,7 @@ You see the marketplace.
 ~
 0 -1 10230
 E
-işaret~
+iÅŸaret~
 The sign reads:
 
   List  - Show which various items are in the store.
@@ -2631,7 +2631,7 @@ The sign reads:
 ~
 S
 #10242
-Biracı Matt~
+BiracÄ± Matt~
 Matt could never find enough to drink. So to solve this he started his own
 brewery. "You can never drink enough" is Matt's logo and offers plenty
 to drink.
@@ -2644,7 +2644,7 @@ You see West Gullen Way.
 ~
 0 -1 10225
 E
-işaret~
+iÅŸaret~
 The sign reads:
 
   List  - Show which various items are in the store.
@@ -2663,7 +2663,7 @@ were not invited. Why are you here?
 D0
 You see West Gullen Way.
 ~
-kapı~
+kapÄ±~
 1 -1 10226
 S
 #10244
@@ -2676,11 +2676,11 @@ flowers is present. Ahhh....what a nice home.
 D0
 You see West Gullen Way.
 ~
-kapı~
+kapÄ±~
 1 -1 10227
 S
 #10245
-Aşçı'nın Yeri~
+AÅŸÃ§Ä±'nÄ±n Yeri~
 This is the cookie shop of who else...Cookie. She's not in right now
 but there are many delicious cookies to munch on if you want to wait till
 she returns.
@@ -2694,7 +2694,7 @@ You see the Main road of Solace.
 D3
 You see a door.
 ~
-kapı~
+kapÄ±~
 1 -1 10250
 S
 #10246
@@ -2707,7 +2707,7 @@ flowers is present. Ahhh....what a nice home.
 D1
 You see the Main road of Solace.
 ~
-kapı~
+kapÄ±~
 1 -1 10202
 S
 #10247
@@ -2720,11 +2720,11 @@ It has been closed for many years. It is dusty and full of cobwebs.
 D2
 You see a small alleyway.
 ~
-kapı~
+kapÄ±~
 1 -1 10218
 S
 #10248
-Fırın~
+FÄ±rÄ±n~
    You are standing inside the small bakery.  A sweet scent of McDanish
 and fine McBread fills the room.  The McBread and McDanish are arranged
 in fine order on the McShelves, and seem to be of the finest McQuality. You
@@ -2738,7 +2738,7 @@ You see Harvest road.
 ~
 0 -1 10221
 E
-işaret~
+iÅŸaret~
 Free instructions provided by the store:
 
    Buy  - Will buy you some McBread or McPastry.
@@ -2756,11 +2756,11 @@ flowers is present. Ahhh....what a nice home.
 D3
 You see Harvest road.
 ~
-kapı~
+kapÄ±~
 1 -1 10222
 S
 #10250
-Aşçının Dinlenme Odası~
+AÅŸÃ§Ä±nÄ±n Dinlenme OdasÄ±~
 This is where Cookie comes to unwind. She comes here sometimes to just
 munch on cookies and talk to her friends.
 ~
@@ -2768,7 +2768,7 @@ munch on cookies and talk to her friends.
 D1
 You see the front of the store.
 ~
-kapı~
+kapÄ±~
 1 -1 10245
 S
 #10251
@@ -2780,11 +2780,11 @@ were not invited. Why are you here?
 D0
 You see East Gullen Way.
 ~
-kapı~
+kapÄ±~
 1 -1 10206
 S
 #10252
-Maril'in Kuşları~
+Maril'in KuÅŸlarÄ±~
    This is Maril's Bird Factory. There are a wide variety of birds here.
 Buy a pet. Take it home. A loving companion to keep you company.
 ~
@@ -2796,14 +2796,14 @@ You see East Gullen Way.
 0 -1 10207
 S
 #10253
-Evcil Hayvan Dükkanı~
+Evcil Hayvan DÃ¼kkanÄ±~
    This is where Maril keeps her birds. It is important that this room be
 right after the bird factory.
 ~
 102 8 1
 S
 #10254
-Depo Binası~
+Depo BinasÄ±~
    This is an abandon storage building. Its empty walls used to house large
 amounts of surplus equipment for the market and various vendors. Sales
 have been good lately and all surplus has been sold. It seems supply has
@@ -2813,7 +2813,7 @@ yet to catch up to demand.
 D1
 You see Ketra Road.
 ~
-kapı~
+kapÄ±~
 1 -1 10211
 S
 #10255
@@ -2829,7 +2829,7 @@ There is a door to Ketra Road to the east.
 D1
 You see Ketra Road.
 ~
-kapı~
+kapÄ±~
 1 -1 10212
 D3
 You see the poolhall.
@@ -2837,7 +2837,7 @@ You see the poolhall.
 ~
 0 -1 10256
 E
-işaret~
+iÅŸaret~
 Welcome to Jander's!
 
 Drink and be Merry!!!!
@@ -2848,7 +2848,7 @@ But Remember don't Marry after you drink....
 ~
 S
 #10256
-Jander'in Barı~
+Jander'in BarÄ±~
    Jander's bar used to be a very popular bar in Solace. For some reason or
 another it is now empty. Dust and cobwebs cover everything. It looks as if
 nobody has tread here in years. The bar is to the east. The pooltables are
@@ -2860,7 +2860,7 @@ A backdoor to the alley is to the south.
 D0
 You see Jander's office door.
 ~
-office kapı~
+office kapÄ±~
 1 -1 10259
 D1
 You see the bar.
@@ -2870,7 +2870,7 @@ You see the bar.
 D2
 You see a backdoor to the alley.
 ~
-door backkapı~
+door backkapÄ±~
 1 -1 10215
 D3
 You see the restaurant.
@@ -2878,7 +2878,7 @@ You see the restaurant.
 ~
 0 -1 10257
 E
-işaret~
+iÅŸaret~
 *Jander's Office*
 
 Read this sign!
@@ -2905,11 +2905,11 @@ You see the poolhall.
 D3
 You see the main road of Solace.
 ~
-kapı~
+kapÄ±~
 1 -1 10202
 S
 #10258
-Ölüm Odaları~
+Ã–lÃ¼m OdalarÄ±~
    This is the Chamber of Death. If you are lucky, he isn't here right now.
 The walls are covered with twisted faces of a countless tortured
 souls crying out in agony. The floor is made of black marble as is the
@@ -2919,7 +2919,7 @@ There is a sign floating in front of you.
 ~
 102 8 1
 E
-işaret~
+iÅŸaret~
 
 Please sit and wait.
 
@@ -2947,7 +2947,7 @@ door ~
 1 -1 10256
 S
 #10260
-Güney-Doğu Gözcü Kulesi İçinde~
+GÃ¼ney-DoÄŸu GÃ¶zcÃ¼ Kulesi Ä°Ã§inde~
 You are inside the Southeast Watchtower.
 From up here you can see above the trees and most of the valley.
 There is a beautiful view of Crystalmir lake.
@@ -2963,7 +2963,7 @@ You see stairs leading down to the guardpost.
 0 -1 10213
 S
 #10261
-Güney-Batı Gözcü Kulesi İçinde~
+GÃ¼ney-BatÄ± GÃ¶zcÃ¼ Kulesi Ä°Ã§inde~
 You are inside the Southwest Watchtower.
 From up here you can see above the trees and most of the valley.
 There is a beautiful view of Crystalmir lake.
@@ -2995,7 +2995,7 @@ You see the end of Main road.
 0 -1 10229
 S
 #10263
-Muhafız Yönetim Binası~
+MuhafÄ±z YÃ¶netim BinasÄ±~
 Before you stands the Townguard Administration Building. This is a large
 building with various statues and other artwork decorating the building.
 There is a door the east.
@@ -3004,7 +3004,7 @@ There is a door the east.
 D1
 You see entrance hall.
 ~
-kapı~
+kapÄ±~
 1 -1 10264
 D3
 You see a dusty road.
@@ -3013,7 +3013,7 @@ You see a dusty road.
 0 -1 10262
 S
 #10264
-Giriş Salonu~
+GiriÅŸ Salonu~
 The entrance hall is made entirely of marble and granite. It seems sort of
 extravagant for a townguard administration building. The 30 foot high
 ceiling seems to dwarf everything in the hallway. The Seal of the Town
@@ -3025,7 +3025,7 @@ The entrance door is to the west.
 D1
 You see a pair of heavy double doors.
 ~
-kapılar~
+kapÄ±lar~
 1 -1 10270
 D2
 You see a marble corridor.
@@ -3035,7 +3035,7 @@ You see a marble corridor.
 D3
 You see the entrance to the building.
 ~
-kapı~
+kapÄ±~
 1 -1 10263
 S
 #10265
@@ -3058,11 +3058,11 @@ You see marble corridor.
 D3
 You see the door to the Town Clerk's Office.
 ~
-kapı officekapı~
+kapÄ± officekapÄ±~
 1 -1 10266
 S
 #10266
-Şehir Katibi~
+Åehir Katibi~
 This is where you pay your fines and taxes.
 The Town Clerk's desk sits in front of you. There are chairs and a
 few tables along the walls. There is a metal door on the west wall
@@ -3083,7 +3083,7 @@ safe~
 1 10305 10267
 S
 #10267
-Mevduat Odası~
+Mevduat OdasÄ±~
 This is a large safe like room. All payments for taxes and fines are deposited
 here by the clerk. The walls are made of white marble and have gold deposit
 boxes set into them.
@@ -3106,7 +3106,7 @@ A pair of heavy double doors lie to the north.
 D0
 You see a pair of heavy double doors.
 ~
-kapılar~
+kapÄ±lar~
 1 -1 10270
 D1
 You see a fountain.
@@ -3120,7 +3120,7 @@ You see a marble corridor.
 0 -1 10265
 S
 #10269
-Çeşme~
+Ã‡eÅŸme~
 There is a very large water fountain here. Large marble lion heads spout
 water from their mouths and stone fish spit water from the base of the
 fountain.
@@ -3133,7 +3133,7 @@ You see marble corridor.
 0 -1 10268
 S
 #10270
-Koridor Kesişimi~
+Koridor KesiÅŸimi~
 This is the intersection of four large hallways. Light streams in from the
 stainglass skylight above. Large double doors close off each hallway.
 The doors are made of oak and encrusted with gold patterns.
@@ -3143,22 +3143,22 @@ A pair of double doors are in each direction.
 D0
 You see a pair of double doors.
 ~
-kapılar~
+kapÄ±lar~
 1 -1 10276
 D1
 You see a pair of double doors.
 ~
-kapılar~
+kapÄ±lar~
 1 -1 10271
 D2
 You see a pair of double doors.
 ~
-kapılar~
+kapÄ±lar~
 1 -1 10268
 D3
 You see a pair of double doors.
 ~
-kapılar~
+kapÄ±lar~
 1 -1 10264
 S
 #10271
@@ -3176,11 +3176,11 @@ You see a long hallway.
 D3
 You see a pair of double doors.
 ~
-kapılar~
+kapÄ±lar~
 1 -1 10270
 S
 #10272
-Arnavut Kaldırımı~
+Arnavut KaldÄ±rÄ±mÄ±~
 You are walking on a cobblestone path. It leads to a large building to the
 north.
 ~
@@ -3197,7 +3197,7 @@ You see the end of Main road.
 0 -1 10229
 S
 #10273
-Çavuş'un Bekleme Odası~
+Ã‡avuÅŸ'un Bekleme OdasÄ±~
 This room is decorated with various swords and other ornamental artifacts
 of combat. Pictures of bloody battles adorn the walls. If you have an
 appointment to see the Sergeant at Arms this is where you'd come to wait.
@@ -3209,16 +3209,16 @@ The door to the hallway is on the east wall.
 D0
 You see an Iron bound door.
 ~
-kapı~
+kapÄ±~
 1 -1 10283
 D1
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
-kapı~
+kapÄ±~
 1 -1 10274
 S
 #10274
-Yönetim Koridoru~
+YÃ¶netim Koridoru~
 The hallway is just as extravagant as all the others in this building.
 Gem mosaics cover the walls, and intricate patterns are carved in the
 gold laden floors. This doesn't look like an admistration building,
@@ -3227,23 +3227,23 @@ The Sergeant's waiting room is to the west.
 ~
 102 8 1
 D0
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10284
 D1
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10275
 D3
 You see a reception area.
 ~
-kapı~
+kapÄ±~
 1 -1 10273
 S
 #10275
-Yönetim Koridoru~
+YÃ¶netim Koridoru~
 The hallway is just as extravagant as all the others in this building.
 Gem mosaics cover the walls, and intricate patterns are carved in the
 gold laden floors. This doesn't look like an admistration building,
@@ -3254,21 +3254,21 @@ There is an oak door to the north.
 D0
 You see an oak door.
 ~
-meşe kapı~
+meÅŸe kapÄ±~
 1 -1 10285
 D1
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10276
 D3
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10274
 S
 #10276
-Yönetim Koridoru~
+YÃ¶netim Koridoru~
 The hallway is just as extravagant as all the others in this building.
 Gem mosaics cover the walls, and intricate patterns are carved in the
 gold laden floors. This doesn't look like an admistration building,
@@ -3277,17 +3277,17 @@ A pair of double doors are south of you.
 ~
 102 8 1
 D0
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10286
 D2
 You see double doors.
 ~
-kapılar~
+kapÄ±lar~
 1 -1 10270
 D3
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10275
@@ -3312,7 +3312,7 @@ You see the end of the hallway.
 0 -1 10271
 S
 #10278
-Umumi Salonun Batı Sonu~
+Umumi Salonun BatÄ± Sonu~
 You are standing in the West end of a very large room. It is where
 adventurers rest their weary feet if they don't have enough gold to
 pay for a private room. The room continues to the East.
@@ -3325,7 +3325,7 @@ You see more of a very large room.
 0 -1 10279
 S
 #10279
-Umumi Salonun Doğu Sonu~
+Umumi Salonun DoÄŸu Sonu~
 You are standing in the East end of a very large room. It is where
 adventurers rest their weary feet if they don't have enough gold to
 pay for a private room. The room continues to the west.
@@ -3335,7 +3335,7 @@ A door to the hallway is to the north.
 D0
 You see a large hallway.
 ~
-kapı~
+kapÄ±~
 1 -1 10289
 D3
 You see more of a very large room.
@@ -3344,7 +3344,7 @@ You see more of a very large room.
 0 -1 10278
 S
 #10280
-Barın Batı Sonu~
+BarÄ±n BatÄ± Sonu~
 You are standing of the west end of the bar. This is a darker corner where
 less seems to occur. Maybe a beer and a nap would be nice.
 ~
@@ -3356,7 +3356,7 @@ You see main bar.
 0 -1 10281
 S
 #10281
-"Son Ev" Hanı~
+"Son Ev" HanÄ±~
 The Inn of the Last Home never changes. The polished wooden bar curves
 around several living branches. An old man weaves stories in the corner and
 delights the crowd gathered about him. The delicate windows of stained
@@ -3372,7 +3372,7 @@ You see north end of the bar.
 D1
 You see a carved door.
 ~
-kapı~
+kapÄ±~
 1 -1 10282
 D3
 You see the west end of the bar.
@@ -3386,7 +3386,7 @@ You see a wooden staircase.
 0 -1 10290
 S
 #10282
-"Son Ev" Hanının Dışı~
+"Son Ev" HanÄ±nÄ±n DÄ±ÅŸÄ±~
 The Inn of the Last Home rests within the trunk of a huge vallenwood tree.
 Warm laughter tumbles from the inn. The worn steps wind around the heavy
 trunk up to the familiar, carved door.
@@ -3405,11 +3405,11 @@ You see a cobblestone path.
 D3
 You see a carved door.
 ~
-kapı~
+kapÄ±~
 1 -1 10281
 S
 #10283
-Çavuş'un Ofisi~
+Ã‡avuÅŸ'un Ofisi~
 This is the office of the Sergeant at Arms. He is in charge of all minor
 complaints. His office is richly decorated with ornamental weapons and
 pictures of war. A large desk sits in the middle of the room.
@@ -3419,11 +3419,11 @@ You see an Iron bound door to the south.
 D2
 You see an Iron bound door.
 ~
-kapı~
+kapÄ±~
 1 -1 10273
 S
 #10284
-Yönetim Koridoru~
+YÃ¶netim Koridoru~
 The hallway is just as extravagant as all the others in this building.
 Gem mosaics cover the walls, and intricate patterns are carved in the
 gold laden floors. This doesn't look like an admistration building,
@@ -3431,18 +3431,18 @@ more like a palace.
 ~
 102 8 1
 D0
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10294
 D2
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10274
 S
 #10285
-Muhafız Odası~
+MuhafÄ±z OdasÄ±~
 There are many barrels and chests of food in here. All of it looks spoiled.
 This is where the town guards hang out when not on duty.
 You see an oak door to the south.
@@ -3451,11 +3451,11 @@ You see an oak door to the south.
 D2
 You see an oak door.
 ~
-kapı~
+kapÄ±~
 1 -1 10275
 S
 #10286
-Yönetim Koridoru~
+YÃ¶netim Koridoru~
 The hallway is just as extravagant as all the others in this building.
 Gem mosaics cover the walls, and intricate patterns are carved in the
 gold laden floors. This doesn't look like an admistration building,
@@ -3463,12 +3463,12 @@ more like a palace.
 ~
 102 8 1
 D0
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10296
 D2
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10276
@@ -3498,47 +3498,47 @@ You are standing in an old vallenwood hallway.
 ~
 102 8 1
 D0
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10298
 D1
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10289
 S
 #10289
-Umumi Salonun Dışı~
+Umumi Salonun DÄ±ÅŸÄ±~
 You are standing in an old vallenwood hallway. Laughter and the murmur
 of conversation comes from the south.
 The door to the common room lies to the south.
 ~
 102 8 1
 D1
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10290
 D2
 You see the common room.
 ~
-kapı~
+kapÄ±~
 1 -1 10279
 D3
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10288
 S
 #10290
-Hanın İkinci Katı~
+HanÄ±n Ä°kinci KatÄ±~
 You are at the top of a wooden staircase. Downstairs is the bar.
 To the west you can hear laughter and the low murmur of voices.
 ~
 102 8 1
 D3
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10289
@@ -3549,7 +3549,7 @@ You see a wooden staircase.
 0 -1 10281
 S
 #10291
-Barın Kuzey Sonu~
+BarÄ±n Kuzey Sonu~
 A smoky fire struggles in the blackened stove, feebly challenging
 the gloom in the town. In sharp contrast to the usual lively crowd,
 the few patrons present are lost in their own thoughts. No one
@@ -3564,7 +3564,7 @@ You see main bar.
 0 -1 10281
 S
 #10292
-Yüzbaşı'nın Ofisi~
+YÃ¼zbaÅŸÄ±'nÄ±n Ofisi~
 This is the office of the Captain of the Guard. Leather couches
 and a solid marble desk sit against the far wall. A weapons
 cabinet stands against the west wall. The Captain has a large
@@ -3576,7 +3576,7 @@ is on the north wall.
 D0
 You see a set of Heavy Metal Doors with the emblem of the townguard.
 ~
-kapılar~
+kapÄ±lar~
 1 -1 10302
 D2
 A wall.
@@ -3585,7 +3585,7 @@ duvar~
 0 -1 10282
 S
 #10293
-Yönetim Koridoru~
+YÃ¶netim Koridoru~
 The hallway is just as extravagant as all the others in this building.
 Gem mosaics cover the walls, and intricate patterns are carved in the
 gold laden floors. This doesn't look like an admistration building,
@@ -3593,18 +3593,18 @@ more like a palace.
 ~
 102 8 1
 D0
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10303
 D1
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10294
 S
 #10294
-Yönetim Koridoru~
+YÃ¶netim Koridoru~
 The hallway is just as extravagant as all the others in this building.
 Gem mosaics cover the walls, and intricate patterns are carved in the
 gold laden floors. This doesn't look like an admistration building,
@@ -3617,18 +3617,18 @@ You see a reception area.
 ~
 0 -1 10295
 D2
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10284
 D3
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10293
 S
 #10295
-Teğmen'in Bekleme Odası~
+TeÄŸmen'in Bekleme OdasÄ±~
 This is the waiting room for meetings with the Lieutenant Commander.
 The furniture is made of vallenwood and the walls are covered with
 finger paintings. Various crayon drawings are framed behind the
@@ -3639,16 +3639,16 @@ A glass door with the townguard emblem is to the north.
 D0
 You see a glass door with the townguard emblem.
 ~
-kapı~
+kapÄ±~
 1 -1 10305
 D3
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10294
 S
 #10296
-Yönetim Koridoru~
+YÃ¶netim Koridoru~
 The hallway is just as extravagant as all the others in this building.
 Gem mosaics cover the walls, and intricate patterns are carved in the
 gold laden floors. This doesn't look like an admistration building,
@@ -3656,12 +3656,12 @@ more like a palace.
 ~
 102 8 1
 D0
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10306
 D2
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10286
@@ -3675,12 +3675,12 @@ the only hallway that doesn't have large amounts of gold and other artifacts.
 ~
 102 8 1
 D0
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10307
 D2
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10287
@@ -3696,13 +3696,13 @@ You see reading room.
 ~
 0 -1 10308
 D2
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10288
 S
 #10299
-Özel Oda~
+Ã–zel Oda~
 This is a private room. Those with some money can rent these rooms instead
 of staying in the common room. It is well furnished with a large bed and
 other bedroom stuff.
@@ -3712,11 +3712,11 @@ There is a door to the north.
 D0
 You see a door.
 ~
-kapı~
+kapÄ±~
 1 -1 10309
 S
 #10300
-Özel Oda~
+Ã–zel Oda~
 This is a private room. Those with some money can rent these rooms instead
 of staying in the common room. It is well furnished with a large bed and
 other bedroom stuff.
@@ -3726,11 +3726,11 @@ There is a door to the north.
 D0
 You see a door.
 ~
-kapı~
+kapÄ±~
 1 -1 10310
 S
 #10301
-Özel Oda~
+Ã–zel Oda~
 This is a private room. Those with some money can rent these rooms instead
 of staying in the common room. It is well furnished with a large bed and
 other bedroom stuff.
@@ -3740,11 +3740,11 @@ There is a door to the north.
 D0
 You see a door.
 ~
-kapı~
+kapÄ±~
 1 -1 10311
 S
 #10302
-Yüzbaşı'nın Görüşme Odası~
+YÃ¼zbaÅŸÄ±'nÄ±n GÃ¶rÃ¼ÅŸme OdasÄ±~
 You are standing in the meeting room of the Captain of the Guard. This
 is where he holds his administrative meetings and other official functions.
 A large meeting tables sits in the middle of the room.
@@ -3756,16 +3756,16 @@ townguard to the south.
 D0
 You see Glass Double Doors.
 ~
-kapılar~
+kapÄ±lar~
 1 -1 10312
 D2
 You see a set of Heavy Metal Doors with the emblem of the townguard.
 ~
-kapılar~
+kapÄ±lar~
 1 -1 10292
 S
 #10303
-Yönetim Koridoru~
+YÃ¶netim Koridoru~
 The hallway is just as extravagant as all the others in this building.
 Gem mosaics cover the walls, and intricate patterns are carved in the
 gold laden floors. This doesn't look like an admistration building,
@@ -3773,18 +3773,18 @@ more like a palace.
 ~
 102 8 1
 D0
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10313
 D2
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10293
 S
 #10304
-Muhafız Odası~
+MuhafÄ±z OdasÄ±~
 There are many barrels and chests of food in here. All of it looks spoiled.
 This is where the town guards hang out when not on duty.
 There is an oak door to the north.
@@ -3793,11 +3793,11 @@ There is an oak door to the north.
 D0
 You see a oak door.
 ~
-kapı~
+kapÄ±~
 1 -1 10314
 S
 #10305
-Teğmen'in Ofisi~
+TeÄŸmen'in Ofisi~
 This is the Office of the Lieutenant Commander. He basicially does
 nothing all day. Hence the fingerpainting tacked to all the walls.
 The furniture is more fitting to a 7 year old than that of a commander.
@@ -3808,11 +3808,11 @@ You see a glass door with the townguard emblem to the south.
 D2
 You see a glass door.
 ~
-kapı~
+kapÄ±~
 1 -1 10295
 S
 #10306
-Yönetim Koridoru~
+YÃ¶netim Koridoru~
 The hallway is just as extravagant as all the others in this building.
 Gem mosaics cover the walls, and intricate patterns are carved in the
 gold laden floors. This doesn't look like an admistration building,
@@ -3820,12 +3820,12 @@ more like a palace.
 ~
 102 8 1
 D0
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10316
 D2
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10296
@@ -3844,13 +3844,13 @@ You see the end of a long hallway.
 ~
 0 -1 10317
 D2
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10297
 S
 #10308
-Okuma Odası~
+Okuma OdasÄ±~
 This is an afternoon reading room. Its especially nice on sunny days when
 the afternoon sun shines through the large picture window. Many books
 line the walls. All look pretty boring and seem to be more for show than
@@ -3858,12 +3858,12 @@ for reading.
 ~
 102 8 1
 D1
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10309
 D2
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10298
@@ -3876,14 +3876,14 @@ There is a door to the south.
 ~
 102 8 1
 D1
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10310
 D2
 You see a door.
 ~
-kapı~
+kapÄ±~
 1 -1 10299
 D3
 You see a reading room.
@@ -3899,17 +3899,17 @@ There is a door to the south.
 ~
 102 8 1
 D1
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10311
 D2
 You see a door.
 ~
-kapı~
+kapÄ±~
 1 -1 10300
 D3
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10309
@@ -3924,16 +3924,16 @@ There is a door to the south.
 D2
 You see a door.
 ~
-kapı~
+kapÄ±~
 1 -1 10301
 D3
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10310
 S
 #10312
-Yüzbaşı'nın Bekleme Odası~
+YÃ¼zbaÅŸÄ±'nÄ±n Bekleme OdasÄ±~
 This is the Reception area for the the Captain of the Guard. A large portrait
 of the Captain is on the north wall. With the amount of extravagance and
 expensive items that decorate this room you wonder how he gets away with
@@ -3945,16 +3945,16 @@ There are a pair of glass double doors to the south.
 D1
 You see a oak door.
 ~
-kapı~
+kapÄ±~
 1 -1 10313
 D2
 You see Glass Double Doors.
 ~
-kapılar~
+kapÄ±lar~
 1 -1 10302
 S
 #10313
-Yönetim Koridoru~
+YÃ¶netim Koridoru~
 The hallway is just as extravagant as all the others in this building.
 Gem mosaics cover the walls, and intricate patterns are carved in the
 gold laden floors. This doesn't look like an admistration building,
@@ -3963,23 +3963,23 @@ The Captain of the Guard's waiting room is to the west.
 ~
 102 8 1
 D1
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10314
 D2
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10303
 D3
 You see Captain's waiting room door.
 ~
-kapı~
+kapÄ±~
 1 -1 10312
 S
 #10314
-Yönetim Koridoru~
+YÃ¶netim Koridoru~
 The hallway is just as extravagant as all the others in this building.
 Gem mosaics cover the walls, and intricate patterns are carved in the
 gold laden floors. This doesn't look like an admistration building,
@@ -3988,23 +3988,23 @@ There is an oak door to the south.
 ~
 102 8 1
 D1
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10315
 D2
 You see a oak door.
 ~
-kapı~
+kapÄ±~
 1 -1 10304
 D3
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10313
 S
 #10315
-Yönetim Koridoru~
+YÃ¶netim Koridoru~
 The hallway is just as extravagant as all the others in this building.
 Gem mosaics cover the walls, and intricate patterns are carved in the
 gold laden floors. This doesn't look like an admistration building,
@@ -4012,18 +4012,18 @@ more like a palace.
 ~
 102 8 1
 D1
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10316
 D3
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10314
 S
 #10316
-Yönetim Koridoru~
+YÃ¶netim Koridoru~
 The hallway is just as extravagant as all the others in this building.
 Gem mosaics cover the walls, and intricate patterns are carved in the
 gold laden floors. This doesn't look like an admistration building,
@@ -4036,12 +4036,12 @@ You see the end of a long hallway.
 ~
 0 -1 10317
 D2
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10306
 D3
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10315
@@ -4053,12 +4053,12 @@ statues line the walls. The ceilings are covered with colorful mosaics.
 ~
 102 8 1
 D2
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10307
 D3
-Bir koridor görüyorsun.
+Bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 10316

@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -14,115 +14,115 @@
 
 const struct pers_suffix_type pers_suffix_table[] =
 {
-	{(char*)"sS"	,(char*)"birisinin"	,(char*)"bir ölümsüzün"	,(char*)"n"	,(char*)"ýn",(char*)"in",(char*)"un",(char*)"ün"	},
-	{(char*)"mM"	,(char*)"birisini"	,(char*)"bir ölümsüzü"	,(char*)"y"	,(char*)"ý"	,(char*)"i"	,(char*)"u"	,(char*)"ü"	},
-	{(char*)"eE"	,(char*)"birisine"	,(char*)"bir ölümsüze"	,(char*)"y"	,(char*)"a"	,(char*)"e"	,(char*)"a"	,(char*)"e"	},
-	{(char*)"yY"	,(char*)"birisinde"	,(char*)"bir ölümsüzde"	,(char*)"d"	,(char*)"a"	,(char*)"e"	,(char*)"a"	,(char*)"e"	},
-	{(char*)"zZ"	,(char*)"birisinden",(char*)"bir ölümsüzden",(char*)"d"	,(char*)"an",(char*)"en",(char*)"an",(char*)"en"	},
+	{(wchar_t*)"sS"	,(wchar_t*)"birisinin"	,(wchar_t*)"bir Ã¶lÃ¼msÃ¼zÃ¼n"	,(wchar_t*)"n"	,(wchar_t*)"Ä±n",(wchar_t*)"in",(wchar_t*)"un",(wchar_t*)"Ã¼n"	},
+	{(wchar_t*)"mM"	,(wchar_t*)"birisini"	,(wchar_t*)"bir Ã¶lÃ¼msÃ¼zÃ¼"	,(wchar_t*)"y"	,(wchar_t*)"Ä±"	,(wchar_t*)"i"	,(wchar_t*)"u"	,(wchar_t*)"Ã¼"	},
+	{(wchar_t*)"eE"	,(wchar_t*)"birisine"	,(wchar_t*)"bir Ã¶lÃ¼msÃ¼ze"	,(wchar_t*)"y"	,(wchar_t*)"a"	,(wchar_t*)"e"	,(wchar_t*)"a"	,(wchar_t*)"e"	},
+	{(wchar_t*)"yY"	,(wchar_t*)"birisinde"	,(wchar_t*)"bir Ã¶lÃ¼msÃ¼zde"	,(wchar_t*)"d"	,(wchar_t*)"a"	,(wchar_t*)"e"	,(wchar_t*)"a"	,(wchar_t*)"e"	},
+	{(wchar_t*)"zZ"	,(wchar_t*)"birisinden",(wchar_t*)"bir Ã¶lÃ¼msÃ¼zden",(wchar_t*)"d"	,(wchar_t*)"an",(wchar_t*)"en",(wchar_t*)"an",(wchar_t*)"en"	},
     {NULL	,NULL			,NULL				,NULL	,NULL	,NULL	,NULL	,NULL	}
 };
 
-char *ekler (CHAR_DATA *to, CHAR_DATA *ch, char *format)
+wchar_t *ekler (CHAR_DATA *to, CHAR_DATA *ch, wchar_t *format)
 {
 	int say;//pers_suffix_table'da kacinci elemanin okunacagini tutuyor.
-	char *i, *ek;// i BUF'u point edecek.
-	char buf[MAX_STRING_LENGTH];//return olacak bilgi burada
-	/* SAY deðiþkenine deðeri atanýyor */
+	wchar_t *i, *ek;// i BUF'u point edecek.
+	wchar_t buf[MAX_STRING_LENGTH];//return olacak bilgi burada
+	/* SAY deÄŸiÅŸkenine deÄŸeri atanÄ±yor */
 	for(say=0;pers_suffix_table[say].belirtec[0] != '\0';say++)
 	{
 		if(	pers_suffix_table[say].belirtec[0]==*format ||
 			pers_suffix_table[say].belirtec[1]==*format	)
 				break;
 	}
-	if(say>=5)//tablodaki doðru elemaný bulamadýðý için çökme olmasýn diye.
+	if(say>=5)//tablodaki doÄŸru elemanÄ± bulamadÄ±ÄŸÄ± iÃ§in Ã§Ã¶kme olmasÄ±n diye.
 		say=1;
 	buf[0]='\0';
 	i=NULL;
 	if(can_see(to,ch))
 	{
-		sprintf(buf,"%s%s",	!IS_NPC(ch)?ch->name:ch->short_descr,
+		swprintf( buf, MAX_STRING_LENGTH-1, L"%s%s",	!IS_NPC(ch)?ch->name:ch->short_descr,
 							!IS_NPC(ch)?"'":"");
-		/*  sondaki sessizin yumuþamasý. aslýnda tek heceli kelimelerde
-		 *  yumusama olmaz. ama tek hece kontrolü yok.
+		/*  sondaki sessizin yumuÅŸamasÄ±. aslÄ±nda tek heceli kelimelerde
+		 *  yumusama olmaz. ama tek hece kontrolÃ¼ yok.
 		 */
 		if(IS_NPC(ch))
 		{
-			switch( ch->short_descr[strlen(ch->short_descr)-1] )
+			switch( ch->short_descr[wcslen(ch->short_descr)-1] )
 			{
 				case 'p':
-					buf[strlen(buf)-1]='b';
+					buf[MAX_INPUT_LENGTH-1]='b';
 					break;
-				case 'ç':
-					buf[strlen(buf)-1]='c';
+				case 'Ã§':
+					buf[MAX_INPUT_LENGTH-1]='c';
 					break;
 				case 't':
-					buf[strlen(buf)-1]='d';
+					buf[MAX_INPUT_LENGTH-1]='d';
 					break;
 				case 'k':
-					buf[strlen(buf)-1]='g';
+					buf[MAX_INPUT_LENGTH-1]='g';
 					break;
 			}
 		}
 		ek=NULL;// ek ve i yerine BUF kullanilabilir mi
 		ek=son_harf_unlu(ch,say);
-		strcat(buf,ek);
+		wcscat(buf,ek);
 		i=buf;
 		return i;
 	}
-	strcpy(buf,pers_suffix_table[say].birisi);
+	wcscpy(buf,pers_suffix_table[say].birisi);
 	i=buf;
 	return i;
 }
 
-char * son_harf_unlu(CHAR_DATA *ch, int say)
+wchar_t * son_harf_unlu(CHAR_DATA *ch, int say)
 {
-	char isim[MAX_STRING_LENGTH];
-	char buf[MAX_STRING_LENGTH];
-	char *ptr;
+	wchar_t isim[MAX_STRING_LENGTH];
+	wchar_t buf[MAX_STRING_LENGTH];
+	wchar_t *ptr;
 	unsigned int number;
 	ptr=buf;
 
-	(!IS_NPC(ch))?strcpy(isim,ch->name):strcpy(isim,ch->short_descr);
+	(!IS_NPC(ch))?wcscpy(isim,ch->name):wcscpy(isim,ch->short_descr);
 
 	buf[0]='\0';
-	for(number=1;strlen(isim)>=number;number++)
+	for(number=1;wcslen(isim)>=number;number++)
 	{
-		switch(isim[strlen(isim)-number])
+		switch(isim[wcslen(isim)-number])
 		{
-			case 'a': case 'ý':
+			case 'a': case 'Ä±':
 				if(say>2)
 				{
-					sprintf(buf,"d%s",pers_suffix_table[say].bir);
+					swprintf( buf, MAX_STRING_LENGTH-1, L"d%s",pers_suffix_table[say].bir);
 					return ptr;
 				}
-				sprintf(buf,"%s%s",(number==1)?(pers_suffix_table[say].sesli_eki):(""),pers_suffix_table[say].bir);
+				swprintf( buf, MAX_STRING_LENGTH-1, L"%s%s",(number==1)?(pers_suffix_table[say].sesli_eki):(L""),pers_suffix_table[say].bir);
 				return ptr;
 			case 'e': case 'i':
 				if(say>2)
 				{
-					sprintf(buf,"d%s",pers_suffix_table[say].iki);
+					swprintf( buf, MAX_STRING_LENGTH-1, L"d%s",pers_suffix_table[say].iki);
 					return ptr;
 				}
-				sprintf(buf,"%s%s",(number==1)?(pers_suffix_table[say].sesli_eki):(""),pers_suffix_table[say].iki);
+				swprintf( buf, MAX_STRING_LENGTH-1, L"%s%s",(number==1)?(pers_suffix_table[say].sesli_eki):(L""),pers_suffix_table[say].iki);
 				return ptr;
 			case 'o': case 'u':
 				if(say>2)
 				{
-					sprintf(buf,"d%s",pers_suffix_table[say].uc);
+					swprintf( buf, MAX_STRING_LENGTH-1, L"d%s",pers_suffix_table[say].uc);
 					return ptr;
 				}
-				sprintf(buf,"%s%s",(number==1)?(pers_suffix_table[say].sesli_eki):(""),pers_suffix_table[say].uc);
+				swprintf( buf, MAX_STRING_LENGTH-1, L"%s%s",(number==1)?(pers_suffix_table[say].sesli_eki):(L""),pers_suffix_table[say].uc);
 				return ptr;
-			case 'ö': case 'ü':
+			case 'Ã¶': case 'Ã¼':
 				if(say>2)
 				{
-					sprintf(buf,"d%s",pers_suffix_table[say].dort);
+					swprintf( buf, MAX_STRING_LENGTH-1, L"d%s",pers_suffix_table[say].dort);
 					return ptr;
 				}
-				sprintf(buf,"%s%s",(number==1)?(pers_suffix_table[say].sesli_eki):(""),pers_suffix_table[say].dort);
+				swprintf( buf, MAX_STRING_LENGTH-1, L"%s%s",(number==1)?(pers_suffix_table[say].sesli_eki):(L""),pers_suffix_table[say].dort);
 				return ptr;
 		}
 	}
-	sprintf(buf,"%s",pers_suffix_table[say].bir);
+	swprintf( buf, MAX_STRING_LENGTH-1, L"%s",pers_suffix_table[say].bir);
 	return ptr;
 }

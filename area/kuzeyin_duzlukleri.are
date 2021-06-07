@@ -1,9 +1,9 @@
 #AREADATA
 Filename kuzeyin_duzlukleri.are~
-Name Kuzeyin Düzlükleri~
+Name Kuzeyin DÃ¼zlÃ¼kleri~
 Builder Copper~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 1
 Highlevel 20
 Minvnum 300
@@ -18,7 +18,7 @@ END
 #300
 rahip Aruncus~
 Rahip Aruncus~
-Rahip Aruncus etrafta dolaşıp ihtiyaç duyduğu bitkileri arıyor.
+Rahip Aruncus etrafta dolaÅŸÄ±p ihtiyaÃ§ duyduÄŸu bitkileri arÄ±yor.
 ~
 Aruncus is a tall, skinny druid with a face marked by nature.
 He seems to be in peace with himself and his surroundings.
@@ -26,9 +26,9 @@ He seems to be in peace with himself and his surroundings.
 human~
 AGH D 13
 #301
-keşiş sorbus~
-Keşiş Sorbus~
-Keşiş Sorbus burada oturmuş bir tavşan kızartıyor.
+keÅŸiÅŸ sorbus~
+KeÅŸiÅŸ Sorbus~
+KeÅŸiÅŸ Sorbus burada oturmuÅŸ bir tavÅŸan kÄ±zartÄ±yor.
 ~
 Sorbus bares the marks of a long, hard life in solitude.
 He is dressed in simple clothing and looks like he has little
@@ -37,9 +37,9 @@ or nothing to say.
 human~
 AB 0 4
 #303
-vatandaş~
-vatandaş~
-Bir Ofcol vatandaşı burada ve dik dik sana bakıyor ... yabancı!
+vatandaÅŸ~
+vatandaÅŸ~
+Bir Ofcol vatandaÅŸÄ± burada ve dik dik sana bakÄ±yor ... yabancÄ±!
 ~
 He seems like a nice person with no interest in harming you or others.
 He wears normal, light clothing and has an anonymous face.
@@ -47,9 +47,9 @@ He wears normal, light clothing and has an anonymous face.
 human~
 ACG 0 6
 #304
-vatandaş~
-vatandaş~
-Bir Ofcol vatandaşı burada ve dik dik sana bakıyor ... yabancı!
+vatandaÅŸ~
+vatandaÅŸ~
+Bir Ofcol vatandaÅŸÄ± burada ve dik dik sana bakÄ±yor ... yabancÄ±!
 ~
 She seems like a nice person with no interest in harming you or others.
 She wears a minimum of clothing and has big ... eyes.
@@ -59,7 +59,7 @@ ACG 0 5
 #305
 solucan Shudde-M'ell~
 Shudde-M'ell~
-Shudde-M'ell, G'harne'nin dev solucanı hazineyi koruyor.
+Shudde-M'ell, G'harne'nin dev solucanÄ± hazineyi koruyor.
 ~
 Shudde-M'ell is about 15 ft long and is surrounded by an evil stench,
 The worm is the protector of the treasure of G'harne and has been so
@@ -70,7 +70,7 @@ ABF D 24
 #306
 luxan tezgahtar~
 Luxan~
-Tezgahtar Luxan burada, gayretle sana bir şeyler satmaya çalışıyor.
+Tezgahtar Luxan burada, gayretle sana bir ÅŸeyler satmaya Ã§alÄ±ÅŸÄ±yor.
 ~
 Luxan is dressed in a strange jacket.
 He looks like a mean trader from the outskirts of Midgaard.
@@ -80,9 +80,9 @@ He looks very fit and capable of protecting his goods.
 human~
 ABC 0 23
 #308
-bekçi hancı~
-Hancı~
-Hancı burada senin emirlerini bekliyor.
+bekÃ§i hancÄ±~
+HancÄ±~
+HancÄ± burada senin emirlerini bekliyor.
 ~
 The Innkeeper looks skilled in brewing different beers and mixing the
 wierdest drinks known. He also looks very big.
@@ -90,9 +90,9 @@ wierdest drinks known. He also looks very big.
 human~
 AB 0 23
 #309
-tavşan~
-sevimli tavşan~
-Sevimli bir tavşan burada.
+tavÅŸan~
+sevimli tavÅŸan~
+Sevimli bir tavÅŸan burada.
 ~
 It is a small, furry creature with long ears and big feet.
 ~
@@ -101,7 +101,7 @@ AG 0 1
 #350
 evcil ejderha~
 evcil ejderha~
-Ravan'ın evcil ejderhası etrafta zıplayıp sevimli kanatlarını çırpıyor.
+Ravan'Ä±n evcil ejderhasÄ± etrafta zÄ±playÄ±p sevimli kanatlarÄ±nÄ± Ã§Ä±rpÄ±yor.
 ~
 Ravan's pet dragon is about 3 ft. tall with small pointy teeth.
 The small wings are eagerly trying to lift her from the ground,
@@ -113,8 +113,8 @@ ABHR DH 10
 #OBJECTS
 #300
 bitkiler~
-ufak bir bitki öbeği~
-Burada küçük yeşil yapraklı ve minik pembe çiçekli bazı bitkiler var.~
+ufak bir bitki Ã¶beÄŸi~
+Burada kÃ¼Ã§Ã¼k yeÅŸil yapraklÄ± ve minik pembe Ã§iÃ§ekli bazÄ± bitkiler var.~
 plant_organism~
 food 0 A
 1 1 0 0 0
@@ -125,8 +125,8 @@ This herb smells rather spicy; maybe you should try it?
 ~
 #301
 bitkiler~
-koyu renkli bir bitki öbeği~
-Burada koyu yeşil ve siyah yapraklı, minik kan kırmızısı çiçekleri olan
+koyu renkli bir bitki Ã¶beÄŸi~
+Burada koyu yeÅŸil ve siyah yapraklÄ±, minik kan kÄ±rmÄ±zÄ±sÄ± Ã§iÃ§ekleri olan
 blood red flowers.~
 food~
 food 0 A
@@ -137,21 +137,21 @@ bitkiler~
 This herb smells rather special, but is it poisonous?
 ~
 #302
-bitkiler sarmaşık~
-ufak bir zehirli sarmaşık öbeği~
-Burada bir miktar zehirli sarmaşık yetişmiş.~
+bitkiler sarmaÅŸÄ±k~
+ufak bir zehirli sarmaÅŸÄ±k Ã¶beÄŸi~
+Burada bir miktar zehirli sarmaÅŸÄ±k yetiÅŸmiÅŸ.~
 plant_organism~
 food 0 A
 1 1 0 1 0
 0 10 0 P
 E
-bitkiler sarmaşık~
+bitkiler sarmaÅŸÄ±k~
 This plant has dark green juicy leaves.
 You notice some small white thorns on it.~
 #303
 kan kavanoz~
-koyu kırmızı bir kavanoz~
-İçinde koyu kırmızı renkli bir şey olan küçük bir kavanoz.~
+koyu kÄ±rmÄ±zÄ± bir kavanoz~
+Ä°Ã§inde koyu kÄ±rmÄ±zÄ± renkli bir ÅŸey olan kÃ¼Ã§Ã¼k bir kavanoz.~
 glass~
 drink 0 A
 2 2 'blood' 0 0
@@ -162,9 +162,9 @@ The jar is made of dry clay, covered with markings suggesting its
 occult origin.
 ~
 #304
-yabani çiçekler~
-yabani çiçekler~
-Burada hoş bir yabani çiçek demeti var.~
+yabani Ã§iÃ§ekler~
+yabani Ã§iÃ§ekler~
+Burada hoÅŸ bir yabani Ã§iÃ§ek demeti var.~
 plant_organism~
 trash K AEO
 0 0 0 0 0
@@ -176,7 +176,7 @@ Just like the flowers you would wear in your hair.~
 #307
 muska~
 tuhaf bir muska~
-Garip görünen bir muska burada, nerdeyse tamamen toz içinde kalmış.~
+Garip gÃ¶rÃ¼nen bir muska burada, nerdeyse tamamen toz iÃ§inde kalmÄ±ÅŸ.~
 bronze~
 jewelry GH AC
 0 0 0 0 0
@@ -191,8 +191,8 @@ dominating it.
 ~
 #308
 asa baston~
-bir rahip asası~
-Üzerinde dini semboller olan bir asa burada bırakılmış.~
+bir rahip asasÄ±~
+Ãœzerinde dini semboller olan bir asa burada bÄ±rakÄ±lmÄ±ÅŸ.~
 wood~
 trash 0 AO
 0 0 0 0 0
@@ -203,9 +203,9 @@ Then staff is about 5 ft long, engraved with mythical signs and figures.
 Otherwise the staff seems of no real interest.
 ~
 #309
-tavşan kızartması~
-bir tavşan kızartması~
-Leziz görünen bir tavşan kızartması gözüne çarpıyor.~
+tavÅŸan kÄ±zartmasÄ±~
+bir tavÅŸan kÄ±zartmasÄ±~
+Leziz gÃ¶rÃ¼nen bir tavÅŸan kÄ±zartmasÄ± gÃ¶zÃ¼ne Ã§arpÄ±yor.~
 meat~
 food 0 A
 24 24 0 0 0
@@ -217,9 +217,9 @@ You guess that this once was a ferocious rabbit who's life now has
 changed to that of a tasty wabbit woast.
 ~
 #310
-şablon parşömen~
-garip bir şablon~
-Garip, yeşil bir kağıt burada duruyor.~
+ÅŸablon parÅŸÃ¶men~
+garip bir ÅŸablon~
+Garip, yeÅŸil bir kaÄŸÄ±t burada duruyor.~
 vellum~
 scroll G AO
 15 'sleep' 'blindness' 'fireball' ''
@@ -235,7 +235,7 @@ And beneath the inscription you see horrifying death scenes depicted.
 #311
 iksir berrak~
 berrak iksir~
-Deriye sarılmış berrak bir iksir dikkat çekmeyecek şekilde buraya konmuş.~
+Deriye sarÄ±lmÄ±ÅŸ berrak bir iksir dikkat Ã§ekmeyecek ÅŸekilde buraya konmuÅŸ.~
 glass~
 potion G A
 20 'detect evil' 'detect invis' 'detect magic' ''
@@ -251,9 +251,9 @@ potion. When you look through it you notice strange things...
 The clear potion is certainly not of this world.
 ~
 #312
-parşömen jhyfrdow~
-'jhyfrdow' başlıklı bir parşömen~
-Burada acayip görünen bir parşömen var.~
+parÅŸÃ¶men jhyfrdow~
+'jhyfrdow' baÅŸlÄ±klÄ± bir parÅŸÃ¶men~
+Burada acayip gÃ¶rÃ¼nen bir parÅŸÃ¶men var.~
 vellum~
 scroll 0 A
 18 'protection evil' '' '' ''
@@ -416,7 +416,7 @@ You see the grassy plains here.
 0 -1 320
 S
 #306
-Dağ eteklerindeki patika~
+DaÄŸ eteklerindeki patika~
 You are on the path leading through the small foothills.
 The wind blow through your hair as you study the beautiful
 landscaping here. From the north you sense a certain freshness.
@@ -440,7 +440,7 @@ The path in the plains wind through the small foothills.
 0 -1 305
 S
 #307
-Dağ eteklerindeki patika~
+DaÄŸ eteklerindeki patika~
 You are walking on a path situated in the small foothills.
 The winds are more than average here but it feels nice. You can follow
 the path east or west.
@@ -458,7 +458,7 @@ To the west the path takes a bend southwards.
 0 -1 306
 S
 #308
-Dağ eteklerindeki patika~
+DaÄŸ eteklerindeki patika~
 You are walking on a narrow path in the foothills.
 You feel the strong winds blow through your hair as you study
 the beautiful landscaping here. The path goes north and west.
@@ -476,7 +476,7 @@ To the west you can see the path continues.
 0 -1 307
 S
 #309
-Dağ eteklerindeki patika~
+DaÄŸ eteklerindeki patika~
 You are walking on a path situated in foothills.
 To the west you sense a certain freshness and the path continues
 south and east.
@@ -499,7 +499,7 @@ You see grassy plains and perhaps some crystal clear water.
 0 -1 326
 S
 #310
-Dağ eteklerindeki patika~
+DaÄŸ eteklerindeki patika~
 You are walking on a long path in the east-west direction.
 The surroundings are green, vegetated foothills.
 You are able to force your way through some dense plants to the north.
@@ -522,7 +522,7 @@ You just see the path through the foothills.
 0 -1 309
 S
 #311
-Dağ eteklerindeki patika~
+DaÄŸ eteklerindeki patika~
 You are walking on the long, narrow path through the foothills.
 To your east you see a T-intersection and to the west the path
 continues far.
@@ -540,7 +540,7 @@ You can see the long path through the plains.
 0 -1 310
 S
 #312
-Patika kesişmesi~
+Patika kesiÅŸmesi~
 You are standing on an intersection between 3 paths.
 To the west you can follow a long, narrow path through the foothills.
 To the north a wide path leads to the Village of Ofcol and an
@@ -593,7 +593,7 @@ You think you can climb these foothills.
 0 -1 327
 S
 #314
-Ofcol'un Dışı~
+Ofcol'un DÄ±ÅŸÄ±~
 You are standing outside the village of Ofcol.
 The village looks very small, but still a nice and safe place to stay.
 You may enter the city to the north or journey towards the
@@ -613,7 +613,7 @@ Here you see the road go towards the intersection.
 0 -1 313
 S
 #315
-Darağacı tepesi~
+DaraÄŸacÄ± tepesi~
 You walk in the grassy plains. On this little hill you can see
 two gallows, with rotting human tissue hanging from the ropes.
 There is a sign here.
@@ -652,7 +652,7 @@ The sign says:
 ~
 S
 #316
-Çimenlik ovalar~
+Ã‡imenlik ovalar~
 You walk in the grassy plains among the herbs which grow here. The wind is
 strong and rough. Far to the north you can see the foothills and further on
 mountain peaks are visible.
@@ -670,7 +670,7 @@ When you look to the east you notice at small path.
 0 -1 300
 S
 #317
-Çimenlik ovalar~
+Ã‡imenlik ovalar~
 You walk in the grassy plains among the herbs which grow here. The wind is
 strong and rough. Far to the north you can see the foothills and further on
 mountain peaks are visible. City of Midgaard is to the south but so are some
@@ -694,7 +694,7 @@ A small path is running through the plains.
 0 -1 303
 S
 #318
-Çimenlik ovalar~
+Ã‡imenlik ovalar~
 You walk in the beautiful grassy plains. The wind is strong and rough.
 Far to the north you can see the foothills and further on mountain peaks
 are visible.
@@ -717,7 +717,7 @@ The plains extend far to the south.
 0 -1 316
 S
 #319
-Çimenlik ovalar~
+Ã‡imenlik ovalar~
 You walk in the grassy plains among the herbs which grow here. The wind is
 strong and rough. To the north you can see the foothills and just behind
 mountain peaks are visible.
@@ -741,7 +741,7 @@ The plains extend far to the south.
 0 -1 318
 S
 #320
-Çimenlik ovalar~
+Ã‡imenlik ovalar~
 You walk in some grassy plains. The wind is strong and rough. To the
 north you can see the foothills and further on mountain peaks are visible.
 ~
@@ -768,7 +768,7 @@ The plains extend far to the west.
 0 -1 319
 S
 #321
-Çimenlik ovalar~
+Ã‡imenlik ovalar~
 You walk in the grassy plains. The wind is fairly strong.
 ~
 0 0 4
@@ -784,7 +784,7 @@ A small path is running through the plains.
 0 -1 305
 S
 #322
-Çimenlik dağ etekleri~
+Ã‡imenlik daÄŸ etekleri~
 You walk in the grassy foothills north of the plains. The wind is rough.
 To the north you can see foothills and just behind them mountain peaks
 are visible.
@@ -807,7 +807,7 @@ The small foothills extend far to the west.
 0 -1 330
 S
 #323
-Dik dağ etekleri~
+Dik daÄŸ etekleri~
 You walk in the steep foothills. It is rather hard to move here.
 To the north you can see a grassy valley with wildflowers.
 ~
@@ -829,7 +829,7 @@ On the horizon you can see the City of Midgaard.
 0 -1 330
 S
 #324
-Dik dağ etekleri~
+Dik daÄŸ etekleri~
 You are walking in the steep foothills. It is rather hard to move here.
 To the north you can see the mountains towering over you.  Pine trees
 grow here.
@@ -867,7 +867,7 @@ the sky.
 ~
 S
 #325
-Dik dağ etekleri~
+Dik daÄŸ etekleri~
 You are walking in the steep foothills. It is rather hard to move here.
 Further to the north you can see the mountains towering over you.
 Several pinetrees grow here.
@@ -890,7 +890,7 @@ The foothills extend far to the west.
 0 -1 324
 S
 #326
-Dağ eteklerindeki su birikintisi~
+DaÄŸ eteklerindeki su birikintisi~
 You are standing by a pool in the small foothills. It is clear and cold.
 A steep slope rises up into the foothills to the north. Behind them ...
 the mountains.
@@ -918,7 +918,7 @@ you can't see the bottom of it ... it must be pretty deep.
 ~
 S
 #327
-Dağ etekleri~
+DaÄŸ etekleri~
 You are walking in some foothills. It is rather hard to move here.
 Further to the north you can see the mountains towering over you.
 Several pinetrees grow here.
@@ -936,7 +936,7 @@ To the south a steep slope runs down to a small path in the foothills.
 0 -1 310
 S
 #330
-Dağ eteklerindeki kulübenin önü~
+DaÄŸ eteklerindeki kulÃ¼benin Ã¶nÃ¼~
 You are standing in the foothills. To the west, well hidden among the small
 foothills and pines, you see a small hut. To the north you can see
 the foothills, and some pineforrest. Further on mountain peaks are visible.
@@ -964,7 +964,7 @@ door~
 1 -1 331
 S
 #331
-Keşişin kulübesi~
+KeÅŸiÅŸin kulÃ¼besi~
 You are inside the hermit's hut. It is rather old, but serves it purpose.
 It keeps its habitant from the rough winds and dangerous beasts of the
 plains and foothills. There is a small fireplace here.
@@ -1064,7 +1064,7 @@ arranged makes you think there is something special about them.
 ~
 S
 #336
-Tahta köprü~
+Tahta kÃ¶prÃ¼~
 You have stepped upon a wooden bridge. It looks old but safe to cross.
 It is made of a wood you haven't seen before.
 ~
@@ -1111,7 +1111,7 @@ You notice it's possible to enter the ring.
 ~
 S
 #338
-Çimenlik ovalar~
+Ã‡imenlik ovalar~
 You walk in the grassy plains among the herbs which grow here. The wind is
 strong and rough. Far to the north you can see the foothills and further on
 mountain peaks are visible.
@@ -1133,7 +1133,7 @@ D5
 0 -1 8855
 S
 #339
-G'harne'nin taşları~
+G'harne'nin taÅŸlarÄ±~
 You are in the center of 7, 15 ft tall monolith like black stones.
 In the center of the ring formed by the monolith you can't help
 noticing a big sacrifice altar. The ground is covered with dirt, but the
@@ -1170,7 +1170,7 @@ It resembles black marble, but somehow feels different.
 ~
 S
 #340
-Kötü kokan karanlık tüneller~
+KÃ¶tÃ¼ kokan karanlÄ±k tÃ¼neller~
 You are standing in a gloomy tunnel leading south and west, right under
 the altar of G'harne.  The walls are covered with a smelly slime and small
 rotting pieces of a meat like substance, fills the air with an unbearable
@@ -1198,7 +1198,7 @@ You puke.
 ~
 S
 #341
-Tünelin çıkmaz sonu~
+TÃ¼nelin Ã§Ä±kmaz sonu~
 The tunnel comes to an abrupt end here. It simply looks like it
 hasn't been excavated further.  North of here the tunnel makes a turn east.
 ~
@@ -1209,7 +1209,7 @@ D0
 0 -1 340
 S
 #342
-Kötü kokan karanlık tüneller~
+KÃ¶tÃ¼ kokan karanlÄ±k tÃ¼neller~
 You are standing in a gloomy tunnel leading east and west.
 The walls are covered with a smelly slime and small rotting pieces of a
 meat like substance, fills the air with an unbearable stench.
@@ -1233,7 +1233,7 @@ You puke.
 ~
 S
 #343
-Kötü kokan karanlık tüneller~
+KÃ¶tÃ¼ kokan karanlÄ±k tÃ¼neller~
 You are standing in a small smelly tunnel under the plains.
 The smell is growing stronger to the west, so is the density of the
 slime and other undeterminable substances ...
@@ -1272,14 +1272,14 @@ You puke.
 ~
 S
 #345
-Dik bayır~
-Bayırda ilerlemeye çalışıyorsun.
+Dik bayÄ±r~
+BayÄ±rda ilerlemeye Ã§alÄ±ÅŸÄ±yorsun.
 >
-Ayağın kaydı!
-Yuvarlandın ve yere yıkıldın.
-Kafanı FENA çarptın.
-Öleceksin.
-Devrildin, ve kalkacak gücün bile yok!
+AyaÄŸÄ±n kaydÄ±!
+YuvarlandÄ±n ve yere yÄ±kÄ±ldÄ±n.
+KafanÄ± FENA Ã§arptÄ±n.
+Ã–leceksin.
+Devrildin, ve kalkacak gÃ¼cÃ¼n bile yok!
 ~
 0 C 2
 S

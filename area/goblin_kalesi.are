@@ -3,7 +3,7 @@ Filename goblin_kalesi.are~
 Name Goblin Kalesi~
 Builder Badaxe~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 10
 Highlevel 20
 Minvnum 29000
@@ -16,125 +16,125 @@ END
 
 #NEW_MOBILES
 #29001
-goblin kralı grumm~
+goblin kralÄ± grumm~
 grumm~
-Goblin Kralı Grumm seni gördüğü için pek mutlu değil!
+Goblin KralÄ± Grumm seni gÃ¶rdÃ¼ÄŸÃ¼ iÃ§in pek mutlu deÄŸil!
 ~
-Kel, kilolu bir goblin görüyorsun fakat çokda güçlü olsa gerek.
+Kel, kilolu bir goblin gÃ¶rÃ¼yorsun fakat Ã§okda gÃ¼Ã§lÃ¼ olsa gerek.
 ~
 goblin~
 ABFHT Jb 19
 #29002
-goblin şamanı~
-şaman~
-Yazısından kalkıp odaya girip onu bölmeye cürret eden kişiye(Sana)
-sinirle bakıyor.
+goblin ÅŸamanÄ±~
+ÅŸaman~
+YazÄ±sÄ±ndan kalkÄ±p odaya girip onu bÃ¶lmeye cÃ¼rret eden kiÅŸiye(Sana)
+sinirle bakÄ±yor.
 ~
-Yüzü ekşi ve soluk bir goblin. İşine kendini çok verdiğini düşündürüyor.
+YÃ¼zÃ¼ ekÅŸi ve soluk bir goblin. Ä°ÅŸine kendini Ã§ok verdiÄŸini dÃ¼ÅŸÃ¼ndÃ¼rÃ¼yor.
 ~
 goblin~
 ABFHQ J 15
 #29003
-goblin büyücü~
+goblin bÃ¼yÃ¼cÃ¼~
 goblin~
-Goblin büyücüsü onu rahatsız etmenden dolayı bir hayli sinirli.
+Goblin bÃ¼yÃ¼cÃ¼sÃ¼ onu rahatsÄ±z etmenden dolayÄ± bir hayli sinirli.
 ~
-Goblin büyücüsü uzun süredir bu an için çalışmaktaydı, ve SEN bu anı
-MAHFETTİN! GERÇEKTENDE çok sinirli bir şekilde sana bakıyor! Goblin
-kalesindeki diğer goblinlerden oldukça kısa olduğunu görüyorsun.
+Goblin bÃ¼yÃ¼cÃ¼sÃ¼ uzun sÃ¼redir bu an iÃ§in Ã§alÄ±ÅŸmaktaydÄ±, ve SEN bu anÄ±
+MAHFETTÄ°N! GERÃ‡EKTENDE Ã§ok sinirli bir ÅŸekilde sana bakÄ±yor! Goblin
+kalesindeki diÄŸer goblinlerden oldukÃ§a kÄ±sa olduÄŸunu gÃ¶rÃ¼yorsun.
 ~
 goblin~
 ABFHR BCDEFJVd 15
 #29004
-şampiyon goblin knarl~
+ÅŸampiyon goblin knarl~
 knarl~
-Önünde gördüğün en güçlü goblin duruyor.
+Ã–nÃ¼nde gÃ¶rdÃ¼ÄŸÃ¼n en gÃ¼Ã§lÃ¼ goblin duruyor.
 ~
-Knarl sana sinsice sırıtıyor.
+Knarl sana sinsice sÄ±rÄ±tÄ±yor.
 ~
 goblin~
 ABFT FJPVb 20
 #29005
-goblin muhafız~
-muhafız goblin~
-Goblin muhafızı şüpheli bir şekilde seni süzüyor.
+goblin muhafÄ±z~
+muhafÄ±z goblin~
+Goblin muhafÄ±zÄ± ÅŸÃ¼pheli bir ÅŸekilde seni sÃ¼zÃ¼yor.
 ~
-Averaj goblinlerden daha geniş bir gobline bakıyorsun. Etrafındaki diğer
-goblinlere kabadayılık ediyor.
+Averaj goblinlerden daha geniÅŸ bir gobline bakÄ±yorsun. EtrafÄ±ndaki diÄŸer
+goblinlere kabadayÄ±lÄ±k ediyor.
 ~
 goblin~
 ABFT J 12
 #29006
-muhafız goblin~
-goblin muhafızı~
-Goblin muhafızı burada sana şüpheli bir şekilde bakıyor.
+muhafÄ±z goblin~
+goblin muhafÄ±zÄ±~
+Goblin muhafÄ±zÄ± burada sana ÅŸÃ¼pheli bir ÅŸekilde bakÄ±yor.
 ~
-Averaj goblinlerden daha geniş bir gobline bakıyorsun. Etrafındaki diğer
-goblinlere kabadayılık ediyor.
+Averaj goblinlerden daha geniÅŸ bir gobline bakÄ±yorsun. EtrafÄ±ndaki diÄŸer
+goblinlere kabadayÄ±lÄ±k ediyor.
 ~
 goblin~
 AFT J 13
 #29007
 goblin~
 goblin~
-Goblin burada boş boş dolanıyor.
+Goblin burada boÅŸ boÅŸ dolanÄ±yor.
 ~
-Çirkin, yeşil ve iğrenç bir şekilde kokan birisi. Daha ne söylenebilirki?
+Ã‡irkin, yeÅŸil ve iÄŸrenÃ§ bir ÅŸekilde kokan birisi. Daha ne sÃ¶ylenebilirki?
 ~
 goblin~
 AFT J 12
 #29008
 goblin mahkum~
 goblin mahkum~
-Goblin burada duvara zincirlenmiş duruyor.
+Goblin burada duvara zincirlenmiÅŸ duruyor.
 ~
-Derisinin daha mavimsi olduğunu görüyorsun, belkide başka bir kabileye
-bağlı.
+Derisinin daha mavimsi olduÄŸunu gÃ¶rÃ¼yorsun, belkide baÅŸka bir kabileye
+baÄŸlÄ±.
 ~
 goblin~
 AT J 3
 #29009
-cüzzamlı goblin~
+cÃ¼zzamlÄ± goblin~
 goblin~
-Bu goblin çok hasta gözüküyor.
+Bu goblin Ã§ok hasta gÃ¶zÃ¼kÃ¼yor.
 ~
-Sana bağırıyor! Bana bakma! ! Aaargh... Dışlanmış cüzzamlı ve pis...
+Sana baÄŸÄ±rÄ±yor! Bana bakma! ! Aaargh... DÄ±ÅŸlanmÄ±ÅŸ cÃ¼zzamlÄ± ve pis...
 ~
 goblin~
 ACFGS FJPQXbd 15
 #29010
 goblin~
 goblin~
-Goblin burada, patates doğruyor.
+Goblin burada, patates doÄŸruyor.
 ~
-Çirkin, yeşil ve iğrenç bir şekilde kokan birisi. Daha ne söylenebilirki?
+Ã‡irkin, yeÅŸil ve iÄŸrenÃ§ bir ÅŸekilde kokan birisi. Daha ne sÃ¶ylenebilirki?
 ~
 goblin~
 ABFT J 14
 #29011
-zayıf iblis~
-zayıf iblis~
-Karanlık, boynuzlu bir figür pentagramın içinde hapsolmuş.
+zayÄ±f iblis~
+zayÄ±f iblis~
+KaranlÄ±k, boynuzlu bir figÃ¼r pentagramÄ±n iÃ§inde hapsolmuÅŸ.
 ~
-Gerçektende pentagramdan çıkmak istiyor; belkide yardım etmelisin ona?
+GerÃ§ektende pentagramdan Ã§Ä±kmak istiyor; belkide yardÄ±m etmelisin ona?
 ~
 human~
 ABG Hb 20
 #29012
-dansöz goblin britta~
-danseden bir kız~
-Güzel dişi goblin etrafındakileri etkilemeye çalışıyor.
+dansÃ¶z goblin britta~
+danseden bir kÄ±z~
+GÃ¼zel diÅŸi goblin etrafÄ±ndakileri etkilemeye Ã§alÄ±ÅŸÄ±yor.
 ~
-Bu kız gerçektende güzel, goblin olsa bile.
+Bu kÄ±z gerÃ§ektende gÃ¼zel, goblin olsa bile.
 ~
 goblin~
 ABFT J 9
 #29013
-soytarı goblin~
-soytarı goblin~
-Tiksindirici bu küçük goblin seninle dalga geçmeye çalışıyor.
+soytarÄ± goblin~
+soytarÄ± goblin~
+Tiksindirici bu kÃ¼Ã§Ã¼k goblin seninle dalga geÃ§meye Ã§alÄ±ÅŸÄ±yor.
 ~
-Üzerinde ziller olan,aptal, yeşil bir kostüm giyiyor. Ondan nefret
+Ãœzerinde ziller olan,aptal, yeÅŸil bir kostÃ¼m giyiyor. Ondan nefret
 ediyorsun.
 ~
 goblin~
@@ -145,73 +145,73 @@ AFT J 11
 
 #OBJECTS
 #29001
-zırhlı goblin ceketi~
-zırhlı goblin ceketi~
-bir zırhlı goblin ceketi yerde duruyor.~
+zÄ±rhlÄ± goblin ceketi~
+zÄ±rhlÄ± goblin ceketi~
+bir zÄ±rhlÄ± goblin ceketi yerde duruyor.~
 bone~
 armor 0 AD
 3 4 4 0 0
 10 100 849 G
 #29002
-zırhlı goblin yeleği~
-zırhlı goblin yeleği~
-bir zırhlı goblin yeleği yerde duruyor~
+zÄ±rhlÄ± goblin yeleÄŸi~
+zÄ±rhlÄ± goblin yeleÄŸi~
+bir zÄ±rhlÄ± goblin yeleÄŸi yerde duruyor~
 bone~
 armor 0 AD
 3 4 4 0 0
 9 90 530 G
 #29003
-zırhlı goblin eteği~
-zırhlı ve uzun goblin eteği~
-zırhlı ve uzun bir goblin eteği yerde duruyor~
+zÄ±rhlÄ± goblin eteÄŸi~
+zÄ±rhlÄ± ve uzun goblin eteÄŸi~
+zÄ±rhlÄ± ve uzun bir goblin eteÄŸi yerde duruyor~
 bone~
 armor 0 AF
 3 5 4 0 0
 11 120 500 G
 #29004
-zırhlı giysi kolu~
-bir çift zırhlı giysi kolu~
-bir çift zırhlı giysi kolu yerde duruyor~
+zÄ±rhlÄ± giysi kolu~
+bir Ã§ift zÄ±rhlÄ± giysi kolu~
+bir Ã§ift zÄ±rhlÄ± giysi kolu yerde duruyor~
 bone~
 armor 0 AI
 3 4 4 0 0
 8 60 400 G
 #29005
-zırhlı goblin gömleği~
-zırhlı goblin gömleği~
-zırhlı goblin gömleği yerde duruyor.~
+zÄ±rhlÄ± goblin gÃ¶mleÄŸi~
+zÄ±rhlÄ± goblin gÃ¶mleÄŸi~
+zÄ±rhlÄ± goblin gÃ¶mleÄŸi yerde duruyor.~
 steel~
 armor 0 AD
 5 4 5 0 0
 12 180 800 G
 #29006
-sağlam zırhlı goblin eteği~
-sağlam zırhlı goblin eteği~
-sağlam zırhlı goblin eteği yerde duruyor~
+saÄŸlam zÄ±rhlÄ± goblin eteÄŸi~
+saÄŸlam zÄ±rhlÄ± goblin eteÄŸi~
+saÄŸlam zÄ±rhlÄ± goblin eteÄŸi yerde duruyor~
 steel~
 armor 0 AF
 5 4 5 0 0
 12 100 800 G
 #29007
-sağlam zırhlı goblin eldiveni~
-bir çift sağlam zırhlı goblin eldiveni~
-bir çift sağlam zırhlı goblin eldiveni yerde duruyor.~
+saÄŸlam zÄ±rhlÄ± goblin eldiveni~
+bir Ã§ift saÄŸlam zÄ±rhlÄ± goblin eldiveni~
+bir Ã§ift saÄŸlam zÄ±rhlÄ± goblin eldiveni yerde duruyor.~
 steel~
 armor 0 AH
 5 4 5 0 0
 10 40 700 P
 #29008
-sağlam zırhlı goblin giysi kolu~
-bir çift sağlam zırhlı goblin giysi kolu~
-bir çift sağlam zırhlı goblin giysi kolu yerde duruyor.~
+saÄŸlam zÄ±rhlÄ± goblin giysi kolu~
+bir Ã§ift saÄŸlam zÄ±rhlÄ± goblin giysi kolu~
+bir Ã§ift saÄŸlam zÄ±rhlÄ± goblin giysi kolu yerde duruyor.~
 steel~
 armor 0 AI
 5 4 5 0 0
 10 80 390 P
 #29009
-goblin kral tacı~
-Goblin kralının muhteşem tacı~
-Sıradan gümüş bir tac burada duruyor. Oldukça eski görünüyor.~
+goblin kral tacÄ±~
+Goblin kralÄ±nÄ±n muhteÅŸem tacÄ±~
+SÄ±radan gÃ¼mÃ¼ÅŸ bir tac burada duruyor. OldukÃ§a eski gÃ¶rÃ¼nÃ¼yor.~
 silver~
 armor G AE
 4 6 5 3 0
@@ -220,8 +220,8 @@ A
 13 21
 #29010
 grumm balta~
-Grumm ın muhteşem savaş baltası~
-oldukça geniş, iki elli ve çift bıçaklı balta önünde duruyor~
+Grumm Ä±n muhteÅŸem savaÅŸ baltasÄ±~
+oldukÃ§a geniÅŸ, iki elli ve Ã§ift bÄ±Ã§aklÄ± balta Ã¶nÃ¼nde duruyor~
 iron~
 weapon ABEGLRY AN
 axe 5 5 slash CDF
@@ -231,9 +231,9 @@ A
 A
 19 4
 #29011
-boynuzlu siyah goblin miğferi~
-boynuzlu siyah goblin miğferi~
-boynuzlu siyah goblin miğferi burada duruyor~
+boynuzlu siyah goblin miÄŸferi~
+boynuzlu siyah goblin miÄŸferi~
+boynuzlu siyah goblin miÄŸferi burada duruyor~
 iron~
 armor 0 AE
 3 5 4 0 0
@@ -244,8 +244,8 @@ A
 19 1
 #29012
 granit kolluk~
-bir çift keskin granit kolluk~
-bir çift keskin granit kolluk görüyorsun~
+bir Ã§ift keskin granit kolluk~
+bir Ã§ift keskin granit kolluk gÃ¶rÃ¼yorsun~
 stone~
 armor GM AI
 6 6 9 2 0
@@ -257,9 +257,9 @@ arm guards armguards granite~
 These heavy armguards have been carved from the rock of these caverns.
 ~
 #29013
-kirli yeşil pelerin~
-kirli yeşil pelerin~
-kirli yeşil pelerin yerde duruyor.~
+kirli yeÅŸil pelerin~
+kirli yeÅŸil pelerin~
+kirli yeÅŸil pelerin yerde duruyor.~
 cloth~
 armor G AK
 1 2 1 1 0
@@ -276,9 +276,9 @@ You see a cape ridden with filth and vermin. You're not going to WEAR it are
 you?
 ~
 #29014
-kırık taşlı hançer~
-kırık taş~
-sivri uçlu kırık bir taş yerde duruyor~
+kÄ±rÄ±k taÅŸlÄ± hanÃ§er~
+kÄ±rÄ±k taÅŸ~
+sivri uÃ§lu kÄ±rÄ±k bir taÅŸ yerde duruyor~
 stone~
 weapon AG AN
 dagger 4 4 stab D
@@ -292,9 +292,9 @@ A stone shard~
 Looks like it would make a good weapon.
 ~
 #29015
-kısa goblin kılıç~
-kısa goblin kılıcı~
-normal bir kısa kılıçtan daha ağır görünüyor, ama yinede biraz yağlanma yapılabilinir.~
+kÄ±sa goblin kÄ±lÄ±Ã§~
+kÄ±sa goblin kÄ±lÄ±cÄ±~
+normal bir kÄ±sa kÄ±lÄ±Ã§tan daha aÄŸÄ±r gÃ¶rÃ¼nÃ¼yor, ama yinede biraz yaÄŸlanma yapÄ±labilinir.~
 iron~
 weapon G AN
 sword 4 4 slash D
@@ -302,9 +302,9 @@ sword 4 4 slash D
 A
 19 1
 #29016
-köpüren siyah iksir~
-köpüren siyah iksir~
-köpüren siyah iksir görüyorsun~
+kÃ¶pÃ¼ren siyah iksir~
+kÃ¶pÃ¼ren siyah iksir~
+kÃ¶pÃ¼ren siyah iksir gÃ¶rÃ¼yorsun~
 glass~
 potion BG AO
 15 'heal' 'curse' 'heal' 'remove curse'
@@ -314,9 +314,9 @@ frothing black potion~
 It's moving. You can see little bugs and other chunks floating in it.
 ~
 #29017
-çift-elli uzun kılıç~
-çift-elli uzun kılıç~
-çift-elli uzun bir kılıç burada bırakılmış~
+Ã§ift-elli uzun kÄ±lÄ±Ã§~
+Ã§ift-elli uzun kÄ±lÄ±Ã§~
+Ã§ift-elli uzun bir kÄ±lÄ±Ã§ burada bÄ±rakÄ±lmÄ±ÅŸ~
 iron~
 weapon AG AN
 sword 4 6 slash DF
@@ -330,41 +330,41 @@ A
 A
 5 -2
 #29018
-şaman goblinin anahtarı~
-şaman goblinin anahtarı~
-eski püskü bir anahtar burada unutulmuş.~
+ÅŸaman goblinin anahtarÄ±~
+ÅŸaman goblinin anahtarÄ±~
+eski pÃ¼skÃ¼ bir anahtar burada unutulmuÅŸ.~
 iron~
 key 0 AN
 0 0 0 0 0
 5 10 0 G
 #29019
 goblin kral anahtar~
-goblin kral'ının anahtarı~
-eski püskü bir anahtar burada bırakılmış~
+goblin kral'Ä±nÄ±n anahtarÄ±~
+eski pÃ¼skÃ¼ bir anahtar burada bÄ±rakÄ±lmÄ±ÅŸ~
 iron~
 key 0 AN
 0 0 0 0 0
 5 10 0 G
 #29020
-anahtar büyücü goblin~
-goblin büyücüsü'nün anahtarı~
-eski püskü bir anahtar burada duruyor.~
+anahtar bÃ¼yÃ¼cÃ¼ goblin~
+goblin bÃ¼yÃ¼cÃ¼sÃ¼'nÃ¼n anahtarÄ±~
+eski pÃ¼skÃ¼ bir anahtar burada duruyor.~
 iron~
 key 0 AN
 0 0 0 0 0
 5 10 0 G
 #29021
 anahtar zindan goblin~
-goblin zindanının anahtarı~
-Eski bir anahtar burada bırakılmış.~
+goblin zindanÄ±nÄ±n anahtarÄ±~
+Eski bir anahtar burada bÄ±rakÄ±lmÄ±ÅŸ.~
 iron~
 key 0 AN
 0 0 0 0 0
 5 10 0 G
 #29022
-wardamir kayıp kaya~
-Wardamir'in kayıp kayası~
-Müthiş! Türlü destanlarda bahsi geçen kayıp kaya odanın ortasında duruyor.~
+wardamir kayÄ±p kaya~
+Wardamir'in kayÄ±p kayasÄ±~
+MÃ¼thiÅŸ! TÃ¼rlÃ¼ destanlarda bahsi geÃ§en kayÄ±p kaya odanÄ±n ortasÄ±nda duruyor.~
 stone~
 container ABGLRY AQ
 600 0 0 100 10
@@ -382,9 +382,9 @@ A
 A
 17 -2
 #29023
-yüzük britta~
-Britta'nın yüzüğü~
-Neredeyse farketmediğin altın küçük bir yüzük.~
+yÃ¼zÃ¼k britta~
+Britta'nÄ±n yÃ¼zÃ¼ÄŸÃ¼~
+Neredeyse farketmediÄŸin altÄ±n kÃ¼Ã§Ã¼k bir yÃ¼zÃ¼k.~
 gold~
 treasure G AB
 0 0 0 0 0
@@ -394,9 +394,9 @@ A
 A
 3 2
 #29024
-kitaplık~
-kitaplık~
-geniş ahşap kitaplık~
+kitaplÄ±k~
+kitaplÄ±k~
+geniÅŸ ahÅŸap kitaplÄ±k~
 wood~
 container 0 0
 100 0 0 50 72
@@ -408,8 +408,8 @@ are all written in GOBLIN!
 ~
 #29025
 masa~
-mahun ağacından yapılmış bir masa~
-mahun ağacından yapılmış bir masa burada duruyor.~
+mahun aÄŸacÄ±ndan yapÄ±lmÄ±ÅŸ bir masa~
+mahun aÄŸacÄ±ndan yapÄ±lmÄ±ÅŸ bir masa burada duruyor.~
 wood~
 container 0 0
 100 0 0 50 72
@@ -420,8 +420,8 @@ This is a beautiful desk.
 ~
 #29026
 taht~
-Kral Grumm'ın Tahtı~
-Kral Grumm'ın Tahtı burada~
+Kral Grumm'Ä±n TahtÄ±~
+Kral Grumm'Ä±n TahtÄ± burada~
 wood~
 furniture A 0
 2 200 ABCDEFGHIJKL 200 200
@@ -434,8 +434,8 @@ long since been scavenged.
 ~
 #29027
 masa~
-yemek masası~
-Yemek masası burada~
+yemek masasÄ±~
+Yemek masasÄ± burada~
 wood~
 furniture 0 0
 0 0 0 0 0
@@ -447,8 +447,8 @@ the north end of the Great Hall.
 ~
 #29028
 masa~
-yemek masası~
-Yemek masası burada~
+yemek masasÄ±~
+Yemek masasÄ± burada~
 wood~
 furniture 0 0
 0 0 0 0 0
@@ -459,17 +459,17 @@ This is by far the finest table you have ever seen. It stretches clear into
 the south end of the Great Hall.
 ~
 #29029
-altın~
-altın yığını~
-altın yığını burada parıldıyor.~
+altÄ±n~
+altÄ±n yÄ±ÄŸÄ±nÄ±~
+altÄ±n yÄ±ÄŸÄ±nÄ± burada parÄ±ldÄ±yor.~
 gold~
 money 0 A
 0 75 0 0 0
 0 0 0 P
 #29030
-ağır demir topuz~
-ağır demirle dövülmüş topuz~
-ağır demirle dövülmüş topuz burada duruyor.~
+aÄŸÄ±r demir topuz~
+aÄŸÄ±r demirle dÃ¶vÃ¼lmÃ¼ÅŸ topuz~
+aÄŸÄ±r demirle dÃ¶vÃ¼lmÃ¼ÅŸ topuz burada duruyor.~
 iron~
 weapon 0 AN
 mace 4 5 pound 0
@@ -480,15 +480,15 @@ mace 4 5 pound 0
 
 #ROOMS
 #29001
-Goblin Kalesinin Girişi~
-Katı granitlerin keskinleştirdiği büyük bir mağaraya adımını atıyorsun.
-İlk farkettiğin şey bulunduğun yerde etkisini süren pis koku oluyor. Savaş
-zırhlarını kuşanmış goblinler her taraftalar. İçinden bir düşünce belkide
-goblinlerin yakında Selenge'ye saldırabileceğini söylüyor, belkide güney
-kapısının dışında gördüğün goblinlerinde bir etkisi olabilir bu düşünceye
-varmanda. Her ne amaç güderlerse gütsünler, senin buna bir son vermen
-gerekiyor. Doğuya, batıya uzanan koridorlar vede güneye doğru geniş kapılar
-görmektesin. Burada parlayan küçük bir tablet bulunmakta.
+Goblin Kalesinin GiriÅŸi~
+KatÄ± granitlerin keskinleÅŸtirdiÄŸi bÃ¼yÃ¼k bir maÄŸaraya adÄ±mÄ±nÄ± atÄ±yorsun.
+Ä°lk farkettiÄŸin ÅŸey bulunduÄŸun yerde etkisini sÃ¼ren pis koku oluyor. SavaÅŸ
+zÄ±rhlarÄ±nÄ± kuÅŸanmÄ±ÅŸ goblinler her taraftalar. Ä°Ã§inden bir dÃ¼ÅŸÃ¼nce belkide
+goblinlerin yakÄ±nda Selenge'ye saldÄ±rabileceÄŸini sÃ¶ylÃ¼yor, belkide gÃ¼ney
+kapÄ±sÄ±nÄ±n dÄ±ÅŸÄ±nda gÃ¶rdÃ¼ÄŸÃ¼n goblinlerinde bir etkisi olabilir bu dÃ¼ÅŸÃ¼nceye
+varmanda. Her ne amaÃ§ gÃ¼derlerse gÃ¼tsÃ¼nler, senin buna bir son vermen
+gerekiyor. DoÄŸuya, batÄ±ya uzanan koridorlar vede gÃ¼neye doÄŸru geniÅŸ kapÄ±lar
+gÃ¶rmektesin. Burada parlayan kÃ¼Ã§Ã¼k bir tablet bulunmakta.
 ~
 0 D 0
 D5
@@ -502,9 +502,9 @@ Kalede bir koridor.
 ~
 0 -1 29019
 D2
-Geniş hol'ün Kuzey ucu
+GeniÅŸ hol'Ã¼n Kuzey ucu
 ~
-Geniş Kapı~
+GeniÅŸ KapÄ±~
 1 -1 29002
 D3
 Kalede bir koridor.
@@ -512,35 +512,35 @@ Kalede bir koridor.
 ~
 0 -1 29018
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Bu bölge 96 yılının haziran ayının sıcak bir gecesi düzeltildi, onarıldı ve
-uyarlandı + ++++++++ + + DN. Ölmeye hazırlan ++ Bu harita Siradril
-tarafından türkçeye çevrilmiştir. + + +
+Bu bÃ¶lge 96 yÄ±lÄ±nÄ±n haziran ayÄ±nÄ±n sÄ±cak bir gecesi dÃ¼zeltildi, onarÄ±ldÄ± ve
+uyarlandÄ± + ++++++++ + + DN. Ã–lmeye hazÄ±rlan ++ Bu harita Siradril
+tarafÄ±ndan tÃ¼rkÃ§eye Ã§evrilmiÅŸtir. + + +
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 #29002
-Geniş Hol'ün Kuzey Ucu~
-Bu kubbeli mağara etrafında gördüğün goblin türünün muazzam bir eseridir.
-Keskin granit bloklarından yapılmış duvarlar her blok başı 1 ton dan daha
-ağır olsa gerek. Kaygan kaya yukarıdaki mükemmel yarı daire şeklindeki savaş
-resmini aydınlatıyor. Duvarlarda çeşitli resimler ve çizimler duruyor, fakat
-goblinlerin ellerine geçtiğinden beri onarılmadığıda apaçık ortada olsa
-gerek. Mahun ağacından yapılmış uzun bir yemek masası yaklaşık 20 metrelik
-uzunluğuyla karşında duruyor. Güneh tarafta Geniş Hol'ün sonu bulunmakta.
-Buradaki sanat eserlerinin goblinler tarafından değilde cüceler tarafından
-yapıldığını anlıyorsun. Belkide goblin orduları buraya bir baskın verip
-cüceleri buradan dışarı sürmüşlerdir. Burada ne olmuş olursa görevin daha
-yeni başladı. Muhafızlar seni farketti. Hazır olan iyi olur. Geniş Hol
-güneye doğru devam ediyor, aynı zamanda batı ve doğu duvarlarındaki kapıları
+GeniÅŸ Hol'Ã¼n Kuzey Ucu~
+Bu kubbeli maÄŸara etrafÄ±nda gÃ¶rdÃ¼ÄŸÃ¼n goblin tÃ¼rÃ¼nÃ¼n muazzam bir eseridir.
+Keskin granit bloklarÄ±ndan yapÄ±lmÄ±ÅŸ duvarlar her blok baÅŸÄ± 1 ton dan daha
+aÄŸÄ±r olsa gerek. Kaygan kaya yukarÄ±daki mÃ¼kemmel yarÄ± daire ÅŸeklindeki savaÅŸ
+resmini aydÄ±nlatÄ±yor. Duvarlarda Ã§eÅŸitli resimler ve Ã§izimler duruyor, fakat
+goblinlerin ellerine geÃ§tiÄŸinden beri onarÄ±lmadÄ±ÄŸÄ±da apaÃ§Ä±k ortada olsa
+gerek. Mahun aÄŸacÄ±ndan yapÄ±lmÄ±ÅŸ uzun bir yemek masasÄ± yaklaÅŸÄ±k 20 metrelik
+uzunluÄŸuyla karÅŸÄ±nda duruyor. GÃ¼neh tarafta GeniÅŸ Hol'Ã¼n sonu bulunmakta.
+Buradaki sanat eserlerinin goblinler tarafÄ±ndan deÄŸilde cÃ¼celer tarafÄ±ndan
+yapÄ±ldÄ±ÄŸÄ±nÄ± anlÄ±yorsun. Belkide goblin ordularÄ± buraya bir baskÄ±n verip
+cÃ¼celeri buradan dÄ±ÅŸarÄ± sÃ¼rmÃ¼ÅŸlerdir. Burada ne olmuÅŸ olursa gÃ¶revin daha
+yeni baÅŸladÄ±. MuhafÄ±zlar seni farketti. HazÄ±r olan iyi olur. GeniÅŸ Hol
+gÃ¼neye doÄŸru devam ediyor, aynÄ± zamanda batÄ± ve doÄŸu duvarlarÄ±ndaki kapÄ±larÄ±
 farkediyorsun.
 ~
 0 D 0
 D0
-Goblin Kale'sinin Girişi
+Goblin Kale'sinin GiriÅŸi
 ~
-Geniş kapı~
+GeniÅŸ kapÄ±~
 1 -1 29001
 D1
 Mutfak
@@ -548,61 +548,61 @@ Mutfak
 ~
 0 -1 29023
 D2
-Geniş Hol'ün güney ucu.
+GeniÅŸ Hol'Ã¼n gÃ¼ney ucu.
 ~
 ~
 0 -1 29003
 D3
-Eğitim odası.
+EÄŸitim odasÄ±.
 ~
 ~
 1 -1 29021
 S
 #29003
-Geniş Hol'ün Güney Ucu~
-Bu kubbeli mağara etrafında gördüğün goblin türünün muazzam bir eseridir.
-Keskin granit bloklarından yapılmış duvarlar her blok başı 1 ton dan daha
-ağır olsa gerek. Kaygan kaya yukarıdaki mükemmel yarı daire şeklindeki savaş
-resmini aydınlatıyor. Duvarlarda çeşitli resimler ve çizimler duruyor, fakat
-goblinlerin ellerine geçtiğinden beri onarılmadığıda apaçık ortada olsa
-gerek. Mahun ağacından yapılmış uzun bir yemek masası yaklaşık 20 metrelik
-uzunluğuyla karşında duruyor. Kuzey taraftaki Geniş Hol'e uzanmakta. Güneye
-doğru büyük kemerli bir geçit bulunmakta, dikkatlice bakınca güneyde taht'ı
-görmektesin.
+GeniÅŸ Hol'Ã¼n GÃ¼ney Ucu~
+Bu kubbeli maÄŸara etrafÄ±nda gÃ¶rdÃ¼ÄŸÃ¼n goblin tÃ¼rÃ¼nÃ¼n muazzam bir eseridir.
+Keskin granit bloklarÄ±ndan yapÄ±lmÄ±ÅŸ duvarlar her blok baÅŸÄ± 1 ton dan daha
+aÄŸÄ±r olsa gerek. Kaygan kaya yukarÄ±daki mÃ¼kemmel yarÄ± daire ÅŸeklindeki savaÅŸ
+resmini aydÄ±nlatÄ±yor. Duvarlarda Ã§eÅŸitli resimler ve Ã§izimler duruyor, fakat
+goblinlerin ellerine geÃ§tiÄŸinden beri onarÄ±lmadÄ±ÄŸÄ±da apaÃ§Ä±k ortada olsa
+gerek. Mahun aÄŸacÄ±ndan yapÄ±lmÄ±ÅŸ uzun bir yemek masasÄ± yaklaÅŸÄ±k 20 metrelik
+uzunluÄŸuyla karÅŸÄ±nda duruyor. Kuzey taraftaki GeniÅŸ Hol'e uzanmakta. GÃ¼neye
+doÄŸru bÃ¼yÃ¼k kemerli bir geÃ§it bulunmakta, dikkatlice bakÄ±nca gÃ¼neyde taht'Ä±
+gÃ¶rmektesin.
 ~
 0 D 0
 D0
-Geniş Hol'ün kuzey ucu
+GeniÅŸ Hol'Ã¼n kuzey ucu
 ~
 ~
 0 -1 29002
 D2
-Kral Grumm'un Taht Odası
+Kral Grumm'un Taht OdasÄ±
 ~
 ~
 0 -1 29004
 S
 #29004
-Kral Grumm'un Taht Odası~
-Kral Grumm'un odasında kaos hükmetmekte. Soytarılar, danseden kadınlar,
-işgüzar görünümlü goblinler, ve çok büyük sayıda dikkat dağıtan kişiler
-kralın vakti için yarışmakta. Taht odası mükkemmel daire şeklinde bir saray
-odasını andırıyor, odanın ortasında kahramanvari görünümlü bir cüce heykeli
-bulunmakta. Bir kez daha duvarlarda çizimler görüyorsun; savaşları ve
-zaferleri portreleyen. Eğer kaosun daha fazla hükmetmesi mümkündü ise
-buradaki karnaval atmosferinde bunu başardın. Kral ayağa kalkıyor, ve goblin
-muhafızları güney tarafındaki kapıya yönelerek kapıyı kaplıyor. Grumm'un
-konuşmaya tenezzül edecek gibi bir havası yok! Doğuya ve batıya doğru
-kapılar bulunmakta.
+Kral Grumm'un Taht OdasÄ±~
+Kral Grumm'un odasÄ±nda kaos hÃ¼kmetmekte. SoytarÄ±lar, danseden kadÄ±nlar,
+iÅŸgÃ¼zar gÃ¶rÃ¼nÃ¼mlÃ¼ goblinler, ve Ã§ok bÃ¼yÃ¼k sayÄ±da dikkat daÄŸÄ±tan kiÅŸiler
+kralÄ±n vakti iÃ§in yarÄ±ÅŸmakta. Taht odasÄ± mÃ¼kkemmel daire ÅŸeklinde bir saray
+odasÄ±nÄ± andÄ±rÄ±yor, odanÄ±n ortasÄ±nda kahramanvari gÃ¶rÃ¼nÃ¼mlÃ¼ bir cÃ¼ce heykeli
+bulunmakta. Bir kez daha duvarlarda Ã§izimler gÃ¶rÃ¼yorsun; savaÅŸlarÄ± ve
+zaferleri portreleyen. EÄŸer kaosun daha fazla hÃ¼kmetmesi mÃ¼mkÃ¼ndÃ¼ ise
+buradaki karnaval atmosferinde bunu baÅŸardÄ±n. Kral ayaÄŸa kalkÄ±yor, ve goblin
+muhafÄ±zlarÄ± gÃ¼ney tarafÄ±ndaki kapÄ±ya yÃ¶nelerek kapÄ±yÄ± kaplÄ±yor. Grumm'un
+konuÅŸmaya tenezzÃ¼l edecek gibi bir havasÄ± yok! DoÄŸuya ve batÄ±ya doÄŸru
+kapÄ±lar bulunmakta.
 ~
 0 D 0
 D0
-Geniş Hol'ün Güney Ucu
+GeniÅŸ Hol'Ã¼n GÃ¼ney Ucu
 ~
 ~
 0 -1 29003
 D1
-Goblin Büyücüsünün Odası
+Goblin BÃ¼yÃ¼cÃ¼sÃ¼nÃ¼n OdasÄ±
 ~
 ~
 1 -1 29006
@@ -612,47 +612,47 @@ Gizli Pasaj
 Perde~
 1 -1 29007
 D3
-Goblin Şaman'ının Odası
+Goblin Åaman'Ä±nÄ±n OdasÄ±
 ~
 ~
 1 -1 29005
 S
 #29005
-Goblin Şaman'ının Odası~
-Bu odada kalenin diğer kısımlarındaki kaos hükmetmemekte. Havada güzel
-bir koku var, odada oldukça temiz görünmekte(goblin standarlarına göre).
-Kuzeydeki duvarda geniş bir kitaplık var, ve onun hemen önündede bir masa
+Goblin Åaman'Ä±nÄ±n OdasÄ±~
+Bu odada kalenin diÄŸer kÄ±sÄ±mlarÄ±ndaki kaos hÃ¼kmetmemekte. Havada gÃ¼zel
+bir koku var, odada oldukÃ§a temiz gÃ¶rÃ¼nmekte(goblin standarlarÄ±na gÃ¶re).
+Kuzeydeki duvarda geniÅŸ bir kitaplÄ±k var, ve onun hemen Ã¶nÃ¼ndede bir masa
 ile sandalye.
 ~
 0 D 0
 D1
-Kral Grumm'un Taht odası.
+Kral Grumm'un Taht odasÄ±.
 ~
 ~
 1 -1 29004
 S
 #29006
-Goblin Büyücüsünün Odası~
-Çok ağır bir sis hemen zeminin üstünde odaya yayılmakta. Görüşünü
-kapamakta yeterli olmadığı ortada bu sisin, daha yakından baktığında ,
-granit işlemenin üstüne bir pentagram kakılmış. Bunların dışında yalın bir
-oda, küçük bir karyola, masa görmektesin. Bunların dışında oda çok anlamsız.
+Goblin BÃ¼yÃ¼cÃ¼sÃ¼nÃ¼n OdasÄ±~
+Ã‡ok aÄŸÄ±r bir sis hemen zeminin Ã¼stÃ¼nde odaya yayÄ±lmakta. GÃ¶rÃ¼ÅŸÃ¼nÃ¼
+kapamakta yeterli olmadÄ±ÄŸÄ± ortada bu sisin, daha yakÄ±ndan baktÄ±ÄŸÄ±nda ,
+granit iÅŸlemenin Ã¼stÃ¼ne bir pentagram kakÄ±lmÄ±ÅŸ. BunlarÄ±n dÄ±ÅŸÄ±nda yalÄ±n bir
+oda, kÃ¼Ã§Ã¼k bir karyola, masa gÃ¶rmektesin. BunlarÄ±n dÄ±ÅŸÄ±nda oda Ã§ok anlamsÄ±z.
 ~
 0 ADN 0
 D3
-Kral Grumm'un Taht Odası.
+Kral Grumm'un Taht OdasÄ±.
 ~
 ~
 1 -1 29004
 S
 #29007
 Gizli Pasaj~
-Bu pasaj bir perdenin arkasında saklanmakta. Kuzeydeki Taht odasına ve
-güneydeki bir kapıya koridor görevi yapıyor.
+Bu pasaj bir perdenin arkasÄ±nda saklanmakta. Kuzeydeki Taht odasÄ±na ve
+gÃ¼neydeki bir kapÄ±ya koridor gÃ¶revi yapÄ±yor.
 ~
 0 D 0
 D0
-Kral Grumm'un Taht Odası
+Kral Grumm'un Taht OdasÄ±
 ~
 Perde~
 1 -1 29004
@@ -664,8 +664,8 @@ Gizli Pasaj
 S
 #29008
 Gizli Pasaj~
-İlk kapıyı açtıktan sonra, korkmamak için bir kaç saniyeliğine kendini
-toparlıyorsun. Güneyde ve kuzeyde kapı bulunmakta.
+Ä°lk kapÄ±yÄ± aÃ§tÄ±ktan sonra, korkmamak iÃ§in bir kaÃ§ saniyeliÄŸine kendini
+toparlÄ±yorsun. GÃ¼neyde ve kuzeyde kapÄ± bulunmakta.
 ~
 0 D 0
 D0
@@ -681,8 +681,8 @@ Gizli Pasaj
 S
 #29009
 Gizli Pasaj~
-İkinci kapıyı açtıktan sonra, korkmamak için bir kaç saniyeliğine kendini
-toparlıyorsun. Güneyde ve kuzeyde kapı bulunmakta.
+Ä°kinci kapÄ±yÄ± aÃ§tÄ±ktan sonra, korkmamak iÃ§in bir kaÃ§ saniyeliÄŸine kendini
+toparlÄ±yorsun. GÃ¼neyde ve kuzeyde kapÄ± bulunmakta.
 ~
 0 D 0
 D0
@@ -691,15 +691,15 @@ Gizli Pasaj
 ~
 1 29018 29008
 D2
-Goblin Kalesinin Hazine Odası
+Goblin Kalesinin Hazine OdasÄ±
 ~
 ~
 1 29019 29010
 S
 #29010
-Goblin Kalesinin Hazine Odası~
-Üçüncü Kapıyı açtıktan sonra, altın ve mücevher yığınının arasında
-buluyorsun kendini. Geldiğin kapı dışında odadan başka bir çıkış yok.
+Goblin Kalesinin Hazine OdasÄ±~
+ÃœÃ§Ã¼ncÃ¼ KapÄ±yÄ± aÃ§tÄ±ktan sonra, altÄ±n ve mÃ¼cevher yÄ±ÄŸÄ±nÄ±nÄ±n arasÄ±nda
+buluyorsun kendini. GeldiÄŸin kapÄ± dÄ±ÅŸÄ±nda odadan baÅŸka bir Ã§Ä±kÄ±ÅŸ yok.
 ~
 0 D 0
 D0
@@ -709,26 +709,26 @@ Gizli Pasaj
 1 29019 29009
 S
 #29011
-Zindanda küçük bir hücre~
-Bu odanın kapısından içeri girdiğinde, bir çarpma ve klik sesi
-duyuyorsun. Hemen arkana dönüp baktığında kapının kapatılmış ve kilitlenmiş
-olduğunu farkediyorsun. Kapının dışından iğrenç bir kahkaha duymaktasın.
-Kaçmanın yolu yok. Zamanını bu goblin hücresinde çürüyerek geçireceksin
-artık.
+Zindanda kÃ¼Ã§Ã¼k bir hÃ¼cre~
+Bu odanÄ±n kapÄ±sÄ±ndan iÃ§eri girdiÄŸinde, bir Ã§arpma ve klik sesi
+duyuyorsun. Hemen arkana dÃ¶nÃ¼p baktÄ±ÄŸÄ±nda kapÄ±nÄ±n kapatÄ±lmÄ±ÅŸ ve kilitlenmiÅŸ
+olduÄŸunu farkediyorsun. KapÄ±nÄ±n dÄ±ÅŸÄ±ndan iÄŸrenÃ§ bir kahkaha duymaktasÄ±n.
+KaÃ§manÄ±n yolu yok. ZamanÄ±nÄ± bu goblin hÃ¼cresinde Ã§Ã¼rÃ¼yerek geÃ§ireceksin
+artÄ±k.
 ~
 0 D 0
 D5
-Minik işçilik alanı
+Minik iÅŸÃ§ilik alanÄ±
 ~
 ~
 1 -1 29024
 S
 #29012
-Zindanda küçük bir hücre~
-Burası 6 metrekarelik bir hücre, ayaklarının altında saman var. Odanın
-havası nemli ve rutubetli. Uzaktaki duvarda duran pranga seti gözüne
-çarpıyor. Ziyaret etmek için güzel fakat yaşamak için çok kötü bir yer
-olduğunu düşünüyorsun buranın.
+Zindanda kÃ¼Ã§Ã¼k bir hÃ¼cre~
+BurasÄ± 6 metrekarelik bir hÃ¼cre, ayaklarÄ±nÄ±n altÄ±nda saman var. OdanÄ±n
+havasÄ± nemli ve rutubetli. Uzaktaki duvarda duran pranga seti gÃ¶zÃ¼ne
+Ã§arpÄ±yor. Ziyaret etmek iÃ§in gÃ¼zel fakat yaÅŸamak iÃ§in Ã§ok kÃ¶tÃ¼ bir yer
+olduÄŸunu dÃ¼ÅŸÃ¼nÃ¼yorsun buranÄ±n.
 ~
 0 D 0
 D2
@@ -738,11 +738,11 @@ Zindanda bir hol
 1 29021 29025
 S
 #29013
-Zindanda küçük bir hücre~
-Burası 6 metrekarelik bir hücre, ayaklarının altında saman var. Odanın
-havası nemli ve rutubetli. Uzaktaki duvarda duran pranga seti gözüne
-çarpıyor. Ziyaret etmek için güzel fakat yaşamak için çok kötü bir yer
-olduğunu düşünüyorsun buranın.
+Zindanda kÃ¼Ã§Ã¼k bir hÃ¼cre~
+BurasÄ± 6 metrekarelik bir hÃ¼cre, ayaklarÄ±nÄ±n altÄ±nda saman var. OdanÄ±n
+havasÄ± nemli ve rutubetli. Uzaktaki duvarda duran pranga seti gÃ¶zÃ¼ne
+Ã§arpÄ±yor. Ziyaret etmek iÃ§in gÃ¼zel fakat yaÅŸamak iÃ§in Ã§ok kÃ¶tÃ¼ bir yer
+olduÄŸunu dÃ¼ÅŸÃ¼nÃ¼yorsun buranÄ±n.
 ~
 0 D 0
 D0
@@ -752,11 +752,11 @@ Zindanda bir hol
 1 29021 29025
 S
 #29014
-Zindanda küçük bir hücre~
-Burası 6 metrekarelik bir hücre, ayaklarının altında saman var. Odanın
-havası nemli ve rutubetli. Uzaktaki duvarda duran pranga seti gözüne
-çarpıyor. Ziyaret etmek için güzel fakat yaşamak için çok kötü bir yer
-olduğunu düşünüyorsun buranın.
+Zindanda kÃ¼Ã§Ã¼k bir hÃ¼cre~
+BurasÄ± 6 metrekarelik bir hÃ¼cre, ayaklarÄ±nÄ±n altÄ±nda saman var. OdanÄ±n
+havasÄ± nemli ve rutubetli. Uzaktaki duvarda duran pranga seti gÃ¶zÃ¼ne
+Ã§arpÄ±yor. Ziyaret etmek iÃ§in gÃ¼zel fakat yaÅŸamak iÃ§in Ã§ok kÃ¶tÃ¼ bir yer
+olduÄŸunu dÃ¼ÅŸÃ¼nÃ¼yorsun buranÄ±n.
 ~
 0 D 0
 D2
@@ -766,11 +766,11 @@ Zindanda bir hol
 1 29021 29026
 S
 #29015
-Zindanda küçük bir hücre~
-Burası 6 metrekarelik bir hücre, ayaklarının altında saman var. Odanın
-havası nemli ve rutubetli. Uzaktaki duvarda duran pranga seti gözüne
-çarpıyor. Ziyaret etmek için güzel fakat yaşamak için çok kötü bir yer
-olduğunu düşünüyorsun buranın.
+Zindanda kÃ¼Ã§Ã¼k bir hÃ¼cre~
+BurasÄ± 6 metrekarelik bir hÃ¼cre, ayaklarÄ±nÄ±n altÄ±nda saman var. OdanÄ±n
+havasÄ± nemli ve rutubetli. Uzaktaki duvarda duran pranga seti gÃ¶zÃ¼ne
+Ã§arpÄ±yor. Ziyaret etmek iÃ§in gÃ¼zel fakat yaÅŸamak iÃ§in Ã§ok kÃ¶tÃ¼ bir yer
+olduÄŸunu dÃ¼ÅŸÃ¼nÃ¼yorsun buranÄ±n.
 ~
 0 D 0
 D0
@@ -781,10 +781,10 @@ Zindanda bir hol
 S
 #29016
 Zindan~
-Demir kapının ardında küçük bir muhafız odası bulunmakta. Odada bir masa
-ve bir kaç sandalye bulunmakta, başka dikkatini çeken birşey yok. Batıya
-doğru uzanan bir koridor ile yukarıya çıkan demir kapı etraftaki tek çıkış
-yolları.
+Demir kapÄ±nÄ±n ardÄ±nda kÃ¼Ã§Ã¼k bir muhafÄ±z odasÄ± bulunmakta. Odada bir masa
+ve bir kaÃ§ sandalye bulunmakta, baÅŸka dikkatini Ã§eken birÅŸey yok. BatÄ±ya
+doÄŸru uzanan bir koridor ile yukarÄ±ya Ã§Ä±kan demir kapÄ± etraftaki tek Ã§Ä±kÄ±ÅŸ
+yollarÄ±.
 ~
 0 D 0
 D3
@@ -800,9 +800,9 @@ Kalede bir koridor.
 S
 #29017
 Kalede bir koridor~
-Duvara tutturulmuş meşalelerle aydınlanıyor bu oda. Yerde demir bir kapı
-görüyorsun, buradan inlemeler ve çığlıklar duyuyorsun. Koridor doğuya ve
-güneydeki geniş bir odaya doğru uzanıyor.
+Duvara tutturulmuÅŸ meÅŸalelerle aydÄ±nlanÄ±yor bu oda. Yerde demir bir kapÄ±
+gÃ¶rÃ¼yorsun, buradan inlemeler ve Ã§Ä±ÄŸlÄ±klar duyuyorsun. Koridor doÄŸuya ve
+gÃ¼neydeki geniÅŸ bir odaya doÄŸru uzanÄ±yor.
 ~
 0 D 0
 D1
@@ -811,30 +811,30 @@ Kalede bir koridor
 ~
 0 -1 29018
 D2
-Goblin Barakaları
+Goblin BarakalarÄ±
 ~
 ~
 0 -1 29027
 D5
-Demir kapı
+Demir kapÄ±
 ~
-demir kapı~
+demir kapÄ±~
 1 -1 29016
 S
 #29018
 Kalede bir koridor~
-Duvara tutturulmuş meşalelerle aydınlanıyor bu oda. Koridor batıya doğru
-devam ediyor, Giriş Holü doğuda kalıyor. Aynı zamanda güney tarafında bir
-oda görüyorsun. Güney tarafından kılıç,balta sesleri geliyor.
+Duvara tutturulmuÅŸ meÅŸalelerle aydÄ±nlanÄ±yor bu oda. Koridor batÄ±ya doÄŸru
+devam ediyor, GiriÅŸ HolÃ¼ doÄŸuda kalÄ±yor. AynÄ± zamanda gÃ¼ney tarafÄ±nda bir
+oda gÃ¶rÃ¼yorsun. GÃ¼ney tarafÄ±ndan kÄ±lÄ±Ã§,balta sesleri geliyor.
 ~
 0 D 0
 D1
-Goblin Kalesinin Girişi
+Goblin Kalesinin GiriÅŸi
 ~
 ~
 0 -1 29001
 D2
-Goblin Eğitim Odası
+Goblin EÄŸitim OdasÄ±
 ~
 ~
 0 -1 29021
@@ -846,9 +846,9 @@ Kalede bir koridor
 S
 #29019
 Kalede bir koridor~
-Duvara tutturulmuş meşalelerle aydınlanıyor bu oda. Koridor doğuya doğru
-devam ediyor, Giriş Holü batıda kalıyor. Aynı zamanda güney tarafında bir
-oda görüyorsun. Burnuna garip kokular geliyor...
+Duvara tutturulmuÅŸ meÅŸalelerle aydÄ±nlanÄ±yor bu oda. Koridor doÄŸuya doÄŸru
+devam ediyor, GiriÅŸ HolÃ¼ batÄ±da kalÄ±yor. AynÄ± zamanda gÃ¼ney tarafÄ±nda bir
+oda gÃ¶rÃ¼yorsun. Burnuna garip kokular geliyor...
 ~
 0 D 0
 D1
@@ -862,19 +862,19 @@ Mutfak
 ~
 0 -1 29023
 D3
-Goblin Kalesinin Girişi
+Goblin Kalesinin GiriÅŸi
 ~
 ~
 0 -1 29001
 S
 #29020
 Kalede bir koridor~
-Duvara tutturulmuş meşalelerle aydınlanıyor bu oda. Koridor batıya doğru
-devam ediyor. Aynı zamanda güney tarafında bir oda görüyorsun.
+Duvara tutturulmuÅŸ meÅŸalelerle aydÄ±nlanÄ±yor bu oda. Koridor batÄ±ya doÄŸru
+devam ediyor. AynÄ± zamanda gÃ¼ney tarafÄ±nda bir oda gÃ¶rÃ¼yorsun.
 ~
 0 D 0
 D2
-Goblin Barakaları.
+Goblin BarakalarÄ±.
 ~
 ~
 0 -1 29022
@@ -885,11 +885,11 @@ Kalede bir koridor
 0 -1 29019
 S
 #29021
-Goblin Eğitim Odası~
-Goblinler burada savaşçı eğitimi görüp savaşçı olma yetisi kazanıyorlar.
-Çeşitli manken hedefler, ve bir sürü eğitim eşyası etrafta duruyor. Yerde
-yapışkan hale gelmiş kan duruyor. Görünüşe göre goblinler cücelerin savaş
-eğitimi teorisine katılmaktalar.
+Goblin EÄŸitim OdasÄ±~
+Goblinler burada savaÅŸÃ§Ä± eÄŸitimi gÃ¶rÃ¼p savaÅŸÃ§Ä± olma yetisi kazanÄ±yorlar.
+Ã‡eÅŸitli manken hedefler, ve bir sÃ¼rÃ¼ eÄŸitim eÅŸyasÄ± etrafta duruyor. Yerde
+yapÄ±ÅŸkan hale gelmiÅŸ kan duruyor. GÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re goblinler cÃ¼celerin savaÅŸ
+eÄŸitimi teorisine katÄ±lmaktalar.
 ~
 0 D 0
 D0
@@ -898,17 +898,17 @@ Kalede bir koridor
 ~
 0 -1 29018
 D1
-Geniş Hol'ün güney ucu
+GeniÅŸ Hol'Ã¼n gÃ¼ney ucu
 ~
 ~
 1 -1 29002
 S
 #29022
-Goblin Barakaları~
-Bu oda goblin askerlerinin uyuması için. 20 metrekarelik genişliğe sahip,
-bir sürü ranzanın içinde bulunduğu bir odadasın. Burada duvarlara kazınmış
-çeşitli çizimler görüyorsun, fakat bu goblin elişine daha çok benziyor, ve
-gördüğün çizimler goblin dişilerine ait. Kuzeye doğru bir kapı görüyorsun.
+Goblin BarakalarÄ±~
+Bu oda goblin askerlerinin uyumasÄ± iÃ§in. 20 metrekarelik geniÅŸliÄŸe sahip,
+bir sÃ¼rÃ¼ ranzanÄ±n iÃ§inde bulunduÄŸu bir odadasÄ±n. Burada duvarlara kazÄ±nmÄ±ÅŸ
+Ã§eÅŸitli Ã§izimler gÃ¶rÃ¼yorsun, fakat bu goblin eliÅŸine daha Ã§ok benziyor, ve
+gÃ¶rdÃ¼ÄŸÃ¼n Ã§izimler goblin diÅŸilerine ait. Kuzeye doÄŸru bir kapÄ± gÃ¶rÃ¼yorsun.
 ~
 0 D 0
 D0
@@ -919,8 +919,8 @@ Kalede bir koridor
 S
 #29023
 Mutfak~
-Geniş bir mutfaktasın, fokurdayan tencereler, ve çok kötü koku odada
-dikkat ettiğin tek şey. Batıda ve kuzeyde kapılar duruyor.
+GeniÅŸ bir mutfaktasÄ±n, fokurdayan tencereler, ve Ã§ok kÃ¶tÃ¼ koku odada
+dikkat ettiÄŸin tek ÅŸey. BatÄ±da ve kuzeyde kapÄ±lar duruyor.
 ~
 0 D 0
 D0
@@ -929,32 +929,32 @@ Kalede bir Koridor
 ~
 0 -1 29019
 D3
-Geniş Hol'ün güney ucu
+GeniÅŸ Hol'Ã¼n gÃ¼ney ucu
 ~
 ~
 1 -1 29002
 S
 #29024
-Minik işçilik alanı~
-Hücrenin altında minik bir işçilik alanı bulunmakta. Alanın içinde bir
-tane geçit görüyorsun.
+Minik iÅŸÃ§ilik alanÄ±~
+HÃ¼crenin altÄ±nda minik bir iÅŸÃ§ilik alanÄ± bulunmakta. AlanÄ±n iÃ§inde bir
+tane geÃ§it gÃ¶rÃ¼yorsun.
 ~
 0 D 0
 D4
-Zindanda küçük bir hücre
+Zindanda kÃ¼Ã§Ã¼k bir hÃ¼cre
 ~
 ~
 1 -1 29011
 S
 #29025
 Zindanda bir Koridor~
-Burası kaleye daha sonradan monte edilmiş bir alana benziyor. Koridor
-daha çok küçük bir tünele benziyor. Koridor doğuya devam ediyor, kuzeyde
-güneyde ve batıda kapılar var.
+BurasÄ± kaleye daha sonradan monte edilmiÅŸ bir alana benziyor. Koridor
+daha Ã§ok kÃ¼Ã§Ã¼k bir tÃ¼nele benziyor. Koridor doÄŸuya devam ediyor, kuzeyde
+gÃ¼neyde ve batÄ±da kapÄ±lar var.
 ~
 0 D 0
 D0
-Zindanda küçük bir hücre
+Zindanda kÃ¼Ã§Ã¼k bir hÃ¼cre
 ~
 ~
 1 29021 29012
@@ -964,25 +964,25 @@ Zindanda bir koridor
 ~
 0 -1 29026
 D2
-Zindanda küçük bir hücre
+Zindanda kÃ¼Ã§Ã¼k bir hÃ¼cre
 ~
 ~
 1 29021 29013
 D3
-Zindanda küçük bir hücre
+Zindanda kÃ¼Ã§Ã¼k bir hÃ¼cre
 ~
 ~
 1 29021 29011
 S
 #29026
 Zindanda bir koridor~
-Burası kaleye daha sonradan monte edilmiş bir alana benziyor. Koridor
-daha çok küçük bir tünele benziyor. Koridor batıya doğru devam ediyor,
-kuzeyde güneyde ve doğuda kapılar var.
+BurasÄ± kaleye daha sonradan monte edilmiÅŸ bir alana benziyor. Koridor
+daha Ã§ok kÃ¼Ã§Ã¼k bir tÃ¼nele benziyor. Koridor batÄ±ya doÄŸru devam ediyor,
+kuzeyde gÃ¼neyde ve doÄŸuda kapÄ±lar var.
 ~
 0 D 0
 D0
-Zindanda küçük bir hücre
+Zindanda kÃ¼Ã§Ã¼k bir hÃ¼cre
 ~
 ~
 1 29021 29014
@@ -992,22 +992,22 @@ Zindan
 ~
 0 -1 29016
 D2
-Zindanda küçük bir hücre
+Zindanda kÃ¼Ã§Ã¼k bir hÃ¼cre
 ~
 ~
 1 29021 29015
 D3
-Zindanda küçük bir hücre
+Zindanda kÃ¼Ã§Ã¼k bir hÃ¼cre
 ~
 ~
 0 -1 29025
 S
 #29027
-Goblin Barakaları~
-Bu oda goblin askerlerinin uyuması için. 20 metrekarelik genişliğe sahip,
-bir sürü ranzanın içinde bulunduğu bir odadasın. Burada duvarlara kazınmış
-çeşitli çizimler görüyorsun, fakat bu goblin elişine daha çok benziyor, ve
-gördüğün çizimler goblin dişilerine ait. Kuzeye doğru bir kapı görüyorsun.
+Goblin BarakalarÄ±~
+Bu oda goblin askerlerinin uyumasÄ± iÃ§in. 20 metrekarelik geniÅŸliÄŸe sahip,
+bir sÃ¼rÃ¼ ranzanÄ±n iÃ§inde bulunduÄŸu bir odadasÄ±n. Burada duvarlara kazÄ±nmÄ±ÅŸ
+Ã§eÅŸitli Ã§izimler gÃ¶rÃ¼yorsun, fakat bu goblin eliÅŸine daha Ã§ok benziyor, ve
+gÃ¶rdÃ¼ÄŸÃ¼n Ã§izimler goblin diÅŸilerine ait. Kuzeye doÄŸru bir kapÄ± gÃ¶rÃ¼yorsun.
 ~
 0 D 0
 D0

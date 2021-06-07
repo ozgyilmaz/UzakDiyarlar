@@ -1,9 +1,9 @@
 #AREADATA
 Filename avci.are~
-Name Avcı Konağı~
+Name AvcÄ± KonaÄŸÄ±~
 Builder Asena~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 90
 Highlevel 100
 Minvnum 570
@@ -19,33 +19,33 @@ C
 
 #NEW_MOBILES
 #570
-avcı malikane koruma AVCI HUNTER~
+avcÄ± malikane koruma AVCI HUNTER~
 koruma~
-Avcı Kabalının Malikanesinin girişinde duran yabancıların girmesini
-önleyen bir Koruma.
+AvcÄ± KabalÄ±nÄ±n Malikanesinin giriÅŸinde duran yabancÄ±larÄ±n girmesini
+Ã¶nleyen bir Koruma.
 ~
-Yüzbinlerce altın ile özel olarak tutulmuş kaslı bir koruma.
+YÃ¼zbinlerce altÄ±n ile Ã¶zel olarak tutulmuÅŸ kaslÄ± bir koruma.
 ~
 human~
 ABKWe  DFHJVZc 92
 #571
-avcı kabal şifacı AVCI hunter~
-şifacı~
-Para karşılığı tutulmuş bir ermiş burada avcı kabal mensuplarına şifa
-dağıtmak için bekliyor.
+avcÄ± kabal ÅŸifacÄ± AVCI hunter~
+ÅŸifacÄ±~
+Para karÅŸÄ±lÄ±ÄŸÄ± tutulmuÅŸ bir ermiÅŸ burada avcÄ± kabal mensuplarÄ±na ÅŸifa
+daÄŸÄ±tmak iÃ§in bekliyor.
 ~
-Yüzbinlerce altın ile tutulmuş diyarda eşi benzeri az bulunan güçlü ve
-bilge bir şifacı burada avcı kabal mensuplarına şifa dağıtmayı bekliyor.
+YÃ¼zbinlerce altÄ±n ile tutulmuÅŸ diyarda eÅŸi benzeri az bulunan gÃ¼Ã§lÃ¼ ve
+bilge bir ÅŸifacÄ± burada avcÄ± kabal mensuplarÄ±na ÅŸifa daÄŸÄ±tmayÄ± bekliyor.
 ~
 human~
 ABQVae DFH 80
 #572
-avcı malikane koruma AVCI HUNTER~
+avcÄ± malikane koruma AVCI HUNTER~
 koruma~
-Avcı Kabalının Malikanesinin girişinde duran yabancıların girmesini
-önleyen bir Koruma.
+AvcÄ± KabalÄ±nÄ±n Malikanesinin giriÅŸinde duran yabancÄ±larÄ±n girmesini
+Ã¶nleyen bir Koruma.
 ~
-Yüzbinlerce altın ile özel olarak tutulmuş kaslı bir koruma.
+YÃ¼zbinlerce altÄ±n ile Ã¶zel olarak tutulmuÅŸ kaslÄ± bir koruma.
 ~
 human~
 ABKWe  DFHJVZ 92
@@ -54,26 +54,26 @@ ABKWe  DFHJVZ 92
 
 #OBJECTS
 #570
-altın işlemeli sandık~
-sandık~
-Avcı kabalının hazinesini içinde tutan, etrafa sarı ışık
-hüzmeleri yayan bir sandık.~
+altÄ±n iÅŸlemeli sandÄ±k~
+sandÄ±k~
+AvcÄ± kabalÄ±nÄ±n hazinesini iÃ§inde tutan, etrafa sarÄ± Ä±ÅŸÄ±k
+hÃ¼zmeleri yayan bir sandÄ±k.~
 golden~
 container CEORY P
 10 15 572 15 100
 60 1 20 P
 #571
 hazine~
-avcı kabalının hazinesi~
-avcı kabalının hazinesi~
+avcÄ± kabalÄ±nÄ±n hazinesi~
+avcÄ± kabalÄ±nÄ±n hazinesi~
 golden~
 treasure CETO AO
 0 0 0 0 0
 60 1 10000 P
 #572
-altın anahtar~
-altın işlemeli anahtar~
-Altın işlemeli anahtar burada duruyor.~
+altÄ±n anahtar~
+altÄ±n iÅŸlemeli anahtar~
+AltÄ±n iÅŸlemeli anahtar burada duruyor.~
 bone~
 key CEORY A
 0 0 0 0 0
@@ -82,12 +82,12 @@ key CEORY A
 
 #ROOMS
 #570
-Malikane'nin Kapıları~
-Daha önce görmediğin derecede lüks bir malikanenin altından yapılmış
-kapısının önünde duruyorsun. Altının etrafa yaydığı sarı ışık görünüşe göre
-bulunduğun yeri aydınlatan tek şey. Zenginlik abidesi malikane'nin kapıları
-sana içeride çok zengin kişi veyahut kişilerin bulunabileceğini
-düşündürüyor.
+Malikane'nin KapÄ±larÄ±~
+Daha Ã¶nce gÃ¶rmediÄŸin derecede lÃ¼ks bir malikanenin altÄ±ndan yapÄ±lmÄ±ÅŸ
+kapÄ±sÄ±nÄ±n Ã¶nÃ¼nde duruyorsun. AltÄ±nÄ±n etrafa yaydÄ±ÄŸÄ± sarÄ± Ä±ÅŸÄ±k gÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re
+bulunduÄŸun yeri aydÄ±nlatan tek ÅŸey. Zenginlik abidesi malikane'nin kapÄ±larÄ±
+sana iÃ§eride Ã§ok zengin kiÅŸi veyahut kiÅŸilerin bulunabileceÄŸini
+dÃ¼ÅŸÃ¼ndÃ¼rÃ¼yor.
 ~
 0 ACDX 0
 D2
@@ -96,15 +96,15 @@ D2
 0 -1 9783
 D4
 ~
-giriş~
+giriÅŸ~
 3 -1 571
 S
 #571
-Malikane'nin Girişi~
-Lüks lambaların aydınlattığı altından oluşan dekorlu bir odadasın.
-Malikanenin içinde kapıda iki tane koruma görüyorsun. Amaçları Avcı
-Kabalının Malikanesini davetsiz misafirlerden korumak olsa gerek. Eğer tek
-parça halinde kalmak istiyorsan yapman gereken tek şey kaçmak.
+Malikane'nin GiriÅŸi~
+LÃ¼ks lambalarÄ±n aydÄ±nlattÄ±ÄŸÄ± altÄ±ndan oluÅŸan dekorlu bir odadasÄ±n.
+Malikanenin iÃ§inde kapÄ±da iki tane koruma gÃ¶rÃ¼yorsun. AmaÃ§larÄ± AvcÄ±
+KabalÄ±nÄ±n Malikanesini davetsiz misafirlerden korumak olsa gerek. EÄŸer tek
+parÃ§a halinde kalmak istiyorsan yapman gereken tek ÅŸey kaÃ§mak.
 ~
 0 ACDX 0
 D0
@@ -113,17 +113,17 @@ D0
 5 -1 572
 D5
 ~
-giriş~
+giriÅŸ~
 3 -1 570
 S
 #572
 Gizemli Koridor~
-Etrafında binlerce kapı barındıran bir koridordasın. Girdiğin odaların
-hepsinde birbirinin aynı; Gösterişli eşyalar, rahat görünüşlü kanepeler, ve
-de bir kaç yatak... Altın kaplı döşemeler, lüks lambalar aklını karıştırıyor
-kayıpmı oluyorsun? İçinden bir ses bu odaların aynı olduğunu söylüyor fakat
-bu nasıl olur? Odanın kuzey duvarında bir kapı etrafa sarı ışık hüzmeleri
-yayıyor.
+EtrafÄ±nda binlerce kapÄ± barÄ±ndÄ±ran bir koridordasÄ±n. GirdiÄŸin odalarÄ±n
+hepsinde birbirinin aynÄ±; GÃ¶steriÅŸli eÅŸyalar, rahat gÃ¶rÃ¼nÃ¼ÅŸlÃ¼ kanepeler, ve
+de bir kaÃ§ yatak... AltÄ±n kaplÄ± dÃ¶ÅŸemeler, lÃ¼ks lambalar aklÄ±nÄ± karÄ±ÅŸtÄ±rÄ±yor
+kayÄ±pmÄ± oluyorsun? Ä°Ã§inden bir ses bu odalarÄ±n aynÄ± olduÄŸunu sÃ¶ylÃ¼yor fakat
+bu nasÄ±l olur? OdanÄ±n kuzey duvarÄ±nda bir kapÄ± etrafa sarÄ± Ä±ÅŸÄ±k hÃ¼zmeleri
+yayÄ±yor.
 ~
 0 ADX 0
 D0
@@ -144,11 +144,11 @@ D3
 0 -1 572
 S
 #573
-Avcı Kabalında Gizli bir oda~
-Kapıdan içeri girdiğinde gördüklerinin birer halisünasyon olduğunu
-aslında tek tük meşalelerle aydınlanmış, loş ve nemli bir havanın hakim
-olduğu mahzende buluyorsun kendini. Odanın ortasında duran sandığın içinde
-değerli birşeyler olsa gerek...
+AvcÄ± KabalÄ±nda Gizli bir oda~
+KapÄ±dan iÃ§eri girdiÄŸinde gÃ¶rdÃ¼klerinin birer halisÃ¼nasyon olduÄŸunu
+aslÄ±nda tek tÃ¼k meÅŸalelerle aydÄ±nlanmÄ±ÅŸ, loÅŸ ve nemli bir havanÄ±n hakim
+olduÄŸu mahzende buluyorsun kendini. OdanÄ±n ortasÄ±nda duran sandÄ±ÄŸÄ±n iÃ§inde
+deÄŸerli birÅŸeyler olsa gerek...
 ~
 0 ADX 0
 M 110

@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -49,6 +49,8 @@
 ***************************************************************************/
 
 #include <stdio.h>
+#include <wchar.h>
+#include <wctype.h>
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -76,7 +78,7 @@ void load_socials( FILE *fp)
     for ( ; ; )
     {
     	struct social_type social;
-    	char *temp;
+    	wchar_t *temp;
         /* clear social */
 	social.char_no_arg = NULL;
 	social.others_no_arg = NULL;
@@ -88,20 +90,20 @@ void load_socials( FILE *fp)
 	social.others_auto = NULL;
 
     	temp = fread_word(fp);
-    	if (!strcmp(temp,"#0"))
+    	if (!wcscmp(temp,L"#0"))
 	    return;  /* done */
 #if defined(social_debug)
 	else
-	    fprintf(stderr,"%s\n\r",temp);
+	    fwprintf( stderr, L"%s\n\r",temp);
 #endif
 
-    	strcpy(social.name,temp);
+    	wcscpy(social.name,temp);
     	fread_to_eol(fp);
 
 	temp = fread_string_eol(fp);
-	if (!strcmp(temp,"$"))
+	if (!wcscmp(temp, L"$"))
 	     social.char_no_arg = NULL;
-	else if (!strcmp(temp,"#"))
+	else if (!wcscmp(temp, L"#"))
 	{
 	     social_table[social_count] = social;
 	     social_count++;
@@ -111,9 +113,9 @@ void load_socials( FILE *fp)
 	    social.char_no_arg = temp;
 
         temp = fread_string_eol(fp);
-        if (!strcmp(temp,"$"))
+        if (!wcscmp(temp, L"$"))
              social.others_no_arg = NULL;
-        else if (!strcmp(temp,"#"))
+        else if (!wcscmp(temp, L"#"))
         {
 	     social_table[social_count] = social;
              social_count++;
@@ -123,9 +125,9 @@ void load_socials( FILE *fp)
 	    social.others_no_arg = temp;
 
         temp = fread_string_eol(fp);
-        if (!strcmp(temp,"$"))
+        if (!wcscmp(temp, L"$"))
              social.char_found = NULL;
-        else if (!strcmp(temp,"#"))
+        else if (!wcscmp(temp, L"#"))
         {
 	     social_table[social_count] = social;
              social_count++;
@@ -135,9 +137,9 @@ void load_socials( FILE *fp)
 	    social.char_found = temp;
 
         temp = fread_string_eol(fp);
-        if (!strcmp(temp,"$"))
+        if (!wcscmp(temp, L"$"))
              social.others_found = NULL;
-        else if (!strcmp(temp,"#"))
+        else if (!wcscmp(temp, L"#"))
         {
 	     social_table[social_count] = social;
              social_count++;
@@ -147,9 +149,9 @@ void load_socials( FILE *fp)
 	    social.others_found = temp;
 
         temp = fread_string_eol(fp);
-        if (!strcmp(temp,"$"))
+        if (!wcscmp(temp, L"$"))
              social.vict_found = NULL;
-        else if (!strcmp(temp,"#"))
+        else if (!wcscmp(temp, L"#"))
         {
 	     social_table[social_count] = social;
              social_count++;
@@ -159,9 +161,9 @@ void load_socials( FILE *fp)
 	    social.vict_found = temp;
 
         temp = fread_string_eol(fp);
-        if (!strcmp(temp,"$"))
+        if (!wcscmp(temp, L"$"))
              social.char_not_found = NULL;
-        else if (!strcmp(temp,"#"))
+        else if (!wcscmp(temp, L"#"))
         {
 	     social_table[social_count] = social;
              social_count++;
@@ -171,9 +173,9 @@ void load_socials( FILE *fp)
 	    social.char_not_found = temp;
 
         temp = fread_string_eol(fp);
-        if (!strcmp(temp,"$"))
+        if (!wcscmp(temp, L"$"))
              social.char_auto = NULL;
-        else if (!strcmp(temp,"#"))
+        else if (!wcscmp(temp, L"#"))
         {
 	     social_table[social_count] = social;
              social_count++;
@@ -183,9 +185,9 @@ void load_socials( FILE *fp)
 	    social.char_auto = temp;
 
         temp = fread_string_eol(fp);
-        if (!strcmp(temp,"$"))
+        if (!wcscmp(temp, L"$"))
              social.others_auto = NULL;
-        else if (!strcmp(temp,"#"))
+        else if (!wcscmp(temp, L"#"))
         {
              social_table[social_count] = social;
              social_count++;
@@ -209,13 +211,13 @@ void load_new_mobiles( FILE *fp )
     for ( ; ; )
     {
         sh_int vnum;
-        char letter;
+        wchar_t letter;
         int iHash;
 
         letter                          = fread_letter( fp );
         if ( letter != '#' )
         {
-            bug( "Load_new_mobiles: # not found.", 0 );
+            bug( L"Load_new_mobiles: # not found.", 0 );
             exit( 1 );
         }
 
@@ -226,7 +228,7 @@ void load_new_mobiles( FILE *fp )
         fBootDb = FALSE;
         if ( get_mob_index( vnum ) != NULL )
         {
-            bug( "Load_new_mobiles: vnum %d duplicated.", vnum );
+            bug( L"Load_new_mobiles: vnum %d duplicated.", vnum );
             exit( 1 );
         }
         fBootDb = TRUE;
@@ -245,10 +247,10 @@ void load_new_mobiles( FILE *fp )
 		pMobIndex->level                = fread_number( fp );
 
     if (pMobIndex->level <= 0)
-      bug( "Load_new_mobiles: Level %d found.", pMobIndex->level );
+      bug( L"Load_new_mobiles: Level %d found.", pMobIndex->level );
 
-		pMobIndex->long_descr[0]        = UPPER(pMobIndex->long_descr[0]);
-        pMobIndex->description[0]       = UPPER(pMobIndex->description[0]);
+		pMobIndex->long_descr[0]        = towupper(pMobIndex->long_descr[0]);
+        pMobIndex->description[0]       = towupper(pMobIndex->description[0]);
 
 		pMobIndex->practicer			= 0;
 		pMobIndex->detection			= race_table[pMobIndex->race].det;
@@ -314,7 +316,7 @@ void load_new_mobiles( FILE *fp )
 	pMobIndex->parts			= 0;
 	/* size */
 	pMobIndex->size				= 0;
-	pMobIndex->material			= str_dup("none");
+	pMobIndex->material			= str_dup( L"none");
 	pMobIndex->mprogs			= NULL;
 	pMobIndex->progtypes		= 0;
 
@@ -338,13 +340,13 @@ void load_objects( FILE *fp )
     for ( ; ; )
     {
         sh_int vnum;
-        char letter;
+        wchar_t letter;
         int iHash;
 
         letter                          = fread_letter( fp );
         if ( letter != '#' )
         {
-            bug( "Load_objects: # not found.", 0 );
+            bug( L"Load_objects: # not found.", 0 );
             exit( 1 );
         }
 
@@ -355,7 +357,7 @@ void load_objects( FILE *fp )
         fBootDb = FALSE;
         if ( get_obj_index( vnum ) != NULL )
         {
-            bug( "Load_objects: vnum %d duplicated.", vnum );
+            bug( L"Load_objects: vnum %d duplicated.", vnum );
             exit( 1 );
         }
         fBootDb = TRUE;
@@ -445,7 +447,7 @@ void load_objects( FILE *fp )
 
         for ( ; ; )
         {
-            char letter;
+            wchar_t letter;
 
             letter = fread_letter( fp );
 
@@ -490,7 +492,7 @@ void load_objects( FILE *fp )
 		    paf->where		= TO_DETECTS;
 		    break;
 		default:
-            	    bug( "Load_objects: Bad where on flag set.", 0 );
+            	    bug( L"Load_objects: Bad where on flag set.", 0 );
             	   exit( 1 );
 		}
                 paf->type               = -1;
@@ -518,7 +520,7 @@ void load_objects( FILE *fp )
 
             else
             {
-                ungetc( letter, fp );
+                ungetwc( letter, fp );
                 break;
             }
         }
@@ -538,20 +540,20 @@ void load_objects( FILE *fp )
 
 void load_omprogs( FILE *fp )
 {
-  char progtype[MAX_INPUT_LENGTH];
-  char progname[MAX_INPUT_LENGTH];
+  wchar_t progtype[MAX_INPUT_LENGTH];
+  wchar_t progname[MAX_INPUT_LENGTH];
 
     for ( ; ; )
     {
 	MOB_INDEX_DATA *pMobIndex;
 	OBJ_INDEX_DATA *pObjIndex;
-	char letter;
+	wchar_t letter;
 
 
 	switch ( letter = fread_letter( fp ) )
 	{
 	default:
-	    bug( "Load_omprogs: letter '%c' not *IMS.", letter );
+	    bug( L"Load_omprogs: letter '%c' not *IMS.", letter );
 	    exit( 1 );
 
 	case 'S':
@@ -565,8 +567,8 @@ void load_omprogs( FILE *fp )
 	    if (pObjIndex->oprogs == NULL)
 	      pObjIndex->oprogs = (OPROG_DATA*)alloc_perm(sizeof(OPROG_DATA));
 
-	    strcpy(progtype, fread_word(fp));
-	    strcpy(progname, fread_word(fp));
+	    wcscpy(progtype, fread_word(fp));
+	    wcscpy(progname, fread_word(fp));
 	    oprog_set( pObjIndex, progtype, progname);
 	    break;
 
@@ -575,8 +577,8 @@ void load_omprogs( FILE *fp )
 	    if (pMobIndex->mprogs == NULL)
 	      pMobIndex->mprogs = (MPROG_DATA*)alloc_perm(sizeof(MPROG_DATA));
 
-	    strcpy(progtype,fread_word(fp));
-	    strcpy(progname,fread_word(fp));
+	    wcscpy(progtype,fread_word(fp));
+	    wcscpy(progname,fread_word(fp));
 	    mprog_set( pMobIndex,progtype,progname);
 	    break;
 	}

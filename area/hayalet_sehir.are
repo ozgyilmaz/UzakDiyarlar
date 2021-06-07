@@ -1,9 +1,9 @@
 #AREADATA
 Filename hayalet_sehir.are~
-Name Hayalet Şehir~
+Name Hayalet Åehir~
 Builder Yaegar~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 45
 Highlevel 65
 Minvnum 8100
@@ -15,7 +15,7 @@ Yonelim_kem 70
 END
 
 #HELPS
-0 'HAYALET ŞEHİR'~
+0 'HAYALET ÅEHÄ°R'~
 This is purely a simple hack-n-slash area with the interesting added feature
 that you can't recall... You have to fight your way through the many powerful
 high level undead that populate this place. To a good mudder its heaven. To
@@ -32,354 +32,354 @@ be considered impossible. Either way, have fun.
 #8100
 hortlak~
 bir hortlak~
-Bir hortlak çığlık atarak sana saldırdı!
+Bir hortlak Ã§Ä±ÄŸlÄ±k atarak sana saldÄ±rdÄ±!
 ~
-Buranın eski muhafızlarından birinin ruhu, bu pis hortlak. Senin de bu
-lanetli araziye gelen önceki davetsiz misafirlerle aynı kaderi paylaşman
-için elinden geleni yapacak.- ÖLÜM!.
+BuranÄ±n eski muhafÄ±zlarÄ±ndan birinin ruhu, bu pis hortlak. Senin de bu
+lanetli araziye gelen Ã¶nceki davetsiz misafirlerle aynÄ± kaderi paylaÅŸman
+iÃ§in elinden geleni yapacak.- Ã–LÃœM!.
 ~
 undead~
 AFGO DFHT 60
 #8101
 ruh~
 bir ruh~
-Bir ruh sana doğru uzun, sessiz adımlarla geliyor. Kırmızı parıldayan
-gözlerinde ölüm var.
+Bir ruh sana doÄŸru uzun, sessiz adÄ±mlarla geliyor. KÄ±rmÄ±zÄ± parÄ±ldayan
+gÃ¶zlerinde Ã¶lÃ¼m var.
 ~
-Buranın eski muhafızlarından birinin ruhu, bu pis hortlak. Senin de bu
-lanetli araziye gelen önceki davetsiz misafirlerle aynı kaderi paylaşman
-için elinden geleni yapacak.- ÖLÜM!.
+BuranÄ±n eski muhafÄ±zlarÄ±ndan birinin ruhu, bu pis hortlak. Senin de bu
+lanetli araziye gelen Ã¶nceki davetsiz misafirlerle aynÄ± kaderi paylaÅŸman
+iÃ§in elinden geleni yapacak.- Ã–LÃœM!.
 ~
 undead~
 AFGO DFT 47
 #8102
 gulyabani~
 bir gulyabani~
-Sarı benizli bir gulyabani, hala üzerinde yaşarken giydiği zırhıyla, sana
-saldırıyor.
+SarÄ± benizli bir gulyabani, hala Ã¼zerinde yaÅŸarken giydiÄŸi zÄ±rhÄ±yla, sana
+saldÄ±rÄ±yor.
 ~
-Buranın eski muhafızlarından birinin ruhu, bu pis hortlak. Senin de bu
-lanetli araziye gelen önceki davetsiz misafirlerle aynı kaderi paylaşman
-için elinden geleni yapacak.- ÖLÜM!.
+BuranÄ±n eski muhafÄ±zlarÄ±ndan birinin ruhu, bu pis hortlak. Senin de bu
+lanetli araziye gelen Ã¶nceki davetsiz misafirlerle aynÄ± kaderi paylaÅŸman
+iÃ§in elinden geleni yapacak.- Ã–LÃœM!.
 ~
 undead~
 AFGO DF 45
 #8103
 hayalet~
 bir hayalet~
-Uzun süredir ölü bir maceracının hayaleti sana doğru çılgınca uluyor.
+Uzun sÃ¼redir Ã¶lÃ¼ bir maceracÄ±nÄ±n hayaleti sana doÄŸru Ã§Ä±lgÄ±nca uluyor.
 ~
-Buranın eski muhafızlarından birinin ruhu, bu pis hortlak. Senin de bu
-lanetli araziye gelen önceki davetsiz misafirlerle aynı kaderi paylaşman
-için elinden geleni yapacak.- ÖLÜM!.
+BuranÄ±n eski muhafÄ±zlarÄ±ndan birinin ruhu, bu pis hortlak. Senin de bu
+lanetli araziye gelen Ã¶nceki davetsiz misafirlerle aynÄ± kaderi paylaÅŸman
+iÃ§in elinden geleni yapacak.- Ã–LÃœM!.
 ~
 undead~
 AFGO DFTU 48
 #8104
 vampir~
 bir vampir~
-Şeytani bir vampir tabutundan kalkıyor ve saldırıyor.!
+Åeytani bir vampir tabutundan kalkÄ±yor ve saldÄ±rÄ±yor.!
 ~
-Şeytani Baron ve iki kardeşi, onları tamamiyle yokedecek güce sahip olmayan
-Xanan tarafından buraya hapsedilmiş vampirlerdiler. Ve şimdi onları tekrar
-dirilttiğin için sana müteşekkirler.!
+Åeytani Baron ve iki kardeÅŸi, onlarÄ± tamamiyle yokedecek gÃ¼ce sahip olmayan
+Xanan tarafÄ±ndan buraya hapsedilmiÅŸ vampirlerdiler. Ve ÅŸimdi onlarÄ± tekrar
+dirilttiÄŸin iÃ§in sana mÃ¼teÅŸekkirler.!
 ~
 undead~
 ABFGO DFN 54
 #8105
-büyücü~
-bir büyücü~
-Çıldırmış bir büyücü üzerine doğru bir sürü büyü yolluyor.
+bÃ¼yÃ¼cÃ¼~
+bir bÃ¼yÃ¼cÃ¼~
+Ã‡Ä±ldÄ±rmÄ±ÅŸ bir bÃ¼yÃ¼cÃ¼ Ã¼zerine doÄŸru bir sÃ¼rÃ¼ bÃ¼yÃ¼ yolluyor.
 ~
-Bu kudretli hortlak, daha önceden ihanete uğrayarak öldürülmüş olan
-Xantharus'un efendisi olmalı. Ama durumu tahmin etti ve bir büyücü
-olarak geri döndü. Şimdi intikam arıyor.
+Bu kudretli hortlak, daha Ã¶nceden ihanete uÄŸrayarak Ã¶ldÃ¼rÃ¼lmÃ¼ÅŸ olan
+Xantharus'un efendisi olmalÄ±. Ama durumu tahmin etti ve bir bÃ¼yÃ¼cÃ¼
+olarak geri dÃ¶ndÃ¼. Åimdi intikam arÄ±yor.
 ~
 human~
 ABFGO DF 58
 #8106
 zebani~
 bir zebani~
-Bir zebani ağzını şapırdatarak, çılgınca kıkırdıyor!
+Bir zebani aÄŸzÄ±nÄ± ÅŸapÄ±rdatarak, Ã§Ä±lgÄ±nca kÄ±kÄ±rdÄ±yor!
 ~
-Bu tuhaf yaratık, buranın negatif enerjiyle yasıçanılmış alt alemlerinin bir
-muhafızı.
+Bu tuhaf yaratÄ±k, buranÄ±n negatif enerjiyle yasÄ±Ã§anÄ±lmÄ±ÅŸ alt alemlerinin bir
+muhafÄ±zÄ±.
 ~
 undead~
 AFGHO DF 52
 #8107
-geri dönmüş~
-bir geri dönmüş~
-Bir geri dönmüş burada, eskinin hesabını soracak birilerini arıyor.
+geri dÃ¶nmÃ¼ÅŸ~
+bir geri dÃ¶nmÃ¼ÅŸ~
+Bir geri dÃ¶nmÃ¼ÅŸ burada, eskinin hesabÄ±nÄ± soracak birilerini arÄ±yor.
 ~
-Bu zavallı ruh, bir zamanlar Soleil'in güçlü ve iyi bir rahibiydi. Ama
-şeytani Gomez'in adamları tarafından yakalanıp, işkence edilerek öldürüldü.
-Onun ruhu buraya döndü ve uzun süredir ölü olan katillerini arıyor. Amacının
-dışındaki herşeyi görmezden gelir ama yoluna çıkarsan saldırmaktan çekinmez.
+Bu zavallÄ± ruh, bir zamanlar Soleil'in gÃ¼Ã§lÃ¼ ve iyi bir rahibiydi. Ama
+ÅŸeytani Gomez'in adamlarÄ± tarafÄ±ndan yakalanÄ±p, iÅŸkence edilerek Ã¶ldÃ¼rÃ¼ldÃ¼.
+Onun ruhu buraya dÃ¶ndÃ¼ ve uzun sÃ¼redir Ã¶lÃ¼ olan katillerini arÄ±yor. AmacÄ±nÄ±n
+dÄ±ÅŸÄ±ndaki herÅŸeyi gÃ¶rmezden gelir ama yoluna Ã§Ä±karsan saldÄ±rmaktan Ã§ekinmez.
 ~
 undead~
 AGO DFN 57
 #8108
 karabasan~
 bir karabasan~
-Bir karabasan burada, rüyalara sızmayı bekliyor.
+Bir karabasan burada, rÃ¼yalara sÄ±zmayÄ± bekliyor.
 ~
-Bu ruh, bir zamanlar Hayalet Şehir'e bir bahis sonucu giren kudretli bir
-savaşçıydı. Buranın sakinleri tarafından hemen avlandı, ama ölürken ne kadar
-ıstırap çekmiş ki, ruhu sonunu yaşadığı bu bölgeyi lanetlemek için burada
-kalmış.
+Bu ruh, bir zamanlar Hayalet Åehir'e bir bahis sonucu giren kudretli bir
+savaÅŸÃ§Ä±ydÄ±. BuranÄ±n sakinleri tarafÄ±ndan hemen avlandÄ±, ama Ã¶lÃ¼rken ne kadar
+Ä±stÄ±rap Ã§ekmiÅŸ ki, ruhu sonunu yaÅŸadÄ±ÄŸÄ± bu bÃ¶lgeyi lanetlemek iÃ§in burada
+kalmÄ±ÅŸ.
 ~
 undead~
 ABGO DFTU 48
 #8109
 mezar mahluk~
-bir mezar mahluğu~
-Bir mezar mahluğu şeytanice kıkırdayıp sana sataşıyor.
+bir mezar mahluÄŸu~
+Bir mezar mahluÄŸu ÅŸeytanice kÄ±kÄ±rdayÄ±p sana sataÅŸÄ±yor.
 ~
-Bu yaratık, şeytanlığına rağmen sana saldırmayacak; sadece sataşacak. Buna
-rağmen kendini korumaktan da çekinmez.
+Bu yaratÄ±k, ÅŸeytanlÄ±ÄŸÄ±na raÄŸmen sana saldÄ±rmayacak; sadece sataÅŸacak. Buna
+raÄŸmen kendini korumaktan da Ã§ekinmez.
 ~
 undead~
 ABGO DF 55
 #8110
-güçlü zebani~
-güçlü bir zebani~
-Güçlü bir Zebani ileriye doğru ateş ve gaz kusuyor!
+gÃ¼Ã§lÃ¼ zebani~
+gÃ¼Ã§lÃ¼ bir zebani~
+GÃ¼Ã§lÃ¼ bir Zebani ileriye doÄŸru ateÅŸ ve gaz kusuyor!
 ~
-Bu tuhaf yaratık, buranın negatif enerjiyle yasıçanılmış alt alemlerinin bir
-muhafızı.
+Bu tuhaf yaratÄ±k, buranÄ±n negatif enerjiyle yasÄ±Ã§anÄ±lmÄ±ÅŸ alt alemlerinin bir
+muhafÄ±zÄ±.
 ~
 undead~
 ABFGO DFT 58
 #8111
 hortlak ejderha~
 bir hortlak ejderha~
-Bir hortlak Ejderha ileriye doğru zehirli buhar püskürtüyor!
+Bir hortlak Ejderha ileriye doÄŸru zehirli buhar pÃ¼skÃ¼rtÃ¼yor!
 ~
-Bu iğrenç yaratık, yaşarken Xantharus'a en iyi şekilde hizmet etmiş bir
-ejderhanın ruhu. Öyle ki Xantharus onu öldükten sonra da hizmet etmesi için
-canladırmış.
+Bu iÄŸrenÃ§ yaratÄ±k, yaÅŸarken Xantharus'a en iyi ÅŸekilde hizmet etmiÅŸ bir
+ejderhanÄ±n ruhu. Ã–yle ki Xantharus onu Ã¶ldÃ¼kten sonra da hizmet etmesi iÃ§in
+canladÄ±rmÄ±ÅŸ.
 ~
 undead~
 ABFGO DFT 62
 #8112
 hortlak canavar~
 hortlak canavar~
-Bir hortlak canavar ayaklarını sürterek saldırıyor!
+Bir hortlak canavar ayaklarÄ±nÄ± sÃ¼rterek saldÄ±rÄ±yor!
 ~
-Buranın eski muhafızlarından birinin ruhu, bu pis hortlak yaratık , senin de
-bu lanetli araziye gelen önceki davetsiz misafirlerle aynı kaderi paylaşman
-için elinden geleni yapacak.- ÖLÜM!.
+BuranÄ±n eski muhafÄ±zlarÄ±ndan birinin ruhu, bu pis hortlak yaratÄ±k , senin de
+bu lanetli araziye gelen Ã¶nceki davetsiz misafirlerle aynÄ± kaderi paylaÅŸman
+iÃ§in elinden geleni yapacak.- Ã–LÃœM!.
 ~
 undead~
 AFGO DF 45
 #8113
-dev sıçan~
-dev sıçan~
-Dev bir sıçan vahşice saldırıyor!
+dev sÄ±Ã§an~
+dev sÄ±Ã§an~
+Dev bir sÄ±Ã§an vahÅŸice saldÄ±rÄ±yor!
 ~
-Dev derken, 10 adım boydan bahsettim!...
+Dev derken, 10 adÄ±m boydan bahsettim!...
 ~
 lizard~
 ACFGHO DFQ 40
 #8114
-dev örümcek~
-dev örümcek~
-Dev bir örümcek üzerine geliyor!
+dev Ã¶rÃ¼mcek~
+dev Ã¶rÃ¼mcek~
+Dev bir Ã¶rÃ¼mcek Ã¼zerine geliyor!
 ~
-Örümcekler istediklerinde iyi sıçrayan canlılardır.
+Ã–rÃ¼mcekler istediklerinde iyi sÄ±Ã§rayan canlÄ±lardÄ±r.
 ~
 undead~
 ACFGHO DFQ 45
 #8115
 pusucu~
 pusucu~
-Tependeki bir pusucu seni boğmak için fırsat kolluyor!
+Tependeki bir pusucu seni boÄŸmak iÃ§in fÄ±rsat kolluyor!
 ~
-Bu sapkın iğrenç yaratık, inine giren misafirlerle besleniyor-
+Bu sapkÄ±n iÄŸrenÃ§ yaratÄ±k, inine giren misafirlerle besleniyor-
 ~
 undead~
 ABFGHO T 52
 #8116
 vampirella~
 bir vampirella~
-Güzel bir dişi etkileyici şekilde bakıyor, keskin dişlerini göstererek...
+GÃ¼zel bir diÅŸi etkileyici ÅŸekilde bakÄ±yor, keskin diÅŸlerini gÃ¶stererek...
 ~
-Bu bir vampirella, Seni etkileyecek ve harcayacak, DÖVÜŞ!
+Bu bir vampirella, Seni etkileyecek ve harcayacak, DÃ–VÃœÅ!
 ~
 undead~
 ABGO DFHT 50
 #8117
 xantharus~
 Xantharus~
-Xantharus burada, özgür kalmayı bekliyor.
+Xantharus burada, Ã¶zgÃ¼r kalmayÄ± bekliyor.
 ~
-Bu acınası zavallı kimse Xantharus'tan başkası değil, bu şehre hortlakleri
-getirerek burayı yokeden ve daha sonra kontrolu elinde tututamayan güçlü
-büyücü. Büyük Hata'sı O'nu bulmadan bir çıkış yolu bulmak umuduyla buraya
-kaçmış.
+Bu acÄ±nasÄ± zavallÄ± kimse Xantharus'tan baÅŸkasÄ± deÄŸil, bu ÅŸehre hortlakleri
+getirerek burayÄ± yokeden ve daha sonra kontrolu elinde tututamayan gÃ¼Ã§lÃ¼
+bÃ¼yÃ¼cÃ¼. BÃ¼yÃ¼k Hata'sÄ± O'nu bulmadan bir Ã§Ä±kÄ±ÅŸ yolu bulmak umuduyla buraya
+kaÃ§mÄ±ÅŸ.
 ~
 undead~
 ABGHO 0 50
 #8118
-çürümüş ceset~
-bir çürümüş ceset~
-Çürümüş bir ceset sana doğru sendeliyor.
+Ã§Ã¼rÃ¼mÃ¼ÅŸ ceset~
+bir Ã§Ã¼rÃ¼mÃ¼ÅŸ ceset~
+Ã‡Ã¼rÃ¼mÃ¼ÅŸ bir ceset sana doÄŸru sendeliyor.
 ~
-Bu şey ve yandaşları bir zamanlar güzel olan bu şehrin sakinlerinden olmalı.
-Onları öldürmek, onlar için yapabileceğin en iyi şey...
+Bu ÅŸey ve yandaÅŸlarÄ± bir zamanlar gÃ¼zel olan bu ÅŸehrin sakinlerinden olmalÄ±.
+OnlarÄ± Ã¶ldÃ¼rmek, onlar iÃ§in yapabileceÄŸin en iyi ÅŸey...
 ~
 undead~
 AGO 0 40
 #8119
 efendi~
 efendi~
-Efendi, arazisini inceliyor, ve şeytanca kahkahalar atıyor.
+Efendi, arazisini inceliyor, ve ÅŸeytanca kahkahalar atÄ±yor.
 ~
-Zayıf Xantharus'un yaratıkların kontrolünü kaybetmesinden sonra burayı ele
-geçiren Efendi hakkında çok az şey biliniyor. Ama şu kesin ki çok kudretli
-görünen bu şeytani büyücü seni yoketmekten çekinmeyecek.
+ZayÄ±f Xantharus'un yaratÄ±klarÄ±n kontrolÃ¼nÃ¼ kaybetmesinden sonra burayÄ± ele
+geÃ§iren Efendi hakkÄ±nda Ã§ok az ÅŸey biliniyor. Ama ÅŸu kesin ki Ã§ok kudretli
+gÃ¶rÃ¼nen bu ÅŸeytani bÃ¼yÃ¼cÃ¼ seni yoketmekten Ã§ekinmeyecek.
 ~
 human~
 ABFGHO CDEFH 60
 #8120
-sürünen tepecik~
-sürünen tepecik~
-Sürünen bir tepecik... şeyy ıı... üzerine doğru sürünüyor.
+sÃ¼rÃ¼nen tepecik~
+sÃ¼rÃ¼nen tepecik~
+SÃ¼rÃ¼nen bir tepecik... ÅŸeyy Ä±Ä±... Ã¼zerine doÄŸru sÃ¼rÃ¼nÃ¼yor.
 ~
-KOŞ! 12 ayak yüksekliğindeki bir çöp yığını sana saldırıyor!
+KOÅ! 12 ayak yÃ¼ksekliÄŸindeki bir Ã§Ã¶p yÄ±ÄŸÄ±nÄ± sana saldÄ±rÄ±yor!
 ~
 unique~
 AFGO N 45
 #8121
 kampflut~
 bir kampflut~
-Bir Kampflut burada, sana saldırıyor!
+Bir Kampflut burada, sana saldÄ±rÄ±yor!
 ~
-Bu çirkin diriltilmiş ağaç, dokunaca benzer çirkin dalları ve büyük dişli
-bir ağzı olan antik bir meşe ağacına benziyor. Kötü tavırlarına rağmen,
-kötü niyetli değil, sadece basitçe... AÇ!
+Bu Ã§irkin diriltilmiÅŸ aÄŸaÃ§, dokunaca benzer Ã§irkin dallarÄ± ve bÃ¼yÃ¼k diÅŸli
+bir aÄŸzÄ± olan antik bir meÅŸe aÄŸacÄ±na benziyor. KÃ¶tÃ¼ tavÄ±rlarÄ±na raÄŸmen,
+kÃ¶tÃ¼ niyetli deÄŸil, sadece basitÃ§e... AÃ‡!
 ~
 undead~
 AFGO N 50
 #8122
 siyah puding~
 siyah puding~
-Siyah bir puding sana doğru pörtleyerek geliyor.
+Siyah bir puding sana doÄŸru pÃ¶rtleyerek geliyor.
 ~
-Bu siyah dev kütle, silah ve zırhları eritiyor, eğer fırsat bulursa,seni
-de iştahla silip süpürecek!
+Bu siyah dev kÃ¼tle, silah ve zÄ±rhlarÄ± eritiyor, eÄŸer fÄ±rsat bulursa,seni
+de iÅŸtahla silip sÃ¼pÃ¼recek!
 ~
 undead~
 AFGO N 52
 #8123
-yeşil balçık~
-yeşil balçık~
-Bir parça yeşil balçık üzerine damlayarak, cildini yakıyor.
+yeÅŸil balÃ§Ä±k~
+yeÅŸil balÃ§Ä±k~
+Bir parÃ§a yeÅŸil balÃ§Ä±k Ã¼zerine damlayarak, cildini yakÄ±yor.
 ~
-Yeşil Balçık metali bile eritebilir, derinin üzerindeki etkisini hayal et!
+YeÅŸil BalÃ§Ä±k metali bile eritebilir, derinin Ã¼zerindeki etkisini hayal et!
 ~
 undead~
 ABFGO 0 40
 #8124
-gri çamur~
-gri çamur~
-Gri bir çamur yığıntısı sana doğru sızıyor.
+gri Ã§amur~
+gri Ã§amur~
+Gri bir Ã§amur yÄ±ÄŸÄ±ntÄ±sÄ± sana doÄŸru sÄ±zÄ±yor.
 ~
-"Ah," "Ne kadar korktum!" dediğini duyar gibiyim. O zaman bekle ve gör!
+"Ah," "Ne kadar korktum!" dediÄŸini duyar gibiyim. O zaman bekle ve gÃ¶r!
 ~
 undead~
 AFGO N 58
 #8125
-hareketli ağaç~
-hareketli ağaç~
-Hareketli bir ağaç sana dalları ile saldırıyor.
+hareketli aÄŸaÃ§~
+hareketli aÄŸaÃ§~
+Hareketli bir aÄŸaÃ§ sana dallarÄ± ile saldÄ±rÄ±yor.
 ~
-Bu ağaç kötü ve şeytani, yani pek dost sayılmaz...
+Bu aÄŸaÃ§ kÃ¶tÃ¼ ve ÅŸeytani, yani pek dost sayÄ±lmaz...
 ~
 undead~
 AFGO 0 45
 #8126
-ağaç ruhu~
-Bir ağacın ruhu~
-Bir ağacın ruhu bu şeytani yerde sana bir sığınak sağlıyor.
+aÄŸaÃ§ ruhu~
+Bir aÄŸacÄ±n ruhu~
+Bir aÄŸacÄ±n ruhu bu ÅŸeytani yerde sana bir sÄ±ÄŸÄ±nak saÄŸlÄ±yor.
 ~
-Bu Ruh, bu mekandaki tek iyi yaratık. Sen dinlenirken seni koruyabilir,
-hatta yeterince ödeme yaparsan yaralarını bile iyileştirebilir...
+Bu Ruh, bu mekandaki tek iyi yaratÄ±k. Sen dinlenirken seni koruyabilir,
+hatta yeterince Ã¶deme yaparsan yaralarÄ±nÄ± bile iyileÅŸtirebilir...
 
 ~
 undead~
 ABGO BCDFN 65
 #8127
-ölü şövalye~
-ölü şövalye~
-Ölü bir şövalye sana meydan okuyor ve saldırıyor!
+Ã¶lÃ¼ ÅŸÃ¶valye~
+Ã¶lÃ¼ ÅŸÃ¶valye~
+Ã–lÃ¼ bir ÅŸÃ¶valye sana meydan okuyor ve saldÄ±rÄ±yor!
 ~
-Bu ruh, Efendi'nin şeytanlığıyla, hortlak bir hizmetkar olarak, sonsuzluğun
-içine çekilmiş bir Paladin'in ruhu. Süslere bezenmiş, antik bir zırh ve
-parlak, gümüş bir kılıçla, çürüyen yüzü haricinde aynı yaşarkenki kadar
-karizmatik görünüyor...
+Bu ruh, Efendi'nin ÅŸeytanlÄ±ÄŸÄ±yla, hortlak bir hizmetkar olarak, sonsuzluÄŸun
+iÃ§ine Ã§ekilmiÅŸ bir Paladin'in ruhu. SÃ¼slere bezenmiÅŸ, antik bir zÄ±rh ve
+parlak, gÃ¼mÃ¼ÅŸ bir kÄ±lÄ±Ã§la, Ã§Ã¼rÃ¼yen yÃ¼zÃ¼ haricinde aynÄ± yaÅŸarkenki kadar
+karizmatik gÃ¶rÃ¼nÃ¼yor...
 ~
 undead~
 ABFGO DF 60
 #8128
 kabus~
 bir kabus~
-Bir kabus, alt düzlemlerin sadık bir yerlisi, burada dinleniyor.
+Bir kabus, alt dÃ¼zlemlerin sadÄ±k bir yerlisi, burada dinleniyor.
 ~
-Kanatlı bir ata binen bu kara varlık, işini bitirmiş efendisinin onu
-görevlendireceği yere gitmek için bekliyor.
+KanatlÄ± bir ata binen bu kara varlÄ±k, iÅŸini bitirmiÅŸ efendisinin onu
+gÃ¶revlendireceÄŸi yere gitmek iÃ§in bekliyor.
 ~
 undead~
 ABGO FT 45
 #8129
-avcı~
-bir avcı~
-Bir avcı dört ayağının üzerinde şahlanarak saldırıyor.
+avcÄ±~
+bir avcÄ±~
+Bir avcÄ± dÃ¶rt ayaÄŸÄ±nÄ±n Ã¼zerinde ÅŸahlanarak saldÄ±rÄ±yor.
 ~
-Bu iblisimsi varlık, bacaklar yerini keskin kılıçlar, gözler yerine de
-parıldayan elmaslara sahip olan dev bir örümceğe benziyor.
+Bu iblisimsi varlÄ±k, bacaklar yerini keskin kÄ±lÄ±Ã§lar, gÃ¶zler yerine de
+parÄ±ldayan elmaslara sahip olan dev bir Ã¶rÃ¼mceÄŸe benziyor.
 ~
 undead~
 ABFGO DF 58
 #8130
-cambiyon gözcüsü~
-Orcus'un gözcüsü~
-Orcus'un bir gözcüsü sana dikkatlice göz atıyor.
+cambiyon gÃ¶zcÃ¼sÃ¼~
+Orcus'un gÃ¶zcÃ¼sÃ¼~
+Orcus'un bir gÃ¶zcÃ¼sÃ¼ sana dikkatlice gÃ¶z atÄ±yor.
 ~
-Bu yarı-insan, yarı-iblis yaratık hortlaklerın Prensi olan Orcus'un
-gözcülerinden. Gizli bir görevde ve dolayısıyla belayı mümkün olduğunca
-önlemek istiyor. Efendi'nin gücününün boyutunu araştırıp, bu tuhaf adamın
-varlıkları için tehdit olup olmadığı konusunda Orcus'u uyarmakla yükümlü.
+Bu yarÄ±-insan, yarÄ±-iblis yaratÄ±k hortlaklerÄ±n Prensi olan Orcus'un
+gÃ¶zcÃ¼lerinden. Gizli bir gÃ¶revde ve dolayÄ±sÄ±yla belayÄ± mÃ¼mkÃ¼n olduÄŸunca
+Ã¶nlemek istiyor. Efendi'nin gÃ¼cÃ¼nÃ¼nÃ¼n boyutunu araÅŸtÄ±rÄ±p, bu tuhaf adamÄ±n
+varlÄ±klarÄ± iÃ§in tehdit olup olmadÄ±ÄŸÄ± konusunda Orcus'u uyarmakla yÃ¼kÃ¼mlÃ¼.
 ~
 undead~
 ACGHO DEFQV 50
 #8131
 orcus~
 Orcus~
-Orcus, hortlak Prensi, sana tehditkar gözlerle bakıyor.
+Orcus, hortlak Prensi, sana tehditkar gÃ¶zlerle bakÄ±yor.
 ~
-Orcus'un karşısında duruyorsun. Bir boğanın göz ve burnuna, bir keçinin
-boynuz ve toynaklarına sahip, şişkin bir adama benziyor. Bir toynağında
-tepesinde keçi başı olan bir değnek tutarken, sana şüphe dolu gözlerle
-bakıyor. Burada olmak istemiyor, dolayısıyla Birincil Maddesel Düzlem'in
-saldırılarıyla uğraşmak yanlısı değil.
+Orcus'un karÅŸÄ±sÄ±nda duruyorsun. Bir boÄŸanÄ±n gÃ¶z ve burnuna, bir keÃ§inin
+boynuz ve toynaklarÄ±na sahip, ÅŸiÅŸkin bir adama benziyor. Bir toynaÄŸÄ±nda
+tepesinde keÃ§i baÅŸÄ± olan bir deÄŸnek tutarken, sana ÅŸÃ¼phe dolu gÃ¶zlerle
+bakÄ±yor. Burada olmak istemiyor, dolayÄ±sÄ±yla Birincil Maddesel DÃ¼zlem'in
+saldÄ±rÄ±larÄ±yla uÄŸraÅŸmak yanlÄ±sÄ± deÄŸil.
 ~
 undead~
 ABGHO BCDEFHN 65
 #8132
 su mahluku~
 su mahluku~
-Bir su mahluku sana doğru hamle yapıyor!
+Bir su mahluku sana doÄŸru hamle yapÄ±yor!
 ~
-Bu sudan oluşan yılan, dövüşerek savunacağı kuyusunun içinde duruyor.
+Bu sudan oluÅŸan yÄ±lan, dÃ¶vÃ¼ÅŸerek savunacaÄŸÄ± kuyusunun iÃ§inde duruyor.
 ~
 snake~
 ABFGO N 51
 #8133
-dev örümcek~
-dev bir örümcek~
-Dev bir örümcek sana doğru iniyor!
+dev Ã¶rÃ¼mcek~
+dev bir Ã¶rÃ¼mcek~
+Dev bir Ã¶rÃ¼mcek sana doÄŸru iniyor!
 ~
 Dev derken, 10 feet boydan bahsettim!...
 ~
@@ -388,11 +388,11 @@ ABCFGHO DFQ 48
 #8134
 baron vampir~
 bir baron vampir~
-Baron vampir tabutundan kalkıyor ve dişlerini göstererek saldırıyor!
+Baron vampir tabutundan kalkÄ±yor ve diÅŸlerini gÃ¶stererek saldÄ±rÄ±yor!
 ~
-Şeytani Baron ve iki kardeşi, onları tamamiyle yokedecek güce sahip olmayan
-Xanan tarafından buraya hapsedilmiş vampirlerdiler. Ve şimdi sana onları
-rahatsız ederek tekrar dirilttiğin için müteşekkirler.!
+Åeytani Baron ve iki kardeÅŸi, onlarÄ± tamamiyle yokedecek gÃ¼ce sahip olmayan
+Xanan tarafÄ±ndan buraya hapsedilmiÅŸ vampirlerdiler. Ve ÅŸimdi sana onlarÄ±
+rahatsÄ±z ederek tekrar dirilttiÄŸin iÃ§in mÃ¼teÅŸekkirler.!
 ~
 undead~
 ABFGO DF 60
@@ -402,8 +402,8 @@ ABFGO DF 60
 #OBJECTS
 #8100
 asa ciblll~
-Ciblll'in fısıldayan asası~
-Kadim bir asa burada, unutmadığı efendisinin adını fısıldıyor.
+Ciblll'in fÄ±sÄ±ldayan asasÄ±~
+Kadim bir asa burada, unutmadÄ±ÄŸÄ± efendisinin adÄ±nÄ± fÄ±sÄ±ldÄ±yor.
 ~
 wood~
 staff BEGH AO
@@ -433,8 +433,8 @@ A
 24 -10
 #8101
 el vecna~
-Vecna'nın Eli~
-Vecna'nın Eli burada duruyor.
+Vecna'nÄ±n Eli~
+Vecna'nÄ±n Eli burada duruyor.
 ~
 leather steel~
 armor EHJMQ AH
@@ -453,9 +453,9 @@ A
 A
 24 -3
 #8102
-göz vecna~
-Vecna'nın Gözü~
-Vecna'nın Gözü burada, şeytanice parıldıyor.
+gÃ¶z vecna~
+Vecna'nÄ±n GÃ¶zÃ¼~
+Vecna'nÄ±n GÃ¶zÃ¼ burada, ÅŸeytanice parÄ±ldÄ±yor.
 ~
 leather steel~
 armor AEJM AE
@@ -468,9 +468,9 @@ A
 A
 12 50
 #8103
-kılıç kas~
-Kas'ın kılıcı~
-Kas'ın kılıcı seni çağırıyor!
+kÄ±lÄ±Ã§ kas~
+Kas'Ä±n kÄ±lÄ±cÄ±~
+Kas'Ä±n kÄ±lÄ±cÄ± seni Ã§aÄŸÄ±rÄ±yor!
 ~
 steel~
 weapon BEGJM AN
@@ -485,7 +485,7 @@ A
 #8104
 bilezik~
 bilezik~
-Bir bilezik tozlanmış şekilde burada duruyor.
+Bir bilezik tozlanmÄ±ÅŸ ÅŸekilde burada duruyor.
 ~
 steel~
 armor GM AE
@@ -497,26 +497,26 @@ A
 4 -3
 #8105
 hazine~
-bir hazine yığını~
-Bir hazine yığını buraya serpilmiş.
+bir hazine yÄ±ÄŸÄ±nÄ±~
+Bir hazine yÄ±ÄŸÄ±nÄ± buraya serpilmiÅŸ.
 ~
 leather~
 container 0 AO
 400 0 0 50 50
 1 150 0 P
 #8106
-sandık~
-bir sandık~
-Bir sandık burada duruyor.
+sandÄ±k~
+bir sandÄ±k~
+Bir sandÄ±k burada duruyor.
 ~
 steel~
 container 0 1
 150 0 0 20 100
 48 100 0 P
 #8107
-cüppe et~
-Etten cüppe~
-İnsan etinden yapılmış bir cüppe burada bırakılmış.
+cÃ¼ppe et~
+Etten cÃ¼ppe~
+Ä°nsan etinden yapÄ±lmÄ±ÅŸ bir cÃ¼ppe burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 human flesh~
 armor EJ AK
@@ -527,9 +527,9 @@ A
 A
 13 25
 #8108
-değnek kemik~
-bir kemik değnek~
-Bir insan kemiğinden yapılmış değnek burada duruyor.
+deÄŸnek kemik~
+bir kemik deÄŸnek~
+Bir insan kemiÄŸinden yapÄ±lmÄ±ÅŸ deÄŸnek burada duruyor.
 ~
 human femur~
 weapon EJ AN
@@ -555,7 +555,7 @@ trash 0 A
 #8110
 elmas asa~
 bir elmas asa~
-Bir elmas asa burada kudretle parlıyor.
+Bir elmas asa burada kudretle parlÄ±yor.
 ~
 wood~
 staff AG AO
@@ -573,9 +573,9 @@ armor 0 AK
 17 17 17 11 0
 51 10 0 P
 #8112
-kılıç~
-Kara Kılıç~
-Kapkara bir kılıç burada şeytanca duruyor.
+kÄ±lÄ±Ã§~
+Kara KÄ±lÄ±Ã§~
+Kapkara bir kÄ±lÄ±Ã§ burada ÅŸeytanca duruyor.
 ~
 steel~
 weapon BCEJ AN
@@ -592,9 +592,9 @@ A
 A
 19 4
 #8113
-zırh~
-Kara Zırh~
-Bir Kara Zırh burada duruyor.
+zÄ±rh~
+Kara ZÄ±rh~
+Bir Kara ZÄ±rh burada duruyor.
 ~
 steel~
 armor CEJ AE
@@ -607,9 +607,9 @@ A
 A
 19 7
 #8114
-miğfer~
-Kara Miğfer~
-Bir Kara Miğfer sana sahip olmak için duruyor
+miÄŸfer~
+Kara MiÄŸfer~
+Bir Kara MiÄŸfer sana sahip olmak iÃ§in duruyor
 ~
 steel~
 armor CHM AE
@@ -640,7 +640,7 @@ food 0 A
 #8117
 Lanetli Sembol~
 Lanetli Sembol~
-Şeytana teslim olmuş bir rahibe ait Lanetli bir Sembol burada duruyor.
+Åeytana teslim olmuÅŸ bir rahibe ait Lanetli bir Sembol burada duruyor.
 ~
 unknown~
 light EJ A
@@ -651,7 +651,7 @@ A
 #8118
 Kutsal Sembol~
 Kutsal Sembol~
-İyiliğe hizmet eden bir rahibe ait Kutsal bir Sembol burada duruyor.
+Ä°yiliÄŸe hizmet eden bir rahibe ait Kutsal bir Sembol burada duruyor.
 ~
 unknown~
 light AK A
@@ -662,7 +662,7 @@ A
 #8119
 ceset~
 ceset~
-Zavallı bir maceracıya ait olan ceset burada duruyor.
+ZavallÄ± bir maceracÄ±ya ait olan ceset burada duruyor.
 ~
 meat~
 furniture 0 0
@@ -679,17 +679,17 @@ key B AO
 0 5 0 P
 #8121
 kavanoz kan~
-bir kavanoz insan kanı~
-İçinde insan kanı olan bir kavanoz burada duruyor.
+bir kavanoz insan kanÄ±~
+Ä°Ã§inde insan kanÄ± olan bir kavanoz burada duruyor.
 ~
 glass~
 potion BEJ AO
 60 'poison' 'weaken' 'curse' ''
 45 10 300 P
 #8122
-miğfer hayalet~
-Hayalet Miğferi~
-Tepesinde birşey oyulmuş olan dev bir miğfer yerde duruyor...~
+miÄŸfer hayalet~
+Hayalet MiÄŸferi~
+Tepesinde birÅŸey oyulmuÅŸ olan dev bir miÄŸfer yerde duruyor...~
 adamantite~
 armor ACY AE
 39 39 39 37 30
@@ -710,8 +710,8 @@ A
 #ROOMS
 #8100
 Tozlu bir Patika~
-İlerideki şehre doğru giden tozlu bir patikadasın. İğrenç bir koku
-farkediyorsun. Önünde bir levha gördün.
+Ä°lerideki ÅŸehre doÄŸru giden tozlu bir patikadasÄ±n. Ä°ÄŸrenÃ§ bir koku
+farkediyorsun. Ã–nÃ¼nde bir levha gÃ¶rdÃ¼n.
 ~
 0 4 2
 D0
@@ -724,17 +724,17 @@ D2
 0 -1 9584
 E
 levha~
-H A Y A L E T  Ş E H R E  H O Ş G E L D İ N !
-Bu bölge Randalin tarafından Türkçeleştirilmiştir.
-                                Nüfus : 0
+H A Y A L E T  Å E H R E  H O Å G E L D Ä° N !
+Bu bÃ¶lge Randalin tarafÄ±ndan TÃ¼rkÃ§eleÅŸtirilmiÅŸtir.
+                                NÃ¼fus : 0
 
 ~
 S
 #8101
-Şehir~
-En lanetli hortlakların ve muhafızların doldurduğu söylenen Hayalet Şehire
-ulaştın. Devam etmeli misin? Bir daha evine dönemeyebilirsin! Ya da başka
-kaçışlar arayabilirsin... Senin seçimin!
+Åehir~
+En lanetli hortlaklarÄ±n ve muhafÄ±zlarÄ±n doldurduÄŸu sÃ¶ylenen Hayalet Åehire
+ulaÅŸtÄ±n. Devam etmeli misin? Bir daha evine dÃ¶nemeyebilirsin! Ya da baÅŸka
+kaÃ§Ä±ÅŸlar arayabilirsin... Senin seÃ§imin!
 ~
 0 4 1
 D0
@@ -748,10 +748,10 @@ D2
 S
 #8102
 Ana Cadde~
-Bu caddeye adım attığında, tamamiyle bir korku ve dehşet dalgasının içinden
-geçtiğini hissediyorsun. Titreyerek, Tanrılar tarafından yasaklanmış bu
-bölgeye girmek için kendini toparlıyorsun. Caddenin sağında ve solunda evler
-sıralanmış. İlerde küçük bir şehir meydanı var..
+Bu caddeye adÄ±m attÄ±ÄŸÄ±nda, tamamiyle bir korku ve dehÅŸet dalgasÄ±nÄ±n iÃ§inden
+geÃ§tiÄŸini hissediyorsun. Titreyerek, TanrÄ±lar tarafÄ±ndan yasaklanmÄ±ÅŸ bu
+bÃ¶lgeye girmek iÃ§in kendini toparlÄ±yorsun. Caddenin saÄŸÄ±nda ve solunda evler
+sÄ±ralanmÄ±ÅŸ. Ä°lerde kÃ¼Ã§Ã¼k bir ÅŸehir meydanÄ± var..
 ~
 0 8192 1
 D0
@@ -769,9 +769,9 @@ D3
 S
 #8103
 Harabe Bir Ev~
-Bu evin içi buram buram ölüm kokuyor. Buranın eski sakinlerinin kaderi
-duvarlara sürünmüş, kurumuş kan ve yerlerdeki kemiklerden açıkça belli
-oluyor. Şimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+Bu evin iÃ§i buram buram Ã¶lÃ¼m kokuyor. BuranÄ±n eski sakinlerinin kaderi
+duvarlara sÃ¼rÃ¼nmÃ¼ÅŸ, kurumuÅŸ kan ve yerlerdeki kemiklerden aÃ§Ä±kÃ§a belli
+oluyor. Åimdiki sakinleri ise kolay Ã¶ldÃ¼rÃ¼lebilen cinsten olmayabilirler...
 ~
 0 8|8192 0
 D1
@@ -781,9 +781,9 @@ D1
 S
 #8104
 Harabe Bir Ev~
-Bu evin içi buram buram ölüm kokuyor. Buranın eski sakinlerinin kaderi
-duvarlara sürünmüş, kurumuş kan ve yerlerdeki kemiklerden açıkça belli
-oluyor. Şimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+Bu evin iÃ§i buram buram Ã¶lÃ¼m kokuyor. BuranÄ±n eski sakinlerinin kaderi
+duvarlara sÃ¼rÃ¼nmÃ¼ÅŸ, kurumuÅŸ kan ve yerlerdeki kemiklerden aÃ§Ä±kÃ§a belli
+oluyor. Åimdiki sakinleri ise kolay Ã¶ldÃ¼rÃ¼lebilen cinsten olmayabilirler...
 ~
 0 8|8192 0
 D3
@@ -792,10 +792,10 @@ D3
 1 0 8102
 S
 #8105
-Şehir Meydanı~
-Şehir Meydanı'na geldin. Artık dümdüz, ıssız, kavrulmuş ve harap edilmiş bu
-meydandan çıkan birkaç yöne doğru devam edebilirsin. Ya da aşağı doğru uzanan
-sokaklara gidebilirsin. Meydanın tam ortasında bir havuz var.
+Åehir MeydanÄ±~
+Åehir MeydanÄ±'na geldin. ArtÄ±k dÃ¼mdÃ¼z, Ä±ssÄ±z, kavrulmuÅŸ ve harap edilmiÅŸ bu
+meydandan Ã§Ä±kan birkaÃ§ yÃ¶ne doÄŸru devam edebilirsin. Ya da aÅŸaÄŸÄ± doÄŸru uzanan
+sokaklara gidebilirsin. MeydanÄ±n tam ortasÄ±nda bir havuz var.
 ~
 0 8192 1
 D0
@@ -808,10 +808,10 @@ D1
 0 -1 8106
 S
 #8106
-Şehir Meydanı~
-Şehir Meydanı'na geldin. Artık dümdüz, ıssız, kavrulmuş ve harap edilmiş bu
-meydandan çıkan birkaç yöne doğru devam edebilirsin. Ya da aşağı doğru uzanan
-sokaklara gidebilirsin. Meydanın tam ortasında bir havuz var.
+Åehir MeydanÄ±~
+Åehir MeydanÄ±'na geldin. ArtÄ±k dÃ¼mdÃ¼z, Ä±ssÄ±z, kavrulmuÅŸ ve harap edilmiÅŸ bu
+meydandan Ã§Ä±kan birkaÃ§ yÃ¶ne doÄŸru devam edebilirsin. Ya da aÅŸaÄŸÄ± doÄŸru uzanan
+sokaklara gidebilirsin. MeydanÄ±n tam ortasÄ±nda bir havuz var.
 ~
 0 8192 1
 D0
@@ -832,10 +832,10 @@ D3
 0 -1 8105
 S
 #8107
-Şehir Meydanı~
-Şehir Meydanı'na geldin. Artık dümdüz, ıssız, kavrulmuş ve harap edilmiş bu
-meydandan çıkan birkaç yöne doğru devam edebilirsin. Ya da aşağı doğru uzanan
-sokaklara gidebilirsin. Meydanın tam ortasında bir havuz var.
+Åehir MeydanÄ±~
+Åehir MeydanÄ±'na geldin. ArtÄ±k dÃ¼mdÃ¼z, Ä±ssÄ±z, kavrulmuÅŸ ve harap edilmiÅŸ bu
+meydandan Ã§Ä±kan birkaÃ§ yÃ¶ne doÄŸru devam edebilirsin. Ya da aÅŸaÄŸÄ± doÄŸru uzanan
+sokaklara gidebilirsin. MeydanÄ±n tam ortasÄ±nda bir havuz var.
 ~
 0 8192 1
 D0
@@ -848,10 +848,10 @@ D3
 0 -1 8106
 S
 #8108
-Şehir Meydanı~
-Şehir Meydanı'na geldin. Artık dümdüz, ıssız, kavrulmuş ve harap edilmiş bu
-meydandan çıkan birkaç yöne doğru devam edebilirsin. Ya da aşağı doğru uzanan
-sokaklara gidebilirsin. Meydanın tam ortasında bir havuz var.
+Åehir MeydanÄ±~
+Åehir MeydanÄ±'na geldin. ArtÄ±k dÃ¼mdÃ¼z, Ä±ssÄ±z, kavrulmuÅŸ ve harap edilmiÅŸ bu
+meydandan Ã§Ä±kan birkaÃ§ yÃ¶ne doÄŸru devam edebilirsin. Ya da aÅŸaÄŸÄ± doÄŸru uzanan
+sokaklara gidebilirsin. MeydanÄ±n tam ortasÄ±nda bir havuz var.
 ~
 0 8192 1
 D0
@@ -873,9 +873,9 @@ D3
 S
 #8109
 Meydandaki Havuz~
-Meydanın tam ortasında, havuzun yanında duruyorsun. Her yönde evlerin ve
-dükkanların bulunduğu yollar var. Etrafında az miktarda çimen yetiştiğine
-göre havuzun içinde hala bir miktar su bulunuyor olmalı.
+MeydanÄ±n tam ortasÄ±nda, havuzun yanÄ±nda duruyorsun. Her yÃ¶nde evlerin ve
+dÃ¼kkanlarÄ±n bulunduÄŸu yollar var. EtrafÄ±nda az miktarda Ã§imen yetiÅŸtiÄŸine
+gÃ¶re havuzun iÃ§inde hala bir miktar su bulunuyor olmalÄ±.
 ~
 0 8192 1
 D0
@@ -896,10 +896,10 @@ D3
 0 -1 8108
 S
 #8110
-Şehir Meydanı~
-Şehir Meydanı'na geldin. Artık dümdüz, ıssız, kavrulmuş ve harap edilmiş bu
-meydandan çıkan birkaç yöne doğru devam edebilirsin. Ya da aşağı doğru uzanan
-sokaklara gidebilirsin. Meydanın tam ortasında bir havuz var.
+Åehir MeydanÄ±~
+Åehir MeydanÄ±'na geldin. ArtÄ±k dÃ¼mdÃ¼z, Ä±ssÄ±z, kavrulmuÅŸ ve harap edilmiÅŸ bu
+meydandan Ã§Ä±kan birkaÃ§ yÃ¶ne doÄŸru devam edebilirsin. Ya da aÅŸaÄŸÄ± doÄŸru uzanan
+sokaklara gidebilirsin. MeydanÄ±n tam ortasÄ±nda bir havuz var.
 ~
 0 8192 1
 D0
@@ -920,10 +920,10 @@ D3
 0 -1 8109
 S
 #8111
-Şehir Meydanı~
-Şehir Meydanı'na geldin. Artık dümdüz, ıssız, kavrulmuş ve harap edilmiş bu
-meydandan çıkan birkaç yöne doğru devam edebilirsin. Ya da aşağı doğru uzanan
-sokaklara gidebilirsin. Meydanın tam ortasında bir havuz var.
+Åehir MeydanÄ±~
+Åehir MeydanÄ±'na geldin. ArtÄ±k dÃ¼mdÃ¼z, Ä±ssÄ±z, kavrulmuÅŸ ve harap edilmiÅŸ bu
+meydandan Ã§Ä±kan birkaÃ§ yÃ¶ne doÄŸru devam edebilirsin. Ya da aÅŸaÄŸÄ± doÄŸru uzanan
+sokaklara gidebilirsin. MeydanÄ±n tam ortasÄ±nda bir havuz var.
 ~
 0 8192 1
 D1
@@ -936,10 +936,10 @@ D2
 0 -1 8108
 S
 #8112
-Şehir Meydanı~
-Şehir Meydanı'na geldin. Artık dümdüz, ıssız, kavrulmuş ve harap edilmiş bu
-meydandan çıkan birkaç yöne doğru devam edebilirsin. Ya da aşağı doğru uzanan
-sokaklara gidebilirsin. Meydanın tam ortasında bir havuz var.
+Åehir MeydanÄ±~
+Åehir MeydanÄ±'na geldin. ArtÄ±k dÃ¼mdÃ¼z, Ä±ssÄ±z, kavrulmuÅŸ ve harap edilmiÅŸ bu
+meydandan Ã§Ä±kan birkaÃ§ yÃ¶ne doÄŸru devam edebilirsin. Ya da aÅŸaÄŸÄ± doÄŸru uzanan
+sokaklara gidebilirsin. MeydanÄ±n tam ortasÄ±nda bir havuz var.
 ~
 0 8192 1
 D0
@@ -960,10 +960,10 @@ D3
 0 -1 8111
 S
 #8113
-Şehir Meydanı~
-Şehir Meydanı'na geldin. Artık dümdüz, ıssız, kavrulmuş ve harap edilmiş bu
-meydandan çıkan birkaç yöne doğru devam edebilirsin. Ya da aşağı doğru uzanan
-sokaklara gidebilirsin. Meydanın tam ortasında bir havuz var.
+Åehir MeydanÄ±~
+Åehir MeydanÄ±'na geldin. ArtÄ±k dÃ¼mdÃ¼z, Ä±ssÄ±z, kavrulmuÅŸ ve harap edilmiÅŸ bu
+meydandan Ã§Ä±kan birkaÃ§ yÃ¶ne doÄŸru devam edebilirsin. Ya da aÅŸaÄŸÄ± doÄŸru uzanan
+sokaklara gidebilirsin. MeydanÄ±n tam ortasÄ±nda bir havuz var.
 ~
 0 8192 1
 D2
@@ -977,8 +977,8 @@ D3
 S
 #8114
 Bir Ara sokak~
-Meydanın batısındaki bir ara sokaktasın. Kuzeye ve güneye doğru evler
-uzanıyor.
+MeydanÄ±n batÄ±sÄ±ndaki bir ara sokaktasÄ±n. Kuzeye ve gÃ¼neye doÄŸru evler
+uzanÄ±yor.
 ~
 0 8192 1
 D0
@@ -1000,9 +1000,9 @@ D3
 S
 #8115
 Harabe Bir Ev~
-Bu evin içi buram buram ölüm kokuyor. Buranın eski sakinlerinin kaderi
-duvarlara sürünmüş, kurumuş kan ve yerlerdeki kemiklerden açıkça belli
-oluyor. Şimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+Bu evin iÃ§i buram buram Ã¶lÃ¼m kokuyor. BuranÄ±n eski sakinlerinin kaderi
+duvarlara sÃ¼rÃ¼nmÃ¼ÅŸ, kurumuÅŸ kan ve yerlerdeki kemiklerden aÃ§Ä±kÃ§a belli
+oluyor. Åimdiki sakinleri ise kolay Ã¶ldÃ¼rÃ¼lebilen cinsten olmayabilirler...
 ~
 0 8|8192 0
 D2
@@ -1012,9 +1012,9 @@ D2
 S
 #8116
 Harabe Bir Ev~
-Bu evin içi buram buram ölüm kokuyor. Buranın eski sakinlerinin kaderi
-duvarlara sürünmüş, kurumuş kan ve yerlerdeki kemiklerden açıkça belli
-oluyor. Şimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+Bu evin iÃ§i buram buram Ã¶lÃ¼m kokuyor. BuranÄ±n eski sakinlerinin kaderi
+duvarlara sÃ¼rÃ¼nmÃ¼ÅŸ, kurumuÅŸ kan ve yerlerdeki kemiklerden aÃ§Ä±kÃ§a belli
+oluyor. Åimdiki sakinleri ise kolay Ã¶ldÃ¼rÃ¼lebilen cinsten olmayabilirler...
 ~
 0 8|8192 0
 D0
@@ -1024,8 +1024,8 @@ D0
 S
 #8117
 Bir Ara sokak~
-Meydanın batısındaki bir ara sokaktasın. Kuzeye ve güneye doğru evler
-uzanıyor.
+MeydanÄ±n batÄ±sÄ±ndaki bir ara sokaktasÄ±n. Kuzeye ve gÃ¼neye doÄŸru evler
+uzanÄ±yor.
 ~
 0 8192 1
 D0
@@ -1047,9 +1047,9 @@ D3
 S
 #8118
 Harabe Bir Ev~
-Bu evin içi buram buram ölüm kokuyor. Buranın eski sakinlerinin kaderi
-duvarlara sürünmüş, kurumuş kan ve yerlerdeki kemiklerden açıkça belli
-oluyor. Şimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+Bu evin iÃ§i buram buram Ã¶lÃ¼m kokuyor. BuranÄ±n eski sakinlerinin kaderi
+duvarlara sÃ¼rÃ¼nmÃ¼ÅŸ, kurumuÅŸ kan ve yerlerdeki kemiklerden aÃ§Ä±kÃ§a belli
+oluyor. Åimdiki sakinleri ise kolay Ã¶ldÃ¼rÃ¼lebilen cinsten olmayabilirler...
 ~
 0 8|8192 0
 D2
@@ -1059,9 +1059,9 @@ D2
 S
 #8119
 Harabe Bir Ev~
-Bu evin içi buram buram ölüm kokuyor. Buranın eski sakinlerinin kaderi
-duvarlara sürünmüş, kurumuş kan ve yerlerdeki kemiklerden açıkça belli
-oluyor. Şimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+Bu evin iÃ§i buram buram Ã¶lÃ¼m kokuyor. BuranÄ±n eski sakinlerinin kaderi
+duvarlara sÃ¼rÃ¼nmÃ¼ÅŸ, kurumuÅŸ kan ve yerlerdeki kemiklerden aÃ§Ä±kÃ§a belli
+oluyor. Åimdiki sakinleri ise kolay Ã¶ldÃ¼rÃ¼lebilen cinsten olmayabilirler...
 ~
 0 8|8192 0
 D0
@@ -1071,8 +1071,8 @@ D0
 S
 #8120
 Bir Ara sokak~
-Meydanın batısındaki bir ara sokaktasın. Kuzeye ve güneye doğru evler
-uzanıyor.
+MeydanÄ±n batÄ±sÄ±ndaki bir ara sokaktasÄ±n. Kuzeye ve gÃ¼neye doÄŸru evler
+uzanÄ±yor.
 ~
 0 8192 1
 D0
@@ -1094,9 +1094,9 @@ D3
 S
 #8121
 Harabe Bir Ev~
-Bu evin içi buram buram ölüm kokuyor. Buranın eski sakinlerinin kaderi
-duvarlara sürünmüş, kurumuş kan ve yerlerdeki kemiklerden açıkça belli
-oluyor. Şimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+Bu evin iÃ§i buram buram Ã¶lÃ¼m kokuyor. BuranÄ±n eski sakinlerinin kaderi
+duvarlara sÃ¼rÃ¼nmÃ¼ÅŸ, kurumuÅŸ kan ve yerlerdeki kemiklerden aÃ§Ä±kÃ§a belli
+oluyor. Åimdiki sakinleri ise kolay Ã¶ldÃ¼rÃ¼lebilen cinsten olmayabilirler...
 ~
 0 8|8192 0
 D2
@@ -1106,9 +1106,9 @@ D2
 S
 #8122
 Harabe Bir Ev~
-Bu evin içi buram buram ölüm kokuyor. Buranın eski sakinlerinin kaderi
-duvarlara sürünmüş, kurumuş kan ve yerlerdeki kemiklerden açıkça belli
-oluyor. Şimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+Bu evin iÃ§i buram buram Ã¶lÃ¼m kokuyor. BuranÄ±n eski sakinlerinin kaderi
+duvarlara sÃ¼rÃ¼nmÃ¼ÅŸ, kurumuÅŸ kan ve yerlerdeki kemiklerden aÃ§Ä±kÃ§a belli
+oluyor. Åimdiki sakinleri ise kolay Ã¶ldÃ¼rÃ¼lebilen cinsten olmayabilirler...
 ~
 0 8|8192 0
 D0
@@ -1118,9 +1118,9 @@ D0
 S
 #8123
 Harabe Bir Ev~
-Bu evin içi buram buram ölüm kokuyor. Buranın eski sakinlerinin kaderi
-duvarlara sürünmüş, kurumuş kan ve yerlerdeki kemiklerden açıkça belli
-oluyor. Şimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+Bu evin iÃ§i buram buram Ã¶lÃ¼m kokuyor. BuranÄ±n eski sakinlerinin kaderi
+duvarlara sÃ¼rÃ¼nmÃ¼ÅŸ, kurumuÅŸ kan ve yerlerdeki kemiklerden aÃ§Ä±kÃ§a belli
+oluyor. Åimdiki sakinleri ise kolay Ã¶ldÃ¼rÃ¼lebilen cinsten olmayabilirler...
 ~
 0 8|8192 0
 D1
@@ -1130,8 +1130,8 @@ D1
 S
 #8124
 Bir Ara sokak~
-Meydanın doğusundaki bir ara sokaktasın. Kuzeye ve güneye doğru evler
-uzanıyor.
+MeydanÄ±n doÄŸusundaki bir ara sokaktasÄ±n. Kuzeye ve gÃ¼neye doÄŸru evler
+uzanÄ±yor.
 ~
 0 8192 1
 D0
@@ -1153,9 +1153,9 @@ D3
 S
 #8125
 Harabe Bir Ev~
-Bu evin içi buram buram ölüm kokuyor. Buranın eski sakinlerinin kaderi
-duvarlara sürünmüş, kurumuş kan ve yerlerdeki kemiklerden açıkça belli
-oluyor. Şimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+Bu evin iÃ§i buram buram Ã¶lÃ¼m kokuyor. BuranÄ±n eski sakinlerinin kaderi
+duvarlara sÃ¼rÃ¼nmÃ¼ÅŸ, kurumuÅŸ kan ve yerlerdeki kemiklerden aÃ§Ä±kÃ§a belli
+oluyor. Åimdiki sakinleri ise kolay Ã¶ldÃ¼rÃ¼lebilen cinsten olmayabilirler...
 ~
 0 8|8192 0
 D2
@@ -1165,9 +1165,9 @@ D2
 S
 #8126
 Harabe Bir Ev~
-Bu evin içi buram buram ölüm kokuyor. Buranın eski sakinlerinin kaderi
-duvarlara sürünmüş, kurumuş kan ve yerlerdeki kemiklerden açıkça belli
-oluyor. Şimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+Bu evin iÃ§i buram buram Ã¶lÃ¼m kokuyor. BuranÄ±n eski sakinlerinin kaderi
+duvarlara sÃ¼rÃ¼nmÃ¼ÅŸ, kurumuÅŸ kan ve yerlerdeki kemiklerden aÃ§Ä±kÃ§a belli
+oluyor. Åimdiki sakinleri ise kolay Ã¶ldÃ¼rÃ¼lebilen cinsten olmayabilirler...
 ~
 0 8|8192 0
 D0
@@ -1177,8 +1177,8 @@ D0
 S
 #8127
 Bir Ara sokak~
-Meydanın doğusundaki bir ara sokaktasın. Kuzeye ve güneye doğru evler
-uzanıyor.
+MeydanÄ±n doÄŸusundaki bir ara sokaktasÄ±n. Kuzeye ve gÃ¼neye doÄŸru evler
+uzanÄ±yor.
 ~
 0 8192 1
 D0
@@ -1200,9 +1200,9 @@ D3
 S
 #8128
 Harabe Bir Ev~
-Bu evin içi buram buram ölüm kokuyor. Buranın eski sakinlerinin kaderi
-duvarlara sürünmüş, kurumuş kan ve yerlerdeki kemiklerden açıkça belli
-oluyor. Şimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+Bu evin iÃ§i buram buram Ã¶lÃ¼m kokuyor. BuranÄ±n eski sakinlerinin kaderi
+duvarlara sÃ¼rÃ¼nmÃ¼ÅŸ, kurumuÅŸ kan ve yerlerdeki kemiklerden aÃ§Ä±kÃ§a belli
+oluyor. Åimdiki sakinleri ise kolay Ã¶ldÃ¼rÃ¼lebilen cinsten olmayabilirler...
 ~
 0 8|8192 0
 D2
@@ -1212,9 +1212,9 @@ D2
 S
 #8129
 Harabe Bir Ev~
-Bu evin içi buram buram ölüm kokuyor. Buranın eski sakinlerinin kaderi
-duvarlara sürünmüş, kurumuş kan ve yerlerdeki kemiklerden açıkça belli
-oluyor. Şimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+Bu evin iÃ§i buram buram Ã¶lÃ¼m kokuyor. BuranÄ±n eski sakinlerinin kaderi
+duvarlara sÃ¼rÃ¼nmÃ¼ÅŸ, kurumuÅŸ kan ve yerlerdeki kemiklerden aÃ§Ä±kÃ§a belli
+oluyor. Åimdiki sakinleri ise kolay Ã¶ldÃ¼rÃ¼lebilen cinsten olmayabilirler...
 ~
 0 8|8192 0
 D0
@@ -1224,8 +1224,8 @@ D0
 S
 #8130
 Bir Ara sokak~
-Meydanın doğusundaki bir ara sokağın sonundasın. Kuzeye,doğuya ve güneye doğru
-evler uzanıyor.
+MeydanÄ±n doÄŸusundaki bir ara sokaÄŸÄ±n sonundasÄ±n. Kuzeye,doÄŸuya ve gÃ¼neye doÄŸru
+evler uzanÄ±yor.
 ~
 0 8192 1
 D0
@@ -1247,9 +1247,9 @@ D3
 S
 #8131
 Harabe Bir Ev~
-Bu evin içi buram buram ölüm kokuyor. Buranın eski sakinlerinin kaderi
-duvarlara sürünmüş, kurumuş kan ve yerlerdeki kemiklerden açıkça belli
-oluyor. Şimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+Bu evin iÃ§i buram buram Ã¶lÃ¼m kokuyor. BuranÄ±n eski sakinlerinin kaderi
+duvarlara sÃ¼rÃ¼nmÃ¼ÅŸ, kurumuÅŸ kan ve yerlerdeki kemiklerden aÃ§Ä±kÃ§a belli
+oluyor. Åimdiki sakinleri ise kolay Ã¶ldÃ¼rÃ¼lebilen cinsten olmayabilirler...
 ~
 0 8|8192 0
 D2
@@ -1259,9 +1259,9 @@ D2
 S
 #8132
 Harabe Bir Ev~
-Bu evin içi buram buram ölüm kokuyor. Buranın eski sakinlerinin kaderi
-duvarlara sürünmüş, kurumuş kan ve yerlerdeki kemiklerden açıkça belli
-oluyor. Şimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+Bu evin iÃ§i buram buram Ã¶lÃ¼m kokuyor. BuranÄ±n eski sakinlerinin kaderi
+duvarlara sÃ¼rÃ¼nmÃ¼ÅŸ, kurumuÅŸ kan ve yerlerdeki kemiklerden aÃ§Ä±kÃ§a belli
+oluyor. Åimdiki sakinleri ise kolay Ã¶ldÃ¼rÃ¼lebilen cinsten olmayabilirler...
 ~
 0 8|8192 0
 D0
@@ -1271,9 +1271,9 @@ D0
 S
 #8133
 Harabe Bir Ev~
-Bu evin içi buram buram ölüm kokuyor. Buranın eski sakinlerinin kaderi
-duvarlara sürünmüş, kurumuş kan ve yerlerdeki kemiklerden açıkça belli
-oluyor. Şimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+Bu evin iÃ§i buram buram Ã¶lÃ¼m kokuyor. BuranÄ±n eski sakinlerinin kaderi
+duvarlara sÃ¼rÃ¼nmÃ¼ÅŸ, kurumuÅŸ kan ve yerlerdeki kemiklerden aÃ§Ä±kÃ§a belli
+oluyor. Åimdiki sakinleri ise kolay Ã¶ldÃ¼rÃ¼lebilen cinsten olmayabilirler...
 ~
 0 8|8192 0
 D3
@@ -1283,8 +1283,8 @@ D3
 S
 #8134
 Ana Cadde~
-Güneye doğu Şehir Meydanı, kuzeyde ise bir kesişmenin bulunduğu
-Ana Caddedesin. Evler caddenin iki yanında sıralanmış.
+GÃ¼neye doÄŸu Åehir MeydanÄ±, kuzeyde ise bir kesiÅŸmenin bulunduÄŸu
+Ana Caddedesin. Evler caddenin iki yanÄ±nda sÄ±ralanmÄ±ÅŸ.
 ~
 0 8192 1
 D0
@@ -1306,9 +1306,9 @@ D3
 S
 #8135
 Harabe Bir Ev~
-Bu evin içi buram buram ölüm kokuyor. Buranın eski sakinlerinin kaderi
-duvarlara sürünmüş, kurumuş kan ve yerlerdeki kemiklerden açıkça belli
-oluyor. Şimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+Bu evin iÃ§i buram buram Ã¶lÃ¼m kokuyor. BuranÄ±n eski sakinlerinin kaderi
+duvarlara sÃ¼rÃ¼nmÃ¼ÅŸ, kurumuÅŸ kan ve yerlerdeki kemiklerden aÃ§Ä±kÃ§a belli
+oluyor. Åimdiki sakinleri ise kolay Ã¶ldÃ¼rÃ¼lebilen cinsten olmayabilirler...
 ~
 0 8|8192 0
 D1
@@ -1318,9 +1318,9 @@ D1
 S
 #8136
 Harabe Bir Ev~
-Bu evin içi buram buram ölüm kokuyor. Buranın eski sakinlerinin kaderi
-duvarlara sürünmüş, kurumuş kan ve yerlerdeki kemiklerden açıkça belli
-oluyor. Şimdiki sakinleri ise kolay öldürülebilen cinsten olmayabilirler...
+Bu evin iÃ§i buram buram Ã¶lÃ¼m kokuyor. BuranÄ±n eski sakinlerinin kaderi
+duvarlara sÃ¼rÃ¼nmÃ¼ÅŸ, kurumuÅŸ kan ve yerlerdeki kemiklerden aÃ§Ä±kÃ§a belli
+oluyor. Åimdiki sakinleri ise kolay Ã¶ldÃ¼rÃ¼lebilen cinsten olmayabilirler...
 ~
 0 8|8192 0
 D3
@@ -1329,11 +1329,11 @@ D3
 1 0 8134
 S
 #8137
-Bir kesişme~
-Evlerden yoksun bir yol kesişmesinde duruyorsun. Buranın kuzey batısında
-bir park, batıda ise eski belediye başkanının yerleşim yeri duruyor. Kuzeye
-doğru giden patikanın nereye vardığından emin değilsin çünkü o bölge kara
-bir sisle örtülmüş...
+Bir kesiÅŸme~
+Evlerden yoksun bir yol kesiÅŸmesinde duruyorsun. BuranÄ±n kuzey batÄ±sÄ±nda
+bir park, batÄ±da ise eski belediye baÅŸkanÄ±nÄ±n yerleÅŸim yeri duruyor. Kuzeye
+doÄŸru giden patikanÄ±n nereye vardÄ±ÄŸÄ±ndan emin deÄŸilsin Ã§Ã¼nkÃ¼ o bÃ¶lge kara
+bir sisle Ã¶rtÃ¼lmÃ¼ÅŸ...
 ~
 0 8192 1
 D0
@@ -1350,10 +1350,10 @@ D3
 0 -1 8138
 S
 #8138
-Belediye Başkanı'nın Evi'ne Giden Yol~
-Bu yol bir zamanlar bakımlı ve güzeldi. Şimdi ise yıkıntılarla dolu ve
-özenle dizilmiş kaldırım taşlarının arasında gri pis otların türediği
-lanetli bir yer haline gelmiş. Batıda ve doğuda kavşaklar var.
+Belediye BaÅŸkanÄ±'nÄ±n Evi'ne Giden Yol~
+Bu yol bir zamanlar bakÄ±mlÄ± ve gÃ¼zeldi. Åimdi ise yÄ±kÄ±ntÄ±larla dolu ve
+Ã¶zenle dizilmiÅŸ kaldÄ±rÄ±m taÅŸlarÄ±nÄ±n arasÄ±nda gri pis otlarÄ±n tÃ¼rediÄŸi
+lanetli bir yer haline gelmiÅŸ. BatÄ±da ve doÄŸuda kavÅŸaklar var.
 ~
 0 8192 1
 D1
@@ -1366,11 +1366,11 @@ D3
 0 -1 8139
 S
 #8139
-Bir Kavşak~
-Bu noktada, pislik patikası kuzeye, bir zamanlar kıtadaki en güzel
-çiçeklerin bulunduğu, oldukça kasvetli görünen bir bahçeye doğru devam
-ediyor. Ama artık burası uğursuz ağaçlar ve patika boyunca türemiş gri
-yabani otların evi olmuş.
+Bir KavÅŸak~
+Bu noktada, pislik patikasÄ± kuzeye, bir zamanlar kÄ±tadaki en gÃ¼zel
+Ã§iÃ§eklerin bulunduÄŸu, oldukÃ§a kasvetli gÃ¶rÃ¼nen bir bahÃ§eye doÄŸru devam
+ediyor. Ama artÄ±k burasÄ± uÄŸursuz aÄŸaÃ§lar ve patika boyunca tÃ¼remiÅŸ gri
+yabani otlarÄ±n evi olmuÅŸ.
 ~
 0 8192 1
 D0
@@ -1387,11 +1387,11 @@ D3
 0 -1 8140
 S
 #8140
-Belediye Başkanı'nın Evi'nin Dışı~
-Yol, bir zamanlar Belediye Başkanı'nın evi olan yıpranmış bir konağın önünde
-sona eriyor. Hortlaklerin baskınından bu yana, oldukça bakımsızlaşmasına
-rağmen, diğer konutlarla karşılaştırdığında durumu senin içine burada önemli
-bir kişi (ya da şeyin) hala yaşadığı şüphesini düşürüyor.
+Belediye BaÅŸkanÄ±'nÄ±n Evi'nin DÄ±ÅŸÄ±~
+Yol, bir zamanlar Belediye BaÅŸkanÄ±'nÄ±n evi olan yÄ±pranmÄ±ÅŸ bir konaÄŸÄ±n Ã¶nÃ¼nde
+sona eriyor. Hortlaklerin baskÄ±nÄ±ndan bu yana, oldukÃ§a bakÄ±msÄ±zlaÅŸmasÄ±na
+raÄŸmen, diÄŸer konutlarla karÅŸÄ±laÅŸtÄ±rdÄ±ÄŸÄ±nda durumu senin iÃ§ine burada Ã¶nemli
+bir kiÅŸi (ya da ÅŸeyin) hala yaÅŸadÄ±ÄŸÄ± ÅŸÃ¼phesini dÃ¼ÅŸÃ¼rÃ¼yor.
 ~
 0 8192 1
 D1
@@ -1405,9 +1405,9 @@ D3
 S
 #8141
 Koridor~
-Duvarlarında gözden düşmüş, berbat görünüşlü bir ailenin tablolarının
-bulunduğu, loş ışıklı bir koridora geldin. Batıda bir sonraki kata giden
-yamuk bir merdiven yolu bulunuyor. Kuzey ve güneye doğru ise kapılar var.
+DuvarlarÄ±nda gÃ¶zden dÃ¼ÅŸmÃ¼ÅŸ, berbat gÃ¶rÃ¼nÃ¼ÅŸlÃ¼ bir ailenin tablolarÄ±nÄ±n
+bulunduÄŸu, loÅŸ Ä±ÅŸÄ±klÄ± bir koridora geldin. BatÄ±da bir sonraki kata giden
+yamuk bir merdiven yolu bulunuyor. Kuzey ve gÃ¼neye doÄŸru ise kapÄ±lar var.
 ~
 0 1|8|8192 0
 D0
@@ -1428,10 +1428,10 @@ D3
 0 -1 8144
 S
 #8142
-Başkan'ın Konağındaki Bir Oda~
-Bu oda buram buram leş kokuyor, nedeni etraftaki cesetler olmalı. Bütün
-duvarlara kan sürülmüş ve berbat görünüşlü bir sarmaşık pencerelerin kırık
-camlarının arasına sarılmış. Kusmamak için ağzını kapatıyorsun.
+BaÅŸkan'Ä±n KonaÄŸÄ±ndaki Bir Oda~
+Bu oda buram buram leÅŸ kokuyor, nedeni etraftaki cesetler olmalÄ±. BÃ¼tÃ¼n
+duvarlara kan sÃ¼rÃ¼lmÃ¼ÅŸ ve berbat gÃ¶rÃ¼nÃ¼ÅŸlÃ¼ bir sarmaÅŸÄ±k pencerelerin kÄ±rÄ±k
+camlarÄ±nÄ±n arasÄ±na sarÄ±lmÄ±ÅŸ. Kusmamak iÃ§in aÄŸzÄ±nÄ± kapatÄ±yorsun.
 ~
 0 1|8|8192 0
 D0
@@ -1440,10 +1440,10 @@ D0
 1 0 8141
 S
 #8143
-Başkan'ın Konağındaki Bir Oda~
-Bu oda buram buram leş kokuyor, nedeni etraftaki cesetler olmalı. Bütün
-duvarlara kan sürülmüş ve berbat görünüşlü bir sarmaşık pencerelerin kırık
-camlarının arasına sarılmış. Kusmamak için ağzını kapatıyorsun.
+BaÅŸkan'Ä±n KonaÄŸÄ±ndaki Bir Oda~
+Bu oda buram buram leÅŸ kokuyor, nedeni etraftaki cesetler olmalÄ±. BÃ¼tÃ¼n
+duvarlara kan sÃ¼rÃ¼lmÃ¼ÅŸ ve berbat gÃ¶rÃ¼nÃ¼ÅŸlÃ¼ bir sarmaÅŸÄ±k pencerelerin kÄ±rÄ±k
+camlarÄ±nÄ±n arasÄ±na sarÄ±lmÄ±ÅŸ. Kusmamak iÃ§in aÄŸzÄ±nÄ± kapatÄ±yorsun.
 ~
 0 1|8|8192 0
 D2
@@ -1453,9 +1453,9 @@ D2
 S
 #8144
 Koridor~
-Duvarlarında gözden düşmüş, berbat görünüşlü bir ailenin tablolarının
-bulunduğu, loş ışıklı bir koridora geldin. Batıda bir sonraki kata giden
-yamuk bir merdiven yolu bulunuyor. Kuzey ve güneye doğru ise kapılar var.
+DuvarlarÄ±nda gÃ¶zden dÃ¼ÅŸmÃ¼ÅŸ, berbat gÃ¶rÃ¼nÃ¼ÅŸlÃ¼ bir ailenin tablolarÄ±nÄ±n
+bulunduÄŸu, loÅŸ Ä±ÅŸÄ±klÄ± bir koridora geldin. BatÄ±da bir sonraki kata giden
+yamuk bir merdiven yolu bulunuyor. Kuzey ve gÃ¼neye doÄŸru ise kapÄ±lar var.
 ~
 0 1|8|8192 0
 D0
@@ -1476,10 +1476,10 @@ D3
 0 -1 8147
 S
 #8145
-Başkan'ın Konağındaki Bir Oda~
-Bu oda buram buram leş kokuyor, nedeni etraftaki cesetler olmalı. Bütün
-duvarlara kan sürülmüş ve berbat görünüşlü bir sarmaşık pencerelerin kırık
-camlarının arasına sarılmış. Kusmamak için ağzını kapatıyorsun.
+BaÅŸkan'Ä±n KonaÄŸÄ±ndaki Bir Oda~
+Bu oda buram buram leÅŸ kokuyor, nedeni etraftaki cesetler olmalÄ±. BÃ¼tÃ¼n
+duvarlara kan sÃ¼rÃ¼lmÃ¼ÅŸ ve berbat gÃ¶rÃ¼nÃ¼ÅŸlÃ¼ bir sarmaÅŸÄ±k pencerelerin kÄ±rÄ±k
+camlarÄ±nÄ±n arasÄ±na sarÄ±lmÄ±ÅŸ. Kusmamak iÃ§in aÄŸzÄ±nÄ± kapatÄ±yorsun.
 ~
 0 1|8|8192 0
 D0
@@ -1488,10 +1488,10 @@ D0
 1 0 8144
 S
 #8146
-Başkan'ın Konağındaki Bir Oda~
-Bu oda buram buram leş kokuyor, nedeni etraftaki cesetler olmalı. Bütün
-duvarlara kan sürülmüş ve berbat görünüşlü bir sarmaşık pencerelerin kırık
-camlarının arasına sarılmış. Kusmamak için ağzını kapatıyorsun.
+BaÅŸkan'Ä±n KonaÄŸÄ±ndaki Bir Oda~
+Bu oda buram buram leÅŸ kokuyor, nedeni etraftaki cesetler olmalÄ±. BÃ¼tÃ¼n
+duvarlara kan sÃ¼rÃ¼lmÃ¼ÅŸ ve berbat gÃ¶rÃ¼nÃ¼ÅŸlÃ¼ bir sarmaÅŸÄ±k pencerelerin kÄ±rÄ±k
+camlarÄ±nÄ±n arasÄ±na sarÄ±lmÄ±ÅŸ. Kusmamak iÃ§in aÄŸzÄ±nÄ± kapatÄ±yorsun.
 ~
 0 1|8|8192 0
 D2
@@ -1501,8 +1501,8 @@ D2
 S
 #8147
 Merdivenler~
-Bu eğri büğrü merdivenler oldukça dengesiz görünüyor ve bununla beraber üst
-kattan gelen dehşet verici koku, devam etme konusunda cesaretini kırıyor...
+Bu eÄŸri bÃ¼ÄŸrÃ¼ merdivenler oldukÃ§a dengesiz gÃ¶rÃ¼nÃ¼yor ve bununla beraber Ã¼st
+kattan gelen dehÅŸet verici koku, devam etme konusunda cesaretini kÄ±rÄ±yor...
 ~
 0 1|8|8192 0
 D1
@@ -1516,9 +1516,9 @@ D4
 S
 #8148
 Merdivenler~
-Merdivenlerin tepesinde, nefesini tutmak için duruyorsun ve iğrenç kokulu
-hava ciğerlerine doluyor. Öksürerek nefes almak için mücadele ediyorsun ve
-devam etmek için kendini zorluyorsun.
+Merdivenlerin tepesinde, nefesini tutmak iÃ§in duruyorsun ve iÄŸrenÃ§ kokulu
+hava ciÄŸerlerine doluyor. Ã–ksÃ¼rerek nefes almak iÃ§in mÃ¼cadele ediyorsun ve
+devam etmek iÃ§in kendini zorluyorsun.
 ~
 0 1|8|8192 0
 D1
@@ -1532,9 +1532,9 @@ D5
 S
 #8149
 Koridor~
-Duvarlarında gözden düşmüş, berbat görünüşlü bir ailenin tablolarının
-bulunduğu, loş ışıklı bir koridora geldin. Kuzey ve güneye doğru kapılar
-var. Koridor doğuda göz alıcı bir giriş kapısıyla bitiyor.
+DuvarlarÄ±nda gÃ¶zden dÃ¼ÅŸmÃ¼ÅŸ, berbat gÃ¶rÃ¼nÃ¼ÅŸlÃ¼ bir ailenin tablolarÄ±nÄ±n
+bulunduÄŸu, loÅŸ Ä±ÅŸÄ±klÄ± bir koridora geldin. Kuzey ve gÃ¼neye doÄŸru kapÄ±lar
+var. Koridor doÄŸuda gÃ¶z alÄ±cÄ± bir giriÅŸ kapÄ±sÄ±yla bitiyor.
 ~
 0 1|8|8192 0
 D0
@@ -1555,10 +1555,10 @@ D3
 0 -1 8148
 S
 #8150
-Başkan'ın Konağındaki Bir Oda~
-Bu oda buram buram leş kokuyor, muhtemelen etrafta yatan çürüyen cesetlerden dolayı..
-Bütün duvarlara kan sürülmüş ve berbat görünüşlü bir sarmaşık pencerelerin kırık
-camlarının arasına sarılmış. Kusmamak için ağzını kapatıyorsun.
+BaÅŸkan'Ä±n KonaÄŸÄ±ndaki Bir Oda~
+Bu oda buram buram leÅŸ kokuyor, muhtemelen etrafta yatan Ã§Ã¼rÃ¼yen cesetlerden dolayÄ±..
+BÃ¼tÃ¼n duvarlara kan sÃ¼rÃ¼lmÃ¼ÅŸ ve berbat gÃ¶rÃ¼nÃ¼ÅŸlÃ¼ bir sarmaÅŸÄ±k pencerelerin kÄ±rÄ±k
+camlarÄ±nÄ±n arasÄ±na sarÄ±lmÄ±ÅŸ. Kusmamak iÃ§in aÄŸzÄ±nÄ± kapatÄ±yorsun.
 ~
 0 1|8|8192 0
 D2
@@ -1567,10 +1567,10 @@ D2
 1 0 8149
 S
 #8151
-Başkan'ın Konağındaki Bir Oda~
-Bu oda buram buram leş kokuyor, nedeni etraftaki cesetler olmalı. Bütün
-duvarlara kan sürülmüş ve berbat görünüşlü bir sarmaşık pencerelerin kırık
-camlarının arasına sarılmış. Kusmamak için ağzını kapatıyorsun.
+BaÅŸkan'Ä±n KonaÄŸÄ±ndaki Bir Oda~
+Bu oda buram buram leÅŸ kokuyor, nedeni etraftaki cesetler olmalÄ±. BÃ¼tÃ¼n
+duvarlara kan sÃ¼rÃ¼lmÃ¼ÅŸ ve berbat gÃ¶rÃ¼nÃ¼ÅŸlÃ¼ bir sarmaÅŸÄ±k pencerelerin kÄ±rÄ±k
+camlarÄ±nÄ±n arasÄ±na sarÄ±lmÄ±ÅŸ. Kusmamak iÃ§in aÄŸzÄ±nÄ± kapatÄ±yorsun.
 ~
 0 1|8|8192 0
 D0
@@ -1579,12 +1579,12 @@ D0
 1 0 8149
 S
 #8152
-Başkan'ın çalışma odası~
-Bu odaya girdiğin anda, etrafta koku olmamasına oldukça şaşırıyorsun. Bunun
-yanında diğer odalardan farklı olarak, bu çalışma odasının durumunun iyiliği
-de seni şaşırtıyor. Üzerinde antik yazılar bulunan raflarla çevrili rahat
-bir mekan burası. Geniş meşeden yapılmış bir masa odayı dolduruyor ve onun
-arkasında da rahat, deri bir koltuk var. Burası kimin yeri olabilir acaba?
+BaÅŸkan'Ä±n Ã§alÄ±ÅŸma odasÄ±~
+Bu odaya girdiÄŸin anda, etrafta koku olmamasÄ±na oldukÃ§a ÅŸaÅŸÄ±rÄ±yorsun. Bunun
+yanÄ±nda diÄŸer odalardan farklÄ± olarak, bu Ã§alÄ±ÅŸma odasÄ±nÄ±n durumunun iyiliÄŸi
+de seni ÅŸaÅŸÄ±rtÄ±yor. Ãœzerinde antik yazÄ±lar bulunan raflarla Ã§evrili rahat
+bir mekan burasÄ±. GeniÅŸ meÅŸeden yapÄ±lmÄ±ÅŸ bir masa odayÄ± dolduruyor ve onun
+arkasÄ±nda da rahat, deri bir koltuk var. BurasÄ± kimin yeri olabilir acaba?
 ~
 0 8|8192 0
 D0
@@ -1601,10 +1601,10 @@ D3
 1 0 8149
 S
 #8153
-Bir Yatakodası~
-Bu odada süslüce oyulmuş, üzerinde saten örtüler bulunan geniş bir yatak
-var. Onun karşısında ise buranın efendisinin bakirelerinin yaslandığı rahat
-bir divan duruyor. Duvardaki bir tablo dikkatini çekiyor.
+Bir YatakodasÄ±~
+Bu odada sÃ¼slÃ¼ce oyulmuÅŸ, Ã¼zerinde saten Ã¶rtÃ¼ler bulunan geniÅŸ bir yatak
+var. Onun karÅŸÄ±sÄ±nda ise buranÄ±n efendisinin bakirelerinin yaslandÄ±ÄŸÄ± rahat
+bir divan duruyor. Duvardaki bir tablo dikkatini Ã§ekiyor.
 ~
 0 1|8|8192 0
 D2
@@ -1613,16 +1613,16 @@ D2
 1 0 8152
 E
 tablo~
-Bu yakışıklı ama şeytani görünen Kont Philippe Gaspar duGascoigne'in
-ortayaşlardaki halini resmediyor.
+Bu yakÄ±ÅŸÄ±klÄ± ama ÅŸeytani gÃ¶rÃ¼nen Kont Philippe Gaspar duGascoigne'in
+ortayaÅŸlardaki halini resmediyor.
 ~
 S
 #8154
-Bir Yatakodası~
-Kuzeydeki kopyası ne kadar güzel, rahat ve cömertçe yapılmışsa, bu yatak
-odası da o kadar yıkık dökük ve kokulu. Duvarlara kan bulanmış ve ortadaki
-avizeden iple bir ceset sarkıtılmış. Burada her kim yaşıyorsa kabul edilemez
-bir kişilikte olmalı...
+Bir YatakodasÄ±~
+Kuzeydeki kopyasÄ± ne kadar gÃ¼zel, rahat ve cÃ¶mertÃ§e yapÄ±lmÄ±ÅŸsa, bu yatak
+odasÄ± da o kadar yÄ±kÄ±k dÃ¶kÃ¼k ve kokulu. Duvarlara kan bulanmÄ±ÅŸ ve ortadaki
+avizeden iple bir ceset sarkÄ±tÄ±lmÄ±ÅŸ. Burada her kim yaÅŸÄ±yorsa kabul edilemez
+bir kiÅŸilikte olmalÄ±...
 ~
 0 1|8|8192 0
 D0
@@ -1631,10 +1631,10 @@ D0
 1 0 8152
 S
 #8155
-Karanlık Sis~
-Yolu aniden kaplayan kalın bir sis tabakasının içinden geçiyorsun.
-Ayaklarını ancak görebiliyorsun. Uğulamalar, çığlıklar, öfke dolu
-haykırışlar ve dehşet her yönden yaklaşıyor ve kalbini saran korkuyu
+KaranlÄ±k Sis~
+Yolu aniden kaplayan kalÄ±n bir sis tabakasÄ±nÄ±n iÃ§inden geÃ§iyorsun.
+AyaklarÄ±nÄ± ancak gÃ¶rebiliyorsun. UÄŸulamalar, Ã§Ä±ÄŸlÄ±klar, Ã¶fke dolu
+haykÄ±rÄ±ÅŸlar ve dehÅŸet her yÃ¶nden yaklaÅŸÄ±yor ve kalbini saran korkuyu
 hissedebiliyorsun.
 ~
 0 1|8192 1
@@ -1648,10 +1648,10 @@ D2
 0 -1 8137
 S
 #8156
-Karanlık Sis~
-Yolu aniden kaplayan kalın bir sis tabakasının içinden geçiyorsun.
-Ayaklarını ancak görebiliyorsun. Uğulamalar, çığlıklar, öfke dolu
-haykırışlar ve dehşet her yönden yaklaşıyor ve kalbini saran korkuyu
+KaranlÄ±k Sis~
+Yolu aniden kaplayan kalÄ±n bir sis tabakasÄ±nÄ±n iÃ§inden geÃ§iyorsun.
+AyaklarÄ±nÄ± ancak gÃ¶rebiliyorsun. UÄŸulamalar, Ã§Ä±ÄŸlÄ±klar, Ã¶fke dolu
+haykÄ±rÄ±ÅŸlar ve dehÅŸet her yÃ¶nden yaklaÅŸÄ±yor ve kalbini saran korkuyu
 hissedebiliyorsun.
 ~
 0 1|8192 1
@@ -1669,9 +1669,9 @@ D3
 0 -1 8155
 S
 #8157
-Küçük bir ev~
-Sis aniden kayboluyor ve kendini küçük taş bir binanın dışında dururken
-buluyorsun. Pencereleri yok ama kalın, meşeden bir kapı doğusunda duruyor.
+KÃ¼Ã§Ã¼k bir ev~
+Sis aniden kayboluyor ve kendini kÃ¼Ã§Ã¼k taÅŸ bir binanÄ±n dÄ±ÅŸÄ±nda dururken
+buluyorsun. Pencereleri yok ama kalÄ±n, meÅŸeden bir kapÄ± doÄŸusunda duruyor.
 ~
 0 8192 1
 D0
@@ -1684,10 +1684,10 @@ D1
 1 0 8158
 S
 #8158
-Bir İblisin geçici konutu~
+Bir Ä°blisin geÃ§ici konutu~
 O HAYIR!
-Yanlışlıkla ORCUS'un Birincil Maddesel Düzlem'deki geçici mabedine düştün!
-Eğer burada değilse hemen KAÇ! Eğer buradaysa...
+YanlÄ±ÅŸlÄ±kla ORCUS'un Birincil Maddesel DÃ¼zlem'deki geÃ§ici mabedine dÃ¼ÅŸtÃ¼n!
+EÄŸer burada deÄŸilse hemen KAÃ‡! EÄŸer buradaysa...
 ~
 0 8|8192 0
 D3
@@ -1696,10 +1696,10 @@ D3
 1 0 8157
 S
 #8159
-Karanlık Sis~
-Yolu aniden kaplayan kalın bir sis tabakasının içinden geçiyorsun.
-Ayaklarını ancak görebiliyorsun. Uğulamalar, çığlıklar, öfke dolu
-haykırışlar ve dehşet her yönden yaklaşıyor ve kalbini saran korkuyu
+KaranlÄ±k Sis~
+Yolu aniden kaplayan kalÄ±n bir sis tabakasÄ±nÄ±n iÃ§inden geÃ§iyorsun.
+AyaklarÄ±nÄ± ancak gÃ¶rebiliyorsun. UÄŸulamalar, Ã§Ä±ÄŸlÄ±klar, Ã¶fke dolu
+haykÄ±rÄ±ÅŸlar ve dehÅŸet her yÃ¶nden yaklaÅŸÄ±yor ve kalbini saran korkuyu
 hissedebiliyorsun.
 ~
 0 1|8192 1
@@ -1717,10 +1717,10 @@ D2
 0 -1 8156
 S
 #8160
-Açıklık bir alan~
-Sisten yoksun, doğuda bir kapısı olan , harabe bir kulubenin ön bahçesini
-oluşturan açıklık bir alandasın. Pencerelere baktığında hayal meyal bazı
-şekillerin kıpırdadığını görüyorsun.
+AÃ§Ä±klÄ±k bir alan~
+Sisten yoksun, doÄŸuda bir kapÄ±sÄ± olan , harabe bir kulubenin Ã¶n bahÃ§esini
+oluÅŸturan aÃ§Ä±klÄ±k bir alandasÄ±n. Pencerelere baktÄ±ÄŸÄ±nda hayal meyal bazÄ±
+ÅŸekillerin kÄ±pÄ±rdadÄ±ÄŸÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 8192 1
 D1
@@ -1733,10 +1733,10 @@ D3
 0 -1 8159
 S
 #8161
-Kulübe'nin İçi~
-Bu kulübe de tıpkı diğer konutlar gibi yıkıntıdan ibaret. Yerleri kırılmış
-mobilyalar ve çürüyen cesetler doldurmuş. Doğuya doğru, aşağıya inen bir
-merdiven görüyorsun.
+KulÃ¼be'nin Ä°Ã§i~
+Bu kulÃ¼be de tÄ±pkÄ± diÄŸer konutlar gibi yÄ±kÄ±ntÄ±dan ibaret. Yerleri kÄ±rÄ±lmÄ±ÅŸ
+mobilyalar ve Ã§Ã¼rÃ¼yen cesetler doldurmuÅŸ. DoÄŸuya doÄŸru, aÅŸaÄŸÄ±ya inen bir
+merdiven gÃ¶rÃ¼yorsun.
 ~
 0 1|8192 0
 D1
@@ -1750,9 +1750,9 @@ D3
 S
 #8162
 Merdivenler~
-Bu merdivenler, kasabadaki diğer yapılardan daha eski görünüyor ve antik
-taşlardan yapılmışlar. Aşağıda ne olduğunu görmek için dikkatle bakıyorsun
-ama gördüğün tek şey karanlık...
+Bu merdivenler, kasabadaki diÄŸer yapÄ±lardan daha eski gÃ¶rÃ¼nÃ¼yor ve antik
+taÅŸlardan yapÄ±lmÄ±ÅŸlar. AÅŸaÄŸÄ±da ne olduÄŸunu gÃ¶rmek iÃ§in dikkatle bakÄ±yorsun
+ama gÃ¶rdÃ¼ÄŸÃ¼n tek ÅŸey karanlÄ±k...
 ~
 0 1|4|8192 0
 D3
@@ -1765,10 +1765,10 @@ D5
 0 -1 -1
 S
 #8163
-Karanlık Sis~
-Yolu aniden kaplayan kalın bir sis tabakasının içinden geçiyorsun.
-Ayaklarını ancak görebiliyorsun. Uğulamalar, çığlıklar, öfke dolu
-haykırışlar ve dehşet her yönden yaklaşıyor ve kalbini saran korkuyu
+KaranlÄ±k Sis~
+Yolu aniden kaplayan kalÄ±n bir sis tabakasÄ±nÄ±n iÃ§inden geÃ§iyorsun.
+AyaklarÄ±nÄ± ancak gÃ¶rebiliyorsun. UÄŸulamalar, Ã§Ä±ÄŸlÄ±klar, Ã¶fke dolu
+haykÄ±rÄ±ÅŸlar ve dehÅŸet her yÃ¶nden yaklaÅŸÄ±yor ve kalbini saran korkuyu
 hissedebiliyorsun.
 ~
 0 1|8192 1
@@ -1782,11 +1782,11 @@ D2
 0 -1 8159
 S
 #8164
-Karanlık Sis~
-Yolu aniden kaplayan kalın bir sis tabakasının içinden geçiyorsun.
-Ayaklarını ancak görebiliyorsun. Uğulamalar, çığlıklar, öfke dolu
-haykırışlar ve dehşet her yönden yaklaşıyor ve kalbini saran korkuyu
-hissedebiliyorsun. Doğuya doğru taş bir binayı seçer gibisin...
+KaranlÄ±k Sis~
+Yolu aniden kaplayan kalÄ±n bir sis tabakasÄ±nÄ±n iÃ§inden geÃ§iyorsun.
+AyaklarÄ±nÄ± ancak gÃ¶rebiliyorsun. UÄŸulamalar, Ã§Ä±ÄŸlÄ±klar, Ã¶fke dolu
+haykÄ±rÄ±ÅŸlar ve dehÅŸet her yÃ¶nden yaklaÅŸÄ±yor ve kalbini saran korkuyu
+hissedebiliyorsun. DoÄŸuya doÄŸru taÅŸ bir binayÄ± seÃ§er gibisin...
 ~
 0 1|8192 1
 D0
@@ -1803,10 +1803,10 @@ D2
 0 -1 8163
 S
 #8165
-Türbenin Dışı~
-Bu küçük taş yapı, muhtemelen bir türbe. Oldukça iyi durumda olması,
-bu hortlak kentin yeni sakinlerini düşününce seni şaşırtmıyor. Geniş,
-demir bir kapı doğuda, ve yüzeyinde gümüş rünler olduğunu görüyorsun.
+TÃ¼rbenin DÄ±ÅŸÄ±~
+Bu kÃ¼Ã§Ã¼k taÅŸ yapÄ±, muhtemelen bir tÃ¼rbe. OldukÃ§a iyi durumda olmasÄ±,
+bu hortlak kentin yeni sakinlerini dÃ¼ÅŸÃ¼nÃ¼nce seni ÅŸaÅŸÄ±rtmÄ±yor. GeniÅŸ,
+demir bir kapÄ± doÄŸuda, ve yÃ¼zeyinde gÃ¼mÃ¼ÅŸ rÃ¼nler olduÄŸunu gÃ¶rÃ¼yorsun.
 ~
 0 4|8192 1
 D1
@@ -1818,23 +1818,23 @@ D3
 ~
 0 -1 8164
 E
-rünler kapı~
-Kapıdaki rünlerde şöyle yazıyor:-
+rÃ¼nler kapÄ±~
+KapÄ±daki rÃ¼nlerde ÅŸÃ¶yle yazÄ±yor:-
 
-  "Burası Palem Baronluğu'nun eski tiranı Şeytani Baron Shereck ve
-   O'nun iki kardeşinin ebedi uyku mekanıdır. Anon'un Başbüyücüsü
-   Xanad'ın kudretli büyüsünün hapsinde, Baron'un hortlak müttefikleri
-   bu uykuyu bozamazlar. Dua et! Bunu her kim okuyorsa! Bu kapıyı
-   çiğneme! Eğer yaparsan onların hortlak çılgınlığını dünyaya tekrar
-   salıverirsin!"
+  "BurasÄ± Palem BaronluÄŸu'nun eski tiranÄ± Åeytani Baron Shereck ve
+   O'nun iki kardeÅŸinin ebedi uyku mekanÄ±dÄ±r. Anon'un BaÅŸbÃ¼yÃ¼cÃ¼sÃ¼
+   Xanad'Ä±n kudretli bÃ¼yÃ¼sÃ¼nÃ¼n hapsinde, Baron'un hortlak mÃ¼ttefikleri
+   bu uykuyu bozamazlar. Dua et! Bunu her kim okuyorsa! Bu kapÄ±yÄ±
+   Ã§iÄŸneme! EÄŸer yaparsan onlarÄ±n hortlak Ã§Ä±lgÄ±nlÄ±ÄŸÄ±nÄ± dÃ¼nyaya tekrar
+   salÄ±verirsin!"
 ~
 S
 #8166
-Türbenin İçi~
-Türbe'nin içi karanlık, rutubetli ve sıkışık. Asırlardır buraya kimse
-gelmemiş gibi görünüyor. Bileğin derinliğinde bir toz tabakası ve
-bileklerinin kalınlığındaki örümcek ağları yürümeni zorlaştırıyor. Bu
-ağları ören şeyle karşılaşmamayı umuyorsun.
+TÃ¼rbenin Ä°Ã§i~
+TÃ¼rbe'nin iÃ§i karanlÄ±k, rutubetli ve sÄ±kÄ±ÅŸÄ±k. AsÄ±rlardÄ±r buraya kimse
+gelmemiÅŸ gibi gÃ¶rÃ¼nÃ¼yor. BileÄŸin derinliÄŸinde bir toz tabakasÄ± ve
+bileklerinin kalÄ±nlÄ±ÄŸÄ±ndaki Ã¶rÃ¼mcek aÄŸlarÄ± yÃ¼rÃ¼meni zorlaÅŸtÄ±rÄ±yor. Bu
+aÄŸlarÄ± Ã¶ren ÅŸeyle karÅŸÄ±laÅŸmamayÄ± umuyorsun.
 ~
 0 1|128|8192 0
 D3
@@ -1847,10 +1847,10 @@ D5
 0 -1 8167
 S
 #8167
-Türbe~
-Üç kapı ve bir merdiven buradan kaçışı sağlıyor. Duvarlardaki resimler ve
-tavandaki çerçevelere asılmış çürüyen cesetler, sende bu kaçışları kullanma
-isteği uyandırıyor.
+TÃ¼rbe~
+ÃœÃ§ kapÄ± ve bir merdiven buradan kaÃ§Ä±ÅŸÄ± saÄŸlÄ±yor. Duvarlardaki resimler ve
+tavandaki Ã§erÃ§evelere asÄ±lmÄ±ÅŸ Ã§Ã¼rÃ¼yen cesetler, sende bu kaÃ§Ä±ÅŸlarÄ± kullanma
+isteÄŸi uyandÄ±rÄ±yor.
 ~
 0 1|128|8192 0
 D0
@@ -1871,10 +1871,10 @@ D4
 0 -1 8166
 S
 #8168
-Türbedeki Bir Oda~
-Türbenin ana çemberindeki bu üç inziva yeri hemen hemen aynı. Kapağında
-sahibinin görünüşünün kabartma halinde resmedildiği taştan tabutlar var.
-Bunun dışında mekan oldukça yalın, ya da?
+TÃ¼rbedeki Bir Oda~
+TÃ¼rbenin ana Ã§emberindeki bu Ã¼Ã§ inziva yeri hemen hemen aynÄ±. KapaÄŸÄ±nda
+sahibinin gÃ¶rÃ¼nÃ¼ÅŸÃ¼nÃ¼n kabartma halinde resmedildiÄŸi taÅŸtan tabutlar var.
+Bunun dÄ±ÅŸÄ±nda mekan oldukÃ§a yalÄ±n, ya da?
 ~
 0 1|128|8192 0
 D2
@@ -1883,10 +1883,10 @@ D2
 1 0 8167
 S
 #8169
-Türbedeki Bir Oda~
-Türbenin ana çemberindeki bu üç inziva yeri hemen hemen aynı. Kapağında
-sahibinin görünüşünün kabartma halinde resmedildiği taştan tabutlar var.
-Bunun dışında mekan oldukça yalın, ya da?
+TÃ¼rbedeki Bir Oda~
+TÃ¼rbenin ana Ã§emberindeki bu Ã¼Ã§ inziva yeri hemen hemen aynÄ±. KapaÄŸÄ±nda
+sahibinin gÃ¶rÃ¼nÃ¼ÅŸÃ¼nÃ¼n kabartma halinde resmedildiÄŸi taÅŸtan tabutlar var.
+Bunun dÄ±ÅŸÄ±nda mekan oldukÃ§a yalÄ±n, ya da?
 ~
 0 1|128|8192 0
 D0
@@ -1895,10 +1895,10 @@ D0
 1 0 8167
 S
 #8170
-Türbedeki Bir Oda~
-Türbenin ana çemberindeki bu üç inziva yeri hemen hemen aynı. Kapağında
-sahibinin görünüşünün kabartma halinde resmedildiği taştan tabutlar var.
-Bunun dışında mekan oldukça yalın, ya da?
+TÃ¼rbedeki Bir Oda~
+TÃ¼rbenin ana Ã§emberindeki bu Ã¼Ã§ inziva yeri hemen hemen aynÄ±. KapaÄŸÄ±nda
+sahibinin gÃ¶rÃ¼nÃ¼ÅŸÃ¼nÃ¼n kabartma halinde resmedildiÄŸi taÅŸtan tabutlar var.
+Bunun dÄ±ÅŸÄ±nda mekan oldukÃ§a yalÄ±n, ya da?
 ~
 0 1|128|8192 0
 D3
@@ -1907,10 +1907,10 @@ D3
 1 0 8167
 S
 #8171
-Bahçeye giden patika~
-Patikanın içi çirkin ve ölü görünen bitkilerle dolu. Sanki onların yaşamı
-yanlarında duran dişe benzeyen dikenleriyle daha canlı gözüken başka
-bitkiler tarafından emilmiş gibi görünüyor...
+BahÃ§eye giden patika~
+PatikanÄ±n iÃ§i Ã§irkin ve Ã¶lÃ¼ gÃ¶rÃ¼nen bitkilerle dolu. Sanki onlarÄ±n yaÅŸamÄ±
+yanlarÄ±nda duran diÅŸe benzeyen dikenleriyle daha canlÄ± gÃ¶zÃ¼ken baÅŸka
+bitkiler tarafÄ±ndan emilmiÅŸ gibi gÃ¶rÃ¼nÃ¼yor...
 ~
 0 8192 3
 D0
@@ -1923,11 +1923,11 @@ D2
 0 -1 8139
 S
 #8172
-Bahçeye giden patika~
-Patikanın içi çirkin ve ölü görünen bitkilerle dolu. Sanki onların yaşamı
-yanlarında duran dişe benzeyen dikenleriyle daha canlı gözüken başka
-bitkiler tarafından emilmiş gibi görünüyor. Ve aniden küfrederek, patikanın
-ortasına açılmış ve dallarla örtülmüş küçük bir deliğe düşüyorsun.
+BahÃ§eye giden patika~
+PatikanÄ±n iÃ§i Ã§irkin ve Ã¶lÃ¼ gÃ¶rÃ¼nen bitkilerle dolu. Sanki onlarÄ±n yaÅŸamÄ±
+yanlarÄ±nda duran diÅŸe benzeyen dikenleriyle daha canlÄ± gÃ¶zÃ¼ken baÅŸka
+bitkiler tarafÄ±ndan emilmiÅŸ gibi gÃ¶rÃ¼nÃ¼yor. Ve aniden kÃ¼frederek, patikanÄ±n
+ortasÄ±na aÃ§Ä±lmÄ±ÅŸ ve dallarla Ã¶rtÃ¼lmÃ¼ÅŸ kÃ¼Ã§Ã¼k bir deliÄŸe dÃ¼ÅŸÃ¼yorsun.
 ~
 0 4|8192 3
 D0
@@ -1944,11 +1944,11 @@ D5
 0 -1 8174
 S
 #8173
-Bahçeye giden patika~
-Patikanın içi çirkin ve ölü görünen bitkilerle dolu. Sanki onların yaşamı
-yanlarında duran dişe benzeyen dikenleriyle daha canlı gözüken başka
-bitkiler tarafından emilmiş gibi görünüyor. Bahçe kapıları tam karşında...
-İçeri gönülsüzce giriyorsun. Burası gerçek bir labirente benziyor...
+BahÃ§eye giden patika~
+PatikanÄ±n iÃ§i Ã§irkin ve Ã¶lÃ¼ gÃ¶rÃ¼nen bitkilerle dolu. Sanki onlarÄ±n yaÅŸamÄ±
+yanlarÄ±nda duran diÅŸe benzeyen dikenleriyle daha canlÄ± gÃ¶zÃ¼ken baÅŸka
+bitkiler tarafÄ±ndan emilmiÅŸ gibi gÃ¶rÃ¼nÃ¼yor. BahÃ§e kapÄ±larÄ± tam karÅŸÄ±nda...
+Ä°Ã§eri gÃ¶nÃ¼lsÃ¼zce giriyorsun. BurasÄ± gerÃ§ek bir labirente benziyor...
 ~
 0 4|8192 3
 D0
@@ -1961,10 +1961,10 @@ D2
 0 -1 8172
 S
 #8174
-Bir Kaçış Oyuğu~
-Burası şehre getirdiği şeytanlarca korkutulan, Ölüm Büyücüsü Xantharus'un
-korkakça gizlendiği yer. Kaçmak için herşeyi yapardı ama şu an deliğinden
-çıkmak için fazla şoke olmuş görünüyor.
+Bir KaÃ§Ä±ÅŸ OyuÄŸu~
+BurasÄ± ÅŸehre getirdiÄŸi ÅŸeytanlarca korkutulan, Ã–lÃ¼m BÃ¼yÃ¼cÃ¼sÃ¼ Xantharus'un
+korkakÃ§a gizlendiÄŸi yer. KaÃ§mak iÃ§in herÅŸeyi yapardÄ± ama ÅŸu an deliÄŸinden
+Ã§Ä±kmak iÃ§in fazla ÅŸoke olmuÅŸ gÃ¶rÃ¼nÃ¼yor.
 ~
 0 1|8192 0
 D4
@@ -1973,12 +1973,12 @@ D4
 0 -1 8172
 S
 #8175
-Bahçe~
-Kendini dikenli dallar ve hayatları kendilerinden çalınmış çürük
-ağaçların oluşturduğu bir labirentte kaybolmuş buluyorsun. İyi ki
-ulumalar ve çığlıklar ortamdaki donuk havayı zaman zaman dağıtıyor.
-Aksi takdirde etrafının ürkütücülüğünü arttırmaktan başka bir işe
-yaramayan bu donukluk içinde yutulabilirdin.
+BahÃ§e~
+Kendini dikenli dallar ve hayatlarÄ± kendilerinden Ã§alÄ±nmÄ±ÅŸ Ã§Ã¼rÃ¼k
+aÄŸaÃ§larÄ±n oluÅŸturduÄŸu bir labirentte kaybolmuÅŸ buluyorsun. Ä°yi ki
+ulumalar ve Ã§Ä±ÄŸlÄ±klar ortamdaki donuk havayÄ± zaman zaman daÄŸÄ±tÄ±yor.
+Aksi takdirde etrafÄ±nÄ±n Ã¼rkÃ¼tÃ¼cÃ¼lÃ¼ÄŸÃ¼nÃ¼ arttÄ±rmaktan baÅŸka bir iÅŸe
+yaramayan bu donukluk iÃ§inde yutulabilirdin.
 ~
 0 1|8192 3
 D0
@@ -1991,12 +1991,12 @@ D1
 0 -1 8176
 S
 #8176
-Bahçe~
-Kendini dikenli dallar ve hayatları kendilerinden çalınmış çürük
-ağaçların oluşturduğu bir labirentte kaybolmuş buluyorsun. İyi ki
-ulumalar ve çığlıklar ortamdaki donuk havayı zaman zaman dağıtıyor.
-Aksi takdirde etrafının ürkütücülüğünü arttırmaktan başka bir işe
-yaramayan bu donukluk içinde yutulabilirdin.
+BahÃ§e~
+Kendini dikenli dallar ve hayatlarÄ± kendilerinden Ã§alÄ±nmÄ±ÅŸ Ã§Ã¼rÃ¼k
+aÄŸaÃ§larÄ±n oluÅŸturduÄŸu bir labirentte kaybolmuÅŸ buluyorsun. Ä°yi ki
+ulumalar ve Ã§Ä±ÄŸlÄ±klar ortamdaki donuk havayÄ± zaman zaman daÄŸÄ±tÄ±yor.
+Aksi takdirde etrafÄ±nÄ±n Ã¼rkÃ¼tÃ¼cÃ¼lÃ¼ÄŸÃ¼nÃ¼ arttÄ±rmaktan baÅŸka bir iÅŸe
+yaramayan bu donukluk iÃ§inde yutulabilirdin.
 ~
 0 1|8192 3
 D0
@@ -2013,12 +2013,12 @@ D3
 0 -1 8175
 S
 #8177
-Bahçe~
-Kendini dikenli dallar ve hayatları kendilerinden çalınmış çürük
-ağaçların oluşturduğu bir labirentte kaybolmuş buluyorsun. İyi ki
-ulumalar ve çığlıklar ortamdaki donuk havayı zaman zaman dağıtıyor.
-Aksi takdirde etrafının ürkütücülüğünü arttırmaktan başka bir işe
-yaramayan bu donukluk içinde yutulabilirdin.
+BahÃ§e~
+Kendini dikenli dallar ve hayatlarÄ± kendilerinden Ã§alÄ±nmÄ±ÅŸ Ã§Ã¼rÃ¼k
+aÄŸaÃ§larÄ±n oluÅŸturduÄŸu bir labirentte kaybolmuÅŸ buluyorsun. Ä°yi ki
+ulumalar ve Ã§Ä±ÄŸlÄ±klar ortamdaki donuk havayÄ± zaman zaman daÄŸÄ±tÄ±yor.
+Aksi takdirde etrafÄ±nÄ±n Ã¼rkÃ¼tÃ¼cÃ¼lÃ¼ÄŸÃ¼nÃ¼ arttÄ±rmaktan baÅŸka bir iÅŸe
+yaramayan bu donukluk iÃ§inde yutulabilirdin.
 ~
 0 1|8192 3
 D0
@@ -2035,12 +2035,12 @@ D3
 0 -1 8176
 S
 #8178
-Bahçe~
-Kendini dikenli dallar ve hayatları kendilerinden çalınmış çürük
-ağaçların oluşturduğu bir labirentte kaybolmuş buluyorsun. İyi ki
-ulumalar ve çığlıklar ortamdaki donuk havayı zaman zaman dağıtıyor.
-Aksi takdirde etrafının ürkütücülüğünü arttırmaktan başka bir işe
-yaramayan bu donukluk içinde yutulabilirdin.
+BahÃ§e~
+Kendini dikenli dallar ve hayatlarÄ± kendilerinden Ã§alÄ±nmÄ±ÅŸ Ã§Ã¼rÃ¼k
+aÄŸaÃ§larÄ±n oluÅŸturduÄŸu bir labirentte kaybolmuÅŸ buluyorsun. Ä°yi ki
+ulumalar ve Ã§Ä±ÄŸlÄ±klar ortamdaki donuk havayÄ± zaman zaman daÄŸÄ±tÄ±yor.
+Aksi takdirde etrafÄ±nÄ±n Ã¼rkÃ¼tÃ¼cÃ¼lÃ¼ÄŸÃ¼nÃ¼ arttÄ±rmaktan baÅŸka bir iÅŸe
+yaramayan bu donukluk iÃ§inde yutulabilirdin.
 ~
 0 1|8192 3
 D0
@@ -2057,12 +2057,12 @@ D3
 0 -1 8177
 S
 #8179
-Bahçe~
-Kendini dikenli dallar ve hayatları kendilerinden çalınmış çürük
-ağaçların oluşturduğu bir labirentte kaybolmuş buluyorsun. İyi ki
-ulumalar ve çığlıklar ortamdaki donuk havayı zaman zaman dağıtıyor.
-Aksi takdirde etrafının ürkütücülüğünü arttırmaktan başka bir işe
-yaramayan bu donukluk içinde yutulabilirdin.
+BahÃ§e~
+Kendini dikenli dallar ve hayatlarÄ± kendilerinden Ã§alÄ±nmÄ±ÅŸ Ã§Ã¼rÃ¼k
+aÄŸaÃ§larÄ±n oluÅŸturduÄŸu bir labirentte kaybolmuÅŸ buluyorsun. Ä°yi ki
+ulumalar ve Ã§Ä±ÄŸlÄ±klar ortamdaki donuk havayÄ± zaman zaman daÄŸÄ±tÄ±yor.
+Aksi takdirde etrafÄ±nÄ±n Ã¼rkÃ¼tÃ¼cÃ¼lÃ¼ÄŸÃ¼nÃ¼ arttÄ±rmaktan baÅŸka bir iÅŸe
+yaramayan bu donukluk iÃ§inde yutulabilirdin.
 ~
 0 1|8192 3
 D0
@@ -2075,12 +2075,12 @@ D3
 0 -1 8178
 S
 #8180
-Bahçe~
-Kendini dikenli dallar ve hayatları kendilerinden çalınmış çürük
-ağaçların oluşturduğu bir labirentte kaybolmuş buluyorsun. İyi ki
-ulumalar ve çığlıklar ortamdaki donuk havayı zaman zaman dağıtıyor.
-Aksi takdirde etrafının ürkütücülüğünü arttırmaktan başka bir işe
-yaramayan bu donukluk içinde yutulabilirdin.
+BahÃ§e~
+Kendini dikenli dallar ve hayatlarÄ± kendilerinden Ã§alÄ±nmÄ±ÅŸ Ã§Ã¼rÃ¼k
+aÄŸaÃ§larÄ±n oluÅŸturduÄŸu bir labirentte kaybolmuÅŸ buluyorsun. Ä°yi ki
+ulumalar ve Ã§Ä±ÄŸlÄ±klar ortamdaki donuk havayÄ± zaman zaman daÄŸÄ±tÄ±yor.
+Aksi takdirde etrafÄ±nÄ±n Ã¼rkÃ¼tÃ¼cÃ¼lÃ¼ÄŸÃ¼nÃ¼ arttÄ±rmaktan baÅŸka bir iÅŸe
+yaramayan bu donukluk iÃ§inde yutulabilirdin.
 ~
 0 1|8192 3
 D0
@@ -2097,12 +2097,12 @@ D2
 0 -1 8175
 S
 #8181
-Bahçe~
-Kendini dikenli dallar ve hayatları kendilerinden çalınmış çürük
-ağaçların oluşturduğu bir labirentte kaybolmuş buluyorsun. İyi ki
-ulumalar ve çığlıklar ortamdaki donuk havayı zaman zaman dağıtıyor.
-Aksi takdirde etrafının ürkütücülüğünü arttırmaktan başka bir işe
-yaramayan bu donukluk içinde yutulabilirdin.
+BahÃ§e~
+Kendini dikenli dallar ve hayatlarÄ± kendilerinden Ã§alÄ±nmÄ±ÅŸ Ã§Ã¼rÃ¼k
+aÄŸaÃ§larÄ±n oluÅŸturduÄŸu bir labirentte kaybolmuÅŸ buluyorsun. Ä°yi ki
+ulumalar ve Ã§Ä±ÄŸlÄ±klar ortamdaki donuk havayÄ± zaman zaman daÄŸÄ±tÄ±yor.
+Aksi takdirde etrafÄ±nÄ±n Ã¼rkÃ¼tÃ¼cÃ¼lÃ¼ÄŸÃ¼nÃ¼ arttÄ±rmaktan baÅŸka bir iÅŸe
+yaramayan bu donukluk iÃ§inde yutulabilirdin.
 ~
 0 1|8192 3
 D0
@@ -2123,12 +2123,12 @@ D3
 0 -1 8180
 S
 #8182
-Bahçe~
-Kendini dikenli dallar ve hayatları kendilerinden çalınmış çürük
-ağaçların oluşturduğu bir labirentte kaybolmuş buluyorsun. İyi ki
-ulumalar ve çığlıklar ortamdaki donuk havayı zaman zaman dağıtıyor.
-Aksi takdirde etrafının ürkütücülüğünü arttırmaktan başka bir işe
-yaramayan bu donukluk içinde yutulabilirdin.
+BahÃ§e~
+Kendini dikenli dallar ve hayatlarÄ± kendilerinden Ã§alÄ±nmÄ±ÅŸ Ã§Ã¼rÃ¼k
+aÄŸaÃ§larÄ±n oluÅŸturduÄŸu bir labirentte kaybolmuÅŸ buluyorsun. Ä°yi ki
+ulumalar ve Ã§Ä±ÄŸlÄ±klar ortamdaki donuk havayÄ± zaman zaman daÄŸÄ±tÄ±yor.
+Aksi takdirde etrafÄ±nÄ±n Ã¼rkÃ¼tÃ¼cÃ¼lÃ¼ÄŸÃ¼nÃ¼ arttÄ±rmaktan baÅŸka bir iÅŸe
+yaramayan bu donukluk iÃ§inde yutulabilirdin.
 ~
 0 1|8192 3
 D0
@@ -2149,12 +2149,12 @@ D3
 0 -1 8181
 S
 #8183
-Bahçe~
-Kendini dikenli dallar ve hayatları kendilerinden çalınmış çürük
-ağaçların oluşturduğu bir labirentte kaybolmuş buluyorsun. İyi ki
-ulumalar ve çığlıklar ortamdaki donuk havayı zaman zaman dağıtıyor.
-Aksi takdirde etrafının ürkütücülüğünü arttırmaktan başka bir işe
-yaramayan bu donukluk içinde yutulabilirdin.
+BahÃ§e~
+Kendini dikenli dallar ve hayatlarÄ± kendilerinden Ã§alÄ±nmÄ±ÅŸ Ã§Ã¼rÃ¼k
+aÄŸaÃ§larÄ±n oluÅŸturduÄŸu bir labirentte kaybolmuÅŸ buluyorsun. Ä°yi ki
+ulumalar ve Ã§Ä±ÄŸlÄ±klar ortamdaki donuk havayÄ± zaman zaman daÄŸÄ±tÄ±yor.
+Aksi takdirde etrafÄ±nÄ±n Ã¼rkÃ¼tÃ¼cÃ¼lÃ¼ÄŸÃ¼nÃ¼ arttÄ±rmaktan baÅŸka bir iÅŸe
+yaramayan bu donukluk iÃ§inde yutulabilirdin.
 ~
 0 1|8192 3
 D0
@@ -2175,12 +2175,12 @@ D3
 0 -1 8182
 S
 #8184
-Bahçe~
-Kendini dikenli dallar ve hayatları kendilerinden çalınmış çürük
-ağaçların oluşturduğu bir labirentte kaybolmuş buluyorsun. İyi ki
-ulumalar ve çığlıklar ortamdaki donuk havayı zaman zaman dağıtıyor.
-Aksi takdirde etrafının ürkütücülüğünü arttırmaktan başka bir işe
-yaramayan bu donukluk içinde yutulabilirdin.
+BahÃ§e~
+Kendini dikenli dallar ve hayatlarÄ± kendilerinden Ã§alÄ±nmÄ±ÅŸ Ã§Ã¼rÃ¼k
+aÄŸaÃ§larÄ±n oluÅŸturduÄŸu bir labirentte kaybolmuÅŸ buluyorsun. Ä°yi ki
+ulumalar ve Ã§Ä±ÄŸlÄ±klar ortamdaki donuk havayÄ± zaman zaman daÄŸÄ±tÄ±yor.
+Aksi takdirde etrafÄ±nÄ±n Ã¼rkÃ¼tÃ¼cÃ¼lÃ¼ÄŸÃ¼nÃ¼ arttÄ±rmaktan baÅŸka bir iÅŸe
+yaramayan bu donukluk iÃ§inde yutulabilirdin.
 ~
 0 1|8192 3
 D0
@@ -2197,12 +2197,12 @@ D3
 0 -1 8183
 S
 #8185
-Bahçe~
-Kendini dikenli dallar ve hayatları kendilerinden çalınmış çürük
-ağaçların oluşturduğu bir labirentte kaybolmuş buluyorsun. İyi ki
-ulumalar ve çığlıklar ortamdaki donuk havayı zaman zaman dağıtıyor.
-Aksi takdirde etrafının ürkütücülüğünü arttırmaktan başka bir işe
-yaramayan bu donukluk içinde yutulabilirdin.
+BahÃ§e~
+Kendini dikenli dallar ve hayatlarÄ± kendilerinden Ã§alÄ±nmÄ±ÅŸ Ã§Ã¼rÃ¼k
+aÄŸaÃ§larÄ±n oluÅŸturduÄŸu bir labirentte kaybolmuÅŸ buluyorsun. Ä°yi ki
+ulumalar ve Ã§Ä±ÄŸlÄ±klar ortamdaki donuk havayÄ± zaman zaman daÄŸÄ±tÄ±yor.
+Aksi takdirde etrafÄ±nÄ±n Ã¼rkÃ¼tÃ¼cÃ¼lÃ¼ÄŸÃ¼nÃ¼ arttÄ±rmaktan baÅŸka bir iÅŸe
+yaramayan bu donukluk iÃ§inde yutulabilirdin.
 ~
 0 1|8192 3
 D0
@@ -2219,12 +2219,12 @@ D2
 0 -1 8180
 S
 #8186
-Bahçe~
-Kendini dikenli dallar ve hayatları kendilerinden çalınmış çürük
-ağaçların oluşturduğu bir labirentte kaybolmuş buluyorsun. İyi ki
-ulumalar ve çığlıklar ortamdaki donuk havayı zaman zaman dağıtıyor.
-Aksi takdirde etrafının ürkütücülüğünü arttırmaktan başka bir işe
-yaramayan bu donukluk içinde yutulabilirdin.
+BahÃ§e~
+Kendini dikenli dallar ve hayatlarÄ± kendilerinden Ã§alÄ±nmÄ±ÅŸ Ã§Ã¼rÃ¼k
+aÄŸaÃ§larÄ±n oluÅŸturduÄŸu bir labirentte kaybolmuÅŸ buluyorsun. Ä°yi ki
+ulumalar ve Ã§Ä±ÄŸlÄ±klar ortamdaki donuk havayÄ± zaman zaman daÄŸÄ±tÄ±yor.
+Aksi takdirde etrafÄ±nÄ±n Ã¼rkÃ¼tÃ¼cÃ¼lÃ¼ÄŸÃ¼nÃ¼ arttÄ±rmaktan baÅŸka bir iÅŸe
+yaramayan bu donukluk iÃ§inde yutulabilirdin.
 ~
 0 1|8192 3
 D0
@@ -2245,12 +2245,12 @@ D3
 0 -1 8185
 S
 #8187
-Bahçe~
-Kendini dikenli dallar ve hayatları kendilerinden çalınmış çürük
-ağaçların oluşturduğu bir labirentte kaybolmuş buluyorsun. İyi ki
-ulumalar ve çığlıklar ortamdaki donuk havayı zaman zaman dağıtıyor.
-Aksi takdirde etrafının ürkütücülüğünü arttırmaktan başka bir işe
-yaramayan bu donukluk içinde yutulabilirdin.
+BahÃ§e~
+Kendini dikenli dallar ve hayatlarÄ± kendilerinden Ã§alÄ±nmÄ±ÅŸ Ã§Ã¼rÃ¼k
+aÄŸaÃ§larÄ±n oluÅŸturduÄŸu bir labirentte kaybolmuÅŸ buluyorsun. Ä°yi ki
+ulumalar ve Ã§Ä±ÄŸlÄ±klar ortamdaki donuk havayÄ± zaman zaman daÄŸÄ±tÄ±yor.
+Aksi takdirde etrafÄ±nÄ±n Ã¼rkÃ¼tÃ¼cÃ¼lÃ¼ÄŸÃ¼nÃ¼ arttÄ±rmaktan baÅŸka bir iÅŸe
+yaramayan bu donukluk iÃ§inde yutulabilirdin.
 ~
 0 1|8192 3
 D0
@@ -2271,12 +2271,12 @@ D3
 0 -1 8186
 S
 #8188
-Bahçe~
-Kendini dikenli dallar ve hayatları kendilerinden çalınmış çürük
-ağaçların oluşturduğu bir labirentte kaybolmuş buluyorsun. İyi ki
-ulumalar ve çığlıklar ortamdaki donuk havayı zaman zaman dağıtıyor.
-Aksi takdirde etrafının ürkütücülüğünü arttırmaktan başka bir işe
-yaramayan bu donukluk içinde yutulabilirdin.
+BahÃ§e~
+Kendini dikenli dallar ve hayatlarÄ± kendilerinden Ã§alÄ±nmÄ±ÅŸ Ã§Ã¼rÃ¼k
+aÄŸaÃ§larÄ±n oluÅŸturduÄŸu bir labirentte kaybolmuÅŸ buluyorsun. Ä°yi ki
+ulumalar ve Ã§Ä±ÄŸlÄ±klar ortamdaki donuk havayÄ± zaman zaman daÄŸÄ±tÄ±yor.
+Aksi takdirde etrafÄ±nÄ±n Ã¼rkÃ¼tÃ¼cÃ¼lÃ¼ÄŸÃ¼nÃ¼ arttÄ±rmaktan baÅŸka bir iÅŸe
+yaramayan bu donukluk iÃ§inde yutulabilirdin.
 ~
 0 1|8192 3
 D0
@@ -2297,12 +2297,12 @@ D3
 0 -1 8187
 S
 #8189
-Bahçe~
-Kendini dikenli dallar ve hayatları kendilerinden çalınmış çürük
-ağaçların oluşturduğu bir labirentte kaybolmuş buluyorsun. İyi ki
-ulumalar ve çığlıklar ortamdaki donuk havayı zaman zaman dağıtıyor.
-Aksi takdirde etrafının ürkütücülüğünü arttırmaktan başka bir işe
-yaramayan bu donukluk içinde yutulabilirdin.
+BahÃ§e~
+Kendini dikenli dallar ve hayatlarÄ± kendilerinden Ã§alÄ±nmÄ±ÅŸ Ã§Ã¼rÃ¼k
+aÄŸaÃ§larÄ±n oluÅŸturduÄŸu bir labirentte kaybolmuÅŸ buluyorsun. Ä°yi ki
+ulumalar ve Ã§Ä±ÄŸlÄ±klar ortamdaki donuk havayÄ± zaman zaman daÄŸÄ±tÄ±yor.
+Aksi takdirde etrafÄ±nÄ±n Ã¼rkÃ¼tÃ¼cÃ¼lÃ¼ÄŸÃ¼nÃ¼ arttÄ±rmaktan baÅŸka bir iÅŸe
+yaramayan bu donukluk iÃ§inde yutulabilirdin.
 ~
 0 1|8192 3
 D0
@@ -2319,12 +2319,12 @@ D3
 0 -1 8188
 S
 #8190
-Bahçe~
-Kendini dikenli dallar ve hayatları kendilerinden çalınmış çürük
-ağaçların oluşturduğu bir labirentte kaybolmuş buluyorsun. İyi ki
-ulumalar ve çığlıklar ortamdaki donuk havayı zaman zaman dağıtıyor.
-Aksi takdirde etrafının ürkütücülüğünü arttırmaktan başka bir işe
-yaramayan bu donukluk içinde yutulabilirdin.
+BahÃ§e~
+Kendini dikenli dallar ve hayatlarÄ± kendilerinden Ã§alÄ±nmÄ±ÅŸ Ã§Ã¼rÃ¼k
+aÄŸaÃ§larÄ±n oluÅŸturduÄŸu bir labirentte kaybolmuÅŸ buluyorsun. Ä°yi ki
+ulumalar ve Ã§Ä±ÄŸlÄ±klar ortamdaki donuk havayÄ± zaman zaman daÄŸÄ±tÄ±yor.
+Aksi takdirde etrafÄ±nÄ±n Ã¼rkÃ¼tÃ¼cÃ¼lÃ¼ÄŸÃ¼nÃ¼ arttÄ±rmaktan baÅŸka bir iÅŸe
+yaramayan bu donukluk iÃ§inde yutulabilirdin.
 ~
 0 1|8192 3
 D1
@@ -2337,12 +2337,12 @@ D2
 0 -1 8185
 S
 #8191
-Bahçe~
-Kendini dikenli dallar ve hayatları kendilerinden çalınmış çürük
-ağaçların oluşturduğu bir labirentte kaybolmuş buluyorsun. İyi ki
-ulumalar ve çığlıklar ortamdaki donuk havayı zaman zaman dağıtıyor.
-Aksi takdirde etrafının ürkütücülüğünü arttırmaktan başka bir işe
-yaramayan bu donukluk içinde yutulabilirdin.
+BahÃ§e~
+Kendini dikenli dallar ve hayatlarÄ± kendilerinden Ã§alÄ±nmÄ±ÅŸ Ã§Ã¼rÃ¼k
+aÄŸaÃ§larÄ±n oluÅŸturduÄŸu bir labirentte kaybolmuÅŸ buluyorsun. Ä°yi ki
+ulumalar ve Ã§Ä±ÄŸlÄ±klar ortamdaki donuk havayÄ± zaman zaman daÄŸÄ±tÄ±yor.
+Aksi takdirde etrafÄ±nÄ±n Ã¼rkÃ¼tÃ¼cÃ¼lÃ¼ÄŸÃ¼nÃ¼ arttÄ±rmaktan baÅŸka bir iÅŸe
+yaramayan bu donukluk iÃ§inde yutulabilirdin.
 
 ~
 0 1|8192 3
@@ -2360,11 +2360,11 @@ D3
 0 -1 8190
 S
 #8192
-Bahçe~
-Aniden aydınlık, uzun meşeler ve taze, yeşil çimenlerin doldurduğu bir
-alana geldin. İyiliğin güçleri, burada sıkışan ya da tuzağa düşenler için
-bu karanlıklar diyarında ayak basacak bir yer yapmayı başarmış. Huzur içinde
-yatabilirsin, hem de istediğin kadar.
+BahÃ§e~
+Aniden aydÄ±nlÄ±k, uzun meÅŸeler ve taze, yeÅŸil Ã§imenlerin doldurduÄŸu bir
+alana geldin. Ä°yiliÄŸin gÃ¼Ã§leri, burada sÄ±kÄ±ÅŸan ya da tuzaÄŸa dÃ¼ÅŸenler iÃ§in
+bu karanlÄ±klar diyarÄ±nda ayak basacak bir yer yapmayÄ± baÅŸarmÄ±ÅŸ. Huzur iÃ§inde
+yatabilirsin, hem de istediÄŸin kadar.
 ~
 0 4|1024 3
 D1
@@ -2381,12 +2381,12 @@ D3
 0 -1 8191
 S
 #8193
-Bahçe~
-Kendini dikenli dallar ve hayatları kendilerinden çalınmış çürük
-ağaçların oluşturduğu bir labirentte kaybolmuş buluyorsun. İyi ki
-ulumalar ve çığlıklar ortamdaki donuk havayı zaman zaman dağıtıyor.
-Aksi takdirde etrafının ürkütücülüğünü arttırmaktan başka bir işe
-yaramayan bu donukluk içinde yutulabilirdin.
+BahÃ§e~
+Kendini dikenli dallar ve hayatlarÄ± kendilerinden Ã§alÄ±nmÄ±ÅŸ Ã§Ã¼rÃ¼k
+aÄŸaÃ§larÄ±n oluÅŸturduÄŸu bir labirentte kaybolmuÅŸ buluyorsun. Ä°yi ki
+ulumalar ve Ã§Ä±ÄŸlÄ±klar ortamdaki donuk havayÄ± zaman zaman daÄŸÄ±tÄ±yor.
+Aksi takdirde etrafÄ±nÄ±n Ã¼rkÃ¼tÃ¼cÃ¼lÃ¼ÄŸÃ¼nÃ¼ arttÄ±rmaktan baÅŸka bir iÅŸe
+yaramayan bu donukluk iÃ§inde yutulabilirdin.
 ~
 0 1|8192 3
 D1
@@ -2403,12 +2403,12 @@ D3
 0 -1 8192
 S
 #8194
-Bahçe~
-Kendini dikenli dallar ve hayatları kendilerinden çalınmış çürük
-ağaçların oluşturduğu bir labirentte kaybolmuş buluyorsun. İyi ki
-ulumalar ve çığlıklar ortamdaki donuk havayı zaman zaman dağıtıyor.
-Aksi takdirde etrafının ürkütücülüğünü arttırmaktan başka bir işe
-yaramayan bu donukluk içinde yutulabilirdin.
+BahÃ§e~
+Kendini dikenli dallar ve hayatlarÄ± kendilerinden Ã§alÄ±nmÄ±ÅŸ Ã§Ã¼rÃ¼k
+aÄŸaÃ§larÄ±n oluÅŸturduÄŸu bir labirentte kaybolmuÅŸ buluyorsun. Ä°yi ki
+ulumalar ve Ã§Ä±ÄŸlÄ±klar ortamdaki donuk havayÄ± zaman zaman daÄŸÄ±tÄ±yor.
+Aksi takdirde etrafÄ±nÄ±n Ã¼rkÃ¼tÃ¼cÃ¼lÃ¼ÄŸÃ¼nÃ¼ arttÄ±rmaktan baÅŸka bir iÅŸe
+yaramayan bu donukluk iÃ§inde yutulabilirdin.
 ~
 0 1|8192 3
 D2
@@ -2421,12 +2421,12 @@ D3
 0 -1 8193
 S
 #8195
-Karanlık Sis~
-Yolu aniden kaplayan kalın bir sis tabakasının içinden geçiyorsun.
-Ayaklarını ancak görebiliyorsun. Uğulamalar, çığlıklar, öfke dolu
-haykırışlar ve dehşet her yönden yaklaşıyor ve kalbini saran korkuyu
-hissedebiliyorsun. Doğuya doğru taş bir binayı seçer gibisin. Sağında
-zeminden sisin içine doğru uzanan bir delik var.
+KaranlÄ±k Sis~
+Yolu aniden kaplayan kalÄ±n bir sis tabakasÄ±nÄ±n iÃ§inden geÃ§iyorsun.
+AyaklarÄ±nÄ± ancak gÃ¶rebiliyorsun. UÄŸulamalar, Ã§Ä±ÄŸlÄ±klar, Ã¶fke dolu
+haykÄ±rÄ±ÅŸlar ve dehÅŸet her yÃ¶nden yaklaÅŸÄ±yor ve kalbini saran korkuyu
+hissedebiliyorsun. DoÄŸuya doÄŸru taÅŸ bir binayÄ± seÃ§er gibisin. SaÄŸÄ±nda
+zeminden sisin iÃ§ine doÄŸru uzanan bir delik var.
 ~
 0 1|8192 1
 D0
@@ -2443,11 +2443,11 @@ D5
 0 -1 8196
 S
 #8196
-Ejderha'nın İni~
-Her ejderha türü, canlı ya da hortlak, aynı alışkanlıklara sahiptir.
-Bunlardan biri de inlerini dekore etme şekilleridir. Bu sebepten eğer
-girdiğinizde etrafa saçılmış dev bir hazine, kan ve kızarmış cesetler
-görürseniz, en azından buranın onlardan birinin ini olduğundan %90 emin
+Ejderha'nÄ±n Ä°ni~
+Her ejderha tÃ¼rÃ¼, canlÄ± ya da hortlak, aynÄ± alÄ±ÅŸkanlÄ±klara sahiptir.
+Bunlardan biri de inlerini dekore etme ÅŸekilleridir. Bu sebepten eÄŸer
+girdiÄŸinizde etrafa saÃ§Ä±lmÄ±ÅŸ dev bir hazine, kan ve kÄ±zarmÄ±ÅŸ cesetler
+gÃ¶rÃ¼rseniz, en azÄ±ndan buranÄ±n onlardan birinin ini olduÄŸundan %90 emin
 olabilirsiniz...
 ~
 0 1|8192 0
@@ -2457,11 +2457,11 @@ D4
 0 -1 8195
 S
 #8197
-Karanlık Sis~
-Yolu aniden kaplayan kalın bir sis tabakasının içinden geçiyorsun.
-Ayaklarını ancak görebiliyorsun. Uğulamalar, çığlıklar, öfke dolu
-haykırışlar ve dehşet her yönden yaklaşıyor ve kalbini saran korkuyu
-hissedebiliyorsun. Doğuya doğru taş bir binayı seçer gibisin.
+KaranlÄ±k Sis~
+Yolu aniden kaplayan kalÄ±n bir sis tabakasÄ±nÄ±n iÃ§inden geÃ§iyorsun.
+AyaklarÄ±nÄ± ancak gÃ¶rebiliyorsun. UÄŸulamalar, Ã§Ä±ÄŸlÄ±klar, Ã¶fke dolu
+haykÄ±rÄ±ÅŸlar ve dehÅŸet her yÃ¶nden yaklaÅŸÄ±yor ve kalbini saran korkuyu
+hissedebiliyorsun. DoÄŸuya doÄŸru taÅŸ bir binayÄ± seÃ§er gibisin.
 ~
 0 1|8192 1
 D0
@@ -2474,12 +2474,12 @@ D2
 0 -1 8195
 S
 #8198
-Karanlık Sis~
-Yolu aniden kaplayan kalın bir sis tabakasının içinden geçiyorsun.
-Ayaklarını ancak görebiliyorsun. Uğulamalar, çığlıklar, öfke dolu
-haykırışlar ve dehşet her yönden yaklaşıyor ve kalbini saran korkuyu
-hissedebiliyorsun. Doğuya doğru taş bir binayı seçer gibisin. Emin
-değilsin ama ilerde, yukarda karanlık bir tünel gördüğünü sanıyorsun.
+KaranlÄ±k Sis~
+Yolu aniden kaplayan kalÄ±n bir sis tabakasÄ±nÄ±n iÃ§inden geÃ§iyorsun.
+AyaklarÄ±nÄ± ancak gÃ¶rebiliyorsun. UÄŸulamalar, Ã§Ä±ÄŸlÄ±klar, Ã¶fke dolu
+haykÄ±rÄ±ÅŸlar ve dehÅŸet her yÃ¶nden yaklaÅŸÄ±yor ve kalbini saran korkuyu
+hissedebiliyorsun. DoÄŸuya doÄŸru taÅŸ bir binayÄ± seÃ§er gibisin. Emin
+deÄŸilsin ama ilerde, yukarda karanlÄ±k bir tÃ¼nel gÃ¶rdÃ¼ÄŸÃ¼nÃ¼ sanÄ±yorsun.
 ~
 0 1|8192 1
 D0
@@ -2492,11 +2492,11 @@ D2
 0 -1 8197
 S
 #8199
-Karanlık Bir Tünel~
-Bu olabilirmi? EVET!! Bir kaçış yolu!! Bu tünelden temiz hava ve taze çimen
-kokusu geliyor. Tırmanıp kaçabilsen bile tünel o kadar dar ki tekrar geri
-inebileceğinden şüphelisin. Yine de bu odanın tanrılarca kutsanmış olduğunu
-hissediyorsun, bu nedenle kaçabileceğinden eminsin...
+KaranlÄ±k Bir TÃ¼nel~
+Bu olabilirmi? EVET!! Bir kaÃ§Ä±ÅŸ yolu!! Bu tÃ¼nelden temiz hava ve taze Ã§imen
+kokusu geliyor. TÄ±rmanÄ±p kaÃ§abilsen bile tÃ¼nel o kadar dar ki tekrar geri
+inebileceÄŸinden ÅŸÃ¼phelisin. Yine de bu odanÄ±n tanrÄ±larca kutsanmÄ±ÅŸ olduÄŸunu
+hissediyorsun, bu nedenle kaÃ§abileceÄŸinden eminsin...
 ~
 0 1|4 1
 D2

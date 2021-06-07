@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -56,20 +56,21 @@
 #include <sys/time.h>
 #endif
 #include <stdio.h>
+#include <wchar.h>
 #include <string.h>
 #include <stdlib.h>
 #include "merc.h"
 #include "tables.h"
 
-int flag_lookup args( ( const char *name, const struct flag_type *flag_table) );
+int flag_lookup args( ( const wchar_t *name, const struct flag_type *flag_table) );
 
-void do_flag(CHAR_DATA *ch, char *argument)
+void do_flag(CHAR_DATA *ch, wchar_t *argument)
 {
-    char arg1[MAX_INPUT_LENGTH],arg2[MAX_INPUT_LENGTH],arg3[MAX_INPUT_LENGTH];
-    char word[MAX_INPUT_LENGTH];
+    wchar_t arg1[MAX_INPUT_LENGTH],arg2[MAX_INPUT_LENGTH],arg3[MAX_INPUT_LENGTH];
+    wchar_t word[MAX_INPUT_LENGTH];
     CHAR_DATA *victim;
     long *flag, old = 0, inew = 0, marked = 0, pos;
-    char type;
+    wchar_t type;
     const struct flag_type *flag_table;
 
     argument = one_argument(argument,arg1);
@@ -83,53 +84,53 @@ void do_flag(CHAR_DATA *ch, char *argument)
 
     if (arg1[0] == '\0')
     {
-	send_to_char("Syntax:\n\r",ch);
-	send_to_char("  flag mob  <name> <field> <flags>\n\r",ch);
-	send_to_char("  flag char <name> <field> <flags>\n\r",ch);
-	send_to_char("  flag obj  <name> <field> <flags>\n\r",ch);
-	send_to_char("  flag room <room> <field> <flags>\n\r",ch);
-	send_to_char("  mob  flags: act,aff,off,imm,res,vuln,form,part\n\r",ch);
-	send_to_char("  char flags: plr,comm,aff,imm,res,vuln,\n\r",ch);
-	send_to_char("  obj  flags: extra,wear,weap,cont,gate,exit\n\r",ch);
-	send_to_char("  room flags: room\n\r",ch);
-	send_to_char("  +: add flag, -: remove flag, = set equal to\n\r",ch);
-	send_to_char("  otherwise flag toggles the flags listed.\n\r",ch);
+	send_to_char( L"Syntax:\n\r",ch);
+	send_to_char( L"  flag mob  <name> <field> <flags>\n\r",ch);
+	send_to_char( L"  flag char <name> <field> <flags>\n\r",ch);
+	send_to_char( L"  flag obj  <name> <field> <flags>\n\r",ch);
+	send_to_char( L"  flag room <room> <field> <flags>\n\r",ch);
+	send_to_char( L"  mob  flags: act,aff,off,imm,res,vuln,form,part\n\r",ch);
+	send_to_char( L"  char flags: plr,comm,aff,imm,res,vuln,\n\r",ch);
+	send_to_char( L"  obj  flags: extra,wear,weap,cont,gate,exit\n\r",ch);
+	send_to_char( L"  room flags: room\n\r",ch);
+	send_to_char( L"  +: add flag, -: remove flag, = set equal to\n\r",ch);
+	send_to_char( L"  otherwise flag toggles the flags listed.\n\r",ch);
 	return;
     }
 
     if (arg2[0] == '\0')
     {
-	send_to_char("What do you wish to set flags on?\n\r",ch);
+	send_to_char( L"What do you wish to set flags on?\n\r",ch);
 	return;
     }
 
     if (arg3[0] == '\0')
     {
-	send_to_char("You need to specify a flag to set.\n\r",ch);
+	send_to_char( L"You need to specify a flag to set.\n\r",ch);
 	return;
     }
 
     if (argument[0] == '\0')
     {
-	send_to_char("Which flags do you wish to change?\n\r",ch);
+	send_to_char( L"Which flags do you wish to change?\n\r",ch);
 	return;
     }
 
-    if (!str_prefix(arg1,"mob") || !str_prefix(arg1,"char"))
+    if (!str_prefix(arg1, L"mob") || !str_prefix(arg1, L"char"))
     {
 	victim = get_char_world(ch,arg2);
 	if (victim == NULL)
 	{
-	    send_to_char("You can't find them.\n\r",ch);
+	    send_to_char( L"You can't find them.\n\r",ch);
 	    return;
 	}
 
         /* select a flag to set */
-	if (!str_prefix(arg3,"act"))
+	if (!str_prefix(arg3, L"act"))
 	{
 	    if (!IS_NPC(victim))
 	    {
-		send_to_char("Use plr for PCs.\n\r",ch);
+		send_to_char( L"Use plr for PCs.\n\r",ch);
 		return;
 	    }
 
@@ -137,11 +138,11 @@ void do_flag(CHAR_DATA *ch, char *argument)
 	    flag_table = act_flags;
 	}
 
-	else if (!str_prefix(arg3,"plr"))
+	else if (!str_prefix(arg3, L"plr"))
 	{
 	    if (IS_NPC(victim))
 	    {
-		send_to_char("Use act for NPCs.\n\r",ch);
+		send_to_char( L"Use act for NPCs.\n\r",ch);
 		return;
 	    }
 
@@ -149,35 +150,35 @@ void do_flag(CHAR_DATA *ch, char *argument)
 	    flag_table = plr_flags;
 	}
 
- 	else if (!str_prefix(arg3,"aff"))
+ 	else if (!str_prefix(arg3, L"aff"))
 	{
 	    flag = &victim->affected_by;
 	    flag_table = affect_flags;
 	}
 
-  	else if (!str_prefix(arg3,"immunity"))
+  	else if (!str_prefix(arg3, L"immunity"))
 	{
 	    flag = &victim->imm_flags;
 	    flag_table = imm_flags;
 	}
 
-	else if (!str_prefix(arg3,"resist"))
+	else if (!str_prefix(arg3, L"resist"))
 	{
 	    flag = &victim->res_flags;
 	    flag_table = imm_flags;
 	}
 
-	else if (!str_prefix(arg3,"vuln"))
+	else if (!str_prefix(arg3, L"vuln"))
 	{
 	    flag = &victim->vuln_flags;
 	    flag_table = imm_flags;
 	}
 
-	else if (!str_prefix(arg3,"form"))
+	else if (!str_prefix(arg3, L"form"))
 	{
 	    if (!IS_NPC(victim))
 	    {
-	 	send_to_char("Form can't be set on PCs.\n\r",ch);
+	 	send_to_char( L"Form can't be set on PCs.\n\r",ch);
 		return;
 	    }
 
@@ -185,11 +186,11 @@ void do_flag(CHAR_DATA *ch, char *argument)
 	    flag_table = form_flags;
 	}
 
-	else if (!str_prefix(arg3,"parts"))
+	else if (!str_prefix(arg3, L"parts"))
 	{
 	    if (!IS_NPC(victim))
 	    {
-		send_to_char("Parts can't be set on PCs.\n\r",ch);
+		send_to_char( L"Parts can't be set on PCs.\n\r",ch);
 		return;
 	    }
 
@@ -197,11 +198,11 @@ void do_flag(CHAR_DATA *ch, char *argument)
 	    flag_table = part_flags;
 	}
 
-	else if (!str_prefix(arg3,"comm"))
+	else if (!str_prefix(arg3, L"comm"))
 	{
 	    if (IS_NPC(victim))
 	    {
-		send_to_char("Comm can't be set on NPCs.\n\r",ch);
+		send_to_char( L"Comm can't be set on NPCs.\n\r",ch);
 		return;
 	    }
 
@@ -211,7 +212,7 @@ void do_flag(CHAR_DATA *ch, char *argument)
 
 	else
 	{
-	    send_to_char("That's not an acceptable flag.\n\r",ch);
+	    send_to_char( L"That's not an acceptable flag.\n\r",ch);
 	    return;
 	}
 
@@ -232,7 +233,7 @@ void do_flag(CHAR_DATA *ch, char *argument)
 	    pos = flag_lookup(word,flag_table);
 	    if (pos == 0)
 	    {
-		send_to_char("That flag doesn't exist!\n\r",ch);
+		send_to_char( L"That flag doesn't exist!\n\r",ch);
 		return;
 	    }
 	    else

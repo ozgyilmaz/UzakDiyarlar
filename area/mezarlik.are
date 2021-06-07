@@ -1,9 +1,9 @@
 #AREADATA
 Filename mezarlik.are~
-Name Mezarlık~
+Name MezarlÄ±k~
 Builder Alfa~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 10
 Minvnum 3600
@@ -16,32 +16,32 @@ END
 
 #NEW_MOBILES
 #3600
-bahçıvan henry~
-bahçıvan henry~
-Bahçıvan Henry burada oturuyor. Sarhoş görünüyor.
+bahÃ§Ä±van henry~
+bahÃ§Ä±van henry~
+BahÃ§Ä±van Henry burada oturuyor. SarhoÅŸ gÃ¶rÃ¼nÃ¼yor.
 ~
-Uzun ve iri yapılı, ellilerinin sonuna gelmiş bir adam. Yüzünde
-onyılların yorgunluğu oldukça belirgin. Çömelmi hali ise keder ve
-çöküntünün bir anlatımı. Kaybolmuş cennetin hatırasında sürükleniyor.
+Uzun ve iri yapÄ±lÄ±, ellilerinin sonuna gelmiÅŸ bir adam. YÃ¼zÃ¼nde
+onyÄ±llarÄ±n yorgunluÄŸu oldukÃ§a belirgin. Ã‡Ã¶melmi hali ise keder ve
+Ã§Ã¶kÃ¼ntÃ¼nÃ¼n bir anlatÄ±mÄ±. KaybolmuÅŸ cennetin hatÄ±rasÄ±nda sÃ¼rÃ¼kleniyor.
 ~
 human~
 AG 0 4
 #3601
 zombi~
-bir çürümüş zombi~
-Çürümüş bir zombi kollarını uzatmış sana doğru geliyor.
+bir Ã§Ã¼rÃ¼mÃ¼ÅŸ zombi~
+Ã‡Ã¼rÃ¼mÃ¼ÅŸ bir zombi kollarÄ±nÄ± uzatmÄ±ÅŸ sana doÄŸru geliyor.
 ~
-Çürümüş vücudunda kurtçuklar geziniyor.
+Ã‡Ã¼rÃ¼mÃ¼ÅŸ vÃ¼cudunda kurtÃ§uklar geziniyor.
 ~
 human~
 ABF J 4
 #3602
 hortlak~
-korkunç hortlak~
-Korkunç bir hortlak burada.
+korkunÃ§ hortlak~
+KorkunÃ§ bir hortlak burada.
 ~
-O uzun kolları ve pençeye benzeyen uzun keskin tırnaklarıyla yürüyen bir
-ölü. Koyu sarı gözleriyle aç aç sana bakıyor.
+O uzun kollarÄ± ve penÃ§eye benzeyen uzun keskin tÄ±rnaklarÄ±yla yÃ¼rÃ¼yen bir
+Ã¶lÃ¼. Koyu sarÄ± gÃ¶zleriyle aÃ§ aÃ§ sana bakÄ±yor.
 ~
 human~
 ABF J 6
@@ -50,8 +50,8 @@ iskelet~
 bir tozlu iskelet~
 Bir tozlu iskelet burada.
 ~
-Tozlu kemiklerin rengi neredeyse kahverengi. Çok uzun zaman önce gömülmüş
-olmalı.
+Tozlu kemiklerin rengi neredeyse kahverengi. Ã‡ok uzun zaman Ã¶nce gÃ¶mÃ¼lmÃ¼ÅŸ
+olmalÄ±.
 ~
 human~
 ABF J 3
@@ -60,126 +60,126 @@ iskelet~
 bir tozlu iskelet~
 Bir tozlu iskelet burada.
 ~
-Tozlu kemiklerin rengi neredeyse kahverengi. Çok uzun zaman önce gömülmüş
-olmalı.
+Tozlu kemiklerin rengi neredeyse kahverengi. Ã‡ok uzun zaman Ã¶nce gÃ¶mÃ¼lmÃ¼ÅŸ
+olmalÄ±.
 ~
 human~
 AF J 3
 #3605
 zombi~
-bir çürümüş zombi~
-Çürümüş bir zombi kollarını uzatmış sana doğru geliyor.
+bir Ã§Ã¼rÃ¼mÃ¼ÅŸ zombi~
+Ã‡Ã¼rÃ¼mÃ¼ÅŸ bir zombi kollarÄ±nÄ± uzatmÄ±ÅŸ sana doÄŸru geliyor.
 ~
-Çürümüş vücudunda kurtçuklar geziniyor.
+Ã‡Ã¼rÃ¼mÃ¼ÅŸ vÃ¼cudunda kurtÃ§uklar geziniyor.
 ~
 human~
 AF J 4
 #0
 #OBJECTS
 #3600
-şamdan~
-bir şamdan~
-Kalay ve kurşun karışımından bir şamdan burada duruyor.~
+ÅŸamdan~
+bir ÅŸamdan~
+Kalay ve kurÅŸun karÄ±ÅŸÄ±mÄ±ndan bir ÅŸamdan burada duruyor.~
 parafin~
 light 0 AO
 0 0 24 0 0
 0 50 10 P
 E
-şamdan~
-Kalay ve kurşundan yapılmış, üç kollu eski bir şamdan. Sarımsı renkte
-mumları var.
+ÅŸamdan~
+Kalay ve kurÅŸundan yapÄ±lmÄ±ÅŸ, Ã¼Ã§ kollu eski bir ÅŸamdan. SarÄ±msÄ± renkte
+mumlarÄ± var.
 ~
 #3601
-brendi şişesi~
-bir brendi şişesi~
-Bir birendi şişesi yerde yatıyor.~
+brendi ÅŸiÅŸesi~
+bir brendi ÅŸiÅŸesi~
+Bir birendi ÅŸiÅŸesi yerde yatÄ±yor.~
 glass~
 drink 0 A
 32 32 'whisky' 0 0
 0 20 100 P
 E
-brendi şişesi~
-Bu özel bir 'Ejder Kanı' brendi şişesi. Boynu küçük bir ejderhayı
-andırıyor. Böyle şişeler boş olduklarında bile para ederler.
+brendi ÅŸiÅŸesi~
+Bu Ã¶zel bir 'Ejder KanÄ±' brendi ÅŸiÅŸesi. Boynu kÃ¼Ã§Ã¼k bir ejderhayÄ±
+andÄ±rÄ±yor. BÃ¶yle ÅŸiÅŸeler boÅŸ olduklarÄ±nda bile para ederler.
 ~
 #3602
-brendi şişesi~
-bir brendi şişesi~
-Bir birendi şişesi yerde yatıyor.~
+brendi ÅŸiÅŸesi~
+bir brendi ÅŸiÅŸesi~
+Bir birendi ÅŸiÅŸesi yerde yatÄ±yor.~
 glass~
 drink 0 A
 32 0 'whisky' 0 0
 0 20 100 P
 E
-brendi şişesi~
-Bu özel bir 'Ejder Kanı' brendi şişesi. Boynu küçük bir ejderhayı
-andırıyor. Böyle şişeler boş olduklarında bile para ederler.
+brendi ÅŸiÅŸesi~
+Bu Ã¶zel bir 'Ejder KanÄ±' brendi ÅŸiÅŸesi. Boynu kÃ¼Ã§Ã¼k bir ejderhayÄ±
+andÄ±rÄ±yor. BÃ¶yle ÅŸiÅŸeler boÅŸ olduklarÄ±nda bile para ederler.
 ~
 #3603
-el arabası~
-bir el arabası~
-Yeşil boyalı bir el arabası burada duruyor.~
+el arabasÄ±~
+bir el arabasÄ±~
+YeÅŸil boyalÄ± bir el arabasÄ± burada duruyor.~
 wood~
 boat 0 A
 0 0 0 0 0
 0 1000 50 P
 E
-el arabası~
-Meşe ağacından yapılmış ve koyu yeşile boyanmış ağır bir el arabası.
+el arabasÄ±~
+MeÅŸe aÄŸacÄ±ndan yapÄ±lmÄ±ÅŸ ve koyu yeÅŸile boyanmÄ±ÅŸ aÄŸÄ±r bir el arabasÄ±.
 ~
 #3604
-kürek~
-bir kürek~
-Bir kürek burada yatıyor.~
+kÃ¼rek~
+bir kÃ¼rek~
+Bir kÃ¼rek burada yatÄ±yor.~
 iron ebony~
 weapon 0 AN
 mace 1 5 pound 0
 0 80 169 P
 E
-kürek~
-Sapı tahtadan geniş metal bir kürek.
+kÃ¼rek~
+SapÄ± tahtadan geniÅŸ metal bir kÃ¼rek.
 ~
 #3605
 topuz~
 bir topuz~
-Bir topuz yerde yatıyor.~
+Bir topuz yerde yatÄ±yor.~
 unknown~
 weapon 0 AN
 mace 1 4 claw 0
 0 80 140 P
 E
-tırmık~
-Tahtadan sapı olan geniş metal bir tırmık.
+tÄ±rmÄ±k~
+Tahtadan sapÄ± olan geniÅŸ metal bir tÄ±rmÄ±k.
 ~
 #3610
 iskelet~
 tozlu bir iskelet~
-Tozlu bir iskelet yerde yatıyor.~
+Tozlu bir iskelet yerde yatÄ±yor.~
 bone~
 furniture 0 A
 0 0 0 0 0
 0 150 0 P
 E
 iskelet~
-Kemikler neredeyse kahverengi olmuş. Öleli çok olmuş olmalı. İskelet
-mükemmel durumda.
+Kemikler neredeyse kahverengi olmuÅŸ. Ã–leli Ã§ok olmuÅŸ olmalÄ±. Ä°skelet
+mÃ¼kemmel durumda.
 ~
 #3611
-ametist mücevher~
-bir ametist mücevher~
-Büyük, parlayan, mor bir mücevher burada.~
+ametist mÃ¼cevher~
+bir ametist mÃ¼cevher~
+BÃ¼yÃ¼k, parlayan, mor bir mÃ¼cevher burada.~
 amethyst~
 warp_stone T AO
 0 0 0 0 0
 0 10 2500 P
 E
 ametist~
-Oldukça derin mor bir rengi var.
+OldukÃ§a derin mor bir rengi var.
 ~
 #3612
-pandantif gümüş~
-bir pandantif gümüş~
-Bir pandantif gümüş burada bırakılmış.~
+pandantif gÃ¼mÃ¼ÅŸ~
+bir pandantif gÃ¼mÃ¼ÅŸ~
+Bir pandantif gÃ¼mÃ¼ÅŸ burada bÄ±rakÄ±lmÄ±ÅŸ.~
 silver~
 jewelry 0 AC
 0 0 0 0 0
@@ -189,13 +189,13 @@ A
 A
 17 -1
 E
-pandantif gümüş~
-Thor'un çekicine benziyor. Saf gümüşten yapılmış.
+pandantif gÃ¼mÃ¼ÅŸ~
+Thor'un Ã§ekicine benziyor. Saf gÃ¼mÃ¼ÅŸten yapÄ±lmÄ±ÅŸ.
 ~
 #3613
-gümüş kama~
-bir gümüş kama~
-Uzun bir gümüş kama burada yatıyor.~
+gÃ¼mÃ¼ÅŸ kama~
+bir gÃ¼mÃ¼ÅŸ kama~
+Uzun bir gÃ¼mÃ¼ÅŸ kama burada yatÄ±yor.~
 silver~
 weapon 0 AN
 dagger 2 4 pierce 0
@@ -203,658 +203,658 @@ dagger 2 4 pierce 0
 A
 19 1
 E
-gümüş hançer~
-Uzun bir hançer. Gümüşten yapılmış. Kabzasına bir rün işlenmiş.
+gÃ¼mÃ¼ÅŸ hanÃ§er~
+Uzun bir hanÃ§er. GÃ¼mÃ¼ÅŸten yapÄ±lmÄ±ÅŸ. KabzasÄ±na bir rÃ¼n iÅŸlenmiÅŸ.
 ~
 #0
 
 #ROOMS
 #3600
-Mezarlıkta bir çakıl yol~
-Mezalık boyunca kuzey ve güneye giden çakıl bir yoldasın. Yolun iki
-kenarında koyu renk yaprak dökmeyen ağaçlar var. Kuzeyde bir demir kapı,
-batı ve doğuya doğru ise çakıl yol var.
+MezarlÄ±kta bir Ã§akÄ±l yol~
+MezalÄ±k boyunca kuzey ve gÃ¼neye giden Ã§akÄ±l bir yoldasÄ±n. Yolun iki
+kenarÄ±nda koyu renk yaprak dÃ¶kmeyen aÄŸaÃ§lar var. Kuzeyde bir demir kapÄ±,
+batÄ± ve doÄŸuya doÄŸru ise Ã§akÄ±l yol var.
 ~
 0 0 2
 D0
-Demir parmaklıklar boyunca Elm Caddesi'ni görüyorsun.
+Demir parmaklÄ±klar boyunca Elm Caddesi'ni gÃ¶rÃ¼yorsun.
 ~
-ızgara~
+Ä±zgara~
 1 -1 3124
 D1
-Çakıl yol koyu yaprak dökmeyen ağaçların arasından doğuya ilerliyor.
+Ã‡akÄ±l yol koyu yaprak dÃ¶kmeyen aÄŸaÃ§larÄ±n arasÄ±ndan doÄŸuya ilerliyor.
 ~
 ~
 0 -1 3650
 D2
-Çakıl yol güneye ilerliyor.
+Ã‡akÄ±l yol gÃ¼neye ilerliyor.
 ~
 ~
 0 -1 3601
 D3
-Çakıl yol koyu yaprak dökmeyen ağaçların arasından batıya ilerliyor.
+Ã‡akÄ±l yol koyu yaprak dÃ¶kmeyen aÄŸaÃ§larÄ±n arasÄ±ndan batÄ±ya ilerliyor.
 ~
 ~
 0 -1 3606
 S
 #3601
-Mezarlıkta bir çakıl yol~
-Mezalık boyunca kuzey ve güneye giden çakıl bir yoldasın. Yolun iki
-kenarında koyu renk yaprak dökmeyen ağaçlar var.
+MezarlÄ±kta bir Ã§akÄ±l yol~
+MezalÄ±k boyunca kuzey ve gÃ¼neye giden Ã§akÄ±l bir yoldasÄ±n. Yolun iki
+kenarÄ±nda koyu renk yaprak dÃ¶kmeyen aÄŸaÃ§lar var.
 ~
 0 0 2
 D0
-Çakıl yol kuzeye ilerliyor.
+Ã‡akÄ±l yol kuzeye ilerliyor.
 ~
 ~
 0 -1 3600
 D2
-Çakıl yol güneye ilerliyor.
+Ã‡akÄ±l yol gÃ¼neye ilerliyor.
 ~
 ~
 0 -1 3602
 S
 #3602
-Mezarlıkta bir çakıl yol~
-Mezalık boyunca kuzey ve güneye giden çakıl bir yoldasın. Yolun iki
-kenarında koyu renk yaprak dökmeyen ağaçlar var.
+MezarlÄ±kta bir Ã§akÄ±l yol~
+MezalÄ±k boyunca kuzey ve gÃ¼neye giden Ã§akÄ±l bir yoldasÄ±n. Yolun iki
+kenarÄ±nda koyu renk yaprak dÃ¶kmeyen aÄŸaÃ§lar var.
 ~
 0 0 2
 D0
-Çakıl yol kuzeye ilerliyor.
+Ã‡akÄ±l yol kuzeye ilerliyor.
 ~
 ~
 0 -1 3601
 D2
-Çakıl yol güneye ilerliyor.
+Ã‡akÄ±l yol gÃ¼neye ilerliyor.
 ~
 ~
 0 -1 3603
 S
 #3603
-Mezarlıkta bir çakıl yol~
-Mezalık boyunca kuzey ve güneye giden çakıl bir yoldasın. Yolun iki
-kenarında koyu renk yaprak dökmeyen ağaçlar var.
+MezarlÄ±kta bir Ã§akÄ±l yol~
+MezalÄ±k boyunca kuzey ve gÃ¼neye giden Ã§akÄ±l bir yoldasÄ±n. Yolun iki
+kenarÄ±nda koyu renk yaprak dÃ¶kmeyen aÄŸaÃ§lar var.
 ~
 0 0 2
 D0
-Çakıl yol kuzeye ilerliyor.
+Ã‡akÄ±l yol kuzeye ilerliyor.
 ~
 ~
 0 -1 3602
 D2
-Çakıl yol güneyde küçük yapının önündeki alana ilerliyor.
+Ã‡akÄ±l yol gÃ¼neyde kÃ¼Ã§Ã¼k yapÄ±nÄ±n Ã¶nÃ¼ndeki alana ilerliyor.
 ~
 ~
 0 -1 3604
 S
 #3604
-Küçük Kilisenin Önünde~
-Küçük bir kilisenin önünde açık alandasın. Çakıl bir yol kuzeye,
-mezarlığa yöneliyor. Kilise girişi ise güneyde.
+KÃ¼Ã§Ã¼k Kilisenin Ã–nÃ¼nde~
+KÃ¼Ã§Ã¼k bir kilisenin Ã¶nÃ¼nde aÃ§Ä±k alandasÄ±n. Ã‡akÄ±l bir yol kuzeye,
+mezarlÄ±ÄŸa yÃ¶neliyor. Kilise giriÅŸi ise gÃ¼neyde.
 ~
 0 0 2
 D0
-Çakıl yol kuzeye ilerliyor.
+Ã‡akÄ±l yol kuzeye ilerliyor.
 ~
 ~
 0 -1 3603
 D1
-Çakıl yol koyu yaprak dökmeyen ağaçların arasından doğuya ilerliyor.
+Ã‡akÄ±l yol koyu yaprak dÃ¶kmeyen aÄŸaÃ§larÄ±n arasÄ±ndan doÄŸuya ilerliyor.
 ~
 ~
 0 -1 3638
 D2
-Kilise kapısı kara ağaçtan yapılmış.
+Kilise kapÄ±sÄ± kara aÄŸaÃ§tan yapÄ±lmÄ±ÅŸ.
 ~
-kapı~
+kapÄ±~
 1 -1 3405
 D3
-Çakıl yol koyu yaprak dökmeyen ağaçların arasından batıya ilerliyor.
+Ã‡akÄ±l yol koyu yaprak dÃ¶kmeyen aÄŸaÃ§larÄ±n arasÄ±ndan batÄ±ya ilerliyor.
 ~
 ~
 0 -1 3618
 S
 #3606
-Mezarlıkta bir çakıl yol~
-Mezalığın koyu renk yaprak dökmeyen ağaçlarının arasında ilerleyen çakıl
-bir patikadasın. Burada eski bir mezar var.
+MezarlÄ±kta bir Ã§akÄ±l yol~
+MezalÄ±ÄŸÄ±n koyu renk yaprak dÃ¶kmeyen aÄŸaÃ§larÄ±nÄ±n arasÄ±nda ilerleyen Ã§akÄ±l
+bir patikadasÄ±n. Burada eski bir mezar var.
 ~
 0 0 2
 D1
-Çakıl yol doğuya bir çakıl yola doğru ilerliyor.
+Ã‡akÄ±l yol doÄŸuya bir Ã§akÄ±l yola doÄŸru ilerliyor.
 ~
 ~
 0 -1 3600
 D2
-Çakıl yol güneye ilerliyor.
+Ã‡akÄ±l yol gÃ¼neye ilerliyor.
 ~
 ~
 0 -1 3608
 D5
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3607
 E
-kabir taşı~
-Bu dikdörtgen, yere yüzü yukarı gelecek şekilde yerleştirilmiş gri bir
-taş. Zamanla üzerindeki isim silinmiş.
+kabir taÅŸÄ±~
+Bu dikdÃ¶rtgen, yere yÃ¼zÃ¼ yukarÄ± gelecek ÅŸekilde yerleÅŸtirilmiÅŸ gri bir
+taÅŸ. Zamanla Ã¼zerindeki isim silinmiÅŸ.
 ~
 S
 #3607
 Tozlu Kabirde~
-Büyük bir mezar taşının altında, karanlık bir defin odasındasın. Tek
-çıkış yukarıya.
+BÃ¼yÃ¼k bir mezar taÅŸÄ±nÄ±n altÄ±nda, karanlÄ±k bir defin odasÄ±ndasÄ±n. Tek
+Ã§Ä±kÄ±ÅŸ yukarÄ±ya.
 ~
 0 AD 1
 D4
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3606
 S
 #3608
-Mezarlıkta bir çakıl yol~
-Mezalığın koyu renk yaprak dökmeyen ağaçlarının arasında ilerleyen çakıl
-bir patikadasın. Burada eski bir mezar var.
+MezarlÄ±kta bir Ã§akÄ±l yol~
+MezalÄ±ÄŸÄ±n koyu renk yaprak dÃ¶kmeyen aÄŸaÃ§larÄ±nÄ±n arasÄ±nda ilerleyen Ã§akÄ±l
+bir patikadasÄ±n. Burada eski bir mezar var.
 ~
 0 0 2
 E
-kabir taşı~
-Bu dikdörtgen, yere yüzü yukarı gelecek şekilde yerleştirilmiş gri bir
-taş. Zamanla üzerindeki isim silinmiş.
+kabir taÅŸÄ±~
+Bu dikdÃ¶rtgen, yere yÃ¼zÃ¼ yukarÄ± gelecek ÅŸekilde yerleÅŸtirilmiÅŸ gri bir
+taÅŸ. Zamanla Ã¼zerindeki isim silinmiÅŸ.
 ~
 D0
-Çakıl yol kuzeye ilerliyor.
+Ã‡akÄ±l yol kuzeye ilerliyor.
 ~
 ~
 0 -1 3606
 D3
-Çakıl yol batıya ilerliyor.
+Ã‡akÄ±l yol batÄ±ya ilerliyor.
 ~
 ~
 0 -1 3610
 D5
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3609
 S
 #3609
 Tozlu Kabirde~
-Büyük bir mezar taşının altında, karanlık bir defin odasındasın. Tek
-çıkış yukarıya.
+BÃ¼yÃ¼k bir mezar taÅŸÄ±nÄ±n altÄ±nda, karanlÄ±k bir defin odasÄ±ndasÄ±n. Tek
+Ã§Ä±kÄ±ÅŸ yukarÄ±ya.
 ~
 0 AD 1
 D4
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3608
 S
 #3610
-Mezarlıkta bir çakıl yol~
-Mezalığın koyu renk yaprak dökmeyen ağaçlarının arasında ilerleyen çakıl
-bir patikadasın. Burada eski bir mezar var.
+MezarlÄ±kta bir Ã§akÄ±l yol~
+MezalÄ±ÄŸÄ±n koyu renk yaprak dÃ¶kmeyen aÄŸaÃ§larÄ±nÄ±n arasÄ±nda ilerleyen Ã§akÄ±l
+bir patikadasÄ±n. Burada eski bir mezar var.
 ~
 0 0 2
 E
-kabir taşı~
-Bu dikdörtgen, yere yüzü yukarı gelecek şekilde yerleştirilmiş gri bir
-taş. Zamanla üzerindeki isim silinmiş.
+kabir taÅŸÄ±~
+Bu dikdÃ¶rtgen, yere yÃ¼zÃ¼ yukarÄ± gelecek ÅŸekilde yerleÅŸtirilmiÅŸ gri bir
+taÅŸ. Zamanla Ã¼zerindeki isim silinmiÅŸ.
 ~
 D1
-Çakıl yol doğuya ilerliyor.
+Ã‡akÄ±l yol doÄŸuya ilerliyor.
 ~
 ~
 0 -1 3608
 D2
-Çakıl yol güneye ilerliyor.
+Ã‡akÄ±l yol gÃ¼neye ilerliyor.
 ~
 ~
 0 -1 3612
 D5
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3611
 S
 #3611
 Tozlu Kabirde~
-Büyük bir mezar taşının altında, karanlık bir defin odasındasın. Tek
-çıkış yukarıya.
+BÃ¼yÃ¼k bir mezar taÅŸÄ±nÄ±n altÄ±nda, karanlÄ±k bir defin odasÄ±ndasÄ±n. Tek
+Ã§Ä±kÄ±ÅŸ yukarÄ±ya.
 ~
 0 AD 1
 D4
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3610
 S
 #3612
-Mezarlıkta bir çakıl yol~
-Mezalığın koyu renk yaprak dökmeyen ağaçlarının arasında ilerleyen çakıl
-bir patikadasın. Patika kuzeye ve doğuya ilerliyor. Batıda küçük bir kulübe
+MezarlÄ±kta bir Ã§akÄ±l yol~
+MezalÄ±ÄŸÄ±n koyu renk yaprak dÃ¶kmeyen aÄŸaÃ§larÄ±nÄ±n arasÄ±nda ilerleyen Ã§akÄ±l
+bir patikadasÄ±n. Patika kuzeye ve doÄŸuya ilerliyor. BatÄ±da kÃ¼Ã§Ã¼k bir kulÃ¼be
 var.
 ~
 0 0 2
 D0
-Çakıl yol kuzeye ilerliyor.
+Ã‡akÄ±l yol kuzeye ilerliyor.
 ~
 ~
 0 -1 3610
 D1
-Çakıl yol doğuya ilerliyor.
+Ã‡akÄ±l yol doÄŸuya ilerliyor.
 ~
 ~
 0 -1 3614
 D3
-Bu tahta kapılı, siyah boyalı küçük bir kulübe.
+Bu tahta kapÄ±lÄ±, siyah boyalÄ± kÃ¼Ã§Ã¼k bir kulÃ¼be.
 ~
-kapı~
+kapÄ±~
 1 -1 3613
 S
 #3613
-Mezarlıktaki Kulübede~
-Burası bahçede kullanılan ekipmanların konulduğu bir depo gibi görünüyor.
-Tek çıkış doğuda.
+MezarlÄ±ktaki KulÃ¼bede~
+BurasÄ± bahÃ§ede kullanÄ±lan ekipmanlarÄ±n konulduÄŸu bir depo gibi gÃ¶rÃ¼nÃ¼yor.
+Tek Ã§Ä±kÄ±ÅŸ doÄŸuda.
 ~
 0 D 1
 D1
 
 ~
-kapı~
+kapÄ±~
 1 -1 3612
 S
 #3614
-Mezarlıkta bir çakıl yol~
-Mezalığın koyu renk yaprak dökmeyen ağaçlarının arasında ilerleyen çakıl
-bir patikadasın. Burada eski bir mezar var.
+MezarlÄ±kta bir Ã§akÄ±l yol~
+MezalÄ±ÄŸÄ±n koyu renk yaprak dÃ¶kmeyen aÄŸaÃ§larÄ±nÄ±n arasÄ±nda ilerleyen Ã§akÄ±l
+bir patikadasÄ±n. Burada eski bir mezar var.
 ~
 0 0 2
 E
-kabir taşı~
-Bu dikdörtgen, yere yüzü yukarı gelecek şekilde yerleştirilmiş gri bir
-taş. Zamanla üzerindeki isim silinmiş.
+kabir taÅŸÄ±~
+Bu dikdÃ¶rtgen, yere yÃ¼zÃ¼ yukarÄ± gelecek ÅŸekilde yerleÅŸtirilmiÅŸ gri bir
+taÅŸ. Zamanla Ã¼zerindeki isim silinmiÅŸ.
 ~
 D2
-Çakıl yol güneye ilerliyor.
+Ã‡akÄ±l yol gÃ¼neye ilerliyor.
 ~
 ~
 0 -1 3616
 D3
-Çakıl yol batıya ilerliyor.
+Ã‡akÄ±l yol batÄ±ya ilerliyor.
 ~
 ~
 0 -1 3612
 D5
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3615
 S
 #3615
 Tozlu Kabirde~
-Büyük bir mezar taşının altında, karanlık bir defin odasındasın. Tek
-çıkış yukarıya.
+BÃ¼yÃ¼k bir mezar taÅŸÄ±nÄ±n altÄ±nda, karanlÄ±k bir defin odasÄ±ndasÄ±n. Tek
+Ã§Ä±kÄ±ÅŸ yukarÄ±ya.
 ~
 0 AD 1
 D4
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3614
 S
 #3616
-Mezarlıkta bir çakıl yol~
-Mezalığın koyu renk yaprak dökmeyen ağaçlarının arasında ilerleyen çakıl
-bir patikadasın. Burada eski bir mezar var.
+MezarlÄ±kta bir Ã§akÄ±l yol~
+MezalÄ±ÄŸÄ±n koyu renk yaprak dÃ¶kmeyen aÄŸaÃ§larÄ±nÄ±n arasÄ±nda ilerleyen Ã§akÄ±l
+bir patikadasÄ±n. Burada eski bir mezar var.
 ~
 0 0 2
 E
-kabir taşı~
-Bu dikdörtgen, yere yüzü yukarı gelecek şekilde yerleştirilmiş gri bir
-taş. Zamanla üzerindeki isim silinmiş.
+kabir taÅŸÄ±~
+Bu dikdÃ¶rtgen, yere yÃ¼zÃ¼ yukarÄ± gelecek ÅŸekilde yerleÅŸtirilmiÅŸ gri bir
+taÅŸ. Zamanla Ã¼zerindeki isim silinmiÅŸ.
 ~
 D0
-Çakıl yol kuzeye ilerliyor.
+Ã‡akÄ±l yol kuzeye ilerliyor.
 ~
 ~
 0 -1 3614
 D2
-Çakıl yol güneye ilerliyor.
+Ã‡akÄ±l yol gÃ¼neye ilerliyor.
 ~
 ~
 0 -1 3618
 D5
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3617
 S
 #3617
 Tozlu Kabirde~
-Büyük bir mezar taşının altında, karanlık bir defin odasındasın. Tek
-çıkış yukarıya.
+BÃ¼yÃ¼k bir mezar taÅŸÄ±nÄ±n altÄ±nda, karanlÄ±k bir defin odasÄ±ndasÄ±n. Tek
+Ã§Ä±kÄ±ÅŸ yukarÄ±ya.
 ~
 0 AD 1
 D4
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3616
 S
 #3618
-Mezarlıkta bir çakıl yol~
-Mezalığın koyu renk yaprak dökmeyen ağaçlarının arasında ilerleyen çakıl
-bir patikadasın. Burada eski bir mezar var.
+MezarlÄ±kta bir Ã§akÄ±l yol~
+MezalÄ±ÄŸÄ±n koyu renk yaprak dÃ¶kmeyen aÄŸaÃ§larÄ±nÄ±n arasÄ±nda ilerleyen Ã§akÄ±l
+bir patikadasÄ±n. Burada eski bir mezar var.
 ~
 0 0 2
 E
-kabir taşı~
-Bu dikdörtgen, yere yüzü yukarı gelecek şekilde yerleştirilmiş gri bir
-taş. Zamanla üzerindeki isim silinmiş.
+kabir taÅŸÄ±~
+Bu dikdÃ¶rtgen, yere yÃ¼zÃ¼ yukarÄ± gelecek ÅŸekilde yerleÅŸtirilmiÅŸ gri bir
+taÅŸ. Zamanla Ã¼zerindeki isim silinmiÅŸ.
 ~
 D0
-Çakıl yol kuzeye ilerliyor.
+Ã‡akÄ±l yol kuzeye ilerliyor.
 ~
 ~
 0 -1 3616
 D1
-Çakıl yol doğuya bir çeşit binaya doğru ilerliyor.
+Ã‡akÄ±l yol doÄŸuya bir Ã§eÅŸit binaya doÄŸru ilerliyor.
 ~
 ~
 0 -1 3604
 D5
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3619
 S
 #3619
 Tozlu Kabirde~
-Büyük bir mezar taşının altında, karanlık bir defin odasındasın. Tek
-çıkış yukarıya.
+BÃ¼yÃ¼k bir mezar taÅŸÄ±nÄ±n altÄ±nda, karanlÄ±k bir defin odasÄ±ndasÄ±n. Tek
+Ã§Ä±kÄ±ÅŸ yukarÄ±ya.
 ~
 0 AD 1
 D4
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3618
 S
 #3638
-Mezarlıkta bir çakıl yol~
-Mezalığın koyu renk yaprak dökmeyen ağaçlarının arasında ilerleyen çakıl
-bir patikadasın. Burada eski bir mezar var.
+MezarlÄ±kta bir Ã§akÄ±l yol~
+MezalÄ±ÄŸÄ±n koyu renk yaprak dÃ¶kmeyen aÄŸaÃ§larÄ±nÄ±n arasÄ±nda ilerleyen Ã§akÄ±l
+bir patikadasÄ±n. Burada eski bir mezar var.
 ~
 0 0 2
 E
-kabir taşı~
-Bu dikdörtgen, yere yüzü yukarı gelecek şekilde yerleştirilmiş gri bir
-taş. Zamanla üzerindeki isim silinmiş.
+kabir taÅŸÄ±~
+Bu dikdÃ¶rtgen, yere yÃ¼zÃ¼ yukarÄ± gelecek ÅŸekilde yerleÅŸtirilmiÅŸ gri bir
+taÅŸ. Zamanla Ã¼zerindeki isim silinmiÅŸ.
 ~
 D0
-Çakıl yol kuzeye ilerliyor.
+Ã‡akÄ±l yol kuzeye ilerliyor.
 ~
 ~
 0 -1 3640
 D3
-Çakıl yol batıya bir çeşit binaya doğru ilerliyor.
+Ã‡akÄ±l yol batÄ±ya bir Ã§eÅŸit binaya doÄŸru ilerliyor.
 ~
 ~
 0 -1 3604
 D5
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3639
 S
 #3639
 Tozlu Kabirde~
-Büyük bir mezar taşının altında, karanlık bir defin odasındasın. Tek
-çıkış yukarıya.
+BÃ¼yÃ¼k bir mezar taÅŸÄ±nÄ±n altÄ±nda, karanlÄ±k bir defin odasÄ±ndasÄ±n. Tek
+Ã§Ä±kÄ±ÅŸ yukarÄ±ya.
 ~
 0 AD 1
 D4
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3638
 S
 #3640
-Mezarlıkta bir çakıl yol~
-Mezalığın koyu renk yaprak dökmeyen ağaçlarının arasında ilerleyen çakıl
-bir patikadasın. Burada eski bir mezar var.
+MezarlÄ±kta bir Ã§akÄ±l yol~
+MezalÄ±ÄŸÄ±n koyu renk yaprak dÃ¶kmeyen aÄŸaÃ§larÄ±nÄ±n arasÄ±nda ilerleyen Ã§akÄ±l
+bir patikadasÄ±n. Burada eski bir mezar var.
 ~
 0 0 2
 E
-kabir taşı~
-Bu dikdörtgen, yere yüzü yukarı gelecek şekilde yerleştirilmiş gri bir
-taş. Zamanla üzerindeki isim silinmiş.
+kabir taÅŸÄ±~
+Bu dikdÃ¶rtgen, yere yÃ¼zÃ¼ yukarÄ± gelecek ÅŸekilde yerleÅŸtirilmiÅŸ gri bir
+taÅŸ. Zamanla Ã¼zerindeki isim silinmiÅŸ.
 ~
 D0
-Çakıl yol kuzeye ilerliyor.
+Ã‡akÄ±l yol kuzeye ilerliyor.
 ~
 ~
 0 -1 3642
 D2
-Çakıl yol güneye ilerliyor.
+Ã‡akÄ±l yol gÃ¼neye ilerliyor.
 ~
 ~
 0 -1 3638
 D5
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3641
 S
 #3641
 Tozlu Kabirde~
-Büyük bir mezar taşının altında, karanlık bir defin odasındasın. Tek
-çıkış yukarıya.
+BÃ¼yÃ¼k bir mezar taÅŸÄ±nÄ±n altÄ±nda, karanlÄ±k bir defin odasÄ±ndasÄ±n. Tek
+Ã§Ä±kÄ±ÅŸ yukarÄ±ya.
 ~
 0 AD 1
 D4
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3640
 S
 #3642
-Mezarlıkta bir çakıl yol~
-Mezalığın koyu renk yaprak dökmeyen ağaçlarının arasında ilerleyen çakıl
-bir patikadasın. Burada eski bir mezar var.
+MezarlÄ±kta bir Ã§akÄ±l yol~
+MezalÄ±ÄŸÄ±n koyu renk yaprak dÃ¶kmeyen aÄŸaÃ§larÄ±nÄ±n arasÄ±nda ilerleyen Ã§akÄ±l
+bir patikadasÄ±n. Burada eski bir mezar var.
 ~
 0 0 2
 E
-kabir taşı~
-Bu dikdörtgen, yere yüzü yukarı gelecek şekilde yerleştirilmiş gri bir
-taş. Zamanla üzerindeki isim silinmiş.
+kabir taÅŸÄ±~
+Bu dikdÃ¶rtgen, yere yÃ¼zÃ¼ yukarÄ± gelecek ÅŸekilde yerleÅŸtirilmiÅŸ gri bir
+taÅŸ. Zamanla Ã¼zerindeki isim silinmiÅŸ.
 ~
 D1
-Çakıl yol doğuya ilerliyor.
+Ã‡akÄ±l yol doÄŸuya ilerliyor.
 ~
 ~
 0 -1 3644
 D2
-Çakıl yol güneye ilerliyor.
+Ã‡akÄ±l yol gÃ¼neye ilerliyor.
 ~
 ~
 0 -1 3640
 D5
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3643
 S
 #3643
 Tozlu Kabirde~
-Büyük bir mezar taşının altında, karanlık bir defin odasındasın. Tek
-çıkış yukarıya.
+BÃ¼yÃ¼k bir mezar taÅŸÄ±nÄ±n altÄ±nda, karanlÄ±k bir defin odasÄ±ndasÄ±n. Tek
+Ã§Ä±kÄ±ÅŸ yukarÄ±ya.
 ~
 0 AD 1
 D4
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3642
 S
 #3644
-Mezarlıkta bir çakıl yol~
-Mezalığın koyu renk yaprak dökmeyen ağaçlarının arasında ilerleyen çakıl
-bir patikadasın. Burada eski bir mezar var.
+MezarlÄ±kta bir Ã§akÄ±l yol~
+MezalÄ±ÄŸÄ±n koyu renk yaprak dÃ¶kmeyen aÄŸaÃ§larÄ±nÄ±n arasÄ±nda ilerleyen Ã§akÄ±l
+bir patikadasÄ±n. Burada eski bir mezar var.
 ~
 0 0 2
 E
-kabir taşı~
-Bu dikdörtgen, yere yüzü yukarı gelecek şekilde yerleştirilmiş gri bir
-taş. Zamanla üzerindeki isim silinmiş.
+kabir taÅŸÄ±~
+Bu dikdÃ¶rtgen, yere yÃ¼zÃ¼ yukarÄ± gelecek ÅŸekilde yerleÅŸtirilmiÅŸ gri bir
+taÅŸ. Zamanla Ã¼zerindeki isim silinmiÅŸ.
 ~
 D0
-Çakıl yol kuzeye ilerliyor.
+Ã‡akÄ±l yol kuzeye ilerliyor.
 ~
 ~
 0 -1 3646
 D3
-Çakıl yol batıya ilerliyor.
+Ã‡akÄ±l yol batÄ±ya ilerliyor.
 ~
 ~
 0 -1 3642
 D5
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3645
 S
 #3645
 Tozlu Kabirde~
-Büyük bir mezar taşının altında, karanlık bir defin odasındasın. Tek
-çıkış yukarıya.
+BÃ¼yÃ¼k bir mezar taÅŸÄ±nÄ±n altÄ±nda, karanlÄ±k bir defin odasÄ±ndasÄ±n. Tek
+Ã§Ä±kÄ±ÅŸ yukarÄ±ya.
 ~
 0 AD 1
 D4
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3644
 S
 #3646
-Mezarlıkta bir çakıl yol~
-Mezalığın koyu renk yaprak dökmeyen ağaçlarının arasında ilerleyen çakıl
-bir patikadasın. Burada eski bir mezar var.
+MezarlÄ±kta bir Ã§akÄ±l yol~
+MezalÄ±ÄŸÄ±n koyu renk yaprak dÃ¶kmeyen aÄŸaÃ§larÄ±nÄ±n arasÄ±nda ilerleyen Ã§akÄ±l
+bir patikadasÄ±n. Burada eski bir mezar var.
 ~
 0 0 2
 E
-kabir taşı~
-Bu dikdörtgen, yere yüzü yukarı gelecek şekilde yerleştirilmiş gri bir
-taş. Zamanla üzerindeki isim silinmiş.
+kabir taÅŸÄ±~
+Bu dikdÃ¶rtgen, yere yÃ¼zÃ¼ yukarÄ± gelecek ÅŸekilde yerleÅŸtirilmiÅŸ gri bir
+taÅŸ. Zamanla Ã¼zerindeki isim silinmiÅŸ.
 ~
 D2
-Çakıl yol güneye ilerliyor.
+Ã‡akÄ±l yol gÃ¼neye ilerliyor.
 ~
 ~
 0 -1 3644
 D3
-Çakıl yol batıya ilerliyor.
+Ã‡akÄ±l yol batÄ±ya ilerliyor.
 ~
 ~
 0 -1 3648
 D5
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3647
 S
 #3647
 Tozlu Kabirde~
-Büyük bir mezar taşının altında, karanlık bir defin odasındasın. Tek
-çıkış yukarıya.
+BÃ¼yÃ¼k bir mezar taÅŸÄ±nÄ±n altÄ±nda, karanlÄ±k bir defin odasÄ±ndasÄ±n. Tek
+Ã§Ä±kÄ±ÅŸ yukarÄ±ya.
 ~
 0 AD 1
 D4
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3646
 S
 #3648
-Mezarlıkta bir çakıl yol~
-Mezalığın koyu renk yaprak dökmeyen ağaçlarının arasında ilerleyen çakıl
-bir patikadasın. Burada eski bir mezar var.
+MezarlÄ±kta bir Ã§akÄ±l yol~
+MezalÄ±ÄŸÄ±n koyu renk yaprak dÃ¶kmeyen aÄŸaÃ§larÄ±nÄ±n arasÄ±nda ilerleyen Ã§akÄ±l
+bir patikadasÄ±n. Burada eski bir mezar var.
 ~
 0 0 2
 E
-kabir taşı~
-Bu dikdörtgen, yere yüzü yukarı gelecek şekilde yerleştirilmiş gri bir
-taş. Zamanla üzerindeki isim silinmiş.
+kabir taÅŸÄ±~
+Bu dikdÃ¶rtgen, yere yÃ¼zÃ¼ yukarÄ± gelecek ÅŸekilde yerleÅŸtirilmiÅŸ gri bir
+taÅŸ. Zamanla Ã¼zerindeki isim silinmiÅŸ.
 ~
 D0
-Çakıl yol kuzeye ilerliyor.
+Ã‡akÄ±l yol kuzeye ilerliyor.
 ~
 ~
 0 -1 3650
 D1
-Çakıl yol doğuya ilerliyor.
+Ã‡akÄ±l yol doÄŸuya ilerliyor.
 ~
 ~
 0 -1 3646
 D5
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3649
 S
 #3649
 Tozlu Kabirde~
-Büyük bir mezar taşının altında, karanlık bir defin odasındasın. Tek
-çıkış yukarıya.
+BÃ¼yÃ¼k bir mezar taÅŸÄ±nÄ±n altÄ±nda, karanlÄ±k bir defin odasÄ±ndasÄ±n. Tek
+Ã§Ä±kÄ±ÅŸ yukarÄ±ya.
 ~
 0 AD 1
 D4
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3648
 S
 #3650
-Mezarlıkta bir çakıl yol~
-Mezalığın koyu renk yaprak dökmeyen ağaçlarının arasında ilerleyen çakıl
-bir patikadasın. Burada eski bir mezar var.
+MezarlÄ±kta bir Ã§akÄ±l yol~
+MezalÄ±ÄŸÄ±n koyu renk yaprak dÃ¶kmeyen aÄŸaÃ§larÄ±nÄ±n arasÄ±nda ilerleyen Ã§akÄ±l
+bir patikadasÄ±n. Burada eski bir mezar var.
 ~
 0 0 2
 E
-kabir taşı~
-Bu dikdörtgen, yere yüzü yukarı gelecek şekilde yerleştirilmiş gri bir
-taş. Zamanla üzerindeki isim silinmiş.
+kabir taÅŸÄ±~
+Bu dikdÃ¶rtgen, yere yÃ¼zÃ¼ yukarÄ± gelecek ÅŸekilde yerleÅŸtirilmiÅŸ gri bir
+taÅŸ. Zamanla Ã¼zerindeki isim silinmiÅŸ.
 ~
 D2
-Çakıl yol güneye ilerliyor.
+Ã‡akÄ±l yol gÃ¼neye ilerliyor.
 ~
 ~
 0 -1 3648
 D3
-Çakıl yol batıya, bir çakıl yola doğru ilerliyor.
+Ã‡akÄ±l yol batÄ±ya, bir Ã§akÄ±l yola doÄŸru ilerliyor.
 ~
 ~
 0 -1 3600
 D5
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3651
 S
 #3651
 Tozlu Kabirde~
-Büyük bir mezar taşının altında, karanlık bir defin odasındasın. Tek
-çıkış yukarıya.
+BÃ¼yÃ¼k bir mezar taÅŸÄ±nÄ±n altÄ±nda, karanlÄ±k bir defin odasÄ±ndasÄ±n. Tek
+Ã§Ä±kÄ±ÅŸ yukarÄ±ya.
 ~
 0 AD 1
 D4
 
 ~
-kabir taşı~
+kabir taÅŸÄ±~
 1 -1 3650
 S
 #0

@@ -1,9 +1,9 @@
 #AREADATA
 Filename ofke.are~
-Name Öfke~
+Name Ã–fke~
 Builder Chronos~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 90
 Highlevel 100
 Minvnum 540
@@ -19,13 +19,13 @@ C
 
 #NEW_MOBILES
 #540
-güç adamı usta~
-Güç Adamı~
-Dövüş Sanatlarının ustasını görüyorsun.
+gÃ¼Ã§ adamÄ± usta~
+GÃ¼Ã§ AdamÄ±~
+DÃ¶vÃ¼ÅŸ SanatlarÄ±nÄ±n ustasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
-Devasa vücudunu savaş sanatlarıyla eğitmiş bir üstad görüyorsun.
-O hiçbir zaman büyünün gücüne inanmamış, ne bir iksir ne de
-büyülü bir değnek kullanmış. O büyüden ve büyücülerden nefret eder.
+Devasa vÃ¼cudunu savaÅŸ sanatlarÄ±yla eÄŸitmiÅŸ bir Ã¼stad gÃ¶rÃ¼yorsun.
+O hiÃ§bir zaman bÃ¼yÃ¼nÃ¼n gÃ¼cÃ¼ne inanmamÄ±ÅŸ, ne bir iksir ne de
+bÃ¼yÃ¼lÃ¼ bir deÄŸnek kullanmÄ±ÅŸ. O bÃ¼yÃ¼den ve bÃ¼yÃ¼cÃ¼lerden nefret eder.
 ~
 giant~
 ABJKTVe DFec 92
@@ -33,9 +33,9 @@ ABJKTVe DFec 92
 #541
 Gordal~
 Gordal~
-Silah yapımcısı Gordal çeliğe şekil veriyor.
+Silah yapÄ±mcÄ±sÄ± Gordal Ã§eliÄŸe ÅŸekil veriyor.
 ~
-Tecrübeli ve bilgili bir silah yapımcısı görüyorsun.
+TecrÃ¼beli ve bilgili bir silah yapÄ±mcÄ±sÄ± gÃ¶rÃ¼yorsun.
 ~
 human~
 ABTVe DHFVe 80
@@ -43,10 +43,10 @@ ABTVe DHFVe 80
 #542
 bilge~
 Bilge~
-Bilge genç savaşçıların geleceği üzerine düşünüyor.
+Bilge genÃ§ savaÅŸÃ§Ä±larÄ±n geleceÄŸi Ã¼zerine dÃ¼ÅŸÃ¼nÃ¼yor.
 ~
-Şifalı otlarla yaraları iyi edebilen bir bilge görüyorsun. Eğer
-yardıma ihtiyacın varsa 'bilge adam bana yardım et' demeyi deneyin.
+ÅifalÄ± otlarla yaralarÄ± iyi edebilen bir bilge gÃ¶rÃ¼yorsun. EÄŸer
+yardÄ±ma ihtiyacÄ±n varsa 'bilge adam bana yardÄ±m et' demeyi deneyin.
 ~
 human~
 ABQVae DFH 80
@@ -59,15 +59,15 @@ ABQVae DFH 80
 #540
 kemik anahtar~
 kemik anahtar~
-Kemikten yapılmış bir anahtar yerde duruyor.~
+Kemikten yapÄ±lmÄ±ÅŸ bir anahtar yerde duruyor.~
 bone~
 key ORY AO
 0 0 0 0 0
 40 4 0 P
 #541
-büyücünün kafatası~
-Büyücünün Kafatası~
-Eski bir kafatası ışıldıyor.~
+bÃ¼yÃ¼cÃ¼nÃ¼n kafatasÄ±~
+BÃ¼yÃ¼cÃ¼nÃ¼n KafatasÄ±~
+Eski bir kafatasÄ± Ä±ÅŸÄ±ldÄ±yor.~
 bone~
 treasure O AO
 0 0 0 0 0
@@ -75,52 +75,52 @@ treasure O AO
 #542
 beyaz taht~
 beyaz taht~
-Kemiklerden yapılmış beyaz bir taht görüyorsun.~
+Kemiklerden yapÄ±lmÄ±ÅŸ beyaz bir taht gÃ¶rÃ¼yorsun.~
 bone~
 container ORY P
 10 15 540 15 100
 60 1 20 P
 #543
-bağış çukuru~
-bağış çukuru~
-Mimberin önünde bağışlar için bir çukur görüyorsun.~
+baÄŸÄ±ÅŸ Ã§ukuru~
+baÄŸÄ±ÅŸ Ã§ukuru~
+Mimberin Ã¶nÃ¼nde baÄŸÄ±ÅŸlar iÃ§in bir Ã§ukur gÃ¶rÃ¼yorsun.~
 ~
 container O 0
 10000 0 0 1000 100
 0 0 0 P
 E
-çukur~
-Bağışlar için.
+Ã§ukur~
+BaÄŸÄ±ÅŸlar iÃ§in.
 ~
 #544
-şelale~
-Şelale~
-Bir şelale görüyorsun.
+ÅŸelale~
+Åelale~
+Bir ÅŸelale gÃ¶rÃ¼yorsun.
 ~
 water~
 portal AO 0
 0 0 B 5281 0
 0 0 0 P
 #545
-gordal güzel hançer~
-güzel hançer~
-Yerde bekleyen güzel bir hançer görüyorsun.~
+gordal gÃ¼zel hanÃ§er~
+gÃ¼zel hanÃ§er~
+Yerde bekleyen gÃ¼zel bir hanÃ§er gÃ¶rÃ¼yorsun.~
 adamantite~
 weapon 0 AN
 dagger 4 7 pierce ED
 32 450 5600 P
 #546
-gordal güzel kılıc~
-güzel kılıç~
-Yerde bekleyen güzel bir kılıç görüyorsun.~
+gordal gÃ¼zel kÄ±lÄ±c~
+gÃ¼zel kÄ±lÄ±Ã§~
+Yerde bekleyen gÃ¼zel bir kÄ±lÄ±Ã§ gÃ¶rÃ¼yorsun.~
 adamantite~
 weapon 0 AN
 sword 5 6 slash ED
 33 450 5600 P
 #547
-gordal güzel balta~
-güzel balta~
-Yerde bekleyen güzel bir balta görüyorsun.~
+gordal gÃ¼zel balta~
+gÃ¼zel balta~
+Yerde bekleyen gÃ¼zel bir balta gÃ¶rÃ¼yorsun.~
 adamantite~
 weapon 0 AN
 axe 6 6 cleave DF
@@ -131,7 +131,7 @@ axe 6 6 cleave DF
 
 #ROOMS
 #540
-Gizli Mağara'nın Önünde~
+Gizli MaÄŸara'nÄ±n Ã–nÃ¼nde~
   Beyond the water fall, you are in front of a caven. Things getting darker.
 You seek for the light but you couldn't find. But the light coming from the
 water fall still can light the enterance of the caven.
@@ -148,7 +148,7 @@ D3
 S
 
 #541
-Gizli Mağara'nın Girişi~
+Gizli MaÄŸara'nÄ±n GiriÅŸi~
   You see some sort of light coming thru the west, making the inside of
 the caven more noticable. You see lots of weapon and blood tracks on the
 wall. There are several bones on the ground. You notice that the huge man
@@ -166,7 +166,7 @@ D3
 S
 
 #542
-Gizli Mağara'nın İçinde~
+Gizli MaÄŸara'nÄ±n Ä°Ã§inde~
   In spite of the low level light, you notice that the caven continues to
 the west. You see lots of bones again on the ground. You observe that
 there seems no way from the west of the caven.
@@ -184,7 +184,7 @@ w
 S
 
 #543
-Gizli Mağara'nın Derinliklerinde~
+Gizli MaÄŸara'nÄ±n Derinliklerinde~
   You see that there are two openings more in the caven, one to the north
 and one to the south. To the north you see a large white throne. To the
 south you see some clothes and weapons left on the ground. It seems that
@@ -206,7 +206,7 @@ D2
 S
 
 #544
-Bağış Odası~
+BaÄŸÄ±ÅŸ OdasÄ±~
   You find lots of weapons and clothings on the floor. You noticed the
 writing on the floor.
       "Every battlerager is your brother."
@@ -221,7 +221,7 @@ D0
 0 -1 543
 S
 #545
-Savaş Alanı~
+SavaÅŸ AlanÄ±~
   You see lots of bones on the floor. You think that you are very near to
 the place where martial arts are practiced. There are four openings in
 all directions. To the east you see the continuing of bones on the floor,
@@ -248,7 +248,7 @@ D3
 S
 
 #546
-Savaş Evi~
+SavaÅŸ Evi~
   You are in the battle house. You see lots of bones and broken weapons on
 the floor. You read the following on the wall:
     "After you kill your first magician, you become a BattleRager."
@@ -262,7 +262,7 @@ D3
 S
 
 #547
-Gordal'ın Silah Evi~
+Gordal'Ä±n Silah Evi~
   You see the metals hung up on the wall, shining brilliantly. Most
 probably they are the materials that Gordall use to produce his weapons.
 And to the higher portion of the wall you see the newly finished weapons,
@@ -276,7 +276,7 @@ D1
 S
 
 #548
-Savaş Türbesi~
+SavaÅŸ TÃ¼rbesi~
   You are in front of a large white throne made from bones. There are
 shelves line the walls, upon them there are many jars inside of which are
 blood and heads of magicians.

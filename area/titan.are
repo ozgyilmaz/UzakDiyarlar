@@ -3,7 +3,7 @@ Filename titan.are~
 Name Titan Vadisi~
 Builder Xavier~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 25
 Highlevel 50
 Minvnum 18000
@@ -19,198 +19,198 @@ AB
 
 #NEW_MOBILES
 #18001
-şehir muhafız titan~
-şehir muhafızı~
-Girişleri koruyan güçlü bir şehir muhafızı burada duruyor.
+ÅŸehir muhafÄ±z titan~
+ÅŸehir muhafÄ±zÄ±~
+GiriÅŸleri koruyan gÃ¼Ã§lÃ¼ bir ÅŸehir muhafÄ±zÄ± burada duruyor.
 ~
-Ağır zırhlanmış irice bir adam görüyorsun. Seni bir saniye bile geçmeden
-ezip geçebilir. Öldürücü ve kaba yapısına rağmen, sana gezintinde iyi
+AÄŸÄ±r zÄ±rhlanmÄ±ÅŸ irice bir adam gÃ¶rÃ¼yorsun. Seni bir saniye bile geÃ§meden
+ezip geÃ§ebilir. Ã–ldÃ¼rÃ¼cÃ¼ ve kaba yapÄ±sÄ±na raÄŸmen, sana gezintinde iyi
 yolculuklar diliyor.
 ~
 giant~
 ABT CDEFHV 45
 #18002
 kedi~
-zavallı bir kedi.~
-Sevimli, aç bir kedi burada duruyor.
+zavallÄ± bir kedi.~
+Sevimli, aÃ§ bir kedi burada duruyor.
 ~
-Yolunun üzerinde kirli küçük bir kedinin dolaştığını görüyorsun. Zavallı
-hayvanın bir evi yok ve birşeyler yemek için çöpleri karıştırmak zorunda.
-Küçük dostuna acıyorsun.
+Yolunun Ã¼zerinde kirli kÃ¼Ã§Ã¼k bir kedinin dolaÅŸtÄ±ÄŸÄ±nÄ± gÃ¶rÃ¼yorsun. ZavallÄ±
+hayvanÄ±n bir evi yok ve birÅŸeyler yemek iÃ§in Ã§Ã¶pleri karÄ±ÅŸtÄ±rmak zorunda.
+KÃ¼Ã§Ã¼k dostuna acÄ±yorsun.
 ~
 cat~
 AB CDEF 30
 #18003
 bongo davulcu~
 bongo davulcusu~
-Ritimle hareket eden vahşi bir bongo davulcusu burada duruyor.
+Ritimle hareket eden vahÅŸi bir bongo davulcusu burada duruyor.
 ~
-Bongoyu gerçekten çok iyi çalan bir bongo davulcusu görüyorsun.
+Bongoyu gerÃ§ekten Ã§ok iyi Ã§alan bir bongo davulcusu gÃ¶rÃ¼yorsun.
 ~
 giant~
 ABT CDEFJ 25
 #18004
 gitarist~
 grubun gitaristi~
-Grubun gitaristini görüyorsun.
+Grubun gitaristini gÃ¶rÃ¼yorsun.
 ~
-Sızlatan bongo ezgilerinin yanında, bu tahta gitar çalan gitarist
-gerçekten iyi müzik yapıyor. Arkada çalan ezgiyle birlikte ilerleyen
-insanların kulağına hoş gelen bir melodi çalıyor.
+SÄ±zlatan bongo ezgilerinin yanÄ±nda, bu tahta gitar Ã§alan gitarist
+gerÃ§ekten iyi mÃ¼zik yapÄ±yor. Arkada Ã§alan ezgiyle birlikte ilerleyen
+insanlarÄ±n kulaÄŸÄ±na hoÅŸ gelen bir melodi Ã§alÄ±yor.
 ~
 giant~
 AB CDEFJ 25
 #18005
-kavalcı~
-grubun kavalcısı~
-Etkileyici ezgiler çalan kavalcıyı görüyorsun.
+kavalcÄ±~
+grubun kavalcÄ±sÄ±~
+Etkileyici ezgiler Ã§alan kavalcÄ±yÄ± gÃ¶rÃ¼yorsun.
 ~
-Arkadaşları ile birlikte vahşi ritme ayak uydurmaya çalışıyor. Tuhaf bir
-birliktelik; ahşap gitar, bongo ve kaval! Fakat yaptıkları müzik oldukça
-güzel! Hiç bitmesin istiyorsun.
+ArkadaÅŸlarÄ± ile birlikte vahÅŸi ritme ayak uydurmaya Ã§alÄ±ÅŸÄ±yor. Tuhaf bir
+birliktelik; ahÅŸap gitar, bongo ve kaval! Fakat yaptÄ±klarÄ± mÃ¼zik oldukÃ§a
+gÃ¼zel! HiÃ§ bitmesin istiyorsun.
 ~
 giant~
 AB CDEFJ 25
 #18006
-zırhçı~
-zırhçı~
-İyi görünümlü bir zırh ustası burada duruyor.
+zÄ±rhÃ§Ä±~
+zÄ±rhÃ§Ä±~
+Ä°yi gÃ¶rÃ¼nÃ¼mlÃ¼ bir zÄ±rh ustasÄ± burada duruyor.
 ~
-Depodaki raflarda son bir değişiklik yapan tezgahtar, sen içeriye
-girdiğinde tezgaha yönelerek bir yardıma ihtiyacın olup olmadığı
-soruyor. Eğer zırha ihtiyacın varsa tam yerine geldin!
+Depodaki raflarda son bir deÄŸiÅŸiklik yapan tezgahtar, sen iÃ§eriye
+girdiÄŸinde tezgaha yÃ¶nelerek bir yardÄ±ma ihtiyacÄ±n olup olmadÄ±ÄŸÄ±
+soruyor. EÄŸer zÄ±rha ihtiyacÄ±n varsa tam yerine geldin!
 ~
 giant~
 ABT CDEF 53
 #18007
-hayvancı kız~
-hayvancı~
-Şişman ve iri bir genç kız en yeni evcil hayvanını gösteriyor.
+hayvancÄ± kÄ±z~
+hayvancÄ±~
+ÅiÅŸman ve iri bir genÃ§ kÄ±z en yeni evcil hayvanÄ±nÄ± gÃ¶steriyor.
 ~
-Kahverengi saçları örgülü pembe ve mavilere bürünmüş tezgahtar sana
-seçmen için çeşitli hayvanlar öneriyor. Birkaçı oldukça pahalı görünen
-bu hayvanların saldırı amaçlı kullanılmadığı açıkça belli oluyor.
-Fakat ne derler biliyorsun: Dış görünüşlerine aldanma!
+Kahverengi saÃ§larÄ± Ã¶rgÃ¼lÃ¼ pembe ve mavilere bÃ¼rÃ¼nmÃ¼ÅŸ tezgahtar sana
+seÃ§men iÃ§in Ã§eÅŸitli hayvanlar Ã¶neriyor. BirkaÃ§Ä± oldukÃ§a pahalÄ± gÃ¶rÃ¼nen
+bu hayvanlarÄ±n saldÄ±rÄ± amaÃ§lÄ± kullanÄ±lmadÄ±ÄŸÄ± aÃ§Ä±kÃ§a belli oluyor.
+Fakat ne derler biliyorsun: DÄ±ÅŸ gÃ¶rÃ¼nÃ¼ÅŸlerine aldanma!
 ~
 giant~
 ABT CDEFJ 53
 #18008
 kasap~
 kasap~
-Ellerini gömleğine silen kısa bir adam burada duruyor.
+Ellerini gÃ¶mleÄŸine silen kÄ±sa bir adam burada duruyor.
 ~
-"Sana nasıl yardım edebilirim?" diyor, "çiftlikten gelen tavuklarımız çok
-taze, sabah meltemi kadar körpe." İlk izlenimin oldukça ilginç. Kırmızı et
-ve kümes hayvanları arasında oldukça fazla seçeneğin var.
+"Sana nasÄ±l yardÄ±m edebilirim?" diyor, "Ã§iftlikten gelen tavuklarÄ±mÄ±z Ã§ok
+taze, sabah meltemi kadar kÃ¶rpe." Ä°lk izlenimin oldukÃ§a ilginÃ§. KÄ±rmÄ±zÄ± et
+ve kÃ¼mes hayvanlarÄ± arasÄ±nda oldukÃ§a fazla seÃ§eneÄŸin var.
 ~
 giant~
 ABT CDEF 51
 #18009
 manav~
 manav~
-Sebzelerini satan uzun sıska bir adam görüyorsun.
+Sebzelerini satan uzun sÄ±ska bir adam gÃ¶rÃ¼yorsun.
 ~
-Dükkana girdiğinde manavın yüzünde büyük bir tebessüm oluşuyor. Bu adam
-tamamen kendi ürettiği ürünlerini satıyor. Belki birşeyler alarak ona
-işinde yardımcı olursun.
+DÃ¼kkana girdiÄŸinde manavÄ±n yÃ¼zÃ¼nde bÃ¼yÃ¼k bir tebessÃ¼m oluÅŸuyor. Bu adam
+tamamen kendi Ã¼rettiÄŸi Ã¼rÃ¼nlerini satÄ±yor. Belki birÅŸeyler alarak ona
+iÅŸinde yardÄ±mcÄ± olursun.
 ~
 giant~
 ABT CDEF 51
 #18010
 demirci~
 demirci~
-Silah yapan güçlü genç bir demirci burada duruyor.
+Silah yapan gÃ¼Ã§lÃ¼ genÃ§ bir demirci burada duruyor.
 ~
-*KLANG* *KLANG* Bu melodik sesler odada yankılanıyor.Havada süzülen sıcak
-sülfür burun deliklerini yakıyor. Metali eritmek için kullanılan büyük bir
-maden ocağı görüyorsun. Arkada demiri dövmede kullanılan birkaç siyah örs
-var. Eğer savaşa gitmen gerekirse burası silah almak için en ideal yer.
+*KLANG* *KLANG* Bu melodik sesler odada yankÄ±lanÄ±yor.Havada sÃ¼zÃ¼len sÄ±cak
+sÃ¼lfÃ¼r burun deliklerini yakÄ±yor. Metali eritmek iÃ§in kullanÄ±lan bÃ¼yÃ¼k bir
+maden ocaÄŸÄ± gÃ¶rÃ¼yorsun. Arkada demiri dÃ¶vmede kullanÄ±lan birkaÃ§ siyah Ã¶rs
+var. EÄŸer savaÅŸa gitmen gerekirse burasÄ± silah almak iÃ§in en ideal yer.
 ~
 giant~
 ABT CDEF 53
 #18011
-kütüphaneci büyücü~
-kütüphaneci~
-Kütüphanenin kitaplarını düzenleyen genç bir büyücü görüyorsun.
+kÃ¼tÃ¼phaneci bÃ¼yÃ¼cÃ¼~
+kÃ¼tÃ¼phaneci~
+KÃ¼tÃ¼phanenin kitaplarÄ±nÄ± dÃ¼zenleyen genÃ§ bir bÃ¼yÃ¼cÃ¼ gÃ¶rÃ¼yorsun.
 ~
-Bu kısa adam kitapları odada aşağı ve yukarı tasnif ederken sendeliyor.
-Burası sıradan bir kütüphane değil, burada büyü bilgini geliştirebilirsin.
+Bu kÄ±sa adam kitaplarÄ± odada aÅŸaÄŸÄ± ve yukarÄ± tasnif ederken sendeliyor.
+BurasÄ± sÄ±radan bir kÃ¼tÃ¼phane deÄŸil, burada bÃ¼yÃ¼ bilgini geliÅŸtirebilirsin.
 ~
 giant~
 AB CDEFJ 48
 #18012
 terzi~
 terzi~
-Bayan bir terzi son moda kıyafetlerini sergiliyor.
+Bayan bir terzi son moda kÄ±yafetlerini sergiliyor.
 ~
-Kırmızı elbisesi içinde uzun görünen terzi doğru kıyafetleri seçmende
-yardımcı olmak için bekliyor. Bir çok pelerin ve deri kaplı lal taşları
-büyük koleksiyonun bir parçası olarak burada duruyor. Burası modayı takip
-etmek için burası ideal bir dükkan.
+KÄ±rmÄ±zÄ± elbisesi iÃ§inde uzun gÃ¶rÃ¼nen terzi doÄŸru kÄ±yafetleri seÃ§mende
+yardÄ±mcÄ± olmak iÃ§in bekliyor. Bir Ã§ok pelerin ve deri kaplÄ± lal taÅŸlarÄ±
+bÃ¼yÃ¼k koleksiyonun bir parÃ§asÄ± olarak burada duruyor. BurasÄ± modayÄ± takip
+etmek iÃ§in burasÄ± ideal bir dÃ¼kkan.
 ~
 giant~
 AB CDEFJ 51
 #18013
 barmen~
 barmen~
-Şişman ve irice bir barmen bira servisi yapıyor.
+ÅiÅŸman ve irice bir barmen bira servisi yapÄ±yor.
 ~
-"Ne istersin dostum? Taze yapılmış bir bira mı, yoksa kaya gibi sert bir
-viski mi?"... Oda iyi bir zaman geçirmek ve sarhoş olmak isteyen  insanlarla
-dolu görünüyor.
+"Ne istersin dostum? Taze yapÄ±lmÄ±ÅŸ bir bira mÄ±, yoksa kaya gibi sert bir
+viski mi?"... Oda iyi bir zaman geÃ§irmek ve sarhoÅŸ olmak isteyen  insanlarla
+dolu gÃ¶rÃ¼nÃ¼yor.
 ~
 giant~
 ABT CDEFJ 51
 #18014
 garson~
 kibar garson~
-Siparişlerini bekleyen iyi giyimli bir garson burada duruyor.
+SipariÅŸlerini bekleyen iyi giyimli bir garson burada duruyor.
 ~
-"Ne istersiniz? Muhteşem bir Avusturalya Kırmızısı mı yada yıllanmış
-bir Şeri mi? Günün çorbasını önerebilir miyim; kızarmış morina balığı
-ve yengeç karışımı harika bir çorba. Aşçımız bu sefer gerçekten kendini
-aştı!"...  Burası oldukça pahalı görünüyor.
+"Ne istersiniz? MuhteÅŸem bir Avusturalya KÄ±rmÄ±zÄ±sÄ± mÄ± yada yÄ±llanmÄ±ÅŸ
+bir Åeri mi? GÃ¼nÃ¼n Ã§orbasÄ±nÄ± Ã¶nerebilir miyim; kÄ±zarmÄ±ÅŸ morina balÄ±ÄŸÄ±
+ve yengeÃ§ karÄ±ÅŸÄ±mÄ± harika bir Ã§orba. AÅŸÃ§Ä±mÄ±z bu sefer gerÃ§ekten kendini
+aÅŸtÄ±!"...  BurasÄ± oldukÃ§a pahalÄ± gÃ¶rÃ¼nÃ¼yor.
 ~
 giant~
 ABT CDEFJ 45
 #18015
-hancı~
-hancı~
-Sana iyi akşamlar dileyen ortayaşlı bir hancı duruyor.
+hancÄ±~
+hancÄ±~
+Sana iyi akÅŸamlar dileyen ortayaÅŸlÄ± bir hancÄ± duruyor.
 ~
-"Bir oda ister misiniz? Hayır? Hmm, ya da size birkaç uyku hapı
-önerebilirim? Festivaller süresince iyi bir uyku çekmek zordur.
-Yapabileceğim birşey varsa lütfen söyleyin.!"
+"Bir oda ister misiniz? HayÄ±r? Hmm, ya da size birkaÃ§ uyku hapÄ±
+Ã¶nerebilirim? Festivaller sÃ¼resince iyi bir uyku Ã§ekmek zordur.
+YapabileceÄŸim birÅŸey varsa lÃ¼tfen sÃ¶yleyin.!"
 ~
 giant~
 ABT CDEF 51
 #18016
-çiçekçi~
-çiçekçi~
-Bir demet çiçek hazırlayan genç bir çiçekçi burada duruyor.
+Ã§iÃ§ekÃ§i~
+Ã§iÃ§ekÃ§i~
+Bir demet Ã§iÃ§ek hazÄ±rlayan genÃ§ bir Ã§iÃ§ekÃ§i burada duruyor.
 ~
-"La-la-Ti-do..." Çiçek demetlerini hazırlarken hoş bir edayla şarkı
-mırıldanıyor. Belki hayatındaki  "özel biri" için  özel birşeyleri
-vardır...
+"La-la-Ti-do..." Ã‡iÃ§ek demetlerini hazÄ±rlarken hoÅŸ bir edayla ÅŸarkÄ±
+mÄ±rÄ±ldanÄ±yor. Belki hayatÄ±ndaki  "Ã¶zel biri" iÃ§in  Ã¶zel birÅŸeyleri
+vardÄ±r...
 ~
 giant~
 ABT CDEFJ 48
 #18017
-kasaba şerif~
-kasaba şerifi~
-Şerif masasında çalışıyor, seni fark etmedi.
+kasaba ÅŸerif~
+kasaba ÅŸerifi~
+Åerif masasÄ±nda Ã§alÄ±ÅŸÄ±yor, seni fark etmedi.
 ~
-Kafasında tüylü mavi bir şapka olan kasaba şerifi, daha önce hiç
-olmadığı kadar meşgul görünüyor. Onu rahatsız etmek gerçekten aptallık
-olur. Hücrelerinin dolu olmasına rağmen eminim ki istenmeyen bir turist
-için fazladan bir yer bulacaktır.
+KafasÄ±nda tÃ¼ylÃ¼ mavi bir ÅŸapka olan kasaba ÅŸerifi, daha Ã¶nce hiÃ§
+olmadÄ±ÄŸÄ± kadar meÅŸgul gÃ¶rÃ¼nÃ¼yor. Onu rahatsÄ±z etmek gerÃ§ekten aptallÄ±k
+olur. HÃ¼crelerinin dolu olmasÄ±na raÄŸmen eminim ki istenmeyen bir turist
+iÃ§in fazladan bir yer bulacaktÄ±r.
 ~
 giant~
 ABT CDEF 30
 #18018
 gardiyan~
 gardiyan~
-Sandalyesinde uyuyan bir gardiyan görüyorsun.
+Sandalyesinde uyuyan bir gardiyan gÃ¶rÃ¼yorsun.
 ~
 ZZZzzzz....ZZZzzzz....ZZZzzzz....ZZZzzzz....ZZZzzzz....
 ~
@@ -219,174 +219,174 @@ ABT CDEFJ 28
 #18020
 mahkum~
 mahkum~
-Çelik parmaklıklar arkasında kitli, leş gibi kokan bir mahkum görüyorsun.
+Ã‡elik parmaklÄ±klar arkasÄ±nda kitli, leÅŸ gibi kokan bir mahkum gÃ¶rÃ¼yorsun.
 ~
-*sniff*? O koku da ne? Bu koku ...... bu koku ölü bir fare gibi.! Aah!
-Bu yeni mahkum! Huzuru bozduğu için tutuklanmış.
+*sniff*? O koku da ne? Bu koku ...... bu koku Ã¶lÃ¼ bir fare gibi.! Aah!
+Bu yeni mahkum! Huzuru bozduÄŸu iÃ§in tutuklanmÄ±ÅŸ.
 ~
 giant~
 ABT CDEFJ 25
 #18021
-çikolatacı~
-çikolatacı~
-Uzun ince bir çikolatacı burada, çikolatalarını satıyor.
+Ã§ikolatacÄ±~
+Ã§ikolatacÄ±~
+Uzun ince bir Ã§ikolatacÄ± burada, Ã§ikolatalarÄ±nÄ± satÄ±yor.
 ~
-Hmmm... Kokla şu çikolatayı.! Çok lezzetli görünüyorlar! Hepsini
-deneyebilecek misin? Kasanın arkasında duran adam çikolatalarından
-emin görünüyor. Belki en popülerlerinden birkaçını sana gösterebilir.
+Hmmm... Kokla ÅŸu Ã§ikolatayÄ±.! Ã‡ok lezzetli gÃ¶rÃ¼nÃ¼yorlar! Hepsini
+deneyebilecek misin? KasanÄ±n arkasÄ±nda duran adam Ã§ikolatalarÄ±ndan
+emin gÃ¶rÃ¼nÃ¼yor. Belki en popÃ¼lerlerinden birkaÃ§Ä±nÄ± sana gÃ¶sterebilir.
 ~
 giant~
 ABT CDEFJ 45
 #18022
-dondurmacı~
-dondurmacı~
-Kısa tıknaz bir dondurmacı burada, dondurma satıyor.
+dondurmacÄ±~
+dondurmacÄ±~
+KÄ±sa tÄ±knaz bir dondurmacÄ± burada, dondurma satÄ±yor.
 ~
-Tereyağlı İskoç Şapırtısı....Meyveli...Kuzgun Kırmızılısı...Çikolatalı...
-Naneli...Çilekli... Ne istiyorsun? Çok fazla seçenek var. Fakat bahse
-girerim ki hepsi mükemmeldir.!
+TereyaÄŸlÄ± Ä°skoÃ§ ÅapÄ±rtÄ±sÄ±....Meyveli...Kuzgun KÄ±rmÄ±zÄ±lÄ±sÄ±...Ã‡ikolatalÄ±...
+Naneli...Ã‡ilekli... Ne istiyorsun? Ã‡ok fazla seÃ§enek var. Fakat bahse
+girerim ki hepsi mÃ¼kemmeldir.!
 ~
 giant~
 ABT CDEF 30
 #18023
-balcı~
-balcı~
-Bal satan uzun genç bir bayan balcı burada duruyor.
+balcÄ±~
+balcÄ±~
+Bal satan uzun genÃ§ bir bayan balcÄ± burada duruyor.
 ~
-Ahh.. Tadı harika. Onsuz ne yapardın? Seçmek için birçok çeşit bulunuyor.
-Gerçekten hepsini denemelisin.!
+Ahh.. TadÄ± harika. Onsuz ne yapardÄ±n? SeÃ§mek iÃ§in birÃ§ok Ã§eÅŸit bulunuyor.
+GerÃ§ekten hepsini denemelisin.!
 ~
 giant~
 ABT CDEFJ 40
 #18024
-fırıncı~
-fırıncı~
-Taze çıkan ekmekleri satan fırıncı burada duruyor.
+fÄ±rÄ±ncÄ±~
+fÄ±rÄ±ncÄ±~
+Taze Ã§Ä±kan ekmekleri satan fÄ±rÄ±ncÄ± burada duruyor.
 ~
-*Snnnniiiiiiffff* Ahhhh... Taze pişmiş kurabiye ve ekmeklerin harika
-kokusu... Bu odanın kokusuna gerçekten bayıldın ve tek düşünebildiğin
-Ekmek! Kurabiyeler! Turtalar!!! Hepsini denemelisin, adam satış yapmak
-için can atıyor.!
+*Snnnniiiiiiffff* Ahhhh... Taze piÅŸmiÅŸ kurabiye ve ekmeklerin harika
+kokusu... Bu odanÄ±n kokusuna gerÃ§ekten bayÄ±ldÄ±n ve tek dÃ¼ÅŸÃ¼nebildiÄŸin
+Ekmek! Kurabiyeler! Turtalar!!! Hepsini denemelisin, adam satÄ±ÅŸ yapmak
+iÃ§in can atÄ±yor.!
 ~
 giant~
 ABT CDEF 48
 #18025
 zanaatkar~
 zanaatkar~
-Zanaatkar burada, yaptığı A sınıfı kaplarını satıyor.
+Zanaatkar burada, yaptÄ±ÄŸÄ± A sÄ±nÄ±fÄ± kaplarÄ±nÄ± satÄ±yor.
 ~
-Uzun genç bir delikanlı burada özel kaplarını satıyor. Yaptığı kaplar
-ve bunların kapasiteleri ile bu işin bir numarası olarak tanınıyor.
+Uzun genÃ§ bir delikanlÄ± burada Ã¶zel kaplarÄ±nÄ± satÄ±yor. YaptÄ±ÄŸÄ± kaplar
+ve bunlarÄ±n kapasiteleri ile bu iÅŸin bir numarasÄ± olarak tanÄ±nÄ±yor.
 ~
 giant~
 ABT CDEF 48
 #18026
 sihirbaz~
 sihirbaz~
-Özel sihirbaz değnekleri satan bir sihirbaz burada duruyor.
+Ã–zel sihirbaz deÄŸnekleri satan bir sihirbaz burada duruyor.
 ~
-Tamamen siyah pelerinlere bürünmüş bu sihirbaz sana özel sihirbaz
-değneklerini satmak istiyor. Büyüyle mükemmel şekilde ayarlanmışlar.
-Ele yatkınlar.
+Tamamen siyah pelerinlere bÃ¼rÃ¼nmÃ¼ÅŸ bu sihirbaz sana Ã¶zel sihirbaz
+deÄŸneklerini satmak istiyor. BÃ¼yÃ¼yle mÃ¼kemmel ÅŸekilde ayarlanmÄ±ÅŸlar.
+Ele yatkÄ±nlar.
 ~
 giant~
 ABT CDEF 55
 #18027
-rahip şövalye~
-şövalye rahip~
-Sokakları devriye gezen güçlü bir şövalye rahip görüyorsun.
+rahip ÅŸÃ¶valye~
+ÅŸÃ¶valye rahip~
+SokaklarÄ± devriye gezen gÃ¼Ã§lÃ¼ bir ÅŸÃ¶valye rahip gÃ¶rÃ¼yorsun.
 ~
-Tamamen zırhlara bürünmüş bu adam ölümcül görünüyor. Onunla başını belaya
+Tamamen zÄ±rhlara bÃ¼rÃ¼nmÃ¼ÅŸ bu adam Ã¶lÃ¼mcÃ¼l gÃ¶rÃ¼nÃ¼yor. Onunla baÅŸÄ±nÄ± belaya
 sokmak ister misin?
 ~
 giant~
 ABT CDEF 40
 #18028
-Titan vatandaş~
-bir Titan vatandaşı~
-Titan vadisinden bir vatandaş burada duruyor.
+Titan vatandaÅŸ~
+bir Titan vatandaÅŸÄ±~
+Titan vadisinden bir vatandaÅŸ burada duruyor.
 ~
-Titan vadisinden, uzun ve güçlü biri sizi selamlayarak şehrine kabul ediyor.
+Titan vadisinden, uzun ve gÃ¼Ã§lÃ¼ biri sizi selamlayarak ÅŸehrine kabul ediyor.
 ~
 giant~
 ABT CDEF 28
 #18029
-bayan aşçıbaşı~
-bayan aşçıbaşı~
-Evin aşçıbaşısı olan bayan burada duruyor.
+bayan aÅŸÃ§Ä±baÅŸÄ±~
+bayan aÅŸÃ§Ä±baÅŸÄ±~
+Evin aÅŸÃ§Ä±baÅŸÄ±sÄ± olan bayan burada duruyor.
 ~
-"Falalala..Yadedadooo.." evin aşçıbaşısı neşe içinde yemek pişiriyor.
- *SSSsssssssnnnnnniiiiiifffffff!* Kesinlikle çok güzel kokuyor!
+"Falalala..Yadedadooo.." evin aÅŸÃ§Ä±baÅŸÄ±sÄ± neÅŸe iÃ§inde yemek piÅŸiriyor.
+ *SSSsssssssnnnnnniiiiiifffffff!* Kesinlikle Ã§ok gÃ¼zel kokuyor!
 ~
 giant~
 ABT CDEFJ 30
 #18030
-köle~
-köle~
-İleri geri koşan pasaklı bir köle görüyorsun.
+kÃ¶le~
+kÃ¶le~
+Ä°leri geri koÅŸan pasaklÄ± bir kÃ¶le gÃ¶rÃ¼yorsun.
 ~
-Konuşamayacak ve dinleyemeyecek kadar meşgul.  Emirleri yerine getirmek
-için ileri geri koşuşturuyor.
+KonuÅŸamayacak ve dinleyemeyecek kadar meÅŸgul.  Emirleri yerine getirmek
+iÃ§in ileri geri koÅŸuÅŸturuyor.
 ~
 giant~
 ABT CDEF 30
 #18031
 pis dilenci~
 pis dilenci~
-Bir dilenci görüyorsun, birkaç bozukluk istiyor.
+Bir dilenci gÃ¶rÃ¼yorsun, birkaÃ§ bozukluk istiyor.
 ~
-Kendisine ait olduğunu söylediği bir pislik yığını üzerinde oturuyor.
+Kendisine ait olduÄŸunu sÃ¶ylediÄŸi bir pislik yÄ±ÄŸÄ±nÄ± Ã¼zerinde oturuyor.
 Dilenci senden biraz bozukluk istiyor. Kesinlikle fakir biri...
 ~
 giant~
 ABT CDEF 25
 #18032
-devriye muhafız~
-devriye muhafızı~
-Düzeni korumaya çalışan güçlü bir devriye muhafızı burada duruyor.
+devriye muhafÄ±z~
+devriye muhafÄ±zÄ±~
+DÃ¼zeni korumaya Ã§alÄ±ÅŸan gÃ¼Ã§lÃ¼ bir devriye muhafÄ±zÄ± burada duruyor.
 ~
-Çok güçlü ve çok uzun görünen bu devriye muhafızı işini gerçekten iyi
-yapıyor.
+Ã‡ok gÃ¼Ã§lÃ¼ ve Ã§ok uzun gÃ¶rÃ¼nen bu devriye muhafÄ±zÄ± iÅŸini gerÃ§ekten iyi
+yapÄ±yor.
 ~
 giant~
 ABT CDEFH 40
 #18033
-köylü~
-mutlu köylü~
-Müzikle dans eden mutlu bir köylü burada duruyor.
+kÃ¶ylÃ¼~
+mutlu kÃ¶ylÃ¼~
+MÃ¼zikle dans eden mutlu bir kÃ¶ylÃ¼ burada duruyor.
 ~
-Yerinde olsam bu adamla konuşmazdım. Müzikle dans ederken oldukça meşgul
-görünüyor.
+Yerinde olsam bu adamla konuÅŸmazdÄ±m. MÃ¼zikle dans ederken oldukÃ§a meÅŸgul
+gÃ¶rÃ¼nÃ¼yor.
 ~
 giant~
 ABT CDEFH 30
 #18034
-arena muhafız~
-arena muhafızı~
-İdmanı yöneten bir arena muhafızı burada duruyor.
+arena muhafÄ±z~
+arena muhafÄ±zÄ±~
+Ä°dmanÄ± yÃ¶neten bir arena muhafÄ±zÄ± burada duruyor.
 ~
-Savaşçıların büyülü canavarla olan savaşlarını yönetmekle meşgul. Seninle
-konuşmak için hiç zamanı yok.
+SavaÅŸÃ§Ä±larÄ±n bÃ¼yÃ¼lÃ¼ canavarla olan savaÅŸlarÄ±nÄ± yÃ¶netmekle meÅŸgul. Seninle
+konuÅŸmak iÃ§in hiÃ§ zamanÄ± yok.
 ~
 giant~
 ABT CDEFH 48
 #18035
-arena muhafız~
-arena muhafızı~
-Hünerlerini geliştiren arena muhafızı burada duruyor.
+arena muhafÄ±z~
+arena muhafÄ±zÄ±~
+HÃ¼nerlerini geliÅŸtiren arena muhafÄ±zÄ± burada duruyor.
 ~
-*DİLİMLE*  *YUMRUKLA*  *EZ*  Çalışmalar yüzünden sosyal faliyetlere zaman
-bulamamış görünüyor.
+*DÄ°LÄ°MLE*  *YUMRUKLA*  *EZ*  Ã‡alÄ±ÅŸmalar yÃ¼zÃ¼nden sosyal faliyetlere zaman
+bulamamÄ±ÅŸ gÃ¶rÃ¼nÃ¼yor.
 ~
 giant~
 ABT CDEFH 38
 #18036
-arena kembolar büyücü~
-arena kemboları~
-Büyülerini geliştirmekte olan bir arena büyücüsü burada duruyor.
+arena kembolar bÃ¼yÃ¼cÃ¼~
+arena kembolarÄ±~
+BÃ¼yÃ¼lerini geliÅŸtirmekte olan bir arena bÃ¼yÃ¼cÃ¼sÃ¼ burada duruyor.
 ~
-Bir arena kemboları şu kelimeyi söylüyor 'Algetharb'! Büyülerini
-mükemmelleştirmekle meşgul olduğundan seninle konuşmak için zamanı
+Bir arena kembolarÄ± ÅŸu kelimeyi sÃ¶ylÃ¼yor 'Algetharb'! BÃ¼yÃ¼lerini
+mÃ¼kemmelleÅŸtirmekle meÅŸgul olduÄŸundan seninle konuÅŸmak iÃ§in zamanÄ±
 yok. Belki daha sonra...
 ~
 giant~
@@ -394,178 +394,178 @@ ABR CDEFHJ 38
 #18037
 arena rahibe~
 arena rahibesi~
-Bir arena rahibesi burada, yeteneklerini mükemmel hale getirmek için çalışıyor.
+Bir arena rahibesi burada, yeteneklerini mÃ¼kemmel hale getirmek iÃ§in Ã§alÄ±ÅŸÄ±yor.
 ~
-Büyülü yeteneklerini kullanmakta olan rahibe seninle konuşamayacak
-kadar meşgul.
+BÃ¼yÃ¼lÃ¼ yeteneklerini kullanmakta olan rahibe seninle konuÅŸamayacak
+kadar meÅŸgul.
 ~
 giant~
 ABQ CDEFH 38
 #18038
 arena haydut~
 arena haydutu~
-Bir arena haydutunu düşmanından para çalarken görüyorsun.
+Bir arena haydutunu dÃ¼ÅŸmanÄ±ndan para Ã§alarken gÃ¶rÃ¼yorsun.
 ~
-Bu hergele ile konuşmaman en iyisi olacaktır. Kıçına tekmeyi basabilir!
+Bu hergele ile konuÅŸmaman en iyisi olacaktÄ±r. KÄ±Ã§Ä±na tekmeyi basabilir!
 ~
 giant~
 ABS CDEFH 38
 #18039
-kötü bebek ejderha~
+kÃ¶tÃ¼ bebek ejderha~
 bebek ejderha~
-Hırıldayan bir bebek ejderha burada duruyor.
+HÄ±rÄ±ldayan bir bebek ejderha burada duruyor.
 ~
-Bu bebek ejderhanın vücuduna dikkatlice baktığında oldukça kaslı olduğunu
-görüyorsun. Koyu kahverengi derisi havadaki ışığı emiyor. Seni görünce
-boğuk bir ses çıkararak, ölümcül, sarı sivri dişlerini gösteriyor. Kocaman
-kanatlarını boşluğa yayıyor. Şimdi farkına varıyorsun ki o KOCAMAN bir
-ejderha ve aynı zamanda çok kötü.
+Bu bebek ejderhanÄ±n vÃ¼cuduna dikkatlice baktÄ±ÄŸÄ±nda oldukÃ§a kaslÄ± olduÄŸunu
+gÃ¶rÃ¼yorsun. Koyu kahverengi derisi havadaki Ä±ÅŸÄ±ÄŸÄ± emiyor. Seni gÃ¶rÃ¼nce
+boÄŸuk bir ses Ã§Ä±kararak, Ã¶lÃ¼mcÃ¼l, sarÄ± sivri diÅŸlerini gÃ¶steriyor. Kocaman
+kanatlarÄ±nÄ± boÅŸluÄŸa yayÄ±yor. Åimdi farkÄ±na varÄ±yorsun ki o KOCAMAN bir
+ejderha ve aynÄ± zamanda Ã§ok kÃ¶tÃ¼.
 ~
 dragon~
 ABCFT CDEFJTUV 25
 #18040
-kötü ağaç~
-kötü ağaç~
-Karanlık ve kötü bir ağaç önünde upuzun dikilmiş duruyor.
+kÃ¶tÃ¼ aÄŸaÃ§~
+kÃ¶tÃ¼ aÄŸaÃ§~
+KaranlÄ±k ve kÃ¶tÃ¼ bir aÄŸaÃ§ Ã¶nÃ¼nde upuzun dikilmiÅŸ duruyor.
 ~
-Gökyüzüne bakıyor olmalısın. Önünde aslından daha büyük, korkunç ve ölü
-bir ağacın olduğunu görüyorsun. İlk başta bunun hayal gücünün bir ürünü
-olduğunu sandın. Ansızın dalları rüzgarla birlikte hareket etmeye başladı.
-Alacakaranlıkta bir surat şekli aldı, bir şeytan suratı... Sana doğru öfkeyle
-bakan bir surat. Damarlarında kan yerine korkunun dolaştığını hissediyorsun.
+GÃ¶kyÃ¼zÃ¼ne bakÄ±yor olmalÄ±sÄ±n. Ã–nÃ¼nde aslÄ±ndan daha bÃ¼yÃ¼k, korkunÃ§ ve Ã¶lÃ¼
+bir aÄŸacÄ±n olduÄŸunu gÃ¶rÃ¼yorsun. Ä°lk baÅŸta bunun hayal gÃ¼cÃ¼nÃ¼n bir Ã¼rÃ¼nÃ¼
+olduÄŸunu sandÄ±n. AnsÄ±zÄ±n dallarÄ± rÃ¼zgarla birlikte hareket etmeye baÅŸladÄ±.
+AlacakaranlÄ±kta bir surat ÅŸekli aldÄ±, bir ÅŸeytan suratÄ±... Sana doÄŸru Ã¶fkeyle
+bakan bir surat. DamarlarÄ±nda kan yerine korkunun dolaÅŸtÄ±ÄŸÄ±nÄ± hissediyorsun.
 ~
 giant~
 ABR CDEFIJPV 30
 #18041
-öldürücü yağmur bulut~
-öldürücü yağmur bulutu~
-Havada dolaşan öldürücü bir yağmur bulutu görüyorsun.
+Ã¶ldÃ¼rÃ¼cÃ¼ yaÄŸmur bulut~
+Ã¶ldÃ¼rÃ¼cÃ¼ yaÄŸmur bulutu~
+Havada dolaÅŸan Ã¶ldÃ¼rÃ¼cÃ¼ bir yaÄŸmur bulutu gÃ¶rÃ¼yorsun.
 ~
-Çılgınca havada dolaşan bir öldürücü yağmur bulutu dünyaya asit yağmurları
-saçıyor. Bu ..hmm.. şeyin yanına gitmemek akıllı bir davranış olacaktır.
+Ã‡Ä±lgÄ±nca havada dolaÅŸan bir Ã¶ldÃ¼rÃ¼cÃ¼ yaÄŸmur bulutu dÃ¼nyaya asit yaÄŸmurlarÄ±
+saÃ§Ä±yor. Bu ..hmm.. ÅŸeyin yanÄ±na gitmemek akÄ±llÄ± bir davranÄ±ÅŸ olacaktÄ±r.
 ~
 giant~
 ABFT CDFTV 23
 #18042
-şeytan alev~
-bir şeytan alevi~
-Ağaçları tutuşturan bir şeytan alevi görüyorsun.
+ÅŸeytan alev~
+bir ÅŸeytan alevi~
+AÄŸaÃ§larÄ± tutuÅŸturan bir ÅŸeytan alevi gÃ¶rÃ¼yorsun.
 ~
-Üzerinde öldürücü bir sıcaklık hissediyorsun. İlginç bir sıcaklık,
-gerçek dışı, doğa dışı. Merak ediyorsun, kaçmalı mı yoksa savaşmalı mı...
-Çok kötü bir şeytan ve kesinlikle seni patates gibi kızartacaktır.
-Mantıklı olanı seç!
+Ãœzerinde Ã¶ldÃ¼rÃ¼cÃ¼ bir sÄ±caklÄ±k hissediyorsun. Ä°lginÃ§ bir sÄ±caklÄ±k,
+gerÃ§ek dÄ±ÅŸÄ±, doÄŸa dÄ±ÅŸÄ±. Merak ediyorsun, kaÃ§malÄ± mÄ± yoksa savaÅŸmalÄ± mÄ±...
+Ã‡ok kÃ¶tÃ¼ bir ÅŸeytan ve kesinlikle seni patates gibi kÄ±zartacaktÄ±r.
+MantÄ±klÄ± olanÄ± seÃ§!
 ~
 giant~
 ABCT FJTZ 35
 #18043
-su şeytanı~
-su şeytanı~
-Kurbanını boğan su şeytanını görüyorsun.
+su ÅŸeytanÄ±~
+su ÅŸeytanÄ±~
+KurbanÄ±nÄ± boÄŸan su ÅŸeytanÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
-Yakınındaki bir havuzda ölümcül şeytanlardan, su şeytanını görüyorsun.
-Kalbinin derinliklerinde bir ses sana ondan uzak durmanı söylüyor.
+YakÄ±nÄ±ndaki bir havuzda Ã¶lÃ¼mcÃ¼l ÅŸeytanlardan, su ÅŸeytanÄ±nÄ± gÃ¶rÃ¼yorsun.
+Kalbinin derinliklerinde bir ses sana ondan uzak durmanÄ± sÃ¶ylÃ¼yor.
 ~
 giant~
 ABCT FJYZ 35
 #18044
-gökyüzü şeytanı~
-gökyüzü şeytanı~
-Fırtınalar yaratan bir gökyüzü şeytanı burada duruyor.
+gÃ¶kyÃ¼zÃ¼ ÅŸeytanÄ±~
+gÃ¶kyÃ¼zÃ¼ ÅŸeytanÄ±~
+FÄ±rtÄ±nalar yaratan bir gÃ¶kyÃ¼zÃ¼ ÅŸeytanÄ± burada duruyor.
 ~
-Büyük, tehlikeli bir kasırga... Gökyüzü şeytanı burada, ölümcül bir fırtına
-yaratıyor. Bu başka bir ölümcül şeytan. Uzak durulması gereken bir diğeri.
+BÃ¼yÃ¼k, tehlikeli bir kasÄ±rga... GÃ¶kyÃ¼zÃ¼ ÅŸeytanÄ± burada, Ã¶lÃ¼mcÃ¼l bir fÄ±rtÄ±na
+yaratÄ±yor. Bu baÅŸka bir Ã¶lÃ¼mcÃ¼l ÅŸeytan. Uzak durulmasÄ± gereken bir diÄŸeri.
 ~
 giant~
 ABCT FJYZ 35
 #18045
-toprak şeytanı~
-toprak şeytanı~
-Ağaçları kökünden söken toprak şeytanını görüyorsun.
+toprak ÅŸeytanÄ±~
+toprak ÅŸeytanÄ±~
+AÄŸaÃ§larÄ± kÃ¶kÃ¼nden sÃ¶ken toprak ÅŸeytanÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
-Boğuk bir gürlemeyle zemini yarıp, günışığına çıkan toprak şeytanını
-görüyorsun. Nereye giderse yok edecek ölümcül depremler yaratıyor!
+BoÄŸuk bir gÃ¼rlemeyle zemini yarÄ±p, gÃ¼nÄ±ÅŸÄ±ÄŸÄ±na Ã§Ä±kan toprak ÅŸeytanÄ±nÄ±
+gÃ¶rÃ¼yorsun. Nereye giderse yok edecek Ã¶lÃ¼mcÃ¼l depremler yaratÄ±yor!
 ~
 giant~
 ABCT FJYZ 35
 #18046
-koru şeytanı~
-koru şeytanı~
-Şeytansı ağaçlar yaratan bir koru şeytanı burada duruyor.
+koru ÅŸeytanÄ±~
+koru ÅŸeytanÄ±~
+ÅeytansÄ± aÄŸaÃ§lar yaratan bir koru ÅŸeytanÄ± burada duruyor.
 ~
-Ağaçların ortasında gururlu bir şekilde duran koru şeytanı burada, kargaşa
-yaratıyor. Bütün ahşap şeyleri kontrol etme gücüne sahip. Bu şeytanla başını
+AÄŸaÃ§larÄ±n ortasÄ±nda gururlu bir ÅŸekilde duran koru ÅŸeytanÄ± burada, kargaÅŸa
+yaratÄ±yor. BÃ¼tÃ¼n ahÅŸap ÅŸeyleri kontrol etme gÃ¼cÃ¼ne sahip. Bu ÅŸeytanla baÅŸÄ±nÄ±
 belaya sokmak istemezsin.
 ~
 giant~
 ABCT FJYZ 35
 #18047
-kaya şeytanı~
-kaya şeytanı~
-Bir kaya şeytanı burada duruyor.
+kaya ÅŸeytanÄ±~
+kaya ÅŸeytanÄ±~
+Bir kaya ÅŸeytanÄ± burada duruyor.
 ~
-20 ayak uzunluğunda tamamen kayadan yapılmış bir şeytan burada duruyor.
-Kalbine korku, ruhuna acı salıyor. Bu güçlü yaratık durdurulamaz görünüyor.
+20 ayak uzunluÄŸunda tamamen kayadan yapÄ±lmÄ±ÅŸ bir ÅŸeytan burada duruyor.
+Kalbine korku, ruhuna acÄ± salÄ±yor. Bu gÃ¼Ã§lÃ¼ yaratÄ±k durdurulamaz gÃ¶rÃ¼nÃ¼yor.
 ~
 giant~
 ABCT FJYZ 35
 #18048
-titan kraliyet muhafız~
-Titan kraliyet muhafızı~
-Bir Titan Kraliyet muhafızı burada duruyor.
+titan kraliyet muhafÄ±z~
+Titan kraliyet muhafÄ±zÄ±~
+Bir Titan Kraliyet muhafÄ±zÄ± burada duruyor.
 ~
-Uzun ve güçlü görünümlü bu muhafız kale duvarlarını devriye geziyor.
+Uzun ve gÃ¼Ã§lÃ¼ gÃ¶rÃ¼nÃ¼mlÃ¼ bu muhafÄ±z kale duvarlarÄ±nÄ± devriye geziyor.
 ~
 giant~
 ABCT FJ 40
 #18049
-titan çocuk~
-Titan çocuğu~
-Bir Titan çocuğu burada, kayalarla oynuyor.
+titan Ã§ocuk~
+Titan Ã§ocuÄŸu~
+Bir Titan Ã§ocuÄŸu burada, kayalarla oynuyor.
 ~
-Bu küçük çocuk kendini birkaç kaya parçasıyla eğlendiriyor.
+Bu kÃ¼Ã§Ã¼k Ã§ocuk kendini birkaÃ§ kaya parÃ§asÄ±yla eÄŸlendiriyor.
 ~
 giant~
 ABCT FJ 33
 #18050
-titan kız çocuk~
-Titan kız çocuğu~
-Oyuncak bebeğiyle oynayan titanlı bir kız çocuğu görüyorsun.
+titan kÄ±z Ã§ocuk~
+Titan kÄ±z Ã§ocuÄŸu~
+Oyuncak bebeÄŸiyle oynayan titanlÄ± bir kÄ±z Ã§ocuÄŸu gÃ¶rÃ¼yorsun.
 ~
-Küçük oyuncak bebeğiyle oynayarak eğlendiği açıkça görülüyor. Pembeler
-giyinmiş, oldukça tatlı bir kız. Parktaki diğer çocuklara benziyor.
-Belki bütün titanlı çocuklar birbirine benziyordur.
+KÃ¼Ã§Ã¼k oyuncak bebeÄŸiyle oynayarak eÄŸlendiÄŸi aÃ§Ä±kÃ§a gÃ¶rÃ¼lÃ¼yor. Pembeler
+giyinmiÅŸ, oldukÃ§a tatlÄ± bir kÄ±z. Parktaki diÄŸer Ã§ocuklara benziyor.
+Belki bÃ¼tÃ¼n titanlÄ± Ã§ocuklar birbirine benziyordur.
 ~
 giant~
 ABCT FJ 33
 #18051
-uyuyan muhafız titan~
-bir muhafız~
-Bir devriye muhafızı burada uyuyor.
+uyuyan muhafÄ±z titan~
+bir muhafÄ±z~
+Bir devriye muhafÄ±zÄ± burada uyuyor.
 ~
 Zzzzzzz....Zzzzzzzz.....Zzzzzzzzz.... *SSSSSHHHHHhhhhhhhhh.......!
-O uyuyor ve uyandırman hiç hoşuna gitmeyecektir!
+O uyuyor ve uyandÄ±rman hiÃ§ hoÅŸuna gitmeyecektir!
 ~
 giant~
 ABCT FJ 40
 #18052
-öğüt veren~
-öğüt veren~
-Öğüt veren burada duruyor.
+Ã¶ÄŸÃ¼t veren~
+Ã¶ÄŸÃ¼t veren~
+Ã–ÄŸÃ¼t veren burada duruyor.
 ~
-Kraliçe ile derin bir muhabbete girmiş. Onu rahatsız etmek aptalca
-olacaktır.
+KraliÃ§e ile derin bir muhabbete girmiÅŸ. Onu rahatsÄ±z etmek aptalca
+olacaktÄ±r.
 ~
 dwarf~
 ABCT FJ 50
 #18053
-hayvancı~
-hayvancı~
-Ölümcül hayvanlar satan hayvancı burada duruyor!
+hayvancÄ±~
+hayvancÄ±~
+Ã–lÃ¼mcÃ¼l hayvanlar satan hayvancÄ± burada duruyor!
 ~
-Simsiyah gözleriyle namuslu bir adam. Bir savaşçı vücuduna ve bir büyücü
-suratına sahip. Dünyadaki en iyi savaşan hayvanları satıyor olmalı. Belki
-birkaç tanesi ilgini çeker ?
+Simsiyah gÃ¶zleriyle namuslu bir adam. Bir savaÅŸÃ§Ä± vÃ¼cuduna ve bir bÃ¼yÃ¼cÃ¼
+suratÄ±na sahip. DÃ¼nyadaki en iyi savaÅŸan hayvanlarÄ± satÄ±yor olmalÄ±. Belki
+birkaÃ§ tanesi ilgini Ã§eker ?
 ~
 giant~
 ABT FJ 50
@@ -574,45 +574,45 @@ siyah puma~
 Siyah Puma~
 Sahibini koruyan siyah bir puma burada duruyor.
 ~
-Çok iri ve çok tehlikeli. Bu siyah pumayla kötü olmak İSTEMEZSİN!
+Ã‡ok iri ve Ã§ok tehlikeli. Bu siyah pumayla kÃ¶tÃ¼ olmak Ä°STEMEZSÄ°N!
 ~
 cat~
 ABTV DFHUVZ 40
 #18055
-kraken ejderhası~
-kraken ejderhası~
-Çok tehlikeli bir Kraken Ejderhası burada, sahibini koruyor.
+kraken ejderhasÄ±~
+kraken ejderhasÄ±~
+Ã‡ok tehlikeli bir Kraken EjderhasÄ± burada, sahibini koruyor.
 ~
-ÇOK çok büyük ve güçlü. Kraken gördüğün en ürkütücü şey olmalı!
+Ã‡OK Ã§ok bÃ¼yÃ¼k ve gÃ¼Ã§lÃ¼. Kraken gÃ¶rdÃ¼ÄŸÃ¼n en Ã¼rkÃ¼tÃ¼cÃ¼ ÅŸey olmalÄ±!
 ~
 dragon~
 ABTV DFHTUV 45
 #18056
 sihirli silp~
 Sihirli Silp~
-Sihirli Silp burada, sahibine yardımcı oluyor.
+Sihirli Silp burada, sahibine yardÄ±mcÄ± oluyor.
 ~
-Küçük fakat güzel bir yaratık. Bu silp güçsüz bir savaşçı gibi görünüyor,
-aslında tehlikeli bir ejderha türüdür.
+KÃ¼Ã§Ã¼k fakat gÃ¼zel bir yaratÄ±k. Bu silp gÃ¼Ã§sÃ¼z bir savaÅŸÃ§Ä± gibi gÃ¶rÃ¼nÃ¼yor,
+aslÄ±nda tehlikeli bir ejderha tÃ¼rÃ¼dÃ¼r.
 ~
 dragon~
 ABORV DFHTUV 50
 #18057
-örümcek maymunu~
-örümcek maymunu~
-Bir örümcek maymunu görüyorsun.
+Ã¶rÃ¼mcek maymunu~
+Ã¶rÃ¼mcek maymunu~
+Bir Ã¶rÃ¼mcek maymunu gÃ¶rÃ¼yorsun.
 ~
-Küçük fakat şirin bir örümcek maymunu. Sahibi ihtiyaç duyduğu anda
-ona yardım etmek için burada bekliyor.
+KÃ¼Ã§Ã¼k fakat ÅŸirin bir Ã¶rÃ¼mcek maymunu. Sahibi ihtiyaÃ§ duyduÄŸu anda
+ona yardÄ±m etmek iÃ§in burada bekliyor.
 ~
 human~
 ABT DV 20
 #18058
 kel aslan~
 kel aslan~
-Sahibini yakından takip eden bir kel aslan görüyorsun.
+Sahibini yakÄ±ndan takip eden bir kel aslan gÃ¶rÃ¼yorsun.
 ~
-Küçük, şirin bir erkek aslan. Savaşa hazır, sahibini takip ediyor.
+KÃ¼Ã§Ã¼k, ÅŸirin bir erkek aslan. SavaÅŸa hazÄ±r, sahibini takip ediyor.
 ~
 cat~
 ABT DV 25
@@ -621,236 +621,236 @@ kurt~
 kurt~
 Siyah irice bir kurt burada, sahibini koruyor.
 ~
-Ürkütücü siyah bir kurt burada, sahibini koruyor.
+ÃœrkÃ¼tÃ¼cÃ¼ siyah bir kurt burada, sahibini koruyor.
 ~
 dog~
 ABT DTV 30
 #18060
-java ejderhası~
-java ejderhası~
-Korkunç bir Java Ejderhası burada, sahibini koruyor.
+java ejderhasÄ±~
+java ejderhasÄ±~
+KorkunÃ§ bir Java EjderhasÄ± burada, sahibini koruyor.
 ~
-Kocaman dişi bir Java Ejderhası. Sahibini büyülü alevleri ile koruyor.
+Kocaman diÅŸi bir Java EjderhasÄ±. Sahibini bÃ¼yÃ¼lÃ¼ alevleri ile koruyor.
 ~
 dragon~
 ABR DTV 35
 #18061
 kral draktaks~
 Kral Draktaks~
-Titanların Kralı Draktaks burada duruyor.
+TitanlarÄ±n KralÄ± Draktaks burada duruyor.
 ~
-Gururlu bir kral burada durmuş krallığının geleceği hakkında planlar yapıyor.
+Gururlu bir kral burada durmuÅŸ krallÄ±ÄŸÄ±nÄ±n geleceÄŸi hakkÄ±nda planlar yapÄ±yor.
 ~
 giant~
 ABT DFV 53
 #18062
-kraliçe kralice kristal~
-Kraliçe Kristal~
-Titanların Kraliçesi Kristal burada duruyor.
+kraliÃ§e kralice kristal~
+KraliÃ§e Kristal~
+TitanlarÄ±n KraliÃ§esi Kristal burada duruyor.
 ~
-Uzun ve gururlu bir kraliçe. Kraliyetin geleceği üzerine düşünüyor.
+Uzun ve gururlu bir kraliÃ§e. Kraliyetin geleceÄŸi Ã¼zerine dÃ¼ÅŸÃ¼nÃ¼yor.
 ~
 giant~
 ABT DFV 51
 #18063
-suikastçi~
-suikastçi~
-Bir suikastci burada, sezdirmeden kral ve kraliçeyi izliyor.
+suikastÃ§i~
+suikastÃ§i~
+Bir suikastci burada, sezdirmeden kral ve kraliÃ§eyi izliyor.
 ~
-Tahtın arkasındaki gizli geçitte saklanan, tamamen siyahlara bürünmüş
-suikastçiyi görüyorsun. Belli ki kraliyetten biri kral ve krliçeyi yok
-etmek istiyor. Nedeni bilginin çok ötesinde.
+TahtÄ±n arkasÄ±ndaki gizli geÃ§itte saklanan, tamamen siyahlara bÃ¼rÃ¼nmÃ¼ÅŸ
+suikastÃ§iyi gÃ¶rÃ¼yorsun. Belli ki kraliyetten biri kral ve krliÃ§eyi yok
+etmek istiyor. Nedeni bilginin Ã§ok Ã¶tesinde.
 ~
 giant~
 ABT DFV 45
 #18064
 fare~
 fare~
-Küçük, çirkin bir fare burada duruyor.
+KÃ¼Ã§Ã¼k, Ã§irkin bir fare burada duruyor.
 ~
-Çirkin bir fare burada, halının üzerinde bir şeyler kemiriyor.
+Ã‡irkin bir fare burada, halÄ±nÄ±n Ã¼zerinde bir ÅŸeyler kemiriyor.
 ~
 giant~
 ABT DFV 30
 #18065
-köylü~
-köylü~
-Güneşli havanın tadını çıkaran mutlu bir köylü burada duruyor.
+kÃ¶ylÃ¼~
+kÃ¶ylÃ¼~
+GÃ¼neÅŸli havanÄ±n tadÄ±nÄ± Ã§Ä±karan mutlu bir kÃ¶ylÃ¼ burada duruyor.
 ~
-Güneşli havanın tadını çıkaran mutlu bir köylü burada duruyor.
+GÃ¼neÅŸli havanÄ±n tadÄ±nÄ± Ã§Ä±karan mutlu bir kÃ¶ylÃ¼ burada duruyor.
 ~
 giant~
 ABT DFH 28
 #18066
-üstad~
-üstad~
-Savaşçı üstadın burada duruyor.
+Ã¼stad~
+Ã¼stad~
+SavaÅŸÃ§Ä± Ã¼stadÄ±n burada duruyor.
 ~
-Yaşlı bir adam burada, eski kitaplara bakarak dinleniyor.
+YaÅŸlÄ± bir adam burada, eski kitaplara bakarak dinleniyor.
 ~
 giant~
 ABJKRVb DF 40
 #18067
 talebe rahip~
 talebe rahip~
-Lonca talebesi burada, yeteneklerini geliştiriyor.
+Lonca talebesi burada, yeteneklerini geliÅŸtiriyor.
 ~
-Morlara bürünmüş genç bir adam burada, meditasyon yapıyor.
+Morlara bÃ¼rÃ¼nmÃ¼ÅŸ genÃ§ bir adam burada, meditasyon yapÄ±yor.
 ~
 giant~
 ABJKQV DF 35
 #18068
-talebe savaşçı~
-talebe savaşçı~
-Lonca talebesi burada, savaş sanatını öğreniyor.
+talebe savaÅŸÃ§Ä±~
+talebe savaÅŸÃ§Ä±~
+Lonca talebesi burada, savaÅŸ sanatÄ±nÄ± Ã¶ÄŸreniyor.
 ~
-Asker ceketinden başka bir şey giymemiş ufak tefek bir adam, burada olası
-düşmanları ile savaşmak için bekliyor.
+Asker ceketinden baÅŸka bir ÅŸey giymemiÅŸ ufak tefek bir adam, burada olasÄ±
+dÃ¼ÅŸmanlarÄ± ile savaÅŸmak iÃ§in bekliyor.
 ~
 giant~
 ABJKTV DF 35
 #18069
-üstad~
-üstad~
-Kembolar ve orman bekçisi olan üstadın burada duruyor.
+Ã¼stad~
+Ã¼stad~
+Kembolar ve orman bekÃ§isi olan Ã¼stadÄ±n burada duruyor.
 ~
-Siyah adaril kıyafetlerine bürünmüş biri köşede dinleniyor. İçeri
-girdiğinde eline bir bıçak alarak senin üzerine doğru atıyor. Bıçak
-sol kulağının yanından arkandaki duvara saplanıyor. Bütün söylediği
-"Şimdi başlayabiliriz" oluyor.
+Siyah adaril kÄ±yafetlerine bÃ¼rÃ¼nmÃ¼ÅŸ biri kÃ¶ÅŸede dinleniyor. Ä°Ã§eri
+girdiÄŸinde eline bir bÄ±Ã§ak alarak senin Ã¼zerine doÄŸru atÄ±yor. BÄ±Ã§ak
+sol kulaÄŸÄ±nÄ±n yanÄ±ndan arkandaki duvara saplanÄ±yor. BÃ¼tÃ¼n sÃ¶ylediÄŸi
+"Åimdi baÅŸlayabiliriz" oluyor.
 ~
 giant~
 ABJKTVb DFJ 40
 #18070
-lonca muhafız~
-lonca muhafızı~
-Kembolar Loncasının muhafızı burada duruyor.
+lonca muhafÄ±z~
+lonca muhafÄ±zÄ±~
+Kembolar LoncasÄ±nÄ±n muhafÄ±zÄ± burada duruyor.
 ~
-Bu adam yarı büyücü, yarı savaşçıya benziyor. Onunla başımı belaya sokmazdım.
+Bu adam yarÄ± bÃ¼yÃ¼cÃ¼, yarÄ± savaÅŸÃ§Ä±ya benziyor. Onunla baÅŸÄ±mÄ± belaya sokmazdÄ±m.
 ~
 giant~
 ABRT D 30
 #18071
-lonca muhafızı~
-lonca muhafızı~
-Şafi Loncasının muhafızı burada duruyor.
+lonca muhafÄ±zÄ±~
+lonca muhafÄ±zÄ±~
+Åafi LoncasÄ±nÄ±n muhafÄ±zÄ± burada duruyor.
 ~
-Bu adam usta bir şafiye benziyor. Onunla başımı belaya sokmazdım.
+Bu adam usta bir ÅŸafiye benziyor. Onunla baÅŸÄ±mÄ± belaya sokmazdÄ±m.
 ~
 giant~
 ABQT D 30
 #18072
-lonca muhafızı~
-lonca muhafızı~
-Savaşçılar Loncasının muhafızı burada duruyor.
+lonca muhafÄ±zÄ±~
+lonca muhafÄ±zÄ±~
+SavaÅŸÃ§Ä±lar LoncasÄ±nÄ±n muhafÄ±zÄ± burada duruyor.
 ~
-Bu adam Konan'ın kuzenine benziyor. Onunla başımı belaya sokmazdım.
+Bu adam Konan'Ä±n kuzenine benziyor. Onunla baÅŸÄ±mÄ± belaya sokmazdÄ±m.
 ~
 giant~
 ABTU D 30
 #18073
-lonca muhafızı~
-lonca muhafızı~
-Orman Loncasının muhafızı burada duruyor.
+lonca muhafÄ±zÄ±~
+lonca muhafÄ±zÄ±~
+Orman LoncasÄ±nÄ±n muhafÄ±zÄ± burada duruyor.
 ~
-Tamamen siyahlar giyinmiş bir orman korucusu görüyorsun.
+Tamamen siyahlar giyinmiÅŸ bir orman korucusu gÃ¶rÃ¼yorsun.
 ~
 giant~
 ABST D 30
 #18074
-uşak~
-uşak~
-Etrafta koşuşturan bir uşak görüyorsun.
+uÅŸak~
+uÅŸak~
+Etrafta koÅŸuÅŸturan bir uÅŸak gÃ¶rÃ¼yorsun.
 ~
-Sarayın koridorlarında koşan ufak bir çocuk görüyorsun.
+SarayÄ±n koridorlarÄ±nda koÅŸan ufak bir Ã§ocuk gÃ¶rÃ¼yorsun.
 ~
 giant~
 AG 0 25
 #18075
 turist~
 turist~
-Kaybolmuş bir turist burada duruyor.
+KaybolmuÅŸ bir turist burada duruyor.
 ~
-Bütün mevkilere dikkatlice bakan bir turist görüyorsun. Başaşağı tuttuğu
-küçük bir gezi haritasını inceliyor.
+BÃ¼tÃ¼n mevkilere dikkatlice bakan bir turist gÃ¶rÃ¼yorsun. BaÅŸaÅŸaÄŸÄ± tuttuÄŸu
+kÃ¼Ã§Ã¼k bir gezi haritasÄ±nÄ± inceliyor.
 ~
 giant~
 ACGH 0 25
 #18076
-depo görevli~
-depo görevlisi~
-Tezgahtara yardım eden depo görevlisi burada duruyor.
+depo gÃ¶revli~
+depo gÃ¶revlisi~
+Tezgahtara yardÄ±m eden depo gÃ¶revlisi burada duruyor.
 ~
-13-19 yaş arası titanlı gençlerin genel işleri.  Bütün kasaba boyunca depo
-yardımcılarını görebilirsin!
+13-19 yaÅŸ arasÄ± titanlÄ± genÃ§lerin genel iÅŸleri.  BÃ¼tÃ¼n kasaba boyunca depo
+yardÄ±mcÄ±larÄ±nÄ± gÃ¶rebilirsin!
 ~
 giant~
 ABGH J 25
 #18077
 derici~
 derici~
-Birkaç yeni kıyafet üzerinde çalışan bir derici burada duruyor.
+BirkaÃ§ yeni kÄ±yafet Ã¼zerinde Ã§alÄ±ÅŸan bir derici burada duruyor.
 ~
-Genç güzel bir bayan burada deri giysiler yapıyor. Oldukça meşgul görünüyor,
-onu rahatsız etmek istemezsin.
+GenÃ§ gÃ¼zel bir bayan burada deri giysiler yapÄ±yor. OldukÃ§a meÅŸgul gÃ¶rÃ¼nÃ¼yor,
+onu rahatsÄ±z etmek istemezsin.
 ~
 giant~
 ABGH J 30
 #18078
 demirci~
 demirci~
-Yeni kılıçlar döğen bir demirci burada duruyor.
+Yeni kÄ±lÄ±Ã§lar dÃ¶ÄŸen bir demirci burada duruyor.
 ~
-Ateşin başında çalışmaktan oldukça bunalmış görünüyor. Demiri döverek
-dükkanında satmak için birçok yeni silah yapıyor.
+AteÅŸin baÅŸÄ±nda Ã§alÄ±ÅŸmaktan oldukÃ§a bunalmÄ±ÅŸ gÃ¶rÃ¼nÃ¼yor. Demiri dÃ¶verek
+dÃ¼kkanÄ±nda satmak iÃ§in birÃ§ok yeni silah yapÄ±yor.
 ~
 giant~
 ABGH J 35
 #18079
-teğmen~
-teğmen~
-Titan Ordusunun Teğmeni burada duruyor.
+teÄŸmen~
+teÄŸmen~
+Titan Ordusunun TeÄŸmeni burada duruyor.
 ~
-Oldukça güçlü görünümde ve çalışkan görünüyor. Şehri olası bir saldırıdan
-kurtarmak için bir savunma planı hazırlıyor. Onu rahatsız etmek istemezsin.
+OldukÃ§a gÃ¼Ã§lÃ¼ gÃ¶rÃ¼nÃ¼mde ve Ã§alÄ±ÅŸkan gÃ¶rÃ¼nÃ¼yor. Åehri olasÄ± bir saldÄ±rÄ±dan
+kurtarmak iÃ§in bir savunma planÄ± hazÄ±rlÄ±yor. Onu rahatsÄ±z etmek istemezsin.
 ~
 giant~
 ABGH J 42
 #18080
 asker~
 asker~
-Titan Ordusunun bir askeri kılıçlarını bileyliyor.
+Titan Ordusunun bir askeri kÄ±lÄ±Ã§larÄ±nÄ± bileyliyor.
 ~
-Kılıcını savaş için bileylemekle meşgul. Emirler için ise her zaman hazır.
+KÄ±lÄ±cÄ±nÄ± savaÅŸ iÃ§in bileylemekle meÅŸgul. Emirler iÃ§in ise her zaman hazÄ±r.
 ~
 giant~
 AGH J 38
 #18087
-zırhçı~
-zırhçı~
-Yeni zırhlar yapmak için çalışan bir zırhçı burada duruyor.
+zÄ±rhÃ§Ä±~
+zÄ±rhÃ§Ä±~
+Yeni zÄ±rhlar yapmak iÃ§in Ã§alÄ±ÅŸan bir zÄ±rhÃ§Ä± burada duruyor.
 ~
-En iyi çeliği en güzel zırha dönüştürmek için oldukça çok çalışıyor. Belki
-senin ölçülerinde birşeyleri vardır.
+En iyi Ã§eliÄŸi en gÃ¼zel zÄ±rha dÃ¶nÃ¼ÅŸtÃ¼rmek iÃ§in oldukÃ§a Ã§ok Ã§alÄ±ÅŸÄ±yor. Belki
+senin Ã¶lÃ§Ã¼lerinde birÅŸeyleri vardÄ±r.
 ~
 giant~
 ABGH J 40
 #18090
-hidra ejderhası~
-Hidra Ejderhası~
-Ölümcül bir Hidra burada duruyor.
+hidra ejderhasÄ±~
+Hidra EjderhasÄ±~
+Ã–lÃ¼mcÃ¼l bir Hidra burada duruyor.
 ~
-Kocaman, ölümcül bir Hidra sahibini korumak için burada duruyor.
+Kocaman, Ã¶lÃ¼mcÃ¼l bir Hidra sahibini korumak iÃ§in burada duruyor.
 ~
 dragon~
 ABJRTV DFTV 35
 #18097
 hakim~
 hakim~
-Kraliçe ile fikir alışverişinde bulunan hakim burada duruyor.
+KraliÃ§e ile fikir alÄ±ÅŸveriÅŸinde bulunan hakim burada duruyor.
 ~
-Kraliçeye öğüt veren hakim burada duruyor.Bu adamların kötü tarafa
-geçmelerini istemezsin. Sana ve arkadaşlarına etkileyici bir büyü
+KraliÃ§eye Ã¶ÄŸÃ¼t veren hakim burada duruyor.Bu adamlarÄ±n kÃ¶tÃ¼ tarafa
+geÃ§melerini istemezsin. Sana ve arkadaÅŸlarÄ±na etkileyici bir bÃ¼yÃ¼
 yapabilir!
 ~
 giant~
@@ -858,43 +858,43 @@ ABCT FJ 42
 #18098
 iksirci~
 iksirci~
-Genç ve zarif iksirci burada, iksirlerini satıyor.
+GenÃ§ ve zarif iksirci burada, iksirlerini satÄ±yor.
 ~
-Tezgahın arkasında durarak yardım teklif ediyor. Oldukça fazla hap ve
-iksir çeşidinin olduğunu görüyorsun. İhtiyacın olduğunda seni iyileştirecek
-şeylerin burada olduğundan eminsin.
+TezgahÄ±n arkasÄ±nda durarak yardÄ±m teklif ediyor. OldukÃ§a fazla hap ve
+iksir Ã§eÅŸidinin olduÄŸunu gÃ¶rÃ¼yorsun. Ä°htiyacÄ±n olduÄŸunda seni iyileÅŸtirecek
+ÅŸeylerin burada olduÄŸundan eminsin.
 ~
 giant~
 ABT CDEFJ 45
 #18099
-köylü~
-köylü~
-Festivalin tadını çıkaran mutlu bir köylü burada duruyor!
+kÃ¶ylÃ¼~
+kÃ¶ylÃ¼~
+Festivalin tadÄ±nÄ± Ã§Ä±karan mutlu bir kÃ¶ylÃ¼ burada duruyor!
 ~
-Bongo davullarının tırmalayan sesiyle şarkı söyleyip dolaşan, iyi
-giyimli bir köylü. Alışverişine kanıt olarak elinde bir çok eşya
-taşıyor. Bu kasabanın mutlu bir yer olmasından memnunluk duyuyorsun.
+Bongo davullarÄ±nÄ±n tÄ±rmalayan sesiyle ÅŸarkÄ± sÃ¶yleyip dolaÅŸan, iyi
+giyimli bir kÃ¶ylÃ¼. AlÄ±ÅŸveriÅŸine kanÄ±t olarak elinde bir Ã§ok eÅŸya
+taÅŸÄ±yor. Bu kasabanÄ±n mutlu bir yer olmasÄ±ndan memnunluk duyuyorsun.
 ~
 giant~
 ABT CDEF 28
 #18100
-görevci~
-Görevci~
-Görevci burada, yeni görevler için gönüllü arıyor.
+gÃ¶revci~
+GÃ¶revci~
+GÃ¶revci burada, yeni gÃ¶revler iÃ§in gÃ¶nÃ¼llÃ¼ arÄ±yor.
 ~
-Görevci seni tepeden süzüyor. Her bir santimi kas olan devin boyu yaklaşık
-20 ayak uzunluğunda. Uzak Diyarlar'ın her bölgesi çok iyi biliyor.Onun
-huzurunda bir suça kalkışmak aptallık olurdu.
+GÃ¶revci seni tepeden sÃ¼zÃ¼yor. Her bir santimi kas olan devin boyu yaklaÅŸÄ±k
+20 ayak uzunluÄŸunda. Uzak Diyarlar'Ä±n her bÃ¶lgesi Ã§ok iyi biliyor.Onun
+huzurunda bir suÃ§a kalkÄ±ÅŸmak aptallÄ±k olurdu.
 ~
 giant~
 ABTVe CDFJVZ 85
 #18101
-şifacı~
-şifacı~
-Bir şifacı burada büyülerini satıyor.
+ÅŸifacÄ±~
+ÅŸifacÄ±~
+Bir ÅŸifacÄ± burada bÃ¼yÃ¼lerini satÄ±yor.
 ~
-Serüvenleri bıraktıktan yıllar sonra bile, hala bir yardım eli uzatıyor.
-Büyüleri listelemek için 'iyileştir' yazman yeterli.
+SerÃ¼venleri bÄ±raktÄ±ktan yÄ±llar sonra bile, hala bir yardÄ±m eli uzatÄ±yor.
+BÃ¼yÃ¼leri listelemek iÃ§in 'iyileÅŸtir' yazman yeterli.
 ~
 giant~
 ABKQVae DFH 80
@@ -905,49 +905,49 @@ ABKQVae DFH 80
 
 #OBJECTS
 #18000
-şişe bordo şarap~
-şişe bordo şarabı~
-Berrak bir şişe şarap burada duruyor.~
+ÅŸiÅŸe bordo ÅŸarap~
+ÅŸiÅŸe bordo ÅŸarabÄ±~
+Berrak bir ÅŸiÅŸe ÅŸarap burada duruyor.~
 glass~
 drink A AO
 40 40 'elvish wine' 0 0
 2 10 140 G
 #18001
-şişe beyaz şarap~
-şişe beyaz şarap~
-Berrak bir şişe şarap burada duruyor.~
+ÅŸiÅŸe beyaz ÅŸarap~
+ÅŸiÅŸe beyaz ÅŸarap~
+Berrak bir ÅŸiÅŸe ÅŸarap burada duruyor.~
 glass~
 drink A AO
 40 40 'white wine' 0 0
 2 10 130 G
 #18002
-şişe kırmızı şarap~
-şişe kırmızı şarap~
-Berrak bir şişe şarap burada duruyor.~
+ÅŸiÅŸe kÄ±rmÄ±zÄ± ÅŸarap~
+ÅŸiÅŸe kÄ±rmÄ±zÄ± ÅŸarap~
+Berrak bir ÅŸiÅŸe ÅŸarap burada duruyor.~
 glass~
 drink A AO
 40 40 'red wine' 0 0
 2 10 130 G
 #18003
-şişe likör~
-şişe likör~
-Bir şişe likör burada duruyor.~
+ÅŸiÅŸe likÃ¶r~
+ÅŸiÅŸe likÃ¶r~
+Bir ÅŸiÅŸe likÃ¶r burada duruyor.~
 glass~
 drink A AO
 40 40 'red wine' 0 0
 2 10 100 G
 #18004
-şişe şampanya~
-şişe şampanya~
-Bir şişe şampanya burada duruyor.~
+ÅŸiÅŸe ÅŸampanya~
+ÅŸiÅŸe ÅŸampanya~
+Bir ÅŸiÅŸe ÅŸampanya burada duruyor.~
 glass~
 drink A AO
 40 40 'white wine' 0 0
 2 10 100 G
 #18005
-şişe tekila~
-şişe tekila~
-Bir şişe tekila burada duruyor.~
+ÅŸiÅŸe tekila~
+ÅŸiÅŸe tekila~
+Bir ÅŸiÅŸe tekila burada duruyor.~
 glass~
 drink A AO
 40 40 'sherry' 0 0
@@ -961,17 +961,17 @@ food A A
 44 30 0 0 0
 20 50 244 P
 #18007
-sığır et~
-sığır eti~
-Bir parça sığır eti burada duruyor.~
+sÄ±ÄŸÄ±r et~
+sÄ±ÄŸÄ±r eti~
+Bir parÃ§a sÄ±ÄŸÄ±r eti burada duruyor.~
 meat~
 food A A
 33 30 0 0 0
 20 20 260 P
 #18008
 tavuk kanat~
-tavuk kanadı~
-Bir parça tavuk kanadı burada duruyor.~
+tavuk kanadÄ±~
+Bir parÃ§a tavuk kanadÄ± burada duruyor.~
 meat~
 food A A
 30 30 0 0 0
@@ -1059,32 +1059,32 @@ food A A
 45 45 0 0 0
 20 2 400 P
 #18017
-turta şeftali~
-şeftalili turta~
-Bir parça şeftalili turta burada duruyor.~
+turta ÅŸeftali~
+ÅŸeftalili turta~
+Bir parÃ§a ÅŸeftalili turta burada duruyor.~
 meat~
 food A A
 33 30 0 0 0
 20 20 100 P
 #18018
 turta~
-karışık turta~
-Bir parça karışık meyveli turta burada duruyor.~
+karÄ±ÅŸÄ±k turta~
+Bir parÃ§a karÄ±ÅŸÄ±k meyveli turta burada duruyor.~
 meat~
 food A A
 32 32 0 0 0
 20 20 600 P
 #18019
 bal petek~
-bal peteği~
-Bir adet bal peteği burada duruyor.~
+bal peteÄŸi~
+Bir adet bal peteÄŸi burada duruyor.~
 meat~
 food A A
 47 47 0 0 0
 20 20 300 P
 #18020
 kap bal~
-bir kap balı~
+bir kap balÄ±~
 Bir kap bal burada duruyor.~
 meat~
 food A A
@@ -1099,9 +1099,9 @@ food A A
 20 20 0 0 0
 20 20 231 P
 #18022
-arena silahı~
-arena silahı~
-Bir arena silahı burada duruyor.~
+arena silahÄ±~
+arena silahÄ±~
+Bir arena silahÄ± burada duruyor.~
 stone~
 weapon AB AN
 flail 5 8 cleave 0
@@ -1121,17 +1121,17 @@ trash A A
 0 0 0 0 0
 20 20 1206 P
 #18024
-kılçık balık~
-kılçık~
-Bir balık kılçığı burada duruyor.~
+kÄ±lÃ§Ä±k balÄ±k~
+kÄ±lÃ§Ä±k~
+Bir balÄ±k kÄ±lÃ§Ä±ÄŸÄ± burada duruyor.~
 stone~
 trash A A
 0 0 0 0 0
 10 20 1260 P
 #18025
-kırık şişe~
-kırık şişe~
-Kırık bir şarap şişesi burada duruyor.~
+kÄ±rÄ±k ÅŸiÅŸe~
+kÄ±rÄ±k ÅŸiÅŸe~
+KÄ±rÄ±k bir ÅŸarap ÅŸiÅŸesi burada duruyor.~
 glass~
 trash A A
 0 0 0 0 0
@@ -1150,9 +1150,9 @@ A
 19 3
 
 #18027
-şişe rom~
-şişe rom~
-Bir şişe rom burada duruyor.~
+ÅŸiÅŸe rom~
+ÅŸiÅŸe rom~
+Bir ÅŸiÅŸe rom burada duruyor.~
 glass~
 drink A A
 10 10 'rum' 0 0
@@ -1160,7 +1160,7 @@ drink A A
 #18028
 kuvars iksir~
 kuvars iksir~
-Bir şişe iksir burda duruyor.~
+Bir ÅŸiÅŸe iksir burda duruyor.~
 glass~
 potion AB AO
 24 'invis' 'pass door' '' ''
@@ -1168,23 +1168,23 @@ potion AB AO
 #18029
 teleport iksir~
 teleport iksiri~
-Bir iksir şişesi burada duruyor.~
+Bir iksir ÅŸiÅŸesi burada duruyor.~
 glass~
 potion AB AO
 23 'teleport' 'teleport' 'teleport' 'teleport'
 20 50 13000 P
 #18030
-kutsal dokunuş iksir~
-kutsal dokunuş iksiri~
-Bir şişe iksir yerde duruyor.~
+kutsal dokunuÅŸ iksir~
+kutsal dokunuÅŸ iksiri~
+Bir ÅŸiÅŸe iksir yerde duruyor.~
 glass~
 potion AB A
 25 'bless' 'sanctuary' 'enhanced armor' 'shield'
 20 100 25000 P
 #18031
-ölümcül dövüş iksir~
-ölümcül dövüş iksiri~
-Bir şişe iksir burda duruyor.~
+Ã¶lÃ¼mcÃ¼l dÃ¶vÃ¼ÅŸ iksir~
+Ã¶lÃ¼mcÃ¼l dÃ¶vÃ¼ÅŸ iksiri~
+Bir ÅŸiÅŸe iksir burda duruyor.~
 glass~
 potion AB A
 24 'sanctuary' 'stone skin' 'giant strength' 'armor'
@@ -1192,15 +1192,15 @@ potion AB A
 #18032
 yara tedavi iksir~
 yara tedavi iksiri~
-Bir iksir şişesi burada duruyor.~
+Bir iksir ÅŸiÅŸesi burada duruyor.~
 glass~
 potion AB A
 24 'cure serious' 'cure critical' 'heal' ''
 20 50 10500 P
 #18033
-gümüş göğüs zırh titan~
-gümüş göğüs zırhı~
-Bir titan göğüs zırhı burada duruyor.~
+gÃ¼mÃ¼ÅŸ gÃ¶ÄŸÃ¼s zÄ±rh titan~
+gÃ¼mÃ¼ÅŸ gÃ¶ÄŸÃ¼s zÄ±rhÄ±~
+Bir titan gÃ¶ÄŸÃ¼s zÄ±rhÄ± burada duruyor.~
 silver~
 armor G AD
 9 9 9 1 4
@@ -1210,9 +1210,9 @@ A
 A
 17 -30
 #18034
-gümüş titan bileklik~
-gümüş Titan bilekliği~
-Gümüş bir bileklik burada duruyor.~
+gÃ¼mÃ¼ÅŸ titan bileklik~
+gÃ¼mÃ¼ÅŸ Titan bilekliÄŸi~
+GÃ¼mÃ¼ÅŸ bir bileklik burada duruyor.~
 silver~
 armor G AI
 9 9 9 1 1
@@ -1222,9 +1222,9 @@ A
 A
 19 2
 #18035
-gümüş titan bacaklık~
-bir çift gümüş Titan bacaklığı~
-Bir çift bacaklık burada duruyor.~
+gÃ¼mÃ¼ÅŸ titan bacaklÄ±k~
+bir Ã§ift gÃ¼mÃ¼ÅŸ Titan bacaklÄ±ÄŸÄ±~
+Bir Ã§ift bacaklÄ±k burada duruyor.~
 silver~
 armor G AF
 9 9 9 1 3
@@ -1232,9 +1232,9 @@ armor G AF
 A
 22 -1
 #18036
-gümüş titan çizmeler~
-bir çift gümüş Titan çizmesi~
-Bir çift gümüş çizme burada duruyor.~
+gÃ¼mÃ¼ÅŸ titan Ã§izmeler~
+bir Ã§ift gÃ¼mÃ¼ÅŸ Titan Ã§izmesi~
+Bir Ã§ift gÃ¼mÃ¼ÅŸ Ã§izme burada duruyor.~
 silver~
 armor G AG
 9 9 9 1 2
@@ -1244,57 +1244,57 @@ A
 A
 14 30
 #18037
-gümüş titan miğfer~
-gümüş Titan miğferi~
-Burada bir miğfer duruyor.~
+gÃ¼mÃ¼ÅŸ titan miÄŸfer~
+gÃ¼mÃ¼ÅŸ Titan miÄŸferi~
+Burada bir miÄŸfer duruyor.~
 silver~
 armor 9 AE
 9 10 9 0 2
 25 20 9906 G
 #18038
-havuç titan~
+havuÃ§ titan~
 Titan havucu~
-Yetenekli Titanların yetiştirdiği bir havuç burada duruyor.~
+Yetenekli TitanlarÄ±n yetiÅŸtirdiÄŸi bir havuÃ§ burada duruyor.~
 meat~
 food A A
 50 50 0 0 0
 20 20 350 P
 #18039
-ıspanak titan~
-bir demet Titan ıspanağı~
-Yetenekli Titanların yetiştirdiği bir demet ıspanak burada duruyor.~
+Ä±spanak titan~
+bir demet Titan Ä±spanaÄŸÄ±~
+Yetenekli TitanlarÄ±n yetiÅŸtirdiÄŸi bir demet Ä±spanak burada duruyor.~
 meat~
 food A A
 50 50 0 0 0
 20 20 300 P
 #18040
 elma titan~
-Titan elması~
-Yetenekli Titanların yetiştirdiği bir elma burada duruyor.~
+Titan elmasÄ±~
+Yetenekli TitanlarÄ±n yetiÅŸtirdiÄŸi bir elma burada duruyor.~
 meat~
 food A A
 20 20 0 0 0
 20 20 250 P
 #18041
 portakal~
-Titan portakalı~
-Yetenekli Titanların yetiştirdiği bir portakal burada duruyor.~
+Titan portakalÄ±~
+Yetenekli TitanlarÄ±n yetiÅŸtirdiÄŸi bir portakal burada duruyor.~
 meat~
 food A A
 32 32 0 0 0
 20 20 100 P
 #18042
 kiraz~
-Titan kirazı~
-Yetenekli Titanların yetiştirdiği kiraz burada duruyor.~
+Titan kirazÄ±~
+Yetenekli TitanlarÄ±n yetiÅŸtirdiÄŸi kiraz burada duruyor.~
 meat~
 food A A
 36 36 0 0 0
 30 20 440 P
 #18043
-gümüş titan kama~
-gümüş Titan kaması~
-Gümüş bir kama burada duruyor.~
+gÃ¼mÃ¼ÅŸ titan kama~
+gÃ¼mÃ¼ÅŸ Titan kamasÄ±~
+GÃ¼mÃ¼ÅŸ bir kama burada duruyor.~
 silver~
 weapon AB AN
 dagger 5 6 stab 0
@@ -1304,9 +1304,9 @@ A
 A
 19 1
 #18044
-gümüş titan kılıç~
-gümüş Titan Kılıcı~
-Büyük gümüşten bir Titan Kılıcı burada duruyor.~
+gÃ¼mÃ¼ÅŸ titan kÄ±lÄ±Ã§~
+gÃ¼mÃ¼ÅŸ Titan KÄ±lÄ±cÄ±~
+BÃ¼yÃ¼k gÃ¼mÃ¼ÅŸten bir Titan KÄ±lÄ±cÄ± burada duruyor.~
 silver~
 weapon AB AN
 sword 5 6 pierce 0
@@ -1314,9 +1314,9 @@ sword 5 6 pierce 0
 A
 19 1
 #18045
-gümüş titan topuz~
-gümüş Titan topuzu~
-Büyük gümüşten bir topuz burada duruyor.~
+gÃ¼mÃ¼ÅŸ titan topuz~
+gÃ¼mÃ¼ÅŸ Titan topuzu~
+BÃ¼yÃ¼k gÃ¼mÃ¼ÅŸten bir topuz burada duruyor.~
 vsilver~
 weapon AB AN
 mace 6 5 pound 0
@@ -1324,9 +1324,9 @@ mace 6 5 pound 0
 A
 18 1
 #18046
-gümüş titan balta~
-gümüş Titan Baltası~
-Büyük gümüşten bir balta yerde duruyor.~
+gÃ¼mÃ¼ÅŸ titan balta~
+gÃ¼mÃ¼ÅŸ Titan BaltasÄ±~
+BÃ¼yÃ¼k gÃ¼mÃ¼ÅŸten bir balta yerde duruyor.~
 silver~
 weapon AB AN
 axe 5 6 chomp 0
@@ -1336,9 +1336,9 @@ A
 A
 17 1
 #18047
-gümüş titan asa~
-gümüş Titan asası~
-Büyük gümüşten bir asa yerde duruyor.~
+gÃ¼mÃ¼ÅŸ titan asa~
+gÃ¼mÃ¼ÅŸ Titan asasÄ±~
+BÃ¼yÃ¼k gÃ¼mÃ¼ÅŸten bir asa yerde duruyor.~
 silver~
 weapon AB AN
 staff 5 7 pierce 0
@@ -1346,9 +1346,9 @@ staff 5 7 pierce 0
 A
 18 4
 #18048
-gümüş titan kırbaç~
-gümüş Titan Kırbacı~
-Büyük gümüş saplı bir kırbaç burada duruyor.~
+gÃ¼mÃ¼ÅŸ titan kÄ±rbaÃ§~
+gÃ¼mÃ¼ÅŸ Titan KÄ±rbacÄ±~
+BÃ¼yÃ¼k gÃ¼mÃ¼ÅŸ saplÄ± bir kÄ±rbaÃ§ burada duruyor.~
 silver~
 weapon AB AN
 whip 6 6 whip 0
@@ -1359,32 +1359,32 @@ A
 19 1
 #18049
 deri kitap~
-deri kaplı kitap~
-Büyük deriden bir kitap burada duruyor.~
+deri kaplÄ± kitap~
+BÃ¼yÃ¼k deriden bir kitap burada duruyor.~
 leather~
 wand A AO
 50 20 20 'sleep' 0
 25 80 10620 P
 #18050
-sarı lale~
-sarı lale~
-Küçük bir lale yerde duruyor.~
+sarÄ± lale~
+sarÄ± lale~
+KÃ¼Ã§Ã¼k bir lale yerde duruyor.~
 wood~
 treasure A A
 0 0 0 0 0
 10 1 1004 P
 #18051
-kırmızı lale~
-kırmızı lale~
-Küçük bir lale burada duruyor.~
+kÄ±rmÄ±zÄ± lale~
+kÄ±rmÄ±zÄ± lale~
+KÃ¼Ã§Ã¼k bir lale burada duruyor.~
 wood~
 treasure A A
 0 0 0 0 0
 10 0 1330 P
 #18052
-beyaz gül~
-beyaz gül~
-Güzel bir gül yerde duruyor.~
+beyaz gÃ¼l~
+beyaz gÃ¼l~
+GÃ¼zel bir gÃ¼l yerde duruyor.~
 wood~
 treasure A AO
 0 0 0 0 0
@@ -1394,25 +1394,25 @@ A
 A
 18 1
 #18053
-kırmızı gül deste~
-deste kırmızı gül~
-Bir deste kırmızı gül yerde duruyor.~
+kÄ±rmÄ±zÄ± gÃ¼l deste~
+deste kÄ±rmÄ±zÄ± gÃ¼l~
+Bir deste kÄ±rmÄ±zÄ± gÃ¼l yerde duruyor.~
 wood~
 treasure A A
 0 0 0 0 0
 10 0 1003 P
 #18054
-sarı deste krizantem~
-deste sarı Krizantem~
-Bir deste sarı krizantem yerde duruyor.~
+sarÄ± deste krizantem~
+deste sarÄ± Krizantem~
+Bir deste sarÄ± krizantem yerde duruyor.~
 wood~
 treasure A A
 0 0 0 0 0
 10 0 1000 G
 #18055
-aşcı şapka~
-aşçı şapkası~
-Bir aşçı şapkası yerde duruyor.~
+aÅŸcÄ± ÅŸapka~
+aÅŸÃ§Ä± ÅŸapkasÄ±~
+Bir aÅŸÃ§Ä± ÅŸapkasÄ± yerde duruyor.~
 leather~
 armor ABG AE
 9 9 9 1 0
@@ -1423,8 +1423,8 @@ A
 19 1
 #18056
 yemek kap~
-yemek kabı~
-Bir yemek kabı yerde duruyor.~
+yemek kabÄ±~
+Bir yemek kabÄ± yerde duruyor.~
 leather~
 armor ABG AE
 9 9 9 1 0
@@ -1434,9 +1434,9 @@ A
 A
 13 10
 #18057
-köle ayakkabı~
-bir çift köle ayakkabısı~
-Bir çift ayakkabı yerde duruyor.~
+kÃ¶le ayakkabÄ±~
+bir Ã§ift kÃ¶le ayakkabÄ±sÄ±~
+Bir Ã§ift ayakkabÄ± yerde duruyor.~
 leather~
 armor A AG
 10 10 10 1 0
@@ -1448,15 +1448,15 @@ A
 #18058
 dilenci para kesesi~
 dilencinin para kesesi~
-Küçük bir para kesesi yerde duruyor.~
+KÃ¼Ã§Ã¼k bir para kesesi yerde duruyor.~
 leather~
 container AG A
 200 1 0 100 50
 24 20 1500 P
 #18059
-şövalye rahip asa~
-Şövalye Rahibin Asası~
-Duvara dayalı duran bir asa görüyorsun.~
+ÅŸÃ¶valye rahip asa~
+ÅÃ¶valye Rahibin AsasÄ±~
+Duvara dayalÄ± duran bir asa gÃ¶rÃ¼yorsun.~
 iron~
 armor ABG AO
 10 10 10 50 0
@@ -1468,9 +1468,9 @@ A
 A
 18 2
 #18060
-deri çizme~
-bir çift Titan deri çizmesi~
-Bir çift çizme yerde duruyor.~
+deri Ã§izme~
+bir Ã§ift Titan deri Ã§izmesi~
+Bir Ã§ift Ã§izme yerde duruyor.~
 stone~
 armor ABG AG
 8 8 8 1 2
@@ -1478,9 +1478,9 @@ armor ABG AG
 A
 3 3
 #18061
-devriye muhafız topuz~
-devriye muhafızınin topuzu~
-Duvara dayalı bir topuz burada duruyor.~
+devriye muhafÄ±z topuz~
+devriye muhafÄ±zÄ±nin topuzu~
+Duvara dayalÄ± bir topuz burada duruyor.~
 stone~
 weapon AB AN
 mace 5 8 pound 0
@@ -1489,16 +1489,16 @@ A
 1 -1
 #18062
 vadi anahtar~
-Titan Vadisinin Altın Anahtarı~
-BÜYÜK bir anahtar yerde duruyor.~
+Titan Vadisinin AltÄ±n AnahtarÄ±~
+BÃœYÃœK bir anahtar yerde duruyor.~
 gold~
 trash A AO
 0 0 0 0 0
 25 20 10000 P
 #18063
-uzun altın kama~
-Uzun altın bir kama~
-Bir cezaevi muhafızının uzun altın kaması yerde duruyor.~
+uzun altÄ±n kama~
+Uzun altÄ±n bir kama~
+Bir cezaevi muhafÄ±zÄ±nÄ±n uzun altÄ±n kamasÄ± yerde duruyor.~
 gold~
 weapon ABG AN
 dagger 5 6 cleave D
@@ -1506,144 +1506,144 @@ dagger 5 6 cleave D
 A
 12 10
 #18064
-müzik kutusu~
-müzik kutusu~
-Küçük bir kutu yerde duruyor.~
+mÃ¼zik kutusu~
+mÃ¼zik kutusu~
+KÃ¼Ã§Ã¼k bir kutu yerde duruyor.~
 wood~
 container A A
 500 1 0 500 60
 20 20 3340 P
 #18065
-küçük çelik kutu~
-küçük çelikten bir kutu~
-Küçük çelikten bir kutu yerde duruyor.~
+kÃ¼Ã§Ã¼k Ã§elik kutu~
+kÃ¼Ã§Ã¼k Ã§elikten bir kutu~
+KÃ¼Ã§Ã¼k Ã§elikten bir kutu yerde duruyor.~
 wood~
 container A A
 500 1 0 500 50
 20 20 4500 P
 #18066
-sırtçantası~
-sırtçantası~
-Bir sırtçantası yerde duruyor.~
+sÄ±rtÃ§antasÄ±~
+sÄ±rtÃ§antasÄ±~
+Bir sÄ±rtÃ§antasÄ± yerde duruyor.~
 leather~
 container AGH A
 1000 1 0 1000 25
 20 25 15000 P
 #18067
-sihirbaz değnek~
-Titan Sihirbaz Değneği~
-Uzun bir sihirbaz değneği yerde duruyor.~
+sihirbaz deÄŸnek~
+Titan Sihirbaz DeÄŸneÄŸi~
+Uzun bir sihirbaz deÄŸneÄŸi yerde duruyor.~
 wood~
 wand A AO
 30 19 19 'calm' 0
 25 200 17080 P
 #18068
-adaril sihirbaz değnek~
-adaril sihirbaz değnek~
-Uzun bir sihirbaz değneği yerde duruyor.~
+adaril sihirbaz deÄŸnek~
+adaril sihirbaz deÄŸnek~
+Uzun bir sihirbaz deÄŸneÄŸi yerde duruyor.~
 wood~
 wand A AO
 29 60 60 'know alignment' 0
 25 200 11980 P
 #18069
-sihirli rahip değnek~
-sihirli rahip değneği~
-Uzun bir değnek yerde duruyor.~
+sihirli rahip deÄŸnek~
+sihirli rahip deÄŸneÄŸi~
+Uzun bir deÄŸnek yerde duruyor.~
 wood~
 wand A AO
 31 10 10 'acid blast' 0
 25 200 49706 P
 #18070
-sihirli cin değnek~
-sihirli cin değneği~
-Uzun bir cin değneği yerde duruyor.~
+sihirli cin deÄŸnek~
+sihirli cin deÄŸneÄŸi~
+Uzun bir cin deÄŸneÄŸi yerde duruyor.~
 wood~
 wand A AO
 22 15 15 'faerie fire' 0
 25 200 12204 P
 #18071
-sihirli avian değnek~
-sihirli avian değneği~
-Uzun bir avian değneği yerde duruyor.~
+sihirli avian deÄŸnek~
+sihirli avian deÄŸneÄŸi~
+Uzun bir avian deÄŸneÄŸi yerde duruyor.~
 wood~
 wand A AO
 28 5 5 'fireball' 0
 25 20 14356 P
 #18072
-sihirli kızıl değnek~
-sihirli kızıl değnek~
-Uzun bir sihirbaz değneği, kızıllık saçarak yerde duruyor.~
+sihirli kÄ±zÄ±l deÄŸnek~
+sihirli kÄ±zÄ±l deÄŸnek~
+Uzun bir sihirbaz deÄŸneÄŸi, kÄ±zÄ±llÄ±k saÃ§arak yerde duruyor.~
 wood~
 wand A AO
 25 16 16 'curse' 0
 25 20 13490 P
 #18073
-çikolatalı dondurma~
-çikolatalı dondurma~
+Ã§ikolatalÄ± dondurma~
+Ã§ikolatalÄ± dondurma~
 Burada biraz dondurma duruyor.~
 food~
 food A A
 50 50 0 0 0
 3 110 340 P
 #18074
-kirazlı dondurma~
-kirazlı dondurma~
-Burada biraz kirazlı dondurma duruyor.~
+kirazlÄ± dondurma~
+kirazlÄ± dondurma~
+Burada biraz kirazlÄ± dondurma duruyor.~
 food~
 food A A
 55 55 0 0 0
 3 110 500 P
 #18075
-şekerlemeli dondurma~
-şekerlemeli dondurma~
+ÅŸekerlemeli dondurma~
+ÅŸekerlemeli dondurma~
 Biraz dondurma burada duruyor.~
 food~
 food A A
 60 60 0 0 0
 3 110 200 P
 #18076
-çikolata kaplı badem~
-çikolata kaplı badem~
-Biraz çikolata burada duruyor.~
+Ã§ikolata kaplÄ± badem~
+Ã§ikolata kaplÄ± badem~
+Biraz Ã§ikolata burada duruyor.~
 food~
 food A A
 65 65 0 0 0
 4 120 500 P
 #18077
-karamelli çikolata~
-karamelli çikolata~
-Burada biraz çikolata duruyor.~
+karamelli Ã§ikolata~
+karamelli Ã§ikolata~
+Burada biraz Ã§ikolata duruyor.~
 food~
 food A A
 70 70 0 0 0
 4 120 600 P
 #18078
-çabuk bozulan çikolata~
-çabuk bozulan çikolata~
-Burada biraz çikolata duruyor.~
+Ã§abuk bozulan Ã§ikolata~
+Ã§abuk bozulan Ã§ikolata~
+Burada biraz Ã§ikolata duruyor.~
 food~
 food A A
 10 10 0 0 0
 4 120 100 P
 #18079
-naneli çikolata~
-naneli çikolata~
-Biraz çikolata yerde duruyor.~
+naneli Ã§ikolata~
+naneli Ã§ikolata~
+Biraz Ã§ikolata yerde duruyor.~
 food~
 food A A
 50 50 0 0 0
 2 120 100 P
 #18080
-siyah süet çizme~
-bir çift siyah süet çizme~
-Bir çift süet çizme burada duruyor.~
+siyah sÃ¼et Ã§izme~
+bir Ã§ift siyah sÃ¼et Ã§izme~
+Bir Ã§ift sÃ¼et Ã§izme burada duruyor.~
 leather~
 armor A AG
 9 9 9 0 1
 25 200 4400 G
 #18081
 mavi donanma etek~
-uzun mavi donanma eteği~
+uzun mavi donanma eteÄŸi~
 Uzun bir etek yerde duruyor.~
 leather~
 armor AG AF
@@ -1654,8 +1654,8 @@ A
 A
 19 2
 #18082
-gümüş renkli pelerin~
-gümüş renkli pelerin~
+gÃ¼mÃ¼ÅŸ renkli pelerin~
+gÃ¼mÃ¼ÅŸ renkli pelerin~
 Bir pelerin yerde duruyor.~
 leather~
 armor AG AK
@@ -1666,8 +1666,8 @@ A
 A
 2 2
 #18083
-zümrüt kaplı bileklik~
-zümrüt kaplı bileklik~
+zÃ¼mrÃ¼t kaplÄ± bileklik~
+zÃ¼mrÃ¼t kaplÄ± bileklik~
 Bir bileklik yerde duruyor.~
 leather~
 armor AG AK
@@ -1676,17 +1676,17 @@ armor AG AK
 A
 13 10
 #18084
-mermer çeşme~
-mermer çeşme~
-Büyük, mermerden güzel bir çeşme burada duruyor.~
+mermer Ã§eÅŸme~
+mermer Ã§eÅŸme~
+BÃ¼yÃ¼k, mermerden gÃ¼zel bir Ã§eÅŸme burada duruyor.~
 marble~
 fountain AO 0
 10000 10000 0 0 0
 0 0 0 P
 #18085
-şeytan silah~
-şeytan silahı~
-Siyah şeytani bir silah yerde duruyor.~
+ÅŸeytan silah~
+ÅŸeytan silahÄ±~
+Siyah ÅŸeytani bir silah yerde duruyor.~
 stone~
 weapon ABCG AN
 exotic 5 9 wrath CF
@@ -1698,9 +1698,9 @@ A
 A
 22 -1
 #18086
-arena döven~
-güçlendirilmiş arena döveni~
-Bir döven yerde duruyor.~
+arena dÃ¶ven~
+gÃ¼Ã§lendirilmiÅŸ arena dÃ¶veni~
+Bir dÃ¶ven yerde duruyor.~
 stone~
 weapon AB AN
 flail 6 8 cleave 0
@@ -1714,23 +1714,23 @@ A
 #18099
 tedavi iksiri~
 tedavi iksiri.~
-Bir iksir yerde yatıyor..~
+Bir iksir yerde yatÄ±yor..~
 glass~
 potion AB A
 90 'remove curse' 'cure blindness' 'cure poison' 'cure disease'
 20 50 50333 P
 #18100
 turta~
-elmalı turta~
-Bir parça elmalı turta burada duruyor.~
+elmalÄ± turta~
+Bir parÃ§a elmalÄ± turta burada duruyor.~
 food~
 food A A
 20 20 0 0 0
 20 20 50 P
 #18101
-çukur~
-bağış çukuru~
-Bağışlar için bir çukur mimberin önünde duruyor.~
+Ã§ukur~
+baÄŸÄ±ÅŸ Ã§ukuru~
+BaÄŸÄ±ÅŸlar iÃ§in bir Ã§ukur mimberin Ã¶nÃ¼nde duruyor.~
 ~
 container O 0
 10000 0 0 1000 100
@@ -1741,13 +1741,13 @@ container O 0
 
 #ROOMS
 #18001
-Ormanda Karanlık Bir Patika~
-Birden etrafındaki ormanın değiştiğini görüyorsun. Aydınlık gökyüzü
-yerini sönük bulutlu bir havaya terkediyor. Keskin bir rüzgar aniden
-eserek titremene yol açıyor. Etrafındaki tüm ağaçların bir hikayenin
-içindelermiş gibi kıpırdandığını hissediyorsun. Tozlu yol kuzey ve
-güney yönlerinde yukarıya dönemeç yaparak devam ediyor. Yolun sonunda
-ne olduğunu kestirmek imkansız.
+Ormanda KaranlÄ±k Bir Patika~
+Birden etrafÄ±ndaki ormanÄ±n deÄŸiÅŸtiÄŸini gÃ¶rÃ¼yorsun. AydÄ±nlÄ±k gÃ¶kyÃ¼zÃ¼
+yerini sÃ¶nÃ¼k bulutlu bir havaya terkediyor. Keskin bir rÃ¼zgar aniden
+eserek titremene yol aÃ§Ä±yor. EtrafÄ±ndaki tÃ¼m aÄŸaÃ§larÄ±n bir hikayenin
+iÃ§indelermiÅŸ gibi kÄ±pÄ±rdandÄ±ÄŸÄ±nÄ± hissediyorsun. Tozlu yol kuzey ve
+gÃ¼ney yÃ¶nlerinde yukarÄ±ya dÃ¶nemeÃ§ yaparak devam ediyor. Yolun sonunda
+ne olduÄŸunu kestirmek imkansÄ±z.
 ~
 0 A 3
 D0
@@ -1756,61 +1756,61 @@ Patika devam ediyor.
 ~
 0 0 18002
 D2
-Aydınlık ormanlara geri dönüş.
+AydÄ±nlÄ±k ormanlara geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 -1 6152
 S
 #18002
-Uzun Cansız Bir Patika~
-Patika devam ediyor ve görüntü hala ilgi çekici değil. Gökyüzü daha da
-kararıyor ve görülüyor ki yağmur bulutları oluşmakta. Nemli orman zemininde
-çürüyen yapraklar, ilginç bir manzara oluşturuyor. Ağaçlardaki hışırdamalar,
-bu kasvetli ormanda yaşam olduğunu gösteriyor. Patika batı, kuzey ve güneye
-dönerek aydınlık ormanlara yöneliyor. Kuzeyde şirin bir göl görüyorsun.
+Uzun CansÄ±z Bir Patika~
+Patika devam ediyor ve gÃ¶rÃ¼ntÃ¼ hala ilgi Ã§ekici deÄŸil. GÃ¶kyÃ¼zÃ¼ daha da
+kararÄ±yor ve gÃ¶rÃ¼lÃ¼yor ki yaÄŸmur bulutlarÄ± oluÅŸmakta. Nemli orman zemininde
+Ã§Ã¼rÃ¼yen yapraklar, ilginÃ§ bir manzara oluÅŸturuyor. AÄŸaÃ§lardaki hÄ±ÅŸÄ±rdamalar,
+bu kasvetli ormanda yaÅŸam olduÄŸunu gÃ¶steriyor. Patika batÄ±, kuzey ve gÃ¼neye
+dÃ¶nerek aydÄ±nlÄ±k ormanlara yÃ¶neliyor. Kuzeyde ÅŸirin bir gÃ¶l gÃ¶rÃ¼yorsun.
 ~
 0 A 3
 D0
-Patika kenarında bir göl.
+Patika kenarÄ±nda bir gÃ¶l.
 ~
 ~
 0 0 10001
 D2
-Güneye geri dönerek patikaya devam.
+GÃ¼neye geri dÃ¶nerek patikaya devam.
 ~
 ~
 0 0 18001
 D3
-Patikada batıya doğru bir dönemeç.
+Patikada batÄ±ya doÄŸru bir dÃ¶nemeÃ§.
 ~
 ~
 0 0 18003
 S
 #18003
-Ormanda Bir Açıklık~
-Aniden ormandaki bir açıklığa çıkıyorsun. Tüm yönlerde verimli yeşil
-bitkiler, ufak benekli yabani çiçekler var. Küçük bir dere patika boyunca
-süzülüyor. Yumuşak bir sis yavaşça çağlayan derenin üzerinden geçerek
-güzel bir manzara oluşturuyor. Patika doğu ve batı yönlerinde devam ediyor.
+Ormanda Bir AÃ§Ä±klÄ±k~
+Aniden ormandaki bir aÃ§Ä±klÄ±ÄŸa Ã§Ä±kÄ±yorsun. TÃ¼m yÃ¶nlerde verimli yeÅŸil
+bitkiler, ufak benekli yabani Ã§iÃ§ekler var. KÃ¼Ã§Ã¼k bir dere patika boyunca
+sÃ¼zÃ¼lÃ¼yor. YumuÅŸak bir sis yavaÅŸÃ§a Ã§aÄŸlayan derenin Ã¼zerinden geÃ§erek
+gÃ¼zel bir manzara oluÅŸturuyor. Patika doÄŸu ve batÄ± yÃ¶nlerinde devam ediyor.
 ~
 0 A 3
 D1
-Tozlu patikaya geri dönüş.
+Tozlu patikaya geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18002
 D3
-Patikayı takip ederek batıya gidiyorsun.
+PatikayÄ± takip ederek batÄ±ya gidiyorsun.
 ~
 ~
 0 0 18004
 S
 #18004
-Tepenin Aşağısında Keskin Bir Patika~
-Yön duygunu kaybettiğini düşünmeye başladığında parlak ve ılık günışığı
-kalbini aydınlatıyor. Doğudan takip ettiğin dere yavaşça hız kazanıyor.
-Taze ılık hava ağrıyan kemiklerine güç vermişe benziyor. Patika batıya
-doğru ve geriye doğu yönünde devam ediyor.
+Tepenin AÅŸaÄŸÄ±sÄ±nda Keskin Bir Patika~
+YÃ¶n duygunu kaybettiÄŸini dÃ¼ÅŸÃ¼nmeye baÅŸladÄ±ÄŸÄ±nda parlak ve Ä±lÄ±k gÃ¼nÄ±ÅŸÄ±ÄŸÄ±
+kalbini aydÄ±nlatÄ±yor. DoÄŸudan takip ettiÄŸin dere yavaÅŸÃ§a hÄ±z kazanÄ±yor.
+Taze Ä±lÄ±k hava aÄŸrÄ±yan kemiklerine gÃ¼Ã§ vermiÅŸe benziyor. Patika batÄ±ya
+doÄŸru ve geriye doÄŸu yÃ¶nÃ¼nde devam ediyor.
 ~
 0 A 3
 D1
@@ -1825,13 +1825,13 @@ Patika devam ediyor...
 0 0 18005
 S
 #18005
-Hiddetli bir Şelale Yakınında~
-Öncesinde küçük bir dere olan bu şey şimdi hiddetli bir şelaleye dönüştü.
-Kayalara çarparak kendine bir yol açan şelale patikanın kuzeyine devam
-ediyor. Koyu yeşil bir yosun çevrendeki ağaçları örterek, vahşi hayvanları
-gizliyor. Öyle görünüyor ki bu ağaçlar ve bitkiler göründüklerinden daha
-yaşlılar. Yer açık kahverengi çam tozları ile kaplanmış, geniş ayak izleri
-bırakmana neden oluyor. Patika batıya doğru ve geriye doğu yönünde devam
+Hiddetli bir Åelale YakÄ±nÄ±nda~
+Ã–ncesinde kÃ¼Ã§Ã¼k bir dere olan bu ÅŸey ÅŸimdi hiddetli bir ÅŸelaleye dÃ¶nÃ¼ÅŸtÃ¼.
+Kayalara Ã§arparak kendine bir yol aÃ§an ÅŸelale patikanÄ±n kuzeyine devam
+ediyor. Koyu yeÅŸil bir yosun Ã§evrendeki aÄŸaÃ§larÄ± Ã¶rterek, vahÅŸi hayvanlarÄ±
+gizliyor. Ã–yle gÃ¶rÃ¼nÃ¼yor ki bu aÄŸaÃ§lar ve bitkiler gÃ¶rÃ¼ndÃ¼klerinden daha
+yaÅŸlÄ±lar. Yer aÃ§Ä±k kahverengi Ã§am tozlarÄ± ile kaplanmÄ±ÅŸ, geniÅŸ ayak izleri
+bÄ±rakmana neden oluyor. Patika batÄ±ya doÄŸru ve geriye doÄŸu yÃ¶nÃ¼nde devam
 ediyor.
 ~
 0 A 3
@@ -1847,24 +1847,24 @@ Patika devam ediyor...
 0 0 18007
 S
 #18006
-Boşluk~
-Boşluk.
+BoÅŸluk~
+BoÅŸluk.
 ~
 0 C 1
 S
 #18007
-Yolda Keskin Bir Dönemeç~
-Patikanın önünü kapatan dağ ile yüz yüze geldin. Bütün zamanını boşa
-harcayıp, çıkmaz bir yol bulmak için boşuna yorulduğunu hissediyorsun.
-Tam vazgeçeceğin sırada, sağ tarafında bir titreme fark ediyorsun.
-Dönüyorsun, ama bir şey göremiyorsun. Aniden dağın etrafından kıvrılan,
-daha çok bir geyik patikasını andıran donuk bir patika beliriyor.Belki
-takip ederek seni nereye götüreceğini görmek istersin. Patika kuzeye ve
-doğuya devam ediyor.
+Yolda Keskin Bir DÃ¶nemeÃ§~
+PatikanÄ±n Ã¶nÃ¼nÃ¼ kapatan daÄŸ ile yÃ¼z yÃ¼ze geldin. BÃ¼tÃ¼n zamanÄ±nÄ± boÅŸa
+harcayÄ±p, Ã§Ä±kmaz bir yol bulmak iÃ§in boÅŸuna yorulduÄŸunu hissediyorsun.
+Tam vazgeÃ§eceÄŸin sÄ±rada, saÄŸ tarafÄ±nda bir titreme fark ediyorsun.
+DÃ¶nÃ¼yorsun, ama bir ÅŸey gÃ¶remiyorsun. Aniden daÄŸÄ±n etrafÄ±ndan kÄ±vrÄ±lan,
+daha Ã§ok bir geyik patikasÄ±nÄ± andÄ±ran donuk bir patika beliriyor.Belki
+takip ederek seni nereye gÃ¶tÃ¼receÄŸini gÃ¶rmek istersin. Patika kuzeye ve
+doÄŸuya devam ediyor.
 ~
 0 A 3
 D0
-Donuk karaca patikası.
+Donuk karaca patikasÄ±.
 ~
 ~
 0 0 18008
@@ -1875,31 +1875,31 @@ Patika devam ediyor...
 0 0 18005
 S
 #18008
-Rüzgarlı Karaca Yolu~
-Rüzgarlı bir patikadasın. Etrafındaki ağaçların sesleri uyum içinde
-rüzgarın melodisine katılıyorlar. Yüzüne vuran yumuşak sis, botlarını
-ıslatıyor. Yüzüne ve elbiselerine yapışan örümcek ağları bu geziyi
-oldukça eğlencesiz bir hale sokuyor. Yukarıya doğru patikanın genişlediğini
-görüyorsun. Patika batı ve güneye doğru devam ediyor.
+RÃ¼zgarlÄ± Karaca Yolu~
+RÃ¼zgarlÄ± bir patikadasÄ±n. EtrafÄ±ndaki aÄŸaÃ§larÄ±n sesleri uyum iÃ§inde
+rÃ¼zgarÄ±n melodisine katÄ±lÄ±yorlar. YÃ¼zÃ¼ne vuran yumuÅŸak sis, botlarÄ±nÄ±
+Ä±slatÄ±yor. YÃ¼zÃ¼ne ve elbiselerine yapÄ±ÅŸan Ã¶rÃ¼mcek aÄŸlarÄ± bu geziyi
+oldukÃ§a eÄŸlencesiz bir hale sokuyor. YukarÄ±ya doÄŸru patikanÄ±n geniÅŸlediÄŸini
+gÃ¶rÃ¼yorsun. Patika batÄ± ve gÃ¼neye doÄŸru devam ediyor.
 ~
 0 A 3
 D2
-Güney patikası.
+GÃ¼ney patikasÄ±.
 ~
 ~
 0 0 18007
 D3
-Patika genişliyor.
+Patika geniÅŸliyor.
 ~
 ~
 0 0 18009
 S
 #18009
-Genişleyen Patika~
-Aniden patikanın genişlediğini, yolunun üzerindeki dalların ve ağaç
-köklerinin azaldığını fark ediyorsun. Yoldaki çakıllar azalıyor ve yol
-gittikçe daha da yumuşuyor. Aniden dağın büyük duvarları solunda büyüyerek
-çıkmaz bir yol oluşturuyor. Patika batı ve doğu yönlerinde devam ediyor.
+GeniÅŸleyen Patika~
+Aniden patikanÄ±n geniÅŸlediÄŸini, yolunun Ã¼zerindeki dallarÄ±n ve aÄŸaÃ§
+kÃ¶klerinin azaldÄ±ÄŸÄ±nÄ± fark ediyorsun. Yoldaki Ã§akÄ±llar azalÄ±yor ve yol
+gittikÃ§e daha da yumuÅŸuyor. Aniden daÄŸÄ±n bÃ¼yÃ¼k duvarlarÄ± solunda bÃ¼yÃ¼yerek
+Ã§Ä±kmaz bir yol oluÅŸturuyor. Patika batÄ± ve doÄŸu yÃ¶nlerinde devam ediyor.
 ~
 0 A 3
 D1
@@ -1914,32 +1914,32 @@ Patika devam ediyor.
 0 0 18010
 S
 #18010
-Eski ve İlginç Bir Köprüde~
-Evet, sen haklıydın. Dağın duvarları patikanın önünü kesiyor. Küçük,
-ilginç bir köprü kuzeyde yer alıyor. Sağlam ve geçmek için güvenli
-görünüyor. Dinlendirici bir sesle, köprünün altından küçük derenin
-sesini duyuyorsun. Orman derenin diğer tarafında daha gür. Patika,
-köprünün üzerinden geçerek, kuzeye ve doğuya devam ediyor
+Eski ve Ä°lginÃ§ Bir KÃ¶prÃ¼de~
+Evet, sen haklÄ±ydÄ±n. DaÄŸÄ±n duvarlarÄ± patikanÄ±n Ã¶nÃ¼nÃ¼ kesiyor. KÃ¼Ã§Ã¼k,
+ilginÃ§ bir kÃ¶prÃ¼ kuzeyde yer alÄ±yor. SaÄŸlam ve geÃ§mek iÃ§in gÃ¼venli
+gÃ¶rÃ¼nÃ¼yor. Dinlendirici bir sesle, kÃ¶prÃ¼nÃ¼n altÄ±ndan kÃ¼Ã§Ã¼k derenin
+sesini duyuyorsun. Orman derenin diÄŸer tarafÄ±nda daha gÃ¼r. Patika,
+kÃ¶prÃ¼nÃ¼n Ã¼zerinden geÃ§erek, kuzeye ve doÄŸuya devam ediyor
 ~
 0 A 3
 D0
-Köprünün üstünde.
+KÃ¶prÃ¼nÃ¼n Ã¼stÃ¼nde.
 ~
 ~
 0 0 18011
 D1
-Patikaya geri dönüş.
+Patikaya geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18009
 S
 #18011
-Eski ve İlginç Bir Köprüde~
-Köprüyü geçtiğinde onun gerçekten ne kadar sağlam yapıldığının farkına
-varıyorsun. Aşağıda güneş ışığı gümüş ve kuvars renklerine bürünüp
-dinlendirici bir etki yapıyor. Küçük aynalı bir sazan suda sıçrayıp,
-çizmelerinin ıslanmasına yol açıyor. Bu kesinlikle güzel bir andı. Kuzey
-ve güney yönleri önünde uzuyor.
+Eski ve Ä°lginÃ§ Bir KÃ¶prÃ¼de~
+KÃ¶prÃ¼yÃ¼ geÃ§tiÄŸinde onun gerÃ§ekten ne kadar saÄŸlam yapÄ±ldÄ±ÄŸÄ±nÄ±n farkÄ±na
+varÄ±yorsun. AÅŸaÄŸÄ±da gÃ¼neÅŸ Ä±ÅŸÄ±ÄŸÄ± gÃ¼mÃ¼ÅŸ ve kuvars renklerine bÃ¼rÃ¼nÃ¼p
+dinlendirici bir etki yapÄ±yor. KÃ¼Ã§Ã¼k aynalÄ± bir sazan suda sÄ±Ã§rayÄ±p,
+Ã§izmelerinin Ä±slanmasÄ±na yol aÃ§Ä±yor. Bu kesinlikle gÃ¼zel bir andÄ±. Kuzey
+ve gÃ¼ney yÃ¶nleri Ã¶nÃ¼nde uzuyor.
 ~
 0 A 3
 D0
@@ -1948,23 +1948,23 @@ Patika devam ediyor...
 ~
 0 0 18012
 D2
-Geri patikaya doğru.
+Geri patikaya doÄŸru.
 ~
 ~
 0 0 18010
 S
 #18012
-Derenin Diğer Tarafında~
-Çalı çırpı ile dolu bir patikaya geldin. Mavi kuşların cıvıltıları ve
-tavus kuşlarının muhabbetleri ortama güzel bir soluk getiriyor. Uzun meşe
-ve akça ağaçları hatırlıyorsun. Ağaçların arasına dağılmış eğrelti otlarını
-görüyorsun. Etrafta büyüyen birkaç papatya burayı canlandırmış. Uzaktan
-çağlağan şelalenin ve duygusal Siyah Turna'nın ağlayışını duyuyorsun. Patika
-batı ve ,köprüye doğru, güney yönlerinde devam ediyor.
+Derenin DiÄŸer TarafÄ±nda~
+Ã‡alÄ± Ã§Ä±rpÄ± ile dolu bir patikaya geldin. Mavi kuÅŸlarÄ±n cÄ±vÄ±ltÄ±larÄ± ve
+tavus kuÅŸlarÄ±nÄ±n muhabbetleri ortama gÃ¼zel bir soluk getiriyor. Uzun meÅŸe
+ve akÃ§a aÄŸaÃ§larÄ± hatÄ±rlÄ±yorsun. AÄŸaÃ§larÄ±n arasÄ±na daÄŸÄ±lmÄ±ÅŸ eÄŸrelti otlarÄ±nÄ±
+gÃ¶rÃ¼yorsun. Etrafta bÃ¼yÃ¼yen birkaÃ§ papatya burayÄ± canlandÄ±rmÄ±ÅŸ. Uzaktan
+Ã§aÄŸlaÄŸan ÅŸelalenin ve duygusal Siyah Turna'nÄ±n aÄŸlayÄ±ÅŸÄ±nÄ± duyuyorsun. Patika
+batÄ± ve ,kÃ¶prÃ¼ye doÄŸru, gÃ¼ney yÃ¶nlerinde devam ediyor.
 ~
 0 A 3
 D2
-Köprüye geri dönüş.
+KÃ¶prÃ¼ye geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18011
@@ -1976,13 +1976,13 @@ Patika devam ediyor...
 S
 #18013
 Devam Eden Uzun Patika~
-Bu görkemli patikan aşağıya doğru ilerlerken, şelalenin belirginleşen
-ve yükselen sesini duyuyorsun. Rüzgarda sallanan ağaçlarla güneş gölge
-oyunları oynuyor. Ruhun neşeyle doluyor.Çalıların derinliklerinde korumaya
-değer nadir şeylerden biri olan kırmızı pinion kuşunu görüyorsun. Ağaçlar
-ve bitkiler barış içinde büyüyorlar. Burası ayrılmayı hiç istemediğin kadar
-güzel bir yer. Yumuşak bir meltem saçlarını dalgalandırıyor ve sana kır
-çiçeklerinin taze kokusu getiriyor. Patika doğu ve batı yönlerinde devam
+Bu gÃ¶rkemli patikan aÅŸaÄŸÄ±ya doÄŸru ilerlerken, ÅŸelalenin belirginleÅŸen
+ve yÃ¼kselen sesini duyuyorsun. RÃ¼zgarda sallanan aÄŸaÃ§larla gÃ¼neÅŸ gÃ¶lge
+oyunlarÄ± oynuyor. Ruhun neÅŸeyle doluyor.Ã‡alÄ±larÄ±n derinliklerinde korumaya
+deÄŸer nadir ÅŸeylerden biri olan kÄ±rmÄ±zÄ± pinion kuÅŸunu gÃ¶rÃ¼yorsun. AÄŸaÃ§lar
+ve bitkiler barÄ±ÅŸ iÃ§inde bÃ¼yÃ¼yorlar. BurasÄ± ayrÄ±lmayÄ± hiÃ§ istemediÄŸin kadar
+gÃ¼zel bir yer. YumuÅŸak bir meltem saÃ§larÄ±nÄ± dalgalandÄ±rÄ±yor ve sana kÄ±r
+Ã§iÃ§eklerinin taze kokusu getiriyor. Patika doÄŸu ve batÄ± yÃ¶nlerinde devam
 ediyor.
 ~
 0 A 3
@@ -1998,12 +1998,12 @@ Patika devam ediyor...
 0 0 18014
 S
 #18014
-Büyük Gözetleme Yeri~
-Venis Irmağının 300 ayak boğu yükseklikten en hızlı şekilde aktığı yerde
-duruyorsun. Bu ağaçların uçurumu kapatarak iyi iş yaptıklarını düşünüyorsun.
-Ustalıkla yapılmış köprünün ayakları arasındaki boşluk şelalenin önünde
-sallanıyor. Bir hata yapmaktan çok korkuyorsun, acaba köprüye doğru bir adım
-atmalı mı? Patika köprüye doğru güneye ve batıya uzanıyor.
+BÃ¼yÃ¼k GÃ¶zetleme Yeri~
+Venis IrmaÄŸÄ±nÄ±n 300 ayak boÄŸu yÃ¼kseklikten en hÄ±zlÄ± ÅŸekilde aktÄ±ÄŸÄ± yerde
+duruyorsun. Bu aÄŸaÃ§larÄ±n uÃ§urumu kapatarak iyi iÅŸ yaptÄ±klarÄ±nÄ± dÃ¼ÅŸÃ¼nÃ¼yorsun.
+UstalÄ±kla yapÄ±lmÄ±ÅŸ kÃ¶prÃ¼nÃ¼n ayaklarÄ± arasÄ±ndaki boÅŸluk ÅŸelalenin Ã¶nÃ¼nde
+sallanÄ±yor. Bir hata yapmaktan Ã§ok korkuyorsun, acaba kÃ¶prÃ¼ye doÄŸru bir adÄ±m
+atmalÄ± mÄ±? Patika kÃ¶prÃ¼ye doÄŸru gÃ¼neye ve batÄ±ya uzanÄ±yor.
 ~
 0 A 3
 D1
@@ -2012,150 +2012,150 @@ Back to the path.
 ~
 0 0 18013
 D2
-Köprüyü geçerken.
+KÃ¶prÃ¼yÃ¼ geÃ§erken.
 ~
 ~
 0 0 18015
 S
 #18015
-Köprü Yolunun Başlangıcı~
-Köprünün ilk kısmını geçmeye karar verdin. Aşağının nasıl olduğunu görmek
-için şöyle bir eğiliyorsun. Yaklaşık 300 ayak boyunda bir uçurum, yanlış
-bir adım ölümüne neden olur! Aşağıdaki köpükler aynı bulutlar gibi duruyor.
-Şelalenin hızlı akışı nedeniyle oluşan serin ve taze hava yüzüne çarpıyor.
-Burada sonsuza kadar kalabilirsin. Köprü güney yönünde devam ediyor, patikaya
-yönelmek için kuzeye gitmelisin.
+KÃ¶prÃ¼ Yolunun BaÅŸlangÄ±cÄ±~
+KÃ¶prÃ¼nÃ¼n ilk kÄ±smÄ±nÄ± geÃ§meye karar verdin. AÅŸaÄŸÄ±nÄ±n nasÄ±l olduÄŸunu gÃ¶rmek
+iÃ§in ÅŸÃ¶yle bir eÄŸiliyorsun. YaklaÅŸÄ±k 300 ayak boyunda bir uÃ§urum, yanlÄ±ÅŸ
+bir adÄ±m Ã¶lÃ¼mÃ¼ne neden olur! AÅŸaÄŸÄ±daki kÃ¶pÃ¼kler aynÄ± bulutlar gibi duruyor.
+Åelalenin hÄ±zlÄ± akÄ±ÅŸÄ± nedeniyle oluÅŸan serin ve taze hava yÃ¼zÃ¼ne Ã§arpÄ±yor.
+Burada sonsuza kadar kalabilirsin. KÃ¶prÃ¼ gÃ¼ney yÃ¶nÃ¼nde devam ediyor, patikaya
+yÃ¶nelmek iÃ§in kuzeye gitmelisin.
 ~
 0 A 3
 D0
-Patikaya geri dönüş.
+Patikaya geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18014
 D1
-Orada ilgi çekici bir şey göremiyorsun.
+Orada ilgi Ã§ekici bir ÅŸey gÃ¶remiyorsun.
 ~
-kapı~
+kapÄ±~
 1 -1 18017
 D2
-Köprüyü geçerken.
+KÃ¶prÃ¼yÃ¼ geÃ§erken.
 ~
 ~
 0 0 18016
 S
 #18016
-Köprü Yolunun Ortası~
-Köprünün bozulmuş kısmında duruyorsun. Şelaleye oldukça yakınsın, etrafını
-serin ve hoş bir sis kaplamış. Gökyüzünde hiç bulut olmadığının farkına
-varıyorsun. Bu gördüğün en güzel gün olmalı! Köprü kuzey ve güney yönlerinde
+KÃ¶prÃ¼ Yolunun OrtasÄ±~
+KÃ¶prÃ¼nÃ¼n bozulmuÅŸ kÄ±smÄ±nda duruyorsun. Åelaleye oldukÃ§a yakÄ±nsÄ±n, etrafÄ±nÄ±
+serin ve hoÅŸ bir sis kaplamÄ±ÅŸ. GÃ¶kyÃ¼zÃ¼nde hiÃ§ bulut olmadÄ±ÄŸÄ±nÄ±n farkÄ±na
+varÄ±yorsun. Bu gÃ¶rdÃ¼ÄŸÃ¼n en gÃ¼zel gÃ¼n olmalÄ±! KÃ¶prÃ¼ kuzey ve gÃ¼ney yÃ¶nlerinde
 devam ediyor.
 ~
 0 A 3
 D0
-Köprünün başlangıcı.
+KÃ¶prÃ¼nÃ¼n baÅŸlangÄ±cÄ±.
 ~
 ~
 0 0 18015
 D2
-Köprünün sonu.
+KÃ¶prÃ¼nÃ¼n sonu.
 ~
 ~
 0 0 18018
 S
 #18017
-Druid Lord'unun Gizli Çalışma Odası~
-Tökezleyerek odaya giriyorsun. Bu gördüğün en güzel oda! Beyaz mermerle
-döşenmiş, gri çizgiler halinde devam eden yol odanın güney bitimine kadar
-büyüleyici görkemli bir halı ile kaplanmış. Uzun kitap rafları bu mağaranın
-doğu duvarı boyunca uzanıyor. Bilgi kitapları, büyü kitapları, seremoni
-kitapları, tılsım kitapları ve daha fazlası. Meşeden yapılmış bir dev masası
-rafların önünde üzeri kağıtlarla kaplı olarak duruyor, açık mavi bir sandelye
-odanın kuzey köşesinde. Batı çıkısında ince bir çizgi halinde su benzeri
-bir sıvıyla dolu bir pencere görüyorsun. Bu şaşkınlık yaratan mağaranın
-duvarlarına kazılı bir yazı var: 'Dünyanın Aynası'. Berrak suya dikkatlice
-baktığında geçmişinden sahneler görüyorsun. Mağara karanlık olmasına rağmen,
-bu oda aydınlık ve konforlu. Duvarlara asılı birkaç meşale ve bunların
-merkezinde büyülü mavi dev ateşi parlıyor. İçeriyi ,en vahşi arzularının da
-ötesinde, büyülü bir hava doldurmuş. Çıkışların nerede olduğunu bilmek
+Druid Lord'unun Gizli Ã‡alÄ±ÅŸma OdasÄ±~
+TÃ¶kezleyerek odaya giriyorsun. Bu gÃ¶rdÃ¼ÄŸÃ¼n en gÃ¼zel oda! Beyaz mermerle
+dÃ¶ÅŸenmiÅŸ, gri Ã§izgiler halinde devam eden yol odanÄ±n gÃ¼ney bitimine kadar
+bÃ¼yÃ¼leyici gÃ¶rkemli bir halÄ± ile kaplanmÄ±ÅŸ. Uzun kitap raflarÄ± bu maÄŸaranÄ±n
+doÄŸu duvarÄ± boyunca uzanÄ±yor. Bilgi kitaplarÄ±, bÃ¼yÃ¼ kitaplarÄ±, seremoni
+kitaplarÄ±, tÄ±lsÄ±m kitaplarÄ± ve daha fazlasÄ±. MeÅŸeden yapÄ±lmÄ±ÅŸ bir dev masasÄ±
+raflarÄ±n Ã¶nÃ¼nde Ã¼zeri kaÄŸÄ±tlarla kaplÄ± olarak duruyor, aÃ§Ä±k mavi bir sandelye
+odanÄ±n kuzey kÃ¶ÅŸesinde. BatÄ± Ã§Ä±kÄ±sÄ±nda ince bir Ã§izgi halinde su benzeri
+bir sÄ±vÄ±yla dolu bir pencere gÃ¶rÃ¼yorsun. Bu ÅŸaÅŸkÄ±nlÄ±k yaratan maÄŸaranÄ±n
+duvarlarÄ±na kazÄ±lÄ± bir yazÄ± var: 'DÃ¼nyanÄ±n AynasÄ±'. Berrak suya dikkatlice
+baktÄ±ÄŸÄ±nda geÃ§miÅŸinden sahneler gÃ¶rÃ¼yorsun. MaÄŸara karanlÄ±k olmasÄ±na raÄŸmen,
+bu oda aydÄ±nlÄ±k ve konforlu. Duvarlara asÄ±lÄ± birkaÃ§ meÅŸale ve bunlarÄ±n
+merkezinde bÃ¼yÃ¼lÃ¼ mavi dev ateÅŸi parlÄ±yor. Ä°Ã§eriyi ,en vahÅŸi arzularÄ±nÄ±n da
+Ã¶tesinde, bÃ¼yÃ¼lÃ¼ bir hava doldurmuÅŸ. Ã‡Ä±kÄ±ÅŸlarÄ±n nerede olduÄŸunu bilmek
 istiyorsun.
 ~
 0 ADQ 0
 D3
-Köprüye geri dönüş.
+KÃ¶prÃ¼ye geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18015
 S
 #18018
-Köprü Yolunun Sonu~
-Köprünün son bölümüne ulaştın. Bu bölüm uçurumun kayalık kısmına inşa
-edilmiş. Çok yükseklerde güzel büyük bir kartal uçuyor. Önündeki yoğun
-ağaç ve bitki toplulukları seni selamlıyorlar. Yeniden toprağa ayak basmak
-için sabırsızlanıyorsun. Çıkışlar güneyde ve kuzeyde.
+KÃ¶prÃ¼ Yolunun Sonu~
+KÃ¶prÃ¼nÃ¼n son bÃ¶lÃ¼mÃ¼ne ulaÅŸtÄ±n. Bu bÃ¶lÃ¼m uÃ§urumun kayalÄ±k kÄ±smÄ±na inÅŸa
+edilmiÅŸ. Ã‡ok yÃ¼kseklerde gÃ¼zel bÃ¼yÃ¼k bir kartal uÃ§uyor. Ã–nÃ¼ndeki yoÄŸun
+aÄŸaÃ§ ve bitki topluluklarÄ± seni selamlÄ±yorlar. Yeniden topraÄŸa ayak basmak
+iÃ§in sabÄ±rsÄ±zlanÄ±yorsun. Ã‡Ä±kÄ±ÅŸlar gÃ¼neyde ve kuzeyde.
 ~
 0 A 3
 D0
-Köprü yolunun ortasına geri dönüş.
+KÃ¶prÃ¼ yolunun ortasÄ±na geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18016
 D2
-Toprak yola geri dönüş.
+Toprak yola geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18019
 S
 #18019
-Ana Yol Üzerinde~
-Evlat, tekrar toprağa ayak basmak gerçekten eşsiz bir duygu. Lale ve gül
-çalıları bu ilginç yere güzellik katarak patika yolu boyunca uzanıyorlar.
-Uzun ağaçlar sana gölgelik oluşturuyor. Bulunduğun patika, aynı evinin
-yoluna benziyor. Bir yada iki kişi için yeterli büyüklüklükte, uzun ve
-eğimli. Her adımının seni tepeden tırnağa bir çeşit vadiye götürdüğünü
-söyleyebilirsin. Etrafındaki yerler asırlar önce depremler ve fırtılar
-sayesinde bu halini almışlar. Patika kuzeyde köprüye, güneyde ana yola
-doğru devam ediyor.
+Ana Yol Ãœzerinde~
+Evlat, tekrar topraÄŸa ayak basmak gerÃ§ekten eÅŸsiz bir duygu. Lale ve gÃ¼l
+Ã§alÄ±larÄ± bu ilginÃ§ yere gÃ¼zellik katarak patika yolu boyunca uzanÄ±yorlar.
+Uzun aÄŸaÃ§lar sana gÃ¶lgelik oluÅŸturuyor. BulunduÄŸun patika, aynÄ± evinin
+yoluna benziyor. Bir yada iki kiÅŸi iÃ§in yeterli bÃ¼yÃ¼klÃ¼klÃ¼kte, uzun ve
+eÄŸimli. Her adÄ±mÄ±nÄ±n seni tepeden tÄ±rnaÄŸa bir Ã§eÅŸit vadiye gÃ¶tÃ¼rdÃ¼ÄŸÃ¼nÃ¼
+sÃ¶yleyebilirsin. EtrafÄ±ndaki yerler asÄ±rlar Ã¶nce depremler ve fÄ±rtÄ±lar
+sayesinde bu halini almÄ±ÅŸlar. Patika kuzeyde kÃ¶prÃ¼ye, gÃ¼neyde ana yola
+doÄŸru devam ediyor.
 ~
 0 A 3
 D0
-Köprüye dönüş.
+KÃ¶prÃ¼ye dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18018
 D2
-Ana yola doğru.
+Ana yola doÄŸru.
 ~
 ~
 0 0 18020
 S
 #18020
-Vadi'ye Giriş~
-Burası Uzak Diyarlar'ın nadide yerlerinden biri. Kayaya oyulmuş bir işaret
-okunmayı bekliyor. Buranın neye benzediğini görmek ilginç olacaktır. Yol
-kuzeye ve doğuya devam ediyor.
+Vadi'ye GiriÅŸ~
+BurasÄ± Uzak Diyarlar'Ä±n nadide yerlerinden biri. Kayaya oyulmuÅŸ bir iÅŸaret
+okunmayÄ± bekliyor. BuranÄ±n neye benzediÄŸini gÃ¶rmek ilginÃ§ olacaktÄ±r. Yol
+kuzeye ve doÄŸuya devam ediyor.
 ~
 0 A 3
 E
-vadi işareti~
+vadi iÅŸareti~
  ____________________________________________________________
 |\ ________________________________________________________/ |
-| |             Titan Vadisine Hoş Geldiniz                | |
+| |             Titan Vadisine HoÅŸ Geldiniz                | |
 | |                                                        | |
-| | Umarız seyahatinizden memnun kalırsınız                | |
-| | Ve bizim harika topraklarımızın tadını çıkarırsınız.   | |
-| | Kültürümüzü daha yakından tanımanızı isteriz           | |
-| |             Topraklarımıza hoş geldiniz.               | |
-| |          İmza: Kral ve Kraliçe.                        | |
+| | UmarÄ±z seyahatinizden memnun kalÄ±rsÄ±nÄ±z                | |
+| | Ve bizim harika topraklarÄ±mÄ±zÄ±n tadÄ±nÄ± Ã§Ä±karÄ±rsÄ±nÄ±z.   | |
+| | KÃ¼ltÃ¼rÃ¼mÃ¼zÃ¼ daha yakÄ±ndan tanÄ±manÄ±zÄ± isteriz           | |
+| |             TopraklarÄ±mÄ±za hoÅŸ geldiniz.               | |
+| |          Ä°mza: Kral ve KraliÃ§e.                        | |
 | |________________________________________________________| |
 |/__________________________________________________________\|
 ~
 D0
-Köprüye geri dönüş.
+KÃ¶prÃ¼ye geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18019
 D1
-Bir eve doğru giden patika.
+Bir eve doÄŸru giden patika.
 ~
 ~
 0 0 18021
@@ -2166,46 +2166,46 @@ Yol boyunca.
 0 0 18023
 S
 #18021
-Süslü Eve Giden Patika~
-Çok süslü bir eve giden taşlık bir yoldasın. Güzelce budanmış çiçekler ve
-çalılar evin önündeki koyu yeşil otların yanında derli toplu duruyorlar.
-Ev beyaz ve büyük. Sahibi bir Lord veya bir Lady olmalı. Bu aşırı büyük evde
-kimin yaşadığını merak ediyorsun. Çıkışlar doğuda eve doğru, batıda ana
-yola doğru.
+SÃ¼slÃ¼ Eve Giden Patika~
+Ã‡ok sÃ¼slÃ¼ bir eve giden taÅŸlÄ±k bir yoldasÄ±n. GÃ¼zelce budanmÄ±ÅŸ Ã§iÃ§ekler ve
+Ã§alÄ±lar evin Ã¶nÃ¼ndeki koyu yeÅŸil otlarÄ±n yanÄ±nda derli toplu duruyorlar.
+Ev beyaz ve bÃ¼yÃ¼k. Sahibi bir Lord veya bir Lady olmalÄ±. Bu aÅŸÄ±rÄ± bÃ¼yÃ¼k evde
+kimin yaÅŸadÄ±ÄŸÄ±nÄ± merak ediyorsun. Ã‡Ä±kÄ±ÅŸlar doÄŸuda eve doÄŸru, batÄ±da ana
+yola doÄŸru.
 ~
 0 A 3
 D1
-Antrenin önünde.
+Antrenin Ã¶nÃ¼nde.
 ~
-kapı~
+kapÄ±~
 1 0 18022
 D3
-Yola geri dönüş.
+Yola geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18020
 S
 #18022
-Antrenin Önünde~
-Antredesin ve etrafına bakınıyorsun. Bu evin hayrete düşüren bir güzelliği
-var. Duvar halıları ve taze çiçeklerle dolu vazolar özenle döşenmiş. Bir
-zerre toz bile bulmak imkansız. Bu kadar temiz ve düzenli kalması için
-böyle bir evde oldukça fazla hizmetçinin olması gerekiyor. Davetsiz girmek
-istemediğin için çıkmayı düşünüyorsun. Tek çıkış batıda, yola uzanıyor.
+Antrenin Ã–nÃ¼nde~
+Antredesin ve etrafÄ±na bakÄ±nÄ±yorsun. Bu evin hayrete dÃ¼ÅŸÃ¼ren bir gÃ¼zelliÄŸi
+var. Duvar halÄ±larÄ± ve taze Ã§iÃ§eklerle dolu vazolar Ã¶zenle dÃ¶ÅŸenmiÅŸ. Bir
+zerre toz bile bulmak imkansÄ±z. Bu kadar temiz ve dÃ¼zenli kalmasÄ± iÃ§in
+bÃ¶yle bir evde oldukÃ§a fazla hizmetÃ§inin olmasÄ± gerekiyor. Davetsiz girmek
+istemediÄŸin iÃ§in Ã§Ä±kmayÄ± dÃ¼ÅŸÃ¼nÃ¼yorsun. Tek Ã§Ä±kÄ±ÅŸ batÄ±da, yola uzanÄ±yor.
 ~
 0 A 0
 D3
-Yola geri dönüş.
+Yola geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18021
 S
 #18023
-Rüzgarlı Bir Yol~
-Yokuş aşağıya kıvrılan rüzgarlı bir yoldasın. Seyrek görülen ağaçlar şimdi
-artarak yolun iki tarafında yayılıyorlar. Hava aydınlık. Vadide bir in
-bulmak için iyi zaman. Tanrı bilir geceleri bu ormanlık alanda hangi hayvanlar
-türüyordur... Patika doğu ve batı yönlerinde devam ediyor.
+RÃ¼zgarlÄ± Bir Yol~
+YokuÅŸ aÅŸaÄŸÄ±ya kÄ±vrÄ±lan rÃ¼zgarlÄ± bir yoldasÄ±n. Seyrek gÃ¶rÃ¼len aÄŸaÃ§lar ÅŸimdi
+artarak yolun iki tarafÄ±nda yayÄ±lÄ±yorlar. Hava aydÄ±nlÄ±k. Vadide bir in
+bulmak iÃ§in iyi zaman. TanrÄ± bilir geceleri bu ormanlÄ±k alanda hangi hayvanlar
+tÃ¼rÃ¼yordur... Patika doÄŸu ve batÄ± yÃ¶nlerinde devam ediyor.
 ~
 0 A 3
 D1
@@ -2220,11 +2220,11 @@ Patika devam ediyor...
 0 0 18024
 S
 #18024
-Etrafı Açıklık Bir Ova~
-Orman seyrekleşiyor. Yoldasın. Ormanın ilerde yeniden gürleştiğini
-görebiliyorsun. Yakınlarda bir kasaba bulabilsen senin için iyi olacak,
-yoksa geceyi doğu yönündeki zenginlerle geçirmen gerekecek. Kuzeyde
-bir dev plaketi görüyorsun. Çıkışlar doğu, batı ve kuzey yönlerinde.
+EtrafÄ± AÃ§Ä±klÄ±k Bir Ova~
+Orman seyrekleÅŸiyor. YoldasÄ±n. OrmanÄ±n ilerde yeniden gÃ¼rleÅŸtiÄŸini
+gÃ¶rebiliyorsun. YakÄ±nlarda bir kasaba bulabilsen senin iÃ§in iyi olacak,
+yoksa geceyi doÄŸu yÃ¶nÃ¼ndeki zenginlerle geÃ§irmen gerekecek. Kuzeyde
+bir dev plaketi gÃ¶rÃ¼yorsun. Ã‡Ä±kÄ±ÅŸlar doÄŸu, batÄ± ve kuzey yÃ¶nlerinde.
 ~
 0 A 3
 D0
@@ -2243,11 +2243,11 @@ Patika devam ediyor...
 0 0 18025
 S
 #18025
-Gür Ormanlara Geri Dönüş~
-Tekrar vadinin sık ormanlarındasın. Kuzey yönünde güneş ışınlarında
-parıldayan bir göl görüyorsun. Bir geyik yağmurun oluşturduğu
-birikintiden su içiyor. Hava kararmaya başladı ve yakınlarda bir kasaba
-bulamazsan geceyi ormanda geçireceksin. Çıkışlar doğu ve batı yönlerinde.
+GÃ¼r Ormanlara Geri DÃ¶nÃ¼ÅŸ~
+Tekrar vadinin sÄ±k ormanlarÄ±ndasÄ±n. Kuzey yÃ¶nÃ¼nde gÃ¼neÅŸ Ä±ÅŸÄ±nlarÄ±nda
+parÄ±ldayan bir gÃ¶l gÃ¶rÃ¼yorsun. Bir geyik yaÄŸmurun oluÅŸturduÄŸu
+birikintiden su iÃ§iyor. Hava kararmaya baÅŸladÄ± ve yakÄ±nlarda bir kasaba
+bulamazsan geceyi ormanda geÃ§ireceksin. Ã‡Ä±kÄ±ÅŸlar doÄŸu ve batÄ± yÃ¶nlerinde.
 ~
 0 A 3
 D1
@@ -2262,33 +2262,33 @@ Patika devam ediyor...
 0 0 18026
 S
 #18026
-Kasaba Sınırlarında~
-Oldukça fazla yol katederek sonunda Titan Vadisi'nin merkez kasabasını
-buldun. Sığınacağın kasaba çok geniş ve güzel bir ada gibi duruyor.
-Güzel bir köprü kasabaya girişi sağlıyor. Kasabada birden fazla han
-bulunduğundan eminsin. Acele etmek en iyisi, belki köprüler karanlıkta
-kapatılıyorlardır. Çıkışlar doğu ve güney yönlerinde kasabaya doğru
+Kasaba SÄ±nÄ±rlarÄ±nda~
+OldukÃ§a fazla yol katederek sonunda Titan Vadisi'nin merkez kasabasÄ±nÄ±
+buldun. SÄ±ÄŸÄ±nacaÄŸÄ±n kasaba Ã§ok geniÅŸ ve gÃ¼zel bir ada gibi duruyor.
+GÃ¼zel bir kÃ¶prÃ¼ kasabaya giriÅŸi saÄŸlÄ±yor. Kasabada birden fazla han
+bulunduÄŸundan eminsin. Acele etmek en iyisi, belki kÃ¶prÃ¼ler karanlÄ±kta
+kapatÄ±lÄ±yorlardÄ±r. Ã‡Ä±kÄ±ÅŸlar doÄŸu ve gÃ¼ney yÃ¶nlerinde kasabaya doÄŸru
 devam ediyor.
 ~
 0 A 3
 D1
-Ana yola geri dönüş.
+Ana yola geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18025
 D2
-Köprülere giden yol.
+KÃ¶prÃ¼lere giden yol.
 ~
 ~
 0 0 18027
 S
 #18027
-Köprü Girişi~
-Titan şehrine açılan altın köprülerin girişindesin. Burada bir kaç muhafız
-vadiye gelen yolcuları karşılıyor. Hava gittikçe kararıyor ve gece çöktüğünde
-şehrin içinde olmayı istiyorsun.  Hisar hendeği ve uzun taştan duvarlarla
-korunan şehre girmek için köprünün başına geliyorsun. Şehir oldukça güvenli
-görünüyor. Çıkışlar güney ve kuzey yönlerinde.
+KÃ¶prÃ¼ GiriÅŸi~
+Titan ÅŸehrine aÃ§Ä±lan altÄ±n kÃ¶prÃ¼lerin giriÅŸindesin. Burada bir kaÃ§ muhafÄ±z
+vadiye gelen yolcularÄ± karÅŸÄ±lÄ±yor. Hava gittikÃ§e kararÄ±yor ve gece Ã§Ã¶ktÃ¼ÄŸÃ¼nde
+ÅŸehrin iÃ§inde olmayÄ± istiyorsun.  Hisar hendeÄŸi ve uzun taÅŸtan duvarlarla
+korunan ÅŸehre girmek iÃ§in kÃ¶prÃ¼nÃ¼n baÅŸÄ±na geliyorsun. Åehir oldukÃ§a gÃ¼venli
+gÃ¶rÃ¼nÃ¼yor. Ã‡Ä±kÄ±ÅŸlar gÃ¼ney ve kuzey yÃ¶nlerinde.
 ~
 0 A 3
 D0
@@ -2297,100 +2297,100 @@ Back to the path.
 ~
 0 0 18026
 D2
-Köprüde.
+KÃ¶prÃ¼de.
 ~
 ~
 0 0 18028
 S
 #18028
-Köprünün Başlangıcı~
-Şehrin dev Köprülerine doğru ilk adımını atıyorsun. Yürüyen ve konuşan
-birçok kişi görüyorsun. Zemin açık yeşil bir halı ile kaplanmış. Yan
-duvarlarda kristal parlaklığındaki pencereler ve tavanı aydınlatan meşaleler
-ilgini çekiyorlar. Yanan ziftin kokusu, sana geçen kış gittiğin büyükannenin
-kır evini hatırlatıyor. Patika kuzey ve güney yönlerinde devam ediyor.
+KÃ¶prÃ¼nÃ¼n BaÅŸlangÄ±cÄ±~
+Åehrin dev KÃ¶prÃ¼lerine doÄŸru ilk adÄ±mÄ±nÄ± atÄ±yorsun. YÃ¼rÃ¼yen ve konuÅŸan
+birÃ§ok kiÅŸi gÃ¶rÃ¼yorsun. Zemin aÃ§Ä±k yeÅŸil bir halÄ± ile kaplanmÄ±ÅŸ. Yan
+duvarlarda kristal parlaklÄ±ÄŸÄ±ndaki pencereler ve tavanÄ± aydÄ±nlatan meÅŸaleler
+ilgini Ã§ekiyorlar. Yanan ziftin kokusu, sana geÃ§en kÄ±ÅŸ gittiÄŸin bÃ¼yÃ¼kannenin
+kÄ±r evini hatÄ±rlatÄ±yor. Patika kuzey ve gÃ¼ney yÃ¶nlerinde devam ediyor.
 ~
 0 A 0
 D0
-Yola geri dönüş.
+Yola geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18027
 D2
-Köprüde.
+KÃ¶prÃ¼de.
 ~
 ~
 0 0 18029
 S
 #18029
-Köprüde~
-Pencerelere baktığında, ayın berrak sulara vuran yansımasını görebiliyorsun.
-Kalabalık birden şehrin merkezine doğru yürümeye başlıyor. Şimdiye kadar bu
-kadar çok ırkın bir arada bulunduğunu görmemiştin, ne kadar enteresan. Köprü
-yolu kuzey ve güney yönlerinde devam ediyor.
+KÃ¶prÃ¼de~
+Pencerelere baktÄ±ÄŸÄ±nda, ayÄ±n berrak sulara vuran yansÄ±masÄ±nÄ± gÃ¶rebiliyorsun.
+KalabalÄ±k birden ÅŸehrin merkezine doÄŸru yÃ¼rÃ¼meye baÅŸlÄ±yor. Åimdiye kadar bu
+kadar Ã§ok Ä±rkÄ±n bir arada bulunduÄŸunu gÃ¶rmemiÅŸtin, ne kadar enteresan. KÃ¶prÃ¼
+yolu kuzey ve gÃ¼ney yÃ¶nlerinde devam ediyor.
 ~
 0 A 0
 D0
-Köprünün başlangıcına dönüş.
+KÃ¶prÃ¼nÃ¼n baÅŸlangÄ±cÄ±na dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18028
 D2
-Köprüde.
+KÃ¶prÃ¼de.
 ~
 ~
 0 0 18030
 S
 #18030
-Köprüde~
-Pencerelere baktığında, ayın berrak sulara vuran yansımasını görebiliyorsun.
-Meşaleler yolunu fazlaca aydınlatmışlar. Şehre girmenin ne kadar süreceğini
-merak ediyorsun. Patika kuzey ve güney yönlerinde devam ediyor.
+KÃ¶prÃ¼de~
+Pencerelere baktÄ±ÄŸÄ±nda, ayÄ±n berrak sulara vuran yansÄ±masÄ±nÄ± gÃ¶rebiliyorsun.
+MeÅŸaleler yolunu fazlaca aydÄ±nlatmÄ±ÅŸlar. Åehre girmenin ne kadar sÃ¼receÄŸini
+merak ediyorsun. Patika kuzey ve gÃ¼ney yÃ¶nlerinde devam ediyor.
 ~
 0 A 0
 D0
-Geldiğin yere dönüş.
+GeldiÄŸin yere dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18029
 D2
-Köprüde.
+KÃ¶prÃ¼de.
 ~
 ~
 0 0 18031
 S
 #18031
-Köprünün Ortası~
-Sonunda köprünün ortasına ulaşabildin. Herkez aynı yöne gidiyormuş gibi
-görünüyor, hiç kimse telaş içinde değil. Bazı kişilerin gerçekten çok iyi
-giyimli olduğunun farkına varıyorsun. Şöyle bir kez daha bakıyorsun da herkes
-oldukça derli toplu. Üzerindeki yolculuk kıyafeti ve savaş zırhları ile
-buradan olmadığın anlaşılıyor. Belki daha kibar birkaç kıyafet satın
-almalısın, tabii ki sendeki altınları kabul ederlerse... Patika kuzey ve
-güney yönlerinde devam ediyor.
+KÃ¶prÃ¼nÃ¼n OrtasÄ±~
+Sonunda kÃ¶prÃ¼nÃ¼n ortasÄ±na ulaÅŸabildin. Herkez aynÄ± yÃ¶ne gidiyormuÅŸ gibi
+gÃ¶rÃ¼nÃ¼yor, hiÃ§ kimse telaÅŸ iÃ§inde deÄŸil. BazÄ± kiÅŸilerin gerÃ§ekten Ã§ok iyi
+giyimli olduÄŸunun farkÄ±na varÄ±yorsun. ÅÃ¶yle bir kez daha bakÄ±yorsun da herkes
+oldukÃ§a derli toplu. Ãœzerindeki yolculuk kÄ±yafeti ve savaÅŸ zÄ±rhlarÄ± ile
+buradan olmadÄ±ÄŸÄ±n anlaÅŸÄ±lÄ±yor. Belki daha kibar birkaÃ§ kÄ±yafet satÄ±n
+almalÄ±sÄ±n, tabii ki sendeki altÄ±nlarÄ± kabul ederlerse... Patika kuzey ve
+gÃ¼ney yÃ¶nlerinde devam ediyor.
 ~
 0 A 0
 D0
-Köprü devam ediyor.
+KÃ¶prÃ¼ devam ediyor.
 ~
 ~
 0 0 18030
 D2
-Köprü devam ediyor.
+KÃ¶prÃ¼ devam ediyor.
 ~
 ~
 0 0 18032
 S
 #18032
-Köprünün Batı Yakası~
-Seni doğrudan şehre götürecek köprünün uzanan bir yakasındasın. Çanak çömlek
-satan seyyar satıcıları görüyorsun. Sıcak bir yemek ve rahat bir yatak için
-bir han bulmak istiyorsun. Yol güneyde şehir merkezine, kuzeyde köprünün
-ortasına doğru devam ediyor.
+KÃ¶prÃ¼nÃ¼n BatÄ± YakasÄ±~
+Seni doÄŸrudan ÅŸehre gÃ¶tÃ¼recek kÃ¶prÃ¼nÃ¼n uzanan bir yakasÄ±ndasÄ±n. Ã‡anak Ã§Ã¶mlek
+satan seyyar satÄ±cÄ±larÄ± gÃ¶rÃ¼yorsun. SÄ±cak bir yemek ve rahat bir yatak iÃ§in
+bir han bulmak istiyorsun. Yol gÃ¼neyde ÅŸehir merkezine, kuzeyde kÃ¶prÃ¼nÃ¼n
+ortasÄ±na doÄŸru devam ediyor.
 ~
 0 A 0
 D0
-Köprüye geri dönüş.
+KÃ¶prÃ¼ye geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18031
@@ -2400,12 +2400,12 @@ D2
 0 0 18033
 S
 #18033
-Şehir Girişi~
-Titanların Şehrine hoşgeldin! Burada bir çok ırk yaşar. Bu şehrin nüfusu
-Selenge, Thalos ve Ofcol'un toplamından daha fazladır! En iyi hanın nerede
-olduğunu merak ediyorsun. Yürüyüş çizmelerini çıkararak, sıcak bir ateşin
-başına geçip pipo tüttürmek hoş olacaktır. Çıkışlar doğu ve batı yönlerinde
-ahıra, kuzeyde köprüye ve güneyde şehre doğru devam ediyor.
+Åehir GiriÅŸi~
+TitanlarÄ±n Åehrine hoÅŸgeldin! Burada bir Ã§ok Ä±rk yaÅŸar. Bu ÅŸehrin nÃ¼fusu
+Selenge, Thalos ve Ofcol'un toplamÄ±ndan daha fazladÄ±r! En iyi hanÄ±n nerede
+olduÄŸunu merak ediyorsun. YÃ¼rÃ¼yÃ¼ÅŸ Ã§izmelerini Ã§Ä±kararak, sÄ±cak bir ateÅŸin
+baÅŸÄ±na geÃ§ip pipo tÃ¼ttÃ¼rmek hoÅŸ olacaktÄ±r. Ã‡Ä±kÄ±ÅŸlar doÄŸu ve batÄ± yÃ¶nlerinde
+ahÄ±ra, kuzeyde kÃ¶prÃ¼ye ve gÃ¼neyde ÅŸehre doÄŸru devam ediyor.
 ~
 0 A 1
 D0
@@ -2413,7 +2413,7 @@ D0
 ~
 0 0 18032
 D1
-Ahırlara doğru.
+AhÄ±rlara doÄŸru.
 ~
 ~
 0 0 18034
@@ -2423,42 +2423,42 @@ Ana cadde boyunca.
 ~
 0 0 18036
 D3
-Ahırlara doğru.
+AhÄ±rlara doÄŸru.
 ~
 ~
 0 0 18035
 S
 #18034
-Doğu Ahırları~
-Doğu Ahırlarına geldin. Etrafta kimseler görünmüyor. Atlar için güzel bir
-konaklama yeri... Taze ot, sınırsız su ve temiz bir ahır. Çıkış batıda ana
-caddeye doğru devam ediyor.
+DoÄŸu AhÄ±rlarÄ±~
+DoÄŸu AhÄ±rlarÄ±na geldin. Etrafta kimseler gÃ¶rÃ¼nmÃ¼yor. Atlar iÃ§in gÃ¼zel bir
+konaklama yeri... Taze ot, sÄ±nÄ±rsÄ±z su ve temiz bir ahÄ±r. Ã‡Ä±kÄ±ÅŸ batÄ±da ana
+caddeye doÄŸru devam ediyor.
 ~
 0 A 0
 D3
-Ana caddeye geri dönüş.
+Ana caddeye geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18033
 S
 #18035
-Batı Ahırları~
-Batı Ahırlarına geldin. Etrafta kimseler görünmüyor. Atlar için güzel bir
-konaklama yeri... Taze ot, sınırsız su ve temiz bir ahır. Çıkış doğuda ana
-caddeye doğru devam ediyor.
+BatÄ± AhÄ±rlarÄ±~
+BatÄ± AhÄ±rlarÄ±na geldin. Etrafta kimseler gÃ¶rÃ¼nmÃ¼yor. Atlar iÃ§in gÃ¼zel bir
+konaklama yeri... Taze ot, sÄ±nÄ±rsÄ±z su ve temiz bir ahÄ±r. Ã‡Ä±kÄ±ÅŸ doÄŸuda ana
+caddeye doÄŸru devam ediyor.
 ~
 0 A 0
 D1
-Ana caddeye geri dönüş.
+Ana caddeye geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18033
 S
 #18036
 Ana Cadde~
-Ana caddede yürürken doğu ve batında bir çok dükkan görüyorsun. Hepsi de
-oldukça ilginç görünüyor. Yol taştan yapılmış, oldukça temiz ve düzenli.
-İki tarafında da dar kaldırımlar bulunuyor. Yol kuzey ve güney yönlerinde
+Ana caddede yÃ¼rÃ¼rken doÄŸu ve batÄ±nda bir Ã§ok dÃ¼kkan gÃ¶rÃ¼yorsun. Hepsi de
+oldukÃ§a ilginÃ§ gÃ¶rÃ¼nÃ¼yor. Yol taÅŸtan yapÄ±lmÄ±ÅŸ, oldukÃ§a temiz ve dÃ¼zenli.
+Ä°ki tarafÄ±nda da dar kaldÄ±rÄ±mlar bulunuyor. Yol kuzey ve gÃ¼ney yÃ¶nlerinde
 devam ediyor.
 ~
 0 A 1
@@ -2474,11 +2474,11 @@ Yol devam ediyor.
 0 0 18037
 S
 #18037
-Hapishane Yanında~
-Doğu tarafında oldukça tertipli bir hapishane görüyorsun. Sağlam kırmızı
-tuğlalardan yapılmış olan bu yapı oldukça iyi korunuyor. Böyle bir kasabada
-suç işleyen birilerinin olduğuna inanamıyorsun! Yol güney, kuzey ve doğu
-yönlerinde devam ediyor.
+Hapishane YanÄ±nda~
+DoÄŸu tarafÄ±nda oldukÃ§a tertipli bir hapishane gÃ¶rÃ¼yorsun. SaÄŸlam kÄ±rmÄ±zÄ±
+tuÄŸlalardan yapÄ±lmÄ±ÅŸ olan bu yapÄ± oldukÃ§a iyi korunuyor. BÃ¶yle bir kasabada
+suÃ§ iÅŸleyen birilerinin olduÄŸuna inanamÄ±yorsun! Yol gÃ¼ney, kuzey ve doÄŸu
+yÃ¶nlerinde devam ediyor.
 ~
 0 A 1
 D0
@@ -2487,9 +2487,9 @@ Ana cadde devam ediyor.
 ~
 0 0 18036
 D1
-Hapishaneye doğru.
+Hapishaneye doÄŸru.
 ~
-kapı~
+kapÄ±~
 1 0 18038
 D2
 Ana cadde devam ediyor.
@@ -2499,10 +2499,10 @@ Ana cadde devam ediyor.
 S
 #18038
 Hapishanenin Ana Ofisi~
-Birçok bankın ve kabinin bulunduğu genişçe bir odaya girdin. İlerde üzerinde
-'Hücreler' yazan bir işaret görüyorsun. Burada seninle ilgilenemeyecek kadar
-meşgul birkaç muhafız ve şerif var. Çıkışlar kuzeyde merdivenlere, batıda
-caddeye doğru devam ediyor.
+BirÃ§ok bankÄ±n ve kabinin bulunduÄŸu geniÅŸÃ§e bir odaya girdin. Ä°lerde Ã¼zerinde
+'HÃ¼creler' yazan bir iÅŸaret gÃ¶rÃ¼yorsun. Burada seninle ilgilenemeyecek kadar
+meÅŸgul birkaÃ§ muhafÄ±z ve ÅŸerif var. Ã‡Ä±kÄ±ÅŸlar kuzeyde merdivenlere, batÄ±da
+caddeye doÄŸru devam ediyor.
 ~
 0 A 1
 D0
@@ -2511,55 +2511,55 @@ Merdivenler.
 ~
 0 0 18039
 D3
-Ana caddeye geri dönüş.
+Ana caddeye geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18037
 S
 #18039
-Karanlık Merdivenler~
-Evet başardın! Hücrelere giden yolu buldun. Merdivenler oldukça dar ve sarmal
-şeklinde dökme demirden yapılmış. Bir çok meşale yolu aydınlatarak olduğundan
-daha korkunç hale getiriyor. Merdivenlerin sonunda ne olduğu merak ediyorsun,
-ne bulacaksın ve neler olacak. Çıkışlar güney ve aşağı yönlerinde.
+KaranlÄ±k Merdivenler~
+Evet baÅŸardÄ±n! HÃ¼crelere giden yolu buldun. Merdivenler oldukÃ§a dar ve sarmal
+ÅŸeklinde dÃ¶kme demirden yapÄ±lmÄ±ÅŸ. Bir Ã§ok meÅŸale yolu aydÄ±nlatarak olduÄŸundan
+daha korkunÃ§ hale getiriyor. Merdivenlerin sonunda ne olduÄŸu merak ediyorsun,
+ne bulacaksÄ±n ve neler olacak. Ã‡Ä±kÄ±ÅŸlar gÃ¼ney ve aÅŸaÄŸÄ± yÃ¶nlerinde.
 ~
 0 A 1
 D2
-Ana Ofise geri dönüş.
+Ana Ofise geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18038
 D5
-Hapishane hücrelerine doğru.
+Hapishane hÃ¼crelerine doÄŸru.
 ~
 ~
 0 0 18040
 S
 #18040
-Hapishane Hücreleri~
-Kuzey yönünde devam eden bu koridora merdivenleri geçerek ulaşıyorsun.
-Koridorlar boş görünüyor, bir horlama sesi duyuyorsun. İki tarafında da
-boş hücreler var fakat ileride neyin olduğunu bilemiyorsun. Çıkışlar
-yukarı merdivene ve kuzeyde koridora doğru devam ediyor.
+Hapishane HÃ¼creleri~
+Kuzey yÃ¶nÃ¼nde devam eden bu koridora merdivenleri geÃ§erek ulaÅŸÄ±yorsun.
+Koridorlar boÅŸ gÃ¶rÃ¼nÃ¼yor, bir horlama sesi duyuyorsun. Ä°ki tarafÄ±nda da
+boÅŸ hÃ¼creler var fakat ileride neyin olduÄŸunu bilemiyorsun. Ã‡Ä±kÄ±ÅŸlar
+yukarÄ± merdivene ve kuzeyde koridora doÄŸru devam ediyor.
 ~
 0 A 1
 D0
-Koridora doğru.
+Koridora doÄŸru.
 ~
 ~
 0 0 18041
 D4
-Merdivene geri dönüş.
+Merdivene geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18039
 S
 #18041
 Dar Koridor Boyunca~
-Koridor kuzey yönünde, içleri pislik içinde mahkumlarla dolu hücreler
-boyunca devam ediyor. Havayı küf kokusu kaplamış. Bu manzarayı bir yerden
-hatırlıyorsun. Çıkışlar doğu ve batıya doğru hücrelere, kuzey ve güney
-yönlerinde koridora devam ediyor.
+Koridor kuzey yÃ¶nÃ¼nde, iÃ§leri pislik iÃ§inde mahkumlarla dolu hÃ¼creler
+boyunca devam ediyor. HavayÄ± kÃ¼f kokusu kaplamÄ±ÅŸ. Bu manzarayÄ± bir yerden
+hatÄ±rlÄ±yorsun. Ã‡Ä±kÄ±ÅŸlar doÄŸu ve batÄ±ya doÄŸru hÃ¼crelere, kuzey ve gÃ¼ney
+yÃ¶nlerinde koridora devam ediyor.
 ~
 0 A 1
 D0
@@ -2568,71 +2568,71 @@ Koridor devam ediyor.
 ~
 0 0 18042
 D1
-Doğu Hücresi.
+DoÄŸu HÃ¼cresi.
 ~
-kapı~
+kapÄ±~
 1 0 18043
 D2
-Merdivene geri dönüş.
+Merdivene geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18040
 D3
-Batı Hücresi.
+BatÄ± HÃ¼cresi.
 ~
-kapı~
+kapÄ±~
 1 0 18044
 S
 #18042
 Gardiyan~
-Koridorun sonuna geldin. Burada uyuyan iri bir adam duruyor. Görünüşe göre o,
-mahkumların gardiyanı ve işini sevmiyor. Bu adamı şikayet edip etmemeyi
-düşünüyorsun. Fakat neden o hücrelerde dolaştığını merak edeceklerdir,
-belki ordan kaçmaya çalışan mahkumlardan biri olduğunu sanacaklardır.
-Koridorun tek çıkışı güneyde.
+Koridorun sonuna geldin. Burada uyuyan iri bir adam duruyor. GÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re o,
+mahkumlarÄ±n gardiyanÄ± ve iÅŸini sevmiyor. Bu adamÄ± ÅŸikayet edip etmemeyi
+dÃ¼ÅŸÃ¼nÃ¼yorsun. Fakat neden o hÃ¼crelerde dolaÅŸtÄ±ÄŸÄ±nÄ± merak edeceklerdir,
+belki ordan kaÃ§maya Ã§alÄ±ÅŸan mahkumlardan biri olduÄŸunu sanacaklardÄ±r.
+Koridorun tek Ã§Ä±kÄ±ÅŸÄ± gÃ¼neyde.
 ~
 0 A 1
 D2
-Hücrelere geri dönüş.
+HÃ¼crelere geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18041
 S
 #18043
-Doğu Hücresi~
-Kapıyı açarak doğu hücresine girdin. Eğer insanlar seni bulursa ne
-düşüneceklerdir? Hapishaneden kaçmaya çalışan biri? En iyisi birileri
-gelmeden yoluna devam etmek. Üstelik burası oldukça kötü kokuyor.
-Mahkumların kokusu burayı dayanılmaz yapmış. Tek çıkış batıda
-ana koridora doğru.
+DoÄŸu HÃ¼cresi~
+KapÄ±yÄ± aÃ§arak doÄŸu hÃ¼cresine girdin. EÄŸer insanlar seni bulursa ne
+dÃ¼ÅŸÃ¼neceklerdir? Hapishaneden kaÃ§maya Ã§alÄ±ÅŸan biri? En iyisi birileri
+gelmeden yoluna devam etmek. Ãœstelik burasÄ± oldukÃ§a kÃ¶tÃ¼ kokuyor.
+MahkumlarÄ±n kokusu burayÄ± dayanÄ±lmaz yapmÄ±ÅŸ. Tek Ã§Ä±kÄ±ÅŸ batÄ±da
+ana koridora doÄŸru.
 ~
 0 A 1
 D3
-Ana koridora doğru.
+Ana koridora doÄŸru.
 ~
 ~
 0 0 18041
 S
 #18044
-Batı Hücresi~
-Kapıyı açarak doğu hücresine girdin. Eğer insanlar seni bulursa ne
-düşüneceklerdir? Hapishaneden kaçmaya çalışan biri? En iyisi birileri
-gelmeden yoluna devam etmek. Üstelik burası oldukça kötü kokuyor.
-Mahkumların kokusu burayı dayanılmaz yapmış. Tek çıkış doğuda
-ana koridora doğru.
+BatÄ± HÃ¼cresi~
+KapÄ±yÄ± aÃ§arak doÄŸu hÃ¼cresine girdin. EÄŸer insanlar seni bulursa ne
+dÃ¼ÅŸÃ¼neceklerdir? Hapishaneden kaÃ§maya Ã§alÄ±ÅŸan biri? En iyisi birileri
+gelmeden yoluna devam etmek. Ãœstelik burasÄ± oldukÃ§a kÃ¶tÃ¼ kokuyor.
+MahkumlarÄ±n kokusu burayÄ± dayanÄ±lmaz yapmÄ±ÅŸ. Tek Ã§Ä±kÄ±ÅŸ doÄŸuda
+ana koridora doÄŸru.
 ~
 0 A 1
 D1
-Ana koridora doğru.
+Ana koridora doÄŸru.
 ~
 ~
 0 0 18041
 S
 #18045
 Devam Eden Ana Cadde~
-Ana caddedesin. Doğuda bir Çikolata Dükkanı ve batıda ise adı Mavi Tavşan
-olan süslü bir bar görüyorsun. İlk önce hangisine gireceksin? Bütün yönlerde
-çıkış bulunuyor.
+Ana caddedesin. DoÄŸuda bir Ã‡ikolata DÃ¼kkanÄ± ve batÄ±da ise adÄ± Mavi TavÅŸan
+olan sÃ¼slÃ¼ bir bar gÃ¶rÃ¼yorsun. Ä°lk Ã¶nce hangisine gireceksin? BÃ¼tÃ¼n yÃ¶nlerde
+Ã§Ä±kÄ±ÅŸ bulunuyor.
 ~
 0 A 0
 D0
@@ -2640,66 +2640,66 @@ D0
 ~
 0 0 18037
 D1
-Mavi Tavşan Barına doğru.
+Mavi TavÅŸan BarÄ±na doÄŸru.
 ~
 ~
 0 0 18047
 D2
-Şehir merkezine doğru.
+Åehir merkezine doÄŸru.
 ~
 ~
 0 0 18049
 D3
-Çikolata Dükkanına doğru.
+Ã‡ikolata DÃ¼kkanÄ±na doÄŸru.
 ~
 ~
 0 0 18048
 S
 #18046
-Boşluk~
-Boşluk.
+BoÅŸluk~
+BoÅŸluk.
 ~
 0 C 1
 S
 #18047
-Mavi Tavşan Barı~
-Bütün şehir boyunca girebileceğin en güzel ve en pahalı Bar'a girdin. Burada
-satılan sadece muhteşem tadda şaraplardır. Masalarda şaraplarını içen birçok
-kişi görüyorsun. Garsonlar etrafta aceleyle dolaşıyorlar. Uzun bir adam sana
-doğru gelerek kibar bir şekilde yardımcı olmayı öneriyor. Tek çıkış batıda.
+Mavi TavÅŸan BarÄ±~
+BÃ¼tÃ¼n ÅŸehir boyunca girebileceÄŸin en gÃ¼zel ve en pahalÄ± Bar'a girdin. Burada
+satÄ±lan sadece muhteÅŸem tadda ÅŸaraplardÄ±r. Masalarda ÅŸaraplarÄ±nÄ± iÃ§en birÃ§ok
+kiÅŸi gÃ¶rÃ¼yorsun. Garsonlar etrafta aceleyle dolaÅŸÄ±yorlar. Uzun bir adam sana
+doÄŸru gelerek kibar bir ÅŸekilde yardÄ±mcÄ± olmayÄ± Ã¶neriyor. Tek Ã§Ä±kÄ±ÅŸ batÄ±da.
 ~
 0 A 0
 D3
-Caddeye doğru.
+Caddeye doÄŸru.
 ~
 ~
 0 0 18045
 S
 #18048
-Çikolata Dükkanı~
-İçeriye girerken civardaki en iyi çikolataların kokusunu alıyorsun.
-Çikolata, Çikolata HERYERDE! Öldün ve cennete gittin! Hangisinden
-başlayacağını bilmiyorsun. Belki hepsini denemek için zamanın vardır.
-Heryer çikolata dağları ile çevrili.! Tek çıkış doğuda, fakat buradan
-çıkmak istediğini de kim söylemiş??!!
+Ã‡ikolata DÃ¼kkanÄ±~
+Ä°Ã§eriye girerken civardaki en iyi Ã§ikolatalarÄ±n kokusunu alÄ±yorsun.
+Ã‡ikolata, Ã‡ikolata HERYERDE! Ã–ldÃ¼n ve cennete gittin! Hangisinden
+baÅŸlayacaÄŸÄ±nÄ± bilmiyorsun. Belki hepsini denemek iÃ§in zamanÄ±n vardÄ±r.
+Heryer Ã§ikolata daÄŸlarÄ± ile Ã§evrili.! Tek Ã§Ä±kÄ±ÅŸ doÄŸuda, fakat buradan
+Ã§Ä±kmak istediÄŸini de kim sÃ¶ylemiÅŸ??!!
 ~
 0 A 0
 D1
-Caddeye doğru.
+Caddeye doÄŸru.
 ~
 ~
 0 0 18045
 S
 #18049
 Kasaba Merkezi~
-Yolların kesiştiği yere, kasaba merkezine geldin. Etrafına baktığında yol
-işaretlerini görüyorsun. Eğer batı yolunu takip edersen saraya, güneye
-ilerlersen ana caddeye, ve doğuya ilerlersen seni birçok dükkan ve başka
-kavşaklara gidermişsin. Hangi yolu seçeceksin?  Kuzey,Güney,Doğu yada Batı?
+YollarÄ±n kesiÅŸtiÄŸi yere, kasaba merkezine geldin. EtrafÄ±na baktÄ±ÄŸÄ±nda yol
+iÅŸaretlerini gÃ¶rÃ¼yorsun. EÄŸer batÄ± yolunu takip edersen saraya, gÃ¼neye
+ilerlersen ana caddeye, ve doÄŸuya ilerlersen seni birÃ§ok dÃ¼kkan ve baÅŸka
+kavÅŸaklara gidermiÅŸsin. Hangi yolu seÃ§eceksin?  Kuzey,GÃ¼ney,DoÄŸu yada BatÄ±?
 ~
 0 A 1
 D0
-Geldiğin cadde.
+GeldiÄŸin cadde.
 ~
 ~
 0 0 18045
@@ -2708,7 +2708,7 @@ D1
 ~
 0 0 18104
 D2
-Güneydeki Ana Cadde.
+GÃ¼neydeki Ana Cadde.
 ~
 ~
 0 0 18050
@@ -2718,275 +2718,275 @@ D3
 0 0 18074
 S
 #18050
-Güneydeki Ana Cadde~
-Ana caddeye ulaştın. Burada diğer yollardan en az on kat daha fazla dükkan
-var. Etrafında güzel günün tadını çıkaran bir sürü şehirli görüyorsun.
-Doğuda bir dondurmacı var. Batıda Kızıl Ejder isimli bir dükkan dikkatini
-çekiyor. Orada ne tür şeyler bulacağını merak ediyorsun! Her yönde çıkış
+GÃ¼neydeki Ana Cadde~
+Ana caddeye ulaÅŸtÄ±n. Burada diÄŸer yollardan en az on kat daha fazla dÃ¼kkan
+var. EtrafÄ±nda gÃ¼zel gÃ¼nÃ¼n tadÄ±nÄ± Ã§Ä±karan bir sÃ¼rÃ¼ ÅŸehirli gÃ¶rÃ¼yorsun.
+DoÄŸuda bir dondurmacÄ± var. BatÄ±da KÄ±zÄ±l Ejder isimli bir dÃ¼kkan dikkatini
+Ã§ekiyor. Orada ne tÃ¼r ÅŸeyler bulacaÄŸÄ±nÄ± merak ediyorsun! Her yÃ¶nde Ã§Ä±kÄ±ÅŸ
 bulunuyor.
 ~
 0 A 3
 D0
-Kasaba merkezine geri dönüş.
+Kasaba merkezine geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18049
 D1
-Dondurmacı.
+DondurmacÄ±.
 ~
 ~
 0 0 18051
 D2
-Güneydeki Ana Cadde.
+GÃ¼neydeki Ana Cadde.
 ~
 ~
 0 0 18054
 D3
-Kızıl Ejder.
+KÄ±zÄ±l Ejder.
 ~
 ~
 0 0 18052
 S
 #18051
-Dondurmacı~
-Değişik küçük bir dükkana girdin. Bu odanın kuzey tarafında binlerce çeşit
-dondurma  bulunuyor. Tezgahın arkasında genç bir adam dondurmalarını satıyor.
-Güneyde duvar boyunca birçok tabure ve masa görüyorsun. Birkaç kişi burada
-oturmuş, Kızıl Ejder'deki giysiler hakkında dedikodu yapıyorlar.  Batıda
-üzerinde 'Çalışanlar Girebilir' yazan iki küçük kapı bulunuyor. Burası
-gerçekten güzel bir dükkan ve birşeyler almak istiyorsun. Tek çıkış batıda.
+DondurmacÄ±~
+DeÄŸiÅŸik kÃ¼Ã§Ã¼k bir dÃ¼kkana girdin. Bu odanÄ±n kuzey tarafÄ±nda binlerce Ã§eÅŸit
+dondurma  bulunuyor. TezgahÄ±n arkasÄ±nda genÃ§ bir adam dondurmalarÄ±nÄ± satÄ±yor.
+GÃ¼neyde duvar boyunca birÃ§ok tabure ve masa gÃ¶rÃ¼yorsun. BirkaÃ§ kiÅŸi burada
+oturmuÅŸ, KÄ±zÄ±l Ejder'deki giysiler hakkÄ±nda dedikodu yapÄ±yorlar.  BatÄ±da
+Ã¼zerinde 'Ã‡alÄ±ÅŸanlar Girebilir' yazan iki kÃ¼Ã§Ã¼k kapÄ± bulunuyor. BurasÄ±
+gerÃ§ekten gÃ¼zel bir dÃ¼kkan ve birÅŸeyler almak istiyorsun. Tek Ã§Ä±kÄ±ÅŸ batÄ±da.
 ~
 0 A 3
 D3
-Ana caddeye geri dönüş.
+Ana caddeye geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18050
 S
 #18052
-Kızıl Ejder~
-Şişman ve iri yarı bir adam yanına gelerek, "Kızıl Ejdere hoş geldin dostum!
-Zengin bir adam gibi görünüyorsun ve oldukça zevk sahibi olmalısın. Şüphesiz
-öylesin, çünkü buraya geldin! Hehehe! Sana ürünlerimi gösterebilir miyim?"
-Bu dükkan daha önce görmediğin türden kıyafetler satıyor. Birçok masanın
-üzeri pantalon etek ve ayakkabı ile dolu. Bugün gördüğün en yoğun dükkan.
-Kuzeye doğru bir ilgini çekiyor. Orada ne olabileceğini merak ediyorsun.
-Çıkışlar kuzeyde küçük odaya, güneyde Ana Caddeye doğru devam ediyor.
+KÄ±zÄ±l Ejder~
+ÅiÅŸman ve iri yarÄ± bir adam yanÄ±na gelerek, "KÄ±zÄ±l Ejdere hoÅŸ geldin dostum!
+Zengin bir adam gibi gÃ¶rÃ¼nÃ¼yorsun ve oldukÃ§a zevk sahibi olmalÄ±sÄ±n. ÅÃ¼phesiz
+Ã¶ylesin, Ã§Ã¼nkÃ¼ buraya geldin! Hehehe! Sana Ã¼rÃ¼nlerimi gÃ¶sterebilir miyim?"
+Bu dÃ¼kkan daha Ã¶nce gÃ¶rmediÄŸin tÃ¼rden kÄ±yafetler satÄ±yor. BirÃ§ok masanÄ±n
+Ã¼zeri pantalon etek ve ayakkabÄ± ile dolu. BugÃ¼n gÃ¶rdÃ¼ÄŸÃ¼n en yoÄŸun dÃ¼kkan.
+Kuzeye doÄŸru bir ilgini Ã§ekiyor. Orada ne olabileceÄŸini merak ediyorsun.
+Ã‡Ä±kÄ±ÅŸlar kuzeyde kÃ¼Ã§Ã¼k odaya, gÃ¼neyde Ana Caddeye doÄŸru devam ediyor.
 ~
 0 A 3
 D0
-Küçük odaya doğru.
+KÃ¼Ã§Ã¼k odaya doÄŸru.
 ~
-kapı~
+kapÄ±~
 1 0 18053
 D1
-Ana Caddeye geri dönüş.
+Ana Caddeye geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18050
 S
 #18053
-Kızıl Ejder'in Küçük Odası~
-Kızıl Ejderin küçük odasına girdin. Buranın atölye olduğunu anlıyorsun.
-Mevsime uygun kıyafetleri üretmek için birçok insan yoğun bir şekilde
-çalışıyorlar. Tek çıkış güneyde.
+KÄ±zÄ±l Ejder'in KÃ¼Ã§Ã¼k OdasÄ±~
+KÄ±zÄ±l Ejderin kÃ¼Ã§Ã¼k odasÄ±na girdin. BuranÄ±n atÃ¶lye olduÄŸunu anlÄ±yorsun.
+Mevsime uygun kÄ±yafetleri Ã¼retmek iÃ§in birÃ§ok insan yoÄŸun bir ÅŸekilde
+Ã§alÄ±ÅŸÄ±yorlar. Tek Ã§Ä±kÄ±ÅŸ gÃ¼neyde.
 ~
 0 A 3
 D2
-Kızıl Ejder.
+KÄ±zÄ±l Ejder.
 ~
 ~
 0 0 18052
 S
 #18054
-Güneydeki Ana Cadde Boyunca~
-Yol boyunca dolaşırken, batıda bir arıcı dükkanı olduğunu görüyorsun.
-Doğu da ise güzel bir çiçekçi var. Cadde kuzey güney yönlerinde devam ediyor.
+GÃ¼neydeki Ana Cadde Boyunca~
+Yol boyunca dolaÅŸÄ±rken, batÄ±da bir arÄ±cÄ± dÃ¼kkanÄ± olduÄŸunu gÃ¶rÃ¼yorsun.
+DoÄŸu da ise gÃ¼zel bir Ã§iÃ§ekÃ§i var. Cadde kuzey gÃ¼ney yÃ¶nlerinde devam ediyor.
 ~
 0 A 3
 D0
-Ana caddeye geri dönüş.
+Ana caddeye geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18050
 D1
-Çiçekçi.
+Ã‡iÃ§ekÃ§i.
 ~
 ~
 0 0 18055
 D2
-Market meydanı.
+Market meydanÄ±.
 ~
 ~
 0 0 18059
 D3
-Arıcı.
+ArÄ±cÄ±.
 ~
-kapı~
+kapÄ±~
 1 0 18058
 S
 #18055
-Çiçekçi Dükkanı~
-*Snnnnnniiiiiiffffff* Ahhh.. Bu odaya girdiğinde taze çiçeklerin kokusunu
-duyuyorsun. Güzel güller, laleler, karanfiller ve diğer yabani çiçekler
-odayı rengarenk donatıyorlar. Genç bir hanım çiçeklerle ilgilenirken kendi
-kendine şarkı mırıldanıyor. Birçok çiçek demeti tahta zemini adeta bir ormana
-dönüştürüyor.Tek çıkış batıda.
+Ã‡iÃ§ekÃ§i DÃ¼kkanÄ±~
+*Snnnnnniiiiiiffffff* Ahhh.. Bu odaya girdiÄŸinde taze Ã§iÃ§eklerin kokusunu
+duyuyorsun. GÃ¼zel gÃ¼ller, laleler, karanfiller ve diÄŸer yabani Ã§iÃ§ekler
+odayÄ± rengarenk donatÄ±yorlar. GenÃ§ bir hanÄ±m Ã§iÃ§eklerle ilgilenirken kendi
+kendine ÅŸarkÄ± mÄ±rÄ±ldanÄ±yor. BirÃ§ok Ã§iÃ§ek demeti tahta zemini adeta bir ormana
+dÃ¶nÃ¼ÅŸtÃ¼rÃ¼yor.Tek Ã§Ä±kÄ±ÅŸ batÄ±da.
 ~
 0 A 3
 D0
-Gizli yeşil eve doğru.
+Gizli yeÅŸil eve doÄŸru.
 ~
-kapı~
+kapÄ±~
 1 0 18056
 D3
-Ana caddeye geri dönüş.
+Ana caddeye geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18054
 S
 #18056
-Çiçekçi Dükkanın Arkasındaki Gizli Yeşil Ev~
-Çiçekçinin arkasındaki çok hoş yeşil bir eve girdin. Yabani çiçeklerden
-oluşmuş küçük bir ormanı andırıyor. Son derece güzel bir yer. Köşedeki
-küçük gölcük birçok çiçeğin su kaynağı. Bunların başında da su zambağı
-yer alıyor. Çıkışlar güneyde Çiçekçiye ve doğuda bir bahçeye açılıyor.
+Ã‡iÃ§ekÃ§i DÃ¼kkanÄ±n ArkasÄ±ndaki Gizli YeÅŸil Ev~
+Ã‡iÃ§ekÃ§inin arkasÄ±ndaki Ã§ok hoÅŸ yeÅŸil bir eve girdin. Yabani Ã§iÃ§eklerden
+oluÅŸmuÅŸ kÃ¼Ã§Ã¼k bir ormanÄ± andÄ±rÄ±yor. Son derece gÃ¼zel bir yer. KÃ¶ÅŸedeki
+kÃ¼Ã§Ã¼k gÃ¶lcÃ¼k birÃ§ok Ã§iÃ§eÄŸin su kaynaÄŸÄ±. BunlarÄ±n baÅŸÄ±nda da su zambaÄŸÄ±
+yer alÄ±yor. Ã‡Ä±kÄ±ÅŸlar gÃ¼neyde Ã‡iÃ§ekÃ§iye ve doÄŸuda bir bahÃ§eye aÃ§Ä±lÄ±yor.
 ~
 0 A 3
 D1
-Dışardaki Bahçe.
+DÄ±ÅŸardaki BahÃ§e.
 ~
-kapı~
+kapÄ±~
 1 0 18057
 D2
-çiçekçiye geri dönüş.
+Ã§iÃ§ekÃ§iye geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18055
 S
 #18057
-Dış Bahçe~
-Kapıdan tökezleyerek giriyorsun. Taşlık yolun iki kenarında da çok sayıda
-yabani bitki ve çiçekler yetişmiş. Eğrelti otları ve fundalıkların arasından
-alacalı birkaç çiçek kendini göstermiş. Sol tarafına doğru uzanan yolda çok
-güzel bir Süsen Çiçeği bulunuyor. Ahşap bir masanın üzerinde boş bir kahve
-fincanı ve masanın kenarında bir sandelye duruyor.Tek çıkış batıda.
+DÄ±ÅŸ BahÃ§e~
+KapÄ±dan tÃ¶kezleyerek giriyorsun. TaÅŸlÄ±k yolun iki kenarÄ±nda da Ã§ok sayÄ±da
+yabani bitki ve Ã§iÃ§ekler yetiÅŸmiÅŸ. EÄŸrelti otlarÄ± ve fundalÄ±klarÄ±n arasÄ±ndan
+alacalÄ± birkaÃ§ Ã§iÃ§ek kendini gÃ¶stermiÅŸ. Sol tarafÄ±na doÄŸru uzanan yolda Ã§ok
+gÃ¼zel bir SÃ¼sen Ã‡iÃ§eÄŸi bulunuyor. AhÅŸap bir masanÄ±n Ã¼zerinde boÅŸ bir kahve
+fincanÄ± ve masanÄ±n kenarÄ±nda bir sandelye duruyor.Tek Ã§Ä±kÄ±ÅŸ batÄ±da.
 ~
 0 A 3
 D3
-Yeşil Ev.
+YeÅŸil Ev.
 ~
 ~
 0 0 18056
 S
 #18058
-Arıcı Dükkanı~
-Bal kokan bir odaya girdin. Büyük meşeden rafların üzerinde Altın bal
-kavanozları duruyor. Geyik derisi kaplı zemin çok yumuşak ve konforlu.
-Küçük bir şömine odayı aydınlatarak ısısını batı yönüne veriyor. Tezgahın
-arkasında genç bir hanım kavanoza bal dolduruyor. Ne alabileceğini merak
-ediyorsun. Tek çıkış batıda.
+ArÄ±cÄ± DÃ¼kkanÄ±~
+Bal kokan bir odaya girdin. BÃ¼yÃ¼k meÅŸeden raflarÄ±n Ã¼zerinde AltÄ±n bal
+kavanozlarÄ± duruyor. Geyik derisi kaplÄ± zemin Ã§ok yumuÅŸak ve konforlu.
+KÃ¼Ã§Ã¼k bir ÅŸÃ¶mine odayÄ± aydÄ±nlatarak Ä±sÄ±sÄ±nÄ± batÄ± yÃ¶nÃ¼ne veriyor. TezgahÄ±n
+arkasÄ±nda genÃ§ bir hanÄ±m kavanoza bal dolduruyor. Ne alabileceÄŸini merak
+ediyorsun. Tek Ã§Ä±kÄ±ÅŸ batÄ±da.
 ~
 0 A 3
 D1
-Ana caddeye geri dönüş.
+Ana caddeye geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18054
 S
 #18059
-Market Meydanı~
-Market meydanına geldin. Birçok kişi burada toplanmış, birbirleri ile
-konuşuyorlar, bir yandan da bir müzisyen grubunun çaldığı şarkıyı
-dinliyorlar. Taş sokaklar seni oldukça yordu. Güneydeki yol boyunca
-dizilen hanlar dikkatini çekiyor. Batında ise geniş bir yolun seni manava
-doğru götürdüğünü görüyorsun. Doğuda, oldukça uzakta bir dev Kalesi duruyor.
+Market MeydanÄ±~
+Market meydanÄ±na geldin. BirÃ§ok kiÅŸi burada toplanmÄ±ÅŸ, birbirleri ile
+konuÅŸuyorlar, bir yandan da bir mÃ¼zisyen grubunun Ã§aldÄ±ÄŸÄ± ÅŸarkÄ±yÄ±
+dinliyorlar. TaÅŸ sokaklar seni oldukÃ§a yordu. GÃ¼neydeki yol boyunca
+dizilen hanlar dikkatini Ã§ekiyor. BatÄ±nda ise geniÅŸ bir yolun seni manava
+doÄŸru gÃ¶tÃ¼rdÃ¼ÄŸÃ¼nÃ¼ gÃ¶rÃ¼yorsun. DoÄŸuda, oldukÃ§a uzakta bir dev Kalesi duruyor.
 ~
 0 A 3
 D0
-Güneydeki Ana caddeye dönüş.
+GÃ¼neydeki Ana caddeye dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18054
 D1
-Doğudaki Ana yol.
+DoÄŸudaki Ana yol.
 ~
 ~
 0 0 18105
 D2
-Güney yolundaki sokaklar.
+GÃ¼ney yolundaki sokaklar.
 ~
 ~
 0 0 18060
 D3
-Batıdaki Ana cadde.
+BatÄ±daki Ana cadde.
 ~
 ~
 0 0 18084
 S
 #18060
-Güney Sokakları Boyunca~
-Güneydeki sokaklara geldin. Yola parlak, beyaz taştan kaldırım döşenmiş.
-Kasabaya güzellik katan birçok dükkan ve ev cadde boyunca uzanıyor. Burası
-Vadideki kaliteli sokaklardan birisi. Solunda bir silah dükkanı, sağında ise
-bir zırhçı bulunuyor. Kasabalıların arasında ileri geri dolaşan bir kedi
-görüyorsun. Uzun yeşil ağaçlar dükkanların önünde ve arkasında sıralanmışlar.
-Her yönde çıkış bulunuyor.
+GÃ¼ney SokaklarÄ± Boyunca~
+GÃ¼neydeki sokaklara geldin. Yola parlak, beyaz taÅŸtan kaldÄ±rÄ±m dÃ¶ÅŸenmiÅŸ.
+Kasabaya gÃ¼zellik katan birÃ§ok dÃ¼kkan ve ev cadde boyunca uzanÄ±yor. BurasÄ±
+Vadideki kaliteli sokaklardan birisi. Solunda bir silah dÃ¼kkanÄ±, saÄŸÄ±nda ise
+bir zÄ±rhÃ§Ä± bulunuyor. KasabalÄ±larÄ±n arasÄ±nda ileri geri dolaÅŸan bir kedi
+gÃ¶rÃ¼yorsun. Uzun yeÅŸil aÄŸaÃ§lar dÃ¼kkanlarÄ±n Ã¶nÃ¼nde ve arkasÄ±nda sÄ±ralanmÄ±ÅŸlar.
+Her yÃ¶nde Ã§Ä±kÄ±ÅŸ bulunuyor.
 ~
 0 A 3
 D0
-Market meydanına geri dönüş.
+Market meydanÄ±na geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18059
 D1
-Büyük bir zırhçı dükkanı
+BÃ¼yÃ¼k bir zÄ±rhÃ§Ä± dÃ¼kkanÄ±
 ~
-kapı~
+kapÄ±~
 1 0 18061
 D2
-Eski bir çıkmaz sokak.
+Eski bir Ã§Ä±kmaz sokak.
 ~
 ~
 0 0 18067
 D3
-Büyük bir silah dükkanı.
+BÃ¼yÃ¼k bir silah dÃ¼kkanÄ±.
 ~
 ~
 0 0 18066
 S
 #18061
-Zırhçı Dükkanı~
-Büyük bir zırhçı dükkanına girdin. Duvarlar çeşitli zırhları barındıran
-meşe raflar ve hoş duvar halıları ile kaplanmış. Odanın arkasında aşağıya
-inen merdivenleri görüyorsun. Birkaç tablo batı duvarında duruyor. Odanın
-sağ köşesinde kiraz ağacından yapılmış bir masa var. Sıcaklık veren taştan
-bir şömine sağ tarafında kalıyor. Çıkışlar kuzeyde merdivenlere, doğuda
-sokağa açılıyor.
+ZÄ±rhÃ§Ä± DÃ¼kkanÄ±~
+BÃ¼yÃ¼k bir zÄ±rhÃ§Ä± dÃ¼kkanÄ±na girdin. Duvarlar Ã§eÅŸitli zÄ±rhlarÄ± barÄ±ndÄ±ran
+meÅŸe raflar ve hoÅŸ duvar halÄ±larÄ± ile kaplanmÄ±ÅŸ. OdanÄ±n arkasÄ±nda aÅŸaÄŸÄ±ya
+inen merdivenleri gÃ¶rÃ¼yorsun. BirkaÃ§ tablo batÄ± duvarÄ±nda duruyor. OdanÄ±n
+saÄŸ kÃ¶ÅŸesinde kiraz aÄŸacÄ±ndan yapÄ±lmÄ±ÅŸ bir masa var. SÄ±caklÄ±k veren taÅŸtan
+bir ÅŸÃ¶mine saÄŸ tarafÄ±nda kalÄ±yor. Ã‡Ä±kÄ±ÅŸlar kuzeyde merdivenlere, doÄŸuda
+sokaÄŸa aÃ§Ä±lÄ±yor.
 ~
 0 A 3
 D0
-Geniş Spiral bir Merdiven.
+GeniÅŸ Spiral bir Merdiven.
 ~
 ~
 0 0 18062
 D3
-Sokağa geri dönüş.
+SokaÄŸa geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18060
 S
 #18062
-Geniş Spiral Bir Merdiven~
-Aşağıya doğru inen geniş, sarmal bir merdivene geldin. Koyu yeşil bir halı
-merdivenlerin üzerine serilmiş. Aşağıda çalışan adamların gürültülerini
-duyuyorsun. Çıkışlar aşağı bilinmeye doğru ve güneye sokaklara doğru devam
+GeniÅŸ Spiral Bir Merdiven~
+AÅŸaÄŸÄ±ya doÄŸru inen geniÅŸ, sarmal bir merdivene geldin. Koyu yeÅŸil bir halÄ±
+merdivenlerin Ã¼zerine serilmiÅŸ. AÅŸaÄŸÄ±da Ã§alÄ±ÅŸan adamlarÄ±n gÃ¼rÃ¼ltÃ¼lerini
+duyuyorsun. Ã‡Ä±kÄ±ÅŸlar aÅŸaÄŸÄ± bilinmeye doÄŸru ve gÃ¼neye sokaklara doÄŸru devam
 ediyor.
 ~
 0 A 3
 D2
-Zırhçı Dükkanına geri dönüş.
-Zırhçı Dükkanına geri dönüş.
+ZÄ±rhÃ§Ä± DÃ¼kkanÄ±na geri dÃ¶nÃ¼ÅŸ.
+ZÄ±rhÃ§Ä± DÃ¼kkanÄ±na geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18061
@@ -2997,16 +2997,16 @@ Bilinmeyen.
 0 0 18063
 S
 #18063
-Büyük Bir Çalışma Odası~
-Zırhçının altındaki büyük çalışma odasına geldin. Zırhçı ile demircinin
-çalışma odalarının birleşik olduğunu görüyorsun. Dükkanlar bitişik olduğu
-için bu iki dükkanında aynı kişiye ait olma ihtimali yüksek. Bu bölüm halka
-açık görünüyor, böylece yakalanacak olursan müşkül durumda kalmamış olursun.
-Çıkışlar yukarı merdivenlere ve batıya demirciye doğru.
+BÃ¼yÃ¼k Bir Ã‡alÄ±ÅŸma OdasÄ±~
+ZÄ±rhÃ§Ä±nÄ±n altÄ±ndaki bÃ¼yÃ¼k Ã§alÄ±ÅŸma odasÄ±na geldin. ZÄ±rhÃ§Ä± ile demircinin
+Ã§alÄ±ÅŸma odalarÄ±nÄ±n birleÅŸik olduÄŸunu gÃ¶rÃ¼yorsun. DÃ¼kkanlar bitiÅŸik olduÄŸu
+iÃ§in bu iki dÃ¼kkanÄ±nda aynÄ± kiÅŸiye ait olma ihtimali yÃ¼ksek. Bu bÃ¶lÃ¼m halka
+aÃ§Ä±k gÃ¶rÃ¼nÃ¼yor, bÃ¶ylece yakalanacak olursan mÃ¼ÅŸkÃ¼l durumda kalmamÄ±ÅŸ olursun.
+Ã‡Ä±kÄ±ÅŸlar yukarÄ± merdivenlere ve batÄ±ya demirciye doÄŸru.
 ~
 0 A 3
 D3
-Geniş bir çalışm odası.
+GeniÅŸ bir Ã§alÄ±ÅŸm odasÄ±.
 ~
 ~
 0 0 18064
@@ -3017,31 +3017,31 @@ Merdiven.
 0 0 18062
 S
 #18064
-Geniş Bir Çalışma Odası~
-Silah dükkanının altındaki çalışma odasına geldin. Odanın zırhçının
-çalışma odası ile birleştiğini görüyorsun. Dükkanlar bitişik olduğu
-için bu iki dükkanında aynı kişiye ait olma ihtimali yüksek. Bu bölüm
-halka açık görünüyor, böylece yakalanacak olursan müşkül durumda kalmamış
-olursun. Çıkışlar yukarı merdivenlereve doğuya zırhçıya doğru.
+GeniÅŸ Bir Ã‡alÄ±ÅŸma OdasÄ±~
+Silah dÃ¼kkanÄ±nÄ±n altÄ±ndaki Ã§alÄ±ÅŸma odasÄ±na geldin. OdanÄ±n zÄ±rhÃ§Ä±nÄ±n
+Ã§alÄ±ÅŸma odasÄ± ile birleÅŸtiÄŸini gÃ¶rÃ¼yorsun. DÃ¼kkanlar bitiÅŸik olduÄŸu
+iÃ§in bu iki dÃ¼kkanÄ±nda aynÄ± kiÅŸiye ait olma ihtimali yÃ¼ksek. Bu bÃ¶lÃ¼m
+halka aÃ§Ä±k gÃ¶rÃ¼nÃ¼yor, bÃ¶ylece yakalanacak olursan mÃ¼ÅŸkÃ¼l durumda kalmamÄ±ÅŸ
+olursun. Ã‡Ä±kÄ±ÅŸlar yukarÄ± merdivenlereve doÄŸuya zÄ±rhÃ§Ä±ya doÄŸru.
 ~
 0 A 3
 D1
-Geniş çalışma odası.
+GeniÅŸ Ã§alÄ±ÅŸma odasÄ±.
 ~
 ~
 0 0 18063
 D4
-Büyük bir merdiven.
+BÃ¼yÃ¼k bir merdiven.
 ~
 ~
 0 0 18065
 S
 #18065
-Geniş Merdiven~
-Geniş ahşap bir merdivenin üzerindesin. Parlak mavi bir halı merdivenlere
-serilerek aşınmalar önlenmeye çalışılmış. Büyük meşaleler merdivenleri
-turuncu renkte aydınlatıyorlar. Zayıf zift kokusu seni şaşırtıyor. Çıkışlar
-aşağıya bilinmeye doğru ve güneyde silah dükkanına doğru açılıyor.
+GeniÅŸ Merdiven~
+GeniÅŸ ahÅŸap bir merdivenin Ã¼zerindesin. Parlak mavi bir halÄ± merdivenlere
+serilerek aÅŸÄ±nmalar Ã¶nlenmeye Ã§alÄ±ÅŸÄ±lmÄ±ÅŸ. BÃ¼yÃ¼k meÅŸaleler merdivenleri
+turuncu renkte aydÄ±nlatÄ±yorlar. ZayÄ±f zift kokusu seni ÅŸaÅŸÄ±rtÄ±yor. Ã‡Ä±kÄ±ÅŸlar
+aÅŸaÄŸÄ±ya bilinmeye doÄŸru ve gÃ¼neyde silah dÃ¼kkanÄ±na doÄŸru aÃ§Ä±lÄ±yor.
 ~
 0 A 3
 D2
@@ -3054,12 +3054,12 @@ D5
 0 0 18064
 S
 #18066
-Silah Dükkanı~
-Beyaz mermer zeminli büyük bir odaya girdin. Üzerinde savaş sahnelerinden
-görüntüler bulunan duvar halıları silahların arasına asılmış. Burada birçok
-kaliteli eşyanın satıldığından eminsin. Öyle görülüyor ki burası kraliyet
-ordularına silah üretmekte. Çıkışlar kuzeyde merdivene doğru, ve doğuda
-sokağa doğru açılıyor.
+Silah DÃ¼kkanÄ±~
+Beyaz mermer zeminli bÃ¼yÃ¼k bir odaya girdin. Ãœzerinde savaÅŸ sahnelerinden
+gÃ¶rÃ¼ntÃ¼ler bulunan duvar halÄ±larÄ± silahlarÄ±n arasÄ±na asÄ±lmÄ±ÅŸ. Burada birÃ§ok
+kaliteli eÅŸyanÄ±n satÄ±ldÄ±ÄŸÄ±ndan eminsin. Ã–yle gÃ¶rÃ¼lÃ¼yor ki burasÄ± kraliyet
+ordularÄ±na silah Ã¼retmekte. Ã‡Ä±kÄ±ÅŸlar kuzeyde merdivene doÄŸru, ve doÄŸuda
+sokaÄŸa doÄŸru aÃ§Ä±lÄ±yor.
 ~
 0 A 3
 D0
@@ -3073,10 +3073,10 @@ Sokaklar.
 0 0 18060
 S
 #18067
-Çıkmaz Sokak~
-İlginç küçük bir çıkmaz sokağa geldin. İki dükkan ve kocaman bir ev sokak
-boyunca sıralanıyorlar. Büyük beyaz ev güneyinde kalıyor. Doğuda ise büyük
-bir bakkal var. Batında bir şifacı dükkanı duruyor.
+Ã‡Ä±kmaz Sokak~
+Ä°lginÃ§ kÃ¼Ã§Ã¼k bir Ã§Ä±kmaz sokaÄŸa geldin. Ä°ki dÃ¼kkan ve kocaman bir ev sokak
+boyunca sÄ±ralanÄ±yorlar. BÃ¼yÃ¼k beyaz ev gÃ¼neyinde kalÄ±yor. DoÄŸuda ise bÃ¼yÃ¼k
+bir bakkal var. BatÄ±nda bir ÅŸifacÄ± dÃ¼kkanÄ± duruyor.
 ~
 0 A 3
 D0
@@ -3085,61 +3085,61 @@ Sokaklar.
 ~
 0 0 18060
 D1
-Büyük bakkal.
+BÃ¼yÃ¼k bakkal.
 ~
-kapı~
+kapÄ±~
 1 0 18070
 D2
-Büyük beyaz bir ev.
+BÃ¼yÃ¼k beyaz bir ev.
 ~
-kapı~
+kapÄ±~
 1 0 18069
 D3
-Şifacı.
+ÅifacÄ±.
 ~
-kapı~
+kapÄ±~
 1 0 18068
 S
 #18068
-Şifacı~
-Çok büyük ahşap bir kulübeye girdin. Duvarlar boyunca uzanan raflarda
-değişik renklerde ve ebatlarda birçok kavanoz var. Odanın kuzeyinde büyük
-ahşap bir masanın üzerinde iksir hazırlayan adam koyu yeşil bir sıvıyla
-açık sarı sıvıyı birbirine karıştırıyor. Duvarların raf olmayan kısımlarının
-rün ve parşömenlerle kaplı olduğunu görüyorsun. Ayağının altındaki beyaz
-ayı postu odaya ilginç bir görünüm kazandırmış. Tek çıkış doğuda.
+ÅifacÄ±~
+Ã‡ok bÃ¼yÃ¼k ahÅŸap bir kulÃ¼beye girdin. Duvarlar boyunca uzanan raflarda
+deÄŸiÅŸik renklerde ve ebatlarda birÃ§ok kavanoz var. OdanÄ±n kuzeyinde bÃ¼yÃ¼k
+ahÅŸap bir masanÄ±n Ã¼zerinde iksir hazÄ±rlayan adam koyu yeÅŸil bir sÄ±vÄ±yla
+aÃ§Ä±k sarÄ± sÄ±vÄ±yÄ± birbirine karÄ±ÅŸtÄ±rÄ±yor. DuvarlarÄ±n raf olmayan kÄ±sÄ±mlarÄ±nÄ±n
+rÃ¼n ve parÅŸÃ¶menlerle kaplÄ± olduÄŸunu gÃ¶rÃ¼yorsun. AyaÄŸÄ±nÄ±n altÄ±ndaki beyaz
+ayÄ± postu odaya ilginÃ§ bir gÃ¶rÃ¼nÃ¼m kazandÄ±rmÄ±ÅŸ. Tek Ã§Ä±kÄ±ÅŸ doÄŸuda.
 ~
 0 A 3
 D1
-Çıkmaz Sokağa geri dönüş.
+Ã‡Ä±kmaz SokaÄŸa geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18067
 S
 #18069
-Evin Önündeki Bahçe~
-Evin önünde bulunan bahçeye geldin. Yol boyunca geniş gül ve lale sıraları
-bulunuyor. Geniş gri bir basamak kapının önüne konmuş. Ev boş görünüyor.
-Pencerelerdeki panjurlar uzun süredir açılmamış gibi. Tek çıkış kuzeyde.
+Evin Ã–nÃ¼ndeki BahÃ§e~
+Evin Ã¶nÃ¼nde bulunan bahÃ§eye geldin. Yol boyunca geniÅŸ gÃ¼l ve lale sÄ±ralarÄ±
+bulunuyor. GeniÅŸ gri bir basamak kapÄ±nÄ±n Ã¶nÃ¼ne konmuÅŸ. Ev boÅŸ gÃ¶rÃ¼nÃ¼yor.
+Pencerelerdeki panjurlar uzun sÃ¼redir aÃ§Ä±lmamÄ±ÅŸ gibi. Tek Ã§Ä±kÄ±ÅŸ kuzeyde.
 ~
 0 A 3
 D0
-Çıkmaz sokak.
+Ã‡Ä±kmaz sokak.
 ~
 ~
 0 0 18067
 S
 #18070
-Büyük Bakkal~
-Büyük bir bakkal dükkanına geldin. Solunda ürün kümeleri bulunuyor. Önünde
-konserve yiyecekler, tahıl ürünleri ve daha birçok şey var. Sağ tarafında
-et ve balık reyonunu görüyorsun. Çıkışlar kuzeyde üretim bölümlerine, güneyde
-balık ve et reyonuna, batıda çıkmaz sokağa ve doğuda konserve yiyecekler
-bölümüne uzanıyor.
+BÃ¼yÃ¼k Bakkal~
+BÃ¼yÃ¼k bir bakkal dÃ¼kkanÄ±na geldin. Solunda Ã¼rÃ¼n kÃ¼meleri bulunuyor. Ã–nÃ¼nde
+konserve yiyecekler, tahÄ±l Ã¼rÃ¼nleri ve daha birÃ§ok ÅŸey var. SaÄŸ tarafÄ±nda
+et ve balÄ±k reyonunu gÃ¶rÃ¼yorsun. Ã‡Ä±kÄ±ÅŸlar kuzeyde Ã¼retim bÃ¶lÃ¼mlerine, gÃ¼neyde
+balÄ±k ve et reyonuna, batÄ±da Ã§Ä±kmaz sokaÄŸa ve doÄŸuda konserve yiyecekler
+bÃ¶lÃ¼mÃ¼ne uzanÄ±yor.
 ~
 0 A 3
 D0
-Üretim bölümü
+Ãœretim bÃ¶lÃ¼mÃ¼
 ~
 ~
 0 0 18071
@@ -3149,65 +3149,65 @@ Konserve yiyecekler ve benzeri..
 ~
 0 0 18072
 D2
-Et ve Balık reyonu.
+Et ve BalÄ±k reyonu.
 ~
 ~
 0 0 18073
 D3
-Çıkmaz sokak.
+Ã‡Ä±kmaz sokak.
 ~
 ~
 0 0 18067
 S
 #18071
-Üretim Bölümü~
-Birçok yeşil sebze ve çeşitli renklerde meyveler oda boyunca sergileniyor.
-Parlak meşale ışığı etrafını açıkça görmeni sağlıyor. Uzun ve genç bir adam
-alışverişinde yardımcı olmak için burada duruyor. Tek çıkış güneyde.
+Ãœretim BÃ¶lÃ¼mÃ¼~
+BirÃ§ok yeÅŸil sebze ve Ã§eÅŸitli renklerde meyveler oda boyunca sergileniyor.
+Parlak meÅŸale Ä±ÅŸÄ±ÄŸÄ± etrafÄ±nÄ± aÃ§Ä±kÃ§a gÃ¶rmeni saÄŸlÄ±yor. Uzun ve genÃ§ bir adam
+alÄ±ÅŸveriÅŸinde yardÄ±mcÄ± olmak iÃ§in burada duruyor. Tek Ã§Ä±kÄ±ÅŸ gÃ¼neyde.
 ~
 0 A 3
 D2
-Ana Giriş.
+Ana GiriÅŸ.
 ~
 ~
 0 0 18070
 S
 #18072
-Kurutulmuş Ürünler ve Tahıllar~
-Görebildiğin çeşitler pirinç, un, çikolatalı kurabiye, kuru üzüm, şeker
-ve daha sayamadığın birçok şey. Üzerindeki parlak meşaleler sayesinde
-herşeyi netlikle görebiliyorsun. Ne yazık ki burada sana alışverişinde
-yardımcı olacak kimse bulunmuyor. Tek çıkış batıda.
+KurutulmuÅŸ ÃœrÃ¼nler ve TahÄ±llar~
+GÃ¶rebildiÄŸin Ã§eÅŸitler pirinÃ§, un, Ã§ikolatalÄ± kurabiye, kuru Ã¼zÃ¼m, ÅŸeker
+ve daha sayamadÄ±ÄŸÄ±n birÃ§ok ÅŸey. Ãœzerindeki parlak meÅŸaleler sayesinde
+herÅŸeyi netlikle gÃ¶rebiliyorsun. Ne yazÄ±k ki burada sana alÄ±ÅŸveriÅŸinde
+yardÄ±mcÄ± olacak kimse bulunmuyor. Tek Ã§Ä±kÄ±ÅŸ batÄ±da.
 ~
 0 A 3
 D3
-Ana Giriş.
+Ana GiriÅŸ.
 ~
 ~
 0 0 18070
 S
 #18073
-Et ve Balık Reyonu~
-Çeşitli balık ve etlerin sergilendiği demir tezgahlar görüyorsun.
-İri bir kasap tezgahlardan birinin arkasında, kuzu etinden rosto
-hazırlıyor. Eminim ki sana almak istediğin şeyler hakkında yardımcı
-olacaktır. Tek çıkış kuzeyde.
+Et ve BalÄ±k Reyonu~
+Ã‡eÅŸitli balÄ±k ve etlerin sergilendiÄŸi demir tezgahlar gÃ¶rÃ¼yorsun.
+Ä°ri bir kasap tezgahlardan birinin arkasÄ±nda, kuzu etinden rosto
+hazÄ±rlÄ±yor. Eminim ki sana almak istediÄŸin ÅŸeyler hakkÄ±nda yardÄ±mcÄ±
+olacaktÄ±r. Tek Ã§Ä±kÄ±ÅŸ kuzeyde.
 ~
 0 A 3
 D0
-Ana Giriş.
+Ana GiriÅŸ.
 ~
 ~
 0 0 18070
 S
 #18074
-Batı Sokakları~
-Batı sokaklarında yürürken buranın vadi sokakları arasında en az popüler
-olanı olduğunun farkına varıyorsun. Düzensiz birkaç dükkan, sokaklarda
-yatan dilenciler ve çöpü karıştıran kediler görüyorsun. Yine de bu fakir
-sokak New Thalos ya da Ofcol'daki, zengin sokaklara bedeldir. Kaldırımlar
-ve yollar gri taşlardan yapılmış. Çıkışlar doğuda Ana Caddeye, batıda yolun
-sonuna, kuzeyde bir meyhaneye ve güneyde arka sokağa açılıyor.
+BatÄ± SokaklarÄ±~
+BatÄ± sokaklarÄ±nda yÃ¼rÃ¼rken buranÄ±n vadi sokaklarÄ± arasÄ±nda en az popÃ¼ler
+olanÄ± olduÄŸunun farkÄ±na varÄ±yorsun. DÃ¼zensiz birkaÃ§ dÃ¼kkan, sokaklarda
+yatan dilenciler ve Ã§Ã¶pÃ¼ karÄ±ÅŸtÄ±ran kediler gÃ¶rÃ¼yorsun. Yine de bu fakir
+sokak New Thalos ya da Ofcol'daki, zengin sokaklara bedeldir. KaldÄ±rÄ±mlar
+ve yollar gri taÅŸlardan yapÄ±lmÄ±ÅŸ. Ã‡Ä±kÄ±ÅŸlar doÄŸuda Ana Caddeye, batÄ±da yolun
+sonuna, kuzeyde bir meyhaneye ve gÃ¼neyde arka sokaÄŸa aÃ§Ä±lÄ±yor.
 ~
 0 A 3
 D0
@@ -3215,7 +3215,7 @@ D0
 ~
 0 0 18075
 D1
-Güneydeki Ana Cadde.
+GÃ¼neydeki Ana Cadde.
 ~
 ~
 0 0 18049
@@ -3224,20 +3224,20 @@ D2
 ~
 0 0 18081
 D3
-Batı yolunun sonu.
+BatÄ± yolunun sonu.
 ~
 ~
 0 0 18083
 S
 #18075
 Meyhane~
-Şehrin batı yakasında bulunan temiz ve tertipli küçük bir meyhanedesin.
-Masaların çoğunun dolu olduğunu görüyorsun. Kimileri yüksek sesle gülüyor,
-kimileri müzik eşliğinde şarkı söylüyorlar. Yarısının devriye muhafızı
-olduğunu fark ediyorsun. Kısa ve çevik bir adam etrafta koşuşturarak, tüm
-masalardaki maşrapaların bira ile dolu durmasını sağlıyor. Doğuda geniş bir
-bar bulunuyor. Batıda tarafında ikinci bir oda olduğunun farkına varıyorsun.
-Çıkışlar güneyde batı sokaklarına, batıda ikinci odaya açılıyor.
+Åehrin batÄ± yakasÄ±nda bulunan temiz ve tertipli kÃ¼Ã§Ã¼k bir meyhanedesin.
+MasalarÄ±n Ã§oÄŸunun dolu olduÄŸunu gÃ¶rÃ¼yorsun. Kimileri yÃ¼ksek sesle gÃ¼lÃ¼yor,
+kimileri mÃ¼zik eÅŸliÄŸinde ÅŸarkÄ± sÃ¶ylÃ¼yorlar. YarÄ±sÄ±nÄ±n devriye muhafÄ±zÄ±
+olduÄŸunu fark ediyorsun. KÄ±sa ve Ã§evik bir adam etrafta koÅŸuÅŸturarak, tÃ¼m
+masalardaki maÅŸrapalarÄ±n bira ile dolu durmasÄ±nÄ± saÄŸlÄ±yor. DoÄŸuda geniÅŸ bir
+bar bulunuyor. BatÄ±da tarafÄ±nda ikinci bir oda olduÄŸunun farkÄ±na varÄ±yorsun.
+Ã‡Ä±kÄ±ÅŸlar gÃ¼neyde batÄ± sokaklarÄ±na, batÄ±da ikinci odaya aÃ§Ä±lÄ±yor.
 ~
 0 A 3
 D2
@@ -3245,24 +3245,24 @@ D2
 ~
 0 0 18074
 D3
-Barın ikinci odası.
+BarÄ±n ikinci odasÄ±.
 ~
 ~
 0 0 18076
 S
 #18076
 Oyun Salonu~
-Meyhanenin oyun salonuna girdin. Birçok kişi burada oyun oynuyor. Büyük
-bir masa salonun merkezinde duruyor. Buradan kumarda kazanılanlar nakite
-çevrilebiliyor.  Meşalelerin ışığını biraz sönükleştiren ince bir sigara
-dumanı havada asılı kalmış. Kuzeyde başka bir odaya açılan bir merdiven
-görüyorsun. Çıkışlar doğuda bara, kuzeyde bilinmeyene açılıyor.
+Meyhanenin oyun salonuna girdin. BirÃ§ok kiÅŸi burada oyun oynuyor. BÃ¼yÃ¼k
+bir masa salonun merkezinde duruyor. Buradan kumarda kazanÄ±lanlar nakite
+Ã§evrilebiliyor.  MeÅŸalelerin Ä±ÅŸÄ±ÄŸÄ±nÄ± biraz sÃ¶nÃ¼kleÅŸtiren ince bir sigara
+dumanÄ± havada asÄ±lÄ± kalmÄ±ÅŸ. Kuzeyde baÅŸka bir odaya aÃ§Ä±lan bir merdiven
+gÃ¶rÃ¼yorsun. Ã‡Ä±kÄ±ÅŸlar doÄŸuda bara, kuzeyde bilinmeyene aÃ§Ä±lÄ±yor.
 ~
 0 A 3
 D0
 Bilinmeyen.
 ~
-kapı~
+kapÄ±~
 1 0 18077
 D1
 Bar.
@@ -3271,11 +3271,11 @@ Bar.
 0 0 18075
 S
 #18077
-Güzel Bir Salon~
-Oldukça temiz bir odaya geldin. Burada insanlar rahat koltuklarda oturarak
-sohbet ediyorlar. Sağ tarafında bir kafe bar görüyorsun. Oyun Salonunu
-unutturacak hafif bir müzik çalıyor. Kuzeyinde yukarıya çıkan bir merdiven
-görüyorsun.
+GÃ¼zel Bir Salon~
+OldukÃ§a temiz bir odaya geldin. Burada insanlar rahat koltuklarda oturarak
+sohbet ediyorlar. SaÄŸ tarafÄ±nda bir kafe bar gÃ¶rÃ¼yorsun. Oyun Salonunu
+unutturacak hafif bir mÃ¼zik Ã§alÄ±yor. Kuzeyinde yukarÄ±ya Ã§Ä±kan bir merdiven
+gÃ¶rÃ¼yorsun.
 ~
 0 A 3
 D0
@@ -3291,11 +3291,11 @@ Oyun Salonu.
 S
 #18078
 Merdiven~
-Şehrin dış duvarına açılan hoş bir merdivendesin. Yarı yolda hafif bir
-meltemle karşılaşıyorsun, bu seni tepeye çıkmak için teşvik ediyor.
-Bardan geçiti bulunan bu duvarda ne olduğunu merak ediyorsun. Solunda,
-üzerinde 'yemek salonu' yazan bir kapı görüyorsun. Çıkışlar yukarı ve
-güney yönlerinde açılıyor.
+Åehrin dÄ±ÅŸ duvarÄ±na aÃ§Ä±lan hoÅŸ bir merdivendesin. YarÄ± yolda hafif bir
+meltemle karÅŸÄ±laÅŸÄ±yorsun, bu seni tepeye Ã§Ä±kmak iÃ§in teÅŸvik ediyor.
+Bardan geÃ§iti bulunan bu duvarda ne olduÄŸunu merak ediyorsun. Solunda,
+Ã¼zerinde 'yemek salonu' yazan bir kapÄ± gÃ¶rÃ¼yorsun. Ã‡Ä±kÄ±ÅŸlar yukarÄ± ve
+gÃ¼ney yÃ¶nlerinde aÃ§Ä±lÄ±yor.
 ~
 0 A 3
 D2
@@ -3310,14 +3310,14 @@ Duvar.
 0 0 18079
 S
 #18079
-Şehir Duvarlarının Üzerinde~
-Kendini şehrin yukarısında bir dış duvarda buluyorsun. Görülüyor ki
-meyhanenin sahibi burayı kraliçenin yemek salonu olarak düzenlemiş.
-Burada çok az kişi var, onlar da kendi eğlencelerine bakıyorlar. Buradan
-bütün şehri ve kocaman kaleyi rahatlıkla izleyebilirsin. Şehrin vadinin
-çok yakınında bulunan bir adanın üzerine kurulduğunu fark ediyorsun.
-Etrafında yeşil ağaçlarla kaplı duvar surları görünüyor. Doğu dans pistine
-ve merdivenlerse aşağıya uzanıyor.
+Åehir DuvarlarÄ±nÄ±n Ãœzerinde~
+Kendini ÅŸehrin yukarÄ±sÄ±nda bir dÄ±ÅŸ duvarda buluyorsun. GÃ¶rÃ¼lÃ¼yor ki
+meyhanenin sahibi burayÄ± kraliÃ§enin yemek salonu olarak dÃ¼zenlemiÅŸ.
+Burada Ã§ok az kiÅŸi var, onlar da kendi eÄŸlencelerine bakÄ±yorlar. Buradan
+bÃ¼tÃ¼n ÅŸehri ve kocaman kaleyi rahatlÄ±kla izleyebilirsin. Åehrin vadinin
+Ã§ok yakÄ±nÄ±nda bulunan bir adanÄ±n Ã¼zerine kurulduÄŸunu fark ediyorsun.
+EtrafÄ±nda yeÅŸil aÄŸaÃ§larla kaplÄ± duvar surlarÄ± gÃ¶rÃ¼nÃ¼yor. DoÄŸu dans pistine
+ve merdivenlerse aÅŸaÄŸÄ±ya uzanÄ±yor.
 ~
 0 A 3
 D1
@@ -3333,11 +3333,11 @@ Merdiven.
 S
 #18080
 Dans Pisti~
-Şehir duvarların üzerinde meyhane sahibinin dans pisti olarak kullandığı
-bir bölümdesin. Boş olsa bile, harika bir pist olduğu görülüyor. Arka
-plandan gelen yumuşak müzikle dans etme isteği duyuyorsun. Belki birgün
-buraya "özel biriyle" gelip ona şehrin harika manzarasını gösterirsin.
-Tek çıkış batıda.
+Åehir duvarlarÄ±n Ã¼zerinde meyhane sahibinin dans pisti olarak kullandÄ±ÄŸÄ±
+bir bÃ¶lÃ¼mdesin. BoÅŸ olsa bile, harika bir pist olduÄŸu gÃ¶rÃ¼lÃ¼yor. Arka
+plandan gelen yumuÅŸak mÃ¼zikle dans etme isteÄŸi duyuyorsun. Belki birgÃ¼n
+buraya "Ã¶zel biriyle" gelip ona ÅŸehrin harika manzarasÄ±nÄ± gÃ¶sterirsin.
+Tek Ã§Ä±kÄ±ÅŸ batÄ±da.
 ~
 0 A 3
 D3
@@ -3348,10 +3348,10 @@ Yemek Salonu.
 S
 #18081
 Arka Sokak~
-Arka sokağa geldin. Oldukça temiz görünümlü bir kaç dilenci burada
-bulunuyor. Havada tuhaf bir koku var. Alışılmadık Bir koku! Çürük
-kokusu gibi... Batıda bir çöplük yığını görüyorsun. Çıkışlar batıda
-çöplüğe, kuzeyde Batı Sokaklarına doğru açılıyor.
+Arka sokaÄŸa geldin. OldukÃ§a temiz gÃ¶rÃ¼nÃ¼mlÃ¼ bir kaÃ§ dilenci burada
+bulunuyor. Havada tuhaf bir koku var. AlÄ±ÅŸÄ±lmadÄ±k Bir koku! Ã‡Ã¼rÃ¼k
+kokusu gibi... BatÄ±da bir Ã§Ã¶plÃ¼k yÄ±ÄŸÄ±nÄ± gÃ¶rÃ¼yorsun. Ã‡Ä±kÄ±ÅŸlar batÄ±da
+Ã§Ã¶plÃ¼ÄŸe, kuzeyde BatÄ± SokaklarÄ±na doÄŸru aÃ§Ä±lÄ±yor.
 ~
 0 A 3
 D0
@@ -3359,17 +3359,17 @@ D0
 ~
 0 0 18074
 D3
-Çöplük yığını.
+Ã‡Ã¶plÃ¼k yÄ±ÄŸÄ±nÄ±.
 ~
 ~
 0 0 18082
 S
 #18082
-Çöplük Yığını~
-Ööğğğhh! Öldürücü bir koku! Hertaraf çöple dolu. Bütün şehirdeki tek kirli
-bölge burası. Küçük kediler çöp yığınlarını yiyebilecek güzel birşeyler
-bulmak umuduyla alt üst ediyorlar. Burayı olabildiğince çabuk terk etmek
-istiyorsun. Tek çıkış doğuda ve çöplüğün altındaki lağıma doğru devam ediyor.
+Ã‡Ã¶plÃ¼k YÄ±ÄŸÄ±nÄ±~
+Ã–Ã¶ÄŸÄŸÄŸhh! Ã–ldÃ¼rÃ¼cÃ¼ bir koku! Hertaraf Ã§Ã¶ple dolu. BÃ¼tÃ¼n ÅŸehirdeki tek kirli
+bÃ¶lge burasÄ±. KÃ¼Ã§Ã¼k kediler Ã§Ã¶p yÄ±ÄŸÄ±nlarÄ±nÄ± yiyebilecek gÃ¼zel birÅŸeyler
+bulmak umuduyla alt Ã¼st ediyorlar. BurayÄ± olabildiÄŸince Ã§abuk terk etmek
+istiyorsun. Tek Ã§Ä±kÄ±ÅŸ doÄŸuda ve Ã§Ã¶plÃ¼ÄŸÃ¼n altÄ±ndaki laÄŸÄ±ma doÄŸru devam ediyor.
 ~
 0 A 3
 D1
@@ -3378,38 +3378,38 @@ Dar sokak.
 ~
 0 0 18081
 D2
-Bir Çöplük yığını.
+Bir Ã‡Ã¶plÃ¼k yÄ±ÄŸÄ±nÄ±.
 ~
-kapı~
+kapÄ±~
 1 0 18097
 S
 #18083
-Batı Sokaklarının Sonu~
-Batı Sokağında bir çıkmaza geldin. Burada eski bir dergi ve şişeden başka
-hiçbir şey yok. Soğuk, karanlık kaldırım taşları kendini yanlız hissetmene
-neden oluyor. Bir zamanlar depo olarak kullanılan dükkan şimdi boş görünüyor.
-Tek çıkış doğuda.
+BatÄ± SokaklarÄ±nÄ±n Sonu~
+BatÄ± SokaÄŸÄ±nda bir Ã§Ä±kmaza geldin. Burada eski bir dergi ve ÅŸiÅŸeden baÅŸka
+hiÃ§bir ÅŸey yok. SoÄŸuk, karanlÄ±k kaldÄ±rÄ±m taÅŸlarÄ± kendini yanlÄ±z hissetmene
+neden oluyor. Bir zamanlar depo olarak kullanÄ±lan dÃ¼kkan ÅŸimdi boÅŸ gÃ¶rÃ¼nÃ¼yor.
+Tek Ã§Ä±kÄ±ÅŸ doÄŸuda.
 ~
 0 A 3
 D1
-Batı Sokakları.
+BatÄ± SokaklarÄ±.
 ~
 ~
 0 0 18074
 S
 #18084
-Düzenli Batı Sokakları~
-Şehirdeki en düzenli sokaklardan birindesin. Güzel görünümlü binalar yolun
-iki tarafında sıralanarak çok hoş bir görünüm oluşturuyorlar. Solunda ve
-sağında Yeşil Ejder ve Mavi Yolculuk adlı iki han görüyorsun. Sokak batı
-ve doğu yönlerinde ana caddeye, Kuzey ve güney yönlerinde hanlara doğru
+DÃ¼zenli BatÄ± SokaklarÄ±~
+Åehirdeki en dÃ¼zenli sokaklardan birindesin. GÃ¼zel gÃ¶rÃ¼nÃ¼mlÃ¼ binalar yolun
+iki tarafÄ±nda sÄ±ralanarak Ã§ok hoÅŸ bir gÃ¶rÃ¼nÃ¼m oluÅŸturuyorlar. Solunda ve
+saÄŸÄ±nda YeÅŸil Ejder ve Mavi Yolculuk adlÄ± iki han gÃ¶rÃ¼yorsun. Sokak batÄ±
+ve doÄŸu yÃ¶nlerinde ana caddeye, Kuzey ve gÃ¼ney yÃ¶nlerinde hanlara doÄŸru
 devam ediyor.
 ~
 0 A 3
 D0
-Yeşil Ejder Hanı.
+YeÅŸil Ejder HanÄ±.
 ~
-kapı~
+kapÄ±~
 1 0 18088
 D1
 Ana Cadde.
@@ -3417,28 +3417,28 @@ Ana Cadde.
 ~
 0 0 18059
 D2
-Mavi Yolculuk Hanı.
+Mavi Yolculuk HanÄ±.
 ~
-kapı~
+kapÄ±~
 1 0 18085
 D3
-Batı Sokakları devam ediyor.
+BatÄ± SokaklarÄ± devam ediyor.
 ~
 ~
 0 0 18089
 S
 #18085
-Mavi Yolculuk Hanı~
-Düzenli, beyaz zeminli bir handasın. Duvarlarda üzerinde savaş sahneleri
-ve acı içeren halılar yer alıyor. Pencereden giren güneş ışığı burayı
-sıcak tutuyor. Odanın ortasında iki tane koyu yeşil, kadifeden, altın
-işlemeli halı var. Hanın müdürü içten ve sıcak bir tebessümle seni
-karşılıyor. Çıkışlar kuzeyde batı Sokakları ve doğuda merdivene doğru
-açılıyor.
+Mavi Yolculuk HanÄ±~
+DÃ¼zenli, beyaz zeminli bir handasÄ±n. Duvarlarda Ã¼zerinde savaÅŸ sahneleri
+ve acÄ± iÃ§eren halÄ±lar yer alÄ±yor. Pencereden giren gÃ¼neÅŸ Ä±ÅŸÄ±ÄŸÄ± burayÄ±
+sÄ±cak tutuyor. OdanÄ±n ortasÄ±nda iki tane koyu yeÅŸil, kadifeden, altÄ±n
+iÅŸlemeli halÄ± var. HanÄ±n mÃ¼dÃ¼rÃ¼ iÃ§ten ve sÄ±cak bir tebessÃ¼mle seni
+karÅŸÄ±lÄ±yor. Ã‡Ä±kÄ±ÅŸlar kuzeyde batÄ± SokaklarÄ± ve doÄŸuda merdivene doÄŸru
+aÃ§Ä±lÄ±yor.
 ~
 0 A 3
 D0
-Batıdaki Ana Cadde.
+BatÄ±daki Ana Cadde.
 ~
 ~
 0 0 18084
@@ -3449,11 +3449,11 @@ Merdiven.
 0 0 18086
 S
 #18086
-Büyük Merdiven~
-Hanın üst katına çıkan halı kaplanmış merdivendesin. Geniş pencereler hana
-güzellik katarak merdiven boyunca devam ediyor. Bu sınıf bir handa odaların
-neye benzediğini görmek için sabırsızlanıyorsun. Çıkışlar batıda lobiye,
-yukarda ikinci kata doğru devam ediyor.
+BÃ¼yÃ¼k Merdiven~
+HanÄ±n Ã¼st katÄ±na Ã§Ä±kan halÄ± kaplanmÄ±ÅŸ merdivendesin. GeniÅŸ pencereler hana
+gÃ¼zellik katarak merdiven boyunca devam ediyor. Bu sÄ±nÄ±f bir handa odalarÄ±n
+neye benzediÄŸini gÃ¶rmek iÃ§in sabÄ±rsÄ±zlanÄ±yorsun. Ã‡Ä±kÄ±ÅŸlar batÄ±da lobiye,
+yukarda ikinci kata doÄŸru devam ediyor.
 ~
 0 A 3
 D3
@@ -3462,19 +3462,19 @@ Lobi.
 ~
 0 0 18085
 D4
-İkinci kat.
+Ä°kinci kat.
 ~
 ~
 0 0 18087
 S
 #18087
-İkinci Kat~
-Gerçekten büyük bir koridor! Koridor boyunca uzanan altın kızak
-pencerelerdeki geniş perdeleri tutturmak için konulmuş. Yaklaşık
-yarım düzine oda koridorun iki tarafında sıralanıyor. Kapı tokmakları
-altından yapılmış. Bu daha önce bulunduğun hanların en iyisi.
-Tanıdıklarına burayı anlatmak için sabırsızlanıyorsun. Tek çıkış
-aşağıda merdivenlere doğru, henüz bir oda için ödeme yapmadıysan tabii.
+Ä°kinci Kat~
+GerÃ§ekten bÃ¼yÃ¼k bir koridor! Koridor boyunca uzanan altÄ±n kÄ±zak
+pencerelerdeki geniÅŸ perdeleri tutturmak iÃ§in konulmuÅŸ. YaklaÅŸÄ±k
+yarÄ±m dÃ¼zine oda koridorun iki tarafÄ±nda sÄ±ralanÄ±yor. KapÄ± tokmaklarÄ±
+altÄ±ndan yapÄ±lmÄ±ÅŸ. Bu daha Ã¶nce bulunduÄŸun hanlarÄ±n en iyisi.
+TanÄ±dÄ±klarÄ±na burayÄ± anlatmak iÃ§in sabÄ±rsÄ±zlanÄ±yorsun. Tek Ã§Ä±kÄ±ÅŸ
+aÅŸaÄŸÄ±da merdivenlere doÄŸru, henÃ¼z bir oda iÃ§in Ã¶deme yapmadÄ±ysan tabii.
 ~
 0 A 3
 D5
@@ -3484,93 +3484,93 @@ Merdiven.
 0 0 18086
 S
 #18088
-Yeşil Ejder Hanı~
-Büyük, yeşil bir halı zemine serilmiş muhteşem gümüş merdivenler ikinci
-kata çıkıyor. Bu kesinlikle harika ve pahalı bir han. İsmi tamamen hana
-uyuyor. Tek çıkış güneyde.
+YeÅŸil Ejder HanÄ±~
+BÃ¼yÃ¼k, yeÅŸil bir halÄ± zemine serilmiÅŸ muhteÅŸem gÃ¼mÃ¼ÅŸ merdivenler ikinci
+kata Ã§Ä±kÄ±yor. Bu kesinlikle harika ve pahalÄ± bir han. Ä°smi tamamen hana
+uyuyor. Tek Ã§Ä±kÄ±ÅŸ gÃ¼neyde.
 ~
 0 A 3
 D2
-Batı Sokakları.
+BatÄ± SokaklarÄ±.
 ~
 ~
 0 0 18084
 S
 #18089
-Devam Eden Batı Sokakları~
-Koyu gri taşlarla döşenmiş kaldırımlar kocaman şehre hoş bir etki bırakıyor.
-Uzun binalar olduklarından daha büyük ve korkunç görünüyorlar. Arka plandan
-yükselen kasabalıların sesleri buranın günlük gürültüsüne katılıyor.
-Kuzeyinde kap satan bir dükkan, güneyinde eski bir kütüphane var. Yol batı
-ve doğu yönlerinde devam ediyor.
+Devam Eden BatÄ± SokaklarÄ±~
+Koyu gri taÅŸlarla dÃ¶ÅŸenmiÅŸ kaldÄ±rÄ±mlar kocaman ÅŸehre hoÅŸ bir etki bÄ±rakÄ±yor.
+Uzun binalar olduklarÄ±ndan daha bÃ¼yÃ¼k ve korkunÃ§ gÃ¶rÃ¼nÃ¼yorlar. Arka plandan
+yÃ¼kselen kasabalÄ±larÄ±n sesleri buranÄ±n gÃ¼nlÃ¼k gÃ¼rÃ¼ltÃ¼sÃ¼ne katÄ±lÄ±yor.
+Kuzeyinde kap satan bir dÃ¼kkan, gÃ¼neyinde eski bir kÃ¼tÃ¼phane var. Yol batÄ±
+ve doÄŸu yÃ¶nlerinde devam ediyor.
 ~
 0 A 3
 D0
-Küçük eski dükkan.
+KÃ¼Ã§Ã¼k eski dÃ¼kkan.
 ~
-kapı~
+kapÄ±~
 1 0 18090
 D1
-Batı sokakları devam ediyor.
+BatÄ± sokaklarÄ± devam ediyor.
 ~
 ~
 0 0 18084
 D2
-Kütüphane.
+KÃ¼tÃ¼phane.
 ~
 ~
 1 0 18091
 D3
-Batı yolu devam ediyor.
+BatÄ± yolu devam ediyor.
 ~
 ~
 0 0 18099
 S
 #18090
-Kap Dükkanı~
-Ahşap duvarlara ve zemine sahip küçük güzel bir odaya girdin. Işık girmesi
-için yapılan pencerelerin sayısı oldukça fazla. Duvarlardaki raflarda çeşitli
-boyutlarda taşıyıcı kaplar bulunuyor. Bir adam büyükçe bir masanın arkasında
-oturmuş birinci sınıf kaplarını satıyor. Tek çıkış güneyde ana caddeye doğru
-açılıyor.
+Kap DÃ¼kkanÄ±~
+AhÅŸap duvarlara ve zemine sahip kÃ¼Ã§Ã¼k gÃ¼zel bir odaya girdin. IÅŸÄ±k girmesi
+iÃ§in yapÄ±lan pencerelerin sayÄ±sÄ± oldukÃ§a fazla. Duvarlardaki raflarda Ã§eÅŸitli
+boyutlarda taÅŸÄ±yÄ±cÄ± kaplar bulunuyor. Bir adam bÃ¼yÃ¼kÃ§e bir masanÄ±n arkasÄ±nda
+oturmuÅŸ birinci sÄ±nÄ±f kaplarÄ±nÄ± satÄ±yor. Tek Ã§Ä±kÄ±ÅŸ gÃ¼neyde ana caddeye doÄŸru
+aÃ§Ä±lÄ±yor.
 ~
 0 A 3
 D2
-Batı Sokakları.
+BatÄ± SokaklarÄ±.
 ~
 ~
 0 0 18089
 S
 #18091
-Kütüphane~
-Vadide yanlızca bir tane bulunan kütüphaneye geldin. Kitaplarla dolu
-dev raflar bu devasa binanın duvarlarını kaplamış durumda. Masalarda
-dağılmış olarak duran parşömenler ve kağıtlar buraya daha da kadim
-bir hava veriyor. Büyükçe bir merdiven üst kattaki balkona çıkıyor.
-Bir işaret "Şşşşştt. Burası bir Kütüphane." diyerek sessiz olmanı öneriyor.
-Çıkışlar kuzeyde batı sokaklarına ve batıda üst kata devam ediyor.
+KÃ¼tÃ¼phane~
+Vadide yanlÄ±zca bir tane bulunan kÃ¼tÃ¼phaneye geldin. Kitaplarla dolu
+dev raflar bu devasa binanÄ±n duvarlarÄ±nÄ± kaplamÄ±ÅŸ durumda. Masalarda
+daÄŸÄ±lmÄ±ÅŸ olarak duran parÅŸÃ¶menler ve kaÄŸÄ±tlar buraya daha da kadim
+bir hava veriyor. BÃ¼yÃ¼kÃ§e bir merdiven Ã¼st kattaki balkona Ã§Ä±kÄ±yor.
+Bir iÅŸaret "ÅÅŸÅŸÅŸÅŸtt. BurasÄ± bir KÃ¼tÃ¼phane." diyerek sessiz olmanÄ± Ã¶neriyor.
+Ã‡Ä±kÄ±ÅŸlar kuzeyde batÄ± sokaklarÄ±na ve batÄ±da Ã¼st kata devam ediyor.
 ~
 0 A 3
 D0
-Batı sokakları.
+BatÄ± sokaklarÄ±.
 ~
 ~
 0 0 18089
 D3
-Büyük Merdiven.
+BÃ¼yÃ¼k Merdiven.
 ~
 ~
 0 0 18092
 S
 #18092
-Büyük Merdiven~
-Büyük ahşap bir merdiven üst kattaki balkona çıkıyor. Burası handaki bir
-yatak odası kadar geniş ve yaklaşık 36 ayak yüksekliğinde. Merdiven boyunca
-geniş bir kitaplık görüyorsun. Güzel, siyah bir halı yere serilmiş duruyor.
-Senin ve diğerlerinin çizmelerinden ses çıkmaması için oldukça yumuşak
-dokunmuş. Buradan kütüphanenin gerçekten çok büyük ve çok güzel olduğunu
-görüyorsun. Çıkışlar doğuda kütüphanenin ana odasına, ve yukarıda balkona
-doğru devam ediyor.
+BÃ¼yÃ¼k Merdiven~
+BÃ¼yÃ¼k ahÅŸap bir merdiven Ã¼st kattaki balkona Ã§Ä±kÄ±yor. BurasÄ± handaki bir
+yatak odasÄ± kadar geniÅŸ ve yaklaÅŸÄ±k 36 ayak yÃ¼ksekliÄŸinde. Merdiven boyunca
+geniÅŸ bir kitaplÄ±k gÃ¶rÃ¼yorsun. GÃ¼zel, siyah bir halÄ± yere serilmiÅŸ duruyor.
+Senin ve diÄŸerlerinin Ã§izmelerinden ses Ã§Ä±kmamasÄ± iÃ§in oldukÃ§a yumuÅŸak
+dokunmuÅŸ. Buradan kÃ¼tÃ¼phanenin gerÃ§ekten Ã§ok bÃ¼yÃ¼k ve Ã§ok gÃ¼zel olduÄŸunu
+gÃ¶rÃ¼yorsun. Ã‡Ä±kÄ±ÅŸlar doÄŸuda kÃ¼tÃ¼phanenin ana odasÄ±na, ve yukarÄ±da balkona
+doÄŸru devam ediyor.
 ~
 0 A 3
 D1
@@ -3585,15 +3585,15 @@ Balkon.
 0 0 18093
 S
 #18093
-Büyük Balkon~
-Gerçekten çok büyük! Balkonda eski hikaye ve bilgi kitaplarının harika bir
-koleksiyonu ile karşılaşıyorsun. Merkezdeki masaların etrafı bir şeyler
-okuyanlarla dolu. Tıkırtılara karşı siyah bir halı masaların altına serilmiş.
-İlk başta hangi kitabı seçeceğini merak ediyorsun! Tek çıkış aşağıda.
+BÃ¼yÃ¼k Balkon~
+GerÃ§ekten Ã§ok bÃ¼yÃ¼k! Balkonda eski hikaye ve bilgi kitaplarÄ±nÄ±n harika bir
+koleksiyonu ile karÅŸÄ±laÅŸÄ±yorsun. Merkezdeki masalarÄ±n etrafÄ± bir ÅŸeyler
+okuyanlarla dolu. TÄ±kÄ±rtÄ±lara karÅŸÄ± siyah bir halÄ± masalarÄ±n altÄ±na serilmiÅŸ.
+Ä°lk baÅŸta hangi kitabÄ± seÃ§eceÄŸini merak ediyorsun! Tek Ã§Ä±kÄ±ÅŸ aÅŸaÄŸÄ±da.
 ~
 0 A 3
 D2
-İlgi çekici bir şey görmüyorsun.
+Ä°lgi Ã§ekici bir ÅŸey gÃ¶rmÃ¼yorsun.
 ~
 ~
 1 0 18094
@@ -3604,18 +3604,18 @@ Merdiven.
 0 0 18092
 S
 #18094
-Kitaplığın Arkasındaki Gizli Geçit~
-Titan bilgelik kitaplarından birini ittirdiğinde kitaplık gizli bir pasaja
-doğru açılıyor. Çabucak ilerleyerek arkandan kitaplığı kapatıyorsun. Oldukça
-zayıf meşalelerle aydınlatılan bu taş koridorda önünü görmen oldukça güç.
-Çıkmaz bir yol gibi görünüyor, ya da en azından kütüphaneye dönmek için bir
-anahtara ihtiyacın olduğunu sanıyorsun. İleride ne gibi gizemli şeyler var
-acaba... Pasaj nereye gidiyor ve nerede sonlanacak? Tek çıkış batıda ve
-kuzeydeki balkona doğru devam ediyor.
+KitaplÄ±ÄŸÄ±n ArkasÄ±ndaki Gizli GeÃ§it~
+Titan bilgelik kitaplarÄ±ndan birini ittirdiÄŸinde kitaplÄ±k gizli bir pasaja
+doÄŸru aÃ§Ä±lÄ±yor. Ã‡abucak ilerleyerek arkandan kitaplÄ±ÄŸÄ± kapatÄ±yorsun. OldukÃ§a
+zayÄ±f meÅŸalelerle aydÄ±nlatÄ±lan bu taÅŸ koridorda Ã¶nÃ¼nÃ¼ gÃ¶rmen oldukÃ§a gÃ¼Ã§.
+Ã‡Ä±kmaz bir yol gibi gÃ¶rÃ¼nÃ¼yor, ya da en azÄ±ndan kÃ¼tÃ¼phaneye dÃ¶nmek iÃ§in bir
+anahtara ihtiyacÄ±n olduÄŸunu sanÄ±yorsun. Ä°leride ne gibi gizemli ÅŸeyler var
+acaba... Pasaj nereye gidiyor ve nerede sonlanacak? Tek Ã§Ä±kÄ±ÅŸ batÄ±da ve
+kuzeydeki balkona doÄŸru devam ediyor.
 ~
 0 A 5
 D0
-Balkona geri dönüş.
+Balkona geri dÃ¶nÃ¼ÅŸ.
 ~
 ~
 0 0 18093
@@ -3626,12 +3626,12 @@ Pasaj devam ediyor.
 0 0 18095
 S
 #18095
-Kütüphanedeki Gizli Koridor~
-Bu koridoru geçmişte kaç kişinin kullandığını merak ediyorsun. Tabii ki
-meşaleler hala yanıyor fakat, bunlar koyu turuncu renkte bir çeşit Titan
-sihri gibi duruyorlar. Karanlık patika batıya bilinmeyene doğru devam ediyor.
-Kulakların hep arkanda, başka birinin daha senin gibi içeriye gireceğinden
-korkuyorsun. Fakat oldukça zayıf bir ihtimal. Çıkışlar doğu ve batıda.
+KÃ¼tÃ¼phanedeki Gizli Koridor~
+Bu koridoru geÃ§miÅŸte kaÃ§ kiÅŸinin kullandÄ±ÄŸÄ±nÄ± merak ediyorsun. Tabii ki
+meÅŸaleler hala yanÄ±yor fakat, bunlar koyu turuncu renkte bir Ã§eÅŸit Titan
+sihri gibi duruyorlar. KaranlÄ±k patika batÄ±ya bilinmeyene doÄŸru devam ediyor.
+KulaklarÄ±n hep arkanda, baÅŸka birinin daha senin gibi iÃ§eriye gireceÄŸinden
+korkuyorsun. Fakat oldukÃ§a zayÄ±f bir ihtimal. Ã‡Ä±kÄ±ÅŸlar doÄŸu ve batÄ±da.
 ~
 0 A 5
 D1
@@ -3646,10 +3646,10 @@ Pasaj devam ediyor.
 0 0 18096
 S
 #18096
-Karanlık Koridora Üçlü Yol Ayrımı~
-Pasajda üçlü yol ayrımına geldin. Kuzeyde pasajın aşağıya doğru yöneldiğini
-görüyorsun. Pasaj aynı zamanda doğu ve batı yönlerinde de devam ediyor.
-Muhteşem Tanrı'ndan yakında bir yol bulmayı diliyorsun. Işık rehberin olsun!
+KaranlÄ±k Koridora ÃœÃ§lÃ¼ Yol AyrÄ±mÄ±~
+Pasajda Ã¼Ã§lÃ¼ yol ayrÄ±mÄ±na geldin. Kuzeyde pasajÄ±n aÅŸaÄŸÄ±ya doÄŸru yÃ¶neldiÄŸini
+gÃ¶rÃ¼yorsun. Pasaj aynÄ± zamanda doÄŸu ve batÄ± yÃ¶nlerinde de devam ediyor.
+MuhteÅŸem TanrÄ±'ndan yakÄ±nda bir yol bulmayÄ± diliyorsun. IÅŸÄ±k rehberin olsun!
 ~
 0 A 5
 D0
@@ -3669,39 +3669,39 @@ Pasaj devam ediyor.
 0 0 18098
 S
 #18097
-Pasajda Beklenmedik Bir Çıkmaz~
-Pasajda çıkmaz bir yola geldin. Ağlamak isteyebilirsin ama ağlamamalısın.
-Üçlü yol ayrımında batı koridorunun nereye gittiğini merak ediyorsun. Fakat
-herhangi bir sürprizle karşılaşmaktan ya da aşağı düşmekten çekiniyorsun.
-Bütün ümidini kaybetmeden hemen önce zeminde küçük bir kapı görüyorsun.
-Hayır, bir kapı değil ama dışarıya açılan bir ızgara! Yakından bakmak için
-uzanıyorsun. *sniff* Koku! Çöplük! Çöplüğe doğru götürüyor! Başka bir yol
-olmasını isterdin fakat yapacak birşey yok. Çıkışlar kuzeyde çöplüğe ve
-güneyde üçlü yol ayrımına devam ediyor.
+Pasajda Beklenmedik Bir Ã‡Ä±kmaz~
+Pasajda Ã§Ä±kmaz bir yola geldin. AÄŸlamak isteyebilirsin ama aÄŸlamamalÄ±sÄ±n.
+ÃœÃ§lÃ¼ yol ayrÄ±mÄ±nda batÄ± koridorunun nereye gittiÄŸini merak ediyorsun. Fakat
+herhangi bir sÃ¼rprizle karÅŸÄ±laÅŸmaktan ya da aÅŸaÄŸÄ± dÃ¼ÅŸmekten Ã§ekiniyorsun.
+BÃ¼tÃ¼n Ã¼midini kaybetmeden hemen Ã¶nce zeminde kÃ¼Ã§Ã¼k bir kapÄ± gÃ¶rÃ¼yorsun.
+HayÄ±r, bir kapÄ± deÄŸil ama dÄ±ÅŸarÄ±ya aÃ§Ä±lan bir Ä±zgara! YakÄ±ndan bakmak iÃ§in
+uzanÄ±yorsun. *sniff* Koku! Ã‡Ã¶plÃ¼k! Ã‡Ã¶plÃ¼ÄŸe doÄŸru gÃ¶tÃ¼rÃ¼yor! BaÅŸka bir yol
+olmasÄ±nÄ± isterdin fakat yapacak birÅŸey yok. Ã‡Ä±kÄ±ÅŸlar kuzeyde Ã§Ã¶plÃ¼ÄŸe ve
+gÃ¼neyde Ã¼Ã§lÃ¼ yol ayrÄ±mÄ±na devam ediyor.
 ~
 0 A 3
 D0
-Kirli ızgara.
+Kirli Ä±zgara.
 ~
-ızgara~
+Ä±zgara~
 1 0 18082
 D2
-Üçlü yol ayrımı.
+ÃœÃ§lÃ¼ yol ayrÄ±mÄ±.
 ~
 ~
 0 0 18096
 S
 #18098
-Çıkmaz~
-Koridorda bir çıkmaza girdin. Bu oda da diğerleri gibi karanlık ve kasvetli.
-Fakat tuhaf bir şey hissediyorsun. Yüzü traşsız bir adam sana doğru gelerek
-hayvan koleksiyonunu gösteriyor. Savaş amacıyla eğitilmiş vahşi hayvanlardan
-oluşan bir koleksiyon! Neler yapabildiklerini görmek iyi olurdu! Tabii senin
-üzerinde değil... Tek çıkış doğuda.
+Ã‡Ä±kmaz~
+Koridorda bir Ã§Ä±kmaza girdin. Bu oda da diÄŸerleri gibi karanlÄ±k ve kasvetli.
+Fakat tuhaf bir ÅŸey hissediyorsun. YÃ¼zÃ¼ traÅŸsÄ±z bir adam sana doÄŸru gelerek
+hayvan koleksiyonunu gÃ¶steriyor. SavaÅŸ amacÄ±yla eÄŸitilmiÅŸ vahÅŸi hayvanlardan
+oluÅŸan bir koleksiyon! Neler yapabildiklerini gÃ¶rmek iyi olurdu! Tabii senin
+Ã¼zerinde deÄŸil... Tek Ã§Ä±kÄ±ÅŸ doÄŸuda.
 ~
 0 A 3
 D0
-Gördüğün  eee...... ilgi çekici hiç bir şey yok.
+GÃ¶rdÃ¼ÄŸÃ¼n  eee...... ilgi Ã§ekici hiÃ§ bir ÅŸey yok.
 ~
 gizli~
 1 0 18124
@@ -3712,48 +3712,48 @@ Pasaj devam ediyor.
 0 0 18096
 S
 #18099
-Batı Sokaklarının Sonu~
-Düzenli batı sokaklarının sonuna geldin. Şehre güzellik katan üç dükkan
-bu sokak boyunca uzanıyor. Bir fırıncı, bir sihirli değnekler dükkanı ve
-küçük bir evcil dükkanı görüyorsun. Çıkışlar batıda hayvan dükkanına,
-doğuda ana caddeye, kuzeyde fırına ve güneyde sihirli değnekler dükkanına
-doğru devam ediyor.
+BatÄ± SokaklarÄ±nÄ±n Sonu~
+DÃ¼zenli batÄ± sokaklarÄ±nÄ±n sonuna geldin. Åehre gÃ¼zellik katan Ã¼Ã§ dÃ¼kkan
+bu sokak boyunca uzanÄ±yor. Bir fÄ±rÄ±ncÄ±, bir sihirli deÄŸnekler dÃ¼kkanÄ± ve
+kÃ¼Ã§Ã¼k bir evcil dÃ¼kkanÄ± gÃ¶rÃ¼yorsun. Ã‡Ä±kÄ±ÅŸlar batÄ±da hayvan dÃ¼kkanÄ±na,
+doÄŸuda ana caddeye, kuzeyde fÄ±rÄ±na ve gÃ¼neyde sihirli deÄŸnekler dÃ¼kkanÄ±na
+doÄŸru devam ediyor.
 ~
 0 A 3
 D0
-Fırıncı.
+FÄ±rÄ±ncÄ±.
 ~
 ~
 0 0 18102
 D1
-Batıdaki ana cadde.
+BatÄ±daki ana cadde.
 ~
 ~
 0 0 18089
 D2
-Sihirli değnekler dükkanı.
+Sihirli deÄŸnekler dÃ¼kkanÄ±.
 ~
-kapı~
+kapÄ±~
 1 0 18103
 D3
-Evcil hayvan dükkanı.
+Evcil hayvan dÃ¼kkanÄ±.
 ~
-kapı~
+kapÄ±~
 1 0 18100
 S
 #18100
-Evcil Hayvan Dükkanı~
-Küçük sevimli bir hayvan dükkanındasın. Duvarlarda içlerinde sevimli ve
-küçük hayvanların olduğu gümüş kafesler bulunuyor. Büyük meşeden yapılmış
-bir masa önünde duruyor. Arkasında şarkı söyleyen küçük bir kız yaptığı
-işten oldukça memnun, sana gülümsüyor. Bütün hayvanların ne kadar tutacağını
-merak ediyorsun. Tek çıkış doğuda.
+Evcil Hayvan DÃ¼kkanÄ±~
+KÃ¼Ã§Ã¼k sevimli bir hayvan dÃ¼kkanÄ±ndasÄ±n. Duvarlarda iÃ§lerinde sevimli ve
+kÃ¼Ã§Ã¼k hayvanlarÄ±n olduÄŸu gÃ¼mÃ¼ÅŸ kafesler bulunuyor. BÃ¼yÃ¼k meÅŸeden yapÄ±lmÄ±ÅŸ
+bir masa Ã¶nÃ¼nde duruyor. ArkasÄ±nda ÅŸarkÄ± sÃ¶yleyen kÃ¼Ã§Ã¼k bir kÄ±z yaptÄ±ÄŸÄ±
+iÅŸten oldukÃ§a memnun, sana gÃ¼lÃ¼msÃ¼yor. BÃ¼tÃ¼n hayvanlarÄ±n ne kadar tutacaÄŸÄ±nÄ±
+merak ediyorsun. Tek Ã§Ä±kÄ±ÅŸ doÄŸuda.
 ~
 0 DM 0
 D0
-Yasak depo odası.
+Yasak depo odasÄ±.
 ~
-kapı~
+kapÄ±~
 1 0 18101
 D1
 Ana cadde.
@@ -3762,25 +3762,25 @@ Ana cadde.
 0 0 18099
 S
 #18101
-Gizli Depo Odası~
-Yasak bir depoya girdin. Birçok şirin hayvan görüyorsun fakat odaya
-giriş yasaklanmış! Nasıl girdiğini bilmesem de, senden burayı terk etmeni
-istiyorum. Eğer seni bulursam bizzat kendim öldürürüm... Merhamet etmem!
-Tek çıkış olman gereken hayvan dükkanı! Yasaklanmış bir depo değil!
+Gizli Depo OdasÄ±~
+Yasak bir depoya girdin. BirÃ§ok ÅŸirin hayvan gÃ¶rÃ¼yorsun fakat odaya
+giriÅŸ yasaklanmÄ±ÅŸ! NasÄ±l girdiÄŸini bilmesem de, senden burayÄ± terk etmeni
+istiyorum. EÄŸer seni bulursam bizzat kendim Ã¶ldÃ¼rÃ¼rÃ¼m... Merhamet etmem!
+Tek Ã§Ä±kÄ±ÅŸ olman gereken hayvan dÃ¼kkanÄ±! YasaklanmÄ±ÅŸ bir depo deÄŸil!
 ~
 0 DS 0
 D2
-Olman gereken hayvan dükkanı!
+Olman gereken hayvan dÃ¼kkanÄ±!
 ~
 ~
 0 0 18100
 S
 #18102
-Titan Vadisinin En İyi Fırını~
-Şehirdeki en iyi fırına geldin! Üzerleri tıka basa dolu raflar duvarları
-çevrelemiş. Arka kısımda kek ve ekmek yapmakla uğraşan adamların bulunduğu
-çok büyük bir fırın. Etrafındaki ürünleri satan irice bir fırıncı burada
-duruyor. Birşeyler almak istediğinden eminsin! Tek çıkış güneyde.
+Titan Vadisinin En Ä°yi FÄ±rÄ±nÄ±~
+Åehirdeki en iyi fÄ±rÄ±na geldin! Ãœzerleri tÄ±ka basa dolu raflar duvarlarÄ±
+Ã§evrelemiÅŸ. Arka kÄ±sÄ±mda kek ve ekmek yapmakla uÄŸraÅŸan adamlarÄ±n bulunduÄŸu
+Ã§ok bÃ¼yÃ¼k bir fÄ±rÄ±n. EtrafÄ±ndaki Ã¼rÃ¼nleri satan irice bir fÄ±rÄ±ncÄ± burada
+duruyor. BirÅŸeyler almak istediÄŸinden eminsin! Tek Ã§Ä±kÄ±ÅŸ gÃ¼neyde.
 ~
 0 A 3
 D2
@@ -3790,11 +3790,11 @@ Ana cadde.
 0 0 18099
 S
 #18103
-Sihirli Sopalar Dükkanı~
-Sihirli sopalarla dolu büyük bir odadasın. Bu oda büyü ve güçle dolu. İri
-bir sihirbaz tezgahın arkasında dururak, sopalarına sihirli güçler veriyor.
-Bu dükkandan ne gibi sihirli şeyler bulabileceğini merak ediyorsun.
-Tek çıkış kuzeyde.
+Sihirli Sopalar DÃ¼kkanÄ±~
+Sihirli sopalarla dolu bÃ¼yÃ¼k bir odadasÄ±n. Bu oda bÃ¼yÃ¼ ve gÃ¼Ã§le dolu. Ä°ri
+bir sihirbaz tezgahÄ±n arkasÄ±nda dururak, sopalarÄ±na sihirli gÃ¼Ã§ler veriyor.
+Bu dÃ¼kkandan ne gibi sihirli ÅŸeyler bulabileceÄŸini merak ediyorsun.
+Tek Ã§Ä±kÄ±ÅŸ kuzeyde.
 ~
 0 A 3
 D0
@@ -3804,20 +3804,20 @@ Ana cadde.
 0 0 18099
 S
 #18104
-Doğu Bulvarı~
-Krallığın güzel sokaklarından biri olan doğu bulvarına geldin. Etrafta
-şirin evler görüyorsun. Burada hiç dükkan bulunmuyor. Koyu gri taşlardan
-yapılmış bir yolun iki tarafında parlak beyaz taşlardan oyulmuş kaldırımları
-görebiliyorsun. Oldukça uzakta, arka planda kalan, Titanların Kral ve
-Kraliçesinin olduğu kale var. Acaba kraliyet ailesi ile tanışmak nasıl olurdu,
-bilgeye danışmak, kraliyet ordusunun teğmeni ile konuşmak. *Cık* Belki hepsi
-sadece bir hayaldir, fakat birgün onlarla tanışmayı gerçekten  çok istiyorsun.
-Cadde güney yönünde Kraliyet Bulvarına doğru devam ediyor ve batıda kasaba
-alanına doğru açılıyor.
+DoÄŸu BulvarÄ±~
+KrallÄ±ÄŸÄ±n gÃ¼zel sokaklarÄ±ndan biri olan doÄŸu bulvarÄ±na geldin. Etrafta
+ÅŸirin evler gÃ¶rÃ¼yorsun. Burada hiÃ§ dÃ¼kkan bulunmuyor. Koyu gri taÅŸlardan
+yapÄ±lmÄ±ÅŸ bir yolun iki tarafÄ±nda parlak beyaz taÅŸlardan oyulmuÅŸ kaldÄ±rÄ±mlarÄ±
+gÃ¶rebiliyorsun. OldukÃ§a uzakta, arka planda kalan, TitanlarÄ±n Kral ve
+KraliÃ§esinin olduÄŸu kale var. Acaba kraliyet ailesi ile tanÄ±ÅŸmak nasÄ±l olurdu,
+bilgeye danÄ±ÅŸmak, kraliyet ordusunun teÄŸmeni ile konuÅŸmak. *CÄ±k* Belki hepsi
+sadece bir hayaldir, fakat birgÃ¼n onlarla tanÄ±ÅŸmayÄ± gerÃ§ekten  Ã§ok istiyorsun.
+Cadde gÃ¼ney yÃ¶nÃ¼nde Kraliyet BulvarÄ±na doÄŸru devam ediyor ve batÄ±da kasaba
+alanÄ±na doÄŸru aÃ§Ä±lÄ±yor.
 ~
 0 A 3
 D2
-Kraliyet Bulvarı.
+Kraliyet BulvarÄ±.
 ~
 ~
 0 0 18106
@@ -3827,84 +3827,84 @@ D3
 0 0 18049
 S
 #18105
-Doğu Bulvarı~
-Krallığın güzel sokaklarından biri olan doğu bulvarına geldin. Etrafta
-şirin evler görüyorsun. Burada hiç dükkan bulunmuyor. Koyu gri taşlardan
-yapılmış bir yolun iki tarafında parlak beyaz taşlardan oyulmuş kaldırımları
-görebiliyorsun. Oldukça uzakta, arka planda kalan, Titanların Kral ve
-Kraliçesinin olduğu kale var. Acaba kraliyet ailesi ile tanışmak nasıl olurdu,
-bilgeye danışmak, kraliyet ordusunun teğmeni ile konuşmak. *Cık* Belki hepsi
-sadece bir hayaldir, fakat birgün onlarla tanışmayı gerçekten  çok istiyorsun.
-Cadde kuzey yönünde Kraliyet Bulvarına doğru devam ediyor ve batıda Market
-Meydanına doğru açılıyor.
+DoÄŸu BulvarÄ±~
+KrallÄ±ÄŸÄ±n gÃ¼zel sokaklarÄ±ndan biri olan doÄŸu bulvarÄ±na geldin. Etrafta
+ÅŸirin evler gÃ¶rÃ¼yorsun. Burada hiÃ§ dÃ¼kkan bulunmuyor. Koyu gri taÅŸlardan
+yapÄ±lmÄ±ÅŸ bir yolun iki tarafÄ±nda parlak beyaz taÅŸlardan oyulmuÅŸ kaldÄ±rÄ±mlarÄ±
+gÃ¶rebiliyorsun. OldukÃ§a uzakta, arka planda kalan, TitanlarÄ±n Kral ve
+KraliÃ§esinin olduÄŸu kale var. Acaba kraliyet ailesi ile tanÄ±ÅŸmak nasÄ±l olurdu,
+bilgeye danÄ±ÅŸmak, kraliyet ordusunun teÄŸmeni ile konuÅŸmak. *CÄ±k* Belki hepsi
+sadece bir hayaldir, fakat birgÃ¼n onlarla tanÄ±ÅŸmayÄ± gerÃ§ekten  Ã§ok istiyorsun.
+Cadde kuzey yÃ¶nÃ¼nde Kraliyet BulvarÄ±na doÄŸru devam ediyor ve batÄ±da Market
+MeydanÄ±na doÄŸru aÃ§Ä±lÄ±yor.
 ~
 0 A 3
 D0
-Kraliyet Bulvarı.
+Kraliyet BulvarÄ±.
 ~
 ~
 0 0 18107
 D3
-Market Bulvarı.
+Market BulvarÄ±.
 ~
 ~
 0 0 18059
 S
 #18106
-Kraliyet Bulvarının Kuzey Bölümü~
-Kraliyet Bulvarının kuzey kısmına geldin. Burada vadideki en ünlü
-kişilerin evleri bulunuyor. Geniş, gri ve yassı taşlarla döşenmiş
-yollar şehre ayrı bir güzellik katıyor.  Etraflarını ağaçların ve
-fundalıkların kapladığı şirin beyaz evler yolun iki kısmında uzanıyorlar.
-Bu kesinlikle vadideki en muhteşem caddelerden biri. Çıkışlar kuzeyde
-Doğu Bulvarına, güneyde Kraliyet Bulvarına açılıyor.
+Kraliyet BulvarÄ±nÄ±n Kuzey BÃ¶lÃ¼mÃ¼~
+Kraliyet BulvarÄ±nÄ±n kuzey kÄ±smÄ±na geldin. Burada vadideki en Ã¼nlÃ¼
+kiÅŸilerin evleri bulunuyor. GeniÅŸ, gri ve yassÄ± taÅŸlarla dÃ¶ÅŸenmiÅŸ
+yollar ÅŸehre ayrÄ± bir gÃ¼zellik katÄ±yor.  EtraflarÄ±nÄ± aÄŸaÃ§larÄ±n ve
+fundalÄ±klarÄ±n kapladÄ±ÄŸÄ± ÅŸirin beyaz evler yolun iki kÄ±smÄ±nda uzanÄ±yorlar.
+Bu kesinlikle vadideki en muhteÅŸem caddelerden biri. Ã‡Ä±kÄ±ÅŸlar kuzeyde
+DoÄŸu BulvarÄ±na, gÃ¼neyde Kraliyet BulvarÄ±na aÃ§Ä±lÄ±yor.
 ~
 0 A 3
 D0
-Doğu Bulvarı.
+DoÄŸu BulvarÄ±.
 ~
 ~
 0 0 18104
 D2
-Kraliyet Bulvarı.
+Kraliyet BulvarÄ±.
 ~
 ~
 0 0 18108
 S
 #18107
-Kraliyet Bulvarının Güney Kısmı~
-Kraliyet Bulvarının kuzey kısmına geldin. Burada vadideki en ünlü
-kişilerin evleri bulunuyor. Geniş, gri ve yassı taşlarla döşenmiş
-yollar şehre ayrı bir güzellik katıyor.  Etraflarını ağaçların ve
-fundalıkların kapladığı şirin beyaz evler yolun iki kısmında uzanıyorlar.
-Bu kesinlikle vadideki en muhteşem caddelerden biri. Çıkışlar güneyde
-Doğu Bulvarına, kuzeyde Kraliyet Bulvarına açılıyor.
+Kraliyet BulvarÄ±nÄ±n GÃ¼ney KÄ±smÄ±~
+Kraliyet BulvarÄ±nÄ±n kuzey kÄ±smÄ±na geldin. Burada vadideki en Ã¼nlÃ¼
+kiÅŸilerin evleri bulunuyor. GeniÅŸ, gri ve yassÄ± taÅŸlarla dÃ¶ÅŸenmiÅŸ
+yollar ÅŸehre ayrÄ± bir gÃ¼zellik katÄ±yor.  EtraflarÄ±nÄ± aÄŸaÃ§larÄ±n ve
+fundalÄ±klarÄ±n kapladÄ±ÄŸÄ± ÅŸirin beyaz evler yolun iki kÄ±smÄ±nda uzanÄ±yorlar.
+Bu kesinlikle vadideki en muhteÅŸem caddelerden biri. Ã‡Ä±kÄ±ÅŸlar gÃ¼neyde
+DoÄŸu BulvarÄ±na, kuzeyde Kraliyet BulvarÄ±na aÃ§Ä±lÄ±yor.
 ~
 0 A 3
 D0
-Kraliyet Bulvarı.
+Kraliyet BulvarÄ±.
 ~
 ~
 0 0 18108
 D2
-Doğu Bulvarı.
+DoÄŸu BulvarÄ±.
 ~
 ~
 0 0 18105
 S
 #18108
-Kraliyet Meydanı~
-Efsanevi Kraliyet Meydanı! Çevredeki en muhteşem yer olduğu söylenebilir.
-Meydanın ortasında büyük bir Triggallon bulunuyor; kadim zamanlarda evreni
-kurtarmak ve korumak için mücadele eden büyücüler gerekli büyü güçlerini
-bundan alıyorlarmış.Burası kutsal bir mekan ve bu nedenle burada yanlış
-birşey meydana gelmesi olanaksız. Çıkışlar kuzeyde Kraliyet Bulvarının
-kuzey kesimine, güneyde Kraliyet Bulvarının güney kesimine ve doğuda
-Kraliyet Antresine açılıyor.
+Kraliyet MeydanÄ±~
+Efsanevi Kraliyet MeydanÄ±! Ã‡evredeki en muhteÅŸem yer olduÄŸu sÃ¶ylenebilir.
+MeydanÄ±n ortasÄ±nda bÃ¼yÃ¼k bir Triggallon bulunuyor; kadim zamanlarda evreni
+kurtarmak ve korumak iÃ§in mÃ¼cadele eden bÃ¼yÃ¼cÃ¼ler gerekli bÃ¼yÃ¼ gÃ¼Ã§lerini
+bundan alÄ±yorlarmÄ±ÅŸ.BurasÄ± kutsal bir mekan ve bu nedenle burada yanlÄ±ÅŸ
+birÅŸey meydana gelmesi olanaksÄ±z. Ã‡Ä±kÄ±ÅŸlar kuzeyde Kraliyet BulvarÄ±nÄ±n
+kuzey kesimine, gÃ¼neyde Kraliyet BulvarÄ±nÄ±n gÃ¼ney kesimine ve doÄŸuda
+Kraliyet Antresine aÃ§Ä±lÄ±yor.
 ~
 0 A 1
 D0
-Kuzey bulvarı.
+Kuzey bulvarÄ±.
 ~
 ~
 0 0 18106
@@ -3914,19 +3914,19 @@ Kraliyet Antreleri.
 ~
 1 -1 18109
 D2
-Güney Bulvarı.
+GÃ¼ney BulvarÄ±.
 ~
 ~
 0 0 18107
 S
 #18109
 Kraliyet Antreleri~
-Altından yapılmış girişler sarayı mükemmel bir şekilde koruyorlar.
-Bu noktadan sonra nelerin bulunduğunu kimse tam olarak bilmiyor. Saray
-duvarlarında karışıklık çıkartabilecek hırsızların ve dilencilerin içeriye
-girmemesi için muhafızlar bulunuyor. Altından ve gümüşten yapılmış Titan
-sembolleri büyülü ve koruyucu bir özelliğe sahip gibiler. Çıkışlar doğuda
-saray topraklarına ve batıda Kraliyet Antrelerine doğru açılıyor.
+AltÄ±ndan yapÄ±lmÄ±ÅŸ giriÅŸler sarayÄ± mÃ¼kemmel bir ÅŸekilde koruyorlar.
+Bu noktadan sonra nelerin bulunduÄŸunu kimse tam olarak bilmiyor. Saray
+duvarlarÄ±nda karÄ±ÅŸÄ±klÄ±k Ã§Ä±kartabilecek hÄ±rsÄ±zlarÄ±n ve dilencilerin iÃ§eriye
+girmemesi iÃ§in muhafÄ±zlar bulunuyor. AltÄ±ndan ve gÃ¼mÃ¼ÅŸten yapÄ±lmÄ±ÅŸ Titan
+sembolleri bÃ¼yÃ¼lÃ¼ ve koruyucu bir Ã¶zelliÄŸe sahip gibiler. Ã‡Ä±kÄ±ÅŸlar doÄŸuda
+saray topraklarÄ±na ve batÄ±da Kraliyet Antrelerine doÄŸru aÃ§Ä±lÄ±yor.
 ~
 0 A 1
 D0
@@ -3935,9 +3935,9 @@ Titan kuleleri.
 ~
 0 -1 18126
 D1
-Saray Kapıları.
+Saray KapÄ±larÄ±.
 ~
-kapı~
+kapÄ±~
 1 0 18110
 D3
 Kraliyet Antreleri.
@@ -3946,29 +3946,29 @@ Kraliyet Antreleri.
 0 0 18108
 S
 #18110
-Saray Toprakları~
-Saray topraklarına geldin. Gerçekten çok şaşırtıcı bir manzara. Gökyüzüne
-ulaşan sütunlar belirli aralıklarla dikilmişler. Dikkatini çekenler eğitim
-alanları, loncalar ve daha sonra kale oluyor! Muhteşem bir tablo! Burada
-oldukça fazla mucize ve sihir odaklanmış! İlk başta nereyi görmek istediğine
-karar veremiyorsun. Çıkışlar güneyde savaşçılar ve şafiler loncasına, kuzeyde
-eğitim alanlarına, doğuda saraya ve batıda Antrelere doğru yöneliyor.
+Saray TopraklarÄ±~
+Saray topraklarÄ±na geldin. GerÃ§ekten Ã§ok ÅŸaÅŸÄ±rtÄ±cÄ± bir manzara. GÃ¶kyÃ¼zÃ¼ne
+ulaÅŸan sÃ¼tunlar belirli aralÄ±klarla dikilmiÅŸler. Dikkatini Ã§ekenler eÄŸitim
+alanlarÄ±, loncalar ve daha sonra kale oluyor! MuhteÅŸem bir tablo! Burada
+oldukÃ§a fazla mucize ve sihir odaklanmÄ±ÅŸ! Ä°lk baÅŸta nereyi gÃ¶rmek istediÄŸine
+karar veremiyorsun. Ã‡Ä±kÄ±ÅŸlar gÃ¼neyde savaÅŸÃ§Ä±lar ve ÅŸafiler loncasÄ±na, kuzeyde
+eÄŸitim alanlarÄ±na, doÄŸuda saraya ve batÄ±da Antrelere doÄŸru yÃ¶neliyor.
 ~
 0 A 1
 D0
-Eğitim Alanları.
+EÄŸitim AlanlarÄ±.
 ~
 ~
 0 0 18114
 D1
-Saraya doğru.
+Saraya doÄŸru.
 ~
 ~
 0 0 18112
 D2
-Rahip ve Savaşçılar Loncasına gideen kapılar.
+Rahip ve SavaÅŸÃ§Ä±lar LoncasÄ±na gideen kapÄ±lar.
 ~
-kapı~
+kapÄ±~
 1 0 18111
 D3
 Saray Antreleri.
@@ -3977,42 +3977,42 @@ Saray Antreleri.
 0 0 18109
 S
 #18111
-Şafiler ve Savaşçılar Loncası~
-Zemini beyaz mermerle kaplanmış devasa bir loncaya geldin. Birçok savaşçı
-ve şafi burada becerilerini geliştiriyorlar. Lonca muhafızı ve lonca
-yöneticilerini yeni fark ettin. Belki yeteneklerini geliştirip daha iyi bir
-savaşçı yada şafi olabilirsin. Tek çıkış kuzeyde.
+Åafiler ve SavaÅŸÃ§Ä±lar LoncasÄ±~
+Zemini beyaz mermerle kaplanmÄ±ÅŸ devasa bir loncaya geldin. BirÃ§ok savaÅŸÃ§Ä±
+ve ÅŸafi burada becerilerini geliÅŸtiriyorlar. Lonca muhafÄ±zÄ± ve lonca
+yÃ¶neticilerini yeni fark ettin. Belki yeteneklerini geliÅŸtirip daha iyi bir
+savaÅŸÃ§Ä± yada ÅŸafi olabilirsin. Tek Ã§Ä±kÄ±ÅŸ kuzeyde.
 ~
 0 A 1
 D0
-Büyük Kapılar.
+BÃ¼yÃ¼k KapÄ±lar.
 ~
 ~
 0 0 18110
 S
 #18112
 Saraya Giden Yol~
-Saraya giden yolda devam ediyorsun. Geniş bir eğitim alanının karşısında
-kapısında parlak işaretlerle `Korucuların ve Maerlerin Loncası' yazılmış
-bir yer görüyorsun. Belki burada öğrenebileceğin bazı faydalı yetenekler
-vardır. En iyi hocalara sahip olmalılar. Çıkışlar kuzeyde eğitim alanlarına,
-güneyde loncaya, doğuda saraya ve batıda antrelere açılıyor.
+Saraya giden yolda devam ediyorsun. GeniÅŸ bir eÄŸitim alanÄ±nÄ±n karÅŸÄ±sÄ±nda
+kapÄ±sÄ±nda parlak iÅŸaretlerle `KorucularÄ±n ve Maerlerin LoncasÄ±' yazÄ±lmÄ±ÅŸ
+bir yer gÃ¶rÃ¼yorsun. Belki burada Ã¶ÄŸrenebileceÄŸin bazÄ± faydalÄ± yetenekler
+vardÄ±r. En iyi hocalara sahip olmalÄ±lar. Ã‡Ä±kÄ±ÅŸlar kuzeyde eÄŸitim alanlarÄ±na,
+gÃ¼neyde loncaya, doÄŸuda saraya ve batÄ±da antrelere aÃ§Ä±lÄ±yor.
 ~
 0 A 3
 D0
-Eğitim alanları.
+EÄŸitim alanlarÄ±.
 ~
 ~
 0 0 18117
 D1
 Saray.
 ~
-kapı~
+kapÄ±~
 1 0 18120
 D2
-Büyük Antreler.
+BÃ¼yÃ¼k Antreler.
 ~
-kapı~
+kapÄ±~
 1 0 18113
 D3
 Antrele giden yol.
@@ -4021,38 +4021,38 @@ Antrele giden yol.
 0 0 18110
 S
 #18113
-Korucuların Ve Maerlerin Loncası~
-Zemini beyaz mermerle kaplanmış devasa bir loncaya geldin. Birçok korucu
-ve kembolar burada becerilerini geliştiriyorlar. Lonca muhafızı ve lonca
-yöneticilerini görüyorsun. Belki yeteneklerini geliştirip daha iyi bir korucu
-yada maer olabilirsin. Tek çıkış kuzeyde.
+KorucularÄ±n Ve Maerlerin LoncasÄ±~
+Zemini beyaz mermerle kaplanmÄ±ÅŸ devasa bir loncaya geldin. BirÃ§ok korucu
+ve kembolar burada becerilerini geliÅŸtiriyorlar. Lonca muhafÄ±zÄ± ve lonca
+yÃ¶neticilerini gÃ¶rÃ¼yorsun. Belki yeteneklerini geliÅŸtirip daha iyi bir korucu
+yada maer olabilirsin. Tek Ã§Ä±kÄ±ÅŸ kuzeyde.
 ~
 0 A 3
 D0
-Büyük Kapılar.
+BÃ¼yÃ¼k KapÄ±lar.
 ~
 ~
 0 0 18112
 S
 #18114
-Eğitim Alanlarının Güney Bölümü~
-Büyük eğitim alanlarına geldin. Burada bütün sınıfların en yetenekli
-üstadları, öğrencilerine savaş sanatını, şifa vermeyi, ve büyü yapmayı
-öğretiyorlar. Öğrencilerine eğitim vermekle çok meşgul olan birinin
-seninle konuşmak için vakit harcamayacağını herhalde tahmin edersin.
-Belki onun öğrencileri arasına katılıp yeteneklerini geliştirirsin.
-Toprak kıraç ve boş görünüyor. Çıkışlar kuzeyde eğitim alanlarının
-güney merkezine, güneyde yola ve doğuda eğitim alanının merkezine
+EÄŸitim AlanlarÄ±nÄ±n GÃ¼ney BÃ¶lÃ¼mÃ¼~
+BÃ¼yÃ¼k eÄŸitim alanlarÄ±na geldin. Burada bÃ¼tÃ¼n sÄ±nÄ±flarÄ±n en yetenekli
+Ã¼stadlarÄ±, Ã¶ÄŸrencilerine savaÅŸ sanatÄ±nÄ±, ÅŸifa vermeyi, ve bÃ¼yÃ¼ yapmayÄ±
+Ã¶ÄŸretiyorlar. Ã–ÄŸrencilerine eÄŸitim vermekle Ã§ok meÅŸgul olan birinin
+seninle konuÅŸmak iÃ§in vakit harcamayacaÄŸÄ±nÄ± herhalde tahmin edersin.
+Belki onun Ã¶ÄŸrencileri arasÄ±na katÄ±lÄ±p yeteneklerini geliÅŸtirirsin.
+Toprak kÄ±raÃ§ ve boÅŸ gÃ¶rÃ¼nÃ¼yor. Ã‡Ä±kÄ±ÅŸlar kuzeyde eÄŸitim alanlarÄ±nÄ±n
+gÃ¼ney merkezine, gÃ¼neyde yola ve doÄŸuda eÄŸitim alanÄ±nÄ±n merkezine
 devam etmekte.
 ~
 0 A 3
 D0
-Eğitim alanları.
+EÄŸitim alanlarÄ±.
 ~
 ~
 0 0 18115
 D1
-Eğitim alanları.
+EÄŸitim alanlarÄ±.
 ~
 ~
 0 0 18117
@@ -4063,59 +4063,59 @@ Yol.
 0 0 18110
 S
 #18115
-Eğitim Alanlarının Güney Merkezi~
-Eğitim alanlarının güney merkezine geldin. Burada birçok kişi şeytani
-düşmanlarına karşı tüm güçleri ile savaşıyorlar. Kurak topraklar kan
-lekeleri, kırık kılıç parçaları ve elbise artıkları ile kaplanmış. Çıkışlar
-kuzey, doğu ve güney yönlerinde devam ediyor.
+EÄŸitim AlanlarÄ±nÄ±n GÃ¼ney Merkezi~
+EÄŸitim alanlarÄ±nÄ±n gÃ¼ney merkezine geldin. Burada birÃ§ok kiÅŸi ÅŸeytani
+dÃ¼ÅŸmanlarÄ±na karÅŸÄ± tÃ¼m gÃ¼Ã§leri ile savaÅŸÄ±yorlar. Kurak topraklar kan
+lekeleri, kÄ±rÄ±k kÄ±lÄ±Ã§ parÃ§alarÄ± ve elbise artÄ±klarÄ± ile kaplanmÄ±ÅŸ. Ã‡Ä±kÄ±ÅŸlar
+kuzey, doÄŸu ve gÃ¼ney yÃ¶nlerinde devam ediyor.
 ~
 0 A 3
 D0
-Eğitim alanları.
+EÄŸitim alanlarÄ±.
 ~
 ~
 0 0 18116
 D1
-Eğitim alanları.
+EÄŸitim alanlarÄ±.
 ~
 ~
 0 0 18118
 D2
-Eğitim alanları.
+EÄŸitim alanlarÄ±.
 ~
 ~
 0 0 18114
 S
 #18116
-Eğitim Alanlarının Güney Bölümü~
-Eğitim alanı olarak kullanılmak için ayrılmış bölüme geldin. Yanık izleri,
-kan lekeleri, kırılmış çelik parçaları ve elbise artıkları çevrede duruyor.
-Sonu olmayan bir duelloya çağrılmadan burayı terketmen en iyisi olacaktır.
-Çıkışlar güney ve doğu yönlerinde devam ediyor.
+EÄŸitim AlanlarÄ±nÄ±n GÃ¼ney BÃ¶lÃ¼mÃ¼~
+EÄŸitim alanÄ± olarak kullanÄ±lmak iÃ§in ayrÄ±lmÄ±ÅŸ bÃ¶lÃ¼me geldin. YanÄ±k izleri,
+kan lekeleri, kÄ±rÄ±lmÄ±ÅŸ Ã§elik parÃ§alarÄ± ve elbise artÄ±klarÄ± Ã§evrede duruyor.
+Sonu olmayan bir duelloya Ã§aÄŸrÄ±lmadan burayÄ± terketmen en iyisi olacaktÄ±r.
+Ã‡Ä±kÄ±ÅŸlar gÃ¼ney ve doÄŸu yÃ¶nlerinde devam ediyor.
 ~
 0 A 3
 D1
-Eğitim alanları.
+EÄŸitim alanlarÄ±.
 ~
 ~
 0 0 18119
 D2
-Eğitim alanları.
+EÄŸitim alanlarÄ±.
 ~
 ~
 0 0 18115
 S
 #18117
-Eğitim Alanlarının Merkezi~
-En yoğun eğitim alanlarından birine geldin. İri adamlar ve kurnaz
-kadınlar bütün kuvvetleri ile şeytani yaratıklarla savaşıyorlar.
-Onların düşmanı olmayı hiç istemezdin. Gerçekten çok güçlü görünüyorlar.
-Kurak topraklar kan lekeleri ile kaplanmış. Güneyi takip ederek yola
-ulaşabilirsin. Diğer yönler seni eğitim alanlarına götürecektir.
+EÄŸitim AlanlarÄ±nÄ±n Merkezi~
+En yoÄŸun eÄŸitim alanlarÄ±ndan birine geldin. Ä°ri adamlar ve kurnaz
+kadÄ±nlar bÃ¼tÃ¼n kuvvetleri ile ÅŸeytani yaratÄ±klarla savaÅŸÄ±yorlar.
+OnlarÄ±n dÃ¼ÅŸmanÄ± olmayÄ± hiÃ§ istemezdin. GerÃ§ekten Ã§ok gÃ¼Ã§lÃ¼ gÃ¶rÃ¼nÃ¼yorlar.
+Kurak topraklar kan lekeleri ile kaplanmÄ±ÅŸ. GÃ¼neyi takip ederek yola
+ulaÅŸabilirsin. DiÄŸer yÃ¶nler seni eÄŸitim alanlarÄ±na gÃ¶tÃ¼recektir.
 ~
 0 A 3
 D0
-Eğitim alanları.
+EÄŸitim alanlarÄ±.
 ~
 ~
 0 0 18118
@@ -4125,87 +4125,87 @@ Yol.
 ~
 0 0 18112
 D3
-Eğitim alanları.
+EÄŸitim alanlarÄ±.
 ~
 ~
 0 0 18114
 S
 #18118
-Eğitim Alanlarının Kuzey Merkezi~
-Kurak topraklardan oluşan bir eğitim alanına geldin. Burada Titan
-Ordusunun askerleri eğitim yapıyorlar. Kan ve kıyafet parçaları çok
-ürkütücü bir tablo oluşturmuş. Burada cehennem yaratıkları ile ölümüne
-savaşan bütün sınıflardan savaşçıları görebiliyorsun. Çıkışlar kuzey
-güney ve batıda eğitim alanlarına doğru devam ediyor.
+EÄŸitim AlanlarÄ±nÄ±n Kuzey Merkezi~
+Kurak topraklardan oluÅŸan bir eÄŸitim alanÄ±na geldin. Burada Titan
+Ordusunun askerleri eÄŸitim yapÄ±yorlar. Kan ve kÄ±yafet parÃ§alarÄ± Ã§ok
+Ã¼rkÃ¼tÃ¼cÃ¼ bir tablo oluÅŸturmuÅŸ. Burada cehennem yaratÄ±klarÄ± ile Ã¶lÃ¼mÃ¼ne
+savaÅŸan bÃ¼tÃ¼n sÄ±nÄ±flardan savaÅŸÃ§Ä±larÄ± gÃ¶rebiliyorsun. Ã‡Ä±kÄ±ÅŸlar kuzey
+gÃ¼ney ve batÄ±da eÄŸitim alanlarÄ±na doÄŸru devam ediyor.
 ~
 0 A 3
 D0
-Eğitim alanları.
+EÄŸitim alanlarÄ±.
 ~
 ~
 0 0 18119
 D2
-Eğitim alanları.
+EÄŸitim alanlarÄ±.
 ~
 ~
 0 0 18117
 D3
-Eğitim alanları.
+EÄŸitim alanlarÄ±.
 ~
 ~
 0 0 18115
 S
 #18119
-Kuzeydeki Eğitim Alanları~
-En kuzeydeki eğitim alanlarının sonuna geldin. Yerde olmasa da duvarlarda
-oldukça fazla kan lekesi var. Savaşçılar, maerler, korucular ve şafiler
-burada canları pahasına cehennem yaratıkları ve zebanilerle savaşıyorlar.
-Burayı olabildiğince çabuk terketmek istiyorsun. Çıkışlar güney ve batı
-yönlerinde eğitim alanlarına doğru devam ediyor.
+Kuzeydeki EÄŸitim AlanlarÄ±~
+En kuzeydeki eÄŸitim alanlarÄ±nÄ±n sonuna geldin. Yerde olmasa da duvarlarda
+oldukÃ§a fazla kan lekesi var. SavaÅŸÃ§Ä±lar, maerler, korucular ve ÅŸafiler
+burada canlarÄ± pahasÄ±na cehennem yaratÄ±klarÄ± ve zebanilerle savaÅŸÄ±yorlar.
+BurayÄ± olabildiÄŸince Ã§abuk terketmek istiyorsun. Ã‡Ä±kÄ±ÅŸlar gÃ¼ney ve batÄ±
+yÃ¶nlerinde eÄŸitim alanlarÄ±na doÄŸru devam ediyor.
 ~
 0 A 3
 D2
-Eğitim alanları.
+EÄŸitim alanlarÄ±.
 ~
 ~
 0 0 18118
 D3
-Eğitim alanları.
+EÄŸitim alanlarÄ±.
 ~
 ~
 0 0 18116
 S
 #18120
-Sarayın İçinde~
-Görkemli ve muhteşem sarayın içindesin. Titanların Kral ve Kraliçelerinin
-evi! Bu saray som altın ve gümüşten yapılmışa benziyor. Bütün yönlere uzanan
-koridorlar görüyorsun. Etrafta kraliyet ailesinin memnuniyeti için koşuşturan
-uşak ve hizmetçiler bulunuyor. İkinci kata çıkan bir merdiven işte orada.
-Çıkışlar doğuda devasa bir salona, batıda saray kapılarına doğru devam ediyor.
+SarayÄ±n Ä°Ã§inde~
+GÃ¶rkemli ve muhteÅŸem sarayÄ±n iÃ§indesin. TitanlarÄ±n Kral ve KraliÃ§elerinin
+evi! Bu saray som altÄ±n ve gÃ¼mÃ¼ÅŸten yapÄ±lmÄ±ÅŸa benziyor. BÃ¼tÃ¼n yÃ¶nlere uzanan
+koridorlar gÃ¶rÃ¼yorsun. Etrafta kraliyet ailesinin memnuniyeti iÃ§in koÅŸuÅŸturan
+uÅŸak ve hizmetÃ§iler bulunuyor. Ä°kinci kata Ã§Ä±kan bir merdiven iÅŸte orada.
+Ã‡Ä±kÄ±ÅŸlar doÄŸuda devasa bir salona, batÄ±da saray kapÄ±larÄ±na doÄŸru devam ediyor.
 ~
 0 A 3
 D1
-Büyük Salon.
+BÃ¼yÃ¼k Salon.
 ~
 ~
 0 0 18121
 D3
-Saray Kapıları.
+Saray KapÄ±larÄ±.
 ~
 ~
 0 0 18112
 S
 #18121
-Çok Büyük Bir Salon~
-Çok büyük bir salona girdin. Duvarlarda üzerinde savaş hikayeleri, zaferler,
-istilalar, şeytan ve aşk resimleri olan halıları ile kaplı. Altın süslemeli
-beyaz mermer taşlarla döşenmiş zemin ilgini çekiyor. Cesur savaşçıların,
-eski hükümdarların büyük heykelleri salona tarihsel bir hava katmış. Çıkışlar
-doğuda taht odasına, batıda koridorlara açılıyor.
+Ã‡ok BÃ¼yÃ¼k Bir Salon~
+Ã‡ok bÃ¼yÃ¼k bir salona girdin. Duvarlarda Ã¼zerinde savaÅŸ hikayeleri, zaferler,
+istilalar, ÅŸeytan ve aÅŸk resimleri olan halÄ±larÄ± ile kaplÄ±. AltÄ±n sÃ¼slemeli
+beyaz mermer taÅŸlarla dÃ¶ÅŸenmiÅŸ zemin ilgini Ã§ekiyor. Cesur savaÅŸÃ§Ä±larÄ±n,
+eski hÃ¼kÃ¼mdarlarÄ±n bÃ¼yÃ¼k heykelleri salona tarihsel bir hava katmÄ±ÅŸ. Ã‡Ä±kÄ±ÅŸlar
+doÄŸuda taht odasÄ±na, batÄ±da koridorlara aÃ§Ä±lÄ±yor.
 ~
 0 A 3
 D1
-Taht odası.
+Taht odasÄ±.
 ~
 ~
 0 0 18122
@@ -4216,14 +4216,14 @@ Antre.
 0 0 18120
 S
 #18122
-Taht Odası~
-Titanların Kral ve Kraliçesi karşında duruyor! Mükemmel bir oda! Bütün
-Uzak Diyarlarda gördüğün en etkileyici oda! Thalos'un Kral ve Kraliçeleri
-böyle bir güzelliğe inanamayacaklardır. Bu kadar güzel bir yer asırlar
-boyunca inşaa edilmemiştir. Büyük yeşil tahtlar odada yükseliyor. Kral ve
-Kraliçenin yüzlarinde yaşlandıklarına ait hiç bir iz bulunmuyor. Kraliçenin
-danışmanları etrafta dolanarak kalenin geleceği ile bilgiler sunuyor. Tek
-çıkış batıda büyük salona doğru devam ediyor.
+Taht OdasÄ±~
+TitanlarÄ±n Kral ve KraliÃ§esi karÅŸÄ±nda duruyor! MÃ¼kemmel bir oda! BÃ¼tÃ¼n
+Uzak Diyarlarda gÃ¶rdÃ¼ÄŸÃ¼n en etkileyici oda! Thalos'un Kral ve KraliÃ§eleri
+bÃ¶yle bir gÃ¼zelliÄŸe inanamayacaklardÄ±r. Bu kadar gÃ¼zel bir yer asÄ±rlar
+boyunca inÅŸaa edilmemiÅŸtir. BÃ¼yÃ¼k yeÅŸil tahtlar odada yÃ¼kseliyor. Kral ve
+KraliÃ§enin yÃ¼zlarinde yaÅŸlandÄ±klarÄ±na ait hiÃ§ bir iz bulunmuyor. KraliÃ§enin
+danÄ±ÅŸmanlarÄ± etrafta dolanarak kalenin geleceÄŸi ile bilgiler sunuyor. Tek
+Ã§Ä±kÄ±ÅŸ batÄ±da bÃ¼yÃ¼k salona doÄŸru devam ediyor.
 ~
 0 A 3
 D1
@@ -4232,17 +4232,17 @@ Taht.
 taht~
 1 0 18123
 D3
-Büyük salon.
+BÃ¼yÃ¼k salon.
 ~
 ~
 0 0 18121
 S
 #18123
-Tahtın Arkasındaki Gizli Pasaj~
-Tahtın arkasında gizli bir pasaj buluyorsun. Burada gizlice kral ve
-kraliçeyi izleyen bir suikastçi var. En iyisi suikastçiyi haber vermen
-ya da onu hemen öldürmen! Eminim ki kral ve kraliçe onun kellesine oldukça
-fazla para vereceklerdir. Suikastçi oldukça yetenekli görünüyor.
+TahtÄ±n ArkasÄ±ndaki Gizli Pasaj~
+TahtÄ±n arkasÄ±nda gizli bir pasaj buluyorsun. Burada gizlice kral ve
+kraliÃ§eyi izleyen bir suikastÃ§i var. En iyisi suikastÃ§iyi haber vermen
+ya da onu hemen Ã¶ldÃ¼rmen! Eminim ki kral ve kraliÃ§e onun kellesine oldukÃ§a
+fazla para vereceklerdir. SuikastÃ§i oldukÃ§a yetenekli gÃ¶rÃ¼nÃ¼yor.
 ~
 0 A 3
 D3
@@ -4252,37 +4252,37 @@ Taht.
 0 0 18122
 S
 #18124
-Ölümcül Hayvanların Odası~
-Oldukça evcil görünen gizemli hayvanlar ölümcül güçleri ile bu odayı
-doldurmuşlar. Her hayvan uzaklardan genç ve aptal ölümlülere hizmet
-etmesi için getirilmiş. Dikkatli ol, henüz yemek yememiş olabilirler.
-Duvarda kanla yazılmış bir yazı görüyorsun:
+Ã–lÃ¼mcÃ¼l HayvanlarÄ±n OdasÄ±~
+OldukÃ§a evcil gÃ¶rÃ¼nen gizemli hayvanlar Ã¶lÃ¼mcÃ¼l gÃ¼Ã§leri ile bu odayÄ±
+doldurmuÅŸlar. Her hayvan uzaklardan genÃ§ ve aptal Ã¶lÃ¼mlÃ¼lere hizmet
+etmesi iÃ§in getirilmiÅŸ. Dikkatli ol, henÃ¼z yemek yememiÅŸ olabilirler.
+Duvarda kanla yazÄ±lmÄ±ÅŸ bir yazÄ± gÃ¶rÃ¼yorsun:
 
- "DEFOL ! Buralı değilsin. Seni hayvanlarımla uğraşırken görürsem ÖLDÜRÜRÜM!"
-                                             Ölümcül hayvanların bakıcısı.
-Garip! Hiç çıkış bulunmuyor! Aaaahahhhhhhh................!
+ "DEFOL ! BuralÄ± deÄŸilsin. Seni hayvanlarÄ±mla uÄŸraÅŸÄ±rken gÃ¶rÃ¼rsem Ã–LDÃœRÃœRÃœM!"
+                                             Ã–lÃ¼mcÃ¼l hayvanlarÄ±n bakÄ±cÄ±sÄ±.
+Garip! HiÃ§ Ã§Ä±kÄ±ÅŸ bulunmuyor! Aaaahahhhhhhh................!
 ~
 0 M 1
 D2
-Dikkat çekici bir şey görmüyorsun.
+Dikkat Ã§ekici bir ÅŸey gÃ¶rmÃ¼yorsun.
 ~
 ~
 0 0 18098
 S
 #18125
-Ölümcül hayvanların deposu~
-Ölümcül hayvanların deposu.
+Ã–lÃ¼mcÃ¼l hayvanlarÄ±n deposu~
+Ã–lÃ¼mcÃ¼l hayvanlarÄ±n deposu.
 ~
 0 0 1
 S
 #18126
 Titan Vadisi Kulesi~
-Titan vadisindeki kulede, yolun doğudaki bitimindesin. Güneyde ve doğuda
-eğitim alanlarını ve kuzeyde kule ile şifacıyı görebiliyorsun.
+Titan vadisindeki kulede, yolun doÄŸudaki bitimindesin. GÃ¼neyde ve doÄŸuda
+eÄŸitim alanlarÄ±nÄ± ve kuzeyde kule ile ÅŸifacÄ±yÄ± gÃ¶rebiliyorsun.
 ~
 0 DS 0
 D0
-Şİfacını Kulesi.
+ÅÄ°facÄ±nÄ± Kulesi.
 ~
 ~
 0 -1 18127
@@ -4294,13 +4294,13 @@ Kraliyet antreleri.
 S
 #18127
 Titan Vadisindeki Kulede~
-Vadinin ortasında bulunan kuledesin. Beyaz mermerden yapılmış devasa bir
-mimber önünde duruyor. Mimberin arkasında TİTAN TANRILARININ heykellerini
-görebiliyorsun.
+Vadinin ortasÄ±nda bulunan kuledesin. Beyaz mermerden yapÄ±lmÄ±ÅŸ devasa bir
+mimber Ã¶nÃ¼nde duruyor. Mimberin arkasÄ±nda TÄ°TAN TANRILARININ heykellerini
+gÃ¶rebiliyorsun.
 ~
 0 CD 0
 D2
-Şifacının kulesi.
+ÅifacÄ±nÄ±n kulesi.
 ~
 ~
 0 -1 18126

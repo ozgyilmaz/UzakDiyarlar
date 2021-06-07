@@ -1,0 +1,2528 @@
+
+#Obj: deşici hançer (Vnum : 7553) 
+Object 'hançer deşici' is type weapon, extra flags magic.
+Weight is 4, value is 4666, level is 20.
+Weapon type is dagger.
+Damage is 5d6 (average 17).
+  Affects hit roll by 10.
+  Affects dexterity by 3.
+
+#Obj: titreyen hançer (Vnum : 8007) 
+Object 'titreyen hançer' is type weapon, extra flags glow hum invis.
+Weight is 2, value is 2800, level is 18.
+Weapon type is dagger.
+Damage is 6d5 (average 18).
+  Affects hit roll by 1.
+  Affects damage roll by 3.
+  Affects constitution by 1.
+  Affects dexterity by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: bir şövalyenin topuzu (Vnum : 17302) 
+Object 'topuz şövalye' is type weapon, extra flags none.
+Weight is 0, value is 800, level is 23.
+Weapon type is mace/club.
+Damage is 5d6 (average 17).
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: taştan bir pala (Vnum : 8708) 
+Object 'taştan pala' is type weapon, extra flags hum magic.
+Weight is 18, value is 1820, level is 20.
+Weapon type is axe.
+Damage is 5d5 (average 15).
+  Affects hit roll by 1.
+  Affects damage roll by 2.
+
+#Obj: bir cüce baltası (Vnum : 6509) 
+Object 'cüce balta' is type weapon, extra flags none.
+Weight is 5, value is 4100, level is 17.
+Weapon type is axe.
+Damage is 3d7 (average 12).
+Weapons flags: two-handed
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+  Affects strength by 2.
+
+#Obj: bir cüce baltası (Vnum : 6509) 
+Object 'cüce balta' is type weapon, extra flags none.
+Weight is 5, value is 4100, level is 17.
+Weapon type is axe.
+Damage is 3d7 (average 12).
+Weapons flags: two-handed
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+  Affects strength by 2.
+
+#Obj: bir cüce topuz (Vnum : 6504) 
+Object 'cüce topuz' is type weapon, extra flags none.
+Weight is 3, value is 880, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+
+#Obj: Köleci'nin Kırbacı (Vnum : 16038) 
+Object 'köleci kırbacı kırbaç' is type weapon, extra flags hum.
+Weight is 0, value is 900, level is 23.
+Weapon type is whip.
+Damage is 4d7 (average 16).
+  Affects damage roll by 5.
+  Affects hit roll by -4.
+  Affects constitution by -2.
+  Affects wisdom by -4.
+
+#Obj: Köleci'nin Kırbacı (Vnum : 16038) 
+Object 'köleci kırbacı kırbaç' is type weapon, extra flags hum.
+Weight is 0, value is 900, level is 23.
+Weapon type is whip.
+Damage is 4d7 (average 16).
+  Affects damage roll by 5.
+  Affects hit roll by -4.
+  Affects constitution by -2.
+  Affects wisdom by -4.
+
+#Obj: Bir iblis bıçağı (Vnum : 16086) 
+Object 'iblis bıçağı bıçak' is type weapon, extra flags hum evil magic anti-good.
+Weight is 0, value is 1000, level is 23.
+Weapon type is dagger.
+Damage is 5d6 (average 17).
+  Affects damage roll by 3.
+  Affects hit roll by 3.
+  Affects armor class by -5.
+
+#Obj: Köleci'nin Kırbacı (Vnum : 16038) 
+Object 'köleci kırbacı kırbaç' is type weapon, extra flags hum.
+Weight is 0, value is 900, level is 23.
+Weapon type is whip.
+Damage is 4d7 (average 16).
+  Affects damage roll by 5.
+  Affects hit roll by -4.
+  Affects constitution by -2.
+  Affects wisdom by -4.
+
+#Obj: Bir iblis bıçağı (Vnum : 16086) 
+Object 'iblis bıçağı bıçak' is type weapon, extra flags hum evil magic anti-good.
+Weight is 0, value is 1000, level is 23.
+Weapon type is dagger.
+Damage is 5d6 (average 17).
+  Affects damage roll by 3.
+  Affects hit roll by 3.
+  Affects armor class by -5.
+
+#Obj: büyük bıçak (Vnum : 12714) 
+Object 'büyük bıçak' is type weapon, extra flags none.
+Weight is 0, value is 4410, level is 21.
+Weapon type is exotic.
+Damage is 7 to 22 (average 14).
+
+#Obj: büyük bıçak (Vnum : 12714) 
+Object 'büyük bıçak' is type weapon, extra flags none.
+Weight is 0, value is 4200, level is 21.
+Weapon type is exotic.
+Damage is 6 to 22 (average 14).
+
+#Obj: büyük bıçak (Vnum : 12714) 
+Object 'büyük bıçak' is type weapon, extra flags none.
+Weight is 0, value is 4620, level is 20.
+Weapon type is exotic.
+Damage is 7 to 22 (average 14).
+
+#Obj: bir asilin çelik kılıcı (Vnum : 17341) 
+Object 'kılıç çelik asil' is type weapon, extra flags none.
+Weight is 0, value is 1700, level is 24.
+Weapon type is sword.
+Damage is 5d6 (average 17).
+  Affects damage roll by 3.
+  Affects hit roll by 3.
+
+#Obj: bir asilin çelik kılıcı (Vnum : 17341) 
+Object 'kılıç çelik asil' is type weapon, extra flags none.
+Weight is 0, value is 1700, level is 24.
+Weapon type is sword.
+Damage is 5d6 (average 17).
+  Affects damage roll by 3.
+  Affects hit roll by 3.
+
+#Obj: bir şövalyenin topuzu (Vnum : 17302) 
+Object 'topuz şövalye' is type weapon, extra flags inventory.
+Weight is 0, value is 800, level is 23.
+Weapon type is mace/club.
+Damage is 5d6 (average 17).
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: bir yaver kaması (Vnum : 17301) 
+Object 'kama yaver' is type weapon, extra flags inventory.
+Weight is 0, value is 500, level is 20.
+Weapon type is dagger.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+
+#Obj: bir yaver kaması (Vnum : 17301) 
+Object 'kama yaver' is type weapon, extra flags none.
+Weight is 0, value is 500, level is 20.
+Weapon type is dagger.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+
+#Obj: bir yaver kaması (Vnum : 17301) 
+Object 'kama yaver' is type weapon, extra flags none.
+Weight is 0, value is 500, level is 20.
+Weapon type is dagger.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+
+#Obj: bir yaver kaması (Vnum : 17301) 
+Object 'kama yaver' is type weapon, extra flags none.
+Weight is 0, value is 500, level is 20.
+Weapon type is dagger.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+
+#Obj: bir yaver kaması (Vnum : 17301) 
+Object 'kama yaver' is type weapon, extra flags none.
+Weight is 0, value is 500, level is 20.
+Weapon type is dagger.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+
+#Obj: bir yaver kaması (Vnum : 17301) 
+Object 'kama yaver' is type weapon, extra flags none.
+Weight is 0, value is 500, level is 20.
+Weapon type is dagger.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+
+#Obj: bir yaver kaması (Vnum : 17301) 
+Object 'kama yaver' is type weapon, extra flags none.
+Weight is 0, value is 500, level is 20.
+Weapon type is dagger.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+
+#Obj: bir yaver kaması (Vnum : 17301) 
+Object 'kama yaver' is type weapon, extra flags none.
+Weight is 0, value is 500, level is 20.
+Weapon type is dagger.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+
+#Obj: bir şövalyenin topuzu (Vnum : 17302) 
+Object 'topuz şövalye' is type weapon, extra flags none.
+Weight is 0, value is 800, level is 23.
+Weapon type is mace/club.
+Damage is 5d6 (average 17).
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: bir şövalyenin topuzu (Vnum : 17302) 
+Object 'topuz şövalye' is type weapon, extra flags none.
+Weight is 0, value is 800, level is 23.
+Weapon type is mace/club.
+Damage is 5d6 (average 17).
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: bir şövalyenin topuzu (Vnum : 17302) 
+Object 'topuz şövalye' is type weapon, extra flags none.
+Weight is 0, value is 800, level is 23.
+Weapon type is mace/club.
+Damage is 5d6 (average 17).
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: bir şövalyenin topuzu (Vnum : 17302) 
+Object 'topuz şövalye' is type weapon, extra flags none.
+Weight is 0, value is 800, level is 23.
+Weapon type is mace/club.
+Damage is 5d6 (average 17).
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: bir şövalyenin topuzu (Vnum : 17302) 
+Object 'topuz şövalye' is type weapon, extra flags none.
+Weight is 0, value is 800, level is 23.
+Weapon type is mace/club.
+Damage is 5d6 (average 17).
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: bir şövalyenin topuzu (Vnum : 17302) 
+Object 'topuz şövalye' is type weapon, extra flags none.
+Weight is 0, value is 800, level is 23.
+Weapon type is mace/club.
+Damage is 5d6 (average 17).
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: Bir iblis bıçağı (Vnum : 16086) 
+Object 'iblis bıçağı bıçak' is type weapon, extra flags hum evil magic anti-good.
+Weight is 0, value is 1000, level is 23.
+Weapon type is dagger.
+Damage is 5d6 (average 17).
+  Affects damage roll by 3.
+  Affects hit roll by 3.
+  Affects armor class by -5.
+
+#Obj: Bir iblis bıçağı (Vnum : 16086) 
+Object 'iblis bıçağı bıçak' is type weapon, extra flags hum evil magic anti-good.
+Weight is 0, value is 1000, level is 23.
+Weapon type is dagger.
+Damage is 5d6 (average 17).
+  Affects damage roll by 3.
+  Affects hit roll by 3.
+  Affects armor class by -5.
+
+#Obj: Bir iblis bıçağı (Vnum : 16086) 
+Object 'iblis bıçağı bıçak' is type weapon, extra flags hum evil magic anti-good.
+Weight is 0, value is 1000, level is 23.
+Weapon type is dagger.
+Damage is 5d6 (average 17).
+  Affects damage roll by 3.
+  Affects hit roll by 3.
+  Affects armor class by -5.
+
+#Obj: Bir zehir bıçağı (Vnum : 16074) 
+Object 'zehir bıçağı bıçak' is type weapon, extra flags hum dark magic.
+Weight is 0, value is 100, level is 20.
+Weapon type is dagger.
+Damage is 4d5 (average 12).
+Weapons flags: poison
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: Bir zehir bıçağı (Vnum : 16074) 
+Object 'zehir bıçağı bıçak' is type weapon, extra flags hum dark magic.
+Weight is 0, value is 100, level is 20.
+Weapon type is dagger.
+Damage is 4d5 (average 12).
+Weapons flags: poison
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: Bir zehir bıçağı (Vnum : 16074) 
+Object 'zehir bıçağı bıçak' is type weapon, extra flags hum dark magic.
+Weight is 0, value is 100, level is 20.
+Weapon type is dagger.
+Damage is 4d5 (average 12).
+Weapons flags: poison
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: Bir zehir bıçağı (Vnum : 16074) 
+Object 'zehir bıçağı bıçak' is type weapon, extra flags hum dark magic.
+Weight is 0, value is 100, level is 20.
+Weapon type is dagger.
+Damage is 4d5 (average 12).
+Weapons flags: poison
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: Bir zehir bıçağı (Vnum : 16074) 
+Object 'zehir bıçağı bıçak' is type weapon, extra flags hum dark magic.
+Weight is 0, value is 100, level is 20.
+Weapon type is dagger.
+Damage is 4d5 (average 12).
+Weapons flags: poison
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: Bir zehir bıçağı (Vnum : 16074) 
+Object 'zehir bıçağı bıçak' is type weapon, extra flags hum dark magic.
+Weight is 0, value is 100, level is 20.
+Weapon type is dagger.
+Damage is 4d5 (average 12).
+Weapons flags: poison
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: Bir zehir bıçağı (Vnum : 16074) 
+Object 'zehir bıçağı bıçak' is type weapon, extra flags hum dark magic.
+Weight is 0, value is 100, level is 20.
+Weapon type is dagger.
+Damage is 4d5 (average 12).
+Weapons flags: poison
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: Bir zehir bıçağı (Vnum : 16074) 
+Object 'zehir bıçağı bıçak' is type weapon, extra flags hum dark magic.
+Weight is 0, value is 100, level is 20.
+Weapon type is dagger.
+Damage is 4d5 (average 12).
+Weapons flags: poison
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: Bir zehir bıçağı (Vnum : 16074) 
+Object 'zehir bıçağı bıçak' is type weapon, extra flags hum dark magic.
+Weight is 0, value is 100, level is 20.
+Weapon type is dagger.
+Damage is 4d5 (average 12).
+Weapons flags: poison
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: Bir zehir bıçağı (Vnum : 16074) 
+Object 'zehir bıçağı bıçak' is type weapon, extra flags hum dark magic.
+Weight is 0, value is 100, level is 20.
+Weapon type is dagger.
+Damage is 4d5 (average 12).
+Weapons flags: poison
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: Bir zehir bıçağı (Vnum : 16074) 
+Object 'zehir bıçağı bıçak' is type weapon, extra flags hum dark magic.
+Weight is 0, value is 100, level is 20.
+Weapon type is dagger.
+Damage is 4d5 (average 12).
+Weapons flags: poison
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: Bir zehir bıçağı (Vnum : 16074) 
+Object 'zehir bıçağı bıçak' is type weapon, extra flags hum dark magic.
+Weight is 0, value is 100, level is 20.
+Weapon type is dagger.
+Damage is 4d5 (average 12).
+Weapons flags: poison
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: 'Önsezi' isimli bir pala (Vnum : 16064) 
+Object 'pala önsezi' is type weapon, extra flags glow hum.
+Weight is 0, value is 1000, level is 17.
+Weapon type is sword.
+Damage is 4d4 (average 10).
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+  Affects hp by 10.
+  Affects strength by 1.
+
+#Obj: Abanoz bir gündüz yıldızı (Vnum : 16045) 
+Object 'abanoz gündüz yıldızı' is type weapon, extra flags hum.
+Weight is 0, value is 1000, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+  Affects damage roll by 4.
+  Affects hit roll by 2.
+  Affects constitution by 1.
+
+#Obj: Köleci'nin Kırbacı (Vnum : 16038) 
+Object 'köleci kırbacı kırbaç' is type weapon, extra flags hum.
+Weight is 0, value is 900, level is 23.
+Weapon type is whip.
+Damage is 4d7 (average 16).
+  Affects damage roll by 5.
+  Affects hit roll by -4.
+  Affects constitution by -2.
+  Affects wisdom by -4.
+
+#Obj: Köleci'nin Kırbacı (Vnum : 16038) 
+Object 'köleci kırbacı kırbaç' is type weapon, extra flags hum.
+Weight is 0, value is 900, level is 23.
+Weapon type is whip.
+Damage is 4d7 (average 16).
+  Affects damage roll by 5.
+  Affects hit roll by -4.
+  Affects constitution by -2.
+  Affects wisdom by -4.
+
+#Obj: Köleci'nin Kırbacı (Vnum : 16038) 
+Object 'köleci kırbacı kırbaç' is type weapon, extra flags hum.
+Weight is 0, value is 900, level is 23.
+Weapon type is whip.
+Damage is 4d7 (average 16).
+  Affects damage roll by 5.
+  Affects hit roll by -4.
+  Affects constitution by -2.
+  Affects wisdom by -4.
+
+#Obj: Köleci'nin Kırbacı (Vnum : 16038) 
+Object 'köleci kırbacı kırbaç' is type weapon, extra flags hum.
+Weight is 0, value is 900, level is 23.
+Weapon type is whip.
+Damage is 4d7 (average 16).
+  Affects damage roll by 5.
+  Affects hit roll by -4.
+  Affects constitution by -2.
+  Affects wisdom by -4.
+
+#Obj: Köleci'nin Kırbacı (Vnum : 16038) 
+Object 'köleci kırbacı kırbaç' is type weapon, extra flags hum.
+Weight is 0, value is 900, level is 23.
+Weapon type is whip.
+Damage is 4d7 (average 16).
+  Affects damage roll by 5.
+  Affects hit roll by -4.
+  Affects constitution by -2.
+  Affects wisdom by -4.
+
+#Obj: Köleci'nin Kırbacı (Vnum : 16038) 
+Object 'köleci kırbacı kırbaç' is type weapon, extra flags hum.
+Weight is 0, value is 900, level is 23.
+Weapon type is whip.
+Damage is 4d7 (average 16).
+  Affects damage roll by 5.
+  Affects hit roll by -4.
+  Affects constitution by -2.
+  Affects wisdom by -4.
+
+#Obj: Köleci'nin Kırbacı (Vnum : 16038) 
+Object 'köleci kırbacı kırbaç' is type weapon, extra flags hum.
+Weight is 0, value is 900, level is 23.
+Weapon type is whip.
+Damage is 4d7 (average 16).
+  Affects damage roll by 5.
+  Affects hit roll by -4.
+  Affects constitution by -2.
+  Affects wisdom by -4.
+
+#Obj: Köleci'nin Kırbacı (Vnum : 16038) 
+Object 'köleci kırbacı kırbaç' is type weapon, extra flags hum.
+Weight is 0, value is 900, level is 23.
+Weapon type is whip.
+Damage is 4d7 (average 16).
+  Affects damage roll by 5.
+  Affects hit roll by -4.
+  Affects constitution by -2.
+  Affects wisdom by -4.
+
+#Obj: Köleci'nin Kırbacı (Vnum : 16038) 
+Object 'köleci kırbacı kırbaç' is type weapon, extra flags hum.
+Weight is 0, value is 900, level is 23.
+Weapon type is whip.
+Damage is 4d7 (average 16).
+  Affects damage roll by 5.
+  Affects hit roll by -4.
+  Affects constitution by -2.
+  Affects wisdom by -4.
+
+#Obj: Köleci'nin Kırbacı (Vnum : 16038) 
+Object 'köleci kırbacı kırbaç' is type weapon, extra flags hum.
+Weight is 0, value is 900, level is 23.
+Weapon type is whip.
+Damage is 4d7 (average 16).
+  Affects damage roll by 5.
+  Affects hit roll by -4.
+  Affects constitution by -2.
+  Affects wisdom by -4.
+
+#Obj: Köleci'nin Kırbacı (Vnum : 16038) 
+Object 'köleci kırbacı kırbaç' is type weapon, extra flags hum.
+Weight is 0, value is 900, level is 23.
+Weapon type is whip.
+Damage is 4d7 (average 16).
+  Affects damage roll by 5.
+  Affects hit roll by -4.
+  Affects constitution by -2.
+  Affects wisdom by -4.
+
+#Obj: Köleci'nin Kırbacı (Vnum : 16038) 
+Object 'köleci kırbacı kırbaç' is type weapon, extra flags hum.
+Weight is 0, value is 900, level is 23.
+Weapon type is whip.
+Damage is 4d7 (average 16).
+  Affects damage roll by 5.
+  Affects hit roll by -4.
+  Affects constitution by -2.
+  Affects wisdom by -4.
+
+#Obj: Köleci'nin Kırbacı (Vnum : 16038) 
+Object 'köleci kırbacı kırbaç' is type weapon, extra flags hum.
+Weight is 0, value is 900, level is 23.
+Weapon type is whip.
+Damage is 4d7 (average 16).
+  Affects damage roll by 5.
+  Affects hit roll by -4.
+  Affects constitution by -2.
+  Affects wisdom by -4.
+
+#Obj: kadim uzunkılıç (Vnum : 1704) 
+Object 'kadim uzunkılıç' is type weapon, extra flags hum magic.
+Weight is 10, value is 2500, level is 19.
+Weapon type is sword.
+Damage is 3d8 (average 13).
+  Affects hit roll by 3.
+  Affects damage roll by 4.
+
+#Obj: Aşırı pis bir dal (Vnum : 16019) 
+Object 'pis dal' is type weapon, extra flags hum nodrop anti-neutral.
+Weight is 1, value is 0, level is 21.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by -5.
+  Affects dexterity by -2.
+
+#Obj: Aşırı pis bir dal (Vnum : 16019) 
+Object 'pis dal' is type weapon, extra flags hum nodrop anti-neutral.
+Weight is 1, value is 0, level is 21.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by -5.
+  Affects dexterity by -2.
+
+#Obj: Aşırı pis bir dal (Vnum : 16019) 
+Object 'pis dal' is type weapon, extra flags hum nodrop anti-neutral.
+Weight is 1, value is 0, level is 21.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by -5.
+  Affects dexterity by -2.
+
+#Obj: Aşırı pis bir dal (Vnum : 16019) 
+Object 'pis dal' is type weapon, extra flags hum nodrop anti-neutral.
+Weight is 1, value is 0, level is 21.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by -5.
+  Affects dexterity by -2.
+
+#Obj: Aşırı pis bir dal (Vnum : 16019) 
+Object 'pis dal' is type weapon, extra flags hum nodrop anti-neutral.
+Weight is 1, value is 0, level is 21.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by -5.
+  Affects dexterity by -2.
+
+#Obj: Çok keskin büyük bir iğne (Vnum : 16018) 
+Object 'iğne' is type weapon, extra flags invis.
+Weight is 0, value is 10, level is 22.
+Weapon type is dagger.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+  Affects hp by -15.
+  Affects strength by -3.
+
+#Obj: Çok keskin büyük bir iğne (Vnum : 16018) 
+Object 'iğne' is type weapon, extra flags invis.
+Weight is 0, value is 10, level is 22.
+Weapon type is dagger.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+  Affects hp by -15.
+  Affects strength by -3.
+
+#Obj: Çok keskin büyük bir iğne (Vnum : 16018) 
+Object 'iğne' is type weapon, extra flags invis.
+Weight is 0, value is 10, level is 22.
+Weapon type is dagger.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+  Affects hp by -15.
+  Affects strength by -3.
+
+#Obj: Çok keskin büyük bir iğne (Vnum : 16018) 
+Object 'iğne' is type weapon, extra flags invis.
+Weight is 0, value is 10, level is 22.
+Weapon type is dagger.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+  Affects hp by -15.
+  Affects strength by -3.
+
+#Obj: Çok keskin büyük bir iğne (Vnum : 16018) 
+Object 'iğne' is type weapon, extra flags invis.
+Weight is 0, value is 10, level is 22.
+Weapon type is dagger.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+  Affects hp by -15.
+  Affects strength by -3.
+
+#Obj: Aşırı pis bir dal (Vnum : 16019) 
+Object 'pis dal' is type weapon, extra flags hum nodrop anti-neutral.
+Weight is 1, value is 0, level is 21.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by -5.
+  Affects dexterity by -2.
+
+#Obj: Aşırı pis bir dal (Vnum : 16019) 
+Object 'pis dal' is type weapon, extra flags hum nodrop anti-neutral.
+Weight is 1, value is 0, level is 21.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects damage roll by 2.
+  Affects hit roll by -5.
+  Affects dexterity by -2.
+
+#Obj: Parıldayan gnom gürzü (Vnum : 16006) 
+Object 'gnom gürz' is type weapon, extra flags bless.
+Weight is 0, value is 10, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+  Affects damage roll by 5.
+  Affects hit roll by 1.
+  Affects hp by 1.
+
+#Obj: Parıldayan gnom gürzü (Vnum : 16006) 
+Object 'gnom gürz' is type weapon, extra flags bless.
+Weight is 0, value is 10, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+  Affects damage roll by 5.
+  Affects hit roll by 1.
+  Affects hp by 1.
+
+#Obj: Parıldayan gnom gürzü (Vnum : 16006) 
+Object 'gnom gürz' is type weapon, extra flags bless.
+Weight is 0, value is 10, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+  Affects damage roll by 5.
+  Affects hit roll by 1.
+  Affects hp by 1.
+
+#Obj: Parıldayan gnom gürzü (Vnum : 16006) 
+Object 'gnom gürz' is type weapon, extra flags bless.
+Weight is 0, value is 10, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+  Affects damage roll by 5.
+  Affects hit roll by 1.
+  Affects hp by 1.
+
+#Obj: Parıldayan gnom gürzü (Vnum : 16006) 
+Object 'gnom gürz' is type weapon, extra flags bless.
+Weight is 0, value is 10, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+  Affects damage roll by 5.
+  Affects hit roll by 1.
+  Affects hp by 1.
+
+#Obj: Parıldayan gnom gürzü (Vnum : 16006) 
+Object 'gnom gürz' is type weapon, extra flags bless.
+Weight is 0, value is 10, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+  Affects damage roll by 5.
+  Affects hit roll by 1.
+  Affects hp by 1.
+
+#Obj: Parıldayan gnom gürzü (Vnum : 16006) 
+Object 'gnom gürz' is type weapon, extra flags bless.
+Weight is 0, value is 10, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+  Affects damage roll by 5.
+  Affects hit roll by 1.
+  Affects hp by 1.
+
+#Obj: Parıldayan gnom gürzü (Vnum : 16006) 
+Object 'gnom gürz' is type weapon, extra flags bless.
+Weight is 0, value is 10, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+  Affects damage roll by 5.
+  Affects hit roll by 1.
+  Affects hp by 1.
+
+#Obj: Parıldayan gnom gürzü (Vnum : 16006) 
+Object 'gnom gürz' is type weapon, extra flags bless.
+Weight is 0, value is 10, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+  Affects damage roll by 5.
+  Affects hit roll by 1.
+  Affects hp by 1.
+
+#Obj: Parıldayan gnom gürzü (Vnum : 16006) 
+Object 'gnom gürz' is type weapon, extra flags bless.
+Weight is 0, value is 10, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+  Affects damage roll by 5.
+  Affects hit roll by 1.
+  Affects hp by 1.
+
+#Obj: Parıldayan gnom gürzü (Vnum : 16006) 
+Object 'gnom gürz' is type weapon, extra flags bless.
+Weight is 0, value is 10, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+  Affects damage roll by 5.
+  Affects hit roll by 1.
+  Affects hp by 1.
+
+#Obj: Parıldayan gnom gürzü (Vnum : 16006) 
+Object 'gnom gürz' is type weapon, extra flags bless.
+Weight is 0, value is 10, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+  Affects damage roll by 5.
+  Affects hit roll by 1.
+  Affects hp by 1.
+
+#Obj: Parıldayan gnom gürzü (Vnum : 16006) 
+Object 'gnom gürz' is type weapon, extra flags bless.
+Weight is 0, value is 10, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+  Affects damage roll by 5.
+  Affects hit roll by 1.
+  Affects hp by 1.
+
+#Obj: Parıldayan gnom gürzü (Vnum : 16006) 
+Object 'gnom gürz' is type weapon, extra flags bless.
+Weight is 0, value is 10, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+  Affects damage roll by 5.
+  Affects hit roll by 1.
+  Affects hp by 1.
+
+#Obj: Parıldayan gnom gürzü (Vnum : 16006) 
+Object 'gnom gürz' is type weapon, extra flags bless.
+Weight is 0, value is 10, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+  Affects damage roll by 5.
+  Affects hit roll by 1.
+  Affects hp by 1.
+
+#Obj: Parıldayan gnom gürzü (Vnum : 16006) 
+Object 'gnom gürz' is type weapon, extra flags bless.
+Weight is 0, value is 10, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+  Affects damage roll by 5.
+  Affects hit roll by 1.
+  Affects hp by 1.
+
+#Obj: üç dişli çatal (Vnum : 29210) 
+Object 'üç dişli çatal' is type weapon, extra flags magic.
+Weight is 0, value is 200, level is 20.
+Weapon type is exotic.
+Damage is 5d5 (average 15).
+  Affects damage roll by 3.
+
+#Obj: üç dişli çatal (Vnum : 29210) 
+Object 'üç dişli çatal' is type weapon, extra flags magic.
+Weight is 0, value is 200, level is 20.
+Weapon type is exotic.
+Damage is 5d5 (average 15).
+  Affects damage roll by 3.
+
+#Obj: üç dişli çatal (Vnum : 29210) 
+Object 'üç dişli çatal' is type weapon, extra flags magic.
+Weight is 0, value is 200, level is 20.
+Weapon type is exotic.
+Damage is 5d5 (average 15).
+  Affects damage roll by 3.
+
+#Obj: taştan bir pala (Vnum : 8708) 
+Object 'taştan pala' is type weapon, extra flags hum magic.
+Weight is 18, value is 1820, level is 20.
+Weapon type is axe.
+Damage is 5d5 (average 15).
+  Affects hit roll by 1.
+  Affects damage roll by 2.
+
+#Obj: a sparkling trident (Vnum : 12316) 
+Object 'Trident' is type weapon, extra flags bless.
+Weight is 1, value is 5520, level is 24.
+Weapon type is exotic.
+Damage is 8 to 24 (average 16).
+  Affects hit roll by 3.
+  Affects damage roll by 3.
+  Affects hp by 40.
+
+#Obj: a sparkling trident (Vnum : 12316) 
+Object 'Trident' is type weapon, extra flags bless.
+Weight is 1, value is 5290, level is 23.
+Weapon type is exotic.
+Damage is 6 to 24 (average 15).
+  Affects hit roll by 3.
+  Affects damage roll by 3.
+  Affects hp by 40.
+
+#Obj: a sparkling trident (Vnum : 12316) 
+Object 'Trident' is type weapon, extra flags bless.
+Weight is 1, value is 6072, level is 24.
+Weapon type is exotic.
+Damage is 10 to 25 (average 17).
+  Affects hit roll by 3.
+  Affects damage roll by 3.
+  Affects hp by 40.
+
+#Obj: a sparkling trident (Vnum : 12316) 
+Object 'Trident' is type weapon, extra flags bless.
+Weight is 1, value is 5520, level is 24.
+Weapon type is exotic.
+Damage is 10 to 25 (average 17).
+  Affects hit roll by 3.
+  Affects damage roll by 3.
+  Affects hp by 40.
+
+#Obj: kristal uzun kılıç (Vnum : 10297) 
+Object 'kristal uzun kılıç' is type armor, extra flags invis magic.
+Weight is 1, value is 2550, level is 16.
+Armor class is 6 pierce, 5 bash, 6 slash, and 1 vs. magic.
+  Affects hit roll by 3.
+  Affects hp by 10.
+
+#Obj: gezgin çekici (Vnum : 10291) 
+Object 'gezgin çekiç' is type weapon, extra flags none.
+Weight is 0, value is 2640, level is 16.
+Weapon type is axe.
+Damage is 7 to 19 (average 13).
+
+#Obj: gezgin çekici (Vnum : 10291) 
+Object 'gezgin çekiç' is type weapon, extra flags none.
+Weight is 0, value is 2640, level is 16.
+Weapon type is axe.
+Damage is 6 to 20 (average 13).
+
+#Obj: "Büyücü Ezen" adında kızıl bir çekiç (Vnum : 10235) 
+Object 'çekiç büyücü ezen' is type weapon, extra flags hum magic.
+Weight is 3, value is 3240, level is 19.
+Weapon type is exotic.
+Damage is 4 to 22 (average 13).
+  Affects mana by -50.
+  Affects damage roll by 1.
+  Affects hit roll by 4.
+
+#Obj: çivili demir (Vnum : 2381) 
+Object 'çivili demir' is type weapon, extra flags none.
+Weight is 9, value is 1970, level is 17.
+Weapon type is exotic.
+Damage is 4d4 (average 10).
+
+#Obj: Minotaur Kılıcı (Vnum : 2376) 
+Object 'kılıç minotaur' is type weapon, extra flags magic.
+Weight is 19, value is 830, level is 22.
+Weapon type is polearm.
+Damage is 5d4 (average 12).
+Weapons flags: two-handed
+  Affects hit roll by 1.
+  Affects damage roll by 1.
+
+#Obj: Minotaur Kılıcı (Vnum : 2376) 
+Object 'kılıç minotaur' is type weapon, extra flags magic.
+Weight is 19, value is 830, level is 22.
+Weapon type is polearm.
+Damage is 5d4 (average 12).
+Weapons flags: two-handed
+  Affects hit roll by 1.
+  Affects damage roll by 1.
+
+#Obj: çift-elli kılıç (Vnum : 2372) 
+Object 'kılıç el çift çift-el' is type weapon, extra flags magic.
+Weight is 18, value is 2500, level is 22.
+Weapon type is sword.
+Damage is 5d5 (average 15).
+Weapons flags: two-handed
+  Affects hit roll by 2.
+  Affects damage roll by 2.
+
+#Obj: çift-elli kılıç (Vnum : 2372) 
+Object 'kılıç el çift çift-el' is type weapon, extra flags magic.
+Weight is 18, value is 2500, level is 22.
+Weapon type is sword.
+Damage is 5d5 (average 15).
+Weapons flags: two-handed
+  Affects hit roll by 2.
+  Affects damage roll by 2.
+
+#Obj: a huge halberd (Vnum : 2368) 
+Object 'halberd huge two-handed' is type weapon, extra flags magic.
+Weight is 18, value is 690, level is 18.
+Weapon type is polearm.
+Damage is 3d8 (average 13).
+Weapons flags: two-handed
+  Affects hit roll by 1.
+  Affects damage roll by 1.
+
+#Obj: a huge halberd (Vnum : 2368) 
+Object 'halberd huge two-handed' is type weapon, extra flags magic.
+Weight is 18, value is 690, level is 18.
+Weapon type is polearm.
+Damage is 3d8 (average 13).
+Weapons flags: two-handed
+  Affects hit roll by 1.
+  Affects damage roll by 1.
+
+#Obj: a huge halberd (Vnum : 2368) 
+Object 'halberd huge two-handed' is type weapon, extra flags magic.
+Weight is 18, value is 690, level is 18.
+Weapon type is polearm.
+Damage is 3d8 (average 13).
+Weapons flags: two-handed
+  Affects hit roll by 1.
+  Affects damage roll by 1.
+
+#Obj: savaş baltası (Vnum : 2365) 
+Object 'saval balta savaşbaltası' is type weapon, extra flags none.
+Weight is 18, value is 1310, level is 17.
+Weapon type is axe.
+Damage is 5d5 (average 15).
+
+#Obj: savaş baltası (Vnum : 2365) 
+Object 'saval balta savaşbaltası' is type weapon, extra flags none.
+Weight is 18, value is 1310, level is 17.
+Weapon type is axe.
+Damage is 5d5 (average 15).
+
+#Obj: savaş baltası (Vnum : 2365) 
+Object 'saval balta savaşbaltası' is type weapon, extra flags none.
+Weight is 18, value is 1310, level is 17.
+Weapon type is axe.
+Damage is 5d5 (average 15).
+
+#Obj: "Bilek Kapan" adlı kılıç (Vnum : 2362) 
+Object 'bilek kapan bilekkapan kılıç' is type weapon, extra flags none.
+Weight is 13, value is 1310, level is 17.
+Weapon type is sword.
+Damage is 5d4 (average 12).
+
+#Obj: "Bilek Kapan" adlı kılıç (Vnum : 2362) 
+Object 'bilek kapan bilekkapan kılıç' is type weapon, extra flags none.
+Weight is 13, value is 1310, level is 17.
+Weapon type is sword.
+Damage is 5d4 (average 12).
+
+#Obj: "Bilek Kapan" adlı kılıç (Vnum : 2362) 
+Object 'bilek kapan bilekkapan kılıç' is type weapon, extra flags none.
+Weight is 13, value is 1310, level is 17.
+Weapon type is sword.
+Damage is 5d4 (average 12).
+
+#Obj: "Bilek Kapan" adlı kılıç (Vnum : 2362) 
+Object 'bilek kapan bilekkapan kılıç' is type weapon, extra flags none.
+Weight is 13, value is 1310, level is 17.
+Weapon type is sword.
+Damage is 5d4 (average 12).
+
+#Obj: "Bilek Kapan" adlı kılıç (Vnum : 2362) 
+Object 'bilek kapan bilekkapan kılıç' is type weapon, extra flags none.
+Weight is 13, value is 1310, level is 17.
+Weapon type is sword.
+Damage is 5d4 (average 12).
+
+#Obj: devasa sopa (Vnum : 2391) 
+Object 'sopa devasa' is type weapon, extra flags none.
+Weight is 19, value is 1520, level is 23.
+Weapon type is mace/club.
+Damage is 4d7 (average 16).
+Weapons flags: two-handed
+
+#Obj: ogre savaş sopası (Vnum : 2387) 
+Object 'ogre savaş sopası' is type weapon, extra flags none.
+Weight is 10, value is 880, level is 17.
+Weapon type is mace/club.
+Damage is 5d4 (average 12).
+
+#Obj: ogre savaş sopası (Vnum : 2387) 
+Object 'ogre savaş sopası' is type weapon, extra flags none.
+Weight is 10, value is 880, level is 17.
+Weapon type is mace/club.
+Damage is 5d4 (average 12).
+
+#Obj: ogre savaş sopası (Vnum : 2387) 
+Object 'ogre savaş sopası' is type weapon, extra flags none.
+Weight is 10, value is 880, level is 17.
+Weapon type is mace/club.
+Damage is 5d4 (average 12).
+
+#Obj: ogre savaş sopası (Vnum : 2387) 
+Object 'ogre savaş sopası' is type weapon, extra flags none.
+Weight is 10, value is 880, level is 17.
+Weapon type is mace/club.
+Damage is 5d4 (average 12).
+
+#Obj: ogre mızrağı (Vnum : 2386) 
+Object 'ogre mızrak mızrağı' is type weapon, extra flags none.
+Weight is 8, value is 320, level is 17.
+Weapon type is spear/staff.
+Damage is 2d10 (average 11).
+Weapons flags: two-handed
+
+#Obj: ogre mızrağı (Vnum : 2386) 
+Object 'ogre mızrak mızrağı' is type weapon, extra flags none.
+Weight is 8, value is 320, level is 17.
+Weapon type is spear/staff.
+Damage is 2d10 (average 11).
+Weapons flags: two-handed
+
+#Obj: ogre mızrağı (Vnum : 2386) 
+Object 'ogre mızrak mızrağı' is type weapon, extra flags none.
+Weight is 8, value is 320, level is 17.
+Weapon type is spear/staff.
+Damage is 2d10 (average 11).
+Weapons flags: two-handed
+
+#Obj: ogre mızrağı (Vnum : 2386) 
+Object 'ogre mızrak mızrağı' is type weapon, extra flags none.
+Weight is 8, value is 320, level is 17.
+Weapon type is spear/staff.
+Damage is 2d10 (average 11).
+Weapons flags: two-handed
+
+#Obj: rünlü bir keski (Vnum : 1376) 
+Object 'keski rünlü' is type weapon, extra flags glow magic.
+Weight is 6, value is 2100, level is 20.
+Weapon type is dagger.
+Damage is 3d6 (average 10).
+  Affects dexterity by 1.
+  Affects damage roll by 2.
+
+#Obj: bir et satırı (Vnum : 1355) 
+Object 'satır' is type weapon, extra flags none.
+Weight is 2, value is 840, level is 17.
+Weapon type is dagger.
+Damage is 4d5 (average 12).
+Weapons flags: sharp
+
+#Obj: the halberd (Vnum : 9600) 
+Object 'halberd' is type weapon, extra flags magic bless.
+Weight is 16, value is 1240, level is 22.
+Weapon type is polearm.
+Damage is 3d8 (average 13).
+Weapons flags: two-handed
+  Affects damage roll by 3.
+  Affects hit roll by 2.
+
+#Obj: teber (Vnum : 8306) 
+Object 'teber' is type weapon, extra flags nodrop anti-good.
+Weight is 16, value is 1770, level is 19.
+Weapon type is polearm.
+Damage is 4d4 (average 10).
+Weapons flags: two-handed
+  Affects hit roll by 3.
+  Affects damage roll by 3.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: titreyen hançer (Vnum : 8007) 
+Object 'titreyen hançer' is type weapon, extra flags glow hum invis.
+Weight is 2, value is 2800, level is 18.
+Weapon type is dagger.
+Damage is 6d5 (average 18).
+  Affects hit roll by 1.
+  Affects damage roll by 3.
+  Affects constitution by 1.
+  Affects dexterity by 1.
+
+#Obj: a police stun stick (Vnum : 8016) 
+Object 'stunner police stick' is type weapon, extra flags none.
+Weight is 2, value is 1160, level is 23.
+Weapon type is mace/club.
+Damage is 3d9 (average 15).
+Weapons flags: shocking
+
+#Obj: a police stun stick (Vnum : 8016) 
+Object 'stunner police stick' is type weapon, extra flags none.
+Weight is 2, value is 1160, level is 23.
+Weapon type is mace/club.
+Damage is 3d9 (average 15).
+Weapons flags: shocking
+
+#Obj: Yargıç Gürzü (Vnum : 8011) 
+Object 'yargıç gürzü' is type weapon, extra flags none.
+Weight is 3, value is 1050, level is 17.
+Weapon type is mace/club.
+Damage is 3d7 (average 12).
+  Affects damage roll by 3.
+
+#Obj: Yargıç Gürzü (Vnum : 8011) 
+Object 'yargıç gürzü' is type weapon, extra flags none.
+Weight is 3, value is 1050, level is 17.
+Weapon type is mace/club.
+Damage is 3d7 (average 12).
+  Affects damage roll by 3.
+
+#Obj: Yargıç Gürzü (Vnum : 8011) 
+Object 'yargıç gürzü' is type weapon, extra flags none.
+Weight is 3, value is 1050, level is 17.
+Weapon type is mace/club.
+Damage is 3d7 (average 12).
+  Affects damage roll by 3.
+
+#Obj: bir cirit (Vnum : 7807) 
+Object 'cirit çift-elli' is type weapon, extra flags magic.
+Weight is 5, value is 670, level is 21.
+Weapon type is spear/staff.
+Damage is 5d5 (average 15).
+Weapons flags: two-handed
+  Affects damage roll by 2.
+
+#Obj: tahta kargı (Vnum : 8910) 
+Object 'tahta kargı' is type weapon, extra flags anti-evil.
+Weight is 5, value is 1500, level is 16.
+Weapon type is exotic.
+Damage is 3d6 (average 10).
+Weapons flags: two-handed
+
+#Obj: tahta kargı (Vnum : 8910) 
+Object 'tahta kargı' is type weapon, extra flags anti-evil.
+Weight is 5, value is 1500, level is 16.
+Weapon type is exotic.
+Damage is 3d6 (average 10).
+Weapons flags: two-handed
+
+#Obj: tahta kargı (Vnum : 8910) 
+Object 'tahta kargı' is type weapon, extra flags anti-evil.
+Weight is 5, value is 1500, level is 16.
+Weapon type is exotic.
+Damage is 3d6 (average 10).
+Weapons flags: two-handed
+
+#Obj: tahta kargı (Vnum : 8910) 
+Object 'tahta kargı' is type weapon, extra flags anti-evil.
+Weight is 5, value is 1500, level is 16.
+Weapon type is exotic.
+Damage is 3d6 (average 10).
+Weapons flags: two-handed
+
+#Obj: Bongo Davulu (Vnum : 18010) 
+Object 'bongo davul' is type weapon, extra flags glow hum.
+Weight is 20, value is 4350, level is 24.
+Weapon type is exotic.
+Damage is 5d5 (average 15).
+  Affects constitution by 1.
+  Affects damage roll by 3.
+  Affects hit roll by 2.
+
+#Obj: a silver longsword (Vnum : 22011) 
+Object 'sword silver longsword long' is type weapon, extra flags magic bless.
+Weight is 0, value is 1350, level is 23.
+Weapon type is sword.
+Damage is 5d5 (average 15).
+Weapons flags: sharp
+  Affects wisdom by 1.
+  Affects damage roll by 3.
+  Affects hit roll by 1.
+
+#Obj: a small steel knife (Vnum : 19015) 
+Object 'small steel knife' is type weapon, extra flags magic.
+Weight is 0, value is 10, level is 19.
+Weapon type is dagger.
+Damage is 6d3 (average 12).
+
+#Obj: a small steel knife (Vnum : 19015) 
+Object 'small steel knife' is type weapon, extra flags magic.
+Weight is 0, value is 10, level is 19.
+Weapon type is dagger.
+Damage is 6d3 (average 12).
+
+#Obj: a small steel knife (Vnum : 19015) 
+Object 'small steel knife' is type weapon, extra flags magic.
+Weight is 0, value is 10, level is 19.
+Weapon type is dagger.
+Damage is 6d3 (average 12).
+
+#Obj: a small steel knife (Vnum : 19015) 
+Object 'small steel knife' is type weapon, extra flags magic.
+Weight is 0, value is 10, level is 19.
+Weapon type is dagger.
+Damage is 6d3 (average 12).
+
+#Obj: a small steel knife (Vnum : 19015) 
+Object 'small steel knife' is type weapon, extra flags magic.
+Weight is 0, value is 10, level is 19.
+Weapon type is dagger.
+Damage is 6d3 (average 12).
+
+#Obj: a small steel knife (Vnum : 19015) 
+Object 'small steel knife' is type weapon, extra flags magic.
+Weight is 0, value is 10, level is 19.
+Weapon type is dagger.
+Damage is 6d3 (average 12).
+
+#Obj: a shiny silver sword (Vnum : 19003) 
+Object 'sword shiny silver' is type weapon, extra flags magic.
+Weight is 1, value is 100, level is 23.
+Weapon type is sword.
+Damage is 4d7 (average 16).
+
+#Obj: a thick wooden staff (Vnum : 19085) 
+Object 'club staff wood wooden' is type weapon, extra flags none.
+Weight is 1, value is 0, level is 19.
+Weapon type is spear/staff.
+Damage is 4d4 (average 10).
+
+#Obj: a thick wooden staff (Vnum : 19085) 
+Object 'club staff wood wooden' is type weapon, extra flags none.
+Weight is 1, value is 0, level is 19.
+Weapon type is spear/staff.
+Damage is 4d4 (average 10).
+
+#Obj: a bronze dagger (Vnum : 29513) 
+Object 'bronze dagger' is type weapon, extra flags none.
+Weight is 0, value is 2720, level is 17.
+Weapon type is exotic.
+Damage is 6 to 16 (average 11).
+
+#Obj: a bronze sword (Vnum : 29512) 
+Object 'bronze sword' is type weapon, extra flags none.
+Weight is 0, value is 2754, level is 18.
+Weapon type is exotic.
+Damage is 6 to 21 (average 13).
+  Affects damage roll by 2.
+  Affects hit roll by -2.
+
+#Obj: a bronze dagger (Vnum : 29513) 
+Object 'bronze dagger' is type weapon, extra flags none.
+Weight is 0, value is 3230, level is 18.
+Weapon type is exotic.
+Damage is 6 to 19 (average 12).
+
+#Obj: a bronze sword (Vnum : 29512) 
+Object 'bronze sword' is type weapon, extra flags none.
+Weight is 0, value is 3060, level is 17.
+Weapon type is exotic.
+Damage is 5 to 19 (average 12).
+  Affects damage roll by 2.
+  Affects hit roll by -2.
+
+#Obj: a bronze dagger (Vnum : 29513) 
+Object 'bronze dagger' is type weapon, extra flags none.
+Weight is 0, value is 2754, level is 17.
+Weapon type is exotic.
+Damage is 6 to 18 (average 12).
+
+#Obj: a bronze sword (Vnum : 29512) 
+Object 'bronze sword' is type weapon, extra flags none.
+Weight is 0, value is 3762, level is 18.
+Weapon type is exotic.
+Damage is 5 to 19 (average 12).
+  Affects damage roll by 2.
+  Affects hit roll by -2.
+
+#Obj: a stone axe (Vnum : 29517) 
+Object 'stone axe' is type weapon, extra flags none.
+Weight is 1, value is 4554, level is 23.
+Weapon type is exotic.
+Damage is 5 to 23 (average 14).
+
+#Obj: a long throwing spear (Vnum : 29501) 
+Object 'spear' is type warp stone, extra flags none.
+Weight is 1, value is 5566, level is 23.
+  Affects hit roll by 4.
+
+#Obj: a short thrusting spear (Vnum : 29500) 
+Object 'spear' is type weapon, extra flags none.
+Weight is 0, value is 5750, level is 24.
+Weapon type is spear/staff.
+Damage is 8 to 24 (average 16).
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+
+#Obj: bir cüsse ezen (Vnum : 2900) 
+Object 'kargı cüsse ezen' is type weapon, extra flags none.
+Weight is 27, value is 6334, level is 23.
+Weapon type is polearm.
+Damage is 5d6 (average 17).
+
+#Obj: a whip (Vnum : 15734) 
+Object 'whip' is type weapon, extra flags none.
+Weight is 0, value is 2916, level is 19.
+Weapon type is exotic.
+Damage is 7 to 20 (average 13).
+
+#Obj: a flind bar (Vnum : 15735) 
+Object 'flind bar' is type armor, extra flags anti-good.
+Weight is 0, value is 3420, level is 18.
+Armor class is 6 pierce, 7 bash, 6 slash, and 7 vs. magic.
+  Affects damage roll by 5.
+
+#Obj: a throwing dagger (Vnum : 15726) 
+Object 'dagger' is type warp stone, extra flags none.
+Weight is 0, value is 3179, level is 17.
+  Affects hit roll by 2.
+
+#Obj: a bronze sword (Vnum : 15719) 
+Object 'bronze sword' is type weapon, extra flags none.
+Weight is 1, value is 2640, level is 16.
+Weapon type is exotic.
+Damage is 6 to 18 (average 12).
+
+#Obj: a bronze sword (Vnum : 15719) 
+Object 'bronze sword' is type weapon, extra flags none.
+Weight is 1, value is 3168, level is 17.
+Weapon type is exotic.
+Damage is 7 to 19 (average 13).
+
+#Obj: a bronze sword (Vnum : 15719) 
+Object 'bronze sword' is type weapon, extra flags none.
+Weight is 1, value is 2916, level is 17.
+Weapon type is exotic.
+Damage is 7 to 18 (average 12).
+
+#Obj: the Sceptre of Might (Vnum : 9321) 
+Object 'sceptre might' is type light, extra flags glow hum invis magic anti-evil.
+Weight is 4, value is 2400, level is 22.
+  Affects hit roll by 2.
+  Affects damage roll by 2.
+
+#Obj: the Titanic Bow of Sagittarius (Vnum : 9316) 
+Object 'bow sagittarius' is type weapon, extra flags glow magic anti-evil.
+Weight is 20, value is 2800, level is 20.
+Weapon type is bow.
+Damage is 3d9 (average 15).
+  Affects hit roll by 1.
+  Affects damage roll by 4.
+
+#Obj: the Sting of Scorpio (Vnum : 9314) 
+Object 'sting scorpio' is type weapon, extra flags glow magic anti-evil.
+Weight is 7, value is 2700, level is 19.
+Weapon type is exotic.
+Damage is 4d4 (average 10).
+  Affects hit roll by 3.
+  Affects damage roll by 2.
+
+#Obj: küçük gürz (Vnum : 5666) 
+Object 'küçük gürz' is type weapon, extra flags none.
+Weight is 1, value is 999, level is 16.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects damage roll by 1.
+  Affects hit roll by 1.
+
+#Obj: sıçan derisi saplı büyük gürz (Vnum : 5668) 
+Object 'sıçan derisi saplı büyük gürz' is type weapon, extra flags none.
+Weight is 14, value is 7770, level is 17.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects damage roll by 1.
+  Affects hit roll by 1.
+
+#Obj: sıçan derisi saplı büyük gürz (Vnum : 5668) 
+Object 'sıçan derisi saplı büyük gürz' is type weapon, extra flags none.
+Weight is 14, value is 7770, level is 17.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects damage roll by 1.
+  Affects hit roll by 1.
+
+#Obj: sıçan derisi saplı büyük gürz (Vnum : 5668) 
+Object 'sıçan derisi saplı büyük gürz' is type weapon, extra flags none.
+Weight is 14, value is 7770, level is 17.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects damage roll by 1.
+  Affects hit roll by 1.
+
+#Obj: sıçan derisi saplı büyük gürz (Vnum : 5668) 
+Object 'sıçan derisi saplı büyük gürz' is type weapon, extra flags none.
+Weight is 14, value is 7770, level is 17.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects damage roll by 1.
+  Affects hit roll by 1.
+
+#Obj: sıçan derisi saplı büyük gürz (Vnum : 5668) 
+Object 'sıçan derisi saplı büyük gürz' is type weapon, extra flags none.
+Weight is 14, value is 7770, level is 17.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects damage roll by 1.
+  Affects hit roll by 1.
+
+#Obj: sıçan derisi saplı büyük gürz (Vnum : 5668) 
+Object 'sıçan derisi saplı büyük gürz' is type weapon, extra flags none.
+Weight is 14, value is 7770, level is 17.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects damage roll by 1.
+  Affects hit roll by 1.
+
+#Obj: sıçan derisi saplı büyük gürz (Vnum : 5668) 
+Object 'sıçan derisi saplı büyük gürz' is type weapon, extra flags none.
+Weight is 14, value is 7770, level is 17.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects damage roll by 1.
+  Affects hit roll by 1.
+
+#Obj: sıçan derisi saplı büyük gürz (Vnum : 5668) 
+Object 'sıçan derisi saplı büyük gürz' is type weapon, extra flags inventory.
+Weight is 14, value is 7770, level is 17.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects damage roll by 1.
+  Affects hit roll by 1.
+
+#Obj: küçük gürz (Vnum : 5666) 
+Object 'küçük gürz' is type weapon, extra flags inventory.
+Weight is 1, value is 999, level is 16.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects damage roll by 1.
+  Affects hit roll by 1.
+
+#Obj: sıçan derisi saplı büyük gürz (Vnum : 5668) 
+Object 'sıçan derisi saplı büyük gürz' is type weapon, extra flags inventory.
+Weight is 14, value is 7770, level is 17.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects damage roll by 1.
+  Affects hit roll by 1.
+
+#Obj: sıçan derisi saplı büyük gürz (Vnum : 5668) 
+Object 'sıçan derisi saplı büyük gürz' is type weapon, extra flags inventory.
+Weight is 14, value is 7770, level is 17.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects damage roll by 1.
+  Affects hit roll by 1.
+
+#Obj: uzun süvari kılıcı (Vnum : 5016) 
+Object 'uzun süvari kılıcı' is type weapon, extra flags anti-neutral.
+Weight is 7, value is 1410, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+  Affects hit roll by 3.
+
+#Obj: garip enerji yayı (Vnum : 5021) 
+Object 'garip enerji yayı' is type weapon, extra flags glow hum magic bless.
+Weight is 20, value is 2600, level is 21.
+Weapon type is bow.
+Damage is 5d5 (average 15).
+
+#Obj: two Snake Headed whip (Vnum : 5115) 
+Object 'whip snake skin' is type weapon, extra flags dark magic anti-good no_locate.
+Weight is 14, value is 1530, level is 24.
+Weapon type is whip.
+Damage is 10d4 (average 25).
+  Affects hit roll by 5.
+  Affects damage roll by 7.
+
+#Obj: a snake headed whip (Vnum : 5104) 
+Object 'whip snake four-headed' is type weapon, extra flags glow magic.
+Weight is 1, value is 1530, level is 24.
+Weapon type is whip.
+Damage is 5d5 (average 15).
+  Affects hit roll by 3.
+  Affects damage roll by 3.
+
+#Obj: a snake headed whip (Vnum : 5104) 
+Object 'whip snake four-headed' is type weapon, extra flags glow magic.
+Weight is 1, value is 1530, level is 24.
+Weapon type is whip.
+Damage is 5d5 (average 15).
+  Affects hit roll by 3.
+  Affects damage roll by 3.
+
+#Obj: a snake headed whip (Vnum : 5104) 
+Object 'whip snake four-headed' is type weapon, extra flags glow magic.
+Weight is 1, value is 1530, level is 24.
+Weapon type is whip.
+Damage is 5d5 (average 15).
+  Affects hit roll by 3.
+  Affects damage roll by 3.
+
+#Obj: a black longsword (Vnum : 5105) 
+Object 'longsword black' is type weapon, extra flags glow magic.
+Weight is 0, value is 2100, level is 21.
+Weapon type is sword.
+Damage is 4d6 (average 14).
+  Affects hit roll by 3.
+  Affects damage roll by 3.
+
+#Obj: a black longsword (Vnum : 5105) 
+Object 'longsword black' is type weapon, extra flags glow magic.
+Weight is 0, value is 2100, level is 21.
+Weapon type is sword.
+Damage is 4d6 (average 14).
+  Affects hit roll by 3.
+  Affects damage roll by 3.
+
+#Obj: a snake headed whip (Vnum : 5104) 
+Object 'whip snake four-headed' is type weapon, extra flags glow magic.
+Weight is 1, value is 1530, level is 24.
+Weapon type is whip.
+Damage is 5d5 (average 15).
+  Affects hit roll by 3.
+  Affects damage roll by 3.
+
+#Obj: a snake headed whip (Vnum : 5104) 
+Object 'whip snake four-headed' is type weapon, extra flags glow magic.
+Weight is 1, value is 1530, level is 24.
+Weapon type is whip.
+Damage is 5d5 (average 15).
+  Affects hit roll by 3.
+  Affects damage roll by 3.
+
+#Obj: a black longsword (Vnum : 5105) 
+Object 'longsword black' is type weapon, extra flags glow magic.
+Weight is 0, value is 2100, level is 21.
+Weapon type is sword.
+Damage is 4d6 (average 14).
+  Affects hit roll by 3.
+  Affects damage roll by 3.
+
+#Obj: bir cüce topuz (Vnum : 6504) 
+Object 'cüce topuz' is type weapon, extra flags none.
+Weight is 3, value is 880, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+
+#Obj: bir cüce topuz (Vnum : 6504) 
+Object 'cüce topuz' is type weapon, extra flags none.
+Weight is 3, value is 880, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+
+#Obj: bir cüce baltası (Vnum : 6509) 
+Object 'cüce balta' is type weapon, extra flags none.
+Weight is 5, value is 4100, level is 17.
+Weapon type is axe.
+Damage is 3d7 (average 12).
+Weapons flags: two-handed
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+  Affects strength by 2.
+
+#Obj: bir cüce baltası (Vnum : 6509) 
+Object 'cüce balta' is type weapon, extra flags none.
+Weight is 5, value is 4100, level is 17.
+Weapon type is axe.
+Damage is 3d7 (average 12).
+Weapons flags: two-handed
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+  Affects strength by 2.
+
+#Obj: bir cüce topuz (Vnum : 6504) 
+Object 'cüce topuz' is type weapon, extra flags none.
+Weight is 3, value is 880, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+
+#Obj: bir cüce baltası (Vnum : 6509) 
+Object 'cüce balta' is type weapon, extra flags none.
+Weight is 5, value is 4100, level is 17.
+Weapon type is axe.
+Damage is 3d7 (average 12).
+Weapons flags: two-handed
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+  Affects strength by 2.
+
+#Obj: bir cüce baltası (Vnum : 6509) 
+Object 'cüce balta' is type weapon, extra flags none.
+Weight is 5, value is 4100, level is 17.
+Weapon type is axe.
+Damage is 3d7 (average 12).
+Weapons flags: two-handed
+  Affects damage roll by 2.
+  Affects hit roll by 2.
+  Affects strength by 2.
+
+#Obj: bir cüce topuz (Vnum : 6504) 
+Object 'cüce topuz' is type weapon, extra flags inventory.
+Weight is 3, value is 880, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+
+#Obj: bir cüce topuz (Vnum : 6504) 
+Object 'cüce topuz' is type weapon, extra flags inventory.
+Weight is 3, value is 880, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+
+#Obj: bir cüce topuz (Vnum : 6504) 
+Object 'cüce topuz' is type weapon, extra flags inventory.
+Weight is 3, value is 880, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+
+#Obj: bir cüce topuz (Vnum : 6504) 
+Object 'cüce topuz' is type weapon, extra flags none.
+Weight is 3, value is 880, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+
+#Obj: bir cüce topuz (Vnum : 6504) 
+Object 'cüce topuz' is type weapon, extra flags none.
+Weight is 3, value is 880, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+
+#Obj: bir cüce topuz (Vnum : 6504) 
+Object 'cüce topuz' is type weapon, extra flags none.
+Weight is 3, value is 880, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+
+#Obj: bir cüce topuz (Vnum : 6504) 
+Object 'cüce topuz' is type weapon, extra flags none.
+Weight is 3, value is 880, level is 17.
+Weapon type is mace/club.
+Damage is 4d5 (average 12).
+
+#Obj: ince bir çift-elli kılıç (Vnum : 7709) 
+Object 'kılıç ince çift' is type weapon, extra flags none.
+Weight is 16, value is 2600, level is 24.
+Weapon type is sword.
+Damage is 3d10 (average 16).
+Weapons flags: two-handed
+  Affects hit roll by 1.
+  Affects damage roll by 2.
+
+#Obj: ince bir çift-elli kılıç (Vnum : 7709) 
+Object 'kılıç ince çift' is type weapon, extra flags none.
+Weight is 16, value is 2600, level is 24.
+Weapon type is sword.
+Damage is 3d10 (average 16).
+Weapons flags: two-handed
+  Affects hit roll by 1.
+  Affects damage roll by 2.
+
+#Obj: gümüşi bir kılıç (Vnum : 7710) 
+Object 'kılıç gümüşi' is type weapon, extra flags glow.
+Weight is 13, value is 4600, level is 19.
+Weapon type is sword.
+Damage is 5d5 (average 15).
+Weapons flags: two-handed
+  Affects dexterity by 2.
+  Affects damage roll by 2.
+
+#Obj: gümüşi bir kılıç (Vnum : 7710) 
+Object 'kılıç gümüşi' is type weapon, extra flags glow.
+Weight is 13, value is 4600, level is 19.
+Weapon type is sword.
+Damage is 5d5 (average 15).
+Weapons flags: two-handed
+  Affects dexterity by 2.
+  Affects damage roll by 2.
+
+#Obj: gümüşi bir kılıç (Vnum : 7710) 
+Object 'kılıç gümüşi' is type weapon, extra flags glow.
+Weight is 13, value is 4600, level is 19.
+Weapon type is sword.
+Damage is 5d5 (average 15).
+Weapons flags: two-handed
+  Affects dexterity by 2.
+  Affects damage roll by 2.
+
+#Obj: gümüşi bir kılıç (Vnum : 7710) 
+Object 'kılıç gümüşi' is type weapon, extra flags glow.
+Weight is 13, value is 4600, level is 19.
+Weapon type is sword.
+Damage is 5d5 (average 15).
+Weapons flags: two-handed
+  Affects dexterity by 2.
+  Affects damage roll by 2.
+
+#Obj: ince bir çift-elli kılıç (Vnum : 7709) 
+Object 'kılıç ince çift' is type weapon, extra flags none.
+Weight is 16, value is 2600, level is 24.
+Weapon type is sword.
+Damage is 3d10 (average 16).
+Weapons flags: two-handed
+  Affects hit roll by 1.
+  Affects damage roll by 2.
+
+#Obj: aşırı keskin ve ince bir kılıç (Vnum : 7708) 
+Object 'kılıç ince' is type weapon, extra flags none.
+Weight is 3, value is 2300, level is 16.
+Weapon type is sword.
+Damage is 4d4 (average 10).
+  Affects dexterity by 1.
+  Affects hit roll by 1.
+  Affects damage roll by 3.
+
+#Obj: aşırı keskin ve ince bir kılıç (Vnum : 7708) 
+Object 'kılıç ince' is type weapon, extra flags none.
+Weight is 3, value is 2300, level is 16.
+Weapon type is sword.
+Damage is 4d4 (average 10).
+  Affects dexterity by 1.
+  Affects hit roll by 1.
+  Affects damage roll by 3.
+
+#Obj: aşırı keskin ve ince bir kılıç (Vnum : 7708) 
+Object 'kılıç ince' is type weapon, extra flags none.
+Weight is 3, value is 2300, level is 16.
+Weapon type is sword.
+Damage is 4d4 (average 10).
+  Affects dexterity by 1.
+  Affects hit roll by 1.
+  Affects damage roll by 3.
+
+#Obj: aşırı keskin ve ince bir kılıç (Vnum : 7708) 
+Object 'kılıç ince' is type weapon, extra flags none.
+Weight is 3, value is 2300, level is 16.
+Weapon type is sword.
+Damage is 4d4 (average 10).
+  Affects dexterity by 1.
+  Affects hit roll by 1.
+  Affects damage roll by 3.
+
+#Obj: ince bir çift-elli kılıç (Vnum : 7709) 
+Object 'kılıç ince çift' is type weapon, extra flags none.
+Weight is 16, value is 2600, level is 24.
+Weapon type is sword.
+Damage is 3d10 (average 16).
+Weapons flags: two-handed
+  Affects hit roll by 1.
+  Affects damage roll by 2.
+
+#Obj: aşırı keskin ve ince bir kılıç (Vnum : 7708) 
+Object 'kılıç ince' is type weapon, extra flags none.
+Weight is 3, value is 2300, level is 16.
+Weapon type is sword.
+Damage is 4d4 (average 10).
+  Affects dexterity by 1.
+  Affects hit roll by 1.
+  Affects damage roll by 3.
+
+#Obj: aşırı keskin ve ince bir kılıç (Vnum : 7708) 
+Object 'kılıç ince' is type weapon, extra flags none.
+Weight is 3, value is 2300, level is 16.
+Weapon type is sword.
+Damage is 4d4 (average 10).
+  Affects dexterity by 1.
+  Affects hit roll by 1.
+  Affects damage roll by 3.
+
+#Obj: bir beyaz at kargısı (Vnum : 4207) 
+Object 'kargı beyaz şövalye' is type weapon, extra flags hum anti-evil.
+Weight is 5, value is 2300, level is 17.
+Weapon type is lance.
+Damage is 5d5 (average 15).
+Weapons flags: sharp
+  Affects save vs breath by 5.
+  Affects damage roll by 3.
+
+#Obj: bir beyaz at kargısı (Vnum : 4207) 
+Object 'kargı beyaz şövalye' is type weapon, extra flags hum anti-evil.
+Weight is 5, value is 2300, level is 17.
+Weapon type is lance.
+Damage is 5d5 (average 15).
+Weapons flags: sharp
+  Affects save vs breath by 5.
+  Affects damage roll by 3.
+
+#Obj: bir siyah at kargısı (Vnum : 4206) 
+Object 'kargı siyah at' is type weapon, extra flags hum anti-good.
+Weight is 5, value is 2250, level is 17.
+Weapon type is lance.
+Damage is 5d5 (average 15).
+Weapons flags: sharp
+  Affects save vs breath by 5.
+  Affects damage roll by 3.
+
+#Obj: bir siyah at kargısı (Vnum : 4206) 
+Object 'kargı siyah at' is type weapon, extra flags hum anti-good.
+Weight is 5, value is 2250, level is 17.
+Weapon type is lance.
+Damage is 5d5 (average 15).
+Weapons flags: sharp
+  Affects save vs breath by 5.
+  Affects damage roll by 3.
+
+#Obj: ejderkuyruğu kırbacı (Vnum : 2285) 
+Object 'ejderkuyruğu kırbaç' is type weapon, extra flags hum anti-good.
+Weight is 14, value is 1530, level is 24.
+Weapon type is whip.
+Damage is 6d5 (average 18).
+  Affects hit roll by 3.
+  Affects damage roll by 3.
+
+#Obj: gümüş kama (Vnum : 2201) 
+Object 'gümüş kama' is type weapon, extra flags none.
+Weight is 1, value is 2000, level is 22.
+Weapon type is dagger.
+Damage is 4d7 (average 16).
+  Affects saves by -2.
+
+#Obj: taş gürz (Vnum : 2223) 
+Object 'taş gürz' is type weapon, extra flags none.
+Weight is 18, value is 940, level is 18.
+Weapon type is mace/club.
+Damage is 3d6 (average 10).
+
+#Obj: altın kılıç (Vnum : 2260) 
+Object 'altın kılıç' is type weapon, extra flags glow.
+Weight is 10, value is 2500, level is 16.
+Weapon type is sword.
+Damage is 3d5 (average 9).
+  Affects intelligence by 1.
+  Affects wisdom by 1.
+
+#Obj: taş gürz (Vnum : 2223) 
+Object 'taş gürz' is type weapon, extra flags none.
+Weight is 18, value is 940, level is 18.
+Weapon type is mace/club.
+Damage is 3d6 (average 10).
+
+#Obj: Cüce Topuzu (Vnum : 14537) 
+Object 'cüce topuzu' is type weapon, extra flags glow magic.
+Weight is 25, value is 3400, level is 17.
+Weapon type is flail.
+Damage is 5d5 (average 15).
+Weapons flags: sharp
+
+#Obj: Gözcü'nün Delici Hançeri (Vnum : 14522) 
+Object 'gözcü delici hançer' is type weapon, extra flags magic anti-evil.
+Weight is 5, value is 3100, level is 20.
+Weapon type is dagger.
+Damage is 5d6 (average 17).
+  Affects mana by 15.
+  Affects hit roll by 3.
+
+#Obj: Ada Gürzü (Vnum : 14519) 
+Object 'ada gürz' is type weapon, extra flags magic.
+Weight is 30, value is 2620, level is 17.
+Weapon type is mace/club.
+Damage is 5d5 (average 15).
+  Affects hit roll by 5.
+  Affects damage roll by 5.
+
+#Obj: mitril kama (Vnum : 1101) 
+Object 'mitril kama' is type weapon, extra flags glow hum anti-evil.
+Weight is 1, value is 3500, level is 17.
+Weapon type is dagger.
+Damage is 2d7 (average 8).
+  Affects dexterity by 2.
+
+#Obj: mitril bir balta (Vnum : 1107) 
+Object 'mitril balta' is type weapon, extra flags glow dark noremove nopurge.
+Weight is 12, value is 1440, level is 17.
+Weapon type is axe.
+Damage is 3d8 (average 13).
+  Affects damage roll by 3.
+
+#Obj: bir çora mızrağı (Vnum : 1106) 
+Object 'çora mızrak' is type weapon, extra flags hum magic anti-evil.
+Weight is 5, value is 500, level is 16.
+Weapon type is spear/staff.
+Damage is 3d7 (average 12).
+  Affects hit roll by 2.
+
+#Obj: bir teber (Vnum : 1113) 
+Object 'teber' is type weapon, extra flags none.
+Weight is 10, value is 1810, level is 21.
+Weapon type is polearm.
+Damage is 3d10 (average 16).
+Weapons flags: two-handed
+  Affects hit roll by 4.
+
+#Obj: a whisper thin rapier (Vnum : 3414) 
+Object 'rapier thin' is type weapon, extra flags hum.
+Weight is 4, value is 3500, level is 16.
+Weapon type is sword.
+Damage is 4d2 (average 6).
+  Affects dexterity by 2.
+  Affects hit roll by 1.
+
+#Obj: a whisper thin rapier (Vnum : 3414) 
+Object 'rapier thin' is type weapon, extra flags hum.
+Weight is 4, value is 3500, level is 16.
+Weapon type is sword.
+Damage is 4d2 (average 6).
+  Affects dexterity by 2.
+  Affects hit roll by 1.
+
+#Obj: kılıç Excalibur (Vnum : 2005) 
+Object 'kılıç excalibur' is type weapon, extra flags glow magic anti-evil anti-neutral.
+Weight is 15, value is 3400, level is 24.
+Weapon type is sword.
+Damage is 10d4 (average 25).
+  Affects hit roll by 3.
+  Affects strength by 1.
+
+#Obj: Kısırlaştırıcı (Vnum : 2004) 
+Object 'kısırlaştırıcı kılıç' is type weapon, extra flags hum anti-good anti-evil.
+Weight is 9, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 4d5 (average 12).
+  Affects hit roll by 1.
+  Affects damage roll by 2.
+
+#Obj: sabah yıldızı (Vnum : 9229) 
+Object 'sabah yıldızı zincir' is type weapon, extra flags glow.
+Weight is 11, value is 3300, level is 23.
+Weapon type is flail.
+Damage is 6d4 (average 15).
+  Affects saves by -4.
+  Affects armor class by -6.
+
+#Obj: ÇıĞ (Vnum : 9228) 
+Object 'çığ' is type weapon, extra flags none.
+Weight is 16, value is 3000, level is 24.
+Weapon type is exotic.
+Damage is 1d25 (average 13).
+  Affects hit roll by -1.
+
+#Obj: Şok Kırbacı (Vnum : 9230) 
+Object 'şok kırbaç' is type weapon, extra flags hum.
+Weight is 10, value is 64, level is 20.
+Weapon type is whip.
+Damage is 3d8 (average 13).
+  Affects damage roll by 4.
+  Affects strength by -2.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: Standart kılıç (Vnum : 3350) 
+Object 'kılıç standart' is type weapon, extra flags magic.
+Weight is 5, value is 1280, level is 16.
+Weapon type is sword.
+Damage is 3d7 (average 12).
+  Affects damage roll by 1.
+
+#Obj: altın pençe (Vnum : 662) 
+Object 'pençe altın' is type weapon, extra flags magic anti-evil.
+Weight is 10, value is 2600, level is 21.
+Weapon type is exotic.
+Damage is 3d9 (average 15).
+  Affects damage roll by 2.
+
+#Obj: altın pençe (Vnum : 662) 
+Object 'pençe altın' is type weapon, extra flags magic anti-evil.
+Weight is 10, value is 2600, level is 21.
+Weapon type is exotic.
+Damage is 3d9 (average 15).
+  Affects damage roll by 2.
+
+#Obj: altın pençe (Vnum : 662) 
+Object 'pençe altın' is type weapon, extra flags magic anti-evil.
+Weight is 10, value is 2600, level is 21.
+Weapon type is exotic.
+Damage is 3d9 (average 15).
+  Affects damage roll by 2.
+
+#Obj: bir çiftağızlı kılıç (Vnum : 630) 
+Object 'çiftağızlı kılıç' is type weapon, extra flags magic.
+Weight is 16, value is 3100, level is 19.
+Weapon type is sword.
+Damage is 4d6 (average 14).
+Weapons flags: two-handed
+  Affects hit roll by -2.
+  Affects damage roll by 4.
+
+#Obj: bir çiftağızlı kılıç (Vnum : 630) 
+Object 'çiftağızlı kılıç' is type weapon, extra flags magic.
+Weight is 16, value is 3100, level is 19.
+Weapon type is sword.
+Damage is 4d6 (average 14).
+Weapons flags: two-handed
+  Affects hit roll by -2.
+  Affects damage roll by 4.
+
+#Obj: bir çiftağızlı kılıç (Vnum : 630) 
+Object 'çiftağızlı kılıç' is type weapon, extra flags magic.
+Weight is 16, value is 3100, level is 19.
+Weapon type is sword.
+Damage is 4d6 (average 14).
+Weapons flags: two-handed
+  Affects hit roll by -2.
+  Affects damage roll by 4.
+
+#Obj: bir çiftağızlı kılıç (Vnum : 630) 
+Object 'çiftağızlı kılıç' is type weapon, extra flags magic.
+Weight is 16, value is 3100, level is 19.
+Weapon type is sword.
+Damage is 4d6 (average 14).
+Weapons flags: two-handed
+  Affects hit roll by -2.
+  Affects damage roll by 4.
+
+#Obj: bir çiftağızlı kılıç (Vnum : 630) 
+Object 'çiftağızlı kılıç' is type weapon, extra flags magic.
+Weight is 16, value is 3100, level is 19.
+Weapon type is sword.
+Damage is 4d6 (average 14).
+Weapons flags: two-handed
+  Affects hit roll by -2.
+  Affects damage roll by 4.
+
+#Obj: bir çiftağızlı kılıç (Vnum : 630) 
+Object 'çiftağızlı kılıç' is type weapon, extra flags magic.
+Weight is 16, value is 3100, level is 19.
+Weapon type is sword.
+Damage is 4d6 (average 14).
+Weapons flags: two-handed
+  Affects hit roll by -2.
+  Affects damage roll by 4.
+
+#Obj: İnleten (Vnum : 653) 
+Object 'inleten kargı' is type weapon, extra flags magic anti-evil.
+Weight is 20, value is 1460, level is 24.
+Weapon type is polearm.
+Damage is 4d7 (average 16).
+Weapons flags: two-handed
+  Affects hit roll by 3.
+  Affects damage roll by -1.
+
+#Obj: İnleten (Vnum : 653) 
+Object 'inleten kargı' is type weapon, extra flags magic anti-evil.
+Weight is 20, value is 1460, level is 24.
+Weapon type is polearm.
+Damage is 4d7 (average 16).
+Weapons flags: two-handed
+  Affects hit roll by 3.
+  Affects damage roll by -1.
+
+#Obj: bir çiftağızlı kılıç (Vnum : 630) 
+Object 'çiftağızlı kılıç' is type weapon, extra flags magic.
+Weight is 16, value is 3100, level is 19.
+Weapon type is sword.
+Damage is 4d6 (average 14).
+Weapons flags: two-handed
+  Affects hit roll by -2.
+  Affects damage roll by 4.
+
+#Obj: bir çiftağızlı kılıç (Vnum : 630) 
+Object 'çiftağızlı kılıç' is type weapon, extra flags magic.
+Weight is 16, value is 3100, level is 19.
+Weapon type is sword.
+Damage is 4d6 (average 14).
+Weapons flags: two-handed
+  Affects hit roll by -2.
+  Affects damage roll by 4.
+
+#Obj: bir çiftağızlı kılıç (Vnum : 630) 
+Object 'çiftağızlı kılıç' is type weapon, extra flags magic.
+Weight is 16, value is 3100, level is 19.
+Weapon type is sword.
+Damage is 4d6 (average 14).
+Weapons flags: two-handed
+  Affects hit roll by -2.
+  Affects damage roll by 4.
+
+#Obj: bir çiftağızlı kılıç (Vnum : 630) 
+Object 'çiftağızlı kılıç' is type weapon, extra flags magic.
+Weight is 16, value is 3100, level is 19.
+Weapon type is sword.
+Damage is 4d6 (average 14).
+Weapons flags: two-handed
+  Affects hit roll by -2.
+  Affects damage roll by 4.
+
+#Obj: bir çiftağızlı kılıç (Vnum : 630) 
+Object 'çiftağızlı kılıç' is type weapon, extra flags magic.
+Weight is 16, value is 3100, level is 19.
+Weapon type is sword.
+Damage is 4d6 (average 14).
+Weapons flags: two-handed
+  Affects hit roll by -2.
+  Affects damage roll by 4.
+
+#Obj: bir çiftağızlı kılıç (Vnum : 630) 
+Object 'çiftağızlı kılıç' is type weapon, extra flags magic.
+Weight is 16, value is 3100, level is 19.
+Weapon type is sword.
+Damage is 4d6 (average 14).
+Weapons flags: two-handed
+  Affects hit roll by -2.
+  Affects damage roll by 4.
+
+#Obj: bir çiftağızlı kılıç (Vnum : 630) 
+Object 'çiftağızlı kılıç' is type weapon, extra flags magic.
+Weight is 16, value is 3100, level is 19.
+Weapon type is sword.
+Damage is 4d6 (average 14).
+Weapons flags: two-handed
+  Affects hit roll by -2.
+  Affects damage roll by 4.
+
+#Obj: bir çiftağızlı kılıç (Vnum : 630) 
+Object 'çiftağızlı kılıç' is type weapon, extra flags magic.
+Weight is 16, value is 3100, level is 19.
+Weapon type is sword.
+Damage is 4d6 (average 14).
+Weapons flags: two-handed
+  Affects hit roll by -2.
+  Affects damage roll by 4.
+
+#Obj: bir saray muhafızının kılıcı (Vnum : 7550) 
+Object 'kılıç saray muhafızı kılıcı' is type weapon, extra flags glow hum.
+Weight is 8, value is 3780, level is 22.
+Weapon type is sword.
+Damage is 4d8 (average 18).
+
+#Obj: bir saray muhafızının kılıcı (Vnum : 7550) 
+Object 'kılıç saray muhafızı kılıcı' is type weapon, extra flags glow hum.
+Weight is 8, value is 3780, level is 22.
+Weapon type is sword.
+Damage is 4d8 (average 18).
+
+#Obj: bir saray muhafızının kılıcı (Vnum : 7550) 
+Object 'kılıç saray muhafızı kılıcı' is type weapon, extra flags glow hum.
+Weight is 8, value is 3780, level is 22.
+Weapon type is sword.
+Damage is 4d8 (average 18).
+
+#Obj: bir saray muhafızının kılıcı (Vnum : 7550) 
+Object 'kılıç saray muhafızı kılıcı' is type weapon, extra flags glow hum.
+Weight is 8, value is 3780, level is 22.
+Weapon type is sword.
+Damage is 4d8 (average 18).
+
+#Obj: bir koruyucunun kılıcı (Vnum : 7538) 
+Object 'kılıç koruyucunun kılıcı' is type weapon, extra flags none.
+Weight is 8, value is 4400, level is 20.
+Weapon type is sword.
+Damage is 5d5 (average 15).
+
+#Obj: bir koruyucunun kılıcı (Vnum : 7538) 
+Object 'kılıç koruyucunun kılıcı' is type weapon, extra flags none.
+Weight is 8, value is 4400, level is 20.
+Weapon type is sword.
+Damage is 5d5 (average 15).
+
+#Obj: bir koruyucunun kılıcı (Vnum : 7538) 
+Object 'kılıç koruyucunun kılıcı' is type weapon, extra flags none.
+Weight is 8, value is 4400, level is 20.
+Weapon type is sword.
+Damage is 5d5 (average 15).
+
+#Obj: bir koruyucunun kılıcı (Vnum : 7538) 
+Object 'kılıç koruyucunun kılıcı' is type weapon, extra flags none.
+Weight is 8, value is 4400, level is 20.
+Weapon type is sword.
+Damage is 5d5 (average 15).
+
+#Obj: bir koruyucunun kılıcı (Vnum : 7538) 
+Object 'kılıç koruyucunun kılıcı' is type weapon, extra flags none.
+Weight is 8, value is 4400, level is 20.
+Weapon type is sword.
+Damage is 5d5 (average 15).
+
+#Obj: bir koruyucunun kılıcı (Vnum : 7538) 
+Object 'kılıç koruyucunun kılıcı' is type weapon, extra flags none.
+Weight is 8, value is 4400, level is 20.
+Weapon type is sword.
+Damage is 5d5 (average 15).
+
+#Obj: bir kasatura (Vnum : 7562) 
+Object 'kasatura' is type weapon, extra flags magic.
+Weight is 8, value is 7000, level is 22.
+Weapon type is sword.
+Damage is 5d6 (average 17).
+  Affects hit roll by 10.
+
+#Obj: bir pala (Vnum : 7560) 
+Object 'pala' is type weapon, extra flags none.
+Weight is 8, value is 6000, level is 22.
+Weapon type is sword.
+Damage is 5d6 (average 17).
+
+#Obj: kıyım çapası (Vnum : 7558) 
+Object 'çapa kıyım' is type weapon, extra flags glow hum magic.
+Weight is 8, value is 5175, level is 21.
+Weapon type is exotic.
+Damage is 5d6 (average 17).
+  Affects hit roll by 10.
+
+#Obj: şimşek kılıcı (Vnum : 7556) 
+Object 'kılıç şimşek kılıcı' is type weapon, extra flags magic.
+Weight is 8, value is 5000, level is 21.
+Weapon type is sword.
+Damage is 5d6 (average 17).
+  Affects damage roll by 2.
+  Affects strength by 5.
+
+#Obj: deşici hançer (Vnum : 7553) 
+Object 'hançer deşici' is type weapon, extra flags magic.
+Weight is 4, value is 4666, level is 20.
+Weapon type is dagger.
+Damage is 5d6 (average 17).
+  Affects hit roll by 10.
+  Affects dexterity by 3.
+
+#Obj: bir koruyucunun kılıcı (Vnum : 7538) 
+Object 'kılıç koruyucunun kılıcı' is type weapon, extra flags none.
+Weight is 8, value is 4400, level is 20.
+Weapon type is sword.
+Damage is 5d5 (average 15).
+
+#Obj: the Warlock's sword (Vnum : 5795) 
+Object 'sword' is type weapon, extra flags magic anti-good.
+Weight is 12, value is 5300, level is 21.
+Weapon type is sword.
+Damage is 5d6 (average 17).
+Weapons flags: vampiric
+  Affects damage roll by 3.
+  Affects armor class by -5.
+  Affects hp by 10.
+  Affects mana by 10.
+  Affects constitution by -2.
+
+#Obj: çift-elli uzun kılıç (Vnum : 29017) 
+Object 'çift-elli uzun kılıç' is type weapon, extra flags glow magic.
+Weight is 5, value is 7900, level is 20.
+Weapon type is sword.
+Damage is 4d6 (average 14).
+Weapons flags: sharp two-handed
+  Affects constitution by -2.
+  Affects wisdom by -2.
+  Affects damage roll by 5.
+  Affects hit roll by 2.
+
+#Obj: Grumm ın muhteşem savaş baltası (Vnum : 29010) 
+Object 'grumm balta' is type weapon, extra flags glow hum evil magic anti-neutral burn_proof.
+Weight is 14, value is 5000, level is 18.
+Weapon type is axe.
+Damage is 5d5 (average 15).
+Weapons flags: vampiric sharp two-handed
+  Affects damage roll by 4.
+  Affects hit roll by 3.

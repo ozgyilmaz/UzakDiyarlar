@@ -1,9 +1,9 @@
 #AREADATA
 Filename redferne.are~
-Name Redferne Köşkü~
+Name Redferne KÃ¶ÅŸkÃ¼~
 Builder Diku~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 20
 Highlevel 30
 Minvnum 7900
@@ -16,23 +16,23 @@ END
 
 #NEW_MOBILES
 #7900
-şövalye adbolar~
-Adbolarların büyük şövalyesi~
-Büyük Şövalye burada yardıma muhtaçlara yardım etmek için bekliyor.
+ÅŸÃ¶valye adbolar~
+AdbolarlarÄ±n bÃ¼yÃ¼k ÅŸÃ¶valyesi~
+BÃ¼yÃ¼k ÅÃ¶valye burada yardÄ±ma muhtaÃ§lara yardÄ±m etmek iÃ§in bekliyor.
 ~
-Şövalye burada duruyor ve sana gülümsüyor. Tamamıyla beyaz, mavi ve
-gümüş giyinmiş. Çok güçlü görünüyor. Yardım etmek için her zaman hazır.
+ÅÃ¶valye burada duruyor ve sana gÃ¼lÃ¼msÃ¼yor. TamamÄ±yla beyaz, mavi ve
+gÃ¼mÃ¼ÅŸ giyinmiÅŸ. Ã‡ok gÃ¼Ã§lÃ¼ gÃ¶rÃ¼nÃ¼yor. YardÄ±m etmek iÃ§in her zaman hazÄ±r.
 ~
 human~
 AGKQe DH 29
 
 #7901
 adbolar solamnia~
-Solamnia'nın adboları~
-Solamnia'nın emekli adboları burada dinleniyor.
+Solamnia'nÄ±n adbolarÄ±~
+Solamnia'nÄ±n emekli adbolarÄ± burada dinleniyor.
 ~
-Kembolarlara karşı yıllar süren mücadelesinden sonra emekli olmuş ve
-kassandra taşının sorumluluğunu almış.
+Kembolarlara karÅŸÄ± yÄ±llar sÃ¼ren mÃ¼cadelesinden sonra emekli olmuÅŸ ve
+kassandra taÅŸÄ±nÄ±n sorumluluÄŸunu almÄ±ÅŸ.
 ~
 human~
 AHSe DEPZ 91
@@ -42,177 +42,177 @@ AHSe DEPZ 91
 #OBJECTS
 #7909
 hazine~
-büyük bir hazine~
-Büyük bir hazine burada duruyor, çok değerli görünüyor.~
+bÃ¼yÃ¼k bir hazine~
+BÃ¼yÃ¼k bir hazine burada duruyor, Ã§ok deÄŸerli gÃ¶rÃ¼nÃ¼yor.~
 silver gold~
 money 0 A
 -100 0 0 0 0
 0 0 0 P
 E
-yazı~
-"Selam Konan.  Buradan para bekleme artık, sevgiler. :) İmza, Redferne"
+yazÄ±~
+"Selam Konan.  Buradan para bekleme artÄ±k, sevgiler. :) Ä°mza, Redferne"
 ~
 E
 hazine~
-Çok fazla sikke var. Bir tanesine bir yazı iliştirilmiş.
+Ã‡ok fazla sikke var. Bir tanesine bir yazÄ± iliÅŸtirilmiÅŸ.
 ~
 #7910
-sandık~
-bir tahta sandık~
-Bir tahta sandık köşede duruyor.~
+sandÄ±k~
+bir tahta sandÄ±k~
+Bir tahta sandÄ±k kÃ¶ÅŸede duruyor.~
 wood~
 container 0 A
 100 ABCD 7911 20 100
 0 4000 100 P
 E
-sandık~
-Birbirlerine geçirilmiş kısa ve ağır tahtalardan yapılmış kuvvetli
-bir sandık. Pirinç kilitle korunuyor.
+sandÄ±k~
+Birbirlerine geÃ§irilmiÅŸ kÄ±sa ve aÄŸÄ±r tahtalardan yapÄ±lmÄ±ÅŸ kuvvetli
+bir sandÄ±k. PirinÃ§ kilitle korunuyor.
 ~
 #7911
 anahtar~
-pirinç bir anahtar~
-Bir pirinç anahtar burada bırakılmış.~
+pirinÃ§ bir anahtar~
+Bir pirinÃ§ anahtar burada bÄ±rakÄ±lmÄ±ÅŸ.~
 brass~
 key 0 A
 7910 0 0 0 0
 0 10 0 P
 E
 anahtar~
-Üstüne bir şey çizilmemiş veya yazılmamış küçük ve pirinç bir anahtar.
+ÃœstÃ¼ne bir ÅŸey Ã§izilmemiÅŸ veya yazÄ±lmamÄ±ÅŸ kÃ¼Ã§Ã¼k ve pirinÃ§ bir anahtar.
 ~
 #0
 
 #ROOMS
 #7900
-Redferne'nin ikametinin dış yüzü~
-Şu anda durduğun platoyu dev bir bulut sarıyor. Bulutların aşağısından
-Selenge'ın zayıf seslerini duyuyorsun. Hemen önünüzde, kuzeyde Naris'in
-büyük malikanesi var. Yani Büyük Tanrı Redferne'nin ikameti.
+Redferne'nin ikametinin dÄ±ÅŸ yÃ¼zÃ¼~
+Åu anda durduÄŸun platoyu dev bir bulut sarÄ±yor. BulutlarÄ±n aÅŸaÄŸÄ±sÄ±ndan
+Selenge'Ä±n zayÄ±f seslerini duyuyorsun. Hemen Ã¶nÃ¼nÃ¼zde, kuzeyde Naris'in
+bÃ¼yÃ¼k malikanesi var. Yani BÃ¼yÃ¼k TanrÄ± Redferne'nin ikameti.
 ~
 0 CJ 0
 D0
-Görkemli binanın içine giden süslü DEV kapıyı görüyorsun.
+GÃ¶rkemli binanÄ±n iÃ§ine giden sÃ¼slÃ¼ DEV kapÄ±yÄ± gÃ¶rÃ¼yorsun.
 ~
-büyük kapı dev~
+bÃ¼yÃ¼k kapÄ± dev~
 1 -1 7901
 D2
-Güzel bulutlar görüyorsun.
+GÃ¼zel bulutlar gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 9101
 D5
-Naris Malikanesini yere bağlayan çapanın büyük zincirlerini görüyorsun.
+Naris Malikanesini yere baÄŸlayan Ã§apanÄ±n bÃ¼yÃ¼k zincirlerini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 7918
 S
 #7901
-Salonun güney sonu~
-Loş ışığı gizemli bir şekilde gelen geniş bir salonda duruyorsun.
-Duvarların salona yaydığı ısı gelenlere güzel bir duygu veriyor.
-Duvarın birine geniş bir portre asılmış. Geniş bir tahta merdiven
-kuleye çıkıyor. Doğuda salondan çıkan bir geçit var. Kısa bir aralık
-sonrası uzun tahta kapıyla bitiyor. Geniş salon kuzeye doğru devam
-ediyor. Güneyde büyük ve çok ağır görünen dövme demirden bir kapı
-görüyorsun. Bu kapı bu gösterişli evden çıkmanın tek yolu. Batıda
-kül renginde büyük bir kapı görüyorsun.
+Salonun gÃ¼ney sonu~
+LoÅŸ Ä±ÅŸÄ±ÄŸÄ± gizemli bir ÅŸekilde gelen geniÅŸ bir salonda duruyorsun.
+DuvarlarÄ±n salona yaydÄ±ÄŸÄ± Ä±sÄ± gelenlere gÃ¼zel bir duygu veriyor.
+DuvarÄ±n birine geniÅŸ bir portre asÄ±lmÄ±ÅŸ. GeniÅŸ bir tahta merdiven
+kuleye Ã§Ä±kÄ±yor. DoÄŸuda salondan Ã§Ä±kan bir geÃ§it var. KÄ±sa bir aralÄ±k
+sonrasÄ± uzun tahta kapÄ±yla bitiyor. GeniÅŸ salon kuzeye doÄŸru devam
+ediyor. GÃ¼neyde bÃ¼yÃ¼k ve Ã§ok aÄŸÄ±r gÃ¶rÃ¼nen dÃ¶vme demirden bir kapÄ±
+gÃ¶rÃ¼yorsun. Bu kapÄ± bu gÃ¶steriÅŸli evden Ã§Ä±kmanÄ±n tek yolu. BatÄ±da
+kÃ¼l renginde bÃ¼yÃ¼k bir kapÄ± gÃ¶rÃ¼yorsun.
 ~
 0 CDJ 0
 D0
-Koridor bu yolda devam ediyor. Bu yöndeki tahta merdiven altında bir
-Çok koridor görüyorsun.
+Koridor bu yolda devam ediyor. Bu yÃ¶ndeki tahta merdiven altÄ±nda bir
+Ã‡ok koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 7904
 D1
-Uzun meşe yapımı bir kapı görüyorsun. Seni kapatmak için oldukça sıkı.
-üstünde kazınmış küçük rünler görüyorsun.
+Uzun meÅŸe yapÄ±mÄ± bir kapÄ± gÃ¶rÃ¼yorsun. Seni kapatmak iÃ§in oldukÃ§a sÄ±kÄ±.
+Ã¼stÃ¼nde kazÄ±nmÄ±ÅŸ kÃ¼Ã§Ã¼k rÃ¼nler gÃ¶rÃ¼yorsun.
 ~
-uzun meşe doğu kapı~
+uzun meÅŸe doÄŸu kapÄ±~
 1 -1 7910
 D2
-Burada gerçek bir kapı görüyorsun. Buna "kapı" yerine "Geçit" demeniz
-daha uygun olur. Çok BÜYÜK! Üstüne dev yazıları olan bir tabela asılmış.
-Tabelada şunlar yazıyor : "ACİL ÇIKIŞ".
+Burada gerÃ§ek bir kapÄ± gÃ¶rÃ¼yorsun. Buna "kapÄ±" yerine "GeÃ§it" demeniz
+daha uygun olur. Ã‡ok BÃœYÃœK! ÃœstÃ¼ne dev yazÄ±larÄ± olan bir tabela asÄ±lmÄ±ÅŸ.
+Tabelada ÅŸunlar yazÄ±yor : "ACÄ°L Ã‡IKIÅ".
 ~
-geçit~
+geÃ§it~
 1 -1 7900
 D3
-Dünyanın tanımlamasına göre bir kapı gibi görünüyor. Kül rengi tahta sarı
-renkle boyanmış. Küçük siyah yazılar üstüne yazılmış.
+DÃ¼nyanÄ±n tanÄ±mlamasÄ±na gÃ¶re bir kapÄ± gibi gÃ¶rÃ¼nÃ¼yor. KÃ¼l rengi tahta sarÄ±
+renkle boyanmÄ±ÅŸ. KÃ¼Ã§Ã¼k siyah yazÄ±lar Ã¼stÃ¼ne yazÄ±lmÄ±ÅŸ.
 ~
-kül tahta sarı kapı~
+kÃ¼l tahta sarÄ± kapÄ±~
 1 -1 7902
 D4
-Kulenin çok yüksek yerlerine çıkan bir merdiven görüyorsunz. Yukarıda geniş
-Bir yatak odasında bitmiş gibi görünüyor.
+Kulenin Ã§ok yÃ¼ksek yerlerine Ã§Ä±kan bir merdiven gÃ¶rÃ¼yorsunz. YukarÄ±da geniÅŸ
+Bir yatak odasÄ±nda bitmiÅŸ gibi gÃ¶rÃ¼nÃ¼yor.
 ~
 ~
 0 -1 7909
 E
-rünler~
-Bu rünler sana oldukça garip geliyor ama şanslı gününüzdesin: Çünkü
-rünlerin altında çevrilmiş cümlesi var. Şöyle : " Dışarıda kal, eğer
-hayatına önem veriyorsan. Burası ölümsüzler için".
+rÃ¼nler~
+Bu rÃ¼nler sana oldukÃ§a garip geliyor ama ÅŸanslÄ± gÃ¼nÃ¼nÃ¼zdesin: Ã‡Ã¼nkÃ¼
+rÃ¼nlerin altÄ±nda Ã§evrilmiÅŸ cÃ¼mlesi var. ÅÃ¶yle : " DÄ±ÅŸarÄ±da kal, eÄŸer
+hayatÄ±na Ã¶nem veriyorsan. BurasÄ± Ã¶lÃ¼msÃ¼zler iÃ§in".
 ~
 S
 #7902
-Redferne'in Kütüphanesi~
-Burası gerçekten gösterişli bir yer! Her rafta kitaplar ve skroller yan
-yana konmuş. Büyük bir küre Mud-dünyası haritasıyla odanın köşesinde loş
-bir ışıkla duruyor. Geniş ve rahat deri koltuklar kütüphanenin ortasındaki
-masanın etrafında yan yana duruyor. Tabandan 10 fit yüksekte olan tavana
-asılı, loş ışığı yayan dev bir kristal şamdan var. Doğuda büyük bir kapı
-var. Geniş bir cam pencere batı duvarına kurulmuş.
+Redferne'in KÃ¼tÃ¼phanesi~
+BurasÄ± gerÃ§ekten gÃ¶steriÅŸli bir yer! Her rafta kitaplar ve skroller yan
+yana konmuÅŸ. BÃ¼yÃ¼k bir kÃ¼re Mud-dÃ¼nyasÄ± haritasÄ±yla odanÄ±n kÃ¶ÅŸesinde loÅŸ
+bir Ä±ÅŸÄ±kla duruyor. GeniÅŸ ve rahat deri koltuklar kÃ¼tÃ¼phanenin ortasÄ±ndaki
+masanÄ±n etrafÄ±nda yan yana duruyor. Tabandan 10 fit yÃ¼ksekte olan tavana
+asÄ±lÄ±, loÅŸ Ä±ÅŸÄ±ÄŸÄ± yayan dev bir kristal ÅŸamdan var. DoÄŸuda bÃ¼yÃ¼k bir kapÄ±
+var. GeniÅŸ bir cam pencere batÄ± duvarÄ±na kurulmuÅŸ.
 ~
 0 CDJ 0
 D1
-Sarı renge boyanmış eski bir kül kapı.
+SarÄ± renge boyanmÄ±ÅŸ eski bir kÃ¼l kapÄ±.
 ~
-doğu kül kapı~
+doÄŸu kÃ¼l kapÄ±~
 1 -1 7901
 E
 Nehir~
-Geniş ve akarak toprakları kesen ve ufak bir göle dönüşen bir nehir
-görüyorsun. Selenge'ın içinden süzülüyor ve sonunda diyarın batı
-kıyısındaki Büyük Deniz'de bitiyor.
+GeniÅŸ ve akarak topraklarÄ± kesen ve ufak bir gÃ¶le dÃ¶nÃ¼ÅŸen bir nehir
+gÃ¶rÃ¼yorsun. Selenge'Ä±n iÃ§inden sÃ¼zÃ¼lÃ¼yor ve sonunda diyarÄ±n batÄ±
+kÄ±yÄ±sÄ±ndaki BÃ¼yÃ¼k Deniz'de bitiyor.
 ~
 E
-Öte dışarı~
-Bu büyük binanın kurulduğu yerden form alan bulutlar toplanıyor. En ince
-bulutun içinden Selenge'ı ve tüm üstünde olanları görüyorsun.
+Ã–te dÄ±ÅŸarÄ±~
+Bu bÃ¼yÃ¼k binanÄ±n kurulduÄŸu yerden form alan bulutlar toplanÄ±yor. En ince
+bulutun iÃ§inden Selenge'Ä± ve tÃ¼m Ã¼stÃ¼nde olanlarÄ± gÃ¶rÃ¼yorsun.
 ~
 E
 Cam pencere~
-Bu pencereler gerçekten çok büyük' Yerden 50 santim yüksek tavandan 25
-santim alçak. Dışarıya bakmayı denediğinde çok öteleri görebilirsin.
+Bu pencereler gerÃ§ekten Ã§ok bÃ¼yÃ¼k' Yerden 50 santim yÃ¼ksek tavandan 25
+santim alÃ§ak. DÄ±ÅŸarÄ±ya bakmayÄ± denediÄŸinde Ã§ok Ã¶teleri gÃ¶rebilirsin.
 ~
 E
 Deri koltuklar~
-Bu iki koltuk birbirlerinin tamamıyla aynısı. Çok rahat görünüyorlar.
-İkisi de eski deriden yapılma. Ve uzun bir dinlenmede dört dörtlük bir
-Rahatlık verecekleri kesin.
+Bu iki koltuk birbirlerinin tamamÄ±yla aynÄ±sÄ±. Ã‡ok rahat gÃ¶rÃ¼nÃ¼yorlar.
+Ä°kisi de eski deriden yapÄ±lma. Ve uzun bir dinlenmede dÃ¶rt dÃ¶rtlÃ¼k bir
+RahatlÄ±k verecekleri kesin.
 ~
 E
-Selenge şehri~
-Buranın batısında ağaçlarla birlikte bir nokta görüyorsun. Güneyde
-geniş bir kalenin bir kısmını görebilirsin. Sonunda doğudan gelen bir
-nehrin Selenge'ın ortasından geçtiğini görüyorsun.
+Selenge ÅŸehri~
+BuranÄ±n batÄ±sÄ±nda aÄŸaÃ§larla birlikte bir nokta gÃ¶rÃ¼yorsun. GÃ¼neyde
+geniÅŸ bir kalenin bir kÄ±smÄ±nÄ± gÃ¶rebilirsin. Sonunda doÄŸudan gelen bir
+nehrin Selenge'Ä±n ortasÄ±ndan geÃ§tiÄŸini gÃ¶rÃ¼yorsun.
 ~
 E
-Küre dünya haritası~
-Büyük kürenin üstüne yapıştırılmış geniş bir dünya haritası görüyorsun.
-Her çizilmiş nokta orada bir şehir olduğunu gösteriyor. Haritanın orta
-yerinde üstüne Selenge yazılmış bir şehir görüyorsun. Ayrıca haritada
-dağlar, ormanlar, bitki örtüleri ve denizlerde var.
+KÃ¼re dÃ¼nya haritasÄ±~
+BÃ¼yÃ¼k kÃ¼renin Ã¼stÃ¼ne yapÄ±ÅŸtÄ±rÄ±lmÄ±ÅŸ geniÅŸ bir dÃ¼nya haritasÄ± gÃ¶rÃ¼yorsun.
+Her Ã§izilmiÅŸ nokta orada bir ÅŸehir olduÄŸunu gÃ¶steriyor. HaritanÄ±n orta
+yerinde Ã¼stÃ¼ne Selenge yazÄ±lmÄ±ÅŸ bir ÅŸehir gÃ¶rÃ¼yorsun. AyrÄ±ca haritada
+daÄŸlar, ormanlar, bitki Ã¶rtÃ¼leri ve denizlerde var.
 ~
 S
 #7903
-Naris'in Özel eşyalar odası ~
-Bu kasvetli ve karanlık oda duvarlardan yayılan loş ışıkla az miktarda
-aydınlatılmış. Bir dolu güzel görünümlü eşya odanın ortasında duruyor.
-Burada hiç mobilya yok. Buradan tek çıkış batıdaki çelik kapı.
+Naris'in Ã–zel eÅŸyalar odasÄ± ~
+Bu kasvetli ve karanlÄ±k oda duvarlardan yayÄ±lan loÅŸ Ä±ÅŸÄ±kla az miktarda
+aydÄ±nlatÄ±lmÄ±ÅŸ. Bir dolu gÃ¼zel gÃ¶rÃ¼nÃ¼mlÃ¼ eÅŸya odanÄ±n ortasÄ±nda duruyor.
+Burada hiÃ§ mobilya yok. Buradan tek Ã§Ä±kÄ±ÅŸ batÄ±daki Ã§elik kapÄ±.
 ~
 0 CDJ 0
 D3
@@ -223,11 +223,11 @@ You see only the back of a safe's steel door.
 S
 #7904
 Salonun kuzey sonu~
-Geniş salonun en kuzey yerinde duruyorsun. Bu bölüm tahta bir
-merdivenin altında olduğu için ışık daha az parlak. Ama bu seni
-rahatsız etmiyor. Kuzeyde mutfak var. Güneyde salonun güney sonu
-var. Doğuda geniş metal bir kapı var. Batıda ise geniş kavaktan
-yapılmış bir kapı var.
+GeniÅŸ salonun en kuzey yerinde duruyorsun. Bu bÃ¶lÃ¼m tahta bir
+merdivenin altÄ±nda olduÄŸu iÃ§in Ä±ÅŸÄ±k daha az parlak. Ama bu seni
+rahatsÄ±z etmiyor. Kuzeyde mutfak var. GÃ¼neyde salonun gÃ¼ney sonu
+var. DoÄŸuda geniÅŸ metal bir kapÄ± var. BatÄ±da ise geniÅŸ kavaktan
+yapÄ±lmÄ±ÅŸ bir kapÄ± var.
 ~
 0 CDJ 0
 D0
@@ -235,94 +235,94 @@ D0
 ~
 0 -1 7906
 D1
-Geniş metal bir kapı görüyorsun. Oradan pis kokular çıkıyor. Koku
-hayatındaki en berbat deneyim. Bir düşünce bu kokularla birlikte
-aklına yerleşiyor: "Canavarlar" Kendini kapıyı açarken çok berbat
+GeniÅŸ metal bir kapÄ± gÃ¶rÃ¼yorsun. Oradan pis kokular Ã§Ä±kÄ±yor. Koku
+hayatÄ±ndaki en berbat deneyim. Bir dÃ¼ÅŸÃ¼nce bu kokularla birlikte
+aklÄ±na yerleÅŸiyor: "Canavarlar" Kendini kapÄ±yÄ± aÃ§arken Ã§ok berbat
 hissediyorsun.
 ~
-çelik metal kapı büyük~
+Ã§elik metal kapÄ± bÃ¼yÃ¼k~
 1 -1 7913
 D2
-Salonun dinlenme yeri bu yönde, ve bir çıkış oluyor.
+Salonun dinlenme yeri bu yÃ¶nde, ve bir Ã§Ä±kÄ±ÅŸ oluyor.
 ~
 ~
 0 -1 7901
 D3
-Kapının üstünde "OTURMA ODASI" yazıyor. Kavaktan yapılmış ve çok iyi
-bir heykeltıraş işçiliğiyle oyulmuş.
+KapÄ±nÄ±n Ã¼stÃ¼nde "OTURMA ODASI" yazÄ±yor. Kavaktan yapÄ±lmÄ±ÅŸ ve Ã§ok iyi
+bir heykeltÄ±raÅŸ iÅŸÃ§iliÄŸiyle oyulmuÅŸ.
 ~
-kapı kavak~
+kapÄ± kavak~
 1 -1 7905
 S
 #7905
-Naris'in oturma odası~
-Çok rahat bir odanın ortasında duruyorsun. Duvarlar gülümseyen Kral
-ve Kraliçelerin resimleriyle dekore edilmiş. En hoş resim parlayan bir
-zırh giymiş Prensin resmi. Duvarlardan birinin yanında eski bir koltuk
-var. Tek çıkış doğuya çıkan kavak ağacından kapı.
+Naris'in oturma odasÄ±~
+Ã‡ok rahat bir odanÄ±n ortasÄ±nda duruyorsun. Duvarlar gÃ¼lÃ¼mseyen Kral
+ve KraliÃ§elerin resimleriyle dekore edilmiÅŸ. En hoÅŸ resim parlayan bir
+zÄ±rh giymiÅŸ Prensin resmi. Duvarlardan birinin yanÄ±nda eski bir koltuk
+var. Tek Ã§Ä±kÄ±ÅŸ doÄŸuya Ã§Ä±kan kavak aÄŸacÄ±ndan kapÄ±.
 ~
 0 CDJ 0
 D1
-Kapı çok AĞIR görünüyor. Tamamıyla bir kavak ağacından oyulmuş.
+KapÄ± Ã§ok AÄIR gÃ¶rÃ¼nÃ¼yor. TamamÄ±yla bir kavak aÄŸacÄ±ndan oyulmuÅŸ.
 ~
-ağır kavak kapı~
+aÄŸÄ±r kavak kapÄ±~
 1 -1 7904
 E
 koltuk~
-Çok hoş ve eski zamandan kalma bir koltuk. Üstünde büyük bir yastık var.
+Ã‡ok hoÅŸ ve eski zamandan kalma bir koltuk. ÃœstÃ¼nde bÃ¼yÃ¼k bir yastÄ±k var.
 ~
 S
 #7906
-Naris'in mutfağı~
-Burası yiyeceklerin ve içeceklerin konulduğu yer olmalı. Fark edemediğiniz
-farelerin etleri ve ekmekleri kemirişlerinin seslerini duyuyorsun. Sesler
-senin kendini aç hissetmene neden oluyor. Tek çıkış salonun kuzey sonuna
-çıkan güneydeki kapı. Kuzeyde bir kiler ve doğuda bir buz dolabı var.
+Naris'in mutfaÄŸÄ±~
+BurasÄ± yiyeceklerin ve iÃ§eceklerin konulduÄŸu yer olmalÄ±. Fark edemediÄŸiniz
+farelerin etleri ve ekmekleri kemiriÅŸlerinin seslerini duyuyorsun. Sesler
+senin kendini aÃ§ hissetmene neden oluyor. Tek Ã§Ä±kÄ±ÅŸ salonun kuzey sonuna
+Ã§Ä±kan gÃ¼neydeki kapÄ±. Kuzeyde bir kiler ve doÄŸuda bir buz dolabÄ± var.
 ~
 0 CDJ 0
 D0
-Burası karanlık ama farelerin çıkardığı sesler apaçık ortada.
+BurasÄ± karanlÄ±k ama farelerin Ã§Ä±kardÄ±ÄŸÄ± sesler apaÃ§Ä±k ortada.
 ~
 kiler~
 1 -1 7907
 D1
-Buradan buz dolabını görebilirsin. İçinde bir dolu içecek var.
+Buradan buz dolabÄ±nÄ± gÃ¶rebilirsin. Ä°Ã§inde bir dolu iÃ§ecek var.
 ~
-buzdolabı dolap~
+buzdolabÄ± dolap~
 1 -1 7908
 D2
-Salonun kuzey sonunu görebiliyorsun.
+Salonun kuzey sonunu gÃ¶rebiliyorsun.
 ~
 ~
 0 -1 7904
 S
 #7907
 Kiler~
-Bir dolu yiyecek görüyorsun. Yiyeceklerin üstünde dev fareler görüyorsun.
-Etrafta gezinip bulduklarını kemiriyorlar.
+Bir dolu yiyecek gÃ¶rÃ¼yorsun. Yiyeceklerin Ã¼stÃ¼nde dev fareler gÃ¶rÃ¼yorsun.
+Etrafta gezinip bulduklarÄ±nÄ± kemiriyorlar.
 ~
 0 CDJ 0
 D2
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 7906
 S
 #7908
-Buz dolabı~
-Buz dolabı su, içecek ve içkilerle doldurulmuş.
+Buz dolabÄ±~
+Buz dolabÄ± su, iÃ§ecek ve iÃ§kilerle doldurulmuÅŸ.
 ~
 0 CDJ 0
 D3
 ~
-çıkıp kapı dolap buzdolabı~
+Ã§Ä±kÄ±p kapÄ± dolap buzdolabÄ±~
 1 -1 7906
 S
 #7909
 Merdivenlerde~
-Merdivenlerin aşağısını ve yukarısı görebiliyorsun. Aşağısı ve yukarısı
-sonsuza kadar sürüyor gibi görünüyor. Görünüşe göre iki yöne de gitmek
-başa çıkılmaz olur. Yukarıda Redferne'in yatak odası, aşağıda salonun
-güney sonu var.
+Merdivenlerin aÅŸaÄŸÄ±sÄ±nÄ± ve yukarÄ±sÄ± gÃ¶rebiliyorsun. AÅŸaÄŸÄ±sÄ± ve yukarÄ±sÄ±
+sonsuza kadar sÃ¼rÃ¼yor gibi gÃ¶rÃ¼nÃ¼yor. GÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re iki yÃ¶ne de gitmek
+baÅŸa Ã§Ä±kÄ±lmaz olur. YukarÄ±da Redferne'in yatak odasÄ±, aÅŸaÄŸÄ±da salonun
+gÃ¼ney sonu var.
 ~
 0 CDJ 0
 D4
@@ -335,32 +335,32 @@ D5
 0 -1 7901
 S
 #7910
-Hazine odası~
-Kasvetli bir yer. Tek çıkış batıdaki meşe kapısı.
+Hazine odasÄ±~
+Kasvetli bir yer. Tek Ã§Ä±kÄ±ÅŸ batÄ±daki meÅŸe kapÄ±sÄ±.
 ~
 0 CDJ 0
 D1
 ~
-kasa çelik~
+kasa Ã§elik~
 0 -1 -1
 D3
-Uzun bir meşe kapısı görüyorsun.
+Uzun bir meÅŸe kapÄ±sÄ± gÃ¶rÃ¼yorsun.
 ~
-uzun meşe kapı~
+uzun meÅŸe kapÄ±~
 1 -1 7901
 S
 #7911
-Redferne'in yatak odası~
-Burası çok iyi hazırlanmış ve romantik bir gece için her şeye sahip
-bir yatak odası. Yatak çok büyük, öyle ki odanın yarısını kapatıyor.
-Odanın genişliği en az 300 metre kare. Çift kapılar güneydeki geniş
-balkona açılıyor. Geniş bir merdiven aşağıdaki salona gidiyor.
+Redferne'in yatak odasÄ±~
+BurasÄ± Ã§ok iyi hazÄ±rlanmÄ±ÅŸ ve romantik bir gece iÃ§in her ÅŸeye sahip
+bir yatak odasÄ±. Yatak Ã§ok bÃ¼yÃ¼k, Ã¶yle ki odanÄ±n yarÄ±sÄ±nÄ± kapatÄ±yor.
+OdanÄ±n geniÅŸliÄŸi en az 300 metre kare. Ã‡ift kapÄ±lar gÃ¼neydeki geniÅŸ
+balkona aÃ§Ä±lÄ±yor. GeniÅŸ bir merdiven aÅŸaÄŸÄ±daki salona gidiyor.
 ~
 0 CDJ 0
 D2
-Güneş dışarıda rahatlık verici bir sıcaklıkla parıldıyor.
+GÃ¼neÅŸ dÄ±ÅŸarÄ±da rahatlÄ±k verici bir sÄ±caklÄ±kla parÄ±ldÄ±yor.
 ~
-kapı~
+kapÄ±~
 1 -1 7912
 D5
 ~
@@ -369,66 +369,66 @@ D5
 S
 #7912
 Redferne'in ikametinin balkonu~
-Bu dünyanın en kusursuz yerlerini görüyorsun. Buradan güneye doğru vadi
-gözün daha uzağa gidemeyeceği yerlere kadar gidiyor. Aşağıda bu görkemli
-binanın girişini görüyorsun. Kuzeyde Redferne'in yatak odasına giden
-kapılar var.
+Bu dÃ¼nyanÄ±n en kusursuz yerlerini gÃ¶rÃ¼yorsun. Buradan gÃ¼neye doÄŸru vadi
+gÃ¶zÃ¼n daha uzaÄŸa gidemeyeceÄŸi yerlere kadar gidiyor. AÅŸaÄŸÄ±da bu gÃ¶rkemli
+binanÄ±n giriÅŸini gÃ¶rÃ¼yorsun. Kuzeyde Redferne'in yatak odasÄ±na giden
+kapÄ±lar var.
 ~
 0 CJ 0
 D0
-Büyük Tanrı Redferne'in malikanesi Naris'in rahat yatak odasını
-görüyorsun.
+BÃ¼yÃ¼k TanrÄ± Redferne'in malikanesi Naris'in rahat yatak odasÄ±nÄ±
+gÃ¶rÃ¼yorsun.
 ~
-kapı~
+kapÄ±~
 1 -1 7911
 D5
-Kalenin oturduğu zemini görüyorsun. Garip bir şekilde, meğer sadece
-bulutlarmış.
+Kalenin oturduÄŸu zemini gÃ¶rÃ¼yorsun. Garip bir ÅŸekilde, meÄŸer sadece
+bulutlarmÄ±ÅŸ.
 ~
 ~
 0 -1 -1
 S
 #7913
-Canavar ağılı~
-İçinde büyük bir yaratık tutulan bir kafeste gibisin. Bunu duvarların
-arasında hapsedilmiş ÖFKELİ canavara bakınca tahmin ediyorsun. Buranın
-güvenli olmadığını hissediyorsun.
+Canavar aÄŸÄ±lÄ±~
+Ä°Ã§inde bÃ¼yÃ¼k bir yaratÄ±k tutulan bir kafeste gibisin. Bunu duvarlarÄ±n
+arasÄ±nda hapsedilmiÅŸ Ã–FKELÄ° canavara bakÄ±nca tahmin ediyorsun. BuranÄ±n
+gÃ¼venli olmadÄ±ÄŸÄ±nÄ± hissediyorsun.
 ~
 0 D 0
 D3
-Bu buradan çıkışın tek yolu gibi görünüyor.
+Bu buradan Ã§Ä±kÄ±ÅŸÄ±n tek yolu gibi gÃ¶rÃ¼nÃ¼yor.
 ~
-metal kapı kafes~
+metal kapÄ± kafes~
 1 -1 7904
 S
 #7914
-Geniş Zincirde~
-Buradan Selenge'ın güzel manzarasını izleyebilirsin. Sadece aşağıya ve
-yukarıya gidebilirsin. Eğer güvenli ve hareket etmeyen zincirden gitmek
-istemezsen buradan başka yerlere gidebilirsin.
+GeniÅŸ Zincirde~
+Buradan Selenge'Ä±n gÃ¼zel manzarasÄ±nÄ± izleyebilirsin. Sadece aÅŸaÄŸÄ±ya ve
+yukarÄ±ya gidebilirsin. EÄŸer gÃ¼venli ve hareket etmeyen zincirden gitmek
+istemezsen buradan baÅŸka yerlere gidebilirsin.
 ~
 0 C 5
 D4
-Yukarıda zincirin bulutların arasında kaybolduğunu görüyorsun.
+YukarÄ±da zincirin bulutlarÄ±n arasÄ±nda kaybolduÄŸunu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 7916
 D5
-Aşağıda zincir yere, Yol geçidine bağlanmış.
+AÅŸaÄŸÄ±da zincir yere, Yol geÃ§idine baÄŸlanmÄ±ÅŸ.
 ~
 ~
 0 -1 3120
 S
 #7916
-Naris'in büyük zincirinde~
-Güvenilmez zincirin hemen hemen tam ortasındasın. Tek bir yanlış adım
-seni ölümünüze götürebilir. Zincir aşağı ve yukarıya doğru uzanıyor. Artık
-inmek için yol yok. Şimdi tırmanmaya başladın. Hayatını kurtarmak için.
-Aşağı bakın ve nedenini görün.
+Naris'in bÃ¼yÃ¼k zincirinde~
+GÃ¼venilmez zincirin hemen hemen tam ortasÄ±ndasÄ±n. Tek bir yanlÄ±ÅŸ adÄ±m
+seni Ã¶lÃ¼mÃ¼nÃ¼ze gÃ¶tÃ¼rebilir. Zincir aÅŸaÄŸÄ± ve yukarÄ±ya doÄŸru uzanÄ±yor. ArtÄ±k
+inmek iÃ§in yol yok. Åimdi tÄ±rmanmaya baÅŸladÄ±n. HayatÄ±nÄ± kurtarmak iÃ§in.
+AÅŸaÄŸÄ± bakÄ±n ve nedenini gÃ¶rÃ¼n.
 ~
 0 C 5
 D4
-Görünüşe bakılırsa tek bir yol var, o da yukarısı.
+GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa tek bir yol var, o da yukarÄ±sÄ±.
 ~
 ~
 0 -1 7918
@@ -438,16 +438,16 @@ D5
 0 -1 7914
 S
 #7918
-Naris'in güçlü zinciri~
-Burası seni tüm yer yüzünü görmeni sağlıyor. Görkemli bir ışık seni
-aydınlatıyor ve üstünüzdeki bulutlar çekiliyor. Yukarıda Naris Malikanesi'ni
-yani Büyük Tanrı Redferne'in ikametini görebiliyorsun. Zincir sanki seni
-saran bulutların arasında buharlaşıyor.
+Naris'in gÃ¼Ã§lÃ¼ zinciri~
+BurasÄ± seni tÃ¼m yer yÃ¼zÃ¼nÃ¼ gÃ¶rmeni saÄŸlÄ±yor. GÃ¶rkemli bir Ä±ÅŸÄ±k seni
+aydÄ±nlatÄ±yor ve Ã¼stÃ¼nÃ¼zdeki bulutlar Ã§ekiliyor. YukarÄ±da Naris Malikanesi'ni
+yani BÃ¼yÃ¼k TanrÄ± Redferne'in ikametini gÃ¶rebiliyorsun. Zincir sanki seni
+saran bulutlarÄ±n arasÄ±nda buharlaÅŸÄ±yor.
 ~
 0 C 5
 D4
-Bulutların güneşli tepelerini görüyorsun. Bunların da üstünde Malikane
-gözlerinin önünde yükseliyor. Muhteşem!!
+BulutlarÄ±n gÃ¼neÅŸli tepelerini gÃ¶rÃ¼yorsun. BunlarÄ±n da Ã¼stÃ¼nde Malikane
+gÃ¶zlerinin Ã¶nÃ¼nde yÃ¼kseliyor. MuhteÅŸem!!
 ~
 ~
 0 -1 7900

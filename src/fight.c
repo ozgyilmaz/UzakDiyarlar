@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -54,13 +54,14 @@
 #include <sys/types.h>
 #endif
 #include <stdio.h>
+#include <wchar.h>
 #include <string.h>
 #include <time.h>
 #include <math.h>
 #include <unistd.h>
 #include "merc.h"
 
-int unlink(const char *pathname);
+int unlink(const wchar_t *pathname);
 
 #define MAX_DAMAGE_MESSAGE 34
 
@@ -85,7 +86,7 @@ DECLARE_DO_FUN(do_dismount	);
 
 DECLARE_SPELL_FUN(      spell_null              );
 
-extern void do_visible( CHAR_DATA *ch, char *argument );
+extern void do_visible( CHAR_DATA *ch, wchar_t *argument );
 
 /*
  * Local functions.
@@ -206,7 +207,7 @@ void check_assist(CHAR_DATA *ch,CHAR_DATA *victim)
 	    && IS_SET(rch->off_flags,ASSIST_PLAYERS)
 	    &&  rch->level + 6 > victim->level)
 	    {
-		do_emote(rch,(char*)"çýðlýk atarak saldýrýyor!");
+		do_emote(rch,(wchar_t*)"Ã§Ä±ÄŸlÄ±k atarak saldÄ±rÄ±yor!");
 		multi_hit(rch,victim,TYPE_UNDEFINED);
 		continue;
 	    }
@@ -270,7 +271,7 @@ void check_assist(CHAR_DATA *ch,CHAR_DATA *victim)
 
 		    if (target != NULL)
 		    {
-			do_emote(rch,(char*)"çýðlýk atarak saldýrýyor!");
+			do_emote(rch,(wchar_t*)"Ã§Ä±ÄŸlÄ±k atarak saldÄ±rÄ±yor!");
 			multi_hit(rch,target,TYPE_UNDEFINED);
 		    }
 		}
@@ -301,7 +302,7 @@ void multi_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
 	 if (victim->mount->fighting == NULL
 	     || victim->mount->fighting == ch)
 	 victim = victim->mount;
-	 else do_dismount(victim->mount,(char*)"");
+	 else do_dismount(victim->mount,(wchar_t*)"");
 	}
 
     /* no attacks on ghosts or attacks by ghosts */
@@ -311,11 +312,11 @@ void multi_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
 
     if (IS_AFFECTED(ch,AFF_WEAK_STUN) )
 	{
-		act_color("$CSen $S saldýrýsýna karþýlýk veremeyecek kadar sersemledin.$c",
+		act_color( L"$CSen $S saldÄ±rÄ±sÄ±na karÅŸÄ±lÄ±k veremeyecek kadar sersemledin.$c",
 	 		ch,NULL,victim,TO_CHAR,POS_FIGHTING,CLR_WHITE );
-	  act_color("$C$n saldýrýna karþýlýk veremeyecek kadar sersemledi.$c",
+	  act_color( L"$C$n saldÄ±rÄ±na karÅŸÄ±lÄ±k veremeyecek kadar sersemledi.$c",
 	 		ch,NULL,victim,TO_VICT,POS_FIGHTING,CLR_WHITE );
-	  act_color("$C$n sersemlemiþ görünüyor.$c",
+	  act_color( L"$C$n sersemlemiÅŸ gÃ¶rÃ¼nÃ¼yor.$c",
 	 		ch,NULL,victim,TO_NOTVICT,POS_FIGHTING,CLR_WHITE );
 	 REMOVE_BIT(ch->affected_by,AFF_WEAK_STUN);
 	 return;
@@ -323,11 +324,11 @@ void multi_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
 
     if (IS_AFFECTED(ch,AFF_STUN) )
 	{
-		act_color("$CSen $S saldýrýsýna karþýlýk veremeyecek kadar sersemledin.$c",
+		act_color( L"$CSen $S saldÄ±rÄ±sÄ±na karÅŸÄ±lÄ±k veremeyecek kadar sersemledin.$c",
 	 		ch,NULL,victim,TO_CHAR,POS_FIGHTING,CLR_WHITE );
-	  act_color("$C$n saldýrýna karþýlýk veremeyecek kadar sersemledi.$c",
+	  act_color( L"$C$n saldÄ±rÄ±na karÅŸÄ±lÄ±k veremeyecek kadar sersemledi.$c",
 	 		ch,NULL,victim,TO_VICT,POS_FIGHTING,CLR_WHITE );
-	  act_color("$C$n sersemlemiþ görünüyor.$c",
+	  act_color( L"$C$n sersemlemiÅŸ gÃ¶rÃ¼nÃ¼yor.$c",
 	 		ch,NULL,victim,TO_NOTVICT,POS_FIGHTING,CLR_WHITE );
 	 affect_strip(ch,gsn_power_stun);
          SET_BIT(ch->affected_by,AFF_WEAK_STUN);
@@ -552,12 +553,12 @@ void mob_hit (CHAR_DATA *ch, CHAR_DATA *victim, int dt)
     {
     case (0) :
 	if (IS_SET(ch->off_flags,OFF_BASH))
-	    do_bash(ch,(char*)"");
+	    do_bash(ch,(wchar_t*)"");
 	break;
 
     case (1) :
 	if (IS_SET(ch->off_flags,OFF_BERSERK) && !IS_AFFECTED(ch,AFF_BERSERK))
-	    do_berserk(ch,(char*)"");
+	    do_berserk(ch,(wchar_t*)"");
 	break;
 
 
@@ -566,31 +567,31 @@ void mob_hit (CHAR_DATA *ch, CHAR_DATA *victim, int dt)
 	|| (get_weapon_sn(ch,FALSE) != gsn_hand_to_hand
 	&& (IS_SET(ch->act,ACT_WARRIOR)
    	||  IS_SET(ch->act,ACT_THIEF))))
-	    do_disarm(ch,(char*)"");
+	    do_disarm(ch,(wchar_t*)"");
 	break;
 
     case (3) :
 	if (IS_SET(ch->off_flags,OFF_KICK))
-	    do_kick(ch,(char*)"");
+	    do_kick(ch,(wchar_t*)"");
 	break;
 
     case (4) :
 	if (IS_SET(ch->off_flags,OFF_KICK_DIRT))
-	    do_dirt(ch,(char*)"");
+	    do_dirt(ch,(wchar_t*)"");
 	break;
 
     case (5) :
 	if (IS_SET(ch->off_flags,OFF_TAIL))
-	  do_tail(ch,(char*)"");
+	  do_tail(ch,(wchar_t*)"");
 	break;
 
     case (6) :
 	if (IS_SET(ch->off_flags,OFF_TRIP))
-	    do_trip(ch,(char*)"");
+	    do_trip(ch,(wchar_t*)"");
 	break;
     case (7) :
 	if (IS_SET(ch->off_flags,OFF_CRUSH))
-	    do_crush(ch,(char*)"");
+	    do_crush(ch,(wchar_t*)"");
 	break;
     }
 }
@@ -819,9 +820,9 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
             if (IS_WEAPON_STAT(wield,WEAPON_HOLY) &&
 		  IS_GOOD(ch) && IS_EVIL(victim) && number_percent() < 30)
             {
-							act_color("$C$p kutsal ýþýkla parlýyor.$c",
+							act_color( L"$C$p kutsal Ä±ÅŸÄ±kla parlÄ±yor.$c",
 								ch,wield,NULL,TO_CHAR,POS_DEAD,CLR_YELLOW);
-							act_color("$C$p kutsal ýþýkla parlýyor.$c",
+							act_color( L"$C$p kutsal Ä±ÅŸÄ±kla parlÄ±yor.$c",
 								ch,wield,NULL,TO_ROOM,POS_DEAD,CLR_YELLOW);
                 dam += dam * 120 / 100;
             }
@@ -851,11 +852,11 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 		if ( d < 10 )
 		{
 		   SET_BIT(victim->affected_by,AFF_WEAK_STUN);
-			 act_color("$CSen $E sersemletici bir güçle vuruyorsun!$c",
+			 act_color( L"$CSen $E sersemletici bir gÃ¼Ã§le vuruyorsun!$c",
 			ch,NULL,victim,TO_CHAR,POS_DEAD,CLR_RED);
-		   act_color("$C$n sana sersemletici bir güçle vuruyor!$c",
+		   act_color( L"$C$n sana sersemletici bir gÃ¼Ã§le vuruyor!$c",
 			ch,NULL,victim,TO_VICT,POS_DEAD,CLR_RED);
-		   act_color("$C$n $E sersemletici bir güçle vuruyor!$c",
+		   act_color( L"$C$n $E sersemletici bir gÃ¼Ã§le vuruyor!$c",
 			ch,NULL,victim,TO_NOTVICT,POS_DEAD,CLR_RED);
             	   check_improve(ch,gsn_master_hand,TRUE,6);
 		}
@@ -896,7 +897,7 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 	      AFFECT_DATA *paf;
 
 	      if ( IS_WEAPON_STAT(katana,WEAPON_KATANA)
-		  && strstr(katana->extra_descr->description,ch->name) != NULL )
+		  && wcsstr(katana->extra_descr->description,ch->name) != NULL )
 	      {
 		katana->cost++;
 		if (katana->cost > 249)
@@ -912,8 +913,8 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 				 paf->next->modifier = paf->modifier;
 				 ch->damroll += paf->modifier - old_mod;
 			}
-			act("$s katanasý mavi renkte parlýyor.\n\r",ch,NULL,NULL,TO_ROOM);
-			send_to_char("Katanan mavi renkte parlýyor.\n\r",ch);
+			act( L"$s katanasÄ± mavi renkte parlÄ±yor.\n\r",ch,NULL,NULL,TO_ROOM);
+			send_to_char( L"Katanan mavi renkte parlÄ±yor.\n\r",ch);
 		   }
 		   katana->cost = 0;
 		}
@@ -924,7 +925,7 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 	      AFFECT_DATA *paf;
 
 	      if ( IS_WEAPON_STAT(katana,WEAPON_KATANA)
-		  && strstr(katana->extra_descr->description,ch->name) != NULL )
+		  && wcsstr(katana->extra_descr->description,ch->name) != NULL )
 	      {
 		katana->cost++;
 		if (katana->cost > 249)
@@ -940,8 +941,8 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 				 paf->next->modifier = paf->modifier;
 				 ch->damroll += paf->modifier - old_mod;
 			}
-			act("$s katanasý mavi renkte parlýyor.\n\r",ch,NULL,NULL,TO_ROOM);
-			send_to_char("Katanan mavi renkte parlýyor.\n\r",ch);
+			act( L"$s katanasÄ± mavi renkte parlÄ±yor.\n\r",ch,NULL,NULL,TO_ROOM);
+			send_to_char( L"Katanan mavi renkte parlÄ±yor.\n\r",ch);
 		   }
 		   katana->cost = 0;
 		}
@@ -974,9 +975,9 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
       {
 	counter = TRUE;
 	check_improve(victim,gsn_counter,TRUE,1);
-	act("$N saldýrýný sana çeviriyor!",ch,NULL,victim,TO_CHAR);
-	act("Sen $s saldýrýsýný ona çeviriyorsun!",ch,NULL,victim,TO_VICT);
-	act("$N $s saldýrýsýný ona çeviriyor!",ch,NULL,victim,TO_NOTVICT);
+	act( L"$N saldÄ±rÄ±nÄ± sana Ã§eviriyor!",ch,NULL,victim,TO_CHAR);
+	act( L"Sen $s saldÄ±rÄ±sÄ±nÄ± ona Ã§eviriyorsun!",ch,NULL,victim,TO_VICT);
+	act( L"$N $s saldÄ±rÄ±sÄ±nÄ± ona Ã§eviriyor!",ch,NULL,victim,TO_NOTVICT);
 	ch->fighting = victim;
       }
     else if (!victim->fighting) check_improve(victim,gsn_counter,FALSE,1);
@@ -997,28 +998,28 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
       {
 	if (number_percent() < URANGE(4, 5+(ch->level-victim->level),10) && !counter)
 	  {
-			act_color("Yarma hareketin $M $CÝKÝYE BÖLÜYOR!$c",
+			act_color( L"Yarma hareketin $M $CÄ°KÄ°YE BÃ–LÃœYOR!$c",
 		      ch,NULL,victim,TO_CHAR,POS_RESTING,CLR_RED);
-	    act_color("$s yarma hareketi seni $CÝKÝYE BÖLÜYOR!$c",
+	    act_color( L"$s yarma hareketi seni $CÄ°KÄ°YE BÃ–LÃœYOR!$c",
 		      ch,NULL,victim,TO_VICT,POS_RESTING,CLR_RED);
-	    act_color("$s yarma hareketi $M $CÝKÝYE BÖLÜYOR!$c",
+	    act_color( L"$s yarma hareketi $M $CÄ°KÄ°YE BÃ–LÃœYOR!$c",
 		      ch,NULL,victim,TO_NOTVICT,POS_RESTING,CLR_RED);
-	    send_to_char("Ö L D Ü R Ü L D Ü N!\n\r",victim);
-	    act("$n ÖLDÜ!",victim,NULL,NULL,TO_ROOM);
+	    send_to_char( L"Ã– L D Ãœ R Ãœ L D Ãœ N!\n\r",victim);
+	    act( L"$n Ã–LDÃœ!",victim,NULL,NULL,TO_ROOM);
 	    WAIT_STATE( ch, 2 );
 	    raw_kill(victim);
 	    if ( !IS_NPC(ch) && IS_NPC(victim) )
 	      {
-		corpse = get_obj_list( ch, (char*)"ceset", ch->in_room->contents );
+		corpse = get_obj_list( ch, (wchar_t*)"ceset", ch->in_room->contents );
 
 		if ( IS_SET(ch->act, PLR_AUTOLOOT) &&
 		    corpse && corpse->contains) /* exists and not empty */
-		  do_get( ch, (char*)"tümü ceset" );
+		  do_get( ch, (wchar_t*)"tÃ¼mÃ¼ ceset" );
 
 		if (IS_SET(ch->act,PLR_AUTOAKCE) &&
 		    corpse && corpse->contains ) /* exists and not empty */
 		 {
-		  do_get(ch, (char*)"akçe ceset");
+		  do_get(ch, (wchar_t*)"akÃ§e ceset");
 		}
 
 		if ( IS_SET(ch->act, PLR_AUTOSAC) )
@@ -1027,7 +1028,7 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 		      && corpse->contains)
 		    return;  /* leave if corpse has treasure */
 		  else
-		    do_sacrifice( ch, (char*)"ceset" );
+		    do_sacrifice( ch, (wchar_t*)"ceset" );
 		    }
 	      }
 	    return;
@@ -1039,29 +1040,29 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
       {
 	if (number_percent() <= URANGE(10, 20+(ch->level-victim->level)*2, 50) && !counter)
 	  {
-			act_color("Sen $E $C+++SUÝKAST+++$c düzenledin!",ch,NULL,victim,TO_CHAR,
+			act_color( L"Sen $E $C+++SUÄ°KAST+++$c dÃ¼zenledin!",ch,NULL,victim,TO_CHAR,
 		      POS_RESTING,CLR_RED);
-	    act("$N ÖLDÜ!",ch,NULL,victim,TO_CHAR);
-	    act_color("$n $E $C+++SUÝKAST+++$c düzenledi!",ch,NULL,victim,
+	    act( L"$N Ã–LDÃœ!",ch,NULL,victim,TO_CHAR);
+	    act_color( L"$n $E $C+++SUÄ°KAST+++$c dÃ¼zenledi!",ch,NULL,victim,
 		      TO_NOTVICT,POS_RESTING,CLR_RED);
-	    act("$N ÖLDÜ!",ch,NULL,victim,TO_NOTVICT);
-	    act_color("$n sana $C+++SUÝKAST+++$c düzenledi!",ch,NULL,victim,
+	    act( L"$N Ã–LDÃœ!",ch,NULL,victim,TO_NOTVICT);
+	    act_color( L"$n sana $C+++SUÄ°KAST+++$c dÃ¼zenledi!",ch,NULL,victim,
 		      TO_VICT,POS_DEAD,CLR_RED);
-	    send_to_char("Ö L D Ü R Ü L D Ü N!\n\r",victim);
+	    send_to_char( L"Ã– L D Ãœ R Ãœ L D Ãœ N!\n\r",victim);
 	    check_improve(ch,gsn_assassinate,TRUE,1);
 	    raw_kill(victim);
 	    if ( !IS_NPC(ch) && IS_NPC(victim) )
 	      {
-		corpse = get_obj_list( ch, (char*)"ceset", ch->in_room->contents );
+		corpse = get_obj_list( ch, (wchar_t*)"ceset", ch->in_room->contents );
 
 		if ( IS_SET(ch->act, PLR_AUTOLOOT) &&
 		    corpse && corpse->contains) /* exists and not empty */
-		  do_get( ch, (char*)"tümü ceset" );
+		  do_get( ch, (wchar_t*)"tÃ¼mÃ¼ ceset" );
 
 		if (IS_SET(ch->act,PLR_AUTOAKCE) &&
 		    corpse && corpse->contains ) /* exists and not empty */
 		  {
-				do_get(ch, (char*)"akçe ceset");
+				do_get(ch, (wchar_t*)"akÃ§e ceset");
 			}
 
 		if ( IS_SET(ch->act, PLR_AUTOSAC) )
@@ -1070,7 +1071,7 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 		      && corpse->contains)
 		    return;  /* leave if corpse has treasure */
 		  else
-		    do_sacrifice( ch, (char*)"ceset" );
+		    do_sacrifice( ch, (wchar_t*)"ceset" );
 		    }
 	      }
 	    return;
@@ -1090,10 +1091,10 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 		 * karizma etkisi
 		 */
 
-		//önce vuranýn karizmasý
+		//Ã¶nce vuranÄ±n karizmasÄ±
 		if(!IS_NPC(ch))
 			dam = (dam * cha_app[get_curr_stat(ch,STAT_CHA)].extra_zarar);
-		//victim'ýn karizmasý
+		//victim'Ä±n karizmasÄ±
 		if(!IS_NPC(victim))
 			dam = (dam / cha_app[get_curr_stat(victim,STAT_CHA)].extra_zarar);
 
@@ -1105,7 +1106,7 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
       dam *= 3;
 
 			/*
-			 * ýrk bilgisi etkisi (familya)
+			 * Ä±rk bilgisi etkisi (familya)
 			 */
 			if(!IS_NPC(ch))
 			{
@@ -1117,27 +1118,27 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 					if (i<=5)
 					{
 						dam = dam * 5;
-						printf_to_char(ch,"{gBirden %s ýrkýna iliþkin bilgini kullanabileceðin fevkalade bir an yakalýyorsun.{x\n\r",race_table[victim->race].name[1]);
+						printf_to_char(ch,L"{gBirden %s Ä±rkÄ±na iliÅŸkin bilgini kullanabileceÄŸin fevkalade bir an yakalÄ±yorsun.{x\n\r",race_table[victim->race].name[1]);
 					}
 					else if (i>5 && i<=10)
 					{
 						dam = dam * 3;
-						printf_to_char(ch,"{gBirden %s ýrkýna iliþkin bilgini kullanabileceðin güzel bir an yakalýyorsun.{x\n\r",race_table[victim->race].name[1]);
+						printf_to_char(ch,L"{gBirden %s Ä±rkÄ±na iliÅŸkin bilgini kullanabileceÄŸin gÃ¼zel bir an yakalÄ±yorsun.{x\n\r",race_table[victim->race].name[1]);
 					}
 					else if (i>15 && i<=30)
 					{
 						dam = dam * 2;
-						printf_to_char(ch,"{gBirden %s ýrkýna iliþkin bilgini kullanabileceðin iyi bir an yakalýyorsun.{x\n\r",race_table[victim->race].name[1]);
+						printf_to_char(ch,L"{gBirden %s Ä±rkÄ±na iliÅŸkin bilgini kullanabileceÄŸin iyi bir an yakalÄ±yorsun.{x\n\r",race_table[victim->race].name[1]);
 					}
 					else
 					{
 						dam = int(dam * 3 / 2);
-						printf_to_char(ch,"{gBirden %s ýrkýna iliþkin bilgini kullanabileceðin bir an yakalýyorsun.{x\n\r",race_table[victim->race].name[1]);
+						printf_to_char(ch,L"{gBirden %s Ä±rkÄ±na iliÅŸkin bilgini kullanabileceÄŸin bir an yakalÄ±yorsun.{x\n\r",race_table[victim->race].name[1]);
 					}
 				}
 			}
 			/*
-			 * ýrk bilgisi etkisi bitti
+			 * Ä±rk bilgisi etkisi bitti
 			 */
 
 			/*
@@ -1145,14 +1146,14 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 			 */
 			if(IS_NPC(ch))
 			{
-				if( ch->spec_fun == spec_lookup( (char*)"spec_fight_enforcer" ) ||
-			  		ch->spec_fun == spec_lookup( (char*)"spec_fight_invader" ) ||
-						ch->spec_fun == spec_lookup( (char*)"spec_fight_ivan" ) ||
-						ch->spec_fun == spec_lookup( (char*)"spec_fight_seneschal" ) ||
-						ch->spec_fun == spec_lookup( (char*)"spec_fight_powerman" ) ||
-						ch->spec_fun == spec_lookup( (char*)"spec_fight_protector" ) ||
-						ch->spec_fun == spec_lookup( (char*)"spec_fight_hunter" ) ||
-						ch->spec_fun == spec_lookup( (char*)"spec_fight_lionguard" ) )
+				if( ch->spec_fun == spec_lookup( (wchar_t*)"spec_fight_enforcer" ) ||
+			  		ch->spec_fun == spec_lookup( (wchar_t*)"spec_fight_invader" ) ||
+						ch->spec_fun == spec_lookup( (wchar_t*)"spec_fight_ivan" ) ||
+						ch->spec_fun == spec_lookup( (wchar_t*)"spec_fight_seneschal" ) ||
+						ch->spec_fun == spec_lookup( (wchar_t*)"spec_fight_powerman" ) ||
+						ch->spec_fun == spec_lookup( (wchar_t*)"spec_fight_protector" ) ||
+						ch->spec_fun == spec_lookup( (wchar_t*)"spec_fight_hunter" ) ||
+						ch->spec_fun == spec_lookup( (wchar_t*)"spec_fight_lionguard" ) )
 						{
 							dam *= 4;
 						}
@@ -1167,8 +1168,8 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
       {
 	if (number_percent() < 0.125 * get_skill(ch,gsn_deathblow))
 	  {
-			act("Öldürücü bir rüzgar getiriyorsun!",ch,NULL,NULL,TO_CHAR);
-	    act("$n öldürücü bir rüzgar getiriyor!",ch,NULL,NULL,TO_ROOM);
+			act( L"Ã–ldÃ¼rÃ¼cÃ¼ bir rÃ¼zgar getiriyorsun!",ch,NULL,NULL,TO_CHAR);
+	    act( L"$n Ã¶ldÃ¼rÃ¼cÃ¼ bir rÃ¼zgar getiriyor!",ch,NULL,NULL,TO_ROOM);
 	    if (cabal_ok(ch,gsn_deathblow)) {
 	      dam *= (int)(((float)ch->level) / 20);
 	      check_improve(ch,gsn_deathblow,TRUE,1);
@@ -1195,7 +1196,7 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
 	 ch->hit += hit_ga;
     	 ch->hit  = UMIN( ch->hit , ch->max_hit);
 	 update_pos( ch );
-	 send_to_char("Kurbanýnýn kanýný emdikçe saðlýðýna kavuþuyorsun.\n\r",ch);
+	 send_to_char( L"KurbanÄ±nÄ±n kanÄ±nÄ± emdikÃ§e saÄŸlÄ±ÄŸÄ±na kavuÅŸuyorsun.\n\r",ch);
 	}
 
     /* but do we have a funky weapon? */
@@ -1214,8 +1215,8 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
                 level = poison->level;
             if (!saves_spell(level / 2,victim,DAM_POISON))
             {
-							send_to_char("Zehrin damarlarýnda dolaþtýðýný hissediyorsun.\n\r",victim);
-							act("$n $p üzerindeki zehirle zehirlendi.",
+							send_to_char( L"Zehrin damarlarÄ±nda dolaÅŸtÄ±ÄŸÄ±nÄ± hissediyorsun.\n\r",victim);
+							act( L"$n $p Ã¼zerindeki zehirle zehirlendi.",
                     victim,wield,NULL,TO_ROOM);
 
                 af.where     = TO_AFFECTS;
@@ -1234,14 +1235,14 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
                 poison->level = UMAX(0,poison->level - 2);
                 poison->duration = UMAX(0,poison->duration - 1);
                 if (poison->level == 0 || poison->duration == 0)
-								act("$p üzerindeki zehrin etkisi geçiyor.",ch,wield,NULL,TO_CHAR);
+								act( L"$p Ã¼zerindeki zehrin etkisi geÃ§iyor.",ch,wield,NULL,TO_CHAR);
             }
         }
         if (ch->fighting == victim && IS_WEAPON_STAT(wield,WEAPON_VAMPIRIC))
         {
             dam = number_range(1, wield->level / 5 + 1);
-						act("$p $z yaþam çekiyor.",victim,wield,NULL,TO_ROOM);
-            act("Yaþamýnýn  $p tarafýndan emildiðini hissediyorsun.",
+						act( L"$p $z yaÅŸam Ã§ekiyor.",victim,wield,NULL,TO_ROOM);
+            act( L"YaÅŸamÄ±nÄ±n  $p tarafÄ±ndan emildiÄŸini hissediyorsun.",
                 victim,wield,NULL,TO_CHAR);
             damage(ch,victim,dam,0,DAM_NEGATIVE,FALSE);
             ch->hit += dam/2;
@@ -1249,16 +1250,16 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
         if (ch->fighting == victim && IS_WEAPON_STAT(wield,WEAPON_FLAMING))
         {
             dam = number_range(1,wield->level / 4 + 1);
-						act("$n $p tarafýndan kavruluyor.",victim,wield,NULL,TO_ROOM);
-            act("$p etini kavuruyor.",victim,wield,NULL,TO_CHAR);
+						act( L"$n $p tarafÄ±ndan kavruluyor.",victim,wield,NULL,TO_ROOM);
+            act( L"$p etini kavuruyor.",victim,wield,NULL,TO_CHAR);
             fire_effect( (void *) victim,wield->level/2,dam,TARGET_CHAR);
             damage(ch,victim,dam,0,DAM_FIRE,FALSE);
         }
         if (ch->fighting == victim && IS_WEAPON_STAT(wield,WEAPON_FROST))
         {
             dam = number_range(1,wield->level / 6 + 2);
-						act("$p $m donduruyor.",victim,wield,NULL,TO_ROOM);
-            act("$p objesinin soðuk dokunuþu seni buzla çevreliyor.",
+						act( L"$p $m donduruyor.",victim,wield,NULL,TO_ROOM);
+            act( L"$p objesinin soÄŸuk dokunuÅŸu seni buzla Ã§evreliyor.",
                 victim,wield,NULL,TO_CHAR);
             cold_effect(victim,wield->level/2,dam,TARGET_CHAR);
             damage(ch,victim,dam,0,DAM_COLD,FALSE);
@@ -1266,8 +1267,8 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary)
         if (ch->fighting == victim && IS_WEAPON_STAT(wield,WEAPON_SHOCKING))
         {
             dam = number_range(1,wield->level/5 + 2);
-						act("$n $p objesinin yýldýrýmýyla vuruluyor.",victim,wield,NULL,TO_ROOM);
-            act("$p seni þok etti.",victim,wield,NULL,TO_CHAR);
+						act( L"$n $p objesinin yÄ±ldÄ±rÄ±mÄ±yla vuruluyor.",victim,wield,NULL,TO_ROOM);
+            act( L"$p seni ÅŸok etti.",victim,wield,NULL,TO_CHAR);
             shock_effect(victim,wield->level/2,dam,TARGET_CHAR);
             damage(ch,victim,dam,0,DAM_LIGHTNING,FALSE);
         }
@@ -1298,8 +1299,8 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 	*/
 	if ( dam > 1000 && !IS_IMMORTAL(ch))
 	{
-		char buf[MAX_STRING_LENGTH];
-		sprintf(buf,"%s:Damage more than 1000 points :%d",ch->name,dam);
+		wchar_t buf[MAX_STRING_LENGTH];
+		swprintf( buf, MAX_STRING_LENGTH-1, L"%s:Damage more than 1000 points :%d",ch->name,dam);
 		bug( buf,0);
 		if (IS_NPC(ch) && !IS_NPC(ch))
 		{
@@ -1374,7 +1375,7 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 			|| IS_SET(ch->affected_by, AFF_CAMOUFLAGE) || IS_SET(ch->affected_by, AFF_IMP_INVIS)
 			|| CAN_DETECT(ch, ADET_EARTHFADE) )
 	{
-		do_visible(ch, (char*)"");
+		do_visible(ch, (wchar_t*)"");
 	}
 
 	/*
@@ -1433,9 +1434,9 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 		&& dt != gsn_mental_knife
 		&& dt != gsn_lightning_breath )
 		{
-			act("Büyün $S enerji alanýný geçemiyor!",ch,NULL,victim,TO_CHAR);
-			act("Sen $s büyüsünü soðuruyorsun!",ch,NULL,victim,TO_VICT);
-			act("$N $s büyüsünü soðuruyor!",ch,NULL,victim,TO_NOTVICT);
+			act( L"BÃ¼yÃ¼n $S enerji alanÄ±nÄ± geÃ§emiyor!",ch,NULL,victim,TO_CHAR);
+			act( L"Sen $s bÃ¼yÃ¼sÃ¼nÃ¼ soÄŸuruyorsun!",ch,NULL,victim,TO_VICT);
+			act( L"$N $s bÃ¼yÃ¼sÃ¼nÃ¼ soÄŸuruyor!",ch,NULL,victim,TO_NOTVICT);
 			check_improve(victim,gsn_absorb,TRUE,1);
 			victim->mana += skill_table[dt].min_mana;
 			return FALSE;
@@ -1453,9 +1454,9 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 		&& dt != gsn_mental_knife
 		&& dt != gsn_lightning_breath )
 		{
-			act("$N senin büyünü saptýrýyor!",ch,NULL,victim,TO_CHAR);
-			act("Sen $s büyüsünü saptýrýyorsun!",ch,NULL,victim,TO_VICT);
-			act("$N $s büyüsünü saptýrýyor!",ch,NULL,victim,TO_NOTVICT);
+			act( L"$N senin bÃ¼yÃ¼nÃ¼ saptÄ±rÄ±yor!",ch,NULL,victim,TO_CHAR);
+			act( L"Sen $s bÃ¼yÃ¼sÃ¼nÃ¼ saptÄ±rÄ±yorsun!",ch,NULL,victim,TO_VICT);
+			act( L"$N $s bÃ¼yÃ¼sÃ¼nÃ¼ saptÄ±rÄ±yor!",ch,NULL,victim,TO_NOTVICT);
 			check_improve(victim,gsn_spellbane,TRUE,1);
 			damage(victim,ch,3 * victim->level,gsn_spellbane,DAM_NEGATIVE, TRUE);
 			return FALSE;
@@ -1472,7 +1473,7 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 		*/
 		if (is_affected(victim,gsn_mirror))
 		{
-			act("$n kýrýlarak küçük cam parçalarýna ayrýlýyor.",
+			act( L"$n kÄ±rÄ±larak kÃ¼Ã§Ã¼k cam parÃ§alarÄ±na ayrÄ±lÄ±yor.",
 			victim,NULL,NULL,TO_ROOM);
 			extract_char(victim,TRUE);
 			return FALSE;
@@ -1556,8 +1557,8 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 			{
 				break;
 			}
-			act("$n kötü þekilde yaralanmýþ, iyileþtirilmezse ölecek.",victim, NULL, NULL, TO_ROOM );
-			send_to_char("Kötü þekilde yaralandýn, iyileþtirilmezsen öleceksin.\n\r",victim );
+			act( L"$n kÃ¶tÃ¼ ÅŸekilde yaralanmÄ±ÅŸ, iyileÅŸtirilmezse Ã¶lecek.",victim, NULL, NULL, TO_ROOM );
+			send_to_char( L"KÃ¶tÃ¼ ÅŸekilde yaralandÄ±n, iyileÅŸtirilmezsen Ã¶leceksin.\n\r",victim );
 			break;
 
 		case POS_INCAP:
@@ -1565,8 +1566,8 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 			{
 				break;
 			}
-			act("$n aciz durumda ve iyileþtirilmezse ölecek.",victim, NULL, NULL, TO_ROOM );
-			send_to_char("Aciz durumdasýn ve iyileþtirilmezsen öleceksin.\n\r",victim );
+			act( L"$n aciz durumda ve iyileÅŸtirilmezse Ã¶lecek.",victim, NULL, NULL, TO_ROOM );
+			send_to_char( L"Aciz durumdasÄ±n ve iyileÅŸtirilmezsen Ã¶leceksin.\n\r",victim );
 			break;
 
 		case POS_STUNNED:
@@ -1574,13 +1575,13 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 			{
 				break;
 			}
-			act( "$n sersemlemiþ fakat kendine gelecektir.",victim, NULL, NULL, TO_ROOM );
-			send_to_char("Sersemledin fakat kendine geleceksin.\n\r",victim );
+			act( L"$n sersemlemiÅŸ fakat kendine gelecektir.",victim, NULL, NULL, TO_ROOM );
+			send_to_char( L"Sersemledin fakat kendine geleceksin.\n\r",victim );
 			break;
 
 		case POS_DEAD:
-			act( "$n ÖLDÜ!!", victim, 0, 0, TO_ROOM );
-			send_to_char("Ö L D Ü R Ü L D Ü N!!\n\r\n\r", victim );
+			act( L"$n Ã–LDÃœ!!", victim, 0, 0, TO_ROOM );
+			send_to_char( L"Ã– L D Ãœ R Ãœ L D Ãœ N!!\n\r\n\r", victim );
 			break;
 
 		default:
@@ -1590,11 +1591,11 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 			}
 			if ( dam > victim->max_hit / 4 )
 			{
-				send_to_char( "Bu gerçekten ACITTI!\n\r", victim );
+				send_to_char( L"Bu gerÃ§ekten ACITTI!\n\r", victim );
 			}
 			if ( victim->hit < victim->max_hit / 4 )
 			{
-				send_to_char( "KANAMAN var!\n\r", victim );
+				send_to_char( L"KANAMAN var!\n\r", victim );
 			}
 			break;
 	}
@@ -1645,36 +1646,36 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 					{
 						victim->perm_stat[STAT_CHA] = UMAX(1,victim->perm_stat[STAT_CHA]-1);
 						victim->perm_stat[STAT_CON] = UMAX(3,victim->perm_stat[STAT_CON]-1);
-						printf_to_char( victim, "{RBu ölümle bünye ve karizmanýn azaldýðýný hissediyorsun.{x\n\r" );
+						printf_to_char( victim, L"{RBu Ã¶lÃ¼mle bÃ¼nye ve karizmanÄ±n azaldÄ±ÄŸÄ±nÄ± hissediyorsun.{x\n\r" );
 					}
 
 					if( victim->perm_stat[STAT_CON] == 3 )
 					{
-						char strsave[160];
-						printf_to_char( victim, "{RBir hayalete dönüþerek dünya gerçekliðini terkediyorsun.{x\n\r" );
-						act("$n öldü ve bir daha dönemeyecek.\n\r",victim,NULL,NULL,TO_ROOM);
+						wchar_t strsave[160];
+						printf_to_char( victim, L"{RBir hayalete dÃ¶nÃ¼ÅŸerek dÃ¼nya gerÃ§ekliÄŸini terkediyorsun.{x\n\r" );
+						act( L"$n Ã¶ldÃ¼ ve bir daha dÃ¶nemeyecek.\n\r",victim,NULL,NULL,TO_ROOM);
 						victim->last_fight_time = -1;
 						victim->hit = 1;
 						victim->position = POS_STANDING;
-						sprintf( strsave, "%s%s", PLAYER_DIR, capitalize( victim->name ) );
-						wiznet("$N bünyesi yetersiz geldiði için silindi.",ch,NULL,0,0,0);
-						do_quit_count(victim,(char*)"");
-						unlink(strsave);
+						swprintf( strsave, 160-1, L"%s%s", PLAYER_DIR, capitalize( victim->name ) );
+						wiznet( L"$N bÃ¼nyesi yetersiz geldiÄŸi iÃ§in silindi.",ch,NULL,0,0,0);
+						do_quit_count(victim,(wchar_t*)"");
+						unlink((char*)strsave);
 						return TRUE;
 					}
 
 					if ( victim->iclass == CLASS_SAMURAI && victim->pcdata->death > 15 )
 					{
-						char strsave[160];
-						printf_to_char( victim, "{RBir hayalete dönüþerek dünya gerçekliðini terkediyorsun.{x\n\r" );
-						act("$n öldü ve bir daha dönemeyecek.\n\r",victim,NULL,NULL,TO_ROOM);
+						wchar_t strsave[160];
+						printf_to_char( victim, L"{RBir hayalete dÃ¶nÃ¼ÅŸerek dÃ¼nya gerÃ§ekliÄŸini terkediyorsun.{x\n\r" );
+						act( L"$n Ã¶ldÃ¼ ve bir daha dÃ¶nemeyecek.\n\r",victim,NULL,NULL,TO_ROOM);
 						victim->last_fight_time = -1;
 						victim->hit = 1;
 						victim->position = POS_STANDING;
-						sprintf( strsave, "%s%s", PLAYER_DIR, capitalize( victim->name ) );
-						wiznet("$N 15 ölümü geçtiði için silindi.",ch,NULL,0,0,0);
-						do_quit_count(victim,(char*)"");
-						unlink(strsave);
+						swprintf( strsave, 160-1, L"%s%s", PLAYER_DIR, capitalize( victim->name ) );
+						wiznet( L"$N 15 Ã¶lÃ¼mÃ¼ geÃ§tiÄŸi iÃ§in silindi.",ch,NULL,0,0,0);
+						do_quit_count(victim,(wchar_t*)"");
+						unlink((char*)strsave);
 						return TRUE;
 					}
 				}
@@ -1702,22 +1703,22 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 
 		if ( !IS_NPC(ch) && IS_NPC(victim) )
 		{
-			corpse = get_obj_list( ch, (char*)"ceset", ch->in_room->contents );
+			corpse = get_obj_list( ch, (wchar_t*)"ceset", ch->in_room->contents );
 
 			if ( IS_SET(ch->act, PLR_AUTOLOOT) && corpse && corpse->contains) /* exists and not empty */
 			{
-				do_get( ch, (char*)"tümü ceset" );
+				do_get( ch, (wchar_t*)"tÃ¼mÃ¼ ceset" );
 			}
 
 			if (IS_SET(ch->act,PLR_AUTOAKCE) && corpse && corpse->contains ) /* exists and not empty */
 			{
-				do_get(ch, (char*)"akçe ceset");
+				do_get(ch, (wchar_t*)"akÃ§e ceset");
 			}
 
 			if ( ch->iclass == CLASS_VAMPIRE && ch->level > 10 && corpse)
 			{
-				act_color( "$C$n $S cesedinden kan emiyor!!$c",ch, NULL,victim,TO_ROOM,POS_SLEEPING,CLR_RED_BOLD);
-				send_ch_color("$CCesetten kan emiyorsun!!$c\n\r\n\r",ch,POS_SLEEPING,CLR_RED_BOLD );
+				act_color( L"$C$n $S cesedinden kan emiyor!!$c",ch, NULL,victim,TO_ROOM,POS_SLEEPING,CLR_RED_BOLD);
+				send_ch_color(L"$CCesetten kan emiyorsun!!$c\n\r\n\r",ch,POS_SLEEPING,CLR_RED_BOLD );
 				gain_condition(ch,COND_BLOODLUST,3);
 			}
 
@@ -1729,7 +1730,7 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 				}
 				else
 				{
-					do_sacrifice( ch, (char*)"ceset" );
+					do_sacrifice( ch, (wchar_t*)"ceset" );
 				}
 			}
 		}
@@ -1751,11 +1752,11 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 		{
 		if (victim->level < 11)
 		{
-			do_recall( victim, (char*)"" );
+			do_recall( victim, (wchar_t*)"" );
 		}
 		else
 		{
-			do_flee( victim, (char*)"" );
+			do_flee( victim, (wchar_t*)"" );
 		}
 		return TRUE;
 		}
@@ -1772,7 +1773,7 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 				&&     victim->master->in_room != victim->in_room ) )
 				|| ( CAN_DETECT(victim,ADET_FEAR) && !IS_SET(victim->act,ACT_NOTRACK) ))
 		{
-			do_flee( victim, (char*)"" );
+			do_flee( victim, (wchar_t*)"" );
 			victim->last_fought = NULL;
 		}
 	}
@@ -1781,7 +1782,7 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 	  && ( victim->hit <= victim->wimpy || CAN_DETECT(victim, ADET_FEAR) )
 	  && victim->wait < PULSE_VIOLENCE / 2 )
 	{
-		do_flee( victim, (char*)"" );
+		do_flee( victim, (wchar_t*)"" );
 	}
 
 	tail_chain( );
@@ -1792,8 +1793,8 @@ bool is_safe(CHAR_DATA *ch, CHAR_DATA *victim)
 {
   if (is_safe_nomessage(ch,victim))
     {
-			act("Tanrýlar $M koruyor.",ch,NULL,victim,TO_CHAR);
-      act("Tanrýlar $M $z koruyor.",ch,NULL,victim,TO_ROOM);
+			act( L"TanrÄ±lar $M koruyor.",ch,NULL,victim,TO_CHAR);
+      act( L"TanrÄ±lar $M $z koruyor.",ch,NULL,victim,TO_ROOM);
       return TRUE;
     }
   else return FALSE;
@@ -1890,8 +1891,8 @@ bool check_parry( CHAR_DATA *ch, CHAR_DATA *victim )
     if ( number_percent( ) >= chance + victim->level - ch->level )
 	return FALSE;
 
-	act("Sen $s saldýrýsýný karþýlýyorsun.",  ch, NULL, victim, TO_VICT    );
-	act( "$N saldýrýný karþýlýyor.", ch, NULL, victim, TO_CHAR    );
+	act( L"Sen $s saldÄ±rÄ±sÄ±nÄ± karÅŸÄ±lÄ±yorsun.",  ch, NULL, victim, TO_VICT    );
+	act( L"$N saldÄ±rÄ±nÄ± karÅŸÄ±lÄ±yor.", ch, NULL, victim, TO_CHAR    );
     check_weapon_destroyed( ch, victim, FALSE);
     if ( number_percent() >  get_skill(victim,gsn_parry) )
     {
@@ -1924,12 +1925,12 @@ bool check_parry( CHAR_DATA *ch, CHAR_DATA *victim )
      /* now the attack */
      if (number_percent() < ( chance / 20  ))
      {
-			 act("Pozisyonunu korumaya devam edemiyorsun!",
+			 act( L"Pozisyonunu korumaya devam edemiyorsun!",
 		 		ch,NULL,victim,TO_VICT);
-		 	act("Yere düþtün!",ch,NULL,victim,TO_VICT);
-		 	act("$N saldýrýna direnemiyor ve düþüyor!",
+		 	act( L"Yere dÃ¼ÅŸtÃ¼n!",ch,NULL,victim,TO_VICT);
+		 	act( L"$N saldÄ±rÄ±na direnemiyor ve dÃ¼ÅŸÃ¼yor!",
 		 		ch,NULL,victim,TO_CHAR);
-		 	act("$n sersemletici gücü $N düþürüyor.",
+		 	act( L"$n sersemletici gÃ¼cÃ¼ $N dÃ¼ÅŸÃ¼rÃ¼yor.",
 		 		ch,NULL,victim,TO_NOTVICT);
 
 	WAIT_STATE(victim,skill_table[gsn_bash].beats);
@@ -1962,8 +1963,8 @@ bool check_blink( CHAR_DATA *ch, CHAR_DATA *victim )
 
     victim->mana -= UMAX(victim->level / 10,1);
 
-		act( "Zayi olarak $s saldýrýsýný atlatýyorsun.", ch, NULL, victim, TO_VICT    );
-    act( "$N zayi olarak saldýrýný atlatýyor.", ch, NULL, victim, TO_CHAR    );
+		act( L"Zayi olarak $s saldÄ±rÄ±sÄ±nÄ± atlatÄ±yorsun.", ch, NULL, victim, TO_VICT    );
+    act( L"$N zayi olarak saldÄ±rÄ±nÄ± atlatÄ±yor.", ch, NULL, victim, TO_CHAR    );
     check_improve(victim,gsn_blink,TRUE,6);
     return TRUE;
 }
@@ -1998,8 +1999,8 @@ bool check_block( CHAR_DATA *ch, CHAR_DATA *victim )
     if ( number_percent( ) >= chance + victim->level - ch->level )
 	return FALSE;
 
-	act( " Sen $s saldýrýsýný kalkanýnla karþýlýyorsun.",  ch, NULL, victim, TO_VICT    );
-	act( "$N saldýrýný kalkanýyla karþýlýyor.", ch,NULL,victim,TO_CHAR);
+	act( L" Sen $s saldÄ±rÄ±sÄ±nÄ± kalkanÄ±nla karÅŸÄ±lÄ±yorsun.",  ch, NULL, victim, TO_VICT    );
+	act( L"$N saldÄ±rÄ±nÄ± kalkanÄ±yla karÅŸÄ±lÄ±yor.", ch,NULL,victim,TO_CHAR);
     check_shield_destroyed( ch, victim, FALSE);
     check_improve(victim,gsn_shield_block,TRUE,6);
     return TRUE;
@@ -2035,8 +2036,8 @@ bool check_dodge( CHAR_DATA *ch, CHAR_DATA *victim )
     if ( number_percent( ) >= chance + (victim->level - ch->level) / 2 )
         return FALSE;
 
-				act( "Sen $s saldýrýsýndan sýyrýlýyorsun.", ch, NULL, victim, TO_VICT    );
-		    act( "$N saldýrýndan sýyrýlýyor.", ch, NULL, victim, TO_CHAR    );
+				act( L"Sen $s saldÄ±rÄ±sÄ±ndan sÄ±yrÄ±lÄ±yorsun.", ch, NULL, victim, TO_VICT    );
+		    act( L"$N saldÄ±rÄ±ndan sÄ±yrÄ±lÄ±yor.", ch, NULL, victim, TO_CHAR    );
    if ( number_percent() < (get_skill(victim,gsn_dodge) / 20 )
 	&& !(IS_AFFECTED(ch,AFF_FLYING) || ch->position < POS_FIGHTING))
    {
@@ -2064,9 +2065,9 @@ bool check_dodge( CHAR_DATA *ch, CHAR_DATA *victim )
      /* now the attack */
      if (number_percent() < (chance / 20) )
      {
-			 act("$n pozisyonunu kaybederek düþüyor!",ch,NULL,victim,TO_VICT);
-		 	act("Sen $S hareketiyle pozisyonunu kaybediyor ve düþüyorsun!",ch,NULL,victim,TO_CHAR);
-		 	act("$n $S saldýrýsýndan sýyrýlýnca $N yere düþüyor.",ch,NULL,victim,TO_NOTVICT);
+			 act( L"$n pozisyonunu kaybederek dÃ¼ÅŸÃ¼yor!",ch,NULL,victim,TO_VICT);
+		 	act( L"Sen $S hareketiyle pozisyonunu kaybediyor ve dÃ¼ÅŸÃ¼yorsun!",ch,NULL,victim,TO_CHAR);
+		 	act( L"$n $S saldÄ±rÄ±sÄ±ndan sÄ±yrÄ±lÄ±nca $N yere dÃ¼ÅŸÃ¼yor.",ch,NULL,victim,TO_NOTVICT);
 
         WAIT_STATE(ch,skill_table[gsn_trip].beats);
 	ch->position = POS_RESTING;
@@ -2107,8 +2108,8 @@ bool check_cross( CHAR_DATA *ch, CHAR_DATA *victim )
     if ( number_percent( ) >= chance + victim->level - ch->level )
 	return FALSE;
 
-	act( "$s saldýrýsýný çapraz blokla karþýlýyorsun.",  ch, NULL, victim, TO_VICT    );
-	act("$N saldýrýný çapraz blokla karþýlýyor.", ch, NULL, victim, TO_CHAR    );
+	act( L"$s saldÄ±rÄ±sÄ±nÄ± Ã§apraz blokla karÅŸÄ±lÄ±yorsun.",  ch, NULL, victim, TO_VICT    );
+	act( L"$N saldÄ±rÄ±nÄ± Ã§apraz blokla karÅŸÄ±lÄ±yor.", ch, NULL, victim, TO_CHAR    );
     check_weapon_destroyed( ch, victim, FALSE);
     if ( number_percent() >  get_skill(victim,gsn_cross_block) )
     {
@@ -2141,12 +2142,12 @@ bool check_cross( CHAR_DATA *ch, CHAR_DATA *victim )
      /* now the attack */
      if (number_percent() < ( chance / 20  ))
      {
-			 act("Pozisyonunu korumaya devam edemiyorsun!",
+			 act( L"Pozisyonunu korumaya devam edemiyorsun!",
 		 		ch,NULL,victim,TO_VICT);
-		 	act("You fall down!",ch,NULL,victim,TO_VICT);
-		 	act("$N saldýrýna direnemeerek düþüyor!",
+		 	act( L"You fall down!",ch,NULL,victim,TO_VICT);
+		 	act( L"$N saldÄ±rÄ±na direnemeerek dÃ¼ÅŸÃ¼yor!",
 		 		ch,NULL,victim,TO_CHAR);
-		 	act("$n sersemletici gücü $N düþürüyor.",
+		 	act( L"$n sersemletici gÃ¼cÃ¼ $N dÃ¼ÅŸÃ¼rÃ¼yor.",
 		 		ch,NULL,victim,TO_NOTVICT);
 
 	WAIT_STATE(victim,skill_table[gsn_bash].beats);
@@ -2185,8 +2186,8 @@ bool check_hand( CHAR_DATA *ch, CHAR_DATA *victim )
     if ( number_percent( ) >= chance + victim->level - ch->level )
 	return FALSE;
 
-	act( "$s saldýrýsýný ellerinle karþýlýyorsun.",  ch, NULL, victim, TO_VICT    );
-	act( "$S elleri saldýrýný durduruyor.", ch, NULL, victim, TO_CHAR    );
+	act( L"$s saldÄ±rÄ±sÄ±nÄ± ellerinle karÅŸÄ±lÄ±yorsun.",  ch, NULL, victim, TO_VICT    );
+	act( L"$S elleri saldÄ±rÄ±nÄ± durduruyor.", ch, NULL, victim, TO_CHAR    );
     check_improve(victim,gsn_hand_block,TRUE,6);
     return TRUE;
 }
@@ -2232,7 +2233,7 @@ void set_fighting( CHAR_DATA *ch, CHAR_DATA *victim )
 {
     if ( ch->fighting != NULL )
     {
-	bug( "Set_fighting: already fighting", 0 );
+	bug( L"Set_fighting: already fighting", 0 );
 	return;
     }
 
@@ -2274,11 +2275,11 @@ void stop_fighting( CHAR_DATA *ch, bool fBoth )
  */
 void make_corpse( CHAR_DATA *ch )
 {
-    char buf[MAX_STRING_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
     OBJ_DATA *corpse;
     OBJ_DATA *obj;
     OBJ_DATA *obj_next;
-    char *name;
+    wchar_t *name;
     int i;
 
     if ( IS_NPC(ch) )
@@ -2325,11 +2326,11 @@ void make_corpse( CHAR_DATA *ch )
 
     corpse->level = ch->level;
 
-    sprintf( buf, corpse->short_descr, name );
+    swprintf( buf, MAX_STRING_LENGTH-1, corpse->short_descr, name );
     free_string( corpse->short_descr );
     corpse->short_descr = str_dup( buf );
 
-    sprintf( buf, corpse->description, name );
+    swprintf( buf, MAX_STRING_LENGTH-1, corpse->description, name );
     free_string( corpse->description );
     corpse->description = str_dup( buf );
 
@@ -2379,12 +2380,12 @@ void death_cry( CHAR_DATA *ch )
 void death_cry_org( CHAR_DATA *ch, int part )
 {
     ROOM_INDEX_DATA *was_in_room;
-    const char *msg;
+    const wchar_t *msg;
     int door;
     int vnum;
 
     vnum = 0;
-		msg = "$s acý çýðlýðýný duyuyorsun.";
+		msg  = L"$s acÄ± Ã§Ä±ÄŸlÄ±ÄŸÄ±nÄ± duyuyorsun.";
 
     if ( part == -1 )
       part = number_range(0,15);
@@ -2392,52 +2393,52 @@ void death_cry_org( CHAR_DATA *ch, int part )
     switch ( part )
     {
 
-			msg  = "$n yere düþüyor... $n ÖLDÜ.";
+			msg  = L"$n yere dÃ¼ÅŸÃ¼yor... $n Ã–LDÃœ.";
     case  1:
 	if (ch->material == 0)
 	{
-		msg  = "$s kaný zýrhýna sýçrýyor.";
+		msg  = L"$s kanÄ± zÄ±rhÄ±na sÄ±Ã§rÄ±yor.";
 	    break;
 	}
     case  2:
 	if (IS_SET(ch->parts,PART_GUTS))
 	{
-		msg = "$s baðýrsaklarý yere saçýlýyor.";
+		msg  = L"$s baÄŸÄ±rsaklarÄ± yere saÃ§Ä±lÄ±yor.";
 	    vnum = OBJ_VNUM_GUTS;
 	}
 	break;
     case  3:
 	if (IS_SET(ch->parts,PART_HEAD))
 	{
-		msg  = "$s kopan kafasý yerde yuvarlanýyor.";
+		msg  = L"$s kopan kafasÄ± yerde yuvarlanÄ±yor.";
 	    vnum = OBJ_VNUM_SEVERED_HEAD;
 	}
 	break;
     case  4:
 	if (IS_SET(ch->parts,PART_HEART))
 	{
-		msg  = "$s kalbi göðsünden dýþarý fýrlýyor.";
+		msg  = L"$s kalbi gÃ¶ÄŸsÃ¼nden dÄ±ÅŸarÄ± fÄ±rlÄ±yor.";
 	    vnum = OBJ_VNUM_TORN_HEART;
 	}
 	break;
     case  5:
 	if (IS_SET(ch->parts,PART_ARMS))
 	{
-		msg  = "$s kolu ölü gövdeden ayrýlýyor.";
+		msg  = L"$s kolu Ã¶lÃ¼ gÃ¶vdeden ayrÄ±lÄ±yor.";
 	    vnum = OBJ_VNUM_SLICED_ARM;
 	}
 	break;
     case  6:
 	if (IS_SET(ch->parts,PART_LEGS))
 	{
-		msg  = "$s bacaðý ölü gövdeden ayrýlýyor.";
+		msg  = L"$s bacaÄŸÄ± Ã¶lÃ¼ gÃ¶vdeden ayrÄ±lÄ±yor.";
 	    vnum = OBJ_VNUM_SLICED_LEG;
 	}
 	break;
     case 7:
 	if (IS_SET(ch->parts,PART_BRAINS))
 	{
-		msg = "$s kafasý kýrýlýyor ve beyin parçalarý üstüne sýçrýyor.";
+		msg  = L"$s kafasÄ± kÄ±rÄ±lÄ±yor ve beyin parÃ§alarÄ± Ã¼stÃ¼ne sÄ±Ã§rÄ±yor.";
 	    vnum = OBJ_VNUM_BRAINS;
 	}
     }
@@ -2446,19 +2447,19 @@ void death_cry_org( CHAR_DATA *ch, int part )
 
     if ( vnum != 0 )
     {
-	char buf[MAX_STRING_LENGTH];
+	wchar_t buf[MAX_STRING_LENGTH];
 	OBJ_DATA *obj;
-	char *name;
+	wchar_t *name;
 
 	name		= IS_NPC(ch) ? ch->short_descr : ch->name;
 	obj		= create_object( get_obj_index( vnum ), 0 );
 	obj->timer	= number_range( 4, 7 );
 
-	sprintf( buf, obj->short_descr, name );
+	swprintf( buf, MAX_STRING_LENGTH-1, obj->short_descr, name );
 	free_string( obj->short_descr );
 	obj->short_descr = str_dup( buf );
 
-	sprintf( buf, obj->description, name );
+	swprintf( buf, MAX_STRING_LENGTH-1, obj->description, name );
 	free_string( obj->description );
 	obj->description = str_dup( buf );
 
@@ -2477,11 +2478,11 @@ void death_cry_org( CHAR_DATA *ch, int part )
 
 		if ( IS_NPC(ch) )
 	{
-		msg = "Birþeyin acý çýðlýðýný duyuyorsun.";
+		msg  = L"BirÅŸeyin acÄ± Ã§Ä±ÄŸlÄ±ÄŸÄ±nÄ± duyuyorsun.";
 	}
     else
 	{
-		msg = "Birinin acý çýðlýðýný duyuyorsun.";
+		msg  = L"Birinin acÄ± Ã§Ä±ÄŸlÄ±ÄŸÄ±nÄ± duyuyorsun.";
 	}
 
     was_in_room = ch->in_room;
@@ -2556,8 +2557,8 @@ void raw_kill_org( CHAR_DATA *victim, int part )
       return;
     }
 
-		send_to_char("20 dakikalýðýna yenilmez bir hayalete dönüþtün.\n\r",victim);
-	    send_to_char("Bu sýrada yürümek, içmek, yemek gibi temel þeyleri yapabileceksin.\n\r", victim);
+		send_to_char( L"20 dakikalÄ±ÄŸÄ±na yenilmez bir hayalete dÃ¶nÃ¼ÅŸtÃ¼n.\n\r",victim);
+	    send_to_char( L"Bu sÄ±rada yÃ¼rÃ¼mek, iÃ§mek, yemek gibi temel ÅŸeyleri yapabileceksin.\n\r", victim);
 
     extract_char( victim, FALSE );
 
@@ -2632,7 +2633,7 @@ void raw_kill_org( CHAR_DATA *victim, int part )
 
 void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
 {
-	char buf[MAX_STRING_LENGTH];
+	wchar_t buf[MAX_STRING_LENGTH];
 	CHAR_DATA *gch;
 	CHAR_DATA *lch;
 	int xp;
@@ -2652,7 +2653,7 @@ void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
 	{
 		if (gch->pcdata->questmob == victim->pIndexData->vnum)
 		{
-			printf_to_char(gch,"{cGörevin neredeyse tamamlandý!\n\rZamanýn bitmeden önce görevciye git!{x\n\r");
+			printf_to_char(gch, L"{cGÃ¶revin neredeyse tamamlandÄ±!\n\rZamanÄ±n bitmeden Ã¶nce gÃ¶revciye git!{x\n\r");
 			gch->pcdata->questmob = -1;
 		}
 	}
@@ -2689,19 +2690,19 @@ void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
 
 		if ( gch->level - lch->level > 8 )
 		{
-			send_to_char("Seviyen bu gruba girebilmek için fazla.\n\r", gch );
+			send_to_char( L"Seviyen bu gruba girebilmek iÃ§in fazla.\n\r", gch );
 			continue;
 		}
 
 		if ( gch->level - lch->level < -8 )
 		{
-			send_to_char( "Seviyen bu gruba girebilmek için az.\n\r", gch );
+			send_to_char( L"Seviyen bu gruba girebilmek iÃ§in az.\n\r", gch );
 			continue;
 		}
 
 		if ( IS_SET(ch->act,PLR_NO_DESCRIPTION) )
 		{
-			printf_to_char( ch,"{rEn az 350 karakterlik tanýmýn olmadan TP kazanamazsýn!{x\n\r" );
+			printf_to_char( ch, L"{rEn az 350 karakterlik tanÄ±mÄ±n olmadan TP kazanamazsÄ±n!{x\n\r" );
 		}
 		else
 		{
@@ -2709,11 +2710,11 @@ void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
 
 			if( ikikat_tp > 0 )
 			{
-					printf_to_char( ch , "{CÝki kat TP kazanma etkinliði nedeniyle kazandýðýn TP artýyor.{x\n\r" );
+					printf_to_char( ch , L"{CÄ°ki kat TP kazanma etkinliÄŸi nedeniyle kazandÄ±ÄŸÄ±n TP artÄ±yor.{x\n\r" );
 					xp *= 2;
 			}
 
-			sprintf( buf, "{g%d tecrübe puaný kazandýn.{x\n\r", xp );
+			swprintf( buf, MAX_STRING_LENGTH-1, L"{g%d tecrÃ¼be puanÄ± kazandÄ±n.{x\n\r", xp );
 			send_to_char( buf, gch );
 			gain_exp( gch, xp );
 		}
@@ -2729,8 +2730,8 @@ void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
 			||   ( IS_OBJ_STAT(obj, ITEM_ANTI_GOOD)    && IS_GOOD(ch)    )
 			||   ( IS_OBJ_STAT(obj, ITEM_ANTI_NEUTRAL) && IS_NEUTRAL(ch) ) )
 			{
-				act( "Sen $p tarafýndan çarpýldýn.", ch, obj, NULL, TO_CHAR );
-				act( "$n $p tarafýndan çarpýldý.",   ch, obj, NULL, TO_ROOM );
+				act( L"Sen $p tarafÄ±ndan Ã§arpÄ±ldÄ±n.", ch, obj, NULL, TO_CHAR );
+				act( L"$n $p tarafÄ±ndan Ã§arpÄ±ldÄ±.",   ch, obj, NULL, TO_ROOM );
 				obj_from_char( obj );
 				obj_to_room( obj, ch->in_room );
 			}
@@ -2847,10 +2848,10 @@ int xp_compute(CHAR_DATA *gch, CHAR_DATA *victim, int total_levels,int members)
   {
 		if ( (gch->pcdata->anti_killed % 100) == 99 )
 		{
-			printf_to_char(gch,"Þimdiye kadar %d adet seninle ayný yönelime sahip canlý öldürdün.",gch->pcdata->anti_killed);
+			printf_to_char(gch, L"Åžimdiye kadar %d adet seninle aynÄ± yÃ¶nelime sahip canlÄ± Ã¶ldÃ¼rdÃ¼n.",gch->pcdata->anti_killed);
 			if (gch->perm_stat[STAT_CHA] > 3)
 			{
-				printf_to_char(gch,"Bu yüzden karizman bir azaldý.\n\r");
+				printf_to_char(gch, L"Bu yÃ¼zden karizman bir azaldÄ±.\n\r");
 				gch->perm_stat[STAT_CHA] -= 1;
 			}
 		}
@@ -2859,10 +2860,10 @@ int xp_compute(CHAR_DATA *gch, CHAR_DATA *victim, int total_levels,int members)
 	{
 		if ( (gch->pcdata->has_killed % 200) == 199 )
 		{
-			printf_to_char(gch,"Þimdiye kadar %d adet seninle ayný yönelime sahip olmayan canlý öldürdün.",gch->pcdata->has_killed);
+			printf_to_char(gch, L"Åžimdiye kadar %d adet seninle aynÄ± yÃ¶nelime sahip olmayan canlÄ± Ã¶ldÃ¼rdÃ¼n.",gch->pcdata->has_killed);
 			if ( gch->perm_stat[STAT_CHA] < get_max_train( gch, STAT_CHA ) )
 			{
-				printf_to_char(gch,"Bu yüzden karizman bir arttý.\n\r");
+				printf_to_char(gch, L"Bu yÃ¼zden karizman bir arttÄ±.\n\r");
 				gch->perm_stat[STAT_CHA] += 1;
 			}
 		}
@@ -2870,7 +2871,7 @@ int xp_compute(CHAR_DATA *gch, CHAR_DATA *victim, int total_levels,int members)
 
 	if(IS_SET(gch->pcdata->dilek,DILEK_FLAG_TECRUBE))
 	{
-		printf_to_char( gch , "{CTecrübe dileðin sayesinde kazandýðýn TP artýyor.{x\n\r" );
+		printf_to_char( gch , L"{CTecrÃ¼be dileÄŸin sayesinde kazandÄ±ÄŸÄ±n TP artÄ±yor.{x\n\r" );
 		xp *= 2;
 	}
 
@@ -2880,51 +2881,51 @@ int xp_compute(CHAR_DATA *gch, CHAR_DATA *victim, int total_levels,int members)
 
 void dam_message( CHAR_DATA *ch, CHAR_DATA *victim,int dam,int dt,bool immune ,int dam_type)
 {
-    char buf1[256], buf2[256], buf3[256];
-    const char *vs;
-    const char *vp;
-    const char *attack;
-    char punct;
+    wchar_t buf1[256], buf2[256], buf3[256];
+    const wchar_t *vs;
+    const wchar_t *vp;
+    const wchar_t *attack;
+    wchar_t punct;
 
-		if ( dam ==   0 ) { vs = "ýskaladýn";	vp = "ýskaladý";		}
-     else if ( dam <=   4 ) { vs = "çizdin";	vp = "çizdi";	}//örseledin,ufaladýn
-     else if ( dam <=   8 ) { vs = "sýyýrdýn";	vp = "sýyýrdý";		}//katlettin
-     else if ( dam <=  12 ) { vs = "týrmaladýn";	vp = "týrmaladý";		}
-     else if ( dam <=  16 ) { vs = "örseledin";	vp = "örseledi";		}
-     else if ( dam <=  20 ) { vs = "hýrpaladýn";	vp = "hýrpaladý";		}//sildin,
-     else if ( dam <=  24 ) { vs = "yýprattýn";       vp = "yýprattý";		}
-     else if ( dam <=  28 ) { vs = "yaraladýn";	vp = "yaraladý";	}
-     else if ( dam <=  32 ) { vs = "kestin";	vp = "kesti";	}//zedelemek
-     else if ( dam <=  36 ) { vs = "biçtin";	vp = "biçti";		}//un ufak etmek
-     else if ( dam <=  42 ) { vs = "PARÇALADIN";	vp = "PARÇALADI";	}//becermek
-     else if ( dam <=  52 ) { vs = "DOÐRADIN";	vp = "DOÐRADI";	}//tepelemek
-     else if ( dam <=  65 ) { vs = "-YIKIMA UÐRATTIN-";	vp = "-YIKIMA UÐRATTI-";	}//öptün
-     else if ( dam <=  80 ) { vs = "*KAZIDIN*";	vp = "*KAZIDI*";	}
-     else if ( dam <=  100 ) { vs = "**KÖTÜRÜM ETTÝN**";	vp = "**KÖTÜRÜM ETTÝ**";		}
-     else if ( dam <=  130 ) { vs = "*** HARAP ETTÝN ***";//eline vermek
- 			     vp = "*** HARAP ETTÝ ***";			}
-     else if ( dam <= 175 ) { vs = "*** MAHVETTÝN ***";
- 			     vp = "*** MAHVETTÝ ***";			}
-     else if ( dam <= 250)  { vs = "=== SÝLDÝN ===";
- 			     vp = "=== SÝLDÝ ===";		}
-     else if ( dam <= 325)  { vs = "==== BOZGUNA UÐRATTIN ====";
- 			     vp = "==== BOZGUNA UÐRATTI ====";	}
-     else if ( dam <= 400)  { vs = "<*> <*> KANA BOÐDUN <*> <*>";
- 			     vp = "<*> <*> KANA BOÐDU <*> <*>";	}
-     else if ( dam <= 500)  { vs = "<*>!<*> TELEF ETTÝN <*>!<*>";
- 			     vp = "<*>!<*> TELEF ETTÝ <*>!<*>";	}
-     else if ( dam <= 650)  { vs = "<*><*><*> REZÝL ETTÝN <*><*><*>";
- 			     vp = "<*><*><*> REZÝL ETTÝ <*><*><*>";	}
-     else if ( dam <= 800)  { vs = "(<*>)!(<*>) KATLETTÝN (<*>)!(<*>)";
- 			     vp = "(<*>)!(<*>) KATLETTÝ (<*>)!(<*>)";}
-     else if ( dam <= 1000)  { vs = "(*)!(*)!(*) UN UFAK ETTÝN (*)!(*)!(*)";
- 			     vp = "(*)!(*)!(*) UN UFAK ETTÝ (*)!(*)!(*)";	}
-     else if ( dam <= 1250)  { vs = "(*)!<*>!(*) ATOMLARINA AYIRDIN (*)!<*>!(*)";
- 			     vp = "(*)!<*>!(*) ATOMLARINA AYIRDI (*)!<*>!(*)";	}
-     else if ( dam <= 1500)  { vs = "<*>!(*)!<*>> ÖpTüN <<*)!(*)!<*>";
- 			     vp = "<*>!(*)!<*>> ÖpTü <<*)!(*)!<*>";	}
-     else                   { vs = "\007=<*) (*>= ! ÖpTüN ! =<*) (*>=\007";
- 			     vp = "\007=<*) (*>= ! ÖpTü ! =<*) (*>=\007";}
+		if ( dam ==   0 ) { vs = L"Ä±skaladÄ±n";	vp = L"Ä±skaladÄ±";		}
+     else if ( dam <=   4 ) { vs = L"Ã§izdin";	vp = L"Ã§izdi";	}//Ã¶rseledin,ufaladÄ±n
+     else if ( dam <=   8 ) { vs = L"sÄ±yÄ±rdÄ±n";	vp = L"sÄ±yÄ±rdÄ±";		}//katlettin
+     else if ( dam <=  12 ) { vs = L"tÄ±rmaladÄ±n";	vp = L"tÄ±rmaladÄ±";		}
+     else if ( dam <=  16 ) { vs = L"Ã¶rseledin";	vp = L"Ã¶rseledi";		}
+     else if ( dam <=  20 ) { vs = L"hÄ±rpaladÄ±n";	vp = L"hÄ±rpaladÄ±";		}//sildin,
+     else if ( dam <=  24 ) { vs = L"yÄ±prattÄ±n";       vp = L"yÄ±prattÄ±";		}
+     else if ( dam <=  28 ) { vs = L"yaraladÄ±n";	vp = L"yaraladÄ±";	}
+     else if ( dam <=  32 ) { vs = L"kestin";	vp = L"kesti";	}//zedelemek
+     else if ( dam <=  36 ) { vs = L"biÃ§tin";	vp = L"biÃ§ti";		}//un ufak etmek
+     else if ( dam <=  42 ) { vs = L"PARÃ‡ALADIN";	vp = L"PARÃ‡ALADI";	}//becermek
+     else if ( dam <=  52 ) { vs = L"DOÄžRADIN";	vp = L"DOÄžRADI";	}//tepelemek
+     else if ( dam <=  65 ) { vs = L"-YIKIMA UÄžRATTIN-";	vp = L"-YIKIMA UÄžRATTI-";	}//Ã¶ptÃ¼n
+     else if ( dam <=  80 ) { vs = L"*KAZIDIN*";	vp = L"*KAZIDI*";	}
+     else if ( dam <=  100 ) { vs = L"**KÃ–TÃœRÃœM ETTÄ°N**";	vp = L"**KÃ–TÃœRÃœM ETTÄ°**";		}
+     else if ( dam <=  130 ) { vs = L"*** HARAP ETTÄ°N ***";//eline vermek
+ 			     vp = L"*** HARAP ETTÄ° ***";			}
+     else if ( dam <= 175 ) { vs = L"*** MAHVETTÄ°N ***";
+ 			     vp = L"*** MAHVETTÄ° ***";			}
+     else if ( dam <= 250)  { vs = L"=== SÄ°LDÄ°N ===";
+ 			     vp = L"=== SÄ°LDÄ° ===";		}
+     else if ( dam <= 325)  { vs = L"==== BOZGUNA UÄžRATTIN ====";
+ 			     vp = L"==== BOZGUNA UÄžRATTI ====";	}
+     else if ( dam <= 400)  { vs = L"<*> <*> KANA BOÄžDUN <*> <*>";
+ 			     vp = L"<*> <*> KANA BOÄžDU <*> <*>";	}
+     else if ( dam <= 500)  { vs = L"<*>!<*> TELEF ETTÄ°N <*>!<*>";
+ 			     vp = L"<*>!<*> TELEF ETTÄ° <*>!<*>";	}
+     else if ( dam <= 650)  { vs = L"<*><*><*> REZÄ°L ETTÄ°N <*><*><*>";
+ 			     vp = L"<*><*><*> REZÄ°L ETTÄ° <*><*><*>";	}
+     else if ( dam <= 800)  { vs = L"(<*>)!(<*>) KATLETTÄ°N (<*>)!(<*>)";
+ 			     vp = L"(<*>)!(<*>) KATLETTÄ° (<*>)!(<*>)";}
+     else if ( dam <= 1000)  { vs = L"(*)!(*)!(*) UN UFAK ETTÄ°N (*)!(*)!(*)";
+ 			     vp = L"(*)!(*)!(*) UN UFAK ETTÄ° (*)!(*)!(*)";	}
+     else if ( dam <= 1250)  { vs = L"(*)!<*>!(*) ATOMLARINA AYIRDIN (*)!<*>!(*)";
+ 			     vp = L"(*)!<*>!(*) ATOMLARINA AYIRDI (*)!<*>!(*)";	}
+     else if ( dam <= 1500)  { vs = L"<*>!(*)!<*>> Ã–pTÃ¼N <<*)!(*)!<*>";
+ 			     vp = L"<*>!(*)!<*>> Ã–pTÃ¼ <<*)!(*)!<*>";	}
+     else                   { vs = L"\007=<*) (*>= ! Ã–pTÃ¼N ! =<*) (*>=\007";
+ 			     vp = L"\007=<*) (*>= ! Ã–pTÃ¼ ! =<*) (*>=\007";}
 
     if (victim->level < 20 )	punct   = (dam <= 24) ? '.' : '!';
     else if (victim->level < 50)  punct = (dam <= 50 ) ? '.' : '!';
@@ -2936,35 +2937,35 @@ void dam_message( CHAR_DATA *ch, CHAR_DATA *victim,int dam,int dt,bool immune ,i
 	{
 	  if ( dam_type == DAM_HUNGER )
 	  {
-			sprintf( buf1, "Açlýðý $m $C%s$c%c [%d]",vp,punct,dam);
-		    sprintf( buf2, "Açlýðýn seni $C%s$c%c [%d]",vs,punct,dam);
+			swprintf( buf1, 256-1, L"AÃ§lÄ±ÄŸÄ± $m $C%s$c%c [%d]",vp,punct,dam);
+		    swprintf( buf2, 256-1, L"AÃ§lÄ±ÄŸÄ±n seni $C%s$c%c [%d]",vs,punct,dam);
 	  }
 
 	  else if ( dam_type == DAM_THIRST )
 	  {
-			sprintf( buf1, "Susuzluðu $m $C%s$c%c [%d]",vp,punct,dam);
-		    sprintf( buf2, "Susuzluðun seni $C%s$c%c [%d]",vs,punct,dam);
+			swprintf( buf1, 256-1, L"SusuzluÄŸu $m $C%s$c%c [%d]",vp,punct,dam);
+		    swprintf( buf2, 256-1, L"SusuzluÄŸun seni $C%s$c%c [%d]",vs,punct,dam);
 	  }
 	  else if ( dam_type == DAM_LIGHT_V )
 	  {
-			sprintf( buf1, "Odadaki ýþýk $m $C%s$c%c [%d]",vp,punct,dam);
-		    sprintf( buf2, "Odadaki ýþýk seni $C%s$c%c [%d]",vs,punct,dam);
+			swprintf( buf1, 256-1, L"Odadaki Ä±ÅŸÄ±k $m $C%s$c%c [%d]",vp,punct,dam);
+		    swprintf( buf2, 256-1, L"Odadaki Ä±ÅŸÄ±k seni $C%s$c%c [%d]",vs,punct,dam);
 	  }
 	  else if ( dam_type == DAM_TRAP_ROOM )
 	  {
-			sprintf( buf1, "Odadaki tuzak $m $C%s$c%c [%d]",vp,punct,dam);
-		    sprintf( buf2, "Odadaki tuzak seni $C%s$c%c [%d]",vs,punct,dam);
+			swprintf( buf1, 256-1, L"Odadaki tuzak $m $C%s$c%c [%d]",vp,punct,dam);
+		    swprintf( buf2, 256-1, L"Odadaki tuzak seni $C%s$c%c [%d]",vs,punct,dam);
 	  }
 	  else {
-			sprintf( buf1, "$n kendini $C%s$c%c [%d]",vp,punct,dam);
-		    sprintf( buf2, "Sen kendini $C%s$c%c [%d]",vs,punct,dam);
+			swprintf( buf1, 256-1, L"$n kendini $C%s$c%c [%d]",vp,punct,dam);
+		    swprintf( buf2, 256-1, L"Sen kendini $C%s$c%c [%d]",vs,punct,dam);
 		}
 	}
 	else
 	{
-		sprintf( buf1, "$n $M $C%s$c%c [%d]",  vp, punct,dam );
-	    sprintf( buf2, "Sen $M $C%s$c%c [%d]", vs, punct,dam );
-	    sprintf( buf3, "$n seni $C%s$c%c [%d]", vp, punct,dam );
+		swprintf( buf1, 256-1, L"$n $M $C%s$c%c [%d]",  vp, punct,dam );
+	    swprintf( buf2, 256-1, L"Sen $M $C%s$c%c [%d]", vs, punct,dam );
+	    swprintf( buf3, 256-1, L"$n seni $C%s$c%c [%d]", vp, punct,dam );
 	}
     }
 
@@ -2977,7 +2978,7 @@ void dam_message( CHAR_DATA *ch, CHAR_DATA *victim,int dam,int dt,bool immune ,i
 	    attack	= attack_table[dt - TYPE_HIT].noun;
 	else
 	{
-	    bug( "Dam_message: bad dt %d.", dt );
+	    bug( L"Dam_message: bad dt %d.", dt );
 	    dt  = TYPE_HIT;
 	    attack  = attack_table[0].name;
 	}
@@ -2986,28 +2987,28 @@ void dam_message( CHAR_DATA *ch, CHAR_DATA *victim,int dam,int dt,bool immune ,i
 	{
 	    if (ch == victim)
 	    {
-				sprintf(buf1,"$n kendi %s saldýrýsýndan etkilenmedi.",attack);
-				sprintf(buf2,"Þans eseri bu tip bir saldýrý seni etkilemiyor.");
+				swprintf(buf1, 256-1, L"$n kendi %s saldÄ±rÄ±sÄ±ndan etkilenmedi.",attack);
+				swprintf(buf2, 256-1, L"Åžans eseri bu tip bir saldÄ±rÄ± seni etkilemiyor.");
 	    }
 	    else
 	    {
-				sprintf(buf1,"$N $s %s saldýrýsýndan etkilenmedi!",attack);
-		    	sprintf(buf2,"$N senin %s saldýrýndan etkilenmedi!",attack);
-		    	sprintf(buf3,"$s %s saldýrýsý sana karþý güçsüz kaldý.",attack);
+				swprintf(buf1, 256-1, L"$N $s %s saldÄ±rÄ±sÄ±ndan etkilenmedi!",attack);
+		    	swprintf(buf2, 256-1, L"$N senin %s saldÄ±rÄ±ndan etkilenmedi!",attack);
+		    	swprintf(buf3, 256-1, L"$s %s saldÄ±rÄ±sÄ± sana karÅŸÄ± gÃ¼Ã§sÃ¼z kaldÄ±.",attack);
 	    }
 	}
 	else
 	{
 	    if (ch == victim)
 	    {
-				sprintf( buf1, "$s %s saldýrýsýyla kendini $C%s$c%c [%d]",attack,vp,punct,dam);
-				sprintf( buf2, "%s saldýrýnla kendini $C%s$c%c [%d]",attack,vp,punct,dam);
+				swprintf( buf1, 256-1, L"$s %s saldÄ±rÄ±sÄ±yla kendini $C%s$c%c [%d]",attack,vp,punct,dam);
+				swprintf( buf2, 256-1, L"%s saldÄ±rÄ±nla kendini $C%s$c%c [%d]",attack,vp,punct,dam);
 	    }
 	    else
 	    {
-				sprintf( buf1, "$s %s saldýrýsý $M $C%s$c%c [%d]",  attack, vp, punct,dam );
-		    	sprintf( buf2, "%s saldýrýn $M $C%s$c%c [%d]",  attack, vp, punct,dam );
-		    	sprintf( buf3, "$s %s saldýrýsý seni $C%s$c%c [%d]", attack, vp, punct,dam );
+				swprintf( buf1, 256-1, L"$s %s saldÄ±rÄ±sÄ± $M $C%s$c%c [%d]",  attack, vp, punct,dam );
+		    	swprintf( buf2, 256-1, L"%s saldÄ±rÄ±n $M $C%s$c%c [%d]",  attack, vp, punct,dam );
+		    	swprintf( buf3, 256-1, L"$s %s saldÄ±rÄ±sÄ± seni $C%s$c%c [%d]", attack, vp, punct,dam );
 	    }
 	}
     }
@@ -3028,9 +3029,9 @@ void dam_message( CHAR_DATA *ch, CHAR_DATA *victim,int dam,int dt,bool immune ,i
 }
 
 
-void do_kill( CHAR_DATA *ch, char *argument )
+void do_kill( CHAR_DATA *ch, wchar_t *argument )
 {
-    char arg[MAX_INPUT_LENGTH];
+    wchar_t arg[MAX_INPUT_LENGTH];
     CHAR_DATA *victim;
     OBJ_DATA *wield;
 
@@ -3038,13 +3039,13 @@ void do_kill( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' )
     {
-			send_to_char( "Kimi öldüreceksin?\n\r", ch );
+			send_to_char( L"Kimi Ã¶ldÃ¼receksin?\n\r", ch );
 	return;
     }
 
     if ( ( victim = get_char_room( ch, arg ) ) == NULL )
     {
-			send_to_char("Burada deðil.\n\r", ch);
+			send_to_char( L"Burada deÄŸil.\n\r", ch);
 	return;
     }
 
@@ -3054,12 +3055,12 @@ void do_kill( CHAR_DATA *ch, char *argument )
     if ( ch->position == POS_FIGHTING)
     {
       if (victim == ch->fighting)
-			send_to_char( "Yapabileceðinin en iyisi bu!\n\r", ch );
+			send_to_char( L"YapabileceÄŸinin en iyisi bu!\n\r", ch );
 		      else if (victim->fighting != ch)
-			send_to_char("Ayný anda tek dövüþ, lütfen.\n\r",ch);
+			send_to_char( L"AynÄ± anda tek dÃ¶vÃ¼ÅŸ, lÃ¼tfen.\n\r",ch);
       else
 	{
-		act( "$E yöneldin.",ch,NULL,victim,TO_CHAR);
+		act( L"$E yÃ¶neldin.",ch,NULL,victim,TO_CHAR);
 	  ch->fighting = victim;
 	}
 	return;
@@ -3067,13 +3068,13 @@ void do_kill( CHAR_DATA *ch, char *argument )
 
     if ( !IS_NPC(victim) )
     {
-			send_to_char("Oyuncularý KATLETmelisin.\n\r", ch );
+			send_to_char( L"OyuncularÄ± KATLETmelisin.\n\r", ch );
         return;
     }
 
     if ( victim == ch )
     {
-			send_to_char( "Kendine vuruyorsun.  Aaah!\n\r", ch );
+			send_to_char( L"Kendine vuruyorsun.  Aaah!\n\r", ch );
 	multi_hit( ch, ch, TYPE_UNDEFINED );
 	return;
     }
@@ -3081,7 +3082,7 @@ void do_kill( CHAR_DATA *ch, char *argument )
 
     if ( IS_AFFECTED(ch, AFF_CHARM) && ch->master == victim )
     {
-			act("$N senin pek sevgili efendin.", ch, NULL, victim, TO_CHAR );
+			act( L"$N senin pek sevgili efendin.", ch, NULL, victim, TO_CHAR );
 	return;
     }
 
@@ -3097,11 +3098,11 @@ void do_kill( CHAR_DATA *ch, char *argument )
       chance += (ch->level - victim->level) / 2;
       if (number_percent() < chance)
 	{
-		act_color("$CAni saldýrýn $M öldürdü!$c",
+		act_color( L"$CAni saldÄ±rÄ±n $M Ã¶ldÃ¼rdÃ¼!$c",
 			ch,NULL,victim,TO_CHAR,POS_RESTING,CLR_RED);
-		act_color("$C$s ani saldýrýsý $M öldürdü!$c",
+		act_color( L"$C$s ani saldÄ±rÄ±sÄ± $M Ã¶ldÃ¼rdÃ¼!$c",
 			ch,NULL,victim,TO_NOTVICT,POS_RESTING,CLR_RED);
-		act_color("$C$s ani saldýrýsý seni öldürdü!$c",
+		act_color( L"$C$s ani saldÄ±rÄ±sÄ± seni Ã¶ldÃ¼rdÃ¼!$c",
 		ch,NULL,victim,TO_VICT,POS_DEAD,CLR_RED);
 	 damage(ch,victim,(victim->hit + 1),gsn_mortal_strike,DAM_NONE, TRUE);
 	 check_improve( ch,gsn_mortal_strike, TRUE, 1);
@@ -3116,18 +3117,18 @@ void do_kill( CHAR_DATA *ch, char *argument )
 
 
 
-void do_murde( CHAR_DATA *ch, char *argument )
+void do_murde( CHAR_DATA *ch, wchar_t *argument )
 {
-	send_to_char( "KATLETmek istiyorsan tam olarak yaz.\n\r", ch );
+	send_to_char( L"KATLETmek istiyorsan tam olarak yaz.\n\r", ch );
     return;
 }
 
 
 
-void do_murder( CHAR_DATA *ch, char *argument )
+void do_murder( CHAR_DATA *ch, wchar_t *argument )
 {
-    char buf[MAX_STRING_LENGTH];
-    char arg[MAX_INPUT_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
+    wchar_t arg[MAX_INPUT_LENGTH];
     CHAR_DATA *victim;
     OBJ_DATA *wield;
 
@@ -3135,7 +3136,7 @@ void do_murder( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' )
     {
-			send_to_char( "Kimi katledeceksin?\n\r", ch );
+			send_to_char( L"Kimi katledeceksin?\n\r", ch );
 	return;
     }
 
@@ -3144,13 +3145,13 @@ void do_murder( CHAR_DATA *ch, char *argument )
 
     if ( ( victim = get_char_room( ch, arg ) ) == NULL )
     {
-			send_to_char("Burada deðil.\n\r", ch);
+			send_to_char( L"Burada deÄŸil.\n\r", ch);
 	return;
     }
 
     if ( victim == ch )
     {
-			send_to_char( "Ýntihar günahtýr.\n\r", ch );
+			send_to_char( L"Ä°ntihar gÃ¼nahtÄ±r.\n\r", ch );
 	return;
     }
 
@@ -3159,25 +3160,25 @@ void do_murder( CHAR_DATA *ch, char *argument )
 
     if ( IS_AFFECTED(ch, AFF_CHARM) && ch->master == victim )
     {
-			act( "$N senin pek sevgili efendin.", ch, NULL, victim, TO_CHAR );
+			act( L"$N senin pek sevgili efendin.", ch, NULL, victim, TO_CHAR );
 	return;
     }
 
     if ( ch->position == POS_FIGHTING )
     {
-			send_to_char( "Yapabileceðinin en iyisi bu!\n\r", ch );
+			send_to_char( L"YapabileceÄŸinin en iyisi bu!\n\r", ch );
 	return;
     }
 
     WAIT_STATE( ch, 1 * PULSE_VIOLENCE );
     if (!can_see(victim, ch))
-      do_yell(victim, (char*)"Ýmdat! Biri bana saldýrýyor!");
+      do_yell(victim, (wchar_t*)"Ä°mdat! Biri bana saldÄ±rÄ±yor!");
     else
       {
 	if (IS_NPC(ch))
-	sprintf(buf, "Ýmdat! %s bana saldýrýyor!",ch->short_descr);
+	swprintf( buf, MAX_STRING_LENGTH-1, L"Ä°mdat! %s bana saldÄ±rÄ±yor!",ch->short_descr);
 	else
-	  sprintf( buf, "Ýmdat!  %s bana saldýrýyor!",
+	  swprintf( buf, MAX_STRING_LENGTH-1, L"Ä°mdat!  %s bana saldÄ±rÄ±yor!",
 		  (is_affected(ch,gsn_doppelganger) && !IS_IMMORTAL(victim)) ?
 		  ch->doppel->name : ch->name );
 	do_yell( victim, buf );
@@ -3192,11 +3193,11 @@ void do_murder( CHAR_DATA *ch, char *argument )
       chance += (ch->level - victim->level) / 2;
       if (number_percent() < chance)
 	{
-		act_color("$CAni saldýrýn $M öldürdü!$c",
+		act_color( L"$CAni saldÄ±rÄ±n $M Ã¶ldÃ¼rdÃ¼!$c",
 			ch,NULL,victim,TO_CHAR,POS_RESTING,CLR_RED);
-		act_color("$C$s ani saldýrýsý $M öldürdü!$c",
+		act_color( L"$C$s ani saldÄ±rÄ±sÄ± $M Ã¶ldÃ¼rdÃ¼!$c",
 			ch,NULL,victim,TO_NOTVICT,POS_RESTING,CLR_RED);
-		act_color("$C$s ani saldýrýsý seni öldürdü!$c",
+		act_color( L"$C$s ani saldÄ±rÄ±sÄ± seni Ã¶ldÃ¼rdÃ¼!$c",
 		ch,NULL,victim,TO_VICT,POS_DEAD,CLR_RED);
 	 damage(ch,victim,(victim->hit + 1),gsn_mortal_strike,DAM_NONE, TRUE);
 	 check_improve( ch,gsn_mortal_strike, TRUE, 1);
@@ -3210,7 +3211,7 @@ void do_murder( CHAR_DATA *ch, char *argument )
 }
 
 
-void do_flee( CHAR_DATA *ch, char *argument )
+void do_flee( CHAR_DATA *ch, wchar_t *argument )
 {
     ROOM_INDEX_DATA *was_in;
     ROOM_INDEX_DATA *now_in;
@@ -3219,24 +3220,24 @@ void do_flee( CHAR_DATA *ch, char *argument )
 
     if (RIDDEN(ch))
     {
-			send_to_char( "Binicine sormalýsýn!\n\r", ch );
+			send_to_char( L"Binicine sormalÄ±sÄ±n!\n\r", ch );
 	return;
     }
 
     if (MOUNTED(ch))
-	do_dismount(ch,(char*)"");
+	do_dismount(ch,(wchar_t*)"");
 
     if ( ( victim = ch->fighting ) == NULL )
     {
         if ( ch->position == POS_FIGHTING )
             ch->position = POS_STANDING;
-						send_to_char("Kimseyle dövüþmüyorsun.\n\r", ch );
+						send_to_char( L"Kimseyle dÃ¶vÃ¼ÅŸmÃ¼yorsun.\n\r", ch );
 	return;
     }
 
     if ((ch->iclass == 9) && (ch->level >=10) )
 	{
-		send_to_char( "Onurun kaçmana izin vermiyor, kendini dishonor etmeyi dene.\n\r", ch );
+		send_to_char( L"Onurun kaÃ§mana izin vermiyor, kendini dishonor etmeyi dene.\n\r", ch );
 	 return;
 	}
 
@@ -3262,12 +3263,12 @@ void do_flee( CHAR_DATA *ch, char *argument )
 	    continue;
 
 	ch->in_room = was_in;
-	act( "$n kaçtý!", ch, NULL, NULL, TO_ROOM );
+	act( L"$n kaÃ§tÄ±!", ch, NULL, NULL, TO_ROOM );
 	ch->in_room = now_in;
 
 	if ( !IS_NPC(ch) )
 	{
-		send_to_char( "Dövüþten kaçtýn!  10 TP kaybettin.\n\r", ch );
+		send_to_char( L"DÃ¶vÃ¼ÅŸten kaÃ§tÄ±n!  10 TP kaybettin.\n\r", ch );
 	    if ((ch->iclass == 9) && (ch->level >=10) )
 			gain_exp( ch,( -1 * ch->level ) );
 	    else  gain_exp( ch, -10 );
@@ -3279,54 +3280,54 @@ void do_flee( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-		send_to_char("PANÝK! Kaçamadýn!\n\r", ch );
+		send_to_char( L"PANÄ°K! KaÃ§amadÄ±n!\n\r", ch );
     return;
 }
 
 
 
-void do_sla( CHAR_DATA *ch, char *argument )
+void do_sla( CHAR_DATA *ch, wchar_t *argument )
 {
-	send_to_char("SLAY etmek istiyorsan komutu tam yazmalýsýn.\n\r", ch );
+	send_to_char( L"SLAY etmek istiyorsan komutu tam yazmalÄ±sÄ±n.\n\r", ch );
     return;
 }
 
 
 
-void do_slay( CHAR_DATA *ch, char *argument )
+void do_slay( CHAR_DATA *ch, wchar_t *argument )
 {
     CHAR_DATA *victim;
-    char arg[MAX_INPUT_LENGTH];
+    wchar_t arg[MAX_INPUT_LENGTH];
 
     one_argument( argument, arg );
     if ( arg[0] == '\0' )
     {
-			send_to_char( "Kimi?\n\r", ch );
+			send_to_char( L"Kimi?\n\r", ch );
 	return;
     }
 
     if ( ( victim = get_char_room( ch, arg ) ) == NULL )
     {
-			send_to_char("Burada deðil.\n\r", ch);
+			send_to_char( L"Burada deÄŸil.\n\r", ch);
 	return;
     }
 
     if ( ch == victim )
     {
-			send_to_char("Ýntihar günahtýr.\n\r", ch );
+			send_to_char( L"Ä°ntihar gÃ¼nahtÄ±r.\n\r", ch );
 	return;
     }
 
     if ( !IS_NPC(victim) && victim->level >= get_trust(ch)
 	 && !(IS_NPC(ch) && ch->cabal != CABAL_NONE && !IS_IMMORTAL(victim)) )
     {
-			send_to_char("Baþaramadýn.\n\r",ch );
+			send_to_char( L"BaÅŸaramadÄ±n.\n\r",ch );
 	return;
     }
 
-		act("$M yokettin!",  ch, NULL, victim, TO_CHAR    );
-    act("$n seni yoketti!", ch, NULL, victim, TO_VICT    );
-    act("$n $M yoketti!",  ch, NULL, victim, TO_NOTVICT );
+		act( L"$M yokettin!",  ch, NULL, victim, TO_CHAR    );
+    act( L"$n seni yoketti!", ch, NULL, victim, TO_VICT    );
+    act( L"$n $M yoketti!",  ch, NULL, victim, TO_NOTVICT );
     raw_kill( victim );
     return;
 }
@@ -3362,16 +3363,16 @@ bool check_obj_dodge( CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DATA *obj, int bonus
     if (!IS_NPC(victim) && victim->cabal == CABAL_BATTLE
 	  && IS_SET(victim->act,PLR_CANINDUCT))
     {
-			act( "Sana atýlan $p objesini yakalýyorsun.",ch,obj,victim,TO_VICT);
-      act("$N kendisine atýlan $p objesini yakalýyor.",ch,obj,victim,TO_CHAR);
-      act("$n kendisine atýlan $p objesini yakalýyor.",victim,obj,ch,TO_NOTVICT);
+			act( L"Sana atÄ±lan $p objesini yakalÄ±yorsun.",ch,obj,victim,TO_VICT);
+      act( L"$N kendisine atÄ±lan $p objesini yakalÄ±yor.",ch,obj,victim,TO_CHAR);
+      act( L"$n kendisine atÄ±lan $p objesini yakalÄ±yor.",victim,obj,ch,TO_NOTVICT);
      obj_to_char(obj,victim);
      return TRUE;
     }
 
-		act("Sana atýlan $p objesinden sýyrýlýyorsun.",ch,obj,victim,TO_VICT);
-    act("$N kendisine atýlan $p objesinden sýyrýlýyor.",ch,obj,victim,TO_CHAR);
-    act("$n kendisine atýlan $p objesinden sýyrýlýyor.",victim,obj,ch,TO_NOTVICT);
+		act( L"Sana atÄ±lan $p objesinden sÄ±yrÄ±lÄ±yorsun.",ch,obj,victim,TO_VICT);
+    act( L"$N kendisine atÄ±lan $p objesinden sÄ±yrÄ±lÄ±yor.",ch,obj,victim,TO_CHAR);
+    act( L"$n kendisine atÄ±lan $p objesinden sÄ±yrÄ±lÄ±yor.",victim,obj,ch,TO_NOTVICT);
     obj_to_room(obj,victim->in_room);
     check_improve(victim,gsn_dodge,TRUE,6);
 
@@ -3380,23 +3381,23 @@ bool check_obj_dodge( CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DATA *obj, int bonus
 
 
 
-void do_dishonor( CHAR_DATA *ch, char *argument )
+void do_dishonor( CHAR_DATA *ch, wchar_t *argument )
 {
     ROOM_INDEX_DATA *was_in;
     ROOM_INDEX_DATA *now_in;
     CHAR_DATA *gch;
-    char buf[MAX_STRING_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
     int attempt,level = 0;
 
     if (RIDDEN(ch))
     {
-			send_to_char( "Binicine sormalýsýn!\n\r", ch );
+			send_to_char( L"Binicine sormalÄ±sÄ±n!\n\r", ch );
 	return;
     }
 
     if ((ch->iclass != 9) || (ch->level <10) )
 	{
-		send_to_char("Soytarýlýk yapma...\n\r", ch );
+		send_to_char( L"SoytarÄ±lÄ±k yapma...\n\r", ch );
 	 return;
 	}
 
@@ -3404,7 +3405,7 @@ void do_dishonor( CHAR_DATA *ch, char *argument )
     {
         if ( ch->position == POS_FIGHTING )
             ch->position = POS_STANDING;
-						send_to_char("Kimseyle dövüþmüyorsun.\n\r", ch );
+						send_to_char( L"Kimseyle dÃ¶vÃ¼ÅŸmÃ¼yorsun.\n\r", ch );
 	return;
     }
 
@@ -3418,7 +3419,7 @@ void do_dishonor( CHAR_DATA *ch, char *argument )
     if ( (ch->fighting->level - ch->level) < 5
          &&  ch->level > (level / 3))
 	{
-		send_to_char("Bunu yapmaya deðmez.\n\r", ch );
+		send_to_char( L"Bunu yapmaya deÄŸmez.\n\r", ch );
 	 return;
 	}
 
@@ -3444,13 +3445,13 @@ void do_dishonor( CHAR_DATA *ch, char *argument )
 	    continue;
 
 	ch->in_room = was_in;
-	act( "$n kaçarak rezil oldu!", ch, NULL, NULL, TO_ROOM );
+	act( L"$n kaÃ§arak rezil oldu!", ch, NULL, NULL, TO_ROOM );
 	ch->in_room = now_in;
 
 	if ( !IS_NPC(ch) )
 	{
-		send_to_char( "Dövüþten kaçarak kendini rezil ettin.\n\r",ch);
-	  sprintf(buf,"%d TP kaybettin.\n\r",ch->level);
+		send_to_char( L"DÃ¶vÃ¼ÅŸten kaÃ§arak kendini rezil ettin.\n\r",ch);
+	  swprintf( buf, MAX_STRING_LENGTH-1, L"%d TP kaybettin.\n\r",ch->level);
 	  send_to_char( buf, ch );
 	  gain_exp( ch, -(ch->level) );
 	}
@@ -3459,12 +3460,12 @@ void do_dishonor( CHAR_DATA *ch, char *argument )
 
 	stop_fighting( ch, TRUE );
     	if (MOUNTED(ch))
-		do_dismount(ch,(char*)"");
+		do_dismount(ch,(wchar_t*)"");
 
 	return;
     }
 
-		send_to_char( "PANÝK! Kaçamadýn!\n\r", ch );
+		send_to_char( L"PANÄ°K! KaÃ§amadÄ±n!\n\r", ch );
     return;
 }
 
@@ -3472,7 +3473,7 @@ void do_dishonor( CHAR_DATA *ch, char *argument )
 
 bool mob_cast_cleric( CHAR_DATA *ch, CHAR_DATA *victim )
 {
-    const char *spell;
+    const wchar_t *spell;
     int sn;
 
     for ( ;; )
@@ -3481,21 +3482,21 @@ bool mob_cast_cleric( CHAR_DATA *ch, CHAR_DATA *victim )
 
         switch ( number_range(0,15) )
         {
-        case  0: min_level =  0; spell = "blindness";      break;
-        case  1: min_level =  3; spell = "cause serious";  break;
-        case  2: min_level =  7; spell = "earthquake";     break;
-        case  3: min_level =  9; spell = "cause critical"; break;
-        case  4: min_level = 10; spell = "dispel evil";    break;
-        case  5: min_level = 12; spell = "curse";          break;
-        case  6: min_level = 14; spell = "cause critical"; break;
-        case  7: min_level = 18; spell = "flamestrike";    break;
+        case  0: min_level =  0; spell = L"blindness";      break;
+        case  1: min_level =  3; spell = L"cause serious";  break;
+        case  2: min_level =  7; spell = L"earthquake";     break;
+        case  3: min_level =  9; spell = L"cause critical"; break;
+        case  4: min_level = 10; spell = L"dispel evil";    break;
+        case  5: min_level = 12; spell = L"curse";          break;
+        case  6: min_level = 14; spell = L"cause critical"; break;
+        case  7: min_level = 18; spell = L"flamestrike";    break;
         case  8:
         case  9:
-        case 10: min_level = 20; spell = "harm";           break;
-        case 11: min_level = 25; spell = "plague";         break;
+        case 10: min_level = 20; spell = L"harm";           break;
+        case 11: min_level = 25; spell = L"plague";         break;
 	case 12:
-        case 13: min_level = 45; spell = "severity force"; break;
-        default: min_level = 26; spell = "dispel magic";   break;
+        case 13: min_level = 45; spell = L"severity force"; break;
+        default: min_level = 26; spell = L"dispel magic";   break;
         }
 
         if ( ch->level >= min_level )
@@ -3512,7 +3513,7 @@ bool mob_cast_cleric( CHAR_DATA *ch, CHAR_DATA *victim )
 
 bool mob_cast_mage( CHAR_DATA *ch, CHAR_DATA *victim )
 {
-    const char *spell;
+    const wchar_t *spell;
     int sn;
 
     for ( ;; )
@@ -3521,21 +3522,21 @@ bool mob_cast_mage( CHAR_DATA *ch, CHAR_DATA *victim )
 
         switch ( number_range(0,15) )
         {
-        case  0: min_level =  0; spell = "blindness";      break;
-        case  1: min_level =  3; spell = "chill touch";    break;
-        case  2: min_level =  7; spell = "weaken";         break;
-        case  3: min_level =  9; spell = "teleport";       break;
-        case  4: min_level = 14; spell = "colour spray";   break;
-        case  5: min_level = 19; spell = "caustic font";   break;
-        case  6: min_level = 25; spell = "energy drain";   break;
+        case  0: min_level =  0; spell = L"blindness";      break;
+        case  1: min_level =  3; spell = L"chill touch";    break;
+        case  2: min_level =  7; spell = L"weaken";         break;
+        case  3: min_level =  9; spell = L"teleport";       break;
+        case  4: min_level = 14; spell = L"colour spray";   break;
+        case  5: min_level = 19; spell = L"caustic font";   break;
+        case  6: min_level = 25; spell = L"energy drain";   break;
         case  7:
         case  8:
-        case  9: min_level = 35; spell = "caustic font";       break;
-        case 10: min_level = 40; spell = "plague";         break;
+        case  9: min_level = 35; spell = L"caustic font";       break;
+        case 10: min_level = 40; spell = L"plague";         break;
 	case 11:
 	case 12:
-        case 13: min_level = 40; spell = "acid arrow";     break;
-        default: min_level = 55; spell = "acid blast";     break;
+        case 13: min_level = 40; spell = L"acid arrow";     break;
+        default: min_level = 55; spell = L"acid blast";     break;
         }
 
         if ( ch->level >= min_level )

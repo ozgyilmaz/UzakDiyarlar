@@ -3,7 +3,7 @@ Filename ruhlar_nehri.are~
 Name Ruhlar Nehri~
 Builder RM~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 50
 Highlevel 110
 Minvnum 20000
@@ -23,8 +23,8 @@ Special thanx to Serdar & Anatolia Consortium~
 #OBJECTS
 #20066
 eldiven qualyn alev kadim~
-Qualyn'in bir çift alevden eldiveni~
-Kayıp bir ruha ait bir çift alevden eldiven yerde yanıyor.~
+Qualyn'in bir Ã§ift alevden eldiveni~
+KayÄ±p bir ruha ait bir Ã§ift alevden eldiven yerde yanÄ±yor.~
 fire~
 armor 0 AH
 36 42 42 30 30
@@ -37,63 +37,63 @@ A
 24 -8
 
 #20070
-parşömen ywln~
-ywln adlı bir parşömen~
-Katlanmış haldeki bir parşömen burada.~
+parÅŸÃ¶men ywln~
+ywln adlÄ± bir parÅŸÃ¶men~
+KatlanmÄ±ÅŸ haldeki bir parÅŸÃ¶men burada.~
 vellum~
 scroll G AO
 48 'bless' 'invis' 'cure light' ''
 46 10 8520 P
 E
-parşömen~
+parÅŸÃ¶men~
 Just try to recite it and see what happen.
 ~
 #20072
-beyaz kağıt~
-beyaz bir kağıt~
-Rulo halinde bir kağıt burada.~
+beyaz kaÄŸÄ±t~
+beyaz bir kaÄŸÄ±t~
+Rulo halinde bir kaÄŸÄ±t burada.~
 vellum~
 scroll G AO
 55 'acid blast' 'burning hands' '' ''
 41 10 12100 P
 E
-parşömen~
+parÅŸÃ¶men~
 Just try to recite it and see what happen.
 ~
 #20073
-kırmızı kağıt~
-kırmızı bir kağıt~
-Rulo halinde bir kağıt burada.~
+kÄ±rmÄ±zÄ± kaÄŸÄ±t~
+kÄ±rmÄ±zÄ± bir kaÄŸÄ±t~
+Rulo halinde bir kaÄŸÄ±t burada.~
 vellum~
 scroll G AO
 55 'fireball' 'lightning ball' '' ''
 45 10 11100 P
 E
-parşömen~
+parÅŸÃ¶men~
 Just try to recite it and see what happen.
 ~
 #20074
-kağıt yeşil~
-yeşil bir kağıt~
-Rulo halinde bir kağıt burada.~
+kaÄŸÄ±t yeÅŸil~
+yeÅŸil bir kaÄŸÄ±t~
+Rulo halinde bir kaÄŸÄ±t burada.~
 vellum~
 scroll G AO
 45 'sleep' 'curse' 'weaken' 'blind'
 42 10 15900 P
 E
-parşömen~
+parÅŸÃ¶men~
 Just try to recite it and see what happen.
 ~
 #20075
-kağıt koyum mavi~
-koyu mavi bir kağıt~
-Rulo halinde bir kağıt burada.~
+kaÄŸÄ±t koyum mavi~
+koyu mavi bir kaÄŸÄ±t~
+Rulo halinde bir kaÄŸÄ±t burada.~
 vellum~
 scroll G AO
 45 'gas breath' '' '' ''
 40 10 20100 P
 E
-parşömen~
+parÅŸÃ¶men~
 Just try to recite it and see what happen.
 ~
 
@@ -132,9 +132,9 @@ A
 A
 24 -5
 #20001
-kırbaç dehşet teosaki~
-Teosaki'nin dehşeti~
-Kayıp bir ruha ait kırbaç şekline bürünmüş bir dehşet parçacığı uzanıyor.~
+kÄ±rbaÃ§ dehÅŸet teosaki~
+Teosaki'nin dehÅŸeti~
+KayÄ±p bir ruha ait kÄ±rbaÃ§ ÅŸekline bÃ¼rÃ¼nmÃ¼ÅŸ bir dehÅŸet parÃ§acÄ±ÄŸÄ± uzanÄ±yor.~
 none~
 weapon M AN
 whip 20 6 whip DCE
@@ -154,9 +154,9 @@ A
 
 #NEW_MOBILES
 #20080
-kadim büyücü~
-kadim büyücü~
-Yaşlı bir adam kendi kendine konuşarak etrafta dolanıyor.
+kadim bÃ¼yÃ¼cÃ¼~
+kadim bÃ¼yÃ¼cÃ¼~
+YaÅŸlÄ± bir adam kendi kendine konuÅŸarak etrafta dolanÄ±yor.
 ~
 He is old, despite being old he looks strong and wise.
 ~
@@ -173,9 +173,9 @@ Bir buz iblisi burada dinleniyor.
 human~
 ABWeCFGT  DFJVZ 50
 #20015
-kaybolmuş iblis~
-kaybolmuş bir iblis~
-Kaybolmuş bir iblis burada yolunu bulmaya çalışıyor.
+kaybolmuÅŸ iblis~
+kaybolmuÅŸ bir iblis~
+KaybolmuÅŸ bir iblis burada yolunu bulmaya Ã§alÄ±ÅŸÄ±yor.
 ~
    He is lost looking for the way his home.You should help him if he did
 not grin evilly at you.Better keep your distanse.
@@ -183,9 +183,9 @@ not grin evilly at you.Better keep your distanse.
 human~
 ABWeCFGT  DFJVZ 52
 #20016
-iblis kızgın~
-kızgın bir iblis~
-Kızgın bir iblis burada kendisine bir kurban arıyor.
+iblis kÄ±zgÄ±n~
+kÄ±zgÄ±n bir iblis~
+KÄ±zgÄ±n bir iblis burada kendisine bir kurban arÄ±yor.
 ~
   Angry very angry, wispering something buy you can not understand what he
 says sumone must have disturbed him, he will probubly will revange first
@@ -194,18 +194,18 @@ he see someone else.
 human~
 ABWeCFGT  DFJVZ 60
 #20017
-iblis ateş~
-bir ateş iblisi~
-Bir ateş iblisi burada lavlarla oynuyor.
+iblis ateÅŸ~
+bir ateÅŸ iblisi~
+Bir ateÅŸ iblisi burada lavlarla oynuyor.
 ~
   He is burning , flames surround him.
 ~
 human~
 ABWeCFGT  DFJVZ 69
 #20018
-anka kuşu~
-anka kuşu~
-Bir anka kuşu burada şarkılar söylüyor.
+anka kuÅŸu~
+anka kuÅŸu~
+Bir anka kuÅŸu burada ÅŸarkÄ±lar sÃ¶ylÃ¼yor.
 ~
    So beautiful!
 ~
@@ -221,9 +221,9 @@ gamayun~
 ABWeCFGT  DFHJVZ 71
 
 #20060
-ruh dehşet ejderhası~
-Dehşet ejderhasının ruhu~
-Dehşet ejderhasının ruhu burada.
+ruh dehÅŸet ejderhasÄ±~
+DehÅŸet ejderhasÄ±nÄ±n ruhu~
+DehÅŸet ejderhasÄ±nÄ±n ruhu burada.
 ~
   A spriti but has its original body after he died.Here he is behind you
 within his full nothingnes and anger, being killed, hunted.
@@ -232,17 +232,17 @@ dragon~
 ABWeCFGT  DFHJVZ 110
 
 #20000
-muhafız bahçe~
-Bahçenin muhafızı~
-Bahçenin muhafızı burada.
+muhafÄ±z bahÃ§e~
+BahÃ§enin muhafÄ±zÄ±~
+BahÃ§enin muhafÄ±zÄ± burada.
 ~
 ~
 human~
 ABWe  DFHJVZ 80
 #20001
-muhafız cehennem yolu~
-Yolun muhafızı~
-Cehennem yolunun muhafızı burada.
+muhafÄ±z cehennem yolu~
+Yolun muhafÄ±zÄ±~
+Cehennem yolunun muhafÄ±zÄ± burada.
 ~
 ~
 human~
@@ -285,9 +285,9 @@ unique~
 ABWe  DFHJVZ 91
 
 #20006
-ruh neruda nerudanın ruhu~
-Neruda'nın ruhu~
-Neruda'nın ruhu burada.
+ruh neruda nerudanÄ±n ruhu~
+Neruda'nÄ±n ruhu~
+Neruda'nÄ±n ruhu burada.
 ~
 ~
 unique~
@@ -324,7 +324,7 @@ ABWe  DFHJVZ 91
 
 #ROOMS
 #20000
-Kanalizasyonun Girişi~
+Kanalizasyonun GiriÅŸi~
 	This is the old sweer system of this cursed prison.Exits are north
 and down.
 ~
@@ -371,7 +371,7 @@ small tablet~
 ~
 S
 #20002
-Karanlık tünel~
+KaranlÄ±k tÃ¼nel~
 	You still feel that terible smell.From where does it come?
 There is watter ant he floor of tunnel but it't so clear that you can
 drink it.No it comes from a different place, from walls ? no not from
@@ -391,7 +391,7 @@ Dark tunnel
 
 S
 #20003
-Karanlık tünel~
+KaranlÄ±k tÃ¼nel~
 	The tunnel is dark and frightining.You still fell that smell and
 hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
@@ -410,7 +410,7 @@ The dark tunnel
 0 -1 20004
 S
 #20004
-Karanlık tünel~
+KaranlÄ±k tÃ¼nel~
 	The tunnel is dark and frightining.You still fell that smell and
 hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
@@ -429,7 +429,7 @@ The dark tunnel
 0 -1 20005
 S
 #20005
-Karanlık tünel~
+KaranlÄ±k tÃ¼nel~
 	The tunnel is dark and frightining.You still fell that smell and
 hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
@@ -448,7 +448,7 @@ The dark tunnel
 0 -1 20006
 S
 #20006
-Karanlık tünel~
+KaranlÄ±k tÃ¼nel~
 	The tunnel is dark and frightining.You still fell that smell and
 hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
@@ -467,7 +467,7 @@ The dark tunnel
 0 -1 20007
 S
 #20007
-Karanlık tünel~
+KaranlÄ±k tÃ¼nel~
 	The tunnel is dark and frightining.You still fell that smell and
 hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
@@ -486,7 +486,7 @@ The dark tunnel
 0 -1 20008
 S
 #20008
-Karanlık tünel~
+KaranlÄ±k tÃ¼nel~
 	The tunnel is dark and frightining.You still fell that smell and
 hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
@@ -505,7 +505,7 @@ The dark tunnel
 0 -1 20009
 S
 #20009
-Karanlık tünel~
+KaranlÄ±k tÃ¼nel~
 	The tunnel is dark and frightining.You still fell that smell and
 hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
@@ -524,7 +524,7 @@ The dark tunnel
 0 -1 20010
 S
 #20010
-Karanlık tünel~
+KaranlÄ±k tÃ¼nel~
 	The tunnel is dark and frightining.You still fell that smell and
 hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
@@ -543,7 +543,7 @@ The dark tunnel
 0 -1 20011
 S
 #20011
-Karanlık tünel~
+KaranlÄ±k tÃ¼nel~
 	The tunnel is dark and frightining.You still fell that smell and
 hear this meanless sound, what is it ? It sounds like a warning message,
 no no it's different, someone is crying; himm sounds like; but not, well
@@ -562,7 +562,7 @@ The dark tunnel
 0 -1 20012
 S
 #20012
-Karanlık tünel~
+KaranlÄ±k tÃ¼nel~
 	At last you see a light at the end of the tunnel, and the sound
 got clear.You don't feel that smell anymore.And the sound , you realise
 that the sound was just the sound of a watterfall.The tunnels made it
@@ -581,7 +581,7 @@ The dark tunnel
 0 -1 20013
 S
 #20013
-Karanlık tünelin çıkışı~
+KaranlÄ±k tÃ¼nelin Ã§Ä±kÄ±ÅŸÄ±~
 	It's brighter now.You can see all around without the help of your
 light source.It's more clear that the sound is coming from a watterfall.
 But where is this watterfall?
@@ -599,7 +599,7 @@ Watterfall.
 0 -1 20014
 S
 #20014
-Şelale~
+Åelale~
 .
 .
 .
@@ -843,7 +843,7 @@ ocean of neutrality
 0 -1 20045
 S
 #20025
-Bahçe yolu~
+BahÃ§e yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -858,7 +858,7 @@ garden road
 0 -1 20026
 S
 #20026
-Bahçe yolu~
+BahÃ§e yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -878,7 +878,7 @@ garden road
 0 -1 20027
 S
 #20027
-Bahçe yolu~
+BahÃ§e yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -899,7 +899,7 @@ garden road
 0 -1 20028
 S
 #20028
-Bahçe yolu~
+BahÃ§e yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -925,7 +925,7 @@ garden road
 0 -1 20029
 S
 #20029
-Bahçe yolu~
+BahÃ§e yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -945,7 +945,7 @@ garden road
 0 -1 20030
 S
 #20030
-Bahçe yolu~
+BahÃ§e yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -966,7 +966,7 @@ garden road
 0 -1 20031
 S
 #20031
-Bahçe yolu~
+BahÃ§e yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -993,7 +993,7 @@ garden road
 0 -1 20032
 S
 #20032
-Bahçe yolu~
+BahÃ§e yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -1014,7 +1014,7 @@ garden road
 0 -1 20033
 S
 #20033
-Bahçe yolu~
+BahÃ§e yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -1041,7 +1041,7 @@ garden road
 0 -1 20034
 S
 #20034
-Bahçe yolu~
+BahÃ§e yolu~
    This road seems to confinue forever, on one side of the road is river
 and the other side is a beautiful flover garden , birds , trees , flowers
 peace and the spirits, they look happy becouse of being here.Yes you see
@@ -1259,7 +1259,7 @@ ocean of neutrality
 0 -1 20045
 S
 #20045
-Tarafsızlık Okyanusu~
+TarafsÄ±zlÄ±k Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1289,7 +1289,7 @@ infinet neutrality
 0 0 20024
 S
 #20046
-Tarafsızlık Okyanusu~
+TarafsÄ±zlÄ±k Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1319,7 +1319,7 @@ infinet neutrality
 0 0 20045
 S
 #20047
-Tarafsızlık Okyanusu~
+TarafsÄ±zlÄ±k Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1349,7 +1349,7 @@ infinet neutrality
 0 0 20046
 S
 #20048
-Tarafsızlık Okyanusu~
+TarafsÄ±zlÄ±k Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1379,7 +1379,7 @@ infinet neutrality
 0 0 20047
 S
 #20049
-Tarafsızlık Okyanusu~
+TarafsÄ±zlÄ±k Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1409,7 +1409,7 @@ infinet neutrality
 0 0 20048
 S
 #20050
-Tarafsızlık Okyanusu~
+TarafsÄ±zlÄ±k Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1439,7 +1439,7 @@ infinet neutrality
 0 0 20054
 S
 #20051
-Tarafsızlık Okyanusu~
+TarafsÄ±zlÄ±k Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1469,7 +1469,7 @@ infinet neutrality
 0 0 20050
 S
 #20052
-Tarafsızlık Okyanusu~
+TarafsÄ±zlÄ±k Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1499,7 +1499,7 @@ infinet neutrality
 0 0 20051
 S
 #20053
-Tarafsızlık Okyanusu~
+TarafsÄ±zlÄ±k Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1529,7 +1529,7 @@ infinet neutrality
 0 0 20052
 S
 #20054
-Tarafsızlık Okyanusu~
+TarafsÄ±zlÄ±k Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1559,7 +1559,7 @@ infinet neutrality
 0 0 20053
 S
 #20055
-Tarafsızlık Okyanusu~
+TarafsÄ±zlÄ±k Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1589,7 +1589,7 @@ infinet neutrality
 0 0 20059
 S
 #20056
-Tarafsızlık Okyanusu~
+TarafsÄ±zlÄ±k Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1619,7 +1619,7 @@ infinet neutrality
 0 0 20055
 S
 #20057
-Tarafsızlık Okyanusu~
+TarafsÄ±zlÄ±k Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1649,7 +1649,7 @@ infinet neutrality
 0 0 20056
 S
 #20058
-Tarafsızlık Okyanusu~
+TarafsÄ±zlÄ±k Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1679,7 +1679,7 @@ infinet neutrality
 0 0 20057
 S
 #20059
-Tarafsızlık Okyanusu~
+TarafsÄ±zlÄ±k Okyanusu~
    All you see the endless watter , surrounding you!With the whole
 loneless and the balance between evil and good, ugly and beauty, chaos
 and rule, war and peace.This endless ocean makes you think of all these.
@@ -1704,7 +1704,7 @@ infinet neutrality
 0 0 20058
 S
 #20060
-Derin çukur~
+Derin Ã§ukur~
 	You are at the bottom of a deep hole you can see around ,
 you realise that there is no exit; a place able to keep a powerful
 dragon or its spirit!

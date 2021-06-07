@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açık kaynak Türkçe Mud projesidir.                        *
- * Oyun geliştirmesi Jai ve Maru tarafından yönetilmektedir.               *
- * Unutulmaması gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -56,6 +56,8 @@
 #include <sys/time.h>
 #endif
 #include <stdio.h>
+#include <wchar.h>
+#include <wctype.h>
 #include <string.h>
 #include <stdlib.h>
 #include "merc.h"
@@ -508,7 +510,7 @@ BUFFER *new_buf()
     buffer->state	= BUFFER_SAFE;
     buffer->size	= get_size(BASE_BUF);
 
-    buffer->string	= (char *)alloc_mem(buffer->size);
+    buffer->string	= (wchar_t *)alloc_mem(buffer->size);
     buffer->string[0]	= '\0';
     VALIDATE(buffer);
 
@@ -532,10 +534,10 @@ BUFFER *new_buf_size(int size)
     buffer->size        = get_size(size);
     if (buffer->size == -1)
     {
-        bug("new_buf: buffer size %d too large.",size);
+        bug( L"new_buf: buffer size %d too large.",size);
         exit(1);
     }
-    buffer->string      = (char *)alloc_mem(buffer->size);
+    buffer->string      = (wchar_t *)alloc_mem(buffer->size);
     buffer->string[0]   = '\0';
     VALIDATE(buffer);
 
@@ -559,10 +561,10 @@ void free_buf(BUFFER *buffer)
 }
 
 
-bool add_buf(BUFFER *buffer, char *string)
+bool add_buf(BUFFER *buffer, wchar_t *string)
 {
     int len;
-    char *oldstr;
+    wchar_t *oldstr;
     int oldsize;
 
     oldstr = buffer->string;
@@ -571,7 +573,7 @@ bool add_buf(BUFFER *buffer, char *string)
     if (buffer->state == BUFFER_OVERFLOW) /* don't waste time on bad strings! */
 	return FALSE;
 
-    len = strlen(buffer->string) + strlen(string) + 1;
+    len = wcslen(buffer->string) + wcslen(string) + 1;
 
     while (len >= buffer->size) /* increase the buffer size */
     {
@@ -581,7 +583,7 @@ bool add_buf(BUFFER *buffer, char *string)
 	    {
 		buffer->size = oldsize;
 		buffer->state = BUFFER_OVERFLOW;
-		bug("buffer overflow past size %d",buffer->size);
+		bug( L"buffer overflow past size %d",buffer->size);
 		if (!string) bug(string,0);
 		return FALSE;
 	    }
@@ -590,13 +592,13 @@ bool add_buf(BUFFER *buffer, char *string)
 
     if (buffer->size != oldsize)
     {
-	buffer->string	= (char *)alloc_mem(buffer->size);
+	buffer->string	= (wchar_t *)alloc_mem(buffer->size);
 
-	strcpy(buffer->string,oldstr);
+	wcscpy(buffer->string,oldstr);
 	free_mem(oldstr,oldsize);
     }
 
-    strcat(buffer->string,string);
+    wcscat(buffer->string,string);
     return TRUE;
 }
 
@@ -608,7 +610,7 @@ void clear_buf(BUFFER *buffer)
 }
 
 
-char *buf_string(BUFFER *buffer)
+wchar_t *buf_string(BUFFER *buffer)
 {
     return buffer->string;
 }

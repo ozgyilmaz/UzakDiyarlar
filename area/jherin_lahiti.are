@@ -3,7 +3,7 @@ Filename jherin_lahiti.are~
 Name Jher'in Lahiti~
 Builder Garth~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 35
 Highlevel 55
 Minvnum 32700
@@ -18,153 +18,153 @@ END
 #32700
 Jher~
 Jher~
-Jher burada sana dik dik bakıyor.
+Jher burada sana dik dik bakÄ±yor.
 ~
-Bu kötü adamın bakışlarıyla donup kalıyorsun.Bu nasıl bir güç.
+Bu kÃ¶tÃ¼ adamÄ±n bakÄ±ÅŸlarÄ±yla donup kalÄ±yorsun.Bu nasÄ±l bir gÃ¼Ã§.
 ~
 human~
 2|4|8|64 8|32|128|512|8192 53
 #32701
-genç warg~
-genç bir warg~
-Genç bir warg seni farkedip hırlama başlıyor.
+genÃ§ warg~
+genÃ§ bir warg~
+GenÃ§ bir warg seni farkedip hÄ±rlama baÅŸlÄ±yor.
 ~
-Yeni yeteneklerini göstermek için kurban olarak seni seçmiş olmalı.
+Yeni yeteneklerini gÃ¶stermek iÃ§in kurban olarak seni seÃ§miÅŸ olmalÄ±.
 ~
 human~
 4|64|128|262144 8|32|512|32768 32
 #32702
 knanath~
 Knanath~
-Knanath, Jher'in evcil hayvanı sana hırlıyor.
+Knanath, Jher'in evcil hayvanÄ± sana hÄ±rlÄ±yor.
 ~
-Hala boğazına sarılmadığına göre aç değil.
+Hala boÄŸazÄ±na sarÄ±lmadÄ±ÄŸÄ±na gÃ¶re aÃ§ deÄŸil.
 ~
 fido~
 2|4|32|64 2|8|32|512 43
 #32703
 anne warg~
 anne warg~
-Bir anne warg yavrularının etrafında dolaşıyor.
+Bir anne warg yavrularÄ±nÄ±n etrafÄ±nda dolaÅŸÄ±yor.
 ~
-Çocuklarından uzak dur çünkü onları korumak için seni parça parça edebilir.
+Ã‡ocuklarÄ±ndan uzak dur Ã§Ã¼nkÃ¼ onlarÄ± korumak iÃ§in seni parÃ§a parÃ§a edebilir.
 ~
 human~
 4|64 8|32|512 40
 #32704
 baba warg~
 baba warg~
-Büyük bir warg burada saldıracak veya eğlenecek birşey arıyor.
+BÃ¼yÃ¼k bir warg burada saldÄ±racak veya eÄŸlenecek birÅŸey arÄ±yor.
 ~
-Daha çığlık atamadan seni öldürebilir onunla uğraşmamalısın.
+Daha Ã§Ä±ÄŸlÄ±k atamadan seni Ã¶ldÃ¼rebilir onunla uÄŸraÅŸmamalÄ±sÄ±n.
 ~
 human~
 4|64 8|32|512|32768 42
 #32705
-aç genç warg~
-aç genç warg~
-Genç bir warg burada, aç gözüküyor.
+aÃ§ genÃ§ warg~
+aÃ§ genÃ§ warg~
+GenÃ§ bir warg burada, aÃ§ gÃ¶zÃ¼kÃ¼yor.
 ~
-Ağzından salyaları akıyor iğrenç bir görüntüsü var.
+AÄŸzÄ±ndan salyalarÄ± akÄ±yor iÄŸrenÃ§ bir gÃ¶rÃ¼ntÃ¼sÃ¼ var.
 ~
 human~
 2|4|64|128 0 35
 #32706
-yılan~
-yılan~
-Bir yılan korkunu hissederek bacaklarının arasında dolaşıyor.
+yÄ±lan~
+yÄ±lan~
+Bir yÄ±lan korkunu hissederek bacaklarÄ±nÄ±n arasÄ±nda dolaÅŸÄ±yor.
 ~
-Çatallı dilindeki zehri farkedebiliyorsun.
+Ã‡atallÄ± dilindeki zehri farkedebiliyorsun.
 ~
 snake~
 2|32|64 8|32|512 20
 #32707
-ayı~
-ayı~
-Büyük siyah bir ayı gölgelerde saklanıyor.
+ayÄ±~
+ayÄ±~
+BÃ¼yÃ¼k siyah bir ayÄ± gÃ¶lgelerde saklanÄ±yor.
 ~
-ayı sana bakıp şöyle diyor' Jher' i öldürmemde bana yardım eder misin?'
+ayÄ± sana bakÄ±p ÅŸÃ¶yle diyor' Jher' i Ã¶ldÃ¼rmemde bana yardÄ±m eder misin?'
 ~
 bear~
 64 8|32|128|512|8192|32768|65536|1048576 47
 #32708
 yarasa~
 yarasa~
-Bir yarasa yüzüne saldırıyor.
+Bir yarasa yÃ¼zÃ¼ne saldÄ±rÄ±yor.
 ~
-Siyah büyük gözlerini görüyorsun.Ve büyük bir sesle çığlık atıyor.
+Siyah bÃ¼yÃ¼k gÃ¶zlerini gÃ¶rÃ¼yorsun.Ve bÃ¼yÃ¼k bir sesle Ã§Ä±ÄŸlÄ±k atÄ±yor.
 ~
 bat~
 32|64 8|32|512|524288 34
 #32709
-Htrag warg eğitmeni~
+Htrag warg eÄŸitmeni~
 Htrag~
-Htrag burada wargları eğitiyor.
+Htrag burada warglarÄ± eÄŸitiyor.
 ~
-Arkasına bakıp dişlerini gıcırdatıyor sanırsan seni farketti.
+ArkasÄ±na bakÄ±p diÅŸlerini gÄ±cÄ±rdatÄ±yor sanÄ±rsan seni farketti.
 ~
 human~
 2|64 8|32|128|512 40
 #32710
-dişi warg~
-dişi warg~
-dişi bir warg kafesin içinde duruyor.
+diÅŸi warg~
+diÅŸi warg~
+diÅŸi bir warg kafesin iÃ§inde duruyor.
 ~
-Yardımın için yalvarıyor.
+YardÄ±mÄ±n iÃ§in yalvarÄ±yor.
 ~
 human~
 2|4|64 8|32|512 35
 #32711
 erkek varg~
 erkek warg~
-Erkek bir warg boğazına atılıyor.
+Erkek bir warg boÄŸazÄ±na atÄ±lÄ±yor.
 ~
-Tek kelimeyle çok vahşi.
+Tek kelimeyle Ã§ok vahÅŸi.
 ~
 human~
 2|4|32|64 8|32|512 40
 #32712
-Sapth köle~
+Sapth kÃ¶le~
 Sapth~
-Sapth, Jher'in kölesi, yardımını bekliyor.
+Sapth, Jher'in kÃ¶lesi, yardÄ±mÄ±nÄ± bekliyor.
 ~
-Gözleri birinin onu Jher'den kurtaracağı umuduyla dolu.
+GÃ¶zleri birinin onu Jher'den kurtaracaÄŸÄ± umuduyla dolu.
 ~
 human~
 4|64|128 8|32|256|512 35
 #32713
-warg muhafız~
-muhafız~
-Muhafız arkasında ne olduğunu bilmediğin bir kapıyı koruyor.
+warg muhafÄ±z~
+muhafÄ±z~
+MuhafÄ±z arkasÄ±nda ne olduÄŸunu bilmediÄŸin bir kapÄ±yÄ± koruyor.
 ~
-Savaşmak ve öldürmek için eğitilmiş.
+SavaÅŸmak ve Ã¶ldÃ¼rmek iÃ§in eÄŸitilmiÅŸ.
 ~
 human~
 ABCGT 8|32|512 40
 #32714
-warg muhafız~
-muhafız~
-Muhafız arkasında ne olduğunu bilmediğin bir kapıyı koruyor.
+warg muhafÄ±z~
+muhafÄ±z~
+MuhafÄ±z arkasÄ±nda ne olduÄŸunu bilmediÄŸin bir kapÄ±yÄ± koruyor.
 ~
-Savaşmak ve öldürmek için eğitilmiş.
+SavaÅŸmak ve Ã¶ldÃ¼rmek iÃ§in eÄŸitilmiÅŸ.
 ~
 human~
 ABCGT 8|32|512 42
 #32715
 shaanh~
 Shaanh~
-Shaanh, Jher'in aşk kölesi,köşeye sinmiş.
+Shaanh, Jher'in aÅŸk kÃ¶lesi,kÃ¶ÅŸeye sinmiÅŸ.
 ~
-Neredeyse hiç birşey giymiyor ve vücudunun her yerinde çizikler morluklar işkence izleri var.
+Neredeyse hiÃ§ birÅŸey giymiyor ve vÃ¼cudunun her yerinde Ã§izikler morluklar iÅŸkence izleri var.
 ~
 human~
 64|128 8|32|256|512|65536 37
 #32716
-tek gözlü balık~
-tek gözlü balık~
-Tek gözü kör kocaman ağza sahip bir balık bacaklarının arasında geziniyor.
+tek gÃ¶zlÃ¼ balÄ±k~
+tek gÃ¶zlÃ¼ balÄ±k~
+Tek gÃ¶zÃ¼ kÃ¶r kocaman aÄŸza sahip bir balÄ±k bacaklarÄ±nÄ±n arasÄ±nda geziniyor.
 ~
-İğrenç bir yaratık.  Bir gözü kör, Ama kokun yüzünden orda olduğunu hissediyor.
+Ä°ÄŸrenÃ§ bir yaratÄ±k.  Bir gÃ¶zÃ¼ kÃ¶r, Ama kokun yÃ¼zÃ¼nden orda olduÄŸunu hissediyor.
 ~
 human~
 64|128 8|32|512 38
@@ -173,9 +173,9 @@ human~
 
 #OBJOLD
 #32700
-bir miktar altın sikke~
-bir miktar altın sikke~
-Bir miktar altın sikke gözüne takılıyor.~
+bir miktar altÄ±n sikke~
+bir miktar altÄ±n sikke~
+Bir miktar altÄ±n sikke gÃ¶zÃ¼ne takÄ±lÄ±yor.~
 ~
 20 1 1
 10000 0 0 0
@@ -189,17 +189,17 @@ sert beyaz bir anahtar yerde duruyor.~
 0 0 0 0
 1 0 0
 #32702
-formül~
-formül~
-Warg üretme formülü burda bırakılmış.~
+formÃ¼l~
+formÃ¼l~
+Warg Ã¼retme formÃ¼lÃ¼ burda bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 10 64 1
 35 39 28 28
 0 0 0
 #32703
-jher'in eğri hançeri~
-Jher'in eğri hançeri~
-Jher'in eğri hançeri burada parlıyor.~
+jher'in eÄŸri hanÃ§eri~
+Jher'in eÄŸri hanÃ§eri~
+Jher'in eÄŸri hanÃ§eri burada parlÄ±yor.~
 ~
 5 1|2|64|512 1|8192
 0 0 0 11
@@ -215,17 +215,17 @@ A
 A
 1 -1
 #32704
-formül~
-formül~
-Warg üretme formülü burda bırakılmış.~
+formÃ¼l~
+formÃ¼l~
+Warg Ã¼retme formÃ¼lÃ¼ burda bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 10 64 1
 35 1 28 12
 0 0 0
 #32705
-formül~
-formül~
-Warg üretme formülü burda bırakılmış.~
+formÃ¼l~
+formÃ¼l~
+Warg Ã¼retme formÃ¼lÃ¼ burda bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 10 64 1|16384
 35 42 4 38
@@ -235,9 +235,9 @@ A
 A
 13 25
 #32706
-ayı dişi~
-Ayı dişi~
-Kumların arasında dişe benzer birşey var.~
+ayÄ± diÅŸi~
+AyÄ± diÅŸi~
+KumlarÄ±n arasÄ±nda diÅŸe benzer birÅŸey var.~
 ~
 5 64|1024|4096 1|8192
 0 0 0 10
@@ -248,8 +248,8 @@ A
 19 8
 #32707
 anahtar~
-büyük pirinç anahtar~
-Büyük pirinçten bir anahtar burada parlıyor.~
+bÃ¼yÃ¼k pirinÃ§ anahtar~
+BÃ¼yÃ¼k pirinÃ§ten bir anahtar burada parlÄ±yor.~
 ~
 18 0 1|16384
 0 0 0 0
@@ -257,31 +257,31 @@ Büyük pirinçten bir anahtar burada parlıyor.~
 #32708
 taht~
 taht~
-Büyük altın bir taht mücevherlerle kaplanmış.~
+BÃ¼yÃ¼k altÄ±n bir taht mÃ¼cevherlerle kaplanmÄ±ÅŸ.~
 ~
 12 1 0
 0 0 0 0
 5 0 0
 #32709
-sarı yakut anahtar~
-sarı yakuttan bir anahtar~
-Sarı yakuttan yapılmış bir anahtar yerde parlıyor.~
+sarÄ± yakut anahtar~
+sarÄ± yakuttan bir anahtar~
+SarÄ± yakuttan yapÄ±lmÄ±ÅŸ bir anahtar yerde parlÄ±yor.~
 ~
 18 1|128 1
 0 0 0 0
 5 0 0
 #32710
-abanozdan oyulmuş~
-Abanoz oyması biçimli~
-Tozların içinde abanoz bir kaya var.~
+abanozdan oyulmuÅŸ~
+Abanoz oymasÄ± biÃ§imli~
+TozlarÄ±n iÃ§inde abanoz bir kaya var.~
 ~
 18 32 1
 0 0 0 0
 0 0 0
 #32711
-tozlu altın sandık~
-aldın sandık~
-Odanın köşesinde tozlu bir kutu var oturmak için güzel bir yer.~
+tozlu altÄ±n sandÄ±k~
+aldÄ±n sandÄ±k~
+OdanÄ±n kÃ¶ÅŸesinde tozlu bir kutu var oturmak iÃ§in gÃ¼zel bir yer.~
 ~
 15 64 0
 100 15 9910 0
@@ -297,9 +297,9 @@ Bir elmas bileklik burada duruyor.~
 A
 12 50
 #32713
-yarım parşömen~
-yarım parşömen~
-Yarısı yok olmuş bir parşömen burada duruyor.~
+yarÄ±m parÅŸÃ¶men~
+yarÄ±m parÅŸÃ¶men~
+YarÄ±sÄ± yok olmuÅŸ bir parÅŸÃ¶men burada duruyor.~
 ~
 2 2 1
 50 28 42 81
@@ -307,7 +307,7 @@ Yarısı yok olmuş bir parşömen burada duruyor.~
 #32714
 parlayan kolye~
 parlayan kolye~
-Kan kırmızı taştan oyulmuş bir kolye yerde duruyor.~
+Kan kÄ±rmÄ±zÄ± taÅŸtan oyulmuÅŸ bir kolye yerde duruyor.~
 ~
 9 1|64|512|4096 1|4
 7 0 0 0
@@ -317,9 +317,9 @@ A
 A
 19 4
 #32715
-altın sikke~
-altın sikke~
-Bir miktar altın sikke gözüne takılıyor.~
+altÄ±n sikke~
+altÄ±n sikke~
+Bir miktar altÄ±n sikke gÃ¶zÃ¼ne takÄ±lÄ±yor.~
 ~
 26 1 1
 0 19 -1 -1
@@ -329,9 +329,9 @@ Bir miktar altın sikke gözüne takılıyor.~
 
 #ROOMS
 #32700
-Jher'in Lahitine İniş~
-Aşağıya doğru ilerledikçe wargların sesini duyuyorsun pek dostça gelmiyor.
-Ve saçının bittiği yerde birden bir ürperme hissediyorsun.
+Jher'in Lahitine Ä°niÅŸ~
+AÅŸaÄŸÄ±ya doÄŸru ilerledikÃ§e warglarÄ±n sesini duyuyorsun pek dostÃ§a gelmiyor.
+Ve saÃ§Ä±nÄ±n bittiÄŸi yerde birden bir Ã¼rperme hissediyorsun.
 ~
 0 1 3
 D1
@@ -348,9 +348,9 @@ D4
 0 -1 14791
 S
 #32701
-Mağaranın Ağzı~
-Mağaranın ağzında ürkütücü bir çatlak var.  Bunu yapmak için çok büyük bir güç gerekli.
-Çünkü duvarlar gerçekten sert.
+MaÄŸaranÄ±n AÄŸzÄ±~
+MaÄŸaranÄ±n aÄŸzÄ±nda Ã¼rkÃ¼tÃ¼cÃ¼ bir Ã§atlak var.  Bunu yapmak iÃ§in Ã§ok bÃ¼yÃ¼k bir gÃ¼Ã§ gerekli.
+Ã‡Ã¼nkÃ¼ duvarlar gerÃ§ekten sert.
 ~
 0 1 3
 D0
@@ -359,9 +359,9 @@ D0
 0 -1 32700
 S
 #32702
-Jher'in Lahitine İniş~
-Karanlıkta ilerledikçe herşey daha bilinmez bir hal alıyor.Acaba yanlış mı yapıyorsun.
-Etraf gerçekten ürkütücü bir hal almaya başladı.Duvarlarda kan lekeleri var.
+Jher'in Lahitine Ä°niÅŸ~
+KaranlÄ±kta ilerledikÃ§e herÅŸey daha bilinmez bir hal alÄ±yor.Acaba yanlÄ±ÅŸ mÄ± yapÄ±yorsun.
+Etraf gerÃ§ekten Ã¼rkÃ¼tÃ¼cÃ¼ bir hal almaya baÅŸladÄ±.Duvarlarda kan lekeleri var.
 ~
 0 1 2
 D3
@@ -374,10 +374,10 @@ D5
 0 -1 32703
 S
 #32703
-Mağarada Bir Oda~
-Oda meşalelerle aydınlatışmış ama wargların parlak gözleri yine de kendini belli ediyor.
-Bunlar nadir bulunan yaratıklar çünkü sürekli açlar.Burası bulunmak için iyi bir yer değil.
-Bir warg ın ağzından yere damlayan salyaların sesini duyabiliyorsun.Uzaklaşsan iyi olacak.
+MaÄŸarada Bir Oda~
+Oda meÅŸalelerle aydÄ±nlatÄ±ÅŸmÄ±ÅŸ ama warglarÄ±n parlak gÃ¶zleri yine de kendini belli ediyor.
+Bunlar nadir bulunan yaratÄ±klar Ã§Ã¼nkÃ¼ sÃ¼rekli aÃ§lar.BurasÄ± bulunmak iÃ§in iyi bir yer deÄŸil.
+Bir warg Ä±n aÄŸzÄ±ndan yere damlayan salyalarÄ±n sesini duyabiliyorsun.UzaklaÅŸsan iyi olacak.
 ~
 0 8 2
 D2
@@ -394,9 +394,9 @@ D4
 0 -1 32702
 S
 #32704
-Mağarada Bir Oda~
-Bu oda leş gibi warg dışkısı kokuyor.Ayrıca oda eski kurbanların kemikleri ile dolu.
-Odayı sadece bir meşale aydınlatıyor.Odayı inceledikçe için ürperiyor.Bu iğrenö görüntüyü gördükçe
+MaÄŸarada Bir Oda~
+Bu oda leÅŸ gibi warg dÄ±ÅŸkÄ±sÄ± kokuyor.AyrÄ±ca oda eski kurbanlarÄ±n kemikleri ile dolu.
+OdayÄ± sadece bir meÅŸale aydÄ±nlatÄ±yor.OdayÄ± inceledikÃ§e iÃ§in Ã¼rperiyor.Bu iÄŸrenÃ¶ gÃ¶rÃ¼ntÃ¼yÃ¼ gÃ¶rdÃ¼kÃ§e
 burdan gitmek istiyorsun.
 ~
 0 8 2
@@ -405,14 +405,14 @@ D0
 ~
 0 -1 32703
 D5
-kemiklerin altına gizli bir kapı var.~
-gizli kapı~
+kemiklerin altÄ±na gizli bir kapÄ± var.~
+gizli kapÄ±~
 1 -1 32705
 S
 #32705
-Küçük Hazine Odası~
-Jher sadece iğrenç işlerle uğraşan kötü biri değilmiş ayrıca kanun kadarda zenginmiş görünen kadarıyla.
-Etraf tamamen altınlarla ve mücevherlerle dolu.Fakat birden ayaklarının etrafında gezinen yılanlar görüyorsun.
+KÃ¼Ã§Ã¼k Hazine OdasÄ±~
+Jher sadece iÄŸrenÃ§ iÅŸlerle uÄŸraÅŸan kÃ¶tÃ¼ biri deÄŸilmiÅŸ ayrÄ±ca kanun kadarda zenginmiÅŸ gÃ¶rÃ¼nen kadarÄ±yla.
+Etraf tamamen altÄ±nlarla ve mÃ¼cevherlerle dolu.Fakat birden ayaklarÄ±nÄ±n etrafÄ±nda gezinen yÄ±lanlar gÃ¶rÃ¼yorsun.
 ~
 0 1|8 2
 D4
@@ -421,9 +421,9 @@ D4
 1 -1 32704
 S
 #32706
-Karanlık Koridor~
-Mağaranın derinliklerine uzanan yolculuğunda wargların sesleri giderek artıyor.Durumun pek umutlu değil.
-Koridor batıya devam ediyor aynı zamanda güneyde de geçebileceğin bir delik var.Ama ordan yarasa sesleri geliyor.
+KaranlÄ±k Koridor~
+MaÄŸaranÄ±n derinliklerine uzanan yolculuÄŸunda warglarÄ±n sesleri giderek artÄ±yor.Durumun pek umutlu deÄŸil.
+Koridor batÄ±ya devam ediyor aynÄ± zamanda gÃ¼neyde de geÃ§ebileceÄŸin bir delik var.Ama ordan yarasa sesleri geliyor.
 ~
 0 1|8 2
 D1
@@ -440,9 +440,9 @@ D3
 0 -1 32712
 S
 #32707
-Duvardaki Çatlak~
-Bilinmeyen bir nedenden oluşan bu çatlağı incelemek için buradasın.Mağaralar hakkında bilmen gereken tek şey ise
-sonsuz bir çukura düşebileceğin olmalıydı.Sanırsan aşağıdan su sesi geliyor.
+Duvardaki Ã‡atlak~
+Bilinmeyen bir nedenden oluÅŸan bu Ã§atlaÄŸÄ± incelemek iÃ§in buradasÄ±n.MaÄŸaralar hakkÄ±nda bilmen gereken tek ÅŸey ise
+sonsuz bir Ã§ukura dÃ¼ÅŸebileceÄŸin olmalÄ±ydÄ±.SanÄ±rsan aÅŸaÄŸÄ±dan su sesi geliyor.
 ~
 0 1|4|8 2
 D0
@@ -455,8 +455,8 @@ D3
 0 -1 32708
 S
 #32708
-İĞrenç Yeraltı Havuzu~
-Kendini iğrenç bir sıvının içinde buluyorsun.İçinde olabilecek yaratıkları düşündükçe ürperiyorsun.
+Ä°ÄrenÃ§ YeraltÄ± Havuzu~
+Kendini iÄŸrenÃ§ bir sÄ±vÄ±nÄ±n iÃ§inde buluyorsun.Ä°Ã§inde olabilecek yaratÄ±klarÄ± dÃ¼ÅŸÃ¼ndÃ¼kÃ§e Ã¼rperiyorsun.
 ~
 0 1|8 6
 D1
@@ -473,8 +473,8 @@ D3
 0 -1 32711
 S
 #32709
-İĞrenç Yeraltı Havuzu~
-İğrenç sıvıdan kabarcıklar çıkıyor.
+Ä°ÄrenÃ§ YeraltÄ± Havuzu~
+Ä°ÄŸrenÃ§ sÄ±vÄ±dan kabarcÄ±klar Ã§Ä±kÄ±yor.
 ~
 0 1|8 6
 D0
@@ -487,8 +487,8 @@ D3
 0 -1 32710
 S
 #32710
-İĞrenç Yeraltı Havuzu~
-İğrenç sıvıdan kabarcıklar çıkıyor.
+Ä°ÄrenÃ§ YeraltÄ± Havuzu~
+Ä°ÄŸrenÃ§ sÄ±vÄ±dan kabarcÄ±klar Ã§Ä±kÄ±yor.
 ~
 0 1|8 6
 D0
@@ -501,8 +501,8 @@ D1
 0 -1 32709
 S
 #32711
-İĞrenç Yeraltı Havuzu~
-İğrenç sıvıdan kabarcıklar çıkıyor.
+Ä°ÄrenÃ§ YeraltÄ± Havuzu~
+Ä°ÄŸrenÃ§ sÄ±vÄ±dan kabarcÄ±klar Ã§Ä±kÄ±yor.
 ~
 0 1|8 6
 D1
@@ -515,10 +515,10 @@ D2
 0 -1 32710
 S
 #32712
-Karanlık Koridor~
-Tavan gittikçe yükseliyor.  Yürümek için eğilmene gerek yok.
-Yalnız bir sorun var, normal boyda biri için bu kadar tavan fazla yüksek.
-Arkana baktında bugüne kadar gördüğün en büyük yaratığı görüyorsun.
+KaranlÄ±k Koridor~
+Tavan gittikÃ§e yÃ¼kseliyor.  YÃ¼rÃ¼mek iÃ§in eÄŸilmene gerek yok.
+YalnÄ±z bir sorun var, normal boyda biri iÃ§in bu kadar tavan fazla yÃ¼ksek.
+Arkana baktÄ±nda bugÃ¼ne kadar gÃ¶rdÃ¼ÄŸÃ¼n en bÃ¼yÃ¼k yaratÄ±ÄŸÄ± gÃ¶rÃ¼yorsun.
 ~
 0 4|8 2
 D1
@@ -531,8 +531,8 @@ D3
 0 -1 32713
 S
 #32713
-Eğitim Odası~
-Kuzeyde ve güneyde iki kafes var. Oda iğrenç gözüküyor.Burada yapılanlar gerçekten çılgınlık.
+EÄŸitim OdasÄ±~
+Kuzeyde ve gÃ¼neyde iki kafes var. Oda iÄŸrenÃ§ gÃ¶zÃ¼kÃ¼yor.Burada yapÄ±lanlar gerÃ§ekten Ã§Ä±lgÄ±nlÄ±k.
 ~
 0 8 2
 D0
@@ -553,9 +553,9 @@ D3
 0 -1 32716
 S
 #32714
-Erkek Wargların Kafesi~
-Kafesin kapısını açtığın gibi üstüne atılıyorlar.Biri en hızlı şekilde kafesten fırlayıp
-Dişi warg ın yanına koşuyor.Bu yaratıklar 2 şeye karşı doyumsuzdur, yemek ve dişi warglar.
+Erkek WarglarÄ±n Kafesi~
+Kafesin kapÄ±sÄ±nÄ± aÃ§tÄ±ÄŸÄ±n gibi Ã¼stÃ¼ne atÄ±lÄ±yorlar.Biri en hÄ±zlÄ± ÅŸekilde kafesten fÄ±rlayÄ±p
+DiÅŸi warg Ä±n yanÄ±na koÅŸuyor.Bu yaratÄ±klar 2 ÅŸeye karÅŸÄ± doyumsuzdur, yemek ve diÅŸi warglar.
 ~
 0 1|8 2
 D0
@@ -564,9 +564,9 @@ D0
 1 32701 32713
 S
 #32715
-Dişi Wargların Kafesi~
-Kafese girdiğin gibi büyük bir hata yaptığını anlıyorsun.Bir an durup seni izliyorlar.
-Galiba en son ne zaman yemek yediklerini düşünüyorlar.
+DiÅŸi WarglarÄ±n Kafesi~
+Kafese girdiÄŸin gibi bÃ¼yÃ¼k bir hata yaptÄ±ÄŸÄ±nÄ± anlÄ±yorsun.Bir an durup seni izliyorlar.
+Galiba en son ne zaman yemek yediklerini dÃ¼ÅŸÃ¼nÃ¼yorlar.
 ~
 0 1|8 2
 D2
@@ -575,8 +575,8 @@ D2
 1 -1 32713
 S
 #32716
-Başka Bir İniş~
-Yol ışıklarla aydınlatılmış.Batıya yürümeye devam ettikçe ilerde tünelin güneye döndüğünü farkediyorsun.
+BaÅŸka Bir Ä°niÅŸ~
+Yol Ä±ÅŸÄ±klarla aydÄ±nlatÄ±lmÄ±ÅŸ.BatÄ±ya yÃ¼rÃ¼meye devam ettikÃ§e ilerde tÃ¼nelin gÃ¼neye dÃ¶ndÃ¼ÄŸÃ¼nÃ¼ farkediyorsun.
 ~
 0 1|8 2
 D1
@@ -589,9 +589,9 @@ D2
 0 -1 32717
 S
 #32717
-Başka Bir İniş~
-Güneye döndükten sonra, tünelin aşağıya devam ettiğini görüyorsun.Ama moralin yerinde
-en azından buraya kadar hayatta kalmayı başardın.
+BaÅŸka Bir Ä°niÅŸ~
+GÃ¼neye dÃ¶ndÃ¼kten sonra, tÃ¼nelin aÅŸaÄŸÄ±ya devam ettiÄŸini gÃ¶rÃ¼yorsun.Ama moralin yerinde
+en azÄ±ndan buraya kadar hayatta kalmayÄ± baÅŸardÄ±n.
 ~
 0 1|8 2
 D0
@@ -604,9 +604,9 @@ D5
 0 -1 32718
 S
 #32718
-Taht Odasına Geçiş~
-Tırmanışın sonuna geldiğinde yol kuzeye uzanıyor. Demirden ve tahtadan yapılmış büyük bir kapı var, bronz bir tutma yeri var.
-Kapının her iki yanında büyük warglar muhafızlık yapıyor.Ulaşmak için ya onları öldürmen yada sessizce kilidi açıp girmen lazım.
+Taht OdasÄ±na GeÃ§iÅŸ~
+TÄ±rmanÄ±ÅŸÄ±n sonuna geldiÄŸinde yol kuzeye uzanÄ±yor. Demirden ve tahtadan yapÄ±lmÄ±ÅŸ bÃ¼yÃ¼k bir kapÄ± var, bronz bir tutma yeri var.
+KapÄ±nÄ±n her iki yanÄ±nda bÃ¼yÃ¼k warglar muhafÄ±zlÄ±k yapÄ±yor.UlaÅŸmak iÃ§in ya onlarÄ± Ã¶ldÃ¼rmen yada sessizce kilidi aÃ§Ä±p girmen lazÄ±m.
 ~
 0 1|8 2
 D0
@@ -619,9 +619,9 @@ D4
 0 -1 32717
 S
 #32719
-Taht Odasının Güney Sonu~
-Burası taht odası olmalı.Wargların sahibi gayet varlıklı biri olmalı
-, ama bütün köleleri acı içinde yaşarken kendi bu kadar rahat yaşadığına göre bir o kadar da zalim göründüğü kadarıyla.
+Taht OdasÄ±nÄ±n GÃ¼ney Sonu~
+BurasÄ± taht odasÄ± olmalÄ±.WarglarÄ±n sahibi gayet varlÄ±klÄ± biri olmalÄ±
+, ama bÃ¼tÃ¼n kÃ¶leleri acÄ± iÃ§inde yaÅŸarken kendi bu kadar rahat yaÅŸadÄ±ÄŸÄ±na gÃ¶re bir o kadar da zalim gÃ¶rÃ¼ndÃ¼ÄŸÃ¼ kadarÄ±yla.
 ~
 0 8 2
 D0
@@ -634,7 +634,7 @@ D2
 1 -1 32718
 S
 #32720
-Taht Odasının Güney Sonu~
+Taht OdasÄ±nÄ±n GÃ¼ney Sonu~
 There is a huge throne made of the finest gold and glistening with the
 finest jewels.  Even with all this brightness, you are overwhelmed by darkness,
 for Jher sits on the throne.
@@ -650,10 +650,10 @@ D2
 0 -1 32719
 S
 #32721
-Jher'in Yatak Odası~
-Burası Jher'in uyuduğu yer.  Uyurken varglar ona saldırmasın diye evcil hayvanı burada
-koruma olarak duruyor.Jher karanlığı sevdiği için oda tamamen karanlık.Kırmızı yatağın
-arkasında başka bir yere geçiş var.Büyük ihtimalle saldırıya uğrarsa kaçış için yapılmış.
+Jher'in Yatak OdasÄ±~
+BurasÄ± Jher'in uyuduÄŸu yer.  Uyurken varglar ona saldÄ±rmasÄ±n diye evcil hayvanÄ± burada
+koruma olarak duruyor.Jher karanlÄ±ÄŸÄ± sevdiÄŸi iÃ§in oda tamamen karanlÄ±k.KÄ±rmÄ±zÄ± yataÄŸÄ±n
+arkasÄ±nda baÅŸka bir yere geÃ§iÅŸ var.BÃ¼yÃ¼k ihtimalle saldÄ±rÄ±ya uÄŸrarsa kaÃ§Ä±ÅŸ iÃ§in yapÄ±lmÄ±ÅŸ.
 ~
 0 1|8 1
 D2
@@ -666,8 +666,8 @@ D4
 0 -1 32722
 S
 #32722
-Jher'in Yatak Odasının Arkasındaki Tünel~
-Burası hiç kullanılmamış çünkü Jher buna hiç ihtiyaç duymamış.Tünel güneye ilerliyor.
+Jher'in Yatak OdasÄ±nÄ±n ArkasÄ±ndaki TÃ¼nel~
+BurasÄ± hiÃ§ kullanÄ±lmamÄ±ÅŸ Ã§Ã¼nkÃ¼ Jher buna hiÃ§ ihtiyaÃ§ duymamÄ±ÅŸ.TÃ¼nel gÃ¼neye ilerliyor.
 ~
 0 1|8 3
 D2
@@ -680,8 +680,8 @@ D5
 0 -1 32721
 S
 #32723
-Küçük Bir Tünel~
-Hiç kullanmadığı için bakımı da yapılmamış.Görünen o ki tırmanman gerekecek.
+KÃ¼Ã§Ã¼k Bir TÃ¼nel~
+HiÃ§ kullanmadÄ±ÄŸÄ± iÃ§in bakÄ±mÄ± da yapÄ±lmamÄ±ÅŸ.GÃ¶rÃ¼nen o ki tÄ±rmanman gerekecek.
 ~
 0 1|8 3
 D0
@@ -695,10 +695,10 @@ D2
 S
 #32724
 Gizli Oda~
-Sonunda odaya vardığında tamamen bitkin düştün çünkü yol aşırı derecede zorluydu.
-Eski bir kutunun üstünde dinleniyorsun.Oturduğun gibi kutu birden açılıyor.
-Sandıktan altınların parıltısı geliyor.Tamamen açmaya çalıştığında Kilitli olduğunu görerek üzülüyorsun.
-Ama eğer etrafa iyice bakarsan açmak için gereken şeyin nerde olduğunu farkedebilirsin.
+Sonunda odaya vardÄ±ÄŸÄ±nda tamamen bitkin dÃ¼ÅŸtÃ¼n Ã§Ã¼nkÃ¼ yol aÅŸÄ±rÄ± derecede zorluydu.
+Eski bir kutunun Ã¼stÃ¼nde dinleniyorsun.OturduÄŸun gibi kutu birden aÃ§Ä±lÄ±yor.
+SandÄ±ktan altÄ±nlarÄ±n parÄ±ltÄ±sÄ± geliyor.Tamamen aÃ§maya Ã§alÄ±ÅŸtÄ±ÄŸÄ±nda Kilitli olduÄŸunu gÃ¶rerek Ã¼zÃ¼lÃ¼yorsun.
+Ama eÄŸer etrafa iyice bakarsan aÃ§mak iÃ§in gereken ÅŸeyin nerde olduÄŸunu farkedebilirsin.
 ~
 0 1|4|8|8192 3
 S

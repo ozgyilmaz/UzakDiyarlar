@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -55,6 +55,8 @@
 #include <sys/types.h>
 #endif
 #include <stdio.h>
+#include <wchar.h>
+#include <wctype.h>
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
@@ -70,7 +72,7 @@ DECLARE_DO_FUN(do_murder);
 DECLARE_DO_FUN(do_help);
 DECLARE_DO_FUN(do_murder);
 int find_path( int in_room_vnum, int out_room_vnum, CHAR_DATA *ch, int depth, int in_zone );
-int lookup_religion_name (const char *name);
+int lookup_religion_name (const wchar_t *name);
 void heal_battle(CHAR_DATA *mob,CHAR_DATA *ch );
 void	say_spell	args( ( CHAR_DATA *ch, int sn ) );
 void	one_hit		args( ( CHAR_DATA *ch, CHAR_DATA *victim, int dt ,bool secondary) );
@@ -134,26 +136,26 @@ DECLARE_MPROG_FUN_FIGHT( fight_prog_golem  	);
 #define RELIG_CHOSEN		17
 
 
-void mprog_set(MOB_INDEX_DATA *mobindex,const char *progtype, const char *name)
+void mprog_set(MOB_INDEX_DATA *mobindex,const wchar_t *progtype, const wchar_t *name)
 {
-   if (!str_cmp(progtype, "bribe_prog"))
+   if (!wcscasecmp(progtype, L"bribe_prog"))
      {
  /*
-  *    if (!str_cmp(name, "bribe_prog"))
+  *    if (!wcscasecmp(name, L"bribe_prog"))
   *          mobindex->mprogs->bribe_prog = bribe_prog_;
-  *    else if (!str_cmp(name, "bribe_prog")) ...
+  *    else if (!wcscasecmp(name, L"bribe_prog")) ...
   */
 
-       if (!str_cmp(name, "bribe_prog_cityguard"))
+       if (!wcscasecmp(name, L"bribe_prog_cityguard"))
 	 mobindex->mprogs->bribe_prog = bribe_prog_cityguard;
-       else if (!str_cmp(name, "bribe_prog_beggar"))
+       else if (!wcscasecmp(name, L"bribe_prog_beggar"))
 	 mobindex->mprogs->bribe_prog = bribe_prog_beggar;
-       else if (!str_cmp(name, "bribe_prog_drunk"))
+       else if (!wcscasecmp(name, L"bribe_prog_drunk"))
 	 mobindex->mprogs->bribe_prog = bribe_prog_drunk;
 
        else
 	 {
-	   bug("Load_mprogs: 'M': Function not found for vnum %d",
+	   bug( L"Load_mprogs: 'M': Function not found for vnum %d",
 	       mobindex->vnum);
 	   exit(1);
 	 }
@@ -162,62 +164,62 @@ void mprog_set(MOB_INDEX_DATA *mobindex,const char *progtype, const char *name)
        return;
      }
 
-   if (!str_cmp(progtype, "entry_prog"))
+   if (!wcscasecmp(progtype, L"entry_prog"))
      {
 /*
-       if (!str_cmp(name, "entry_prog_"))
+       if (!wcscasecmp(name, L"entry_prog_"))
 	 mobindex->mprogs->entry_prog = entry_prog_;
        else
 */
 	 {
-	   bug("Load_mprogs: 'M': Function not found for vnum %d",
+	   bug( L"Load_mprogs: 'M': Function not found for vnum %d",
 	       mobindex->vnum);
 	   exit(1);
 	 }
        SET_BIT(mobindex->progtypes, MPROG_ENTRY);
        return;
      }
-   if (!str_cmp(progtype, "greet_prog"))
+   if (!wcscasecmp(progtype, L"greet_prog"))
      {
-       if (!str_cmp(name, "greet_prog_shalafi"))
+       if (!wcscasecmp(name, L"greet_prog_shalafi"))
 	 mobindex->mprogs->greet_prog = greet_prog_shalafi;
-       else if (!str_cmp(name, "greet_prog_knight"))
+       else if (!wcscasecmp(name, L"greet_prog_knight"))
 	 mobindex->mprogs->greet_prog = greet_prog_knight;
-       else if (!str_cmp(name, "greet_prog_lions"))
+       else if (!wcscasecmp(name, L"greet_prog_lions"))
 	 mobindex->mprogs->greet_prog = greet_prog_lions;
-       else if (!str_cmp(name, "greet_prog_hunter"))
+       else if (!wcscasecmp(name, L"greet_prog_hunter"))
 	 mobindex->mprogs->greet_prog = greet_prog_hunter;
-       else if (!str_cmp(name, "greet_prog_invader"))
+       else if (!wcscasecmp(name, L"greet_prog_invader"))
 	 mobindex->mprogs->greet_prog = greet_prog_invader;
-       else if (!str_cmp(name, "greet_prog_ruler"))
+       else if (!wcscasecmp(name, L"greet_prog_ruler"))
 	 mobindex->mprogs->greet_prog = greet_prog_ruler;
-       else if (!str_cmp(name, "greet_prog_ruler_pre"))
+       else if (!wcscasecmp(name, L"greet_prog_ruler_pre"))
 	 mobindex->mprogs->greet_prog = greet_prog_ruler_pre;
-       else if (!str_cmp(name, "greet_prog_battle"))
+       else if (!wcscasecmp(name, L"greet_prog_battle"))
 	 mobindex->mprogs->greet_prog = greet_prog_battle;
-       else if (!str_cmp(name, "greet_prog_chaos"))
+       else if (!wcscasecmp(name, L"greet_prog_chaos"))
 	 mobindex->mprogs->greet_prog = greet_prog_chaos;
-       else if (!str_cmp(name, "greet_prog_fireflash"))
+       else if (!wcscasecmp(name, L"greet_prog_fireflash"))
 	 mobindex->mprogs->greet_prog = greet_prog_fireflash;
-       else if (!str_cmp(name, "greet_prog_solamnia"))
+       else if (!wcscasecmp(name, L"greet_prog_solamnia"))
 	 mobindex->mprogs->greet_prog = greet_prog_solamnia;
-       else if (!str_cmp(name, "greet_prog_keeper"))
+       else if (!wcscasecmp(name, L"greet_prog_keeper"))
 	 mobindex->mprogs->greet_prog = greet_prog_keeper;
-       else if (!str_cmp(name, "greet_prog_templeman"))
+       else if (!wcscasecmp(name, L"greet_prog_templeman"))
 	 mobindex->mprogs->greet_prog = greet_prog_templeman;
-       else if (!str_cmp(name, "greet_prog_armourer"))
+       else if (!wcscasecmp(name, L"greet_prog_armourer"))
 	 mobindex->mprogs->greet_prog = greet_prog_armourer;
-       else if (!str_cmp(name, "greet_prog_baker"))
+       else if (!wcscasecmp(name, L"greet_prog_baker"))
 	 mobindex->mprogs->greet_prog = greet_prog_baker;
-       else if (!str_cmp(name, "greet_prog_beggar"))
+       else if (!wcscasecmp(name, L"greet_prog_beggar"))
 	 mobindex->mprogs->greet_prog = greet_prog_beggar;
-       else if (!str_cmp(name, "greet_prog_drunk"))
+       else if (!wcscasecmp(name, L"greet_prog_drunk"))
 	 mobindex->mprogs->greet_prog = greet_prog_drunk;
-       else if (!str_cmp(name, "greet_prog_grocer"))
+       else if (!wcscasecmp(name, L"greet_prog_grocer"))
 	 mobindex->mprogs->greet_prog = greet_prog_grocer;
        else
 	 {
-	   bug("Load_mprogs: 'M': Function not found for vnum %d",
+	   bug( L"Load_mprogs: 'M': Function not found for vnum %d",
 	       mobindex->vnum);
 	   exit(1);
 	 }
@@ -226,97 +228,97 @@ void mprog_set(MOB_INDEX_DATA *mobindex,const char *progtype, const char *name)
        return;
      }
 
-   if (!str_cmp(progtype, "fight_prog"))
+   if (!wcscasecmp(progtype, L"fight_prog"))
      {
-       if (!str_cmp(name, "fight_prog_diana"))
+       if (!wcscasecmp(name, L"fight_prog_diana"))
 	 mobindex->mprogs->fight_prog = fight_prog_diana;
-       else if (!str_cmp(name, "fight_prog_ofcol_guard"))
+       else if (!wcscasecmp(name, L"fight_prog_ofcol_guard"))
 	 mobindex->mprogs->fight_prog = fight_prog_ofcol_guard;
-       else if (!str_cmp(name, "fight_prog_beggar"))
+       else if (!wcscasecmp(name, L"fight_prog_beggar"))
 	 mobindex->mprogs->fight_prog = fight_prog_beggar;
-       else if (!str_cmp(name, "fight_prog_golem"))
+       else if (!wcscasecmp(name, L"fight_prog_golem"))
 	 mobindex->mprogs->fight_prog = fight_prog_golem;
        else
 	 {
-	   bug("Load_mprogs: 'M': Function not found for vnum %d",
+	   bug( L"Load_mprogs: 'M': Function not found for vnum %d",
 	       mobindex->vnum);
 	   exit(1);
 	 }
        SET_BIT(mobindex->progtypes, MPROG_FIGHT);
        return;
      }
-   if (!str_cmp(progtype, "death_prog")) /* returning TRUE prevents death */
+   if (!wcscasecmp(progtype, L"death_prog")) /* returning TRUE prevents death */
      {
-       if (!str_cmp(name, "death_prog_stalker"))
+       if (!wcscasecmp(name, L"death_prog_stalker"))
 	 mobindex->mprogs->death_prog = death_prog_stalker;
-       else if (!str_cmp(name, "death_prog_beggar"))
+       else if (!wcscasecmp(name, L"death_prog_beggar"))
 	 mobindex->mprogs->death_prog = death_prog_beggar;
-       else if (!str_cmp(name, "death_prog_vagabond"))
+       else if (!wcscasecmp(name, L"death_prog_vagabond"))
 	 mobindex->mprogs->death_prog = death_prog_vagabond;
        else
 	 {
-	   bug("Load_mprogs: 'M': Function not found for vnum %d",
+	   bug( L"Load_mprogs: 'M': Function not found for vnum %d",
 	       mobindex->vnum);
 	   exit(1);
 	 }
        SET_BIT(mobindex->progtypes, MPROG_DEATH);
        return;
      }
-   if (!str_cmp(progtype, "area_prog"))
+   if (!wcscasecmp(progtype, L"area_prog"))
      {
-       if (!str_cmp(name, "area_prog_drunk"))
+       if (!wcscasecmp(name, L"area_prog_drunk"))
 	 mobindex->mprogs->area_prog = area_prog_drunk;
-       else if (!str_cmp(name, "area_prog_janitor"))
+       else if (!wcscasecmp(name, L"area_prog_janitor"))
 	 mobindex->mprogs->area_prog = area_prog_janitor;
-       else if (!str_cmp(name, "area_prog_vagabond"))
+       else if (!wcscasecmp(name, L"area_prog_vagabond"))
 	 mobindex->mprogs->area_prog = area_prog_vagabond;
-       else if (!str_cmp(name, "area_prog_baker"))
+       else if (!wcscasecmp(name, L"area_prog_baker"))
 	 mobindex->mprogs->area_prog = area_prog_baker;
-       else if (!str_cmp(name, "area_prog_grocer"))
+       else if (!wcscasecmp(name, L"area_prog_grocer"))
 	 mobindex->mprogs->area_prog = area_prog_grocer;
        else
 	 {
-	   bug("Load_mprogs: 'M': Function not found for vnum %d",
+	   bug( L"Load_mprogs: 'M': Function not found for vnum %d",
 	       mobindex->vnum);
 	   exit(1);
 	 }
        SET_BIT(mobindex->progtypes, MPROG_AREA);
        return;
      }
-   if (!str_cmp(progtype, "speech_prog"))
+   if (!wcscasecmp(progtype, L"speech_prog"))
      {
-       if (!str_cmp(name, "speech_prog_keeper"))
+       if (!wcscasecmp(name, L"speech_prog_keeper"))
 	 mobindex->mprogs->speech_prog = speech_prog_keeper;
-       else if(!str_cmp(name, "speech_prog_templeman"))
+       else if(!wcscasecmp(name, L"speech_prog_templeman"))
 	 mobindex->mprogs->speech_prog = speech_prog_templeman;
-       else if(!str_cmp(name, "speech_prog_wiseman"))
+       else if(!wcscasecmp(name, L"speech_prog_wiseman"))
 	 mobindex->mprogs->speech_prog = speech_prog_wiseman;
-       else if(!str_cmp(name, "speech_prog_crier"))
+       else if(!wcscasecmp(name, L"speech_prog_crier"))
 	 mobindex->mprogs->speech_prog = speech_prog_crier;
-       else if(!str_cmp(name, "speech_prog_hunter_cleric"))
+       else if(!wcscasecmp(name, L"speech_prog_hunter_cleric"))
 	 mobindex->mprogs->speech_prog = speech_prog_hunter_cleric;
        else
 	 {
-	   bug("Load_mprogs: 'M': Function not found for vnum %d",
+	   bug( L"Load_mprogs: 'M': Function not found for vnum %d",
 	       mobindex->vnum);
 	   exit(1);
 	 }
        SET_BIT(mobindex->progtypes, MPROG_SPEECH);
        return;
      }
-   if (!str_cmp(progtype, "give_prog"))
+   if (!wcscasecmp(progtype, L"give_prog"))
      {
-       if (!str_cmp(name, "give_prog_fireflash"))
+       if (!wcscasecmp(name, L"give_prog_fireflash"))
 	 mobindex->mprogs->give_prog = give_prog_fireflash;
-       else if (!str_cmp(name, "give_prog_solamnia"))
+       else if (!wcscasecmp(name, L"give_prog_solamnia"))
 	 mobindex->mprogs->give_prog = give_prog_solamnia;
-       else if (!str_cmp(name, "give_prog_keeper"))
+       else if (!wcscasecmp(name, L"give_prog_keeper"))
  	 mobindex->mprogs->give_prog = give_prog_keeper;
-       else if (!str_cmp(name, "give_prog_dressmaker"))
+       else if (!wcscasecmp(name, L"give_prog_dressmaker"))
 	 mobindex->mprogs->give_prog = give_prog_dressmaker;
        else
 	 {
-	   bug("Load_mprogs: 'M': Function not found for vnum %d",
+	   bug( L"Load_mprogs: 'M': Function not found for vnum %d",
 	       mobindex->vnum);
 	   exit(1);
 	 }
@@ -324,7 +326,7 @@ void mprog_set(MOB_INDEX_DATA *mobindex,const char *progtype, const char *name)
        SET_BIT(mobindex->progtypes, MPROG_GIVE);
        return;
      }
-   bug( "Load_mprogs: 'M': invalid program type for vnum %d",mobindex->vnum);
+   bug( L"Load_mprogs: 'M': invalid program type for vnum %d",mobindex->vnum);
    exit(1);
  }
 
@@ -332,19 +334,19 @@ void bribe_prog_cityguard(CHAR_DATA *mob, CHAR_DATA *ch, int amount)
 {
   if (amount < 100)
     {
-      do_say(mob, (char*)"Cimri!!!");
+      do_say(mob, (wchar_t*)"Cimri!!!");
       do_murder(mob, ch->name);
       return;
     }
   else if (amount >= 5000)
     {
-      interpret(mob, (char*)"gülümse", FALSE);
-      do_sleep(mob, (char*)"");
+      interpret(mob, (wchar_t*)"gÃ¼lÃ¼mse", FALSE);
+      do_sleep(mob, (wchar_t*)"");
       return;
     }
   else
     {
-      do_say(mob,(char*)"Bana rüþvet mi öneriyorsun? Pekala, ama bu sana pahalýya patlar!");
+      do_say(mob,(wchar_t*)"Bana rÃ¼ÅŸvet mi Ã¶neriyorsun? Pekala, ama bu sana pahalÄ±ya patlar!");
       return;
     }
 }
@@ -358,20 +360,20 @@ void greet_prog_shalafi(CHAR_DATA *mob,CHAR_DATA *ch)
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
 
   if (ch->cabal == CABAL_SHALAFI) {
-    do_say(mob,(char*)"Selamlar arif olan.");
+    do_say(mob,(wchar_t*)"Selamlar arif olan.");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob,(char*)"Hayaletler buraya giremez.");
+      do_say(mob,(wchar_t*)"Hayaletler buraya giremez.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, (char*)"Dikkat!!! Davetsiz Misafir!!!");
-  do_say(mob,(char*)"Kabalýmý rahatsýz etmemeliydin!");
+  do_cb(mob, (wchar_t*)"Dikkat!!! Davetsiz Misafir!!!");
+  do_say(mob,(wchar_t*)"KabalÄ±mÄ± rahatsÄ±z etmemeliydin!");
 }
 
 void greet_prog_invader(CHAR_DATA *mob,CHAR_DATA *ch)
@@ -383,43 +385,43 @@ void greet_prog_invader(CHAR_DATA *mob,CHAR_DATA *ch)
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
 
   if (ch->cabal == CABAL_INVADER) {
-    do_say(mob, (char*)"Selamlar karanlýðýn ta kendisi!");
+    do_say(mob, (wchar_t*)"Selamlar karanlÄ±ÄŸÄ±n ta kendisi!");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, (char*)"Hayaletler buraya giremez.");
+      do_say(mob, (wchar_t*)"Hayaletler buraya giremez.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, (char*)"Dikkat!!! Davetsiz Misafir!!!");
-  if (!IS_NPC(ch))  do_say(mob,(char*)"Kabalýmý rahatsýz etmemeliydin!");
+  do_cb(mob, (wchar_t*)"Dikkat!!! Davetsiz Misafir!!!");
+  if (!IS_NPC(ch))  do_say(mob,(wchar_t*)"KabalÄ±mÄ± rahatsÄ±z etmemeliydin!");
 }
 
 void greet_prog_ruler_pre(CHAR_DATA *mob,CHAR_DATA *ch)
 {
-  char buf[100];
+  wchar_t buf[100];
 
   if ( IS_NPC(ch) )
     return;
 
   if (ch->cabal == CABAL_RULER) {
-    sprintf(buf,"eðil %s",ch->name);
+    swprintf( buf, MAX_STRING_LENGTH-1, L"eÄŸil %s",ch->name);
     interpret(mob,buf, FALSE);
     return;
   }
 
-  do_say( mob, (char*)"Daha fazla ilerlemesen iyi olur." );
-  do_say( mob, (char*)"Bu bölge özel kullanýma aittir." );
+  do_say( mob, (wchar_t*)"Daha fazla ilerlemesen iyi olur." );
+  do_say( mob, (wchar_t*)"Bu bÃ¶lge Ã¶zel kullanÄ±ma aittir." );
   return;
 }
 
 void greet_prog_ruler(CHAR_DATA *mob,CHAR_DATA *ch)
 {
-  char buf[100];
+  wchar_t buf[100];
 
   if ( IS_NPC(ch) )
     return;
@@ -428,21 +430,21 @@ void greet_prog_ruler(CHAR_DATA *mob,CHAR_DATA *ch)
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
 
   if (ch->cabal == CABAL_RULER) {
-    sprintf(buf,"eðil %s",ch->name);
+    swprintf( buf, MAX_STRING_LENGTH-1, L"eÄŸil %s",ch->name);
     interpret(mob,buf, FALSE);
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob,(char*)"Hayaletler buraya giremez.");
+      do_say(mob,(wchar_t*)"Hayaletler buraya giremez.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob,(char*) "Dikkat!!! Davetsiz Misafir!!!");
-  do_say(mob,(char*) "Kabalýmý rahatsýz etmemeliydin!");
+  do_cb(mob,(wchar_t*) "Dikkat!!! Davetsiz Misafir!!!");
+  do_say(mob,(wchar_t*) "KabalÄ±mÄ± rahatsÄ±z etmemeliydin!");
 }
 
 void greet_prog_chaos(CHAR_DATA *mob,CHAR_DATA *ch)
@@ -454,20 +456,20 @@ void greet_prog_chaos(CHAR_DATA *mob,CHAR_DATA *ch)
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
 
   if (ch->cabal == CABAL_CHAOS) {
-    do_say(mob, (char*)"Selamlar kaosun efendisi!");
+    do_say(mob, (wchar_t*)"Selamlar kaosun efendisi!");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob,(char*)"Hayaletler buraya giremez.");
+      do_say(mob,(wchar_t*)"Hayaletler buraya giremez.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, (char*)"Dikkat!!! Davetsiz Misafir!!!");
-  do_say(mob,(char*) "Kabalýmý rahatsýz etmemeliydin!");
+  do_cb(mob, (wchar_t*)"Dikkat!!! Davetsiz Misafir!!!");
+  do_say(mob,(wchar_t*) "KabalÄ±mÄ± rahatsÄ±z etmemeliydin!");
 }
 
 void greet_prog_battle(CHAR_DATA *mob, CHAR_DATA *ch)
@@ -479,127 +481,127 @@ void greet_prog_battle(CHAR_DATA *mob, CHAR_DATA *ch)
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
 
   if (ch->cabal == CABAL_BATTLE) {
-    do_say(mob, (char*)"Selamlar yüce savaþçý!");
+    do_say(mob, (wchar_t*)"Selamlar yÃ¼ce savaÅŸÃ§Ä±!");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob,(char*)"Hayaletler buraya giremez.");
+      do_say(mob,(wchar_t*)"Hayaletler buraya giremez.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, (char*)"Dikkat!!! Davetsiz Misafir!!!");
-  do_say(mob, (char*)"Kabalýmý rahatsýz etmemeliydin!");
+  do_cb(mob, (wchar_t*)"Dikkat!!! Davetsiz Misafir!!!");
+  do_say(mob, (wchar_t*)"KabalÄ±mÄ± rahatsÄ±z etmemeliydin!");
 }
 
 
 void give_prog_keeper(CHAR_DATA *mob, CHAR_DATA *ch, OBJ_DATA *obj)
 {
   OBJ_DATA *rug;
-  char buf[100];
+  wchar_t buf[100];
 
   if (obj->pIndexData->vnum == 90)
     {
-      do_say(mob,(char*) "Ýþte beklediðim giysi!");
-      act("$n giysiyi masanýn altýna sokuþturuyor.",mob,NULL,NULL,TO_ROOM);
+      do_say(mob,(wchar_t*) "Ä°ÅŸte beklediÄŸim giysi!");
+      act( L"$n giysiyi masanÄ±n altÄ±na sokuÅŸturuyor.",mob,NULL,NULL,TO_ROOM);
       obj_from_char(obj);
       extract_obj(obj);
-      if ((rug = get_obj_carry(ch, (char*)"rug")) != NULL)
+      if ((rug = get_obj_carry(ch, (wchar_t*)"rug")) != NULL)
 	{
-    do_say(mob, (char*)"Sanýrým FireFlash'i ziyaret etmek isteyeceksin.");
-	  do_say(mob, (char*)"Dikkatli ol, caný biraz sýkkýn.");
-	  do_unlock (mob, (char*)"door");
-	  do_open (mob, (char*)"door");
+    do_say(mob, (wchar_t*)"SanÄ±rÄ±m FireFlash'i ziyaret etmek isteyeceksin.");
+	  do_say(mob, (wchar_t*)"Dikkatli ol, canÄ± biraz sÄ±kkÄ±n.");
+	  do_unlock (mob, (wchar_t*)"door");
+	  do_open (mob, (wchar_t*)"door");
 	}
       else
 	{
-    do_say(mob,(char*)"Sanýrým FireFlash ile iþin yok.");
-    do_say(mob,(char*)"Sanýrým þimdi buradan ayrýlacak ve eksiklerini tamamlayacaksýn.");
+    do_say(mob,(wchar_t*)"SanÄ±rÄ±m FireFlash ile iÅŸin yok.");
+    do_say(mob,(wchar_t*)"SanÄ±rÄ±m ÅŸimdi buradan ayrÄ±lacak ve eksiklerini tamamlayacaksÄ±n.");
 	}
     }
     else
     {
-     sprintf(buf,"%s %s",obj->name,ch->name);
+     swprintf( buf, MAX_STRING_LENGTH-1, L"%s %s",obj->name,ch->name);
      do_give(mob,buf);
-     do_say(mob,(char*)"Neden buna ihtiyacým olsun?");
+     do_say(mob,(wchar_t*)"Neden buna ihtiyacÄ±m olsun?");
     }
  return;
 }
 
 
-void speech_prog_keeper(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
+void speech_prog_keeper(CHAR_DATA *mob, CHAR_DATA *ch, wchar_t *speech)
 {
   OBJ_DATA *obj;
 
-  if (!str_cmp(speech, "keeper") && !IS_NPC(ch) )
+  if (!wcscasecmp(speech, L"keeper") && !IS_NPC(ch) )
     {
       obj = create_object(get_obj_index(90), 0);
       free_string(obj->name);
-      obj->name = str_dup("keeper dress");
-      act("$n ipekten beyaz bir giysi hazýrlýyor.", mob, NULL,
+      obj->name = str_dup( L"keeper dress");
+      act( L"$n ipekten beyaz bir giysi hazÄ±rlÄ±yor.", mob, NULL,
 	NULL, TO_ROOM);
-      act("Keeper için beyaz bir giysi hazýrlýyorsun.", mob, NULL, NULL, TO_CHAR);
-      do_say(mob,(char*)"Ýþte Keeper için bir giysi.");
+      act( L"Keeper iÃ§in beyaz bir giysi hazÄ±rlÄ±yorsun.", mob, NULL, NULL, TO_CHAR);
+      do_say(mob,(wchar_t*)"Ä°ÅŸte Keeper iÃ§in bir giysi.");
       obj_to_char(obj, ch);
     }
 }
 
 void greet_prog_fireflash(CHAR_DATA *mob, CHAR_DATA *ch)
 {
-  char buf[100];
+  wchar_t buf[100];
   OBJ_DATA *obj;
 
   if (!can_see(mob,ch) || IS_NPC(ch) || IS_IMMORTAL(ch))
     return;
 
-  if ((obj = get_obj_carry(ch,(char*)"rug")) == NULL)
+  if ((obj = get_obj_carry(ch,(wchar_t*)"rug")) == NULL)
     {
-      do_say(mob,(char*)"Bu deðersiz halýyý yakýnlarýmda görmek istemiyorum.");
-    do_say(mob, (char*)"Neden onu Tear'dan aptal rahibeye vermiyorsun?");
-      do_unlock(mob, (char*)"box");
-      do_open(mob, (char*)"box");
-      do_get(mob, (char*)"papers box");
-      do_say(mob,(char*) "Bu kaðýtlarýn sana yardýmý olabilir.");
-      act("$n sana dudak büküyor.", mob, NULL, ch, TO_VICT);
-      act("$E dudak büküyorsun.", mob, NULL, ch, TO_CHAR);
-      act("$n $E dudak büküyor.", mob, NULL, ch, TO_NOTVICT);
-      sprintf(buf, "papers %s", ch->name);
+      do_say(mob,(wchar_t*)"Bu deÄŸersiz halÄ±yÄ± yakÄ±nlarÄ±mda gÃ¶rmek istemiyorum.");
+    do_say(mob, (wchar_t*)"Neden onu Tear'dan aptal rahibeye vermiyorsun?");
+      do_unlock(mob, (wchar_t*)"box");
+      do_open(mob, (wchar_t*)"box");
+      do_get(mob, (wchar_t*)"papers box");
+      do_say(mob,(wchar_t*) "Bu kaÄŸÄ±tlarÄ±n sana yardÄ±mÄ± olabilir.");
+      act( L"$n sana dudak bÃ¼kÃ¼yor.", mob, NULL, ch, TO_VICT);
+      act( L"$E dudak bÃ¼kÃ¼yorsun.", mob, NULL, ch, TO_CHAR);
+      act( L"$n $E dudak bÃ¼kÃ¼yor.", mob, NULL, ch, TO_NOTVICT);
+      swprintf( buf, MAX_STRING_LENGTH-1, L"papers %s", ch->name);
       do_give(mob, buf);
-      do_close(mob, (char*)"box");
-      do_lock(mob, (char*)"box");
+      do_close(mob, (wchar_t*)"box");
+      do_lock(mob, (wchar_t*)"box");
     }
 }
 
 void give_prog_fireflash(CHAR_DATA *mob, CHAR_DATA *ch, OBJ_DATA *obj)
 {
-  char buf[100];
+  wchar_t buf[100];
 
   if (!can_see(mob,ch))
-  do_say(mob,(char*)"Orada biri mi var?");
+  do_say(mob,(wchar_t*)"Orada biri mi var?");
 else if (IS_NPC(ch))
- do_say(mob,(char*) "Birþeyler getiren bir hayvan... Ne kadar garip!");
+ do_say(mob,(wchar_t*) "BirÅŸeyler getiren bir hayvan... Ne kadar garip!");
 
   else if (obj->pIndexData->vnum != 91)
     {
-      do_say(mob,(char*)"Ne kadar ilginç!... Nedir bu?");
-      interpret(mob, (char*)"kýkýrda", FALSE);
-      sprintf(buf,"%s %s",obj->name,ch->name);
+      do_say(mob,(wchar_t*)"Ne kadar ilginÃ§!... Nedir bu?");
+      interpret(mob, (wchar_t*)"kÄ±kÄ±rda", FALSE);
+      swprintf( buf, MAX_STRING_LENGTH-1, L"%s %s",obj->name,ch->name);
       do_give(mob,buf);
     }
   else
     {
-      do_say(mob, (char*)"Ne kadar þahane bir halý! Acaba nereye koysam...");
-      act("$n odayý dolanarak kendi kendine mýrýldanýyor.", mob,
+      do_say(mob, (wchar_t*)"Ne kadar ÅŸahane bir halÄ±! Acaba nereye koysam...");
+      act( L"$n odayÄ± dolanarak kendi kendine mÄ±rÄ±ldanÄ±yor.", mob,
 	NULL, NULL, TO_ROOM);
-      act("$n ellerini cebine sokuyor.",mob,NULL,NULL,TO_ROOM);
-      do_load(mob, (char*)"obj 2438");
-      do_say(mob,(char*)"Nedir bu? Bir anahtar? Hmm, geri alabilirsin.");
-      sprintf(buf, "xxx %s",ch->name);
+      act( L"$n ellerini cebine sokuyor.",mob,NULL,NULL,TO_ROOM);
+      do_load(mob, (wchar_t*)"obj 2438");
+      do_say(mob,(wchar_t*)"Nedir bu? Bir anahtar? Hmm, geri alabilirsin.");
+      swprintf( buf, MAX_STRING_LENGTH-1, L"xxx %s",ch->name);
       do_give(mob, buf);
-      act("$n dalgýnlýkla halýyý sandalyenin altýna itiyor.",mob,NULL,NULL,TO_ROOM);
+      act( L"$n dalgÄ±nlÄ±kla halÄ±yÄ± sandalyenin altÄ±na itiyor.",mob,NULL,NULL,TO_ROOM);
       obj_from_char(obj);
       extract_obj(obj);
     }
@@ -610,35 +612,35 @@ void greet_prog_solamnia(CHAR_DATA *mob, CHAR_DATA *ch)
 {
 
   OBJ_DATA *obj;
-  char arg[100];
+  wchar_t arg[100];
 
   if (!can_see(mob,ch) || IS_NPC(ch) || IS_IMMORTAL(ch))
     return;
 
-  sprintf(arg,"xxx");
+  swprintf(arg,100-1, L"xxx");
 
   if ((obj = get_obj_carry(ch, arg)) != NULL)
     {
-      do_say(mob,(char*) "Sanýrým benim için birþey getirdin.");
-      interpret(mob,(char*) "gülümse", FALSE);
+      do_say(mob,(wchar_t*) "SanÄ±rÄ±m benim iÃ§in birÅŸey getirdin.");
+      interpret(mob,(wchar_t*) "gÃ¼lÃ¼mse", FALSE);
     }
 }
 
 void give_prog_solamnia(CHAR_DATA *mob, CHAR_DATA *ch, OBJ_DATA *obj)
 
 {
-  char buf[100];
+  wchar_t buf[100];
   OBJ_DATA *kassandra;
 
   if (obj->pIndexData->vnum == 2438 )
     {
-      do_say(mob,(char*) "Ýþte ödülün!");
+      do_say(mob,(wchar_t*) "Ä°ÅŸte Ã¶dÃ¼lÃ¼n!");
       kassandra = create_object(get_obj_index(89), 0);
       kassandra->timer = 500;
       obj_to_char(kassandra, mob);
-      sprintf(buf,"kasandra %s",ch->name);
+      swprintf( buf, MAX_STRING_LENGTH-1, L"kasandra %s",ch->name);
       do_give(mob, buf);
-      do_say(mob,(char*)"Bu taþýn özel güçleri vardýr, dikkatli kullan.");
+      do_say(mob,(wchar_t*)"Bu taÅŸÄ±n Ã¶zel gÃ¼Ã§leri vardÄ±r, dikkatli kullan.");
       obj_from_char(obj);
       extract_obj(obj);
     }
@@ -646,10 +648,10 @@ void give_prog_solamnia(CHAR_DATA *mob, CHAR_DATA *ch, OBJ_DATA *obj)
 
 bool death_prog_stalker(CHAR_DATA *mob)
 {
-  char buf[100];
+  wchar_t buf[100];
 
   mob->cabal = CABAL_RULER;
-  sprintf(buf, "%syi öldürmeyi beceremedim, son nefesimi vermeliyimg.",
+  swprintf( buf, MAX_STRING_LENGTH-1, L"%syi Ã¶ldÃ¼rmeyi beceremedim, son nefesimi vermeliyimg.",
 	  mob->last_fought->name);
   do_cb(mob, buf);
   return FALSE;
@@ -664,20 +666,20 @@ void greet_prog_knight(CHAR_DATA *mob, CHAR_DATA *ch)
   SET_BIT(mob->off_flags,OFF_AREA_ATTACK);
 
   if (ch->cabal == CABAL_KNIGHT) {
-    do_say(mob,(char*)"Merhaba onurlu olan!");
+    do_say(mob,(wchar_t*)"Merhaba onurlu olan!");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, (char*)"Hayaletler buraya giremez.");
+      do_say(mob, (wchar_t*)"Hayaletler buraya giremez.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, (char*)"Dikkat!!! Davetsiz Misafir!!!");
-  do_say(mob, (char*)"Kabalýmý rahatsýz etmemeliydin!");
+  do_cb(mob, (wchar_t*)"Dikkat!!! Davetsiz Misafir!!!");
+  do_say(mob, (wchar_t*)"KabalÄ±mÄ± rahatsÄ±z etmemeliydin!");
 }
 
 void give_prog_dressmaker(CHAR_DATA *mob, CHAR_DATA *ch, OBJ_DATA *obj)
@@ -688,20 +690,20 @@ void give_prog_dressmaker(CHAR_DATA *mob, CHAR_DATA *ch, OBJ_DATA *obj)
 
   if (!can_see(mob, ch))
     {
-      do_say(mob,(char*)"Bu nereden geldi?");
+      do_say(mob,(wchar_t*)"Bu nereden geldi?");
       return;
     }
 
   if (obj->pIndexData->vnum != 2436)
     {
-      do_say(mob,(char*)"Bu iþime yaramaz. Bana ipek lazým.");
+      do_say(mob,(wchar_t*)"Bu iÅŸime yaramaz. Bana ipek lazÄ±m.");
       do_drop(mob, obj->name);
       return;
     }
 
   else
     {
-      do_say(mob,(char*)"Bu elbiseyi kime yapýyorum?");
+      do_say(mob,(wchar_t*)"Bu elbiseyi kime yapÄ±yorum?");
       obj_from_char(obj);
       extract_obj(obj);
     }
@@ -715,15 +717,15 @@ void greet_prog_keeper(CHAR_DATA *mob, CHAR_DATA *ch)
   if (!can_see(mob, ch))
     return;
 
-    do_say(mob,(char*)"Burada ne iþin var? O þey sipariþ ettiðim giysi mi?");
+    do_say(mob,(wchar_t*)"Burada ne iÅŸin var? O ÅŸey sipariÅŸ ettiÄŸim giysi mi?");
 }
 
-void speech_prog_templeman(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
+void speech_prog_templeman(CHAR_DATA *mob, CHAR_DATA *ch, wchar_t *speech)
 {
-char buf[160];
+wchar_t buf[160];
 int chosen = 0;
 
-if ( !str_cmp( speech, "din" )|| !str_cmp(speech,"dinler") )
+if ( !wcscasecmp( speech, L"din" )|| !wcscasecmp(speech, L"dinler") )
 	mob->status = GIVE_HELP_RELIGION;
     else if (( chosen = lookup_religion_name( speech)) != 0 )
 	mob->status = RELIG_CHOSEN;
@@ -733,48 +735,48 @@ if ( !str_cmp( speech, "din" )|| !str_cmp(speech,"dinler") )
    {
     if (( ch->religion > 0) && (ch->religion < MAX_RELIGION) )
 	{
-    sprintf(buf,"Zaten %s yolundasýn.",
+    swprintf( buf, MAX_STRING_LENGTH-1, L"Zaten %s yolundasÄ±n.",
 		religion_table[ch->religion].name);
 	 do_say(mob,buf);
 	 return;
 	}
 
     ch->religion = chosen;
-    sprintf(buf,"Bundan böyle sonsuza kadar %s yolundasýn.",
+    swprintf( buf, MAX_STRING_LENGTH-1, L"Bundan bÃ¶yle sonsuza kadar %s yolundasÄ±n.",
 		religion_table[ch->religion].name);
     do_say(mob,buf);
     return;
    }
-   do_say(mob,(char*)"Hmmm... Eveeett.. Din.. Bununla gerçekten ilgileniyor musun?");
-   do_say(mob,(char*)"Önce yardým almayý dene. 'yardým din' yaz.");
-   do_say(mob,(char*)"Bildiðin gibi bu diyarda üç din vardýr.");
-   do_say(mob,(char*)"Aktular için Nama, Yansýzlar için Bolloh ve Þer için Kamos.");
-   do_say(mob,(char*)"Bana seçmek istediðin dinin efendisini söylemelisin.");
-   do_say(mob,(char*)"Unutma ki dinini bir kez seçersin.");
-   do_say(mob,(char*)"Dinini deðiþtirmek istersen bunun için kimi görevleri bitirmen gerekir.");
+   do_say(mob,(wchar_t*)"Hmmm... Eveeett.. Din.. Bununla gerÃ§ekten ilgileniyor musun?");
+   do_say(mob,(wchar_t*)"Ã–nce yardÄ±m almayÄ± dene. 'yardÄ±m din' yaz.");
+   do_say(mob,(wchar_t*)"BildiÄŸin gibi bu diyarda Ã¼Ã§ din vardÄ±r.");
+   do_say(mob,(wchar_t*)"Aktular iÃ§in Nama, YansÄ±zlar iÃ§in Bolloh ve Åžer iÃ§in Kamos.");
+   do_say(mob,(wchar_t*)"Bana seÃ§mek istediÄŸin dinin efendisini sÃ¶ylemelisin.");
+   do_say(mob,(wchar_t*)"Unutma ki dinini bir kez seÃ§ersin.");
+   do_say(mob,(wchar_t*)"Dinini deÄŸiÅŸtirmek istersen bunun iÃ§in kimi gÃ¶revleri bitirmen gerekir.");
    return;
 }
 
 void greet_prog_templeman(CHAR_DATA *mob, CHAR_DATA *ch)
 {
 
-  char arg[100];
+  wchar_t arg[100];
 
   if (!can_see(mob,ch) || IS_NPC(ch) || IS_IMMORTAL(ch))
     return;
 
-    sprintf(arg,"gülümse %s",ch->name);
+    swprintf(arg,100-1, L"gÃ¼lÃ¼mse %s",ch->name);
   interpret(mob, arg, FALSE);
 }
 
 
-int lookup_religion_name (const char *name)
+int lookup_religion_name (const wchar_t *name)
 {
    int value;
 
    for ( value = 0; value < MAX_RELIGION ; value++)
    {
-	if (LOWER(name[0]) == LOWER(religion_table[value].name[0])
+	if (towlower(name[0]) == towlower(religion_table[value].name[0])
 	&&  !str_prefix( name,religion_table[value].name))
 	    return value;
    }
@@ -792,20 +794,20 @@ void greet_prog_lions(CHAR_DATA *mob, CHAR_DATA *ch)
 
   if (ch->cabal == CABAL_LIONS )
   {
-    do_say(mob, (char*)"Hoþgeldiniz aslan efendiler.");
+    do_say(mob, (wchar_t*)"HoÅŸgeldiniz aslan efendiler.");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob,(char*)"Hayaletler buraya giremez.");
+      do_say(mob,(wchar_t*)"Hayaletler buraya giremez.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, (char*)"Dikkat!!! Davetsiz Misafir!!!");
-  do_say(mob, (char*)"Kabalýmý rahatsýz etmemeliydin!");
+  do_cb(mob, (wchar_t*)"Dikkat!!! Davetsiz Misafir!!!");
+  do_say(mob, (wchar_t*)"KabalÄ±mÄ± rahatsÄ±z etmemeliydin!");
 }
 
 void greet_prog_hunter_old(CHAR_DATA *mob, CHAR_DATA *ch)
@@ -818,20 +820,20 @@ void greet_prog_hunter_old(CHAR_DATA *mob, CHAR_DATA *ch)
 
   if (ch->cabal == CABAL_HUNTER )
   {
-    do_say(mob, (char*)"Merhaba sevgili avcý.");
+    do_say(mob, (wchar_t*)"Merhaba sevgili avcÄ±.");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob,(char*)"Hayaletler buraya giremez.");
+      do_say(mob,(wchar_t*)"Hayaletler buraya giremez.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, (char*)"Dikkat!!! Davetsiz Misafir!!!");
-  do_say(mob, (char*)"Kabalýmý rahatsýz etmemeliydin!");
+  do_cb(mob, (wchar_t*)"Dikkat!!! Davetsiz Misafir!!!");
+  do_say(mob, (wchar_t*)"KabalÄ±mÄ± rahatsÄ±z etmemeliydin!");
 }
 
 
@@ -845,11 +847,11 @@ void greet_prog_hunter(CHAR_DATA *mob, CHAR_DATA *ch)
 
   if (ch->cabal == CABAL_HUNTER )
   {
-    char buf[MAX_STRING_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
     OBJ_DATA *eyed;
     int i;
 
-    do_say(mob,(char*)"Merhaba sevgili avcý.");
+    do_say(mob,(wchar_t*)"Merhaba sevgili avcÄ±.");
         if (IS_SET(ch->quest,QUEST_EYE)) return;
 
         SET_BIT(ch->quest,QUEST_EYE);
@@ -867,11 +869,11 @@ void greet_prog_hunter(CHAR_DATA *mob, CHAR_DATA *ch)
 	eyed->pit = hometown_table[ch->hometown].pit[i];
 	eyed->level = ch->level;
 
-	sprintf( buf, eyed->short_descr, ch->name );
+	swprintf( buf, MAX_STRING_LENGTH-1, eyed->short_descr, ch->name );
 	free_string( eyed->short_descr );
 	eyed->short_descr = str_dup( buf );
 
-        sprintf( buf, eyed->pIndexData->extra_descr->description, ch->name );
+        swprintf( buf, MAX_STRING_LENGTH-1, eyed->pIndexData->extra_descr->description, ch->name );
         eyed->extra_descr = new_extra_descr();
         eyed->extra_descr->keyword =
 		str_dup( eyed->pIndexData->extra_descr->keyword );
@@ -882,25 +884,25 @@ void greet_prog_hunter(CHAR_DATA *mob, CHAR_DATA *ch)
   	eyed->level = ch->level;
 	eyed->cost = 0;
 	obj_to_char( eyed, mob);
-  interpret( mob, (char*)"emote bir Avcý Kýlýcý yaratýyor.", FALSE);
-	do_say( mob ,(char*)"Sana avcýnýn kýlýcýný veriyorum.");
-	sprintf( buf , "give eyed %s" , ch->name);
+  interpret( mob, (wchar_t*)"emote bir AvcÄ± KÄ±lÄ±cÄ± yaratÄ±yor.", FALSE);
+	do_say( mob ,(wchar_t*)"Sana avcÄ±nÄ±n kÄ±lÄ±cÄ±nÄ± veriyorum.");
+	swprintf( buf, MAX_STRING_LENGTH-1, L"give eyed %s" , ch->name);
 	interpret( mob , buf , FALSE);
-	do_say( mob , (char*)"Þunu unutma ki, eðer onu kaybedersen kabal þifacýsýndan yeni bir tane isteyebilirsin.");
-	do_say( mob ,(char*)"Ona sadece 'felaket' de.");
+	do_say( mob , (wchar_t*)"Åžunu unutma ki, eÄŸer onu kaybedersen kabal ÅŸifacÄ±sÄ±ndan yeni bir tane isteyebilirsin.");
+	do_say( mob ,(wchar_t*)"Ona sadece 'felaket' de.");
     return;
   }
   if (ch->last_death_time != -1 && current_time - ch->last_death_time < 600)
     {
-      do_say(mob, (char*)"Hayaletler buraya giremez.");
+      do_say(mob, (wchar_t*)"Hayaletler buraya giremez.");
       do_slay(mob, ch->name);
       return;
     }
 
   if (IS_IMMORTAL(ch))	return;
 
-  do_cb(mob, (char*)"Dikkat!!! Davetsiz Misafir!!!");
-  do_say(mob,(char*)"Kabalýmý rahatsýz etmemeliydin!");
+  do_cb(mob, (wchar_t*)"Dikkat!!! Davetsiz Misafir!!!");
+  do_say(mob,(wchar_t*)"KabalÄ±mÄ± rahatsÄ±z etmemeliydin!");
 }
 
 
@@ -912,7 +914,7 @@ void fight_prog_diana( CHAR_DATA *mob, CHAR_DATA *ch )
    if ( !mob->in_room || number_percent() < 25 ) return;
    if (mob->in_room->area != mob->zone) return;
 
-   do_yell(mob,(char*)"Yardým edin nöbetçiler.");
+   do_yell(mob,(wchar_t*)"YardÄ±m edin nÃ¶betÃ§iler.");
    for( ach = char_list; ach != NULL; ach = ach_next )
    {
      ach_next = ach->next;
@@ -928,9 +930,9 @@ void fight_prog_diana( CHAR_DATA *mob, CHAR_DATA *ch )
 	  {
 	   int i;
 
-     act_color("$C$n tanrýlarý yardýmýna çaðýrýyor.$c",
+     act_color( L"$C$n tanrÄ±larÄ± yardÄ±mÄ±na Ã§aÄŸÄ±rÄ±yor.$c",
   ach,NULL,NULL,TO_ROOM,POS_SLEEPING,CLR_BLUE);
-     act_color("$CTanrýlar $m Diana'ya yardým etmesi için geliþtiriyor.$c",
+     act_color( L"$CTanrÄ±lar $m Diana'ya yardÄ±m etmesi iÃ§in geliÅŸtiriyor.$c",
 		ach,NULL,NULL,TO_ROOM,POS_SLEEPING,CLR_GREEN);
   	   ach->max_hit = 6000;
   	   ach->hit = 6000;
@@ -941,18 +943,18 @@ void fight_prog_diana( CHAR_DATA *mob, CHAR_DATA *ch )
   	   ach->damage[DICE_BONUS] = number_range(6, 8);
 	   for(i=0;i<MAX_STATS;i++)
 		ach->perm_stat[i] = 23;
-    do_say(ach,(char*)"Ýþte geldim Diana.");
+    do_say(ach,(wchar_t*)"Ä°ÅŸte geldim Diana.");
 	   do_murder(ach,ch->name);
 	   continue;
 	  }
          door = find_path( ach->in_room->vnum, mob->in_room->vnum,
 			ach,-40,1);
-	 if (door == -1) bug("Couldn't find a path with -40",0);
+	 if (door == -1) bug( L"Couldn't find a path with -40",0);
 	 else {
 		if (number_percent() < 25)
-    do_yell(ach,(char*)" Dayan Diana! Geliyorum!");
+    do_yell(ach,(wchar_t*)" Dayan Diana! Geliyorum!");
    else
-    do_say(ach,(char*)"Gidip Dianaya yardým etmeliyim.");
+    do_say(ach,(wchar_t*)"Gidip Dianaya yardÄ±m etmeliyim.");
 		move_char(ach,door,FALSE);
 	      }
 	}
@@ -961,12 +963,12 @@ void fight_prog_diana( CHAR_DATA *mob, CHAR_DATA *ch )
 
 void fight_prog_ofcol_guard( CHAR_DATA *mob, CHAR_DATA *ch )
 {
-   char buf[MAX_STRING_LENGTH];
+   wchar_t buf[MAX_STRING_LENGTH];
    CHAR_DATA *ach, *ach_next;
    int door;
 
    if (number_percent() < 25) return;
-   sprintf(buf,"Yardým edin nöbetçiler! %s benimle dövüþüyor!",ch->name);
+   swprintf( buf, MAX_STRING_LENGTH-1, L"YardÄ±m edin nÃ¶betÃ§iler! %s benimle dÃ¶vÃ¼ÅŸÃ¼yor!",ch->name);
    do_yell(mob,buf);
    for( ach = char_list; ach != NULL; ach = ach_next )
    {
@@ -977,76 +979,76 @@ void fight_prog_ofcol_guard( CHAR_DATA *mob, CHAR_DATA *ch )
 	 if (ach->fighting) continue;
 	 if (mob->in_room == ach->in_room)
 	  {
-      sprintf(buf,"Þimdi %s, muhafýzlara saldýrmanýn cezasýný çekeceksin.",ch->name);
+      swprintf( buf, MAX_STRING_LENGTH-1, L"Åžimdi %s, muhafÄ±zlara saldÄ±rmanÄ±n cezasÄ±nÄ± Ã§ekeceksin.",ch->name);
 	   do_say(ach,buf);
 	   do_murder(ach,ch->name);
 	   continue;
 	  }
          door = find_path( ach->in_room->vnum, mob->in_room->vnum,
 			ach,-40,1);
-	 if (door == -1) bug("Couldn't find a path with -40",0);
+	 if (door == -1) bug( L"Couldn't find a path with -40",0);
 	 else {
 		if (number_percent() < 25)
-    do_yell(ach,(char*)" Dayan nöbetçi! Geliyorum!");
+    do_yell(ach,(wchar_t*)" Dayan nÃ¶betÃ§i! Geliyorum!");
    else
-    do_say(ach,(char*)"Gidip muhafýza yardým etmeliyim.");
+    do_say(ach,(wchar_t*)"Gidip muhafÄ±za yardÄ±m etmeliyim.");
 		move_char(ach,door,FALSE);
 	      }
 	}
    }
 }
 
-void speech_prog_wiseman(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
+void speech_prog_wiseman(CHAR_DATA *mob, CHAR_DATA *ch, wchar_t *speech)
 {
- char arg[512];
+ wchar_t arg[512];
 
  one_argument(speech,arg);
  if (arg[0] == '\0')	return;
- if (!str_cmp(speech,"bilge iyileþtir þifa"))
+ if (!wcscasecmp(speech,L"bilge iyileÅŸtir ÅŸifa"))
 	heal_battle(mob,ch);
  else return;
 }
 
 void greet_prog_armourer(CHAR_DATA *mob, CHAR_DATA *ch)
 {
-  char buf[MAX_STRING_LENGTH];
+  wchar_t buf[MAX_STRING_LENGTH];
 
   if (!can_see(mob,ch) || IS_NPC(ch) || IS_IMMORTAL(ch))
     return;
-  interpret(mob,(char*)"gülümse", FALSE);
-  sprintf(buf,"Zýrhçýya hoþgeldin %s,",
-   str_cmp(mob->in_room->area->name,hometown_table[ch->hometown].name) ?
-   "yolcu" : ch->name );
+  interpret(mob,(wchar_t*)"gÃ¼lÃ¼mse", FALSE);
+  swprintf( buf, MAX_STRING_LENGTH-1, L"ZÄ±rhÃ§Ä±ya hoÅŸgeldin %s,",
+   wcscasecmp(mob->in_room->area->name,hometown_table[ch->hometown].name) ?
+   L"yolcu" : ch->name );
   do_say(mob,buf);
-  do_say(mob,(char*)"Sana nasýl yardýmcý olabilirim?");
-  do_say(mob,(char*)"Dükkanýmda gördüðün zýrhlarýn tümü çok kalitelidir.");
-  interpret(mob,(char*)"emote gururla geriniyor.", FALSE);
+  do_say(mob,(wchar_t*)"Sana nasÄ±l yardÄ±mcÄ± olabilirim?");
+  do_say(mob,(wchar_t*)"DÃ¼kkanÄ±mda gÃ¶rdÃ¼ÄŸÃ¼n zÄ±rhlarÄ±n tÃ¼mÃ¼ Ã§ok kalitelidir.");
+  interpret(mob,(wchar_t*)"emote gururla geriniyor.", FALSE);
 }
 
 void greet_prog_baker(CHAR_DATA *mob, CHAR_DATA *ch)
 {
-  char buf[MAX_STRING_LENGTH];
+  wchar_t buf[MAX_STRING_LENGTH];
 
   if (!can_see(mob,ch) || IS_NPC(ch) || IS_IMMORTAL(ch))
     return;
-  interpret(mob,(char*)"gülümse", FALSE);
-  sprintf(buf,"Fýrýna hoþgeldin %s.",
-   str_cmp(mob->in_room->area->name,hometown_table[ch->hometown].name) ?
-   "yolcu" : ch->name );
+  interpret(mob,(wchar_t*)"gÃ¼lÃ¼mse", FALSE);
+  swprintf( buf, MAX_STRING_LENGTH-1, L"FÄ±rÄ±na hoÅŸgeldin %s.",
+   wcscasecmp(mob->in_room->area->name,hometown_table[ch->hometown].name) ?
+   L"yolcu" : ch->name );
   do_say(mob,buf);
 }
 
 void greet_prog_beggar(CHAR_DATA *mob, CHAR_DATA *ch)
 {
-  char buf[MAX_STRING_LENGTH];
+  wchar_t buf[MAX_STRING_LENGTH];
 
   if (!can_see(mob,ch) || IS_NPC(ch) || IS_IMMORTAL(ch))
     return;
-    sprintf(buf,"Allah rýzasý için %s,",
-   str_cmp(mob->in_room->area->name,hometown_table[ch->hometown].name) ?
-   "yolcu" : ch->name );
+    swprintf( buf, MAX_STRING_LENGTH-1, L"Allah rÄ±zasÄ± iÃ§in %s,",
+   wcscasecmp(mob->in_room->area->name,hometown_table[ch->hometown].name) ?
+   L"yolcu" : ch->name );
   do_say(mob,buf);
-  do_say(mob,(char*)"Birkaç akçe ver...");
+  do_say(mob,(wchar_t*)"BirkaÃ§ akÃ§e ver...");
 }
 
 void greet_prog_drunk(CHAR_DATA *mob, CHAR_DATA *ch)
@@ -1055,53 +1057,53 @@ void greet_prog_drunk(CHAR_DATA *mob, CHAR_DATA *ch)
     return;
   if (number_percent() < 5)
    {
-     do_yell(mob,(char*)"Canavar! Bir canavar buldum! Saldýrýn!");
+     do_yell(mob,(wchar_t*)"Canavar! Bir canavar buldum! SaldÄ±rÄ±n!");
     do_murder(mob,ch->name);
    }
 }
 
 void greet_prog_grocer(CHAR_DATA *mob, CHAR_DATA *ch)
 {
-  char buf[MAX_STRING_LENGTH];
+  wchar_t buf[MAX_STRING_LENGTH];
 
   if (!can_see(mob,ch) || IS_NPC(ch) || IS_IMMORTAL(ch))
     return;
-    sprintf(buf,"Dükkanýma hoþgeldin %s.",
-   str_cmp(mob->in_room->area->name,hometown_table[ch->hometown].name) ?
-   "yolcu" : ch->name );
+    swprintf( buf, MAX_STRING_LENGTH-1, L"DÃ¼kkanÄ±ma hoÅŸgeldin %s.",
+   wcscasecmp(mob->in_room->area->name,hometown_table[ch->hometown].name) ?
+   L"yolcu" : ch->name );
   do_say(mob,buf);
 }
 
 
 void bribe_prog_beggar(CHAR_DATA *mob, CHAR_DATA *ch, int amount)
 {
-  char buf[MAX_STRING_LENGTH];
+  wchar_t buf[MAX_STRING_LENGTH];
 
   if (amount < 10)
     {
-     sprintf(buf,"teþekkür %s",
-      str_cmp(mob->in_room->area->name,hometown_table[ch->hometown].name) ?
-      "yolcu" : ch->name );
+     swprintf( buf, MAX_STRING_LENGTH-1, L"teÅŸekkÃ¼r %s",
+      wcscasecmp(mob->in_room->area->name,hometown_table[ch->hometown].name) ?
+      L"yolcu" : ch->name );
      interpret(mob,buf, FALSE);
      return;
     }
   else if (amount < 100)
     {
-      do_say(mob,(char*)"Ohaaa! Çok teþekkür ederim.");
+      do_say(mob,(wchar_t*)"Ohaaa! Ã‡ok teÅŸekkÃ¼r ederim.");
      return;
     }
   else if (amount < 500)
     {
-      do_say(mob,(char*)"Tanrýma þükürler olsun! Teþekkürler! Teþekkürler!");
-      sprintf(buf,"öp %s",ch->name);
+      do_say(mob,(wchar_t*)"TanrÄ±ma ÅŸÃ¼kÃ¼rler olsun! TeÅŸekkÃ¼rler! TeÅŸekkÃ¼rler!");
+      swprintf( buf, MAX_STRING_LENGTH-1, L"Ã¶p %s",ch->name);
      interpret(mob,buf, FALSE);
      return;
     }
   else
     {
-     sprintf(buf,"dans %s",ch->name);
+     swprintf( buf, MAX_STRING_LENGTH-1, L"dans %s",ch->name);
      interpret(mob,buf, FALSE);
-     sprintf(buf,"öp %s",ch->name);
+     swprintf( buf, MAX_STRING_LENGTH-1, L"Ã¶p %s",ch->name);
      interpret(mob,buf, FALSE);
      return;
     }
@@ -1110,8 +1112,8 @@ void bribe_prog_beggar(CHAR_DATA *mob, CHAR_DATA *ch, int amount)
 
 void bribe_prog_drunk(CHAR_DATA *mob, CHAR_DATA *ch, int amount)
 {
-  do_say(mob,(char*) "Ahh! Daha fazla ruh! Güzel Ruhlar!");
-  interpret(mob,(char*)"þarký", FALSE);
+  do_say(mob,(wchar_t*) "Ahh! Daha fazla ruh! GÃ¼zel Ruhlar!");
+  interpret(mob,(wchar_t*)"ÅŸarkÄ±", FALSE);
    return;
 }
 
@@ -1120,7 +1122,7 @@ void bribe_prog_drunk(CHAR_DATA *mob, CHAR_DATA *ch, int amount)
 void fight_prog_beggar(CHAR_DATA *mob, CHAR_DATA *ch)
 {
   if (mob->hit < (mob->max_hit * 0.45) && mob->hit > (mob->max_hit * 0.55))
-  do_say(mob,(char*)"Ýþte ölüyorum...");
+  do_say(mob,(wchar_t*)"Ä°ÅŸte Ã¶lÃ¼yorum...");
   return;
 }
 
@@ -1128,25 +1130,25 @@ void fight_prog_beggar(CHAR_DATA *mob, CHAR_DATA *ch)
 bool death_prog_beggar(CHAR_DATA *mob)
 {
   if (number_percent() < 50 )
-  do_say(mob,(char*)"Her nereyse gittiðim yer, biliyorum ki buradan iyidir...");
-  else do_say(mob,(char*)"Günahlarýmý affet tanrým...");
+  do_say(mob,(wchar_t*)"Her nereyse gittiÄŸim yer, biliyorum ki buradan iyidir...");
+  else do_say(mob,(wchar_t*)"GÃ¼nahlarÄ±mÄ± affet tanrÄ±m...");
   return FALSE;
 }
 
 bool death_prog_vagabond(CHAR_DATA *mob)
 {
-  interpret(mob,(char*)"emote kafasýný arkaya atýp deli gibi kahkaha atýyor!", FALSE);
+  interpret(mob,(wchar_t*)"emote kafasÄ±nÄ± arkaya atÄ±p deli gibi kahkaha atÄ±yor!", FALSE);
   return FALSE;
 }
 
 
-void speech_prog_crier(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
+void speech_prog_crier(CHAR_DATA *mob, CHAR_DATA *ch, wchar_t *speech)
 {
- char arg[512];
+ wchar_t arg[512];
 
  speech = one_argument(speech,arg);
- if (is_name(arg,(char*)"ne"))
-	do_say(mob,(char*)"Sevgilim beni terketti.");
+ if (is_name(arg,(wchar_t*)"ne"))
+	do_say(mob,(wchar_t*)"Sevgilim beni terketti.");
  return;
 }
 
@@ -1154,9 +1156,9 @@ void speech_prog_crier(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
 void area_prog_drunk(CHAR_DATA *mob)
 {
   if (number_percent() < 5)
-  interpret(mob, (char*)"dans", FALSE);
+  interpret(mob, (wchar_t*)"dans", FALSE);
 else if (number_percent() < 10)
-  interpret(mob,(char*) "þarký", FALSE);
+  interpret(mob,(wchar_t*) "ÅŸarkÄ±", FALSE);
   return;
 }
 
@@ -1164,18 +1166,18 @@ void area_prog_janitor(CHAR_DATA *mob)
 {
   if (number_percent() < 20)
    {
-    interpret(mob,(char*)"grumble", FALSE);
-    do_say(mob,(char*)"Çöpler");
+    interpret(mob,(wchar_t*)"grumble", FALSE);
+    do_say(mob,(wchar_t*)"Ã‡Ã¶pler");
     if (number_percent() < 20 )
      {
-       do_say(mob,(char*)"Hergün yaptýðým tek iþ baþkalarýnýn pisliklerini temizlemek.");
+       do_say(mob,(wchar_t*)"HergÃ¼n yaptÄ±ÄŸÄ±m tek iÅŸ baÅŸkalarÄ±nÄ±n pisliklerini temizlemek.");
       if (number_percent() < 20 )
-      do_say(mob,(char*)"Yeterince kazanamýyorum.");
+      do_say(mob,(wchar_t*)"Yeterince kazanamÄ±yorum.");
       else if (number_percent() < 20)
 	   {
-       do_say(mob,(char*)"Gün baþlýyor, gün bitiyor. Hiç aralýksýz çöp topluyorum.");
+       do_say(mob,(wchar_t*)"GÃ¼n baÅŸlÄ±yor, gÃ¼n bitiyor. HiÃ§ aralÄ±ksÄ±z Ã§Ã¶p topluyorum.");
 	    if ( number_percent() < 10 )
-      do_yell(mob,(char*)"Tatil istiyorum!");
+      do_yell(mob,(wchar_t*)"Tatil istiyorum!");
 	   }
      }
    }
@@ -1185,42 +1187,42 @@ void area_prog_janitor(CHAR_DATA *mob)
 void area_prog_vagabond(CHAR_DATA *mob)
 {
   if (number_percent() < 10)
-  do_say(mob,(char*)"Kan! Zulüm!");
+  do_say(mob,(wchar_t*)"Kan! ZulÃ¼m!");
   return;
 }
 
 void area_prog_baker(CHAR_DATA *mob)
 {
   if (number_percent() < 5)
-  do_say(mob,(char*)"Kurabiyelerimin tadýna bakmak ister misin?");
+  do_say(mob,(wchar_t*)"Kurabiyelerimin tadÄ±na bakmak ister misin?");
   return;
 }
 
 void area_prog_grocer(CHAR_DATA *mob)
 {
   if (number_percent() < 5)
-  do_say(mob, (char*)"Þu fenerin iþçiliðine bakar mýsýn?");
+  do_say(mob, (wchar_t*)"Åžu fenerin iÅŸÃ§iliÄŸine bakar mÄ±sÄ±n?");
   return;
 }
 
 
-void speech_prog_hunter_cleric(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
+void speech_prog_hunter_cleric(CHAR_DATA *mob, CHAR_DATA *ch, wchar_t *speech)
 {
- char buf[MAX_STRING_LENGTH];
+ wchar_t buf[MAX_STRING_LENGTH];
  OBJ_DATA *obj,*in_obj;
  int matched,i;
 
-    if (str_cmp(speech,"felaket"))	return;
+    if (wcscasecmp(speech,L"felaket"))	return;
 
     if (ch->cabal != CABAL_HUNTER)
     {
-      do_say(mob,(char*)"Ikýnýrsan belki...");
+      do_say(mob,(wchar_t*)"IkÄ±nÄ±rsan belki...");
      return;
     }
 
     if (!IS_SET(ch->quest,QUEST_EYE))
     {
-      do_say(mob,(char*)"Ne kastediyorsun?");
+      do_say(mob,(wchar_t*)"Ne kastediyorsun?");
      return;
     }
 
@@ -1228,7 +1230,7 @@ void speech_prog_hunter_cleric(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
     for ( obj = object_list; obj != NULL; obj = obj->next )
     {
 	if (obj->pIndexData->vnum != OBJ_VNUM_EYED_SWORD ||
-		strstr(obj->short_descr,ch->name) == NULL)
+		wcsstr(obj->short_descr,ch->name) == NULL)
 	continue;
 
 	matched = 1;
@@ -1239,17 +1241,17 @@ void speech_prog_hunter_cleric(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
 	{
 	    if (in_obj->carried_by == ch)
 	    {
-        do_say(mob,(char*)"Benle dalga mý geçiyorsun? Ýþte kýlýcýn elinde...");
+        do_say(mob,(wchar_t*)"Benle dalga mÄ± geÃ§iyorsun? Ä°ÅŸte kÄ±lÄ±cÄ±n elinde...");
 	     do_smite(mob,ch->name);
 	     return;
 	    }
 
-      sprintf( buf, "Kýlýcýný %s taþýyor!",
+      swprintf( buf, MAX_STRING_LENGTH-1, L"KÄ±lÄ±cÄ±nÄ± %s taÅŸÄ±yor!",
 		PERS(in_obj->carried_by, ch) );
 	    do_say(mob, buf);
 	    if ( in_obj->carried_by->in_room )
 	    {
-        sprintf(buf, "%s %s bölgesinde, %s civarlarýnda dolaþýyor!",
+        swprintf( buf, MAX_STRING_LENGTH-1, L"%s %s bÃ¶lgesinde, %s civarlarÄ±nda dolaÅŸÄ±yor!",
 		PERS(in_obj->carried_by, ch),
 		in_obj->carried_by->in_room->area->name,
 		in_obj->carried_by->in_room->name );
@@ -1259,14 +1261,14 @@ void speech_prog_hunter_cleric(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
 	    else
 	    {
 	     extract_obj( obj );
-       do_say( mob, (char*)"Sana yenisini vereceðim.");
+       do_say( mob, (wchar_t*)"Sana yenisini vereceÄŸim.");
 	    }
 	}
 	else
 	{
 	    if (in_obj->in_room != NULL)
 	    {
-        sprintf( buf, "Kýlýcýn %s bölgesinde, %s civarlarýnda!",
+        swprintf( buf, MAX_STRING_LENGTH-1, L"KÄ±lÄ±cÄ±n %s bÃ¶lgesinde, %s civarlarÄ±nda!",
 			in_obj->in_room->area->name, in_obj->in_room->name );
 		do_say(mob,buf);
 		return;
@@ -1274,13 +1276,13 @@ void speech_prog_hunter_cleric(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
 	    else
 	    {
 	     extract_obj( obj );
-       do_say( mob,(char*)"Sana yenisini vereceðim.");
+       do_say( mob,(wchar_t*)"Sana yenisini vereceÄŸim.");
 	    }
 	}
      break;
     }
 
-    if (!matched) do_say(mob,(char*)"Kýlýcýn kayýp!");
+    if (!matched) do_say(mob,(wchar_t*)"KÄ±lÄ±cÄ±n kayÄ±p!");
 
     if (IS_GOOD(ch)) 	i=0;
     else if (IS_EVIL(ch)) i=2;
@@ -1293,11 +1295,11 @@ void speech_prog_hunter_cleric(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
     obj->pit = hometown_table[ch->hometown].pit[i];
     obj->level = ch->level;
 
-    sprintf( buf, obj->short_descr, ch->name );
+    swprintf( buf, MAX_STRING_LENGTH-1, obj->short_descr, ch->name );
     free_string( obj->short_descr );
     obj->short_descr = str_dup( buf );
 
-    sprintf( buf, obj->pIndexData->extra_descr->description, ch->name );
+    swprintf( buf, MAX_STRING_LENGTH-1, obj->pIndexData->extra_descr->description, ch->name );
     obj->extra_descr = new_extra_descr();
     obj->extra_descr->keyword =
 		str_dup( obj->pIndexData->extra_descr->keyword );
@@ -1307,12 +1309,12 @@ void speech_prog_hunter_cleric(CHAR_DATA *mob, CHAR_DATA *ch, char *speech)
     obj->value[2] = (ch->level / 10) + 3;
     obj->level = ch->level;
     obj->cost = 0;
-    interpret( mob, (char*)"emote bir Avcý Kýlýcý yaratýyor.", FALSE);
-    do_say( mob ,(char*) "Sana baþka bir Avcý Kýlýcý veriyorum.");
-    act( "$N $e $p veriyor.", ch, obj, mob, TO_ROOM );
-    act( "$N sana $p veriyor.",   ch, obj, mob, TO_CHAR );
+    interpret( mob, (wchar_t*)"emote bir AvcÄ± KÄ±lÄ±cÄ± yaratÄ±yor.", FALSE);
+    do_say( mob ,(wchar_t*) "Sana baÅŸka bir AvcÄ± KÄ±lÄ±cÄ± veriyorum.");
+    act( L"$N $e $p veriyor.", ch, obj, mob, TO_ROOM );
+    act( L"$N sana $p veriyor.",   ch, obj, mob, TO_CHAR );
     obj_to_char(obj, ch);
-    do_say( mob , (char*)"Tekrar kaybetme!");
+    do_say( mob , (wchar_t*)"Tekrar kaybetme!");
 }
 
 
@@ -1321,8 +1323,8 @@ void fight_prog_golem( CHAR_DATA *mob, CHAR_DATA *ch)
 {
     CHAR_DATA *master;
     CHAR_DATA *m_next;
-    char buf[MAX_INPUT_LENGTH];
-    const char *spell;
+    wchar_t buf[MAX_INPUT_LENGTH];
+    const wchar_t *spell;
     int sn;
 
     for ( master = mob->in_room->people; master != NULL; master = m_next )
@@ -1341,21 +1343,21 @@ void fight_prog_golem( CHAR_DATA *mob, CHAR_DATA *ch)
 
     if ( master->fighting->fighting == master)
      {
-      sprintf(buf,"%s",master->name);
+      swprintf( buf, MAX_STRING_LENGTH-1, L"%s",master->name);
       do_rescue(mob,buf);
      }
 
     switch ( number_range(0,15) )
      {
-	case  0: spell = "curse";          break;
-	case  1: spell = "weaken";         break;
-	case  2: spell = "chill touch";    break;
-	case  3: spell = "blindness";      break;
-	case  4: spell = "poison";         break;
-	case  5: spell = "energy drain";   break;
-	case  6: spell = "harm";           break;
-	case  7: spell = "teleport";       break;
-	case  8: spell = "plague";	   break;
+	case  0: spell = L"curse";          break;
+	case  1: spell = L"weaken";         break;
+	case  2: spell = L"chill touch";    break;
+	case  3: spell = L"blindness";      break;
+	case  4: spell = L"poison";         break;
+	case  5: spell = L"energy drain";   break;
+	case  6: spell = L"harm";           break;
+	case  7: spell = L"teleport";       break;
+	case  8: spell = L"plague";	   break;
 	default: spell = NULL;           break;
      }
 

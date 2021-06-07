@@ -3,7 +3,7 @@ Filename hizmetkar_kanyonu.are~
 Name Hizmetkar Kanyonu~
 Builder Raff~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 30
 Minvnum 9200
@@ -16,20 +16,20 @@ END
 
 #NEW_MOBILES
 #9201
-dağcı~
-dağcı~
-Bir dağcı senle aynı yönde ilerliyor.
+daÄŸcÄ±~
+daÄŸcÄ±~
+Bir daÄŸcÄ± senle aynÄ± yÃ¶nde ilerliyor.
 ~
-O da, dağın arkasında ne olduğunu görmek istiyor.
+O da, daÄŸÄ±n arkasÄ±nda ne olduÄŸunu gÃ¶rmek istiyor.
 ~
 human~
 ACGT 0 3
 #9202
-tekgöz~
-tekgöz~
-Aç bir tekgöz seni izliyor!
+tekgÃ¶z~
+tekgÃ¶z~
+AÃ§ bir tekgÃ¶z seni izliyor!
 ~
-Akşam yemeğini yemek üzereymiş gibi görünüyor. (Belki de akşam yemeği
+AkÅŸam yemeÄŸini yemek Ã¼zereymiÅŸ gibi gÃ¶rÃ¼nÃ¼yor. (Belki de akÅŸam yemeÄŸi
 sensin? )
 ~
 giant~
@@ -39,330 +39,330 @@ ufak hizmetkar~
 ufak hizmetkar~
 Ufak bir hizmetkar hareket ediyor.
 ~
-Ufak bir hizmetkar, tercihinin aksine reddedilmiş.
+Ufak bir hizmetkar, tercihinin aksine reddedilmiÅŸ.
 ~
 human~
 AG 0 1
 #9204
-hizmetkar muhafız~
-muhafız hizmetkar~
-Kanyonun muhafız hizmetkarı.
+hizmetkar muhafÄ±z~
+muhafÄ±z hizmetkar~
+Kanyonun muhafÄ±z hizmetkarÄ±.
 ~
-Ne tür bir element olduğunu söyleyemiyorsun. Belkide hepsinden birer parça?
+Ne tÃ¼r bir element olduÄŸunu sÃ¶yleyemiyorsun. Belkide hepsinden birer parÃ§a?
 ~
 human~
 AB 0 20
 #9205
-küçük hizmetkar~
-küçük hizmetkar~
-Küçük bir hizmetkar.
+kÃ¼Ã§Ã¼k hizmetkar~
+kÃ¼Ã§Ã¼k hizmetkar~
+KÃ¼Ã§Ã¼k bir hizmetkar.
 ~
-Küçük bir hizmetkar, kanyonun sakinlerinden.
+KÃ¼Ã§Ã¼k bir hizmetkar, kanyonun sakinlerinden.
 ~
 human~
 ABG 0 5
 #9206
-orta büyüklükte hizmetkar~
-orta büyüklükte hizmetkar~
-Orta büyüklükte bir hizmetkar.
+orta bÃ¼yÃ¼klÃ¼kte hizmetkar~
+orta bÃ¼yÃ¼klÃ¼kte hizmetkar~
+Orta bÃ¼yÃ¼klÃ¼kte bir hizmetkar.
 ~
-Orta büyüklükte bir hizmetkar, kanyonun sakinlerinden.
+Orta bÃ¼yÃ¼klÃ¼kte bir hizmetkar, kanyonun sakinlerinden.
 ~
 human~
 ABG 0 10
 #9207
-büyük hizmetkar~
-büyük hizmetkar~
-Büyük hizmetkar.
+bÃ¼yÃ¼k hizmetkar~
+bÃ¼yÃ¼k hizmetkar~
+BÃ¼yÃ¼k hizmetkar.
 ~
-Büyük hizmetkar, kanyonun sakinlerinden.
+BÃ¼yÃ¼k hizmetkar, kanyonun sakinlerinden.
 ~
 human~
 ABG 0 15
 #9208
-toprak hizmetkar yönetici~
-toprak yöneticisi~
-Toprak hizmetkarlarının Yöneticisi.
+toprak hizmetkar yÃ¶netici~
+toprak yÃ¶neticisi~
+Toprak hizmetkarlarÄ±nÄ±n YÃ¶neticisi.
 ~
-Yeryüzünün kendisi kadar eski gözüküyor. Yeryüzünün bütün sırlarını ve
-bilgisini barındırıyor. Nerede başladığını ve nerede bittiğini tam olarak
-söyleyemiyorsun.
+YeryÃ¼zÃ¼nÃ¼n kendisi kadar eski gÃ¶zÃ¼kÃ¼yor. YeryÃ¼zÃ¼nÃ¼n bÃ¼tÃ¼n sÄ±rlarÄ±nÄ± ve
+bilgisini barÄ±ndÄ±rÄ±yor. Nerede baÅŸladÄ±ÄŸÄ±nÄ± ve nerede bittiÄŸini tam olarak
+sÃ¶yleyemiyorsun.
 ~
 human~
 ABKQe H 30
 #9209
-ateş hizmetkar yönetici~
-ateş yöneticisi~
-Ateş hizmetkarlarının Yöneticisi.
+ateÅŸ hizmetkar yÃ¶netici~
+ateÅŸ yÃ¶neticisi~
+AteÅŸ hizmetkarlarÄ±nÄ±n YÃ¶neticisi.
 ~
-Ona baktığında, tahtındaki ateşle karışıyormuş gibi görünüyor
+Ona baktÄ±ÄŸÄ±nda, tahtÄ±ndaki ateÅŸle karÄ±ÅŸÄ±yormuÅŸ gibi gÃ¶rÃ¼nÃ¼yor
 ~
 human~
 ABKe H 30
 #9210
-hava hizmetkar yönetici~
-hava yöneticisi~
-Hava hizmetkarlarının Yöneticisi.
+hava hizmetkar yÃ¶netici~
+hava yÃ¶neticisi~
+Hava hizmetkarlarÄ±nÄ±n YÃ¶neticisi.
 ~
-Ona baktığında gökyüzünün kendisiymiş gibi görünüyor.
+Ona baktÄ±ÄŸÄ±nda gÃ¶kyÃ¼zÃ¼nÃ¼n kendisiymiÅŸ gibi gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 ABKe H 30
 #9211
-şimşek hizmetkar yönetici~
-şimşek yöneticisi~
-Şimşek hizmetkarlarının Yöneticisi.
+ÅŸimÅŸek hizmetkar yÃ¶netici~
+ÅŸimÅŸek yÃ¶neticisi~
+ÅimÅŸek hizmetkarlarÄ±nÄ±n YÃ¶neticisi.
 ~
-Ona göz attığında kör edici bir ışık huzmesi görüyorsun ve sağır edici
-bir gürleme duyuyorsun. Gözlerini ovalıyorsun ve baktığında, sana
-sırıttığını görüyorsun.
+Ona gÃ¶z attÄ±ÄŸÄ±nda kÃ¶r edici bir Ä±ÅŸÄ±k huzmesi gÃ¶rÃ¼yorsun ve saÄŸÄ±r edici
+bir gÃ¼rleme duyuyorsun. GÃ¶zlerini ovalÄ±yorsun ve baktÄ±ÄŸÄ±nda, sana
+sÄ±rÄ±ttÄ±ÄŸÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 human~
 ABKe H 30
 #9212
-su hizmetkar yönetici~
-su yöneticisi~
-Su hizmetkarlarının Yöneticisi.
+su hizmetkar yÃ¶netici~
+su yÃ¶neticisi~
+Su hizmetkarlarÄ±nÄ±n YÃ¶neticisi.
 ~
-Sen ona bakarken değişiyor ve etrafında girdap gibi dönmeye başlıyor.
-Korktuğun an elemental formuna geri dönüyor.
+Sen ona bakarken deÄŸiÅŸiyor ve etrafÄ±nda girdap gibi dÃ¶nmeye baÅŸlÄ±yor.
+KorktuÄŸun an elemental formuna geri dÃ¶nÃ¼yor.
 ~
 water fowl~
 ABKe H 30
 #9214
 su birikinti hizmetkar~
 su birikintisi~
-Su hizmetkarlarından bir su birikintisi.
+Su hizmetkarlarÄ±ndan bir su birikintisi.
 ~
-Sana çelme takarak yere düşürüyor ve ayakların ıslanıyor.
+Sana Ã§elme takarak yere dÃ¼ÅŸÃ¼rÃ¼yor ve ayaklarÄ±n Ä±slanÄ±yor.
 ~
 water fowl~
 AG 0 8
 #9215
-alev ateş hizmetkar~
+alev ateÅŸ hizmetkar~
 alev~
-Ateş hizmetkarlarından küçük bir alev.
+AteÅŸ hizmetkarlarÄ±ndan kÃ¼Ã§Ã¼k bir alev.
 ~
-Çimlere doğru için için yanarak gidiyor.
+Ã‡imlere doÄŸru iÃ§in iÃ§in yanarak gidiyor.
 ~
 human~
 AG 0 4
 #9216
 kara buz tane hizmetkar~
 kar tanesi~
-Su hizmetkarlarından bir kar tanesi.
+Su hizmetkarlarÄ±ndan bir kar tanesi.
 ~
-Biraz mavimsi gözüküyor.
+Biraz mavimsi gÃ¶zÃ¼kÃ¼yor.
 ~
 human~
 AG 0 3
 #9217
 kara toprak hizmetkar~
-küçük kaya~
-Toprak hizmetkarlarından küçük bir kaya.
+kÃ¼Ã§Ã¼k kaya~
+Toprak hizmetkarlarÄ±ndan kÃ¼Ã§Ã¼k bir kaya.
 ~
-Küçük bir taşa benziyor.
+KÃ¼Ã§Ã¼k bir taÅŸa benziyor.
 ~
 human~
 AG 0 3
 #9218
-kıvılcım enerji yıldırım hizmetkar~
-kıvılcım~
-Küçük bir kıvılcım elektrik yayıyor.
+kÄ±vÄ±lcÄ±m enerji yÄ±ldÄ±rÄ±m hizmetkar~
+kÄ±vÄ±lcÄ±m~
+KÃ¼Ã§Ã¼k bir kÄ±vÄ±lcÄ±m elektrik yayÄ±yor.
 ~
-Işık hızıyla oradan oraya zıplıyor.
+IÅŸÄ±k hÄ±zÄ±yla oradan oraya zÄ±plÄ±yor.
 ~
 human~
 AG 0 4
 #9219
 asit damla hizmetkar~
-asit damlası~
-Küçük bir asit damlası taşı yemekle meşgul.
+asit damlasÄ±~
+KÃ¼Ã§Ã¼k bir asit damlasÄ± taÅŸÄ± yemekle meÅŸgul.
 ~
-Büyülü bir asit damlası elektrik ve suyun arasında.
+BÃ¼yÃ¼lÃ¼ bir asit damlasÄ± elektrik ve suyun arasÄ±nda.
 ~
 human~
 AG 0 9
 #9220
 lav hizmetkar canavar~
-lav canavarı~
-Bir lav canavarı oradan oraya gidiyor.
+lav canavarÄ±~
+Bir lav canavarÄ± oradan oraya gidiyor.
 ~
-Büyülü lava canavarı ateşle toprak arasında.
+BÃ¼yÃ¼lÃ¼ lava canavarÄ± ateÅŸle toprak arasÄ±nda.
 ~
 human~
 AG 0 8
 #9221
-çamur hizmetkar canavar~
-çamur canavarı~
-Bir çamur canavarı kükrüyor.
+Ã§amur hizmetkar canavar~
+Ã§amur canavarÄ±~
+Bir Ã§amur canavarÄ± kÃ¼krÃ¼yor.
 ~
-Büyülü çamur canavarı su ve toprak arasında.
+BÃ¼yÃ¼lÃ¼ Ã§amur canavarÄ± su ve toprak arasÄ±nda.
 ~
 human~
 AG 0 7
 #9222
 sis hizmetkar hava~
 hizmetkar sis~
-Hava burada gerçekten sisli.
+Hava burada gerÃ§ekten sisli.
 ~
-Büyülü sis su ve hava arasında.
+BÃ¼yÃ¼lÃ¼ sis su ve hava arasÄ±nda.
 ~
 human~
 AG 0 6
 #9223
-partikül hizmetkar~
-partikül~
-Çok çok küçük bir partikül.
+partikÃ¼l hizmetkar~
+partikÃ¼l~
+Ã‡ok Ã§ok kÃ¼Ã§Ã¼k bir partikÃ¼l.
 ~
-Büyülü olduğu belli bir enerji.
+BÃ¼yÃ¼lÃ¼ olduÄŸu belli bir enerji.
 ~
 human~
 AG 0 5
 #9224
 toz hizmetkar bulut~
 toz bulutu~
-Bir toz bulutu hapşırmana neden oluyor.
+Bir toz bulutu hapÅŸÄ±rmana neden oluyor.
 ~
-Büyülü toz bulutu hava ve toprak arasında.
+BÃ¼yÃ¼lÃ¼ toz bulutu hava ve toprak arasÄ±nda.
 ~
 human~
 AGS DF 6
 #9225
 polen hizmetkar~
 polen~
-Bir polen havada uçuşuyor.
+Bir polen havada uÃ§uÅŸuyor.
 ~
-Büyülü polenin hava elementi olduğu belli.
+BÃ¼yÃ¼lÃ¼ polenin hava elementi olduÄŸu belli.
 ~
 human~
 AGS DF 2
 #9226
 mavi alev~
 mavi alev~
-Mavi bir alev yanıyor.
+Mavi bir alev yanÄ±yor.
 ~
-Yüzü varmış gibi görünen insansı bir figür görüyorsun. Nasıl olduysa
-ateşin içine tuzağa düşürülmüş.
+YÃ¼zÃ¼ varmÄ±ÅŸ gibi gÃ¶rÃ¼nen insansÄ± bir figÃ¼r gÃ¶rÃ¼yorsun. NasÄ±l olduysa
+ateÅŸin iÃ§ine tuzaÄŸa dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.
 ~
 human~
 ABG 0 26
 #9227
 manyeto~
 manyeto~
-Bir manyeto bulduğu herşeyi çarpıyor.
+Bir manyeto bulduÄŸu herÅŸeyi Ã§arpÄ±yor.
 ~
-İnsansı figür manyeto alanında tuzağa düşürülmüş görünüyor.
+Ä°nsansÄ± figÃ¼r manyeto alanÄ±nda tuzaÄŸa dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 ABG 0 22
 #9228
 buz haydut~
 buz haydut~
-Buz Haydut kalbine soğuğun korkusunu salıyor.
+Buz Haydut kalbine soÄŸuÄŸun korkusunu salÄ±yor.
 ~
-İnsansı figür buzla kaplanmış ancak hala canlı gözüküyor.
+Ä°nsansÄ± figÃ¼r buzla kaplanmÄ±ÅŸ ancak hala canlÄ± gÃ¶zÃ¼kÃ¼yor.
 ~
 human~
 ABGH P 24
 #9229
-kara canavarı~
-kaya canavarı~
-Kaya Cavanarı oldukça sessiz, bekliyor.
+kara canavarÄ±~
+kaya canavarÄ±~
+Kaya CavanarÄ± oldukÃ§a sessiz, bekliyor.
 ~
-Toprak içine hapsedilmiş insansı figür hala canlı görünüyor.
+Toprak iÃ§ine hapsedilmiÅŸ insansÄ± figÃ¼r hala canlÄ± gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 ABG 0 23
 #9230
-kasırga~
-kasırga~
-Bir kasırga gökyüzünü karıştırıyor.
+kasÄ±rga~
+kasÄ±rga~
+Bir kasÄ±rga gÃ¶kyÃ¼zÃ¼nÃ¼ karÄ±ÅŸtÄ±rÄ±yor.
 ~
-Kasırga içine hapsedilmiş insansı bir figür.
+KasÄ±rga iÃ§ine hapsedilmiÅŸ insansÄ± bir figÃ¼r.
 ~
 human~
 ABG P 28
 #9231
-büyücü hizmetkar~
-hizmetkar büyücü~
-Hizmetkar büyücü bir büyü için taş topluyor.
+bÃ¼yÃ¼cÃ¼ hizmetkar~
+hizmetkar bÃ¼yÃ¼cÃ¼~
+Hizmetkar bÃ¼yÃ¼cÃ¼ bir bÃ¼yÃ¼ iÃ§in taÅŸ topluyor.
 ~
-Elemental büyücü buraya Teslimiyet Taşını aramaya gelmiş. Karşıt hisleri
-tercüme etmeye yarayacağını düşünüyor.
+Elemental bÃ¼yÃ¼cÃ¼ buraya Teslimiyet TaÅŸÄ±nÄ± aramaya gelmiÅŸ. KarÅŸÄ±t hisleri
+tercÃ¼me etmeye yarayacaÄŸÄ±nÄ± dÃ¼ÅŸÃ¼nÃ¼yor.
 ~
 human~
 ABGR B 17
 #9232
-gökkuşağı savaşçısı~
-gökkuşağı savaşçısı~
-Gökkuşağı Mezhebi'nden bağlılığını haykırıyor.
+gÃ¶kkuÅŸaÄŸÄ± savaÅŸÃ§Ä±sÄ±~
+gÃ¶kkuÅŸaÄŸÄ± savaÅŸÃ§Ä±sÄ±~
+GÃ¶kkuÅŸaÄŸÄ± Mezhebi'nden baÄŸlÄ±lÄ±ÄŸÄ±nÄ± haykÄ±rÄ±yor.
 ~
-Elemental güçlere hizmeti sayesinde özel güçler verilmiş bir Gökkuşağı
-Savaşçısı.
+Elemental gÃ¼Ã§lere hizmeti sayesinde Ã¶zel gÃ¼Ã§ler verilmiÅŸ bir GÃ¶kkuÅŸaÄŸÄ±
+SavaÅŸÃ§Ä±sÄ±.
 ~
 human~
 AGQ 0 18
 #9233
-ilüzyonist~
-ilüzyonist~
-İlüzyonist güçler üzerine çalışıyor.
+ilÃ¼zyonist~
+ilÃ¼zyonist~
+Ä°lÃ¼zyonist gÃ¼Ã§ler Ã¼zerine Ã§alÄ±ÅŸÄ±yor.
 ~
-Aldatma üzerine yeni bir büyü üzerinde çalışıyor. <kuşanılan> İlüzyon Kılıcı
+Aldatma Ã¼zerine yeni bir bÃ¼yÃ¼ Ã¼zerinde Ã§alÄ±ÅŸÄ±yor. <kuÅŸanÄ±lan> Ä°lÃ¼zyon KÄ±lÄ±cÄ±
 ~
 human~
 ABGR 0 12
 #9234
-simyacı~
-simyacı~
-Bir simyacı büyülü otları ve taşları topluyor.
+simyacÄ±~
+simyacÄ±~
+Bir simyacÄ± bÃ¼yÃ¼lÃ¼ otlarÄ± ve taÅŸlarÄ± topluyor.
 ~
-Nadide olan şifalı bitkilerin bu kanyonda yetiştiğine dair söylentiler var.
+Nadide olan ÅŸifalÄ± bitkilerin bu kanyonda yetiÅŸtiÄŸine dair sÃ¶ylentiler var.
 ~
 human~
 AGS DF 13
 #9235
-bebek gökkuşağı ejderha~
-bebek gökkuşağı ejderhası~
-Bir bebek gökkuşağı ejderhası elementlerle oynuyor.
+bebek gÃ¶kkuÅŸaÄŸÄ± ejderha~
+bebek gÃ¶kkuÅŸaÄŸÄ± ejderhasÄ±~
+Bir bebek gÃ¶kkuÅŸaÄŸÄ± ejderhasÄ± elementlerle oynuyor.
 ~
-Sadece bebek bir ejderha standartlarında.
+Sadece bebek bir ejderha standartlarÄ±nda.
 ~
 human~
 ABG DF 16
 #9236
-küçük şeytan~
-küçük şeytan~
-Küçük bir şeytan eğleniyor.
+kÃ¼Ã§Ã¼k ÅŸeytan~
+kÃ¼Ã§Ã¼k ÅŸeytan~
+KÃ¼Ã§Ã¼k bir ÅŸeytan eÄŸleniyor.
 ~
-Küçük bir şeytan birkaç eşya çalıyor ve oldukça tiksindirici.
+KÃ¼Ã§Ã¼k bir ÅŸeytan birkaÃ§ eÅŸya Ã§alÄ±yor ve oldukÃ§a tiksindirici.
 ~
 human~
 ACGH PQ 5
 #9237
-büyük hizmetkar~
-büyük hizmetkar~
-BÜYÜK bir hizmetkar burada duruyor.
+bÃ¼yÃ¼k hizmetkar~
+bÃ¼yÃ¼k hizmetkar~
+BÃœYÃœK bir hizmetkar burada duruyor.
 ~
-BÜYÜK, başka söze gerek var mı?
+BÃœYÃœK, baÅŸka sÃ¶ze gerek var mÄ±?
 ~
 human~
 ABG 0 20
 #9238
-iksir satıcısı~
-iksir satıcısı~
-Bir iksir satıcısı sana iksirlerini tanıtıyor.
+iksir satÄ±cÄ±sÄ±~
+iksir satÄ±cÄ±sÄ±~
+Bir iksir satÄ±cÄ±sÄ± sana iksirlerini tanÄ±tÄ±yor.
 ~
-BANA SALDIRMANI TAVSİYE ETMEM.
+BANA SALDIRMANI TAVSÄ°YE ETMEM.
 ~
 human~
 ABEGR 0 30
 #9239
-savaş büyücüsü~
-Savaş Büyücüsü~
-Bir büyücü savaş büyüleri için taş ve toz topluyor.
+savaÅŸ bÃ¼yÃ¼cÃ¼sÃ¼~
+SavaÅŸ BÃ¼yÃ¼cÃ¼sÃ¼~
+Bir bÃ¼yÃ¼cÃ¼ savaÅŸ bÃ¼yÃ¼leri iÃ§in taÅŸ ve toz topluyor.
 ~
-Bir savaş büyücüsü büyüler üzerine çalışıyor.
+Bir savaÅŸ bÃ¼yÃ¼cÃ¼sÃ¼ bÃ¼yÃ¼ler Ã¼zerine Ã§alÄ±ÅŸÄ±yor.
 ~
 human~
 ABGKRe D 46
@@ -370,9 +370,9 @@ ABGKRe D 46
 
 #OBJECTS
 #9201
-toprak yüzük~
-toprak yüzüğü~
-Tüm ışıkları soğuran siyah bir yüzük burada dinleniyor.~
+toprak yÃ¼zÃ¼k~
+toprak yÃ¼zÃ¼ÄŸÃ¼~
+TÃ¼m Ä±ÅŸÄ±klarÄ± soÄŸuran siyah bir yÃ¼zÃ¼k burada dinleniyor.~
 oldstyle~
 furniture I AB
 0 0 0 0 0
@@ -382,9 +382,9 @@ A
 A
 3 1
 #9202
-taş göğüslük~
-taş göğüslük~
-Taş bir göğüslük toprakla konuşuyor.~
+taÅŸ gÃ¶ÄŸÃ¼slÃ¼k~
+taÅŸ gÃ¶ÄŸÃ¼slÃ¼k~
+TaÅŸ bir gÃ¶ÄŸÃ¼slÃ¼k toprakla konuÅŸuyor.~
 stone~
 armor 0 AD
 10 10 10 2 0
@@ -394,9 +394,9 @@ A
 A
 2 -2
 #9203
-ateş hançeri~
-ateş hançeri~
-Ateş figürleriyle bezenmiş bir hançer değdiği yerleri yakıyor.~
+ateÅŸ hanÃ§eri~
+ateÅŸ hanÃ§eri~
+AteÅŸ figÃ¼rleriyle bezenmiÅŸ bir hanÃ§er deÄŸdiÄŸi yerleri yakÄ±yor.~
 unknown~
 weapon A AN
 dagger 5 6 pierce A
@@ -404,9 +404,9 @@ dagger 5 6 pierce A
 A
 19 4
 #9204
-kızıl alev fuları~
-kızıl alev fuları~
-Ruhani alevlerden yapılmış bir fular burada süzülüyor.~
+kÄ±zÄ±l alev fularÄ±~
+kÄ±zÄ±l alev fularÄ±~
+Ruhani alevlerden yapÄ±lmÄ±ÅŸ bir fular burada sÃ¼zÃ¼lÃ¼yor.~
 ethereal~
 armor A AC
 9 9 9 3 0
@@ -414,9 +414,9 @@ armor A AC
 A
 19 1
 #9205
-rüzgar çizme~
-bir çift rüzgar çizmesi~
-Bir çift rüzgar çizmesi çevresinde hava akımı oluşturuyor.~
+rÃ¼zgar Ã§izme~
+bir Ã§ift rÃ¼zgar Ã§izmesi~
+Bir Ã§ift rÃ¼zgar Ã§izmesi Ã§evresinde hava akÄ±mÄ± oluÅŸturuyor.~
 fiber~
 armor G AG
 8 8 8 2 0
@@ -424,9 +424,9 @@ armor G AG
 A
 2 2
 #9206
-kasırga miğferi~
-kasırga miğferi~
-Üzerinde kasırga işlemeleri olan bir miğfer burada bırakılmış.~
+kasÄ±rga miÄŸferi~
+kasÄ±rga miÄŸferi~
+Ãœzerinde kasÄ±rga iÅŸlemeleri olan bir miÄŸfer burada bÄ±rakÄ±lmÄ±ÅŸ.~
 iron~
 armor B AE
 9 9 9 3 0
@@ -434,9 +434,9 @@ armor B AE
 A
 20 -2
 #9207
-yıldırım kılıç~
-yıldırım kılıcı~
-Kıvılcımlar saçan bir kılıç burada bekliyor.~
+yÄ±ldÄ±rÄ±m kÄ±lÄ±Ã§~
+yÄ±ldÄ±rÄ±m kÄ±lÄ±cÄ±~
+KÄ±vÄ±lcÄ±mlar saÃ§an bir kÄ±lÄ±Ã§ burada bekliyor.~
 unknown~
 weapon AB AN
 sword 5 5 slash H
@@ -447,8 +447,8 @@ A
 18 -1
 #9208
 elektrik kalkan~
-elektrik kalkanı~
-Enerjiden yapılmış bir kalkan burada oturuyor.~
+elektrik kalkanÄ±~
+Enerjiden yapÄ±lmÄ±ÅŸ bir kalkan burada oturuyor.~
 unknown~
 armor B AJ
 9 9 9 4 0
@@ -460,7 +460,7 @@ A
 #9209
 buz kemeri~
 buz kemeri~
-Büyülü buzdan yapılmış bir kemer burada bırakılmış.~
+BÃ¼yÃ¼lÃ¼ buzdan yapÄ±lmÄ±ÅŸ bir kemer burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ice~
 armor 0 AL
 10 10 10 3 0
@@ -468,9 +468,9 @@ armor 0 AL
 A
 5 -2
 #9210
-şelale pelerini~
-şelale pelerini~
-Üzerinde büyülü şelalelerin dansettiği bir pelerin burada bırakılmış.~
+ÅŸelale pelerini~
+ÅŸelale pelerini~
+Ãœzerinde bÃ¼yÃ¼lÃ¼ ÅŸelalelerin dansettiÄŸi bir pelerin burada bÄ±rakÄ±lmÄ±ÅŸ.~
 unknown~
 armor 0 AK
 9 9 9 2 0
@@ -480,9 +480,9 @@ A
 A
 12 25
 #9211
-hizmetkar muskası~
-hizmetkar muskası~
-Ateş, su, yıldırım, toprak ve hava desenleri olan bir muska burada bırakılmış.~
+hizmetkar muskasÄ±~
+hizmetkar muskasÄ±~
+AteÅŸ, su, yÄ±ldÄ±rÄ±m, toprak ve hava desenleri olan bir muska burada bÄ±rakÄ±lmÄ±ÅŸ.~
 unknown~
 jewelry A AC
 0 0 0 0 0
@@ -491,8 +491,8 @@ A
 20 -2
 #9212
 hizmetkar bileklik~
-hizmetkar bilekliği~
-Büyülü bir bileklik burada bırakılmış.~
+hizmetkar bilekliÄŸi~
+BÃ¼yÃ¼lÃ¼ bir bileklik burada bÄ±rakÄ±lmÄ±ÅŸ.~
 unknown~
 gem 0 AM
 0 0 0 0 0
@@ -502,7 +502,7 @@ A
 #9213
 platin bileklik~
 platin bileklik~
-Platin bir bileklik burada yatıyor.~
+Platin bir bileklik burada yatÄ±yor.~
 platinium~
 armor 0 AM
 9 9 9 2 0
@@ -512,9 +512,9 @@ A
 A
 1 1
 #9214
-platin bacaklık~
-bir çift platin bacaklık~
-Bir çift platin bacaklık burada yatıyor.~
+platin bacaklÄ±k~
+bir Ã§ift platin bacaklÄ±k~
+Bir Ã§ift platin bacaklÄ±k burada yatÄ±yor.~
 platinium~
 armor 0 AF
 9 9 9 2 0
@@ -524,9 +524,9 @@ A
 A
 2 1
 #9215
-ateş değnek~
-ateş değneği~
-Bir ateş değneği burada bırakılmış.~
+ateÅŸ deÄŸnek~
+ateÅŸ deÄŸneÄŸi~
+Bir ateÅŸ deÄŸneÄŸi burada bÄ±rakÄ±lmÄ±ÅŸ.~
 wood~
 wand A AO
 15 3 3 'fireball' 0
@@ -534,39 +534,39 @@ wand A AO
 #9216
 buz asa~
 buz asa~
-Buzdan bir asa burada bırakılmış.~
+Buzdan bir asa burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ice~
 wand A AO
 12 3 3 'frost breath' 0
 25 70 13700 P
 #9217
-deprem değnek~
-deprem değneği~
-Bir deprem değneği burada bırakılmış.~
+deprem deÄŸnek~
+deprem deÄŸneÄŸi~
+Bir deprem deÄŸneÄŸi burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ebony~
 wand A AO
 7 3 3 'earthquake' 0
 7 70 1000 P
 #9218
-rüzgar değnek~
-rüzgar değneği~
-Bir rüzgar değneği burada bırakılmış.~
+rÃ¼zgar deÄŸnek~
+rÃ¼zgar deÄŸneÄŸi~
+Bir rÃ¼zgar deÄŸneÄŸi burada bÄ±rakÄ±lmÄ±ÅŸ.~
 wood~
 wand A AO
 11 1 1 'gas breath' 0
 27 70 12600 P
 #9219
-yıldırım değnek~
-yıldırım değneği~
-Bir yıldırım değneği burada bırakılmış.~
+yÄ±ldÄ±rÄ±m deÄŸnek~
+yÄ±ldÄ±rÄ±m deÄŸneÄŸi~
+Bir yÄ±ldÄ±rÄ±m deÄŸneÄŸi burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ebony~
 wand A AO
 9 1 1 'lightning bolt' 0
 7 70 1420 P
 #9220
-taş gürz~
-taş gürz~
-Taştan yapılmış bir gürz burada unutulmuş.~
+taÅŸ gÃ¼rz~
+taÅŸ gÃ¼rz~
+TaÅŸtan yapÄ±lmÄ±ÅŸ bir gÃ¼rz burada unutulmuÅŸ.~
 stone~
 weapon 0 AN
 mace 3 7 pound F
@@ -576,9 +576,9 @@ A
 A
 18 -2
 #9221
-kızıl yükleme değnek~
-yükleme değneği~
-Kızıl bir kaya burada bırakılmış.~
+kÄ±zÄ±l yÃ¼kleme deÄŸnek~
+yÃ¼kleme deÄŸneÄŸi~
+KÄ±zÄ±l bir kaya burada bÄ±rakÄ±lmÄ±ÅŸ.~
 stone~
 wand 0 AO
 19 2 2 'harm' 0
@@ -586,17 +586,17 @@ wand 0 AO
 A
 1 -2
 #9222
-lav ışık~
-lav ışığı~
-Bir lav ışığı burada bırakılmış.~
+lav Ä±ÅŸÄ±k~
+lav Ä±ÅŸÄ±ÄŸÄ±~
+Bir lav Ä±ÅŸÄ±ÄŸÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 oldstyle~
 light A A
 0 0 1000 0 0
 0 40 250 P
 #9223
-enerji parşömen~
-enerji parşömeni~
-Bir enerji parşömeni burada bırakılmış.~
+enerji parÅŸÃ¶men~
+enerji parÅŸÃ¶meni~
+Bir enerji parÅŸÃ¶meni burada bÄ±rakÄ±lmÄ±ÅŸ.~
 paper~
 scroll B A
 19 'cure critical' 'refresh' '' ''
@@ -604,23 +604,23 @@ scroll B A
 #9224
 su testisi~
 su testisi~
-Büyük fakat hafif bir su testisi burada bırakılmış.~
+BÃ¼yÃ¼k fakat hafif bir su testisi burada bÄ±rakÄ±lmÄ±ÅŸ.~
 glass~
 drink 0 A
 150 150 'water' 0 0
 0 20 200 P
 #9225
-büyülü toz~
-büyülü toz~
-Bir miktar büyülü toz etrafa dağılmış.~
+bÃ¼yÃ¼lÃ¼ toz~
+bÃ¼yÃ¼lÃ¼ toz~
+Bir miktar bÃ¼yÃ¼lÃ¼ toz etrafa daÄŸÄ±lmÄ±ÅŸ.~
 unknown~
 pill 0 A
 20 'detect invis' '' '' ''
 0 10 300 P
 #9226
-alev mızrak~
-alev mızrağı~
-Mavi alevlerden yapılmış bir mızrak toprağı yakıyor.~
+alev mÄ±zrak~
+alev mÄ±zraÄŸÄ±~
+Mavi alevlerden yapÄ±lmÄ±ÅŸ bir mÄ±zrak topraÄŸÄ± yakÄ±yor.~
 flame~
 weapon A AN
 lance 2 15 thrust A
@@ -630,9 +630,9 @@ A
 A
 13 -20
 #9227
-buz saçak hançer~
-buz saçağı hançeri~
-Parlayan bir hançer burada bekliyor. Oldukça SOĞUK görünüyor!~
+buz saÃ§ak hanÃ§er~
+buz saÃ§aÄŸÄ± hanÃ§eri~
+Parlayan bir hanÃ§er burada bekliyor. OldukÃ§a SOÄUK gÃ¶rÃ¼nÃ¼yor!~
 ice~
 weapon A AN
 dagger 6 4 pierce B
@@ -642,9 +642,9 @@ A
 A
 19 3
 #9228
-çığ~
-ÇıĞ~
-Bir çığ seni ezmeye çalışıyor!~
+Ã§Ä±ÄŸ~
+Ã‡Ä±Ä~
+Bir Ã§Ä±ÄŸ seni ezmeye Ã§alÄ±ÅŸÄ±yor!~
 unknown~
 weapon 0 AN
 exotic 1 25 blast 0
@@ -652,9 +652,9 @@ exotic 1 25 blast 0
 A
 18 -1
 #9229
-sabah yıldızı zincir~
-sabah yıldızı~
-Zincirle bağlanmış bir yıldız burada bekliyor.~
+sabah yÄ±ldÄ±zÄ± zincir~
+sabah yÄ±ldÄ±zÄ±~
+Zincirle baÄŸlanmÄ±ÅŸ bir yÄ±ldÄ±z burada bekliyor.~
 wood~
 weapon A AN
 flail 6 4 crush 0
@@ -664,9 +664,9 @@ A
 A
 20 -4
 #9230
-şok kırbaç~
-Şok Kırbacı~
-Hareketleri yılana benzeyen bir kırbaç görüyorsun.~
+ÅŸok kÄ±rbaÃ§~
+Åok KÄ±rbacÄ±~
+Hareketleri yÄ±lana benzeyen bir kÄ±rbaÃ§ gÃ¶rÃ¼yorsun.~
 leather~
 weapon B AN
 whip 3 8 stab 0
@@ -678,7 +678,7 @@ A
 #9231
 yokolma iksiri~
 yokolma iksiri~
-Herkes tarafından farkedilmeyi engelleyecek bir iksir burada dinleniyor.~
+Herkes tarafÄ±ndan farkedilmeyi engelleyecek bir iksir burada dinleniyor.~
 glass~
 potion 0 AO
 15 'invisibility' '' '' ''
@@ -687,11 +687,11 @@ potion 0 AO
 
 #ROOMS
 #9201
-Dağ Yolu~
-Sarp bir dağa çıkan, dağ yolundasın. You are on a mountain path which
-ascends a steep mountainside. Patika dağın etrafında bir yılan gibi
-kıvrıldığı için patika sonunda ne olduğunu göremiyorsun. Dağın arkasından
-gelen bölgeden büyük bir gücün varlığını seziyorsun.
+DaÄŸ Yolu~
+Sarp bir daÄŸa Ã§Ä±kan, daÄŸ yolundasÄ±n. You are on a mountain path which
+ascends a steep mountainside. Patika daÄŸÄ±n etrafÄ±nda bir yÄ±lan gibi
+kÄ±vrÄ±ldÄ±ÄŸÄ± iÃ§in patika sonunda ne olduÄŸunu gÃ¶remiyorsun. DaÄŸÄ±n arkasÄ±ndan
+gelen bÃ¶lgeden bÃ¼yÃ¼k bir gÃ¼cÃ¼n varlÄ±ÄŸÄ±nÄ± seziyorsun.
 ~
 0 0 5
 D0
@@ -704,9 +704,9 @@ D4
 0 -1 9202
 S
 #9202
-Dağ Yolu~
-Dağı çevreleyen kayalı patikadasın. Daha göremediğin bir parlama
-seziyorsun, dağın arkasından..
+DaÄŸ Yolu~
+DaÄŸÄ± Ã§evreleyen kayalÄ± patikadasÄ±n. Daha gÃ¶remediÄŸin bir parlama
+seziyorsun, daÄŸÄ±n arkasÄ±ndan..
 ~
 0 0 5
 D0
@@ -724,10 +724,10 @@ D5
 0 -1 9201
 S
 #9203
-Dağkenarı Mezarları~
-Dağa çıkmayı başaramayan kişilerin yığınlar halindeki mezarlarını
-görüyorsun. Gömülmemiş bir kaç cesedin yorgunluktan ölmediğini
-farkediyorsun. Patika dağın doğu tarafına kıvrılıyor.
+DaÄŸkenarÄ± MezarlarÄ±~
+DaÄŸa Ã§Ä±kmayÄ± baÅŸaramayan kiÅŸilerin yÄ±ÄŸÄ±nlar halindeki mezarlarÄ±nÄ±
+gÃ¶rÃ¼yorsun. GÃ¶mÃ¼lmemiÅŸ bir kaÃ§ cesedin yorgunluktan Ã¶lmediÄŸini
+farkediyorsun. Patika daÄŸÄ±n doÄŸu tarafÄ±na kÄ±vrÄ±lÄ±yor.
 ~
 0 0 5
 D4
@@ -739,21 +739,21 @@ D5
 ~
 0 -1 9202
 E
-beden vücut ölü~
-Boyunları kırılmış ve vücutları çiğnenmiş gibi gözüküyor.
+beden vÃ¼cut Ã¶lÃ¼~
+BoyunlarÄ± kÄ±rÄ±lmÄ±ÅŸ ve vÃ¼cutlarÄ± Ã§iÄŸnenmiÅŸ gibi gÃ¶zÃ¼kÃ¼yor.
 ~
 E
-mezar taş~
+mezar taÅŸ~
 You are sure glad that YOU aren't under one of those piles! Many of the
 tombstones have the same name on them, 'Raff'. He must come here a lot.
 ~
 S
 #9204
-Dağ Yolunda Kör Viraj~
-Normal bir dağ patikası gibi gözükse de öyle DEĞİL! This looks like a
-normal mountain path, but it is NOT! Patikanın bu tarafı büyük(ve tabii ki
-insan yiyen) bir Tek Gözün bölgesi! Patika son tırmanışını yüksek bir yerde
-tamamlıyor.
+DaÄŸ Yolunda KÃ¶r Viraj~
+Normal bir daÄŸ patikasÄ± gibi gÃ¶zÃ¼kse de Ã¶yle DEÄÄ°L! This looks like a
+normal mountain path, but it is NOT! PatikanÄ±n bu tarafÄ± bÃ¼yÃ¼k(ve tabii ki
+insan yiyen) bir Tek GÃ¶zÃ¼n bÃ¶lgesi! Patika son tÄ±rmanÄ±ÅŸÄ±nÄ± yÃ¼ksek bir yerde
+tamamlÄ±yor.
 ~
 0 0 5
 D4
@@ -767,13 +767,13 @@ D5
 S
 #9205
 Uzak Manzara~
-Kanyonun üstünden baktığında şok edici bir manzarayla karşılaşıyorsun.
-Burada bir işarette: DİKKAT! ELEMENTAL KANYON yazıyor. Kanyonun batı
-tarafındaki lav akıntılarından alevler sıçrıyor. Kuzey batıda gökyüzü komik,
-hava sisli gözüküyor. Kuzey doğuda elektrik akımlarının sıçramalarını
-görebiliyorsun. Doğu da güçlü ve büyülü bir nehir görüyorsun. Ayrıca doğuda
-kanyon duvarına doğru ilerleyen bir mağaranın girişini görüyorsun. Patika
-kuzeye, etrafa bakılabilecek bir yere daha ilerliyor.
+Kanyonun Ã¼stÃ¼nden baktÄ±ÄŸÄ±nda ÅŸok edici bir manzarayla karÅŸÄ±laÅŸÄ±yorsun.
+Burada bir iÅŸarette: DÄ°KKAT! ELEMENTAL KANYON yazÄ±yor. Kanyonun batÄ±
+tarafÄ±ndaki lav akÄ±ntÄ±larÄ±ndan alevler sÄ±Ã§rÄ±yor. Kuzey batÄ±da gÃ¶kyÃ¼zÃ¼ komik,
+hava sisli gÃ¶zÃ¼kÃ¼yor. Kuzey doÄŸuda elektrik akÄ±mlarÄ±nÄ±n sÄ±Ã§ramalarÄ±nÄ±
+gÃ¶rebiliyorsun. DoÄŸu da gÃ¼Ã§lÃ¼ ve bÃ¼yÃ¼lÃ¼ bir nehir gÃ¶rÃ¼yorsun. AyrÄ±ca doÄŸuda
+kanyon duvarÄ±na doÄŸru ilerleyen bir maÄŸaranÄ±n giriÅŸini gÃ¶rÃ¼yorsun. Patika
+kuzeye, etrafa bakÄ±labilecek bir yere daha ilerliyor.
 ~
 0 0 5
 D0
@@ -787,8 +787,8 @@ D5
 S
 #9206
 Manzara~
-Kanyonda dolaşan elemental hizmetkarlar görüyorsun. Kanyondan gelen
-uğultu yükseliyor. Patika burada kanyonu tırmanıyor.
+Kanyonda dolaÅŸan elemental hizmetkarlar gÃ¶rÃ¼yorsun. Kanyondan gelen
+uÄŸultu yÃ¼kseliyor. Patika burada kanyonu tÄ±rmanÄ±yor.
 ~
 0 0 5
 D2
@@ -801,10 +801,10 @@ D5
 0 -1 9207
 S
 #9207
-Hizmetkar Kanyonu Girişi~
-Buradaki üstün güçlerin sesleri ve görüntüleri sana huşu veriyor.
-Elemental hizmetkarlar efendilerinin emirlerini yerine getiriyorlar. Başka
-bir manzaraya bakmak için yukarı tırmanabilir veya kuzeydeki yol ayrımına
+Hizmetkar Kanyonu GiriÅŸi~
+Buradaki Ã¼stÃ¼n gÃ¼Ã§lerin sesleri ve gÃ¶rÃ¼ntÃ¼leri sana huÅŸu veriyor.
+Elemental hizmetkarlar efendilerinin emirlerini yerine getiriyorlar. BaÅŸka
+bir manzaraya bakmak iÃ§in yukarÄ± tÄ±rmanabilir veya kuzeydeki yol ayrÄ±mÄ±na
 gidebilirsin.
 ~
 0 0 3
@@ -819,8 +819,8 @@ D4
 S
 #9208
 Kanyonun Zemini~
-Çeşitli elemental suretler kanyonda dolaşıyor. Bazıları işlerine gidiyor
-gibi bazılarıysa işleri yokmuş gibi gözüküyor. Kanyon kuzeye ve doğuya devam
+Ã‡eÅŸitli elemental suretler kanyonda dolaÅŸÄ±yor. BazÄ±larÄ± iÅŸlerine gidiyor
+gibi bazÄ±larÄ±ysa iÅŸleri yokmuÅŸ gibi gÃ¶zÃ¼kÃ¼yor. Kanyon kuzeye ve doÄŸuya devam
 ediyor.
 ~
 0 0 3
@@ -834,10 +834,10 @@ D1
 0 -1 9209
 S
 #9209
-Hizmetkar Geçidi~
-Batıda lavların sıçradığını görebiliyorsun. Kuzey doğuda nehre doğru
-giden bir patika var. Doğuda kanyon duvarına doğru giden bir mağaranın
-girişi var. Güney ise geldiğin yola, kanyonun çıkışına doğru gidiyor.
+Hizmetkar GeÃ§idi~
+BatÄ±da lavlarÄ±n sÄ±Ã§radÄ±ÄŸÄ±nÄ± gÃ¶rebiliyorsun. Kuzey doÄŸuda nehre doÄŸru
+giden bir patika var. DoÄŸuda kanyon duvarÄ±na doÄŸru giden bir maÄŸaranÄ±n
+giriÅŸi var. GÃ¼ney ise geldiÄŸin yola, kanyonun Ã§Ä±kÄ±ÅŸÄ±na doÄŸru gidiyor.
 ~
 0 CD 0
 D0
@@ -863,7 +863,7 @@ Entrance to the Combat Magician Chamber.
 0 -1 9261
 S
 #9261
-Savaş Büyücüsünün Odası~
+SavaÅŸ BÃ¼yÃ¼cÃ¼sÃ¼nÃ¼n OdasÄ±~
 	You are standing in the middle of this magical chamber.This
 room is full of shelves which hold various spell components. The entire
 room smells of smoke and incense. This room is obviously used by a
@@ -877,10 +877,10 @@ D5
 S
 #9210
 Kanyonun Zemini~
-Çeşitli elemental suretler kanyonun zemininde dolanıyorlar. Bazılarının
-işi varmış gibi görünse de bazılarının işi yok gibi gözüküyor. Kanyon kuzeye
-ve batıya devam ediyor. Kanyon duvarına doğru giden bir mağaranın girişi
-doğuda.
+Ã‡eÅŸitli elemental suretler kanyonun zemininde dolanÄ±yorlar. BazÄ±larÄ±nÄ±n
+iÅŸi varmÄ±ÅŸ gibi gÃ¶rÃ¼nse de bazÄ±larÄ±nÄ±n iÅŸi yok gibi gÃ¶zÃ¼kÃ¼yor. Kanyon kuzeye
+ve batÄ±ya devam ediyor. Kanyon duvarÄ±na doÄŸru giden bir maÄŸaranÄ±n giriÅŸi
+doÄŸuda.
 ~
 0 0 3
 D0
@@ -898,9 +898,9 @@ D3
 S
 #9211
 Kanyonun Zemini~
-Çeşitli elemental suretler kanyonun zemininde dolanıyorlar. Bazılarının
-işi varmış gibi görünse de bazılarının işi yok gibi gözüküyor. Kanyon kuzeye
-güneye ve batıya devam ediyor.
+Ã‡eÅŸitli elemental suretler kanyonun zemininde dolanÄ±yorlar. BazÄ±larÄ±nÄ±n
+iÅŸi varmÄ±ÅŸ gibi gÃ¶rÃ¼nse de bazÄ±larÄ±nÄ±n iÅŸi yok gibi gÃ¶zÃ¼kÃ¼yor. Kanyon kuzeye
+gÃ¼neye ve batÄ±ya devam ediyor.
 ~
 0 0 3
 D0
@@ -918,9 +918,9 @@ D2
 S
 #9212
 Kanyonun Zemini~
-Çeşitli elemental suretler kanyonun zemininde dolanıyorlar. Bazılarının
-işi varmış gibi görünse de bazılarının işi yok gibi gözüküyor. Kanyon
-zemininden her yöne çıkış var.
+Ã‡eÅŸitli elemental suretler kanyonun zemininde dolanÄ±yorlar. BazÄ±larÄ±nÄ±n
+iÅŸi varmÄ±ÅŸ gibi gÃ¶rÃ¼nse de bazÄ±larÄ±nÄ±n iÅŸi yok gibi gÃ¶zÃ¼kÃ¼yor. Kanyon
+zemininden her yÃ¶ne Ã§Ä±kÄ±ÅŸ var.
 ~
 0 0 3
 D0
@@ -942,9 +942,9 @@ D3
 S
 #9213
 Kanyonun Zemini~
-Çeşitli elemental suretler kanyonun zemininde dolanıyorlar. Bazılarının
-işi varmış gibi görünse de bazılarının işi yok gibi gözüküyor. Kanyon zemini
-kuzeye güneye ve batıya doğru gidiyor. Doğuya doğru bir patika var.
+Ã‡eÅŸitli elemental suretler kanyonun zemininde dolanÄ±yorlar. BazÄ±larÄ±nÄ±n
+iÅŸi varmÄ±ÅŸ gibi gÃ¶rÃ¼nse de bazÄ±larÄ±nÄ±n iÅŸi yok gibi gÃ¶zÃ¼kÃ¼yor. Kanyon zemini
+kuzeye gÃ¼neye ve batÄ±ya doÄŸru gidiyor. DoÄŸuya doÄŸru bir patika var.
 ~
 0 0 3
 D0
@@ -966,9 +966,9 @@ D3
 S
 #9214
 Kanyonun Zemini~
-Çeşitli elemental suretler kanyonun zemininde dolanıyorlar. Bazılarının
-işi varmış gibi görünse de bazılarının işi yok gibi gözüküyor. Kanyon zemini
-kuzeye güneye ve batıya doğru genişliyor. Batıda bir bahçe yanıyor.
+Ã‡eÅŸitli elemental suretler kanyonun zemininde dolanÄ±yorlar. BazÄ±larÄ±nÄ±n
+iÅŸi varmÄ±ÅŸ gibi gÃ¶rÃ¼nse de bazÄ±larÄ±nÄ±n iÅŸi yok gibi gÃ¶zÃ¼kÃ¼yor. Kanyon zemini
+kuzeye gÃ¼neye ve batÄ±ya doÄŸru geniÅŸliyor. BatÄ±da bir bahÃ§e yanÄ±yor.
 ~
 0 0 3
 D0
@@ -990,9 +990,9 @@ D3
 S
 #9215
 Kanyonun Zemini~
-Çeşitli elemental suretler kanyonun zemininde dolanıyorlar. Bazılarının
-işi varmış gibi görünse de bazılarının işi yok gibi gözüküyor. Buradan her
-tarafa çıkış mevcut.
+Ã‡eÅŸitli elemental suretler kanyonun zemininde dolanÄ±yorlar. BazÄ±larÄ±nÄ±n
+iÅŸi varmÄ±ÅŸ gibi gÃ¶rÃ¼nse de bazÄ±larÄ±nÄ±n iÅŸi yok gibi gÃ¶zÃ¼kÃ¼yor. Buradan her
+tarafa Ã§Ä±kÄ±ÅŸ mevcut.
 ~
 0 0 3
 D0
@@ -1014,9 +1014,9 @@ D3
 S
 #9216
 Kanyonun Zemini~
-Çeşitli elemental suretler kanyonun zemininde dolanıyorlar. Bazılarının
-işi varmış gibi görünse de bazılarının işi yok gibi gözüküyor. Kanyon zemini
-kuzeye, güneye ve batıya doğru yayılıyor.
+Ã‡eÅŸitli elemental suretler kanyonun zemininde dolanÄ±yorlar. BazÄ±larÄ±nÄ±n
+iÅŸi varmÄ±ÅŸ gibi gÃ¶rÃ¼nse de bazÄ±larÄ±nÄ±n iÅŸi yok gibi gÃ¶zÃ¼kÃ¼yor. Kanyon zemini
+kuzeye, gÃ¼neye ve batÄ±ya doÄŸru yayÄ±lÄ±yor.
 ~
 0 0 3
 D0
@@ -1034,9 +1034,9 @@ D3
 S
 #9217
 Kanyonun Zemini~
-Çeşitli elemental suretler kanyonun zemininde dolanıyorlar. Bazılarının
-işi varmış gibi görünse de bazılarının işi yok gibi gözüküyor. Kanyon zemini
-doğu ve güneye yayılıyor. Kuzeyde bir çıkıntıya tırmanabilirsin.
+Ã‡eÅŸitli elemental suretler kanyonun zemininde dolanÄ±yorlar. BazÄ±larÄ±nÄ±n
+iÅŸi varmÄ±ÅŸ gibi gÃ¶rÃ¼nse de bazÄ±larÄ±nÄ±n iÅŸi yok gibi gÃ¶zÃ¼kÃ¼yor. Kanyon zemini
+doÄŸu ve gÃ¼neye yayÄ±lÄ±yor. Kuzeyde bir Ã§Ä±kÄ±ntÄ±ya tÄ±rmanabilirsin.
 ~
 0 0 3
 D0
@@ -1054,9 +1054,9 @@ D2
 S
 #9218
 Kanyonun Zemini~
-Çeşitli elemental suretler kanyonun zemininde dolanıyorlar. Bazılarının
-işi varmış gibi görünse de bazılarının işi yok gibi gözüküyor. Kanyon zemini
-doğuya, güneye ve batıya doğru yayılıyor.
+Ã‡eÅŸitli elemental suretler kanyonun zemininde dolanÄ±yorlar. BazÄ±larÄ±nÄ±n
+iÅŸi varmÄ±ÅŸ gibi gÃ¶rÃ¼nse de bazÄ±larÄ±nÄ±n iÅŸi yok gibi gÃ¶zÃ¼kÃ¼yor. Kanyon zemini
+doÄŸuya, gÃ¼neye ve batÄ±ya doÄŸru yayÄ±lÄ±yor.
 ~
 0 0 3
 D1
@@ -1074,9 +1074,9 @@ D3
 S
 #9219
 Kanyonun Zemini~
-Çeşitli elemental suretler kanyonun zemininde dolanıyorlar. Bazılarının
-işi varmış gibi görünse de bazılarının işi yok gibi gözüküyor. Kanyon zemini
-güney ve batıya doğru yayılıyor. Kuzeydeki çıkıntıya tırmanabilirsin.
+Ã‡eÅŸitli elemental suretler kanyonun zemininde dolanÄ±yorlar. BazÄ±larÄ±nÄ±n
+iÅŸi varmÄ±ÅŸ gibi gÃ¶rÃ¼nse de bazÄ±larÄ±nÄ±n iÅŸi yok gibi gÃ¶zÃ¼kÃ¼yor. Kanyon zemini
+gÃ¼ney ve batÄ±ya doÄŸru yayÄ±lÄ±yor. Kuzeydeki Ã§Ä±kÄ±ntÄ±ya tÄ±rmanabilirsin.
 ~
 0 0 3
 D0
@@ -1093,9 +1093,9 @@ D3
 0 -1 9218
 S
 #9220
-Karanlık Mağara~
-Doğuya doğru giden büyük kayalarla dolu bir patika görüyorsun. Çok güçlü
-enerji kaynağı seziyorsun doğu yönünde.
+KaranlÄ±k MaÄŸara~
+DoÄŸuya doÄŸru giden bÃ¼yÃ¼k kayalarla dolu bir patika gÃ¶rÃ¼yorsun. Ã‡ok gÃ¼Ã§lÃ¼
+enerji kaynaÄŸÄ± seziyorsun doÄŸu yÃ¶nÃ¼nde.
 ~
 0 AD 3
 D1
@@ -1108,11 +1108,11 @@ D3
 0 -1 9210
 S
 #9221
-Karanlık Mağaralar~
-Bir ışık kaynağıyla bile önünü zor görebilirsin. Mağaradaki kayalar,
-karanlıktan daha kara. Etrafında çok büyük bir güç seziyorsun. Patika güneye
-ve doğuya gidiyormuş gibi gözükse de, ne tarafa yürüdüğünü bile söylemek
-zor, önünü göremezken..
+KaranlÄ±k MaÄŸaralar~
+Bir Ä±ÅŸÄ±k kaynaÄŸÄ±yla bile Ã¶nÃ¼nÃ¼ zor gÃ¶rebilirsin. MaÄŸaradaki kayalar,
+karanlÄ±ktan daha kara. EtrafÄ±nda Ã§ok bÃ¼yÃ¼k bir gÃ¼Ã§ seziyorsun. Patika gÃ¼neye
+ve doÄŸuya gidiyormuÅŸ gibi gÃ¶zÃ¼kse de, ne tarafa yÃ¼rÃ¼dÃ¼ÄŸÃ¼nÃ¼ bile sÃ¶ylemek
+zor, Ã¶nÃ¼nÃ¼ gÃ¶remezken..
 ~
 0 AD 3
 D1
@@ -1129,11 +1129,11 @@ D3
 0 -1 9220
 S
 #9222
-Karanlık Mağaralar~
-Bir ışık kaynağıyla bile önünü zor görebilirsin. Mağaradaki kayalar,
-karanlıktan daha kara. Etrafında çok büyük bir güç seziyorsun. Patika güneye
-ve batıya gidiyormuş gibi gözükse de, ne tarafa yürüdüğünü bile söylemek
-zor, önünü göremezken..
+KaranlÄ±k MaÄŸaralar~
+Bir Ä±ÅŸÄ±k kaynaÄŸÄ±yla bile Ã¶nÃ¼nÃ¼ zor gÃ¶rebilirsin. MaÄŸaradaki kayalar,
+karanlÄ±ktan daha kara. EtrafÄ±nda Ã§ok bÃ¼yÃ¼k bir gÃ¼Ã§ seziyorsun. Patika gÃ¼neye
+ve batÄ±ya gidiyormuÅŸ gibi gÃ¶zÃ¼kse de, ne tarafa yÃ¼rÃ¼dÃ¼ÄŸÃ¼nÃ¼ bile sÃ¶ylemek
+zor, Ã¶nÃ¼nÃ¼ gÃ¶remezken..
 ~
 0 AD 3
 D2
@@ -1146,11 +1146,11 @@ D3
 0 -1 9221
 S
 #9223
-Karanlık Mağaralar~
-Bir ışık kaynağıyla bile önünü zor görebilirsin. Mağaradaki kayalar,
-karanlıktan daha kara. Etrafında çok büyük bir güç seziyorsun. Patika kuzeye
-,güneye ve doğuya gidiyormuş gibi gözükse de, ne tarafa yürüdüğünü bile
-söylemek zor, önünü göremezken..
+KaranlÄ±k MaÄŸaralar~
+Bir Ä±ÅŸÄ±k kaynaÄŸÄ±yla bile Ã¶nÃ¼nÃ¼ zor gÃ¶rebilirsin. MaÄŸaradaki kayalar,
+karanlÄ±ktan daha kara. EtrafÄ±nda Ã§ok bÃ¼yÃ¼k bir gÃ¼Ã§ seziyorsun. Patika kuzeye
+,gÃ¼neye ve doÄŸuya gidiyormuÅŸ gibi gÃ¶zÃ¼kse de, ne tarafa yÃ¼rÃ¼dÃ¼ÄŸÃ¼nÃ¼ bile
+sÃ¶ylemek zor, Ã¶nÃ¼nÃ¼ gÃ¶remezken..
 ~
 0 AD 3
 D0
@@ -1167,11 +1167,11 @@ D2
 0 -1 9225
 S
 #9224
-Karanlık Mağaralar~
-Bir ışık kaynağıyla bile önünü zor görebilirsin. Mağaradaki kayalar,
-karanlıktan daha kara. Etrafında çok büyük bir güç seziyorsun. Patika
-kuzeye, güneye ve doğuya gidiyormuş gibi gözükse de, ne tarafa yürüdüğünü
-bile söylemek zor, önünü göremezken..
+KaranlÄ±k MaÄŸaralar~
+Bir Ä±ÅŸÄ±k kaynaÄŸÄ±yla bile Ã¶nÃ¼nÃ¼ zor gÃ¶rebilirsin. MaÄŸaradaki kayalar,
+karanlÄ±ktan daha kara. EtrafÄ±nda Ã§ok bÃ¼yÃ¼k bir gÃ¼Ã§ seziyorsun. Patika
+kuzeye, gÃ¼neye ve doÄŸuya gidiyormuÅŸ gibi gÃ¶zÃ¼kse de, ne tarafa yÃ¼rÃ¼dÃ¼ÄŸÃ¼nÃ¼
+bile sÃ¶ylemek zor, Ã¶nÃ¼nÃ¼ gÃ¶remezken..
 ~
 0 AD 3
 D0
@@ -1188,11 +1188,11 @@ D3
 0 -1 9223
 S
 #9225
-Koyu Karanlık Mağaralar~
-Işığın burada işe yarıyormuş gibi gözükmüyor. Büyülü ışık kaynakları bile
-bir adım ötenden daha ilerisini gösteremeyecek gibi gözüküyor. Birden
-patikanın kıvrıldığını ve değiştiğini hatırlıyorsun, ancak karanlıktan
-dolayı farkedememiştin. Doğuda büyük bir güç seziyorsun.
+Koyu KaranlÄ±k MaÄŸaralar~
+IÅŸÄ±ÄŸÄ±n burada iÅŸe yarÄ±yormuÅŸ gibi gÃ¶zÃ¼kmÃ¼yor. BÃ¼yÃ¼lÃ¼ Ä±ÅŸÄ±k kaynaklarÄ± bile
+bir adÄ±m Ã¶tenden daha ilerisini gÃ¶steremeyecek gibi gÃ¶zÃ¼kÃ¼yor. Birden
+patikanÄ±n kÄ±vrÄ±ldÄ±ÄŸÄ±nÄ± ve deÄŸiÅŸtiÄŸini hatÄ±rlÄ±yorsun, ancak karanlÄ±ktan
+dolayÄ± farkedememiÅŸtin. DoÄŸuda bÃ¼yÃ¼k bir gÃ¼Ã§ seziyorsun.
 ~
 0 AD 3
 D0
@@ -1205,11 +1205,11 @@ D1
 0 -1 9226
 S
 #9226
-Koyu Karanlık Mağaralar~
-Işığın burada işe yarıyormuş gibi gözükmüyor. Büyülü ışık kaynakları bile
-bir adım ötenden daha ilerisini gösteremeyecek gibi gözüküyor. Birden
-patikanın kıvrıldığını ve değiştiğini hatırlıyorsun, ancak karanlıktan
-dolayı farkedememiştin. Doğuda büyük bir güç seziyorsun.
+Koyu KaranlÄ±k MaÄŸaralar~
+IÅŸÄ±ÄŸÄ±n burada iÅŸe yarÄ±yormuÅŸ gibi gÃ¶zÃ¼kmÃ¼yor. BÃ¼yÃ¼lÃ¼ Ä±ÅŸÄ±k kaynaklarÄ± bile
+bir adÄ±m Ã¶tenden daha ilerisini gÃ¶steremeyecek gibi gÃ¶zÃ¼kÃ¼yor. Birden
+patikanÄ±n kÄ±vrÄ±ldÄ±ÄŸÄ±nÄ± ve deÄŸiÅŸtiÄŸini hatÄ±rlÄ±yorsun, ancak karanlÄ±ktan
+dolayÄ± farkedememiÅŸtin. DoÄŸuda bÃ¼yÃ¼k bir gÃ¼Ã§ seziyorsun.
 ~
 0 AD 3
 D0
@@ -1226,9 +1226,9 @@ D3
 0 -1 9225
 S
 #9227
-Toprak Odası~
-Burası Toprak Efendisinin yeri. Depremler ve heyelanlar hakkında kararlar
-veriyor. Kayaya oyulmuş büyük bir tahtta oturuyor.
+Toprak OdasÄ±~
+BurasÄ± Toprak Efendisinin yeri. Depremler ve heyelanlar hakkÄ±nda kararlar
+veriyor. Kayaya oyulmuÅŸ bÃ¼yÃ¼k bir tahtta oturuyor.
 ~
 0 AD 3
 D3
@@ -1243,10 +1243,10 @@ earth seems to shake with his emotion.
 S
 #9228
 Nehir Boyu~
-Nehirdeki su büyüyle parlıyor ve hava kabarcıkları oluşturuyor. Her ne
-kadar oyun kabarcıkları üzerinde oyuncu bir şekilde patlasa da, ıslanmış
-hissetmiyorsun. Patika kuzeye nehrin derinliklerine iniyor. Batıda bir
-manzara görüyorsun.
+Nehirdeki su bÃ¼yÃ¼yle parlÄ±yor ve hava kabarcÄ±klarÄ± oluÅŸturuyor. Her ne
+kadar oyun kabarcÄ±klarÄ± Ã¼zerinde oyuncu bir ÅŸekilde patlasa da, Ä±slanmÄ±ÅŸ
+hissetmiyorsun. Patika kuzeye nehrin derinliklerine iniyor. BatÄ±da bir
+manzara gÃ¶rÃ¼yorsun.
 ~
 0 0 3
 D0
@@ -1260,9 +1260,9 @@ D3
 S
 #9229
 Nehirde~
-Devam etmek için nehirin içine doğru yürümek zorundasın. Bileklerine
-kadar suya girsen de ıslanmış hissetmiyorsun. Nehir güneye devam etse de
-kuzeye giderek geri dönebilirsin.
+Devam etmek iÃ§in nehirin iÃ§ine doÄŸru yÃ¼rÃ¼mek zorundasÄ±n. Bileklerine
+kadar suya girsen de Ä±slanmÄ±ÅŸ hissetmiyorsun. Nehir gÃ¼neye devam etse de
+kuzeye giderek geri dÃ¶nebilirsin.
 ~
 0 0 6
 D0
@@ -1275,10 +1275,10 @@ D2
 0 -1 9228
 S
 #9230
-Hizmetkar Körfezi~
-Su burada çok berrak gözüküyor. Senden 30 feet aşağısını rahatlıkla
-görebiliyorsun. Sonra suyun üstünde yürüdüğünü farkediyorsun. Kesinlike
-büyülü bir nehir..
+Hizmetkar KÃ¶rfezi~
+Su burada Ã§ok berrak gÃ¶zÃ¼kÃ¼yor. Senden 30 feet aÅŸaÄŸÄ±sÄ±nÄ± rahatlÄ±kla
+gÃ¶rebiliyorsun. Sonra suyun Ã¼stÃ¼nde yÃ¼rÃ¼dÃ¼ÄŸÃ¼nÃ¼ farkediyorsun. Kesinlike
+bÃ¼yÃ¼lÃ¼ bir nehir..
 ~
 0 0 6
 D0
@@ -1295,10 +1295,10 @@ D2
 0 -1 9229
 S
 #9231
-Hizmetkar Körfezi~
-Su burada çok berrak gözüküyor. Senden 30 feet aşağısını rahatlıkla
-görebiliyorsun. Sonra suyun üstünde yürüdüğünü farkediyorsun. Kesinlike
-büyülü bir nehir..
+Hizmetkar KÃ¶rfezi~
+Su burada Ã§ok berrak gÃ¶zÃ¼kÃ¼yor. Senden 30 feet aÅŸaÄŸÄ±sÄ±nÄ± rahatlÄ±kla
+gÃ¶rebiliyorsun. Sonra suyun Ã¼stÃ¼nde yÃ¼rÃ¼dÃ¼ÄŸÃ¼nÃ¼ farkediyorsun. Kesinlike
+bÃ¼yÃ¼lÃ¼ bir nehir..
 ~
 0 0 6
 D0
@@ -1315,10 +1315,10 @@ D3
 0 -1 9230
 S
 #9232
-Hizmetkar Körfezi~
-Su burada çok berrak gözüküyor. Senden 30 feet aşağısını rahatlıkla
-görebiliyorsun. Sonra suyun üstünde yürüdüğünü farkediyorsun. Kesinlike
-büyülü bir nehir..
+Hizmetkar KÃ¶rfezi~
+Su burada Ã§ok berrak gÃ¶zÃ¼kÃ¼yor. Senden 30 feet aÅŸaÄŸÄ±sÄ±nÄ± rahatlÄ±kla
+gÃ¶rebiliyorsun. Sonra suyun Ã¼stÃ¼nde yÃ¼rÃ¼dÃ¼ÄŸÃ¼nÃ¼ farkediyorsun. Kesinlike
+bÃ¼yÃ¼lÃ¼ bir nehir..
 ~
 0 0 6
 D0
@@ -1331,10 +1331,10 @@ D3
 0 -1 9231
 S
 #9233
-Hizmetkar Körfezi~
-Su burada çok berrak gözüküyor. Senden 30 feet aşağısını rahatlıkla
-görebiliyorsun. Sonra suyun üstünde yürüdüğünü farkediyorsun. Kesinlike
-büyülü bir nehir..
+Hizmetkar KÃ¶rfezi~
+Su burada Ã§ok berrak gÃ¶zÃ¼kÃ¼yor. Senden 30 feet aÅŸaÄŸÄ±sÄ±nÄ± rahatlÄ±kla
+gÃ¶rebiliyorsun. Sonra suyun Ã¼stÃ¼nde yÃ¼rÃ¼dÃ¼ÄŸÃ¼nÃ¼ farkediyorsun. Kesinlike
+bÃ¼yÃ¼lÃ¼ bir nehir..
 ~
 0 0 6
 D1
@@ -1347,10 +1347,10 @@ D2
 0 -1 9230
 S
 #9234
-Hizmetkar Körfezi~
-Su burada çok berrak gözüküyor. Senden 30 feet aşağısını rahatlıkla
-görebiliyorsun. Sonra suyun üstünde yürüdüğünü farkediyorsun. Kesinlike
-büyülü bir nehir..
+Hizmetkar KÃ¶rfezi~
+Su burada Ã§ok berrak gÃ¶zÃ¼kÃ¼yor. Senden 30 feet aÅŸaÄŸÄ±sÄ±nÄ± rahatlÄ±kla
+gÃ¶rebiliyorsun. Sonra suyun Ã¼stÃ¼nde yÃ¼rÃ¼dÃ¼ÄŸÃ¼nÃ¼ farkediyorsun. Kesinlike
+bÃ¼yÃ¼lÃ¼ bir nehir..
 ~
 0 0 6
 D1
@@ -1367,10 +1367,10 @@ D3
 0 -1 9233
 S
 #9235
-Hizmetkar Körfezi~
-Su burada çok berrak gözüküyor. Senden 30 feet aşağısını rahatlıkla
-görebiliyorsun. Sonra suyun üstünde yürüdüğünü farkediyorsun. Kesinlike
-büyülü bir nehir..
+Hizmetkar KÃ¶rfezi~
+Su burada Ã§ok berrak gÃ¶zÃ¼kÃ¼yor. Senden 30 feet aÅŸaÄŸÄ±sÄ±nÄ± rahatlÄ±kla
+gÃ¶rebiliyorsun. Sonra suyun Ã¼stÃ¼nde yÃ¼rÃ¼dÃ¼ÄŸÃ¼nÃ¼ farkediyorsun. Kesinlike
+bÃ¼yÃ¼lÃ¼ bir nehir..
 ~
 0 0 6
 D2
@@ -1387,9 +1387,9 @@ D5
 0 -1 9236
 S
 #9236
-Su Odası~
-Bu çember kanyonun zemininde büyü ile yaratılmış. Çok, çok uzun zaman
-önce de burada varmış gibi gözüküyor. Suyun içinde olmana rağmen rahatlıkla
+Su OdasÄ±~
+Bu Ã§ember kanyonun zemininde bÃ¼yÃ¼ ile yaratÄ±lmÄ±ÅŸ. Ã‡ok, Ã§ok uzun zaman
+Ã¶nce de burada varmÄ±ÅŸ gibi gÃ¶zÃ¼kÃ¼yor. Suyun iÃ§inde olmana raÄŸmen rahatlÄ±kla
 nefes alabiliyorsun.
 ~
 0 D 6
@@ -1400,9 +1400,9 @@ D4
 S
 #9237
 Alevli Yol~
-Alev gayzerlerinden fışkıran alevler yüzünden patikada dikkatle
-yürüyorsun. Minyatür volkanlar nehirlere lava kusuyor. Alevler sıcak ancak
-çokta tehlikeli değil. Patika doğu ve güney yönünde genişliyor.
+Alev gayzerlerinden fÄ±ÅŸkÄ±ran alevler yÃ¼zÃ¼nden patikada dikkatle
+yÃ¼rÃ¼yorsun. MinyatÃ¼r volkanlar nehirlere lava kusuyor. Alevler sÄ±cak ancak
+Ã§okta tehlikeli deÄŸil. Patika doÄŸu ve gÃ¼ney yÃ¶nÃ¼nde geniÅŸliyor.
 ~
 0 0 5
 D1
@@ -1416,8 +1416,8 @@ D2
 S
 #9238
 Alevli Yol~
-Alev gayzerlerinden fışkıran alevler yüzünden patikada dikkatle
-yürüyorsun. Batıdaki bahçe sönmez ateşle parlıyor.
+Alev gayzerlerinden fÄ±ÅŸkÄ±ran alevler yÃ¼zÃ¼nden patikada dikkatle
+yÃ¼rÃ¼yorsun. BatÄ±daki bahÃ§e sÃ¶nmez ateÅŸle parlÄ±yor.
 ~
 0 0 5
 D0
@@ -1430,10 +1430,10 @@ D3
 0 -1 9242
 S
 #9242
-Yanan Bahçeler~
-Etrafındaki bahçenin tümü yanıyor; kayalar, ağaçlar ve hava bile
-yanıyormuş görünüyor. Büyülü ateş zarar verici gözükmüyor. Patika doğudaki
-lav yataklarına ilerliyor.
+Yanan BahÃ§eler~
+EtrafÄ±ndaki bahÃ§enin tÃ¼mÃ¼ yanÄ±yor; kayalar, aÄŸaÃ§lar ve hava bile
+yanÄ±yormuÅŸ gÃ¶rÃ¼nÃ¼yor. BÃ¼yÃ¼lÃ¼ ateÅŸ zarar verici gÃ¶zÃ¼kmÃ¼yor. Patika doÄŸudaki
+lav yataklarÄ±na ilerliyor.
 ~
 0 0 5
 D1
@@ -1446,9 +1446,9 @@ D3
 0 -1 9245
 S
 #9245
-Ateş Odası~
-Mavi alevden yapılmış tahtında oturuyor, Ateş Efendisi. Küçük titrek
-ışıklar efendileri için aşağı yukarı dans ediyor.
+AteÅŸ OdasÄ±~
+Mavi alevden yapÄ±lmÄ±ÅŸ tahtÄ±nda oturuyor, AteÅŸ Efendisi. KÃ¼Ã§Ã¼k titrek
+Ä±ÅŸÄ±klar efendileri iÃ§in aÅŸaÄŸÄ± yukarÄ± dans ediyor.
 ~
 0 0 3
 D1
@@ -1458,8 +1458,8 @@ D1
 S
 #9246
 Elektrikli Yol~
-Patika yolu etraftaki elektrikten parlıyor ve vızıldıyor. Kuzeyde çökmüş
-bir bölge görüyorsun. Patika doğuya doğru gidiyor.
+Patika yolu etraftaki elektrikten parlÄ±yor ve vÄ±zÄ±ldÄ±yor. Kuzeyde Ã§Ã¶kmÃ¼ÅŸ
+bir bÃ¶lge gÃ¶rÃ¼yorsun. Patika doÄŸuya doÄŸru gidiyor.
 ~
 0 0 3
 D0
@@ -1473,8 +1473,8 @@ D1
 S
 #9247
 Elektrikli Oyun Yeri~
-Görünüşte normal bir hava olsa da, yakınlarda daha önemli birşey olduğunu
-hissediyorsun. Elektrik oyun yeri kuzeye ve doğuya doğru yayılıyor.
+GÃ¶rÃ¼nÃ¼ÅŸte normal bir hava olsa da, yakÄ±nlarda daha Ã¶nemli birÅŸey olduÄŸunu
+hissediyorsun. Elektrik oyun yeri kuzeye ve doÄŸuya doÄŸru yayÄ±lÄ±yor.
 ~
 0 0 4
 D0
@@ -1488,9 +1488,9 @@ D1
 S
 #9248
 Elektrikli Oyun Yeri~
-Görünüşte normal bir hava olsa da, yakınlarda daha önemli birşey olduğunu
-hissediyorsun. Güneye giden elektrikli bir patika var. Elektrik oyun yeri
-kuzeye ve batıya doğru yayılıyor.
+GÃ¶rÃ¼nÃ¼ÅŸte normal bir hava olsa da, yakÄ±nlarda daha Ã¶nemli birÅŸey olduÄŸunu
+hissediyorsun. GÃ¼neye giden elektrikli bir patika var. Elektrik oyun yeri
+kuzeye ve batÄ±ya doÄŸru yayÄ±lÄ±yor.
 ~
 0 0 4
 D0
@@ -1508,8 +1508,8 @@ D3
 S
 #9249
 Elektrikli Oyun Yeri~
-Görünüşte normal bir hava olsa da, yakınlarda daha önemli birşey olduğunu
-hissediyorsun. Elektrik oyun yeri güneye ve doğuya doğru devam ediyor.
+GÃ¶rÃ¼nÃ¼ÅŸte normal bir hava olsa da, yakÄ±nlarda daha Ã¶nemli birÅŸey olduÄŸunu
+hissediyorsun. Elektrik oyun yeri gÃ¼neye ve doÄŸuya doÄŸru devam ediyor.
 ~
 0 0 4
 D1
@@ -1523,9 +1523,9 @@ D2
 S
 #9250
 Elektrikli Oyun Yeri~
-Görünüşte normal bir hava olsa da, yakınlarda daha önemli birşey olduğunu
-hissediyorsun. Elektrik oyun yeri güneye ve batıya doğru yayılıyor. Doğuda
-daha önemli birşey dikkatini çekiyor.
+GÃ¶rÃ¼nÃ¼ÅŸte normal bir hava olsa da, yakÄ±nlarda daha Ã¶nemli birÅŸey olduÄŸunu
+hissediyorsun. Elektrik oyun yeri gÃ¼neye ve batÄ±ya doÄŸru yayÄ±lÄ±yor. DoÄŸuda
+daha Ã¶nemli birÅŸey dikkatini Ã§ekiyor.
 ~
 0 0 4
 D1
@@ -1542,9 +1542,9 @@ D3
 0 -1 9249
 S
 #9251
-Yıldırım Geçidi~
-Tepeye doğru çıkan merdivenlerin üstünde aralıklarla parlayan ışık
-çakmaları görüyorsun. Elektrik oyun yeri batıda kalıyor.
+YÄ±ldÄ±rÄ±m GeÃ§idi~
+Tepeye doÄŸru Ã§Ä±kan merdivenlerin Ã¼stÃ¼nde aralÄ±klarla parlayan Ä±ÅŸÄ±k
+Ã§akmalarÄ± gÃ¶rÃ¼yorsun. Elektrik oyun yeri batÄ±da kalÄ±yor.
 ~
 0 0 4
 D3
@@ -1557,9 +1557,9 @@ D4
 0 -1 9252
 S
 #9252
-Yıldırım Odası~
-Burada bir çeşit kontrol paneli bulunmakta. Elektrik Efendisi, elektrik
-güçlerini buradan kontrol ediyor.
+YÄ±ldÄ±rÄ±m OdasÄ±~
+Burada bir Ã§eÅŸit kontrol paneli bulunmakta. Elektrik Efendisi, elektrik
+gÃ¼Ã§lerini buradan kontrol ediyor.
 ~
 0 D 6
 D5
@@ -1568,9 +1568,9 @@ D5
 0 -1 9251
 S
 #9253
-Batı Mesa~
-Batıya doğru giden bir elektrik patikasının başındasın. Mesa doğuya doğru
-devam ediyor. Ya da kanyon zeminine güneye giderek tırmanabilirsin.
+BatÄ± Mesa~
+BatÄ±ya doÄŸru giden bir elektrik patikasÄ±nÄ±n baÅŸÄ±ndasÄ±n. Mesa doÄŸuya doÄŸru
+devam ediyor. Ya da kanyon zeminine gÃ¼neye giderek tÄ±rmanabilirsin.
 ~
 0 0 4
 D1
@@ -1587,9 +1587,9 @@ D3
 0 -1 9246
 S
 #9254
-Doğu Mesa~
-Kuzeye doğru giden bir patikanın başındasın. Mesa batıya doğru devam
-ediyor. Ya da kanyon zeminine inmek için güneye tırmanabilirsin.
+DoÄŸu Mesa~
+Kuzeye doÄŸru giden bir patikanÄ±n baÅŸÄ±ndasÄ±n. Mesa batÄ±ya doÄŸru devam
+ediyor. Ya da kanyon zeminine inmek iÃ§in gÃ¼neye tÄ±rmanabilirsin.
 ~
 0 0 4
 D0
@@ -1606,11 +1606,11 @@ D3
 0 -1 9253
 S
 #9255
-Havada Süzülüş~
-Son hatırladığın, mesada yürüdüğün. Last you knew, you were walking on
-the mesa. Kavramayacak kadar hızlı bir şekilde patikadan düştün. Ölümüne
-düşerken, havada yürüyebildiğini farkediyorsun. İnce hava kuzey ve doğuda da
-var, orada yürüyebilirsin. Geldiğin yol güneyde.
+Havada SÃ¼zÃ¼lÃ¼ÅŸ~
+Son hatÄ±rladÄ±ÄŸÄ±n, mesada yÃ¼rÃ¼dÃ¼ÄŸÃ¼n. Last you knew, you were walking on
+the mesa. Kavramayacak kadar hÄ±zlÄ± bir ÅŸekilde patikadan dÃ¼ÅŸtÃ¼n. Ã–lÃ¼mÃ¼ne
+dÃ¼ÅŸerken, havada yÃ¼rÃ¼yebildiÄŸini farkediyorsun. Ä°nce hava kuzey ve doÄŸuda da
+var, orada yÃ¼rÃ¼yebilirsin. GeldiÄŸin yol gÃ¼neyde.
 ~
 0 0 4
 D0
@@ -1627,10 +1627,10 @@ D2
 0 -1 9254
 S
 #9256
-Havada Süzülüş~
-Aşağı bakıyorsun ve yerden 100 fit yukarda olduğunu farkediyorsun. Rüzgar
-kulağına güven verici birşeyler fısıldarmış gibi geliyor. Güneyde daha fazla
-ince hava varken, kuzeyde birkaç portal görüyorsun.
+Havada SÃ¼zÃ¼lÃ¼ÅŸ~
+AÅŸaÄŸÄ± bakÄ±yorsun ve yerden 100 fit yukarda olduÄŸunu farkediyorsun. RÃ¼zgar
+kulaÄŸÄ±na gÃ¼ven verici birÅŸeyler fÄ±sÄ±ldarmÄ±ÅŸ gibi geliyor. GÃ¼neyde daha fazla
+ince hava varken, kuzeyde birkaÃ§ portal gÃ¶rÃ¼yorsun.
 ~
 0 0 4
 D0
@@ -1643,10 +1643,10 @@ D3
 0 -1 9255
 S
 #9257
-Havada Süzülüş~
-Aşağı bakıyorsun ve yerden 100 fit yukarda olduğunu farkediyorsun. Rüzgar
-kulağına güven verici birşeyler fısıldarmış gibi geliyor. Güneyde daha fazla
-ince hava varken, doğuda birkaç portal görüyorsun.
+Havada SÃ¼zÃ¼lÃ¼ÅŸ~
+AÅŸaÄŸÄ± bakÄ±yorsun ve yerden 100 fit yukarda olduÄŸunu farkediyorsun. RÃ¼zgar
+kulaÄŸÄ±na gÃ¼ven verici birÅŸeyler fÄ±sÄ±ldarmÄ±ÅŸ gibi geliyor. GÃ¼neyde daha fazla
+ince hava varken, doÄŸuda birkaÃ§ portal gÃ¶rÃ¼yorsun.
 ~
 0 0 4
 D1
@@ -1659,11 +1659,11 @@ D2
 0 -1 9255
 S
 #9258
-Havada Süzülüş~
-Aşağı bakıyorsun ve yerden 100 fit yukarda olduğunu farkediyorsun. Rüzgar
-kulağına güven verici birşeyler fısıldarmış gibi geliyor. Burada havanın
-ortasında durmuş bir portal var. Portal doğuya doğru devam ediyor. Güneye
-veya batıya gidebilirsin istersen.
+Havada SÃ¼zÃ¼lÃ¼ÅŸ~
+AÅŸaÄŸÄ± bakÄ±yorsun ve yerden 100 fit yukarda olduÄŸunu farkediyorsun. RÃ¼zgar
+kulaÄŸÄ±na gÃ¼ven verici birÅŸeyler fÄ±sÄ±ldarmÄ±ÅŸ gibi geliyor. Burada havanÄ±n
+ortasÄ±nda durmuÅŸ bir portal var. Portal doÄŸuya doÄŸru devam ediyor. GÃ¼neye
+veya batÄ±ya gidebilirsin istersen.
 ~
 0 0 4
 D1
@@ -1679,19 +1679,19 @@ D3
 ~
 0 -1 9257
 D4
-Kerkes şehri.
+Kerkes ÅŸehri.
 ~
 ~
 0 -1 5600
 E
-geçit~
+geÃ§it~
 Through the portal you see a tunnel.
 ~
 S
 #9259
-Rüzgarlı Tünel~
-Bir tünel doğuya doğru ilerliyor. Batıda portala girebilirsin. A tunnel
-leads east. To the west you can enter a portal. Burada, tüneldeki rüzgar
+RÃ¼zgarlÄ± TÃ¼nel~
+Bir tÃ¼nel doÄŸuya doÄŸru ilerliyor. BatÄ±da portala girebilirsin. A tunnel
+leads east. To the west you can enter a portal. Burada, tÃ¼neldeki rÃ¼zgar
 epey bir hiddetli.
 ~
 0 0 4
@@ -1704,14 +1704,14 @@ D3
 ~
 0 -1 9258
 E
-geçit~
+geÃ§it~
 Through the portal you see nothing but sky.
 ~
 S
 #9260
-Hava Odası~
-Küçük tornadolar gidip gelerek dans ediyorlar. Çemberin arkasında,
-bulutlardan yapılmış kocaman bir taht görüyorsun. Bir tünel batıya doğru
+Hava OdasÄ±~
+KÃ¼Ã§Ã¼k tornadolar gidip gelerek dans ediyorlar. Ã‡emberin arkasÄ±nda,
+bulutlardan yapÄ±lmÄ±ÅŸ kocaman bir taht gÃ¶rÃ¼yorsun. Bir tÃ¼nel batÄ±ya doÄŸru
 gidiyor.
 ~
 0 D 6
@@ -1720,7 +1720,7 @@ D3
 ~
 0 -1 9259
 E
-taht bulutları~
+taht bulutlarÄ±~
 Although the cloud throne appears solid enough to sit on, I wouldn't try
 it if I were you!
 ~

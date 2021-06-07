@@ -1,9 +1,9 @@
 #AREADATA
 Filename acemi_bolgesi.are~
-Name Acemi Bölgesi~
+Name Acemi BÃ¶lgesi~
 Builder Maynard~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 1
 Highlevel 10
 Minvnum 18600
@@ -22,109 +22,109 @@ Further conversion to Rom 2.4 by Jaceks and Chicken's Den Staff~
 
 #NEW_MOBILES
 #18601
-kuyu canavarı~
-kuyu canavarı~
-Büyük çirkin kuyu canavarı seni tartarak burada duruyor.
+kuyu canavarÄ±~
+kuyu canavarÄ±~
+BÃ¼yÃ¼k Ã§irkin kuyu canavarÄ± seni tartarak burada duruyor.
 ~
-Iyyy... Ne iğrenç bir yaratık! Siyah, yeşil, ince yapılı ve her yere
-salyalarını akıtıyor...
+Iyyy... Ne iÄŸrenÃ§ bir yaratÄ±k! Siyah, yeÅŸil, ince yapÄ±lÄ± ve her yere
+salyalarÄ±nÄ± akÄ±tÄ±yor...
 ~
 bear~
 ABC 0 5
 #18602
 acemi canavar~
-acemi canavarı~
-Acemi canavarı burada kafası karışmış bir şekilde duruyor. Öldür onu!
-Öldür onu!
+acemi canavarÄ±~
+Acemi canavarÄ± burada kafasÄ± karÄ±ÅŸmÄ±ÅŸ bir ÅŸekilde duruyor. Ã–ldÃ¼r onu!
+Ã–ldÃ¼r onu!
 ~
-Ne acayip görünen küçük bir canavar. Zararsız görünüyor, fakat asla
-bilemezsin. Yaklaşık 4 ayak uzunluğunda, fakat biraz kaslı görünüyor...
-Belki yardıma ihtiyacı olup olmadığını sorsan iyi olur. Amaan boşver...
-Öldür gitsin.
+Ne acayip gÃ¶rÃ¼nen kÃ¼Ã§Ã¼k bir canavar. ZararsÄ±z gÃ¶rÃ¼nÃ¼yor, fakat asla
+bilemezsin. YaklaÅŸÄ±k 4 ayak uzunluÄŸunda, fakat biraz kaslÄ± gÃ¶rÃ¼nÃ¼yor...
+Belki yardÄ±ma ihtiyacÄ± olup olmadÄ±ÄŸÄ±nÄ± sorsan iyi olur. Amaan boÅŸver...
+Ã–ldÃ¼r gitsin.
 ~
 school monster~
 ABC G 2
 #18603
 ejderha yavru~
 yavru ejderha~
-Birinin küçük evcil ejderhası kaybolmuş ve burada etrafı kokluyor.
+Birinin kÃ¼Ã§Ã¼k evcil ejderhasÄ± kaybolmuÅŸ ve burada etrafÄ± kokluyor.
 ~
-Oouuuu... Ne kadar tatlı! Küçük yavru bir ejderha. Sadece 3 ayak
-uzunluğunda ve sen ona ölümü kucaklatacaksın. Hayır, gerçeği söylemek
-gerekirse onu gerçekten öldürmek istiyorsun. Fakat unutmaki, küçük bir
-ejderha bile büyük bir sorun yaratabilir.
+Oouuuu... Ne kadar tatlÄ±! KÃ¼Ã§Ã¼k yavru bir ejderha. Sadece 3 ayak
+uzunluÄŸunda ve sen ona Ã¶lÃ¼mÃ¼ kucaklatacaksÄ±n. HayÄ±r, gerÃ§eÄŸi sÃ¶ylemek
+gerekirse onu gerÃ§ekten Ã¶ldÃ¼rmek istiyorsun. Fakat unutmaki, kÃ¼Ã§Ã¼k bir
+ejderha bile bÃ¼yÃ¼k bir sorun yaratabilir.
 ~
 dragon~
 AB 0 4
 #18604
 koruyucu gardiyan acemi~
-acemi gardiyanı~
-Acemi gardiyanı burada ejderhanın nereye gittiğini merak ediyor.
+acemi gardiyanÄ±~
+Acemi gardiyanÄ± burada ejderhanÄ±n nereye gittiÄŸini merak ediyor.
 ~
-Gardiyanın işi simyacının evcil ejderhasına bakmak, fakat işini pek de
-iyi yapıyor gibi görünmüyor. Sana bakıp, diyorki, "Buralarda ejderha gördün
-mü? Eğer onu bulamazsam efendim kellemi uçuracak."
+GardiyanÄ±n iÅŸi simyacÄ±nÄ±n evcil ejderhasÄ±na bakmak, fakat iÅŸini pek de
+iyi yapÄ±yor gibi gÃ¶rÃ¼nmÃ¼yor. Sana bakÄ±p, diyorki, "Buralarda ejderha gÃ¶rdÃ¼n
+mÃ¼? EÄŸer onu bulamazsam efendim kellemi uÃ§uracak."
 ~
 human~
 AB 0 3
 #18605
-simyacı acemi~
-acemi simyacısı~
-Acemi simyacısı burada bir şeyler yapmaya çalışıyor.
+simyacÄ± acemi~
+acemi simyacÄ±sÄ±~
+Acemi simyacÄ±sÄ± burada bir ÅŸeyler yapmaya Ã§alÄ±ÅŸÄ±yor.
 ~
-Komik görünen, kıllı, küçük bir züppe. Bir şeyi başka bir şeye
-karıştırmaya çalışmakla meşgul görünüyor.
+Komik gÃ¶rÃ¼nen, kÄ±llÄ±, kÃ¼Ã§Ã¼k bir zÃ¼ppe. Bir ÅŸeyi baÅŸka bir ÅŸeye
+karÄ±ÅŸtÄ±rmaya Ã§alÄ±ÅŸmakla meÅŸgul gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 AB 0 5
 #18606
-sürüngen korkunç böceksi~
-korkunç sürüngen~
-Korkunç, küçük, sürünen bir şey, yerde ayaklarının arasından sıvışıyor.
+sÃ¼rÃ¼ngen korkunÃ§ bÃ¶ceksi~
+korkunÃ§ sÃ¼rÃ¼ngen~
+KorkunÃ§, kÃ¼Ã§Ã¼k, sÃ¼rÃ¼nen bir ÅŸey, yerde ayaklarÄ±nÄ±n arasÄ±ndan sÄ±vÄ±ÅŸÄ±yor.
 ~
-Iyyyk! Eğer burayı temizlemiş olsalardı, belkide bu iğrenç, küçük, altı
-bacaklı, kahverengi böcek için çekici bir yer haline gelmezdi burası.
+Iyyyk! EÄŸer burayÄ± temizlemiÅŸ olsalardÄ±, belkide bu iÄŸrenÃ§, kÃ¼Ã§Ã¼k, altÄ±
+bacaklÄ±, kahverengi bÃ¶cek iÃ§in Ã§ekici bir yer haline gelmezdi burasÄ±.
 ~
 snake~
 ABFG 0 1
 #18607
 acemi zombi~
-zombi haline getirilmiş bir acemi~
-Çok sıska görünen bir acemi. Bir zombi gibi görünüyor.
+zombi haline getirilmiÅŸ bir acemi~
+Ã‡ok sÄ±ska gÃ¶rÃ¼nen bir acemi. Bir zombi gibi gÃ¶rÃ¼nÃ¼yor.
 ~
-Bu adam uzun zamandır kaybolmuş burada... Şimdi insandan çok bir zombiye
-benziyor. Onun için üzülüyor olabilirsin ama saldırmaya için harekete geçti!
+Bu adam uzun zamandÄ±r kaybolmuÅŸ burada... Åimdi insandan Ã§ok bir zombiye
+benziyor. Onun iÃ§in Ã¼zÃ¼lÃ¼yor olabilirsin ama saldÄ±rmaya iÃ§in harekete geÃ§ti!
 ~
 human~
 ACFG 0 4
 #18608
-iblis şeytanımsı~
+iblis ÅŸeytanÄ±msÄ±~
 iblis~
-Küçük şeytani bir şey (iblis büyük ihtimalle), burada sinsice dolaşıyor.
+KÃ¼Ã§Ã¼k ÅŸeytani bir ÅŸey (iblis bÃ¼yÃ¼k ihtimalle), burada sinsice dolaÅŸÄ±yor.
 ~
-Küçük yeşil, belirsiz, insansı şekle sahip,uzun sivrilmiş bir kuyruğa
-sahip yaratık. Söylemesi zor çünkü, iyice göremeden, gölgelere dalıyor.
+KÃ¼Ã§Ã¼k yeÅŸil, belirsiz, insansÄ± ÅŸekle sahip,uzun sivrilmiÅŸ bir kuyruÄŸa
+sahip yaratÄ±k. SÃ¶ylemesi zor Ã§Ã¼nkÃ¼, iyice gÃ¶remeden, gÃ¶lgelere dalÄ±yor.
 ~
 snake~
 ACGH P 3
 #18609
-boğaadam~
-heybetli boğaadam~
-Heybetli boğaadam, tadının nasıl olduğunu merak ediyor.
+boÄŸaadam~
+heybetli boÄŸaadam~
+Heybetli boÄŸaadam, tadÄ±nÄ±n nasÄ±l olduÄŸunu merak ediyor.
 ~
-Bir boğanın kafasına sahip, heybetli bir adam. Ayrıca bir boğa kadar
-güçlü fakat bir o kadar da aptal görünüyor. Şimdiye kadar gördüğün bütün
-boğalardan daha anlamlı bakıyor ve bu tarafa doğru geliyor!
+Bir boÄŸanÄ±n kafasÄ±na sahip, heybetli bir adam. AyrÄ±ca bir boÄŸa kadar
+gÃ¼Ã§lÃ¼ fakat bir o kadar da aptal gÃ¶rÃ¼nÃ¼yor. Åimdiye kadar gÃ¶rdÃ¼ÄŸÃ¼n bÃ¼tÃ¼n
+boÄŸalardan daha anlamlÄ± bakÄ±yor ve bu tarafa doÄŸru geliyor!
 ~
 dog~
 ABFG 0 7
 #18610
 hayalet~
-karanlık hayalet~
-Karanlık bir hayalet gölgelerde pusuya yatıyor.
+karanlÄ±k hayalet~
+KaranlÄ±k bir hayalet gÃ¶lgelerde pusuya yatÄ±yor.
 ~
-Uzun zaman önce ölmüş bir maceracının ruhu... Yolundan geçenlere ölüm
-getirme şansını bekleyerek, burada pusuya yatıyor.
+Uzun zaman Ã¶nce Ã¶lmÃ¼ÅŸ bir maceracÄ±nÄ±n ruhu... Yolundan geÃ§enlere Ã¶lÃ¼m
+getirme ÅŸansÄ±nÄ± bekleyerek, burada pusuya yatÄ±yor.
 ~
 water fowl~
 ABDFG BDT 6
@@ -133,52 +133,52 @@ acemi sinir bozan aptal~
 sinir bozan acemi~
 Sinirini bozan bir acemi burada.
 ~
-Ne kadar aptal! Hiç susmuyor ve herşey hakkında en rahatsız edici
-yorumları yapmaya devam ediyor. En iyisi soğuk, tavlanmış çelikle onu
+Ne kadar aptal! HiÃ§ susmuyor ve herÅŸey hakkÄ±nda en rahatsÄ±z edici
+yorumlarÄ± yapmaya devam ediyor. En iyisi soÄŸuk, tavlanmÄ±ÅŸ Ã§elikle onu
 susturmak. MUHOHAHAHAHAHAHAHAHAHA!
 ~
 human~
 ABC FG 2
 #18612
-acemi ümitsiz moron~
-ümitsiz acemi~
-Kafası fena halde karışmış görünen bir acemi burada.
+acemi Ã¼mitsiz moron~
+Ã¼mitsiz acemi~
+KafasÄ± fena halde karÄ±ÅŸmÄ±ÅŸ gÃ¶rÃ¼nen bir acemi burada.
 ~
-Ne kadar salak! Yardım dosyalarında cevaplandırılmış her soruyu soracak
+Ne kadar salak! YardÄ±m dosyalarÄ±nda cevaplandÄ±rÄ±lmÄ±ÅŸ her soruyu soracak
 hem de muhtemelen 2 veya 3 defa. Bu herif anlamayacak, en iyisi derdine
 derman olmak.
 ~
 human~
 ABC G 1
 #18613
-acemi konuşkan~
-konuşkan acemi~
-Bir acemi burada çok konuşuyor.
+acemi konuÅŸkan~
+konuÅŸkan acemi~
+Bir acemi burada Ã§ok konuÅŸuyor.
 ~
-Pekala, sonunda havalı görünen bir kız. Çok konuşuyor ama dost canlısı ve
-ilginç. Ne yaptığı hakkında bir fikri varmış gibi görünüyor, diğer
-gördüklerin gibi değil.
+Pekala, sonunda havalÄ± gÃ¶rÃ¼nen bir kÄ±z. Ã‡ok konuÅŸuyor ama dost canlÄ±sÄ± ve
+ilginÃ§. Ne yaptÄ±ÄŸÄ± hakkÄ±nda bir fikri varmÄ±ÅŸ gibi gÃ¶rÃ¼nÃ¼yor, diÄŸer
+gÃ¶rdÃ¼klerin gibi deÄŸil.
 ~
 human~
 ABG 0 3
 #18614
-acemi kayıp~
-kayıp acemi~
-Bir acemi burada amaçsızca geziniyor.
+acemi kayÄ±p~
+kayÄ±p acemi~
+Bir acemi burada amaÃ§sÄ±zca geziniyor.
 ~
-Hımmm... Buralarda bulunmuş fakat bu sefer evinden biraz fazla uzaklaşmış
-görünüyor. Nerede olduğuna dair bir fikri olduğunu sanmıyorsun. Belki de
-dışarı çıkmasına yardım etmelisin.
+HÄ±mmm... Buralarda bulunmuÅŸ fakat bu sefer evinden biraz fazla uzaklaÅŸmÄ±ÅŸ
+gÃ¶rÃ¼nÃ¼yor. Nerede olduÄŸuna dair bir fikri olduÄŸunu sanmÄ±yorsun. Belki de
+dÄ±ÅŸarÄ± Ã§Ä±kmasÄ±na yardÄ±m etmelisin.
 ~
 human~
 ACG 0 4
 #18615
 acemi zeki~
 zeki acemi~
-Bir acemi burada ve kendinden emin görünüyor.
+Bir acemi burada ve kendinden emin gÃ¶rÃ¼nÃ¼yor.
 ~
-Herşeye sahip bir herif var burada. Güzel ekipmanlara da. Yardım
-dosyalarını okumak lazım ha?
+HerÅŸeye sahip bir herif var burada. GÃ¼zel ekipmanlara da. YardÄ±m
+dosyalarÄ±nÄ± okumak lazÄ±m ha?
 ~
 human~
 ABC G 5
@@ -187,9 +187,9 @@ ABC G 5
 
 #OBJECTS
 #18601
-kılıç acemi~
-parlak yeşil bir acemi kılıcı~
-Parlak yeşil bir acemi kılıcı yerde duruyor.~
+kÄ±lÄ±Ã§ acemi~
+parlak yeÅŸil bir acemi kÄ±lÄ±cÄ±~
+Parlak yeÅŸil bir acemi kÄ±lÄ±cÄ± yerde duruyor.~
 steel~
 5 AG AN
 sword 1 7 thrust 0
@@ -198,16 +198,16 @@ A
 19 1
 #18602
 yelek acemi~
-parlak yeşil bir acemi yeleği~
-Parlak yeşil bir acemi yeleği sarılacak bir vücut arıyor burada.~
+parlak yeÅŸil bir acemi yeleÄŸi~
+Parlak yeÅŸil bir acemi yeleÄŸi sarÄ±lacak bir vÃ¼cut arÄ±yor burada.~
 steel~
 armor 0 AD
 3 3 4 0 3
 4 150 250 G
 #18603
-miğfer acemi~
-parlak bir acemi miğferi~
-Parlak bir acemi miğferi gevşek bir kafaya takılmayı umut ediyor.~
+miÄŸfer acemi~
+parlak bir acemi miÄŸferi~
+Parlak bir acemi miÄŸferi gevÅŸek bir kafaya takÄ±lmayÄ± umut ediyor.~
 steel~
 armor AG AE
 4 4 3 1 1
@@ -217,7 +217,7 @@ A
 #18604
 pelerin koyu acemi~
 koyu bir acemi pelerini~
-Koyu bir acemi pelerini burada örtünmeyi bekliyor.~
+Koyu bir acemi pelerini burada Ã¶rtÃ¼nmeyi bekliyor.~
 wool~
 armor AG AK
 3 4 3 1 2
@@ -227,9 +227,9 @@ A
 A
 4 1
 #18605
-yüzük mühür acemi~
-bir acemi mühür yüzüğü~
-Bir acemi mühür yüzüğü burada tozların içinde yatıyor.~
+yÃ¼zÃ¼k mÃ¼hÃ¼r acemi~
+bir acemi mÃ¼hÃ¼r yÃ¼zÃ¼ÄŸÃ¼~
+Bir acemi mÃ¼hÃ¼r yÃ¼zÃ¼ÄŸÃ¼ burada tozlarÄ±n iÃ§inde yatÄ±yor.~
 silver~
 armor FG AB
 4 3 3 1 1
@@ -238,8 +238,8 @@ A
 17 -2
 #18606
 kama acemi~
-ışıldayan bir acemi kaması~
-Işıldayan bir acemi kaması burada bir sırta saplanmayı bekliyor.~
+Ä±ÅŸÄ±ldayan bir acemi kamasÄ±~
+IÅŸÄ±ldayan bir acemi kamasÄ± burada bir sÄ±rta saplanmayÄ± bekliyor.~
 iron~
 weapon AG AN
 dagger 1 7 stab 0
@@ -248,8 +248,8 @@ A
 19 1
 #18607
 tasma ejderha~
-bir evcil ejderha tasması~
-Birinin evcil ejderhası kaçmış ve tasmasını burada bırakmış~
+bir evcil ejderha tasmasÄ±~
+Birinin evcil ejderhasÄ± kaÃ§mÄ±ÅŸ ve tasmasÄ±nÄ± burada bÄ±rakmÄ±ÅŸ~
 snakeskin~
 armor G AC
 3 3 4 1 1
@@ -267,9 +267,9 @@ key C A
 0 0 0 0 0
 1 10 10 G
 #18609
-ışık kavanoz~
-parlak bir şekilde ışıldayan bir kavanoz~
-Bir kavanoz ışıldayan sıvı gününü aydınlatmak istiyor.~
+Ä±ÅŸÄ±k kavanoz~
+parlak bir ÅŸekilde Ä±ÅŸÄ±ldayan bir kavanoz~
+Bir kavanoz Ä±ÅŸÄ±ldayan sÄ±vÄ± gÃ¼nÃ¼nÃ¼ aydÄ±nlatmak istiyor.~
 energy~
 light AG A
 0 0 -1 0 0
@@ -278,8 +278,8 @@ A
 24 -1
 #18610
 boynuz~
-boğaadamın boynuzları~
-Heybetli boğaadamın boynuzları burada yatıyor~
+boÄŸaadamÄ±n boynuzlarÄ±~
+Heybetli boÄŸaadamÄ±n boynuzlarÄ± burada yatÄ±yor~
 bone~
 armor G AE
 3 4 4 1 1
@@ -288,8 +288,8 @@ A
 1 1
 #18611
 post deri~
-boğaadamın kokan postu~
-Heybetli boğaadamın postu burada yatıyor.~
+boÄŸaadamÄ±n kokan postu~
+Heybetli boÄŸaadamÄ±n postu burada yatÄ±yor.~
 air~
 armor 0 AK
 5 5 5 0 3
@@ -300,16 +300,16 @@ A
 13 15
 #18612
 tozluk acemi~
-acemi tozlukları~
-Bir çift zarif görünen tozluk burada~
+acemi tozluklarÄ±~
+Bir Ã§ift zarif gÃ¶rÃ¼nen tozluk burada~
 wool~
 armor 0 AF
 3 3 3 0 1
 4 120 200 G
 #18613
 kolluk acemi~
-acemi kollukları~
-Bir takım şık kolluk burada.~
+acemi kolluklarÄ±~
+Bir takÄ±m ÅŸÄ±k kolluk burada.~
 steel~
 armor G AI
 4 4 3 1 1
@@ -317,9 +317,9 @@ armor G AI
 A
 2 1
 #18614
-gürz acemi~
-parlayan bir acemi gürzü~
-Güzel yapılmış bir acemi gürzü burada onu hakeden birini bekliyor.~
+gÃ¼rz acemi~
+parlayan bir acemi gÃ¼rzÃ¼~
+GÃ¼zel yapÄ±lmÄ±ÅŸ bir acemi gÃ¼rzÃ¼ burada onu hakeden birini bekliyor.~
 wood~
 weapon AG AN
 mace 1 7 pound 0
@@ -327,9 +327,9 @@ mace 1 7 pound 0
 A
 17 -2
 #18615
-küre~
-bir yavru ejderha küresi~
-Bir yavru ejderha küresi burada yatıyor.~
+kÃ¼re~
+bir yavru ejderha kÃ¼resi~
+Bir yavru ejderha kÃ¼resi burada yatÄ±yor.~
 quartz~
 armor AEGJM AQ
 3 3 3 1 1
@@ -345,10 +345,10 @@ A
 
 #ROOMS
 #18600
-Acemi Bölgesine Giriş~
-Ahhh... Acemi bölgesine giriş! Tam senin aramakta olduğun yer. Pekala,
-kendini hazır hissettiğinde, kuzeye gidebilirsin. Burada (Parlayan)
-(Vızıldayan) küçük bir tabela var.
+Acemi BÃ¶lgesine GiriÅŸ~
+Ahhh... Acemi bÃ¶lgesine giriÅŸ! Tam senin aramakta olduÄŸun yer. Pekala,
+kendini hazÄ±r hissettiÄŸinde, kuzeye gidebilirsin. Burada (Parlayan)
+(VÄ±zÄ±ldayan) kÃ¼Ã§Ã¼k bir tabela var.
 ~
 0 C 1
 E
@@ -370,11 +370,11 @@ Back to the school that way... Chickening out already?
 0 -1 5379
 S
 #18601
-Geçitin Başlangıcı~
-Kendini, uzun bir koridorun girişinde buluyorsun. Etrafta dolaşan
-yaratıkların sesini duyabiliyorsun, fakat sesin tam olarak nereden geldiğini
-söyleyemiyorsun. Çıkışlar, hol boyunca doğuya ve girişe doğru güneye
-uzanıyor.
+GeÃ§itin BaÅŸlangÄ±cÄ±~
+Kendini, uzun bir koridorun giriÅŸinde buluyorsun. Etrafta dolaÅŸan
+yaratÄ±klarÄ±n sesini duyabiliyorsun, fakat sesin tam olarak nereden geldiÄŸini
+sÃ¶yleyemiyorsun. Ã‡Ä±kÄ±ÅŸlar, hol boyunca doÄŸuya ve giriÅŸe doÄŸru gÃ¼neye
+uzanÄ±yor.
 ~
 0 D 0
 D1
@@ -390,11 +390,11 @@ The entrance to the newbie zone... How dull
 S
 #18602
 Kirli Koridor~
-Hol boyunca gezinmeye devam ediyorsun. Çok fazla bir farklılık yok
-burada, fakat güneyindeki kapının arkasından ve doğu yönünden gürültüler
-geldiğine eminsin. Duvarlar biraz çamurlu ve küflü burada... ööekk, burayı
-temizlemek için birilerini tutmuyorlar mı? Acemiler ne düşünecek sonra? Oh
-pekala, hol boyunca doğuya ve batıya doğru devam edebilirsin.
+Hol boyunca gezinmeye devam ediyorsun. Ã‡ok fazla bir farklÄ±lÄ±k yok
+burada, fakat gÃ¼neyindeki kapÄ±nÄ±n arkasÄ±ndan ve doÄŸu yÃ¶nÃ¼nden gÃ¼rÃ¼ltÃ¼ler
+geldiÄŸine eminsin. Duvarlar biraz Ã§amurlu ve kÃ¼flÃ¼ burada... Ã¶Ã¶ekk, burayÄ±
+temizlemek iÃ§in birilerini tutmuyorlar mÄ±? Acemiler ne dÃ¼ÅŸÃ¼necek sonra? Oh
+pekala, hol boyunca doÄŸuya ve batÄ±ya doÄŸru devam edebilirsin.
 ~
 0 D 0
 D1
@@ -414,9 +414,9 @@ More of the hallway there... How exciting!
 0 -1 18601
 S
 #18603
-Bir Bağlantı Noktası~
-Pekala... Iki geçitin kesişimine ulaştın. Geçitin daha karanlık olan
-kısmı güneye doğru devam ederken, kuzey ve doğu yönünde geçit aydınlık.
+Bir BaÄŸlantÄ± NoktasÄ±~
+Pekala... Iki geÃ§itin kesiÅŸimine ulaÅŸtÄ±n. GeÃ§itin daha karanlÄ±k olan
+kÄ±smÄ± gÃ¼neye doÄŸru devam ederken, kuzey ve doÄŸu yÃ¶nÃ¼nde geÃ§it aydÄ±nlÄ±k.
 ~
 0 D 0
 D0
@@ -441,9 +441,9 @@ More of the hallway there... How exciting!
 0 -1 18602
 S
 #18604
-Dar Bir Geçit~
-Dar geçit sade ve süslenmemiş fakat hala temiz. Güney yönünde arkasında
-hareketlenmeler duyduğun meşe ağacından küçük bir kapıyla ansızın sona
+Dar Bir GeÃ§it~
+Dar geÃ§it sade ve sÃ¼slenmemiÅŸ fakat hala temiz. GÃ¼ney yÃ¶nÃ¼nde arkasÄ±nda
+hareketlenmeler duyduÄŸun meÅŸe aÄŸacÄ±ndan kÃ¼Ã§Ã¼k bir kapÄ±yla ansÄ±zÄ±n sona
 eriyor koridor.
 ~
 0 AD 0
@@ -459,10 +459,10 @@ door~
 1 -1 18612
 S
 #18605
-Karanlık Çukur~
-Karanlık, nemli, pis bir çukur. Daha da kötüsü, köşeden sana bakan o
-kara, nemli, pis şey de ne öyle? IIyyyy... Eğer köşedeki o şeye
-saldırmayacaksan, belki de daha güvenli olan, geldiğin yere dönsen daha iyi
+KaranlÄ±k Ã‡ukur~
+KaranlÄ±k, nemli, pis bir Ã§ukur. Daha da kÃ¶tÃ¼sÃ¼, kÃ¶ÅŸeden sana bakan o
+kara, nemli, pis ÅŸey de ne Ã¶yle? IIyyyy... EÄŸer kÃ¶ÅŸedeki o ÅŸeye
+saldÄ±rmayacaksan, belki de daha gÃ¼venli olan, geldiÄŸin yere dÃ¶nsen daha iyi
 olur.
 ~
 0 AD 0
@@ -473,12 +473,12 @@ grate~
 1 18608 18606
 S
 #18606
-Küçük Bir Oda~
-Hımmm... İlginç küçük bir oda. Seni izleyen ilginç küçük bir yaratık var.
-Burada bulunmana biraz şaşırmış görünüyor. Kuzey ve doğu yönündeki kapılarla
-burayı terk edebilir veya burada kalıp onu biraz daha rahatsız edebilirsin.
-Ayrıca buranın altında bir çeşit kuyu var, fakat üzeri bir koruma
-ızgarasıyla kapatılmış.
+KÃ¼Ã§Ã¼k Bir Oda~
+HÄ±mmm... Ä°lginÃ§ kÃ¼Ã§Ã¼k bir oda. Seni izleyen ilginÃ§ kÃ¼Ã§Ã¼k bir yaratÄ±k var.
+Burada bulunmana biraz ÅŸaÅŸÄ±rmÄ±ÅŸ gÃ¶rÃ¼nÃ¼yor. Kuzey ve doÄŸu yÃ¶nÃ¼ndeki kapÄ±larla
+burayÄ± terk edebilir veya burada kalÄ±p onu biraz daha rahatsÄ±z edebilirsin.
+AyrÄ±ca buranÄ±n altÄ±nda bir Ã§eÅŸit kuyu var, fakat Ã¼zeri bir koruma
+Ä±zgarasÄ±yla kapatÄ±lmÄ±ÅŸ.
 ~
 0 D 0
 D0
@@ -499,9 +499,9 @@ grate~
 S
 #18607
 Bir Koridor Daha~
-İşte rahatsız edici geçitlerden bir tane daha. Belki batı yönündeki
-kapının ardında daha ilginç bir şeyler vardır. Veya kuzey ve güney yönündeki
-koridorları araştırmaya devam edebilirsin.
+Ä°ÅŸte rahatsÄ±z edici geÃ§itlerden bir tane daha. Belki batÄ± yÃ¶nÃ¼ndeki
+kapÄ±nÄ±n ardÄ±nda daha ilginÃ§ bir ÅŸeyler vardÄ±r. Veya kuzey ve gÃ¼ney yÃ¶nÃ¼ndeki
+koridorlarÄ± araÅŸtÄ±rmaya devam edebilirsin.
 ~
 0 0 0
 D0
@@ -521,10 +521,10 @@ door~
 1 -1 18606
 S
 #18608
-Geniş Arazinin Önündeki Açık Alan~
-Nihayet açık bir alandasın... Yeniden temiz havayı içine çekebilmek çok
-güzel! Doğuya, nemli ve kokan yere geri dönebilir veya geniş bir araziye
-açıldığı görünen batıdaki çıkışa yönelebilirsin.
+GeniÅŸ Arazinin Ã–nÃ¼ndeki AÃ§Ä±k Alan~
+Nihayet aÃ§Ä±k bir alandasÄ±n... Yeniden temiz havayÄ± iÃ§ine Ã§ekebilmek Ã§ok
+gÃ¼zel! DoÄŸuya, nemli ve kokan yere geri dÃ¶nebilir veya geniÅŸ bir araziye
+aÃ§Ä±ldÄ±ÄŸÄ± gÃ¶rÃ¼nen batÄ±daki Ã§Ä±kÄ±ÅŸa yÃ¶nelebilirsin.
 ~
 0 C 0
 D1
@@ -534,9 +534,9 @@ The end of that darn hallway lies back to the east.
 0 -1 18609
 S
 #18609
-Geçitin Sonu~
-Ahhh... Nihayet, koridorun sonu... Batıdan açık havaya çıkabilir veya
-doğuya dönüp bir şey kaçırmadığından emin olabilirsin.
+GeÃ§itin Sonu~
+Ahhh... Nihayet, koridorun sonu... BatÄ±dan aÃ§Ä±k havaya Ã§Ä±kabilir veya
+doÄŸuya dÃ¶nÃ¼p bir ÅŸey kaÃ§Ä±rmadÄ±ÄŸÄ±ndan emin olabilirsin.
 ~
 0 D 0
 D1
@@ -551,9 +551,9 @@ An open field near The Great Field of Selenge can be seen.
 0 -1 18608
 S
 #18610
-Daha Aydınlık Bir Koridor~
-Koridor doğu batı yönünde uzanıyor ve batı tarafında biraz daha
-aydınlanıyor.
+Daha AydÄ±nlÄ±k Bir Koridor~
+Koridor doÄŸu batÄ± yÃ¶nÃ¼nde uzanÄ±yor ve batÄ± tarafÄ±nda biraz daha
+aydÄ±nlanÄ±yor.
 ~
 0 D 0
 D1
@@ -568,10 +568,10 @@ More of the hallway there... How exciting!
 0 -1 18609
 S
 #18611
-Başka Bir Dönemeç~
-Geçitte başka bir dönemeç, ve buranın geri kalanı gibi dağınık. Doğu
-yönünde bir kapı var... Nereye açıldığını merak ediyor musun? Ve koridor
-batı ve kuzey yönünde devam ediyor.
+BaÅŸka Bir DÃ¶nemeÃ§~
+GeÃ§itte baÅŸka bir dÃ¶nemeÃ§, ve buranÄ±n geri kalanÄ± gibi daÄŸÄ±nÄ±k. DoÄŸu
+yÃ¶nÃ¼nde bir kapÄ± var... Nereye aÃ§Ä±ldÄ±ÄŸÄ±nÄ± merak ediyor musun? Ve koridor
+batÄ± ve kuzey yÃ¶nÃ¼nde devam ediyor.
 ~
 0 D 0
 D0
@@ -591,20 +591,20 @@ More of the hallway there... How exciting!
 0 -1 18610
 S
 #18612
-Simyacının Odası~
-Bir sürü küçük şişe etrafa yayılmış, fakat değersiz bir yığın gibi
-görünüyorlar. Burada çalışan simyacı her kimse sanatına gerçekten bağlı
-görünüyor. Ayrıca duvarlara yazılmış bir çok formül ve büyü var... Biraz
-kağıt satın alamamış mı acaba? Kuzeyde bir kapı var ve ayrıca yanında okuman
-gereken büyük bir işaret olan aşağı doğru inen karanlık merdivenler var
-köşede...
+SimyacÄ±nÄ±n OdasÄ±~
+Bir sÃ¼rÃ¼ kÃ¼Ã§Ã¼k ÅŸiÅŸe etrafa yayÄ±lmÄ±ÅŸ, fakat deÄŸersiz bir yÄ±ÄŸÄ±n gibi
+gÃ¶rÃ¼nÃ¼yorlar. Burada Ã§alÄ±ÅŸan simyacÄ± her kimse sanatÄ±na gerÃ§ekten baÄŸlÄ±
+gÃ¶rÃ¼nÃ¼yor. AyrÄ±ca duvarlara yazÄ±lmÄ±ÅŸ bir Ã§ok formÃ¼l ve bÃ¼yÃ¼ var... Biraz
+kaÄŸÄ±t satÄ±n alamamÄ±ÅŸ mÄ± acaba? Kuzeyde bir kapÄ± var ve ayrÄ±ca yanÄ±nda okuman
+gereken bÃ¼yÃ¼k bir iÅŸaret olan aÅŸaÄŸÄ± doÄŸru inen karanlÄ±k merdivenler var
+kÃ¶ÅŸede...
 ~
 0 D 0
 E
-işaret merdiven~
-Merdivenlerin yanındaki işaret diyorki: Eğer 7. Seviyenin altında ve
-yalnızsanız veya 4. Seviyenin altındaysanız, defolun! Eğer girdiğinizde
-ölürseniz beni suçlamayın...
+iÅŸaret merdiven~
+Merdivenlerin yanÄ±ndaki iÅŸaret diyorki: EÄŸer 7. Seviyenin altÄ±nda ve
+yalnÄ±zsanÄ±z veya 4. Seviyenin altÄ±ndaysanÄ±z, defolun! EÄŸer girdiÄŸinizde
+Ã¶lÃ¼rseniz beni suÃ§lamayÄ±n...
 ~
 D0
 A nice shiny hallway!
@@ -631,9 +631,9 @@ Or else don't blame me if you die...
 ~
 S
 #18620
-Geçitte Bir Dönemeç~
-Diğerlerinden pek de farklı değil bu dönemeç... Tek fark güneyden gelen
-bir sıcaklık. Bir çıkış olabilir mi acaba? Umut ediyorsun...
+GeÃ§itte Bir DÃ¶nemeÃ§~
+DiÄŸerlerinden pek de farklÄ± deÄŸil bu dÃ¶nemeÃ§... Tek fark gÃ¼neyden gelen
+bir sÄ±caklÄ±k. Bir Ã§Ä±kÄ±ÅŸ olabilir mi acaba? Umut ediyorsun...
 ~
 0 AD 0
 D1
@@ -648,9 +648,9 @@ You see an odd red glow from that direction.
 0 -1 18629
 S
 #18621
-Geçitte Bir T Kavşağı~
-Burası uzun doğu-batı koridoru ile güneye uzanan koridorun kesiştiği yer.
-Sanki bir çıkışa yaklaşıyormuşsun gibi hava burada biraz daha temiz.
+GeÃ§itte Bir T KavÅŸaÄŸÄ±~
+BurasÄ± uzun doÄŸu-batÄ± koridoru ile gÃ¼neye uzanan koridorun kesiÅŸtiÄŸi yer.
+Sanki bir Ã§Ä±kÄ±ÅŸa yaklaÅŸÄ±yormuÅŸsun gibi hava burada biraz daha temiz.
 ~
 0 AD 0
 D1
@@ -670,10 +670,10 @@ D3
 0 -1 18620
 S
 #18622
-Başka Bir Dönemeç~
-Geçit kuzeyden batıya doğru kıvrılıyor burada. Duvarlar hala yol boyunca
-gördüğün aynı iğrenç yeşil mantarla kaplı ve çevrende hareket eden
-yaratıkların seslerini duyuyorsun.
+BaÅŸka Bir DÃ¶nemeÃ§~
+GeÃ§it kuzeyden batÄ±ya doÄŸru kÄ±vrÄ±lÄ±yor burada. Duvarlar hala yol boyunca
+gÃ¶rdÃ¼ÄŸÃ¼n aynÄ± iÄŸrenÃ§ yeÅŸil mantarla kaplÄ± ve Ã§evrende hareket eden
+yaratÄ±klarÄ±n seslerini duyuyorsun.
 ~
 0 AD 0
 D2
@@ -688,10 +688,10 @@ D3
 0 -1 18621
 S
 #18623
-Koridorda Bir Dönemeç~
-Çevrende hareket eden yaratıkları duyabiliyorsun... Ve çok da rahatlatıcı
-bir ses değil doğrusu. Düz, gri, örülmüş duvarlar ve onların üzerinde
-büyüyen yeşil mantarlardan başka bahsedecek bir döşeme yok ortalıkta.
+Koridorda Bir DÃ¶nemeÃ§~
+Ã‡evrende hareket eden yaratÄ±klarÄ± duyabiliyorsun... Ve Ã§ok da rahatlatÄ±cÄ±
+bir ses deÄŸil doÄŸrusu. DÃ¼z, gri, Ã¶rÃ¼lmÃ¼ÅŸ duvarlar ve onlarÄ±n Ã¼zerinde
+bÃ¼yÃ¼yen yeÅŸil mantarlardan baÅŸka bahsedecek bir dÃ¶ÅŸeme yok ortalÄ±kta.
 ~
 0 AD 0
 D1
@@ -706,10 +706,10 @@ D2
 0 -1 18627
 S
 #18624
-Başka Bir Dönemeç~
-Hımmm... Geçit güneye dönüyor burada. Eğer dikkatli olmazsan kolaylıkla
-şaşırabileceğinin farkına varmaya başlıyorsun ve burada çok fazla zaman
-geçirmeyi istediğini sanmıyorsun.
+BaÅŸka Bir DÃ¶nemeÃ§~
+HÄ±mmm... GeÃ§it gÃ¼neye dÃ¶nÃ¼yor burada. EÄŸer dikkatli olmazsan kolaylÄ±kla
+ÅŸaÅŸÄ±rabileceÄŸinin farkÄ±na varmaya baÅŸlÄ±yorsun ve burada Ã§ok fazla zaman
+geÃ§irmeyi istediÄŸini sanmÄ±yorsun.
 ~
 0 AD 0
 D2
@@ -724,8 +724,8 @@ D3
 0 -1 18623
 S
 #18625
-Geniş Bir Oda~
-Geçit, geniş oval bir odaya açılıyor. Gerçekten ilgini çeken pek bir şey
+GeniÅŸ Bir Oda~
+GeÃ§it, geniÅŸ oval bir odaya aÃ§Ä±lÄ±yor. GerÃ§ekten ilgini Ã§eken pek bir ÅŸey
 yok burada.
 ~
 0 AD 0
@@ -741,10 +741,10 @@ D2
 0 -1 18631
 S
 #18626
-Uzun Bir Doğu-Batı Koridoru~
-Doğu ve batı yönünde uzanan uzun, dar bir geçit burası. Duvarlar nemli,
-küf ve mantarlarla kaplanmış. Çok sağlıksız bir hava var burada ve bir an
-önce buradan çıkmak istiyorsun...
+Uzun Bir DoÄŸu-BatÄ± Koridoru~
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan uzun, dar bir geÃ§it burasÄ±. Duvarlar nemli,
+kÃ¼f ve mantarlarla kaplanmÄ±ÅŸ. Ã‡ok saÄŸlÄ±ksÄ±z bir hava var burada ve bir an
+Ã¶nce buradan Ã§Ä±kmak istiyorsun...
 ~
 0 AD 0
 D1
@@ -759,10 +759,10 @@ D3
 0 -1 18625
 S
 #18627
-Bir Koridor Kavşağı~
-Burada dar bir doğu-batı koridoru, daha geniş bir kuzey-güney koridoru
-ile kavşak oluşturuyor. Hava nemli ve çürümüş kokuyor. Çok da güzel bir yer
-değil.
+Bir Koridor KavÅŸaÄŸÄ±~
+Burada dar bir doÄŸu-batÄ± koridoru, daha geniÅŸ bir kuzey-gÃ¼ney koridoru
+ile kavÅŸak oluÅŸturuyor. Hava nemli ve Ã§Ã¼rÃ¼mÃ¼ÅŸ kokuyor. Ã‡ok da gÃ¼zel bir yer
+deÄŸil.
 ~
 0 AD 0
 D0
@@ -787,9 +787,9 @@ D3
 0 -1 18626
 S
 #18628
-Bir Dönemeç Odası~
-Bu oda geçit kesişiminden daha fazla bir şey. Kuzeye doğru esen hafif bir
-esinti seziyorsun, fakat hep kötü kokuyor...
+Bir DÃ¶nemeÃ§ OdasÄ±~
+Bu oda geÃ§it kesiÅŸiminden daha fazla bir ÅŸey. Kuzeye doÄŸru esen hafif bir
+esinti seziyorsun, fakat hep kÃ¶tÃ¼ kokuyor...
 ~
 0 AD 0
 D0
@@ -804,17 +804,17 @@ D3
 0 -1 18627
 S
 #18629
-Kırmızı Oda~
-Buradaki kırmızı parlamanın, yerdeki bir geçit kapısından geldiğini
-anlaman kısa bir zamanını alıyor. Sanki birisi, bu odanın zeminine, bir
-arazi boyunca uçuşan bir tozun resmini yapmış gibi görünüyor. Çok acayip, o
-kadar gerçekçiki resimden gelen rüzgarı hissedebiliyorsun.
+KÄ±rmÄ±zÄ± Oda~
+Buradaki kÄ±rmÄ±zÄ± parlamanÄ±n, yerdeki bir geÃ§it kapÄ±sÄ±ndan geldiÄŸini
+anlaman kÄ±sa bir zamanÄ±nÄ± alÄ±yor. Sanki birisi, bu odanÄ±n zeminine, bir
+arazi boyunca uÃ§uÅŸan bir tozun resmini yapmÄ±ÅŸ gibi gÃ¶rÃ¼nÃ¼yor. Ã‡ok acayip, o
+kadar gerÃ§ekÃ§iki resimden gelen rÃ¼zgarÄ± hissedebiliyorsun.
 ~
 0 AD 0
 E
-geçit kapısı yer~
-İçine girebilecekmişsin gibi görünüyor fakat nereye gittiği ya da geri
-dönüp dönemeyeceğin hakkında bir fikrin yok.
+geÃ§it kapÄ±sÄ± yer~
+Ä°Ã§ine girebilecekmiÅŸsin gibi gÃ¶rÃ¼nÃ¼yor fakat nereye gittiÄŸi ya da geri
+dÃ¶nÃ¼p dÃ¶nemeyeceÄŸin hakkÄ±nda bir fikrin yok.
 ~
 D0
 
@@ -828,9 +828,9 @@ D1
 0 -1 18630
 S
 #18630
-Kollara Ayrılan Bir Geçit~
-Kuzey-güney geçidi doğuya doğru bir dala ayrılıyor burada. Zayıf bir
-esintiyle beraber, kırmızı bir parlama geliyor o yönden.
+Kollara AyrÄ±lan Bir GeÃ§it~
+Kuzey-gÃ¼ney geÃ§idi doÄŸuya doÄŸru bir dala ayrÄ±lÄ±yor burada. ZayÄ±f bir
+esintiyle beraber, kÄ±rmÄ±zÄ± bir parlama geliyor o yÃ¶nden.
 ~
 0 AD 0
 D0
@@ -850,10 +850,10 @@ A very odd red glow emanates from that direction.
 0 -1 18629
 S
 #18631
-Bir Geçit~
-Iyk... Burası iğrenç. Duvarlara dokunmadan ilerlemeye çalışsanda, geçit
-çarpmadan geçemeyeceğin kadar dar. Duvarları kaplayan mantarın seni de ele
-geçirdiğine neredeyse ikna oluyorsun.
+Bir GeÃ§it~
+Iyk... BurasÄ± iÄŸrenÃ§. Duvarlara dokunmadan ilerlemeye Ã§alÄ±ÅŸsanda, geÃ§it
+Ã§arpmadan geÃ§emeyeceÄŸin kadar dar. DuvarlarÄ± kaplayan mantarÄ±n seni de ele
+geÃ§irdiÄŸine neredeyse ikna oluyorsun.
 ~
 0 AD 0
 D0
@@ -873,10 +873,10 @@ D2
 0 -1 18638
 S
 #18632
-Giriş~
-Burası, karanlık, nemli, iğrenç, ve soğuk. Ayrıca çevrendeki yaratıkların
-seslerini duyuyorsun... Ve her nasılsa çok dost canlısı gibi gelmiyor.
-Burada dikkatli olman bilgece bir davranış olur...
+GiriÅŸ~
+BurasÄ±, karanlÄ±k, nemli, iÄŸrenÃ§, ve soÄŸuk. AyrÄ±ca Ã§evrendeki yaratÄ±klarÄ±n
+seslerini duyuyorsun... Ve her nasÄ±lsa Ã§ok dost canlÄ±sÄ± gibi gelmiyor.
+Burada dikkatli olman bilgece bir davranÄ±ÅŸ olur...
 ~
 0 AD 0
 D0
@@ -901,8 +901,8 @@ D4
 0 -1 18612
 S
 #18633
-Başka Bir Dönemeç~
-Pekala... Söylenecek ne var ki? Daha fazla mantar, daha fazla acayip ses
+BaÅŸka Bir DÃ¶nemeÃ§~
+Pekala... SÃ¶ylenecek ne var ki? Daha fazla mantar, daha fazla acayip ses
 ve kuzeyden hafif bir esinti...
 ~
 0 AD 0
@@ -918,9 +918,9 @@ D1
 0 -1 18634
 S
 #18634
-Bir Geçit Kavşağı~
-Soğuk, kokmuş ve yeşil mantarla kaplı... Geçen haftadan kalanlar gibi.
-Ayrıca buradan çıkmaktan başka bir şey istemiyorsun.
+Bir GeÃ§it KavÅŸaÄŸÄ±~
+SoÄŸuk, kokmuÅŸ ve yeÅŸil mantarla kaplÄ±... GeÃ§en haftadan kalanlar gibi.
+AyrÄ±ca buradan Ã§Ä±kmaktan baÅŸka bir ÅŸey istemiyorsun.
 ~
 0 AD 0
 D0
@@ -940,10 +940,10 @@ D3
 0 -1 18633
 S
 #18635
-Geçitte Bir Dönemeç~
-Bu yer tam anlamıyla tiksindirici... Bir şey ya da biri burada ölmüş gibi
-kokuyor. Sıradakinin sen olmadığını umuyorsun, fakat çevrende duyduklarına
-bakılırsa, bir şey seninle aynı fikirde değil gibi görünüyor.
+GeÃ§itte Bir DÃ¶nemeÃ§~
+Bu yer tam anlamÄ±yla tiksindirici... Bir ÅŸey ya da biri burada Ã¶lmÃ¼ÅŸ gibi
+kokuyor. SÄ±radakinin sen olmadÄ±ÄŸÄ±nÄ± umuyorsun, fakat Ã§evrende duyduklarÄ±na
+bakÄ±lÄ±rsa, bir ÅŸey seninle aynÄ± fikirde deÄŸil gibi gÃ¶rÃ¼nÃ¼yor.
 ~
 0 AD 0
 D0
@@ -958,10 +958,10 @@ D1
 0 -1 18636
 S
 #18636
-Güneye Doğru Bir Dal~
-Doğu-batı yönündeki geçitten güneye doğru bir dal ayrılıyor. Çevrende
-ölüm kokusu var. Aslında duvarlardaki küf ve mantarlar iyi ama başka bir
-şey... Pekala... Burada her ne yaşıyorsa onun hakkında düşünmek
+GÃ¼neye DoÄŸru Bir Dal~
+DoÄŸu-batÄ± yÃ¶nÃ¼ndeki geÃ§itten gÃ¼neye doÄŸru bir dal ayrÄ±lÄ±yor. Ã‡evrende
+Ã¶lÃ¼m kokusu var. AslÄ±nda duvarlardaki kÃ¼f ve mantarlar iyi ama baÅŸka bir
+ÅŸey... Pekala... Burada her ne yaÅŸÄ±yorsa onun hakkÄ±nda dÃ¼ÅŸÃ¼nmek
 istemiyorsun.
 ~
 0 AD 0
@@ -982,9 +982,9 @@ D3
 0 -1 18635
 S
 #18637
-Hala Başka Bir Dönemeç~
-Geçit burada kuzeye dönüyor. Ne olduğundan emin değilsin ama o tarafta
-bir şey seziyorsun. Ne olduğunu öğrenmek istediğinden de pek emin değilsin.
+Hala BaÅŸka Bir DÃ¶nemeÃ§~
+GeÃ§it burada kuzeye dÃ¶nÃ¼yor. Ne olduÄŸundan emin deÄŸilsin ama o tarafta
+bir ÅŸey seziyorsun. Ne olduÄŸunu Ã¶ÄŸrenmek istediÄŸinden de pek emin deÄŸilsin.
 ~
 0 AD 0
 D0
@@ -999,12 +999,12 @@ D3
 0 -1 18636
 S
 #18638
-Geniş Bir Oda~
-Odaya girince tökezliyorsun... Çevrende duvarların olmayışının verdiği
-ani duygu, seni biraz gergin hale getiriyor. Birden bire bütün yönlerde
-sab-vunmasız hale geliyorsun. Odanın ne kadar büyük olduğunu
-söyleyemiyorsun, çünkü doğuya doğru ışığının ulaşamayacağı yerlere kadar
-uzanıyor...
+GeniÅŸ Bir Oda~
+Odaya girince tÃ¶kezliyorsun... Ã‡evrende duvarlarÄ±n olmayÄ±ÅŸÄ±nÄ±n verdiÄŸi
+ani duygu, seni biraz gergin hale getiriyor. Birden bire bÃ¼tÃ¼n yÃ¶nlerde
+sab-vunmasÄ±z hale geliyorsun. OdanÄ±n ne kadar bÃ¼yÃ¼k olduÄŸunu
+sÃ¶yleyemiyorsun, Ã§Ã¼nkÃ¼ doÄŸuya doÄŸru Ä±ÅŸÄ±ÄŸÄ±nÄ±n ulaÅŸamayacaÄŸÄ± yerlere kadar
+uzanÄ±yor...
 ~
 0 AD 0
 D0
@@ -1019,24 +1019,24 @@ The room extends into shadows...
 0 -1 18639
 S
 #18639
-Geniş Bir Oda~
-Girdiğinde, ışığınla, doğu duvarında bir şeylerin parlamasına neden
-oluyorsun. Öyle görünüyorki bunlar, duvara karalanmış kelimeler ve basit bir
-resim. Batıya doğru, oda ışığının ulaşamayacağı yerlere doğru uzanıyor ve
-karanlık gölgeler seni bir paranoyak haline getiriyor... Herşey saklanıyor
-olabilir orada. Acı bir şekilde çevrendeki duvarlar olmadan ne kadar da
-açıkta olduğunu farkediyorsun.
+GeniÅŸ Bir Oda~
+GirdiÄŸinde, Ä±ÅŸÄ±ÄŸÄ±nla, doÄŸu duvarÄ±nda bir ÅŸeylerin parlamasÄ±na neden
+oluyorsun. Ã–yle gÃ¶rÃ¼nÃ¼yorki bunlar, duvara karalanmÄ±ÅŸ kelimeler ve basit bir
+resim. BatÄ±ya doÄŸru, oda Ä±ÅŸÄ±ÄŸÄ±nÄ±n ulaÅŸamayacaÄŸÄ± yerlere doÄŸru uzanÄ±yor ve
+karanlÄ±k gÃ¶lgeler seni bir paranoyak haline getiriyor... HerÅŸey saklanÄ±yor
+olabilir orada. AcÄ± bir ÅŸekilde Ã§evrendeki duvarlar olmadan ne kadar da
+aÃ§Ä±kta olduÄŸunu farkediyorsun.
 ~
 0 AD 0
 E
-yazı kelimeler~
-Yazıda diyorki "boğaadama dikkat edin!"
+yazÄ± kelimeler~
+YazÄ±da diyorki "boÄŸaadama dikkat edin!"
 ~
 E
 duvar~
 There is a crude picture of a man with the head of a bull with some
-writing next to it. Boğa kafasına sahip bir adamın sade bir resmi var.
-Yanında bazı yazılar var.
+writing next to it. BoÄŸa kafasÄ±na sahip bir adamÄ±n sade bir resmi var.
+YanÄ±nda bazÄ± yazÄ±lar var.
 ~
 D0
 
@@ -1050,20 +1050,20 @@ The room extends as far as (and farther than) you can see...
 0 -1 18638
 S
 #18640
-Heykel Odası~
-Burada, geçit küçük bir odayla sonlanıyor. Çıkışlar doğu ve güney yönünde
-uzanıyor. Kuzeyde zevk sahibi biri tarafından yapılmış, büyük, harika bir
-heykel olduğunu farkediyorsun.
+Heykel OdasÄ±~
+Burada, geÃ§it kÃ¼Ã§Ã¼k bir odayla sonlanÄ±yor. Ã‡Ä±kÄ±ÅŸlar doÄŸu ve gÃ¼ney yÃ¶nÃ¼nde
+uzanÄ±yor. Kuzeyde zevk sahibi biri tarafÄ±ndan yapÄ±lmÄ±ÅŸ, bÃ¼yÃ¼k, harika bir
+heykel olduÄŸunu farkediyorsun.
 ~
 0 AD 0
 E
 heykel ~
-Yakın bir inceleme sonucunda heykelin üzerine monte edilmiş bir plaka
-olduğunu görüyorsun. Ayrıca yüzü de oldukça tanıdık geliyor.
+YakÄ±n bir inceleme sonucunda heykelin Ã¼zerine monte edilmiÅŸ bir plaka
+olduÄŸunu gÃ¶rÃ¼yorsun. AyrÄ±ca yÃ¼zÃ¼ de oldukÃ§a tanÄ±dÄ±k geliyor.
 ~
 E
 plaka isim~
-Diyorki: Maynard, komik karakterlerin ölüm soytarısı
+Diyorki: Maynard, komik karakterlerin Ã¶lÃ¼m soytarÄ±sÄ±
 ~
 D1
 A long hallway, ending in a set of steps.
@@ -1078,9 +1078,9 @@ The hall extends to the south where it seems to darken somewhat.
 S
 #18641
 Koridor~
-Koridor boyunca gezinmeye devam ederken, geçit boyunca duvarları donatan,
-pankartların, resimlerin ve diğer güzel süslemelerin farkına varıyorsun.
-Daha önce girdiğin kasvetli geçitten çok farklı görünüyorlar.
+Koridor boyunca gezinmeye devam ederken, geÃ§it boyunca duvarlarÄ± donatan,
+pankartlarÄ±n, resimlerin ve diÄŸer gÃ¼zel sÃ¼slemelerin farkÄ±na varÄ±yorsun.
+Daha Ã¶nce girdiÄŸin kasvetli geÃ§itten Ã§ok farklÄ± gÃ¶rÃ¼nÃ¼yorlar.
 ~
 0 AD 0
 D1
@@ -1096,15 +1096,15 @@ The passage leads into a small room.
 S
 #18642
 Kuzey Merdivenleri~
-Koridor, yüksek kubbeli çatısı olan geniş bir odaya açılıyor burada.
-Kapalı geçitten açığa doğru çıktıkça, bütün alana tependen bakan bir balkona
-çıkan merdivenleri görebiliyorsun. Oda güneye doğru devam ediyor ve
-buradakine benzeyen başka bir merdiven görülebiliyor.
+Koridor, yÃ¼ksek kubbeli Ã§atÄ±sÄ± olan geniÅŸ bir odaya aÃ§Ä±lÄ±yor burada.
+KapalÄ± geÃ§itten aÃ§Ä±ÄŸa doÄŸru Ã§Ä±ktÄ±kÃ§a, bÃ¼tÃ¼n alana tependen bakan bir balkona
+Ã§Ä±kan merdivenleri gÃ¶rebiliyorsun. Oda gÃ¼neye doÄŸru devam ediyor ve
+buradakine benzeyen baÅŸka bir merdiven gÃ¶rÃ¼lebiliyor.
 ~
 0 AD 0
 E
 merdiven merdivenler~
-Pürüzsüz güzel mermerden inşa edilmişler.
+PÃ¼rÃ¼zsÃ¼z gÃ¼zel mermerden inÅŸa edilmiÅŸler.
 ~
 D2
 You see another staircase and two passages leading west and south.
@@ -1124,15 +1124,15 @@ An open air balcony.
 S
 #18643
 Balkon~
-Buradan çevreki bölgeyi görebilir ve inceleyebilirsin. Odanın kubbesinde
-yarım daire şeklinde inşa edilmiş balkon, hemen hemen her yönü görebilmeni
-sağlıyor. Kuzey ucuna doğru bakındığında, Selengenin kuzeyindeki,
-Ejdermiğferi Dağlarına doğru uzanan geniş arazileri görebilirsin.
+Buradan Ã§evreki bÃ¶lgeyi gÃ¶rebilir ve inceleyebilirsin. OdanÄ±n kubbesinde
+yarÄ±m daire ÅŸeklinde inÅŸa edilmiÅŸ balkon, hemen hemen her yÃ¶nÃ¼ gÃ¶rebilmeni
+saÄŸlÄ±yor. Kuzey ucuna doÄŸru bakÄ±ndÄ±ÄŸÄ±nda, Selengenin kuzeyindeki,
+EjdermiÄŸferi DaÄŸlarÄ±na doÄŸru uzanan geniÅŸ arazileri gÃ¶rebilirsin.
 ~
 0 AD 0
 E
 merdiven~
-Pürüzsüz güzel mermerden inşa edilmişler.
+PÃ¼rÃ¼zsÃ¼z gÃ¼zel mermerden inÅŸa edilmiÅŸler.
 ~
 D2
 The south end of the balcony.
@@ -1146,16 +1146,16 @@ Down the stairs to a large, domed room.
 0 -1 18642
 S
 #18644
-Aydınlık Bir Koridor~
-Vaay! Güneydeki kasvetli koridora göre ne kadar değişik bir yer. Bu
-odanın bakımını her kim yapıyorsa acemileri gerçekten seviyor olmalı.
-Duvarlar ve yerler temiz. Herşey zevkle döşenmiş. Ayrıca yerde ilginç bir
-tasarım olduğunu farkediyorsun.
+AydÄ±nlÄ±k Bir Koridor~
+Vaay! GÃ¼neydeki kasvetli koridora gÃ¶re ne kadar deÄŸiÅŸik bir yer. Bu
+odanÄ±n bakÄ±mÄ±nÄ± her kim yapÄ±yorsa acemileri gerÃ§ekten seviyor olmalÄ±.
+Duvarlar ve yerler temiz. HerÅŸey zevkle dÃ¶ÅŸenmiÅŸ. AyrÄ±ca yerde ilginÃ§ bir
+tasarÄ±m olduÄŸunu farkediyorsun.
 ~
 0 AD 0
 E
-yer tasarım~
-Soytarı loncasının zirvesi gibi görünüyor.
+yer tasarÄ±m~
+SoytarÄ± loncasÄ±nÄ±n zirvesi gibi gÃ¶rÃ¼nÃ¼yor.
 ~
 D0
 A small room with a statue in it.
@@ -1170,15 +1170,15 @@ door~
 S
 #18645
 Balkon~
-Buradan çevreki bölgeyi görebilir ve inceleyebilirsin. Odanın kubbesinde
-yarım daire şeklinde inşa edilmiş balkon, hemen hemen her yönü görebilmeni
-sağlıyor. Güney ucuna doğru bakındığında, büyük şehir Selenge'yi
-görebilirsin.
+Buradan Ã§evreki bÃ¶lgeyi gÃ¶rebilir ve inceleyebilirsin. OdanÄ±n kubbesinde
+yarÄ±m daire ÅŸeklinde inÅŸa edilmiÅŸ balkon, hemen hemen her yÃ¶nÃ¼ gÃ¶rebilmeni
+saÄŸlÄ±yor. GÃ¼ney ucuna doÄŸru bakÄ±ndÄ±ÄŸÄ±nda, bÃ¼yÃ¼k ÅŸehir Selenge'yi
+gÃ¶rebilirsin.
 ~
 0 AD 0
 E
 merdiven~
-Pürüzsüz, güzel mermerden inşa edilmişler.
+PÃ¼rÃ¼zsÃ¼z, gÃ¼zel mermerden inÅŸa edilmiÅŸler.
 ~
 D0
 The north end of the balcony.
@@ -1192,16 +1192,16 @@ Back down the south staircase.
 0 -1 18647
 S
 #18646
-Aydınlık Bir Koridor~
-Vaay! Güneydeki kasvetli koridora göre ne kadar değişik bir yer. Bu
-odanın bakımını her kim yapıyorsa acemileri gerçekten seviyor olmalı.
-Duvarlar ve yerler temiz. Herşey zevkle döşenmiş. Ayrıca yerde ilginç bir
-tasarım olduğunu farkediyorsun.
+AydÄ±nlÄ±k Bir Koridor~
+Vaay! GÃ¼neydeki kasvetli koridora gÃ¶re ne kadar deÄŸiÅŸik bir yer. Bu
+odanÄ±n bakÄ±mÄ±nÄ± her kim yapÄ±yorsa acemileri gerÃ§ekten seviyor olmalÄ±.
+Duvarlar ve yerler temiz. HerÅŸey zevkle dÃ¶ÅŸenmiÅŸ. AyrÄ±ca yerde ilginÃ§ bir
+tasarÄ±m olduÄŸunu farkediyorsun.
 ~
 0 AD 0
 E
-yer tasarım~
-Soytarı loncasının zirvesi gibi görünüyor.
+yer tasarÄ±m~
+SoytarÄ± loncasÄ±nÄ±n zirvesi gibi gÃ¶rÃ¼nÃ¼yor.
 ~
 D1
 The passage opens into a domed room with a grand marble staircase.
@@ -1215,16 +1215,16 @@ door~
 1 -1 18603
 S
 #18647
-Güney Merdivenleri~
-Koridor, yüksek kubbeli çatısı olan geniş bir odaya açılıyor burada.
-Kapalı geçitten açığa doğru çıktıkça, bütün alana tependen bakan bir balkona
-çıkan merdivenleri görebiliyorsun. Oda kuzeye doğru devam ediyor ve
-buradakine benzeyen başka bir merdiven görülebiliyor.
+GÃ¼ney Merdivenleri~
+Koridor, yÃ¼ksek kubbeli Ã§atÄ±sÄ± olan geniÅŸ bir odaya aÃ§Ä±lÄ±yor burada.
+KapalÄ± geÃ§itten aÃ§Ä±ÄŸa doÄŸru Ã§Ä±ktÄ±kÃ§a, bÃ¼tÃ¼n alana tependen bakan bir balkona
+Ã§Ä±kan merdivenleri gÃ¶rebiliyorsun. Oda kuzeye doÄŸru devam ediyor ve
+buradakine benzeyen baÅŸka bir merdiven gÃ¶rÃ¼lebiliyor.
 ~
 0 AD 0
 E
 merdiven~
-Pürüzsüz güzel mermerden inşa edilmiş.
+PÃ¼rÃ¼zsÃ¼z gÃ¼zel mermerden inÅŸa edilmiÅŸ.
 ~
 D0
 Another stairway is to the north, as well as a passage to the west.

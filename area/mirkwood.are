@@ -3,7 +3,7 @@ Filename mirkwood.are~
 Name Mirkwood~
 Builder Yaegar~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 15
 Minvnum 8800
@@ -31,34 +31,34 @@ Checked and beta tested by Quartz.
 
 #NEW_MOBILES
 #8800
-çora gözcüsü~
-çora gözcüsü~
-Bir çora gözcüsü varlığını farketti!
+Ã§ora gÃ¶zcÃ¼sÃ¼~
+Ã§ora gÃ¶zcÃ¼sÃ¼~
+Bir Ã§ora gÃ¶zcÃ¼sÃ¼ varlÄ±ÄŸÄ±nÄ± farketti!
 ~
-The Sylvan Çoras are a good people, but centuries of subjection to the
+The Sylvan Ã‡oras are a good people, but centuries of subjection to the
 violences and prejudices of other races have made them wary and very
 hostile toward outsiders. However, if you're tough enough, perhaps he'll
 back down. As natives of Mirkwood, they are virtually imposssible to see
 if they don't want to be seen.
 ~
-çora~
+Ã§ora~
 ABCFG FJQ 5
 #8801
-çora savaşçı~
-çora savaşçı~
-Bir çora savaşçı silahını çekiyor!
+Ã§ora savaÅŸÃ§Ä±~
+Ã§ora savaÅŸÃ§Ä±~
+Bir Ã§ora savaÅŸÃ§Ä± silahÄ±nÄ± Ã§ekiyor!
 ~
 The Sylvan Elves are a good people, but centuries of subjection to the
 violences and prejudices of other races have made them wary and very
 hostile toward outsiders. However, if you're tough enough, perhaps he'll
 back down.
 ~
-çora~
+Ã§ora~
 ABCFG J 7
 #8802
-ork gözcü~
-ork gözcü~
-Ork gözcü seni farketti ve çığlık atmaya başladı!
+ork gÃ¶zcÃ¼~
+ork gÃ¶zcÃ¼~
+Ork gÃ¶zcÃ¼ seni farketti ve Ã§Ä±ÄŸlÄ±k atmaya baÅŸladÄ±!
 ~
 These foul creatures have been sent in advance by Orcish forces to scout
 out the defenses of Mirkwood. So far, their attempts have resulted only
@@ -68,9 +68,9 @@ sheer weight of numbers of the immense Orcish hordes.
 orc~
 ABCFGH J 5
 #8803
-ork savaşçı~
-ork savaşçı~
-Ork savaşçı çığlık atarak saldırıyor!
+ork savaÅŸÃ§Ä±~
+ork savaÅŸÃ§Ä±~
+Ork savaÅŸÃ§Ä± Ã§Ä±ÄŸlÄ±k atarak saldÄ±rÄ±yor!
 ~
 These fell minions of Sauron have been sent in an attempt to subjugate
 Mirkwood. So far, their attempts have resulted only in their own demise,
@@ -80,86 +80,86 @@ of the immense Orcish hordes.
 orc~
 ACFG J 5
 #8804
-orman çorası muhafızı~
-orman çorası muhafızı~
-Bir orman çorası muhafızı dikkatle seni izliyor.
+orman Ã§orasÄ± muhafÄ±zÄ±~
+orman Ã§orasÄ± muhafÄ±zÄ±~
+Bir orman Ã§orasÄ± muhafÄ±zÄ± dikkatle seni izliyor.
 ~
 This angry guard is incensed at your trespass in the hall of his king, and
 will attempt to forcibly eject you.
 ~
-çora~
+Ã§ora~
 AFGTQ J 8
 #8805
-muhafız şefi~
-muhafız şefi~
-Muhafız şefi silahını çekerek üzerine geliyor!
+muhafÄ±z ÅŸefi~
+muhafÄ±z ÅŸefi~
+MuhafÄ±z ÅŸefi silahÄ±nÄ± Ã§ekerek Ã¼zerine geliyor!
 ~
 The Wood Elves are a good people, but centuries of subjection to the
 violences and prejudices of other races have made them wary and very
 hostile toward outsiders. However, if you're tough enough, perhaps he'll
 back down.
 ~
-çora~
+Ã§ora~
 ABCFGQ J 12
 #8806
 kahya galon~
 Kahya Galon~
-Çora kahyası varlığından tedirgin oldu.
+Ã‡ora kahyasÄ± varlÄ±ÄŸÄ±ndan tedirgin oldu.
 ~
 Galion has a tremenous fondness for Dorwinion Wine, and he is now well and
 truly inebriated. However that does not mean he won't react to your intrusion.
 ~
-çora~
+Ã§ora~
 ABCFG J 10
 #8807
 tanduil kral~
 Kral Tanduil~
-Orman çoralarının kralı Tanduil seni dikkatle izliyor.
+Orman Ã§oralarÄ±nÄ±n kralÄ± Tanduil seni dikkatle izliyor.
 ~
 While not immune to the prejudices of his brethren, Thranduil is a trifle
 wiser (and more civilized) and he will not attack without provocation.
 ~
-çora~
+Ã§ora~
 BGR HJ 15
 #8808
-erkek çora~
-erkek çora~
-Bir çora erkeği sana sinirle bakıyor.
+erkek Ã§ora~
+erkek Ã§ora~
+Bir Ã§ora erkeÄŸi sana sinirle bakÄ±yor.
 ~
 This person won't attack you like the guards will, but that doesn't mean
 he likes you any more than they do...
 ~
-çora~
+Ã§ora~
 CGQ J 6
 #8809
-çora kadın~
-kadın çora~
-Bir çora kadını sana sinirle bakıyor.
+Ã§ora kadÄ±n~
+kadÄ±n Ã§ora~
+Bir Ã§ora kadÄ±nÄ± sana sinirle bakÄ±yor.
 ~
 This person won't attack you like the guards will, but that doesn't mean
 ahe likes you any more than they do...
 ~
-çora~
+Ã§ora~
 CGQ J 6
 #8810
-çora gardiyan~
+Ã§ora gardiyan~
 gardiyan~
-Gardiyan uyuyakalmış.
+Gardiyan uyuyakalmÄ±ÅŸ.
 ~
 This surly fellow is almost always passed out from copious alcohol consumption.
 ~
-çora~
+Ã§ora~
 BCG J 9
 #8811
-torin meşekalkanı~
-Torin Meşekalkanı~
-Torin Meşekalkanı seni saygıyla selamlıyor.
+torin meÅŸekalkanÄ±~
+Torin MeÅŸekalkanÄ±~
+Torin MeÅŸekalkanÄ± seni saygÄ±yla selamlÄ±yor.
 ~
 This Dwarf is descended from noble blood. He and his fellows were waylaid
 by the Wood Elves while journeying to avenge their brethren against the
 dragon Smaug.
 ~
-çora~
+Ã§ora~
 CGQ O 14
 #0
 
@@ -167,7 +167,7 @@ CGQ O 14
 #8800
 havuz~
 havuz~
-Temiz bir su havuzu görüyorsun.
+Temiz bir su havuzu gÃ¶rÃ¼yorsun.
 ~
 air~
 fountain 0 0
@@ -178,9 +178,9 @@ havuz~
 It looks tasty. Have a drink!
 ~
 #8801
-çora kılıç~
-çora kılıcı~
-Güzel bir kılıç burada bırakılmış.~
+Ã§ora kÄ±lÄ±Ã§~
+Ã§ora kÄ±lÄ±cÄ±~
+GÃ¼zel bir kÄ±lÄ±Ã§ burada bÄ±rakÄ±lmÄ±ÅŸ.~
 adamantite~
 weapon G AN
 sword 1 5 slash 0
@@ -188,9 +188,9 @@ sword 1 5 slash 0
 A
 18 2
 #8802
-çora fuları~
-çora fuları~
-Güzel bir çora fuları burada bırakılmış.~
+Ã§ora fularÄ±~
+Ã§ora fularÄ±~
+GÃ¼zel bir Ã§ora fularÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 cloth~
 armor G AC
 3 3 3 0 1
@@ -200,9 +200,9 @@ A
 A
 17 -2
 #8803
-çora çizme~
-bir çift çora çizmesi~
-Bir çift çora çizmesi burada bırakılmış.~
+Ã§ora Ã§izme~
+bir Ã§ift Ã§ora Ã§izmesi~
+Bir Ã§ift Ã§ora Ã§izmesi burada bÄ±rakÄ±lmÄ±ÅŸ.~
 leather~
 armor G AG
 3 4 4 0 2
@@ -212,25 +212,25 @@ A
 A
 14 50
 #8804
-su şişesi~
-su şişesi~
-Çora işi bir su şişesi görüyorsun.~
+su ÅŸiÅŸesi~
+su ÅŸiÅŸesi~
+Ã‡ora iÅŸi bir su ÅŸiÅŸesi gÃ¶rÃ¼yorsun.~
 porcelain~
 drink 0 A
 10 10 'water' 0 0
 0 15 50 G
 #8805
-çivili metal kalkan~
-çivili metal kalkan~
-Ork işi bir metal kalkan burada bırakılmış.~
+Ã§ivili metal kalkan~
+Ã§ivili metal kalkan~
+Ork iÅŸi bir metal kalkan burada bÄ±rakÄ±lmÄ±ÅŸ.~
 steel~
 armor 0 AJ
 3 4 4 0 3
 5 40 400 G
 #8806
-ork kılıç~
-ork kılıcı~
-Ork işi bir kılıç burada bırakılmış.~
+ork kÄ±lÄ±Ã§~
+ork kÄ±lÄ±cÄ±~
+Ork iÅŸi bir kÄ±lÄ±Ã§ burada bÄ±rakÄ±lmÄ±ÅŸ.~
 iron~
 weapon G AN
 sword 1 6 cleave 0
@@ -240,9 +240,9 @@ A
 A
 19 1
 #8807
-çirkin çivili miğfer~
-çirkin çivili miğfer~
-Ork işi bir miğfer burada bırakılmış.~
+Ã§irkin Ã§ivili miÄŸfer~
+Ã§irkin Ã§ivili miÄŸfer~
+Ork iÅŸi bir miÄŸfer burada bÄ±rakÄ±lmÄ±ÅŸ.~
 bronze~
 armor G AE
 4 3 3 0 2
@@ -250,33 +250,33 @@ armor G AE
 A
 17 -5
 #8808
-şarap şişesi~
-şarap şişesi~
-Bir şarap şişesi burada bırakılmış.~
+ÅŸarap ÅŸiÅŸesi~
+ÅŸarap ÅŸiÅŸesi~
+Bir ÅŸarap ÅŸiÅŸesi burada bÄ±rakÄ±lmÄ±ÅŸ.~
 porcelain~
 drink 0 A
 10 5 'red wine' 0 0
 5 60 150 G
 #8809
-şarap testisi~
-şarap testisi~
-Bir şarap testisi burada bırakılmış.~
+ÅŸarap testisi~
+ÅŸarap testisi~
+Bir ÅŸarap testisi burada bÄ±rakÄ±lmÄ±ÅŸ.~
 wood~
 drink 0 A
 50 50 'wine' 0 0
 0 100 300 G
 #8810
-fıçı~
-boş fıçı~
-Boş bir fıçı buraya atılmış.~
+fÄ±Ã§Ä±~
+boÅŸ fÄ±Ã§Ä±~
+BoÅŸ bir fÄ±Ã§Ä± buraya atÄ±lmÄ±ÅŸ.~
 wood~
 drink 0 A
 100 0 'water' 0 0
 1 140 200 G
 #8811
-güzel çora kılıç~
-güzel bir çora kılıcı~
-Güzel bir çora kılıcı burada bırakılmış.~
+gÃ¼zel Ã§ora kÄ±lÄ±Ã§~
+gÃ¼zel bir Ã§ora kÄ±lÄ±cÄ±~
+GÃ¼zel bir Ã§ora kÄ±lÄ±cÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 metal~
 weapon AL AN
 sword 2 12 cleave DF
@@ -290,7 +290,7 @@ A
 #8812
 anahtar~
 anahtar~
-Bir hücre anahtarı burada unutulmuş.~
+Bir hÃ¼cre anahtarÄ± burada unutulmuÅŸ.~
 iron~
 key 0 AO
 0 0 0 0 0
@@ -298,7 +298,7 @@ key 0 AO
 #8813
 anahtar~
 anahtar~
-Bir mağara anahtarı burada unutulmuş.~
+Bir maÄŸara anahtarÄ± burada unutulmuÅŸ.~
 iron~
 key 0 AO
 0 0 0 0 0
@@ -308,7 +308,7 @@ key 0 AO
 #ROOMS
 
 #8800
-Puslu Ormanın Girişi~
+Puslu OrmanÄ±n GiriÅŸi~
 You have entered the quasi-magical Elven forest of Mirkwood, populated by
 Sylvan Elves and their mysterious allies. Strangers are frowned upon here,
 so be on your guard. It is rumored that many different races of Elves actually
@@ -331,7 +331,7 @@ D2
 ~
 0 -1 8855
 E
-işaret~
+iÅŸaret~
 This area serves as a connector for many areas with an Elven or Faerie flavour,
 favored areas of the Immortal Yaegar. Tread carefully, and remember to keep
 track of where you have been.
@@ -393,7 +393,7 @@ D2
 0 -1 8801
 S
 #8803
-Yol Ayrımı~
+Yol AyrÄ±mÄ±~
 You have reached a point where the path branches, with paths running to the
 east and west. A wild animal suddenly howls angrily some distance away, and
 you involuntarily jump.
@@ -413,7 +413,7 @@ D3
 0 -1 8820
 S
 #8804
-Geniş Yol~
+GeniÅŸ Yol~
 This branch of the path widens out after a short distance, and you notice
 signs of heavy use, evidently by non-Elves, as Elves do not leave footprints.
 The trees are thinner and smaller in this part of the forest, giving the
@@ -430,7 +430,7 @@ D3
 0 -1 8803
 S
 #8805
-Kesişim~
+KesiÅŸim~
 The path once again divides, this time into northern and southern branches.
 To the north an impressive-looking citadel looms over the treetops, while
 to the south the trail becomes significantly narrower, and overgrown.
@@ -450,7 +450,7 @@ D3
 0 -1 8804
 S
 #8806
-Yol Bükümü~
+Yol BÃ¼kÃ¼mÃ¼~
 The northern road bends to the east at this point, allowing you to gaze
 upon a wondrous Elven Fortress. Although you are more than a mile away,
 it still looms large ahead of you.
@@ -466,7 +466,7 @@ D2
 0 -1 8805
 S
 #8807
-Düzlükler~
+DÃ¼zlÃ¼kler~
 The road opens onto an area cleared of trees here, a broad plain dotted with
 the occasional hedge or distant farmhouse. There is a marked path running
 due east toward the west gate of the distant fortress.
@@ -478,7 +478,7 @@ D3
 0 -1 8806
 S
 #8808
-Güney Yolu~
+GÃ¼ney Yolu~
 Progress along this narrow, overgrown path is next to impossible, and you
 find yourself having to stop several times for a rest. There doesn't seem to
 be any quick end to it either.
@@ -494,7 +494,7 @@ D2
 0 -1 8809
 S
 #8809
-Güney Yolu~
+GÃ¼ney Yolu~
 Progress along this narrow, overgrown path is next to impossible, and you
 find yourself having to stop several times for a rest. There doesn't seem to
 be any quick end to it either.
@@ -515,8 +515,8 @@ D4
 0 -1 8810
 S
 #8810
-Muhafız Noktası~
-You have stumbled into a Sylvan Çora guard post, from which they carefully
+MuhafÄ±z NoktasÄ±~
+You have stumbled into a Sylvan Ã‡ora guard post, from which they carefully
 watch out for intruding Orcs or Goblins. They dislike strangers in general,
 and detest interlopers into their personal areas even more. Expect a violent
 reception if there is a guard present...
@@ -528,7 +528,7 @@ D5
 0 -1 8809
 S
 #8811
-Güney Yolu~
+GÃ¼ney Yolu~
 Progress along this narrow, overgrown path is next to impossible, and you
 find yourself having to stop several times for a rest. There doesn't seem to
 be any quick end to it either.
@@ -550,7 +550,7 @@ D2
 0 -1 8812
 S
 #8812
-Ölümcül Son~
+Ã–lÃ¼mcÃ¼l Son~
 WHAT? After all that exertion, the path ends at a DEAD END??? Ah well, I
 guess you had better turn back...
 ~
@@ -561,7 +561,7 @@ D0
 0 -1 8811
 S
 #8813
-Doğu Yolu~
+DoÄŸu Yolu~
 This path is certainly less overgrown than the north-south one. You actually
 find yourself able to move relatively quickly through the forest, stopping
 only occasionally to hack away an overhanging branch or vine.
@@ -577,7 +577,7 @@ D3
 0 -1 8811
 S
 #8814
-Doğu Yolu~
+DoÄŸu Yolu~
 This path is certainly less overgrown than the north-south one. You actually
 find yourself able to move relatively quickly through the forest, stopping
 only occasionally to hack away an overhanging branch or vine.
@@ -593,7 +593,7 @@ D3
 0 -1 8813
 S
 #8815
-Yol Bükümü~
+Yol BÃ¼kÃ¼mÃ¼~
 You have reached a point where the path bends to the north.
 ~
 0 0 3
@@ -655,7 +655,7 @@ D3
 0 -1 8817
 S
 #8819
-Kutsal Koru Yakını~
+Kutsal Koru YakÄ±nÄ±~
 The singing is clearly audible here, and it is coming from a well-tended
 grove to the east. Dimly visible are all manner of man and beast, and
 although they would usually feed upon each other, they all seem to be at
@@ -672,7 +672,7 @@ D2
 0 -1 8817
 S
 #8820
-Batı Yolu~
+BatÄ± Yolu~
 This path is rather overgrown but it is still easily navigable. You fancy
 you can see a rope ladder ascending into the brances of a tall oak near the
 eastern side of the road.
@@ -692,8 +692,8 @@ D4
 0 -1 8821
 S
 #8821
-Muhafız Noktası~
-You have stumbled into a Sylvan Çora guard post, from which they carefully
+MuhafÄ±z NoktasÄ±~
+You have stumbled into a Sylvan Ã‡ora guard post, from which they carefully
 watch out for intruding Orcs or Goblins. They dislike strangers in general,
 and detest interlopers into their personal areas even more. Expect a violent
 reception if there is a guard present...
@@ -705,7 +705,7 @@ D5
 0 -1 8820
 S
 #8822
-Kuzeye Büküm~
+Kuzeye BÃ¼kÃ¼m~
 The path bends to the north here, running for some distance toward a stream.
 ~
 0 0 3
@@ -773,7 +773,7 @@ D2
 0 -1 8824
 S
 #8826
-Kesişim~
+KesiÅŸim~
 You have reached a point where you can proceed either north or west. Your
 choice. You still have the feeling you're being watched...
 ~
@@ -792,7 +792,7 @@ D3
 0 -1 8827
 S
 #8827
-Batı Yolu~
+BatÄ± Yolu~
 The path you are on here runs down a gently sloping hill, to the base of a
 beautiful valley below.
 ~
@@ -897,7 +897,7 @@ D2
 0 -1 8832
 S
 #8834
-Geniş Kesişim~
+GeniÅŸ KesiÅŸim~
 You have come to another junction in the forest. The path to the east runs
 through some handsome aspen and pine, but the northern passage is lined by
 sickly-looking, dying trees of unidentifiable type.
@@ -917,7 +917,7 @@ D2
 0 -1 8833
 S
 #8835
-Ormanın Kara Bölümü~
+OrmanÄ±n Kara BÃ¶lÃ¼mÃ¼~
 There is a palpable evil in this area that causes you to shiver as you pass
 by the blighted vegetation that lines this twisted gray path. The sky can
 no longer be seen overhead- instead a canopy of decaying leaves and rotten
@@ -934,7 +934,7 @@ D2
 0 -1 8834
 S
 #8836
-Ormanın Kara Bölümü~
+OrmanÄ±n Kara BÃ¶lÃ¼mÃ¼~
 There is a palpable eveil in this area that causes you to shiver as you pass
 by the blighted vegetation that lines this twisted gray path. The sky can
 no longer be seen overhead- instead a canopy of decaying leaves and rotten
@@ -951,7 +951,7 @@ D3
 0 -1 8837
 S
 #8837
-Ormanın Kara Bölümü~
+OrmanÄ±n Kara BÃ¶lÃ¼mÃ¼~
 There is a palpable eveil in this area that causes you to shiver as you pass
 by the blighted vegetation that lines this twisted gray path. The sky can
 no longer be seen overhead- instead a canopy of decaying leaves and rotten
@@ -969,7 +969,7 @@ D3
 0 -1 8838
 S
 #8838
-Ormanın Kara Bölümü~
+OrmanÄ±n Kara BÃ¶lÃ¼mÃ¼~
 There is a palpable eveil in this area that causes you to shiver as you pass
 by the blighted vegetation that lines this twisted gray path. The sky can
 no longer be seen overhead- instead a canopy of decaying leaves and rotten
@@ -993,7 +993,7 @@ D3
 0 -1 8839
 S
 #8839
-Ormanın Kara Bölümü~
+OrmanÄ±n Kara BÃ¶lÃ¼mÃ¼~
 There is a palpable eveil in this area that causes you to shiver as you pass
 by the blighted vegetation that lines this twisted gray path. The sky can
 no longer be seen overhead- instead a canopy of decaying leaves and rotten
@@ -1012,7 +1012,7 @@ D2
 0 -1 8840
 S
 #8840
-Uçurum Önü~
+UÃ§urum Ã–nÃ¼~
 You are standing before the gash in the cliff-face now, wondering whether
 you should continue into the inky darkness beyond...
 ~
@@ -1028,7 +1028,7 @@ It is entrance to unknown area. Not implemented. Sorry (14000)
 0 -1 0
 S
 #8841
-Yol Bükümü~
+Yol BÃ¼kÃ¼mÃ¼~
 You reach a bend in the path, where you can head north or west.
 ~
 0 0 3
@@ -1042,7 +1042,7 @@ D3
 0 -1 8834
 S
 #8842
-Yol Bükümü~
+Yol BÃ¼kÃ¼mÃ¼~
 You reach a bend in the path, where you can head south or east.
 ~
 0 0 3
@@ -1056,7 +1056,7 @@ D2
 0 -1 8841
 S
 #8843
-Kesişim~
+KesiÅŸim~
 The path once again divides, this time into northern and southern branches.
 To the north lies another bend in the trail, while to the south the trail
 becomes significantly narrower, and overgrown.
@@ -1076,7 +1076,7 @@ D3
 0 -1 8842
 S
 #8844
-Ölümcül Son~
+Ã–lÃ¼mcÃ¼l Son~
 The passage ends in a dead end, but you see a small rope ladder hanging down
 from a nearby oak tree, disappearing in its bushy branches above.
 ~
@@ -1091,7 +1091,7 @@ D4
 0 -1 8846
 S
 #8845
-Yol Bükümü~
+Yol BÃ¼kÃ¼mÃ¼~
 Here, the path bends sharply to the east, heading toward an area of the
 forest that is very different from the previous section. A second path
 runs to the north.
@@ -1111,8 +1111,8 @@ D2
 0 -1 8843
 S
 #8846
-Muhafız Noktası~
-You have stumbled into a Sylvan Çora guard post, from which they carefully
+MuhafÄ±z NoktasÄ±~
+You have stumbled into a Sylvan Ã‡ora guard post, from which they carefully
 watch out for intruding Orcs or Goblins. They dislike strangers in general,
 and detest interlopers into their personal areas even more. Expect a violent
 reception if there is a guard present...
@@ -1124,7 +1124,7 @@ D5
 0 -1 8844
 S
 #8847
-T Kavşağı~
+T KavÅŸaÄŸÄ±~
 You have come out of Mirkwood onto a rather dusty trail. At this point you
 may proceed east toward some well-cultivated fields, or south and west back
 into the forest.
@@ -1144,7 +1144,7 @@ D3
 0 -1 8845
 S
 #8848
-İşlenmiş Tarla~
+Ä°ÅŸlenmiÅŸ Tarla~
 This field borders on a neatly-tended area with several small farmhouses and
 a small watch-tower near a wide stream.
 ~
@@ -1155,7 +1155,7 @@ D3
 0 -1 8847
 S
 #8849
-Ormanın Issızlığında~
+OrmanÄ±n IssÄ±zlÄ±ÄŸÄ±nda~
 You have entered a rather forlorn section of the forest, littered with dead
 and dying trees, plus the occasional corpse. Howls and cries of pain sound
 far off to the south.
@@ -1171,7 +1171,7 @@ D1
 0 -1 8850
 S
 #8850
-Ormanın Issızlığında~
+OrmanÄ±n IssÄ±zlÄ±ÄŸÄ±nda~
 You have entered a rather forlorn section of the forest, littered with dead
 and dying trees, plus the occasional corpse. Howls and cries of pain sound
 far off to the south.
@@ -1187,7 +1187,7 @@ D3
 0 -1 8849
 S
 #8851
-Ormanın Issızlığında~
+OrmanÄ±n IssÄ±zlÄ±ÄŸÄ±nda~
 You have entered a rather forlorn section of the forest, littered with dead
 and dying trees, plus the occasional corpse. Howls and cries of pain sound
 far off to the south.
@@ -1204,7 +1204,7 @@ D3
 0 -1 8852
 S
 #8852
-Ateş Dağına Yol~
+AteÅŸ DaÄŸÄ±na Yol~
 The path runs past the rubble and up into the foothills of an immense
 mountain range. far in the distance looms Firetop Mountain.
 ~
@@ -1250,7 +1250,7 @@ D2
 0 -1 8853
 S
 #8855
-Puslu Orman Civarı~
+Puslu Orman CivarÄ±~
 The forest begins to surround you as you step into its depths. The path
 abruptly turns to the north and you continue.
 ~
@@ -1265,7 +1265,7 @@ D4
 0 -1 338
 S
 #8856
-Üçlü Geniş Yol~
+ÃœÃ§lÃ¼ GeniÅŸ Yol~
 This path runs for some distance toward a huge cave, entrance to which is
 restricted by a massive, handsome door that glows with magic. Magnificent
 oaks tower high to either side, and everywhere there is light and beauty.
@@ -1282,7 +1282,7 @@ D3
 0 -1 8825
 S
 #8857
-Üçlü Geniş Yol~
+ÃœÃ§lÃ¼ GeniÅŸ Yol~
 This path runs for some distance toward a huge cave, entrance to which is
 restricted by a massive, handsome door that glows with magic. Magnificent
 oaks tower high to either side, and everywhere there is light and beauty.
@@ -1300,7 +1300,7 @@ D3
 0 -1 8856
 S
 #8858
-Mağarada~
+MaÄŸarada~
 You are in the castle of the Wood Elven King Thranduil. The corridor here
 is usually deserted. It would be advisable to keep a low profile, as the
 natives are hostile...
@@ -1321,7 +1321,7 @@ D3
 1 8813 8857
 S
 #8859
-Mağarada~
+MaÄŸarada~
 You are in the castle of the Wood Elven King Thranduil. The corridor here
 is usually deserted. It would be advisable to keep a low profile, as the
 natives are hostile...
@@ -1337,7 +1337,7 @@ D2
 0 -1 8858
 S
 #8860
-Muhafız Odası~
+MuhafÄ±z OdasÄ±~
 You have stumbled into the guard room! The guards will definitely not
 be happy to see you. You fancy you can hear muffled cries for help.
 ~
@@ -1403,7 +1403,7 @@ D2
 0 -1 8866
 S
 #8864
-Mağarada~
+MaÄŸarada~
 You are in the castle of the Wood Elven King Thranduil. The corridor here
 is usually deserted. It would be advisable to keep a low profile, as the
 natives are hostile...
@@ -1419,7 +1419,7 @@ D1
 1 0 8865
 S
 #8865
-Taht Odası~
+Taht OdasÄ±~
 Now you've blown it. You've gone and stumbled into the King's Throne Room.
 He is seated upon an intricately-carved wooden throne at the end of the hall.
 Dour guards glare at you on all sides.
@@ -1446,7 +1446,7 @@ D3
 0 -1 8824
 S
 #8867
-Hücre~
+HÃ¼cre~
 This damp cell is small and cramped, and offers little comfort to its
 single inhabitant.
 ~

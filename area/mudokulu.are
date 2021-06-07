@@ -3,7 +3,7 @@ Filename mudokulu.are~
 Name Mud Okulu~
 Builder Hatchet~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 1
 Highlevel 10
 Minvnum 3700
@@ -15,202 +15,202 @@ Yonelim_kem 70
 END
 
 #RESETMESSAGE
-Yeryüzü kaybolan yaşamların anısına titriyor.~
+YeryÃ¼zÃ¼ kaybolan yaÅŸamlarÄ±n anÄ±sÄ±na titriyor.~
 
 #NEW_MOBILES
 #3700
-üstad~
-üstad~
-Bir üstad sana "MUD okuluna hoşgeldin" diyor.
+Ã¼stad~
+Ã¼stad~
+Bir Ã¼stad sana "MUD okuluna hoÅŸgeldin" diyor.
 ~
-O büyük ve kötü. Sakın ona bulaşma.
+O bÃ¼yÃ¼k ve kÃ¶tÃ¼. SakÄ±n ona bulaÅŸma.
 ~
 human~
 ABGQTV CH 30
 #3701
-kütle~
-kütle~
-Kütle burada, seni yemeyi bekliyor.
+kÃ¼tle~
+kÃ¼tle~
+KÃ¼tle burada, seni yemeyi bekliyor.
 ~
-O büyük ve kötü. Zincirlerle bağlanmadıkça onla dövüşmeyi istemiyorsun.
-Şu an onun yanından uzaklaşmak için iyi bir zaman! ! ! Uzaklaşmazsan
-sonuçlara katlanacaksın.
+O bÃ¼yÃ¼k ve kÃ¶tÃ¼. Zincirlerle baÄŸlanmadÄ±kÃ§a onla dÃ¶vÃ¼ÅŸmeyi istemiyorsun.
+Åu an onun yanÄ±ndan uzaklaÅŸmak iÃ§in iyi bir zaman! ! ! UzaklaÅŸmazsan
+sonuÃ§lara katlanacaksÄ±n.
 ~
 unique~
 ABGe C 5
 #3702
 canavar~
 canavar~
-Bir canavar buraya zincirlenmiş.
+Bir canavar buraya zincirlenmiÅŸ.
 ~
-Haşin birine benzese de onu öldürebileceğinden eminsin. Nedeni ise onun
-zincirlenmiş, senin ise serbest olman.
+HaÅŸin birine benzese de onu Ã¶ldÃ¼rebileceÄŸinden eminsin. Nedeni ise onun
+zincirlenmiÅŸ, senin ise serbest olman.
 ~
 school monster~
 AB 0 1
 #3703
 korkak canavar~
 korkak canavar~
-Korkak bir canavar buraya zincirlenmiş.
+Korkak bir canavar buraya zincirlenmiÅŸ.
 ~
-Korkmuş görünüyor. Onu öldürebileceğinden eminsin. Nedeni ise onun
-zincirlenmiş, senin ise serbest olman.
+KorkmuÅŸ gÃ¶rÃ¼nÃ¼yor. Onu Ã¶ldÃ¼rebileceÄŸinden eminsin. Nedeni ise onun
+zincirlenmiÅŸ, senin ise serbest olman.
 ~
 school monster~
 ABH 0 1
 #3704
-saldırgan canavar~
-saldırgan canavar~
-Saldırgan bir canavar buraya zincirlenmiş.
+saldÄ±rgan canavar~
+saldÄ±rgan canavar~
+SaldÄ±rgan bir canavar buraya zincirlenmiÅŸ.
 ~
-Haşin birine benzese de onu öldürebileceğinden eminsin. Nedeni ise onun
-zincirlenmiş, senin ise serbest olman.
+HaÅŸin birine benzese de onu Ã¶ldÃ¼rebileceÄŸinden eminsin. Nedeni ise onun
+zincirlenmiÅŸ, senin ise serbest olman.
 ~
 school monster~
 ABF 0 1
 #3705
-korkak saldırgan canavar~
-korkak saldırgan canavar~
-Korkak saldırgan bir canavar buraya zincirlenmiş.
+korkak saldÄ±rgan canavar~
+korkak saldÄ±rgan canavar~
+Korkak saldÄ±rgan bir canavar buraya zincirlenmiÅŸ.
 ~
-Haşin birine benzese de onu öldürebileceğinden eminsin. Nedeni ise onun
-zincirlenmiş, senin ise serbest olman.
+HaÅŸin birine benzese de onu Ã¶ldÃ¼rebileceÄŸinden eminsin. Nedeni ise onun
+zincirlenmiÅŸ, senin ise serbest olman.
 ~
 school monster~
 ABFH 0 1
 #3706
-iri yaratık~
-iri yaratık~
-Yaratık seni ağır ağır süzüyor.
+iri yaratÄ±k~
+iri yaratÄ±k~
+YaratÄ±k seni aÄŸÄ±r aÄŸÄ±r sÃ¼zÃ¼yor.
 ~
-Haşin görünüyor, onu öldürürken biraz sorun yaşayabilirsin. Ama ödülü
-büyük olacak! ! !
+HaÅŸin gÃ¶rÃ¼nÃ¼yor, onu Ã¶ldÃ¼rÃ¼rken biraz sorun yaÅŸayabilirsin. Ama Ã¶dÃ¼lÃ¼
+bÃ¼yÃ¼k olacak! ! !
 ~
 school monster~
 AB JZ 2
 #3707
-üstad~
-üstad~
-Bir üstad burada, gelişimin üzerine düşünüyor.
+Ã¼stad~
+Ã¼stad~
+Bir Ã¼stad burada, geliÅŸimin Ã¼zerine dÃ¼ÅŸÃ¼nÃ¼yor.
 ~
-O büyük ve kötü. Sakın ona bulaşma.
+O bÃ¼yÃ¼k ve kÃ¶tÃ¼. SakÄ±n ona bulaÅŸma.
 ~
 human~
 ABGQTV CH 30
 #3708
-üstad~
-üstad~
-Bir üstad burada, sana gülümsüyor.
+Ã¼stad~
+Ã¼stad~
+Bir Ã¼stad burada, sana gÃ¼lÃ¼msÃ¼yor.
 ~
-O büyük ve kötü. Sakın ona bulaşma.
+O bÃ¼yÃ¼k ve kÃ¶tÃ¼. SakÄ±n ona bulaÅŸma.
 ~
 human~
 ABGQTV CH 30
 #3709
-tavşan~
-tavşan~
-Bir tavşan etrafta zıplıyor.
+tavÅŸan~
+tavÅŸan~
+Bir tavÅŸan etrafta zÄ±plÄ±yor.
 ~
-Tavşan sana gülümsüyor. O tamamen zararsız.
+TavÅŸan sana gÃ¼lÃ¼msÃ¼yor. O tamamen zararsÄ±z.
 ~
 rabbit~
 AGHU 0 1
 #3710
 kertenkele~
 kertenkele~
-Bir kertenkele üzerine tırmanıyor.
+Bir kertenkele Ã¼zerine tÄ±rmanÄ±yor.
 ~
-Sana gülümsüyor ve bacağını yemeye çalışıyor.
+Sana gÃ¼lÃ¼msÃ¼yor ve bacaÄŸÄ±nÄ± yemeye Ã§alÄ±ÅŸÄ±yor.
 ~
 lizard~
 AGU 0 2
 #3711
 yaban domuzu~
 yaban domuzu~
-Bir yaban domuzu üzerine doğru koşuyor! ! !
+Bir yaban domuzu Ã¼zerine doÄŸru koÅŸuyor! ! !
 ~
-Sana hırlıyor.
+Sana hÄ±rlÄ±yor.
 ~
 pig~
 AGU 0 3
 #3712
 tilki~
 tilki~
-Bir tilki sana dik dik bakıyor.
+Bir tilki sana dik dik bakÄ±yor.
 ~
-Kürkü para edebilir.
+KÃ¼rkÃ¼ para edebilir.
 ~
 fox~
 AGHU 0 1
 #3713
 salyangoz~
 salyangoz~
-Bir salyangoz yolundan çekilmeye çalışıyor.
+Bir salyangoz yolundan Ã§ekilmeye Ã§alÄ±ÅŸÄ±yor.
 ~
-En çok gözüne çarpan çıkardığı salgısı.
+En Ã§ok gÃ¶zÃ¼ne Ã§arpan Ã§Ä±kardÄ±ÄŸÄ± salgÄ±sÄ±.
 ~
 unique~
 AGU 0 1
 #3714
 hayvan~
 hayvan~
-Bir hayvan seninle beslenmeyi düşünüyor.
+Bir hayvan seninle beslenmeyi dÃ¼ÅŸÃ¼nÃ¼yor.
 ~
-Haşin görünüyor. Uzaklaşsan iyi olur.
+HaÅŸin gÃ¶rÃ¼nÃ¼yor. UzaklaÅŸsan iyi olur.
 ~
 school monster~
 AFT Z 5
 #3715
-ayı~
-ayı~
-Bir ayı sana hırıldıyor.
+ayÄ±~
+ayÄ±~
+Bir ayÄ± sana hÄ±rÄ±ldÄ±yor.
 ~
-Ayı senden iri olmalı. Kafanı yerinden koparmak istiyor.
+AyÄ± senden iri olmalÄ±. KafanÄ± yerinden koparmak istiyor.
 ~
 bear~
 AGU 0 4
 #3716
 kurt~
 kurt~
-Bir kurt sana hırıldıyor.
+Bir kurt sana hÄ±rÄ±ldÄ±yor.
 ~
-Kurt rahatsız edilmek istemiyor.
+Kurt rahatsÄ±z edilmek istemiyor.
 ~
 wolf~
 AGU 0 4
 #3717
-üstad~
-selene'nin üstadı~
-Selene'nin üstadı burada, sırıtıyor ve sana birşeyler satmaya çalışıyor.
+Ã¼stad~
+selene'nin Ã¼stadÄ±~
+Selene'nin Ã¼stadÄ± burada, sÄ±rÄ±tÄ±yor ve sana birÅŸeyler satmaya Ã§alÄ±ÅŸÄ±yor.
 ~
-O büyük ve kötü. Sakın ona bulaşma.
+O bÃ¼yÃ¼k ve kÃ¶tÃ¼. SakÄ±n ona bulaÅŸma.
 ~
 human~
 ABCQTV CH 30
 #3718
-üstad eğitim~
-eğitim üstadı~
-Eğitim üstadı burada, genç öğrencileri EĞİTİYOR.
+Ã¼stad eÄŸitim~
+eÄŸitim Ã¼stadÄ±~
+EÄŸitim Ã¼stadÄ± burada, genÃ§ Ã¶ÄŸrencileri EÄÄ°TÄ°YOR.
 ~
-O büyük ve kötü. Sakın ona bulaşma.
+O bÃ¼yÃ¼k ve kÃ¶tÃ¼. SakÄ±n ona bulaÅŸma.
 ~
 human~
 ABCJQTV CH 30
 #3719
-üstad pratik~
-pratik üstadı~
-Pratik üstadı sana PRATİK yapmanda yardım etmek için bekliyor.
+Ã¼stad pratik~
+pratik Ã¼stadÄ±~
+Pratik Ã¼stadÄ± sana PRATÄ°K yapmanda yardÄ±m etmek iÃ§in bekliyor.
 ~
-O büyük ve kötü. Sakın ona bulaşma.
+O bÃ¼yÃ¼k ve kÃ¶tÃ¼. SakÄ±n ona bulaÅŸma.
 ~
 human~
 ABCKQTV CH 30
 #3720
-diplomalı canavar~
-diplomalı canavar~
-Çirkin diplomalı canavar burada, elinde de senin mezuniyet diploman.
+diplomalÄ± canavar~
+diplomalÄ± canavar~
+Ã‡irkin diplomalÄ± canavar burada, elinde de senin mezuniyet diploman.
 ~
-Bu korkunç canavar senin MUD okulundaki son sınavın olacak. Öldür onu ve
+Bu korkunÃ§ canavar senin MUD okulundaki son sÄ±navÄ±n olacak. Ã–ldÃ¼r onu ve
 diploma senin olsun.
 ~
 school monster~
@@ -221,7 +221,7 @@ ABe J 3
 #3700
 kalitesiz topuz~
 bir kalitesiz topuz~
-Burada bir kalitesiz topuz görüyorsun.~
+Burada bir kalitesiz topuz gÃ¶rÃ¼yorsun.~
 bronze~
 weapon U AN
 mace 1 6 pound 0
@@ -239,9 +239,9 @@ dagger 1 4 pierce 0
 A
 18 1
 #3702
-kalitesiz kılıç~
-bir kalitesiz kılıç~
-Burada bir kalitesiz kılıç görüyorsun.~
+kalitesiz kÄ±lÄ±Ã§~
+bir kalitesiz kÄ±lÄ±Ã§~
+Burada bir kalitesiz kÄ±lÄ±Ã§ gÃ¶rÃ¼yorsun.~
 bronze~
 weapon U AN
 sword 1 6 slash 0
@@ -251,7 +251,7 @@ A
 #3703
 kalitesiz yelek~
 bir kalitesiz yelek~
-Burada bir kalitesiz yelek görüyorsun.~
+Burada bir kalitesiz yelek gÃ¶rÃ¼yorsun.~
 leather~
 armor U AD
 1 1 1 0 0
@@ -259,7 +259,7 @@ armor U AD
 #3704
 kalitesiz kalkan~
 bir kalitesiz kalkan~
-Burada bir kalitesiz kalkan görüyorsun.~
+Burada bir kalitesiz kalkan gÃ¶rÃ¼yorsun.~
 wood~
 armor U AJ
 1 1 1 0 0
@@ -267,47 +267,47 @@ armor U AJ
 #3705
 kalitesiz fular~
 bir kalitesiz fular~
-Burada bir kalitesiz fular görüyorsun.~
+Burada bir kalitesiz fular gÃ¶rÃ¼yorsun.~
 cloth~
 armor U AC
 1 1 1 0 1
 0 40 72 P
 #3706
-kalitesiz miğfer~
-bir kalitesiz miğfer~
-Burada bir kalitesiz miğfer görüyorsun.~
+kalitesiz miÄŸfer~
+bir kalitesiz miÄŸfer~
+Burada bir kalitesiz miÄŸfer gÃ¶rÃ¼yorsun.~
 leather~
 armor U AE
 1 1 1 0 0
 0 30 72 P
 #3707
 kalitesiz tozluk~
-bir çift kalitesiz tozluk~
-Burada bir çift kalitesiz tozluk görüyorsun.~
+bir Ã§ift kalitesiz tozluk~
+Burada bir Ã§ift kalitesiz tozluk gÃ¶rÃ¼yorsun.~
 leather~
 armor U AF
 1 1 1 0 0
 0 30 72 P
 #3708
 kalitesiz bot~
-bir çift kalitesiz bot~
-Burada bir çift kalitesiz bot görüyorsun.~
+bir Ã§ift kalitesiz bot~
+Burada bir Ã§ift kalitesiz bot gÃ¶rÃ¼yorsun.~
 leather~
 armor U AG
 1 1 1 0 0
 0 30 72 P
 #3709
 kalitesiz eldiven~
-bir çift kalitesiz eldiven~
-Burada bir çift kalitesiz eldiven görüyorsun.~
+bir Ã§ift kalitesiz eldiven~
+Burada bir Ã§ift kalitesiz eldiven gÃ¶rÃ¼yorsun.~
 leather~
 armor U AH
 1 1 1 0 0
 0 10 72 P
 #3710
 kalitesiz kolluk~
-bir çift kalitesiz kolluk~
-Burada bir çift kalitesiz kolluk görüyorsun.~
+bir Ã§ift kalitesiz kolluk~
+Burada bir Ã§ift kalitesiz kolluk gÃ¶rÃ¼yorsun.~
 leather~
 armor U AI
 1 1 1 0 0
@@ -315,15 +315,15 @@ armor U AI
 #3711
 kalitesiz pelerin~
 bir kalitesiz pelerin~
-Burada bir kalitesiz pelerin görüyorsun.~
+Burada bir kalitesiz pelerin gÃ¶rÃ¼yorsun.~
 cloth~
 armor U AK
 1 1 1 0 0
 0 20 72 P
 #3712
-kalitesiz kuşak~
-bir kalitesiz kuşak~
-Burada bir kalitesiz kuşak görüyorsun.~
+kalitesiz kuÅŸak~
+bir kalitesiz kuÅŸak~
+Burada bir kalitesiz kuÅŸak gÃ¶rÃ¼yorsun.~
 leather~
 armor U AL
 1 1 1 0 0
@@ -331,7 +331,7 @@ armor U AL
 #3713
 kalitesiz bileklik~
 bir kalitesiz bileklik~
-Burada bir kalitesiz bileklik görüyorsun.~
+Burada bir kalitesiz bileklik gÃ¶rÃ¼yorsun.~
 bronze~
 armor U AM
 0 1 1 0 0
@@ -339,15 +339,15 @@ armor U AM
 #3714
 anahtar~
 bir anahtar~
-Burada çok önemli bir anahtar görüyorsun.~
+Burada Ã§ok Ã¶nemli bir anahtar gÃ¶rÃ¼yorsun.~
 brass~
 key P A
 0 0 0 0 0
 0 10 0 P
 #3715
 diploma~
-Mud okulu diploması~
-Bir MUD okulu diploması görüyorsun.~
+Mud okulu diplomasÄ±~
+Bir MUD okulu diplomasÄ± gÃ¶rÃ¼yorsun.~
 vellum~
 treasure GU AO
 0 0 0 0 0
@@ -358,12 +358,12 @@ A
 5 1
 E
 diploma~
-Elinde tutmanın bazı büyülü etkileri var.
+Elinde tutmanÄ±n bazÄ± bÃ¼yÃ¼lÃ¼ etkileri var.
 ~
 #3716
-savaş bayrak bayrağı~
-bir savaş bayrağı~
-Burada bir savaş bayrağı var.~
+savaÅŸ bayrak bayraÄŸÄ±~
+bir savaÅŸ bayraÄŸÄ±~
+Burada bir savaÅŸ bayraÄŸÄ± var.~
 cloth~
 light AG A
 0 0 200 0 0
@@ -375,7 +375,7 @@ A
 #3717
 kalitesiz asa~
 bir kalitesiz asa~
-Burada bir kalitesiz asa görüyorsun.~
+Burada bir kalitesiz asa gÃ¶rÃ¼yorsun.~
 wood~
 weapon U AN
 staff 1 6 thrust 0
@@ -385,7 +385,7 @@ A
 #3718
 kalitesiz asa~
 bir kalitesiz asa~
-Burada bir kalitesiz asa görüyorsun.~
+Burada bir kalitesiz asa gÃ¶rÃ¼yorsun.~
 wood~
 weapon U AN
 staff 1 5 pound F
@@ -397,7 +397,7 @@ A
 #3719
 kalitesiz balta~
 bir kalitesiz balta~
-Burada bir kalitesiz balta görüyorsun.~
+Burada bir kalitesiz balta gÃ¶rÃ¼yorsun.~
 bronze~
 weapon U AN
 axe 1 6 chop 0
@@ -405,9 +405,9 @@ axe 1 6 chop 0
 A
 18 1
 #3720
-kalitesiz döven~
-bir kalitesiz döven~
-Burada bir kalitesiz döven görüyorsun.~
+kalitesiz dÃ¶ven~
+bir kalitesiz dÃ¶ven~
+Burada bir kalitesiz dÃ¶ven gÃ¶rÃ¼yorsun.~
 bronze~
 weapon U AN
 flail 1 5 crush 0
@@ -415,9 +415,9 @@ flail 1 5 crush 0
 A
 19 1
 #3721
-kalitesiz kırbaç~
-bir kalitesiz kırbaç~
-Burada bir kalitesiz kırbaç görüyorsun.~
+kalitesiz kÄ±rbaÃ§~
+bir kalitesiz kÄ±rbaÃ§~
+Burada bir kalitesiz kÄ±rbaÃ§ gÃ¶rÃ¼yorsun.~
 leather~
 weapon U AN
 whip 2 2 whip 0
@@ -427,7 +427,7 @@ A
 #3722
 kalitesiz teber~
 bir kalitesiz teber~
-Burada bir kalitesiz teber görüyorsun.~
+Burada bir kalitesiz teber gÃ¶rÃ¼yorsun.~
 wood~
 weapon U AN
 polearm 1 7 slash F
@@ -437,7 +437,7 @@ A
 #3723
 kalitesiz yay~
 bir kalitesiz yay~
-Burada bir kalitesiz yay görüyorsun.~
+Burada bir kalitesiz yay gÃ¶rÃ¼yorsun.~
 wood~
 weapon U AN
 bow 1 7 none F
@@ -445,9 +445,9 @@ bow 1 7 none F
 A
 19 1
 #3724
-kalitesiz kargı~
-bir kalitesiz kargı~
-Burada bir kalitesiz kargı görüyorsun.~
+kalitesiz kargÄ±~
+bir kalitesiz kargÄ±~
+Burada bir kalitesiz kargÄ± gÃ¶rÃ¼yorsun.~
 iron~
 weapon U AN
 lance 1 7 none F
@@ -458,112 +458,112 @@ A
 
 #ROOMS
 #3700
-Mud Okulu Girişi~
-Uzak Diyarlar'a hoşgeldin. Eğer MUD'a yabancıysan bu yazıları dikkatle
-okumalısın. Burada sana oyunu nasıl oynayabileceğin öğretilecek. Bu oda MUD
-Okulu Girişi'dir. Burası gerçekten bir okuldur. Burada öğrendiklerini pratik
-eder ve en sonunda diplomanı alarak mezun olursun. Hazır olduğunda 'kuzey'
-yaz. Unutma sadece tırnak içini yazmalısın.
+Mud Okulu GiriÅŸi~
+Uzak Diyarlar'a hoÅŸgeldin. EÄŸer MUD'a yabancÄ±ysan bu yazÄ±larÄ± dikkatle
+okumalÄ±sÄ±n. Burada sana oyunu nasÄ±l oynayabileceÄŸin Ã¶ÄŸretilecek. Bu oda MUD
+Okulu GiriÅŸi'dir. BurasÄ± gerÃ§ekten bir okuldur. Burada Ã¶ÄŸrendiklerini pratik
+eder ve en sonunda diplomanÄ± alarak mezun olursun. HazÄ±r olduÄŸunda 'kuzey'
+yaz. Unutma sadece tÄ±rnak iÃ§ini yazmalÄ±sÄ±n.
 ~
 0 CD 0
 D0
-MUD okuluna açılan kapıyı görüyorsun.
+MUD okuluna aÃ§Ä±lan kapÄ±yÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3757
 D1
-Müzenin girişini görüyorsun.
+MÃ¼zenin giriÅŸini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 400
 D2
-MUD okulunun arenasına açılan kapıyı görüyorsun.
+MUD okulunun arenasÄ±na aÃ§Ä±lan kapÄ±yÄ± gÃ¶rÃ¼yorsun.
 ~
-kapı~
+kapÄ±~
 1 -1 3744
 D5
-Selenge Tapınağını görüyorsun.
+Selenge TapÄ±naÄŸÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3001
 S
 #3701
 MUD okulunda bir oda~
-Kare şeklinde beyaz bir odadasın. Duvarlar boş ve pencere yok. Tavandaki
-ışık kaynağından yumuşak beyaz tonlarda ışık geliyor. Elbette ki duvarda bir
-işaret var. Çıkışlar batıya ve güneye.
+Kare ÅŸeklinde beyaz bir odadasÄ±n. Duvarlar boÅŸ ve pencere yok. Tavandaki
+Ä±ÅŸÄ±k kaynaÄŸÄ±ndan yumuÅŸak beyaz tonlarda Ä±ÅŸÄ±k geliyor. Elbette ki duvarda bir
+iÅŸaret var. Ã‡Ä±kÄ±ÅŸlar batÄ±ya ve gÃ¼neye.
 ~
 0 CDR 0
 D2
-Başka bir odaya yol görüyorsun.
+BaÅŸka bir odaya yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 3757
 D3
-Başka bir odaya yol görüyorsun.
+BaÅŸka bir odaya yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 3702
 E
-işaret~
-Ekipmanları kontrol etme zamanı! Şu anki ekipmanlarınızı görmek için
-'[1;32mEKİPMAN[0;37m' yazın. Şu an bir yeleğiniz, bir kalkanınız ve bir
-silahınız var. MUD okulunda ilerledikçe tam takım bir ekipmana sahip
-olacaksınız. Gördüğünüz cisimleri yerden almak için '[1;32mAL[0;37m cisim'
-yazın. Herhangi bir şeyi giymek için '[1;32mGİY[0;37m cisim' yazın. Herşeyi
-giymek için '[1;32mGİY TÜMÜ[0;37m' yazın. Bir ekipmanı kullanmayı
-bırakmak için '[1;32mÇIKAR[0;37m cisim' yazın. Ve son olarak,
-envanterinizdekileri görmek için '[1;32mENVANTER[0;37m' komutunu kullanın.
-Devam etmeye hazır olduğunuzda batıya gidin.
+iÅŸaret~
+EkipmanlarÄ± kontrol etme zamanÄ±! Åu anki ekipmanlarÄ±nÄ±zÄ± gÃ¶rmek iÃ§in
+'[1;32mEKÄ°PMAN[0;37m' yazÄ±n. Åu an bir yeleÄŸiniz, bir kalkanÄ±nÄ±z ve bir
+silahÄ±nÄ±z var. MUD okulunda ilerledikÃ§e tam takÄ±m bir ekipmana sahip
+olacaksÄ±nÄ±z. GÃ¶rdÃ¼ÄŸÃ¼nÃ¼z cisimleri yerden almak iÃ§in '[1;32mAL[0;37m cisim'
+yazÄ±n. Herhangi bir ÅŸeyi giymek iÃ§in '[1;32mGÄ°Y[0;37m cisim' yazÄ±n. HerÅŸeyi
+giymek iÃ§in '[1;32mGÄ°Y TÃœMÃœ[0;37m' yazÄ±n. Bir ekipmanÄ± kullanmayÄ±
+bÄ±rakmak iÃ§in '[1;32mÃ‡IKAR[0;37m cisim' yazÄ±n. Ve son olarak,
+envanterinizdekileri gÃ¶rmek iÃ§in '[1;32mENVANTER[0;37m' komutunu kullanÄ±n.
+Devam etmeye hazÄ±r olduÄŸunuzda batÄ±ya gidin.
 ~
 E
 plaket~
-Mud Okulu Hatchet tarafındadn yazılmıştır.
+Mud Okulu Hatchet tarafÄ±ndadn yazÄ±lmÄ±ÅŸtÄ±r.
 Copyright 1992, 1993.
 ~
 S
 #3702
 Merkez Oda~
-Kare şeklinde beyaz bir odadasın. Duvarlar boş ve pencere yok. Tavandaki
-ışık kaynağından yumuşak beyaz tonlarda ışık geliyor. Elbette ki duvarda bir
-işaret var. Her yöne çıkış var.
+Kare ÅŸeklinde beyaz bir odadasÄ±n. Duvarlar boÅŸ ve pencere yok. Tavandaki
+Ä±ÅŸÄ±k kaynaÄŸÄ±ndan yumuÅŸak beyaz tonlarda Ä±ÅŸÄ±k geliyor. Elbette ki duvarda bir
+iÅŸaret var. Her yÃ¶ne Ã§Ä±kÄ±ÅŸ var.
 ~
 0 CDR 0
 E
-işaret~
-Her yöne çıkış mevcut. Elbette her odada her yöne çıkış olmaz. Bir odada mevcut
-çıkışları görmek için '[1;32mÇIKIŞ[0;37m' yazın. Kimi zaman kapılar kapalıdır,
-kilitlidir ya da gizlidir. O zaman oda tanımlarındaki ipuçlarını değerlendirmeniz
-gerekir. Ya da o yöne giderek bir yere çarpıp çarpmadığınızı görebilirsiniz.
-Buradan her yöne gitmeyi deneyin. Bitirince KUZEYE ilerleyin.
+iÅŸaret~
+Her yÃ¶ne Ã§Ä±kÄ±ÅŸ mevcut. Elbette her odada her yÃ¶ne Ã§Ä±kÄ±ÅŸ olmaz. Bir odada mevcut
+Ã§Ä±kÄ±ÅŸlarÄ± gÃ¶rmek iÃ§in '[1;32mÃ‡IKIÅ[0;37m' yazÄ±n. Kimi zaman kapÄ±lar kapalÄ±dÄ±r,
+kilitlidir ya da gizlidir. O zaman oda tanÄ±mlarÄ±ndaki ipuÃ§larÄ±nÄ± deÄŸerlendirmeniz
+gerekir. Ya da o yÃ¶ne giderek bir yere Ã§arpÄ±p Ã§arpmadÄ±ÄŸÄ±nÄ±zÄ± gÃ¶rebilirsiniz.
+Buradan her yÃ¶ne gitmeyi deneyin. Bitirince KUZEYE ilerleyin.
 ~
 D0
-Kuzeyde seni bir sonraki bölüme götürecek kapıyı görüyorsun.
+Kuzeyde seni bir sonraki bÃ¶lÃ¼me gÃ¶tÃ¼recek kapÄ±yÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3703
 D1
-Bir oda görüyorsun.
+Bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3701
 D2
-Bir oda görüyorsun.
+Bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3705
 D3
-Bir oda görüyorsun.
+Bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3704
 D4
-Bir oda görüyorsun.
+Bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3708
 D5
-Bir oda görüyorsun.
+Bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3707
@@ -584,401 +584,401 @@ Try going into each direction from here.  When you are done, go NORTH.
 S
 #3703
 MUD okulunda bir oda~
-Kare şeklinde beyaz bir odadasın. Duvarlar boş ve pencere yok. Tavandaki
-ışık kaynağından yumuşak beyaz tonlarda ışık geliyor. Elbette ki duvarda bir
-işaret var. Çıkışlar kuzeye ve güneye.
+Kare ÅŸeklinde beyaz bir odadasÄ±n. Duvarlar boÅŸ ve pencere yok. Tavandaki
+Ä±ÅŸÄ±k kaynaÄŸÄ±ndan yumuÅŸak beyaz tonlarda Ä±ÅŸÄ±k geliyor. Elbette ki duvarda bir
+iÅŸaret var. Ã‡Ä±kÄ±ÅŸlar kuzeye ve gÃ¼neye.
 ~
 0 CDR 0
 D0
-Bir sonraki istasyonu görüyorsun.
+Bir sonraki istasyonu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 3709
 D2
-Merkez odayı görüyorsun.
+Merkez odayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3702
 S
 #3704
 MUD okulunda bir oda~
-Kare şeklinde beyaz bir odadasın. Duvarlar boş ve pencere yok. Tavandaki
-ışık kaynağından yumuşak beyaz tonlarda ışık geliyor. Elbette ki duvarda bir
-işaret var. Tek çıkış doğuya.
+Kare ÅŸeklinde beyaz bir odadasÄ±n. Duvarlar boÅŸ ve pencere yok. Tavandaki
+Ä±ÅŸÄ±k kaynaÄŸÄ±ndan yumuÅŸak beyaz tonlarda Ä±ÅŸÄ±k geliyor. Elbette ki duvarda bir
+iÅŸaret var. Tek Ã§Ä±kÄ±ÅŸ doÄŸuya.
 ~
 0 CDR 0
 D1
-Merkez odayı görüyorsun.
+Merkez odayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3702
 E
-işaret~
-Doğudaki merkez odaya gidin.
+iÅŸaret~
+DoÄŸudaki merkez odaya gidin.
 ~
 S
 #3705
 MUD okulunda bir oda~
-Kare şeklinde beyaz bir odadasın. Duvarlar boş ve pencere yok. Tavandaki
-ışık kaynağından yumuşak beyaz tonlarda ışık geliyor. Elbette ki duvarda bir
-işaret var. Tek çıkış kuzeye.
+Kare ÅŸeklinde beyaz bir odadasÄ±n. Duvarlar boÅŸ ve pencere yok. Tavandaki
+Ä±ÅŸÄ±k kaynaÄŸÄ±ndan yumuÅŸak beyaz tonlarda Ä±ÅŸÄ±k geliyor. Elbette ki duvarda bir
+iÅŸaret var. Tek Ã§Ä±kÄ±ÅŸ kuzeye.
 ~
 0 CDR 0
 D0
-Merkez odayı görüyorsun.
+Merkez odayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3702
 E
-işaret~
+iÅŸaret~
 Kuzeydeki merkez odaya gidin.
 ~
 S
 #3707
 MUD okulunda bir oda~
-Kare şeklinde beyaz bir odadasın. Duvarlar boş ve pencere yok. Tavandaki
-ışık kaynağından yumuşak beyaz tonlarda ışık geliyor. Elbette ki duvarda bir
-işaret var. Tek çıkış yukarı.
+Kare ÅŸeklinde beyaz bir odadasÄ±n. Duvarlar boÅŸ ve pencere yok. Tavandaki
+Ä±ÅŸÄ±k kaynaÄŸÄ±ndan yumuÅŸak beyaz tonlarda Ä±ÅŸÄ±k geliyor. Elbette ki duvarda bir
+iÅŸaret var. Tek Ã§Ä±kÄ±ÅŸ yukarÄ±.
 ~
 0 CDR 0
 D4
-Merkez odayı görüyorsun.
+Merkez odayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3702
 E
-işaret~
-Yukarıdaki merkez odaya gidin.
+iÅŸaret~
+YukarÄ±daki merkez odaya gidin.
 ~
 S
 #3708
 MUD okulunda bir oda~
-Kare şeklinde beyaz bir odadasın. Duvarlar boş ve pencere yok. Tavandaki
-ışık kaynağından yumuşak beyaz tonlarda ışık geliyor. Elbette ki duvarda bir
-işaret var. Tek çıkış aşağı.
+Kare ÅŸeklinde beyaz bir odadasÄ±n. Duvarlar boÅŸ ve pencere yok. Tavandaki
+Ä±ÅŸÄ±k kaynaÄŸÄ±ndan yumuÅŸak beyaz tonlarda Ä±ÅŸÄ±k geliyor. Elbette ki duvarda bir
+iÅŸaret var. Tek Ã§Ä±kÄ±ÅŸ aÅŸaÄŸÄ±.
 ~
 0 CDR 0
 D5
-Merkez odayı görüyorsun.
+Merkez odayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3702
 E
-işaret~
-Aşağıdaki merkez odaya inin.
+iÅŸaret~
+AÅŸaÄŸÄ±daki merkez odaya inin.
 ~
 S
 #3709
 MUD okulunda bir oda~
-Kare şeklinde beyaz bir odadasın. Duvarlar boş ve pencere yok. Tavandaki
-ışık kaynağından yumuşak beyaz tonlarda ışık geliyor. Elbette ki duvarda bir
-işaret var. Çıkışlar batıya ve aşağıya.
+Kare ÅŸeklinde beyaz bir odadasÄ±n. Duvarlar boÅŸ ve pencere yok. Tavandaki
+Ä±ÅŸÄ±k kaynaÄŸÄ±ndan yumuÅŸak beyaz tonlarda Ä±ÅŸÄ±k geliyor. Elbette ki duvarda bir
+iÅŸaret var. Ã‡Ä±kÄ±ÅŸlar batÄ±ya ve aÅŸaÄŸÄ±ya.
 ~
 0 CDR 0
 D3
-Bir sonraki istasyonu görüyorsun.
+Bir sonraki istasyonu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 3711
 D5
-Bir kafes görüyorsun.
+Bir kafes gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3710
 E
-işaret~
-Savaş eğitimine hoşgeldin. İlk kiminle dövüşeceğinizi öğrenin.
-'[1;32mTART[0;37m canavar' komutunu canavarı öldürüp öldüremeyeceğinize
-bakmak için kullanın.
-İkinci ders kaçmak. Aşağıdaki odada bir canavar var. O sizin
-öldüremeyeceğiniz kadar güçlü, fakat o da sizi öldüremeyecek. Aşağı inip
-'TART' komutunu kullanın. Sonra da 'SALDIR'ın. Bir süre sonra 'KAÇ'
-yazın. Bu sizin kaçmanızı sağlayacaktır. Bu işi otomatik de
-yaptırabilirsiniz. Bunun için 'KORKAKLIK' komutunu kullanın. Hazır
-olduğunuzda 'BATI'ya ilerleyin.
+iÅŸaret~
+SavaÅŸ eÄŸitimine hoÅŸgeldin. Ä°lk kiminle dÃ¶vÃ¼ÅŸeceÄŸinizi Ã¶ÄŸrenin.
+'[1;32mTART[0;37m canavar' komutunu canavarÄ± Ã¶ldÃ¼rÃ¼p Ã¶ldÃ¼remeyeceÄŸinize
+bakmak iÃ§in kullanÄ±n.
+Ä°kinci ders kaÃ§mak. AÅŸaÄŸÄ±daki odada bir canavar var. O sizin
+Ã¶ldÃ¼remeyeceÄŸiniz kadar gÃ¼Ã§lÃ¼, fakat o da sizi Ã¶ldÃ¼remeyecek. AÅŸaÄŸÄ± inip
+'TART' komutunu kullanÄ±n. Sonra da 'SALDIR'Ä±n. Bir sÃ¼re sonra 'KAÃ‡'
+yazÄ±n. Bu sizin kaÃ§manÄ±zÄ± saÄŸlayacaktÄ±r. Bu iÅŸi otomatik de
+yaptÄ±rabilirsiniz. Bunun iÃ§in 'KORKAKLIK' komutunu kullanÄ±n. HazÄ±r
+olduÄŸunuzda 'BATI'ya ilerleyin.
 ~
 S
 #3710
-Kütle Kafesi~
-Pis kokan bir kafestesin. İşin garip tarafı duvarlar tertemiz. Bir işaret
-görüyorsun. Tek çıkış yukarı.
+KÃ¼tle Kafesi~
+Pis kokan bir kafestesin. Ä°ÅŸin garip tarafÄ± duvarlar tertemiz. Bir iÅŸaret
+gÃ¶rÃ¼yorsun. Tek Ã§Ä±kÄ±ÅŸ yukarÄ±.
 ~
 0 DR 0
 D4
-Yukarıda güvenli bir oda görüyorsun.
+YukarÄ±da gÃ¼venli bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3709
 E
-işaret~
-Kütle ile dövüşmek için "SALDIR KÜTLE" yazın. Kaçmak için ise KAÇ
-komutunu kullanın.
+iÅŸaret~
+KÃ¼tle ile dÃ¶vÃ¼ÅŸmek iÃ§in "SALDIR KÃœTLE" yazÄ±n. KaÃ§mak iÃ§in ise KAÃ‡
+komutunu kullanÄ±n.
 ~
 S
 #3711
 MUD okulunda bir oda~
-Kare şeklinde beyaz bir odadasın. Duvarlar boş ve pencere yok. Tavandaki
-ışık kaynağından yumuşak beyaz tonlarda ışık geliyor. Elbette ki duvarda bir
-işaret var.
+Kare ÅŸeklinde beyaz bir odadasÄ±n. Duvarlar boÅŸ ve pencere yok. Tavandaki
+Ä±ÅŸÄ±k kaynaÄŸÄ±ndan yumuÅŸak beyaz tonlarda Ä±ÅŸÄ±k geliyor. Elbette ki duvarda bir
+iÅŸaret var.
 ~
 0 CDR 0
 D1
-Bir sonraki istasyonu görüyorsun.
+Bir sonraki istasyonu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3709
 D5
-Mücadele bölgesi aşağıda.
+MÃ¼cadele bÃ¶lgesi aÅŸaÄŸÄ±da.
 ~
 ~
 0 0 3712
 E
-işaret~
-Bir sonraki istasyona hoş geldiniz. Burada hiç kaçmadan gerçek canavarlarla
-dövüşeceksiniz. Öldürün onları, çünkü onlar ihtiyacınız olan ekipmanları
-taşıyorlar. Başlamak için aşağı inin.
+iÅŸaret~
+Bir sonraki istasyona hoÅŸ geldiniz. Burada hiÃ§ kaÃ§madan gerÃ§ek canavarlarla
+dÃ¶vÃ¼ÅŸeceksiniz. Ã–ldÃ¼rÃ¼n onlarÄ±, Ã§Ã¼nkÃ¼ onlar ihtiyacÄ±nÄ±z olan ekipmanlarÄ±
+taÅŸÄ±yorlar. BaÅŸlamak iÃ§in aÅŸaÄŸÄ± inin.
 ~
 S
 #3712
-Kafes Odaları Merkezi~
-Kafes odasındasın. Etrafta 4 kafes var. Tavandaki ışık kaynağından
-yumuşak beyaz tonlarda ışık geliyor. Elbette ki duvarda büyük bir işaret
-var. Ana çıkışların yanında aşağıya da bir çıkış var.
+Kafes OdalarÄ± Merkezi~
+Kafes odasÄ±ndasÄ±n. Etrafta 4 kafes var. Tavandaki Ä±ÅŸÄ±k kaynaÄŸÄ±ndan
+yumuÅŸak beyaz tonlarda Ä±ÅŸÄ±k geliyor. Elbette ki duvarda bÃ¼yÃ¼k bir iÅŸaret
+var. Ana Ã§Ä±kÄ±ÅŸlarÄ±n yanÄ±nda aÅŸaÄŸÄ±ya da bir Ã§Ä±kÄ±ÅŸ var.
 ~
 0 CDR 0
 D0
-Saldırgan canavarı görüyorsun.
+SaldÄ±rgan canavarÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 3713
 D1
-Değiştirilmemiş canavarı görüyorsun.
+DeÄŸiÅŸtirilmemiÅŸ canavarÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 3716
 D2
-Korkak canavarı görüyorsun.
+Korkak canavarÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 3715
 D3
-Saldırgan korkak canavarı görüyorsun.
+SaldÄ±rgan korkak canavarÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 3714
 D4
-Yukarı...
+YukarÄ±...
 ~
 ~
 0 -1 3711
 D5
-Bir sonraki istasyonu görüyorsun.
+Bir sonraki istasyonu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 3717
 E
-işaret~
-Kafes odasına hoşgeldiniz. Okulun efendileri öldürmeniz için buraya bir
-grup canavarı hapsetmişler. Hepsini öldürün ve öldürdükten sonra
-üzerlerindeki ekipmanı '[1;32mAL TÜMÜ CESET[0;37m' komutuyla alın.
-Aldıklarınızı giymek için '[1;32mGİY TÜMÜ[0;37m' komutunu kullanın.
-Cesetle işiniz bitince, '[1;32mKURBAN CESET[0;37m' komutuyla cesedi
-tanrınıza adayın. Tanrı sizi ödüllendirecektir. Dövüşlerin arasında yaşam
-puanınızı yenilemek için dinlenmeniz gerekebilir. Bunun için
-'[1;32mDİNLEN[0;37m' komutunu kullanabilirsiniz, ya da '[1;32mUYU[0;37m'
-komutunu kullanarak yaşam puanınızı daha hızlı yenileyebilirsiniz. Unutmayın
-ki uyurken etrafınızda olanlardan haberdar olmazsınız! ! !
+iÅŸaret~
+Kafes odasÄ±na hoÅŸgeldiniz. Okulun efendileri Ã¶ldÃ¼rmeniz iÃ§in buraya bir
+grup canavarÄ± hapsetmiÅŸler. Hepsini Ã¶ldÃ¼rÃ¼n ve Ã¶ldÃ¼rdÃ¼kten sonra
+Ã¼zerlerindeki ekipmanÄ± '[1;32mAL TÃœMÃœ CESET[0;37m' komutuyla alÄ±n.
+AldÄ±klarÄ±nÄ±zÄ± giymek iÃ§in '[1;32mGÄ°Y TÃœMÃœ[0;37m' komutunu kullanÄ±n.
+Cesetle iÅŸiniz bitince, '[1;32mKURBAN CESET[0;37m' komutuyla cesedi
+tanrÄ±nÄ±za adayÄ±n. TanrÄ± sizi Ã¶dÃ¼llendirecektir. DÃ¶vÃ¼ÅŸlerin arasÄ±nda yaÅŸam
+puanÄ±nÄ±zÄ± yenilemek iÃ§in dinlenmeniz gerekebilir. Bunun iÃ§in
+'[1;32mDÄ°NLEN[0;37m' komutunu kullanabilirsiniz, ya da '[1;32mUYU[0;37m'
+komutunu kullanarak yaÅŸam puanÄ±nÄ±zÄ± daha hÄ±zlÄ± yenileyebilirsiniz. UnutmayÄ±n
+ki uyurken etrafÄ±nÄ±zda olanlardan haberdar olmazsÄ±nÄ±z! ! !
 ~
 S
 #3713
 Bir Kafes~
-Bir kafestesin. Heryerde kan var. Buranın bakıcıları oldukça tembel
-olmalı. Duvarda bir işaret var. Tek çıkış güneye.
+Bir kafestesin. Heryerde kan var. BuranÄ±n bakÄ±cÄ±larÄ± oldukÃ§a tembel
+olmalÄ±. Duvarda bir iÅŸaret var. Tek Ã§Ä±kÄ±ÅŸ gÃ¼neye.
 ~
 0 DR 0
 D2
-Kafes odasını görüyorsun.
+Kafes odasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 3712
 E
-işaret~
-Odadaki saldırgan canavarı öldürün ve buradan hızla ayrılın.
-Cesetteki ekipmanları alıp cesedi kurban etmeyi unutmayın.
+iÅŸaret~
+Odadaki saldÄ±rgan canavarÄ± Ã¶ldÃ¼rÃ¼n ve buradan hÄ±zla ayrÄ±lÄ±n.
+Cesetteki ekipmanlarÄ± alÄ±p cesedi kurban etmeyi unutmayÄ±n.
 ~
 S
 #3714
 Bir Kafes~
-Bir kafestesin. Heryerde kan var. Buranın bakıcıları oldukça tembel
-olmalı. Duvarda bir işaret var. Tek çıkış doğuya.
+Bir kafestesin. Heryerde kan var. BuranÄ±n bakÄ±cÄ±larÄ± oldukÃ§a tembel
+olmalÄ±. Duvarda bir iÅŸaret var. Tek Ã§Ä±kÄ±ÅŸ doÄŸuya.
 ~
 0 DR 0
 D1
-Kafes odasını görüyorsun.
+Kafes odasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 3712
 E
-işaret~
-Odadaki korkak, saldırgan canavarı öldürün ve buradan hızla ayrılın.
-Cesetteki ekipmanları alıp cesedi kurban etmeyi unutmayın.
+iÅŸaret~
+Odadaki korkak, saldÄ±rgan canavarÄ± Ã¶ldÃ¼rÃ¼n ve buradan hÄ±zla ayrÄ±lÄ±n.
+Cesetteki ekipmanlarÄ± alÄ±p cesedi kurban etmeyi unutmayÄ±n.
 ~
 S
 #3715
 Bir Kafes~
-Bir kafestesin. Heryerde kan var. Buranın bakıcıları oldukça tembel
-olmalı. Duvarda bir işaret var. Tek çıkış kuzeye.
+Bir kafestesin. Heryerde kan var. BuranÄ±n bakÄ±cÄ±larÄ± oldukÃ§a tembel
+olmalÄ±. Duvarda bir iÅŸaret var. Tek Ã§Ä±kÄ±ÅŸ kuzeye.
 ~
 0 DR 0
 D0
-Kafes odasını görüyorsun.
+Kafes odasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 3712
 E
-işaret~
-Odadaki korkak canavarı öldürün ve buradan hızla ayrılın. Cesetteki
-ekipmanları alıp cesedi kurban etmeyi unutmayın.
+iÅŸaret~
+Odadaki korkak canavarÄ± Ã¶ldÃ¼rÃ¼n ve buradan hÄ±zla ayrÄ±lÄ±n. Cesetteki
+ekipmanlarÄ± alÄ±p cesedi kurban etmeyi unutmayÄ±n.
 ~
 S
 #3716
 Bir Kafes~
-Bir kafestesin. Heryerde kan var. Buranın bakıcıları oldukça tembel
-olmalı. Duvarda bir işaret var. Tek çıkış batıya.
+Bir kafestesin. Heryerde kan var. BuranÄ±n bakÄ±cÄ±larÄ± oldukÃ§a tembel
+olmalÄ±. Duvarda bir iÅŸaret var. Tek Ã§Ä±kÄ±ÅŸ batÄ±ya.
 ~
 0 DR 0
 D3
-Kafes odasını görüyorsun.
+Kafes odasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 3712
 E
-işaret~
-Odadaki canavarı öldürün ve buradan hızla ayrılın. Cesetteki ekipmanları
-alıp cesedi kurban etmeyi unutmayın.
+iÅŸaret~
+Odadaki canavarÄ± Ã¶ldÃ¼rÃ¼n ve buradan hÄ±zla ayrÄ±lÄ±n. Cesetteki ekipmanlarÄ±
+alÄ±p cesedi kurban etmeyi unutmayÄ±n.
 ~
 S
 #3717
 MUD okulunda bir oda~
-Kare şeklinde beyaz bir odadasın. Duvarlar boş ve pencere yok. Tavandaki
-ışık kaynağından yumuşak beyaz tonlarda ışık geliyor. Elbette ki duvarda bir
-işaret var. Kendi çıkışını kendin bul.
+Kare ÅŸeklinde beyaz bir odadasÄ±n. Duvarlar boÅŸ ve pencere yok. Tavandaki
+Ä±ÅŸÄ±k kaynaÄŸÄ±ndan yumuÅŸak beyaz tonlarda Ä±ÅŸÄ±k geliyor. Elbette ki duvarda bir
+iÅŸaret var. Kendi Ã§Ä±kÄ±ÅŸÄ±nÄ± kendin bul.
 ~
 0 CDR 0
 D1
-Bir sonraki istasyonu görüyorsun.
+Bir sonraki istasyonu gÃ¶rÃ¼yorsun.
 ~
-kapı~
+kapÄ±~
 1 -1 3719
 D2
-Dükkanı görüyorsun.
+DÃ¼kkanÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3718
 D4
-Kafes odasını görüyorsun.
+Kafes odasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 3712
 E
-işaret~
-Artık acıkmış ve susamış olmalısın. Artık alış-veriş yapma zamanı.
-Güneyde bir dükkan var. Dükkanda şu komutları kullanabilirsin: Satın almak
-için [1;32mSATINAL[0;37m , nelerin satıldığını görmek için
-[1;32mLİSTE[0;37m , yemek için 'YE', içmek için 'İÇ' komutlarını
-kullanabilirsin. İşinizi bitirdikten sonra çıkışı bulun.
+iÅŸaret~
+ArtÄ±k acÄ±kmÄ±ÅŸ ve susamÄ±ÅŸ olmalÄ±sÄ±n. ArtÄ±k alÄ±ÅŸ-veriÅŸ yapma zamanÄ±.
+GÃ¼neyde bir dÃ¼kkan var. DÃ¼kkanda ÅŸu komutlarÄ± kullanabilirsin: SatÄ±n almak
+iÃ§in [1;32mSATINAL[0;37m , nelerin satÄ±ldÄ±ÄŸÄ±nÄ± gÃ¶rmek iÃ§in
+[1;32mLÄ°STE[0;37m , yemek iÃ§in 'YE', iÃ§mek iÃ§in 'Ä°Ã‡' komutlarÄ±nÄ±
+kullanabilirsin. Ä°ÅŸinizi bitirdikten sonra Ã§Ä±kÄ±ÅŸÄ± bulun.
 ~
 S
 #3718
-MUD okulundaki DÜKKAN~
-Dar bir odadasın. Raflara düzenli bir şekilde yerleştirilen şeylerle dolu
-oda. Tavandaki ışık yumuşak beyaz tonlarla odayı aydınlatıyor. Tabii duvarda
-bir işaret var. Tek çıkış kuzeye.
+MUD okulundaki DÃœKKAN~
+Dar bir odadasÄ±n. Raflara dÃ¼zenli bir ÅŸekilde yerleÅŸtirilen ÅŸeylerle dolu
+oda. Tavandaki Ä±ÅŸÄ±k yumuÅŸak beyaz tonlarla odayÄ± aydÄ±nlatÄ±yor. Tabii duvarda
+bir iÅŸaret var. Tek Ã§Ä±kÄ±ÅŸ kuzeye.
 ~
 0 DR 0
 D0
-Buranın tek çıkışını görüyorsun.
+BuranÄ±n tek Ã§Ä±kÄ±ÅŸÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3717
 E
-işaret~
-SATINAL  -Birşeyi satın alır.
-LİSTE -Satılanları listeler.
-SATIŞ -Elinizdekileri satmanızı sağlar.
+iÅŸaret~
+SATINAL  -BirÅŸeyi satÄ±n alÄ±r.
+LÄ°STE -SatÄ±lanlarÄ± listeler.
+SATIÅ -Elinizdekileri satmanÄ±zÄ± saÄŸlar.
 ~
 S
 #3719
 MUD okulunda bir oda~
-Kare şeklinde beyaz bir odadasın. Duvarlar boş ve pencere yok. Tavandaki
-ışık kaynağından yumuşak beyaz tonlarda ışık geliyor. Elbette ki duvarda bir
-işaret var. Çıkışlar kuzeye ve batıya. Doğuda ise bir kapı var.
+Kare ÅŸeklinde beyaz bir odadasÄ±n. Duvarlar boÅŸ ve pencere yok. Tavandaki
+Ä±ÅŸÄ±k kaynaÄŸÄ±ndan yumuÅŸak beyaz tonlarda Ä±ÅŸÄ±k geliyor. Elbette ki duvarda bir
+iÅŸaret var. Ã‡Ä±kÄ±ÅŸlar kuzeye ve batÄ±ya. DoÄŸuda ise bir kapÄ± var.
 ~
 0 CDR 0
 D0
-Karanlık odayı görüyorsun.
+KaranlÄ±k odayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3720
 D1
-Bir sonraki istasyonu görüyorsun.
+Bir sonraki istasyonu gÃ¶rÃ¼yorsun.
 ~
-kapı~
+kapÄ±~
 1 3714 3721
 D3
-Geldiğin odayı görüyorsun.
+GeldiÄŸin odayÄ± gÃ¶rÃ¼yorsun.
 ~
-kapı~
+kapÄ±~
 1 -1 3717
 E
-işaret~
-Kuzeyin karanlık bir odadır. Umarım bir fenerin vardır yanında! Eğer yoksa
-gidip bir tane almalısın. Odada ihtiyacın olan anahtarı taşıyan bir canavar
-duruyor. Canavarı öldürüp anahtarı aldıktan sonra buraya geri dön ve
-[1;32mKİLİTAÇ DOĞU[0;37m, [1;32mAÇ DOĞU[0;37m, yaz ve doğuya devam et.
+iÅŸaret~
+Kuzeyin karanlÄ±k bir odadÄ±r. UmarÄ±m bir fenerin vardÄ±r yanÄ±nda! EÄŸer yoksa
+gidip bir tane almalÄ±sÄ±n. Odada ihtiyacÄ±n olan anahtarÄ± taÅŸÄ±yan bir canavar
+duruyor. CanavarÄ± Ã¶ldÃ¼rÃ¼p anahtarÄ± aldÄ±ktan sonra buraya geri dÃ¶n ve
+[1;32mKÄ°LÄ°TAÃ‡ DOÄU[0;37m, [1;32mAÃ‡ DOÄU[0;37m, yaz ve doÄŸuya devam et.
 ~
 S
 #3720
-Karanlık Oda~
-Bu karanlık odada etrafını görebilmek için bir ışık kaynağı tutmalısın.
-Duvarlar elbetteki boş ve beyaz. Tek çıkış güneyde.
+KaranlÄ±k Oda~
+Bu karanlÄ±k odada etrafÄ±nÄ± gÃ¶rebilmek iÃ§in bir Ä±ÅŸÄ±k kaynaÄŸÄ± tutmalÄ±sÄ±n.
+Duvarlar elbetteki boÅŸ ve beyaz. Tek Ã§Ä±kÄ±ÅŸ gÃ¼neyde.
 ~
 0 ADR 0
 D2
-Geldiğin odayı görüyorsun.
+GeldiÄŸin odayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3719
 S
 #3721
 MUD Okulunun Sonu~
-Burası çok aydınlık bir oda. Ortasında da mermer bir kaide duruyor.
-Kaidenin önünde gümüşlerle kuşanmış bir adam duruyor. Duvarlar halılarla
-bezenmiş. Burada olduğun için çok mutlusun. Büyük bir işaret görüyorsun.
-Tek çıkış kuzeyindeki kapı.
+BurasÄ± Ã§ok aydÄ±nlÄ±k bir oda. OrtasÄ±nda da mermer bir kaide duruyor.
+Kaidenin Ã¶nÃ¼nde gÃ¼mÃ¼ÅŸlerle kuÅŸanmÄ±ÅŸ bir adam duruyor. Duvarlar halÄ±larla
+bezenmiÅŸ. Burada olduÄŸun iÃ§in Ã§ok mutlusun. BÃ¼yÃ¼k bir iÅŸaret gÃ¶rÃ¼yorsun.
+Tek Ã§Ä±kÄ±ÅŸ kuzeyindeki kapÄ±.
 ~
 0 DR 0
 D0
-İleride arenayı görüyorsun.
+Ä°leride arenayÄ± gÃ¶rÃ¼yorsun.
 ~
-kapı~
+kapÄ±~
 1 -1 3722
 E
-işaret~
-MUD Okulundan mezun oldun. Diplomanı al, tabii eğer becerebilirsen...
-Buradan sonra KUZEYE, arenaya git. Orada düşük düzeyde birçok hayvan
-bulacaksın. Fakat diğer oyunculara saldırma. Tapınağı'na dönmek istersen
-'[1;32mANIMSA[0;37m' yaz. Karakterini kaydetmek için
-KAYDET yazmayı unutma. Bir karakter 2. seviyeye ulaşmadan kaydedilmez.
-Oyun sırasında daha fazla yardıma ihtiyacın olursa www.uzakdiyarlar.net
-adresine gözat. Tekrar görüşmemek dileğiyle. Yolun açık olsun...
+iÅŸaret~
+MUD Okulundan mezun oldun. DiplomanÄ± al, tabii eÄŸer becerebilirsen...
+Buradan sonra KUZEYE, arenaya git. Orada dÃ¼ÅŸÃ¼k dÃ¼zeyde birÃ§ok hayvan
+bulacaksÄ±n. Fakat diÄŸer oyunculara saldÄ±rma. TapÄ±naÄŸÄ±'na dÃ¶nmek istersen
+'[1;32mANIMSA[0;37m' yaz. Karakterini kaydetmek iÃ§in
+KAYDET yazmayÄ± unutma. Bir karakter 2. seviyeye ulaÅŸmadan kaydedilmez.
+Oyun sÄ±rasÄ±nda daha fazla yardÄ±ma ihtiyacÄ±n olursa www.uzakdiyarlar.net
+adresine gÃ¶zat. Tekrar gÃ¶rÃ¼ÅŸmemek dileÄŸiyle. Yolun aÃ§Ä±k olsun...
 ~
 S
 #3722
-Arenanın Güney Duvarı~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenanÄ±n GÃ¼ney DuvarÄ±~
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D0
@@ -994,16 +994,16 @@ D3
 ~
 0 0 3723
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3723
-Arenanın Güney Duvarı~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenanÄ±n GÃ¼ney DuvarÄ±~
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D0
@@ -1019,16 +1019,16 @@ D3
 ~
 0 0 3724
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3724
-Arenanın Güney Batı Köşesi~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenanÄ±n GÃ¼ney BatÄ± KÃ¶ÅŸesi~
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D0
@@ -1040,16 +1040,16 @@ D1
 ~
 0 0 3723
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3725
-Arenanın Güney Duvarı~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenanÄ±n GÃ¼ney DuvarÄ±~
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D0
@@ -1065,16 +1065,16 @@ D3
 ~
 0 0 3722
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3726
-Arenanın Güney Doğu Köşesi~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenanÄ±n GÃ¼ney DoÄŸu KÃ¶ÅŸesi~
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D0
@@ -1086,16 +1086,16 @@ D3
 ~
 0 0 3725
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3727
-Arenanın Batı Duvarı~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenanÄ±n BatÄ± DuvarÄ±~
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D0
@@ -1111,16 +1111,16 @@ D2
 ~
 0 0 3724
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3728
 Arena~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D0
@@ -1140,16 +1140,16 @@ D3
 ~
 0 0 3727
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3729
 Arena~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D0
@@ -1169,16 +1169,16 @@ D3
 ~
 0 0 3728
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3730
 Arena~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D0
@@ -1198,16 +1198,16 @@ D3
 ~
 0 0 3729
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3731
-Arenanın Doğu Duvarı~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenanÄ±n DoÄŸu DuvarÄ±~
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D0
@@ -1223,16 +1223,16 @@ D3
 ~
 0 0 3730
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3732
-Arenanın Batı Duvarı~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenanÄ±n BatÄ± DuvarÄ±~
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D0
@@ -1248,16 +1248,16 @@ D2
 ~
 0 0 3727
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3733
 Arena~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D0
@@ -1277,16 +1277,16 @@ D3
 ~
 0 0 3732
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3734
-Arenanın Merkezi~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun. Büyük bir işaret görüyorsun.
+ArenanÄ±n Merkezi~
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun. BÃ¼yÃ¼k bir iÅŸaret gÃ¶rÃ¼yorsun.
 ~
 0 D 0
 D0
@@ -1306,27 +1306,27 @@ D3
 ~
 0 0 3733
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 D5
-Aşağıda karanlık bir zindan görüyorsun.
+AÅŸaÄŸÄ±da karanlÄ±k bir zindan gÃ¶rÃ¼yorsun.
 ~
-ızgara~
+Ä±zgara~
 1 -1 3748
 E
-işaret~
-Çok cesur olanlar ya da hisleri kör olanlar aşağıdaki zindana inmek
-isteyebilirler. Yalnız şunu bilin ki aşağıda agresif canavarlar var, ve
-zindandayken buraya kaçıp kurtulmak o kadar da kolay olmayabilir.
+iÅŸaret~
+Ã‡ok cesur olanlar ya da hisleri kÃ¶r olanlar aÅŸaÄŸÄ±daki zindana inmek
+isteyebilirler. YalnÄ±z ÅŸunu bilin ki aÅŸaÄŸÄ±da agresif canavarlar var, ve
+zindandayken buraya kaÃ§Ä±p kurtulmak o kadar da kolay olmayabilir.
 ~
 S
 #3735
 Arena~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D0
@@ -1346,16 +1346,16 @@ D3
 ~
 0 0 3734
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3736
-Arenanın Doğu Duvarı~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenanÄ±n DoÄŸu DuvarÄ±~
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D0
@@ -1371,16 +1371,16 @@ D3
 ~
 0 0 3735
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3737
-Arenanın Batı Duvarı~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenanÄ±n BatÄ± DuvarÄ±~
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D0
@@ -1396,16 +1396,16 @@ D2
 ~
 0 0 3732
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3738
 Arena~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D0
@@ -1425,16 +1425,16 @@ D3
 ~
 0 0 3737
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3739
 Arena~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D0
@@ -1454,16 +1454,16 @@ D3
 ~
 0 0 3738
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3740
 Arena~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D0
@@ -1483,16 +1483,16 @@ D3
 ~
 0 0 3739
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3741
-Arenanın Doğu Duvarı~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenanÄ±n DoÄŸu DuvarÄ±~
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D0
@@ -1508,16 +1508,16 @@ D3
 ~
 0 0 3740
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3742
-Arenanın Kuzey Batı Köşesi~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenanÄ±n Kuzey BatÄ± KÃ¶ÅŸesi~
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D1
@@ -1529,16 +1529,16 @@ D2
 ~
 0 0 3737
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3743
-Arenanın Kuzey Duvarı~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenanÄ±n Kuzey DuvarÄ±~
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D1
@@ -1554,16 +1554,16 @@ D3
 ~
 0 0 3742
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3744
-Arenanın Kuzey Duvarı~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenanÄ±n Kuzey DuvarÄ±~
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D1
@@ -1579,16 +1579,16 @@ D3
 ~
 0 0 3743
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3745
-Arenanın Kuzey Duvarı~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenanÄ±n Kuzey DuvarÄ±~
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D1
@@ -1604,16 +1604,16 @@ D3
 ~
 0 0 3744
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3746
-Arenanın Kuzey Doğu Köşesi~
-Arenadasın. Şunu hatırlatayım ki eğer buradan ayrılmak istiyorsan YUKARI
-çıkman yeterli. Tavan yeterince net görülebiliyor. Gizlenmiş birşeyler
-tarafından izlendiğin hissine kapılıyorsun.
+ArenanÄ±n Kuzey DoÄŸu KÃ¶ÅŸesi~
+ArenadasÄ±n. Åunu hatÄ±rlatayÄ±m ki eÄŸer buradan ayrÄ±lmak istiyorsan YUKARI
+Ã§Ä±kman yeterli. Tavan yeterince net gÃ¶rÃ¼lebiliyor. GizlenmiÅŸ birÅŸeyler
+tarafÄ±ndan izlendiÄŸin hissine kapÄ±lÄ±yorsun.
 ~
 0 D 0
 D2
@@ -1625,287 +1625,287 @@ D3
 ~
 0 0 3745
 D4
-Arenadan çıkışı görüyorsun.
+Arenadan Ã§Ä±kÄ±ÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3760
 S
 #3748
-Zindanın Merkezi~
-Zindanın merkezindeki geniş odadasın. Tepeden gelen zayıf ışıkta yerin
-bir tür balçıkla kaplandığını görebiliyorsun. Bu bölgenin çok da büyük
-olmadığını anlayınca paniğe kapılıyorsun. Her yöne çıkış var.
+ZindanÄ±n Merkezi~
+ZindanÄ±n merkezindeki geniÅŸ odadasÄ±n. Tepeden gelen zayÄ±f Ä±ÅŸÄ±kta yerin
+bir tÃ¼r balÃ§Ä±kla kaplandÄ±ÄŸÄ±nÄ± gÃ¶rebiliyorsun. Bu bÃ¶lgenin Ã§ok da bÃ¼yÃ¼k
+olmadÄ±ÄŸÄ±nÄ± anlayÄ±nca paniÄŸe kapÄ±lÄ±yorsun. Her yÃ¶ne Ã§Ä±kÄ±ÅŸ var.
 Tabii YUKARI da.
 ~
 0 D 0
 D0
-Kuzey duvarını görüyorsun.
+Kuzey duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3750
 D1
-Doğu duvarını görüyorsun.
+DoÄŸu duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3753
 D2
-Güney duvarını görüyorsun.
+GÃ¼ney duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3755
 D3
-Batı duvarını görüyorsun.
+BatÄ± duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3752
 D4
-Güvenli yeri görüyorsun.
+GÃ¼venli yeri gÃ¶rÃ¼yorsun.
 ~
-ızgara~
+Ä±zgara~
 1 -1 3734
 S
 #3749
-Zindanın Kuzey Batı Köşesi~
-Zindanda bir duvarın önündesin. Burası biraz karanlık. Etrafta pencere
-olmaması kokunun nedenini açıklıyor.
+ZindanÄ±n Kuzey BatÄ± KÃ¶ÅŸesi~
+Zindanda bir duvarÄ±n Ã¶nÃ¼ndesin. BurasÄ± biraz karanlÄ±k. Etrafta pencere
+olmamasÄ± kokunun nedenini aÃ§Ä±klÄ±yor.
 ~
 0 AD 0
 D1
-Kuzey duvarını görüyorsun.
+Kuzey duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3750
 D2
-Güney duvarını görüyorsun.
+GÃ¼ney duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3752
 S
 #3750
-Zindanın Kuzey Duvarı~
-Zindanda bir duvarın önündesin. Burası biraz karanlık. Etrafta pencere
-olmaması kokunun nedenini açıklıyor.
+ZindanÄ±n Kuzey DuvarÄ±~
+Zindanda bir duvarÄ±n Ã¶nÃ¼ndesin. BurasÄ± biraz karanlÄ±k. Etrafta pencere
+olmamasÄ± kokunun nedenini aÃ§Ä±klÄ±yor.
 ~
 0 AD 0
 D1
-Kuzey-doğu köşesini görüyorsun.
+Kuzey-doÄŸu kÃ¶ÅŸesini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3751
 D2
-Zindanın merkezini görüyorsun.
+ZindanÄ±n merkezini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3748
 D3
-Kuzey-batı köşesini görüyorsun.
+Kuzey-batÄ± kÃ¶ÅŸesini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3749
 S
 #3751
-Zindanın Kuzey Doğu Köşesi~
-Zindanda bir duvarın önündesin. Burası biraz karanlık. Etrafta pencere
-olmaması kokunun nedenini açıklıyor.
+ZindanÄ±n Kuzey DoÄŸu KÃ¶ÅŸesi~
+Zindanda bir duvarÄ±n Ã¶nÃ¼ndesin. BurasÄ± biraz karanlÄ±k. Etrafta pencere
+olmamasÄ± kokunun nedenini aÃ§Ä±klÄ±yor.
 ~
 0 AD 0
 D2
-Doğu duvarını görüyorsun.
+DoÄŸu duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3753
 D3
-Kuzey duvarını görüyorsun.
+Kuzey duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3750
 S
 #3752
-Zindanın Batı Duvarı~
-Zindanda bir duvarın önündesin. Burası biraz karanlık. Etrafta pencere
-olmaması kokunun nedenini açıklıyor.
+ZindanÄ±n BatÄ± DuvarÄ±~
+Zindanda bir duvarÄ±n Ã¶nÃ¼ndesin. BurasÄ± biraz karanlÄ±k. Etrafta pencere
+olmamasÄ± kokunun nedenini aÃ§Ä±klÄ±yor.
 ~
 0 AD 0
 D0
-Kuzey-batı köşesini görüyorsun.
+Kuzey-batÄ± kÃ¶ÅŸesini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3749
 D1
-Zindanın merkezini görüyorsun.
+ZindanÄ±n merkezini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3748
 D2
-Güney-batı köşesini görüyorsun.
+GÃ¼ney-batÄ± kÃ¶ÅŸesini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3754
 S
 #3753
-Zindanın Doğu Duvarı~
-Zindanda bir duvarın önündesin. Burası biraz karanlık. Etrafta pencere
-olmaması kokunun nedenini açıklıyor.
+ZindanÄ±n DoÄŸu DuvarÄ±~
+Zindanda bir duvarÄ±n Ã¶nÃ¼ndesin. BurasÄ± biraz karanlÄ±k. Etrafta pencere
+olmamasÄ± kokunun nedenini aÃ§Ä±klÄ±yor.
 ~
 0 AD 0
 D0
-Kuzey-doğu köşesini görüyorsun.
+Kuzey-doÄŸu kÃ¶ÅŸesini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3751
 D2
-Güney-doğu köşesini görüyorsun.
+GÃ¼ney-doÄŸu kÃ¶ÅŸesini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3756
 D3
-Zindanın merkezini görüyorsun.
+ZindanÄ±n merkezini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3748
 S
 #3754
-Zindanın Güney Batı Köşesi~
-Zindanda bir duvarın önündesin. Burası biraz karanlık. Etrafta pencere
-olmaması kokunun nedenini açıklıyor.
+ZindanÄ±n GÃ¼ney BatÄ± KÃ¶ÅŸesi~
+Zindanda bir duvarÄ±n Ã¶nÃ¼ndesin. BurasÄ± biraz karanlÄ±k. Etrafta pencere
+olmamasÄ± kokunun nedenini aÃ§Ä±klÄ±yor.
 ~
 0 AD 0
 D0
-Kuzey duvarını görüyorsun.
+Kuzey duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3752
 D1
-Güney duvarını görüyorsun.
+GÃ¼ney duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3755
 S
 #3755
-Zindanın Güney Duvarı~
-Zindanda bir duvarın önündesin. Burası biraz karanlık. Etrafta pencere
-olmaması kokunun nedenini açıklıyor.
+ZindanÄ±n GÃ¼ney DuvarÄ±~
+Zindanda bir duvarÄ±n Ã¶nÃ¼ndesin. BurasÄ± biraz karanlÄ±k. Etrafta pencere
+olmamasÄ± kokunun nedenini aÃ§Ä±klÄ±yor.
 ~
 0 AD 0
 D0
-Zindanın merkezini görüyorsun.
+ZindanÄ±n merkezini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3748
 D1
-Güney-doğu köşesini görüyorsun.
+GÃ¼ney-doÄŸu kÃ¶ÅŸesini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3756
 D3
-Güney-batı köşesini görüyorsun.
+GÃ¼ney-batÄ± kÃ¶ÅŸesini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3754
 S
 #3756
-Zindanın Güney Doğu Köşesi~
-Zindanda bir duvarın önündesin. Burası biraz karanlık. Etrafta pencere
-olmaması kokunun nedenini açıklıyor.
+ZindanÄ±n GÃ¼ney DoÄŸu KÃ¶ÅŸesi~
+Zindanda bir duvarÄ±n Ã¶nÃ¼ndesin. BurasÄ± biraz karanlÄ±k. Etrafta pencere
+olmamasÄ± kokunun nedenini aÃ§Ä±klÄ±yor.
 ~
 0 AD 0
 D0
-Doğu duvarını görüyorsun.
+DoÄŸu duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3753
 D3
-Güney duvarını görüyorsun.
+GÃ¼ney duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3755
 S
 #3757
 MUD okulunda bir oda~
-MUD Okulu'nda bir odadasın. Duvarda daha önceden buradan mezun
-olan kahramanların tabloları var. Batıda Eğitim Odası, doğuda ise
-Pratik Odası var. Kuzeyinde MUD Okulu'ndaki diğer istasyonu
-görüyorsun. Duvarda bir işaret var.
-Okumak için '[1;32mBAK İŞARET[0;37m' yaz.
+MUD Okulu'nda bir odadasÄ±n. Duvarda daha Ã¶nceden buradan mezun
+olan kahramanlarÄ±n tablolarÄ± var. BatÄ±da EÄŸitim OdasÄ±, doÄŸuda ise
+Pratik OdasÄ± var. Kuzeyinde MUD Okulu'ndaki diÄŸer istasyonu
+gÃ¶rÃ¼yorsun. Duvarda bir iÅŸaret var.
+Okumak iÃ§in '[1;32mBAK Ä°ÅARET[0;37m' yaz.
 ~
 0 CDR 1
 D0
-Bir sonraki istasyonu görüyorsun.
+Bir sonraki istasyonu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3701
 D1
-Pratik Odası'nı görüyorsun. Orada PRATİK yapabilirsin.
+Pratik OdasÄ±'nÄ± gÃ¶rÃ¼yorsun. Orada PRATÄ°K yapabilirsin.
 ~
 ~
 0 0 3759
 D2
-MUD Okulu Girişi'ni görüyorsun.
+MUD Okulu GiriÅŸi'ni gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3700
 D3
-Eğitim Odası'nı görüyorsun. Orada EĞİTİM yapabilirsin.
+EÄŸitim OdasÄ±'nÄ± gÃ¶rÃ¼yorsun. Orada EÄÄ°TÄ°M yapabilirsin.
 ~
 ~
 0 0 3758
 E
-işaret~
-Kendin hakkındaki bilgileri öğrenmek için '[1;32mskor[0;37m' yaz.
-Niteliklerini Eğitim Odası'nda artırabilirsin. Pratik yapmak
-içinse Pratik Odası'nı kullan.
+iÅŸaret~
+Kendin hakkÄ±ndaki bilgileri Ã¶ÄŸrenmek iÃ§in '[1;32mskor[0;37m' yaz.
+Niteliklerini EÄŸitim OdasÄ±'nda artÄ±rabilirsin. Pratik yapmak
+iÃ§inse Pratik OdasÄ±'nÄ± kullan.
 ~
 S
 #3758
-Eğitim Odası~
-Eğitim Odası'ndasın. Etrafta bedensel ve zihinsel eğitim araçları
-duruyor. Bu hoş oda büyüyle ve kutsallıkla dolmuş. Duvarda bir
-işaret var.
+EÄŸitim OdasÄ±~
+EÄŸitim OdasÄ±'ndasÄ±n. Etrafta bedensel ve zihinsel eÄŸitim araÃ§larÄ±
+duruyor. Bu hoÅŸ oda bÃ¼yÃ¼yle ve kutsallÄ±kla dolmuÅŸ. Duvarda bir
+iÅŸaret var.
 ~
 0 CDR 1
 D1
-Geldiğin oda ve gitmen gereken odayı görüyorsun.
+GeldiÄŸin oda ve gitmen gereken odayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3757
 E
-işaret~
-Eğitim Odası'na hoşgeldin. Burada niteliklerini eğitimle geliştirebilirsin.
-Bir niteliğini eğitmek için yeterince eğitim seansın olmalıdır. Ne kadar
-eğitim seansın olduğunu görmek için bu odadayken '[1;32meğitim[0;37m'
-yaz. Belirli bir niteliğini eğitmek için 'eğitim <nitelik>' yaz. Niteliğin
-ilk üç harfini kullanman gerektiğini de unutma.
+iÅŸaret~
+EÄŸitim OdasÄ±'na hoÅŸgeldin. Burada niteliklerini eÄŸitimle geliÅŸtirebilirsin.
+Bir niteliÄŸini eÄŸitmek iÃ§in yeterince eÄŸitim seansÄ±n olmalÄ±dÄ±r. Ne kadar
+eÄŸitim seansÄ±n olduÄŸunu gÃ¶rmek iÃ§in bu odadayken '[1;32meÄŸitim[0;37m'
+yaz. Belirli bir niteliÄŸini eÄŸitmek iÃ§in 'eÄŸitim <nitelik>' yaz. NiteliÄŸin
+ilk Ã¼Ã§ harfini kullanman gerektiÄŸini de unutma.
 ~
 S
 #3759
-Pratik Odası~
-Silahlarla, kitaplarla ve savaş malzemeleriyle dolu bir odadasın. Bu hoş
-oda büyülerle korunuyor. Duvarda bir işaret var.
+Pratik OdasÄ±~
+Silahlarla, kitaplarla ve savaÅŸ malzemeleriyle dolu bir odadasÄ±n. Bu hoÅŸ
+oda bÃ¼yÃ¼lerle korunuyor. Duvarda bir iÅŸaret var.
 ~
 0 CDR 1
 D3
-Geldiğin oda ve gitmen gereken odayı görüyorsun.
+GeldiÄŸin oda ve gitmen gereken odayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3757
 E
-işaret~
-Pratik Odası'na hoşgeldin. Burada yeteneklerini ve büyülerini öğreneceksin.
-Hangi yetenek ve büyüleri pratik edebileceğini ve kaç pratik seansın olduğunu
-görmek için '[1;32mpratik[0;37m' yaz. Pratik yapmak için 'pratik <yetenek>'
-komutunu kullan. Pratik yapmak ilgili yetenek veya büyüye dair bildiklerini
-belirli bir seviyeye kadar artıracaktır. Pratik etmek istediğin özellikleri
-pratik ettikten sonra batıya git.
+iÅŸaret~
+Pratik OdasÄ±'na hoÅŸgeldin. Burada yeteneklerini ve bÃ¼yÃ¼lerini Ã¶ÄŸreneceksin.
+Hangi yetenek ve bÃ¼yÃ¼leri pratik edebileceÄŸini ve kaÃ§ pratik seansÄ±n olduÄŸunu
+gÃ¶rmek iÃ§in '[1;32mpratik[0;37m' yaz. Pratik yapmak iÃ§in 'pratik <yetenek>'
+komutunu kullan. Pratik yapmak ilgili yetenek veya bÃ¼yÃ¼ye dair bildiklerini
+belirli bir seviyeye kadar artÄ±racaktÄ±r. Pratik etmek istediÄŸin Ã¶zellikleri
+pratik ettikten sonra batÄ±ya git.
 ~
 S
 #3760
-Güvenli Bir Oda~
-Arenanın haşin tavşan ve salyangozlarından uzakta güvenli bir odadasın.
-Burada dinlenebilirsin ya da yukarıya, Selenge Tapınağı'na çıkabilirsin.
+GÃ¼venli Bir Oda~
+ArenanÄ±n haÅŸin tavÅŸan ve salyangozlarÄ±ndan uzakta gÃ¼venli bir odadasÄ±n.
+Burada dinlenebilirsin ya da yukarÄ±ya, Selenge TapÄ±naÄŸÄ±'na Ã§Ä±kabilirsin.
 ~
 0 CD 0
 D4
-Selenge Tapınağı'nı görüyorsun.
+Selenge TapÄ±naÄŸÄ±'nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 3001

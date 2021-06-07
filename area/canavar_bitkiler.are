@@ -3,7 +3,7 @@ Filename canavar_bitkiler.are~
 Name Canavar Bitkiler~
 Builder Garth~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 40
 Highlevel 60
 Minvnum 30230
@@ -16,9 +16,9 @@ END
 
 #NEW_MOBILES
 #30232
-yeşil canavar çiçek~
-canavar çiçek~
-Yeşil renkte bir canavar çiçek iştahla seni izliyor.
+yeÅŸil canavar Ã§iÃ§ek~
+canavar Ã§iÃ§ek~
+YeÅŸil renkte bir canavar Ã§iÃ§ek iÅŸtahla seni izliyor.
 ~
 This giant plant is covered with bud. It looks like it could
 smoke you.
@@ -26,9 +26,9 @@ smoke you.
 human~
 64|128 8|128|524288 55
 #30233
-mor canavar çiçek~
-canavar çiçek~
-Mor renkte bir canavar çiçek iştahla seni izliyor.
+mor canavar Ã§iÃ§ek~
+canavar Ã§iÃ§ek~
+Mor renkte bir canavar Ã§iÃ§ek iÅŸtahla seni izliyor.
 ~
 The bud of this giant bush weighs its leaves to the ground.
 It is a blend of beautiful orange, red, and blue hairs. Just a
@@ -37,9 +37,9 @@ fraction of this plant would be enough to keep you happy for a year.
 human~
 2|64 8|128|524288 60
 #30234
-küçük canavar çiçek~
-canavar çiçek~
-Küçük bir canavar çiçek bacağını ısırmaya çalışıyor.
+kÃ¼Ã§Ã¼k canavar Ã§iÃ§ek~
+canavar Ã§iÃ§ek~
+KÃ¼Ã§Ã¼k bir canavar Ã§iÃ§ek bacaÄŸÄ±nÄ± Ä±sÄ±rmaya Ã§alÄ±ÅŸÄ±yor.
 ~
 This wrapping of reefer is just what you might need after a hard
 day of work.
@@ -47,9 +47,9 @@ day of work.
 human~
 64|128 32768|524288 40
 #30235
-eşek arısı~
-eşek arısı~
-Sarı-siyah renkte halkalarıyla kocaman bir eşek arısı VIZILDIYOR.
+eÅŸek arÄ±sÄ±~
+eÅŸek arÄ±sÄ±~
+SarÄ±-siyah renkte halkalarÄ±yla kocaman bir eÅŸek arÄ±sÄ± VIZILDIYOR.
 ~
 What used to be a cigar is now filled with enough bud to get the
 owner 5 years.
@@ -57,9 +57,9 @@ owner 5 years.
 human~
 64 524288 46
 #30236
-keskin dişli keçi~
-keskin dişli keçi~
-Keskin dişli bir keçi. Et yiyen bir keçi görmüş müydün???
+keskin diÅŸli keÃ§i~
+keskin diÅŸli keÃ§i~
+Keskin diÅŸli bir keÃ§i. Et yiyen bir keÃ§i gÃ¶rmÃ¼ÅŸ mÃ¼ydÃ¼n???
 ~
 While not a large quanitity of weed, it's probably enough to get
 you by for an hour or two.
@@ -67,9 +67,9 @@ you by for an hour or two.
 human~
 64|128 8|524288 43
 #30237
-keskin dişli ördek~
-keskin dişli ördek~
-İşte dişleri olan bir ördek! Ne kadar da keskinler...
+keskin diÅŸli Ã¶rdek~
+keskin diÅŸli Ã¶rdek~
+Ä°ÅŸte diÅŸleri olan bir Ã¶rdek! Ne kadar da keskinler...
 ~
 This burly, buzzcutted fellow just joined the DEA after being fired
 from the ATF for shooting an innocent child. He's not the type to be
@@ -81,7 +81,7 @@ human~
 #30238
 dev solucan~
 dev solucan~
-Dev bir solucan! Ağzından sümüksü salyalar akıyor...
+Dev bir solucan! AÄŸzÄ±ndan sÃ¼mÃ¼ksÃ¼ salyalar akÄ±yor...
 ~
 A big Central American looks at you and says,
 "Hola amigo, muchos dinenos."
@@ -99,9 +99,9 @@ the munchies.
 unique~
 32|64 2|8 38
 #30240
-bitki avcısı~
-bitki avcısı~
-İşte canavar bitki ve hayvanlardan korkmayan bir avcı! Aptal olmalı...
+bitki avcÄ±sÄ±~
+bitki avcÄ±sÄ±~
+Ä°ÅŸte canavar bitki ve hayvanlardan korkmayan bir avcÄ±! Aptal olmalÄ±...
 ~
 He breaks into timeless verse singing,
 ~
@@ -112,9 +112,9 @@ human~
 
 #OBJECTS
 #30232
-su kamışı on ayak~
-su kamışı~
-On ayak uzunluğunda bir kamış görüyorsun.~
+su kamÄ±ÅŸÄ± on ayak~
+su kamÄ±ÅŸÄ±~
+On ayak uzunluÄŸunda bir kamÄ±ÅŸ gÃ¶rÃ¼yorsun.~
 glass~
 weapon 1|512 1|8192
 exotic 6 9 suction 0
@@ -126,25 +126,25 @@ A
 A
 3 -1
 #30233
-sümüksü salgı~
-sümüksü salgı~
-Sümüksü bir salgı birikintisi görüyorsun. İĞRENÇ!~
+sÃ¼mÃ¼ksÃ¼ salgÄ±~
+sÃ¼mÃ¼ksÃ¼ salgÄ±~
+SÃ¼mÃ¼ksÃ¼ bir salgÄ± birikintisi gÃ¶rÃ¼yorsun. Ä°ÄRENÃ‡!~
 ~
 potion 1 1
 25 'heal' 'invis' 'sanctuary' ''
 25 1 5800 P
 #30234
-tuzlanmış yaprak~
-tuzlanmış yaprak~
-Tuzlanmış bir yaprak görüyorsun.~
+tuzlanmÄ±ÅŸ yaprak~
+tuzlanmÄ±ÅŸ yaprak~
+TuzlanmÄ±ÅŸ bir yaprak gÃ¶rÃ¼yorsun.~
 ~
 pill 1 1
 30 'armor' 'fly' 'infravision' ''
 25 1 2000 P
 #30235
-işlenmiş yapraklar~
-işlenmiş yapraklar~
-Birbirine bağlanarak işlenmiş yapraklar görüyorsun.~
+iÅŸlenmiÅŸ yapraklar~
+iÅŸlenmiÅŸ yapraklar~
+Birbirine baÄŸlanarak iÅŸlenmiÅŸ yapraklar gÃ¶rÃ¼yorsun.~
 ~
 armor 64 1|16384
 0 0 0 0 0
@@ -152,9 +152,9 @@ armor 64 1|16384
 A
 1 2
 #30236
-çatallı asa~
-çatallı asa~
-Çatallı bir asa görüyorsun.~
+Ã§atallÄ± asa~
+Ã§atallÄ± asa~
+Ã‡atallÄ± bir asa gÃ¶rÃ¼yorsun.~
 ~
 weapon 1|1024 1|8192
 exotic 6 9 suction 0
@@ -168,7 +168,7 @@ A
 #30237
 parlayan yaprak~
 parlayan yaprak~
-Büyüyle parlayan bir yaprak görüyorsun~
+BÃ¼yÃ¼yle parlayan bir yaprak gÃ¶rÃ¼yorsun~
 ~
 light 1 1
 0 1 -1 0 0
@@ -178,9 +178,9 @@ A
 A
 2 2
 #30238
-domuz artık~
-domuz artığı~
-Domuzun yemekten vazgeçtiği bir artık görüyorsun.~
+domuz artÄ±k~
+domuz artÄ±ÄŸÄ±~
+Domuzun yemekten vazgeÃ§tiÄŸi bir artÄ±k gÃ¶rÃ¼yorsun.~
 ~
 food 0 1
 24 24 0 0 0
@@ -190,7 +190,7 @@ food 0 1
 
 #ROOMS
 #30232
-Bitkinin Çevresi~
+Bitkinin Ã‡evresi~
 This area is intended to be humorous.
 Do not enter if you have a poor sense of humor or are under level 40.
 You have been warned. You try being creative after a few screwdrivers.
@@ -228,7 +228,7 @@ D4
 0 -1 30234
 S
 #30234
-Bitkinin Sapı~
+Bitkinin SapÄ±~
 You are travelling up the stem of the plant. You see leaves of the
 plant to the left and the right of you. As before, the air is filled
 with a sweet fragrance which relaxes you and enhances your senses.
@@ -260,7 +260,7 @@ D5
 0 -1 30233
 S
 #30235
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -276,7 +276,7 @@ D3
 0 -1 30239
 S
 #30236
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -292,7 +292,7 @@ D3
 0 -1 30234
 S
 #30237
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -308,7 +308,7 @@ D3
 0 -1 30236
 S
 #30238
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -320,7 +320,7 @@ D3
 0 -1 30237
 S
 #30239
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -336,7 +336,7 @@ D3
 0 -1 30240
 S
 #30240
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -348,7 +348,7 @@ D1
 0 -1 30239
 S
 #30241
-Bitkinin Sapı~
+Bitkinin SapÄ±~
 You are travelling up the stem of the plant. You see leaves of the
 plant to the left and the right of you. As before, the air is filled
 with a sweet fragrance which relaxes you and enhances your senses.
@@ -380,7 +380,7 @@ D5
 0 -1 30234
 S
 #30242
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -396,7 +396,7 @@ D3
 0 -1 30243
 S
 #30243
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -408,7 +408,7 @@ D1
 0 -1 30242
 S
 #30244
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -424,7 +424,7 @@ D3
 0 -1 30241
 S
 #30245
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -436,7 +436,7 @@ D3
 0 -1 30244
 S
 #30246
-Bitkinin Sapı~
+Bitkinin SapÄ±~
 You are travelling up the stem of the plant. You see leaves of the
 plant to the left and the right of you. As before, the air is filled
 with a sweet fragrance which relaxes you and enhances your senses.
@@ -468,7 +468,7 @@ D5
 0 -1 30241
 S
 #30247
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -480,7 +480,7 @@ D3
 0 -1 30246
 S
 #30248
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -492,7 +492,7 @@ D1
 0 -1 30246
 S
 #30249
-Bitkinin Üzeri~
+Bitkinin Ãœzeri~
 You have reached the top this wonderful bundle of bud. You remember
 when you were young and you were told to say no to drugs. But were
 you ever told how they could expand your mind and give you fun new
@@ -505,7 +505,7 @@ D5
 0 -1 30246
 S
 #30250
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -521,7 +521,7 @@ D2
 0 -1 30234
 S
 #30251
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -537,7 +537,7 @@ D2
 0 -1 30250
 S
 #30252
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -549,7 +549,7 @@ D2
 0 -1 30251
 S
 #30253
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -565,7 +565,7 @@ D2
 0 -1 30254
 S
 #30254
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -581,7 +581,7 @@ D2
 0 -1 30255
 S
 #30255
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -593,7 +593,7 @@ D0
 0 -1 30254
 S
 #30256
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -609,7 +609,7 @@ D2
 0 -1 30241
 S
 #30257
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -621,7 +621,7 @@ D2
 0 -1 30256
 S
 #30258
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -637,7 +637,7 @@ D2
 0 -1 30259
 S
 #30259
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -649,7 +649,7 @@ D0
 0 -1 30258
 S
 #30260
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -661,7 +661,7 @@ D2
 0 -1 30246
 S
 #30261
-Bitkinin Yaprağı~
+Bitkinin YapraÄŸÄ±~
 You are travelling on the leaves of the plant. You feel yourself
 becoming stuck in the hairs of the plant. You look around and all
 you see is sheer beauty. If only real life could be this perfect.
@@ -718,7 +718,7 @@ S
 
 #OLIMITS
 O 30233 10	* sanctuary potion
-O 30234 3	* tuzlanmış yaprak
+O 30234 3	* tuzlanmÄ±ÅŸ yaprak
 S
 
 #$

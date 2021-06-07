@@ -502,7 +502,7 @@ void ProtocolNoEcho( descriptor_t *apDescriptor, bool_t abOn );
  * whatever is left for the mud to parse normally.  Call this after data has
  * been read into the input buffer, before it is used for anything else.
  */
-void ProtocolInput( descriptor_t *apDescriptor, char *apData, int aSize, char *apOut );
+void ProtocolInput( descriptor_t *apDescriptor, wchar_t *apData, int aSize, wchar_t *apOut );
 
 /* Function: ProtocolOutput
  *
@@ -571,7 +571,7 @@ void ProtocolInput( descriptor_t *apDescriptor, char *apData, int aSize, char *a
  * Note that the MXP tags will automatically be removed if the user doesn't
  * support MXP, but it's very important you remember to close the tags.
  */
-const char *ProtocolOutput( descriptor_t *apDescriptor, const char *apData, int *apLength );
+const wchar_t *ProtocolOutput( descriptor_t *apDescriptor, const wchar_t *apData, int *apLength );
 
 /******************************************************************************
  Copyover save/load functions.
@@ -583,7 +583,7 @@ const char *ProtocolOutput( descriptor_t *apDescriptor, const char *apData, int 
  * copyover, you should call this for each player and insert it after their
  * name in the temporary text file.
  */
-const char *CopyoverGet( descriptor_t *apDescriptor );
+const wchar_t *CopyoverGet( descriptor_t *apDescriptor );
 
 /* Function: CopyoverSet
  *
@@ -599,7 +599,7 @@ const char *CopyoverGet( descriptor_t *apDescriptor );
  * Client name and version are not saved.  It is recommended you save these in
  * the player file, as then you can grep to collect client usage stats.
  */
-void CopyoverSet( descriptor_t *apDescriptor, const char *apData );
+void CopyoverSet( descriptor_t *apDescriptor, const wchar_t *apData );
 
 /******************************************************************************
  MSDP functions.
@@ -636,7 +636,7 @@ void MSDPSend( descriptor_t *apDescriptor, variable_t aMSDP );
  * Send the specified strings to the user as an MSDP variable/value pair.  This
  * will automatically use ATCP instead if MSDP is not supported by the client.
  */
-void MSDPSendPair( descriptor_t *apDescriptor, const char *apVariable, const char *apValue );
+void MSDPSendPair( descriptor_t *apDescriptor, const wchar_t *apVariable, const wchar_t *apValue );
 
 /* Function: MSDPSendList
  *
@@ -644,7 +644,7 @@ void MSDPSendPair( descriptor_t *apDescriptor, const char *apVariable, const cha
  *
  * apValue should be a list of values separated by spaces.
  */
-void MSDPSendList( descriptor_t *apDescriptor, const char *apVariable, const char *apValue );
+void MSDPSendList( descriptor_t *apDescriptor, const wchar_t *apVariable, const wchar_t *apValue );
 
 /* Function: MSDPSetNumber
  *
@@ -664,7 +664,7 @@ void MSDPSetNumber( descriptor_t *apDescriptor, variable_t aMSDP, int aValue );
  * this is what the snippet does by default), but if the variable is only
  * set in one place you can just move its MDSPSend() call to there.
  */
-void MSDPSetString( descriptor_t *apDescriptor, variable_t aMSDP, const char *apValue );
+void MSDPSetString( descriptor_t *apDescriptor, variable_t aMSDP, const wchar_t *apValue );
 
 /* Function: MSDPSetTable
  *
@@ -672,10 +672,10 @@ void MSDPSetString( descriptor_t *apDescriptor, variable_t aMSDP, const char *ap
  *
  * You must add the MSDP_VAR and MSDP_VAL manually, for example:
  *
- * sprintf( Buffer, "%c%s%c%s", (char)MSDP_VAR, Name, (char)MSDP_VAL, Value );
+ * swprintf( Buffer, "%c%s%c%s", (char)MSDP_VAR, Name, (char)MSDP_VAL, Value );
  * MSDPSetTable( d, eMSDP_TEST, Buffer );
  */
-void MSDPSetTable( descriptor_t *apDescriptor, variable_t aMSDP, const char *apValue );
+void MSDPSetTable( descriptor_t *apDescriptor, variable_t aMSDP, const wchar_t *apValue );
 
 /* Function: MSDPSetArray
  *
@@ -683,10 +683,10 @@ void MSDPSetTable( descriptor_t *apDescriptor, variable_t aMSDP, const char *apV
  *
  * You must add the MSDP_VAR before each element manually, for example:
  *
- * sprintf( Buffer, "%c%s%c%s", (char)MSDP_VAL, Val1, (char)MSDP_VAL, Val2 );
+ * swprintf( Buffer, "%c%s%c%s", (char)MSDP_VAL, Val1, (char)MSDP_VAL, Val2 );
  * MSDPSetArray( d, eMSDP_TEST, Buffer );
  */
-void MSDPSetArray( descriptor_t *apDescriptor, variable_t aMSDP, const char *apValue );
+void MSDPSetArray( descriptor_t *apDescriptor, variable_t aMSDP, const wchar_t *apValue );
 
 /******************************************************************************
  MSSP functions.
@@ -711,14 +711,14 @@ void MSSPSetPlayers( int aPlayers );
  * provide a different sequence for other users, or better yet just embed MXP
  * tags for the ProtocolOutput() function.
  */
-const char *MXPCreateTag( descriptor_t *apDescriptor, const char *apTag );
+const wchar_t *MXPCreateTag( descriptor_t *apDescriptor, const wchar_t *apTag );
 
 /* Function: MXPSendTag
  *
  * This works like MXPCreateTag, but instead of returning the string it sends
  * it directly to the user.  This is mainly useful for the <VERSION> tag.
  */
-void MXPSendTag( descriptor_t *apDescriptor, const char *apTag );
+void MXPSendTag( descriptor_t *apDescriptor, const wchar_t *apTag );
 
 /******************************************************************************
  Sound functions.
@@ -730,7 +730,7 @@ void MXPSendTag( descriptor_t *apDescriptor, const char *apTag );
  * supported, MSP if not.  The trigger string itself is a relative path and
  * filename, eg: SoundSend( pDesc, "monster/growl.wav" );
  */
-void SoundSend( descriptor_t *apDescriptor, const char *apTrigger );
+void SoundSend( descriptor_t *apDescriptor, const wchar_t *apTrigger );
 
 /******************************************************************************
  Colour functions.
@@ -751,7 +751,7 @@ void SoundSend( descriptor_t *apDescriptor, const char *apTrigger );
  *
  * If you wish to embed colours in strings, use ProtocolOutput().
  */
-const char *ColourRGB( descriptor_t *apDescriptor, const char *apRGB );
+const wchar_t *ColourRGB( descriptor_t *apDescriptor, const wchar_t *apRGB );
 
 /******************************************************************************
  Unicode (UTF-8 conversion) functions.
@@ -761,21 +761,21 @@ const char *ColourRGB( descriptor_t *apDescriptor, const char *apRGB );
  *
  * Returns the UTF-8 sequence for the specified unicode value.
  */
-char *UnicodeGet( int aValue );
+wchar_t *UnicodeGet( int aValue );
 
 /* Function: UnicodeAdd
  *
  * Adds the UTF-8 sequence for the specified unicode value onto the end of the
  * string, without adding a NUL character at the end.
  */
-void UnicodeAdd( char **apString, int aValue );
+void UnicodeAdd( wchar_t **apString, int aValue );
 
 /*************** START GMCP ***************/
-extern const char GoAheadStr[];
-extern const char iac_sb_gmcp[];
-extern const char iac_se[];
+extern const wchar_t GoAheadStr[];
+extern const wchar_t iac_sb_gmcp[];
+extern const wchar_t iac_se[];
 extern void SendUpdatedGMCP( descriptor_t *apDescriptor );
-extern void UpdateGMCPString( descriptor_t *apDescriptor, GMCP_VARIABLE var, const char *string );
+extern void UpdateGMCPString( descriptor_t *apDescriptor, GMCP_VARIABLE var, const wchar_t *string );
 extern void UpdateGMCPNumber( descriptor_t *apDescriptor, GMCP_VARIABLE var, const long long number );
 /*************** END GMCP ***************/
 

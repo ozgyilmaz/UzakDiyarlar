@@ -1,9 +1,9 @@
 #AREADATA
 Filename kiyamet.are~
-Name Kıyamet~
+Name KÄ±yamet~
 Builder Lok~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 70
 Highlevel 95
 Minvnum 14001
@@ -16,9 +16,9 @@ END
 
 #NEW_MOBILES
 #14001
-dev çekirge~
-dev çekirge~
-Dev bir çekirge görüyorsun, günahkarları yiyip yutuyor.
+dev Ã§ekirge~
+dev Ã§ekirge~
+Dev bir Ã§ekirge gÃ¶rÃ¼yorsun, gÃ¼nahkarlarÄ± yiyip yutuyor.
 ~
 The locust is man sized, with the face of man and
 the hair of a woman. It bears its lion teeth and beats
@@ -30,7 +30,7 @@ AFT DFJ 91
 #14002
 abadon kral melek~
 Abadon~
-Dipsiz kuyunun meleği buraya zincirlenmiş.
+Dipsiz kuyunun meleÄŸi buraya zincirlenmiÅŸ.
 ~
 Abaddon pleads with you to release him from his binding.
 He claims the chain is the source of all his suffering.
@@ -41,9 +41,9 @@ and you find his voice pleasant and reasonable.
 aarakocra~
 ABT ABITX 95
 #14003
-bebekyüz fahişe kadın~
-Bebekyüz~
-Morlara bürünmüş bir kadın parmak işaretiyle seni çağırıyor!
+bebekyÃ¼z fahiÅŸe kadÄ±n~
+BebekyÃ¼z~
+Morlara bÃ¼rÃ¼nmÃ¼ÅŸ bir kadÄ±n parmak iÅŸaretiyle seni Ã§aÄŸÄ±rÄ±yor!
 ~
 The woman is decked in gold, precious stones, and pearls.
 Upon her forehead is written:
@@ -54,8 +54,8 @@ human~
 AHQ c 88
 #14004
 su melek~
-su meleği~
-Bir melek suları işliyor.
+su meleÄŸi~
+Bir melek sularÄ± iÅŸliyor.
 ~
 The angel looks you over and tells you that you are too late.
 He has already cast the second vial of wrath into the sea.
@@ -64,8 +64,8 @@ aarakocra~
 ABT BNT 85
 #14005
 toprak melek~
-toprak meleği~
-Bir melek toprağı sallıyor!
+toprak meleÄŸi~
+Bir melek topraÄŸÄ± sallÄ±yor!
 ~
 The angel looks you over and tells you that you are too late.
 The 6th seal already has been broken.
@@ -74,8 +74,8 @@ aarakocra~
 ABT BNT 85
 #14006
 hava melek~
-hava meleği~
-Bir melek göğü maviye boyuyor.
+hava meleÄŸi~
+Bir melek gÃ¶ÄŸÃ¼ maviye boyuyor.
 ~
 The angel looks you over and tells you that you are too late.
 He has already scattered the seventh vial of wrath on the wind.
@@ -83,9 +83,9 @@ He has already scattered the seventh vial of wrath on the wind.
 aarakocra~
 ABT BNT 85
 #14007
-ateş melek~
-ateş meleği~
-Bir melek ateşi kontrolü altında tutuyor.
+ateÅŸ melek~
+ateÅŸ meleÄŸi~
+Bir melek ateÅŸi kontrolÃ¼ altÄ±nda tutuyor.
 ~
 The angel looks you over and tells you that you are too late.
 He has already poured the fourth vial of wrath upon the sun.
@@ -94,17 +94,17 @@ aarakocra~
 ABT BNT 85
 #14008
 hasat melek~
-hasat meleği~
-Bir melek orağıyla günahkarları biçiyor.
+hasat meleÄŸi~
+Bir melek oraÄŸÄ±yla gÃ¼nahkarlarÄ± biÃ§iyor.
 ~
 The angel has no mercy for those without seals.
 ~
 aarakocra~
 AT BCDFNT 80
 #14009
-cennet savaşçısı~
-cennet savaşçısı~
-Bir savaşçı günahkarları kurutuyor.
+cennet savaÅŸÃ§Ä±sÄ±~
+cennet savaÅŸÃ§Ä±sÄ±~
+Bir savaÅŸÃ§Ä± gÃ¼nahkarlarÄ± kurutuyor.
 ~
 The army of heaven is approximately 50 troops, lightly
 armed with simple spears and shields.
@@ -112,9 +112,9 @@ armed with simple spears and shields.
 human~
 AT N 75
 #14010
-beyaz atlı~
-beyaz atlı~
-Bir adam beyaz bir ata binmiş gördüğü herşeyi fethediyor!
+beyaz atlÄ±~
+beyaz atlÄ±~
+Bir adam beyaz bir ata binmiÅŸ gÃ¶rdÃ¼ÄŸÃ¼ herÅŸeyi fethediyor!
 ~
 The rider is mounted on a lion headed horse, which breathes
 fire, smoke and brimstone as it rears.
@@ -122,9 +122,9 @@ fire, smoke and brimstone as it rears.
 human~
 AFT DFJ 85
 #14011
-kızıl atlı~
-kızıl atlı~
-Kızıl bir atın üzerinde savaşlar başlatan birini görüyorsun.
+kÄ±zÄ±l atlÄ±~
+kÄ±zÄ±l atlÄ±~
+KÄ±zÄ±l bir atÄ±n Ã¼zerinde savaÅŸlar baÅŸlatan birini gÃ¶rÃ¼yorsun.
 ~
 The rider is mounted on a lion headed horse, which breathes
 fire, smoke and brimstone as it rears.
@@ -132,9 +132,9 @@ fire, smoke and brimstone as it rears.
 human~
 AFT DFJ 85
 #14012
-kara atlı~
-kara atlı~
-Kara bir atı koşturan birini görüyorsun!
+kara atlÄ±~
+kara atlÄ±~
+Kara bir atÄ± koÅŸturan birini gÃ¶rÃ¼yorsun!
 ~
 The rider is mounted on a lion headed horse, which breathes
 fire, smoke and brimstone as it rears.
@@ -142,9 +142,9 @@ fire, smoke and brimstone as it rears.
 human~
 AFT DFJ 85
 #14013
-soluk atlı~
-soluk atlı~
-Soluk atının üzerinde duran birini görüyorsun.
+soluk atlÄ±~
+soluk atlÄ±~
+Soluk atÄ±nÄ±n Ã¼zerinde duran birini gÃ¶rÃ¼yorsun.
 ~
 The rider is mounted on a lion headed horse, which breathes
 fire, smoke and brimstone as it rears.
@@ -152,9 +152,9 @@ fire, smoke and brimstone as it rears.
 human~
 AFT DFJ 85
 #14014
-başmelek baş melek~
-Başmelek~
-Savaş başmeleği bir ejderhaya haddini bildiriyor.
+baÅŸmelek baÅŸ melek~
+BaÅŸmelek~
+SavaÅŸ baÅŸmeleÄŸi bir ejderhaya haddini bildiriyor.
 ~
 Michael towers some 18', and is dressed in the blinding
 white of heaven. His voice booms in a deep base laugh.
@@ -164,7 +164,7 @@ ABT BDFNTVd 91
 #14015
 ejderha~
 ejderha~
-Yedi başlı yüce bir ejderha başmelekle dövüşüyor.
+Yedi baÅŸlÄ± yÃ¼ce bir ejderha baÅŸmelekle dÃ¶vÃ¼ÅŸÃ¼yor.
 ~
 The dragon has seven heads and ten horns. Upon the
 ten horns are ten crowns, and upon the 7 heads are
@@ -173,9 +173,9 @@ blasphemy.
 dragon~
 ABR DFJT 91
 #14016
-kadın jezebel peygamber~
+kadÄ±n jezebel peygamber~
 Peygamber Jezebel~
-Bir kadın gördüğü herkesi zina yapmaya yüreklendiriyor!
+Bir kadÄ±n gÃ¶rdÃ¼ÄŸÃ¼ herkesi zina yapmaya yÃ¼reklendiriyor!
 ~
 Jezebel the prophetess is a firm believier in fornication
 and the eating of food sacrificed to idols. She will
@@ -184,9 +184,9 @@ gladly try to sway you to her point of view.
 human~
 AQ  0 80
 #14017
-Balaam öğretmen adam~
-Balak'ın öğretmeni Balaam~
-Bir adam kurbanların nasıl yeneceğini anlatıyor!
+Balaam Ã¶ÄŸretmen adam~
+Balak'Ä±n Ã¶ÄŸretmeni Balaam~
+Bir adam kurbanlarÄ±n nasÄ±l yeneceÄŸini anlatÄ±yor!
 ~
 Balaam, teacher of Balac is engrossed in his discourse
 on the merits of eating food sacrificed to idols. His
@@ -196,8 +196,8 @@ human~
 AR 0 80
 #14018
 balak havari adam~
-Balaam'ın havarisi Balak~
-Bir adam zinanın tadını anlatıyor!
+Balaam'Ä±n havarisi Balak~
+Bir adam zinanÄ±n tadÄ±nÄ± anlatÄ±yor!
 ~
 Balac, disciple of Balaam looks at you then begins a
 fanatical speech on how life has no meaning unless you
@@ -206,9 +206,9 @@ fornicate freely and eat sacrificed food.
 human~
 AQ 0 80
 #14019
-lanetli kurbağa ruhu~
+lanetli kurbaÄŸa ruhu~
 lanetli ruh~
-Kurbağaya benzer bir ruh uluyor.
+KurbaÄŸaya benzer bir ruh uluyor.
 ~
 The unclean spirit came from the mouth of
 the dragon, and is really a devil. It
@@ -219,9 +219,9 @@ side of the dragon.
 ghost~
 AR BCDJKPT 83
 #14020
-yanlış peygamber~
-yanlış peygamber~
-Koç boynuzlarına sahip duman soluyan bir adam bağırıyor!
+yanlÄ±ÅŸ peygamber~
+yanlÄ±ÅŸ peygamber~
+KoÃ§ boynuzlarÄ±na sahip duman soluyan bir adam baÄŸÄ±rÄ±yor!
 ~
 The false prophet is the spokesman for the beast.
 He does great wonders, such as summoning fire from
@@ -235,9 +235,9 @@ receive the mark.
 human~
 AR 0 85
 #14021
-güneşi kuşanmış kadın~
-güneşi kuşanmış kadın~
-Güneşi kuşanmış bir kadın uçuyor.
+gÃ¼neÅŸi kuÅŸanmÄ±ÅŸ kadÄ±n~
+gÃ¼neÅŸi kuÅŸanmÄ±ÅŸ kadÄ±n~
+GÃ¼neÅŸi kuÅŸanmÄ±ÅŸ bir kadÄ±n uÃ§uyor.
 ~
 The woman is clothed with the sun, has
 the moon under her feet. She is beautiful
@@ -247,9 +247,9 @@ great dragon is hunting her.
 human~
 ABT  N 89
 #14022
-tanrının cümlesi~
-Tanrının Cümlesi~
-Tanrının cümlesi ırkları ayırıyor.
+tanrÄ±nÄ±n cÃ¼mlesi~
+TanrÄ±nÄ±n CÃ¼mlesi~
+TanrÄ±nÄ±n cÃ¼mlesi Ä±rklarÄ± ayÄ±rÄ±yor.
 ~
 The word of God rides upon a white horse. His
 eyes are flames of fire, and on his head is
@@ -261,9 +261,9 @@ thigh is written King of Kings and Lord of Lords.
 aarakocra~
 ABT BCDEFHJNTVd 95
 #14023
-mühürlü~
-mühürlü~
-Bir mühürlü şükran ilahileri söylüyor.
+mÃ¼hÃ¼rlÃ¼~
+mÃ¼hÃ¼rlÃ¼~
+Bir mÃ¼hÃ¼rlÃ¼ ÅŸÃ¼kran ilahileri sÃ¶ylÃ¼yor.
 ~
 The sealed one is one of the 12 tribes of Isreal.
 All of the tribes were marked with a seal so as
@@ -274,7 +274,7 @@ AT 0 70
 #14024
 mimli~
 mimli~
-Bir mimli son savaşa hazırlanıyor.
+Bir mimli son savaÅŸa hazÄ±rlanÄ±yor.
 ~
 The marked one has chosen the side of evil for
 the final conflict. He seems to be suffering from a pox.
@@ -284,7 +284,7 @@ AT X 70
 #14025
 hayvan~
 hayvan~
-Yedi başlı ve on boynuzlu hayvan burada bekliyor.
+Yedi baÅŸlÄ± ve on boynuzlu hayvan burada bekliyor.
 ~
 The beast has seven heads, ten horns. Upon the ten
 horns are ten crowns. It is like a leopard with
@@ -297,7 +297,7 @@ ABT CTZbd 88
 #14026
 putperest adam~
 putperest~
-Bir adam puta tapıyor.
+Bir adam puta tapÄ±yor.
 ~
 The idolator is engrossed in his worship, and
 does not see you.
@@ -307,7 +307,7 @@ AHT 0 75
 #14027
 pezevenk adam~
 pezevenk~
-Bir adam fahişeleri pazarlıyor.
+Bir adam fahiÅŸeleri pazarlÄ±yor.
 ~
 The whoremonger has chosen a paticularly sleezy
 woman, who probably is infected.
@@ -317,7 +317,7 @@ AHT 0 75
 #14028
 katil~
 katil~
-Bir katil boğazını kesmeye hazırlanıyor.
+Bir katil boÄŸazÄ±nÄ± kesmeye hazÄ±rlanÄ±yor.
 ~
 You have evaded the murder's notice. He
 is dressed in rags and carries a bloody
@@ -326,9 +326,9 @@ knife.
 human~
 AHT 0 75
 #14029
-fahişe kadın~
-fahişe~
-Bir kadın vücudunu satıyor.
+fahiÅŸe kadÄ±n~
+fahiÅŸe~
+Bir kadÄ±n vÃ¼cudunu satÄ±yor.
 ~
 The harlot winks at you from her pasty
 animal greased complexion. She wiggles
@@ -338,9 +338,9 @@ having bathed in the last week.
 human~
 AHT 0 75
 #14030
-hırsız~
-hırsız~
-Bir hırsız farkettirmeden seni soyuyor.
+hÄ±rsÄ±z~
+hÄ±rsÄ±z~
+Bir hÄ±rsÄ±z farkettirmeden seni soyuyor.
 ~
 The thief bumps into you. You drop
 your purse. He picks it up and returns
@@ -351,7 +351,7 @@ AHS 0 75
 #14031
 zengin~
 zengin~
-Bir zengin kutsal gazaptan kaçıyor.
+Bir zengin kutsal gazaptan kaÃ§Ä±yor.
 ~
 The rich man is moving slowly, as he is
 carrying alot of gawdy babbles. He blames
@@ -360,9 +360,9 @@ his sins on the greedy poor.
 human~
 AHT 0 75
 #14032
-güçlü adam~
-güçlü~
-Güçlü bir adam kutsal gazaptan kaçıyor.
+gÃ¼Ã§lÃ¼ adam~
+gÃ¼Ã§lÃ¼~
+GÃ¼Ã§lÃ¼ bir adam kutsal gazaptan kaÃ§Ä±yor.
 ~
 The man you vaguely recall as being involved
 in politics somehow. He is in rags now, and
@@ -374,7 +374,7 @@ AHT 0 75
 #14033
 ilk kral~
 ilk kral~
-İlk kral kutsal gazaptan kaçıyor.
+Ä°lk kral kutsal gazaptan kaÃ§Ä±yor.
 ~
 The former king is dressed in rags. He clutches
 fiercly to his crown, the last symbol of his
@@ -385,9 +385,9 @@ corrupt ministers who ruined the kingdom.
 human~
 AHT 0 75
 #14034
-köle~
-köle~
-Bir köle kutsal gazaptan kaçıyor.
+kÃ¶le~
+kÃ¶le~
+Bir kÃ¶le kutsal gazaptan kaÃ§Ä±yor.
 ~
 The bondsman has somehow escaped his master.
 He blames all his sins on his master.
@@ -395,9 +395,9 @@ He blames all his sins on his master.
 human~
 AHT 0 75
 #14035
-özgür adam~
-özgür adam~
-Özgür bir adam kutsal gazaptan kaçıyor.
+Ã¶zgÃ¼r adam~
+Ã¶zgÃ¼r adam~
+Ã–zgÃ¼r bir adam kutsal gazaptan kaÃ§Ä±yor.
 ~
 The freeman is empoverished. He blames
 all of his sins on the guild.
@@ -405,9 +405,9 @@ all of his sins on the guild.
 human~
 AHT 0 75
 #14036
-ilk yüzbaşı~
-ilk yüzbaşı~
-İlk yüzbaşı kutsal gazaptan kaçıyor.
+ilk yÃ¼zbaÅŸÄ±~
+ilk yÃ¼zbaÅŸÄ±~
+Ä°lk yÃ¼zbaÅŸÄ± kutsal gazaptan kaÃ§Ä±yor.
 ~
 The chief captain is in rags. He blames his sins
 on the king, who ordered him to commit atrocities.
@@ -415,9 +415,9 @@ on the king, who ordered him to commit atrocities.
 human~
 AHT 0 75
 #14037
-tahtında oturan o~
-tahtında oturan~
-Tahtında oturan "Ben alfa ve omegayım!" diyor. Birşey anlayamadın...
+tahtÄ±nda oturan o~
+tahtÄ±nda oturan~
+TahtÄ±nda oturan "Ben alfa ve omegayÄ±m!" diyor. BirÅŸey anlayamadÄ±n...
 ~
 He is like jasper and carnelian. You better do as
 he says.
@@ -427,16 +427,16 @@ ABT BCDEFHJNTVd 100
 #14038
 koyun kurban~
 koyun~
-Kurban edildiği andaki gibi bekleyen bir koyun görüyorsun.
+Kurban edildiÄŸi andaki gibi bekleyen bir koyun gÃ¶rÃ¼yorsun.
 ~
 The lamb has seven horns and seven eyes.
 ~
 aarakocra~
 ABJKTc BCDEFHJNTWd 100
 #14039
-dört yirmi uluları~
-dört yirmi uluları~
-Ulularını görüyorsun, dört yirmi tahtlarında oturuyorlar.
+dÃ¶rt yirmi ulularÄ±~
+dÃ¶rt yirmi ulularÄ±~
+UlularÄ±nÄ± gÃ¶rÃ¼yorsun, dÃ¶rt yirmi tahtlarÄ±nda oturuyorlar.
 ~
 The elders are in white robes with golden crowns. They
 play harps, and swing golden bowls filled with incense.
@@ -444,9 +444,9 @@ play harps, and swing golden bowls filled with incense.
 aarakocra~
 ABQ BNT 75
 #14040
-aslansı yaratık~
-aslansı yaratık~
-Aslansı bir yaratık mırıldanıyor, "Kutsal, Kutsal, Kutsal, Efendi...".
+aslansÄ± yaratÄ±k~
+aslansÄ± yaratÄ±k~
+AslansÄ± bir yaratÄ±k mÄ±rÄ±ldanÄ±yor, "Kutsal, Kutsal, Kutsal, Efendi...".
 ~
 The lion creature is full of eyes in front and behind.
 It has 6 wings, and even eyes inside.
@@ -454,9 +454,9 @@ It has 6 wings, and even eyes inside.
 drow~
 ABT CDEFJNZ 91
 #14041
-öküz yaratık~
-öküz~
-Öküze benzeyen bir yaratık mırıldanıyor, "Kutsal, Kutsal, Kutsal, Efendi...".
+Ã¶kÃ¼z yaratÄ±k~
+Ã¶kÃ¼z~
+Ã–kÃ¼ze benzeyen bir yaratÄ±k mÄ±rÄ±ldanÄ±yor, "Kutsal, Kutsal, Kutsal, Efendi...".
 ~
 The ox creature is full of eyes in front and behind.
 It has 6 wings, and eleven eyes inside.
@@ -464,9 +464,9 @@ It has 6 wings, and eleven eyes inside.
 unique~
 ABT CDEFJNZ 91
 #14042
-insan yüzlü yaratık~
-insan yüzlü yaratık~
-İnsan yüzlü bir yaratık mırıldanıyor, "Kutsal, Kutsal, Kutsal, Efendi...".
+insan yÃ¼zlÃ¼ yaratÄ±k~
+insan yÃ¼zlÃ¼ yaratÄ±k~
+Ä°nsan yÃ¼zlÃ¼ bir yaratÄ±k mÄ±rÄ±ldanÄ±yor, "Kutsal, Kutsal, Kutsal, Efendi...".
 ~
 The human faced creature is full of eyes in front and behind.
 It has 6 wings, and even eyes inside.
@@ -476,7 +476,7 @@ ABT CDEFJNZ 91
 #14043
 kartal~
 kartal~
-Bir kartal mırıldanıyor, "Kutsal, Kutsal, Kutsal, Efendi...".
+Bir kartal mÄ±rÄ±ldanÄ±yor, "Kutsal, Kutsal, Kutsal, Efendi...".
 ~
 The eagle creature is full of eyes in front and behind.
 It has 6 wings, and even eyes inside.
@@ -489,18 +489,18 @@ ABT CDEFJNTZ 91
 
 #OBJECTS
 #14001
-david anahtarı~
-David'in anahtarı~
-Kutsal aurayla çevrelenmiş bir anahtar burada bekliyor.
+david anahtarÄ±~
+David'in anahtarÄ±~
+Kutsal aurayla Ã§evrelenmiÅŸ bir anahtar burada bekliyor.
 ~
 adamantite~
 key BGS AO
 0 0 0 0 0
 0 10 0 P
 #14002
-demir göğüslük~
-demir göğüslük~
-Büyük, demir bir göğüslük burada yatıyor.
+demir gÃ¶ÄŸÃ¼slÃ¼k~
+demir gÃ¶ÄŸÃ¼slÃ¼k~
+BÃ¼yÃ¼k, demir bir gÃ¶ÄŸÃ¼slÃ¼k burada yatÄ±yor.
 ~
 iron~
 armor 0 AD
@@ -511,9 +511,9 @@ A
 A
 17 -25
 #14003
-çekirge iğnesi~
-çekirge iğnesi~
-Büyük bir iğne görüyorsun.
+Ã§ekirge iÄŸnesi~
+Ã§ekirge iÄŸnesi~
+BÃ¼yÃ¼k bir iÄŸne gÃ¶rÃ¼yorsun.
 ~
 stone~
 weapon EQ AN
@@ -522,9 +522,9 @@ dagger 6 20 pierce GH
 A
 18 10
 #14004
-zincir bağ gümüş~
-zincir bağ~
-Gümüş bir bağ burada bırakılmış.~
+zincir baÄŸ gÃ¼mÃ¼ÅŸ~
+zincir baÄŸ~
+GÃ¼mÃ¼ÅŸ bir baÄŸ burada bÄ±rakÄ±lmÄ±ÅŸ.~
 silver~
 treasure GMS AD
 0 0 0 0 0
@@ -540,9 +540,9 @@ A
 A
 14 -400
 #14005
-bebekyüzün altın kupası~
-bebekyüzün altın kupası~
-Kanla dolu altın bir kupa görüyorsun.~
+bebekyÃ¼zÃ¼n altÄ±n kupasÄ±~
+bebekyÃ¼zÃ¼n altÄ±n kupasÄ±~
+Kanla dolu altÄ±n bir kupa gÃ¶rÃ¼yorsun.~
 gold~
 drink GW AO
 19 19 'blood' 0 0
@@ -553,9 +553,9 @@ You look inside the cup and find it filled with
 the blood of saints.
 ~
 #14006
-altın kuşak~
-altın kuşak~
-Altın bir kuşak görüyorsun.~
+altÄ±n kuÅŸak~
+altÄ±n kuÅŸak~
+AltÄ±n bir kuÅŸak gÃ¶rÃ¼yorsun.~
 gold~
 armor GIKL AL
 28 28 28 0 0
@@ -567,9 +567,9 @@ A
 A
 18 5
 #14007
-altın orak~
-altın orak~
-Altın bir orak görüyorsun.~
+altÄ±n orak~
+altÄ±n orak~
+AltÄ±n bir orak gÃ¶rÃ¼yorsun.~
 gold~
 weapon GIKL AN
 sword 10 10 slice E
@@ -579,9 +579,9 @@ A
 A
 18 5
 #14008
-uluların duası şişe~
-uluların duası~
-Kutsal parlaklığıyla bir şişe dikkatini çekiyor.~
+ulularÄ±n duasÄ± ÅŸiÅŸe~
+ulularÄ±n duasÄ±~
+Kutsal parlaklÄ±ÄŸÄ±yla bir ÅŸiÅŸe dikkatini Ã§ekiyor.~
 glass~
 potion BI AO
 80 'bless' 'faerie fog' 'flamestrike' ''
@@ -589,15 +589,15 @@ potion BI AO
 #14009
 censer~
 censer~
-Bir censer dumanıyla yanıyor.~
+Bir censer dumanÄ±yla yanÄ±yor.~
 bronze~
 wand AG AO
 90 3 3 'fireball' 0
 85 25 16700 P
 #14010
-beyaz fatih taç~
-fatihin beyaz tacı~
-Beyaz bir taç görüyorsun.~
+beyaz fatih taÃ§~
+fatihin beyaz tacÄ±~
+Beyaz bir taÃ§ gÃ¶rÃ¼yorsun.~
 admantite~
 armor EJ AE
 28 28 28 14 0
@@ -611,9 +611,9 @@ A
 A
 13 50
 #14011
-beyaz fatih yayı~
-fatihin beyaz yayı~
-Büyük beyaz bir yay görüyorsun.~
+beyaz fatih yayÄ±~
+fatihin beyaz yayÄ±~
+BÃ¼yÃ¼k beyaz bir yay gÃ¶rÃ¼yorsun.~
 admantite~
 weapon EJM AN
 bow 10 10 blast AFH
@@ -623,9 +623,9 @@ A
 A
 18 10
 #14012
-ateş göğüslük~
-ateş göğüslüğü~
-Ateşlerle bezenmiş bir göğüslük görüyorsun.~
+ateÅŸ gÃ¶ÄŸÃ¼slÃ¼k~
+ateÅŸ gÃ¶ÄŸÃ¼slÃ¼ÄŸÃ¼~
+AteÅŸlerle bezenmiÅŸ bir gÃ¶ÄŸÃ¼slÃ¼k gÃ¶rÃ¼yorsun.~
 unknown~
 armor EJW AD
 28 28 28 15 0
@@ -635,9 +635,9 @@ A
 A
 17 -10
 #14013
-savaş kılıç~
-savaş kılıcı~
-Büyük bir iki elli kılıç görüyorsun.~
+savaÅŸ kÄ±lÄ±Ã§~
+savaÅŸ kÄ±lÄ±cÄ±~
+BÃ¼yÃ¼k bir iki elli kÄ±lÄ±Ã§ gÃ¶rÃ¼yorsun.~
 admantite~
 weapon EJM AN
 sword 11 12 slash DEFH
@@ -647,9 +647,9 @@ A
 A
 18 10
 #14014
-göğüslük jacinth~
-Jacinth'in göğüslüğü~
-Parlak bir göğüslük görüyorsun.~
+gÃ¶ÄŸÃ¼slÃ¼k jacinth~
+Jacinth'in gÃ¶ÄŸÃ¼slÃ¼ÄŸÃ¼~
+Parlak bir gÃ¶ÄŸÃ¼slÃ¼k gÃ¶rÃ¼yorsun.~
 unknown~
 armor EJW AD
 28 28 28 10 0
@@ -659,9 +659,9 @@ A
 A
 17 -25
 #14015
-gölgetaş göğüslük~
-Gölgetaşın göğüslüğü~
-Bir göğüslük tütüyor.~
+gÃ¶lgetaÅŸ gÃ¶ÄŸÃ¼slÃ¼k~
+GÃ¶lgetaÅŸÄ±n gÃ¶ÄŸÃ¼slÃ¼ÄŸÃ¼~
+Bir gÃ¶ÄŸÃ¼slÃ¼k tÃ¼tÃ¼yor.~
 unknown~
 armor EJW AD
 28 28 28 10 0
@@ -671,9 +671,9 @@ A
 A
 17 -25
 #14016
-terazi işlemeli~
-işlemeli terazi~
-İşlemeli bir terazi görüyorsun.~
+terazi iÅŸlemeli~
+iÅŸlemeli terazi~
+Ä°ÅŸlemeli bir terazi gÃ¶rÃ¼yorsun.~
 iron~
 gem G AO
 0 0 0 0 0
@@ -686,17 +686,17 @@ measures of barley for a penny; and see
 thou hurt not the oil and the wine.
 ~
 #14017
-ölüm pelerini~
-Ölüm Pelerini~
-Kara bir pelerin burada unutulmuş, ya da BIRAKILMIŞ!~
+Ã¶lÃ¼m pelerini~
+Ã–lÃ¼m Pelerini~
+Kara bir pelerin burada unutulmuÅŸ, ya da BIRAKILMIÅ!~
 mithril~
 armor CEFGQ AK
 30 30 30 10 0
 85 10 14000 P
 #14018
-biçici tırpan~
-Biçici'nin Tırpanı~
-Soğuk ve karanlık bir tırpan görüyorsun.~
+biÃ§ici tÄ±rpan~
+BiÃ§ici'nin TÄ±rpanÄ±~
+SoÄŸuk ve karanlÄ±k bir tÄ±rpan gÃ¶rÃ¼yorsun.~
 unknown~
 weapon CEFJMQ AN
 polearm 11 10 cleave CDFH
@@ -706,9 +706,9 @@ A
 A
 18 10
 #14019
-başbüyücü kutsal mızrak~
-Başbüyücü'nün KutsaL Mızrağı~
-Kutsal aurasıyla parlayan bir mızrak görüyorsun.~
+baÅŸbÃ¼yÃ¼cÃ¼ kutsal mÄ±zrak~
+BaÅŸbÃ¼yÃ¼cÃ¼'nÃ¼n KutsaL MÄ±zraÄŸÄ±~
+Kutsal aurasÄ±yla parlayan bir mÄ±zrak gÃ¶rÃ¼yorsun.~
 admantite~
 weapon ABGIKMS AN
 lance 12 10 pierce A
@@ -718,9 +718,9 @@ A
 A
 18 10
 #14020
-hayvan damgası deri dağlanmış parça~
-hayvan damgası~
-Dağlanmış bir deri parçası görüyorsun.~
+hayvan damgasÄ± deri daÄŸlanmÄ±ÅŸ parÃ§a~
+hayvan damgasÄ±~
+DaÄŸlanmÄ±ÅŸ bir deri parÃ§asÄ± gÃ¶rÃ¼yorsun.~
 flesh~
 armor EJLM AC
 23 23 23 23 0
@@ -737,8 +737,8 @@ The mark bears the number of his name: 666.
 ~
 #14021
 kartal kanat~
-bir çift Kartal Kanadı~
-Bir çift kartal kanadı görüyorsun.~
+bir Ã§ift Kartal KanadÄ±~
+Bir Ã§ift kartal kanadÄ± gÃ¶rÃ¼yorsun.~
 unknown~
 armor GIKS AI
 30 30 30 17 0
@@ -750,9 +750,9 @@ A
 A
 17 -15
 #14022
-oniki yıldızlı taç~
-oniki yıldızlı taç~
-Yıldızlarla süslenmiş bir taç görüyorsun.~
+oniki yÄ±ldÄ±zlÄ± taÃ§~
+oniki yÄ±ldÄ±zlÄ± taÃ§~
+YÄ±ldÄ±zlarla sÃ¼slenmiÅŸ bir taÃ§ gÃ¶rÃ¼yorsun.~
 stone~
 armor AIK AE
 30 30 30 20 0
@@ -762,9 +762,9 @@ A
 A
 3 3
 #14023
-güneş pelerini~
-Güneş Pelerini~
-Güneş gibi parlayan bir pelerin görüyorsun.~
+gÃ¼neÅŸ pelerini~
+GÃ¼neÅŸ Pelerini~
+GÃ¼neÅŸ gibi parlayan bir pelerin gÃ¶rÃ¼yorsun.~
 unknown~
 armor AIK AD
 30 30 30 10 0
@@ -778,9 +778,9 @@ A
 A
 5 5
 #14024
-güneş etek~
-Güneş Eteği~
-Güneş gibi parlayan bir etek görüyorsun.~
+gÃ¼neÅŸ etek~
+GÃ¼neÅŸ EteÄŸi~
+GÃ¼neÅŸ gibi parlayan bir etek gÃ¶rÃ¼yorsun.~
 unknown~
 armor AIK AF
 30 30 30 10 0
@@ -792,17 +792,17 @@ A
 A
 2 5
 #14025
-ay bacaklık~
-bir çift Ay Bacaklığı~
-Ay gibi parlayan bir çift bacaklık görüyorsun.~
+ay bacaklÄ±k~
+bir Ã§ift Ay BacaklÄ±ÄŸÄ±~
+Ay gibi parlayan bir Ã§ift bacaklÄ±k gÃ¶rÃ¼yorsun.~
 unknown~
 armor AIK AG
 30 30 30 10 0
 89 10 19000 P
 #14026
-gizil yüzük~
+gizil yÃ¼zÃ¼k~
 Gizil~
-Parlak bir yüzük görüyorsun.~
+Parlak bir yÃ¼zÃ¼k gÃ¶rÃ¼yorsun.~
 unknown~
 armor AFKLQS AB
 0 0 0 0 0
@@ -810,9 +810,9 @@ armor AFKLQS AB
 A
 12 200
 #14027
-demir değnek~
-demir değnek~
-Ağırca demir bir değnek görüyorsun.~
+demir deÄŸnek~
+demir deÄŸnek~
+AÄŸÄ±rca demir bir deÄŸnek gÃ¶rÃ¼yorsun.~
 iron~
 wand GIKLS AO
 90 10 10 'cure blindness' 0
@@ -820,15 +820,15 @@ wand GIKLS AO
 #14028
 beyaz fular~
 BeYaZ Fular~
-Beyaz bir fular parlıyor.~
+Beyaz bir fular parlÄ±yor.~
 unknown~
 armor AGIKLS AC
 30 30 30 10 0
 91 10 25000 P
 #14029
-beyaz taş kalkan~
-beyaz taş kalkan~
-Kalkan büyüklüğünde beyaz bir taş görüyorsun.~
+beyaz taÅŸ kalkan~
+beyaz taÅŸ kalkan~
+Kalkan bÃ¼yÃ¼klÃ¼ÄŸÃ¼nde beyaz bir taÅŸ gÃ¶rÃ¼yorsun.~
 stone~
 armor IKLS AJ
 30 30 30 10 0
@@ -841,17 +841,17 @@ The stone says:
 KING OF KINGS, AND LORD OF LORDS
 ~
 #14030
-iki ağızlı keskin kılıç büyük~
-iki ağızlı keskin kılıç~
-Büyük bir kılıç görüyorsun.~
+iki aÄŸÄ±zlÄ± keskin kÄ±lÄ±Ã§ bÃ¼yÃ¼k~
+iki aÄŸÄ±zlÄ± keskin kÄ±lÄ±Ã§~
+BÃ¼yÃ¼k bir kÄ±lÄ±Ã§ gÃ¶rÃ¼yorsun.~
 admantite~
 weapon IKLM AN
 sword 3 43 slash DF
 91 30 25000 P
 #14031
-beyaz cüppe~
-beyaz cüppe~
-Beyaz bir cüppe görüyorsun.~
+beyaz cÃ¼ppe~
+beyaz cÃ¼ppe~
+Beyaz bir cÃ¼ppe gÃ¶rÃ¼yorsun.~
 unknown~
 armor IKLS AK
 23 23 23 23 0
@@ -859,9 +859,9 @@ armor IKLS AK
 A
 17 -10
 #14032
-mühürlü miğfer~
-mühürlü miğfer~
-Mühürlü bir miğfer görüyorsun.~
+mÃ¼hÃ¼rlÃ¼ miÄŸfer~
+mÃ¼hÃ¼rlÃ¼ miÄŸfer~
+MÃ¼hÃ¼rlÃ¼ bir miÄŸfer gÃ¶rÃ¼yorsun.~
 unknown~
 armor IKLS AE
 23 23 23 23 0
@@ -869,33 +869,33 @@ armor IKLS AE
 A
 18 -1
 #14033
-sabah yıldızı~
-sabah yıldızı~
-Bir yıldız sabahla parlıyor.~
+sabah yÄ±ldÄ±zÄ±~
+sabah yÄ±ldÄ±zÄ±~
+Bir yÄ±ldÄ±z sabahla parlÄ±yor.~
 unknown~
 container A 0
 150 0 0 150 100
 10 10 10000 P
 #14034
-kan şişesi~
-kan şişesi~
-Bir kan şişesi görüyorsun.~
+kan ÅŸiÅŸesi~
+kan ÅŸiÅŸesi~
+Bir kan ÅŸiÅŸesi gÃ¶rÃ¼yorsun.~
 unknown~
 drink 0 0
 150 150 'blood' 0 0
 10 10 0 P
 #14035
-kan çeşmesi~
-kan çeşmesi~
-Bir kan çeşmesi lıkırdıyor.~
+kan Ã§eÅŸmesi~
+kan Ã§eÅŸmesi~
+Bir kan Ã§eÅŸmesi lÄ±kÄ±rdÄ±yor.~
 unknown~
 fountain 0 0
 9999 9999 'blood' 0 0
 10 10 0 P
 #14036
-zümrüt gökkuşağı taht~
-zümrüt taht~
-Gökkuşağıyla çevrelenmiş zümrüt bir taht görüyorsun.~
+zÃ¼mrÃ¼t gÃ¶kkuÅŸaÄŸÄ± taht~
+zÃ¼mrÃ¼t taht~
+GÃ¶kkuÅŸaÄŸÄ±yla Ã§evrelenmiÅŸ zÃ¼mrÃ¼t bir taht gÃ¶rÃ¼yorsun.~
 unknown~
 furniture AGKLSW 0
 1 10000 AEHK 200 200
@@ -906,9 +906,9 @@ The throne flashes lightnings, and peals of thunder roll
 from it.
 ~
 #14037
-dört yirmi tahtları~
-dört yirmi tahtları~
-Dört yirmi tahtlarını görüyorsun.~
+dÃ¶rt yirmi tahtlarÄ±~
+dÃ¶rt yirmi tahtlarÄ±~
+DÃ¶rt yirmi tahtlarÄ±nÄ± gÃ¶rÃ¼yorsun.~
 unknown~
 furniture AGKLSW 0
 24 24000 AEHK 150 150
@@ -918,9 +918,9 @@ thrones four twenty~
 The thrones are made of gold and have a holy aura.
 ~
 #14039
-yedi kırılmış kehanet parşömeni~
-Yedi kırılmış kehanet parşömeni~
-Yazıları okunmayan bir parşömen görüyorsun.~
+yedi kÄ±rÄ±lmÄ±ÅŸ kehanet parÅŸÃ¶meni~
+Yedi kÄ±rÄ±lmÄ±ÅŸ kehanet parÅŸÃ¶meni~
+YazÄ±larÄ± okunmayan bir parÅŸÃ¶men gÃ¶rÃ¼yorsun.~
 unknown~
 scroll W 0
 10 '' '' '' ''
@@ -932,9 +932,9 @@ You carefully look at the writing on the scroll. It reads:
 THOSE MORTALS ARE IN DEEP BLOOD LAKE NOW
 ~
 #14040
-yaşamın kitap~
-Yaşamın kitabı~
-Milyarlarca ismin yazılı olduğu bir kitap görüyorsun.~
+yaÅŸamÄ±n kitap~
+YaÅŸamÄ±n kitabÄ±~
+Milyarlarca ismin yazÄ±lÄ± olduÄŸu bir kitap gÃ¶rÃ¼yorsun.~
 unknown~
 scroll W AO
 10 '' '' '' ''
@@ -944,9 +944,9 @@ life~
 I bet mortals will drive themselves crazy about this one.
 ~
 #14041
-kızgın altın tas duman~
-kızgın altın tas~
-Dumanla dolmuş kızgın bir altın kase görüyorsun.~
+kÄ±zgÄ±n altÄ±n tas duman~
+kÄ±zgÄ±n altÄ±n tas~
+Dumanla dolmuÅŸ kÄ±zgÄ±n bir altÄ±n kase gÃ¶rÃ¼yorsun.~
 unknown~
 staff IQW AO
 100 3 3 'enchant weapon' 0
@@ -957,8 +957,8 @@ staff IQW AO
 
 #ROOMS
 #14001
-Dünyanın Köşesinde~
-You smoulder in the flames of Dünyanın Köşesi
+DÃ¼nyanÄ±n KÃ¶ÅŸesinde~
+You smoulder in the flames of DÃ¼nyanÄ±n KÃ¶ÅŸesi
 devoted to fire. The vapors of your burning flesh reach your
 nose. Beyond the corner is only the blackness. There is
 an unstoppered vial glowing orange red in the flames.
@@ -984,7 +984,7 @@ vial~
 ~
 S
 #14002
-Ateş Gölünde~
+AteÅŸ GÃ¶lÃ¼nde~
 You are upon a vast lake of fire burning with brimstone. About
 you the wrath of God is visited upon the sinful.
 ~
@@ -1000,13 +1000,13 @@ Lake of fire
 ~
 0 0 14003
 D3
-Dünyanın Köşesi
+DÃ¼nyanÄ±n KÃ¶ÅŸesi
 ~
 ~
 0 0 14001
 S
 #14003
-Ateş Gölünde~
+AteÅŸ GÃ¶lÃ¼nde~
 You are upon a vast lake of fire burning with brimstone. About
 you the wrath of God is visited upon the sinful.
 ~
@@ -1018,84 +1018,84 @@ Lake of fire
 0 0 14002
 S
 #14004
-Vebalı Diyarlar~
-You walk through the wreteched, fetid wreak of Vebalı Diyarlar.
+VebalÄ± Diyarlar~
+You walk through the wreteched, fetid wreak of VebalÄ± Diyarlar.
 Once fine tall grass has withered into a lifeless desert. About you
 flies lay eggs in the rotting flesh of the plagued.
 ~
 0 0 10
 D0
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14018
 D1
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14005
 S
 #14005
-Vebalı Diyarlar~
-You walk through the wreteched, fetid wreak of Vebalı Diyarlar.
+VebalÄ± Diyarlar~
+You walk through the wreteched, fetid wreak of VebalÄ± Diyarlar.
 Once fine tall grass has withered into a lifeless desert. About you
 flies lay eggs in the rotting flesh of the plagued.
 ~
 0 0 10
 D0
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14019
 D3
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14004
 S
 #14006
-MaGog Şehri~
+MaGog Åehri~
 You are in Satan's city of MaGog. About you writhe and covort sinners in
 a final frolic before destruction.Refuse and ofcol are the perfume of the city.
 Deterioration and decay claim every building you view.
 ~
 0 0 1
 D0
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14020
 D1
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14007
 S
 #14007
-MaGog Şehri~
+MaGog Åehri~
 You are in Satan's city of MaGog. About you writhe and covort sinners in
 a final frolic before destruction.Refuse and ofcol are the perfume of the city.
 Deterioration and decay claim every building you view.
 ~
 0 0 1
 D0
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14021
 D1
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14008
 D3
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14006
 S
 #14008
-MaGog Şehri~
+MaGog Åehri~
 You are in Satan's city of MaGog. About you writhe and covort sinners in
 a final frolic before destruction.Refuse and ofcol are the perfume of the city.
 Deterioration and decay claim every building you view. Here the evil is so
@@ -1104,12 +1104,12 @@ to a solid adamantite gate emblazoned with the seals of heaven.
 ~
 0 C 1
 D0
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14022
 D1
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14009
@@ -1120,54 +1120,54 @@ gate adamantite south
 ~
 1 14001 14183
 D3
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14007
 S
 #14009
-MaGog Şehri~
+MaGog Åehri~
 You are in Satan's city of MaGog. About you writhe and covort sinners in
 a final frolic before destruction.Refuse and ofcol are the perfume of the city.
 Deterioration and decay claim every building you view.
 ~
 0 0 1
 D0
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14023
 D1
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14010
 D3
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14008
 S
 #14010
-MaGog Şehri~
+MaGog Åehri~
 You are in Satan's city of MaGog. About you writhe and covort sinners in
 a final frolic before destruction.Refuse and ofcol are the perfume of the city.
 Deterioration and decay claim every building you view.
 ~
 0 0 1
 D0
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14024
 D3
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14009
 S
 #14011
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -1184,7 +1184,7 @@ Daha fazla kan!
 0 0 14012
 S
 #14012
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -1206,7 +1206,7 @@ Daha fazla kan!
 0 0 14011
 S
 #14013
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -1217,7 +1217,7 @@ Daha fazla kan!
 ~
 0 0 14027
 D1
-Dünyanın Köşesi
+DÃ¼nyanÄ±n KÃ¶ÅŸesi
 ~
 ~
 0 0 14014
@@ -1228,8 +1228,8 @@ Daha fazla kan!
 0 0 14012
 S
 #14014
-Dünyanın Köşesi~
-You are at Dünyanın Köşesi, floating on a vast sea of blood.
+DÃ¼nyanÄ±n KÃ¶ÅŸesi~
+You are at DÃ¼nyanÄ±n KÃ¶ÅŸesi, floating on a vast sea of blood.
 An unstoppered vial floats in the water here. Beyond the corner is
 an endless stretch of empty black.
 ~
@@ -1254,7 +1254,7 @@ Daha fazla kan!
 0 0 14013
 S
 #14015
-Ateş Gölünde~
+AteÅŸ GÃ¶lÃ¼nde~
 You are upon a vast lake of fire burning with brimstone. About
 you the wrath of God is visited upon the sinful.
 ~
@@ -1270,19 +1270,19 @@ Lake of fire
 ~
 0 0 14016
 D2
-Dünyanın Köşesi
+DÃ¼nyanÄ±n KÃ¶ÅŸesi
 ~
 ~
 0 0 14001
 S
 #14016
-Ateş Gölünde~
+AteÅŸ GÃ¶lÃ¼nde~
 You are upon a vast lake of fire burning with brimstone. About
 you the wrath of God is visited upon the sinful.
 ~
 0 0 7
 D1
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14017
@@ -1298,19 +1298,19 @@ Lake of fire
 0 0 14015
 S
 #14017
-Vebalı Diyarlar~
-You walk through the wreteched, fetid wreak of Vebalı Diyarlar.
+VebalÄ± Diyarlar~
+You walk through the wreteched, fetid wreak of VebalÄ± Diyarlar.
 Once fine tall grass has withered into a lifeless desert. About you
 flies lay eggs in the rotting flesh of the plagued.
 ~
 0 C 10
 D0
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14031
 D1
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14018
@@ -1321,109 +1321,109 @@ Lake of fire
 0 0 14016
 S
 #14018
-Vebalı Diyarlar~
-You walk through the wreteched, fetid wreak of Vebalı Diyarlar.
+VebalÄ± Diyarlar~
+You walk through the wreteched, fetid wreak of VebalÄ± Diyarlar.
 Once fine tall grass has withered into a lifeless desert. About you
 flies lay eggs in the rotting flesh of the plagued.
 ~
 0 0 10
 D0
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14032
 D1
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14019
 D2
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14004
 D3
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14017
 S
 #14019
-Vebalı Diyarlar~
-You walk through the wreteched, fetid wreak of Vebalı Diyarlar.
+VebalÄ± Diyarlar~
+You walk through the wreteched, fetid wreak of VebalÄ± Diyarlar.
 Once fine tall grass has withered into a lifeless desert. About you
 flies lay eggs in the rotting flesh of the plagued.
 ~
 0 0 10
 D0
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14033
 D2
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14005
 D3
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14018
 S
 #14020
-MaGog Şehri~
+MaGog Åehri~
 You are in Satan's city of MaGog. About you writhe and covort sinners in
 a final frolic before destruction.Refuse and ofcol are the perfume of the city.
 Deterioration and decay claim every building you view.
 ~
 0 0 1
 D0
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14034
 D1
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14021
 D2
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14006
 S
 #14021
-MaGog Şehri~
+MaGog Åehri~
 You are in Satan's city of MaGog. About you writhe and covort sinners in
 a final frolic before destruction.Refuse and ofcol are the perfume of the city.
 Deterioration and decay claim every building you view.
 ~
 0 0 1
 D0
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14035
 D1
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14022
 D2
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14007
 D3
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14020
 S
 #14022
-MaGog Şehri~
+MaGog Åehri~
 You are in Satan's city of MaGog. About you writhe and covort sinners in
 a final frolic before destruction.Refuse and ofcol are the perfume of the city.
 Deterioration and decay claim every building you view. South of you
@@ -1432,56 +1432,56 @@ and eat food sacrificed to idols.
 ~
 0 0 1
 D0
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14036
 D1
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14023
 D2
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14008
 D3
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14021
 S
 #14023
-MaGog Şehri~
+MaGog Åehri~
 You are in Satan's city of MaGog. About you writhe and covort sinners in
 a final frolic before destruction.Refuse and ofcol are the perfume of the city.
 Deterioration and decay claim every building you view.
 ~
 0 0 1
 D0
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14037
 D1
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14024
 D2
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14009
 D3
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14022
 S
 #14024
-MaGog Şehri~
+MaGog Åehri~
 You are in Satan's city of MaGog. About you writhe and covort sinners in
 a final frolic before destruction.Refuse and ofcol are the perfume of the city.
 Deterioration and decay claim every building you view. A Nicolaitane walks
@@ -1489,23 +1489,23 @@ by- why dont you stone him?
 ~
 0 0 1
 D0
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14038
 D2
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14010
 D3
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14023
 S
 #14025
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -1527,7 +1527,7 @@ Daha fazla kan!
 0 0 14011
 S
 #14026
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -1554,7 +1554,7 @@ Daha fazla kan!
 0 0 14025
 S
 #14027
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -1581,7 +1581,7 @@ Daha fazla kan!
 0 0 14026
 S
 #14028
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -1592,7 +1592,7 @@ Daha fazla kan!
 ~
 0 0 14042
 D2
-Dünyanın Köşesi
+DÃ¼nyanÄ±n KÃ¶ÅŸesi
 ~
 ~
 0 0 14014
@@ -1603,7 +1603,7 @@ Daha fazla kan!
 0 0 14027
 S
 #14029
-Ateş Gölünde~
+AteÅŸ GÃ¶lÃ¼nde~
 You are upon a vast lake of fire burning with brimstone. About
 you the wrath of God is visited upon the sinful.
 ~
@@ -1615,84 +1615,84 @@ Lake of fire
 0 0 14015
 S
 #14030
-Vebalı Diyarlar~
-You walk through the wreteched, fetid wreak of Vebalı Diyarlar.
+VebalÄ± Diyarlar~
+You walk through the wreteched, fetid wreak of VebalÄ± Diyarlar.
 Once fine tall grass has withered into a lifeless desert. About you
 flies lay eggs in the rotting flesh of the plagued.
 ~
 0 0 10
 D0
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14044
 D1
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14031
 S
 #14031
-Vebalı Diyarlar~
-You walk through the wreteched, fetid wreak of Vebalı Diyarlar.
+VebalÄ± Diyarlar~
+You walk through the wreteched, fetid wreak of VebalÄ± Diyarlar.
 Once fine tall grass has withered into a lifeless desert. About you
 flies lay eggs in the rotting flesh of the plagued.
 ~
 0 0 10
 D0
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14045
 D1
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14032
 D2
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14017
 D3
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14030
 S
 #14032
-Vebalı Diyarlar~
-You walk through the wreteched, fetid wreak of Vebalı Diyarlar.
+VebalÄ± Diyarlar~
+You walk through the wreteched, fetid wreak of VebalÄ± Diyarlar.
 Once fine tall grass has withered into a lifeless desert. About you
 flies lay eggs in the rotting flesh of the plagued.
 ~
 0 0 10
 D2
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14018
 D3
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14031
 S
 #14033
-Vebalı Diyarlar~
-You walk through the wreteched, fetid wreak of Vebalı Diyarlar.
+VebalÄ± Diyarlar~
+You walk through the wreteched, fetid wreak of VebalÄ± Diyarlar.
 Once fine tall grass has withered into a lifeless desert. About you
 flies lay eggs in the rotting flesh of the plagued.
 ~
 0 0 10
 D2
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14019
 S
 #14034
-MaGog Şehri~
+MaGog Åehri~
 You are in Satan's city of MaGog. About you writhe and covort sinners in
 a final frolic before destruction.Refuse and ofcol are the perfume of the city.
 Deterioration and decay claim every building you view. A lukewarm worshipper
@@ -1700,41 +1700,41 @@ is here to be spewed out of the mouth of the one to come.
 ~
 0 0 1
 D1
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14035
 D2
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14020
 S
 #14035
-MaGog Şehri~
+MaGog Åehri~
 You are in Satan's city of MaGog. About you writhe and covort sinners in
 a final frolic before destruction.Refuse and ofcol are the perfume of the city.
 Deterioration and decay claim every building you view.
 ~
 0 0 1
 D1
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14036
 D2
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14021
 D3
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14034
 S
 #14036
-MaGog Şehri~
+MaGog Åehri~
 You are at the gates to Satan's city, MaGog. About you writhe and covort sinners in
 a final frolic before destruction.Refuse and ofcol are the perfume of the city.
 Deterioration and decay claim every building you view. Nobody seems
@@ -1742,69 +1742,69 @@ to mind the open gate.
 ~
 0 C 1
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14050
 D1
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14037
 D2
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14022
 D3
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14035
 S
 #14037
-MaGog Şehri~
+MaGog Åehri~
 You are in Satan's city of MaGog. About you writhe and covort sinners in
 a final frolic before destruction.Refuse and ofcol are the perfume of the city.
 Deterioration and decay claim every building you view.
 ~
 0 0 1
 D1
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14038
 D2
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14023
 D3
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14036
 S
 #14038
-MaGog Şehri~
+MaGog Åehri~
 You are in Satan's city of MaGog. About you writhe and covort sinners in
 a final frolic before destruction.Refuse and ofcol are the perfume of the city.
 Deterioration and decay claim every building you view.
 ~
 0 0 1
 D2
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14024
 D3
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14037
 S
 #14039
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -1826,7 +1826,7 @@ Daha fazla kan!
 0 0 14025
 S
 #14040
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -1853,7 +1853,7 @@ Daha fazla kan!
 0 0 14039
 S
 #14041
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -1880,7 +1880,7 @@ Daha fazla kan!
 0 0 14040
 S
 #14042
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -1902,76 +1902,76 @@ Daha fazla kan!
 0 0 14041
 S
 #14043
-Vebalı Diyarlar~
-You walk through the wreteched, fetid wreak of Vebalı Diyarlar.
+VebalÄ± Diyarlar~
+You walk through the wreteched, fetid wreak of VebalÄ± Diyarlar.
 Once fine tall grass has withered into a lifeless desert. About you
 flies lay eggs in the rotting flesh of the plagued.
 ~
 0 0 10
 D0
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14057
 D1
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14044
 S
 #14044
-Vebalı Diyarlar~
-You walk through the wreteched, fetid wreak of Vebalı Diyarlar.
+VebalÄ± Diyarlar~
+You walk through the wreteched, fetid wreak of VebalÄ± Diyarlar.
 Once fine tall grass has withered into a lifeless desert. About you
 flies lay eggs in the rotting flesh of the plagued.
 ~
 0 0 10
 D0
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14058
 D1
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14045
 D2
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14030
 D3
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14043
 S
 #14045
-Vebalı Diyarlar~
-You walk through the wreteched, fetid wreak of Vebalı Diyarlar.
+VebalÄ± Diyarlar~
+You walk through the wreteched, fetid wreak of VebalÄ± Diyarlar.
 Once fine tall grass has withered into a lifeless desert. About you
 flies lay eggs in the rotting flesh of the plagued.
 ~
 0 0 10
 D0
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14059
 D2
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14031
 D3
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14044
 S
 #14046
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -1979,18 +1979,18 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14060
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14047
 S
 #14047
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -1998,23 +1998,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14061
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14048
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14046
 S
 #14048
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2022,23 +2022,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14062
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14049
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14047
 S
 #14049
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2046,23 +2046,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14063
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14050
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14048
 S
 #14050
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2070,28 +2070,28 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14064
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14051
 D2
-MaGog Şehri
+MaGog Åehri
 ~
 ~
 0 0 14036
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14049
 S
 #14051
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2099,23 +2099,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14065
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14052
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14050
 S
 #14052
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2123,18 +2123,18 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14066
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14051
 S
 #14053
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -2156,7 +2156,7 @@ Daha fazla kan!
 0 0 14039
 S
 #14054
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -2183,7 +2183,7 @@ Daha fazla kan!
 0 0 14053
 S
 #14055
-Yanardağ Çukuru~
+YanardaÄŸ Ã‡ukuru~
 You arrive to heal the peal of the second horn, blown
 by an angel flying above. You watch as the volcanic island
 and all of its inhabitants sink into the many waters.
@@ -2212,7 +2212,7 @@ Daha fazla kan!
 0 0 14054
 S
 #14056
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -2234,49 +2234,49 @@ Buhar Bulutu
 0 0 14055
 S
 #14057
-Vebalı Diyarlar~
-You walk through the wreteched, fetid wreak of Vebalı Diyarlar.
+VebalÄ± Diyarlar~
+You walk through the wreteched, fetid wreak of VebalÄ± Diyarlar.
 Once fine tall grass has withered into a lifeless desert. About you
 flies lay eggs in the rotting flesh of the plagued.
 ~
 0 0 10
 D1
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14058
 D2
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14043
 S
 #14058
-Vebalı Diyarlar~
-You walk through the wreteched, fetid wreak of Vebalı Diyarlar.
+VebalÄ± Diyarlar~
+You walk through the wreteched, fetid wreak of VebalÄ± Diyarlar.
 Once fine tall grass has withered into a lifeless desert. About you
 flies lay eggs in the rotting flesh of the plagued.
 ~
 0 0 10
 D1
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14059
 D2
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14044
 D3
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14057
 S
 #14059
-Vebalı Diyarlar~
-You walk through the wreteched, fetid wreak of Vebalı Diyarlar.
+VebalÄ± Diyarlar~
+You walk through the wreteched, fetid wreak of VebalÄ± Diyarlar.
 Once fine tall grass has withered into a lifeless desert. About you
 flies lay eggs in the rotting flesh of the plagued.
 ~
@@ -2287,18 +2287,18 @@ Kurtlu Koru
 ~
 0 0 14073
 D2
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14045
 D3
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14058
 S
 #14060
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2306,23 +2306,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14074
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14061
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14046
 S
 #14061
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2330,28 +2330,28 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14075
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14062
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14047
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14060
 S
 #14062
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2359,28 +2359,28 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14076
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14063
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14048
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14061
 S
 #14063
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2388,28 +2388,28 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14077
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14064
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14049
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14062
 S
 #14064
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2417,28 +2417,28 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14078
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14065
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14050
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14063
 S
 #14065
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2446,28 +2446,28 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14079
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14066
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14051
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14064
 S
 #14066
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2475,29 +2475,29 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14080
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14052
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14065
 S
 #14067
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
 0 C 7
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14081
@@ -2513,7 +2513,7 @@ Daha fazla kan!
 0 0 14053
 S
 #14068
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -2540,7 +2540,7 @@ Daha fazla kan!
 0 0 14067
 S
 #14069
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -2567,7 +2567,7 @@ Daha fazla kan!
 0 0 14068
 S
 #14070
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -2640,12 +2640,12 @@ of the dying from all around you.
 ~
 0 C 3
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14074
 D2
-Vebalı Diyarlar
+VebalÄ± Diyarlar
 ~
 ~
 0 0 14059
@@ -2656,7 +2656,7 @@ Kurtlu Koru
 0 0 14072
 S
 #14074
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2664,12 +2664,12 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14075
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14060
@@ -2680,7 +2680,7 @@ Kurtlu Koru
 0 0 14073
 S
 #14075
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2688,23 +2688,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14076
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14061
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14074
 S
 #14076
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2712,23 +2712,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14077
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14062
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14075
 S
 #14077
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2736,28 +2736,28 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14091
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14078
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14063
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14076
 S
 #14078
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2765,28 +2765,28 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14092
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14079
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14064
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14077
 S
 #14079
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2794,28 +2794,28 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14093
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14080
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14065
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14078
 S
 #14080
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2823,28 +2823,28 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14094
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14081
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14066
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14079
 S
 #14081
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -2852,23 +2852,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14095
 D2
-Büyük Sular
+BÃ¼yÃ¼k Sular
 ~
 ~
 0 0 14067
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14080
 S
 #14082
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -2885,7 +2885,7 @@ Daha fazla kan!
 0 0 14068
 S
 #14083
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -2912,7 +2912,7 @@ Daha fazla kan!
 0 0 14082
 S
 #14084
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -3053,7 +3053,7 @@ Euphratlar
 0 0 14089
 S
 #14091
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3061,23 +3061,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Euphratlar üstündeki köprü
+Euphratlar Ã¼stÃ¼ndeki kÃ¶prÃ¼
 ~
 ~
 0 0 14105
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14092
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14077
 S
 #14092
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3085,23 +3085,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14093
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14078
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14091
 S
 #14093
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3109,28 +3109,28 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14107
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14094
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14079
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14092
 S
 #14094
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3138,28 +3138,28 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14108
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14095
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14080
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14093
 S
 #14095
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3167,23 +3167,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14096
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14081
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14094
 S
 #14096
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3191,13 +3191,13 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14095
 S
 #14097
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -3219,7 +3219,7 @@ Daha fazla kan!
 0 0 14083
 S
 #14098
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
@@ -3241,7 +3241,7 @@ Daha fazla kan!
 0 0 14097
 S
 #14099
-Euphratların Kaynağı~
+EuphratlarÄ±n KaynaÄŸÄ±~
 You stand at the headwaters for the Euphrates. A dirty dry
 wind blows across what is left of the once mighty river. Now all
 you see are occasional puddles of bloody water. There is a vial
@@ -3328,7 +3328,7 @@ Kurtlu Koru
 0 0 14116
 S
 #14103
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3336,7 +3336,7 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14117
@@ -3361,7 +3361,7 @@ Euphratlar
 0 0 14090
 S
 #14105
-Köprüdeki Euphratlar~
+KÃ¶prÃ¼deki Euphratlar~
 You stand at a bridge crossing the canyon
 that used to be the river Euphrates. Steps are carved
 into the wall leading up to the bridge and down
@@ -3371,7 +3371,7 @@ may follow The Euphrates east and west.
 ~
 0 C 4
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14119
@@ -3381,7 +3381,7 @@ Euphratlar
 ~
 0 0 14106
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14091
@@ -3411,7 +3411,7 @@ Euphratlar
 0 0 14105
 S
 #14107
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3419,18 +3419,18 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14108
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14093
 S
 #14108
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3438,12 +3438,12 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14094
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14107
@@ -3506,13 +3506,13 @@ Euphratlar
 0 0 14110
 S
 #14112
-Büyük Sular~
+BÃ¼yÃ¼k Sular~
 You are on a vast sea of blood. Vultures soar in the red sky in search of
 carrion. Wreckage of many ships litters the waters, an ill omen indeed.
 ~
 0 0 7
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14126
@@ -3592,7 +3592,7 @@ Kurtlu Koru
 ~
 0 0 14116
 D3
-Garip Parlaklık
+Garip ParlaklÄ±k
 ~
 ~
 0 0 14114
@@ -3617,7 +3617,7 @@ Kurtlu Koru
 0 0 14115
 S
 #14117
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3625,23 +3625,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14131
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14118
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14103
 S
 #14118
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3649,23 +3649,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14132
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14119
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14117
 S
 #14119
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3673,17 +3673,17 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14133
 D2
-Euphratlar Üstündeki Köprü
+Euphratlar ÃœstÃ¼ndeki KÃ¶prÃ¼
 ~
 ~
 0 0 14105
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14118
@@ -3765,7 +3765,7 @@ Euphratlar
 0 0 14122
 S
 #14124
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3773,18 +3773,18 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14138
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14125
 S
 #14125
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3792,23 +3792,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14139
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14126
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14124
 S
 #14126
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3816,12 +3816,12 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14140
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14125
@@ -3889,7 +3889,7 @@ Kurtlu Koru
 0 0 14128
 S
 #14130
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3897,18 +3897,18 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14144
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14131
 S
 #14131
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3916,23 +3916,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14132
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14117
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14130
 S
 #14132
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3940,23 +3940,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14133
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14118
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14131
 S
 #14133
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3964,28 +3964,28 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14147
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14134
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14119
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14132
 S
 #14134
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -3993,18 +3993,18 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14135
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14133
 S
 #14135
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -4012,18 +4012,18 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14136
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14134
 S
 #14136
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -4031,23 +4031,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14150
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14137
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14135
 S
 #14137
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -4055,23 +4055,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14151
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14138
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14136
 S
 #14138
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -4084,23 +4084,23 @@ Into Cennet
 ~
 0 0 14152
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14139
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14124
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14137
 S
 #14139
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -4108,23 +4108,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14140
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14125
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14138
 S
 #14140
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -4132,12 +4132,12 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14126
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14139
@@ -4202,7 +4202,7 @@ Sallanan Diyarlar
 0 0 14142
 S
 #14144
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -4210,18 +4210,18 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14158
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14130
 S
 #14145
-Gog Şehri~
+Gog Åehri~
 You are in Satan's city, Gog. Around you the marked ones
 teem and chant the idealogy of the beast. They seem oblivious
 to your presence. An unholy shrine towers above all in the
@@ -4230,18 +4230,18 @@ a devil idol.
 ~
 0 AD 1
 D0
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14159
 D1
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14146
 S
 #14146
-Gog Şehri~
+Gog Åehri~
 You are in Satan's city, Gog. Around you the marked ones
 teem and chant the idealogy of the beast. They seem oblivious
 to your presence. An unholy shrine towers above all in the
@@ -4249,23 +4249,23 @@ center of the city.
 ~
 0 AD 1
 D0
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14160
 D1
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14147
 D3
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14145
 S
 #14147
-Gog Şehri~
+Gog Åehri~
 You are at the gates to Satan's city, Gog. Around you the marked ones
 teem and chant the idealogy of the beast. They seem oblivious
 to your presence. An unholy shrine towers above all in the
@@ -4273,28 +4273,28 @@ center of the city.
 ~
 0 ACD 1
 D0
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14161
 D1
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14148
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14133
 D3
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14146
 S
 #14148
-Gog Şehri~
+Gog Åehri~
 You are in Satan's city, Gog. Around you the marked ones
 teem and chant the idealogy of the beast. They seem oblivious
 to your presence. An unholy shrine towers above all in the
@@ -4303,23 +4303,23 @@ blood of a boy for a spell component.
 ~
 0 AD 1
 D0
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14162
 D1
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14149
 D3
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14147
 S
 #14149
-Gog Şehri~
+Gog Åehri~
 You are in Satan's city, Gog. Around you the marked ones
 teem and chant the idealogy of the beast. They seem oblivious
 to your presence. An unholy shrine towers above all in the
@@ -4331,18 +4331,18 @@ vial~
 5th vial of wrath: the darkening.
 ~
 D0
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14163
 D3
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14148
 S
 #14150
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -4350,23 +4350,23 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14164
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14151
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14136
 S
 #14151
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -4374,17 +4374,17 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14165
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14137
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14150
@@ -4408,7 +4408,7 @@ Cennet
 ~
 0 0 14153
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14138
@@ -4464,7 +4464,7 @@ do to make headway on all fours.
 ~
 0 0 5
 D0
-Dünyanın Köşesi
+DÃ¼nyanÄ±n KÃ¶ÅŸesi
 ~
 ~
 0 0 14169
@@ -4520,7 +4520,7 @@ Sallanan Diyarlar
 ~
 0 0 14171
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14158
@@ -4536,7 +4536,7 @@ Sallanan Diyarlar
 0 0 14156
 S
 #14158
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -4544,12 +4544,12 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14172
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14144
@@ -4560,7 +4560,7 @@ Sallanan Diyarlar
 0 0 14157
 S
 #14159
-Gog Şehri~
+Gog Åehri~
 You are in Satan's city, Gog. Around you the marked ones
 teem and chant the idealogy of the beast. They seem oblivious
 to your presence. An unholy shrine towers above all in the
@@ -4568,23 +4568,23 @@ center of the city.
 ~
 0 AD 1
 D0
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14173
 D1
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14160
 D2
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14145
 S
 #14160
-Gog Şehri~
+Gog Åehri~
 You are in Satan's city, Gog. Around you the marked ones
 teem and chant the idealogy of the beast. They seem oblivious
 to your presence. An unholy shrine towers above all in the
@@ -4592,28 +4592,28 @@ center of the city.
 ~
 0 AD 1
 D0
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14174
 D1
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14161
 D2
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14146
 D3
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14159
 S
 #14161
-Gog Şehri~
+Gog Åehri~
 You are in Satan's city, Gog. Around you the marked ones
 teem and chant the idealogy of the beast. They seem oblivious
 to your presence. An unholy shrine towers above all in the
@@ -4630,23 +4630,23 @@ The unholy shrine
 ~
 0 0 14175
 D1
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14162
 D2
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14147
 D3
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14160
 S
 #14162
-Gog Şehri~
+Gog Åehri~
 You are in Satan's city, Gog. Around you the marked ones
 teem and chant the idealogy of the beast. They seem oblivious
 to your presence. An unholy shrine towers above all in the
@@ -4655,28 +4655,28 @@ wine.
 ~
 0 AD 1
 D0
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14176
 D1
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14163
 D2
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14148
 D3
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14161
 S
 #14163
-Gog Şehri~
+Gog Åehri~
 You are in Satan's city, Gog. Around you the marked ones
 teem and chant the idealogy of the beast. They seem oblivious
 to your presence. An unholy shrine towers above all in the
@@ -4684,23 +4684,23 @@ center of the city.
 ~
 0 AD 1
 D0
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14177
 D2
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14149
 D3
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14162
 S
 #14164
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -4708,23 +4708,23 @@ the moon flickers across the battlefield.
 ~
 0 AD 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14178
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14165
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14150
 S
 #14165
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -4732,17 +4732,17 @@ the moon flickers across the battlefield.
 ~
 0 AD 2
 D0
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14179
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14151
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14164
@@ -4810,7 +4810,7 @@ Rain beats hard against your face, making it difficult to see.
 ~
 0 A 9
 D0
-Dünyanın Köşesi
+DÃ¼nyanÄ±n KÃ¶ÅŸesi
 ~
 ~
 0 0 14182
@@ -4826,8 +4826,8 @@ Cennet
 0 0 14167
 S
 #14169
-Dünyanın Köşesi~
-You stand at Dünyanın Köşesi. As any alchemist will
+DÃ¼nyanÄ±n KÃ¶ÅŸesi~
+You stand at DÃ¼nyanÄ±n KÃ¶ÅŸesi. As any alchemist will
 tell you, the world has 4 corners, one devoted to each element, and
 held in place by angels. You are at the earth corner. Beyond the
 corner stretches the infinite black nothing.
@@ -4862,7 +4862,7 @@ Sallanan Diyarlar
 ~
 0 0 14156
 D3
-Dünyanın Köşesi
+DÃ¼nyanÄ±n KÃ¶ÅŸesi
 ~
 ~
 0 0 14169
@@ -4886,7 +4886,7 @@ Sallanan Diyarlar
 0 0 14170
 S
 #14172
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -4894,13 +4894,13 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14158
 S
 #14173
-Gog Şehri~
+Gog Åehri~
 You are in Satan's city, Gog. Around you the marked ones
 teem and chant the idealogy of the beast. They seem oblivious
 to your presence. An unholy shrine towers above all in the
@@ -4908,18 +4908,18 @@ center of the city.
 ~
 0 AD 1
 D1
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14174
 D2
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14159
 S
 #14174
-Gog Şehri~
+Gog Åehri~
 You are in Satan's city, Gog. Around you the marked ones
 teem and chant the idealogy of the beast. They seem oblivious
 to your presence. An unholy shrine towers above all in the
@@ -4932,18 +4932,18 @@ The unholy shrine
 ~
 0 0 14175
 D2
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14160
 D3
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14173
 S
 #14175
-Lanetli Türbe~
+Lanetli TÃ¼rbe~
 You have entered the unholy shrine erected at the
 dragons decree to the beast. Murals on the walls depict
 the miracle where the beast's head healed after a severe
@@ -4952,23 +4952,23 @@ the throne where the beast rests.
 ~
 0 AD 1
 D1
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14176
 D2
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14161
 D3
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14174
 S
 #14176
-Gog Şehri~
+Gog Åehri~
 You are in Satan's city, Gog. Around you the marked ones
 teem and chant the idealogy of the beast. They seem oblivious
 to your presence. An unholy shrine towers above all in the
@@ -4976,23 +4976,23 @@ center of the city.
 ~
 0 AD 1
 D1
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14177
 D2
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14162
 D3
-Lanetli Türbe
+Lanetli TÃ¼rbe
 ~
 ~
 0 0 14175
 S
 #14177
-Gog Şehri~
+Gog Åehri~
 You are in Satan's city, Gog. Around you the marked ones
 teem and chant the idealogy of the beast. They seem oblivious
 to your presence. An unholy shrine towers above all in the
@@ -5000,18 +5000,18 @@ center of the city.
 ~
 0 AD 1
 D2
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14163
 D3
-Gog Şehri
+Gog Åehri
 ~
 ~
 0 0 14176
 S
 #14178
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -5019,18 +5019,18 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D1
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14179
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14164
 S
 #14179
-Kıyamet~
+KÄ±yamet~
 You stand in the vast plain of Armageddon. About you angels
 sound trumpets and cut through sinners with sickles. The sun
 has been swallowed by blackness, and the blood red light of
@@ -5038,12 +5038,12 @@ the moon flickers across the battlefield.
 ~
 0 0 2
 D2
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14165
 D3
-Kıyamet
+KÄ±yamet
 ~
 ~
 0 0 14178
@@ -5076,7 +5076,7 @@ Rain beats hard against your face, making it difficult to see.
 ~
 0 A 9
 D1
-Dünyanın Köşesi
+DÃ¼nyanÄ±n KÃ¶ÅŸesi
 ~
 ~
 0 0 14182
@@ -5092,7 +5092,7 @@ Cennet
 0 0 14180
 S
 #14182
-Dünyanın Köşesi~
+DÃ¼nyanÄ±n KÃ¶ÅŸesi~
 You have flown to the corner of the sky. Here the wind is
 is somewhat calmer than the rest of the heavens. Beyond the
 corner is the infinite nothing. You feel at peace here. As you
@@ -5120,7 +5120,7 @@ Cennet
 ~
 0 0 14181
 D5
-Taht Odasına
+Taht OdasÄ±na
 ~
 yourheart~
 2 0 14191
@@ -5131,7 +5131,7 @@ You fall, forever downwards into the bottomless pit.
 ~
 0 ADN 0
 D5
-Karanlık Kuyu
+KaranlÄ±k Kuyu
 ~
 ~
 0 0 14184
@@ -5142,7 +5142,7 @@ You fall, forever downwards into the bottomless pit.
 ~
 0 ADN 0
 D5
-Karanlık Kuyu
+KaranlÄ±k Kuyu
 ~
 ~
 0 0 14185
@@ -5153,7 +5153,7 @@ You fall, forever downwards into the bottomless pit.
 ~
 0 ADN 0
 D5
-Karanlık Kuyu
+KaranlÄ±k Kuyu
 ~
 ~
 0 0 14186
@@ -5164,7 +5164,7 @@ You fall, forever downwards into the bottomless pit.
 ~
 0 ADN 0
 D5
-Karanlık Kuyu
+KaranlÄ±k Kuyu
 ~
 ~
 0 0 14187
@@ -5175,7 +5175,7 @@ You fall, forever downwards into the bottomless pit.
 ~
 0 ADN 0
 D5
-Karanlık Kuyu
+KaranlÄ±k Kuyu
 ~
 ~
 0 0 14188
@@ -5186,7 +5186,7 @@ You fall, forever downwards into the bottomless pit.
 ~
 0 ADN 0
 D5
-Karanlık Kuyu
+KaranlÄ±k Kuyu
 ~
 ~
 0 0 14189
@@ -5197,7 +5197,7 @@ You fall, forever downwards into the bottomless pit.
 ~
 0 AD 0
 D5
-Karanlık Kuyu
+KaranlÄ±k Kuyu
 ~
 ~
 0 0 14190
@@ -5208,95 +5208,95 @@ You fall, forever downwards into the bottomless pit.
 ~
 0 ADN 0
 D5
-Karanlık Kuyu
+KaranlÄ±k Kuyu
 ~
 ~
 0 0 14183
 S
 #14191
-Taht Odası~
+Taht OdasÄ±~
 You stand in a magnificant throne room. Multitudes and multitudes
 of angles are here singing praise to the one who sits on the throne.
 About you are the souls of the dead shuffling foward to be judged.
 ~
 0 NVW 0
 D0
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14194
 D1
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14192
 S
 #14192
-Taht Odası~
+Taht OdasÄ±~
 You stand in a magnificant throne room. Multitudes and multitudes
 of angles are here singing praise to the one who sits on the throne.
 About you are the souls of the dead shuffling foward to be judged.
 ~
 0 NVW 0
 D0
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14195
 D1
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14193
 D3
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14191
 S
 #14193
-Taht Odası~
+Taht OdasÄ±~
 You stand in a magnificant throne room. Multitudes and multitudes
 of angles are here singing praise to the one who sits on the throne.
 About you are the souls of the dead shuffling foward to be judged.
 ~
 0 NVW 0
 D0
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14196
 D3
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14192
 S
 #14194
-Taht Odası~
+Taht OdasÄ±~
 You stand in a magnificant throne room. Multitudes and multitudes
 of angles are here singing praise to the one who sits on the throne.
 About you are the souls of the dead shuffling foward to be judged.
 ~
 0 NVW 0
 D0
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14197
 D1
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14195
 D2
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14191
 S
 #14195
-Taht Odası~
+Taht OdasÄ±~
 You stand in a magnificant throne room. Multitudes and multitudes
 of angles are here singing praise to the one who sits on the throne.
 About you are the souls of the dead shuffling foward to be judged.
@@ -5308,46 +5308,46 @@ At the throne
 ~
 0 0 14198
 D1
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14196
 D2
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14192
 D3
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14194
 S
 #14196
-Taht Odası~
+Taht OdasÄ±~
 You stand in a magnificant throne room. Multitudes and multitudes
 of angles are here singing praise to the one who sits on the throne.
 About you are the souls of the dead shuffling foward to be judged.
 ~
 0 NVW 0
 D0
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14199
 D2
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14193
 D3
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14195
 S
 #14197
-Taht Odası~
+Taht OdasÄ±~
 You stand in a magnificant throne room. Multitudes and multitudes
 of angles are here singing praise to the one who sits on the throne.
 About you are the souls of the dead shuffling foward to be judged.
@@ -5359,7 +5359,7 @@ At the throne
 ~
 0 0 14198
 D2
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14194
@@ -5372,35 +5372,35 @@ hole appears at your feet. He motions for you to go into
 the hole, and resumes his Judgement.~
 0 NVW 0
 D1
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14199
 D2
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14195
 D3
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14197
 D4
-Kara Deliğin İçine
+Kara DeliÄŸin Ä°Ã§ine
 ~
 ~
 0 -1 3001
 S
 #14199
-Taht Odası~
+Taht OdasÄ±~
 You stand in a magnificant throne room. Multitudes and multitudes
 of angles are here singing praise to the one who sits on the throne.
 About you are the souls of the dead shuffling foward to be judged.
 ~
 0 NVW 0
 D2
-Taht Odası
+Taht OdasÄ±
 ~
 ~
 0 0 14196
@@ -5444,7 +5444,7 @@ G 0 14008 0 The prayers of saints is given to The angel of the waters
 M 0 14032 2 14018 1 *Load The mighty man
 M 0 14027 1 14021 1*Load The whoremonger
 M 0 14029 1 14022 1*Load The harlot
-O 0 14035 0 14022 *A fountain of blood loaded to MaGog Şehri
+O 0 14035 0 14022 *A fountain of blood loaded to MaGog Åehri
 M 0 14028 1 14023 1*Load The murderer
 M 0 14018 1 14034 1*Load Balac, disciple of Balaam
 M 0 14003 1 14039 1*Load Babylon
@@ -5530,7 +5530,7 @@ M 0 14030 1 14160 1*Load The thief
 E 0 14020 0 3 The mark of the beast is loaded around the neck (1) of The thief
 M 0 14020 1 14161 1*Load The false prophet
 E 0 14020 0 3 The mark of the beast is loaded around the neck (1) of The false prophet
-O 0 14035 0 14161 A fountain of blood loaded to Gog Şehri
+O 0 14035 0 14161 A fountain of blood loaded to Gog Åehri
 M 0 14026 1 14162 1*Load The idolator
 E 0 14020 0 3 The mark of the beast is loaded around the neck (1) of The idolator
 M 0 14009 4 14164 1*Load An army of heaven
@@ -5570,12 +5570,12 @@ M 0 14043 1 14192 1*Load The eagle creature
 M 0 14040 1 14194 1*Load The lion creature
 M 0 14041 1 14195 1*Load The ox creature
 M 0 14042 1 14196 1*Load The creature with a human face
-O 0 14039 0 14197 A scroll of seven broken seals loaded to In Taht Odası
+O 0 14039 0 14197 A scroll of seven broken seals loaded to In Taht OdasÄ±
 M 0 14038 1 14197 1*Load The lamb
 O 0 14036 0 14198 An emerald throne loaded to At the throne
 M 0 14037 1 14198 1*Load He who sits at the throne
 E 0 14040 0 17 The book of life is loaded held in the hands of He who sits at the throne
-O 0 14037 0 14199 Four and twenty thrones loaded to In Taht Odası
+O 0 14037 0 14199 Four and twenty thrones loaded to In Taht OdasÄ±
 M 0 14039 1 14199 1*Load Four and twenty elders
 E 0 14041 0 17 A golden bowl of incense is loaded held in the hands of Four and twenty elders
 S

@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -12,6 +12,7 @@
 
 #include <sys/types.h>
 #include <stdio.h>
+#include <wchar.h>
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
@@ -35,18 +36,18 @@ CHAR_DATA * find_mafya ( CHAR_DATA *ch )
     }
 
     if ( mafya == NULL ) {
-	send_to_char("Burada olmaz.\n\r", ch);
+	send_to_char( L"Burada olmaz.\n\r", ch);
 	return NULL;
     }
 
     return NULL;
 }
 
-void do_iste( CHAR_DATA *ch, char *argument )
+void do_iste( CHAR_DATA *ch, wchar_t *argument )
 {
 	CHAR_DATA * mafya;
-	char arg1[MAX_INPUT_LENGTH];
-	char arg2[MAX_INPUT_LENGTH];
+	wchar_t arg1[MAX_INPUT_LENGTH];
+	wchar_t arg2[MAX_INPUT_LENGTH];
 	int	cost;
 
 	mafya = find_mafya(ch);
@@ -55,44 +56,44 @@ void do_iste( CHAR_DATA *ch, char *argument )
 
 	if (argument[0] == '\0')
 	{
-		do_say(mafya, (char*)"Lakap kaldýrtmak:");
-		do_say(mafya, (char*)"aranýyor:  20000 akçe");
-		do_say(mafya, (char*)"talep lakapkaldýr <aranýyor>");
+		do_say(mafya, (wchar_t*)"Lakap kaldÄ±rtmak:");
+		do_say(mafya, (wchar_t*)"aranÄ±yor:  20000 akÃ§e");
+		do_say(mafya, (wchar_t*)"talep lakapkaldÄ±r <aranÄ±yor>");
 		return;
     }
 
 	argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );
 
-	if (!str_prefix(arg1,"lakapkaldýr"))
+	if (!str_prefix(arg1, L"lakapkaldÄ±r"))
 	{
-		if (!str_prefix(arg2,"aranýyor"))
+		if (!str_prefix(arg2,L"aranÄ±yor"))
 		{
 			cost = 20000;
 			if ( !IS_SET(ch->act, PLR_WANTED) )
 			{
-				do_say(mafya, (char*)"Aranmýyorsun ki! Hatta oldukça zararsýz bi tipe benziyorsun!");
+				do_say(mafya, (wchar_t*)"AranmÄ±yorsun ki! Hatta oldukÃ§a zararsÄ±z bi tipe benziyorsun!");
 				return;
 			}
 			if ( cost > ch->pcdata->bank_s )
 			{
-				do_say(mafya, (char*)"Bankada yeterli akçen yok.");
+				do_say(mafya, (wchar_t*)"Bankada yeterli akÃ§en yok.");
 				return;
 			}
 			REMOVE_BIT( ch->act, PLR_WANTED );
 			ch->pcdata->bank_s 	    -= cost;
 			mafya->silver  += cost;
-			do_say(mafya, (char*)"Temiz iþ oldu. Yüzbaþýnýn ofisindeki kayýtlarý sildik. Artýk aranmýyorsun!");
-			do_say(mafya, (char*)"Yine bekleriz.");
+			do_say(mafya, (wchar_t*)"Temiz iÅŸ oldu. YÃ¼zbaÅŸÄ±nÄ±n ofisindeki kayÄ±tlarÄ± sildik. ArtÄ±k aranmÄ±yorsun!");
+			do_say(mafya, (wchar_t*)"Yine bekleriz.");
 			return;
 		}
 	}
 	else
 	{
-		do_say(mafya, (char*)"Ne söylediðini anlamýyorum, ama þunlar ilgini çekebilir...");
-		do_say(mafya, (char*)"Lakap kaldýrtmak:");
-		do_say(mafya, (char*)"aranýyor:  20000 akçe");
-		do_say(mafya, (char*)"talep lakapkaldýr <aranýyor>");
+		do_say(mafya, (wchar_t*)"Ne sÃ¶ylediÄŸini anlamÄ±yorum, ama ÅŸunlar ilgini Ã§ekebilir...");
+		do_say(mafya, (wchar_t*)"Lakap kaldÄ±rtmak:");
+		do_say(mafya, (wchar_t*)"aranÄ±yor:  20000 akÃ§e");
+		do_say(mafya, (wchar_t*)"talep lakapkaldÄ±r <aranÄ±yor>");
 		return;
 	}
 }

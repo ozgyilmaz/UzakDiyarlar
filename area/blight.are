@@ -3,7 +3,7 @@ Filename blight.are~
 Name Blight~
 Builder Stile~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 35
 Highlevel 50
 Minvnum 23001
@@ -19,7 +19,7 @@ END
 #23001
 trolok dha'vol~
 Trolok~
-Dha'vol kabilesinden bir trolok, burada yemeğinin tadını çıkarıyor.
+Dha'vol kabilesinden bir trolok, burada yemeÄŸinin tadÄ±nÄ± Ã§Ä±karÄ±yor.
 ~
 The trolloc is a twisted creature of evil, it is huge, standing nearly 10
 feet tall.  It is branded on left arm, the mark of the Dha'vol tribe burned
@@ -32,7 +32,7 @@ ABCFGT DFJ 35
 #23002
 myrddraal fade halfman eyeless lurk fetch shadowman~
 Myrddraal~
-Bir myrddraal ruhunu almak içine gölgelerden çıkıyor.
+Bir myrddraal ruhunu almak iÃ§ine gÃ¶lgelerden Ã§Ä±kÄ±yor.
 ~
 You see before you a myrddraal, a creature both of legend, and of great evil.
 They are known by many names, halfman, fade, the eyeless, lurk, fetch, and
@@ -45,7 +45,7 @@ ACFGST DFHJPQ 40
 #23003
 trolok ko'bal~
 Trolok~
-Ko'bal kabilesinden bir trolok, burada yemeğinin tadını çıkarıyor.
+Ko'bal kabilesinden bir trolok, burada yemeÄŸinin tadÄ±nÄ± Ã§Ä±karÄ±yor.
 ~
 The trolloc is a twisted creature of evil, it is huge, standing nearly 10
 feet tall.  It is branded on left arm, the mark of the Ko'bal tribe burned
@@ -58,7 +58,7 @@ ABCFGT DFJb 35
 #23004
 trolok dhai'mon~
 Trolok~
-Dhai'mon kabilesinden bir trolok, burada yemeğinin tadını çıkarıyor.
+Dhai'mon kabilesinden bir trolok, burada yemeÄŸinin tadÄ±nÄ± Ã§Ä±karÄ±yor.
 ~
 The trolloc is a twisted creature of evil, it is huge, standing nearly 10
 feet tall.  It is branded on left arm, the mark of the Dhai'mon tribe burned
@@ -69,9 +69,9 @@ it pecks at the last of it's meal as it prepares to slaughter you.
 unique~
 ABCFGT DFJTb 35
 #23005
-sürü kuzgun büyük~
-Kuzgun sürüsü~
-Büyük bir kuzgun sürüsü yemlerine doğru alçalıyor. NE YEMİ??!
+sÃ¼rÃ¼ kuzgun bÃ¼yÃ¼k~
+Kuzgun sÃ¼rÃ¼sÃ¼~
+BÃ¼yÃ¼k bir kuzgun sÃ¼rÃ¼sÃ¼ yemlerine doÄŸru alÃ§alÄ±yor. NE YEMÄ°??!
 ~
 A huge flock of ravens have gathered here.  They are the Eyes of the Dark One.
 As soon as they spot you they descend, a huge black cloud come down to claim
@@ -82,7 +82,7 @@ ABCFGS J 45
 #23006
 trolok kno'mon~
 Trolok~
-Kno'mon'lu bir trolok pususundan çıkarak saldırıyor!
+Kno'mon'lu bir trolok pususundan Ã§Ä±karak saldÄ±rÄ±yor!
 ~
 The trolloc is a twisted creature of evil, it is huge, standing nearly 10
 feet tall.  It is branded on left arm, the mark of the Kno'mon tribe burned
@@ -93,9 +93,9 @@ as it charges to attack.
 unique~
 ABCFGT DFJb 35
 #23007
-yaratık yağlı siyah~
-Yaratık~
-Siyah yağlı bir yaratık gölde yüzüyor.
+yaratÄ±k yaÄŸlÄ± siyah~
+YaratÄ±k~
+Siyah yaÄŸlÄ± bir yaratÄ±k gÃ¶lde yÃ¼zÃ¼yor.
 ~
 A grotesque black oily creature slides through the roiling black waters of the
 Lake.  It seems quite hostile.
@@ -103,9 +103,9 @@ Lake.  It seems quite hostile.
 unique~
 ABCFGT DFJ 35
 #23008
-ağaç eğilmiş~
-Eğilmiş ağaç~
-Eğilmiş ağaçlardan biri siddetli bir şekilde sallanıyor.
+aÄŸaÃ§ eÄŸilmiÅŸ~
+EÄŸilmiÅŸ aÄŸaÃ§~
+EÄŸilmiÅŸ aÄŸaÃ§lardan biri siddetli bir ÅŸekilde sallanÄ±yor.
 ~
 Much like the other trees of the blight, this tree is decayed, and black with
 disease.  Unlike the other trees, this one seems a little more lively.
@@ -115,7 +115,7 @@ ABCFGT DFJ 30
 #23009
 draghkar~
 Draghkar~
-Bir draghkar, mağarasından çıkarak sana Blight'a hoşgeldin diyor.
+Bir draghkar, maÄŸarasÄ±ndan Ã§Ä±karak sana Blight'a hoÅŸgeldin diyor.
 ~
 A tall pale humanoid, large wings folded, calls seductively to you, you feel
 drawn to the creature, at the last moment you pull away, and pull out your
@@ -124,9 +124,9 @@ weapons.
 unique~
 ABCFGRT DF 50
 #23010
-hastalıklı parçalanmış biçimsiz vücut yaratık~
-Hastalıklı yaratık~
-Hastalıklı, parçalanmış biçimsiz bir vücut Blight'da acı içinde dolanıyor.
+hastalÄ±klÄ± parÃ§alanmÄ±ÅŸ biÃ§imsiz vÃ¼cut yaratÄ±k~
+HastalÄ±klÄ± yaratÄ±k~
+HastalÄ±klÄ±, parÃ§alanmÄ±ÅŸ biÃ§imsiz bir vÃ¼cut Blight'da acÄ± iÃ§inde dolanÄ±yor.
 ~
 It's disgusting...  hanging on to it's pain filled life with every ounce of
 energy.  The taint of evil has twisted the creature beyond recognition, you
@@ -137,7 +137,7 @@ ACFGd DFJX 20
 #23011
 gardiyan gaidan~
 Gardiyan~
-Bir gardiyan Blight etrafında avlanıyor.
+Bir gardiyan Blight etrafÄ±nda avlanÄ±yor.
 ~
 You barely notice the graceful figure moving about the Blight.  It is a warder.
 He does not look at you, but you are sure he sees your every move.  You do not
@@ -149,7 +149,7 @@ AGTd BDFJNPQZ 40
 #23012
 lord~
 Kulenin Lordu~
-Kulenin lordu yatağın yanında hışımla şekilleniyor!
+Kulenin lordu yataÄŸÄ±n yanÄ±nda hÄ±ÅŸÄ±mla ÅŸekilleniyor!
 ~
 You see before you what is left of the Lord of the tower.  He died many years
 ago due to the treachery that fell mighty Malkier.  His spirit has stayed
@@ -161,7 +161,7 @@ ABCFGOTVd DFHJNVZb 60
 #23013
 lord~
 Kulenin Lordu~
-Kulenin lordu yatağın yanında hışımla şekilleniyor!
+Kulenin lordu yataÄŸÄ±n yanÄ±nda hÄ±ÅŸÄ±mla ÅŸekilleniyor!
 ~
 You see before you what is left of the Lord of the tower.  He died many years
 ago due to the treachery that fell mighty Malkier.  His spirit has stayed
@@ -173,7 +173,7 @@ ABCFGOTVd DFHJNVZb 60
 #23014
 ruh asker~
 Ruh~
-Bir ruh kayıp krallığında dolanıyor.
+Bir ruh kayÄ±p krallÄ±ÄŸÄ±nda dolanÄ±yor.
 ~
 You gaze upon one of the dead defenders of Malkier.  As it moves along the area
 immediately around it takes on new life.  Objects faded with age take on new
@@ -186,7 +186,7 @@ ACFGOTd BDFJPUZd 45
 #23015
 ruh~
 Ruh~
-Bir ruh kayıp krallığında dolanıyor.
+Bir ruh kayÄ±p krallÄ±ÄŸÄ±nda dolanÄ±yor.
 ~
 You gaze upon one of the dead defenders of Malkier.  As it moves along the area
 immediately around it takes on new life.  Objects faded with age take on new
@@ -197,9 +197,9 @@ in life.  It intends to try to do it in death.
 unique~
 ACFGOTd BDFJNPUZd 45
 #23016
-ağaç eğilmiş~
-Eğilmiş ağaç~
-Eğilmiş ağaçlardan biri siddetli bir şekilde sallanıyor.
+aÄŸaÃ§ eÄŸilmiÅŸ~
+EÄŸilmiÅŸ aÄŸaÃ§~
+EÄŸilmiÅŸ aÄŸaÃ§lardan biri siddetli bir ÅŸekilde sallanÄ±yor.
 ~
 Much like the other trees of the blight, this tree is decayed, and black with
 disease.  Unlike the other trees, this one seems a little more lively.
@@ -207,9 +207,9 @@ disease.  Unlike the other trees, this one seems a little more lively.
 unique~
 ABCFGT DFJ 30
 #23017
-ağaç eğilmiş~
-Eğilmiş ağaç~
-Eğilmiş ağaçlardan biri siddetli bir şekilde sallanıyor.
+aÄŸaÃ§ eÄŸilmiÅŸ~
+EÄŸilmiÅŸ aÄŸaÃ§~
+EÄŸilmiÅŸ aÄŸaÃ§lardan biri siddetli bir ÅŸekilde sallanÄ±yor.
 ~
 Much like the other trees of the blight, this tree is decayed, and black with
 disease.  Unlike the other trees, this one seems a little more lively.
@@ -217,9 +217,9 @@ disease.  Unlike the other trees, this one seems a little more lively.
 unique~
 ABCFGT DFJ 30
 #23018
-ağaç eğilmiş~
-Eğilmiş ağaç~
-Eğilmiş ağaçlardan biri siddetli bir şekilde sallanıyor.
+aÄŸaÃ§ eÄŸilmiÅŸ~
+EÄŸilmiÅŸ aÄŸaÃ§~
+EÄŸilmiÅŸ aÄŸaÃ§lardan biri siddetli bir ÅŸekilde sallanÄ±yor.
 ~
 Much like the other trees of the blight, this tree is decayed, and black with
 disease.  Unlike the other trees, this one seems a little more lively.
@@ -227,9 +227,9 @@ disease.  Unlike the other trees, this one seems a little more lively.
 unique~
 ABCFGT DFJ 30
 #23019
-seanchan sul'dam kadın~
+seanchan sul'dam kadÄ±n~
 Sul'Dam~
-Yıldırımlarla çevrelenmiş sade giyimli bir kadın karşında duruyor.
+YÄ±ldÄ±rÄ±mlarla Ã§evrelenmiÅŸ sade giyimli bir kadÄ±n karÅŸÄ±nda duruyor.
 ~
 This woman radiates a sense of fear, she seems as lost as you, but more than
 that she seems unwhole, as if a part of her is missing.  The pannelled dress
@@ -239,9 +239,9 @@ have ever seen.
 human~
 AGHT DFJb 40
 #23020
-metal metalik küre garip~
-Metalik küre~
-Küçük metalik bir küre, havada yüksek sesle vızıldıyor.
+metal metalik kÃ¼re garip~
+Metalik kÃ¼re~
+KÃ¼Ã§Ã¼k metalik bir kÃ¼re, havada yÃ¼ksek sesle vÄ±zÄ±ldÄ±yor.
 ~
 You are amazed by this creature, it must be a highly armored beholder, or
 something stranger still perhaps.  It hovers about 5 feet off the ground.
@@ -252,8 +252,8 @@ unique~
 AGT DFJTZb 45
 #23021
 tilki uzun ince~
-Tilki benzeri insansı~
-Tilkiye benzeyen bir insansı, etrafındaki manzaraya sırıtıtıyor.
+Tilki benzeri insansÄ±~
+Tilkiye benzeyen bir insansÄ±, etrafÄ±ndaki manzaraya sÄ±rÄ±tÄ±tÄ±yor.
 ~
 This creature is very disconcerting, it reminds you of the scenes you have
 viewed above, the creature seems a little unnerved by his captivity, but
@@ -264,9 +264,9 @@ he seems like a pretty nice guy.
 unique~
 ACFGHS DFJPV 45
 #23022
-grolm kurbağa dev~
+grolm kurbaÄŸa dev~
 Grolm~
-Kurbağaya benzeyen dev bir yaratık hırıldıyor.
+KurbaÄŸaya benzeyen dev bir yaratÄ±k hÄ±rÄ±ldÄ±yor.
 ~
 A huge creature lumbers towards you, a wild grolm, frog-like, greyish, thick
 skinned nightmare.  That is all you have time to think about until it is time
@@ -278,9 +278,9 @@ AT DFJ 45
 
 #OBJECTS
 #23001
-kılıç büyük kavisli~
-büyük bir kavisli kılıç~
-Büyük bir kavisli kılıç bir kan birikintisinin içinde duruyor.~
+kÄ±lÄ±Ã§ bÃ¼yÃ¼k kavisli~
+bÃ¼yÃ¼k bir kavisli kÄ±lÄ±Ã§~
+BÃ¼yÃ¼k bir kavisli kÄ±lÄ±Ã§ bir kan birikintisinin iÃ§inde duruyor.~
 unknown~
 weapon CGJL AN
 sword 5 7 slash 0
@@ -292,57 +292,57 @@ A
 A
 4 -3
 #23002
-anahtar kana bulanmış~
-kana bulanmış bir anahtar~
-Kurumuş kana bulanmış bir anahtar, burada duruyor.~
+anahtar kana bulanmÄ±ÅŸ~
+kana bulanmÄ±ÅŸ bir anahtar~
+KurumuÅŸ kana bulanmÄ±ÅŸ bir anahtar, burada duruyor.~
 unknown~
 key 0 A
 0 0 0 0 0
 43 1 430 P
 #23003
-anahtar ağır demir~
-demirden ağır bir anathar~
-büyük demir bir anahtar burada duruyor.~
+anahtar aÄŸÄ±r demir~
+demirden aÄŸÄ±r bir anathar~
+bÃ¼yÃ¼k demir bir anahtar burada duruyor.~
 unknown~
 key 0 A
 0 0 0 0 0
 43 1 430 P
 #23004
-anahtar düzleşmiş~
-sıkça kullanılmış anahtar~
-Sıkça kullanılmaktan düzleşmiş bir anahtar, burada duruyor.~
+anahtar dÃ¼zleÅŸmiÅŸ~
+sÄ±kÃ§a kullanÄ±lmÄ±ÅŸ anahtar~
+SÄ±kÃ§a kullanÄ±lmaktan dÃ¼zleÅŸmiÅŸ bir anahtar, burada duruyor.~
 unknown~
 key 0 A
 0 0 0 0 0
 43 1 430 P
 #23005
-anahtar kana bulanmış~
-kana bulanmış bir anahtar~
-Kurumuş kana bulanmış bir anahtar, burada duruyor.~
+anahtar kana bulanmÄ±ÅŸ~
+kana bulanmÄ±ÅŸ bir anahtar~
+KurumuÅŸ kana bulanmÄ±ÅŸ bir anahtar, burada duruyor.~
 unknown~
 key 0 A
 0 0 0 0 0
 43 1 430 P
 #23006
-anahtar ağır demir~
-demirden ağır bir anathar~
-büyük demir bir anahtar burada duruyor.~
+anahtar aÄŸÄ±r demir~
+demirden aÄŸÄ±r bir anathar~
+bÃ¼yÃ¼k demir bir anahtar burada duruyor.~
 unknown~
 key 0 A
 0 0 0 0 0
 43 1 430 P
 #23007
-anahtar düzleşmiş~
-sıkça kullanılmış anahtar~
-Sıkça kullanılmaktan düzleşmiş bir anahtar, burada duruyor.~
+anahtar dÃ¼zleÅŸmiÅŸ~
+sÄ±kÃ§a kullanÄ±lmÄ±ÅŸ anahtar~
+SÄ±kÃ§a kullanÄ±lmaktan dÃ¼zleÅŸmiÅŸ bir anahtar, burada duruyor.~
 unknown~
 key 0 A
 0 0 0 0 0
 43 1 430 P
 #23008
-siyah kılıç~
-siyah bir kılıç~
-Siyah bir kılıç onu kullanman için seni çağırıyor.~
+siyah kÄ±lÄ±Ã§~
+siyah bir kÄ±lÄ±Ã§~
+Siyah bir kÄ±lÄ±Ã§ onu kullanman iÃ§in seni Ã§aÄŸÄ±rÄ±yor.~
 unknown~
 weapon BCEGJLM AN
 sword 5 8 slash 0
@@ -356,7 +356,7 @@ A
 #23009
 pelerin hareketsiz siyah~
 hareketsiz siyah bir pelerin~
-Rüzgarın dokunamadığı siyah bir pelerin, yerde duruyor.~
+RÃ¼zgarÄ±n dokunamadÄ±ÄŸÄ± siyah bir pelerin, yerde duruyor.~
 unknown~
 armor CEGJL AK
 13 13 13 6 0
@@ -366,9 +366,9 @@ A
 A
 17 -5
 #23010
-yılan-biçimli sarmalayan siyah zırhlar~
-yılan-biçimli sarmalayan siyah zırhlar~
-Birkaç siyah zırh yerde duruyor.~
+yÄ±lan-biÃ§imli sarmalayan siyah zÄ±rhlar~
+yÄ±lan-biÃ§imli sarmalayan siyah zÄ±rhlar~
+BirkaÃ§ siyah zÄ±rh yerde duruyor.~
 unknown~
 armor DEGJL AD
 12 13 13 6 0
@@ -380,9 +380,9 @@ A
 A
 2 2
 #23011
-kılıç kaliteli~
-kaliteli dövülmüş bir kılıç~
-Kaliteli dövülmüş bir kılıç hiç kullanılmamış gibi duruyor.~
+kÄ±lÄ±Ã§ kaliteli~
+kaliteli dÃ¶vÃ¼lmÃ¼ÅŸ bir kÄ±lÄ±Ã§~
+Kaliteli dÃ¶vÃ¼lmÃ¼ÅŸ bir kÄ±lÄ±Ã§ hiÃ§ kullanÄ±lmamÄ±ÅŸ gibi duruyor.~
 unknown~
 weapon ABGIK AN
 sword 5 9 slice 0
@@ -390,9 +390,9 @@ sword 5 9 slice 0
 A
 18 6
 #23012
-pelerin değişik değiştiren renk~
-renk değiştiren bir pelerin~
-Bir giysi yığını etrafındakilere karışmış bir şekilde duruyor.~
+pelerin deÄŸiÅŸik deÄŸiÅŸtiren renk~
+renk deÄŸiÅŸtiren bir pelerin~
+Bir giysi yÄ±ÄŸÄ±nÄ± etrafÄ±ndakilere karÄ±ÅŸmÄ±ÅŸ bir ÅŸekilde duruyor.~
 unknown~
 armor GIK AK
 12 12 13 6 0
@@ -412,49 +412,49 @@ key 0 AO
 0 0 0 0 0
 45 1 450 P
 #23014
-anahtar altın~
-parlak altın bir anahtar~
-Parlak altın bir anahtar yerde duruyor.~
+anahtar altÄ±n~
+parlak altÄ±n bir anahtar~
+Parlak altÄ±n bir anahtar yerde duruyor.~
 unknown~
 key 0 AO
 0 0 0 0 0
 50 1 500 P
 #23015
-büyük altın sandık~
-büyük altın bir sandık~
-Altından yapılmış büyük bir sandık, yatağın başında duruyor.~
+bÃ¼yÃ¼k altÄ±n sandÄ±k~
+bÃ¼yÃ¼k altÄ±n bir sandÄ±k~
+AltÄ±ndan yapÄ±lmÄ±ÅŸ bÃ¼yÃ¼k bir sandÄ±k, yataÄŸÄ±n baÅŸÄ±nda duruyor.~
 unknown~
 container AG 0
 2000 0 2416 100 100
 0 0 0 P
 #23016
 anahtar lord~
-Lord'un anahtarı~
-Çok önemli bir anahtar burada duruyor.~
+Lord'un anahtarÄ±~
+Ã‡ok Ã¶nemli bir anahtar burada duruyor.~
 unknown~
 key 0 AO
 0 0 0 0 0
 0 1 0 P
 #23017
-büyük altın sandık~
-büyük altın bir sandık~
-Altından yapılmış büyük bir sandık, yatağın başında duruyor.~
+bÃ¼yÃ¼k altÄ±n sandÄ±k~
+bÃ¼yÃ¼k altÄ±n bir sandÄ±k~
+AltÄ±ndan yapÄ±lmÄ±ÅŸ bÃ¼yÃ¼k bir sandÄ±k, yataÄŸÄ±n baÅŸÄ±nda duruyor.~
 unknown~
 container AG 0
 2000 0 2418 100 100
 0 5000 0 P
 #23018
 anahtar lord~
-Lord'un anahtarı~
-Çok önemli bir anahtar burada duruyor.~
+Lord'un anahtarÄ±~
+Ã‡ok Ã¶nemli bir anahtar burada duruyor.~
 unknown~
 key 0 AO
 0 0 0 0 0
 0 1 0 P
 #23019
-angreal küçük heykelcik~
-küçük bir heykelcik~
-Küçük bir heykelcik yerde güçle vızıldıyor.~
+angreal kÃ¼Ã§Ã¼k heykelcik~
+kÃ¼Ã§Ã¼k bir heykelcik~
+KÃ¼Ã§Ã¼k bir heykelcik yerde gÃ¼Ã§le vÄ±zÄ±ldÄ±yor.~
 unknown~
 armor BGI AO
 20 20 20 9 0
@@ -466,9 +466,9 @@ A
 A
 12 50
 #23020
-falagar albatros amblemli kılıç~
-Falagar'ın albatros amblemli kılıcı~
-Kayıp bir ruhun adını fısıldayan kılıç ayağının önünde duruyor.~
+falagar albatros amblemli kÄ±lÄ±Ã§~
+Falagar'Ä±n albatros amblemli kÄ±lÄ±cÄ±~
+KayÄ±p bir ruhun adÄ±nÄ± fÄ±sÄ±ldayan kÄ±lÄ±Ã§ ayaÄŸÄ±nÄ±n Ã¶nÃ¼nde duruyor.~
 iron~
 weapon GIM AN
 sword 10 11 slash DE
@@ -481,8 +481,8 @@ A
 13 50
 #23021
 malkierian battle helm crane~
-turna şekilli altın miğfer~
-Bir malkeri savaş miğferi yerde duruyor.~
+turna ÅŸekilli altÄ±n miÄŸfer~
+Bir malkeri savaÅŸ miÄŸferi yerde duruyor.~
 unknown~
 armor AGK AE
 20 20 20 10 0
@@ -494,9 +494,9 @@ A
 A
 18 4
 #23022
-giysi savaş zırh~
-bir Malkeri savaş zırhı~
-İyi parlatılmış zırhlı bir giysi burada duruyor.~
+giysi savaÅŸ zÄ±rh~
+bir Malkeri savaÅŸ zÄ±rhÄ±~
+Ä°yi parlatÄ±lmÄ±ÅŸ zÄ±rhlÄ± bir giysi burada duruyor.~
 unknown~
 armor AGK AD
 20 21 20 9 0
@@ -508,9 +508,9 @@ A
 A
 18 2
 #23023
-maar yürektaşı hançer~
-Maar'ın yürektaşı hançeri~
-Kayıp bir ruha ait hançer, efendisinin adını fısıldıyor.~
+maar yÃ¼rektaÅŸÄ± hanÃ§er~
+Maar'Ä±n yÃ¼rektaÅŸÄ± hanÃ§eri~
+KayÄ±p bir ruha ait hanÃ§er, efendisinin adÄ±nÄ± fÄ±sÄ±ldÄ±yor.~
 unknown~
 weapon GM AN
 dagger 10 11 pierce D
@@ -522,9 +522,9 @@ A
 A
 4 3
 #23024
-lord hüküm asa~
-bir Lord hüküm asası~
-Kailteli işlenmiş bir hüküm asası, yerde duruyor.~
+lord hÃ¼kÃ¼m asa~
+bir Lord hÃ¼kÃ¼m asasÄ±~
+Kailteli iÅŸlenmiÅŸ bir hÃ¼kÃ¼m asasÄ±, yerde duruyor.~
 unknown~
 armor AGK AO
 20 19 21 11 0
@@ -538,14 +538,14 @@ A
 #23025
 kilit dili garip~
 garip bir kilit dili~
-Garip görünüşlü bir kilit dili, burada duruyor.~
+Garip gÃ¶rÃ¼nÃ¼ÅŸlÃ¼ bir kilit dili, burada duruyor.~
 unknown~
 key 0 A
 0 0 0 0 0
 33 1 330 P
 #23026
-pınar~
-pınar~
+pÄ±nar~
+pÄ±nar~
 ~
 marble~
 fountain G 0
@@ -553,7 +553,7 @@ fountain G 0
 0 0 0 P
 #23027
 bayrak bayraklar oyuk~
-küçük oyuk~
+kÃ¼Ã§Ã¼k oyuk~
 ~
 unknown~
 container C 0
@@ -561,19 +561,19 @@ container C 0
 43 1000 430 P
 E
 bayrak bayraklar~
-Bayraklardan biri küçük bir oyuğu örtüyor.
+Bayraklardan biri kÃ¼Ã§Ã¼k bir oyuÄŸu Ã¶rtÃ¼yor.
 ~
 #23028
-asa çita~
-oymalı bir asa~
-Kedi figürü oymalı bir asa burada dinleniyor.~
+asa Ã§ita~
+oymalÄ± bir asa~
+Kedi figÃ¼rÃ¼ oymalÄ± bir asa burada dinleniyor.~
 unknown~
 staff 0 AO
 40 8 8 'sanctuary' 0
 43 5 430 P
 #23029
 pislik~
-kurumuş göl pisliği~
+kurumuÅŸ gÃ¶l pisliÄŸi~
 ~
 unknown~
 container C 0
@@ -581,12 +581,12 @@ container C 0
 33 1000 330 P
 E
 pislik~
-Gölün dibi tümüyle kalın siyah pislik tabakası.
+GÃ¶lÃ¼n dibi tÃ¼mÃ¼yle kalÄ±n siyah pislik tabakasÄ±.
 ~
 #23030
 iskelet~
 bir iskelet~
-Bir iskelet kanlı el yazısının altında duruyor.~
+Bir iskelet kanlÄ± el yazÄ±sÄ±nÄ±n altÄ±nda duruyor.~
 unknown~
 container C 0
 10 0 0 10 100
@@ -598,7 +598,7 @@ Bir iskelet burada duruyor.
 #23031
 iskelet~
 bir iskelet~
-Bir iskelet kanlı el yazısının altında duruyor.~
+Bir iskelet kanlÄ± el yazÄ±sÄ±nÄ±n altÄ±nda duruyor.~
 unknown~
 container C 0
 10 0 0 10 100
@@ -610,7 +610,7 @@ Bir iskelet burada duruyor.
 #23032
 a'dam adam~
 bir A'dam~
-küçük gümüş bir bileklik ve tasma burada, gümüş bir zincirle bağlanmış.~
+kÃ¼Ã§Ã¼k gÃ¼mÃ¼ÅŸ bir bileklik ve tasma burada, gÃ¼mÃ¼ÅŸ bir zincirle baÄŸlanmÄ±ÅŸ.~
 unknown~
 wand 0 AO
 40 10 10 'armor' 0
@@ -618,9 +618,9 @@ wand 0 AO
 A
 19 3
 #23033
-kaplanmış sade gisyi~
-yıldırımlarla kaplanmış sade bir giysi~
-Sade bir giysi yerde duruyor, kaplamalarında garip semboller görülüyor.~
+kaplanmÄ±ÅŸ sade gisyi~
+yÄ±ldÄ±rÄ±mlarla kaplanmÄ±ÅŸ sade bir giysi~
+Sade bir giysi yerde duruyor, kaplamalarÄ±nda garip semboller gÃ¶rÃ¼lÃ¼yor.~
 unknown~
 armor GI AD
 12 13 14 7 0
@@ -632,9 +632,9 @@ A
 A
 4 2
 #23034
-gülümseme ayartıcı~
-ayartıcı bir gülümseme~
-Çok garip bir nesne ayağının dibinde duruyor.~
+gÃ¼lÃ¼mseme ayartÄ±cÄ±~
+ayartÄ±cÄ± bir gÃ¼lÃ¼mseme~
+Ã‡ok garip bir nesne ayaÄŸÄ±nÄ±n dibinde duruyor.~
 unknown~
 weapon EJLM AN
 exotic 5 10 blast 0
@@ -646,9 +646,9 @@ A
 A
 12 30
 #23035
-kem bıçak~
-kem görünüşlü bir bıçak~
-Çok keskin bir bıçek yerde duruyor.~
+kem bÄ±Ã§ak~
+kem gÃ¶rÃ¼nÃ¼ÅŸlÃ¼ bir bÄ±Ã§ak~
+Ã‡ok keskin bir bÄ±Ã§ek yerde duruyor.~
 unknown~
 weapon GI AN
 dagger 5 9 pierce D
@@ -659,8 +659,8 @@ A
 18 3
 #23036
 tilki madalyon~
-Tilki başlı bir madalyon~
-Bir madalyon ayağının dibinde duruyor.~
+Tilki baÅŸlÄ± bir madalyon~
+Bir madalyon ayaÄŸÄ±nÄ±n dibinde duruyor.~
 unknown~
 armor GI AC
 15 15 15 7 0
@@ -675,7 +675,7 @@ A
 
 #ROOMS
 #23100
-Kıyıda~
+KÄ±yÄ±da~
 A grotesque and disturbing site meets you eyes here.  The Blight still
 surrounds you all of it's death and decay strong in your mind.  But, what lies
 to the west is perhaps the most disturbing of all.  You are standing on the
@@ -701,7 +701,7 @@ The Borderland kingdom of Saldaea lies to the south.
 0 -1 23101
 S
 #23101
-Sınır Topraklarda~
+SÄ±nÄ±r Topraklarda~
 You are just north of the borderland kingdom of Saldaea.  It is one of the
 four kingdom that hold back the Dark One's Shadowspawn from the rest of the
 world.  They are a good people, but allow no one and nothing from the Blight to
@@ -721,7 +721,7 @@ The border continues to the east.
 0 -1 23102
 S
 #23102
-Sınır Topraklarda~
+SÄ±nÄ±r Topraklarda~
 You are just north of the borderland kingdom of Saldaea.  It is one of the
 four kingdom that hold back the Dark One's Shadowspawn from the rest of the
 world.  They are a good people, but allow no one and nothing from the Blight to
@@ -746,7 +746,7 @@ The border continues to the west.
 0 -1 23101
 S
 #23103
-Sınır Topraklarda~
+SÄ±nÄ±r Topraklarda~
 You are just north of the borderland kingdom of Saldaea.  It is one of the
 four kingdom that hold back the Dark One's Shadowspawn from the rest of the
 world.  They are a good people, but allow no one and nothing from the Blight to
@@ -771,7 +771,7 @@ The border continues ot the west.
 0 -1 23102
 S
 #23104
-Sınır Topraklarda~
+SÄ±nÄ±r Topraklarda~
 You are just north of the borderland kingdom of Saldaea.  It is one of the
 four kingdom that hold back the Dark One's Shadowspawn from the rest of the
 world.  They are a good people, but allow no one and nothing from the Blight to
@@ -796,7 +796,7 @@ The border continues to the west.
 0 -1 23103
 S
 #23105
-Sınır Topraklarda~
+SÄ±nÄ±r Topraklarda~
 You are just north of the borderland kingdom of Kandor.  It is one of the
 four kingdom that hold back the Dark One's Shadowspawn from the rest of the
 world.  They are a good people, but allow no one and nothing from the Blight to
@@ -821,7 +821,7 @@ The border continues to the west.
 0 -1 23104
 S
 #23106
-Sınır Topraklarda~
+SÄ±nÄ±r Topraklarda~
 You are just north of the borderland kingdom of Kandor.  It is one of the
 four kingdom that hold back the Dark One's Shadowspawn from the rest of the
 world.  They are a good people, but allow no one and nothing from the Blight to
@@ -846,7 +846,7 @@ The border continues ot the west.
 0 -1 23105
 S
 #23107
-Sınır Topraklarda~
+SÄ±nÄ±r Topraklarda~
 You are just north of the borderland kingdom of Kandor.  It is one of the
 four kingdom that hold back the Dark One's Shadowspawn from the rest of the
 world.  They are a good people, but allow no one and nothing from the Blight to
@@ -871,7 +871,7 @@ The border continues to the west.
 0 -1 23106
 S
 #23108
-Sınır Topraklarda~
+SÄ±nÄ±r Topraklarda~
 You are just north of the borderland kingdom of Arafel.  It is one of the
 four kingdom that hold back the Dark One's Shadowspawn from the rest of the
 world.  They are a good people, but allow no one and nothing from the Blight to
@@ -896,7 +896,7 @@ The border continues to the west.
 0 -1 23107
 S
 #23109
-Sınır Topraklarda~
+SÄ±nÄ±r Topraklarda~
 You are just north of the borderland kingdom of Arafel.  It is one of the
 four kingdom that hold back the Dark One's Shadowspawn from the rest of the
 world.  They are a good people, but allow no one and nothing from the Blight to
@@ -921,7 +921,7 @@ The border continues to the west.
 0 -1 23108
 S
 #23110
-Sınır Topraklarda~
+SÄ±nÄ±r Topraklarda~
 You are just north of the borderland kingdom of Arafel.  It is one of the
 four kingdom that hold back the Dark One's Shadowspawn from the rest of the
 world.  They are a good people, but allow no one and nothing from the Blight to
@@ -946,7 +946,7 @@ The border continues to the west.
 0 -1 23109
 S
 #23111
-Sınır Topraklarda~
+SÄ±nÄ±r Topraklarda~
 You are just north of the borderland kingdom of Shienar.  It is one of the
 four kingdom that hold back the Dark One's Shadowspawn from the rest of the
 world.  They are a good people, but allow no one and nothing from the Blight to
@@ -971,7 +971,7 @@ The border continues to the west.
 0 -1 23110
 S
 #23112
-Sınır Topraklarda~
+SÄ±nÄ±r Topraklarda~
 You are just north of the borderland kingdom of Shienar.  It is one of the
 four kingdom that hold back the Dark One's Shadowspawn from the rest of the
 world.  They are a good people, but allow no one and nothing from the Blight to
@@ -996,7 +996,7 @@ The border continues to the west.
 0 -1 23111
 S
 #23113
-Sınır Topraklarda~
+SÄ±nÄ±r Topraklarda~
 You are just north of the borderland kingdom of Shienar.  It is one of the
 four kingdom that hold back the Dark One's Shadowspawn from the rest of the
 world.  They are a good people, but allow no one and nothing from the Blight to
@@ -1021,7 +1021,7 @@ The border continues to the west.
 0 -1 23112
 S
 #23114
-Sınır Topraklarda~
+SÄ±nÄ±r Topraklarda~
 You are just north of the borderland kingdom of Shienar.  It is one of the
 four kingdom that hold back the Dark One's Shadowspawn from the rest of the
 world.  They are a good people, but allow no one and nothing from the Blight to
@@ -1045,7 +1045,7 @@ The border continues to the west.
 0 -1 23113
 S
 #23115
-Korunaklı Kayran~
+KorunaklÄ± Kayran~
 You didn't even see this area from the south!  It is not a lucious garden,
 but then again, there are actually some green plants here, as well as a spring
 flowing with appearantly untainted water.  You can now see the ancient looking
@@ -1110,7 +1110,7 @@ A set of stairs lies to the south.
 0 -1 24002
 S
 #24002
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads down into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc
@@ -1149,7 +1149,7 @@ A small duct leads into one of the Hundred Lakes.
 0 -1 23009
 S
 #24004
-Eğitim Odası~
+EÄŸitim OdasÄ±~
 Long ago, the finest warriors in the borderlands practiced thier skills in
 this room, shattered remnants of weapons, and a few skeletons are all that
 remains.  Through the blood and wreckage of this room, a slogan is painted all
@@ -1179,7 +1179,7 @@ A hallway lies to the north.
 1 -1 24000
 S
 #24006
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads up into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc
@@ -1242,7 +1242,7 @@ The hallway continues to the west.
 0 -1 24007
 S
 #24009
-Nöbetçi Odası~
+NÃ¶betÃ§i OdasÄ±~
 The dungeon's guards once kept thier watch from this room.  There are no
 longer prisonners to watch, or guards to watch them however, and this room
 holds nothing but wreckage and dust.  A small door is set in the eastern wall,
@@ -1261,7 +1261,7 @@ A stout door is set in the southern wall.
 1 23003 24007
 S
 #24010
-Sorgu Odası~
+Sorgu OdasÄ±~
 This is were the prisonners of the tower were questioned.  Although you do
 not see any implements of torture in this room, you feel certain the towers
 guards had many questions answered here.  A small door leads into the guard
@@ -1275,7 +1275,7 @@ A small door is set into the western wall.
 1 -1 24009
 S
 #24011
-Hücreler~
+HÃ¼creler~
 Although no one resides here any longer, you feel a sense of despair.  As
 you look around the area you notice that although the tower was taken, and that
 this area was surely checked, that none of the cells stand open.  Two of the
@@ -1291,7 +1291,7 @@ A stout door is set in the northern wall.
 1 23004 24008
 S
 #24012
-Oyuğun İçinde~
+OyuÄŸun Ä°Ã§inde~
 You have entered into a breach in the wall of one of the Seven Towers,
 Trolloc armies over ran this tower many years ago.  To the west lies a hallway
 deeper into the tower.  The Blight is outside to the east.  You doubt the
@@ -1335,7 +1335,7 @@ The hallway continues to the west.
 0 -1 24015
 S
 #24014
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads down into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc
@@ -1403,7 +1403,7 @@ A set of stairs lies to the south.
 0 -1 24017
 S
 #24017
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads up into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc
@@ -1422,7 +1422,7 @@ A set of stairs leads up into the tower.
 0 -1 24023
 S
 #24018
-Ahırlar~
+AhÄ±rlar~
 Although you can tell this was a stables at one time from the stalls and
 the rotted leather of old tack and harnesses, the smell here is not of horses,
 but of death, and dust.  No one has used this room as a stables for a very long
@@ -1459,7 +1459,7 @@ A gatehouse can be seen to the south.
 0 -1 24020
 S
 #24020
-Geçit Evi~
+GeÃ§it Evi~
 You have entered the gatehouse of the tower, the soldiers must have fallen
 back to this room when they had been weakened by the Trolloc hordes that hard
 crushed them in the room to the north.  You eye what was once an stout wooden
@@ -1487,7 +1487,7 @@ A small door lies to the west.
 1 23005 24021
 S
 #24021
-Bir Nöbetçi Odası~
+Bir NÃ¶betÃ§i OdasÄ±~
 You have entered a guard room, this was once used to house the gate guards
 during the night, keeping part of the guards at the gate, while others slept
 here for quick reinforcements.  No one must have been in this room when the
@@ -1502,7 +1502,7 @@ A small door lies to the east.
 1 23005 24020
 S
 #24022
-Bir Nöbetçi Odası~
+Bir NÃ¶betÃ§i OdasÄ±~
 You have entered a guard room, this was once used to house the gate guards
 during the night, keeping part of the guards at the gate, while others slept
 here for quick reinforcements.  No one must have been in this room when the
@@ -1517,7 +1517,7 @@ A small door lies to the west.
 1 23005 24020
 S
 #24023
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads down into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc
@@ -1585,7 +1585,7 @@ The hallway continues to the west.
 0 -1 24024
 S
 #23001
-Blight Sınırı~
+Blight SÄ±nÄ±rÄ±~
 The air here is much more humid than in the borderland kingdom of Shienar
 to the south.  Each breath is a labor, taxing your strength as you move
 through the area.  Trees still grow here, corrupted and twisted by the
@@ -1635,7 +1635,7 @@ The hallway continues to the west.
 0 -1 24025
 S
 #23002
-Blight Girişinde~
+Blight GiriÅŸinde~
 The corrupted tress of the Blight sway in the wind, leaves and branches
 seeming to grab at you as you pass by them.  Your nightmares seem like
 fanciful daydreams compared to the evil that has seized this land.  Only
@@ -1667,7 +1667,7 @@ The Blight continues on to the west.
 0 -1 23007
 S
 #24027
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads up into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc
@@ -1686,7 +1686,7 @@ A set of stairs leads up into the tower.
 0 -1 24031
 S
 #23003
-Yedi Kulenin Yakınında~
+Yedi Kulenin YakÄ±nÄ±nda~
 You stand only a few miles from the Seven Towers of the once great
 Malkeri.  Lakes surround the entire area, their waters dark and cloudy, so
 dark they seem to swallow the light around them, seeming to reel and bubble
@@ -1735,7 +1735,7 @@ A hallway lies to the south.
 0 -1 24025
 S
 #23004
-Yedi Kulenin İçinde~
+Yedi Kulenin Ä°Ã§inde~
 You now ride along the bases of the Seven Towers, once the kingdom of
 Malkeri held back the tides of Shadowspan relentlessly seeking to crush the
 lands to the south.  It's power now broken the Towers are in ruins, lying on
@@ -1828,7 +1828,7 @@ A hallway lies to the north.
 0 -1 24025
 S
 #23006
-Blight Sınırı~
+Blight SÄ±nÄ±rÄ±~
 The air here is much more humid than in the borderland kingdom of Shienar
 to the south, each breath is a labor, taxin your strength as you move through
 the area.  Trees still grow here, corrupted and twisted by the Shadow that lays
@@ -1858,7 +1858,7 @@ The Blight continues on to the west.
 0 -1 23011
 S
 #24031
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads down into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc
@@ -1877,7 +1877,7 @@ A set of stairs leads down into the tower.
 0 -1 24027
 S
 #23007
-Blight Girişinde~
+Blight GiriÅŸinde~
 The corrupted trees of the Blight sway in the wind, leaves and branches
 seeming to grab at you as you pass by them.  Your nightmares seem like fanciful
 daydreams compared to the evil that has seized this land.  Only fools and
@@ -1984,7 +1984,7 @@ The hallway continues to the west.
 0 -1 24034
 S
 #23009
-Yüz Göllerden Biri~
+YÃ¼z GÃ¶llerden Biri~
 As you move through the thick oily waters of the lake you wonder what evil
 creatures live in this slime.  Movement stirs on all sides of you, and you come
 face to face with one of it's denizens...
@@ -2092,7 +2092,7 @@ A set of stairs lies to the south.
 0 -1 24036
 S
 #23011
-Blight Sınırı~
+Blight SÄ±nÄ±rÄ±~
 The air here is much more humid than in the borderland kingdom of Shienar
 to the south, each breath is a labor, taxing your strength as you move through
 the area.  Trees still grow here, corrupted and twisted by the Shadow that lays
@@ -2122,7 +2122,7 @@ As you look more closely to the west you see a small trail of smoke.
 0 -1 23016
 S
 #24036
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads up into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc
@@ -2141,7 +2141,7 @@ A set of stairs leads up into the tower.
 0 -1 24041
 S
 #23012
-Blight Girişinde~
+Blight GiriÅŸinde~
 The corrupted trees of the Blight sway in the wind, leaves and branches
 seeming to grab at you as you pass by them.  Your nightmares seem like fanciful
 daydreams compared to the evil that has siezed this land.  Only fools and
@@ -2171,7 +2171,7 @@ The blight continues on to the west.
 0 -1 23017
 S
 #24037
-Kışlalar~
+KÄ±ÅŸlalar~
 This is were the soldiers of the tower made thier home while in the service
 of the Tower's Lord.  The floor is covered with the rubble of old furnishings
 and the occasional skeleton.  Looking more closely at a section of the northern
@@ -2216,7 +2216,7 @@ The Blight continues on to the west.
 0 -1 23018
 S
 #24038
-Hizmetçi Odası~
+HizmetÃ§i OdasÄ±~
 This room used to house the servants of the tower, now only a rat or two
 lives in thier places.  The room is bare except for rotting pallets bare of any
 padding, and the skeletons of the long dead servants themselves.
@@ -2259,7 +2259,7 @@ The Blight continues on to the west.
 0 -1 23019
 S
 #24039
-Görevlinin Odası~
+GÃ¶revlinin OdasÄ±~
 This room is in amazingly good shape, appearantly these men were not in
 thier quarters when the final assault took place.  You can see that the room
 held four men.  Bunks and lockers are in each corner of the room, disturbed,
@@ -2303,7 +2303,7 @@ The Blight continues on to the west.
 0 -1 23020
 S
 #24040
-Yüzbaşının Odası~
+YÃ¼zbaÅŸÄ±nÄ±n OdasÄ±~
 This room has been almost destroyed.  Nothing remains that has not been
 broken apart or totally destroyed.  The Trollocs seem to have been searching
 this room, although for what, or if they found it is a mystery...
@@ -2316,7 +2316,7 @@ A small door lies to the north.
 1 -1 24033
 S
 #23016
-Blight Sınırı~
+Blight SÄ±nÄ±rÄ±~
 You have stumbled across a scouting party of Trollocs.  A small fire burns
 in the center of the camp.  They appear to be preparing to enjoy a Trolloc
 delicacy, your stomach wrenches as you realize what they are devouring.  They
@@ -2345,7 +2345,7 @@ The Blight continues on to the west.
 0 -1 23021
 S
 #24041
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads down into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc
@@ -2364,7 +2364,7 @@ A set of stairs leads down into the tower.
 0 -1 24036
 S
 #23017
-Blight Girişinde~
+Blight GiriÅŸinde~
 The corrupted tress of the Blight sway in the wind, leaves and branches
 seeming to grab at you as you pass by them.  Your nightmares seem like fanciful
 daydreams compared to the evil that has seized this land.  Only fools and
@@ -2553,7 +2553,7 @@ The Blight continues on to the west.
 0 -1 23025
 S
 #24045
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads up onto
 the battlements of the tower.  The walls are still streaked with blood, and the
@@ -2572,7 +2572,7 @@ A set of stairs leads up to the tower's battlements.
 0 -1 24048
 S
 #23021
-Blight Sınırı~
+Blight SÄ±nÄ±rÄ±~
 The air here is much more humid than in the borderland kingdom of Arafel to
 the south, each breath is a labor, taxing your strength as you move through the
 area.  Trees still grow here, corrupted and twisted by the Shadow that lays
@@ -2602,7 +2602,7 @@ The Blight continues on to the west.
 0 -1 23026
 S
 #24046
-Şölen Salonu~
+ÅÃ¶len Salonu~
 This room was meant to hold victory celebrations and welcome important
 guests, used by the Lord of the tower and soldiers alike.  It now lies in ruins
 as much of the rest of the tower.  Banners of depicting great battles and
@@ -2618,7 +2618,7 @@ A hallway lies to the south.
 0 -1 24043
 S
 #23022
-Blight Girişinde~
+Blight GiriÅŸinde~
 The corrupted tress of the Blight sway in the wind, leaves and branches
 seeming to grab at you as you pass by them.  Your nightmares seem like fanciful
 daydreams compared to the evil that has seized this land.  Only fools and
@@ -2648,7 +2648,7 @@ The Blight continues on to the west.
 0 -1 23027
 S
 #24047
-Lord'un Odası~
+Lord'un OdasÄ±~
 The Lord of the tower lived here, and in a fashion still does, the room is
 immaculate, it's furnishings still intact, and banners as colorful as if newly
 woven.  A large bed is made in the middle of the room.  The air seems to shiver
@@ -2737,7 +2737,7 @@ The Blight continues on to the west.
 0 -1 23029
 S
 #24049
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads up into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc
@@ -2811,7 +2811,7 @@ The hallway continues to west.
 0 -1 24051
 S
 #23026
-Blight Sınırı~
+Blight SÄ±nÄ±rÄ±~
 The air here is much more humid than in the borderland kingdom of Arafel to
 the south, each breath is a labor, taxing your strength as you move through the
 area.  Trees still grow here, corrupted and twisted by the Shadow that lays
@@ -2866,7 +2866,7 @@ The hallway continues to the west.
 0 -1 24052
 S
 #23027
-Blight Girişinde~
+Blight GiriÅŸinde~
 The corrupted trees of the Blight sway in the wind, leaves and branches
 seeming to grab at you as you pass by them.  Your nightmares seem like fanciful
 daydreams compared to the evil that has seized this land.  Only fools and
@@ -2949,7 +2949,7 @@ The Blight continues on to the west.
 0 -1 23033
 S
 #24053
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads down into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc
@@ -3048,7 +3048,7 @@ The Blight continues on to the west.
 0 -1 23035
 S
 #24055
-Eğitim Odası~
+EÄŸitim OdasÄ±~
 Long ago, the finest warriors in the borderlands practiced thier skills in
 this room, shattered remnants of weapons, and a few skeletons are all that
 remains.  Through the blood and wreckage of this room, a slogan is painted all
@@ -3063,7 +3063,7 @@ A hallway lies to the south.
 1 -1 24050
 S
 #23031
-Blight Sınırı~
+Blight SÄ±nÄ±rÄ±~
 The air here is much more humid than in the borderland kingdom of Kandor to
 the south, each breath is a labor, taxing your strength as you move through the
 area.  Tress still grow here, corrupted and twisted by the Shadow that lays
@@ -3108,7 +3108,7 @@ A hallway lies to the north.
 1 -1 24051
 S
 #23032
-Blight Girişinde~
+Blight GiriÅŸinde~
 The corrupted trees of the Blight sway in the wind, leaves and branches
 seeming to grab at you as you pass by them.  Your nightmares seem like fanciful
 daydreams compared to the evil that has seized this land.  Only fools and
@@ -3138,7 +3138,7 @@ As you look more closely to the west you see a small trail of smoke.
 0 -1 23037
 S
 #24057
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads up into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc
@@ -3292,7 +3292,7 @@ The Blight continues on to the west.
 0 -1 23040
 S
 #24060
-Nöbetçi Odası~
+NÃ¶betÃ§i OdasÄ±~
 The dungeon's guards once kept thier watch from this room.  There are no
 longer prisonners to watch, or guards to watch them however, and this room
 holds nothing but wreckage and dust.  A small door is set in the eastern wall,
@@ -3311,7 +3311,7 @@ A hallway lies to the south.
 1 23006 24058
 S
 #23036
-Blight Sınırı~
+Blight SÄ±nÄ±rÄ±~
 The air here is much more humid than in the borderland kingdom of Kandor to
 the south, each breath is a labor, taxing your strength as you move through the
 area.  Trees still grow here, corrupted amd twisted bt the Shadow that lays
@@ -3341,7 +3341,7 @@ The Blight continues on to the west.
 0 -1 23041
 S
 #24061
-Sorgu Odası~
+Sorgu OdasÄ±~
 This is were the prisonners of the tower were questioned.  Although you do
 not see any implements of torture in this room, you feel certain the towers
 guards had many questions answered here.  A small door leads into the guard
@@ -3355,7 +3355,7 @@ A door lies to the west.
 1 -1 24060
 S
 #23037
-Blight Girişinde~
+Blight GiriÅŸinde~
 You have stumbled across a scouting party of Trollocs.  A small fire burns
 in the center of the camp.  They appear to be preparing to enjoy a Trolloc
 delicacy, you stomach wrenches as you realize what they are devouring.  They
@@ -3384,7 +3384,7 @@ The Blight continues on to the west.
 0 -1 23042
 S
 #24062
-Hücreler~
+HÃ¼creler~
 Although no one resides here any longer, you feel a sense of despair.  As
 you look around the area you notice that although the tower was taken, and that
 this area was surely checked, that none of the cells stand open.  Two of the
@@ -3430,7 +3430,7 @@ The Blight continues on to the west.
 0 -1 23043
 S
 #24063
-Geçmişte~
+GeÃ§miÅŸte~
 You forge your way down into the tower, but this is not what you expected,
 the air is shimmering, and you feel disoriented.  You are not in a room, it's
 more like you are floating, existing, nothing more.  You feel your self
@@ -3499,7 +3499,7 @@ The Blight continues on to the west.
 0 -1 23044
 S
 #24064
-Tilkiler ve Yılanlar~
+Tilkiler ve YÄ±lanlar~
 Your mind is still foggy, but a memory of a childhood game struggles to the
 surface.  Foxes and Snakes.  A childhood game more complex than, but not unlike
 hunting snipes, as you survey the scene you realize why.  You are suspeneded in
@@ -3546,7 +3546,7 @@ The Blight continues on to the west.
 0 -1 23045
 S
 #24065
-Tilkiler ve Yılanlar~
+Tilkiler ve YÄ±lanlar~
 Your mind is still foggy, but a memory of a childhood game struggles to the
 surface.  Foxes and Snakes.  A childhood game more complex than, but not unlike
 hunting snipes, as you survey the scene you realize why.  You are suspeneded in
@@ -3563,7 +3563,7 @@ The air is still shimmering to the north.
 0 -1 24063
 S
 #23041
-Blight Sınırı~
+Blight SÄ±nÄ±rÄ±~
 The air here is much more humid than in the borderland kingdom of Kandor to
 the south, each breath is a labor, taxing your strength as you move through the
 area.  Trees still grow here twisted and corrupted by the Shadow that lays
@@ -3593,7 +3593,7 @@ The Blight continues on to the west.
 0 -1 23046
 S
 #24066
-Yazı Odası~
+YazÄ± OdasÄ±~
 You have entered into a large comfortable room.  Still a bit disoriented,
 it takes you a moment to realize there is a man sitting at a desk by a warm
 looking fireplace.  You feel quite strange.  The man is oblivious to you, and
@@ -3610,7 +3610,7 @@ The air is still shimmering to the east.
 0 -1 24063
 S
 #23042
-Blight Girişinde~
+Blight GiriÅŸinde~
 The corrupted trees of the Blight sway in the wind, leaves and branches
 seeming to grab at you as you pass by them.  Your nightmares seem like fanciful
 daydreams compared to the evil that has siezed this land.  Only fools and
@@ -3750,7 +3750,7 @@ The Blight continues on to the west.
 0 -1 23049
 S
 #24069
-Güney Avlusu~
+GÃ¼ney Avlusu~
 You are in the middle of the southern wall of this strange yard.  The wall
 appears to be made of glass, but when you test it's strength you find it harder
 than steel.  The people outside sometimes look at you with a sense of wonder,
@@ -3805,7 +3805,7 @@ The Blight continues on to the west.
 0 -1 23050
 S
 #24070
-Güneydoğu Köşesi~
+GÃ¼neydoÄŸu KÃ¶ÅŸesi~
 You stand in the southeast corner of this strange yard.  The wall
 surrounding the yard looks like glass, but when you test it's strength you find
 it to be harder than steel.  People milling around outside sometimes notice
@@ -3824,7 +3824,7 @@ The southern wall of the yard is to the west.
 0 -1 24069
 S
 #23046
-Blight Sınırı~
+Blight SÄ±nÄ±rÄ±~
 The air here is much more humid than in the borderland kingdom of Kandor to
 the south, each breath is a labor, taxing your strength as you move through the
 area.  Trees still grow here twisted and corrupted by the Shadow that lays
@@ -3854,7 +3854,7 @@ As you look more closely to the west you see a small trail of smoke.
 0 -1 23051
 S
 #24071
-Doğu Avlusu~
+DoÄŸu Avlusu~
 You are in the middle of the eastern wall of this strange yard.  The wall
 appears to be made of glass, but when you test it's strength you find it harder
 than steel.  The people outside sometimes look at you with a sense of wonder,
@@ -3879,7 +3879,7 @@ The center of the yard is to the west.
 0 -1 24068
 S
 #23047
-Blight Girişinde~
+Blight GiriÅŸinde~
 The corrupted trees of the Blight sway in the wind, leaves and branches
 seeming to grab at you as you pass by them.  Your nightmares seem like fanciful
 daydreams compared to the evil that has siezed this land.  Only fools and
@@ -3909,7 +3909,7 @@ The Blight continues on to the west.
 0 -1 23052
 S
 #24072
-Kuzeydoğu Köşesi~
+KuzeydoÄŸu KÃ¶ÅŸesi~
 You stand in the northeast corner of this strange yard.  The wall
 surrounding the yard looks like glass, but when you test it's strength you find
 it to be harder than steel.  People milling around outside sometimes notice
@@ -4013,7 +4013,7 @@ The Blight continues on to the west.
 0 -1 23054
 S
 #24074
-Kuzeybatı Köşesi~
+KuzeybatÄ± KÃ¶ÅŸesi~
 You stand in the northwest corner of this strange yard.  The wall
 surrounding the yard looks like glass, but when you test it's strength you find
 it to be harder than steel.  People milling around outside sometimes notice
@@ -4062,7 +4062,7 @@ The Blight continues on to the west.
 0 -1 23055
 S
 #24075
-Batı Avlusu~
+BatÄ± Avlusu~
 You are in the middle of the western wall of this strange yard.  The wall
 appears to be made of glass, but when you test it's strength you find it harder
 than steel.  The people outside sometimes look at you with a sense of wonder,
@@ -4087,7 +4087,7 @@ The southwest corner of the yard is to the south.
 0 -1 24076
 S
 #23051
-Blight Sınırı~
+Blight SÄ±nÄ±rÄ±~
 You have stumbled across a scouting party of Trollocs.  A small fire burns
 in the center of the camp.  They appear to be preparing to enjoy a Trolloc
 delicacy, your stomach wrenches as you realize what they are devouring.  They
@@ -4116,7 +4116,7 @@ The Blight continues on to the west.
 0 -1 23056
 S
 #24076
-Güneybatı Köşesi~
+GÃ¼neybatÄ± KÃ¶ÅŸesi~
 You stand in the southwest corner of this strange yard.  The wall
 surrounding the yard looks like glass, but when you test it's strength you find
 it to be harder than steel.  People milling around outside sometimes notice
@@ -4135,7 +4135,7 @@ The south wall of the yard is to the east.
 0 -1 24069
 S
 #23052
-Blight Girişinde~
+Blight GiriÅŸinde~
 The corrupted trees of the Blight sway in the wind, leaves and branches
 seeming to grab at you as you pass by them.  Your nightmares seem like fanciful
 daydreams compared to the evil that has siezed this land.  Only fools and
@@ -4165,7 +4165,7 @@ The Blight continues on to the west.
 0 -1 23057
 S
 #24077
-Dünyanın Belkemiğinin Yakınında~
+DÃ¼nyanÄ±n BelkemiÄŸinin YakÄ±nÄ±nda~
 You have travelled east all the way to the Spine of the World.  It's
 mountains loom above you to the east leaving you no further path to the east.
 Legend has it that the mighty Aiel live on the other side of the Dragonwall,
@@ -4221,7 +4221,7 @@ The Blight continues on to the west.
 0 -1 23058
 S
 #24078
-Dünyanın Belkemiğinin Yakınında~
+DÃ¼nyanÄ±n BelkemiÄŸinin YakÄ±nÄ±nda~
 You have travelled east all the way to the Spine of the World.  It's
 mountains loom above you to the east leaving you no further path to the east.
 Legend has it that the mighty Aiel live on the other side of the Dragonwall,
@@ -4274,7 +4274,7 @@ The Blight continues on to the west.
 0 -1 23059
 S
 #24079
-Dünyanın Belkemiğinin Yakınında~
+DÃ¼nyanÄ±n BelkemiÄŸinin YakÄ±nÄ±nda~
 You have travelled east all the way to the Spine of the World.  It's
 mountains loom above you to the east leaving you no further path to the east.
 Legend has it that the mighty Aiel live on the other side of the Dragonwall,
@@ -4329,7 +4329,7 @@ The Blight continues on to the west.
 0 -1 23060
 S
 #24080
-Dünyanın Belkemiğinin Yakınında~
+DÃ¼nyanÄ±n BelkemiÄŸinin YakÄ±nÄ±nda~
 You have travelled east all the way to the Spine of the World.  It's
 mountains loom above you to the east leaving you no further path to the east.
 Legend has it that the mighty Aiel live on the other side of the Dragonwall,
@@ -4349,7 +4349,7 @@ The Blight continues on to the south.
 0 -1 24079
 S
 #23056
-Blight Sınırı~
+Blight SÄ±nÄ±rÄ±~
 The air here is much more humid than in the borderland kingdom of Kandor to
 the south, each breath is a labor, taxing your strength as you move through the
 area.  Trees still grow here twisted and corrupted by the Shadow that lays
@@ -4379,7 +4379,7 @@ The Blight continues on to the west.
 0 -1 23100
 S
 #24081
-Dünyanın Belkemiğinin Yakınında~
+DÃ¼nyanÄ±n BelkemiÄŸinin YakÄ±nÄ±nda~
 You have travelled east all the way to the Spine of the World.  It's
 mountains loom above you to the east leaving you no further path to the east.
 Legend has it that the mighty Aiel live on the other side of the Dragonwall,
@@ -4404,7 +4404,7 @@ The Blight continues on to the west.
 0 -1 23005
 S
 #23057
-Blight Girişinde~
+Blight GiriÅŸinde~
 The corrupted trees of the Blight sway in the wind, leaves and branches
 seeming to grab at you as you pass by them.  Your nightmares seem like fanciful
 daydreams compared to the evil that has siezed this land.  Only fools and
@@ -4434,7 +4434,7 @@ The Blight continues on to the west.
 0 -1 24099
 S
 #24082
-Tarwin Geçiti~
+Tarwin GeÃ§iti~
 You have reached the beginning of Tarwin's Gap.  The largest pass in the
 Mountains of Dhoom.  Many great battles have taken place in this gap.
 Traditionally the Malkerians defended this gap.  Once that that kingdom fell
@@ -4486,7 +4486,7 @@ The Blight continues on to the west.
 0 -1 24098
 S
 #24083
-Dhoom Dağlarının Yakınında~
+Dhoom DaÄŸlarÄ±nÄ±n YakÄ±nÄ±nda~
 You stand at the base of the Mountains of Dhoom.  If things are this bad
 hundreds of miles from Shayol Ghul, you shiver at what the Blasted Lands to the
 north of the range must be like, fully in the embrace of Ba'alzamon.  You are
@@ -4540,7 +4540,7 @@ The Blight continues on to the west.
 0 -1 24097
 S
 #24084
-Dhoom Dağlarının Yakınında~
+Dhoom DaÄŸlarÄ±nÄ±n YakÄ±nÄ±nda~
 You stand at the base of the Mountains of Dhoom.  If things are this bad
 hundreds of miles from Shayol Ghul, you shiver at what the Blasted Lands to the
 north of the range must be like, fully in the embrace of Ba'alzamon.  You are
@@ -4599,7 +4599,7 @@ The air here seems shimmer as you gaze downward.
 0 -1 24063
 S
 #24085
-Dhoom Dağlarının Yakınında~
+Dhoom DaÄŸlarÄ±nÄ±n YakÄ±nÄ±nda~
 You stand at the base of the Mountains of Dhoom.  If things are this bad
 hundreds of miles from Shayol Ghul, you shiver at what the Blasted Lands to the
 north of the range must be like, fully in the embrace of Ba'alzamon.  You are
@@ -4623,7 +4623,7 @@ The Blight continues on to the west.
 0 -1 24086
 S
 #23061
-Oyuğun İçinde~
+OyuÄŸun Ä°Ã§inde~
 You have entered into a breach in the wall of one of the Seven Towers,
 Trolloc armies over ran this tower many years ago.  To the east lies a hallway
 deeper into the tower.  The Blight is outside to the west.  You doubt the
@@ -4643,7 +4643,7 @@ The Blight lies to the west.
 0 -1 23004
 S
 #24086
-Dhoom Dağlarının Yakınında~
+Dhoom DaÄŸlarÄ±nÄ±n YakÄ±nÄ±nda~
 You stand at the base of the Mountains of Dhoom.  If things are this bad
 hundreds of miles from Shayol Ghul, you shiver at what the Blasted Lands to the
 north of the range must be like, fully in the embrace of Ba'alzamon.  You are
@@ -4691,7 +4691,7 @@ A breach in the tower wall is west from here.
 0 -1 23061
 S
 #24087
-Dhoom Dağlarının Yakınında~
+Dhoom DaÄŸlarÄ±nÄ±n YakÄ±nÄ±nda~
 You stand at the base of the Mountains of Dhoom.  If things are this bad
 hundreds of miles from Shayol Ghul, you shiver at what the Blasted Lands to the
 north of the range must be like, fully in the embrace of Ba'alzamon.  You are
@@ -4745,7 +4745,7 @@ The hallway continues to the west.
 0 -1 23062
 S
 #24088
-Dhoom Dağlarının Yakınında~
+Dhoom DaÄŸlarÄ±nÄ±n YakÄ±nÄ±nda~
 You stand at the base of the Mountains of Dhoom.  If things are this bad
 hundreds of miles from Shayol Ghul, you shiver at what the Blasted Lands to the
 north of the range must be like, fully in the embrace of Ba'alzamon.  You are
@@ -4788,7 +4788,7 @@ The hallway continues to the west.
 0 -1 23063
 S
 #24089
-Dhoom Dağlarının Yakınında~
+Dhoom DaÄŸlarÄ±nÄ±n YakÄ±nÄ±nda~
 You stand at the base of the Mountains of Dhoom.  If things are this bad
 hundreds of miles from Shayol Ghul, you shiver at what the Blasted Lands to the
 north of the range must be like, fully in the embrace of Ba'alzamon.  You are
@@ -4812,7 +4812,7 @@ The Blight continues on to the west.
 0 -1 24090
 S
 #23065
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads up into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc
@@ -4831,7 +4831,7 @@ The stairs lead up to the second floor.
 0 -1 23072
 S
 #24090
-Dhoom Dağlarının Yakınında~
+Dhoom DaÄŸlarÄ±nÄ±n YakÄ±nÄ±nda~
 You stand at the base of the Mountains of Dhoom.  If things are this bad
 hundreds of miles from Shayol Ghul, you shiver at what the Blasted Lands to the
 north of the range must be like, fully in the embrace of Ba'alzamon.  You are
@@ -4860,7 +4860,7 @@ The Blight continues on to the west.
 0 -1 24091
 S
 #23066
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads down into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc
@@ -4879,7 +4879,7 @@ A set of stairs leads down into the tower.
 0 -1 23098
 S
 #24091
-Dhoom Dağlarının Yakınında~
+Dhoom DaÄŸlarÄ±nÄ±n YakÄ±nÄ±nda~
 You stand at the base of the Mountains of Dhoom.  If things are this bad
 hundreds of miles from Shayol Ghul, you shiver at what the Blasted Lands to the
 north of the range must be like, fully in the embrace of Ba'alzamon.  You are
@@ -4903,7 +4903,7 @@ The Blight continues on to the west.
 0 -1 24092
 S
 #23067
-Ahırlar~
+AhÄ±rlar~
 Although you can tell this was a stables at one time from the stalls and
 the rotted leather of old tack and harnesses, the smell here is not of horses,
 but of death, and dust.  No one has used this room as a stables for a very long
@@ -4919,7 +4919,7 @@ A hallway lies to the south.
 1 -1 23063
 S
 #24092
-Dhoom Dağlarının Yakınında~
+Dhoom DaÄŸlarÄ±nÄ±n YakÄ±nÄ±nda~
 You stand at the base of the Mountains of Dhoom.  If things are this bad
 hundreds of miles from Shayol Ghul, you shiver at what the Blasted Lands to the
 north of the range must be like, fully in the embrace of Ba'alzamon.  You are
@@ -4964,7 +4964,7 @@ The smashed remains of a once stout door lies to the south.
 0 -1 23069
 S
 #24093
-Dhoom Dağlarının Yakınında~
+Dhoom DaÄŸlarÄ±nÄ±n YakÄ±nÄ±nda~
 You stand at the base of the Mountains of Dhoom.  If things are this bad
 hundreds of miles from Shayol Ghul, you shiver at what the Blasted Lands to the
 north of the range must be like, fully in the embrace of Ba'alzamon.  You are
@@ -4988,7 +4988,7 @@ The Blight continues on to the west.
 0 -1 24094
 S
 #23069
-Geçit Evi~
+GeÃ§it Evi~
 You have entered the gatehouse of the tower, the soldiers must have fallen
 back to this room when they had been weakened by the Trolloc hordes that
 crushed them in the room to the north.  You eye what was once an stout wooden
@@ -5016,7 +5016,7 @@ A small door leads to the west.
 1 23002 23070
 S
 #24094
-Dhoom Dağlarının Yakınında~
+Dhoom DaÄŸlarÄ±nÄ±n YakÄ±nÄ±nda~
 You stand at the base of the Mountains of Dhoom.  If things are this bad
 hundreds of miles from Shayol Ghul, you shiver at what the Blasted Lands to the
 north of the range must be like, fully in the embrace of Ba'alzamon.  You are
@@ -5040,7 +5040,7 @@ The Blight continues on to the west.
 0 -1 24095
 S
 #23070
-Bir Nöbetçi Odası~
+Bir NÃ¶betÃ§i OdasÄ±~
 You have entered a guard room, this was once used to house the gate guards
 during the night, keeping part of the guards at the gate, while others slept
 here for quick reinforcements.  No one must have been in this room when the
@@ -5055,7 +5055,7 @@ A small door lies to the east.
 1 23002 23069
 S
 #24095
-Dağlar ve Deniz~
+DaÄŸlar ve Deniz~
 A grotesque and disturbing site meets you eyes here.  The Blight continues
 on to the south and east with all of it's death and decay strong in your mind.
 To the north lay the Mountains of Dhoom, that few men have travelled north of,
@@ -5078,7 +5078,7 @@ The Blight continues on to the south.
 0 -1 24096
 S
 #23071
-Bir Nöbetçi Odası~
+Bir NÃ¶betÃ§i OdasÄ±~
 You have entered a guard room, this was once used to house the gate guards
 during the night, keeping part of the guards at the gate, while others slept
 here for quick reinforcements.  No one must have been in this room when the
@@ -5093,7 +5093,7 @@ A small door lies to the west.
 1 23002 23069
 S
 #24096
-Kıyıda~
+KÄ±yÄ±da~
 A grotesque and disturbing site meets you eyes here.  The Blight still
 surrounds you all of it's death and decay strong in your mind.  But, what lies
 to the west is perhaps the most disturbing of all.  You are standing on the
@@ -5119,7 +5119,7 @@ The Blight continues on to the south.
 0 -1 24097
 S
 #23072
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads down into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc
@@ -5138,7 +5138,7 @@ A set of stairs leads down into the tower.
 0 -1 23065
 S
 #24097
-Kıyıda~
+KÄ±yÄ±da~
 A grotesque and disturbing site meets you eyes here.  The Blight still
 surrounds you all of it's death and decay strong in your mind.  But, what lies
 to the west is perhaps the most disturbing of all.  You are standing on the
@@ -5183,7 +5183,7 @@ A set of stairs lies to the south.
 0 -1 23072
 S
 #24098
-Kıyıda~
+KÄ±yÄ±da~
 A grotesque and disturbing site meets you eyes here.  The Blight still
 surrounds you all of it's death and decay strong in your mind.  But, what lies
 to the west is perhaps the most disturbing of all.  You are standing on the
@@ -5239,7 +5239,7 @@ The hallway continues to the west.
 0 -1 23073
 S
 #24099
-Kıyıda~
+KÄ±yÄ±da~
 A grotesque and disturbing site meets you eyes here.  The Blight still
 surrounds you all of it's death and decay strong in your mind.  But, what lies
 to the west is perhaps the most disturbing of all.  You are standing on the
@@ -5284,7 +5284,7 @@ The hallway continues to the west.
 0 -1 23074
 S
 #23076
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads up into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc
@@ -5350,7 +5350,7 @@ A hallway lies to the north.
 0 -1 23074
 S
 #23080
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads down into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc
@@ -5467,7 +5467,7 @@ A set of stairs can be seen to the south.
 0 -1 23085
 S
 #23085
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads up into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc
@@ -5486,7 +5486,7 @@ A set of stairs leads up into the tower.
 0 -1 23090
 S
 #23086
-Kışlalar~
+KÄ±ÅŸlalar~
 This is were the soldiers of the tower made thier home while in the service
 of the Tower's Lord.  The floor is covered with the rubble of old furnishings
 and the occasional skeleton.  Looking more closely at a section of the northern
@@ -5501,7 +5501,7 @@ A hallway lies to the south.
 1 -1 23083
 S
 #23087
-Hizmetçi Odası~
+HizmetÃ§i OdasÄ±~
 This room used to house the servants of the tower, now only a rat or two
 lives in thier places.  The room is bare except for rotting pallets bare of any
 padding, and the skeletons of the long dead servants themselves.
@@ -5514,7 +5514,7 @@ A hallway lies to the south.
 1 -1 23081
 S
 #23088
-Görevlinin Odası~
+GÃ¶revlinin OdasÄ±~
 This room is in amazingly good shape, appearantly these men were not in
 thier quarters when the final assault took place.  You can see that the room
 held four men.  Bunks and lockers are in each corner of the room, disturbed,
@@ -5528,7 +5528,7 @@ A hallway lies to the north.
 1 -1 23083
 S
 #23089
-Yüzbaşının Odası~
+YÃ¼zbaÅŸÄ±nÄ±n OdasÄ±~
 This room has been almost destroyed.  Nothing remains that has not been
 broken apart or totally destroyed.  The Trollocs seem to have been searching
 this room, although for what, or if they found it is a mystery...
@@ -5541,7 +5541,7 @@ A hallway lies to the north.
 1 -1 23082
 S
 #23090
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads down into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc
@@ -5629,7 +5629,7 @@ The hallway continues to the west.
 0 -1 23092
 S
 #23094
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads up onto
 the battlements of the tower.  The walls are still streaked with blood, and the
@@ -5648,7 +5648,7 @@ The battlements of the tower lie above you.
 0 -1 23097
 S
 #23095
-Şölen Salonu~
+ÅÃ¶len Salonu~
 This room was meant to hold victory celebrations and welcome important
 guests, used by the Lord of the tower and soldiers alike.  It now lies in ruins
 as much of the rest of the tower.  Banners of depicting great battles and
@@ -5664,7 +5664,7 @@ An archway leads into darkness to the south.
 0 -1 23092
 S
 #23096
-Lord'un Odası~
+Lord'un OdasÄ±~
 The Lord of the tower lived here, and in a fashion still does, the room is
 immaculate, it's furnishings still intact, and banners as colorful as if newly
 woven.  A large bed is made in the middle of the room.  The air seems to shiver
@@ -5695,7 +5695,7 @@ Below you stairs lead down into the tower.
 0 -1 23094
 S
 #23098
-Bir Merdiven Boşluğu~
+Bir Merdiven BoÅŸluÄŸu~
 Now well into the tower the light has faltered, as you weave your way
 through the oppressive darkness of the tower.  Here a stairway leads up into
 the tower.  The walls are still streaked with blood, and the occasional Trolloc

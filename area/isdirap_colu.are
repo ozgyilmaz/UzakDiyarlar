@@ -1,9 +1,9 @@
 #AREADATA
 Filename isdirap_colu.are~
-Name Istırap Çölü~
+Name IstÄ±rap Ã‡Ã¶lÃ¼~
 Builder Anon~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 10
 Highlevel 20
 Minvnum 5000
@@ -16,90 +16,90 @@ END
 
 #NEW_MOBILES
 #5000
-fukara derviş~
-fukara derviş~
-Fukara bir derviş görüyorsun, amaçsızca yürüyor.
+fukara derviÅŸ~
+fukara derviÅŸ~
+Fukara bir derviÅŸ gÃ¶rÃ¼yorsun, amaÃ§sÄ±zca yÃ¼rÃ¼yor.
 ~
-Paçavralara bürünmüş bir derviş görüyorsun, sakalı da saçı kadar uzamış...
+PaÃ§avralara bÃ¼rÃ¼nmÃ¼ÅŸ bir derviÅŸ gÃ¶rÃ¼yorsun, sakalÄ± da saÃ§Ä± kadar uzamÄ±ÅŸ...
 ~
 human~
 ACGH P 5
 #5001
-derviş~
-derviş~
-Derviş burada, etrafı izliyor.
+derviÅŸ~
+derviÅŸ~
+DerviÅŸ burada, etrafÄ± izliyor.
 ~
-Paçavralara bürünmüş bir derviş görüyorsun, sakalı da saçı kadar uzamış...
+PaÃ§avralara bÃ¼rÃ¼nmÃ¼ÅŸ bir derviÅŸ gÃ¶rÃ¼yorsun, sakalÄ± da saÃ§Ä± kadar uzamÄ±ÅŸ...
 ~
 human~
 AFG P 8
 #5002
-mercan yılanı~
-mercan yılanı~
-Parlak renklere sahip bir mercan yılanı burada.
+mercan yÄ±lanÄ±~
+mercan yÄ±lanÄ±~
+Parlak renklere sahip bir mercan yÄ±lanÄ± burada.
 ~
-Zararsız sayılabilecek bir yılan. Boynundan kuyruğuna dek uzanan kızıl
-halkalar kolayca fark edilebilmesini sağlıyor.
+ZararsÄ±z sayÄ±labilecek bir yÄ±lan. Boynundan kuyruÄŸuna dek uzanan kÄ±zÄ±l
+halkalar kolayca fark edilebilmesini saÄŸlÄ±yor.
 ~
 snake~
 AG 0 4
 #5003
-küçük akrep~
-küçük akrep~
-Küçük bir akrep görüyorsun, seni izliyor.
+kÃ¼Ã§Ã¼k akrep~
+kÃ¼Ã§Ã¼k akrep~
+KÃ¼Ã§Ã¼k bir akrep gÃ¶rÃ¼yorsun, seni izliyor.
 ~
-Kuyruğundaki iğne belki seni değil ama bir köpeği öldürebilir.
+KuyruÄŸundaki iÄŸne belki seni deÄŸil ama bir kÃ¶peÄŸi Ã¶ldÃ¼rebilir.
 ~
 human~
 AG 0 3
 #5004
 mor dev~
 mor dev~
-Bir dev görüyorsun, gelip geçene saldırıyor!
+Bir dev gÃ¶rÃ¼yorsun, gelip geÃ§ene saldÄ±rÄ±yor!
 ~
-Mor giysilere bürünmüş. Aman dikkatli ol, oldukça saldırgandır...
+Mor giysilere bÃ¼rÃ¼nmÃ¼ÅŸ. Aman dikkatli ol, oldukÃ§a saldÄ±rgandÄ±r...
 ~
 human~
 ABF 0 18
 #5005
-pirinç ejderha~
-pirinç ejderha~
-Pirinç Ejderha'yı görüyorsun, yüzünü sana çevirip nefesiyle ısınmanı sağlıyor.
+pirinÃ§ ejderha~
+pirinÃ§ ejderha~
+PirinÃ§ Ejderha'yÄ± gÃ¶rÃ¼yorsun, yÃ¼zÃ¼nÃ¼ sana Ã§evirip nefesiyle Ä±sÄ±nmanÄ± saÄŸlÄ±yor.
 ~
 ~
 dragon~
 ABCF DH 28
 #5006
-göçebe lider~
-göçebe lider~
-Göçebe bir lider burada, oturmuş dua ediyor.
+gÃ¶Ã§ebe lider~
+gÃ¶Ã§ebe lider~
+GÃ¶Ã§ebe bir lider burada, oturmuÅŸ dua ediyor.
 ~
-Muhteşem! Giysilerin içinde tam bir lider, bir hükümdar gibi duruyor.
+MuhteÅŸem! Giysilerin iÃ§inde tam bir lider, bir hÃ¼kÃ¼mdar gibi duruyor.
 ~
 human~
 AGH 0 14
 #5007
-göçebe komutan~
-göçebe komutan~
-Göçebe savaşçıların komutanı burada, seni izliyor.
+gÃ¶Ã§ebe komutan~
+gÃ¶Ã§ebe komutan~
+GÃ¶Ã§ebe savaÅŸÃ§Ä±larÄ±n komutanÄ± burada, seni izliyor.
 ~
-O göçebelerin ikinci lideri. İpekten pahalı giysilerinin içinde yine de
-sert ve güçlü görünüyor.
+O gÃ¶Ã§ebelerin ikinci lideri. Ä°pekten pahalÄ± giysilerinin iÃ§inde yine de
+sert ve gÃ¼Ã§lÃ¼ gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 AB 0 12
 #5008
-göçebe savaşçı~
-göçebe savaşçı~
-Göçebe bir savaşçı burada.
+gÃ¶Ã§ebe savaÅŸÃ§Ä±~
+gÃ¶Ã§ebe savaÅŸÃ§Ä±~
+GÃ¶Ã§ebe bir savaÅŸÃ§Ä± burada.
 ~
 ~
 human~
 AB 0 10
 #5009
-genç köle~
-köle~
-Genç bir köle burada, yorgun gözlerle sana bakıyor.
+genÃ§ kÃ¶le~
+kÃ¶le~
+GenÃ§ bir kÃ¶le burada, yorgun gÃ¶zlerle sana bakÄ±yor.
 ~
 ~
 human~
@@ -107,63 +107,63 @@ ABH 0 3
 #5010
 kemik ejderan~
 ejderan~
-Bir kemik yığını senin varlığınla ayağa kalkıyor, bu bir ejderan!!!
+Bir kemik yÄ±ÄŸÄ±nÄ± senin varlÄ±ÄŸÄ±nla ayaÄŸa kalkÄ±yor, bu bir ejderan!!!
 ~
-Üzerinden sarkan az miktarda eti saymazsak sadece kemiklerden oluşmuş
-bir mahlukat. Artık ölümden de korkmuyor!
+Ãœzerinden sarkan az miktarda eti saymazsak sadece kemiklerden oluÅŸmuÅŸ
+bir mahlukat. ArtÄ±k Ã¶lÃ¼mden de korkmuyor!
 ~
 human~
 ABF DH 30
 #5011
-örümceksi insan~
-örümceksi insan~
-Örümceğe benzeyen bir insan görüyorsun.
+Ã¶rÃ¼mceksi insan~
+Ã¶rÃ¼mceksi insan~
+Ã–rÃ¼mceÄŸe benzeyen bir insan gÃ¶rÃ¼yorsun.
 ~
-Seninle dövüşmeye oldukça hazır.
+Seninle dÃ¶vÃ¼ÅŸmeye oldukÃ§a hazÄ±r.
 ~
 human~
 AFG D 8
 #5012
-kara cüce~
-kara cüce~
-Elindekiyle taşları oyan bir cüce görüyorsun.
+kara cÃ¼ce~
+kara cÃ¼ce~
+Elindekiyle taÅŸlarÄ± oyan bir cÃ¼ce gÃ¶rÃ¼yorsun.
 ~
-Bu kara cüce kafanı kırmak için sabırsızlanıyor.
+Bu kara cÃ¼ce kafanÄ± kÄ±rmak iÃ§in sabÄ±rsÄ±zlanÄ±yor.
 ~
 human~
 AFG D 5
 #5013
 mantar~
 mantar~
-Bir mantar görüyorsun, seni izliyor.
+Bir mantar gÃ¶rÃ¼yorsun, seni izliyor.
 ~
-O YaşIyOr!!!
+O YaÅŸIyOr!!!
 ~
 human~
 AGH D 6
 #5014
-mantar şaman~
-mantar şaman~
-İrice bir mantar görüyorsun, seni izliyor.
+mantar ÅŸaman~
+mantar ÅŸaman~
+Ä°rice bir mantar gÃ¶rÃ¼yorsun, seni izliyor.
 ~
-Etrafa sporlar fırlatıyor.
+Etrafa sporlar fÄ±rlatÄ±yor.
 ~
 human~
 ABHQ DH 8
 #5015
-toprak kazıcı~
-toprak kazıcı~
-Bir toprak kazıcı görüyorsun, seni aşağı çağırıyor.
+toprak kazÄ±cÄ±~
+toprak kazÄ±cÄ±~
+Bir toprak kazÄ±cÄ± gÃ¶rÃ¼yorsun, seni aÅŸaÄŸÄ± Ã§aÄŸÄ±rÄ±yor.
 ~
 ~
 human~
 ABCF 0 7
 #5017
-azgın deve~
-azgın deve~
-Oldukça tehlikeli bir deve sana bakıyor.
+azgÄ±n deve~
+azgÄ±n deve~
+OldukÃ§a tehlikeli bir deve sana bakÄ±yor.
 ~
-Onunla DALAŞMA!
+Onunla DALAÅMA!
 ~
 human~
 ABF 0 5
@@ -171,17 +171,17 @@ ABF 0 5
 
 #OBJECTS
 #5000
-küçük demir gürz~
-küçük demir gürz~
-Küçük bir gürz burada, kafa kırmayı bekliyor.~
+kÃ¼Ã§Ã¼k demir gÃ¼rz~
+kÃ¼Ã§Ã¼k demir gÃ¼rz~
+KÃ¼Ã§Ã¼k bir gÃ¼rz burada, kafa kÄ±rmayÄ± bekliyor.~
 wood silver-iron~
 weapon J AN
 mace 1 9 pierce 0
 5 30 320 P
 #5001
-parlak şeritli zırh~
-parlak şeritli zırh~
-Parlak bir zırh burada, yeni bir sahip bekliyor.~
+parlak ÅŸeritli zÄ±rh~
+parlak ÅŸeritli zÄ±rh~
+Parlak bir zÄ±rh burada, yeni bir sahip bekliyor.~
 wood-iron~
 armor AG AD
 7 7 7 0 0
@@ -191,9 +191,9 @@ A
 A
 2 2
 #5002
-güçlü kargı~
-güçlü kargı~
-Güçlü bir kargı duvara dayanmış, bekliyor.~
+gÃ¼Ã§lÃ¼ kargÄ±~
+gÃ¼Ã§lÃ¼ kargÄ±~
+GÃ¼Ã§lÃ¼ bir kargÄ± duvara dayanmÄ±ÅŸ, bekliyor.~
 steel~
 weapon GI AN
 polearm 3 14 cleave F
@@ -205,7 +205,7 @@ A
 #5003
 muska~
 muska~
-Mantar şekilli bir muska burada bırakılmış.~
+Mantar ÅŸekilli bir muska burada bÄ±rakÄ±lmÄ±ÅŸ.~
 marble ruby~
 jewelry G AC
 0 0 0 0 0
@@ -213,49 +213,49 @@ jewelry G AC
 A
 5 1
 #5005
-bacak kemiği~
-bacak kemiği~
-Büyükçe bir bacak kemiği burada unutulmuş.~
+bacak kemiÄŸi~
+bacak kemiÄŸi~
+BÃ¼yÃ¼kÃ§e bir bacak kemiÄŸi burada unutulmuÅŸ.~
 bone~
 weapon 0 AN
 mace 1 4 pound 0
 0 50 140 P
 #5006
-kaktüs şişesi~
-kaktüs şişesi~
-Küçük bir kaktüs şişesi burada bırakılmış.~
+kaktÃ¼s ÅŸiÅŸesi~
+kaktÃ¼s ÅŸiÅŸesi~
+KÃ¼Ã§Ã¼k bir kaktÃ¼s ÅŸiÅŸesi burada bÄ±rakÄ±lmÄ±ÅŸ.~
 plant_organism~
 drink 0 A
 5 5 'water' 0 0
 0 60 5 P
 #5007
-küçük sepet~
-küçük sepet~
-Küçük bir sepet burada bırakılmış.~
+kÃ¼Ã§Ã¼k sepet~
+kÃ¼Ã§Ã¼k sepet~
+KÃ¼Ã§Ã¼k bir sepet burada bÄ±rakÄ±lmÄ±ÅŸ.~
 leather~
 container 0 A
 100 AC 0 10 100
 0 20 20 P
 #5008
-küçük sepet~
-küçük sepet~
-Küçük bir sepet burada bırakılmış.~
+kÃ¼Ã§Ã¼k sepet~
+kÃ¼Ã§Ã¼k sepet~
+KÃ¼Ã§Ã¼k bir sepet burada bÄ±rakÄ±lmÄ±ÅŸ.~
 leather~
 container 0 A
 100 AC 0 10 100
 0 20 20 P
 #5009
-küçük sepet~
-küçük sepet~
-Küçük bir sepet burada bırakılmış.~
+kÃ¼Ã§Ã¼k sepet~
+kÃ¼Ã§Ã¼k sepet~
+KÃ¼Ã§Ã¼k bir sepet burada bÄ±rakÄ±lmÄ±ÅŸ.~
 wood~
 container 0 A
 100 AC 0 10 100
 0 20 20 P
 #5010
-küçük sepet~
-küçük sepet~
-Küçük bir sepet burada bırakılmış.~
+kÃ¼Ã§Ã¼k sepet~
+kÃ¼Ã§Ã¼k sepet~
+KÃ¼Ã§Ã¼k bir sepet burada bÄ±rakÄ±lmÄ±ÅŸ.~
 wood~
 container 0 0
 100 AC 0 0 100
@@ -263,7 +263,7 @@ container 0 0
 #5011
 ip~
 ip~
-Uzunca bir ip yerde yatıyor.~
+Uzunca bir ip yerde yatÄ±yor.~
 linen~
 furniture 0 A
 0 0 0 0 0
@@ -271,23 +271,23 @@ furniture 0 A
 #5012
 tomruk~
 tomruk~
-Küçük bir tomruk burada duruyor.~
+KÃ¼Ã§Ã¼k bir tomruk burada duruyor.~
 wood~
 furniture 0 A
 0 0 0 0 0
 0 60 20 P
 #5013
-büyük yıpranmış harita~
-büyük ve yıpranmış harita~
-Büyük ve yıpranmış bir harita burada duruyor.~
+bÃ¼yÃ¼k yÄ±pranmÄ±ÅŸ harita~
+bÃ¼yÃ¼k ve yÄ±pranmÄ±ÅŸ harita~
+BÃ¼yÃ¼k ve yÄ±pranmÄ±ÅŸ bir harita burada duruyor.~
 paper~
 furniture 0 A
 0 0 0 0 0
 0 10 5 P
 #5014
-kalın kumaşlı türban~
-kalın kumaşlı türban~
-Kalın kumaşlı bir türban burada bırakılmış.~
+kalÄ±n kumaÅŸlÄ± tÃ¼rban~
+kalÄ±n kumaÅŸlÄ± tÃ¼rban~
+KalÄ±n kumaÅŸlÄ± bir tÃ¼rban burada bÄ±rakÄ±lmÄ±ÅŸ.~
 cloth~
 clothing GH AE
 0 0 0 0 0
@@ -297,15 +297,15 @@ A
 #5015
 sikke~
 bir miktar sikke~
-Büyük bir miktar sikke burada bırakılmış. Bu ne dikkatsizlik!~
+BÃ¼yÃ¼k bir miktar sikke burada bÄ±rakÄ±lmÄ±ÅŸ. Bu ne dikkatsizlik!~
 silver~
 money 0 A
 427 12 0 0 0
 0 0 0 P
 #5016
-uzun süvari kılıcı~
-uzun süvari kılıcı~
-Uzun bir kılıç burada bırakılmış.~
+uzun sÃ¼vari kÄ±lÄ±cÄ±~
+uzun sÃ¼vari kÄ±lÄ±cÄ±~
+Uzun bir kÄ±lÄ±Ã§ burada bÄ±rakÄ±lmÄ±ÅŸ.~
 oldstyle~
 weapon L AN
 sword 3 7 slash 0
@@ -315,9 +315,9 @@ A
 A
 19 1
 #5017
-eğri kılıç~
-eğri kılıç~
-Eğri bir kılıç burada bırakılmış.~
+eÄŸri kÄ±lÄ±Ã§~
+eÄŸri kÄ±lÄ±Ã§~
+EÄŸri bir kÄ±lÄ±Ã§ burada bÄ±rakÄ±lmÄ±ÅŸ.~
 steel~
 weapon L AN
 sword 2 8 slash 0
@@ -327,9 +327,9 @@ A
 A
 19 1
 #5018
-çentikli uzun pala~
-çentikli uzun pala~
-Uzun bir pala burada bırakılmış.~
+Ã§entikli uzun pala~
+Ã§entikli uzun pala~
+Uzun bir pala burada bÄ±rakÄ±lmÄ±ÅŸ.~
 adamantite~
 weapon L AN
 sword 3 6 slash 0
@@ -337,55 +337,55 @@ sword 3 6 slash 0
 #5019
 pembe iksir~
 pembe iksir~
-Pembe bir iksir burada bırakılmış.~
+Pembe bir iksir burada bÄ±rakÄ±lmÄ±ÅŸ.~
 clay~
 potion P A
 25 'heal' 'remove curse' '' ''
 13 60 1220 P
 #5020
-platin değnek~
-platin değnek~
-Platin bir değnek burada bırakılmış.~
+platin deÄŸnek~
+platin deÄŸnek~
+Platin bir deÄŸnek burada bÄ±rakÄ±lmÄ±ÅŸ.~
 platinium~
 wand B AO
 30 10 10 'magic missile' 0
 2 80 990 P
 #5021
-garip enerji yayı~
-garip enerji yayı~
-Garip bir yay burada bırakılmış.~
+garip enerji yayÄ±~
+garip enerji yayÄ±~
+Garip bir yay burada bÄ±rakÄ±lmÄ±ÅŸ.~
 unknown~
 weapon ABGI AN
 bow 5 5 blast 0
 21 200 2600 P
 #5022
-şifreli parşömen~
-şifreli parşömen~
-Bir kağıt rulosu ayaklarının dibinde dinleniyor.~
+ÅŸifreli parÅŸÃ¶men~
+ÅŸifreli parÅŸÃ¶men~
+Bir kaÄŸÄ±t rulosu ayaklarÄ±nÄ±n dibinde dinleniyor.~
 vellum~
 scroll 0 A
 22 'cure blindness' 'remove curse' 'cure poison' ''
 11 70 1730 P
 #5023
-demir kemerli sandık~
-demir kemerli sandık~
-Demir kemerleri olan bir sandık burada bırakılmış.~
+demir kemerli sandÄ±k~
+demir kemerli sandÄ±k~
+Demir kemerleri olan bir sandÄ±k burada bÄ±rakÄ±lmÄ±ÅŸ.~
 iron-wood~
 container 0 0
 200 ACD 5024 200 100
 0 0 0 P
 #5024
-altın anahtar~
-altın anahtar~
+altÄ±n anahtar~
+altÄ±n anahtar~
 Parlak bir anahtar burada duruyor.~
 gold~
 key 0 A
 10 0 0 0 0
 0 10 0 P
 #5025
-bakır bileklik~
-bakır bileklik~
-Yıpranmış bir bakır bileklik burada, yeni bir sahip bekliyor.~
+bakÄ±r bileklik~
+bakÄ±r bileklik~
+YÄ±pranmÄ±ÅŸ bir bakÄ±r bileklik burada, yeni bir sahip bekliyor.~
 copper~
 jewelry GH AM
 0 0 0 0 0
@@ -397,15 +397,15 @@ A
 #5026
 yakut~
 yakut~
-İrice bir yakut burada, üzerini tozla kapatıyor.~
+Ä°rice bir yakut burada, Ã¼zerini tozla kapatÄ±yor.~
 ruby~
 gem G AO
 20 0 0 0 0
 0 1 5000 P
 #5027
-parıltılı elmas~
-parıltılı elmas~
-Parıltılı bir elmas burada, ayaklarının dibinde uzanıyor.~
+parÄ±ltÄ±lÄ± elmas~
+parÄ±ltÄ±lÄ± elmas~
+ParÄ±ltÄ±lÄ± bir elmas burada, ayaklarÄ±nÄ±n dibinde uzanÄ±yor.~
 diamond~
 gem G AO
 21 0 0 0 0
@@ -419,17 +419,17 @@ gem G AO
 22 0 0 0 0
 0 1 2000 P
 #5029
-mavi timsah-gözü~
-mavi timsah-gözü~
-Mavi bir taş burada, düşünüyor.~
+mavi timsah-gÃ¶zÃ¼~
+mavi timsah-gÃ¶zÃ¼~
+Mavi bir taÅŸ burada, dÃ¼ÅŸÃ¼nÃ¼yor.~
 gem~
 gem G AO
 24 0 0 0 0
 0 1 800 P
 #5030
-kaplan-gözü~
-kaplan-gözü~
-Güzel bir mücevher burada, düşünüyor.~
+kaplan-gÃ¶zÃ¼~
+kaplan-gÃ¶zÃ¼~
+GÃ¼zel bir mÃ¼cevher burada, dÃ¼ÅŸÃ¼nÃ¼yor.~
 gem~
 gem I AO
 0 0 0 0 0
@@ -437,9 +437,9 @@ gem I AO
 A
 2 1
 #5031
-kızıl-göz~
-kızıl-göz~
-Kızıl bir mücevher burada dinleniyor.~
+kÄ±zÄ±l-gÃ¶z~
+kÄ±zÄ±l-gÃ¶z~
+KÄ±zÄ±l bir mÃ¼cevher burada dinleniyor.~
 gem~
 gem 0 AO
 0 0 0 0 0
@@ -447,9 +447,9 @@ gem 0 AO
 A
 3 2
 #5032
-yeşil zümrüt~
-yeşil zümrüt~
-Yeşil bir zümrüt burada oturuyor.~
+yeÅŸil zÃ¼mrÃ¼t~
+yeÅŸil zÃ¼mrÃ¼t~
+YeÅŸil bir zÃ¼mrÃ¼t burada oturuyor.~
 gem~
 warp_stone T AO
 23 0 0 0 0
@@ -458,7 +458,7 @@ warp_stone T AO
 
 #ROOMS
 #5001
-Uzun Tünel~
+Uzun TÃ¼nel~
 You encounter some rapids as you enter this tunnel cut out of
 the mountains by the river.
 ~
@@ -473,7 +473,7 @@ D3
 0 0 3205
 S
 #5002
-Uzun Tünel~
+Uzun TÃ¼nel~
 The tunnel branches off north.
 ~
 0 AD 7
@@ -491,7 +491,7 @@ D3
 0 0 5001
 S
 #5003
-Uzun Tünel~
+Uzun TÃ¼nel~
 The tunnel branches off south.
 ~
 0 AD 7
@@ -509,7 +509,7 @@ D3
 0 0 5002
 S
 #5004
-Uzun Tünel~
+Uzun TÃ¼nel~
 The tunnel branches off to the south.
 ~
 0 AD 7
@@ -527,7 +527,7 @@ D3
 0 0 5003
 S
 #5005
-Yeraltı Gölü~
+YeraltÄ± GÃ¶lÃ¼~
 You are floating on a jet-black underground lake fed by dripping
 water and lime from above. The tunnel continues to the east and the river
 leads back west. To the north is a roughly-hewn hallway. There is also
@@ -552,7 +552,7 @@ D3
 0 0 5004
 S
 #5006
-Uzun Dar Tünel~
+Uzun Dar TÃ¼nel~
 The tunnel rises sharply to the east.
 ~
 0 AD 5
@@ -566,7 +566,7 @@ D3
 0 0 5005
 S
 #5007
-Geniş Tünel~
+GeniÅŸ TÃ¼nel~
 The tunnel continues east and west. To the east the tunnel dives
 down into a bright light.
 ~
@@ -581,7 +581,7 @@ D3
 0 0 5006
 S
 #5008
-Mağara~
+MaÄŸara~
 You stand at the edge of a large pile of rubble created from the last
 rockslide.
 ~
@@ -596,7 +596,7 @@ You can easily slide down the rocks without getting hurt.~
 0 0 5009
 S
 #5009
-Taş Yığınında~
+TaÅŸ YÄ±ÄŸÄ±nÄ±nda~
 You are at the bottom of a large pile of rubble. A tunnel branches
 off to the north and east.
 ~
@@ -615,7 +615,7 @@ D4
 0 0 5008
 S
 #5010
-Mağara Girişi~
+MaÄŸara GiriÅŸi~
 You stand in the middle of a large and beautiful cave. A path leads
 deeper into the darkness.
 ~
@@ -630,7 +630,7 @@ You look down into the cave. Bones are strewn about everywhere.~
 0 0 5011
 S
 #5011
-Dev Mağarası~
+Dev MaÄŸarasÄ±~
 This cavern overwhelms you. The walls and ceiling seem miles away.
 Bones of previous adventurers lie strewn on the cavern floor.
 ~
@@ -641,7 +641,7 @@ D4
 0 0 5010
 S
 #5012
-Dar Kıvrım~
+Dar KÄ±vrÄ±m~
 The tunnel turns to the south and west.
 ~
 0 AD 5
@@ -655,7 +655,7 @@ D3
 0 0 5009
 S
 #5013
-Büyük Mağara~
+BÃ¼yÃ¼k MaÄŸara~
 You are standing in a large cave. Many furs are spread out on the floor.
 ~
 0 AD 5
@@ -683,7 +683,7 @@ D3
 0 0 5013
 S
 #5015
-Yeraltı Havuzu~
+YeraltÄ± Havuzu~
 You are wading in a knee deep pool of lime-water.
 ~
 0 AD 6
@@ -712,7 +712,7 @@ D2
 0 0 5005
 S
 #5017
-Dar ve Alçak Koridor~
+Dar ve AlÃ§ak Koridor~
 This crawlway is just big enough for a human to crawl through or a
 halfling to walk through.
 ~
@@ -731,7 +731,7 @@ You smell the fragrant odor of fungus.~
 0 0 5019
 S
 #5018
-Büyük ve Derin Mağara~
+BÃ¼yÃ¼k ve Derin MaÄŸara~
 You have entered a very large cavern. The rock formations would amaze
 almost any dwarf.
 ~
@@ -776,7 +776,7 @@ The fragrant smell of spores continues to the west.~
 0 0 5019
 S
 #5021
-Mantar Tapınağı~
+Mantar TapÄ±naÄŸÄ±~
 You find yourself standing inside of a giant mushroom. The inside
 is decorated in the fashion of a temple.
 ~
@@ -791,7 +791,7 @@ D1
 0 0 5022
 S
 #5022
-Meğilli Pasaj~
+MeÄŸilli Pasaj~
 You follow a path sloping down from the fungus temple.
 ~
 0 AD 5
@@ -805,7 +805,7 @@ D5
 0 0 5023
 S
 #5023
-Meğilli Pasaj~
+MeÄŸilli Pasaj~
 You are on a path that gently slopes up from the underground pool.
 ~
 0 AD 5
@@ -819,34 +819,34 @@ D4
 0 0 5022
 S
 #5024
-Sıcak Kumlar~
+SÄ±cak Kumlar~
 A vast desert stretches for miles, the sand constantly shifting around you.
 You feel lost.
 ~
 0 N 10
 D0
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5030
 D1
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5025
 D2
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5027
 D3
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5026
 S
 #5025
-Sıcak Kumlar~
+SÄ±cak Kumlar~
 A vast desert stretches for miles, the sand constantly shifting around you.
 You feel lost.
 ~
@@ -857,66 +857,66 @@ You see a nomad camp by an oasis.
 ~
 0 0 5056
 D1
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5026
 D2
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5028
 D3
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5024
 S
 #5026
-Sıcak Kumlar~
+SÄ±cak Kumlar~
 A vast desert stretches for miles, the sand constantly shifting around you.
 You feel lost.
 ~
 0 N 10
 D0
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5032
 D1
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5024
 D2
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5029
 D3
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5025
 S
 #5027
-Sıcak Kumlar~
+SÄ±cak Kumlar~
 A vast desert stretches for miles, the sand constantly shifting around you.
 You feel lost.
 ~
 0 N 10
 D0
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5024
 D1
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5028
 D2
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5030
@@ -927,40 +927,40 @@ You see a river flowing into the mountain.
 0 0 5007
 S
 #5028
-Sıcak Kumlar~
+SÄ±cak Kumlar~
 A vast desert stretches for miles, the sand constantly shifting around you.
 You feel lost.
 ~
 0 N 10
 D0
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5025
 D1
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5029
 D2
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5031
 D3
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5027
 S
 #5029
-Sıcak Kumlar~
+SÄ±cak Kumlar~
 A vast desert stretches for miles, the sand constantly shifting around you.
 You feel lost.
 ~
 0 N 10
 D0
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5026
@@ -970,83 +970,83 @@ The sand is glowing in this direction.
 ~
 0 0 5062
 D2
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5032
 D3
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5028
 S
 #5030
-Sıcak Kumlar~
+SÄ±cak Kumlar~
 A vast desert stretches for miles, the sand constantly shifting around you.
 You feel lost.
 ~
 0 N 10
 D0
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5027
 D1
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5031
 D2
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5024
 D3
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5032
 S
 #5031
-Sıcak Kumlar~
+SÄ±cak Kumlar~
 A vast desert stretches for miles, the sand constantly shifting around you.
 You feel lost.
 ~
 0 N 10
 D0
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5028
 D1
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5032
 D2
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5063
 D3
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5030
 S
 #5032
-Sıcak Kumlar~
+SÄ±cak Kumlar~
 A vast desert stretches for miles, the sand constantly shifting around you.
 You feel lost.
 ~
 0 N 10
 D0
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5029
 D1
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5030
@@ -1056,13 +1056,13 @@ You see a tiny ledge.
 ~
 0 0 5026
 D3
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5031
 S
 #5056
-Göçebe Kampı~
+GÃ¶Ã§ebe KampÄ±~
 This small group of desert nomads has stopped for the day to rest
 and refresh themselves beside this beautiful oasis. Three tents and some
 camels make up the party. From within two of the tents you hear muffled
@@ -1080,13 +1080,13 @@ You see inside one of the tents a huddled mass of people, probably slaves.
 ~
 0 0 5057
 D2
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5025
 S
 #5057
-Küçük Çadırın İçinde~
+KÃ¼Ã§Ã¼k Ã‡adÄ±rÄ±n Ä°Ã§inde~
 This is a small and simple tent with few possessions in sight. Lying
 here and there are young-looking men and women, possibly slaves to the
 leader of this band.
@@ -1104,7 +1104,7 @@ You see the center of the nomad camp.
 0 0 5056
 S
 #5058
-Develerin Yanında~
+Develerin YanÄ±nda~
 Here stand about ten camels, all hitched to some stakes plugged into
 the ground. To the east you see a small tent while to the north you see a
 larger, fancier tent.
@@ -1127,7 +1127,7 @@ You see the center of the nomad camp.
 0 0 5056
 S
 #5059
-Savaşçının Çadırı~
+SavaÅŸÃ§Ä±nÄ±n Ã‡adÄ±rÄ±~
 This tent has a few furnishings, but mainly it holds the band's
 protectors. They all stare at you coldly as you enter.
 ~
@@ -1139,7 +1139,7 @@ Outside you see some peaceful camels.
 0 0 5058
 S
 #5060
-Ana Çadır~
+Ana Ã‡adÄ±r~
 This tent is as lavishly decorated on the inside as it is on the
 outside. A fancy carpet lies on the sand and numerous baskets line the
 walls.
@@ -1156,7 +1156,7 @@ You see some peaceful camels.
 0 0 5058
 S
 #5061
-Ana Çadır~
+Ana Ã‡adÄ±r~
 This is where the leader of this band of nomads resides. He is
 definitely rich as you inspect the tapestries, baskets, and a few
 paintings as well.
@@ -1169,7 +1169,7 @@ You see the entrance to this tent.
 0 0 5060
 S
 #5062
-Işıldayan Kum~
+IÅŸÄ±ldayan Kum~
 A vast desert stretches for miles, the sand constantly shifting around
 you.  But this patch of desert looks different...the sand glows.  You see a
 futuristic city to the south.
@@ -1181,7 +1181,7 @@ You see a futuristic city.
 ~
 0 0 8001
 D3
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5029
@@ -1194,7 +1194,7 @@ a dark cave leading under the desert sands.
 ~
 0 0 5
 D0
-Gözün görebildiğince kum.
+GÃ¶zÃ¼n gÃ¶rebildiÄŸince kum.
 ~
 ~
 0 0 5031
@@ -1205,7 +1205,7 @@ You see a dark cave.
 0 0 5064
 S
 #5064
-Mağara Ağzı~
+MaÄŸara AÄŸzÄ±~
 The air in here is MUCH cooler than outside. From the west you hear
 strange sounds, but can see nothing. The cave slopes down into the
 darkness.
@@ -1221,7 +1221,7 @@ D3
 0 0 5065
 S
 #5065
-Esrarengiz İn~
+Esrarengiz Ä°n~
 You have stumbled upon the home of something. From the treasure
 haphazardly strewn about and the rotting carcasses, you would guess that
 this is a dragon's lair. As to what type, you can't really say. The cave
@@ -1238,7 +1238,7 @@ door~
 1 5024 5066
 S
 #5066
-Geniş Tünel~
+GeniÅŸ TÃ¼nel~
 This tunnel seems to go on forever into the darkness. You carefully
 feel your way along the walls.
 ~
@@ -1253,7 +1253,7 @@ D3
 0 0 5067
 S
 #5067
-Dar Tünel~
+Dar TÃ¼nel~
 The tunnel becomes very narrow and you fight to squeeze your way through.
 The floor seems to level off a little.
 ~
@@ -1268,7 +1268,7 @@ D2
 0 0 5068
 S
 #5068
-Dar Çatlak~
+Dar Ã‡atlak~
 This part of the tunnel is the hardest to move through as the walls
 move in to meet you.
 ~
@@ -1283,7 +1283,7 @@ D3
 0 0 5069
 S
 #5069
-Küçük ve Derin Mağara~
+KÃ¼Ã§Ã¼k ve Derin MaÄŸara~
 It is dark and damp and bats hang from the ceiling. A narrow crack is
 in the east wall. The floor now slopes upwards.
 ~
@@ -1298,7 +1298,7 @@ D1
 0 0 5068
 S
 #5070
-Küçük Baca~
+KÃ¼Ã§Ã¼k Baca~
 From within this shaft you can see a narrow hole in the roof just
 large enough for one person. Back south is the cavern.
 ~

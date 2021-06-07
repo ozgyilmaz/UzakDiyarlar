@@ -3,7 +3,7 @@ Filename serbest_liman.are~
 Name Serbest Liman~
 Builder Lok~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 8
 Highlevel 53
 Minvnum 29201
@@ -18,7 +18,7 @@ END
 #29201
 mavi dilli kertenkele~
 mavi dilli kertenkele~
-Mavi dilli bir kertenkele sana tıslıyor.
+Mavi dilli bir kertenkele sana tÄ±slÄ±yor.
 ~
 The blue-tongued lizard measures some 18" from head to tail,
 is very quick, and has sharp pointy teeth.
@@ -26,9 +26,9 @@ is very quick, and has sharp pointy teeth.
 lizard~
 ACEHX 0 8
 #29202
-kırmızı dilli kertenkele~
-kırmızı dilli kertenkele~
-Kırmızı dilli bir kertenkele sana tıslıyor.
+kÄ±rmÄ±zÄ± dilli kertenkele~
+kÄ±rmÄ±zÄ± dilli kertenkele~
+KÄ±rmÄ±zÄ± dilli bir kertenkele sana tÄ±slÄ±yor.
 ~
 The red-tongued lizard measures some 18" from head to tail,
 is very quick, and has sharp pointy teeth.
@@ -36,9 +36,9 @@ is very quick, and has sharp pointy teeth.
 lizard~
 ACEHX 0 9
 #29203
-yeşil dilli kertenkele~
-yeşil dilli kertenkele~
-Yeşil dilli bir kertenkele sana tıslıyor.
+yeÅŸil dilli kertenkele~
+yeÅŸil dilli kertenkele~
+YeÅŸil dilli bir kertenkele sana tÄ±slÄ±yor.
 ~
 The green-tongued lizard measures some 18" from head to tail,
 is very quick, and has sharp pointy teeth.
@@ -46,9 +46,9 @@ is very quick, and has sharp pointy teeth.
 lizard~
 ACEHX 0 8
 #29204
-denizci yaşlı dul kadın burnu gözcü~
-Dul Kadın Burnu gözcüsü~
-Yaşlı bir denizci burada bekliyor.
+denizci yaÅŸlÄ± dul kadÄ±n burnu gÃ¶zcÃ¼~
+Dul KadÄ±n Burnu gÃ¶zcÃ¼sÃ¼~
+YaÅŸlÄ± bir denizci burada bekliyor.
 ~
 You strike up a conversation with the watchman. He tells you that
 he has noticed several craft entering and leaving Freeport harbor
@@ -57,9 +57,9 @@ at night, but when he reported it, nobody seemed to care.
 human~
 ABCEX 0 12
 #29205
-balıkçı~
-balıkçı~
-Bir balıkçı burada, oltasını sallıyor.
+balÄ±kÃ§Ä±~
+balÄ±kÃ§Ä±~
+Bir balÄ±kÃ§Ä± burada, oltasÄ±nÄ± sallÄ±yor.
 ~
 You strike up a conversation with the fisherman. He tells you that
 you really should try the blue-tongued lizards which hide in the
@@ -68,9 +68,9 @@ jetty rocks.
 human~
 ABCEX 0 10
 #29206
-rıhtım işçisi~
-rıhtım işçisi~
-Bir rıhtım işçisi ağır yükleri kaldırıyor.
+rÄ±htÄ±m iÅŸÃ§isi~
+rÄ±htÄ±m iÅŸÃ§isi~
+Bir rÄ±htÄ±m iÅŸÃ§isi aÄŸÄ±r yÃ¼kleri kaldÄ±rÄ±yor.
 ~
 The dockworker is dressed in loose-fitting cotton clothing and uses
 a rope to lift the heavy crate.
@@ -78,9 +78,9 @@ a rope to lift the heavy crate.
 human~
 ACEX 0 9
 #29207
-rıhtım şefi~
-rıhtım şefi~
-Rıhtım şefi seni dikkatli gözlerle izliyor.
+rÄ±htÄ±m ÅŸefi~
+rÄ±htÄ±m ÅŸefi~
+RÄ±htÄ±m ÅŸefi seni dikkatli gÃ¶zlerle izliyor.
 ~
 The harbormaster is an old hand at this, and doesn't put up with
 any crap from you. Give him his list or go to the brig.
@@ -88,27 +88,27 @@ any crap from you. Give him his list or go to the brig.
 human~
 ABCE 0 29
 #29208
-liman vatandaş~
-liman vatandaşı~
-Bir liman vatandaşı ıslık çalarak yürüyor.
+liman vatandaÅŸ~
+liman vatandaÅŸÄ±~
+Bir liman vatandaÅŸÄ± Ä±slÄ±k Ã§alarak yÃ¼rÃ¼yor.
 ~
 The citizen is dressed in light cotton clothing and sandals.
 ~
 human~
 ACEX 0 10
 #29209
-gülen çocuk~
-gülen çocuk~
-Bir çocuk burada, oyun oynuyor.
+gÃ¼len Ã§ocuk~
+gÃ¼len Ã§ocuk~
+Bir Ã§ocuk burada, oyun oynuyor.
 ~
 The child is dressed in a white cotton shirt.
 ~
 human~
 ACEX 0 7
 #29210
-denizcinin karısı~
-denizcinin karısı~
-Denizcinin karısı burada, eşinin dönüşünü bekliyor.
+denizcinin karÄ±sÄ±~
+denizcinin karÄ±sÄ±~
+Denizcinin karÄ±sÄ± burada, eÅŸinin dÃ¶nÃ¼ÅŸÃ¼nÃ¼ bekliyor.
 ~
 The sailor's wife is dressed in a simple cotton dress,
 and has hair bleached blond by the sun and the sea.
@@ -116,9 +116,9 @@ and has hair bleached blond by the sun and the sea.
 human~
 ACEX 0 9
 #29211
-gemi yapım şefi~
-gemi yapım şefi~
-Gemi yapım şefi yeni bir gemi üzerinde çalışıyor.
+gemi yapÄ±m ÅŸefi~
+gemi yapÄ±m ÅŸefi~
+Gemi yapÄ±m ÅŸefi yeni bir gemi Ã¼zerinde Ã§alÄ±ÅŸÄ±yor.
 ~
 After introducing yourself and the usual small talk, you
 find out from the master shipbuilder that he has been recently
@@ -128,9 +128,9 @@ cargo storage, but excellent raiding speed.
 human~
 ABCE 0 95
 #29212
-gemi yapım çırağı~
-gemi yapım çırağı~
-Bir gemi yapım çırağı bağlantı yerlerini ziftliyor.
+gemi yapÄ±m Ã§Ä±raÄŸÄ±~
+gemi yapÄ±m Ã§Ä±raÄŸÄ±~
+Bir gemi yapÄ±m Ã§Ä±raÄŸÄ± baÄŸlantÄ± yerlerini ziftliyor.
 ~
 The apprentice shipbuilder is a young boy dressed in a dirty
 grey smock.
@@ -140,7 +140,7 @@ ABCE 0 7
 #29213
 depo yetkilisi~
 depo yetkilisi~
-Depo yetkilisi liman işçisine sesleniyor.
+Depo yetkilisi liman iÅŸÃ§isine sesleniyor.
 ~
 The warehouse overseer complains about the shoddy record keeping
 of his employees. Why just this last month the records show 60 missing
@@ -159,9 +159,9 @@ though, and looks like he is in no mood for your crap.
 human~
 ACEX 0 20
 #29215
-yükleyici~
-yükleyici~
-Bir yükleyici kargoyu limana götürüyor.
+yÃ¼kleyici~
+yÃ¼kleyici~
+Bir yÃ¼kleyici kargoyu limana gÃ¶tÃ¼rÃ¼yor.
 ~
 The teamster drives his single mule with a long whip and foul language.
 ~
@@ -169,8 +169,8 @@ human~
 ACEX 0 13
 #29216
 lefti~
-Batık Korsan'ın sahibi Lefti~
-Batık Korsan'ın sahibi Lefti içki ve yiyecek dağıtıyor.
+BatÄ±k Korsan'Ä±n sahibi Lefti~
+BatÄ±k Korsan'Ä±n sahibi Lefti iÃ§ki ve yiyecek daÄŸÄ±tÄ±yor.
 ~
 When you ask about the recent gossip, Lefty tells you that he heard
 a shady looking bunch talking about how Oglethorpe the master merchant
@@ -181,19 +181,19 @@ ABCDE 0 95
 #29217
 anvar~
 Emporyum'un sahibi Anvar~
-Anvar egzotik mallarını satıyor.
+Anvar egzotik mallarÄ±nÄ± satÄ±yor.
 ~
 You flip Anwar a gold coin. He holds out his hand for more. You give
 him 50 gold. He tells you that he has access to some goods which are
 very cheap in which you might be interested. When you scoff at his
 fenced goods, Anwar clams up.
 ~
-çora~
+Ã§ora~
 ABCEV J 95
 #29218
-radner cüce zırhçı~
-cüce zırhçı Radner~
-Cüce zırhçı Radner metal bir plakaya şekil veriyor.
+radner cÃ¼ce zÄ±rhÃ§Ä±~
+cÃ¼ce zÄ±rhÃ§Ä± Radner~
+CÃ¼ce zÄ±rhÃ§Ä± Radner metal bir plakaya ÅŸekil veriyor.
 ~
 Raedner gladly accepts a pull from your ale skin. As he wipes his brow,
 he begins a story about how he thinks the last election was rigged, since
@@ -203,9 +203,9 @@ armor.
 dwarf~
 ABCESV J 94
 #29219
-samanta mistik göz cadısı~
-Mistik Göz'ün cadısı Samanta~
-Mistik Göz'ün cadısı Samanta mallarını gösteriyor.
+samanta mistik gÃ¶z cadÄ±sÄ±~
+Mistik GÃ¶z'Ã¼n cadÄ±sÄ± Samanta~
+Mistik GÃ¶z'Ã¼n cadÄ±sÄ± Samanta mallarÄ±nÄ± gÃ¶steriyor.
 ~
 Samantha bats her eyes at you with no shame at all. She propositions you
 for some indecent activity. You accept to pump her for more information.
@@ -215,9 +215,9 @@ to identify anything you may have.
 human~
 ABCERV 0 94
 #29220
-çırak tüccar~
-çırak tüccar~
-Çırak tüccar seninle ticari bir anlaşma yapmanın peşinde.
+Ã§Ä±rak tÃ¼ccar~
+Ã§Ä±rak tÃ¼ccar~
+Ã‡Ä±rak tÃ¼ccar seninle ticari bir anlaÅŸma yapmanÄ±n peÅŸinde.
 ~
 The apprentice is trying to fill his docket for the evening's tide. He
 wears a simple yellow smock.
@@ -225,9 +225,9 @@ wears a simple yellow smock.
 human~
 ABCE 0 7
 #29221
-keres tüccar~
-tüccar Keres~
-Tüccar Keres seni içten bir gülümsemeyle karşılıyor.
+keres tÃ¼ccar~
+tÃ¼ccar Keres~
+TÃ¼ccar Keres seni iÃ§ten bir gÃ¼lÃ¼msemeyle karÅŸÄ±lÄ±yor.
 ~
 You strike up a conversation with Ceres. He tells you that he was recently
 threatened by Oglethorpe (1st chair) when he brought up the subject of
@@ -238,7 +238,7 @@ ABCEN 0 46
 #29222
 elken banker~
 Banker Elken~
-Banker Elken yatıracağın paraları bekliyor.
+Banker Elken yatÄ±racaÄŸÄ±n paralarÄ± bekliyor.
 ~
 Elken seems to squirm and shift when you begin gentle inquiries into
 the strange happenings of Freeport. He excuses himself and goes to
@@ -247,9 +247,9 @@ talk to a teller, who in turn leaves the bank in a hurry.
 human~
 ABCE 0 49
 #29224
-genç bahriye öğrencisi~
-genç bahriye öğrencisi~
-Genç bahriye öğrencisi burada dinleniyor.
+genÃ§ bahriye Ã¶ÄŸrencisi~
+genÃ§ bahriye Ã¶ÄŸrencisi~
+GenÃ§ bahriye Ã¶ÄŸrencisi burada dinleniyor.
 ~
 You strike up a conversation, and he tells you of the rigors of the
 Naval academy. He relays a funny story of how during last summers
@@ -260,9 +260,9 @@ the final race.
 human~
 ABCE 0 14
 #29225
-amiral beyaz miğfer yaşlı adam~
-Amiral Beyaz Miğfer~
-Yaşlı bir adam piposunu içiyor.
+amiral beyaz miÄŸfer yaÅŸlÄ± adam~
+Amiral Beyaz MiÄŸfer~
+YaÅŸlÄ± bir adam piposunu iÃ§iyor.
 ~
 You offer Whitecap some honey gold pipe tobacco. He smiles, kicks back,
 and lights up his pipe. An hour later, you are much wiser in the ways of the
@@ -273,9 +273,9 @@ devil weed.
 human~
 ABCEPQ 0 49
 #29226
-yardımsever başkan~
-yardımsever Başkan~
-Yardımsever başkan seni içten bir gülümsemeyle karşılıyor.
+yardÄ±msever baÅŸkan~
+yardÄ±msever BaÅŸkan~
+YardÄ±msever baÅŸkan seni iÃ§ten bir gÃ¼lÃ¼msemeyle karÅŸÄ±lÄ±yor.
 ~
 When you begin to subtly inquire about the strange happenings in Freeport
 Mayor Friendly gets nervous and clams up. You notice that he keeps looking
@@ -284,9 +284,9 @@ at a white marble statue.
 human~
 ABCE 0 44
 #29227
-hancı mige~
-Tayfa Bölgesi'nin hancısı Midge~
-Tayfa Bölgesi'nin hancısı Midge sana sıcak yemek öneriyor.
+hancÄ± mige~
+Tayfa BÃ¶lgesi'nin hancÄ±sÄ± Midge~
+Tayfa BÃ¶lgesi'nin hancÄ±sÄ± Midge sana sÄ±cak yemek Ã¶neriyor.
 ~
 Midge sits down with you as you have the meal, as her business right now
 has been slow. She tells you that her business has steadily declined for
@@ -298,16 +298,16 @@ ABCE 0 94
 #29228
 kirli korsan denizci~
 kirli korsan~
-Kirli bir korsan denizci yüklerini indiriyor.
+Kirli bir korsan denizci yÃ¼klerini indiriyor.
 ~
 The sailor reeks of rum and the sea.
 ~
 human~
 ACEX 0 45
 #29229
-korsan muhafız~
-korsan muhafız~
-Korsan muhafız burada, yolu kapatıyor.
+korsan muhafÄ±z~
+korsan muhafÄ±z~
+Korsan muhafÄ±z burada, yolu kapatÄ±yor.
 ~
 The guard is heavily armed and moves with military
 precision.
@@ -317,7 +317,7 @@ ABCEF 0 46
 #29230
 amiral kara yelken~
 Amiral Kara Yelken~
-Amiral Kara Yelken otlara olan düşkünlüğüyle ürperiyor.
+Amiral Kara Yelken otlara olan dÃ¼ÅŸkÃ¼nlÃ¼ÄŸÃ¼yle Ã¼rperiyor.
 ~
 You confront Blacksail with his villainy. He begs for your mercy. He
 claims Mourning forced him into his present addiction, and threatens
@@ -327,9 +327,9 @@ whim.
 human~
 ABCE 0 47
 #29231
-ogletorp tüccar efendi~
-tüccar efendi Ogletorp~
-Tüccar efendi Ogletorp varlığından ürküyor!
+ogletorp tÃ¼ccar efendi~
+tÃ¼ccar efendi Ogletorp~
+TÃ¼ccar efendi Ogletorp varlÄ±ÄŸÄ±ndan Ã¼rkÃ¼yor!
 ~
 Oglethorpe, when faced with your accusations proudly admits to skimming
 off profits from his information scandal and ties to the pirate lords.
@@ -341,7 +341,7 @@ ABCE 0 47
 #29232
 lord yas~
 Lord Yas~
-Lord Yas sana gülüyor!
+Lord Yas sana gÃ¼lÃ¼yor!
 ~
 Bah! Who are you to threaten me? I was sinking navies when you were a mere
 strapling on your mother's teat! I will destroy you! And if not me, then
@@ -352,9 +352,9 @@ tongue.
 human~
 ABCE H 52
 #29233
-sarhoş denizci~
-sarhoş denizci~
-Sarhoş bir denizci sendeleyerek yürüyor.
+sarhoÅŸ denizci~
+sarhoÅŸ denizci~
+SarhoÅŸ bir denizci sendeleyerek yÃ¼rÃ¼yor.
 ~
 The drunken sailor has been a long time away at sea, and this is his
 first day back in port. His wandering drunk shows on his clothing. Here
@@ -371,7 +371,7 @@ ACEX 0 8
 #29201
 eski anahtar~
 eski anahtar~
-Eski bir anahtar yerde yatıyor.
+Eski bir anahtar yerde yatÄ±yor.
 ~
 iron~
 key 0 A
@@ -387,27 +387,27 @@ pill 0 A
 10 'sanctuary' '' '' ''
 8 1 2450 P
 #29203
-kırmızı kertenkele dili~
-kırmızı kertenkele dili~
-Kırmızı bir kertenkele dili burada duruyor.
+kÄ±rmÄ±zÄ± kertenkele dili~
+kÄ±rmÄ±zÄ± kertenkele dili~
+KÄ±rmÄ±zÄ± bir kertenkele dili burada duruyor.
 ~
 flesh~
 pill 0 A
 10 'poison' '' '' ''
 9 1 90 P
 #29204
-yeşil kertenkele dili~
-yeşil kertenkele dili~
-Yeşil bir kertenkele dili burada duruyor.
+yeÅŸil kertenkele dili~
+yeÅŸil kertenkele dili~
+YeÅŸil bir kertenkele dili burada duruyor.
 ~
 flesh~
 pill 0 A
 10 'curse' '' '' ''
 8 1 80 P
 #29205
-gözcü ateşi~
-gözcü ateşi~
-Bir gözcü ateşi burada yanıyor.
+gÃ¶zcÃ¼ ateÅŸi~
+gÃ¶zcÃ¼ ateÅŸi~
+Bir gÃ¶zcÃ¼ ateÅŸi burada yanÄ±yor.
 ~
 unknown~
 light A AO
@@ -416,7 +416,7 @@ light A AO
 #29206
 olta~
 olta~
-Bir olta burada unutulmuş.
+Bir olta burada unutulmuÅŸ.
 ~
 wood~
 weapon 0 AN
@@ -425,16 +425,16 @@ weapon 0 AN
 #29207
 defter~
 defter~
-Bir defter burada bırakılmış.
+Bir defter burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 vellum~
 treasure G AO
 0 0 0 0 0
 29 4 290 P
 #29208
-devriye ışık~
-devriye ışığı~
-Parlak bir devriye ışığı burada bırakılmış.
+devriye Ä±ÅŸÄ±k~
+devriye Ä±ÅŸÄ±ÄŸÄ±~
+Parlak bir devriye Ä±ÅŸÄ±ÄŸÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 glass~
 light A AO
@@ -443,18 +443,18 @@ light A AO
 A
 24 -5
 #29209
-zırh~
-zırh~
-Bir zırh burada bırakılmış.
+zÄ±rh~
+zÄ±rh~
+Bir zÄ±rh burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 iron~
 armor G AD
 7 7 7 0 0
 20 20 200 P
 #29210
-üç dişli çatal~
-üç dişli çatal~
-Üç dişli bir çatal burada bırakılmış.
+Ã¼Ã§ diÅŸli Ã§atal~
+Ã¼Ã§ diÅŸli Ã§atal~
+ÃœÃ§ diÅŸli bir Ã§atal burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 wood~
 weapon G AN
@@ -463,18 +463,18 @@ weapon G AN
 A
 19 3
 #29211
-parça et~
-parça et~
-Bir parça et burada bırakılmış.
+parÃ§a et~
+parÃ§a et~
+Bir parÃ§a et burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 flesh~
 food 0 A
 8 8 0 0 0
 0 2 5 P
 #29212
-damıtılmış deniz suyu şişe~
-damıtılmış deniz suyu~
-Bir şişe damıtılmış deniz suyu burada duruyor.
+damÄ±tÄ±lmÄ±ÅŸ deniz suyu ÅŸiÅŸe~
+damÄ±tÄ±lmÄ±ÅŸ deniz suyu~
+Bir ÅŸiÅŸe damÄ±tÄ±lmÄ±ÅŸ deniz suyu burada duruyor.
 ~
 glass~
 drink 0 A
@@ -483,25 +483,25 @@ drink 0 A
 #29213
 kutsal ekmek~
 kutsal ekmek~
-Bir kutsal ekmek burada bırakılmış.
+Bir kutsal ekmek burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 flesh~
 pill G A
 15 'bless' '' '' ''
 5 1 2550 P
 #29214
-gümüş zırh~
-gümüş zırh~
-Gümüş bir zırh burada bırakılmış.
+gÃ¼mÃ¼ÅŸ zÄ±rh~
+gÃ¼mÃ¼ÅŸ zÄ±rh~
+GÃ¼mÃ¼ÅŸ bir zÄ±rh burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 silver~
 treasure 0 A
 0 0 0 0 0
 15 8 300 P
 #29215
-duvar halısı~
-duvar halısı~
-Bir duvar halısı burada bırakılmış.
+duvar halÄ±sÄ±~
+duvar halÄ±sÄ±~
+Bir duvar halÄ±sÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 cloth~
 treasure 0 A
@@ -513,9 +513,9 @@ The tapestry is of knights locked in battle in the Battleplain
 of Arden.
 ~
 #29216
-zümrüt zırh~
-zümrüt zırh~
-Zümrüt bir zırh burada bırakılmış.
+zÃ¼mrÃ¼t zÄ±rh~
+zÃ¼mrÃ¼t zÄ±rh~
+ZÃ¼mrÃ¼t bir zÄ±rh burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 stone~
 armor G AD
@@ -524,9 +524,9 @@ armor G AD
 A
 17 -30
 #29217
-cüce çekiç~
-cüce çekici~
-Bir cüce çekici burada bırakılmış.
+cÃ¼ce Ã§ekiÃ§~
+cÃ¼ce Ã§ekici~
+Bir cÃ¼ce Ã§ekici burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 unknown~
 weapon GP AN
@@ -537,36 +537,36 @@ A
 A
 19 4
 #29218
-örgülü çora kolluk~
-bir çift örgülü çora kolluğu~
-Bir çift örgülü çora kolluğu burada bırakılmış.
+Ã¶rgÃ¼lÃ¼ Ã§ora kolluk~
+bir Ã§ift Ã¶rgÃ¼lÃ¼ Ã§ora kolluÄŸu~
+Bir Ã§ift Ã¶rgÃ¼lÃ¼ Ã§ora kolluÄŸu burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 mithril~
 armor G AI
 5 5 5 5 0
 10 4 100 P
 #29219
-örgülü çora bacaklık~
-bir çift örgülü çora bacaklığı~
-Bir çift örgülü çora bacaklığı burada bırakılmış.
+Ã¶rgÃ¼lÃ¼ Ã§ora bacaklÄ±k~
+bir Ã§ift Ã¶rgÃ¼lÃ¼ Ã§ora bacaklÄ±ÄŸÄ±~
+Bir Ã§ift Ã¶rgÃ¼lÃ¼ Ã§ora bacaklÄ±ÄŸÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 mithril~
 armor GQ AF
 5 5 5 5 0
 10 5 100 P
 #29220
-kırmızı şarap bardak~
-bir bardak kırmızı şarap~
-Bir bardak kırmızı şarap burada bırakılmış.
+kÄ±rmÄ±zÄ± ÅŸarap bardak~
+bir bardak kÄ±rmÄ±zÄ± ÅŸarap~
+Bir bardak kÄ±rmÄ±zÄ± ÅŸarap burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 leather~
 drink 0 A
 1 1 'red wine' 0 0
 0 1 10 P
 #29221
-beyaz şarap~
-bir bardak beyaz şarap~
-Bir bardak beyaz şarap burada bırakılmış.
+beyaz ÅŸarap~
+bir bardak beyaz ÅŸarap~
+Bir bardak beyaz ÅŸarap burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 glass~
 drink 0 A
@@ -575,16 +575,16 @@ drink 0 A
 #29222
 etli hamur~
 etli hamur~
-Bir etli hamur burada bırakılmış.
+Bir etli hamur burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 flesh~
 food 0 A
 5 5 0 0 0
 0 2 14 P
 #29223
-sandık~
-sandık~
-Büyük bir sandık burada bırakılmış.
+sandÄ±k~
+sandÄ±k~
+BÃ¼yÃ¼k bir sandÄ±k burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 wood~
 trash 0 A
@@ -600,9 +600,9 @@ boat 0 0
 0 0 0 0 0
 7 100 70 P
 #29225
-zümrüt bileklik~
-zümrüt bileklik~
-Zümrüt bir bileklik burada bırakılmış.
+zÃ¼mrÃ¼t bileklik~
+zÃ¼mrÃ¼t bileklik~
+ZÃ¼mrÃ¼t bir bileklik burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 stone~
 armor G AM
@@ -611,9 +611,9 @@ armor G AM
 A
 17 -20
 #29226
-zümrüt uzunkılıç~
-zümrüt uzunkılıç~
-Zümrütle işlenmiş bir uzunkılıç burada bırakılmış.
+zÃ¼mrÃ¼t uzunkÄ±lÄ±Ã§~
+zÃ¼mrÃ¼t uzunkÄ±lÄ±Ã§~
+ZÃ¼mrÃ¼tle iÅŸlenmiÅŸ bir uzunkÄ±lÄ±Ã§ burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 stone~
 weapon G AN
@@ -622,9 +622,9 @@ weapon G AN
 A
 17 -10
 #29227
-zümrüt miğfer~
-zümrüt miğfer~
-Zümrüt bir miğfer burada bırakılmış.
+zÃ¼mrÃ¼t miÄŸfer~
+zÃ¼mrÃ¼t miÄŸfer~
+ZÃ¼mrÃ¼t bir miÄŸfer burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 stone~
 armor G AE
@@ -633,9 +633,9 @@ armor G AE
 A
 17 -10
 #29228
-şeytan otu~
-şeytan otu~
-Bir şeytan otu burada bırakılmış.
+ÅŸeytan otu~
+ÅŸeytan otu~
+Bir ÅŸeytan otu burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 cloth~
 pill G A
@@ -644,7 +644,7 @@ pill G A
 #29229
 amiral pelerini~
 amiral pelerini~
-Bir amiral pelerini burada bırakılmış.
+Bir amiral pelerini burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 cloth~
 armor GI ACD
@@ -661,9 +661,9 @@ A
 A
 24 -5
 #29230
-amiral mühürlü yüzük~
-amiral mühürlü yüzüğü~
-Bir yüzük burada unutulmuş.
+amiral mÃ¼hÃ¼rlÃ¼ yÃ¼zÃ¼k~
+amiral mÃ¼hÃ¼rlÃ¼ yÃ¼zÃ¼ÄŸÃ¼~
+Bir yÃ¼zÃ¼k burada unutulmuÅŸ.
 ~
 gold~
 armor G AB
@@ -676,18 +676,18 @@ A
 A
 19 3
 #29231
-para çantası~
-para çantası~
-Bir para çantası burada bırakılmış.
+para Ã§antasÄ±~
+para Ã§antasÄ±~
+Bir para Ã§antasÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 leather~
 money 0 A
 800 0 0 0 0
 47 100 470 P
 #29232
-jiletli çizme~
-bir çift jiletli çizme~
-Bir çift jiletli çizme burada bırakılmış.
+jiletli Ã§izme~
+bir Ã§ift jiletli Ã§izme~
+Bir Ã§ift jiletli Ã§izme burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 leather~
 armor 0 AG
@@ -700,7 +700,7 @@ A
 #29233
 boyutsal fular delik~
 boyutsal fular~
-Gerçekliğin içinde bir delik burada yatıyor.
+GerÃ§ekliÄŸin iÃ§inde bir delik burada yatÄ±yor.
 ~
 unknown~
 armor G AC
@@ -723,9 +723,9 @@ A
 A
 19 5
 #29234
-asura taşı yeşil~
-asura taşı~
-Yeşile boyanmış bir taş burada bekliyor.~
+asura taÅŸÄ± yeÅŸil~
+asura taÅŸÄ±~
+YeÅŸile boyanmÄ±ÅŸ bir taÅŸ burada bekliyor.~
 glass~
 staff FG AO
 55 10 8 'sanctuary' 0
@@ -736,7 +736,7 @@ staff FG AO
 
 #ROOMS
 #29201
-Akşam Karalığının Kenarı~
+AkÅŸam KaralÄ±ÄŸÄ±nÄ±n KenarÄ±~
 You have reached the point of Freeport isle, a place locals
 call Dusk's edge. There is an ivory statue of a dolphin entering the
 water from a great leap is here.
@@ -750,7 +750,7 @@ the water with great joy, and the water which fell from her back became the
 isle of Freeport.
 ~
 D1
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29202
 D3
@@ -759,377 +759,377 @@ Land Ho!!~
 0 -1 14501
 S
 #29202
-Dalgakıran~
+DalgakÄ±ran~
 You walk along the rock jetty of the isle of Freeport. The waves crash and
 spray a salt mist into the air. Gulls wheel in the sky above you, having
 flown from their perches upon seeing you.
 ~
 0 0 4
 D2
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29203
 D3
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29201
 S
 #29203
-Dalgakıran~
+DalgakÄ±ran~
 You walk along the rock jetty of the isle of Freeport. The waves crash and
 spray a salt mist into the air. Gulls wheel in the sky above you, having
 flown from their perches upon seeing you.
 ~
 0 0 4
 D0
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29202
 D2
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29204
 S
 #29204
-Dalgakıran~
+DalgakÄ±ran~
 You walk along the rock jetty of the isle of Freeport. The waves crash and
 spray a salt mist into the air. Gulls wheel in the sky above you, having
 flown from their perches upon seeing you.
 ~
 0 0 4
 D0
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29203
 D1
-İskele~
+Ä°skele~
 ~
 0 -1 29206
 D2
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29205
 S
 #29205
-İskele Yolu~
+Ä°skele Yolu~
 You are on the stone paved wharf road. To your south is a rock jetty upon
 which the waves crash. Traffic from the warehouse to the west travels to
 the wharf via wharf road.
 ~
 0 0 1
 D0
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29204
 D1
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29207
 S
 #29206
-İskele~
+Ä°skele~
 You are on the wharf of Freeport, where ships dock and load. The docks
 are busy today as any day, for the commerce of the seas knows no holiday.
 To the north of you the harbor of Freeport stretches.
 ~
 0 0 2
 D1
-İskele~
+Ä°skele~
 ~
 0 -1 29208
 D2
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29207
 D3
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29204
 S
 #29207
-İskele Yolu~
+Ä°skele Yolu~
 You are on the stone paved wharf road. To your south is a rock jetty upon
 which the waves crash. Traffic from the warehouse to the west travels to
 the wharf via wharf road.
 ~
 0 0 1
 D0
-İskele~
+Ä°skele~
 ~
 0 -1 29206
 D1
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29209
 D3
-İskele~
+Ä°skele~
 ~
 0 -1 29205
 S
 #29208
-İskele~
+Ä°skele~
 You are on the wharf of Freeport, where ships dock and load. The docks
 are busy today as any day, for the commerce of the seas knows no holiday.
 To the north of you the harbor of Freeport stretches.
 ~
 0 0 2
 D1
-İskele~
+Ä°skele~
 ~
 0 -1 29212
 D2
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29209
 D3
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29206
 S
 #29209
-İskele Yolu~
+Ä°skele Yolu~
 You are on the stone paved wharf road. To your south is a rock jetty upon
 which the waves crash. Traffic from the warehouse to the west travels to
 the wharf via wharf road.
 ~
 0 0 1
 D0
-İskele~
+Ä°skele~
 ~
 0 -1 29208
 D1
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29213
 D2
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29210
 D3
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29207
 S
 #29210
-Dalgakıran~
+DalgakÄ±ran~
 You walk along the rock jetty of the isle of Freeport. The waves crash
 and spray a salt mist into the air. Gulls wheel in the sky above you,
 having flown from their perches upon seeing you.
 ~
 0 0 4
 D0
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29209
 D1
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29214
 S
 #29211
-İskele~
+Ä°skele~
 You are on the wharf of Freeport, where ships dock and load. The docks
 are busy today as any day, for the commerce of the seas knows no holiday.
 To the north of you the harbor of Freeport stretches.
 ~
 0 0 2
 D1
-İskele~
+Ä°skele~
 ~
 0 -1 29217
 D2
-İskele~
+Ä°skele~
 ~
 0 -1 29212
 S
 #29212
-İskele~
+Ä°skele~
 You are on the wharf of Freeport, where ships dock and load. The docks
 are busy today as any day, for the commerce of the seas knows no holiday.
 To the north of you the harbor of Freeport stretches.
 ~
 0 0 2
 D0
-İskele~
+Ä°skele~
 ~
 0 -1 29211
 D1
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29218
 D2
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29213
 D3
-İskele~
+Ä°skele~
 ~
 0 -1 29208
 S
 #29213
-İskele Yolu~
+Ä°skele Yolu~
 You are on the stone paved wharf road. To your south is a rock jetty upon
 which the waves crash. Traffic from the warehouse to the west travels to
 the wharf via wharf road.
 ~
 0 0 1
 D0
-İskele~
+Ä°skele~
 ~
 0 -1 29212
 D1
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29219
 D2
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29214
 D3
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29209
 S
 #29214
-Dalgakıran~
+DalgakÄ±ran~
 You walk along the rock jetty of the isle of Freeport. The waves crash
 and spray a salt mist into the air. Gulls wheel in the sky above you,
 having flown from their perches upon seeing you.
 ~
 0 0 4
 D0
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29213
 D2
-Dul Kadın Burnu~
+Dul KadÄ±n Burnu~
 ~
 0 -1 29215
 D3
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29210
 S
 #29215
-Dul Kadın Burnu~
+Dul KadÄ±n Burnu~
 You have climbed the rocks of widows cape, and can see the violent southern
 shoals which have claimed many a ship. A watchfire is kept burning here at
 night to warn sailors.
 ~
 0 0 5
 D0
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29214
 S
 #29216
-İskele~
+Ä°skele~
 You are on the wharf of Freeport, where ships dock and load. The docks
 are busy today as any day, for the commerce of the seas knows no holiday.
 ~
 0 0 2
 D1
-İskele~
+Ä°skele~
 ~
 0 -1 29221
 D2
-İskele~
+Ä°skele~
 ~
 0 -1 29217
 S
 #29217
-İskele~
+Ä°skele~
 You are on the wharf of Freeport, where ships dock and load. The docks
 are busy today as any day, for the commerce of the seas knows no holiday.
 To the north of you the harbor of Freeport stretches.
 ~
 0 0 2
 D0
-İskele~
+Ä°skele~
 ~
 0 -1 29216
 D1
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29222
 D2
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29218
 D3
-İskele~
+Ä°skele~
 ~
 0 -1 29211
 S
 #29218
-İskele Yolu~
+Ä°skele Yolu~
 You are on the stone paved wharf road. Here you see a ship being hauled up
 to dry dock for repairs. Traffic from the warehouse to the west travels to
 the wharf via wharf road.
 ~
 0 0 1
 D0
-İskele~
+Ä°skele~
 ~
 0 -1 29217
 D1
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29223
 D2
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29219
 D3
-İskele~
+Ä°skele~
 ~
 0 -1 29212
 S
 #29219
-İskele Yolu~
+Ä°skele Yolu~
 You are on the stone paved wharf road. To your south is a rock jetty upon
 which the waves crash. Traffic from the warehouse to the west travels to
 the wharf via wharf road.
 ~
 0 0 1
 D0
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29218
 D1
-Liman Kasabası~
+Liman KasabasÄ±~
 ~
 0 -1 29224
 D3
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29213
 S
 #29220
-İskele~
+Ä°skele~
 You are on the wharf of Freeport, where ships dock and load. The docks
 are busy today as any day, for the commerce of the seas knows no holiday.
 To the north of you the harbor of Freeport stretches.
 ~
 0 0 2
 D1
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29226
 D2
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29221
 S
 #29221
-İskele Yolu~
+Ä°skele Yolu~
 You are on the stone paved wharf road. Traffic from the warehouse to the
 west travels to the wharf via wharf road. To your immediate east is the
 shipyards, where you can hear the sounds of construction.
 ~
 0 0 1
 D0
-İskele~
+Ä°skele~
 ~
 0 -1 29220
 D1
@@ -1137,47 +1137,47 @@ Tersane~
 ~
 0 -1 29227
 D2
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29222
 D3
-İskele~
+Ä°skele~
 ~
 0 -1 29216
 S
 #29222
-İskele Yolu~
+Ä°skele Yolu~
 You are on the stone paved wharf road. Traffic from the warehouse to the
 west travels to the wharf via wharf road. To your immediate east you see
 the road to the city of Freeport.
 ~
 0 0 1
 D0
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29221
 D1
-Liman Şehri Yolunda~
+Liman Åehri Yolunda~
 ~
 0 -1 29228
 D2
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29223
 D3
-İskele~
+Ä°skele~
 ~
 0 -1 29217
 S
 #29223
-İskele Yolu~
+Ä°skele Yolu~
 You are on the stone paved wharf road. Traffic from the warehouse to the west travels to
 the wharf via wharf road. Immediately to the east you see the mercantile
 warehouse, where crates of goods are in temporary storage for shipping.
 ~
 0 0 1
 D0
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29222
 D1
@@ -1185,16 +1185,16 @@ Warehouse~
 ~
 0 -1 29229
 D2
-Liman Kasabası~
+Liman KasabasÄ±~
 ~
 0 -1 29224
 D3
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29218
 S
 #29224
-Liman Kasabası~
+Liman KasabasÄ±~
 You stand in the burrows of Freeport, where all the sailors and merchants
 families live. The houses are made of the local stone and have slate roofs.
 The closer the houses are to the city, the more beautiful and grandiose they
@@ -1204,47 +1204,47 @@ east into the village.
 ~
 0 C 4
 D0
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29223
 D1
-Liman Kasabası~
+Liman KasabasÄ±~
 ~
 0 -1 29243
 D3
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29219
 S
 #29225
-Dalgakıran~
+DalgakÄ±ran~
 You walk along the rock jetty of the isle of Freeport. The waves crash and
 spray a salt mist into the air. Gulls wheel in the sky above you, having
 flown from their perches upon seeing you.
 ~
 0 0 4
 D0
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29237
 D2
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29226
 S
 #29226
-Dalgakıran~
+DalgakÄ±ran~
 You walk along the rock jetty of the isle of Freeport. The waves crash and
 spray a salt mist into the air. Gulls wheel in the sky above you, having
 flown from their perches upon seeing you.
 ~
 0 0 4
 D0
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29225
 D1
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29230
 D2
@@ -1252,7 +1252,7 @@ Tersane~
 ~
 0 -1 29227
 D3
-İskele~
+Ä°skele~
 ~
 0 -1 29220
 S
@@ -1267,24 +1267,24 @@ old apprentice, to the grizzled old shipwrights.
 ~
 0 0 0
 D0
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29226
 D1
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29231
 D2
-Liman Şehri Yolunda~
+Liman Åehri Yolunda~
 ~
 0 -1 29228
 D3
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29221
 S
 #29228
-Liman Şehri Yolunda~
+Liman Åehri Yolunda~
 You are on a stone paved road which rises up the hill to Freeport City.
 The city itself has been built on the highest part of the island. The city
 has walls, made of the local slate and a mortar joint. Roads stretch off
@@ -1297,7 +1297,7 @@ Tersane~
 ~
 0 -1 29227
 D1
-Liman Kasabası~
+Liman KasabasÄ±~
 ~
 0 -1 29232
 D2
@@ -1305,7 +1305,7 @@ Ticari Depo~
 ~
 0 -1 29229
 D3
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29222
 D4
@@ -1324,47 +1324,47 @@ hand to two struggling boys.
 ~
 0 0 0
 D0
-Liman Şehri Yolunda~
+Liman Åehri Yolunda~
 ~
 0 -1 29228
 D3
-İskele Yolu~
+Ä°skele Yolu~
 ~
 0 -1 29223
 S
 #29230
-Dalgakıran~
+DalgakÄ±ran~
 You walk along the rock jetty of the isle of Freeport. The waves crash and
 spray a salt mist into the air. Gulls wheel in the sky above you, having
 flown from their perches upon seeing you.
 ~
 0 0 4
 D2
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29231
 D3
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29226
 S
 #29231
-Dalgakıran~
+DalgakÄ±ran~
 You walk along the rock jetty of the isle of Freeport. The waves crash and
 spray a salt mist into the air. Gulls wheel in the sky above you, having
 flown from their perches upon seeing you.
 ~
 0 0 4
 D0
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29230
 D1
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29233
 D2
-Liman Kasabası~
+Liman KasabasÄ±~
 ~
 0 -1 29232
 D3
@@ -1373,7 +1373,7 @@ Tersane~
 0 -1 29227
 S
 #29232
-Liman Kasabası~
+Liman KasabasÄ±~
 You stand in the burrows of Freeport, where all the sailors and merchants
 families live. The houses are made of the local stone and have slate roofs.
 The closer the houses are to the city, the more beautiful and grandiose they
@@ -1383,68 +1383,68 @@ city of Freeport is to your west.
 ~
 0 C 4
 D0
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29231
 D2
-Liman Kasabası~
+Liman KasabasÄ±~
 ~
 0 -1 29245
 D3
-Liman Şehri Yolunda~
+Liman Åehri Yolunda~
 ~
 0 -1 29228
 S
 #29233
-Dalgakıran~
+DalgakÄ±ran~
 You walk along the rock jetty of the isle of Freeport. The waves crash and
 spray a salt mist into the air. Gulls wheel in the sky above you, having
 flown from their perches upon seeing you.
 ~
 0 0 4
 D1
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29234
 D3
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29231
 S
 #29234
-Dalgakıran~
+DalgakÄ±ran~
 You walk along the rock jetty of the isle of Freeport. The waves crash and
 spray a salt mist into the air. Gulls wheel in the sky above you, having
 flown from their perches upon seeing you.
 ~
 0 0 4
 D2
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29235
 D3
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29233
 S
 #29235
-Dalgakıran~
+DalgakÄ±ran~
 You walk along the rock jetty of the isle of Freeport. The waves crash and
 spray a salt mist into the air. Gulls wheel in the sky above you, having
 flown from their perches upon seeing you.
 ~
 0 0 4
 D0
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29234
 D1
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29236
 S
 #29236
-Şafağın Kenarı~
+ÅafaÄŸÄ±n KenarÄ±~
 You have reached the easternmost point of Freeport isle, a place locals call
 Dawn's edge. There is an ivory statue of a dolphin leaping out of the water
 here. To the east you see the corner of the world.
@@ -1458,96 +1458,96 @@ leaped forth from the water with great joy, and the water which fell
 from her back became the isle of Freeport'
 ~
 D1
-Dünyanın Kenarı~
+DÃ¼nyanÄ±n KenarÄ±~
 ~
 0 -1 14001
 D3
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29235
 S
 #29237
-Dalgakıran~
+DalgakÄ±ran~
 You walk along the rock jetty of the isle of Freeport. The waves crash and
 spray a salt mist into the air. Gulls wheel in the sky above you, having
 flown from their perches upon seeing you.
 ~
 0 0 4
 D2
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29225
 D3
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29238
 S
 #29238
-Dalgakıran~
+DalgakÄ±ran~
 You walk along the rock jetty of the isle of Freeport. The waves crash and
 spray a salt mist into the air. Gulls wheel in the sky above you, having
 flown from their perches upon seeing you.
 ~
 0 0 4
 D0
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29239
 D1
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29237
 S
 #29239
-Dalgakıran~
+DalgakÄ±ran~
 You walk along the rock jetty of the isle of Freeport. The waves crash and
 spray a salt mist into the air. Gulls wheel in the sky above you, having
 flown from their perches upon seeing you.
 ~
 0 0 4
 D2
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29238
 D3
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29240
 S
 #29240
-Dalgakıran~
+DalgakÄ±ran~
 You walk along the rock jetty of the isle of Freeport. The waves crash and
 spray a salt mist into the air. Gulls wheel in the sky above you, having
 flown from their perches upon seeing you.
 ~
 0 0 4
 D1
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29239
 D3
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29241
 S
 #29241
-Dalgakıran~
+DalgakÄ±ran~
 You walk along the rock jetty of the isle of Freeport. The waves crash and
 spray a salt mist into the air. Gulls wheel in the sky above you, having
 flown from their perches upon seeing you.
 ~
 0 0 4
 D0
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29242
 D1
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29240
 S
 #29242
-Kuzey Noktası~
+Kuzey NoktasÄ±~
 You have reached the end of the jetty at a place called Northpoint. Here
 long swells from the northeast crash with great force upon the island. You
 see why the island has been reinforced with a rock jetty- without it, it
@@ -1555,12 +1555,12 @@ would rapidly erode.
 ~
 0 0 5
 D2
-Dalgakıran~
+DalgakÄ±ran~
 ~
 0 -1 29241
 S
 #29243
-Liman Kasabası~
+Liman KasabasÄ±~
 You stand in the burrows of Freeport, where all the sailors and merchants
 families live. The houses are made of the local stone and have slate roofs.
 The closer the houses are to the city, the more beautiful and grandiose they
@@ -1570,16 +1570,16 @@ the mercantile warehouse.
 ~
 0 0 4
 D1
-Liman Kasabası~
+Liman KasabasÄ±~
 ~
 0 -1 29244
 D3
-Liman Kasabası~
+Liman KasabasÄ±~
 ~
 0 -1 29224
 S
 #29244
-Liman Kasabası~
+Liman KasabasÄ±~
 You have reached the heart of Freeport village. Sailors wives wave at
 you and ask you to join them for tea. Children run along the main street
 playing sailors and pirates. There is a small church here at the point
@@ -1587,16 +1587,16 @@ on the shore.
 ~
 0 0 4
 D0
-Liman Kasabası~
+Liman KasabasÄ±~
 ~
 0 -1 29245
 D3
-Liman Kasabası~
+Liman KasabasÄ±~
 ~
 0 -1 29243
 S
 #29245
-Liman Kasabası~
+Liman KasabasÄ±~
 You stand in the burrows of Freeport, where all the sailors and merchants
 families live. The houses are made of the local stone and have slate roofs.
 The closer the houses are to the city, the more beautiful and grandiose they
@@ -1606,16 +1606,16 @@ the mercantile warehouse.
 ~
 0 0 4
 D0
-Liman Kasabası~
+Liman KasabasÄ±~
 ~
 0 -1 29232
 D2
-Liman Kasabası~
+Liman KasabasÄ±~
 ~
 0 -1 29244
 S
 #29246
-Liman Şehri Kapıları~
+Liman Åehri KapÄ±larÄ±~
 You stand at the famed bronze gates of Freeport, built on the thriving
 commerce of the city. From here you have a commanding view of the island
 and the harbor. You stop and rest, watching the Liola Lew hoist anchor
@@ -1626,7 +1626,7 @@ gates.
 0 C 1
 D2
 Commerce lane~
-tunç kapı~
+tunÃ§ kapÄ±~
 1 -1 29247
 D5
 The road to the island~
@@ -1643,11 +1643,11 @@ south.
 ~
 0 0 1
 D0
-Liman Şehri Kapıları~
+Liman Åehri KapÄ±larÄ±~
 ~
 0 -1 29246
 D1
-Batık Korsan~
+BatÄ±k Korsan~
 ~
 0 -1 29248
 D2
@@ -1660,7 +1660,7 @@ Emporyum~
 0 -1 29249
 S
 #29248
-Batık Korsan~
+BatÄ±k Korsan~
 Here, amid the reek of spilled beer, bad cigars, and other unmentionable
 smells lies an endearing little bar done up in a nautical theme. The jolly
 roger flies over the main bar, where the local beer and wine is served
@@ -1702,20 +1702,20 @@ Ticaret Caddesi~
 ~
 0 -1 29247
 D1
-Tunç Kın~
+TunÃ§ KÄ±n~
 ~
 0 -1 29251
 D2
-The Şehir Meydanı~
+The Åehir MeydanÄ±~
 ~
 0 -1 29253
 D3
-Mistik Göz~
+Mistik GÃ¶z~
 ~
 0 -1 29252
 S
 #29251
-Tunç Kın~
+TunÃ§ KÄ±n~
 The Bronze Scabbard is actually a front store for the blacksmith the
 metalworkers of Freeport. The bulk of the commissions come from the
 Captains guild and the shipyards, where most of the arms of Freeport
@@ -1729,7 +1729,7 @@ Ticaret Caddesi~
 0 -1 29250
 S
 #29252
-Mistik Göz~
+Mistik GÃ¶z~
 Your head swims in the exotic fumes emitted by the candles of this shop.
 Several lamps on display change from color to color, in addition to the
 everlasting variety. Scrolls and books are stored in a glass cabinet behind
@@ -1742,7 +1742,7 @@ Ticaret Caddesi~
 0 -1 29250
 S
 #29253
-Liman Şehri Meydanı~
+Liman Åehri MeydanÄ±~
 You are in the broad town square of Freeport, which measures 100 yds by 100
 yds. Small outdoor cafes have set up shop in the square, catering to
 their people watching customers. To the south is the town hall, where
@@ -1761,7 +1761,7 @@ Bahriye Caddesi~
 ~
 0 -1 29254
 D2
-Yönetim Binası~
+YÃ¶netim BinasÄ±~
 ~
 0 -1 29256
 D3
@@ -1782,11 +1782,11 @@ Bahriye Caddesi~
 ~
 0 -1 29276
 D2
-Tayfa Bölgesi~
+Tayfa BÃ¶lgesi~
 ~
 0 -1 29257
 D3
-Şehir Meydanı~
+Åehir MeydanÄ±~
 ~
 0 -1 29253
 S
@@ -1798,7 +1798,7 @@ Freeport.
 ~
 0 0 1
 D1
-Şehir Meydanı~
+Åehir MeydanÄ±~
 ~
 0 -1 29253
 D2
@@ -1811,7 +1811,7 @@ Nakliye Yolu~
 0 -1 29259
 S
 #29256
-Yönetim Binası~
+YÃ¶netim BinasÄ±~
 You stand inside the town hall of the city of Freeport. Town hall
 is arranged for meetings. To your left are the 9 captains chairs, where
 the representatives of the Captains guild sit. To your right are the
@@ -1830,7 +1830,7 @@ floor many many times. You try to move it, but the statue is held in place
 by a locking mechanism.
 ~
 D0
-Şehir Meydanı~
+Åehir MeydanÄ±~
 ~
 0 -1 29253
 D5
@@ -1839,7 +1839,7 @@ heykel~
 1 29201 29264
 S
 #29257
-Tayfa Bölgesi~
+Tayfa BÃ¶lgesi~
 You are inside a homely inn. Here in the giant common room, a fire roars
 in the stone fireplace, and patrons sip wine next to it. Rooms are available
 for let, starting at 50 G a night. The tables are made of a thickly varnished
@@ -1854,7 +1854,7 @@ Bahriye Caddesi~
 0 -1 29254
 S
 #29258
-Liman Bankası~
+Liman BankasÄ±~
 You stand inside the stout walls of the bank of Freeport. There is a
 continual stream of customers entering and depositing vast sums of money in
 the well guarded vault. The bank is faring well, as you can judge by
@@ -1882,7 +1882,7 @@ Nakliye Yolu~
 ~
 0 -1 29255
 D2
-Ticaret Loncası~
+Ticaret LoncasÄ±~
 ~
 0 -1 29261
 S
@@ -1901,7 +1901,7 @@ Nakliye Yolu~
 0 -1 29259
 S
 #29261
-Ticaret Loncası~
+Ticaret LoncasÄ±~
 You have entered the grand arch of the merchants guild of Freeport. It is
 here that the master traders conduct their business of contracting with
 captains for the transport of cargo to remote destinations. Each member of
@@ -1936,7 +1936,7 @@ Bahriye Caddesi~
 0 -1 29276
 S
 #29263
-Yüzbaşı Loncası~
+YÃ¼zbaÅŸÄ± LoncasÄ±~
 Here in the halls of the Captains guild, the worlds shipping begins and
 ends. The guild was founded over 300 years ago to represent the collective
 interests of the ship owners. To be a member, one must demonstrate the
@@ -1961,7 +1961,7 @@ a sign on the wall.
 ~
 0 AD 4
 E
-işaret duvar~
+iÅŸaret duvar~
 {45 53} Lok  Hall of the 6th Pirate Lord
 ~
 D2
@@ -1969,7 +1969,7 @@ Gizli Merdiven~
 ~
 0 -1 29265
 D4
-Through the secret kapı~
+Through the secret kapÄ±~
 heykel~
 1 29201 29256
 S
@@ -1990,7 +1990,7 @@ Gizli Merdiven~
 0 -1 29267
 S
 #29267
-Gizli Mağara~
+Gizli MaÄŸara~
 You have discovered a hidden underground cavern. In the center of the
 room is a deep pool in which several triremes have been moored.
 Laughing sailors are unloading cargo from one of the ships. You quickly
@@ -2002,41 +2002,41 @@ Gizli Merdiven~
 ~
 0 -1 29265
 D1
-Gizli Mağara~
+Gizli MaÄŸara~
 ~
 0 -1 29269
 D2
-Gizli Mağara~
+Gizli MaÄŸara~
 ~
 0 -1 29268
 S
 #29268
-Gizli Mağara~
+Gizli MaÄŸara~
 You walk along the shore of an underground water cave in which several
 triremes have been moored, one of which is being unloaded. You sneak
 unnoticed behind several CRATES which have been recently off-loaded.
 ~
 0 D 0
 E
-sandıklar~
+sandÄ±klar~
 These crates are marked with a destination of Solace. That's funny. What
 are they doing here?
 ~
 D0
-Gizli Mağara~
+Gizli MaÄŸara~
 ~
 0 -1 29267
 D1
-Saklı Liman~
+SaklÄ± Liman~
 ~
 0 -1 29275
 D2
-Gizli Mağara~
+Gizli MaÄŸara~
 ~
 0 -1 29273
 S
 #29269
-Gizli Mağara~
+Gizli MaÄŸara~
 You walk along the shore of an underground water cave in which several
 triremes have been moored, one of which is being unloaded. You sneak
 unnoticed behind several CRATES which have been recently off-loaded. To
@@ -2044,29 +2044,29 @@ the north of you is a guarded door.
 ~
 0 D 0
 E
-sandıklar~
+sandÄ±klar~
 These crates are marked with a destination of Antharia. That's funny. What
 are they doing here?
 ~
 D0
-Through the guarded kapı~
-kapı~
+Through the guarded kapÄ±~
+kapÄ±~
 1 -1 29270
 D1
-Gizli Mağara~
+Gizli MaÄŸara~
 ~
 0 -1 29271
 D2
-Saklı Liman~
+SaklÄ± Liman~
 ~
 0 -1 29275
 D3
-Gizli Mağara~
+Gizli MaÄŸara~
 ~
 0 -1 29267
 S
 #29270
-Korsan Lordunun Mağarası~
+Korsan Lordunun MaÄŸarasÄ±~
 You have boldly entered the secret cave of the 6th pirate lord. About
 you the evidence of his terrible crimes abounds. Here is a pilfered
 shipping schedule, duplicated on scrolls addressed to the other pirate
@@ -2078,58 +2078,58 @@ it?
 ~
 0 D 0
 D2
-Through the kapı~
-kapı~
+Through the kapÄ±~
+kapÄ±~
 1 -1 29269
 S
 #29271
-Gizli Mağara~
+Gizli MaÄŸara~
 You walk along the shore of an underground water cave in which several
 triremes have been moored, one of which is being unloaded. You sneak
 unnoticed behind several CRATES which have been recently off-loaded.
 ~
 0 D 0
 E
-sandıklar~
+sandÄ±klar~
 These crates are marked with a destination of the Shire. That's funny. What
 are they doing here?
 ~
 D2
-Gizli Mağara~
+Gizli MaÄŸara~
 ~
 0 -1 29272
 D3
-Gizli Mağara~
+Gizli MaÄŸara~
 ~
 0 -1 29269
 S
 #29272
-Gizli Mağara~
+Gizli MaÄŸara~
 You walk along the shore of an underground water cave in which several
 triremes have been moored, one of which is being unloaded. You sneak
 unnoticed behind several CRATES which have been recently off-loaded.
 ~
 0 D 0
 E
-sandıklar~
+sandÄ±klar~
 These crates are marked with a destination of Camelot. That's funny. What
 are they doing here?
 ~
 D0
-Gizli Mağara~
+Gizli MaÄŸara~
 ~
 0 -1 29271
 D2
-Gizli Mağara~
+Gizli MaÄŸara~
 ~
 0 -1 29274
 D3
-Saklı Liman~
+SaklÄ± Liman~
 ~
 0 -1 29275
 S
 #29273
-Gizli Mağara~
+Gizli MaÄŸara~
 You walk along the shore of an underground water cave in which several
 triremes have been moored, one of which is being unloaded. You sneak
 unnoticed behind several CRATES which have been recently off-loaded. To
@@ -2138,34 +2138,34 @@ U's in a long curve.
 ~
 0 D 0
 E
-sandıklar~
+sandÄ±klar~
 These crates are marked with a destination of Dunkeldorf. That's funny. What
 are they doing here?
 ~
 D0
-Gizli Mağara~
+Gizli MaÄŸara~
 ~
 0 -1 29268
 S
 #29274
-Gizli Mağara~
+Gizli MaÄŸara~
 You walk along the shore of an underground water cave in which several
 triremes have been moored, one of which is being unloaded. You sneak
 unnoticed behind several CRATES which have been recently off-loaded.
 ~
 0 D 0
 E
-sandıklar~
+sandÄ±klar~
 These crates are marked with a destination of Malancandra. That's funny. What
 are they doing here?
 ~
 D0
-Gizli Mağara~
+Gizli MaÄŸara~
 ~
 0 -1 29272
 S
 #29275
-Saklı Liman~
+SaklÄ± Liman~
 You bob in the waters of the hidden harbor among several docked triremes.
 You can dock in any cardinal direction except south, where the harbor
 turns into a dark tunnel which bends around to the west. There is a small
@@ -2173,7 +2173,7 @@ buoy floating here.
 ~
 0 0 7
 E
-şamandıra~
+ÅŸamandÄ±ra~
 {45 53} Lok   The hall of the 6th Pirate Lord
 ~
 D0
@@ -2203,7 +2203,7 @@ Bahriye Akademisi~
 ~
 0 -1 29262
 D2
-Yüzbaşı Loncası~
+YÃ¼zbaÅŸÄ± LoncasÄ±~
 ~
 0 -1 29263
 D3

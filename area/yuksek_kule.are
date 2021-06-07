@@ -1,9 +1,9 @@
 #AREADATA
 Filename yuksek_kule.are~
-Name Yüksek Büyücülük Kulesi~
+Name YÃ¼ksek BÃ¼yÃ¼cÃ¼lÃ¼k Kulesi~
 Builder Skylar~
 Translator ~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 10
 Highlevel 30
 Minvnum 1300
@@ -16,30 +16,30 @@ END
 
 #NEW_MOBILES
 #1300
-gölge muhafız~
-bir gölge muhafız~
-Gölge muhafızı çığlık atarak saldırıyor.
+gÃ¶lge muhafÄ±z~
+bir gÃ¶lge muhafÄ±z~
+GÃ¶lge muhafÄ±zÄ± Ã§Ä±ÄŸlÄ±k atarak saldÄ±rÄ±yor.
 ~
-Gölge muhafızı karanlık dışında hiçbir şeyden yapılmış gibi görünmüyor.
+GÃ¶lge muhafÄ±zÄ± karanlÄ±k dÄ±ÅŸÄ±nda hiÃ§bir ÅŸeyden yapÄ±lmÄ±ÅŸ gibi gÃ¶rÃ¼nmÃ¼yor.
 ~
 human~
 ACFG BDJP 7
 #1301
-maceracı~
-kaybolmuş bir maceracı~
-Sıska bir maceracı burada, kayıp ve umutsuz görünüyor.
+maceracÄ±~
+kaybolmuÅŸ bir maceracÄ±~
+SÄ±ska bir maceracÄ± burada, kayÄ±p ve umutsuz gÃ¶rÃ¼nÃ¼yor.
 ~
-Bitkin ve hasta görünüyor; şüphesiz ki uzun süredir burada kayıp.
+Bitkin ve hasta gÃ¶rÃ¼nÃ¼yor; ÅŸÃ¼phesiz ki uzun sÃ¼redir burada kayÄ±p.
 ~
 human~
 ABCHQ 0 8
 #1302
 edgar~
 edgar~
-Edgar, Kılıç Öğrencisi burada
+Edgar, KÄ±lÄ±Ã§ Ã–ÄŸrencisi burada
 ~
-Edgar; "Affedersiniz, acaba nereden fincan satın alabilirim?" 'Önünde,
-Selenge'in en iyi dövüş ustası, güçlü tavşan katilinin kendisi Korkunç Edgar
+Edgar; "Affedersiniz, acaba nereden fincan satÄ±n alabilirim?" 'Ã–nÃ¼nde,
+Selenge'in en iyi dÃ¶vÃ¼ÅŸ ustasÄ±, gÃ¼Ã§lÃ¼ tavÅŸan katilinin kendisi KorkunÃ§ Edgar
 duruyor! ! '
 ~
 human~
@@ -47,52 +47,52 @@ ACEH 0 1
 #1303
 elmas golem~
 golem~
-Devasa bir elmas golem burada nöbet tutuyor.
+Devasa bir elmas golem burada nÃ¶bet tutuyor.
 ~
-Gayet güçlü görünüyor
+Gayet gÃ¼Ã§lÃ¼ gÃ¶rÃ¼nÃ¼yor
 ~
 golem~
 ABG D 23
 #1304
-genç büyücü~
-bir büyücü~
-Etrafındaki hiçbirşeyi umursamayan genç bir büyücü burada geziniyor.
+genÃ§ bÃ¼yÃ¼cÃ¼~
+bir bÃ¼yÃ¼cÃ¼~
+EtrafÄ±ndaki hiÃ§birÅŸeyi umursamayan genÃ§ bir bÃ¼yÃ¼cÃ¼ burada geziniyor.
 ~
-Hayat, aşk ve evrenin gizemleri üzerine düşünüyor gibi. Aynı zamanda başı
-ağrıyor gibi.
+Hayat, aÅŸk ve evrenin gizemleri Ã¼zerine dÃ¼ÅŸÃ¼nÃ¼yor gibi. AynÄ± zamanda baÅŸÄ±
+aÄŸrÄ±yor gibi.
 ~
 human~
 AGHR D 10
 #1305
 strick barmen~
 barmen strick~
-Strick burada, müşterilere içkilerini havadan gönderiyor.
+Strick burada, mÃ¼ÅŸterilere iÃ§kilerini havadan gÃ¶nderiyor.
 ~
-Çok zararsız görünüyor, uyuyan bir ejderin zararsız göründüğü gibi.
+Ã‡ok zararsÄ±z gÃ¶rÃ¼nÃ¼yor, uyuyan bir ejderin zararsÄ±z gÃ¶rÃ¼ndÃ¼ÄŸÃ¼ gibi.
 ~
 human~
 ABG D 25
 #1306
-tatorious büyücü~
+tatorious bÃ¼yÃ¼cÃ¼~
 tatorious~
-Büyücü Tatorious burada kazandıklarını sayıyor.
+BÃ¼yÃ¼cÃ¼ Tatorious burada kazandÄ±klarÄ±nÄ± sayÄ±yor.
 ~
-Tatorious gereksiz bir şekilde sana göz kırpıyor.
+Tatorious gereksiz bir ÅŸekilde sana gÃ¶z kÄ±rpÄ±yor.
 ~
 human~
 ABGR D 25
 #1307
-ezmerelda aşçı~
+ezmerelda aÅŸÃ§Ä±~
 ezmerelda~
-Aşçı Ezmeralda burada, içinde birşeyler olan bir kap karıştırıyor.
+AÅŸÃ§Ä± Ezmeralda burada, iÃ§inde birÅŸeyler olan bir kap karÄ±ÅŸtÄ±rÄ±yor.
 ~
 ~
 human~
 ABGR D 20
 #1308
-asistan büyücü~
-aşçı'nın asistanı~
-Aşçı'nın asistanı burada aşçıya yardım ediyor.
+asistan bÃ¼yÃ¼cÃ¼~
+aÅŸÃ§Ä±'nÄ±n asistanÄ±~
+AÅŸÃ§Ä±'nÄ±n asistanÄ± burada aÅŸÃ§Ä±ya yardÄ±m ediyor.
 ~
 ~
 human~
@@ -100,295 +100,295 @@ ABGHR D 11
 #1309
 mahkum~
 mahkum~
-Bir mahkum burada duvara zincirlenmiş
+Bir mahkum burada duvara zincirlenmiÅŸ
 ~
-Şimdi parçalanmış olan, üzerindeki paçavralar, bir zamanlar güzel
-kıyafetlermiş gibi görünüyor. Zavallı sefilin ağzına bir ağızlık takılmış,
-belki bağırmasını engellemek için, belki de büyü yapmasını engellemek için.
-Delirmiş görünüyor, şüphesiz ki burada ona iyi bakılmamış.
+Åimdi parÃ§alanmÄ±ÅŸ olan, Ã¼zerindeki paÃ§avralar, bir zamanlar gÃ¼zel
+kÄ±yafetlermiÅŸ gibi gÃ¶rÃ¼nÃ¼yor. ZavallÄ± sefilin aÄŸzÄ±na bir aÄŸÄ±zlÄ±k takÄ±lmÄ±ÅŸ,
+belki baÄŸÄ±rmasÄ±nÄ± engellemek iÃ§in, belki de bÃ¼yÃ¼ yapmasÄ±nÄ± engellemek iÃ§in.
+DelirmiÅŸ gÃ¶rÃ¼nÃ¼yor, ÅŸÃ¼phesiz ki burada ona iyi bakÄ±lmamÄ±ÅŸ.
 ~
 human~
 ABCFGHR 0 16
 #1310
-muhafız büyücü~
-muhafız~
-Muhafız burada, rahat bir şekerleme yapıyor.
+muhafÄ±z bÃ¼yÃ¼cÃ¼~
+muhafÄ±z~
+MuhafÄ±z burada, rahat bir ÅŸekerleme yapÄ±yor.
 ~
-Çok kirli görünüyor.
+Ã‡ok kirli gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 ABGR D 17
 #1311
-süpürge~
-bir süpürge~
-Bir çalı süpürgesi burada, bir duvara yaslanmış
+sÃ¼pÃ¼rge~
+bir sÃ¼pÃ¼rge~
+Bir Ã§alÄ± sÃ¼pÃ¼rgesi burada, bir duvara yaslanmÄ±ÅŸ
 ~
-Süpürge "Al bunu, hödük!" Diye çığlık atıyor.
+SÃ¼pÃ¼rge "Al bunu, hÃ¶dÃ¼k!" Diye Ã§Ä±ÄŸlÄ±k atÄ±yor.
 ~
 human~
 ABCFGS DF 7
 #1312
-zayıf muhafız eller~
-bedeninden ayrılmış bir çift el~
-Bedeninden ayrılmış bir çift el burada, havada süzülüyor.
+zayÄ±f muhafÄ±z eller~
+bedeninden ayrÄ±lmÄ±ÅŸ bir Ã§ift el~
+Bedeninden ayrÄ±lmÄ±ÅŸ bir Ã§ift el burada, havada sÃ¼zÃ¼lÃ¼yor.
 ~
-Eller birini boğazlamayı beklercesine seğiriyor.
+Eller birini boÄŸazlamayÄ± beklercesine seÄŸiriyor.
 ~
 human~
 AFG 0 9
 #1313
-muhafız dev gözler~
-bedeninden ayrılmış bir çift göz~
-Bedeninden ayrılmış bir çift göz burada, havada süzülürken sana bakıyor.
+muhafÄ±z dev gÃ¶zler~
+bedeninden ayrÄ±lmÄ±ÅŸ bir Ã§ift gÃ¶z~
+Bedeninden ayrÄ±lmÄ±ÅŸ bir Ã§ift gÃ¶z burada, havada sÃ¼zÃ¼lÃ¼rken sana bakÄ±yor.
 ~
-Gözler öfke ile yanıyor
+GÃ¶zler Ã¶fke ile yanÄ±yor
 ~
 human~
 AFG D 15
 #1314
-büyücü ziyaretçi~
-büyücü~
-Ziyaretçi büyücü burada, derin bir uykuda ve horluyor.
+bÃ¼yÃ¼cÃ¼ ziyaretÃ§i~
+bÃ¼yÃ¼cÃ¼~
+ZiyaretÃ§i bÃ¼yÃ¼cÃ¼ burada, derin bir uykuda ve horluyor.
 ~
-Oldukça uykulu görünüyor
+OldukÃ§a uykulu gÃ¶rÃ¼nÃ¼yor
 ~
 human~
 ABCGHR D 12
 #1315
-çırak genç~
-genç, çırak büyü kullanıcısı~
-Genç, çırak büyü kullanıcısı burada, büyülü derslerini çalışıyor
+Ã§Ä±rak genÃ§~
+genÃ§, Ã§Ä±rak bÃ¼yÃ¼ kullanÄ±cÄ±sÄ±~
+GenÃ§, Ã§Ä±rak bÃ¼yÃ¼ kullanÄ±cÄ±sÄ± burada, bÃ¼yÃ¼lÃ¼ derslerini Ã§alÄ±ÅŸÄ±yor
 ~
-Kendini çalışmasına oldukça kaptırmış görünüyor.
+Kendini Ã§alÄ±ÅŸmasÄ±na oldukÃ§a kaptÄ±rmÄ±ÅŸ gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 ABGHR 0 7
 #1316
-çırak genç~
-genç bir çırak~
-Genç bir çırak burada, kendi kendine büyülü sözler mırıldanıyor.
+Ã§Ä±rak genÃ§~
+genÃ§ bir Ã§Ä±rak~
+GenÃ§ bir Ã§Ä±rak burada, kendi kendine bÃ¼yÃ¼lÃ¼ sÃ¶zler mÄ±rÄ±ldanÄ±yor.
 ~
-Ezberlemeye çalıştığı büyüler yüzünden etrafa oldukça umursamaz görünüyor.
+Ezberlemeye Ã§alÄ±ÅŸtÄ±ÄŸÄ± bÃ¼yÃ¼ler yÃ¼zÃ¼nden etrafa oldukÃ§a umursamaz gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 ABGHR 0 7
 #1317
-çırak genç~
-genç bir çırak~
-Genç bir çırak burada uyuyor
+Ã§Ä±rak genÃ§~
+genÃ§ bir Ã§Ä±rak~
+GenÃ§ bir Ã§Ä±rak burada uyuyor
 ~
-Rüya görüyor gibi.
+RÃ¼ya gÃ¶rÃ¼yor gibi.
 ~
 human~
 ABGHR 0 7
 #1318
-çırak genç~
-genç bir çırak~
-Genç bir çırak burada köşeye sıkışmış bir kediyi korkutuyor.
+Ã§Ä±rak genÃ§~
+genÃ§ bir Ã§Ä±rak~
+GenÃ§ bir Ã§Ä±rak burada kÃ¶ÅŸeye sÄ±kÄ±ÅŸmÄ±ÅŸ bir kediyi korkutuyor.
 ~
-Yaramaz bir genç gibi görünüyor.
+Yaramaz bir genÃ§ gibi gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 ABGHR 0 7
 #1319
 kedi yavru~
-küçük bir kedi yavrusu~
-Küçük bir kedi yavrusu burada, dehşet içinde miyavlıyor
+kÃ¼Ã§Ã¼k bir kedi yavrusu~
+KÃ¼Ã§Ã¼k bir kedi yavrusu burada, dehÅŸet iÃ§inde miyavlÄ±yor
 ~
-Küçük tüy topu çok mutsuz görünüyor. Yanık tüyleri ve derisi, üzerinde
-izler bırakmış.
+KÃ¼Ã§Ã¼k tÃ¼y topu Ã§ok mutsuz gÃ¶rÃ¼nÃ¼yor. YanÄ±k tÃ¼yleri ve derisi, Ã¼zerinde
+izler bÄ±rakmÄ±ÅŸ.
 ~
 human~
 ABGH 0 1
 #1320
-öğrenci~
-bir öğrenci~
-Oldukça sıkılmış görünen bir büyü öğrencisi burada
+Ã¶ÄŸrenci~
+bir Ã¶ÄŸrenci~
+OldukÃ§a sÄ±kÄ±lmÄ±ÅŸ gÃ¶rÃ¼nen bir bÃ¼yÃ¼ Ã¶ÄŸrencisi burada
 ~
-Öğrenci esniyor.
+Ã–ÄŸrenci esniyor.
 ~
 human~
 ABGHR 0 8
 #1321
-öğretmen büyücü~
-bir büyü öğretmeni~
-Büyü öğretmeni senin rahatsız edişinle beraber sana saldırıyor.
+Ã¶ÄŸretmen bÃ¼yÃ¼cÃ¼~
+bir bÃ¼yÃ¼ Ã¶ÄŸretmeni~
+BÃ¼yÃ¼ Ã¶ÄŸretmeni senin rahatsÄ±z ediÅŸinle beraber sana saldÄ±rÄ±yor.
 ~
-Onu rahatsız ettiğin için çok kızgın görünüyor.
+Onu rahatsÄ±z ettiÄŸin iÃ§in Ã§ok kÄ±zgÄ±n gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 ABFGR D 14
 #1322
-öğrenci~
-bir büyü öğrencisi~
-Bir büyü öğrencisi burada ileri seviye görünmezlik pratik ediyor.
+Ã¶ÄŸrenci~
+bir bÃ¼yÃ¼ Ã¶ÄŸrencisi~
+Bir bÃ¼yÃ¼ Ã¶ÄŸrencisi burada ileri seviye gÃ¶rÃ¼nmezlik pratik ediyor.
 ~
-Öğrenci büyüyü pratik ederken var olup yok oluyor.
+Ã–ÄŸrenci bÃ¼yÃ¼yÃ¼ pratik ederken var olup yok oluyor.
 ~
 human~
 ABGHR BD 8
 #1323
-öğretmen büyücü~
-bir büyü öğretmeni~
-Büyü öğretmeni senin rahatsız edişinle beraber sana saldırıyor.
+Ã¶ÄŸretmen bÃ¼yÃ¼cÃ¼~
+bir bÃ¼yÃ¼ Ã¶ÄŸretmeni~
+BÃ¼yÃ¼ Ã¶ÄŸretmeni senin rahatsÄ±z ediÅŸinle beraber sana saldÄ±rÄ±yor.
 ~
 ~
 human~
 ABFGR BD 15
 #1324
-öğrenci~
-bir büyü öğrencisi~
-Sırasında uyuyakalmış bir büyü öğrencisi burada.
+Ã¶ÄŸrenci~
+bir bÃ¼yÃ¼ Ã¶ÄŸrencisi~
+SÄ±rasÄ±nda uyuyakalmÄ±ÅŸ bir bÃ¼yÃ¼ Ã¶ÄŸrencisi burada.
 ~
-Öğrenci şiddetli sıkıntıdan yıkılmış görünüyor.
+Ã–ÄŸrenci ÅŸiddetli sÄ±kÄ±ntÄ±dan yÄ±kÄ±lmÄ±ÅŸ gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 ABGHR D 9
 #1325
-büyücü konuşmacı~
-bir büyücü~
-Yaşlı bir büyücü burada konuşma yapıyor.
+bÃ¼yÃ¼cÃ¼ konuÅŸmacÄ±~
+bir bÃ¼yÃ¼cÃ¼~
+YaÅŸlÄ± bir bÃ¼yÃ¼cÃ¼ burada konuÅŸma yapÄ±yor.
 ~
 ~
 human~
 ABGHR D 18
 #1326
-genç büyücü~
-genç bir büyücü~
-Genç bir büyücü burada çıplak elle dövüş öğreniyor
+genÃ§ bÃ¼yÃ¼cÃ¼~
+genÃ§ bir bÃ¼yÃ¼cÃ¼~
+GenÃ§ bir bÃ¼yÃ¼cÃ¼ burada Ã§Ä±plak elle dÃ¶vÃ¼ÅŸ Ã¶ÄŸreniyor
 ~
 ~
 human~
 ABGHR D 9
 #1327
-dövüş usta~
-dövüş ustası~
-Bir dövüş ustası burada, bir kamanın nasıl iyi kullanılacağını anlatıyor.
+dÃ¶vÃ¼ÅŸ usta~
+dÃ¶vÃ¼ÅŸ ustasÄ±~
+Bir dÃ¶vÃ¼ÅŸ ustasÄ± burada, bir kamanÄ±n nasÄ±l iyi kullanÄ±lacaÄŸÄ±nÄ± anlatÄ±yor.
 ~
-Oldukça kuvvetli görünüyor. Aslında bir büyü kullanıcısından çok bir
-savaşçıya benziyor.
+OldukÃ§a kuvvetli gÃ¶rÃ¼nÃ¼yor. AslÄ±nda bir bÃ¼yÃ¼ kullanÄ±cÄ±sÄ±ndan Ã§ok bir
+savaÅŸÃ§Ä±ya benziyor.
 ~
 human~
 ABFGR D 17
 #1328
-büyücü öğretmen~
-bir büyü öğretmeni~
-Bir büyü öğretmeni burada dinleniyor
+bÃ¼yÃ¼cÃ¼ Ã¶ÄŸretmen~
+bir bÃ¼yÃ¼ Ã¶ÄŸretmeni~
+Bir bÃ¼yÃ¼ Ã¶ÄŸretmeni burada dinleniyor
 ~
 ~
 human~
 ABGR D 15
 #1329
-büyücü~
-yaşlı bir büyücü~
-Yaşlı bir büyücü burada uyuyor
+bÃ¼yÃ¼cÃ¼~
+yaÅŸlÄ± bir bÃ¼yÃ¼cÃ¼~
+YaÅŸlÄ± bir bÃ¼yÃ¼cÃ¼ burada uyuyor
 ~
 ~
 human~
 ABFGHR D 20
 #1330
-yazman büyücü~
+yazman bÃ¼yÃ¼cÃ¼~
 bir yazman~
-Bir el yazması üzerinde çalışan bir yazman burada.
+Bir el yazmasÄ± Ã¼zerinde Ã§alÄ±ÅŸan bir yazman burada.
 ~
 ~
 human~
 ABCGHR D 14
 #1331
-yazman büyücü~
+yazman bÃ¼yÃ¼cÃ¼~
 bir yazman~
-Bir çeviri üzerinde özenle çalışan bir yazman burada
+Bir Ã§eviri Ã¼zerinde Ã¶zenle Ã§alÄ±ÅŸan bir yazman burada
 ~
-Oldukça şirin bir kız. Fakat ne yazık ki tek ilgi alanı üzerinde
-çalıştığı kelimeler.
+OldukÃ§a ÅŸirin bir kÄ±z. Fakat ne yazÄ±k ki tek ilgi alanÄ± Ã¼zerinde
+Ã§alÄ±ÅŸtÄ±ÄŸÄ± kelimeler.
 ~
 human~
 ABGHR D 15
 #1332
-baş yazman~
-baş yazman~
-Biraz sinirli görünen baş yazman burada
+baÅŸ yazman~
+baÅŸ yazman~
+Biraz sinirli gÃ¶rÃ¼nen baÅŸ yazman burada
 ~
-Oldukça yaşlı görünüyor, derisi bir kırışıktan başka birşey değil. Baş
-yazman; "Ne cüretle öneml işlerimi bölersin ? ? ?" Diye çığlık atıyor.
+OldukÃ§a yaÅŸlÄ± gÃ¶rÃ¼nÃ¼yor, derisi bir kÄ±rÄ±ÅŸÄ±ktan baÅŸka birÅŸey deÄŸil. BaÅŸ
+yazman; "Ne cÃ¼retle Ã¶neml iÅŸlerimi bÃ¶lersin ? ? ?" Diye Ã§Ä±ÄŸlÄ±k atÄ±yor.
 ~
 human~
 ABFGHR D 22
 #1333
 asistan yazman~
-yazman'ın asistanı~
-Yazmanın asistanı burada, parşömenleri katlıyor
+yazman'Ä±n asistanÄ±~
+YazmanÄ±n asistanÄ± burada, parÅŸÃ¶menleri katlÄ±yor
 ~
 ~
 human~
 ABFGHR D 16
 #1334
-usta efsuncu büyücü~
+usta efsuncu bÃ¼yÃ¼cÃ¼~
 efsuncu~
-Efsuncu burada, iyi yapılmış bir kılıcın üzerine büyü yapıyor.
+Efsuncu burada, iyi yapÄ±lmÄ±ÅŸ bir kÄ±lÄ±cÄ±n Ã¼zerine bÃ¼yÃ¼ yapÄ±yor.
 ~
 ~
 human~
 ABGKRe D 43
 #1335
-kılıç danseden~
-danseden bir kılıç~
-İşçiliği gayet iyi olan bir kılıç burada masanın üzerinde yatıyor
+kÄ±lÄ±Ã§ danseden~
+danseden bir kÄ±lÄ±Ã§~
+Ä°ÅŸÃ§iliÄŸi gayet iyi olan bir kÄ±lÄ±Ã§ burada masanÄ±n Ã¼zerinde yatÄ±yor
 ~
-Oldukça keskin görünüyor.
+OldukÃ§a keskin gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 ABFG 0 10
 #1336
-simyacı~
-deli simyacı~
-Deli Simyacı anlaşılmaz sözler söylüyor ve saldırıyor
+simyacÄ±~
+deli simyacÄ±~
+Deli SimyacÄ± anlaÅŸÄ±lmaz sÃ¶zler sÃ¶ylÃ¼yor ve saldÄ±rÄ±yor
 ~
-Göründüğü kadarıyla çok fazla iksir yudumluyor. Gözleri fıldır fıldır
-dönüyor ve salyaları akmaya başlıyor. Deli Simyacı kafasını arkaya atıp deli
-gibi kıkırdıyor.
+GÃ¶rÃ¼ndÃ¼ÄŸÃ¼ kadarÄ±yla Ã§ok fazla iksir yudumluyor. GÃ¶zleri fÄ±ldÄ±r fÄ±ldÄ±r
+dÃ¶nÃ¼yor ve salyalarÄ± akmaya baÅŸlÄ±yor. Deli SimyacÄ± kafasÄ±nÄ± arkaya atÄ±p deli
+gibi kÄ±kÄ±rdÄ±yor.
 ~
 human~
 ABCFGHR D 24
 #1337
-usta çağrı~
-çağrı ustası~
-Çağrı ustası burada, diğer diyarlara açılan geçitleri açık tutuyor
+usta Ã§aÄŸrÄ±~
+Ã§aÄŸrÄ± ustasÄ±~
+Ã‡aÄŸrÄ± ustasÄ± burada, diÄŸer diyarlara aÃ§Ä±lan geÃ§itleri aÃ§Ä±k tutuyor
 ~
 ~
 human~
 ABFGHR D 22
 #1338
 usta teshir~
-teshir ustası~
-Usta teshirci şu sözleri mırıldanıyor, 'uuuzzldctz'.
+teshir ustasÄ±~
+Usta teshirci ÅŸu sÃ¶zleri mÄ±rÄ±ldanÄ±yor, 'uuuzzldctz'.
 ~
-Teshir ustası sana doğru ilerliyor, her zaman yeni bir evcil hayvan arıyor.
+Teshir ustasÄ± sana doÄŸru ilerliyor, her zaman yeni bir evcil hayvan arÄ±yor.
 ~
 human~
 ABFR D 23
 #1339
 golem tahta~
 tahta golem~
-Tahta golem buradaki merdivenlerde sessizce nöbet tutuyor
+Tahta golem buradaki merdivenlerde sessizce nÃ¶bet tutuyor
 ~
-Yanıcı görünüyor.
+YanÄ±cÄ± gÃ¶rÃ¼nÃ¼yor.
 ~
 golem~
 ABFG D 16
 #1340
-usta bağlayıcı~
-usta büyü bağlayıcısı~
-Usta büyü bağlayıcısı burada, kararmış bir değneği yeniliyor.
+usta baÄŸlayÄ±cÄ±~
+usta bÃ¼yÃ¼ baÄŸlayÄ±cÄ±sÄ±~
+Usta bÃ¼yÃ¼ baÄŸlayÄ±cÄ±sÄ± burada, kararmÄ±ÅŸ bir deÄŸneÄŸi yeniliyor.
 ~
-Usta büyü bağlayıcısı sana hırlıyor ve saldırıyor.
+Usta bÃ¼yÃ¼ baÄŸlayÄ±cÄ±sÄ± sana hÄ±rlÄ±yor ve saldÄ±rÄ±yor.
 ~
 human~
 ABCFGHR D 23
 #1341
-usta yapıcı~
-golem ustası~
-Golem ustası burada, bir taşı yontuyor.
+usta yapÄ±cÄ±~
+golem ustasÄ±~
+Golem ustasÄ± burada, bir taÅŸÄ± yontuyor.
 ~
 ~
 human~
@@ -396,233 +396,233 @@ ABFGR D 21
 #1342
 golem granit~
 granit golem~
-Granitten yapılmıiş bir golem burada, efendisnin emirlerini bekliyor
+Granitten yapÄ±lmÄ±iÅŸ bir golem burada, efendisnin emirlerini bekliyor
 ~
-Bir heykel gibi görünüyor, sana doğru ayaklarını sürte sürte yürüyene kadar
+Bir heykel gibi gÃ¶rÃ¼nÃ¼yor, sana doÄŸru ayaklarÄ±nÄ± sÃ¼rte sÃ¼rte yÃ¼rÃ¼yene kadar
 ~
 golem~
 ABFG 0 20
 #1343
-golem tunç~
-tunç golem~
-Işığın altında parlayan tunç bir golem burada
+golem tunÃ§~
+tunÃ§ golem~
+IÅŸÄ±ÄŸÄ±n altÄ±nda parlayan tunÃ§ bir golem burada
 ~
-Gayet kıt anlayışlı görünüyor
+Gayet kÄ±t anlayÄ±ÅŸlÄ± gÃ¶rÃ¼nÃ¼yor
 ~
 golem~
 ABG 0 18
 #1344
 golem et~
 et golem~
-Etten bir golem burada nöbet tutuyor
+Etten bir golem burada nÃ¶bet tutuyor
 ~
-Farklı vücut parçalarından birleştirilmiş gibi görünüyor; bazı parçalar
-insana ait değil gibi
+FarklÄ± vÃ¼cut parÃ§alarÄ±ndan birleÅŸtirilmiÅŸ gibi gÃ¶rÃ¼nÃ¼yor; bazÄ± parÃ§alar
+insana ait deÄŸil gibi
 ~
 golem~
 ABFG 0 12
 #1345
-golem kumaş~
-kumaş golem~
-Kumaştan yapılmış bir golem ortalıkta geziniyor.
+golem kumaÅŸ~
+kumaÅŸ golem~
+KumaÅŸtan yapÄ±lmÄ±ÅŸ bir golem ortalÄ±kta geziniyor.
 ~
-Bir paçavra yığını gibi görünse de şaşırtıcı bir şekilde, yürüyebiliyor.
+Bir paÃ§avra yÄ±ÄŸÄ±nÄ± gibi gÃ¶rÃ¼nse de ÅŸaÅŸÄ±rtÄ±cÄ± bir ÅŸekilde, yÃ¼rÃ¼yebiliyor.
 ~
 golem~
 ABCG 0 8
 #1346
 golem adamantit~
 adamantit golem~
-Çok tehlikeli görünen adamantit bir golem burada.
+Ã‡ok tehlikeli gÃ¶rÃ¼nen adamantit bir golem burada.
 ~
-Kara bir metalden dövülmüş görünüyor. Güçlü ve dayanıklı gibi, fakat
-kesinlikle zeki değil
+Kara bir metalden dÃ¶vÃ¼lmÃ¼ÅŸ gÃ¶rÃ¼nÃ¼yor. GÃ¼Ã§lÃ¼ ve dayanÄ±klÄ± gibi, fakat
+kesinlikle zeki deÄŸil
 ~
 golem~
 ABCG 0 25
 #1347
 golem kil~
 kil golem~
-Kilden yapılmış bir golem burada nöbet tutuyor
+Kilden yapÄ±lmÄ±ÅŸ bir golem burada nÃ¶bet tutuyor
 ~
 ~
 golem~
 ABCFG D 15
 #1348
-usta gözbağcı büyücü~
-gözbağı ustası~
-Rengarenk üç başlı bir ejderha sana doğru hırlıyor.
+usta gÃ¶zbaÄŸcÄ± bÃ¼yÃ¼cÃ¼~
+gÃ¶zbaÄŸÄ± ustasÄ±~
+Rengarenk Ã¼Ã§ baÅŸlÄ± bir ejderha sana doÄŸru hÄ±rlÄ±yor.
 ~
-Çirkin ejderhanın görüntüsü titreyip değişiyor ve zararsız görünen küçük,
-yaşlı bir adama dönüşüyor
+Ã‡irkin ejderhanÄ±n gÃ¶rÃ¼ntÃ¼sÃ¼ titreyip deÄŸiÅŸiyor ve zararsÄ±z gÃ¶rÃ¼nen kÃ¼Ã§Ã¼k,
+yaÅŸlÄ± bir adama dÃ¶nÃ¼ÅŸÃ¼yor
 ~
 human~
 ABCGKRe CDEFG 101
 #1349
 karakam usta~
 karakam~
-Karakam burada, ölmemiş hizmetkarlarını çağırıyor.
+Karakam burada, Ã¶lmemiÅŸ hizmetkarlarÄ±nÄ± Ã§aÄŸÄ±rÄ±yor.
 ~
-Simsiyah giyinmiş karakam olduçka uzun ve ince fakat yine de heybetli bir
-görüntüsü var. Kara bir başlık yüzünün çoğunu gölgeliyor fakat göz şeklinde
-hizmet eden iki parlak alev gölgenin arasından görülebiliyor. Karakam
-ciyaklayarak küfürler ediyor ve hizmetkarlarına saldırı emri veriyor.
+Simsiyah giyinmiÅŸ karakam olduÃ§ka uzun ve ince fakat yine de heybetli bir
+gÃ¶rÃ¼ntÃ¼sÃ¼ var. Kara bir baÅŸlÄ±k yÃ¼zÃ¼nÃ¼n Ã§oÄŸunu gÃ¶lgeliyor fakat gÃ¶z ÅŸeklinde
+hizmet eden iki parlak alev gÃ¶lgenin arasÄ±ndan gÃ¶rÃ¼lebiliyor. Karakam
+ciyaklayarak kÃ¼fÃ¼rler ediyor ve hizmetkarlarÄ±na saldÄ±rÄ± emri veriyor.
 ~
 human~
 ABCFGHR D 25
 #1350
-iskelet ölmemiş~
-canlandırılmış bir iskelet~
-Canlandırılmış iskelet sessiz bir çığlık atarak saldırıyor
+iskelet Ã¶lmemiÅŸ~
+canlandÄ±rÄ±lmÄ±ÅŸ bir iskelet~
+CanlandÄ±rÄ±lmÄ±ÅŸ iskelet sessiz bir Ã§Ä±ÄŸlÄ±k atarak saldÄ±rÄ±yor
 ~
-Acı hissetmiyor ve sana doğru acımasızca hamle yapıyor.
+AcÄ± hissetmiyor ve sana doÄŸru acÄ±masÄ±zca hamle yapÄ±yor.
 ~
 human~
 ABFG D 15
 #1351
-ölmemiş dev~
-ölmemiş bir dev~
-Ölmemiş bir dev üzerine doğru hantal hantal yürüyor
+Ã¶lmemiÅŸ dev~
+Ã¶lmemiÅŸ bir dev~
+Ã–lmemiÅŸ bir dev Ã¼zerine doÄŸru hantal hantal yÃ¼rÃ¼yor
 ~
 ~
 human~
 ABCFG D 18
 #1352
-cadı çirkin~
-çirkin bir cadı~
-Çirkin bir cadı burada, gizemleri görüyor.
+cadÄ± Ã§irkin~
+Ã§irkin bir cadÄ±~
+Ã‡irkin bir cadÄ± burada, gizemleri gÃ¶rÃ¼yor.
 ~
-Gayet rahatsız edici bir şekilde yüzü yok, sadece boş deri. Ağzının
-olması gereken yerden senin tüyleri diken diken eden bir kıkırdama sesi
+Gayet rahatsÄ±z edici bir ÅŸekilde yÃ¼zÃ¼ yok, sadece boÅŸ deri. AÄŸzÄ±nÄ±n
+olmasÄ± gereken yerden senin tÃ¼yleri diken diken eden bir kÄ±kÄ±rdama sesi
 geliyor.
 ~
 human~
 ABCFGR D 20
 #1353
-kütüphaneci büyücü~
-kütüphaneci~
-Masasında uyuyakalmış bir kütüphaneci burada.
+kÃ¼tÃ¼phaneci bÃ¼yÃ¼cÃ¼~
+kÃ¼tÃ¼phaneci~
+MasasÄ±nda uyuyakalmÄ±ÅŸ bir kÃ¼tÃ¼phaneci burada.
 ~
-Gayet huzurlu yaşlı bir adam.
+Gayet huzurlu yaÅŸlÄ± bir adam.
 ~
 human~
 ABFGHR D 23
 #1354
-çırak~
-usta'nın çırağı~
-Usta'nın çırağı önünü kesmek için atılıyor.
+Ã§Ä±rak~
+usta'nÄ±n Ã§Ä±raÄŸÄ±~
+Usta'nÄ±n Ã§Ä±raÄŸÄ± Ã¶nÃ¼nÃ¼ kesmek iÃ§in atÄ±lÄ±yor.
 ~
-Gücünün doruğundaki kudretli bir büyücü, denge üstadının çırağı, büyü
-loncası hiyerarşisindeki mevkisini sırf, bir kişinin asla kendi başına açığa
-çıkaramayacağı paramparça olmuş sırları umut ederek, büyük üstada hizmet
-edebilmek için bırakmış.
+GÃ¼cÃ¼nÃ¼n doruÄŸundaki kudretli bir bÃ¼yÃ¼cÃ¼, denge Ã¼stadÄ±nÄ±n Ã§Ä±raÄŸÄ±, bÃ¼yÃ¼
+loncasÄ± hiyerarÅŸisindeki mevkisini sÄ±rf, bir kiÅŸinin asla kendi baÅŸÄ±na aÃ§Ä±ÄŸa
+Ã§Ä±karamayacaÄŸÄ± paramparÃ§a olmuÅŸ sÄ±rlarÄ± umut ederek, bÃ¼yÃ¼k Ã¼stada hizmet
+edebilmek iÃ§in bÄ±rakmÄ±ÅŸ.
 ~
 human~
 ABCFGR D 24
 #1355
 kedi gri hizmetkar~
 gri bir kedi~
-Gri bir kedi ortalıkta tembel tembel geziyor.
+Gri bir kedi ortalÄ±kta tembel tembel geziyor.
 ~
-Gri kedi senin ona baktığını görünce tek kulağını kaldırıyor, ve hoşnut
-bir şekilde mırıldıyor. Gayet zararsız görünüyor, büyük pençelerini
+Gri kedi senin ona baktÄ±ÄŸÄ±nÄ± gÃ¶rÃ¼nce tek kulaÄŸÄ±nÄ± kaldÄ±rÄ±yor, ve hoÅŸnut
+bir ÅŸekilde mÄ±rÄ±ldÄ±yor. Gayet zararsÄ±z gÃ¶rÃ¼nÃ¼yor, bÃ¼yÃ¼k penÃ§elerini
 farkedene kadar.
 ~
 cat~
 ABGR BP 15
 #1356
 efendi lonca gri~
-yansızlığın efendisi~
-Yansızlığın efendisi burada, evrendeki dengeyi düşünüyor.
+yansÄ±zlÄ±ÄŸÄ±n efendisi~
+YansÄ±zlÄ±ÄŸÄ±n efendisi burada, evrendeki dengeyi dÃ¼ÅŸÃ¼nÃ¼yor.
 ~
-Oldukça huzurlu görünüyor.
+OldukÃ§a huzurlu gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 ABGR DH 30
 #1357
-çırak siyah~
-siyah cüppeli bir çırak~
-Siyah cüppeli çırak gölgelerin içinden atlayıp saldırıyor
+Ã§Ä±rak siyah~
+siyah cÃ¼ppeli bir Ã§Ä±rak~
+Siyah cÃ¼ppeli Ã§Ä±rak gÃ¶lgelerin iÃ§inden atlayÄ±p saldÄ±rÄ±yor
 ~
-Yüzünün yan tarafında habis bir yara var, fakat bir zamanlar güzel
-biriymiş. Yüzündeki yara artık kalıcı bir yüz ifadesine dönüşmüş ve bu onu
-oldukça korku verici kılıyor.
+YÃ¼zÃ¼nÃ¼n yan tarafÄ±nda habis bir yara var, fakat bir zamanlar gÃ¼zel
+biriymiÅŸ. YÃ¼zÃ¼ndeki yara artÄ±k kalÄ±cÄ± bir yÃ¼z ifadesine dÃ¶nÃ¼ÅŸmÃ¼ÅŸ ve bu onu
+oldukÃ§a korku verici kÄ±lÄ±yor.
 ~
 human~
 ABCFGR DP 20
 #1358
 kedi siyah hizmetkar~
 kara kedi~
-Tüyleri diken diken bir kedi sana doğru tıslıyor
+TÃ¼yleri diken diken bir kedi sana doÄŸru tÄ±slÄ±yor
 ~
-Hem huysuz hem de tehlikeli görünüyor. Evcilleştirme bu durumda
-kesinlikle soru dışında kalıyor.
+Hem huysuz hem de tehlikeli gÃ¶rÃ¼nÃ¼yor. EvcilleÅŸtirme bu durumda
+kesinlikle soru dÄ±ÅŸÄ±nda kalÄ±yor.
 ~
 cat~
 ABGR DP 16
 #1359
 efendi siyah lonca~
-siyah cüppelerin efendisi~
-Siyah cüppelerin efendisi burada, kem işler planlıyor.
+siyah cÃ¼ppelerin efendisi~
+Siyah cÃ¼ppelerin efendisi burada, kem iÅŸler planlÄ±yor.
 ~
-Efendi sana dik dik bakıyor.
+Efendi sana dik dik bakÄ±yor.
 ~
 human~
 ABCGR DH 30
 #1360
-çırak beyaz~
-beyaz cüppeli bir çırak~
-Beyaz cüppeli çırak senin iyiliğe hürmetsizliğine bir çığlıkla karşılık
+Ã§Ä±rak beyaz~
+beyaz cÃ¼ppeli bir Ã§Ä±rak~
+Beyaz cÃ¼ppeli Ã§Ä±rak senin iyiliÄŸe hÃ¼rmetsizliÄŸine bir Ã§Ä±ÄŸlÄ±kla karÅŸÄ±lÄ±k
 veriyor.
 ~
-Çok tutucu görünüyor. Çırak haykırıyor; "Sen bu onura layık değilsin!"
+Ã‡ok tutucu gÃ¶rÃ¼nÃ¼yor. Ã‡Ä±rak haykÄ±rÄ±yor; "Sen bu onura layÄ±k deÄŸilsin!"
 ~
 human~
 ABFGR D 20
 #1361
 kedi beyaz hizmetkar~
 beyaz bir kedi~
-Beyaz bir kedi burada, tüylerini temizliyor.
+Beyaz bir kedi burada, tÃ¼ylerini temizliyor.
 ~
-Pençeleri olan bir kürk topundan başka birşeye benzemiyor.
+PenÃ§eleri olan bir kÃ¼rk topundan baÅŸka birÅŸeye benzemiyor.
 ~
 cat~
 ABGR DP 15
 #1362
 efendi lonca beyaz~
-aktuların efendisi~
-Aktuların efendisi burada, davetsiz misafirliğinden kaşlarını çatıyor.
+aktularÄ±n efendisi~
+AktularÄ±n efendisi burada, davetsiz misafirliÄŸinden kaÅŸlarÄ±nÄ± Ã§atÄ±yor.
 ~
-Kendini birşey sanan bir piç gibi görünüyor.
+Kendini birÅŸey sanan bir piÃ§ gibi gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 ABGR DH 30
 #1363
 kedi renkli hizmetkar~
 renkli bir kedi~
-Büyük, renkli bir kedi burada
+BÃ¼yÃ¼k, renkli bir kedi burada
 ~
-Bir kediye göre inanılmaz büyük, kendi türüne göre bir dev. Tek süsü
-üzerinde çok güzel bir mücevher bulunan bir tasma.
+Bir kediye gÃ¶re inanÄ±lmaz bÃ¼yÃ¼k, kendi tÃ¼rÃ¼ne gÃ¶re bir dev. Tek sÃ¼sÃ¼
+Ã¼zerinde Ã§ok gÃ¼zel bir mÃ¼cevher bulunan bir tasma.
 ~
 cat~
 ABGR DP 25
 #1364
-yüce hanımefendi~
-yüce hanımefendi~
-Büyü'nün yüce hanımefendisi burada oturuyor.
+yÃ¼ce hanÄ±mefendi~
+yÃ¼ce hanÄ±mefendi~
+BÃ¼yÃ¼'nÃ¼n yÃ¼ce hanÄ±mefendisi burada oturuyor.
 ~
-Zümrüt tahtının üzerinde oldukça rahat görünüyor. Buradaki mevkisine göre
-oldukça genç ve güzel görünüyor, şüphesiz ki kullandığı güçlü büyülerle bunu
-korumuş. Yüce Hanımefendi hizmetkarını okşuyor ve sana güven verici bir
-şekilde gülümsüyor.
+ZÃ¼mrÃ¼t tahtÄ±nÄ±n Ã¼zerinde oldukÃ§a rahat gÃ¶rÃ¼nÃ¼yor. Buradaki mevkisine gÃ¶re
+oldukÃ§a genÃ§ ve gÃ¼zel gÃ¶rÃ¼nÃ¼yor, ÅŸÃ¼phesiz ki kullandÄ±ÄŸÄ± gÃ¼Ã§lÃ¼ bÃ¼yÃ¼lerle bunu
+korumuÅŸ. YÃ¼ce HanÄ±mefendi hizmetkarÄ±nÄ± okÅŸuyor ve sana gÃ¼ven verici bir
+ÅŸekilde gÃ¼lÃ¼msÃ¼yor.
 ~
 human~
 ABGKRe DH 50
 #1365
-büyücü~
-bir büyücü~
-Gezgin bir büyücü kendi kendine mırıldanıyor.
+bÃ¼yÃ¼cÃ¼~
+bir bÃ¼yÃ¼cÃ¼~
+Gezgin bir bÃ¼yÃ¼cÃ¼ kendi kendine mÄ±rÄ±ldanÄ±yor.
 ~
 ~
 human~
@@ -631,65 +631,65 @@ ACGR DP 17
 
 #OBJECTS
 #1301
-taşfırın siyah~
-bir taşfırın~
-Büyük bir taşfırın burada.~
+taÅŸfÄ±rÄ±n siyah~
+bir taÅŸfÄ±rÄ±n~
+BÃ¼yÃ¼k bir taÅŸfÄ±rÄ±n burada.~
 iron~
 container A 0
 1000 AC 0 1000 100
 0 0 0 P
 #1302
 dolap~
-bir et dolabı~
-Devasa bir et dolabı burada~
+bir et dolabÄ±~
+Devasa bir et dolabÄ± burada~
 iron~
 container 0 0
 1000 AC 0 1000 100
 0 0 0 P
 E
 dolap~
-Bir anda bunun içinde kadavraların olabileceğini düşündün
+Bir anda bunun iÃ§inde kadavralarÄ±n olabileceÄŸini dÃ¼ÅŸÃ¼ndÃ¼n
 ~
 #1304
 yemek dilim~
 bir dilim hamurlu ve etli yemek~
-Üzerinde etler olan ve çok lezzetli görünen bir hamur dilimi burada~
+Ãœzerinde etler olan ve Ã§ok lezzetli gÃ¶rÃ¼nen bir hamur dilimi burada~
 food~
 food 0 A
 15 15 0 0 0
 0 10 10 P
 #1305
-yığın et~
-dev bir et yığını~
-Dev bir et yığını burada~
+yÄ±ÄŸÄ±n et~
+dev bir et yÄ±ÄŸÄ±nÄ±~
+Dev bir et yÄ±ÄŸÄ±nÄ± burada~
 meat~
 food 0 A
 24 24 0 1 0
 0 20 24 P
 #1306
-sandviç~
-bir parmak sandviç~
-Bir parmak sandviç burada~
+sandviÃ§~
+bir parmak sandviÃ§~
+Bir parmak sandviÃ§ burada~
 food~
 food 0 A
 20 20 0 0 0
 0 20 18 P
 E
-sandviç parmak~
-Eğer biri tırnaklarını sökmüş olsa çok lezzetli olabilecek bir parmak
-sandviç
+sandviÃ§ parmak~
+EÄŸer biri tÄ±rnaklarÄ±nÄ± sÃ¶kmÃ¼ÅŸ olsa Ã§ok lezzetli olabilecek bir parmak
+sandviÃ§
 ~
 #1307
-süpürge çalı~
-bir çalı süpürgesi~
-Duvara yaslanmış bir çalı süpürgesi burada~
+sÃ¼pÃ¼rge Ã§alÄ±~
+bir Ã§alÄ± sÃ¼pÃ¼rgesi~
+Duvara yaslanmÄ±ÅŸ bir Ã§alÄ± sÃ¼pÃ¼rgesi burada~
 wood~
 trash 0 AO
 0 0 0 0 0
 0 50 0 P
 E
-süpürge çalı~
-Bir uçan süpürge? Hayır... Burada değil.
+sÃ¼pÃ¼rge Ã§alÄ±~
+Bir uÃ§an sÃ¼pÃ¼rge? HayÄ±r... Burada deÄŸil.
 ~
 #1308
 makine kahve~
@@ -708,41 +708,41 @@ container 0 0
 5000 AC 0 5000 100
 0 0 0 P
 #1310
-çubuk gümüş~
-gümüş bir çubuk~
-Gümüş bir çubuk burada bırakılmış~
+Ã§ubuk gÃ¼mÃ¼ÅŸ~
+gÃ¼mÃ¼ÅŸ bir Ã§ubuk~
+GÃ¼mÃ¼ÅŸ bir Ã§ubuk burada bÄ±rakÄ±lmÄ±ÅŸ~
 silver~
 treasure 0 A
 0 0 0 0 0
 0 60 100 P
 #1311
-çubuk altın~
-altın bir çubuk~
-Altından bir çubuk burada bırakılmış~
+Ã§ubuk altÄ±n~
+altÄ±n bir Ã§ubuk~
+AltÄ±ndan bir Ã§ubuk burada bÄ±rakÄ±lmÄ±ÅŸ~
 gold~
 treasure 0 A
 0 0 0 0 0
 0 60 5000 P
 #1312
-çubuk mithril~
-mithril bir çubuk~
-Mithril bir çubuk burada bırakılmış~
+Ã§ubuk mithril~
+mithril bir Ã§ubuk~
+Mithril bir Ã§ubuk burada bÄ±rakÄ±lmÄ±ÅŸ~
 mithril~
 treasure 0 A
 0 0 0 0 0
 0 120 5000 P
 #1313
-çubuk adamantit~
-adamantit bir çubuk~
-Adamantit bir çubuk burada bırakılmış~
+Ã§ubuk adamantit~
+adamantit bir Ã§ubuk~
+Adamantit bir Ã§ubuk burada bÄ±rakÄ±lmÄ±ÅŸ~
 adamantite~
 treasure 0 A
 0 0 0 0 0
 0 150 5000 P
 #1314
-çekiç mithril~
-mithril bir çekiç~
-Mithril bir çekiç burada bırakılmış~
+Ã§ekiÃ§ mithril~
+mithril bir Ã§ekiÃ§~
+Mithril bir Ã§ekiÃ§ burada bÄ±rakÄ±lmÄ±ÅŸ~
 mithril~
 weapon G AN
 mace 3 6 pound 0
@@ -752,25 +752,25 @@ A
 A
 18 2
 #1315
-sandık~
-bir sandık~
-Bir sandık burada~
+sandÄ±k~
+bir sandÄ±k~
+Bir sandÄ±k burada~
 wood~
 container A 0
 5000 ABCD 1316 100 100
 0 0 0 P
 #1316
 anahtar~
-küçük bir anahtar~
-Küçük bir anahtar burada bırakılmış~
+kÃ¼Ã§Ã¼k bir anahtar~
+KÃ¼Ã§Ã¼k bir anahtar burada bÄ±rakÄ±lmÄ±ÅŸ~
 iron~
 key 0 A
 1315 0 0 0 0
 0 10 0 P
 #1317
-uzun kılıç~
-uzun bir kılıç~
-Uzun bir kılıç burada bırakılmış~
+uzun kÄ±lÄ±Ã§~
+uzun bir kÄ±lÄ±Ã§~
+Uzun bir kÄ±lÄ±Ã§ burada bÄ±rakÄ±lmÄ±ÅŸ~
 steel~
 weapon 0 AN
 sword 1 8 slash 0
@@ -780,9 +780,9 @@ A
 A
 18 1
 #1318
-kama gümüş~
-gümüş bir kama~
-Gümüşten yapılmış iyi işlemeli bir kama burada~
+kama gÃ¼mÃ¼ÅŸ~
+gÃ¼mÃ¼ÅŸ bir kama~
+GÃ¼mÃ¼ÅŸten yapÄ±lmÄ±ÅŸ iyi iÅŸlemeli bir kama burada~
 silver~
 weapon 0 AN
 dagger 4 3 pierce 0
@@ -793,8 +793,8 @@ A
 18 2
 #1319
 pala~
-eğimli bir pala~
-Mücevher kaplı kını olan bir pala burada~
+eÄŸimli bir pala~
+MÃ¼cevher kaplÄ± kÄ±nÄ± olan bir pala burada~
 iron~
 weapon 0 AN
 sword 3 7 slash 0
@@ -804,23 +804,23 @@ A
 #1320
 asa tahta~
 tahta bir asa~
-Tahta bir aa bir duvara yaslanmış duruyor.~
+Tahta bir aa bir duvara yaslanmÄ±ÅŸ duruyor.~
 wood~
 weapon 0 AN
 staff 1 4 crush 0
 0 60 42 P
 #1321
-vitrin gümüş~
-gümüş kenarlı bir vitrin~
-Gümüş kenarlı büyük bir vitrin burada~
+vitrin gÃ¼mÃ¼ÅŸ~
+gÃ¼mÃ¼ÅŸ kenarlÄ± bir vitrin~
+GÃ¼mÃ¼ÅŸ kenarlÄ± bÃ¼yÃ¼k bir vitrin burada~
 silver~
 container 0 0
 5000 ABCD 1325 100 100
 0 0 0 P
 #1322
-vitrin gümüş~
-gümüş kenarlı bir vitrin~
-Gümüş kenarlı büyük bir vitrin burada~
+vitrin gÃ¼mÃ¼ÅŸ~
+gÃ¼mÃ¼ÅŸ kenarlÄ± bir vitrin~
+GÃ¼mÃ¼ÅŸ kenarlÄ± bÃ¼yÃ¼k bir vitrin burada~
 silver~
 container 0 0
 5000 ABCD 1325 100 100
@@ -834,57 +834,57 @@ key 0 A
 0 0 0 0 0
 0 10 0 P
 #1324
-gümüşi anahtar~
-gümüşi bir anahtar~
-Gümüşi bir anahtar burada bırakılmış.~
+gÃ¼mÃ¼ÅŸi anahtar~
+gÃ¼mÃ¼ÅŸi bir anahtar~
+GÃ¼mÃ¼ÅŸi bir anahtar burada bÄ±rakÄ±lmÄ±ÅŸ.~
 silver~
 key 0 A
 1321 0 0 0 0
 0 10 0 P
 #1325
-gümüşi anahtar~
-gümüşi bir anahtart~
-Gümüşi bir anahtar burada bırakılmış.~
+gÃ¼mÃ¼ÅŸi anahtar~
+gÃ¼mÃ¼ÅŸi bir anahtart~
+GÃ¼mÃ¼ÅŸi bir anahtar burada bÄ±rakÄ±lmÄ±ÅŸ.~
 silver~
 key 0 A
 1322 0 0 0 0
 0 10 0 P
 #1326
-asa kırmızı beyaz~
-kırmızı ve beyaz bir asa~
-Kırmızı ve beyaz renkli bir asa duvara yaslanmış.~
+asa kÄ±rmÄ±zÄ± beyaz~
+kÄ±rmÄ±zÄ± ve beyaz bir asa~
+KÄ±rmÄ±zÄ± ve beyaz renkli bir asa duvara yaslanmÄ±ÅŸ.~
 ivory~
 staff 0 AO
 20 3 3 'heal' 0
 15 80 5600 P
 #1327
-asa yanık~
-yanık bir asa~
-Yanık bir asa burada duvara yaslanmış~
+asa yanÄ±k~
+yanÄ±k bir asa~
+YanÄ±k bir asa burada duvara yaslanmÄ±ÅŸ~
 oak~
 staff 0 AO
 20 4 4 'blindness' 0
 6 60 1720 P
 #1328
-değnek siyah~
-siyah bir değnek~
-Siyah bir değnek burada.~
+deÄŸnek siyah~
+siyah bir deÄŸnek~
+Siyah bir deÄŸnek burada.~
 onyx~
 wand 0 AO
 20 3 3 'dispel evil' 0
 11 40 2200 P
 #1329
-değnek tahta~
-tahta bir değnek~
-Tahta bir değnek burada~
+deÄŸnek tahta~
+tahta bir deÄŸnek~
+Tahta bir deÄŸnek burada~
 ebony~
 wand 0 AO
 20 10 10 'bless' 0
 7 40 1640 P
 #1330
-değnek metal~
-metal bir değnek~
-Metal bir değnek burada~
+deÄŸnek metal~
+metal bir deÄŸnek~
+Metal bir deÄŸnek burada~
 steel~
 wand 0 AO
 20 20 4 'energy drain' 0
@@ -892,39 +892,39 @@ wand 0 AO
 #1331
 kazan siyah~
 siyah bir kazan~
-Köpüren siyah bir kazan burada.~
+KÃ¶pÃ¼ren siyah bir kazan burada.~
 iron~
 container 0 0
 1000 0 0 1000 100
 0 0 0 P
 #1332
 kanat~
-küçük bir çift yarasa kanadı~
-Küçük bir çift yarasa kanadı burada~
+kÃ¼Ã§Ã¼k bir Ã§ift yarasa kanadÄ±~
+KÃ¼Ã§Ã¼k bir Ã§ift yarasa kanadÄ± burada~
 flesh~
 trash 0 A
 0 0 0 0 0
 0 20 0 P
 #1333
-göz küre~
-bir göz küresi~
-Bir göz küresi burada bırakılmış~
+gÃ¶z kÃ¼re~
+bir gÃ¶z kÃ¼resi~
+Bir gÃ¶z kÃ¼resi burada bÄ±rakÄ±lmÄ±ÅŸ~
 flesh~
 trash 0 AO
 0 0 0 0 0
 0 10 0 P
 #1334
 kitap cilt~
-büyü'nün kitabı~
-Devasa bir kitap açık bir şekilde burada~
+bÃ¼yÃ¼'nÃ¼n kitabÄ±~
+Devasa bir kitap aÃ§Ä±k bir ÅŸekilde burada~
 paper~
 container A 0
 500 0 0 500 100
 0 0 0 P
 #1335
-gözlük~
-bir gözlük~
-Tel çerçeveli bir gözlük burada~
+gÃ¶zlÃ¼k~
+bir gÃ¶zlÃ¼k~
+Tel Ã§erÃ§eveli bir gÃ¶zlÃ¼k burada~
 glass~
 clothing G AE
 0 0 0 0 0
@@ -935,7 +935,7 @@ A
 3 1
 #1336
 sunak~
-altın bir sunak~
+altÄ±n bir sunak~
 ~
 gold~
 container 0 0
@@ -943,8 +943,8 @@ container 0 0
 0 0 0 P
 #1337
 madalyon kalp~
-kalp şeklinde bir madalyon~
-Kalp şeklinde bir madalyon burada~
+kalp ÅŸeklinde bir madalyon~
+Kalp ÅŸeklinde bir madalyon burada~
 amethyst~
 jewelry GI AC
 0 0 0 0 0
@@ -954,17 +954,17 @@ A
 A
 4 2
 #1338
-sandık~
-büyük bir sandık~
-Büyük bir sandık burada~
+sandÄ±k~
+bÃ¼yÃ¼k bir sandÄ±k~
+BÃ¼yÃ¼k bir sandÄ±k burada~
 brass~
 container AG 0
 2000 ABCD 1339 200 100
 0 0 0 P
 #1339
-anahtar girintili çıkıntılı~
-girintili çıkıntılı bir anahtar burada~
-Girintili çıkıntılı bir anahtar burada bırakılmış~
+anahtar girintili Ã§Ä±kÄ±ntÄ±lÄ±~
+girintili Ã§Ä±kÄ±ntÄ±lÄ± bir anahtar burada~
+Girintili Ã§Ä±kÄ±ntÄ±lÄ± bir anahtar burada bÄ±rakÄ±lmÄ±ÅŸ~
 aluminum~
 key AG AO
 1338 0 0 0 0
@@ -972,9 +972,9 @@ key AG AO
 A
 20 -1
 #1340
-bir sikke küme~
-bir sikke kümesi~
-Bir sikke kümesi burada~
+bir sikke kÃ¼me~
+bir sikke kÃ¼mesi~
+Bir sikke kÃ¼mesi burada~
 silver~
 money 0 A
 237 11 0 0 0
@@ -982,7 +982,7 @@ money 0 A
 #1341
 pelerin kahverengi~
 kahverengi bir pelerin~
-Seyahatten aşınmış kahverengi bir pelerin dikkatsizce burada bırakılmış~
+Seyahatten aÅŸÄ±nmÄ±ÅŸ kahverengi bir pelerin dikkatsizce burada bÄ±rakÄ±lmÄ±ÅŸ~
 wool~
 clothing 0 AC
 0 0 0 0 0
@@ -992,8 +992,8 @@ A
 A
 17 -5
 #1342
-rengarenk panço~
-rengarenk bir panço~
+rengarenk panÃ§o~
+rengarenk bir panÃ§o~
 Rengarenk bir giysi burada~
 wool~
 clothing G AK
@@ -1004,9 +1004,9 @@ A
 A
 2 2
 #1343
-eski ayakkabı~
-eski bir çift ayakkabu burada~
-Eski bir çift rahat görünen ayakkabı burada~
+eski ayakkabÄ±~
+eski bir Ã§ift ayakkabu burada~
+Eski bir Ã§ift rahat gÃ¶rÃ¼nen ayakkabÄ± burada~
 leather~
 clothing G AG
 0 0 0 0 0
@@ -1014,41 +1014,41 @@ clothing G AG
 A
 14 15
 #1344
-deniz kabuğu yüzük~
-bir denizkabuğu yüzük~
-Küçük bir denizkabuğu burada bırakılmış~
+deniz kabuÄŸu yÃ¼zÃ¼k~
+bir denizkabuÄŸu yÃ¼zÃ¼k~
+KÃ¼Ã§Ã¼k bir denizkabuÄŸu burada bÄ±rakÄ±lmÄ±ÅŸ~
 bone~
 boat G AB
 0 0 0 0 0
 0 20 1000 P
 #1345
-çanta deri~
-deri bir çanta~
-Deri bir çanta burada~
+Ã§anta deri~
+deri bir Ã§anta~
+Deri bir Ã§anta burada~
 leather~
 container GY AKO
 300 0 0 50 50
 0 90 1000 P
 #1351
-bitkisel içki~
-bitkisel bir içki~
-Bitkisel bir içki burada~
+bitkisel iÃ§ki~
+bitkisel bir iÃ§ki~
+Bitkisel bir iÃ§ki burada~
 silver~
 drink 0 A
 6 6 'tea' 1 0
 0 10 12 P
 #1352
-yolculuk ekmeği~
-bir yolculuk ekmeği~
-Bir somun yolculuk ekmeği burada~
+yolculuk ekmeÄŸi~
+bir yolculuk ekmeÄŸi~
+Bir somun yolculuk ekmeÄŸi burada~
 food~
 food 0 A
 25 32 0 0 0
 0 10 50 P
 #1355
-satır~
-bir et satırı~
-Bir et satırı duvarda asılı duruyor~
+satÄ±r~
+bir et satÄ±rÄ±~
+Bir et satÄ±rÄ± duvarda asÄ±lÄ± duruyor~
 mithril~
 weapon 0 AN
 dagger 4 5 cleave D
@@ -1056,7 +1056,7 @@ dagger 4 5 cleave D
 #1356
 pranga zincir~
 zincirli pranga~
-Zincirli bir pranga buraya atılmış~
+Zincirli bir pranga buraya atÄ±lmÄ±ÅŸ~
 iron~
 trash GH A
 0 0 0 0 0
@@ -1066,9 +1066,9 @@ A
 A
 12 -100
 #1357
-kama gümüşi~
-gümüşi bir kama~
-Gümüşten yapılmış gibi görünen uzun bir kama burada~
+kama gÃ¼mÃ¼ÅŸi~
+gÃ¼mÃ¼ÅŸi bir kama~
+GÃ¼mÃ¼ÅŸten yapÄ±lmÄ±ÅŸ gibi gÃ¶rÃ¼nen uzun bir kama burada~
 silver~
 weapon G AN
 dagger 4 5 pierce 0
@@ -1076,17 +1076,17 @@ dagger 4 5 pierce 0
 A
 18 1
 #1359
-parşömen~
-bir parşömen~
-Bir parşömen burada~
+parÅŸÃ¶men~
+bir parÅŸÃ¶men~
+Bir parÅŸÃ¶men burada~
 vellum~
 scroll 0 A
 21 'blindness' 'curse' 'sleep' ''
 11 50 1570 P
 #1360
-kıvrılmış parşömen~
-kıvrılmış bir parşömen~
-Rüzgarda uçuşan kıvrılmış bir parşömen burada~
+kÄ±vrÄ±lmÄ±ÅŸ parÅŸÃ¶men~
+kÄ±vrÄ±lmÄ±ÅŸ bir parÅŸÃ¶men~
+RÃ¼zgarda uÃ§uÅŸan kÄ±vrÄ±lmÄ±ÅŸ bir parÅŸÃ¶men burada~
 vellum~
 scroll G AO
 16 'armor' 'teleport' 'protection evil' ''
@@ -1094,25 +1094,25 @@ scroll G AO
 A
 17 -6
 #1361
-tüp~
-uzun silindir bir tüp~
-Uzun silindir bir tüp yerde yuvarlanıyor~
+tÃ¼p~
+uzun silindir bir tÃ¼p~
+Uzun silindir bir tÃ¼p yerde yuvarlanÄ±yor~
 crystal~
 container GY A
 100 AC -1 2 90
 0 10 50 P
 #1362
-parşömen eski~
-eski bir parşömen~
-Eski bir parşömen burada bırakılmış~
+parÅŸÃ¶men eski~
+eski bir parÅŸÃ¶men~
+Eski bir parÅŸÃ¶men burada bÄ±rakÄ±lmÄ±ÅŸ~
 vellum~
 scroll 0 A
 10 'create food' '' '' ''
 0 20 400 P
 #1363
-parşömen mavi~
-mavi kağıttan bir parşömen~
-Mavi bir parşömen burada bırakılmış~
+parÅŸÃ¶men mavi~
+mavi kaÄŸÄ±ttan bir parÅŸÃ¶men~
+Mavi bir parÅŸÃ¶men burada bÄ±rakÄ±lmÄ±ÅŸ~
 vellum~
 scroll G A
 35 'enchant weapon' '' '' ''
@@ -1126,9 +1126,9 @@ container GY AO
 150 0 0 5 20
 0 20 100 P
 #1365
-kaşık gümüş~
-ilgi çekici gümüş bir kaşık~
-İlgi çekici gümüş bir kaşık burada~
+kaÅŸÄ±k gÃ¼mÃ¼ÅŸ~
+ilgi Ã§ekici gÃ¼mÃ¼ÅŸ bir kaÅŸÄ±k~
+Ä°lgi Ã§ekici gÃ¼mÃ¼ÅŸ bir kaÅŸÄ±k burada~
 silver~
 furniture G AO
 0 0 0 0 0
@@ -1144,25 +1144,25 @@ potion G A
 24 'harm' 'harm' 'harm' ''
 11 20 2100 P
 #1367
-iksir kırmızı~
-parlak kırmızı iksir~
-Parlak kırmızı bir iksir burada~
+iksir kÄ±rmÄ±zÄ±~
+parlak kÄ±rmÄ±zÄ± iksir~
+Parlak kÄ±rmÄ±zÄ± bir iksir burada~
 glass~
 potion G A
 15 'cure critical' '' '' ''
 5 20 390 P
 #1368
-iksir yeşil~
-yeşil bir iksir~
-Yeşil bir iksir burada~
+iksir yeÅŸil~
+yeÅŸil bir iksir~
+YeÅŸil bir iksir burada~
 glass~
 potion G A
 20 'blindness' 'teleport' 'cure blindness' ''
 5 20 470 P
 #1369
-iksir köpüren~
-köpüren bir iksir~
-Köpüren bir iksir burada.~
+iksir kÃ¶pÃ¼ren~
+kÃ¶pÃ¼ren bir iksir~
+KÃ¶pÃ¼ren bir iksir burada.~
 glass~
 potion G A
 16 'detect evil' 'detect invis' 'detect magic' ''
@@ -1172,9 +1172,9 @@ potion effervescent~
 Ahh!  Schwepes Sparkling Soda a refreshing drink.
 ~
 #1370
-sütlü beyaz iksir~
-sütlü beyaz bir iksir~
-Sütlü beyaz bir iksir burada~
+sÃ¼tlÃ¼ beyaz iksir~
+sÃ¼tlÃ¼ beyaz bir iksir~
+SÃ¼tlÃ¼ beyaz bir iksir burada~
 glass~
 potion 0 A
 14 'word of recall' '' '' ''
@@ -1182,15 +1182,15 @@ potion 0 A
 #1371
 asa siyah~
 siyah bir asa~
-Duvara yaslanmış siyah bir asa burada~
+Duvara yaslanmÄ±ÅŸ siyah bir asa burada~
 obsidian~
 staff G AO
 18 2 2 'teleport' 0
 9 50 2600 P
 #1372
-flüt altın~
-altın bir flüt~
-Altın bir flüt burada bırakılmış~
+flÃ¼t altÄ±n~
+altÄ±n bir flÃ¼t~
+AltÄ±n bir flÃ¼t burada bÄ±rakÄ±lmÄ±ÅŸ~
 gold~
 staff FG AO
 12 1 1 'charm person' 0
@@ -1199,8 +1199,8 @@ A
 3 -6
 #1373
 heykelcik~
-küçük bir heykelcik~
-İnsan şeklinde küçük bir heykelcik burada~
+kÃ¼Ã§Ã¼k bir heykelcik~
+Ä°nsan ÅŸeklinde kÃ¼Ã§Ã¼k bir heykelcik burada~
 ivory~
 staff G AO
 21 15 15 'cure serious' 0
@@ -1214,17 +1214,17 @@ container 0 AL
 20 0 0 4 100
 0 40 100 P
 #1375
-değnek~
-kararmış bir değnek~
-Kararmış bir değnek burada~
+deÄŸnek~
+kararmÄ±ÅŸ bir deÄŸnek~
+KararmÄ±ÅŸ bir deÄŸnek burada~
 lead~
 wand G AO
 17 5 1 'fireball' 0
 14 40 3800 P
 #1376
-keski rünlü~
-rünlü bir keski~
-Rünlü bir keski burada~
+keski rÃ¼nlÃ¼~
+rÃ¼nlÃ¼ bir keski~
+RÃ¼nlÃ¼ bir keski burada~
 diamond~
 weapon AG AN
 dagger 3 6 pierce 0
@@ -1243,16 +1243,16 @@ container 0 AL
 0 50 50 P
 #1378
 toz~
-parıldayan toz~
-Bir küme parıldayan toz burada~
+parÄ±ldayan toz~
+Bir kÃ¼me parÄ±ldayan toz burada~
 unknown~
 staff 0 AO
 20 1 1 'sleep' 0
 5 20 1930 P
 #1379
-cüppe kara~
-kara başlıklı cüppe~
-Kara başlıklı bir cüppe~
+cÃ¼ppe kara~
+kara baÅŸlÄ±klÄ± cÃ¼ppe~
+Kara baÅŸlÄ±klÄ± bir cÃ¼ppe~
 unknown~
 clothing GJ AC
 0 0 0 0 0
@@ -1262,25 +1262,25 @@ A
 A
 17 -6
 #1380
-değnek küllü~
-küllü bir değnek~
-Küllü bir değnek burada~
+deÄŸnek kÃ¼llÃ¼~
+kÃ¼llÃ¼ bir deÄŸnek~
+KÃ¼llÃ¼ bir deÄŸnek burada~
 wood~
 wand J AO
 20 4 4 'cause critical' 0
 9 40 1860 P
 #1381
-tahta gürz~
-kocaman tahta bir gürz~
-Kocaman, tahta bir gürz burada bırakılmış~
+tahta gÃ¼rz~
+kocaman tahta bir gÃ¼rz~
+Kocaman, tahta bir gÃ¼rz burada bÄ±rakÄ±lmÄ±ÅŸ~
 oak~
 weapon 0 AN
 mace 3 5 crush 0
 15 290 750 P
 #1382
-gri cüppe~
-gri bir cüppe~
-Gri bir kumaş yığını burada~
+gri cÃ¼ppe~
+gri bir cÃ¼ppe~
+Gri bir kumaÅŸ yÄ±ÄŸÄ±nÄ± burada~
 wool~
 container GJKY AK
 250 0 0 10 50
@@ -1298,7 +1298,7 @@ A
 #1383
 gri pelerin~
 uzun gri bir pelerin~
-Gri bir kumaş yığını burada bırakılmış~
+Gri bir kumaÅŸ yÄ±ÄŸÄ±nÄ± burada bÄ±rakÄ±lmÄ±ÅŸ~
 wool~
 clothing GJK AC
 0 0 0 0 0
@@ -1308,9 +1308,9 @@ A
 A
 17 -7
 #1384
-bileklik gümüş~
-ışıldayan gümüş bir bileklik~
-Işıldayan, gümüş bir çember burada~
+bileklik gÃ¼mÃ¼ÅŸ~
+Ä±ÅŸÄ±ldayan gÃ¼mÃ¼ÅŸ bir bileklik~
+IÅŸÄ±ldayan, gÃ¼mÃ¼ÅŸ bir Ã§ember burada~
 silver~
 jewelry G AM
 0 0 0 0 0
@@ -1321,8 +1321,8 @@ A
 6 1
 #1385
 asa~
-demir ayaklı bir asa~
-Demir ayaklıklı gri tahtadan bir asa burada~
+demir ayaklÄ± bir asa~
+Demir ayaklÄ±klÄ± gri tahtadan bir asa burada~
 wood~
 weapon G AN
 staff 4 8 pound F
@@ -1330,9 +1330,9 @@ staff 4 8 pound F
 A
 18 3
 #1386
-koruma berrak küp ikincil~
-bir ikincil koruma taşı~
-Küçük berrak bir küp burada duruyor.~
+koruma berrak kÃ¼p ikincil~
+bir ikincil koruma taÅŸÄ±~
+KÃ¼Ã§Ã¼k berrak bir kÃ¼p burada duruyor.~
 crystal~
 gem AG AO
 0 0 0 0 0
@@ -1340,9 +1340,9 @@ gem AG AO
 A
 17 -5
 #1387
-cüppe siyah~
-siyah bir cüppe~
-Siyah bir kumaş yığını yerde yatıyor.~
+cÃ¼ppe siyah~
+siyah bir cÃ¼ppe~
+Siyah bir kumaÅŸ yÄ±ÄŸÄ±nÄ± yerde yatÄ±yor.~
 cloth~
 container GJLY AK
 50 0 0 10 75
@@ -1354,7 +1354,7 @@ A
 #1388
 bileklik akik~
 akik bir bileklik~
-Siyah akikten bir çember burada~
+Siyah akikten bir Ã§ember burada~
 onyx~
 jewelry G AM
 0 0 0 0 0
@@ -1364,7 +1364,7 @@ A
 #1389
 pelerin koyu siyah~
 koyu siyah bir pelerin~
-Siyah bir kumaş yığını burada~
+Siyah bir kumaÅŸ yÄ±ÄŸÄ±nÄ± burada~
 leather~
 clothing GJL AC
 0 0 0 0 0
@@ -1374,9 +1374,9 @@ A
 A
 17 -7
 #1390
-parça siyah obisdyen cam~
-keskin bir obsidyen parçası~
-Siyah bir cam parçası burada duruyor~
+parÃ§a siyah obisdyen cam~
+keskin bir obsidyen parÃ§asÄ±~
+Siyah bir cam parÃ§asÄ± burada duruyor~
 obsidian~
 weapon J AN
 dagger 4 8 slice 0
@@ -1384,9 +1384,9 @@ dagger 4 8 slice 0
 A
 19 3
 #1391
-cüppe beyaz~
-beyaz bir cüppe~
-Beyaz bir kumaş yığını yerde yatıyor~
+cÃ¼ppe beyaz~
+beyaz bir cÃ¼ppe~
+Beyaz bir kumaÅŸ yÄ±ÄŸÄ±nÄ± yerde yatÄ±yor~
 wool~
 container GKLY AK
 50 0 0 10 75
@@ -1396,9 +1396,9 @@ A
 A
 17 -5
 #1392
-bileklik beyaz altın~
-beyaz altından bir bileklik~
-Gümüşi metalden bir çember burada~
+bileklik beyaz altÄ±n~
+beyaz altÄ±ndan bir bileklik~
+GÃ¼mÃ¼ÅŸi metalden bir Ã§ember burada~
 gold~
 jewelry G AM
 0 0 0 0 0
@@ -1408,7 +1408,7 @@ A
 #1393
 pelerin beyaz~
 beyaz bir pelerin~
-Beyaz bir kumaş yığını yerde duruyor.~
+Beyaz bir kumaÅŸ yÄ±ÄŸÄ±nÄ± yerde duruyor.~
 cloth~
 clothing GIKL AC
 0 0 0 0 0
@@ -1418,9 +1418,9 @@ A
 A
 17 -7
 #1394
-fildişi kama~
-fildişi kabazlı bir kama~
-Fildişi kabzalı bir kama burada~
+fildiÅŸi kama~
+fildiÅŸi kabazlÄ± bir kama~
+FildiÅŸi kabzalÄ± bir kama burada~
 mithril~
 weapon GIK AN
 dagger 4 7 pierce 0
@@ -1432,7 +1432,7 @@ A
 #1395
 dikenli boyunluk~
 dikenli bir boyunluk~
-Küçük dikenli bir boyunluk burada~
+KÃ¼Ã§Ã¼k dikenli bir boyunluk burada~
 leather~
 armor G AC
 2 2 2 0 0
@@ -1444,7 +1444,7 @@ A
 #1396
 pelerin parlayan~
 rengarenk parlayan bir pelerin~
-Rengarenk bir kumaş yığını burada~
+Rengarenk bir kumaÅŸ yÄ±ÄŸÄ±nÄ± burada~
 unknown~
 container AGY AC
 100 0 0 10 25
@@ -1454,9 +1454,9 @@ A
 A
 17 -12
 #1397
-zümrüt yüzük~
-küçük zümrüt bir yüzük~
-Üzerinde yeşil bir taş olan küçük bir yüzük burada~
+zÃ¼mrÃ¼t yÃ¼zÃ¼k~
+kÃ¼Ã§Ã¼k zÃ¼mrÃ¼t bir yÃ¼zÃ¼k~
+Ãœzerinde yeÅŸil bir taÅŸ olan kÃ¼Ã§Ã¼k bir yÃ¼zÃ¼k burada~
 ruby~
 jewelry G AB
 0 0 0 0 0
@@ -1464,9 +1464,9 @@ jewelry G AB
 A
 12 20
 #1398
-bileklik zümrüt~
-zümrüt bir bileklik~
-Çok güzel işlenmiş zümrüt bir çember burada~
+bileklik zÃ¼mrÃ¼t~
+zÃ¼mrÃ¼t bir bileklik~
+Ã‡ok gÃ¼zel iÅŸlenmiÅŸ zÃ¼mrÃ¼t bir Ã§ember burada~
 bronze~
 jewelry G AM
 0 0 0 0 0
@@ -1478,7 +1478,7 @@ A
 #1399
 koruma birincil berrak kristal~
 bir birincil koruma~
-Büyük berrak bir kristal küp burada~
+BÃ¼yÃ¼k berrak bir kristal kÃ¼p burada~
 crystal~
 gem AGY AO
 0 0 0 0 0
@@ -1489,9 +1489,9 @@ A
 17 -10
 F I 0 0 A
 #1400
-abanoz bıçkı~
-abanozdan yapılmış bir bıçkı~
-Abanozdan yapılmış dalgalı bıçağı olan bir kama burada.~
+abanoz bÄ±Ã§kÄ±~
+abanozdan yapÄ±lmÄ±ÅŸ bir bÄ±Ã§kÄ±~
+Abanozdan yapÄ±lmÄ±ÅŸ dalgalÄ± bÄ±Ã§aÄŸÄ± olan bir kama burada.~
 ebony~
 weapon G AN
 dagger 6 7 pierce D
@@ -1503,9 +1503,9 @@ A
 A
 2 2
 #1401
-yeşil pul gömlek~
-yeşil ejderha pullarından yapılmış gergin bir gömlek~
-Bir araya getirilmiş yeşil ejderha pulları burada~
+yeÅŸil pul gÃ¶mlek~
+yeÅŸil ejderha pullarÄ±ndan yapÄ±lmÄ±ÅŸ gergin bir gÃ¶mlek~
+Bir araya getirilmiÅŸ yeÅŸil ejderha pullarÄ± burada~
 dragonskin~
 armor G AD
 12 12 13 5 0
@@ -1515,25 +1515,25 @@ A
 A
 2 3
 #1402
-buzluk buzdolabı~
+buzluk buzdolabÄ±~
 bir buzluk~
-Küçük bir buzdolabı~
+KÃ¼Ã§Ã¼k bir buzdolabÄ±~
 steel~
 container B 0
 500 AC 0 100 100
 0 0 0 P
 #1403
-şişe içki~
-bir şişe sert içki~
-İçilmek üzere bekleyen bir şişe içki burada~
+ÅŸiÅŸe iÃ§ki~
+bir ÅŸiÅŸe sert iÃ§ki~
+Ä°Ã§ilmek Ã¼zere bekleyen bir ÅŸiÅŸe iÃ§ki burada~
 glass~
 drink 0 AO
 25 25 'vodka' 0 0
 0 250 100 P
 #1404
-kızılcık suyu şişe~
-bir şişe kızılcık suyu~
-Bir şişe kızılcık suyu burada~
+kÄ±zÄ±lcÄ±k suyu ÅŸiÅŸe~
+bir ÅŸiÅŸe kÄ±zÄ±lcÄ±k suyu~
+Bir ÅŸiÅŸe kÄ±zÄ±lcÄ±k suyu burada~
 glass~
 drink 0 AO
 25 25 'cranberry juice' 0 0
@@ -1542,16 +1542,16 @@ drink 0 AO
 
 #ROOMS
 #1300
-Gölge Korusu'na Giriş~
-Önünde gölgelerden bir koru uzanıyor. Kalın gölgeler arasından
-görülebilen tek şey, dev gri ağaçlar. Hem güç hem de tehdit hissi tüm alana
-sinmiş. İçinde arkanı dönüp geldiğin yoldan geriye gitmeni söyleyen bir
-dürtü var. Küçük bir yol kuzeye, gölgelerin arasına, ve güneye, yola doğru
-uzanıyor.
+GÃ¶lge Korusu'na GiriÅŸ~
+Ã–nÃ¼nde gÃ¶lgelerden bir koru uzanÄ±yor. KalÄ±n gÃ¶lgeler arasÄ±ndan
+gÃ¶rÃ¼lebilen tek ÅŸey, dev gri aÄŸaÃ§lar. Hem gÃ¼Ã§ hem de tehdit hissi tÃ¼m alana
+sinmiÅŸ. Ä°Ã§inde arkanÄ± dÃ¶nÃ¼p geldiÄŸin yoldan geriye gitmeni sÃ¶yleyen bir
+dÃ¼rtÃ¼ var. KÃ¼Ã§Ã¼k bir yol kuzeye, gÃ¶lgelerin arasÄ±na, ve gÃ¼neye, yola doÄŸru
+uzanÄ±yor.
 ~
 0 C 3
 D0
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1308
@@ -1561,112 +1561,112 @@ D2
 0 -1 6137
 S
 #1301
-Gölge Korusu~
-Gölge Korusu'nun içindesin. Dev ağaçlar her taraftan sana dik dik bakıyor
-gibiler. Gölgeli sisler görüşünün çoğunu engelliyor. Her yönden tuhaf inilti
-ve hırıltı sesleri geliyor. Tüm çıkışlar gölgelerin içine doğru, ve kafam
-çok karışmış durumda.
+GÃ¶lge Korusu~
+GÃ¶lge Korusu'nun iÃ§indesin. Dev aÄŸaÃ§lar her taraftan sana dik dik bakÄ±yor
+gibiler. GÃ¶lgeli sisler gÃ¶rÃ¼ÅŸÃ¼nÃ¼n Ã§oÄŸunu engelliyor. Her yÃ¶nden tuhaf inilti
+ve hÄ±rÄ±ltÄ± sesleri geliyor. TÃ¼m Ã§Ä±kÄ±ÅŸlar gÃ¶lgelerin iÃ§ine doÄŸru, ve kafam
+Ã§ok karÄ±ÅŸmÄ±ÅŸ durumda.
 ~
 0 AN 3
 D0
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1307
 D1
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1302
 D2
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1304
 D3
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1303
 S
 #1302
-Gölge Korusu~
-Gölge Korusu'nun içindesin. Dev ağaçlar her taraftan sana dik dik bakıyor
-gibiler. Gölgeli sisler görüşünün çoğunu engelliyor. Her yönden tuhaf inilti
-ve hırıltı sesleri geliyor. Tüm çıkışlar gölgelerin içine doğru, ve kafam
-çok karışmış durumda.
+GÃ¶lge Korusu~
+GÃ¶lge Korusu'nun iÃ§indesin. Dev aÄŸaÃ§lar her taraftan sana dik dik bakÄ±yor
+gibiler. GÃ¶lgeli sisler gÃ¶rÃ¼ÅŸÃ¼nÃ¼n Ã§oÄŸunu engelliyor. Her yÃ¶nden tuhaf inilti
+ve hÄ±rÄ±ltÄ± sesleri geliyor. TÃ¼m Ã§Ä±kÄ±ÅŸlar gÃ¶lgelerin iÃ§ine doÄŸru, ve kafam
+Ã§ok karÄ±ÅŸmÄ±ÅŸ durumda.
 ~
 0 AN 3
 D0
-Gölgelerin arasında küçük bir açıklık görüyorsun.
+GÃ¶lgelerin arasÄ±nda kÃ¼Ã§Ã¼k bir aÃ§Ä±klÄ±k gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1311
 D1
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1303
 D2
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1305
 D3
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1301
 S
 #1303
-Gölge Korusu~
-Gölge Korusu'nun içindesin. Dev ağaçlar her taraftan sana dik dik bakıyor
-gibiler. Gölgeli sisler görüşünün çoğunu engelliyor. Her yönden tuhaf inilti
-ve hırıltı sesleri geliyor. Tüm çıkışlar gölgelerin içine doğru, ve kafam
-çok karışmış durumda.
+GÃ¶lge Korusu~
+GÃ¶lge Korusu'nun iÃ§indesin. Dev aÄŸaÃ§lar her taraftan sana dik dik bakÄ±yor
+gibiler. GÃ¶lgeli sisler gÃ¶rÃ¼ÅŸÃ¼nÃ¼n Ã§oÄŸunu engelliyor. Her yÃ¶nden tuhaf inilti
+ve hÄ±rÄ±ltÄ± sesleri geliyor. TÃ¼m Ã§Ä±kÄ±ÅŸlar gÃ¶lgelerin iÃ§ine doÄŸru, ve kafam
+Ã§ok karÄ±ÅŸmÄ±ÅŸ durumda.
 ~
 0 AN 3
 D0
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1309
 D1
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1301
 D2
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1306
 D3
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1302
 S
 #1304
-Gölge Korusu~
-Gölge Korusu'nun içindesin. Dev ağaçlar her taraftan sana dik dik bakıyor
-gibiler. Gölgeli sisler görüşünün çoğunu engelliyor. Her yönden tuhaf inilti
-ve hırıltı sesleri geliyor. Tüm çıkışlar gölgelerin içine doğru, ve kafam
-çok karışmış durumda.
+GÃ¶lge Korusu~
+GÃ¶lge Korusu'nun iÃ§indesin. Dev aÄŸaÃ§lar her taraftan sana dik dik bakÄ±yor
+gibiler. GÃ¶lgeli sisler gÃ¶rÃ¼ÅŸÃ¼nÃ¼n Ã§oÄŸunu engelliyor. Her yÃ¶nden tuhaf inilti
+ve hÄ±rÄ±ltÄ± sesleri geliyor. TÃ¼m Ã§Ä±kÄ±ÅŸlar gÃ¶lgelerin iÃ§ine doÄŸru, ve kafam
+Ã§ok karÄ±ÅŸmÄ±ÅŸ durumda.
 ~
 0 AN 3
 D0
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1301
 D1
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1305
 D2
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1307
@@ -1677,195 +1677,195 @@ Dark gates loom in the mist.
 0 -1 2201
 S
 #1305
-Gölge Korusu~
-Gölge Korusu'nun içindesin. Dev ağaçlar her taraftan sana dik dik bakıyor
-gibiler. Gölgeli sisler görüşünün çoğunu engelliyor. Her yönden tuhaf inilti
-ve hırıltı sesleri geliyor. Tüm çıkışlar gölgelerin içine doğru, ve kafam
-çok karışmış durumda.
+GÃ¶lge Korusu~
+GÃ¶lge Korusu'nun iÃ§indesin. Dev aÄŸaÃ§lar her taraftan sana dik dik bakÄ±yor
+gibiler. GÃ¶lgeli sisler gÃ¶rÃ¼ÅŸÃ¼nÃ¼n Ã§oÄŸunu engelliyor. Her yÃ¶nden tuhaf inilti
+ve hÄ±rÄ±ltÄ± sesleri geliyor. TÃ¼m Ã§Ä±kÄ±ÅŸlar gÃ¶lgelerin iÃ§ine doÄŸru, ve kafam
+Ã§ok karÄ±ÅŸmÄ±ÅŸ durumda.
 ~
 0 AN 3
 D0
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1302
 D1
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1306
 D2
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1308
 D3
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1304
 S
 #1306
-Gölge Korusu~
-Gölge Korusu'nun içindesin. Dev ağaçlar her taraftan sana dik dik bakıyor
-gibiler. Gölgeli sisler görüşünün çoğunu engelliyor. Her yönden tuhaf inilti
-ve hırıltı sesleri geliyor. Tüm çıkışlar gölgelerin içine doğru, ve kafam
-çok karışmış durumda.
+GÃ¶lge Korusu~
+GÃ¶lge Korusu'nun iÃ§indesin. Dev aÄŸaÃ§lar her taraftan sana dik dik bakÄ±yor
+gibiler. GÃ¶lgeli sisler gÃ¶rÃ¼ÅŸÃ¼nÃ¼n Ã§oÄŸunu engelliyor. Her yÃ¶nden tuhaf inilti
+ve hÄ±rÄ±ltÄ± sesleri geliyor. TÃ¼m Ã§Ä±kÄ±ÅŸlar gÃ¶lgelerin iÃ§ine doÄŸru, ve kafam
+Ã§ok karÄ±ÅŸmÄ±ÅŸ durumda.
 ~
 0 AN 3
 D0
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1303
 D1
-Karanlık bir taverna görüyorsun.
+KaranlÄ±k bir taverna gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 9301
 D2
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1309
 D3
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1305
 S
 #1307
-Gölge Korusu~
-Gölge Korusu'nun içindesin. Dev ağaçlar her taraftan sana dik dik bakıyor
-gibiler. Gölgeli sisler görüşünün çoğunu engelliyor. Her yönden tuhaf inilti
-ve hırıltı sesleri geliyor. Tüm çıkışlar gölgelerin içine doğru, ve kafam
-çok karışmış durumda.
+GÃ¶lge Korusu~
+GÃ¶lge Korusu'nun iÃ§indesin. Dev aÄŸaÃ§lar her taraftan sana dik dik bakÄ±yor
+gibiler. GÃ¶lgeli sisler gÃ¶rÃ¼ÅŸÃ¼nÃ¼n Ã§oÄŸunu engelliyor. Her yÃ¶nden tuhaf inilti
+ve hÄ±rÄ±ltÄ± sesleri geliyor. TÃ¼m Ã§Ä±kÄ±ÅŸlar gÃ¶lgelerin iÃ§ine doÄŸru, ve kafam
+Ã§ok karÄ±ÅŸmÄ±ÅŸ durumda.
 ~
 0 AN 3
 D0
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1304
 D1
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1308
 D2
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1301
 D3
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1309
 S
 #1308
-Gölge Korusu~
-Gölge Korusu'nun içindesin. Dev ağaçlar her taraftan sana dik dik bakıyor
-gibiler. Gölgeli sisler görüşünün çoğunu engelliyor. Her yönden tuhaf inilti
-ve hırıltı sesleri geliyor. Tüm çıkışlar gölgelerin içine doğru, ve kafam
-çok karışmış durumda.
+GÃ¶lge Korusu~
+GÃ¶lge Korusu'nun iÃ§indesin. Dev aÄŸaÃ§lar her taraftan sana dik dik bakÄ±yor
+gibiler. GÃ¶lgeli sisler gÃ¶rÃ¼ÅŸÃ¼nÃ¼n Ã§oÄŸunu engelliyor. Her yÃ¶nden tuhaf inilti
+ve hÄ±rÄ±ltÄ± sesleri geliyor. TÃ¼m Ã§Ä±kÄ±ÅŸlar gÃ¶lgelerin iÃ§ine doÄŸru, ve kafam
+Ã§ok karÄ±ÅŸmÄ±ÅŸ durumda.
 ~
 0 AN 3
 D0
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1305
 D1
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1309
 D2
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1300
 D3
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1307
 S
 #1309
-Gölge Korusu~
-Gölge Korusu'nun içindesin. Dev ağaçlar her taraftan sana dik dik bakıyor
-gibiler. Gölgeli sisler görüşünün çoğunu engelliyor. Her yönden tuhaf inilti
-ve hırıltı sesleri geliyor. Tüm çıkışlar gölgelerin içine doğru, ve kafam
-çok karışmış durumda.
+GÃ¶lge Korusu~
+GÃ¶lge Korusu'nun iÃ§indesin. Dev aÄŸaÃ§lar her taraftan sana dik dik bakÄ±yor
+gibiler. GÃ¶lgeli sisler gÃ¶rÃ¼ÅŸÃ¼nÃ¼n Ã§oÄŸunu engelliyor. Her yÃ¶nden tuhaf inilti
+ve hÄ±rÄ±ltÄ± sesleri geliyor. TÃ¼m Ã§Ä±kÄ±ÅŸlar gÃ¶lgelerin iÃ§ine doÄŸru, ve kafam
+Ã§ok karÄ±ÅŸmÄ±ÅŸ durumda.
 ~
 0 AN 3
 D0
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1306
 D1
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1307
 D2
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1303
 D3
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1308
 S
 #1311
-Küçük bir açıkık~
-Gölge Korusu'ndaki küçük bir açıklıktasın. Ayaklarının altında yanmış
-otlar, ve şurada burada ateşlerin bıraktığı izler var. Neredeyse buradaki
-bitki yaşamı buradan sakınıyor gibi. Gölgeli sis etrafta süzülüyor, koruya
-doğru görüşünü azaltarak. Küçük bir yol kuzeye doğru, gölgeli bir yapıya
-ilerliyor. Diğer tüm çıkışlar gölgeli sisin içine doğru..
+KÃ¼Ã§Ã¼k bir aÃ§Ä±kÄ±k~
+GÃ¶lge Korusu'ndaki kÃ¼Ã§Ã¼k bir aÃ§Ä±klÄ±ktasÄ±n. AyaklarÄ±nÄ±n altÄ±nda yanmÄ±ÅŸ
+otlar, ve ÅŸurada burada ateÅŸlerin bÄ±raktÄ±ÄŸÄ± izler var. Neredeyse buradaki
+bitki yaÅŸamÄ± buradan sakÄ±nÄ±yor gibi. GÃ¶lgeli sis etrafta sÃ¼zÃ¼lÃ¼yor, koruya
+doÄŸru gÃ¶rÃ¼ÅŸÃ¼nÃ¼ azaltarak. KÃ¼Ã§Ã¼k bir yol kuzeye doÄŸru, gÃ¶lgeli bir yapÄ±ya
+ilerliyor. DiÄŸer tÃ¼m Ã§Ä±kÄ±ÅŸlar gÃ¶lgeli sisin iÃ§ine doÄŸru..
 ~
 0 A 3
 D0
-Kuzeye doğru belli belirsiz bir yapıyı seçebiliyorsun.
+Kuzeye doÄŸru belli belirsiz bir yapÄ±yÄ± seÃ§ebiliyorsun.
 ~
 ~
 0 -1 1312
 D2
-Gölgeler görüşünü karartıyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ karartÄ±yor.
 ~
 ~
 0 -1 1302
 S
 #1312
-Yüksek Kule'nin Girişi~
-Yüksek büyücülük kulesi'nin girişine ulaştın. Kule önünde inanılmaz bir
-boyda yükseliyor. Yukarıdaki fırtına bulutlarının içinde kayboluyor gibi.
-Devasa bir golem tarafından korunan elmas bir kapı kuzeyde. Güneye doğru
+YÃ¼ksek Kule'nin GiriÅŸi~
+YÃ¼ksek bÃ¼yÃ¼cÃ¼lÃ¼k kulesi'nin giriÅŸine ulaÅŸtÄ±n. Kule Ã¶nÃ¼nde inanÄ±lmaz bir
+boyda yÃ¼kseliyor. YukarÄ±daki fÄ±rtÄ±na bulutlarÄ±nÄ±n iÃ§inde kayboluyor gibi.
+Devasa bir golem tarafÄ±ndan korunan elmas bir kapÄ± kuzeyde. GÃ¼neye doÄŸru
 devam eden yol arkanda kayboldu.
 ~
 0 D 0
 D0
-Elmas kapı aşırı güçlü görünüyor.
+Elmas kapÄ± aÅŸÄ±rÄ± gÃ¼Ã§lÃ¼ gÃ¶rÃ¼nÃ¼yor.
 ~
-kapı elmas~
+kapÄ± elmas~
 0 -1 1313
 S
 #1313
-Yüksek Büyücülük Kulesi'nin İçinde~
-Yüksek Büyücülük Kulesi'nin içindesin. Gördüğün şeyler gerçekten
-şaşkınlık verici. Buradan, kulenin dışarıda görüldüğünden çok daha büyük
-olduğu çok açık. Genç büyücüler ortalıkta senin varlığını umursamadan
-yürüyorlar. Çıkışlar, kuzeydeki ortak odaya, batıdaki yemek odasına, doğuda
-sade bir koridora ve güneye, gelmiş olduğun kapıya gidiyor.
+YÃ¼ksek BÃ¼yÃ¼cÃ¼lÃ¼k Kulesi'nin Ä°Ã§inde~
+YÃ¼ksek BÃ¼yÃ¼cÃ¼lÃ¼k Kulesi'nin iÃ§indesin. GÃ¶rdÃ¼ÄŸÃ¼n ÅŸeyler gerÃ§ekten
+ÅŸaÅŸkÄ±nlÄ±k verici. Buradan, kulenin dÄ±ÅŸarÄ±da gÃ¶rÃ¼ldÃ¼ÄŸÃ¼nden Ã§ok daha bÃ¼yÃ¼k
+olduÄŸu Ã§ok aÃ§Ä±k. GenÃ§ bÃ¼yÃ¼cÃ¼ler ortalÄ±kta senin varlÄ±ÄŸÄ±nÄ± umursamadan
+yÃ¼rÃ¼yorlar. Ã‡Ä±kÄ±ÅŸlar, kuzeydeki ortak odaya, batÄ±daki yemek odasÄ±na, doÄŸuda
+sade bir koridora ve gÃ¼neye, gelmiÅŸ olduÄŸun kapÄ±ya gidiyor.
 ~
 0 D 0
 D0
-Ortak oda gayet meşgul ve gürültülü görünüyor.
+Ortak oda gayet meÅŸgul ve gÃ¼rÃ¼ltÃ¼lÃ¼ gÃ¶rÃ¼nÃ¼yor.
 ~
 ~
 0 -1 1314
@@ -1875,7 +1875,7 @@ D1
 0 -1 1315
 D2
 ~
-elmas kapı~
+elmas kapÄ±~
 0 -1 1312
 D3
 ~
@@ -1884,10 +1884,10 @@ D3
 S
 #1314
 Ortak Oda~
-Ortak odadasın. Burada pek çok gan çırağı konuşuyor, dinleniyor, oyunlar
-oynuyor ve notlarını karşılaştırıyorlar. Belli ki sıkı derslerine bir ara
-vermişler. Burada banklar, masalar ve küçük bir çeşme var, bunlar dışında
-oda pek dikkat çekici değil. Çıkışlar tüm yönlere uzanıyor.
+Ortak odadasÄ±n. Burada pek Ã§ok gan Ã§Ä±raÄŸÄ± konuÅŸuyor, dinleniyor, oyunlar
+oynuyor ve notlarÄ±nÄ± karÅŸÄ±laÅŸtÄ±rÄ±yorlar. Belli ki sÄ±kÄ± derslerine bir ara
+vermiÅŸler. Burada banklar, masalar ve kÃ¼Ã§Ã¼k bir Ã§eÅŸme var, bunlar dÄ±ÅŸÄ±nda
+oda pek dikkat Ã§ekici deÄŸil. Ã‡Ä±kÄ±ÅŸlar tÃ¼m yÃ¶nlere uzanÄ±yor.
 ~
 0 D 0
 D0
@@ -1895,7 +1895,7 @@ D0
 ~
 0 -1 1317
 D1
-Büyücülerin barı doğuda görülebiliyor.
+BÃ¼yÃ¼cÃ¼lerin barÄ± doÄŸuda gÃ¶rÃ¼lebiliyor.
 ~
 ~
 0 -1 1318
@@ -1910,8 +1910,8 @@ D3
 S
 #1315
 Koridor~
-Pek de ilgi çekici olmayan uzun bir koridordasın. Koridor doğuya ve
-geldiğin yöne, batıya devam ediyor.
+Pek de ilgi Ã§ekici olmayan uzun bir koridordasÄ±n. Koridor doÄŸuya ve
+geldiÄŸin yÃ¶ne, batÄ±ya devam ediyor.
 ~
 0 D 0
 D1
@@ -1924,11 +1924,11 @@ D3
 0 -1 1313
 S
 #1316
-Yemek Odası~
-Öğrenci büyücülerin yemek alanındasın. Masa ve sandalyelerin sayısından
-anlayabildiğin kadarıyla bu odada birkaç yüz kişinin oturabileceği kadar yer
-var. Oda tuhaf bir şekilde boş, belli ki yemek zamanı değil. Çıkışlar
-batıya, mufağa ve doğuya, geldiğin yere.
+Yemek OdasÄ±~
+Ã–ÄŸrenci bÃ¼yÃ¼cÃ¼lerin yemek alanÄ±ndasÄ±n. Masa ve sandalyelerin sayÄ±sÄ±ndan
+anlayabildiÄŸin kadarÄ±yla bu odada birkaÃ§ yÃ¼z kiÅŸinin oturabileceÄŸi kadar yer
+var. Oda tuhaf bir ÅŸekilde boÅŸ, belli ki yemek zamanÄ± deÄŸil. Ã‡Ä±kÄ±ÅŸlar
+batÄ±ya, mufaÄŸa ve doÄŸuya, geldiÄŸin yere.
 ~
 0 D 0
 D1
@@ -1937,14 +1937,14 @@ D1
 0 -1 1313
 D3
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1320
 S
 #1317
-Karanlık Koridor~
-Karanlık bir koridordasın. Göründüğü kadarıyla burası, kulenin sakinleri
-tarafında nadiren ziyaret edilen bir yer. Toz, yerleri kaplıyor. Silik bir
-kapağın kenarları yerdeki tozlardan belli oluyor.
+KaranlÄ±k Koridor~
+KaranlÄ±k bir koridordasÄ±n. GÃ¶rÃ¼ndÃ¼ÄŸÃ¼ kadarÄ±yla burasÄ±, kulenin sakinleri
+tarafÄ±nda nadiren ziyaret edilen bir yer. Toz, yerleri kaplÄ±yor. Silik bir
+kapaÄŸÄ±n kenarlarÄ± yerdeki tozlardan belli oluyor.
 ~
 0 AD 0
 D2
@@ -1957,11 +1957,11 @@ kapak~
 1 -1 1321
 S
 #1318
-Büyücüler Hanı~
-Bir büyücü hanındasın. Hava dumanlı, yabancı yiyecek ve içeceklerin
-kokularıyla dolu. Diğer devamlı müşteriler sana çok az dikkat ediyorlar,
-belli ki üzerinde duracak daha önemli şeyleri var. Barmen Strick burada
-sipariş vermeni bekliyor.
+BÃ¼yÃ¼cÃ¼ler HanÄ±~
+Bir bÃ¼yÃ¼cÃ¼ hanÄ±ndasÄ±n. Hava dumanlÄ±, yabancÄ± yiyecek ve iÃ§eceklerin
+kokularÄ±yla dolu. DiÄŸer devamlÄ± mÃ¼ÅŸteriler sana Ã§ok az dikkat ediyorlar,
+belli ki Ã¼zerinde duracak daha Ã¶nemli ÅŸeyleri var. Barmen Strick burada
+sipariÅŸ vermeni bekliyor.
 ~
 0 D 0
 D3
@@ -1970,9 +1970,9 @@ D3
 0 -1 1314
 S
 #1319
-Büyülü Eşya Dükkanı~
-Tatorious tezgahın arkasında, her türlü şifalı bitki, parşömen ve büyülü
-öğretilerde kullanılar diğer malzemeleri satıyor. Tek çıkış doğudaki ortak
+BÃ¼yÃ¼lÃ¼ EÅŸya DÃ¼kkanÄ±~
+Tatorious tezgahÄ±n arkasÄ±nda, her tÃ¼rlÃ¼ ÅŸifalÄ± bitki, parÅŸÃ¶men ve bÃ¼yÃ¼lÃ¼
+Ã¶ÄŸretilerde kullanÄ±lar diÄŸer malzemeleri satÄ±yor. Tek Ã§Ä±kÄ±ÅŸ doÄŸudaki ortak
 odaya.
 ~
 0 D 0
@@ -1983,29 +1983,29 @@ D1
 S
 #1320
 Mutfak~
-Küçük bir mutfaktasın. Bütün bilinen kap kacak ve mutfak ekipmanlaır
-burada, bazı pek bilinmeyenler de var. Ayrıca devasa siyah bir taş fırın
-burada. En azından 12 fit yüksekliğinde. Fırının karşısında hemen hemen aynı
-boyutlarda bir et dolabı var, en az birkaç tane şanssız maceracıyı rahatça
-alabilecek büyüklükte. Odanın tam ortasında havada asılı duran bir baharat
-rafı var.
+KÃ¼Ã§Ã¼k bir mutfaktasÄ±n. BÃ¼tÃ¼n bilinen kap kacak ve mutfak ekipmanlaÄ±r
+burada, bazÄ± pek bilinmeyenler de var. AyrÄ±ca devasa siyah bir taÅŸ fÄ±rÄ±n
+burada. En azÄ±ndan 12 fit yÃ¼ksekliÄŸinde. FÄ±rÄ±nÄ±n karÅŸÄ±sÄ±nda hemen hemen aynÄ±
+boyutlarda bir et dolabÄ± var, en az birkaÃ§ tane ÅŸanssÄ±z maceracÄ±yÄ± rahatÃ§a
+alabilecek bÃ¼yÃ¼klÃ¼kte. OdanÄ±n tam ortasÄ±nda havada asÄ±lÄ± duran bir baharat
+rafÄ± var.
 ~
 0 D 0
 D1
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1316
 S
 #1321
-Kapağın Altında~
-Kapağın altındasın. Burası çok karanlık ve tozlu. Yukarıdan çok az bir
-ışık içeriye süzülüyor. Çok aşağılardan damlayan bir suyun sesini
-işitebiliyorsun. Bir ip merdiven aşağıya doğru iniyor.
+KapaÄŸÄ±n AltÄ±nda~
+KapaÄŸÄ±n altÄ±ndasÄ±n. BurasÄ± Ã§ok karanlÄ±k ve tozlu. YukarÄ±dan Ã§ok az bir
+Ä±ÅŸÄ±k iÃ§eriye sÃ¼zÃ¼lÃ¼yor. Ã‡ok aÅŸaÄŸÄ±lardan damlayan bir suyun sesini
+iÅŸitebiliyorsun. Bir ip merdiven aÅŸaÄŸÄ±ya doÄŸru iniyor.
 ~
 0 AD 0
 D4
 ~
-tuzakkapı tuzak kapı ip merdiven~
+tuzakkapÄ± tuzak kapÄ± ip merdiven~
 1 -1 1317
 D5
 ~
@@ -2013,11 +2013,11 @@ D5
 0 -1 1322
 S
 #1322
-Rutubetli bir kesişme~
-Kulenin bodrumu gibi görünen yerdeki rutubetli bir kesişimdesin. Güneyden
-akan suyun sesini duyabiliyorsun. Bunun dışında, neredeyse elle tutulabilir
-bir sabitlik havayı dolduruyor. Dehlizler bütün yönlerde ilerliyor ve bir
-merdiven yukarı doğru çıkıyor.
+Rutubetli bir kesiÅŸme~
+Kulenin bodrumu gibi gÃ¶rÃ¼nen yerdeki rutubetli bir kesiÅŸimdesin. GÃ¼neyden
+akan suyun sesini duyabiliyorsun. Bunun dÄ±ÅŸÄ±nda, neredeyse elle tutulabilir
+bir sabitlik havayÄ± dolduruyor. Dehlizler bÃ¼tÃ¼n yÃ¶nlerde ilerliyor ve bir
+merdiven yukarÄ± doÄŸru Ã§Ä±kÄ±yor.
 ~
 0 AD 0
 D0
@@ -2025,7 +2025,7 @@ D0
 ~
 0 -1 1323
 D1
-Belli belirsiz bir ışık doğru dehlizinde görülebiliyor.
+Belli belirsiz bir Ä±ÅŸÄ±k doÄŸru dehlizinde gÃ¶rÃ¼lebiliyor.
 ~
 ~
 0 -1 1324
@@ -2043,14 +2043,14 @@ D4
 0 -1 1321
 S
 #1323
-Karanlık bir dehliz~
-Sağlam, tahta bir kapıyla biten karanlık bir dehlizin sonundasın. Kapıdan
-geçmek dışında tek çıkış geldiğin yol.
+KaranlÄ±k bir dehliz~
+SaÄŸlam, tahta bir kapÄ±yla biten karanlÄ±k bir dehlizin sonundasÄ±n. KapÄ±dan
+geÃ§mek dÄ±ÅŸÄ±nda tek Ã§Ä±kÄ±ÅŸ geldiÄŸin yol.
 ~
 0 AD 0
 D0
 ~
-meşe kapı~
+meÅŸe kapÄ±~
 1 1323 1327
 D2
 ~
@@ -2058,16 +2058,16 @@ D2
 0 -1 1322
 S
 #1324
-Karanlık bir dehliz~
-Karanlık bir dehlizin sonundasın. Yarım açık bir kapı doğuda,
-kenarlarından yumuşak bir ışık sızıyor. Kısık bir horlama sesi kapının
-arkasından duyulabiliyor. Çıkışlar doğudaki kapıya ya da geldiğin yer olan
-batıya gidiyor.
+KaranlÄ±k bir dehliz~
+KaranlÄ±k bir dehlizin sonundasÄ±n. YarÄ±m aÃ§Ä±k bir kapÄ± doÄŸuda,
+kenarlarÄ±ndan yumuÅŸak bir Ä±ÅŸÄ±k sÄ±zÄ±yor. KÄ±sÄ±k bir horlama sesi kapÄ±nÄ±n
+arkasÄ±ndan duyulabiliyor. Ã‡Ä±kÄ±ÅŸlar doÄŸudaki kapÄ±ya ya da geldiÄŸin yer olan
+batÄ±ya gidiyor.
 ~
 0 AD 0
 D1
 ~
-kapı~
+kapÄ±~
 1 -1 1328
 D3
 ~
@@ -2076,11 +2076,11 @@ D3
 S
 #1325
 Durgun Havuz~
-Su dolu durgun bir havuzun kenarında duruyorsun. Buradaki koku mideni
-oldukça bulandırıyor. Göründüğü kadarıyla bu kulede yaşayanların çöplerinin
-toplandığı yer burası. Havuz yüzeyinin altından gelen kısık bır çağlama sesi
-duyuyorsun. Çıkışlar geldiğin yol olan kuzeye, veya aşırı maceracı olanlar
-için aşağıya, havuzun içine gidiyor.
+Su dolu durgun bir havuzun kenarÄ±nda duruyorsun. Buradaki koku mideni
+oldukÃ§a bulandÄ±rÄ±yor. GÃ¶rÃ¼ndÃ¼ÄŸÃ¼ kadarÄ±yla bu kulede yaÅŸayanlarÄ±n Ã§Ã¶plerinin
+toplandÄ±ÄŸÄ± yer burasÄ±. Havuz yÃ¼zeyinin altÄ±ndan gelen kÄ±sÄ±k bÄ±r Ã§aÄŸlama sesi
+duyuyorsun. Ã‡Ä±kÄ±ÅŸlar geldiÄŸin yol olan kuzeye, veya aÅŸÄ±rÄ± maceracÄ± olanlar
+iÃ§in aÅŸaÄŸÄ±ya, havuzun iÃ§ine gidiyor.
 ~
 0 AD 0
 D0
@@ -2088,16 +2088,16 @@ D0
 ~
 0 -1 1322
 D5
-Hiçbir ışık bu durgun havuzun karanlığını delemiyor.
+HiÃ§bir Ä±ÅŸÄ±k bu durgun havuzun karanlÄ±ÄŸÄ±nÄ± delemiyor.
 ~
 ~
 0 -1 1329
 S
 #1326
-Karanlık bir dehliz~
-Batıda, oyuğa benzeyen bir şeyle aniden kesilen karanlık bir dehlizdesin.
-Kesinlikle geçilemez bir yer ve belki de bu kadar yakın olmak bile
-tehlikeli. Tek çıkış geriye, doğuya.
+KaranlÄ±k bir dehliz~
+BatÄ±da, oyuÄŸa benzeyen bir ÅŸeyle aniden kesilen karanlÄ±k bir dehlizdesin.
+Kesinlikle geÃ§ilemez bir yer ve belki de bu kadar yakÄ±n olmak bile
+tehlikeli. Tek Ã§Ä±kÄ±ÅŸ geriye, doÄŸuya.
 ~
 0 AD 0
 D1
@@ -2106,48 +2106,48 @@ D1
 0 -1 1322
 S
 #1327
-Karanlık bir hücre~
-Karanlık bir hücredesin. Yerleri küçük çöpler ve tozlarla kaplanmış olan
-bu yer, çok karanlık. Birileri veya birşeyler uzaktaki duvara zincirlenmiş
-gibi görünüyor. Tek çıkış geldiğin yöne, güneye.
+KaranlÄ±k bir hÃ¼cre~
+KaranlÄ±k bir hÃ¼credesin. Yerleri kÃ¼Ã§Ã¼k Ã§Ã¶pler ve tozlarla kaplanmÄ±ÅŸ olan
+bu yer, Ã§ok karanlÄ±k. Birileri veya birÅŸeyler uzaktaki duvara zincirlenmiÅŸ
+gibi gÃ¶rÃ¼nÃ¼yor. Tek Ã§Ä±kÄ±ÅŸ geldiÄŸin yÃ¶ne, gÃ¼neye.
 ~
 0 AD 0
 D2
 ~
-meşe kapı~
+meÅŸe kapÄ±~
 1 -1 1323
 S
 #1328
-Hapishane Görevlisi'nin Ofisi~
-Hapishane görevlisi'nin odasındasın. Burası oldukça pis. Hapishane
-görevlisi'nin uyuyan şekline bakarak şunu düşünüyorsun; acaba bu nemli ve
-soğuk zindanlardan canlı çıkabilen olmuş mudur? Tek çıkış batıya.
+Hapishane GÃ¶revlisi'nin Ofisi~
+Hapishane gÃ¶revlisi'nin odasÄ±ndasÄ±n. BurasÄ± oldukÃ§a pis. Hapishane
+gÃ¶revlisi'nin uyuyan ÅŸekline bakarak ÅŸunu dÃ¼ÅŸÃ¼nÃ¼yorsun; acaba bu nemli ve
+soÄŸuk zindanlardan canlÄ± Ã§Ä±kabilen olmuÅŸ mudur? Tek Ã§Ä±kÄ±ÅŸ batÄ±ya.
 ~
 0 D 0
 D3
 ~
-kapı~
+kapÄ±~
 1 -1 1324
 S
 #1329
-Durgun Havuzun Altında~
-Çürümüşlük kokan suların arasına dalarken, güçlü bir çekilme
-hissediyorsun ve bir hortum seni aşağıya sürüklüyor. Karanlığın içine
-emiliyorsun. Oksijen eksikliğinden ciğerlerinin yandığını hissediyorsun.
-Hayatın silikleşirken, yönde bir değişiklik farkediyorsun. Ve yırtıcı bir
-dalganın altına çekiliyorsun.
+Durgun Havuzun AltÄ±nda~
+Ã‡Ã¼rÃ¼mÃ¼ÅŸlÃ¼k kokan sularÄ±n arasÄ±na dalarken, gÃ¼Ã§lÃ¼ bir Ã§ekilme
+hissediyorsun ve bir hortum seni aÅŸaÄŸÄ±ya sÃ¼rÃ¼klÃ¼yor. KaranlÄ±ÄŸÄ±n iÃ§ine
+emiliyorsun. Oksijen eksikliÄŸinden ciÄŸerlerinin yandÄ±ÄŸÄ±nÄ± hissediyorsun.
+HayatÄ±n silikleÅŸirken, yÃ¶nde bir deÄŸiÅŸiklik farkediyorsun. Ve yÄ±rtÄ±cÄ± bir
+dalganÄ±n altÄ±na Ã§ekiliyorsun.
 ~
 0 ACD 0
 S
 #1330
 Koridor~
-Doğu ve batı yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor.
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor.
 ~
 0 D 0
 D0
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1332
 D1
 ~
@@ -2155,7 +2155,7 @@ D1
 0 -1 1331
 D2
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1333
 D3
 ~
@@ -2163,22 +2163,22 @@ D3
 0 -1 1315
 S
 #1331
-Koridordaki bir dönemeç~
-Koridordaki bir dönemeçtesin. Duvarlardan yayılan sihirli ışık, etrafı
-yeterince görmeni sağlıyor.
+Koridordaki bir dÃ¶nemeÃ§~
+Koridordaki bir dÃ¶nemeÃ§tesin. Duvarlardan yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ±
+yeterince gÃ¶rmeni saÄŸlÄ±yor.
 ~
 0 D 0
 D0
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1334
 D1
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1336
 D2
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1335
 D3
 ~
@@ -2186,32 +2186,32 @@ D3
 0 -1 1330
 S
 #1332
-Bir Depo Odası~
-Küçük bir depo odasındasın. Çeşitli ıvırzıvır eşya raflara dizimiş veya
-duvarlara yaslanmış. Görülen tek çıkış güneyde.
+Bir Depo OdasÄ±~
+KÃ¼Ã§Ã¼k bir depo odasÄ±ndasÄ±n. Ã‡eÅŸitli Ä±vÄ±rzÄ±vÄ±r eÅŸya raflara dizimiÅŸ veya
+duvarlara yaslanmÄ±ÅŸ. GÃ¶rÃ¼len tek Ã§Ä±kÄ±ÅŸ gÃ¼neyde.
 ~
 0 AD 0
 D2
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1330
 S
 #1333
-Bir süpürge bölmesi~
-Karanlık bir süpürge bölmesindesin. Birçok çalı süpürgesi ve diğer
-temizleme malzemelei burada bırakılmış ve hiç kullanılmamış görünüyor (belki
-de hizmetli işten ayrılmıştır? ) Tek çıkışı koridora dönen kuzeye.
+Bir sÃ¼pÃ¼rge bÃ¶lmesi~
+KaranlÄ±k bir sÃ¼pÃ¼rge bÃ¶lmesindesin. BirÃ§ok Ã§alÄ± sÃ¼pÃ¼rgesi ve diÄŸer
+temizleme malzemelei burada bÄ±rakÄ±lmÄ±ÅŸ ve hiÃ§ kullanÄ±lmamÄ±ÅŸ gÃ¶rÃ¼nÃ¼yor (belki
+de hizmetli iÅŸten ayrÄ±lmÄ±ÅŸtÄ±r? ) Tek Ã§Ä±kÄ±ÅŸÄ± koridora dÃ¶nen kuzeye.
 ~
 0 AD 0
 D0
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1330
 S
 #1334
 Bir koridor~
-Kuzey ve güney yönünde uzanan bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor.
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde uzanan bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor.
 ~
 0 D 0
 D0
@@ -2220,69 +2220,69 @@ D0
 0 -1 1338
 D1
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1337
 D2
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1331
 E
 duvar duvarlar~
-Parlak bir ışık yayıyorlar.
+Parlak bir Ä±ÅŸÄ±k yayÄ±yorlar.
 ~
 S
 #1335
-Muhafızlar Odası~
-Kule muhafızlarının odasındasın. Etrafta dağınık bir şekilde dizilmiş
-mobilyalar var, gerçi buradakilerin mobilyalara pek ihtiyacı yok gibi.
-Ortalıkta dolaşan el ve göz çiftleri var.
+MuhafÄ±zlar OdasÄ±~
+Kule muhafÄ±zlarÄ±nÄ±n odasÄ±ndasÄ±n. Etrafta daÄŸÄ±nÄ±k bir ÅŸekilde dizilmiÅŸ
+mobilyalar var, gerÃ§i buradakilerin mobilyalara pek ihtiyacÄ± yok gibi.
+OrtalÄ±kta dolaÅŸan el ve gÃ¶z Ã§iftleri var.
 ~
 0 D 0
 D0
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1331
 S
 #1336
-Bir misafir yatak odası~
-Misafirler için yapılmış küçük bir yatak odasındasın. Küçük bir karyola
-odanın bir köşesinde duruyor, ve duvarda asılı tozlu bir ayna var, bunun
-dışında oda gayet yalın ve kullanılmamış. Tek görünen çıkış geriye, batıdaki
-koridora açılıyor.
+Bir misafir yatak odasÄ±~
+Misafirler iÃ§in yapÄ±lmÄ±ÅŸ kÃ¼Ã§Ã¼k bir yatak odasÄ±ndasÄ±n. KÃ¼Ã§Ã¼k bir karyola
+odanÄ±n bir kÃ¶ÅŸesinde duruyor, ve duvarda asÄ±lÄ± tozlu bir ayna var, bunun
+dÄ±ÅŸÄ±nda oda gayet yalÄ±n ve kullanÄ±lmamÄ±ÅŸ. Tek gÃ¶rÃ¼nen Ã§Ä±kÄ±ÅŸ geriye, batÄ±daki
+koridora aÃ§Ä±lÄ±yor.
 ~
 0 D 0
 D3
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1331
 E
 ayna~
-Birileri aynadan sana bakıyor gibi!
+Birileri aynadan sana bakÄ±yor gibi!
 ~
 S
 #1337
-Bir misafir yatak odası~
-Konforlu görünen bir yatak odasındasın. Büyü enerjisinden oluşmuş küçük
-bir küre başının üstünde durup, ışık sağlıyor. Küçük bir karyola odanın bir
-köşesinde. Çok konforlu görünen bu karyolada biri uyuyor. Tek çıkış batıya
-dönüyor.
+Bir misafir yatak odasÄ±~
+Konforlu gÃ¶rÃ¼nen bir yatak odasÄ±ndasÄ±n. BÃ¼yÃ¼ enerjisinden oluÅŸmuÅŸ kÃ¼Ã§Ã¼k
+bir kÃ¼re baÅŸÄ±nÄ±n Ã¼stÃ¼nde durup, Ä±ÅŸÄ±k saÄŸlÄ±yor. KÃ¼Ã§Ã¼k bir karyola odanÄ±n bir
+kÃ¶ÅŸesinde. Ã‡ok konforlu gÃ¶rÃ¼nen bu karyolada biri uyuyor. Tek Ã§Ä±kÄ±ÅŸ batÄ±ya
+dÃ¶nÃ¼yor.
 ~
 0 D 0
 D3
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1334
 S
 #1338
 Bir koridor~
-Güney yönünden devam eden uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor. Merdivenler bir sonraki
-kata çıkıyor ve koridor geldiğin yön olan güneye dönüyor.
+GÃ¼ney yÃ¶nÃ¼nden devam eden uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. Merdivenler bir sonraki
+kata Ã§Ä±kÄ±yor ve koridor geldiÄŸin yÃ¶n olan gÃ¼neye dÃ¶nÃ¼yor.
 ~
 0 D 0
 D1
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1339
 D2
 ~
@@ -2294,32 +2294,32 @@ D4
 0 -1 1340
 S
 #1339
-Yanık oda~
-Eskiden misafir yatak odasıymış gibi görünen bir odadasın. Duvarlar
-yanmış ve karamış. Burayı yakanın büyülü bir ateş olduğunu tahmin ediyorsun.
-Burada kalan bir önceki kişiden hiçbir iz yok, belli ki aceleyle kaçmış. Tek
-çıkış batıya, koridora dönüyor.
+YanÄ±k oda~
+Eskiden misafir yatak odasÄ±ymÄ±ÅŸ gibi gÃ¶rÃ¼nen bir odadasÄ±n. Duvarlar
+yanmÄ±ÅŸ ve karamÄ±ÅŸ. BurayÄ± yakanÄ±n bÃ¼yÃ¼lÃ¼ bir ateÅŸ olduÄŸunu tahmin ediyorsun.
+Burada kalan bir Ã¶nceki kiÅŸiden hiÃ§bir iz yok, belli ki aceleyle kaÃ§mÄ±ÅŸ. Tek
+Ã§Ä±kÄ±ÅŸ batÄ±ya, koridora dÃ¶nÃ¼yor.
 ~
 0 AD 0
 D3
 ~
-kapı yanık~
+kapÄ± yanÄ±k~
 1 -1 1338
 S
 #1340
 Bir koridor~
-Buradan batıya devam eden bir koridordasın. Duvarlardan yayılan sihirli
-ışık, etrafı yeterince görmeni sağlıyor. Silik bir ayışığı huzmesi doğudaki
-çıkmaz geçitten süzülüyor. Koridor batıya devam ediyor ve merdivenler bir
+Buradan batÄ±ya devam eden bir koridordasÄ±n. Duvarlardan yayÄ±lan sihirli
+Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. Silik bir ayÄ±ÅŸÄ±ÄŸÄ± huzmesi doÄŸudaki
+Ã§Ä±kmaz geÃ§itten sÃ¼zÃ¼lÃ¼yor. Koridor batÄ±ya devam ediyor ve merdivenler bir
 alt kata iniyor.
 ~
 0 D 0
 D0
 ~
-kapı meşe~
+kapÄ± meÅŸe~
 1 -1 1342
 D1
-Silik bir ayışığı huzmesi doğuda görülebiliyor.
+Silik bir ayÄ±ÅŸÄ±ÄŸÄ± huzmesi doÄŸuda gÃ¶rÃ¼lebiliyor.
 ~
 ~
 0 -1 1341
@@ -2333,10 +2333,10 @@ D5
 0 -1 1338
 S
 #1341
-Çıkmaz bir geçit~
-Küçük bir çıkmaz geçittesin. Doğudaki bir pencereden içeriye ay ışığı
-süzülüyor ve hoş bir esinti yüzünü okşuyor. Bu pencereden çevredeki manzara
-görülebiliyor.
+Ã‡Ä±kmaz bir geÃ§it~
+KÃ¼Ã§Ã¼k bir Ã§Ä±kmaz geÃ§ittesin. DoÄŸudaki bir pencereden iÃ§eriye ay Ä±ÅŸÄ±ÄŸÄ±
+sÃ¼zÃ¼lÃ¼yor ve hoÅŸ bir esinti yÃ¼zÃ¼nÃ¼ okÅŸuyor. Bu pencereden Ã§evredeki manzara
+gÃ¶rÃ¼lebiliyor.
 ~
 0 D 0
 D3
@@ -2344,22 +2344,22 @@ D3
 ~
 0 -1 1340
 E
-doğu pencere~
-Göz alabildiğine uzanan, kara ağaçlardan oluşmuş bu örtü ancak Haon-Dor
-kara ormanı olabilir. Uzaklarda kuzeydoğu yönündeki silik bir ışık kümesi
-herhalde Selenge Şehri.
+doÄŸu pencere~
+GÃ¶z alabildiÄŸine uzanan, kara aÄŸaÃ§lardan oluÅŸmuÅŸ bu Ã¶rtÃ¼ ancak Haon-Dor
+kara ormanÄ± olabilir. Uzaklarda kuzeydoÄŸu yÃ¶nÃ¼ndeki silik bir Ä±ÅŸÄ±k kÃ¼mesi
+herhalde Selenge Åehri.
 ~
 S
 #1342
-Çırakların Kışlası~
-Çırak büyü kullanıcılarının kışlasındasın. Etrafta büyü çalışmasına
-kaptırmış olan, ya da basit büyüleri çalışan büyü çırakları var. Karyolalar
-duvarda dizili ve oda batıya devam ediyor.
+Ã‡Ä±raklarÄ±n KÄ±ÅŸlasÄ±~
+Ã‡Ä±rak bÃ¼yÃ¼ kullanÄ±cÄ±larÄ±nÄ±n kÄ±ÅŸlasÄ±ndasÄ±n. Etrafta bÃ¼yÃ¼ Ã§alÄ±ÅŸmasÄ±na
+kaptÄ±rmÄ±ÅŸ olan, ya da basit bÃ¼yÃ¼leri Ã§alÄ±ÅŸan bÃ¼yÃ¼ Ã§Ä±raklarÄ± var. Karyolalar
+duvarda dizili ve oda batÄ±ya devam ediyor.
 ~
 0 D 0
 D2
 ~
-kapı meşe~
+kapÄ± meÅŸe~
 1 -1 1340
 D3
 ~
@@ -2368,13 +2368,13 @@ D3
 S
 #1343
 Bir koridor~
-Doğu ve batı yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor. Kuzeyde bir kapı var.
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. Kuzeyde bir kapÄ± var.
 ~
 0 D 0
 D0
 ~
-kapı meşe~
+kapÄ± meÅŸe~
 1 -1 1344
 D1
 ~
@@ -2386,10 +2386,10 @@ D3
 0 -1 1345
 S
 #1344
-Çırakların Kışlası~
-Çırak büyü kullanıcılarının kışlasındasın. Etrafta büyü çalışmasına
-kaptırmış olan, ya da basit büyüleri çalışan büyü çırakları var. Karyolalar
-duvarda dizili ve oda doğuya devam ediyor.
+Ã‡Ä±raklarÄ±n KÄ±ÅŸlasÄ±~
+Ã‡Ä±rak bÃ¼yÃ¼ kullanÄ±cÄ±larÄ±nÄ±n kÄ±ÅŸlasÄ±ndasÄ±n. Etrafta bÃ¼yÃ¼ Ã§alÄ±ÅŸmasÄ±na
+kaptÄ±rmÄ±ÅŸ olan, ya da basit bÃ¼yÃ¼leri Ã§alÄ±ÅŸan bÃ¼yÃ¼ Ã§Ä±raklarÄ± var. Karyolalar
+duvarda dizili ve oda doÄŸuya devam ediyor.
 ~
 0 D 0
 D1
@@ -2398,20 +2398,20 @@ D1
 0 -1 1342
 D2
 ~
-kapı meşe~
+kapÄ± meÅŸe~
 1 -1 1343
 S
 #1345
 Bir koridor~
-Doğu ve batı yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor. Kuzeydeki kapının altından
-ışık patlamaları görüyorsun.
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. Kuzeydeki kapÄ±nÄ±n altÄ±ndan
+Ä±ÅŸÄ±k patlamalarÄ± gÃ¶rÃ¼yorsun.
 ~
 0 D 0
 D0
-Mavi bir ışık patlaması bir anda kapının kenarlarını ışıldatıyor.
+Mavi bir Ä±ÅŸÄ±k patlamasÄ± bir anda kapÄ±nÄ±n kenarlarÄ±nÄ± Ä±ÅŸÄ±ldatÄ±yor.
 ~
-kapı meşe~
+kapÄ± meÅŸe~
 1 -1 1346
 D1
 ~
@@ -2423,22 +2423,22 @@ D3
 0 -1 1347
 S
 #1346
-Çırakların Atölyesi~
-Küçük bir atölyedesin. Yazı aletleri ve parşömenler bazı çalışma
-masalarının üzerine dağılmış. Uzaktaki bir köşede birkaç genç büyücü yavru
-bir kediyi köşeye sıkıştırmış, üzerinde büyülerini deniyorlar. Görünen tek
-çıkış güneye, koridora dönüyor.
+Ã‡Ä±raklarÄ±n AtÃ¶lyesi~
+KÃ¼Ã§Ã¼k bir atÃ¶lyedesin. YazÄ± aletleri ve parÅŸÃ¶menler bazÄ± Ã§alÄ±ÅŸma
+masalarÄ±nÄ±n Ã¼zerine daÄŸÄ±lmÄ±ÅŸ. Uzaktaki bir kÃ¶ÅŸede birkaÃ§ genÃ§ bÃ¼yÃ¼cÃ¼ yavru
+bir kediyi kÃ¶ÅŸeye sÄ±kÄ±ÅŸtÄ±rmÄ±ÅŸ, Ã¼zerinde bÃ¼yÃ¼lerini deniyorlar. GÃ¶rÃ¼nen tek
+Ã§Ä±kÄ±ÅŸ gÃ¼neye, koridora dÃ¶nÃ¼yor.
 ~
 0 D 0
 D2
 ~
-kapı meşe~
+kapÄ± meÅŸe~
 1 -1 1345
 S
 #1347
-Koridordaki bir dönemeç~
-Koridordaki bir dönemeçtesin. Duvarlardan yayılan sihirli ışık, etrafı
-yeterince görmeni sağlıyor. Koridor güneye ve doğuya devam ediyor.
+Koridordaki bir dÃ¶nemeÃ§~
+Koridordaki bir dÃ¶nemeÃ§tesin. Duvarlardan yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ±
+yeterince gÃ¶rmeni saÄŸlÄ±yor. Koridor gÃ¼neye ve doÄŸuya devam ediyor.
 ~
 0 D 0
 D1
@@ -2452,9 +2452,9 @@ D2
 S
 #1348
 Koridor~
-Kuzey ve güney yönünde devam eden uzun bir koridordasın. Duvarlardan
-yayılan sihirli ışık, etrafı yeterince görmeni sağlıyor. Batıda kapalı,
-metal bir kapı var.
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde devam eden uzun bir koridordasÄ±n. Duvarlardan
+yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. BatÄ±da kapalÄ±,
+metal bir kapÄ± var.
 ~
 0 D 0
 D0
@@ -2467,25 +2467,25 @@ D2
 0 -1 1350
 D3
 ~
-kapı metal~
+kapÄ± metal~
 1 -1 1349
 S
 #1349
-Bir sınıf~
-Sıkılmış görünen büyü sanatı öğrencileriyle dolu büyük bir sınıftasın.
-Öğretmen fişek konusundaki dersini kesiyor ve sana doğru saldırmak için bir
-hamle yapıyor. Görülen tek çıkış doğudaki koridor.
+Bir sÄ±nÄ±f~
+SÄ±kÄ±lmÄ±ÅŸ gÃ¶rÃ¼nen bÃ¼yÃ¼ sanatÄ± Ã¶ÄŸrencileriyle dolu bÃ¼yÃ¼k bir sÄ±nÄ±ftasÄ±n.
+Ã–ÄŸretmen fiÅŸek konusundaki dersini kesiyor ve sana doÄŸru saldÄ±rmak iÃ§in bir
+hamle yapÄ±yor. GÃ¶rÃ¼len tek Ã§Ä±kÄ±ÅŸ doÄŸudaki koridor.
 ~
 0 D 0
 D1
 ~
-kapı metal~
+kapÄ± metal~
 1 -1 1348
 S
 #1350
 Bir koridor~
-Kuzey ve güney yönünde devam eden uzun bir koridordasın. Duvarlardan
-yayılan sihirli ışık, etrafı yeterince görmeni sağlıyor.
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde devam eden uzun bir koridordasÄ±n. Duvarlardan
+yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor.
 ~
 0 D 0
 D0
@@ -2498,13 +2498,13 @@ D2
 0 -1 1351
 D3
 ~
-kapı metal~
+kapÄ± metal~
 1 -1 1352
 S
 #1351
 Bir koridor~
-Kuzey ve güney yönünde devam eden uzun bir koridordasın. Duvarlardan
-yayılan sihirli ışık, etrafı yeterince görmeni sağlıyor.
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde devam eden uzun bir koridordasÄ±n. Duvarlardan
+yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor.
 ~
 0 D 0
 D0
@@ -2517,25 +2517,25 @@ D2
 0 -1 1353
 D3
 ~
-kapı metal~
+kapÄ± metal~
 1 -1 1354
 S
 #1352
-Boş bir sınıf~
-Boş bir sınıftasın. Havada asılı duran tahtaya bazı mühürler çizilmiş.
-Bunun dışında burada birkaç sıra var. Pek fazla eşya yok denilebilir.
-Görünen tek çıkış doğudaki koridora doğru.
+BoÅŸ bir sÄ±nÄ±f~
+BoÅŸ bir sÄ±nÄ±ftasÄ±n. Havada asÄ±lÄ± duran tahtaya bazÄ± mÃ¼hÃ¼rler Ã§izilmiÅŸ.
+Bunun dÄ±ÅŸÄ±nda burada birkaÃ§ sÄ±ra var. Pek fazla eÅŸya yok denilebilir.
+GÃ¶rÃ¼nen tek Ã§Ä±kÄ±ÅŸ doÄŸudaki koridora doÄŸru.
 ~
 0 D 0
 D1
 ~
-kapı metal~
+kapÄ± metal~
 1 -1 1350
 S
 #1353
-Koridordaki bir dönemeç~
-Koridordaki bir dönemeçtesin. Duvarlardan yayılan sihirli ışık, etrafı
-yeterince görmeni sağlıyor. Koridor doğuya ve kuzeye devam ediyor.
+Koridordaki bir dÃ¶nemeÃ§~
+Koridordaki bir dÃ¶nemeÃ§tesin. Duvarlardan yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ±
+yeterince gÃ¶rmeni saÄŸlÄ±yor. Koridor doÄŸuya ve kuzeye devam ediyor.
 ~
 0 D 0
 D0
@@ -2548,22 +2548,22 @@ D1
 0 -1 1355
 S
 #1354
-Boş bir sınıf~
-Boş görünen bir sınıftasın. Tuhaf, izleniyormuşsun gibi bir his içine
-doğuyor, ve bir cüppe hışırtısı duyuyorsun. Görünen tek çıkış doğudaki
+BoÅŸ bir sÄ±nÄ±f~
+BoÅŸ gÃ¶rÃ¼nen bir sÄ±nÄ±ftasÄ±n. Tuhaf, izleniyormuÅŸsun gibi bir his iÃ§ine
+doÄŸuyor, ve bir cÃ¼ppe hÄ±ÅŸÄ±rtÄ±sÄ± duyuyorsun. GÃ¶rÃ¼nen tek Ã§Ä±kÄ±ÅŸ doÄŸudaki
 koridora.
 ~
 0 D 0
 D1
 ~
-kapı metal~
+kapÄ± metal~
 1 -1 1351
 S
 #1355
 Bir koridor~
-Doğu ve batı yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor. Güneyde sağlam, demir bir
-kapı var.
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. GÃ¼neyde saÄŸlam, demir bir
+kapÄ± var.
 ~
 0 D 0
 D1
@@ -2572,7 +2572,7 @@ D1
 0 -1 1356
 D2
 ~
-kapı sağlam demir~
+kapÄ± saÄŸlam demir~
 1 -1 1357
 D3
 ~
@@ -2581,9 +2581,9 @@ D3
 S
 #1356
 Bir koridor~
-Doğu ve batı yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor. Güneyde büyük, meşe bir
-kapı var.
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. GÃ¼neyde bÃ¼yÃ¼k, meÅŸe bir
+kapÄ± var.
 ~
 0 D 0
 D1
@@ -2592,7 +2592,7 @@ D1
 0 -1 1358
 D2
 ~
-kapı büyük meşe~
+kapÄ± bÃ¼yÃ¼k meÅŸe~
 1 -1 1359
 D3
 ~
@@ -2601,20 +2601,20 @@ D3
 S
 #1357
 Bir Amfi-tiyatro~
-Küçük bir amfi-tiyatrodasın. Rahat görünen sandalyelerden oluşan sıralar
-büyük bir sahnenin etrafında çemberler oluşturuyor. Adım seslerinin yankısı
-çok yüksek gibi. Görünen tek çıkış kuzeydeki koridora dönüyor.
+KÃ¼Ã§Ã¼k bir amfi-tiyatrodasÄ±n. Rahat gÃ¶rÃ¼nen sandalyelerden oluÅŸan sÄ±ralar
+bÃ¼yÃ¼k bir sahnenin etrafÄ±nda Ã§emberler oluÅŸturuyor. AdÄ±m seslerinin yankÄ±sÄ±
+Ã§ok yÃ¼ksek gibi. GÃ¶rÃ¼nen tek Ã§Ä±kÄ±ÅŸ kuzeydeki koridora dÃ¶nÃ¼yor.
 ~
 0 D 0
 D0
 ~
-kapı sağlam demir~
+kapÄ± saÄŸlam demir~
 1 -1 1355
 S
 #1358
 Bir koridor~
-Doğu ve batı yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor. Güneyde küçük bir kapı var.
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. GÃ¼neyde kÃ¼Ã§Ã¼k bir kapÄ± var.
 ~
 0 D 0
 D1
@@ -2623,7 +2623,7 @@ D1
 0 -1 1360
 D2
 ~
-kapı küçük~
+kapÄ± kÃ¼Ã§Ã¼k~
 1 -1 1361
 D3
 ~
@@ -2631,20 +2631,20 @@ D3
 0 -1 1356
 S
 #1359
-Eğitim Odası~
-Büyük bir eğitim odasında bulunuyorsun. Bu oda dövüş için kullanılan
-mankenler ve diğer dövüş eğitimi malzemeleriyle dolu.
+EÄŸitim OdasÄ±~
+BÃ¼yÃ¼k bir eÄŸitim odasÄ±nda bulunuyorsun. Bu oda dÃ¶vÃ¼ÅŸ iÃ§in kullanÄ±lan
+mankenler ve diÄŸer dÃ¶vÃ¼ÅŸ eÄŸitimi malzemeleriyle dolu.
 ~
 0 D 0
 D0
 ~
-kapı~
+kapÄ±~
 1 -1 1356
 S
 #1360
-Koridordaki bir dönemeç~
-Koridordaki bir dönemeçtesin. Duvarlardan yayılan sihirli ışık, etrafı
-yeterince görmeni sağlıyor. Koridor kuzeye ve batıya devam ediyor.
+Koridordaki bir dÃ¶nemeÃ§~
+Koridordaki bir dÃ¶nemeÃ§tesin. Duvarlardan yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ±
+yeterince gÃ¶rmeni saÄŸlÄ±yor. Koridor kuzeye ve batÄ±ya devam ediyor.
 ~
 0 D 0
 D0
@@ -2657,21 +2657,21 @@ D3
 0 -1 1358
 S
 #1361
-Bir Düello Odası~
-Gizemli karşılaşmalar için kullanılan geniş bir odadasın. Duvarlar, tavan
-ve yer, ateşli büyülerin izlerini taşıyor, fakat yine de sağlam ve sabit
-görünüyor. Tek çıkış kuzeydeki koridora dönüyor.
+Bir DÃ¼ello OdasÄ±~
+Gizemli karÅŸÄ±laÅŸmalar iÃ§in kullanÄ±lan geniÅŸ bir odadasÄ±n. Duvarlar, tavan
+ve yer, ateÅŸli bÃ¼yÃ¼lerin izlerini taÅŸÄ±yor, fakat yine de saÄŸlam ve sabit
+gÃ¶rÃ¼nÃ¼yor. Tek Ã§Ä±kÄ±ÅŸ kuzeydeki koridora dÃ¶nÃ¼yor.
 ~
 0 D 0
 D0
 ~
-kapı küçük~
+kapÄ± kÃ¼Ã§Ã¼k~
 1 -1 1358
 S
 #1362
 Bir koridor~
-Kuzey ve güney yönünde devam eden uzun bir koridordasın. Duvarlardan
-yayılan sihirli ışık, etrafı yeterince görmeni sağlıyor. Doğuda bir kapı
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde devam eden uzun bir koridordasÄ±n. Duvarlardan
+yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. DoÄŸuda bir kapÄ±
 var.
 ~
 0 D 0
@@ -2681,7 +2681,7 @@ D0
 0 -1 1363
 D1
 ~
-kapı~
+kapÄ±~
 1 -1 1364
 D2
 ~
@@ -2690,9 +2690,9 @@ D2
 S
 #1363
 Bir koridor~
-Kuzey ve güney yönünde devam eden uzun bir koridordasın. Duvarlardan
-yayılan sihirli ışık, etrafı yeterince görmeni sağlıyor. Doğuda tahta bir
-kapı var.
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde devam eden uzun bir koridordasÄ±n. Duvarlardan
+yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. DoÄŸuda tahta bir
+kapÄ± var.
 ~
 0 D 0
 D0
@@ -2701,7 +2701,7 @@ D0
 0 -1 1366
 D1
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1365
 D2
 ~
@@ -2709,37 +2709,37 @@ D2
 0 -1 1362
 S
 #1364
-Büyü ustası dinlenme odası~
-Büyük, konforlu görünen bir dinlenme odasındasın. Mesai saati dışındaki
-büyü öğretmenleri burada dinlenerek boş zamanlarını değerlendiriyorlar.
-Büyük bir kahve makinası uzağındaki duvarda duruyor. Görünen tek çıkış
-batıdaki koridora dönüyor.
+BÃ¼yÃ¼ ustasÄ± dinlenme odasÄ±~
+BÃ¼yÃ¼k, konforlu gÃ¶rÃ¼nen bir dinlenme odasÄ±ndasÄ±n. Mesai saati dÄ±ÅŸÄ±ndaki
+bÃ¼yÃ¼ Ã¶ÄŸretmenleri burada dinlenerek boÅŸ zamanlarÄ±nÄ± deÄŸerlendiriyorlar.
+BÃ¼yÃ¼k bir kahve makinasÄ± uzaÄŸÄ±ndaki duvarda duruyor. GÃ¶rÃ¼nen tek Ã§Ä±kÄ±ÅŸ
+batÄ±daki koridora dÃ¶nÃ¼yor.
 ~
 0 D 0
 D3
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1362
 S
 #1365
-Bir yatak odası~
-Geniş, peluş bir yatak odasında bulunuyorsun. Buranın sahibi belli ki
-burada yüksek bir mevkiye sahip. Bir duvarda buzdan bir ayna var, ve büyülü
-bir küre odanın ortasındaki bir sehpanın üzerinde bulunuyor. Koca bir yatak
-yaklaşık bir metre yükseklikte, havada süzülüyor. Tek çıkış batıdaki
+Bir yatak odasÄ±~
+GeniÅŸ, peluÅŸ bir yatak odasÄ±nda bulunuyorsun. BuranÄ±n sahibi belli ki
+burada yÃ¼ksek bir mevkiye sahip. Bir duvarda buzdan bir ayna var, ve bÃ¼yÃ¼lÃ¼
+bir kÃ¼re odanÄ±n ortasÄ±ndaki bir sehpanÄ±n Ã¼zerinde bulunuyor. Koca bir yatak
+yaklaÅŸÄ±k bir metre yÃ¼kseklikte, havada sÃ¼zÃ¼lÃ¼yor. Tek Ã§Ä±kÄ±ÅŸ batÄ±daki
 koridora.
 ~
 0 D 0
 D3
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1363
 S
 #1366
 Bir koridor~
-Kuzey ve güney yönünde devam eden uzun bir koridordasın. Duvarlardan
-yayılan sihirli ışık, etrafı yeterince görmeni sağlıyor. Doğu yönünde cam
-bir kapı görüyorsun.
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde devam eden uzun bir koridordasÄ±n. Duvarlardan
+yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. DoÄŸu yÃ¶nÃ¼nde cam
+bir kapÄ± gÃ¶rÃ¼yorsun.
 ~
 0 D 0
 D0
@@ -2748,7 +2748,7 @@ D0
 0 -1 1368
 D1
 ~
-kapı cam~
+kapÄ± cam~
 1 -1 1367
 D2
 ~
@@ -2756,24 +2756,24 @@ D2
 0 -1 1363
 S
 #1367
-Çalışma odası~
-Küçük, bakımlı bir çalışma odasında bulunuyorsun. Kadim kitaplar
-duvardaki raflara dizilmiş. Devasa bir masa, üzerine haritalar yığılmış bir
-şekilde odanın ortasında duruyor. Tek ışık kaynağı şaşırtıcı bir biçimde
-büyülü olmayan bir gaz lambası. Görünen tek çıkış batıdaki koridora dönüyor.
+Ã‡alÄ±ÅŸma odasÄ±~
+KÃ¼Ã§Ã¼k, bakÄ±mlÄ± bir Ã§alÄ±ÅŸma odasÄ±nda bulunuyorsun. Kadim kitaplar
+duvardaki raflara dizilmiÅŸ. Devasa bir masa, Ã¼zerine haritalar yÄ±ÄŸÄ±lmÄ±ÅŸ bir
+ÅŸekilde odanÄ±n ortasÄ±nda duruyor. Tek Ä±ÅŸÄ±k kaynaÄŸÄ± ÅŸaÅŸÄ±rtÄ±cÄ± bir biÃ§imde
+bÃ¼yÃ¼lÃ¼ olmayan bir gaz lambasÄ±. GÃ¶rÃ¼nen tek Ã§Ä±kÄ±ÅŸ batÄ±daki koridora dÃ¶nÃ¼yor.
 ~
 0 D 0
 D3
 ~
-kapı cam~
+kapÄ± cam~
 1 -1 1366
 S
 #1368
-Merdivenlerin altında~
-Uzun bir koridorun sonundasın. Duvarlardan yayılan sihirli ışık, etrafı
-yeterince görmeni sağlıyor. Zayıf bir muhafız sessizce yukarıdaki
-seviyelerin girişinde devriye geziyor. Merdivenler yukarıya çıkıyor ve
-koridor geldiğin yön olan güneye devam ediyor.
+Merdivenlerin altÄ±nda~
+Uzun bir koridorun sonundasÄ±n. Duvarlardan yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ±
+yeterince gÃ¶rmeni saÄŸlÄ±yor. ZayÄ±f bir muhafÄ±z sessizce yukarÄ±daki
+seviyelerin giriÅŸinde devriye geziyor. Merdivenler yukarÄ±ya Ã§Ä±kÄ±yor ve
+koridor geldiÄŸin yÃ¶n olan gÃ¼neye devam ediyor.
 ~
 0 D 0
 D2
@@ -2786,11 +2786,11 @@ D4
 0 -1 1369
 S
 #1369
-Merdivenlerin üstünde~
-Bir merdivenin üstündesin. Buradaki salonlar aşağıdakilere göre daha az
-kullanılmış görünüyor. Belli ki bu büyü dolu koridorlara giriş düşük
-kademeli büyücülere sınırlı. Duvarlar, burayı biraz aydınlatan mavi bir ayla
-yayıyor. Koridor buradan batıya devam ediyor ve merdivenler aşağı iniyor.
+Merdivenlerin Ã¼stÃ¼nde~
+Bir merdivenin Ã¼stÃ¼ndesin. Buradaki salonlar aÅŸaÄŸÄ±dakilere gÃ¶re daha az
+kullanÄ±lmÄ±ÅŸ gÃ¶rÃ¼nÃ¼yor. Belli ki bu bÃ¼yÃ¼ dolu koridorlara giriÅŸ dÃ¼ÅŸÃ¼k
+kademeli bÃ¼yÃ¼cÃ¼lere sÄ±nÄ±rlÄ±. Duvarlar, burayÄ± biraz aydÄ±nlatan mavi bir ayla
+yayÄ±yor. Koridor buradan batÄ±ya devam ediyor ve merdivenler aÅŸaÄŸÄ± iniyor.
 ~
 0 D 0
 D3
@@ -2804,14 +2804,14 @@ D5
 S
 #1370
 Bir koridor~
-Doğu ve batı yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor. Kuzeyde kalın görünen tahta
-bir kapı var.
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. Kuzeyde kalÄ±n gÃ¶rÃ¼nen tahta
+bir kapÄ± var.
 ~
 0 D 0
 D0
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1371
 D1
 ~
@@ -2823,16 +2823,16 @@ D3
 0 -1 1372
 S
 #1371
-Küçük bir ofis~
-Küçük bir ofistesin. Burası bir yazmanın çalışma yeri gibi. Çalışma
-masaları üzerinde tüy kalemler, mürekkep hokkaları ve parşömenler var.
-Batıda bir bölme, bir perde ile kapanmış fakat arkasında bir mumun alevinin
-titrediği görülebiliyor.
+KÃ¼Ã§Ã¼k bir ofis~
+KÃ¼Ã§Ã¼k bir ofistesin. BurasÄ± bir yazmanÄ±n Ã§alÄ±ÅŸma yeri gibi. Ã‡alÄ±ÅŸma
+masalarÄ± Ã¼zerinde tÃ¼y kalemler, mÃ¼rekkep hokkalarÄ± ve parÅŸÃ¶menler var.
+BatÄ±da bir bÃ¶lme, bir perde ile kapanmÄ±ÅŸ fakat arkasÄ±nda bir mumun alevinin
+titrediÄŸi gÃ¶rÃ¼lebiliyor.
 ~
 0 D 0
 D2
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1370
 D3
 ~
@@ -2841,8 +2841,8 @@ curtain~
 S
 #1372
 Bir koridor~
-Doğu ve batı yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor.
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor.
 ~
 0 D 0
 D1
@@ -2855,11 +2855,11 @@ D3
 0 -1 1374
 S
 #1373
-Baş yazmanın çalışma odası~
-Kulenin baş yazmanının çalışma odasındasın. Yarım bitirilmiş büyülü
-parşömenler, odanın ortasındaki yazı masasının üzerinde yatıyor. Mavi
-alevlerle parlayan dev bir mum burayı aydınlatıyor. Görülen tek çıkış
-geldiğin yön.
+BaÅŸ yazmanÄ±n Ã§alÄ±ÅŸma odasÄ±~
+Kulenin baÅŸ yazmanÄ±nÄ±n Ã§alÄ±ÅŸma odasÄ±ndasÄ±n. YarÄ±m bitirilmiÅŸ bÃ¼yÃ¼lÃ¼
+parÅŸÃ¶menler, odanÄ±n ortasÄ±ndaki yazÄ± masasÄ±nÄ±n Ã¼zerinde yatÄ±yor. Mavi
+alevlerle parlayan dev bir mum burayÄ± aydÄ±nlatÄ±yor. GÃ¶rÃ¼len tek Ã§Ä±kÄ±ÅŸ
+geldiÄŸin yÃ¶n.
 ~
 0 D 0
 D1
@@ -2869,15 +2869,15 @@ perde~
 S
 #1374
 Bir koridor~
-Doğu ve batı yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor. Yarım açık bir kapı
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. YarÄ±m aÃ§Ä±k bir kapÄ±
 kuzeyde.
 ~
 0 D 0
 D0
-Yarım açık kapıdan karanlık bir oda görülebiliyor.
+YarÄ±m aÃ§Ä±k kapÄ±dan karanlÄ±k bir oda gÃ¶rÃ¼lebiliyor.
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1375
 D1
 ~
@@ -2889,20 +2889,20 @@ D3
 0 -1 1376
 S
 #1375
-Bir depo odası~
-Küçük, karanlık bir depo odasındasın. Birkaç tane yaygın eşya duvarlara
-asılmış ve pek ilgi çekici değil.
+Bir depo odasÄ±~
+KÃ¼Ã§Ã¼k, karanlÄ±k bir depo odasÄ±ndasÄ±n. BirkaÃ§ tane yaygÄ±n eÅŸya duvarlara
+asÄ±lmÄ±ÅŸ ve pek ilgi Ã§ekici deÄŸil.
 ~
 0 AD 0
 D2
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1374
 S
 #1376
-Koridordaki bir dönemeç~
-Koridordaki bir dönemeçtesin. Duvarlardan yayılan sihirli ışık, etrafı
-yeterince görmeni sağlıyor. Koridor güneye ve doğuya devam ediyor.
+Koridordaki bir dÃ¶nemeÃ§~
+Koridordaki bir dÃ¶nemeÃ§tesin. Duvarlardan yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ±
+yeterince gÃ¶rmeni saÄŸlÄ±yor. Koridor gÃ¼neye ve doÄŸuya devam ediyor.
 ~
 0 D 0
 D1
@@ -2916,9 +2916,9 @@ D2
 S
 #1377
 Bir koridor~
-Kuzey ve güney yönünde devam eden uzun bir koridordasın. Duvarlardan
-yayılan sihirli ışık, etrafı yeterince görmeni sağlıyor. Demirden bir sınır
-kapısı batıda görülebiliyor.
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde devam eden uzun bir koridordasÄ±n. Duvarlardan
+yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. Demirden bir sÄ±nÄ±r
+kapÄ±sÄ± batÄ±da gÃ¶rÃ¼lebiliyor.
 ~
 0 D 0
 D0
@@ -2931,14 +2931,14 @@ D2
 0 -1 1378
 D3
 ~
-kapı demir~
+kapÄ± demir~
 1 -1 1379
 S
 #1378
 Bir koridor~
-Kuzey ve güney yönünde devam eden uzun bir koridordasın. Duvarlardan
-yayılan sihirli ışık, etrafı yeterince görmeni sağlıyor. Metalin metale
-vurmasından oluşan keskin ses batı yönünden duyuluyor.
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde devam eden uzun bir koridordasÄ±n. Duvarlardan
+yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. Metalin metale
+vurmasÄ±ndan oluÅŸan keskin ses batÄ± yÃ¶nÃ¼nden duyuluyor.
 ~
 0 D 0
 D0
@@ -2951,20 +2951,20 @@ D2
 0 -1 1380
 D3
 ~
-kapı demir~
+kapÄ± demir~
 1 -1 1381
 S
 #1379
-Bir depo odası~
-Büyük bir depo odasındasın. Maden cevherleri, mineraller ve diğer nadir
-maddelerle dolu sandıklar, titizlikle dizilmiş kıymetli metallerden oluşan
-yığınlar burada bulunuyor. Koruma mühürleriyle dolu bir raf duvarlardan
-birine mıhlanmış. Metalin metale çarpma sesi güneyden duyulabiliyor.
+Bir depo odasÄ±~
+BÃ¼yÃ¼k bir depo odasÄ±ndasÄ±n. Maden cevherleri, mineraller ve diÄŸer nadir
+maddelerle dolu sandÄ±klar, titizlikle dizilmiÅŸ kÄ±ymetli metallerden oluÅŸan
+yÄ±ÄŸÄ±nlar burada bulunuyor. Koruma mÃ¼hÃ¼rleriyle dolu bir raf duvarlardan
+birine mÄ±hlanmÄ±ÅŸ. Metalin metale Ã§arpma sesi gÃ¼neyden duyulabiliyor.
 ~
 0 D 0
 D1
 ~
-kapı demir~
+kapÄ± demir~
 1 -1 1377
 D2
 ~
@@ -2973,8 +2973,8 @@ D2
 S
 #1380
 Bir koridor~
-Kuzey ve güney yönünde devam eden uzun bir koridordasın. Duvarlardan
-yayılan sihirli ışık, etrafı yeterince görmeni sağlıyor.
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde devam eden uzun bir koridordasÄ±n. Duvarlardan
+yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor.
 ~
 0 D 0
 D0
@@ -2987,13 +2987,13 @@ D2
 0 -1 1383
 S
 #1381
-Çok sıcak bir oda~
-Çok sıcak bir odadasın. Duvarlardan birinde, içinde sihirli alevlerin
-parladığı, tavandaki havalandırmaya doğru mavi, ağır dumanlar çıkaran büyük
-bir demirci ocağı var. Üzerine rünler kazınmış olan, iyi kullanılmış mithril
-bir örs odanın ortasında duruyor. Diğer metal işi malzemeleri, yaklaşık üç
-metre yukarıda hiçbir şeye bağlı bulunmayarak havada asılı olan rafta
-sallanıyor.
+Ã‡ok sÄ±cak bir oda~
+Ã‡ok sÄ±cak bir odadasÄ±n. Duvarlardan birinde, iÃ§inde sihirli alevlerin
+parladÄ±ÄŸÄ±, tavandaki havalandÄ±rmaya doÄŸru mavi, aÄŸÄ±r dumanlar Ã§Ä±karan bÃ¼yÃ¼k
+bir demirci ocaÄŸÄ± var. Ãœzerine rÃ¼nler kazÄ±nmÄ±ÅŸ olan, iyi kullanÄ±lmÄ±ÅŸ mithril
+bir Ã¶rs odanÄ±n ortasÄ±nda duruyor. DiÄŸer metal iÅŸi malzemeleri, yaklaÅŸÄ±k Ã¼Ã§
+metre yukarÄ±da hiÃ§bir ÅŸeye baÄŸlÄ± bulunmayarak havada asÄ±lÄ± olan rafta
+sallanÄ±yor.
 ~
 0 D 0
 D0
@@ -3002,11 +3002,11 @@ D0
 1 -1 1379
 D1
 ~
-kapı demir~
+kapÄ± demir~
 1 -1 1378
 D2
 ~
-kapı~
+kapÄ±~
 1 -1 1382
 D4
 ~
@@ -3014,22 +3014,22 @@ vent~
 1 -1 1412
 S
 #1382
-Usta Efsuncu'nun Odası~
-Usta Efsuncu'nun odasına girdin. Duvarlarda iyi işlenmiş silahların asılı
-olduğu raflar var. Üzerinde parlayan bir kilit bulunan bir sandık odanın bir
-duvarında duruyor. Birkaç tane bitmemiş görünen kılıç küçük bir çalışma
-masasının üzerinde duruyor.
+Usta Efsuncu'nun OdasÄ±~
+Usta Efsuncu'nun odasÄ±na girdin. Duvarlarda iyi iÅŸlenmiÅŸ silahlarÄ±n asÄ±lÄ±
+olduÄŸu raflar var. Ãœzerinde parlayan bir kilit bulunan bir sandÄ±k odanÄ±n bir
+duvarÄ±nda duruyor. BirkaÃ§ tane bitmemiÅŸ gÃ¶rÃ¼nen kÄ±lÄ±Ã§ kÃ¼Ã§Ã¼k bir Ã§alÄ±ÅŸma
+masasÄ±nÄ±n Ã¼zerinde duruyor.
 ~
 0 CD 0
 D0
 ~
-kapı~
+kapÄ±~
 1 -1 1381
 S
 #1383
-Koridordaki bir dönemeç~
-Koridordaki bir dönemeçtesin. Duvarlardan yayılan sihirli ışık, etrafı
-yeterince görmeni sağlıyor. Koridor doğuya ve kuzeye devam ediyor.
+Koridordaki bir dÃ¶nemeÃ§~
+Koridordaki bir dÃ¶nemeÃ§tesin. Duvarlardan yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ±
+yeterince gÃ¶rmeni saÄŸlÄ±yor. Koridor doÄŸuya ve kuzeye devam ediyor.
 ~
 0 D 0
 D0
@@ -3043,9 +3043,9 @@ D1
 S
 #1384
 Bir koridor~
-Doğu ve batı yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor. Çelik bir kapı güneyde
-görülüyor.
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. Ã‡elik bir kapÄ± gÃ¼neyde
+gÃ¶rÃ¼lÃ¼yor.
 ~
 0 D 0
 D1
@@ -3054,7 +3054,7 @@ D1
 0 -1 1385
 D2
 ~
-kapı çelik~
+kapÄ± Ã§elik~
 1 -1 1386
 D3
 ~
@@ -3063,8 +3063,8 @@ D3
 S
 #1385
 Bir koridor~
-Doğu ve batı yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor.
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor.
 ~
 0 D 0
 D1
@@ -3078,15 +3078,15 @@ D3
 S
 #1386
 Bir laboratuvar~
-Küçük bir laboratuvardasın. Bir çalışma masasının üzerinde bir çok tuhaf
-alet, küçük şişeler ve karalanmış notlar var. Oda hiç düzenli değiş ve
-neredeyse terkedilmiş, veya deli bir adam tarafından kullanılıyor gibi
-görünüyor. Görülen çıkışlar doğu ve kuzeye.
+KÃ¼Ã§Ã¼k bir laboratuvardasÄ±n. Bir Ã§alÄ±ÅŸma masasÄ±nÄ±n Ã¼zerinde bir Ã§ok tuhaf
+alet, kÃ¼Ã§Ã¼k ÅŸiÅŸeler ve karalanmÄ±ÅŸ notlar var. Oda hiÃ§ dÃ¼zenli deÄŸiÅŸ ve
+neredeyse terkedilmiÅŸ, veya deli bir adam tarafÄ±ndan kullanÄ±lÄ±yor gibi
+gÃ¶rÃ¼nÃ¼yor. GÃ¶rÃ¼len Ã§Ä±kÄ±ÅŸlar doÄŸu ve kuzeye.
 ~
 0 D 0
 D0
 ~
-kapı çelik~
+kapÄ± Ã§elik~
 1 -1 1384
 D1
 ~
@@ -3095,8 +3095,8 @@ D1
 S
 #1387
 Bir koridor~
-Doğu ve batı yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor. Güneyde çelik bir kapı var
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. GÃ¼neyde Ã§elik bir kapÄ± var
 ~
 0 D 0
 D1
@@ -3105,7 +3105,7 @@ D1
 0 -1 1389
 D2
 ~
-kapı çelik~
+kapÄ± Ã§elik~
 1 -1 1390
 D3
 ~
@@ -3113,11 +3113,11 @@ D3
 0 -1 1385
 S
 #1388
-Deli Simyacı'nın Çalışma Odası~
-Deli Simyacı'nın çalışma odsındasın. Köpüren mangallar, uzun cam tüpler
-ve çok sayıda tuhaf görünümlü şişeler etrafa dağılmış. Burası inanılmaz
-derecede dağınık. Kırılmış camlar ve diğer çöpler ortalığı kirletiyor. Tek
-çıkış içeri girdiğin yer.
+Deli SimyacÄ±'nÄ±n Ã‡alÄ±ÅŸma OdasÄ±~
+Deli SimyacÄ±'nÄ±n Ã§alÄ±ÅŸma odsÄ±ndasÄ±n. KÃ¶pÃ¼ren mangallar, uzun cam tÃ¼pler
+ve Ã§ok sayÄ±da tuhaf gÃ¶rÃ¼nÃ¼mlÃ¼ ÅŸiÅŸeler etrafa daÄŸÄ±lmÄ±ÅŸ. BurasÄ± inanÄ±lmaz
+derecede daÄŸÄ±nÄ±k. KÄ±rÄ±lmÄ±ÅŸ camlar ve diÄŸer Ã§Ã¶pler ortalÄ±ÄŸÄ± kirletiyor. Tek
+Ã§Ä±kÄ±ÅŸ iÃ§eri girdiÄŸin yer.
 ~
 0 D 0
 D3
@@ -3126,9 +3126,9 @@ D3
 0 -1 1386
 S
 #1389
-Koridordaki bir dönemeç~
-Koridordaki bir dönemeçtesin. Duvarlardan yayılan sihirli ışık, etrafı
-yeterince görmeni sağlıyor. Koridor kuzeye ve batıya devam ediyor.
+Koridordaki bir dÃ¶nemeÃ§~
+Koridordaki bir dÃ¶nemeÃ§tesin. Duvarlardan yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ±
+yeterince gÃ¶rmeni saÄŸlÄ±yor. Koridor kuzeye ve batÄ±ya devam ediyor.
 ~
 0 D 0
 D0
@@ -3141,26 +3141,26 @@ D3
 0 -1 1387
 S
 #1390
-Pentagram Odası~
-Yere asitle oyulmuş beş köşeli bir yıldızın bulunduğu büyük bir odadasın.
-Çıtırdayan bir enerji alanı güneyde, çok tehlikeli görünüyor.
+Pentagram OdasÄ±~
+Yere asitle oyulmuÅŸ beÅŸ kÃ¶ÅŸeli bir yÄ±ldÄ±zÄ±n bulunduÄŸu bÃ¼yÃ¼k bir odadasÄ±n.
+Ã‡Ä±tÄ±rdayan bir enerji alanÄ± gÃ¼neyde, Ã§ok tehlikeli gÃ¶rÃ¼nÃ¼yor.
 ~
 0 D 0
 D0
 ~
-kapı çelik~
+kapÄ± Ã§elik~
 1 -1 1387
 D2
-Enerji alanı çıtırdıyor ve parlıyor, ötesinde hiçbirşey görünmüyor gibi.
+Enerji alanÄ± Ã§Ä±tÄ±rdÄ±yor ve parlÄ±yor, Ã¶tesinde hiÃ§birÅŸey gÃ¶rÃ¼nmÃ¼yor gibi.
 ~
 ~
 0 -1 1392
 S
 #1391
 Bir koridor~
-Kuzey ve güney yönünde devam eden uzun bir koridordasın. Duvarlardan
-yayılan sihirli ışık, etrafı yeterince görmeni sağlıyor. Doğuda tunçtan
-yapılmış bir kapı var.
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde devam eden uzun bir koridordasÄ±n. Duvarlardan
+yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. DoÄŸuda tunÃ§tan
+yapÄ±lmÄ±ÅŸ bir kapÄ± var.
 ~
 0 D 0
 D0
@@ -3169,7 +3169,7 @@ D0
 0 -1 1393
 D1
 ~
-kapı tunç~
+kapÄ± tunÃ§~
 1 -1 1394
 D2
 ~
@@ -3177,10 +3177,10 @@ D2
 0 -1 1389
 S
 #1392
-Enerji Alanının İçinde~
-Enerji alanına girdiğin anda vücudunda dolanan bir ağrı hissi oluşuyor.
-İyi gidiyorsun! En iyisi bu tuzağı kurmuş olan büyücünün gelip burada senin
-bedenini hapsettiği gibi ruhunu da hapsetmesini bekle.
+Enerji AlanÄ±nÄ±n Ä°Ã§inde~
+Enerji alanÄ±na girdiÄŸin anda vÃ¼cudunda dolanan bir aÄŸrÄ± hissi oluÅŸuyor.
+Ä°yi gidiyorsun! En iyisi bu tuzaÄŸÄ± kurmuÅŸ olan bÃ¼yÃ¼cÃ¼nÃ¼n gelip burada senin
+bedenini hapsettiÄŸi gibi ruhunu da hapsetmesini bekle.
 ~
 0 DN 0
 D1
@@ -3206,9 +3206,9 @@ D5
 S
 #1393
 Bir koridor~
-Kuzey ve güney yönünde devam eden uzun bir koridordasın. Duvarlardan
-yayılan sihirli ışık, etrafı yeterince görmeni sağlıyor. Doğuda tunçtan
-yapılmış bir kapı var.
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde devam eden uzun bir koridordasÄ±n. Duvarlardan
+yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. DoÄŸuda tunÃ§tan
+yapÄ±lmÄ±ÅŸ bir kapÄ± var.
 ~
 0 D 0
 D0
@@ -3217,7 +3217,7 @@ D0
 0 -1 1396
 D1
 ~
-kapı tunç~
+kapÄ± tunÃ§~
 1 -1 1395
 D2
 ~
@@ -3225,36 +3225,36 @@ D2
 0 -1 1391
 S
 #1394
-Boş bir oda~
-Boş bir odadasın. Burası hem sessiz hem de rahat, dinlenmek için güvenli
+BoÅŸ bir oda~
+BoÅŸ bir odadasÄ±n. BurasÄ± hem sessiz hem de rahat, dinlenmek iÃ§in gÃ¼venli
 bir yer gibi.
 ~
 0 CD 0
 D3
 ~
-kapı tunç~
+kapÄ± tunÃ§~
 1 -1 1391
 S
 #1395
-Teshir ustasının odası~
-Kulenin teshir ustasının odasındasın. Toz ve kıymıklar yeri biraz
-kirletiyor. Göründüğü kadarıyla burası en son vahşi hayvanlar tarafından
-kullanılmış. Kuzeydeki parmaklıkların arkasından tuhaf sesler geliyor.
+Teshir ustasÄ±nÄ±n odasÄ±~
+Kulenin teshir ustasÄ±nÄ±n odasÄ±ndasÄ±n. Toz ve kÄ±ymÄ±klar yeri biraz
+kirletiyor. GÃ¶rÃ¼ndÃ¼ÄŸÃ¼ kadarÄ±yla burasÄ± en son vahÅŸi hayvanlar tarafÄ±ndan
+kullanÄ±lmÄ±ÅŸ. Kuzeydeki parmaklÄ±klarÄ±n arkasÄ±ndan tuhaf sesler geliyor.
 ~
 0 D 0
 D0
 ~
-kafes parmaklık~
+kafes parmaklÄ±k~
 1 -1 1397
 D3
 ~
-kapı tunç~
+kapÄ± tunÃ§~
 1 -1 1393
 S
 #1396
 Bir koridor~
-Kuzey ve güney yönünde devam eden uzun bir koridordasın. Duvarlardan
-yayılan sihirli ışık, etrafı yeterince görmeni sağlıyor.
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde devam eden uzun bir koridordasÄ±n. Duvarlardan
+yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor.
 ~
 0 D 0
 D0
@@ -3268,21 +3268,21 @@ D2
 S
 #1397
 Hayvan kafesleri~
-Hayvan kafeslerindesin. Burada üzgün görünen, kafeslenmiş birçok hayvan
-var. Belli ki kaderleri köle olmaya çizilmiş ya da üzerlerinde acımasız büyü
-deneyleri uygunlanmış.
+Hayvan kafeslerindesin. Burada Ã¼zgÃ¼n gÃ¶rÃ¼nen, kafeslenmiÅŸ birÃ§ok hayvan
+var. Belli ki kaderleri kÃ¶le olmaya Ã§izilmiÅŸ ya da Ã¼zerlerinde acÄ±masÄ±z bÃ¼yÃ¼
+deneyleri uygunlanmÄ±ÅŸ.
 ~
 0 D 0
 D2
 ~
-kafes parmaklık~
+kafes parmaklÄ±k~
 1 -1 1395
 S
 #1398
 Koridorun sonu~
-Kuzey-güney yönündeki uzun bir koridorunsonundasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor. Buradaki merdivenler bir
-sonraki kata çıkıyor, ve koridor güneye devam ediyor.
+Kuzey-gÃ¼ney yÃ¶nÃ¼ndeki uzun bir koridorunsonundasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. Buradaki merdivenler bir
+sonraki kata Ã§Ä±kÄ±yor, ve koridor gÃ¼neye devam ediyor.
 ~
 0 D 0
 D2
@@ -3295,10 +3295,10 @@ D4
 0 -1 1399
 S
 #1399
-Merdivenlerin üstünde~
-Yüksek kulenin üst katlarına çıkan bir merdivenin üstündesin. Duvarlardan
-yayılan sihirli ışık, etrafı yeterince görmeni sağlıyor. Merdivenler aşağı
-iniyor ve bir koridor buradan batıya devam ediyor.
+Merdivenlerin Ã¼stÃ¼nde~
+YÃ¼ksek kulenin Ã¼st katlarÄ±na Ã§Ä±kan bir merdivenin Ã¼stÃ¼ndesin. Duvarlardan
+yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. Merdivenler aÅŸaÄŸÄ±
+iniyor ve bir koridor buradan batÄ±ya devam ediyor.
 ~
 0 D 0
 D3
@@ -3312,13 +3312,13 @@ D5
 S
 #1400
 Bir koridor~
-Doğu ve batı yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor. Kuzeyde gümüş bir kapı var.
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. Kuzeyde gÃ¼mÃ¼ÅŸ bir kapÄ± var.
 ~
 0 D 0
 D0
 ~
-kapı gümüş~
+kapÄ± gÃ¼mÃ¼ÅŸ~
 1 -1 1401
 D1
 ~
@@ -3330,58 +3330,58 @@ D3
 0 -1 1404
 S
 #1401
-Bir depo odası~
-Büyük bir depo odasındasın. Hammadeler düzenli bir şekilde dizilmiş.
-Birçok yeni kesilmiş, farklı boyutlarda büyülü sopalar ve değnekler var.
-Batıda gümüş bir kapı görüyorsun.
+Bir depo odasÄ±~
+BÃ¼yÃ¼k bir depo odasÄ±ndasÄ±n. Hammadeler dÃ¼zenli bir ÅŸekilde dizilmiÅŸ.
+BirÃ§ok yeni kesilmiÅŸ, farklÄ± boyutlarda bÃ¼yÃ¼lÃ¼ sopalar ve deÄŸnekler var.
+BatÄ±da gÃ¼mÃ¼ÅŸ bir kapÄ± gÃ¶rÃ¼yorsun.
 ~
 0 D 0
 D2
 ~
-kapı gümüş~
+kapÄ± gÃ¼mÃ¼ÅŸ~
 1 -1 1400
 D3
 ~
-kapı gümüş~
+kapÄ± gÃ¼mÃ¼ÅŸ~
 1 -1 1402
 S
 #1402
-Usta Büyü Bağlayıcının Odası~
-Usta büyü bağlayıcısının gizli odasındasın. Diğer çalışma odalarının
-aksine bu odada aletler veya eşyalar yok. Belli ki büyü bağlayıcısının
-sanatını icra etmesi için bu tip şeylere ihtiyacı yok. Batıda gümüş bir kapı
+Usta BÃ¼yÃ¼ BaÄŸlayÄ±cÄ±nÄ±n OdasÄ±~
+Usta bÃ¼yÃ¼ baÄŸlayÄ±cÄ±sÄ±nÄ±n gizli odasÄ±ndasÄ±n. DiÄŸer Ã§alÄ±ÅŸma odalarÄ±nÄ±n
+aksine bu odada aletler veya eÅŸyalar yok. Belli ki bÃ¼yÃ¼ baÄŸlayÄ±cÄ±sÄ±nÄ±n
+sanatÄ±nÄ± icra etmesi iÃ§in bu tip ÅŸeylere ihtiyacÄ± yok. BatÄ±da gÃ¼mÃ¼ÅŸ bir kapÄ±
 var.
 ~
 0 D 0
 D1
 ~
-kapı gümüş~
+kapÄ± gÃ¼mÃ¼ÅŸ~
 1 -1 1401
 D3
 ~
-kapı gümüş~
+kapÄ± gÃ¼mÃ¼ÅŸ~
 1 -1 1403
 S
 #1403
-Usta Büyü Bağlayıcısı'nın Gizli Odası~
-Usta büyü bağlayıcısının gizli odasını keşfettin. Burada gümüş kenarlı
-iki tane büyük sandık var. Bunun dışında oda gayet sade. Güneyde gümüş bir
-kapı var.
+Usta BÃ¼yÃ¼ BaÄŸlayÄ±cÄ±sÄ±'nÄ±n Gizli OdasÄ±~
+Usta bÃ¼yÃ¼ baÄŸlayÄ±cÄ±sÄ±nÄ±n gizli odasÄ±nÄ± keÅŸfettin. Burada gÃ¼mÃ¼ÅŸ kenarlÄ±
+iki tane bÃ¼yÃ¼k sandÄ±k var. Bunun dÄ±ÅŸÄ±nda oda gayet sade. GÃ¼neyde gÃ¼mÃ¼ÅŸ bir
+kapÄ± var.
 ~
 0 D 0
 D1
 ~
-kapı gümüş~
+kapÄ± gÃ¼mÃ¼ÅŸ~
 1 -1 1402
 D2
 ~
-kapı gümüş~
+kapÄ± gÃ¼mÃ¼ÅŸ~
 1 -1 1405
 S
 #1404
 Bir koridor~
-Doğu ve batı yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor.
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor.
 ~
 0 D 0
 D1
@@ -3395,13 +3395,13 @@ D3
 S
 #1405
 Bir koridor~
-Doğu ve batı yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor. Kuzeyde gümüş bir kapı var.
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. Kuzeyde gÃ¼mÃ¼ÅŸ bir kapÄ± var.
 ~
 0 D 0
 D0
 ~
-kapı gümüş~
+kapÄ± gÃ¼mÃ¼ÅŸ~
 1 -1 1403
 D1
 ~
@@ -3413,9 +3413,9 @@ D3
 0 -1 1406
 S
 #1406
-Koridordaki bir dönemeç~
-Uzun koridordaki bir dönemeçtesin. Duvarlardan yayılan sihirli ışık,
-etrafı yeterince görmeni sağlıyor. Koridor güneye ve doğuya devam ediyor.
+Koridordaki bir dÃ¶nemeÃ§~
+Uzun koridordaki bir dÃ¶nemeÃ§tesin. Duvarlardan yayÄ±lan sihirli Ä±ÅŸÄ±k,
+etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. Koridor gÃ¼neye ve doÄŸuya devam ediyor.
 ~
 0 D 0
 D1
@@ -3429,8 +3429,8 @@ D2
 S
 #1407
 Bir koridor~
-Kuzey ve güney yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor.
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor.
 ~
 0 D 0
 D0
@@ -3444,9 +3444,9 @@ D2
 S
 #1408
 Bir koridor~
-Kuzey ve güney yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor. Paslı, eski bir kapı batı
-yönünde görülebiliyor.
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. PaslÄ±, eski bir kapÄ± batÄ±
+yÃ¶nÃ¼nde gÃ¶rÃ¼lebiliyor.
 ~
 0 D 0
 D0
@@ -3459,14 +3459,14 @@ D2
 0 -1 1413
 D3
 ~
-kapı paslı~
+kapÄ± paslÄ±~
 1 -1 1409
 S
 #1409
-Golem Ustasının Atölyesi~
-Golem ustasının atöylesindesin. Bitmemiş bazı insana benzer farklı
-şekiller burada. Bazıları hareket ediyor, bazıları etmiyor. Canlandırılmış
-şekiller sana saldırmak için harekete geçiyorlar.
+Golem UstasÄ±nÄ±n AtÃ¶lyesi~
+Golem ustasÄ±nÄ±n atÃ¶ylesindesin. BitmemiÅŸ bazÄ± insana benzer farklÄ±
+ÅŸekiller burada. BazÄ±larÄ± hareket ediyor, bazÄ±larÄ± etmiyor. CanlandÄ±rÄ±lmÄ±ÅŸ
+ÅŸekiller sana saldÄ±rmak iÃ§in harekete geÃ§iyorlar.
 ~
 0 D 0
 D0
@@ -3475,7 +3475,7 @@ D0
 0 -1 1410
 D1
 ~
-kapı paslı~
+kapÄ± paslÄ±~
 1 -1 1408
 D2
 ~
@@ -3487,9 +3487,9 @@ kapak~
 1 -1 1412
 S
 #1410
-Bir depo odası~
-Küçük bir depo odasındasın. Burada büyük kil, taş, tahta ve diğer
-hammaddelerden oluşmuş yığınlar var.
+Bir depo odasÄ±~
+KÃ¼Ã§Ã¼k bir depo odasÄ±ndasÄ±n. Burada bÃ¼yÃ¼k kil, taÅŸ, tahta ve diÄŸer
+hammaddelerden oluÅŸmuÅŸ yÄ±ÄŸÄ±nlar var.
 ~
 0 D 0
 D2
@@ -3498,8 +3498,8 @@ D2
 0 -1 1409
 S
 #1411
-Golem odası~
-Golem odasındasın. Akla gelebilecek her maddeden, ve el büyüklüğünden
+Golem odasÄ±~
+Golem odasÄ±ndasÄ±n. Akla gelebilecek her maddeden, ve el bÃ¼yÃ¼klÃ¼ÄŸÃ¼nden
 tavana kadar uzanan her boyuttan golem burada. Hepsi uyuyor gibi.
 ~
 0 D 0
@@ -3509,8 +3509,8 @@ D0
 0 -1 1409
 S
 #1412
-Burası çok karanlık...~
-Burası çok karanlık...
+BurasÄ± Ã§ok karanlÄ±k...~
+BurasÄ± Ã§ok karanlÄ±k...
 ~
 0 AD 0
 D4
@@ -3519,13 +3519,13 @@ kapak~
 1 -1 1409
 D5
 ~
-havalandırma~
+havalandÄ±rma~
 1 -1 1381
 S
 #1413
 Bir koridor~
-Kuzey ve güney yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor.
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor.
 ~
 0 D 0
 D0
@@ -3538,9 +3538,9 @@ D2
 0 -1 1414
 S
 #1414
-Koridordaki bir dönemeç~
-Uzun koridordaki bir dönemeçtesin. Duvarlardan yayılan sihirli ışık,
-etrafı yeterince görmeni sağlıyor. Koridor buradan kuzeye ve doğuya devam
+Koridordaki bir dÃ¶nemeÃ§~
+Uzun koridordaki bir dÃ¶nemeÃ§tesin. Duvarlardan yayÄ±lan sihirli Ä±ÅŸÄ±k,
+etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. Koridor buradan kuzeye ve doÄŸuya devam
 ediyor.
 ~
 0 D 0
@@ -3555,8 +3555,8 @@ D1
 S
 #1415
 Bir koridor~
-Doğu ve batı yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor
 ~
 0 D 0
 D1
@@ -3570,8 +3570,8 @@ D3
 S
 #1416
 Bir koridor~
-Doğu ve batı yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor. Güneyde zümrüt bir kapı
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. GÃ¼neyde zÃ¼mrÃ¼t bir kapÄ±
 var.
 ~
 0 D 0
@@ -3581,7 +3581,7 @@ D1
 0 -1 1419
 D2
 ~
-kapı zümrüt~
+kapÄ± zÃ¼mrÃ¼t~
 1 -1 1417
 D3
 ~
@@ -3589,16 +3589,16 @@ D3
 0 -1 1415
 S
 #1417
-Göz Bağı Ustasının Odası~
-Göz bağlama ustasının odasındasın. Duvarlar gözünün önünde yeniden şekil
-alıyormuş gibi, devamlı doku ve renk değiştiriyor. Mükemmel görünen,
-yığınlar ve kümeler halinde hazineler (ya da hazine gibi görünen şeyler)
-etrafta yatıyor.
+GÃ¶z BaÄŸÄ± UstasÄ±nÄ±n OdasÄ±~
+GÃ¶z baÄŸlama ustasÄ±nÄ±n odasÄ±ndasÄ±n. Duvarlar gÃ¶zÃ¼nÃ¼n Ã¶nÃ¼nde yeniden ÅŸekil
+alÄ±yormuÅŸ gibi, devamlÄ± doku ve renk deÄŸiÅŸtiriyor. MÃ¼kemmel gÃ¶rÃ¼nen,
+yÄ±ÄŸÄ±nlar ve kÃ¼meler halinde hazineler (ya da hazine gibi gÃ¶rÃ¼nen ÅŸeyler)
+etrafta yatÄ±yor.
 ~
 0 D 0
 D0
 ~
-kapı zümrüt~
+kapÄ± zÃ¼mrÃ¼t~
 1 -1 1416
 D3
 ~
@@ -3606,10 +3606,10 @@ D3
 0 -1 1418
 S
 #1418
-Bir yatak odası~
-İllüzyonlar ustasının yatak odasındasın. Tuhaf görünen aletler ve büyülü
-eşyalar havada süzülüyor. Güçlü büyü dalgaları her yerde hissedilebiliyor.
-Oda göründüğünden daha geniş gibi...
+Bir yatak odasÄ±~
+Ä°llÃ¼zyonlar ustasÄ±nÄ±n yatak odasÄ±ndasÄ±n. Tuhaf gÃ¶rÃ¼nen aletler ve bÃ¼yÃ¼lÃ¼
+eÅŸyalar havada sÃ¼zÃ¼lÃ¼yor. GÃ¼Ã§lÃ¼ bÃ¼yÃ¼ dalgalarÄ± her yerde hissedilebiliyor.
+Oda gÃ¶rÃ¼ndÃ¼ÄŸÃ¼nden daha geniÅŸ gibi...
 ~
 0 D 0
 D0
@@ -3631,8 +3631,8 @@ D3
 S
 #1419
 Bir koridor~
-Doğu ve batı yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor. Güneyde cam bir kapı var.
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. GÃ¼neyde cam bir kapÄ± var.
 ~
 0 D 0
 D1
@@ -3641,7 +3641,7 @@ D1
 0 -1 1421
 D2
 ~
-kapı cam~
+kapÄ± cam~
 1 -1 1420
 D3
 ~
@@ -3649,20 +3649,20 @@ D3
 0 -1 1416
 S
 #1420
-Meditasyon odası~
-Bir meditasyon odasındasın. Burası çok sessiz, hatta kendi adım seslerini
-bile duyamıyorsun. Kendini çok huzurlu hissediyorsun.
+Meditasyon odasÄ±~
+Bir meditasyon odasÄ±ndasÄ±n. BurasÄ± Ã§ok sessiz, hatta kendi adÄ±m seslerini
+bile duyamÄ±yorsun. Kendini Ã§ok huzurlu hissediyorsun.
 ~
 0 CDJ 0
 D0
 ~
-kapı cam~
+kapÄ± cam~
 1 -1 1419
 S
 #1421
-Koridordaki bir dönemeç~
-Uzun koridordaki bir dönemeçtesin. Duvarlardan yayılan sihirli ışık,
-etrafı yeterince görmeni sağlıyor. Koridor buradan kuzeye ve batıya devam
+Koridordaki bir dÃ¶nemeÃ§~
+Uzun koridordaki bir dÃ¶nemeÃ§tesin. Duvarlardan yayÄ±lan sihirli Ä±ÅŸÄ±k,
+etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. Koridor buradan kuzeye ve batÄ±ya devam
 ediyor.
 ~
 0 D 0
@@ -3677,8 +3677,8 @@ D3
 S
 #1422
 Bir koridor~
-Kuzey ve güney yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor. Doğuda kararmış bir kapı
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor. DoÄŸuda kararmÄ±ÅŸ bir kapÄ±
 var.
 ~
 0 D 0
@@ -3688,7 +3688,7 @@ D0
 0 -1 1426
 D1
 ~
-kapı kara~
+kapÄ± kara~
 1 -1 1423
 D2
 ~
@@ -3696,10 +3696,10 @@ D2
 0 -1 1421
 S
 #1423
-Karanlık bir oda~
-Büyük karanlık bir odadasın. Hava çürük kokuyor ve üzerine aşırı büyük
-bir korku hissi çöküyor. Kuzeydeki açık bir kapıdan geldiğini tahmin ettiğin
-çürük et kokusu içeriyi dolduyor.
+KaranlÄ±k bir oda~
+BÃ¼yÃ¼k karanlÄ±k bir odadasÄ±n. Hava Ã§Ã¼rÃ¼k kokuyor ve Ã¼zerine aÅŸÄ±rÄ± bÃ¼yÃ¼k
+bir korku hissi Ã§Ã¶kÃ¼yor. Kuzeydeki aÃ§Ä±k bir kapÄ±dan geldiÄŸini tahmin ettiÄŸin
+Ã§Ã¼rÃ¼k et kokusu iÃ§eriyi dolduyor.
 ~
 0 AD 0
 D0
@@ -3708,20 +3708,20 @@ D0
 0 -1 1424
 D3
 ~
-kapı kara~
+kapÄ± kara~
 1 -1 1422
 S
 #1424
-Karanlık bir oda~
-Büyük, karanlık bir odadasın. Buradaki iğrenç koku öğürmene ve iğrenmene
-sebep oluyor. Tamamiyle terkedilmiş vücut parçaları ve yarım çürümüş
-cesetler ortalığa dağılmış. Üzerinde burada daha önce canlı olarak gördüğün
-hiçbirşeye benzemeyen sabit şekillerin bulunduğu bir ameliyat masası burada.
-Kuzeyden işkence çeken sesler duyuyorsun.
+KaranlÄ±k bir oda~
+BÃ¼yÃ¼k, karanlÄ±k bir odadasÄ±n. Buradaki iÄŸrenÃ§ koku Ã¶ÄŸÃ¼rmene ve iÄŸrenmene
+sebep oluyor. Tamamiyle terkedilmiÅŸ vÃ¼cut parÃ§alarÄ± ve yarÄ±m Ã§Ã¼rÃ¼mÃ¼ÅŸ
+cesetler ortalÄ±ÄŸa daÄŸÄ±lmÄ±ÅŸ. Ãœzerinde burada daha Ã¶nce canlÄ± olarak gÃ¶rdÃ¼ÄŸÃ¼n
+hiÃ§birÅŸeye benzemeyen sabit ÅŸekillerin bulunduÄŸu bir ameliyat masasÄ± burada.
+Kuzeyden iÅŸkence Ã§eken sesler duyuyorsun.
 ~
 0 AD 0
 D0
-Kuzey yönüne baktığında içini derin bir korku kaplıyor.
+Kuzey yÃ¶nÃ¼ne baktÄ±ÄŸÄ±nda iÃ§ini derin bir korku kaplÄ±yor.
 ~
 ~
 0 -1 1425
@@ -3731,11 +3731,11 @@ D2
 0 -1 1423
 S
 #1425
-Karakam'ın İni~
-Kem karakam'ın inindesin. Her çeşit ölmemiş hizmetkar, insan ve diğer
-şeyler burada ustalarının emirlerini bekliyorlar. Bazı parlayan büyülü
-mühürler duvarlara ve yerlere şüphesiz ki bu kem ustayı tanrısallıktan uzak
-yaratıklarından korumak için çizilmiş.
+Karakam'Ä±n Ä°ni~
+Kem karakam'Ä±n inindesin. Her Ã§eÅŸit Ã¶lmemiÅŸ hizmetkar, insan ve diÄŸer
+ÅŸeyler burada ustalarÄ±nÄ±n emirlerini bekliyorlar. BazÄ± parlayan bÃ¼yÃ¼lÃ¼
+mÃ¼hÃ¼rler duvarlara ve yerlere ÅŸÃ¼phesiz ki bu kem ustayÄ± tanrÄ±sallÄ±ktan uzak
+yaratÄ±klarÄ±ndan korumak iÃ§in Ã§izilmiÅŸ.
 ~
 0 AD 0
 D2
@@ -3745,8 +3745,8 @@ D2
 S
 #1426
 Bir koridor~
-Kuzey ve güney yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor.
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor.
 ~
 0 D 0
 D0
@@ -3760,8 +3760,8 @@ D2
 S
 #1427
 Bir koridor~
-Kuzey ve güney yönünde uzanan uzun bir koridordasın. Duvarlardan yayılan
-sihirli ışık, etrafı yeterince görmeni sağlıyor.
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Duvarlardan yayÄ±lan
+sihirli Ä±ÅŸÄ±k, etrafÄ± yeterince gÃ¶rmeni saÄŸlÄ±yor.
 ~
 0 D 0
 D0
@@ -3775,9 +3775,9 @@ D2
 S
 #1428
 Koridorun sonu~
-Uzun bir koridorun sonundasın. Duvarlardan yayılan sihirli ışık, etrafı
-oldukça fazla aydınlatıyor. Merdivenler bir üstteki kata çıkıyor ve koridor
-güneye devam ediyor.
+Uzun bir koridorun sonundasÄ±n. Duvarlardan yayÄ±lan sihirli Ä±ÅŸÄ±k, etrafÄ±
+oldukÃ§a fazla aydÄ±nlatÄ±yor. Merdivenler bir Ã¼stteki kata Ã§Ä±kÄ±yor ve koridor
+gÃ¼neye devam ediyor.
 ~
 0 D 0
 D2
@@ -3791,9 +3791,9 @@ D4
 S
 #1429
 Bir koridor~
-Uzun bir koridorun doğu sonundasın. Üzerine kadim güç rünleri kazınmış
-obsidyen duvarlar önünde uzanıyor. Güçlü büyü enerjileri unutulmuş dillerde
-fısıldarcasına çıtırdıyorlar, koridorun kendisi canlıymışçasına...
+Uzun bir koridorun doÄŸu sonundasÄ±n. Ãœzerine kadim gÃ¼Ã§ rÃ¼nleri kazÄ±nmÄ±ÅŸ
+obsidyen duvarlar Ã¶nÃ¼nde uzanÄ±yor. GÃ¼Ã§lÃ¼ bÃ¼yÃ¼ enerjileri unutulmuÅŸ dillerde
+fÄ±sÄ±ldarcasÄ±na Ã§Ä±tÄ±rdÄ±yorlar, koridorun kendisi canlÄ±ymÄ±ÅŸÃ§asÄ±na...
 ~
 0 D 0
 D3
@@ -3807,9 +3807,9 @@ D5
 S
 #1430
 Bir koridor~
-Uzun bir koridordasın. Üzerine kadim güç rünleri kazınmış obsidyen
-duvarlar önünde uzanıyor. Güçlü büyü enerjileri unutulmuş dillerde
-fısıldarcasına çıtırdıyorlar, koridorun kendisi canlıymışçasına...
+Uzun bir koridordasÄ±n. Ãœzerine kadim gÃ¼Ã§ rÃ¼nleri kazÄ±nmÄ±ÅŸ obsidyen
+duvarlar Ã¶nÃ¼nde uzanÄ±yor. GÃ¼Ã§lÃ¼ bÃ¼yÃ¼ enerjileri unutulmuÅŸ dillerde
+fÄ±sÄ±ldarcasÄ±na Ã§Ä±tÄ±rdÄ±yorlar, koridorun kendisi canlÄ±ymÄ±ÅŸÃ§asÄ±na...
 ~
 0 D 0
 D1
@@ -3822,10 +3822,10 @@ D3
 0 -1 1431
 S
 #1431
-Koridordaki bir dönemeç~
-Uzun bir koridordaki bir dönemeçtesin. Üzerine kadim güç rünleri kazınmış
-obsidyen duvarlar önünde uzanıyor. Güçlü büyü enerjileri unutulmuş dillerde
-fısıldarcasına çıtırdıyorlar, koridorun kendisi canlıymışçasına...
+Koridordaki bir dÃ¶nemeÃ§~
+Uzun bir koridordaki bir dÃ¶nemeÃ§tesin. Ãœzerine kadim gÃ¼Ã§ rÃ¼nleri kazÄ±nmÄ±ÅŸ
+obsidyen duvarlar Ã¶nÃ¼nde uzanÄ±yor. GÃ¼Ã§lÃ¼ bÃ¼yÃ¼ enerjileri unutulmuÅŸ dillerde
+fÄ±sÄ±ldarcasÄ±na Ã§Ä±tÄ±rdÄ±yorlar, koridorun kendisi canlÄ±ymÄ±ÅŸÃ§asÄ±na...
 ~
 0 D 0
 D1
@@ -3839,10 +3839,10 @@ D2
 S
 #1432
 Bir koridor~
-Kuzey ve güney yönünde uzanan uzun bir koridordasın. Üzerine kadim güç
-rünleri kazınmış obsidyen duvarlar önünde uzanıyor. Güçlü büyü enerjileri
-unutulmuş dillerde fısıldarcasına çıtırdıyorlar, koridorun kendisi
-canlıymışçasına....
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Ãœzerine kadim gÃ¼Ã§
+rÃ¼nleri kazÄ±nmÄ±ÅŸ obsidyen duvarlar Ã¶nÃ¼nde uzanÄ±yor. GÃ¼Ã§lÃ¼ bÃ¼yÃ¼ enerjileri
+unutulmuÅŸ dillerde fÄ±sÄ±ldarcasÄ±na Ã§Ä±tÄ±rdÄ±yorlar, koridorun kendisi
+canlÄ±ymÄ±ÅŸÃ§asÄ±na....
 ~
 0 D 0
 D0
@@ -3855,9 +3855,9 @@ D2
 0 -1 1433
 S
 #1433
-Bir kesişme~
-Koridordaki bir kesişmedesin. Üzerindeki kadim, güçlü rünlerin
-enerjileriyle titreşen obsidyen duvarlı salonlar buradan her yöne devam
+Bir kesiÅŸme~
+Koridordaki bir kesiÅŸmedesin. Ãœzerindeki kadim, gÃ¼Ã§lÃ¼ rÃ¼nlerin
+enerjileriyle titreÅŸen obsidyen duvarlÄ± salonlar buradan her yÃ¶ne devam
 ediyor.
 ~
 0 D 0
@@ -3880,14 +3880,14 @@ D3
 S
 #1434
 Bir koridor~
-Uzun bir koridorun sonundasın. Üzerine kadim güç rünleri kazınmış
-obsidyen duvarlar önünde uzanıyorlar. Doğuda karamış bir kapı var. Kapının
-altından sızıyormuş gibi görünen sis sarmaşıkları yerlere tutunuyorlar.
+Uzun bir koridorun sonundasÄ±n. Ãœzerine kadim gÃ¼Ã§ rÃ¼nleri kazÄ±nmÄ±ÅŸ
+obsidyen duvarlar Ã¶nÃ¼nde uzanÄ±yorlar. DoÄŸuda karamÄ±ÅŸ bir kapÄ± var. KapÄ±nÄ±n
+altÄ±ndan sÄ±zÄ±yormuÅŸ gibi gÃ¶rÃ¼nen sis sarmaÅŸÄ±klarÄ± yerlere tutunuyorlar.
 ~
 0 D 0
 D1
 ~
-kapı kara~
+kapÄ± kara~
 1 -1 1435
 D3
 ~
@@ -3895,24 +3895,24 @@ D3
 0 -1 1433
 S
 #1435
-Görme odası~
-Yüksek büyücülük kulesinin görme odasındasın. Dünya üzerinde yaşayanlara
-bakmak, ve onların en karanlık sırlarını görmek isteyenlerin yaptığı gizemli
-ayinler burada düzenleniyor. Odanın ortasındaki dev, kaynayan ve gurulyan
-siyah bir kazandan dumanlı, ağır bir sis üzerine doğru yükseliyor.
-Ortalıkta, sehpaların üzerinde duran kristal toplar ve tuhaf şekilli aynalar
+GÃ¶rme odasÄ±~
+YÃ¼ksek bÃ¼yÃ¼cÃ¼lÃ¼k kulesinin gÃ¶rme odasÄ±ndasÄ±n. DÃ¼nya Ã¼zerinde yaÅŸayanlara
+bakmak, ve onlarÄ±n en karanlÄ±k sÄ±rlarÄ±nÄ± gÃ¶rmek isteyenlerin yaptÄ±ÄŸÄ± gizemli
+ayinler burada dÃ¼zenleniyor. OdanÄ±n ortasÄ±ndaki dev, kaynayan ve gurulyan
+siyah bir kazandan dumanlÄ±, aÄŸÄ±r bir sis Ã¼zerine doÄŸru yÃ¼kseliyor.
+OrtalÄ±kta, sehpalarÄ±n Ã¼zerinde duran kristal toplar ve tuhaf ÅŸekilli aynalar
 var.
 ~
 0 AD 0
 D3
 ~
-kapı kara~
+kapÄ± kara~
 1 -1 1434
 S
 #1436
 Bir koridor~
-Uzun bir koridorun sonundasın. Üzerine kadim güç rünleri kazınmış
-obsidyen duvarlar önünde uzanıyorlar. Batıdaki kapıdan belli belirsiz bir
+Uzun bir koridorun sonundasÄ±n. Ãœzerine kadim gÃ¼Ã§ rÃ¼nleri kazÄ±nmÄ±ÅŸ
+obsidyen duvarlar Ã¶nÃ¼nde uzanÄ±yorlar. BatÄ±daki kapÄ±dan belli belirsiz bir
 horlama sesi duyuluyor.
 ~
 0 D 0
@@ -3922,14 +3922,14 @@ D1
 0 -1 1433
 D3
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 1437
 S
 #1437
-Kütüphane'nin girişi~
-Büyük bir büyü kütüphanesinin girişindesin. Kitaplar, kağıtlar ve büyülü
-parşömenlerle kaplı dev bir masa burada. Sıra üstüne sırası olan uzun raflar
-her yönde gözün alabildiğine uzanıyorlar.
+KÃ¼tÃ¼phane'nin giriÅŸi~
+BÃ¼yÃ¼k bir bÃ¼yÃ¼ kÃ¼tÃ¼phanesinin giriÅŸindesin. Kitaplar, kaÄŸÄ±tlar ve bÃ¼yÃ¼lÃ¼
+parÅŸÃ¶menlerle kaplÄ± dev bir masa burada. SÄ±ra Ã¼stÃ¼ne sÄ±rasÄ± olan uzun raflar
+her yÃ¶nde gÃ¶zÃ¼n alabildiÄŸine uzanÄ±yorlar.
 ~
 0 D 0
 D0
@@ -3941,22 +3941,22 @@ D1
 ~
 0 -1 1436
 D2
-Görebildiğin tek şey kitaplar
+GÃ¶rebildiÄŸin tek ÅŸey kitaplar
 ~
 ~
 0 -1 1440
 D3
-Görebildiğin tek şey kitaplar
+GÃ¶rebildiÄŸin tek ÅŸey kitaplar
 ~
 ~
 0 -1 1438
 S
 #1438
-Kütüphanede~
-Büyük bir büyü kütüphanesindesin. Güçlü küf kokusu etrafı kaplamış.
-Ulaşılmaz mesafede havada süzülen raflarda mümkün olaabilecek her renk ve
-boyutta kitap, cilt ve parşömen var. Bulunmaz kitaplar alışık olmayan
-gözlerinin önünde varolup yok oluyorlar. Burası çok sessiz.
+KÃ¼tÃ¼phanede~
+BÃ¼yÃ¼k bir bÃ¼yÃ¼ kÃ¼tÃ¼phanesindesin. GÃ¼Ã§lÃ¼ kÃ¼f kokusu etrafÄ± kaplamÄ±ÅŸ.
+UlaÅŸÄ±lmaz mesafede havada sÃ¼zÃ¼len raflarda mÃ¼mkÃ¼n olaabilecek her renk ve
+boyutta kitap, cilt ve parÅŸÃ¶men var. Bulunmaz kitaplar alÄ±ÅŸÄ±k olmayan
+gÃ¶zlerinin Ã¶nÃ¼nde varolup yok oluyorlar. BurasÄ± Ã§ok sessiz.
 ~
 0 D 0
 D0
@@ -3977,11 +3977,11 @@ D3
 0 -1 1443
 S
 #1439
-Kütüphanede~
-Büyük bir büyü kütüphanesindesin. Güçlü küf kokusu etrafı kaplamış.
-Ulaşılmaz mesafede havada süzülen raflarda mümkün olaabilecek her renk ve
-boyutta kitap, cilt ve parşömen var. Bulunmaz kitaplar alışık olmayan
-gözlerinin önünde varolup yok oluyorlar. Burası çok sessiz.
+KÃ¼tÃ¼phanede~
+BÃ¼yÃ¼k bir bÃ¼yÃ¼ kÃ¼tÃ¼phanesindesin. GÃ¼Ã§lÃ¼ kÃ¼f kokusu etrafÄ± kaplamÄ±ÅŸ.
+UlaÅŸÄ±lmaz mesafede havada sÃ¼zÃ¼len raflarda mÃ¼mkÃ¼n olaabilecek her renk ve
+boyutta kitap, cilt ve parÅŸÃ¶men var. Bulunmaz kitaplar alÄ±ÅŸÄ±k olmayan
+gÃ¶zlerinin Ã¶nÃ¼nde varolup yok oluyorlar. BurasÄ± Ã§ok sessiz.
 ~
 0 D 0
 D0
@@ -4002,11 +4002,11 @@ D3
 0 -1 1441
 S
 #1440
-Kütüphanede~
-Büyük bir büyü kütüphanesindesin. Güçlü küf kokusu etrafı kaplamış.
-Ulaşılmaz mesafede havada süzülen raflarda mümkün olaabilecek her renk ve
-boyutta kitap, cilt ve parşömen var. Bulunmaz kitaplar alışık olmayan
-gözlerinin önünde varolup yok oluyorlar. Burası çok sessiz.
+KÃ¼tÃ¼phanede~
+BÃ¼yÃ¼k bir bÃ¼yÃ¼ kÃ¼tÃ¼phanesindesin. GÃ¼Ã§lÃ¼ kÃ¼f kokusu etrafÄ± kaplamÄ±ÅŸ.
+UlaÅŸÄ±lmaz mesafede havada sÃ¼zÃ¼len raflarda mÃ¼mkÃ¼n olaabilecek her renk ve
+boyutta kitap, cilt ve parÅŸÃ¶men var. Bulunmaz kitaplar alÄ±ÅŸÄ±k olmayan
+gÃ¶zlerinin Ã¶nÃ¼nde varolup yok oluyorlar. BurasÄ± Ã§ok sessiz.
 ~
 0 D 0
 D0
@@ -4027,11 +4027,11 @@ D3
 0 -1 1442
 S
 #1441
-Kütüphanede~
-Büyük bir büyü kütüphanesindesin. Güçlü küf kokusu etrafı kaplamış.
-Ulaşılmaz mesafede havada süzülen raflarda mümkün olaabilecek her renk ve
-boyutta kitap, cilt ve parşömen var. Bulunmaz kitaplar alışık olmayan
-gözlerinin önünde varolup yok oluyorlar. Burası çok sessiz.
+KÃ¼tÃ¼phanede~
+BÃ¼yÃ¼k bir bÃ¼yÃ¼ kÃ¼tÃ¼phanesindesin. GÃ¼Ã§lÃ¼ kÃ¼f kokusu etrafÄ± kaplamÄ±ÅŸ.
+UlaÅŸÄ±lmaz mesafede havada sÃ¼zÃ¼len raflarda mÃ¼mkÃ¼n olaabilecek her renk ve
+boyutta kitap, cilt ve parÅŸÃ¶men var. Bulunmaz kitaplar alÄ±ÅŸÄ±k olmayan
+gÃ¶zlerinin Ã¶nÃ¼nde varolup yok oluyorlar. BurasÄ± Ã§ok sessiz.
 ~
 0 D 0
 D0
@@ -4052,11 +4052,11 @@ D3
 0 -1 1440
 S
 #1442
-Kütüphanede~
-Büyük bir büyü kütüphanesindesin. Güçlü küf kokusu etrafı kaplamış.
-Ulaşılmaz mesafede havada süzülen raflarda mümkün olaabilecek her renk ve
-boyutta kitap, cilt ve parşömen var. Bulunmaz kitaplar alışık olmayan
-gözlerinin önünde varolup yok oluyorlar. Burası çok sessiz.
+KÃ¼tÃ¼phanede~
+BÃ¼yÃ¼k bir bÃ¼yÃ¼ kÃ¼tÃ¼phanesindesin. GÃ¼Ã§lÃ¼ kÃ¼f kokusu etrafÄ± kaplamÄ±ÅŸ.
+UlaÅŸÄ±lmaz mesafede havada sÃ¼zÃ¼len raflarda mÃ¼mkÃ¼n olaabilecek her renk ve
+boyutta kitap, cilt ve parÅŸÃ¶men var. Bulunmaz kitaplar alÄ±ÅŸÄ±k olmayan
+gÃ¶zlerinin Ã¶nÃ¼nde varolup yok oluyorlar. BurasÄ± Ã§ok sessiz.
 ~
 0 D 0
 D0
@@ -4077,11 +4077,11 @@ D3
 0 -1 1439
 S
 #1443
-Kütüphanede~
-Büyük bir büyü kütüphanesindesin. Güçlü küf kokusu etrafı kaplamış.
-Ulaşılmaz mesafede havada süzülen raflarda mümkün olaabilecek her renk ve
-boyutta kitap, cilt ve parşömen var. Bulunmaz kitaplar alışık olmayan
-gözlerinin önünde varolup yok oluyorlar. Burası çok sessiz.
+KÃ¼tÃ¼phanede~
+BÃ¼yÃ¼k bir bÃ¼yÃ¼ kÃ¼tÃ¼phanesindesin. GÃ¼Ã§lÃ¼ kÃ¼f kokusu etrafÄ± kaplamÄ±ÅŸ.
+UlaÅŸÄ±lmaz mesafede havada sÃ¼zÃ¼len raflarda mÃ¼mkÃ¼n olaabilecek her renk ve
+boyutta kitap, cilt ve parÅŸÃ¶men var. Bulunmaz kitaplar alÄ±ÅŸÄ±k olmayan
+gÃ¶zlerinin Ã¶nÃ¼nde varolup yok oluyorlar. BurasÄ± Ã§ok sessiz.
 ~
 0 D 0
 D1
@@ -4094,12 +4094,12 @@ D3
 0 -1 1444
 S
 #1444
-Rafların arası~
-Büyük bir büyü kütüphanesindesin. Buradaki raflar rahat olmayan bir
-biçimde birbirine yakın dizilmiş ve aralarından zorlukla hareket
-edebiliyorsun. Küf kokusu hala çok güçlü ve bulunması zor kitaplar hala
-uzanamayacağın mesafede havada süzülüyorlar. Zayıf bir ışık parlaması
-kuzeyden güçlükle seçilebiliyor.
+RaflarÄ±n arasÄ±~
+BÃ¼yÃ¼k bir bÃ¼yÃ¼ kÃ¼tÃ¼phanesindesin. Buradaki raflar rahat olmayan bir
+biÃ§imde birbirine yakÄ±n dizilmiÅŸ ve aralarÄ±ndan zorlukla hareket
+edebiliyorsun. KÃ¼f kokusu hala Ã§ok gÃ¼Ã§lÃ¼ ve bulunmasÄ± zor kitaplar hala
+uzanamayacaÄŸÄ±n mesafede havada sÃ¼zÃ¼lÃ¼yorlar. ZayÄ±f bir Ä±ÅŸÄ±k parlamasÄ±
+kuzeyden gÃ¼Ã§lÃ¼kle seÃ§ilebiliyor.
 ~
 0 D 0
 D0
@@ -4112,12 +4112,12 @@ D1
 0 -1 1443
 S
 #1445
-Okuma odası~
-Mobilyalardan tamamiyle yoksun küçük bir odadasın. Buradaki tek şey açık
-bir biçimde yerde bırakılmış devasa bir kitap. Koca kitap, çok ağır ve eski
-görünüyor. Mücevherler kazınmış cildi bir ağacın kabuğu gibi sağlam. Senin
-ölümcül gözüne hiç çözülecekmiş gibi görünmeyen örümceğimsi yazılar
-sayfalardan akıyor.
+Okuma odasÄ±~
+Mobilyalardan tamamiyle yoksun kÃ¼Ã§Ã¼k bir odadasÄ±n. Buradaki tek ÅŸey aÃ§Ä±k
+bir biÃ§imde yerde bÄ±rakÄ±lmÄ±ÅŸ devasa bir kitap. Koca kitap, Ã§ok aÄŸÄ±r ve eski
+gÃ¶rÃ¼nÃ¼yor. MÃ¼cevherler kazÄ±nmÄ±ÅŸ cildi bir aÄŸacÄ±n kabuÄŸu gibi saÄŸlam. Senin
+Ã¶lÃ¼mcÃ¼l gÃ¶zÃ¼ne hiÃ§ Ã§Ã¶zÃ¼lecekmiÅŸ gibi gÃ¶rÃ¼nmeyen Ã¶rÃ¼mceÄŸimsi yazÄ±lar
+sayfalardan akÄ±yor.
 ~
 0 D 0
 D2
@@ -4127,10 +4127,10 @@ D2
 S
 #1446
 Bir koridor~
-Kuzey ve güney yönünde uzanan uzun bir koridordasın. Üzerine kadim güç
-rünleri kazınmış obsidyen duvarlar önünde uzanıyor. Güçlü büyü enerjileri
-unutulmuş dillerde fısıldarcasına çıtırdıyorlar, koridorun kendisi
-canlıymışçasına....
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde uzanan uzun bir koridordasÄ±n. Ãœzerine kadim gÃ¼Ã§
+rÃ¼nleri kazÄ±nmÄ±ÅŸ obsidyen duvarlar Ã¶nÃ¼nde uzanÄ±yor. GÃ¼Ã§lÃ¼ bÃ¼yÃ¼ enerjileri
+unutulmuÅŸ dillerde fÄ±sÄ±ldarcasÄ±na Ã§Ä±tÄ±rdÄ±yorlar, koridorun kendisi
+canlÄ±ymÄ±ÅŸÃ§asÄ±na....
 ~
 0 D 0
 D0
@@ -4144,10 +4144,10 @@ D2
 S
 #1447
 Koridorun sonu~
-Uzun bir koridorun sonundasın. Obsidyen duvarlar altından yapılmış
-kemerli bir yolla birden bitiyor. Gücün vızıldaması burada o kadar kuvvetli
-ki vücudun neredeyse uyuşuyor. Kemerli yol, enerji ile parlayıp titreşerek
-önünde uzanıyor.
+Uzun bir koridorun sonundasÄ±n. Obsidyen duvarlar altÄ±ndan yapÄ±lmÄ±ÅŸ
+kemerli bir yolla birden bitiyor. GÃ¼cÃ¼n vÄ±zÄ±ldamasÄ± burada o kadar kuvvetli
+ki vÃ¼cudun neredeyse uyuÅŸuyor. Kemerli yol, enerji ile parlayÄ±p titreÅŸerek
+Ã¶nÃ¼nde uzanÄ±yor.
 ~
 0 D 0
 D0
@@ -4160,11 +4160,11 @@ D2
 0 -1 1448
 S
 #1448
-Kemerli giriş~
-Kemerli yoldan geçtiğinde hafif bir ürperme hissediyorsun, yaşayan büyülü
-enerjiler vücuduna işlemiş fakat yetersiz bulup da gitmiş gibi. Üzerindeki
-büyük, kuvvetle parlayan kemer neredeyse kör edici. Işığın arasından
-zorlukla, yukarıya tırmanan bir merdiven seçiyorsun.
+Kemerli giriÅŸ~
+Kemerli yoldan geÃ§tiÄŸinde hafif bir Ã¼rperme hissediyorsun, yaÅŸayan bÃ¼yÃ¼lÃ¼
+enerjiler vÃ¼cuduna iÅŸlemiÅŸ fakat yetersiz bulup da gitmiÅŸ gibi. Ãœzerindeki
+bÃ¼yÃ¼k, kuvvetle parlayan kemer neredeyse kÃ¶r edici. IÅŸÄ±ÄŸÄ±n arasÄ±ndan
+zorlukla, yukarÄ±ya tÄ±rmanan bir merdiven seÃ§iyorsun.
 ~
 0 D 0
 D0
@@ -4177,10 +4177,10 @@ D4
 0 -1 1449
 S
 #1449
-Merdiven sahanlığı~
-Yukarıya devam eden uzun bir merdivenin ortasındaki küçük bir
-sahanlıktasın. Duyuların körelmiş gibi, hiçbir koku veya ses
-algılayamıyorsun, ve her yöne baktığında gördüğün tek şey bitmeyen
+Merdiven sahanlÄ±ÄŸÄ±~
+YukarÄ±ya devam eden uzun bir merdivenin ortasÄ±ndaki kÃ¼Ã§Ã¼k bir
+sahanlÄ±ktasÄ±n. DuyularÄ±n kÃ¶relmiÅŸ gibi, hiÃ§bir koku veya ses
+algÄ±layamÄ±yorsun, ve her yÃ¶ne baktÄ±ÄŸÄ±nda gÃ¶rdÃ¼ÄŸÃ¼n tek ÅŸey bitmeyen
 merdiven...
 ~
 0 D 0
@@ -4194,12 +4194,12 @@ D5
 0 -1 1448
 S
 #1450
-Bir kesişme~
-Birkaç koridorun kesiştiği bir noktadasın. Etrafında gizemli güçler
-birbirini çekip itiyormuş hissine kapılıyorsun. Ortada tuzağa düşme hissi
-neredeyse havada düğüm olmuş gibi. Gri bir koridor güneye, siyah bir koridor
-doğuya, beyaz bir koridor baıtya ve rengarenk, birbirinin içine geçen
-tanımlanamaz şekillerle dolu bir koridor kuzeye uzanıyor.
+Bir kesiÅŸme~
+BirkaÃ§ koridorun kesiÅŸtiÄŸi bir noktadasÄ±n. EtrafÄ±nda gizemli gÃ¼Ã§ler
+birbirini Ã§ekip itiyormuÅŸ hissine kapÄ±lÄ±yorsun. Ortada tuzaÄŸa dÃ¼ÅŸme hissi
+neredeyse havada dÃ¼ÄŸÃ¼m olmuÅŸ gibi. Gri bir koridor gÃ¼neye, siyah bir koridor
+doÄŸuya, beyaz bir koridor baÄ±tya ve rengarenk, birbirinin iÃ§ine geÃ§en
+tanÄ±mlanamaz ÅŸekillerle dolu bir koridor kuzeye uzanÄ±yor.
 ~
 0 D 0
 D0
@@ -4225,9 +4225,9 @@ D5
 S
 #1451
 Gri seramikten bir koridor~
-Kuzey ve güney yönünde uzanan gri seramikten bir koridordasın. Sıcak bir
-ışık yayan ve yolu gösteren loş enerji topları etrafta süzülüyor. Bir barış
-ve denge hissi içini dolduruyor.
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde uzanan gri seramikten bir koridordasÄ±n. SÄ±cak bir
+Ä±ÅŸÄ±k yayan ve yolu gÃ¶steren loÅŸ enerji toplarÄ± etrafta sÃ¼zÃ¼lÃ¼yor. Bir barÄ±ÅŸ
+ve denge hissi iÃ§ini dolduruyor.
 ~
 0 D 0
 D0
@@ -4241,9 +4241,9 @@ D2
 S
 #1452
 Gri seramikten bir koridor~
-Kuzey ve güney yönünde uzanan gri seramikten bir koridordasın. Sıcak bir
-ışık yayan ve yolu gösteren loş enerji topları etrafta süzülüyor. Bir barış
-ve denge hissi içini dolduruyor. Güneyde büyük, metal kapılar var.
+Kuzey ve gÃ¼ney yÃ¶nÃ¼nde uzanan gri seramikten bir koridordasÄ±n. SÄ±cak bir
+Ä±ÅŸÄ±k yayan ve yolu gÃ¶steren loÅŸ enerji toplarÄ± etrafta sÃ¼zÃ¼lÃ¼yor. Bir barÄ±ÅŸ
+ve denge hissi iÃ§ini dolduruyor. GÃ¼neyde bÃ¼yÃ¼k, metal kapÄ±lar var.
 ~
 0 D 0
 D0
@@ -4252,20 +4252,20 @@ D0
 0 -1 1451
 D2
 ~
-kapı gri~
+kapÄ± gri~
 1 -1 1453
 S
 #1453
 Bekleme salonu~
-Gri ışığın usta büyücüsünün bekleme salonundasın. Güçlü büyünün havadaki
-dalgalanışını hissediyorsun, o kadar güçlü ki neredeyse bu duvarlar içindeki
-enerjinin tadını alabiliyorsun. Yarım ışığa gözlerin alıştığında, güneyde
-daha büyük bir oda seçebiliyorsun.
+Gri Ä±ÅŸÄ±ÄŸÄ±n usta bÃ¼yÃ¼cÃ¼sÃ¼nÃ¼n bekleme salonundasÄ±n. GÃ¼Ã§lÃ¼ bÃ¼yÃ¼nÃ¼n havadaki
+dalgalanÄ±ÅŸÄ±nÄ± hissediyorsun, o kadar gÃ¼Ã§lÃ¼ ki neredeyse bu duvarlar iÃ§indeki
+enerjinin tadÄ±nÄ± alabiliyorsun. YarÄ±m Ä±ÅŸÄ±ÄŸa gÃ¶zlerin alÄ±ÅŸtÄ±ÄŸÄ±nda, gÃ¼neyde
+daha bÃ¼yÃ¼k bir oda seÃ§ebiliyorsun.
 ~
 0 D 0
 D0
 ~
-kapı gri~
+kapÄ± gri~
 1 -1 1452
 D2
 ~
@@ -4274,10 +4274,10 @@ D2
 S
 #1454
 Ana oda~
-Yansızlığın ana odasına girer girmez üzerine bir sükunet hissi çöküyot.
-Bazı büyülü eşyalar duvarlara asılmış veya sehpaların üzerine koyulmuş.
-Odanın genel görünüşü hem resmi hem de rahatlatıcı. Muhtemelen burası
-yansızlığın efendisinin kabul odası.
+YansÄ±zlÄ±ÄŸÄ±n ana odasÄ±na girer girmez Ã¼zerine bir sÃ¼kunet hissi Ã§Ã¶kÃ¼yot.
+BazÄ± bÃ¼yÃ¼lÃ¼ eÅŸyalar duvarlara asÄ±lmÄ±ÅŸ veya sehpalarÄ±n Ã¼zerine koyulmuÅŸ.
+OdanÄ±n genel gÃ¶rÃ¼nÃ¼ÅŸÃ¼ hem resmi hem de rahatlatÄ±cÄ±. Muhtemelen burasÄ±
+yansÄ±zlÄ±ÄŸÄ±n efendisinin kabul odasÄ±.
 ~
 0 D 0
 D0
@@ -4298,12 +4298,12 @@ D3
 0 -1 1455
 S
 #1455
-Çalışma odası~
-Büyük bir çalışma odasındasın. Gizemli bilgilerin kitaplarıyla dolu
-raflar duvarlara dizilmiş. Üzerinde birçok kağıt ve parşömen bulunan meşeden
-yapılmış bvir masa odanın ortasında duruyor. Burada en çok dikkat çeken şey
-ise havada göz seviyesinde asılı duran bir çift terazi kefesi. Şüphe
-götürmez bir şekilde buranın efendisinin yansızlığını temsil ediyor.
+Ã‡alÄ±ÅŸma odasÄ±~
+BÃ¼yÃ¼k bir Ã§alÄ±ÅŸma odasÄ±ndasÄ±n. Gizemli bilgilerin kitaplarÄ±yla dolu
+raflar duvarlara dizilmiÅŸ. Ãœzerinde birÃ§ok kaÄŸÄ±t ve parÅŸÃ¶men bulunan meÅŸeden
+yapÄ±lmÄ±ÅŸ bvir masa odanÄ±n ortasÄ±nda duruyor. Burada en Ã§ok dikkat Ã§eken ÅŸey
+ise havada gÃ¶z seviyesinde asÄ±lÄ± duran bir Ã§ift terazi kefesi. ÅÃ¼phe
+gÃ¶tÃ¼rmez bir ÅŸekilde buranÄ±n efendisinin yansÄ±zlÄ±ÄŸÄ±nÄ± temsil ediyor.
 ~
 0 D 0
 D1
@@ -4312,8 +4312,8 @@ D1
 0 -1 1454
 S
 #1456
-Bir bölme~
-Küçük bir bölmedesin. Burası birsürü peleri nve diğer giysilerle dolu.
+Bir bÃ¶lme~
+KÃ¼Ã§Ã¼k bir bÃ¶lmedesin. BurasÄ± birsÃ¼rÃ¼ peleri nve diÄŸer giysilerle dolu.
 ~
 0 AD 0
 D3
@@ -4322,9 +4322,9 @@ D3
 0 -1 1454
 S
 #1457
-Bir yatak odası~
-Yansızlığın efendisinin yatak odasındasın. Güneyde perdeleri kapalı
-pencereler var. Büyük, rahat bir yatak odanın çoğunu kaplıyor.
+Bir yatak odasÄ±~
+YansÄ±zlÄ±ÄŸÄ±n efendisinin yatak odasÄ±ndasÄ±n. GÃ¼neyde perdeleri kapalÄ±
+pencereler var. BÃ¼yÃ¼k, rahat bir yatak odanÄ±n Ã§oÄŸunu kaplÄ±yor.
 ~
 0 D 0
 D0
@@ -4333,10 +4333,10 @@ D0
 0 -1 1454
 S
 #1458
-Karanlık bir koridor~
-Doğu ve batı yönünde uzanan, karanlık, uzun bir koridordasın. Bu doğal
-olmayan karanlığın içinde pek fazla şey görülemese de koridorda ilerledikçe
-derin bir korku hissi içini kaplıyor.
+KaranlÄ±k bir koridor~
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan, karanlÄ±k, uzun bir koridordasÄ±n. Bu doÄŸal
+olmayan karanlÄ±ÄŸÄ±n iÃ§inde pek fazla ÅŸey gÃ¶rÃ¼lemese de koridorda ilerledikÃ§e
+derin bir korku hissi iÃ§ini kaplÄ±yor.
 ~
 0 AD 0
 D1
@@ -4349,10 +4349,10 @@ D3
 0 -1 1450
 S
 #1459
-Karanlık bir koridor~
-Doğu ve batı yönünde uzanan, karanlık, uzun bir koridordasın. Bu doğal
-olmayan karanlığın içinde pek fazla şey görülemese de koridorda ilerledikçe
-derin bir korku hissi içini kaplıyor.
+KaranlÄ±k bir koridor~
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan, karanlÄ±k, uzun bir koridordasÄ±n. Bu doÄŸal
+olmayan karanlÄ±ÄŸÄ±n iÃ§inde pek fazla ÅŸey gÃ¶rÃ¼lemese de koridorda ilerledikÃ§e
+derin bir korku hissi iÃ§ini kaplÄ±yor.
 ~
 0 AD 0
 D1
@@ -4366,14 +4366,14 @@ D3
 S
 #1460
 Koridorun sonu~
-Uzun, karanlık koridorun sonundasın. Buradaki karanlık neredeyse
-kalınlığından düğüm olmuş. Derin bir korku ve nefret hissi içine doğuyor.
-Doğuda bir çift obsidyen kapı var.
+Uzun, karanlÄ±k koridorun sonundasÄ±n. Buradaki karanlÄ±k neredeyse
+kalÄ±nlÄ±ÄŸÄ±ndan dÃ¼ÄŸÃ¼m olmuÅŸ. Derin bir korku ve nefret hissi iÃ§ine doÄŸuyor.
+DoÄŸuda bir Ã§ift obsidyen kapÄ± var.
 ~
 0 AD 0
 D1
 ~
-kapı obsidyen~
+kapÄ± obsidyen~
 1 -1 1461
 D3
 ~
@@ -4381,11 +4381,11 @@ D3
 0 -1 1459
 S
 #1461
-Karanlığın Odası~
-Engin bir odadasın. Duvarlar karanlığın içine gömülerek seni, odanın
-boyutları hakkındaki belirsiz fikirlerinle başbaşa bırakıyor. Saf karnalığın
-içindeki siyah girdaplar senin de ışığını içeriye emerek burayı daha da
-karartıyor gibiler.
+KaranlÄ±ÄŸÄ±n OdasÄ±~
+Engin bir odadasÄ±n. Duvarlar karanlÄ±ÄŸÄ±n iÃ§ine gÃ¶mÃ¼lerek seni, odanÄ±n
+boyutlarÄ± hakkÄ±ndaki belirsiz fikirlerinle baÅŸbaÅŸa bÄ±rakÄ±yor. Saf karnalÄ±ÄŸÄ±n
+iÃ§indeki siyah girdaplar senin de Ä±ÅŸÄ±ÄŸÄ±nÄ± iÃ§eriye emerek burayÄ± daha da
+karartÄ±yor gibiler.
 ~
 0 AD 0
 D0
@@ -4402,12 +4402,12 @@ D2
 0 -1 1463
 D3
 ~
-kapı obsidyen~
+kapÄ± obsidyen~
 1 -1 1460
 S
 #1462
-Burası çok karanlık...~
-Burası çok karanlık...
+BurasÄ± Ã§ok karanlÄ±k...~
+BurasÄ± Ã§ok karanlÄ±k...
 ~
 0 AD 0
 D2
@@ -4416,11 +4416,11 @@ D2
 0 -1 1461
 S
 #1463
-İşkence Odası~
-Güçlükle aydınlanan bir odadasın. Kendi zihinleri varmış gibi, bir
-sonraki kurbanın bekleyişi içinde titreşen işkence aletleri, duvardaki bir
-raftan sarkıyor. Burada sade bir ameliyat masası var. Hat safhada bir kemlik
-duygusu bütün odaya işlemiş.
+Ä°ÅŸkence OdasÄ±~
+GÃ¼Ã§lÃ¼kle aydÄ±nlanan bir odadasÄ±n. Kendi zihinleri varmÄ±ÅŸ gibi, bir
+sonraki kurbanÄ±n bekleyiÅŸi iÃ§inde titreÅŸen iÅŸkence aletleri, duvardaki bir
+raftan sarkÄ±yor. Burada sade bir ameliyat masasÄ± var. Hat safhada bir kemlik
+duygusu bÃ¼tÃ¼n odaya iÅŸlemiÅŸ.
 ~
 0 AD 0
 D0
@@ -4429,11 +4429,11 @@ D0
 0 -1 1461
 S
 #1464
-İç oda~
-Küçük, karanlık bir odadasın. Duvarlara, bu gezegende çok az kişinin
-bildiğini düşündüğün kem bir dilde yazılmış güç mühürleri kazınmış.
-Parlıyormuş gibi görünen, obsidyen bir sunak burada, ama hiç ışık saçmıyor,
-aslında içerde bulunan ışığı çekiyor gibi.
+Ä°Ã§ oda~
+KÃ¼Ã§Ã¼k, karanlÄ±k bir odadasÄ±n. Duvarlara, bu gezegende Ã§ok az kiÅŸinin
+bildiÄŸini dÃ¼ÅŸÃ¼ndÃ¼ÄŸÃ¼n kem bir dilde yazÄ±lmÄ±ÅŸ gÃ¼Ã§ mÃ¼hÃ¼rleri kazÄ±nmÄ±ÅŸ.
+ParlÄ±yormuÅŸ gibi gÃ¶rÃ¼nen, obsidyen bir sunak burada, ama hiÃ§ Ä±ÅŸÄ±k saÃ§mÄ±yor,
+aslÄ±nda iÃ§erde bulunan Ä±ÅŸÄ±ÄŸÄ± Ã§ekiyor gibi.
 ~
 0 AD 0
 D3
@@ -4443,9 +4443,9 @@ D3
 S
 #1465
 Parlak bir koridor~
-Doğu ve batı yönünde uzanan, iyi aydınlatılmış uzun bir koridordasın.
-Buradaki duvarlar süt beyazı renginde ve sıcak bir ışıldama ile parlıyor. Ve
-bu kutsal yerlere ayaklarını basarken kendini buraya layık hissetmiyorsun.
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan, iyi aydÄ±nlatÄ±lmÄ±ÅŸ uzun bir koridordasÄ±n.
+Buradaki duvarlar sÃ¼t beyazÄ± renginde ve sÄ±cak bir Ä±ÅŸÄ±ldama ile parlÄ±yor. Ve
+bu kutsal yerlere ayaklarÄ±nÄ± basarken kendini buraya layÄ±k hissetmiyorsun.
 ~
 0 D 0
 D1
@@ -4459,10 +4459,10 @@ D3
 S
 #1466
 Parlak bir koridor~
-Doğu ve batı yönünde uzanan, iyi aydınlatılmış uzun bir koridordasın.
-Buradaki duvarlar süt beyazı renginde ve sıcak bir ışıldama ile parlıyor. Ve
-bu kutsal yerlere ayaklarını basarken kendini buraya layık hissetmiyorsun.
-Batıda iyi işlenmiş dev gibi bir çift fildişi kapı var.
+DoÄŸu ve batÄ± yÃ¶nÃ¼nde uzanan, iyi aydÄ±nlatÄ±lmÄ±ÅŸ uzun bir koridordasÄ±n.
+Buradaki duvarlar sÃ¼t beyazÄ± renginde ve sÄ±cak bir Ä±ÅŸÄ±ldama ile parlÄ±yor. Ve
+bu kutsal yerlere ayaklarÄ±nÄ± basarken kendini buraya layÄ±k hissetmiyorsun.
+BatÄ±da iyi iÅŸlenmiÅŸ dev gibi bir Ã§ift fildiÅŸi kapÄ± var.
 ~
 0 D 0
 D1
@@ -4471,20 +4471,20 @@ D1
 0 -1 1465
 D3
 ~
-kapı fildişi~
+kapÄ± fildiÅŸi~
 1 -1 1467
 S
 #1467
-Bir bekleme odası~
-Küçük bir bekleme odasında bulunuyorsun. Işığın nerden geldiği belli
-değil ama burası çok iyi aydınlatılmış. Neredeyse odanın kendisi iyilik
-timsali bir ışık yayıyormuş gibi. Batıda daha büyük bir oda var fakat
-kendini oraya gitmeye layık görmüyorsun.
+Bir bekleme odasÄ±~
+KÃ¼Ã§Ã¼k bir bekleme odasÄ±nda bulunuyorsun. IÅŸÄ±ÄŸÄ±n nerden geldiÄŸi belli
+deÄŸil ama burasÄ± Ã§ok iyi aydÄ±nlatÄ±lmÄ±ÅŸ. Neredeyse odanÄ±n kendisi iyilik
+timsali bir Ä±ÅŸÄ±k yayÄ±yormuÅŸ gibi. BatÄ±da daha bÃ¼yÃ¼k bir oda var fakat
+kendini oraya gitmeye layÄ±k gÃ¶rmÃ¼yorsun.
 ~
 0 D 0
 D1
 ~
-kapı fildişi~
+kapÄ± fildiÅŸi~
 1 -1 1466
 D3
 ~
@@ -4492,11 +4492,11 @@ D3
 0 -1 1469
 S
 #1469
-Beyaz ışığın odası~
-Engin bir odadasın. Duvarlar, yerler ve tavan, neredeyse kör edecek
-derecede, en parlak beyazdan yapılmış metalden bir madde ile kaplanmış.
-Odayı karanlık ve kemden arındırarak titreşen bir alev odanın ortasında
-yanıyor. Alev sana doğru titreştiğinde, varlığında bir çekilme hissi
+Beyaz Ä±ÅŸÄ±ÄŸÄ±n odasÄ±~
+Engin bir odadasÄ±n. Duvarlar, yerler ve tavan, neredeyse kÃ¶r edecek
+derecede, en parlak beyazdan yapÄ±lmÄ±ÅŸ metalden bir madde ile kaplanmÄ±ÅŸ.
+OdayÄ± karanlÄ±k ve kemden arÄ±ndÄ±rarak titreÅŸen bir alev odanÄ±n ortasÄ±nda
+yanÄ±yor. Alev sana doÄŸru titreÅŸtiÄŸinde, varlÄ±ÄŸÄ±nda bir Ã§ekilme hissi
 duyuyorsun.
 ~
 0 0 0
@@ -4518,9 +4518,9 @@ D3
 0 -1 1472
 S
 #1470
-Meditasyon Odası~
-Küçük bir meditasyon odasında bulunuyorsun. Heryerde, çok rahat görünen
-beyaz, ipek minderler var. Kendini neredeyse yatıp uyuyayacak kadar rahat ve
+Meditasyon OdasÄ±~
+KÃ¼Ã§Ã¼k bir meditasyon odasÄ±nda bulunuyorsun. Heryerde, Ã§ok rahat gÃ¶rÃ¼nen
+beyaz, ipek minderler var. Kendini neredeyse yatÄ±p uyuyayacak kadar rahat ve
 huzurlu hissediyorsun.
 ~
 0 D 0
@@ -4530,11 +4530,11 @@ D2
 0 -1 1469
 S
 #1471
-Bir çalışma odası~
-Havadar bir çalışma odasında bulunuyorsun. Burası azami derecede düzenli
-ve temiz. Buraya giren bir kişi, kim bu kadar düzenli ve etrafında hiç
-kirlilik olmayan bir odada çalışabilir ki diye düşünür, belli bu odanın
-ustası çalışır.
+Bir Ã§alÄ±ÅŸma odasÄ±~
+Havadar bir Ã§alÄ±ÅŸma odasÄ±nda bulunuyorsun. BurasÄ± azami derecede dÃ¼zenli
+ve temiz. Buraya giren bir kiÅŸi, kim bu kadar dÃ¼zenli ve etrafÄ±nda hiÃ§
+kirlilik olmayan bir odada Ã§alÄ±ÅŸabilir ki diye dÃ¼ÅŸÃ¼nÃ¼r, belli bu odanÄ±n
+ustasÄ± Ã§alÄ±ÅŸÄ±r.
 ~
 0 D 0
 D0
@@ -4543,9 +4543,9 @@ D0
 0 -1 1469
 S
 #1472
-Bir bölme~
-Küçük bir bölmedesin. Pelerinler ve cüppeler duvarlardan sarkıyor ve
-birkaç tane eski çizme dışında hiçbir şey yok, gayet niteliksiz.
+Bir bÃ¶lme~
+KÃ¼Ã§Ã¼k bir bÃ¶lmedesin. Pelerinler ve cÃ¼ppeler duvarlardan sarkÄ±yor ve
+birkaÃ§ tane eski Ã§izme dÄ±ÅŸÄ±nda hiÃ§bir ÅŸey yok, gayet niteliksiz.
 ~
 0 AD 0
 D1
@@ -4554,15 +4554,15 @@ D1
 0 -1 1469
 S
 #1473
-Geniş bir koridor~
-Büyük, yanyana duran birkaç kişinin birden sığabileceği genişlikte bir
-koridordasın. Buradaki yer sabit hızda değişen renk ve desenlerle dolu. Dev,
-gri ve güçlü görünen metal bir kapı kuzeye giden yolu kesiyor.
+GeniÅŸ bir koridor~
+BÃ¼yÃ¼k, yanyana duran birkaÃ§ kiÅŸinin birden sÄ±ÄŸabileceÄŸi geniÅŸlikte bir
+koridordasÄ±n. Buradaki yer sabit hÄ±zda deÄŸiÅŸen renk ve desenlerle dolu. Dev,
+gri ve gÃ¼Ã§lÃ¼ gÃ¶rÃ¼nen metal bir kapÄ± kuzeye giden yolu kesiyor.
 ~
 0 D 0
 D0
 ~
-kapı metal gri~
+kapÄ± metal gri~
 1 1473 1474
 D2
 ~
@@ -4570,44 +4570,44 @@ D2
 0 -1 1450
 S
 #1474
-Geniş bir koridor~
-Büyük, yanyana duran birkaç kişinin birden sığabileceği genişlikte bir
-koridordasın. Buradaki yer sabit bir hızda değişen renk ve desenlerle dolu.
+GeniÅŸ bir koridor~
+BÃ¼yÃ¼k, yanyana duran birkaÃ§ kiÅŸinin birden sÄ±ÄŸabileceÄŸi geniÅŸlikte bir
+koridordasÄ±n. Buradaki yer sabit bir hÄ±zda deÄŸiÅŸen renk ve desenlerle dolu.
 A huge black obsidian door blocks the way north, it looks quite sturdy. Dev,
-obsidyenden yapılmış, güçlü, siyah bir kapı kuzeye giden yolu kesiyor.
+obsidyenden yapÄ±lmÄ±ÅŸ, gÃ¼Ã§lÃ¼, siyah bir kapÄ± kuzeye giden yolu kesiyor.
 ~
 0 D 0
 D0
 ~
-kapı obsidyen siyah~
+kapÄ± obsidyen siyah~
 1 1474 1475
 D2
 ~
-kapı metal gri~
+kapÄ± metal gri~
 1 1473 1473
 S
 #1475
-Geniş bir koridor~
-Büyük, yanyana duran birkaç kişinin birden sığabileceği genişlikte bir
-koridordasın. Buradaki yer sabit bir hızda değişen renk ve desenlerle dolu.
+GeniÅŸ bir koridor~
+BÃ¼yÃ¼k, yanyana duran birkaÃ§ kiÅŸinin birden sÄ±ÄŸabileceÄŸi geniÅŸlikte bir
+koridordasÄ±n. Buradaki yer sabit bir hÄ±zda deÄŸiÅŸen renk ve desenlerle dolu.
 A huge black obsidian door blocks the way north, it looks quite sturdy. Dev,
-fildişinden yapılmış, güçlü, beyaz bir kapı kuzeye giden yolu kesiyor.
+fildiÅŸinden yapÄ±lmÄ±ÅŸ, gÃ¼Ã§lÃ¼, beyaz bir kapÄ± kuzeye giden yolu kesiyor.
 ~
 0 D 0
 D0
 ~
-kapı fildişi beyaz~
+kapÄ± fildiÅŸi beyaz~
 1 1475 1476
 D2
 ~
-kapı obsidyen siyah~
+kapÄ± obsidyen siyah~
 1 1474 1474
 S
 #1476
-Giriş Yolu~
-Büyünün büyük ustasının kabul salonunun girişindesin. Duvarlarda bilginin
-kadim ustalarını gösteren halılar asılı. Yer, rengarenk peluştan bir halıyla
-kaplanmış ve ayağının dokunmasıyla beraber hışırdayıp, hareket ediyor.
+GiriÅŸ Yolu~
+BÃ¼yÃ¼nÃ¼n bÃ¼yÃ¼k ustasÄ±nÄ±n kabul salonunun giriÅŸindesin. Duvarlarda bilginin
+kadim ustalarÄ±nÄ± gÃ¶steren halÄ±lar asÄ±lÄ±. Yer, rengarenk peluÅŸtan bir halÄ±yla
+kaplanmÄ±ÅŸ ve ayaÄŸÄ±nÄ±n dokunmasÄ±yla beraber hÄ±ÅŸÄ±rdayÄ±p, hareket ediyor.
 ~
 0 D 0
 D0
@@ -4616,17 +4616,17 @@ D0
 0 -1 1477
 D2
 ~
-kapı fildişi beyaz~
+kapÄ± fildiÅŸi beyaz~
 1 1475 1475
 S
 #1477
 Kabul Salonu~
-Büyük bir odadasın. Küçük enerji yıldırımları güçlü bir şekilde
-çıtırdayarak duvardan duvara atlıyor. Yer, anlaşılmaz renkler ve şekillerle
-devamlı değişiyor. Parlak renk patlamaları rastgele zamanlarda havada
-infilak edip yeniden oluşuyor. Bütün bu tantana ortalıkta dönerken,
-dikkatini odanın ortasındaki büyük bir tahta çekiyor. Bu devasa taht,
-yekpare zümrütten yapılmış gibi görünüyor.
+BÃ¼yÃ¼k bir odadasÄ±n. KÃ¼Ã§Ã¼k enerji yÄ±ldÄ±rÄ±mlarÄ± gÃ¼Ã§lÃ¼ bir ÅŸekilde
+Ã§Ä±tÄ±rdayarak duvardan duvara atlÄ±yor. Yer, anlaÅŸÄ±lmaz renkler ve ÅŸekillerle
+devamlÄ± deÄŸiÅŸiyor. Parlak renk patlamalarÄ± rastgele zamanlarda havada
+infilak edip yeniden oluÅŸuyor. BÃ¼tÃ¼n bu tantana ortalÄ±kta dÃ¶nerken,
+dikkatini odanÄ±n ortasÄ±ndaki bÃ¼yÃ¼k bir tahta Ã§ekiyor. Bu devasa taht,
+yekpare zÃ¼mrÃ¼tten yapÄ±lmÄ±ÅŸ gibi gÃ¶rÃ¼nÃ¼yor.
 ~
 0 D 0
 D0
@@ -4647,15 +4647,15 @@ D3
 0 -1 1479
 E
 taht~
-Dev zümrüt, kusursuz ve herhalde çok para eder.
+Dev zÃ¼mrÃ¼t, kusursuz ve herhalde Ã§ok para eder.
 ~
 S
 #1478
-Bir Giyinme Odası~
-Peluştan yapılmış bir giyinme odasında bulunuyorsun. Bir çok stil ve
-tuhaf renklerde giysi, havanın ortasında, göz seviyesine sabitlenmiş bir
-rafa aslmış şekilde duruyor. Bunun dışında ilgini çeken tek şey iyi işlenmiş
-altın bir sehpanın üzerinde duran büyük, gümüş bir ayna.
+Bir Giyinme OdasÄ±~
+PeluÅŸtan yapÄ±lmÄ±ÅŸ bir giyinme odasÄ±nda bulunuyorsun. Bir Ã§ok stil ve
+tuhaf renklerde giysi, havanÄ±n ortasÄ±nda, gÃ¶z seviyesine sabitlenmiÅŸ bir
+rafa aslmÄ±ÅŸ ÅŸekilde duruyor. Bunun dÄ±ÅŸÄ±nda ilgini Ã§eken tek ÅŸey iyi iÅŸlenmiÅŸ
+altÄ±n bir sehpanÄ±n Ã¼zerinde duran bÃ¼yÃ¼k, gÃ¼mÃ¼ÅŸ bir ayna.
 ~
 0 D 0
 D3
@@ -4664,12 +4664,12 @@ D3
 0 -1 1477
 S
 #1479
-Kütüphane~
-Küçük, sıcak ve rahat görünen bir kütüphanedesin. Her duvara asılmış
-rafların üzerinde birkaç tane iyi görünen kitap var. Odanın ortasında,
-üzerinde tuhaf kağıtlar ve parşömenler bulunan, meşeden yapılmış bir masa
-var. Buradaki ışıklandırma, çok ilginç bir şekilde, büyülü olmayan bir gaz
-lambası.
+KÃ¼tÃ¼phane~
+KÃ¼Ã§Ã¼k, sÄ±cak ve rahat gÃ¶rÃ¼nen bir kÃ¼tÃ¼phanedesin. Her duvara asÄ±lmÄ±ÅŸ
+raflarÄ±n Ã¼zerinde birkaÃ§ tane iyi gÃ¶rÃ¼nen kitap var. OdanÄ±n ortasÄ±nda,
+Ã¼zerinde tuhaf kaÄŸÄ±tlar ve parÅŸÃ¶menler bulunan, meÅŸeden yapÄ±lmÄ±ÅŸ bir masa
+var. Buradaki Ä±ÅŸÄ±klandÄ±rma, Ã§ok ilginÃ§ bir ÅŸekilde, bÃ¼yÃ¼lÃ¼ olmayan bir gaz
+lambasÄ±.
 ~
 0 D 0
 D1
@@ -4679,20 +4679,20 @@ D1
 S
 #1480
 Sunak~
-Mükemmel işlenmiş, altından bir sunağı merkez alarak inşa edilmiş küçük
-bir ibadet yerindesin. Zayıf dinlere adanmış birçok sembol odada çizgiler
-çiziyor fakat tek bakışta anlayabildiğin üzere sunağın üzerindeki sembol,
-buranın ona tapınmak için yapıldığını belli eder şekilde, Büyü Tanrıçası'na
+MÃ¼kemmel iÅŸlenmiÅŸ, altÄ±ndan bir sunaÄŸÄ± merkez alarak inÅŸa edilmiÅŸ kÃ¼Ã§Ã¼k
+bir ibadet yerindesin. ZayÄ±f dinlere adanmÄ±ÅŸ birÃ§ok sembol odada Ã§izgiler
+Ã§iziyor fakat tek bakÄ±ÅŸta anlayabildiÄŸin Ã¼zere sunaÄŸÄ±n Ã¼zerindeki sembol,
+buranÄ±n ona tapÄ±nmak iÃ§in yapÄ±ldÄ±ÄŸÄ±nÄ± belli eder ÅŸekilde, BÃ¼yÃ¼ TanrÄ±Ã§asÄ±'na
 ait.
 ~
 0 D 0
 D0
 ~
-kapı~
+kapÄ±~
 1 -1 536
 D1
 ~
-kapı gizli~
+kapÄ± gizli~
 1 -1 1481
 D2
 ~
@@ -4700,26 +4700,26 @@ D2
 0 -1 1477
 D3
 ~
-kapı gizli~
+kapÄ± gizli~
 1 -1 1482
 S
 #1481
 Hazine~
-Küçük bir odadasın. İçerdeki eski hava buraya yıllardır kimsenin
-girmediğini kanıtlıyor.
+KÃ¼Ã§Ã¼k bir odadasÄ±n. Ä°Ã§erdeki eski hava buraya yÄ±llardÄ±r kimsenin
+girmediÄŸini kanÄ±tlÄ±yor.
 ~
 0 D 0
 D3
 ~
-kapı gizli~
+kapÄ± gizli~
 1 -1 1480
 S
 #1482
-Bir geçiş~
-Küçük, karanlık, eğer batıdan kör edici mavi bir ışık gelmese
-umursanmayacak bir geçiştesin. Duvarlara asılmış kancalarda seyahat etmekten
-aşınmış cüppele ve küçük, deri bir çanta asılı. Göründüğü kadarıyla
-birileri, ani bir binayı boşaltma durumu için bu odayı hazırlamış
+Bir geÃ§iÅŸ~
+KÃ¼Ã§Ã¼k, karanlÄ±k, eÄŸer batÄ±dan kÃ¶r edici mavi bir Ä±ÅŸÄ±k gelmese
+umursanmayacak bir geÃ§iÅŸtesin. Duvarlara asÄ±lmÄ±ÅŸ kancalarda seyahat etmekten
+aÅŸÄ±nmÄ±ÅŸ cÃ¼ppele ve kÃ¼Ã§Ã¼k, deri bir Ã§anta asÄ±lÄ±. GÃ¶rÃ¼ndÃ¼ÄŸÃ¼ kadarÄ±yla
+birileri, ani bir binayÄ± boÅŸaltma durumu iÃ§in bu odayÄ± hazÄ±rlamÄ±ÅŸ
 ~
 0 AD 0
 D3
@@ -4728,11 +4728,11 @@ D3
 0 -1 1483
 S
 #1483
-Işıkta~
-Bir enerji alanının ortasında havada asılı gibisin, enerjinin kaynağını
-göremiyorsun fakat seni her yönden ittiğini ve yerçekimini tamamen
-yokettiğini hissedebiliyorsun. Kafanın üstüne masmavi bir açıklık
-görüyorsun, bu bir çıkış olabilir.
+IÅŸÄ±kta~
+Bir enerji alanÄ±nÄ±n ortasÄ±nda havada asÄ±lÄ± gibisin, enerjinin kaynaÄŸÄ±nÄ±
+gÃ¶remiyorsun fakat seni her yÃ¶nden ittiÄŸini ve yerÃ§ekimini tamamen
+yokettiÄŸini hissedebiliyorsun. KafanÄ±n Ã¼stÃ¼ne masmavi bir aÃ§Ä±klÄ±k
+gÃ¶rÃ¼yorsun, bu bir Ã§Ä±kÄ±ÅŸ olabilir.
 ~
 0 D 0
 D4
@@ -4741,11 +4741,11 @@ D4
 0 -1 3001
 S
 #1499
-Skylar'ın Gizli Odası~
-Küçük, çok dağınık bir odadasın. Düzeltilmemiş bir yatak odanın bir
-duvarında, ve düz olan her yer kitaplar ve kağıtlarla kaplanmış durumda.
-Etrafta bırakılmış boş bira kutuları var. Masanın üzerinde birkaç tane dolu
-kül tablası var.
+Skylar'Ä±n Gizli OdasÄ±~
+KÃ¼Ã§Ã¼k, Ã§ok daÄŸÄ±nÄ±k bir odadasÄ±n. DÃ¼zeltilmemiÅŸ bir yatak odanÄ±n bir
+duvarÄ±nda, ve dÃ¼z olan her yer kitaplar ve kaÄŸÄ±tlarla kaplanmÄ±ÅŸ durumda.
+Etrafta bÄ±rakÄ±lmÄ±ÅŸ boÅŸ bira kutularÄ± var. MasanÄ±n Ã¼zerinde birkaÃ§ tane dolu
+kÃ¼l tablasÄ± var.
 ~
 0 CDJ 0
 D5

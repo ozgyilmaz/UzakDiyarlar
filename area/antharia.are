@@ -3,7 +3,7 @@ Filename antharia.are~
 Name Antharia~
 Builder Amadeus~
 Translator ~
-Language Ýngilizce~
+Language Ä°ngilizce~
 Lowlevel 9
 Highlevel 42
 Minvnum 12300
@@ -296,14 +296,14 @@ from the Dwarven race here in Antharia.
 dwarf~
 2|65536 0 40
 #12364
-Çora Representative~
-an Çora representative~
-An Çora representative is standing here.
+Ã‡ora Representative~
+an Ã‡ora representative~
+An Ã‡ora representative is standing here.
 ~
-A young çora is here looking at you.  She is the representative from
-the çora race here in Antharia.
+A young Ã§ora is here looking at you.  She is the representative from
+the Ã§ora race here in Antharia.
 ~
-çora~
+Ã§ora~
 2|1024 0 40
 #12361
 Druidic Representative~
@@ -1971,7 +1971,7 @@ M 1 12360 1 12360  1 *                       load Hum. rep.
 *
 M 1 12365 1 12365  1 *                       load Dwf. rep.
 *
-M 1 12364 1 12364  1 *                       load Çora rep.
+M 1 12364 1 12364  1 *                       load Ã‡ora rep.
 *
 M 1 12361 1 12361  1 *                       load Dru. rep.
 *

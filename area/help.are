@@ -87,27 +87,27 @@ Example:  PROMPT <%hhp %mm %vmv>
 -1 SUMMARY~
 ____________________________________________________________________________
 || HAREKET                        |    GRUP                               ||
-|| kuzey güney doðu batý yukarý   |    takip grup ganlat daðýt            ||
-|| aþaðý çýkýþlar anýmsa uyu      |                                       ||
+|| kuzey gÃ¼ney doÄŸu batÄ± yukarÄ±   |    takip grup ganlat daÄŸÄ±t            ||
+|| aÅŸaÄŸÄ± Ã§Ä±kÄ±ÅŸlar anÄ±msa uyu      |                                       ||
 || dinlen kalk                    |                                       ||
 ||________________________________|_______________________________________||
-|| OBJELER                        |    BÝLGÝ / ÝLETÝÞÝM                   ||
-|| koy býrak ver kurban           |    yardým komutlar bölge              ||
+|| OBJELER                        |    BÄ°LGÄ° / Ä°LETÄ°ÅžÄ°M                   ||
+|| koy bÄ±rak ver kurban           |    yardÄ±m komutlar bÃ¶lge              ||
 || giy tut oku                    |    rapor skor zaman havadurumu nerede ||
-|| yudumla çarp savur             |    kim tanim þifre lakap              ||
-|| kilitle kilitaç aç kapat       |    bug söyle baðýr anlat              ||
-|| maymuncuk envanter ekipman     |    haykýr duygu poz                   ||
-|| bak ye iç doldur kýyasla       |    not oda günce odaetki etki         ||
-|| liste satýnal sat deðer        |                                       ||
+|| yudumla Ã§arp savur             |    kim tanim ÅŸifre lakap              ||
+|| kilitle kilitaÃ§ aÃ§ kapat       |    bug sÃ¶yle baÄŸÄ±r anlat              ||
+|| maymuncuk envanter ekipman     |    haykÄ±r duygu poz                   ||
+|| bak ye iÃ§ doldur kÄ±yasla       |    not oda gÃ¼nce odaetki etki         ||
+|| liste satÄ±nal sat deÄŸer        |                                       ||
 ||________________________________|_______________________________________||
-|| DÖVÜÞ                          |    DÝÐER                              ||
-|| öldür kaç tekme kurtar büyü    |    ! kaydet ayrýl talep rica          ||
-|| silahsýzlandýr ardýlan         |    pratik eðitim görev                ||
-|| korkaklýk                      |                                       ||
+|| DÃ–VÃœÅž                          |    DÄ°ÄžER                              ||
+|| Ã¶ldÃ¼r kaÃ§ tekme kurtar bÃ¼yÃ¼    |    ! kaydet ayrÄ±l talep rica          ||
+|| silahsÄ±zlandÄ±r ardÄ±lan         |    pratik eÄŸitim gÃ¶rev                ||
+|| korkaklÄ±k                      |                                       ||
 ||________________________________|_______________________________________||
-     Herhangi bir komut, beceri veya büyü hakkýnda daha
-     fazla yardým için 'yardým <komut>' yazýn.
-     Ayrýca: HASAR DEATH TECRÜBE TICK WIZLIST QUESTS
+     Herhangi bir komut, beceri veya bÃ¼yÃ¼ hakkÄ±nda daha
+     fazla yardÄ±m iÃ§in 'yardÄ±m <komut>' yazÄ±n.
+     AyrÄ±ca: HASAR DEATH TECRÃœBE TICK WIZLIST QUESTS
 
      ~
 
@@ -548,7 +548,7 @@ For example:
 
 who immortal    lists all immortals playing
 who pk		lists all characters in your PK range
-who çora         lists all çora clerics
+who Ã§ora         lists all Ã§ora clerics
 who entropy pk  lists all characters in entropy cabal, (if you are a mamber)
 		which are in your PK range
 
@@ -1059,7 +1059,7 @@ There is no RENT in this mud.  Just SAVE and QUIT whenever you want to leave.
 
 
 
--1 DAÐIT~
+-1 DAÄžIT~
 Syntax: SPLIT <silver> <gold>
 
 SPLIT splits some coins  between you and all the members of your
@@ -2052,7 +2052,7 @@ character creation process:
 Human:     Humans are the typical, average race, possessing no advantages nor
            disadvantages.
 Elves:     Elves are slender and fragile, yet agile and dextrous creatures.
-	   There are currently THREE çora races.(Elf,Dark-Elf,Half-Elf).
+	   There are currently THREE Ã§ora races.(Elf,Dark-Elf,Half-Elf).
 Dwarf:     Dwarves are typically high in constitution and strength, and have
 	   infravision.There are currently THREE: Dwarf,Yeg,Svirfnebli.
 Gnome:     Gnomes are typically highly intelligent but low in strength. And
@@ -2061,8 +2061,8 @@ Gamayun:     Gamayuns are a highly dextrous and smart race.They always fly. And
 	   gamayuns costs 250  exps per level.
 Giant:     Giants are great and strong race. They are higher in constitution.
 	   There are currently FOUR: Fire-Gia, Storm-Gia, Frost-Gia, Cloud-Gia.
-Börü:	   They are not strong , but has the ability to see in the dark, called
-	   infravision. And börü costs 250 extra exps per level.
+BÃ¶rÃ¼:	   They are not strong , but has the ability to see in the dark, called
+	   infravision. And bÃ¶rÃ¼ costs 250 extra exps per level.
 Rockseer  :Rockseer are  fragile, agile and dextrous creatures. They can pass
 	   all kinds of doors. They are neutral, cost 500 extra exps per level.
 Githyanki :Human like creatures but high in intelligent. They can be fighter,
@@ -3302,32 +3302,32 @@ that you can carry.
 ~
 
 -1 HASAR~
-Küçükten büyüðe hasar türleri...
-                                  çizdi
-                                 sýyýrdý
-                                týrmaladý
-                                 örseledi
-                                hýrpaladý
-                                 yýprattý
-                                 yaraladý
+KÃ¼Ã§Ã¼kten bÃ¼yÃ¼ÄŸe hasar tÃ¼rleri...
+                                  Ã§izdi
+                                 sÄ±yÄ±rdÄ±
+                                tÄ±rmaladÄ±
+                                 Ã¶rseledi
+                                hÄ±rpaladÄ±
+                                 yÄ±prattÄ±
+                                 yaraladÄ±
                                   kesti
-                                  biçti
-                                PARÇALADI
-                                 DOÐRADI
-                             -YIKIMA UÐRATTI-
+                                  biÃ§ti
+                                PARÃ‡ALADI
+                                 DOÄžRADI
+                             -YIKIMA UÄžRATTI-
                                  *KAZIDI*
-                             **KÖTÜRÜM ETTÝ**
-                            *** HARAP ETTÝ ***
-                             *** MAHVETTÝ ***
-                               === SÝLDÝ ===
-                         ==== BOZGUNA UÐRATTI ====
-                         <*> <*> KANA BOÐDU <*> <*>
-                         <*>!<*> TELEF ETTÝ <*>!<*>
-                       <*><*><*> REZÝL ETTÝ <*><*><*>
-                      (<*>)!(<*>) KATLETTÝ (<*>)!(<*>)
-                     (*)!(*)!(*) UN UFAK ETTÝ (*)!(*)!(*)
+                             **KÃ–TÃœRÃœM ETTÄ°**
+                            *** HARAP ETTÄ° ***
+                             *** MAHVETTÄ° ***
+                               === SÄ°LDÄ° ===
+                         ==== BOZGUNA UÄžRATTI ====
+                         <*> <*> KANA BOÄžDU <*> <*>
+                         <*>!<*> TELEF ETTÄ° <*>!<*>
+                       <*><*><*> REZÄ°L ETTÄ° <*><*><*>
+                      (<*>)!(<*>) KATLETTÄ° (<*>)!(<*>)
+                     (*)!(*)!(*) UN UFAK ETTÄ° (*)!(*)!(*)
                    (*)!<*>!(*) ATOMLARINA AYIRDI (*)!<*>!(*)
-                       <*>!(*)!<*>> ÖpTü <<*)!(*)!<*>
+                       <*>!(*)!<*>> Ã–pTÃ¼ <<*)!(*)!<*>
 
 ~
 

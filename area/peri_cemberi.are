@@ -1,9 +1,9 @@
 #AREADATA
 Filename peri_cemberi.are~
-Name Peri Çemberi~
+Name Peri Ã‡emberi~
 Builder Lok~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 10
 Highlevel 15
 Minvnum 29101
@@ -18,25 +18,25 @@ END
 #29101
 piksi~
 piksi~
-Bir piksi burada, seni kılıcıyla dürtüklüyor.
+Bir piksi burada, seni kÄ±lÄ±cÄ±yla dÃ¼rtÃ¼klÃ¼yor.
 ~
-Kanatlarıyla bir ejderhayı andıran insansı bir varlık.
+KanatlarÄ±yla bir ejderhayÄ± andÄ±ran insansÄ± bir varlÄ±k.
 ~
 sprite~
 ACEH T 10
 #29102
 niksi~
-kanat çırpan niksi~
-Kanat çırpan bir niksi görüyorsun.
+kanat Ã§Ä±rpan niksi~
+Kanat Ã§Ä±rpan bir niksi gÃ¶rÃ¼yorsun.
 ~
-Piksi gibi ejderha kanatlarına sahip, fakat ondan biraz daha uzun.
+Piksi gibi ejderha kanatlarÄ±na sahip, fakat ondan biraz daha uzun.
 ~
 sprite~
 ACEH T 12
 #29103
 peri~
 danseden peri~
-Güzel, danseden bir peri görüyorsun.
+GÃ¼zel, danseden bir peri gÃ¶rÃ¼yorsun.
 ~
 Niksi ve piksi gibi kanatlara sahip fakat iksinden de daha uzun.
 ~
@@ -44,57 +44,57 @@ sprite~
 ACEH BT 11
 #29104
 cin~
-haşin cin~
-Haşin bir cin burada, muhafızlık yapıyor.
+haÅŸin cin~
+HaÅŸin bir cin burada, muhafÄ±zlÄ±k yapÄ±yor.
 ~
-Toprak rengi giysiler içinde bir cin görüyorsun. Görevinde oldukça iyi.
+Toprak rengi giysiler iÃ§inde bir cin gÃ¶rÃ¼yorsun. GÃ¶revinde oldukÃ§a iyi.
 ~
 sprite~
 ABCE V 13
 #29105
 puk~
 Puk~
-Aman tamrım! Bu bir Puk!
+Aman tamrÄ±m! Bu bir Puk!
 ~
-Oldukça uzun boylu. Bir o yana, bir bu yana bakarak ganimetlerine göz kulak
+OldukÃ§a uzun boylu. Bir o yana, bir bu yana bakarak ganimetlerine gÃ¶z kulak
 oluyor.
 ~
 sprite~
 ABCES QV 14
 #29106
-peri kraliçe~
-Peri Kraliçe~
-Peri Kraliçe burada, muhteşem bir ezgiyle dans ediyor.
+peri kraliÃ§e~
+Peri KraliÃ§e~
+Peri KraliÃ§e burada, muhteÅŸem bir ezgiyle dans ediyor.
 ~
-Uzun boylu bir adaril. Oldukça da güzel bir yüze sahip. Onu izlemek sana
-büyük bir zevk veriyor.
+Uzun boylu bir adaril. OldukÃ§a da gÃ¼zel bir yÃ¼ze sahip. Onu izlemek sana
+bÃ¼yÃ¼k bir zevk veriyor.
 ~
-çora~
+Ã§ora~
 ABCER DHJT 15
 #29107
-şans peri~
-Şans Perisi~
-Bir şans perisi görüyorsun, elindeki zarları sallıyor.
+ÅŸans peri~
+Åans Perisi~
+Bir ÅŸans perisi gÃ¶rÃ¼yorsun, elindeki zarlarÄ± sallÄ±yor.
 ~
-Elmas işlemeli yeişl bir giysi giyiyor.
+Elmas iÅŸlemeli yeiÅŸl bir giysi giyiyor.
 ~
 sprite~
 ACEH QUV 13
 #29108
-sarhoş peri~
-sarhoş peri~
-Sarhoş bir peri görüyorsun, dans ediyor.
+sarhoÅŸ peri~
+sarhoÅŸ peri~
+SarhoÅŸ bir peri gÃ¶rÃ¼yorsun, dans ediyor.
 ~
-Düşe kalka dans etmeye çalışan bir peri. Ne kadar da eğlenceli...
+DÃ¼ÅŸe kalka dans etmeye Ã§alÄ±ÅŸan bir peri. Ne kadar da eÄŸlenceli...
 ~
 sprite~
 ABCE RT 10
 #29109
 garson peri~
 garson peri~
-İşi garsonluk olan bir peri görüyorsun, yiyecek ve içecek servisi yapıyor.
+Ä°ÅŸi garsonluk olan bir peri gÃ¶rÃ¼yorsun, yiyecek ve iÃ§ecek servisi yapÄ±yor.
 ~
-Oldukça yaşlı. Belki de büyü gücünü kaybettiği için bu işi yapıyordur...
+OldukÃ§a yaÅŸlÄ±. Belki de bÃ¼yÃ¼ gÃ¼cÃ¼nÃ¼ kaybettiÄŸi iÃ§in bu iÅŸi yapÄ±yordur...
 ~
 sprite~
 ABCEb V 45
@@ -104,25 +104,25 @@ ABCEb V 45
 
 #OBJECTS
 #29101
-kafiyeli parşömen~
-kafiyeli parşömen~
-Yerde rulolanmış bir parşömen görüyorsun.
+kafiyeli parÅŸÃ¶men~
+kafiyeli parÅŸÃ¶men~
+Yerde rulolanmÄ±ÅŸ bir parÅŸÃ¶men gÃ¶rÃ¼yorsun.
 ~
 paper~
 scroll AG AO
 15 'faerie fog' '' '' ''
 10 1 200 P
 E
-parşömen kafiyeli~
-Giysilerini çıkar, ters yüz et
-Üç kere bağır, gülerek dans et
-Demir ve çelik seni izlesin
-Herşey önünde apaçık serilsin
+parÅŸÃ¶men kafiyeli~
+Giysilerini Ã§Ä±kar, ters yÃ¼z et
+ÃœÃ§ kere baÄŸÄ±r, gÃ¼lerek dans et
+Demir ve Ã§elik seni izlesin
+HerÅŸey Ã¶nÃ¼nde apaÃ§Ä±k serilsin
 ~
 #29102
-ışık parıltı top~
-parıltılı ışık topu~
-Parıltılı bir ışık topu görüyorsun.
+Ä±ÅŸÄ±k parÄ±ltÄ± top~
+parÄ±ltÄ±lÄ± Ä±ÅŸÄ±k topu~
+ParÄ±ltÄ±lÄ± bir Ä±ÅŸÄ±k topu gÃ¶rÃ¼yorsun.
 ~
 unknown~
 light AGI AO
@@ -139,7 +139,7 @@ A
 #29103
 kemer peri~
 peri kemeri~
-Gökkuşağı renklerinde bir kemer burada bırakılmış.
+GÃ¶kkuÅŸaÄŸÄ± renklerinde bir kemer burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 mithril~
 armor FM AL
@@ -149,8 +149,8 @@ A
 24 -3
 #29104
 cin bileklik toprak~
-cin bilekliği~
-Toprak renginde bir bileklik burada bırakılmış.
+cin bilekliÄŸi~
+Toprak renginde bir bileklik burada bÄ±rakÄ±lmÄ±ÅŸ.
 
 ~
 mithril~
@@ -162,18 +162,18 @@ A
 A
 13 8
 #29105
-ay ışık iksir şişe~
-ay ışığı iksiri~
-Bir iksir şişesi burada, yudumlanmayı bekliyor.
+ay Ä±ÅŸÄ±k iksir ÅŸiÅŸe~
+ay Ä±ÅŸÄ±ÄŸÄ± iksiri~
+Bir iksir ÅŸiÅŸesi burada, yudumlanmayÄ± bekliyor.
 ~
 glass~
 potion AG AO
 15 'fly' 'cure poison' 'cure critical' ''
 12 1 700 P
 #29106
-örümcek ağ kaftan~
-örümcek ağı kaftanı~
-Bir örümcek ağı kaftanı görüyorsun, alınmayı bekliyor.
+Ã¶rÃ¼mcek aÄŸ kaftan~
+Ã¶rÃ¼mcek aÄŸÄ± kaftanÄ±~
+Bir Ã¶rÃ¼mcek aÄŸÄ± kaftanÄ± gÃ¶rÃ¼yorsun, alÄ±nmayÄ± bekliyor.
 ~
 cloth~
 armor IM AK
@@ -184,9 +184,9 @@ A
 A
 24 -2
 #29107
-ay ışık~
-ay ışığı~
-Işık saçan bir silah görüyorsun.
+ay Ä±ÅŸÄ±k~
+ay Ä±ÅŸÄ±ÄŸÄ±~
+IÅŸÄ±k saÃ§an bir silah gÃ¶rÃ¼yorsun.
 ~
 unknown~
 weapon AF AN
@@ -197,18 +197,18 @@ A
 A
 19 2
 #29108
-şişe peri şarap~
-bir şişe peri şarabı~
-Bir şişe peri şarabı burada bırakılmış.
+ÅŸiÅŸe peri ÅŸarap~
+bir ÅŸiÅŸe peri ÅŸarabÄ±~
+Bir ÅŸiÅŸe peri ÅŸarabÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 glass~
 potion G A
 10 'cure blindness' 'invis' '' ''
 10 1 100 P
 #29109
-peri bacaklık~
-bir çift peri bacaklığı~
-Bir çift peri bacaklığı burada bırakılmış, ne yazık...
+peri bacaklÄ±k~
+bir Ã§ift peri bacaklÄ±ÄŸÄ±~
+Bir Ã§ift peri bacaklÄ±ÄŸÄ± burada bÄ±rakÄ±lmÄ±ÅŸ, ne yazÄ±k...
 ~
 leather~
 armor C AF
@@ -225,7 +225,7 @@ A
 #29110
 anahtar parlayan~
 parlayan anahtar~
-Parlayan bir anahtar burada, bir kilidi açmayı bekliyor.
+Parlayan bir anahtar burada, bir kilidi aÃ§mayÄ± bekliyor.
 ~
 silver~
 key BG AO
@@ -234,7 +234,7 @@ key BG AO
 #29111
 kirli fular~
 kirli fular~
-Kirli bir fular burada unutulmuş.~
+Kirli bir fular burada unutulmuÅŸ.~
 leather~
 armor C AC
 5 5 5 0 0
@@ -244,9 +244,9 @@ A
 A
 1 1
 #29112
-değnek mavi elmas~
-mavi elmas değnek~
-Mavi elmas bir değnek burada bırakılmış... Hadi al onu!
+deÄŸnek mavi elmas~
+mavi elmas deÄŸnek~
+Mavi elmas bir deÄŸnek burada bÄ±rakÄ±lmÄ±ÅŸ... Hadi al onu!
 ~
 wood~
 wand G AO
@@ -257,18 +257,18 @@ elmas mavi~
 Ne kadar da lezzetliler!
 ~
 #29113
-külçe altın~
-külçe altın~
-İşte gökkuşağının dibindeki ALTIN!
+kÃ¼lÃ§e altÄ±n~
+kÃ¼lÃ§e altÄ±n~
+Ä°ÅŸte gÃ¶kkuÅŸaÄŸÄ±nÄ±n dibindeki ALTIN!
 ~
 gold~
 money A AO
 500 0 0 0 0
 0 13 130 P
 #29114
-yiyecek böğürtlen~
-bir salkım böğürtlen~
-Lezeetli bir böğürtlen salkımı görüyorsun.
+yiyecek bÃ¶ÄŸÃ¼rtlen~
+bir salkÄ±m bÃ¶ÄŸÃ¼rtlen~
+Lezeetli bir bÃ¶ÄŸÃ¼rtlen salkÄ±mÄ± gÃ¶rÃ¼yorsun.
 ~
 flesh~
 food 0 AN
@@ -280,79 +280,79 @@ food 0 AN
 
 #ROOMS
 #29101
-Ormandaki Açıklık~
-Ormanda bir açıklıktasın. Ay ışığı gölgelerin dans etmesine neden oluyor.
-Açıklığın ortasında ÇOK büyük mantarlar görüyorsun.
+Ormandaki AÃ§Ä±klÄ±k~
+Ormanda bir aÃ§Ä±klÄ±ktasÄ±n. Ay Ä±ÅŸÄ±ÄŸÄ± gÃ¶lgelerin dans etmesine neden oluyor.
+AÃ§Ä±klÄ±ÄŸÄ±n ortasÄ±nda Ã‡OK bÃ¼yÃ¼k mantarlar gÃ¶rÃ¼yorsun.
 ~
 0 C 3
 E
 mantarlar mantar~
-Mantarların oluşturduğu halkaya bakıyorsun. Küçük ayak izlerini takip ederek
-gizli bir kapı buluyorsun.
+MantarlarÄ±n oluÅŸturduÄŸu halkaya bakÄ±yorsun. KÃ¼Ã§Ã¼k ayak izlerini takip ederek
+gizli bir kapÄ± buluyorsun.
 ~
 D3
 ~
 ~
 0 -1 3513
 D5
-gizli kapı~
-gizli kapı~
+gizli kapÄ±~
+gizli kapÄ±~
 1 -1 29102
 S
 #29102
-Giriş Koridoru~
-Dar ve boğucu bir tüneldesin. Yukarıdaki ağaçlar köklerini tünelin içine
-uzatmışlar. Kuzey, güney ve batıda küçük kapılar var. Köklerden örülmüş
-bir merdiven yukarı yöneliyor. Doğudan boğuk kutlama sesleri duyuyorsun.
+GiriÅŸ Koridoru~
+Dar ve boÄŸucu bir tÃ¼neldesin. YukarÄ±daki aÄŸaÃ§lar kÃ¶klerini tÃ¼nelin iÃ§ine
+uzatmÄ±ÅŸlar. Kuzey, gÃ¼ney ve batÄ±da kÃ¼Ã§Ã¼k kapÄ±lar var. KÃ¶klerden Ã¶rÃ¼lmÃ¼ÅŸ
+bir merdiven yukarÄ± yÃ¶neliyor. DoÄŸudan boÄŸuk kutlama sesleri duyuyorsun.
 ~
 0 D 0
 D0
-Küçük kapı~
-küçük kapı~
+KÃ¼Ã§Ã¼k kapÄ±~
+kÃ¼Ã§Ã¼k kapÄ±~
 1 -1 29103
 D1
 Sisli koridor.~
 ~
 0 -1 29104
 D2
-Küçük kapı~
-küçük kapı~
+KÃ¼Ã§Ã¼k kapÄ±~
+kÃ¼Ã§Ã¼k kapÄ±~
 1 -1 29105
 D3
-Küçük kapı~
-küçük kapı~
+KÃ¼Ã§Ã¼k kapÄ±~
+kÃ¼Ã§Ã¼k kapÄ±~
 1 -1 29106
 D4
-Küçük kapı~
-küçük kapı~
+KÃ¼Ã§Ã¼k kapÄ±~
+kÃ¼Ã§Ã¼k kapÄ±~
 1 -1 29101
 S
 #29103
-Puk'un Odası~
-Puk'un odasının tavanı ne kadar da alçakmış, iyice kamburlaştın. Yapraklarla
-yapılmış bir yatak ve raflar görüyorsun. Burada gördüklerine dokunacak kadar
-kaba biri olamazsın. Puk'a saygın YOK MU!! Duvarda bir tabela görüyorsun.
+Puk'un OdasÄ±~
+Puk'un odasÄ±nÄ±n tavanÄ± ne kadar da alÃ§akmÄ±ÅŸ, iyice kamburlaÅŸtÄ±n. Yapraklarla
+yapÄ±lmÄ±ÅŸ bir yatak ve raflar gÃ¶rÃ¼yorsun. Burada gÃ¶rdÃ¼klerine dokunacak kadar
+kaba biri olamazsÄ±n. Puk'a saygÄ±n YOK MU!! Duvarda bir tabela gÃ¶rÃ¼yorsun.
 ~
 0 D 0
 E
 tabela~
-Biraz Saygı Lütfen! imza-PUK
+Biraz SaygÄ± LÃ¼tfen! imza-PUK
 ~
 D2
-Küçük kapı~
-küçük kapı~
+KÃ¼Ã§Ã¼k kapÄ±~
+kÃ¼Ã§Ã¼k kapÄ±~
 1 -1 29102
 S
 #29104
-Ufaklıkların Barı~
-Küçük ve alçak tavanlı bir bardasın. Sen girince herkes sustu. Etrafında ufak
-canlılar kristal bardaklardan içkilerini içiyorlar. Oldukça yoğun bir sis var.
-Belki bir süre kalıp peri şarabını denemek istersin??? Batıya alçak tavanlı
-bir tünel yöneliyor ve doğudan gelen patırtılar duyuyorsun.
+UfaklÄ±klarÄ±n BarÄ±~
+KÃ¼Ã§Ã¼k ve alÃ§ak tavanlÄ± bir bardasÄ±n. Sen girince herkes sustu. EtrafÄ±nda ufak
+canlÄ±lar kristal bardaklardan iÃ§kilerini iÃ§iyorlar. OldukÃ§a yoÄŸun bir sis var.
+Belki bir sÃ¼re kalÄ±p peri ÅŸarabÄ±nÄ± denemek istersin??? BatÄ±ya alÃ§ak tavanlÄ±
+bir tÃ¼nel yÃ¶neliyor ve doÄŸudan gelen patÄ±rtÄ±lar duyuyorsun.
 ~
 0 D 0
 D1
-Patırtıya doğru.~
+PatÄ±rtÄ±ya doÄŸru.~
 ~
 0 -1 29107
 D3
@@ -361,60 +361,60 @@ Sisli koridor.~
 0 -1 29102
 S
 #29105
-Uyku İni~
-Uyku inindesin. Duvarda büyük bir tabela var. Kimisi sarhoş, kimisi ayık
-bir sürü ufaklık burada uyuyor. Kuzeyde küçük bir kapı var.
+Uyku Ä°ni~
+Uyku inindesin. Duvarda bÃ¼yÃ¼k bir tabela var. Kimisi sarhoÅŸ, kimisi ayÄ±k
+bir sÃ¼rÃ¼ ufaklÄ±k burada uyuyor. Kuzeyde kÃ¼Ã§Ã¼k bir kapÄ± var.
 ~
 0 D 0
 E
-büyük tabela~
-'Kapıyı kapat, seni APTAL!!!'~
+bÃ¼yÃ¼k tabela~
+'KapÄ±yÄ± kapat, seni APTAL!!!'~
 D0
-Küçük kapı~
-küçük kapı~
+KÃ¼Ã§Ã¼k kapÄ±~
+kÃ¼Ã§Ã¼k kapÄ±~
 1 -1 29102
 S
 #29106
-Korunan Çukur~
-Tekrar dikilince rahatladın. İşte tavanlar böyle yüksek yapılmalı. Doğuda
-küçük, güneyde ise büyük bir kapı görüyorsun.
+Korunan Ã‡ukur~
+Tekrar dikilince rahatladÄ±n. Ä°ÅŸte tavanlar bÃ¶yle yÃ¼ksek yapÄ±lmalÄ±. DoÄŸuda
+kÃ¼Ã§Ã¼k, gÃ¼neyde ise bÃ¼yÃ¼k bir kapÄ± gÃ¶rÃ¼yorsun.
 ~
 0 D 0
 D1
-Küçük kapı~
-kapı küçük~
+KÃ¼Ã§Ã¼k kapÄ±~
+kapÄ± kÃ¼Ã§Ã¼k~
 1 -1 29102
 D2
-Büyük kapı~
-kapı büyük~
+BÃ¼yÃ¼k kapÄ±~
+kapÄ± bÃ¼yÃ¼k~
 1 29110 29108
 S
 #29107
 Oyun Salonu~
-Yine kamburlaştın. Ufaklıkların koşuşturmasından buranın bir oyun salonu
-olabileceğini düşünüyorsun, ama acaba HANGİ oyunu oynuyorlar? Sen de az
-oyun oynamış biri değilsin, hala da oynarsın ama böyle bir oyunu ilk kez
-görüyorsun. Onlara katılmak için birkaç APTALCA hareket yaptığını görünce
-ufaklıklar gülmeye başlıyorlar. Oyun oynamayı bıraktılar, seni izliyorlar,
-hadi EĞLENDİR ONLARI...
+Yine kamburlaÅŸtÄ±n. UfaklÄ±klarÄ±n koÅŸuÅŸturmasÄ±ndan buranÄ±n bir oyun salonu
+olabileceÄŸini dÃ¼ÅŸÃ¼nÃ¼yorsun, ama acaba HANGÄ° oyunu oynuyorlar? Sen de az
+oyun oynamÄ±ÅŸ biri deÄŸilsin, hala da oynarsÄ±n ama bÃ¶yle bir oyunu ilk kez
+gÃ¶rÃ¼yorsun. Onlara katÄ±lmak iÃ§in birkaÃ§ APTALCA hareket yaptÄ±ÄŸÄ±nÄ± gÃ¶rÃ¼nce
+ufaklÄ±klar gÃ¼lmeye baÅŸlÄ±yorlar. Oyun oynamayÄ± bÄ±raktÄ±lar, seni izliyorlar,
+hadi EÄLENDÄ°R ONLARI...
 ~
 0 D 0
 D3
-Ufaklıkların Barı.~
+UfaklÄ±klarÄ±n BarÄ±.~
 ~
 0 -1 29104
 S
 #29108
-Kraliçenin Salonu~
-Peri Kraliçesi'nin salonundasın ve üstünün başının kirli olması seni biraz
-utandırıyor. Ne yapacağını bilemeyerek bir an için diz çöküyorsun, sonra
-tekrar ayağa kalkıyorsun; ama tavan o kadar alçak ki kafanı vuruyorsun.
-Macera aramayı bırakıp bir sirke falan katılmayı düşünür müsün???
+KraliÃ§enin Salonu~
+Peri KraliÃ§esi'nin salonundasÄ±n ve Ã¼stÃ¼nÃ¼n baÅŸÄ±nÄ±n kirli olmasÄ± seni biraz
+utandÄ±rÄ±yor. Ne yapacaÄŸÄ±nÄ± bilemeyerek bir an iÃ§in diz Ã§Ã¶kÃ¼yorsun, sonra
+tekrar ayaÄŸa kalkÄ±yorsun; ama tavan o kadar alÃ§ak ki kafanÄ± vuruyorsun.
+Macera aramayÄ± bÄ±rakÄ±p bir sirke falan katÄ±lmayÄ± dÃ¼ÅŸÃ¼nÃ¼r mÃ¼sÃ¼n???
 ~
 0 D 0
 D0
-Büyük kapı~
-kapı büyük~
+BÃ¼yÃ¼k kapÄ±~
+kapÄ± bÃ¼yÃ¼k~
 1 29110 29106
 S
 #0

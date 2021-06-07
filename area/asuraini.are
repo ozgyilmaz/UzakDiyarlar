@@ -1,9 +1,9 @@
 #AREADATA
 Filename asuraini.are~
-Name Asura İni~
+Name Asura Ä°ni~
 Builder Merc~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 10
 Highlevel 15
 Minvnum 2800
@@ -18,30 +18,30 @@ END
 #2800
 gardiyan canavar~
 gardiyan canavar~
-Bir gardiyan canavar sana bakarak hırlıyor.
+Bir gardiyan canavar sana bakarak hÄ±rlÄ±yor.
 ~
-Siyah bir kürk canavarı kaplamış. En az 50 dişi var. Çenesinden kan damlıyor,
-anlaşılan az önce birşeyler yemiş.
+Siyah bir kÃ¼rk canavarÄ± kaplamÄ±ÅŸ. En az 50 diÅŸi var. Ã‡enesinden kan damlÄ±yor,
+anlaÅŸÄ±lan az Ã¶nce birÅŸeyler yemiÅŸ.
 ~
 human~
 ABCFG DPQ 7
 #2801
-genç asura~
-genç asura~
-Genç bir asura oturmuş kemik çiğniyor.
+genÃ§ asura~
+genÃ§ asura~
+GenÃ§ bir asura oturmuÅŸ kemik Ã§iÄŸniyor.
 ~
-Uzun ve tüylü bir asura. Gözlerin onunkilerle buluşuyor. Birden gülümsüyor,
-elindeki kemiği atıyor ve sana doğru geliyor!!
+Uzun ve tÃ¼ylÃ¼ bir asura. GÃ¶zlerin onunkilerle buluÅŸuyor. Birden gÃ¼lÃ¼msÃ¼yor,
+elindeki kemiÄŸi atÄ±yor ve sana doÄŸru geliyor!!
 ~
 asura~
 ACFG P 6
 #2802
 asura~
 asura~
-Sinirli bir asura görüyorsun.
+Sinirli bir asura gÃ¶rÃ¼yorsun.
 ~
-Uzun, zayıf ve tüylü bir asura. Gözlerini sana dikmiş, kendisine benzeyip
-benzemediğinizi konarba ediyor.
+Uzun, zayÄ±f ve tÃ¼ylÃ¼ bir asura. GÃ¶zlerini sana dikmiÅŸ, kendisine benzeyip
+benzemediÄŸinizi konarba ediyor.
 ~
 asura~
 ABCFG P 8
@@ -50,47 +50,47 @@ bebek asura~
 bebek asura~
 Bir bebek asura burada, bir kadavrayla doktorculuk oynuyor.
 ~
-Tombul, iri ve tüylü bir asura. Seni fark edince "Katılsana?" diyor.
+Tombul, iri ve tÃ¼ylÃ¼ bir asura. Seni fark edince "KatÄ±lsana?" diyor.
 ~
 asura~
 ABCF P 5
 #2804
 dev asura~
 dev asura~
-Dev bir asura burada, ceset yığınlarının üstüne uzanmış düşünüyor.
+Dev bir asura burada, ceset yÄ±ÄŸÄ±nlarÄ±nÄ±n Ã¼stÃ¼ne uzanmÄ±ÅŸ dÃ¼ÅŸÃ¼nÃ¼yor.
 ~
-Kaslı ve tüylü bir asura. İçeri girdiğini fark edince hızlı hızlı solumaya
-başlıyor.
+KaslÄ± ve tÃ¼ylÃ¼ bir asura. Ä°Ã§eri girdiÄŸini fark edince hÄ±zlÄ± hÄ±zlÄ± solumaya
+baÅŸlÄ±yor.
 ~
 asura~
 ABCFG P 13
 #2805
-dişi asura~
-dişi asura~
-Dişi bir asura burada, ceset yığını üstüne uzanmış düşünüyor.
+diÅŸi asura~
+diÅŸi asura~
+DiÅŸi bir asura burada, ceset yÄ±ÄŸÄ±nÄ± Ã¼stÃ¼ne uzanmÄ±ÅŸ dÃ¼ÅŸÃ¼nÃ¼yor.
 ~
-İri ve tüylü bir asura. İçeri girdiğini fark edince hızlı hızlı solumaya
-başlıyor.
+Ä°ri ve tÃ¼ylÃ¼ bir asura. Ä°Ã§eri girdiÄŸini fark edince hÄ±zlÄ± hÄ±zlÄ± solumaya
+baÅŸlÄ±yor.
 ~
 asura~
 ABCFG P 11
 #2806
-şişman kurtçuk~
-şişman kurtçuk~
-Şişman bir kurtçuk burada,  etrafta gezinerek yiyecek arıyor.
+ÅŸiÅŸman kurtÃ§uk~
+ÅŸiÅŸman kurtÃ§uk~
+ÅiÅŸman bir kurtÃ§uk burada,  etrafta gezinerek yiyecek arÄ±yor.
 ~
-Kalın ve uzun. Bu şeyde bir baş göremiyorsun. Cesetten cesede çok hızlı
+KalÄ±n ve uzun. Bu ÅŸeyde bir baÅŸ gÃ¶remiyorsun. Cesetten cesede Ã§ok hÄ±zlÄ±
 hareket ediyor.
 ~
 human~
 ACFH PQ 3
 #2807
-dolaşan canavar~
-dolaşan canavar~
-Dolaşan bir canavar burada, av arıyor.
+dolaÅŸan canavar~
+dolaÅŸan canavar~
+DolaÅŸan bir canavar burada, av arÄ±yor.
 ~
-Siyah bir kürk canavarı kaplamış. En az 50 dişi var. Çenesinden kan damlıyor,
-anlaşılan az önce birşeyler yemiş.
+Siyah bir kÃ¼rk canavarÄ± kaplamÄ±ÅŸ. En az 50 diÅŸi var. Ã‡enesinden kan damlÄ±yor,
+anlaÅŸÄ±lan az Ã¶nce birÅŸeyler yemiÅŸ.
 ~
 human~
 ABCFG DP 7
@@ -99,8 +99,8 @@ aptal asura~
 aptal asura~
 Aptal bir asura burada, etrafta geziniyor.
 ~
-Uzun, zayıf ve tüylü bir asura. Seni fark ediyor ve neye baktığını bulmaya
-çalışıyor.
+Uzun, zayÄ±f ve tÃ¼ylÃ¼ bir asura. Seni fark ediyor ve neye baktÄ±ÄŸÄ±nÄ± bulmaya
+Ã§alÄ±ÅŸÄ±yor.
 ~
 asura~
 ACFG P 8
@@ -109,15 +109,15 @@ ACFG P 8
 #2800
 kadavra~
 Kadavra~
-Yarısı yenmiş bir kadavra burada yatıyor.~
+YarÄ±sÄ± yenmiÅŸ bir kadavra burada yatÄ±yor.~
 flesh~
 container 0 A
 30 0 0 30 100
 0 500 1 P
 #2801
-ceset yığın yatak~
-ceset yığını~
-Ceset yığınından yapılmış bir yatak görüyorsun.~
+ceset yÄ±ÄŸÄ±n yatak~
+ceset yÄ±ÄŸÄ±nÄ±~
+Ceset yÄ±ÄŸÄ±nÄ±ndan yapÄ±lmÄ±ÅŸ bir yatak gÃ¶rÃ¼yorsun.~
 unknown~
 container 0 0
 30 0 0 30 100
@@ -125,7 +125,7 @@ container 0 0
 #2802
 asura derisi~
 asura derisi~
-Bir asuranın kirli derisi burada bırakılmış.~
+Bir asuranÄ±n kirli derisi burada bÄ±rakÄ±lmÄ±ÅŸ.~
 skin~
 armor 0 AK
 5 5 5 0 0
@@ -134,12 +134,12 @@ A
 1 1
 E
 asura derisi~
-Bu ölü asuranın derisi. Kötü görünüyor, kötü kokuyor ve kötü hissettiriyor.
+Bu Ã¶lÃ¼ asuranÄ±n derisi. KÃ¶tÃ¼ gÃ¶rÃ¼nÃ¼yor, kÃ¶tÃ¼ kokuyor ve kÃ¶tÃ¼ hissettiriyor.
 ~
 #2803
-opal yüzük~
-opal yüzük~
-Siyah bir opal yüzük burada, yeni sahibini bekliyor.~
+opal yÃ¼zÃ¼k~
+opal yÃ¼zÃ¼k~
+Siyah bir opal yÃ¼zÃ¼k burada, yeni sahibini bekliyor.~
 opal~
 jewelry G AB
 0 0 0 0 0
@@ -147,21 +147,21 @@ jewelry G AB
 A
 19 2
 E
-opal yüzük~
-Basit ve pürüzsüz bir opal yüzük.
+opal yÃ¼zÃ¼k~
+Basit ve pÃ¼rÃ¼zsÃ¼z bir opal yÃ¼zÃ¼k.
 ~
 #2804
 deri kemer~
 deri kemer~
-Deri bir kemer yerde bırakılmış.~
+Deri bir kemer yerde bÄ±rakÄ±lmÄ±ÅŸ.~
 leather~
 armor G AL
 6 6 6 0 0
 15 50 1050 P
 #2805
-çatlak kemik~
-çatlak kemik~
-Çatlak bir kemik parçası burada duruyor.~
+Ã§atlak kemik~
+Ã§atlak kemik~
+Ã‡atlak bir kemik parÃ§asÄ± burada duruyor.~
 bone~
 weapon 0 AN
 mace 3 3 pound 0
@@ -174,27 +174,27 @@ A
 
 #ROOMS
 #2801
-Döküntü Yığını~
-Bu oda kemik ve kemik parçalarıyla dolu. Burada büyük şeyler yaşıyor.
+DÃ¶kÃ¼ntÃ¼ YÄ±ÄŸÄ±nÄ±~
+Bu oda kemik ve kemik parÃ§alarÄ±yla dolu. Burada bÃ¼yÃ¼k ÅŸeyler yaÅŸÄ±yor.
 ~
 0 AD 0
 D0
-Tekrar medeniyete ulaştın.
+Tekrar medeniyete ulaÅŸtÄ±n.
 ~
 ~
 0 0 6124
 D2
-Daha güçlü bir koku var.
+Daha gÃ¼Ã§lÃ¼ bir koku var.
 ~
 ~
 0 0 2803
 S
 #2802
 Asura Kileri~
-Bu odanın tüm duvarlarında bol miktarda kan ve sakatat var. Onlara tırmanan
-kurtçuklar ve böcekler görüyorsun. Bu yerde uygarlık yok. Yarı yenmiş veya
-çürüyen cesetler zemini kapatmış. Ve hepsini sinekler, kurtçuklar ve böcekler
-kaplamış.
+Bu odanÄ±n tÃ¼m duvarlarÄ±nda bol miktarda kan ve sakatat var. Onlara tÄ±rmanan
+kurtÃ§uklar ve bÃ¶cekler gÃ¶rÃ¼yorsun. Bu yerde uygarlÄ±k yok. YarÄ± yenmiÅŸ veya
+Ã§Ã¼rÃ¼yen cesetler zemini kapatmÄ±ÅŸ. Ve hepsini sinekler, kurtÃ§uklar ve bÃ¶cekler
+kaplamÄ±ÅŸ.
 ~
 0 AD 0
 D1
@@ -205,59 +205,59 @@ the stench bears down on you once more.
 0 0 2803
 S
 #2803
-Oturma odası~
-Bu küçük mağara kuzeye, güneye, doğuya ve batıya açılıyor. Pis Bir koku
-etrafı kaplıyor.
+Oturma odasÄ±~
+Bu kÃ¼Ã§Ã¼k maÄŸara kuzeye, gÃ¼neye, doÄŸuya ve batÄ±ya aÃ§Ä±lÄ±yor. Pis Bir koku
+etrafÄ± kaplÄ±yor.
 ~
 0 AD 0
 D0
-Kemik parçalarının oluşturduğu bir iz var.
+Kemik parÃ§alarÄ±nÄ±n oluÅŸturduÄŸu bir iz var.
 ~
 ~
 0 0 2801
 D1
-Tanrım! Burada zemini tamamıyla kapatmış cesetler görüyorsun. Burası açık
-bir mezarlığa benziyor.
+TanrÄ±m! Burada zemini tamamÄ±yla kapatmÄ±ÅŸ cesetler gÃ¶rÃ¼yorsun. BurasÄ± aÃ§Ä±k
+bir mezarlÄ±ÄŸa benziyor.
 ~
 ~
 0 0 2804
 D2
-Off! İşte kötü kokunun kaynağı...
+Off! Ä°ÅŸte kÃ¶tÃ¼ kokunun kaynaÄŸÄ±...
 ~
 ~
 0 0 2805
 D3
-Kurtçukların bu odayla batıdaki oda arasında sürünüşünü izlerken batı
-odasının duvarına dayanmış cesedin bağırsaklarını görünce kendini
-tutamayıp kusuyorsun.
+KurtÃ§uklarÄ±n bu odayla batÄ±daki oda arasÄ±nda sÃ¼rÃ¼nÃ¼ÅŸÃ¼nÃ¼ izlerken batÄ±
+odasÄ±nÄ±n duvarÄ±na dayanmÄ±ÅŸ cesedin baÄŸÄ±rsaklarÄ±nÄ± gÃ¶rÃ¼nce kendini
+tutamayÄ±p kusuyorsun.
 ~
 ~
 0 0 2802
 S
 #2804
-Oyun Odası~
-Duvarlar kan ve insan parçalarıyla kaplı. Bir duvarın üstüne bir insan
-kolunun asılmış olduğunu görüyorsun. Göğsü parçalanmış ve yarısı yenmiş
-bir ceset yerde yatıyor.
+Oyun OdasÄ±~
+Duvarlar kan ve insan parÃ§alarÄ±yla kaplÄ±. Bir duvarÄ±n Ã¼stÃ¼ne bir insan
+kolunun asÄ±lmÄ±ÅŸ olduÄŸunu gÃ¶rÃ¼yorsun. GÃ¶ÄŸsÃ¼ parÃ§alanmÄ±ÅŸ ve yarÄ±sÄ± yenmiÅŸ
+bir ceset yerde yatÄ±yor.
 ~
 0 AD 0
 D3
-Batıdan gelen serin bir meltem seni karşılıyor. Ama rüzgarla yeniden pis
-kokuların hücumuna uğruyorsun.
+BatÄ±dan gelen serin bir meltem seni karÅŸÄ±lÄ±yor. Ama rÃ¼zgarla yeniden pis
+kokularÄ±n hÃ¼cumuna uÄŸruyorsun.
 ~
 ~
 0 0 2803
 S
 #2805
-Yatak Odası~
-Koku burada oldukça fazla. Koparılmış ve yarısı yenmiş hayvanların, orkların
-ve insanların etrafa atılmış cesetlerini görüyorsun.Daha geniş ve daha iğrenç
-parçalar odanın köşesine yığılmış.
+Yatak OdasÄ±~
+Koku burada oldukÃ§a fazla. KoparÄ±lmÄ±ÅŸ ve yarÄ±sÄ± yenmiÅŸ hayvanlarÄ±n, orklarÄ±n
+ve insanlarÄ±n etrafa atÄ±lmÄ±ÅŸ cesetlerini gÃ¶rÃ¼yorsun.Daha geniÅŸ ve daha iÄŸrenÃ§
+parÃ§alar odanÄ±n kÃ¶ÅŸesine yÄ±ÄŸÄ±lmÄ±ÅŸ.
 ~
 0 ACD 5
 D0
-Kuzeyden gelen serin bir meltem seni karşılıyor. Ama rüzgarla yeniden pis
-kokuların hücumuna uğruyorsun.
+Kuzeyden gelen serin bir meltem seni karÅŸÄ±lÄ±yor. Ama rÃ¼zgarla yeniden pis
+kokularÄ±n hÃ¼cumuna uÄŸruyorsun.
 ~
 ~
 0 0 2803

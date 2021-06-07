@@ -1,9 +1,9 @@
 #AREADATA
 Filename kufal_kosku.are~
-Name Kufal Köşkü~
+Name Kufal KÃ¶ÅŸkÃ¼~
 Builder Quifael~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 31
 Highlevel 35
 Minvnum 6900
@@ -21,9 +21,9 @@ END
 
 #ROOMS
 #6900
-Kufal'ın yaratık ağılı~
-Hiç bir yerinde penceresi olmayan, kocaman taşlı, büyük bir yeraltı
-odasındasın. Yukarıya doğru çıkan bir merdiven var.
+Kufal'Ä±n yaratÄ±k aÄŸÄ±lÄ±~
+HiÃ§ bir yerinde penceresi olmayan, kocaman taÅŸlÄ±, bÃ¼yÃ¼k bir yeraltÄ±
+odasÄ±ndasÄ±n. YukarÄ±ya doÄŸru Ã§Ä±kan bir merdiven var.
 ~
 0 DJ 0
 D4
@@ -33,117 +33,117 @@ Merdiven laboratuara gidiyor.
 0 -1 6902
 S
 #6901
-Kufal'ın Çalışma Odası~
-Küçük ve konforlu bir odadasın. Duvarlar, hepsinde tozlu kitapların
-bulunduğu raflarla çevrilmiş. Şöminedeki ateş odayı ısıtıyor. Ateşin
-önünde meşe yapımı bir okuma masası ve eski bir sandalye var.
+Kufal'Ä±n Ã‡alÄ±ÅŸma OdasÄ±~
+KÃ¼Ã§Ã¼k ve konforlu bir odadasÄ±n. Duvarlar, hepsinde tozlu kitaplarÄ±n
+bulunduÄŸu raflarla Ã§evrilmiÅŸ. ÅÃ¶minedeki ateÅŸ odayÄ± Ä±sÄ±tÄ±yor. AteÅŸin
+Ã¶nÃ¼nde meÅŸe yapÄ±mÄ± bir okuma masasÄ± ve eski bir sandalye var.
 ~
 0 CDJ 0
 D2
-Koridor güneye, hole doğru gidiyor.
+Koridor gÃ¼neye, hole doÄŸru gidiyor.
 ~
 ~
 0 -1 6904
 E
 sandalye~
-Büyük ve eski. Fakat yine de rahat bir sandalye.
+BÃ¼yÃ¼k ve eski. Fakat yine de rahat bir sandalye.
 ~
 E
 masa~
-Çok büyük ve eski.
+Ã‡ok bÃ¼yÃ¼k ve eski.
 ~
 E
-şömine~
-Çok geniş değil ama içindeki ateş odayı ısıtıyor.
+ÅŸÃ¶mine~
+Ã‡ok geniÅŸ deÄŸil ama iÃ§indeki ateÅŸ odayÄ± Ä±sÄ±tÄ±yor.
 ~
 S
 #6902
-Kufal'ın laboratuarı~
-Raflarına her türlü esrarengiz şeyin konduğu bir odadasın. Kuzey duvarında
-büyük bir çalışma masası var. Hava baharat ve iksir kokuyor. Bir merdiven
-aşağı doğru iniyor. Doğu duvarının önünde sihirli bir geçit gökyüzüne doğru
-uçuyor.
+Kufal'Ä±n laboratuarÄ±~
+RaflarÄ±na her tÃ¼rlÃ¼ esrarengiz ÅŸeyin konduÄŸu bir odadasÄ±n. Kuzey duvarÄ±nda
+bÃ¼yÃ¼k bir Ã§alÄ±ÅŸma masasÄ± var. Hava baharat ve iksir kokuyor. Bir merdiven
+aÅŸaÄŸÄ± doÄŸru iniyor. DoÄŸu duvarÄ±nÄ±n Ã¶nÃ¼nde sihirli bir geÃ§it gÃ¶kyÃ¼zÃ¼ne doÄŸru
+uÃ§uyor.
 ~
 0 CDJ 0
 D1
-Doğuda sihirli bir geçit var.
+DoÄŸuda sihirli bir geÃ§it var.
 ~
 ~
 0 -1 6903
 D3
-Batıda koridor uzanıyor.
+BatÄ±da koridor uzanÄ±yor.
 ~
 ~
 0 -1 6904
 D5
-Merdiven aşağıya, yaratık ağılına iniyor.
+Merdiven aÅŸaÄŸÄ±ya, yaratÄ±k aÄŸÄ±lÄ±na iniyor.
 ~
 ~
 0 -1 6900
 E
 masa~
-Masanın üzerinde küçük pipetlerle birleştirilmiş beher ve tüpler var.
+MasanÄ±n Ã¼zerinde kÃ¼Ã§Ã¼k pipetlerle birleÅŸtirilmiÅŸ beher ve tÃ¼pler var.
 ~
 E
 raflar~
-Raflarda bir dolu şişe, kavanoz, barut ve değişik renklerde sıvılarla
-doldurulmuş değişik boyutlarda kutular var. Ejderha pençeleri, dev
-gözleri, tavşan kulakları ve değişik yaratıkların farklı parçaları...
+Raflarda bir dolu ÅŸiÅŸe, kavanoz, barut ve deÄŸiÅŸik renklerde sÄ±vÄ±larla
+doldurulmuÅŸ deÄŸiÅŸik boyutlarda kutular var. Ejderha penÃ§eleri, dev
+gÃ¶zleri, tavÅŸan kulaklarÄ± ve deÄŸiÅŸik yaratÄ±klarÄ±n farklÄ± parÃ§alarÄ±...
 ~
 S
 #6903
-Kufal'ın Balkonu~
-Gökyüzünün ortasında asılmış duran şeffaf bir balkondasın. Hafif mavi bir
-ışık heryeri sarıyor. Buradan tüm ormanı ve Hoan-Dor'u görebilmen mümkün.
-Batıda sihirli bir geçit gökyüzüne uçuyor.
+Kufal'Ä±n Balkonu~
+GÃ¶kyÃ¼zÃ¼nÃ¼n ortasÄ±nda asÄ±lmÄ±ÅŸ duran ÅŸeffaf bir balkondasÄ±n. Hafif mavi bir
+Ä±ÅŸÄ±k heryeri sarÄ±yor. Buradan tÃ¼m ormanÄ± ve Hoan-Dor'u gÃ¶rebilmen mÃ¼mkÃ¼n.
+BatÄ±da sihirli bir geÃ§it gÃ¶kyÃ¼zÃ¼ne uÃ§uyor.
 ~
 0 DJ 0
 D3
-Sihirli bir geçit batıda.
+Sihirli bir geÃ§it batÄ±da.
 ~
 ~
 0 -1 6902
 E
 haon-dor manzara orman~
-Ağaç dallarının arasından ormanda yürüyen maceracıları, parıldayan
-mantarları, kırmızı böğürtlenleri ve iyi vakit geçiren tavşanları
-görüyorsun.
+AÄŸaÃ§ dallarÄ±nÄ±n arasÄ±ndan ormanda yÃ¼rÃ¼yen maceracÄ±larÄ±, parÄ±ldayan
+mantarlarÄ±, kÄ±rmÄ±zÄ± bÃ¶ÄŸÃ¼rtlenleri ve iyi vakit geÃ§iren tavÅŸanlarÄ±
+gÃ¶rÃ¼yorsun.
 ~
 S
 #6904
-Kufal'ın Büyük Salonu~
-Çok özenilerek dekore edilmiş tozlu bir salonundasın. Eski tahta kapılar
-kuzeye, doğuya, güneye  ve batıya açılıyor. Duvara eski bir ayna asılmış.
+Kufal'Ä±n BÃ¼yÃ¼k Salonu~
+Ã‡ok Ã¶zenilerek dekore edilmiÅŸ tozlu bir salonundasÄ±n. Eski tahta kapÄ±lar
+kuzeye, doÄŸuya, gÃ¼neye  ve batÄ±ya aÃ§Ä±lÄ±yor. Duvara eski bir ayna asÄ±lmÄ±ÅŸ.
 ~
 0 DJ 0
 D0
-Çalışma odası kuzeyde.~
+Ã‡alÄ±ÅŸma odasÄ± kuzeyde.~
 ~
 0 -1 6901
 D1
-Laboratuar doğuda.~
+Laboratuar doÄŸuda.~
 ~
 0 -1 6902
 D2
-Mutfak güneyde.~
+Mutfak gÃ¼neyde.~
 ~
 0 -1 6905
 D4
 Park Yolu'na gidiyor.~
-kapı~
+kapÄ±~
 1 3301 3126
 E
 ayna~
-Bakınca arkanı görüyorsun.
+BakÄ±nca arkanÄ± gÃ¶rÃ¼yorsun.
 ~
 S
 #6905
-Kufal'ın Mutfağı~
-Eski tip bir mutfaktasın.
+Kufal'Ä±n MutfaÄŸÄ±~
+Eski tip bir mutfaktasÄ±n.
 ~
 0 DJ 0
 D0
-Büyük salon kuzeyde.~
+BÃ¼yÃ¼k salon kuzeyde.~
 ~
 0 -1 6904
 S

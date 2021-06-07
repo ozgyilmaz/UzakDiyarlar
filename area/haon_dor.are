@@ -3,7 +3,7 @@ Filename haon_dor.are~
 Name Haon Dor~
 Builder Diku~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 10
 Minvnum 6000
@@ -18,99 +18,99 @@ END
 #6000
 keresteci garihat~
 Keresteci Garihat~
-Keresteci Garihat burada, keseceği ağaçları inceliyor.
+Keresteci Garihat burada, keseceÄŸi aÄŸaÃ§larÄ± inceliyor.
 ~
-Yaklaşık 2 metre boyunda, yaptığı işin ağırlığıyla güçlenmiş kaslarıyla
-burada duruyor. Bir savaşçının düşleyeceği azametine rağmen dünyada
-yaşayan en barışçıl ve zararsız canlılardan biri o.
+YaklaÅŸÄ±k 2 metre boyunda, yaptÄ±ÄŸÄ± iÅŸin aÄŸÄ±rlÄ±ÄŸÄ±yla gÃ¼Ã§lenmiÅŸ kaslarÄ±yla
+burada duruyor. Bir savaÅŸÃ§Ä±nÄ±n dÃ¼ÅŸleyeceÄŸi azametine raÄŸmen dÃ¼nyada
+yaÅŸayan en barÄ±ÅŸÃ§Ä±l ve zararsÄ±z canlÄ±lardan biri o.
 ~
 human~
 AG 0 6
 #6002
-boz ayı~
-boz ayı~
-İri bir boz ayı sinirli sinirli bakıyor.
+boz ayÄ±~
+boz ayÄ±~
+Ä°ri bir boz ayÄ± sinirli sinirli bakÄ±yor.
 ~
-İri ve sivri pençelere sahip bol tüylü bir boz ayı görüyorsun. Çocuklara
-hediye edilen oyuncak ayılara benzer bir tarafını göremiyorsun.
+Ä°ri ve sivri penÃ§elere sahip bol tÃ¼ylÃ¼ bir boz ayÄ± gÃ¶rÃ¼yorsun. Ã‡ocuklara
+hediye edilen oyuncak ayÄ±lara benzer bir tarafÄ±nÄ± gÃ¶remiyorsun.
 ~
 bear~
 AFG 0 8
 #6003
-vahşi tavşan~
-vahşi tavşan~
-Vahşi bir tavşan aç aç bakıyor.
+vahÅŸi tavÅŸan~
+vahÅŸi tavÅŸan~
+VahÅŸi bir tavÅŸan aÃ§ aÃ§ bakÄ±yor.
 ~
-Uzun kulaklı ve büyük ayaklı bir tavşan görüyorsun. Daha dikkatli baktığında
-'kan kuduzu' hastalığına yakalandığına karar veriyorsun. Sivrilmiş dişleri ve
-iyice kızarmış gözleriyle kana susadığını anlıyorsun.
+Uzun kulaklÄ± ve bÃ¼yÃ¼k ayaklÄ± bir tavÅŸan gÃ¶rÃ¼yorsun. Daha dikkatli baktÄ±ÄŸÄ±nda
+'kan kuduzu' hastalÄ±ÄŸÄ±na yakalandÄ±ÄŸÄ±na karar veriyorsun. SivrilmiÅŸ diÅŸleri ve
+iyice kÄ±zarmÄ±ÅŸ gÃ¶zleriyle kana susadÄ±ÄŸÄ±nÄ± anlÄ±yorsun.
 ~
 rabbit~
 AFG 0 3
 #6004
 alaca geyik~
 alaca geyik~
-Alaca bir geyik masum gözlerle etrafı izliyor.
+Alaca bir geyik masum gÃ¶zlerle etrafÄ± izliyor.
 ~
-Uzun ve ince bacaklara sahip, büyük kahverengi gözleriyle etrafı izleyen masum
-bir geyik görüyorsun.
+Uzun ve ince bacaklara sahip, bÃ¼yÃ¼k kahverengi gÃ¶zleriyle etrafÄ± izleyen masum
+bir geyik gÃ¶rÃ¼yorsun.
 ~
 human~
 ABEGI D 2
 #6005
 kahverengi tilki~
 kahverengi tilki~
-Kahverengi bir tilki görüyorsun, avlayacak tavşan arıyor.
+Kahverengi bir tilki gÃ¶rÃ¼yorsun, avlayacak tavÅŸan arÄ±yor.
 ~
-Kızıl-kahverengi uzun tüyleriyle güzel ve iri bir tilki görüyorsun.
+KÄ±zÄ±l-kahverengi uzun tÃ¼yleriyle gÃ¼zel ve iri bir tilki gÃ¶rÃ¼yorsun.
 ~
 fox~
 AG 0 2
 #6100
-özürlü kurt~
-özürlü kurt~
-Özürlü bir kurt, saldırgan gözlerle etrafı süzüyor.
+Ã¶zÃ¼rlÃ¼ kurt~
+Ã¶zÃ¼rlÃ¼ kurt~
+Ã–zÃ¼rlÃ¼ bir kurt, saldÄ±rgan gÃ¶zlerle etrafÄ± sÃ¼zÃ¼yor.
 ~
-Oldukça iri, kara ve uzun tüylere sahip bir kurt görüyorsun. Bir bacağı
-topal. Hemcinsleriyle kapışmış ve ellerinden kurtulmuş olabilir. Topallığı
-onu daha tehlikeli yapmış.
+OldukÃ§a iri, kara ve uzun tÃ¼ylere sahip bir kurt gÃ¶rÃ¼yorsun. Bir bacaÄŸÄ±
+topal. Hemcinsleriyle kapÄ±ÅŸmÄ±ÅŸ ve ellerinden kurtulmuÅŸ olabilir. TopallÄ±ÄŸÄ±
+onu daha tehlikeli yapmÄ±ÅŸ.
 ~
 human~
 AFG 0 5
 #6101
 boz kurt~
 boz kurt~
-Boz bir kurt, saldırgan gözlerle etrafı süzüyor.
+Boz bir kurt, saldÄ±rgan gÃ¶zlerle etrafÄ± sÃ¼zÃ¼yor.
 ~
-Oldukça iri bir boz kurt görüyorsun. Sivri dişlerini geçirebileceği bir av
-peşindeymiş gibi duruyor.
+OldukÃ§a iri bir boz kurt gÃ¶rÃ¼yorsun. Sivri diÅŸlerini geÃ§irebileceÄŸi bir av
+peÅŸindeymiÅŸ gibi duruyor.
 ~
 human~
 AFG 0 5
 #6102
 kara kurt~
 kara kurt~
-Kara bir kurt, saldırgan gözlerle etrafı süzüyor.
+Kara bir kurt, saldÄ±rgan gÃ¶zlerle etrafÄ± sÃ¼zÃ¼yor.
 ~
-Oldukça iri bir kara kurt görüyorsun. Sivri dişlerini geçirebileceği bir av
-peşindeymiş gibi duruyor.
+OldukÃ§a iri bir kara kurt gÃ¶rÃ¼yorsun. Sivri diÅŸlerini geÃ§irebileceÄŸi bir av
+peÅŸindeymiÅŸ gibi duruyor.
 ~
 wolf~
 AFG 0 3
 #6103
 kara kurt~
 kara kurt~
-Kara bir kurt, saldırgan gözlerle etrafı süzüyor.
+Kara bir kurt, saldÄ±rgan gÃ¶zlerle etrafÄ± sÃ¼zÃ¼yor.
 ~
-Oldukça iri bir kara kurt görüyorsun. Sivri dişlerini geçirebileceği bir av
-peşindeymiş gibi duruyor.
+OldukÃ§a iri bir kara kurt gÃ¶rÃ¼yorsun. Sivri diÅŸlerini geÃ§irebileceÄŸi bir av
+peÅŸindeymiÅŸ gibi duruyor.
 ~
 wolf~
 AFG 0 3
 #6112
-yeşil yelbüke~
-yeşil yelbüke~
-Gözleri öfkeyle yanan yeşil bir yelbüke görüyorsun.
+yeÅŸil yelbÃ¼ke~
+yeÅŸil yelbÃ¼ke~
+GÃ¶zleri Ã¶fkeyle yanan yeÅŸil bir yelbÃ¼ke gÃ¶rÃ¼yorsun.
 ~
 This enormous winged serpent has dark green scales covering most of its
 colossal body.  Numerous holes in its heavy wings tell of many fights as does
@@ -120,9 +120,9 @@ do.
 dragon~
 ABFG D 45
 #6115
-buçukluk sargug~
+buÃ§ukluk sargug~
 Sargug~
-Bir buçukluk çalıların arasında sessizce dolaşıyor.
+Bir buÃ§ukluk Ã§alÄ±larÄ±n arasÄ±nda sessizce dolaÅŸÄ±yor.
 ~
 This little fellow is only three foot tall with wild matted brown hair and long
 tangled brown beard.  He wears ragged brown and green clothing and looks as if
@@ -131,9 +131,9 @@ he is having great fun.
 human~
 ACEH BDP 10
 #6116
-yaşlı dindar~
-yaşlı dindar~
-Yaşlı bir dindar, oldukça üzgün görünüyor.
+yaÅŸlÄ± dindar~
+yaÅŸlÄ± dindar~
+YaÅŸlÄ± bir dindar, oldukÃ§a Ã¼zgÃ¼n gÃ¶rÃ¼nÃ¼yor.
 ~
 The druid looks quite old.  You would think him venerable, but you know
 he would be a tough foe.
@@ -153,9 +153,9 @@ ABKRV DEFZ 66
 #0
 #OBJECTS
 #6000
-çift elli odun baltası~
-odun baltası~
-Ağır bir odun baltası yerde bırakılmış.~
+Ã§ift elli odun baltasÄ±~
+odun baltasÄ±~
+AÄŸÄ±r bir odun baltasÄ± yerde bÄ±rakÄ±lmÄ±ÅŸ.~
 iron~
 weapon 0 AN
 axe 2 6 chop F
@@ -165,9 +165,9 @@ axe lumber~
 It is a heavy axe of the kind lumberjacks use to chop down trees.
 ~
 #6001
-damalı gömlek~
-damalı gömlek~
-Damalı bir gömlek burada unutulmuş.~
+damalÄ± gÃ¶mlek~
+damalÄ± gÃ¶mlek~
+DamalÄ± bir gÃ¶mlek burada unutulmuÅŸ.~
 cloth~
 armor 0 AD
 3 3 3 0 0
@@ -177,9 +177,9 @@ shirt~
 It is an extra large, chequered shirt made from heavy cloth.
 ~
 #6002
-deri çizme~
-bir çift deri çizme~
-Bir çift deri çizme burada unutulmuş.~
+deri Ã§izme~
+bir Ã§ift deri Ã§izme~
+Bir Ã§ift deri Ã§izme burada unutulmuÅŸ.~
 leather~
 armor 0 AG
 3 3 3 0 0
@@ -190,9 +190,9 @@ They are fashioned from rough leather that has been oiled frequently to make
 it stay waterproof.  They look worn but quite functional.
 ~
 #6003
-şömine~
-şömine~
-Doğu duvarına dayanmış, taştan yapılmış bir şömine görüyorsun.~
+ÅŸÃ¶mine~
+ÅŸÃ¶mine~
+DoÄŸu duvarÄ±na dayanmÄ±ÅŸ, taÅŸtan yapÄ±lmÄ±ÅŸ bir ÅŸÃ¶mine gÃ¶rÃ¼yorsun.~
 stone~
 container 0 0
 200 0 0 200 100
@@ -204,9 +204,9 @@ each other and fastened with mortar.  Its chimney is constructed likewise and
 leads the smoke out through the low cabin ceiling.
 ~
 #6005
-tahta sandık~
-tahta sandık~
-Köşede tahta bir sandık duruyor.~
+tahta sandÄ±k~
+tahta sandÄ±k~
+KÃ¶ÅŸede tahta bir sandÄ±k duruyor.~
 wood~
 container 0 A
 100 ACD 6006 20 100
@@ -217,9 +217,9 @@ It is a robust chest made from short, heavy planks that have been fastened
 together with tenons.  It is equipped with a simple brass lock.
 ~
 #6006
-pirinç anahtar~
-pirinç anahtar~
-Pirinç bir anahtar burada bırakılmış.~
+pirinÃ§ anahtar~
+pirinÃ§ anahtar~
+PirinÃ§ bir anahtar burada bÄ±rakÄ±lmÄ±ÅŸ.~
 brass~
 key 0 A
 6005 0 0 0 0
@@ -229,9 +229,9 @@ key~
 It is a small, simple brass key with no inscriptions or marks of any kind.
 ~
 #6007
-akçe sikke~
-bir miktar akçe~
-Bir miktar akçe yerde bırakılmış.~
+akÃ§e sikke~
+bir miktar akÃ§e~
+Bir miktar akÃ§e yerde bÄ±rakÄ±lmÄ±ÅŸ.~
 silver~
 money 0 A
 89 1 0 0 0
@@ -241,9 +241,9 @@ coins~
 The coins seem to be gold.  They are obviously valuable.
 ~
 #6010
-böğürtlen avuç~
-bir avuç böğürtlen~
-Bir çalılıkta büyümüş böğürtlenleri görüyorsun.~
+bÃ¶ÄŸÃ¼rtlen avuÃ§~
+bir avuÃ§ bÃ¶ÄŸÃ¼rtlen~
+Bir Ã§alÄ±lÄ±kta bÃ¼yÃ¼mÃ¼ÅŸ bÃ¶ÄŸÃ¼rtlenleri gÃ¶rÃ¼yorsun.~
 food~
 food 0 A
 3 3 0 0 0
@@ -255,7 +255,7 @@ They look very tasty indeed.
 #6011
 mantar~
 mantar~
-Toprakta bir mantar büyümüş.~
+Toprakta bir mantar bÃ¼yÃ¼mÃ¼ÅŸ.~
 food~
 food 0 A
 6 6 0 0 0
@@ -267,15 +267,15 @@ It is a tasty little thing.
 #6013
 testi~
 testi~
-Bir testi burada bırakılmış.~
+Bir testi burada bÄ±rakÄ±lmÄ±ÅŸ.~
 wood~
 drink 0 A
 256 256 'water' 0 0
 0 200 20 P
 #6102
-kocaman ağaç~
-kocaman ağaç~
-Kocaman bir ağaç yolu engellemiş.~
+kocaman aÄŸaÃ§~
+kocaman aÄŸaÃ§~
+Kocaman bir aÄŸaÃ§ yolu engellemiÅŸ.~
 wood~
 container 0 0
 1000 0 0 400 100
@@ -294,7 +294,7 @@ small opening just above ground level.
 #6103
 uzun odun~
 uzun odun~
-Meşaleyi andıran uzun bir odun burada bırakılmış.~
+MeÅŸaleyi andÄ±ran uzun bir odun burada bÄ±rakÄ±lmÄ±ÅŸ.~
 wood~
 light 0 AO
 0 0 25 0 0
@@ -302,7 +302,7 @@ light 0 AO
 #6104
 uzun odun~
 uzun odun~
-Silahı andıran uzun bir odun burada bırakılmış.~
+SilahÄ± andÄ±ran uzun bir odun burada bÄ±rakÄ±lmÄ±ÅŸ.~
 wood~
 weapon 0 AN
 mace 2 5 pound 0
@@ -312,15 +312,15 @@ A
 #6105
 uzun odun~
 uzun odun~
-Birşeye benzemeyen uzun bir odun burada bırakılmış.~
+BirÅŸeye benzemeyen uzun bir odun burada bÄ±rakÄ±lmÄ±ÅŸ.~
 wood~
 trash 0 A
 0 0 0 0 0
 0 400 0 P
 #6106
-şapkalı mantar~
-şapkalı mantar~
-Yakınında bir şapkalı mantar serpilmiş.~
+ÅŸapkalÄ± mantar~
+ÅŸapkalÄ± mantar~
+YakÄ±nÄ±nda bir ÅŸapkalÄ± mantar serpilmiÅŸ.~
 wood~
 food 0 A
 12 12 0 0 0
@@ -332,9 +332,9 @@ surface is covered in a thin layer of transparent slime that emits a weak,
 musty smell.  Not the most delicious thing you have seen.
 ~
 #6107
-şapkalı mantar~
-şapkalı mantar~
-Yakınında bir şapkalı mantar serpilmiş.~
+ÅŸapkalÄ± mantar~
+ÅŸapkalÄ± mantar~
+YakÄ±nÄ±nda bir ÅŸapkalÄ± mantar serpilmiÅŸ.~
 wood~
 food 0 A
 12 12 0 1 0
@@ -348,7 +348,7 @@ that emits a weak, musty smell.  Not the most delicious thing you have seen.
 #6110
 gri iksir~
 gri iksir~
-Gri bir iksir burada bırakılmış.~
+Gri bir iksir burada bÄ±rakÄ±lmÄ±ÅŸ.~
 glass~
 potion G A
 15 'giant strength' '' '' ''
@@ -358,9 +358,9 @@ potion yellow~
 It has a deep yellow colour and and a strong spicy smell.
 ~
 #6111
-bakır işlemeli demir kalkan~
-bakır işlemeli demir kalkan~
-Bakır işlemeli demir bir kalkan burada bırakılmış.~
+bakÄ±r iÅŸlemeli demir kalkan~
+bakÄ±r iÅŸlemeli demir kalkan~
+BakÄ±r iÅŸlemeli demir bir kalkan burada bÄ±rakÄ±lmÄ±ÅŸ.~
 wood~
 armor 0 AJ
 6 6 6 3 0
@@ -370,9 +370,9 @@ shield large~
 It is made from hard wood that has been reinforced with heavy iron bands.
 ~
 #6112
-demir taç~
-demir taç~
-Demir bir taç yerde dinleniyor.~
+demir taÃ§~
+demir taÃ§~
+Demir bir taÃ§ yerde dinleniyor.~
 iron~
 armor G AE
 6 6 6 0 0
@@ -382,9 +382,9 @@ crown iron~
 It is a heavy human-sized crown made from solid iron.
 ~
 #6114
-demir yüzük~
-demir yüzük~
-Demir bir yüzük burada bırakılmış.~
+demir yÃ¼zÃ¼k~
+demir yÃ¼zÃ¼k~
+Demir bir yÃ¼zÃ¼k burada bÄ±rakÄ±lmÄ±ÅŸ.~
 iron~
 jewelry G AB
 0 0 0 0 0
@@ -395,9 +395,9 @@ It is a quite heavy human-sized ring made from solid iron.  It lacks
 decorations of any kind.
 ~
 #6155
-seher yıldızı~
-seher yıldızı~
-Tozlanmış bir seher yıldızı burada bırakılmış.~
+seher yÄ±ldÄ±zÄ±~
+seher yÄ±ldÄ±zÄ±~
+TozlanmÄ±ÅŸ bir seher yÄ±ldÄ±zÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 wood iron~
 weapon G AN
 mace 2 8 crush 0
@@ -406,7 +406,7 @@ mace 2 8 crush 0
 
 #ROOMS
 #6000
-Ormanın Ucu~
+OrmanÄ±n Ucu~
 You are standing at the eastern edge of a big forest.  To the east is the West
 Gate of Selenge and to the west is a narrow trail, leading in through the
 forest.  A dimly lit path leads north.
@@ -439,7 +439,7 @@ The forest trail winds westwards through the trees.
 ~
 S
 #6001
-Seyrek ormanın içinden geçen yol~
+Seyrek ormanÄ±n iÃ§inden geÃ§en yol~
 You are on a trail leading through the forest.  To the east is the forest edge
 and to the west, the trail leads further into the forest.
 ~
@@ -469,7 +469,7 @@ The forest trail winds east-west through the trees.
 ~
 S
 #6002
-Seyrek ormanın içinden geçen yol~
+Seyrek ormanÄ±n iÃ§inden geÃ§en yol~
 You are on a narrow trail leading east and west through the forest.  To the
 west, the forest gradually becomes more dense.  A small forest path leads
 south.
@@ -510,7 +510,7 @@ The narrow path is probably used by the animals living in the forest.
 ~
 S
 #6003
-Sık ormanın içinden geçen yol~
+SÄ±k ormanÄ±n iÃ§inden geÃ§en yol~
 You are on a trail leading east and west through the dense forest.  To the
 east, the forest gradually seems to become lighter.
 ~
@@ -541,7 +541,7 @@ The forest trail seems almost fragile compared to the massive trunks.
 ~
 S
 #6004
-Sık ormanın içinden geçen yol~
+SÄ±k ormanÄ±n iÃ§inden geÃ§en yol~
 You are on a trail leading east and west through the dense forest.  To the
 west, the trees are so huge and their crowns so dense that forest remains in
 total darkness.  A small path leads south through the trees.
@@ -576,7 +576,7 @@ The narrow path is probably used by the animals living in the forest.
 ~
 S
 #6005
-Sık ormanın içinde küçük patika~
+SÄ±k ormanÄ±n iÃ§inde kÃ¼Ã§Ã¼k patika~
 You are on a small path leading through the dense forest.  The crowns of the
 old trees leave the forest in an unreal twilight illumination.  The path
 continues north and south.
@@ -602,7 +602,7 @@ The narrow path is probably used by the animals living in the forest.
 ~
 S
 #6006
-Sık ormanın içinde küçük patika~
+SÄ±k ormanÄ±n iÃ§inde kÃ¼Ã§Ã¼k patika~
 You are on a small path leading through the dense forest.  The crowns of the
 old trees leave the forest in an unreal twilight illumination.  The path
 continues north and east.
@@ -628,7 +628,7 @@ The narrow path is probably used by the animals living in the forest.
 ~
 S
 #6007
-Sık ormanda bir kesişim~
+SÄ±k ormanda bir kesiÅŸim~
 You are on a small path leading through the dense forest.  The crowns of the
 old trees leave the forest in an unreal twilight illumination.  The forest
 gradually lightens to the east.  Paths lead east, west and south.
@@ -664,7 +664,7 @@ The narrow path is probably used by the animals living in the forest.
 ~
 S
 #6008
-Ormandaki açıklık~
+Ormandaki aÃ§Ä±klÄ±k~
 You are in a clearing in the forest.  Lots of fresh stumps of varying sizes
 protrude from the ground and heavy logs are stacked neatly in a big pile
 supported by stakes set into the ground.  Paths lead north, east and west.
@@ -713,7 +713,7 @@ as they are fresh and still filled with sap.
 ~
 S
 #6009
-Küçük kulübenin dışı~
+KÃ¼Ã§Ã¼k kulÃ¼benin dÄ±ÅŸÄ±~
 You are outside a small cabin built entirely from heavy logs.  There is a
 wooden door to the north and small paths lead west and south through the trees.
 ~
@@ -748,7 +748,7 @@ pretty idyllic.  It's a cabin built from logs.  Wooden logs, not system logs.
 ~
 S
 #6010
-Küçük kulübe~
+KÃ¼Ã§Ã¼k kulÃ¼be~
 You are inside a small one-room cabin made entirely from heavy logs.  It is
 very sparsely furnished, containing only most basic housekeeping equipment,
 such as a bed, a chair and a table.
@@ -773,7 +773,7 @@ It is definitely not the most comfortable bed you have seen in your life.
 ~
 S
 #6011
-Seyrek ormanın içinden geçen patika~
+Seyrek ormanÄ±n iÃ§inden geÃ§en patika~
 You are on a small path leading through the forest.  The trees are tall and
 slender.  Paths lead north and south.
 ~
@@ -798,7 +798,7 @@ The narrow path is probably used by the animals living in the forest.
 ~
 S
 #6012
-Sık ormanda bir kesişim~
+SÄ±k ormanda bir kesiÅŸim~
 You are on a small path leading through the dense forest.  The crowns of the
 old trees leave the forest floor in an unreal twilight illumination.  Paths
 lead north, east and south.
@@ -829,7 +829,7 @@ The narrow path is probably used by the animals living in the forest.
 ~
 S
 #6013
-Sık ormanın içinde küçük patika~
+SÄ±k ormanÄ±n iÃ§inde kÃ¼Ã§Ã¼k patika~
 You are on a small path leading through the dense forest.  The crowns of the
 old trees leave the forest in an unreal twilight illumination.  The path
 continues east and west.
@@ -855,7 +855,7 @@ The narrow path is probably used by the animals living in the forest.
 ~
 S
 #6014
-Sık ormanda bir kesişim~
+SÄ±k ormanda bir kesiÅŸim~
 You are on a small path leading through the dense forest.  The forest gradually
 lightens to the north.  Paths lead north, east and west.
 ~
@@ -886,7 +886,7 @@ The narrow path is probably used by the animals living in the forest.
 ~
 S
 #6015
-Sık ormanın içinde küçük patika~
+SÄ±k ormanÄ±n iÃ§inde kÃ¼Ã§Ã¼k patika~
 You are on a small path leading through the dense forest.  The crowns of the
 old trees leave the forest in an unreal twilight illumination.  The path
 continues south and west.
@@ -912,7 +912,7 @@ The narrow path is probably used by the animals living in the forest.
 ~
 S
 #6016
-Sık ormanın içinde küçük patika~
+SÄ±k ormanÄ±n iÃ§inde kÃ¼Ã§Ã¼k patika~
 You are on a small path leading through the dense forest.  The crowns of the
 old trees leave the forest in an unreal twilight illumination.  The path
 continues north and south.
@@ -938,7 +938,7 @@ The narrow path is probably used by the animals living in the forest.
 ~
 S
 #6017
-Sık ormanın içinde küçük patika~
+SÄ±k ormanÄ±n iÃ§inde kÃ¼Ã§Ã¼k patika~
 You are on a small path leading through the dense forest.  The forest seems to
 become lighter to the west.  The path continues north and west.
 ~
@@ -969,7 +969,7 @@ The narrow path is probably used by the animals living in the forest.
 ~
 S
 #6018
-Seyrek ormanda kesişim~
+Seyrek ormanda kesiÅŸim~
 You are on a small path leading through the forest.  A path leads north to a
 small field and other paths lead east and west into the dense forest.
 ~
@@ -999,7 +999,7 @@ The narrow path is probably used by the animals living in the forest.
 ~
 S
 #6019
-Sık ormanın içinde küçük patika~
+SÄ±k ormanÄ±n iÃ§inde kÃ¼Ã§Ã¼k patika~
 You are on a small path leading through the dense forest.  The forest seems to
 become lighter to the east.  The path continues north and east.
 ~
@@ -1025,7 +1025,7 @@ The narrow path is probably used by the animals living in the forest.
 ~
 S
 #6020
-Sık ormanın içinde küçük patika~
+SÄ±k ormanÄ±n iÃ§inde kÃ¼Ã§Ã¼k patika~
 You are on a small path leading through the dense forest.  The crowns of the
 old trees leave the forest in an unreal twilight illumination.  The path
 continues south and west.
@@ -1051,7 +1051,7 @@ The narrow path is probably used by the animals living in the forest.
 ~
 S
 #6021
-Sık ormanın içinde küçük patika~
+SÄ±k ormanÄ±n iÃ§inde kÃ¼Ã§Ã¼k patika~
 You are on a small path leading through the dense forest.  To the west there is
 a cave entrance.  The path continues north and east.
 ~
@@ -1087,7 +1087,7 @@ The narrow path is probably used by the animals living in the forest.
 ~
 S
 #6022
-Mağara~
+MaÄŸara~
 You are in a natural cave.  Various sorts of debris cover the stone floor,
 emitting a rather unpleasant smell that makes the air thick and hard to
 breathe.  The only obvious exit is east.
@@ -1112,7 +1112,7 @@ It consists mostly of gnawed bones mixed with small pieces of torn fur.
 ~
 S
 #6023
-Küçük çimlik alan~
+KÃ¼Ã§Ã¼k Ã§imlik alan~
 You are in a small, grassy field somewhere in the forest.  The tall grass
 nearly reaches your waist, and the surrounding oaks and beeches form an almost
 wall-like thicket on all sides of the field.  A small path leads south through
@@ -1138,7 +1138,7 @@ The tall grass makes a nice hiding place for animals.
 ~
 S
 #6100
-Karanlık ormanda dar yol~
+KaranlÄ±k ormanda dar yol~
 You are on a narrow trail winding its way between the enormous, grey trunks.
 The crowns of the trees must be very dense, as they leave the forest floor in
 utter darkness.  The trail leads east and west.
@@ -1166,7 +1166,7 @@ some places, giant grey roots have broken up through its surface.
 ~
 S
 #6101
-Karanlık ormanda dar yol~
+KaranlÄ±k ormanda dar yol~
 You are on a dusty trail winding its way east-west between huge, ancient trees
 whose grey trunks remind you of ancient pillars in a enormous, deserted hall.
 To the south, a frail path leads away from the trail.
@@ -1204,7 +1204,7 @@ some places, giant grey roots have broken up through its surface.
 ~
 S
 #6102
-Karanlık ormanda dar yol~
+KaranlÄ±k ormanda dar yol~
 You are on a dusty trail winding its way east-west between huge, ancient trees
 that stand close on all sides.  Not a sound is to be heard - everything is
 ominously quiet.
@@ -1237,7 +1237,7 @@ some places, giant grey roots have broken up through its surface.
 ~
 S
 #6103
-Karanlık ormanda dar yol~
+KaranlÄ±k ormanda dar yol~
 You are where the dusty trail bends, as to avoid conflict with a colossal
 trunk to the west.  Not a sound is to be heard - everything is ominously quiet.
 The trail leads east and south.
@@ -1270,7 +1270,7 @@ some places, giant grey roots have broken up through its surface.
 ~
 S
 #6104
-Karanlık ormanda küçük yol~
+KaranlÄ±k ormanda kÃ¼Ã§Ã¼k yol~
 You are on a narrow path leading through the deep, dark forest.  You feel as if
 the ancient trees observe you in watchful silence.  The path continues north
 and south.
@@ -1297,7 +1297,7 @@ The ancient grey giants seem to observe you silently.
 ~
 S
 #6105
-Karanlık ormanda küçük yol~
+KaranlÄ±k ormanda kÃ¼Ã§Ã¼k yol~
 You are on a narrow path leading through the deep, dark forest.  Ancient grey
 trees loom all around you.  The path continues north and west.
 ~
@@ -1323,7 +1323,7 @@ The ancient grey giants seem to observe you silently.
 ~
 S
 #6106
-Karanlık ormanda kesişim~
+KaranlÄ±k ormanda kesiÅŸim~
 You are by a junction where three paths meet.  Ancient grey trees tower above
 you on all sides.  Paths lead east, south and west.
 ~
@@ -1354,7 +1354,7 @@ The ancient grey giants seem to observe you silently.
 ~
 S
 #6107
-Karanlık ormanda küçük yol~
+KaranlÄ±k ormanda kÃ¼Ã§Ã¼k yol~
 You are on a narrow path leading through the deep, dark forest.  Ancient grey
 trees loom all around you.  The path continues north and east.
 ~
@@ -1380,7 +1380,7 @@ The ancient grey giants seem to observe you silently.
 ~
 S
 #6108
-Karanlık ormanda dar yol~
+KaranlÄ±k ormanda dar yol~
 You are on a dusty trail winding its way between huge, ancient trees
 standing close on all sides.  The trail leads north and west and to the south,
 a frail path leads away from the trail.
@@ -1418,7 +1418,7 @@ some places, giant grey roots have broken up through its surface.
 ~
 S
 #6109
-Karanlık ormanda dar yol~
+KaranlÄ±k ormanda dar yol~
 You are on a dusty trail winding its way east-west between huge, ancient trees
 that stand close on all sides.  Not a sound is to be heard - everything is
 ominously quiet.
@@ -1446,7 +1446,7 @@ some places, giant grey roots have broken up through its surface.
 ~
 S
 #6110
-Karanlık ormanda dar yol~
+KaranlÄ±k ormanda dar yol~
 You are on a dusty trail winding its way between huge, ancient trees that stand
 close on all sides.  The trail leads east and south.  To the north, a narrow
 path leads away from the trail.
@@ -1484,7 +1484,7 @@ some places, giant grey roots have broken up through its surface.
 ~
 S
 #6111
-Karanlık ormanda dar yol~
+KaranlÄ±k ormanda dar yol~
 You are on a dusty trail winding its way north-south between huge, ancient
 trees that loom ominously above you.
 ~
@@ -1511,7 +1511,7 @@ some places, giant grey roots have broken up through its surface.
 ~
 S
 #6112
-Karanlık ormanda dar yol~
+KaranlÄ±k ormanda dar yol~
 You are on a dusty trail winding its way between huge, ancient trees
 standing close on all sides.  The trail leads north and west and to the east,
 a frail path leads away from the trail.
@@ -1549,7 +1549,7 @@ some places, giant grey roots have broken up through its surface.
 ~
 S
 #6113
-Karanlık ormanda küçük yol~
+KaranlÄ±k ormanda kÃ¼Ã§Ã¼k yol~
 You are on a narrow path leading through the deep, dark forest.  Ancient grey
 trees loom in all directions.  The path continues south and west.
 ~
@@ -1575,7 +1575,7 @@ The ancient grey giants seem to observe you silently.
 ~
 S
 #6114
-Karanlık ormanda kesişim~
+KaranlÄ±k ormanda kesiÅŸim~
 You are by a junction where three paths meet.  Ancient grey trees tower above
 you on all sides.  Paths lead north, east and west.
 ~
@@ -1606,7 +1606,7 @@ The ancient grey giants seem to observe you silently.
 ~
 S
 #6115
-Karanlık ormanda küçük yol~
+KaranlÄ±k ormanda kÃ¼Ã§Ã¼k yol~
 You are on a narrow path leading through the deep, dark forest.  You feel as
 if the ancient trees observe you in watchful silence.  The path continues north
 and west.
@@ -1633,7 +1633,7 @@ The ancient grey giants seem to observe you silently.
 ~
 S
 #6116
-Karanlık ormanda küçük yol~
+KaranlÄ±k ormanda kÃ¼Ã§Ã¼k yol~
 You are on a narrow path leading through the deep, dark forest.  Giant, grey
 trees loom ominously on all sides.  The path continues east and south.
 ~
@@ -1659,7 +1659,7 @@ The ancient grey giants seem to observe you silently.
 ~
 S
 #6117
-Karanlık ormanda kesişim~
+KaranlÄ±k ormanda kesiÅŸim~
 You are by a junction where three paths meet.  Ancient, grey trees seem to
 observe you silently you from all sides.  Paths lead north, east and west.
 ~
@@ -1690,7 +1690,7 @@ The ancient grey giants seem to observe you silently.
 ~
 S
 #6118
-Karanlık ormanda küçük yol~
+KaranlÄ±k ormanda kÃ¼Ã§Ã¼k yol~
 You are on a narrow path leading through the deep, dark forest.  Ancient,
 grey trees loom everywhere.  The path continues south and west.
 ~
@@ -1716,7 +1716,7 @@ The ancient grey giants seem to observe you silently.
 ~
 S
 #6119
-Karanlık ormanda küçük yol~
+KaranlÄ±k ormanda kÃ¼Ã§Ã¼k yol~
 You are on a narrow path leading through the deep, dark forest.  Huge, ancient
 trees are on all sides.  The path continues north and south.
 ~
@@ -1742,7 +1742,7 @@ You feel as if they are watching you.
 ~
 S
 #6120
-Karanlık ormanda nehir kenarı~
+KaranlÄ±k ormanda nehir kenarÄ±~
 You are on a narrow path leading through the deep, dark forest.  To the south a
 fast river is flowing westwards through the forest.  Ancient grey trees loom on
 both banks.  The path continues north and west.
@@ -1774,7 +1774,7 @@ The river flows fast and strong.  It is black or looks so in the gloom.
 ~
 S
 #6121
-Nehir kenarında çıkmaz patika~
+Nehir kenarÄ±nda Ã§Ä±kmaz patika~
 You are on a narrow path leading through the deep, dark forest.  The ancient
 trees stand so close that the path disappears between the dusty roots.  To the
 south a dark river flows from east to west.  The only exit appears to be east.
@@ -1801,7 +1801,7 @@ The river flows fast and strong.  It is black or looks so in the gloom.
 ~
 S
 #6122
-Karanlık ormanda küçük yol~
+KaranlÄ±k ormanda kÃ¼Ã§Ã¼k yol~
 You are on a narrow path leading through the deep, dark forest.  Giant, grey
 trees loom ominously all around.  The path continues east and south.
 ~
@@ -1827,7 +1827,7 @@ The ancient grey giants seem to observe you silently.
 ~
 S
 #6123
-Nehir kenarında kesişim~
+Nehir kenarÄ±nda kesiÅŸim~
 You are by a junction where three paths meet.  Ancient, grey trees seem to
 observe you silently you from all around.  To the south a dark river flows from
 east to west through the forest.  Paths lead north, east and west.
@@ -1869,7 +1869,7 @@ The river flows fast and strong.  It is black or looks so in the gloom.
 ~
 S
 #6124
-Karanlık ormanda çıkmaz patika~
+KaranlÄ±k ormanda Ã§Ä±kmaz patika~
 You are on a narrow path leading through the deep, dark forest.  The ancient
 trees stand so close that the path disappears between the dusty roots.  To the
 south a dark river flows from east to west.  The only exit appears to be west.
@@ -1901,7 +1901,7 @@ The river flows fast and strong.  It is black or looks so in the gloom.
 ~
 S
 #6125
-Nehir kenarında küçük patika~
+Nehir kenarÄ±nda kÃ¼Ã§Ã¼k patika~
 You are on a narrow path leading through the deep, dark forest.  Ancient grey
 trees loom everywhere.  To the south you smell marsh gas.  The path continues
 north and east.
@@ -1938,7 +1938,7 @@ The river flows fast and strong.  It is black or looks so in the gloom.
 ~
 S
 #6126
-Karanlık ormanda dar yol~
+KaranlÄ±k ormanda dar yol~
 You are on a dusty trail winding its way between huge, ancient trees standing
 close on all sides.  The trail leads north and west, and to the south a frail
 path leads away from the trail.
@@ -1976,7 +1976,7 @@ some places, giant grey roots have broken up through its surface.
 ~
 S
 #6127
-Karanlık ormanda dar yol~
+KaranlÄ±k ormanda dar yol~
 You are on a dusty trail winding its way between huge, ancient trees
 standing close on all sides.  The trail leads east and south.
 ~
@@ -2003,7 +2003,7 @@ some places, giant grey roots have broken up through its surface.
 ~
 S
 #6128
-Karanlık ormanda dar yol~
+KaranlÄ±k ormanda dar yol~
 You are on a dusty trail winding its way east-west between huge, ancient trees
 that stand close on all sides.  Not a sound is to be heard - everything is
 ominously quiet.
@@ -2031,7 +2031,7 @@ some places, giant grey roots have broken up through its surface.
 ~
 S
 #6129
-Karanlık ormanda dar yol~
+KaranlÄ±k ormanda dar yol~
 You are on a dusty trail winding its way east-west between huge, ancient trees
 that stand close on all sides.  Not a sound is to be heard - everything is
 ominously quiet.
@@ -2059,7 +2059,7 @@ some places, giant grey roots have broken up through its surface.
 ~
 S
 #6130
-Karanlık ormanda dar yol~
+KaranlÄ±k ormanda dar yol~
 You are on a dusty trail winding its way westwards just below huge sticky
 wires suspended like ropes between the trees.  To the west the path seems to
 be completely covered in a giant web made from huge threads covered with glue.
@@ -2094,24 +2094,24 @@ some places, giant grey roots have broken up through its surface.
 ~
 S
 #6131
-Örümcek ağı~
+Ã–rÃ¼mcek aÄŸÄ±~
 You are walking along the narrow path, ducking under the sticky ropes as you
 advance...
 >
-Büyük ve zhirli bir örümcek yukarda sallanıyor!
-Büyük ve zhirli bir örümcek yukarda sallanıyor!
-Büyük ve zhirli bir örümcek yukarda sallanıyor!
+BÃ¼yÃ¼k ve zhirli bir Ã¶rÃ¼mcek yukarda sallanÄ±yor!
+BÃ¼yÃ¼k ve zhirli bir Ã¶rÃ¼mcek yukarda sallanÄ±yor!
+BÃ¼yÃ¼k ve zhirli bir Ã¶rÃ¼mcek yukarda sallanÄ±yor!
 >
-Örümcek seni ısırıyor!  Zehre dayanıyorsun!
-Örümcek seni ısırıyor!  Zehirlendin!
-Örümcek seni ısırıyor!  Zehirlendin!
+Ã–rÃ¼mcek seni Ä±sÄ±rÄ±yor!  Zehre dayanÄ±yorsun!
+Ã–rÃ¼mcek seni Ä±sÄ±rÄ±yor!  Zehirlendin!
+Ã–rÃ¼mcek seni Ä±sÄ±rÄ±yor!  Zehirlendin!
 >
-Düştün ve kalkamıyorsun!!!!!
+DÃ¼ÅŸtÃ¼n ve kalkamÄ±yorsun!!!!!
 ~
 0 CD 3
 S
 #6132
-Ağacın üstünde~
+AÄŸacÄ±n Ã¼stÃ¼nde~
 You are hanging on the outside of a huge tree trunk covered in a sticky
 substance.  Directly to the west is an immense spider web suspended between
 numerous of the giant trees including the one you are hanging on.
@@ -2134,7 +2134,7 @@ walk on it.
 ~
 S
 #6133
-Örümcek ağının yakınında~
+Ã–rÃ¼mcek aÄŸÄ±nÄ±n yakÄ±nÄ±nda~
 You are balancing carefully on the giant sticky threads that holds the giant
 web in place.  To the east is a giant tree trunk and to the west is an entrance
 to a cave-like structure made from many layers of spider web.
@@ -2166,7 +2166,7 @@ The immense spider web moves softly.
 ~
 S
 #6134
-Kraliçe örümceğin ini~
+KraliÃ§e Ã¶rÃ¼mceÄŸin ini~
 You are inside a cave-like structure that seems to be made entirely from
 countless layers of spider web.  Temperature and humidity is very high making
 it hard to breathe the foul air that lingers here.  The walls are covered with
@@ -2189,7 +2189,7 @@ The sticky walls are covered with open cocoons.
 ~
 S
 #6135
-Karanlık ormanda az kullanılmış yol~
+KaranlÄ±k ormanda az kullanÄ±lmÄ±ÅŸ yol~
 You are on a dusty trail leading through the deep, dark forest.  Ancient grey
 trees loom all around you.  The trail continues north and east.
 ~
@@ -2210,7 +2210,7 @@ The ancient grey giants seem to observe you silently.
 ~
 S
 #6136
-Karanlık ormanda az kullanılmış yol~
+KaranlÄ±k ormanda az kullanÄ±lmÄ±ÅŸ yol~
 You are on a dusty trail leading through the deep, dark forest.  Ancient,
 grey trees loom everywhere.  The trail continues south and west.  A broad
 irregular path leads eastwards away from the trail.
@@ -2247,7 +2247,7 @@ claws has been tearing at them in rage.
 ~
 S
 #6137
-Karanlık ormandaki yolun sonu~
+KaranlÄ±k ormandaki yolun sonu~
 You are on a dusty trail leading through the deep, dark forest.  Ancient grey
 trees loom all around you.  You see a dark grove north of you.
 The other exits are east and south.
@@ -2273,7 +2273,7 @@ The ancient grey giants seem to observe you silently.
 ~
 S
 #6142
-Karanlık ormandaki mağaranın dışı~
+KaranlÄ±k ormandaki maÄŸaranÄ±n dÄ±ÅŸÄ±~
 You are at the end of a broad, irregular path.  To the north is a very large
 ominous-looking cave opening.  The trees here have many marks as if something
 with huge claws has been tearing at them in rage.
@@ -2300,7 +2300,7 @@ been tearing at them in rage.
 ~
 S
 #6143
-Yeşil yelbükenin mağarası~
+YeÅŸil yelbÃ¼kenin maÄŸarasÄ±~
 You are in a big natural cave.  The floor is littered with bones of all sorts
 and the stench is so massive that you could cut it with a knife.  The only exit
 is to the south.
@@ -2317,7 +2317,7 @@ Most of the bones on the floor appear to be of human origin.
 ~
 S
 #6144
-Karanlık ormanda küçük yol~
+KaranlÄ±k ormanda kÃ¼Ã§Ã¼k yol~
 You are on a narrow path leading through the deep, dark forest.  Ancient,
 grey trees loom everywhere.  The tree trunks here seem to be covered in some
 sticky substance.  The path continues south and west.
@@ -2385,7 +2385,7 @@ the start of the trail.
 0 -1 6150
 S
 #6152
-Ağaç çemberi~
+AÄŸaÃ§ Ã§emberi~
 The trees here seem to form a circle around a HUGE tree that is in the center
 of them.  You notice a wooden door carved into the huge tree to the east.  The
 trail that you followed to get here seems to end at the base of the tree.
@@ -2408,7 +2408,7 @@ the bend on the trail.
 1 -1 6151
 S
 #6153
-Ulu ağacın içinde~
+Ulu aÄŸacÄ±n iÃ§inde~
 You have stepped inside of this hollowed tree.  From here steps lead down into
 darkness or you can exit the tree by going west.
 ~
@@ -2430,7 +2430,7 @@ The steps look appear like they will hold your weight.
 0 -1 6154
 S
 #6154
-Yeraltı geçidi~
+YeraltÄ± geÃ§idi~
 This hallway is apparently one of the roots of the tree hollowed out.  The
 hall leads south to a room where you hear strange noises or you can go up
 the steps. ~
@@ -2451,7 +2451,7 @@ the steps appear like they will hold your weight.
 1 -1 6153
 S
 #6155
-Tarikat tapınağı~
+Tarikat tapÄ±naÄŸÄ±~
 This temple is built to some god that you don't worship.  It is a nice place
 to visit but you feel very uncomfortable about spending much time here.
 The wooden altar seems almost to glow as you enter the room.  The only exit is
@@ -2470,7 +2470,7 @@ Gateway to abyss.
 0 -1 25004
 S
 #6156
-Gizli açıklık~
+Gizli aÃ§Ä±klÄ±k~
   Parting the undergrowth, you step in a small glade.  Quiet and
 peaceful, you relax in the beauty of the forest.  Small Sprites and
 Fairies dance around a calm pool, offering you a cool drink.  You feel

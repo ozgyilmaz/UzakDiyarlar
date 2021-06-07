@@ -1,9 +1,9 @@
 #AREADATA
 Filename istila.are~
-Name İstila~
+Name Ä°stila~
 Builder Asena~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 90
 Highlevel 100
 Minvnum 560
@@ -20,25 +20,25 @@ C
 #NEW_MOBILES
 #560
 koruyucu kumandan istila~
-istila kumandanı~
-Istila kumandanı burada kabalına hizmet ediyor.
+istila kumandanÄ±~
+Istila kumandanÄ± burada kabalÄ±na hizmet ediyor.
 ~
-Bu güçlü adam, İstila Kabalı'na koruyucu olarak hizmet ediyor. O'nun
-vazifesi meclise sızmak isteyenlere hadlerini bildirmek.
+Bu gÃ¼Ã§lÃ¼ adam, Ä°stila KabalÄ±'na koruyucu olarak hizmet ediyor. O'nun
+vazifesi meclise sÄ±zmak isteyenlere hadlerini bildirmek.
 ~
 human~
 ABJKWe DFHJVZc 92
 
 #561
 kem ruhban kabal istila~
-şeytani ruhban~
-Bu kara ruhban istilanın neferlerini güçlendirip, iyileştiriyor.
+ÅŸeytani ruhban~
+Bu kara ruhban istilanÄ±n neferlerini gÃ¼Ã§lendirip, iyileÅŸtiriyor.
 ~
-Karşında gördüğün ruhban diyardaki en güçlü din adamlarından biridir.
-Şimdiye kadar gerçekleşen bütün istilalara şahit olan bu adam ilerlemiş
-yaşına rağmen halen kabalına hizmet ediyor. Kendi yöntemiyle gücünü, kabal
-yoldaşlarını kuvvetlendirip, iyileştirmeye adamış. Tüm Cabülka-Cabülsa
-topraklarının istila edileceği günü görmeyi bekliyor.
+KarÅŸÄ±nda gÃ¶rdÃ¼ÄŸÃ¼n ruhban diyardaki en gÃ¼Ã§lÃ¼ din adamlarÄ±ndan biridir.
+Åimdiye kadar gerÃ§ekleÅŸen bÃ¼tÃ¼n istilalara ÅŸahit olan bu adam ilerlemiÅŸ
+yaÅŸÄ±na raÄŸmen halen kabalÄ±na hizmet ediyor. Kendi yÃ¶ntemiyle gÃ¼cÃ¼nÃ¼, kabal
+yoldaÅŸlarÄ±nÄ± kuvvetlendirip, iyileÅŸtirmeye adamÄ±ÅŸ. TÃ¼m CabÃ¼lka-CabÃ¼lsa
+topraklarÄ±nÄ±n istila edileceÄŸi gÃ¼nÃ¼ gÃ¶rmeyi bekliyor.
 ~
 human~
 ABQVae DFH 90
@@ -49,49 +49,49 @@ ABQVae DFH 90
 
 #OBJECTS
 #560
-kır mimber kafatası~
-kafatası~
-Mimberin üzerinde kır renginde kemiklerden oluşan bir kafatası görüyorsun.~
+kÄ±r mimber kafatasÄ±~
+kafatasÄ±~
+Mimberin Ã¼zerinde kÄ±r renginde kemiklerden oluÅŸan bir kafatasÄ± gÃ¶rÃ¼yorsun.~
 bone~
 container CEORY P
 10 15 562 15 100
 60 2 20 P
 #561
-küre yuvar hiçlik~
-hiçlik küresi~
-Küresel biçimli küçük bir hiçlik havada süzülüyor.~
+kÃ¼re yuvar hiÃ§lik~
+hiÃ§lik kÃ¼resi~
+KÃ¼resel biÃ§imli kÃ¼Ã§Ã¼k bir hiÃ§lik havada sÃ¼zÃ¼lÃ¼yor.~
 unknown~
 treasure CETO AO
 0 0 0 0 0
 60 2 10000 P
 #562
-kafatası grimsi çene~
-kafatasının grimsi çenesi~
-kafatasının gri renkli çenesi~
+kafatasÄ± grimsi Ã§ene~
+kafatasÄ±nÄ±n grimsi Ã§enesi~
+kafatasÄ±nÄ±n gri renkli Ã§enesi~
 bone~
 key CEORY A
 0 0 0 0 0
 40 2 0 P
 #563
-beyaz obje geçit~
-Büyülü beyaz geçit~
-Büyülü beyaz bir nesne açıklıkta tuhaf gölgeler oluşturuyor.~
+beyaz obje geÃ§it~
+BÃ¼yÃ¼lÃ¼ beyaz geÃ§it~
+BÃ¼yÃ¼lÃ¼ beyaz bir nesne aÃ§Ä±klÄ±kta tuhaf gÃ¶lgeler oluÅŸturuyor.~
 energy~
 portal AO 0
 0 0 B 560 0
 0 0 0 P
 #564
-siyah obje geçit~
-Sİyah Geçit~
-Büyülü siyah bir nesne açıklıkta tuhaf gölgeler oluşturuyor.~
+siyah obje geÃ§it~
+SÄ°yah GeÃ§it~
+BÃ¼yÃ¼lÃ¼ siyah bir nesne aÃ§Ä±klÄ±kta tuhaf gÃ¶lgeler oluÅŸturuyor.~
 energy~
 portal AO 0
 0 0 E 0 0
 0 0 0 P
 #565
-yeşil obje geçit~
-Büyülü yeşil geçit~
-Büyülü yeşil bir nesne açıklıkta tuhaf gölgeler oluşturuyor.~
+yeÅŸil obje geÃ§it~
+BÃ¼yÃ¼lÃ¼ yeÅŸil geÃ§it~
+BÃ¼yÃ¼lÃ¼ yeÅŸil bir nesne aÃ§Ä±klÄ±kta tuhaf gÃ¶lgeler oluÅŸturuyor.~
 energy~
 portal AO 0
 0 0 B 3124 0
@@ -101,168 +101,168 @@ portal AO 0
 #ROOMS
 #560
 Kuyu~
-Ağzı büyük bir kaya parçasıyla tıkalı harabe bir kuyunun yanında
-duruyorsun. Gölgelerin içinde seni izleyen birilerinin olduğunu
+AÄŸzÄ± bÃ¼yÃ¼k bir kaya parÃ§asÄ±yla tÄ±kalÄ± harabe bir kuyunun yanÄ±nda
+duruyorsun. GÃ¶lgelerin iÃ§inde seni izleyen birilerinin olduÄŸunu
 biliyorsun.
 ~
 0 ACD 0
 D0
-Bu yön lağımlardaki depo odasına gidiyor.
+Bu yÃ¶n laÄŸÄ±mlardaki depo odasÄ±na gidiyor.
 ~
 ~
 0 -1 16081
 D5
-Taştan tünelin oldukça aşağısında bir meşalenin titrek ışıltısı kuyunun
-güney duvarına vuruyor.
+TaÅŸtan tÃ¼nelin oldukÃ§a aÅŸaÄŸÄ±sÄ±nda bir meÅŸalenin titrek Ä±ÅŸÄ±ltÄ±sÄ± kuyunun
+gÃ¼ney duvarÄ±na vuruyor.
 ~
-giriş~
+giriÅŸ~
 3 -1 561
 S
 #561
 Kuyunun Dibi~
-Burası kuzeye bakan bir kapı aralığındaki titrek bir meşalenin loş
-ışığıyla aydınlatılmış. Güçlü bir insana ait gibi görünen bir gölge
-ateşin ışığıyla kuzey duvarında dans ediyor.
+BurasÄ± kuzeye bakan bir kapÄ± aralÄ±ÄŸÄ±ndaki titrek bir meÅŸalenin loÅŸ
+Ä±ÅŸÄ±ÄŸÄ±yla aydÄ±nlatÄ±lmÄ±ÅŸ. GÃ¼Ã§lÃ¼ bir insana ait gibi gÃ¶rÃ¼nen bir gÃ¶lge
+ateÅŸin Ä±ÅŸÄ±ÄŸÄ±yla kuzey duvarÄ±nda dans ediyor.
 ~
 0 ACD 0
 D0
-Kapı iyi aydınlatılmış meclis odasına ulaşıyor. Duvarın üzerine
-büyük bir şeyin silüeti düşmüş.
+KapÄ± iyi aydÄ±nlatÄ±lmÄ±ÅŸ meclis odasÄ±na ulaÅŸÄ±yor. DuvarÄ±n Ã¼zerine
+bÃ¼yÃ¼k bir ÅŸeyin silÃ¼eti dÃ¼ÅŸmÃ¼ÅŸ.
 ~
 ~
 0 -1 562
 D4
-Sadece kuyunun ağzını seçebiliyorsun.
+Sadece kuyunun aÄŸzÄ±nÄ± seÃ§ebiliyorsun.
 ~
-giriş~
+giriÅŸ~
 3 -1 560
 S
 #562
-Dipsiz çukur~
-Dipsiz kuyudan aşağı doğru hiç durmadan düşüyorsun. Tutunacak bir duvarın
-belirtisini bile göstermeyen karanlık seni sarmalıyor. Yukarı bakıyor ve
-aşağıdaki hiçliğin aynısını görüyorsun. Aşağıda seni ne bekliyor? Dibe
-ulaşabilecek misin?
+Dipsiz Ã§ukur~
+Dipsiz kuyudan aÅŸaÄŸÄ± doÄŸru hiÃ§ durmadan dÃ¼ÅŸÃ¼yorsun. Tutunacak bir duvarÄ±n
+belirtisini bile gÃ¶stermeyen karanlÄ±k seni sarmalÄ±yor. YukarÄ± bakÄ±yor ve
+aÅŸaÄŸÄ±daki hiÃ§liÄŸin aynÄ±sÄ±nÄ± gÃ¶rÃ¼yorsun. AÅŸaÄŸÄ±da seni ne bekliyor? Dibe
+ulaÅŸabilecek misin?
 ~
 0 ADN 0
 D5
-Karanlık çukurun diplerine doğru düşerken
+KaranlÄ±k Ã§ukurun diplerine doÄŸru dÃ¼ÅŸerken
 ~
 ~
 0 0 564
 S
 #563
-Dipsiz çukur~
-Dipsiz kuyudan aşağı doğru hiç durmadan düşüyorsun. Tutunacak bir duvarın
-belirtisini bile göstermeyen karanlık seni sarmalıyor. Yukarı bakıyor ve
-aşağıdaki hiçliğin aynısını görüyorsun. Aşağıda seni ne bekliyor? Dibe
-ulaşabilecek misin?
+Dipsiz Ã§ukur~
+Dipsiz kuyudan aÅŸaÄŸÄ± doÄŸru hiÃ§ durmadan dÃ¼ÅŸÃ¼yorsun. Tutunacak bir duvarÄ±n
+belirtisini bile gÃ¶stermeyen karanlÄ±k seni sarmalÄ±yor. YukarÄ± bakÄ±yor ve
+aÅŸaÄŸÄ±daki hiÃ§liÄŸin aynÄ±sÄ±nÄ± gÃ¶rÃ¼yorsun. AÅŸaÄŸÄ±da seni ne bekliyor? Dibe
+ulaÅŸabilecek misin?
 ~
 0 ADN 0
 D5
-Karanlık çukurun diplerine doğru düşerken
+KaranlÄ±k Ã§ukurun diplerine doÄŸru dÃ¼ÅŸerken
 ~
 ~
 0 0 564
 S
 #564
-Dipsiz çukur~
-Dipsiz kuyudan aşağı doğru hiç durmadan düşüyorsun. Tutunacak bir duvarın
-belirtisini bile göstermeyen karanlık seni sarmalıyor. Yukarı bakıyor ve
-aşağıdaki hiçliğin aynısını görüyorsun. Aşağıda seni ne bekliyor? Dibe
-ulaşabilecek misin?
+Dipsiz Ã§ukur~
+Dipsiz kuyudan aÅŸaÄŸÄ± doÄŸru hiÃ§ durmadan dÃ¼ÅŸÃ¼yorsun. Tutunacak bir duvarÄ±n
+belirtisini bile gÃ¶stermeyen karanlÄ±k seni sarmalÄ±yor. YukarÄ± bakÄ±yor ve
+aÅŸaÄŸÄ±daki hiÃ§liÄŸin aynÄ±sÄ±nÄ± gÃ¶rÃ¼yorsun. AÅŸaÄŸÄ±da seni ne bekliyor? Dibe
+ulaÅŸabilecek misin?
 ~
 0 ADN 0
 D5
-Karanlık çukurun diplerine doğru düşerken
+KaranlÄ±k Ã§ukurun diplerine doÄŸru dÃ¼ÅŸerken
 ~
 ~
 0 0 565
 S
 #565
-Dipsiz çukur~
-Dipsiz kuyudan aşağı doğru hiç durmadan düşüyorsun. Tutunacak bir duvarın
-belirtisini bile göstermeyen karanlık seni sarmalıyor. Yukarı bakıyor ve
-aşağıdaki hiçliğin aynısını görüyorsun. Aşağıda seni ne bekliyor? Dibe
-ulaşabilecek misin?
+Dipsiz Ã§ukur~
+Dipsiz kuyudan aÅŸaÄŸÄ± doÄŸru hiÃ§ durmadan dÃ¼ÅŸÃ¼yorsun. Tutunacak bir duvarÄ±n
+belirtisini bile gÃ¶stermeyen karanlÄ±k seni sarmalÄ±yor. YukarÄ± bakÄ±yor ve
+aÅŸaÄŸÄ±daki hiÃ§liÄŸin aynÄ±sÄ±nÄ± gÃ¶rÃ¼yorsun. AÅŸaÄŸÄ±da seni ne bekliyor? Dibe
+ulaÅŸabilecek misin?
 ~
 0 ADN 0
 D5
-Karanlık çukurun diplerine doğru düşerken
+KaranlÄ±k Ã§ukurun diplerine doÄŸru dÃ¼ÅŸerken
 ~
 ~
 0 0 566
 S
 #566
-Dipsiz çukur~
-Dipsiz kuyudan aşağı doğru hiç durmadan düşüyorsun. Tutunacak bir duvarın
-belirtisini bile göstermeyen karanlık seni sarmalıyor. Yukarı bakıyor ve
-aşağıdaki hiçliğin aynısını görüyorsun. Aşağıda seni ne bekliyor? Dibe
-ulaşabilecek misin?
+Dipsiz Ã§ukur~
+Dipsiz kuyudan aÅŸaÄŸÄ± doÄŸru hiÃ§ durmadan dÃ¼ÅŸÃ¼yorsun. Tutunacak bir duvarÄ±n
+belirtisini bile gÃ¶stermeyen karanlÄ±k seni sarmalÄ±yor. YukarÄ± bakÄ±yor ve
+aÅŸaÄŸÄ±daki hiÃ§liÄŸin aynÄ±sÄ±nÄ± gÃ¶rÃ¼yorsun. AÅŸaÄŸÄ±da seni ne bekliyor? Dibe
+ulaÅŸabilecek misin?
 ~
 0 AD 0
 D5
-Karanlık çukurun diplerine doğru düşerken
+KaranlÄ±k Ã§ukurun diplerine doÄŸru dÃ¼ÅŸerken
 ~
 ~
 0 0 567
 S
 #567
-Gölgeli Meclis~
-Duvarlarında danseden gölgelerin olduğu meclisin içerisindesin. Ölüm
-temalı imgelerle ve çatlaklarla kaplı duvarlar, çok güçlü bir büyüyle
-yakılmış gibi simsiyah.
+GÃ¶lgeli Meclis~
+DuvarlarÄ±nda danseden gÃ¶lgelerin olduÄŸu meclisin iÃ§erisindesin. Ã–lÃ¼m
+temalÄ± imgelerle ve Ã§atlaklarla kaplÄ± duvarlar, Ã§ok gÃ¼Ã§lÃ¼ bir bÃ¼yÃ¼yle
+yakÄ±lmÄ±ÅŸ gibi simsiyah.
 ~
 0 ADX 0
 D0
-Zifiri karanlık ...
+Zifiri karanlÄ±k ...
 ~
 ~
 5 -1 568
 D1
-Zifiri karanlık ...
+Zifiri karanlÄ±k ...
 ~
 ~
 0 -1 567
 D2
-Zifiri karanlık ...
+Zifiri karanlÄ±k ...
 ~
 ~
 0 -1 569
 D3
-Zifiri karanlık ...
+Zifiri karanlÄ±k ...
 ~
 ~
 0 -1 567
 S
 #568
 Pentagram~
-Siyah taşlardan kesilmiş büyük bir salona adım attın. Pentagramın
-çizgilerinin ortasından siyah bir mimber tüm görkemiyle yükseliyor. Dev
-mimberin üstünde bir insan kafatası görüyorsun. Etraf, odayı çevreleyen
-basamakların üstündeki birçok mumla aydınlatılmış. Doğu duvarında üzerine
-kanla "İstilacıların Kardeşliği" yazılı büyük bir deri parçası görüyorsun.
-Batı duvarında ise siyah bir taşın üzerinde kanla "Ölüm Meleği" yazıyor.
+Siyah taÅŸlardan kesilmiÅŸ bÃ¼yÃ¼k bir salona adÄ±m attÄ±n. PentagramÄ±n
+Ã§izgilerinin ortasÄ±ndan siyah bir mimber tÃ¼m gÃ¶rkemiyle yÃ¼kseliyor. Dev
+mimberin Ã¼stÃ¼nde bir insan kafatasÄ± gÃ¶rÃ¼yorsun. Etraf, odayÄ± Ã§evreleyen
+basamaklarÄ±n Ã¼stÃ¼ndeki birÃ§ok mumla aydÄ±nlatÄ±lmÄ±ÅŸ. DoÄŸu duvarÄ±nda Ã¼zerine
+kanla "Ä°stilacÄ±larÄ±n KardeÅŸliÄŸi" yazÄ±lÄ± bÃ¼yÃ¼k bir deri parÃ§asÄ± gÃ¶rÃ¼yorsun.
+BatÄ± duvarÄ±nda ise siyah bir taÅŸÄ±n Ã¼zerinde kanla "Ã–lÃ¼m MeleÄŸi" yazÄ±yor.
 ~
 0 ADX 0
 H 100 M 110
 D2
-Karanlık koridoru görüyorsun.
+KaranlÄ±k koridoru gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 567
 S
 #569
-Cenk Meydanı~
-İstila kabalına mensup değilsen buraya yüksek ihtimalle kaçtın. Karanlığın
-seni ürperttiğini farkediyorsun. Adrenalinin azalmasını beklerken dinlenmek
-istiyorsun fakat burası dinlenmek için güvenli bir yer değil. Burası İstila
-Kabalı'nın Cenk Meydanı.
+Cenk MeydanÄ±~
+Ä°stila kabalÄ±na mensup deÄŸilsen buraya yÃ¼ksek ihtimalle kaÃ§tÄ±n. KaranlÄ±ÄŸÄ±n
+seni Ã¼rperttiÄŸini farkediyorsun. Adrenalinin azalmasÄ±nÄ± beklerken dinlenmek
+istiyorsun fakat burasÄ± dinlenmek iÃ§in gÃ¼venli bir yer deÄŸil. BurasÄ± Ä°stila
+KabalÄ±'nÄ±n Cenk MeydanÄ±.
 ~
 0 ADX 0
 H 50 M 50
 D0
-Karanlık koridoru görüyorsun.
+KaranlÄ±k koridoru gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 567

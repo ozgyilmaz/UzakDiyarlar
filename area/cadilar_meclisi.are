@@ -1,9 +1,9 @@
 #AREADATA
 Filename cadilar_meclisi.are~
-Name Cadılar Meclisi~
+Name CadÄ±lar Meclisi~
 Builder MacAsp~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 25
 Highlevel 35
 Minvnum 29120
@@ -44,9 +44,9 @@ the devil, they escape with otherworldly treasure.
 
 #NEW_MOBILES
 #29120
-aç canavar~
-aç canavar~
-Aç bir canavar av arıyor!
+aÃ§ canavar~
+aÃ§ canavar~
+AÃ§ bir canavar av arÄ±yor!
 ~
 The ravening beast stands about 1' tall at the shoulder, and measures
 10' from nose to tail. It resembles a monitor lizard, only its furry,
@@ -58,7 +58,7 @@ FGX F 30
 #29121
 cadaloz gelda~
 cadaloz Gelda~
-Yaşlı bir cadaloz varlığını süzüyor.
+YaÅŸlÄ± bir cadaloz varlÄ±ÄŸÄ±nÄ± sÃ¼zÃ¼yor.
 ~
 The hag is dressed in rags, has long tangled matted gray hair, and is
 very old. The hag tells you 'I see you enter a fire and fight a great
@@ -68,9 +68,9 @@ hag breaks into an ugly fit of laughter.
 insan~
 BCGVX DK 28
 #29122
-koru muhafızı~
-koru muhafızı~
-Koru muhafızı bölgesini kolaçan ediyor.
+koru muhafÄ±zÄ±~
+koru muhafÄ±zÄ±~
+Koru muhafÄ±zÄ± bÃ¶lgesini kolaÃ§an ediyor.
 ~
 The guard has a large war axe, a heavy hide cloak, and a longbow. He
 blends in with the surrounding terrain from years of experience. He
@@ -84,7 +84,7 @@ BGX MQ 30
 #29123
 oduncu~
 oduncu~
-Oduncu tomrukları düzenliyor.
+Oduncu tomruklarÄ± dÃ¼zenliyor.
 ~
 The lumberjack is a tall human, equipped with rugged clothing and
 carrying a lumber axe. He sees you and asks 'Have you come from the
@@ -106,9 +106,9 @@ Dunkeldorf, before everyone started disappearing.
 human~
 BGX 0 26
 #29125
-mark değirmenci~
-değirmenci Mark~
-Değirmenci Mark una bulanmış.
+mark deÄŸirmenci~
+deÄŸirmenci Mark~
+DeÄŸirmenci Mark una bulanmÄ±ÅŸ.
 ~
 Mark the miller is a thick stocky, hairy man. He carries himself with
 great confidence and precision. You talk with him for a while, and he
@@ -121,7 +121,7 @@ BGX 0 27
 #29126
 demirci Hans~
 demirci Hans~
-Demirci Hans ateşi körüklüyor.
+Demirci Hans ateÅŸi kÃ¶rÃ¼klÃ¼yor.
 ~
 Hans is a very strong human, almost as strong as they run. He is in his
 late 40's and has jet black hair and a beard. You get to talking with
@@ -132,9 +132,9 @@ since collapsed and become unstable, so now he trades for it.
 human~
 BGSX 0 29
 #29127
-hancı fritz~
-hancı Fritz~
-Hancı burada, kalın perdeden bir şarkı söylüyor.
+hancÄ± fritz~
+hancÄ± Fritz~
+HancÄ± burada, kalÄ±n perdeden bir ÅŸarkÄ± sÃ¶ylÃ¼yor.
 ~
 Fritz the innkeeper is a short human, standing a mere 5' tall. He makes
 up for it with a high energy level and animated conversation. Fritz
@@ -155,9 +155,9 @@ shire, and of longbottom leaf.
 human~
 GX 0 26
 #29129
-kaya yılanı~
-kaya yılanı~
-Dev bir kaya yılanı sana tıslıyor!
+kaya yÄ±lanÄ±~
+kaya yÄ±lanÄ±~
+Dev bir kaya yÄ±lanÄ± sana tÄ±slÄ±yor!
 ~
 The rock snake is some 20' long and 1' in diameter, enough muscle to
 crush an ox. Its rounded head gives it away as a non poisonous
@@ -166,9 +166,9 @@ constrictor.
 snake~
 FGX 0 32
 #29130
-beyaz tapınak muhafızı~
-Beyaz Tapınak'ın muhafızı~
-Beyaz cüppesi içinde bir muhafız burada.
+beyaz tapÄ±nak muhafÄ±zÄ±~
+Beyaz TapÄ±nak'Ä±n muhafÄ±zÄ±~
+Beyaz cÃ¼ppesi iÃ§inde bir muhafÄ±z burada.
 ~
 The guardian of the white temple appears human, as your eyes adjust to
 the light emanating from him. He tells you the following tale:
@@ -190,9 +190,9 @@ with you.'
 human~
 BGX H 33
 #29131
-cadı kadın~
-cadı~
-Siyah cüppesi içinde bir kadın seni izliyor.
+cadÄ± kadÄ±n~
+cadÄ±~
+Siyah cÃ¼ppesi iÃ§inde bir kadÄ±n seni izliyor.
 ~
 The witch looks harried and driven. Her eyes dance wildly, and she
 cackles at you with an insane glee.
@@ -200,9 +200,9 @@ cackles at you with an insane glee.
 human~
 FGX D 32
 #29132
-büyücü~
-büyücü~
-Siyah cüppesi içinde bir büyücü seni izliyor.
+bÃ¼yÃ¼cÃ¼~
+bÃ¼yÃ¼cÃ¼~
+Siyah cÃ¼ppesi iÃ§inde bir bÃ¼yÃ¼cÃ¼ seni izliyor.
 ~
 The warlock looks harried and driven. His eyes dart wildly, and he
 cackles with an insane glee.
@@ -210,9 +210,9 @@ cackles with an insane glee.
 human~
 FGX D 33
 #29133
-cadıların lideri büyücü~
-cadıların lideri~
-Kan kırmızısı cüppesinin içinde kanını isteyen bir büyücü seni izliyor!
+cadÄ±larÄ±n lideri bÃ¼yÃ¼cÃ¼~
+cadÄ±larÄ±n lideri~
+Kan kÄ±rmÄ±zÄ±sÄ± cÃ¼ppesinin iÃ§inde kanÄ±nÄ± isteyen bir bÃ¼yÃ¼cÃ¼ seni izliyor!
 ~
 The coven leader looks harried and driven. His eyes dart wildly, and he
 cackles with an insane glee.
@@ -220,9 +220,9 @@ cackles with an insane glee.
 human~
 FGX DF 34
 #29134
-cehennem ateşi canavarı~
-cehennem ateşi canavarı~
-Minyatür cehennem! Canavar üzerine geliyor!
+cehennem ateÅŸi canavarÄ±~
+cehennem ateÅŸi canavarÄ±~
+MinyatÃ¼r cehennem! Canavar Ã¼zerine geliyor!
 ~
 The minion of hell is manlike, and flaming. It has horns and a horribly
 disfigured face. Its skin is beet red, and his fingers and toes end in
@@ -237,24 +237,24 @@ BFGX DFH 28
 
 #OBJECTS
 #29120
-altın orak rün~
-altın orak~
-Rün işlemeli altın bir orak burada bekliyor.
+altÄ±n orak rÃ¼n~
+altÄ±n orak~
+RÃ¼n iÅŸlemeli altÄ±n bir orak burada bekliyor.
 ~
 gold~
 key I AO
 0 0 0 0 0
 20 20 2500 P
 E
-rün~
+rÃ¼n~
 You look at the runes. A warm glow fills you and you hear an inner
 voice speaking to you. It says ' Go s, 2w, 2s, and 4e from the white
 temple. Use me on the eastern brush and stop the coven!'
 ~
 #29121
-kalın kürek~
-kalın kürek~
-Kalın bir kürek burada yatıyor.
+kalÄ±n kÃ¼rek~
+kalÄ±n kÃ¼rek~
+KalÄ±n bir kÃ¼rek burada yatÄ±yor.
 ~
 wood~
 key 0 AO
@@ -263,43 +263,43 @@ key 0 AO
 #29122
 dere~
 dere~
-Küçük bir dereden tertemiz su akıyor.
+KÃ¼Ã§Ã¼k bir dereden tertemiz su akÄ±yor.
 ~
 marble~
 fountain 0 0
 1000000 1000000 'water' 0 0
 0 0 0 P
 #29123
-soğuk bira~
-soğuk bira~
-Soğuk bir bira yudumlanmayı bekliyor.
+soÄŸuk bira~
+soÄŸuk bira~
+SoÄŸuk bir bira yudumlanmayÄ± bekliyor.
 ~
 glass~
 drink 0 AO
 1 1 'beer' 0 0
 1 5 25 P
 #29124
-köpüklü bira~
-köpüklü bira~
-Köpüklü bir bira yudumlanmayı bekliyor.
+kÃ¶pÃ¼klÃ¼ bira~
+kÃ¶pÃ¼klÃ¼ bira~
+KÃ¶pÃ¼klÃ¼ bir bira yudumlanmayÄ± bekliyor.
 ~
 glass~
 drink 0 AO
 1 1 'beer' 0 0
 1 10 30 P
 #29125
-böğürtlen salkım~
-böğürtlen~
-Bir salkım böğürtlen burada bekliyor.
+bÃ¶ÄŸÃ¼rtlen salkÄ±m~
+bÃ¶ÄŸÃ¼rtlen~
+Bir salkÄ±m bÃ¶ÄŸÃ¼rtlen burada bekliyor.
 ~
 food~
 food 0 AO
 12 12 0 0 0
 3 20 30 P
 #29126
-oda anahtarı~
-oda anahtarı~
-Bir oda anahtarı kilidini arıyor.
+oda anahtarÄ±~
+oda anahtarÄ±~
+Bir oda anahtarÄ± kilidini arÄ±yor.
 ~
 tin~
 key 0 AO
@@ -308,25 +308,25 @@ key 0 AO
 #29127
 alevli muska~
 alevli muska~
-Alevli bir muska toprağı yakıyor.
+Alevli bir muska topraÄŸÄ± yakÄ±yor.
 ~
 fire~
 key 0 AC
 0 0 0 0 0
 20 20 1000 P
 #29128
-büyücü kökü~
-büyücü kökü~
-Bir büyücü kökü burada duruyor.
+bÃ¼yÃ¼cÃ¼ kÃ¶kÃ¼~
+bÃ¼yÃ¼cÃ¼ kÃ¶kÃ¼~
+Bir bÃ¼yÃ¼cÃ¼ kÃ¶kÃ¼ burada duruyor.
 ~
 bamboo~
 furniture 0 AO
 2 300 AEIL 120 120
 0 0 0 P
 #29129
-korucunun baltası~
-korucunun baltası~
-Büyük bir balta birşeyleri bölmeye çalışıyor.
+korucunun baltasÄ±~
+korucunun baltasÄ±~
+BÃ¼yÃ¼k bir balta birÅŸeyleri bÃ¶lmeye Ã§alÄ±ÅŸÄ±yor.
 ~
 steel~
 weapon 0 AN
@@ -343,18 +343,18 @@ armor 0 AD
 28 80 1500 P
 A 17 -10
 #29131
-beyaz mermer haç~
-beyaz mermer haç~
-Mermerden yapılmış beyaz bir haç yerde yatıyor.
+beyaz mermer haÃ§~
+beyaz mermer haÃ§~
+Mermerden yapÄ±lmÄ±ÅŸ beyaz bir haÃ§ yerde yatÄ±yor.
 ~
 marble~
 staff AIKL AO
 35 3 3 'sanctuary' 0
 30 100 15000 P
 #29132
-siyah cüppe~
-siyah cüppe~
-Siyah bir cüppe... Ne kadar da güzel!
+siyah cÃ¼ppe~
+siyah cÃ¼ppe~
+Siyah bir cÃ¼ppe... Ne kadar da gÃ¼zel!
 ~
 silk~
 armor CEHJM AD
@@ -363,9 +363,9 @@ armor CEHJM AD
 A 4 -2
 A 12 30
 #29133
-rünlü siyah bileklik~
-rünlü siyah bileklik~
-Üzerine rünler işlenmiş siyah bir bileklik burada oturuyor.
+rÃ¼nlÃ¼ siyah bileklik~
+rÃ¼nlÃ¼ siyah bileklik~
+Ãœzerine rÃ¼nler iÅŸlenmiÅŸ siyah bir bileklik burada oturuyor.
 ~
 metal~
 armor CEHJM AM
@@ -374,32 +374,32 @@ armor CEHJM AM
 A 13 -20
 A 24 -10
 E
-rün rünler~
+rÃ¼n rÃ¼nler~
 As you look at the runes, you feel an incredible heat surge toward you,
 trying to consume you! Your sight is filled with a fire and flames of
 souls in terrible torment. Gradually the flames diminish, leaving only a
 green after image of a pentagram.
 ~
 #29134
-rünlü siyah asa~
-rünlü siyah asa~
-Siyah bir asa burada bırakılmış.
+rÃ¼nlÃ¼ siyah asa~
+rÃ¼nlÃ¼ siyah asa~
+Siyah bir asa burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 sandstone~
 staff CEHJM AO
 40 8 8 'fire breath' 0
 30 30 7000 P
 E
-rün rünler~
+rÃ¼n rÃ¼nler~
 As you look at the runes, you feel an incredible heat surge toward you,
 trying to consume you! Your sight is filled with a fire and flames of
 souls in terrible torment. Gradually the flames diminish, leaving only a
 green after image of a pentagram.
 ~
 #29135
-ateş yüzük~
-ateş yüzüğü~
-Ateşten bir yüzük burada bırakılmış.
+ateÅŸ yÃ¼zÃ¼k~
+ateÅŸ yÃ¼zÃ¼ÄŸÃ¼~
+AteÅŸten bir yÃ¼zÃ¼k burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 fire~
 armor AQ AB
@@ -409,18 +409,18 @@ A 23 -3
 A 24 -3
 A 12 10
 #29136
-kara hançer~
-kara hançer~
-Kara bir hançer burada bırakılmış.
+kara hanÃ§er~
+kara hanÃ§er~
+Kara bir hanÃ§er burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 metal~
 weapon 0 AN
 dagger 3 6 stab 0
 15 80 2476 P
 #29137
-at nalı~
-at nalı~
-Ah, bir at nalı! Belki de şanslı bir günündesindir. Umarım giymeye kalkmazsın!
+at nalÄ±~
+at nalÄ±~
+Ah, bir at nalÄ±! Belki de ÅŸanslÄ± bir gÃ¼nÃ¼ndesindir. UmarÄ±m giymeye kalkmazsÄ±n!
 ~
 iron~
 trash 0 AO
@@ -429,16 +429,16 @@ trash 0 AO
 #29138
 ip~
 ip~
-Uzun bir ip burada bırakılmış.
+Uzun bir ip burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 wool~
 trash 0 AO
 0 0 0 0 0
 6 100 1500 P
 #29139
-görünmezlik iksiri sıvı şişe~
-görünmezlik iksiri~
-Sıvı dolu bir şişe görüyorsun.
+gÃ¶rÃ¼nmezlik iksiri sÄ±vÄ± ÅŸiÅŸe~
+gÃ¶rÃ¼nmezlik iksiri~
+SÄ±vÄ± dolu bir ÅŸiÅŸe gÃ¶rÃ¼yorsun.
 ~
 glass~
 potion 0 AN
@@ -449,7 +449,7 @@ potion 0 AN
 
 #ROOMS
 #29120
-Karanlık Korudan Önce~
+KaranlÄ±k Korudan Ã–nce~
 Ahead of you lies the dark forest Murkmire. You have heard of it
 before, back when you were but a small child. Your grandmother used to
 tell you tales of the Murkmire to get you to behave. 'If you don't be
@@ -461,7 +461,7 @@ into the dark woods, you notice a small plaque nailed to a tree.
 ~
 0 4 3
 D0
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29121
 D2
@@ -476,7 +476,7 @@ object. Play with brief off and look at just about everything.
 ~
 S
 #29121
-Karanlık Koruda Bir Yol~
+KaranlÄ±k Koruda Bir Yol~
 You are on a broad road in the forest Murkmire. Above you brooding
 walnuts, oaks, and hickory trees spread their leaves in a high arbor,
 blocking out all light. It is humid here, so much so that the mist
@@ -485,20 +485,20 @@ chatter to one and another, marking your presence for all predators.
 ~
 0 1 3
 D2
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29120
 D3
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29122
 E
 yol~
-Vagonların sürekli kullandığı bir yol
+VagonlarÄ±n sÃ¼rekli kullandÄ±ÄŸÄ± bir yol
 ~
 S
 #29122
-Karanlık Koruda Bir Yol~
+KaranlÄ±k Koruda Bir Yol~
 You are on a broad road in the forest Murkmire. Above you brooding
 walnuts, oaks, and hickory trees spread their leaves in a high arbor,
 blocking out all light. Sweat streams down your face. The road is muddy
@@ -506,20 +506,20 @@ here, and your boots stick with a sucking pop with each stride.
 ~
 0 1 3
 D0
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29123
 D1
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29121
 E
 yol~
-Vagonların sürekli kullandığı bir yol
+VagonlarÄ±n sÃ¼rekli kullandÄ±ÄŸÄ± bir yol
 ~
 S
 #29123
-Karanlık Koruda Kesişim~
+KaranlÄ±k Koruda KesiÅŸim~
 You have arrived at an intersection in the forest Murkmire. Here the
 forest has been ruthlessly beaten back by loggers and you can once
 again see the sky. There is a small outpost here, made of logs. There
@@ -528,20 +528,20 @@ re-enters the dark forest to the north and south.
 ~
 0 0 3
 D0
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29124
 D2
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29122
 D3
-Batı yolu~
+BatÄ± yolu~
 ~
 0 -1 29138
 E
 yol~
-Vagonların sürekli kullandığı bir yol.
+VagonlarÄ±n sÃ¼rekli kullandÄ±ÄŸÄ± bir yol.
 ~
 E
 sign~
@@ -551,7 +551,7 @@ sign~
 ~
 S
 #29124
-Karanlık Koruda Bir Yol~
+KaranlÄ±k Koruda Bir Yol~
 You are on a broad road in the forest Murkmire. Here the road ends at
 an eastern and western going logging trail. There is a huge rack of
 de-limbed trees here. There is a large brush pile into created by years
@@ -559,23 +559,23 @@ of dumping. A broad road heads off to the south.
 ~
 0 1 3
 D1
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29125
 D2
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29123
 D3
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29137
 E
 yol~
-Vagonların sürekli kullandığı bir yol
+VagonlarÄ±n sÃ¼rekli kullandÄ±ÄŸÄ± bir yol
 ~
 E
-tomrukçuluk yolu~
+tomrukÃ§uluk yolu~
 You look down the logging trails. There are deep gouges where logs have
 been dragged through the dirt and mud by horse teams. There is some
 evidence of foot traffic, which mostly goes west.
@@ -587,7 +587,7 @@ Squinting, you make out the face and forepaws of a raccoon.
 ~
 S
 #29125
-Karanlık Ormanda Ağaç Kesim Bölgesi~
+KaranlÄ±k Ormanda AÄŸaÃ§ Kesim BÃ¶lgesi~
 You are mired in mud on an old unused logging trail. You take some
 comfort in the fact that others before you were also so mired, as
 evidenced by the deep tracks in the mud. Far above you in the trees a
@@ -596,11 +596,11 @@ wing a rock at the bird, and it flies off.
 ~
 0 1 3
 D2
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29126
 D3
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29124
 E
@@ -610,7 +610,7 @@ northeast.
 ~
 S
 #29126
-Karanlık Ormanda Ağaç Kesim Bölgesi~
+KaranlÄ±k Ormanda AÄŸaÃ§ Kesim BÃ¶lgesi~
 You stand on hard, dry ground in the looming darkness of the Murkmire.
 Around you are old rotted stumps and an impenetrable wall of
 underbrush. You feel hemmed in and pressed by the towering, looming
@@ -620,27 +620,27 @@ ravening beast well up in your mind.
 ~
 0 1 3
 D0
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29125
 D1
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29127
 E
-ceset ölü hayvan~
+ceset Ã¶lÃ¼ hayvan~
 As you get closer to the carcass you recoil in horror as you recognize
 it as human. It has many terrible wounds.
 ~
 E
-yaralı insan~
+yaralÄ± insan~
 The human is a male in his late 20's. He is naked, and bears teeth
 marks on his neck. His chest has been cut open, and his heart removed.
 Most of his right haunch has been consumed by some animal.
 ~
 S
 #29127
-Karanlık Ormanda Eski Bir Açıklık~
+KaranlÄ±k Ormanda Eski Bir AÃ§Ä±klÄ±k~
 You have wandered into an ancient clearing in the forest. Here, the
 birds have ceased their chatter, and here, the heat lies again in a
 heavy humid embrace. The forest canopy has grown over the clearing,
@@ -650,25 +650,25 @@ feel eyes on the back of your neck.
 ~
 0 1 3
 D0
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29130
 D1
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29128
 D3
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29126
 E
-gözler göz~
+gÃ¶zler gÃ¶z~
 You quickly turn around, staring hard into the gloom, but there is
 nothing there.
 ~
 S
 #29128
-Karanlık Ormanda Eski Bir Açıklık~
+KaranlÄ±k Ormanda Eski Bir AÃ§Ä±klÄ±k~
 You have wandered into an ancient clearing in the forest. Here, the
 birds have ceased their chatter, and here, the heat lies again in a
 heavy humid embrace. The forest canopy has grown over the clearing,
@@ -678,21 +678,21 @@ feel eyes on the back of your neck.
 ~
 0 1 3
 D0
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29129
 D3
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29127
 E
-gözler göz~
+gÃ¶zler gÃ¶z~
 You quickly turn around, staring hard into the gloom, but there is
 nothing there.
 ~
 S
 #29129
-Karanlık Ormanda Eski Bir Açıklık~
+KaranlÄ±k Ormanda Eski Bir AÃ§Ä±klÄ±k~
 You have wandered into an ancient clearing in the forest. Here, the
 birds have ceased their chatter, and here, the heat lies again in a
 heavy humid embrace. The forest canopy has grown over the clearing,
@@ -702,21 +702,21 @@ feel eyes on the back of your neck.
 ~
 0 1 3
 D2
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29128
 D3
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29130
 E
-gözler göz~
+gÃ¶zler gÃ¶z~
 You quickly turn around, staring hard into the gloom, and see a dark
 animal run off into the forest!
 ~
 S
 #29130
-Karanlık Ormanda Eski Bir Açıklık~
+KaranlÄ±k Ormanda Eski Bir AÃ§Ä±klÄ±k~
 You have wandered into an ancient clearing in the forest. Here, the
 birds have ceased their chatter, and here, the heat lies again in a
 heavy humid embrace. The forest canopy has grown over the clearing,
@@ -726,25 +726,25 @@ feel eyes on the back of your neck.
 ~
 0 1 3
 D0
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29131
 D1
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29129
 D2
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29127
 E
-gözler göz~
+gÃ¶zler gÃ¶z~
 You quickly turn around, staring hard into the gloom, but there is
 nothing there.
 ~
 S
 #29131
-Karanlık Ormanda Ağaç Kesim Bölgesi~
+KaranlÄ±k Ormanda AÄŸaÃ§ Kesim BÃ¶lgesi~
 You are mired in mud on an old unused logging trail. You take some
 comfort in the fact that others before you were also so mired, as
 evidenced by the deep tracks in the mud. The towering trees have
@@ -755,15 +755,15 @@ continues to laugh at you.
 ~
 0 1 3
 D1
-Karanlık Koru~
+KaranlÄ±k Koru~
 underbrush brush~
 1 29120 29162
 D2
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29130
 D3
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29132
 E
@@ -772,7 +772,7 @@ You scowl at the raven, but it still sits there laughing at you.
 ~
 S
 #29132
-Karanlık Ormanda Terkedilmiş Ağaç Kesim Yeri~
+KaranlÄ±k Ormanda TerkedilmiÅŸ AÄŸaÃ§ Kesim Yeri~
 Here, amid the towering trees of the Murkmire, man has carved a small
 space of his own. Once again you can see the clear open sky, and your
 foul mood lightens only to immediately plunge downward once again at
@@ -781,26 +781,26 @@ heaps.
 ~
 0 0 3
 D0
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29133
 D1
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29131
 D3
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29135
 E
-vücut vücutlar~
+vÃ¼cut vÃ¼cutlar~
 You examine the dead lumberjacks here. There are 2 of them, and they
 look as if they have been severely burned. Their chests have been cut
 open, and their hearts have been removed.
 ~
 S
 #29133
-Karanlık Ormanda Terkedilmiş Ağaç Kesim Yeri~
+KaranlÄ±k Ormanda TerkedilmiÅŸ AÄŸaÃ§ Kesim Yeri~
 Here, amid the towering trees of the Murkmire, man has carved a small
 space of his own. Once again you can see the clear open sky, and your
 foul mood lightens only to immediately plunge downward once again at
@@ -809,15 +809,15 @@ heaps.
 ~
 0 0 3
 D2
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29132
 D3
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29134
 E
-vücut vücutlar~
+vÃ¼cut vÃ¼cutlar~
 You examine the dead lumberjacks here. There are 4 of them, and they
 look as if they have been severely burned. Their chests have been cut
 open, and their hearts have been removed. On one you find a strange
@@ -830,7 +830,7 @@ star inside a circle.
 ~
 S
 #29134
-Karanlık Ormanda Terkedilmiş Ağaç Kesim Yeri~
+KaranlÄ±k Ormanda TerkedilmiÅŸ AÄŸaÃ§ Kesim Yeri~
 Here, amid the towering trees of the Murkmire, man has carved a small
 space of his own. Once again you can see the clear open sky, and your
 foul mood lightens only to immediately plunge downward once again at
@@ -839,22 +839,22 @@ heaps.
 ~
 0 0 3
 D1
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29133
 D2
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29135
 E
-vücut vücutlar~
+vÃ¼cut vÃ¼cutlar~
 You examine the dead lumberjacks here. There are 3 of them, and they
 look as if they have been severely burned. Their chests have been cut
 open, and their hearts have been removed.
 ~
 S
 #29135
-Karanlık Ormanda Terkedilmiş Ağaç Kesim Yeri~
+KaranlÄ±k Ormanda TerkedilmiÅŸ AÄŸaÃ§ Kesim Yeri~
 Here, amid the towering trees of the Murkmire, man has carved a small
 space of his own. Once again you can see the clear open sky, and your
 foul mood lightens only to immediately plunge downward once again at
@@ -863,26 +863,26 @@ heaps.
 ~
 0 0 3
 D0
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29134
 D1
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29132
 D3
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29136
 E
-vücut vücutlar~
+vÃ¼cut vÃ¼cutlar~
 You examine the dead lumberjacks here. There are 2 of them, and they
 look as if they have been severely burned. Their chests have been cut
 open, and their hearts have been removed.
 ~
 S
 #29136
-Karanlık Ormanda Ağaç Kesim Bölgesi~
+KaranlÄ±k Ormanda AÄŸaÃ§ Kesim BÃ¶lgesi~
 You are on a high, dry, logging trail through the forest Murkmire. To
 the west of you is an old cave, blocked by a pile of rubble. The
 looming hardwood trees have blocked off all but the sky just above the
@@ -891,15 +891,15 @@ sides.
 ~
 0 0 3
 D1
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29135
 D2
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29137
 D3
-Mağara~
+MaÄŸara~
 rubble stones pile~
 1 29121 29156
 E
@@ -914,7 +914,7 @@ a cart variety.
 ~
 S
 #29137
-Karanlık Ormanda Ağaç Kesim Bölgesi~
+KaranlÄ±k Ormanda AÄŸaÃ§ Kesim BÃ¶lgesi~
 You are on a high, dry, logging trail through the forest Murkmire. The
 towering hardwoods blot out the sky. Underbrush, so thick you cant see
 through it, presses from all sides. There are piles of logs on either
@@ -923,11 +923,11 @@ you hear a strange inhuman cry.
 ~
 0 1 3
 D0
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29136
 D1
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29124
 E
@@ -951,16 +951,16 @@ and hard at you.
 ~
 0 0 1
 D0
-Ağaç Ev~
-kapı~
+AÄŸaÃ§ Ev~
+kapÄ±~
 1 -1 29139
 D1
-Karanlık Koru~
+KaranlÄ±k Koru~
 ~
 0 -1 29123
 D2
-Ağaç Ev~
-kapı~
+AÄŸaÃ§ Ev~
+kapÄ±~
 1 -1 29140
 D3
 Ana Cadde~
@@ -973,7 +973,7 @@ technique and chinked with some kind of mud compound.
 ~
 S
 #29139
-Ağaç Evde~
+AÄŸaÃ§ Evde~
 You stand inside a log house. It is a simple one room house with a dirt
 floor and mud thatch chinking. There are no windows. The house is
 heated by stone fireplace. There are a few cots and a wash basin in
@@ -982,7 +982,7 @@ addition to the various personal possessions of the occupants.
 0 0 0
 D2
 Ana Cadde~
-kapı~
+kapÄ±~
 1 -1 29138
 E
 possessions personal possession~
@@ -992,7 +992,7 @@ kept, and yes, you find a bedpan under one of the cots.
 ~
 S
 #29140
-Ağaç Evde~
+AÄŸaÃ§ Evde~
 You stand inside a log house. It is a simple one room house with a dirt
 floor and mud thatch chinking. There are no windows. The house is
 heated by stone fireplace. There are a few cots and a wash basin in
@@ -1002,7 +1002,7 @@ girl is crying here.
 0 0 0
 D0
 Ana Cadde~
-kapı~
+kapÄ±~
 1 -1 29138
 E
 possessions personal possession~
@@ -1028,16 +1028,16 @@ and hard at you.
 ~
 0 0 1
 D0
-Ağaç Ev~
-kapı~
+AÄŸaÃ§ Ev~
+kapÄ±~
 1 -1 29142
 D1
 Ana Cadde~
 ~
 0 -1 29138
 D2
-Ağaç Ev~
-kapı~
+AÄŸaÃ§ Ev~
+kapÄ±~
 1 -1 29143
 D3
 Ana Cadde~
@@ -1050,7 +1050,7 @@ technique and chinked with some kind of mud compound.
 ~
 S
 #29142
-Ağaç Evde~
+AÄŸaÃ§ Evde~
 You stand inside a log house. It is a simple one room house with a dirt
 floor and mud thatch chinking. There are no windows. The house is
 heated by stone fireplace. There are a few cots and a wash basin in
@@ -1060,7 +1060,7 @@ screams in terror at your entrance!
 0 0 0
 D2
 Ana Cadde~
-kapı~
+kapÄ±~
 1 -1 29141
 E
 possessions personal possession~
@@ -1076,7 +1076,7 @@ her husband.
 ~
 S
 #29143
-Ağaç Evde~
+AÄŸaÃ§ Evde~
 You stand inside a log house. It is a simple one room house with a dirt
 floor and mud thatch chinking. There are no windows. The house is
 heated by stone fireplace. There are a few cots and a wash basin in
@@ -1086,7 +1086,7 @@ girl is crying here.
 0 0 0
 D0
 Ana Cadde~
-kapı~
+kapÄ±~
 1 -1 29141
 E
 possessions personal possession~
@@ -1114,7 +1114,7 @@ of you is a huge sawmill.
 0 0 1
 D0
 The two story building~
-kapı~
+kapÄ±~
 1 -1 29146
 D1
 Ana Cadde~
@@ -1125,7 +1125,7 @@ Ana Cadde~
 ~
 0 -1 29152
 D3
-Değirmen~
+DeÄŸirmen~
 ~
 0 -1 29145
 E
@@ -1144,7 +1144,7 @@ sign mug~
 ~
 S
 #29145
-Değirmen~
+DeÄŸirmen~
 You stand on the hectic floor of a saw mill. Flowing water from a creek
  turns a huge paddle wheel, which drives through a series of belts a
 shaft upon which a 3' diameter saw blade is mounted. The blade spins at
@@ -1199,19 +1199,19 @@ flickering lamp lights the landing.
 0 0 0
 D0
 Oda~
-kapı~
+kapÄ±~
 1 29126 29150
 D1
 Oda~
-kapı~
+kapÄ±~
 1 29126 29151
 D2
 Oda~
-kapı~
+kapÄ±~
 1 29126 29148
 D3
 Oda~
-kapı~
+kapÄ±~
 1 29126 29149
 D5
 Down the stairs~
@@ -1223,7 +1223,7 @@ It is just an ordinary oil lamp.
 ~
 S
 #29148
-Küçük Oda~
+KÃ¼Ã§Ã¼k Oda~
 You are inside a small room in the Dunkeldorf inn. The interior is
 sparse and clean. There is a single bed, a washbasin, a bedpan, and an
 armoire. A simple glass window overlooks the town.
@@ -1231,7 +1231,7 @@ armoire. A simple glass window overlooks the town.
 0 0 0
 D0
 The landing~
-kapı~
+kapÄ±~
 1 29126 29147
 E
 yatak~
@@ -1248,7 +1248,7 @@ You open the armoire. It is empty except for an extra blanket.
 ~
 S
 #29149
-Küçük Oda~
+KÃ¼Ã§Ã¼k Oda~
 You are inside a small room in the Dunkeldorf inn. The interior is
 sparse and clean. There is a single bed, a washbasin, a bedpan, and an
 armoire. A simple glass window overlooks the town.
@@ -1256,7 +1256,7 @@ armoire. A simple glass window overlooks the town.
 0 0 0
 D1
 The landing~
-kapı~
+kapÄ±~
 1 29126 29147
 E
 yatak~
@@ -1273,7 +1273,7 @@ You open the armoire. It is empty except for an extra blanket.
 ~
 S
 #29150
-Küçük Oda~
+KÃ¼Ã§Ã¼k Oda~
 You are inside a small room in the Dunkeldorf inn. The interior is
 sparse and clean. There is a single bed, a washbasin, a bedpan, and an
 armoire. A simple glass window overlooks the town.
@@ -1281,7 +1281,7 @@ armoire. A simple glass window overlooks the town.
 0 0 0
 D2
 The landing~
-kapı~
+kapÄ±~
 1 29126 29147
 E
 yatak~
@@ -1298,7 +1298,7 @@ You open the armoire. It is empty except for an extra blanket.
 ~
 S
 #29151
-Küçük Oda~
+KÃ¼Ã§Ã¼k Oda~
 You are inside a small room in the Dunkeldorf inn. The interior is
 sparse and clean. There is a single bed, a washbasin, a bedpan, and an
 armoire. A simple glass window overlooks the town.
@@ -1306,7 +1306,7 @@ armoire. A simple glass window overlooks the town.
 0 0 0
 D3
 The landing~
-kapı~
+kapÄ±~
 1 29126 29147
 E
 yatak~
@@ -1361,7 +1361,7 @@ Ana Cadde~
 0 -1 29152
 S
 #29154
-Ahır~
+AhÄ±r~
 The stables of Dunkeldorf are very Spartan, consisting of only six
 stalls and one stable boy. The proprietor is busy brushing a mule while
 his hand is removing the tack and harness from another team. The floor
@@ -1394,7 +1394,7 @@ The sign says type list to see what I have today.
 ~
 S
 #29156
-Karanlık Mağarada~
+KaranlÄ±k MaÄŸarada~
 You are inside a dark cave which smells of rot. The little airflow here
 comes from a shaft that goes up and out. White cylindrical rocks lie on
 the floor in heaps. The walls of the cave appear regular. Rubble is
@@ -1402,7 +1402,7 @@ strewn about the cave mouth, which appears to be unstable.
 ~
 0 1 0
 D0
-Karanlık Mağara~
+KaranlÄ±k MaÄŸara~
 ~
 0 -1 29157
 D1
@@ -1428,17 +1428,17 @@ It looks like if you had a good shovel, you could move it.
 ~
 S
 #29157
-Karanlık Mağarada~
+KaranlÄ±k MaÄŸarada~
 You are inside a dark cave which smells of rot. White cylindrical rocks
 lie on the floor in heaps. The walls of the cave appear regular.
 ~
 0 1 0
 D0
-Karanlık Mağara~
+KaranlÄ±k MaÄŸara~
 ~
 0 -1 29158
 D2
-Karanlık Mağara~
+KaranlÄ±k MaÄŸara~
 ~
 1 -1 29156
 E
@@ -1452,17 +1452,17 @@ have been dug by man.
 ~
 S
 #29158
-Karanlık Mağarada~
+KaranlÄ±k MaÄŸarada~
 You are inside a dark cave which smells of rot. White cylindrical rocks
 lie on the floor in heaps. The walls of the cave appear regular.
 ~
 0 1 0
 D1
-Karanlık Mağara~
+KaranlÄ±k MaÄŸara~
 ~
 0 -1 29159
 D2
-Karanlık Mağara~
+KaranlÄ±k MaÄŸara~
 ~
 1 -1 29157
 E
@@ -1476,18 +1476,18 @@ have been dug by man.
 ~
 S
 #29159
-Karanlık Mağarada~
+KaranlÄ±k MaÄŸarada~
 You are inside a dark cave which smells of rot. White cylindrical rocks
 lie on the floor in heaps. The walls of the cave appear regular. There
 are markings on the wall here.
 ~
 0 1 0
 D1
-Karanlık Mağara~
+KaranlÄ±k MaÄŸara~
 ~
 0 -1 29160
 D3
-Karanlık Mağara~
+KaranlÄ±k MaÄŸara~
 ~
 1 -1 29158
 E
@@ -1506,7 +1506,7 @@ SHALL BEST THE GUARDIAN AND REMOVE THE SCOURGE
 ~
 S
 #29160
-Karanlık Mağarada~
+KaranlÄ±k MaÄŸarada~
 You are inside a cave. Light streams in through a tight opening to the
 north. Beyond you can see a bright green meadow. Your spirits lift at
 the thought of getting out of the cave.
@@ -1517,12 +1517,12 @@ The green meadow~
 ~
 0 -1 29161
 D3
-Karanlık Mağara~
+KaranlÄ±k MaÄŸara~
 ~
 1 -1 29159
 S
 #29161
-Çayırdaki Tapınak~
+Ã‡ayÄ±rdaki TapÄ±nak~
 You have squeezed from the narrow southern cave into a bright green
 meadow amid a beautiful open young forest. You walk in the grass
 towards a white marble chapel, made of seven pillars and open to the
@@ -1532,12 +1532,12 @@ keening sound.
 ~
 0 8192 2
 D2
-Karanlık Mağara~
+KaranlÄ±k MaÄŸara~
 ~
 0 -1 29160
 S
 #29162
-Cadılar Toplantısının Dış Çemberi~
+CadÄ±lar ToplantÄ±sÄ±nÄ±n DÄ±ÅŸ Ã‡emberi~
 You stand in a circular clearing, bounded by brush on the outside, and
 with trees in the center. The twisted trees of the center grow
 exceptionally high here, and blot out the sky in a black canopy. The
@@ -1547,15 +1547,15 @@ bright fire roars, and reaches for the treetops in a hellish blaze.
 ~
 0 1 2
 D0
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29163
 D1
-İç Çember~
+Ä°Ã§ Ã‡ember~
 ~
 0 -1 29169
 D2
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29178
 D3
@@ -1563,16 +1563,16 @@ The underbrush~
 brush underbrush~
 1 29120 29131
 E
-ağaçlar merkez~
+aÄŸaÃ§lar merkez~
 You stare at the trees in the center, and in your mind's eye, you
 connect them to form a star.
 ~
 E
-tozlu gümüşi parlaklık~
+tozlu gÃ¼mÃ¼ÅŸi parlaklÄ±k~
 The metal tastes like silver
 ~
 E
-ateş~
+ateÅŸ~
 You stare hypnotically into the dancing flames. Images form in the
 fires. Images of enemies. Dead evil enemies you have killed. Their
 faces twist in horror as their bodies burn, regenerate, and burn again,
@@ -1584,7 +1584,7 @@ treetops. Gratefully you wipe the guano from you eye.
 ~
 S
 #29163
-Cadılar Toplantısının Dış Çemberi~
+CadÄ±lar ToplantÄ±sÄ±nÄ±n DÄ±ÅŸ Ã‡emberi~
 You stand in a circular clearing, bounded by brush on the outside, and
 with trees in the center. The twisted trees of the center grow
 exceptionally high here, and blot out the sky in a black canopy. The
@@ -1594,28 +1594,28 @@ bright fire roars, and reaches for the treetops in a hellish blaze.
 ~
 0 1 2
 D0
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29175
 D1
-İç Çember~
+Ä°Ã§ Ã‡ember~
 ~
 0 -1 29166
 D2
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29162
 E
-ağaçlar merkez~
+aÄŸaÃ§lar merkez~
 You stare at the trees in the center, and in your mind's eye, you
 connect them to form a star.
 ~
 E
-tozlu gümüşi parlaklık~
+tozlu gÃ¼mÃ¼ÅŸi parlaklÄ±k~
 The metal tastes like silver
 ~
 E
-ateş~
+ateÅŸ~
 You stare hypnotically into the dancing flames. Images form in the
 fires. Images of enemies. Dead evil enemies you have killed. Their
 faces twist in horror as their bodies burn, regenerate, and burn again,
@@ -1626,7 +1626,7 @@ treetops. Gratefully you wipe the guano from you eye.
 ~
 S
 #29164
-Cadılar Toplantısının Dış Çemberi~
+CadÄ±lar ToplantÄ±sÄ±nÄ±n DÄ±ÅŸ Ã‡emberi~
 You stand in a circular clearing, bounded by brush on the outside, and
 with trees in the center. The twisted trees of the center grow
 exceptionally high here, and blot out the sky in a black canopy. The
@@ -1636,29 +1636,29 @@ bright fire roars, and reaches for the treetops in a hellish blaze.
 ~
 0 1 2
 D1
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29165
 D2
-İç Çember~
+Ä°Ã§ Ã‡ember~
 ~
 0 -1 29166
 D3
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29175
 E
-ağaçlar merkez~
+aÄŸaÃ§lar merkez~
 You stare at the trees in the center, and in your mind's eye, you
 connect them to form a star.
 ~
 E
-tozlu gümüşi parlaklık~
+tozlu gÃ¼mÃ¼ÅŸi parlaklÄ±k~
 The metal tastes like silver
 
 ~
 E
-ateş~
+ateÅŸ~
 You stare hypnotically into the dancing flames. Images form in the
 fires. Images of enemies. Dead evil enemies you have killed. Their
 faces twist in horror as their bodies burn, regenerate, and burn again,
@@ -1669,7 +1669,7 @@ treetops. Gratefully you wipe the guano from you eye.
 ~
 S
 #29165
-Cadılar Toplantısının Dış Çemberi~
+CadÄ±lar ToplantÄ±sÄ±nÄ±n DÄ±ÅŸ Ã‡emberi~
 You stand in a circular clearing, bounded by brush on the outside, and
 with trees in the center. The twisted trees of the center grow
 exceptionally high here, and blot out the sky in a black canopy. The
@@ -1679,28 +1679,28 @@ bright fire roars, and reaches for the treetops in a hellish blaze.
 ~
 0 1 2
 D1
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29176
 D2
-İç Çember~
+Ä°Ã§ Ã‡ember~
 ~
 0 -1 29167
 D3
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29164
 E
-ağaçlar merkez~
+aÄŸaÃ§lar merkez~
 You stare at the trees in the center, and in your mind's eye, you
 connect them to form a star.
 ~
 E
-tozlu gümüşi parlaklık~
+tozlu gÃ¼mÃ¼ÅŸi parlaklÄ±k~
 The metal tastes like silver
 ~
 E
-ateş~
+ateÅŸ~
 You stare hypnotically into the dancing flames. Images form in the
 fires. Images of enemies. Dead evil enemies you have killed. Their
 faces twist in horror as their bodies burn, regenerate, and burn again,
@@ -1711,7 +1711,7 @@ treetops. Gratefully you wipe the guano from you eye.
 ~
 S
 #29166
-Cadılar Toplantısının İç Çemberi~
+CadÄ±lar ToplantÄ±sÄ±nÄ±n Ä°Ã§ Ã‡emberi~
 You stand in the inner circle of coven, amid the trees. The ground and
 trees here are scorched, from the raging fire in the pit below you, at
 the center of the circle. Across the way you see a warlock toss
@@ -1721,33 +1721,33 @@ and beckons to you.
 ~
 0 1 3
 D0
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29164
 D1
-İç Çember~
+Ä°Ã§ Ã‡ember~
 ~
 0 -1 29167
 D2
-İç Çember~
+Ä°Ã§ Ã‡ember~
 ~
 0 -1 29169
 D3
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29163
 E
-ağaçlar merkez~
+aÄŸaÃ§lar merkez~
 You stare at the trees in the center, and in your mind's eye, you
 connect them to form a star.
 ~
 E
-yumruk büyüklüğünde birşey~
+yumruk bÃ¼yÃ¼klÃ¼ÄŸÃ¼nde birÅŸey~
 You carefully observe a second toss. The object appears to be a piece
 of meat of some kind.
 ~
 E
-ateş~
+ateÅŸ~
 You stare hypnotically into the dancing flames. Images form in the
 fires. Images of enemies. Dead evil enemies you have killed. Their
 faces twist in horror as their bodies burn, regenerate, and burn again,
@@ -1758,7 +1758,7 @@ treetops. Gratefully you wipe the guano from you eye.
 ~
 S
 #29167
-Cadılar Toplantısının İç Çemberi~
+CadÄ±lar ToplantÄ±sÄ±nÄ±n Ä°Ã§ Ã‡emberi~
 You stand in the inner circle of coven, amid the trees. The ground and
 trees here are scorched, from the raging fire in the pit below you, at
 the center of the circle. Across the way you see a warlock toss
@@ -1768,33 +1768,33 @@ and beckons to you.
 ~
 0 1 3
 D0
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29165
 D1
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29168
 D2
-İç Çember~
+Ä°Ã§ Ã‡ember~
 ~
 0 -1 29170
 D3
-İç Çember~
+Ä°Ã§ Ã‡ember~
 ~
 0 -1 29166
 E
-ağaçlar merkez~
+aÄŸaÃ§lar merkez~
 You stare at the trees in the center, and in your mind's eye, you
 connect them to form a star.
 ~
 E
-yumruk büyüklüğünde birşey~
+yumruk bÃ¼yÃ¼klÃ¼ÄŸÃ¼nde birÅŸey~
 You carefully observe a second toss. The object appears to be a piece
 of meat of some kind.
 ~
 E
-ateş~
+ateÅŸ~
 You stare hypnotically into the dancing flames. Images form in the
 fires. Images of enemies. Dead evil enemies you have killed. Their
 faces twist in horror as their bodies burn, regenerate, and burn again,
@@ -1805,7 +1805,7 @@ treetops. Gratefully you wipe the guano from you eye.
 ~
 S
 #29168
-Cadılar Toplantısının Dış Çemberi~
+CadÄ±lar ToplantÄ±sÄ±nÄ±n DÄ±ÅŸ Ã‡emberi~
 You stand in a circular clearing, bounded by brush on the outside, and
 with trees in the center. The twisted trees of the center grow
 exceptionally high here, and blot out the sky in a black canopy. The
@@ -1815,28 +1815,28 @@ bright fire roars, and reaches for the treetops in a hellish blaze.
 ~
 0 1 2
 D0
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29176
 D2
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29171
 D3
-İç Çember~
+Ä°Ã§ Ã‡ember~
 ~
 0 -1 29167
 E
-ağaçlar merkez~
+aÄŸaÃ§lar merkez~
 You stare at the trees in the center, and in your mind's eye, you
 connect them to form a star.
 ~
 E
-tozlu gümüşi parlaklık~
+tozlu gÃ¼mÃ¼ÅŸi parlaklÄ±k~
 The metal tastes like silver
 ~
 E
-ateş~
+ateÅŸ~
 You stare hypnotically into the dancing flames. Images form in the
 fires. Images of enemies. Dead evil enemies you have killed. Their
 faces twist in horror as their bodies burn, regenerate, and burn again,
@@ -1847,7 +1847,7 @@ treetops. Gratefully you wipe the guano from you eye.
 ~
 S
 #29169
-Cadılar Toplantısının İç Çemberi~
+CadÄ±lar ToplantÄ±sÄ±nÄ±n Ä°Ã§ Ã‡emberi~
 You stand in the inner circle of coven, amid the trees. The ground and
 trees here are scorched, from the raging fire in the pit below you, at
 the center of the circle. Across the way you see a warlock toss
@@ -1857,37 +1857,37 @@ and beckons to you.
 ~
 0 1|4 3
 D0
-İç Çember~
+Ä°Ã§ Ã‡ember~
 ~
 0 -1 29166
 D1
-İç Çember~
+Ä°Ã§ Ã‡ember~
 ~
 0 -1 29170
 D2
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29172
 D3
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29162
 D5
-Ateşin İçi~
+AteÅŸin Ä°Ã§i~
 ~
 0 -1 29174
 E
-ağaçlar merkez~
+aÄŸaÃ§lar merkez~
 You stare at the trees in the center, and in your mind's eye, you
 connect them to form a star.
 ~
 E
-yumruk büyüklüğünde birşey~
+yumruk bÃ¼yÃ¼klÃ¼ÄŸÃ¼nde birÅŸey~
 You carefully observe a second toss. The object appears to be a piece
 of meat of some kind.
 ~
 E
-ateş~
+ateÅŸ~
 You stare hypnotically into the dancing flames. Images form in the
 fires. Images of enemies. Dead evil enemies you have killed. Their
 faces twist in horror as their bodies burn, regenerate, and burn again,
@@ -1898,7 +1898,7 @@ treetops. Gratefully you wipe the guano from you eye.
 ~
 S
 #29170
-Cadılar Toplantısının İç Çemberi~
+CadÄ±lar ToplantÄ±sÄ±nÄ±n Ä°Ã§ Ã‡emberi~
 You stand in the inner circle of coven, amid the trees. The ground and
 trees here are scorched, from the raging fire in the pit below you, at
 the center of the circle. Across the way you see a warlock toss
@@ -1908,33 +1908,33 @@ and beckons to you.
 ~
 0 1 3
 D0
-İç Çember~
+Ä°Ã§ Ã‡ember~
 ~
 0 -1 29167
 D1
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29171
 D2
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29173
 D3
-İç Çember~
+Ä°Ã§ Ã‡ember~
 ~
 0 -1 29169
 E
-ağaçlar merkez~
+aÄŸaÃ§lar merkez~
 You stare at the trees in the center, and in your mind's eye, you
 connect them to form a star.
 ~
 E
-yumruk büyüklüğünde birşey~
+yumruk bÃ¼yÃ¼klÃ¼ÄŸÃ¼nde birÅŸey~
 You carefully observe a second toss. The object appears to be a piece
 of meat of some kind.
 ~
 E
-ateş~
+ateÅŸ~
 You stare hypnotically into the dancing flames. Images form in the
 fires. Images of enemies. Dead evil enemies you have killed. Their
 faces twist in horror as their bodies burn, regenerate, and burn again,
@@ -1945,7 +1945,7 @@ treetops. Gratefully you wipe the guano from you eye.
 ~
 S
 #29171
-Cadılar Toplantısının Dış Çemberi~
+CadÄ±lar ToplantÄ±sÄ±nÄ±n DÄ±ÅŸ Ã‡emberi~
 You stand in a circular clearing, bounded by brush on the outside, and
 with trees in the center. The twisted trees of the center grow
 exceptionally high here, and blot out the sky in a black canopy. The
@@ -1955,28 +1955,28 @@ bright fire roars, and reaches for the treetops in a hellish blaze.
 ~
 0 1 2
 D0
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29168
 D2
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29177
 D3
-İç Çember~
+Ä°Ã§ Ã‡ember~
 ~
 0 -1 29170
 E
-ağaçlar merkez~
+aÄŸaÃ§lar merkez~
 You stare at the trees in the center, and in your mind's eye, you
 connect them to form a star.
 ~
 E
-tozlu gümüşi parlaklık~
+tozlu gÃ¼mÃ¼ÅŸi parlaklÄ±k~
 The metal tastes like silver
 ~
 E
-ateş~
+ateÅŸ~
 You stare hypnotically into the dancing flames. Images form in the
 fires. Images of enemies. Dead evil enemies you have killed. Their
 faces twist in horror as their bodies burn, regenerate, and burn again,
@@ -1987,7 +1987,7 @@ treetops. Gratefully you wipe the guano from you eye.
 ~
 S
 #29172
-Cadılar Toplantısının Dış Çemberi~
+CadÄ±lar ToplantÄ±sÄ±nÄ±n DÄ±ÅŸ Ã‡emberi~
 You stand in a circular clearing, bounded by brush on the outside, and
 with trees in the center. The twisted trees of the center grow
 exceptionally high here, and blot out the sky in a black canopy. The
@@ -1997,28 +1997,28 @@ bright fire roars, and reaches for the treetops in a hellish blaze.
 ~
 0 1 2
 D0
-İç Çember~
+Ä°Ã§ Ã‡ember~
 ~
 0 -1 29169
 D1
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29173
 D3
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29178
 E
-ağaçlar merkez~
+aÄŸaÃ§lar merkez~
 You stare at the trees in the center, and in your mind's eye, you
 connect them to form a star.
 ~
 E
-tozlu gümüşi parlaklık~
+tozlu gÃ¼mÃ¼ÅŸi parlaklÄ±k~
 The metal tastes like silver
 ~
 E
-ateş~
+ateÅŸ~
 You stare hypnotically into the dancing flames. Images form in the
 fires. Images of enemies. Dead evil enemies you have killed. Their
 faces twist in horror as their bodies burn, regenerate, and burn again,
@@ -2029,7 +2029,7 @@ treetops. Gratefully you wipe the guano from you eye.
 ~
 S
 #29173
-Cadılar Toplantısının Dış Çemberi~
+CadÄ±lar ToplantÄ±sÄ±nÄ±n DÄ±ÅŸ Ã‡emberi~
 You stand in a circular clearing, bounded by brush on the outside, and
 with trees in the center. The twisted trees of the center grow
 exceptionally high here, and blot out the sky in a black canopy. The
@@ -2039,28 +2039,28 @@ bright fire roars, and reaches for the treetops in a hellish blaze.
 ~
 0 1 2
 D0
-İç Çember~
+Ä°Ã§ Ã‡ember~
 ~
 0 -1 29170
 D1
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29177
 D3
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29172
 E
-ağaçlar merkez~
+aÄŸaÃ§lar merkez~
 You stare at the trees in the center, and in your mind's eye, you
 connect them to form a star.
 ~
 E
-tozlu gümüşi parlaklık~
+tozlu gÃ¼mÃ¼ÅŸi parlaklÄ±k~
 The metal tastes like silver
 ~
 E
-ateş~
+ateÅŸ~
 You stare hypnotically into the dancing flames. Images form in the
 fires. Images of enemies. Dead evil enemies you have killed. Their
 faces twist in horror as their bodies burn, regenerate, and burn again,
@@ -2071,7 +2071,7 @@ treetops. Gratefully you wipe the guano from you eye.
 ~
 S
 #29174
-Ateşin İçi~
+AteÅŸin Ä°Ã§i~
 You have plunged into the raging flames. You feel your equipment and
 skin start to sear, but just as you have given up hope, a warm feeling
 fills your body and mind, and eases your pain. In you head you hear
@@ -2083,12 +2083,12 @@ and warmth vanish.
 ~
 0 1|8|8192 0
 D4
-İç Çember~
+Ä°Ã§ Ã‡ember~
 alev bariyeri~
 1 29127 29169
 S
 #29175
-Cadılar Toplantısının Dış Çemberi~
+CadÄ±lar ToplantÄ±sÄ±nÄ±n DÄ±ÅŸ Ã‡emberi~
 You stand in a circular clearing, bounded by brush on the outside, and
 with trees in the center. The twisted trees of the center grow
 exceptionally high here, and blot out the sky in a black canopy. The
@@ -2098,20 +2098,20 @@ bright fire roars, and reaches for the treetops in a hellish blaze.
 ~
 0 1 3
 D1
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29164
 D2
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29163
 E
-ağaçlar merkez~
+aÄŸaÃ§lar merkez~
 You stare at the trees in the center, and in your mind's eye, you
 connect them to form a star.
 ~
 E
-ateş~
+ateÅŸ~
 You stare hypnotically into the dancing flames. Images form in the
 fires. Images of enemies. Dead evil enemies you have killed. Their
 faces twist in horror as their bodies burn, regenerate, and burn again,
@@ -2122,7 +2122,7 @@ treetops. Gratefully you wipe the guano from you eye.
 ~
 S
 #29176
-Cadılar Toplantısının Dış Çemberi~
+CadÄ±lar ToplantÄ±sÄ±nÄ±n DÄ±ÅŸ Ã‡emberi~
 You stand in a circular clearing, bounded by brush on the outside, and
 with trees in the center. The twisted trees of the center grow
 exceptionally high here, and blot out the sky in a black canopy. The
@@ -2132,20 +2132,20 @@ bright fire roars, and reaches for the treetops in a hellish blaze.
 ~
 0 1 3
 D2
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29168
 D3
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29165
 E
-ağaçlar merkez~
+aÄŸaÃ§lar merkez~
 You stare at the trees in the center, and in your mind's eye, you
 connect them to form a star.
 ~
 E
-ateş~
+ateÅŸ~
 You stare hypnotically into the dancing flames. Images form in the
 fires. Images of enemies. Dead evil enemies you have killed. Their
 faces twist in horror as their bodies burn, regenerate, and burn again,
@@ -2156,7 +2156,7 @@ treetops. Gratefully you wipe the guano from you eye.
 ~
 S
 #29177
-Cadılar Toplantısının Dış Çemberi~
+CadÄ±lar ToplantÄ±sÄ±nÄ±n DÄ±ÅŸ Ã‡emberi~
 You stand in a circular clearing, bounded by brush on the outside, and
 with trees in the center. The twisted trees of the center grow
 exceptionally high here, and blot out the sky in a black canopy. The
@@ -2166,20 +2166,20 @@ bright fire roars, and reaches for the treetops in a hellish blaze.
 ~
 0 1 3
 D0
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29171
 D3
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29173
 E
-ağaçlar merkez~
+aÄŸaÃ§lar merkez~
 You stare at the trees in the center, and in your mind's eye, you
 connect them to form a star.
 ~
 E
-ateş~
+ateÅŸ~
 You stare hypnotically into the dancing flames. Images form in the
 fires. Images of enemies. Dead evil enemies you have killed. Their
 faces twist in horror as their bodies burn, regenerate, and burn again,
@@ -2190,7 +2190,7 @@ treetops. Gratefully you wipe the guano from you eye.
 ~
 S
 #29178
-Cadılar Toplantısının Dış Çemberi~
+CadÄ±lar ToplantÄ±sÄ±nÄ±n DÄ±ÅŸ Ã‡emberi~
 You stand in a circular clearing, bounded by brush on the outside, and
 with trees in the center. The twisted trees of the center grow
 exceptionally high here, and blot out the sky in a black canopy. The
@@ -2200,20 +2200,20 @@ bright fire roars, and reaches for the treetops in a hellish blaze.
 ~
 0 1 3
 D0
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29162
 D1
-Dış Çember~
+DÄ±ÅŸ Ã‡ember~
 ~
 0 -1 29172
 E
-ağaçlar merkez~
+aÄŸaÃ§lar merkez~
 You stare at the trees in the center, and in your mind's eye, you
 connect them to form a star.
 ~
 E
-ateş~
+ateÅŸ~
 You stare hypnotically into the dancing flames. Images form in the
 fires. Images of enemies. Dead evil enemies you have killed. Their
 faces twist in horror as their bodies burn, regenerate, and burn again,

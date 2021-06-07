@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açık kaynak Türkçe Mud projesidir.                        *
- * Oyun geliştirmesi Jai ve Maru tarafından yönetilmektedir.               *
- * Unutulmaması gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -18,6 +18,7 @@
 #include <sys/time.h>
 #endif
 #include <stdio.h>
+#include <wchar.h>
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -25,21 +26,21 @@
 #include "interp.h"
 
 
-void do_zar (CHAR_DATA * ch, char *argument)
+void do_zar (CHAR_DATA * ch, wchar_t *argument)
 {
-	char arg1[MAX_INPUT_LENGTH];
-	char arg2[MAX_INPUT_LENGTH];
+	wchar_t arg1[MAX_INPUT_LENGTH];
+	wchar_t arg2[MAX_INPUT_LENGTH];
 	int zar_tipi, ch_zar, mekanci_zar;
 	long yatirilan,kazanc;
 
 	if (!IS_SET(ch->in_room->room_flags, ROOM_KUMAR))
     {
-      printf_to_char (ch,"Kumarhanede değilsin.\n\r");
+      printf_to_char (ch, L"Kumarhanede deÄŸilsin.\n\r");
       return;
     }
 	if (ch->silver < 5)
     {
-        printf_to_char (ch,"Zar oynamak için en az 5 akçen ihtiyacın var.\n\r");
+        printf_to_char (ch, L"Zar oynamak iÃ§in en az 5 akÃ§en ihtiyacÄ±n var.\n\r");
         return;
     }
 
@@ -48,49 +49,49 @@ void do_zar (CHAR_DATA * ch, char *argument)
 
 	if( arg1[0]=='\0' )
 	{
-		printf_to_char (ch,"Hangi zardan ne kadar oynayacaksın? Mevcutları görmek için {Rzar liste{x yaz.\n\r");
+		printf_to_char (ch, L"Hangi zardan ne kadar oynayacaksÄ±n? MevcutlarÄ± gÃ¶rmek iÃ§in {Rzar liste{x yaz.\n\r");
         return;
 	}
-	if(!str_cmp(arg1,"liste"))
+	if(!wcscasecmp(arg1, L"liste"))
 	{
-		printf_to_char (ch,"Zar türleri:\n\r");
-		printf_to_char (ch,"Zar Tipi  Açıklama\n\r");
-		printf_to_char (ch,"--------  ------------\n\r");
-		printf_to_char (ch,"altı      Altılık zar\n\r");
-		printf_to_char (ch,"on        Onluk zar\n\r");
-		printf_to_char (ch,"yirmi     Yirmilik zar\n\r");
-		printf_to_char (ch,"yüz       Yüzlük zar\n\r\n\r");
-		printf_to_char (ch,"Oynamak için {Gzar <zar_tipi> <yatırılan_akçe>\n\r");
+		printf_to_char (ch, L"Zar tÃ¼rleri:\n\r");
+		printf_to_char (ch, L"Zar Tipi  AÃ§Ä±klama\n\r");
+		printf_to_char (ch, L"--------  ------------\n\r");
+		printf_to_char (ch, L"altÄ±      AltÄ±lÄ±k zar\n\r");
+		printf_to_char (ch, L"on        Onluk zar\n\r");
+		printf_to_char (ch, L"yirmi     Yirmilik zar\n\r");
+		printf_to_char (ch, L"yÃ¼z       YÃ¼zlÃ¼k zar\n\r\n\r");
+		printf_to_char (ch, L"Oynamak iÃ§in {Gzar <zar_tipi> <yatÄ±rÄ±lan_akÃ§e>\n\r");
 		return;
 	}
 	if( arg2[0]=='\0' )
 	{
-		printf_to_char (ch,"Hangi zardan ne kadar oynayacaksın? Mevcutları görmek için {Rzar liste{x yaz.\n\r");
+		printf_to_char (ch, L"Hangi zardan ne kadar oynayacaksÄ±n? MevcutlarÄ± gÃ¶rmek iÃ§in {Rzar liste{x yaz.\n\r");
         return;
 	}
 	zar_tipi=0;
-	if(!str_cmp(arg1,"altı"))
+	if(!wcscasecmp(arg1, L"altÄ±"))
 		zar_tipi=6;
-	else if(!str_cmp(arg1,"on"))
+	else if(!wcscasecmp(arg1, L"on"))
 		zar_tipi=10;
-	else if(!str_cmp(arg1,"yirmi"))
+	else if(!wcscasecmp(arg1, L"yirmi"))
 		zar_tipi=20;
-	else if(!str_cmp(arg1,"yüz"))
+	else if(!wcscasecmp(arg1, L"yÃ¼z"))
 		zar_tipi=100;
 	else
 	{
-		printf_to_char (ch,"Hangi zardan ne kadar oynayacaksın? Mevcutları görmek için {Rzar liste{x yaz.\n\r");
+		printf_to_char (ch, L"Hangi zardan ne kadar oynayacaksÄ±n? MevcutlarÄ± gÃ¶rmek iÃ§in {Rzar liste{x yaz.\n\r");
         return;
 	}
 	yatirilan=advatoi (arg2);
 	if(ch->silver<yatirilan)
 	{
-		send_to_char ("Bu oyun lafla değil akçeyle oynanır!\n\r", ch);
+		send_to_char ( L"Bu oyun lafla deÄŸil akÃ§eyle oynanÄ±r!\n\r", ch);
         	return;
 	}
 	if( (yatirilan>50000)||(yatirilan<5) )
 	{
-		send_to_char ("Zar en az 5, en çok 50,000 akçeyle oynanır.\n\r", ch);
+		send_to_char ( L"Zar en az 5, en Ã§ok 50,000 akÃ§eyle oynanÄ±r.\n\r", ch);
         return;
 	}
 	ch->silver -= yatirilan;
@@ -104,19 +105,19 @@ void do_zar (CHAR_DATA * ch, char *argument)
 	}
 	WAIT_STATE (ch, PULSE_VIOLENCE);
 
-	printf_to_char(ch,"Mekancı %d yüzlü bir zarı sallayıp atıyor... %d geldi.\n\r",zar_tipi,mekanci_zar);
-	printf_to_char(ch,"%d yüzlü bir zarı sallayıp atıyorsun... %d geldi.\n\r",zar_tipi,ch_zar);
-    act ("$n ve mekancı ellerindeki zarları sallayarak masaya atıyorlar.\n\r", ch,NULL,NULL,TO_ROOM);
+	printf_to_char(ch,L"MekancÄ± %d yÃ¼zlÃ¼ bir zarÄ± sallayÄ±p atÄ±yor... %d geldi.\n\r",zar_tipi,mekanci_zar);
+	printf_to_char(ch,L"%d yÃ¼zlÃ¼ bir zarÄ± sallayÄ±p atÄ±yorsun... %d geldi.\n\r",zar_tipi,ch_zar);
+    act ( L"$n ve mekancÄ± ellerindeki zarlarÄ± sallayarak masaya atÄ±yorlar.\n\r", ch,NULL,NULL,TO_ROOM);
 	if (mekanci_zar > ch_zar)
     {
-        printf_to_char (ch,"Kaybettin.\n\r");
-        act ("$n kaybetti.", ch, NULL, NULL, TO_ROOM);
+        printf_to_char (ch, L"Kaybettin.\n\r");
+        act ( L"$n kaybetti.", ch, NULL, NULL, TO_ROOM);
         return;
     }
-	/* ch kazandı */
+	/* ch kazandÄ± */
 	kazanc=2*yatirilan;
-    printf_to_char (ch, "%d akçe KAZANDIN.\n\r", yatirilan);
-    act ("$n zar attı ve kazandı. Vay beee...\n\r", ch, NULL, NULL, TO_ROOM);
+    printf_to_char (ch, L"%d akÃ§e KAZANDIN.\n\r", yatirilan);
+    act ( L"$n zar attÄ± ve kazandÄ±. Vay beee...\n\r", ch, NULL, NULL, TO_ROOM);
     ch->silver += kazanc;
     return;
 }

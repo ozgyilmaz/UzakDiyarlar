@@ -1,9 +1,9 @@
 #AREADATA
 Filename cora_vadisi.are~
-Name Çora Vadisi~
+Name Ã‡ora Vadisi~
 Builder Hatchet~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 20
 Minvnum 7800
@@ -16,151 +16,151 @@ END
 
 #NEW_MOBILES
 #7800
-köpek doberman~
+kÃ¶pek doberman~
 bir doberman~
-Büyükçe bir köpek burada, vadide geziniyor.
+BÃ¼yÃ¼kÃ§e bir kÃ¶pek burada, vadide geziniyor.
 ~
-Bu doberman neredeyse gördüğün en büyük köpek olabilir. Kahverengi lekeli,
-yeşilimsi bir ceketi var. Şekli, renkleri ile birlikte, bu dobermanı hareket
-ettikçe neredeyse farkedilemez hale getiriyor.
+Bu doberman neredeyse gÃ¶rdÃ¼ÄŸÃ¼n en bÃ¼yÃ¼k kÃ¶pek olabilir. Kahverengi lekeli,
+yeÅŸilimsi bir ceketi var. Åekli, renkleri ile birlikte, bu dobermanÄ± hareket
+ettikÃ§e neredeyse farkedilemez hale getiriyor.
 ~
 dog~
 AGH P 5
 #7801
-vadi çorası~
-bir vadi çorası~
-Bir vadi çorası senin varlığın yüzünden ihtiyatla etrafta geziniyor.
+vadi Ã§orasÄ±~
+bir vadi Ã§orasÄ±~
+Bir vadi Ã§orasÄ± senin varlÄ±ÄŸÄ±n yÃ¼zÃ¼nden ihtiyatla etrafta geziniyor.
 ~
-Bu çora neredeyse senin kadar uzun, ama çok daha ince ve çevik.
-Gözlerindeki nefreti görüp ve bakışlarından kaçınmaya çalışıyorsun.
-Gergin vücudu avını takip eden bir dağ aslanı gibi sana saldırmaya hazır
-görünüyor. Onu fark ettiğini görüyor ve sessizce kayboluyor.
+Bu Ã§ora neredeyse senin kadar uzun, ama Ã§ok daha ince ve Ã§evik.
+GÃ¶zlerindeki nefreti gÃ¶rÃ¼p ve bakÄ±ÅŸlarÄ±ndan kaÃ§Ä±nmaya Ã§alÄ±ÅŸÄ±yorsun.
+Gergin vÃ¼cudu avÄ±nÄ± takip eden bir daÄŸ aslanÄ± gibi sana saldÄ±rmaya hazÄ±r
+gÃ¶rÃ¼nÃ¼yor. Onu fark ettiÄŸini gÃ¶rÃ¼yor ve sessizce kayboluyor.
 ~
-çora~
+Ã§ora~
 ACFGH P 8
 #7802
-vadi çorası~
-bir vadi çorası~
-Dişi bir vadi çorası, uzun çimenler arasında dans edercesine etrafta dolaşıyor.
+vadi Ã§orasÄ±~
+bir vadi Ã§orasÄ±~
+DiÅŸi bir vadi Ã§orasÄ±, uzun Ã§imenler arasÄ±nda dans edercesine etrafta dolaÅŸÄ±yor.
 ~
-Bu çora neredeyse senin kadar uzun, ama çok daha ince ve çevik.
-Sana dik dik bakıyor ve onu daha fazla göremeden çabucak kayboluyor.
+Bu Ã§ora neredeyse senin kadar uzun, ama Ã§ok daha ince ve Ã§evik.
+Sana dik dik bakÄ±yor ve onu daha fazla gÃ¶remeden Ã§abucak kayboluyor.
 ~
-çora~
+Ã§ora~
 ACFGH P 8
 #7803
-nöbet tutan vadi çorası nöbetçi~
-nöbet tutan bir vadi çorası~
-Burada nöbet tutan bir vadi çorası seni fark eder etmez hızlıca saldırıyor!
+nÃ¶bet tutan vadi Ã§orasÄ± nÃ¶betÃ§i~
+nÃ¶bet tutan bir vadi Ã§orasÄ±~
+Burada nÃ¶bet tutan bir vadi Ã§orasÄ± seni fark eder etmez hÄ±zlÄ±ca saldÄ±rÄ±yor!
 ~
-Bu çora neredeyse senin kadar uzun, ama çok daha ince ve çevik.
-Sana tehditkar bir şekilde saldırıyor!
+Bu Ã§ora neredeyse senin kadar uzun, ama Ã§ok daha ince ve Ã§evik.
+Sana tehditkar bir ÅŸekilde saldÄ±rÄ±yor!
 ~
-çora~
+Ã§ora~
 ABF P 7
 #7804
-nöbet tutan vadi çorası nöbetçi~
-nöbet tutan bir vadi çorası~
-Burada nöbet tutan bir vadi çorası seni fark eder etmez hızlıca saldırıyor!
+nÃ¶bet tutan vadi Ã§orasÄ± nÃ¶betÃ§i~
+nÃ¶bet tutan bir vadi Ã§orasÄ±~
+Burada nÃ¶bet tutan bir vadi Ã§orasÄ± seni fark eder etmez hÄ±zlÄ±ca saldÄ±rÄ±yor!
 ~
-Bu çora neredeyse senin kadar uzun, ama çok daha ince ve çevik.
-Sana tehditkar bir şekilde saldırıyor!
+Bu Ã§ora neredeyse senin kadar uzun, ama Ã§ok daha ince ve Ã§evik.
+Sana tehditkar bir ÅŸekilde saldÄ±rÄ±yor!
 ~
-çora~
+Ã§ora~
 ABF P 7
 #7805
-gözcülük yapan vadi çorası~
-gözcülük yapan bir vadi çorası~
-Gözcülük yapan bir vadi çorası, senin gibi davetsiz konukların izini sürüyor!
+gÃ¶zcÃ¼lÃ¼k yapan vadi Ã§orasÄ±~
+gÃ¶zcÃ¼lÃ¼k yapan bir vadi Ã§orasÄ±~
+GÃ¶zcÃ¼lÃ¼k yapan bir vadi Ã§orasÄ±, senin gibi davetsiz konuklarÄ±n izini sÃ¼rÃ¼yor!
 ~
-Davetsiz girişin üzerine sana kendinden emin bir şekilde saldırıyor!
+Davetsiz giriÅŸin Ã¼zerine sana kendinden emin bir ÅŸekilde saldÄ±rÄ±yor!
 ~
-çora~
+Ã§ora~
 ACFG P 6
 #7806
-vadi çorası~
-bir vadi çorası~
-Bir vadi çorası burada kendi işleriyle uğraşıyor.
+vadi Ã§orasÄ±~
+bir vadi Ã§orasÄ±~
+Bir vadi Ã§orasÄ± burada kendi iÅŸleriyle uÄŸraÅŸÄ±yor.
 ~
-Şu anda bazı angarya işler yapıyor ve onun yolunda olduğunuz zamanlar haricinde
-burada davetsiz olmanızı görmezden geliyor.
+Åu anda bazÄ± angarya iÅŸler yapÄ±yor ve onun yolunda olduÄŸunuz zamanlar haricinde
+burada davetsiz olmanÄ±zÄ± gÃ¶rmezden geliyor.
 ~
-çora~
+Ã§ora~
 AGH P 6
 #7807
-ihtiyar vadi çorası~
-ihtiyar bir vadi çorası~
-İhtiyar bir vadi çorası burada çalışırken seni fark ediyor.
-İhtiyar bir vadi çorası bağırıyor 'Buraya izinsiz girdin.  Ölmeye hazırlan!'
+ihtiyar vadi Ã§orasÄ±~
+ihtiyar bir vadi Ã§orasÄ±~
+Ä°htiyar bir vadi Ã§orasÄ± burada Ã§alÄ±ÅŸÄ±rken seni fark ediyor.
+Ä°htiyar bir vadi Ã§orasÄ± baÄŸÄ±rÄ±yor 'Buraya izinsiz girdin.  Ã–lmeye hazÄ±rlan!'
 ~
-Bu çora oldukça yaşlı görünüyor, senin yaşının belki de yirmi katı.
-Yaşına rağmen oldukça güçlü duruyor.
+Bu Ã§ora oldukÃ§a yaÅŸlÄ± gÃ¶rÃ¼nÃ¼yor, senin yaÅŸÄ±nÄ±n belki de yirmi katÄ±.
+YaÅŸÄ±na raÄŸmen oldukÃ§a gÃ¼Ã§lÃ¼ duruyor.
 ~
-çora~
+Ã§ora~
 ABCFQ HN 15
 #7808
-ihtiyar vadi çorası~
-ihtiyar bir vadi çorası~
-İhtiyar bir vadi çorası burada çalışırken seni fark ediyor.
-İhtiyar bir vadi çorası şöyle söylüyor 'Seni yolun sonuna getiren, küstahlığındır.'
+ihtiyar vadi Ã§orasÄ±~
+ihtiyar bir vadi Ã§orasÄ±~
+Ä°htiyar bir vadi Ã§orasÄ± burada Ã§alÄ±ÅŸÄ±rken seni fark ediyor.
+Ä°htiyar bir vadi Ã§orasÄ± ÅŸÃ¶yle sÃ¶ylÃ¼yor 'Seni yolun sonuna getiren, kÃ¼stahlÄ±ÄŸÄ±ndÄ±r.'
 ~
-Bu çora oldukça yaşlı görünüyor, senin yaşının belki de yirmi katı.
-Yaşına rağmen oldukça güçlü duruyor.
+Bu Ã§ora oldukÃ§a yaÅŸlÄ± gÃ¶rÃ¼nÃ¼yor, senin yaÅŸÄ±nÄ±n belki de yirmi katÄ±.
+YaÅŸÄ±na raÄŸmen oldukÃ§a gÃ¼Ã§lÃ¼ duruyor.
 ~
-çora~
+Ã§ora~
 ABCFR N 15
 #7809
-ateş hidrası~
-ateş hidrası~
-Her biri ateş püskürten bir çok başı olan büyük yaratık, garezle sana bakıyor.
+ateÅŸ hidrasÄ±~
+ateÅŸ hidrasÄ±~
+Her biri ateÅŸ pÃ¼skÃ¼rten bir Ã§ok baÅŸÄ± olan bÃ¼yÃ¼k yaratÄ±k, garezle sana bakÄ±yor.
 ~
-Bu büyük canavar küçük bir kırmızı ejderhaya benziyor, ancak normal bir ejderhadan
-çok daha fazla başı var. Pek mutlu durmuyor.
+Bu bÃ¼yÃ¼k canavar kÃ¼Ã§Ã¼k bir kÄ±rmÄ±zÄ± ejderhaya benziyor, ancak normal bir ejderhadan
+Ã§ok daha fazla baÅŸÄ± var. Pek mutlu durmuyor.
 ~
 human~
 ABF 0 20
 #7810
-keşiş adam yaşlı~
-yaşlı bir keşiş~
-Yaşlı bir keşiş burada oturmuş çubuk tüttürüyor.
+keÅŸiÅŸ adam yaÅŸlÄ±~
+yaÅŸlÄ± bir keÅŸiÅŸ~
+YaÅŸlÄ± bir keÅŸiÅŸ burada oturmuÅŸ Ã§ubuk tÃ¼ttÃ¼rÃ¼yor.
 ~
-Yaşlı ve zayıf görünüyor.
+YaÅŸlÄ± ve zayÄ±f gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 ABCH 0 3
 #7811
-büyücü talemon~
+bÃ¼yÃ¼cÃ¼ talemon~
 Talemon~
-Yaşlı bir büyücü bir takım kimyasallarla meşgul.
+YaÅŸlÄ± bir bÃ¼yÃ¼cÃ¼ bir takÄ±m kimyasallarla meÅŸgul.
 ~
-Talemon zararsız görünüyor, ama sana fırlattığı ateş topları için aynısı denemez.
+Talemon zararsÄ±z gÃ¶rÃ¼nÃ¼yor, ama sana fÄ±rlattÄ±ÄŸÄ± ateÅŸ toplarÄ± iÃ§in aynÄ±sÄ± denemez.
 ~
 human~
 ABCFR 0 25
 #7812
-muhafız cin~
-muhafız cin~
-Devasa bir cin burada hazineyi gözetip koruyor.
+muhafÄ±z cin~
+muhafÄ±z cin~
+Devasa bir cin burada hazineyi gÃ¶zetip koruyor.
 ~
-Bu cin çağrıldığı işinden memnun değil ve öfkesini senden çıkarmaya hazır!
+Bu cin Ã§aÄŸrÄ±ldÄ±ÄŸÄ± iÅŸinden memnun deÄŸil ve Ã¶fkesini senden Ã§Ä±karmaya hazÄ±r!
 ~
 human~
 ABF 0 25
 #7813
 kurt~
 bir kurt~
-Bir kurt görüyorsun, sessizce izliyor.
+Bir kurt gÃ¶rÃ¼yorsun, sessizce izliyor.
 ~
-Kurt kahverengi saçlı. Korku ile sana bakıyor.
+Kurt kahverengi saÃ§lÄ±. Korku ile sana bakÄ±yor.
 ~
 wolf~
 AFH 0 4
 #7814
 antilop~
 bir antilop~
-Bir antilop burada, özgürce çimlerde otluyor.
+Bir antilop burada, Ã¶zgÃ¼rce Ã§imlerde otluyor.
 ~
-Kaba, kahverengi saçlar üzerinde boynuzları ve lekeleri olan bu canavar,
+Kaba, kahverengi saÃ§lar Ã¼zerinde boynuzlarÄ± ve lekeleri olan bu canavar,
 kesinlikle bir antilop.
 ~
 human~
@@ -168,17 +168,17 @@ AH 0 6
 #0
 #OBJECTS
 #7800
-çora zincir zırhı zincirzırh~
-çora işi zincirzırh~
-Parlak metalik bir gömlek yerde duruyor.~
+Ã§ora zincir zÄ±rhÄ± zincirzÄ±rh~
+Ã§ora iÅŸi zincirzÄ±rh~
+Parlak metalik bir gÃ¶mlek yerde duruyor.~
 iron~
 armor 0 AD
 4 4 4 2 0
 5 30 1080 P
 #7801
-çora işi botlar~
-çora işi botlar~
-Oldukça yumuşak cinsten botlar yerde duruyor.~
+Ã§ora iÅŸi botlar~
+Ã§ora iÅŸi botlar~
+OldukÃ§a yumuÅŸak cinsten botlar yerde duruyor.~
 steel~
 armor 0 AG
 3 3 3 0 0
@@ -186,9 +186,9 @@ armor 0 AG
 A
 14 5
 #7802
-uzunkılıç çora işi uzun kılıç~
-çora işi bir uzunkılıç~
-Parlak bir bıçak yerde duruyor.~
+uzunkÄ±lÄ±Ã§ Ã§ora iÅŸi uzun kÄ±lÄ±Ã§~
+Ã§ora iÅŸi bir uzunkÄ±lÄ±Ã§~
+Parlak bir bÄ±Ã§ak yerde duruyor.~
 steel~
 weapon G AN
 sword 3 3 slash 0
@@ -198,7 +198,7 @@ A
 #7803
 kahverengi pelerin~
 kahverengi bir pelerin~
-Kahverengi bir kumaş yığını yerde duruyor.~
+Kahverengi bir kumaÅŸ yÄ±ÄŸÄ±nÄ± yerde duruyor.~
 cloth~
 armor G AC
 3 3 3 0 0
@@ -222,9 +222,9 @@ key 0 A
 7880 0 0 0 0
 0 10 0 P
 #7806
-yüzük altın~
-altın bir yüzük~
-Parlak bir yüzük yerde duruyor.~
+yÃ¼zÃ¼k altÄ±n~
+altÄ±n bir yÃ¼zÃ¼k~
+Parlak bir yÃ¼zÃ¼k yerde duruyor.~
 gold~
 jewelry G AB
 0 0 0 0 0
@@ -232,7 +232,7 @@ jewelry G AB
 A
 12 10
 #7807
-cirit çift-elli~
+cirit Ã§ift-elli~
 bir cirit~
 Bir cirit yerde duruyor.~
 wood~
@@ -314,63 +314,63 @@ potion G A
 14 'farsight' '' '' ''
 6 10 420 P
 #7817
-parşömen~
-bir parşömen~
-Bir parşömen yerde duruyor.~
+parÅŸÃ¶men~
+bir parÅŸÃ¶men~
+Bir parÅŸÃ¶men yerde duruyor.~
 vellum~
 scroll G A
 10 'cure critical' '' '' ''
 5 10 660 P
 #7818
-parşömen~
-bir parşömen~
-Bir parşömen yerde duruyor.~
+parÅŸÃ¶men~
+bir parÅŸÃ¶men~
+Bir parÅŸÃ¶men yerde duruyor.~
 vellum~
 scroll G A
 16 'enchant armor' '' '' ''
 8 10 1090 P
 #7819
-parşömen~
-bir parşömen~
-Bir parşömen yerde duruyor.~
+parÅŸÃ¶men~
+bir parÅŸÃ¶men~
+Bir parÅŸÃ¶men yerde duruyor.~
 vellum~
 scroll G A
 10 'detect evil' '' '' ''
 0 10 400 P
 #7820
-parşömen~
-bir parşömen~
-Bir parşömen yerde duruyor.~
+parÅŸÃ¶men~
+bir parÅŸÃ¶men~
+Bir parÅŸÃ¶men yerde duruyor.~
 vellum~
 scroll G A
 10 'create water' '' '' ''
 0 10 400 P
 #7821
-parşömen~
-bir parşömen~
-Bir parşömen yerde duruyor.~
+parÅŸÃ¶men~
+bir parÅŸÃ¶men~
+Bir parÅŸÃ¶men yerde duruyor.~
 vellum~
 scroll G A
 10 'magic missile' '' '' ''
 0 10 400 P
 #7822
-parşömen~
-bir parşömen~
-Bir parşömen yerde duruyor.~
+parÅŸÃ¶men~
+bir parÅŸÃ¶men~
+Bir parÅŸÃ¶men yerde duruyor.~
 vellum~
 scroll G A
 10 'chill touch' '' '' ''
 0 10 400 P
 #7823
-parşömen~
-bir parşömen~
-Bir parşömen yerde duruyor.~
+parÅŸÃ¶men~
+bir parÅŸÃ¶men~
+Bir parÅŸÃ¶men yerde duruyor.~
 vellum~
 scroll G A
 10 'heal' '' '' ''
 11 10 1360 P
 #7825
-cirit çift-elli~
+cirit Ã§ift-elli~
 bir cirit~
 Bir cirit yerde duruyor.~
 wood~
@@ -383,18 +383,18 @@ A
 
 #ROOMS
 #7800
-Düzlüklerden uzanan bir Patika~
-Ofcol'dan uzak bir yoldasın. Yol iyi görünmüyor, ancak nispeten iyi korunuyor.
-Güneyinde Ofcol bulunan bu yol kuzeye doğru uzanmakta.
+DÃ¼zlÃ¼klerden uzanan bir Patika~
+Ofcol'dan uzak bir yoldasÄ±n. Yol iyi gÃ¶rÃ¼nmÃ¼yor, ancak nispeten iyi korunuyor.
+GÃ¼neyinde Ofcol bulunan bu yol kuzeye doÄŸru uzanmakta.
 ~
 0 0 2
 D0
-Yol kuzeye doğru devam ediyor.
+Yol kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7801
 D2
-Ofcol'u görüyorsun.
+Ofcol'u gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 323
@@ -405,29 +405,29 @@ D3
 S
 #7801
 Patika~
-Ofcoldan uzak bir yoldasın. Ana yol kuzeyde bir tepeye, güney ise Ofcol'a
-doğru gitmekte. Batı ve doğuda yan yollar görünüyor, genişliğine bakılırsa
-bir geyik patikası.
+Ofcoldan uzak bir yoldasÄ±n. Ana yol kuzeyde bir tepeye, gÃ¼ney ise Ofcol'a
+doÄŸru gitmekte. BatÄ± ve doÄŸuda yan yollar gÃ¶rÃ¼nÃ¼yor, geniÅŸliÄŸine bakÄ±lÄ±rsa
+bir geyik patikasÄ±.
 ~
 0 0 2
 D0
-Tepeyi görüyorsun.
+Tepeyi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7804
 D1
-Küçük Patikayı görüyorsun.
+KÃ¼Ã§Ã¼k PatikayÄ± gÃ¶rÃ¼yorsun.
 
 ~
 ~
 0 0 7803
 D2
-Ofcol'a giden yolu görüyorsun.
+Ofcol'a giden yolu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7800
 D3
-Küçük Patikayı görüyorsun.
+KÃ¼Ã§Ã¼k PatikayÄ± gÃ¶rÃ¼yorsun.
 
 ~
 ~
@@ -435,560 +435,560 @@ Küçük Patikayı görüyorsun.
 S
 #7802
 Dar bir Patika~
-Bu küçük geyik patikası kuzeye ve doğuya doğru uzanıyor.
+Bu kÃ¼Ã§Ã¼k geyik patikasÄ± kuzeye ve doÄŸuya doÄŸru uzanÄ±yor.
 ~
 0 0 2
 D0
-Patika kuzeye doğru devam ediyor.
+Patika kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7867
 D1
-Ana yol doğuya doğru.
+Ana yol doÄŸuya doÄŸru.
 ~
 ~
 0 0 7801
 S
 #7803
 Dar bir Patika~
-Bu küçük geyik patikası kuzeye ve batıya doğru uzanıyor.
+Bu kÃ¼Ã§Ã¼k geyik patikasÄ± kuzeye ve batÄ±ya doÄŸru uzanÄ±yor.
 ~
 0 0 2
 D0
-Patika kuzeye doğru devam ediyor.
+Patika kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7849
 D3
-Ana yol batıya doğru.
+Ana yol batÄ±ya doÄŸru.
 ~
 ~
 0 0 7801
 S
 #7804
-Tepeden bakış~
-Büyük bir vadinin üzerindesin. Aşağıda, vadinin etrafında dolaşan insansı
-formlar görüyorsun. Zengin yeşil çim, vadiyi kaplayan ve manzarayı süsleyen
-küçük ağaçlar var. Güneyde Ofcol'a doğru giden bir yol görüyorsun.
+Tepeden bakÄ±ÅŸ~
+BÃ¼yÃ¼k bir vadinin Ã¼zerindesin. AÅŸaÄŸÄ±da, vadinin etrafÄ±nda dolaÅŸan insansÄ±
+formlar gÃ¶rÃ¼yorsun. Zengin yeÅŸil Ã§im, vadiyi kaplayan ve manzarayÄ± sÃ¼sleyen
+kÃ¼Ã§Ã¼k aÄŸaÃ§lar var. GÃ¼neyde Ofcol'a doÄŸru giden bir yol gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D2
-Ofcol'a giden yolu görüyorsun.
+Ofcol'a giden yolu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7801
 D5
-Vadiye girişi görüyorsun.
+Vadiye giriÅŸi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7805
 S
 #7805
-Çora Vadisi'nin Girişi~
-Çora Vadisi'nin girişindesin. Çoralar davetsiz girişini farkediyor,
-ama çoğu seninle uğraşmak için çok meşgul. Vadi doğuya ve batıya doğru
-genişlerken kuzeye yayılıyor.
+Ã‡ora Vadisi'nin GiriÅŸi~
+Ã‡ora Vadisi'nin giriÅŸindesin. Ã‡oralar davetsiz giriÅŸini farkediyor,
+ama Ã§oÄŸu seninle uÄŸraÅŸmak iÃ§in Ã§ok meÅŸgul. Vadi doÄŸuya ve batÄ±ya doÄŸru
+geniÅŸlerken kuzeye yayÄ±lÄ±yor.
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7810
 D1
-Vadi doğuya doğru devam ediyor.
+Vadi doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7807
 D3
-Vadi batıya doğru devam ediyor..
+Vadi batÄ±ya doÄŸru devam ediyor..
 ~
 ~
 0 0 7806
 D4
-Yukarıda tepeyi görüyorsun.
+YukarÄ±da tepeyi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7804
 S
 #7806
-Vadinin Kenarı~
-Çora vadisinin kenarındasın. Yukarıda, tüm vadiyi çevreleyen küçük
-bir patika görüyorsun. Vadi kuzey ve doğuya doğru devam ediyor.
+Vadinin KenarÄ±~
+Ã‡ora vadisinin kenarÄ±ndasÄ±n. YukarÄ±da, tÃ¼m vadiyi Ã§evreleyen kÃ¼Ã§Ã¼k
+bir patika gÃ¶rÃ¼yorsun. Vadi kuzey ve doÄŸuya doÄŸru devam ediyor.
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7809
 D1
-Doğuda vadinin girişi var.
+DoÄŸuda vadinin giriÅŸi var.
 ~
 ~
 0 0 7805
 S
 #7807
-Vadinin Kenarı~
-Çora vadisinin kenarındasın. Yukarıda, tüm vadiyi çevreleyen küçük
-bir patika görüyorsun. Vadi kuzey ve batıya doğru devam ediyor.
+Vadinin KenarÄ±~
+Ã‡ora vadisinin kenarÄ±ndasÄ±n. YukarÄ±da, tÃ¼m vadiyi Ã§evreleyen kÃ¼Ã§Ã¼k
+bir patika gÃ¶rÃ¼yorsun. Vadi kuzey ve batÄ±ya doÄŸru devam ediyor.
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7811
 D3
-Batıda vadinin girişi var.
+BatÄ±da vadinin giriÅŸi var.
 ~
 ~
 0 0 7805
 S
 #7808
-Vadinin Kenarı~
-Çora vadisinin kenarındasın. Yukarıda, tüm vadiyi çevreleyen küçük
-bir patika görüyorsun. Vadi kuzey ve doğuya doğru devam ediyor.
+Vadinin KenarÄ±~
+Ã‡ora vadisinin kenarÄ±ndasÄ±n. YukarÄ±da, tÃ¼m vadiyi Ã§evreleyen kÃ¼Ã§Ã¼k
+bir patika gÃ¶rÃ¼yorsun. Vadi kuzey ve doÄŸuya doÄŸru devam ediyor.
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7813
 D1
-Vadi doğya doğru devam ediyor.
+Vadi doÄŸya doÄŸru devam ediyor.
 ~
 ~
 0 0 7809
 S
 #7809
-Çora Vadisi~
-Çora Vadisindesin. Vadi her yöne doğru devam ediyor.
+Ã‡ora Vadisi~
+Ã‡ora Vadisindesin. Vadi her yÃ¶ne doÄŸru devam ediyor.
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7814
 D1
-Vadi doğuya doğru devam ediyor.
+Vadi doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7810
 D2
-Vadi güneye doğru devam ediyor.
+Vadi gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7806
 D3
-Vadi batıya doğru devam ediyor.
+Vadi batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7808
 S
 #7810
-Çora Vadisi~
-Çora Vadisindesin. Vadi her yöne doğru devam ediyor.
+Ã‡ora Vadisi~
+Ã‡ora Vadisindesin. Vadi her yÃ¶ne doÄŸru devam ediyor.
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7815
 D1
-Vadi doğuya doğru devam ediyor.
+Vadi doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7811
 D2
-Vadinin girişini görüyorsun.
+Vadinin giriÅŸini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7805
 D3
-Vadi batıya doğru devam ediyor.
+Vadi batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7809
 S
 #7811
-Çora Vadisi~
-Çora vadisindesin. Vadi her yöne doğru devam ediyor.
+Ã‡ora Vadisi~
+Ã‡ora vadisindesin. Vadi her yÃ¶ne doÄŸru devam ediyor.
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7816
 D1
-Vadi doğuya doğru devam ediyor.
+Vadi doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7812
 D2
-Vadi güneye doğru devam ediyor.
+Vadi gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7807
 D3
-Vadi batıya doğru devam ediyor.
+Vadi batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7810
 S
 #7812
-Vadinin Kenarı~
-Çora Vadisinin kenarındasın. Yukarıda, tüm vadiyi çevreleyen küçük
-bir patika görüyorsun. Vadi kuzey ve batı yönünde devam ediyor.
+Vadinin KenarÄ±~
+Ã‡ora Vadisinin kenarÄ±ndasÄ±n. YukarÄ±da, tÃ¼m vadiyi Ã§evreleyen kÃ¼Ã§Ã¼k
+bir patika gÃ¶rÃ¼yorsun. Vadi kuzey ve batÄ± yÃ¶nÃ¼nde devam ediyor.
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7817
 D3
-Vadi batıya doğru devam ediyor.
+Vadi batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7811
 S
 #7813
-Vadinin Kenarı~
-Çora Vadisinin kenarındasın. Dik bir patika vadiyi çevreleyen geyik patikasına
-doğru uzanıyor. Vadi kuzey, güney ve doğu yönünde devam ediyor.
+Vadinin KenarÄ±~
+Ã‡ora Vadisinin kenarÄ±ndasÄ±n. Dik bir patika vadiyi Ã§evreleyen geyik patikasÄ±na
+doÄŸru uzanÄ±yor. Vadi kuzey, gÃ¼ney ve doÄŸu yÃ¶nÃ¼nde devam ediyor.
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7818
 D1
-Vadi doğuya doğru devam ediyor.
+Vadi doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7814
 D2
-Vadi güneye doğru devam ediyor.
+Vadi gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7808
 D4
-Dik patika yukarı doğru devam ediyor.
+Dik patika yukarÄ± doÄŸru devam ediyor.
 ~
 ~
 0 0 7863
 S
 #7814
-Çora Vadisi~
-Çora vadisindesin. Vadi her yöne doğru devam ediyor.
+Ã‡ora Vadisi~
+Ã‡ora vadisindesin. Vadi her yÃ¶ne doÄŸru devam ediyor.
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7819
 D1
-Vadi doğuya doğru devam ediyor.
+Vadi doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7815
 D2
-Vadi güneye doğru devam ediyor.
+Vadi gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7809
 D3
-Vadi batıya doğru devam ediyor.
+Vadi batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7813
 S
 #7815
-Çora Vadisi~
-Çora vadisindesin. Vadi her yöne doğru devam ediyor.
+Ã‡ora Vadisi~
+Ã‡ora vadisindesin. Vadi her yÃ¶ne doÄŸru devam ediyor.
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7820
 D1
-Vadi doğuya doğru devam ediyor.
+Vadi doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7816
 D2
-Vadi güneye doğru devam ediyor.
+Vadi gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7810
 D3
-Vadi batıya doğru devam ediyor.
+Vadi batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7814
 S
 #7816
-Çora Vadisi~
-Çora vadisindesin. Vadi her yöne doğru devam ediyor.
+Ã‡ora Vadisi~
+Ã‡ora vadisindesin. Vadi her yÃ¶ne doÄŸru devam ediyor.
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7821
 D1
-Vadi doğuya doğru devam ediyor.
+Vadi doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7817
 D2
-Vadi güneye doğru devam ediyor.
+Vadi gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7811
 D3
-Vadi batıya doğru devam ediyor.
+Vadi batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7815
 S
 #7817
-Vadinin Kenarı~
-Çora Vadisinin kenarındasın. Dik bir patika vadiyi çevreleyen geyik patikasına
-doğru uzanıyor. Vadi kuzey, güney ve batı yönünde devam ediyor.
+Vadinin KenarÄ±~
+Ã‡ora Vadisinin kenarÄ±ndasÄ±n. Dik bir patika vadiyi Ã§evreleyen geyik patikasÄ±na
+doÄŸru uzanÄ±yor. Vadi kuzey, gÃ¼ney ve batÄ± yÃ¶nÃ¼nde devam ediyor.
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7822
 D2
-Vadi güneye doğru devam ediyor.
+Vadi gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7812
 D3
-Vadi batıya doğru devam ediyor.
+Vadi batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7816
 D4
-Dik patika yukarı doğru devam ediyor.
+Dik patika yukarÄ± doÄŸru devam ediyor.
 ~
 ~
 0 0 7853
 S
 #7818
-Vadinin Kenarı~
-Çora Vadisinin kenarındasın. Dik bir patika vadiyi çevreleyen geyik patikasına
-doğru uzanıyor. Vadi, güney ve doğu yönünde devam ediyor.
+Vadinin KenarÄ±~
+Ã‡ora Vadisinin kenarÄ±ndasÄ±n. Dik bir patika vadiyi Ã§evreleyen geyik patikasÄ±na
+doÄŸru uzanÄ±yor. Vadi, gÃ¼ney ve doÄŸu yÃ¶nÃ¼nde devam ediyor.
 ~
 0 0 2
 D1
-Vadi doğuya doğru devam ediyor.
+Vadi doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7819
 D2
-Vadi güneye doğru devam ediyor.
+Vadi gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7813
 S
 #7819
-Çora Vadisi~
-Çora vadisindesin. Vadi her yöne doğru devam ediyor.
+Ã‡ora Vadisi~
+Ã‡ora vadisindesin. Vadi her yÃ¶ne doÄŸru devam ediyor.
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7823
 D1
-Vadi doğuya doğru devam ediyor.
+Vadi doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7820
 D2
-Vadi güneye doğru devam ediyor.
+Vadi gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7814
 D3
-Vadi batıya doğru devam ediyor.
+Vadi batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7818
 S
 #7820
-Çora Vadisi~
-Çora vadisindesin. Vadi her yöne doğru devam ediyor.
+Ã‡ora Vadisi~
+Ã‡ora vadisindesin. Vadi her yÃ¶ne doÄŸru devam ediyor.
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7824
 D1
-Vadi doğuya doğru devam ediyor.
+Vadi doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7821
 D2
-Vadi güneye doğru devam ediyor.
+Vadi gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7815
 D3
-Vadi batıya doğru devam ediyor.
+Vadi batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7819
 S
 #7821
-Çora Vadisi~
-Çora vadisindesin. Vadi her yöne doğru devam ediyor.
+Ã‡ora Vadisi~
+Ã‡ora vadisindesin. Vadi her yÃ¶ne doÄŸru devam ediyor.
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7825
 D1
-Vadi doğuya doğru devam ediyor.
+Vadi doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7822
 D2
-Vadi güneye doğru devam ediyor.
+Vadi gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7816
 D3
-Vadi batıya doğru devam ediyor.
+Vadi batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7820
 S
 #7822
-Vadinin Kenarı~
-Çora Vadisinin kenarındasın. Dik bir patika vadiyi çevreleyen geyik patikasına
-doğru uzanıyor. Vadi, güney ve batı yönünde devam ediyor.
+Vadinin KenarÄ±~
+Ã‡ora Vadisinin kenarÄ±ndasÄ±n. Dik bir patika vadiyi Ã§evreleyen geyik patikasÄ±na
+doÄŸru uzanÄ±yor. Vadi, gÃ¼ney ve batÄ± yÃ¶nÃ¼nde devam ediyor.
 ~
 0 0 2
 D2
-Vadi güneye doğru devam ediyor.
+Vadi gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7817
 D3
-Vadi batıya doğru devam ediyor.
+Vadi batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7821
 S
 #7823
-Vadinin Kenarı~
-Çora Vadisinin kenarındasın. Dik bir patika vadiyi çevreleyen geyik patikasına
-doğru uzanıyor. Vadi, güney ve doğu yönünde devam ediyor.
+Vadinin KenarÄ±~
+Ã‡ora Vadisinin kenarÄ±ndasÄ±n. Dik bir patika vadiyi Ã§evreleyen geyik patikasÄ±na
+doÄŸru uzanÄ±yor. Vadi, gÃ¼ney ve doÄŸu yÃ¶nÃ¼nde devam ediyor.
 ~
 0 0 2
 D1
-Vadi doğuya doğru devam ediyor.
+Vadi doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7824
 D2
-Vadi güneye doğru devam ediyor.
+Vadi gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7819
 S
 #7824
-Vadinin Kenarı~
-Çora vadisindesin. Vadi her yöne doğru devam ediyor.
-Kuzeyde küçük, vadiden uzaklaşan dar bir patika var.
+Vadinin KenarÄ±~
+Ã‡ora vadisindesin. Vadi her yÃ¶ne doÄŸru devam ediyor.
+Kuzeyde kÃ¼Ã§Ã¼k, vadiden uzaklaÅŸan dar bir patika var.
 ~
 0 0 2
 D0
-Küçük bir patika vadiden uzaklaşıyor.
+KÃ¼Ã§Ã¼k bir patika vadiden uzaklaÅŸÄ±yor.
 ~
 ~
 0 0 7826
 D1
-Vadi doğuya doğru devam ediyor.
+Vadi doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7825
 D2
-Vadi güneye doğru devam ediyor.
+Vadi gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7820
 D3
-Vadi batıya doğru devam ediyor.
+Vadi batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7823
 S
 #7825
-Vadinin Kenarı~
-Çora Vadisinin kenarındasın. tüm vadiyi çevreleyen küçük bir patika görüyorsun.
-Vadi güneye ve batıya doğru devam ediyor.
+Vadinin KenarÄ±~
+Ã‡ora Vadisinin kenarÄ±ndasÄ±n. tÃ¼m vadiyi Ã§evreleyen kÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
+Vadi gÃ¼neye ve batÄ±ya doÄŸru devam ediyor.
 ~
 0 0 2
 D2
-Vadi güneye doğru devam ediyor.
+Vadi gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7821
 D3
-Vadi batıya doğru devam ediyor.
+Vadi batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7824
 S
 #7826
-Vadinin dışına uzanan bir Patika~
-Çora Vadisinden uzaklaşan dar bir patika üzerindesin.
-Bu patika kuzeye ve güneye gidiyor. Örme bir merdiven bir örme köprüye uzanıyor.
+Vadinin dÄ±ÅŸÄ±na uzanan bir Patika~
+Ã‡ora Vadisinden uzaklaÅŸan dar bir patika Ã¼zerindesin.
+Bu patika kuzeye ve gÃ¼neye gidiyor. Ã–rme bir merdiven bir Ã¶rme kÃ¶prÃ¼ye uzanÄ±yor.
 ~
 0 0 2
 D0
-Patika kuzeye doğru devam ediyor.
+Patika kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7827
 D2
-Patika vadiye doğru uzanıyor.
+Patika vadiye doÄŸru uzanÄ±yor.
 ~
 ~
 0 0 7824
 D4
-Yukarıda örme köprüyü görüyorsun.
+YukarÄ±da Ã¶rme kÃ¶prÃ¼yÃ¼ gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7858
 S
 #7827
 Patika~
-Çora Vadisinden uzaklaşan bir patikadasın. Çevrendeki tepeler patikayı
-daraltıyor. Patika doğu, güney, batı ve kuzeye doğru devam ediyor.
-Kuzeye doğru bir tarla görüyorsun.
+Ã‡ora Vadisinden uzaklaÅŸan bir patikadasÄ±n. Ã‡evrendeki tepeler patikayÄ±
+daraltÄ±yor. Patika doÄŸu, gÃ¼ney, batÄ± ve kuzeye doÄŸru devam ediyor.
+Kuzeye doÄŸru bir tarla gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
@@ -997,64 +997,64 @@ Arcadia Yolu.
 ~
 0 0 12018
 D1
-Patika doğuya doğru devam ediyor.
+Patika doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7828
 D2
-Patika güneye doğru vadiye uzanıyor.
+Patika gÃ¼neye doÄŸru vadiye uzanÄ±yor.
 ~
 ~
 0 0 7826
 D3
-Patika batıya doğru devam ediyor.
+Patika batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7868
 S
 #7828
-Patikada bir dönemeç~
-Çora Vadisinden uzaklaşan bir patikadasın. Çevrendeki tepeler patikayı
-daraltıyor. Patika batı ve kuzeye doğru devam ediyor.
+Patikada bir dÃ¶nemeÃ§~
+Ã‡ora Vadisinden uzaklaÅŸan bir patikadasÄ±n. Ã‡evrendeki tepeler patikayÄ±
+daraltÄ±yor. Patika batÄ± ve kuzeye doÄŸru devam ediyor.
 ~
 0 0 2
 D0
-Kuzeyde küçük bir vadi görüyorsun.
+Kuzeyde kÃ¼Ã§Ã¼k bir vadi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7829
 D3
-Patika batıya doğru uzanıyor.
+Patika batÄ±ya doÄŸru uzanÄ±yor.
 ~
 ~
 0 0 7827
 S
 #7829
-Daha küçük bir Vadi~
-Bu tepelerin içindeki başka bir vadide bulunuyorsun. Kuzeyde bir bina var ve
-güneyde bu vadiden uzaklaşan bir yol görüyorsun. Batı ve doğu yolları bu binayı
-çevrelemekte.
+Daha kÃ¼Ã§Ã¼k bir Vadi~
+Bu tepelerin iÃ§indeki baÅŸka bir vadide bulunuyorsun. Kuzeyde bir bina var ve
+gÃ¼neyde bu vadiden uzaklaÅŸan bir yol gÃ¶rÃ¼yorsun. BatÄ± ve doÄŸu yollarÄ± bu binayÄ±
+Ã§evrelemekte.
 ~
 0 0 2
 D0
-Binayı görüyorsun.
+BinayÄ± gÃ¶rÃ¼yorsun.
 ~
 door~
 1 -1 7834
 D1
-Binanın etrafındaki Patikayı görüyorsun.
+BinanÄ±n etrafÄ±ndaki PatikayÄ± gÃ¶rÃ¼yorsun.
 
 ~
 ~
 0 0 7831
 D2
-Vadiden uzaklaşan Patikayı görüyorsun.
+Vadiden uzaklaÅŸan PatikayÄ± gÃ¶rÃ¼yorsun.
 
 ~
 ~
 0 0 7828
 D3
-Binanın etrafındaki Patikayı görüyorsun.
+BinanÄ±n etrafÄ±ndaki PatikayÄ± gÃ¶rÃ¼yorsun.
 
 ~
 ~
@@ -1062,76 +1062,76 @@ Binanın etrafındaki Patikayı görüyorsun.
 S
 #7830
 Vadideki bir Patika~
-Çora Vadisinde bir patikadasın. Bu patika kuzeye ve doğuya doğru gidiyor.
-Kuzeydoğuda bir bina görüyorsun.
+Ã‡ora Vadisinde bir patikadasÄ±n. Bu patika kuzeye ve doÄŸuya doÄŸru gidiyor.
+KuzeydoÄŸuda bir bina gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7832
 D1
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7829
 S
 #7831
 Vadideki bir Patika~
-Çora Vadisinde bir patikadasın. Bu patika batıya ve doğuya doğru gidiyor.
-Kuzeybatıda bir bina görüyorsun.
+Ã‡ora Vadisinde bir patikadasÄ±n. Bu patika batÄ±ya ve doÄŸuya doÄŸru gidiyor.
+KuzeybatÄ±da bir bina gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D1
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7833
 D3
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7829
 S
 #7832
 Vadideki bir Patika~
-Çora Vadisinde bir patikadasın. Bu patika kuzeye ve güneye doğru gidiyor.
-Doğuda bir bina görüyorsun.
+Ã‡ora Vadisinde bir patikadasÄ±n. Bu patika kuzeye ve gÃ¼neye doÄŸru gidiyor.
+DoÄŸuda bir bina gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7837
 D2
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7830
 S
 #7833
 Vadideki bir Patika~
-Çora Vadisinde bir patikadasın. Bu patika kuzeye ve batıya gidiyor.
-Kuzeybatıda bir bina görüyorsun.
+Ã‡ora Vadisinde bir patikadasÄ±n. Bu patika kuzeye ve batÄ±ya gidiyor.
+KuzeybatÄ±da bir bina gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7836
 D3
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7831
 S
 #7834
-Çora Yuvası~
-Vadi çoralarının evindesin. Bina kuzeye ve doğuya devam ediyor.
-Güneye doğru bir çıkış var.
+Ã‡ora YuvasÄ±~
+Vadi Ã§oralarÄ±nÄ±n evindesin. Bina kuzeye ve doÄŸuya devam ediyor.
+GÃ¼neye doÄŸru bir Ã§Ä±kÄ±ÅŸ var.
 ~
 0 D 0
 D0
@@ -1140,275 +1140,275 @@ Bina kuzeye devam ediyor.
 ~
 0 0 7838
 D1
-Bina doğuya devam ediyor.
+Bina doÄŸuya devam ediyor.
 ~
 ~
 0 0 7835
 D2
-Güneyde bir çıkış görüyorsun.
+GÃ¼neyde bir Ã§Ä±kÄ±ÅŸ gÃ¶rÃ¼yorsun.
 ~
 door~
 1 -1 7829
 S
 #7835
 Mutfak~
-Vadi çoralarının halk mutfağındasın. Duvarlara sıralanmış tencere ve tavalar,
-yiyecek dolu raflar görüyorsun. Bir kenarda ise büyükce bir fırın bulunuyor,
-pişmiş çorabiyelerin kokusunu alıyorsun. Kuzeyde ve batıda kapılar bulunuyor.
+Vadi Ã§oralarÄ±nÄ±n halk mutfaÄŸÄ±ndasÄ±n. Duvarlara sÄ±ralanmÄ±ÅŸ tencere ve tavalar,
+yiyecek dolu raflar gÃ¶rÃ¼yorsun. Bir kenarda ise bÃ¼yÃ¼kce bir fÄ±rÄ±n bulunuyor,
+piÅŸmiÅŸ Ã§orabiyelerin kokusunu alÄ±yorsun. Kuzeyde ve batÄ±da kapÄ±lar bulunuyor.
 ~
 0 D 0
 D0
-Bina kuzeye doğru devam ediyor.
+Bina kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7839
 D3
-Bina batıya doğru devam ediyor.
+Bina batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7834
 S
 #7836
 Vadideki bir Patika~
-Çora Vadisinde bir patikadasın. Bu patika kuzeye ve güneye doğru devam ediyor.
-Batıda bir bina görüyorsun.
+Ã‡ora Vadisinde bir patikadasÄ±n. Bu patika kuzeye ve gÃ¼neye doÄŸru devam ediyor.
+BatÄ±da bir bina gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7840
 D2
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7833
 S
 #7837
 Vadideki bir Patika~
-Çora Vadisinde bir patikadasın. Bu patika kuzeye ve güneye doğru devam ediyor.
-Doğuda bir bina görüyorsun.
+Ã‡ora Vadisinde bir patikadasÄ±n. Bu patika kuzeye ve gÃ¼neye doÄŸru devam ediyor.
+DoÄŸuda bir bina gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7841
 D2
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7832
 S
 #7838
 Salon~
-Çora evinin oturma odasındasın. Zemin halılar ile kaplı ve bir masa üzerinde
-meyve dolu bir kase görüyorsun. Pencereden kır çiçeklerini ve uzun, yeşil
-otlarıyla vadiyi izliyorsun.
+Ã‡ora evinin oturma odasÄ±ndasÄ±n. Zemin halÄ±lar ile kaplÄ± ve bir masa Ã¼zerinde
+meyve dolu bir kase gÃ¶rÃ¼yorsun. Pencereden kÄ±r Ã§iÃ§eklerini ve uzun, yeÅŸil
+otlarÄ±yla vadiyi izliyorsun.
 ~
 0 D 0
 D1
-Bina doğuya doğru devam ediyor.
+Bina doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7839
 D2
-Bina güneye doğru devam ediyor.
+Bina gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7834
 S
 #7839
 Depo~
-Çora evinin deposundasın. Odanın bir tarafı un çuvalları ve diğer tarafı ve
-temizlik malzemeleri ile kaplı. Burada ilgini çeken hiçbir şey bulamıyorsun.
-Bir merdiven yukarı uzanıyor.
+Ã‡ora evinin deposundasÄ±n. OdanÄ±n bir tarafÄ± un Ã§uvallarÄ± ve diÄŸer tarafÄ± ve
+temizlik malzemeleri ile kaplÄ±. Burada ilgini Ã§eken hiÃ§bir ÅŸey bulamÄ±yorsun.
+Bir merdiven yukarÄ± uzanÄ±yor.
 ~
 0 D 0
 D2
-Bina güneye doğru devam ediyor.
+Bina gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7835
 D3
-Bina batıya doğru devam ediyor.
+Bina batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7838
 D4
-İkinci katı görüyorsun.
+Ä°kinci katÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7848
 S
 #7840
 Vadideki bir Patika~
-Çora Vadisinde bir patikadasın. Bu patika kuzeye ve güneye doğru gidiyor.
-Batıda bir bina görüyorsun.
+Ã‡ora Vadisinde bir patikadasÄ±n. Bu patika kuzeye ve gÃ¼neye doÄŸru gidiyor.
+BatÄ±da bir bina gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7844
 D2
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7836
 S
 #7841
 Vadideki bir Patika~
-Çora Vadisinde bir patikadasın. Bu patika doğuya ve güneye doğru gidiyor.
-Güneydoğuda bir bina görüyorsun.
+Ã‡ora Vadisinde bir patikadasÄ±n. Bu patika doÄŸuya ve gÃ¼neye doÄŸru gidiyor.
+GÃ¼neydoÄŸuda bir bina gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D1
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7842
 D2
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7837
 S
 #7842
 Vadideki bir Patika~
-Çora Vadisinde bir patikadasın. Bu patika batıya ve doğuya doğru gidiyor.
-Güneyde bir bina görüyorsun.
+Ã‡ora Vadisinde bir patikadasÄ±n. Bu patika batÄ±ya ve doÄŸuya doÄŸru gidiyor.
+GÃ¼neyde bir bina gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D1
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7843
 D3
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7841
 S
 #7843
 Vadideki bir Patika~
-Çora Vadisinde bir patikadasın.  Bu patika doğuya ve batıya doğru gidiyor.
-Güneyde bir bina görüyorsun.
+Ã‡ora Vadisinde bir patikadasÄ±n.  Bu patika doÄŸuya ve batÄ±ya doÄŸru gidiyor.
+GÃ¼neyde bir bina gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D1
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7844
 D3
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7842
 S
 #7844
 Vadideki bir Patika~
-Çora Vadisinde bir patikadasın.  Bu patika güneye ve batıya doğru gidiyor.
-Güneydoğuda bir bina görüyorsun.
+Ã‡ora Vadisinde bir patikadasÄ±n.  Bu patika gÃ¼neye ve batÄ±ya doÄŸru gidiyor.
+GÃ¼neydoÄŸuda bir bina gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D2
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7840
 D3
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7843
 S
 #7845
-İhtiyarlar Odası~
-Vadi çorası ihtiyarlarının odasındasın. Garip dillerde yazılmış kitaplarla
-dolu bir raf ve parşömenlerle kaplı bir masa görüyorsun. Odanın merkezinde
-pürüzsüz bir küresel nesne var.
+Ä°htiyarlar OdasÄ±~
+Vadi Ã§orasÄ± ihtiyarlarÄ±nÄ±n odasÄ±ndasÄ±n. Garip dillerde yazÄ±lmÄ±ÅŸ kitaplarla
+dolu bir raf ve parÅŸÃ¶menlerle kaplÄ± bir masa gÃ¶rÃ¼yorsun. OdanÄ±n merkezinde
+pÃ¼rÃ¼zsÃ¼z bir kÃ¼resel nesne var.
 ~
 0 D 0
 D0
-Başka bir oda görüyorsun.
+BaÅŸka bir oda gÃ¶rÃ¼yorsun.
 ~
 door~
 1 -1 7847
 D1
-Başka bir oda görüyorsun.
+BaÅŸka bir oda gÃ¶rÃ¼yorsun.
 ~
 door~
 1 7804 7846
 S
 #7846
 Depo~
-Bir depolama odasındasın.
-Birçok önemsiz (senin için) eşya bu odayı dolduruyor.
+Bir depolama odasÄ±ndasÄ±n.
+BirÃ§ok Ã¶nemsiz (senin iÃ§in) eÅŸya bu odayÄ± dolduruyor.
 ~
 0 D 0
 D0
-Başka bir oda görüyorsun.
+BaÅŸka bir oda gÃ¶rÃ¼yorsun.
 ~
 door~
 1 7804 7848
 D3
-Başka bir oda görüyorsun.
+BaÅŸka bir oda gÃ¶rÃ¼yorsun.
 ~
 door~
 1 7804 7845
 S
 #7847
-Dinlenme Bölmeleri~
-Vadi çoralarının dinlenme bölmelerindesin. Yerlerde bebek karyolaları sıralı,
-vadiyi manzara alan iki pencere görüyorsun. Raflarda tuhaf dillerde kitaplar
-sıralı ancak ilgi çekici bir şey var gibi durmuyor.
+Dinlenme BÃ¶lmeleri~
+Vadi Ã§oralarÄ±nÄ±n dinlenme bÃ¶lmelerindesin. Yerlerde bebek karyolalarÄ± sÄ±ralÄ±,
+vadiyi manzara alan iki pencere gÃ¶rÃ¼yorsun. Raflarda tuhaf dillerde kitaplar
+sÄ±ralÄ± ancak ilgi Ã§ekici bir ÅŸey var gibi durmuyor.
 ~
 0 D 0
 D1
-Başka bir oda görüyorsun.
+BaÅŸka bir oda gÃ¶rÃ¼yorsun.
 ~
 door~
 1 -1 7848
 D2
-Başka bir oda görüyorsun.
+BaÅŸka bir oda gÃ¶rÃ¼yorsun.
 ~
 door~
 1 -1 7845
 S
 #7848
-Çalışma Odası~
-Vadi elflerinin çalışma odasındasın. Yerde konforlu halılar ve raflara düzgün
-bir şekilde yerleştirilmiş müzik aletleri dikkatini çekiyor. Garip dillerde
-yazılmış kitaplar bazı çoraları sıraya sokuyor.
-Birinci kata inen bir merdiven görüyorsun.
+Ã‡alÄ±ÅŸma OdasÄ±~
+Vadi elflerinin Ã§alÄ±ÅŸma odasÄ±ndasÄ±n. Yerde konforlu halÄ±lar ve raflara dÃ¼zgÃ¼n
+bir ÅŸekilde yerleÅŸtirilmiÅŸ mÃ¼zik aletleri dikkatini Ã§ekiyor. Garip dillerde
+yazÄ±lmÄ±ÅŸ kitaplar bazÄ± Ã§oralarÄ± sÄ±raya sokuyor.
+Birinci kata inen bir merdiven gÃ¶rÃ¼yorsun.
 ~
 0 D 0
 D2
-Başka bir oda görüyorsun.
+BaÅŸka bir oda gÃ¶rÃ¼yorsun.
 ~
 door~
 1 7804 7846
 D3
-Başka bir oda görüyorsun.
+BaÅŸka bir oda gÃ¶rÃ¼yorsun.
 ~
 door~
 1 -1 7847
 D5
-Birinci katı görüyorsun.
+Birinci katÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7839
 S
 #7849
-Vadinin Kenarındaki Rüzgarlı bir Patika~
-Çora vadisinin kenarında dar bir yoldasın. Aşağıda, kır çiçekleri ve
-uzun, yeşil otlarla dolu vadiyi görüyorsun.
+Vadinin KenarÄ±ndaki RÃ¼zgarlÄ± bir Patika~
+Ã‡ora vadisinin kenarÄ±nda dar bir yoldasÄ±n. AÅŸaÄŸÄ±da, kÄ±r Ã§iÃ§ekleri ve
+uzun, yeÅŸil otlarla dolu vadiyi gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D1
@@ -1420,15 +1420,15 @@ D2
 ~
 0 0 7803
 D5
-Bu patika yolculuğa devam etmek için hiç güvenli durmuyor.
+Bu patika yolculuÄŸa devam etmek iÃ§in hiÃ§ gÃ¼venli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7850
-Vadinin Kenarındaki Rüzgarlı bir Patika~
-Çora vadisinin kenarında dar bir yoldasın. Aşağıda, kır çiçekleri ve
-uzun, yeşil otlarla dolu vadiyi görüyorsun.
+Vadinin KenarÄ±ndaki RÃ¼zgarlÄ± bir Patika~
+Ã‡ora vadisinin kenarÄ±nda dar bir yoldasÄ±n. AÅŸaÄŸÄ±da, kÄ±r Ã§iÃ§ekleri ve
+uzun, yeÅŸil otlarla dolu vadiyi gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
@@ -1440,15 +1440,15 @@ D3
 ~
 0 0 7849
 D5
-Bu patika yolculuğa devam etmek için hiç güvenli durmuyor.
+Bu patika yolculuÄŸa devam etmek iÃ§in hiÃ§ gÃ¼venli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7851
-Vadinin Kenarındaki Rüzgarlı bir Patika~
-Çora vadisinin kenarında dar bir yoldasın. Aşağıda, kır çiçekleri ve
-uzun, yeşil otlarla dolu vadiyi görüyorsun.
+Vadinin KenarÄ±ndaki RÃ¼zgarlÄ± bir Patika~
+Ã‡ora vadisinin kenarÄ±nda dar bir yoldasÄ±n. AÅŸaÄŸÄ±da, kÄ±r Ã§iÃ§ekleri ve
+uzun, yeÅŸil otlarla dolu vadiyi gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D1
@@ -1460,15 +1460,15 @@ D2
 ~
 0 0 7850
 D5
-Bu patika yolculuğa devam etmek için hiç güvenli durmuyor.
+Bu patika yolculuÄŸa devam etmek iÃ§in hiÃ§ gÃ¼venli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7852
-Vadinin Kenarındaki Rüzgarlı bir Patika~
-Çora vadisinin kenarında dar bir yoldasın. Aşağıda, kır çiçekleri ve
-uzun, yeşil otlarla dolu vadiyi görüyorsun.
+Vadinin KenarÄ±ndaki RÃ¼zgarlÄ± bir Patika~
+Ã‡ora vadisinin kenarÄ±nda dar bir yoldasÄ±n. AÅŸaÄŸÄ±da, kÄ±r Ã§iÃ§ekleri ve
+uzun, yeÅŸil otlarla dolu vadiyi gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
@@ -1480,16 +1480,16 @@ D3
 ~
 0 0 7851
 D5
-Bu patika yolculuğa devam etmek için hiç güvenli durmuyor.
+Bu patika yolculuÄŸa devam etmek iÃ§in hiÃ§ gÃ¼venli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7853
-Vadinin Kenarındaki Rüzgarlı bir Patika~
-Çora vadisinin kenarında dar bir yoldasın. Aşağıda, kır çiçekleri ve
-uzun, yeşil otlarla dolu vadiyi görüyorsun.
-Vadiye inen güvenli bir patika dikkatini çekiyor.
+Vadinin KenarÄ±ndaki RÃ¼zgarlÄ± bir Patika~
+Ã‡ora vadisinin kenarÄ±nda dar bir yoldasÄ±n. AÅŸaÄŸÄ±da, kÄ±r Ã§iÃ§ekleri ve
+uzun, yeÅŸil otlarla dolu vadiyi gÃ¶rÃ¼yorsun.
+Vadiye inen gÃ¼venli bir patika dikkatini Ã§ekiyor.
 ~
 0 0 2
 D0
@@ -1501,15 +1501,15 @@ D2
 ~
 0 0 7852
 D5
-Aşağıdaki patika güvenli duruyor.
+AÅŸaÄŸÄ±daki patika gÃ¼venli duruyor.
 ~
 ~
 0 0 7817
 S
 #7854
-Vadinin Kenarındaki Rüzgarlı bir Patika~
-Çora vadisinin kenarında dar bir yoldasın. Aşağıda, kır çiçekleri ve
-uzun, yeşil otlarla dolu vadiyi görüyorsun.
+Vadinin KenarÄ±ndaki RÃ¼zgarlÄ± bir Patika~
+Ã‡ora vadisinin kenarÄ±nda dar bir yoldasÄ±n. AÅŸaÄŸÄ±da, kÄ±r Ã§iÃ§ekleri ve
+uzun, yeÅŸil otlarla dolu vadiyi gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D2
@@ -1521,15 +1521,15 @@ D3
 ~
 0 0 7855
 D5
-Bu patika yolculuğa devam etmek için hiç güvenli durmuyor.
+Bu patika yolculuÄŸa devam etmek iÃ§in hiÃ§ gÃ¼venli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7855
-Vadinin Kenarındaki Rüzgarlı bir Patika~
-Çora vadisinin kenarında dar bir yoldasın. Aşağıda, kır çiçekleri ve
-uzun, yeşil otlarla dolu vadiyi görüyorsun.
+Vadinin KenarÄ±ndaki RÃ¼zgarlÄ± bir Patika~
+Ã‡ora vadisinin kenarÄ±nda dar bir yoldasÄ±n. AÅŸaÄŸÄ±da, kÄ±r Ã§iÃ§ekleri ve
+uzun, yeÅŸil otlarla dolu vadiyi gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
@@ -1541,15 +1541,15 @@ D1
 ~
 0 0 7854
 D5
-Bu patika yolculuğa devam etmek için hiç güvenli durmuyor.
+Bu patika yolculuÄŸa devam etmek iÃ§in hiÃ§ gÃ¼venli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7856
-Vadinin Kenarındaki Rüzgarlı bir Patika~
-Çora vadisinin kenarında dar bir yoldasın. Aşağıda, kır çiçekleri ve
-uzun, yeşil otlarla dolu vadiyi görüyorsun.
+Vadinin KenarÄ±ndaki RÃ¼zgarlÄ± bir Patika~
+Ã‡ora vadisinin kenarÄ±nda dar bir yoldasÄ±n. AÅŸaÄŸÄ±da, kÄ±r Ã§iÃ§ekleri ve
+uzun, yeÅŸil otlarla dolu vadiyi gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D2
@@ -1561,15 +1561,15 @@ D3
 ~
 0 0 7857
 D5
-Bu patika yolculuğa devam etmek için hiç güvenli durmuyor.
+Bu patika yolculuÄŸa devam etmek iÃ§in hiÃ§ gÃ¼venli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7857
-Vadinin Kenarındaki Rüzgarlı bir Patika~
-Çora vadisinin kenarında dar bir yoldasın. Aşağıda, kır çiçekleri ve
-uzun, yeşil otlarla dolu vadiyi görüyorsun.
+Vadinin KenarÄ±ndaki RÃ¼zgarlÄ± bir Patika~
+Ã‡ora vadisinin kenarÄ±nda dar bir yoldasÄ±n. AÅŸaÄŸÄ±da, kÄ±r Ã§iÃ§ekleri ve
+uzun, yeÅŸil otlarla dolu vadiyi gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D1
@@ -1577,23 +1577,23 @@ D1
 ~
 0 0 7856
 D3
-Bir örme köprü görüyorsun.
+Bir Ã¶rme kÃ¶prÃ¼ gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7858
 D5
-Bu patika yolculuğa devam etmek için hiç güvenli durmuyor.
+Bu patika yolculuÄŸa devam etmek iÃ§in hiÃ§ gÃ¼venli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7858
-Örme Köprü~
-Örme köprünün üzerindesin. Buradan çoraların bütün vadisini görebiliyorsun.
-Güneyde ana vadiyi görüyorsun. Kuzeydoğuda, ortasında bir bina bulunan daha
-küçük bir vadi görüyorsunuz. Kuzeybatıda, merkezinde bir kulübe bulunan çok
-küçük bir vadi görebilirsiniz. Bir patikaya doğru inen örgüden
-bir merdiven görüyorsun.
+Ã–rme KÃ¶prÃ¼~
+Ã–rme kÃ¶prÃ¼nÃ¼n Ã¼zerindesin. Buradan Ã§oralarÄ±n bÃ¼tÃ¼n vadisini gÃ¶rebiliyorsun.
+GÃ¼neyde ana vadiyi gÃ¶rÃ¼yorsun. KuzeydoÄŸuda, ortasÄ±nda bir bina bulunan daha
+kÃ¼Ã§Ã¼k bir vadi gÃ¶rÃ¼yorsunuz. KuzeybatÄ±da, merkezinde bir kulÃ¼be bulunan Ã§ok
+kÃ¼Ã§Ã¼k bir vadi gÃ¶rebilirsiniz. Bir patikaya doÄŸru inen Ã¶rgÃ¼den
+bir merdiven gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D1
@@ -1605,19 +1605,19 @@ D3
 ~
 0 0 7859
 D5
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7826
 S
 #7859
-Vadinin Kenarındaki Rüzgarlı bir Patika~
-Çora vadisinin kenarında dar bir yoldasın. Aşağıda, kır çiçekleri ve
-uzun, yeşil otlarla dolu vadiyi görüyorsun.
+Vadinin KenarÄ±ndaki RÃ¼zgarlÄ± bir Patika~
+Ã‡ora vadisinin kenarÄ±nda dar bir yoldasÄ±n. AÅŸaÄŸÄ±da, kÄ±r Ã§iÃ§ekleri ve
+uzun, yeÅŸil otlarla dolu vadiyi gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D1
-Örme bir köprü görüyorsun.
+Ã–rme bir kÃ¶prÃ¼ gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7858
@@ -1626,15 +1626,15 @@ D3
 ~
 0 0 7860
 D5
-Bu patika yolculuğa devam etmek için hiç güvenli durmuyor.
+Bu patika yolculuÄŸa devam etmek iÃ§in hiÃ§ gÃ¼venli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7860
-Vadinin Kenarındaki Rüzgarlı bir Patika~
-Çora vadisinin kenarında dar bir yoldasın. Aşağıda, kır çiçekleri ve
-uzun, yeşil otlarla dolu vadiyi görüyorsun.
+Vadinin KenarÄ±ndaki RÃ¼zgarlÄ± bir Patika~
+Ã‡ora vadisinin kenarÄ±nda dar bir yoldasÄ±n. AÅŸaÄŸÄ±da, kÄ±r Ã§iÃ§ekleri ve
+uzun, yeÅŸil otlarla dolu vadiyi gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D1
@@ -1650,15 +1650,15 @@ D3
 ~
 0 0 8800
 D5
-Bu patika yolculuğa devam etmek için hiç güvenli durmuyor.
+Bu patika yolculuÄŸa devam etmek iÃ§in hiÃ§ gÃ¼venli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7861
-Vadinin Kenarındaki Rüzgarlı bir Patika~
-Çora vadisinin kenarında dar bir yoldasın. Aşağıda, kır çiçekleri ve
-uzun, yeşil otlarla dolu vadiyi görüyorsun.
+Vadinin KenarÄ±ndaki RÃ¼zgarlÄ± bir Patika~
+Ã‡ora vadisinin kenarÄ±nda dar bir yoldasÄ±n. AÅŸaÄŸÄ±da, kÄ±r Ã§iÃ§ekleri ve
+uzun, yeÅŸil otlarla dolu vadiyi gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
@@ -1670,15 +1670,15 @@ D3
 ~
 0 0 7862
 D5
-Bu patika yolculuğa devam etmek için hiç güvenli durmuyor.
+Bu patika yolculuÄŸa devam etmek iÃ§in hiÃ§ gÃ¼venli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7862
-Vadinin Kenarındaki Rüzgarlı bir Patika~
-Çora vadisinin kenarında dar bir yoldasın. Aşağıda, kır çiçekleri ve
-uzun, yeşil otlarla dolu vadiyi görüyorsun.
+Vadinin KenarÄ±ndaki RÃ¼zgarlÄ± bir Patika~
+Ã‡ora vadisinin kenarÄ±nda dar bir yoldasÄ±n. AÅŸaÄŸÄ±da, kÄ±r Ã§iÃ§ekleri ve
+uzun, yeÅŸil otlarla dolu vadiyi gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D1
@@ -1690,16 +1690,16 @@ D2
 ~
 0 0 7863
 D5
-Bu patika yolculuğa devam etmek için hiç güvenli durmuyor.
+Bu patika yolculuÄŸa devam etmek iÃ§in hiÃ§ gÃ¼venli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7863
-Vadinin Kenarındaki Rüzgarlı bir Patika~
-Çora vadisinin kenarında dar bir yoldasın. Aşağıda, kır çiçekleri ve
-uzun, yeşil otlarla dolu vadiyi görüyorsun.
-Vadiye inen güvenli bir patika dikkatini çekiyor.
+Vadinin KenarÄ±ndaki RÃ¼zgarlÄ± bir Patika~
+Ã‡ora vadisinin kenarÄ±nda dar bir yoldasÄ±n. AÅŸaÄŸÄ±da, kÄ±r Ã§iÃ§ekleri ve
+uzun, yeÅŸil otlarla dolu vadiyi gÃ¶rÃ¼yorsun.
+Vadiye inen gÃ¼venli bir patika dikkatini Ã§ekiyor.
 ~
 0 0 2
 D0
@@ -1717,9 +1717,9 @@ The trail down looks safe.
 0 0 7813
 S
 #7864
-Vadinin Kenarındaki Rüzgarlı bir Patika~
-Çora vadisinin kenarında dar bir yoldasın. Aşağıda, kır çiçekleri ve
-uzun, yeşil otlarla dolu vadiyi görüyorsun.
+Vadinin KenarÄ±ndaki RÃ¼zgarlÄ± bir Patika~
+Ã‡ora vadisinin kenarÄ±nda dar bir yoldasÄ±n. AÅŸaÄŸÄ±da, kÄ±r Ã§iÃ§ekleri ve
+uzun, yeÅŸil otlarla dolu vadiyi gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
@@ -1731,15 +1731,15 @@ D1
 ~
 0 0 7865
 D5
-Bu patika yolculuğa devam etmek için hiç güvenli durmuyor.
+Bu patika yolculuÄŸa devam etmek iÃ§in hiÃ§ gÃ¼venli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7865
-Vadinin Kenarındaki Rüzgarlı bir Patika~
-Çora vadisinin kenarında dar bir yoldasın. Aşağıda, kır çiçekleri ve
-uzun, yeşil otlarla dolu vadiyi görüyorsun.
+Vadinin KenarÄ±ndaki RÃ¼zgarlÄ± bir Patika~
+Ã‡ora vadisinin kenarÄ±nda dar bir yoldasÄ±n. AÅŸaÄŸÄ±da, kÄ±r Ã§iÃ§ekleri ve
+uzun, yeÅŸil otlarla dolu vadiyi gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D2
@@ -1751,15 +1751,15 @@ D3
 ~
 0 0 7864
 D5
-Bu patika yolculuğa devam etmek için hiç güvenli durmuyor.
+Bu patika yolculuÄŸa devam etmek iÃ§in hiÃ§ gÃ¼venli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7866
-Vadinin Kenarındaki Rüzgarlı bir Patika~
-Çora vadisinin kenarında dar bir yoldasın. Aşağıda, kır çiçekleri ve
-uzun, yeşil otlarla dolu vadiyi görüyorsun.
+Vadinin KenarÄ±ndaki RÃ¼zgarlÄ± bir Patika~
+Ã‡ora vadisinin kenarÄ±nda dar bir yoldasÄ±n. AÅŸaÄŸÄ±da, kÄ±r Ã§iÃ§ekleri ve
+uzun, yeÅŸil otlarla dolu vadiyi gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
@@ -1771,15 +1771,15 @@ D1
 ~
 0 0 7867
 D5
-Bu patika yolculuğa devam etmek için hiç güvenli durmuyor.
+Bu patika yolculuÄŸa devam etmek iÃ§in hiÃ§ gÃ¼venli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7867
-Vadinin Kenarındaki Rüzgarlı bir Patika~
-Çora vadisinin kenarında dar bir yoldasın. Aşağıda, kır çiçekleri ve
-uzun, yeşil otlarla dolu vadiyi görüyorsun.
+Vadinin KenarÄ±ndaki RÃ¼zgarlÄ± bir Patika~
+Ã‡ora vadisinin kenarÄ±nda dar bir yoldasÄ±n. AÅŸaÄŸÄ±da, kÄ±r Ã§iÃ§ekleri ve
+uzun, yeÅŸil otlarla dolu vadiyi gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D2
@@ -1791,262 +1791,262 @@ D3
 ~
 0 0 7866
 D5
-Bu patika yolculuğa devam etmek için hiç güvenli durmuyor.
+Bu patika yolculuÄŸa devam etmek iÃ§in hiÃ§ gÃ¼venli durmuyor.
 ~
 ~
 0 0 7883
 S
 #7868
-Patikadaki bir dönemeç~
-Ana vadiden uzanan patikada bir dönemeçtesin. Çevrenizdeki tepeler bu
-patikayı oldukça daraltıyor.
+Patikadaki bir dÃ¶nemeÃ§~
+Ana vadiden uzanan patikada bir dÃ¶nemeÃ§tesin. Ã‡evrenizdeki tepeler bu
+patikayÄ± oldukÃ§a daraltÄ±yor.
 ~
 0 0 2
 D0
-Patika kuzeye doğru devam ediyor.
+Patika kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7869
 D1
-Patika doğuya doğru devam ediyor.
+Patika doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7827
 S
 #7869
-Patikadaki bir dönemeç~
-Ana vadiden uzanan patikada bir dönemeçtesin. Çevrendeki tepeler bu
-patikayı oldukça daraltıyor. Batıda, daha da küçük bir vadi görüyorsun,
-ortasında küçük bir kulübe var gibi duruyor.
+Patikadaki bir dÃ¶nemeÃ§~
+Ana vadiden uzanan patikada bir dÃ¶nemeÃ§tesin. Ã‡evrendeki tepeler bu
+patikayÄ± oldukÃ§a daraltÄ±yor. BatÄ±da, daha da kÃ¼Ã§Ã¼k bir vadi gÃ¶rÃ¼yorsun,
+ortasÄ±nda kÃ¼Ã§Ã¼k bir kulÃ¼be var gibi duruyor.
 ~
 0 0 2
 D2
-Patika güneye doğru devam ediyor.
+Patika gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7868
 D3
-Küçük vadinin girişi batıda.
+KÃ¼Ã§Ã¼k vadinin giriÅŸi batÄ±da.
 ~
 ~
 0 0 7870
 S
 #7870
-Küçük Vadi~
-Küçük vadidesin. Burada garip bir şekilde uzun ağaçlar büyüyor, neredeyse
-büyümelerine yardımcı olmak için biraz sihir kullanılmış gibi. Bu vadiden
-çıkış doğudan, kulübeye giriş ise batıdandır.
+KÃ¼Ã§Ã¼k Vadi~
+KÃ¼Ã§Ã¼k vadidesin. Burada garip bir ÅŸekilde uzun aÄŸaÃ§lar bÃ¼yÃ¼yor, neredeyse
+bÃ¼yÃ¼melerine yardÄ±mcÄ± olmak iÃ§in biraz sihir kullanÄ±lmÄ±ÅŸ gibi. Bu vadiden
+Ã§Ä±kÄ±ÅŸ doÄŸudan, kulÃ¼beye giriÅŸ ise batÄ±dandÄ±r.
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7871
 D1
-Bu küçük vadiden çıkış doğuya doğrudur.
+Bu kÃ¼Ã§Ã¼k vadiden Ã§Ä±kÄ±ÅŸ doÄŸuya doÄŸrudur.
 ~
 ~
 0 0 7869
 D2
-Vadi güneye doğru devam ediyor.
+Vadi gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7872
 D3
-Küçük kulübeyi görüyorsun.
+KÃ¼Ã§Ã¼k kulÃ¼beyi gÃ¶rÃ¼yorsun.
 ~
 door~
 1 -1 7878
 S
 #7871
-Küçük Vadi~
-Küçük vadidesin. Burada garip bir şekilde uzun ağaçlar büyüyor, neredeyse
-büyümelerine yardımcı olmak için biraz sihir kullanılmış gibi.
-Güneybatıda küçük bir kulübe görüyorsun.
+KÃ¼Ã§Ã¼k Vadi~
+KÃ¼Ã§Ã¼k vadidesin. Burada garip bir ÅŸekilde uzun aÄŸaÃ§lar bÃ¼yÃ¼yor, neredeyse
+bÃ¼yÃ¼melerine yardÄ±mcÄ± olmak iÃ§in biraz sihir kullanÄ±lmÄ±ÅŸ gibi.
+GÃ¼neybatÄ±da kÃ¼Ã§Ã¼k bir kulÃ¼be gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D2
-Vadi güneye doğru devam ediyor.
+Vadi gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7870
 D3
-Vadi batıya doğru devam ediyor.
+Vadi batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7873
 S
 #7872
-Küçük Vadi~
-Küçük vadidesin. Burada garip bir şekilde uzun ağaçlar büyüyor, neredeyse
-büyümelerine yardımcı olmak için biraz sihir kullanılmış gibi.
-Kuzeybatıda küçük bir kulübe görüyorsun.
+KÃ¼Ã§Ã¼k Vadi~
+KÃ¼Ã§Ã¼k vadidesin. Burada garip bir ÅŸekilde uzun aÄŸaÃ§lar bÃ¼yÃ¼yor, neredeyse
+bÃ¼yÃ¼melerine yardÄ±mcÄ± olmak iÃ§in biraz sihir kullanÄ±lmÄ±ÅŸ gibi.
+KuzeybatÄ±da kÃ¼Ã§Ã¼k bir kulÃ¼be gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7870
 D3
-Vadi batıya doğru devam ediyor.
+Vadi batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7877
 S
 #7873
-Küçük Vadi~
-Küçük vadidesin. Burada garip bir şekilde uzun ağaçlar büyüyor, neredeyse
-büyümelerine yardımcı olmak için biraz sihir kullanılmış gibi.
-Güneyde küçük bir kulübe görüyorsun.
+KÃ¼Ã§Ã¼k Vadi~
+KÃ¼Ã§Ã¼k vadidesin. Burada garip bir ÅŸekilde uzun aÄŸaÃ§lar bÃ¼yÃ¼yor, neredeyse
+bÃ¼yÃ¼melerine yardÄ±mcÄ± olmak iÃ§in biraz sihir kullanÄ±lmÄ±ÅŸ gibi.
+GÃ¼neyde kÃ¼Ã§Ã¼k bir kulÃ¼be gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D1
-Vadi doğuya doğru devam ediyor.
+Vadi doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7871
 D3
-Vadi batıya doğru devam ediyor.
+Vadi batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7874
 S
 #7874
-Küçük Vadi~
-Küçük vadidesin. Burada garip bir şekilde uzun ağaçlar büyüyor, neredeyse
-büyümelerine yardımcı olmak için biraz sihir kullanılmış gibi. Güneydoğuda
-küçük bir kulübe kuzeyde ise yüksek bir kulenin meşe kapılarını görüyorsun.
+KÃ¼Ã§Ã¼k Vadi~
+KÃ¼Ã§Ã¼k vadidesin. Burada garip bir ÅŸekilde uzun aÄŸaÃ§lar bÃ¼yÃ¼yor, neredeyse
+bÃ¼yÃ¼melerine yardÄ±mcÄ± olmak iÃ§in biraz sihir kullanÄ±lmÄ±ÅŸ gibi. GÃ¼neydoÄŸuda
+kÃ¼Ã§Ã¼k bir kulÃ¼be kuzeyde ise yÃ¼ksek bir kulenin meÅŸe kapÄ±larÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D1
-Vadi doğuya doğru devam ediyor.
+Vadi doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7873
 D2
-Vadi güneye doğru devam ediyor.
+Vadi gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7875
 S
 #7875
-Küçük Vadi~
-Küçük vadidesin. Burada garip bir şekilde uzun ağaçlar büyüyor, neredeyse
-büyümelerine yardımcı olmak için biraz sihir kullanılmış gibi.
-Doğuda küçük bir kulübe görüyorsun
+KÃ¼Ã§Ã¼k Vadi~
+KÃ¼Ã§Ã¼k vadidesin. Burada garip bir ÅŸekilde uzun aÄŸaÃ§lar bÃ¼yÃ¼yor, neredeyse
+bÃ¼yÃ¼melerine yardÄ±mcÄ± olmak iÃ§in biraz sihir kullanÄ±lmÄ±ÅŸ gibi.
+DoÄŸuda kÃ¼Ã§Ã¼k bir kulÃ¼be gÃ¶rÃ¼yorsun
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7874
 D2
-Vadi güneye doğru devam ediyor.
+Vadi gÃ¼neye doÄŸru devam ediyor.
 ~
 ~
 0 0 7876
 S
 #7876
-Küçük Vadi~
-Küçük vadidesin. Burada garip bir şekilde uzun ağaçlar büyüyor, neredeyse
-büyümelerine yardımcı olmak için biraz sihir kullanılmış gibi.
-Kuzeydoğuda küçük bir kulübe görüyorsun.
+KÃ¼Ã§Ã¼k Vadi~
+KÃ¼Ã§Ã¼k vadidesin. Burada garip bir ÅŸekilde uzun aÄŸaÃ§lar bÃ¼yÃ¼yor, neredeyse
+bÃ¼yÃ¼melerine yardÄ±mcÄ± olmak iÃ§in biraz sihir kullanÄ±lmÄ±ÅŸ gibi.
+KuzeydoÄŸuda kÃ¼Ã§Ã¼k bir kulÃ¼be gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
-Vadi kuzeye doğru devam ediyor.
+Vadi kuzeye doÄŸru devam ediyor.
 ~
 ~
 0 0 7875
 D1
-Vadi doğuya doğru devam ediyor.
+Vadi doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7877
 S
 #7877
-Küçük Vadi~
-Küçük vadidesin. Burada garip bir şekilde uzun ağaçlar büyüyor, neredeyse
-büyümelerine yardımcı olmak için biraz sihir kullanılmış gibi.
-Kuzeyde küçük bir kulübe görüyorsun.
+KÃ¼Ã§Ã¼k Vadi~
+KÃ¼Ã§Ã¼k vadidesin. Burada garip bir ÅŸekilde uzun aÄŸaÃ§lar bÃ¼yÃ¼yor, neredeyse
+bÃ¼yÃ¼melerine yardÄ±mcÄ± olmak iÃ§in biraz sihir kullanÄ±lmÄ±ÅŸ gibi.
+Kuzeyde kÃ¼Ã§Ã¼k bir kulÃ¼be gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D1
-Vadi doğuya doğru devam ediyor.
+Vadi doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 0 7872
 D3
-Vadi batıya doğru devam ediyor.
+Vadi batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 0 7876
 S
 #7878
-Küçük Kulübenin İçi~
-Küçük kulübenin içindesin. Kenarda küçük bir soba görüyorsun,
-üzerinde çorba pişiyor. Değerli bir şey görmüyorsun.
+KÃ¼Ã§Ã¼k KulÃ¼benin Ä°Ã§i~
+KÃ¼Ã§Ã¼k kulÃ¼benin iÃ§indesin. Kenarda kÃ¼Ã§Ã¼k bir soba gÃ¶rÃ¼yorsun,
+Ã¼zerinde Ã§orba piÅŸiyor. DeÄŸerli bir ÅŸey gÃ¶rmÃ¼yorsun.
 ~
 0 D 0
 D1
-Dışarıda vadiyi görüyorsun.
+DÄ±ÅŸarÄ±da vadiyi gÃ¶rÃ¼yorsun.
 ~
 door~
 1 -1 7870
 D5
-Bir tuzak kapısı görüyorsun!
+Bir tuzak kapÄ±sÄ± gÃ¶rÃ¼yorsun!
 ~
 trap door~
 1 -1 7879
 S
 #7879
-Küçük Kulübenin Aşağısı~
-Küçük kulübenin altında güneye giden bir tüneldesin. Burası oldukça
-sıcak hissettiriyor.
+KÃ¼Ã§Ã¼k KulÃ¼benin AÅŸaÄŸÄ±sÄ±~
+KÃ¼Ã§Ã¼k kulÃ¼benin altÄ±nda gÃ¼neye giden bir tÃ¼neldesin. BurasÄ± oldukÃ§a
+sÄ±cak hissettiriyor.
 ~
 0 AD 0
 D2
-Kırmızımsı duran bir oda görüyorsun.
+KÄ±rmÄ±zÄ±msÄ± duran bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7880
 D4
-Bildiğin bir yere geri döndün!
+BildiÄŸin bir yere geri dÃ¶ndÃ¼n!
 ~
 trap door~
 1 -1 7878
 S
 #7880
-Ateş Hidrası'nın İni~
-Sen Ateş Hidrası'nın inindesin. Bütün duvarlar kömürleşmiş ve bu
-oda tamamen yanan katrana yakın bir koku ile dolu.
+AteÅŸ HidrasÄ±'nÄ±n Ä°ni~
+Sen AteÅŸ HidrasÄ±'nÄ±n inindesin. BÃ¼tÃ¼n duvarlar kÃ¶mÃ¼rleÅŸmiÅŸ ve bu
+oda tamamen yanan katrana yakÄ±n bir koku ile dolu.
 ~
 0 AD 0
 D0
-Kuzeydeki nispi güvenliği görüyorsun.
+Kuzeydeki nispi gÃ¼venliÄŸi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 7879
 D1
-Doğudaki kömürleşmiş kayada kırılmalar görüyorsun.
+DoÄŸudaki kÃ¶mÃ¼rleÅŸmiÅŸ kayada kÄ±rÄ±lmalar gÃ¶rÃ¼yorsun.
 ~
 secret~
 1 7805 7882
 D3
-Batıda bir kapı görüyorsun.
+BatÄ±da bir kapÄ± gÃ¶rÃ¼yorsun.
 ~
 door~
 1 7805 7881
 S
 #7881
-Çalışma odası~
-Bu oda büyülü çalışmalar için kullanılıyormuş gibi görünüyor.
-İksirler brülörlerin üzerinde kabarcıklar oluşturuyor ve tüm
-oda ot ve ölü hayvan eti kokuyor. Kenardaki bir fırın odayı
-aydınlatıyor. Bütün oda büyülü bir aura kaplı.
+Ã‡alÄ±ÅŸma odasÄ±~
+Bu oda bÃ¼yÃ¼lÃ¼ Ã§alÄ±ÅŸmalar iÃ§in kullanÄ±lÄ±yormuÅŸ gibi gÃ¶rÃ¼nÃ¼yor.
+Ä°ksirler brÃ¼lÃ¶rlerin Ã¼zerinde kabarcÄ±klar oluÅŸturuyor ve tÃ¼m
+oda ot ve Ã¶lÃ¼ hayvan eti kokuyor. Kenardaki bir fÄ±rÄ±n odayÄ±
+aydÄ±nlatÄ±yor. BÃ¼tÃ¼n oda bÃ¼yÃ¼lÃ¼ bir aura kaplÄ±.
 ~
 0 D 0
 D1
@@ -2056,8 +2056,8 @@ door~
 S
 #7882
 Depo~
-Bu oda parşömenleri, iksirleri ve diğer büyülü eşyaları
-saklamak için kullanılıyor. Bütün oda büyülü bir aura ile kaplı.
+Bu oda parÅŸÃ¶menleri, iksirleri ve diÄŸer bÃ¼yÃ¼lÃ¼ eÅŸyalarÄ±
+saklamak iÃ§in kullanÄ±lÄ±yor. BÃ¼tÃ¼n oda bÃ¼yÃ¼lÃ¼ bir aura ile kaplÄ±.
 ~
 0 D 0
 D3
@@ -2066,18 +2066,18 @@ secret door~
 1 7805 7880
 S
 #7883
-Vadinin derinliklerine doğru giden YOL!~
-Dik bir yokuştan aşağı inmeye çalışırken düştün.
-Belki de bu iyi bir fikir değildi ha?
+Vadinin derinliklerine doÄŸru giden YOL!~
+Dik bir yokuÅŸtan aÅŸaÄŸÄ± inmeye Ã§alÄ±ÅŸÄ±rken dÃ¼ÅŸtÃ¼n.
+Belki de bu iyi bir fikir deÄŸildi ha?
 
-Yuvarlandın, ve kalkamayacak kadar sersemledin.. Seni zavallı küçük şey!
+YuvarlandÄ±n, ve kalkamayacak kadar sersemledin.. Seni zavallÄ± kÃ¼Ã§Ã¼k ÅŸey!
 ~
 0 C 0
 S
 #0
 #RESETS
 D 0 7829   0    1	* A Smaller Valley north
-D 0 7834   2    1	* The Çora Home south
+D 0 7834   2    1	* The Ã‡ora Home south
 D 0 7845   1    2	* The Elders' Room east
 D 0 7846   3    2	* The Storage Room west
 D 0 7845   0    1	* The Elders' Room north
@@ -2100,95 +2100,95 @@ M 0 7800   6 7837  1	* a cooshee
 M 0 7800   6 7873  1	* a cooshee
 M 0 7800   6 7823  1	* a cooshee
 M 0 7800   6 7833  1	* a cooshee
-M 0 7801   6 7805  1	* a valley çora
-E 1 7802  -1   16	*   an çora longsword
-M 0 7801   6 7820  1	* a valley çora
-E 1 7802  -1   16	*   an çora longsword
-M 0 7801   6 7818  1	* a valley çora
-E 1 7802  -1   16	*   an çora longsword
-M 0 7801   6 7844  1	* a valley çora
-E 1 7802  -1   16	*   an çora longsword
-M 0 7801   6 7877  1	* a valley çora
-E 1 7802  -1   16	*   an çora longsword
-M 0 7801   6 7816  1	* a valley çora
-E 1 7802  -1   16	*   an çora longsword
-M 0 7802   6 7868  1	* a valley çora
-E 1 7802  -1   16	*   an çora longsword
-M 0 7802   6 7811  1	* a valley çora
-E 1 7802  -1   16	*   an çora longsword
-M 0 7802   6 7865  1	* a valley çora
-E 1 7802  -1   16	*   an çora longsword
-M 0 7802   6 7854  1	* a valley çora
-E 1 7802  -1   16	*   an çora longsword
-M 0 7802   6 7842  1	* a valley çora
-E 1 7802  -1   16	*   an çora longsword
-M 0 7802   6 7820  1	* a valley çora
-E 1 7802  -1   16	*   an çora longsword
-M 0 7803   1 7853  1	* a valley çora sentry
-E 1 7800   9    5	*   çora chainmail
-E 1 7801   9    8	*   çora boots
-E 1 7802  -1   16	*   an çora longsword
+M 0 7801   6 7805  1	* a valley Ã§ora
+E 1 7802  -1   16	*   an Ã§ora longsword
+M 0 7801   6 7820  1	* a valley Ã§ora
+E 1 7802  -1   16	*   an Ã§ora longsword
+M 0 7801   6 7818  1	* a valley Ã§ora
+E 1 7802  -1   16	*   an Ã§ora longsword
+M 0 7801   6 7844  1	* a valley Ã§ora
+E 1 7802  -1   16	*   an Ã§ora longsword
+M 0 7801   6 7877  1	* a valley Ã§ora
+E 1 7802  -1   16	*   an Ã§ora longsword
+M 0 7801   6 7816  1	* a valley Ã§ora
+E 1 7802  -1   16	*   an Ã§ora longsword
+M 0 7802   6 7868  1	* a valley Ã§ora
+E 1 7802  -1   16	*   an Ã§ora longsword
+M 0 7802   6 7811  1	* a valley Ã§ora
+E 1 7802  -1   16	*   an Ã§ora longsword
+M 0 7802   6 7865  1	* a valley Ã§ora
+E 1 7802  -1   16	*   an Ã§ora longsword
+M 0 7802   6 7854  1	* a valley Ã§ora
+E 1 7802  -1   16	*   an Ã§ora longsword
+M 0 7802   6 7842  1	* a valley Ã§ora
+E 1 7802  -1   16	*   an Ã§ora longsword
+M 0 7802   6 7820  1	* a valley Ã§ora
+E 1 7802  -1   16	*   an Ã§ora longsword
+M 0 7803   1 7853  1	* a valley Ã§ora sentry
+E 1 7800   9    5	*   Ã§ora chainmail
+E 1 7801   9    8	*   Ã§ora boots
+E 1 7802  -1   16	*   an Ã§ora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7803   4 7866  1	* a valley çora sentry
-E 1 7800   9    5	*   çora chainmail
-E 1 7801   9    8	*   çora boots
-E 1 7802  -1   16	*   an çora longsword
+M 0 7803   4 7866  1	* a valley Ã§ora sentry
+E 1 7800   9    5	*   Ã§ora chainmail
+E 1 7801   9    8	*   Ã§ora boots
+E 1 7802  -1   16	*   an Ã§ora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7803   4 7860  1	* a valley çora sentry
-E 1 7800   9    5	*   çora chainmail
-E 1 7801   9    8	*   çora boots
-E 1 7802  -1   16	*   an çora longsword
+M 0 7803   4 7860  1	* a valley Ã§ora sentry
+E 1 7800   9    5	*   Ã§ora chainmail
+E 1 7801   9    8	*   Ã§ora boots
+E 1 7802  -1   16	*   an Ã§ora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7803   4 7848  1	* a valley çora sentry
-E 1 7800   9    5	*   çora chainmail
-E 1 7801   9    8	*   çora boots
-E 1 7802  -1   16	*   an çora longsword
+M 0 7803   4 7848  1	* a valley Ã§ora sentry
+E 1 7800   9    5	*   Ã§ora chainmail
+E 1 7801   9    8	*   Ã§ora boots
+E 1 7802  -1   16	*   an Ã§ora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7804   4 7850  1	* a valley çora sentry
-E 1 7800   9    5	*   çora chainmail
-E 1 7801   9    8	*   çora boots
-E 1 7802  -1   16	*   an çora longsword
+M 0 7804   4 7850  1	* a valley Ã§ora sentry
+E 1 7800   9    5	*   Ã§ora chainmail
+E 1 7801   9    8	*   Ã§ora boots
+E 1 7802  -1   16	*   an Ã§ora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7804   4 7856  1	* a valley çora sentry
-E 1 7800   9    5	*   çora chainmail
-E 1 7801   9    8	*   çora boots
-E 1 7802  -1   16	*   an çora longsword
+M 0 7804   4 7856  1	* a valley Ã§ora sentry
+E 1 7800   9    5	*   Ã§ora chainmail
+E 1 7801   9    8	*   Ã§ora boots
+E 1 7802  -1   16	*   an Ã§ora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7804   4 7863  1	* a valley çora sentry
-E 1 7800   9    5	*   çora chainmail
-E 1 7801   9    8	*   çora boots
-E 1 7802  -1   16	*   an çora longsword
+M 0 7804   4 7863  1	* a valley Ã§ora sentry
+E 1 7800   9    5	*   Ã§ora chainmail
+E 1 7801   9    8	*   Ã§ora boots
+E 1 7802  -1   16	*   an Ã§ora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7804   4 7848  1	* a valley çora sentry
-E 1 7800   9    5	*   çora chainmail
-E 1 7801   9    8	*   çora boots
-E 1 7802  -1   16	*   an çora longsword
+M 0 7804   4 7848  1	* a valley Ã§ora sentry
+E 1 7800   9    5	*   Ã§ora chainmail
+E 1 7801   9    8	*   Ã§ora boots
+E 1 7802  -1   16	*   an Ã§ora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7805   5 7852  1	* a valley çora scout
-E 1 7801   9    8	*   çora boots
-E 1 7802  -1   16	*   an çora longsword
+M 0 7805   5 7852  1	* a valley Ã§ora scout
+E 1 7801   9    8	*   Ã§ora boots
+E 1 7802  -1   16	*   an Ã§ora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7805   5 7862  1	* a valley çora scout
-E 1 7801   9    8	*   çora boots
-E 1 7802  -1   16	*   an çora longsword
+M 0 7805   5 7862  1	* a valley Ã§ora scout
+E 1 7801   9    8	*   Ã§ora boots
+E 1 7802  -1   16	*   an Ã§ora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7805   5 7827  1	* a valley çora scout
-E 1 7801   9    8	*   çora boots
-E 1 7802  -1   16	*   an çora longsword
+M 0 7805   5 7827  1	* a valley Ã§ora scout
+E 1 7801   9    8	*   Ã§ora boots
+E 1 7802  -1   16	*   an Ã§ora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7805   5 7842  1	* a valley çora scout
-E 1 7801   9    8	*   çora boots
-E 1 7802  -1   16	*   an çora longsword
+M 0 7805   5 7842  1	* a valley Ã§ora scout
+E 1 7801   9    8	*   Ã§ora boots
+E 1 7802  -1   16	*   an Ã§ora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7805   5 7876  1	* a valley çora scout
-E 1 7801   9    8	*   çora boots
-E 1 7802  -1   16	*   an çora longsword
+M 0 7805   5 7876  1	* a valley Ã§ora scout
+E 1 7801   9    8	*   Ã§ora boots
+E 1 7802  -1   16	*   an Ã§ora longsword
 E 1 7803   9    3	*   a brown cloak
-M 0 7806   5 7847  2	* a valley çora
-M 0 7806   5 7847  2	* a valley çora
-M 0 7806   5 7835  1	* a valley çora
-M 0 7806   5 7838  1	* a valley çora
-M 0 7806   5 7839  1	* a valley çora
+M 0 7806   5 7847  2	* a valley Ã§ora
+M 0 7806   5 7847  2	* a valley Ã§ora
+M 0 7806   5 7835  1	* a valley Ã§ora
+M 0 7806   5 7838  1	* a valley Ã§ora
+M 0 7806   5 7839  1	* a valley Ã§ora
 O 0 7809   9 7846	* a potion
 O 0 7823   9 7846	* a scroll
 O 0 7820   9 7846	* a scroll
@@ -2208,11 +2208,11 @@ O 0 7818   9 7882	* a scroll
 O 0 7814   9 7882	* a potion
 O 0 7813   9 7882	* a potion
 O 0 7823   9 7882	* a scroll
-M 0 7807   1 7845  1	* a valley çora elder
+M 0 7807   1 7845  1	* a valley Ã§ora elder
 G 1 7804  -1     	*   a key
 E 1 7806   5    1	*   a gold ring
 E 1 7825  -1   16	*   a quarterstaff
-M 0 7808   1 7845  1	* a valley çora elder
+M 0 7808   1 7845  1	* a valley Ã§ora elder
 E 1 7806   5    1	*   a gold ring
 E 1 7825  -1   16	*   a quarterstaff
 M 0 7809   1 7880  1	* the pyrohydra
@@ -2233,8 +2233,8 @@ S
 #SHOPS
 0
 #SPECIALS
-M 7807 spec_cast_cleric    	* a valley çora elder
-M 7808 spec_cast_mage      	* a valley çora elder
+M 7807 spec_cast_cleric    	* a valley Ã§ora elder
+M 7808 spec_cast_mage      	* a valley Ã§ora elder
 M 7809 spec_breath_fire    	* the pyrohydra
 M 7811 spec_cast_mage      	* Talemon
 S

@@ -3,7 +3,7 @@ Filename ofcol.are~
 Name Ofcol~
 Builder Alfa~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 1
 Highlevel 100
 Minvnum 5500
@@ -21,155 +21,155 @@ END
 
 #ROOMS
 #5550
-Köy sokağı~
-Ofcol'da, küçük bir köy caddesinde duruyorsunuz. Buradan
-küçük evler ve birkaç insan görebiliyorsunuz. Buradan
-kuzeye doğru insanların her zamanki gibi toplandığı alana
-cadde uzanıyor.
+KÃ¶y sokaÄŸÄ±~
+Ofcol'da, kÃ¼Ã§Ã¼k bir kÃ¶y caddesinde duruyorsunuz. Buradan
+kÃ¼Ã§Ã¼k evler ve birkaÃ§ insan gÃ¶rebiliyorsunuz. Buradan
+kuzeye doÄŸru insanlarÄ±n her zamanki gibi toplandÄ±ÄŸÄ± alana
+cadde uzanÄ±yor.
 ~
 0 0 1
 D0
-Sokaklara baktığınızda pek ilginç veya özel şeyler görmüyorsunuz.
+Sokaklara baktÄ±ÄŸÄ±nÄ±zda pek ilginÃ§ veya Ã¶zel ÅŸeyler gÃ¶rmÃ¼yorsunuz.
 ~
 ~
 0 -1 5551
 D2
-Bu geniş yol güneye, T kavşağına doğru gidiyor.
+Bu geniÅŸ yol gÃ¼neye, T kavÅŸaÄŸÄ±na doÄŸru gidiyor.
 ~
 ~
 0 -1 314
 S
 #5551
-Köy sokağı~
-Ofcol'da, küçük bir köy caddesinde duruyorsunuz. Buradan doğuda
-Küçük bir sokak var. Kuzeye giderek köy meydanına çıkabilirsiniz.
-Güneye doğru giderek de Ofcol şehrinden ayrılabilirsiniz.
+KÃ¶y sokaÄŸÄ±~
+Ofcol'da, kÃ¼Ã§Ã¼k bir kÃ¶y caddesinde duruyorsunuz. Buradan doÄŸuda
+KÃ¼Ã§Ã¼k bir sokak var. Kuzeye giderek kÃ¶y meydanÄ±na Ã§Ä±kabilirsiniz.
+GÃ¼neye doÄŸru giderek de Ofcol ÅŸehrinden ayrÄ±labilirsiniz.
 ~
 0 0 1
 D0
-Köy meydanı her zamanki gibi çok kalabalık değil.
+KÃ¶y meydanÄ± her zamanki gibi Ã§ok kalabalÄ±k deÄŸil.
 ~
 ~
 0 -1 5552
 D1
-Küçük yol sakin ve huzurlu görünüyor.
+KÃ¼Ã§Ã¼k yol sakin ve huzurlu gÃ¶rÃ¼nÃ¼yor.
 ~
 ~
 0 -1 5553
 D2
-Yavaşça genişleyen köy sokağını görüyorsunuz.
+YavaÅŸÃ§a geniÅŸleyen kÃ¶y sokaÄŸÄ±nÄ± gÃ¶rÃ¼yorsunuz.
 ~
 ~
 0 -1 5550
 S
 #5552
-Köy meydanı~
-Köy alanı köyün sakinlerinin toplanıp konuşabileceği,
-ticaret ve eşya satımı yapabileceği ve sadece güzel
-bir vakit geçirebileceği bir yer. Batıda küçük bir
-dükkan ve kuzeyde köyün yerli hanını görüyorsunuz.
-Ayrılacaksanız güneye, köy sokağına gidebilirsiniz.
+KÃ¶y meydanÄ±~
+KÃ¶y alanÄ± kÃ¶yÃ¼n sakinlerinin toplanÄ±p konuÅŸabileceÄŸi,
+ticaret ve eÅŸya satÄ±mÄ± yapabileceÄŸi ve sadece gÃ¼zel
+bir vakit geÃ§irebileceÄŸi bir yer. BatÄ±da kÃ¼Ã§Ã¼k bir
+dÃ¼kkan ve kuzeyde kÃ¶yÃ¼n yerli hanÄ±nÄ± gÃ¶rÃ¼yorsunuz.
+AyrÄ±lacaksanÄ±z gÃ¼neye, kÃ¶y sokaÄŸÄ±na gidebilirsiniz.
 ~
 0 0 1
 D0
-'Ofcol yerel hanı' adlı bir han görüyorsunuz. Hoş görünüyor.
+'Ofcol yerel hanÄ±' adlÄ± bir han gÃ¶rÃ¼yorsunuz. HoÅŸ gÃ¶rÃ¼nÃ¼yor.
 ~
 ~
 0 -1 5556
 D2
-Ofcol şehrinin köy sokağını görüyorsunuz.
+Ofcol ÅŸehrinin kÃ¶y sokaÄŸÄ±nÄ± gÃ¶rÃ¼yorsunuz.
 ~
 ~
 0 -1 5551
 D3
-'Luxan'ın Karışık eşyaları' yazılı tabelasıyla küçük bir dükkan.
+'Luxan'Ä±n KarÄ±ÅŸÄ±k eÅŸyalarÄ±' yazÄ±lÄ± tabelasÄ±yla kÃ¼Ã§Ã¼k bir dÃ¼kkan.
 ~
 ~
 0 -1 5555
 S
 #5553
-Küçük sokak~
-Küçük ve sessiz bir sokaktasınız. Buradan batıda köy sokağını
-görüyorsunuz ve güneyde küçük bir oda var.
+KÃ¼Ã§Ã¼k sokak~
+KÃ¼Ã§Ã¼k ve sessiz bir sokaktasÄ±nÄ±z. Buradan batÄ±da kÃ¶y sokaÄŸÄ±nÄ±
+gÃ¶rÃ¼yorsunuz ve gÃ¼neyde kÃ¼Ã§Ã¼k bir oda var.
 ~
 0 0 1
 D1
-Büyük bir kesişme yeri görüyorsunuz.
+BÃ¼yÃ¼k bir kesiÅŸme yeri gÃ¶rÃ¼yorsunuz.
 ~
 ~
 0 0 601
 D2
-Bir pratik odasının gelecekteki yüzü gibi görünüyor.
+Bir pratik odasÄ±nÄ±n gelecekteki yÃ¼zÃ¼ gibi gÃ¶rÃ¼nÃ¼yor.
 ~
 ~
 0 -1 5554
 D3
-Köy sokağı hariç hiçbir şey fark etmiyorsunuz.
+KÃ¶y sokaÄŸÄ± hariÃ§ hiÃ§bir ÅŸey fark etmiyorsunuz.
 ~
 ~
 0 -1 5551
 S
 #5554
-Gelecekteki pratik odası~
-Bu bir pratik odasının gelecekteki yüzü gibi görünüyor. Tek çıkış
-Küçük sokağa, kuzeye doğru gidiyor.
+Gelecekteki pratik odasÄ±~
+Bu bir pratik odasÄ±nÄ±n gelecekteki yÃ¼zÃ¼ gibi gÃ¶rÃ¼nÃ¼yor. Tek Ã§Ä±kÄ±ÅŸ
+KÃ¼Ã§Ã¼k sokaÄŸa, kuzeye doÄŸru gidiyor.
 ~
 0 D 1
 D0
-Gerçekten ilginç olmayan küçük yolu görebiliyorsunuz.
+GerÃ§ekten ilginÃ§ olmayan kÃ¼Ã§Ã¼k yolu gÃ¶rebiliyorsunuz.
 ~
 ~
 0 -1 5553
 S
 #5555
-Luxan'ın karışık eşyalar dükkanı~
-Her çeşit eşyanın konduğu küçük bir dükkanda duruyorsunuz.
-burada sadece aradığınız şeyi bulabilirsiniz. Tek çıkış
-doğudan köy meydanına çıkıyor.
+Luxan'Ä±n karÄ±ÅŸÄ±k eÅŸyalar dÃ¼kkanÄ±~
+Her Ã§eÅŸit eÅŸyanÄ±n konduÄŸu kÃ¼Ã§Ã¼k bir dÃ¼kkanda duruyorsunuz.
+burada sadece aradÄ±ÄŸÄ±nÄ±z ÅŸeyi bulabilirsiniz. Tek Ã§Ä±kÄ±ÅŸ
+doÄŸudan kÃ¶y meydanÄ±na Ã§Ä±kÄ±yor.
 ~
 0 D 1
 D1
-Köy meydanı her zamanki gibi çok kalabalık değil.
+KÃ¶y meydanÄ± her zamanki gibi Ã§ok kalabalÄ±k deÄŸil.
 ~
 ~
 0 -1 5552
 S
 #5556
 Yerel Han~
-Ofcol insanlarının huzurlu bir biçimde toplanıp konuştuğu ve
-boğazlarını serinlettiği bir yerel handasınız. Ofcol'un seyrek
-nüfuslu bir şehir olmadığını anlıyorsunuz çünkü burada bir çok
-insan var. Tek çıkış güneyden köy meydanına çıkıyor.
+Ofcol insanlarÄ±nÄ±n huzurlu bir biÃ§imde toplanÄ±p konuÅŸtuÄŸu ve
+boÄŸazlarÄ±nÄ± serinlettiÄŸi bir yerel handasÄ±nÄ±z. Ofcol'un seyrek
+nÃ¼fuslu bir ÅŸehir olmadÄ±ÄŸÄ±nÄ± anlÄ±yorsunuz Ã§Ã¼nkÃ¼ burada bir Ã§ok
+insan var. Tek Ã§Ä±kÄ±ÅŸ gÃ¼neyden kÃ¶y meydanÄ±na Ã§Ä±kÄ±yor.
 ~
 0 D 1
 D2
-Köy meydanı her zamanki gibi çok kalabalık değil.
+KÃ¶y meydanÄ± her zamanki gibi Ã§ok kalabalÄ±k deÄŸil.
 ~
 ~
 0 -1 5552
 S
 #5577
-Ravan'ın saklandığı yer~
-Burası kimsenin sizi rahatsız etmeyeceği küçük ve keyifli bir yer.
-Duvarlara asılmış bir kaç tablo ile ufak bir dekorasyon yapılmış.
-Bu odadan çıkış olmadığını görüyorsunuz.
+Ravan'Ä±n saklandÄ±ÄŸÄ± yer~
+BurasÄ± kimsenin sizi rahatsÄ±z etmeyeceÄŸi kÃ¼Ã§Ã¼k ve keyifli bir yer.
+Duvarlara asÄ±lmÄ±ÅŸ bir kaÃ§ tablo ile ufak bir dekorasyon yapÄ±lmÄ±ÅŸ.
+Bu odadan Ã§Ä±kÄ±ÅŸ olmadÄ±ÄŸÄ±nÄ± gÃ¶rÃ¼yorsunuz.
 ~
 0 C 0
 E
-arkadaş arkadaşlar~
-Liste belli başlı isimleri de içeriyor: Tanrı, Lottie, Kurgan,
+arkadaÅŸ arkadaÅŸlar~
+Liste belli baÅŸlÄ± isimleri de iÃ§eriyor: TanrÄ±, Lottie, Kurgan,
 Ezzard, Mike, Sprocket ve Stormbringer.
 ~
 E
-düşman düşmanlar~
+dÃ¼ÅŸman dÃ¼ÅŸmanlar~
 Burada sadece bir resim var... Dim.
-Bu resimde onun şehrin kuzeyinde asılışı konu alınmış. Resmin
-Aşağısına R.I.P yazılmış.
+Bu resimde onun ÅŸehrin kuzeyinde asÄ±lÄ±ÅŸÄ± konu alÄ±nmÄ±ÅŸ. Resmin
+AÅŸaÄŸÄ±sÄ±na R.I.P yazÄ±lmÄ±ÅŸ.
 ~
 E
 resimler resim dekorasyon~
-Bu resim Ravan'ın dostları ve düşmanlarını gösteriyor. Ayırması
-kolay çünkü bir çok düşmanının altına R.I.P. yazılmış.
+Bu resim Ravan'Ä±n dostlarÄ± ve dÃ¼ÅŸmanlarÄ±nÄ± gÃ¶steriyor. AyÄ±rmasÄ±
+kolay Ã§Ã¼nkÃ¼ bir Ã§ok dÃ¼ÅŸmanÄ±nÄ±n altÄ±na R.I.P. yazÄ±lmÄ±ÅŸ.
 ~
 S
 #0

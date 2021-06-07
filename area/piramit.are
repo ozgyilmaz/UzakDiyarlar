@@ -3,7 +3,7 @@ Filename piramit.are~
 Name Piramit~
 Builder Andersen~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 50
 Minvnum 8700
@@ -16,9 +16,9 @@ END
 
 #NEW_MOBILES
 #8700
-engerek yılan~
-Korkunç bir engerek~
-Küçük, zehirli bir engerek ayaklarının arasında kıvrılıyor.
+engerek yÄ±lan~
+KorkunÃ§ bir engerek~
+KÃ¼Ã§Ã¼k, zehirli bir engerek ayaklarÄ±nÄ±n arasÄ±nda kÄ±vrÄ±lÄ±yor.
 ~
 The asp is a small, smooth-scaled snake the color of worn pottery.
 The poison bite of this snake has felled many a mighty pharoah.
@@ -26,9 +26,9 @@ The poison bite of this snake has felled many a mighty pharoah.
 human~
 AFG 0 5
 #8701
-kobra yılan~
-Bir kobra yılanı~
-Bir kobra yılanı dikilip korkutucu dilini gösteriyor.
+kobra yÄ±lan~
+Bir kobra yÄ±lanÄ±~
+Bir kobra yÄ±lanÄ± dikilip korkutucu dilini gÃ¶steriyor.
 ~
 The cobra snake waves back and forth before you, its hood displaying brilliant
 colors designed to serve notice to its prey that it is about to strike.
@@ -37,8 +37,8 @@ human~
 AFG 0 7
 #8702
 gelincik~
-Kurnaz küçük bir gelincik~
-Küçük bir gelincik etrafta sessizce dolaşarak yılan avlıyor.
+Kurnaz kÃ¼Ã§Ã¼k bir gelincik~
+KÃ¼Ã§Ã¼k bir gelincik etrafta sessizce dolaÅŸarak yÄ±lan avlÄ±yor.
 ~
 The mongoose is a wily rodent, a quick hunter of nasty poisonous snakes.
 She sniffs you and appears to be looking for food in your hand.
@@ -46,9 +46,9 @@ She sniffs you and appears to be looking for food in your hand.
 human~
 AG J 11
 #8703
-Piramit gözcüsü~
-Bir piramit gözcüsü~
-Piramit gözcüsü mezarları davetsiz misafirlere karşı koruyor.
+Piramit gÃ¶zcÃ¼sÃ¼~
+Bir piramit gÃ¶zcÃ¼sÃ¼~
+Piramit gÃ¶zcÃ¼sÃ¼ mezarlarÄ± davetsiz misafirlere karÅŸÄ± koruyor.
 ~
 The pyramid watcher has made a pledge to destroy any would-be looters of
 the tombs of the pharoahs.  He is clad from head to foot in utilitarian
@@ -59,16 +59,16 @@ AB 0 8
 #8704
 mezar soyguncusu~
 Bir mezar soyguncusu~
-Mezar soyguncusu edineceği ganimetin hayaliyle tam bir yılan gibi süzülüyor.
+Mezar soyguncusu edineceÄŸi ganimetin hayaliyle tam bir yÄ±lan gibi sÃ¼zÃ¼lÃ¼yor.
 ~
 The thief brushes against you briefly, then slinks back into the shadows.
 ~
 human~
 AGHS DFP 10
 #8705
-ali baba hırsız~
+ali baba hÄ±rsÄ±z~
 Ali Baba~
-Ali Baba burada, gözüne kestirdiği mezar için soygun planı yapıyor.
+Ali Baba burada, gÃ¶zÃ¼ne kestirdiÄŸi mezar iÃ§in soygun planÄ± yapÄ±yor.
 ~
 You see a tall, full-bearded man with a mischevious glint in his eye.  Ali Baba
 has made his life from stealing things from others, including many items stolen
@@ -78,9 +78,9 @@ he might get caught, but not today...
 human~
 ACGS DFP 18
 #8706
-sihirli halı~
-Sihirli halı~
-Ufak örgü bir halı, bir çırpıda ayaklarının altına uzanıyor.
+sihirli halÄ±~
+Sihirli halÄ±~
+Ufak Ã¶rgÃ¼ bir halÄ±, bir Ã§Ä±rpÄ±da ayaklarÄ±nÄ±n altÄ±na uzanÄ±yor.
 ~
 The carpet is simply beautiful, made from intricately woven silken material.
 It seems to rise up at the touch of your feet.  Wait, it is rising, a few feet
@@ -91,7 +91,7 @@ AB DJ 9
 #8707
 mumya ceset~
 Bir mumya~
-Bir mumya, varlığın yüzünden rahatsız olmuş halde sana doğru uzanıyor.
+Bir mumya, varlÄ±ÄŸÄ±n yÃ¼zÃ¼nden rahatsÄ±z olmuÅŸ halde sana doÄŸru uzanÄ±yor.
 ~
 You only see the disfigured, rotting features of decaying human flesh,
 animated by the distempered spirit of a long-deceased person.
@@ -101,7 +101,7 @@ AG J 12
 #8708
 kum adam~
 Bir kum adam~
-Bir kum adam aniden çöl kumundan cisimleşip ayağa fırlıyor.
+Bir kum adam aniden Ã§Ã¶l kumundan cisimleÅŸip ayaÄŸa fÄ±rlÄ±yor.
 ~
 The sandman is exactly that -- some sort of strange being formed from the sands
 of the desert floor.  It seems quite large and strong and at home in the heat
@@ -111,8 +111,8 @@ human~
 AG J 14
 #8709
 ifrit~
-İfrit~
-İfrit burada bir ateş duvarıyla çevrelenmiş bir halde duruyor.
+Ä°frit~
+Ä°frit burada bir ateÅŸ duvarÄ±yla Ã§evrelenmiÅŸ bir halde duruyor.
 ~
 The efreeti is a mighty being formed from living fire.  He gazes down at you
 with disdain and scorn, arms folded across his mighty chest.
@@ -120,9 +120,9 @@ with disdain and scorn, arms folded across his mighty chest.
 human~
 ABF DJ 20
 #8710
-kadın heykeli~
-Bir kadın heykeli~
-Kumtaşından oyulmuş kadınsı bir figür heykeli burada duruyor.
+kadÄ±n heykeli~
+Bir kadÄ±n heykeli~
+KumtaÅŸÄ±ndan oyulmuÅŸ kadÄ±nsÄ± bir figÃ¼r heykeli burada duruyor.
 ~
 The column has been carved into a set of four shapely women, each facing
 outward into the room.  The sandstone of the caryatid is smooth with age,
@@ -133,7 +133,7 @@ AB J 24
 #8711
 ecinni~
 Ecinni~
-Ufak bir lambanın içine hapsolmuş bir ecinni birden ileri doğru fırlıyor.
+Ufak bir lambanÄ±n iÃ§ine hapsolmuÅŸ bir ecinni birden ileri doÄŸru fÄ±rlÄ±yor.
 ~
 The djinn is a mighty being formed from the air itself and frequently
 imprisoned in a small lamp, used to do the bidding of those who find him.
@@ -145,7 +145,7 @@ ABR J 28
 #8712
 hieracosfenks sfenks~
 Bir hieracosfenks~
-Bir hieracosfenks sana pis pis bakıyor.
+Bir hieracosfenks sana pis pis bakÄ±yor.
 ~
 The hieracosphinx are cunning, small, but nasty creatures, having the heads
 of birds, mighty wingspans, and a full set of four paws to rend their victims
@@ -155,9 +155,9 @@ cousins.
 human~
 AFG J 15
 #8713
-dişi sfenks~
-Bir dişi sfenks~
-İlginç bir bilmeceyi düşünmekten sersemlemiş bir dişi sfenks burada oturuyor.
+diÅŸi sfenks~
+Bir diÅŸi sfenks~
+Ä°lginÃ§ bir bilmeceyi dÃ¼ÅŸÃ¼nmekten sersemlemiÅŸ bir diÅŸi sfenks burada oturuyor.
 ~
 The gynosphinx is a crafty but gentle creature, having the body of a
 beautiful dark-skinned woman from the waist up, a feathery set of wings
@@ -169,7 +169,7 @@ ABQ D 19
 #8714
 criosfenks sfenks~
 Bir criosfenks~
-Bir criosfenks soğukkanlılıkla seni izliyor.
+Bir criosfenks soÄŸukkanlÄ±lÄ±kla seni izliyor.
 ~
 The criosphinx is a calm and friendly creature, having the head of a ram atop
 the body of a well-furred feline with eagle-like wings.  He delights in riddles,
@@ -180,7 +180,7 @@ ABQ D 23
 #8715
 erkek sfenks~
 Bir erkek sfenks~
-Kuvvetli bir erkek sfenks bir aslanınkini andıran yelelerini savuruyor.
+Kuvvetli bir erkek sfenks bir aslanÄ±nkini andÄ±ran yelelerini savuruyor.
 ~
 The mighty androsphinx is a huge creature, with the body of a lion whose
 face  is quite man-like, perhaps even handsome, and a massive pair of feathered
@@ -190,9 +190,9 @@ mighty roar of this sphinx.
 human~
 ABQ D 27
 #8716
-büyük sfenks~
-Büyük sfenks~
-Burada kumlara uzanmış, asırlardır uyumakta olan güçlü bir sfenks var.
+bÃ¼yÃ¼k sfenks~
+BÃ¼yÃ¼k sfenks~
+Burada kumlara uzanmÄ±ÅŸ, asÄ±rlardÄ±r uyumakta olan gÃ¼Ã§lÃ¼ bir sfenks var.
 ~
 The great sphinx towers tens of feet above you, resting here in a state of
 dormancy.  It has become almost indistinguishable from the sand that surrounds
@@ -204,7 +204,7 @@ AB DEHN 41
 #8717
 ramses mumya~
 Lanetli Ramses~
-Firavunun kuvvetli hizmetkarını asırlık uykusundan uyandırdın, yani Ramses'i..
+Firavunun kuvvetli hizmetkarÄ±nÄ± asÄ±rlÄ±k uykusundan uyandÄ±rdÄ±n, yani Ramses'i..
 ~
 As your light spills over his face and body, you can see his features begin
 to fill out, swell, and harden, until an apparently healthy man stands before
@@ -218,9 +218,9 @@ ABQ DEHJN 38
 
 #OBJECTS
 #8700
-mısır gürzü~
-bir Mısır gürzü~
-Üzerine hiyeroglifler kazınmış bir gürz burada bırakılmış.~
+mÄ±sÄ±r gÃ¼rzÃ¼~
+bir MÄ±sÄ±r gÃ¼rzÃ¼~
+Ãœzerine hiyeroglifler kazÄ±nmÄ±ÅŸ bir gÃ¼rz burada bÄ±rakÄ±lmÄ±ÅŸ.~
 brass~
 weapon 0 AN
 mace 3 6 pound 0
@@ -232,7 +232,7 @@ The mace is formed from solid brass, and engraved in strange hieroglyphs.
 #8701
 kum rengi kaftan~
 kum rengi kaftan~
-Kum rengi bir kaftan burada kendi haline bırakılmış.~
+Kum rengi bir kaftan burada kendi haline bÄ±rakÄ±lmÄ±ÅŸ.~
 cloth~
 armor 0 AK
 4 4 4 0 0
@@ -244,9 +244,9 @@ with sand as well.  You don't seem to be able to remove all of the sand, no
 matter how much you try.
 ~
 #8702
-aytaşından kama~
-aytaşından bir kama~
-Aytaşından yontulmuş yassı bir kama burada uzanıyor.~
+aytaÅŸÄ±ndan kama~
+aytaÅŸÄ±ndan bir kama~
+AytaÅŸÄ±ndan yontulmuÅŸ yassÄ± bir kama burada uzanÄ±yor.~
 obsidian~
 weapon G AN
 dagger 3 7 pierce 0
@@ -258,9 +258,9 @@ obsidian dirk~
 The blade of the dirk is black, glassy obsidian, chipped razor sharp.
 ~
 #8703
-kumaş türban~
-kirli bir türban~
-Çok kirli bir türban burada unutulmuş.~
+kumaÅŸ tÃ¼rban~
+kirli bir tÃ¼rban~
+Ã‡ok kirli bir tÃ¼rban burada unutulmuÅŸ.~
 cloth~
 armor G AE
 5 5 5 0 0
@@ -287,9 +287,9 @@ cloth wrappings~
 The cloth wrappings are old, wrinkled, and stink of embalming fluid.
 ~
 #8705
-şişe kokuşmuş sıvıyla dolu~
-kokuşmuş bir sıvıyla dolu şişe~
-Tozlu bir şişe burada yerde duruyor.~
+ÅŸiÅŸe kokuÅŸmuÅŸ sÄ±vÄ±yla dolu~
+kokuÅŸmuÅŸ bir sÄ±vÄ±yla dolu ÅŸiÅŸe~
+Tozlu bir ÅŸiÅŸe burada yerde duruyor.~
 glass~
 potion 0 A
 5 'poison' '' '' ''
@@ -299,9 +299,9 @@ bottle fluid~
 The bottle is dusty and the fluid has a strange sickly-sweet smell to it.
 ~
 #8706
-şişe formaldehit~
-bir şişe formaldehit~
-Küçük bir şişe burada yerde duruyor.~
+ÅŸiÅŸe formaldehit~
+bir ÅŸiÅŸe formaldehit~
+KÃ¼Ã§Ã¼k bir ÅŸiÅŸe burada yerde duruyor.~
 glass~
 potion 0 A
 10 'cure light' '' '' ''
@@ -311,9 +311,9 @@ jar formaldehyde~
 The jar is sticky and smells really bad.
 ~
 #8707
-ateş topu~
-küçük sıcak bir ateş topu~
-Küçük bir ateş topu tam önünde havada süzülüyor.~
+ateÅŸ topu~
+kÃ¼Ã§Ã¼k sÄ±cak bir ateÅŸ topu~
+KÃ¼Ã§Ã¼k bir ateÅŸ topu tam Ã¶nÃ¼nde havada sÃ¼zÃ¼lÃ¼yor.~
 fire~
 light AG AO
 0 0 -1 0 0
@@ -327,9 +327,9 @@ ball fire~
 The ball of fire is hot to the touch and very very bright.
 ~
 #8708
-taştan pala~
-taştan bir pala~
-Taştan yapılmış işlemeli bir pala yerde dinleniyor.~
+taÅŸtan pala~
+taÅŸtan bir pala~
+TaÅŸtan yapÄ±lmÄ±ÅŸ iÅŸlemeli bir pala yerde dinleniyor.~
 stone~
 weapon BG AN
 axe 5 5 slash 0
@@ -344,9 +344,9 @@ The scimitar is formed from solid stone, chipped and carved to perfection,
 with a sharp, cold blade that is marred only by a few nicks here and there.
 ~
 #8709
-taştan anahtar~
-taştan bir anahtar~
-Taştan bir anahtar buraya atılmış.~
+taÅŸtan anahtar~
+taÅŸtan bir anahtar~
+TaÅŸtan bir anahtar buraya atÄ±lmÄ±ÅŸ.~
 stone~
 key 0 A
 0 0 0 0 0
@@ -356,9 +356,9 @@ stone key~
 The key is made from stone, but is otherwise unremarkable.
 ~
 #8710
-taştan lahit~
-sert taştan bir lahit~
-Sert taştan bir lahit mezarın tam ortasında uzanıyor.~
+taÅŸtan lahit~
+sert taÅŸtan bir lahit~
+Sert taÅŸtan bir lahit mezarÄ±n tam ortasÄ±nda uzanÄ±yor.~
 stone~
 container 0 0
 500 ABCD 8709 500 100
@@ -376,7 +376,7 @@ You see a small keyhole in the side of the sarcophagus.
 #8711
 toz~
 bir miktar kadim toz~
-Küçük bir toz yığını esinti yüzünden ordan oraya savruluyor.~
+KÃ¼Ã§Ã¼k bir toz yÄ±ÄŸÄ±nÄ± esinti yÃ¼zÃ¼nden ordan oraya savruluyor.~
 unknown~
 trash 0 A
 0 0 0 0 0
@@ -387,9 +387,9 @@ The dust is old.  As you sift it through your hands you find tiny chips
 of aged bone inside -- it must be the ancient remains of something.
 ~
 #8712
-bok böceği~
-küçük zümrüt bir bokböceği~
-Küçük zümrüt bir bokböceği burada yerde uzanıyor.~
+bok bÃ¶ceÄŸi~
+kÃ¼Ã§Ã¼k zÃ¼mrÃ¼t bir bokbÃ¶ceÄŸi~
+KÃ¼Ã§Ã¼k zÃ¼mrÃ¼t bir bokbÃ¶ceÄŸi burada yerde uzanÄ±yor.~
 emerald~
 jewelry 0 A
 0 0 0 0 0
@@ -402,7 +402,7 @@ insectile legs and the faceting of the emeralds in its eyes.
 #8713
 lamba~
 lamba~
-Küçük, kararmış ve yıpranmış bir lamba buraya atılmış.~
+KÃ¼Ã§Ã¼k, kararmÄ±ÅŸ ve yÄ±pranmÄ±ÅŸ bir lamba buraya atÄ±lmÄ±ÅŸ.~
 silver~
 staff ABGK AO
 25 5 5 'fly' 0
@@ -419,7 +419,7 @@ grime off, but it doesn't seem like anybody is home.
 #8714
 ankh~
 bir ankh~
-Küçük pirinç bir ankh burada bırakılmış.~
+KÃ¼Ã§Ã¼k pirinÃ§ bir ankh burada bÄ±rakÄ±lmÄ±ÅŸ.~
 brass~
 jewelry IK AO
 0 0 0 0 0
@@ -436,9 +436,9 @@ The ankh is a small brass symbol of an ancient religion.
 It glows with a soft bright light that is soothing to you.
 ~
 #8715
-bilmece kitabı kitap~
-bir bilmece kitabı~
-Epey yıpranmış sayfaları olan orta boy parşömenden bir kitap burada duruyor.~
+bilmece kitabÄ± kitap~
+bir bilmece kitabÄ±~
+Epey yÄ±pranmÄ±ÅŸ sayfalarÄ± olan orta boy parÅŸÃ¶menden bir kitap burada duruyor.~
 vellum~
 scroll 0 A
 21 'identify' 'know alignment' 'faerie fog' ''
@@ -450,9 +450,9 @@ to surprise, confuse, and amuse you.  You find yourself bewildered
 by its contents and put it down to sort your head out.
 ~
 #8716
-aslan pençesi~
-bir aslanın pençesi~
-Aslan benzeri bir yaratığın kuvvetli pençesi buraya atılmış.~
+aslan penÃ§esi~
+bir aslanÄ±n penÃ§esi~
+Aslan benzeri bir yaratÄ±ÄŸÄ±n kuvvetli penÃ§esi buraya atÄ±lmÄ±ÅŸ.~
 bone~
 weapon G AN
 exotic 4 15 claw 0
@@ -472,7 +472,7 @@ becoming an extension of your arm.
 #8717
 cevap~
 cevap~
-Hiyerogliflerle kaplı ufak bir parşömen burada uzanıyor.~
+Hiyerogliflerle kaplÄ± ufak bir parÅŸÃ¶men burada uzanÄ±yor.~
 paper~
 key 0 AO
 0 0 0 0 0
@@ -485,7 +485,7 @@ sheet of parchment.
 #8718
 ganimet~
 sfenks ganimeti~
-Sfenksin yüklü ganimeti burada büyük bir yığın halinde duruyor.~
+Sfenksin yÃ¼klÃ¼ ganimeti burada bÃ¼yÃ¼k bir yÄ±ÄŸÄ±n halinde duruyor.~
 gold silver ruby diamond~
 money 0 A
 1850 23 0 0 0
@@ -496,9 +496,9 @@ The treasure is incredibly large, filled with gold coins and valuables, more
 wealth than you could ever possibly imagine accumulated in one place.
 ~
 #8719
-kum yığını~
-bir kum yığını~
-Küçük bir kum yığını görüyorsun.~
+kum yÄ±ÄŸÄ±nÄ±~
+bir kum yÄ±ÄŸÄ±nÄ±~
+KÃ¼Ã§Ã¼k bir kum yÄ±ÄŸÄ±nÄ± gÃ¶rÃ¼yorsun.~
 stone~
 money 0 A
 129 0 0 0 0
@@ -508,9 +508,9 @@ pile sand~
 You think you see some coins and valuables glinting amongst the grains of sand.
 ~
 #8720
-mumyanın laneti~
-mumyanın laneti~
-Bazı şanslı ruhlar mumyanın lanetinden kaçmayı başardı. ama sadece şimdilik...~
+mumyanÄ±n laneti~
+mumyanÄ±n laneti~
+BazÄ± ÅŸanslÄ± ruhlar mumyanÄ±n lanetinden kaÃ§mayÄ± baÅŸardÄ±. ama sadece ÅŸimdilik...~
 unknown~
 trash EGHM AO
 0 0 0 0 0
@@ -532,9 +532,9 @@ cursed for all eternity, and that the descendents of that person shall
 likewise be cursed for ten generations to follow.
 ~
 #8721
-ufak bir iksir şişesi~
-ufak bir iksir şişesi~
-Ufak bir iksir şişesi ayağının dibinde duruyor.~
+ufak bir iksir ÅŸiÅŸesi~
+ufak bir iksir ÅŸiÅŸesi~
+Ufak bir iksir ÅŸiÅŸesi ayaÄŸÄ±nÄ±n dibinde duruyor.~
 glass~
 potion G A
 30 'giant strength' 'stone skin' 'sanctuary' ''
@@ -546,9 +546,9 @@ contents are truly quite potent.  Perhaps too potent for ordinary
 mortals to attempt to consume.
 ~
 #8722
-altın maske~
-altın bir maske~
-Karmakarışık detayları olan güzel bir maske burada unutulmuş.~
+altÄ±n maske~
+altÄ±n bir maske~
+KarmakarÄ±ÅŸÄ±k detaylarÄ± olan gÃ¼zel bir maske burada unutulmuÅŸ.~
 gold~
 armor G AE
 11 11 10 5 0
@@ -584,9 +584,9 @@ You see a multifaceted gemstone, which strangely reflects no
 light, making it very hard to see when it lies on the ground.
 ~
 #8724
-güneş değneği pirinç~
-alev alev yanan bir güneş değneği~
-Oldukça kısa olan pirinçten yapılmış madde içsel bir ışıkla parıldıyor.~
+gÃ¼neÅŸ deÄŸneÄŸi pirinÃ§~
+alev alev yanan bir gÃ¼neÅŸ deÄŸneÄŸi~
+OldukÃ§a kÄ±sa olan pirinÃ§ten yapÄ±lmÄ±ÅŸ madde iÃ§sel bir Ä±ÅŸÄ±kla parÄ±ldÄ±yor.~
 brass~
 wand AG AO
 35 25 25 'harm' 0
@@ -600,9 +600,9 @@ this land to defend against the deadliest of foes.  It shines with the
 brilliant blazing light of the sun.
 ~
 #8725
-kum yüzüğü~
-kum rengi bir yüzük~
-Ufak, kum rengi bir yüzük zerrece umursanmadan buraya atılmış.~
+kum yÃ¼zÃ¼ÄŸÃ¼~
+kum rengi bir yÃ¼zÃ¼k~
+Ufak, kum rengi bir yÃ¼zÃ¼k zerrece umursanmadan buraya atÄ±lmÄ±ÅŸ.~
 ruby~
 jewelry BG AB
 0 0 0 0 0
@@ -617,9 +617,9 @@ The ring is small, smooth, sandy-colored and unremarkable, save that
 it gives off a continuous low humming noise that tickles your fingertips.
 ~
 #8726
-altın sfenks~
-küçük altın bir sfenks~
-Küçük altın bir sfenks ışıkta parıldıyor.~
+altÄ±n sfenks~
+kÃ¼Ã§Ã¼k altÄ±n bir sfenks~
+KÃ¼Ã§Ã¼k altÄ±n bir sfenks Ä±ÅŸÄ±kta parÄ±ldÄ±yor.~
 gold~
 treasure G AO
 0 0 0 0 0
@@ -633,9 +633,9 @@ into the palm of your hand.  You can even make out the expression
 of wisdom and peace on its face.
 ~
 #8727
-sfenks bacaklıkları~
-bir çift sfenks bacaklığı~
-Bir sfenksin vücuduna benzetilmiş geniş bacaklıklar burada duruyor.~
+sfenks bacaklÄ±klarÄ±~
+bir Ã§ift sfenks bacaklÄ±ÄŸÄ±~
+Bir sfenksin vÃ¼cuduna benzetilmiÅŸ geniÅŸ bacaklÄ±klar burada duruyor.~
 mithril~
 armor GK AF
 11 11 11 4 0
@@ -674,7 +674,7 @@ is that punish or punishment? ~
 
 #ROOMS
 #8700
-Engin Doğu Çölü~
+Engin DoÄŸu Ã‡Ã¶lÃ¼~
 A vast desert stretches for miles, the sands constantly shifting around you.
 Rising out of the sand to the east you see a mighty pyramid.
 ~
@@ -705,7 +705,7 @@ The massive pyramid rises out of the sand, a monument to long-dead pharoahs.
 ~
 S
 #8701
-Piramidin Tabanı~
+Piramidin TabanÄ±~
 The mighty pyramid towers above you out of the hot desert sands, made from
 huge blocks of stone that have been coated over with a rough sandy plaster-like
 substance.  The face of the pyramid is steep, but you think you might be able
@@ -728,7 +728,7 @@ You wonder how anyone could have built such a massive thing out in this heat.
 ~
 S
 #8702
-Büyük Piramide Tırmanış~
+BÃ¼yÃ¼k Piramide TÄ±rmanÄ±ÅŸ~
 Hot air rises off the sides of the pyramid, and the wind chokes you with a
 flurry of sand and dust.  So far you have made it halfway up the side.  The
 walls of the pyramid are quite steep.
@@ -760,7 +760,7 @@ You wonder how anyone could have built such a massive thing out in this heat.
 ~
 S
 #8703
-Büyük Piramide Tırmanış~
+BÃ¼yÃ¼k Piramide TÄ±rmanÄ±ÅŸ~
 Hot air rises off the sides of the pyramid, and the wind chokes you with a
 flurry of sand and dust.  The walls of the pyramid are quite steep, and you
 are having trouble keeping from sliding down into the sands below.
@@ -792,7 +792,7 @@ You wonder how anyone could have built such a massive thing out in this heat.
 ~
 S
 #8704
-Büyük Piramide Tırmanış~
+BÃ¼yÃ¼k Piramide TÄ±rmanÄ±ÅŸ~
 Hot air rises off the sides of the pyramid, and the wind chokes you with a
 flurry of sand and dust.  The walls of the pyramid are quite steep, and you
 are having trouble keeping from sliding down into the sands below.
@@ -824,7 +824,7 @@ You wonder how anyone could have built such a massive thing out in this heat.
 ~
 S
 #8705
-Büyük Piramide Tırmanış~
+BÃ¼yÃ¼k Piramide TÄ±rmanÄ±ÅŸ~
 Here on the eastern side of the pyramid there is a little more shelter
 from the heat and wind.  The stone side is not nearly so slippery smooth
 from the ravages of time, and you think you may be able to even reach the
@@ -857,7 +857,7 @@ You wonder how anyone could have built such a massive thing out in this heat.
 ~
 S
 #8706
-Büyük Piramidin Doruğu~
+BÃ¼yÃ¼k Piramidin DoruÄŸu~
 Bathed in sweat, you have managed to reach the summit of the great pyramid.
 The four sides of the pyramid slope sharply down into the hot sands in all four
 cardinal directions.
@@ -905,7 +905,7 @@ section up and get inside!
 ~
 S
 #8707
-Büyük Piramide Tırmanış~
+BÃ¼yÃ¼k Piramide TÄ±rmanÄ±ÅŸ~
 Here the elements have carved away at the sides of the pyramid quite a
 bit.  You aren't so sure of your footing anymore...
 
@@ -942,7 +942,7 @@ section up and get outside!
 ~
 S
 #8709
-Köhne Bir Salon~
+KÃ¶hne Bir Salon~
 You are standing in a dank, musty chamber just inside the pyramid.
 Footprints and other strange marks are set into the dusty floor here.
 It would seem that some of the tenants of this monument are still alive.
@@ -989,7 +989,7 @@ you not to proceed any further.
 ~
 S
 #8710
-Ateş Havuzu~
+AteÅŸ Havuzu~
 This room is dominated by a massive raised pool that is filled with
 not water but flames of intense heat.  The multicoloured flames lick out
 at you, searching for things to burn.
@@ -1008,7 +1008,7 @@ You see a small chamber filled with fire.
 0 -1 8711
 S
 #8711
-İfritin Salonu~
+Ä°fritin Salonu~
 You make your way across the fire pool, and into a small stone chamber.
 Here the flames are nearly as high as your head, singeing your face and
 evaporating your sweat instantaneously.
@@ -1021,7 +1021,7 @@ The pool of fire ends to the east.
 0 -1 8710
 S
 #8712
-Çok Basık bir Tünel~
+Ã‡ok BasÄ±k bir TÃ¼nel~
 You have to go down onto your hands and knees to fit inside this tiny
 space.  The crawlway is thick with sand and dust, and markings of the
 passage of other creatures.
@@ -1044,7 +1044,7 @@ A small hole above your head leads into a dank chamber.
 0 -1 8737
 S
 #8713
-Çok Basık bir Tünel~
+Ã‡ok BasÄ±k bir TÃ¼nel~
 You are on your hands and knees, inside a small crawlway that winds
 through the inside of the pyramid.  The crawlway is thick with sand, dust,
 and markings of the passage of other creatures.
@@ -1062,7 +1062,7 @@ The crawlway continues to the west.
 0 -1 8714
 S
 #8714
-Çok Basık bir Tünel~
+Ã‡ok BasÄ±k bir TÃ¼nel~
 You are on your hands and knees, inside a small crawlway that winds
 through the inside of the pyramid.  The crawlway is thick with sand, dust,
 and markings of the passage of other creatures.
@@ -1080,7 +1080,7 @@ The crawlway gets a little tighter to the west.
 0 -1 8715
 S
 #8715
-Tünelde bir Daralma Noktası~
+TÃ¼nelde bir Daralma NoktasÄ±~
 Here you are forced to slide on your belly through a particularly tight
 section of the crawlway, as the stones of the pyramid close together
 about you.  Below you is a small, slippery-looking hole that plummets into
@@ -1104,7 +1104,7 @@ The hole looks very slippery and very dark.
 0 -1 8717
 S
 #8716
-Tünelin Sonu~
+TÃ¼nelin Sonu~
 The crawlway shrinks away to nothing as the sandy stones of the pyramid
 close together into a space through which only a snake could fit.   There is
 barely enough space to turn around and make your way back through the tiny
@@ -1150,7 +1150,7 @@ The hole looks far too slippery to climb back up.
 ~
 S
 #8718
-Deliğin Aşağısı~
+DeliÄŸin AÅŸaÄŸÄ±sÄ±~
 You are in a small chamber underneath the slippery hole, far below
 the pyramid now.   The floor is strewn with bones.  To the south is a
 small rocky crevasse.
@@ -1172,7 +1172,7 @@ The hole looks far too slippery to climb back up.
 ~
 S
 #8719
-Dik bir Yarık~
+Dik bir YarÄ±k~
 You are now exploring deep within a strange rocky crevasse that plunges
 down into the rock on which the pyramid was constructed.  To the south you
 see the flickering light of a fire, and the crevasse proceeds downward.
@@ -1199,7 +1199,7 @@ As you look through the rough terrain, your eyes catch a small glint of light!
 ~
 S
 #8720
-Küçük bir Ateş~
+KÃ¼Ã§Ã¼k bir AteÅŸ~
 Here a small fire burns in a nook in the rocks, providing some warmth and
 comforting light in the cold, dark, dry air.
 
@@ -1223,7 +1223,7 @@ back and stares into the fire.
 ~
 S
 #8721
-Yarığın Aşağısı~
+YarÄ±ÄŸÄ±n AÅŸaÄŸÄ±sÄ±~
 The crevasse proceeds downward into the dark depths of the earth.
 The air about you is now cold and quite dry, and your light source
 gutters in a cool breeze that wafts up from below.
@@ -1241,7 +1241,7 @@ It is too dark for you to see any further along the crevasse.
 0 -1 8722
 S
 #8722
-Yarığın Derinlikleri~
+YarÄ±ÄŸÄ±n Derinlikleri~
 Here the crevasse comes to an abrupt end.  A chilling wind howls
 at your face from a black shape to the south, but the light from your
 source is too dim to see exactly what it is.
@@ -1301,7 +1301,7 @@ Then the words: 'TAKE ONLY THE LAMP... TOUCH NOTHING ELSE.'
 ~
 S
 #8724
-Duvardaki bir Çatlak~
+Duvardaki bir Ã‡atlak~
 You exhale, and squeeze yourself into the narrow crack in the wall.
 Dust fills your eyes as you disturb it, and chunks of mortar and stone
 mixed with a touch of sand fall on you as you scrape your way through.
@@ -1319,7 +1319,7 @@ You see a tomb.
 0 -1 8725
 S
 #8725
-Yağmalanmış bir Mezar~
+YaÄŸmalanmÄ±ÅŸ bir Mezar~
 The floor of this small tomb is littered with the lids of
 smashed sarcophagi, bits of treasure dropped by thieves and
 looters, and corpses pulled from their resting places.
@@ -1342,7 +1342,7 @@ To the west is another tomb.
 0 -1 8726
 S
 #8726
-Harap Edilmiş bir Mezar~
+Harap EdilmiÅŸ bir Mezar~
 This tomb has been utterly destroyed by thieves and looters in search of
 the treasures of the pharoahs.  Nothing of interest remains in this room,
 except a large stone coffin that leans against the western wall.
@@ -1468,7 +1468,7 @@ You don't understand the meaning of these symbols.
 ~
 S
 #8731
-Yüksek bir Kürsü~
+YÃ¼ksek bir KÃ¼rsÃ¼~
 You are at the southern end of the ancient hall, the dust and darkness
 absorbing your light so that you cannot see past the steps of the dais.
 A low pedestal rests here.  You see something written into the face of it.
@@ -1493,7 +1493,7 @@ walked the earth.  Disturb my rest at your peril.'
 ~
 S
 #8732
-Ramses'in Mezarı~
+Ramses'in MezarÄ±~
 You stand in an empty tomb, a cubicle no more then ten feet to a side.
 ~
 0 AD 0
@@ -1504,7 +1504,7 @@ tomb~
 1 -1 8731
 S
 #8733
-Alt üst edilmiş bir Mezar~
+Alt Ã¼st edilmiÅŸ bir Mezar~
 This tomb has been completely ransacked and destroyed by the actions
 of pyramid thieves and looters.  The floor is littered with junk.
 ~
@@ -1521,7 +1521,7 @@ To the west is another tomb.
 0 -1 8725
 S
 #8734
-Bir Tünel~
+Bir TÃ¼nel~
 The low-ceilinged tunnel runs east-west.
 ~
 0 AD 0
@@ -1537,7 +1537,7 @@ You see a tomb.
 0 -1 8733
 S
 #8735
-Tüneldeki bir Yol Ayrımı~
+TÃ¼neldeki bir Yol AyrÄ±mÄ±~
 Here the tunnel forks off through a gaping hole down in the
 southern wall, continuing onward to the east and west as well.
 ~
@@ -1563,7 +1563,7 @@ The hole is low, at the floor of the southern wall.
 ~
 S
 #8736
-Bir Tünel~
+Bir TÃ¼nel~
 The low-ceilinged tunnel makes a turn to the west and ends
 to the north as it spills out into a dusty hallway.
 ~
@@ -1615,7 +1615,7 @@ The stairs spiral down into a dusty hallway.
 0 -1 8741
 S
 #8739
-Tozla kaplı bir Koridor~
+Tozla kaplÄ± bir Koridor~
 This hallway is covered with dust that has accumulated over the
 centuries that the pyramid has stood.  Small markings and footprints
 in the dust betray the recent passage of others -- perhaps thieves?
@@ -1633,7 +1633,7 @@ The hallway proceeds towards the west towards a musty smell.
 0 -1 8709
 S
 #8740
-Ağır kokan bir Salon~
+AÄŸÄ±r kokan bir Salon~
 This small chamber has a sickly putrescent smell to it, the
 smell of formaldehyde and other ointments used to preserve the
 corpses of those who died ages ago.
@@ -1651,7 +1651,7 @@ You a dusty hallway.
 0 -1 8739
 S
 #8741
-Tozla kaplı bir Koridor~
+Tozla kaplÄ± bir Koridor~
 This hallway is covered with a thick, choking dust that rises
 up to obscure your light source and sting your eyes.  Small marks
 and footprints in the dust betray the recent passage of others.
@@ -1674,7 +1674,7 @@ A tightly spiralling stone stairway leads up.
 0 -1 8738
 S
 #8742
-Koridorda bir dönemeç~
+Koridorda bir dÃ¶nemeÃ§~
 You are standing in an elbow turn in a dust-covered stone hallway,
 that dead ends to the north and continues on to the west.  To the south
 the stones of the pyramid have been torn asunder by thieves, making
@@ -1698,7 +1698,7 @@ The dust-covered hallway continues to the west.
 0 -1 8741
 S
 #8743
-Çıkmaz Son~
+Ã‡Ä±kmaz Son~
 The dust-covered hallway has come to an abrupt end at a stony,
 featureless wall.  Here and there are signs of the recent passage
 of others in the dust.
@@ -1721,7 +1721,7 @@ the floor, perhaps even fit your body through the space you make.
 ~
 S
 #8744
-Mezar Girişi~
+Mezar GiriÅŸi~
 You are in a small, dark chamber that has stood undisturbed for
 many years.  To the north stands a massive stone tomb, which is
 covered in hieroglyphics and gold-lined carvings that mark it as the
@@ -1750,7 +1750,7 @@ which encloses it.  It is covered in small hieroglyphics.
 ~
 S
 #8745
-Firavunun Mezarı~
+Firavunun MezarÄ±~
 Great golden sarcophogai line the walls of this massive tomb.  It has
 withstood the passage of time intact, untouched by the hands of thieves
 and looters.  The treasures taken by the pharoahs to their graves still
@@ -1769,7 +1769,7 @@ You decide not to take them out of respect for the ancient dead.
 ~
 S
 #8746
-Moloz kaplı bir Koridor~
+Moloz kaplÄ± bir Koridor~
 This hallway formerly had a beautiful arch to the ceiling, now
 collapsed under the weight of the slowly settling stones of the
 pyramid.  Now, a massive pile of rubble leads up into a hole high
@@ -1789,7 +1789,7 @@ D4
 0 -1 8735
 S
 #8747
-Kumtaşından yapılmış bir Mahzen~
+KumtaÅŸÄ±ndan yapÄ±lmÄ±ÅŸ bir Mahzen~
 This small crypt is lit by a hole in the wall to the south, through
 which sand pours from the desert outside.  A hot wind blows in from the
 desert, drying your skin instantly.  To the east and north the arched
@@ -1813,7 +1813,7 @@ You see a lot of sand.
 0 -1 8753
 S
 #8748
-Kemerli bir Geçit~
+Kemerli bir GeÃ§it~
 This hallway has a beautiful arch to it, formed painstakingly and
 exquisitely out of the sandy stones of the pyramid.  The dust that
 covers most of the rest of the pyramid interior is not present here,
@@ -1833,7 +1833,7 @@ The arched hall proceeds into a sandstone crypt.
 0 -1 8747
 S
 #8749
-Kemerli bir Geçit~
+Kemerli bir GeÃ§it~
 This hallway has a beautiful arch to it, formed painstakingly and
 exquisitely out of the sandy stones of the pyramid.  To the east is
 a small, golden-coloured crypt, and the hall proceeds to the south
@@ -1857,7 +1857,7 @@ The arched hall proceeds to the south.
 0 -1 8751
 S
 #8750
-Altından yapılmış bir Mahzen~
+AltÄ±ndan yapÄ±lmÄ±ÅŸ bir Mahzen~
 You stand inside a small crypt with walls and ceiling made of
 golden bricks that obscure the large sandy stones of the pyramid.
 Small rugs and tapestries are scattered about the floor here, and
@@ -1898,7 +1898,7 @@ You see a small vault from which a shining light issues.
 0 -1 8752
 S
 #8752
-Parıldayan bir Vault~
+ParÄ±ldayan bir Vault~
 The stones of the pyramid here take on a strange, twinkling quality,
 almost seeming to shine with an internal light.  As you look closer you
 see tiny glass-like glittery particles within the stones, that reflect
@@ -1941,7 +1941,7 @@ The sand is very white, and very sandy.  There sure is a lot of it.
 ~
 S
 #8754
-Girdap oluşturmuş bir Kum Fırtınası~
+Girdap oluÅŸturmuÅŸ bir Kum FÄ±rtÄ±nasÄ±~
 You are caught in the midst of a massive sandstorm.  Howling winds
 buffet you from all sides, and the sand tears at your skin, blinding
 you and choking you.  You have lost all sense of direction.
@@ -1974,7 +1974,7 @@ interesting sand, only white, dry, and blowing all over the place.
 ~
 S
 #8755
-Girdap oluşturmuş bir Kum Fırtınası~
+Girdap oluÅŸturmuÅŸ bir Kum FÄ±rtÄ±nasÄ±~
 You are caught in the midst of a massive sandstorm.  Howling winds
 buffet you from all sides, and the sand tears at your skin, blinding
 you and choking you.  You have lost all sense of direction.
@@ -2007,7 +2007,7 @@ interesting sand, only white, dry, and blowing all over the place.
 ~
 S
 #8756
-Girdap oluşturmuş bir Kum Fırtınası~
+Girdap oluÅŸturmuÅŸ bir Kum FÄ±rtÄ±nasÄ±~
 You are caught in the midst of a massive sandstorm.  Howling winds
 buffet you from all sides, and the sand tears at your skin, blinding
 you and choking you.  You have lost all sense of direction.
@@ -2040,7 +2040,7 @@ interesting sand, only white, dry, and blowing all over the place.
 ~
 S
 #8757
-Girdap oluşturmuş bir Kum Fırtınası~
+Girdap oluÅŸturmuÅŸ bir Kum FÄ±rtÄ±nasÄ±~
 You are caught in the midst of a massive sandstorm.  Howling winds
 buffet you from all sides, and the sand tears at your skin, blinding
 you and choking you.  You have lost all sense of direction.
@@ -2108,7 +2108,7 @@ The sand is very white, and very sandy.  There sure is a lot of it.
 ~
 S
 #8759
-Kumdaki Deliğin İçine Doğru Giriş~
+Kumdaki DeliÄŸin Ä°Ã§ine DoÄŸru GiriÅŸ~
 You squeeze through the small hole in the sand and land in a small
 white chamber.  Above you is a small hole, reachable by climbing up
 the small sandy slope down which you slid.

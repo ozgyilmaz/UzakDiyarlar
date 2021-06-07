@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -49,6 +49,6 @@
 ***************************************************************************/
 
 
-int	position_lookup	args( (const char *name) );
-int 	sex_lookup	args( (const char *name) );
-int 	size_lookup	args( (const char *name) );
+int	position_lookup	args( (const wchar_t *name) );
+int 	sex_lookup	args( (const wchar_t *name) );
+int 	size_lookup	args( (const wchar_t *name) );

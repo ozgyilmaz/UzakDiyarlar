@@ -1,9 +1,9 @@
 #AREADATA
 Filename sumut.are~
-Name Sumut İstihkamı~
+Name Sumut Ä°stihkamÄ±~
 Builder Generic~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 60
 Minvnum 900
@@ -18,10 +18,10 @@ END
 #901
 amrir kral~
 Amrir~
-Kral Amrir burada, tahtında oturuyor.
+Kral Amrir burada, tahtÄ±nda oturuyor.
 ~
-Sumut halkının en ulusunu görüyorsun. Yaşlı ve güçlü. Yıldırımlara
-hükmeden Amrir...
+Sumut halkÄ±nÄ±n en ulusunu gÃ¶rÃ¼yorsun. YaÅŸlÄ± ve gÃ¼Ã§lÃ¼. YÄ±ldÄ±rÄ±mlara
+hÃ¼kmeden Amrir...
 ~
 human~
 ABCQ BDFHNT 100
@@ -30,64 +30,64 @@ marba~
 Marba~
 Marba burada, sessizce bekliyor.
 ~
-Amrir'in yeğeni Marba'yı görüyorsun. Sumut halkına çektirdikleri
-yüzünden Amrir'e başkaldırmış asi Marba. Soylu kanı taşıdığı için
-öldürülmemiş, fakat ölümüne kadar zindan cezası verilmiş güçlü Amra.
-Sana bakıyor ve gülümsüyor.
+Amrir'in yeÄŸeni Marba'yÄ± gÃ¶rÃ¼yorsun. Sumut halkÄ±na Ã§ektirdikleri
+yÃ¼zÃ¼nden Amrir'e baÅŸkaldÄ±rmÄ±ÅŸ asi Marba. Soylu kanÄ± taÅŸÄ±dÄ±ÄŸÄ± iÃ§in
+Ã¶ldÃ¼rÃ¼lmemiÅŸ, fakat Ã¶lÃ¼mÃ¼ne kadar zindan cezasÄ± verilmiÅŸ gÃ¼Ã§lÃ¼ Amra.
+Sana bakÄ±yor ve gÃ¼lÃ¼msÃ¼yor.
 ~
 human~
 ABC BDFHNT 91
 #903
 dozrah~
 Dozrah~
-Dozrah burada, bir mesaj götürmekle meşgul.
+Dozrah burada, bir mesaj gÃ¶tÃ¼rmekle meÅŸgul.
 ~
-Kralın habercisi Dozrah'ı görüyorsun. O sahip olduğu miğfer ve çizme
-ile bir yerden bir yere çok hızlı gidebilir.
+KralÄ±n habercisi Dozrah'Ä± gÃ¶rÃ¼yorsun. O sahip olduÄŸu miÄŸfer ve Ã§izme
+ile bir yerden bir yere Ã§ok hÄ±zlÄ± gidebilir.
 ~
 human~
 ACS BDFHNPT 96
 #904
 gugorah~
 Gugorah~
-Gugorah burda, akşam yemeğini yemekle meşgul.
+Gugorah burda, akÅŸam yemeÄŸini yemekle meÅŸgul.
 ~
-Amrir'in kardeşi Gugorah'ı görüyorsun. Sumut ordusunun başkumandanı.
-Kaslı vücudunun tepesine diktiği büyük ve zeki kafasının üzerinde
-ağarmış saçları görüyorsun. Duyguları okuyan gözlerle etrafı gözlüyor.
+Amrir'in kardeÅŸi Gugorah'Ä± gÃ¶rÃ¼yorsun. Sumut ordusunun baÅŸkumandanÄ±.
+KaslÄ± vÃ¼cudunun tepesine diktiÄŸi bÃ¼yÃ¼k ve zeki kafasÄ±nÄ±n Ã¼zerinde
+aÄŸarmÄ±ÅŸ saÃ§larÄ± gÃ¶rÃ¼yorsun. DuygularÄ± okuyan gÃ¶zlerle etrafÄ± gÃ¶zlÃ¼yor.
 ~
 human~
 ABCR BDFHNT 99
 #905
 gugarkaz~
 Gugarkaz~
-Gugarkaz burada, kulağa hoş gelen bir melodi mırıldanıyor.
+Gugarkaz burada, kulaÄŸa hoÅŸ gelen bir melodi mÄ±rÄ±ldanÄ±yor.
 ~
-Arkadaş canlısı Gugargaz lirik bir şiir mırıldanıyor. Gülümseyerek
-kendisine katılmanı istiyor. Yanıbaşına koyduğu oldukça tehlikeli
-görünen bir yay görüyorsun. Her nedense müzikten daha fazla şeyler
-bildiğini düşünüyorsun.
+ArkadaÅŸ canlÄ±sÄ± Gugargaz lirik bir ÅŸiir mÄ±rÄ±ldanÄ±yor. GÃ¼lÃ¼mseyerek
+kendisine katÄ±lmanÄ± istiyor. YanÄ±baÅŸÄ±na koyduÄŸu oldukÃ§a tehlikeli
+gÃ¶rÃ¼nen bir yay gÃ¶rÃ¼yorsun. Her nedense mÃ¼zikten daha fazla ÅŸeyler
+bildiÄŸini dÃ¼ÅŸÃ¼nÃ¼yorsun.
 ~
 human~
 ABC BDFHNT 98
 #906
 darba~
 Darba~
-Darba burada, savaşlar üzerine düşünüyor.
+Darba burada, savaÅŸlar Ã¼zerine dÃ¼ÅŸÃ¼nÃ¼yor.
 ~
-Gugorah'ın yardımcısı Darba'yı görüyorsun. Onun asaletine olmasa da,
-zekasına sahip gibi görünüyor. Kimi haritaları incelediğini farkediyorsun.
-Sana tehditkar bir şekilde bakarak 'Çok meşgulüm ne istiyorsun? ' diyor.
+Gugorah'Ä±n yardÄ±mcÄ±sÄ± Darba'yÄ± gÃ¶rÃ¼yorsun. Onun asaletine olmasa da,
+zekasÄ±na sahip gibi gÃ¶rÃ¼nÃ¼yor. Kimi haritalarÄ± incelediÄŸini farkediyorsun.
+Sana tehditkar bir ÅŸekilde bakarak 'Ã‡ok meÅŸgulÃ¼m ne istiyorsun? ' diyor.
 ~
 human~
 ABCF BDFHT 99
 #907
 uhuk~
 Uhuk~
-Uhuk burada, yorulmuş görünüyor.
+Uhuk burada, yorulmuÅŸ gÃ¶rÃ¼nÃ¼yor.
 ~
-Amrir'in en gözde kızkardeşi Uhuk'u görüyorsun. Bir sedirin üzerinde
-oturmuş üzümlerin tadına bakıyor. Sana gülümsüyor ve ona katılman için
+Amrir'in en gÃ¶zde kÄ±zkardeÅŸi Uhuk'u gÃ¶rÃ¼yorsun. Bir sedirin Ã¼zerinde
+oturmuÅŸ Ã¼zÃ¼mlerin tadÄ±na bakÄ±yor. Sana gÃ¼lÃ¼msÃ¼yor ve ona katÄ±lman iÃ§in
 davet ediyor.
 ~
 human~
@@ -95,58 +95,58 @@ ABC BDFHNT 96
 #908
 demirci~
 demirci~
-Demirci burada, bir silaha bilgisini akıtıyor.
+Demirci burada, bir silaha bilgisini akÄ±tÄ±yor.
 ~
-Topal ve çirkin demirciyi görüyorsun. Sumut'ta gördüğün en çirkin şey.
-Yine de sana yardım etmek istediğini düşünüyorsun.
+Topal ve Ã§irkin demirciyi gÃ¶rÃ¼yorsun. Sumut'ta gÃ¶rdÃ¼ÄŸÃ¼n en Ã§irkin ÅŸey.
+Yine de sana yardÄ±m etmek istediÄŸini dÃ¼ÅŸÃ¼nÃ¼yorsun.
 ~
 human~
 ABC BDFHNT 95
 #909
-çırak~
-çırak~
-Bir çırak burada, demirciye yardım ediyor.
+Ã§Ä±rak~
+Ã§Ä±rak~
+Bir Ã§Ä±rak burada, demirciye yardÄ±m ediyor.
 ~
-Bu yaratığa bakarken, güzelliğini farkediyorsun. Bir erkek gibi giyindiği
-halde, yüzünün ve vücudunun şekli bir kadının güzelliğiyle dolu.
+Bu yaratÄ±ÄŸa bakarken, gÃ¼zelliÄŸini farkediyorsun. Bir erkek gibi giyindiÄŸi
+halde, yÃ¼zÃ¼nÃ¼n ve vÃ¼cudunun ÅŸekli bir kadÄ±nÄ±n gÃ¼zelliÄŸiyle dolu.
 ~
 human~
 ABCT BDFHNT 76
 #910
 asker~
 asker~
-Bir asker burada, Darba'ya yardım ediyor.
+Bir asker burada, Darba'ya yardÄ±m ediyor.
 ~
-Bu asker Darba'yı bekliyor. Çok güçlü görünmemesine rağmen Darba ona hiç de
-basit olmayan görevler verecek.
+Bu asker Darba'yÄ± bekliyor. Ã‡ok gÃ¼Ã§lÃ¼ gÃ¶rÃ¼nmemesine raÄŸmen Darba ona hiÃ§ de
+basit olmayan gÃ¶revler verecek.
 ~
 human~
 ABCF BDFHT 85
 #911
-müzisyen çırak~
-müzisyen çırağı~
-Bir müzisyen burada, Gugarkaz'dan ders alıyor.
+mÃ¼zisyen Ã§Ä±rak~
+mÃ¼zisyen Ã§Ä±raÄŸÄ±~
+Bir mÃ¼zisyen burada, Gugarkaz'dan ders alÄ±yor.
 ~
-Bu adam Gugarkaz ile müzik üzerine çalışıyor, ne şans ama...
+Bu adam Gugarkaz ile mÃ¼zik Ã¼zerine Ã§alÄ±ÅŸÄ±yor, ne ÅŸans ama...
 ~
 human~
 ABC BDFHT 64
 #912
-uşak~
-uşak~
-Bir uşak burada, uhuk'a üzüm yediriyor.
+uÅŸak~
+uÅŸak~
+Bir uÅŸak burada, uhuk'a Ã¼zÃ¼m yediriyor.
 ~
-Bu çocuk Uhuk'a hizmet edebildiği için gerçekten çok şanslı.
+Bu Ã§ocuk Uhuk'a hizmet edebildiÄŸi iÃ§in gerÃ§ekten Ã§ok ÅŸanslÄ±.
 ~
 human~
 ABC BDFHT 6
 #913
-savaş köpek~
-savaş köpeği~
-İri bir savaş köpeği sana hırlıyor.
+savaÅŸ kÃ¶pek~
+savaÅŸ kÃ¶peÄŸi~
+Ä°ri bir savaÅŸ kÃ¶peÄŸi sana hÄ±rlÄ±yor.
 ~
-Bu muhteşem hayvan ancak köpek olarak adlandırılabilir. Savaş alanlarında
-korkutmak amacıyla yetiştirilmiş. Görevini iyi yaptığından hiç şüphen yok.
+Bu muhteÅŸem hayvan ancak kÃ¶pek olarak adlandÄ±rÄ±labilir. SavaÅŸ alanlarÄ±nda
+korkutmak amacÄ±yla yetiÅŸtirilmiÅŸ. GÃ¶revini iyi yaptÄ±ÄŸÄ±ndan hiÃ§ ÅŸÃ¼phen yok.
 ~
 human~
 ABCF BDFHT 85
@@ -155,9 +155,9 @@ sulruh~
 Sulruh~
 Sulruh burada, dinleniyor.
 ~
-Sulruh'a dikkatlice baktığında, kıymetli sayılan birçok şeyin
-değersizliğinin farkına varıyorsun. Üzerinden yükseliyor.
-Dikkatini işlerine vermiş, varlığını fark etmiyor.
+Sulruh'a dikkatlice baktÄ±ÄŸÄ±nda, kÄ±ymetli sayÄ±lan birÃ§ok ÅŸeyin
+deÄŸersizliÄŸinin farkÄ±na varÄ±yorsun. Ãœzerinden yÃ¼kseliyor.
+Dikkatini iÅŸlerine vermiÅŸ, varlÄ±ÄŸÄ±nÄ± fark etmiyor.
 ~
 human~
 ABC BDFHNT 100
@@ -166,37 +166,37 @@ manav~
 Manav~
 Manav burada dikiliyor.
 ~
-Bu arkadaş canlısı adam, şehrin sakinlerine meyve ve sebze satmaya
-hayatını adamış. Sana candan bir gülümsemeyle bakarak leziz sebzelerini
-gösteriyor.
+Bu arkadaÅŸ canlÄ±sÄ± adam, ÅŸehrin sakinlerine meyve ve sebze satmaya
+hayatÄ±nÄ± adamÄ±ÅŸ. Sana candan bir gÃ¼lÃ¼msemeyle bakarak leziz sebzelerini
+gÃ¶steriyor.
 ~
 human~
 ABC BDFHNT 80
 #916
-simyacı~
-Simyacı~
-Yaşlı bir simyacı burada duruyor.
+simyacÄ±~
+SimyacÄ±~
+YaÅŸlÄ± bir simyacÄ± burada duruyor.
 ~
-Simyada ve büyüde oldukça becerikli ve bilgili.
+Simyada ve bÃ¼yÃ¼de oldukÃ§a becerikli ve bilgili.
 ~
 human~
 ABC BDFHNT 90
 #917
 silah efendisi~
 Silah Efendisi~
-Silah Efendisi burada, yayı ve baltasıyla pratik yapıyor.
+Silah Efendisi burada, yayÄ± ve baltasÄ±yla pratik yapÄ±yor.
 ~
-ÇOK büyük ve ÇOK güçlü görünüyor.
+Ã‡OK bÃ¼yÃ¼k ve Ã‡OK gÃ¼Ã§lÃ¼ gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 ABC BDFHNT 90
 #918
-zırhçı~
-Zırhçı~
-Zırhçı sana öfkeyle bakıyor.
+zÄ±rhÃ§Ä±~
+ZÄ±rhÃ§Ä±~
+ZÄ±rhÃ§Ä± sana Ã¶fkeyle bakÄ±yor.
 ~
-Silah efendisine çok benziyor, ÇOK büyük ve ÇOK güçlü. Burada olman
-hoşuna gitmiyor.
+Silah efendisine Ã§ok benziyor, Ã‡OK bÃ¼yÃ¼k ve Ã‡OK gÃ¼Ã§lÃ¼. Burada olman
+hoÅŸuna gitmiyor.
 ~
 human~
 ABCF BDFHNT 84
@@ -205,17 +205,17 @@ soron~
 Soron~
 Soron burada, dinleniyor.
 ~
-Çok parlak bir teni olduğunu farkediyorsun. Bakarken gözlerin yanıyor.
+Ã‡ok parlak bir teni olduÄŸunu farkediyorsun. Bakarken gÃ¶zlerin yanÄ±yor.
 ~
 human~
 ABC BDFHNT 100
 #920
 sah~
 Sah~
-Sah hücrede sessizce dolaşıyor.
+Sah hÃ¼crede sessizce dolaÅŸÄ±yor.
 ~
-Bu tuhaf yaratık üç kafaya sahip, biri keçi, biri aslan ve diğeri de bir
-ejderha. Hücreye girerken sana hırlıyor!
+Bu tuhaf yaratÄ±k Ã¼Ã§ kafaya sahip, biri keÃ§i, biri aslan ve diÄŸeri de bir
+ejderha. HÃ¼creye girerken sana hÄ±rlÄ±yor!
 ~
 human~
 ABCF BDFHT 84
@@ -224,26 +224,26 @@ umur~
 Umur~
 Umur burada.
 ~
-Amrir'in eşini görüyorsun. Seni görünce gülümsüyor ve oturup dinlenmen
-için davet ediyor.
+Amrir'in eÅŸini gÃ¶rÃ¼yorsun. Seni gÃ¶rÃ¼nce gÃ¼lÃ¼msÃ¼yor ve oturup dinlenmen
+iÃ§in davet ediyor.
 ~
 human~
 ABCQ BDFHNT 99
 #922
 dev kartal~
 Dev kartal~
-Dev bir kartal görüyorsun.
+Dev bir kartal gÃ¶rÃ¼yorsun.
 ~
-Ne kartal ama... Alaycı bir tavırla seni izliyor.
+Ne kartal ama... AlaycÄ± bir tavÄ±rla seni izliyor.
 ~
 human~
 AC BDFHNT 75
 #923
-vatandaş~
-vatandaş~
-Bir vatandaş burada, cadde boyunca dolaşıyor.
+vatandaÅŸ~
+vatandaÅŸ~
+Bir vatandaÅŸ burada, cadde boyunca dolaÅŸÄ±yor.
 ~
-Mutlu ve tasasız görünüyor. Gülümseyerek selam veriyor.
+Mutlu ve tasasÄ±z gÃ¶rÃ¼nÃ¼yor. GÃ¼lÃ¼mseyerek selam veriyor.
 ~
 human~
 ACS BDFHNT 6
@@ -252,26 +252,26 @@ lumuk~
 lumuk~
 Lumuk burada.
 ~
-Bu atın rengi kar beyazı, kanat açıklığı da oldukça geniş. Tehditkar bir
-görünümde olmamasına karşın, eğer tahrik edilirse ölümcül saldırılar
-yapabilirmiş gibi bir duruşu var. Tahminine göre ya Amrir ya da Gugorah'a
+Bu atÄ±n rengi kar beyazÄ±, kanat aÃ§Ä±klÄ±ÄŸÄ± da oldukÃ§a geniÅŸ. Tehditkar bir
+gÃ¶rÃ¼nÃ¼mde olmamasÄ±na karÅŸÄ±n, eÄŸer tahrik edilirse Ã¶lÃ¼mcÃ¼l saldÄ±rÄ±lar
+yapabilirmiÅŸ gibi bir duruÅŸu var. Tahminine gÃ¶re ya Amrir ya da Gugorah'a
 hizmet ediyor.
 ~
 human~
 ACZ BDFHNT 64
 #925
-aşçı~
-aşçı~
-Bir aşçı burada, işini yapıyor.
+aÅŸÃ§Ä±~
+aÅŸÃ§Ä±~
+Bir aÅŸÃ§Ä± burada, iÅŸini yapÄ±yor.
 ~
-Bu adam mutfakta oldukça fazla zaman geçirmişe benziyor.
+Bu adam mutfakta oldukÃ§a fazla zaman geÃ§irmiÅŸe benziyor.
 ~
 human~
 ABC BDFHNT 8
 #926
 gardiyan~
 Gardiyan~
-Gardiyan burada, dikkatle etrafı izliyor.
+Gardiyan burada, dikkatle etrafÄ± izliyor.
 ~
 He looks as though he has spent a lot of time underground, guarding the
 prisoners.
@@ -282,9 +282,9 @@ ABCR BDFHNT 22
 
 #OBJECTS
 #900
-sahmadin zırh~
+sahmadin zÄ±rh~
 Sahmadin~
-İyi görünümlü bir zırh burada duruyor.~
+Ä°yi gÃ¶rÃ¼nÃ¼mlÃ¼ bir zÄ±rh burada duruyor.~
 platinium~
 armor FGK AD
 32 32 31 26 0
@@ -296,9 +296,9 @@ A
 A
 24 -5
 #901
-topuz yıldırım~
-Yıldırım Topuzu~
-Devasa bir topuz burada, dikkatsizce düşürülmüş.~
+topuz yÄ±ldÄ±rÄ±m~
+YÄ±ldÄ±rÄ±m Topuzu~
+Devasa bir topuz burada, dikkatsizce dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 mithril~
 weapon FGK AN
 mace 12 10 blast G
@@ -310,9 +310,9 @@ A
 A
 4 -1
 #902
-miğfer kanatlı~
-Kanatlı Miğfer~
-Küçük kanatlı bir miğfer burada duruyor.~
+miÄŸfer kanatlÄ±~
+KanatlÄ± MiÄŸfer~
+KÃ¼Ã§Ã¼k kanatlÄ± bir miÄŸfer burada duruyor.~
 platinium~
 armor FGK AE
 21 22 21 10 0
@@ -323,7 +323,7 @@ A
 14 100
 #903
 asa darba~
-Darba'nın Asası~
+Darba'nÄ±n AsasÄ±~
 Nefret dolu bir asa yerde duruyor.~
 titanium~
 weapon FGJ AN
@@ -334,9 +334,9 @@ A
 A
 19 15
 #904
-sandalet kanatlı~
-Bir çift kanatlı sandalet~
-Bir çift kanatlı sandalet burada duruyor.~
+sandalet kanatlÄ±~
+Bir Ã§ift kanatlÄ± sandalet~
+Bir Ã§ift kanatlÄ± sandalet burada duruyor.~
 silk~
 armor FGK AG
 18 18 18 10 0
@@ -344,17 +344,17 @@ armor FGK AG
 F
 A 0 0 T
 #905
-asa fildişi~
-fildişi asa~
-Bir fildişi asa burada bırakılmış.~
+asa fildiÅŸi~
+fildiÅŸi asa~
+Bir fildiÅŸi asa burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ivory~
 staff FGK AO
 90 9 9 'sanctuary' 0
 55 80 35800 P
 #906
-üç diş asa~
-Üç Dişli Asa~
-Devasa bir üç dişli asa burada bırakılmış.~
+Ã¼Ã§ diÅŸ asa~
+ÃœÃ§ DiÅŸli Asa~
+Devasa bir Ã¼Ã§ diÅŸli asa burada bÄ±rakÄ±lmÄ±ÅŸ.~
 oak~
 weapon FGK AN
 staff 9 12 pierce F
@@ -366,9 +366,9 @@ A
 A
 4 3
 #907
-yay gümüş~
-gümüş yay~
-Gümüş bir yay burada bırakılmış.~
+yay gÃ¼mÃ¼ÅŸ~
+gÃ¼mÃ¼ÅŸ yay~
+GÃ¼mÃ¼ÅŸ bir yay burada bÄ±rakÄ±lmÄ±ÅŸ.~
 silver~
 weapon FGK AN
 bow 10 9 pierce F
@@ -378,9 +378,9 @@ A
 A
 18 12
 #908
-eldiven ateş~
-bir çift ateş eldiveni~
-Bir çift eldiven burada bırakılmış.~
+eldiven ateÅŸ~
+bir Ã§ift ateÅŸ eldiveni~
+Bir Ã§ift eldiven burada bÄ±rakÄ±lmÄ±ÅŸ.~
 steel gold leather~
 armor G AH
 21 21 21 21 0
@@ -392,15 +392,15 @@ A
 #909
 iksir ambros~
 ambros iksiri~
-Ufak bir şişe iksir burada unutulmuş.~
+Ufak bir ÅŸiÅŸe iksir burada unutulmuÅŸ.~
 glass~
 potion FGK A
 100 'dispel evil' 'holy aura' 'master heal' 'master heal'
 61 10 91130 P
 #910
-ışıldayan kolye~
-ışıldayan kolye~
-Kızıl ışık saçan bir kolye burada duruyor.~
+Ä±ÅŸÄ±ldayan kolye~
+Ä±ÅŸÄ±ldayan kolye~
+KÄ±zÄ±l Ä±ÅŸÄ±k saÃ§an bir kolye burada duruyor.~
 amethyst~
 jewelry FGK AC
 0 0 0 0 0
@@ -408,9 +408,9 @@ jewelry FGK AC
 A
 12 100
 #911
-yüzük safir~
-safir yüzük~
-Bir yüzük burada unutulmuş.~
+yÃ¼zÃ¼k safir~
+safir yÃ¼zÃ¼k~
+Bir yÃ¼zÃ¼k burada unutulmuÅŸ.~
 sapphire~
 jewelry FGK AB
 0 0 0 0 0
@@ -422,9 +422,9 @@ A
 A
 4 2
 #912
-kalkan ışıldayan~
-ışıldayan kalkan~
-Kızıl ışık saçan bir kalkan burada duruyor.~
+kalkan Ä±ÅŸÄ±ldayan~
+Ä±ÅŸÄ±ldayan kalkan~
+KÄ±zÄ±l Ä±ÅŸÄ±k saÃ§an bir kalkan burada duruyor.~
 silver~
 armor FGK AJ
 19 19 19 16 0
@@ -436,25 +436,25 @@ A
 A
 24 -10
 #913
-balta çentikli~
-çentikli balta~
-Çentikli bir balta burada bırakılmış.~
+balta Ã§entikli~
+Ã§entikli balta~
+Ã‡entikli bir balta burada bÄ±rakÄ±lmÄ±ÅŸ.~
 iron~
 weapon FGK AN
 axe 9 12 slice 0
 75 120 3600 P
 #914
-üzüm salkım~
-salkım üzüm~
-Bir salkım üzüm burada yenmeyi bekliyor.~
+Ã¼zÃ¼m salkÄ±m~
+salkÄ±m Ã¼zÃ¼m~
+Bir salkÄ±m Ã¼zÃ¼m burada yenmeyi bekliyor.~
 food~
 food 0 A
 24 24 0 0 0
 0 10 100 P
 #915
-yelpaze tavuskuşu~
-tavuskuşu yelpaze~
-Tavuskuşu tüylerinden yapılmış bir yelpaze burada duruyor.~
+yelpaze tavuskuÅŸu~
+tavuskuÅŸu yelpaze~
+TavuskuÅŸu tÃ¼ylerinden yapÄ±lmÄ±ÅŸ bir yelpaze burada duruyor.~
 fur~
 trash 0 A
 0 0 0 0 0
@@ -462,15 +462,15 @@ trash 0 A
 #916
 ud~
 ud~
-Bir ud burada, bir melodi mırıldanmak istiyor.~
+Bir ud burada, bir melodi mÄ±rÄ±ldanmak istiyor.~
 unknown~
 trash 0 A
 0 0 0 0 0
 0 10 0 P
 #917
-külçe altın~
-külçe altın~
-Bir külçe altın parıldıyarak yerde duruyor.~
+kÃ¼lÃ§e altÄ±n~
+kÃ¼lÃ§e altÄ±n~
+Bir kÃ¼lÃ§e altÄ±n parÄ±ldÄ±yarak yerde duruyor.~
 gold~
 treasure 0 A
 0 0 0 0 0
@@ -510,7 +510,7 @@ pill 0 A
 #922
 madalyon soron~
 Soron'un Madalyonu~
-Güneş şeklinde bir madalyon burada duruyor.~
+GÃ¼neÅŸ ÅŸeklinde bir madalyon burada duruyor.~
 crystal~
 jewelry FGK AC
 0 0 0 0 0
@@ -522,9 +522,9 @@ A
 A
 24 -5
 #923
-güneş kılıç~
-Güneş Kılıcı~
-Parıldayan, güzel bir kılıç yerde duruyor.~
+gÃ¼neÅŸ kÄ±lÄ±Ã§~
+GÃ¼neÅŸ KÄ±lÄ±cÄ±~
+ParÄ±ldayan, gÃ¼zel bir kÄ±lÄ±Ã§ yerde duruyor.~
 unknown~
 weapon FGKL AN
 sword 12 10 slash 0
@@ -546,9 +546,9 @@ armor FGK AK
 A
 13 15
 #925
-şapka~
-şapka~
-Bir şapka burada, alınmayı bekliyor.~
+ÅŸapka~
+ÅŸapka~
+Bir ÅŸapka burada, alÄ±nmayÄ± bekliyor.~
 cloth~
 armor FGK AE
 4 4 4 3 0
@@ -556,23 +556,23 @@ armor FGK AE
 #926
 nektar~
 nektar~
-Ufak bir şişe nektar yerde duruyor.~
+Ufak bir ÅŸiÅŸe nektar yerde duruyor.~
 glass~
 potion 0 A
 90 'sanctuary' 'giant strength' 'fly' 'enhanced armor'
 42 10 810 P
 #927
-anahtar hücre~
-hücre anahtarı~
-Bir anahtar burada bırakılmış.~
+anahtar hÃ¼cre~
+hÃ¼cre anahtarÄ±~
+Bir anahtar burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ivory~
 key 0 A
 0 0 0 0 0
 0 10 0 P
 #928
 sumut harita~
-Sumut'un gizli haritası~
-Rulo yapılmış bir harita görüyorsun.~
+Sumut'un gizli haritasÄ±~
+Rulo yapÄ±lmÄ±ÅŸ bir harita gÃ¶rÃ¼yorsun.~
 paper~
 map 0 A
 1 0 0 0 0
@@ -624,9 +624,9 @@ sumut harita gizli~
                       Mountain
 ~
 #930
-gümüş ok~
-gümüş bir ok~
-Gümüş bir ok yerde yatıyor.~
+gÃ¼mÃ¼ÅŸ ok~
+gÃ¼mÃ¼ÅŸ bir ok~
+GÃ¼mÃ¼ÅŸ bir ok yerde yatÄ±yor.~
 silver~
 weapon FGK AO
 arrow 6 7 pierce ABCDEFGH
@@ -639,10 +639,10 @@ A
 
 #ROOMS
 #901
-Sumut'a Tırmanan Patika~
-Yüksek sayılabilecek bir dağı tırmanan patikanın eşiğindesin. Patika
-büyük oranda kaybolmuş. Civarda ufak kamp izleri görüyorsun. Yola devam
-etmek istiyorsan yukarı doğru tırmanman gerekecek.
+Sumut'a TÄ±rmanan Patika~
+YÃ¼ksek sayÄ±labilecek bir daÄŸÄ± tÄ±rmanan patikanÄ±n eÅŸiÄŸindesin. Patika
+bÃ¼yÃ¼k oranda kaybolmuÅŸ. Civarda ufak kamp izleri gÃ¶rÃ¼yorsun. Yola devam
+etmek istiyorsan yukarÄ± doÄŸru tÄ±rmanman gerekecek.
 ~
 0 0 5
 D2
@@ -655,10 +655,10 @@ D4
 0 -1 902
 S
 #902
-Sumut'a Tırmanan Patika~
-Dağın tepesine ilerleyen silik patikadasın. Yaşamın devamını
-kanıtlarcasına öten böceklerin ve kuşların seslerini duyuyorsun. Patika
-yukarı ve aşağı yönde devam ediyor.
+Sumut'a TÄ±rmanan Patika~
+DaÄŸÄ±n tepesine ilerleyen silik patikadasÄ±n. YaÅŸamÄ±n devamÄ±nÄ±
+kanÄ±tlarcasÄ±na Ã¶ten bÃ¶ceklerin ve kuÅŸlarÄ±n seslerini duyuyorsun. Patika
+yukarÄ± ve aÅŸaÄŸÄ± yÃ¶nde devam ediyor.
 ~
 0 0 9
 D4
@@ -671,9 +671,9 @@ D5
 0 -1 901
 S
 #903
-Sumut'a Tırmanan Patika~
-Sonunda dağın tepesine ulaştın. Oksijendeki azalmayı hissedebiliyorsun.
-Kuzeye giden yol Sumut'a ulaşıyor.
+Sumut'a TÄ±rmanan Patika~
+Sonunda daÄŸÄ±n tepesine ulaÅŸtÄ±n. Oksijendeki azalmayÄ± hissedebiliyorsun.
+Kuzeye giden yol Sumut'a ulaÅŸÄ±yor.
 ~
 0 0 9
 D0
@@ -686,10 +686,10 @@ D5
 0 -1 902
 S
 #904
-Sumut Kasabası'na Girişi~
-Büyük bir kasabanın girişindesin. Etrafına şöyle bir baktığında kasaba
-sakinlerinin çok zengin olduğunu fark ediyorsun. Hayatında böyle güzel
-binalara sahip bir kasaba görmemiştin.
+Sumut KasabasÄ±'na GiriÅŸi~
+BÃ¼yÃ¼k bir kasabanÄ±n giriÅŸindesin. EtrafÄ±na ÅŸÃ¶yle bir baktÄ±ÄŸÄ±nda kasaba
+sakinlerinin Ã§ok zengin olduÄŸunu fark ediyorsun. HayatÄ±nda bÃ¶yle gÃ¼zel
+binalara sahip bir kasaba gÃ¶rmemiÅŸtin.
 ~
 0 0 1
 D0
@@ -703,8 +703,8 @@ D2
 S
 #905
 Basham Caddesi~
-Çok geniş bir caddede yürüyorsun. Kasaba çok kalabalık değil. Bir köşede
-'Basham Caddesi' yazılı bir tabela görüyorsun. Batıda küçük bir dükkan var.
+Ã‡ok geniÅŸ bir caddede yÃ¼rÃ¼yorsun. Kasaba Ã§ok kalabalÄ±k deÄŸil. Bir kÃ¶ÅŸede
+'Basham Caddesi' yazÄ±lÄ± bir tabela gÃ¶rÃ¼yorsun. BatÄ±da kÃ¼Ã§Ã¼k bir dÃ¼kkan var.
 ~
 0 0 1
 D0
@@ -723,8 +723,8 @@ D3
 S
 #906
 Basham Caddesi~
-Kasabanın en geniş ve en büyük caddesindesin. Sokak güneye ve kuzeye
-devam ederken doğuda ve batıda büyük konutlar görüyorsun.
+KasabanÄ±n en geniÅŸ ve en bÃ¼yÃ¼k caddesindesin. Sokak gÃ¼neye ve kuzeye
+devam ederken doÄŸuda ve batÄ±da bÃ¼yÃ¼k konutlar gÃ¶rÃ¼yorsun.
 ~
 0 0 1
 D0
@@ -747,7 +747,7 @@ D3
 S
 #907
 Basham Caddesi~
-Basham Caddesi'ndesin. Batıda birkaç dükkan görüyorsun.
+Basham Caddesi'ndesin. BatÄ±da birkaÃ§ dÃ¼kkan gÃ¶rÃ¼yorsun.
 ~
 0 0 1
 D0
@@ -765,8 +765,8 @@ D3
 S
 #908
 Basham Caddesi~
-Hala kasabanın ana caddesindesin. Kuzeyde büyük bir kale görüyorsun.
-Doğuda küçük bir yol var.
+Hala kasabanÄ±n ana caddesindesin. Kuzeyde bÃ¼yÃ¼k bir kale gÃ¶rÃ¼yorsun.
+DoÄŸuda kÃ¼Ã§Ã¼k bir yol var.
 ~
 0 0 1
 D0
@@ -783,10 +783,10 @@ D2
 0 -1 907
 S
 #909
-Kale Girişi~
-Büyük bir kalenin giriş yolundasın. Resimler ve halılarla kurulan
-dekorasyon oldukça etkileyici. Kuzeyden gelen bir kahkaha duyuyorsun. Küçük
-koridorlar doğu ve batı yönlerine ayrılıyorlar.
+Kale GiriÅŸi~
+BÃ¼yÃ¼k bir kalenin giriÅŸ yolundasÄ±n. Resimler ve halÄ±larla kurulan
+dekorasyon oldukÃ§a etkileyici. Kuzeyden gelen bir kahkaha duyuyorsun. KÃ¼Ã§Ã¼k
+koridorlar doÄŸu ve batÄ± yÃ¶nlerine ayrÄ±lÄ±yorlar.
 ~
 0 D 1
 D0
@@ -807,10 +807,10 @@ D3
 0 -1 911
 S
 #910
-Taht Odası~
-Bu odaya girerken izlerin yok oluyor. Kral Amrir'in taht odasındasın.
-Karşında, tamamı altından yapılmış, zümrütlerle süslenmiş, zeminle bir
-bütünmüş gibi duran muhteşem tahtı görüyorsun.
+Taht OdasÄ±~
+Bu odaya girerken izlerin yok oluyor. Kral Amrir'in taht odasÄ±ndasÄ±n.
+KarÅŸÄ±nda, tamamÄ± altÄ±ndan yapÄ±lmÄ±ÅŸ, zÃ¼mrÃ¼tlerle sÃ¼slenmiÅŸ, zeminle bir
+bÃ¼tÃ¼nmÃ¼ÅŸ gibi duran muhteÅŸem tahtÄ± gÃ¶rÃ¼yorsun.
 ~
 0 D 1
 D0
@@ -827,14 +827,14 @@ taht~
 1 -1 918
 E
 Taht~
-Bu büyük altın taht burada çağlarca durmuş. İyice baktığında tahtın
-zemine tam birleştirilmemiş olduğunu fark ediyorsun... Belki yerinden biraz
-olsun kaldırabilirsin?
+Bu bÃ¼yÃ¼k altÄ±n taht burada Ã§aÄŸlarca durmuÅŸ. Ä°yice baktÄ±ÄŸÄ±nda tahtÄ±n
+zemine tam birleÅŸtirilmemiÅŸ olduÄŸunu fark ediyorsun... Belki yerinden biraz
+olsun kaldÄ±rabilirsin?
 ~
 S
 #911
-Batı Kanadı~
-Kalenin batı kanadındasın. Doğuda bir giriş var, koridor batıya doğru
+BatÄ± KanadÄ±~
+Kalenin batÄ± kanadÄ±ndasÄ±n. DoÄŸuda bir giriÅŸ var, koridor batÄ±ya doÄŸru
 devam ediyor.
 ~
 0 D 1
@@ -848,9 +848,9 @@ D3
 0 -1 912
 S
 #912
-Batı Kanadı~
-Kalenin batı kanadındasın. Koridor kuzeye doğru devam ediyor, güneyde ve
-batıda özel odalar var.
+BatÄ± KanadÄ±~
+Kalenin batÄ± kanadÄ±ndasÄ±n. Koridor kuzeye doÄŸru devam ediyor, gÃ¼neyde ve
+batÄ±da Ã¶zel odalar var.
 ~
 0 D 1
 D0
@@ -871,9 +871,9 @@ D3
 0 -1 929
 S
 #913
-Batı Kanadı~
-Kalenin batı kanadındasın. Koridor güneye doğru devam ediyor. Kuzeyde
-çömlek ve tavaların sesini duyuyorsun.
+BatÄ± KanadÄ±~
+Kalenin batÄ± kanadÄ±ndasÄ±n. Koridor gÃ¼neye doÄŸru devam ediyor. Kuzeyde
+Ã§Ã¶mlek ve tavalarÄ±n sesini duyuyorsun.
 ~
 0 D 1
 D0
@@ -887,9 +887,9 @@ D2
 S
 #914
 Mutfak~
-Kalenin mutfağına girdin ve burası oldukça sıkıcı bir yer. Kalede bulunan
-insanların tümüne yetecek yemeğin kolayca hazırlanabileceği kadar geniş.
-Duvarlara sinmiş yağın ve baharatın kokusunu alıyorsun.
+Kalenin mutfaÄŸÄ±na girdin ve burasÄ± oldukÃ§a sÄ±kÄ±cÄ± bir yer. Kalede bulunan
+insanlarÄ±n tÃ¼mÃ¼ne yetecek yemeÄŸin kolayca hazÄ±rlanabileceÄŸi kadar geniÅŸ.
+Duvarlara sinmiÅŸ yaÄŸÄ±n ve baharatÄ±n kokusunu alÄ±yorsun.
 ~
 0 D 1
 D2
@@ -898,8 +898,8 @@ D2
 0 -1 913
 S
 #915
-Doğu Kanadı~
-Kalenin doğu kanadındasın. Koridor doğuya doğru devam ediyor, giriş batıda.
+DoÄŸu KanadÄ±~
+Kalenin doÄŸu kanadÄ±ndasÄ±n. Koridor doÄŸuya doÄŸru devam ediyor, giriÅŸ batÄ±da.
 ~
 0 D 1
 D1
@@ -912,9 +912,9 @@ D3
 0 -1 909
 S
 #916
-Doğu Kanadı~
-Kalenin doğu kanadındasın. Koridor burada kuzeye dönüyor. Güneyde ve
-doğuda özel odalar var.
+DoÄŸu KanadÄ±~
+Kalenin doÄŸu kanadÄ±ndasÄ±n. Koridor burada kuzeye dÃ¶nÃ¼yor. GÃ¼neyde ve
+doÄŸuda Ã¶zel odalar var.
 ~
 0 D 1
 D0
@@ -935,9 +935,9 @@ D3
 0 -1 915
 S
 #917
-Doğu Kanadı~
-Kalenin doğu kanadındasın. Kuzeyden hayvan sesleri geliyor. Koridor
-güneye devam ediyor.
+DoÄŸu KanadÄ±~
+Kalenin doÄŸu kanadÄ±ndasÄ±n. Kuzeyden hayvan sesleri geliyor. Koridor
+gÃ¼neye devam ediyor.
 ~
 0 D 1
 D0
@@ -951,8 +951,8 @@ D2
 S
 #918
 Zindan~
-Kale zindanındasın. Kudretli Amrir'in hangi korkunç yaratıklardan korkup
-onları hapsettiğini merak ediyorsun.
+Kale zindanÄ±ndasÄ±n. Kudretli Amrir'in hangi korkunÃ§ yaratÄ±klardan korkup
+onlarÄ± hapsettiÄŸini merak ediyorsun.
 ~
 0 AD 1
 D0
@@ -961,12 +961,12 @@ D0
 0 -1 919
 D4
 ~
-kapı~
+kapÄ±~
 1 -1 910
 S
 #919
 Zindan~
-Kale zindanındasın. Kuzeyde, batıda, ve doğuda hücreler var...
+Kale zindanÄ±ndasÄ±n. Kuzeyde, batÄ±da, ve doÄŸuda hÃ¼creler var...
 ~
 0 AD 1
 D0
@@ -987,8 +987,8 @@ D3
 1 927 921
 S
 #920
-Hücre~
-Küçük, sıkışık ve pis bir hücredesin. Korkunç bir yer.
+HÃ¼cre~
+KÃ¼Ã§Ã¼k, sÄ±kÄ±ÅŸÄ±k ve pis bir hÃ¼credesin. KorkunÃ§ bir yer.
 ~
 0 AD 1
 D2
@@ -997,8 +997,8 @@ D2
 1 927 919
 S
 #921
-Hücre~
-Küçük, sıkışık ve pis bir hücredesin. Berbat bir yer.
+HÃ¼cre~
+KÃ¼Ã§Ã¼k, sÄ±kÄ±ÅŸÄ±k ve pis bir hÃ¼credesin. Berbat bir yer.
 ~
 0 AD 1
 D1
@@ -1007,8 +1007,8 @@ D1
 1 927 919
 S
 #922
-Hücre~
-Küçük, sıkışık ve pis bir hücredesin. İğrenç bir yer.
+HÃ¼cre~
+KÃ¼Ã§Ã¼k, sÄ±kÄ±ÅŸÄ±k ve pis bir hÃ¼credesin. Ä°ÄŸrenÃ§ bir yer.
 ~
 0 AD 1
 D3
@@ -1018,8 +1018,8 @@ D3
 S
 #923
 Merdiven~
-Yukarıya çıkan geniş bir merdivendesin. Güneyde Amrir'in taht odası,
-aşağıda karanlık denizi görüyorsun.
+YukarÄ±ya Ã§Ä±kan geniÅŸ bir merdivendesin. GÃ¼neyde Amrir'in taht odasÄ±,
+aÅŸaÄŸÄ±da karanlÄ±k denizi gÃ¶rÃ¼yorsun.
 ~
 0 D 1
 D2
@@ -1036,8 +1036,8 @@ D5
 0 -1 29500
 S
 #924
-Fırın~
-Ekmekleriyle kasabayı besleyen küçük bir dükkandasın. Burası harika
+FÄ±rÄ±n~
+Ekmekleriyle kasabayÄ± besleyen kÃ¼Ã§Ã¼k bir dÃ¼kkandasÄ±n. BurasÄ± harika
 kokuyor!
 ~
 0 D 1
@@ -1048,9 +1048,9 @@ D1
 S
 #925
 Konut~
-Kasaba sakinlerinden birinin konutundasın. Büyük şehirlerin konutları
-gibi dekore edilmiş. Duvar ve tavan işçiliği için oldukça yüksek miktarda
-ödeme yapılmış olması gerektiğini düşünüyorsun.
+Kasaba sakinlerinden birinin konutundasÄ±n. BÃ¼yÃ¼k ÅŸehirlerin konutlarÄ±
+gibi dekore edilmiÅŸ. Duvar ve tavan iÅŸÃ§iliÄŸi iÃ§in oldukÃ§a yÃ¼ksek miktarda
+Ã¶deme yapÄ±lmÄ±ÅŸ olmasÄ± gerektiÄŸini dÃ¼ÅŸÃ¼nÃ¼yorsun.
 ~
 0 D 1
 D3
@@ -1060,9 +1060,9 @@ D3
 S
 #926
 Konut~
-Kasaba sakinlerinden birinin konutundasın. Büyük şehirlerin konutları
-gibi dekore edilmiş. Duvar ve tavan işçiliği için oldukça yüksek miktarda
-ödeme yapılmış olması gerektiğini düşünüyorsun.
+Kasaba sakinlerinden birinin konutundasÄ±n. BÃ¼yÃ¼k ÅŸehirlerin konutlarÄ±
+gibi dekore edilmiÅŸ. Duvar ve tavan iÅŸÃ§iliÄŸi iÃ§in oldukÃ§a yÃ¼ksek miktarda
+Ã¶deme yapÄ±lmÄ±ÅŸ olmasÄ± gerektiÄŸini dÃ¼ÅŸÃ¼nÃ¼yorsun.
 ~
 0 D 1
 D1
@@ -1071,9 +1071,9 @@ D1
 0 -1 906
 S
 #927
-Antika Dükkanı~
-Herhangi bir mistik nesneye ihtiyaç duyan kasabalının ilk olarak geldiği
-dükkandasın.
+Antika DÃ¼kkanÄ±~
+Herhangi bir mistik nesneye ihtiyaÃ§ duyan kasabalÄ±nÄ±n ilk olarak geldiÄŸi
+dÃ¼kkandasÄ±n.
 ~
 0 D 1
 D1
@@ -1082,9 +1082,9 @@ D1
 0 -1 907
 S
 #928
-Sazgar Sokağı~
-Ana caddeden dallara ayrılan sokaklardan birindesin. Tabelada bu yolun
-Sazgar Sokağı olduğu yazıyor.
+Sazgar SokaÄŸÄ±~
+Ana caddeden dallara ayrÄ±lan sokaklardan birindesin. Tabelada bu yolun
+Sazgar SokaÄŸÄ± olduÄŸu yazÄ±yor.
 ~
 0 D 1
 D1
@@ -1097,10 +1097,10 @@ D3
 0 -1 908
 S
 #929
-Misafir Odası~
-Kaledeki ziyaretçilere ayrılan özel konutların bulunduğu yerdesin. Oda
-ihtişamlı dekorasyonuyla Amrir'in asaletini ve gücünü temsil ediyor. Sumut
-Dağı'na hükmeden krala yakışır bir misafir odası.
+Misafir OdasÄ±~
+Kaledeki ziyaretÃ§ilere ayrÄ±lan Ã¶zel konutlarÄ±n bulunduÄŸu yerdesin. Oda
+ihtiÅŸamlÄ± dekorasyonuyla Amrir'in asaletini ve gÃ¼cÃ¼nÃ¼ temsil ediyor. Sumut
+DaÄŸÄ±'na hÃ¼kmeden krala yakÄ±ÅŸÄ±r bir misafir odasÄ±.
 ~
 0 D 1
 D1
@@ -1110,7 +1110,7 @@ D1
 S
 #930
 Ambar~
-Kalenin ambarındasın. Ivır zıvırla dolu birkaç kutudan başka birşey yok.
+Kalenin ambarÄ±ndasÄ±n. IvÄ±r zÄ±vÄ±rla dolu birkaÃ§ kutudan baÅŸka birÅŸey yok.
 ~
 0 D 1
 D0
@@ -1119,10 +1119,10 @@ D0
 0 -1 912
 S
 #931
-Ziyaretçi Yeri~
-Kaledeki ziyaretçilere ayrılan özel konutların bulunduğu yerdesin. Oda
-ihtişamlı dekorasyonuyla Amrir'in asaletini ve gücünü temsil ediyor. Sumut
-Dağı'na hükmeden krala yakışır bir misafir odası.
+ZiyaretÃ§i Yeri~
+Kaledeki ziyaretÃ§ilere ayrÄ±lan Ã¶zel konutlarÄ±n bulunduÄŸu yerdesin. Oda
+ihtiÅŸamlÄ± dekorasyonuyla Amrir'in asaletini ve gÃ¼cÃ¼nÃ¼ temsil ediyor. Sumut
+DaÄŸÄ±'na hÃ¼kmeden krala yakÄ±ÅŸÄ±r bir misafir odasÄ±.
 ~
 0 D 1
 D3
@@ -1132,7 +1132,7 @@ D3
 S
 #932
 Ambar~
-Kalenin ambarındasın. Ivır zıvırla dolu birkaç kutudan başka birşey yok.
+Kalenin ambarÄ±ndasÄ±n. IvÄ±r zÄ±vÄ±rla dolu birkaÃ§ kutudan baÅŸka birÅŸey yok.
 ~
 0 D 1
 D0
@@ -1141,9 +1141,9 @@ D0
 0 -1 916
 S
 #933
-Ahır~
-Kalenin ahırındasın. Yığılan saman balyaları yüzünden pencereler
-kapanmış. Gübre kokusu rahatsız edici derecede güçlü.
+AhÄ±r~
+Kalenin ahÄ±rÄ±ndasÄ±n. YÄ±ÄŸÄ±lan saman balyalarÄ± yÃ¼zÃ¼nden pencereler
+kapanmÄ±ÅŸ. GÃ¼bre kokusu rahatsÄ±z edici derecede gÃ¼Ã§lÃ¼.
 ~
 0 D 1
 D2
@@ -1152,9 +1152,9 @@ D2
 0 -1 917
 S
 #934
-Sazgar Sokağı~
-Sazgar Sokağı'nın sonuna geldin. Güneyde bir zırhçı görüyorsun, batıda
-bir silah dükkanı bulunuyor. Kuzeyde ise demirciyi fark ediyorsun.
+Sazgar SokaÄŸÄ±~
+Sazgar SokaÄŸÄ±'nÄ±n sonuna geldin. GÃ¼neyde bir zÄ±rhÃ§Ä± gÃ¶rÃ¼yorsun, batÄ±da
+bir silah dÃ¼kkanÄ± bulunuyor. Kuzeyde ise demirciyi fark ediyorsun.
 ~
 0 D 1
 D0
@@ -1175,8 +1175,8 @@ D3
 0 -1 928
 S
 #935
-Zırhçı~
-Bu küçük dükkan hemen hemen boş. Fazla iş olmamasına rağmen, tezgahtar
+ZÄ±rhÃ§Ä±~
+Bu kÃ¼Ã§Ã¼k dÃ¼kkan hemen hemen boÅŸ. Fazla iÅŸ olmamasÄ±na raÄŸmen, tezgahtar
 seninle ticaret yapmak istemiyor.
 ~
 0 D 1
@@ -1186,9 +1186,9 @@ D0
 0 -1 934
 S
 #936
-Silahçı~
-Gösterişsiz silahların olduğu küçük bir dükkandasın. Çok fazla silah
-çeşidinin olmadığını görüyorsun. Tezgahtar seninle ticaret yapmak istemiyor.
+SilahÃ§Ä±~
+GÃ¶steriÅŸsiz silahlarÄ±n olduÄŸu kÃ¼Ã§Ã¼k bir dÃ¼kkandasÄ±n. Ã‡ok fazla silah
+Ã§eÅŸidinin olmadÄ±ÄŸÄ±nÄ± gÃ¶rÃ¼yorsun. Tezgahtar seninle ticaret yapmak istemiyor.
 ~
 0 D 1
 D3
@@ -1198,10 +1198,10 @@ D3
 S
 #937
 Demirci~
-Bu geniş oda o kadar gürültülü ki, ancak kendi düşüncelerini
-duyabiliyorsun. Mekanik hareketlerle salınan körük, rüzgarla çınlayan metal
-parçaları kulakları hassas birini sağır edebilir. Batı duvarında tuhaf bir
-şey var ve sen ne olduğunu anlayamıyorsun.
+Bu geniÅŸ oda o kadar gÃ¼rÃ¼ltÃ¼lÃ¼ ki, ancak kendi dÃ¼ÅŸÃ¼ncelerini
+duyabiliyorsun. Mekanik hareketlerle salÄ±nan kÃ¶rÃ¼k, rÃ¼zgarla Ã§Ä±nlayan metal
+parÃ§alarÄ± kulaklarÄ± hassas birini saÄŸÄ±r edebilir. BatÄ± duvarÄ±nda tuhaf bir
+ÅŸey var ve sen ne olduÄŸunu anlayamÄ±yorsun.
 ~
 0 D 1
 D2
@@ -1209,16 +1209,16 @@ D2
 ~
 0 -1 934
 D3
-Gizlenmiş bir kapı görüyorsun!
+GizlenmiÅŸ bir kapÄ± gÃ¶rÃ¼yorsun!
 ~
-gizli kapı~
+gizli kapÄ±~
 1 -1 938
 S
 #938
-Planlama Odası~
-Ortasında devasa bir masanın durduğu geniş bir odadasın. Buranın önemli
-bir planlama odası olduğunu anlıyorsun. Gönyeler, rulolanmış haritalar,
-saldırı ve savunmaları simüle etmeye yarayan küçük asker heykelleri...
+Planlama OdasÄ±~
+OrtasÄ±nda devasa bir masanÄ±n durduÄŸu geniÅŸ bir odadasÄ±n. BuranÄ±n Ã¶nemli
+bir planlama odasÄ± olduÄŸunu anlÄ±yorsun. GÃ¶nyeler, rulolanmÄ±ÅŸ haritalar,
+saldÄ±rÄ± ve savunmalarÄ± simÃ¼le etmeye yarayan kÃ¼Ã§Ã¼k asker heykelleri...
 ~
 0 AD 1
 D0
@@ -1231,9 +1231,9 @@ D1
 0 -1 937
 S
 #939
-İkinci Kat~
-Kalenin ikinci katındasın. Koridor bütün yönlerde uzanıyor. Yukarıda
-küçük kapanmış bir ambar ağzını görüyorsun.
+Ä°kinci Kat~
+Kalenin ikinci katÄ±ndasÄ±n. Koridor bÃ¼tÃ¼n yÃ¶nlerde uzanÄ±yor. YukarÄ±da
+kÃ¼Ã§Ã¼k kapanmÄ±ÅŸ bir ambar aÄŸzÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 D 1
 D0
@@ -1253,7 +1253,7 @@ D3
 ~
 0 -1 942
 D4
-Ambarın kapağındaki tabela: 'Özel Mülk. İzinsiz Girilmez! '.
+AmbarÄ±n kapaÄŸÄ±ndaki tabela: 'Ã–zel MÃ¼lk. Ä°zinsiz Girilmez! '.
 ~
 kapak~
 1 -1 948
@@ -1264,8 +1264,8 @@ D5
 S
 #940
 Kuzey Koridoru~
-Kuzey koridorundasın. Kuzeyde özel bir oda bulunuyor, güneyde aşağıya
-inen merdivenler görüyorsun.
+Kuzey koridorundasÄ±n. Kuzeyde Ã¶zel bir oda bulunuyor, gÃ¼neyde aÅŸaÄŸÄ±ya
+inen merdivenler gÃ¶rÃ¼yorsun.
 ~
 0 D 1
 D0
@@ -1278,9 +1278,9 @@ D2
 0 -1 939
 S
 #941
-Güney Koridoru~
-Güney koridorundasın. Güneyde özel bir oda bulunuyor, kuzeyde aşağıya
-inen merdivenler görüyorsun.
+GÃ¼ney Koridoru~
+GÃ¼ney koridorundasÄ±n. GÃ¼neyde Ã¶zel bir oda bulunuyor, kuzeyde aÅŸaÄŸÄ±ya
+inen merdivenler gÃ¶rÃ¼yorsun.
 ~
 0 D 1
 D0
@@ -1293,9 +1293,9 @@ D2
 0 -1 944
 S
 #942
-Batı Koridoru~
-Batı koridorundasın. Batıda özel bir oda bulunuyor, doğuda aşağıya inen
-merdivenler görüyorsun.
+BatÄ± Koridoru~
+BatÄ± koridorundasÄ±n. BatÄ±da Ã¶zel bir oda bulunuyor, doÄŸuda aÅŸaÄŸÄ±ya inen
+merdivenler gÃ¶rÃ¼yorsun.
 ~
 0 D 1
 D1
@@ -1308,9 +1308,9 @@ D3
 0 -1 945
 S
 #943
-Doğu Koridoru~
-Doğu koridorundasın. Doğuda özel bir oda bulunuyor, batıda aşağıya inen
-merdivenler görüyorsun.
+DoÄŸu Koridoru~
+DoÄŸu koridorundasÄ±n. DoÄŸuda Ã¶zel bir oda bulunuyor, batÄ±da aÅŸaÄŸÄ±ya inen
+merdivenler gÃ¶rÃ¼yorsun.
 ~
 0 D 1
 D1
@@ -1323,8 +1323,8 @@ D3
 0 -1 939
 S
 #944
-Yatak Odası~
-Bir yatak odasındasın!
+Yatak OdasÄ±~
+Bir yatak odasÄ±ndasÄ±n!
 ~
 0 D 1
 D0
@@ -1333,8 +1333,8 @@ D0
 0 -1 941
 S
 #945
-Yatak Odası~
-Bir yatak odasındasın!
+Yatak OdasÄ±~
+Bir yatak odasÄ±ndasÄ±n!
 ~
 0 D 1
 D1
@@ -1343,8 +1343,8 @@ D1
 0 -1 942
 S
 #946
-Yatak Odası~
-Bir yatak odasındasın!
+Yatak OdasÄ±~
+Bir yatak odasÄ±ndasÄ±n!
 ~
 0 D 1
 D3
@@ -1353,8 +1353,8 @@ D3
 0 -1 943
 S
 #947
-Yatak Odası~
-Bir yatak odasındasın!
+Yatak OdasÄ±~
+Bir yatak odasÄ±ndasÄ±n!
 ~
 0 D 1
 D2
@@ -1363,12 +1363,12 @@ D2
 0 -1 940
 S
 #948
-Büyük Salon~
-Kutsal görünümlü ve ihtişamlı bir salondasın. Tek parça siyah mermerden
-oyulmuş dev bir masa salonun ortasına yerleştirilmiş. Duvarlarda eski
-krallar olduğunu düşündüğün kişilere ait tablolar var. Zemin Selenge'nin
-doğusundan getirtildiğine inandığın halılarla estetik bir şekilde döşenmiş.
-Her yönde çıkışlar bulunuyor.
+BÃ¼yÃ¼k Salon~
+Kutsal gÃ¶rÃ¼nÃ¼mlÃ¼ ve ihtiÅŸamlÄ± bir salondasÄ±n. Tek parÃ§a siyah mermerden
+oyulmuÅŸ dev bir masa salonun ortasÄ±na yerleÅŸtirilmiÅŸ. Duvarlarda eski
+krallar olduÄŸunu dÃ¼ÅŸÃ¼ndÃ¼ÄŸÃ¼n kiÅŸilere ait tablolar var. Zemin Selenge'nin
+doÄŸusundan getirtildiÄŸine inandÄ±ÄŸÄ±n halÄ±larla estetik bir ÅŸekilde dÃ¶ÅŸenmiÅŸ.
+Her yÃ¶nde Ã§Ä±kÄ±ÅŸlar bulunuyor.
 ~
 0 D 1
 D0
@@ -1381,8 +1381,8 @@ ambar kapak~
 0 -1 939
 S
 #951
-Geçit~
-Bir tabela üzerinde: 'Beklenmeyenden kaçın! ' yazıyor.
+GeÃ§it~
+Bir tabela Ã¼zerinde: 'Beklenmeyenden kaÃ§Ä±n! ' yazÄ±yor.
 ~
 0 D 1
 D2
@@ -1391,9 +1391,9 @@ D2
 0 -1 948
 S
 #954
-İnanan~
-Duvarda üzerinde 'Vakit geç olmadan, hayatın tadını çıkar,' yazan büyük
-bir papirüs görüyorsun.
+Ä°nanan~
+Duvarda Ã¼zerinde 'Vakit geÃ§ olmadan, hayatÄ±n tadÄ±nÄ± Ã§Ä±kar,' yazan bÃ¼yÃ¼k
+bir papirÃ¼s gÃ¶rÃ¼yorsun.
 ~
 0 D 1
 D2

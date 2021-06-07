@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -49,7 +49,7 @@
 ***************************************************************************/
 
 /* externs */
-extern char str_empty[1];
+extern wchar_t str_empty[1];
 extern int mobile_count;
 
 /* stuff for providing a crash-proof buffer */
@@ -118,6 +118,6 @@ MD	*find_memory args( (MEM_DATA *memory, long id) );
 BUFFER	*new_buf args( (void) );
 BUFFER  *new_buf_size args( (int size) );
 void	free_buf args( (BUFFER *buffer) );
-bool	add_buf args( (BUFFER *buffer, char *string) );
+bool	add_buf args( (BUFFER *buffer, wchar_t *string) );
 void	clear_buf args( (BUFFER *buffer) );
-char	*buf_string args( (BUFFER *buffer) );
+wchar_t	*buf_string args( (BUFFER *buffer) );

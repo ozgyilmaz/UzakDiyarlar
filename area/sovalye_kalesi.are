@@ -1,9 +1,9 @@
 #AREADATA
 Filename sovalye_kalesi.are~
-Name Şövalye Kalesi~
+Name ÅÃ¶valye Kalesi~
 Builder Chronos~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 90
 Highlevel 100
 Minvnum 520
@@ -19,9 +19,9 @@ C
 
 #NEW_MOBILES
 #520
-şövalye şifacı kabal~
-şifacı~
-Şövalyelerin şifacısı, seni iyileştirmek için burada.
+ÅŸÃ¶valye ÅŸifacÄ± kabal~
+ÅŸifacÄ±~
+ÅÃ¶valyelerin ÅŸifacÄ±sÄ±, seni iyileÅŸtirmek iÃ§in burada.
 ~
   After retiring long fights, he chose to heal his mates against evils
 with his long experienced wise years.
@@ -29,9 +29,9 @@ with his long experienced wise years.
 human~
 ABQVae DFH 90
 #521
-şövalye koruyucu gard~
+ÅŸÃ¶valye koruyucu gard~
 koruyucu~
-Şövalye korucuyu, girişi bekliyor.
+ÅÃ¶valye korucuyu, giriÅŸi bekliyor.
 ~
  Although his old age, he is still good enough in all martial arts. His
 bright body armor is shining upon you.
@@ -39,9 +39,9 @@ bright body armor is shining upon you.
 human~
 ABJKWe DFHJVZec 92
 #522
-şövalye esnaf ahır sahip binek~
-ahır sahibi~
-Ahır sahibi atlarını satıyor.
+ÅŸÃ¶valye esnaf ahÄ±r sahip binek~
+ahÄ±r sahibi~
+AhÄ±r sahibi atlarÄ±nÄ± satÄ±yor.
 ~
  Although his old age, he is still good enough in all martial arts. His
 bright body armor is shining upon you.
@@ -67,9 +67,9 @@ Beyaz bir at burada duruyor.
 horse~
 ABIWZ FHJV 52
 #525
-büyük beyaz at binek~
-büyük beyaz at~
-Büyük beyaz bir at burada duruyor.
+bÃ¼yÃ¼k beyaz at binek~
+bÃ¼yÃ¼k beyaz at~
+BÃ¼yÃ¼k beyaz bir at burada duruyor.
 ~
    It is saddled with light tack, and has long slender limbs for speed.
 ~
@@ -79,9 +79,9 @@ ABIWZ FHJV 72
 
 #OBJECTS
 #520
-anahtar altın~
-altın bir anahtar~
-Altından bir anahtar yerde bırakılmış.~
+anahtar altÄ±n~
+altÄ±n bir anahtar~
+AltÄ±ndan bir anahtar yerde bÄ±rakÄ±lmÄ±ÅŸ.~
 gold~
 key ORY AO
 0 0 0 0 0
@@ -89,15 +89,15 @@ key ORY AO
 #521
 mimber~
 mimber~
-Altından, devasa bir mimber odanın ortasında duruyor.~
+AltÄ±ndan, devasa bir mimber odanÄ±n ortasÄ±nda duruyor.~
 gold~
 container ORY P
 10 15 520 15 100
 60 1 20 P
 #522
-büyük onur madalyası~
-Büyük onur madalyası~
-Büyük onur madalyası buraya bırakılmış.~
+bÃ¼yÃ¼k onur madalyasÄ±~
+BÃ¼yÃ¼k onur madalyasÄ±~
+BÃ¼yÃ¼k onur madalyasÄ± buraya bÄ±rakÄ±lmÄ±ÅŸ.~
 gold~
 treasure O AO
 0 0 0 0 0

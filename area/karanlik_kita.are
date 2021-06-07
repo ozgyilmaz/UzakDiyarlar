@@ -1,9 +1,9 @@
 #AREADATA
 Filename karanlik_kita.are~
-Name Karanlık Kıta~
+Name KaranlÄ±k KÄ±ta~
 Builder Mort~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 35
 Minvnum 14500
@@ -25,9 +25,9 @@ After them by Asena.
 
 #NEW_MOBILES
 #14501
-büyük maymun~
-BÜYÜK maymun~
-BÜYÜK bir maymun ilgiyle seni izliyor.
+bÃ¼yÃ¼k maymun~
+BÃœYÃœK maymun~
+BÃœYÃœK bir maymun ilgiyle seni izliyor.
 ~
 This BIG monkey must weigh at least 200 pounds. It is covered with black
 fur and has the ugliest teeth you have ever seen.
@@ -35,28 +35,28 @@ fur and has the ugliest teeth you have ever seen.
 human~
 AF c 10
 #14502
-tüccar çora~
-Çora tüccar~
-Bir Çora tüccar mallarını kontrol ediyor.
+tÃ¼ccar Ã§ora~
+Ã‡ora tÃ¼ccar~
+Bir Ã‡ora tÃ¼ccar mallarÄ±nÄ± kontrol ediyor.
 ~
-This Çora does not appear to be very prosperous. His violet eyes look you
+This Ã‡ora does not appear to be very prosperous. His violet eyes look you
 over as he tries to decide if you are a client or a salesman.
 ~
-çora~
+Ã§ora~
 BG J 12
 #14503
-tüccar cüce~
-Cüce tüccar~
-Cüce tüccar seni selamlıyor, "Hoşgeldin!"
+tÃ¼ccar cÃ¼ce~
+CÃ¼ce tÃ¼ccar~
+CÃ¼ce tÃ¼ccar seni selamlÄ±yor, "HoÅŸgeldin!"
 ~
 This merchant has the Eye of the Tiger. "Welcome my friend," he says.
 ~
 dwarf~
 BG J 12
 #14504
-tüccar yarıcüce~
-Yarıcüce tüccar~
-Yarıcüce tüccar sana bakıyor.
+tÃ¼ccar yarÄ±cÃ¼ce~
+YarÄ±cÃ¼ce tÃ¼ccar~
+YarÄ±cÃ¼ce tÃ¼ccar sana bakÄ±yor.
 ~
 This man is only four feet tall but has a powerful body.  His arms reach
 almost to his calves.
@@ -64,18 +64,18 @@ almost to his calves.
 human~
 AGH 0 12
 #14505
-tüccar insan~
-İnsan tüccar~
-İrice bir insan tüccar sana birşeyler satmak için hazırlık yapıyor.
+tÃ¼ccar insan~
+Ä°nsan tÃ¼ccar~
+Ä°rice bir insan tÃ¼ccar sana birÅŸeyler satmak iÃ§in hazÄ±rlÄ±k yapÄ±yor.
 ~
 Many of the merchants you have seen throughout your life resemble this man.
 ~
 human~
 ACS 0 5
 #14506
-maceracı delioğlan~
-Maceracı Delioğlan~
-Maceracı Delioğlan seninle dalga geçiyor.
+maceracÄ± delioÄŸlan~
+MaceracÄ± DelioÄŸlan~
+MaceracÄ± DelioÄŸlan seninle dalga geÃ§iyor.
 ~
 This adventurer is a largish, oafish, boy with the largest ego you've ever
 seen.  His ego is writing checks his character will never be able to cash.
@@ -83,9 +83,9 @@ seen.  His ego is writing checks his character will never be able to cash.
 human~
 ACHS 0 7
 #14507
-sakallı asker~
-Sakallı Asker~
-Sakallı Asker silahıyla birkaç numara gösteriyor, Vaaauuuvvv!
+sakallÄ± asker~
+SakallÄ± Asker~
+SakallÄ± Asker silahÄ±yla birkaÃ§ numara gÃ¶steriyor, Vaaauuuvvv!
 ~
 This soldier has an alert look about him.  With his pointed beard and
 sharp sword the security he provides comes mostly from his presence.
@@ -95,7 +95,7 @@ ABT 0 15
 #14508
 dikkatli asker~
 Dikkatli Asker~
-Dikkatli Asker sana tedirgin bir bakış gönderiyor.
+Dikkatli Asker sana tedirgin bir bakÄ±ÅŸ gÃ¶nderiyor.
 ~
 This soldier greets you with a bared blade. I don't think you'll be
 sneaking up on him.
@@ -112,9 +112,9 @@ Without looking in his eye you have no idea how tough he would be.
 human~
 ABT 0 17
 #14510
-Gözcü~
-Gözcü~
-Gözcü şeytani olanları izliyor.
+GÃ¶zcÃ¼~
+GÃ¶zcÃ¼~
+GÃ¶zcÃ¼ ÅŸeytani olanlarÄ± izliyor.
 ~
 This female Watcher is one of those cultist who protect the rest of the
 world from those they determine are evil.
@@ -122,18 +122,18 @@ world from those they determine are evil.
 human~
 ABT JN 20
 #14511
-şişman domuz~
-şişman domuz~
-Şişman bir domuz yiyecek için dolaşıyor.
+ÅŸiÅŸman domuz~
+ÅŸiÅŸman domuz~
+ÅiÅŸman bir domuz yiyecek iÃ§in dolaÅŸÄ±yor.
 ~
 This fat pig is very hungry. He eats just about ANYTHING.
 ~
 pig~
 ACGH Gb 5
 #14512
-köpek~
-köpek~
-Bir köpek şaşkın gözlerle kuyruğunu izliyor.
+kÃ¶pek~
+kÃ¶pek~
+Bir kÃ¶pek ÅŸaÅŸkÄ±n gÃ¶zlerle kuyruÄŸunu izliyor.
 ~
 The dog looks back at you.  After a few moments it sits up..
 puts a cigar in it's mouth, lights it, and asks, "So..what's up bub?"
@@ -143,7 +143,7 @@ AB F 7
 #14513
 tavuk~
 tavuk~
-Bir tavuk tırnaklarıyla toprağı çiziyor.
+Bir tavuk tÄ±rnaklarÄ±yla topraÄŸÄ± Ã§iziyor.
 ~
 This chicken is so skinny it WOULDN'T provide enough meat for a soup.
         ************ IT ESCAPE FROM KFC BAR !!! *************
@@ -152,8 +152,8 @@ song bird~
 CG NOT 35
 #14514
 insan erkek~
-İnsan Erkek~
-Bir İnsan Erkeği kendi işiyle ilgili düşüncelere dalmış.
+Ä°nsan Erkek~
+Bir Ä°nsan ErkeÄŸi kendi iÅŸiyle ilgili dÃ¼ÅŸÃ¼ncelere dalmÄ±ÅŸ.
 ~
 This guy looks like an advertisement for a wilderness clothing company.
 From his buckskins to his fur cap he fits the part.
@@ -161,9 +161,9 @@ From his buckskins to his fur cap he fits the part.
 human~
 ACS 0 5
 #14515
-kadın insan~
-İnsan Kadın~
-Bir İnsan Kadın yürüyor.
+kadÄ±n insan~
+Ä°nsan KadÄ±n~
+Bir Ä°nsan KadÄ±n yÃ¼rÃ¼yor.
 ~
 She appears to be distracted by some inner thought. Although she seems
 to be in good health, her eyes are puffy and red.
@@ -171,45 +171,45 @@ to be in good health, her eyes are puffy and red.
 human~
 ACS 0 8
 #14516
-çora erkek~
-Çora Erkeği~
-Bir Çora Erkeği birşeyler arıyor.
+Ã§ora erkek~
+Ã‡ora ErkeÄŸi~
+Bir Ã‡ora ErkeÄŸi birÅŸeyler arÄ±yor.
 ~
-The Çora Man looks at you intently before continuing on his way.
+The Ã‡ora Man looks at you intently before continuing on his way.
 ~
-çora~
+Ã§ora~
 ABR DEFZ 13
 #14517
-çora kadın~
-Çora Kadını~
-Güzel bir Çora Kadını kendi kendine mırıldanıyor.
+Ã§ora kadÄ±n~
+Ã‡ora KadÄ±nÄ±~
+GÃ¼zel bir Ã‡ora KadÄ±nÄ± kendi kendine mÄ±rÄ±ldanÄ±yor.
 ~
 Looking into her eyes causes you great fear.
 ~
-çora~
+Ã§ora~
 ABR DEFZ 16
 #14518
-cüce kadın~
-Cüce Kadını~
-Cüce Kadını yumruğuyla avuç içine vuruyor.
+cÃ¼ce kadÄ±n~
+CÃ¼ce KadÄ±nÄ±~
+CÃ¼ce KadÄ±nÄ± yumruÄŸuyla avuÃ§ iÃ§ine vuruyor.
 ~
 Stand back!  She's about to blow!!!
 ~
 dwarf~
 ABT DF 16
 #14519
-cüce erkek~
-Cüce Erkeği~
-İri bir Cüce Erkeği yanında yürüyor.
+cÃ¼ce erkek~
+CÃ¼ce ErkeÄŸi~
+Ä°ri bir CÃ¼ce ErkeÄŸi yanÄ±nda yÃ¼rÃ¼yor.
 ~
 He looks back at you, then dismisses you as unimportant.
 ~
 dwarf~
 ABT DF 19
 #14520
-savaşçı goblin~
-Goblin Savaşçı~
-Goblin Savaşçı kafasını kaldırarak seni izlemeye başlıyor.
+savaÅŸÃ§Ä± goblin~
+Goblin SavaÅŸÃ§Ä±~
+Goblin SavaÅŸÃ§Ä± kafasÄ±nÄ± kaldÄ±rarak seni izlemeye baÅŸlÄ±yor.
 ~
 This goblin must be a shock troop.  He is HUGE. Standing 6' tall and weighing
 about 250 pounds his bite will be worse than you would think. He is lightly
@@ -223,30 +223,30 @@ AFG J 12
 
 #OBJECTS
 #14501
-maymun pençesi~
-maymun pençesi~
-Bir maymun pençesi burada yatıyor.~
+maymun penÃ§esi~
+maymun penÃ§esi~
+Bir maymun penÃ§esi burada yatÄ±yor.~
 silver~
 treasure A A
 0 0 0 0 0
 5 2 400 P
 #14502
-çora kolyesi~
-Çora Kolyesi~
-Bir kolye burada düşürülmüş.~
+Ã§ora kolyesi~
+Ã‡ora Kolyesi~
+Bir kolye burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 steal~
 armor 0 AC
 7 7 7 0 2
 19 50 4700 P
 E
-necklace çora~
+necklace Ã§ora~
 Engraved on the back are the words: "Protect that which is important"~
 A
 17 -10
 #14503
-çora iksiri~
-Çora İksiri~
-Bir iksir burada düşürülmüş.~
+Ã§ora iksiri~
+Ã‡ora Ä°ksiri~
+Bir iksir burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 glass~
 potion G AO
 10 'bless' 'cure critical' 'cure poison' 'heal'
@@ -257,9 +257,9 @@ Written on the seal of the bottle is a glyph. You believe that the glyph
 stands for "POISON"
 ~
 #14504
-çora su çizmeleri~
-bir çift Çora Su Çizmesi~
-Bir çift çizme burada yatıyor.~
+Ã§ora su Ã§izmeleri~
+bir Ã§ift Ã‡ora Su Ã‡izmesi~
+Bir Ã§ift Ã§izme burada yatÄ±yor.~
 ash~
 boat A AG
 0 0 0 0 0
@@ -267,49 +267,49 @@ boat A AG
 A
 14 -25
 #14505
-cüce içkisi fıçı~
-bir fıçı cüce içkisi~
-Bir fıçı içki burada bırakılmış.~
+cÃ¼ce iÃ§kisi fÄ±Ã§Ä±~
+bir fÄ±Ã§Ä± cÃ¼ce iÃ§kisi~
+Bir fÄ±Ã§Ä± iÃ§ki burada bÄ±rakÄ±lmÄ±ÅŸ.~
 glass~
 drink 0 A
 20 20 'local specialty' 0 0
 1 30 90 G
 #14506
-tükenmeyen cüce ışık kaynak~
-Tükenmeyen Cüce Işığı~
-Bir ışık kaynağı burada oturuyor.~
+tÃ¼kenmeyen cÃ¼ce Ä±ÅŸÄ±k kaynak~
+TÃ¼kenmeyen CÃ¼ce IÅŸÄ±ÄŸÄ±~
+Bir Ä±ÅŸÄ±k kaynaÄŸÄ± burada oturuyor.~
 brass~
 light 0 A
 0 0 99 0 0
 1 50 150 P
 #14507
-cüce ekmek~
-Cüce Ekmeği~
-Cüce ekmeklerinin güzel bir örneği burada bekliyor.~
+cÃ¼ce ekmek~
+CÃ¼ce EkmeÄŸi~
+CÃ¼ce ekmeklerinin gÃ¼zel bir Ã¶rneÄŸi burada bekliyor.~
 food~
 food 0 A
 48 20 0 0 0
 1 1 50 P
 #14508
-timsah derisinden çanta~
-Timsah Derisinden Çanta~
-Güzel bir çanta burada dinleniyor.~
+timsah derisinden Ã§anta~
+Timsah Derisinden Ã‡anta~
+GÃ¼zel bir Ã§anta burada dinleniyor.~
 leather~
 container G AM
 100 0 0 20 80
 1 10 1200 G
 #14509
-büyülü şekerleme~
-büyülü şekerleme~
-Bir şekerleme burada yatıyor.~
+bÃ¼yÃ¼lÃ¼ ÅŸekerleme~
+bÃ¼yÃ¼lÃ¼ ÅŸekerleme~
+Bir ÅŸekerleme burada yatÄ±yor.~
 bread~
 potion G AO
 15 'teleport' 'curse' 'teleport' 'curse'
 25 10 17900 P
 #14510
-ganimet haritası~
-Ganimet Haritası~
-Bir ganimet haritası burada bırakılmış.~
+ganimet haritasÄ±~
+Ganimet HaritasÄ±~
+Bir ganimet haritasÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 paper~
 map 0 A
 1 0 0 0 0
@@ -321,48 +321,48 @@ The golden talent a large is at tree step then twenty plus twenty step south.
 #14511
 kandil~
 kandil~
-Bir kandil burada bırakılmış.~
+Bir kandil burada bÄ±rakÄ±lmÄ±ÅŸ.~
 silver~
 treasure G AB
 0 0 0 0 0
 1 10 1000 P
 #14512
-görev notu~
-Görev Notu~
-Bir not burada yatıyor.~
+gÃ¶rev notu~
+GÃ¶rev Notu~
+Bir not burada yatÄ±yor.~
 paper~
 trash 0 A
 0 0 0 0 0
 0 1 0 P
 E
-görev notu~
-İyinin ve kötünün, savaşı hep orada olacak,
-bu savaşın yankıları diğerlerini doğuracak,
-ve bir kez daha Ejderha'nın alevi, başmeleği bulacak.
-Güçlünün güçsüz olduğu yerin,
-Yenişemeyen İkili'nin diyarı söylenirse Ulu'ya
-işte sana yeni bir görev daha doğacak.
+gÃ¶rev notu~
+Ä°yinin ve kÃ¶tÃ¼nÃ¼n, savaÅŸÄ± hep orada olacak,
+bu savaÅŸÄ±n yankÄ±larÄ± diÄŸerlerini doÄŸuracak,
+ve bir kez daha Ejderha'nÄ±n alevi, baÅŸmeleÄŸi bulacak.
+GÃ¼Ã§lÃ¼nÃ¼n gÃ¼Ã§sÃ¼z olduÄŸu yerin,
+YeniÅŸemeyen Ä°kili'nin diyarÄ± sÃ¶ylenirse Ulu'ya
+iÅŸte sana yeni bir gÃ¶rev daha doÄŸacak.
 ~
 #14513
 su semaveri~
 Su Semaveri~
-Bir semaver burada yatıyor.~
+Bir semaver burada yatÄ±yor.~
 glass~
 drink 0 A
 15 15 'water' 0 0
 1 1 30 G
 #14514
-delioğlan kafası~
-Delioğlan'ın Kafası~
-Delioğlan'In Kafası burada yatıyor.~
+delioÄŸlan kafasÄ±~
+DelioÄŸlan'Ä±n KafasÄ±~
+DelioÄŸlan'In KafasÄ± burada yatÄ±yor.~
 meat~
 light 0 AO
 0 0 -1 0 0
 7 10 200 P
 #14515
-delioğlan kılıç~
-Delioğlan'ın Kılıcı~
-Delioğlan'ın Kılıcı burada dinleniyor.~
+delioÄŸlan kÄ±lÄ±Ã§~
+DelioÄŸlan'Ä±n KÄ±lÄ±cÄ±~
+DelioÄŸlan'Ä±n KÄ±lÄ±cÄ± burada dinleniyor.~
 iron~
 weapon BIG AN
 sword 1 12 slash 0
@@ -372,17 +372,17 @@ A
 A
 4 -8
 #14516
-ada kılıç~
-Ada Kılıcı~
-Bir kılıç burada düşürülmüş.~
+ada kÄ±lÄ±Ã§~
+Ada KÄ±lÄ±cÄ±~
+Bir kÄ±lÄ±Ã§ burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 iron~
 weapon BI AN
 sword 5 5 slash 0
 15 150 1500 P
 #14517
-ada miğferi~
-Ada Miğferi~
-Bir miğfer burada düşürülmüş.~
+ada miÄŸferi~
+Ada MiÄŸferi~
+Bir miÄŸfer burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 silver~
 armor AGK AE
 6 6 6 1 4
@@ -397,8 +397,8 @@ You see an Island Helmet.  Imprinted on the side is: Gapcio Industries
 ~
 #14518
 ada kalkan~
-Ada Kalkanı~
-Bir kalkan burada düşürülmüş.~
+Ada KalkanÄ±~
+Bir kalkan burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 steel~
 armor G AJ
 6 6 6 1 5
@@ -408,9 +408,9 @@ shield island~
 You see an Island Shield.  Imprinted on the side is: Gapcio Industries
 ~
 #14519
-ada gürz~
-Ada Gürzü~
-Bir gürz burada düşürülmüş.~
+ada gÃ¼rz~
+Ada GÃ¼rzÃ¼~
+Bir gÃ¼rz burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 mithril~
 weapon G AN
 mace 5 5 pound 0
@@ -424,17 +424,17 @@ island mace~
 You see a island mace.  Imprinted on the side is: Gapcio Industries
 ~
 #14520
-parlayan parşömen~
-Parlayan Parşömen~
-Parlayan bir parşömen burada yatıyor.~
+parlayan parÅŸÃ¶men~
+Parlayan ParÅŸÃ¶men~
+Parlayan bir parÅŸÃ¶men burada yatÄ±yor.~
 vellum~
 scroll G AO
 20 'earthquake' 'earthquake' 'earthquake' 'earthquake'
 17 300 5313 G
 #14521
-gözcü kara cüppesi~
-Gözcü'nün Kara Cüppesi~
-Kara bir cüppe burada düşürülmüş.~
+gÃ¶zcÃ¼ kara cÃ¼ppesi~
+GÃ¶zcÃ¼'nÃ¼n Kara CÃ¼ppesi~
+Kara bir cÃ¼ppe burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 cloth~
 armor GK AK
 6 8 7 1 3
@@ -446,9 +446,9 @@ A
 A
 17 -20
 #14522
-gözcü delici hançer~
-Gözcü'nün Delici Hançeri~
-Bir hançer burada düşürülmüş.~
+gÃ¶zcÃ¼ delici hanÃ§er~
+GÃ¶zcÃ¼'nÃ¼n Delici HanÃ§eri~
+Bir hanÃ§er burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 corundum~
 weapon GK AN
 dagger 5 6 thrust 0
@@ -458,9 +458,9 @@ A
 A
 12 15
 #14523
-gözcü mühürlü yüzük~
-Gözcü'nün Mühürlü Yüzüğü~
-Mühürlü bir yüzük burada düşürülmüş.~
+gÃ¶zcÃ¼ mÃ¼hÃ¼rlÃ¼ yÃ¼zÃ¼k~
+GÃ¶zcÃ¼'nÃ¼n MÃ¼hÃ¼rlÃ¼ YÃ¼zÃ¼ÄŸÃ¼~
+MÃ¼hÃ¼rlÃ¼ bir yÃ¼zÃ¼k burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 bone~
 treasure GK AB
 0 0 0 0 0
@@ -468,17 +468,17 @@ treasure GK AB
 A
 2 5
 #14524
-kamış sepet~
-kamış sepet~
-Kamıştan bir sepet burada bırakılmış.~
+kamÄ±ÅŸ sepet~
+kamÄ±ÅŸ sepet~
+KamÄ±ÅŸtan bir sepet burada bÄ±rakÄ±lmÄ±ÅŸ.~
 softwood~
 container 0 AO
 50 1 0 10 100
 1 10 40 G
 #14525
-yün sandalye~
-yün sandalye~
-Yün bir sandalye burada duruyor.~
+yÃ¼n sandalye~
+yÃ¼n sandalye~
+YÃ¼n bir sandalye burada duruyor.~
 wool~
 furniture 0 0
 1 40 BEHKN 250 250
@@ -486,15 +486,15 @@ furniture 0 0
 #14526
 meyve sepeti~
 meyve sepeti~
-Bir meyve sepeti burada düşürülmüş.~
+Bir meyve sepeti burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 food~
 food 0 A
 24 12 0 0 0
 15 50 200 P
 #14527
-saman şapka~
-saman şapka~
-Samandan bir şapka burada düşürülmüş.~
+saman ÅŸapka~
+saman ÅŸapka~
+Samandan bir ÅŸapka burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 bamboo~
 armor 0 AE
 6 6 6 0 1
@@ -508,9 +508,9 @@ fountain G 0
 100000 100000 'water' 0 0
 0 0 0 P
 #14529
-kuştüyü yatak~
-kuştüyü yatak~
-Kuştüyünden bir yatak burada duruyor.~
+kuÅŸtÃ¼yÃ¼ yatak~
+kuÅŸtÃ¼yÃ¼ yatak~
+KuÅŸtÃ¼yÃ¼nden bir yatak burada duruyor.~
 feathers~
 furniture 0 0
 2 40 CFILO 400 400
@@ -524,9 +524,9 @@ furniture 0 0
 10 40 BEHN 400 400
 0 500 0 P
 #14531
-kadın portresi~
-kadın portresi~
-Güzel bir kadın portresi yerde yatıyor.~
+kadÄ±n portresi~
+kadÄ±n portresi~
+GÃ¼zel bir kadÄ±n portresi yerde yatÄ±yor.~
 canvas~
 furniture 0 0
 0 0 0 0 0
@@ -543,39 +543,39 @@ This portrait is of Siren, the Goddess of the Mist.
 #14532
 oyuncak yay~
 oyuncak yay~
-Oyuncak bir yay burada düşürülmüş.~
+Oyuncak bir yay burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 wood~
 weapon 0 AN
 bow 1 1 hit 0
 5 10 100 P
 #14533
-el arabası~
-el arabası~
-Bir el arabası burada bırakılmış.~
+el arabasÄ±~
+el arabasÄ±~
+Bir el arabasÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 steel~
 container 0 AO
 1000 1 0 200 50
 35 50 4000 G
 #14534
-sandık~
-sandık~
-Bir sandık burada bekliyor.~
+sandÄ±k~
+sandÄ±k~
+Bir sandÄ±k burada bekliyor.~
 wood~
 container 0 A
 150 0 0 100 100
 0 50 50 G
 #14535
-goblin kargısı~
-Goblin Kargısı~
-Bir kargı burada düşürülmüş.~
+goblin kargÄ±sÄ±~
+Goblin KargÄ±sÄ±~
+Bir kargÄ± burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 wood~
 weapon AG AN
 staff 4 5 pierce D
 12 50 1700 P
 #14536
-goblin peştemalı~
-Goblin Peştemalı~
-Bir peştemal burada bırakılmış.~
+goblin peÅŸtemalÄ±~
+Goblin PeÅŸtemalÄ±~
+Bir peÅŸtemal burada bÄ±rakÄ±lmÄ±ÅŸ.~
 snakeskin~
 armor G AD
 7 7 7 0 2
@@ -587,17 +587,17 @@ A
 A
 4 -1
 #14537
-cüce topuzu~
-Cüce Topuzu~
+cÃ¼ce topuzu~
+CÃ¼ce Topuzu~
 Bir topuz burada dinleniyor.~
 wood~
 weapon AG AN
 flail 5 5 pound D
 17 250 3400 P
 #14538
-cüce kalkan~
-Cüce Kalkanı~
-Bir kalkan burada düşürülmüş.~
+cÃ¼ce kalkan~
+CÃ¼ce KalkanÄ±~
+Bir kalkan burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 wood~
 armor AG AJ
 6 6 6 1 5
@@ -609,7 +609,7 @@ A
 
 #ROOMS
 #14501
-Kara Göründü !!!~
+Kara GÃ¶rÃ¼ndÃ¼ !!!~
 At long last....land hoooo!  To the south, the pinacle of a large
 mountain has attracted your attention.  A sandy beach awaits your
 landing...trees wave in the wind and birds of many colors fly
@@ -645,7 +645,7 @@ small tablet~
 ~
 S
 #14502
-Kıta Yakınında~
+KÄ±ta YakÄ±nÄ±nda~
 The beach is quickly approaching and you had better take in
 your sail or you'll run aground.  From here you can see three
 huge mountaintops and a few trees next to two or three buildings.
@@ -661,7 +661,7 @@ D2
 0 -1 14503
 S
 #14503
-Kumsal Yakınında Sert Dalgalar~
+Kumsal YakÄ±nÄ±nda Sert Dalgalar~
 The water rushes toward the beach causing large waves and
 a riptide which threatens to pull your vessel towards the west.
 ~
@@ -709,7 +709,7 @@ D3
 0 -1 14506
 S
 #14506
-Suyun Kenarı~
+Suyun KenarÄ±~
 You have walked quite a distance from your vessel.  If you
 look backwards you can see your anchored ship bobbing in the
 surf.  The path you are following begins to curve into the
@@ -828,7 +828,7 @@ D3
 0 -1 14513
 S
 #14513
-Sonun Yakını~
+Sonun YakÄ±nÄ±~
 The trail is coming to an end.  To the northwest you can see
 three or four buildings nestled within the palms of the beach.
 At least one of the buildings is a warehouse.
@@ -876,7 +876,7 @@ D3
 0 -1 14514
 S
 #14516
-Dağ Yolu~
+DaÄŸ Yolu~
 The sandy trail you have been following leaves the beach and
 enters the mountains.  Well maintained, the mountain trail is
 easy to follow and has obviously been smoothed to make your
@@ -893,7 +893,7 @@ D4
 0 -1 14517
 S
 #14517
-Dağ Yolu~
+DaÄŸ Yolu~
 The steep trail you are following cuts between a huge mountain
 to the west and two smaller mountains to the east.  A little
 further down the trail you can see a clearing of some kind.
@@ -925,7 +925,7 @@ D5
 0 -1 14517
 S
 #14519
-Dağ Açıklığı~
+DaÄŸ AÃ§Ä±klÄ±ÄŸÄ±~
 The trail has led you to a mountain clearing.  Circled by bushes
 and a few shrubs this grassy clearing shows several signs of
 recent travel by a great number of people.
@@ -945,7 +945,7 @@ D5
 0 -1 14518
 S
 #14520
-Açıklık~
+AÃ§Ä±klÄ±k~
 The grassy mountain clearing is open to the sun and is full of
 the smells of a high mountain meadow.  A large swath of purple
 flowers carpets this side of the clearing.
@@ -965,7 +965,7 @@ D2
 0 -1 14521
 S
 #14521
-Dağ Çayırlığı~
+DaÄŸ Ã‡ayÄ±rlÄ±ÄŸÄ±~
 The mountain meadow where you are standing has knee high grass,
 yellow flowers and is surrounded by the short shrubs of the area.
 ~
@@ -980,7 +980,7 @@ D1
 0 -1 14522
 S
 #14522
-Dağ Manzarası~
+DaÄŸ ManzarasÄ±~
 You are standing at the edge of a high mountain clearing.  You
 are completely surrounded by mountains, some of which are capped
 by white snow.
@@ -996,7 +996,7 @@ D3
 0 -1 14521
 S
 #14523
-Açıklığın Ortası~
+AÃ§Ä±klÄ±ÄŸÄ±n OrtasÄ±~
 The mountain clearing is all about you.  You are standing in
 the middle of a mountain meadow surrounded by snow capped
 mountain peaks.  Flowers of every color brighten the area.
@@ -1020,7 +1020,7 @@ D3
 0 -1 14520
 S
 #14524
-Çiçekler~
+Ã‡iÃ§ekler~
 The mountain clearing is carpeted with flowers of every color.
 Some of the flowers are extremely rare, however, all of them
 are beautiful and would make a wonderful addition to any home.
@@ -1040,7 +1040,7 @@ D3
 0 -1 14519
 S
 #14525
-Dağ Açıklığı~
+DaÄŸ AÃ§Ä±klÄ±ÄŸÄ±~
 The beautiful mountain clearing you are standing in is surrounded
 by extremely high mountains...some of which are covered with snow.
 ~
@@ -1055,7 +1055,7 @@ D3
 0 -1 14524
 S
 #14526
-Açık Gökyüzü~
+AÃ§Ä±k GÃ¶kyÃ¼zÃ¼~
 The mountain field you are standing in is open to the sky
 and is framed by tall mountains.
 ~
@@ -1074,7 +1074,7 @@ D3
 0 -1 14523
 S
 #14527
-Dağ Yolu~
+DaÄŸ Yolu~
 This trail leads from a mountain field to the bottom of a valley.
 The rich dirt of the trail is smooth and regular..signs that
 someone is maintaining the trail.
@@ -1090,7 +1090,7 @@ D2
 0 -1 14528
 S
 #14528
-Yol Kesişimi~
+Yol KesiÅŸimi~
 You are standing at a crossing of two different trails.  The
 trail to the east climbs a short mountain and ends at a lookout.
 The trail going down to the valley floor appears to be the most
@@ -1142,7 +1142,7 @@ D5
 0 -1 14531
 S
 #14531
-Kasaba Manzarası~
+Kasaba ManzarasÄ±~
 To the west is a small village composed of six or seven buildings
 and to the south of the village you see a garden, however, it's the
 river which attracts your attention.  You'll have to get a better
@@ -1175,7 +1175,7 @@ D4
 0 -1 14531
 S
 #14533
-Küçük Yol~
+KÃ¼Ã§Ã¼k Yol~
 This small trail travels into the mountains and the wilderness
 which surrounds it.  The rocky trail shows no signs of recent travel.
 ~
@@ -1190,7 +1190,7 @@ D3
 0 -1 14528
 S
 #14534
-Kır~
+KÄ±r~
 The wilderness is so disorganized.  Trails are rough and rocky,
 bushes with thorns crowd the trail and even the flowers are not
 as soft and lovely as the ones along the main trail.
@@ -1206,7 +1206,7 @@ D3
 0 -1 14533
 S
 #14535
-Kır Yolu~
+KÄ±r Yolu~
 This wilderness trail has none of the comforts of home.  Strange
 noises and unseen movement has begun to work on your nerves.
 You are approaching the end of the trail...at the top of a snow
@@ -1223,7 +1223,7 @@ D4
 0 -1 14536
 S
 #14536
-Dağ Zirvesi~
+DaÄŸ Zirvesi~
 The view from this small mountaintop is very special.  You are
 closer to the heavens than you'll ever get.  The view from here
 reveals much about the valley far below.  Below you a river can
@@ -1239,7 +1239,7 @@ D5
 0 -1 14535
 S
 #14537
-Kasaba Girişi~
+Kasaba GiriÅŸi~
 The wide trail leads into a small village of seven buildings.
 Made from natural stone, the one story buildings are simple yet
 effective.  A large garden area borders the river bisecting
@@ -1261,7 +1261,7 @@ D3
 0 -1 14538
 S
 #14538
-Malo Kasabası~
+Malo KasabasÄ±~
 You are standing at the entrance to Malo Village.  A small
 valley community of Humans, Dwarves, and Elves living together
 in wilderness harmony.  The village is alive with movement,
@@ -1290,7 +1290,7 @@ stacks and yellow light coming from the shuttered windows.
 D0
 This wooden door has a circle with a large
 letter M in the middle of it.~
-kapı~
+kapÄ±~
 1 -1 14540
 D1
 ~
@@ -1298,7 +1298,7 @@ D1
 0 -1 14538
 D2
 ~
-kapı~
+kapÄ±~
 1 -1 14541
 D3
 ~
@@ -1306,7 +1306,7 @@ D3
 0 -1 14542
 S
 #14540
-Taş Ev~
+TaÅŸ Ev~
 The stone house is warm and cozy.  Several thick blankets
 hang on the walls and a small fire is burning in the fireplace.
 Yellow candles light the room.  The room does not have anything
@@ -1320,7 +1320,7 @@ door~
 1 -1 14539
 S
 #14541
-Gri Taş Ev~
+Gri TaÅŸ Ev~
 A loving hand has created this home.  Fine detail has been given
 to all wooden items and the furniture was made by a master.
 ~
@@ -1384,7 +1384,7 @@ door~
 1 -1 14543
 S
 #14545
-Yeşil Ev~
+YeÅŸil Ev~
 In an obvious effort to overshadow the brown house nearby,
 the owners of this home have applied an expensive dye to
 their home, turning it a brilliant green color.
@@ -1471,7 +1471,7 @@ door~
 1 -1 14547
 S
 #14551
-Yaşlı Yol~
+YaÅŸlÄ± Yol~
 This ancient, overgrown road was made years before the village
 was constructed.  It's age is so great you can see where trees
 grew through it's center, were cut down and made into firewood.
@@ -1487,7 +1487,7 @@ D2
 0 -1 14552
 S
 #14552
-Bahçe ve Yaşlı Yol~
+BahÃ§e ve YaÅŸlÄ± Yol~
 The old road leads south while a small path leads westward
 into a large garden patch.  To the south the road crosses
 a river with an ancient bridge.  Two towers can be seen on
@@ -1508,7 +1508,7 @@ D3
 0 -1 14581
 S
 #14553
-Köprü~
+KÃ¶prÃ¼~
 The bridge is made of local material finely worked with artistic
 designs of flying creatures.  Gargoyles and flying lions decorate
 the entire bridge.
@@ -1524,7 +1524,7 @@ D2
 0 -1 14554
 S
 #14554
-Köprü Ortası~
+KÃ¶prÃ¼ OrtasÄ±~
 From this vantage point you see the river running west and east. Very cold
 water hits the side of the bridge and throws cold spray into your face.
 The wall encircling the village proper also encircles a long stretch of
@@ -1541,7 +1541,7 @@ D2
 0 -1 14555
 S
 #14555
-Köprünün Güneyi~
+KÃ¶prÃ¼nÃ¼n GÃ¼neyi~
 The bridge you are travelling on appears to have been constructed
 using the same material and methods used to build the ancient
 road you are travelling upon.
@@ -1574,7 +1574,7 @@ D2
 0 -1 14557
 S
 #14557
-Kızıl Yol~
+KÄ±zÄ±l Yol~
 Several large red stains appear along this area of the ancient
 roadway.  Upon closer examination you are able to determine that
 the stains are old blood.  Surely a battle has been fought here!
@@ -1601,7 +1601,7 @@ D3
 0 -1 14558
 S
 #14558
-Batı Kulesinden Önce~
+BatÄ± Kulesinden Ã–nce~
 The West Tower is a dark gray color.  Several gargoyles are
 crouching along the rim of the tower..protecting the residents
 from danger.  Stooping down you can see into the tower and out
@@ -1618,7 +1618,7 @@ D3
 0 -1 14559
 S
 #14559
-Batı Kulesi~
+BatÄ± Kulesi~
 This tower is rather small and has a dark, ominous feel about it.
 The roof has caved in, allowing the fresh mountain air to
 penetrate into every secret corner.  The entrance is to the east.
@@ -1635,7 +1635,7 @@ D3
 0 -1 14560
 S
 #14560
-Batı Kulesi~
+BatÄ± Kulesi~
 Scattered about the fallen bricks and timbers from the roof are
 bones and broken furniture.  The huge hole in the west wall shows
 signs of fire.  The bricks scattered about the room appear to have
@@ -1652,7 +1652,7 @@ D3
 0 -1 14589
 S
 #14561
-Doğu Kulesinden Önce~
+DoÄŸu Kulesinden Ã–nce~
 You are standing before the slim East Tower.  Unlike the West
 Tower this tower has been whitewashed.  Painted every three feet
 are red stylized crosses.  Again, unlike the West Tower this
@@ -1669,7 +1669,7 @@ D3
 0 -1 14557
 S
 #14562
-Doğu Kulesinde~
+DoÄŸu Kulesinde~
 A thin layer of dust covers the floor of this tower.  The markings
 in the dust indicate that someone, or something, has passed this
 way recently.  The room is mostly bare.
@@ -1685,7 +1685,7 @@ D3
 0 -1 14561
 S
 #14563
-Doğu Kulesi~
+DoÄŸu Kulesi~
 A large tapestry is hanging on the east wall.  The tapestry
 shows a mountain scene, with a river running through a valley
 and into a large cave mouth.  Several arrow slits provide access
@@ -1719,7 +1719,7 @@ D2
 0 -1 14565
 S
 #14565
-Geçitten Önce~
+GeÃ§itten Ã–nce~
 This huge metal gate appears to have been built much later than
 the ancient road it guards.  A close look at the door reveals
 a tiny, hand written sign attached to the gate.
@@ -1731,7 +1731,7 @@ D0
 0 -1 14564
 D2
 This massive steel gate has spears along it's top.~
-geçit~
+geÃ§it~
 1 -1 14566
 E
 sign~
@@ -1739,7 +1739,7 @@ BEWARE.  This gate is to remain closed at all times.  The evil must be
 controlled.  The evil must be contained.~
 S
 #14566
-Geçitin Kenarı~
+GeÃ§itin KenarÄ±~
 You are standing on the south side of the gate leading to
 Malo Village.  The ancient road continues to the south but is
 blocked by a rough wall of ill placed boulders.  On each side of
@@ -1772,7 +1772,7 @@ D2
 0 -1 14568
 S
 #14568
-Kayaların Dibi~
+KayalarÄ±n Dibi~
 The boulders have been stacked to block travel on the ancient
 road.  Large stakes, sharpened and pointed toward the wall,
 keep travellers on the road.
@@ -1820,7 +1820,7 @@ D1
 0 -1 14569
 S
 #14571
-Küçük Yol~
+KÃ¼Ã§Ã¼k Yol~
 This small path leads you away from the ancient road, along
 the boulders and into the sharpened stakes set to keep you on
 the road.
@@ -1864,7 +1864,7 @@ D1
 0 -1 14513
 S
 #14574
-Kıta Sonuna Giriş~
+KÄ±ta Sonuna GiriÅŸ~
 Land's End is a small fishing village with such a small population it doesn't
 appear on any maps.  Two large warehouses and two homes are the only standing
 buildings.
@@ -1880,7 +1880,7 @@ D2
 0 -1 14573
 S
 #14575
-Kıta Sonu Yolu~
+KÄ±ta Sonu Yolu~
 This is the only "road" in Land's End.  The most accurate
 description would be a path.  On both sides of you stand large
 warehouses where tradegoods are stored.  A few fishing nets
@@ -1906,7 +1906,7 @@ D3
 0 -1 14579
 S
 #14576
-Okyanus Manzarası~
+Okyanus ManzarasÄ±~
 From here you can see the ocean and any incoming vessels.
 Two homes stand nearby as well as a rowboat and three fishing
 vessels drydocked for the season.  Perhaps the fishing is bad.
@@ -1926,7 +1926,7 @@ D3
 0 -1 14580
 S
 #14577
-Okyanus Manzaralı Ev~
+Okyanus ManzaralÄ± Ev~
 This lovely wooden home stands so near the water that it's
 occupants have the most beautiful view you've ever seen.  Several
 crabs have made their home outside the seaward window.
@@ -1938,7 +1938,7 @@ D3
 0 -1 14576
 S
 #14578
-Büyük Mal Evi~
+BÃ¼yÃ¼k Mal Evi~
 This large warehouse was built to contain tradegoods for all
 of the sailors and merchants expected to use Ocean View as a
 port of call.  Unfortunately, no one seems to know exactly
@@ -1951,7 +1951,7 @@ D3
 0 -1 14575
 S
 #14579
-En Büyük Mal Evi~
+En BÃ¼yÃ¼k Mal Evi~
 You are standing in the largest warehouse on this side of the
 ocean.  The echo of your steps bounces back to you very quickly.
 When the weather turns incliment the local fishermen drag their
@@ -1964,7 +1964,7 @@ D1
 0 -1 14575
 S
 #14580
-Küçük Ev~
+KÃ¼Ã§Ã¼k Ev~
 This small home has been built from the bones of whales and
 other small sea animals.  Barnacles would feel right at home
 here...if the home were under water of course.
@@ -1976,7 +1976,7 @@ D1
 0 -1 14576
 S
 #14581
-Bahçe Yolu~
+BahÃ§e Yolu~
 Garden way is simply a path leading through or near the vegatables
 planted by the villagers.  All about you are sprouting plants.
 ~
@@ -1991,7 +1991,7 @@ D3
 0 -1 14582
 S
 #14582
-Bahçe Yolu~
+BahÃ§e Yolu~
 All about you are growing tiny little plants that will one day
 feed the population of the village.
 ~
@@ -2006,7 +2006,7 @@ D3
 0 -1 14583
 S
 #14583
-Bahçe Yolu~
+BahÃ§e Yolu~
 The path has now led you through several rows of beans, squash, and melons.
 ~
 0 0 2
@@ -2020,7 +2020,7 @@ D3
 0 -1 14584
 S
 #14584
-Nehir Boyu Bahçe~
+Nehir Boyu BahÃ§e~
 The garden continues to parallel the mountain river.  While walking
 through the carrots you glance south into the river and see the
 remains of a wooden bridge washed ashore.  The bridge is flimsy
@@ -2052,7 +2052,7 @@ D3
 0 -1 14586
 S
 #14586
-Duvarların Arkası~
+DuvarlarÄ±n ArkasÄ±~
 You are walking behind the homes and quite by accident have
 discovered a child's toy.  The toy is a wooden doll, complete
 with dress and straw hair.  It is lying in the mud and appears
@@ -2069,7 +2069,7 @@ D3
 0 -1 14587
 S
 #14587
-Nehir Manzarası~
+Nehir ManzarasÄ±~
 From this part of the garden you have an excellent view of the
 river as it passes through the fence.  A huge section of the
 12 foot high fence is missing above the river.  Perhaps a massive
@@ -2086,7 +2086,7 @@ D3
 0 -1 14588
 S
 #14588
-Bahçe Sonu~
+BahÃ§e Sonu~
 The garden ends here at the village wall.  The crops have been
 trampled and there's nothing here but a large mud patch.  A large
 mud patch with scores of tracks.
@@ -2108,7 +2108,7 @@ The toes are extremely long and end with
 curved talons.~
 S
 #14589
-Batı Kulesi Dışı~
+BatÄ± Kulesi DÄ±ÅŸÄ±~
 The soft ground here shows evidence of recent travel.  Some of
 the many marks in the ground were obviously made by booted
 soldiers while the unshod footprints appear to have been made
@@ -2125,7 +2125,7 @@ D3
 0 -1 14590
 S
 #14590
-Çitin Yanındaki Yol~
+Ã‡itin YanÄ±ndaki Yol~
 This tiny path goes to the fence then parallels it.  Following
 the path would take you near the river.
 ~
@@ -2140,7 +2140,7 @@ D1
 0 -1 14589
 S
 #14591
-Kesim Bölümü~
+Kesim BÃ¶lÃ¼mÃ¼~
 Unexpectedly you have come across several skeletons and what
 would appear to be the site where several people were killed.
 Strips of cloth are embedded in the mud and stuck to bushes
@@ -2158,7 +2158,7 @@ D2
 0 -1 14590
 S
 #14592
-Çalılıklarla Çevrili Yol~
+Ã‡alÄ±lÄ±klarla Ã‡evrili Yol~
 The closer you get to the river the bushier it becomes.  Squeezing
 past some of the bushes along this path is a sticky situation.
 There are 1 inch thorns on some of them.  Be careful.
@@ -2174,7 +2174,7 @@ D3
 0 -1 14593
 S
 #14593
-Çitin Yakınında~
+Ã‡itin YakÄ±nÄ±nda~
 Once again the path has come close to the fence.  Looking closely
 you discover several large holes dug under the fence.  If you
 were a little smaller you could have squeezed through those
@@ -2191,7 +2191,7 @@ D1
 0 -1 14592
 S
 #14594
-Nehrin Yanında~
+Nehrin YanÄ±nda~
 The rushing water of the river drowns out nearly all sounds.
 You are alone with one of the forces of nature.  Looking across
 the river you can make out the vague outlines of village homes.
@@ -2207,7 +2207,7 @@ D3
 0 -1 14595
 S
 #14595
-Nehir Kenarı~
+Nehir KenarÄ±~
 You are standing at the edge of the river.  Several markings on
 the ground show where boats have been pulled ashore, however,
 you see no signs of them now.  The river passes through the 12 foot
@@ -2221,7 +2221,7 @@ D1
 0 -1 14594
 S
 #14596
-Doğu Kulesi Dışı~
+DoÄŸu Kulesi DÄ±ÅŸÄ±~
 You are standing along the east wall of the East Tower.  Tracks
 in the soft earth lead to the wall nearby and towards the river.
 ~
@@ -2236,7 +2236,7 @@ tapestry~
 1 -1 14563
 S
 #14597
-Nehir Kenarında Küçük Yol~
+Nehir KenarÄ±nda KÃ¼Ã§Ã¼k Yol~
 This small path has seen little traffic in recent times.  There
 are obvious signs of use by small animals, tracks, droppings, etc..
 however, no man sized creatures have passed this way for years.
@@ -2314,7 +2314,7 @@ G 1 14501 -1                             * a monkey paw
 M 0 14502 1 14578 1                    * the Elven Merchant to Large Warehouse
 G 1 14502 -1                             * an Elven Necklace
 G 1 14503 -1                             * an Elven potion
-G 1 14504 -1                             * çora Water Walking Boots
+G 1 14504 -1                             * Ã§ora Water Walking Boots
 
 M 0 14503 1 14577 1                    * the Dwarven Merchant to Oceanview Home
 G 1 14505 -1                             * a keg of Dwarven Go Juice

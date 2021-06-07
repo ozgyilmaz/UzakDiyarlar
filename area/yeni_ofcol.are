@@ -3,7 +3,7 @@ Filename yeni_ofcol.are~
 Name Yeni Ofcol~
 Builder Hatchet~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 35
 Minvnum 600
@@ -19,9 +19,9 @@ AB
 
 #NEW_MOBILES
 #600
-şehir muhafızı muhafız~
-Ofcol şehir muhafızı~
-Bir Ofcol şehir muhafızı burada durmuş, herhangi bir sorun olup olmadığına bakıyor.
+ÅŸehir muhafÄ±zÄ± muhafÄ±z~
+Ofcol ÅŸehir muhafÄ±zÄ±~
+Bir Ofcol ÅŸehir muhafÄ±zÄ± burada durmuÅŸ, herhangi bir sorun olup olmadÄ±ÄŸÄ±na bakÄ±yor.
 ~
 This guard is surely a trained and skilled fighter.  He is fully armed and
 armored, and he uses his equipment with a practiced precision.  Luckily for
@@ -31,9 +31,9 @@ Ofcol.
 human~
 ACT N 19
 #601
-mareşal diana~
-Mareşal Diana~
-Diana, Ofcol'un Mareşali, gururla burada duruyor.
+mareÅŸal diana~
+MareÅŸal Diana~
+Diana, Ofcol'un MareÅŸali, gururla burada duruyor.
 ~
 Diana is a beautiful, powerfully built woman.  She wears platinum armor for
 three reasons.  The first is to show she is strong enough to withstand the
@@ -44,9 +44,9 @@ death.
 human~
 ABQKe DHN 73
 #602
-derrick kaptan muhafız şehir muhafızı~
+derrick kaptan muhafÄ±z ÅŸehir muhafÄ±zÄ±~
 Kaptan Derrick~
-Derrick, Muhafızların Kaptanı, burada muhafızları disipline sokuyor.
+Derrick, MuhafÄ±zlarÄ±n KaptanÄ±, burada muhafÄ±zlarÄ± disipline sokuyor.
 ~
 Derrick is a very big man.  He has acquired this station, not by brains or
 charm, but by brute strength.  He had fought in three orc wars and is a
@@ -56,9 +56,9 @@ has to be hard won to be kept, and that laxity is for the weak.
 human~
 AGQ DHN 27
 #603
-jacklyn kaptan muhafız şehir muhafızı~
+jacklyn kaptan muhafÄ±z ÅŸehir muhafÄ±zÄ±~
 Kaptan Jacklyn~
-Jacklyn, Hisar Muhafızlarının Kaptanı, burada muhafızlara moral veriyor.
+Jacklyn, Hisar MuhafÄ±zlarÄ±nÄ±n KaptanÄ±, burada muhafÄ±zlara moral veriyor.
 ~
 Jacklyn is pale and wiry, but then, so are most other witches.  The fact that
 Jacklyn is a mage and a warrior makes her the perfect captain of the citadel
@@ -71,7 +71,7 @@ ABR DN 27
 #604
 jim demirci~
 Demirci Jim~
-Demirci Jim burada, en son yaptığı metal işlerini satıyor.
+Demirci Jim burada, en son yaptÄ±ÄŸÄ± metal iÅŸlerini satÄ±yor.
 ~
 Jim is big and brawny, just like what you'd expect of a blacksmith.  He is
 smiling a very big smile, as he looks at your coins.  You wonder if he likes
@@ -82,7 +82,7 @@ AB N 30
 #605
 sam~
 Sam~
-Sam burada, yaptığı deri işlerini satıyor.
+Sam burada, yaptÄ±ÄŸÄ± deri iÅŸlerini satÄ±yor.
 ~
 Sam is a middle-aged workman.  He looks tired, but never too tired to get that
 last sale from you.  He grins at you slightly.
@@ -92,7 +92,7 @@ AB N 30
 #606
 bayan tracy~
 Bayan Tracy~
-Bayan Tracy burada, küçük ganimetler alıp satıyor.
+Bayan Tracy burada, kÃ¼Ã§Ã¼k ganimetler alÄ±p satÄ±yor.
 ~
 Madam Tracy is a bit old, but not to the point of senility.  Besides, she knows
 the hard ways of this world and is ready for it.  She spends her time at the
@@ -103,7 +103,7 @@ AB N 20
 #607
 marty~
 Marty~
-Kasap dükkanının sahibi Marty burada, sana kaliteli etlerinden satmaya çalışıyor.
+Kasap dÃ¼kkanÄ±nÄ±n sahibi Marty burada, sana kaliteli etlerinden satmaya Ã§alÄ±ÅŸÄ±yor.
 ~
 Marty is a big man.  He used to hunt the animals he sells, but now he lets his
 son, Jim, raise and slaughter the animals for him.  Marty still knows how to
@@ -112,9 +112,9 @@ kill, though.
 human~
 AB N 30
 #608
-elizabeth çiftçi~
-Çiftçi Elizabeth~
-Çiftçi Elizabeth burada, en son mahsullerini satıyor.
+elizabeth Ã§iftÃ§i~
+Ã‡iftÃ§i Elizabeth~
+Ã‡iftÃ§i Elizabeth burada, en son mahsullerini satÄ±yor.
 ~
 Elizabeth is a very happy woman.  She can't believe the nice weather here in
 Ofcol, and the great vegetables this land produces is unbelievable to her too.
@@ -126,7 +126,7 @@ AB N 20
 #609
 nine jenkins~
 Jenkins Nine~
-Jenkins Nine burada, imbiği çalıştırıyor.
+Jenkins Nine burada, imbiÄŸi Ã§alÄ±ÅŸtÄ±rÄ±yor.
 ~
 Granny Jenkins is a feeble woman, but she knows her brew.  She might be very
 old, but she is still in charge of the still.  She cackles lightly at herself
@@ -138,7 +138,7 @@ AB N 6
 #610
 jack~
 Jack~
-Jack burada hayvanları kesiyor.
+Jack burada hayvanlarÄ± kesiyor.
 ~
 Jack is the son of Marty, and you can see the family resemblance (especially in
 their shared affinity for slaughtering animals.)  Jack leers at you as you
@@ -147,9 +147,9 @@ enter.  "Came by to watch, eh?", he asks.
 human~
 ABFH 0 12
 #611
-Sarah çiftçi~
-Çiftçi Sara~
-Çiftçi Sara burada, inekleri sağıyor.
+Sarah Ã§iftÃ§i~
+Ã‡iftÃ§i Sara~
+Ã‡iftÃ§i Sara burada, inekleri saÄŸÄ±yor.
 ~
 Farmer Sara is all covered with bits of straw and grime, but underneath all
 that, she doesn't look that bad.  She smiles at you demurely, and goes back to
@@ -158,9 +158,9 @@ her work.
 human~
 ABH 0 5
 #612
-tavuk piliç~
-bir piliç~
-Bir piliç burada, senin gelişin yüzünden cıyaklıyor.
+tavuk piliÃ§~
+bir piliÃ§~
+Bir piliÃ§ burada, senin geliÅŸin yÃ¼zÃ¼nden cÄ±yaklÄ±yor.
 ~
 The hen has yellow feathers and small wings.  It looks like a chicken, if
 you've ever seen one.
@@ -179,16 +179,16 @@ AI 0 5
 #614
 inek~
 inek~
-Bir inek burada, sağılmayı bekliyor.
+Bir inek burada, saÄŸÄ±lmayÄ± bekliyor.
 ~
 The cow is just standing here.  She moos at you and otherwise ignores you.
 ~
 human~
 ABI 0 5
 #615
-genç at~
-genç at~
-Genç bir at burada, otluyor.
+genÃ§ at~
+genÃ§ at~
+GenÃ§ bir at burada, otluyor.
 ~
 The horse whinnies at you, then runs around you a few times, then just goes
 back to grazing.
@@ -198,16 +198,16 @@ AFHI 0 6
 #616
 domuz~
 domuz~
-Bir domuz burada oynarken, hem kendisini hem seni pislik içinde bırakıyor.
+Bir domuz burada oynarken, hem kendisini hem seni pislik iÃ§inde bÄ±rakÄ±yor.
 ~
 The pig looks dirty.  It snorts and sniffs at you, then goes back to its slop.
 ~
 pig~
 ABI 0 4
 #617
-şehirli adam erkek~
-Şehirli~
-Bir şehirli burada, sana gülümsüyor.
+ÅŸehirli adam erkek~
+Åehirli~
+Bir ÅŸehirli burada, sana gÃ¼lÃ¼msÃ¼yor.
 ~
 The citizen smiles at you.  He is having a great day, and he wishes the same
 for you.  He looks at you strangely, though, wondering why you are so armed and
@@ -216,9 +216,9 @@ armored.
 human~
 AH 0 5
 #618
-şehirli kadın~
-şehirli~
-Bir şehirli burada, sana gülümsüyor.
+ÅŸehirli kadÄ±n~
+ÅŸehirli~
+Bir ÅŸehirli burada, sana gÃ¼lÃ¼msÃ¼yor.
 ~
 The citizen smiles at you.  She is having a great day, and she wishes the same
 for you.  She looks at you strangely, though, wondering why you are so armed
@@ -227,9 +227,9 @@ and armored.
 human~
 AH 0 5
 #619
-çocuk oğlan erkek~
-çocuk~
-Bir oğlan çocuğu burada, ebelemece ve başka çocuk oyunları oynuyor.
+Ã§ocuk oÄŸlan erkek~
+Ã§ocuk~
+Bir oÄŸlan Ã§ocuÄŸu burada, ebelemece ve baÅŸka Ã§ocuk oyunlarÄ± oynuyor.
 ~
 The little boy looks up at you and says, 'Hi.  Can I have a piece of candy?'
 He then smiles and runs away, remembering his game.
@@ -237,9 +237,9 @@ He then smiles and runs away, remembering his game.
 human~
 AH 0 3
 #620
-çocuk kız~
-çocuk~
-Bir kız çocuğu burada, körebe ve başka çocuk oyunları oynuyor.
+Ã§ocuk kÄ±z~
+Ã§ocuk~
+Bir kÄ±z Ã§ocuÄŸu burada, kÃ¶rebe ve baÅŸka Ã§ocuk oyunlarÄ± oynuyor.
 ~
 The little girl looks up at you and says, 'Hi.  Can I have a pretty little
 coin?'  She then smiles and runs away, remembering her game.
@@ -247,9 +247,9 @@ coin?'  She then smiles and runs away, remembering her game.
 human~
 AH 0 3
 #621
-hizmetçi kadın~
-hizmetçi~
-Bir hizmetçi burada, evi temizleyip bir sonraki öğünün yemeğini hazırlıyor.
+hizmetÃ§i kadÄ±n~
+hizmetÃ§i~
+Bir hizmetÃ§i burada, evi temizleyip bir sonraki Ã¶ÄŸÃ¼nÃ¼n yemeÄŸini hazÄ±rlÄ±yor.
 ~
 The maid startles at your presence.  'You are ruining my floors!  Wait till
 Master and Mistress come back.  You will get me in trouble!  Shoo!', she says.
@@ -260,7 +260,7 @@ AH 0 5
 #622
 Nyles~
 Barmen Nyles~
-Barmen Nyles burada, sana iyi bir bira sunmak için bekliyor.
+Barmen Nyles burada, sana iyi bir bira sunmak iÃ§in bekliyor.
 ~
 Nyles is a hefty guy, who looks like he's waiting for the next bar fight to
 join in.  He keeps an eye on you and his glasses, making sure you don't steal
@@ -269,9 +269,9 @@ any.
 human~
 AB 0 30
 #623
-şehir muhafızı muhafız~
-Ofcol şehir muhafızı~
-Bir Ofcol şehir muhafızı girişi korusun diye buraya yerleştirilmiş.
+ÅŸehir muhafÄ±zÄ± muhafÄ±z~
+Ofcol ÅŸehir muhafÄ±zÄ±~
+Bir Ofcol ÅŸehir muhafÄ±zÄ± giriÅŸi korusun diye buraya yerleÅŸtirilmiÅŸ.
 ~
 This guard is surely a trained and skilled fighter.  He is fully armed and
 armored, and he uses his equipment with a practiced precision.  Luckily for
@@ -283,7 +283,7 @@ ABT N 19
 #624
 ozan~
 bir ozan~
-Bir ozan burada, Ofcol'un şanlı zaferleriyle ilgili bir şarkı söylüyor.
+Bir ozan burada, Ofcol'un ÅŸanlÄ± zaferleriyle ilgili bir ÅŸarkÄ± sÃ¶ylÃ¼yor.
 ~
 After years of traveling around the world, this bard has decided to stay in the
 peaceful city of Ofcol, and to sing of its unmatched glories.  He smiles at
@@ -292,9 +292,9 @@ you, hinting toward a tip from you in ever a subtle way.
 human~
 AB N 13
 #625
-uşak~
-bir uşak~
-Bir uşak burada, Altın Hisar'ın Bekçisine kimi ihtiyaçlarını taşıyor.
+uÅŸak~
+bir uÅŸak~
+Bir uÅŸak burada, AltÄ±n Hisar'Ä±n BekÃ§isine kimi ihtiyaÃ§larÄ±nÄ± taÅŸÄ±yor.
 ~
 The servant smiles good-naturedly at you, then goes on his duties.
 ~
@@ -303,7 +303,7 @@ AG N 6
 #626
 bey~
 bir bey~
-Bir bey burada, aceleyle bir işten diğerine koşuşturuyor.
+Bir bey burada, aceleyle bir iÅŸten diÄŸerine koÅŸuÅŸturuyor.
 ~
 This young man smiles at you, but is too busy to chat.
 ~
@@ -312,7 +312,7 @@ AG N 7
 #627
 ulak~
 bir ulak~
-Bir ulak burada, şövalyesine bir mesaj yolluyor.
+Bir ulak burada, ÅŸÃ¶valyesine bir mesaj yolluyor.
 ~
 The page smiles for you, asking if he can do you a favor too.
 ~
@@ -321,7 +321,7 @@ AG N 5
 #628
 rahibe~
 Ofcol'un Rahibesi~
-Ofcol'un Rahibesi burada, neşeli gülümsemesiyle seni kutsuyor.
+Ofcol'un Rahibesi burada, neÅŸeli gÃ¼lÃ¼msemesiyle seni kutsuyor.
 ~
 The Priestess of Ofcol is an old woman, perfectly at peace with herself and
 with the world.  She devotes all her time to help teach you the ways of her
@@ -332,7 +332,7 @@ ABKe HN 30
 #629
 zimamdar Jerrold~
 Zimamdar Jerrold~
-Hisar zimamdarı Jerrold, burada etraftaki insanların hareketlerini yönlendiriyor.
+Hisar zimamdarÄ± Jerrold, burada etraftaki insanlarÄ±n hareketlerini yÃ¶nlendiriyor.
 ~
 He smiles at you, with the enthusiasm of a little kid.  "What're you doing just
 STANDING here, young man?  Go help that other squire there!", he yells.  He
@@ -343,7 +343,7 @@ AGT BHN 20
 #630
 ejderhalordu ejderha lordu~
 bir Ejderhalordu~
-Ejderha pulları kuşanmış bir şövalye burada duruyor.
+Ejderha pullarÄ± kuÅŸanmÄ±ÅŸ bir ÅŸÃ¶valye burada duruyor.
 ~
 This person looks almost like a dragon itself.  His golden scales gleam with
 power.  He smiles at you with a vicious grin.  You're happy that he doesn't
@@ -352,9 +352,9 @@ look upset at your presence.
 human~
 AB BHN 29
 #631
-ejderha altın~
-Kadim Altın Ejderha~
-Parıldayan yaşlı bir ejderha sana uykulu gözlerle bakıyor.
+ejderha altÄ±n~
+Kadim AltÄ±n Ejderha~
+ParÄ±ldayan yaÅŸlÄ± bir ejderha sana uykulu gÃ¶zlerle bakÄ±yor.
 ~
 This dragon's head is taller than you.  He is annoyed at your disturbance, but
 realizing that you're no danger to him, he ignores you.  He waves to one of
@@ -363,9 +363,9 @@ his attendants to escort you away.
 dragon~
 ABC BHN 48
 #632
-refakatçi~
-bir ejderha refakatçisi~
-Altından kıyafetlere bürünmüş biri, Hisar'ın Bekçisine refakat ediyor.
+refakatÃ§i~
+bir ejderha refakatÃ§isi~
+AltÄ±ndan kÄ±yafetlere bÃ¼rÃ¼nmÃ¼ÅŸ biri, Hisar'Ä±n BekÃ§isine refakat ediyor.
 ~
 This elder servant to the Gold Dragon is very loyal to him, willing to risk
 his life for his liege.
@@ -373,9 +373,9 @@ his life for his liege.
 human~
 ABR BN 21
 #633
-ejderhaşövalyesi ejderha şövalyesi~
-bir Ejderhaşövalyesi~
-Bir altın ejderhanın pullarını kuşanmış biri, burada durmuş Altın Hisar'ı koruyor.
+ejderhaÅŸÃ¶valyesi ejderha ÅŸÃ¶valyesi~
+bir EjderhaÅŸÃ¶valyesi~
+Bir altÄ±n ejderhanÄ±n pullarÄ±nÄ± kuÅŸanmÄ±ÅŸ biri, burada durmuÅŸ AltÄ±n Hisar'Ä± koruyor.
 ~
 This person looks like a dragon itself.  His golden scales gleam with power.
 He smiles at you, showing very sharp teeth.
@@ -383,9 +383,9 @@ He smiles at you, showing very sharp teeth.
 human~
 AG BN 21
 #634
-şehir muhafızı muhafız~
-Ofcol şehir muhafızı~
-Bir Ofcol şehir muhafızı girişi korusun diye buraya yerleştirilmiş.
+ÅŸehir muhafÄ±zÄ± muhafÄ±z~
+Ofcol ÅŸehir muhafÄ±zÄ±~
+Bir Ofcol ÅŸehir muhafÄ±zÄ± giriÅŸi korusun diye buraya yerleÅŸtirilmiÅŸ.
 ~
 This guard is surely a trained and skilled fighter.  He is fully armed and
 armored, and he uses his equipment with a practiced precision.  Luckily for
@@ -420,9 +420,9 @@ You see a finely made axe.  Iron, with a nice wooden shaft, this axe can
 withstand years of use.
 ~
 #601
-kasap bıçağı bıçak~
-bir kasap bıçağı~
-Keskin bir kasap bıçağı hemen şuracıkta yerde duruyor!~
+kasap bÄ±Ã§aÄŸÄ± bÄ±Ã§ak~
+bir kasap bÄ±Ã§aÄŸÄ±~
+Keskin bir kasap bÄ±Ã§aÄŸÄ± hemen ÅŸuracÄ±kta yerde duruyor!~
 iron~
 weapon 0 AN
 dagger 2 5 chop 0
@@ -434,41 +434,41 @@ meat cleaver~
 This meat cleaver is made of good steel.
 ~
 #602
-parça et biftek~
-bir parça biftek~
-Bir parça biftek burada yerde duruyor.~
+parÃ§a et biftek~
+bir parÃ§a biftek~
+Bir parÃ§a biftek burada yerde duruyor.~
 meat~
 food 0 A
 24 24 0 0 0
 0 100 50 P
 #603
-parça et domuz eti~
-bir parça domuz eti~
-Bir parça domuz eti burada yerde duruyor.~
+parÃ§a et domuz eti~
+bir parÃ§a domuz eti~
+Bir parÃ§a domuz eti burada yerde duruyor.~
 meat~
 food 0 A
 23 23 0 0 0
 0 100 42 P
 #604
-parça et at eti~
-bir parça at eti~
-Bir parça at eti burada yerde duruyor.~
+parÃ§a et at eti~
+bir parÃ§a at eti~
+Bir parÃ§a at eti burada yerde duruyor.~
 meat~
 food 0 A
 30 30 0 0 0
 0 120 21 P
 #605
 et tavuk~
-ütülmüş bir tavuk~
-Ütülmüş bir tavuk burada yerde duruyor.~
+Ã¼tÃ¼lmÃ¼ÅŸ bir tavuk~
+ÃœtÃ¼lmÃ¼ÅŸ bir tavuk burada yerde duruyor.~
 meat~
 food 0 A
 16 16 0 0 0
 0 50 10 P
 #606
-zümrüt yüzük~
-bir zümrüt yüzük~
-Zümrüt bir yüzük yerde tozlanmakla meşgul.~
+zÃ¼mrÃ¼t yÃ¼zÃ¼k~
+bir zÃ¼mrÃ¼t yÃ¼zÃ¼k~
+ZÃ¼mrÃ¼t bir yÃ¼zÃ¼k yerde tozlanmakla meÅŸgul.~
 amethyst~
 jewelry G AB
 0 0 0 0 0
@@ -476,7 +476,7 @@ jewelry G AB
 #607
 cam biblo~
 camdan bir biblo~
-Camdan bir biblo yerde tozlanmakla meşgul.~
+Camdan bir biblo yerde tozlanmakla meÅŸgul.~
 glass~
 gem 0 AO
 0 0 0 0 0
@@ -484,9 +484,9 @@ gem 0 AO
 A
 20 -1
 #608
-altın kolye~
-altın bir kolye~
-Altın bir kolye yerde tozlanmakla meşgul.~
+altÄ±n kolye~
+altÄ±n bir kolye~
+AltÄ±n bir kolye yerde tozlanmakla meÅŸgul.~
 gold~
 jewelry 0 AC
 0 0 0 0 0
@@ -495,8 +495,8 @@ A
 4 -1
 #609
 kabak~
-bir baş kabak~
-Bir miktar taze kabak burada duruyor. Hazır tazeyken al istersen!~
+bir baÅŸ kabak~
+Bir miktar taze kabak burada duruyor. HazÄ±r tazeyken al istersen!~
 food~
 food 0 A
 12 12 0 0 0
@@ -504,15 +504,15 @@ food 0 A
 #610
 marul~
 biraz marul~
-Bir miktar taze marul burada duruyor. Hazır tazeyken al istersen!~
+Bir miktar taze marul burada duruyor. HazÄ±r tazeyken al istersen!~
 plant_organism~
 food 0 A
 12 12 0 0 0
 0 20 2 P
 #611
-süt şişe~
-bir şişe süt~
-Rafta duran cam şişedeki süt belli ki henüz sağılmış.~
+sÃ¼t ÅŸiÅŸe~
+bir ÅŸiÅŸe sÃ¼t~
+Rafta duran cam ÅŸiÅŸedeki sÃ¼t belli ki henÃ¼z saÄŸÄ±lmÄ±ÅŸ.~
 glass~
 drink 0 A
 20 20 'milk' 0 0
@@ -526,17 +526,17 @@ food 0 A
 8 8 0 0 0
 0 10 1 P
 #613
-mısır~
-bir koçan mısır~
-Bir koçan dolusu mısır yerde duruyor.~
+mÄ±sÄ±r~
+bir koÃ§an mÄ±sÄ±r~
+Bir koÃ§an dolusu mÄ±sÄ±r yerde duruyor.~
 food~
 food 0 A
 8 8 0 0 0
 0 10 3 P
 #614
-kuru ot yığını~
-bir kuru ot yığını~
-Büyük bir kuru ot yığını burada duruyor.~
+kuru ot yÄ±ÄŸÄ±nÄ±~
+bir kuru ot yÄ±ÄŸÄ±nÄ±~
+BÃ¼yÃ¼k bir kuru ot yÄ±ÄŸÄ±nÄ± burada duruyor.~
 wood~
 trash 0 A
 0 0 0 0 0
@@ -559,32 +559,32 @@ armor 0 AD
 0 100 270 P
 #617
 kolluklar~
-bir takım deri kolluk~
-Bir takım deri kolluk yerde duruyor.~
+bir takÄ±m deri kolluk~
+Bir takÄ±m deri kolluk yerde duruyor.~
 leather~
 armor 0 AI
 1 2 2 0 0
 0 50 136 P
 #618
-bacaklıklar~
-bir takım deri bacaklık~
-Bir takım deri bacaklık yerde duruyor.~
+bacaklÄ±klar~
+bir takÄ±m deri bacaklÄ±k~
+Bir takÄ±m deri bacaklÄ±k yerde duruyor.~
 leather~
 armor 0 AF
 1 2 2 0 0
 0 50 136 P
 #619
 botlar~
-bir takım deri bot~
-Bir takım deri bot yerde duruyor.~
+bir takÄ±m deri bot~
+Bir takÄ±m deri bot yerde duruyor.~
 leather~
 armor 0 AG
 1 2 2 0 0
 0 50 136 P
 #620
-mühür yüzüğü yüzük~
-bir Ofcol mühür yüzüğü~
-Parlak altın bir yüzük tozun içinde şans eseri gözüne çarpıyor.~
+mÃ¼hÃ¼r yÃ¼zÃ¼ÄŸÃ¼ yÃ¼zÃ¼k~
+bir Ofcol mÃ¼hÃ¼r yÃ¼zÃ¼ÄŸÃ¼~
+Parlak altÄ±n bir yÃ¼zÃ¼k tozun iÃ§inde ÅŸans eseri gÃ¶zÃ¼ne Ã§arpÄ±yor.~
 gold~
 jewelry G AB
 0 0 0 0 0
@@ -596,9 +596,9 @@ A
 A
 20 -1
 #621
-zırh pirinç~
-pirinç zırh~
-Pirinç bir zırh burada duvarın önünde duruyor.~
+zÄ±rh pirinÃ§~
+pirinÃ§ zÄ±rh~
+PirinÃ§ bir zÄ±rh burada duvarÄ±n Ã¶nÃ¼nde duruyor.~
 brass~
 armor G AD
 6 5 6 1 0
@@ -608,9 +608,9 @@ A
 A
 20 -1
 #622
-miğfer pirinç~
-pirinç bir miğfer~
-Pirinçten bir miğfer burada duvarın önünde duruyor.~
+miÄŸfer pirinÃ§~
+pirinÃ§ bir miÄŸfer~
+PirinÃ§ten bir miÄŸfer burada duvarÄ±n Ã¶nÃ¼nde duruyor.~
 brass~
 armor G AE
 6 5 6 1 0
@@ -620,9 +620,9 @@ A
 A
 20 -1
 #623
-bacaklıklar pirinç~
-pirinç bacaklıklar~
-Pirinç bacaklıklar burada duvarın önünde duruyor.~
+bacaklÄ±klar pirinÃ§~
+pirinÃ§ bacaklÄ±klar~
+PirinÃ§ bacaklÄ±klar burada duvarÄ±n Ã¶nÃ¼nde duruyor.~
 brass~
 armor G AF
 6 5 6 1 0
@@ -632,9 +632,9 @@ A
 A
 20 -1
 #624
-botlar pirinç~
-pirinç botlar~
-Pirinç botlar burada duvarın önünde duruyor.~
+botlar pirinÃ§~
+pirinÃ§ botlar~
+PirinÃ§ botlar burada duvarÄ±n Ã¶nÃ¼nde duruyor.~
 brass~
 armor G AG
 6 5 6 1 0
@@ -644,9 +644,9 @@ A
 A
 20 -1
 #625
-eldivenler pirinç~
-pirinç eldivenler~
-Bir çift pirinç eldiven burada duvarın önünde duruyor.~
+eldivenler pirinÃ§~
+pirinÃ§ eldivenler~
+Bir Ã§ift pirinÃ§ eldiven burada duvarÄ±n Ã¶nÃ¼nde duruyor.~
 brass~
 armor G AH
 6 5 6 1 0
@@ -656,9 +656,9 @@ A
 A
 20 -1
 #626
-kolluklar pirinç~
-pirinç kolluklar~
-Bir çift pirinç kolluk burada duvarın önünde duruyor.~
+kolluklar pirinÃ§~
+pirinÃ§ kolluklar~
+Bir Ã§ift pirinÃ§ kolluk burada duvarÄ±n Ã¶nÃ¼nde duruyor.~
 brass~
 armor G AI
 6 5 6 1 0
@@ -668,9 +668,9 @@ A
 A
 20 -1
 #627
-kalkan pirinç~
-pirinç bir kalkan~
-Büyük pirinçten bir kalkan burada duvarın önünde duruyor.~
+kalkan pirinÃ§~
+pirinÃ§ bir kalkan~
+BÃ¼yÃ¼k pirinÃ§ten bir kalkan burada duvarÄ±n Ã¶nÃ¼nde duruyor.~
 brass~
 armor G AJ
 6 5 6 2 0
@@ -680,9 +680,9 @@ A
 A
 20 -1
 #628
-kolan pirinç~
-pirinç bir kolan~
-Pirinç bir kolan burada duvarın önünde duruyor.~
+kolan pirinÃ§~
+pirinÃ§ bir kolan~
+PirinÃ§ bir kolan burada duvarÄ±n Ã¶nÃ¼nde duruyor.~
 brass~
 armor G AL
 6 5 6 1 0
@@ -692,9 +692,9 @@ A
 A
 20 -1
 #629
-bileklik pirinç~
-pirinç bir bileklik~
-Pirinç bir bileklik burada duvarın önünde duruyor.~
+bileklik pirinÃ§~
+pirinÃ§ bir bileklik~
+PirinÃ§ bir bileklik burada duvarÄ±n Ã¶nÃ¼nde duruyor.~
 brass~
 armor G AM
 4 5 6 1 0
@@ -704,9 +704,9 @@ A
 A
 20 -1
 #630
-çiftağızlı kılıç~
-bir çiftağızlı kılıç~
-ÇOK BÜYÜK bir kılıç burada duvarın önünde duruyor.~
+Ã§iftaÄŸÄ±zlÄ± kÄ±lÄ±Ã§~
+bir Ã§iftaÄŸÄ±zlÄ± kÄ±lÄ±Ã§~
+Ã‡OK BÃœYÃœK bir kÄ±lÄ±Ã§ burada duvarÄ±n Ã¶nÃ¼nde duruyor.~
 iron~
 weapon G AN
 sword 4 6 cleave F
@@ -716,9 +716,9 @@ A
 A
 18 -2
 #631
-zırh gümüş~
-gümüş zırh~
-Gümüşten örülmüş bir çeşit zincirli tabaka yerde duruyor.~
+zÄ±rh gÃ¼mÃ¼ÅŸ~
+gÃ¼mÃ¼ÅŸ zÄ±rh~
+GÃ¼mÃ¼ÅŸten Ã¶rÃ¼lmÃ¼ÅŸ bir Ã§eÅŸit zincirli tabaka yerde duruyor.~
 silver~
 armor GK AD
 8 8 8 2 0
@@ -728,9 +728,9 @@ A
 A
 12 10
 #632
-miğfer gümüş~
-gümüş bir miğfer~
-Parlak bir miğfer yerde duruyor.~
+miÄŸfer gÃ¼mÃ¼ÅŸ~
+gÃ¼mÃ¼ÅŸ bir miÄŸfer~
+Parlak bir miÄŸfer yerde duruyor.~
 silver~
 armor GK AE
 8 8 8 2 0
@@ -740,9 +740,9 @@ A
 A
 12 5
 #633
-bacaklıklar gümüş~
-gümüş bacaklıklar~
-Bir takım parıldayan bacaklık yerde duruyor.~
+bacaklÄ±klar gÃ¼mÃ¼ÅŸ~
+gÃ¼mÃ¼ÅŸ bacaklÄ±klar~
+Bir takÄ±m parÄ±ldayan bacaklÄ±k yerde duruyor.~
 silver~
 armor GK AF
 8 8 8 2 0
@@ -752,9 +752,9 @@ A
 A
 12 5
 #634
-botlar gümüş~
-gümüş botlar~
-Bir takım parıldayan bot yerde duruyor.~
+botlar gÃ¼mÃ¼ÅŸ~
+gÃ¼mÃ¼ÅŸ botlar~
+Bir takÄ±m parÄ±ldayan bot yerde duruyor.~
 silver~
 armor GK AG
 8 8 8 2 0
@@ -764,9 +764,9 @@ A
 A
 12 5
 #635
-eldivenler gümüş~
-gümüş eldivenler~
-Bir çift parıldayan eldiven yerde duruyor.~
+eldivenler gÃ¼mÃ¼ÅŸ~
+gÃ¼mÃ¼ÅŸ eldivenler~
+Bir Ã§ift parÄ±ldayan eldiven yerde duruyor.~
 silver~
 armor GK AH
 8 8 8 2 0
@@ -776,9 +776,9 @@ A
 A
 12 5
 #636
-kolluklar gümüş~
-gümüş kolluklar~
-Bir takım parıldayan kolluk yerde duruyor.~
+kolluklar gÃ¼mÃ¼ÅŸ~
+gÃ¼mÃ¼ÅŸ kolluklar~
+Bir takÄ±m parÄ±ldayan kolluk yerde duruyor.~
 silver~
 armor GK AI
 8 8 8 2 0
@@ -788,8 +788,8 @@ A
 A
 12 5
 #637
-kalkan gümüş~
-gümüş kalkan~
+kalkan gÃ¼mÃ¼ÅŸ~
+gÃ¼mÃ¼ÅŸ kalkan~
 Parlak bir kalkan yerde duruyor.~
 silver~
 armor GK AJ
@@ -800,8 +800,8 @@ A
 A
 12 5
 #638
-kolan gümüş~
-gümüş kolan~
+kolan gÃ¼mÃ¼ÅŸ~
+gÃ¼mÃ¼ÅŸ kolan~
 Parlak bir kolan yerde duruyor.~
 silver~
 armor GK AL
@@ -812,9 +812,9 @@ A
 A
 12 5
 #639
-zırh platin~
-platin zırh~
-Gümüşi bir metal yığını yerde duruyor.~
+zÄ±rh platin~
+platin zÄ±rh~
+GÃ¼mÃ¼ÅŸi bir metal yÄ±ÄŸÄ±nÄ± yerde duruyor.~
 platinum~
 armor GK AD
 19 19 19 13 0
@@ -826,9 +826,9 @@ A
 A
 19 5
 #640
-miğfer platin~
-platin miğfer~
-Gümüşi bir miğfer yerde duruyor.~
+miÄŸfer platin~
+platin miÄŸfer~
+GÃ¼mÃ¼ÅŸi bir miÄŸfer yerde duruyor.~
 platinum~
 armor GK AE
 19 19 19 13 0
@@ -840,9 +840,9 @@ A
 A
 19 5
 #641
-bacaklıklar platin~
-platin bacaklıklar~
-Bir takım gümüşi bacaklık yerde duruyor.~
+bacaklÄ±klar platin~
+platin bacaklÄ±klar~
+Bir takÄ±m gÃ¼mÃ¼ÅŸi bacaklÄ±k yerde duruyor.~
 platinum~
 armor GK AF
 9 9 9 3 0
@@ -856,7 +856,7 @@ A
 #642
 botlar platin~
 platin botlar~
-Bir takım gümüşi bot yerde duruyor.~
+Bir takÄ±m gÃ¼mÃ¼ÅŸi bot yerde duruyor.~
 platinum~
 armor GK AG
 19 19 19 13 0
@@ -870,7 +870,7 @@ A
 #643
 eldivenler platin~
 platin eldivenler~
-Bir çift gümüşi eldiven yerde duruyor.~
+Bir Ã§ift gÃ¼mÃ¼ÅŸi eldiven yerde duruyor.~
 platinum~
 armor GK AH
 19 19 19 13 0
@@ -884,7 +884,7 @@ A
 #644
 kolluklar platin~
 platin kolluklar~
-Bir çift gümüşi kolluk yerde duruyor.~
+Bir Ã§ift gÃ¼mÃ¼ÅŸi kolluk yerde duruyor.~
 platinum~
 armor GK AI
 19 19 19 13 0
@@ -896,9 +896,9 @@ A
 A
 19 5
 #645
-kalkan çivili platin~
-çivili platin kalkan~
-Sivri çivileri olan, gümüşi bir kalkan yerde duruyor.~
+kalkan Ã§ivili platin~
+Ã§ivili platin kalkan~
+Sivri Ã§ivileri olan, gÃ¼mÃ¼ÅŸi bir kalkan yerde duruyor.~
 platinum~
 armor GK AJ
 19 19 19 15 0
@@ -910,7 +910,7 @@ A
 #646
 kolan platin~
 platin kolan~
-Gümüşi bir kolan yerde duruyor.~
+GÃ¼mÃ¼ÅŸi bir kolan yerde duruyor.~
 platinum~
 armor GK AL
 19 19 19 13 0
@@ -922,9 +922,9 @@ A
 A
 19 5
 #647
-öcalıcı kutlu kılıç~
-kutlu Öcalıcı~
-Parıldayan gümüşi kılıç kendisine bir efendi bulmak için buralarda süzülüyor.~
+Ã¶calÄ±cÄ± kutlu kÄ±lÄ±Ã§~
+kutlu Ã–calÄ±cÄ±~
+ParÄ±ldayan gÃ¼mÃ¼ÅŸi kÄ±lÄ±Ã§ kendisine bir efendi bulmak iÃ§in buralarda sÃ¼zÃ¼lÃ¼yor.~
 platinum~
 weapon GK AN
 sword 17 5 slice 0
@@ -942,24 +942,24 @@ drink 0 A
 2 2 'whisky' 0 0
 0 10 12 P
 #649
-ale çeyrek fıçı~
-çeyrek fıçı bira~
-Çeyrek fıçı bira masada duruyor.~
+ale Ã§eyrek fÄ±Ã§Ä±~
+Ã§eyrek fÄ±Ã§Ä± bira~
+Ã‡eyrek fÄ±Ã§Ä± bira masada duruyor.~
 clay~
 drink 0 A
 32 32 'ale' 0 0
 0 20 10 P
 #650
-çeyrek fıçı tatlı bira~
-çeyrek fıçı tatlı bira~
-Çeyrek fıçı tatlı bira masada duruyor.~
+Ã§eyrek fÄ±Ã§Ä± tatlÄ± bira~
+Ã§eyrek fÄ±Ã§Ä± tatlÄ± bira~
+Ã‡eyrek fÄ±Ã§Ä± tatlÄ± bira masada duruyor.~
 clay~
 drink 0 A
 32 32 'dark ale' 0 0
 0 20 18 P
 #651
 anahtar hisar~
-hisar anahtarı~
+hisar anahtarÄ±~
 Bir anahtar yerde duruyor.~
 iron~
 key 0 A
@@ -967,8 +967,8 @@ key 0 A
 0 10 0 P
 #652
 sembol kutlu~
-Bahamut'un kutlu sembolü~
-Çok parlak bir sembol yerde duruyor.~
+Bahamut'un kutlu sembolÃ¼~
+Ã‡ok parlak bir sembol yerde duruyor.~
 ivory~
 jewelry GIKL AC
 0 0 0 0 0
@@ -980,9 +980,9 @@ A
 A
 17 -3
 #653
-inleten kargı~
-İnleten~
-Ağır bir kargı hasar vermeye hazır bir halde duvarın önünde duruyor.~
+inleten kargÄ±~
+Ä°nleten~
+AÄŸÄ±r bir kargÄ± hasar vermeye hazÄ±r bir halde duvarÄ±n Ã¶nÃ¼nde duruyor.~
 iron~
 weapon GK AN
 polearm 4 7 thrust F
@@ -992,9 +992,9 @@ A
 A
 18 3
 #654
-giysi ejderha pulundan altın~
-altın ejderha pulundan bir giysi~
-Altın ejderha pulundan bir giysi yerde duruyor!~
+giysi ejderha pulundan altÄ±n~
+altÄ±n ejderha pulundan bir giysi~
+AltÄ±n ejderha pulundan bir giysi yerde duruyor!~
 gold~
 armor GK AD
 7 7 7 3 0
@@ -1004,9 +1004,9 @@ A
 A
 17 -5
 #655
-ejderha miğferi altın~
-altın bir ejderha miğferi~
-Altın bir ejderha miğferi yerde duruyor!~
+ejderha miÄŸferi altÄ±n~
+altÄ±n bir ejderha miÄŸferi~
+AltÄ±n bir ejderha miÄŸferi yerde duruyor!~
 gold~
 armor GK AE
 7 7 7 3 0
@@ -1016,9 +1016,9 @@ A
 A
 17 -3
 #656
-bacaklıklar altın~
-altın ejderha pulundan bacaklıklar~
-Bir takım altın ejderha pulundan bacaklık yerde duruyor!~
+bacaklÄ±klar altÄ±n~
+altÄ±n ejderha pulundan bacaklÄ±klar~
+Bir takÄ±m altÄ±n ejderha pulundan bacaklÄ±k yerde duruyor!~
 gold~
 armor GK AF
 7 7 7 3 0
@@ -1028,9 +1028,9 @@ A
 A
 17 -3
 #657
-botlar altın~
-altın ejderha pulundan botlar~
-Bir takım altın ejderha pulundan bot yerde duruyor!~
+botlar altÄ±n~
+altÄ±n ejderha pulundan botlar~
+Bir takÄ±m altÄ±n ejderha pulundan bot yerde duruyor!~
 gold~
 armor GK AG
 7 7 7 3 0
@@ -1040,9 +1040,9 @@ A
 A
 17 -3
 #658
-eldivenler altın~
-altın ejderha pulundan eldivenler~
-Bir takım altın ejderha pulundan eldiven yerde duruyor!~
+eldivenler altÄ±n~
+altÄ±n ejderha pulundan eldivenler~
+Bir takÄ±m altÄ±n ejderha pulundan eldiven yerde duruyor!~
 gold~
 armor GK AH
 7 7 7 3 0
@@ -1052,9 +1052,9 @@ A
 A
 17 -3
 #659
-kolluklar altın~
-altın ejderha pulundan kolluklar~
-Bir takım altın ejderha pulundan kolluk yerde duruyor!~
+kolluklar altÄ±n~
+altÄ±n ejderha pulundan kolluklar~
+Bir takÄ±m altÄ±n ejderha pulundan kolluk yerde duruyor!~
 gold~
 armor GK AI
 7 7 7 3 0
@@ -1064,9 +1064,9 @@ A
 A
 17 -3
 #660
-kalkan altın~
-altın ejderha pulundan kalkan~
-Altın ejderha pulundan bir kalkan yerde duruyor!~
+kalkan altÄ±n~
+altÄ±n ejderha pulundan kalkan~
+AltÄ±n ejderha pulundan bir kalkan yerde duruyor!~
 gold~
 armor GK AJ
 7 7 7 4 0
@@ -1076,9 +1076,9 @@ A
 A
 17 -3
 #661
-kolan altın~
-altın ejderha pulundan bir kolan~
-Altın ejderha pulundan bir kolan yerde duruyor!~
+kolan altÄ±n~
+altÄ±n ejderha pulundan bir kolan~
+AltÄ±n ejderha pulundan bir kolan yerde duruyor!~
 gold~
 armor GK AL
 7 7 7 3 0
@@ -1088,9 +1088,9 @@ A
 A
 17 -3
 #662
-pençe altın~
-altın pençe~
-Küçük altın bir pençe yerde duruyor.~
+penÃ§e altÄ±n~
+altÄ±n penÃ§e~
+KÃ¼Ã§Ã¼k altÄ±n bir penÃ§e yerde duruyor.~
 gold~
 weapon GK AN
 exotic 3 9 claw 0
@@ -1099,8 +1099,8 @@ A
 19 2
 #663
 orb ejderha orbu ~
-Altın Ejderha Orbu~
-Çok büyük bir inciye benzeyen küre odanın tam ortasında duruyor.~
+AltÄ±n Ejderha Orbu~
+Ã‡ok bÃ¼yÃ¼k bir inciye benzeyen kÃ¼re odanÄ±n tam ortasÄ±nda duruyor.~
 gold~
 staff GKL AO
 14 4 4 'heal' 0
@@ -1110,9 +1110,9 @@ A
 A
 3 1
 #664
-cüppe altın~
-altın bir cüppe~
-Altın bir cüppe yerde duruyor.~
+cÃ¼ppe altÄ±n~
+altÄ±n bir cÃ¼ppe~
+AltÄ±n bir cÃ¼ppe yerde duruyor.~
 cloth~
 armor GK AK
 6 6 5 2 0
@@ -1120,17 +1120,17 @@ armor GK AK
 A
 3 2
 #665
-ev anahtarı~
-bir ev anahtarı~
-Bir ev anahtarı yerde duruyor.~
+ev anahtarÄ±~
+bir ev anahtarÄ±~
+Bir ev anahtarÄ± yerde duruyor.~
 silver~
 key 0 A
 0 0 0 0 0
 0 10 0 P
 #666
-süpürge~
-bir süpürge~
-Bir süpürge burada duvarın önünde duruyor.~
+sÃ¼pÃ¼rge~
+bir sÃ¼pÃ¼rge~
+Bir sÃ¼pÃ¼rge burada duvarÄ±n Ã¶nÃ¼nde duruyor.~
 wood~
 weapon 0 AN
 exotic 2 3 beating 0
@@ -1140,17 +1140,17 @@ A
 A
 18 3
 #667
-sandık~
-bir sandık~
-Bir sandık burada yerde duruyor.~
+sandÄ±k~
+bir sandÄ±k~
+Bir sandÄ±k burada yerde duruyor.~
 wood~
 container 0 A
 100 0 0 10 100
 0 100 100 P
 #668
-pençe altın~
-Altın Pençe~
-Büyük altın bir pençe yerde duruyor.~
+penÃ§e altÄ±n~
+AltÄ±n PenÃ§e~
+BÃ¼yÃ¼k altÄ±n bir penÃ§e yerde duruyor.~
 gold~
 weapon GK AN
 exotic 4 10 claw 0
@@ -1158,9 +1158,9 @@ exotic 4 10 claw 0
 A
 19 5
 #669
-pençe altın~
-altın pençe~
-Büyük altın bir pençe yerde duruyor.~
+penÃ§e altÄ±n~
+altÄ±n penÃ§e~
+BÃ¼yÃ¼k altÄ±n bir penÃ§e yerde duruyor.~
 gold~
 weapon GK AN
 exotic 3 11 claw 0
@@ -1183,7 +1183,7 @@ This is where you put money and items to help Doz expand this shrine,
 
 #ROOMS
 #600
-Ninenin İmbik Odası~
+Ninenin Ä°mbik OdasÄ±~
 You are in Granny Jenkins' still room.  The smell of whiskey is heady, and
 the bottles of it on the floor make your mouth water and your mind swirl.  You
 also see a very large still.  So THIS is why there are so many grain fields!
@@ -1197,7 +1197,7 @@ door~
 1 -1 616
 S
 #601
-Büyük Kesişme~
+BÃ¼yÃ¼k KesiÅŸme~
 You are in the big intersection between Raff Way and Impy Way.  Crowds
 of people walk past you as they go on their daily tasks.  Raff Way continues
 east and west, and Impy Way runs north and south.
@@ -1265,7 +1265,7 @@ You see Impy Way.
 0 0 602
 S
 #604
-Deri Dükkanı~
+Deri DÃ¼kkanÄ±~
 You are in a brown and smelly room.  Pieces of leather are strewn all over
 the floor.  The smell of burnt hide assaults your nose.  You can tell by the
 looks that the tanning is done VERY CLOSE to here!   A table is near the
@@ -1307,7 +1307,7 @@ You see the Pawn Shop.
 0 0 606
 S
 #606
-Rehin Dükkanı~
+Rehin DÃ¼kkanÄ±~
 You are in a little shop filled with a lot of knick knacks and semi-
 valuable goods.  There is a display case full of little treasures that you are
 sure that you or any other little kid would like to touch!  The exit is east.
@@ -1361,7 +1361,7 @@ You see Nyles' House of Ale.
 0 0 609
 S
 #609
-Nyles'ın Bira Evi~
+Nyles'Ä±n Bira Evi~
 This is a very busy bar, with everyone holding homemade bottles of
 ale.  You see even the more gentile persons here, laughing along with
 Nyles, who offers you a quart of ale too.
@@ -1374,7 +1374,7 @@ You see Impy Way.
 0 0 608
 S
 #610
-Çiftçi Pazarı~
+Ã‡iftÃ§i PazarÄ±~
 You see many carts filled with fruits and vegetables.  Many farmers are
 all trying to sell you their produce, each saying their's is better.  The exit
 is west.
@@ -1552,7 +1552,7 @@ You see the dirt road.
 0 0 621
 S
 #619
-Tavuk Kümesi~
+Tavuk KÃ¼mesi~
 You are in the chicken coop.  The smell of chickens and chicken droppings
 makes you gasp.  The exit is north.
 ~
@@ -1564,7 +1564,7 @@ You can sense the fresh air.
 1 -1 618
 S
 #620
-Ahır~
+AhÄ±r~
 You are in a barn.  There are some cows here, munching on mounds of hay.
 Milk is milked and bottled here.  You see the exit west.
 ~
@@ -1603,7 +1603,7 @@ You see the pigsty.
 0 0 624
 S
 #622
-Çimlik Arazi~
+Ã‡imlik Arazi~
 You are in a grass field.  Fences block the way north, east, and west.
 The dirt road is to the south.
 ~
@@ -1615,7 +1615,7 @@ You see the dirt road.
 0 0 621
 S
 #623
-Çimlik Arazi~
+Ã‡imlik Arazi~
 You are in a grass field.  Fences block the way south, east, and west.
 The dirt road is to the north.
 ~
@@ -1627,7 +1627,7 @@ You see the dirt road.
 0 0 621
 S
 #624
-Domuz Ağılı~
+Domuz AÄŸÄ±lÄ±~
 For some reason, you are in a pig sty.  You wonder why you are standing in
 muck.  To realize your senses and notice the dirt road is to the east.
 ~
@@ -1667,7 +1667,7 @@ door~
 1 665 629
 S
 #626
-Büyük Ev~
+BÃ¼yÃ¼k Ev~
 You are in a big house.  Evidently, the owners of this house are richer
 than the average citizen, since there is more than one room to this house.  A
 door leads to the kitchen east, and a bedroom is upstairs.  The exit is to the
@@ -1691,7 +1691,7 @@ You see the bedroom.
 0 0 627
 S
 #627
-Yatakodası~
+YatakodasÄ±~
 You are in the bedroom.  There isn't much of interest except for a bed and
 a closet.  The stairs lead back down.
 ~
@@ -1715,7 +1715,7 @@ You see the main room of the house.
 0 0 626
 S
 #629
-Büyük Ev~
+BÃ¼yÃ¼k Ev~
 You are in a big house.  Evidently, the owners of this house are richer
 than the average citizen, since there is more than one room to this house.  A
 door leads to the kitchen west, and a bedroom is upstairs.  The exit is to the
@@ -1739,7 +1739,7 @@ You see the bedroom.
 0 0 630
 S
 #630
-Yatakodası~
+YatakodasÄ±~
 You are in the bedroom.  There isn't much of interest except for a bed and
 a closet.  The stairs lead back down.
 ~
@@ -1807,7 +1807,7 @@ door~
 1 -1 632
 S
 #634
-Yatakodası~
+YatakodasÄ±~
 You are in a bedroom.  There isn't much of interest here except for a bed
 and a dresser.  The main room of the house is north of here.
 ~
@@ -1836,7 +1836,7 @@ You see the bedroom.
 0 0 636
 S
 #636
-Yatakodası~
+YatakodasÄ±~
 You are in a bedroom.  There isn't much of interest here except for a bed
 and a dresser.  The main room of the house is north of here.
 ~
@@ -1893,7 +1893,7 @@ door~
 1 -1 637
 S
 #639
-Yatakodası~
+YatakodasÄ±~
 You are in a bedroom.  There isn't much of interest here except for a bed
 and a dresser.  The main room of the house is north of here.
 ~
@@ -1922,7 +1922,7 @@ You see the bedroom.
 0 0 641
 S
 #641
-Yatakodası~
+YatakodasÄ±~
 You are in a bedroom.  There isn't much of interest here except for a bed
 and a dresser.  The main room of the house is north of here.
 ~
@@ -1934,7 +1934,7 @@ You see the main room of the house.
 0 0 640
 S
 #642
-Büyük Kesişme~
+BÃ¼yÃ¼k KesiÅŸme~
 You are on the intersection of Impy Way and Swiftest Way.  To the north of
 you is a big house.  Swiftest Way runs east and west, and Impy way continues
 south.  There are quite a few people on this intersection.
@@ -1962,7 +1962,7 @@ Swiftest Way continues west.
 0 0 649
 S
 #643
-Büyük Ev~
+BÃ¼yÃ¼k Ev~
 You are in a big house.  Evidently, the owners of this house are richer
 than the average citizen, since there is more than one room to this house.  A
 door leads to the kitchen north, and a bedroom is upstairs.  The exit is to
@@ -1986,7 +1986,7 @@ You see the bedroom.
 0 0 644
 S
 #644
-Yatakodası~
+YatakodasÄ±~
 You are in the bedroom.  There isn't much of interest except for a bed
 and a closet.  The stairs lead back down.
 ~
@@ -2010,7 +2010,7 @@ You see the main room of the house.
 0 0 643
 S
 #646
-Sürat Yolu~
+SÃ¼rat Yolu~
 You are on Swiftest Way, the commoner's residential area.  Small houses
 are north and south of you.  Swiftest Way continues east, and west is a big
 intersection.
@@ -2038,7 +2038,7 @@ You see a big intersection.
 0 0 642
 S
 #647
-Sürat Yolu~
+SÃ¼rat Yolu~
 You are on Swiftest Way, the commoner's residential area.  Small houses
 are north and south of you.  Swiftest Way continues east and west.
 ~
@@ -2065,7 +2065,7 @@ Swiftest Way continues west.
 0 0 646
 S
 #648
-Sürat Yolunun Sonu~
+SÃ¼rat Yolunun Sonu~
 You are on Swiftest Way, the commoner's residential area.  Small houses
 are north, south, and east of you.  Swiftest Way continues west.
 ~
@@ -2092,7 +2092,7 @@ Swiftest Way continues west.
 0 0 647
 S
 #649
-Sürat Yolu~
+SÃ¼rat Yolu~
 You are on Swiftest Way, the commoner's residential area.  Small houses
 are north and south of you.  Swiftest Way continues west, and to the east you
 see a big intersection.
@@ -2120,7 +2120,7 @@ Swiftest Way continues west.
 0 0 650
 S
 #650
-Sürat Yolu~
+SÃ¼rat Yolu~
 You are on Swiftest Way, the commoner's residential area.  Small houses
 are north and south of you.  Swiftest Way continues east and west.
 ~
@@ -2147,7 +2147,7 @@ You see the end of Swiftest Way.
 0 0 651
 S
 #651
-Sürat Yolunun Sonu~
+SÃ¼rat Yolunun Sonu~
 You are on Swiftest Way, the commoner's residential area.  Small houses
 are north, south, and west of you.  Swiftest Way continues east.
 ~
@@ -2174,7 +2174,7 @@ You see a small house.
 0 0 665
 S
 #652
-Küçük Ev~
+KÃ¼Ã§Ã¼k Ev~
 You are in a small house, owned by a commoner of Ofcol.  There isn't much
 of value here to you, but you'd bet that the owner really cherishes the pile
 of stuff here.  The exit is to the south.
@@ -2187,7 +2187,7 @@ You see Swiftest Way.
 0 0 646
 S
 #653
-Küçük Ev~
+KÃ¼Ã§Ã¼k Ev~
 You are in a small house, owned by a commoner of Ofcol.  There isn't much
 of value here to you, but you'd bet that the owner really cherishes the pile
 of stuff here.  The exit is to the north.
@@ -2200,7 +2200,7 @@ You see Swiftest Way.
 0 0 646
 S
 #654
-Küçük Ev~
+KÃ¼Ã§Ã¼k Ev~
 You are in a small house, owned by a commoner of Ofcol.  There isn't much
 of value here to you, but you'd bet that the owner really cherishes the pile
 of stuff here.  The exit is to the south.
@@ -2213,7 +2213,7 @@ You see Swiftest Way.
 0 0 647
 S
 #655
-Küçük Ev~
+KÃ¼Ã§Ã¼k Ev~
 You are in a small house, owned by a commoner of Ofcol.  There isn't much
 of value here to you, but you'd bet that the owner really cherishes the pile
 of stuff here.  The exit is to the north.
@@ -2226,7 +2226,7 @@ You see Swiftest Way.
 0 0 647
 S
 #656
-Küçük Ev~
+KÃ¼Ã§Ã¼k Ev~
 You are in a small house, owned by a commoner of Ofcol.  There isn't much
 of value here to you, but you'd bet that the owner really cherishes the pile
 of stuff here.  The exit is to the south.
@@ -2239,7 +2239,7 @@ You see the end of Swiftest Way.
 0 0 648
 S
 #657
-Küçük Ev~
+KÃ¼Ã§Ã¼k Ev~
 You are in a small house, owned by a commoner of Ofcol.  There isn't much
 of value here to you, but you'd bet that the owner really cherishes the pile
 of stuff here.  The exit is to the west.
@@ -2252,7 +2252,7 @@ You see the end of Swiftest Way.
 0 0 648
 S
 #658
-Küçük Ev~
+KÃ¼Ã§Ã¼k Ev~
 You are in a small house, owned by a commoner of Ofcol.  There isn't much
 of value here to you, but you'd bet that the owner really cherishes the pile
 of stuff here.  The exit is to the north.
@@ -2265,7 +2265,7 @@ You see the end of Swiftest Way.
 0 0 648
 S
 #659
-Küçük Ev~
+KÃ¼Ã§Ã¼k Ev~
 You are in a small house, owned by a commoner of Ofcol.  There isn't much
 of value here to you, but you'd bet that the owner really cherishes the pile
 of stuff here.  The exit is to the south.
@@ -2278,7 +2278,7 @@ You see Swiftest Way.
 0 0 649
 S
 #660
-Küçük Ev~
+KÃ¼Ã§Ã¼k Ev~
 You are in a small house, owned by a commoner of Ofcol.  There isn't much
 of value here to you, but you'd bet that the owner really cherishes the pile
 of stuff here.  The exit is to the north.
@@ -2291,7 +2291,7 @@ You see Swiftest Way.
 0 0 649
 S
 #661
-Küçük Ev~
+KÃ¼Ã§Ã¼k Ev~
 You are in a small house, owned by a commoner of Ofcol.  There isn't much
 of value here to you, but you'd bet that the owner really cherishes the pile
 of stuff here.  The exit is to the south.
@@ -2304,7 +2304,7 @@ You see Swiftest Way.
 0 0 650
 S
 #662
-Küçük Ev~
+KÃ¼Ã§Ã¼k Ev~
 You are in a small house, owned by a commoner of Ofcol.  There isn't much
 of value here to you, but you'd bet that the owner really cherishes the pile
 of stuff here.  The exit is to the north.
@@ -2317,7 +2317,7 @@ You see Swiftest Way.
 0 0 650
 S
 #663
-Küçük Ev~
+KÃ¼Ã§Ã¼k Ev~
 You are in a small house, owned by a commoner of Ofcol.  There isn't much
 of value here to you, but you'd bet that the owner really cherishes the pile
 of stuff here.  The exit is to the south.
@@ -2330,7 +2330,7 @@ You see the end of Swiftest Way.
 0 0 651
 S
 #664
-Küçük Ev~
+KÃ¼Ã§Ã¼k Ev~
 You are in a small house, owned by a commoner of Ofcol.  There isn't much
 of value here to you, but you'd bet that the owner really cherishes the pile
 of stuff here.  The exit is to the north.
@@ -2343,7 +2343,7 @@ You see the end of Swiftest Way.
 0 0 651
 S
 #665
-Küçük Ev~
+KÃ¼Ã§Ã¼k Ev~
 You are in a small house, owned by a commoner of Ofcol.  There isn't much
 of value here to you, but you'd bet that the owner really cherishes the pile
 of stuff here.  The exit is to the east.
@@ -2417,7 +2417,7 @@ You see the end of Impy Way.
 0 0 611
 S
 #669
-Ofcol Tapınağı~
+Ofcol TapÄ±naÄŸÄ±~
 You are in the Temple of Ofcol.  Golden tiles cover the floor, and solid
 gold columns reach the twelve foot ceiling of this vast chamber.  Servants in
 golden livery wander this place, making even the raggiest messenger boy look
@@ -2442,7 +2442,7 @@ D3
 0 0 671
 S
 #670
-Ofcol Tapınağı'nın Bekleme Odası~
+Ofcol TapÄ±naÄŸÄ±'nÄ±n Bekleme OdasÄ±~
 You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
 floor, and servants in golden livery pass you by peaceably.  The temple is to
 the south, and to the north is a hallway.  A stairways leads up.
@@ -2462,7 +2462,7 @@ D4
 0 0 686
 S
 #671
-Ofcol Tapınağı'nın Bekleme Odası~
+Ofcol TapÄ±naÄŸÄ±'nÄ±n Bekleme OdasÄ±~
 You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
 floor, and servants in golden livery pass you by peaceably.  The temple is to
 the east, and to the west is a hallway.  A stairways leads up.
@@ -2482,7 +2482,7 @@ D4
 0 0 687
 S
 #672
-Ofcol Tapınağı'nın Bekleme Odası~
+Ofcol TapÄ±naÄŸÄ±'nÄ±n Bekleme OdasÄ±~
 You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
 floor, and servants in golden livery pass you by peaceably.  The temple is to
 the west, and to the east is a hallway.  A stairways leads up.
@@ -2502,7 +2502,7 @@ D4
 0 0 689
 S
 #673
-Ofcol Tapınağı'nın Bekleme Odası~
+Ofcol TapÄ±naÄŸÄ±'nÄ±n Bekleme OdasÄ±~
 You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
 floor, and servants in golden livery pass you by peaceably.  The temple is to
 the north, and to the south is a hallway.  A stairways leads up.
@@ -2522,7 +2522,7 @@ D4
 0 0 690
 S
 #674
-Altın Hisar'ın Salonlarından Biri~
+AltÄ±n Hisar'Ä±n SalonlarÄ±ndan Biri~
 You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
 and rich golden tapestries drape the walls.  Servants in golden livery pass you
 by peaceably.  Exits lead east and south.
@@ -2538,7 +2538,7 @@ D2
 0 0 677
 S
 #675
-Altın Hisar'ın Salonlarından Biri~
+AltÄ±n Hisar'Ä±n SalonlarÄ±ndan Biri~
 You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
 and rich golden tapestries drape the walls.  Servants in golden livery pass you
 by peaceably.  Exits lead east, west, and south.
@@ -2558,7 +2558,7 @@ D3
 0 0 674
 S
 #676
-Altın Hisar'ın Salonlarından Biri~
+AltÄ±n Hisar'Ä±n SalonlarÄ±ndan Biri~
 You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
 and rich golden tapestries drape the walls.  Servants in golden livery pass you
 by peaceably.  Exits lead west and south.
@@ -2574,7 +2574,7 @@ D3
 0 0 675
 S
 #677
-Altın Hisar'ın Salonlarından Biri~
+AltÄ±n Hisar'Ä±n SalonlarÄ±ndan Biri~
 You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
 and rich golden tapestries drape the walls.  Servants in golden livery pass you
 by peaceably.  Exits lead north and south.
@@ -2590,7 +2590,7 @@ D2
 0 0 679
 S
 #678
-Altın Hisar'ın Salonlarından Biri~
+AltÄ±n Hisar'Ä±n SalonlarÄ±ndan Biri~
 You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
 and rich golden tapestries drape the walls.  Servants in golden livery pass you
 by peaceably.  Exits lead north and south.
@@ -2606,7 +2606,7 @@ D2
 0 0 680
 S
 #679
-Altın Hisar'ın Salonlarından Biri~
+AltÄ±n Hisar'Ä±n SalonlarÄ±ndan Biri~
 You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
 and rich golden tapestries drape the walls.  Servants in golden livery pass you
 by peaceably.  Exits lead to the cardinal directions, with the east leading
@@ -2631,7 +2631,7 @@ D3
 0 0 698
 S
 #680
-Altın Hisar'ın Salonlarından Biri~
+AltÄ±n Hisar'Ä±n SalonlarÄ±ndan Biri~
 You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
 and rich golden tapestries drape the walls.  Servants in golden livery pass you
 by peaceably.  Exits lead west, north and south.
@@ -2651,7 +2651,7 @@ D3
 0 0 672
 S
 #681
-Altın Hisar'ın Salonlarından Biri~
+AltÄ±n Hisar'Ä±n SalonlarÄ±ndan Biri~
 You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
 and rich golden tapestries drape the walls.  Servants in golden livery pass you
 by peaceably.  Exits lead north and south.
@@ -2667,7 +2667,7 @@ D2
 0 0 683
 S
 #682
-Altın Hisar'ın Salonlarından Biri~
+AltÄ±n Hisar'Ä±n SalonlarÄ±ndan Biri~
 You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
 and rich golden tapestries drape the walls.  Servants in golden livery pass you
 by peaceably.  Exits lead north and south.
@@ -2683,7 +2683,7 @@ D2
 0 0 685
 S
 #683
-Altın Hisar'ın Salonlarından Biri~
+AltÄ±n Hisar'Ä±n SalonlarÄ±ndan Biri~
 You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
 and rich golden tapestries drape the walls.  Servants in golden livery pass you
 by peaceably.  Exits lead north and east.
@@ -2699,7 +2699,7 @@ D1
 0 0 684
 S
 #684
-Altın Hisar'ın Salonlarından Biri~
+AltÄ±n Hisar'Ä±n SalonlarÄ±ndan Biri~
 You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
 and rich golden tapestries drape the walls.  Servants in golden livery pass you
 by peaceably.  Exits lead east, west, and north.
@@ -2719,7 +2719,7 @@ D3
 0 0 683
 S
 #685
-Altın Hisar'ın Salonlarından Biri~
+AltÄ±n Hisar'Ä±n SalonlarÄ±ndan Biri~
 You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
 and rich golden tapestries drape the walls.  Servants in golden livery pass you
 by peaceably.  Exits lead west and north.
@@ -2735,7 +2735,7 @@ D3
 0 0 684
 S
 #686
-Altın Hisar'ın Yukarı Salonlarından Biri~
+AltÄ±n Hisar'Ä±n YukarÄ± SalonlarÄ±ndan Biri~
 You are in one of the upper chambers of the Golden Citadel.  The decora-
 tions of this place surpass even those of the first floor.  Gold tiles etched
 with platinum cover the floor, walls and the ceiling.  The lights from numerous
@@ -2757,7 +2757,7 @@ D5
 0 0 670
 S
 #687
-Altın Hisar'ın Yukarı Salonlarından Biri~
+AltÄ±n Hisar'Ä±n YukarÄ± SalonlarÄ±ndan Biri~
 You are in one of the upper chambers of the Golden Citadel.  The decora-
 tions of this place surpass even those of the first floor.  Gold tiles etched
 with platinum cover the floor, walls and the ceiling.  The lights from numerous
@@ -2779,7 +2779,7 @@ D5
 0 0 671
 S
 #688
-EjderhaLordları'nın Meclisi~
+EjderhaLordlarÄ±'nÄ±n Meclisi~
 You are in a vast hall, filled with the commanders of the Golden Citadel.
 Golden tiles etched with platinum cover the floors, and weapons of all types
 are mounted on the walls of this meeting hall.  Surrounding a solid gold table
@@ -2805,7 +2805,7 @@ D3
 0 0 687
 S
 #689
-Altın Hisar'ın Yukarı Salonlarından Biri~
+AltÄ±n Hisar'Ä±n YukarÄ± SalonlarÄ±ndan Biri~
 You are in one of the upper chambers of the Golden Citadel.  The decora-
 tions of this place surpass even those of the first floor.  Gold tiles etched
 with platinum cover the floor, walls and the ceiling.  The lights from numerous
@@ -2827,7 +2827,7 @@ D5
 0 0 672
 S
 #690
-Altın Hisar'ın Yukarı Salonlarından Biri~
+AltÄ±n Hisar'Ä±n YukarÄ± SalonlarÄ±ndan Biri~
 You are in one of the upper chambers of the Golden Citadel.  The decora-
 tions of this place surpass even those of the first floor.  Gold tiles etched
 with platinum cover the floor, walls and the ceiling.  The lights from numerous
@@ -2849,7 +2849,7 @@ D5
 0 0 673
 S
 #691
-Altın Hisar'ın Baş Meclislerinden Biri~
+AltÄ±n Hisar'Ä±n BaÅŸ Meclislerinden Biri~
 You are in one of the top chambers of the Golden Citadel.  The decorations
 of this room looks like a dragon's hoard.  The whole room is carved out of pure
 gold, and gems of all types glitter from the walls, ceiling, even the floor.
@@ -2867,7 +2867,7 @@ D5
 0 0 686
 S
 #692
-Altın Hisar'ın Baş Meclislerinden Biri~
+AltÄ±n Hisar'Ä±n BaÅŸ Meclislerinden Biri~
 You are in one of the top chambers of the Golden Citadel.  The decorations
 of this room looks like a dragon's hoard.  The whole room is carved out of pure
 gold, and gems of all types glitter from the walls, ceiling, even the floor.
@@ -2916,7 +2916,7 @@ D4
 0 0 696
 S
 #694
-Altın Hisar'ın Baş Meclislerinden Biri~
+AltÄ±n Hisar'Ä±n BaÅŸ Meclislerinden Biri~
 You are in one of the top chambers of the Golden Citadel.  The decorations
 of this room looks like a dragon's hoard.  The whole room is carved out of pure
 gold, and gems of all types glitter from the walls, ceiling, even the floor.
@@ -2934,7 +2934,7 @@ D5
 0 0 689
 S
 #695
-Altın Hisar'ın Baş Meclislerinden Biri~
+AltÄ±n Hisar'Ä±n BaÅŸ Meclislerinden Biri~
 You are in one of the top chambers of the Golden Citadel.  The decorations
 of this room looks like a dragon's hoard.  The whole room is carved out of pure
 gold, and gems of all types glitter from the walls, ceiling, even the floor.
@@ -2952,7 +2952,7 @@ D5
 0 0 690
 S
 #696
-Ejderha Salonu'nun Yukarısı~
+Ejderha Salonu'nun YukarÄ±sÄ±~
 You are above the Dragon Chamber.  You curiously note that this shaft that
 connects the chamber to the sky is wide enough that even a dragon can fit
 through.  This shaft leads up and down.
@@ -2968,7 +2968,7 @@ D5
 0 0 693
 S
 #697
-Ejderha Salonu'nun Havalandırması~
+Ejderha Salonu'nun HavalandÄ±rmasÄ±~
 You are in the shaft leading from the Dragon Chamber.  Below you lies the
 Dragon Chamber of the Golden Citadel.  Above you, you see the sky, but
 currently, the way out is sealed by a layer of diamond that looks impenetrable.
@@ -2984,7 +2984,7 @@ D5
 0 0 696
 S
 #698
-Altın Hisar Kapılarının İçi~
+AltÄ±n Hisar KapÄ±larÄ±nÄ±n Ä°Ã§i~
 You are inside the entrance to the Golden Citadel.  Rich golden tapestries
 line the walls, and golden tiles cover the floors.  The exit to this citadel is
 to the west, while the citadel itself is to the east.
@@ -3000,7 +3000,7 @@ gate~
 1 651 699
 S
 #699
-Altın Hisar Kapılarının Dışı~
+AltÄ±n Hisar KapÄ±larÄ±nÄ±n DÄ±ÅŸÄ±~
 You are outside the entrance to the Golden Citadel.  A great gate is to
 to the east, marking the entranceway into the citadel.  The road also leads
 back west to Raff Way.

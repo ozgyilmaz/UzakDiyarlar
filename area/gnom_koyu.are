@@ -1,9 +1,9 @@
 #AREADATA
 Filename gnom_koyu.are~
-Name Gnom Köyü~
+Name Gnom KÃ¶yÃ¼~
 Builder Vougon~
 Translator Qualyn~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 15
 Minvnum 1500
@@ -16,31 +16,31 @@ END
 
 #NEW_MOBILES
 #1500
-gnom çocuk~
-bir gnom çocuk~
-Sevimli bir gnom çocuğu burda oynuyor.
+gnom Ã§ocuk~
+bir gnom Ã§ocuk~
+Sevimli bir gnom Ã§ocuÄŸu burda oynuyor.
 ~
-Bu küçük ve neşeli çocuk bumerangıyla öyle masum oynuyorki onu kucaklayıp
-kollarınla sıkı sıkı sarmak istiyorsun.
+Bu kÃ¼Ã§Ã¼k ve neÅŸeli Ã§ocuk bumerangÄ±yla Ã¶yle masum oynuyorki onu kucaklayÄ±p
+kollarÄ±nla sÄ±kÄ± sÄ±kÄ± sarmak istiyorsun.
 ~
 human~
 ACE 0 3
 #1501
-kadın gnom~
-bir kadın gnom~
-Bir kadın gnom burada, güzel gözükmeye çalışıyor.
+kadÄ±n gnom~
+bir kadÄ±n gnom~
+Bir kadÄ±n gnom burada, gÃ¼zel gÃ¶zÃ¼kmeye Ã§alÄ±ÅŸÄ±yor.
 ~
-Çekici bir kadın gibi davranmaya çalışan kısa ve yamru yumru bir kadın.
-Seni etkilemek için güzel görünmeye dikkat ediyor  ...
+Ã‡ekici bir kadÄ±n gibi davranmaya Ã§alÄ±ÅŸan kÄ±sa ve yamru yumru bir kadÄ±n.
+Seni etkilemek iÃ§in gÃ¼zel gÃ¶rÃ¼nmeye dikkat ediyor  ...
 ~
 human~
 ACE 0 5
 #1502
 erkek gnom~
 bir erkek gnom~
-İşine giden bir erkek gnom burada.
+Ä°ÅŸine giden bir erkek gnom burada.
 ~
-Tam bir gnom örneği.Kısa ve güçsüz gözüküyor ama aynı zamanda seni
+Tam bir gnom Ã¶rneÄŸi.KÄ±sa ve gÃ¼Ã§sÃ¼z gÃ¶zÃ¼kÃ¼yor ama aynÄ± zamanda seni
 aldatabilecek kadar zeki.
 ~
 human~
@@ -48,76 +48,76 @@ AC 0 6
 #1503
 gnom mucit~
 bir gnom mucit~
-Bir gnom mucidi burada,derin düşünceler içinde görünüyor.
+Bir gnom mucidi burada,derin dÃ¼ÅŸÃ¼nceler iÃ§inde gÃ¶rÃ¼nÃ¼yor.
 ~
-İcat etmek üzere olduğu anlayamadığın bir şeylere yuğunlaşmış bir gnom.
- Saçları bembeyaz ama oldukça güçlü gözüküyor.
+Ä°cat etmek Ã¼zere olduÄŸu anlayamadÄ±ÄŸÄ±n bir ÅŸeylere yuÄŸunlaÅŸmÄ±ÅŸ bir gnom.
+ SaÃ§larÄ± bembeyaz ama oldukÃ§a gÃ¼Ã§lÃ¼ gÃ¶zÃ¼kÃ¼yor.
 ~
 human~
 ABCR 0 7
 #1504
-gnom muhafız~
-bir gnom muhafız~
-Bir gnom muhafız burada bir şeyleri koruyor.
+gnom muhafÄ±z~
+bir gnom muhafÄ±z~
+Bir gnom muhafÄ±z burada bir ÅŸeyleri koruyor.
 ~
-İyi eğitilmiş bir gnom.  Çok güçlü olmayabilir ama silah kullanmaktaki
-yeteneği bu açığını kapatıyor.
+Ä°yi eÄŸitilmiÅŸ bir gnom.  Ã‡ok gÃ¼Ã§lÃ¼ olmayabilir ama silah kullanmaktaki
+yeteneÄŸi bu aÃ§Ä±ÄŸÄ±nÄ± kapatÄ±yor.
 ~
 human~
 AB 0 8
 #1505
 gnom lideri~
 gnom lideri~
-Süslü elbiseler giymiş çok güçlü gözüken bir gnom burada.
+SÃ¼slÃ¼ elbiseler giymiÅŸ Ã§ok gÃ¼Ã§lÃ¼ gÃ¶zÃ¼ken bir gnom burada.
 ~
-Lider seni çok fena dövebilecekmiş gibi gözüküyor.  Sadece güçlü değil
-aynı zamanda bilge ve becerikli.  Onunla uğraşmasan iyi olur.
+Lider seni Ã§ok fena dÃ¶vebilecekmiÅŸ gibi gÃ¶zÃ¼kÃ¼yor.  Sadece gÃ¼Ã§lÃ¼ deÄŸil
+aynÄ± zamanda bilge ve becerikli.  Onunla uÄŸraÅŸmasan iyi olur.
 ~
 human~
 ABQ 0 15
 #1507
-küçük asura~
-küçük bir asura~
-Küçük bir asura homurdanarak sana doğru ilerliyor.
+kÃ¼Ã§Ã¼k asura~
+kÃ¼Ã§Ã¼k bir asura~
+KÃ¼Ã§Ã¼k bir asura homurdanarak sana doÄŸru ilerliyor.
 ~
-Suratı insana benzeyen ama gözleri ve dişleri hahşi bir hayvanı andıran
-kısa ve tıknaz bir asura.
+SuratÄ± insana benzeyen ama gÃ¶zleri ve diÅŸleri hahÅŸi bir hayvanÄ± andÄ±ran
+kÄ±sa ve tÄ±knaz bir asura.
 ~
 asura~
 ABCF 0 8
 #1508
 tarla faresi~
 bir tarla faresi~
-Bir tarla faresi ayaklarından kaçıyor.
+Bir tarla faresi ayaklarÄ±ndan kaÃ§Ä±yor.
 ~
-Bu fare küçük ve sevimli bir yaratık.
+Bu fare kÃ¼Ã§Ã¼k ve sevimli bir yaratÄ±k.
 ~
 human~
 ABCI 0 1
 #1509
-sıçan~
-bir sıçan~
-Bir sıçan çığlıklar atarak etrafında dolaşıyor.
+sÄ±Ã§an~
+bir sÄ±Ã§an~
+Bir sÄ±Ã§an Ã§Ä±ÄŸlÄ±klar atarak etrafÄ±nda dolaÅŸÄ±yor.
 ~
-Ölümü hakeden çirkin ve kötü bir yaratık.
+Ã–lÃ¼mÃ¼ hakeden Ã§irkin ve kÃ¶tÃ¼ bir yaratÄ±k.
 ~
 human~
 AC 0 2
 #1510
-büyük sıçan~
-büyük bir sıçan~
-Büyük bir sıçan sana koşup botlarını kemirmeye başlıyor.
+bÃ¼yÃ¼k sÄ±Ã§an~
+bÃ¼yÃ¼k bir sÄ±Ã§an~
+BÃ¼yÃ¼k bir sÄ±Ã§an sana koÅŸup botlarÄ±nÄ± kemirmeye baÅŸlÄ±yor.
 ~
-içinde bu rezil yaratığı öldürme dürtüsü var.
+iÃ§inde bu rezil yaratÄ±ÄŸÄ± Ã¶ldÃ¼rme dÃ¼rtÃ¼sÃ¼ var.
 ~
 human~
 AC 0 4
 #1511
-dev sıçan~
-dev bir sıçan~
-Dev bir sıçan homurtular çıkararak sana saldırmaya hazırlanıyor.
+dev sÄ±Ã§an~
+dev bir sÄ±Ã§an~
+Dev bir sÄ±Ã§an homurtular Ã§Ä±kararak sana saldÄ±rmaya hazÄ±rlanÄ±yor.
 ~
-Ortalama bir köpek kadar büyük bir sıçan görüyorsun.
+Ortalama bir kÃ¶pek kadar bÃ¼yÃ¼k bir sÄ±Ã§an gÃ¶rÃ¼yorsun.
 ~
 human~
 AC 0 6
@@ -126,47 +126,47 @@ dev asura~
 dev asura~
 Dev bir asura etrafta geziniyor.
 ~
-Canlı ve kocaman bir vücudu var. Güçlü kolunu seni ezmek için
-kaldırdığında korkudan büzülüyorsun.
+CanlÄ± ve kocaman bir vÃ¼cudu var. GÃ¼Ã§lÃ¼ kolunu seni ezmek iÃ§in
+kaldÄ±rdÄ±ÄŸÄ±nda korkudan bÃ¼zÃ¼lÃ¼yorsun.
 ~
 asura~
 ABF 0 14
 #1513
 siyah yarasa~
 siyah bir yarasa~
-Siyah bir yarasa tavandan sarkıyor.
+Siyah bir yarasa tavandan sarkÄ±yor.
 ~
-Büyük kanatları ve dişleriyle küçük ve acayip bir yarasa.
+BÃ¼yÃ¼k kanatlarÄ± ve diÅŸleriyle kÃ¼Ã§Ã¼k ve acayip bir yarasa.
 ~
 bat~
 A 0 5
 #1514
 zombi gnom~
 zombi gnom~
-Bir zombi gnom ayaklarını sürüyerek sana doğru ilerliyor.
+Bir zombi gnom ayaklarÄ±nÄ± sÃ¼rÃ¼yerek sana doÄŸru ilerliyor.
 ~
-Yıllar önce hayatını kaybetmiş bir yaratık.Bedeni bazı kötü güçler
-tarafından yerinden çıkarılmış.
+YÄ±llar Ã¶nce hayatÄ±nÄ± kaybetmiÅŸ bir yaratÄ±k.Bedeni bazÄ± kÃ¶tÃ¼ gÃ¼Ã§ler
+tarafÄ±ndan yerinden Ã§Ä±karÄ±lmÄ±ÅŸ.
 ~
 human~
 A 0 7
 #1515
-ateş yarasası~
-ateş yarasası~
-Parlak alevler içinde bir ateş yarasası sana saldırmaya hazırlanıyor .
+ateÅŸ yarasasÄ±~
+ateÅŸ yarasasÄ±~
+Parlak alevler iÃ§inde bir ateÅŸ yarasasÄ± sana saldÄ±rmaya hazÄ±rlanÄ±yor .
 ~
-Biçimi büyük bir yarasayı andıran bir alev görüyorsun.  Yaratık tavandan
-sarkmış bir halde seni ısırmaya hazırlanıyor.
+BiÃ§imi bÃ¼yÃ¼k bir yarasayÄ± andÄ±ran bir alev gÃ¶rÃ¼yorsun.  YaratÄ±k tavandan
+sarkmÄ±ÅŸ bir halde seni Ä±sÄ±rmaya hazÄ±rlanÄ±yor.
 ~
 bat~
 ABCF D 12
 #1516
-hobgoblin muhafız~
-hobgoblin muhafız~
-Hobgoblin muhafızı düşünmeden sana saldırıyor.
+hobgoblin muhafÄ±z~
+hobgoblin muhafÄ±z~
+Hobgoblin muhafÄ±zÄ± dÃ¼ÅŸÃ¼nmeden sana saldÄ±rÄ±yor.
 ~
-Çok büyük ve gerçekten çirkin bir hobgoblin görüyorsun.  Şeytani bir
-şekilde gülümserken seni ezmeye çalışıyor.
+Ã‡ok bÃ¼yÃ¼k ve gerÃ§ekten Ã§irkin bir hobgoblin gÃ¶rÃ¼yorsun.  Åeytani bir
+ÅŸekilde gÃ¼lÃ¼mserken seni ezmeye Ã§alÄ±ÅŸÄ±yor.
 ~
 human~
 ABF 0 6
@@ -175,84 +175,84 @@ hobgoblin asker~
 hobgoblin asker~
 Bir hobgoblin asker burada duruyor.
 ~
-Seçkin muhafızların arasına katılamamış ortalama bir goblin.
-Korkmuş gözüküyor.
+SeÃ§kin muhafÄ±zlarÄ±n arasÄ±na katÄ±lamamÄ±ÅŸ ortalama bir goblin.
+KorkmuÅŸ gÃ¶zÃ¼kÃ¼yor.
 ~
 human~
 ABF 0 3
 #1518
 hobgoblin koruyucu~
 hobgoblin koruyucu~
-Bir hobgoblin koruyucu burada hayatı pahasına kralını koruyor.
+Bir hobgoblin koruyucu burada hayatÄ± pahasÄ±na kralÄ±nÄ± koruyor.
 ~
-Seçkin hobgoblin muhafızlarından birini görüyorsun. Uzun boylu ve güçlü.
-Dişlerini gıcırdatarak sana saldırmaya hazırlanıyor.
+SeÃ§kin hobgoblin muhafÄ±zlarÄ±ndan birini gÃ¶rÃ¼yorsun. Uzun boylu ve gÃ¼Ã§lÃ¼.
+DiÅŸlerini gÄ±cÄ±rdatarak sana saldÄ±rmaya hazÄ±rlanÄ±yor.
 ~
 human~
 AB 0 7
 #1519
 hobgoblin kral~
 hobgoblin kral~
-Gösterişli bir kral burada, tahtında oturuyor.
+GÃ¶steriÅŸli bir kral burada, tahtÄ±nda oturuyor.
 ~
-Adaleleri cüppesine sığmayan hobgoblin kral aptal görünüşüyle
-yaratmaya çalıştığı bilge etkiyi yok ediyor .
+Adaleleri cÃ¼ppesine sÄ±ÄŸmayan hobgoblin kral aptal gÃ¶rÃ¼nÃ¼ÅŸÃ¼yle
+yaratmaya Ã§alÄ±ÅŸtÄ±ÄŸÄ± bilge etkiyi yok ediyor .
 ~
 human~
 ABR 0 12
 #1520
 hobgoblin madenci~
 hobgoblin madenci~
-Bir hobgonlin madenci burada altın arıyor.
+Bir hobgonlin madenci burada altÄ±n arÄ±yor.
 ~
-Bu madenci çalışmaktan tamamen toz içinde kalmış.
+Bu madenci Ã§alÄ±ÅŸmaktan tamamen toz iÃ§inde kalmÄ±ÅŸ.
 ~
 human~
 ABC 0 5
 #1521
 haznedar~
 haznedar~
-Bir haznedar burda altınları sayıyor.
+Bir haznedar burda altÄ±nlarÄ± sayÄ±yor.
 ~
-Haznedar yaşlı ve gözlüklü bir hobgoblin.
-Gözüktüğü kadarıyla ancak önündeki iki ayağı görebiliyor.
+Haznedar yaÅŸlÄ± ve gÃ¶zlÃ¼klÃ¼ bir hobgoblin.
+GÃ¶zÃ¼ktÃ¼ÄŸÃ¼ kadarÄ±yla ancak Ã¶nÃ¼ndeki iki ayaÄŸÄ± gÃ¶rebiliyor.
 ~
 human~
 ABC 0 10
 #1522
 gnom mahkum~
 gnom bir mahkum~
-Gnom bir mahkum burda samanların içinde dinleniyor.
+Gnom bir mahkum burda samanlarÄ±n iÃ§inde dinleniyor.
 ~
-Mahkum zar zor yaşamaya devam ediyor.
+Mahkum zar zor yaÅŸamaya devam ediyor.
 ~
 human~
 ABC 0 3
 #1523
 insan bir mahkum~
 insan bir mahkum~
-İnsan bir mahkum burda samanların içinde dinleniyor.
+Ä°nsan bir mahkum burda samanlarÄ±n iÃ§inde dinleniyor.
 ~
-Mahkum zar zor yaşamaya devam ediyor.
+Mahkum zar zor yaÅŸamaya devam ediyor.
 ~
 human~
 ABC 0 3
 #1524
-yengeç~
-bir yengeç~
-Bir yengeç sana doğru ağır ağır ilerliyor.
+yengeÃ§~
+bir yengeÃ§~
+Bir yengeÃ§ sana doÄŸru aÄŸÄ±r aÄŸÄ±r ilerliyor.
 ~
-Onu uyandırdığın için kızmış büyük bir yengeç görüyorsun.
+Onu uyandÄ±rdÄ±ÄŸÄ±n iÃ§in kÄ±zmÄ±ÅŸ bÃ¼yÃ¼k bir yengeÃ§ gÃ¶rÃ¼yorsun.
 ~
 human~
 ABCF 0 5
 #1526
-hobgoblin aşçı~
-hobgoblin aşçı~
-Bir hobgoblin aşçı burda birşeyler pişiriyor.
+hobgoblin aÅŸÃ§Ä±~
+hobgoblin aÅŸÃ§Ä±~
+Bir hobgoblin aÅŸÃ§Ä± burda birÅŸeyler piÅŸiriyor.
 ~
-Kirli ve şişman bir hobgoblin.
-Tencerenin içindeki şeyi karıştırırken geğirip duruyor.
+Kirli ve ÅŸiÅŸman bir hobgoblin.
+Tencerenin iÃ§indeki ÅŸeyi karÄ±ÅŸtÄ±rÄ±rken geÄŸirip duruyor.
 ~
 human~
 ABC 0 7
@@ -260,9 +260,9 @@ ABC 0 7
 
 #OBJECTS
 #1500
-kanlı anahtar~
-kanlı anahtar~
-Kanlı bir anahtar yerde duruyor.~
+kanlÄ± anahtar~
+kanlÄ± anahtar~
+KanlÄ± bir anahtar yerde duruyor.~
 wood blood~
 key 0 A
 2 0 0 0 0
@@ -278,31 +278,31 @@ key 0 A
 #1502
 oyuncak bumerang~
 oyuncak bumerang~
-Oyuncak bir bumerang yerden alınmak istiyor.~
+Oyuncak bir bumerang yerden alÄ±nmak istiyor.~
 wood~
 weapon 0 AN
 exotic 2 4 pound 0
 5 50 730 P
 #1503
-budaklı değnek~
-budaklı bir değnek~
-Budaklı bir değnek burada.~
+budaklÄ± deÄŸnek~
+budaklÄ± bir deÄŸnek~
+BudaklÄ± bir deÄŸnek burada.~
 ebony~
 weapon 0 AN
 exotic 1 9 pound 0
 5 150 730 P
 #1504
-gnom kılıcı~
-gnom kılıcı~
-Bir gnom kılıcı gözüne takılıyor.~
+gnom kÄ±lÄ±cÄ±~
+gnom kÄ±lÄ±cÄ±~
+Bir gnom kÄ±lÄ±cÄ± gÃ¶zÃ¼ne takÄ±lÄ±yor.~
 iron~
 weapon 0 AN
 sword 3 3 slash 0
 7 150 610 P
 #1505
-çivili kalkan~
-çivili kalkan~
-çivili bir kalkan yerde duruyor.~
+Ã§ivili kalkan~
+Ã§ivili kalkan~
+Ã§ivili bir kalkan yerde duruyor.~
 iron-wood~
 armor 0 AJ
 4 4 4 1 0
@@ -318,15 +318,15 @@ potion 0 A
 #1507
 kan rengi pelerin~
 kan rengi pelerin~
-Kan renginde bir pelerin köşede duruyor.~
+Kan renginde bir pelerin kÃ¶ÅŸede duruyor.~
 cloth~
 armor G AC
 4 4 4 0 0
 5 150 480 P
 #1508
-yarasa yüzük~
-yarasa yüzüğü~
-üstünde yarasa işlemesi olan bir yüzük yerde duruyor .~
+yarasa yÃ¼zÃ¼k~
+yarasa yÃ¼zÃ¼ÄŸÃ¼~
+Ã¼stÃ¼nde yarasa iÅŸlemesi olan bir yÃ¼zÃ¼k yerde duruyor .~
 silver~
 jewelry G AB
 0 0 0 0 0
@@ -336,7 +336,7 @@ A
 #1509
 boncuklu kolye~
 boncuklu kolye~
-Yerde ipe dizilmiş güzel boncuklar görüyorsun.~
+Yerde ipe dizilmiÅŸ gÃ¼zel boncuklar gÃ¶rÃ¼yorsun.~
 pearl~
 jewelry 0 AC
 0 0 0 0 0
@@ -344,33 +344,33 @@ jewelry 0 AC
 A
 18 1
 #1510
-kıvılcım kılıç~
-kıvılcım kılıç~
-Kıvılcımlar saçan bir kılıç yerde duruyor.~
+kÄ±vÄ±lcÄ±m kÄ±lÄ±Ã§~
+kÄ±vÄ±lcÄ±m kÄ±lÄ±Ã§~
+KÄ±vÄ±lcÄ±mlar saÃ§an bir kÄ±lÄ±Ã§ yerde duruyor.~
 steel~
 weapon AG AN
 sword 4 4 slash 0
 12 200 930 P
 #1511
-hasır sepet~
-hasır sepet~
-hasırdan yapılmış bir sepet yerde duruyor.~
+hasÄ±r sepet~
+hasÄ±r sepet~
+hasÄ±rdan yapÄ±lmÄ±ÅŸ bir sepet yerde duruyor.~
 wood~
 container 0 A
 90 0 0 20 100
 0 50 0 P
 #1512
-yerfıstığı~
-yerfıstığı~
-Yerde bir avuç kadar yer fıstığı görüyorsun.~
+yerfÄ±stÄ±ÄŸÄ±~
+yerfÄ±stÄ±ÄŸÄ±~
+Yerde bir avuÃ§ kadar yer fÄ±stÄ±ÄŸÄ± gÃ¶rÃ¼yorsun.~
 food~
 food 0 A
 16 16 0 0 0
 0 90 0 P
 #1513
-tahıl~
-tahıl~
-Yerde biraz tahıl var.~
+tahÄ±l~
+tahÄ±l~
+Yerde biraz tahÄ±l var.~
 unknown~
 food 0 A
 15 15 0 0 0
@@ -386,7 +386,7 @@ boat 0 A
 #1515
 gnom bot~
 gnom botu~
-Yerde bir çift gnom botu olduğunu fakediyorsun.~
+Yerde bir Ã§ift gnom botu olduÄŸunu fakediyorsun.~
 leather~
 armor 0 AG
 4 4 4 0 0
@@ -410,9 +410,9 @@ money 0 A
 500 0 0 0 0
 0 10 0 P
 #1519
-taş kalkan~
-taş kalkan~
-Bir taş levha yerde duruyor.~
+taÅŸ kalkan~
+taÅŸ kalkan~
+Bir taÅŸ levha yerde duruyor.~
 stone iron~
 armor 0 AJ
 4 4 4 2 0
@@ -420,17 +420,17 @@ armor 0 AJ
 A
 1 2
 #1520
-şeritli ağır zırh~
-Şeritli ağır zırh~
-Şeritli büyük bir zırh yerde duruyor~
+ÅŸeritli aÄŸÄ±r zÄ±rh~
+Åeritli aÄŸÄ±r zÄ±rh~
+Åeritli bÃ¼yÃ¼k bir zÄ±rh yerde duruyor~
 iron~
 armor 0 AD
 6 6 6 0 0
 15 300 2100 P
 #1521
-büyük gürz~
-büyük gürz~
-Büyük bir gürz yerde duruyor.~
+bÃ¼yÃ¼k gÃ¼rz~
+bÃ¼yÃ¼k gÃ¼rz~
+BÃ¼yÃ¼k bir gÃ¼rz yerde duruyor.~
 wood~
 weapon 0 AN
 mace 1 12 pound F
@@ -446,17 +446,17 @@ food 0 A
 6 6 0 0 0
 0 50 0 P
 #1523
-yaşam iksiri~
-yaşam iksiri~
-Bir yaşam iksiri burada bırakılmış.~
+yaÅŸam iksiri~
+yaÅŸam iksiri~
+Bir yaÅŸam iksiri burada bÄ±rakÄ±lmÄ±ÅŸ.~
 clay~
 potion H A
 32 'cure poison' 'bless' '' ''
 6 10 630 P
 #1524
-tahta gürz~
-tahta gürz~
-Tahtadan bir gürz yerde duruyor.~
+tahta gÃ¼rz~
+tahta gÃ¼rz~
+Tahtadan bir gÃ¼rz yerde duruyor.~
 wood~
 weapon 0 AN
 mace 2 3 pound 0
@@ -467,8 +467,8 @@ A
 
 #ROOMS
 #1501
-Köy Girişi~
-Kuzeye ve doğuya uzanan tozlu bir yolda duruyorsun. Doğudan küçük köyün
+KÃ¶y GiriÅŸi~
+Kuzeye ve doÄŸuya uzanan tozlu bir yolda duruyorsun. DoÄŸudan kÃ¼Ã§Ã¼k kÃ¶yÃ¼n
 sesleri geliyor.
 ~
 0 C 2
@@ -478,409 +478,409 @@ A dusty path heads towards the eastern road.
 ~
 0 -1 3526
 D1
-Tozlu bir yol görüyorsun.
+Tozlu bir yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1502
 S
 #1502
 Tozlu Patika~
-Bu köye giden yol. Doğuya ve batıya devam ediyor ayrıca kuzeyde küçük
+Bu kÃ¶ye giden yol. DoÄŸuya ve batÄ±ya devam ediyor ayrÄ±ca kuzeyde kÃ¼Ã§Ã¼k
 bir ev var.
 ~
 0 0 1
 D0
-Küçük bir ev görüyorsun.
+KÃ¼Ã§Ã¼k bir ev gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1509
 D1
-Bir yol görüyorsun.
+Bir yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1503
 D3
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1501
 S
 #1503
-Köyün İçinde Bir Yol~
-Yol kuzeye ve güneye devam ediyor etrafta birkaç kişi var ama fazla değil.
+KÃ¶yÃ¼n Ä°Ã§inde Bir Yol~
+Yol kuzeye ve gÃ¼neye devam ediyor etrafta birkaÃ§ kiÅŸi var ama fazla deÄŸil.
 ~
 0 0 1
 D0
-Bir yol görüyorsun.
+Bir yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1505
 D1
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1504
 D2
-Bir yol görüyorsun.
+Bir yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1507
 D3
-Bir yol görüyorsun.
+Bir yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1502
 S
 #1504
 Tozlu Patika~
-Köyün dışında bir patikadasın.  Kuzeyde ve güneyde evler var yol doğuya
-devam ediyor. Burada bir işaret var.
+KÃ¶yÃ¼n dÄ±ÅŸÄ±nda bir patikadasÄ±n.  Kuzeyde ve gÃ¼neyde evler var yol doÄŸuya
+devam ediyor. Burada bir iÅŸaret var.
 ~
 0 0 1
 D0
-Küçük bir ev görüyorsun.
+KÃ¼Ã§Ã¼k bir ev gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1512
 D1
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1559
 D2
-Küçük bir ev görüyorsun.
+KÃ¼Ã§Ã¼k bir ev gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1513
 D3
-Bir yol görüyorsun.
+Bir yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1503
 E
-işaret~
-Uyarı: bundan sonrası çoğunlukla Vougon tarafından yazılmıştır.
+iÅŸaret~
+UyarÄ±: bundan sonrasÄ± Ã§oÄŸunlukla Vougon tarafÄ±ndan yazÄ±lmÄ±ÅŸtÄ±r.
                     (giggle)    - Sandman
 ~
 S
 #1505
-Köyün İçinde Bir Yol~
-Yol kuzeye ve güneye devam ediyor etrafta birkaç kişi var ama fazla değil.
+KÃ¶yÃ¼n Ä°Ã§inde Bir Yol~
+Yol kuzeye ve gÃ¼neye devam ediyor etrafta birkaÃ§ kiÅŸi var ama fazla deÄŸil.
 ~
 0 0 1
 D0
-Bir yol görüyorsun.
+Bir yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1506
 D1
-Küçük bir ev görüyorsun.
+KÃ¼Ã§Ã¼k bir ev gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1511
 D2
-Bir yol görüyorsun.
+Bir yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1503
 D3
-Küçük bir ev görüyorsun.
+KÃ¼Ã§Ã¼k bir ev gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1510
 S
 #1506
-Köyün İçinde Bir Yol~
-Yol kuzeye ve güneye devam ediyor etrafta birkaç kişi var ama fazla değil.
+KÃ¶yÃ¼n Ä°Ã§inde Bir Yol~
+Yol kuzeye ve gÃ¼neye devam ediyor etrafta birkaÃ§ kiÅŸi var ama fazla deÄŸil.
 ~
 0 0 1
 D0
-Bir yol görüyorsun.
+Bir yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1526
 D2
-Bir yol görüyorsun.
+Bir yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1505
 S
 #1507
-Köyün İçinde Bir Yol~
-Yol kuzeye ve güneye devam ediyor etrafta birkaç kişi var ama fazla değil.
+KÃ¶yÃ¼n Ä°Ã§inde Bir Yol~
+Yol kuzeye ve gÃ¼neye devam ediyor etrafta birkaÃ§ kiÅŸi var ama fazla deÄŸil.
 ~
 0 0 1
 D0
-Bir yol görüyorsun.
+Bir yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1503
 D2
-Bir yol görüyorsun.
+Bir yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1508
 D3
-Bir dükkan görüyorsun.
+Bir dÃ¼kkan gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1514
 S
 #1508
-Köyün İçinde Bir Yol~
-Yol kuzeye ve güneye devam ediyor etrafta birkaç kişi var ama fazla değil.
+KÃ¶yÃ¼n Ä°Ã§inde Bir Yol~
+Yol kuzeye ve gÃ¼neye devam ediyor etrafta birkaÃ§ kiÅŸi var ama fazla deÄŸil.
 ~
 0 0 1
 D0
-Bir yol görüyorsun.
+Bir yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1507
 D1
-Bir dükkan görüyorsun.
+Bir dÃ¼kkan gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1516
 D2
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1517
 D3
-Bir dükkan görüyorsun.
+Bir dÃ¼kkan gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1515
 S
 #1509
-Küçük bir ev~
-Bu odundan yapılmış küçük ve güzel bir ev.  Harcanan emeği ve bunu
-yapan yaratılıcığı eve girdiğinde farkediyorsun.
+KÃ¼Ã§Ã¼k bir ev~
+Bu odundan yapÄ±lmÄ±ÅŸ kÃ¼Ã§Ã¼k ve gÃ¼zel bir ev.  Harcanan emeÄŸi ve bunu
+yapan yaratÄ±lÄ±cÄ±ÄŸÄ± eve girdiÄŸinde farkediyorsun.
 ~
 0 D 0
 D2
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1502
 S
 #1510
-Küçük bir ev~
-Bu odundan yapılmış küçük ve güzel bir ev.  Harcanan emeği ve bunu
-yapan yaratılıcığı eve girdiğinde farkediyorsun.
+KÃ¼Ã§Ã¼k bir ev~
+Bu odundan yapÄ±lmÄ±ÅŸ kÃ¼Ã§Ã¼k ve gÃ¼zel bir ev.  Harcanan emeÄŸi ve bunu
+yapan yaratÄ±lÄ±cÄ±ÄŸÄ± eve girdiÄŸinde farkediyorsun.
 ~
 0 D 0
 D1
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1505
 S
 #1511
-Küçük bir ev~
-Bu odundan yapılmış küçük ve güzel bir ev.  Harcanan emeği ve bunu
-yapan yaratılıcığı eve girdiğinde farkediyorsun.
+KÃ¼Ã§Ã¼k bir ev~
+Bu odundan yapÄ±lmÄ±ÅŸ kÃ¼Ã§Ã¼k ve gÃ¼zel bir ev.  Harcanan emeÄŸi ve bunu
+yapan yaratÄ±lÄ±cÄ±ÄŸÄ± eve girdiÄŸinde farkediyorsun.
 ~
 0 D 0
 D3
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1505
 S
 #1512
-Küçük bir ev~
-Bu odundan yapılmış küçük ve güzel bir ev.  Harcanan emeği ve bunu
-yapan yaratılıcığı eve girdiğinde farkediyorsun.
+KÃ¼Ã§Ã¼k bir ev~
+Bu odundan yapÄ±lmÄ±ÅŸ kÃ¼Ã§Ã¼k ve gÃ¼zel bir ev.  Harcanan emeÄŸi ve bunu
+yapan yaratÄ±lÄ±cÄ±ÄŸÄ± eve girdiÄŸinde farkediyorsun.
 ~
 0 D 0
 D2
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1504
 S
 #1513
-Küçük bir ev~
-Bu odundan yapılmış küçük ve güzel bir ev.  Harcanan emeği ve bunu
-yapan yaratılıcığı eve girdiğinde farkediyorsun.
+KÃ¼Ã§Ã¼k bir ev~
+Bu odundan yapÄ±lmÄ±ÅŸ kÃ¼Ã§Ã¼k ve gÃ¼zel bir ev.  Harcanan emeÄŸi ve bunu
+yapan yaratÄ±lÄ±cÄ±ÄŸÄ± eve girdiÄŸinde farkediyorsun.
 ~
 0 D 0
 D0
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1504
 S
 #1514
-Bir dükkan~
-Bu güzel köyün sayısı az olan dükkanlarından birindesin. Eşyalar güzel
-gözüküyor, ama bildiğin gibi gnomlar yabancılarla iş yapmazlar.
+Bir dÃ¼kkan~
+Bu gÃ¼zel kÃ¶yÃ¼n sayÄ±sÄ± az olan dÃ¼kkanlarÄ±ndan birindesin. EÅŸyalar gÃ¼zel
+gÃ¶zÃ¼kÃ¼yor, ama bildiÄŸin gibi gnomlar yabancÄ±larla iÅŸ yapmazlar.
 ~
 0 D 0
 D1
-Bir yol görüyorsun.
+Bir yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1507
 S
 #1515
-Bir dükkan~
-Bu güzel köyün sayısı az olan dükkanlarından birindesin. Eşyalar güzel
-gözüküyor, ama bildiğin gibi gnomlar yabancılarla iş yapmazlar.
+Bir dÃ¼kkan~
+Bu gÃ¼zel kÃ¶yÃ¼n sayÄ±sÄ± az olan dÃ¼kkanlarÄ±ndan birindesin. EÅŸyalar gÃ¼zel
+gÃ¶zÃ¼kÃ¼yor, ama bildiÄŸin gibi gnomlar yabancÄ±larla iÅŸ yapmazlar.
 ~
 0 D 0
 D1
-Bir yol görüyorsun.
+Bir yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1508
 S
 #1516
-Bir dükkan~
-Bu güzel köyün sayısı az olan dükkanlarından birindesin. Eşyalar güzel
-gözüküyor, ama bildiğin gibi gnomlar yabancılarla iş yapmazlar.
+Bir dÃ¼kkan~
+Bu gÃ¼zel kÃ¶yÃ¼n sayÄ±sÄ± az olan dÃ¼kkanlarÄ±ndan birindesin. EÅŸyalar gÃ¼zel
+gÃ¶zÃ¼kÃ¼yor, ama bildiÄŸin gibi gnomlar yabancÄ±larla iÅŸ yapmazlar.
 ~
 0 D 0
 D3
-Bir yol görüyorsun.
+Bir yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1508
 S
 #1517
-Nehir Kenarındaki Patika~
-Kuzeye ve doğuya devam eden bir patikadasın.Yol diğer yönlerden küçük
-bir nehirle çevrilmiş. Su çok soğuk gözüküyor.
+Nehir KenarÄ±ndaki Patika~
+Kuzeye ve doÄŸuya devam eden bir patikadasÄ±n.Yol diÄŸer yÃ¶nlerden kÃ¼Ã§Ã¼k
+bir nehirle Ã§evrilmiÅŸ. Su Ã§ok soÄŸuk gÃ¶zÃ¼kÃ¼yor.
 ~
 0 C 2
 D0
-Bir yol görüyorsun.
+Bir yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1508
 D2
-Bir nehir görüyorsun.
+Bir nehir gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1520
 D3
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1518
 E
 nehir~
-Nehir gayet güzel duruyor, ama yüzmek için çok soğuk.
+Nehir gayet gÃ¼zel duruyor, ama yÃ¼zmek iÃ§in Ã§ok soÄŸuk.
 ~
 S
 #1518
-Nehir Kenarındaki Patika~
-Doğu ve batıya devam eden bir yol. Yolda yeni yetişen otlar var,
-anlaşılan artık çok kullanılmıyor. Güney de nehir batıda ise küçük
-bir kulübe var.
+Nehir KenarÄ±ndaki Patika~
+DoÄŸu ve batÄ±ya devam eden bir yol. Yolda yeni yetiÅŸen otlar var,
+anlaÅŸÄ±lan artÄ±k Ã§ok kullanÄ±lmÄ±yor. GÃ¼ney de nehir batÄ±da ise kÃ¼Ã§Ã¼k
+bir kulÃ¼be var.
 ~
 0 0 2
 D1
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1517
 D2
-Bir nehir görüyorsun.
+Bir nehir gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1521
 D3
-Yıkılmaya yüz tutmuş bir kulübe görüyorsun.
+YÄ±kÄ±lmaya yÃ¼z tutmuÅŸ bir kulÃ¼be gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1519
 E
-kulübe~
-Kulübe güzel yapılmış, ama baya hasar görmüş.
+kulÃ¼be~
+KulÃ¼be gÃ¼zel yapÄ±lmÄ±ÅŸ, ama baya hasar gÃ¶rmÃ¼ÅŸ.
 ~
 E
 nehir~
-Nehir gayet güzel duruyor, ama yüzmek için çok soğuk.
+Nehir gayet gÃ¼zel duruyor, ama yÃ¼zmek iÃ§in Ã§ok soÄŸuk.
 ~
 S
 #1519
-Küçük Bir Kulübe~
-Bu tam bir harabe!  Kerpiç duvarlar kan lekeriyle dolu. Etrafta yırtık
-elbiseler ve çöpler var, köşedeki bir iskelet de gözünden kaçmıyor.
+KÃ¼Ã§Ã¼k Bir KulÃ¼be~
+Bu tam bir harabe!  KerpiÃ§ duvarlar kan lekeriyle dolu. Etrafta yÄ±rtÄ±k
+elbiseler ve Ã§Ã¶pler var, kÃ¶ÅŸedeki bir iskelet de gÃ¶zÃ¼nden kaÃ§mÄ±yor.
 ~
 0 D 0
 D1
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1518
 E
 iskelet~
-Hala üstünde biraz et var ve bir insana ait gibi gözüküyor.Kafatası açık
-ama o kadar zarar görmemiş galiba ilk bulan sensin.
+Hala Ã¼stÃ¼nde biraz et var ve bir insana ait gibi gÃ¶zÃ¼kÃ¼yor.KafatasÄ± aÃ§Ä±k
+ama o kadar zarar gÃ¶rmemiÅŸ galiba ilk bulan sensin.
 ~
 S
 #1520
-Nehrin Üstünde~
-Nehir buz gibi, heralde derinlerinde daha fazla canlı vardır. Akıntı batıya
-devam ediyor güneyde de bir arazi var.
+Nehrin ÃœstÃ¼nde~
+Nehir buz gibi, heralde derinlerinde daha fazla canlÄ± vardÄ±r. AkÄ±ntÄ± batÄ±ya
+devam ediyor gÃ¼neyde de bir arazi var.
 ~
 0 0 7
 D0
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1517
 D2
-Yeşil bir arazi görüyorsun.
+YeÅŸil bir arazi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1522
 D3
-Küçük bir nehir görüyorsun.
+KÃ¼Ã§Ã¼k bir nehir gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1521
 S
 #1521
-Nehrin Üstünde~
-akıntı doğudan geliyor, ama bir engel yüzünden ilerleyemiyorsun.
+Nehrin ÃœstÃ¼nde~
+akÄ±ntÄ± doÄŸudan geliyor, ama bir engel yÃ¼zÃ¼nden ilerleyemiyorsun.
 ~
 0 0 7
 D0
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1518
 D1
-Küçük bir nehir görüyorsun.
+KÃ¼Ã§Ã¼k bir nehir gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1520
 S
 #1522
-Farelerin Hayalleri Tarlası~
-Uzun yeşil çimlere sahip güzel bir arazi.  Ayağının etrafında birşey
-dolaşıyor bunu hissediyorsun. Doğuda bir mağara var.
+Farelerin Hayalleri TarlasÄ±~
+Uzun yeÅŸil Ã§imlere sahip gÃ¼zel bir arazi.  AyaÄŸÄ±nÄ±n etrafÄ±nda birÅŸey
+dolaÅŸÄ±yor bunu hissediyorsun. DoÄŸuda bir maÄŸara var.
 ~
 0 0 2
 D0
-Küçük bir nehir görüyorsun.
+KÃ¼Ã§Ã¼k bir nehir gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1520
 D1
-Karanlık ve gizemli bir mağara görüyorsun.
+KaranlÄ±k ve gizemli bir maÄŸara gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1523
 S
 #1523
-Karanlık Mağara~
-Karanlık yayılan ışığı emiyor. Burası ürkütücü, gözlerini zorlayıp ileri
-bakıyorsun, sanki birşey hareket ediyor.
+KaranlÄ±k MaÄŸara~
+KaranlÄ±k yayÄ±lan Ä±ÅŸÄ±ÄŸÄ± emiyor. BurasÄ± Ã¼rkÃ¼tÃ¼cÃ¼, gÃ¶zlerini zorlayÄ±p ileri
+bakÄ±yorsun, sanki birÅŸey hareket ediyor.
 ~
 0 A 3
 D0
@@ -888,15 +888,15 @@ D0
 ~
 0 -1 1524
 D3
-Yeşil bir arazi görüyorsun.
+YeÅŸil bir arazi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1522
 S
 #1524
 Darker Cave~
-Mağara karardıkça korkun artıyor. Yaşamın için endişe duyuyorsun sanki
-gölgeler hareket ediyor.
+MaÄŸara karardÄ±kÃ§a korkun artÄ±yor. YaÅŸamÄ±n iÃ§in endiÅŸe duyuyorsun sanki
+gÃ¶lgeler hareket ediyor.
 ~
 0 A 3
 D2
@@ -906,206 +906,206 @@ D2
 S
 #1526
 Tozlu Patika~
-Bir çok yöne giden güzel bir yoldasın. Kuzeyde büyük bir ev doğuda ise
-kışla var.
+Bir Ã§ok yÃ¶ne giden gÃ¼zel bir yoldasÄ±n. Kuzeyde bÃ¼yÃ¼k bir ev doÄŸuda ise
+kÄ±ÅŸla var.
 ~
 0 C 1
 D0
-Büyük beyaz bir ev görüyorsun.
+BÃ¼yÃ¼k beyaz bir ev gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1558
 D2
-Bir yol görüyorsun.
+Bir yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1506
 D3
-Büyük bir kışlanın girişini görüyorsun.
+BÃ¼yÃ¼k bir kÄ±ÅŸlanÄ±n giriÅŸini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1527
 E
-kışla~
-Bu kışla gnomların köyü savunmada kullandığı kale.
+kÄ±ÅŸla~
+Bu kÄ±ÅŸla gnomlarÄ±n kÃ¶yÃ¼ savunmada kullandÄ±ÄŸÄ± kale.
 ~
 S
 #1527
-Demir Kapılar~
-Gnom kışlasının girişindesin. İyi güçlendirilmiş ve savunmaya elverişli
+Demir KapÄ±lar~
+Gnom kÄ±ÅŸlasÄ±nÄ±n giriÅŸindesin. Ä°yi gÃ¼Ã§lendirilmiÅŸ ve savunmaya elveriÅŸli
 bir yer.
 ~
 0 0 1
 D1
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1526
 D3
-Uzun bir koridor görüyorsun.
+Uzun bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1528
 S
 #1528
 Uzun Bir Koridor~
-Artık kışlanın içindesin; Muhafızlar seni öldürmediği için şanslısın. Etrafı
-taradıkça buranun iyi temizlenmiş bir yer olduğunu farkediyorsun. Güneyde
-depo odası kuzeyde muhafız odası var.
+ArtÄ±k kÄ±ÅŸlanÄ±n iÃ§indesin; MuhafÄ±zlar seni Ã¶ldÃ¼rmediÄŸi iÃ§in ÅŸanslÄ±sÄ±n. EtrafÄ±
+taradÄ±kÃ§a buranun iyi temizlenmiÅŸ bir yer olduÄŸunu farkediyorsun. GÃ¼neyde
+depo odasÄ± kuzeyde muhafÄ±z odasÄ± var.
 ~
 0 D 0
 D0
-Muhafız odasını görüyorsun.
+MuhafÄ±z odasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1530
 D1
-Girişi görüyorsun.
+GiriÅŸi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1527
 D2
-Depo odasını görüyorsun.
+Depo odasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1532
 D3
-Uzun bir koridor görüyorsun.
+Uzun bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1529
 S
 #1529
 Uzun Bir Koridor~
-Artık kışlanın içindesin, Muhafızlar seni öldürmediği için şanslısın. Etrafı
-taradıkça buranun iyi temizlenmiş bir yer olduğunu farkediyorsun. Güneyde bir
+ArtÄ±k kÄ±ÅŸlanÄ±n iÃ§indesin, MuhafÄ±zlar seni Ã¶ldÃ¼rmediÄŸi iÃ§in ÅŸanslÄ±sÄ±n. EtrafÄ±
+taradÄ±kÃ§a buranun iyi temizlenmiÅŸ bir yer olduÄŸunu farkediyorsun. GÃ¼neyde bir
 hol var.
 ~
 0 D 0
 D1
-Uzun bir koridor görüyorsun.
+Uzun bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1528
 D2
-Bir hol görüyorsun.
+Bir hol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1534
 D3
-Küçük bir oda görüyorsun.
+KÃ¼Ã§Ã¼k bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1535
 S
 #1530
-Muhafız Odası~
-Gnom muhafızlarının odasındasın. Bütün yataklar düzgün ve mükemmel.
-Yerde bir elbise bile yok herşey çok düzenli. Doğuda küçük bir
-depo odası var.
+MuhafÄ±z OdasÄ±~
+Gnom muhafÄ±zlarÄ±nÄ±n odasÄ±ndasÄ±n. BÃ¼tÃ¼n yataklar dÃ¼zgÃ¼n ve mÃ¼kemmel.
+Yerde bir elbise bile yok herÅŸey Ã§ok dÃ¼zenli. DoÄŸuda kÃ¼Ã§Ã¼k bir
+depo odasÄ± var.
 ~
 0 D 0
 D1
-Küçük bir depo odası görüyorsun.
+KÃ¼Ã§Ã¼k bir depo odasÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1531
 D2
-Uzun bir koridor görüyorsun.
+Uzun bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1528
 S
 #1531
-Küçük Bir Depo Odası~
-Burası gnomların elbise ve zırhlarını sakladığı yer. Fazla birşey yok
-ama sen de bir şeyler getirebilirdin.
+KÃ¼Ã§Ã¼k Bir Depo OdasÄ±~
+BurasÄ± gnomlarÄ±n elbise ve zÄ±rhlarÄ±nÄ± sakladÄ±ÄŸÄ± yer. Fazla birÅŸey yok
+ama sen de bir ÅŸeyler getirebilirdin.
 ~
 0 D 0
 D3
-Muhafız odasını görüyorsun.
+MuhafÄ±z odasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1530
 S
 #1532
-Küçük Bir Depo Odası~
-Burası gnomların silahlarını sakladığı yer. Doğuda bir kapı var.
+KÃ¼Ã§Ã¼k Bir Depo OdasÄ±~
+BurasÄ± gnomlarÄ±n silahlarÄ±nÄ± sakladÄ±ÄŸÄ± yer. DoÄŸuda bir kapÄ± var.
 ~
 0 D 0
 D0
-Uzun bir koridor görüyorsun.
+Uzun bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1528
 D1
-Küçük bir oda görüyorsun.
+KÃ¼Ã§Ã¼k bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1533
 S
 #1533
-Küçük Bir Depo Odası~
-Gnom eşyalarının depolandığı başka bir oda. Raflarda haritalar ve
-savaş planları var.
+KÃ¼Ã§Ã¼k Bir Depo OdasÄ±~
+Gnom eÅŸyalarÄ±nÄ±n depolandÄ±ÄŸÄ± baÅŸka bir oda. Raflarda haritalar ve
+savaÅŸ planlarÄ± var.
 ~
 0 D 0
 D3
-Küçük bir oda görüyorsun.
+KÃ¼Ã§Ã¼k bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1532
 S
 #1534
 Hol~
-Muhafızların yemek odasındasın. Tabureler ve masalar düzen içinde,
-parlak tabaklar etrafı aydınlatıyor.
+MuhafÄ±zlarÄ±n yemek odasÄ±ndasÄ±n. Tabureler ve masalar dÃ¼zen iÃ§inde,
+parlak tabaklar etrafÄ± aydÄ±nlatÄ±yor.
 ~
 0 D 0
 D0
-Uzun bir koridor görüyorsun.
+Uzun bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1529
 S
 #1535
-Küçük Bir Oda~
-Küçük ve sade bir oda. Tek ilginç yanı aşağı inen merdivenler.
+KÃ¼Ã§Ã¼k Bir Oda~
+KÃ¼Ã§Ã¼k ve sade bir oda. Tek ilginÃ§ yanÄ± aÅŸaÄŸÄ± inen merdivenler.
 ~
 0 D 0
 D1
-Uzun bir koridor görüyorsun.
+Uzun bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1529
 D5
-Karanlıktan birşey gözükmüyor.
+KaranlÄ±ktan birÅŸey gÃ¶zÃ¼kmÃ¼yor.
 ~
 ~
 0 -1 1536
 S
 #1536
-Az Kullanılan Küçük Oda~
-Kışlanın kullanılmayan bölümünde kalan bir odadasın. Bütün oda örümcek
-ağları ve tozla kaplanmış. Geldiğin merdiven arkanda doğuda bir kapı var.
+Az KullanÄ±lan KÃ¼Ã§Ã¼k Oda~
+KÄ±ÅŸlanÄ±n kullanÄ±lmayan bÃ¶lÃ¼mÃ¼nde kalan bir odadasÄ±n. BÃ¼tÃ¼n oda Ã¶rÃ¼mcek
+aÄŸlarÄ± ve tozla kaplanmÄ±ÅŸ. GeldiÄŸin merdiven arkanda doÄŸuda bir kapÄ± var.
 ~
 0 AD 1
 D1
-Paslı bir kapı görüyorsun.
+PaslÄ± bir kapÄ± gÃ¶rÃ¼yorsun.
 ~
-paslı kapı~
+paslÄ± kapÄ±~
 1 1500 1537
 D4
-Küçük bir oda görüyorsun
+KÃ¼Ã§Ã¼k bir oda gÃ¶rÃ¼yorsun
 ~
 ~
 0 -1 1535
 S
 #1537
-Karanlık Koridor~
-Kendini kışlanın çok eski bir bölümünde buluyorsun.  Heralde uzun yıllar
-boyunca buradan geen ilk kişisin. Koridor güneye devam ediyor doğuda bir
-kapı var.
+KaranlÄ±k Koridor~
+Kendini kÄ±ÅŸlanÄ±n Ã§ok eski bir bÃ¶lÃ¼mÃ¼nde buluyorsun.  Heralde uzun yÄ±llar
+boyunca buradan geen ilk kiÅŸisin. Koridor gÃ¼neye devam ediyor doÄŸuda bir
+kapÄ± var.
 ~
 0 AD 2
 D1
@@ -1117,15 +1117,15 @@ D2
 ~
 0 -1 1539
 D3
-Paslı bir kapı görüyorsun.
+PaslÄ± bir kapÄ± gÃ¶rÃ¼yorsun.
 ~
-kapı~
+kapÄ±~
 1 1500 1536
 S
 #1538
-İşkence Odası~
-Çaresiz kurbanları konuşturmak için kullanılmış bir oda. Makineler eski
-gözüküyor ama hala kullanılabilir durumda.
+Ä°ÅŸkence OdasÄ±~
+Ã‡aresiz kurbanlarÄ± konuÅŸturmak iÃ§in kullanÄ±lmÄ±ÅŸ bir oda. Makineler eski
+gÃ¶zÃ¼kÃ¼yor ama hala kullanÄ±labilir durumda.
 ~
 0 AD 2
 D3
@@ -1134,14 +1134,14 @@ D3
 0 -1 1537
 E
 makine~
-makine kolları ve ayakları kenetliyor ve çalıştıkça acı veriyor. Onun
-kollarını koparırcasına çektiğini hayal edebiliyorsun.
+makine kollarÄ± ve ayaklarÄ± kenetliyor ve Ã§alÄ±ÅŸtÄ±kÃ§a acÄ± veriyor. Onun
+kollarÄ±nÄ± koparÄ±rcasÄ±na Ã§ektiÄŸini hayal edebiliyorsun.
 ~
 S
 #1539
-Karanlık Koridor~
-Koridor kuzeye ve güneye devam ediyor. Yer iğrenç bir balçıkla kaplanmış.
-Doğuda ve batıda kapı var.
+KaranlÄ±k Koridor~
+Koridor kuzeye ve gÃ¼neye devam ediyor. Yer iÄŸrenÃ§ bir balÃ§Ä±kla kaplanmÄ±ÅŸ.
+DoÄŸuda ve batÄ±da kapÄ± var.
 ~
 0 AD 2
 D0
@@ -1162,9 +1162,9 @@ D3
 0 -1 1541
 S
 #1540
-Karanlık Koridor~
-Koridor kuzeye ve güneye devam ediyor. Yer iğrenç bir balçıkla kaplanmış.
-Doğuda ve batıda kapı var.
+KaranlÄ±k Koridor~
+Koridor kuzeye ve gÃ¼neye devam ediyor. Yer iÄŸrenÃ§ bir balÃ§Ä±kla kaplanmÄ±ÅŸ.
+DoÄŸuda ve batÄ±da kapÄ± var.
 ~
 0 AD 2
 D0
@@ -1185,9 +1185,9 @@ D3
 0 -1 1545
 S
 #1541
-Cezaevi Hücresi~
-Karanlık ve tiksindirici bir hücredesin. Yerde cesetler var. Kokudan
-nefes alamıyorsun.
+Cezaevi HÃ¼cresi~
+KaranlÄ±k ve tiksindirici bir hÃ¼credesin. Yerde cesetler var. Kokudan
+nefes alamÄ±yorsun.
 ~
 0 AD 2
 D1
@@ -1196,9 +1196,9 @@ D1
 0 -1 1539
 S
 #1542
-Cezaevi Hücresi~
-Karanlık ve tiksindirici bir hücredesin. Yerde cesetler var. Kokudan
-nefes alamıyorsun.
+Cezaevi HÃ¼cresi~
+KaranlÄ±k ve tiksindirici bir hÃ¼credesin. Yerde cesetler var. Kokudan
+nefes alamÄ±yorsun.
 ~
 0 AD 2
 D3
@@ -1207,9 +1207,9 @@ D3
 0 -1 1539
 S
 #1543
-Cezaevi Hücresi~
-Karanlık ve tiksindirici bir hücredesin. Yerde cesetler var. Kokudan
-nefes alamıyorsun.
+Cezaevi HÃ¼cresi~
+KaranlÄ±k ve tiksindirici bir hÃ¼credesin. Yerde cesetler var. Kokudan
+nefes alamÄ±yorsun.
 ~
 0 AD 2
 D0
@@ -1218,9 +1218,9 @@ D0
 0 -1 1540
 S
 #1544
-Cezaevi Hücresi~
-Karanlık ve tiksindirici bir hücredesin. Yerde cesetler var. Kokudan
-nefes alamıyorsun.
+Cezaevi HÃ¼cresi~
+KaranlÄ±k ve tiksindirici bir hÃ¼credesin. Yerde cesetler var. Kokudan
+nefes alamÄ±yorsun.
 ~
 0 AD 2
 D3
@@ -1229,9 +1229,9 @@ D3
 0 -1 1540
 S
 #1545
-Karanlık Koridorun Sonu~
-Karanlık koridorun ve belkide zavallı hayatının sonuna ulaştın. Gölgelerde
-bir gariplik var sanki canlılar.
+KaranlÄ±k Koridorun Sonu~
+KaranlÄ±k koridorun ve belkide zavallÄ± hayatÄ±nÄ±n sonuna ulaÅŸtÄ±n. GÃ¶lgelerde
+bir gariplik var sanki canlÄ±lar.
 ~
 0 AD 2
 D1
@@ -1239,20 +1239,20 @@ D1
 ~
 0 -1 1540
 D3
-Çürük bir kapı görüyorsun.
+Ã‡Ã¼rÃ¼k bir kapÄ± gÃ¶rÃ¼yorsun.
 ~
-kapı~
+kapÄ±~
 1 1501 1546
 S
 #1546
 Merdiven~
-Bir merdivenle dikey bir tünele girin.
+Bir merdivenle dikey bir tÃ¼nele girin.
 ~
 0 AD 3
 D1
-Çürük bir kapı görüyorsun.
+Ã‡Ã¼rÃ¼k bir kapÄ± gÃ¶rÃ¼yorsun.
 ~
-kapı~
+kapÄ±~
 1 1501 1545
 D5
 ~
@@ -1260,8 +1260,8 @@ D5
 0 -1 1547
 S
 #1547
-Barınak~
-Kışlada yeni bir barınağa girdin. Köşede herhangi birşey saklanıyor
+BarÄ±nak~
+KÄ±ÅŸlada yeni bir barÄ±naÄŸa girdin. KÃ¶ÅŸede herhangi birÅŸey saklanÄ±yor
 olabilir.
 ~
 0 AD 2
@@ -1276,8 +1276,8 @@ D4
 S
 #1548
 Nemli Koridor~
-Geniş, karanlık ve nemli bir koridor. Sıcaklık gittikçe artıyor.
-Korkmaya başlasan iyi olur.
+GeniÅŸ, karanlÄ±k ve nemli bir koridor. SÄ±caklÄ±k gittikÃ§e artÄ±yor.
+Korkmaya baÅŸlasan iyi olur.
 ~
 0 ADN 2
 D0
@@ -1295,8 +1295,8 @@ D3
 S
 #1549
 Nemli Koridor~
-Geniş, karanlık ve nemli bir koridor. Sıcaklık gittikçe artıyor.
-Korkmaya başlasan iyi olur.
+GeniÅŸ, karanlÄ±k ve nemli bir koridor. SÄ±caklÄ±k gittikÃ§e artÄ±yor.
+Korkmaya baÅŸlasan iyi olur.
 ~
 0 ADN 2
 D2
@@ -1310,8 +1310,8 @@ D3
 S
 #1550
 Nemli Koridor~
-Geniş, karanlık ve nemli bir koridor. Sıcaklık gittikçe artıyor.
-Korkmaya başlasan iyi olur.
+GeniÅŸ, karanlÄ±k ve nemli bir koridor. SÄ±caklÄ±k gittikÃ§e artÄ±yor.
+Korkmaya baÅŸlasan iyi olur.
 ~
 0 ADN 2
 D0
@@ -1325,8 +1325,8 @@ D2
 S
 #1551
 Nemli Koridor~
-Geniş, karanlık ve nemli bir koridor. Sıcaklık gittikçe artıyor.
-Korkmaya başlasan iyi olur.
+GeniÅŸ, karanlÄ±k ve nemli bir koridor. SÄ±caklÄ±k gittikÃ§e artÄ±yor.
+Korkmaya baÅŸlasan iyi olur.
 ~
 0 ADN 2
 D1
@@ -1340,8 +1340,8 @@ D2
 S
 #1552
 Nemli Koridor~
-Geniş, karanlık ve nemli bir koridor. Sıcaklık gittikçe artıyor.
-Korkmaya başlasan iyi olur.
+GeniÅŸ, karanlÄ±k ve nemli bir koridor. SÄ±caklÄ±k gittikÃ§e artÄ±yor.
+Korkmaya baÅŸlasan iyi olur.
 ~
 0 ADN 2
 D0
@@ -1355,8 +1355,8 @@ D2
 S
 #1553
 Nemli Koridor~
-Geniş, karanlık ve nemli bir koridor. Sıcaklık gittikçe artıyor.
-Korkmaya başlasan iyi olur.
+GeniÅŸ, karanlÄ±k ve nemli bir koridor. SÄ±caklÄ±k gittikÃ§e artÄ±yor.
+Korkmaya baÅŸlasan iyi olur.
 ~
 0 ADN 2
 D0
@@ -1370,8 +1370,8 @@ D1
 S
 #1554
 Nemli Koridor~
-Geniş, karanlık ve nemli bir koridor. Sıcaklık gittikçe artıyor.
-Korkmaya başlasan iyi olur.
+GeniÅŸ, karanlÄ±k ve nemli bir koridor. SÄ±caklÄ±k gittikÃ§e artÄ±yor.
+Korkmaya baÅŸlasan iyi olur.
 ~
 0 ADN 2
 D0
@@ -1389,8 +1389,8 @@ D3
 S
 #1555
 Nemli Koridor~
-Geniş, karanlık ve nemli bir koridor. Sıcaklık gittikçe artıyor.
-Korkmaya başlasan iyi olur.
+GeniÅŸ, karanlÄ±k ve nemli bir koridor. SÄ±caklÄ±k gittikÃ§e artÄ±yor.
+Korkmaya baÅŸlasan iyi olur.
 ~
 0 ADN 2
 D0
@@ -1404,8 +1404,8 @@ D3
 S
 #1556
 Koridorun sonu~
-Kendini daha fazla tehlikede hissetmek için koridordan çıktın.
-Odaya senden önce bir sıcaklık yayılıyor.
+Kendini daha fazla tehlikede hissetmek iÃ§in koridordan Ã§Ä±ktÄ±n.
+Odaya senden Ã¶nce bir sÄ±caklÄ±k yayÄ±lÄ±yor.
 ~
 0 ADN 2
 D1
@@ -1419,8 +1419,8 @@ D2
 S
 #1557
 Minber~
-Sonunda labirentten kurtuldun. Yarasa şeklinde muhteşem bir minber
-burada. Doğuya doğru bir geçiş var.
+Sonunda labirentten kurtuldun. Yarasa ÅŸeklinde muhteÅŸem bir minber
+burada. DoÄŸuya doÄŸru bir geÃ§iÅŸ var.
 ~
 0 ADN 2
 D3
@@ -1430,555 +1430,555 @@ D3
 S
 #1558
 Liderin Evi~
-Büyük ve lüks bir eve giriyorsun. Yerler halılarla duvarlarda tablolarla
-kaplanmış. Daha adım attığında kendini ayrıcalıklı hissetmeye başladın.
+BÃ¼yÃ¼k ve lÃ¼ks bir eve giriyorsun. Yerler halÄ±larla duvarlarda tablolarla
+kaplanmÄ±ÅŸ. Daha adÄ±m attÄ±ÄŸÄ±nda kendini ayrÄ±calÄ±klÄ± hissetmeye baÅŸladÄ±n.
 ~
 0 D 0
 D2
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1526
 S
 #1559
-Kullanılmayan Patika~
-Kasabanın doğusunda uzun zamandır kullanılmadığı belli bir yoldasın.
-Bu yolun neden kullanılmadığını ve yolun sonunda ne olduğunu düşünüyorsun.
+KullanÄ±lmayan Patika~
+KasabanÄ±n doÄŸusunda uzun zamandÄ±r kullanÄ±lmadÄ±ÄŸÄ± belli bir yoldasÄ±n.
+Bu yolun neden kullanÄ±lmadÄ±ÄŸÄ±nÄ± ve yolun sonunda ne olduÄŸunu dÃ¼ÅŸÃ¼nÃ¼yorsun.
 ~
 0 C 1
 D1
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1560
 D3
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1504
 S
 #1560
-Yüksek Çimli Patika~
-Patika devam ettikçe çimlerin boyu daha da yükseliyor. Bu yolun neden
-kullanılmadığını ve yolun sonunda ne olduğunu düşünüyorsun.
+YÃ¼ksek Ã‡imli Patika~
+Patika devam ettikÃ§e Ã§imlerin boyu daha da yÃ¼kseliyor. Bu yolun neden
+kullanÄ±lmadÄ±ÄŸÄ±nÄ± ve yolun sonunda ne olduÄŸunu dÃ¼ÅŸÃ¼nÃ¼yorsun.
 ~
 0 0 2
 D1
-Bir meydan görüyorsun.
+Bir meydan gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1561
 D3
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1559
 S
 #1561
 Meydan~
-çevredeki dağlar birden ilerleyişini durduruyor. Patika batıya devam
-ediyor ama kuzeyde de bir maden olduğunu farkediyorsun.
+Ã§evredeki daÄŸlar birden ilerleyiÅŸini durduruyor. Patika batÄ±ya devam
+ediyor ama kuzeyde de bir maden olduÄŸunu farkediyorsun.
 ~
 0 0 2
 D0
-Bir maden görüyorsun.
+Bir maden gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1562
 D3
-Bir patika görüyorsun.
+Bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1560
 S
 #1562
-Madenlere Giriş~
-Madene girdiğin anda, sanki duvarların üstüne kapandığını zannedip
-korkuyorsun. Birden ışık kullanmaya gerek olmadığını görüp şaşırıyorsun.
+Madenlere GiriÅŸ~
+Madene girdiÄŸin anda, sanki duvarlarÄ±n Ã¼stÃ¼ne kapandÄ±ÄŸÄ±nÄ± zannedip
+korkuyorsun. Birden Ä±ÅŸÄ±k kullanmaya gerek olmadÄ±ÄŸÄ±nÄ± gÃ¶rÃ¼p ÅŸaÅŸÄ±rÄ±yorsun.
 ~
 0 D 2
 D1
-Bir maden görüyorsun.
+Bir maden gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1563
 D2
-Bir meydan görüyorsun.
+Bir meydan gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1561
 S
 #1563
 Madenler~
-Maden mili en azından burada sağlam gözüküyor. Odun destekler
-kalın ve sağlam. Duvarda meşaleler dizili, her yöne çıkış var.
+Maden mili en azÄ±ndan burada saÄŸlam gÃ¶zÃ¼kÃ¼yor. Odun destekler
+kalÄ±n ve saÄŸlam. Duvarda meÅŸaleler dizili, her yÃ¶ne Ã§Ä±kÄ±ÅŸ var.
 ~
 0 D 2
 D0
-Bir maden görüyorsun.
+Bir maden gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1582
 D1
-Bir maden görüyorsun.
+Bir maden gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1564
 D2
-Bir maden görüyorsun.
+Bir maden gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1574
 D3
-Girişi görüyorsun.
+GiriÅŸi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1562
 S
 #1564
 Madenler~
-Maden mili en azından burada sağlam gözüküyor. Odun destekler
-kalın ve sağlam. Duvarda meşaleler dizili, her yöne çıkış var.
+Maden mili en azÄ±ndan burada saÄŸlam gÃ¶zÃ¼kÃ¼yor. Odun destekler
+kalÄ±n ve saÄŸlam. Duvarda meÅŸaleler dizili, her yÃ¶ne Ã§Ä±kÄ±ÅŸ var.
 ~
 0 D 2
 D0
-Büyük bir oda görüyorsun.
+BÃ¼yÃ¼k bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1583
 D1
-Madeni görüyorsun.
+Madeni gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1565
 D2
-Büyük bir oda görüyorsun.
+BÃ¼yÃ¼k bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1573
 D3
-Madeni görüyorsun.
+Madeni gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1563
 S
 #1565
 Madenler~
-Maden mili en azından burada sağlam gözüküyor. Odun destekler
-kalın ve sağlam. Duvarda meşaleler dizili, kuzey dışında her
-yöne çıkış var.
+Maden mili en azÄ±ndan burada saÄŸlam gÃ¶zÃ¼kÃ¼yor. Odun destekler
+kalÄ±n ve saÄŸlam. Duvarda meÅŸaleler dizili, kuzey dÄ±ÅŸÄ±nda her
+yÃ¶ne Ã§Ä±kÄ±ÅŸ var.
 ~
 0 D 2
 D1
-Geçidi görüyorsun.
+GeÃ§idi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1566
 D2
-Büyük bir oda görüyorsun.
+BÃ¼yÃ¼k bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1572
 D3
-Madeni görüyorsun.
+Madeni gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1564
 S
 #1566
-Geçit~
-Dağın içinde çok güzel yapılmış bir yoldasın. Burayı yapmak için mükemmel
-bir çalışma gösterilmiş olduğunu farkediyorsun.
+GeÃ§it~
+DaÄŸÄ±n iÃ§inde Ã§ok gÃ¼zel yapÄ±lmÄ±ÅŸ bir yoldasÄ±n. BurayÄ± yapmak iÃ§in mÃ¼kemmel
+bir Ã§alÄ±ÅŸma gÃ¶sterilmiÅŸ olduÄŸunu farkediyorsun.
 ~
 0 D 1
 D2
-Geçidi görüyorsun.
+GeÃ§idi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1567
 D3
-Madeni görüyorsun.
+Madeni gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1565
 S
 #1567
-Geçit~
-Dağın içinde çok güzel yapılmış bir yoldasın. Burayı yapmak için mükemmel
-bir çalışma gösterilmiş olduğunu farkediyorsun.
+GeÃ§it~
+DaÄŸÄ±n iÃ§inde Ã§ok gÃ¼zel yapÄ±lmÄ±ÅŸ bir yoldasÄ±n. BurayÄ± yapmak iÃ§in mÃ¼kemmel
+bir Ã§alÄ±ÅŸma gÃ¶sterilmiÅŸ olduÄŸunu farkediyorsun.
 ~
 0 D 1
 D0
-Geçidi görüyorsun.
+GeÃ§idi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1566
 D2
-Geniş bir koridor görüyorsun.
+GeniÅŸ bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1568
 S
 #1568
-Büyük Hol~
-Hobgoblin krallığının büyük holünde durdun; anlaşılan şansın pek yaver
-gitmiyor. Altın sütunlar salonu kaplıyor ve ayağının altına kırmızı bir
-halı uzanmış olduğunu farkediyorsun.
+BÃ¼yÃ¼k Hol~
+Hobgoblin krallÄ±ÄŸÄ±nÄ±n bÃ¼yÃ¼k holÃ¼nde durdun; anlaÅŸÄ±lan ÅŸansÄ±n pek yaver
+gitmiyor. AltÄ±n sÃ¼tunlar salonu kaplÄ±yor ve ayaÄŸÄ±nÄ±n altÄ±na kÄ±rmÄ±zÄ± bir
+halÄ± uzanmÄ±ÅŸ olduÄŸunu farkediyorsun.
 ~
 0 D 0
 D0
-Geçidi görüyorsun.
+GeÃ§idi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1567
 D2
-Büyük bir oda görüyorsun.
+BÃ¼yÃ¼k bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1569
 S
 #1569
-Taht Odası~
-Hobgoblinlerle dolu büyük ve parlak bir oda. Güneyde duvarın
-yanında altından yapılmış geniş bir taht var.
+Taht OdasÄ±~
+Hobgoblinlerle dolu bÃ¼yÃ¼k ve parlak bir oda. GÃ¼neyde duvarÄ±n
+yanÄ±nda altÄ±ndan yapÄ±lmÄ±ÅŸ geniÅŸ bir taht var.
 ~
 0 D 0
 D0
-Geniş bir koridor görüyorsun.
+GeniÅŸ bir koridor gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1568
 S
 #1570
-Hazine Odası~
-Hobgoblinlerin hazine odasındasın. Altın, gümüş ve bronz sikkelerden
-parlayan ışık gözlerini kör ediyor.
+Hazine OdasÄ±~
+Hobgoblinlerin hazine odasÄ±ndasÄ±n. AltÄ±n, gÃ¼mÃ¼ÅŸ ve bronz sikkelerden
+parlayan Ä±ÅŸÄ±k gÃ¶zlerini kÃ¶r ediyor.
 ~
 0 D 0
 D0
-Büyük bir oda görüyorsun.
+BÃ¼yÃ¼k bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1571
 S
 #1571
 Korunan Oda~
-İyi korunan bir odadasın. Madenlerden daha sağlam yapılmış ve etraf
-fenerlerle aydınlatılmış.
+Ä°yi korunan bir odadasÄ±n. Madenlerden daha saÄŸlam yapÄ±lmÄ±ÅŸ ve etraf
+fenerlerle aydÄ±nlatÄ±lmÄ±ÅŸ.
 ~
 0 D 1
 D0
-Büyük bir oda görüyorsun.
+BÃ¼yÃ¼k bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1572
 D2
-Büyük bir oda görüyorsun.
+BÃ¼yÃ¼k bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1570
 S
 #1572
 Korunan Oda~
-İyi korunan bir odadasın. Madenlerden daha sağlam yapılmış ve etraf
-fenerlerle aydınlatılmış.
+Ä°yi korunan bir odadasÄ±n. Madenlerden daha saÄŸlam yapÄ±lmÄ±ÅŸ ve etraf
+fenerlerle aydÄ±nlatÄ±lmÄ±ÅŸ.
 ~
 0 D 1
 D0
-Büyük bir oda görüyorsun.
+BÃ¼yÃ¼k bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1565
 D2
-Büyük bir oda görüyorsun.
+BÃ¼yÃ¼k bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1571
 S
 #1573
-Hobgoblin Cephaneliği~
-Muhafızlar silahlarını ve zırhlarını burada tutuyor. Tavandaki kancalarda
-asılı duran paslı kılıçlar çürümüş kalkanlar var.
+Hobgoblin CephaneliÄŸi~
+MuhafÄ±zlar silahlarÄ±nÄ± ve zÄ±rhlarÄ±nÄ± burada tutuyor. Tavandaki kancalarda
+asÄ±lÄ± duran paslÄ± kÄ±lÄ±Ã§lar Ã§Ã¼rÃ¼mÃ¼ÅŸ kalkanlar var.
 ~
 0 D 1
 D0
-Madeni görüyorsun.
+Madeni gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1564
 S
 #1574
 Madenler~
-Meşalelerin sönmeye yüz tuttuğu bir maden bölümündesin. Görebildiklerin
-sadece örümcek ağları ve ayağının etrafında dolaşan sıçanlar.
+MeÅŸalelerin sÃ¶nmeye yÃ¼z tuttuÄŸu bir maden bÃ¶lÃ¼mÃ¼ndesin. GÃ¶rebildiklerin
+sadece Ã¶rÃ¼mcek aÄŸlarÄ± ve ayaÄŸÄ±nÄ±n etrafÄ±nda dolaÅŸan sÄ±Ã§anlar.
 ~
 0 D 2
 D0
-Madeni görüyorsun.
+Madeni gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1563
 D2
-Karanlık ve tiksindirici bir oda görüyorsun.
+KaranlÄ±k ve tiksindirici bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1575
 S
 #1575
-Zindanlara Giriş~
-İlerledikçe karanlık ve tiksindirici bir yere giriyorsun. Duvarlara baktıkça
-tüylerin ürperiyor. Çıkışların çoğu hücrelere giriyor.
+Zindanlara GiriÅŸ~
+Ä°lerledikÃ§e karanlÄ±k ve tiksindirici bir yere giriyorsun. Duvarlara baktÄ±kÃ§a
+tÃ¼ylerin Ã¼rperiyor. Ã‡Ä±kÄ±ÅŸlarÄ±n Ã§oÄŸu hÃ¼crelere giriyor.
 ~
 0 D 2
 D0
-Madeni görüyorsun.
+Madeni gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1574
 D1
-Bir hücre görüyorsun.
+Bir hÃ¼cre gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1577
 D2
-Karanlık ve tiksindirici bir oda görüyorsun.
+KaranlÄ±k ve tiksindirici bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1576
 D3
-Bir hücre görüyorsun.
+Bir hÃ¼cre gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1581
 S
 #1576
 Zindanlar~
-Madenlerin en derin ve karanlık yerindesin.Meşalelerden gelen ışıklar
-ancak olduğun yeri aydınlatıyor. Çıkışların çoğu hücrelere giriyor.
+Madenlerin en derin ve karanlÄ±k yerindesin.MeÅŸalelerden gelen Ä±ÅŸÄ±klar
+ancak olduÄŸun yeri aydÄ±nlatÄ±yor. Ã‡Ä±kÄ±ÅŸlarÄ±n Ã§oÄŸu hÃ¼crelere giriyor.
 ~
 0 D 2
 D0
-Karanlık ve tiksindirici bir oda görüyorsun.
+KaranlÄ±k ve tiksindirici bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1575
 D1
-Bir hücre görüyorsun.
+Bir hÃ¼cre gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1578
 D2
-Bir hücre görüyorsun.
+Bir hÃ¼cre gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1579
 D3
-Bir hücre görüyorsun.
+Bir hÃ¼cre gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1580
 S
 #1577
-Bir Hücre~
-Küflü ve karanlık bir hücredesin. Yer ıslak ve kirli samanlarla kaplanmış.
-Duvarlar balçıktan parlıyor. Samanların içinde bir şeyin dolaştığını
-görüyorsun.
+Bir HÃ¼cre~
+KÃ¼flÃ¼ ve karanlÄ±k bir hÃ¼credesin. Yer Ä±slak ve kirli samanlarla kaplanmÄ±ÅŸ.
+Duvarlar balÃ§Ä±ktan parlÄ±yor. SamanlarÄ±n iÃ§inde bir ÅŸeyin dolaÅŸtÄ±ÄŸÄ±nÄ±
+gÃ¶rÃ¼yorsun.
 ~
 0 D 2
 D3
-Karanlık ve tiksindirici bir oda görüyorsun.
+KaranlÄ±k ve tiksindirici bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1575
 S
 #1578
-Bir Hücre~
-Küflü ve karanlık bir hücredesin. Yer ıslak ve kirli samanlarla kaplanmış.
-Duvarlar balçıktan parlıyor. Samanların içinde bir şeyin dolaştığını
-görüyorsun.
+Bir HÃ¼cre~
+KÃ¼flÃ¼ ve karanlÄ±k bir hÃ¼credesin. Yer Ä±slak ve kirli samanlarla kaplanmÄ±ÅŸ.
+Duvarlar balÃ§Ä±ktan parlÄ±yor. SamanlarÄ±n iÃ§inde bir ÅŸeyin dolaÅŸtÄ±ÄŸÄ±nÄ±
+gÃ¶rÃ¼yorsun.
 ~
 0 D 2
 D3
-Karanlık ve tiksindirici bir oda görüyorsun.
+KaranlÄ±k ve tiksindirici bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1576
 S
 #1579
-Bir Hücre~
-Küflü ve karanlık bir hücredesin. Yer ıslak ve kirli samanlarla kaplanmış.
-Duvarlar balçıktan parlıyor. Samanların içinde bir şeyin dolaştığını
-görüyorsun.
+Bir HÃ¼cre~
+KÃ¼flÃ¼ ve karanlÄ±k bir hÃ¼credesin. Yer Ä±slak ve kirli samanlarla kaplanmÄ±ÅŸ.
+Duvarlar balÃ§Ä±ktan parlÄ±yor. SamanlarÄ±n iÃ§inde bir ÅŸeyin dolaÅŸtÄ±ÄŸÄ±nÄ±
+gÃ¶rÃ¼yorsun.
 ~
 0 D 2
 D0
-Karanlık ve tiksindirici bir oda görüyorsun.
+KaranlÄ±k ve tiksindirici bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1576
 S
 #1580
-Bir Hücre~
-Küflü ve karanlık bir hücredesin. Yer ıslak ve kirli samanlarla kaplanmış.
-Duvarlar balçıktan parlıyor. Samanların içinde bir şeyin dolaştığını
-görüyorsun.
+Bir HÃ¼cre~
+KÃ¼flÃ¼ ve karanlÄ±k bir hÃ¼credesin. Yer Ä±slak ve kirli samanlarla kaplanmÄ±ÅŸ.
+Duvarlar balÃ§Ä±ktan parlÄ±yor. SamanlarÄ±n iÃ§inde bir ÅŸeyin dolaÅŸtÄ±ÄŸÄ±nÄ±
+gÃ¶rÃ¼yorsun.
 ~
 0 D 2
 D1
-Karanlık ve tiksindirici bir oda görüyorsun.
+KaranlÄ±k ve tiksindirici bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1576
 S
 #1581
-Bir Hücre~
-Küflü ve karanlık bir hücredesin. Yer ıslak ve kirli samanlarla kaplanmış.
-Duvarlar balçıktan parlıyor. Samanların içinde bir şeyin dolaştığını
-görüyorsun.
+Bir HÃ¼cre~
+KÃ¼flÃ¼ ve karanlÄ±k bir hÃ¼credesin. Yer Ä±slak ve kirli samanlarla kaplanmÄ±ÅŸ.
+Duvarlar balÃ§Ä±ktan parlÄ±yor. SamanlarÄ±n iÃ§inde bir ÅŸeyin dolaÅŸtÄ±ÄŸÄ±nÄ±
+gÃ¶rÃ¼yorsun.
 ~
 0 D 2
 D1
-Karanlık ve tiksindirici bir oda görüyorsun.
+KaranlÄ±k ve tiksindirici bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1575
 S
 #1582
-Küçük Maden Mili~
-Maden milinin küçük bir uzatmasındasın. Yer tozla kaplı ve seninkilerden
-başka ayak izi yok.
+KÃ¼Ã§Ã¼k Maden Mili~
+Maden milinin kÃ¼Ã§Ã¼k bir uzatmasÄ±ndasÄ±n. Yer tozla kaplÄ± ve seninkilerden
+baÅŸka ayak izi yok.
 ~
 0 D 2
 D0
-Küçük bir maden mili görüyorsun.
+KÃ¼Ã§Ã¼k bir maden mili gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1588
 D2
-Madeni görüyorsun.
+Madeni gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1563
 S
 #1583
-Hobgoblin Muhafız Odası~
-Oda birkaç hobgoblinle korunuyor. Oda çok karışık bir durumda her tarafta
-elbiseler var. Yataklar toplanmamış ve dağınık.
+Hobgoblin MuhafÄ±z OdasÄ±~
+Oda birkaÃ§ hobgoblinle korunuyor. Oda Ã§ok karÄ±ÅŸÄ±k bir durumda her tarafta
+elbiseler var. Yataklar toplanmamÄ±ÅŸ ve daÄŸÄ±nÄ±k.
 ~
 0 D 2
 D0
-Büyük bir oda görüyorsun.
+BÃ¼yÃ¼k bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1584
 D1
-Bir yemekhane görüyorsun.
+Bir yemekhane gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1585
 D2
-Madeni görüyorsun.
+Madeni gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1564
 S
 #1584
-Hobgoblin Muhafız Odası~
-Iyyk! İlerledikçe koku çok kötüleşiyor burda ne işin var bilmiyorsun.
+Hobgoblin MuhafÄ±z OdasÄ±~
+Iyyk! Ä°lerledikÃ§e koku Ã§ok kÃ¶tÃ¼leÅŸiyor burda ne iÅŸin var bilmiyorsun.
 ~
 0 D 2
 D2
-Büyük bir oda görüyorsun~
+BÃ¼yÃ¼k bir oda gÃ¶rÃ¼yorsun~
 ~
 0 -1 1583
 S
 #1585
 Yemekhane~
-Hobgoblinlerin yemek yediği yerde duruyorsun.  Çürük masalar ve kırık
-tabaklar odanın her yerinde. Az kalsın çürümüş bir et parçasına basıyordun.
-Ama şanslısın ki basmadan farkettin.
+Hobgoblinlerin yemek yediÄŸi yerde duruyorsun.  Ã‡Ã¼rÃ¼k masalar ve kÄ±rÄ±k
+tabaklar odanÄ±n her yerinde. Az kalsÄ±n Ã§Ã¼rÃ¼mÃ¼ÅŸ bir et parÃ§asÄ±na basÄ±yordun.
+Ama ÅŸanslÄ±sÄ±n ki basmadan farkettin.
 ~
 0 D 2
 D0
-Küçük bir oda görüyorsun.
+KÃ¼Ã§Ã¼k bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1586
 D1
-Bir mutfak görüyorsun.
+Bir mutfak gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1587
 D3
-Büyük bir oda görüyorsun.
+BÃ¼yÃ¼k bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1583
 S
 #1586
-Depo Odası~
-Un meyve tahıl ve yarasa artıkları ile dolu küçük bir odadasın.
+Depo OdasÄ±~
+Un meyve tahÄ±l ve yarasa artÄ±klarÄ± ile dolu kÃ¼Ã§Ã¼k bir odadasÄ±n.
 ~
 0 D 1
 D2
-Yemekhaneyi görüyorsun.
+Yemekhaneyi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1585
 S
 #1587
 Mutfak~
-Mutfak insanların yaradılışından beri temizlenmemiş gözüküyor. Ayak
-bileklerine kadar çöpler ve artık yemekler var. Tencerede birşey
-pişiyor ve içinde bir insan eli var!!!
+Mutfak insanlarÄ±n yaradÄ±lÄ±ÅŸÄ±ndan beri temizlenmemiÅŸ gÃ¶zÃ¼kÃ¼yor. Ayak
+bileklerine kadar Ã§Ã¶pler ve artÄ±k yemekler var. Tencerede birÅŸey
+piÅŸiyor ve iÃ§inde bir insan eli var!!!
 ~
 0 D 2
 D3
-Yemekhaneyi görüyorsun.
+Yemekhaneyi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1585
 S
 #1588
-Küçük Bir Maden Mili~
-Maden milinde, bir tünele çıkan bir yere geldin. Çıkışlar güneye ve kuzeye.
+KÃ¼Ã§Ã¼k Bir Maden Mili~
+Maden milinde, bir tÃ¼nele Ã§Ä±kan bir yere geldin. Ã‡Ä±kÄ±ÅŸlar gÃ¼neye ve kuzeye.
 ~
 0 D 2
 D0
-Neredeyse oyulmuş bir yer görüyorsun.
+Neredeyse oyulmuÅŸ bir yer gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1589
 D2
-Küçük bir maden mili görüyorsun.
+KÃ¼Ã§Ã¼k bir maden mili gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1582
 D5
-Bir delik görüyorsun.
+Bir delik gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1590
 S
 #1589
-Münzevi Barınağı~
-Oda küçük bir mağara gibi, duvarlar madenin duvarlarından farklı. Oda
-zar zor aydınlatılmış ama bir şeyin sana yöneldiği farkedebiliyorsun.
+MÃ¼nzevi BarÄ±naÄŸÄ±~
+Oda kÃ¼Ã§Ã¼k bir maÄŸara gibi, duvarlar madenin duvarlarÄ±ndan farklÄ±. Oda
+zar zor aydÄ±nlatÄ±lmÄ±ÅŸ ama bir ÅŸeyin sana yÃ¶neldiÄŸi farkedebiliyorsun.
 ~
 0 D 2
 D2
-Küçük bir maden mili görüyorsun.
+KÃ¼Ã§Ã¼k bir maden mili gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1588
 S
 #1590
 Delik~
-Bir deliğin içindesin.
+Bir deliÄŸin iÃ§indesin.
 ~
 0 D 3
 D4
-Küçük bir maden mili görüyorsun.
+KÃ¼Ã§Ã¼k bir maden mili gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 1588

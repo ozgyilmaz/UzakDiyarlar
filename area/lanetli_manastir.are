@@ -1,9 +1,9 @@
 #AREADATA
 Filename lanetli_manastir.are~
-Name Lanetli Manastır~
+Name Lanetli ManastÄ±r~
 Builder Yaegar~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 60
 Highlevel 65
 Minvnum 30800
@@ -16,9 +16,9 @@ END
 
 #NEW_MOBILES
 #30800
-şeytan keşiş~
-şeytan keşiş~
-Cüppeli keşiş seni görünce hırlıyor!
+ÅŸeytan keÅŸiÅŸ~
+ÅŸeytan keÅŸiÅŸ~
+CÃ¼ppeli keÅŸiÅŸ seni gÃ¶rÃ¼nce hÄ±rlÄ±yor!
 ~
 The fanatic monks of the Unholy Abbey despise all other people, especially
 intruders in their sanctum! And you can rest assured they will do their
@@ -29,7 +29,7 @@ human~
 #30801
 kil golem heykel~
 kil golem~
-Kilden yapılmış bir heykel hareketsiz seni izliyor.
+Kilden yapÄ±lmÄ±ÅŸ bir heykel hareketsiz seni izliyor.
 ~
 This statue isn't very well-fashioned, and isn't very attractive. You wonder
 why even the unholy monks would use such art in their abbey. Shrug.
@@ -37,9 +37,9 @@ why even the unholy monks would use such art in their abbey. Shrug.
 golem~
 2|64 8|32|8192 64
 #30802
-keşiş efendi~
+keÅŸiÅŸ efendi~
 efendi~
-Siyahlara bürünmüş monk efendisi sessizce seniz izliyor.
+Siyahlara bÃ¼rÃ¼nmÃ¼ÅŸ monk efendisi sessizce seniz izliyor.
 ~
 The master monks are the teachers and supervisors of the monks of the abbey,
 and answer only to the abbot himself. They are if anything more diabolical
@@ -59,9 +59,9 @@ horrid, twisted, decrepit old men, who have incredible magical powers.
 human~
 2|64|128 8|32|512 62
 #30804
-başrahip~
-başrahip~
-Lanetli başrahip çığlıklarıyla sana lanetler okuyarak saldırıyor!
+baÅŸrahip~
+baÅŸrahip~
+Lanetli baÅŸrahip Ã§Ä±ÄŸlÄ±klarÄ±yla sana lanetler okuyarak saldÄ±rÄ±yor!
 ~
 The abbot is a vile, despicable old tyrant who rules his damned abbey with
 an iron fist and a lust for conquest and death bordering on the maniacal.
@@ -83,7 +83,7 @@ human~
 #30806
 kemik iblis~
 kemik iblis~
-Kemiklerden oluşmuş bir iblis üzerine geliyor!
+Kemiklerden oluÅŸmuÅŸ bir iblis Ã¼zerine geliyor!
 ~
 The monks frequently summon devils to aid them in their evil schemes, and
 their favorite is the bone devil, who only demands seven virgins rather than
@@ -92,20 +92,20 @@ the many scores other devils demand.
 human~
 2|64 8|32|512|8192 66
 #30807
-çora bakire~
-çora bakire~
-Çırılçıplak vücuduyla bir çora bakire mimbere zincirlenmiş.
+Ã§ora bakire~
+Ã§ora bakire~
+Ã‡Ä±rÄ±lÃ§Ä±plak vÃ¼cuduyla bir Ã§ora bakire mimbere zincirlenmiÅŸ.
 ~
-The monks capture and sacrifice female çora virgins to summon devils from
+The monks capture and sacrifice female Ã§ora virgins to summon devils from
 the Hells. This one has gone quite insane from the pain and shock of capture
 and subsequent subjection to the cruel rituals of the monks.
 ~
-çora~
+Ã§ora~
 2|64 0 1
 #30808
-cüce köle~
-cüce köle~
-Bir cüce durmadan çalışıyor.
+cÃ¼ce kÃ¶le~
+cÃ¼ce kÃ¶le~
+Bir cÃ¼ce durmadan Ã§alÄ±ÅŸÄ±yor.
 ~
 The monks may be powerful warriors but they are no engineers, so they capture
 dwarves from the north and use them in this capacity, to expand and strengthen
@@ -114,9 +114,9 @@ their abbey.
 dwarf~
 64 512 60
 #30809
-ogre köle efendisi~
-ogre köle efendisi~
-İrice bir ogre kırbacını sallayarak emirler veriyor.
+ogre kÃ¶le efendisi~
+ogre kÃ¶le efendisi~
+Ä°rice bir ogre kÄ±rbacÄ±nÄ± sallayarak emirler veriyor.
 ~
 This overconfident brute is one of many employed by the monks to keep their
 slaves in line. He rashly expects you to just lie down and die for him. Hmmm.
@@ -126,7 +126,7 @@ human~
 #30810
 paladin~
 paladin~
-Bir paladin bilincini tekrar kazanmaya çalışıyor.
+Bir paladin bilincini tekrar kazanmaya Ã§alÄ±ÅŸÄ±yor.
 ~
 This hapless fellow was captured by the old Dragon Clan many centuries ago
 and imprisoned here. The new clan has not dared to disturb him, for they
@@ -144,21 +144,21 @@ They aren't called the dragon clan for nothing, pal.
 black dragon~
 2|64 4|8|16|32|128|512|8192|524288 70
 #30812
-yaşlı çora~
-yaşlı çora~
-Yaşlı bir çora kayanın üzerinde oturuyor.
+yaÅŸlÄ± Ã§ora~
+yaÅŸlÄ± Ã§ora~
+YaÅŸlÄ± bir Ã§ora kayanÄ±n Ã¼zerinde oturuyor.
 ~
-This old çora, one Felthesres by name, is one of the bards of Malathar who has
+This old Ã§ora, one Felthesres by name, is one of the bards of Malathar who has
 vowed to remain here and await the return of the Paladin Grimafax from his
 missions. He has been waiting several centuries, and will be waiting for
 much longer before Grimafax returns.
 ~
-çora~
+Ã§ora~
 2|64 128 62
 #30813
 kemik golem~
 kemik golem~
-Kemik golem durmadan çalışıyor.
+Kemik golem durmadan Ã§alÄ±ÅŸÄ±yor.
 ~
 This creature was created to keep the dragon noises continually echoing
 from the cavern entrance. It will not attack, but it will move to defend
@@ -169,7 +169,7 @@ golem~
 #30814
 wyvern~
 a wyvern~
-İrice bir wyvern tepende asılı duruyor.
+Ä°rice bir wyvern tepende asÄ±lÄ± duruyor.
 ~
 This wyvern is a scout for the monks of the abbey, you surmise. Then again
 it could be a perfectly normal wyvern that just happens to be wearing a
@@ -180,7 +180,7 @@ wyvern~
 #30815
 hayvan~
 hayvan~
-Canavar üzerine geliyor!
+Canavar Ã¼zerine geliyor!
 ~
 These savage mutant hounds are horrors feared the world over. Only the monks
 have managed to tame these beasts, much to the displeasure of civilized
@@ -192,17 +192,17 @@ asura~
 
 #OBJECTS
 #30800
-keşiş kıyafeti cüppe~
-keşiş kıyafeti~
-Kan lekeleri taşıyan uzun kahverengi bir cüppe burada bırakılmış.~
+keÅŸiÅŸ kÄ±yafeti cÃ¼ppe~
+keÅŸiÅŸ kÄ±yafeti~
+Kan lekeleri taÅŸÄ±yan uzun kahverengi bir cÃ¼ppe burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 armor 0 1|1024
 20 20 20 10 0
 60 5 200 P
 #30801
-efendi kıyafeti cüppe keşiş~
-efendi kıyafeti~
-Kara keşişin cüppesi burada bırakılmış.~
+efendi kÄ±yafeti cÃ¼ppe keÅŸiÅŸ~
+efendi kÄ±yafeti~
+Kara keÅŸiÅŸin cÃ¼ppesi burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 armor 0 1|1024
 21 21 21 11 0
@@ -222,9 +222,9 @@ A
 A
 12 50
 #30803
-mitril hançer~
-mitril hançer~
-Mitrilden yapılmış bir hançer burada bırakılmış. Şeytani görünüyor!~
+mitril hanÃ§er~
+mitril hanÃ§er~
+Mitrilden yapÄ±lmÄ±ÅŸ bir hanÃ§er burada bÄ±rakÄ±lmÄ±ÅŸ. Åeytani gÃ¶rÃ¼nÃ¼yor!~
 mithril~
 weapon 2|16|512 1|8192
 dagger 6 10 pierce 0
@@ -234,17 +234,17 @@ A
 A
 19 12
 #30804
-kanlı mimber~
-kanlı mimber~
-Mermerden yapılmış büyük bir kanlı mimber tapınağın ortasında duruyor.~
+kanlÄ± mimber~
+kanlÄ± mimber~
+Mermerden yapÄ±lmÄ±ÅŸ bÃ¼yÃ¼k bir kanlÄ± mimber tapÄ±naÄŸÄ±n ortasÄ±nda duruyor.~
 ~
 furniture 0 0
 0 0 0 0 0
 0 0 0 P
 #30805
-başrahip yüzük siyah~
-başrahibin yüzüğü~
-Lanetli ışıklar yayan siyah bir yüzük burada bırakılmış.~
+baÅŸrahip yÃ¼zÃ¼k siyah~
+baÅŸrahibin yÃ¼zÃ¼ÄŸÃ¼~
+Lanetli Ä±ÅŸÄ±klar yayan siyah bir yÃ¼zÃ¼k burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 armor 1|16|512 1|2
 0 0 0 0 0
@@ -256,9 +256,9 @@ A
 A
 19 6
 #30806
-başrahip cüppesi koyu kırmızı~
-başrahibin cüppesi~
-Koyu kırmızı bir cüppe burada bırakılmış.~
+baÅŸrahip cÃ¼ppesi koyu kÄ±rmÄ±zÄ±~
+baÅŸrahibin cÃ¼ppesi~
+Koyu kÄ±rmÄ±zÄ± bir cÃ¼ppe burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 armor 1|16|512 1|1024
 21 22 22 15 0
@@ -268,9 +268,9 @@ A
 A
 23 -6
 #30807
-güç bileklik~
-güç bilekliği~
-Bir güç bilekliği görüyorsun.~
+gÃ¼Ã§ bileklik~
+gÃ¼Ã§ bilekliÄŸi~
+Bir gÃ¼Ã§ bilekliÄŸi gÃ¶rÃ¼yorsun.~
 ~
 armor 1|64 1|256
 22 22 22 18 0
@@ -282,9 +282,9 @@ A
 A
 19 6
 #30808
-çora uzunkılıç işlemeli~
-çora uzunkılıcı~
-İşlemeli bir kılıç burada düşürülmüş.~
+Ã§ora uzunkÄ±lÄ±Ã§ iÅŸlemeli~
+Ã§ora uzunkÄ±lÄ±cÄ±~
+Ä°ÅŸlemeli bir kÄ±lÄ±Ã§ burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 ~
 weapon 1|64 1|8192
 sword 7 9 pierce 0
@@ -294,9 +294,9 @@ A
 A
 18 12
 #30809
-çora işi örgü zırhı~
-çora işi örgü zırh~
-Bir örgü zırhı burada bırakılmış.~
+Ã§ora iÅŸi Ã¶rgÃ¼ zÄ±rhÄ±~
+Ã§ora iÅŸi Ã¶rgÃ¼ zÄ±rh~
+Bir Ã¶rgÃ¼ zÄ±rhÄ± burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 armor 1|64 1|8
 21 21 22 20 0
@@ -304,9 +304,9 @@ armor 1|64 1|8
 A
 17 -30
 #30810
-rünlü kalkan mitril~
-rünlü kalkan~
-Mitril rünlerle bezenmiş bir kalkan duvara yaslanmış bekliyor.~
+rÃ¼nlÃ¼ kalkan mitril~
+rÃ¼nlÃ¼ kalkan~
+Mitril rÃ¼nlerle bezenmiÅŸ bir kalkan duvara yaslanmÄ±ÅŸ bekliyor.~
 ~
 armor 1|64 1|512
 20 20 20 20 0
@@ -318,15 +318,15 @@ A
 #30811
 eski pelerin~
 eski pelerin~
-Eski bir pelerin görüyorsun.~
+Eski bir pelerin gÃ¶rÃ¼yorsun.~
 ~
 armor 0 1|4
 20 20 20 20 0
 63 1 1000 P
 #30812
-tırpan~
-tırpan~
-Parlayan bir tırpan burada duruyor.~
+tÄ±rpan~
+tÄ±rpan~
+Parlayan bir tÄ±rpan burada duruyor.~
 ~
 weapon 1|2|16|64|512 1|8192
 polearm 7 8 stab 0
@@ -336,9 +336,9 @@ A
 A
 19 15
 #30813
-kelepçe~
-bir çift kelepçe~
-Bir çift kelepçe burada bırakılmış.~
+kelepÃ§e~
+bir Ã§ift kelepÃ§e~
+Bir Ã§ift kelepÃ§e burada bÄ±rakÄ±lmÄ±ÅŸ.~
 ~
 armor 4096 1|256
 0 0 0 0 0
@@ -346,17 +346,17 @@ armor 4096 1|256
 A
 2 -4
 #30814
-madenci kazması~
-madenci kazması~
-Bir kazma burada yatıyor.~
+madenci kazmasÄ±~
+madenci kazmasÄ±~
+Bir kazma burada yatÄ±yor.~
 ~
 weapon 0 1|8192
 exotic 6 9 pierce 0
 60 5 0 P
 #30815
-kırbaç~
-kırbaç~
-Bir kırbaç yerde dinleniyor.~
+kÄ±rbaÃ§~
+kÄ±rbaÃ§~
+Bir kÄ±rbaÃ§ yerde dinleniyor.~
 ~
 weapon 0 1|8192
 whip 7 9 whip 0
@@ -364,47 +364,47 @@ whip 7 9 whip 0
 #30816
 demir anahtar~
 demir anahtar~
-Demir bir anahtar burada yatıyor.~
+Demir bir anahtar burada yatÄ±yor.~
 iron~
 key 0 1|16384
 0 0 0 0 0
 0 1 0 P
 #30817
-gümüş anahtar~
-gümüş anahtar~
-Gümüş bir anahtar burada yatıyor.~
+gÃ¼mÃ¼ÅŸ anahtar~
+gÃ¼mÃ¼ÅŸ anahtar~
+GÃ¼mÃ¼ÅŸ bir anahtar burada yatÄ±yor.~
 silver~
 key 0 1|16384
 0 0 0 0 0
 0 1 0 P
 #30818
-altın anahtar~
-altın anahtar~
-Altın bir anahtar burada yatıyor.~
+altÄ±n anahtar~
+altÄ±n anahtar~
+AltÄ±n bir anahtar burada yatÄ±yor.~
 gold~
 key 0 1|16384
 0 0 0 0 0
 0 1 0 P
 #30819
-sandık anahtarı~
-sandık anahtarı~
-Bir sandık anahtarı burada yatıyor.~
+sandÄ±k anahtarÄ±~
+sandÄ±k anahtarÄ±~
+Bir sandÄ±k anahtarÄ± burada yatÄ±yor.~
 silver~
 key 0 1|16384
 0 0 0 0 0
 0 1 0 P
 #30820
-demir sandık~
-demir sandık~
-Demir bir sandık burada bırakılmış.~
+demir sandÄ±k~
+demir sandÄ±k~
+Demir bir sandÄ±k burada bÄ±rakÄ±lmÄ±ÅŸ.~
 iron~
 container 0 0
 1500 0 30819 50 100
 0 0 0 P
 #30821
-lanetli zırh~
-lanetli zırh~
-Lanetli bir zırh burada yatıyor.~
+lanetli zÄ±rh~
+lanetli zÄ±rh~
+Lanetli bir zÄ±rh burada yatÄ±yor.~
 leather~
 armor 1|2|16|64|512|4096 1|8
 21 21 21 10 0
@@ -428,33 +428,33 @@ A
 A
 24 -3
 #30822
-çuval~
-çuval~
-Bir çuval yorulmuş dinleniyor.~
+Ã§uval~
+Ã§uval~
+Bir Ã§uval yorulmuÅŸ dinleniyor.~
 leather~
 container 0 1|16384
 25 0 0 5 100
 60 1 0 P
 #30823
-altın~
-bir miktar altın~
-Bir miktar altın etrafa dağılmış.~
+altÄ±n~
+bir miktar altÄ±n~
+Bir miktar altÄ±n etrafa daÄŸÄ±lmÄ±ÅŸ.~
 gold~
 money 0 1
 25000 0 0 0 0
 0 10 25000 P
 #30824
-körük~
-körük~
-Bir körük burada oturuyor.~
+kÃ¶rÃ¼k~
+kÃ¶rÃ¼k~
+Bir kÃ¶rÃ¼k burada oturuyor.~
 wood~
 furniture 0 0
 0 0 0 0 0
 0 4 0 P
 #30825
-yeşil muska~
-yeşil muska~
-Yeşil bir muska burada yatıyor.~
+yeÅŸil muska~
+yeÅŸil muska~
+YeÅŸil bir muska burada yatÄ±yor.~
 leather~
 key 0 1|4
 0 0 0 0 0
@@ -464,33 +464,33 @@ amulet~
 It has "DRAGON CLAN" scribed upon it.
 ~
 #30826
-parlak yeşil geçit~
-parlak yeşil geçit~
-Parlak yeşil bir geçit asılı duruyor.~
+parlak yeÅŸil geÃ§it~
+parlak yeÅŸil geÃ§it~
+Parlak yeÅŸil bir geÃ§it asÄ±lÄ± duruyor.~
 ~
 portal 1 0
 0 0 A 30827 0
 0 0 0 P
 #30827
-parlak mavi geçit~
-parlak mavi geçit~
-Parlak mavi bir geçit asılı duruyor.~
+parlak mavi geÃ§it~
+parlak mavi geÃ§it~
+Parlak mavi bir geÃ§it asÄ±lÄ± duruyor.~
 ~
 portal 1 0
 0 0 A 30825 0
 0 0 0 P
 #30828
-parlak kızıl geçit~
-parlak kızıl geçit~
-Parlak kızıl bir geçit asılı duruyor.~
+parlak kÄ±zÄ±l geÃ§it~
+parlak kÄ±zÄ±l geÃ§it~
+Parlak kÄ±zÄ±l bir geÃ§it asÄ±lÄ± duruyor.~
 ~
 portal 1 0
 0 0 A 30839 0
 0 0 0 P
 #30829
-çuval~
-çuval~
-Bir çuval yorulmuş dinleniyor.~
+Ã§uval~
+Ã§uval~
+Bir Ã§uval yorulmuÅŸ dinleniyor.~
 ~
 container 0 1|16384
 15 0 0 10 100
@@ -498,23 +498,23 @@ container 0 1|16384
 #30830
 fener~
 fener~
-İyi durumda bir fener burada oturuyor.~
+Ä°yi durumda bir fener burada oturuyor.~
 ~
 light 0 1|16384
 0 0 100 0 0
 1 1 0 P
 #30831
-küçük sandık~
-küçük sandık~
-Küçük bir sandık burada bekliyor.~
+kÃ¼Ã§Ã¼k sandÄ±k~
+kÃ¼Ã§Ã¼k sandÄ±k~
+KÃ¼Ã§Ã¼k bir sandÄ±k burada bekliyor.~
 ~
 container 0 1
 50 0 0 20 100
 5 5 0 P
 #30832
-şarapderisi~
-şarapderisi~
-Bir şarapderisi duvardaki çengelde asılı duruyor.~
+ÅŸarapderisi~
+ÅŸarapderisi~
+Bir ÅŸarapderisi duvardaki Ã§engelde asÄ±lÄ± duruyor.~
 ~
 drink 0 1|16384
 5 5 'red wine' 0 0
@@ -522,7 +522,7 @@ drink 0 1|16384
 #30833
 suderisi~
 suderisi~
-Bir suderisi duvardaki çengelde asılı duruyor.~
+Bir suderisi duvardaki Ã§engelde asÄ±lÄ± duruyor.~
 ~
 drink 0 1|16384
 5 5 'water' 0 0
@@ -536,65 +536,65 @@ food 0 1|16384
 24 24 0 0 0
 0 2 20 P
 #30835
-sırtçantası~
-sırtçantası~
-Bir sırtçantası burada oturuyor.~
+sÄ±rtÃ§antasÄ±~
+sÄ±rtÃ§antasÄ±~
+Bir sÄ±rtÃ§antasÄ± burada oturuyor.~
 ~
 container 0 1|8
 25 0 0 10 100
 0 3 0 P
 #30836
-el baltası~
-el baltası~
-Bir el baltası duvardaki çengelde asılı duruyor.~
+el baltasÄ±~
+el baltasÄ±~
+Bir el baltasÄ± duvardaki Ã§engelde asÄ±lÄ± duruyor.~
 ~
 weapon 0 1|8192
 axe 6 8 chop 0
 59 5 2500 P
 #30837
-atış baltası~
-atış baltası~
-Bir atış baltası duvardaki çengelde asılı duruyor.~
+atÄ±ÅŸ baltasÄ±~
+atÄ±ÅŸ baltasÄ±~
+Bir atÄ±ÅŸ baltasÄ± duvardaki Ã§engelde asÄ±lÄ± duruyor.~
 ~
 warp_stone 0 1|16384
 0 0 0 0 0
 60 5 2500 P
 #30838
-gürz~
-gürz~
-Bir gürz duvara dayanmış dinleniyor.~
+gÃ¼rz~
+gÃ¼rz~
+Bir gÃ¼rz duvara dayanmÄ±ÅŸ dinleniyor.~
 ~
 weapon 0 1|8192
 mace 6 8 pound 0
 61 5 1500 P
 #30839
-gürz~
-gürz~
-Bir gürz duvara dayanmış gülümsüyor.~
+gÃ¼rz~
+gÃ¼rz~
+Bir gÃ¼rz duvara dayanmÄ±ÅŸ gÃ¼lÃ¼msÃ¼yor.~
 ~
 weapon 0 1|8192
 mace 6 8 pound 0
 61 5 1500 0
 #30840
-çivili kargı~
-çivili kargı~
-Çivili bir kargı yerde dinleniyor.~
+Ã§ivili kargÄ±~
+Ã§ivili kargÄ±~
+Ã‡ivili bir kargÄ± yerde dinleniyor.~
 ~
 weapon 0 1|8192
 staff 6 8 crush 0
 59 5 2500 P
 #30841
-tatar yayı~
-tatar yayı~
-Bir tataryayı duvara dayanmış soluklanıyor.~
+tatar yayÄ±~
+tatar yayÄ±~
+Bir tataryayÄ± duvara dayanmÄ±ÅŸ soluklanÄ±yor.~
 ~
 weapon 0 1|8192
 bow 6 8 pierce 0
 59 10 2350 P
 #30842
-titreyen ışık~
-titreyen ışık~
-Titreyen bir ışık kaynağı duvara bitişik duruyor.~
+titreyen Ä±ÅŸÄ±k~
+titreyen Ä±ÅŸÄ±k~
+Titreyen bir Ä±ÅŸÄ±k kaynaÄŸÄ± duvara bitiÅŸik duruyor.~
 ~
 portal 0 1|8
 50 0 0 0 0
@@ -618,9 +618,9 @@ A
 A
 24 -3
 #30844
-beyaz kürk yelek~
-beyaz kürk yelek~
-Beyaz bir kürk yelek görüyorsun.~
+beyaz kÃ¼rk yelek~
+beyaz kÃ¼rk yelek~
+Beyaz bir kÃ¼rk yelek gÃ¶rÃ¼yorsun.~
 ~
 armor 1|64|256|1024 1|8
 25 25 25 20 0
@@ -659,41 +659,41 @@ E
 .trigo_dooropen~
 down~
 #30847
-kara çuval~
-kara çuval~
-Kara bir çuval görüyorsun.~
+kara Ã§uval~
+kara Ã§uval~
+Kara bir Ã§uval gÃ¶rÃ¼yorsun.~
 ~
 container 0 0
 15000 0 0 0 0
 0 15000 0 P
 #30848
-kızıl muska~
-kızıl muska~
-Kızıl bir muska burada bekliyor.~
+kÄ±zÄ±l muska~
+kÄ±zÄ±l muska~
+KÄ±zÄ±l bir muska burada bekliyor.~
 ~
 key 0 1|4
 0 0 0 0 0
 0 1 0 P
 #30849
-parlak kızıl geçit~
-parlak kızıl geçit~
-Kızıl bir geçit asılı duruyor.~
+parlak kÄ±zÄ±l geÃ§it~
+parlak kÄ±zÄ±l geÃ§it~
+KÄ±zÄ±l bir geÃ§it asÄ±lÄ± duruyor.~
 ~
 portal 1 0
 0 0 A 30827 0
 0 0 0 P
 #30850
-küçük masa~
-küçük masa~
-Küçük bir masa rafların önünde bekliyor.~
+kÃ¼Ã§Ã¼k masa~
+kÃ¼Ã§Ã¼k masa~
+KÃ¼Ã§Ã¼k bir masa raflarÄ±n Ã¶nÃ¼nde bekliyor.~
 ~
 furniture 0 0
 0 0 0 0 0
 0 100 0 P
 #30851
-yarım kalmış mektup~
-yarım kalmış mektup~
-Yarım kalmış bir mektup burada bekliyor.~
+yarÄ±m kalmÄ±ÅŸ mektup~
+yarÄ±m kalmÄ±ÅŸ mektup~
+YarÄ±m kalmÄ±ÅŸ bir mektup burada bekliyor.~
 ~
 trash 0 1|16384
 0 0 0 0 0
@@ -709,8 +709,8 @@ us more -"
 ~
 #30852
 kurban serammoni kitap~
-kurban seramonisi kitabı~
-Büyük bir kitap burada duruyor.~
+kurban seramonisi kitabÄ±~
+BÃ¼yÃ¼k bir kitap burada duruyor.~
 ~
 trash 16|512|128|4096 1|16384
 0 0 0 0 0
@@ -722,33 +722,33 @@ A
 A
 12 -50
 #30853
-parlak mavi geçit~
-parlak mavi geçit~
-Mavi bir geçit asılı duruyor.~
+parlak mavi geÃ§it~
+parlak mavi geÃ§it~
+Mavi bir geÃ§it asÄ±lÄ± duruyor.~
 ~
 portal 1 0
 0 0 A 30883 0
 0 0 0 P
 #30854
-parlak sarı geçit~
-parlak sarı geçit~
-Sarı bir geçit asılı duruyor.~
+parlak sarÄ± geÃ§it~
+parlak sarÄ± geÃ§it~
+SarÄ± bir geÃ§it asÄ±lÄ± duruyor.~
 ~
 portal 1 0
 0 0 A 30839 0
 0 0 0 P
 #30855
-kara geçit~
-kara geçit~
-Kara bi geçit asılı duruyor.~
+kara geÃ§it~
+kara geÃ§it~
+Kara bi geÃ§it asÄ±lÄ± duruyor.~
 ~
 portal 1 0
 0 0 A 30819 0
 0 0 0 P
 #30856
-duş~
-duş~
-Musluksuz bir duş görüyorsun, sürekli su akıyor.~
+duÅŸ~
+duÅŸ~
+Musluksuz bir duÅŸ gÃ¶rÃ¼yorsun, sÃ¼rekli su akÄ±yor.~
 ~
 fountain 0 0
 10 10 'water' 0 0
@@ -756,7 +756,7 @@ fountain 0 0
 #30857
 mavi muska~
 mavi muska~
-Mavi bir muska burada, düşünüyor.~
+Mavi bir muska burada, dÃ¼ÅŸÃ¼nÃ¼yor.~
 ~
 key 0 1|4
 0 0 0 0 0
@@ -765,7 +765,7 @@ key 0 1|4
 
 #ROOMS
 #30800
-Dik ve Pütürlü Yol~
+Dik ve PÃ¼tÃ¼rlÃ¼ Yol~
 You are ascending steadily upwards through rough terrain towards a large,
 jagged mountain far to the north. There is a small rock resting here, near
 the path, which could serve as a passable chair. There is a sign nailed to
@@ -782,7 +782,7 @@ D2
 0 -1 4036
 S
 #30801
-Dik ve Pütürlü Yol~
+Dik ve PÃ¼tÃ¼rlÃ¼ Yol~
 You continue up the path, only vaguely noticing the bleak terrain around
 you as the climb is quite exerting. Birds circle far overhead, taking only
 a casual interest in you. The path bends sharply to the east at this point.
@@ -798,7 +798,7 @@ D2
 0 -1 30800
 S
 #30802
-Dik ve Pütürlü Yol~
+Dik ve PÃ¼tÃ¼rlÃ¼ Yol~
 The path bends back to the north here, heading straight for the base of the
 Tor. However, there appears to be a deep chasm dividing the path from the
 base, and you wonder how you will pass it.
@@ -814,7 +814,7 @@ D3
 0 -1 30801
 S
 #30803
-Uçurumun Kenarı~
+UÃ§urumun KenarÄ±~
 You are heading round the edge of the chasm. You can see no way across it
 from here, though you could perhaps proceed across or down if you could
 fly. You can still see the Tor, and the abbey at its summit. The black
@@ -831,7 +831,7 @@ D1
 0 -1 30804
 S
 #30804
-Uçurumun Kenarı~
+UÃ§urumun KenarÄ±~
 You are heading round the edge of the chasm. You can see no way across it
 from here, though you could perhaps proceed across or down if you could
 fly. You can still see the Tor, and the abbey at its summit. The black
@@ -852,7 +852,7 @@ D3
 0 -1 30803
 S
 #30805
-Uçurumun Kenarı~
+UÃ§urumun KenarÄ±~
 You reach the edge of the chasm, and stare across at the Tor. Sure enough,
 you can see the abbey, nestled in a small crack that divides the top third
 of the tor in two. It appears to have no doors or windows, and you can't
@@ -878,7 +878,7 @@ D3
 0 -1 30804
 S
 #30806
-Uçurumun Kenarı~
+UÃ§urumun KenarÄ±~
 You are heading round the edge of the chasm. You can see no way across it
 from here, though you could perhaps proceed across or down if you could
 fly. You can still see the Tor, and the abbey at its summit. The black
@@ -899,7 +899,7 @@ D3
 0 -1 30805
 S
 #30807
-Uçurumun Kenarı~
+UÃ§urumun KenarÄ±~
 You are heading round the edge of the chasm. You can see no way across it
 from here, though you could perhaps proceed across or down if you could
 fly. You can still see the Tor, and the abbey at its summit. The black
@@ -916,7 +916,7 @@ D3
 0 -1 30806
 S
 #30808
-Uçurumun Kenarı~
+UÃ§urumun KenarÄ±~
 You are heading round the edge of the chasm. You can see no way across it
 from here, though you could perhaps proceed across or down if you could
 fly. You can still see the Tor, and the abbey at its summit. The black
@@ -937,7 +937,7 @@ D2
 0 -1 30803
 S
 #30809
-Uçurumun Üzerinde~
+UÃ§urumun Ãœzerinde~
 You soar into the air and fly over the chasm, which yawns below you,
 descending to a depth of about 200 feet. You can see a small ledge outside
 the abbey to the north.
@@ -965,7 +965,7 @@ D5
 0 -1 30820
 S
 #30810
-Uçurumun Üzerinde~
+UÃ§urumun Ãœzerinde~
 You soar into the air and fly over the chasm, which yawns below you,
 descending to a depth of about 200 feet. You can see a small ledge outside
 the abbey to the north. You hear what sounds like a dragon roaring far below.
@@ -993,7 +993,7 @@ D5
 0 -1 30821
 S
 #30811
-Uçurumun Üzerinde~
+UÃ§urumun Ãœzerinde~
 You soar into the air and fly over the chasm, which yawns below you,
 descending to a depth of about 200 feet. You can see a small ledge outside
 the abbey to the north.
@@ -1021,7 +1021,7 @@ D5
 0 -1 30822
 S
 #30812
-Uçurumun Kenarı~
+UÃ§urumun KenarÄ±~
 You are heading round the edge of the chasm. You can see no way across it
 from here, though you could perhaps proceed across or down if you could
 fly. You can still see the Tor, and the abbey at its summit. The black
@@ -1053,7 +1053,7 @@ D2
 0 -1 30808
 S
 #30814
-Manastırın Dışı~
+ManastÄ±rÄ±n DÄ±ÅŸÄ±~
 You are standing on a narrow ledge that runs along the south wall of the
 abbey. You see no doors, windows or other places where you could enter or
 exit. Baffled, you move on.
@@ -1069,7 +1069,7 @@ D2
 0 -1 30809
 S
 #30815
-Manastırın Dışı~
+ManastÄ±rÄ±n DÄ±ÅŸÄ±~
 You are standing on a narrow ledge that runs along the south wall of the
 abbey. You see no doors, windows or other places where you could enter or
 exit. You can fly up to the roof from here if you wish, though.
@@ -1093,7 +1093,7 @@ D4
 0 -1 30818
 S
 #30816
-Manastırın Dışı~
+ManastÄ±rÄ±n DÄ±ÅŸÄ±~
 You are standing on a narrow ledge that runs along the south wall of the
 abbey. You see no doors, windows or other places where you could enter or
 exit. Baffled, you move on.
@@ -1120,7 +1120,7 @@ D2
 0 -1 30812
 S
 #30818
-Manastır Duvarlarının Üzerinde~
+ManastÄ±r DuvarlarÄ±nÄ±n Ãœzerinde~
 You are flying swiftly upwards, passing parallel to the sheer cliff-like
 walls of the abbey. There appears to be no possible entrance to this place.
 Nor is there any sign of life, save the massive black shape you spied earlier
@@ -1137,7 +1137,7 @@ D5
 0 -1 30815
 S
 #30819
-Manastırın Çatısı~
+ManastÄ±rÄ±n Ã‡atÄ±sÄ±~
 The roof is dominated by a huge pile of rocks and assorted rubble, which
 serves as a perch for a rather large black dragon, the Clan's "mascot" for
 want of a better word. Have fun.
@@ -1149,7 +1149,7 @@ D5
 0 -1 30818
 S
 #30820
-Uçurumun Dibi~
+UÃ§urumun Dibi~
 The floor of the chasm is littered with assorted debris that has accumulated
 over several centuries as many dragon clans rose and fell in the abbey. You
 hear a dread howling that echoes about you.
@@ -1161,7 +1161,7 @@ D1
 0 -1 30821
 S
 #30821
-Uçurumun Dibi~
+UÃ§urumun Dibi~
 The floor of the chasm is littered with assorted debris that has accumulated
 over several centuries as many dragon clans rose and fell in the abbey. You
 hear a dread howling that echoes about you. A cavern opens up in front of
@@ -1182,7 +1182,7 @@ D3
 0 -1 30820
 S
 #30822
-Uçurumun Dibi~
+UÃ§urumun Dibi~
 The floor of the chasm is littered with assorted debris that has accumulated
 over several centuries as many dragon clans rose and fell in the abbey. You
 hear a dread howling that echoes about you.
@@ -1194,7 +1194,7 @@ D3
 0 -1 30821
 S
 #30823
-Gözler Yakalar~
+GÃ¶zler Yakalar~
 The "eyes" turn out to be red lamps hung from long chains attached to a
 wooden crossbeam set in the ceiling of this cavern. The roaring can still
 be heard, louder than ever. It appears to be emanating from the north.
@@ -1210,7 +1210,7 @@ D2
 0 -1 30821
 S
 #30824
-Körük Golem~
+KÃ¶rÃ¼k Golem~
 You have found the source of the dread howling- a giant bellows, being slowly
 worked by a bone golem. It seems a rather puerile protective measure,
 considering most intelligent adventurers wouldn't be fooled. YOU weren't
@@ -1229,7 +1229,7 @@ D2
 0 -1 30823
 S
 #30825
-Geçit Odası~
+GeÃ§it OdasÄ±~
 You enter a large square room, 40'x40', with a glowing green portal in the
 ceiling. However, a large grate is blocking entry to it. There is a bright
 green padlock depending from the grate. Do you have a key?
@@ -1241,21 +1241,21 @@ D2
 0 -1 30824
 D4
 ~
-ızgara~
+Ä±zgara~
 1 30825 30826
 S
 #30826
-Geçit~
+GeÃ§it~
 The portal is flowing right in front of you. You may enter it if you wish.
 ~
 0 8 0
 D5
 ~
-ızgara~
+Ä±zgara~
 1 30825 30825
 S
 #30827
-Birinci Düzey~
+Birinci DÃ¼zey~
 You emerge from the portal into a square room identical to the one you just
 left. Two portals lie here, one green, and one red. A passage runs away to
 the east. A grate with a red lock blocks access upward to the red portal.
@@ -1345,7 +1345,7 @@ D3
 0 -1 30828
 S
 #30832
-Zırhçı~
+ZÄ±rhÃ§Ä±~
 A small room lies beyond the door, filled with all sorts of weapons
 commonly used by monks, especially militant fanatic ones. They are in good
 condition, but appear to be perfectly ordinary.
@@ -1357,7 +1357,7 @@ D2
 1 -1 30831
 S
 #30833
-Zırhçı~
+ZÄ±rhÃ§Ä±~
 A small room lies beyond the door, filled with all sorts of weapons
 commonly used by monks, especially militant fanatic ones. They are in good
 condition, but appear to be perfectly ordinary.
@@ -1385,7 +1385,7 @@ taht~
 1 0 30835
 S
 #30835
-Tünel~
+TÃ¼nel~
 You enter a tunnel which is lined with foot- and hand-holds on one wall,
 allowing you to descend. The air is damp and chill, and you shiver.
 ~
@@ -1400,7 +1400,7 @@ D5
 0 -1 30836
 S
 #30836
-Tünelin Dibi~
+TÃ¼nelin Dibi~
 You reach the bottom and shiver again as a blast of cold air hits you. There
 is nothing in this cramped space save a massive door to the east covered in
 mystic runes.
@@ -1415,14 +1415,14 @@ D4
 ~
 0 -1 30835
 E
-kapı rünler~
+kapÄ± rÃ¼nler~
 The runes read- "RELEASE NOT THE SPIRIT THAT SHALL SLAY US ALL"
 ~
 S
 #30837
 Mezar~
 The tomb is icy cold, almost dangerously so, and is dominated by a huge
-sarcophagus, inside which rests the corpse of an çora paladin. Maybe it
+sarcophagus, inside which rests the corpse of an Ã§ora paladin. Maybe it
 wasn't such a good idea releasing him...
 ~
 0 1|8 0
@@ -1432,7 +1432,7 @@ D3
 1 0 30836
 S
 #30838
-Geçit~
+GeÃ§it~
 The red portal floats in front of you. Enter it to continue...
 ~
 0 8 0
@@ -1442,7 +1442,7 @@ D5
 1 30848 30827
 S
 #30839
-Geçit Odası~
+GeÃ§it OdasÄ±~
 You emerge into yet another 40'x40' chamber, this one containing a red
 portal and a blue portal behind a grate with a blue lock. Doors lead out
 of this chamber in all directions.
@@ -1470,7 +1470,7 @@ D4
 1 30857 30882
 S
 #30840
-Uzun ve Karanlık Pasaj~
+Uzun ve KaranlÄ±k Pasaj~
 This corridor is pitch-black- even with your light you can scarcely see a
 thing! You think you can feel a door to the north.
 ~
@@ -1485,7 +1485,7 @@ D2
 1 0 30839
 S
 #30841
-Uzun ve Karanlık Pasaj~
+Uzun ve KaranlÄ±k Pasaj~
 This corridor is pitch-black- even with your light you can scarcely see a
 thing! You think you can feel a door to the east.
 ~
@@ -1500,7 +1500,7 @@ D3
 1 0 30839
 S
 #30842
-Uzun ve Karanlık Pasaj~
+Uzun ve KaranlÄ±k Pasaj~
 This corridor is pitch-black- even with your light you can scarcely see a
 thing! You think you can feel a door to the west.
 ~
@@ -1515,7 +1515,7 @@ D3
 1 0 30845
 S
 #30843
-Uzun ve Karanlık Pasaj~
+Uzun ve KaranlÄ±k Pasaj~
 This corridor is pitch-black- even with your light you can scarcely see a
 thing! You think you can feel a door to the south.
 ~
@@ -1530,7 +1530,7 @@ D2
 1 0 30846
 S
 #30844
-Kışla~
+KÄ±ÅŸla~
 You emerge into a room that appears to be some sort of barracks. Normally
 several monks can be found here, practicing their katas and meidtating.
 Perhaps you'll be lucky and find none...
@@ -1550,7 +1550,7 @@ D3
 1 0 30852
 S
 #30845
-Kışla~
+KÄ±ÅŸla~
 You emerge into a room that appears to be some sort of barracks. Normally
 several monks can be found here, practicing their katas and meidtating.
 Perhaps you'll be lucky and find none...
@@ -1592,7 +1592,7 @@ D3
 1 0 30855
 S
 #30847
-Çalışma Odası~
+Ã‡alÄ±ÅŸma OdasÄ±~
 This is apparently the study of one of the master monks. Bookcases full of
 texts detailing ritual sacrifice and such line the walls, and a small desk
 sits in front of them, though it doesn't look as if it gets much use.
@@ -1612,7 +1612,7 @@ D3
 1 0 30841
 S
 #30848
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully.
 ~
@@ -1627,7 +1627,7 @@ D3
 1 0 30844
 S
 #30849
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully. Belatedly, you notice the floor doesn't feel quite
 right here...
@@ -1647,7 +1647,7 @@ D5
 0 -1 30851
 S
 #30850
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully. You feel a door to the east.
 ~
@@ -1662,7 +1662,7 @@ D3
 0 0 30849
 S
 #30851
-Çukur Ağzı~
+Ã‡ukur AÄŸzÄ±~
 You stumble into a pit. The fall isn't great, and you quickly leap back up,
 wondering why the monks would make such a harmless trap. Then you notice
 the stench and hear the growling...
@@ -1674,7 +1674,7 @@ D4
 0 -1 30849
 S
 #30852
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully. A door lies to the east.
 ~
@@ -1689,7 +1689,7 @@ D3
 0 0 30860
 S
 #30853
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully. A door can be felt to the south.
 ~
@@ -1704,7 +1704,7 @@ D2
 1 0 30845
 S
 #30854
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully. A door can be felt to the north.
 ~
@@ -1719,7 +1719,7 @@ D2
 0 0 30866
 S
 #30855
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully. A door can be felt to the east.
 ~
@@ -1734,7 +1734,7 @@ D3
 0 0 30868
 S
 #30856
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully. A door can be felt to the west.
 ~
@@ -1749,7 +1749,7 @@ D3
 1 0 30846
 S
 #30857
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully. A door can be felt to the south.
 ~
@@ -1764,7 +1764,7 @@ D2
 1 0 30847
 S
 #30858
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully. A door can be felt to the north.
 ~
@@ -1779,7 +1779,7 @@ D2
 0 0 30875
 S
 #30859
-Çalışma Odası~
+Ã‡alÄ±ÅŸma OdasÄ±~
 This is apparently the study of one of the master monks. Bookcases full of
 texts detailing ritual sacrifice and such line the walls, and a small desk
 sits in front of them, though it doesn't look as if it gets much use.
@@ -1795,7 +1795,7 @@ D3
 1 0 30850
 S
 #30860
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully.
 ~
@@ -1810,7 +1810,7 @@ D3
 0 0 30861
 S
 #30861
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully. A door can be felt to the west.
 ~
@@ -1825,7 +1825,7 @@ D3
 1 0 30862
 S
 #30862
-Çalışma Odası~
+Ã‡alÄ±ÅŸma OdasÄ±~
 This is apparently the study of one of the master monks. Bookcases full of
 texts detailing ritual sacrifice and such line the walls, and a small desk
 sits in front of them, though it doesn't look as if it gets much use.
@@ -1841,7 +1841,7 @@ D2
 1 0 30863
 S
 #30863
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully. There is a door to the north.
 ~
@@ -1856,7 +1856,7 @@ D2
 0 0 30864
 S
 #30864
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully. You take another step, and realize there is a pit
 beneath your feet...
@@ -1876,7 +1876,7 @@ D5
 0 -1 30865
 S
 #30865
-Asit Çukuru~
+Asit Ã‡ukuru~
 This pit isn't particularly deep, and you hit the bottom wondering what's
 next. Then you start to feel a mild stinging sensation, followed by a clinking
 sound as your coins start to fall from your money pouch, which is being
@@ -1889,7 +1889,7 @@ D4
 0 -1 30864
 S
 #30866
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully.
 ~
@@ -1904,7 +1904,7 @@ D2
 0 0 30867
 S
 #30867
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully. A door lies to the south.
 ~
@@ -1919,7 +1919,7 @@ D2
 1 0 30870
 S
 #30868
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully.
 ~
@@ -1934,7 +1934,7 @@ D3
 0 0 30869
 S
 #30869
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully. A door lies to the west.
 ~
@@ -1949,7 +1949,7 @@ D3
 1 0 30870
 S
 #30870
-Çalışma Odası~
+Ã‡alÄ±ÅŸma OdasÄ±~
 This is apparently the study of one of the master monks. Bookcases full of
 texts detailing ritual sacrifice and such line the walls, and a small desk
 sits in front of them, though it doesn't look as if it gets much use.
@@ -1965,7 +1965,7 @@ D1
 1 0 30869
 S
 #30871
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully.
 ~
@@ -1980,7 +1980,7 @@ D3
 0 0 30856
 S
 #30872
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully. A door lies to the east.
 ~
@@ -1995,7 +1995,7 @@ D3
 0 0 30871
 S
 #30873
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully.
 ~
@@ -2010,7 +2010,7 @@ D2
 0 0 30857
 S
 #30874
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully. A door can be vaguely made out to the north.
 ~
@@ -2025,7 +2025,7 @@ D2
 0 0 30873
 S
 #30875
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully. Suddenly your feet cease to find floor beneath them...
 ~
@@ -2044,7 +2044,7 @@ D5
 0 -1 30876
 S
 #30876
-Ateş Çukuru~
+AteÅŸ Ã‡ukuru~
 You fall into what appears to be a giant BBQ. You cringe and leap in the
 air as your feet encounter burning piles of coal and other materials. It is
 HOT in here!
@@ -2056,7 +2056,7 @@ D4
 0 -1 30875
 S
 #30877
-Uzun ve Karanlık Koridor~
+Uzun ve KaranlÄ±k Koridor~
 This corridor is dark, almost supernaturally so, and you make your way along
 slowly and carefully. You see a door to the south.
 ~
@@ -2071,7 +2071,7 @@ D2
 1 0 30878
 S
 #30878
-Ölüm Laboratuvarı~
+Ã–lÃ¼m LaboratuvarÄ±~
 You walk into a dank, smelly chamber full of tables stacked with body parts.
 Feeble illumination comes from a weak light spell cast on some rods of
 mithril; besides that the room is almost completely dark. Doors lead east,
@@ -2092,9 +2092,9 @@ D3
 1 0 30872
 S
 #30879
-Hücreler~
+HÃ¼creler~
 Here the Necromancers store the results of their twisted experiments on some
-captured çora knights. They howl and scream so much that even their
+captured Ã§ora knights. They howl and scream so much that even their
 creators are scared of them.
 ~
 0 1|8 0
@@ -2112,7 +2112,7 @@ D3
 1 0 30878
 S
 #30880
-Hücre~
+HÃ¼cre~
 This dismal chamber contains little but a few rags and scraps of flesh and
 bone. Whatever lives here certainly has bad domestic habits.
 ~
@@ -2123,7 +2123,7 @@ D2
 1 0 30879
 S
 #30881
-Hücre~
+HÃ¼cre~
 This dismal chamber contains little but a few rags and scraps of flesh and
 bone. Whatever lives here certainly has bad domestic habits.
 ~
@@ -2134,7 +2134,7 @@ D0
 1 0 30879
 S
 #30882
-Mavi Geçit~
+Mavi GeÃ§it~
 This portal leads to the highest tier of the abbey. Be careful- there's no
 turning back now!
 ~
@@ -2145,7 +2145,7 @@ D5
 1 30848 30839
 S
 #30883
-Son Geçit Odası~
+Son GeÃ§it OdasÄ±~
 This 40'x40' room has the usual two portals, save that here there is no
 lock on the one set in the roof. In fact you can walk right into it from
 here should you so desire. Hmmm...
@@ -2187,7 +2187,7 @@ D2
 0 -1 30883
 S
 #30885
-Lanetli Kilisenin Batı Kanadı~
+Lanetli Kilisenin BatÄ± KanadÄ±~
 You are standing in the west wing, among pews stained with blood and other
 fluids, most of them unidentifiable. A great cry goes up to the east. You
 peer in that direction and- OH MY GOD!
@@ -2235,7 +2235,7 @@ D2
 0 -1 30886
 S
 #30889
-İç Oda~
+Ä°Ã§ Oda~
 You have entered the quarters of the Abbot, master of the unholy abbey and
 the foe you have dreaded facing the most. You can stop here to prepare for
 the upcoming battle if you desire.
@@ -2251,7 +2251,7 @@ D3
 0 -1 30883
 S
 #30890
-Başrahip İstihkamı~
+BaÅŸrahip Ä°stihkamÄ±~
 These rooms, as you expected, are lavishly appointed with rich tapestries
 and fine furniture from all over the world. You didn't think the abbot would
 live so simply as his followers! You see a bathroom to the east, a study
@@ -2276,7 +2276,7 @@ D3
 1 0 30889
 S
 #30891
-Yatak Odası~
+Yatak OdasÄ±~
 This room is dominated by a great pile of rugs and cushions in the center
 of the room, upon which the abbot reclines with whatever servant has taken
 his fancy. At present it appears to be deserted...
@@ -2288,7 +2288,7 @@ D2
 0 -1 30890
 S
 #30892
-Çalışma Odası~
+Ã‡alÄ±ÅŸma OdasÄ±~
 This study is more of a library, filled as it is with scores of grimoires
 detailing the most despicable acts imaginable. A small desk, not dissimilar
 to those you saw the maste rmonks using below, stands in the center of the
@@ -2313,7 +2313,7 @@ D3
 0 -1 30890
 S
 #30894
-Şantiye~
+Åantiye~
 This section of the abbey is being massively refurbished, for purposes
 unknown to you. Sounds of construction echo all around you, and you proceed
 with a fair deal of caution, not knowing of what mein the laborers may be.
@@ -2329,7 +2329,7 @@ D2
 0 -1 30896
 S
 #30895
-Şantiye~
+Åantiye~
 This section of the abbey is being massively refurbished, for purposes
 unknown to you. Sounds of construction echo all around you, and you proceed
 with a fair deal of caution, not knowing of what mein the laborers may be.
@@ -2341,7 +2341,7 @@ D1
 0 -1 30896
 S
 #30896
-Şantiye~
+Åantiye~
 This section of the abbey is being massively refurbished, for purposes
 unknown to you. Sounds of construction echo all around you, and you proceed
 with a fair deal of caution, not knowing of what mein the laborers may be.
@@ -2365,7 +2365,7 @@ D3
 0 -1 30895
 S
 #30897
-Şantiye~
+Åantiye~
 This section of the abbey is being massively refurbished, for purposes
 unknown to you. Sounds of construction echo all around you, and you proceed
 with a fair deal of caution, not knowing of what mein the laborers may be.
@@ -2377,7 +2377,7 @@ D3
 0 -1 30896
 S
 #30898
-Şantiye~
+Åantiye~
 This section of the abbey is being massively refurbished, for purposes
 unknown to you. Sounds of construction echo all around you, and you proceed
 with a fair deal of caution, not knowing of what mein the laborers may be.
@@ -2389,7 +2389,7 @@ D0
 0 -1 30896
 S
 #30899
-Boş Oda~
+BoÅŸ Oda~
 You open the door and step into an apparently empty chamber. Neither rug
 nor tapestry can be seen, nor chair nor table. There is no other exit besides
 the one you entered. Strange...
@@ -2481,7 +2481,7 @@ E 1 30844 1 15           surcoat
 *
 M 1 30811 1 30819 1*        dwagony-poo
 *
-M 1 30812 1 30800  1*       old çora
+M 1 30812 1 30800  1*       old Ã§ora
 *
 M 1 30813 1 30824  1*       bone golem
 O 1 30824 1 30824         bellows
