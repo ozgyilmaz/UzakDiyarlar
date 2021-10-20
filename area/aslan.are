@@ -3,7 +3,7 @@ Filename aslan.are~
 Name Aslan Kalesi~
 Builder Cabal~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 90
 Highlevel 100
 Minvnum 500
@@ -19,23 +19,23 @@ C
 
 #NEW_MOBILES
 #500
-aslan şifacı kabal üstat~
-şifacı~
-Aslan'ların şifacısını görüyorsun.
+aslan ÅŸifacÄ± kabal Ã¼stat~
+ÅŸifacÄ±~
+Aslan'larÄ±n ÅŸifacÄ±sÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
-Geyik derisi bir pantolon, haki renk bir çora pelerini ve yine haki renk
-bir deri zırh ile kuşanmış şifacı göğsünün ortasında bir tarafı Aslan
-figürü, bir tarafı danrısının simgesi ile işilenmiş bir madalyon taşıyor.
-Tehu Yaşamını Aslan Kabalı'na ve üyelerine adamış...
+Geyik derisi bir pantolon, haki renk bir Ã§ora pelerini ve yine haki renk
+bir deri zÄ±rh ile kuÅŸanmÄ±ÅŸ ÅŸifacÄ± gÃ¶ÄŸsÃ¼nÃ¼n ortasÄ±nda bir tarafÄ± Aslan
+figÃ¼rÃ¼, bir tarafÄ± danrÄ±sÄ±nÄ±n simgesi ile iÅŸilenmiÅŸ bir madalyon taÅŸÄ±yor.
+Tehu YaÅŸamÄ±nÄ± Aslan KabalÄ±'na ve Ã¼yelerine adamÄ±ÅŸ...
 ~
 human~
 ABQVae DFH 80
 #501
-koruyucu aslan muhafız kabal~
-Muhafız~
-Aslan Adam'ların muhafızı girişi koruyor.
+koruyucu aslan muhafÄ±z kabal~
+MuhafÄ±z~
+Aslan Adam'larÄ±n muhafÄ±zÄ± giriÅŸi koruyor.
 ~
-Seni parçalara bölebilecek pençelere sahip.
+Seni parÃ§alara bÃ¶lebilecek penÃ§elere sahip.
 ~
 human~
 ABKWe DFHJVZec 92
@@ -44,8 +44,8 @@ lonca efendi~
 lonca efendisi~
 Lonca efendisi burada bekliyor.
 ~
-Yaşlı fakat güçlü bir Aslan Adam. Üzerindeki giysilerden yaptığı son
-kamuflajdan kalma yaprak ve dallar sarkıyor.
+YaÅŸlÄ± fakat gÃ¼Ã§lÃ¼ bir Aslan Adam. Ãœzerindeki giysilerden yaptÄ±ÄŸÄ± son
+kamuflajdan kalma yaprak ve dallar sarkÄ±yor.
 ~
 human~
 ABKRV DEFZ 86
@@ -53,9 +53,9 @@ ABKRV DEFZ 86
 
 #OBJECTS
 #500
-küçük tahta anahtar~
-küçük tahta anahtar~
-Küçük tahta bir anahtar görüyorsun.~
+kÃ¼Ã§Ã¼k tahta anahtar~
+kÃ¼Ã§Ã¼k tahta anahtar~
+KÃ¼Ã§Ã¼k tahta bir anahtar gÃ¶rÃ¼yorsun.~
 wood~
 key ORY AO
 0 0 0 0 0
@@ -63,7 +63,7 @@ key ORY AO
 #501
 mimber~
 mimber~
-Odanın ortasında büyük ağaç mimber duruyor.~
+OdanÄ±n ortasÄ±nda bÃ¼yÃ¼k aÄŸaÃ§ mimber duruyor.~
 gold~
 container ORY P
 10 15 500 15 100
@@ -71,15 +71,15 @@ container ORY P
 #502
 gizli kod~
 Gizli Kod~
-Gizli kodu görüyorsun.~
+Gizli kodu gÃ¶rÃ¼yorsun.~
 gold~
 treasure O AO
 0 0 0 0 0
 60 1 100000 P
 #503
-aslan kılıç kılıcı gümüş göz~
-Gümüş Gözlü Kılıç~
-Üzerinde bir GÖZ olan gümüş bir kılıç yerde dinleniyor.~
+aslan kÄ±lÄ±Ã§ kÄ±lÄ±cÄ± gÃ¼mÃ¼ÅŸ gÃ¶z~
+GÃ¼mÃ¼ÅŸ GÃ¶zlÃ¼ KÄ±lÄ±Ã§~
+Ãœzerinde bir GÃ–Z olan gÃ¼mÃ¼ÅŸ bir kÄ±lÄ±Ã§ yerde dinleniyor.~
 silver~
 weapon TWAIKLP AN
 sword 7 2 slash 0
@@ -89,33 +89,33 @@ sword 7 2 slash 0
 
 #ROOMS
 #500
-Valen Ağacının Önü~
-Doğu'da Dev bir Valen ağacı dikkat çekiyor. Ağacın kabuğundan ve yerden
-fışkırırcasına uzanan sarmaşıklar doğal bir kapı oluşturuyor adeta. Kadim
-aslan muhafızı ile birlikte tatmin edici bir koruma oluşturan sarmaşık
-kapının her iki tarafında büyü ile ağaca işlenmiş kadim rün'ler tuhaf bir
-parlaklık ile aydınlatıyor etrafı.
+Valen AÄŸacÄ±nÄ±n Ã–nÃ¼~
+DoÄŸu'da Dev bir Valen aÄŸacÄ± dikkat Ã§ekiyor. AÄŸacÄ±n kabuÄŸundan ve yerden
+fÄ±ÅŸkÄ±rÄ±rcasÄ±na uzanan sarmaÅŸÄ±klar doÄŸal bir kapÄ± oluÅŸturuyor adeta. Kadim
+aslan muhafÄ±zÄ± ile birlikte tatmin edici bir koruma oluÅŸturan sarmaÅŸÄ±k
+kapÄ±nÄ±n her iki tarafÄ±nda bÃ¼yÃ¼ ile aÄŸaca iÅŸlenmiÅŸ kadim rÃ¼n'ler tuhaf bir
+parlaklÄ±k ile aydÄ±nlatÄ±yor etrafÄ±.
 ~
 0 DX 3
 D0
-Lonca odası.
+Lonca odasÄ±.
 ~
 ~
 5 -1 501
 D2
-Kabalın dışı.
+KabalÄ±n dÄ±ÅŸÄ±.
 ~
 ~
 1 -1 6007
 S
 
 #501
-Toplantı Odası~
-Arkadaki bölümü haricinde eşyadan arındırılmış, duvarlardan sızan kaynağı
-belirsiz ışık dışında bir ışık kaynağı ile aydınlatılmayan, loş bir
-odadasın. Arka tarafta ufak bir bölme Lonca Efendisi'nin kişisel eşyalarını
-barındırıyor. Kapının üzerinde hafif hafif parıldayan, Aslan Gözü'nü andıran
-rün dışında dikkat çekici bir şey gözükmüyor.
+ToplantÄ± OdasÄ±~
+Arkadaki bÃ¶lÃ¼mÃ¼ haricinde eÅŸyadan arÄ±ndÄ±rÄ±lmÄ±ÅŸ, duvarlardan sÄ±zan kaynaÄŸÄ±
+belirsiz Ä±ÅŸÄ±k dÄ±ÅŸÄ±nda bir Ä±ÅŸÄ±k kaynaÄŸÄ± ile aydÄ±nlatÄ±lmayan, loÅŸ bir
+odadasÄ±n. Arka tarafta ufak bir bÃ¶lme Lonca Efendisi'nin kiÅŸisel eÅŸyalarÄ±nÄ±
+barÄ±ndÄ±rÄ±yor. KapÄ±nÄ±n Ã¼zerinde hafif hafif parÄ±ldayan, Aslan GÃ¶zÃ¼'nÃ¼ andÄ±ran
+rÃ¼n dÄ±ÅŸÄ±nda dikkat Ã§ekici bir ÅŸey gÃ¶zÃ¼kmÃ¼yor.
 ~
 0 DX 3
 D0
@@ -124,81 +124,81 @@ Mimber.
 ~
 0 -1 504
 D1
-Toplantı odası.
+ToplantÄ± odasÄ±.
 ~
 ~
 0 -1 502
 D2
-Lonca girişi.
+Lonca giriÅŸi.
 ~
 ~
 0 -1 500
 D3
-Meşe ağacının koruduğu Depo Odası.
+MeÅŸe aÄŸacÄ±nÄ±n koruduÄŸu Depo OdasÄ±.
 ~
 ~
 0 -1 503
 S
 #502
-Giriş Holü ~
-Dev Valen ağacının içinde zamanın ve büyünün etkisi ile oyulmuş giriş
-holünde duruyorsun. Kadim ağacın çoralara özgü tahta işçiliğiyle yontulup
-düzleştirilmiş kökleri holün sonuna değin sağlam kolonlar oluşturmuş her iki
-yanda. Druidlerin unutulmuş dili ve artık düya üzerinde varolmayan rün dili
-ile işlenmiş [1;33;40mduvarlar[0;37;40m, Rüya Şehri'nin savaşlarını, yaradılışı, Zümrüt Ormanı
-Efsanesi'ni anlatan figürlerle dolu. Zaman zaman göz ucuyla duvarlardaki
-hareketler, akıp giden hikaye seçilebiliyor ancak büyülü dans bir an sonra
-hareketsiz, ağaç rünlerine dönüşüyor. Holün ortasında nadir çiçeklerin
-arasında taştan oyulmuş küçük bir sunak ve dünyanın merkezine değin
-iniyormuş izlenimi veren bir kuyu duruyor. Taş kuyu'nun üzerinde ise cüce
-yapımı gibi göz üken onlarca figür başka bir efsaneyi anlatıyor. Holün
-sonunda sarmaşıkların ve ahşap işçiliğinin ortak eseri spiral bir merdiven
-yukarıya çıkıyor. Batı'da Ormana çıkış, doğuda ise Ağacın Kalbi var.
+GiriÅŸ HolÃ¼ ~
+Dev Valen aÄŸacÄ±nÄ±n iÃ§inde zamanÄ±n ve bÃ¼yÃ¼nÃ¼n etkisi ile oyulmuÅŸ giriÅŸ
+holÃ¼nde duruyorsun. Kadim aÄŸacÄ±n Ã§oralara Ã¶zgÃ¼ tahta iÅŸÃ§iliÄŸiyle yontulup
+dÃ¼zleÅŸtirilmiÅŸ kÃ¶kleri holÃ¼n sonuna deÄŸin saÄŸlam kolonlar oluÅŸturmuÅŸ her iki
+yanda. Druidlerin unutulmuÅŸ dili ve artÄ±k dÃ¼ya Ã¼zerinde varolmayan rÃ¼n dili
+ile iÅŸlenmiÅŸ [1;33;40mduvarlar[0;37;40m, RÃ¼ya Åehri'nin savaÅŸlarÄ±nÄ±, yaradÄ±lÄ±ÅŸÄ±, ZÃ¼mrÃ¼t OrmanÄ±
+Efsanesi'ni anlatan figÃ¼rlerle dolu. Zaman zaman gÃ¶z ucuyla duvarlardaki
+hareketler, akÄ±p giden hikaye seÃ§ilebiliyor ancak bÃ¼yÃ¼lÃ¼ dans bir an sonra
+hareketsiz, aÄŸaÃ§ rÃ¼nlerine dÃ¶nÃ¼ÅŸÃ¼yor. HolÃ¼n ortasÄ±nda nadir Ã§iÃ§eklerin
+arasÄ±nda taÅŸtan oyulmuÅŸ kÃ¼Ã§Ã¼k bir sunak ve dÃ¼nyanÄ±n merkezine deÄŸin
+iniyormuÅŸ izlenimi veren bir kuyu duruyor. TaÅŸ kuyu'nun Ã¼zerinde ise cÃ¼ce
+yapÄ±mÄ± gibi gÃ¶z Ã¼ken onlarca figÃ¼r baÅŸka bir efsaneyi anlatÄ±yor. HolÃ¼n
+sonunda sarmaÅŸÄ±klarÄ±n ve ahÅŸap iÅŸÃ§iliÄŸinin ortak eseri spiral bir merdiven
+yukarÄ±ya Ã§Ä±kÄ±yor. BatÄ±'da Ormana Ã§Ä±kÄ±ÅŸ, doÄŸuda ise AÄŸacÄ±n Kalbi var.
 ~
 0 DX 3
 E
-işlemelerle kaplı duvar~
-Duvara ilk bakışında basit rölyeflerle karşı karşıya olduğunu dşünmene
-karşın biraz daha incelediğinde yanıldığını anlıyorsun. Birbirine kaynaşmış
-gibi gözüken rölyefler aslında bir bütünün parçaları olan yüzlerce farklı
-hikayeyi anlatıyor. Bakışlarını çevirdiğin anda hareketleniyormuş gibi duran
-kabartma desenler dişrek olarak bakıldığında ise oldukça normal gözüküyor
-Kimi zaman duvardaki rün'lerden biri diğerlerinden ayrılarakparıldıyor, kimi
-zaman duvarlar bütün odanın etrafında dönüyormuş izlenimi yaratıyor...
+iÅŸlemelerle kaplÄ± duvar~
+Duvara ilk bakÄ±ÅŸÄ±nda basit rÃ¶lyeflerle karÅŸÄ± karÅŸÄ±ya olduÄŸunu dÅŸÃ¼nmene
+karÅŸÄ±n biraz daha incelediÄŸinde yanÄ±ldÄ±ÄŸÄ±nÄ± anlÄ±yorsun. Birbirine kaynaÅŸmÄ±ÅŸ
+gibi gÃ¶zÃ¼ken rÃ¶lyefler aslÄ±nda bir bÃ¼tÃ¼nÃ¼n parÃ§alarÄ± olan yÃ¼zlerce farklÄ±
+hikayeyi anlatÄ±yor. BakÄ±ÅŸlarÄ±nÄ± Ã§evirdiÄŸin anda hareketleniyormuÅŸ gibi duran
+kabartma desenler diÅŸrek olarak bakÄ±ldÄ±ÄŸÄ±nda ise oldukÃ§a normal gÃ¶zÃ¼kÃ¼yor
+Kimi zaman duvardaki rÃ¼n'lerden biri diÄŸerlerinden ayrÄ±larakparÄ±ldÄ±yor, kimi
+zaman duvarlar bÃ¼tÃ¼n odanÄ±n etrafÄ±nda dÃ¶nÃ¼yormuÅŸ izlenimi yaratÄ±yor...
 ~
 D3
-Yüce lonca odası.
+YÃ¼ce lonca odasÄ±.
 ~
 ~
 0 -1 501
 S
 #503
-Depo odası~
-Valen ağacın içindeki kovuklardan birindesin. İlk olarak dikkatini çeken
-duvarların son derece pürüzsüz yapısı oluyor, herhangi bir ahşap oyma
-aletinin izinin de olmayışı buranın rüzgarın yüzyıllar süren uğraşı sonucu
-oluştuğu gösteriyor. Sağ tarafta Aslanların kutsal silahları için yapılmış
-arı kovanına benzer bölümler sol tarafta ise diğer eşyaların saklanması için
-kullanılan bir kaç raf göze çarpıyor.
+Depo odasÄ±~
+Valen aÄŸacÄ±n iÃ§indeki kovuklardan birindesin. Ä°lk olarak dikkatini Ã§eken
+duvarlarÄ±n son derece pÃ¼rÃ¼zsÃ¼z yapÄ±sÄ± oluyor, herhangi bir ahÅŸap oyma
+aletinin izinin de olmayÄ±ÅŸÄ± buranÄ±n rÃ¼zgarÄ±n yÃ¼zyÄ±llar sÃ¼ren uÄŸraÅŸÄ± sonucu
+oluÅŸtuÄŸu gÃ¶steriyor. SaÄŸ tarafta AslanlarÄ±n kutsal silahlarÄ± iÃ§in yapÄ±lmÄ±ÅŸ
+arÄ± kovanÄ±na benzer bÃ¶lÃ¼mler sol tarafta ise diÄŸer eÅŸyalarÄ±n saklanmasÄ± iÃ§in
+kullanÄ±lan bir kaÃ§ raf gÃ¶ze Ã§arpÄ±yor.
 ~
 0 DX 3
 D1
-Yüce lonca odası.
+YÃ¼ce lonca odasÄ±.
 ~
 ~
 0 -1 501
 S
 #504
-Tanrı'nın Mimberi~
-Alt tarafı ağacın gövdesinden oluşmuş üstü açık bir odadasın. Ağacın
-diğer bölümleri gibi burada da duvarları arasından onlarca dal geçiyor,
-kabuktaki minik çatlaklardan bazen ufak bir sarmaşık, bazen ufak bir dal
-filizi boy veriyor. Odanın güney kanadından ufak bir sunak ve kedi tanrıça
-Danrı'nın ağaç bir heykeli vakarla duruyor. Yukarıya uzanan dalların
-çevresine satrılmış bir dizi sarmaşık doğal bir merdiven oluşturmuş. Valen
-ağacının diğer bölümlerinin aksine buraya gündüz yaşam veren güneş'in
-kemikleri ısıtan ışığı, gece ise göz kırpan yıldızların ve cömert ışığından
-dünyayı mahrum etmeyen Luna'nın parıltısı olanca saflığı ile düşüyor.
+TanrÄ±'nÄ±n Mimberi~
+Alt tarafÄ± aÄŸacÄ±n gÃ¶vdesinden oluÅŸmuÅŸ Ã¼stÃ¼ aÃ§Ä±k bir odadasÄ±n. AÄŸacÄ±n
+diÄŸer bÃ¶lÃ¼mleri gibi burada da duvarlarÄ± arasÄ±ndan onlarca dal geÃ§iyor,
+kabuktaki minik Ã§atlaklardan bazen ufak bir sarmaÅŸÄ±k, bazen ufak bir dal
+filizi boy veriyor. OdanÄ±n gÃ¼ney kanadÄ±ndan ufak bir sunak ve kedi tanrÄ±Ã§a
+DanrÄ±'nÄ±n aÄŸaÃ§ bir heykeli vakarla duruyor. YukarÄ±ya uzanan dallarÄ±n
+Ã§evresine satrÄ±lmÄ±ÅŸ bir dizi sarmaÅŸÄ±k doÄŸal bir merdiven oluÅŸturmuÅŸ. Valen
+aÄŸacÄ±nÄ±n diÄŸer bÃ¶lÃ¼mlerinin aksine buraya gÃ¼ndÃ¼z yaÅŸam veren gÃ¼neÅŸ'in
+kemikleri Ä±sÄ±tan Ä±ÅŸÄ±ÄŸÄ±, gece ise gÃ¶z kÄ±rpan yÄ±ldÄ±zlarÄ±n ve cÃ¶mert Ä±ÅŸÄ±ÄŸÄ±ndan
+dÃ¼nyayÄ± mahrum etmeyen Luna'nÄ±n parÄ±ltÄ±sÄ± olanca saflÄ±ÄŸÄ± ile dÃ¼ÅŸÃ¼yor.
 ~
 0 DX 3
 D2

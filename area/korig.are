@@ -1,9 +1,9 @@
 #AREADATA
 Filename korig.are~
-Name Korıg~
+Name KorÄ±g~
 Builder Copper~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 15
 Minvnum 3500
@@ -16,80 +16,80 @@ END
 
 #NEW_MOBILES
 #3500
-yelbüke~
-yelbüke~
-Bir yelbüke başının üzerinde dönüyor.
+yelbÃ¼ke~
+yelbÃ¼ke~
+Bir yelbÃ¼ke baÅŸÄ±nÄ±n Ã¼zerinde dÃ¶nÃ¼yor.
 ~
-Büyük kanatlarıyla bir yelbüke görüyorsun. Neyseki çok aç değil.
+BÃ¼yÃ¼k kanatlarÄ±yla bir yelbÃ¼ke gÃ¶rÃ¼yorsun. Neyseki Ã§ok aÃ§ deÄŸil.
 ~
 wyvern~
 AG 0 8
 #3501
-gulyabani dağ~
+gulyabani daÄŸ~
 gulyabani~
-Bir dağ gulyabanisi burada, kendi kendine mırıldanıyor.
+Bir daÄŸ gulyabanisi burada, kendi kendine mÄ±rÄ±ldanÄ±yor.
 ~
-Boğum boğum kaslarıyla küçük bir yaratık.
+BoÄŸum boÄŸum kaslarÄ±yla kÃ¼Ã§Ã¼k bir yaratÄ±k.
 ~
 goblin~
 AFGT 0 6
 #3502
-oğlan küçük~
-küçük oğlan~
-Küçük bir oğlan burada, yaralarını yalıyor.
+oÄŸlan kÃ¼Ã§Ã¼k~
+kÃ¼Ã§Ã¼k oÄŸlan~
+KÃ¼Ã§Ã¼k bir oÄŸlan burada, yaralarÄ±nÄ± yalÄ±yor.
 ~
-Zavallı çocuğun bir sürü yarası var, yine de iyileşecek gibi görünüyor.
-Görünüşe göre saldırıdan sağ kurtulan bir tek o.
+ZavallÄ± Ã§ocuÄŸun bir sÃ¼rÃ¼ yarasÄ± var, yine de iyileÅŸecek gibi gÃ¶rÃ¼nÃ¼yor.
+GÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re saldÄ±rÄ±dan saÄŸ kurtulan bir tek o.
 ~
 human~
 ABH 0 4
 #3503
-hancı~
-hancı~
-Hancı burada, bardakları temizliyor.
+hancÄ±~
+hancÄ±~
+HancÄ± burada, bardaklarÄ± temizliyor.
 ~
-O artık zamanının büyük kısmını müşteri beklemekle ve gelenlere hizmet
-etmekle geçiriyor. Geceleri ise goulyabanileri gözlüyor. Bu han artık
-eskisi gibi sakin ve huzurlu bir yer değil.
+O artÄ±k zamanÄ±nÄ±n bÃ¼yÃ¼k kÄ±smÄ±nÄ± mÃ¼ÅŸteri beklemekle ve gelenlere hizmet
+etmekle geÃ§iriyor. Geceleri ise goulyabanileri gÃ¶zlÃ¼yor. Bu han artÄ±k
+eskisi gibi sakin ve huzurlu bir yer deÄŸil.
 ~
 human~
 ABT 0 10
 #3504
 ozan~
 ozan~
-Asık yüzlü bir ozan burada, dertli dertli içiyor.
+AsÄ±k yÃ¼zlÃ¼ bir ozan burada, dertli dertli iÃ§iyor.
 ~
-Odanın diğer ucundan ozanın nefesindeki alkolün kokusunu alabiliyorsun.
-Bir süredir burada içiyor.
+OdanÄ±n diÄŸer ucundan ozanÄ±n nefesindeki alkolÃ¼n kokusunu alabiliyorsun.
+Bir sÃ¼redir burada iÃ§iyor.
 ~
 human~
 ABST D 8
 #3505
-atlı kara~
-kara atlı~
-Bir kara atlı burada, seni izliyor.
+atlÄ± kara~
+kara atlÄ±~
+Bir kara atlÄ± burada, seni izliyor.
 ~
-Bir kanunsuz olduğu çok açık. Seni ufak parçalara ayırmaktan kuşku
-duymayacaktır.
+Bir kanunsuz olduÄŸu Ã§ok aÃ§Ä±k. Seni ufak parÃ§alara ayÄ±rmaktan kuÅŸku
+duymayacaktÄ±r.
 ~
 human~
 AGHS P 8
 #3506
-gulyabani teğmen~
-gulyabani teğmen~
-Bir gulyabani teğmen burada, adamlarını düzene sokmaya çalışıyor.
+gulyabani teÄŸmen~
+gulyabani teÄŸmen~
+Bir gulyabani teÄŸmen burada, adamlarÄ±nÄ± dÃ¼zene sokmaya Ã§alÄ±ÅŸÄ±yor.
 ~
-Teğmen biraz sinirli görünüyor. Her an adamlarından birine saldırabilir.
+TeÄŸmen biraz sinirli gÃ¶rÃ¼nÃ¼yor. Her an adamlarÄ±ndan birine saldÄ±rabilir.
 ~
 goblin~
 AFGT 0 7
 #3507
 gulyabani lider~
 gulyabani lider~
-Gulyabani lider odaya göz gezdiriyor.
+Gulyabani lider odaya gÃ¶z gezdiriyor.
 ~
-Senin onu bulmandan rahatsız oldu. Kısa kılıcını kaptığı gibi üzerine
-saldırıyor.
+Senin onu bulmandan rahatsÄ±z oldu. KÄ±sa kÄ±lÄ±cÄ±nÄ± kaptÄ±ÄŸÄ± gibi Ã¼zerine
+saldÄ±rÄ±yor.
 ~
 goblin~
 ACFGT 0 9
@@ -97,9 +97,9 @@ ACFGT 0 9
 
 #OBJECTS
 #3500
-kılıç gulyabani kısa~
-bir gulyabani kısa kılıcı~
-Paslı bir gulyabani kılıcı yerde yatıyor.~
+kÄ±lÄ±Ã§ gulyabani kÄ±sa~
+bir gulyabani kÄ±sa kÄ±lÄ±cÄ±~
+PaslÄ± bir gulyabani kÄ±lÄ±cÄ± yerde yatÄ±yor.~
 iron~
 weapon 0 AN
 sword 2 4 stab 0
@@ -109,7 +109,7 @@ A
 #3501
 asa uzun~
 uzun bir asa~
-Şeytani görünümlü bıçağıyla kara bir asa burada yatıyor.~
+Åeytani gÃ¶rÃ¼nÃ¼mlÃ¼ bÄ±Ã§aÄŸÄ±yla kara bir asa burada yatÄ±yor.~
 iron~
 weapon 0 AN
 staff 2 7 thrust F
@@ -117,9 +117,9 @@ staff 2 7 thrust F
 A
 17 2
 #3502
-kara boynuz miğfer~
-bir kara boynuzlu miğfer~
-Sivri boynuzlarıyla bir miğfer burada duruyor.~
+kara boynuz miÄŸfer~
+bir kara boynuzlu miÄŸfer~
+Sivri boynuzlarÄ±yla bir miÄŸfer burada duruyor.~
 iron~
 armor 0 AE
 3 5 4 0 1
@@ -127,15 +127,15 @@ armor 0 AE
 #3503
 lekeli pelerin~
 bir lekeli pelerin~
-Bir giyilmiş ve lekelenmiş pelerin burada duruyor.~
+Bir giyilmiÅŸ ve lekelenmiÅŸ pelerin burada duruyor.~
 cloth~
 armor 0 AC
 2 3 4 0 1
 3 40 310 A
 #3504
-deri büyülü bileklik~
-büyülü bir deri bileklik~
-Bir deri bileklik burada, üzerinde garip semboller taşıyor.~
+deri bÃ¼yÃ¼lÃ¼ bileklik~
+bÃ¼yÃ¼lÃ¼ bir deri bileklik~
+Bir deri bileklik burada, Ã¼zerinde garip semboller taÅŸÄ±yor.~
 leather~
 armor 0 AM
 2 4 4 2 0
@@ -143,9 +143,9 @@ armor 0 AM
 A
 18 1
 #3505
-rün kama~
-bir rün işlemeli kama~
-Geniş ağızlı bir kama burada bırakılmış.~
+rÃ¼n kama~
+bir rÃ¼n iÅŸlemeli kama~
+GeniÅŸ aÄŸÄ±zlÄ± bir kama burada bÄ±rakÄ±lmÄ±ÅŸ.~
 mithril~
 weapon GK AN
 dagger 2 4 stab 0
@@ -157,13 +157,13 @@ A
 #ROOMS
 #3500
 Ovalar~
-Geniş ovaların üzerindesin. Terkedilmiş bu verimli toprakların üzerinde
-rüzgar hiç rahatsız edilmeden bir o yana, bir bu yana esiyor. Yine de
-buraya ilk gelen maceracı değilsin. Selenge'nin doğu kapısından kimi
-zaman biraz altın, kimi zamansa kendi ölümlerini aramak için çıkan herkes
-buradan geçer. Önünde onların yıllardır ayaklarıyla aşındırdıkları bir yol
-oluşmuş. Yol hiç de önemli bir yere çıkıyormuş gibi görünmüyor. Yine de
-bu yolu izleyip de geri dönemeyen çok olmuştur.
+GeniÅŸ ovalarÄ±n Ã¼zerindesin. TerkedilmiÅŸ bu verimli topraklarÄ±n Ã¼zerinde
+rÃ¼zgar hiÃ§ rahatsÄ±z edilmeden bir o yana, bir bu yana esiyor. Yine de
+buraya ilk gelen maceracÄ± deÄŸilsin. Selenge'nin doÄŸu kapÄ±sÄ±ndan kimi
+zaman biraz altÄ±n, kimi zamansa kendi Ã¶lÃ¼mlerini aramak iÃ§in Ã§Ä±kan herkes
+buradan geÃ§er. Ã–nÃ¼nde onlarÄ±n yÄ±llardÄ±r ayaklarÄ±yla aÅŸÄ±ndÄ±rdÄ±klarÄ± bir yol
+oluÅŸmuÅŸ. Yol hiÃ§ de Ã¶nemli bir yere Ã§Ä±kÄ±yormuÅŸ gibi gÃ¶rÃ¼nmÃ¼yor. Yine de
+bu yolu izleyip de geri dÃ¶nemeyen Ã§ok olmuÅŸtur.
 ~
 0 0 1
 D0
@@ -180,9 +180,9 @@ D2
 0 0 3501
 S
 #3501
-Dar Geçit~
-Gölgeli, hoş bir geçitten geçiyorsun. Yüksek ağaçların altından ilerleyen
-bu yol kuzeye ve güneye uzanıyor.
+Dar GeÃ§it~
+GÃ¶lgeli, hoÅŸ bir geÃ§itten geÃ§iyorsun. YÃ¼ksek aÄŸaÃ§larÄ±n altÄ±ndan ilerleyen
+bu yol kuzeye ve gÃ¼neye uzanÄ±yor.
 ~
 0 0 1
 D0
@@ -195,11 +195,11 @@ D2
 0 0 3502
 S
 #3502
-Yol Kesişimi~
-İşte tam burada Moria madenleri ile harabe şehir Thalos arasındaki eski yol
-büyük doğu yoluyla kesişiyor. Selenge oldukça batında kaldı. Eski bir kuzey
-yolu Cüce Krallığı'na ve moria madenlerine, güney yolu ise hayalet şehir
-Thalos'a yöneliyor.
+Yol KesiÅŸimi~
+Ä°ÅŸte tam burada Moria madenleri ile harabe ÅŸehir Thalos arasÄ±ndaki eski yol
+bÃ¼yÃ¼k doÄŸu yoluyla kesiÅŸiyor. Selenge oldukÃ§a batÄ±nda kaldÄ±. Eski bir kuzey
+yolu CÃ¼ce KrallÄ±ÄŸÄ±'na ve moria madenlerine, gÃ¼ney yolu ise hayalet ÅŸehir
+Thalos'a yÃ¶neliyor.
 ~
 0 0 1
 D0
@@ -220,10 +220,10 @@ D3
 0 0 3503
 S
 #3503
-Şehir Girişi~
-Selenge il sınırlarının girişindesin. Yol batıya, karanığın ve aydınlığın
-birlikte varolduğu ormanların içine ilerliyor. Batıda ise ovaları geçtikten
-sonra Selenge yerleşimi başlıyor.
+Åehir GiriÅŸi~
+Selenge il sÄ±nÄ±rlarÄ±nÄ±n giriÅŸindesin. Yol batÄ±ya, karanÄ±ÄŸÄ±n ve aydÄ±nlÄ±ÄŸÄ±n
+birlikte varolduÄŸu ormanlarÄ±n iÃ§ine ilerliyor. BatÄ±da ise ovalarÄ± geÃ§tikten
+sonra Selenge yerleÅŸimi baÅŸlÄ±yor.
 ~
 0 C 1
 D1
@@ -236,10 +236,10 @@ D3
 0 0 3053
 S
 #3505
-Korıg Patikası~
-Küçük bir ormandasın. Güneye bir yol yöneliyor fakat doğuya giden
-pasaj güneye göre oldukça rahat. Batıda ağaçların üstünden yükselen
-duman görülebiliyor. Selenge buranın kuzeyinde kalıyor.
+KorÄ±g PatikasÄ±~
+KÃ¼Ã§Ã¼k bir ormandasÄ±n. GÃ¼neye bir yol yÃ¶neliyor fakat doÄŸuya giden
+pasaj gÃ¼neye gÃ¶re oldukÃ§a rahat. BatÄ±da aÄŸaÃ§larÄ±n Ã¼stÃ¼nden yÃ¼kselen
+duman gÃ¶rÃ¼lebiliyor. Selenge buranÄ±n kuzeyinde kalÄ±yor.
 ~
 0 0 3
 D0
@@ -260,9 +260,9 @@ D3
 0 0 3570
 S
 #3506
-Korıg~
-Karanlık ormandasın. Doğuda dağlar pasajı kesiyor. Buradan sonra
-ancak batıdaki küçük ormana veya güneye yönelebilirsin.
+KorÄ±g~
+KaranlÄ±k ormandasÄ±n. DoÄŸuda daÄŸlar pasajÄ± kesiyor. Buradan sonra
+ancak batÄ±daki kÃ¼Ã§Ã¼k ormana veya gÃ¼neye yÃ¶nelebilirsin.
 ~
 0 0 3
 D1
@@ -279,10 +279,10 @@ D3
 0 0 3505
 S
 #3507
-Korıg~
-Orman oldukça derin. Rüzgar ağaçlarla beraber yalıyor saçlarını.
-Kuzeye doğru orman seyrekleşiyor. Batı ve güney yolları ise sanki
-karanlığın içine akıyor.
+KorÄ±g~
+Orman oldukÃ§a derin. RÃ¼zgar aÄŸaÃ§larla beraber yalÄ±yor saÃ§larÄ±nÄ±.
+Kuzeye doÄŸru orman seyrekleÅŸiyor. BatÄ± ve gÃ¼ney yollarÄ± ise sanki
+karanlÄ±ÄŸÄ±n iÃ§ine akÄ±yor.
 ~
 0 0 3
 D0
@@ -300,8 +300,8 @@ D3
 S
 #3508
 Bir Patika~
-Yol doğuya ve güneye doğru Korıg'ın karanlık ormanlarına
-ilerliyor. Batıda dağlar görünüyor.
+Yol doÄŸuya ve gÃ¼neye doÄŸru KorÄ±g'Ä±n karanlÄ±k ormanlarÄ±na
+ilerliyor. BatÄ±da daÄŸlar gÃ¶rÃ¼nÃ¼yor.
 ~
 0 0 3
 D1
@@ -314,10 +314,10 @@ D2
 0 0 3511
 S
 #3509
-Korıg~
-Korıg'ın ağaçları oldukça gür. İçlerinde gezinen kötülükleri
-iyi sakladıkları kesin. Batıya doğru giderek kalınlaşan ağaçları
-görüyorsun. Fakat istersen kuzey, güney veya doğuya doğru
+KorÄ±g~
+KorÄ±g'Ä±n aÄŸaÃ§larÄ± oldukÃ§a gÃ¼r. Ä°Ã§lerinde gezinen kÃ¶tÃ¼lÃ¼kleri
+iyi sakladÄ±klarÄ± kesin. BatÄ±ya doÄŸru giderek kalÄ±nlaÅŸan aÄŸaÃ§larÄ±
+gÃ¶rÃ¼yorsun. Fakat istersen kuzey, gÃ¼ney veya doÄŸuya doÄŸru
 ilerleyebilirsin.
 ~
 0 0 3
@@ -335,9 +335,9 @@ D2
 0 0 3514
 S
 #3510
-Bir Kavşak~
-Tam burada kuzey, güney ve doğu yolları kesişiyor. Ağaçlar seni sıkıştırmak
-istermiş gibi kapanıyor. Gökyüzünü zor da olsa hala görebiliyorsun
+Bir KavÅŸak~
+Tam burada kuzey, gÃ¼ney ve doÄŸu yollarÄ± kesiÅŸiyor. AÄŸaÃ§lar seni sÄ±kÄ±ÅŸtÄ±rmak
+istermiÅŸ gibi kapanÄ±yor. GÃ¶kyÃ¼zÃ¼nÃ¼ zor da olsa hala gÃ¶rebiliyorsun
 ~
 0 0 3
 D0
@@ -354,9 +354,9 @@ D2
 0 0 3516
 S
 #3511
-Keçi Yolu~
-Ağaçların arasındaki bir kuzey-güney yolundasın. Batıda geçit vermeyen
-dağlar sana gülümsüyor.
+KeÃ§i Yolu~
+AÄŸaÃ§larÄ±n arasÄ±ndaki bir kuzey-gÃ¼ney yolundasÄ±n. BatÄ±da geÃ§it vermeyen
+daÄŸlar sana gÃ¼lÃ¼msÃ¼yor.
 ~
 0 0 3
 D0
@@ -369,11 +369,11 @@ D2
 0 0 3515
 S
 #3512
-Korıg~
-Karanlığı içine hapseden Korıg ormanında düşüncelerin
-ışığını kaybediyor. Kuzeydeki dağlara ya da  batıdaki ormana
-yönelebilirsin. Veya tam burada kalıp aklından geçen
-bütün o şeylerin zehirlenmesini bekleyebilirsin.
+KorÄ±g~
+KaranlÄ±ÄŸÄ± iÃ§ine hapseden KorÄ±g ormanÄ±nda dÃ¼ÅŸÃ¼ncelerin
+Ä±ÅŸÄ±ÄŸÄ±nÄ± kaybediyor. Kuzeydeki daÄŸlara ya da  batÄ±daki ormana
+yÃ¶nelebilirsin. Veya tam burada kalÄ±p aklÄ±ndan geÃ§en
+bÃ¼tÃ¼n o ÅŸeylerin zehirlenmesini bekleyebilirsin.
 ~
 0 0 3
 D0
@@ -390,10 +390,10 @@ D3
 0 0 3509
 S
 #3513
-Korıg~
-Orman oldukça karanlık. Batıda ise karanlığın şiddeti artıyor. Bu
-kara ve gür ağaçların altına saklanma ihtiyacı duyan şeytanlığı
-seziyorsun. Orman kuzeye doğru sıklığını kaybediyor.
+KorÄ±g~
+Orman oldukÃ§a karanlÄ±k. BatÄ±da ise karanlÄ±ÄŸÄ±n ÅŸiddeti artÄ±yor. Bu
+kara ve gÃ¼r aÄŸaÃ§larÄ±n altÄ±na saklanma ihtiyacÄ± duyan ÅŸeytanlÄ±ÄŸÄ±
+seziyorsun. Orman kuzeye doÄŸru sÄ±klÄ±ÄŸÄ±nÄ± kaybediyor.
 ~
 0 0 3
 D0
@@ -411,10 +411,10 @@ D3
 S
 #3514
 Derin Orman~
-Yine karanlık. Orman seni bir daha hiç bırakmayacakmış gibi
-sarıyor. Attığın her adımda karanlığın enerjini biraz daha emdiğini
-hissediyorsun. İşte tam bu sırada bir an için ışıldıyan bir şey
-görüyorsun. Farkedildiğini anlayan şey hemen uzaklaşıyor.
+Yine karanlÄ±k. Orman seni bir daha hiÃ§ bÄ±rakmayacakmÄ±ÅŸ gibi
+sarÄ±yor. AttÄ±ÄŸÄ±n her adÄ±mda karanlÄ±ÄŸÄ±n enerjini biraz daha emdiÄŸini
+hissediyorsun. Ä°ÅŸte tam bu sÄ±rada bir an iÃ§in Ä±ÅŸÄ±ldÄ±yan bir ÅŸey
+gÃ¶rÃ¼yorsun. FarkedildiÄŸini anlayan ÅŸey hemen uzaklaÅŸÄ±yor.
 ~
 0 0 3
 D0
@@ -435,8 +435,8 @@ D3
 0 0 3510
 S
 #3515
-Küçük Orman~
-Orman oldukça sığlaştı. Doğuda tekrar karanlık başlıyor. Güneyde ise
+KÃ¼Ã§Ã¼k Orman~
+Orman oldukÃ§a sÄ±ÄŸlaÅŸtÄ±. DoÄŸuda tekrar karanlÄ±k baÅŸlÄ±yor. GÃ¼neyde ise
 yol devam ediyor.
 ~
 0 0 3
@@ -454,9 +454,9 @@ D2
 0 0 3518
 S
 #3516
-Bataklık~
-Zemin yumuşuyor. Çamur ayaklarına güvenmeni engelliyor. Korıg
-bataklığındasın. Dört ana yönün tümü de açık.
+BataklÄ±k~
+Zemin yumuÅŸuyor. Ã‡amur ayaklarÄ±na gÃ¼venmeni engelliyor. KorÄ±g
+bataklÄ±ÄŸÄ±ndasÄ±n. DÃ¶rt ana yÃ¶nÃ¼n tÃ¼mÃ¼ de aÃ§Ä±k.
 ~
 0 0 3
 D0
@@ -477,9 +477,9 @@ D3
 0 0 3515
 S
 #3517
-Dağların Yamacında~
-Doğudaki dağlar oldukça belirgin. Kayalar izin vermediğinden yalnız
-kuzey ve batıya ilerleyebilirsin.
+DaÄŸlarÄ±n YamacÄ±nda~
+DoÄŸudaki daÄŸlar oldukÃ§a belirgin. Kayalar izin vermediÄŸinden yalnÄ±z
+kuzey ve batÄ±ya ilerleyebilirsin.
 ~
 0 0 3
 D0
@@ -493,8 +493,8 @@ D3
 S
 #3518
 Yok Olan Yol~
-Yol neredeyse üzerinde yürünmesi imkansız bir hal almış.
-Kuzeyde ve batıda orman sığlaşıyor. Güneyde bir yol görüyorsun.
+Yol neredeyse Ã¼zerinde yÃ¼rÃ¼nmesi imkansÄ±z bir hal almÄ±ÅŸ.
+Kuzeyde ve batÄ±da orman sÄ±ÄŸlaÅŸÄ±yor. GÃ¼neyde bir yol gÃ¶rÃ¼yorsun.
 ~
 0 0 3
 D0
@@ -511,10 +511,10 @@ D2
 0 0 3522
 S
 #3519
-Karanlık Patika~
-Ağaçlar seni her taraftan sıkıştırıyorlar. Yol kuzeye ve güneye devam
-ediyor. Batı oldukça sık ağaçlarla çevrilmiş. Doğuda ise gökyüzünü
-görebileceğini düşünüyorsun.
+KaranlÄ±k Patika~
+AÄŸaÃ§lar seni her taraftan sÄ±kÄ±ÅŸtÄ±rÄ±yorlar. Yol kuzeye ve gÃ¼neye devam
+ediyor. BatÄ± oldukÃ§a sÄ±k aÄŸaÃ§larla Ã§evrilmiÅŸ. DoÄŸuda ise gÃ¶kyÃ¼zÃ¼nÃ¼
+gÃ¶rebileceÄŸini dÃ¼ÅŸÃ¼nÃ¼yorsun.
 ~
 0 0 3
 D0
@@ -535,10 +535,10 @@ D3
 0 0 -1
 S
 #3520
-Karanlık Orman~
-Kara orman Korıg'ın ağaçları oldukça sıklaştı. Artık güneş ışığını hiç
-göremiyorsun. Güney ve batıya ilerleyebileceğin gibi, ormanın daha da
-sıklaştığı doğuyu da tercih edebilirsin.
+KaranlÄ±k Orman~
+Kara orman KorÄ±g'Ä±n aÄŸaÃ§larÄ± oldukÃ§a sÄ±klaÅŸtÄ±. ArtÄ±k gÃ¼neÅŸ Ä±ÅŸÄ±ÄŸÄ±nÄ± hiÃ§
+gÃ¶remiyorsun. GÃ¼ney ve batÄ±ya ilerleyebileceÄŸin gibi, ormanÄ±n daha da
+sÄ±klaÅŸtÄ±ÄŸÄ± doÄŸuyu da tercih edebilirsin.
 ~
 0 0 3
 D2
@@ -552,8 +552,8 @@ D3
 S
 #3521
 Katliam~
-Her yerde kan izi var. Önünde iki ceset yatıyor. Güneyde orman geçit
-vermiyor, fakat diğer yönler ilerlemeye müsait.
+Her yerde kan izi var. Ã–nÃ¼nde iki ceset yatÄ±yor. GÃ¼neyde orman geÃ§it
+vermiyor, fakat diÄŸer yÃ¶nler ilerlemeye mÃ¼sait.
 ~
 0 A 3
 D0
@@ -570,15 +570,15 @@ D3
 0 0 3522
 E
 ceset~
-Büyük bir asa ile parçalanmışlar. Bu kişileri bu hale sokan güç
-gerçekten de büyük olmalı. Dudaklarındaki mavilik vücutlarında
-dolaşan zehri farkettiriyor.
+BÃ¼yÃ¼k bir asa ile parÃ§alanmÄ±ÅŸlar. Bu kiÅŸileri bu hale sokan gÃ¼Ã§
+gerÃ§ekten de bÃ¼yÃ¼k olmalÄ±. DudaklarÄ±ndaki mavilik vÃ¼cutlarÄ±nda
+dolaÅŸan zehri farkettiriyor.
 ~
 S
 #3522
-Korıg Ormanının Derinlikleri~
-Berbat bir koku alıyorsun. Bu ceset ve kan kokusu. Kuzeyde ışığı
-yakalıyor gözlerin. Doğu ise oldukça karanlık.
+KorÄ±g OrmanÄ±nÄ±n Derinlikleri~
+Berbat bir koku alÄ±yorsun. Bu ceset ve kan kokusu. Kuzeyde Ä±ÅŸÄ±ÄŸÄ±
+yakalÄ±yor gÃ¶zlerin. DoÄŸu ise oldukÃ§a karanlÄ±k.
 ~
 0 0 3
 D0
@@ -592,8 +592,8 @@ D1
 S
 #3523
 Kara Orman~
-Dallar güneş ışığını kesiyor. Orman doğuya, dağların tarafına, devam ediyor.
-Hava oldukça pis. Batıdan oldukça kötü bir koku geliyor, bir his tüylerini
+Dallar gÃ¼neÅŸ Ä±ÅŸÄ±ÄŸÄ±nÄ± kesiyor. Orman doÄŸuya, daÄŸlarÄ±n tarafÄ±na, devam ediyor.
+Hava oldukÃ§a pis. BatÄ±dan oldukÃ§a kÃ¶tÃ¼ bir koku geliyor, bir his tÃ¼ylerini
 diken diken ediyor.
 ~
 0 0 3
@@ -611,9 +611,9 @@ D3
 0 0 3521
 S
 #3525
-Doğu Yolu~
-Selenge ile doğu toprakları arasındaki düzgün bir yoldasın. Batıya giden
-bu yola dik bir kuzey yolu Selenge'a yöneliyor. Kuzeyden zayıf bir ses
+DoÄŸu Yolu~
+Selenge ile doÄŸu topraklarÄ± arasÄ±ndaki dÃ¼zgÃ¼n bir yoldasÄ±n. BatÄ±ya giden
+bu yola dik bir kuzey yolu Selenge'a yÃ¶neliyor. Kuzeyden zayÄ±f bir ses
 duyuyorsun.
 ~
 0 0 1
@@ -631,10 +631,10 @@ D3
 0 -1 3502
 S
 #3526
-Doğu Yolu~
-Selenge ile doğu toprakları arasındaki doğu yolundasın. Batı yönü doğruca
-Selenge'a gidiyor. İyi korunan bir kontrol noktası doğuda kalıyor. Kuzeyde
-bir orman, güneyde ise oldukça pis bir yol görüyorsun.
+DoÄŸu Yolu~
+Selenge ile doÄŸu topraklarÄ± arasÄ±ndaki doÄŸu yolundasÄ±n. BatÄ± yÃ¶nÃ¼ doÄŸruca
+Selenge'a gidiyor. Ä°yi korunan bir kontrol noktasÄ± doÄŸuda kalÄ±yor. Kuzeyde
+bir orman, gÃ¼neyde ise oldukÃ§a pis bir yol gÃ¶rÃ¼yorsun.
 ~
 0 0 1
 D0
@@ -655,9 +655,9 @@ D3
 0 -1 3525
 S
 #3527
-Kontrol Noktası~
-Sağlam zırhlı bir grup şövalyeyle karşılaştın. Seni salmadan önce aradılar.
-Bir tanesi seni çöle yönelmemen konusunda uyardı. Yoksa yolunu kaybedermişsin.
+Kontrol NoktasÄ±~
+SaÄŸlam zÄ±rhlÄ± bir grup ÅŸÃ¶valyeyle karÅŸÄ±laÅŸtÄ±n. Seni salmadan Ã¶nce aradÄ±lar.
+Bir tanesi seni Ã§Ã¶le yÃ¶nelmemen konusunda uyardÄ±. Yoksa yolunu kaybedermiÅŸsin.
 ~
 0 0 1
 D1
@@ -670,10 +670,10 @@ D3
 0 -1 3526
 S
 #3528
-Doğu Yolu~
-Kontrol noktasının doğusunda, rahat bir yoldasın. Selenge ile Yeni Thalos
-arasındaki yolun neredeyse yarısını katettin. Acılar çölüne yaklaştıkça
-hava daha kuru ve sıcak bir hal alıyor.
+DoÄŸu Yolu~
+Kontrol noktasÄ±nÄ±n doÄŸusunda, rahat bir yoldasÄ±n. Selenge ile Yeni Thalos
+arasÄ±ndaki yolun neredeyse yarÄ±sÄ±nÄ± katettin. AcÄ±lar Ã§Ã¶lÃ¼ne yaklaÅŸtÄ±kÃ§a
+hava daha kuru ve sÄ±cak bir hal alÄ±yor.
 ~
 0 0 1
 D1
@@ -686,10 +686,10 @@ D3
 0 -1 3527
 S
 #3529
-Doğu Yolu~
-Gizemli güçlerin yitip gittiği ya da sonsuza kadar gizlendiği Acılar
-Çölü'ne yaklaşırken sıcaklık dayanılmaz boyutlara doğru yükseliyor.
-Yol tam anlamıyla yanmış...
+DoÄŸu Yolu~
+Gizemli gÃ¼Ã§lerin yitip gittiÄŸi ya da sonsuza kadar gizlendiÄŸi AcÄ±lar
+Ã‡Ã¶lÃ¼'ne yaklaÅŸÄ±rken sÄ±caklÄ±k dayanÄ±lmaz boyutlara doÄŸru yÃ¼kseliyor.
+Yol tam anlamÄ±yla yanmÄ±ÅŸ...
 ~
 0 0 1
 D1
@@ -702,11 +702,11 @@ D3
 0 -1 3528
 S
 #3530
-Acılar Çölü~
-Doğu yolu neredeyse yok oluyor. Artık çöldesin.Yeterli suyunun olup
-olmadığından emin değilsin. Çöl güneye uzanıyor. Yol ise doğu ve
-batı yönlerinde uzanıyor. Güneş gözlerine oyunlar mı oynuyor yoksa
-çok ilerde bir şehir mi görüyorsun???
+AcÄ±lar Ã‡Ã¶lÃ¼~
+DoÄŸu yolu neredeyse yok oluyor. ArtÄ±k Ã§Ã¶ldesin.Yeterli suyunun olup
+olmadÄ±ÄŸÄ±ndan emin deÄŸilsin. Ã‡Ã¶l gÃ¼neye uzanÄ±yor. Yol ise doÄŸu ve
+batÄ± yÃ¶nlerinde uzanÄ±yor. GÃ¼neÅŸ gÃ¶zlerine oyunlar mÄ± oynuyor yoksa
+Ã§ok ilerde bir ÅŸehir mi gÃ¶rÃ¼yorsun???
 ~
 0 0 10
 D1
@@ -719,10 +719,10 @@ D3
 0 -1 3529
 S
 #3531
-Acılar Çölü~
-Çöl yolu yutuyor. Sıcak yaşamını vücudundan söküp almaya çalışıyor.
-Güneyde çölü görüyorsun. Doğuda ise bir şehrin kuleleri yükseliyor.
-Bu bir mucize olmalı.
+AcÄ±lar Ã‡Ã¶lÃ¼~
+Ã‡Ã¶l yolu yutuyor. SÄ±cak yaÅŸamÄ±nÄ± vÃ¼cudundan sÃ¶kÃ¼p almaya Ã§alÄ±ÅŸÄ±yor.
+GÃ¼neyde Ã§Ã¶lÃ¼ gÃ¶rÃ¼yorsun. DoÄŸuda ise bir ÅŸehrin kuleleri yÃ¼kseliyor.
+Bu bir mucize olmalÄ±.
 ~
 0 0 10
 D1
@@ -735,10 +735,10 @@ D3
 0 -1 3530
 S
 #3532
-Yeni Thalos Şehir Dışı~
-Sıcaklık zırhları eritecek kadar fazla. Doğuda Yeni Thalos'un güçlü şehir
-kapılarını görüyorsun. Güneyde Acılar Çölü uzanıyor. Batıda ise bakımlı
-fakat sıcak bir yol Selenge'a ilerliyor.
+Yeni Thalos Åehir DÄ±ÅŸÄ±~
+SÄ±caklÄ±k zÄ±rhlarÄ± eritecek kadar fazla. DoÄŸuda Yeni Thalos'un gÃ¼Ã§lÃ¼ ÅŸehir
+kapÄ±larÄ±nÄ± gÃ¶rÃ¼yorsun. GÃ¼neyde AcÄ±lar Ã‡Ã¶lÃ¼ uzanÄ±yor. BatÄ±da ise bakÄ±mlÄ±
+fakat sÄ±cak bir yol Selenge'a ilerliyor.
 ~
 0 0 10
 D1
@@ -751,9 +751,9 @@ D3
 0 -1 3531
 S
 #3550
-Dağ Yolu~
-Dağların dibindesin. O kadar dikler ki kuzey ve doğuya ilerlemek imkansız.
-Güneyde ve batıda Korıg ormanını görüyorsun.
+DaÄŸ Yolu~
+DaÄŸlarÄ±n dibindesin. O kadar dikler ki kuzey ve doÄŸuya ilerlemek imkansÄ±z.
+GÃ¼neyde ve batÄ±da KorÄ±g ormanÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 0 5
 D2
@@ -766,10 +766,10 @@ D3
 0 -1 3506
 S
 #3551
-Korıg Ormanının Derinliklerinde~
-Dallar güneşi iyice kesmiş. Orman oldukça karanlık. Orman batıya devam
-ediyor. Dağlar diğer yönlere ilerlemeyi engelliyor. Güneyde dağın içine
-ilerleyen bir tünelin varlığını fark ediyorsun.
+KorÄ±g OrmanÄ±nÄ±n Derinliklerinde~
+Dallar gÃ¼neÅŸi iyice kesmiÅŸ. Orman oldukÃ§a karanlÄ±k. Orman batÄ±ya devam
+ediyor. DaÄŸlar diÄŸer yÃ¶nlere ilerlemeyi engelliyor. GÃ¼neyde daÄŸÄ±n iÃ§ine
+ilerleyen bir tÃ¼nelin varlÄ±ÄŸÄ±nÄ± fark ediyorsun.
 ~
 0 A 3
 D2
@@ -782,10 +782,10 @@ D3
 0 -1 3523
 S
 #3552
-Bir Dağ Tüneli~
-Bu tünelin duvarları uzun yıllar önce ormanın gulyabanileri tarafından
-oyulmuş. Zemin oldukça iyi durumda. Yol güneyde dağın içlerine,
-kuzeyde ise ormana devam yöneliyor.
+Bir DaÄŸ TÃ¼neli~
+Bu tÃ¼nelin duvarlarÄ± uzun yÄ±llar Ã¶nce ormanÄ±n gulyabanileri tarafÄ±ndan
+oyulmuÅŸ. Zemin oldukÃ§a iyi durumda. Yol gÃ¼neyde daÄŸÄ±n iÃ§lerine,
+kuzeyde ise ormana devam yÃ¶neliyor.
 ~
 0 A 1
 D0
@@ -798,10 +798,10 @@ D2
 0 -1 3553
 S
 #3553
-Bir Dağ Tüneli~
-Tünel kuzeye doğru daha aydınlık, herhalde dışarı yöneliyor. Güneye
-doğru ise pasaj gittikçe daralıyor. Doğu duvarında küçük bir bölüm
-gözüne ilişiyor.
+Bir DaÄŸ TÃ¼neli~
+TÃ¼nel kuzeye doÄŸru daha aydÄ±nlÄ±k, herhalde dÄ±ÅŸarÄ± yÃ¶neliyor. GÃ¼neye
+doÄŸru ise pasaj gittikÃ§e daralÄ±yor. DoÄŸu duvarÄ±nda kÃ¼Ã§Ã¼k bir bÃ¶lÃ¼m
+gÃ¶zÃ¼ne iliÅŸiyor.
 ~
 0 A 1
 D0
@@ -818,9 +818,9 @@ D2
 0 -1 3555
 S
 #3554
-Bir Küçük Bölüm~
-Burada küçük bir bölüm var. Demet demet yaprak ve dallar
-görüyorsun. Herhalde bir yatak olmalı...
+Bir KÃ¼Ã§Ã¼k BÃ¶lÃ¼m~
+Burada kÃ¼Ã§Ã¼k bir bÃ¶lÃ¼m var. Demet demet yaprak ve dallar
+gÃ¶rÃ¼yorsun. Herhalde bir yatak olmalÄ±...
 ~
 0 A 1
 D3
@@ -829,13 +829,13 @@ D3
 0 -1 3553
 E
 yatak yaprak dal demet~
-Burası bir insansının yatağına benziyor.
+BurasÄ± bir insansÄ±nÄ±n yataÄŸÄ±na benziyor.
 ~
 S
 #3555
-Bir Dağ Tüneli~
-Tünel güneye doğru küçülüyor. İlerleyebilmek için iyice kamburlaşıyorsun.
-Güneye yönelen kemerli bir koridor genişçe bir odaya açılıyor.
+Bir DaÄŸ TÃ¼neli~
+TÃ¼nel gÃ¼neye doÄŸru kÃ¼Ã§Ã¼lÃ¼yor. Ä°lerleyebilmek iÃ§in iyice kamburlaÅŸÄ±yorsun.
+GÃ¼neye yÃ¶nelen kemerli bir koridor geniÅŸÃ§e bir odaya aÃ§Ä±lÄ±yor.
 ~
 0 A 1
 D0
@@ -848,10 +848,10 @@ D2
 0 -1 3556
 S
 #3556
-gulyabani Karargahı~
-Korıg gulyabanilerinin karargahı. Birçok orman canlısının kemikleri
-etrafa saçılmış. Birinin onlara yemek artıklarının ortalıkta bırakılmayacağını
-öğretmesi gerekiyor. Bu işi sen yapmak istemezsin değil mi?
+gulyabani KarargahÄ±~
+KorÄ±g gulyabanilerinin karargahÄ±. BirÃ§ok orman canlÄ±sÄ±nÄ±n kemikleri
+etrafa saÃ§Ä±lmÄ±ÅŸ. Birinin onlara yemek artÄ±klarÄ±nÄ±n ortalÄ±kta bÄ±rakÄ±lmayacaÄŸÄ±nÄ±
+Ã¶ÄŸretmesi gerekiyor. Bu iÅŸi sen yapmak istemezsin deÄŸil mi?
 ~
 0 A 1
 D0
@@ -860,11 +860,11 @@ D0
 0 -1 3555
 S
 #3570
-Hanın Önü~
-Açıklığa çıkan iyi görünümlü bir yoldasın. Bacasından duman tüten
-tahta bir yapı burada. Batıdaki sundurmada bulunan büyükçe bir
-işaret buradan dahi seçilebiliyor. Kuzeye ve güneye giderek yapının
-çevresinde dolaşabilir ya da burayı terk ederek oramana dönebilirsin.
+HanÄ±n Ã–nÃ¼~
+AÃ§Ä±klÄ±ÄŸa Ã§Ä±kan iyi gÃ¶rÃ¼nÃ¼mlÃ¼ bir yoldasÄ±n. BacasÄ±ndan duman tÃ¼ten
+tahta bir yapÄ± burada. BatÄ±daki sundurmada bulunan bÃ¼yÃ¼kÃ§e bir
+iÅŸaret buradan dahi seÃ§ilebiliyor. Kuzeye ve gÃ¼neye giderek yapÄ±nÄ±n
+Ã§evresinde dolaÅŸabilir ya da burayÄ± terk ederek oramana dÃ¶nebilirsin.
 ~
 0 0 3
 D0
@@ -885,10 +885,10 @@ D3
 0 0 3574
 S
 #3571
-Hanın Kuzeyi~
-Hanın kuzeyindesin. Bu açıdan da görünümlerin değişmediğini
-farkediyorsun. Havada duman ve yemek kokusu var. Güneyde
-sundurmayı görüyorsun. Ama yine de bir arka kapı olup olmadığına
+HanÄ±n Kuzeyi~
+HanÄ±n kuzeyindesin. Bu aÃ§Ä±dan da gÃ¶rÃ¼nÃ¼mlerin deÄŸiÅŸmediÄŸini
+farkediyorsun. Havada duman ve yemek kokusu var. GÃ¼neyde
+sundurmayÄ± gÃ¶rÃ¼yorsun. Ama yine de bir arka kapÄ± olup olmadÄ±ÄŸÄ±na
 bakabilirsin.
 ~
 0 0 3
@@ -898,10 +898,10 @@ D2
 0 -1 3570
 S
 #3572
-Hanın Güneyi~
-Hanın güneyindesin. Kuzeye giderek ön kapıdan içeri girebilirsin, ya da
-batıya giderek yaının arkasına geçebilirsin. Güneyden gelen cılız bir
-ağlama sesi duyuyorsun.
+HanÄ±n GÃ¼neyi~
+HanÄ±n gÃ¼neyindesin. Kuzeye giderek Ã¶n kapÄ±dan iÃ§eri girebilirsin, ya da
+batÄ±ya giderek yaÄ±nÄ±n arkasÄ±na geÃ§ebilirsin. GÃ¼neyden gelen cÄ±lÄ±z bir
+aÄŸlama sesi duyuyorsun.
 ~
 0 0 3
 D0
@@ -918,10 +918,10 @@ D3
 0 0 3573
 S
 #3573
-Hanın Arkası~
-Hanın arkasındasın. Hancı buraya çöplerini boşalttığından koku oldukça
-rahatsız edici. Batıda biraz çöp görüyorsun. Belki içinden işe yarar birşey
-de çıkabilir. Daha temiz bir yer istiyorsan doğu ve kuzeye gidebilirsin.
+HanÄ±n ArkasÄ±~
+HanÄ±n arkasÄ±ndasÄ±n. HancÄ± buraya Ã§Ã¶plerini boÅŸalttÄ±ÄŸÄ±ndan koku oldukÃ§a
+rahatsÄ±z edici. BatÄ±da biraz Ã§Ã¶p gÃ¶rÃ¼yorsun. Belki iÃ§inden iÅŸe yarar birÅŸey
+de Ã§Ä±kabilir. Daha temiz bir yer istiyorsan doÄŸu ve kuzeye gidebilirsin.
 ~
 0 0 3
 D1
@@ -934,10 +934,10 @@ D3
 0 0 3578
 S
 #3574
-Tahta Hanı~
-Hanın umumi odasındasın. Havada asılı duran ince bir sis tabakası var.
-Orman gulyabanilerin baskınlarına uğramaya başladığından beri han genelde
-boş oluyor. Bar kuzeyde, ama sana özel bir masa arıyorsan güneye
+Tahta HanÄ±~
+HanÄ±n umumi odasÄ±ndasÄ±n. Havada asÄ±lÄ± duran ince bir sis tabakasÄ± var.
+Orman gulyabanilerin baskÄ±nlarÄ±na uÄŸramaya baÅŸladÄ±ÄŸÄ±ndan beri han genelde
+boÅŸ oluyor. Bar kuzeyde, ama sana Ã¶zel bir masa arÄ±yorsan gÃ¼neye
 gidebilirsin.
 ~
 0 CD 1
@@ -959,10 +959,10 @@ D3
 0 0 3577
 S
 #3575
-Pusu Noktası~
-Burası hanın güneyinde bir patika. Yol batıya devam ediyor ama gitmek için
-deli olmalısın. Çalıların büyük bir kısmı kırılarak yere yatmışlar. Burada
-oldukça kanlı bir kapışma olmuş.
+Pusu NoktasÄ±~
+BurasÄ± hanÄ±n gÃ¼neyinde bir patika. Yol batÄ±ya devam ediyor ama gitmek iÃ§in
+deli olmalÄ±sÄ±n. Ã‡alÄ±larÄ±n bÃ¼yÃ¼k bir kÄ±smÄ± kÄ±rÄ±larak yere yatmÄ±ÅŸlar. Burada
+oldukÃ§a kanlÄ± bir kapÄ±ÅŸma olmuÅŸ.
 ~
 0 0 3
 D0
@@ -976,9 +976,9 @@ D3
 S
 #3576
 Meyhane~
-Burası insanların yemeye ve içmeye geldikleri bir yermiş. Ama artık sadece
-arasıra gelen birkaç maceracıya hizmet ediyor. Güneyde umumi odayı
-görüyorsun.
+BurasÄ± insanlarÄ±n yemeye ve iÃ§meye geldikleri bir yermiÅŸ. Ama artÄ±k sadece
+arasÄ±ra gelen birkaÃ§ maceracÄ±ya hizmet ediyor. GÃ¼neyde umumi odayÄ±
+gÃ¶rÃ¼yorsun.
 ~
 0 0 1
 D2
@@ -987,9 +987,9 @@ D2
 0 0 3574
 S
 #3577
-Ozanın Masası~
-Hanın karanlık köşesindesin. Büyük yuvarlak bir masanın etrafına birkaç
-sandalye dizilmiş. Masada büyükçe bir leke var, bir içeceğin artığı olmalı.
+OzanÄ±n MasasÄ±~
+HanÄ±n karanlÄ±k kÃ¶ÅŸesindesin. BÃ¼yÃ¼k yuvarlak bir masanÄ±n etrafÄ±na birkaÃ§
+sandalye dizilmiÅŸ. Masada bÃ¼yÃ¼kÃ§e bir leke var, bir iÃ§eceÄŸin artÄ±ÄŸÄ± olmalÄ±.
 ~
 0 D 1
 D1
@@ -998,10 +998,10 @@ D1
 0 0 3574
 S
 #3578
-Çöplük~
-Dizlerine kadar çöpe batmış durumdasın. İĞRENÇ... Çok kötü kokuyor
-ve kimbilir burada adını bilmediğin kaç tane mide bulandırıcı hayvan
-yaşıyor.
+Ã‡Ã¶plÃ¼k~
+Dizlerine kadar Ã§Ã¶pe batmÄ±ÅŸ durumdasÄ±n. Ä°ÄRENÃ‡... Ã‡ok kÃ¶tÃ¼ kokuyor
+ve kimbilir burada adÄ±nÄ± bilmediÄŸin kaÃ§ tane mide bulandÄ±rÄ±cÄ± hayvan
+yaÅŸÄ±yor.
 ~
 0 0 3
 D1
@@ -1010,8 +1010,8 @@ D1
 0 0 3573
 S
 #3579
-Handa Sessiz Bir Köşe~
-Bu köşe oldukça sakin görünüyor. Dinlenmek ve yaralarını yalamak
+Handa Sessiz Bir KÃ¶ÅŸe~
+Bu kÃ¶ÅŸe oldukÃ§a sakin gÃ¶rÃ¼nÃ¼yor. Dinlenmek ve yaralarÄ±nÄ± yalamak
 iyi gelebilir...
 ~
 0 D 0
@@ -1021,9 +1021,9 @@ D0
 0 0 3574
 S
 #3581
-Atlının Yolunda~
-Yol doğu ve batıya devam ediyor. Taze izler sana atlının batıya
-kaçtığını söylüyor.
+AtlÄ±nÄ±n Yolunda~
+Yol doÄŸu ve batÄ±ya devam ediyor. Taze izler sana atlÄ±nÄ±n batÄ±ya
+kaÃ§tÄ±ÄŸÄ±nÄ± sÃ¶ylÃ¼yor.
 ~
 0 0 3
 D1
@@ -1036,9 +1036,9 @@ D3
 0 -1 3582
 S
 #3582
-Atlının Yolunda~
-Yol doğu ve güneye gidiyor. Yerdeki taze izler sana atlının
-buradan bir dönüş yaparak güneye kaçtığını söylüyor.
+AtlÄ±nÄ±n Yolunda~
+Yol doÄŸu ve gÃ¼neye gidiyor. Yerdeki taze izler sana atlÄ±nÄ±n
+buradan bir dÃ¶nÃ¼ÅŸ yaparak gÃ¼neye kaÃ§tÄ±ÄŸÄ±nÄ± sÃ¶ylÃ¼yor.
 ~
 0 0 3
 D1
@@ -1051,9 +1051,9 @@ D2
 0 -1 3583
 S
 #3583
-Atlının Yolunda~
-Atlının yolu ormana doğru doğu ve kuzey yönlerinde ilerliyor. İzler hala
-taze olduğuna göre yakınlarda olmalılar.
+AtlÄ±nÄ±n Yolunda~
+AtlÄ±nÄ±n yolu ormana doÄŸru doÄŸu ve kuzey yÃ¶nlerinde ilerliyor. Ä°zler hala
+taze olduÄŸuna gÃ¶re yakÄ±nlarda olmalÄ±lar.
 ~
 0 0 3
 D0
@@ -1066,9 +1066,9 @@ D3
 0 -1 3584
 S
 #3584
-Ölüm Patikası~
-Patika ağaçların sıklaşmasıyla aniden sonlanıyor. Yerdeki taze izler tam
-burada bitiyor. Atlı yakınlarda olmalı.
+Ã–lÃ¼m PatikasÄ±~
+Patika aÄŸaÃ§larÄ±n sÄ±klaÅŸmasÄ±yla aniden sonlanÄ±yor. Yerdeki taze izler tam
+burada bitiyor. AtlÄ± yakÄ±nlarda olmalÄ±.
 ~
 0 0 3
 D1

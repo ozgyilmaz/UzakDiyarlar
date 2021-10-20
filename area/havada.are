@@ -3,7 +3,7 @@ Filename havada.are~
 Name Havada~
 Builder Copper~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 10
 Minvnum 1000
@@ -16,9 +16,9 @@ END
 
 #NEW_MOBILES
 #1000
-kadim peri ejderhası~
-Bir peri ejderhası~
-Bir peri ejderhası buralarda kanat çırpıp yapacak bir şeyler arıyor...
+kadim peri ejderhasÄ±~
+Bir peri ejderhasÄ±~
+Bir peri ejderhasÄ± buralarda kanat Ã§Ä±rpÄ±p yapacak bir ÅŸeyler arÄ±yor...
 ~
 It's a cute little multi-colored dragon... About 2 foot long. It
 gracefully dances around your head.
@@ -28,7 +28,7 @@ AGR DE 5
 #1001
 kadim grifon~
 Bir grifon~
-Büyük kara kanatlı bir grifon saldırmak için hamle yapıyor.
+BÃ¼yÃ¼k kara kanatlÄ± bir grifon saldÄ±rmak iÃ§in hamle yapÄ±yor.
 ~
 Golden maned and black all over. It's quite a beautiful creature if not
 for the fact it is hungry and is attacking you!
@@ -41,16 +41,16 @@ AFG 0 8
 
 #OBJECTS
 #1001
-gül~
-Kırmızı bir gül~
-Kırmızı bir gül yerde duruyor.~
+gÃ¼l~
+KÄ±rmÄ±zÄ± bir gÃ¼l~
+KÄ±rmÄ±zÄ± bir gÃ¼l yerde duruyor.~
 oldstyle~
 treasure 0 AE
 0 0 0 0 0
 0 80 0 P
 E
-gül~
-Bu kırmızı, baş döndürücü kokusuyla bir gül.
+gÃ¼l~
+Bu kÄ±rmÄ±zÄ±, baÅŸ dÃ¶ndÃ¼rÃ¼cÃ¼ kokusuyla bir gÃ¼l.
 ~
 #0
 
@@ -59,997 +59,997 @@ Bu kırmızı, baş döndürücü kokusuyla bir gül.
 #ROOMS
 #1001
 Havada ...~
-Uçuyorsun! Yerin 40 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 40 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1006
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1002
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1021
 S
 #1002
 Havada ...~
-Uçuyorsun! Yerin 20 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 20 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1001
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1007
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1003
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1022
 S
 #1003
 Havada ...~
-Uçuyorsun! Yerin 20 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 20 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1002
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1008
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1004
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1023
 S
 #1004
 Havada ...~
-Uçuyorsun! Yerin 40 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 40 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1003
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1009
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1005
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1024
 S
 #1005
 Havada ...~
-Uçuyorsun! Yerin 40 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 40 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1004
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1010
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1025
 S
 #1006
 Havada ...~
-Uçuyorsun! Yerin 40 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 40 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1011
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1007
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1001
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1026
 S
 #1007
 Havada ...~
-Uçuyorsun! Yerin 20 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 20 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1006
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1012
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1008
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1002
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1027
 S
 #1008
 Havada ...~
-Uçuyorsun! Yerin 40 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 40 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1007
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1013
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1009
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1003
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1028
 S
 #1009
 Havada ...~
-Uçuyorsun! Yerin 20 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 20 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1008
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1014
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1010
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1004
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1029
 S
 #1010
 Havada ...~
-Uçuyorsun! Yerin 40 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 40 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1009
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1015
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1005
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1030
 S
 #1011
 Havada ...~
-Uçuyorsun! Yerin 40 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 40 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1016
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1012
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1006
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1031
 S
 #1012
 Havada ...~
-Uçuyorsun! Yerin 20 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 20 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1011
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1017
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1013
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1007
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1032
 S
 #1013
 Havada ...~
-Uçuyorsun! Yerin 40 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 40 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1012
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1018
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1014
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1008
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1033
 S
 #1014
 Havada ...~
-Uçuyorsun! Yerin 20 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 20 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1013
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1019
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1015
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1009
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1034
 S
 #1015
 Havada ...~
-Uçuyorsun! Yerin 40 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 40 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1014
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1020
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1010
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1035
 S
 #1016
 Havada ...~
-Uçuyorsun! Yerin 10 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 10 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1017
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1011
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1036
 S
 #1017
 Havada ...~
-Uçuyorsun! Yerin 40 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 40 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1016
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1018
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1012
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1037
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 3057
 S
 #1018
 Havada ...~
-Uçuyorsun! Yerin 40 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 40 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1017
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1019
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1013
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1038
 S
 #1019
 Havada ...~
-Uçuyorsun! Yerin 40 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 40 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1018
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1020
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1014
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1039
 S
 #1020
 Havada ...~
-Uçuyorsun! Yerin 40 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 40 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1019
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1015
 D4
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1040
 S
 #1021
 Havada ...~
-Uçuyorsun! Yerin 60 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 60 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1026
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1022
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1001
 S
 #1022
 Havada ...~
-Uçuyorsun! Yerin 40 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 40 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1021
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1027
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1023
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1002
 S
 #1023
 Havada ...~
-Uçuyorsun! Yerin 60 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 60 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1022
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1028
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1024
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1003
 S
 #1024
 Havada ...~
-Uçuyorsun! Yerin 60 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 60 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1023
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1029
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1025
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1004
 S
 #1025
 Havada ...~
-Uçuyorsun! Yerin 60 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 60 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1024
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1030
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1005
 S
 #1026
 Havada ...~
-Uçuyorsun! Yerin 60 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 60 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1031
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1027
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1021
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1006
 S
 #1027
 Havada ...~
-Uçuyorsun! Yerin 40 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 40 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1026
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1032
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1028
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1022
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1007
 S
 #1028
 Havada ...~
-Uçuyorsun! Yerin 60 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 60 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1027
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1033
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1029
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1023
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1008
 S
 #1029
 Havada ...~
-Uçuyorsun! Yerin 40 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 40 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1028
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1034
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1030
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1024
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1009
 S
 #1030
 Havada ...~
-Uçuyorsun! Yerin 60 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 60 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1029
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1035
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1025
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1010
 S
 #1031
 Havada ...~
-Uçuyorsun! Yerin 60 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 60 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1036
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1032
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1026
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1011
 S
 #1032
 Havada ...~
-Uçuyorsun! Yerin 40 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 40 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1031
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1037
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1033
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1027
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1012
 S
 #1033
 Havada ...~
-Uçuyorsun! Yerin 60 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 60 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1032
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1038
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1034
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1028
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1013
 S
 #1034
 Havada ...~
-Uçuyorsun! Yerin 40 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 40 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1033
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1039
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1035
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1029
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1014
 S
 #1035
 Havada ...~
-Uçuyorsun! Yerin 60 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 60 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1034
 D1
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1040
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1030
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1015
 S
 #1036
 Havada ...~
-Uçuyorsun! Yerin 30 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 30 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1037
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1031
@@ -1060,110 +1060,110 @@ on.
 ~
 0 0 7700
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1016
 S
 #1037
 Havada ...~
-Uçuyorsun! Yerin 60 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 60 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1036
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1038
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1032
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1017
 S
 #1038
 Havada ...~
-Uçuyorsun! Yerin 60 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 60 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1037
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1039
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1033
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1018
 S
 #1039
 Havada ...~
-Uçuyorsun! Yerin 60 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 60 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1038
 D2
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1040
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1034
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1019
 S
 #1040
 Havada ...~
-Uçuyorsun! Yerin 60 metre üzerindesin. Görünüşe bakılırsa, sonsuzu
-görebilirsin.
+UÃ§uyorsun! Yerin 60 metre Ã¼zerindesin. GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa, sonsuzu
+gÃ¶rebilirsin.
 ~
 0 0 9
 D0
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1039
 D3
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1035
 D5
-Aynı.
+AynÄ±.
 ~
 ~
 0 0 1020

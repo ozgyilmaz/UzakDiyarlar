@@ -3,7 +3,7 @@ Filename selenge_cezaevi.are~
 Name Selenge Cezaevi~
 Builder Flar~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 90
 Minvnum 32000
@@ -17,67 +17,67 @@ END
 
 #NEW_MOBILES
 #32000
-kapıbekçisi kapı bekçi~
-kapıbekçisi~
-Kapıbekçisi burada, şekerleme yapıyor.
+kapÄ±bekÃ§isi kapÄ± bekÃ§i~
+kapÄ±bekÃ§isi~
+KapÄ±bekÃ§isi burada, ÅŸekerleme yapÄ±yor.
 ~
-Oldukça iri bir bekçi görüyorsun. Horultusu güçlü ve ürkütücü.
-Sanırım onu hemen öldürmeyi düşünüyorsun...
+OldukÃ§a iri bir bekÃ§i gÃ¶rÃ¼yorsun. Horultusu gÃ¼Ã§lÃ¼ ve Ã¼rkÃ¼tÃ¼cÃ¼.
+SanÄ±rÄ±m onu hemen Ã¶ldÃ¼rmeyi dÃ¼ÅŸÃ¼nÃ¼yorsun...
 ~
 human~
 ABG 0 6
 #32001
-sıçan~
-sıçan~
-Bir sıçan kıçının üstüne oturmuş bir sonraki yemeğini düşünüyor.
+sÄ±Ã§an~
+sÄ±Ã§an~
+Bir sÄ±Ã§an kÄ±Ã§Ä±nÄ±n Ã¼stÃ¼ne oturmuÅŸ bir sonraki yemeÄŸini dÃ¼ÅŸÃ¼nÃ¼yor.
 ~
-Günlerdir birşey yememiş... Şimdi SENİ yemeyi düşünüyor.
+GÃ¼nlerdir birÅŸey yememiÅŸ... Åimdi SENÄ° yemeyi dÃ¼ÅŸÃ¼nÃ¼yor.
 ~
 lizard~
 AG Q 5
 #32002
 gardiyan~
 Gardiyan~
-Gardiyan burada, dalgın görünmesine rağmen dikkatli.
+Gardiyan burada, dalgÄ±n gÃ¶rÃ¼nmesine raÄŸmen dikkatli.
 ~
-Çıplak el dövüşü ve konuşturma yöntemleri (tabii ki işkenceler) konularında
-özel eğitime sahip.
+Ã‡Ä±plak el dÃ¶vÃ¼ÅŸÃ¼ ve konuÅŸturma yÃ¶ntemleri (tabii ki iÅŸkenceler) konularÄ±nda
+Ã¶zel eÄŸitime sahip.
 ~
 human~
 ACG 0 65
 #32003
-cezaevi işçi~
-cezaevi işçisi~
-Cezaevi işçisi burada, mümkün olduğunca az çalışmaya çalışıyor.
+cezaevi iÅŸÃ§i~
+cezaevi iÅŸÃ§isi~
+Cezaevi iÅŸÃ§isi burada, mÃ¼mkÃ¼n olduÄŸunca az Ã§alÄ±ÅŸmaya Ã§alÄ±ÅŸÄ±yor.
 ~
-Selenge'deki çöpçülere benziyor.
+Selenge'deki Ã§Ã¶pÃ§Ã¼lere benziyor.
 ~
 human~
 ACG DF 9
 #32004
-hücre gardiyanı~
-hücre gardiyanı~
-Hücre gardiyanı burada, yüzünde buz gibi bir gülümseme var.
+hÃ¼cre gardiyanÄ±~
+hÃ¼cre gardiyanÄ±~
+HÃ¼cre gardiyanÄ± burada, yÃ¼zÃ¼nde buz gibi bir gÃ¼lÃ¼mseme var.
 ~
-Herşeyi cezaevi içinde tutmayı becerebilecek kadar güçlü.
+HerÅŸeyi cezaevi iÃ§inde tutmayÄ± becerebilecek kadar gÃ¼Ã§lÃ¼.
 ~
 human~
 ABG H 65
 #32005
 mahkum~
 mahkum~
-Mahkum burada, oldukça umutsuz görünüyor.
+Mahkum burada, oldukÃ§a umutsuz gÃ¶rÃ¼nÃ¼yor.
 ~
-Hergün deliler gibi çalıştırılmaktan elleri yara olmuş.
+HergÃ¼n deliler gibi Ã§alÄ±ÅŸtÄ±rÄ±lmaktan elleri yara olmuÅŸ.
 ~
 human~
 AG 0 33
 #32006
-hamamböceği~
-hamamböceği~
-Büyük bir hamamböceği burada, etrafı kolaçan ediyor.
+hamambÃ¶ceÄŸi~
+hamambÃ¶ceÄŸi~
+BÃ¼yÃ¼k bir hamambÃ¶ceÄŸi burada, etrafÄ± kolaÃ§an ediyor.
 ~
-Bu bünyeyi besleyebilmek için en azından her iki günde bir senin büyüklüğünde bir
+Bu bÃ¼nyeyi besleyebilmek iÃ§in en azÄ±ndan her iki gÃ¼nde bir senin bÃ¼yÃ¼klÃ¼ÄŸÃ¼nde bir
 somun yemesi gerekiyor.
 ~
 centipede~
@@ -87,106 +87,106 @@ hizmetkar~
 hizmetkar~
 Hizmetkar burada, birinin kendisine emir vermesini bekliyor.
 ~
-Cezaevinin en düşük rütbeli çalışanı. Rahatlıkla gebertebileceğin biri...
+Cezaevinin en dÃ¼ÅŸÃ¼k rÃ¼tbeli Ã§alÄ±ÅŸanÄ±. RahatlÄ±kla gebertebileceÄŸin biri...
 ~
 human~
 AGH 0 13
 #32008
-taş muhafız~
-taş muhafız~
-Muhafız burada, taş gibi duruyor.
+taÅŸ muhafÄ±z~
+taÅŸ muhafÄ±z~
+MuhafÄ±z burada, taÅŸ gibi duruyor.
 ~
-Oldukça sert ve yoğun bir şekilde sigara kokuyor.
+OldukÃ§a sert ve yoÄŸun bir ÅŸekilde sigara kokuyor.
 ~
 human~
 ABGH 0 44
 #32009
 gangster~
 gangster~
-Gangster burada, hizmetkarlara emirler yağdırıyor.
+Gangster burada, hizmetkarlara emirler yaÄŸdÄ±rÄ±yor.
 ~
-Başkana önerdiği rüşvetin azlığı nedeniyle burada.
+BaÅŸkana Ã¶nerdiÄŸi rÃ¼ÅŸvetin azlÄ±ÄŸÄ± nedeniyle burada.
 ~
 human~
 ACGH 0 23
 #32010
-topuz müdür~
-Müdür Topuz~
-Müdür Topuz burada, öldürülecek mahkumların listesini arıyor.
+topuz mÃ¼dÃ¼r~
+MÃ¼dÃ¼r Topuz~
+MÃ¼dÃ¼r Topuz burada, Ã¶ldÃ¼rÃ¼lecek mahkumlarÄ±n listesini arÄ±yor.
 ~
-Giyim zevki ve hareketleriyle Selenge başkanına çok benziyor. Sapkın
-düşleri ve hareketleriyle hem mahkumların, hem gardiyanların hem de
-Demay'ın baş belası.
+Giyim zevki ve hareketleriyle Selenge baÅŸkanÄ±na Ã§ok benziyor. SapkÄ±n
+dÃ¼ÅŸleri ve hareketleriyle hem mahkumlarÄ±n, hem gardiyanlarÄ±n hem de
+Demay'Ä±n baÅŸ belasÄ±.
 ~
 human~
 AG HU 84
 #32011
 demay~
 sekreter Demay~
-Sekreter Demay burada, dosyalarla uğraşıyor.
+Sekreter Demay burada, dosyalarla uÄŸraÅŸÄ±yor.
 ~
-Hergün gördüğün sekreterlerden. Güzel göğüsler ve sütun gibi bacaklar...
+HergÃ¼n gÃ¶rdÃ¼ÄŸÃ¼n sekreterlerden. GÃ¼zel gÃ¶ÄŸÃ¼sler ve sÃ¼tun gibi bacaklar...
 ~
 human~
 AB 0 40
 #32012
 tamirci enre~
 Enre~
-Tamirci Enre burada, birşeylerle uğraşıyor.
+Tamirci Enre burada, birÅŸeylerle uÄŸraÅŸÄ±yor.
 ~
-Cezaevinin bütün onarım işlerinin sorumlusu. Çalışmayı pek sevmese de
-para kazanmak için yapabileceği başka birşey yok.
+Cezaevinin bÃ¼tÃ¼n onarÄ±m iÅŸlerinin sorumlusu. Ã‡alÄ±ÅŸmayÄ± pek sevmese de
+para kazanmak iÃ§in yapabileceÄŸi baÅŸka birÅŸey yok.
 ~
 human~
 ABG 0 50
 #32013
-yardımcı dot~
+yardÄ±mcÄ± dot~
 Dot~
-Dot burada, Enre'nin yapması gerekenlerle uğraşıyor.
+Dot burada, Enre'nin yapmasÄ± gerekenlerle uÄŸraÅŸÄ±yor.
 ~
-Enre'nin tembelliği yüzünden yapmadığı işlerle uğraşıyor. Bir yandan
-çalışıyor, bir yandan da Enre'nin küfürlerini ve aşağılamalarını dinliyor.
+Enre'nin tembelliÄŸi yÃ¼zÃ¼nden yapmadÄ±ÄŸÄ± iÅŸlerle uÄŸraÅŸÄ±yor. Bir yandan
+Ã§alÄ±ÅŸÄ±yor, bir yandan da Enre'nin kÃ¼fÃ¼rlerini ve aÅŸaÄŸÄ±lamalarÄ±nÄ± dinliyor.
 ~
 human~
 AG 0 53
 #32014
-aşçı wendy~
+aÅŸÃ§Ä± wendy~
 Wendy~
-Wendy burada, bir sonraki öğünde ne pişireceğini düşünüyor.
+Wendy burada, bir sonraki Ã¶ÄŸÃ¼nde ne piÅŸireceÄŸini dÃ¼ÅŸÃ¼nÃ¼yor.
 ~
-Uzun siyah saçlarını topuz yapmış genç ve alımlı bir bayan görüyorsun.
-Burada aşçı olarak çalışmak onu memnun ediyor. Oğlu Yakup'u da hergün
-yanında getiriyor.
+Uzun siyah saÃ§larÄ±nÄ± topuz yapmÄ±ÅŸ genÃ§ ve alÄ±mlÄ± bir bayan gÃ¶rÃ¼yorsun.
+Burada aÅŸÃ§Ä± olarak Ã§alÄ±ÅŸmak onu memnun ediyor. OÄŸlu Yakup'u da hergÃ¼n
+yanÄ±nda getiriyor.
 ~
 human~
 ABG HN 90
 #32015
-buhar canavarı~
-buhar canavarı~
-Garip bir canavar görüyorsun.
+buhar canavarÄ±~
+buhar canavarÄ±~
+Garip bir canavar gÃ¶rÃ¼yorsun.
 ~
-Işıksız bir ortamda bile rahatça görülebilecek kadar parlak. Ne iş
-yapıyor, neden burada duruyor... Bütün bu soruların cevabını ben
+IÅŸÄ±ksÄ±z bir ortamda bile rahatÃ§a gÃ¶rÃ¼lebilecek kadar parlak. Ne iÅŸ
+yapÄ±yor, neden burada duruyor... BÃ¼tÃ¼n bu sorularÄ±n cevabÄ±nÄ± ben
 biliyorum, ya sen bilmek ister misin?
 ~
 asura~
 ABFG D 30
 #32016
-zırhçı Larry~
+zÄ±rhÃ§Ä± Larry~
 Larry~
-Zırhçı Larry burada, zırhlarını gösteriyor.
+ZÄ±rhÃ§Ä± Larry burada, zÄ±rhlarÄ±nÄ± gÃ¶steriyor.
 ~
-Üzerinde düşünülmesi gereken biri değil.
+Ãœzerinde dÃ¼ÅŸÃ¼nÃ¼lmesi gereken biri deÄŸil.
 ~
 human~
 ABG 0 105
 #32017
 demirci gomas~
 Gomas~
-Demirci Gomas burada, yeni silahlar dövüyor.
+Demirci Gomas burada, yeni silahlar dÃ¶vÃ¼yor.
 ~
-Eski bir hücre muhafızı. Şimdi ise silah üretimiyle uğraşıyor. Bu işi
-yapmayı hakedecek bilgi ve beceriye sahip biri.
+Eski bir hÃ¼cre muhafÄ±zÄ±. Åimdi ise silah Ã¼retimiyle uÄŸraÅŸÄ±yor. Bu iÅŸi
+yapmayÄ± hakedecek bilgi ve beceriye sahip biri.
 ~
 human~
 ABG 0 105
@@ -195,55 +195,55 @@ biftek dilim~
 biftek dilimi~
 Bir biftek dilimi burada, hareket ediyor.
 ~
-Biftek dilimini inceliyorsun. Sen ona bakarken o da yavaş yavaş
-uzaklaşmayı deniyor.
+Biftek dilimini inceliyorsun. Sen ona bakarken o da yavaÅŸ yavaÅŸ
+uzaklaÅŸmayÄ± deniyor.
 ~
 ghost~
 ABG 0 1
 #32019
-dindar ermiş~
-Dindar Ermiş~
-Dindar bir Ermiş görüyorsun, barış içinde elini tutuyor.
+dindar ermiÅŸ~
+Dindar ErmiÅŸ~
+Dindar bir ErmiÅŸ gÃ¶rÃ¼yorsun, barÄ±ÅŸ iÃ§inde elini tutuyor.
 ~
-Uzaklardan, çook uzaklardan gelmiş. Geldiği yerde insanların güneş
-altında kavrulduğundan bahsediyor.
+Uzaklardan, Ã§ook uzaklardan gelmiÅŸ. GeldiÄŸi yerde insanlarÄ±n gÃ¼neÅŸ
+altÄ±nda kavrulduÄŸundan bahsediyor.
 ~
 human~
 ABGK HN 115
 #32020
-havlucu çocuk~
+havlucu Ã§ocuk~
 havlucu~
-Havlucu çocuk burada, sırtını duvara dayamış duruyor.
+Havlucu Ã§ocuk burada, sÄ±rtÄ±nÄ± duvara dayamÄ±ÅŸ duruyor.
 ~
-Ne kadar berbat bir iş!! Onun görevi uşu kullananlara havlu yetiştirmek.
+Ne kadar berbat bir iÅŸ!! Onun gÃ¶revi uÅŸu kullananlara havlu yetiÅŸtirmek.
 ~
 human~
 ABG JN 5
 #32021
 cellat~
 Cellat~
-Cellat burada, birilerini öldürmek için son hazırlıklarını yapıyor.
+Cellat burada, birilerini Ã¶ldÃ¼rmek iÃ§in son hazÄ±rlÄ±klarÄ±nÄ± yapÄ±yor.
 ~
-Onun ne bir yüzü, ne de bir ruhu var. O yaşı bilinmeyen bir iblis.
+Onun ne bir yÃ¼zÃ¼, ne de bir ruhu var. O yaÅŸÄ± bilinmeyen bir iblis.
 ~
 human~
 ABG HJN 100
 #32022
-şey siyah~
-Siyah Şey~
-Siyah bir Şey burada duruyor.
+ÅŸey siyah~
+Siyah Åey~
+Siyah bir Åey burada duruyor.
 ~
-İçinde ve dışında gökkuşağındaki renklerin soluk izlerinin oynaştığı
-siyah bir kütle görüyorsun. Onun ne olduğunu inan ben de bilmiyorum....
+Ä°Ã§inde ve dÄ±ÅŸÄ±nda gÃ¶kkuÅŸaÄŸÄ±ndaki renklerin soluk izlerinin oynaÅŸtÄ±ÄŸÄ±
+siyah bir kÃ¼tle gÃ¶rÃ¼yorsun. Onun ne olduÄŸunu inan ben de bilmiyorum....
 ~
 ghoul~
 ABFG J 40
 #32023
-tunç ejderha~
-Tunç Ejderha~
-Büyük, tunç bir ejderha görüyorsun, her nefes alışında sanki gök gürlüyor.
+tunÃ§ ejderha~
+TunÃ§ Ejderha~
+BÃ¼yÃ¼k, tunÃ§ bir ejderha gÃ¶rÃ¼yorsun, her nefes alÄ±ÅŸÄ±nda sanki gÃ¶k gÃ¼rlÃ¼yor.
 ~
-O bir seferde algılanamayacak kadar büyük... Burada işi ne?!
+O bir seferde algÄ±lanamayacak kadar bÃ¼yÃ¼k... Burada iÅŸi ne?!
 ~
 dragon~
 AG BDFHJPU 75
@@ -252,8 +252,8 @@ terry~
 Terry~
 Kimyager Terry burada.
 ~
-Çevre Kimya Endüstrisi için çalışan genç bir kimyager görüyorsun. Stif'e
-kimyasal maddeleri satan adam bu olmalı.
+Ã‡evre Kimya EndÃ¼strisi iÃ§in Ã§alÄ±ÅŸan genÃ§ bir kimyager gÃ¶rÃ¼yorsun. Stif'e
+kimyasal maddeleri satan adam bu olmalÄ±.
 ~
 human~
 ACH DH 50
@@ -263,17 +263,17 @@ ACH DH 50
 
 #OBJECTS
 #32000
-kapı anahtar~
-kapı anahtarı~
+kapÄ± anahtar~
+kapÄ± anahtarÄ±~
 Metal bir anahtar burada duruyor.~
 iron~
 key B AO
 0 0 0 0 0
 5 0 0 P
 #32001
-kısa kılıç~
-kısa kılıç~
-Tehlikeli bir kısa kılıç burada dinleniyor.~
+kÄ±sa kÄ±lÄ±Ã§~
+kÄ±sa kÄ±lÄ±Ã§~
+Tehlikeli bir kÄ±sa kÄ±lÄ±Ã§ burada dinleniyor.~
 steel~
 weapon 0 AN
 sword 1 6 slash 0
@@ -285,7 +285,7 @@ A
 #32002
 sigara paketi~
 bir paket sigara~
-Bir paket sigara burada düşürülmüş.
+Bir paket sigara burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.
 ~
 unknown~
 armor BE AO
@@ -297,10 +297,10 @@ A
 18 2
 E
 sigara paket~
-Yasal Uyarı: Sigara Sağlığa Zararlıdır.~
+Yasal UyarÄ±: Sigara SaÄŸlÄ±ÄŸa ZararlÄ±dÄ±r.~
 #32003
-bez parça~
-bez parçası~
+bez parÃ§a~
+bez parÃ§asÄ±~
 Tozlu bir bez burada duruyor.
 ~
 unknown~
@@ -308,9 +308,9 @@ trash H A
 0 1 6 11 P
 20 0 0 P
 #32004
-yağlı ip~
-yağlı ip~
-Bir yağlı ip görüyorsun.
+yaÄŸlÄ± ip~
+yaÄŸlÄ± ip~
+Bir yaÄŸlÄ± ip gÃ¶rÃ¼yorsun.
 ~
 unknown~
 weapon AGJL AN
@@ -321,18 +321,18 @@ A
 A
 4 1
 #32005
-çanta~
-çanta~
-Güzel bir çanta burada duruyor.
+Ã§anta~
+Ã§anta~
+GÃ¼zel bir Ã§anta burada duruyor.
 ~
 leather~
 container FG AO
 300 0 0 11 100
 0 10 10 P
 #32006
-kor yüzük~
-kor yüzük~
-Güzel bir yüzük burada dinleniyor.
+kor yÃ¼zÃ¼k~
+kor yÃ¼zÃ¼k~
+GÃ¼zel bir yÃ¼zÃ¼k burada dinleniyor.
 ~
 unknown~
 treasure 0 AB
@@ -343,9 +343,9 @@ A
 A
 13 12
 #32007
-zarif yüzük~
-zarif yüzük~
-Zarif bir yüzük burada, yerde dinlenmenin tadını çıkarıyor.
+zarif yÃ¼zÃ¼k~
+zarif yÃ¼zÃ¼k~
+Zarif bir yÃ¼zÃ¼k burada, yerde dinlenmenin tadÄ±nÄ± Ã§Ä±karÄ±yor.
 ~
 unknown~
 treasure 0 AB
@@ -369,9 +369,9 @@ A
 A
 12 5
 #32009
-sıçan eti~
-sıçan eti~
-Lezzetli bir sıçan eti parçası burada duruyor.
+sÄ±Ã§an eti~
+sÄ±Ã§an eti~
+Lezzetli bir sÄ±Ã§an eti parÃ§asÄ± burada duruyor.
 ~
 food~
 food 0 A
@@ -387,36 +387,36 @@ armor 0 AC
 2 0 0 0 0
 1 5 0 P
 #32011
-zarif gömlek~
-zarif gömlek~
-Zarif bir gömlek burada, yeni sahibini bekliyor.
+zarif gÃ¶mlek~
+zarif gÃ¶mlek~
+Zarif bir gÃ¶mlek burada, yeni sahibini bekliyor.
 ~
 leather~
 armor 0 AD
 2 0 0 0 0
 1 5 0 P
 #32012
-zarif miğfer~
-zarif miğfer~
-Zarif bir miğfer burada, yeni sahibini bekliyor.
+zarif miÄŸfer~
+zarif miÄŸfer~
+Zarif bir miÄŸfer burada, yeni sahibini bekliyor.
 ~
 steel~
 armor 0 AE
 2 0 0 0 0
 1 5 0 P
 #32013
-zarif bacaklık~
-bir çift zarif bacaklık~
-Bir çift zarif bacaklık burada, yeni sahibini bekliyor.
+zarif bacaklÄ±k~
+bir Ã§ift zarif bacaklÄ±k~
+Bir Ã§ift zarif bacaklÄ±k burada, yeni sahibini bekliyor.
 ~
 steel~
 armor 0 AF
 2 0 0 0 0
 1 5 0 P
 #32014
-zarif çizme~
-bir çift zarif çizme~
-Bir çift zarif çizme burada, yeni sahibini bekliyor.
+zarif Ã§izme~
+bir Ã§ift zarif Ã§izme~
+Bir Ã§ift zarif Ã§izme burada, yeni sahibini bekliyor.
 ~
 leather~
 armor 0 AG
@@ -424,8 +424,8 @@ armor 0 AG
 1 5 0 P
 #32015
 zarif eldiven~
-bir çift zarif eldiven~
-Bir çift zarif eldiven burada, yeni sahibini bekliyor.
+bir Ã§ift zarif eldiven~
+Bir Ã§ift zarif eldiven burada, yeni sahibini bekliyor.
 ~
 leather~
 armor 0 AH
@@ -433,8 +433,8 @@ armor 0 AH
 1 5 0 P
 #32016
 zarif kolluk~
-bir çift zarif kolluk~
-Bir çift zarif kolluk burada, yeni sahibini bekliyor.
+bir Ã§ift zarif kolluk~
+Bir Ã§ift zarif kolluk burada, yeni sahibini bekliyor.
 ~
 steel~
 armor 0 AI
@@ -467,7 +467,7 @@ A
 #32019
 zarif bileklik~
 zarif bileklik~
-Bir zarif bileklik burada düşürülmüş.
+Bir zarif bileklik burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.
 ~
 leather~
 armor 0 AM
@@ -476,7 +476,7 @@ armor 0 AM
 #32020
 hanor parlak~
 parlak hanor~
-Üzerinde 'parlak hanor' yazan birşey burada bırakılmış.
+Ãœzerinde 'parlak hanor' yazan birÅŸey burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 unknown~
 treasure 0 AO
@@ -489,61 +489,61 @@ A
 #32021
 bavul mahkum~
 mahkum bavulu~
-Bir mahkum bavulu burada unutulmuş.
+Bir mahkum bavulu burada unutulmuÅŸ.
 ~
 unknown~
 container 0 AO
 75 0 0 5 100
 5 10 0 P
 #32022
-heykelli çeşme~
-heykelli çeşme~
-Mervie'ye itafen yapılan bir heykelli çeşme görüyorsun.
+heykelli Ã§eÅŸme~
+heykelli Ã§eÅŸme~
+Mervie'ye itafen yapÄ±lan bir heykelli Ã§eÅŸme gÃ¶rÃ¼yorsun.
 ~
 marble~
 fountain A 0
 1100 1100 'water' 0 0
 0 0 0 P
 E
-çeşme heykel~
-Tunçtan yapılmış büyük bir heykel. Elinde uzun bir sopa, sırtında oklarını
-koyduğu deri bir çanta ve çapraz astığı yayıyla Mervie'yi görüyorsun...
-Saygıyla anıyorsun. Şimdi su içebilirsin.~
+Ã§eÅŸme heykel~
+TunÃ§tan yapÄ±lmÄ±ÅŸ bÃ¼yÃ¼k bir heykel. Elinde uzun bir sopa, sÄ±rtÄ±nda oklarÄ±nÄ±
+koyduÄŸu deri bir Ã§anta ve Ã§apraz astÄ±ÄŸÄ± yayÄ±yla Mervie'yi gÃ¶rÃ¼yorsun...
+SaygÄ±yla anÄ±yorsun. Åimdi su iÃ§ebilirsin.~
 #32023
-buruşmuş kağıt~
-buruşmuş kağıt~
-Buruşmuş bir kağıt burada bırakılmış.
+buruÅŸmuÅŸ kaÄŸÄ±t~
+buruÅŸmuÅŸ kaÄŸÄ±t~
+BuruÅŸmuÅŸ bir kaÄŸÄ±t burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 paper~
 treasure 0 A
 0 0 0 0 0
 0 10 0 P
 E
-kağıt~
+kaÄŸÄ±t~
 Seni terkediyorum.
 Diana~
 #32024
 masa~
 masa~
-Üzeri kağıtla kaplı bir masa görüyorsun.
+Ãœzeri kaÄŸÄ±tla kaplÄ± bir masa gÃ¶rÃ¼yorsun.
 ~
 wood~
 container 0 0
 1000 0 0 50 100
 0 0 0 0
 #32025
-hücre anahtar~
-hücre anahtarı~
-Metal bir hücre anahtarı burada duruyor.
+hÃ¼cre anahtar~
+hÃ¼cre anahtarÄ±~
+Metal bir hÃ¼cre anahtarÄ± burada duruyor.
 ~
 iron~
 key 0 A
 0 0 0 0 0
 15 0 0 P
 #32026
-çivili değnek~
-çivili değnek~
-Çivili bir değnek burada, yeni sahibini bekliyor.
+Ã§ivili deÄŸnek~
+Ã§ivili deÄŸnek~
+Ã‡ivili bir deÄŸnek burada, yeni sahibini bekliyor.
 ~
 unknown~
 wand 0 AO
@@ -552,25 +552,25 @@ wand 0 AO
 #32027
 taklit elmas~
 taklit elmas~
-Işıl ışıl bir elmas burada duruyor.
+IÅŸÄ±l Ä±ÅŸÄ±l bir elmas burada duruyor.
 ~
 unknown~
 treasure 0 AO
 0 1 6 0 0
 0 10 10 P
 #32028
-süpürge~
-süpürge~
-Duvara dayanmış bir süpürge görüyorsun.
+sÃ¼pÃ¼rge~
+sÃ¼pÃ¼rge~
+Duvara dayanmÄ±ÅŸ bir sÃ¼pÃ¼rge gÃ¶rÃ¼yorsun.
 ~
 unknown~
 weapon 0 AN
 exotic 2 4 pierce 0
 5 5 10 P
 #32029
-savaş balta~
-savaş baltası~
-Bir savaş baltası burada, yeni bir sahip bekliyor.
+savaÅŸ balta~
+savaÅŸ baltasÄ±~
+Bir savaÅŸ baltasÄ± burada, yeni bir sahip bekliyor.
 ~
 steel~
 weapon 0 AN
@@ -581,9 +581,9 @@ A
 A
 19 3
 #32030
-çivili bileklik~
-çivili bileklik~
-Çivili bir bileklik burada, yeni bir sahip istiyor.
+Ã§ivili bileklik~
+Ã§ivili bileklik~
+Ã‡ivili bir bileklik burada, yeni bir sahip istiyor.
 ~
 unknown~
 armor 0 AM
@@ -600,9 +600,9 @@ A
 A
 19 5
 #32031
-titanyum bacaklık~
-bir çift titanyum bacaklık~
-Yerde bekleyen güçlü bacaklıklar görüyorsun.
+titanyum bacaklÄ±k~
+bir Ã§ift titanyum bacaklÄ±k~
+Yerde bekleyen gÃ¼Ã§lÃ¼ bacaklÄ±klar gÃ¶rÃ¼yorsun.
 ~
 titanium~
 armor 0 AF
@@ -614,8 +614,8 @@ A
 24 -15
 #32032
 titanyum kolluk~
-bir çift titanyum kolluk~
-Yerde bekleyen güçlü kolluklar görüyorsun.
+bir Ã§ift titanyum kolluk~
+Yerde bekleyen gÃ¼Ã§lÃ¼ kolluklar gÃ¶rÃ¼yorsun.
 ~
 titanium~
 armor 0 AI
@@ -637,7 +637,7 @@ A
 #32034
 titanyum kalkan~
 titanyum kalkan~
-Yerde sağlam bir kalkan görüyorsun.
+Yerde saÄŸlam bir kalkan gÃ¶rÃ¼yorsun.
 ~
 titanium~
 armor 0 AJ
@@ -646,9 +646,9 @@ armor 0 AJ
 A
 19 10
 #32035
-kama eğri~
-eğri kama~
-Eğri bir kama burada, yeni bir suikast bekliyor.
+kama eÄŸri~
+eÄŸri kama~
+EÄŸri bir kama burada, yeni bir suikast bekliyor.
 ~
 steel~
 weapon EFJ AN
@@ -659,9 +659,9 @@ A
 A
 19 4
 #32036
-karası zift yüzük muhafız~
-zift karası bir yüzük~
-Kara bir yüzük burada unutulmuş.
+karasÄ± zift yÃ¼zÃ¼k muhafÄ±z~
+zift karasÄ± bir yÃ¼zÃ¼k~
+Kara bir yÃ¼zÃ¼k burada unutulmuÅŸ.
 ~
 unknown~
 armor ABFG AB
@@ -672,9 +672,9 @@ A
 A
 13 200
 #32037
-demir kelepçe~
-demir kelepçe~
-Yerde sağlam, demir bir kelepçe görüyorsun.
+demir kelepÃ§e~
+demir kelepÃ§e~
+Yerde saÄŸlam, demir bir kelepÃ§e gÃ¶rÃ¼yorsun.
 ~
 iron~
 armor M AM
@@ -685,27 +685,27 @@ A
 A
 9 2
 #32038
-enerji değnek~
-bir enerji değneği~
-Ev yapımı bir değnek burada unutulmuş.
+enerji deÄŸnek~
+bir enerji deÄŸneÄŸi~
+Ev yapÄ±mÄ± bir deÄŸnek burada unutulmuÅŸ.
 ~
 unknown~
 wand 0 AO
 15 8 8 'high explosive' 0
 5 5 10 P
 #32039
-altın sikke~
-bir yığın altın sikke~
-Bir yığın altın sikke burada unutulmuş. ŞANSA BAK!!!
+altÄ±n sikke~
+bir yÄ±ÄŸÄ±n altÄ±n sikke~
+Bir yÄ±ÄŸÄ±n altÄ±n sikke burada unutulmuÅŸ. ÅANSA BAK!!!
 ~
 gold~
 money 0 A
 1500 0 0 0 0
 0 0 0 P
 #32040
-pullu pembe çizme~
-bir çift pullu pembe çizme~
-Bir çift pullu pembe çizme burada unutulmuş.
+pullu pembe Ã§izme~
+bir Ã§ift pullu pembe Ã§izme~
+Bir Ã§ift pullu pembe Ã§izme burada unutulmuÅŸ.
 ~
 unknown~
 armor 0 AG
@@ -714,9 +714,9 @@ armor 0 AG
 A
 2 5
 #32041
-pembe kaşkol~
-pembe kaşkol~
-Pembe bir kaşkol burada unutulmuş.
+pembe kaÅŸkol~
+pembe kaÅŸkol~
+Pembe bir kaÅŸkol burada unutulmuÅŸ.
 ~
 cashmire~
 armor 0 AC
@@ -725,9 +725,9 @@ armor 0 AC
 A
 17 -10
 #32042
-mutfak önlük~
-mutfak önlüğü~
-Bir mutfak önlüğü burada bırakılmış.
+mutfak Ã¶nlÃ¼k~
+mutfak Ã¶nlÃ¼ÄŸÃ¼~
+Bir mutfak Ã¶nlÃ¼ÄŸÃ¼ burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 unknown~
 armor M AD
@@ -738,9 +738,9 @@ A
 A
 19 3
 #32043
-işçi tulum~
-işçi tulumu~
-Bir işçi tulumu burada bırakılmış.
+iÅŸÃ§i tulum~
+iÅŸÃ§i tulumu~
+Bir iÅŸÃ§i tulumu burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 unknown~
 armor BF AK
@@ -751,9 +751,9 @@ A
 A
 13 100
 #32044
-şapka~
-şapka~
-Garip bir şapka burada bırakılmış.
+ÅŸapka~
+ÅŸapka~
+Garip bir ÅŸapka burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 unknown~
 armor 0 AE
@@ -764,9 +764,9 @@ A
 A
 24 10
 #32045
-işçi kemer~
-işçi kemeri~
-Bir işçi kemeri burada bırakılmış.
+iÅŸÃ§i kemer~
+iÅŸÃ§i kemeri~
+Bir iÅŸÃ§i kemeri burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 unknown~
 armor 0 AL
@@ -775,9 +775,9 @@ armor 0 AL
 A
 5 3
 #32046
-altın saç file~
-altın saç filesi~
-Altından bir saç filesi burada bırakılmış.
+altÄ±n saÃ§ file~
+altÄ±n saÃ§ filesi~
+AltÄ±ndan bir saÃ§ filesi burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 gold~
 armor 0 AE
@@ -798,25 +798,25 @@ A
 #32047
 bebek yakup~
 bebek yakup~
-Bebek Yakup burada yatıyor.
+Bebek Yakup burada yatÄ±yor.
 ~
 stone~
 light 0 0
 0 0 0 0 0
 40 5 50 P
 #32048
-parşömen inanç~
-İnanç parşömeni~
-Bir parşömen burada unutulmuş.
+parÅŸÃ¶men inanÃ§~
+Ä°nanÃ§ parÅŸÃ¶meni~
+Bir parÅŸÃ¶men burada unutulmuÅŸ.
 ~
 vellum~
 scroll 0 A
 60 'word of recall' '' '' ''
 40 5 50 P
 #32049
-önlük~
-önlük~
-Biri burada bir önlük bırakmış.
+Ã¶nlÃ¼k~
+Ã¶nlÃ¼k~
+Biri burada bir Ã¶nlÃ¼k bÄ±rakmÄ±ÅŸ.
 ~
 unknown~
 armor 0 AK
@@ -829,16 +829,16 @@ A
 #32050
 muzlu pasta~
 muzlu pasta~
-Bir paket muzlu pasta burada bırakılmış.
+Bir paket muzlu pasta burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 food~
 food H A
 6 6 0 0 0
 0 5 0 P
 #32051
-kara miğfer~
-kara miğfer~
-Kara bir miğfer burada bırakılmış.
+kara miÄŸfer~
+kara miÄŸfer~
+Kara bir miÄŸfer burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 iron~
 armor ABFKL AE
@@ -847,9 +847,9 @@ armor ABFKL AE
 A
 19 10
 #32052
-balta yıkım~
-YıKıM BalTaSı~
-Üzerinde kan izleri olan bir balta görüyorsun.
+balta yÄ±kÄ±m~
+YÄ±KÄ±M BalTaSÄ±~
+Ãœzerinde kan izleri olan bir balta gÃ¶rÃ¼yorsun.
 ~
 steel~
 weapon BFG AN
@@ -860,36 +860,36 @@ A
 A
 19 10
 #32053
-çöp kutu~
-çöp kutusu~
-Bir çöp kutusu görüyorsun. Üzerinde kocaman harflerle 'ÇÖP' yazıyor.
+Ã§Ã¶p kutu~
+Ã§Ã¶p kutusu~
+Bir Ã§Ã¶p kutusu gÃ¶rÃ¼yorsun. Ãœzerinde kocaman harflerle 'Ã‡Ã–P' yazÄ±yor.
 ~
 bronze~
 container 0 0
 200 0 0 6 100
 0 0 0 P
 #32054
-idam sehpası~
-idam sehpası~
-Bir idam sehpası görüyorsun. Üzerine oturup dinlenmeye ne dersin?
+idam sehpasÄ±~
+idam sehpasÄ±~
+Bir idam sehpasÄ± gÃ¶rÃ¼yorsun. Ãœzerine oturup dinlenmeye ne dersin?
 ~
 iron~
 furniture 0 0
 0 0 0 0 0
 0 0 0 P
 #32055
-kopmuş kafa~
-kopmuş kafa~
-Odanın köşesinde kopmuş bir kafa duruyor.
+kopmuÅŸ kafa~
+kopmuÅŸ kafa~
+OdanÄ±n kÃ¶ÅŸesinde kopmuÅŸ bir kafa duruyor.
 ~
 unknown~
 pill 0 0
 1 '' '' '' ''
 5 5 0 P
 #32056
-paslı duş~
-paslı duş~
-Paslanmış bir duş görüyorsun.
+paslÄ± duÅŸ~
+paslÄ± duÅŸ~
+PaslanmÄ±ÅŸ bir duÅŸ gÃ¶rÃ¼yorsun.
 ~
 stone~
 fountain 0 0
@@ -898,25 +898,25 @@ fountain 0 0
 #32057
 siyah hap~
 siyah hap~
-Siyah bir hap görüyorsun, yerde tozlanıyor.
+Siyah bir hap gÃ¶rÃ¼yorsun, yerde tozlanÄ±yor.
 ~
 unknown~
 pill 0 A
 10 'cure light' 'cure serious' 'sanctuary' ''
 5 20 500 P
 #32058
-berbat duman şişe~
-bir şişe berbat duman~
-Yerde dumanlı bir iksir görüyorsun.
+berbat duman ÅŸiÅŸe~
+bir ÅŸiÅŸe berbat duman~
+Yerde dumanlÄ± bir iksir gÃ¶rÃ¼yorsun.
 ~
 glass~
 potion 0 A
 8 'fly' 'refresh' '' ''
 2 25 10 P
 #32059
-rünlü asa~
-rünlü asa~
-Meşe ağacından rünlü bir asa burada bırakılmış.
+rÃ¼nlÃ¼ asa~
+rÃ¼nlÃ¼ asa~
+MeÅŸe aÄŸacÄ±ndan rÃ¼nlÃ¼ bir asa burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 wood~
 staff 0 AO
@@ -925,16 +925,16 @@ staff 0 AO
 #32060
 varil~
 varil~
-55 galonluk bir varil burada bırakılmış.
+55 galonluk bir varil burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 unknown~
 furniture A A
 0 0 0 0 0
 0 10 100 P
 #32061
-deri çanta~
-deri çanta~
-Deri bir çanta burada bırakılmış.
+deri Ã§anta~
+deri Ã§anta~
+Deri bir Ã§anta burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 leather~
 container 0 AJ
@@ -945,7 +945,7 @@ A
 #32062
 kalem~
 kalem~
-Burada bırakılmış bir kalem görüyorsun.
+Burada bÄ±rakÄ±lmÄ±ÅŸ bir kalem gÃ¶rÃ¼yorsun.
 ~
 unknown~
 armor F AO
@@ -962,7 +962,7 @@ A
 #32063
 levha~
 levha~
-Garip bir levha burada bırakılmış.
+Garip bir levha burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 unknown~
 trash 0 A
@@ -971,25 +971,25 @@ trash 0 A
 #32064
 levha~
 levha~
-Garip bir levha burada bırakılmış.
+Garip bir levha burada bÄ±rakÄ±lmÄ±ÅŸ.
 ~
 unknown~
 trash 0 A
 0 0 0 0 0
 0 0 0 P
 #32065
-ec50 değnek~
-EC50 değneği~
-Üzerinde tetikleme mekanizması bulunan garip bir değnek burada unutulmuş.
+ec50 deÄŸnek~
+EC50 deÄŸneÄŸi~
+Ãœzerinde tetikleme mekanizmasÄ± bulunan garip bir deÄŸnek burada unutulmuÅŸ.
 ~
 unknown~
 wand 0 AO
 15 5 5 'fireball' 0
 10 10 1500 P
 #32067
-zarif yüzük~
-zarif yüzük~
-Zarif bir yüzük burada, yerde dinlenmenin tadını çıkarıyor.
+zarif yÃ¼zÃ¼k~
+zarif yÃ¼zÃ¼k~
+Zarif bir yÃ¼zÃ¼k burada, yerde dinlenmenin tadÄ±nÄ± Ã§Ä±karÄ±yor.
 ~
 unknown~
 treasure 0 AB
@@ -1011,25 +1011,25 @@ armor 0 AC
 #32069
 zarif bileklik~
 zarif bileklik~
-Bir zarif bileklik burada düşürülmüş.
+Bir zarif bileklik burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.
 ~
 unknown~
 armor 0 AM
 2 1 0 0 0
 1 5 0 P
 #32070
-geniş masa~
-geniş bir masa~
-Geniş bir masa odanın köşesinde duruyor.
+geniÅŸ masa~
+geniÅŸ bir masa~
+GeniÅŸ bir masa odanÄ±n kÃ¶ÅŸesinde duruyor.
 ~
 unknown~
 container 0 0
 200 0 0 0 0
 0 0 0 P
 #32071
-fildişi çeşme~
-fildişi çeşme~
-Fildişinden yapılmış büyük bir çeşme görüyorsun.
+fildiÅŸi Ã§eÅŸme~
+fildiÅŸi Ã§eÅŸme~
+FildiÅŸinden yapÄ±lmÄ±ÅŸ bÃ¼yÃ¼k bir Ã§eÅŸme gÃ¶rÃ¼yorsun.
 ~
 ivory~
 fountain A 0
@@ -1040,10 +1040,10 @@ fountain A 0
 
 #ROOMS
 #32000
-Selenge Cezaevi Girişi~
-Ürkütücü bir binanın gölgesinde duruyorsun. Hiç penceresi yok. Işığın
-içeri girebilmesi için yarıklar kullanılmış. Uzaktan gelen bir çığlık
-tüylerini diken diken etmeye yetiyor.
+Selenge Cezaevi GiriÅŸi~
+ÃœrkÃ¼tÃ¼cÃ¼ bir binanÄ±n gÃ¶lgesinde duruyorsun. HiÃ§ penceresi yok. IÅŸÄ±ÄŸÄ±n
+iÃ§eri girebilmesi iÃ§in yarÄ±klar kullanÄ±lmÄ±ÅŸ. Uzaktan gelen bir Ã§Ä±ÄŸlÄ±k
+tÃ¼ylerini diken diken etmeye yetiyor.
 ~
 0 C 1
 D0
@@ -1058,14 +1058,14 @@ Selenge Cezaevi
 S
 #32001
 Selenge Cezaevi~
-Büyük cezaevinin önündesin. Bu büyük yapı içeri girenlerin dışarı
-çıkmasına izin vermiyormuş gibi görünüyor. Kuzeyde paslı, büyük bir
-kapı, duvarda ise bir tabela var.
+BÃ¼yÃ¼k cezaevinin Ã¶nÃ¼ndesin. Bu bÃ¼yÃ¼k yapÄ± iÃ§eri girenlerin dÄ±ÅŸarÄ±
+Ã§Ä±kmasÄ±na izin vermiyormuÅŸ gibi gÃ¶rÃ¼nÃ¼yor. Kuzeyde paslÄ±, bÃ¼yÃ¼k bir
+kapÄ±, duvarda ise bir tabela var.
 ~
 0 0 1
 D0
-paslı kapı~
-kapı~
+paslÄ± kapÄ±~
+kapÄ±~
 1 32000 32002
 D2
 ~
@@ -1074,14 +1074,14 @@ D2
 E
 tabela~
 *****************************************
-*  Selenge Cezaevine Hoşgeldiniz.  *
+*  Selenge Cezaevine HoÅŸgeldiniz.  *
 *****************************************
 ~
 S
 #32002
-Aydınlık Kesişim~
-Cezaevinin merkez kavşağındasın. Doğu ve batı oldukça aydınlık,
-kuzeyde ise karanlık bir koridor uzuyor.
+AydÄ±nlÄ±k KesiÅŸim~
+Cezaevinin merkez kavÅŸaÄŸÄ±ndasÄ±n. DoÄŸu ve batÄ± oldukÃ§a aydÄ±nlÄ±k,
+kuzeyde ise karanlÄ±k bir koridor uzuyor.
 ~
 0 0 0
 D0
@@ -1102,9 +1102,9 @@ D3
 0 -1 32011
 S
 #32003
-Karanlık Kesişim~
-karanlık bir kavşaktasın. Doğu ve batıda hücre blokları var. Koridor
-kuzey ve güneye devam ediyor.
+KaranlÄ±k KesiÅŸim~
+karanlÄ±k bir kavÅŸaktasÄ±n. DoÄŸu ve batÄ±da hÃ¼cre bloklarÄ± var. Koridor
+kuzey ve gÃ¼neye devam ediyor.
 ~
 0 A 0
 D0
@@ -1126,7 +1126,7 @@ D3
 S
 #32004
 Uzun Koridor~
-Uzun bir koridordasın. Doğudan garip bir koku geliyor. Koridor kuzeye
+Uzun bir koridordasÄ±n. DoÄŸudan garip bir koku geliyor. Koridor kuzeye
 devam ediyor.
 ~
 0 0 0
@@ -1145,7 +1145,7 @@ D2
 S
 #32005
 Uzun Koridor~
-Uzun bir koridordasın. Koridor kuzeye ve güneye devam ediyor.
+Uzun bir koridordasÄ±n. Koridor kuzeye ve gÃ¼neye devam ediyor.
 ~
 0 0 0
 D0
@@ -1159,8 +1159,8 @@ D2
 S
 #32006
 Uzun Koridor~
-Uzun bir koridordasın. Batıdan keskin ve hoş bir koku geliyor.
-Koridor kuzeye ve güneye devam ediyor.
+Uzun bir koridordasÄ±n. BatÄ±dan keskin ve hoÅŸ bir koku geliyor.
+Koridor kuzeye ve gÃ¼neye devam ediyor.
 ~
 0 0 0
 D0
@@ -1178,7 +1178,7 @@ D3
 S
 #32007
 Uzun Koridor~
-Uzun bir koridordasın. Koridor kuzeye ve güneye devam ediyor.
+Uzun bir koridordasÄ±n. Koridor kuzeye ve gÃ¼neye devam ediyor.
 ~
 0 D 0
 D0
@@ -1192,8 +1192,8 @@ D2
 S
 #32008
 Uzun Koridor~
-Uzun bir koridordasın. Koridor kuzeye ve güneye devam ediyor.
-Doğu ve batıda bölüm avlularını görüyorsun.
+Uzun bir koridordasÄ±n. Koridor kuzeye ve gÃ¼neye devam ediyor.
+DoÄŸu ve batÄ±da bÃ¶lÃ¼m avlularÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 0 0
 D0
@@ -1218,9 +1218,9 @@ D4
 1 -1 32010
 S
 #32009
-Celladın Odası~
-Burası birçok mahkumun gördüğü son odadır. Odanın ortasında idamda
-kullanılan bir giyotin var. Leş kokusu ciğerlerini yakıyor.
+CelladÄ±n OdasÄ±~
+BurasÄ± birÃ§ok mahkumun gÃ¶rdÃ¼ÄŸÃ¼ son odadÄ±r. OdanÄ±n ortasÄ±nda idamda
+kullanÄ±lan bir giyotin var. LeÅŸ kokusu ciÄŸerlerini yakÄ±yor.
 ~
 0 0 0
 D2
@@ -1229,9 +1229,9 @@ D2
 0 -1 32008
 S
 #32010
-Şafinin Gizli Odası~
-Bir din adamının gizli odasındasın. Etraf dini eşyalarla dolu.
-Burası oldukça huzurlu bir yer.
+Åafinin Gizli OdasÄ±~
+Bir din adamÄ±nÄ±n gizli odasÄ±ndasÄ±n. Etraf dini eÅŸyalarla dolu.
+BurasÄ± oldukÃ§a huzurlu bir yer.
 ~
 0 0 0
 D5
@@ -1241,7 +1241,7 @@ D5
 S
 #32011
 Sessiz Koridor~
-Sessiz bir koridordasın. Duvarda belediye başkanının büyük bir
+Sessiz bir koridordasÄ±n. Duvarda belediye baÅŸkanÄ±nÄ±n bÃ¼yÃ¼k bir
 tablosu var.
 ~
 0 0 0
@@ -1254,13 +1254,13 @@ D3
 ~
 0 -1 32012
 E
-başkan belediye tablo~
-Tablo büyük bir özenle şehirli bir ressam tarafından yapılmış.
-Tablonun altında ressamın imzasını görüyorsun.~
+baÅŸkan belediye tablo~
+Tablo bÃ¼yÃ¼k bir Ã¶zenle ÅŸehirli bir ressam tarafÄ±ndan yapÄ±lmÄ±ÅŸ.
+Tablonun altÄ±nda ressamÄ±n imzasÄ±nÄ± gÃ¶rÃ¼yorsun.~
 S
 #32012
 Sessiz Koridor~
-Sessiz bir koridordasın. Güneyde bir kapı var.
+Sessiz bir koridordasÄ±n. GÃ¼neyde bir kapÄ± var.
 ~
 0 0 0
 D1
@@ -1277,10 +1277,10 @@ D3
 0 -1 32014
 S
 #32013
-Silah odası~
-Silah Odasındasın. Muhafızlar görevleri bittiğinde ekipmanlarını
-burada bırakıyorlar. Tezgahın arkasındaki rafta asılı kılıçlar ve
-baltalar görüyorsun.
+Silah odasÄ±~
+Silah OdasÄ±ndasÄ±n. MuhafÄ±zlar gÃ¶revleri bittiÄŸinde ekipmanlarÄ±nÄ±
+burada bÄ±rakÄ±yorlar. TezgahÄ±n arkasÄ±ndaki rafta asÄ±lÄ± kÄ±lÄ±Ã§lar ve
+baltalar gÃ¶rÃ¼yorsun.
 ~
 0 0 0
 D0
@@ -1290,7 +1290,7 @@ D0
 S
 #32014
 Sessiz Koridor~
-Sessiz bir koridordasın. Koridor doğuya ve batıya ilerliyor.
+Sessiz bir koridordasÄ±n. Koridor doÄŸuya ve batÄ±ya ilerliyor.
 ~
 0 0 0
 D1
@@ -1304,8 +1304,8 @@ D3
 S
 #32015
 Kabul Salonu~
-Merkez kabul salonundasın. Rahat bir divanla bir su çeşmesi görüyorsun.
-Güneyde idare koridorunu görüyorsun.
+Merkez kabul salonundasÄ±n. Rahat bir divanla bir su Ã§eÅŸmesi gÃ¶rÃ¼yorsun.
+GÃ¼neyde idare koridorunu gÃ¶rÃ¼yorsun.
 ~
 0 0 0
 D0
@@ -1326,9 +1326,9 @@ D3
 0 -1 32017
 S
 #32016
-Malzeme Odası~
-küçük bir malzeme odasındasın. Raflarda süpürgeler, bezler ve başka
-temizlik ekipmanları görüyorsun.
+Malzeme OdasÄ±~
+kÃ¼Ã§Ã¼k bir malzeme odasÄ±ndasÄ±n. Raflarda sÃ¼pÃ¼rgeler, bezler ve baÅŸka
+temizlik ekipmanlarÄ± gÃ¶rÃ¼yorsun.
 ~
 0 A 0
 D2
@@ -1338,8 +1338,8 @@ D2
 S
 #32017
 Sarmal Merdiven~
-Taştan yapılmış sarmal bir merdivendesin. Keskin bir koku ciğerlerini
-yakıyor. Bu yanan Cannibus olabilir mi?
+TaÅŸtan yapÄ±lmÄ±ÅŸ sarmal bir merdivendesin. Keskin bir koku ciÄŸerlerini
+yakÄ±yor. Bu yanan Cannibus olabilir mi?
 ~
 0 0 0
 D1
@@ -1353,8 +1353,8 @@ D4
 S
 #32018
 Sarmal Merdiven~
-Taştan yapılmış sarmal bir merdivendesin. Yukarıda birilerinin kahkaha
-attığını duyuyorsun. Cannibus'un kokusu gittikçe ağırlaşıyor.
+TaÅŸtan yapÄ±lmÄ±ÅŸ sarmal bir merdivendesin. YukarÄ±da birilerinin kahkaha
+attÄ±ÄŸÄ±nÄ± duyuyorsun. Cannibus'un kokusu gittikÃ§e aÄŸÄ±rlaÅŸÄ±yor.
 ~
 0 0 0
 D4
@@ -1367,9 +1367,9 @@ D5
 0 -1 32017
 S
 #32019
-Dumanlı Kule~
-Dumanın içinde aldığın derin nefesler yüzünden başın dönüyor. Aman
-tanrım, bir pencere yok mu burada?!
+DumanlÄ± Kule~
+DumanÄ±n iÃ§inde aldÄ±ÄŸÄ±n derin nefesler yÃ¼zÃ¼nden baÅŸÄ±n dÃ¶nÃ¼yor. Aman
+tanrÄ±m, bir pencere yok mu burada?!
 ~
 0 0 0
 D5
@@ -1378,8 +1378,8 @@ D5
 0 -1 32018
 S
 #32020
-İdare Koridoru~
-İdare koridorundasın. Koridor kuzey ve güneye devam ediyor.
+Ä°dare Koridoru~
+Ä°dare koridorundasÄ±n. Koridor kuzey ve gÃ¼neye devam ediyor.
 ~
 0 0 0
 D0
@@ -1392,8 +1392,8 @@ D2
 0 -1 32021
 S
 #32021
-İdare Koridoru~
-İdare koridorundasın. Koridor kuzey ve güneye devam ediyor.
+Ä°dare Koridoru~
+Ä°dare koridorundasÄ±n. Koridor kuzey ve gÃ¼neye devam ediyor.
 ~
 0 0 0
 D0
@@ -1406,8 +1406,8 @@ D2
 0 -1 32022
 S
 #32022
-İdare Koridoru~
-İdare koridorundasın. Koridor kuzey ve güneye devam ediyor.
+Ä°dare Koridoru~
+Ä°dare koridorundasÄ±n. Koridor kuzey ve gÃ¼neye devam ediyor.
 ~
 0 0 0
 D0
@@ -1420,8 +1420,8 @@ D2
 0 -1 32023
 S
 #32023
-İdare Koridoru~
-İdare koridorundasın. Güneyden yazı yazan birinin sesi geliyor.
+Ä°dare Koridoru~
+Ä°dare koridorundasÄ±n. GÃ¼neyden yazÄ± yazan birinin sesi geliyor.
 ~
 0 0 0
 D0
@@ -1434,8 +1434,8 @@ D2
 0 -1 32024
 S
 #32024
-Cezaevi Müdürünün Ofisi~
-Cezaevi müdürünün ofisindesin. Odada hoş bir koku hakim.
+Cezaevi MÃ¼dÃ¼rÃ¼nÃ¼n Ofisi~
+Cezaevi mÃ¼dÃ¼rÃ¼nÃ¼n ofisindesin. Odada hoÅŸ bir koku hakim.
 ~
 0 0 0
 D0
@@ -1448,10 +1448,10 @@ D3
 0 -1 32025
 S
 #32025
-Cezaevi Müdürünün Odası~
-Cezaevi müdürünün odasındasın. Duvarda idam ettiği mahkumların
-tabloları asılı. Bu manyak bir mahkumu öldürmeden önce resmini mi
-yaptırıyormuş!!!
+Cezaevi MÃ¼dÃ¼rÃ¼nÃ¼n OdasÄ±~
+Cezaevi mÃ¼dÃ¼rÃ¼nÃ¼n odasÄ±ndasÄ±n. Duvarda idam ettiÄŸi mahkumlarÄ±n
+tablolarÄ± asÄ±lÄ±. Bu manyak bir mahkumu Ã¶ldÃ¼rmeden Ã¶nce resmini mi
+yaptÄ±rÄ±yormuÅŸ!!!
 ~
 0 0 0
 D1
@@ -1461,8 +1461,8 @@ D1
 S
 #32026
 Sessiz Koridor~
-Sessiz bir koridordasın. Duvarda müdür Brad'in büyük bir tablosu var.
-Koridor doğuya ve batıya ilerliyor.
+Sessiz bir koridordasÄ±n. Duvarda mÃ¼dÃ¼r Brad'in bÃ¼yÃ¼k bir tablosu var.
+Koridor doÄŸuya ve batÄ±ya ilerliyor.
 ~
 0 0 0
 D1
@@ -1474,13 +1474,13 @@ D3
 ~
 0 -1 32002
 E
-topuz tablo müdür~
-Tabloda tek gördüğün öldürmekten zevk alan, hatta sırf eğlence için
-kafa koparan bir zorbanın figürü.~
+topuz tablo mÃ¼dÃ¼r~
+Tabloda tek gÃ¶rdÃ¼ÄŸÃ¼n Ã¶ldÃ¼rmekten zevk alan, hatta sÄ±rf eÄŸlence iÃ§in
+kafa koparan bir zorbanÄ±n figÃ¼rÃ¼.~
 S
 #32027
 Sessiz Koridor~
-Sessiz bir koridordasın. Güneyde bir kapı var.
+Sessiz bir koridordasÄ±n. GÃ¼neyde bir kapÄ± var.
 ~
 0 0 0
 D1
@@ -1497,10 +1497,10 @@ D3
 0 -1 32026
 S
 #32028
-Zırh Odası~
-Zırh Odasındasın. Muhafızlar zırh ekipmanlarını buradan alıyor ve
-işleri bittiğinde tekrar buraya bırakıyorlar. Tezgahın arkasında
-asılı kalkanlar görüyorsun.
+ZÄ±rh OdasÄ±~
+ZÄ±rh OdasÄ±ndasÄ±n. MuhafÄ±zlar zÄ±rh ekipmanlarÄ±nÄ± buradan alÄ±yor ve
+iÅŸleri bittiÄŸinde tekrar buraya bÄ±rakÄ±yorlar. TezgahÄ±n arkasÄ±nda
+asÄ±lÄ± kalkanlar gÃ¶rÃ¼yorsun.
 ~
 0 0 0
 D0
@@ -1509,9 +1509,9 @@ D0
 1 -1 32027
 S
 #32029
-Üçlü Kavşak~
-Üçlü bir kavşaktasın. Onarım koridoru güneye, loş koridor ise doğuya
-uzanıyor.
+ÃœÃ§lÃ¼ KavÅŸak~
+ÃœÃ§lÃ¼ bir kavÅŸaktasÄ±n. OnarÄ±m koridoru gÃ¼neye, loÅŸ koridor ise doÄŸuya
+uzanÄ±yor.
 ~
 0 0 0
 D1
@@ -1528,9 +1528,9 @@ D3
 0 -1 32027
 S
 #32030
-Loş Koridor~
-Loş koridordasın. Birinin duvardaki meşaleleri yakması gerektiğini
-düşünüyorsun.
+LoÅŸ Koridor~
+LoÅŸ koridordasÄ±n. Birinin duvardaki meÅŸaleleri yakmasÄ± gerektiÄŸini
+dÃ¼ÅŸÃ¼nÃ¼yorsun.
 ~
 0 A 0
 D0
@@ -1547,8 +1547,8 @@ D3
 0 -1 32029
 S
 #32031
-Malzeme Odası~
-Küçük bir malzeme odasındasın. Burada ne bez, ne de süpürge var.
+Malzeme OdasÄ±~
+KÃ¼Ã§Ã¼k bir malzeme odasÄ±ndasÄ±n. Burada ne bez, ne de sÃ¼pÃ¼rge var.
 ~
 0 0 0
 D2
@@ -1558,8 +1558,8 @@ D2
 S
 #32032
 Sarmal merdiven~
-Taştan yapılmış sarmal bir merdivenin altındasın. Yukarıdan gelen
-tütün kokusunu alabiliyorsun.
+TaÅŸtan yapÄ±lmÄ±ÅŸ sarmal bir merdivenin altÄ±ndasÄ±n. YukarÄ±dan gelen
+tÃ¼tÃ¼n kokusunu alabiliyorsun.
 ~
 0 0 0
 D3
@@ -1573,7 +1573,7 @@ D4
 S
 #32033
 Sarmal merdiven~
-Taştan yapılmış sarmal bir merdivendesin. Yukarıdan küfür ve kahkaha
+TaÅŸtan yapÄ±lmÄ±ÅŸ sarmal bir merdivendesin. YukarÄ±dan kÃ¼fÃ¼r ve kahkaha
 sesleri geliyor.
 ~
 0 0 0
@@ -1589,7 +1589,7 @@ S
 #32034
 Sinsi Kule~
 Sarmal merdivenin tepesindesin. Her taraf ansiklopedi dolu. Son
-zamanlarda sadece üzerine oturup kumar oynamak için kullanılmışlar.
+zamanlarda sadece Ã¼zerine oturup kumar oynamak iÃ§in kullanÄ±lmÄ±ÅŸlar.
 ~
 0 0 0
 D5
@@ -1598,8 +1598,8 @@ D5
 0 -1 32033
 S
 #32035
-Onarım Bölümü Koridoru~
-Onarım bölümü koridorundasın. Burnuna boya ve gaz kokusu geliyor.
+OnarÄ±m BÃ¶lÃ¼mÃ¼ Koridoru~
+OnarÄ±m bÃ¶lÃ¼mÃ¼ koridorundasÄ±n. Burnuna boya ve gaz kokusu geliyor.
 ~
 0 0 0
 D0
@@ -1612,8 +1612,8 @@ D2
 0 -1 32036
 S
 #32036
-Onarım Bölümü Koridoru~
-Onarım bölümü koridorundasın. Burnuna boya ve gaz kokusu geliyor.
+OnarÄ±m BÃ¶lÃ¼mÃ¼ Koridoru~
+OnarÄ±m bÃ¶lÃ¼mÃ¼ koridorundasÄ±n. Burnuna boya ve gaz kokusu geliyor.
 ~
 0 0 0
 D0
@@ -1626,8 +1626,8 @@ D2
 0 -1 32037
 S
 #32037
-Onarım Bölümü Koridoru~
-Onarım bölümü koridorundasın. Burnuna boya ve gaz kokusu geliyor.
+OnarÄ±m BÃ¶lÃ¼mÃ¼ Koridoru~
+OnarÄ±m bÃ¶lÃ¼mÃ¼ koridorundasÄ±n. Burnuna boya ve gaz kokusu geliyor.
 ~
 0 0 0
 D0
@@ -1640,8 +1640,8 @@ D2
 0 -1 32038
 S
 #32038
-Onarım Bölümü Koridoru~
-Onarım bölümü koridorundasın. Güneyde bir kapı, duvarda ise bir
+OnarÄ±m BÃ¶lÃ¼mÃ¼ Koridoru~
+OnarÄ±m bÃ¶lÃ¼mÃ¼ koridorundasÄ±n. GÃ¼neyde bir kapÄ±, duvarda ise bir
 tabela var.
 ~
 0 0 0
@@ -1655,15 +1655,15 @@ D2
 1 -1 32039
 E
 tabela~
-          **** DİKKAT ****
-Satıcılar randevu alınmadan görülemez.
-    Aksi takdirde cezası ÖLÜMdür.
-                             -yönetim.~
+          **** DÄ°KKAT ****
+SatÄ±cÄ±lar randevu alÄ±nmadan gÃ¶rÃ¼lemez.
+    Aksi takdirde cezasÄ± Ã–LÃœMdÃ¼r.
+                             -yÃ¶netim.~
 S
 #32039
-Onarım Bölümü Odası~
-Onarım ekipman ve malzemeleriyle dolu bir odadasın. Onlarca kilo
-harç malzemesi ve boya görüyorsun.
+OnarÄ±m BÃ¶lÃ¼mÃ¼ OdasÄ±~
+OnarÄ±m ekipman ve malzemeleriyle dolu bir odadasÄ±n. Onlarca kilo
+harÃ§ malzemesi ve boya gÃ¶rÃ¼yorsun.
 ~
 0 0 0
 D0
@@ -1676,8 +1676,8 @@ D1
 0 -1 32040
 S
 #32040
-Buhar Odası~
-Buhar Odasındasın. Öyle sıcak ki buharlaşmaktan korkuyorsun.
+Buhar OdasÄ±~
+Buhar OdasÄ±ndasÄ±n. Ã–yle sÄ±cak ki buharlaÅŸmaktan korkuyorsun.
 ~
 0 0 0
 D3
@@ -1686,8 +1686,8 @@ D3
 0 -1 32039
 S
 #32041
-Muhafız Odası~
-Muhafız odasındasın. Batıda kilitli kocaman bir kapı var.
+MuhafÄ±z OdasÄ±~
+MuhafÄ±z odasÄ±ndasÄ±n. BatÄ±da kilitli kocaman bir kapÄ± var.
 ~
 0 0 0
 D1
@@ -1700,9 +1700,9 @@ D3
 1 32025 32042
 S
 #32042
-Hücre Bloğu~
-İşte canlıları içine alan ve çıkmalarını engelleyen mekanizma.
-Acaba sen çıkabilecek misin? Kuzey ve güneyde hücreler var.
+HÃ¼cre BloÄŸu~
+Ä°ÅŸte canlÄ±larÄ± iÃ§ine alan ve Ã§Ä±kmalarÄ±nÄ± engelleyen mekanizma.
+Acaba sen Ã§Ä±kabilecek misin? Kuzey ve gÃ¼neyde hÃ¼creler var.
 ~
 0 AN 0
 D0
@@ -1723,9 +1723,9 @@ D3
 0 -1 32043
 S
 #32043
-Hücre Bloğu~
-İşte canlıları içine alan ve çıkmalarını engelleyen mekanizma.
-Acaba sen çıkabilecek misin? Kuzey ve güneyde hücreler var.
+HÃ¼cre BloÄŸu~
+Ä°ÅŸte canlÄ±larÄ± iÃ§ine alan ve Ã§Ä±kmalarÄ±nÄ± engelleyen mekanizma.
+Acaba sen Ã§Ä±kabilecek misin? Kuzey ve gÃ¼neyde hÃ¼creler var.
 ~
 0 AN 0
 D0
@@ -1746,10 +1746,10 @@ D3
 0 -1 32044
 S
 #32044
-Hücre Bloğu~
-İşte canlıları içine alan ve çıkmalarını engelleyen mekanizma.
-Acaba sen çıkabilecek misin? Kuzey ve güneyde hücreler, batıda
-ise küçük bir bölüm var.
+HÃ¼cre BloÄŸu~
+Ä°ÅŸte canlÄ±larÄ± iÃ§ine alan ve Ã§Ä±kmalarÄ±nÄ± engelleyen mekanizma.
+Acaba sen Ã§Ä±kabilecek misin? Kuzey ve gÃ¼neyde hÃ¼creler, batÄ±da
+ise kÃ¼Ã§Ã¼k bir bÃ¶lÃ¼m var.
 ~
 0 AN 0
 D0
@@ -1770,8 +1770,8 @@ D3
 0 -1 32045
 S
 #32045
-Küçük Bölüm~
-Tamamen işe yaramaz bir oda.........
+KÃ¼Ã§Ã¼k BÃ¶lÃ¼m~
+Tamamen iÅŸe yaramaz bir oda.........
 ~
 0 AN 0
 D1
@@ -1780,8 +1780,8 @@ D1
 0 -1 32044
 S
 #32046
-Hücre~
-Bir hücredesin. Yerde biraz saman, duvarda tırnak izleri var.
+HÃ¼cre~
+Bir hÃ¼credesin. Yerde biraz saman, duvarda tÄ±rnak izleri var.
 ~
 0 AN 0
 D2
@@ -1790,8 +1790,8 @@ D2
 1 -1 32044
 S
 #32047
-Hücre~
-Bir hücredesin. Yerde biraz saman, duvarda tırnak izleri var.
+HÃ¼cre~
+Bir hÃ¼credesin. Yerde biraz saman, duvarda tÄ±rnak izleri var.
 ~
 0 AN 0
 D0
@@ -1800,8 +1800,8 @@ D0
 1 -1 32044
 S
 #32048
-Hücre~
-Bir hücredesin. Yerde biraz saman, duvarda tırnak izleri var.
+HÃ¼cre~
+Bir hÃ¼credesin. Yerde biraz saman, duvarda tÄ±rnak izleri var.
 ~
 0 AN 0
 D2
@@ -1810,8 +1810,8 @@ D2
 1 -1 32043
 S
 #32049
-Hücre~
-Bir hücredesin. Yerde biraz saman, duvarda tırnak izleri var.
+HÃ¼cre~
+Bir hÃ¼credesin. Yerde biraz saman, duvarda tÄ±rnak izleri var.
 ~
 0 AN 0
 D0
@@ -1820,8 +1820,8 @@ D0
 1 -1 32043
 S
 #32050
-Hücre~
-Bir hücredesin. Yerde biraz saman, duvarda tırnak izleri var.
+HÃ¼cre~
+Bir hÃ¼credesin. Yerde biraz saman, duvarda tÄ±rnak izleri var.
 ~
 0 AN 0
 D2
@@ -1830,8 +1830,8 @@ D2
 1 -1 32042
 S
 #32051
-Hücre~
-Bir hücredesin. Yerde biraz saman, duvarda tırnak izleri var.
+HÃ¼cre~
+Bir hÃ¼credesin. Yerde biraz saman, duvarda tÄ±rnak izleri var.
 ~
 0 AN 0
 D0
@@ -1840,8 +1840,8 @@ D0
 1 -1 32042
 S
 #32052
-Muhafız Odası~
-Muhafız odasındasın. Doğuda büyük ve kilitli bir kapı var.
+MuhafÄ±z OdasÄ±~
+MuhafÄ±z odasÄ±ndasÄ±n. DoÄŸuda bÃ¼yÃ¼k ve kilitli bir kapÄ± var.
 ~
 0 A 0
 D1
@@ -1854,9 +1854,9 @@ D3
 0 -1 32003
 S
 #32053
-Hücre Bloğu~
-İşte canlıları içine alan ve çıkmalarını engelleyen mekanizma.
-Acaba sen çıkabilecek misin? Kuzey ve güneyde hücreler var.
+HÃ¼cre BloÄŸu~
+Ä°ÅŸte canlÄ±larÄ± iÃ§ine alan ve Ã§Ä±kmalarÄ±nÄ± engelleyen mekanizma.
+Acaba sen Ã§Ä±kabilecek misin? Kuzey ve gÃ¼neyde hÃ¼creler var.
 ~
 0 AN 0
 D0
@@ -1877,9 +1877,9 @@ D3
 1 -1 32052
 S
 #32054
-Hücre Bloğu~
-İşte canlıları içine alan ve çıkmalarını engelleyen mekanizma.
-Acaba sen çıkabilecek misin? Kuzey ve güneyde hücreler var.
+HÃ¼cre BloÄŸu~
+Ä°ÅŸte canlÄ±larÄ± iÃ§ine alan ve Ã§Ä±kmalarÄ±nÄ± engelleyen mekanizma.
+Acaba sen Ã§Ä±kabilecek misin? Kuzey ve gÃ¼neyde hÃ¼creler var.
 ~
 0 AN 0
 D0
@@ -1900,10 +1900,10 @@ D3
 1 -1 32053
 S
 #32055
-Hücre Bloğu~
-İşte canlıları içine alan ve çıkmalarını engelleyen mekanizma.
-Acaba sen çıkabilecek misin? Kuzey ve güneyde hücreler, doğuda
-ise küçük bir bölüm var.
+HÃ¼cre BloÄŸu~
+Ä°ÅŸte canlÄ±larÄ± iÃ§ine alan ve Ã§Ä±kmalarÄ±nÄ± engelleyen mekanizma.
+Acaba sen Ã§Ä±kabilecek misin? Kuzey ve gÃ¼neyde hÃ¼creler, doÄŸuda
+ise kÃ¼Ã§Ã¼k bir bÃ¶lÃ¼m var.
 ~
 0 AN 0
 D0
@@ -1924,10 +1924,10 @@ D3
 1 -1 32054
 S
 #32056
-Küçük Bölüm~
-Küçük bir bölümdesin. Görünüşe göre burada biri yaşıyor. Bölümün
-bir köşesi tuvalet olarak kullanılmış. İşaret parmağını dışkıya
-batırıyorsun: "Hmm, oldukça soğuk..."
+KÃ¼Ã§Ã¼k BÃ¶lÃ¼m~
+KÃ¼Ã§Ã¼k bir bÃ¶lÃ¼mdesin. GÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re burada biri yaÅŸÄ±yor. BÃ¶lÃ¼mÃ¼n
+bir kÃ¶ÅŸesi tuvalet olarak kullanÄ±lmÄ±ÅŸ. Ä°ÅŸaret parmaÄŸÄ±nÄ± dÄ±ÅŸkÄ±ya
+batÄ±rÄ±yorsun: "Hmm, oldukÃ§a soÄŸuk..."
 ~
 0 AN 0
 D3
@@ -1936,8 +1936,8 @@ D3
 0 -1 32055
 S
 #32057
-Hücre~
-Bir hücredesin. Yerde biraz saman, duvarda tırnak izleri var.
+HÃ¼cre~
+Bir hÃ¼credesin. Yerde biraz saman, duvarda tÄ±rnak izleri var.
 ~
 0 AN 0
 D2
@@ -1946,8 +1946,8 @@ D2
 1 -1 32053
 S
 #32058
-Hücre~
-Bir hücredesin. Yerde biraz saman, duvarda tırnak izleri var.
+HÃ¼cre~
+Bir hÃ¼credesin. Yerde biraz saman, duvarda tÄ±rnak izleri var.
 ~
 0 AN 0
 D0
@@ -1956,8 +1956,8 @@ D0
 1 -1 32053
 S
 #32059
-Hücre~
-Bir hücredesin. Yerde biraz saman, duvarda tırnak izleri var.
+HÃ¼cre~
+Bir hÃ¼credesin. Yerde biraz saman, duvarda tÄ±rnak izleri var.
 ~
 0 AN 0
 D2
@@ -1966,8 +1966,8 @@ D2
 1 -1 32054
 S
 #32060
-Hücre~
-Bir hücredesin. Yerde biraz saman, duvarda tırnak izleri var.
+HÃ¼cre~
+Bir hÃ¼credesin. Yerde biraz saman, duvarda tÄ±rnak izleri var.
 ~
 0 AN 0
 D0
@@ -1976,8 +1976,8 @@ D0
 1 -1 32054
 S
 #32061
-Hücre~
-Bir hücredesin. Yerde biraz saman, duvarda tırnak izleri var.
+HÃ¼cre~
+Bir hÃ¼credesin. Yerde biraz saman, duvarda tÄ±rnak izleri var.
 ~
 0 AN 0
 D2
@@ -1986,8 +1986,8 @@ D2
 1 -1 32055
 S
 #32062
-Hücre~
-Bir hücredesin. Yerde biraz saman, duvarda tırnak izleri var.
+HÃ¼cre~
+Bir hÃ¼credesin. Yerde biraz saman, duvarda tÄ±rnak izleri var.
 ~
 0 AN 0
 D0
@@ -1997,9 +1997,9 @@ D0
 S
 #32063
 Avlu~
-Talim avlusundasın. Duvarın ardından Selenge'nin gürültüsü
-geliyor. Gardiyanlar da kendi aralarında fısıldaşarak
-konuşuyorlar.
+Talim avlusundasÄ±n. DuvarÄ±n ardÄ±ndan Selenge'nin gÃ¼rÃ¼ltÃ¼sÃ¼
+geliyor. Gardiyanlar da kendi aralarÄ±nda fÄ±sÄ±ldaÅŸarak
+konuÅŸuyorlar.
 ~
 0 0 2
 D1
@@ -2016,8 +2016,8 @@ D3
 0 -1 32008
 S
 #32064
-Avlunun Kuzey-Doğu Köşesi~
-Avlunun kuzey-doğu köşesindesin. Duvarda kan izleri var.
+Avlunun Kuzey-DoÄŸu KÃ¶ÅŸesi~
+Avlunun kuzey-doÄŸu kÃ¶ÅŸesindesin. Duvarda kan izleri var.
 ~
 0 0 2
 D2
@@ -2030,9 +2030,9 @@ D3
 0 -1 32063
 S
 #32065
-Avlunun Doğu Sonu~
-Avlunun doğu sonundasın. Küçük gruplara ayrılmış muhafızlar
-avluyu neredeyse doldurmuş. Doğuda yüksek bir duvar var.
+Avlunun DoÄŸu Sonu~
+Avlunun doÄŸu sonundasÄ±n. KÃ¼Ã§Ã¼k gruplara ayrÄ±lmÄ±ÅŸ muhafÄ±zlar
+avluyu neredeyse doldurmuÅŸ. DoÄŸuda yÃ¼ksek bir duvar var.
 ~
 0 0 2
 D0
@@ -2049,9 +2049,9 @@ D3
 0 -1 32072
 S
 #32066
-Avlunun Doğu Sonu~
-Avlunun doğu sonundasın. Küçük gruplara ayrılmış muhafızlar
-avluyu neredeyse doldurmuş. Doğuda yüksek bir duvar var.
+Avlunun DoÄŸu Sonu~
+Avlunun doÄŸu sonundasÄ±n. KÃ¼Ã§Ã¼k gruplara ayrÄ±lmÄ±ÅŸ muhafÄ±zlar
+avluyu neredeyse doldurmuÅŸ. DoÄŸuda yÃ¼ksek bir duvar var.
 ~
 0 0 2
 D0
@@ -2068,9 +2068,9 @@ D3
 0 -1 32071
 S
 #32067
-Avlunun Doğu Sonu~
-Avlunun doğu sonundasın. Küçük gruplara ayrılmış muhafızlar
-avluyu neredeyse doldurmuş. Doğuda yüksek bir duvar var.
+Avlunun DoÄŸu Sonu~
+Avlunun doÄŸu sonundasÄ±n. KÃ¼Ã§Ã¼k gruplara ayrÄ±lmÄ±ÅŸ muhafÄ±zlar
+avluyu neredeyse doldurmuÅŸ. DoÄŸuda yÃ¼ksek bir duvar var.
 ~
 0 0 2
 D0
@@ -2087,8 +2087,8 @@ D3
 0 -1 32070
 S
 #32068
-Avlunun Güney-Doğu Köşesi~
-Avlunun güney-doğu köşesinde duruyorsun.
+Avlunun GÃ¼ney-DoÄŸu KÃ¶ÅŸesi~
+Avlunun gÃ¼ney-doÄŸu kÃ¶ÅŸesinde duruyorsun.
 ~
 0 0 2
 D0
@@ -2101,9 +2101,9 @@ D3
 0 -1 32069
 S
 #32069
-Avlunun Güney Sonu~
-Avlunun güney sonundasın. Küçük gruplara ayrılmış muhafızlar
-avluyu neredeyse doldurmuş. Doğuda yüksek bir duvar var.
+Avlunun GÃ¼ney Sonu~
+Avlunun gÃ¼ney sonundasÄ±n. KÃ¼Ã§Ã¼k gruplara ayrÄ±lmÄ±ÅŸ muhafÄ±zlar
+avluyu neredeyse doldurmuÅŸ. DoÄŸuda yÃ¼ksek bir duvar var.
 ~
 0 0 2
 D0
@@ -2120,8 +2120,8 @@ D3
 0 -1 32079
 S
 #32070
-Avlunun Ortası~
-Talim avlusunun ortasında duruyorsun.
+Avlunun OrtasÄ±~
+Talim avlusunun ortasÄ±nda duruyorsun.
 ~
 0 0 2
 D0
@@ -2142,8 +2142,8 @@ D3
 0 -1 32080
 S
 #32071
-Avlunun Ortası~
-Talim avlusunun ortasında duruyorsun.
+Avlunun OrtasÄ±~
+Talim avlusunun ortasÄ±nda duruyorsun.
 ~
 0 0 2
 D0
@@ -2164,8 +2164,8 @@ D3
 0 -1 32081
 S
 #32072
-Avlunun Ortası~
-Talim avlusunun ortasında duruyorsun.
+Avlunun OrtasÄ±~
+Talim avlusunun ortasÄ±nda duruyorsun.
 ~
 0 0 2
 D0
@@ -2187,9 +2187,9 @@ D3
 S
 #32073
 Avlu~
-Talim avlusundasın. Duvarın ardından Selenge'nin gürültüsü
-geliyor. Gardiyanlar da kendi aralarında fısıldaşarak
-konuşuyorlar.
+Talim avlusundasÄ±n. DuvarÄ±n ardÄ±ndan Selenge'nin gÃ¼rÃ¼ltÃ¼sÃ¼
+geliyor. Gardiyanlar da kendi aralarÄ±nda fÄ±sÄ±ldaÅŸarak
+konuÅŸuyorlar.
 ~
 0 0 2
 D1
@@ -2206,9 +2206,9 @@ D3
 0 -1 32074
 S
 #32074
-Avlunun Kuzey-Batı Köşesi~
-Avlunun kuzey-batı köşesindesin. Avluyu dolduran gardiyan gruplarını
-görüyorsun. Bir yabancı olduğun çok belli.
+Avlunun Kuzey-BatÄ± KÃ¶ÅŸesi~
+Avlunun kuzey-batÄ± kÃ¶ÅŸesindesin. Avluyu dolduran gardiyan gruplarÄ±nÄ±
+gÃ¶rÃ¼yorsun. Bir yabancÄ± olduÄŸun Ã§ok belli.
 ~
 0 0 2
 D1
@@ -2221,8 +2221,8 @@ D2
 0 -1 32075
 S
 #32075
-Avlunun Batı Sonu~
-Batı duvarının önündesin. Avluyu dolduran gardiyan gruplarını görüyorsun.
+Avlunun BatÄ± Sonu~
+BatÄ± duvarÄ±nÄ±n Ã¶nÃ¼ndesin. Avluyu dolduran gardiyan gruplarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
@@ -2239,9 +2239,9 @@ D2
 0 -1 32076
 S
 #32076
-Avlunun Batı Sonu~
-Batı duvarının önündesin. Avluyu dolduran gardiyan gruplarını görüyorsun.
-Güneyden bir kargaşanın sesleri geliyor.
+Avlunun BatÄ± Sonu~
+BatÄ± duvarÄ±nÄ±n Ã¶nÃ¼ndesin. Avluyu dolduran gardiyan gruplarÄ±nÄ± gÃ¶rÃ¼yorsun.
+GÃ¼neyden bir kargaÅŸanÄ±n sesleri geliyor.
 ~
 0 0 2
 D0
@@ -2258,8 +2258,8 @@ D2
 0 -1 32077
 S
 #32077
-Batı Duvarında Yarık~
-Avlunun batı sonundasın. Batı duvarında bir yarık görüyorsun.
+BatÄ± DuvarÄ±nda YarÄ±k~
+Avlunun batÄ± sonundasÄ±n. BatÄ± duvarÄ±nda bir yarÄ±k gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
@@ -2280,9 +2280,9 @@ D3
 0 -1 32083
 S
 #32078
-Duvarın Güney-Batı Köşesi~
-Avlunun güney-batı köşesindesin. Burası idamların gerçekleştirildiği
-yerlerden biri olsa gerek, duvarda asılı cesetler görüyorsun.
+DuvarÄ±n GÃ¼ney-BatÄ± KÃ¶ÅŸesi~
+Avlunun gÃ¼ney-batÄ± kÃ¶ÅŸesindesin. BurasÄ± idamlarÄ±n gerÃ§ekleÅŸtirildiÄŸi
+yerlerden biri olsa gerek, duvarda asÄ±lÄ± cesetler gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
@@ -2295,9 +2295,9 @@ D1
 0 -1 32079
 S
 #32079
-Avlunun Güney Köşesi~
-Avlunun güney köşesindesin. Avluda gruplar oluşturmuş gardiyanları
-görüyorsun.
+Avlunun GÃ¼ney KÃ¶ÅŸesi~
+Avlunun gÃ¼ney kÃ¶ÅŸesindesin. Avluda gruplar oluÅŸturmuÅŸ gardiyanlarÄ±
+gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
@@ -2314,8 +2314,8 @@ D3
 0 -1 32078
 S
 #32080
-Avlunun Ortası~
-Avlunun ortasındasın. Küçük gruplar halindeki gardiyanları görüyorsun.
+Avlunun OrtasÄ±~
+Avlunun ortasÄ±ndasÄ±n. KÃ¼Ã§Ã¼k gruplar halindeki gardiyanlarÄ± gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
@@ -2336,8 +2336,8 @@ D3
 0 -1 32077
 S
 #32081
-Avlunun Ortası~
-Avlunun ortasındasın. Küçük gruplar halindeki gardiyanları görüyorsun.
+Avlunun OrtasÄ±~
+Avlunun ortasÄ±ndasÄ±n. KÃ¼Ã§Ã¼k gruplar halindeki gardiyanlarÄ± gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
@@ -2358,8 +2358,8 @@ D3
 0 -1 32076
 S
 #32082
-Avlunun Ortası~
-Avlunun ortasındasın. Küçük gruplar halindeki gardiyanları görüyorsun.
+Avlunun OrtasÄ±~
+Avlunun ortasÄ±ndasÄ±n. KÃ¼Ã§Ã¼k gruplar halindeki gardiyanlarÄ± gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D0
@@ -2380,9 +2380,9 @@ D3
 0 -1 32075
 S
 #32083
-Yarığın İçinde~
-Duvardaki yarığın içindesin. Burası bir kaçış deliğine benziyor. Sanşlıysan
-burayı kazan yakınlarda değildir.
+YarÄ±ÄŸÄ±n Ä°Ã§inde~
+Duvardaki yarÄ±ÄŸÄ±n iÃ§indesin. BurasÄ± bir kaÃ§Ä±ÅŸ deliÄŸine benziyor. SanÅŸlÄ±ysan
+burayÄ± kazan yakÄ±nlarda deÄŸildir.
 ~
 0 0 2
 D1
@@ -2392,8 +2392,8 @@ D1
 S
 #32084
 Dein Nemli Koridor~
-Duşlara açılan bir pasajdasın. Duvarlar ve hava oldukça rutubetli.
-Korkunun ve çürümenin kokusunu alabiliyorsun. Uzaklaşsan iyi olur.
+DuÅŸlara aÃ§Ä±lan bir pasajdasÄ±n. Duvarlar ve hava oldukÃ§a rutubetli.
+Korkunun ve Ã§Ã¼rÃ¼menin kokusunu alabiliyorsun. UzaklaÅŸsan iyi olur.
 ~
 0 A 0
 D1
@@ -2406,10 +2406,10 @@ D3
 0 -1 32004
 S
 #32085
-Duşlar~
-Hapishanenin en korkulan ve nefret edilen yerindesin. Bunun nedeni bütün
-gardiyanların çok kirli görünmesi olabilir mi? Duvarlar tırnak izleri ve
-kanla örtülmüş.
+DuÅŸlar~
+Hapishanenin en korkulan ve nefret edilen yerindesin. Bunun nedeni bÃ¼tÃ¼n
+gardiyanlarÄ±n Ã§ok kirli gÃ¶rÃ¼nmesi olabilir mi? Duvarlar tÄ±rnak izleri ve
+kanla Ã¶rtÃ¼lmÃ¼ÅŸ.
 ~
 0 0 0
 D3
@@ -2417,14 +2417,14 @@ D3
 ~
 0 -1 32084
 E
-duş musluk~
-İşte su buradan geliyor..................BERBAT.
-Eğer çok susadıysan belki içmeyi deneyebilirsin.~
+duÅŸ musluk~
+Ä°ÅŸte su buradan geliyor..................BERBAT.
+EÄŸer Ã§ok susadÄ±ysan belki iÃ§meyi deneyebilirsin.~
 S
 #32086
 Kafeterya~
-Herkes birşeyler yemek için buraya gelir. Bugünün menüsünde kızarmış
-sıçan ve balçık çorbası var. İGRENÇ bir koku!
+Herkes birÅŸeyler yemek iÃ§in buraya gelir. BugÃ¼nÃ¼n menÃ¼sÃ¼nde kÄ±zarmÄ±ÅŸ
+sÄ±Ã§an ve balÃ§Ä±k Ã§orbasÄ± var. Ä°GRENÃ‡ bir koku!
 ~
 0 0 0
 D0
@@ -2438,8 +2438,8 @@ D1
 S
 #32087
 Mutfak~
-Selenge'nin en meşhur aşçıları burada gardiyanlara yemek hazırlıyor.
-Görünüşe göre hepsi bir süre önce buradan ayrılmış.
+Selenge'nin en meÅŸhur aÅŸÃ§Ä±larÄ± burada gardiyanlara yemek hazÄ±rlÄ±yor.
+GÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re hepsi bir sÃ¼re Ã¶nce buradan ayrÄ±lmÄ±ÅŸ.
 ~
 0 0 0
 D2
@@ -2448,14 +2448,14 @@ D2
 0 -1 32086
 S
 #32088
-Flar'ın Bilinmeyene Kapısı~
+Flar'Ä±n Bilinmeyene KapÄ±sÄ±~
 ~
 0 C 1
 S
 #32089
-Flar'ın Cennet Kapısı~
-Büyük bir depodasın. Burası Flar'ın bütün gününü geçirdiği yer olmalı.
-Köşede bir masa, duvarda ise büyük bir işaret görüyorsun.
+Flar'Ä±n Cennet KapÄ±sÄ±~
+BÃ¼yÃ¼k bir depodasÄ±n. BurasÄ± Flar'Ä±n bÃ¼tÃ¼n gÃ¼nÃ¼nÃ¼ geÃ§irdiÄŸi yer olmalÄ±.
+KÃ¶ÅŸede bir masa, duvarda ise bÃ¼yÃ¼k bir iÅŸaret gÃ¶rÃ¼yorsun.
 ~
 0 C 1
 S

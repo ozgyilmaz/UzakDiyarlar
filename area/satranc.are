@@ -1,9 +1,9 @@
 #AREADATA
 Filename satranc.are~
-Name Satranç Tahtası~
+Name SatranÃ§ TahtasÄ±~
 Builder Exxon~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 10
 Highlevel 35
 Minvnum 4200
@@ -27,8 +27,8 @@ siyah piyon~
 Siyah Piyon~
 Siyah bir piyon burada.
 ~
-Kısa boylu bir savaşçı. Zırhı parlak ve siyah. Canını vermeye
-hazır bekliyor.
+KÄ±sa boylu bir savaÅŸÃ§Ä±. ZÄ±rhÄ± parlak ve siyah. CanÄ±nÄ± vermeye
+hazÄ±r bekliyor.
 ~
 human~
 ACF D 10
@@ -37,8 +37,8 @@ beyaz piyon~
 Beyaz Piyon~
 Beyaz bir piyon burada.
 ~
-Kısa boylu bir savaşçı. Zırhı parlak ve beyaz. Canını vermeye
-hazır bekliyor.
+KÄ±sa boylu bir savaÅŸÃ§Ä±. ZÄ±rhÄ± parlak ve beyaz. CanÄ±nÄ± vermeye
+hazÄ±r bekliyor.
 ~
 human~
 AC D 10
@@ -47,8 +47,8 @@ siyah kale~
 Siyah Kale~
 Siyah bir kale burada.
 ~
-Büyük ve tekerlekli bir yapı. Görünüşe göre rakiplerini
-tek gönderdiği yer birer MEZAR.
+BÃ¼yÃ¼k ve tekerlekli bir yapÄ±. GÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re rakiplerini
+tek gÃ¶nderdiÄŸi yer birer MEZAR.
 ~
 human~
 AFH 0 27
@@ -57,8 +57,8 @@ beyaz kale~
 Beyaz Kale~
 Beyaz bir kale burada.
 ~
-Büyük ve tekerlekli bir yapı. Görünüşe göre rakiplerini
-tek gönderdiği yer birer MEZAR.
+BÃ¼yÃ¼k ve tekerlekli bir yapÄ±. GÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re rakiplerini
+tek gÃ¶nderdiÄŸi yer birer MEZAR.
 ~
 human~
 AH D 27
@@ -67,7 +67,7 @@ siyah at~
 Siyah At~
 Siyah bir at burada.
 ~
-Siyah bir savaş atı. Gözlerinden ateş çıkıyor.
+Siyah bir savaÅŸ atÄ±. GÃ¶zlerinden ateÅŸ Ã§Ä±kÄ±yor.
 ~
 human~
 AH 0 18
@@ -76,7 +76,7 @@ beyaz at~
 Beyaz At~
 Beyaz bir at burada.
 ~
-Beyaz bir savaş atı. Gözlerinden ateş çıkıyor.
+Beyaz bir savaÅŸ atÄ±. GÃ¶zlerinden ateÅŸ Ã§Ä±kÄ±yor.
 ~
 human~
 AH 0 18
@@ -85,8 +85,8 @@ siyah fil~
 Siyah Fil~
 Siyah bir fil burada.
 ~
-İşte siyah ordunun fillerinden birisi. Ne kadar da
-iri ve güçlü görünüyor.
+Ä°ÅŸte siyah ordunun fillerinden birisi. Ne kadar da
+iri ve gÃ¼Ã§lÃ¼ gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 AH 0 24
@@ -95,8 +95,8 @@ beyaz fil~
 Beyaz Fil~
 Beyaz bir fil burada.
 ~
-İşte beyaz ordunun fillerinden birisi. Ne kadar da
-iri ve güçlü görünüyor.
+Ä°ÅŸte beyaz ordunun fillerinden birisi. Ne kadar da
+iri ve gÃ¼Ã§lÃ¼ gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 A DN 24
@@ -105,8 +105,8 @@ siyah vezir~
 Siyah Vezir~
 Siyah vezir burada.
 ~
-Simsiyah cüppesi içinde bir vezir. Kralın ordusunun
-en güçlü üyesi. Seni izliyor... Ne o, korktun mu?
+Simsiyah cÃ¼ppesi iÃ§inde bir vezir. KralÄ±n ordusunun
+en gÃ¼Ã§lÃ¼ Ã¼yesi. Seni izliyor... Ne o, korktun mu?
 ~
 human~
 ABFH DFH 32
@@ -115,8 +115,8 @@ beyaz vezir~
 Beyaz Vezir~
 Beyaz vezir burada.
 ~
-Bembeyaz cüppesi içinde bir vezir. Kralın ordusunun
-en güçlü üyesi. Seni izliyor... Ne o, korktun mu?
+Bembeyaz cÃ¼ppesi iÃ§inde bir vezir. KralÄ±n ordusunun
+en gÃ¼Ã§lÃ¼ Ã¼yesi. Seni izliyor... Ne o, korktun mu?
 ~
 human~
 ABH DFHN 32
@@ -125,9 +125,9 @@ siyah kral~
 Siyah Kral~
 Siyah kral burada.
 ~
-İşte siyah incilerle işlenmiş tacı ile bir hükümdar.
-Neden sen değil de o bir kral? İşte sorunun cevabı,
-ne kadar da yüce bir görünüş.
+Ä°ÅŸte siyah incilerle iÅŸlenmiÅŸ tacÄ± ile bir hÃ¼kÃ¼mdar.
+Neden sen deÄŸil de o bir kral? Ä°ÅŸte sorunun cevabÄ±,
+ne kadar da yÃ¼ce bir gÃ¶rÃ¼nÃ¼ÅŸ.
 ~
 human~
 ABH DFHU 36
@@ -136,21 +136,21 @@ beyaz kral~
 Beyaz Kral~
 Beyaz kral burada.
 ~
-İşte beyaz incilerle işlenmiş tacı ile bir hükümdar.
-Neden sen değil de o bir kral? İşte sorunun cevabı,
-ne kadar da yüce bir görünüş.
+Ä°ÅŸte beyaz incilerle iÅŸlenmiÅŸ tacÄ± ile bir hÃ¼kÃ¼mdar.
+Neden sen deÄŸil de o bir kral? Ä°ÅŸte sorunun cevabÄ±,
+ne kadar da yÃ¼ce bir gÃ¶rÃ¼nÃ¼ÅŸ.
 ~
 human~
 ABH DFHNU 36
 #4212
 halife omar hayalet~
-Omar'ın hayaleti~
-Halife Omar'ın hayaleti burada.
+Omar'Ä±n hayaleti~
+Halife Omar'Ä±n hayaleti burada.
 ~
-Halife Omar din kardeşlerine satranç oynamayı
-öğütleyen bir yüce adamdı. Ruhu hala burada,
-tahtanın boş olduğu vakitlerde dolaşır karelerin
-üstünde.
+Halife Omar din kardeÅŸlerine satranÃ§ oynamayÄ±
+Ã¶ÄŸÃ¼tleyen bir yÃ¼ce adamdÄ±. Ruhu hala burada,
+tahtanÄ±n boÅŸ olduÄŸu vakitlerde dolaÅŸÄ±r karelerin
+Ã¼stÃ¼nde.
 ~
 human~
 AHT BDFHPQTUV 60
@@ -159,41 +159,41 @@ AHT BDFHPQTUV 60
 
 #OBJECTS
 #4200
-zırh siyah piyon~
-bir siyah piyon zırhı~
-Bir siyah piyon zırhı burada.~
+zÄ±rh siyah piyon~
+bir siyah piyon zÄ±rhÄ±~
+Bir siyah piyon zÄ±rhÄ± burada.~
 steel~
 armor J AD
 5 5 5 0 2
 10 75 600 G
 #4201
-zırh beyaz piyon~
-bir beyaz piyon zırhı~
-Bir beyaz piyon zırhı burada.~
+zÄ±rh beyaz piyon~
+bir beyaz piyon zÄ±rhÄ±~
+Bir beyaz piyon zÄ±rhÄ± burada.~
 steel~
 armor K AD
 5 5 5 0 2
 10 75 600 G
 #4202
 balta siyah piyon~
-bir siyah piyon baltası~
-Bir siyah piyon baltası burada.~
+bir siyah piyon baltasÄ±~
+Bir siyah piyon baltasÄ± burada.~
 steel~
 weapon J AN
 axe 2 7 chomp 0
 10 100 750 G
 #4203
 balta beyaz piyon~
-bir beyaz piyon baltası~
-Bir beyaz piyon baltası burada.~
+bir beyaz piyon baltasÄ±~
+Bir beyaz piyon baltasÄ± burada.~
 steel~
 weapon K AN
 axe 2 7 chomp 0
 10 100 750 G
 #4204
-zırh siyah kale~
-bir siyah kale zırhı~
-Bir siyah kale zırhı burada.~
+zÄ±rh siyah kale~
+bir siyah kale zÄ±rhÄ±~
+Bir siyah kale zÄ±rhÄ± burada.~
 stone~
 armor J AD
 8 8 8 0 5
@@ -203,9 +203,9 @@ A
 A
 5 1
 #4205
-zırh beyaz kale~
-bir beyaz kale zırhı~
-Bir beyaz kale zırhı burada.~
+zÄ±rh beyaz kale~
+bir beyaz kale zÄ±rhÄ±~
+Bir beyaz kale zÄ±rhÄ± burada.~
 stone~
 armor K AD
 8 8 8 0 5
@@ -215,9 +215,9 @@ A
 A
 5 1
 #4206
-kargı siyah at~
-bir siyah at kargısı~
-Bir siyah at kargısı burada.~
+kargÄ± siyah at~
+bir siyah at kargÄ±sÄ±~
+Bir siyah at kargÄ±sÄ± burada.~
 bronze~
 weapon BJ AN
 lance 5 5 pierce D
@@ -227,9 +227,9 @@ A
 A
 23 5
 #4207
-kargı beyaz şövalye~
-bir beyaz at kargısı~
-Bir beyaz at kargısı burada.~
+kargÄ± beyaz ÅŸÃ¶valye~
+bir beyaz at kargÄ±sÄ±~
+Bir beyaz at kargÄ±sÄ± burada.~
 bronze~
 weapon BK AN
 lance 5 5 pierce D
@@ -240,24 +240,24 @@ A
 23 5
 #4208
 asa siyah fil~
-bir siyah fil asası~
-Bir siyah fil asası burada.~
+bir siyah fil asasÄ±~
+Bir siyah fil asasÄ± burada.~
 wood~
 staff GJL AO
 20 5 5 'energy drain' 0
 23 20 3523 P
 #4209
-beyaz vezir taç~
-bir beyaz vezir tacı~
-Bir beyaz vezir tacı burada.~
+beyaz vezir taÃ§~
+bir beyaz vezir tacÄ±~
+Bir beyaz vezir tacÄ± burada.~
 wood~
 staff GKL AO
 20 5 5 'sanctuary' 0
 23 20 3879 P
 #4210
-siyah vezir taç~
-bir siyah vezir tacı~
-Bir siyah vezir tacı burada.~
+siyah vezir taÃ§~
+bir siyah vezir tacÄ±~
+Bir siyah vezir tacÄ± burada.~
 gold~
 armor AGJL AE
 9 9 9 1 1
@@ -267,9 +267,9 @@ A
 A
 4 1
 #4211
-beyaz vezir taç~
-bir beyaz vezir tacı~
-Bir beyaz vezir tacı burada.~
+beyaz vezir taÃ§~
+bir beyaz vezir tacÄ±~
+Bir beyaz vezir tacÄ± burada.~
 gold~
 armor AGKL AE
 9 9 9 1 1
@@ -279,9 +279,9 @@ A
 A
 4 1
 #4212
-hükümdar siyah asa kral~
-bir siyah kral hükümdar asası~
-Siyah kralın hükümdar asası burada.~
+hÃ¼kÃ¼mdar siyah asa kral~
+bir siyah kral hÃ¼kÃ¼mdar asasÄ±~
+Siyah kralÄ±n hÃ¼kÃ¼mdar asasÄ± burada.~
 gold~
 treasure JL AO
 0 0 0 0 0
@@ -291,9 +291,9 @@ A
 A
 18 1
 #4213
-hükümdar beyaz asa kral~
-bir beyaz kral hükümdar asası~
-Beyaz kralın hükümdar asası burada.~
+hÃ¼kÃ¼mdar beyaz asa kral~
+bir beyaz kral hÃ¼kÃ¼mdar asasÄ±~
+Beyaz kralÄ±n hÃ¼kÃ¼mdar asasÄ± burada.~
 gold~
 treasure KL AO
 0 0 0 0 0
@@ -304,7 +304,7 @@ A
 18 1
 #4214
 anahtar siyah hazine~
-siyah hazine anahtarı~
+siyah hazine anahtarÄ±~
 Siyah bir anahtar burada duruyor.~
 metal~
 key FH AO
@@ -312,7 +312,7 @@ key FH AO
 6 20 1 G
 #4215
 anahtar beyaz hazine~
-beyaz hazine anahtarı~
+beyaz hazine anahtarÄ±~
 Beyaz bir anahtar burada duruyor.~
 metal~
 key FH AO
@@ -321,7 +321,7 @@ key FH AO
 #4216
 siyah kraliyet hazine~
 siyah kraliyet hazinesi~
-Bir hazine görüyorsun.~
+Bir hazine gÃ¶rÃ¼yorsun.~
 silver~
 money 0 A
 10000 0 0 0 0
@@ -329,41 +329,41 @@ money 0 A
 #4217
 beyaz kraliyet hazine~
 beyaz kraliyet hazinesi~
-Bir hazine görüyorsun.~
+Bir hazine gÃ¶rÃ¼yorsun.~
 silver~
 money 0 A
 10000 0 0 0 0
 0 0 0 P
 
 #4218
-döven siyah piyon~
-bir siyah piyon döveni~
-Bir siyah piyon döveni burada duruyor.~
+dÃ¶ven siyah piyon~
+bir siyah piyon dÃ¶veni~
+Bir siyah piyon dÃ¶veni burada duruyor.~
 steel~
 weapon J AN
 flail 2 7 blast 0
 10 100 750 G
 #4219
-döven beyaz piyon~
-bir beyaz piyon döveni~
-Bir beyaz piyon döveni burada duruyor.~
+dÃ¶ven beyaz piyon~
+bir beyaz piyon dÃ¶veni~
+Bir beyaz piyon dÃ¶veni burada duruyor.~
 steel~
 weapon K AN
 flail 2 6 blast 0
 10 100 750 G
 
 #4220
-kırbaç siyah piyon~
-bir siyah piyon kırbacı~
-Bir siyah piyon kırbacı burada duruyor.~
+kÄ±rbaÃ§ siyah piyon~
+bir siyah piyon kÄ±rbacÄ±~
+Bir siyah piyon kÄ±rbacÄ± burada duruyor.~
 steel~
 weapon J AN
 whip 2 7 whip 0
 10 100 750 G
 #4221
-kırbaç beyaz piyon~
-bir beyaz piyon kırbacı~
-Bir beyaz piyon kırbacı burada duruyor.~
+kÄ±rbaÃ§ beyaz piyon~
+bir beyaz piyon kÄ±rbacÄ±~
+Bir beyaz piyon kÄ±rbacÄ± burada duruyor.~
 steel~
 weapon K AN
 whip 2 6 whip 0
@@ -371,16 +371,16 @@ whip 2 6 whip 0
 
 #4222
 asa siyah piyon~
-bir siyah piyon asası~
-Bir siyah piyon asası burada duruyor.~
+bir siyah piyon asasÄ±~
+Bir siyah piyon asasÄ± burada duruyor.~
 steel~
 weapon J AN
 staff 2 7 thrust 0
 10 100 750 G
 #4223
 asa beyaz piyon~
-bir beyaz piyon asası~
-Bir beyaz piyon asası burada duruyor.~
+bir beyaz piyon asasÄ±~
+Bir beyaz piyon asasÄ± burada duruyor.~
 steel~
 weapon K AN
 staff 2 7 thrust 0
@@ -404,17 +404,17 @@ polearm 2 7 pierce 0
 10 100 750 G
 
 #4226
-kılıç siyah piyon~
-bir siyah piyon kılıcı~
-Bir siyah piyon kılıcı burada duruyor.~
+kÄ±lÄ±Ã§ siyah piyon~
+bir siyah piyon kÄ±lÄ±cÄ±~
+Bir siyah piyon kÄ±lÄ±cÄ± burada duruyor.~
 steel~
 weapon J AN
 sword 2 7 pierce 0
 10 100 750 G
 #4227
-kılıç beyaz piyon~
-bir beyaz piyon kılıcı~
-Bir beyaz piyon kılıcı burada duruyor.~
+kÄ±lÄ±Ã§ beyaz piyon~
+bir beyaz piyon kÄ±lÄ±cÄ±~
+Bir beyaz piyon kÄ±lÄ±cÄ± burada duruyor.~
 steel~
 weapon K AN
 sword 2 7 pierce 0
@@ -422,33 +422,33 @@ sword 2 7 pierce 0
 
 4228
 kama siyah piyon~
-bir siyah piyon kaması~
-Bir siyah piyon kaması burada duruyor.~
+bir siyah piyon kamasÄ±~
+Bir siyah piyon kamasÄ± burada duruyor.~
 steel~
 weapon J AN
 dagger 2 7 pierce 0
 10 100 750 G
 #4229
 kama beyaz piyon~
-bir beyaz piyon kaması~
-Bir beyaz piyon kaması burada duruyor.~
+bir beyaz piyon kamasÄ±~
+Bir beyaz piyon kamasÄ± burada duruyor.~
 steel~
 weapon K AN
 dagger 2 7 pierce 0
 10 100 750 G
 
 #4230
-tataryayı siyah piyon~
-bir siyah piyon tataryayı~
-Bir siyah piyon tataryayı burada duruyor.~
+tataryayÄ± siyah piyon~
+bir siyah piyon tataryayÄ±~
+Bir siyah piyon tataryayÄ± burada duruyor.~
 steel~
 weapon J AN
 exotic 2 7 blast 0
 10 100 750 G
 #4231
 tataryay beyaz piyon~
-bir beyaz piyon tataryayı~
-Bir beyaz piyon tataryayı burada duruyor.~
+bir beyaz piyon tataryayÄ±~
+Bir beyaz piyon tataryayÄ± burada duruyor.~
 steel~
 weapon K AN
 exotic 2 7 blast 0
@@ -456,16 +456,16 @@ exotic 2 7 blast 0
 
 #4232
 kalkan siyah piyon~
-bir siyah piyon kalkanı~
-Bir siyah piyon kalkanı burada duruyor.~
+bir siyah piyon kalkanÄ±~
+Bir siyah piyon kalkanÄ± burada duruyor.~
 steel~
 armor J AJ
 8 7 7 2 2
 10 30 1210 P
 #4233
 kalkan beyaz piyon~
-bir beyaz piyon kalkanı~
-Bir beyaz piyon kalkanı burada duruyor.~
+bir beyaz piyon kalkanÄ±~
+Bir beyaz piyon kalkanÄ± burada duruyor.~
 steel~
 armor K AJ
 8 7 7 2 2
@@ -473,67 +473,67 @@ armor K AJ
 
 #4234
 fular siyah piyon~
-bir siyah piyon fuları~
-Bir siyah piyon fuları burada duruyor.~
+bir siyah piyon fularÄ±~
+Bir siyah piyon fularÄ± burada duruyor.~
 cloth~
 armor J AC
 5 7 7 1 1
 10 40 1510 P
 #4235
 fular beyaz piyon~
-bir beyaz piyon fuları~
-Bir beyaz piyon fuları burada duruyor.~
+bir beyaz piyon fularÄ±~
+Bir beyaz piyon fularÄ± burada duruyor.~
 cloth~
 armor K AC
 5 7 7 1 1
 10 40 1510 P
 
 #4236
-miğfer siyah piyon~
-bir siyah piyon miğferi~
-Bir siyah piyon miğferi burada duruyor.~
+miÄŸfer siyah piyon~
+bir siyah piyon miÄŸferi~
+Bir siyah piyon miÄŸferi burada duruyor.~
 leather~
 armor J AE
 6 6 7 1 1
 10 50 1150 P
 #4237
-miğfer beyaz piyon~
-bir beyaz piyon miğferi~
-Bir beyaz piyon miğferi burada duruyor.~
+miÄŸfer beyaz piyon~
+bir beyaz piyon miÄŸferi~
+Bir beyaz piyon miÄŸferi burada duruyor.~
 leather~
 armor K AE
 6 6 7 1 1
 10 50 1150 P
 
 #4238
-bacaklık siyah piyon~
-bir çift siyah piyon bacaklığı~
-Bir çift siyah piyon bacaklığı burada duruyor.~
+bacaklÄ±k siyah piyon~
+bir Ã§ift siyah piyon bacaklÄ±ÄŸÄ±~
+Bir Ã§ift siyah piyon bacaklÄ±ÄŸÄ± burada duruyor.~
 leather~
 armor J AF
 6 6 6 1 1
 10 30 1350 P
 #4239
-bacaklık beyaz piyon~
-bir çift beyaz piyon bacaklığı~
-Bir çift beyaz piyon bacaklığı burada duruyor.~
+bacaklÄ±k beyaz piyon~
+bir Ã§ift beyaz piyon bacaklÄ±ÄŸÄ±~
+Bir Ã§ift beyaz piyon bacaklÄ±ÄŸÄ± burada duruyor.~
 leather~
 armor K AF
 6 6 6 1 1
 10 30 1350 P
 
 #4240
-ayakkabı siyah piyon~
-bir çift siyah piyon ayakkabısı~
-Bir çift siyah piyon ayakkabısı burada duruyor.~
+ayakkabÄ± siyah piyon~
+bir Ã§ift siyah piyon ayakkabÄ±sÄ±~
+Bir Ã§ift siyah piyon ayakkabÄ±sÄ± burada duruyor.~
 leather~
 armor J AG
 7 6 7 1 1
 10 130 1450 P
 #4241
-ayakkabı beyaz piyon~
-bir çift beyaz piyon ayakkabısı~
-Bir çift beyaz piyon ayakkabısı burada duruyor.~
+ayakkabÄ± beyaz piyon~
+bir Ã§ift beyaz piyon ayakkabÄ±sÄ±~
+Bir Ã§ift beyaz piyon ayakkabÄ±sÄ± burada duruyor.~
 leather~
 armor K AG
 7 6 7 1 1
@@ -541,16 +541,16 @@ armor K AG
 
 #4242
 eldiven siyah piyon~
-bir çift siyah piyon eldiveni~
-Bir çift siyah piyon eldiveni burada duruyor.~
+bir Ã§ift siyah piyon eldiveni~
+Bir Ã§ift siyah piyon eldiveni burada duruyor.~
 leather~
 armor J AH
 6 6 5 1 1
 10 80 950 P
 #4243
 eldiven beyaz piyon~
-bir çift beyaz piyon eldiveni~
-Bir çift beyaz piyon eldiveni burada duruyor.~
+bir Ã§ift beyaz piyon eldiveni~
+Bir Ã§ift beyaz piyon eldiveni burada duruyor.~
 leather~
 armor K AH
 6 6 5 1 1
@@ -558,16 +558,16 @@ armor K AH
 
 #4244
 kolluk siyah piyon~
-bir çift siyah piyon kolluğu~
-Bir çift siyah piyon kolluğu burada duruyor.~
+bir Ã§ift siyah piyon kolluÄŸu~
+Bir Ã§ift siyah piyon kolluÄŸu burada duruyor.~
 leather~
 armor J AI
 6 5 6 1 1
 10 90 1150 P
 #4245
 kolluk beyaz piyon~
-bir çift beyaz piyon kolluğu~
-Bir çift beyaz piyon kolluğu burada duruyor.~
+bir Ã§ift beyaz piyon kolluÄŸu~
+Bir Ã§ift beyaz piyon kolluÄŸu burada duruyor.~
 leather~
 armor K AI
 6 5 6 1 1
@@ -609,25 +609,25 @@ armor K AL
 
 #4250
 bileklik siyah piyon~
-bir siyah piyon bilekliği~
-Bir siyah piyon bilekliği burada duruyor.~
+bir siyah piyon bilekliÄŸi~
+Bir siyah piyon bilekliÄŸi burada duruyor.~
 bronze~
 armor J AM
 7 5 5 1 0
 10 60 1390 P
 #4251
 bileklik beyaz piyon~
-bir beyaz piyon bilekliği~
-Bir beyaz piyon bilekliği burada duruyor.~
+bir beyaz piyon bilekliÄŸi~
+Bir beyaz piyon bilekliÄŸi burada duruyor.~
 bronze~
 armor K AM
 7 5 5 1 0
 10 60 1390 P
 
 #4260
-satranç tahtası~
-satranç tahtası~
-Küçük bir satranç tahtası görüyorsun.~
+satranÃ§ tahtasÄ±~
+satranÃ§ tahtasÄ±~
+KÃ¼Ã§Ã¼k bir satranÃ§ tahtasÄ± gÃ¶rÃ¼yorsun.~
 wood~
 armor ABFJK AQ
 17 17 17 33 0
@@ -638,16 +638,16 @@ A 13 95 AT
 
 #4261
 kalkan siyah at~
-siyah at kalkanı~
-Bir siyah at kalkanı burada duruyor.~
+siyah at kalkanÄ±~
+Bir siyah at kalkanÄ± burada duruyor.~
 steel~
 armor J AJ
 8 9 9 2 2
 18 90 2210 P
 #4262
 kalkan beyaz at~
-beyaz at kalkanı~
-Bir beyaz at kalkanı burada duruyor.~
+beyaz at kalkanÄ±~
+Bir beyaz at kalkanÄ± burada duruyor.~
 steel~
 armor K AJ
 8 9 9 2 2
@@ -671,51 +671,51 @@ armor K AC
 18 70 2610 P
 
 #4265
-miğfer siyah at~
-bir siyah at miğferi~
-Bir siyah at miğferi burada duruyor.~
+miÄŸfer siyah at~
+bir siyah at miÄŸferi~
+Bir siyah at miÄŸferi burada duruyor.~
 leather~
 armor J AE
 7 7 8 1 1
 18 70 1950 P
 #4266
-miğfer beyaz at~
-bir beyaz at miğferi~
-Bir beyaz at miğferi burada duruyor.~
+miÄŸfer beyaz at~
+bir beyaz at miÄŸferi~
+Bir beyaz at miÄŸferi burada duruyor.~
 leather~
 armor K AE
 7 7 8 1 1
 18 70 1950 P
 
 #4267
-bacaklık siyah at~
-bir çift siyah at bacaklığı~
-Bir çift siyah at bacaklığı burada duruyor.~
+bacaklÄ±k siyah at~
+bir Ã§ift siyah at bacaklÄ±ÄŸÄ±~
+Bir Ã§ift siyah at bacaklÄ±ÄŸÄ± burada duruyor.~
 leather~
 armor J AF
 7 7 7 1 1
 18 80 1350 P
 #4268
-bacaklık beyaz at~
-bir çift beyaz at bacaklığı~
-Bir çift beyaz at bacaklığı burada duruyor.~
+bacaklÄ±k beyaz at~
+bir Ã§ift beyaz at bacaklÄ±ÄŸÄ±~
+Bir Ã§ift beyaz at bacaklÄ±ÄŸÄ± burada duruyor.~
 leather~
 armor K AF
 7 7 7 1 1
 18 80 1350 P
 
 #4269
-ayakkabı siyah at~
-bir çift siyah at ayakkabısı~
-Bir çift siyah at ayakkabısı burada duruyor.~
+ayakkabÄ± siyah at~
+bir Ã§ift siyah at ayakkabÄ±sÄ±~
+Bir Ã§ift siyah at ayakkabÄ±sÄ± burada duruyor.~
 leather~
 armor J AG
 8 7 7 1 1
 18 110 2850 P
 #4270
-ayakkabı beyaz at~
-bir çift beyaz at ayakkabısı~
-Bir çift beyaz at ayakkabısı burada duruyor.~
+ayakkabÄ± beyaz at~
+bir Ã§ift beyaz at ayakkabÄ±sÄ±~
+Bir Ã§ift beyaz at ayakkabÄ±sÄ± burada duruyor.~
 leather~
 armor K AG
 8 7 7 1 1
@@ -723,16 +723,16 @@ armor K AG
 
 #4271
 eldiven siyah at~
-bir çift siyah at eldiveni~
-Bir çift siyah at eldiveni burada duruyor.~
+bir Ã§ift siyah at eldiveni~
+Bir Ã§ift siyah at eldiveni burada duruyor.~
 leather~
 armor J AH
 6 7 6 1 1
 18 80 2250 P
 #4272
 eldiven beyaz at~
-bir çift beyaz at eldiveni~
-Bir çift beyaz at eldiveni burada duruyor.~
+bir Ã§ift beyaz at eldiveni~
+Bir Ã§ift beyaz at eldiveni burada duruyor.~
 leather~
 armor K AH
 6 7 6 1 1
@@ -740,16 +740,16 @@ armor K AH
 
 #4273
 kolluk siyah at~
-bir çift siyah at kolluğu~
-Bir çift siyah at kolluğu burada duruyor.~
+bir Ã§ift siyah at kolluÄŸu~
+Bir Ã§ift siyah at kolluÄŸu burada duruyor.~
 leather~
 armor J AI
 7 6 7 1 1
 18 100 2150 P
 #4274
 kolluk beyaz at~
-bir çift beyaz at kolluğu~
-Bir çift beyaz at kolluğu burada duruyor.~
+bir Ã§ift beyaz at kolluÄŸu~
+Bir Ã§ift beyaz at kolluÄŸu burada duruyor.~
 leather~
 armor K AI
 7 6 7 1 1
@@ -791,16 +791,16 @@ armor K AL
 
 #4279
 bileklik siyah at~
-bir siyah at bilekliği~
-Bir siyah at bilekliği burada duruyor.~
+bir siyah at bilekliÄŸi~
+Bir siyah at bilekliÄŸi burada duruyor.~
 bronze~
 armor J AM
 7 7 6 1 0
 18 40 2390 P
 #4280
 bileklik beyaz at~
-bir beyaz at bilekliği~
-Bir beyaz at bilekliği burada duruyor.~
+bir beyaz at bilekliÄŸi~
+Bir beyaz at bilekliÄŸi burada duruyor.~
 bronze~
 armor K AM
 7 7 6 1 0
@@ -814,11 +814,11 @@ armor K AM
 
 #ROOMS
 #4200
-Tanrıların Satranç Tahtası~
-Tanrılara adanmış yaşayan heykellerden oluşan bir alanın önündesin.
-Büyük paslı kapı ardına kadar açılmış. Eski ihtişamını çoktan
-yitirmiş olan bu kadim yer artık yalnızca genç maceraperestlerin
-pratik yaptığı bir okul gibi. Duvarda bir tablet var.
+TanrÄ±larÄ±n SatranÃ§ TahtasÄ±~
+TanrÄ±lara adanmÄ±ÅŸ yaÅŸayan heykellerden oluÅŸan bir alanÄ±n Ã¶nÃ¼ndesin.
+BÃ¼yÃ¼k paslÄ± kapÄ± ardÄ±na kadar aÃ§Ä±lmÄ±ÅŸ. Eski ihtiÅŸamÄ±nÄ± Ã§oktan
+yitirmiÅŸ olan bu kadim yer artÄ±k yalnÄ±zca genÃ§ maceraperestlerin
+pratik yaptÄ±ÄŸÄ± bir okul gibi. Duvarda bir tablet var.
 ~
 0 C 1
 D1
@@ -827,7 +827,7 @@ Selenge Mahzenleri...
 ~
 0 -1 3043
 D3
-Büyük satranç tahtasını görüyorsun.
+BÃ¼yÃ¼k satranÃ§ tahtasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 4232
@@ -852,12 +852,12 @@ Beyaz mermer bir karedesin.
 ~
 0 0 1
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4202
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4209
@@ -868,17 +868,17 @@ Siyah mermer bir karedesin.
 ~
 0 0 1
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4203
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4210
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4201
@@ -889,17 +889,17 @@ Beyaz mermer bir karedesin.
 ~
 0 0 1
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4204
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4211
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4202
@@ -910,17 +910,17 @@ Siyah mermer bir karedesin.
 ~
 0 0 1
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4205
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4212
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4203
@@ -935,17 +935,17 @@ Beyaz mermer bir karedesin.
 ~
 0 0 1
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4206
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4213
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4204
@@ -956,17 +956,17 @@ Siyah mermer bir karedesin.
 ~
 0 0 1
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4207
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4214
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4205
@@ -977,17 +977,17 @@ Beyaz mermer bir karedesin.
 ~
 0 0 1
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4208
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4215
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4206
@@ -998,12 +998,12 @@ Siyah mermer bir karedesin.
 ~
 0 0 1
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4216
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4207
@@ -1019,12 +1019,12 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4201
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4210
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4217
@@ -1040,17 +1040,17 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4202
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4211
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4218
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4209
@@ -1066,17 +1066,17 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4203
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4212
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4219
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4210
@@ -1092,17 +1092,17 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4204
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4213
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4220
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4211
@@ -1118,17 +1118,17 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4205
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4214
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4221
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4212
@@ -1144,17 +1144,17 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4206
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4215
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4222
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4213
@@ -1170,17 +1170,17 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4207
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4216
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4223
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4214
@@ -1196,12 +1196,12 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4208
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4224
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4215
@@ -1217,12 +1217,12 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4209
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4218
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4225
@@ -1238,17 +1238,17 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4210
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4219
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4226
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4217
@@ -1264,17 +1264,17 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4211
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4220
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4227
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4218
@@ -1290,17 +1290,17 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4212
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4221
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4228
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4219
@@ -1316,17 +1316,17 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4213
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4222
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4229
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4220
@@ -1342,17 +1342,17 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4214
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4223
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4230
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4221
@@ -1368,24 +1368,24 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4215
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4224
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4231
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4222
 S
 #4224
 Siyah Kare~
-Siyah mermer bir karedesin. Güneyde paslanmış kapıyı görüyorsun.
+Siyah mermer bir karedesin. GÃ¼neyde paslanmÄ±ÅŸ kapÄ±yÄ± gÃ¶rÃ¼yorsun.
 ~
 0 0 1
 D0
@@ -1394,12 +1394,12 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4216
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4232
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4223
@@ -1415,12 +1415,12 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4217
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4226
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4233
@@ -1436,17 +1436,17 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4218
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4227
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4234
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4225
@@ -1462,17 +1462,17 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4219
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4228
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4235
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4226
@@ -1488,17 +1488,17 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4220
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4229
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4236
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4227
@@ -1514,17 +1514,17 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4221
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4230
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4237
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4228
@@ -1540,25 +1540,25 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4222
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4231
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4238
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4229
 S
 #4231
 Siyah Kare~
-Siyah mermer bir karedesin. Doğuda kısa mesafede paslanmış kapıyı
-görüyorsun.
+Siyah mermer bir karedesin. DoÄŸuda kÄ±sa mesafede paslanmÄ±ÅŸ kapÄ±yÄ±
+gÃ¶rÃ¼yorsun.
 ~
 0 0 1
 D0
@@ -1567,24 +1567,24 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4223
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4232
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4239
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4230
 S
 #4232
 Beyaz Kare~
-Beyaz mermer bir karedesin. Doğuda büyük paslanmış bir kapı var.
+Beyaz mermer bir karedesin. DoÄŸuda bÃ¼yÃ¼k paslanmÄ±ÅŸ bir kapÄ± var.
 ~
 0 0 1
 D0
@@ -1593,17 +1593,17 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4224
 D1
-Satranç Tahtası'nın kapısı doğuda.
+SatranÃ§ TahtasÄ±'nÄ±n kapÄ±sÄ± doÄŸuda.
 ~
 ~
 0 -1 4200
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4240
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4231
@@ -1619,12 +1619,12 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4225
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4234
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4241
@@ -1640,17 +1640,17 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4226
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4235
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4242
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4233
@@ -1666,17 +1666,17 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4227
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4236
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4243
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4234
@@ -1692,17 +1692,17 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4228
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4237
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4244
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4235
@@ -1718,17 +1718,17 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4229
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4238
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4245
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4236
@@ -1744,17 +1744,17 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4230
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4239
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4246
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4237
@@ -1770,24 +1770,24 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4231
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4240
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4247
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4238
 S
 #4240
 Siyah Kare~
-Siyah mermer bir karedesin. Kuzeyde paslanmış bir kapı var.
+Siyah mermer bir karedesin. Kuzeyde paslanmÄ±ÅŸ bir kapÄ± var.
 ~
 0 0 1
 D0
@@ -1796,12 +1796,12 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4232
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4248
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4239
@@ -1817,12 +1817,12 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4233
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4242
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4249
@@ -1838,17 +1838,17 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4234
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4243
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4250
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4241
@@ -1864,17 +1864,17 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4235
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4244
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4251
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4242
@@ -1890,17 +1890,17 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4236
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4245
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4252
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4243
@@ -1916,17 +1916,17 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4237
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4246
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4253
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4244
@@ -1942,17 +1942,17 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4238
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4247
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4254
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4245
@@ -1968,17 +1968,17 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4239
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4248
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4255
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4246
@@ -1994,12 +1994,12 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4240
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4256
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4247
@@ -2015,12 +2015,12 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4241
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4250
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4257
@@ -2036,17 +2036,17 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4242
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4251
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4258
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4249
@@ -2062,17 +2062,17 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4243
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4252
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4259
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4250
@@ -2088,17 +2088,17 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4244
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4253
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4260
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4251
@@ -2114,17 +2114,17 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4245
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4254
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4261
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4252
@@ -2140,17 +2140,17 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4246
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4255
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4262
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4253
@@ -2166,17 +2166,17 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4247
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4256
 D2
-Güneyde siyah bir kare var.
+GÃ¼neyde siyah bir kare var.
 ~
 ~
 0 -1 4263
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4254
@@ -2192,12 +2192,12 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4248
 D2
-Güneyde beyaz bir kare var.
+GÃ¼neyde beyaz bir kare var.
 ~
 ~
 0 -1 4264
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4255
@@ -2213,7 +2213,7 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4249
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4258
@@ -2229,12 +2229,12 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4250
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4259
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4257
@@ -2250,12 +2250,12 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4251
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4260
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4258
@@ -2271,12 +2271,12 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4252
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4261
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4259
@@ -2296,12 +2296,12 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4253
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4262
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4260
@@ -2317,12 +2317,12 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4254
 D1
-Doğuda siyah bir kare var.
+DoÄŸuda siyah bir kare var.
 ~
 ~
 0 -1 4263
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4261
@@ -2338,12 +2338,12 @@ Kuzeyde beyaz bir kare var.
 ~
 0 -1 4255
 D1
-Doğuda beyaz bir kare var.
+DoÄŸuda beyaz bir kare var.
 ~
 ~
 0 -1 4264
 D3
-Batıda beyaz bir kare var.
+BatÄ±da beyaz bir kare var.
 ~
 ~
 0 -1 4262
@@ -2359,29 +2359,29 @@ Kuzeyde siyah bir kare var.
 ~
 0 -1 4256
 D3
-Batıda siyah bir kare var.
+BatÄ±da siyah bir kare var.
 ~
 ~
 0 -1 4263
 S
 #4265
-Siyah Hazine Odası~
-Siyah Hazine Odası'ndasın. Neyse ki halifenin hazinesi yağmalanmamış.
+Siyah Hazine OdasÄ±~
+Siyah Hazine OdasÄ±'ndasÄ±n. Neyse ki halifenin hazinesi yaÄŸmalanmamÄ±ÅŸ.
 ~
 0 ADJ 0
 D4
-Yukarı çıkan bir merdiven görüyorsun.
+YukarÄ± Ã§Ä±kan bir merdiven gÃ¶rÃ¼yorsun.
 ~
 mermer kare~
 1 4214 4204
 S
 #4266
-Beyaz Hazine Odası~
-Beyaz Hazine Odası'ndasın. Neyse ki halifenin hazinesi yağmalanmamış.
+Beyaz Hazine OdasÄ±~
+Beyaz Hazine OdasÄ±'ndasÄ±n. Neyse ki halifenin hazinesi yaÄŸmalanmamÄ±ÅŸ.
 ~
 0 ADJ 0
 D4
-Yukarı çıkan bir merdiven görüyorsun.
+YukarÄ± Ã§Ä±kan bir merdiven gÃ¶rÃ¼yorsun.
 ~
 mermer kare~
 1 4215 4260

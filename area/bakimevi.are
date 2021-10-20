@@ -1,9 +1,9 @@
 #AREADATA
 Filename bakimevi.are~
-Name Bakımevi~
+Name BakÄ±mevi~
 Builder Sandman~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 1
 Highlevel 5
 Minvnum 6600
@@ -16,29 +16,29 @@ END
 
 #NEW_MOBILES
 #6600
-genç cüce~
-genç cüce~
-Genç bir cüce elindeki oyuncak baltayla oynuyor.
+genÃ§ cÃ¼ce~
+genÃ§ cÃ¼ce~
+GenÃ§ bir cÃ¼ce elindeki oyuncak baltayla oynuyor.
 ~
-Küçük olsa da tamamen zararsız olmayan bir yaratık.
+KÃ¼Ã§Ã¼k olsa da tamamen zararsÄ±z olmayan bir yaratÄ±k.
 ~
 dwarf~
 ACGT 0 3
 #6601
-oyuncak ayı~
-bir oyuncak ayı~
-Sevimli bir oyuncak ayı burada duruyor.
+oyuncak ayÄ±~
+bir oyuncak ayÄ±~
+Sevimli bir oyuncak ayÄ± burada duruyor.
 ~
-Bu göğsünde kalbi olan bir oyuncak ayı.
+Bu gÃ¶ÄŸsÃ¼nde kalbi olan bir oyuncak ayÄ±.
 ~
 doll~
 ACG 0 1
 #6602
 oyuncak bebek~
-bir pejmürde oyuncak bebek~
-Bir pejmürde oyuncak bebek burada oturuyor.
+bir pejmÃ¼rde oyuncak bebek~
+Bir pejmÃ¼rde oyuncak bebek burada oturuyor.
 ~
-Küçük, sevimli bir oyuncak bebek görüyorsun. Soluk alıp verdiğini fark
+KÃ¼Ã§Ã¼k, sevimli bir oyuncak bebek gÃ¶rÃ¼yorsun. Soluk alÄ±p verdiÄŸini fark
 ediyorsun.
 ~
 doll~
@@ -48,55 +48,55 @@ oyuncak asker~
 bir oyuncak asker~
 Bir oyuncak asker burada duruyor.
 ~
-Oyuncak asker üzeinde pratik yapabileceği bir hedef arıyor.
+Oyuncak asker Ã¼zeinde pratik yapabileceÄŸi bir hedef arÄ±yor.
 ~
 doll~
 ACGT 0 3
 #6604
-korkunç ayı~
-korkunç bir ayı~
-Korkunç bir ayı burada duruyor.
+korkunÃ§ ayÄ±~
+korkunÃ§ bir ayÄ±~
+KorkunÃ§ bir ayÄ± burada duruyor.
 ~
-Bu fabrikadan çıkma korkunç ayı sana bakıyor.
+Bu fabrikadan Ã§Ä±kma korkunÃ§ ayÄ± sana bakÄ±yor.
 ~
 doll~
 ACF 0 3
 #6605
 oyuncak bebek~
-bir yaşlı oyuncak bebek~
-Kötü yola düşmüş bir yaşlı oyuncak bebek burada.
+bir yaÅŸlÄ± oyuncak bebek~
+KÃ¶tÃ¼ yola dÃ¼ÅŸmÃ¼ÅŸ bir yaÅŸlÄ± oyuncak bebek burada.
 ~
-Bu bebekle bütün güzelliği yok olana kadar oynanmış.
+Bu bebekle bÃ¼tÃ¼n gÃ¼zelliÄŸi yok olana kadar oynanmÄ±ÅŸ.
 ~
 doll~
 ACG 0 1
 #6606
-dadı~
-dadı~
-Küçüklere sahip olan bir dadı burada.
+dadÄ±~
+dadÄ±~
+KÃ¼Ã§Ã¼klere sahip olan bir dadÄ± burada.
 ~
-Oldukça yaşlanmış cüce bir dadı görüyorsun. Fakat tahminin doğruysa bu
-kadında hala dövüşebilecek güç var.
+OldukÃ§a yaÅŸlanmÄ±ÅŸ cÃ¼ce bir dadÄ± gÃ¶rÃ¼yorsun. Fakat tahminin doÄŸruysa bu
+kadÄ±nda hala dÃ¶vÃ¼ÅŸebilecek gÃ¼Ã§ var.
 ~
 dwarf~
 AG 0 5
 #6607
 yasavul~
-silahlı yasavul~
-Silahlı bir yasavul burada; kaybolmuş görünüyor.
+silahlÄ± yasavul~
+SilahlÄ± bir yasavul burada; kaybolmuÅŸ gÃ¶rÃ¼nÃ¼yor.
 ~
-Bu yapılı ve iyi silahlanmış yasavul labirente benzeyen bu yerde kaybolmuş
-görünüyor. Kaçsan iyi olacak.
+Bu yapÄ±lÄ± ve iyi silahlanmÄ±ÅŸ yasavul labirente benzeyen bu yerde kaybolmuÅŸ
+gÃ¶rÃ¼nÃ¼yor. KaÃ§san iyi olacak.
 ~
 dwarf~
 ABCT D 8
 #6608
 yumurcak~
 yumurcak~
-Bir yumurcak burada ağlıyor.
+Bir yumurcak burada aÄŸlÄ±yor.
 ~
-Burada her zaman istediğini elde etmiş bir yumurcak görüyorsun. Belki de
-yeni birşey istediği için ağlıyordur.
+Burada her zaman istediÄŸini elde etmiÅŸ bir yumurcak gÃ¶rÃ¼yorsun. Belki de
+yeni birÅŸey istediÄŸi iÃ§in aÄŸlÄ±yordur.
 ~
 dwarf~
 ABC 0 1
@@ -105,15 +105,15 @@ ABC 0 1
 #6600
 balta oyuncak~
 bir oyuncak balta~
-Tahtadan yapılmış oyuncak bir balta burada.~
+Tahtadan yapÄ±lmÄ±ÅŸ oyuncak bir balta burada.~
 wood~
 weapon 0 AN
 axe 1 5 chop 0
 0 30 250 G
 #6601
-yüzük pembe buz~
-bir pembe buzlu yüzük~
-Bir pembe buzlu yüzük burada duruyor.~
+yÃ¼zÃ¼k pembe buz~
+bir pembe buzlu yÃ¼zÃ¼k~
+Bir pembe buzlu yÃ¼zÃ¼k burada duruyor.~
 ice~
 treasure G AB
 0 0 0 0 0
@@ -123,9 +123,9 @@ A
 A
 1 1
 #6621
-keten cüppe~
-bir keten cüppe~
-Keten bir cüppe burada, sahibini bekliyor.~
+keten cÃ¼ppe~
+bir keten cÃ¼ppe~
+Keten bir cÃ¼ppe burada, sahibini bekliyor.~
 cloth~
 armor G AK
 1 2 1 1 1
@@ -137,7 +137,7 @@ A
 #6622
 tahta asa~
 tahta asa~
-Bir tahta asa yerde yatıyor.~
+Bir tahta asa yerde yatÄ±yor.~
 wood~
 weapon 0 AN
 staff 2 3 pound F
@@ -155,9 +155,9 @@ food 0 A
 25 25 0 0 0
 0 20 0 P
 #6645
-çürük biftek~
-bir çürük biftek~
-Bir çürük biftek yerde yatıyor.~
+Ã§Ã¼rÃ¼k biftek~
+bir Ã§Ã¼rÃ¼k biftek~
+Bir Ã§Ã¼rÃ¼k biftek yerde yatÄ±yor.~
 meat~
 food 0 A
 4 4 0 1 0
@@ -184,9 +184,9 @@ A
 
 #ROOMS
 #6601
-Cüce Diyarı Girişi~
-Burası cüce ebeveynlerin sinir bozucu çocuklarını büyüttükleri yer.
-Gitmen gerektiğini düşünüyorsun. Duvarda bir tabela var.
+CÃ¼ce DiyarÄ± GiriÅŸi~
+BurasÄ± cÃ¼ce ebeveynlerin sinir bozucu Ã§ocuklarÄ±nÄ± bÃ¼yÃ¼ttÃ¼kleri yer.
+Gitmen gerektiÄŸini dÃ¼ÅŸÃ¼nÃ¼yorsun. Duvarda bir tabela var.
 ~
 0 CD 0
 D0
@@ -194,210 +194,210 @@ D0
 ~
 0 -1 6500
 D2
-Gürültülü bir oda görüyorsun.
+GÃ¼rÃ¼ltÃ¼lÃ¼ bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 1 -1 6602
 E
 tabela~
-Bu bölge küçükler içindir. Keyifle dolaşsınlar.  -- Sandman
+Bu bÃ¶lge kÃ¼Ã§Ã¼kler iÃ§indir. Keyifle dolaÅŸsÄ±nlar.  -- Sandman
 ~
 S
 #6602
-Gündüz Bakım Evi~
-Merkezin kuzey-doğusundasın. Odanın her yeri oyuncaklarla dolu. Doğuda
+GÃ¼ndÃ¼z BakÄ±m Evi~
+Merkezin kuzey-doÄŸusundasÄ±n. OdanÄ±n her yeri oyuncaklarla dolu. DoÄŸuda
 bir mutfak var.
 ~
 0 D 0
 D0
-Girişi görüyorsun.
+GiriÅŸi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6601
 D1
-Çok pis bir mutfak bu yönde.
+Ã‡ok pis bir mutfak bu yÃ¶nde.
 ~
 ~
 0 -1 6626
 D2
-Birçok gürültülü yumurcakla dolu bir oda görüyorsun.
+BirÃ§ok gÃ¼rÃ¼ltÃ¼lÃ¼ yumurcakla dolu bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6604
 D3
-Birçok gürültülü yumurcakla dolu bir oda görüyorsun.
+BirÃ§ok gÃ¼rÃ¼ltÃ¼lÃ¼ yumurcakla dolu bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6603
 S
 #6603
-Gündüz Bakım Evi~
-Merkezin kuzey-batısındasın. Her tarafa oyuncak saçılmış. Batıda bir
+GÃ¼ndÃ¼z BakÄ±m Evi~
+Merkezin kuzey-batÄ±sÄ±ndasÄ±n. Her tarafa oyuncak saÃ§Ä±lmÄ±ÅŸ. BatÄ±da bir
 banyo var.
 ~
 0 D 0
 D1
-Gürültülü yumurcaklarla dolu bir oda görüyorsun.
+GÃ¼rÃ¼ltÃ¼lÃ¼ yumurcaklarla dolu bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6602
 D2
-Gürültülü yumurcaklarla dolu bir oda görüyorsun.
+GÃ¼rÃ¼ltÃ¼lÃ¼ yumurcaklarla dolu bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6605
 D3
-Pis bir banyo görüyorsun.
+Pis bir banyo gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6606
 S
 #6604
-Gündüz Bakım Evi~
-Merkezin kuzey-doğusundasın. Odanın her yeri oyuncaklarla dolu. Doğuda
-bir oyun odası var.
+GÃ¼ndÃ¼z BakÄ±m Evi~
+Merkezin kuzey-doÄŸusundasÄ±n. OdanÄ±n her yeri oyuncaklarla dolu. DoÄŸuda
+bir oyun odasÄ± var.
 ~
 0 D 0
 D0
-Birçok gürültülü yumurcakla dolu bir oda görüyorsun.
+BirÃ§ok gÃ¼rÃ¼ltÃ¼lÃ¼ yumurcakla dolu bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6602
 D1
-Oyun odasını görüyorsun.
+Oyun odasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6610
 D3
-Birçok gürültülü yumurcakla dolu bir oda görüyorsun.
+BirÃ§ok gÃ¼rÃ¼ltÃ¼lÃ¼ yumurcakla dolu bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6605
 S
 #6605
-Bakımevinin Salonu~
-Salonun kuzey-doğusundasın. Odanın her yeri oyuncaklarla dolu. Batıda
-aşağı inen bir merdiven var.
+BakÄ±mevinin Salonu~
+Salonun kuzey-doÄŸusundasÄ±n. OdanÄ±n her yeri oyuncaklarla dolu. BatÄ±da
+aÅŸaÄŸÄ± inen bir merdiven var.
 ~
 0 D 0
 D0
-Birçok gürültülü yumurcakla dolu bir oda görüyorsun.
+BirÃ§ok gÃ¼rÃ¼ltÃ¼lÃ¼ yumurcakla dolu bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6603
 D1
-Birçok gürültülü yumurcakla dolu bir oda görüyorsun.
+BirÃ§ok gÃ¼rÃ¼ltÃ¼lÃ¼ yumurcakla dolu bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6604
 D3
-Aşağı inen bir merdiven görüyorsun.
+AÅŸaÄŸÄ± inen bir merdiven gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6607
 S
 #6606
 Pis Banyo~
-Parmaklarınla burnunu kapatırken hayatının en büyük hatasını yaptığını
-farkediyorsun. Duvarların rutubetinin kokusunu alıyorsun. Hava oldukça
+ParmaklarÄ±nla burnunu kapatÄ±rken hayatÄ±nÄ±n en bÃ¼yÃ¼k hatasÄ±nÄ± yaptÄ±ÄŸÄ±nÄ±
+farkediyorsun. DuvarlarÄ±n rutubetinin kokusunu alÄ±yorsun. Hava oldukÃ§a
 nemli.
 ~
 0 D 0
 D1
-Gürültülü yumurcaklarla dolu bir oda görüyorsun.
+GÃ¼rÃ¼ltÃ¼lÃ¼ yumurcaklarla dolu bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6603
 S
 #6607
 Merdiven~
-Aşağı inen bir merdivenin üzerindesin. Aşağıda ne olabileceğini merak
+AÅŸaÄŸÄ± inen bir merdivenin Ã¼zerindesin. AÅŸaÄŸÄ±da ne olabileceÄŸini merak
 ediyorsun. Dikkatli ol ! ! !
 ~
 0 D 0
 D1
-Gürültülü yumurcaklarla dolu bir oda görüyorsun.
+GÃ¼rÃ¼ltÃ¼lÃ¼ yumurcaklarla dolu bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6605
 D5
-Bir yerin girişini görüyorsun.
+Bir yerin giriÅŸini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6612
 S
 #6608
-Oyun Odası~
-Oyun odasının kuzey-batısındasın.
+Oyun OdasÄ±~
+Oyun odasÄ±nÄ±n kuzey-batÄ±sÄ±ndasÄ±n.
 ~
 0 0 2
 D1
-Oyun odasını görüyorsun.
+Oyun odasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6609
 D2
-Oyun odasını görüyorsun.
+Oyun odasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6610
 S
 #6609
-Oyun Odası~
-Oyun odasının kuzey-doğusundasın.
+Oyun OdasÄ±~
+Oyun odasÄ±nÄ±n kuzey-doÄŸusundasÄ±n.
 ~
 0 0 2
 D2
-Oyun odasını görüyorsun.
+Oyun odasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6611
 D3
-Oyun odasını görüyorsun.
+Oyun odasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6608
 S
 #6610
-Oyun Odası~
-Oyun odasının güney-batısındasın.
+Oyun OdasÄ±~
+Oyun odasÄ±nÄ±n gÃ¼ney-batÄ±sÄ±ndasÄ±n.
 ~
 0 0 2
 D0
-Oyun odasını görüyorsun.
+Oyun odasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6608
 D1
-Oyun odasını görüyorsun.
+Oyun odasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6611
 D3
-Gürültülü yumurcaklarla dolu bir oda görüyorsun.
+GÃ¼rÃ¼ltÃ¼lÃ¼ yumurcaklarla dolu bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6604
 S
 #6611
-Oyun Odası~
-Oyun odasının güney-doğusundasın.
+Oyun OdasÄ±~
+Oyun odasÄ±nÄ±n gÃ¼ney-doÄŸusundasÄ±n.
 ~
 0 0 2
 D0
-Oyun odasını görüyorsun.
+Oyun odasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6609
 D3
-Oyun odasını görüyorsun.
+Oyun odasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6610
 S
 #6612
-Küçük Bir Labirentin Girişi~
-Küçük fakat kafa karıştırıcı bir labirentin girişindesin. Kaybolmamayı
+KÃ¼Ã§Ã¼k Bir Labirentin GiriÅŸi~
+KÃ¼Ã§Ã¼k fakat kafa karÄ±ÅŸtÄ±rÄ±cÄ± bir labirentin giriÅŸindesin. KaybolmamayÄ±
 umuyorsun.
 ~
 0 ACD 2
@@ -406,14 +406,14 @@ D1
 ~
 0 -1 6613
 D4
-Merdiveni görüyorsun.
+Merdiveni gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6607
 S
 #6613
-Küçük Labirent~
-Diğerleri gibi görünen bir pasajdasın.
+KÃ¼Ã§Ã¼k Labirent~
+DiÄŸerleri gibi gÃ¶rÃ¼nen bir pasajdasÄ±n.
 ~
 0 AD 2
 D1
@@ -430,8 +430,8 @@ D3
 0 -1 6612
 S
 #6614
-Küçük Labirent~
-Diğerleri gibi görünen bir pasajdasın.
+KÃ¼Ã§Ã¼k Labirent~
+DiÄŸerleri gibi gÃ¶rÃ¼nen bir pasajdasÄ±n.
 ~
 0 AD 2
 D2
@@ -444,8 +444,8 @@ D3
 0 -1 6613
 S
 #6615
-Küçük Labirent~
-Diğerleri gibi görünen bir pasajdasın.
+KÃ¼Ã§Ã¼k Labirent~
+DiÄŸerleri gibi gÃ¶rÃ¼nen bir pasajdasÄ±n.
 ~
 0 AD 2
 D0
@@ -458,8 +458,8 @@ D1
 0 -1 6616
 S
 #6616
-Küçük Labirent~
-Diğerleri gibi görünen bir pasajdasın.
+KÃ¼Ã§Ã¼k Labirent~
+DiÄŸerleri gibi gÃ¶rÃ¼nen bir pasajdasÄ±n.
 ~
 0 AD 2
 D0
@@ -476,9 +476,9 @@ D3
 0 -1 6615
 S
 #6624
-Küçük Labirentin Sonu~
-Yolculuğun sonuna geldin. Burada büyük bir tabela görüyorsun ve okuyunca
-rahatlıyorsun.
+KÃ¼Ã§Ã¼k Labirentin Sonu~
+YolculuÄŸun sonuna geldin. Burada bÃ¼yÃ¼k bir tabela gÃ¶rÃ¼yorsun ve okuyunca
+rahatlÄ±yorsun.
 ~
 0 AD 2
 D0
@@ -491,24 +491,24 @@ D2
 0 -1 6631
 E
 tabela~
-Kendine güvenmeyen güneye gitmesin!
+Kendine gÃ¼venmeyen gÃ¼neye gitmesin!
 ~
 S
 #6626
 Pis Mutfak~
-Gündüz Bakım Evinin yemekhanesi. Yerlere dağolmış somun parçaları
-görüyorsun. Çocuklar ortalığı dağıtmaya devam ediyor.
+GÃ¼ndÃ¼z BakÄ±m Evinin yemekhanesi. Yerlere daÄŸolmÄ±ÅŸ somun parÃ§alarÄ±
+gÃ¶rÃ¼yorsun. Ã‡ocuklar ortalÄ±ÄŸÄ± daÄŸÄ±tmaya devam ediyor.
 ~
 0 D 0
 D3
-Gürültülü yumurcaklarla dolu bir oda görüyorsun.
+GÃ¼rÃ¼ltÃ¼lÃ¼ yumurcaklarla dolu bir oda gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6602
 S
 #6631
 Son??~
-Son bölüme geldin. Burası beş koca başı olan bir ejderhaya ait (aslında
+Son bÃ¶lÃ¼me geldin. BurasÄ± beÅŸ koca baÅŸÄ± olan bir ejderhaya ait (aslÄ±nda
 maske kullanan bir yumurcak).
 ~
 0 AD 2

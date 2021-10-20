@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -55,6 +55,8 @@
 #endif
 #include <ctype.h>
 #include <stdio.h>
+#include <wchar.h>
+#include <wctype.h>
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
@@ -63,7 +65,7 @@
 
 #undef IMMORTALS_LOGS
 
-bool	check_social	args( ( CHAR_DATA *ch, char *command,char *argument ) );
+bool	check_social	args( ( CHAR_DATA *ch, wchar_t *command,wchar_t *argument ) );
 
 
 /*
@@ -92,330 +94,330 @@ FILE				*imm_log;
  */
 const	struct	cmd_type	cmd_table	[] =
 {
-  { "aþaðý",		do_down,	POS_STANDING,	 0,  LOG_NEVER, 0, CMD_KEEP_HIDE|CMD_GHOST },
-  { "batý",		do_west,	POS_STANDING,	 0,  LOG_NEVER, 0, CMD_KEEP_HIDE|CMD_GHOST },
-  { "doðu",		do_east,	POS_STANDING,	 0,  LOG_NEVER, 0, CMD_KEEP_HIDE|CMD_GHOST },
-  { "güney",		do_south,	POS_STANDING,	 0,  LOG_NEVER, 0, CMD_KEEP_HIDE|CMD_GHOST },
-  { "kuzey",		do_north,	POS_STANDING,    0,  LOG_NEVER, 0, CMD_KEEP_HIDE|CMD_GHOST },
-  { "yukarý",		do_up,		POS_STANDING,	 0,  LOG_NEVER, 0, CMD_KEEP_HIDE|CMD_GHOST },
-  { ",",		do_emote,	POS_RESTING,	 0,  LOG_NORMAL, 0, CMD_GHOST },
-  { ";",		do_gtell,	POS_DEAD,	 0,  LOG_NORMAL, 0, CMD_GHOST },
-  { ":",		do_immtalk,	POS_DEAD,	IM,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
-  { "'",		do_say,		POS_RESTING,	 0,  LOG_NORMAL, 0, CMD_GHOST },
-  { "aç",		do_open,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
-  { "acýbana",		do_outfit,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST},
-  { "advance",	do_advance,	POS_DEAD,	ML,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "affrooms",	do_affrooms,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "al",		do_get,		POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "allow",		do_allow,	POS_DEAD,	L2,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "andaç",         do_trophy,      POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "anýmsa",		do_recall,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
-  { "arakla",		do_steal,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
-  { "aranýyor",         do_wanted,      POS_STANDING,    0,  LOG_ALWAYS, 1,0 },
-  { "ardýlan",	do_backstab,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
-  { "aslançaðýr",       do_lion_call,   POS_FIGHTING,    0,  LOG_NORMAL, 1,0},
-  { "at",             do_at,          POS_DEAD,       L6,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST  },
-  { "avla",           do_hunt,        POS_STANDING,    0,  LOG_NORMAL,1,0 },
-  { "ayýçaðýr",       do_bear_call,   POS_FIGHTING,    0,  LOG_NORMAL, 1,0},
-  { "ayrý",		do_qui,		POS_DEAD,	 0,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
-  { "ayrýl",		do_quit,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "bak",		do_look,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "bakiye",	do_balance,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
-  { "ban",		do_ban,		POS_DEAD,	L2,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "bayýlt",       do_strangle,    POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "bileþik",	do_combine,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "biniþ",          do_mount,       POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "bitki",          do_herbs,       POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "býrak",		do_drop,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
-  { "bölge",		do_areas,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "bug",		do_bug,		POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "büyü",		do_cast,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0},
-  { "büyüler",		do_spells,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "büyüyýkýmý",      do_spellbane,   POS_FIGHTING,    0,  LOG_NORMAL, 0,0 },
-  { "cabal_scan",	do_cabal_scan,	POS_STANDING,    0,  LOG_NEVER, 0, CMD_KEEP_HIDE|CMD_GHOST },
-  { "çaðrýyok",	do_nosummon,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "çarp",		do_zap,		POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
-  { "çelme",		do_trip,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
-  { "çevrel",         do_circle,      POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
-  { "çivi",       do_caltraps,    POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
-  { "çýkar",		do_remove,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
-  { "çýkýþlar",		do_exits,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "clear",		do_clear,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "clone",		do_clone,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "cls",		do_clear,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "çöp",           do_sacrifice,   POS_RESTING,     0,  LOG_NORMAL, 0,0 },
-  { "copla",	do_blackjack,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
-  { "count",		do_count,	POS_SLEEPING,	HE,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "daðýt",		do_split,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
-  { "dayaným",         do_endure,      POS_STANDING,    0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
-  { "deðer",		do_value,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
-  { "deny",		do_deny,	POS_DEAD,	L1,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "dilek",	do_dilek,       POS_RESTING,     0,  LOG_NORMAL, 1 , CMD_KEEP_HIDE | CMD_GHOST},
-  { "dinlen",		do_rest,	POS_SLEEPING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
-  { "direnç",     do_resistance,  POS_FIGHTING,    0,  LOG_NORMAL, 0,0 },
-  { "diril",     do_diril,  POS_RESTING,    0,  LOG_NORMAL, 1,CMD_GHOST},
-  { "disconnect",	do_disconnect,	POS_DEAD,	L3,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "doðra",        do_butcher,     POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "dök",		do_pour,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_KEEP_HIDE },
-  { "dokun",		do_vtouch,	POS_STANDING,	 0,  LOG_NORMAL, 0,0 },
-  { "doldur",		do_fill,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
-  { "dua",           do_pray,        POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "dump",		do_dump,	POS_DEAD,	ML,  LOG_ALWAYS, 0, CMD_KEEP_HIDE|CMD_GHOST },
-  { "duygu",		do_emote,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
-  { "duyuru",		do_duyuru,	POS_DEAD,	IM,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "eðitim",		do_train,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
-  { "ekipman",	do_equipment,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "emret",		do_order,	POS_RESTING,	 0,  LOG_NORMAL, 1,0},
-  { "envanter",	do_inventory,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "eniyi",	do_eniyi,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "ücret",	do_estimate,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
-  { "etkiler",	do_affects_col,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "familya",	do_familya,	POS_STANDING,	 0,  LOG_NORMAL, 1,CMD_GHOST},
-  { "find",		do_find,	POS_DEAD,	ML,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "fýrlat",          do_throw,       POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
-  { "flag",		do_flag,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "force",		do_force,	POS_DEAD,	L6,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "freeze",		do_freeze,	POS_DEAD,	L7,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "gir", 		do_enter, 	POS_STANDING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
-  { "giy",		do_wear,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
-  { "göm",		do_bury,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
-  { "görev",          do_quest,       POS_RESTING,     0,  LOG_NORMAL, 1 , CMD_GHOST},
-  { "görün",	do_visible,	POS_SLEEPING,	 0,  LOG_NORMAL, 1,0 },
-  { "göster",		do_show,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "goto",           do_goto,        POS_DEAD,       L8,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "grant",		do_grant,	POS_DEAD,	L2,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "grup",          do_group,       POS_SLEEPING,    0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
-  { "grupliste",          do_glist,       POS_DEAD,        0,  LOG_NEVER,  1, 0},
-  { "ganlat",		do_gtell,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_GHOST },
-  { "günce",		do_worth,	POS_SLEEPING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "harakiri",           do_hara,        POS_STANDING,    0,  LOG_NORMAL,1,0 },
-  { "havadurumu",	do_weather,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "haykýr",		do_yell,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
-  { "hedef",		do_target,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
-  { "holylight",	do_holylight,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "iç",		do_drink,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
-  { "ikikat",	do_ikikat,	POS_DEAD,	L6,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "immtalk",	do_immtalk,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "incele",	do_examine,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
-  { "incognito",	do_incognito,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "induct",		do_induct,	POS_DEAD,	 0,  LOG_ALWAYS, 1,0 },
-  { "iniþ",       do_dismount,    POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "insan",          do_human,       POS_STANDING,    0,  LOG_NORMAL,1,0 },
-  { "intiha",		do_delet,	POS_DEAD,	 0,  LOG_ALWAYS, 0, CMD_KEEP_HIDE|CMD_GHOST },
-  { "intihar",		do_delete,	POS_STANDING,	 0,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "invis",		do_invis,	POS_DEAD,	IM,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
-  { "iptal",	do_nocancel,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "irfan",           do_lore,        POS_RESTING,     0,  LOG_NORMAL, 1,0 },
-  { "iste",		do_iste,		POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
-  { "itekle",		do_push,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
-  { "ititle",		do_ititle,	POS_DEAD,	IM,  LOG_NORMAL, 1,CMD_KEEP_HIDE|CMD_GHOST },
-  { "iyileþtir",		do_heal,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
-  { "ýsýr",		do_vbite,	POS_STANDING,	 0,  LOG_NORMAL, 0,0 },
-  { "kaç",		do_flee,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
-  { "kalk",		do_stand,	POS_SLEEPING,	 0,  LOG_NORMAL, 1,CMD_GHOST},
-  { "kalk",		do_wake,	POS_SLEEPING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "kalkan",		do_shield,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
-  { "kamp",		do_camp,  	POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "kamuflaj",     do_camouflage,  POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "kanallar",       do_channels,    POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST},
-  { "kanasusama",	do_bloodthirst,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
-  { "kanýmsa",	do_crecall,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
-  { "kapat",		do_close,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
-  { "kapýkýr",	do_bash_door,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
-  { "kaplan",		do_tiger,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
-  { "katana",		do_katana, 	POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "katle",		do_murde,	POS_FIGHTING,	 0,  LOG_NORMAL, 0,0 },
-  { "katlet",		do_murder,	POS_FIGHTING,	 0,  LOG_ALWAYS, 1,0 },
-  { "kaydet",		do_save,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_GHOST },
-  { "kaz",		do_dig,  	POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "kazan",		do_gain,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
-  { "kd",		do_kd,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_GHOST },
-  /*{ "kdg",	do_kdg,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },*/
-  { "keskingörüþ",      do_truesight,   POS_FIGHTING,    0,  LOG_NORMAL, 0,0 },
-  { "kilitaç",         do_unlock,      POS_RESTING,     0,  LOG_NORMAL, 1,CMD_GHOST},
-  { "kilitle",		do_lock,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
-  { "kim",		do_who_col,		POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "kimdir",		do_whois,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "kirala",		do_rent,	POS_DEAD,	 0,  LOG_NORMAL, 0,0 },
-  { "kýrbaçla",		do_lash,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
-  { "kýsayo",		do_alia,	POS_DEAD,	 0,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
-  { "kýsayol",		do_alias,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "kýsayolkaldýr",	do_unalias,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "kýyasla",	do_compare,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "kk",             do_cb,          POS_SLEEPING,    0,  LOG_NORMAL, 1, CMD_GHOST },
-  { "kompakt",	do_compact,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "komutlar",	do_commands,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "konsantrasyon",	do_concentrate,	POS_STANDING,	 0,  LOG_NORMAL, 1, 0 },
-  { "kontrol",       	do_control,	POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "korkaklýk",		do_wimpy,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "körlüktozu",	do_blindness_dust,POS_FIGHTING,	 0,  LOG_ALWAYS, 1,0 },
-  { "koþ",		do_run,		POS_STANDING,	ML,  LOG_NEVER, 0, CMD_KEEP_HIDE|CMD_GHOST },
-  { "koy",		do_put,		POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
-  { "kullan",		do_wear,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST},
-  { "kurban",	do_sacrifice,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
-  { "kurtar",		do_rescue,	POS_FIGHTING,	 0,  LOG_NORMAL, 0,0 },
-  { "kuyruk",		do_tail,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
-  { "laka",		do_titl,	POS_DEAD,	 0,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
-  { "lakap",		do_title,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "limited",	do_limited,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "lisan",		do_speak,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "liste",		do_list,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_KEEP_HIDE|CMD_GHOST },
-  { "load",		do_load,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "log",		do_log,		POS_DEAD,	L1,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST  },
-  { "lookup",		do_slookup,	POS_DEAD,	L2,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "maximum",	do_maximum,	POS_DEAD,	ML,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "maymuncuk",		do_pick,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
-  { "memory",		do_memory,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "mezat",        do_auction,     POS_SLEEPING,    0,  LOG_NORMAL, 1, CMD_GHOST  },
-  { "mobstat",		do_mobstat,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "mwhere",		do_mwhere,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "nara",         do_warcry,      POS_FIGHTING,    0,  LOG_NORMAL, 1,0},
-  { "nerede",		do_where,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "newlock",	do_newlock,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "noaffect",	do_noaffect,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "nochannels",	do_nochannels,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "noemote",	do_noemote,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "noshout",	do_noshout,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "notell",		do_notell,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "notitle",	do_notitle,	POS_DEAD,	L7,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "objlist",	do_objlist,	POS_DEAD,	ML,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "odaetki",	do_raffects,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "öðren",		do_learn,	POS_STANDING,	 0,  LOG_NORMAL, 1,0},
-  { "öðret",		do_teach,	POS_STANDING,	 0,  LOG_NORMAL, 1,0},
-  { "oku",		do_recite,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
-  { "öldür",		do_kill,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0},
-  { "omuz",		do_bash,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
-  { "onar",	do_smithing,	POS_RESTING,	 0,  LOG_NORMAL, 1,0},
-  { "otoliste",	do_autolist,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "otoakçe",	do_autoakce,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "otoçýkýþ",	do_autoexit,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "otodaðýt",	do_autosplit,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "otodestek",	do_autoassist,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "otokurban",	do_autosac,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "otoyaðma",	do_autoloot,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "otur",		do_sit,		POS_SLEEPING,    0,  LOG_NORMAL, 1,CMD_GHOST},
-  { "owhere",		do_owhere,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "özet",		do_brief,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "paraçek",	do_withdraw,	POS_STANDING,    0,  LOG_NORMAL, 1,CMD_GHOST},
-  { "parayatýr",	do_deposit,	POS_STANDING,	 0,  LOG_NORMAL, 1,CMD_GHOST},
-  { "patlat",	do_explode, 	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
-  { "peace",		do_peace,	POS_DEAD,	L5,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "pençe",		do_claw,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0},
-  { "permban",	do_permban,	POS_DEAD,	L1,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "pmote",		do_pmote,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
-  { "poofin",		do_bamfin,	POS_DEAD,	L8,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "poofout",	do_bamfout,	POS_DEAD,	L8,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "popularity",	do_popularity,	POS_DEAD,	L2,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "poz",		do_pose,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
-  //{ "pracnew",        do_pracnew,	POS_SLEEPING,    ML, LOG_NORMAL, 1, CMD_KEEP_HIDE },
-  { "pratik",       do_practice,	POS_SLEEPING,    0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
-  { "prefi",		do_prefi,	POS_DEAD,	IM,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
-  { "prefix",		do_prefix,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "premort",	do_premort,	POS_DEAD,	L8,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "protect",	do_protect,	POS_DEAD,	L1,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "purge",		do_purge,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "pusu",         do_ambush,      POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "rapor",		do_report,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "read",		do_read,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "reboo",		do_reboo,	POS_DEAD,	L1,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
-  { "reboot",		do_reboot,	POS_DEAD,	L1,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "rename",		do_rename,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "restore",	do_restore,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "return",         do_return,      POS_DEAD,       L6,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "rezil",	do_dishonor,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
-  { "rica",        do_request,     POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "saðýr",		do_deaf,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "saklan",		do_hide,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
-  { "saldýr",		do_kill,	POS_FIGHTING,	 0,  LOG_NORMAL, 0,0},
-  { "sapta",         do_detect_hidden,POS_RESTING,    0,  LOG_NORMAL, 1,0},
-  { "sargý",        do_bandage,     POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
-  { "sat",		do_sell,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
-  { "satýnal",		do_buy,		POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST},
-  { "savun",          do_guard,       POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "savur",	do_brandish,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
-  { "sem",	do_envenom,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
-  { "sessiz",		do_quiet,	POS_SLEEPING, 	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "set",		do_set,		POS_DEAD,	ML,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "sez",          do_sense,       POS_RESTING,     0,  LOG_NORMAL, 1,0},
-  { "shutdow",	do_shutdow,	POS_DEAD,	L1,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
-  { "shutdown",	do_shutdown,	POS_DEAD,	L1,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST},
-  { "silah",		do_weapon,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
-  { "silahsýzlandýr",		do_disarm,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
-  { "sinir",          do_nerve,       POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
-  { "sývýþ",		do_escape,	POS_FIGHTING,	 0,  LOG_NORMAL,1,0 },
-  { "skor",		do_score,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "skrol",		do_scroll,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "sla",		do_sla,		POS_DEAD,	L3,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
-  { "slay",		do_slay,	POS_DEAD,	L3,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "slook",		do_slook,	POS_SLEEPING,	 0,  LOG_NORMAL, 1,CMD_KEEP_HIDE|CMD_GHOST},
-  { "smite",		do_smite,	POS_DEAD,	L7,  LOG_ALWAYS, 1,0 },
-  { "smote",		do_smote,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "snoop",		do_snoop,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST},
-  { "sockets",	do_sockets,	POS_DEAD,	L4,  LOG_NORMAL, 1 },
-  { "sockets",        do_sockets,	POS_DEAD,       L4,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST},
-  { "soluþ",		do_fade,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
-  { "sosyaller",	do_socials,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "söyle",		do_say,		POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
-  { "stat",		do_stat,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "string",		do_string,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "suflör",		do_prompt,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "suikast",    do_assassinate, POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "sürükle",		do_drag,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
-  { "süzül",		do_sneak,	POS_STANDING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
-  { "switch",		do_switch,	POS_DEAD,	L6,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "syetenek",		do_slist,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "þifalýeller",	do_layhands,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
-  { "þifre",	do_password,	POS_DEAD,	 0,  LOG_NEVER,  1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "take",		do_get,		POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_KEEP_HIDE },
-  { "takip",		do_follow,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "takipyok",	do_nofollow,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "talep",         do_demand,      POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "tamir",		do_repair,	POS_SLEEPING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
-  { "taným",	do_description,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "tanýmla",	do_identify,	POS_STANDING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
-  { "tara",           do_scan,        POS_RESTING,     0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "tart",	do_consider,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
-  { "tekme",		do_kick,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
-  { "tekrarla",		do_replay,	POS_SLEEPING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
-  { "teleport",	do_transfer,    POS_DEAD,	L7,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "tick",		do_tick,	POS_DEAD,	ML,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "toz",		do_dirt,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
-  { "track",          do_track,       POS_STANDING,    0,  LOG_NORMAL, 0,0 },
-  { "transfer",	do_transfer,	POS_DEAD,	L7,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "trust",		do_trust,	POS_DEAD,	ML,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "tut",		do_wear,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST},
-  { "tuzak",	do_settraps,	POS_STANDING,	 0,  LOG_NORMAL, 1,0},
-  { "typo",		do_typo,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "uç",		do_fly,		POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
-  { "uysallaþtýr",           do_tame,        POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
-  { "uyu",		do_sleep,	POS_SLEEPING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "vahþileþ",	do_berserk,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
-  { "vampir",	do_vampire,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
-  { "ver",		do_give,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
-  { "violate",	do_violate,	POS_DEAD,	ML,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "vnum",		do_vnum,	POS_DEAD,	L4,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "vur",          do_shoot,       POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "wizhelp",	do_wizhelp,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "wizinvis",	do_invis,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "wizlock",	do_wizlock,	POS_DEAD,	L2,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "wiznet",		do_wiznet,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "yaðmayok",		do_noloot,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "yap",           do_make,        POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "yardým",		do_help,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "yargýla",          do_judge,       POS_RESTING,     0,  LOG_ALWAYS, 1,CMD_KEEP_HIDE },
-  { "yarma",         do_cleave,      POS_STANDING,    0,  LOG_NORMAL, 1,0 },
-  { "ye",		do_eat,		POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
-  { "yeniyaþa",		do_remor,	POS_STANDING,	 0,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "yeniyaþam",		do_remort,	POS_STANDING,	 0,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "yetenekler",		do_skills,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "yokol",		do_vanish,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
-  { "yudumla",		do_quaff,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
-  { "yükselt",	do_enchant, 	POS_RESTING,     0,  LOG_NORMAL, 1,0 },
-  { "zaman",		do_time,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
-  { "zar",	do_zar,	POS_STANDING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
-  { "zayi",		do_blink,	POS_FIGHTING,    0,  LOG_NORMAL, 1,CMD_KEEP_HIDE },
-  { "zehir",		do_poison_smoke,POS_FIGHTING,	 0,  LOG_ALWAYS, 1,0 },
-  { "",		0,		POS_DEAD,	 0,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST }
+  { L"aÅŸaÄŸÄ±",		do_down,	POS_STANDING,	 0,  LOG_NEVER, 0, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"batÄ±",		do_west,	POS_STANDING,	 0,  LOG_NEVER, 0, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"doÄŸu",		do_east,	POS_STANDING,	 0,  LOG_NEVER, 0, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"gÃ¼ney",		do_south,	POS_STANDING,	 0,  LOG_NEVER, 0, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"kuzey",		do_north,	POS_STANDING,    0,  LOG_NEVER, 0, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"yukarÄ±",		do_up,		POS_STANDING,	 0,  LOG_NEVER, 0, CMD_KEEP_HIDE|CMD_GHOST },
+  { L",",		do_emote,	POS_RESTING,	 0,  LOG_NORMAL, 0, CMD_GHOST },
+  { L";",		do_gtell,	POS_DEAD,	 0,  LOG_NORMAL, 0, CMD_GHOST },
+  { L":",		do_immtalk,	POS_DEAD,	IM,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"'",		do_say,		POS_RESTING,	 0,  LOG_NORMAL, 0, CMD_GHOST },
+  { L"aÃ§",		do_open,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
+  { L"acÄ±bana",		do_outfit,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST},
+  { L"advance",	do_advance,	POS_DEAD,	ML,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"affrooms",	do_affrooms,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"al",		do_get,		POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"allow",		do_allow,	POS_DEAD,	L2,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"andaÃ§",         do_trophy,      POS_STANDING,    0,  LOG_NORMAL, 1,0 },
+  { L"anÄ±msa",		do_recall,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
+  { L"arakla",		do_steal,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
+  { L"aranÄ±yor",         do_wanted,      POS_STANDING,    0,  LOG_ALWAYS, 1,0 },
+  { L"ardÄ±lan",	do_backstab,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
+  { L"aslanÃ§aÄŸÄ±r",       do_lion_call,   POS_FIGHTING,    0,  LOG_NORMAL, 1,0},
+  { L"at",             do_at,          POS_DEAD,       L6,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST  },
+  { L"avla",           do_hunt,        POS_STANDING,    0,  LOG_NORMAL,1,0 },
+  { L"ayÄ±Ã§aÄŸÄ±r",       do_bear_call,   POS_FIGHTING,    0,  LOG_NORMAL, 1,0},
+  { L"ayrÄ±",		do_qui,		POS_DEAD,	 0,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"ayrÄ±l",		do_quit,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"bak",		do_look,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"bakiye",	do_balance,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
+  { L"ban",		do_ban,		POS_DEAD,	L2,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"bayÄ±lt",       do_strangle,    POS_STANDING,    0,  LOG_NORMAL, 1,0 },
+  { L"bileÅŸik",	do_combine,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"biniÅŸ",          do_mount,       POS_STANDING,    0,  LOG_NORMAL, 1,0 },
+  { L"bitki",          do_herbs,       POS_STANDING,    0,  LOG_NORMAL, 1,0 },
+  { L"bÄ±rak",		do_drop,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
+  { L"bÃ¶lge",		do_areas,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"bug",		do_bug,		POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"bÃ¼yÃ¼",		do_cast,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0},
+  { L"bÃ¼yÃ¼ler",		do_spells,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"bÃ¼yÃ¼yÄ±kÄ±mÄ±",      do_spellbane,   POS_FIGHTING,    0,  LOG_NORMAL, 0,0 },
+  { L"cabal_scan",	do_cabal_scan,	POS_STANDING,    0,  LOG_NEVER, 0, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"Ã§aÄŸrÄ±yok",	do_nosummon,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"Ã§arp",		do_zap,		POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"Ã§elme",		do_trip,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
+  { L"Ã§evrel",         do_circle,      POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
+  { L"Ã§ivi",       do_caltraps,    POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
+  { L"Ã§Ä±kar",		do_remove,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
+  { L"Ã§Ä±kÄ±ÅŸlar",		do_exits,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"clear",		do_clear,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"clone",		do_clone,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"cls",		do_clear,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"Ã§Ã¶p",           do_sacrifice,   POS_RESTING,     0,  LOG_NORMAL, 0,0 },
+  { L"copla",	do_blackjack,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
+  { L"count",		do_count,	POS_SLEEPING,	HE,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"daÄŸÄ±t",		do_split,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"dayanÄ±m",         do_endure,      POS_STANDING,    0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
+  { L"deÄŸer",		do_value,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"deny",		do_deny,	POS_DEAD,	L1,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"dilek",	do_dilek,       POS_RESTING,     0,  LOG_NORMAL, 1 , CMD_KEEP_HIDE | CMD_GHOST},
+  { L"dinlen",		do_rest,	POS_SLEEPING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
+  { L"direnÃ§",     do_resistance,  POS_FIGHTING,    0,  LOG_NORMAL, 0,0 },
+  { L"diril",     do_diril,  POS_RESTING,    0,  LOG_NORMAL, 1,CMD_GHOST},
+  { L"disconnect",	do_disconnect,	POS_DEAD,	L3,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"doÄŸra",        do_butcher,     POS_STANDING,    0,  LOG_NORMAL, 1,0 },
+  { L"dÃ¶k",		do_pour,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_KEEP_HIDE },
+  { L"dokun",		do_vtouch,	POS_STANDING,	 0,  LOG_NORMAL, 0,0 },
+  { L"doldur",		do_fill,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
+  { L"dua",           do_pray,        POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"dump",		do_dump,	POS_DEAD,	ML,  LOG_ALWAYS, 0, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"duygu",		do_emote,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
+  { L"duyuru",		do_duyuru,	POS_DEAD,	IM,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"eÄŸitim",		do_train,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"ekipman",	do_equipment,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"emret",		do_order,	POS_RESTING,	 0,  LOG_NORMAL, 1,0},
+  { L"envanter",	do_inventory,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"eniyi",	do_eniyi,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"Ã¼cret",	do_estimate,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
+  { L"etkiler",	do_affects_col,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"familya",	do_familya,	POS_STANDING,	 0,  LOG_NORMAL, 1,CMD_GHOST},
+  { L"find",		do_find,	POS_DEAD,	ML,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"fÄ±rlat",          do_throw,       POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
+  { L"flag",		do_flag,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"force",		do_force,	POS_DEAD,	L6,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"freeze",		do_freeze,	POS_DEAD,	L7,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"gir", 		do_enter, 	POS_STANDING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
+  { L"giy",		do_wear,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
+  { L"gÃ¶m",		do_bury,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
+  { L"gÃ¶rev",          do_quest,       POS_RESTING,     0,  LOG_NORMAL, 1 , CMD_GHOST},
+  { L"gÃ¶rÃ¼n",	do_visible,	POS_SLEEPING,	 0,  LOG_NORMAL, 1,0 },
+  { L"gÃ¶ster",		do_show,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"goto",           do_goto,        POS_DEAD,       L8,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"grant",		do_grant,	POS_DEAD,	L2,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"grup",          do_group,       POS_SLEEPING,    0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
+  { L"grupliste",          do_glist,       POS_DEAD,        0,  LOG_NEVER,  1, 0},
+  { L"ganlat",		do_gtell,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_GHOST },
+  { L"gÃ¼nce",		do_worth,	POS_SLEEPING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"harakiri",           do_hara,        POS_STANDING,    0,  LOG_NORMAL,1,0 },
+  { L"havadurumu",	do_weather,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"haykÄ±r",		do_yell,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
+  { L"hedef",		do_target,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
+  { L"holylight",	do_holylight,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"iÃ§",		do_drink,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
+  { L"ikikat",	do_ikikat,	POS_DEAD,	L6,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"immtalk",	do_immtalk,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"incele",	do_examine,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
+  { L"incognito",	do_incognito,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"induct",		do_induct,	POS_DEAD,	 0,  LOG_ALWAYS, 1,0 },
+  { L"iniÅŸ",       do_dismount,    POS_STANDING,    0,  LOG_NORMAL, 1,0 },
+  { L"insan",          do_human,       POS_STANDING,    0,  LOG_NORMAL,1,0 },
+  { L"intiha",		do_delet,	POS_DEAD,	 0,  LOG_ALWAYS, 0, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"intihar",		do_delete,	POS_STANDING,	 0,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"invis",		do_invis,	POS_DEAD,	IM,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"iptal",	do_nocancel,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"irfan",           do_lore,        POS_RESTING,     0,  LOG_NORMAL, 1,0 },
+  { L"iste",		do_iste,		POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"itekle",		do_push,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
+  { L"ititle",		do_ititle,	POS_DEAD,	IM,  LOG_NORMAL, 1,CMD_KEEP_HIDE|CMD_GHOST },
+  { L"iyileÅŸtir",		do_heal,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"Ä±sÄ±r",		do_vbite,	POS_STANDING,	 0,  LOG_NORMAL, 0,0 },
+  { L"kaÃ§",		do_flee,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"kalk",		do_stand,	POS_SLEEPING,	 0,  LOG_NORMAL, 1,CMD_GHOST},
+  { L"kalk",		do_wake,	POS_SLEEPING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"kalkan",		do_shield,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"kamp",		do_camp,  	POS_STANDING,    0,  LOG_NORMAL, 1,0 },
+  { L"kamuflaj",     do_camouflage,  POS_STANDING,    0,  LOG_NORMAL, 1,0 },
+  { L"kanallar",       do_channels,    POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST},
+  { L"kanasusama",	do_bloodthirst,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"kanÄ±msa",	do_crecall,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"kapat",		do_close,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"kapÄ±kÄ±r",	do_bash_door,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
+  { L"kaplan",		do_tiger,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"katana",		do_katana, 	POS_STANDING,    0,  LOG_NORMAL, 1,0 },
+  { L"katle",		do_murde,	POS_FIGHTING,	 0,  LOG_NORMAL, 0,0 },
+  { L"katlet",		do_murder,	POS_FIGHTING,	 0,  LOG_ALWAYS, 1,0 },
+  { L"kaydet",		do_save,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_GHOST },
+  { L"kaz",		do_dig,  	POS_STANDING,    0,  LOG_NORMAL, 1,0 },
+  { L"kazan",		do_gain,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
+  { L"kd",		do_kd,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_GHOST },
+  /*{ L"kdg",	do_kdg,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },*/
+  { L"keskingÃ¶rÃ¼ÅŸ",      do_truesight,   POS_FIGHTING,    0,  LOG_NORMAL, 0,0 },
+  { L"kilitaÃ§",         do_unlock,      POS_RESTING,     0,  LOG_NORMAL, 1,CMD_GHOST},
+  { L"kilitle",		do_lock,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
+  { L"kim",		do_who_col,		POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"kimdir",		do_whois,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"kirala",		do_rent,	POS_DEAD,	 0,  LOG_NORMAL, 0,0 },
+  { L"kÄ±rbaÃ§la",		do_lash,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
+  { L"kÄ±sayo",		do_alia,	POS_DEAD,	 0,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"kÄ±sayol",		do_alias,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"kÄ±sayolkaldÄ±r",	do_unalias,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"kÄ±yasla",	do_compare,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"kk",             do_cb,          POS_SLEEPING,    0,  LOG_NORMAL, 1, CMD_GHOST },
+  { L"kompakt",	do_compact,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"komutlar",	do_commands,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"konsantrasyon",	do_concentrate,	POS_STANDING,	 0,  LOG_NORMAL, 1, 0 },
+  { L"kontrol",       	do_control,	POS_STANDING,    0,  LOG_NORMAL, 1,0 },
+  { L"korkaklÄ±k",		do_wimpy,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"kÃ¶rlÃ¼ktozu",	do_blindness_dust,POS_FIGHTING,	 0,  LOG_ALWAYS, 1,0 },
+  { L"koÅŸ",		do_run,		POS_STANDING,	ML,  LOG_NEVER, 0, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"koy",		do_put,		POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"kullan",		do_wear,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST},
+  { L"kurban",	do_sacrifice,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
+  { L"kurtar",		do_rescue,	POS_FIGHTING,	 0,  LOG_NORMAL, 0,0 },
+  { L"kuyruk",		do_tail,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
+  { L"laka",		do_titl,	POS_DEAD,	 0,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"lakap",		do_title,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"limited",	do_limited,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"lisan",		do_speak,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"liste",		do_list,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_KEEP_HIDE|CMD_GHOST },
+  { L"load",		do_load,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"log",		do_log,		POS_DEAD,	L1,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST  },
+  { L"lookup",		do_slookup,	POS_DEAD,	L2,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"maximum",	do_maximum,	POS_DEAD,	ML,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"maymuncuk",		do_pick,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
+  { L"memory",		do_memory,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"mezat",        do_auction,     POS_SLEEPING,    0,  LOG_NORMAL, 1, CMD_GHOST  },
+  { L"mobstat",		do_mobstat,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"mwhere",		do_mwhere,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"nara",         do_warcry,      POS_FIGHTING,    0,  LOG_NORMAL, 1,0},
+  { L"nerede",		do_where,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"newlock",	do_newlock,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"noaffect",	do_noaffect,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"nochannels",	do_nochannels,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"noemote",	do_noemote,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"noshout",	do_noshout,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"notell",		do_notell,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"notitle",	do_notitle,	POS_DEAD,	L7,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"objlist",	do_objlist,	POS_DEAD,	ML,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"odaetki",	do_raffects,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"Ã¶ÄŸren",		do_learn,	POS_STANDING,	 0,  LOG_NORMAL, 1,0},
+  { L"Ã¶ÄŸret",		do_teach,	POS_STANDING,	 0,  LOG_NORMAL, 1,0},
+  { L"oku",		do_recite,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"Ã¶ldÃ¼r",		do_kill,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0},
+  { L"omuz",		do_bash,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
+  { L"onar",	do_smithing,	POS_RESTING,	 0,  LOG_NORMAL, 1,0},
+  { L"otoliste",	do_autolist,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"otoakÃ§e",	do_autoakce,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"otoÃ§Ä±kÄ±ÅŸ",	do_autoexit,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"otodaÄŸÄ±t",	do_autosplit,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"otodestek",	do_autoassist,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"otokurban",	do_autosac,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"otoyaÄŸma",	do_autoloot,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"otur",		do_sit,		POS_SLEEPING,    0,  LOG_NORMAL, 1,CMD_GHOST},
+  { L"owhere",		do_owhere,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"Ã¶zet",		do_brief,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"paraÃ§ek",	do_withdraw,	POS_STANDING,    0,  LOG_NORMAL, 1,CMD_GHOST},
+  { L"parayatÄ±r",	do_deposit,	POS_STANDING,	 0,  LOG_NORMAL, 1,CMD_GHOST},
+  { L"patlat",	do_explode, 	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
+  { L"peace",		do_peace,	POS_DEAD,	L5,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"penÃ§e",		do_claw,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0},
+  { L"permban",	do_permban,	POS_DEAD,	L1,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"pmote",		do_pmote,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
+  { L"poofin",		do_bamfin,	POS_DEAD,	L8,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"poofout",	do_bamfout,	POS_DEAD,	L8,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"popularity",	do_popularity,	POS_DEAD,	L2,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"poz",		do_pose,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
+  //{ L"pracnew",        do_pracnew,	POS_SLEEPING,    ML, LOG_NORMAL, 1, CMD_KEEP_HIDE },
+  { L"pratik",       do_practice,	POS_SLEEPING,    0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
+  { L"prefi",		do_prefi,	POS_DEAD,	IM,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"prefix",		do_prefix,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"premort",	do_premort,	POS_DEAD,	L8,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"protect",	do_protect,	POS_DEAD,	L1,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"purge",		do_purge,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"pusu",         do_ambush,      POS_STANDING,    0,  LOG_NORMAL, 1,0 },
+  { L"rapor",		do_report,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"read",		do_read,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"reboo",		do_reboo,	POS_DEAD,	L1,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"reboot",		do_reboot,	POS_DEAD,	L1,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"rename",		do_rename,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"restore",	do_restore,	POS_DEAD,	L4,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"return",         do_return,      POS_DEAD,       L6,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"rezil",	do_dishonor,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"rica",        do_request,     POS_STANDING,    0,  LOG_NORMAL, 1,0 },
+  { L"saÄŸÄ±r",		do_deaf,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"saklan",		do_hide,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
+  { L"saldÄ±r",		do_kill,	POS_FIGHTING,	 0,  LOG_NORMAL, 0,0},
+  { L"sapta",         do_detect_hidden,POS_RESTING,    0,  LOG_NORMAL, 1,0},
+  { L"sargÄ±",        do_bandage,     POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
+  { L"sat",		do_sell,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
+  { L"satÄ±nal",		do_buy,		POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST},
+  { L"savun",          do_guard,       POS_STANDING,    0,  LOG_NORMAL, 1,0 },
+  { L"savur",	do_brandish,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"sem",	do_envenom,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
+  { L"sessiz",		do_quiet,	POS_SLEEPING, 	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"set",		do_set,		POS_DEAD,	ML,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"sez",          do_sense,       POS_RESTING,     0,  LOG_NORMAL, 1,0},
+  { L"shutdow",	do_shutdow,	POS_DEAD,	L1,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"shutdown",	do_shutdown,	POS_DEAD,	L1,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST},
+  { L"silah",		do_weapon,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"silahsÄ±zlandÄ±r",		do_disarm,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"sinir",          do_nerve,       POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
+  { L"sÄ±vÄ±ÅŸ",		do_escape,	POS_FIGHTING,	 0,  LOG_NORMAL,1,0 },
+  { L"skor",		do_score,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"skrol",		do_scroll,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"sla",		do_sla,		POS_DEAD,	L3,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"slay",		do_slay,	POS_DEAD,	L3,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"slook",		do_slook,	POS_SLEEPING,	 0,  LOG_NORMAL, 1,CMD_KEEP_HIDE|CMD_GHOST},
+  { L"smite",		do_smite,	POS_DEAD,	L7,  LOG_ALWAYS, 1,0 },
+  { L"smote",		do_smote,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"snoop",		do_snoop,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST},
+  { L"sockets",	do_sockets,	POS_DEAD,	L4,  LOG_NORMAL, 1 },
+  { L"sockets",        do_sockets,	POS_DEAD,       L4,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST},
+  { L"soluÅŸ",		do_fade,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
+  { L"sosyaller",	do_socials,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"sÃ¶yle",		do_say,		POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
+  { L"stat",		do_stat,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"string",		do_string,	POS_DEAD,	L5,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"suflÃ¶r",		do_prompt,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"suikast",    do_assassinate, POS_STANDING,    0,  LOG_NORMAL, 1,0 },
+  { L"sÃ¼rÃ¼kle",		do_drag,	POS_STANDING,	 0,  LOG_NORMAL, 1,0 },
+  { L"sÃ¼zÃ¼l",		do_sneak,	POS_STANDING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
+  { L"switch",		do_switch,	POS_DEAD,	L6,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"syetenek",		do_slist,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"ÅŸifalÄ±eller",	do_layhands,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"ÅŸifre",	do_password,	POS_DEAD,	 0,  LOG_NEVER,  1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"take",		do_get,		POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_KEEP_HIDE },
+  { L"takip",		do_follow,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"takipyok",	do_nofollow,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"talep",         do_demand,      POS_STANDING,    0,  LOG_NORMAL, 1,0 },
+  { L"tamir",		do_repair,	POS_SLEEPING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
+  { L"tanÄ±m",	do_description,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"tanÄ±mla",	do_identify,	POS_STANDING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
+  { L"tara",           do_scan,        POS_RESTING,     0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"tart",	do_consider,	POS_RESTING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE },
+  { L"tekme",		do_kick,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"tekrarla",		do_replay,	POS_SLEEPING,	 0,  LOG_NORMAL, 1, CMD_GHOST },
+  { L"teleport",	do_transfer,    POS_DEAD,	L7,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"tick",		do_tick,	POS_DEAD,	ML,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"toz",		do_dirt,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"track",          do_track,       POS_STANDING,    0,  LOG_NORMAL, 0,0 },
+  { L"transfer",	do_transfer,	POS_DEAD,	L7,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"trust",		do_trust,	POS_DEAD,	ML,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"tut",		do_wear,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST},
+  { L"tuzak",	do_settraps,	POS_STANDING,	 0,  LOG_NORMAL, 1,0},
+  { L"typo",		do_typo,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"uÃ§",		do_fly,		POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"uysallaÅŸtÄ±r",           do_tame,        POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
+  { L"uyu",		do_sleep,	POS_SLEEPING,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"vahÅŸileÅŸ",	do_berserk,	POS_FIGHTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"vampir",	do_vampire,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
+  { L"ver",		do_give,	POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
+  { L"violate",	do_violate,	POS_DEAD,	ML,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"vnum",		do_vnum,	POS_DEAD,	L4,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"vur",          do_shoot,       POS_STANDING,    0,  LOG_NORMAL, 1,0 },
+  { L"wizhelp",	do_wizhelp,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"wizinvis",	do_invis,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"wizlock",	do_wizlock,	POS_DEAD,	L2,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"wiznet",		do_wiznet,	POS_DEAD,	IM,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"yaÄŸmayok",		do_noloot,	POS_DEAD,        0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"yap",           do_make,        POS_STANDING,    0,  LOG_NORMAL, 1,0 },
+  { L"yardÄ±m",		do_help,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"yargÄ±la",          do_judge,       POS_RESTING,     0,  LOG_ALWAYS, 1,CMD_KEEP_HIDE },
+  { L"yarma",         do_cleave,      POS_STANDING,    0,  LOG_NORMAL, 1,0 },
+  { L"ye",		do_eat,		POS_RESTING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
+  { L"yeniyaÅŸa",		do_remor,	POS_STANDING,	 0,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"yeniyaÅŸam",		do_remort,	POS_STANDING,	 0,  LOG_ALWAYS, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"yetenekler",		do_skills,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"yokol",		do_vanish,	POS_FIGHTING,    0,  LOG_NORMAL, 1,0 },
+  { L"yudumla",		do_quaff,	POS_RESTING,	 0,  LOG_NORMAL, 1,0 },
+  { L"yÃ¼kselt",	do_enchant, 	POS_RESTING,     0,  LOG_NORMAL, 1,0 },
+  { L"zaman",		do_time,	POS_DEAD,	 0,  LOG_NORMAL, 1, CMD_KEEP_HIDE|CMD_GHOST },
+  { L"zar",	do_zar,	POS_STANDING,	 0,  LOG_NORMAL, 1,CMD_GHOST },
+  { L"zayi",		do_blink,	POS_FIGHTING,    0,  LOG_NORMAL, 1,CMD_KEEP_HIDE },
+  { L"zehir",		do_poison_smoke,POS_FIGHTING,	 0,  LOG_ALWAYS, 1,0 },
+  { L"",		0,		POS_DEAD,	 0,  LOG_NORMAL, 0, CMD_KEEP_HIDE|CMD_GHOST }
 };
 
 
@@ -425,13 +427,13 @@ const	struct	cmd_type	cmd_table	[] =
  * The main entry point for executing commands.
  * Can be recursively called from 'at', 'order', 'force'.
  */
-void interpret( CHAR_DATA *ch, char *argument, bool is_order )
+void interpret( CHAR_DATA *ch, wchar_t *argument, bool is_order )
 {
-    char command[MAX_INPUT_LENGTH];
-    char logline[MAX_INPUT_LENGTH];
+    wchar_t command[MAX_INPUT_LENGTH];
+    wchar_t logline[MAX_INPUT_LENGTH];
 #ifdef IMMORTALS_LOGS
-    char buf[MAX_INPUT_LENGTH];
-    char *strtime;
+    wchar_t buf[MAX_INPUT_LENGTH];
+    wchar_t *strtime;
 #endif
     int cmd;
     int trust;
@@ -451,7 +453,7 @@ void interpret( CHAR_DATA *ch, char *argument, bool is_order )
      */
     if ( !IS_NPC(ch) && IS_SET(ch->act, PLR_FREEZE) )
     {
-      send_to_char( "{RTamamen donmuþsun!{x\n\r", ch );
+      send_to_char( L"{RTamamen donmuÅŸsun!{x\n\r", ch );
 	return;
     }
 
@@ -460,33 +462,29 @@ void interpret( CHAR_DATA *ch, char *argument, bool is_order )
      * Special parsing so ' can be a command,
      * also no spaces needed after punctuation.
      */
-    strcpy( logline, argument );
+    wcscpy( logline, argument );
 
 #ifdef IMMORTALS_LOGS
     if (IS_IMMORTAL(ch))
 	{
 	if ( (imm_log = fopen(IMM_LOG_FILE,"a+")) == NULL )
 	   {
-	    bug("cannot open imm_log_file",0);
+	    bug( L"cannot open imm_log_file",0);
 	   }
 	 else
 	 {
-	  strtime = (char *) malloc(100);
+	  strtime = (wchar_t *) malloc(100);
 	  strtime = ctime( &current_time);
-	  strtime[strlen(strtime) -1] = '\0';
-	  sprintf(buf,"%s :[%s]:%s\n", strtime,ch->name,logline);
-	  fprintf(imm_log,buf);
+	  strtime[wcslen(strtime) -1] = '\0';
+	  swprintf( buf, MAX_STRING_LENGTH-1, L"%s :[%s]:%s\n", strtime,ch->name,logline);
+	  fwprintf(imm_log,buf);
 	  fclose(imm_log);
 	  free(strtime);
 	 }
 	}
 #endif
 
-    if ( !isalpha(argument[0]) && !isdigit(argument[0]) && !argument[0]=='ý'
-&& !argument[0]=='ð' && !argument[0]=='ü' && !argument[0]=='þ'
-&& !argument[0]=='ö' && !argument[0]=='ç'&& !argument[0]=='Ý'
-&& !argument[0]=='Ð'&& !argument[0]=='Ü'&& !argument[0]=='Þ'&& !argument[0]=='Ö'
-&& !argument[0]=='Ç')
+    if ( !iswalpha (argument[0]) && !iswdigit(argument[0]) )
     {
 	command[0] = argument[0];
 	command[1] = '\0';
@@ -515,14 +513,14 @@ void interpret( CHAR_DATA *ch, char *argument, bool is_order )
           */
          if ( !is_order && IS_AFFECTED(ch,AFF_CHARM) )
           {
-            send_to_char(  "Pek sevgili efendini terketmek istemiyorsun.\n\r", ch );
+            send_to_char( L"Pek sevgili efendini terketmek istemiyorsun.\n\r", ch );
 	   return;
           }
 
           if ( IS_AFFECTED(ch,AFF_STUN) &&
 		!(cmd_table[cmd].extra & CMD_KEEP_HIDE) )
 	  {
-      send_to_char("Bunu yapamayacak kadar baygýnsýn.\n\r",ch);
+      send_to_char( L"Bunu yapamayacak kadar baygÄ±nsÄ±n.\n\r",ch);
 	   return;
 	  }
           /* Come out of hiding for most commands */
@@ -530,16 +528,16 @@ void interpret( CHAR_DATA *ch, char *argument, bool is_order )
               && !(cmd_table[cmd].extra & CMD_KEEP_HIDE) )
           {
               REMOVE_BIT(ch->affected_by, AFF_HIDE);
-              send_to_char("Gölgelerden çýkýyorsun.\n\r", ch);
-              act("$n gölgelerden çýkýyor.", ch, NULL, NULL, TO_ROOM);
+              send_to_char( L"GÃ¶lgelerden Ã§Ä±kÄ±yorsun.\n\r", ch);
+              act( L"$n gÃ¶lgelerden Ã§Ä±kÄ±yor.", ch, NULL, NULL, TO_ROOM);
           }
 
           if ( IS_AFFECTED(ch, AFF_FADE) && !IS_NPC(ch)
               && !(cmd_table[cmd].extra & CMD_KEEP_HIDE) )
           {
               REMOVE_BIT(ch->affected_by, AFF_FADE);
-              send_to_char("Gölgelerden çýkýyorsun.\n\r", ch);
-              act("$n gölgelerden çýkýyor.", ch, NULL, NULL, TO_ROOM);
+              send_to_char( L"GÃ¶lgelerden Ã§Ä±kÄ±yorsun.\n\r", ch);
+              act( L"$n gÃ¶lgelerden Ã§Ä±kÄ±yor.", ch, NULL, NULL, TO_ROOM);
           }
 
           if ( IS_AFFECTED(ch, AFF_IMP_INVIS) && !IS_NPC(ch)
@@ -547,8 +545,8 @@ void interpret( CHAR_DATA *ch, char *argument, bool is_order )
           {
 	      affect_strip(ch,gsn_imp_invis);
               REMOVE_BIT(ch->affected_by, AFF_IMP_INVIS);
-              send_to_char("Görünür oluyorsun.\n\r", ch);
-              act("$n Görünür oluyor.", ch, NULL, NULL, TO_ROOM);
+              send_to_char( L"GÃ¶rÃ¼nÃ¼r oluyorsun.\n\r", ch);
+              act( L"$n GÃ¶rÃ¼nÃ¼r oluyor.", ch, NULL, NULL, TO_ROOM);
           }
 
           if ( CAN_DETECT(ch, ADET_EARTHFADE) && !IS_NPC(ch)
@@ -557,8 +555,8 @@ void interpret( CHAR_DATA *ch, char *argument, bool is_order )
 	      affect_strip(ch,gsn_earthfade);
               REMOVE_BIT(ch->detection, ADET_EARTHFADE);
 	      WAIT_STATE(ch, (PULSE_VIOLENCE / 2) );
-        send_to_char("Doðal formuna dönüyorsun.\n\r", ch);
-        act("$n þekilleniyor.", ch, NULL, NULL, TO_ROOM);
+        send_to_char( L"DoÄŸal formuna dÃ¶nÃ¼yorsun.\n\r", ch);
+        act( L"$n ÅŸekilleniyor.", ch, NULL, NULL, TO_ROOM);
           }
 
           /* prevent ghosts from doing a bunch of commands */
@@ -575,23 +573,23 @@ void interpret( CHAR_DATA *ch, char *argument, bool is_order )
      * Log and snoop.
      */
     if ( cmd_table[cmd].log == LOG_NEVER )
-	strcpy( logline, "" );
+	wcscpy( logline, (wchar_t*)"" );
 
     if ( ( ( !IS_NPC(ch) && IS_SET(ch->act, PLR_LOG) )
     ||   fLogAll
     ||   cmd_table[cmd].log == LOG_ALWAYS ) && logline[0] != '\0' &&
 	 logline[0] != '\n' )
     {
-	sprintf( log_buf, "Log %s: %s", ch->name, logline );
+	swprintf( log_buf, (2*MAX_INPUT_LENGTH)-1, L"Log %s: %s", ch->name, logline );
 	wiznet(log_buf,ch,NULL,WIZ_SECURE,0,get_trust(ch));
 	log_string( log_buf );
     }
 
     if ( ch->desc != NULL && ch->desc->snoop_by != NULL )
     {
-	write_to_buffer( ch->desc->snoop_by, "# ",    2 );
+	write_to_buffer( ch->desc->snoop_by, L"# ",    2 );
 	write_to_buffer( ch->desc->snoop_by, logline, 0 );
-	write_to_buffer( ch->desc->snoop_by, "\n\r",  2 );
+	write_to_buffer( ch->desc->snoop_by, L"\n\r",  2 );
     }
 
     if ( !found )
@@ -600,7 +598,7 @@ void interpret( CHAR_DATA *ch, char *argument, bool is_order )
 	 * Look for command in socials table.
 	 */
 	if ( !check_social( ch, command, argument ) )  {
-    send_to_char( "Hý?\n\r", ch );
+    send_to_char( L"HÄ±?\n\r", ch );
 	    return;
 	}
 	else
@@ -615,32 +613,32 @@ void interpret( CHAR_DATA *ch, char *argument, bool is_order )
 	switch( ch->position )
 	{
 	case POS_DEAD:
-  send_to_char( "Yatmaya devam et; sen ÖLÜsün.\n\r", ch );
+  send_to_char( L"Yatmaya devam et; sen Ã–LÃœsÃ¼n.\n\r", ch );
 	    break;
 
 	case POS_MORTAL:
 	case POS_INCAP:
-  send_to_char( "Bunu yapamayacak kan kaybettin.\n\r", ch );
+  send_to_char( L"Bunu yapamayacak kan kaybettin.\n\r", ch );
 	    break;
 
 	case POS_STUNNED:
-  send_to_char( "Bunu yapamayacak kadar yaralýsýn.\n\r", ch );
+  send_to_char( L"Bunu yapamayacak kadar yaralÄ±sÄ±n.\n\r", ch );
 	    break;
 
 	case POS_SLEEPING:
-  send_to_char( "Rüyalarýnda mý?\n\r", ch );
+  send_to_char( L"RÃ¼yalarÄ±nda mÄ±?\n\r", ch );
 	    break;
 
 	case POS_RESTING:
-  send_to_char( "Haayýr... Çok rahatlamýþ durumdasýn...\n\r", ch);
+  send_to_char( L"HaayÄ±r... Ã‡ok rahatlamÄ±ÅŸ durumdasÄ±n...\n\r", ch);
 	    break;
 
 	case POS_SITTING:
-  send_to_char("Önce ayaða kalkmalýsýn.\n\r",ch);
+  send_to_char( L"Ã–nce ayaÄŸa kalkmalÄ±sÄ±n.\n\r",ch);
 	    break;
 
 	case POS_FIGHTING:
-  send_to_char( "Olmaz!  Hala dövüþüyorsun!\n\r", ch);
+  send_to_char( L"Olmaz!  Hala dÃ¶vÃ¼ÅŸÃ¼yorsun!\n\r", ch);
 	    break;
 
 	}
@@ -658,9 +656,9 @@ void interpret( CHAR_DATA *ch, char *argument, bool is_order )
 
 
 
-bool check_social( CHAR_DATA *ch, char *command, char *argument )
+bool check_social( CHAR_DATA *ch, wchar_t *command, wchar_t *argument )
 {
-    char arg[MAX_INPUT_LENGTH];
+    wchar_t arg[MAX_INPUT_LENGTH];
     CHAR_DATA *victim;
     int cmd;
     bool found;
@@ -680,23 +678,23 @@ bool check_social( CHAR_DATA *ch, char *command, char *argument )
 
     if ( !IS_NPC(ch) && IS_SET(ch->comm, COMM_NOEMOTE) )
     {
-      send_to_char("Sen bir antisosyalsin!\n\r", ch );
+      send_to_char( L"Sen bir antisosyalsin!\n\r", ch );
 	return TRUE;
     }
 
     switch ( ch->position )
     {
     case POS_DEAD:
-    send_to_char( "Yatmaya devam et; sen ÖLÜsün.\n\r", ch );
+    send_to_char( L"Yatmaya devam et; sen Ã–LÃœsÃ¼n.\n\r", ch );
 	return TRUE;
 
     case POS_INCAP:
     case POS_MORTAL:
-    send_to_char("Bunu yapamayacak kan kaybettin.\n\r", ch );
+    send_to_char( L"Bunu yapamayacak kan kaybettin.\n\r", ch );
 	return TRUE;
 
     case POS_STUNNED:
-    send_to_char( "Bunu yapamayacak kadar yaralýsýn.\n\r", ch );
+    send_to_char( L"Bunu yapamayacak kadar yaralÄ±sÄ±n.\n\r", ch );
 	return TRUE;
 
     case POS_SLEEPING:
@@ -704,23 +702,23 @@ bool check_social( CHAR_DATA *ch, char *command, char *argument )
 	 * I just know this is the path to a 12" 'if' statement.  :(
 	 * But two players asked for it already!  -- Furey
 	 */
-	if ( !str_cmp( social_table[cmd].name, "snore" ) )
+	if ( !wcscasecmp( social_table[cmd].name, L"snore" ) )
 	    break;
-      send_to_char( "Rüyalarýnda mý?\n\r", ch );
+      send_to_char( L"RÃ¼yalarÄ±nda mÄ±?\n\r", ch );
 	return TRUE;
 
     }
 
     if ( IS_AFFECTED( ch, AFF_HIDE )  )  {
       REMOVE_BIT( ch->affected_by, AFF_HIDE );
-      send_to_char( "Gölgelerden çýkýyorsun.\n\r", ch);
-      act( "$n gölgelerden çýkýyor.", ch, NULL, NULL, TO_ROOM);
+      send_to_char( L"GÃ¶lgelerden Ã§Ä±kÄ±yorsun.\n\r", ch);
+      act( L"$n gÃ¶lgelerden Ã§Ä±kÄ±yor.", ch, NULL, NULL, TO_ROOM);
     }
 
     if ( IS_AFFECTED( ch, AFF_FADE )  )  {
       REMOVE_BIT( ch->affected_by, AFF_FADE );
-      send_to_char("Gölgelerden çýkýyorsun.\n\r", ch);
-      act("$n gölgelerden çýkýyor.", ch, NULL, NULL, TO_ROOM);
+      send_to_char( L"GÃ¶lgelerden Ã§Ä±kÄ±yorsun.\n\r", ch);
+      act( L"$n gÃ¶lgelerden Ã§Ä±kÄ±yor.", ch, NULL, NULL, TO_ROOM);
     }
 
     if ( IS_AFFECTED(ch, AFF_IMP_INVIS) && !IS_NPC(ch)
@@ -728,8 +726,8 @@ bool check_social( CHAR_DATA *ch, char *command, char *argument )
     {
       affect_strip(ch,gsn_imp_invis);
       REMOVE_BIT(ch->affected_by, AFF_IMP_INVIS);
-      send_to_char("Görünmeye baþlýyorsun.\n\r", ch);
-      act("$n görünmeye baþlýyor.", ch, NULL, NULL, TO_ROOM);
+      send_to_char( L"GÃ¶rÃ¼nmeye baÅŸlÄ±yorsun.\n\r", ch);
+      act( L"$n gÃ¶rÃ¼nmeye baÅŸlÄ±yor.", ch, NULL, NULL, TO_ROOM);
     }
 
     if ( CAN_DETECT(ch, ADET_EARTHFADE) && !IS_NPC(ch)
@@ -738,8 +736,8 @@ bool check_social( CHAR_DATA *ch, char *command, char *argument )
       affect_strip(ch,gsn_earthfade);
       REMOVE_BIT(ch->detection, ADET_EARTHFADE);
       WAIT_STATE(ch, (PULSE_VIOLENCE / 2));
-      send_to_char("Doðal formuna dönüyorsun.\n\r", ch);
-      act("$n þekilleniyor.", ch, NULL, NULL, TO_ROOM);
+      send_to_char( L"DoÄŸal formuna dÃ¶nÃ¼yorsun.\n\r", ch);
+      act( L"$n ÅŸekilleniyor.", ch, NULL, NULL, TO_ROOM);
     }
 
     one_argument( argument, arg );
@@ -751,7 +749,7 @@ bool check_social( CHAR_DATA *ch, char *command, char *argument )
     }
     else if ( ( victim = get_char_room( ch, arg ) ) == NULL )
     {
-      send_to_char( "Burada deðil.\n\r", ch );
+      send_to_char( L"Burada deÄŸil.\n\r", ch );
     }
     else if ( victim == ch )
     {
@@ -784,9 +782,9 @@ bool check_social( CHAR_DATA *ch, char *command, char *argument )
 		break;
 
 	    case 9: case 10: case 11: case 12:
-      act( "$n $M tokatlýyor.",  victim, NULL, ch, TO_NOTVICT );
-  		act( "Sen $M tokatlýyorsun.",  victim, NULL, ch, TO_CHAR    );
-  		act( "$n seni tokatlýyor.", victim, NULL, ch, TO_VICT    );
+      act( L"$n $M tokatlÄ±yor.",  victim, NULL, ch, TO_NOTVICT );
+  		act( L"Sen $M tokatlÄ±yorsun.",  victim, NULL, ch, TO_CHAR    );
+  		act( L"$n seni tokatlÄ±yor.", victim, NULL, ch, TO_VICT    );
 		break;
 	    }
 	}
@@ -800,7 +798,7 @@ bool check_social( CHAR_DATA *ch, char *command, char *argument )
 /*
  * Return true if an argument is completely numeric.
  */
-bool is_number ( char *arg )
+bool is_number ( wchar_t *arg )
 {
 
     if ( *arg == '\0' )
@@ -811,7 +809,28 @@ bool is_number ( char *arg )
 
     for ( ; *arg != '\0'; arg++ )
     {
-        if ( !isdigit( *arg ) )
+        if ( !iswdigit( *arg ) )
+            return FALSE;
+    }
+
+    return TRUE;
+}
+
+/*
+ * Return true if an argument is completely numeric.
+ */
+bool is_number_char ( char *arg )
+{
+
+    if ( *arg == '\0' )
+        return FALSE;
+
+    if ( *arg == '+' || *arg == '-' )
+        arg++;
+
+    for ( ; *arg != '\0'; arg++ )
+    {
+        if ( !iswdigit( *arg ) )
             return FALSE;
     }
 
@@ -823,9 +842,9 @@ bool is_number ( char *arg )
 /*
  * Given a string like 14.foo, return 14 and 'foo'
  */
-int number_argument( char *argument, char *arg )
+int number_argument( wchar_t *argument, wchar_t *arg )
 {
-    char *pdot;
+    wchar_t *pdot;
     int number;
 
     for ( pdot = argument; *pdot != '\0'; pdot++ )
@@ -833,23 +852,23 @@ int number_argument( char *argument, char *arg )
 	if ( *pdot == '.' )
 	{
 	    *pdot = '\0';
-	    number = atoi( argument );
+	    number = wcstol( argument, 0, 10 );
 	    *pdot = '.';
-	    strcpy( arg, pdot+1 );
+	    wcscpy( arg, pdot+1 );
 	    return number;
 	}
     }
 
-    strcpy( arg, argument );
+    wcscpy( arg, argument );
     return 1;
 }
 
 /*
  * Given a string like 14*foo, return 14 and 'foo'
 */
-int mult_argument(char *argument, char *arg)
+int mult_argument(wchar_t *argument, wchar_t *arg)
 {
-    char *pdot;
+    wchar_t *pdot;
     int number;
 
     for ( pdot = argument; *pdot != '\0'; pdot++ )
@@ -857,14 +876,14 @@ int mult_argument(char *argument, char *arg)
         if ( *pdot == '*' )
         {
             *pdot = '\0';
-            number = atoi( argument );
+            number = wcstol( argument, 0, 10 );
             *pdot = '*';
-            strcpy( arg, pdot+1 );
+            wcscpy( arg, pdot+1 );
             return number;
         }
     }
 
-    strcpy( arg, argument );
+    wcscpy( arg, argument );
     return 1;
 }
 
@@ -874,9 +893,9 @@ int mult_argument(char *argument, char *arg)
  * Pick off one argument from a string and return the rest.
  * Understands quotes.
  */
-char *one_argument( char *argument, char *arg_first )
+wchar_t *one_argument( wchar_t *argument, wchar_t *arg_first )
 {
-    char cEnd;
+    wchar_t cEnd;
 
     while ( isspace(*argument) )
 	argument++;
@@ -892,7 +911,7 @@ char *one_argument( char *argument, char *arg_first )
 	    argument++;
 	    break;
 	}
-	*arg_first = LOWER(*argument);
+	*arg_first = towlower(*argument);
 	arg_first++;
 	argument++;
     }
@@ -907,10 +926,10 @@ char *one_argument( char *argument, char *arg_first )
 /*
  * Contributed by Alander.
  */
-void do_commands( CHAR_DATA *ch, char *argument )
+void do_commands( CHAR_DATA *ch, wchar_t *argument )
 {
-    char buf[MAX_STRING_LENGTH];
-    char output[4 * MAX_STRING_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
+    wchar_t output[4 * MAX_STRING_LENGTH];
     int letter;
     int cmd;
     int col;
@@ -927,26 +946,26 @@ void do_commands( CHAR_DATA *ch, char *argument )
         &&   cmd_table[cmd].level <= get_trust( ch )
 	&&   cmd_table[cmd].show)
 	{
-	    sprintf( buf, "%-12s", cmd_table[cmd].name );
-	    strcat( output, buf );
+	    swprintf( buf, MAX_STRING_LENGTH-1, L"%-12s", cmd_table[cmd].name );
+	    wcscat( output, buf );
 	    if ( ++col % 6 == 0 )
-		strcat(output, "\n\r" );
+		wcscat(output, L"\n\r" );
 	}
       }
     }
 
     if ( col % 6 != 0 )
-	strcat( output, "\n\r" );
+	wcscat( output, L"\n\r" );
 
     page_to_char( output, ch );
     return;
 }
 
-void do_wizhelp( CHAR_DATA *ch, char *argument )
+void do_wizhelp( CHAR_DATA *ch, wchar_t *argument )
 {
-    char buf[MAX_STRING_LENGTH];
-    char output[4 * MAX_STRING_LENGTH];
-    char letter;
+    wchar_t buf[MAX_STRING_LENGTH];
+    wchar_t output[4 * MAX_STRING_LENGTH];
+    wchar_t letter;
     int cmd;
     int col;
 
@@ -962,61 +981,61 @@ void do_wizhelp( CHAR_DATA *ch, char *argument )
         &&   cmd_table[cmd].level <= get_trust( ch )
         &&   cmd_table[cmd].show)
 	{
-	    sprintf( buf, "%-12s", cmd_table[cmd].name );
-	    strcat(output, buf);
+	    swprintf( buf, MAX_STRING_LENGTH-1, L"%-12s", cmd_table[cmd].name );
+	    wcscat(output, buf);
 	    if ( ++col % 6 == 0 )
-		strcat( output, "\n\r");
+		wcscat( output, L"\n\r");
 	}
       }
     }
 
     if ( col % 6 != 0 )
-	strcat(output, "\n\r");
+	wcscat(output, L"\n\r");
 
     page_to_char(output, ch);
     return;
 }
 
 
-void do_reture( CHAR_DATA *ch, char *argument)
+void do_reture( CHAR_DATA *ch, wchar_t *argument)
 {
-  send_to_char("Tamam.\n\r",ch);
+  send_to_char( L"Tamam.\n\r",ch);
   return;
 }
 
 /*********** alias.c **************/
 
 /* does aliasing and other fun stuff */
-void substitute_alias(DESCRIPTOR_DATA *d, char *argument)
+void substitute_alias(DESCRIPTOR_DATA *d, wchar_t *argument)
 {
     CHAR_DATA *ch;
-    char buf[MAX_STRING_LENGTH],prefix[MAX_INPUT_LENGTH],name[MAX_INPUT_LENGTH];
-    char *point;
+    wchar_t buf[MAX_STRING_LENGTH],prefix[MAX_INPUT_LENGTH],name[MAX_INPUT_LENGTH];
+    wchar_t *point;
     int alias;
 
     ch = d->original ? d->original : d->character;
 
     /* check for prefix */
-    if (ch->prefix[0] != '\0' && str_prefix("prefix",argument))
+    if (ch->prefix[0] != '\0' && str_prefix( L"prefix",argument))
     {
-	if (strlen(ch->prefix) + strlen(argument) > MAX_INPUT_LENGTH)
-	    send_to_char("Line to long, prefix not processed.\r\n",ch);
+	if (wcslen(ch->prefix) + wcslen(argument) > MAX_INPUT_LENGTH)
+	    send_to_char( L"Line to long, prefix not processed.\r\n",ch);
 	else
 	{
-	    sprintf(prefix,"%s %s",ch->prefix,argument);
+	    swprintf(prefix,MAX_INPUT_LENGTH-1, L"%s %s",ch->prefix,argument);
 	    argument = prefix;
 	}
     }
 
     if (IS_NPC(ch) || ch->pcdata->alias[0] == NULL
-    ||	!str_prefix("kýsayol",argument) || !str_prefix("kýsayolkaldýr",argument)
-    ||  !str_prefix("prefix",argument))
+    ||	!str_prefix( L"kÄ±sayol",argument) || !str_prefix( L"kÄ±sayolkaldÄ±r",argument)
+    ||  !str_prefix( L"prefix",argument))
     {
 	interpret(d->character,argument, FALSE);
 	return;
     }
 
-    strcpy(buf,argument);
+    wcscpy(buf,argument);
 
     for (alias = 0; alias < MAX_ALIAS; alias++)	 /* go through the aliases */
     {
@@ -1026,17 +1045,17 @@ void substitute_alias(DESCRIPTOR_DATA *d, char *argument)
 	if (!str_prefix(ch->pcdata->alias[alias],argument))
 	{
 	    point = one_argument(argument,name);
-	    if (!strcmp(ch->pcdata->alias[alias],name))
+	    if (!wcscmp(ch->pcdata->alias[alias],name))
 	    {
 		buf[0] = '\0';
-		strcat(buf,ch->pcdata->alias_sub[alias]);
-		strcat(buf," ");
-		strcat(buf,point);
+		wcscat(buf,ch->pcdata->alias_sub[alias]);
+		wcscat(buf, L" ");
+		wcscat(buf,point);
 		break;
 	    }
-	    if (strlen(buf) > MAX_INPUT_LENGTH)
+	    if (wcslen(buf) > MAX_INPUT_LENGTH)
 	    {
-		send_to_char("Alias substitution too long. Truncated.\r\n",ch);
+		send_to_char( L"Alias substitution too long. Truncated.\r\n",ch);
 		buf[MAX_INPUT_LENGTH -1] = '\0';
 	    }
 	}
@@ -1044,16 +1063,16 @@ void substitute_alias(DESCRIPTOR_DATA *d, char *argument)
     interpret(d->character,buf, FALSE);
 }
 
-void do_alia(CHAR_DATA *ch, char *argument)
+void do_alia(CHAR_DATA *ch, wchar_t *argument)
 {
-  send_to_char("Üzgünüm, KISAYOL komutu tam girilmeli.\n\r",ch);
+  send_to_char( L"ÃœzgÃ¼nÃ¼m, KISAYOL komutu tam girilmeli.\n\r",ch);
     return;
 }
 
-void do_alias(CHAR_DATA *ch, char *argument)
+void do_alias(CHAR_DATA *ch, wchar_t *argument)
 {
     CHAR_DATA *rch;
-    char arg[MAX_INPUT_LENGTH],buf[MAX_STRING_LENGTH];
+    wchar_t arg[MAX_INPUT_LENGTH],buf[MAX_STRING_LENGTH];
     int pos;
 
     smash_tilde( argument );
@@ -1074,10 +1093,10 @@ void do_alias(CHAR_DATA *ch, char *argument)
 
 	if (rch->pcdata->alias[0] == NULL)
 	{
-    send_to_char("Tanýmlý kýsayolun yok.\n\r",ch);
+    send_to_char( L"TanÄ±mlÄ± kÄ±sayolun yok.\n\r",ch);
 	    return;
 	}
-  send_to_char("Kýsayollarýn:\n\r",ch);
+  send_to_char( L"KÄ±sayollarÄ±n:\n\r",ch);
 
 	for (pos = 0; pos < MAX_ALIAS; pos++)
 	{
@@ -1085,16 +1104,16 @@ void do_alias(CHAR_DATA *ch, char *argument)
 	    ||	rch->pcdata->alias_sub[pos] == NULL)
 		break;
 
-	    sprintf(buf,"    %s:  %s\n\r",rch->pcdata->alias[pos],
+	    swprintf( buf, MAX_STRING_LENGTH-1, L"    %s:  %s\n\r",rch->pcdata->alias[pos],
 		    rch->pcdata->alias_sub[pos]);
 	    send_to_char(buf,ch);
 	}
 	return;
     }
 
-    if (!str_prefix("kýsayolkaldýr",arg) || !str_cmp("kýsayol",arg))
+    if (!str_prefix( L"kÄ±sayolkaldÄ±r",arg) || !wcscasecmp( L"kÄ±sayol",arg))
     {
-      send_to_char("Üzgünüm, ayrýlmýþ(reserverd) sözcükler olmaz.\n\r",ch);
+      send_to_char( L"ÃœzgÃ¼nÃ¼m, ayrÄ±lmÄ±ÅŸ(reserverd) sÃ¶zcÃ¼kler olmaz.\n\r",ch);
 	return;
     }
 
@@ -1106,22 +1125,22 @@ void do_alias(CHAR_DATA *ch, char *argument)
 	    ||	rch->pcdata->alias_sub[pos] == NULL)
 		break;
 
-	    if (!str_cmp(arg,rch->pcdata->alias[pos]))
+	    if (!wcscasecmp(arg,rch->pcdata->alias[pos]))
 	    {
-        sprintf(buf,"%s = '%s'.\n\r",rch->pcdata->alias[pos],
+        swprintf( buf, MAX_STRING_LENGTH-1, L"%s = '%s'.\n\r",rch->pcdata->alias[pos],
     			rch->pcdata->alias_sub[pos]);
 		send_to_char(buf,ch);
 		return;
 	    }
 	}
 
-  send_to_char("Bu kýsayol tanýmlanmamýþ.\n\r",ch);
+  send_to_char( L"Bu kÄ±sayol tanÄ±mlanmamÄ±ÅŸ.\n\r",ch);
 	return;
     }
 
-    if (!str_prefix(argument,"intihar") || !str_prefix(argument,"prefix"))
+    if (!str_prefix(argument, L"intihar") || !str_prefix(argument, L"prefix"))
     {
-      send_to_char("Olmaz!\n\r",ch);
+      send_to_char( L"Olmaz!\n\r",ch);
 	return;
     }
 
@@ -1130,11 +1149,11 @@ void do_alias(CHAR_DATA *ch, char *argument)
 	if (rch->pcdata->alias[pos] == NULL)
 	    break;
 
-	if (!str_cmp(arg,rch->pcdata->alias[pos])) /* redefine an alias */
+	if (!wcscasecmp(arg,rch->pcdata->alias[pos])) /* redefine an alias */
 	{
 	    free_string(rch->pcdata->alias_sub[pos]);
 	    rch->pcdata->alias_sub[pos] = str_dup(argument);
-      sprintf(buf,"%s artýk '%s' demek.\n\r",arg,argument);
+      swprintf( buf, MAX_STRING_LENGTH-1, L"%s artÄ±k '%s' demek.\n\r",arg,argument);
 	    send_to_char(buf,ch);
 	    return;
 	}
@@ -1142,22 +1161,22 @@ void do_alias(CHAR_DATA *ch, char *argument)
 
      if (pos >= MAX_ALIAS)
      {
-       send_to_char("Üzgünüm, maksimum kýsayol sayýsýný aþamazsýnýz.\n\r",ch);
+       send_to_char( L"ÃœzgÃ¼nÃ¼m, maksimum kÄ±sayol sayÄ±sÄ±nÄ± aÅŸamazsÄ±nÄ±z.\n\r",ch);
 	return;
      }
 
      /* make a new alias */
      rch->pcdata->alias[pos]		= str_dup(arg);
      rch->pcdata->alias_sub[pos]	= str_dup(argument);
-     sprintf(buf,"%s artýk '%s' demek.\n\r",arg,argument);
+     swprintf( buf, MAX_STRING_LENGTH-1, L"%s artÄ±k '%s' demek.\n\r",arg,argument);
      send_to_char(buf,ch);
 }
 
 
-void do_unalias(CHAR_DATA *ch, char *argument)
+void do_unalias(CHAR_DATA *ch, wchar_t *argument)
 {
     CHAR_DATA *rch;
-    char arg[MAX_INPUT_LENGTH];
+    wchar_t arg[MAX_INPUT_LENGTH];
     int pos;
     bool found = FALSE;
 
@@ -1173,7 +1192,7 @@ void do_unalias(CHAR_DATA *ch, char *argument)
 
     if (arg == NULL)
     {
-      send_to_char("Hangi kýsayolu kaldýracaksýnýz?\n\r",ch);
+      send_to_char( L"Hangi kÄ±sayolu kaldÄ±racaksÄ±nÄ±z?\n\r",ch);
 	return;
     }
 
@@ -1191,9 +1210,9 @@ void do_unalias(CHAR_DATA *ch, char *argument)
 	    continue;
 	}
 
-	if(!strcmp(arg,rch->pcdata->alias[pos]))
+	if(!wcscmp(arg,rch->pcdata->alias[pos]))
 	{
-    send_to_char("Kýsayol kaldýrýldý.\n\r",ch);
+    send_to_char( L"KÄ±sayol kaldÄ±rÄ±ldÄ±.\n\r",ch);
 	    free_string(rch->pcdata->alias[pos]);
 	    free_string(rch->pcdata->alias_sub[pos]);
 	    rch->pcdata->alias[pos] = NULL;
@@ -1203,5 +1222,5 @@ void do_unalias(CHAR_DATA *ch, char *argument)
     }
 
     if (!found)
-    send_to_char("O isimde bir kýsayol yok.\n\r",ch);
+    send_to_char( L"O isimde bir kÄ±sayol yok.\n\r",ch);
 }

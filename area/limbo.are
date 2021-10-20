@@ -3,7 +3,7 @@ Filename limbo.are~
 Name Limbo~
 Builder Diku~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 99
 Highlevel 100
 Minvnum 0
@@ -16,9 +16,9 @@ END
 
 #NEW_MOBILES
 #10
-gölge %s~
-%s gölgesi~
-%s gölgesi burada.
+gÃ¶lge %s~
+%s gÃ¶lgesi~
+%s gÃ¶lgesi burada.
 ~
 This dark form seems like it wants to get back at %s for keeping it
 below them for so long....better not get in its way!
@@ -26,36 +26,36 @@ below them for so long....better not get in its way!
 human~
 AW JPVZee 1
 #11
-özel koruma~
+Ã¶zel koruma~
 koruma~
-Özel koruma burada, gözleri kızgınlıkla yanıyor!
+Ã–zel koruma burada, gÃ¶zleri kÄ±zgÄ±nlÄ±kla yanÄ±yor!
 ~
-Çok ama çok kızgın.
+Ã‡ok ama Ã§ok kÄ±zgÄ±n.
 ~
 human~
 ATc JNV 20
 #12
-ayı~
-ayı~
-Güçlü bir ayı burada.
+ayÄ±~
+ayÄ±~
+GÃ¼Ã§lÃ¼ bir ayÄ± burada.
 ~
-Özel birşey görmüyorsun.
+Ã–zel birÅŸey gÃ¶rmÃ¼yorsun.
 ~
 bear~
 A 0 1
 #13
-ateş çıkaran kızıl şeytan~
-ateş çıkaran bir kızıl şeytan~
-Ateş çıkaran bir kızıl şeytan burada, çok sinirli.
+ateÅŸ Ã§Ä±karan kÄ±zÄ±l ÅŸeytan~
+ateÅŸ Ã§Ä±karan bir kÄ±zÄ±l ÅŸeytan~
+AteÅŸ Ã§Ä±karan bir kÄ±zÄ±l ÅŸeytan burada, Ã§ok sinirli.
 ~
-Kocaman kızıl bir şeytan... Ateş çıkarıyor.
+Kocaman kÄ±zÄ±l bir ÅŸeytan... AteÅŸ Ã§Ä±karÄ±yor.
 ~
 unique~
 AB JZ 40
 #14
 solucan~
 Solucan~
-Gölgelerden çıkmış bir solucan etrafta sürünüyor.
+GÃ¶lgelerden Ã§Ä±kmÄ±ÅŸ bir solucan etrafta sÃ¼rÃ¼nÃ¼yor.
 ~
 This is a Nightwalker summoned from the shadows. Bloody eyes seem glowing.
 This creature has a horible look.
@@ -74,7 +74,7 @@ ATc 0 20
 #16
 bey~
 bey~
-Yüzünde gülümsemeyle duran bir bey görüyorsun.
+YÃ¼zÃ¼nde gÃ¼lÃ¼msemeyle duran bir bey gÃ¶rÃ¼yorsun.
 ~
 This noble squire is serving his apprenticeship in the ways of honor
 and chivalry under his master.
@@ -84,9 +84,9 @@ ATc JNVHFee 20
 #17
 ayna~
 ayna~
-Birinin aynalanmış görüntüsü burada.
+Birinin aynalanmÄ±ÅŸ gÃ¶rÃ¼ntÃ¼sÃ¼ burada.
 ~
-Hakkında özel bir şey görmüyorsun.
+HakkÄ±nda Ã¶zel bir ÅŸey gÃ¶rmÃ¼yorsun.
 ~
 human~
 AB 0 1
@@ -95,7 +95,7 @@ hortlak~
 hortlak~
 Bir hortlak bedeni burada.
 ~
-Hakkında özel bir şey görmüyorsun.
+HakkÄ±nda Ã¶zel bir ÅŸey gÃ¶rmÃ¼yorsun.
 ~
 undead~
 A 0 1
@@ -104,32 +104,32 @@ aslan~
 aslan~
 Soylu bir aslan burada.
 ~
-Hakkında özel bir şey görmüyorsun.
+HakkÄ±nda Ã¶zel bir ÅŸey gÃ¶rmÃ¼yorsun.
 ~
 lion~
 A 0 1
 #20
 kurt~
 kurt~
-Sinirli bir kurt görüyorsun.
+Sinirli bir kurt gÃ¶rÃ¼yorsun.
 ~
-Hakkında özel bir şey görmüyorsun.
+HakkÄ±nda Ã¶zel bir ÅŸey gÃ¶rmÃ¼yorsun.
 ~
 wolf~
 A 0 1
 #21
-küçük golem~
-küçük golem~
-Küçük bir golem burada.
+kÃ¼Ã§Ã¼k golem~
+kÃ¼Ã§Ã¼k golem~
+KÃ¼Ã§Ã¼k bir golem burada.
 ~
 The golem appears to be made of some kind of clay, enchanted to come to life!.
 ~
 golem~
 AT V 1
 #22
-taş golem~
-taş golem~
-Efendisini korumaya hazır bir taş golem burada.
+taÅŸ golem~
+taÅŸ golem~
+Efendisini korumaya hazÄ±r bir taÅŸ golem burada.
 ~
 This is a large stone statue of a man. The statue stands eight feet tall
 and looks powerful enough to rip off your head without straining.
@@ -150,7 +150,7 @@ AT V 1
 #24
 adament golem~
 adament golem~
-Tehlikeli görünen bir adament golem burada.
+Tehlikeli gÃ¶rÃ¼nen bir adament golem burada.
 ~
 It seems to be forged of dark metal.  It looks strong and durable,
 but somewhat un-intelligent.
@@ -162,88 +162,88 @@ aslan~
 aslan~
 Soylu bir aslan burada.
 ~
-Hakkında özel bir şey görmüyorsun.
+HakkÄ±nda Ã¶zel bir ÅŸey gÃ¶rmÃ¼yorsun.
 ~
 lion~
 A 0 1
 #26
-gölge kara~
-gölge~
-Kara bir gölge burada.
+gÃ¶lge kara~
+gÃ¶lge~
+Kara bir gÃ¶lge burada.
 ~
 You see nothingness.
 ~
 lion~
 AO 0 1
 #27
-köpek~
-köpek~
-Efendisinden emir bekleyen bir köpek burada.
+kÃ¶pek~
+kÃ¶pek~
+Efendisinden emir bekleyen bir kÃ¶pek burada.
 ~
-Hakkında özel bir şey görmüyorsun.
+HakkÄ±nda Ã¶zel bir ÅŸey gÃ¶rmÃ¼yorsun.
 ~
 dog~
 A 0 1
 #28
-toprak uşak~
-toprak uşağı~
-Kocaman bir toprak uşağı hareket etmeye hazırlanıyor.
+toprak uÅŸak~
+toprak uÅŸaÄŸÄ±~
+Kocaman bir toprak uÅŸaÄŸÄ± hareket etmeye hazÄ±rlanÄ±yor.
 ~
-Hakkında özel bir şey görmüyorsun.
+HakkÄ±nda Ã¶zel bir ÅŸey gÃ¶rmÃ¼yorsun.
 ~
 earth elemental~
 A 0 1
 #29
-hava uşak~
-hava uşağı~
-Kocaman bir hava uşağı esmeye hazırlanıyor.
+hava uÅŸak~
+hava uÅŸaÄŸÄ±~
+Kocaman bir hava uÅŸaÄŸÄ± esmeye hazÄ±rlanÄ±yor.
 ~
-Hakkında özel bir şey görmüyorsun.
+HakkÄ±nda Ã¶zel bir ÅŸey gÃ¶rmÃ¼yorsun.
 ~
 air elemental~
 A 0 1
 #30
-ateş uşak~
-ateş uşağı~
-Kocaman bir ateş uşağı yakmaya hazırlanıyor.
+ateÅŸ uÅŸak~
+ateÅŸ uÅŸaÄŸÄ±~
+Kocaman bir ateÅŸ uÅŸaÄŸÄ± yakmaya hazÄ±rlanÄ±yor.
 ~
-Hakkında özel bir şey görmüyorsun.
+HakkÄ±nda Ã¶zel bir ÅŸey gÃ¶rmÃ¼yorsun.
 ~
 fire elemental~
 A 0 1
 #31
-su uşak~
-su uşağı~
-Kocaman bir su uşağı boğmaya hazırlanıyor.
+su uÅŸak~
+su uÅŸaÄŸÄ±~
+Kocaman bir su uÅŸaÄŸÄ± boÄŸmaya hazÄ±rlanÄ±yor.
 ~
-Hakkında özel bir şey görmüyorsun.
+HakkÄ±nda Ã¶zel bir ÅŸey gÃ¶rmÃ¼yorsun.
 ~
 water elemental~
 A 0 1
 #32
-enerji uşak~
-enerji uşağı~
-Kocaman bir enerji uşağı çarpmaya hazırlanıyor.
+enerji uÅŸak~
+enerji uÅŸaÄŸÄ±~
+Kocaman bir enerji uÅŸaÄŸÄ± Ã§arpmaya hazÄ±rlanÄ±yor.
 ~
-Hakkında özel bir şey görmüyorsun.
+HakkÄ±nda Ã¶zel bir ÅŸey gÃ¶rmÃ¼yorsun.
 ~
 air elemental~
 A 0 1
 #33
-canlandırılmış silah~
-Canlandırılmış %s~
-Canlandırılmış bir silah burada.
+canlandÄ±rÄ±lmÄ±ÅŸ silah~
+CanlandÄ±rÄ±lmÄ±ÅŸ %s~
+CanlandÄ±rÄ±lmÄ±ÅŸ bir silah burada.
 ~
-Hakkında özel bir şey görmüyorsun.
+HakkÄ±nda Ã¶zel bir ÅŸey gÃ¶rmÃ¼yorsun.
 ~
 unique~
 A 0 1
 #34
-canlandırılmış zırh~
-Canlandırılmış %s~
-Canlandırılmış bir zırh burada.
+canlandÄ±rÄ±lmÄ±ÅŸ zÄ±rh~
+CanlandÄ±rÄ±lmÄ±ÅŸ %s~
+CanlandÄ±rÄ±lmÄ±ÅŸ bir zÄ±rh burada.
 ~
-Hakkında özel bir şey görmüyorsun.
+HakkÄ±nda Ã¶zel bir ÅŸey gÃ¶rmÃ¼yorsun.
 ~
 unique~
 A 0 1
@@ -251,25 +251,49 @@ A 0 1
 
 #OBJECTS
 #1
-akçe~
-bir akçe~
-Bir akçe.~
+akÃ§e sikke~
+bir akÃ§e~
+Bir akÃ§e.~
 silver~
 money 0 A
 1 0 0 0 0
 0 10 0 P
+#2
+altÄ±n sikke~
+bir altÄ±n~
+Bir altÄ±n.~
+gold~
+money 0 A
+0 1 0 0 0
+0 10 0 P
+#3
+altÄ±n sikke~
+bir miktar altÄ±n~
+Bir miktar altÄ±n.~
+gold~
+money 0 A
+0 0 0 0 0
+0 10 0 P
 #4
-akçe~
-bir miktar akçe~
-Bir miktar akçe.~
+akÃ§e sikke~
+bir miktar akÃ§e~
+Bir miktar akÃ§e.~
 silver~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#5
+altÄ±n akÃ§e sikke~
+%d akÃ§e ve %d altÄ±n sikke~
+Bir miktar sikke.~
+gold~
 money 0 A
 0 0 0 0 0
 0 10 0 P
 #6
 %s ok~
 bir %s ok~
-Bir %s ok yerde yatıyor.~
+Bir %s ok yerde yatÄ±yor.~
 wood~
 weapon 0 AO
 arrow 1 1 pierce 0
@@ -277,7 +301,7 @@ arrow 1 1 pierce 0
 #7
 tahta yay~
 bir tahta yay~
-Bir tahta yay yerde yatıyor.~
+Bir tahta yay yerde yatÄ±yor.~
 wood~
 weapon 0 AO
 bow 1 1 blast 0
@@ -285,7 +309,7 @@ bow 1 1 blast 0
 #10
 ceset~
 %s'in cesedi~
-%s'in cesedi burada yatıyor.~
+%s'in cesedi burada yatÄ±yor.~
 flesh~
 npc_corpse 0 A
 0 0 0 1 0
@@ -293,15 +317,15 @@ npc_corpse 0 A
 #11
 ceset~
 %s'in cesedi~
-%s'in cesedi burada yatıyor.~
+%s'in cesedi burada yatÄ±yor.~
 flesh~
 pc_corpse O A
 0 0 0 1 0
 0 1000 0 D
 #12
 kafa~
-%s'in kafası~
-%s'in kopmuş kafası yerde yatıyor.~
+%s'in kafasÄ±~
+%s'in kopmuÅŸ kafasÄ± yerde yatÄ±yor.~
 meat~
 trash 0 A
 0 0 0 0 0
@@ -309,7 +333,7 @@ trash 0 A
 #13
 kalp~
 %s'in kalbi~
-%s'in kalbi yerde yatıyor.~
+%s'in kalbi yerde yatÄ±yor.~
 meat~
 food 0 A
 16 16 0 0 0
@@ -317,23 +341,23 @@ food 0 A
 #14
 kol~
 %s'in kolu~
-%s'in kopmuş kolu yerde yatıyor.~
+%s'in kopmuÅŸ kolu yerde yatÄ±yor.~
 meat~
 food 0 A
 20 20 0 0 0
 0 50 0 D
 #15
 bacak~
-%s'in bacağı~
-%s'in kopmuş bacağı yerde yatıyor.~
+%s'in bacaÄŸÄ±~
+%s'in kopmuÅŸ bacaÄŸÄ± yerde yatÄ±yor.~
 meat~
 food 0 A
 20 20 0 0 0
 0 50 0 D
 #16
-bağırsaklar~
-%s'in bağırsakları~
-%s'in bağırsakları yere saçılmış.~
+baÄŸÄ±rsaklar~
+%s'in baÄŸÄ±rsaklarÄ±~
+%s'in baÄŸÄ±rsaklarÄ± yere saÃ§Ä±lmÄ±ÅŸ.~
 meat~
 food 0 A
 5 5 0 1 0
@@ -341,15 +365,15 @@ food 0 A
 #17
 beyin~
 %s'in beyni~
-%s'in beyninden kalan parçalar yere saçılmış.~
+%s'in beyninden kalan parÃ§alar yere saÃ§Ä±lmÄ±ÅŸ.~
 meat~
 food 0 A
 10 10 0 0 0
 0 20 0 D
 #19
-mezar taş~
-%s için mezar taşı~
-%s için mezar taşı buraya dikilmiş.~
+mezar taÅŸ~
+%s iÃ§in mezar taÅŸÄ±~
+%s iÃ§in mezar taÅŸÄ± buraya dikilmiÅŸ.~
 stone~
 treasure A 0
 0 0 0 0 0
@@ -357,39 +381,39 @@ treasure A 0
 #20
 mantar~
 bir sihirli mantar~
-Sihirli bir mantar görüyorsun.~
+Sihirli bir mantar gÃ¶rÃ¼yorsun.~
 food~
 food 0 A
 8 8 0 0 0
 0 10 0 P
 #21
-ışık topu~
-ışık topu~
-Bir ışık topu havada asılı duruyor.~
+Ä±ÅŸÄ±k topu~
+Ä±ÅŸÄ±k topu~
+Bir Ä±ÅŸÄ±k topu havada asÄ±lÄ± duruyor.~
 energy~
 light A A
 0 0 -1 0 0
 0 0 0 P
 #22
-pınar su~
-bir sihirli pınar~
-Bir su pınarı sihirli bir şekilde fışkırıyor.~
+pÄ±nar su~
+bir sihirli pÄ±nar~
+Bir su pÄ±narÄ± sihirli bir ÅŸekilde fÄ±ÅŸkÄ±rÄ±yor.~
 water~
 fountain G 0
 100000 100000 'water' 0 0
 0 0 0 P
 #23
-asılı disk~
-asılı disk~
-Bir disk havada asılı duruyor.~
+asÄ±lÄ± disk~
+asÄ±lÄ± disk~
+Bir disk havada asÄ±lÄ± duruyor.~
 energy~
 container GMPUYZ AQ
 0 E 0 0 0
 0 0 0 P
 #25
-geçit parlak parlayan~
-parlayan bir geçit~
-Yerden yükselmiş parlayan bir geçit görüyorsun.~
+geÃ§it parlak parlayan~
+parlayan bir geÃ§it~
+Yerden yÃ¼kselmiÅŸ parlayan bir geÃ§it gÃ¶rÃ¼yorsun.~
 shadow~
 portal GOT 0
 0 0 0 0 0
@@ -407,16 +431,16 @@ A
 6 1
 #27
 biftek~
-%s bifteği~
-%s bifteği.~
+%s bifteÄŸi~
+%s bifteÄŸi.~
 meat~
 food 0 A
 25 25 0 0 0
 0 20 0 P
 #28
 korucu asa~
-korucu asası~
-Bir korucu asası yere bırakılmış.~
+korucu asasÄ±~
+Bir korucu asasÄ± yere bÄ±rakÄ±lmÄ±ÅŸ.~
 ebony~
 weapon A AN
 staff 10 1 pierce 0
@@ -424,15 +448,15 @@ staff 10 1 pierce 0
 #29
 kahraman testi~
 %s kahraman testisi [%s]~
-Küçük bir testi yerde duruyor.~
+KÃ¼Ã§Ã¼k bir testi yerde duruyor.~
 leather~
 drink AGIOY A
 100000 100000 'water' 0 0
 21 10 29900 G
 #30
-kahraman çanta~
-%s kahraman çantası [%s]~
-Bir çanta yerde duruyor.~
+kahraman Ã§anta~
+%s kahraman Ã§antasÄ± [%s]~
+Bir Ã§anta yerde duruyor.~
 silk~
 container AGIOY AKOP
 500 64 0 100 10
@@ -466,9 +490,9 @@ armor GIRYZ AJ
 8 8 8 3 0
 0 80 10000 P
 #32
-işlemeli kahraman yüzük~
-%s işlemeli kahraman yüzüğü [%s]~
-İşlemeli bir yüzük yerde duruyor.~
+iÅŸlemeli kahraman yÃ¼zÃ¼k~
+%s iÅŸlemeli kahraman yÃ¼zÃ¼ÄŸÃ¼ [%s]~
+Ä°ÅŸlemeli bir yÃ¼zÃ¼k yerde duruyor.~
 platinum~
 armor AGIOY ABP
 12 12 12 9 1
@@ -486,9 +510,9 @@ A
 F
 A 14 500 TU
 #33
-desenli kahraman yüzük~
-%s desenli kahraman yüzüğü [%s]~
-Desenli bir yüzük yerde duruyor.~
+desenli kahraman yÃ¼zÃ¼k~
+%s desenli kahraman yÃ¼zÃ¼ÄŸÃ¼ [%s]~
+Desenli bir yÃ¼zÃ¼k yerde duruyor.~
 platinum~
 armor AGIOY ABP
 12 12 12 9 1
@@ -506,9 +530,9 @@ A
 F
 A 14 500 TU
 #34
-oymalı kahraman yüzük~
-%s oymalı kahraman yüzüğü [%s]~
-Oymalı bir yüzük yerde duruyor.~
+oymalÄ± kahraman yÃ¼zÃ¼k~
+%s oymalÄ± kahraman yÃ¼zÃ¼ÄŸÃ¼ [%s]~
+OymalÄ± bir yÃ¼zÃ¼k yerde duruyor.~
 platinum~
 armor AGIOY ABP
 12 12 12 9 1
@@ -526,9 +550,9 @@ A
 F
 A 14 500 TU
 #35
-kakmalı kahraman yüzük~
-%s kakmalı kahraman yüzüğü [%s]~
-Kakmalı bir yüzük yerde duruyor.~
+kakmalÄ± kahraman yÃ¼zÃ¼k~
+%s kakmalÄ± kahraman yÃ¼zÃ¼ÄŸÃ¼ [%s]~
+KakmalÄ± bir yÃ¼zÃ¼k yerde duruyor.~
 platinum~
 armor AGIOY ABP
 12 12 12 9 1
@@ -547,7 +571,7 @@ F
 A 14 500 TU
 #36
 parlak kahraman silah~
-%s parlak kahraman silahı [%s]~
+%s parlak kahraman silahÄ± [%s]~
 Parlak bir silah yerde duruyor.~
 platinum~
 weapon AGIOY ANP
@@ -573,7 +597,7 @@ A
 14 500
 #37
 mat kahraman silah~
-%s mat kahraman silahı [%s]~
+%s mat kahraman silahÄ± [%s]~
 Mat bir silah yerde duruyor.~
 platinum~
 weapon AGIOY ANP
@@ -598,16 +622,16 @@ A
 A
 14 500
 #42
-iksir şişesi~
-iksir şişesi~
-Bir iksir şişesi burada bırakılmış.~
+iksir ÅŸiÅŸesi~
+iksir ÅŸiÅŸesi~
+Bir iksir ÅŸiÅŸesi burada bÄ±rakÄ±lmÄ±ÅŸ.~
 glass~
 drink 0 AO
 5 0 'water' 0 0
 0 10 10 P
 E
-şişe~
-İnce camlı kırılgan bir şişe.
+ÅŸiÅŸe~
+Ä°nce camlÄ± kÄ±rÄ±lgan bir ÅŸiÅŸe.
 ~
 #43
 potion silver~
@@ -618,9 +642,9 @@ potion G AO
 1 'detect invis' '' '' ''
 0 10 0 P
 #44
-altın iksir~
-altın bir iksir~
-Altın bir iksir yerde parlıyor.~
+altÄ±n iksir~
+altÄ±n bir iksir~
+AltÄ±n bir iksir yerde parlÄ±yor.~
 glass~
 potion G AO
 1 'frenzy' '' '' ''
@@ -634,41 +658,41 @@ potion G AO
 1 'bless' '' '' ''
 0 10 0 P
 #51
-dövme kame~
-Kameni dövmesi~
-Bir dövme havada süzülüyor.~
+dÃ¶vme kame~
+Kameni dÃ¶vmesi~
+Bir dÃ¶vme havada sÃ¼zÃ¼lÃ¼yor.~
 energy~
 tattoo AUTY AR
 0 0 -1 0 0
 0 0 0 P
 #52
-dövme nir~
-Niryani dövmesi~
-Bir dövme havada süzülüyor.~
+dÃ¶vme nir~
+Niryani dÃ¶vmesi~
+Bir dÃ¶vme havada sÃ¼zÃ¼lÃ¼yor.~
 energy~
 tattoo AUTY AR
 0 0 -1 0 0
 0 0 0 P
 #53
-dövme nyah~
-Nyahi dövmesi~
-Bir dövme havada süzülüyor.~
+dÃ¶vme nyah~
+Nyahi dÃ¶vmesi~
+Bir dÃ¶vme havada sÃ¼zÃ¼lÃ¼yor.~
 energy~
 tattoo AUTY AR
 0 0 -1 0 0
 0 0 0 P
 #54
-dövme sint~
-Sintaryan dövmesi~
-Bir dövme havada süzülüyor.~
+dÃ¶vme sint~
+Sintaryan dÃ¶vmesi~
+Bir dÃ¶vme havada sÃ¼zÃ¼lÃ¼yor.~
 energy~
 tattoo AUTY AR
 0 0 -1 0 0
 0 0 0 P
 #70
-khalli tüze nişan~
-Khalli'nin Tüze Nişanı~
-Ejderha alevinde şekil verilmiş gümüş bir nişan 'Adalet!' diye fısıldıyor.~
+khalli tÃ¼ze niÅŸan~
+Khalli'nin TÃ¼ze NiÅŸanÄ±~
+Ejderha alevinde ÅŸekil verilmiÅŸ gÃ¼mÃ¼ÅŸ bir niÅŸan 'Adalet!' diye fÄ±sÄ±ldÄ±yor.~
 silver~
 treasure MOTWZ A
 0 0 0 0 0
@@ -715,8 +739,8 @@ armor GIRYZ AJ
 0 85 20000 P
 #80
 ejderha kama~
-ejderha kaması~
-Üzerine ejderha nakşedilmiş bir kama yerde duruyor.~
+ejderha kamasÄ±~
+Ãœzerine ejderha nakÅŸedilmiÅŸ bir kama yerde duruyor.~
 gold~
 weapon TWAIP AN
 dagger 10 1 pierce D
@@ -724,7 +748,7 @@ dagger 10 1 pierce D
 #81
 ejderha topuz~
 ejderha topuzu~
-Üzerine ejderha nakşedilmiş bir topuz yerde duruyor.~
+Ãœzerine ejderha nakÅŸedilmiÅŸ bir topuz yerde duruyor.~
 gold~
 weapon TWAIP AN
 mace 10 1 crush 0
@@ -744,17 +768,17 @@ A
 A
 18 5
 #83
-ejderha kılıç~
-ejderha kılıcı~
-Üzerine ejderha nakşedilmiş bir kılıç yerde duruyor.~
+ejderha kÄ±lÄ±Ã§~
+ejderha kÄ±lÄ±cÄ±~
+Ãœzerine ejderha nakÅŸedilmiÅŸ bir kÄ±lÄ±Ã§ yerde duruyor.~
 gold~
 weapon TWAIP AN
 sword 10 1 pierce D
 20 80 0 P
 #87
-yatağan~
-yatağan~
-Altın sarısı bir yatağan efendisini bekliyor.~
+yataÄŸan~
+yataÄŸan~
+AltÄ±n sarÄ±sÄ± bir yataÄŸan efendisini bekliyor.~
 gold~
 weapon TWAIP AN
 dagger 10 1 pierce D
@@ -780,9 +804,9 @@ sword~
 The letters '%s' is carved on the handle.
 ~
 #89
-kasandra taş yeşil~
+kasandra taÅŸ yeÅŸil~
 kasandra~
-Mistik, yeşil bir taş havada asılı duruyor.~
+Mistik, yeÅŸil bir taÅŸ havada asÄ±lÄ± duruyor.~
 stone~
 treasure AUTY AO
 0 0 -1 0 0
@@ -823,7 +847,7 @@ This shield is resistive to %s.
 #93
 %s~
 %s'nin ruhu~
-%s'in ruhunu taşıyan bir şişe yerde yatıyor.~
+%s'in ruhunu taÅŸÄ±yan bir ÅŸiÅŸe yerde yatÄ±yor.~
 glass~
 treasure TY AO
 0 0 0 1 0
@@ -835,7 +859,7 @@ The spirit of %s is in this vial.
 #94
 kahraman kemer~
 %s kahraman kemeri [%s]~
-Kocaman bir kemer odayı gücüyle dolduruyor.~
+Kocaman bir kemer odayÄ± gÃ¼cÃ¼yle dolduruyor.~
 platinum~
 armor AGIOY ALP
 12 12 12 9 2
@@ -865,21 +889,21 @@ A 17 -30 J
 F
 D 0 0 CDEG
 #98
-kılıç katana~
+kÄ±lÄ±Ã§ katana~
 bir katana~
-Bir katana burada unutulmuş.~
+Bir katana burada unutulmuÅŸ.~
 iron~
 weapon ORYa ANP
 sword 10 1 slash 0
 15 60 0 P
 E
 katana~
-Üzerine '%s' yazılmış.
+Ãœzerine '%s' yazÄ±lmÄ±ÅŸ.
 ~
 #99
-ejderha kargı~
-ejderha kargısı~
-Üzerine ejderha nakşedilmiş bir kargı yerde duruyor.~
+ejderha kargÄ±~
+ejderha kargÄ±sÄ±~
+Ãœzerine ejderha nakÅŸedilmiÅŸ bir kargÄ± yerde duruyor.~
 gold~
 weapon TWAIP AN
 lance 10 1 none D
@@ -888,14 +912,14 @@ lance 10 1 none D
 
 #ROOMS
 #1
-Boşluk~
-Biçimsiz bir hiçliğin içinde süzülüyorsun. Tüm duyuların kör olmuş durumda.
+BoÅŸluk~
+BiÃ§imsiz bir hiÃ§liÄŸin iÃ§inde sÃ¼zÃ¼lÃ¼yorsun. TÃ¼m duyularÄ±n kÃ¶r olmuÅŸ durumda.
 ~
 0 CDKN 1
 S
 #2
-Boşluk~
-Biçimsiz bir hiçliğin içinde süzülüyorsun. Tüm duyuların kör olmuş durumda.
+BoÅŸluk~
+BiÃ§imsiz bir hiÃ§liÄŸin iÃ§inde sÃ¼zÃ¼lÃ¼yorsun. TÃ¼m duyularÄ±n kÃ¶r olmuÅŸ durumda.
 ~
 0 D 1
 D4

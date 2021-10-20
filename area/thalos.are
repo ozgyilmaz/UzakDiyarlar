@@ -3,7 +3,7 @@ Filename thalos.are~
 Name Thalos~
 Builder Drkside~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 10
 Highlevel 25
 Minvnum 5200
@@ -16,65 +16,65 @@ END
 
 #NEW_MOBILES
 #5200
-çokgöz~
-Kuvvetli çokgöz~
-Bir çokgözün ölümcül bakışıyla karşılaştın!
+Ã§okgÃ¶z~
+Kuvvetli Ã§okgÃ¶z~
+Bir Ã§okgÃ¶zÃ¼n Ã¶lÃ¼mcÃ¼l bakÄ±ÅŸÄ±yla karÅŸÄ±laÅŸtÄ±n!
 ~
-Karşı-büyü ışını gönderen büyük, merkezi bir gözü ve tepesinde
-sana charm'dan parçalamaya kadar her türlü büyüyü yapabilecek
-on tane göz sapı var.  Çokgözlerin kişilikleri bilinmez.
+KarÅŸÄ±-bÃ¼yÃ¼ Ä±ÅŸÄ±nÄ± gÃ¶nderen bÃ¼yÃ¼k, merkezi bir gÃ¶zÃ¼ ve tepesinde
+sana charm'dan parÃ§alamaya kadar her tÃ¼rlÃ¼ bÃ¼yÃ¼yÃ¼ yapabilecek
+on tane gÃ¶z sapÄ± var.  Ã‡okgÃ¶zlerin kiÅŸilikleri bilinmez.
 ~
 human~
 ABHKRe D 25
 #5201
-kentaur hayvanı~
+kentaur hayvanÄ±~
 Kentaur~
-Garip bir kentaur burada durmuş bir sonraki yemeğini bekliyor.
+Garip bir kentaur burada durmuÅŸ bir sonraki yemeÄŸini bekliyor.
 ~
-Bu yaratığın vücudunun üst kısmı güzel bir kadını alt kısmı ise dört
-ayaklı bir hayvanı andırıyor.  Sana açgözlülükle bakarken dudaklarını
-yalıyor.
+Bu yaratÄ±ÄŸÄ±n vÃ¼cudunun Ã¼st kÄ±smÄ± gÃ¼zel bir kadÄ±nÄ± alt kÄ±smÄ± ise dÃ¶rt
+ayaklÄ± bir hayvanÄ± andÄ±rÄ±yor.  Sana aÃ§gÃ¶zlÃ¼lÃ¼kle bakarken dudaklarÄ±nÄ±
+yalÄ±yor.
 ~
 human~
 ACFG 0 9
 #5202
-taklit sandık~
-Taklitçi~
-Sağlam bir sandık odanın köşesinde duruyor.
+taklit sandÄ±k~
+TaklitÃ§i~
+SaÄŸlam bir sandÄ±k odanÄ±n kÃ¶ÅŸesinde duruyor.
 ~
-Sağlam, ağaçtan sandığın kenarlarında demirden kayışlar ve önünde bir
+SaÄŸlam, aÄŸaÃ§tan sandÄ±ÄŸÄ±n kenarlarÄ±nda demirden kayÄ±ÅŸlar ve Ã¶nÃ¼nde bir
 asma kilit var.
 ~
 human~
 ABCFGH P 11
 #5203
 taklit kaya~
-Taklitçi~
-Büyük bir kayanın altında iki ezilmiş iskelet yatıyor.
+TaklitÃ§i~
+BÃ¼yÃ¼k bir kayanÄ±n altÄ±nda iki ezilmiÅŸ iskelet yatÄ±yor.
 ~
 ~
 human~
 ABCFGH P 11
 #5204
 taklit zemin~
-Taklitçi~
-Bu evin taş zemini yarılmış.
+TaklitÃ§i~
+Bu evin taÅŸ zemini yarÄ±lmÄ±ÅŸ.
 ~
 ~
 human~
 ABCFGH P 11
 #5205
-taklit çömlek~
-Taklitçi~
-Kırılmış çanak çömlek parçaları yere saçılmış.
+taklit Ã§Ã¶mlek~
+TaklitÃ§i~
+KÄ±rÄ±lmÄ±ÅŸ Ã§anak Ã§Ã¶mlek parÃ§alarÄ± yere saÃ§Ä±lmÄ±ÅŸ.
 ~
 ~
 human~
 ABCFGH P 11
 #5206
 taklit kalaslar~
-Taklitçi~
-Birkaç uzun tahta alçak bir rafa istiflenmiş.
+TaklitÃ§i~
+BirkaÃ§ uzun tahta alÃ§ak bir rafa istiflenmiÅŸ.
 ~
 ~
 human~
@@ -82,20 +82,20 @@ ABCFGH P 11
 #5207
 boynuzlu kertenkele~
 Boynuzlu kertenkele~
-Küçük bir boynuzlu kertenkele dilini şapırdatıyor ve uzaklaşıyor.
+KÃ¼Ã§Ã¼k bir boynuzlu kertenkele dilini ÅŸapÄ±rdatÄ±yor ve uzaklaÅŸÄ±yor.
 ~
-İşte şirin, küçük bir kertenkele. Eğer sürüngenleri seviyorsan!
+Ä°ÅŸte ÅŸirin, kÃ¼Ã§Ã¼k bir kertenkele. EÄŸer sÃ¼rÃ¼ngenleri seviyorsan!
 ~
 lizard~
 AH 0 3
 #5208
-taş golem~
-Taş golem~
-Köşede büyük, taştan bir golemin sadakatle durup izlediğini
-görebilirsin.
+taÅŸ golem~
+TaÅŸ golem~
+KÃ¶ÅŸede bÃ¼yÃ¼k, taÅŸtan bir golemin sadakatle durup izlediÄŸini
+gÃ¶rebilirsin.
 ~
-O büyüyle taştan, dev bir yaratığa dönüştürülmüş büyük bir kaya. Burada
-durmuş şehri koruyor.
+O bÃ¼yÃ¼yle taÅŸtan, dev bir yaratÄ±ÄŸa dÃ¶nÃ¼ÅŸtÃ¼rÃ¼lmÃ¼ÅŸ bÃ¼yÃ¼k bir kaya. Burada
+durmuÅŸ ÅŸehri koruyor.
 ~
 golem~
 AB N 25
@@ -105,7 +105,7 @@ AB N 25
 #5200
 mitril yelek~
 bir mitril yelek~
-Burada bir yığın mitril yelek yatıyor.~
+Burada bir yÄ±ÄŸÄ±n mitril yelek yatÄ±yor.~
 mithril~
 armor GK AD
 8 8 8 2 0
@@ -115,9 +115,9 @@ A
 A
 19 1
 #5201
-mitril miğfer~
-bir mitril miğfer~
-İşte burada bir mitril miğfer yatıyor.~
+mitril miÄŸfer~
+bir mitril miÄŸfer~
+Ä°ÅŸte burada bir mitril miÄŸfer yatÄ±yor.~
 mithril~
 armor GK AE
 8 8 8 2 0
@@ -126,8 +126,8 @@ A
 18 2
 #5202
 mitril eldiven~
-bir çift mitril eldiven~
-İşte burada bir çift mitril eldiven dinleniyor.~
+bir Ã§ift mitril eldiven~
+Ä°ÅŸte burada bir Ã§ift mitril eldiven dinleniyor.~
 mithril~
 armor GK AH
 8 8 8 2 0
@@ -138,8 +138,8 @@ A
 18 1
 #5203
 mitril kolluk~
-bir kısım mitril kolluk~
-bir takım mitril kolluk yerde yatıyor.~
+bir kÄ±sÄ±m mitril kolluk~
+bir takÄ±m mitril kolluk yerde yatÄ±yor.~
 mithril~
 armor GK AI
 8 8 8 2 0
@@ -149,9 +149,9 @@ A
 A
 18 1
 #5204
-mitril çizme~
-bir çift mitril çizme~
-İşte burada unutulmuş bir çift mitril çizme duruyor.~
+mitril Ã§izme~
+bir Ã§ift mitril Ã§izme~
+Ä°ÅŸte burada unutulmuÅŸ bir Ã§ift mitril Ã§izme duruyor.~
 mithril~
 armor GK AG
 8 8 8 2 0
@@ -161,9 +161,9 @@ A
 A
 18 1
 #5205
-mitril bacaklık~
-bir takım mitril bacaklık~
-Bir takım mitril bacaklık burada hazırolda duruyor.~
+mitril bacaklÄ±k~
+bir takÄ±m mitril bacaklÄ±k~
+Bir takÄ±m mitril bacaklÄ±k burada hazÄ±rolda duruyor.~
 mithril~
 armor GK AF
 8 8 8 2 0
@@ -175,7 +175,7 @@ A
 #5206
 mitril kemer~
 bir mitril kemer~
-Büyük bir demir kemer ayağının dibinde yatıyor.~
+BÃ¼yÃ¼k bir demir kemer ayaÄŸÄ±nÄ±n dibinde yatÄ±yor.~
 mithril~
 armor GK AL
 8 8 8 2 0
@@ -183,9 +183,9 @@ armor GK AL
 A
 5 2
 #5207
-demir göğüslük~
-yıpranmış bir demir göğüslük~
-Yıpranmış bir demir göğüslük burada yatıyor.~
+demir gÃ¶ÄŸÃ¼slÃ¼k~
+yÄ±pranmÄ±ÅŸ bir demir gÃ¶ÄŸÃ¼slÃ¼k~
+YÄ±pranmÄ±ÅŸ bir demir gÃ¶ÄŸÃ¼slÃ¼k burada yatÄ±yor.~
 iron~
 armor 0 AD
 5 5 5 0 0
@@ -194,8 +194,8 @@ A
 18 -6
 #5208
 demir kalkan~
-sağlam bir demir kalkan~
-Küçük fakat sağlam bir kalkan burada bırakılmış.~
+saÄŸlam bir demir kalkan~
+KÃ¼Ã§Ã¼k fakat saÄŸlam bir kalkan burada bÄ±rakÄ±lmÄ±ÅŸ.~
 iron~
 armor GJ AJ
 7 7 7 3 0
@@ -208,7 +208,7 @@ F I 0 0 B
 #5210
 siyah iksir~
 siyah bir iksir~
-Siyah bir iksir burada alınmayı bekliyor.~
+Siyah bir iksir burada alÄ±nmayÄ± bekliyor.~
 glass~
 potion FG A
 16 'blindness' 'sanctuary' 'giant strength' ''
@@ -216,39 +216,39 @@ potion FG A
 #5211
 turuncu iksir~
 bir turuncu iksir~
-Küçük bir turuncu iksir burada yatıyor.~
+KÃ¼Ã§Ã¼k bir turuncu iksir burada yatÄ±yor.~
 glass~
 potion FG A
 20 'detect hidden' 'detect invis' 'slow' ''
 4 100 400 P
 #5214
 kuvars top~
-pürüzsüz bir kuvars top~
-Pürüzsüz bir kuvars top burada ışıldıyor.~
+pÃ¼rÃ¼zsÃ¼z bir kuvars top~
+PÃ¼rÃ¼zsÃ¼z bir kuvars top burada Ä±ÅŸÄ±ldÄ±yor.~
 quartz~
 light G AO
 0 0 72 0 0
 0 300 50 P
 #5215
-yırtık parşömen~
-yırtık bir parşömen~
-Aşınmış ve yırtılmış bir parşömen burada bırakılmış.~
+yÄ±rtÄ±k parÅŸÃ¶men~
+yÄ±rtÄ±k bir parÅŸÃ¶men~
+AÅŸÄ±nmÄ±ÅŸ ve yÄ±rtÄ±lmÄ±ÅŸ bir parÅŸÃ¶men burada bÄ±rakÄ±lmÄ±ÅŸ.~
 vellum~
 scroll G A
 24 'enchant weapon' '' '' ''
 8 150 1280 P
 #5216
-bağlı parşömen~
-bir bağlı parşömen~
-Bir bağlı, ortaya çıkarma parşömeni burada yatıyor.~
+baÄŸlÄ± parÅŸÃ¶men~
+bir baÄŸlÄ± parÅŸÃ¶men~
+Bir baÄŸlÄ±, ortaya Ã§Ä±karma parÅŸÃ¶meni burada yatÄ±yor.~
 vellum~
 scroll G A
 15 'detect evil' 'detect invis' 'detect magic' ''
 0 150 500 P
 #5217
-gümüş flüt~
-bir gümüş flüt~
-Parlak bir gümüş flüt bir kayanın altından ışıldıyor.~
+gÃ¼mÃ¼ÅŸ flÃ¼t~
+bir gÃ¼mÃ¼ÅŸ flÃ¼t~
+Parlak bir gÃ¼mÃ¼ÅŸ flÃ¼t bir kayanÄ±n altÄ±ndan Ä±ÅŸÄ±ldÄ±yor.~
 silver~
 staff AG AO
 17 1 1 'charm person' 0
@@ -256,9 +256,9 @@ staff AG AO
 A
 2 -2
 #5218
-şeytan tılsım~
-şeytan yüzlü bir tılsım~
-Şeytan yüzlü bir tılsım sana öfanahtarle bakıyor.~
+ÅŸeytan tÄ±lsÄ±m~
+ÅŸeytan yÃ¼zlÃ¼ bir tÄ±lsÄ±m~
+Åeytan yÃ¼zlÃ¼ bir tÄ±lsÄ±m sana Ã¶fanahtarle bakÄ±yor.~
 bronze~
 jewelry AG AC
 0 0 0 0 0
@@ -268,25 +268,25 @@ A
 A
 1 -10
 #5219
-iri parça geyik eti~
-bir iri parça geyik eti~
-İri bir parça geyik eti yenmeyi bekliyor.~
+iri parÃ§a geyik eti~
+bir iri parÃ§a geyik eti~
+Ä°ri bir parÃ§a geyik eti yenmeyi bekliyor.~
 food~
 food 0 A
 24 24 0 0 0
 0 200 0 P
 #5220
-su çeşmesi~
-bir büyük ve çatlak çeşme~
-Durgun su çeşmenin altında yatıyor.~
+su Ã§eÅŸmesi~
+bir bÃ¼yÃ¼k ve Ã§atlak Ã§eÅŸme~
+Durgun su Ã§eÅŸmenin altÄ±nda yatÄ±yor.~
 none~
 fountain 0 0
 10 10 'water' 1 0
 0 0 0 P
 #5221
-çift el kılıç~
-bir çift el kılıç~
-Güzel bir çift el kılıç duvardaki kancada sallanıyor.~
+Ã§ift el kÄ±lÄ±Ã§~
+bir Ã§ift el kÄ±lÄ±Ã§~
+GÃ¼zel bir Ã§ift el kÄ±lÄ±Ã§ duvardaki kancada sallanÄ±yor.~
 iron~
 weapon GK AN
 sword 3 11 chop F
@@ -296,9 +296,9 @@ A
 A
 18 2
 #5222
-siyah ipekten cüppe~
-bir siyah ipekten cüppe~
-Bir siyah ipekten cüppe köşede yığılmış.~
+siyah ipekten cÃ¼ppe~
+bir siyah ipekten cÃ¼ppe~
+Bir siyah ipekten cÃ¼ppe kÃ¶ÅŸede yÄ±ÄŸÄ±lmÄ±ÅŸ.~
 silk~
 armor 0 AK
 1 1 1 5 0
@@ -306,9 +306,9 @@ armor 0 AK
 A
 12 10
 #5223
-yeşil pelerin~
-bir koyu yeşil pelerin~
-Güzel bir koyu yeşil pelerin biri tarafından düşürülmüş.~
+yeÅŸil pelerin~
+bir koyu yeÅŸil pelerin~
+GÃ¼zel bir koyu yeÅŸil pelerin biri tarafÄ±ndan dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 cloth~
 armor GJ AC
 7 7 7 2 0
@@ -316,25 +316,25 @@ armor GJ AC
 A
 13 5
 #5224
-abanoz mühürü~
-bir oyulmuş abanoz mühürü~
-Küçük bir oyulmuş abanoz mühürü burada.~
+abanoz mÃ¼hÃ¼rÃ¼~
+bir oyulmuÅŸ abanoz mÃ¼hÃ¼rÃ¼~
+KÃ¼Ã§Ã¼k bir oyulmuÅŸ abanoz mÃ¼hÃ¼rÃ¼ burada.~
 ebony~
 key 0 A
 30 0 0 0 0
 0 20 0 P
 #5225
-kavisli sandık~
-sandık~
-Kirli, harap olmuş kavisli bir sandık burada.~
+kavisli sandÄ±k~
+sandÄ±k~
+Kirli, harap olmuÅŸ kavisli bir sandÄ±k burada.~
 wood~
 container 0 0
 100 ACD 5224 100 100
 0 0 0 P
 #5226
-fildişi mühür~
-bir oymalı fildişi mühür~
-Bir küçük oyulmuş fildişi mühüt burada yatıyor.~
+fildiÅŸi mÃ¼hÃ¼r~
+bir oymalÄ± fildiÅŸi mÃ¼hÃ¼r~
+Bir kÃ¼Ã§Ã¼k oyulmuÅŸ fildiÅŸi mÃ¼hÃ¼t burada yatÄ±yor.~
 ivory~
 key 0 A
 31 0 0 0 0
@@ -342,23 +342,23 @@ key 0 A
 #5227
 cam dolap~
 cam dolap~
-Kırık bir cam dolap burada.~
+KÄ±rÄ±k bir cam dolap burada.~
 glass~
 container 0 0
 500 ACD 5226 100 100
 0 0 0 P
 #5228
-çürük kol~
-bir çürük kol~
-Çürümüş bir kol ayaklarının dibinde.~
+Ã§Ã¼rÃ¼k kol~
+bir Ã§Ã¼rÃ¼k kol~
+Ã‡Ã¼rÃ¼mÃ¼ÅŸ bir kol ayaklarÄ±nÄ±n dibinde.~
 flesh~
 food 0 A
 50 50 0 1 0
 0 200 0 P
 #5230
-taş soluk mavi~
-a soluk mavi taş~
-Soluk mavi bir taş burada duruyor.~
+taÅŸ soluk mavi~
+a soluk mavi taÅŸ~
+Soluk mavi bir taÅŸ burada duruyor.~
 stone~
 gem G AQ
 0 0 0 0 0
@@ -366,9 +366,9 @@ gem G AQ
 A
 1 1
 #5231
-kırmızı mavi taş~
-bir kırmızı mavi taş~
-Güzel bir kırmızı mavi taş burada düşürülmüş.~
+kÄ±rmÄ±zÄ± mavi taÅŸ~
+bir kÄ±rmÄ±zÄ± mavi taÅŸ~
+GÃ¼zel bir kÄ±rmÄ±zÄ± mavi taÅŸ burada dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 stone~
 gem G AQ
 0 0 0 0 0
@@ -376,9 +376,9 @@ gem G AQ
 A
 3 1
 #5232
-akkor mavi taş~
-bir akkor mavi taş~
-Küçük bir akkor mavi taş burada yatıyor.~
+akkor mavi taÅŸ~
+bir akkor mavi taÅŸ~
+KÃ¼Ã§Ã¼k bir akkor mavi taÅŸ burada yatÄ±yor.~
 stone~
 gem G AQ
 0 0 0 0 0
@@ -386,9 +386,9 @@ gem G AQ
 A
 4 1
 #5233
-kiremit taş~
-bir kiremit taş~
-Güzel bir kiremit taş buraya düşürülmüş.~
+kiremit taÅŸ~
+bir kiremit taÅŸ~
+GÃ¼zel bir kiremit taÅŸ buraya dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 stone~
 gem G AQ
 0 0 0 0 0
@@ -396,9 +396,9 @@ gem G AQ
 A
 2 1
 #5234
-pembe taş~
-bir pembe taş~
-Ufak bir pembe taş ayaklarının dibinde.~
+pembe taÅŸ~
+bir pembe taÅŸ~
+Ufak bir pembe taÅŸ ayaklarÄ±nÄ±n dibinde.~
 stone~
 gem G AQ
 0 0 0 0 0
@@ -406,9 +406,9 @@ gem G AQ
 A
 5 1
 #5235
-inci beyaz taş~
-bir inci beyaz taş~
-Bu inci beyaz taş iyi para eder.~
+inci beyaz taÅŸ~
+bir inci beyaz taÅŸ~
+Bu inci beyaz taÅŸ iyi para eder.~
 stone~
 gem G AQ
 0 0 0 0 0
@@ -416,9 +416,9 @@ gem G AQ
 A
 13 1
 #5237
-lavanta yeşil taş~
-bir lavanta yeşil taş~
-Bir çekici lavanta yeşil taş yerde dinleniyor.~
+lavanta yeÅŸil taÅŸ~
+bir lavanta yeÅŸil taÅŸ~
+Bir Ã§ekici lavanta yeÅŸil taÅŸ yerde dinleniyor.~
 stone~
 gem G AQ
 0 0 0 0 0
@@ -426,17 +426,17 @@ gem G AQ
 A
 20 -1
 #5239
-donuk gri taş~
-bir donuk gri taş~
-Yerdeki donuk gri taşı ancak fark edebiliyorsun.~
+donuk gri taÅŸ~
+bir donuk gri taÅŸ~
+Yerdeki donuk gri taÅŸÄ± ancak fark edebiliyorsun.~
 stone~
 gem 0 A
 0 0 0 0 0
 0 10 10 P
 #5241
-pembe yeşil taş~
-bir pembe yeşil taş~
-Parlak bir pembe yeşil taş burada bırakılmış.~
+pembe yeÅŸil taÅŸ~
+bir pembe yeÅŸil taÅŸ~
+Parlak bir pembe yeÅŸil taÅŸ burada bÄ±rakÄ±lmÄ±ÅŸ.~
 stone~
 gem G AQ
 0 0 0 0 0
@@ -444,9 +444,9 @@ gem G AQ
 A
 18 -5
 #5243
-berrak taş~
-bir berrak taş~
-Tuhaf bir berrak taş yatmış seni bekliyor.~
+berrak taÅŸ~
+bir berrak taÅŸ~
+Tuhaf bir berrak taÅŸ yatmÄ±ÅŸ seni bekliyor.~
 stone~
 gem G AQ
 0 0 0 0 0
@@ -454,17 +454,17 @@ gem G AQ
 A
 17 3
 #5250
-yaylı asa~
-yaylı asa~
-Duvara dayalı bir yaylı asa görüyorsun.~
+yaylÄ± asa~
+yaylÄ± asa~
+Duvara dayalÄ± bir yaylÄ± asa gÃ¶rÃ¼yorsun.~
 wood~
 staff G AO
 13 3 3 'cure critical' 0
 9 100 2500 P
 #5251
-altın asa~
-bir altın asa~
-Hasarlı bir altın asa kullanılmayı bekliyor.~
+altÄ±n asa~
+bir altÄ±n asa~
+HasarlÄ± bir altÄ±n asa kullanÄ±lmayÄ± bekliyor.~
 gold~
 staff G AO
 18 1 1 'call lightning' 0
@@ -474,7 +474,7 @@ A
 #5252
 ince uzun kama~
 bir ince uzun kama~
-Bir ince uzun kama burada bırakılmış.~
+Bir ince uzun kama burada bÄ±rakÄ±lmÄ±ÅŸ.~
 steel~
 weapon G AN
 dagger 2 5 pierce 0
@@ -484,9 +484,9 @@ A
 A
 18 1
 #5253
-şelale~
-Şelale~
-Güzel bir şelale görüyorsun.
+ÅŸelale~
+Åelale~
+GÃ¼zel bir ÅŸelale gÃ¶rÃ¼yorsun.
 ~
 water~
 portal AO 0
@@ -496,44 +496,44 @@ portal AO 0
 
 #ROOMS
 #5200
-Thalos'un Büyük Kapısı~
-Kocaman, taştan bir kemerli geçitin içindesin. İki çelik kapı açık
-ve durdukları yerde paşlanmışlar. Yankılanan bir bora rüzgarı yanından
-çorak, harap şehre doğru esiyor.
+Thalos'un BÃ¼yÃ¼k KapÄ±sÄ±~
+Kocaman, taÅŸtan bir kemerli geÃ§itin iÃ§indesin. Ä°ki Ã§elik kapÄ± aÃ§Ä±k
+ve durduklarÄ± yerde paÅŸlanmÄ±ÅŸlar. YankÄ±lanan bir bora rÃ¼zgarÄ± yanÄ±ndan
+Ã§orak, harap ÅŸehre doÄŸru esiyor.
 ~
 0 C 1
 D1
-Yokolmuş bu yere ait bir patika görüyorsun.
+YokolmuÅŸ bu yere ait bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5256
 D3
-Heryerde harabe görüyorsun. Evler yıkılmış ve iskeletler yollara dağılmış.
-Gölgelerin içinde gezinen garip yaratıklar farkediyorsun.
+Heryerde harabe gÃ¶rÃ¼yorsun. Evler yÄ±kÄ±lmÄ±ÅŸ ve iskeletler yollara daÄŸÄ±lmÄ±ÅŸ.
+GÃ¶lgelerin iÃ§inde gezinen garip yaratÄ±klar farkediyorsun.
 ~
 ~
 0 0 5201
 S
 #5201
 Ana Cadde~
-Bir zamanlar ihtişamlı bir yer olan bu cadde şimdi sadece bir harabe.
-Caddeler işe yaramaz ve dağınık, sessizlik hiç bitmiyor. Kuzeye ve
-güneye doğru birer dar sokak var. Harabe şehirde ulumalar ve çığlıklar
-yankılanıyor.
+Bir zamanlar ihtiÅŸamlÄ± bir yer olan bu cadde ÅŸimdi sadece bir harabe.
+Caddeler iÅŸe yaramaz ve daÄŸÄ±nÄ±k, sessizlik hiÃ§ bitmiyor. Kuzeye ve
+gÃ¼neye doÄŸru birer dar sokak var. Harabe ÅŸehirde ulumalar ve Ã§Ä±ÄŸlÄ±klar
+yankÄ±lanÄ±yor.
 ~
 0 0 1
 D0
-Karanlık ve dar bir sokak.
+KaranlÄ±k ve dar bir sokak.
 ~
 ~
 0 0 5239
 D1
-Şehrin girişi burada.
+Åehrin giriÅŸi burada.
 ~
 ~
 0 0 5200
 D2
-Karanlık ve dar bir sokak.
+KaranlÄ±k ve dar bir sokak.
 ~
 ~
 0 0 5255
@@ -545,14 +545,14 @@ Ana Cadde burada.
 S
 #5202
 Ana Cadde~
-Bir zamanlar ihtişamlı bir yer olan bu cadde şimdi sadece bir harabe.
-Caddeler işe yaramaz ve dağınık ve sessizlik hiç bitmiyor. Bir tarafta
-çökmüş ev, diğer tarafta yıkılmış bir konak. Şehrin merkezine yakın bir
-yerde kubbeli bir bina sanki bozulmamış gibi.
+Bir zamanlar ihtiÅŸamlÄ± bir yer olan bu cadde ÅŸimdi sadece bir harabe.
+Caddeler iÅŸe yaramaz ve daÄŸÄ±nÄ±k ve sessizlik hiÃ§ bitmiyor. Bir tarafta
+Ã§Ã¶kmÃ¼ÅŸ ev, diÄŸer tarafta yÄ±kÄ±lmÄ±ÅŸ bir konak. Åehrin merkezine yakÄ±n bir
+yerde kubbeli bir bina sanki bozulmamÄ±ÅŸ gibi.
 ~
 0 0 1
 D0
-Bir deponun artıkları burada.
+Bir deponun artÄ±klarÄ± burada.
 ~
 ~
 0 0 5236
@@ -561,160 +561,160 @@ D1
 ~
 0 0 5201
 D2
-Şehrin merkez binasının görünmesi gerektiği gibi görünüyor.
+Åehrin merkez binasÄ±nÄ±n gÃ¶rÃ¼nmesi gerektiÄŸi gibi gÃ¶rÃ¼nÃ¼yor.
 ~
 ~
 0 0 5232
 D3
-Kurumuş bir bahçenin patikası burada uzanıyor.
+KurumuÅŸ bir bahÃ§enin patikasÄ± burada uzanÄ±yor.
 ~
 ~
 0 0 5203
 S
 #5203
-Bahçe Patikası~
-Halka şeklinde bir bahçe patikası şehrin merkezindeki kubbeli tapınağı
-çevreliyor. Çiçekler solmuş ve bir zamanların verimli ağaçları şimdi
-çıplak. Tapınağı kuşatmış olan yılansı sarmaşıklar ayaklarına
-dolanıyor. Ulumalar havayı yırtıyor.
+BahÃ§e PatikasÄ±~
+Halka ÅŸeklinde bir bahÃ§e patikasÄ± ÅŸehrin merkezindeki kubbeli tapÄ±naÄŸÄ±
+Ã§evreliyor. Ã‡iÃ§ekler solmuÅŸ ve bir zamanlarÄ±n verimli aÄŸaÃ§larÄ± ÅŸimdi
+Ã§Ä±plak. TapÄ±naÄŸÄ± kuÅŸatmÄ±ÅŸ olan yÄ±lansÄ± sarmaÅŸÄ±klar ayaklarÄ±na
+dolanÄ±yor. Ulumalar havayÄ± yÄ±rtÄ±yor.
 ~
 0 0 1
 D0
-Bahçe patikası bina çevresinde devam ediyor.
+BahÃ§e patikasÄ± bina Ã§evresinde devam ediyor.
 ~
 ~
 0 0 5204
 D1
-Burası şehrin girişine giden ana cadde.
+BurasÄ± ÅŸehrin giriÅŸine giden ana cadde.
 ~
 ~
 0 0 5202
 D2
-Bahçe patikası bina çevresinde devam ediyor.
+BahÃ§e patikasÄ± bina Ã§evresinde devam ediyor.
 ~
 ~
 0 0 5206
 D3
-Tapınağın girişinde küçük ateş izleri ve tavanda birkaç delik var.
+TapÄ±naÄŸÄ±n giriÅŸinde kÃ¼Ã§Ã¼k ateÅŸ izleri ve tavanda birkaÃ§ delik var.
 ~
 ~
 0 0 5250
 S
 #5204
-Bahçe Patikası~
-Halka şeklinde bir bahçe patikası şehrin merkezindeki kubbeli tapınağı
-çevreliyor. Çiçekler solmuş ve bir zamanların verimli ağaçları şimdi
-çıplak. Tapınağı kuşatmış olan yılansı sarmaşıklar ayaklarınıza
-dolanıyor. Ulumalar havayı yırtıyor.
+BahÃ§e PatikasÄ±~
+Halka ÅŸeklinde bir bahÃ§e patikasÄ± ÅŸehrin merkezindeki kubbeli tapÄ±naÄŸÄ±
+Ã§evreliyor. Ã‡iÃ§ekler solmuÅŸ ve bir zamanlarÄ±n verimli aÄŸaÃ§larÄ± ÅŸimdi
+Ã§Ä±plak. TapÄ±naÄŸÄ± kuÅŸatmÄ±ÅŸ olan yÄ±lansÄ± sarmaÅŸÄ±klar ayaklarÄ±nÄ±za
+dolanÄ±yor. Ulumalar havayÄ± yÄ±rtÄ±yor.
 ~
 0 0 1
 D0
-Bir cadde şehrin kuzey yarısına yöneliyor.
+Bir cadde ÅŸehrin kuzey yarÄ±sÄ±na yÃ¶neliyor.
 ~
 ~
 0 0 5211
 D2
-Bahçe patikası bina çevresinde devam ediyor.
+BahÃ§e patikasÄ± bina Ã§evresinde devam ediyor.
 ~
 ~
 0 0 5203
 D3
-Bahçe patikası bina çevresinde devam ediyor.
+BahÃ§e patikasÄ± bina Ã§evresinde devam ediyor.
 ~
 ~
 0 0 5205
 S
 #5205
-Bahçe Patikası~
-Halka şeklinde bir bahçe patikası şehrin merkezindeki kubbeli tapınağı
-çevreliyor. Çiçekler solmuş ve bir zamanların verimli ağaçları şimdi
-çıplak. Tapınağı kuşatmış olan yılansı sarmaşıklar ayaklarınıza
-dolanıyor. Ulumalar havayı yırtıyor.
+BahÃ§e PatikasÄ±~
+Halka ÅŸeklinde bir bahÃ§e patikasÄ± ÅŸehrin merkezindeki kubbeli tapÄ±naÄŸÄ±
+Ã§evreliyor. Ã‡iÃ§ekler solmuÅŸ ve bir zamanlarÄ±n verimli aÄŸaÃ§larÄ± ÅŸimdi
+Ã§Ä±plak. TapÄ±naÄŸÄ± kuÅŸatmÄ±ÅŸ olan yÄ±lansÄ± sarmaÅŸÄ±klar ayaklarÄ±nÄ±za
+dolanÄ±yor. Ulumalar havayÄ± yÄ±rtÄ±yor.
 ~
 0 0 1
 D1
-Bahçe patikası bina çevresinde devam ediyor.
+BahÃ§e patikasÄ± bina Ã§evresinde devam ediyor.
 ~
 ~
 0 0 5204
 D2
-Tapınağın girişinde küçük ateş izleri ve tavanda birkaç delik var.
+TapÄ±naÄŸÄ±n giriÅŸinde kÃ¼Ã§Ã¼k ateÅŸ izleri ve tavanda birkaÃ§ delik var.
 ~
 ~
 0 0 5250
 S
 #5206
-Bahçe Patikası~
-Halka şeklinde bir bahçe patikası şehrin merkezindeki kubbeli tapınağı
-çevreliyor. Çiçekler solmuş ve bir zamanların verimli ağaçları şimdi
-çıplak. Tapınağı kuşatmış olan yılansı sarmaşıklar ayaklarınıza
-dolanıyor. Ulumalar havayı yırtıyor.
+BahÃ§e PatikasÄ±~
+Halka ÅŸeklinde bir bahÃ§e patikasÄ± ÅŸehrin merkezindeki kubbeli tapÄ±naÄŸÄ±
+Ã§evreliyor. Ã‡iÃ§ekler solmuÅŸ ve bir zamanlarÄ±n verimli aÄŸaÃ§larÄ± ÅŸimdi
+Ã§Ä±plak. TapÄ±naÄŸÄ± kuÅŸatmÄ±ÅŸ olan yÄ±lansÄ± sarmaÅŸÄ±klar ayaklarÄ±nÄ±za
+dolanÄ±yor. Ulumalar havayÄ± yÄ±rtÄ±yor.
 ~
 0 0 1
 D0
-Bahçe patikası bina çevresinde devam ediyor.
+BahÃ§e patikasÄ± bina Ã§evresinde devam ediyor.
 ~
 ~
 0 0 5203
 D2
-Bir cadde şehrin güney yarısına yöneliyor.
+Bir cadde ÅŸehrin gÃ¼ney yarÄ±sÄ±na yÃ¶neliyor.
 ~
 ~
 0 0 5212
 S
 #5207
-Market Meydanı~
-Her tarafında sepetlerin, el arabalarının her her şekilden serginin
-olduğu büyük bir karenin ortasında duruyorsun. terkedilmiş bu küçük
-mağazalar hala zamanında halk tarafından talep edilen bazı malları
-içeriyor.
+Market MeydanÄ±~
+Her tarafÄ±nda sepetlerin, el arabalarÄ±nÄ±n her her ÅŸekilden serginin
+olduÄŸu bÃ¼yÃ¼k bir karenin ortasÄ±nda duruyorsun. terkedilmiÅŸ bu kÃ¼Ã§Ã¼k
+maÄŸazalar hala zamanÄ±nda halk tarafÄ±ndan talep edilen bazÄ± mallarÄ±
+iÃ§eriyor.
 ~
 0 0 1
 D0
-Küçük bir masa üzerindeki mücevher ve değerli taşları etrafa saçarak
-yere devrilmiş.
+KÃ¼Ã§Ã¼k bir masa Ã¼zerindeki mÃ¼cevher ve deÄŸerli taÅŸlarÄ± etrafa saÃ§arak
+yere devrilmiÅŸ.
 ~
 ~
 0 0 5225
 D2
-Çürümüş meyve ve sebze artıkları yere saçılmış.
+Ã‡Ã¼rÃ¼mÃ¼ÅŸ meyve ve sebze artÄ±klarÄ± yere saÃ§Ä±lmÄ±ÅŸ.
 ~
 ~
 0 0 5220
 D3
-Market meydanı devam ediyor.
+Market meydanÄ± devam ediyor.
 ~
 ~
 0 0 5208
 S
 #5208
-Market Meydanı~
+Market MeydanÄ±~
 Market karesinin sonunda duruyorsun. Her tarafta tezgahlar ve
-el arabaları duruyor. İçlerinde kaliteli malların kalıntıları var.
+el arabalarÄ± duruyor. Ä°Ã§lerinde kaliteli mallarÄ±n kalÄ±ntÄ±larÄ± var.
 ~
 0 0 1
 D0
-Yıkılmış bir tezgahtan saçılmış yırtık halılar ve devrilmiş balyalar.
+YÄ±kÄ±lmÄ±ÅŸ bir tezgahtan saÃ§Ä±lmÄ±ÅŸ yÄ±rtÄ±k halÄ±lar ve devrilmiÅŸ balyalar.
 ~
 ~
 0 0 5222
 D1
-Marketin merkezi bu yol üzerinde.
+Marketin merkezi bu yol Ã¼zerinde.
 ~
 ~
 0 0 5207
 D2
-Kötü kokudan anladığın kadarıyla burada bir et ve kümes hayvanı
-tezgahı olmalıydı. Tamamen soyulmuş.
+KÃ¶tÃ¼ kokudan anladÄ±ÄŸÄ±n kadarÄ±yla burada bir et ve kÃ¼mes hayvanÄ±
+tezgahÄ± olmalÄ±ydÄ±. Tamamen soyulmuÅŸ.
 ~
 ~
 0 0 5217
 S
 #5209
 Bir Kenar Cadde~
-Bu kenar cadde doğu ve batıda karanlık ve dar sokaklara açılırken
-güneyde tapınağı görebiliyorsun. Aralıksız ulumalar beyninde
-yankılanıyor.
+Bu kenar cadde doÄŸu ve batÄ±da karanlÄ±k ve dar sokaklara aÃ§Ä±lÄ±rken
+gÃ¼neyde tapÄ±naÄŸÄ± gÃ¶rebiliyorsun. AralÄ±ksÄ±z ulumalar beyninde
+yankÄ±lanÄ±yor.
 ~
 0 0 1
 D1
@@ -732,10 +732,10 @@ D3
 S
 #5210
 Bir Kenar Cadde~
-Şehrin ortak bölgesindesin. Görebildiğin tek şey kil ve taştan yapılmış
-yıkık evler. Bu evlerin birçoğu artık moloz yığınından başka birşey
-değil, ama bazıları yine de içlerine girilebilecek kadar güvenli görünüyor.
-Cadde kuzeye ve güneye devam ediyor ve caddeyi binalar çevreliyor.
+Åehrin ortak bÃ¶lgesindesin. GÃ¶rebildiÄŸin tek ÅŸey kil ve taÅŸtan yapÄ±lmÄ±ÅŸ
+yÄ±kÄ±k evler. Bu evlerin birÃ§oÄŸu artÄ±k moloz yÄ±ÄŸÄ±nÄ±ndan baÅŸka birÅŸey
+deÄŸil, ama bazÄ±larÄ± yine de iÃ§lerine girilebilecek kadar gÃ¼venli gÃ¶rÃ¼nÃ¼yor.
+Cadde kuzeye ve gÃ¼neye devam ediyor ve caddeyi binalar Ã§evreliyor.
 ~
 0 0 1
 D0
@@ -743,7 +743,7 @@ D0
 ~
 0 0 5209
 D1
-Kısmen çökmüş bir binanın içine doğru bir kapı aralığı.
+KÄ±smen Ã§Ã¶kmÃ¼ÅŸ bir binanÄ±n iÃ§ine doÄŸru bir kapÄ± aralÄ±ÄŸÄ±.
 ~
 ~
 1 -1 5244
@@ -752,16 +752,16 @@ D2
 ~
 0 0 5211
 D3
-Küçük bir kil ikametgahı burada oturuyor.
+KÃ¼Ã§Ã¼k bir kil ikametgahÄ± burada oturuyor.
 ~
 ~
 0 0 5226
 S
 #5211
 Bir Kenar Cadde~
-Kenar cadde güneydeki bahçe patikasından uzaklaşıyor. Durduğun yerin
-çevresinde halkın yaşadığı evlerin moloz yığınları var. Bir uluma
-buradaki güvenliğin konusunda seni korkutuyor.
+Kenar cadde gÃ¼neydeki bahÃ§e patikasÄ±ndan uzaklaÅŸÄ±yor. DurduÄŸun yerin
+Ã§evresinde halkÄ±n yaÅŸadÄ±ÄŸÄ± evlerin moloz yÄ±ÄŸÄ±nlarÄ± var. Bir uluma
+buradaki gÃ¼venliÄŸin konusunda seni korkutuyor.
 ~
 0 0 1
 D0
@@ -769,37 +769,37 @@ D0
 ~
 0 0 5210
 D1
-Alışılmamış bir biçimde uzun bir ikametgah burada duruyor ve seni
+AlÄ±ÅŸÄ±lmamÄ±ÅŸ bir biÃ§imde uzun bir ikametgah burada duruyor ve seni
 inceliyor.
 ~
 ~
 0 0 5237
 D2
-Tapınağın çevresinde bir bahçe patikası.
+TapÄ±naÄŸÄ±n Ã§evresinde bir bahÃ§e patikasÄ±.
 ~
 ~
 0 0 5204
 D3
-Burada sazdan yapılmış çatısıyla küçük bir taş ev duruyor.
+Burada sazdan yapÄ±lmÄ±ÅŸ Ã§atÄ±sÄ±yla kÃ¼Ã§Ã¼k bir taÅŸ ev duruyor.
 ~
 ~
 0 0 5227
 S
 #5212
 Bir Kenar Cadde~
-Bu küçük kenar cadde tapınaktan uzaklaşarak güneyde şehrin iş merkezine
-doğru uzanıyor. Şehri dümdüz eden saldırı bir önyargı değil; önemli
-binalar gibi görünen bu yapılar tamamen yıkılmış. Batıda çok büyük bir
-binanın duvarında bir delik var.
+Bu kÃ¼Ã§Ã¼k kenar cadde tapÄ±naktan uzaklaÅŸarak gÃ¼neyde ÅŸehrin iÅŸ merkezine
+doÄŸru uzanÄ±yor. Åehri dÃ¼mdÃ¼z eden saldÄ±rÄ± bir Ã¶nyargÄ± deÄŸil; Ã¶nemli
+binalar gibi gÃ¶rÃ¼nen bu yapÄ±lar tamamen yÄ±kÄ±lmÄ±ÅŸ. BatÄ±da Ã§ok bÃ¼yÃ¼k bir
+binanÄ±n duvarÄ±nda bir delik var.
 ~
 0 0 1
 D0
-Küçük bir bahçe patikası tapınağı çevreliyor.
+KÃ¼Ã§Ã¼k bir bahÃ§e patikasÄ± tapÄ±naÄŸÄ± Ã§evreliyor.
 ~
 ~
 0 0 5206
 D1
-Bu muhtemelen vilayet binası.
+Bu muhtemelen vilayet binasÄ±.
 ~
 ~
 0 0 5232
@@ -808,16 +808,16 @@ D2
 ~
 0 0 5213
 D3
-Binanın içinde uzun metal parçaları, bir fırın ve birkaç örs görüyorsun.
+BinanÄ±n iÃ§inde uzun metal parÃ§alarÄ±, bir fÄ±rÄ±n ve birkaÃ§ Ã¶rs gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5221
 S
 #5213
 Bir Kenar Cadde~
-Bu küçük kenar caddenin iki yanında bir zamanların büyük binalarının
-kalıntıları var. Kuzey karanlık, güneydeki tavernaya baktığında kötü
-birşeyler seziyorsun. Cadde kuzeye ve güneye devam ediyor.
+Bu kÃ¼Ã§Ã¼k kenar caddenin iki yanÄ±nda bir zamanlarÄ±n bÃ¼yÃ¼k binalarÄ±nÄ±n
+kalÄ±ntÄ±larÄ± var. Kuzey karanlÄ±k, gÃ¼neydeki tavernaya baktÄ±ÄŸÄ±nda kÃ¶tÃ¼
+birÅŸeyler seziyorsun. Cadde kuzeye ve gÃ¼neye devam ediyor.
 ~
 0 0 1
 D0
@@ -825,8 +825,8 @@ D0
 ~
 0 0 5212
 D1
-Görünüşe bakılırsa önceden iki katlı bir binaymış. İkinci katın tümü
-yıkıntıdan bağımsız duran parmaklığı bırakarak çökmüş.
+GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa Ã¶nceden iki katlÄ± bir binaymÄ±ÅŸ. Ä°kinci katÄ±n tÃ¼mÃ¼
+yÄ±kÄ±ntÄ±dan baÄŸÄ±msÄ±z duran parmaklÄ±ÄŸÄ± bÄ±rakarak Ã§Ã¶kmÃ¼ÅŸ.
 ~
 ~
 0 0 5230
@@ -835,16 +835,16 @@ D2
 ~
 0 0 5214
 D3
-Görünüşe göre burası şehirdeki yegane lonca evi. Aydınlık doğası
-seni evin kökeni hakkında meraklandırıyor.
+GÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re burasÄ± ÅŸehirdeki yegane lonca evi. AydÄ±nlÄ±k doÄŸasÄ±
+seni evin kÃ¶keni hakkÄ±nda meraklandÄ±rÄ±yor.
 ~
 ~
 0 0 5219
 S
 #5214
 Bir Kenar Cadde~
-Şehrin merkezine yönelen uzun bir caddenin sonundasın. Doğu ve batıya
-uzun karanlık sokaklar uzanıyor.
+Åehrin merkezine yÃ¶nelen uzun bir caddenin sonundasÄ±n. DoÄŸu ve batÄ±ya
+uzun karanlÄ±k sokaklar uzanÄ±yor.
 ~
 0 0 1
 D0
@@ -865,9 +865,9 @@ D3
 0 0 5218
 S
 #5215
-Yıkık bir gözcü kulesinin altında~
-Şehri istilacılardan korumak için yapılmış uzun bir gözcü kulesinin
-altında duruyorsun. Görünüşe göre fazla işe yaramamış.
+YÄ±kÄ±k bir gÃ¶zcÃ¼ kulesinin altÄ±nda~
+Åehri istilacÄ±lardan korumak iÃ§in yapÄ±lmÄ±ÅŸ uzun bir gÃ¶zcÃ¼ kulesinin
+altÄ±nda duruyorsun. GÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re fazla iÅŸe yaramamÄ±ÅŸ.
 ~
 0 0 1
 D0
@@ -885,18 +885,18 @@ D4
 S
 #5216
 Arka sokak~
-Bu sokak eskiden bir et tezgahının olduğu yere doğru ilerliyor.
-Kötü koku yüzünden irkildin. Güneyde şehrin gözcü kulelerinden
+Bu sokak eskiden bir et tezgahÄ±nÄ±n olduÄŸu yere doÄŸru ilerliyor.
+KÃ¶tÃ¼ koku yÃ¼zÃ¼nden irkildin. GÃ¼neyde ÅŸehrin gÃ¶zcÃ¼ kulelerinden
 biri var.
 ~
 0 0 1
 D0
-Market alanındaki et tezgahının arka tarafını görüyorsun.
+Market alanÄ±ndaki et tezgahÄ±nÄ±n arka tarafÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5217
 D2
-Uzun bir gözcü kulesi şehrin üstünde sessiz bir nöbette.
+Uzun bir gÃ¶zcÃ¼ kulesi ÅŸehrin Ã¼stÃ¼nde sessiz bir nÃ¶bette.
 ~
 ~
 0 0 5215
@@ -906,19 +906,19 @@ City of Anon~
 0 -1 31001
 S
 #5217
-Et Tezgahı~
-Metal çengelleri ve tahta rafları olan bir tezgah görüyorsun.
-Çengellerde asılı ufak et parçaları var. Bu tezgah genelde boş ve
-duyduğun uluma ve çığlıktan sonra nedenini anlaman zor olmuyor.
+Et TezgahÄ±~
+Metal Ã§engelleri ve tahta raflarÄ± olan bir tezgah gÃ¶rÃ¼yorsun.
+Ã‡engellerde asÄ±lÄ± ufak et parÃ§alarÄ± var. Bu tezgah genelde boÅŸ ve
+duyduÄŸun uluma ve Ã§Ä±ÄŸlÄ±ktan sonra nedenini anlaman zor olmuyor.
 ~
 0 0 1
 D0
-Market meydanı bu yolda.
+Market meydanÄ± bu yolda.
 ~
 ~
 0 0 5208
 D1
-Bu içi çürümüş sebze ve meyvelerle dolu bir el arabası.
+Bu iÃ§i Ã§Ã¼rÃ¼mÃ¼ÅŸ sebze ve meyvelerle dolu bir el arabasÄ±.
 ~
 ~
 0 0 5220
@@ -929,27 +929,27 @@ D2
 S
 #5218
 Arka sokak~
-Dar bir sokak doğuda daha geniş bir caddeye ve batıda bir
-gözcü kulesine uzanıyor.
+Dar bir sokak doÄŸuda daha geniÅŸ bir caddeye ve batÄ±da bir
+gÃ¶zcÃ¼ kulesine uzanÄ±yor.
 ~
 0 0 1
 D1
-Küçük bir kenar cadde seni karşılıyor.
+KÃ¼Ã§Ã¼k bir kenar cadde seni karÅŸÄ±lÄ±yor.
 ~
 ~
 0 0 5214
 D3
-Yüksek bir gözcü kulesi burada sessiz bir nöbet tutuyor.
+YÃ¼ksek bir gÃ¶zcÃ¼ kulesi burada sessiz bir nÃ¶bet tutuyor.
 ~
 ~
 0 0 5215
 S
 #5219
 Lonca Evi~
-Bir zamanlar şehrin tek lonca evi olan yerdesin. Kırık masa ve
-sandalyeler ile kırılmış silahlar sanki burada büyük bir çatışma
-olmuş gibi etrafa dağılmış. Duvarda yırtılmış bir bayrağın üzerinde
-karanlık güçlerin armasını görüyorsun.
+Bir zamanlar ÅŸehrin tek lonca evi olan yerdesin. KÄ±rÄ±k masa ve
+sandalyeler ile kÄ±rÄ±lmÄ±ÅŸ silahlar sanki burada bÃ¼yÃ¼k bir Ã§atÄ±ÅŸma
+olmuÅŸ gibi etrafa daÄŸÄ±lmÄ±ÅŸ. Duvarda yÄ±rtÄ±lmÄ±ÅŸ bir bayraÄŸÄ±n Ã¼zerinde
+karanlÄ±k gÃ¼Ã§lerin armasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 D 1
 D1
@@ -959,41 +959,41 @@ A small side street runs past the building.
 0 0 5213
 S
 #5220
-Üretim tezgahı~
-Bir el arabası ve üzerinde çürümüş meyve ve sebzeler görüyorsun.
-Şehirdeki son yemek parçalarının üzerinde sinekler uçuşuyor.
+Ãœretim tezgahÄ±~
+Bir el arabasÄ± ve Ã¼zerinde Ã§Ã¼rÃ¼mÃ¼ÅŸ meyve ve sebzeler gÃ¶rÃ¼yorsun.
+Åehirdeki son yemek parÃ§alarÄ±nÄ±n Ã¼zerinde sinekler uÃ§uÅŸuyor.
 ~
 0 0 1
 D0
-Market alanı terk edilmiş.
+Market alanÄ± terk edilmiÅŸ.
 ~
 ~
 0 0 5207
 D3
-Yanındaki et tezgahından berbat bir koku yayılıyor.
+YanÄ±ndaki et tezgahÄ±ndan berbat bir koku yayÄ±lÄ±yor.
 ~
 ~
 0 0 5217
 S
 #5221
 Nalbanthane~
-Burada çeşitli silahlar ve parçalar yapmak için kullanılmış aletleri
-ve örsleri görüyorsun. Ne varsa alınmış, geriye yalnız henüz
-bitirilmemiş zırhlar ve silahlar kalmış.
+Burada Ã§eÅŸitli silahlar ve parÃ§alar yapmak iÃ§in kullanÄ±lmÄ±ÅŸ aletleri
+ve Ã¶rsleri gÃ¶rÃ¼yorsun. Ne varsa alÄ±nmÄ±ÅŸ, geriye yalnÄ±z henÃ¼z
+bitirilmemiÅŸ zÄ±rhlar ve silahlar kalmÄ±ÅŸ.
 ~
 0 D 1
 D1
-Küçük bir kenar cadde binayı geçerek ilerliyor.
+KÃ¼Ã§Ã¼k bir kenar cadde binayÄ± geÃ§erek ilerliyor.
 ~
 ~
 0 0 5212
 S
 #5222
-Duvar halısı tezgahı~
-Bir yığın yırtık duvar halısı ve kilim görüyorsun. Yerde artık
-birer bez parçasına benzeyen süslü cüppeler ve çeşitli giysiler
-var. Uzun uzun bakıyorsun bu yığınlara; ta ki onların birer
-yatak olabileceğini düşündürten bir uluma duyana kadar.
+Duvar halÄ±sÄ± tezgahÄ±~
+Bir yÄ±ÄŸÄ±n yÄ±rtÄ±k duvar halÄ±sÄ± ve kilim gÃ¶rÃ¼yorsun. Yerde artÄ±k
+birer bez parÃ§asÄ±na benzeyen sÃ¼slÃ¼ cÃ¼ppeler ve Ã§eÅŸitli giysiler
+var. Uzun uzun bakÄ±yorsun bu yÄ±ÄŸÄ±nlara; ta ki onlarÄ±n birer
+yatak olabileceÄŸini dÃ¼ÅŸÃ¼ndÃ¼rten bir uluma duyana kadar.
 ~
 0 0 1
 D0
@@ -1001,24 +1001,24 @@ D0
 ~
 0 0 5223
 D1
-Yanında devrilmiş bir mücevher tezgahı yatıyor.
+YanÄ±nda devrilmiÅŸ bir mÃ¼cevher tezgahÄ± yatÄ±yor.
 ~
 ~
 0 0 5225
 D2
-Market alanı terk edilmiş.
+Market alanÄ± terk edilmiÅŸ.
 ~
 ~
 0 0 5208
 S
 #5223
-Karanlık, dar bir sokak~
-Dar bir sokak kuzeyde bir gözcü kulesine yöneliyor; güneyde ise
-parçalanmış giysilerle dolu bir market tezgahı var.
+KaranlÄ±k, dar bir sokak~
+Dar bir sokak kuzeyde bir gÃ¶zcÃ¼ kulesine yÃ¶neliyor; gÃ¼neyde ise
+parÃ§alanmÄ±ÅŸ giysilerle dolu bir market tezgahÄ± var.
 ~
 0 0 1
 D0
-Yüksek bir gözcü kulesi burada sessiz bir nöbet tutuyor.
+YÃ¼ksek bir gÃ¶zcÃ¼ kulesi burada sessiz bir nÃ¶bet tutuyor.
 ~
 ~
 0 0 5224
@@ -1028,9 +1028,9 @@ D2
 0 0 5222
 S
 #5224
-Gözcü Kulesinin Altında~
-Şehri istilacılardan korumak için yapılmış gözcü kulelerinden
-birinin altında duruyorsun. Kesinlikle bir işe yaramamış.
+GÃ¶zcÃ¼ Kulesinin AltÄ±nda~
+Åehri istilacÄ±lardan korumak iÃ§in yapÄ±lmÄ±ÅŸ gÃ¶zcÃ¼ kulelerinden
+birinin altÄ±nda duruyorsun. Kesinlikle bir iÅŸe yaramamÄ±ÅŸ.
 ~
 0 0 1
 D1
@@ -1042,16 +1042,16 @@ D2
 ~
 0 0 5223
 D4
-Üzerinde uzun bir gözcü kulesi yükseliyor.
+Ãœzerinde uzun bir gÃ¶zcÃ¼ kulesi yÃ¼kseliyor.
 ~
 ~
 0 0 5246
 S
 #5225
-Mücevher Tezgahı~
-Üzerindeki değerli taş ve mücevherleri etrafa dağıtarak
-devrilmiş bir masa görüyorsun. Dökülmüş, parçalanmış bu taşların
-çok azının hala bir değeri kalmıştır.
+MÃ¼cevher TezgahÄ±~
+Ãœzerindeki deÄŸerli taÅŸ ve mÃ¼cevherleri etrafa daÄŸÄ±tarak
+devrilmiÅŸ bir masa gÃ¶rÃ¼yorsun. DÃ¶kÃ¼lmÃ¼ÅŸ, parÃ§alanmÄ±ÅŸ bu taÅŸlarÄ±n
+Ã§ok azÄ±nÄ±n hala bir deÄŸeri kalmÄ±ÅŸtÄ±r.
 ~
 0 0 1
 D2
@@ -1060,43 +1060,43 @@ The market place is deserted.
 ~
 0 0 5207
 D3
-Yanında üzerinde yırtık giysi ve kilimlerin olduğu bir
+YanÄ±nda Ã¼zerinde yÄ±rtÄ±k giysi ve kilimlerin olduÄŸu bir
 tezgah var.
 ~
 ~
 0 0 5222
 S
 #5226
-Artık çökmüş kilden bir ikametgah~
-Eskiden bu ev içinde yalnızca birkaç sandalye ve bir yatağı olan
-sade bir evmiş. Şöminenin soğuk olmasından şehir harabeye döneli
-fazlaca zaman geçtiğini anlıyorsun. Bu yalın görünüşlü evde
-hiçbir şey sağlam kalmamış.
+ArtÄ±k Ã§Ã¶kmÃ¼ÅŸ kilden bir ikametgah~
+Eskiden bu ev iÃ§inde yalnÄ±zca birkaÃ§ sandalye ve bir yataÄŸÄ± olan
+sade bir evmiÅŸ. ÅÃ¶minenin soÄŸuk olmasÄ±ndan ÅŸehir harabeye dÃ¶neli
+fazlaca zaman geÃ§tiÄŸini anlÄ±yorsun. Bu yalÄ±n gÃ¶rÃ¼nÃ¼ÅŸlÃ¼ evde
+hiÃ§bir ÅŸey saÄŸlam kalmamÄ±ÅŸ.
 ~
 0 D 1
 D1
-Dışarıda küçük bir kenar cadde var.
+DÄ±ÅŸarÄ±da kÃ¼Ã§Ã¼k bir kenar cadde var.
 ~
 ~
 0 0 5210
 S
 #5227
-Artık çökmüş taştan bir ikametgah~
-Bu ev ardında enkaz yığınları bırakarak tamamen çökmüş. Birkaç
-çatıkirişinin üzerinden samanlar sarkıyor. Boş eve doğru sıcak bir
-rüzgar esiyor.
+ArtÄ±k Ã§Ã¶kmÃ¼ÅŸ taÅŸtan bir ikametgah~
+Bu ev ardÄ±nda enkaz yÄ±ÄŸÄ±nlarÄ± bÄ±rakarak tamamen Ã§Ã¶kmÃ¼ÅŸ. BirkaÃ§
+Ã§atÄ±kiriÅŸinin Ã¼zerinden samanlar sarkÄ±yor. BoÅŸ eve doÄŸru sÄ±cak bir
+rÃ¼zgar esiyor.
 ~
 0 0 1
 D1
-Küçük bir kenar cadde evi geçerek ilerliyor.
+KÃ¼Ã§Ã¼k bir kenar cadde evi geÃ§erek ilerliyor.
 ~
 ~
 0 0 5211
 S
 #5228
-Karanlık Bir Arka Sokak~
-Dar ve karanlık bir sokak doğuda bir gözcü kulesine, batıda ise
-küçük bir kenar caddeye açılıyor.
+KaranlÄ±k Bir Arka Sokak~
+Dar ve karanlÄ±k bir sokak doÄŸuda bir gÃ¶zcÃ¼ kulesine, batÄ±da ise
+kÃ¼Ã§Ã¼k bir kenar caddeye aÃ§Ä±lÄ±yor.
 ~
 0 0 1
 D1
@@ -1109,43 +1109,43 @@ D3
 0 0 5224
 S
 #5229
-Terkedilmiş bir dükkan~
-Dışarıdan her ne kadar bir enkaz yığını olarak görünse de, içeriden
-buranın zırhlarla, silahlarla ve aletlerle dolu olan bir dükkan
-olduğunu görüyorsun. Rüzgarda bir işaret sallanıyor.
+TerkedilmiÅŸ bir dÃ¼kkan~
+DÄ±ÅŸarÄ±dan her ne kadar bir enkaz yÄ±ÄŸÄ±nÄ± olarak gÃ¶rÃ¼nse de, iÃ§eriden
+buranÄ±n zÄ±rhlarla, silahlarla ve aletlerle dolu olan bir dÃ¼kkan
+olduÄŸunu gÃ¶rÃ¼yorsun. RÃ¼zgarda bir iÅŸaret sallanÄ±yor.
 ~
 0 D 1
 D0
-Küçük bir kenar cadde dükkanın yanından geçip gidiyor.
+KÃ¼Ã§Ã¼k bir kenar cadde dÃ¼kkanÄ±n yanÄ±ndan geÃ§ip gidiyor.
 ~
 ~
 0 0 5214
 S
 #5230
-Güneşin Tavernası~
-Bir zamanların görkemli tavernası bir moloz yığına dönüşmüş. Masalar,
-sandalyeler, şişeler ve bardaklar hep kırılıp etrafa saçılmışlar.
-Enstrümanlar ve kişisel eşyalar molozun altında kalmış. Onları çalan
-ve kullanan insanlar da onlarla beraber. Yukarı baktığında bir delik
-bırakarak ikinci katın ve çatının tamamının çökmüş olduğunu görüyorsun.
+GÃ¼neÅŸin TavernasÄ±~
+Bir zamanlarÄ±n gÃ¶rkemli tavernasÄ± bir moloz yÄ±ÄŸÄ±na dÃ¶nÃ¼ÅŸmÃ¼ÅŸ. Masalar,
+sandalyeler, ÅŸiÅŸeler ve bardaklar hep kÄ±rÄ±lÄ±p etrafa saÃ§Ä±lmÄ±ÅŸlar.
+EnstrÃ¼manlar ve kiÅŸisel eÅŸyalar molozun altÄ±nda kalmÄ±ÅŸ. OnlarÄ± Ã§alan
+ve kullanan insanlar da onlarla beraber. YukarÄ± baktÄ±ÄŸÄ±nda bir delik
+bÄ±rakarak ikinci katÄ±n ve Ã§atÄ±nÄ±n tamamÄ±nÄ±n Ã§Ã¶kmÃ¼ÅŸ olduÄŸunu gÃ¶rÃ¼yorsun.
 ~
 0 0 1
 D3
-Küçük bir kenar cadde taverna boyunca uzanıyor.
+KÃ¼Ã§Ã¼k bir kenar cadde taverna boyunca uzanÄ±yor.
 ~
 ~
 0 0 5213
 S
 #5231
-Vilayet Binasının Güney Kanadı~
-Büyük bir salondasın. Kuzeyde kabul alanı var. Kaideler ve sütunlar
-devrilmiş, değerli şeylerin hepsi yağmalanmış. Kavisli bir masa ve
-birkaç sandalye hala sağlam. Doğuda asmalı bir kemerli yol özel bir
+Vilayet BinasÄ±nÄ±n GÃ¼ney KanadÄ±~
+BÃ¼yÃ¼k bir salondasÄ±n. Kuzeyde kabul alanÄ± var. Kaideler ve sÃ¼tunlar
+devrilmiÅŸ, deÄŸerli ÅŸeylerin hepsi yaÄŸmalanmÄ±ÅŸ. Kavisli bir masa ve
+birkaÃ§ sandalye hala saÄŸlam. DoÄŸuda asmalÄ± bir kemerli yol Ã¶zel bir
 mahkeme salonuna gidiyor.
 ~
 0 D 1
 D0
-Uzun koridor geriye, kabul salonuna uzanıyor.
+Uzun koridor geriye, kabul salonuna uzanÄ±yor.
 ~
 ~
 0 0 5232
@@ -1155,25 +1155,25 @@ D1
 0 0 5234
 S
 #5232
-Vilayet Binası~
-Burası Thalos'un ana kabul alanı. Duvarlar kömürleşmiş ve enkaz duvardan
-duvara yayılmış. Batıdaki geniş delik kenar caddelerden birini görmeni
-sağlıyor fakat kimsenin seni görmediğinden eminsin. Koridorlar güneye ve
-doğuya ilerliyor.
+Vilayet BinasÄ±~
+BurasÄ± Thalos'un ana kabul alanÄ±. Duvarlar kÃ¶mÃ¼rleÅŸmiÅŸ ve enkaz duvardan
+duvara yayÄ±lmÄ±ÅŸ. BatÄ±daki geniÅŸ delik kenar caddelerden birini gÃ¶rmeni
+saÄŸlÄ±yor fakat kimsenin seni gÃ¶rmediÄŸinden eminsin. Koridorlar gÃ¼neye ve
+doÄŸuya ilerliyor.
 ~
 0 D 1
 D0
-Ana cadde vilayet binasının yanından geçip gidiyor.
+Ana cadde vilayet binasÄ±nÄ±n yanÄ±ndan geÃ§ip gidiyor.
 ~
 ~
 0 0 5202
 D1
-Bir koridor vilayet binasının doğu kanadına ilerliyor.
+Bir koridor vilayet binasÄ±nÄ±n doÄŸu kanadÄ±na ilerliyor.
 ~
 ~
 0 0 5233
 D2
-Bir koridor vilayet binasının güney kanadına ilerliyor.
+Bir koridor vilayet binasÄ±nÄ±n gÃ¼ney kanadÄ±na ilerliyor.
 ~
 ~
 0 0 5231
@@ -1183,11 +1183,11 @@ D3
 0 0 5212
 S
 #5233
-Vilayet Binasının Doğu Kanadı~
-Burada güzel bir ofisin - muhtemelen belediye başkanının- artıkları
-duruyor. Bitkiler solmuş, mobilyalar parçalanmış. Burada tek sağlam
-kalan camdan bir dolap olmuş. Uzun bir koridor batıda kabul alanına
-uzanıyor ve sarmaşıklı bir kemerli yol güneyde özel bir mahkeme
+Vilayet BinasÄ±nÄ±n DoÄŸu KanadÄ±~
+Burada gÃ¼zel bir ofisin - muhtemelen belediye baÅŸkanÄ±nÄ±n- artÄ±klarÄ±
+duruyor. Bitkiler solmuÅŸ, mobilyalar parÃ§alanmÄ±ÅŸ. Burada tek saÄŸlam
+kalan camdan bir dolap olmuÅŸ. Uzun bir koridor batÄ±da kabul alanÄ±na
+uzanÄ±yor ve sarmaÅŸÄ±klÄ± bir kemerli yol gÃ¼neyde Ã¶zel bir mahkeme
 salonuna ilerliyor.
 ~
 0 D 1
@@ -1201,13 +1201,13 @@ D3
 0 0 5232
 S
 #5234
-Thalos'un özel bahçeleri ve avlusu~
-Bu kadar güzel bir bahçenin de bu yıkımdan nasibini alması ne kadar
-kötü. Çiçekler ve ağaçlar parçalanarak etrafa saçılmış, çimenlik
-tezgahları duvarlara fırlatılmış. Büyük mermer bir çeşme kendisini
-yok etmek isteyenj herşeye karşı gelmiş gibi hala mahkeme salonunun
-göbeğinde duruyor. Yukarıda bir gözcü kulesinin enkazları var.
-Kuzey ve batıdaki kemerli yollar vilayet binasına yöneliyor.
+Thalos'un Ã¶zel bahÃ§eleri ve avlusu~
+Bu kadar gÃ¼zel bir bahÃ§enin de bu yÄ±kÄ±mdan nasibini almasÄ± ne kadar
+kÃ¶tÃ¼. Ã‡iÃ§ekler ve aÄŸaÃ§lar parÃ§alanarak etrafa saÃ§Ä±lmÄ±ÅŸ, Ã§imenlik
+tezgahlarÄ± duvarlara fÄ±rlatÄ±lmÄ±ÅŸ. BÃ¼yÃ¼k mermer bir Ã§eÅŸme kendisini
+yok etmek isteyenj herÅŸeye karÅŸÄ± gelmiÅŸ gibi hala mahkeme salonunun
+gÃ¶beÄŸinde duruyor. YukarÄ±da bir gÃ¶zcÃ¼ kulesinin enkazlarÄ± var.
+Kuzey ve batÄ±daki kemerli yollar vilayet binasÄ±na yÃ¶neliyor.
 ~
 0 0 1
 D0
@@ -1220,9 +1220,9 @@ D3
 0 0 5231
 S
 #5235
-Küçük bir nöbetçi evi~
-Burası bir zamanlar nöbetçilerin eviymiş. Ev hala şehri ve vilayet
-binasını korur gibi ayakta.
+KÃ¼Ã§Ã¼k bir nÃ¶betÃ§i evi~
+BurasÄ± bir zamanlar nÃ¶betÃ§ilerin eviymiÅŸ. Ev hala ÅŸehri ve vilayet
+binasÄ±nÄ± korur gibi ayakta.
 ~
 0 0 1
 D1
@@ -1232,10 +1232,10 @@ The alley runs by this building.
 0 0 5255
 S
 #5236
-Çökmüş bir ev~
-Bu evden arta kalanlar yalnızca etrafa saçılmış enkaz yığınları ve
-bir patlama krateri. Kesinlikle önemli bir kişi ya da bir şey burada
-kalmış. Duyduğun uluma kanını donduruyor.
+Ã‡Ã¶kmÃ¼ÅŸ bir ev~
+Bu evden arta kalanlar yalnÄ±zca etrafa saÃ§Ä±lmÄ±ÅŸ enkaz yÄ±ÄŸÄ±nlarÄ± ve
+bir patlama krateri. Kesinlikle Ã¶nemli bir kiÅŸi ya da bir ÅŸey burada
+kalmÄ±ÅŸ. DuyduÄŸun uluma kanÄ±nÄ± donduruyor.
 ~
 0 0 1
 D2
@@ -1245,12 +1245,12 @@ Main street runs past this ruined home.
 0 0 5202
 S
 #5237
-Yüksek bir ikametgah~
-Burası şehrin geri kalanının en yüksek yeriymiş gibi görünüyor.
-Eskiden burası muhtemelen bir hanmış fakat şimdi yalnız bir pislik.
-Arka duvar başka bir binaya bir geçit açarak çökmüş. İki binanın
-arasında patlama kraterleri ve büyük kayalar var. Eskimiş tahta
-basamaklar gıcırdayarak ikinci kata çıkıyor.
+YÃ¼ksek bir ikametgah~
+BurasÄ± ÅŸehrin geri kalanÄ±nÄ±n en yÃ¼ksek yeriymiÅŸ gibi gÃ¶rÃ¼nÃ¼yor.
+Eskiden burasÄ± muhtemelen bir hanmÄ±ÅŸ fakat ÅŸimdi yalnÄ±z bir pislik.
+Arka duvar baÅŸka bir binaya bir geÃ§it aÃ§arak Ã§Ã¶kmÃ¼ÅŸ. Ä°ki binanÄ±n
+arasÄ±nda patlama kraterleri ve bÃ¼yÃ¼k kayalar var. EskimiÅŸ tahta
+basamaklar gÄ±cÄ±rdayarak ikinci kata Ã§Ä±kÄ±yor.
 ~
 0 D 1
 D1
@@ -1258,23 +1258,23 @@ D1
 ~
 0 0 5238
 D3
-Küçük bir kenar cadde evin yanından geçip gidiyor.
+KÃ¼Ã§Ã¼k bir kenar cadde evin yanÄ±ndan geÃ§ip gidiyor.
 ~
 ~
 0 0 5211
 D4
-Merdivenler ve ikinci kat dolaşmak için hiç de güvenli görünmüyor.
-Rüzgar çatırdamalara ve titreşimlere neden oluyor.
+Merdivenler ve ikinci kat dolaÅŸmak iÃ§in hiÃ§ de gÃ¼venli gÃ¶rÃ¼nmÃ¼yor.
+RÃ¼zgar Ã§atÄ±rdamalara ve titreÅŸimlere neden oluyor.
 ~
 ~
 0 0 5245
 S
 #5238
-Küçük bir kulübe~
-Bu küçük ev en fazla tek kişilik. Etrafa bakarken kırılmış raflar
-ve tezgahlar görüyorsun. Ufak şişelerin ve keselerin içinde ne varsa
-etrafa dağılmış. Muhtemelen burası şehrin büyü dükkanıymış. Doğuya
-çıkış kapanmış; kullanılabilir çıkış yalnızca batıda.
+KÃ¼Ã§Ã¼k bir kulÃ¼be~
+Bu kÃ¼Ã§Ã¼k ev en fazla tek kiÅŸilik. Etrafa bakarken kÄ±rÄ±lmÄ±ÅŸ raflar
+ve tezgahlar gÃ¶rÃ¼yorsun. Ufak ÅŸiÅŸelerin ve keselerin iÃ§inde ne varsa
+etrafa daÄŸÄ±lmÄ±ÅŸ. Muhtemelen burasÄ± ÅŸehrin bÃ¼yÃ¼ dÃ¼kkanÄ±ymÄ±ÅŸ. DoÄŸuya
+Ã§Ä±kÄ±ÅŸ kapanmÄ±ÅŸ; kullanÄ±labilir Ã§Ä±kÄ±ÅŸ yalnÄ±zca batÄ±da.
 ~
 0 D 1
 D3
@@ -1284,8 +1284,8 @@ D3
 S
 #5239
 Bir arka sokak~
-Arkanda dar yol güneyde ana caddeye, kuzeyde bir gözcü kulesine
-açılıyor. Arka arkaya duyduğun ulumalar sanki şehirde nöbet
+Arkanda dar yol gÃ¼neyde ana caddeye, kuzeyde bir gÃ¶zcÃ¼ kulesine
+aÃ§Ä±lÄ±yor. Arka arkaya duyduÄŸun ulumalar sanki ÅŸehirde nÃ¶bet
 tutuyor gibi.
 ~
 0 0 1
@@ -1294,19 +1294,19 @@ D0
 ~
 0 0 5240
 D2
-Ana cadde buradan geçerek ilerliyor.
+Ana cadde buradan geÃ§erek ilerliyor.
 ~
 ~
 0 0 5201
 S
 #5240
 Bir arka sokak~
-Arkandaki dar yol kuzeyde bir gözcü kulesine, güneyde ise ana
-caddeye yöneliyor. Batıda girişi enkazla engellenmiş bir ev var.
+Arkandaki dar yol kuzeyde bir gÃ¶zcÃ¼ kulesine, gÃ¼neyde ise ana
+caddeye yÃ¶neliyor. BatÄ±da giriÅŸi enkazla engellenmiÅŸ bir ev var.
 ~
 0 0 1
 D0
-Yüksek bir gözcü kulesi burada sessiz bir nöbet tutuyor.
+YÃ¼ksek bir gÃ¶zcÃ¼ kulesi burada sessiz bir nÃ¶bet tutuyor.
 ~
 ~
 0 0 5241
@@ -1316,10 +1316,10 @@ D2
 0 0 5239
 S
 #5241
-Gözcü kulesinin altı~
-Uzun bir gözcü kulesinin altındasın. Arkandaki dar sokaklar batıya
-ve güneye yöneliyor. Yukarıda ise gözcü kulesine tırmanan bir
-merdiven görüyorsun.
+GÃ¶zcÃ¼ kulesinin altÄ±~
+Uzun bir gÃ¶zcÃ¼ kulesinin altÄ±ndasÄ±n. Arkandaki dar sokaklar batÄ±ya
+ve gÃ¼neye yÃ¶neliyor. YukarÄ±da ise gÃ¶zcÃ¼ kulesine tÄ±rmanan bir
+merdiven gÃ¶rÃ¼yorsun.
 ~
 0 0 1
 D2
@@ -1331,19 +1331,19 @@ D3
 ~
 0 0 5243
 D4
-Kuledeyken yüzüne sıcak bir rüzgar vuruyor.
+Kuledeyken yÃ¼zÃ¼ne sÄ±cak bir rÃ¼zgar vuruyor.
 ~
 ~
 0 0 5248
 S
 #5242
 Bir hamam~
-Burada bir zamanlar halk için banyo varmış. Yerdeki delikten hala
-sıcak su çıkıyor. Şehrin altında bir sıcak su kaynağı olduğunu
-anlayınca şehrin buraya kurulmuş olmasını mantıklı buluyorsun. Suya
-biraz daha dikkatli bakında yüzen ölü bir beden görüyorsun. Aylardır
-sıcak suda olmaktan derisi erimiş. Batı duvarı çöken bir evi açığa
-çıkararak devrilmiş.
+Burada bir zamanlar halk iÃ§in banyo varmÄ±ÅŸ. Yerdeki delikten hala
+sÄ±cak su Ã§Ä±kÄ±yor. Åehrin altÄ±nda bir sÄ±cak su kaynaÄŸÄ± olduÄŸunu
+anlayÄ±nca ÅŸehrin buraya kurulmuÅŸ olmasÄ±nÄ± mantÄ±klÄ± buluyorsun. Suya
+biraz daha dikkatli bakÄ±nda yÃ¼zen Ã¶lÃ¼ bir beden gÃ¶rÃ¼yorsun. AylardÄ±r
+sÄ±cak suda olmaktan derisi erimiÅŸ. BatÄ± duvarÄ± Ã§Ã¶ken bir evi aÃ§Ä±ÄŸa
+Ã§Ä±kararak devrilmiÅŸ.
 ~
 0 D 1
 D0
@@ -1351,19 +1351,19 @@ D0
 ~
 0 0 5243
 D3
-Duvar bitişik evin üzerine devrilmiş ve yeni bir giriş oluşturmuş.
+Duvar bitiÅŸik evin Ã¼zerine devrilmiÅŸ ve yeni bir giriÅŸ oluÅŸturmuÅŸ.
 ~
 ~
 0 0 5244
 S
 #5243
 Bir arka sokak~
-Dar bir sokak batıdaki küçük kenar caddeye ve doğudaki gözcü kulesine
-uzanıyor. Güneydeki evden fazlaca buhar akımı var.
+Dar bir sokak batÄ±daki kÃ¼Ã§Ã¼k kenar caddeye ve doÄŸudaki gÃ¶zcÃ¼ kulesine
+uzanÄ±yor. GÃ¼neydeki evden fazlaca buhar akÄ±mÄ± var.
 ~
 0 0 1
 D1
-Bir gözcü kulesi burada sessiz bir nöbet tutuyor.
+Bir gÃ¶zcÃ¼ kulesi burada sessiz bir nÃ¶bet tutuyor.
 ~
 ~
 0 0 5241
@@ -1378,10 +1378,10 @@ Bir kenar cadde burada.
 0 0 5209
 S
 #5244
-Sağlam ev~
-Bu ev pratikte etrafta ayakta kalan tek ev. Doğu duvarındaki büyük
-delik dışında, pencereler dahil herşey bozulmadan kalmış. Doğu
-duvarındaki delikten içeri büyük bir buhar akımı var.
+SaÄŸlam ev~
+Bu ev pratikte etrafta ayakta kalan tek ev. DoÄŸu duvarÄ±ndaki bÃ¼yÃ¼k
+delik dÄ±ÅŸÄ±nda, pencereler dahil herÅŸey bozulmadan kalmÄ±ÅŸ. DoÄŸu
+duvarÄ±ndaki delikten iÃ§eri bÃ¼yÃ¼k bir buhar akÄ±mÄ± var.
 ~
 0 D 1
 D1
@@ -1389,107 +1389,107 @@ D1
 ~
 0 0 5242
 D3
-Küçük bir kenar cadde evi geçerek ilerliyor.
+KÃ¼Ã§Ã¼k bir kenar cadde evi geÃ§erek ilerliyor.
 ~
 ~
 0 0 5210
 S
 #5245
-İkinci katta~
-Adımını attığın anda bunun bir hata olduğunu anlıyorsun. Çürümüş
-yer tahtaları aniden parçalanıyor ve  aşağıdaki çivili tahtaların
-üzerine düşüyorsun.
-Düştün ve kalkamıyorsun!!!
+Ä°kinci katta~
+AdÄ±mÄ±nÄ± attÄ±ÄŸÄ±n anda bunun bir hata olduÄŸunu anlÄ±yorsun. Ã‡Ã¼rÃ¼mÃ¼ÅŸ
+yer tahtalarÄ± aniden parÃ§alanÄ±yor ve  aÅŸaÄŸÄ±daki Ã§ivili tahtalarÄ±n
+Ã¼zerine dÃ¼ÅŸÃ¼yorsun.
+DÃ¼ÅŸtÃ¼n ve kalkamÄ±yorsun!!!
 ~
 0 C 1
 S
 #5246
-Kuzey-batı gözcü kulesi~
-Gözcü kulelerinden birinin tepesindesin. Manzara büyüleyici. Batıdaki
-dağlara giden yoları açıkça görebiliyorsun. Güneyde çöl ufuk boyunca
-uzanıyor. Buranın nasıl bu kadar uzun süre ayakta kaldığına
-şaşırmamalı.
+Kuzey-batÄ± gÃ¶zcÃ¼ kulesi~
+GÃ¶zcÃ¼ kulelerinden birinin tepesindesin. Manzara bÃ¼yÃ¼leyici. BatÄ±daki
+daÄŸlara giden yolarÄ± aÃ§Ä±kÃ§a gÃ¶rebiliyorsun. GÃ¼neyde Ã§Ã¶l ufuk boyunca
+uzanÄ±yor. BuranÄ±n nasÄ±l bu kadar uzun sÃ¼re ayakta kaldÄ±ÄŸÄ±na
+ÅŸaÅŸÄ±rmamalÄ±.
 ~
 0 0 1
 D5
-Şehir altında yatıyor.
+Åehir altÄ±nda yatÄ±yor.
 ~
 ~
 0 0 5224
 S
 #5247
-Güney-batı gözcü kulesi~
-Gözcü kulelerinden birinin tepesindesin. Manzara büyüleyici. Batıdaki
-dağlara giden yoları açıkça görebiliyorsun. Güneyde çöl ufuk boyunca
-uzanıyor. Buranın nasıl bu kadar uzun süre ayakta kaldığına
-şaşırmamalı.
+GÃ¼ney-batÄ± gÃ¶zcÃ¼ kulesi~
+GÃ¶zcÃ¼ kulelerinden birinin tepesindesin. Manzara bÃ¼yÃ¼leyici. BatÄ±daki
+daÄŸlara giden yolarÄ± aÃ§Ä±kÃ§a gÃ¶rebiliyorsun. GÃ¼neyde Ã§Ã¶l ufuk boyunca
+uzanÄ±yor. BuranÄ±n nasÄ±l bu kadar uzun sÃ¼re ayakta kaldÄ±ÄŸÄ±na
+ÅŸaÅŸÄ±rmamalÄ±.
 ~
 0 0 1
 D5
-Şehir altında yatıyor.
+Åehir altÄ±nda yatÄ±yor.
 ~
 ~
 0 0 5215
 S
 #5248
-Kuzey-doğu gözcü kulesi~
-Gözcü kulelerinden birinin tepesindesin. Manzara büyüleyici.
-Kuzey doğuda durağan olmayan bir piramidi görebiliyorsun. Çöl kumulu
-ufuk boyunca yayılıyor. Buranın nasıl bu kadar uzun süre ayakta
-kaldığına şaşırmamalı.
+Kuzey-doÄŸu gÃ¶zcÃ¼ kulesi~
+GÃ¶zcÃ¼ kulelerinden birinin tepesindesin. Manzara bÃ¼yÃ¼leyici.
+Kuzey doÄŸuda duraÄŸan olmayan bir piramidi gÃ¶rebiliyorsun. Ã‡Ã¶l kumulu
+ufuk boyunca yayÄ±lÄ±yor. BuranÄ±n nasÄ±l bu kadar uzun sÃ¼re ayakta
+kaldÄ±ÄŸÄ±na ÅŸaÅŸÄ±rmamalÄ±.
 ~
 0 0 1
 D5
-Şehir altında yatıyor.
+Åehir altÄ±nda yatÄ±yor.
 ~
 ~
 0 0 5241
 S
 #5250
-Thalos Tapınağı~
-Yeryüzündeki en kutsal yerlerden birindesin. Harap olmuş bu
-kubbeli tapınak bir zamanlar emekçilerce kullanılırdı. Ne
-yazık ki şehri harap eden felakete o da yenik düştü. Oturma
-sıraları devrilmiş, mimberin ise kutsallığı yitip gitmiş.
-Duvarlardan ve çatıdan düşen büyük taşların açtığı deliklerden
-üzerine güneş ışığı akıyor. Sana başka bir dilde kutsal mesajlar
-taşıyan kitaplar yere dağılmış.
-     Dört kemerli yoldan esen boranın, ulumaların ve çığlıkların
-sesleri şehrin heryerinden duyulabilir.
+Thalos TapÄ±naÄŸÄ±~
+YeryÃ¼zÃ¼ndeki en kutsal yerlerden birindesin. Harap olmuÅŸ bu
+kubbeli tapÄ±nak bir zamanlar emekÃ§ilerce kullanÄ±lÄ±rdÄ±. Ne
+yazÄ±k ki ÅŸehri harap eden felakete o da yenik dÃ¼ÅŸtÃ¼. Oturma
+sÄ±ralarÄ± devrilmiÅŸ, mimberin ise kutsallÄ±ÄŸÄ± yitip gitmiÅŸ.
+Duvarlardan ve Ã§atÄ±dan dÃ¼ÅŸen bÃ¼yÃ¼k taÅŸlarÄ±n aÃ§tÄ±ÄŸÄ± deliklerden
+Ã¼zerine gÃ¼neÅŸ Ä±ÅŸÄ±ÄŸÄ± akÄ±yor. Sana baÅŸka bir dilde kutsal mesajlar
+taÅŸÄ±yan kitaplar yere daÄŸÄ±lmÄ±ÅŸ.
+     DÃ¶rt kemerli yoldan esen boranÄ±n, ulumalarÄ±n ve Ã§Ä±ÄŸlÄ±klarÄ±n
+sesleri ÅŸehrin heryerinden duyulabilir.
 ~
 0 DH 1
 D0
-Bir kenar cadde şehrin kuzey yarısına yöneliyor.
+Bir kenar cadde ÅŸehrin kuzey yarÄ±sÄ±na yÃ¶neliyor.
 ~
 ~
 0 0 5205
 D1
-Ana cadde şehrin ana kapısından dışarı uzanıyor.
+Ana cadde ÅŸehrin ana kapÄ±sÄ±ndan dÄ±ÅŸarÄ± uzanÄ±yor.
 ~
 ~
 0 0 5203
 S
 #5251
 Arka sokak~
-Doğuda dar bir sokak geniş bir caddeye çıkıyor. Batıda ise
-yine dar bir sokak gözcü kulelerinden birine.
+DoÄŸuda dar bir sokak geniÅŸ bir caddeye Ã§Ä±kÄ±yor. BatÄ±da ise
+yine dar bir sokak gÃ¶zcÃ¼ kulelerinden birine.
 ~
 0 0 1
 D1
-Yüksek bir gözcü kulesi burada sessiz bir nöbet tutuyor.
+YÃ¼ksek bir gÃ¶zcÃ¼ kulesi burada sessiz bir nÃ¶bet tutuyor.
 ~
 ~
 0 0 5252
 D3
-Bir kenar cadde seni karşılıyor.
+Bir kenar cadde seni karÅŸÄ±lÄ±yor.
 ~
 ~
 0 0 5214
 S
 #5252
-Yıkılmış bir gözcü kulesinin altında~
-Şehri koruması için yapılmış gözcü kulelerinden birinin altında
-duruyorsun. Görünüşe göre işini becerememiş.
+YÄ±kÄ±lmÄ±ÅŸ bir gÃ¶zcÃ¼ kulesinin altÄ±nda~
+Åehri korumasÄ± iÃ§in yapÄ±lmÄ±ÅŸ gÃ¶zcÃ¼ kulelerinden birinin altÄ±nda
+duruyorsun. GÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re iÅŸini becerememiÅŸ.
 ~
 0 0 1
 D0
@@ -1507,7 +1507,7 @@ D4
 S
 #5253
 Arka sokak~
-Güneydeki gözcü kulesine dar bir yol uzanıyor.
+GÃ¼neydeki gÃ¶zcÃ¼ kulesine dar bir yol uzanÄ±yor.
 ~
 0 0 1
 D0
@@ -1516,17 +1516,17 @@ Yol kuzeye devam ediyor.
 ~
 0 0 5255
 D2
-Yüksek bir gözcü kulesi burada sessiz bir nöbet tutuyor.
+YÃ¼ksek bir gÃ¶zcÃ¼ kulesi burada sessiz bir nÃ¶bet tutuyor.
 ~
 ~
 0 0 5252
 S
 #5254
-Güney-doğu gözcü kulesi~
-Şehrin gözcü kulelerinden birinin tepesindesin. Manzara büyüleyici.
-Buradan batıdaki dağlara giden bütün yolları görebiliyorsun.
-Güneyde çöl ufuk boyunca uzuyor. Buranın nasıl bu kadar uzun süre
-ayakta kaldığına şaşırmıyorsun. Taşın üzerinde küçük bir levha var.
+GÃ¼ney-doÄŸu gÃ¶zcÃ¼ kulesi~
+Åehrin gÃ¶zcÃ¼ kulelerinden birinin tepesindesin. Manzara bÃ¼yÃ¼leyici.
+Buradan batÄ±daki daÄŸlara giden bÃ¼tÃ¼n yollarÄ± gÃ¶rebiliyorsun.
+GÃ¼neyde Ã§Ã¶l ufuk boyunca uzuyor. BuranÄ±n nasÄ±l bu kadar uzun sÃ¼re
+ayakta kaldÄ±ÄŸÄ±na ÅŸaÅŸÄ±rmÄ±yorsun. TaÅŸÄ±n Ã¼zerinde kÃ¼Ã§Ã¼k bir levha var.
 ~
 0 0 1
 D5
@@ -1535,19 +1535,19 @@ The city lies below.
 ~
 0 0 5252
 E
-küçük levha~
-Thalos ile cüce ormanı arası, herhangi bir Merc Mud için Hatchet
-tarafından yapılmıştır. Copyright 1992
+kÃ¼Ã§Ã¼k levha~
+Thalos ile cÃ¼ce ormanÄ± arasÄ±, herhangi bir Merc Mud iÃ§in Hatchet
+tarafÄ±ndan yapÄ±lmÄ±ÅŸtÄ±r. Copyright 1992
 ~
 S
 #5255
 Arka sokak~
-Kuzeyde ana caddeye giden dar bir yol var, güneyde ise yüksek bir
-gözcü kulesi. Batıda bir binanın yıkıntıları duruyor.
+Kuzeyde ana caddeye giden dar bir yol var, gÃ¼neyde ise yÃ¼ksek bir
+gÃ¶zcÃ¼ kulesi. BatÄ±da bir binanÄ±n yÄ±kÄ±ntÄ±larÄ± duruyor.
 ~
 0 0 1
 D0
-Ana caddeyi görüyorsun.
+Ana caddeyi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5201
@@ -1556,109 +1556,109 @@ D2
 ~
 0 0 5253
 D3
-Şekil olarak kötü görünse de yapı olarak bozulmamış.
+Åekil olarak kÃ¶tÃ¼ gÃ¶rÃ¼nse de yapÄ± olarak bozulmamÄ±ÅŸ.
 ~
 ~
 0 0 5235
 S
 #5256
-Cüce ormanının sonundaki yol~
-Yol burada kuru ve verimsiz ağaç kütükleriyle son buluyor. Batıda büyük bir
-şehrin kalıntılarını görebiliyorsun. Şehir hakkındaki birşey seni tedirgin
-ediyor. Doğuda evine giden güvenli bir yol var.
+CÃ¼ce ormanÄ±nÄ±n sonundaki yol~
+Yol burada kuru ve verimsiz aÄŸaÃ§ kÃ¼tÃ¼kleriyle son buluyor. BatÄ±da bÃ¼yÃ¼k bir
+ÅŸehrin kalÄ±ntÄ±larÄ±nÄ± gÃ¶rebiliyorsun. Åehir hakkÄ±ndaki birÅŸey seni tedirgin
+ediyor. DoÄŸuda evine giden gÃ¼venli bir yol var.
 ~
 0 0 2
 D1
-Yolu görüyorsun.
+Yolu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5257
 D3
-Thalos'u görüyorsun!
+Thalos'u gÃ¶rÃ¼yorsun!
 ~
 ~
 0 0 5200
 S
 #5257
-Cüce ormanının sonundaki yol~
-Cüce ormanından gelen yol uzanıyor. Burası kesinlikle daha kuru ve sıcak.
-Yol batıya devam ediyor ve doğuda T kavşağını görüyorsun.
+CÃ¼ce ormanÄ±nÄ±n sonundaki yol~
+CÃ¼ce ormanÄ±ndan gelen yol uzanÄ±yor. BurasÄ± kesinlikle daha kuru ve sÄ±cak.
+Yol batÄ±ya devam ediyor ve doÄŸuda T kavÅŸaÄŸÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 0 2
 D1
-Kavşağı görüyorsun.
+KavÅŸaÄŸÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5258
 D3
-Yolun devam ettiğini görüyorsun.
+Yolun devam ettiÄŸini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5256
 S
 #5258
-Cüce ormanı~
-Gelişimini tamamlamış çok fazla ağaç görüyorsun. Buradan batıya
-bir yol uzanıyor. Doğuda bir yol gördüğünü ZANNEDİYORSUN ama
-emin olamıyorsun.
+CÃ¼ce ormanÄ±~
+GeliÅŸimini tamamlamÄ±ÅŸ Ã§ok fazla aÄŸaÃ§ gÃ¶rÃ¼yorsun. Buradan batÄ±ya
+bir yol uzanÄ±yor. DoÄŸuda bir yol gÃ¶rdÃ¼ÄŸÃ¼nÃ¼ ZANNEDÄ°YORSUN ama
+emin olamÄ±yorsun.
 ~
 0 0 3
 D0
-Yolun geriye, kuzeye yöneldiğini görüyorsun.
+Yolun geriye, kuzeye yÃ¶neldiÄŸini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5259
 D1
-Ormanın karanlığının içini göremiyorsun.
+OrmanÄ±n karanlÄ±ÄŸÄ±nÄ±n iÃ§ini gÃ¶remiyorsun.
 ~
 ~
 0 0 5262
 D3
-Yolun dallanmadığını görüyorsun.
+Yolun dallanmadÄ±ÄŸÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5257
 S
 #5259
-Cüce ormanı~
-Gelişimini tamamlamış daha fazla ağaç görüyorsun. Burası sanki çorak
-ve kuru olması için bir tanrı tarafından lanetlenmiş. Yol kuzeye ve
-güneye devam ediyor.
+CÃ¼ce ormanÄ±~
+GeliÅŸimini tamamlamÄ±ÅŸ daha fazla aÄŸaÃ§ gÃ¶rÃ¼yorsun. BurasÄ± sanki Ã§orak
+ve kuru olmasÄ± iÃ§in bir tanrÄ± tarafÄ±ndan lanetlenmiÅŸ. Yol kuzeye ve
+gÃ¼neye devam ediyor.
 ~
 0 0 3
 D0
-Yolun kuzeye devam ettiğini görüyorsun.
+Yolun kuzeye devam ettiÄŸini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5260
 D2
-Yolun güneye devam ettiğini görüyorsun.
+Yolun gÃ¼neye devam ettiÄŸini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5258
 S
 #5260
-Cüce ormanı~
-Gelişimini tamamlamış daha fazla ağaç görüyorsun. Burası sanki çorak
-ve kuru olması için bir tanrı tarafından lanetlenmiş. Yol kuzeye ve
-güneye devam ediyor.
+CÃ¼ce ormanÄ±~
+GeliÅŸimini tamamlamÄ±ÅŸ daha fazla aÄŸaÃ§ gÃ¶rÃ¼yorsun. BurasÄ± sanki Ã§orak
+ve kuru olmasÄ± iÃ§in bir tanrÄ± tarafÄ±ndan lanetlenmiÅŸ. Yol kuzeye ve
+gÃ¼neye devam ediyor.
 ~
 0 0 3
 D0
-Yolun kuzeye devam ettiğini görüyorsun.
+Yolun kuzeye devam ettiÄŸini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5261
 D2
-Yolun güneye devam ettiğini görüyorsun.
+Yolun gÃ¼neye devam ettiÄŸini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5259
 S
 #5261
-Cüce ormanı~
-Gelişimini tamamlamış çok fazla ağaç görüyorsun. Çıplak ağaçlarda hiç
-yaprak yok. Yerde ot bitmemiş.
+CÃ¼ce ormanÄ±~
+GeliÅŸimini tamamlamÄ±ÅŸ Ã§ok fazla aÄŸaÃ§ gÃ¶rÃ¼yorsun. Ã‡Ä±plak aÄŸaÃ§larda hiÃ§
+yaprak yok. Yerde ot bitmemiÅŸ.
 ~
 0 0 3
 D0
@@ -1667,33 +1667,33 @@ Kuzey Yolu
 ~
 0 0 3502
 D2
-Yolun güneye devam ettiğini görüyorsun.
+Yolun gÃ¼neye devam ettiÄŸini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5260
 S
 #5262
-Cüce ormanı~
-Gelişimini tamamlamış daha fazla ağaç görüyorsun. Burası sanki çorak
-ve kuru olması için bir tanrı tarafından lanetlenmiş. Yol doğu ve
-batıya devam ediyor. Doğu oldukça karanlık görünüyor.
+CÃ¼ce ormanÄ±~
+GeliÅŸimini tamamlamÄ±ÅŸ daha fazla aÄŸaÃ§ gÃ¶rÃ¼yorsun. BurasÄ± sanki Ã§orak
+ve kuru olmasÄ± iÃ§in bir tanrÄ± tarafÄ±ndan lanetlenmiÅŸ. Yol doÄŸu ve
+batÄ±ya devam ediyor. DoÄŸu oldukÃ§a karanlÄ±k gÃ¶rÃ¼nÃ¼yor.
 ~
 0 0 3
 D1
-Ormanın daha karanlık bir bölgesini görüyorsun.
+OrmanÄ±n daha karanlÄ±k bir bÃ¶lgesini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5263
 D3
-Batıda daha seyrek bir orman ve T kavşağını görüyorsun.
+BatÄ±da daha seyrek bir orman ve T kavÅŸaÄŸÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5258
 S
 #5263
-Karanlık cüce ormanı~
-Gelişmesi durmuş ağaçlarda daha fazla yaprak görüyorsun. Yarattıkları
-karanlık iyice artmış. Yol batıdan güneye dönüyor.
+KaranlÄ±k cÃ¼ce ormanÄ±~
+GeliÅŸmesi durmuÅŸ aÄŸaÃ§larda daha fazla yaprak gÃ¶rÃ¼yorsun. YarattÄ±klarÄ±
+karanlÄ±k iyice artmÄ±ÅŸ. Yol batÄ±dan gÃ¼neye dÃ¶nÃ¼yor.
 ~
 0 A 3
 D0
@@ -1701,71 +1701,71 @@ D0
 ~
 0 0 29120
 D2
-Güneydeki karanlıkta birşey göremiyorsun.
+GÃ¼neydeki karanlÄ±kta birÅŸey gÃ¶remiyorsun.
 ~
 ~
 0 0 5264
 D3
-Cüce ormanını görüyorsun.
+CÃ¼ce ormanÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5262
 S
 #5264
-Karanlık cüce ormanı~
-Gelişmesi durmuş ağaçlarda daha fazla yaprak görüyorsun. Yarattıkları
-karanlık iyice artmış. Yol kuzeyden doğuya dönüyor.
+KaranlÄ±k cÃ¼ce ormanÄ±~
+GeliÅŸmesi durmuÅŸ aÄŸaÃ§larda daha fazla yaprak gÃ¶rÃ¼yorsun. YarattÄ±klarÄ±
+karanlÄ±k iyice artmÄ±ÅŸ. Yol kuzeyden doÄŸuya dÃ¶nÃ¼yor.
 ~
 0 A 3
 D0
-Kuzeydeki karanlıkta birşey göremiyorsun.
+Kuzeydeki karanlÄ±kta birÅŸey gÃ¶remiyorsun.
 ~
 ~
 0 0 5263
 D1
-Doğudaki karanlıkta birşey göremiyorsun.
+DoÄŸudaki karanlÄ±kta birÅŸey gÃ¶remiyorsun.
 ~
 ~
 0 0 5265
 S
 #5265
-Karanlık cüce ormanı~
-Gelişmesi durmuş ağaçlarda daha fazla yaprak görüyorsun. Yarattıkları
-karanlık iyice artmış.  Yol doğu ve batıya uzanıyor.
+KaranlÄ±k cÃ¼ce ormanÄ±~
+GeliÅŸmesi durmuÅŸ aÄŸaÃ§larda daha fazla yaprak gÃ¶rÃ¼yorsun. YarattÄ±klarÄ±
+karanlÄ±k iyice artmÄ±ÅŸ.  Yol doÄŸu ve batÄ±ya uzanÄ±yor.
 ~
 0 A 3
 D1
-Doğudaki karanlıkta birşey göremiyorsun.
+DoÄŸudaki karanlÄ±kta birÅŸey gÃ¶remiyorsun.
 ~
 ~
 0 0 5266
 D3
-Batıdaki karanlıkta birşey göremiyorsun.
+BatÄ±daki karanlÄ±kta birÅŸey gÃ¶remiyorsun.
 ~
 ~
 0 0 5264
 S
 #5266
-Karanlık cüce ormanı~
-Gelişmesi durmuş ağaçlarda daha fazla yaprak görüyorsun. Yarattıkları
-karanlık iyice artmış. Yol batıdaki karanlık vadiye uzanıyor.
+KaranlÄ±k cÃ¼ce ormanÄ±~
+GeliÅŸmesi durmuÅŸ aÄŸaÃ§larda daha fazla yaprak gÃ¶rÃ¼yorsun. YarattÄ±klarÄ±
+karanlÄ±k iyice artmÄ±ÅŸ. Yol batÄ±daki karanlÄ±k vadiye uzanÄ±yor.
 ~
 0 A 3
 D3
-Batıdaki karanlıkta birşey göremiyorsun.
+BatÄ±daki karanlÄ±kta birÅŸey gÃ¶remiyorsun.
 ~
 ~
 0 0 5265
 D5
-Yolun aşağıdaki karanlığa uzandığını görüyorsun.
+Yolun aÅŸaÄŸÄ±daki karanlÄ±ÄŸa uzandÄ±ÄŸÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5267
 S
 #5267
-Karanlık cüce ormanında bir vadi~
-Karanlık cüce ormanında bir vadidesin. Etrafında siyah çimenler
-büyüyor. Her yöne yol uzanıyor.
+KaranlÄ±k cÃ¼ce ormanÄ±nda bir vadi~
+KaranlÄ±k cÃ¼ce ormanÄ±nda bir vadidesin. EtrafÄ±nda siyah Ã§imenler
+bÃ¼yÃ¼yor. Her yÃ¶ne yol uzanÄ±yor.
 ~
 0 A 3
 D0
@@ -1782,7 +1782,7 @@ You see a large mountain on the far side of a canyon.
 ~
 0 0 9201
 D3
-Karanlık bir tilki deliği görüyorsun.
+KaranlÄ±k bir tilki deliÄŸi gÃ¶rÃ¼yorsun.
 ~
 tilki delik~
 1 -1 5268
@@ -1792,64 +1792,64 @@ D4
 0 0 5266
 S
 #5268
-Küçük çirkin bir mağara~
-Küçük bir mağara görüyorsun. Bir çok çeşit canlının iskeletleri etrafa
-dağılmış. Kesinlikler burada bir tilki yaşamıyor! Buradaki görüntü sende
-buradan gitme ve kusma isteği yaratıyor.
+KÃ¼Ã§Ã¼k Ã§irkin bir maÄŸara~
+KÃ¼Ã§Ã¼k bir maÄŸara gÃ¶rÃ¼yorsun. Bir Ã§ok Ã§eÅŸit canlÄ±nÄ±n iskeletleri etrafa
+daÄŸÄ±lmÄ±ÅŸ. Kesinlikler burada bir tilki yaÅŸamÄ±yor! Buradaki gÃ¶rÃ¼ntÃ¼ sende
+buradan gitme ve kusma isteÄŸi yaratÄ±yor.
 ~
 0 A 3
 D1
-Buradan bir çıkış görebiliyorsun!
+Buradan bir Ã§Ä±kÄ±ÅŸ gÃ¶rebiliyorsun!
 ~
 fox hole~
 1 -1 5267
 D2
-Mağaranın daha fazlasını görüyorsun.
+MaÄŸaranÄ±n daha fazlasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5269
 E
 skeleton skeletons~
-Bu iskeletlerde farklı olan bir şey var. Biraz araştırınca onların ilüzyon
-olduğunu anlıyorsun.
+Bu iskeletlerde farklÄ± olan bir ÅŸey var. Biraz araÅŸtÄ±rÄ±nca onlarÄ±n ilÃ¼zyon
+olduÄŸunu anlÄ±yorsun.
 ~
 S
 #5269
-Küçük çirkin bir mağara~
-Küçük, çirkin bir mağaradasın. Fazlaca iskelet etrafında yatıyor.
-Ev sahibinin seni burada istemediği çok açık. Kuzey çıkışı hala
-görülebiliyor. Duvarda bir yazı var.
+KÃ¼Ã§Ã¼k Ã§irkin bir maÄŸara~
+KÃ¼Ã§Ã¼k, Ã§irkin bir maÄŸaradasÄ±n. Fazlaca iskelet etrafÄ±nda yatÄ±yor.
+Ev sahibinin seni burada istemediÄŸi Ã§ok aÃ§Ä±k. Kuzey Ã§Ä±kÄ±ÅŸÄ± hala
+gÃ¶rÃ¼lebiliyor. Duvarda bir yazÄ± var.
 ~
 0 A 3
 D0
-Mağaranın daha fazlasını görüyorsun.
+MaÄŸaranÄ±n daha fazlasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5268
 D5
-Karanlığa inen bir patika görüyorsun.
+KaranlÄ±ÄŸa inen bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5270
 E
 skeleton skeletons~
-Bu iskeletlerde farklı olan bir şey var. Biraz araştırınca onların ilüzyon
-olduğunu anlıyorsun.
+Bu iskeletlerde farklÄ± olan bir ÅŸey var. Biraz araÅŸtÄ±rÄ±nca onlarÄ±n ilÃ¼zyon
+olduÄŸunu anlÄ±yorsun.
 ~
 E
 writings writing words~
-Vadi boyunca bu mağaralar, herhangi bir Merc Mud için Hatchet tarafından
-yapılmıştır. Copyright 1992
+Vadi boyunca bu maÄŸaralar, herhangi bir Merc Mud iÃ§in Hatchet tarafÄ±ndan
+yapÄ±lmÄ±ÅŸtÄ±r. Copyright 1992
 ~
 S
 #5270
-Patikanın aşağısında, ölümcül bir sona doğru~
-Patikanın aşağısındasın. Belirgin bir çıkış yok, bir çıkış geriye,
-kuzeye doğru. Her tarafında iskeletler görüyorsun.
+PatikanÄ±n aÅŸaÄŸÄ±sÄ±nda, Ã¶lÃ¼mcÃ¼l bir sona doÄŸru~
+PatikanÄ±n aÅŸaÄŸÄ±sÄ±ndasÄ±n. Belirgin bir Ã§Ä±kÄ±ÅŸ yok, bir Ã§Ä±kÄ±ÅŸ geriye,
+kuzeye doÄŸru. Her tarafÄ±nda iskeletler gÃ¶rÃ¼yorsun.
 ~
 0 A 3
 D4
-Gördüğün tek yolunun tekrar yukarı olduğu.
+GÃ¶rdÃ¼ÄŸÃ¼n tek yolunun tekrar yukarÄ± olduÄŸu.
 ~
 ~
 0 0 5269
@@ -1866,171 +1866,171 @@ secret door!!
 ~
 S
 #5271
-Karanlık cüce ormanında bir vadi~
-Vadidesin. Kuzeyde vadiden çıkan, güneyde ise vadiye ilerleyen iki yol...
+KaranlÄ±k cÃ¼ce ormanÄ±nda bir vadi~
+Vadidesin. Kuzeyde vadiden Ã§Ä±kan, gÃ¼neyde ise vadiye ilerleyen iki yol...
 ~
 0 A 3
 D0
-Karanlık vadinin ilersinde bir yol görüyorsun.
+KaranlÄ±k vadinin ilersinde bir yol gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5272
 D2
-Karanlık vadinin daha fazlasını görüyorsun.
+KaranlÄ±k vadinin daha fazlasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5267
 S
 #5272
-Cüce Ormanı'nda loş bir yol~
-Cüce ormanında loş bir yoldasın. Buraya çok fazla ışık ulaşamıyor.
-Güneyde karanlık bir vadi. Kuzeyde ışık gittikçe daha fazla parlıyor.
+CÃ¼ce OrmanÄ±'nda loÅŸ bir yol~
+CÃ¼ce ormanÄ±nda loÅŸ bir yoldasÄ±n. Buraya Ã§ok fazla Ä±ÅŸÄ±k ulaÅŸamÄ±yor.
+GÃ¼neyde karanlÄ±k bir vadi. Kuzeyde Ä±ÅŸÄ±k gittikÃ§e daha fazla parlÄ±yor.
 ~
 0 A 3
 D0
-Kuzeydeki yolu açıkça görebiliyorsun!
+Kuzeydeki yolu aÃ§Ä±kÃ§a gÃ¶rebiliyorsun!
 ~
 ~
 0 0 5273
 D2
-Güneydeki karanlık vadiyi açıkça görebiliyorsun.
+GÃ¼neydeki karanlÄ±k vadiyi aÃ§Ä±kÃ§a gÃ¶rebiliyorsun.
 ~
 ~
 0 0 5271
 S
 #5273
-Cüce Ormanı'nda loş bir yol~
-Cüce ormanında loş bir yoldasın. Buraya çok fazla ışık ulaşamıyor.
-Yol kuzeye ve güneye devam ediyor. Işık kuzeyden geliyor. Doğuda
-karanlığa giden bir patika görüyorsun.
+CÃ¼ce OrmanÄ±'nda loÅŸ bir yol~
+CÃ¼ce ormanÄ±nda loÅŸ bir yoldasÄ±n. Buraya Ã§ok fazla Ä±ÅŸÄ±k ulaÅŸamÄ±yor.
+Yol kuzeye ve gÃ¼neye devam ediyor. IÅŸÄ±k kuzeyden geliyor. DoÄŸuda
+karanlÄ±ÄŸa giden bir patika gÃ¶rÃ¼yorsun.
 ~
 0 0 3
 D0
-Loş yolun kuzeye devam ettiğini görüyorsun.
+LoÅŸ yolun kuzeye devam ettiÄŸini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5274
 D1
-Küçük bir patika görüyorsun.
+KÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5280
 D2
-Loş yolun güneye devam ettiğini görüyorsun.
+LoÅŸ yolun gÃ¼neye devam ettiÄŸini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5272
 S
 #5274
-Cüce Ormanı'nda loş bir yol~
-Cüce ormanında loş bir yoldasın. Buraya çok fazla ışık ulaşamıyor.
-Yol kuzeye ve güneye devam ediyor. Işık kuzeyden geliyor.
+CÃ¼ce OrmanÄ±'nda loÅŸ bir yol~
+CÃ¼ce ormanÄ±nda loÅŸ bir yoldasÄ±n. Buraya Ã§ok fazla Ä±ÅŸÄ±k ulaÅŸamÄ±yor.
+Yol kuzeye ve gÃ¼neye devam ediyor. IÅŸÄ±k kuzeyden geliyor.
 ~
 0 0 3
 D0
-Loş yolun kuzeye devam ettiğini görüyorsun.
+LoÅŸ yolun kuzeye devam ettiÄŸini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5275
 D2
-Loş yolun güneye devam ettiğini görüyorsun.
+LoÅŸ yolun gÃ¼neye devam ettiÄŸini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5273
 S
 #5275
-Cüce Ormanı'nda karanlık bir yolda bir dönemeç~
-Cüce ormanında karanlık bir yoldasın. Buraya çok fazla ışık ulaşamıyor.
-Yol güneye ve batıya devam ediyor. Batıya devam eden yol güneye gidenden
-daha dostça görünüyor.
+CÃ¼ce OrmanÄ±'nda karanlÄ±k bir yolda bir dÃ¶nemeÃ§~
+CÃ¼ce ormanÄ±nda karanlÄ±k bir yoldasÄ±n. Buraya Ã§ok fazla Ä±ÅŸÄ±k ulaÅŸamÄ±yor.
+Yol gÃ¼neye ve batÄ±ya devam ediyor. BatÄ±ya devam eden yol gÃ¼neye gidenden
+daha dostÃ§a gÃ¶rÃ¼nÃ¼yor.
 ~
 0 0 3
 D2
-Loş bir yol güneye devam ediyor.
+LoÅŸ bir yol gÃ¼neye devam ediyor.
 ~
 ~
 0 0 5274
 D3
-Yol batıya devam ediyor.
+Yol batÄ±ya devam ediyor.
 ~
 ~
 0 0 5276
 S
 #5276
-Cüce ormanında bir yol~
-Cüce ormanında bir yolsadın. Ağaçların büyümesi durmuş ama buralar pek
-kuru sayılmaz. Yol doğu ve batıya uzanıyor.  Doğu tarafı oldukça loş.
+CÃ¼ce ormanÄ±nda bir yol~
+CÃ¼ce ormanÄ±nda bir yolsadÄ±n. AÄŸaÃ§larÄ±n bÃ¼yÃ¼mesi durmuÅŸ ama buralar pek
+kuru sayÄ±lmaz. Yol doÄŸu ve batÄ±ya uzanÄ±yor.  DoÄŸu tarafÄ± oldukÃ§a loÅŸ.
 ~
 0 0 3
 D1
-Yol doğuya devam ediyor, ormanın daha loş bölümlerine.
+Yol doÄŸuya devam ediyor, ormanÄ±n daha loÅŸ bÃ¶lÃ¼mlerine.
 ~
 ~
 0 0 5275
 D3
-Yol batıya devam ediyor.
+Yol batÄ±ya devam ediyor.
 ~
 ~
 0 0 5277
 S
 #5277
-Cüce ormanında bir yol~
-Cüce ormanında bir yolsadın. Ağaçların büyümesi durmuş ama buralar pek
-kuru sayılmaz. Yol doğu ve batıya uzanıyor.  Kara bir dağ kuzeye
+CÃ¼ce ormanÄ±nda bir yol~
+CÃ¼ce ormanÄ±nda bir yolsadÄ±n. AÄŸaÃ§larÄ±n bÃ¼yÃ¼mesi durmuÅŸ ama buralar pek
+kuru sayÄ±lmaz. Yol doÄŸu ve batÄ±ya uzanÄ±yor.  Kara bir daÄŸ kuzeye
 gitmeni engelliyor.
 ~
 0 0 3
 D1
-Yol doğuya devam ediyor.
+Yol doÄŸuya devam ediyor.
 ~
 ~
 0 0 5276
 D3
-Yol batıya devam ediyor.
+Yol batÄ±ya devam ediyor.
 ~
 ~
 0 0 5278
 S
 #5278
-Cüce ormanında bir yol~
-Cüce ormanında bir yolsadın. Ağaçların büyümesi durmuş ama buralar pek
-kuru sayılmaz. Yol doğu ve batıya uzanıyor. Kuzeyde tırmanabileceğin
-karanlık bir dağ var.
+CÃ¼ce ormanÄ±nda bir yol~
+CÃ¼ce ormanÄ±nda bir yolsadÄ±n. AÄŸaÃ§larÄ±n bÃ¼yÃ¼mesi durmuÅŸ ama buralar pek
+kuru sayÄ±lmaz. Yol doÄŸu ve batÄ±ya uzanÄ±yor. Kuzeyde tÄ±rmanabileceÄŸin
+karanlÄ±k bir daÄŸ var.
 ~
 0 0 3
 D1
-Yol doğuya devam ediyor.
+Yol doÄŸuya devam ediyor.
 ~
 ~
 0 0 5277
 D3
-Yol batıya devam ediyor.
+Yol batÄ±ya devam ediyor.
 ~
 ~
 0 0 5279
 S
 #5279
-Cüce Ormanı'nda karanlık bir yolda bir dönemeç~
-Ormanda karanlık bir dönemeçtesin. Ağaçların gelişmesi durmuş ama burası
-çok kuru sayılmaz. Yol doğuya ve bir şelale gördüğün güneye uzanıyor. Kara
-bir dağ kuzeye gitmeni engelliyor.
+CÃ¼ce OrmanÄ±'nda karanlÄ±k bir yolda bir dÃ¶nemeÃ§~
+Ormanda karanlÄ±k bir dÃ¶nemeÃ§tesin. AÄŸaÃ§larÄ±n geliÅŸmesi durmuÅŸ ama burasÄ±
+Ã§ok kuru sayÄ±lmaz. Yol doÄŸuya ve bir ÅŸelale gÃ¶rdÃ¼ÄŸÃ¼n gÃ¼neye uzanÄ±yor. Kara
+bir daÄŸ kuzeye gitmeni engelliyor.
 ~
 0 0 3
 D1
-Yol doğuya devam ediyor..
+Yol doÄŸuya devam ediyor..
 ~
 ~
 0 -1 5278
 D2
-Şelaleyi görüyorsun.
+Åelaleyi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 5281
 S
 #5280
-Ormanda karanlık bir dönemeç~
-Ormanda karanlık bir dönemeçtesin. Batıda Cüce Ormanı'na dönen patikayı
-görüyorsun. Güneyde ise karanlık ve kasvetli bir patika var.
+Ormanda karanlÄ±k bir dÃ¶nemeÃ§~
+Ormanda karanlÄ±k bir dÃ¶nemeÃ§tesin. BatÄ±da CÃ¼ce OrmanÄ±'na dÃ¶nen patikayÄ±
+gÃ¶rÃ¼yorsun. GÃ¼neyde ise karanlÄ±k ve kasvetli bir patika var.
 ~
 0 0 3
 D2
@@ -2039,20 +2039,20 @@ You see the dark path.
 ~
 0 0 2300
 D3
-Cüce Ormanı'na dönen bir patika görüyorsun.
+CÃ¼ce OrmanÄ±'na dÃ¶nen bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5273
 S
 #5281
-Şelalede~
-Burada çok güzel bir şelale görüyorsun. Sanki su değil de pırlantalar
-dökülüyor dağdan. Dokununca sadece su olduğundan emin oluyorsun. Burada
-biraz şekerleme yapmak geçiyor içinden. Yol kuzeye ve batıya devam ediyor.
+Åelalede~
+Burada Ã§ok gÃ¼zel bir ÅŸelale gÃ¶rÃ¼yorsun. Sanki su deÄŸil de pÄ±rlantalar
+dÃ¶kÃ¼lÃ¼yor daÄŸdan. Dokununca sadece su olduÄŸundan emin oluyorsun. Burada
+biraz ÅŸekerleme yapmak geÃ§iyor iÃ§inden. Yol kuzeye ve batÄ±ya devam ediyor.
 ~
 0 0 4
 D0
-Yolun kuzeye devam ettiğini görüyorsun.
+Yolun kuzeye devam ettiÄŸini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 0 5279

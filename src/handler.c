@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -56,6 +56,8 @@
 #include <ctype.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <wchar.h>
+#include <wctype.h>
 #include <string.h>
 #include <time.h>
 #include "merc.h"
@@ -74,7 +76,7 @@ DECLARE_DO_FUN(do_track		);
  * Local functions.
  */
 void	affect_modify	args( ( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd ) );
-ROOM_INDEX_DATA *	find_location	args( ( CHAR_DATA *ch, char *arg ) );
+ROOM_INDEX_DATA *	find_location	args( ( CHAR_DATA *ch, wchar_t *arg ) );
 
 /* returns number of people on an object */
 int count_users(OBJ_DATA *obj)
@@ -93,45 +95,45 @@ int count_users(OBJ_DATA *obj)
 }
 
 /* returns material number */
-int material_lookup (const char *name)
+int material_lookup (const wchar_t *name)
 {
     return 0;
 }
 
 /* returns race number */
-int race_lookup (const char *name)
+int race_lookup (const wchar_t *name)
 {
    int race;
-   char buf[MAX_STRING_LENGTH];
+   wchar_t buf[MAX_STRING_LENGTH];
 
-   if( !strcmp( name, "duergar" ) || !strcmp( name, "yeg" ) || !strcmp( name, "githyanki" ) || !strcmp( name, "arial" ) )
-	   strcpy( (char*)name, "gamayun");
-   if( !strcmp( name, "half-elf" ) || !strcmp( name, "dark-elf" ) || !strcmp( name, "rockseer" ) )
-	   strcpy( (char*)name, "çora");
-   if( !strcmp( name, "felar" ) || !strcmp( name, "börü" ) || !strcmp( name, "naga" ) || !strcmp( name, "ciren" ) )
-	   strcpy( (char*)name, "pardus");
-   if( !strcmp( name, "troll" ) || !strcmp( name, "trol" ) )
-	   strcpy( (char*)name, "asura");
+   if( !wcscmp( name, L"duergar" ) || !wcscmp( name, L"yeg" ) || !wcscmp( name, L"githyanki" ) || !wcscmp( name, L"arial" ) )
+	   wcscpy( (wchar_t*)name, L"gamayun");
+   if( !wcscmp( name, L"half-elf" ) || !wcscmp( name, L"dark-elf" ) || !wcscmp( name, L"rockseer" ) )
+	   wcscpy( (wchar_t*)name, L"Ã§ora");
+   if( !wcscmp( name, L"felar" ) || !wcscmp( name, L"bÃ¶rÃ¼" ) || !wcscmp( name, L"naga" ) || !wcscmp( name, L"ciren" ) )
+	   wcscpy( (wchar_t*)name, L"pardus");
+   if( !wcscmp( name, L"troll" ) || !wcscmp( name, L"trol" ) )
+	   wcscpy( (wchar_t*)name, L"asura");
 
    for ( race = 0; race_table[race].name[1] != NULL; race++)
    {
-     if (((LOWER(name[0]) == LOWER(race_table[race].name[0][0])) &&  !str_prefix( name,race_table[race].name[0])) ||
-        ((LOWER(name[0]) == LOWER(race_table[race].name[1][0])) &&  !str_prefix( name,race_table[race].name[1])) )
+     if (((towlower(name[0]) == towlower(race_table[race].name[0][0])) &&  !str_prefix( name,race_table[race].name[0])) ||
+        ((towlower(name[0]) == towlower(race_table[race].name[1][0])) &&  !str_prefix( name,race_table[race].name[1])) )
 	    return race;
    }
 
-   sprintf(buf, "Race_lookup: race not found %s.", name);
+   swprintf( buf, MAX_STRING_LENGTH-1, L"Race_lookup: race not found %s.", name);
    bug(buf, 0);
    return 0;
 }
 
-int liq_lookup (const char *name)
+int liq_lookup (const wchar_t *name)
 {
     int liq;
 
     for ( liq = 0; liq_table[liq].liq_name != NULL; liq++)
     {
-	if (LOWER(name[0]) == LOWER(liq_table[liq].liq_name[0])
+	if (towlower(name[0]) == towlower(liq_table[liq].liq_name[0])
 	&& !str_prefix(name,liq_table[liq].liq_name))
 	    return liq;
     }
@@ -139,13 +141,13 @@ int liq_lookup (const char *name)
     return LIQ_WATER;
 }
 
-int weapon_lookup (const char *name)
+int weapon_lookup (const wchar_t *name)
 {
     int type;
 
     for (type = 0; weapon_table[type].name != NULL; type++)
     {
-	if (LOWER(name[0]) == LOWER(weapon_table[type].name[0])
+	if (towlower(name[0]) == towlower(weapon_table[type].name[0])
 	&&  !str_prefix(name,weapon_table[type].name))
 	    return type;
     }
@@ -154,7 +156,7 @@ int weapon_lookup (const char *name)
 }
 
 /*
- * Belirtilen büyü/yetenek için ch'nin cabal durumu OK midir?
+ * Belirtilen bÃ¼yÃ¼/yetenek iÃ§in ch'nin cabal durumu OK midir?
  */
 bool cabal_ok(CHAR_DATA *ch, sh_int sn)
 {
@@ -164,31 +166,31 @@ bool cabal_ok(CHAR_DATA *ch, sh_int sn)
   if (IS_NPC(ch))
     return TRUE;
 
-  // belirtilen yetenek/büyü kabal baðýmlý deðil.
+  // belirtilen yetenek/bÃ¼yÃ¼ kabal baÄŸÄ±mlÄ± deÄŸil.
   if (skill_table[sn].cabal == CABAL_NONE)
     return TRUE;
 
-  // kabal eþyasýnýn tablodaki pointer'ý henüz boþ.
-  // kabal eþyasý extract edilmiþ olabilir.
+  // kabal eÅŸyasÄ±nÄ±n tablodaki pointer'Ä± henÃ¼z boÅŸ.
+  // kabal eÅŸyasÄ± extract edilmiÅŸ olabilir.
   if (cabal_table[ch->cabal].obj_ptr == NULL)
     return TRUE;
 
-  // Kabal eþyasý bir odaya býrakýlmamýþ.
-  // Alan kiþi envanterinde taþýyor olabilir.
+  // Kabal eÅŸyasÄ± bir odaya bÄ±rakÄ±lmamÄ±ÅŸ.
+  // Alan kiÅŸi envanterinde taÅŸÄ±yor olabilir.
   if (cabal_table[ch->cabal].obj_ptr->in_room == NULL )
     return TRUE;
 
-  // Kabal eþyasý olmasý gereken odada duruyor.
+  // Kabal eÅŸyasÄ± olmasÄ± gereken odada duruyor.
   if (cabal_table[ch->cabal].obj_ptr->in_room->vnum == cabal_table[ch->cabal].room_vnum)
     return TRUE;
 
   for (i=1;i < MAX_CABAL; i++)
   {
-    // Kabal eþyasý baþka bir kabalýn hedef odasýna koyulmuþ.
-    // Artýk eþyasý alýnan kabalýn güçleri iptal edilebilir.
+    // Kabal eÅŸyasÄ± baÅŸka bir kabalÄ±n hedef odasÄ±na koyulmuÅŸ.
+    // ArtÄ±k eÅŸyasÄ± alÄ±nan kabalÄ±n gÃ¼Ã§leri iptal edilebilir.
     if (cabal_table[ch->cabal].obj_ptr->in_room->vnum == cabal_table[i].room_vnum)
     {
-      send_to_char( "Kabal gücünün varolmadýðýný hissediyorsun.\n\r",ch);
+      send_to_char( L"Kabal gÃ¼cÃ¼nÃ¼n varolmadÄ±ÄŸÄ±nÄ± hissediyorsun.\n\r",ch);
       return FALSE;
     }
   }
@@ -196,13 +198,13 @@ bool cabal_ok(CHAR_DATA *ch, sh_int sn)
   return TRUE;
 }
 
-int weapon_type (const char *name)
+int weapon_type (const wchar_t *name)
 {
     int type;
 
     for (type = 0; weapon_table[type].name != NULL; type++)
     {
-        if (LOWER(name[0]) == LOWER(weapon_table[type].name[0])
+        if (towlower(name[0]) == towlower(weapon_table[type].name[0])
         &&  !str_prefix(name,weapon_table[type].name))
             return weapon_table[type].type;
     }
@@ -211,13 +213,13 @@ int weapon_type (const char *name)
 }
 
 
-int item_lookup(const char *name)
+int item_lookup(const wchar_t *name)
 {
     int type;
 
     for (type = 0; item_table[type].name != NULL; type++)
     {
-        if (LOWER(name[0]) == LOWER(item_table[type].name[0])
+        if (towlower(name[0]) == towlower(item_table[type].name[0])
         &&  !str_prefix(name,item_table[type].name))
             return item_table[type].type;
     }
@@ -225,24 +227,24 @@ int item_lookup(const char *name)
     return -1;
 }
 
-const char *item_name(int item_type)
+const wchar_t *item_name(int item_type)
 {
     int type;
 
     for (type = 0; item_table[type].name != NULL; type++)
 	if (item_type == item_table[type].type)
 	    return item_table[type].name;
-    return "none";
+    return L"none";
 }
 
-const char *weapon_name( int weapon_type)
+const wchar_t *weapon_name( int weapon_type)
 {
     int type;
 
     for (type = 0; weapon_table[type].name != NULL; type++)
         if (weapon_type == weapon_table[type].type)
             return weapon_table[type].name;
-    return "exotic";
+    return L"exotic";
 }
 
 void familya_check_improve(CHAR_DATA* ch,CHAR_DATA* victim)
@@ -264,16 +266,16 @@ void familya_check_improve(CHAR_DATA* ch,CHAR_DATA* victim)
     return;
   }
   ch->pcdata->familya[victim->race]++;
-  printf_to_char(ch,"{g%s ýrkýna iliþkin irfanýn artýyor!{x\n\r",race_table[victim->race].name[1]);
+  printf_to_char(ch,L"{g%s Ä±rkÄ±na iliÅŸkin irfanÄ±n artÄ±yor!{x\n\r",race_table[victim->race].name[1]);
   return;
 }
 
 /*
  * Check the material
  */
-bool check_material( OBJ_DATA *obj, char *material )
+bool check_material( OBJ_DATA *obj, wchar_t *material )
 {
-    if ( strstr( obj->material, material ) != NULL )
+    if ( wcsstr( obj->material, material ) != NULL )
 	return TRUE;
     else
         return FALSE;
@@ -283,19 +285,19 @@ bool check_material( OBJ_DATA *obj, char *material )
 bool is_metal( OBJ_DATA *obj )
 {
 
-  if ( check_material(obj, (char*)"silver") ||
-       check_material(obj, (char*)"gold") ||
-       check_material(obj, (char*)"iron") ||
-       check_material(obj, (char*)"mithril") ||
-       check_material(obj, (char*)"adamantite") ||
-       check_material(obj, (char*)"steel") ||
-       check_material(obj, (char*)"lead") ||
-       check_material(obj, (char*)"bronze") ||
-       check_material(obj, (char*)"copper") ||
-       check_material(obj, (char*)"brass") ||
-       check_material(obj, (char*)"platinium") ||
-       check_material(obj, (char*)"titanium") ||
-       check_material(obj, (char*)"aliminum") )
+  if ( check_material(obj, (wchar_t*)"silver") ||
+       check_material(obj, (wchar_t*)"gold") ||
+       check_material(obj, (wchar_t*)"iron") ||
+       check_material(obj, (wchar_t*)"mithril") ||
+       check_material(obj, (wchar_t*)"adamantite") ||
+       check_material(obj, (wchar_t*)"steel") ||
+       check_material(obj, (wchar_t*)"lead") ||
+       check_material(obj, (wchar_t*)"bronze") ||
+       check_material(obj, (wchar_t*)"copper") ||
+       check_material(obj, (wchar_t*)"brass") ||
+       check_material(obj, (wchar_t*)"platinium") ||
+       check_material(obj, (wchar_t*)"titanium") ||
+       check_material(obj, (wchar_t*)"aliminum") )
     return TRUE;
 
   return FALSE;
@@ -305,20 +307,20 @@ bool is_metal( OBJ_DATA *obj )
 bool may_float( OBJ_DATA *obj )
 {
 
-    if ( check_material( obj, (char*)"wood" )  ||
-         check_material( obj, (char*)"ebony" )  ||
-         check_material( obj, (char*)"ice" )  ||
-         check_material( obj, (char*)"energy" )  ||
-         check_material( obj, (char*)"hardwood" )  ||
-         check_material( obj, (char*)"softwood" )  ||
-         check_material( obj, (char*)"flesh" )  ||
-         check_material( obj, (char*)"silk" )  ||
-         check_material( obj, (char*)"wool" )  ||
-         check_material( obj, (char*)"cloth" )  ||
-         check_material( obj, (char*)"fur" )  ||
-         check_material( obj, (char*)"water" )  ||
-         check_material( obj, (char*)"ice" )  ||
-         check_material( obj, (char*)"oak" ) )
+    if ( check_material( obj, (wchar_t*)"wood" )  ||
+         check_material( obj, (wchar_t*)"ebony" )  ||
+         check_material( obj, (wchar_t*)"ice" )  ||
+         check_material( obj, (wchar_t*)"energy" )  ||
+         check_material( obj, (wchar_t*)"hardwood" )  ||
+         check_material( obj, (wchar_t*)"softwood" )  ||
+         check_material( obj, (wchar_t*)"flesh" )  ||
+         check_material( obj, (wchar_t*)"silk" )  ||
+         check_material( obj, (wchar_t*)"wool" )  ||
+         check_material( obj, (wchar_t*)"cloth" )  ||
+         check_material( obj, (wchar_t*)"fur" )  ||
+         check_material( obj, (wchar_t*)"water" )  ||
+         check_material( obj, (wchar_t*)"ice" )  ||
+         check_material( obj, (wchar_t*)"oak" ) )
        return TRUE;
 
     if ( obj->item_type == ITEM_BOAT )
@@ -330,23 +332,23 @@ bool may_float( OBJ_DATA *obj )
 
 bool cant_float( OBJ_DATA *obj )
 {
-    if ( check_material( obj, (char*)"steel" ) ||
-         check_material( obj, (char*)"iron" ) ||
-         check_material( obj, (char*)"brass" ) ||
-         check_material( obj, (char*)"silver" ) ||
-         check_material( obj, (char*)"gold" ) ||
-         check_material( obj, (char*)"ivory" ) ||
-         check_material( obj, (char*)"copper" ) ||
-         check_material( obj, (char*)"diamond" ) ||
-         check_material( obj, (char*)"pearl" ) ||
-         check_material( obj, (char*)"gem" ) ||
-         check_material( obj, (char*)"platinium" ) ||
-         check_material( obj, (char*)"ruby" ) ||
-         check_material( obj, (char*)"bronze" ) ||
-         check_material( obj, (char*)"titanium" ) ||
-         check_material( obj, (char*)"mithril" ) ||
-         check_material( obj, (char*)"obsidian" ) ||
-         check_material( obj, (char*)"lead" ) )
+    if ( check_material( obj, (wchar_t*)"steel" ) ||
+         check_material( obj, (wchar_t*)"iron" ) ||
+         check_material( obj, (wchar_t*)"brass" ) ||
+         check_material( obj, (wchar_t*)"silver" ) ||
+         check_material( obj, (wchar_t*)"gold" ) ||
+         check_material( obj, (wchar_t*)"ivory" ) ||
+         check_material( obj, (wchar_t*)"copper" ) ||
+         check_material( obj, (wchar_t*)"diamond" ) ||
+         check_material( obj, (wchar_t*)"pearl" ) ||
+         check_material( obj, (wchar_t*)"gem" ) ||
+         check_material( obj, (wchar_t*)"platinium" ) ||
+         check_material( obj, (wchar_t*)"ruby" ) ||
+         check_material( obj, (wchar_t*)"bronze" ) ||
+         check_material( obj, (wchar_t*)"titanium" ) ||
+         check_material( obj, (wchar_t*)"mithril" ) ||
+         check_material( obj, (wchar_t*)"obsidian" ) ||
+         check_material( obj, (wchar_t*)"lead" ) )
        return TRUE;
 
     return FALSE;
@@ -377,13 +379,13 @@ int floating_time( OBJ_DATA *obj )
  return ( ftime < 0 ? 0 : ftime);
 }
 
-int attack_lookup  (const char *name)
+int attack_lookup  (const wchar_t *name)
 {
     int att;
 
     for ( att = 0; attack_table[att].name != NULL; att++)
     {
-	if (LOWER(name[0]) == LOWER(attack_table[att].name[0])
+	if (towlower(name[0]) == towlower(attack_table[att].name[0])
 	&&  !str_prefix(name,attack_table[att].name))
 	    return att;
     }
@@ -392,13 +394,13 @@ int attack_lookup  (const char *name)
 }
 
 /* returns a flag for wiznet */
-long wiznet_lookup (const char *name)
+long wiznet_lookup (const wchar_t *name)
 {
     int flag;
 
     for (flag = 0; wiznet_table[flag].name != NULL; flag++)
     {
-	if (LOWER(name[0]) == LOWER(wiznet_table[flag].name[0])
+	if (towlower(name[0]) == towlower(wiznet_table[flag].name[0])
 	&& !str_prefix(name,wiznet_table[flag].name))
 	    return flag;
     }
@@ -407,14 +409,14 @@ long wiznet_lookup (const char *name)
 }
 
 /* returns class number */
-int class_lookup (const char *name)
+int class_lookup (const wchar_t *name)
 {
    int iclass;
 
    for ( iclass = 0; iclass < MAX_CLASS; iclass++)
    {
-        if ( (LOWER(name[0]) == LOWER(class_table[iclass].name[0][0]) &&  !str_prefix( name,class_table[iclass].name[0])) ||
-              (LOWER(name[0]) == LOWER(class_table[iclass].name[1][0]) &&  !str_prefix( name,class_table[iclass].name[1])) )
+        if ( (towlower(name[0]) == towlower(class_table[iclass].name[0][0]) &&  !str_prefix( name,class_table[iclass].name[0])) ||
+              (towlower(name[0]) == towlower(class_table[iclass].name[1][0]) &&  !str_prefix( name,class_table[iclass].name[1])) )
 	{
             return iclass;
 	}
@@ -516,7 +518,7 @@ int get_skill(CHAR_DATA *ch, int sn)
 
     else if (sn < -1 || sn > MAX_SKILL)
     {
-	bug("Bad sn %d in get_skill.",sn);
+	bug( L"Bad sn %d in get_skill.",sn);
 	skill = 0;
     }
 
@@ -736,8 +738,8 @@ void reset_char(CHAR_DATA *ch)
   {
     ch->pcdata->ghost_mode_counter = 0;
     REMOVE_BIT(ch->act,PLR_GHOST);
-    printf_to_char(ch,"Ete kemiðe büründüðünü hissediyorsun. Arkaný kollamaya baþlasan iyi olur!\n\r");
-    act ("$n ete kemiðe bürünüyor!",ch,NULL,NULL,TO_ROOM);
+    printf_to_char(ch,L"Ete kemiÄŸe bÃ¼rÃ¼ndÃ¼ÄŸÃ¼nÃ¼ hissediyorsun. ArkanÄ± kollamaya baÅŸlasan iyi olur!\n\r");
+    act ( L"$n ete kemiÄŸe bÃ¼rÃ¼nÃ¼yor!",ch,NULL,NULL,TO_ROOM);
     while ( ch->affected )
       affect_remove( ch, ch->affected );
     ch->affected_by	= 0;
@@ -832,10 +834,10 @@ int can_carry_w( CHAR_DATA *ch )
  * See if a string is one of the names of an object.
  */
 
-bool is_name( char *str, char *namelist )
+bool is_name( wchar_t *str, wchar_t *namelist )
 {
-    char name[MAX_INPUT_LENGTH], part[MAX_INPUT_LENGTH];
-    char *list, *string;
+    wchar_t name[MAX_INPUT_LENGTH], part[MAX_INPUT_LENGTH];
+    wchar_t *list, *string;
 
 
     string = str;
@@ -988,7 +990,7 @@ void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd )
     switch ( paf->location )
     {
     default:
-	bug( "Affect_modify: unknown location %d.", paf->location );
+	bug( L"Affect_modify: unknown location %d.", paf->location );
 	return;
 
     case APPLY_NONE:						break;
@@ -1037,8 +1039,8 @@ void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd )
 	if ( depth == 0 )
 	{
 	    depth++;
-      act( "$p objesini býrakýyorsun.", ch, hold, NULL, TO_CHAR );
-	    act( "$n $p objesini býrakýyor.", ch, hold, NULL, TO_ROOM );
+      act( L"$p objesini bÄ±rakÄ±yorsun.", ch, hold, NULL, TO_CHAR );
+	    act( L"$n $p objesini bÄ±rakÄ±yor.", ch, hold, NULL, TO_ROOM );
 	    obj_from_char( hold );
 	    obj_to_room( hold, ch->in_room );
 	    depth--;
@@ -1051,8 +1053,8 @@ void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd )
 	if ( depth == 0 )
 	{
 	    depth++;
-      act("$p objesini býrakýyorsun.", ch, hold, NULL, TO_CHAR );
-	    act("$n $p objesini býrakýyor.", ch, hold, NULL, TO_ROOM );
+      act( L"$p objesini bÄ±rakÄ±yorsun.", ch, hold, NULL, TO_CHAR );
+	    act( L"$n $p objesini bÄ±rakÄ±yor.", ch, hold, NULL, TO_ROOM );
 	    obj_from_char( hold );
 	    obj_to_room( hold, ch->in_room );
 	    depth--;
@@ -1065,8 +1067,8 @@ void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd )
 	if ( depth == 0 )
 	{
 	    depth++;
-      act( "$p objesini býrakýyorsun.", ch, hold, NULL, TO_CHAR );
-	    act( "$n $p objesini býrakýyor.", ch, hold, NULL, TO_ROOM );
+      act( L"$p objesini bÄ±rakÄ±yorsun.", ch, hold, NULL, TO_CHAR );
+	    act( L"$n $p objesini bÄ±rakÄ±yor.", ch, hold, NULL, TO_ROOM );
 	    obj_from_char( hold );
 	    obj_to_room( hold, ch->in_room );
 	    depth--;
@@ -1303,7 +1305,7 @@ void affect_remove( CHAR_DATA *ch, AFFECT_DATA *paf )
 
     if ( ch->affected == NULL )
     {
-	bug( "Affect_remove: no affect.", 0 );
+	bug( L"Affect_remove: no affect.", 0 );
 	return;
     }
 
@@ -1330,7 +1332,7 @@ void affect_remove( CHAR_DATA *ch, AFFECT_DATA *paf )
 
 	if ( prev == NULL )
 	{
-	    bug( "Affect_remove: cannot find paf.", 0 );
+	    bug( L"Affect_remove: cannot find paf.", 0 );
 	    return;
 	}
     }
@@ -1346,7 +1348,7 @@ void affect_remove_obj( OBJ_DATA *obj, AFFECT_DATA *paf)
     int where, vector;
     if ( obj->affected == NULL )
     {
-        bug( "Affect_remove_object: no affect.", 0 );
+        bug( L"Affect_remove_object: no affect.", 0 );
         return;
     }
 
@@ -1388,7 +1390,7 @@ void affect_remove_obj( OBJ_DATA *obj, AFFECT_DATA *paf)
 
         if ( prev == NULL )
         {
-            bug( "Affect_remove_object: cannot find paf.", 0 );
+            bug( L"Affect_remove_object: cannot find paf.", 0 );
             return;
         }
     }
@@ -1490,7 +1492,7 @@ void obj_from_char( OBJ_DATA *obj )
 
     if ( ( ch = obj->carried_by ) == NULL )
     {
-	bug( "Obj_from_char: null ch.", 0 );
+	bug( L"Obj_from_char: null ch.", 0 );
 	return;
     }
 
@@ -1515,7 +1517,7 @@ void obj_from_char( OBJ_DATA *obj )
 	}
 
 	if ( prev == NULL )
-	    bug( "Obj_from_char: obj not in list.", 0 );
+	    bug( L"Obj_from_char: obj not in list.", 0 );
     }
 
     obj->carried_by	 = NULL;
@@ -1595,7 +1597,7 @@ void equip_char( CHAR_DATA *ch, OBJ_DATA *obj, int iWear )
 
     if ( count_worn( ch, iWear ) >= max_can_wear(ch, iWear) )
     {
-	bug( "Equip_char: already equipped (%d).", iWear );
+	bug( L"Equip_char: already equipped (%d).", iWear );
 	return;
     }
 
@@ -1606,8 +1608,8 @@ void equip_char( CHAR_DATA *ch, OBJ_DATA *obj, int iWear )
 	/*
 	 * Thanks to Morgenes for the bug fix here!
 	 */
-   act("$p seni çarparak elinden düþüyor.", ch, obj, NULL, TO_CHAR );
- 	act("$p $m çarparak elinden düþüyor.",  ch, obj, NULL, TO_ROOM );
+   act( L"$p seni Ã§arparak elinden dÃ¼ÅŸÃ¼yor.", ch, obj, NULL, TO_CHAR );
+ 	act( L"$p $m Ã§arparak elinden dÃ¼ÅŸÃ¼yor.",  ch, obj, NULL, TO_ROOM );
 	obj_from_char( obj );
 	obj_to_room( obj, ch->in_room );
 	return;
@@ -1654,7 +1656,7 @@ void unequip_char( CHAR_DATA *ch, OBJ_DATA *obj )
 
     if ( obj->wear_loc == WEAR_NONE )
     {
-	bug( "Unequip_char: already unequipped.", 0 );
+	bug( L"Unequip_char: already unequipped.", 0 );
 	return;
     }
 
@@ -1694,7 +1696,7 @@ void unequip_char( CHAR_DATA *ch, OBJ_DATA *obj )
     for ( paf = obj->affected; paf != NULL; paf = paf->next )
 	if ( paf->location == APPLY_SPELL_AFFECT )
 	{
-	    bug ( "Norm-Apply: %d", 0 );
+	    bug ( L"Norm-Apply: %d", 0 );
 	    for ( lpaf = ch->affected; lpaf != NULL; lpaf = lpaf_next )
 	    {
 		lpaf_next = lpaf->next;
@@ -1702,8 +1704,8 @@ void unequip_char( CHAR_DATA *ch, OBJ_DATA *obj )
 		    (lpaf->level == paf->level) &&
 		    (lpaf->location == APPLY_SPELL_AFFECT))
 		{
-		    bug ( "location = %d", lpaf->location );
-		    bug ( "type = %d", lpaf->type );
+		    bug ( L"location = %d", lpaf->location );
+		    bug ( L"type = %d", lpaf->type );
 		    affect_remove( ch, lpaf );
 		    lpaf_next = NULL;
 		}
@@ -1786,7 +1788,7 @@ void obj_from_obj( OBJ_DATA *obj )
 
     if ( ( obj_from = obj->in_obj ) == NULL )
     {
-	bug( "Obj_from_obj: null obj_from.", 0 );
+	bug( L"Obj_from_obj: null obj_from.", 0 );
 	return;
     }
 
@@ -1809,7 +1811,7 @@ void obj_from_obj( OBJ_DATA *obj )
 
 	if ( prev == NULL )
 	{
-	    bug( "Obj_from_obj: obj not found.", 0 );
+	    bug( L"Obj_from_obj: obj not found.", 0 );
 	    return;
 	}
     }
@@ -1854,11 +1856,11 @@ void extract_obj_1( OBJ_DATA *obj, bool count )
     OBJ_DATA *obj_content;
     OBJ_DATA *obj_next;
     int i;
-    char buf[MAX_STRING_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
 
     if (obj->extracted)  /* if the object has already been extracted once */
       {
-        sprintf(buf, "Warning! Extraction of %s, vnum %d.", obj->name,
+        swprintf( buf, MAX_STRING_LENGTH-1, L"Warning! Extraction of %s, vnum %d.", obj->name,
                 obj->pIndexData->vnum);
         bug(buf, 0);
         return; /* if it's already been extracted, something bad is going on */
@@ -1898,7 +1900,7 @@ void extract_obj_1( OBJ_DATA *obj, bool count )
 	   if (is_name(obj->name,wch->name) )
 		{
 		 REMOVE_BIT(wch->act,PLR_NO_EXP);
-     send_to_char("Ruhunu yakalýyorsun...\n\r",wch);
+     send_to_char( L"Ruhunu yakalÄ±yorsun...\n\r",wch);
 		 break;
 		}
 	  }
@@ -1922,7 +1924,7 @@ void extract_obj_1( OBJ_DATA *obj, bool count )
 
 	if ( prev == NULL )
 	{
-	    bug( "Extract_obj: obj %d not found.", obj->pIndexData->vnum );
+	    bug( L"Extract_obj: obj %d not found.", obj->pIndexData->vnum );
 	    return;
 	}
     }
@@ -1954,13 +1956,13 @@ void extract_char_org( CHAR_DATA *ch, bool fPull, bool Count )
     OBJ_DATA *obj;
     OBJ_DATA *obj_next;
     int i;
-    char buf[MAX_STRING_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
 
     if (fPull) /* only for total extractions should it check */
     {
     if (ch->extracted)  /* if the char has already been extracted once */
       {
-        sprintf(buf, "Warning! Extraction of %s.", ch->name);
+        swprintf( buf, MAX_STRING_LENGTH-1, L"Warning! Extraction of %s.", ch->name);
         bug(buf, 0);
         return; /* if it's already been extracted, something bad is going on */
       }
@@ -1972,7 +1974,7 @@ void extract_char_org( CHAR_DATA *ch, bool fPull, bool Count )
 
     if ( ch->in_room == NULL )
     {
-	bug( "Extract_char: NULL.", 0 );
+	bug( L"Extract_char: NULL.", 0 );
 	return;
     }
 
@@ -2016,7 +2018,7 @@ void extract_char_org( CHAR_DATA *ch, bool fPull, bool Count )
 
     if ( ch->desc != NULL && ch->desc->original != NULL )
     {
-	do_return( ch, (char*)"" );
+	do_return( ch, (wchar_t*)"" );
 	ch->desc = NULL;
     }
 
@@ -2045,7 +2047,7 @@ void extract_char_org( CHAR_DATA *ch, bool fPull, bool Count )
 
 	if ( prev == NULL )
 	{
-	    bug( "Extract_char: char not found.", 0 );
+	    bug( L"Extract_char: char not found.", 0 );
 	    return;
 	}
     }
@@ -2060,9 +2062,9 @@ void extract_char_org( CHAR_DATA *ch, bool fPull, bool Count )
 /*
  * Find a char in the world.
  */
-CHAR_DATA *get_char_world( CHAR_DATA *ch, char *argument )
+CHAR_DATA *get_char_world( CHAR_DATA *ch, wchar_t *argument )
 {
-    char arg[MAX_INPUT_LENGTH];
+    wchar_t arg[MAX_INPUT_LENGTH];
     CHAR_DATA *wch;
     int number;
     int count;
@@ -2108,9 +2110,9 @@ OBJ_DATA *get_obj_type( OBJ_INDEX_DATA *pObjIndex )
 /*
  * Find an obj in a list.
  */
-OBJ_DATA *get_obj_list( CHAR_DATA *ch, char *argument, OBJ_DATA *list )
+OBJ_DATA *get_obj_list( CHAR_DATA *ch, wchar_t *argument, OBJ_DATA *list )
 {
-    char arg[MAX_INPUT_LENGTH];
+    wchar_t arg[MAX_INPUT_LENGTH];
     OBJ_DATA *obj;
     int number;
     int count;
@@ -2134,9 +2136,9 @@ OBJ_DATA *get_obj_list( CHAR_DATA *ch, char *argument, OBJ_DATA *list )
 /*
  * Find an obj in player's inventory.
  */
-OBJ_DATA *get_obj_carry( CHAR_DATA *ch, char *argument )
+OBJ_DATA *get_obj_carry( CHAR_DATA *ch, wchar_t *argument )
 {
-    char arg[MAX_INPUT_LENGTH];
+    wchar_t arg[MAX_INPUT_LENGTH];
     OBJ_DATA *obj;
     int number;
     int count;
@@ -2162,9 +2164,9 @@ OBJ_DATA *get_obj_carry( CHAR_DATA *ch, char *argument )
 /*
  * Find an obj in player's equipment.
  */
-OBJ_DATA *get_obj_wear( CHAR_DATA *ch, char *argument )
+OBJ_DATA *get_obj_wear( CHAR_DATA *ch, wchar_t *argument )
 {
-    char arg[MAX_INPUT_LENGTH];
+    wchar_t arg[MAX_INPUT_LENGTH];
     OBJ_DATA *obj;
     int number;
     int count;
@@ -2190,7 +2192,7 @@ OBJ_DATA *get_obj_wear( CHAR_DATA *ch, char *argument )
 /*
  * Find an obj in the room or in inventory.
  */
-OBJ_DATA *get_obj_here( CHAR_DATA *ch, char *argument )
+OBJ_DATA *get_obj_here( CHAR_DATA *ch, wchar_t *argument )
 {
     OBJ_DATA *obj;
 
@@ -2212,9 +2214,9 @@ OBJ_DATA *get_obj_here( CHAR_DATA *ch, char *argument )
 /*
  * Find an obj in the world.
  */
-OBJ_DATA *get_obj_world( CHAR_DATA *ch, char *argument )
+OBJ_DATA *get_obj_world( CHAR_DATA *ch, wchar_t *argument )
 {
-    char arg[MAX_INPUT_LENGTH];
+    wchar_t arg[MAX_INPUT_LENGTH];
     OBJ_DATA *obj;
     int number;
     int count;
@@ -2246,7 +2248,7 @@ void deduct_cost(CHAR_DATA *ch, int cost)
 
     if (ch->silver < 0)
     {
-	bug("deduct costs: silver %d < 0",ch->silver);
+	bug( L"deduct costs: silver %d < 0",ch->silver);
 	ch->silver = 0;
     }
 }
@@ -2255,12 +2257,12 @@ void deduct_cost(CHAR_DATA *ch, int cost)
  */
 OBJ_DATA *create_money( int silver )
 {
-    char buf[MAX_STRING_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
     OBJ_DATA *obj;
 
     if ( silver < 0 || silver == 0 )
     {
-	bug( "Create_money: zero or negative money.",silver);
+	bug( L"Create_money: zero or negative money.",silver);
 	silver = UMAX(1,silver);
     }
 
@@ -2271,7 +2273,7 @@ OBJ_DATA *create_money( int silver )
     else
     {
         obj = create_object( get_obj_index( OBJ_VNUM_SILVER_SOME ), 0 );
-        sprintf( buf, obj->short_descr, silver );
+        swprintf( buf, MAX_STRING_LENGTH-1, obj->short_descr, silver );
         free_string( obj->short_descr );
         obj->short_descr        = str_dup( buf );
         obj->value[0]           = silver;
@@ -2353,7 +2355,7 @@ bool can_see( CHAR_DATA *ch, CHAR_DATA *victim )
 	return TRUE;
 
     if ( ch == NULL || victim == NULL )
-	dump_to_scr( (char*)">>>>>>>> CAN_ SEE ERROR <<<<<<<<<<<\n\r" );
+	dump_to_scr( (wchar_t*)">>>>>>>> CAN_ SEE ERROR <<<<<<<<<<<\n\r" );
 
     if ( get_trust(ch) < victim->invis_level)
 	return FALSE;
@@ -2478,43 +2480,43 @@ bool can_drop_obj( CHAR_DATA *ch, OBJ_DATA *obj )
 /*
  * Return ascii name of an item type.
  */
-char *item_type_name( OBJ_DATA *obj )
+wchar_t *item_type_name( OBJ_DATA *obj )
 {
     switch ( obj->item_type )
     {
-    case ITEM_LIGHT:		return (char*)"light";
-    case ITEM_SCROLL:		return (char*)"scroll";
-    case ITEM_WAND:		return (char*)"wand";
-    case ITEM_STAFF:		return (char*)"staff";
-    case ITEM_WEAPON:		return (char*)"weapon";
-    case ITEM_TREASURE:		return (char*)"treasure";
-    case ITEM_ARMOR:		return (char*)"armor";
-    case ITEM_CLOTHING:		return (char*)"clothing";
-    case ITEM_POTION:		return (char*)"potion";
-    case ITEM_FURNITURE:	return (char*)"furniture";
-    case ITEM_TRASH:		return (char*)"trash";
-    case ITEM_CONTAINER:	return (char*)"container";
-    case ITEM_DRINK_CON:	return (char*)"drink container";
-    case ITEM_KEY:		return (char*)"key";
-    case ITEM_MAYMUNCUK:		return (char*)"maymuncuk";
-    case ITEM_FOOD:		return (char*)"food";
-    case ITEM_MONEY:		return (char*)"money";
-    case ITEM_BOAT:		return (char*)"boat";
-    case ITEM_CORPSE_NPC:	return (char*)"npc corpse";
-    case ITEM_CORPSE_PC:	return (char*)"pc corpse";
-    case ITEM_FOUNTAIN:		return (char*)"fountain";
-    case ITEM_PILL:		return (char*)"pill";
-    case ITEM_MAP:		return (char*)"map";
-    case ITEM_PORTAL:		return (char*)"portal";
-    case ITEM_WARP_STONE:	return (char*)"warp stone";
-    case ITEM_GEM:		return (char*)"gem";
-    case ITEM_JEWELRY:		return (char*)"jewelry";
-    case ITEM_JUKEBOX:		return (char*)"juke box";
-    case ITEM_TATTOO:		return (char*)"tattoo";
+    case ITEM_LIGHT:		return (wchar_t*)"light";
+    case ITEM_SCROLL:		return (wchar_t*)"scroll";
+    case ITEM_WAND:		return (wchar_t*)"wand";
+    case ITEM_STAFF:		return (wchar_t*)"staff";
+    case ITEM_WEAPON:		return (wchar_t*)"weapon";
+    case ITEM_TREASURE:		return (wchar_t*)"treasure";
+    case ITEM_ARMOR:		return (wchar_t*)"armor";
+    case ITEM_CLOTHING:		return (wchar_t*)"clothing";
+    case ITEM_POTION:		return (wchar_t*)"potion";
+    case ITEM_FURNITURE:	return (wchar_t*)"furniture";
+    case ITEM_TRASH:		return (wchar_t*)"trash";
+    case ITEM_CONTAINER:	return (wchar_t*)"container";
+    case ITEM_DRINK_CON:	return (wchar_t*)"drink container";
+    case ITEM_KEY:		return (wchar_t*)"key";
+    case ITEM_MAYMUNCUK:		return (wchar_t*)"maymuncuk";
+    case ITEM_FOOD:		return (wchar_t*)"food";
+    case ITEM_MONEY:		return (wchar_t*)"money";
+    case ITEM_BOAT:		return (wchar_t*)"boat";
+    case ITEM_CORPSE_NPC:	return (wchar_t*)"npc corpse";
+    case ITEM_CORPSE_PC:	return (wchar_t*)"pc corpse";
+    case ITEM_FOUNTAIN:		return (wchar_t*)"fountain";
+    case ITEM_PILL:		return (wchar_t*)"pill";
+    case ITEM_MAP:		return (wchar_t*)"map";
+    case ITEM_PORTAL:		return (wchar_t*)"portal";
+    case ITEM_WARP_STONE:	return (wchar_t*)"warp stone";
+    case ITEM_GEM:		return (wchar_t*)"gem";
+    case ITEM_JEWELRY:		return (wchar_t*)"jewelry";
+    case ITEM_JUKEBOX:		return (wchar_t*)"juke box";
+    case ITEM_TATTOO:		return (wchar_t*)"tattoo";
     }
 
-    bug( "Item_type_name: unknown type %d.", obj->item_type );
-    return (char*)"(unknown)";
+    bug( L"Item_type_name: unknown type %d.", obj->item_type );
+    return (wchar_t*)"(unknown)";
 }
 
 
@@ -2522,39 +2524,39 @@ char *item_type_name( OBJ_DATA *obj )
 /*
  * Return ascii name of an affect location.
  */
-char *affect_loc_name( int location )
+wchar_t *affect_loc_name( int location )
 {
     switch ( location )
     {
-    case APPLY_NONE:		return (char*)"none";
-    case APPLY_STR:		return (char*)"strength";
-    case APPLY_DEX:		return (char*)"dexterity";
-    case APPLY_INT:		return (char*)"intelligence";
-    case APPLY_WIS:		return (char*)"wisdom";
-    case APPLY_CON:		return (char*)"constitution";
-    case APPLY_CHA:		return (char*)"charisma";
-    case APPLY_CLASS:		return (char*)"class";
-    case APPLY_LEVEL:		return (char*)"level";
-    case APPLY_AGE:		return (char*)"age";
-    case APPLY_MANA:		return (char*)"mana";
-    case APPLY_HIT:		return (char*)"hp";
-    case APPLY_MOVE:		return (char*)"moves";
-    case APPLY_GOLD:		return (char*)"gold";
-    case APPLY_EXP:		return (char*)"experience";
-    case APPLY_AC:		return (char*)"armor class";
-    case APPLY_HITROLL:		return (char*)"hit roll";
-    case APPLY_DAMROLL:		return (char*)"damage roll";
-    case APPLY_SIZE:		return (char*)"size";
-    case APPLY_SAVES:		return (char*)"saves";
-    case APPLY_SAVING_ROD:	return (char*)"save vs rod";
-    case APPLY_SAVING_PETRI:	return (char*)"save vs petrification";
-    case APPLY_SAVING_BREATH:	return (char*)"save vs breath";
-    case APPLY_SAVING_SPELL:	return (char*)"save vs spell";
-    case APPLY_SPELL_AFFECT:	return (char*)"none";
+    case APPLY_NONE:		return (wchar_t*)"none";
+    case APPLY_STR:		return (wchar_t*)"strength";
+    case APPLY_DEX:		return (wchar_t*)"dexterity";
+    case APPLY_INT:		return (wchar_t*)"intelligence";
+    case APPLY_WIS:		return (wchar_t*)"wisdom";
+    case APPLY_CON:		return (wchar_t*)"constitution";
+    case APPLY_CHA:		return (wchar_t*)"charisma";
+    case APPLY_CLASS:		return (wchar_t*)"class";
+    case APPLY_LEVEL:		return (wchar_t*)"level";
+    case APPLY_AGE:		return (wchar_t*)"age";
+    case APPLY_MANA:		return (wchar_t*)"mana";
+    case APPLY_HIT:		return (wchar_t*)"hp";
+    case APPLY_MOVE:		return (wchar_t*)"moves";
+    case APPLY_GOLD:		return (wchar_t*)"gold";
+    case APPLY_EXP:		return (wchar_t*)"experience";
+    case APPLY_AC:		return (wchar_t*)"armor class";
+    case APPLY_HITROLL:		return (wchar_t*)"hit roll";
+    case APPLY_DAMROLL:		return (wchar_t*)"damage roll";
+    case APPLY_SIZE:		return (wchar_t*)"size";
+    case APPLY_SAVES:		return (wchar_t*)"saves";
+    case APPLY_SAVING_ROD:	return (wchar_t*)"save vs rod";
+    case APPLY_SAVING_PETRI:	return (wchar_t*)"save vs petrification";
+    case APPLY_SAVING_BREATH:	return (wchar_t*)"save vs breath";
+    case APPLY_SAVING_SPELL:	return (wchar_t*)"save vs spell";
+    case APPLY_SPELL_AFFECT:	return (wchar_t*)"none";
     }
 
-    bug( "Affect_location_name: unknown location %d.", location );
-    return (char*)"(unknown)";
+    bug( L"Affect_location_name: unknown location %d.", location );
+    return (wchar_t*)"(unknown)";
 }
 
 
@@ -2562,67 +2564,67 @@ char *affect_loc_name( int location )
 /*
  * Return ascii name of an affect bit vector.
  */
-char *affect_bit_name( int vector )
+wchar_t *affect_bit_name( int vector )
 {
-    static char buf[512];
+    static wchar_t buf[512];
 
     buf[0] = '\0';
-    if ( vector & AFF_BLIND         ) strcat( buf, " blind"         );
-    if ( vector & AFF_INVISIBLE     ) strcat( buf, " invisible"     );
-    if ( vector & AFF_IMP_INVIS     ) strcat( buf, " imp_invis"     );
-    if ( vector & AFF_FADE	    ) strcat( buf, " fade"     	    );
-    if ( vector & AFF_SCREAM	    ) strcat( buf, " scream"        );
-    if ( vector & AFF_BLOODTHIRST   ) strcat( buf, " bloodthirst"   );
-    if ( vector & AFF_STUN	    ) strcat( buf, " stun"   );
-    if ( vector & AFF_SANCTUARY     ) strcat( buf, " sanctuary"     );
-    if ( vector & AFF_FAERIE_FIRE   ) strcat( buf, " faerie_fire"   );
-    if ( vector & AFF_INFRARED      ) strcat( buf, " infrared"      );
-    if ( vector & AFF_CURSE         ) strcat( buf, " curse"         );
-    if ( vector & AFF_POISON        ) strcat( buf, " poison"        );
-    if ( vector & AFF_PROTECT_EVIL  ) strcat( buf, " prot_evil"     );
-    if ( vector & AFF_PROTECT_GOOD  ) strcat( buf, " prot_good"     );
-    if ( vector & AFF_SLEEP         ) strcat( buf, " sleep"         );
-    if ( vector & AFF_SNEAK         ) strcat( buf, " sneak"         );
-    if ( vector & AFF_HIDE          ) strcat( buf, " hide"          );
-    if ( vector & AFF_CHARM         ) strcat( buf, " charm"         );
-    if ( vector & AFF_FLYING        ) strcat( buf, " flying"        );
-    if ( vector & AFF_PASS_DOOR     ) strcat( buf, " pass_door"     );
-    if ( vector & AFF_BERSERK	    ) strcat( buf, " berserk"	    );
-    if ( vector & AFF_CALM	    ) strcat( buf, " calm"	    );
-    if ( vector & AFF_HASTE	    ) strcat( buf, " haste"	    );
-    if ( vector & AFF_SLOW          ) strcat( buf, " slow"          );
-    if ( vector & AFF_WEAKEN        ) strcat( buf, " weaken"        );
-    if ( vector & AFF_PLAGUE	    ) strcat( buf, " plague" 	    );
-    if ( vector & AFF_REGENERATION  ) strcat( buf, " regeneration"  );
-    if ( vector & AFF_CAMOUFLAGE    ) strcat( buf, " camouflage"    );
-    if ( vector & AFF_SWIM          ) strcat( buf, " swim"          );
-    return (char *)(( buf[0] != '\0' ) ? buf+1 : "none");
+    if ( vector & AFF_BLIND         ) wcscat( buf, L" blind"         );
+    if ( vector & AFF_INVISIBLE     ) wcscat( buf, L" invisible"     );
+    if ( vector & AFF_IMP_INVIS     ) wcscat( buf, L" imp_invis"     );
+    if ( vector & AFF_FADE	    ) wcscat( buf, L" fade"     	    );
+    if ( vector & AFF_SCREAM	    ) wcscat( buf, L" scream"        );
+    if ( vector & AFF_BLOODTHIRST   ) wcscat( buf, L" bloodthirst"   );
+    if ( vector & AFF_STUN	    ) wcscat( buf, L" stun"   );
+    if ( vector & AFF_SANCTUARY     ) wcscat( buf, L" sanctuary"     );
+    if ( vector & AFF_FAERIE_FIRE   ) wcscat( buf, L" faerie_fire"   );
+    if ( vector & AFF_INFRARED      ) wcscat( buf, L" infrared"      );
+    if ( vector & AFF_CURSE         ) wcscat( buf, L" curse"         );
+    if ( vector & AFF_POISON        ) wcscat( buf, L" poison"        );
+    if ( vector & AFF_PROTECT_EVIL  ) wcscat( buf, L" prot_evil"     );
+    if ( vector & AFF_PROTECT_GOOD  ) wcscat( buf, L" prot_good"     );
+    if ( vector & AFF_SLEEP         ) wcscat( buf, L" sleep"         );
+    if ( vector & AFF_SNEAK         ) wcscat( buf, L" sneak"         );
+    if ( vector & AFF_HIDE          ) wcscat( buf, L" hide"          );
+    if ( vector & AFF_CHARM         ) wcscat( buf, L" charm"         );
+    if ( vector & AFF_FLYING        ) wcscat( buf, L" flying"        );
+    if ( vector & AFF_PASS_DOOR     ) wcscat( buf, L" pass_door"     );
+    if ( vector & AFF_BERSERK	    ) wcscat( buf, L" berserk"	    );
+    if ( vector & AFF_CALM	    ) wcscat( buf, L" calm"	    );
+    if ( vector & AFF_HASTE	    ) wcscat( buf, L" haste"	    );
+    if ( vector & AFF_SLOW          ) wcscat( buf, L" slow"          );
+    if ( vector & AFF_WEAKEN        ) wcscat( buf, L" weaken"        );
+    if ( vector & AFF_PLAGUE	    ) wcscat( buf, L" plague" 	    );
+    if ( vector & AFF_REGENERATION  ) wcscat( buf, L" regeneration"  );
+    if ( vector & AFF_CAMOUFLAGE    ) wcscat( buf, L" camouflage"    );
+    if ( vector & AFF_SWIM          ) wcscat( buf, L" swim"          );
+    return (wchar_t *)(( buf[0] != '\0' ) ? buf+1 : L"none");
 }
 
 
 /*
  * Return ascii name of an affect bit vector.
  */
-char *detect_bit_name( int vector )
+wchar_t *detect_bit_name( int vector )
 {
-    static char buf[512];
+    static wchar_t buf[512];
 
     buf[0] = '\0';
-    if ( vector & DETECT_IMP_INVIS   ) strcat( buf, " detect_imp_inv"   );
-    if ( vector & DETECT_EVIL   ) strcat( buf, " detect_evil"   );
-    if ( vector & DETECT_GOOD   ) strcat( buf, " detect_good"   );
-    if ( vector & DETECT_INVIS  ) strcat( buf, " detect_invis"  );
-    if ( vector & DETECT_MAGIC  ) strcat( buf, " detect_magic"  );
-    if ( vector & DETECT_HIDDEN ) strcat( buf, " detect_hidden" );
-    if ( vector & DARK_VISION   ) strcat( buf, " dark_vision"   );
-    if ( vector & ACUTE_VISION  ) strcat( buf, " acute_vision"   );
-    if ( vector & ADET_FEAR  	) strcat( buf, " fear"   );
-    if ( vector & ADET_FORM_TREE  ) strcat( buf, " form_tree"   );
-    if ( vector & ADET_FORM_GRASS ) strcat( buf, " form_grass"   );
-    if ( vector & ADET_WEB	) strcat( buf, " web"   );
-    if ( vector & DETECT_LIFE 	) strcat( buf, " life"   );
-    if ( vector & DETECT_SNEAK 	) strcat( buf, " detect_sneak"   );
-    return (char *)(( buf[0] != '\0' ) ? buf+1 : "none");
+    if ( vector & DETECT_IMP_INVIS   ) wcscat( buf, L" detect_imp_inv"   );
+    if ( vector & DETECT_EVIL   ) wcscat( buf, L" detect_evil"   );
+    if ( vector & DETECT_GOOD   ) wcscat( buf, L" detect_good"   );
+    if ( vector & DETECT_INVIS  ) wcscat( buf, L" detect_invis"  );
+    if ( vector & DETECT_MAGIC  ) wcscat( buf, L" detect_magic"  );
+    if ( vector & DETECT_HIDDEN ) wcscat( buf, L" detect_hidden" );
+    if ( vector & DARK_VISION   ) wcscat( buf, L" dark_vision"   );
+    if ( vector & ACUTE_VISION  ) wcscat( buf, L" acute_vision"   );
+    if ( vector & ADET_FEAR  	) wcscat( buf, L" fear"   );
+    if ( vector & ADET_FORM_TREE  ) wcscat( buf, L" form_tree"   );
+    if ( vector & ADET_FORM_GRASS ) wcscat( buf, L" form_grass"   );
+    if ( vector & ADET_WEB	) wcscat( buf, L" web"   );
+    if ( vector & DETECT_LIFE 	) wcscat( buf, L" life"   );
+    if ( vector & DETECT_SNEAK 	) wcscat( buf, L" detect_sneak"   );
+    return (wchar_t *)(( buf[0] != '\0' ) ? buf+1 : L"none");
 }
 
 
@@ -2630,320 +2632,320 @@ char *detect_bit_name( int vector )
 /*
  * Return ascii name of extra flags vector.
  */
-char *extra_bit_name( int extra_flags )
+wchar_t *extra_bit_name( int extra_flags )
 {
-    static char buf[512];
+    static wchar_t buf[512];
 
     buf[0] = '\0';
-    if ( extra_flags & ITEM_GLOW         ) strcat( buf, " glow"         );
-    if ( extra_flags & ITEM_HUM          ) strcat( buf, " hum"          );
-    if ( extra_flags & ITEM_DARK         ) strcat( buf, " dark"         );
-    if ( extra_flags & ITEM_LOCK         ) strcat( buf, " lock"         );
-    if ( extra_flags & ITEM_EVIL         ) strcat( buf, " evil"         );
-    if ( extra_flags & ITEM_INVIS        ) strcat( buf, " invis"        );
-    if ( extra_flags & ITEM_MAGIC        ) strcat( buf, " magic"        );
-    if ( extra_flags & ITEM_NODROP       ) strcat( buf, " nodrop"       );
-    if ( extra_flags & ITEM_BLESS        ) strcat( buf, " bless"        );
-    if ( extra_flags & ITEM_ANTI_GOOD    ) strcat( buf, " anti-good"    );
-    if ( extra_flags & ITEM_ANTI_EVIL    ) strcat( buf, " anti-evil"    );
-    if ( extra_flags & ITEM_ANTI_NEUTRAL ) strcat( buf, " anti-neutral" );
-    if ( extra_flags & ITEM_NOREMOVE     ) strcat( buf, " noremove"     );
-    if ( extra_flags & ITEM_INVENTORY    ) strcat( buf, " inventory"    );
-    if ( extra_flags & ITEM_NOPURGE	 ) strcat( buf, " nopurge"	);
-    if ( extra_flags & ITEM_VIS_DEATH	 ) strcat( buf, " vis_death"	);
-    if ( extra_flags & ITEM_ROT_DEATH	 ) strcat( buf, " rot_death"	);
-    if ( extra_flags & ITEM_NOLOCATE	 ) strcat( buf, " no_locate"	);
-    if ( extra_flags & ITEM_SELL_EXTRACT ) strcat( buf, " sell_extract" );
-    if ( extra_flags & ITEM_BURN_PROOF	 ) strcat( buf, " burn_proof"	);
-    if ( extra_flags & ITEM_NOUNCURSE	 ) strcat( buf, " no_uncurse"	);
-    if ( extra_flags & ITEM_BURIED	 ) strcat( buf, " buried"	);
-    return (char *)(( buf[0] != '\0' ) ? buf+1 : "none");
+    if ( extra_flags & ITEM_GLOW         ) wcscat( buf, L" glow"         );
+    if ( extra_flags & ITEM_HUM          ) wcscat( buf, L" hum"          );
+    if ( extra_flags & ITEM_DARK         ) wcscat( buf, L" dark"         );
+    if ( extra_flags & ITEM_LOCK         ) wcscat( buf, L" lock"         );
+    if ( extra_flags & ITEM_EVIL         ) wcscat( buf, L" evil"         );
+    if ( extra_flags & ITEM_INVIS        ) wcscat( buf, L" invis"        );
+    if ( extra_flags & ITEM_MAGIC        ) wcscat( buf, L" magic"        );
+    if ( extra_flags & ITEM_NODROP       ) wcscat( buf, L" nodrop"       );
+    if ( extra_flags & ITEM_BLESS        ) wcscat( buf, L" bless"        );
+    if ( extra_flags & ITEM_ANTI_GOOD    ) wcscat( buf, L" anti-good"    );
+    if ( extra_flags & ITEM_ANTI_EVIL    ) wcscat( buf, L" anti-evil"    );
+    if ( extra_flags & ITEM_ANTI_NEUTRAL ) wcscat( buf, L" anti-neutral" );
+    if ( extra_flags & ITEM_NOREMOVE     ) wcscat( buf, L" noremove"     );
+    if ( extra_flags & ITEM_INVENTORY    ) wcscat( buf, L" inventory"    );
+    if ( extra_flags & ITEM_NOPURGE	 ) wcscat( buf, L" nopurge"	);
+    if ( extra_flags & ITEM_VIS_DEATH	 ) wcscat( buf, L" vis_death"	);
+    if ( extra_flags & ITEM_ROT_DEATH	 ) wcscat( buf, L" rot_death"	);
+    if ( extra_flags & ITEM_NOLOCATE	 ) wcscat( buf, L" no_locate"	);
+    if ( extra_flags & ITEM_SELL_EXTRACT ) wcscat( buf, L" sell_extract" );
+    if ( extra_flags & ITEM_BURN_PROOF	 ) wcscat( buf, L" burn_proof"	);
+    if ( extra_flags & ITEM_NOUNCURSE	 ) wcscat( buf, L" no_uncurse"	);
+    if ( extra_flags & ITEM_BURIED	 ) wcscat( buf, L" buried"	);
+    return (wchar_t *)(( buf[0] != '\0' ) ? buf+1 : L"none");
 }
 
 /* return ascii name of an act vector */
-char *act_bit_name( int act_flags )
+wchar_t *act_bit_name( int act_flags )
 {
-    static char buf[512];
+    static wchar_t buf[512];
 
     buf[0] = '\0';
 
     if (IS_SET(act_flags,ACT_IS_NPC))
     {
- 	strcat(buf," npc");
-    	if (act_flags & ACT_SENTINEL 	) strcat(buf, " sentinel");
-    	if (act_flags & ACT_SCAVENGER	) strcat(buf, " scavenger");
-	if (act_flags & ACT_AGGRESSIVE	) strcat(buf, " aggressive");
-	if (act_flags & ACT_STAY_AREA	) strcat(buf, " stay_area");
-	if (act_flags & ACT_WIMPY	) strcat(buf, " wimpy");
-	if (act_flags & ACT_PET		) strcat(buf, " pet");
-	if (act_flags & ACT_TRAIN	) strcat(buf, " train");
-	if (act_flags & ACT_PRACTICE	) strcat(buf, " practice");
-	if (act_flags & ACT_UNDEAD	) strcat(buf, " undead");
-	if (act_flags & ACT_HUNTER	) strcat(buf, " hunter");
-	if (act_flags & ACT_CLERIC	) strcat(buf, " cleric");
-	if (act_flags & ACT_MAGE	) strcat(buf, " mage");
-	if (act_flags & ACT_THIEF	) strcat(buf, " thief");
-	if (act_flags & ACT_WARRIOR	) strcat(buf, " warrior");
-	if (act_flags & ACT_NOALIGN	) strcat(buf, " no_align");
-	if (act_flags & ACT_NOPURGE	) strcat(buf, " no_purge");
-	if (act_flags & ACT_IS_HEALER	) strcat(buf, " healer");
-	if (act_flags & ACT_GAIN	) strcat(buf, " skill_train");
-	if (act_flags & ACT_UPDATE_ALWAYS) strcat(buf," update_always");
+ 	wcscat(buf,L" npc");
+    	if (act_flags & ACT_SENTINEL 	) wcscat(buf, L" sentinel");
+    	if (act_flags & ACT_SCAVENGER	) wcscat(buf, L" scavenger");
+	if (act_flags & ACT_AGGRESSIVE	) wcscat(buf, L" aggressive");
+	if (act_flags & ACT_STAY_AREA	) wcscat(buf, L" stay_area");
+	if (act_flags & ACT_WIMPY	) wcscat(buf, L" wimpy");
+	if (act_flags & ACT_PET		) wcscat(buf, L" pet");
+	if (act_flags & ACT_TRAIN	) wcscat(buf, L" train");
+	if (act_flags & ACT_PRACTICE	) wcscat(buf, L" practice");
+	if (act_flags & ACT_UNDEAD	) wcscat(buf, L" undead");
+	if (act_flags & ACT_HUNTER	) wcscat(buf, L" hunter");
+	if (act_flags & ACT_CLERIC	) wcscat(buf, L" cleric");
+	if (act_flags & ACT_MAGE	) wcscat(buf, L" mage");
+	if (act_flags & ACT_THIEF	) wcscat(buf, L" thief");
+	if (act_flags & ACT_WARRIOR	) wcscat(buf, L" warrior");
+	if (act_flags & ACT_NOALIGN	) wcscat(buf, L" no_align");
+	if (act_flags & ACT_NOPURGE	) wcscat(buf, L" no_purge");
+	if (act_flags & ACT_IS_HEALER	) wcscat(buf, L" healer");
+	if (act_flags & ACT_GAIN	) wcscat(buf, L" skill_train");
+	if (act_flags & ACT_UPDATE_ALWAYS) wcscat(buf,L" update_always");
     }
     else
     {
-	strcat(buf," player");
-	if (act_flags & PLR_AUTOASSIST	) strcat(buf, " autoassist");
-	if (act_flags & PLR_AUTOEXIT	) strcat(buf, " autoexit");
-	if (act_flags & PLR_AUTOLOOT	) strcat(buf, " autoloot");
-	if (act_flags & PLR_AUTOSAC	) strcat(buf, " autosac");
-	if (act_flags & PLR_AUTOAKCE	) strcat(buf, " autoakce");
-	if (act_flags & PLR_AUTOSPLIT	) strcat(buf, " autosplit");
-	if (act_flags & PLR_WANTED	) strcat(buf, " wanted");
-	if (act_flags & PLR_NO_TITLE	) strcat(buf, " no_title");
-	if (act_flags & PLR_NO_EXP	) strcat(buf, " no_exp");
-	if (act_flags & PLR_HOLYLIGHT	) strcat(buf, " holy_light");
-	if (act_flags & PLR_NOCANCEL	) strcat(buf, " no_cancel");
-	if (act_flags & PLR_CANLOOT	) strcat(buf, " loot_corpse");
-	if (act_flags & PLR_NOSUMMON	) strcat(buf, " no_summon");
-	if (act_flags & PLR_NOFOLLOW	) strcat(buf, " no_follow");
-	if (act_flags & PLR_CANINDUCT	) strcat(buf, " Cabal_LEADER");
-	if (act_flags & PLR_GHOST	) strcat(buf, " ghost");
-	if (act_flags & PLR_PERMIT	) strcat(buf, " permit");
-	if (act_flags & PLR_REMORTED	) strcat(buf, " remorted");
-	if (act_flags & PLR_LOG		) strcat(buf, " log");
-	if (act_flags & PLR_FREEZE	) strcat(buf, " frozen");
-	if (act_flags & PLR_LEFTHAND	) strcat(buf, " lefthand");
-	if (act_flags & PLR_CANREMORT	) strcat(buf, " canremort");
-	if (act_flags & PLR_QUESTOR	) strcat(buf, " questor");
-	if (act_flags & PLR_VAMPIRE	) strcat(buf, " VAMPIRE");
-	if (act_flags & PLR_HARA_KIRI	) strcat(buf, " harakiri");
-	if (act_flags & PLR_BLINK_ON	) strcat(buf, " blink_on");
+	wcscat(buf,L" player");
+	if (act_flags & PLR_AUTOASSIST	) wcscat(buf, L" autoassist");
+	if (act_flags & PLR_AUTOEXIT	) wcscat(buf, L" autoexit");
+	if (act_flags & PLR_AUTOLOOT	) wcscat(buf, L" autoloot");
+	if (act_flags & PLR_AUTOSAC	) wcscat(buf, L" autosac");
+	if (act_flags & PLR_AUTOAKCE	) wcscat(buf, L" autoakce");
+	if (act_flags & PLR_AUTOSPLIT	) wcscat(buf, L" autosplit");
+	if (act_flags & PLR_WANTED	) wcscat(buf, L" wanted");
+	if (act_flags & PLR_NO_TITLE	) wcscat(buf, L" no_title");
+	if (act_flags & PLR_NO_EXP	) wcscat(buf, L" no_exp");
+	if (act_flags & PLR_HOLYLIGHT	) wcscat(buf, L" holy_light");
+	if (act_flags & PLR_NOCANCEL	) wcscat(buf, L" no_cancel");
+	if (act_flags & PLR_CANLOOT	) wcscat(buf, L" loot_corpse");
+	if (act_flags & PLR_NOSUMMON	) wcscat(buf, L" no_summon");
+	if (act_flags & PLR_NOFOLLOW	) wcscat(buf, L" no_follow");
+	if (act_flags & PLR_CANINDUCT	) wcscat(buf, L" Cabal_LEADER");
+	if (act_flags & PLR_GHOST	) wcscat(buf, L" ghost");
+	if (act_flags & PLR_PERMIT	) wcscat(buf, L" permit");
+	if (act_flags & PLR_REMORTED	) wcscat(buf, L" remorted");
+	if (act_flags & PLR_LOG		) wcscat(buf, L" log");
+	if (act_flags & PLR_FREEZE	) wcscat(buf, L" frozen");
+	if (act_flags & PLR_LEFTHAND	) wcscat(buf, L" lefthand");
+	if (act_flags & PLR_CANREMORT	) wcscat(buf, L" canremort");
+	if (act_flags & PLR_QUESTOR	) wcscat(buf, L" questor");
+	if (act_flags & PLR_VAMPIRE	) wcscat(buf, L" VAMPIRE");
+	if (act_flags & PLR_HARA_KIRI	) wcscat(buf, L" harakiri");
+	if (act_flags & PLR_BLINK_ON	) wcscat(buf, L" blink_on");
     }
-    return (char *)(( buf[0] != '\0' ) ? buf+1 : "none");
+    return (wchar_t *)(( buf[0] != '\0' ) ? buf+1 : L"none");
 }
 
-char *comm_bit_name(int comm_flags)
+wchar_t *comm_bit_name(int comm_flags)
 {
-    static char buf[512];
+    static wchar_t buf[512];
 
     buf[0] = '\0';
 
-    if (comm_flags & COMM_QUIET		) strcat(buf, " quiet");
-    if (comm_flags & COMM_DEAF		) strcat(buf, " deaf");
-    if (comm_flags & COMM_NOWIZ		) strcat(buf, " no_wiz");
-    if (comm_flags & COMM_NOAUCTION	) strcat(buf, " no_auction");
-    if (comm_flags & COMM_NOGOSSIP	) strcat(buf, " no_gossip");
-    if (comm_flags & COMM_NOQUESTION	) strcat(buf, " no_question");
-    if (comm_flags & COMM_NOMUSIC	) strcat(buf, " no_music");
-    if (comm_flags & COMM_NOQUOTE	) strcat(buf, " no_quote");
-    if (comm_flags & COMM_COMPACT	) strcat(buf, " compact");
-    if (comm_flags & COMM_BRIEF		) strcat(buf, " brief");
-    if (comm_flags & COMM_PROMPT	) strcat(buf, " prompt");
-    if (comm_flags & COMM_COMBINE	) strcat(buf, " combine");
-    if (comm_flags & COMM_NOEMOTE	) strcat(buf, " no_emote");
-    if (comm_flags & COMM_NOSHOUT	) strcat(buf, " no_shout");
-    if (comm_flags & COMM_NOTELL	) strcat(buf, " no_tell");
-    if (comm_flags & COMM_NOCHANNELS	) strcat(buf, " no_channels");
+    if (comm_flags & COMM_QUIET		) wcscat(buf, L" quiet");
+    if (comm_flags & COMM_DEAF		) wcscat(buf, L" deaf");
+    if (comm_flags & COMM_NOWIZ		) wcscat(buf, L" no_wiz");
+    if (comm_flags & COMM_NOAUCTION	) wcscat(buf, L" no_auction");
+    if (comm_flags & COMM_NOGOSSIP	) wcscat(buf, L" no_gossip");
+    if (comm_flags & COMM_NOQUESTION	) wcscat(buf, L" no_question");
+    if (comm_flags & COMM_NOMUSIC	) wcscat(buf, L" no_music");
+    if (comm_flags & COMM_NOQUOTE	) wcscat(buf, L" no_quote");
+    if (comm_flags & COMM_COMPACT	) wcscat(buf, L" compact");
+    if (comm_flags & COMM_BRIEF		) wcscat(buf, L" brief");
+    if (comm_flags & COMM_PROMPT	) wcscat(buf, L" prompt");
+    if (comm_flags & COMM_COMBINE	) wcscat(buf, L" combine");
+    if (comm_flags & COMM_NOEMOTE	) wcscat(buf, L" no_emote");
+    if (comm_flags & COMM_NOSHOUT	) wcscat(buf, L" no_shout");
+    if (comm_flags & COMM_NOTELL	) wcscat(buf, L" no_tell");
+    if (comm_flags & COMM_NOCHANNELS	) wcscat(buf, L" no_channels");
 
 
-    return (char *)(( buf[0] != '\0' ) ? buf+1 : "none");
+    return (wchar_t *)(( buf[0] != '\0' ) ? buf+1 : L"none");
 }
 
-char *imm_bit_name(int imm_flags)
+wchar_t *imm_bit_name(int imm_flags)
 {
-    static char buf[512];
+    static wchar_t buf[512];
 
     buf[0] = '\0';
 
-    if (imm_flags & IMM_SUMMON		) strcat(buf, " summon");
-    if (imm_flags & IMM_CHARM		) strcat(buf, " charm");
-    if (imm_flags & IMM_MAGIC		) strcat(buf, " magic");
-    if (imm_flags & IMM_WEAPON		) strcat(buf, " weapon");
-    if (imm_flags & IMM_BASH		) strcat(buf, " blunt");
-    if (imm_flags & IMM_PIERCE		) strcat(buf, " piercing");
-    if (imm_flags & IMM_SLASH		) strcat(buf, " slashing");
-    if (imm_flags & IMM_FIRE		) strcat(buf, " fire");
-    if (imm_flags & IMM_COLD		) strcat(buf, " cold");
-    if (imm_flags & IMM_LIGHTNING	) strcat(buf, " lightning");
-    if (imm_flags & IMM_ACID		) strcat(buf, " acid");
-    if (imm_flags & IMM_POISON		) strcat(buf, " poison");
-    if (imm_flags & IMM_NEGATIVE	) strcat(buf, " negative");
-    if (imm_flags & IMM_HOLY		) strcat(buf, " holy");
-    if (imm_flags & IMM_ENERGY		) strcat(buf, " energy");
-    if (imm_flags & IMM_MENTAL		) strcat(buf, " mental");
-    if (imm_flags & IMM_DISEASE	) strcat(buf, " disease");
-    if (imm_flags & IMM_DROWNING	) strcat(buf, " drowning");
-    if (imm_flags & IMM_LIGHT		) strcat(buf, " light");
-    if (imm_flags & VULN_IRON		) strcat(buf, " iron");
-    if (imm_flags & VULN_WOOD		) strcat(buf, " wood");
-    if (imm_flags & VULN_SILVER	) strcat(buf, " silver");
+    if (imm_flags & IMM_SUMMON		) wcscat(buf, L" summon");
+    if (imm_flags & IMM_CHARM		) wcscat(buf, L" charm");
+    if (imm_flags & IMM_MAGIC		) wcscat(buf, L" magic");
+    if (imm_flags & IMM_WEAPON		) wcscat(buf, L" weapon");
+    if (imm_flags & IMM_BASH		) wcscat(buf, L" blunt");
+    if (imm_flags & IMM_PIERCE		) wcscat(buf, L" piercing");
+    if (imm_flags & IMM_SLASH		) wcscat(buf, L" slashing");
+    if (imm_flags & IMM_FIRE		) wcscat(buf, L" fire");
+    if (imm_flags & IMM_COLD		) wcscat(buf, L" cold");
+    if (imm_flags & IMM_LIGHTNING	) wcscat(buf, L" lightning");
+    if (imm_flags & IMM_ACID		) wcscat(buf, L" acid");
+    if (imm_flags & IMM_POISON		) wcscat(buf, L" poison");
+    if (imm_flags & IMM_NEGATIVE	) wcscat(buf, L" negative");
+    if (imm_flags & IMM_HOLY		) wcscat(buf, L" holy");
+    if (imm_flags & IMM_ENERGY		) wcscat(buf, L" energy");
+    if (imm_flags & IMM_MENTAL		) wcscat(buf, L" mental");
+    if (imm_flags & IMM_DISEASE	) wcscat(buf, L" disease");
+    if (imm_flags & IMM_DROWNING	) wcscat(buf, L" drowning");
+    if (imm_flags & IMM_LIGHT		) wcscat(buf, L" light");
+    if (imm_flags & VULN_IRON		) wcscat(buf, L" iron");
+    if (imm_flags & VULN_WOOD		) wcscat(buf, L" wood");
+    if (imm_flags & VULN_SILVER	) wcscat(buf, L" silver");
 
-    return (char *)(( buf[0] != '\0' ) ? buf+1 : "none");
+    return (wchar_t *)(( buf[0] != '\0' ) ? buf+1 : L"none");
 }
 
-char *wear_bit_name(int wear_flags)
+wchar_t *wear_bit_name(int wear_flags)
 {
-    static char buf[512];
+    static wchar_t buf[512];
 
     buf [0] = '\0';
-    if (wear_flags & ITEM_TAKE		) strcat(buf, " take");
-    if (wear_flags & ITEM_WEAR_FINGER	) strcat(buf, " finger");
-    if (wear_flags & ITEM_WEAR_NECK	) strcat(buf, " neck");
-    if (wear_flags & ITEM_WEAR_BODY	) strcat(buf, " torso");
-    if (wear_flags & ITEM_WEAR_HEAD	) strcat(buf, " head");
-    if (wear_flags & ITEM_WEAR_LEGS	) strcat(buf, " legs");
-    if (wear_flags & ITEM_WEAR_FEET	) strcat(buf, " feet");
-    if (wear_flags & ITEM_WEAR_HANDS	) strcat(buf, " hands");
-    if (wear_flags & ITEM_WEAR_ARMS	) strcat(buf, " arms");
-    if (wear_flags & ITEM_WEAR_SHIELD	) strcat(buf, " shield");
-    if (wear_flags & ITEM_WEAR_ABOUT	) strcat(buf, " body");
-    if (wear_flags & ITEM_WEAR_WAIST	) strcat(buf, " waist");
-    if (wear_flags & ITEM_WEAR_WRIST	) strcat(buf, " wrist");
-    if (wear_flags & ITEM_WIELD		) strcat(buf, " wield");
-    if (wear_flags & ITEM_HOLD		) strcat(buf, " hold");
-    if (wear_flags & ITEM_WEAR_FLOAT	) strcat(buf, " float");
-    if (wear_flags & ITEM_WEAR_TATTOO	) strcat(buf, " tattoo");
+    if (wear_flags & ITEM_TAKE		) wcscat(buf, L" take");
+    if (wear_flags & ITEM_WEAR_FINGER	) wcscat(buf, L" finger");
+    if (wear_flags & ITEM_WEAR_NECK	) wcscat(buf, L" neck");
+    if (wear_flags & ITEM_WEAR_BODY	) wcscat(buf, L" torso");
+    if (wear_flags & ITEM_WEAR_HEAD	) wcscat(buf, L" head");
+    if (wear_flags & ITEM_WEAR_LEGS	) wcscat(buf, L" legs");
+    if (wear_flags & ITEM_WEAR_FEET	) wcscat(buf, L" feet");
+    if (wear_flags & ITEM_WEAR_HANDS	) wcscat(buf, L" hands");
+    if (wear_flags & ITEM_WEAR_ARMS	) wcscat(buf, L" arms");
+    if (wear_flags & ITEM_WEAR_SHIELD	) wcscat(buf, L" shield");
+    if (wear_flags & ITEM_WEAR_ABOUT	) wcscat(buf, L" body");
+    if (wear_flags & ITEM_WEAR_WAIST	) wcscat(buf, L" waist");
+    if (wear_flags & ITEM_WEAR_WRIST	) wcscat(buf, L" wrist");
+    if (wear_flags & ITEM_WIELD		) wcscat(buf, L" wield");
+    if (wear_flags & ITEM_HOLD		) wcscat(buf, L" hold");
+    if (wear_flags & ITEM_WEAR_FLOAT	) wcscat(buf, L" float");
+    if (wear_flags & ITEM_WEAR_TATTOO	) wcscat(buf, L" tattoo");
 
-    return (char *)(( buf[0] != '\0' ) ? buf+1 : "none");
+    return (wchar_t *)(( buf[0] != '\0' ) ? buf+1 : L"none");
 }
 
-char *form_bit_name(int form_flags)
+wchar_t *form_bit_name(int form_flags)
 {
-    static char buf[512];
+    static wchar_t buf[512];
 
     buf[0] = '\0';
-    if (form_flags & FORM_POISON	) strcat(buf, " poison");
-    else if (form_flags & FORM_EDIBLE	) strcat(buf, " edible");
-    if (form_flags & FORM_MAGICAL	) strcat(buf, " magical");
-    if (form_flags & FORM_INSTANT_DECAY	) strcat(buf, " instant_rot");
-    if (form_flags & FORM_OTHER		) strcat(buf, " other");
-    if (form_flags & FORM_ANIMAL	) strcat(buf, " animal");
-    if (form_flags & FORM_SENTIENT	) strcat(buf, " sentient");
-    if (form_flags & FORM_UNDEAD	) strcat(buf, " undead");
-    if (form_flags & FORM_CONSTRUCT	) strcat(buf, " construct");
-    if (form_flags & FORM_MIST		) strcat(buf, " mist");
-    if (form_flags & FORM_INTANGIBLE	) strcat(buf, " intangible");
-    if (form_flags & FORM_BIPED		) strcat(buf, " biped");
-    if (form_flags & FORM_CIREN	    ) strcat(buf, " ciren");
-    if (form_flags & FORM_INSECT	) strcat(buf, " insect");
-    if (form_flags & FORM_SPIDER	) strcat(buf, " spider");
-    if (form_flags & FORM_CRUSTACEAN	) strcat(buf, " crustacean");
-    if (form_flags & FORM_WORM		) strcat(buf, " worm");
-    if (form_flags & FORM_BLOB		) strcat(buf, " blob");
-    if (form_flags & FORM_MAMMAL	) strcat(buf, " mammal");
-    if (form_flags & FORM_BIRD		) strcat(buf, " bird");
-    if (form_flags & FORM_REPTILE	) strcat(buf, " reptile");
-    if (form_flags & FORM_SNAKE		) strcat(buf, " snake");
-    if (form_flags & FORM_DRAGON	) strcat(buf, " dragon");
-    if (form_flags & FORM_AMPHIBIAN	) strcat(buf, " amphibian");
-    if (form_flags & FORM_FISH		) strcat(buf, " fish");
-    if (form_flags & FORM_COLD_BLOOD 	) strcat(buf, " cold_blooded");
+    if (form_flags & FORM_POISON	) wcscat(buf, L" poison");
+    else if (form_flags & FORM_EDIBLE	) wcscat(buf, L" edible");
+    if (form_flags & FORM_MAGICAL	) wcscat(buf, L" magical");
+    if (form_flags & FORM_INSTANT_DECAY	) wcscat(buf, L" instant_rot");
+    if (form_flags & FORM_OTHER		) wcscat(buf, L" other");
+    if (form_flags & FORM_ANIMAL	) wcscat(buf, L" animal");
+    if (form_flags & FORM_SENTIENT	) wcscat(buf, L" sentient");
+    if (form_flags & FORM_UNDEAD	) wcscat(buf, L" undead");
+    if (form_flags & FORM_CONSTRUCT	) wcscat(buf, L" construct");
+    if (form_flags & FORM_MIST		) wcscat(buf, L" mist");
+    if (form_flags & FORM_INTANGIBLE	) wcscat(buf, L" intangible");
+    if (form_flags & FORM_BIPED		) wcscat(buf, L" biped");
+    if (form_flags & FORM_CIREN	    ) wcscat(buf, L" ciren");
+    if (form_flags & FORM_INSECT	) wcscat(buf, L" insect");
+    if (form_flags & FORM_SPIDER	) wcscat(buf, L" spider");
+    if (form_flags & FORM_CRUSTACEAN	) wcscat(buf, L" crustacean");
+    if (form_flags & FORM_WORM		) wcscat(buf, L" worm");
+    if (form_flags & FORM_BLOB		) wcscat(buf, L" blob");
+    if (form_flags & FORM_MAMMAL	) wcscat(buf, L" mammal");
+    if (form_flags & FORM_BIRD		) wcscat(buf, L" bird");
+    if (form_flags & FORM_REPTILE	) wcscat(buf, L" reptile");
+    if (form_flags & FORM_SNAKE		) wcscat(buf, L" snake");
+    if (form_flags & FORM_DRAGON	) wcscat(buf, L" dragon");
+    if (form_flags & FORM_AMPHIBIAN	) wcscat(buf, L" amphibian");
+    if (form_flags & FORM_FISH		) wcscat(buf, L" fish");
+    if (form_flags & FORM_COLD_BLOOD 	) wcscat(buf, L" cold_blooded");
 
-    return (char *)(( buf[0] != '\0' ) ? buf+1 : "none");
+    return (wchar_t *)(( buf[0] != '\0' ) ? buf+1 : L"none");
 }
 
-char *part_bit_name(int part_flags)
+wchar_t *part_bit_name(int part_flags)
 {
-    static char buf[512];
+    static wchar_t buf[512];
 
     buf[0] = '\0';
-    if (part_flags & PART_HEAD		) strcat(buf, " head");
-    if (part_flags & PART_ARMS		) strcat(buf, " arms");
-    if (part_flags & PART_LEGS		) strcat(buf, " legs");
-    if (part_flags & PART_HEART		) strcat(buf, " heart");
-    if (part_flags & PART_BRAINS	) strcat(buf, " brains");
-    if (part_flags & PART_GUTS		) strcat(buf, " guts");
-    if (part_flags & PART_HANDS		) strcat(buf, " hands");
-    if (part_flags & PART_FEET		) strcat(buf, " feet");
-    if (part_flags & PART_FINGERS	) strcat(buf, " fingers");
-    if (part_flags & PART_EAR		) strcat(buf, " ears");
-    if (part_flags & PART_EYE		) strcat(buf, " eyes");
-    if (part_flags & PART_LONG_TONGUE	) strcat(buf, " long_tongue");
-    if (part_flags & PART_EYESTALKS	) strcat(buf, " eyestalks");
-    if (part_flags & PART_TENTACLES	) strcat(buf, " tentacles");
-    if (part_flags & PART_FINS		) strcat(buf, " fins");
-    if (part_flags & PART_WINGS		) strcat(buf, " wings");
-    if (part_flags & PART_TAIL		) strcat(buf, " tail");
-    if (part_flags & PART_CLAWS		) strcat(buf, " claws");
-    if (part_flags & PART_FANGS		) strcat(buf, " fangs");
-    if (part_flags & PART_HORNS		) strcat(buf, " horns");
-    if (part_flags & PART_SCALES	) strcat(buf, " scales");
+    if (part_flags & PART_HEAD		) wcscat(buf, L" head");
+    if (part_flags & PART_ARMS		) wcscat(buf, L" arms");
+    if (part_flags & PART_LEGS		) wcscat(buf, L" legs");
+    if (part_flags & PART_HEART		) wcscat(buf, L" heart");
+    if (part_flags & PART_BRAINS	) wcscat(buf, L" brains");
+    if (part_flags & PART_GUTS		) wcscat(buf, L" guts");
+    if (part_flags & PART_HANDS		) wcscat(buf, L" hands");
+    if (part_flags & PART_FEET		) wcscat(buf, L" feet");
+    if (part_flags & PART_FINGERS	) wcscat(buf, L" fingers");
+    if (part_flags & PART_EAR		) wcscat(buf, L" ears");
+    if (part_flags & PART_EYE		) wcscat(buf, L" eyes");
+    if (part_flags & PART_LONG_TONGUE	) wcscat(buf, L" long_tongue");
+    if (part_flags & PART_EYESTALKS	) wcscat(buf, L" eyestalks");
+    if (part_flags & PART_TENTACLES	) wcscat(buf, L" tentacles");
+    if (part_flags & PART_FINS		) wcscat(buf, L" fins");
+    if (part_flags & PART_WINGS		) wcscat(buf, L" wings");
+    if (part_flags & PART_TAIL		) wcscat(buf, L" tail");
+    if (part_flags & PART_CLAWS		) wcscat(buf, L" claws");
+    if (part_flags & PART_FANGS		) wcscat(buf, L" fangs");
+    if (part_flags & PART_HORNS		) wcscat(buf, L" horns");
+    if (part_flags & PART_SCALES	) wcscat(buf, L" scales");
 
-    return (char *)(( buf[0] != '\0' ) ? buf+1 : "none");
+    return (wchar_t *)(( buf[0] != '\0' ) ? buf+1 : L"none");
 }
 
-char *weapon_bit_name(int weapon_flags)
+wchar_t *weapon_bit_name(int weapon_flags)
 {
-    static char buf[512];
+    static wchar_t buf[512];
 
     buf[0] = '\0';
-    if (weapon_flags & WEAPON_FLAMING	) strcat(buf, " flaming");
-    if (weapon_flags & WEAPON_FROST	) strcat(buf, " frost");
-    if (weapon_flags & WEAPON_VAMPIRIC	) strcat(buf, " vampiric");
-    if (weapon_flags & WEAPON_SHARP	) strcat(buf, " sharp");
-    if (weapon_flags & WEAPON_VORPAL	) strcat(buf, " vorpal");
-    if (weapon_flags & WEAPON_TWO_HANDS ) strcat(buf, " two-handed");
-    if (weapon_flags & WEAPON_SHOCKING 	) strcat(buf, " shocking");
-    if (weapon_flags & WEAPON_POISON	) strcat(buf, " poison");
-    if (weapon_flags & WEAPON_HOLY	) strcat(buf, " holy");
+    if (weapon_flags & WEAPON_FLAMING	) wcscat(buf, L" flaming");
+    if (weapon_flags & WEAPON_FROST	) wcscat(buf, L" frost");
+    if (weapon_flags & WEAPON_VAMPIRIC	) wcscat(buf, L" vampiric");
+    if (weapon_flags & WEAPON_SHARP	) wcscat(buf, L" sharp");
+    if (weapon_flags & WEAPON_VORPAL	) wcscat(buf, L" vorpal");
+    if (weapon_flags & WEAPON_TWO_HANDS ) wcscat(buf, L" two-handed");
+    if (weapon_flags & WEAPON_SHOCKING 	) wcscat(buf, L" shocking");
+    if (weapon_flags & WEAPON_POISON	) wcscat(buf, L" poison");
+    if (weapon_flags & WEAPON_HOLY	) wcscat(buf, L" holy");
 
-    return (char *)(( buf[0] != '\0' ) ? buf+1 : "none");
+    return (wchar_t *)(( buf[0] != '\0' ) ? buf+1 : L"none");
 }
 
-char *cont_bit_name( int cont_flags)
+wchar_t *cont_bit_name( int cont_flags)
 {
-    static char buf[512];
-
-    buf[0] = '\0';
-
-    if (cont_flags & CONT_CLOSEABLE	) strcat(buf, " closable");
-    if (cont_flags & CONT_PICKPROOF	) strcat(buf, " pickproof");
-    if (cont_flags & CONT_CLOSED	) strcat(buf, " closed");
-    if (cont_flags & CONT_LOCKED	) strcat(buf, " locked");
-
-    return (char *)(( buf[0] != '\0' ) ? buf+1 : "none");
-}
-
-
-char *off_bit_name(int off_flags)
-{
-    static char buf[512];
+    static wchar_t buf[512];
 
     buf[0] = '\0';
 
-    if (off_flags & OFF_AREA_ATTACK	) strcat(buf, " area attack");
-    if (off_flags & OFF_BACKSTAB	) strcat(buf, " backstab");
-    if (off_flags & OFF_BASH		) strcat(buf, " bash");
-    if (off_flags & OFF_BERSERK		) strcat(buf, " berserk");
-    if (off_flags & OFF_DISARM		) strcat(buf, " disarm");
-    if (off_flags & OFF_DODGE		) strcat(buf, " dodge");
-    if (off_flags & OFF_FADE		) strcat(buf, " fade");
-    if (off_flags & OFF_FAST		) strcat(buf, " fast");
-    if (off_flags & OFF_KICK		) strcat(buf, " kick");
-    if (off_flags & OFF_KICK_DIRT	) strcat(buf, " kick_dirt");
-    if (off_flags & OFF_PARRY		) strcat(buf, " parry");
-    if (off_flags & OFF_RESCUE		) strcat(buf, " rescue");
-    if (off_flags & OFF_TAIL		) strcat(buf, " tail");
-    if (off_flags & OFF_TRIP		) strcat(buf, " trip");
-    if (off_flags & OFF_CRUSH		) strcat(buf, " crush");
-    if (off_flags & ASSIST_ALL		) strcat(buf, " assist_all");
-    if (off_flags & ASSIST_ALIGN	) strcat(buf, " assist_align");
-    if (off_flags & ASSIST_RACE		) strcat(buf, " assist_race");
-    if (off_flags & ASSIST_PLAYERS	) strcat(buf, " assist_players");
-    if (off_flags & ASSIST_GUARD	) strcat(buf, " assist_guard");
-    if (off_flags & ASSIST_VNUM		) strcat(buf, " assist_vnum");
+    if (cont_flags & CONT_CLOSEABLE	) wcscat(buf, L" closable");
+    if (cont_flags & CONT_PICKPROOF	) wcscat(buf, L" pickproof");
+    if (cont_flags & CONT_CLOSED	) wcscat(buf, L" closed");
+    if (cont_flags & CONT_LOCKED	) wcscat(buf, L" locked");
 
-    return (char *)(( buf[0] != '\0' ) ? buf+1 : "none");
+    return (wchar_t *)(( buf[0] != '\0' ) ? buf+1 : L"none");
 }
 
-int cabal_lookup (const char *argument)
+
+wchar_t *off_bit_name(int off_flags)
+{
+    static wchar_t buf[512];
+
+    buf[0] = '\0';
+
+    if (off_flags & OFF_AREA_ATTACK	) wcscat(buf, L" area attack");
+    if (off_flags & OFF_BACKSTAB	) wcscat(buf, L" backstab");
+    if (off_flags & OFF_BASH		) wcscat(buf, L" bash");
+    if (off_flags & OFF_BERSERK		) wcscat(buf, L" berserk");
+    if (off_flags & OFF_DISARM		) wcscat(buf, L" disarm");
+    if (off_flags & OFF_DODGE		) wcscat(buf, L" dodge");
+    if (off_flags & OFF_FADE		) wcscat(buf, L" fade");
+    if (off_flags & OFF_FAST		) wcscat(buf, L" fast");
+    if (off_flags & OFF_KICK		) wcscat(buf, L" kick");
+    if (off_flags & OFF_KICK_DIRT	) wcscat(buf, L" kick_dirt");
+    if (off_flags & OFF_PARRY		) wcscat(buf, L" parry");
+    if (off_flags & OFF_RESCUE		) wcscat(buf, L" rescue");
+    if (off_flags & OFF_TAIL		) wcscat(buf, L" tail");
+    if (off_flags & OFF_TRIP		) wcscat(buf, L" trip");
+    if (off_flags & OFF_CRUSH		) wcscat(buf, L" crush");
+    if (off_flags & ASSIST_ALL		) wcscat(buf, L" assist_all");
+    if (off_flags & ASSIST_ALIGN	) wcscat(buf, L" assist_align");
+    if (off_flags & ASSIST_RACE		) wcscat(buf, L" assist_race");
+    if (off_flags & ASSIST_PLAYERS	) wcscat(buf, L" assist_players");
+    if (off_flags & ASSIST_GUARD	) wcscat(buf, L" assist_guard");
+    if (off_flags & ASSIST_VNUM		) wcscat(buf, L" assist_vnum");
+
+    return (wchar_t *)(( buf[0] != '\0' ) ? buf+1 : L"none");
+}
+
+int cabal_lookup (const wchar_t *argument)
 {
    int cabal;
 
    for ( cabal = 0; cabal < MAX_CABAL; cabal++)
    {
-        if (LOWER(argument[0]) == LOWER(cabal_table[cabal].short_name[0])
+        if (towlower(argument[0]) == towlower(cabal_table[cabal].short_name[0])
         &&  !str_prefix( argument,cabal_table[cabal].short_name))
             return cabal;
    }
@@ -2996,7 +2998,7 @@ int ch_skill_nok( CHAR_DATA *ch, int skill )
 {
    if (ch_skill_nok_nomessage(ch,skill))
    {
-     send_to_char("Hý?\n\r",ch);
+     send_to_char( L"HÄ±?\n\r",ch);
 	 return 1;
    }
    return 0;
@@ -3044,37 +3046,37 @@ int count_charmed( CHAR_DATA *ch )
 
   if (count >= MAX_CHARM(ch) )
   {
-    send_to_char("Emrindekilerden fazlasýný kontrol etmeye gücün yetmez!\n\r",ch);
+    send_to_char( L"Emrindekilerden fazlasÄ±nÄ± kontrol etmeye gÃ¼cÃ¼n yetmez!\n\r",ch);
     return count;
   }
 
   return 0;
 }
 
-void add_mind(CHAR_DATA *ch, char *str)
+void add_mind(CHAR_DATA *ch, wchar_t *str)
 {
- char buf[MAX_STRING_LENGTH];
+ wchar_t buf[MAX_STRING_LENGTH];
 
  if (!IS_NPC(ch) || ch->in_room == NULL) return;
 
  if (ch->in_mind == NULL)
   {
-   sprintf(buf,"%d",ch->in_room->vnum);
+   swprintf( buf, MAX_STRING_LENGTH-1, L"%d",ch->in_room->vnum);
    ch->in_mind = str_dup(buf);
   }
  if (!is_name(str,ch->in_mind))
   {
-    sprintf(buf,"%s %s",ch->in_mind,str);
+    swprintf( buf, MAX_STRING_LENGTH-1, L"%s %s",ch->in_mind,str);
     free_string(ch->in_mind); ch->in_mind = str_dup(buf);
   }
 
 }
-void remove_mind(CHAR_DATA *ch, char *str)
+void remove_mind(CHAR_DATA *ch, wchar_t *str)
 {
- char buf[MAX_STRING_LENGTH];
- char buff[MAX_STRING_LENGTH];
- char arg[MAX_INPUT_LENGTH];
- char *mind = ch->in_mind;
+ wchar_t buf[MAX_STRING_LENGTH];
+ wchar_t buff[MAX_STRING_LENGTH];
+ wchar_t arg[MAX_INPUT_LENGTH];
+ wchar_t *mind = ch->in_mind;
 
  if (!IS_NPC(ch) || ch->in_room == NULL
 	|| mind == NULL || !is_name(str,mind) ) return;
@@ -3085,14 +3087,14 @@ void remove_mind(CHAR_DATA *ch, char *str)
    mind = one_argument(mind,arg);
    if (!is_name(str,arg))
    {
-    if (buf[0] == '\0') strcpy(buff,arg);
-    else sprintf(buff,"%s %s",buf,arg);
-    strcpy(buf,buff);
+    if (buf[0] == '\0') wcscpy(buff,arg);
+    else swprintf(buff,wcslen(buff)-1, L"%s %s",buf,arg);
+    wcscpy(buf,buff);
    }
   }
  while ( mind[0] != '\0' );
 
- do_say(ch,(char*)"Sonunda intikamýmý aldým!");
+ do_say(ch,(wchar_t*)"Sonunda intikamÄ±mÄ± aldÄ±m!");
  free_string(ch->in_mind);
  ch->in_mind = str_dup( buf );
  if (is_number(buf)) back_home(ch);
@@ -3117,23 +3119,23 @@ int opposite_door(int door)
 void back_home( CHAR_DATA *ch )
 {
  ROOM_INDEX_DATA *location;
- char arg[MAX_INPUT_LENGTH];
+ wchar_t arg[MAX_INPUT_LENGTH];
 
  if (!IS_NPC(ch) || ch->in_mind == NULL) return;
 
  one_argument(ch->in_mind,arg);
  if ( ( location = find_location( ch, arg ) ) == NULL )
   {
-   bug("Mob cannot return to reset place",0);
+   bug( L"Mob cannot return to reset place",0);
    return;
   }
 
  if ( ch->fighting == NULL && location != ch->in_room )
   {
-    act("$n nakil için dua ediyor.",ch,NULL,NULL,TO_ROOM);
+    act( L"$n nakil iÃ§in dua ediyor.",ch,NULL,NULL,TO_ROOM);
    char_from_room( ch );
    char_to_room( ch, location );
-   act("$n odada beliriyor.",ch,NULL,NULL,TO_ROOM);
+   act( L"$n odada beliriyor.",ch,NULL,NULL,TO_ROOM);
    if (is_number(ch->in_mind))
    {
 	free_string(ch->in_mind);
@@ -3142,13 +3144,13 @@ void back_home( CHAR_DATA *ch )
  }
 }
 
-CHAR_DATA * find_char( CHAR_DATA *ch, char *argument,int door, int range )
+CHAR_DATA * find_char( CHAR_DATA *ch, wchar_t *argument,int door, int range )
 {
  EXIT_DATA *pExit,*bExit;
  ROOM_INDEX_DATA *dest_room,*back_room;
  CHAR_DATA *target;
  int number = 0,opdoor;
- char arg[MAX_INPUT_LENGTH];
+ wchar_t arg[MAX_INPUT_LENGTH];
 
  number = number_argument(argument,arg);
  dest_room = ch->in_room;
@@ -3157,8 +3159,8 @@ CHAR_DATA * find_char( CHAR_DATA *ch, char *argument,int door, int range )
 
  if ( (opdoor = opposite_door( door )) == -1)
   {
-   bug("In find_char wrong door: %d",door);
-   send_to_char("Onu orada görmüyorsun.\n\r",ch);
+   bug( L"In find_char wrong door: %d",door);
+   send_to_char( L"Onu orada gÃ¶rmÃ¼yorsun.\n\r",ch);
    return NULL;
  }
  while (range > 0)
@@ -3173,27 +3175,27 @@ CHAR_DATA * find_char( CHAR_DATA *ch, char *argument,int door, int range )
   if ( (bExit = dest_room->exit[opdoor]) == NULL
       || bExit->u1.to_room != back_room)
    {
-     send_to_char("Seçtiðin yol gücünün yoldan geçmesine izin vermiyor.\n\r",ch);
+     send_to_char( L"SeÃ§tiÄŸin yol gÃ¼cÃ¼nÃ¼n yoldan geÃ§mesine izin vermiyor.\n\r",ch);
     return NULL;
    }
   if ((target = get_char_room2(ch,dest_room,arg,&number)) != NULL )
 	return target;
  }
 
- send_to_char("Onu orada görmüyorsun.\n\r",ch);
+ send_to_char( L"Onu orada gÃ¶rmÃ¼yorsun.\n\r",ch);
  return NULL;
 }
 
-int check_exit( char *arg )
+int check_exit( wchar_t *arg )
 {
     int door = -1;
 
-    if ( !str_cmp( arg, "k" ) || !str_cmp( arg, "kuzey" ) ) door = 0;
-     else if ( !str_cmp( arg, "d" ) || !str_cmp( arg, "doðu"  ) ) door = 1;
-     else if ( !str_cmp( arg, "g" ) || !str_cmp( arg, "güney" ) ) door = 2;
-     else if ( !str_cmp( arg, "b" ) || !str_cmp( arg, "batý"  ) ) door = 3;
-     else if ( !str_cmp( arg, "y" ) || !str_cmp( arg, "yukarý"    ) ) door = 4;
-     else if ( !str_cmp( arg, "a" ) || !str_cmp( arg, "aþaðý"  ) ) door = 5;
+    if ( !wcscasecmp( arg, L"k" ) || !wcscasecmp( arg, L"kuzey" ) ) door = 0;
+     else if ( !wcscasecmp( arg, L"d" ) || !wcscasecmp( arg, L"doÄŸu"  ) ) door = 1;
+     else if ( !wcscasecmp( arg, L"g" ) || !wcscasecmp( arg, L"gÃ¼ney" ) ) door = 2;
+     else if ( !wcscasecmp( arg, L"b" ) || !wcscasecmp( arg, L"batÄ±"  ) ) door = 3;
+     else if ( !wcscasecmp( arg, L"y" ) || !wcscasecmp( arg, L"yukarÄ±"    ) ) door = 4;
+     else if ( !wcscasecmp( arg, L"a" ) || !wcscasecmp( arg, L"aÅŸaÄŸÄ±"  ) ) door = 5;
 
     return door;
 }
@@ -3201,9 +3203,9 @@ int check_exit( char *arg )
 /*
  * Find a char for spell usage.
  */
-CHAR_DATA *get_char_spell( CHAR_DATA *ch, char *argument, int *door, int range )
+CHAR_DATA *get_char_spell( CHAR_DATA *ch, wchar_t *argument, int *door, int range )
 {
- char buf[MAX_INPUT_LENGTH];
+ wchar_t buf[MAX_INPUT_LENGTH];
  int i;
 
  for(i=0;argument[i] != '\0' && argument[i] != '.';i++)
@@ -3233,7 +3235,7 @@ void path_to_track( CHAR_DATA *ch, CHAR_DATA *victim, int door)
 
     if ( (opdoor = opposite_door( door )) == -1)
 	{
-	 bug("In path_to_track wrong door: %d",door);
+	 bug( L"In path_to_track wrong door: %d",door);
 	 return;
 	}
     temp = ch->in_room;
@@ -3244,12 +3246,12 @@ void path_to_track( CHAR_DATA *ch, CHAR_DATA *victim, int door)
       if ((pExit = temp->exit[ door ]) == NULL
 	  || (temp = pExit->u1.to_room) == NULL)
        {
-	bug("In path_to_track: couldn't calculate range %d",range);
+	bug( L"In path_to_track: couldn't calculate range %d",range);
 	return;
        }
       if ( range > 100)
        {
-	bug("In path_to_track: range exceeded 100",0);
+	bug( L"In path_to_track: range exceeded 100",0);
 	return;
        }
      }
@@ -3261,13 +3263,13 @@ void path_to_track( CHAR_DATA *ch, CHAR_DATA *victim, int door)
         if ((pExit = temp->exit[opdoor]) == NULL
 	    || (temp = pExit->u1.to_room) == NULL )
 	{
-	 sprintf(log_buf,"Path to track: Range: %d Room: %d opdoor:%d",
+	 swprintf(log_buf, (2*MAX_INPUT_LENGTH)-1, L"Path to track: Range: %d Room: %d opdoor:%d",
 		range,temp->vnum,opdoor);
 	 bug(log_buf,0);
 	 return;
 	}
        }
-    do_track(victim,(char*)"");
+    do_track(victim,(wchar_t*)"");
   }
  return;
 }
@@ -3469,13 +3471,13 @@ int get_total_played( CHAR_DATA *ch )
 
 int check_time_sync( )
 {
-    char *strtime;
-    char mytime[MAX_INPUT_LENGTH];
-    char tword[MAX_INPUT_LENGTH];
+    wchar_t *strtime;
+    wchar_t mytime[MAX_INPUT_LENGTH];
+    wchar_t tword[MAX_INPUT_LENGTH];
     int thour, tmin;
 
-    strtime                    = ctime( &current_time );
-    strtime[strlen(strtime)-1] = '\0';
+    strtime                    = (wchar_t*)ctime( &current_time );
+    strtime[wcslen(strtime)-1] = '\0';
 
     strtime = one_argument( strtime, tword);
     strtime = one_argument( strtime, tword);
@@ -3485,12 +3487,12 @@ int check_time_sync( )
     tword[0] = mytime[0];
     tword[1] = mytime[1];
     tword[2] = '\0';
-    thour = atoi( tword );
+    thour = wcstol( tword, 0, 10 );
 
     tword[0] = mytime[3];
     tword[1] = mytime[4];
     tword[2] = '\0';
-    tmin = atoi( tword );
+    tmin = wcstol( tword, 0, 10 );
 
     if (thour == 23 && tmin > 54)
 	return (59 - tmin);
@@ -3499,35 +3501,35 @@ int check_time_sync( )
 
 int parse_date( time_t t)
 {
-    char *strtime;
-    char day[MAX_INPUT_LENGTH];
-    char mon[MAX_INPUT_LENGTH];
+    wchar_t *strtime;
+    wchar_t day[MAX_INPUT_LENGTH];
+    wchar_t mon[MAX_INPUT_LENGTH];
     int d;
 
-    strtime                    = ctime( &t );
-    strtime[strlen(strtime)-1] = '\0';
+    strtime                    = (wchar_t*)ctime( &t );
+    strtime[wcslen(strtime)-1] = '\0';
 
     strtime = one_argument( strtime, mon);	/* temporary */
     strtime = one_argument( strtime, mon);
     strtime = one_argument( strtime, day);
-    d = atoi( day );
+    d = wcstol( day, 0, 10 );
 
-    if (!str_cmp(mon, "Jan"))	;
-    else if (!str_cmp(mon, "Feb"))
+    if (!wcscasecmp(mon, L"Jan"))	;
+    else if (!wcscasecmp(mon, L"Feb"))
     {
 	d += 31;
         if ( d > 59 ) d = 59;	/* discard 29th of February */
     }
-    else if (!str_cmp(mon, "Mar"))	d += 59;
-    else if (!str_cmp(mon, "Apr"))	d += 90;
-    else if (!str_cmp(mon, "May"))	d += 120;
-    else if (!str_cmp(mon, "Jun"))	d += 151;
-    else if (!str_cmp(mon, "Jul"))	d += 181;
-    else if (!str_cmp(mon, "Aug"))	d += 212;
-    else if (!str_cmp(mon, "Sep"))	d += 242;
-    else if (!str_cmp(mon, "Oct"))	d += 273;
-    else if (!str_cmp(mon, "Nov"))	d += 303;
-    else if (!str_cmp(mon, "Dec"))	d += 334;
+    else if (!wcscasecmp(mon, L"Mar"))	d += 59;
+    else if (!wcscasecmp(mon, L"Apr"))	d += 90;
+    else if (!wcscasecmp(mon, L"May"))	d += 120;
+    else if (!wcscasecmp(mon, L"Jun"))	d += 151;
+    else if (!wcscasecmp(mon, L"Jul"))	d += 181;
+    else if (!wcscasecmp(mon, L"Aug"))	d += 212;
+    else if (!wcscasecmp(mon, L"Sep"))	d += 242;
+    else if (!wcscasecmp(mon, L"Oct"))	d += 273;
+    else if (!wcscasecmp(mon, L"Nov"))	d += 303;
+    else if (!wcscasecmp(mon, L"Dec"))	d += 334;
     else return -1;
 
     return d;

@@ -3,7 +3,7 @@ Filename valhalla.are~
 Name Valhalla~
 Builder ROM~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 91
 Highlevel 100
 Minvnum 1200
@@ -18,7 +18,7 @@ END
 #1200
 Heimdall~
 Heimdall~
-Heimdall, Bifrost'un gardiyanı, Gökkuşağı Köprüsü'nde nöbet tutuyor.
+Heimdall, Bifrost'un gardiyanÄ±, GÃ¶kkuÅŸaÄŸÄ± KÃ¶prÃ¼sÃ¼'nde nÃ¶bet tutuyor.
 ~
 Standing over 7 feet tall and muscled as only a god can be, Heimdall keeps
 his unsleeping gaze over the Rainbow bridge.  His trusty Gjallor-horn never
@@ -34,7 +34,7 @@ ABKTVe CDFJZ 97
 
 #ROOMS
 #1200
-Sohbet Odası~
+Sohbet OdasÄ±~
 You are lounging in a quiet cosy parlour, warmed by a gentle magical fire
 which twinkles happily in a warm fireplace.  This is one of the many rooms
 where the heroes and gods come to socialize.  It is by far one of the most
@@ -42,13 +42,13 @@ comfortable!
 ~
 0 DJQ 0
 D2
-Asgard güneye doğru uzanıyor.
+Asgard gÃ¼neye doÄŸru uzanÄ±yor.
 ~
 ~
 0 -1 1213
 S
 #1201
-Moses'in Mekanı~
+Moses'in MekanÄ±~
 You see here a cozy little room with a fireplace.  You can tell it is Moses'
 room by the two stone tablets and a bible on a small ledge near the fireplace.
 This room was designed for total relaxation.  You can watch television, listen
@@ -57,7 +57,7 @@ There is a bell here for the butler.
 ~
 0 DQ 0
 D0
-Asgard kuzeye doğru uzanıyor.
+Asgard kuzeye doÄŸru uzanÄ±yor.
 ~
 ~
 0 -1 1213
@@ -70,7 +70,7 @@ Exits fill the room in all 42 dimensions, leading everywhere.
 ~
 0 DJQ 0
 D1
-Asgard doğuya doğru uzanıyor.
+Asgard doÄŸuya doÄŸru uzanÄ±yor.
 ~
 ~
 0 -1 1213
@@ -85,33 +85,33 @@ upward...
 ~
 0 DP 0
 D0
-Kuzeyde Alander'in çalışma odası var.
+Kuzeyde Alander'in Ã§alÄ±ÅŸma odasÄ± var.
 ~
-kapı~
+kapÄ±~
 1 -1 1209
 D1
-Valhalla doğuya doğru devam ediyor.
+Valhalla doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 -1 1217
 D2
-Buranın güneyinde denizin hemen yanında bir mağara var.
+BuranÄ±n gÃ¼neyinde denizin hemen yanÄ±nda bir maÄŸara var.
 ~
-kapı~
+kapÄ±~
 1 -1 1208
 D3
-Valhalla'nın girişi batıda.
+Valhalla'nÄ±n giriÅŸi batÄ±da.
 ~
 ~
 0 -1 1216
 D4
-Orada ne olduğunu bilmek istiyorsan, gidip bakman gerekecek...
+Orada ne olduÄŸunu bilmek istiyorsan, gidip bakman gerekecek...
 ~
 ~
 0 -1 1
 S
 #1204
-Priscilla'nın Haz Galerisi ~
+Priscilla'nÄ±n Haz Galerisi ~
 As you look around you, you see the largest collection of erotic toys
 in the world!!!  On a table in the middle of the room lies a book titled :
 "All You Ever Wanted to Know About Sex..But Were Afraid to Ask"
@@ -121,11 +121,11 @@ There are things here that you never even imagined in your wildest dreams!
 D0
 Kuzeyde Valhalla var.
 ~
-kapı~
+kapÄ±~
 1 -1 1218
 S
 #1205
-Kasırganın Gözü~
+KasÄ±rganÄ±n GÃ¶zÃ¼~
 The shrieking winds of a monstrous storm surround you, spinning you around
 in an endless web of fury. But then, in the middle of turmoil, you find a
 strange calm. You find yourself hovering in the calm eye of a hurricane. All
@@ -138,7 +138,7 @@ storm is going to be here a while.
 0 CDJNO 9
 S
 #1206
-Ay üzerinde bir gezinti~
+Ay Ã¼zerinde bir gezinti~
 The proud and lonely silence of Mare Imbrium surrounds you, as you gaze upon
 the sterile splendor of the moon.  All around is the velvet curtain of night,
 studded with a thousand gleaming jewels.  Below you hangs the beautiful
@@ -154,7 +154,7 @@ Upon it is a dedication to Robert Anson Heinlein, the father of the future.
 ~
 S
 #1207
-Satin Anısına Kurulmuş Okuma Odası~
+Satin AnÄ±sÄ±na KurulmuÅŸ Okuma OdasÄ±~
 Half read books lie everywhere: Yeats, Tennyson, Chandler, Barrie;
 a battered paperback de Laclos; a dusty leather-bound Donne.  A
 damp novel perches precariously on the edge of a large bathtub.
@@ -288,13 +288,13 @@ dusty leather bound leather-bound Donne~
           Will waste as this flea's death took life from thee.'
 ~
 D2
-Güneyde Valhalla var.
+GÃ¼neyde Valhalla var.
 ~
-kapı~
+kapÄ±~
 1 -1 1217
 S
 #1208
-Denizin yanında bir Mağara~
+Denizin yanÄ±nda bir MaÄŸara~
 You are in a small cave in a cliff next to a deep green sea.  Fine
 gold and pink sand blanket the floor.  Shells are scattered and strewn
 about.  A blow hole in the roof of the cave allows beams of light to stream
@@ -305,13 +305,13 @@ worn by time into a shape similar to a comfortable chair.
 ~
 0 DJP 0
 D0
-Valhalla kuzeye doğru uzanıyor.
+Valhalla kuzeye doÄŸru uzanÄ±yor.
 ~
-kapı~
+kapÄ±~
 1 -1 1203
 S
 #1209
-Başbüyücünün Çalışma Odası~
+BaÅŸbÃ¼yÃ¼cÃ¼nÃ¼n Ã‡alÄ±ÅŸma OdasÄ±~
 This well-lit room is absolutely filled with clutter -- enchanting gear,
 reagents, spell components, ancient tomes, scrolls, braziers, exotic incense
 and countless other tools of the magical trade, all jumbled together with
@@ -322,9 +322,9 @@ are east.
 ~
 0 DK 0
 D2
-Güneyde Valhalla var.
+GÃ¼neyde Valhalla var.
 ~
-kapı~
+kapÄ±~
 1 -1 1203
 E
 tools scrolls braziers components~
@@ -349,7 +349,7 @@ corner, you notice a statue.
 D0
 Kuzeyde Valhalla var.
 ~
-kapı~
+kapÄ±~
 1 -1 1217
 E
 desk~
@@ -365,14 +365,14 @@ creative, if not eccentric, players of all time.  The inscription on the
 base reads, "I like the moment when I crush a man's ego."
 ~
 E
-bookshçora~
+bookshÃ§ora~
 This is the most amazing collection of chess books you have ever seen.
 Everything from Damiano's manuscripts, to a complete collection of the
 Encyclopedia of Chess Openings, to the latest Imformants are all here.
 ~
 S
 #1211
-Yargı Arenası~
+YargÄ± ArenasÄ±~
 The scene lain before you is one that gives you the feeling of being placed
 under a higher authority.  The jury is out.  A statue of Pontius Pilate is
 in the aft of the Arena.  Staring balefully, the statue faces a distant
@@ -382,9 +382,9 @@ of veinous marble.  A bloodstone seat awaits the true paragon of Romanity.
 ~
 0 DJP 0
 D2
-Güneyde Valhalla var.
+GÃ¼neyde Valhalla var.
 ~
-kapı~
+kapÄ±~
 1 -1 1218
 E
 statue~
@@ -394,14 +394,14 @@ shield that glimmers like a pool of blood.
 ~
 S
 #1212
-Ölüler Diyarı~
+Ã–lÃ¼ler DiyarÄ±~
 You are standing on an immense, grey stone floor that stretches as far as you
 can see in all directions.  Rough winds plunging from the dark, starless sky
 tear savagely at your fragile body.
 ~
 0 DN 0
 D0
-Sert zemin sonsuza kadar devam ediyormuş gibi görünüyor.
+Sert zemin sonsuza kadar devam ediyormuÅŸ gibi gÃ¶rÃ¼nÃ¼yor.
 ~
 ~
 0 -1 1212
@@ -440,33 +440,33 @@ huge mansion lies to the east beyond a set of magnificent golden doors.
 ~
 0 0 0
 D0
-Kuzeyde Sohbet Odası var.
+Kuzeyde Sohbet OdasÄ± var.
 ~
 ~
 0 -1 1200
 D1
-Doğuda Valhalla'nın altın kapıları var.
+DoÄŸuda Valhalla'nÄ±n altÄ±n kapÄ±larÄ± var.
 ~
 ~
 0 -1 1216
 D2
-Moses'in Mekanı güneyde.
+Moses'in MekanÄ± gÃ¼neyde.
 ~
 ~
 0 -1 1201
 D3
-Batıda Evrenin Merkezi var.
+BatÄ±da Evrenin Merkezi var.
 ~
 ~
 0 -1 1202
 D5
-Gökkuşağı Köprüsü altında uzanıyor.  Bulutların arasından zar zor seçilebiliyor.
+GÃ¶kkuÅŸaÄŸÄ± KÃ¶prÃ¼sÃ¼ altÄ±nda uzanÄ±yor.  BulutlarÄ±n arasÄ±ndan zar zor seÃ§ilebiliyor.
 ~
 ~
 0 -1 1215
 S
 #1214
-Kayıp Ruhlar Odası~
+KayÄ±p Ruhlar OdasÄ±~
 This is the room full of souls that never made it to Asgard.  They are
 trapped here eternally, left to wander about in misery.  They were infidels
 and cowards.  Their cries of misery send a shiver down your spine.
@@ -478,7 +478,7 @@ D5
 0 -1 1219
 S
 #1215
-Gökkuşağı Köprüsünün Başı~
+GÃ¶kkuÅŸaÄŸÄ± KÃ¶prÃ¼sÃ¼nÃ¼n BaÅŸÄ±~
 Standing on the mortal end of the Rainbow Bridge, the bridge arches up
 before you and seems to disappear into the clouds.  You wonder if it is
 wise to venture upward into the realm of the gods.  But it seems so calm
@@ -486,18 +486,18 @@ and peaceful here that it would be a shame to leave...
 ~
 0 0 1
 D4
-Gökkuşağı Köprüsü önünde ileri doğru uzayıp gidiyor.
+GÃ¶kkuÅŸaÄŸÄ± KÃ¶prÃ¼sÃ¼ Ã¶nÃ¼nde ileri doÄŸru uzayÄ±p gidiyor.
 ~
 ~
 0 -1 1220
 D5
-Altta Midgaard sunağı görülebiliyor.
+Altta Midgaard sunaÄŸÄ± gÃ¶rÃ¼lebiliyor.
 ~
 ~
 0 -1 3054
 S
 #1216
-Valhalla'nın girişi~
+Valhalla'nÄ±n giriÅŸi~
 The huge ornate entrance of Valhalla is before you.  It seems as though
 atleast eight-hundred soldiers could walk abreast of one another through
 these doors. You stare in awe at the sparkling mansion before you.  You
@@ -506,12 +506,12 @@ of bravery and glory that you know are kept within the walls of Valhalla.
 ~
 0 P 1
 D1
-Valhalla doğuya doğru uzanıyor.
+Valhalla doÄŸuya doÄŸru uzanÄ±yor.
 ~
 ~
 0 -1 1203
 D3
-Asgard batıya doğru uzanıyor.
+Asgard batÄ±ya doÄŸru uzanÄ±yor.
 ~
 ~
 0 -1 1213
@@ -526,27 +526,27 @@ up there...
 ~
 0 P 0
 D0
-Satin Anısına Kurulmuş Okuma Odası buranın kuzeyinde.
+Satin AnÄ±sÄ±na KurulmuÅŸ Okuma OdasÄ± buranÄ±n kuzeyinde.
 ~
-kapı~
+kapÄ±~
 1 -1 1207
 D1
-Valhalla doğuya doğru devam ediyor.
+Valhalla doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 -1 1218
 D2
-Kocaayak'ın odası buranın güneyinde.
+Kocaayak'Ä±n odasÄ± buranÄ±n gÃ¼neyinde.
 ~
-kapı~
+kapÄ±~
 1 -1 1210
 D3
-Valhalla batıya doğru devam ediyor.
+Valhalla batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 -1 1203
 D4
-Orada ne olduğunu bilmek istiyorsan, gidip bakman gerekecek...
+Orada ne olduÄŸunu bilmek istiyorsan, gidip bakman gerekecek...
 ~
 ~
 0 -1 1212
@@ -560,27 +560,27 @@ sort of exit above you, but you do not know where it leads...
 ~
 0 P 0
 D0
-Pontius'un odası buranın kuzeyinde.
+Pontius'un odasÄ± buranÄ±n kuzeyinde.
 ~
-kapı~
+kapÄ±~
 1 -1 1211
 D1
-Valhalla doğuya doğru devam ediyor.
+Valhalla doÄŸuya doÄŸru devam ediyor.
 ~
 ~
 0 -1 1219
 D2
-Priscilla'nın Haz Galerisi buranın güneyinde.
+Priscilla'nÄ±n Haz Galerisi buranÄ±n gÃ¼neyinde.
 ~
-kapı~
+kapÄ±~
 1 -1 1204
 D3
-Valhalla batıya doğru devam ediyor.
+Valhalla batÄ±ya doÄŸru devam ediyor.
 ~
 ~
 0 -1 1217
 D4
-Orada ne olduğunu bilmek istiyorsan, çıkıp bakman gerekecek...
+Orada ne olduÄŸunu bilmek istiyorsan, Ã§Ä±kÄ±p bakman gerekecek...
 ~
 ~
 0 -1 2
@@ -599,45 +599,45 @@ softly and the scent of incense is strong here.
 ~
 0 P 0
 D0
-Melankolik'in odası buranın kuzeyinde.
+Melankolik'in odasÄ± buranÄ±n kuzeyinde.
 ~
 ~
 0 -1 3161
 D1
-Kates'in odası buranın doğusunda.
+Kates'in odasÄ± buranÄ±n doÄŸusunda.
 ~
 ~
 0 -1 3150
 D2
-Aptalın Tapınağı buranın güneyinde.
+AptalÄ±n TapÄ±naÄŸÄ± buranÄ±n gÃ¼neyinde.
 ~
 ~
 0 -1 3170
 D3
-Valhalla tekrar batıya doğru dönüyor.
+Valhalla tekrar batÄ±ya doÄŸru dÃ¶nÃ¼yor.
 ~
 ~
 0 -1 1218
 D4
-Buranın yukarısında ne olduğunu bilmek istiyorsan, çıkıp bakman gerekecek...
+BuranÄ±n yukarÄ±sÄ±nda ne olduÄŸunu bilmek istiyorsan, Ã§Ä±kÄ±p bakman gerekecek...
 ~
 ~
 0 -1 1214
 S
 #1220
-Gökkuşağı Köprüsü'nün Üzerinde~
+GÃ¶kkuÅŸaÄŸÄ± KÃ¶prÃ¼sÃ¼'nÃ¼n Ãœzerinde~
 You have reached the center of the Rainbow Bridge.  Clouds and mist swirl
 around your feet.  The view from here is incredible.  It is little wonder
 that the heavens were saved for the gods personal pleasures.
 ~
 0 0 1
 D4
-Gökkuşağı Köprüsü yukarı gökyüzüne doğru devam ediyor.
+GÃ¶kkuÅŸaÄŸÄ± KÃ¶prÃ¼sÃ¼ yukarÄ± gÃ¶kyÃ¼zÃ¼ne doÄŸru devam ediyor.
 ~
 ~
 0 -1 1221
 D5
-Gökkuşağı Köprüsü aşağıdaki bulutların içine doğru girip gözden kayboluyor.
+GÃ¶kkuÅŸaÄŸÄ± KÃ¶prÃ¼sÃ¼ aÅŸaÄŸÄ±daki bulutlarÄ±n iÃ§ine doÄŸru girip gÃ¶zden kayboluyor.
 ~
 ~
 0 -1 1215
@@ -648,19 +648,19 @@ into the blue sky.
 ~
 S
 #1221
-Gökkuşağı Köprüsü'nün Sonu~
+GÃ¶kkuÅŸaÄŸÄ± KÃ¶prÃ¼sÃ¼'nÃ¼n Sonu~
 You have reached the end of the Rainbow Bridge.  Asgard stretches out above
 you.  Looking around, you search for the legendary guardian of Asgard.  The
 clouds are far below you and a sense of beauty and peacefulness surrounds you.
 ~
 0 0 -1
 D4
-Tepende tüm ihtişamıyla yayılmış Asgard uzanıyor.
+Tepende tÃ¼m ihtiÅŸamÄ±yla yayÄ±lmÄ±ÅŸ Asgard uzanÄ±yor.
 ~
 ~
 0 -1 1213
 D5
-Bifrost, Gökkuşağı Köprüsü aşağı doğru Midgaard Tapınağı'na doğru uzanıyor.
+Bifrost, GÃ¶kkuÅŸaÄŸÄ± KÃ¶prÃ¼sÃ¼ aÅŸaÄŸÄ± doÄŸru Midgaard TapÄ±naÄŸÄ±'na doÄŸru uzanÄ±yor.
 ~
 ~
 0 -1 1220

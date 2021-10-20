@@ -3,7 +3,7 @@ Filename tehlikeli_semt.are~
 Name Tehlikeli Semt~
 Builder Raff~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 15
 Minvnum 2100
@@ -16,106 +16,106 @@ END
 
 #NEW_MOBILES
 #2101
-asura çete üyesi~
-bir asura çete üyesi~
-asura çetesinin bir üyesi burada.
+asura Ã§ete Ã¼yesi~
+bir asura Ã§ete Ã¼yesi~
+asura Ã§etesinin bir Ã¼yesi burada.
 ~
-Küçüklükten beri hep şiddet dolu bir yaşamı olmuş.
+KÃ¼Ã§Ã¼klÃ¼kten beri hep ÅŸiddet dolu bir yaÅŸamÄ± olmuÅŸ.
 ~
 asura~
 ACEG 0 5
 #2102
-umacı çete üyesi~
-bir umacı çete üyesi~
-Bir umacı  çete üyesi burada.
+umacÄ± Ã§ete Ã¼yesi~
+bir umacÄ± Ã§ete Ã¼yesi~
+Bir umacÄ±  Ã§ete Ã¼yesi burada.
 ~
-Dünyayı bütün arbalardan temizlemek istiyor.
+DÃ¼nyayÄ± bÃ¼tÃ¼n arbalardan temizlemek istiyor.
 ~
 human~
 ACEG 0 5
 #2103
-asura çete lideri~
-asura çete lideri~
-asura çete lideri burada. Yerini bulmandan memnun olmadı!
+asura Ã§ete lideri~
+asura Ã§ete lideri~
+asura Ã§ete lideri burada. Yerini bulmandan memnun olmadÄ±!
 ~
-Liderliğini ayı gibi güçlü olmasına ve kurnazlığına borçlu.
-Kaslarından oldukça kuvvetli olduğunu anlıyorsun.
+LiderliÄŸini ayÄ± gibi gÃ¼Ã§lÃ¼ olmasÄ±na ve kurnazlÄ±ÄŸÄ±na borÃ§lu.
+KaslarÄ±ndan oldukÃ§a kuvvetli olduÄŸunu anlÄ±yorsun.
 ~
 asura~
 ABFGT 0 13
 #2104
-çürütücü asura~
-bir çürütücü~
-Oldukça iri bir çürütücü burada kıracak kemik bekliyor.
+Ã§Ã¼rÃ¼tÃ¼cÃ¼ asura~
+bir Ã§Ã¼rÃ¼tÃ¼cÃ¼~
+OldukÃ§a iri bir Ã§Ã¼rÃ¼tÃ¼cÃ¼ burada kÄ±racak kemik bekliyor.
 ~
-Oldukça uzun ve ağır. Kafanı parçalamak için yeterli güce
-sahip gibi. Bu ne biçim bir asura ! !
+OldukÃ§a uzun ve aÄŸÄ±r. KafanÄ± parÃ§alamak iÃ§in yeterli gÃ¼ce
+sahip gibi. Bu ne biÃ§im bir asura ! !
 ~
 asura~
 ACFGHT D 11
 #2105
-bebek kız~
-bir kız~
-Bebek gibi bir kız burada duruyor.
+bebek kÄ±z~
+bir kÄ±z~
+Bebek gibi bir kÄ±z burada duruyor.
 ~
-Çok güzel ( tamam GÖRECELİ). Sen yine de dokunmaya kalkma!
+Ã‡ok gÃ¼zel ( tamam GÃ–RECELÄ°). Sen yine de dokunmaya kalkma!
 ~
 human~
 ACGHS 0 7
 #2106
 devriye~
 bir devriye~
-Bir devriye barışı korumaya çalışıyor.
+Bir devriye barÄ±ÅŸÄ± korumaya Ã§alÄ±ÅŸÄ±yor.
 ~
-Bu pisliklerle birlikte olmaktansa bir tavernada olmalıydı.
+Bu pisliklerle birlikte olmaktansa bir tavernada olmalÄ±ydÄ±.
 ~
 human~
 AGT 0 8
 #2107
-zararcı umacı~
-bir zararcı~
-Bir Umacı burada spreyle duvarlara çetenin sloganlarını yazıyor.
+zararcÄ± umacÄ±~
+bir zararcÄ±~
+Bir UmacÄ± burada spreyle duvarlara Ã§etenin sloganlarÄ±nÄ± yazÄ±yor.
 ~
-Tedbirli gözlere ve bir sanatçının ellerine sahip.
+Tedbirli gÃ¶zlere ve bir sanatÃ§Ä±nÄ±n ellerine sahip.
 ~
 human~
 AGHS P 10
 #2108
 pitbul~
 bir pitbul~
-Saldırgan bir pitbul ağzından köpükler saçıyor. Bu kuduz hastalığının bir
+SaldÄ±rgan bir pitbul aÄŸzÄ±ndan kÃ¶pÃ¼kler saÃ§Ä±yor. Bu kuduz hastalÄ±ÄŸÄ±nÄ±n bir
 belirtisi.
 ~
-Senin gırtlağını parçalarken ona yakından bakma şansı buldun. Dişleri kan
-içinde. Senden önce kanlı bir biftek yemiş olabilir! ! !
+Senin gÄ±rtlaÄŸÄ±nÄ± parÃ§alarken ona yakÄ±ndan bakma ÅŸansÄ± buldun. DiÅŸleri kan
+iÃ§inde. Senden Ã¶nce kanlÄ± bir biftek yemiÅŸ olabilir! ! !
 ~
 dog~
 ABFG DQ 5
 #2109
 pank asura~
 bir pank asura~
-Bir pank burada duvara birşeyler oymakla meşgul.
+Bir pank burada duvara birÅŸeyler oymakla meÅŸgul.
 ~
-İş yaparken rehabilite olmanın tipik bir örneği. Güzel değil.
+Ä°ÅŸ yaparken rehabilite olmanÄ±n tipik bir Ã¶rneÄŸi. GÃ¼zel deÄŸil.
 ~
 asura~
 AFHS P 10
 #2110
-umacı çete lideri~
-umacı çete lideri~
-Umacı çete lideri bıçağını şaklatıyor.
+umacÄ± Ã§ete lideri~
+umacÄ± Ã§ete lideri~
+UmacÄ± Ã§ete lideri bÄ±Ã§aÄŸÄ±nÄ± ÅŸaklatÄ±yor.
 ~
-asura liderden daha küçük fakat kuşkusuz daha akıllı.
+asura liderden daha kÃ¼Ã§Ã¼k fakat kuÅŸkusuz daha akÄ±llÄ±.
 ~
 human~
 ABFGS 0 13
 #2111
 katil~
 bir katil~
-Çirkin ve ürkütücü bir katil burada. Tekmeleyecek köpek arıyor.
+Ã‡irkin ve Ã¼rkÃ¼tÃ¼cÃ¼ bir katil burada. Tekmeleyecek kÃ¶pek arÄ±yor.
 ~
-Bu kişi asura çürütücüler kadar büyük değil fakat umacı ler için yine de
-bir şef.
+Bu kiÅŸi asura Ã§Ã¼rÃ¼tÃ¼cÃ¼ler kadar bÃ¼yÃ¼k deÄŸil fakat umacÄ± ler iÃ§in yine de
+bir ÅŸef.
 ~
 human~
 ACFGHT D 11
@@ -124,24 +124,24 @@ ACFGHT D 11
 #OBJECTS
 #2101
 asura ceketi~
-bir asura çete ceketi~
-Bir asura çete ceketi düşüncesizce buraya bırakılmış.~
+bir asura Ã§ete ceketi~
+Bir asura Ã§ete ceketi dÃ¼ÅŸÃ¼ncesizce buraya bÄ±rakÄ±lmÄ±ÅŸ.~
 leather~
 armor 0 AD
 3 5 4 0 0
 5 20 970 A
 #2102
-umacı çete ceketi~
-bir Umacı çete ceketi~
-Bir Umacı çete ceketi düşüncesizce buraya bırakılmış.~
+umacÄ± Ã§ete ceketi~
+bir UmacÄ± Ã§ete ceketi~
+Bir UmacÄ± Ã§ete ceketi dÃ¼ÅŸÃ¼ncesizce buraya bÄ±rakÄ±lmÄ±ÅŸ.~
 leather~
 armor 0 AD
 5 4 3 0 0
 5 20 970 A
 #2103
-kırbaç~
-bir uzun kırbaç~
-Bir uzun kırbaç yerde yatıyor.~
+kÄ±rbaÃ§~
+bir uzun kÄ±rbaÃ§~
+Bir uzun kÄ±rbaÃ§ yerde yatÄ±yor.~
 iron~
 weapon A AN
 whip 2 6 whip 0
@@ -153,7 +153,7 @@ A
 #2104
 metal kalkan~
 bir metal kalkan~
-Bir çöp kutusu kapağı yere düşmüş.~
+Bir Ã§Ã¶p kutusu kapaÄŸÄ± yere dÃ¼ÅŸmÃ¼ÅŸ.~
 steel~
 armor 0 AJ
 3 3 3 1 0
@@ -161,7 +161,7 @@ armor 0 AJ
 #2105
 sprey kutusu~
 bir sprey kutusu~
-Bir sprey kutusu buraya bırakılmış.~
+Bir sprey kutusu buraya bÄ±rakÄ±lmÄ±ÅŸ.~
 aluminum~
 wand B AO
 11 2 2 'colour spray' 0
@@ -169,7 +169,7 @@ wand B AO
 #2106
 ufak kama~
 bir ufak kama~
-Öldürücü bir ufak kama burada unutulmuş.~
+Ã–ldÃ¼rÃ¼cÃ¼ bir ufak kama burada unutulmuÅŸ.~
 steel~
 weapon 0 AN
 dagger 5 2 pierce 0
@@ -180,8 +180,8 @@ A
 17 2
 #2107
 demir topuklu bot~
-bir çift demir topuklu bot~
-Siyah deriden yapılmış bir çift bot burada.~
+bir Ã§ift demir topuklu bot~
+Siyah deriden yapÄ±lmÄ±ÅŸ bir Ã§ift bot burada.~
 leather~
 armor 0 AG
 3 3 3 0 0
@@ -191,9 +191,9 @@ A
 A
 19 1
 #2108
-değnek~
-bir değnek~
-Küçük bir değnek burada bırakılmış.~
+deÄŸnek~
+bir deÄŸnek~
+KÃ¼Ã§Ã¼k bir deÄŸnek burada bÄ±rakÄ±lmÄ±ÅŸ.~
 glass~
 wand AG AO
 20 10 10 'blindness' 0
@@ -201,7 +201,7 @@ wand AG AO
 #2109
 eldiven~
 rahat deri eldiven~
-Bir çift deri eldiven burada bırakılmış.~
+Bir Ã§ift deri eldiven burada bÄ±rakÄ±lmÄ±ÅŸ.~
 leather~
 armor 0 AH
 4 3 4 0 0
@@ -211,7 +211,7 @@ A
 #2110
 devriye topuzu~
 bir devriye topuzu~
-Bir devriye topuzu dikkatsizlikten burada unutulmuş.~
+Bir devriye topuzu dikkatsizlikten burada unutulmuÅŸ.~
 wood~
 weapon 0 AN
 mace 1 10 pound 0
@@ -221,9 +221,9 @@ A
 A
 14 5
 #2111
-mühürlü yüzük~
-bir asura mühürlü yüzüğü~
-Üzerinde asura işareti taşıyan bir yüzük tozun içinde kaybolmuş.~
+mÃ¼hÃ¼rlÃ¼ yÃ¼zÃ¼k~
+bir asura mÃ¼hÃ¼rlÃ¼ yÃ¼zÃ¼ÄŸÃ¼~
+Ãœzerinde asura iÅŸareti taÅŸÄ±yan bir yÃ¼zÃ¼k tozun iÃ§inde kaybolmuÅŸ.~
 bronze~
 jewelry 0 AB
 0 0 0 0 0
@@ -233,9 +233,9 @@ A
 A
 1 1
 #2112
-pirinç mafsal~
-pirinç mafsal~
-Bir savaştan arta kalan bir mafsal takımı yerde duruyor.~
+pirinÃ§ mafsal~
+pirinÃ§ mafsal~
+Bir savaÅŸtan arta kalan bir mafsal takÄ±mÄ± yerde duruyor.~
 brass~
 armor 0 AH
 1 1 1 0 0
@@ -243,9 +243,9 @@ armor 0 AH
 A
 18 1
 #2113
-uzun kurşun topuz~
-bir kurşun topuz~
-Uzun bir kurşun topuz burada, kafa kırmak için alınmayı bekliyor.~
+uzun kurÅŸun topuz~
+bir kurÅŸun topuz~
+Uzun bir kurÅŸun topuz burada, kafa kÄ±rmak iÃ§in alÄ±nmayÄ± bekliyor.~
 lead~
 weapon 0 AN
 mace 2 6 pound 0
@@ -255,25 +255,25 @@ A
 A
 19 1
 #2114
-çivili çete asura ceket~
-bir çivili asura çete ceketi~
-Bir asura çivili ceket burada yeni sahibini bekliyor.~
+Ã§ivili Ã§ete asura ceket~
+bir Ã§ivili asura Ã§ete ceketi~
+Bir asura Ã§ivili ceket burada yeni sahibini bekliyor.~
 leather~
 armor 0 AD
 4 6 5 0 0
 10 30 1470 G
 #2115
-çivili çete umacı ceketi~
-bir çivili umacı  çete ceketi~
-Bir çivili umacı  çete ceketi burada yeni sahibini bekliyor.~
+Ã§ivili Ã§ete umacÄ± ceketi~
+bir Ã§ivili umacÄ±  Ã§ete ceketi~
+Bir Ã§ivili umacÄ±  Ã§ete ceketi burada yeni sahibini bekliyor.~
 leather~
 armor 0 AD
 6 5 4 0 0
 10 30 1470 P
 #2116
-polis düdük~
-bir polis düdüğü~
-Gümüş bir zincire bağlanmış bir düdük burada.~
+polis dÃ¼dÃ¼k~
+bir polis dÃ¼dÃ¼ÄŸÃ¼~
+GÃ¼mÃ¼ÅŸ bir zincire baÄŸlanmÄ±ÅŸ bir dÃ¼dÃ¼k burada.~
 steel~
 clothing 0 AC
 0 0 0 0 0
@@ -281,19 +281,19 @@ clothing 0 AC
 #2117
 siyah deri pantalon~
 bir siyah deri pantalon~
-Yerde bacakları saran bir siyah deri pantalon görüyorsun.~
+Yerde bacaklarÄ± saran bir siyah deri pantalon gÃ¶rÃ¼yorsun.~
 leather~
 armor 0 AF
 3 4 4 0 0
 5 0 420 G
 E
 deri pantalon~
-Kullanılmış fakat hala sağlam.
+KullanÄ±lmÄ±ÅŸ fakat hala saÄŸlam.
 ~
 #2118
 keskin kama~
 bir keskin kama~
-Garip görünüşlü bir kama burada.~
+Garip gÃ¶rÃ¼nÃ¼ÅŸlÃ¼ bir kama burada.~
 steel~
 weapon 0 AN
 dagger 1 12 stab 0
@@ -301,9 +301,9 @@ dagger 1 12 stab 0
 A
 18 2
 #2119
-kırık kama~
-bir kırık kama~
-Arrgg! Kırık bir kama ayağını kesti.~
+kÄ±rÄ±k kama~
+bir kÄ±rÄ±k kama~
+Arrgg! KÄ±rÄ±k bir kama ayaÄŸÄ±nÄ± kesti.~
 glass~
 weapon 0 AN
 dagger 2 7 slash 0
@@ -311,23 +311,23 @@ dagger 2 7 slash 0
 A
 18 -2
 E
-kırık şişe~
-Ucu oldukça kesici kırık bir şişe.
+kÄ±rÄ±k ÅŸiÅŸe~
+Ucu oldukÃ§a kesici kÄ±rÄ±k bir ÅŸiÅŸe.
 ~
 #0
 
 #ROOMS
 #2101
-Bir Karanlık ve Dar Yol~
-Yolun duvarları spray boyalarla defalarca boyanmış. Grafitilerden birisi
-şöyle diyor: "Bu bölüm 5-10 levellar arası olanlar için dizayn edilmiştir.
-Leveliniz 15'den yüksekse çok birşey ummayın. Eğer leveliniz 5'den küçükse
-risk alıyorsunuz demektir. Duvarda bir plaket var.
+Bir KaranlÄ±k ve Dar Yol~
+Yolun duvarlarÄ± spray boyalarla defalarca boyanmÄ±ÅŸ. Grafitilerden birisi
+ÅŸÃ¶yle diyor: "Bu bÃ¶lÃ¼m 5-10 levellar arasÄ± olanlar iÃ§in dizayn edilmiÅŸtir.
+Leveliniz 15'den yÃ¼ksekse Ã§ok birÅŸey ummayÄ±n. EÄŸer leveliniz 5'den kÃ¼Ã§Ã¼kse
+risk alÄ±yorsunuz demektir. Duvarda bir plaket var.
 ~
 0 AC 1
 E
 plaket~
-Bu bölgenin Türkçe çevirisi Uzak Diyarlar için Jai tarafından yapılmıştır.
+Bu bÃ¶lgenin TÃ¼rkÃ§e Ã§evirisi Uzak Diyarlar iÃ§in Jai tarafÄ±ndan yapÄ±lmÄ±ÅŸtÄ±r.
 ~
 D1
 ~
@@ -340,12 +340,12 @@ You can see Emerald Avenue, a much nicer place to be.
 0 -1 3119
 S
 #2102
-Beyaz Ejder Bulvarının Başlangıcı~
-Şehrin bu bölümü bir asura Çetesi tarafından istila edilmiş. Poliste bile
-burada bulunmaktan dolayı bir korku var. Burası eskiden orta sınıfın güzel
-bir mekanıymış; şimdi ise caddelerini çeteciler yönetiyor. Bütün ev ve
-işyerleri terkedilmiş. Batıda dar bir sokak var. Cadde ise doğuya doğru
-devam ediyor. Güneyde bir şantiye var.
+Beyaz Ejder BulvarÄ±nÄ±n BaÅŸlangÄ±cÄ±~
+Åehrin bu bÃ¶lÃ¼mÃ¼ bir asura Ã‡etesi tarafÄ±ndan istila edilmiÅŸ. Poliste bile
+burada bulunmaktan dolayÄ± bir korku var. BurasÄ± eskiden orta sÄ±nÄ±fÄ±n gÃ¼zel
+bir mekanÄ±ymÄ±ÅŸ; ÅŸimdi ise caddelerini Ã§eteciler yÃ¶netiyor. BÃ¼tÃ¼n ev ve
+iÅŸyerleri terkedilmiÅŸ. BatÄ±da dar bir sokak var. Cadde ise doÄŸuya doÄŸru
+devam ediyor. GÃ¼neyde bir ÅŸantiye var.
 ~
 0 0 1
 D1
@@ -362,10 +362,10 @@ D3
 0 -1 2101
 S
 #2103
-Beyaz Ejder Bulvarı Boyunca~
-Heryerde süregiden şiddetin izlerini görüyorsun. Heryere kan bulaşmış ve
-etrafta kırık asalar, bıçaklar var. Güneyde bir şantiye görüyorsun. Beyaz
-Ejder Bulvarı doğuya ve batıya devam ediyor.
+Beyaz Ejder BulvarÄ± Boyunca~
+Heryerde sÃ¼regiden ÅŸiddetin izlerini gÃ¶rÃ¼yorsun. Heryere kan bulaÅŸmÄ±ÅŸ ve
+etrafta kÄ±rÄ±k asalar, bÄ±Ã§aklar var. GÃ¼neyde bir ÅŸantiye gÃ¶rÃ¼yorsun. Beyaz
+Ejder BulvarÄ± doÄŸuya ve batÄ±ya devam ediyor.
 ~
 0 0 1
 D1
@@ -382,9 +382,9 @@ D3
 0 -1 2102
 S
 #2104
-White Dragon Boulevard at zırhy~
-Burada sadece çete üyeleri caddeleri dolaşır. Zırh dükkanı olması gereken
-yer güneyde. Beyaz Ejder Bulvarı doğuya ve batıya devam ediyor.
+White Dragon Boulevard at zÄ±rhy~
+Burada sadece Ã§ete Ã¼yeleri caddeleri dolaÅŸÄ±r. ZÄ±rh dÃ¼kkanÄ± olmasÄ± gereken
+yer gÃ¼neyde. Beyaz Ejder BulvarÄ± doÄŸuya ve batÄ±ya devam ediyor.
 ~
 0 0 1
 D1
@@ -401,9 +401,9 @@ D3
 0 -1 2103
 S
 #2105
-Beyaz Ejder Bulvarı~
-Beyaz Ejder Bulvarı'nın buradan güneye de devam ediyor fakat devrilen bir
-bina yolu tıkamış. Beyaz Ejder Bulvarı doğu ve batıya devam ediyor.
+Beyaz Ejder BulvarÄ±~
+Beyaz Ejder BulvarÄ±'nÄ±n buradan gÃ¼neye de devam ediyor fakat devrilen bir
+bina yolu tÄ±kamÄ±ÅŸ. Beyaz Ejder BulvarÄ± doÄŸu ve batÄ±ya devam ediyor.
 ~
 0 0 1
 D1
@@ -416,9 +416,9 @@ D3
 0 -1 2104
 S
 #2106
-Buz Ejderle Beyaz Ejderin Kesişimi~
-Buz Ejder Yolu buradan güneye devam ediyor. Yol güzel kristal heykellerle
-donatılmış. Beyaz Ejder Bulvarı doğuya ve batıya devam ediyor.
+Buz Ejderle Beyaz Ejderin KesiÅŸimi~
+Buz Ejder Yolu buradan gÃ¼neye devam ediyor. Yol gÃ¼zel kristal heykellerle
+donatÄ±lmÄ±ÅŸ. Beyaz Ejder BulvarÄ± doÄŸuya ve batÄ±ya devam ediyor.
 ~
 0 0 1
 D1
@@ -435,9 +435,9 @@ D3
 0 -1 2105
 S
 #2107
-Beyaz Ejder Bulvarı~
-Önyüzü beyaz mermerden yapılmış görkemli bir han güneyde kalıyor. Ne
-yazık ki şimdilerde sadece bir harabe. Doğuya ve batıya devam edebilirsin.
+Beyaz Ejder BulvarÄ±~
+Ã–nyÃ¼zÃ¼ beyaz mermerden yapÄ±lmÄ±ÅŸ gÃ¶rkemli bir han gÃ¼neyde kalÄ±yor. Ne
+yazÄ±k ki ÅŸimdilerde sadece bir harabe. DoÄŸuya ve batÄ±ya devam edebilirsin.
 ~
 0 0 1
 D1
@@ -450,10 +450,10 @@ D3
 0 -1 2106
 S
 #2108
-tunç Ejder ve Beyaz Ejder Kesişimi~
-Burası bölgenin kuzey-doğu köşesi. Beyaz Ejder Bulvarı batıya yöneliyor.
-tunç Ejder caddesi ise güneyde. This is the north-east corner of the
-neighborhood. White Dragon boulevard heads west and tunçe Dragon street
+tunÃ§ Ejder ve Beyaz Ejder KesiÅŸimi~
+BurasÄ± bÃ¶lgenin kuzey-doÄŸu kÃ¶ÅŸesi. Beyaz Ejder BulvarÄ± batÄ±ya yÃ¶neliyor.
+tunÃ§ Ejder caddesi ise gÃ¼neyde. This is the north-east corner of the
+neighborhood. White Dragon boulevard heads west and tunÃ§e Dragon street
 heads south.
 ~
 0 0 1
@@ -467,10 +467,10 @@ D3
 0 -1 2107
 S
 #2109
-Şantiye~
-Bir zamanlar buraya kocaman bir bina dikilecekmiş fakat şehirdeki şiddet
-yüzünden proje iptal edilmiş. Şimdi burası yabani otlarla dolu bir yer.
-Şantiye doğuya devam ediyor. Kuzeyde ise bir yol var.
+Åantiye~
+Bir zamanlar buraya kocaman bir bina dikilecekmiÅŸ fakat ÅŸehirdeki ÅŸiddet
+yÃ¼zÃ¼nden proje iptal edilmiÅŸ. Åimdi burasÄ± yabani otlarla dolu bir yer.
+Åantiye doÄŸuya devam ediyor. Kuzeyde ise bir yol var.
 ~
 0 0 2
 D0
@@ -483,10 +483,10 @@ D1
 0 -1 2110
 S
 #2110
-Şantiyenin doğu sonu~
-Burası plana göre bir park olacakmış. Fakat müteahhit şehirdeki çeteden
-korkup işi iptal etmiş. Şimdi burası tozdan bir alan. Park güneye yöneliyor.
-Şantiye batıya devam ediyor ve kuzeyde bir cadde var.
+Åantiyenin doÄŸu sonu~
+BurasÄ± plana gÃ¶re bir park olacakmÄ±ÅŸ. Fakat mÃ¼teahhit ÅŸehirdeki Ã§eteden
+korkup iÅŸi iptal etmiÅŸ. Åimdi burasÄ± tozdan bir alan. Park gÃ¼neye yÃ¶neliyor.
+Åantiye batÄ±ya devam ediyor ve kuzeyde bir cadde var.
 ~
 0 0 2
 D0
@@ -503,10 +503,10 @@ D3
 0 -1 2109
 S
 #2111
-Zırh Dükkanı~
-Burası eskiden bir zırh dükkanıymış. Bütün ekipmanlar çalınmış veya tamir
-edilemeyecek kadar zarar görmüş. Binanın arka duvarı güneye gitmene izin
-verecek biçimde yıkılmış. Beyaz Ejder Bulvarı kuzeyde.
+ZÄ±rh DÃ¼kkanÄ±~
+BurasÄ± eskiden bir zÄ±rh dÃ¼kkanÄ±ymÄ±ÅŸ. BÃ¼tÃ¼n ekipmanlar Ã§alÄ±nmÄ±ÅŸ veya tamir
+edilemeyecek kadar zarar gÃ¶rmÃ¼ÅŸ. BinanÄ±n arka duvarÄ± gÃ¼neye gitmene izin
+verecek biÃ§imde yÄ±kÄ±lmÄ±ÅŸ. Beyaz Ejder BulvarÄ± kuzeyde.
 ~
 0 D 1
 D0
@@ -519,8 +519,8 @@ D2
 0 -1 2117
 S
 #2112
-Yolda bir dönüş~
-Buz Ejder Yolu doğuya ve güneye yöneliyor. Etrafta çık fazla kan lekesi
+Yolda bir dÃ¶nÃ¼ÅŸ~
+Buz Ejder Yolu doÄŸuya ve gÃ¼neye yÃ¶neliyor. Etrafta Ã§Ä±k fazla kan lekesi
 var.
 ~
 0 0 1
@@ -534,9 +534,9 @@ D2
 0 -1 2118
 S
 #2113
-Buz Ejder Dönüşü~
-Buz Ejder Yolu kuzeye ve batıya dönüyor. Yerde ayak izleri var. Yakın
-zamanda burada büyük bir çatışma olmuş. Şehrin büyü dükkanı doğuda.
+Buz Ejder DÃ¶nÃ¼ÅŸÃ¼~
+Buz Ejder Yolu kuzeye ve batÄ±ya dÃ¶nÃ¼yor. Yerde ayak izleri var. YakÄ±n
+zamanda burada bÃ¼yÃ¼k bir Ã§atÄ±ÅŸma olmuÅŸ. Åehrin bÃ¼yÃ¼ dÃ¼kkanÄ± doÄŸuda.
 ~
 0 0 1
 D0
@@ -553,10 +553,10 @@ D3
 0 -1 2112
 S
 #2114
-Büyü dükkanından arta kalanlar~
-Büyücü kuvvetliymiş ama ellisiyle birden baş edememiş. Ölünce de
-malzemeleri alınmış. Batıdaki kapı tekrar caddeye dönüyor. Doğudaki kapı ise
-bir başka caddeye açılıyor.
+BÃ¼yÃ¼ dÃ¼kkanÄ±ndan arta kalanlar~
+BÃ¼yÃ¼cÃ¼ kuvvetliymiÅŸ ama ellisiyle birden baÅŸ edememiÅŸ. Ã–lÃ¼nce de
+malzemeleri alÄ±nmÄ±ÅŸ. BatÄ±daki kapÄ± tekrar caddeye dÃ¶nÃ¼yor. DoÄŸudaki kapÄ± ise
+bir baÅŸka caddeye aÃ§Ä±lÄ±yor.
 ~
 0 D 1
 D1
@@ -569,8 +569,8 @@ D3
 0 -1 2113
 S
 #2115
-tunç Ejder Yolu~
-tunç Ejder Yolu kuzeye ve güneye ilerliyor. Batıda ise büyü dükkanından
+tunÃ§ Ejder Yolu~
+tunÃ§ Ejder Yolu kuzeye ve gÃ¼neye ilerliyor. BatÄ±da ise bÃ¼yÃ¼ dÃ¼kkanÄ±ndan
 kalanlar var.
 ~
 0 0 1
@@ -589,9 +589,9 @@ D3
 S
 #2116
 Ejder Plaza~
-Burada güzel bir alış-veriş merkezi yapılacakmış. Ben sana söylemeseydim
-bilemezdin çünkü burası çetenin idolü olan Ejder ismiyle anılmaya başlanmış.
-Artık bir eğitim merkezi. Doğuda bir çıkış, kuzeyde ise şantiye var.
+Burada gÃ¼zel bir alÄ±ÅŸ-veriÅŸ merkezi yapÄ±lacakmÄ±ÅŸ. Ben sana sÃ¶ylemeseydim
+bilemezdin Ã§Ã¼nkÃ¼ burasÄ± Ã§etenin idolÃ¼ olan Ejder ismiyle anÄ±lmaya baÅŸlanmÄ±ÅŸ.
+ArtÄ±k bir eÄŸitim merkezi. DoÄŸuda bir Ã§Ä±kÄ±ÅŸ, kuzeyde ise ÅŸantiye var.
 ~
 0 0 2
 D0
@@ -605,8 +605,8 @@ D1
 S
 #2117
 Kestirme~
-Burası Ejder Plaza ile şehir merkezini birleştiren bir yol. Batıda Ejder
-Plaza var ve kestirme güneye devam ediyor.
+BurasÄ± Ejder Plaza ile ÅŸehir merkezini birleÅŸtiren bir yol. BatÄ±da Ejder
+Plaza var ve kestirme gÃ¼neye devam ediyor.
 ~
 0 0 1
 D0
@@ -624,8 +624,8 @@ D3
 S
 #2118
 Buz Ejder Yolu~
-Birçok kristal heykel parçalanmış. Bunu kimin neyle yaptığın merak
-ediyorsun. Yol kuzeye kıvrılıyor ve güneye devam ediyor. Doğuda ise bir avlu
+BirÃ§ok kristal heykel parÃ§alanmÄ±ÅŸ. Bunu kimin neyle yaptÄ±ÄŸÄ±n merak
+ediyorsun. Yol kuzeye kÄ±vrÄ±lÄ±yor ve gÃ¼neye devam ediyor. DoÄŸuda ise bir avlu
 var.
 ~
 0 0 1
@@ -644,9 +644,9 @@ D2
 S
 #2119
 Kuzey Avlusu~
-Burası bir zamanlar güzel bir binanın avlusuymuş. Fakat biri bitkileri
-sulamayı unutmuş ve hepsi kuruyup ölmüş. Bunu düşününce burada ölenlerin
-sayısını da merak ediyorsun. Yol güneye ve batıya devam ediyor.
+BurasÄ± bir zamanlar gÃ¼zel bir binanÄ±n avlusuymuÅŸ. Fakat biri bitkileri
+sulamayÄ± unutmuÅŸ ve hepsi kuruyup Ã¶lmÃ¼ÅŸ. Bunu dÃ¼ÅŸÃ¼nÃ¼nce burada Ã¶lenlerin
+sayÄ±sÄ±nÄ± da merak ediyorsun. Yol gÃ¼neye ve batÄ±ya devam ediyor.
 ~
 0 D 1
 D2
@@ -659,9 +659,9 @@ D3
 0 -1 2118
 S
 #2120
-tunç Ejder Caddesi~
-Burada Vispa'ya açılan bir kapı varmış. Fakat kapı artık o kadar
-paslanmış ki, tamamen kapanmış. Cadde kuzeye ve güneye devam ediyor.
+tunÃ§ Ejder Caddesi~
+Burada Vispa'ya aÃ§Ä±lan bir kapÄ± varmÄ±ÅŸ. Fakat kapÄ± artÄ±k o kadar
+paslanmÄ±ÅŸ ki, tamamen kapanmÄ±ÅŸ. Cadde kuzeye ve gÃ¼neye devam ediyor.
 ~
 0 0 1
 D0
@@ -675,7 +675,7 @@ D2
 S
 #2121
 Kestirme~
-Kestirme kuzeye doğru genişliyor. Doğuda ise bir cadde var.
+Kestirme kuzeye doÄŸru geniÅŸliyor. DoÄŸuda ise bir cadde var.
 ~
 0 0 1
 D0
@@ -689,9 +689,9 @@ D1
 S
 #2122
 Buz Dragon Yolu~
-Yol kuzeye devam ediyor, güneyde ise Sarı Dragon Caddesiyle kesişiyor.
-Bir şekilde batıda Ejder Plaza'ya yönelen bir kestirme olduğunu
-düşünüyorsun.
+Yol kuzeye devam ediyor, gÃ¼neyde ise SarÄ± Dragon Caddesiyle kesiÅŸiyor.
+Bir ÅŸekilde batÄ±da Ejder Plaza'ya yÃ¶nelen bir kestirme olduÄŸunu
+dÃ¼ÅŸÃ¼nÃ¼yorsun.
 ~
 0 0 1
 D0
@@ -708,10 +708,10 @@ D3
 0 -1 2121
 S
 #2123
-Güney Avlusu~
-Eskiden yemyeşil olan bu yer şimdi kurak bir alan. Yukarıdaki odalara
-çıkan bir merdiven görüyorsun fakat merdivenin 3. Ve 15. Basamakları eksik.
-Avlu kuzeye yöneliyor ve güneyde bir cadde var.
+GÃ¼ney Avlusu~
+Eskiden yemyeÅŸil olan bu yer ÅŸimdi kurak bir alan. YukarÄ±daki odalara
+Ã§Ä±kan bir merdiven gÃ¶rÃ¼yorsun fakat merdivenin 3. Ve 15. BasamaklarÄ± eksik.
+Avlu kuzeye yÃ¶neliyor ve gÃ¼neyde bir cadde var.
 ~
 0 D 1
 D0
@@ -724,22 +724,22 @@ D2
 0 -1 2128
 S
 #2124
-Terkedilmiş Depo~
-Burası bir zamanlar iyi kar bırakan bir mağazaymış. Heryerde olduğu gibi
-burada kalanlar da tamir edilemeyecek kadar zarar görmüş. Şimdilerde burası
-çetenin karargahı. Çete lideri çetesini buradan yönetiyor. Doğuda
-menteşeleri üzerinde ancak durabilen tahta bir kapı var.
+TerkedilmiÅŸ Depo~
+BurasÄ± bir zamanlar iyi kar bÄ±rakan bir maÄŸazaymÄ±ÅŸ. Heryerde olduÄŸu gibi
+burada kalanlar da tamir edilemeyecek kadar zarar gÃ¶rmÃ¼ÅŸ. Åimdilerde burasÄ±
+Ã§etenin karargahÄ±. Ã‡ete lideri Ã§etesini buradan yÃ¶netiyor. DoÄŸuda
+menteÅŸeleri Ã¼zerinde ancak durabilen tahta bir kapÄ± var.
 ~
 0 AD 1
 D1
 ~
-doğu tahta kapı~
+doÄŸu tahta kapÄ±~
 1 -1 2125
 S
 #2125
-tunç Ejder Caddesi~
-Cadde kuzeye ve güneye devam ediyor. Batıda depoya açılan tahta bir kapı
-var. Depo TERKEDİLMİŞ görünüyor...
+tunÃ§ Ejder Caddesi~
+Cadde kuzeye ve gÃ¼neye devam ediyor. BatÄ±da depoya aÃ§Ä±lan tahta bir kapÄ±
+var. Depo TERKEDÄ°LMÄ°Å gÃ¶rÃ¼nÃ¼yor...
 ~
 0 0 1
 D0
@@ -752,13 +752,13 @@ D2
 0 -1 2130
 D3
 ~
-batı tahta kapı~
+batÄ± tahta kapÄ±~
 1 -1 2124
 S
 #2126
-Sarı Ejder Yolu~
-Sarı Ejder Yolu asura terörünün güney sınırıdır. Yol doğuya genişliyor.
-Güneyde ise "sahipsiz" diyar.
+SarÄ± Ejder Yolu~
+SarÄ± Ejder Yolu asura terÃ¶rÃ¼nÃ¼n gÃ¼ney sÄ±nÄ±rÄ±dÄ±r. Yol doÄŸuya geniÅŸliyor.
+GÃ¼neyde ise "sahipsiz" diyar.
 ~
 0 0 1
 D1
@@ -771,8 +771,8 @@ D2
 0 -1 2131
 S
 #2127
-Sarı Ejder Yolu~
-Yol doğuya ve batıya ilerliyor. Buz Ejder Yolu buraya kuzeyden geliyor.
+SarÄ± Ejder Yolu~
+Yol doÄŸuya ve batÄ±ya ilerliyor. Buz Ejder Yolu buraya kuzeyden geliyor.
 ~
 0 0 1
 D0
@@ -789,9 +789,9 @@ D3
 0 -1 2126
 S
 #2128
-Sarı Ejder Yolu~
-Yol doğuya ve batıya devam ediyor. Kuzeyde bir avlu var. Güneyden
-"kimsenin" diyarına yönelebilirsin.
+SarÄ± Ejder Yolu~
+Yol doÄŸuya ve batÄ±ya devam ediyor. Kuzeyde bir avlu var. GÃ¼neyden
+"kimsenin" diyarÄ±na yÃ¶nelebilirsin.
 ~
 0 0 1
 D0
@@ -812,14 +812,14 @@ D3
 0 -1 2127
 S
 #2129
-Sarı Ejder Yolu~
-Kuzeyde bir pencere var. Kırıklarından içeri ışık geliyor. Yol doğuya ve
-batıya ilerliyor. Ya da güneyden "kimsenin" diyarına yönelebilirin.
+SarÄ± Ejder Yolu~
+Kuzeyde bir pencere var. KÄ±rÄ±klarÄ±ndan iÃ§eri Ä±ÅŸÄ±k geliyor. Yol doÄŸuya ve
+batÄ±ya ilerliyor. Ya da gÃ¼neyden "kimsenin" diyarÄ±na yÃ¶nelebilirin.
 ~
 0 0 1
 E
 pencere~
-Pencereden bakınca çetenin liderini görüyorsun. umacı lerin ölümünü işaret
+Pencereden bakÄ±nca Ã§etenin liderini gÃ¶rÃ¼yorsun. umacÄ± lerin Ã¶lÃ¼mÃ¼nÃ¼ iÅŸaret
 ediyor.
 ~
 D1
@@ -836,9 +836,9 @@ D3
 0 -1 2128
 S
 #2130
-Sarı Ejder Yolu~
-tunç Ejder Caddesi burada ve kuzeye yöneliyor. Burası Sarı Ejder
-Yolu'nun sonu, yol batıya devam ediyor.
+SarÄ± Ejder Yolu~
+tunÃ§ Ejder Caddesi burada ve kuzeye yÃ¶neliyor. BurasÄ± SarÄ± Ejder
+Yolu'nun sonu, yol batÄ±ya devam ediyor.
 ~
 0 0 1
 D0
@@ -851,9 +851,9 @@ D3
 0 -1 2129
 S
 #2131
-KİMSENİN DİYARI~
-Burası şehirdeki iki çeteyi ayıran bölge. Burası genelde şiddetin
-başladığı yerdir. Kimsenin diyarı güneye ve doğuya devam ediyor, kuzeyde ise
+KÄ°MSENÄ°N DÄ°YARI~
+BurasÄ± ÅŸehirdeki iki Ã§eteyi ayÄ±ran bÃ¶lge. BurasÄ± genelde ÅŸiddetin
+baÅŸladÄ±ÄŸÄ± yerdir. Kimsenin diyarÄ± gÃ¼neye ve doÄŸuya devam ediyor, kuzeyde ise
 bir cadde var.
 ~
 0 0 5
@@ -871,9 +871,9 @@ D2
 0 -1 2136
 S
 #2132
-KİMSENİN DİYARI~
-Burası şehirdeki iki çeteyi ayıran bölge. Burası genelde şiddetin
-başladığı yerdir. Kimsenin diyarı doğu ve batıya devam ediyor.
+KÄ°MSENÄ°N DÄ°YARI~
+BurasÄ± ÅŸehirdeki iki Ã§eteyi ayÄ±ran bÃ¶lge. BurasÄ± genelde ÅŸiddetin
+baÅŸladÄ±ÄŸÄ± yerdir. Kimsenin diyarÄ± doÄŸu ve batÄ±ya devam ediyor.
 ~
 0 0 5
 D1
@@ -890,9 +890,9 @@ D3
 0 -1 2131
 S
 #2133
-KİMSENİN DİYARI~
-Burası şehirdeki iki çeteyi ayıran bölge. Burası genelde şiddetin
-başladığı yerdir. Kimsenin diyarı güneye, doğuya ve batıya devam ediyor.
+KÄ°MSENÄ°N DÄ°YARI~
+BurasÄ± ÅŸehirdeki iki Ã§eteyi ayÄ±ran bÃ¶lge. BurasÄ± genelde ÅŸiddetin
+baÅŸladÄ±ÄŸÄ± yerdir. Kimsenin diyarÄ± gÃ¼neye, doÄŸuya ve batÄ±ya devam ediyor.
 Kuzeyde ise bir cadde var.
 ~
 0 0 5
@@ -914,9 +914,9 @@ D3
 0 -1 2132
 S
 #2134
-KİMSENİN DİYARI~
-Burası şehirdeki iki çeteyi ayıran bölge. Burası genelde şiddetin
-başladığı yerdir. Kimsenin diyarı güneye, doğuya ve batıya devam ediyor.
+KÄ°MSENÄ°N DÄ°YARI~
+BurasÄ± ÅŸehirdeki iki Ã§eteyi ayÄ±ran bÃ¶lge. BurasÄ± genelde ÅŸiddetin
+baÅŸladÄ±ÄŸÄ± yerdir. Kimsenin diyarÄ± gÃ¼neye, doÄŸuya ve batÄ±ya devam ediyor.
 Kuzeyde ise bir cadde var.
 ~
 0 0 5
@@ -938,9 +938,9 @@ D3
 0 -1 2133
 S
 #2135
-KİMSENİN DİYARI~
-Burası şehirdeki iki çeteyi ayıran bölge. Burası genelde şiddetin
-başladığı yerdir. Kimsenin diyarı güneye ve batıya devam ediyor.
+KÄ°MSENÄ°N DÄ°YARI~
+BurasÄ± ÅŸehirdeki iki Ã§eteyi ayÄ±ran bÃ¶lge. BurasÄ± genelde ÅŸiddetin
+baÅŸladÄ±ÄŸÄ± yerdir. Kimsenin diyarÄ± gÃ¼neye ve batÄ±ya devam ediyor.
 ~
 0 0 5
 D2
@@ -953,9 +953,9 @@ D3
 0 -1 2134
 S
 #2136
-KİMSENİN DİYARI~
-Burası şehirdeki iki çeteyi ayıran bölge. Burası genelde şiddetin
-başladığı yerdir. Kimsenin diyarı kuzeye ve doğuya devam ediyor. Güneyde ise
+KÄ°MSENÄ°N DÄ°YARI~
+BurasÄ± ÅŸehirdeki iki Ã§eteyi ayÄ±ran bÃ¶lge. BurasÄ± genelde ÅŸiddetin
+baÅŸladÄ±ÄŸÄ± yerdir. Kimsenin diyarÄ± kuzeye ve doÄŸuya devam ediyor. GÃ¼neyde ise
 bir cadde var.
 ~
 0 0 5
@@ -973,9 +973,9 @@ D2
 0 -1 2141
 S
 #2137
-KİMSENİN DİYARI~
-Burası şehirdeki iki çeteyi ayıran bölge. Burası genelde şiddetin
-başladığı yerdir. Kimsenin diyarı kuzeye, doğuya ve batıya devam ediyor.
+KÄ°MSENÄ°N DÄ°YARI~
+BurasÄ± ÅŸehirdeki iki Ã§eteyi ayÄ±ran bÃ¶lge. BurasÄ± genelde ÅŸiddetin
+baÅŸladÄ±ÄŸÄ± yerdir. Kimsenin diyarÄ± kuzeye, doÄŸuya ve batÄ±ya devam ediyor.
 ~
 0 0 5
 D0
@@ -992,10 +992,10 @@ D3
 0 -1 2136
 S
 #2138
-KİMSENİN DİYARI~
-Burası şehirdeki iki çeteyi ayıran bölge. Burası genelde şiddetin
-başladığı yerdir. Kimsenin diyarı kuzeye, doğuya ve batıya devam ediyor.
-Güneyde ise bir cadde var.
+KÄ°MSENÄ°N DÄ°YARI~
+BurasÄ± ÅŸehirdeki iki Ã§eteyi ayÄ±ran bÃ¶lge. BurasÄ± genelde ÅŸiddetin
+baÅŸladÄ±ÄŸÄ± yerdir. Kimsenin diyarÄ± kuzeye, doÄŸuya ve batÄ±ya devam ediyor.
+GÃ¼neyde ise bir cadde var.
 ~
 0 0 5
 D0
@@ -1016,9 +1016,9 @@ D3
 0 -1 2137
 S
 #2139
-KİMSENİN DİYARI~
-Burası şehirdeki iki çeteyi ayıran bölge. Burası genelde şiddetin
-başladığı yerdir. Kimsenin diyarı kuzeye, doğuya ve batıya devam ediyor.
+KÄ°MSENÄ°N DÄ°YARI~
+BurasÄ± ÅŸehirdeki iki Ã§eteyi ayÄ±ran bÃ¶lge. BurasÄ± genelde ÅŸiddetin
+baÅŸladÄ±ÄŸÄ± yerdir. Kimsenin diyarÄ± kuzeye, doÄŸuya ve batÄ±ya devam ediyor.
 ~
 0 0 5
 D0
@@ -1035,9 +1035,9 @@ D3
 0 -1 2138
 S
 #2140
-KİMSENİN DİYARI~
-Burası şehirdeki iki çeteyi ayıran bölge. Burası genelde şiddetin
-başladığı yerdir. Kimsenin diyarı kuzeye ve batıya devam ediyor. Güneyde ise
+KÄ°MSENÄ°N DÄ°YARI~
+BurasÄ± ÅŸehirdeki iki Ã§eteyi ayÄ±ran bÃ¶lge. BurasÄ± genelde ÅŸiddetin
+baÅŸladÄ±ÄŸÄ± yerdir. Kimsenin diyarÄ± kuzeye ve batÄ±ya devam ediyor. GÃ¼neyde ise
 bir cadde var.
 ~
 0 0 5
@@ -1055,8 +1055,8 @@ D3
 0 -1 2139
 S
 #2141
-Hektor Caddesinde bir dönüş~
-Hektor caddesi güneye ve doğuya devam ediyor. "Kimsenin diyarı" girişi
+Hektor Caddesinde bir dÃ¶nÃ¼ÅŸ~
+Hektor caddesi gÃ¼neye ve doÄŸuya devam ediyor. "Kimsenin diyarÄ±" giriÅŸi
 kuzeyde.
 ~
 0 0 1
@@ -1074,9 +1074,9 @@ D2
 0 -1 2146
 S
 #2142
-Hektor Caddesindeki Fırın~
-Hektor caddesi doğuya ve batıya ilerliyor. Fırın güneyde fakat kapısı
-mühürlenmiş. Muhtemelen bayat çörek satmaktan.
+Hektor Caddesindeki FÄ±rÄ±n~
+Hektor caddesi doÄŸuya ve batÄ±ya ilerliyor. FÄ±rÄ±n gÃ¼neyde fakat kapÄ±sÄ±
+mÃ¼hÃ¼rlenmiÅŸ. Muhtemelen bayat Ã§Ã¶rek satmaktan.
 ~
 0 0 1
 D1
@@ -1089,9 +1089,9 @@ D3
 0 -1 2141
 S
 #2143
-Başka Bir Açhil ve Hektor Kesişimi~
-Açhil caddesi güneye, Hektor ise doğu ve batıya yöneliyor. Kuzeyde
-"Kimsenin diyarı" girişi var. Kesişimin güney-batı köşesinde yanmış bir bina
+BaÅŸka Bir AÃ§hil ve Hektor KesiÅŸimi~
+AÃ§hil caddesi gÃ¼neye, Hektor ise doÄŸu ve batÄ±ya yÃ¶neliyor. Kuzeyde
+"Kimsenin diyarÄ±" giriÅŸi var. KesiÅŸimin gÃ¼ney-batÄ± kÃ¶ÅŸesinde yanmÄ±ÅŸ bir bina
 var.
 ~
 0 0 1
@@ -1113,9 +1113,9 @@ D3
 0 -1 2142
 S
 #2144
-Hektor Caddesi Mücevhercisi~
-Şehrin bir zamanalr en parlak yeri. Şiddetten en büyük darbeyi bu yapı
-yemiş. Her an çökebilir. Cadde doğuya ve batıya devam ediyor.
+Hektor Caddesi MÃ¼cevhercisi~
+Åehrin bir zamanalr en parlak yeri. Åiddetten en bÃ¼yÃ¼k darbeyi bu yapÄ±
+yemiÅŸ. Her an Ã§Ã¶kebilir. Cadde doÄŸuya ve batÄ±ya devam ediyor.
 ~
 0 0 1
 D1
@@ -1128,10 +1128,10 @@ D3
 0 -1 2143
 S
 #2145
-Ayaks ve Hektor kesişimi~
-Doğuda büyük bir çeşme var fakat suyunun içilebilir olduğundan emin
-değilsin. Ayaks Caddesi güneye, Hektor ise batıya yöneliyor. "Kimsenin
-diyarı" kuzeyde.
+Ayaks ve Hektor kesiÅŸimi~
+DoÄŸuda bÃ¼yÃ¼k bir Ã§eÅŸme var fakat suyunun iÃ§ilebilir olduÄŸundan emin
+deÄŸilsin. Ayaks Caddesi gÃ¼neye, Hektor ise batÄ±ya yÃ¶neliyor. "Kimsenin
+diyarÄ±" kuzeyde.
 ~
 0 0 1
 D0
@@ -1149,8 +1149,8 @@ D3
 S
 #2146
 Hektor Caddesi~
-Cadde çöp ve atık dolu. Batıda hala ayakta kalan bir bina var ama ona
-doğru bir yol bulabilmen olası görünmüyor. Cadde kuzeye ve güneye ilerliyor.
+Cadde Ã§Ã¶p ve atÄ±k dolu. BatÄ±da hala ayakta kalan bir bina var ama ona
+doÄŸru bir yol bulabilmen olasÄ± gÃ¶rÃ¼nmÃ¼yor. Cadde kuzeye ve gÃ¼neye ilerliyor.
 ~
 0 0 1
 D0
@@ -1163,10 +1163,10 @@ D2
 0 -1 2150
 S
 #2147
-Açil Caddesi~
-Burası eskiden şehrin merkezine giden en önemli yolmuş. Şehir ozanları
-buralarda yürüyerek zafer şarkıları söylermiş. Cadde güneyde bir dönüşe ve
-kuzeyde bir kesişime yöneliyor.
+AÃ§il Caddesi~
+BurasÄ± eskiden ÅŸehrin merkezine giden en Ã¶nemli yolmuÅŸ. Åehir ozanlarÄ±
+buralarda yÃ¼rÃ¼yerek zafer ÅŸarkÄ±larÄ± sÃ¶ylermiÅŸ. Cadde gÃ¼neyde bir dÃ¶nÃ¼ÅŸe ve
+kuzeyde bir kesiÅŸime yÃ¶neliyor.
 ~
 0 0 1
 D0
@@ -1179,22 +1179,22 @@ D2
 0 -1 2152
 S
 #2148
-Bir küçük kilise harabesi~
-Burası zamanında tanrılara ibadet etmek için kurulmuş küçük bir
-tapınakmış. Şimdi ise şiddetin spray izlerini taşıyor. Burayı en çok
-kirleten umacı lerin darağacı. Doğuda paslı metal kapının ardında bir cadde
+Bir kÃ¼Ã§Ã¼k kilise harabesi~
+BurasÄ± zamanÄ±nda tanrÄ±lara ibadet etmek iÃ§in kurulmuÅŸ kÃ¼Ã§Ã¼k bir
+tapÄ±nakmÄ±ÅŸ. Åimdi ise ÅŸiddetin spray izlerini taÅŸÄ±yor. BurayÄ± en Ã§ok
+kirleten umacÄ± lerin daraÄŸacÄ±. DoÄŸuda paslÄ± metal kapÄ±nÄ±n ardÄ±nda bir cadde
 var.
 ~
 0 AD 1
 D1
 ~
-paslı metal kapı~
+paslÄ± metal kapÄ±~
 1 -1 2149
 S
 #2149
 Ayaks Caddesi~
-Batıda minör tanrılara ibadet için kullanılmış bir kiliseye açılan paslı
-metal kapı var. Cadde kuzeye ve güneye devam ediyor. Kiliseden gelen boğuk
+BatÄ±da minÃ¶r tanrÄ±lara ibadet iÃ§in kullanÄ±lmÄ±ÅŸ bir kiliseye aÃ§Ä±lan paslÄ±
+metal kapÄ± var. Cadde kuzeye ve gÃ¼neye devam ediyor. Kiliseden gelen boÄŸuk
 sesler duyuyorsun.
 ~
 0 0 1
@@ -1208,14 +1208,14 @@ D2
 0 -1 2154
 D3
 ~
-paslı metal kapı~
+paslÄ± metal kapÄ±~
 1 -1 2148
 S
 #2150
-Hektor ve Açil'in ilk kesişimi~
-Burada iki yüce savaşçının dövüşünü gösteren bir heykel var. Bu heykelin
+Hektor ve AÃ§il'in ilk kesiÅŸimi~
+Burada iki yÃ¼ce savaÅŸÃ§Ä±nÄ±n dÃ¶vÃ¼ÅŸÃ¼nÃ¼ gÃ¶steren bir heykel var. Bu heykelin
 kirlenmemesi sana garip geliyor fakat sonra onu koruyan bir hale
-farkediyorsun. Açil doğuya ve güneye, Hektor ise kuzeye devam ediyor. There
+farkediyorsun. AÃ§il doÄŸuya ve gÃ¼neye, Hektor ise kuzeye devam ediyor. There
 is a large statue here depicting a battle between two great warriors. You
 think it's odd that it has not been defiled, but then you sense a aura
 protecting it. Achilles runs east and south, while Hector heads out to the
@@ -1236,10 +1236,10 @@ D2
 0 -1 2156
 S
 #2151
-Açil Caddesi~
-Güneyde büyük ve açık bir alan var, muhtemelen mezarlık. Senin alana
-girmeni engelleyen tepeleri sivri, burgulu demirlerden yapılmış bir çit
-görüyorsun. Cadde doğuya ve batıya devam ediyor.
+AÃ§il Caddesi~
+GÃ¼neyde bÃ¼yÃ¼k ve aÃ§Ä±k bir alan var, muhtemelen mezarlÄ±k. Senin alana
+girmeni engelleyen tepeleri sivri, burgulu demirlerden yapÄ±lmÄ±ÅŸ bir Ã§it
+gÃ¶rÃ¼yorsun. Cadde doÄŸuya ve batÄ±ya devam ediyor.
 ~
 0 0 1
 D1
@@ -1252,8 +1252,8 @@ D3
 0 -1 2150
 S
 #2152
-Yolda bir dönüş~
-Açil Caddesi burada kuzeye ve batıya yöneliyor. Güneyde ise dar bir yol
+Yolda bir dÃ¶nÃ¼ÅŸ~
+AÃ§il Caddesi burada kuzeye ve batÄ±ya yÃ¶neliyor. GÃ¼neyde ise dar bir yol
 var.
 ~
 0 0 1
@@ -1271,10 +1271,10 @@ D3
 0 -1 2151
 S
 #2153
-Silah dükkanından kalanlar~
-Bu acımasızlar silah dükkanının sahibine de huzurlu bir ölüm vermemişler.
-Duvarları boyayan kan çoktan kurumuş. Burada büyük bir kıyım yaşanmış.
-Doğuda cadde uzanıyor.
+Silah dÃ¼kkanÄ±ndan kalanlar~
+Bu acÄ±masÄ±zlar silah dÃ¼kkanÄ±nÄ±n sahibine de huzurlu bir Ã¶lÃ¼m vermemiÅŸler.
+DuvarlarÄ± boyayan kan Ã§oktan kurumuÅŸ. Burada bÃ¼yÃ¼k bir kÄ±yÄ±m yaÅŸanmÄ±ÅŸ.
+DoÄŸuda cadde uzanÄ±yor.
 ~
 0 D 0
 D1
@@ -1284,8 +1284,8 @@ D1
 S
 #2154
 Ayaks Caddesi~
-Cadde kuzeye ve güneye devam ediyor. Ahırlar doğuda ama emin ol bütün
-atlar ya öldürülmüştür ya da gitmiştir.
+Cadde kuzeye ve gÃ¼neye devam ediyor. AhÄ±rlar doÄŸuda ama emin ol bÃ¼tÃ¼n
+atlar ya Ã¶ldÃ¼rÃ¼lmÃ¼ÅŸtÃ¼r ya da gitmiÅŸtir.
 ~
 0 0 1
 D0
@@ -1302,10 +1302,10 @@ D3
 0 -1 2153
 S
 #2155
-Kağan Parkı~
-İkimizin de düşündüğü gibi bir park çıkmadı ama yine de bölgenin geri
-kalanına göre daha güvenli bir hava var burada. Bu park büyük Moğol Kağanına
-atfedilmiş olabilir. Cadde doğuya ve güneye devam ediyor.
+KaÄŸan ParkÄ±~
+Ä°kimizin de dÃ¼ÅŸÃ¼ndÃ¼ÄŸÃ¼ gibi bir park Ã§Ä±kmadÄ± ama yine de bÃ¶lgenin geri
+kalanÄ±na gÃ¶re daha gÃ¼venli bir hava var burada. Bu park bÃ¼yÃ¼k MoÄŸol KaÄŸanÄ±na
+atfedilmiÅŸ olabilir. Cadde doÄŸuya ve gÃ¼neye devam ediyor.
 ~
 0 0 2
 D1
@@ -1318,9 +1318,9 @@ D2
 0 -1 2162
 S
 #2156
-Açil Caddesi (Park Girişi)~
-Bu bir park mı? Batıda. Cadde güneyde kesişime, kuzeydeyse virajlara
-uzanıyor.
+AÃ§il Caddesi (Park GiriÅŸi)~
+Bu bir park mÄ±? BatÄ±da. Cadde gÃ¼neyde kesiÅŸime, kuzeydeyse virajlara
+uzanÄ±yor.
 ~
 0 0 1
 D0
@@ -1337,9 +1337,9 @@ D3
 0 -1 2155
 S
 #2157
-Ayaks'ta bir dönüş~
-Yol güneye ve doğuya devam ediyor. Kuzeye giden bir sokak farkediyorsun.
-Batıda bir çeşit tünel girişi var fakat kendi ağırlığı altında kalmış.
+Ayaks'ta bir dÃ¶nÃ¼ÅŸ~
+Yol gÃ¼neye ve doÄŸuya devam ediyor. Kuzeye giden bir sokak farkediyorsun.
+BatÄ±da bir Ã§eÅŸit tÃ¼nel giriÅŸi var fakat kendi aÄŸÄ±rlÄ±ÄŸÄ± altÄ±nda kalmÄ±ÅŸ.
 ~
 0 0 1
 D0
@@ -1357,9 +1357,9 @@ D2
 S
 #2158
 Ayaks Caddesi~
-Bu kavşağın kuzey doğusunda bir zamanların gurur ve onur dolu lonca evi
-varmış. Duvarların çoğu ve tavan hasarlı. Güneyde bir han var. Yol doğuya ve
-batıya devam ediyor.
+Bu kavÅŸaÄŸÄ±n kuzey doÄŸusunda bir zamanlarÄ±n gurur ve onur dolu lonca evi
+varmÄ±ÅŸ. DuvarlarÄ±n Ã§oÄŸu ve tavan hasarlÄ±. GÃ¼neyde bir han var. Yol doÄŸuya ve
+batÄ±ya devam ediyor.
 ~
 0 0 1
 D1
@@ -1377,8 +1377,8 @@ D3
 S
 #2159
 Viraj~
-Cadde kuzeye ve batıya gidiyor. Bir zamanlar süney-doğuya giden dar bir
-yol varmış.
+Cadde kuzeye ve batÄ±ya gidiyor. Bir zamanlar sÃ¼ney-doÄŸuya giden dar bir
+yol varmÄ±ÅŸ.
 ~
 0 0 1
 D0
@@ -1391,13 +1391,13 @@ D3
 0 -1 2158
 S
 #2160
-Geniş bir sokak~
-Sokağın iki tarafına da defalarca zarar verilmiş. Duvarda spreyle
-yazılmış bir yazı oldukça okunaklı: "Burası 5-10 levellar içindir. Leveliniz
-10'dan fazlaysa umutlanmayın. 5'ten düşükse de risk sizindir." Başka bir
-yazıda da "umacı  bölgesine giriyorsunuz ! ! !" Diyor. Batıya devam eden bir
-cadde ve doğuya devam eden bir anayol var. ---Bu bölgenin Türkçe çevirisi,
-"ilk Türkçe Mud" için LaNcAsTeR tarafından yapılmıştır. 02/10/02---
+GeniÅŸ bir sokak~
+SokaÄŸÄ±n iki tarafÄ±na da defalarca zarar verilmiÅŸ. Duvarda spreyle
+yazÄ±lmÄ±ÅŸ bir yazÄ± oldukÃ§a okunaklÄ±: "BurasÄ± 5-10 levellar iÃ§indir. Leveliniz
+10'dan fazlaysa umutlanmayÄ±n. 5'ten dÃ¼ÅŸÃ¼kse de risk sizindir." BaÅŸka bir
+yazÄ±da da "umacÄ±  bÃ¶lgesine giriyorsunuz ! ! !" Diyor. BatÄ±ya devam eden bir
+cadde ve doÄŸuya devam eden bir anayol var. ---Bu bÃ¶lgenin TÃ¼rkÃ§e Ã§evirisi,
+"ilk TÃ¼rkÃ§e Mud" iÃ§in LaNcAsTeR tarafÄ±ndan yapÄ±lmÄ±ÅŸtÄ±r. 02/10/02---
 ~
 0 AC 1
 D1
@@ -1412,9 +1412,9 @@ You see the end of Elm street. Looks much safer.
 S
 #2161
 Aleksander Yolu~
-Etrafta kavga çıkarmak ve kırıp dökmek için dolaşan çete üyeleri
-görüyorsun. Görünüşe göre bütün vatandaşlar buraları terketmiş. Eskiden
-kalma evler artık kulanılamayacak durumda. Yol doğuya ve batıya devam
+Etrafta kavga Ã§Ä±karmak ve kÄ±rÄ±p dÃ¶kmek iÃ§in dolaÅŸan Ã§ete Ã¼yeleri
+gÃ¶rÃ¼yorsun. GÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re bÃ¼tÃ¼n vatandaÅŸlar buralarÄ± terketmiÅŸ. Eskiden
+kalma evler artÄ±k kulanÄ±lamayacak durumda. Yol doÄŸuya ve batÄ±ya devam
 ediyor.
 ~
 0 0 1
@@ -1428,9 +1428,9 @@ D3
 0 -1 2160
 S
 #2162
-Park Girişindeki Aleksandar Yolu~
-Parka benzeyen bir alan kuzeyde ve iki bina arasından geçip bir caddeye
-bağlanan dokak güneyde.
+Park GiriÅŸindeki Aleksandar Yolu~
+Parka benzeyen bir alan kuzeyde ve iki bina arasÄ±ndan geÃ§ip bir caddeye
+baÄŸlanan dokak gÃ¼neyde.
 ~
 0 0 1
 D0
@@ -1447,9 +1447,9 @@ D3
 0 -1 2161
 S
 #2163
-Açil Caddesi~
-Cadde kuzeye ve güneye devam ediyor. Artık umacı  terörünün
-derinliklerindesin ve bu sende bir üşüme yaratıyor.
+AÃ§il Caddesi~
+Cadde kuzeye ve gÃ¼neye devam ediyor. ArtÄ±k umacÄ±  terÃ¶rÃ¼nÃ¼n
+derinliklerindesin ve bu sende bir Ã¼ÅŸÃ¼me yaratÄ±yor.
 ~
 0 0 1
 D0
@@ -1463,9 +1463,9 @@ D2
 S
 #2164
 Ayaks Caddesi~
-Batıda uğursuz bir siyah burgulu demirden çit görüyorsun. İçeride
-cinlerin olup olmadığını ve eğer varsalar bu çitin onları engelleyip
-engellemeyeceğini düşünüyorsun.
+BatÄ±da uÄŸursuz bir siyah burgulu demirden Ã§it gÃ¶rÃ¼yorsun. Ä°Ã§eride
+cinlerin olup olmadÄ±ÄŸÄ±nÄ± ve eÄŸer varsalar bu Ã§itin onlarÄ± engelleyip
+engellemeyeceÄŸini dÃ¼ÅŸÃ¼nÃ¼yorsun.
 ~
 0 0 1
 D0
@@ -1479,10 +1479,10 @@ D2
 S
 #2165
 Han/Pub~
-Onarıma ihtiyazı olduğu halde hala iş görür durumda. Çete üyeleri burayı
-kendileri için kullanıyor olmalılar. Fıçıda hala bira olabilir çünkü
-musluktan damlıyor. Koridor güneye devam ediyor ve sen kuzeyde kapının
-ardındaki caddeyi gözlüyorsun.
+OnarÄ±ma ihtiyazÄ± olduÄŸu halde hala iÅŸ gÃ¶rÃ¼r durumda. Ã‡ete Ã¼yeleri burayÄ±
+kendileri iÃ§in kullanÄ±yor olmalÄ±lar. FÄ±Ã§Ä±da hala bira olabilir Ã§Ã¼nkÃ¼
+musluktan damlÄ±yor. Koridor gÃ¼neye devam ediyor ve sen kuzeyde kapÄ±nÄ±n
+ardÄ±ndaki caddeyi gÃ¶zlÃ¼yorsun.
 ~
 0 D 0
 D0
@@ -1496,8 +1496,8 @@ D2
 S
 #2166
 Solomon Caddesi~
-Bu cadde umacı  bölgesinin güney sınırını oluşturuyor. Cadde doğuya devam
-ediyor. Binalar arasından başka bir caddeye açılan yol ise kuzeyde.
+Bu cadde umacÄ±  bÃ¶lgesinin gÃ¼ney sÄ±nÄ±rÄ±nÄ± oluÅŸturuyor. Cadde doÄŸuya devam
+ediyor. Binalar arasÄ±ndan baÅŸka bir caddeye aÃ§Ä±lan yol ise kuzeyde.
 ~
 0 0 1
 D0
@@ -1510,8 +1510,8 @@ D1
 0 -1 2167
 S
 #2167
-Açil ve Solomon Kesişimi~
-Solomon Caddesi doğuya ve batıya yöneliyor. Kuzeyde ise Açil Caddesi var.
+AÃ§il ve Solomon KesiÅŸimi~
+Solomon Caddesi doÄŸuya ve batÄ±ya yÃ¶neliyor. Kuzeyde ise AÃ§il Caddesi var.
 ~
 0 0 1
 D0
@@ -1529,9 +1529,9 @@ D3
 S
 #2168
 Solomon Caddesi~
-Burgulu demir parmaklıklarla çevrili mezarlığın girişi kuzeyde. İçerideki
-şeytanlık girme konusunda kararsız bırakacak kadar güçlü. Doğu batı yolu
-boyunca küçük şeytanlar tarafından farkedilebilirsin.
+Burgulu demir parmaklÄ±klarla Ã§evrili mezarlÄ±ÄŸÄ±n giriÅŸi kuzeyde. Ä°Ã§erideki
+ÅŸeytanlÄ±k girme konusunda kararsÄ±z bÄ±rakacak kadar gÃ¼Ã§lÃ¼. DoÄŸu batÄ± yolu
+boyunca kÃ¼Ã§Ã¼k ÅŸeytanlar tarafÄ±ndan farkedilebilirsin.
 ~
 0 0 1
 D1
@@ -1544,9 +1544,9 @@ D3
 0 -1 2167
 S
 #2169
-Ayaks ve Solomon Kesişimi~
-İki yol burada kesişiyorlar. Ayaks kuzeye, Solomon ise batıya yöneliyor.
-Doğudaki kapının ardında ise bir han var.
+Ayaks ve Solomon KesiÅŸimi~
+Ä°ki yol burada kesiÅŸiyorlar. Ayaks kuzeye, Solomon ise batÄ±ya yÃ¶neliyor.
+DoÄŸudaki kapÄ±nÄ±n ardÄ±nda ise bir han var.
 ~
 0 0 1
 D0
@@ -1564,8 +1564,8 @@ D3
 S
 #2170
 Koridor~
-Koridor kuzeyde hanın içine yöneliyor. Merdivenler konuk odalarına
-çıkıyor ama denemeni önermem. Batıda kapının ardında ise Solomon Caddesi
+Koridor kuzeyde hanÄ±n iÃ§ine yÃ¶neliyor. Merdivenler konuk odalarÄ±na
+Ã§Ä±kÄ±yor ama denemeni Ã¶nermem. BatÄ±da kapÄ±nÄ±n ardÄ±nda ise Solomon Caddesi
 var.
 ~
 0 AD 0

@@ -1,9 +1,9 @@
 #AREADATA
 Filename korsan_adalari.are~
-Name Korsan Adaları~
+Name Korsan AdalarÄ±~
 Builder Lok~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 40
 Highlevel 90
 Minvnum 17000
@@ -16,36 +16,36 @@ END
 
 #NEW_MOBILES
 #17011
-korsan muhafız~
-muhafız korsan~
-Pala kuşanmış pis bir denizci sana hırlıyor!
+korsan muhafÄ±z~
+muhafÄ±z korsan~
+Pala kuÅŸanmÄ±ÅŸ pis bir denizci sana hÄ±rlÄ±yor!
 ~
 The pirate guard is clothed in rags, and smells badly.
 ~
 human~
 AFGT 0 46
 #17012
-tersane işçisi korsan~
-tersane işçisi~
-Bir tersane işçisi burada, bir kadırgayı tamir ediyor.
+tersane iÅŸÃ§isi korsan~
+tersane iÅŸÃ§isi~
+Bir tersane iÅŸÃ§isi burada, bir kadÄ±rgayÄ± tamir ediyor.
 ~
 The shipwright is stripped to the waist, and is sweating profusely.
 ~
 human~
 ABG 0 95
 #17013
-vahşi orman~
-orman vahşisi~
-Bir orman vahşisi burada, yamyamlık üzerine düşünüyor.
+vahÅŸi orman~
+orman vahÅŸisi~
+Bir orman vahÅŸisi burada, yamyamlÄ±k Ã¼zerine dÃ¼ÅŸÃ¼nÃ¼yor.
 ~
 The jungle savage is clad in a thong and wields a crude spear.
 ~
 human~
 AFGT 0 40
 #17014
-kabile reisi şef vahşi~
-Şef Unga-Bunga~
-Kuş tüylerinden bir pelerin giymiş vahşi bir kabile reisi burada!
+kabile reisi ÅŸef vahÅŸi~
+Åef Unga-Bunga~
+KuÅŸ tÃ¼ylerinden bir pelerin giymiÅŸ vahÅŸi bir kabile reisi burada!
 ~
 Chief Unga-bunga is a strong man, having consumed many monkey
 brains over his long life. He like the rest of his subjects, is
@@ -56,25 +56,25 @@ ABFGT 0 46
 #17015
 uyuyan uyuklayan korsan~
 uyuklayan korsan~
-Bir korsan burada, çılgınca bir sarhoşluktan sonra sızmış.
+Bir korsan burada, Ã§Ä±lgÄ±nca bir sarhoÅŸluktan sonra sÄ±zmÄ±ÅŸ.
 ~
 The pirate stinks with the smell of his own vomit.
 ~
 human~
 AG 0 40
 #17016
-korsan sarhoş~
-sarhoş korsan~
-Sarhoş bir korsan sana doğru yalpalıyor.
+korsan sarhoÅŸ~
+sarhoÅŸ korsan~
+SarhoÅŸ bir korsan sana doÄŸru yalpalÄ±yor.
 ~
 The pirate smells of rum, and is dressed in rags.
 ~
 human~
 AG 0 42
 #17017
-prenses narinendam kadın~
+prenses narinendam kadÄ±n~
 Prenses NarinEndam~
-Paçavralar giymiş lağım kokan bir kadın kraliyet soyunda hak iddia ediyor.
+PaÃ§avralar giymiÅŸ laÄŸÄ±m kokan bir kadÄ±n kraliyet soyunda hak iddia ediyor.
 ~
 Princess Smallbody is in sad sad shape. Her father wrote her off as
 damaged goods when this band of pirates captured her, and so her ransom
@@ -84,9 +84,9 @@ until her manner changed.
 human~
 ABG 0 40
 #17018
-rotacı adam~
-rotacı~
-Bir adam güneşin altında durmuş dürbünüyle meşgul oluyor.
+rotacÄ± adam~
+rotacÄ±~
+Bir adam gÃ¼neÅŸin altÄ±nda durmuÅŸ dÃ¼rbÃ¼nÃ¼yle meÅŸgul oluyor.
 ~
 The navigator is dressed in silken clothing. He was a prize from one
 of One-eye's raids, and has served his lord well. He hopes one day
@@ -95,9 +95,9 @@ that he can make a break for it on a raid.
 human~
 ABG 0 48
 #17019
-tek gözlü adam korsan lordu~
-Korsan lordu, Tek-göz~
-Bu adacığın korsan lordu, sana bakıp 'Haklayın şunu' diye bağırıyor!
+tek gÃ¶zlÃ¼ adam korsan lordu~
+Korsan lordu, Tek-gÃ¶z~
+Bu adacÄ±ÄŸÄ±n korsan lordu, sana bakÄ±p 'HaklayÄ±n ÅŸunu' diye baÄŸÄ±rÄ±yor!
 ~
 One-eye is a man of medium build and grey sideburns. He is well dressed
 and wears the proverbial patch over one eye. However, he uses this patch
@@ -107,9 +107,9 @@ is a weathered brown from many, many voyages.
 human~
 ABFGT 0 50
 #17020
-bakire prangaya vurulmuş prangalı~
-prangaya vurulmuş bir bakire~
-Paçavralar giymiş bir bakire burada, sahibinin arzularını karşılamaya çalışıyor.
+bakire prangaya vurulmuÅŸ prangalÄ±~
+prangaya vurulmuÅŸ bir bakire~
+PaÃ§avralar giymiÅŸ bir bakire burada, sahibinin arzularÄ±nÄ± karÅŸÄ±lamaya Ã§alÄ±ÅŸÄ±yor.
 ~
 The bond maiden is tied to the throne, and looks broken. You look into her
 eyes and see a little hope remains, hope that one day she will be rescued
@@ -118,9 +118,9 @@ or her ransom paid.
 human~
 ABG 0 30
 #17021
-kracken yaratık siyah~
+kracken yaratÄ±k siyah~
 kracken~
-Siyah solungaçlı dev bir yaratık burada suda çırpınıp yüzüyor.
+Siyah solungaÃ§lÄ± dev bir yaratÄ±k burada suda Ã§Ä±rpÄ±nÄ±p yÃ¼zÃ¼yor.
 ~
 The kracken has been trained by the Redbeard to expect food with the
 arrival of a boat. He usually tosses the kracken a huge load of fish
@@ -130,9 +130,9 @@ practice, and tend to get eaten.
 unique~
 ACF E 50
 #17022
-muhafız tersane~
-tersane muhafızı~
-İri yarı bir adam burada tersaneyi koruyor.
+muhafÄ±z tersane~
+tersane muhafÄ±zÄ±~
+Ä°ri yarÄ± bir adam burada tersaneyi koruyor.
 ~
 The dock guard is dressed in light leather armor and coif, and appears
 to be alert and well rested.
@@ -140,18 +140,18 @@ to be alert and well rested.
 human~
 ABGT 0 54
 #17023
-yılan siyah~
-siyah yılan~
-Siyah bir yılan burada, kumların içinde saklanıyor.
+yÄ±lan siyah~
+siyah yÄ±lan~
+Siyah bir yÄ±lan burada, kumlarÄ±n iÃ§inde saklanÄ±yor.
 ~
 The black snake is some 10' long, and has broad, iron hard scales.
 ~
 snake~
 A Q 54
 #17024
-yengeç siyah~
-siyah yengeç~
-Siyah bir yengeç burada, ölü bir balığı midesine indiriyor.
+yengeÃ§ siyah~
+siyah yengeÃ§~
+Siyah bir yengeÃ§ burada, Ã¶lÃ¼ bir balÄ±ÄŸÄ± midesine indiriyor.
 ~
 The black crab measures 2' from tip to tip, and has serrated pinchers.
 Its eyestalks rise some 3' off the ground, orienting and peering in your
@@ -161,8 +161,8 @@ unique~
 A P 50
 #17025
 solucan lav~
-lav solucanı~
-Erimiş lavların oluşturduğu ufak bir nehri andıran yaratık burada..
+lav solucanÄ±~
+ErimiÅŸ lavlarÄ±n oluÅŸturduÄŸu ufak bir nehri andÄ±ran yaratÄ±k burada..
 ~
 The lava worm is a creature of magic, having been created
 by Pele to seek out the gems of the earth and bring them
@@ -175,7 +175,7 @@ A U 56
 #17026
 kertenkele lav~
 lav kertenkelesi~
-İnsan büyüklüğünde ateş kırmızısı bir kertenkele bir kayanın üzerinde güneşleniyor.
+Ä°nsan bÃ¼yÃ¼klÃ¼ÄŸÃ¼nde ateÅŸ kÄ±rmÄ±zÄ±sÄ± bir kertenkele bir kayanÄ±n Ã¼zerinde gÃ¼neÅŸleniyor.
 ~
 The lava lizard frequents the lava flows, as they are a
 place where the lizard can gather warmth for its dives deep
@@ -187,9 +187,9 @@ for the season)
 lizard~
 A 0 54
 #17027
-korsan hırıldayan~
-hırıldayan korsan~
-Hırıldayan bir korsan burada, senin cesedini talan etmeye hazır.
+korsan hÄ±rÄ±ldayan~
+hÄ±rÄ±ldayan korsan~
+HÄ±rÄ±ldayan bir korsan burada, senin cesedini talan etmeye hazÄ±r.
 ~
 The snarling pirate wears at best leather protective clothing
 and appears to be shaved and well groomed.
@@ -197,9 +197,9 @@ and appears to be shaved and well groomed.
 unique~
 AF 0 56
 #17028
-kızılsakal korsan~
-KızılSakal~
-Uzun boylu, kemikli, kızıl sakallı (özenle taranmış..) bir adam burada.
+kÄ±zÄ±lsakal korsan~
+KÄ±zÄ±lSakal~
+Uzun boylu, kemikli, kÄ±zÄ±l sakallÄ± (Ã¶zenle taranmÄ±ÅŸ..) bir adam burada.
 ~
 Redbeard has prospered on fire island through his wits and organization.
 He holds his men to a higher standard then the rest of the pirate scum
@@ -208,21 +208,21 @@ which sails the seas. He has a funny looking eyepiece.
 human~
 AB D 60
 #17029
-lalila çora prensi~
-Çora Prensi, Lalila~
-Solgun, bir deri bir kemik kalmış bir çora burada yiyecek dileniyor.
+lalila Ã§ora prensi~
+Ã‡ora Prensi, Lalila~
+Solgun, bir deri bir kemik kalmÄ±ÅŸ bir Ã§ora burada yiyecek dileniyor.
 ~
 Lalila thanks you for his rescue. In exchange for his life he tells you
 of a place called hell reef, where you can hear the ghostly siren, is
 where he was shipwrecked and he lost his flaming belt. He was using the belt
 for warmth when he was captured by Redbeard, and brought here for ransom.
 ~
-çora~
+Ã§ora~
 ABT 0 56
 #17030
-pele ateş tanrısı~
-Ateş tanrısı, Pele~
-Başka bir dünyadan gibi görünen ateşlerle sarılı bir figür önünde azametle yükseliyor.
+pele ateÅŸ tanrÄ±sÄ±~
+AteÅŸ tanrÄ±sÄ±, Pele~
+BaÅŸka bir dÃ¼nyadan gibi gÃ¶rÃ¼nen ateÅŸlerle sarÄ±lÄ± bir figÃ¼r Ã¶nÃ¼nde azametle yÃ¼kseliyor.
 ~
 Pele is the fire god, and calls this lonely spot his home. He has
 little interest in the affairs of men, dwarves, elves, etc. He
@@ -231,9 +231,9 @@ stands some 20' tall, and is made entirely of flame.
 unique~
 ABT DFHJ 64
 #17031
-mizanadireği korsan lordu~
-MizanaDireği~
-Kısa, bodur, kel bir korsan burada bir hamağa uzanmış.
+mizanadireÄŸi korsan lordu~
+MizanaDireÄŸi~
+KÄ±sa, bodur, kel bir korsan burada bir hamaÄŸa uzanmÄ±ÅŸ.
 ~
 Mizzenmast, the 3rd Pirate Lord is a firm believer in non-
 exertion, and the economy of effort. Sooner or later it will wash
@@ -244,9 +244,9 @@ to others, and leaves all the major thinking to Shifty.
 human~
 AB 0 70
 #17032
-düzenbaz tüccar adam~
-Düzenbaz tüccar~
-Prangaya vurulmuş bir adam burada acı içinde kıvranıyor.
+dÃ¼zenbaz tÃ¼ccar adam~
+DÃ¼zenbaz tÃ¼ccar~
+Prangaya vurulmuÅŸ bir adam burada acÄ± iÃ§inde kÄ±vranÄ±yor.
 ~
 Shifty has once again ticked off his lord Mizzenmast, who in turn has
 shackled him here in the storage area to impress upon him the importance
@@ -256,9 +256,9 @@ his recent fall from grace.
 human~
 AB 0 95
 #17033
-korsan tek bacaklı~
-tek bacaklı korsan~
-Tek bacaklı bir korsan tahta bacağının üzerinde sendeliyor.
+korsan tek bacaklÄ±~
+tek bacaklÄ± korsan~
+Tek bacaklÄ± bir korsan tahta bacaÄŸÄ±nÄ±n Ã¼zerinde sendeliyor.
 ~
 The pirate is unbalanced due to his long journeys at sea. He is clad in
 cloth jerkin and leggings, and swings his cutlass with years of experience.
@@ -266,9 +266,9 @@ cloth jerkin and leggings, and swings his cutlass with years of experience.
 human~
 AF 0 66
 #17034
-stiggs miço~
-Miço oğlanı, Stiggs~
-Genç bir çocuk burada, kendisine verilen iş için ortalıkta seğirtiyor.
+stiggs miÃ§o~
+MiÃ§o oÄŸlanÄ±, Stiggs~
+GenÃ§ bir Ã§ocuk burada, kendisine verilen iÅŸ iÃ§in ortalÄ±kta seÄŸirtiyor.
 ~
 Stiggs was waylaid in a coastal city by Mizzenmast's crew. He has been
 brainwashed over time that the pirate's life is the best life there is.
@@ -277,9 +277,9 @@ Right now Stiggs is in a hurry to prepare shark stew for his Lords snack.
 human~
 AB 0 64
 #17035
-kana susamış köpekbalığı~
-kana susamış köpekbalığı~
-Tuhaf çizgili bir köpekbalığı, biraz atıştırmak için senin bacağına meylediyor.
+kana susamÄ±ÅŸ kÃ¶pekbalÄ±ÄŸÄ±~
+kana susamÄ±ÅŸ kÃ¶pekbalÄ±ÄŸÄ±~
+Tuhaf Ã§izgili bir kÃ¶pekbalÄ±ÄŸÄ±, biraz atÄ±ÅŸtÄ±rmak iÃ§in senin bacaÄŸÄ±na meylediyor.
 ~
 The tiger shark is thick and squatish in appearance. You think its jaws
 would make a fine trophy.
@@ -287,9 +287,9 @@ would make a fine trophy.
 human~
 AF 0 68
 #17036
-köpekbalığı beyaz büyük~
-büyük beyaz köpekbalığı~
-20 inç uzunluğunda bir şark Jaws'ın temasından etkilenmiş burada fink atıyor.
+kÃ¶pekbalÄ±ÄŸÄ± beyaz bÃ¼yÃ¼k~
+bÃ¼yÃ¼k beyaz kÃ¶pekbalÄ±ÄŸÄ±~
+20 inÃ§ uzunluÄŸunda bir ÅŸark Jaws'Ä±n temasÄ±ndan etkilenmiÅŸ burada fink atÄ±yor.
 ~
 Yes, our good old buddy the great white has scented your foul trail of
 Ofcol in the water, and found it pleasing enough to pursue across the
@@ -298,9 +298,9 @@ great expanse of water.
 human~
 AF 0 70
 #17037
-köpekbalığı camgöz~
-camgöz köpekbalığı~
-İnce, hızlı yüzen bir köpekbalığı sanki senin bacağını hedef almış gibi!
+kÃ¶pekbalÄ±ÄŸÄ± camgÃ¶z~
+camgÃ¶z kÃ¶pekbalÄ±ÄŸÄ±~
+Ä°nce, hÄ±zlÄ± yÃ¼zen bir kÃ¶pekbalÄ±ÄŸÄ± sanki senin bacaÄŸÄ±nÄ± hedef almÄ±ÅŸ gibi!
 ~
 The mako shark, when you come down to it, makes a fine meal. Please feel
 free to sample its lovingly prepared body parts after the combat. No,
@@ -309,9 +309,9 @@ you should drink white wine with Mako.
 human~
 AF 0 60
 #17038
-köpekbalığı çekiçbaşlı~
-çekiçbaşlı köpekbalığı~
-Hey, şu köpekbalığının acayip kafasına baksana!
+kÃ¶pekbalÄ±ÄŸÄ± Ã§ekiÃ§baÅŸlÄ±~
+Ã§ekiÃ§baÅŸlÄ± kÃ¶pekbalÄ±ÄŸÄ±~
+Hey, ÅŸu kÃ¶pekbalÄ±ÄŸÄ±nÄ±n acayip kafasÄ±na baksana!
 ~
 The hammerhead shark is swimming slowly along at a great depth, oblivious
 to your presence.
@@ -319,9 +319,9 @@ to your presence.
 human~
 A 0 66
 #17039
-köpekbalığı mavi~
-mavi köpekbalığı~
-Torpil şeklinde bir köpekbalığı suda geziniyor.
+kÃ¶pekbalÄ±ÄŸÄ± mavi~
+mavi kÃ¶pekbalÄ±ÄŸÄ±~
+Torpil ÅŸeklinde bir kÃ¶pekbalÄ±ÄŸÄ± suda geziniyor.
 ~
 The blue shark having just had a fine dinner of mortal body parts, is out
 for its leisurely evening swim. Maybe if you throw fresh blood in the water
@@ -331,8 +331,8 @@ human~
 A 0 62
 #17040
 istiridye dev~
-Mercan mı dedim? İstiridyeyi kastetmiştim..~
-Devasa beyaz bir mercan parçası suyun dibinde dinleniyor.
+Mercan mÄ± dedim? Ä°stiridyeyi kastetmiÅŸtim..~
+Devasa beyaz bir mercan parÃ§asÄ± suyun dibinde dinleniyor.
 ~
 The giant clam is closed and content at the bottom of this warm tropical
 sea. I wonder what's inside?
@@ -340,9 +340,9 @@ sea. I wonder what's inside?
 giant~
 AB Q 70
 #17041
-atmacakadın atmaca kadın~
-atmaca kadın~
-Dev gri kanatlı bir kadın burada süzülüyor.
+atmacakadÄ±n atmaca kadÄ±n~
+atmaca kadÄ±n~
+Dev gri kanatlÄ± bir kadÄ±n burada sÃ¼zÃ¼lÃ¼yor.
 ~
 The hawkwoman, like all of her kind wears a beaked helm, chain leggings
 and is naked from the waist up. Yes, she is well endowed. She wields
@@ -354,7 +354,7 @@ A T 70
 #17042
 atmacaadam atmaca adam~
 atmaca adam~
-Bir atmaca adam senin üzerine doğru pike yapıp saldırıyor!
+Bir atmaca adam senin Ã¼zerine doÄŸru pike yapÄ±p saldÄ±rÄ±yor!
 ~
 The hawkman, like all of his kind wears a beaked helm, chain leggings,
 and is naked from the waist up. He wears the talons of the hawkpeople,
@@ -366,7 +366,7 @@ AF T 72
 #17043
 atmacalordu atmaca lordu adam~
 atmaca lordu~
-Altın zırhlara bürünmüş bir atmaca adam soğukkanlılıkla alçaktan süzülüyor.
+AltÄ±n zÄ±rhlara bÃ¼rÃ¼nmÃ¼ÅŸ bir atmaca adam soÄŸukkanlÄ±lÄ±kla alÃ§aktan sÃ¼zÃ¼lÃ¼yor.
 ~
 The hawklord, when you greet him, eyes you carefully. Then slowly, but
 with increasing vigor he starts a tale of how his people were driven
@@ -376,9 +376,9 @@ a land roving birdlike creature which roams the surface of the island.
 song bird~
 A JT 74
 #17044
-arz-avcısı kuş arz avcısı~
-arz-avcısı~
-İnsan büyüklüğünde kanatsız bir kuş burada avlanıyor.
+arz-avcÄ±sÄ± kuÅŸ arz avcÄ±sÄ±~
+arz-avcÄ±sÄ±~
+Ä°nsan bÃ¼yÃ¼klÃ¼ÄŸÃ¼nde kanatsÄ±z bir kuÅŸ burada avlanÄ±yor.
 ~
 The terra-kan has black plumage, a huge hooked beak, and two terrible
 talons. It moves by bounding in great leaps from place to place, often
@@ -390,7 +390,7 @@ A F 76
 #17045
 kumarbaz korsan~
 kumarbaz korsan~
-Bir korsan burada, kaderini zarların eline teslim etmiş.
+Bir korsan burada, kaderini zarlarÄ±n eline teslim etmiÅŸ.
 ~
 The pirate is playing a game involving 3 dice called 'bones' in which
 the highest total wins, with the variant that 2 of a kind forfeits your
@@ -402,7 +402,7 @@ A 0 74
 #17046
 birinci kaptan korsan~
 birinci kaptan~
-Yırtık bir üniforma kalıntısı giyinmiş korsan, davetsiz girdiğin için sinirleniyor.
+YÄ±rtÄ±k bir Ã¼niforma kalÄ±ntÄ±sÄ± giyinmiÅŸ korsan, davetsiz girdiÄŸin iÃ§in sinirleniyor.
 ~
 The first mate once was an officer in the navy of Freeport, who in his
 later years took to skimming from the war fund. One day justice caught
@@ -416,7 +416,7 @@ AF 0 76
 #17047
 elit korsan~
 elit korsan~
-İyi silahlanmış, ütülü üniforma giymiş bir korsan burada nöbet tutuyor.
+Ä°yi silahlanmÄ±ÅŸ, Ã¼tÃ¼lÃ¼ Ã¼niforma giymiÅŸ bir korsan burada nÃ¶bet tutuyor.
 ~
 The elite pirate is dressed in a black uniform with polished silver
 buttons and buckles. He wields a military saber with a precision you have
@@ -425,9 +425,9 @@ seldom seen.
 human~
 AF DF 76
 #17048
-alindra köle kadın~
+alindra kÃ¶le kadÄ±n~
 Dunkeldorflu Alindra~
-Güzel bir insan kadın burada ipeklerin üzerine uzanmış.
+GÃ¼zel bir insan kadÄ±n burada ipeklerin Ã¼zerine uzanmÄ±ÅŸ.
 ~
 Alindra of Dunkeldorf is at the ripe age of23. She tells you a sad tale of
 how she was captured by Lord Vulture on her trip to Freeport. What is even
@@ -437,9 +437,9 @@ with Vulture, in spite of his villainy.
 human~
 AB 0 70
 #17049
-Koyunbudu aşçı korsan~
-Aşçı KoyunBudu~
-Yağlı, göbekli, kıllı bir korsan burada hergünkü gibi lapa pişiriyor.
+Koyunbudu aÅŸÃ§Ä± korsan~
+AÅŸÃ§Ä± KoyunBudu~
+YaÄŸlÄ±, gÃ¶bekli, kÄ±llÄ± bir korsan burada hergÃ¼nkÃ¼ gibi lapa piÅŸiriyor.
 ~
 Mutton has simple tastes in life. Leftovers and more leftovers, and
 licking the stirring spoon. He doesn't say much, because he is too busy
@@ -450,7 +450,7 @@ AB V 74
 #17050
 akbaba lord~
 Lord Akbaba~
-Çok iri, siyah derili bir adam kömür karası gözleriyle sana bakıyor.
+Ã‡ok iri, siyah derili bir adam kÃ¶mÃ¼r karasÄ± gÃ¶zleriyle sana bakÄ±yor.
 ~
 Lord Vulture is a master criminal, with a calculating evil that makes
 your skin crawl. He is dressed in black silk, which nicely sets off
@@ -464,7 +464,7 @@ AB B 80
 #17051
 katil balina~
 katil balina~
-Bir katil balina burada, buzdaki çatlağın içinde avlanıyor.
+Bir katil balina burada, buzdaki Ã§atlaÄŸÄ±n iÃ§inde avlanÄ±yor.
 ~
 The orca is large, black, and white, and is not a nice little fishy
 like Free Willy.
@@ -472,9 +472,9 @@ like Free Willy.
 human~
 ABF 0 80
 #17052
-anka büyük kuzey kuşu~
-büyük kuzey ankası~
-Kanat uzunluğu 50 inç olan, atmacayı andıran bir kuş burada süzülüyor.
+anka bÃ¼yÃ¼k kuzey kuÅŸu~
+bÃ¼yÃ¼k kuzey ankasÄ±~
+Kanat uzunluÄŸu 50 inÃ§ olan, atmacayÄ± andÄ±ran bir kuÅŸ burada sÃ¼zÃ¼lÃ¼yor.
 ~
 The great northern roc, unlike its brethren, isn't enchanted
 with an unnatural sanctuary spell. Its plumage matches the
@@ -483,9 +483,9 @@ landscape, making it look like a snow hill when it lands.
 song bird~
 AB T 80
 #17053
-uluyan kurt sürüsü~
-uluyan kurt sürüsü~
-Uluyan, beyaz kürklü aç bir kurt sürüsü burada avlanıyor.
+uluyan kurt sÃ¼rÃ¼sÃ¼~
+uluyan kurt sÃ¼rÃ¼sÃ¼~
+Uluyan, beyaz kÃ¼rklÃ¼ aÃ§ bir kurt sÃ¼rÃ¼sÃ¼ burada avlanÄ±yor.
 ~
 The wolves dine on seals and caribou normally, but you will
 do in a pinch.
@@ -493,9 +493,9 @@ do in a pinch.
 wolf~
 ABF 0 82
 #17054
-ayı mağara ayısı~
-heybetli mağara ayısı~
-Bir post kütlesi burada yükseliyor.
+ayÄ± maÄŸara ayÄ±sÄ±~
+heybetli maÄŸara ayÄ±sÄ±~
+Bir post kÃ¼tlesi burada yÃ¼kseliyor.
 ~
 The cave bear rears up and stands on its hind legs snarling.
 It is an impressive specimen. It is here, hibernating. Maybe
@@ -505,17 +505,17 @@ bear~
 AB 0 82
 #17066
 korsan~
-kürklere bürünmüş korsan~
-Kürklere bürünmüş bir korsan seni görünce `Yo Ho Ho' diye bağırıyor.
+kÃ¼rklere bÃ¼rÃ¼nmÃ¼ÅŸ korsan~
+KÃ¼rklere bÃ¼rÃ¼nmÃ¼ÅŸ bir korsan seni gÃ¶rÃ¼nce `Yo Ho Ho' diye baÄŸÄ±rÄ±yor.
 ~
 The pirate is well armed and dangerous.
 ~
 human~
 AT 0 84
 #17067
-muhafız korsan~
-pusudaki muhafız~
-Bir korsan muhafızı burada gölgelerin içinde pusuya yatmış.
+muhafÄ±z korsan~
+pusudaki muhafÄ±z~
+Bir korsan muhafÄ±zÄ± burada gÃ¶lgelerin iÃ§inde pusuya yatmÄ±ÅŸ.
 ~
 The guard is lean, alert, hardened, and itching for
 a fight.
@@ -523,9 +523,9 @@ a fight.
 human~
 AFT DFQ 80
 #17068
-korsan dümenci~
-dümenci~
-Denizin zorlu yollarında zekası bilenmiş bir korsan seni inceliyor.
+korsan dÃ¼menci~
+dÃ¼menci~
+Denizin zorlu yollarÄ±nda zekasÄ± bilenmiÅŸ bir korsan seni inceliyor.
 ~
 The helmsman is the best there is. He has successfully
 navigated the narrow ice channels around the iceberg
@@ -535,8 +535,8 @@ human~
 AT 0 88
 #17069
 korsan~
-Beşinci Korsan Lordu, Doğrayıcı~
-Kışın soğuğuna katlanmaya çalışan bir korsan burada haritaları üzerinde çalışıyor.
+BeÅŸinci Korsan Lordu, DoÄŸrayÄ±cÄ±~
+KÄ±ÅŸÄ±n soÄŸuÄŸuna katlanmaya Ã§alÄ±ÅŸan bir korsan burada haritalarÄ± Ã¼zerinde Ã§alÄ±ÅŸÄ±yor.
 ~
 Cutter looks up from his charts and says, `Ah, at last we
 meet. I was told by an envoy of One-eye to expect you.
@@ -549,8 +549,8 @@ human~
 ABT H 90
 #17070
 mahkum~
-buz kesmiş esir~
-Bir mahkum burada soğuktan tir tir titriyor.
+buz kesmiÅŸ esir~
+Bir mahkum burada soÄŸuktan tir tir titriyor.
 ~
 The frozen captive is so gratified by your kindness that
 she tells you a story. ` A long time ago, Lok started this
@@ -573,9 +573,9 @@ ABT 0 80
 
 #OBJECTS
 #17011
-ağaç muz ağacı~
-muz ağacı~
-Bir muz ağacı burada, leziz olgun meyvalarla yüklü.
+aÄŸaÃ§ muz aÄŸacÄ±~
+muz aÄŸacÄ±~
+Bir muz aÄŸacÄ± burada, leziz olgun meyvalarla yÃ¼klÃ¼.
 ~
 wood~
 container 0 0
@@ -586,29 +586,29 @@ fruit~
 Have you had your potassium today?
 ~
 #17012
-muz salkımı~
-bir muz salkımı~
-Olgun muzlarla dolu bir salkım burada- peki maymun nerede?
+muz salkÄ±mÄ±~
+bir muz salkÄ±mÄ±~
+Olgun muzlarla dolu bir salkÄ±m burada- peki maymun nerede?
 ~
 food~
 food 0 A
 5 5 0 0 0
 0 2 10 P
 #17013
-tabela uyarı~
-ahşap bir tabela~
-Ahşap bir tabela buraya çakılmış.
+tabela uyarÄ±~
+ahÅŸap bir tabela~
+AhÅŸap bir tabela buraya Ã§akÄ±lmÄ±ÅŸ.
 ~
 wood~
 trash 0 0
 0 0 0 0 0
 0 0 0 P
 E
-tabela ahşap~
+tabela ahÅŸap~
 *****************************
 *       !!UZAK DUR!!        *
-*   yoksa kucağıma düşersin *
-*          Tek-Göz          *
+*   yoksa kucaÄŸÄ±ma dÃ¼ÅŸersin *
+*          Tek-GÃ¶z          *
 *****************************
 ~
 #17014
@@ -630,22 +630,22 @@ This mallet looks like it was meant for hammering
 pegs, and not for combat.
 ~
 #17015
-kuş tüyünden cüppe~
-kuş tüyünden bir cüppe~
-Parlak tropik kuş tüylerinden yapılmış bir cüppe burada duruyor.
+kuÅŸ tÃ¼yÃ¼nden cÃ¼ppe~
+kuÅŸ tÃ¼yÃ¼nden bir cÃ¼ppe~
+Parlak tropik kuÅŸ tÃ¼ylerinden yapÄ±lmÄ±ÅŸ bir cÃ¼ppe burada duruyor.
 ~
 unknown~
 armor 0 AK
 15 15 15 7 0
 46 8 1000 P
 E
-cüppe kuş tüyünden~
-Kesinlikle çok hoş.
+cÃ¼ppe kuÅŸ tÃ¼yÃ¼nden~
+Kesinlikle Ã§ok hoÅŸ.
 ~
 #17016
-şişe rom~
-bir şişe rom~
-Burada bir şişe dolusu rom görüyorsun, almazsan boşa gidecek..
+ÅŸiÅŸe rom~
+bir ÅŸiÅŸe rom~
+Burada bir ÅŸiÅŸe dolusu rom gÃ¶rÃ¼yorsun, almazsan boÅŸa gidecek..
 ~
 glass~
 drink 0 A
@@ -654,16 +654,16 @@ drink 0 A
 #17017
 tasarruf~
 TASARRUF!~
-Şansın açılıyor mu ne?
+ÅansÄ±n aÃ§Ä±lÄ±yor mu ne?
 ~
 gold~
 money 0 A
 1000 0 0 0 0
 0 3 0 P
 #17018
-dürbün~
-bir dürbün~
-Güzel yaldızlı bir dürbün burada duruyor.
+dÃ¼rbÃ¼n~
+bir dÃ¼rbÃ¼n~
+GÃ¼zel yaldÄ±zlÄ± bir dÃ¼rbÃ¼n burada duruyor.
 ~
 vellum~
 scroll 0 AO
@@ -676,9 +676,9 @@ on the side. It reads 'Recite these words on what you need, and at
 last I will be freed'
 ~
 #17019
-kudret kolanı~
-kudret kolanı~
-Ustalıkla işlenmiş bir silah kemeri burada duruyor.
+kudret kolanÄ±~
+kudret kolanÄ±~
+UstalÄ±kla iÅŸlenmiÅŸ bir silah kemeri burada duruyor.
 ~
 mithril~
 armor G AL
@@ -689,19 +689,19 @@ A
 A
 19 10
 E
-kemer kudret kolanı~
-Kolanın üzerinde bir yazıt var:
+kemer kudret kolanÄ±~
+KolanÄ±n Ã¼zerinde bir yazÄ±t var:
 ------------------------------------
-Gündüzde ya da gecede
-Karanlıkta, yahut ışıkta
-Ne yanlış vardır ne de doğru..
-Baki olan tek şey, ZAFER KAZANMAYI BİLEN KUDRETTİR..
+GÃ¼ndÃ¼zde ya da gecede
+KaranlÄ±kta, yahut Ä±ÅŸÄ±kta
+Ne yanlÄ±ÅŸ vardÄ±r ne de doÄŸru..
+Baki olan tek ÅŸey, ZAFER KAZANMAYI BÄ°LEN KUDRETTÄ°R..
 ------------------------------------
 ~
 #17020
 eldivenler isabet~
 isabet eldivenleri~
-Üzerinde oklar olan bir çift eldiven burada uzanıyor.
+Ãœzerinde oklar olan bir Ã§ift eldiven burada uzanÄ±yor.
 ~
 leather~
 armor G AH
@@ -737,9 +737,9 @@ lava pool~
 It is so hot your eyes are watering.
 ~
 #17023
-pala kılıç~
+pala kÄ±lÄ±Ã§~
 bir pala~
-Neredeyse bir kol boyunda kavisli bir kılıç burada.
+Neredeyse bir kol boyunda kavisli bir kÄ±lÄ±Ã§ burada.
 ~
 steel~
 weapon 0 AN
@@ -750,9 +750,9 @@ A
 A
 19 5
 #17024
-göz kracken krackenin gözü~
-kracken'in gözü~
-Bir çeşit deniz yaratığının büyük göz bebeği yerde çürüyor.
+gÃ¶z kracken krackenin gÃ¶zÃ¼~
+kracken'in gÃ¶zÃ¼~
+Bir Ã§eÅŸit deniz yaratÄ±ÄŸÄ±nÄ±n bÃ¼yÃ¼k gÃ¶z bebeÄŸi yerde Ã§Ã¼rÃ¼yor.
 ~
 flesh~
 staff CEJ AO
@@ -765,9 +765,9 @@ wrest control of your mind away from you. You win and break
 your gaze.
 ~
 #17025
-volkanik kol bantları~
-Volkanik kol bantları~
-Ateşten yapılmış kol bantları yerde için için yanıyor.
+volkanik kol bantlarÄ±~
+Volkanik kol bantlarÄ±~
+AteÅŸten yapÄ±lmÄ±ÅŸ kol bantlarÄ± yerde iÃ§in iÃ§in yanÄ±yor.
 ~
 fire~
 armor AGQ AI
@@ -780,9 +780,9 @@ fire~
 The armbands are burning brightly.
 ~
 #17026
-sandık tunç~
-büyük tunç bir sandık~
-Büyük tunç bir sandık burada.
+sandÄ±k tunÃ§~
+bÃ¼yÃ¼k tunÃ§ bir sandÄ±k~
+BÃ¼yÃ¼k tunÃ§ bir sandÄ±k burada.
 ~
 bronze~
 container G 0
@@ -791,7 +791,7 @@ container G 0
 #17027
 cirit~
 bir cirit~
-Dengesi iyi sağlanmış bir cirit burada.
+Dengesi iyi saÄŸlanmÄ±ÅŸ bir cirit burada.
 ~
 unknown~
 armor 0 AO
@@ -800,9 +800,9 @@ armor 0 AO
 A
 18 7
 #17028
-yağma pelerini~
-yağma pelerini~
-Burada şüphe uyandıran bir pelerin görüyorsun. Hmmm.
+yaÄŸma pelerini~
+yaÄŸma pelerini~
+Burada ÅŸÃ¼phe uyandÄ±ran bir pelerin gÃ¶rÃ¼yorsun. Hmmm.
 ~
 cloth~
 armor FG AK
@@ -819,8 +819,8 @@ cloak~
 Yes, you have seen a thief wearing this once before.
 ~
 #17029
-ettin'in ettinin kanı~
-Ettin'in kanı~
+ettin'in ettinin kanÄ±~
+Ettin'in kanÄ±~
 Kanla dolu bir kavanoz burada.
 ~
 glass~
@@ -830,16 +830,16 @@ potion FG A
 #17030
 korsan definesi~
 korsan definesi~
-Amma ballısın!
+Amma ballÄ±sÄ±n!
 ~
 gold~
 money 0 A
 100000 0 0 0 0
 0 30 0 P
 #17031
-köpekbalığı derisinden pantolon~
-köpekbalığı derisinden pantolon~
-Balık derisinden yapılmış bir pantolon burada duruyor.
+kÃ¶pekbalÄ±ÄŸÄ± derisinden pantolon~
+kÃ¶pekbalÄ±ÄŸÄ± derisinden pantolon~
+BalÄ±k derisinden yapÄ±lmÄ±ÅŸ bir pantolon burada duruyor.
 ~
 snakeskin~
 armor G AF
@@ -859,7 +859,7 @@ Upon closer examination, you notice a tag on the waistline. It reads
 #17032
 arbalet zehir~
 bir zehir arbaleti~
-Burada üzerine siyah oklar iliştirilmiş pis bir arbalet görüyorsun.
+Burada Ã¼zerine siyah oklar iliÅŸtirilmiÅŸ pis bir arbalet gÃ¶rÃ¼yorsun.
 ~
 wood~
 wand 0 AO
@@ -872,9 +872,9 @@ a strange black metal for the bow itself. The quarrels are also made
 of the same black metal.
 ~
 #17033
-küre etkisizleştirme~
-etkisizleştirme küresi~
-Yerde duran küre etraftaki tüm ışığı emiyor.
+kÃ¼re etkisizleÅŸtirme~
+etkisizleÅŸtirme kÃ¼resi~
+Yerde duran kÃ¼re etraftaki tÃ¼m Ä±ÅŸÄ±ÄŸÄ± emiyor.
 ~
 glass~
 wand C AO
@@ -886,9 +886,9 @@ You try to peer closely at the orb, but it is just a vague black shape.
 Holding it in your hand, you can feel its smooth, spherical shape.
 ~
 #17034
-sandık asma kilitli~
-asma kilitli bir sandık~
-Ağır, asma kilitli bir sandık burada.
+sandÄ±k asma kilitli~
+asma kilitli bir sandÄ±k~
+AÄŸÄ±r, asma kilitli bir sandÄ±k burada.
 ~
 iron~
 container 0 0
@@ -913,18 +913,18 @@ key metal~
 The key is small, perhaps it might open a padlock.
 ~
 #17036
-dalgakıran sal~
-'DalgaKıran' isimli bir kano~
-Gök mavisi yelkenli bir kano burada, serüvene hazır halde duruyor.
+dalgakÄ±ran sal~
+'DalgaKÄ±ran' isimli bir kano~
+GÃ¶k mavisi yelkenli bir kano burada, serÃ¼vene hazÄ±r halde duruyor.
 ~
 wood~
 boat T 0
 1500 0 0 0 0
 20 30 1000 P
 #17037
-gözcü feneri~
-bir gözcünün feneri~
-Bir gözcünün feneri burada, etrafa beyaz parlak bir ışık saçıyor.
+gÃ¶zcÃ¼ feneri~
+bir gÃ¶zcÃ¼nÃ¼n feneri~
+Bir gÃ¶zcÃ¼nÃ¼n feneri burada, etrafa beyaz parlak bir Ä±ÅŸÄ±k saÃ§Ä±yor.
 ~
 oil~
 light A AO
@@ -940,7 +940,7 @@ of amazing things.
 #17038
 dev inci~
 dev bir inci~
-Dev bir inci unutulmuş bir halde kumların içinde duruyor.
+Dev bir inci unutulmuÅŸ bir halde kumlarÄ±n iÃ§inde duruyor.
 ~
 diamond~
 treasure 0 A
@@ -954,7 +954,7 @@ off of its shiny surface.
 #17039
 hamak kenevir lifinden~
 kenevir lifinden bir hamak~
-Kenevir lifinden bir hamak, burada yere gömülü iki direğin arasına gerilmiş.
+Kenevir lifinden bir hamak, burada yere gÃ¶mÃ¼lÃ¼ iki direÄŸin arasÄ±na gerilmiÅŸ.
 ~
 unknown~
 furniture 0 A
@@ -965,18 +965,18 @@ hemp hammock~
 The hammock has an inviting sag, and it beckons to you.
 ~
 #17040
-yağma çapul~
-yağma ve çapul~
-Burada bir yağma ve çapul definesi var!
+yaÄŸma Ã§apul~
+yaÄŸma ve Ã§apul~
+Burada bir yaÄŸma ve Ã§apul definesi var!
 ~
 gold~
 money 0 A
 100000 0 0 0 0
 0 30 0 P
 #17041
-anahtar altın atmaca~
-altın bir atmaca anahtarı~
-Altın atmaca şeklinde bir anahtar burada duruyor.
+anahtar altÄ±n atmaca~
+altÄ±n bir atmaca anahtarÄ±~
+AltÄ±n atmaca ÅŸeklinde bir anahtar burada duruyor.
 ~
 gold~
 key 0 A
@@ -988,9 +988,9 @@ The key is made entirely of gold, and has the head of a hawk
 on it.
 ~
 #17042
-taş süzülen~
-süzülen bir taş~
-Bir taş burada, havada süzülüyor!
+taÅŸ sÃ¼zÃ¼len~
+sÃ¼zÃ¼len bir taÅŸ~
+Bir taÅŸ burada, havada sÃ¼zÃ¼lÃ¼yor!
 ~
 stone~
 map GP AO
@@ -1001,9 +1001,9 @@ stone floating~
 The stone is of a strange material you have rarely seen.
 ~
 #17043
-cüppe atmacalordu atmaca lordu~
-Atmacalordunun yeleği~
-Parlak, mavi, kaliteli zincirden örülmüş bir yelek havada süzülüyor.
+cÃ¼ppe atmacalordu atmaca lordu~
+Atmacalordunun yeleÄŸi~
+Parlak, mavi, kaliteli zincirden Ã¶rÃ¼lmÃ¼ÅŸ bir yelek havada sÃ¼zÃ¼lÃ¼yor.
 ~
 unknown~
 container GP AK
@@ -1021,9 +1021,9 @@ The blue mesh seems to attract metal object on your body.
 In fact, you can attach small throwing items onto it.
 ~
 #17044
-yük merdiveni~
-bir yük merdiveni~
-Uzun halat merdivenli bir kaldıraç burada.
+yÃ¼k merdiveni~
+bir yÃ¼k merdiveni~
+Uzun halat merdivenli bir kaldÄ±raÃ§ burada.
 ~
 wood~
 furniture 0 0
@@ -1037,16 +1037,16 @@ can go down 500'.
 #17045
 mide~
 bir mide~
-Yerde duran kanlı bir mide, karıncalar tarafından afiyetle tüketiliyor.
+Yerde duran kanlÄ± bir mide, karÄ±ncalar tarafÄ±ndan afiyetle tÃ¼ketiliyor.
 ~
 food~
 pill 0 A
 35 'heal' '' '' ''
 25 2 4000 P
 #17046
-sandık demir~
+sandÄ±k demir~
 demir bir chest~
-Çok büyük demir bir sandık burada.
+Ã‡ok bÃ¼yÃ¼k demir bir sandÄ±k burada.
 ~
 iron~
 container 0 0
@@ -1058,9 +1058,9 @@ Engraved on a band in the corner are the words:
 `Secure Chest TM by Beich'
 ~
 #17047
-gümüş yığını~
-bir gümüş yığını~
-Burada bir gümüş yığını var. Ne bakıyorsun? Çaktırmadan al ve zengin ol!
+gÃ¼mÃ¼ÅŸ yÄ±ÄŸÄ±nÄ±~
+bir gÃ¼mÃ¼ÅŸ yÄ±ÄŸÄ±nÄ±~
+Burada bir gÃ¼mÃ¼ÅŸ yÄ±ÄŸÄ±nÄ± var. Ne bakÄ±yorsun? Ã‡aktÄ±rmadan al ve zengin ol!
 ~
 silver~
 money 0 A
@@ -1071,9 +1071,9 @@ silver mountain~
 The silver coins are from many different mints and eras.
 ~
 #17048
-maşrapa dipsiz~
-Dipsiz maşrapa~
-Dipsiz bir maşrapanın içindeki ale, susuzluğunu yatıştırmak için bekliyor.
+maÅŸrapa dipsiz~
+Dipsiz maÅŸrapa~
+Dipsiz bir maÅŸrapanÄ±n iÃ§indeki ale, susuzluÄŸunu yatÄ±ÅŸtÄ±rmak iÃ§in bekliyor.
 ~
 glass~
 drink G AO
@@ -1085,9 +1085,9 @@ The ale is a light orange color with a hint of fuggles hops in
 its aroma.
 ~
 #17049
-kanatlar lord akbabanın~
-Lord Akbaba'nın kanatları~
-DEVASA siyah bir kuşun kanatları sapasağlam yerde duruyor.
+kanatlar lord akbabanÄ±n~
+Lord Akbaba'nÄ±n kanatlarÄ±~
+DEVASA siyah bir kuÅŸun kanatlarÄ± sapasaÄŸlam yerde duruyor.
 ~
 unknown~
 armor FG AI
@@ -1105,9 +1105,9 @@ Upon closer examination, you see that the wings have a support harness
 which straps to your biceps.
 ~
 #17050
-göz kartalın gözü~
-kartal gözü~
-Üzerinde tek bir siyah nokta olan yumuşak bir kehribar taşı görüyorsun.
+gÃ¶z kartalÄ±n gÃ¶zÃ¼~
+kartal gÃ¶zÃ¼~
+Ãœzerinde tek bir siyah nokta olan yumuÅŸak bir kehribar taÅŸÄ± gÃ¶rÃ¼yorsun.
 ~
 food~
 staff G AO
@@ -1119,9 +1119,9 @@ The eye has a fascinating depth to it. The black spot seems to drink in
 the light around it.
 ~
 #17051
-hançer atış~
-bir atış hançeri~
-İyi dengelenmiş mavi metalden bir atış hançeri burada.
+hanÃ§er atÄ±ÅŸ~
+bir atÄ±ÅŸ hanÃ§eri~
+Ä°yi dengelenmiÅŸ mavi metalden bir atÄ±ÅŸ hanÃ§eri burada.
 ~
 metal~
 weapon GQ AN
@@ -1136,45 +1136,45 @@ metal dagger blue~
 The blue metal seems to stick to other metal objects.
 ~
 #17052
-alkol maşrapası~
-bir alkol maşrapası~
-Bir maşrapa dolusu köpüren alkol burada. Üşümeye karşı bire bir..
+alkol maÅŸrapasÄ±~
+bir alkol maÅŸrapasÄ±~
+Bir maÅŸrapa dolusu kÃ¶pÃ¼ren alkol burada. ÃœÅŸÃ¼meye karÅŸÄ± bire bir..
 ~
 unknown~
 potion G AO
 40 'refresh' 'harm' 'remove curse' ''
 30 3 1000 P
 #17053
-pelerin kürklü~
-kürklü bir pelerin~
-Beyaz kürklü bir pelerin burada.
+pelerin kÃ¼rklÃ¼~
+kÃ¼rklÃ¼ bir pelerin~
+Beyaz kÃ¼rklÃ¼ bir pelerin burada.
 ~
 fur~
 armor 0 AK
 26 26 26 20 0
 80 7 2000 p
 #17054
-yelek kürklü~
-kürklü bir yelek~
-Beyaz kürklü bir yelek burada.
+yelek kÃ¼rklÃ¼~
+kÃ¼rklÃ¼ bir yelek~
+Beyaz kÃ¼rklÃ¼ bir yelek burada.
 ~
 fur~
 armor 0 AD
 26 26 26 20 0
 80 5 5000 P
 #17055
-bacaklıklar kürklü~
-kürklü bacaklıklar~
-Beyaz kürklü bacaklıklar burada.
+bacaklÄ±klar kÃ¼rklÃ¼~
+kÃ¼rklÃ¼ bacaklÄ±klar~
+Beyaz kÃ¼rklÃ¼ bacaklÄ±klar burada.
 ~
 fur~
 armor 0 AF
 25 27 27 20 0
 80 8 5000 P
 #17056
-çivili küçük kalkan~
-çivili bir küçük kalkan~
-Çivili bir küçük kalkan burada.
+Ã§ivili kÃ¼Ã§Ã¼k kalkan~
+Ã§ivili bir kÃ¼Ã§Ã¼k kalkan~
+Ã‡ivili bir kÃ¼Ã§Ã¼k kalkan burada.
 ~
 unknown~
 armor 0 AJ
@@ -1185,9 +1185,9 @@ A
 A
 19 7
 #17057
-buz kalıbı~
-bir buz kalıbı~
-Bir buz kalıbı yerde erimekle meşgul..
+buz kalÄ±bÄ±~
+bir buz kalÄ±bÄ±~
+Bir buz kalÄ±bÄ± yerde erimekle meÅŸgul..
 ~
 ice~
 wand G AO
@@ -1196,34 +1196,34 @@ wand G AO
 #17058
 eriyik havuzu~
 eriyik havuzu~
-Buz gibi su ve erimekte olan buzdan oluşmuş bir havuz burada.
+Buz gibi su ve erimekte olan buzdan oluÅŸmuÅŸ bir havuz burada.
 ~
 ice~
 fountain 0 0
 1000 1000 0 0 0
 0 0 0 P
 #17059
-idam halatı~
-bir idam halatı~
-Uzun bir halat parçası yerde duruyor.
+idam halatÄ±~
+bir idam halatÄ±~
+Uzun bir halat parÃ§asÄ± yerde duruyor.
 ~
 metal~
 weapon 0 AN
 exotic 10 9 grep 0
 80 1 1000 P
 #17060
-taş hayalet~
-hayalet taş~
-(YARISAYDAM) Bir taş burada yerde duruyor.
+taÅŸ hayalet~
+hayalet taÅŸ~
+(YARISAYDAM) Bir taÅŸ burada yerde duruyor.
 ~
 stone~
 wand G AN
 40 5 5 'pass door' 0
 40 1 1000 P
 #17061
-çift el savaş baltası~
-kudretli bir çift el savaş baltası~
-Kudretli bir çift el savaş baltası tozun içine terk edilmiş.
+Ã§ift el savaÅŸ baltasÄ±~
+kudretli bir Ã§ift el savaÅŸ baltasÄ±~
+Kudretli bir Ã§ift el savaÅŸ baltasÄ± tozun iÃ§ine terk edilmiÅŸ.
 ~
 steel~
 weapon 0 AN
@@ -1232,9 +1232,9 @@ axe 11 11 chop DEF
 A
 19 10
 #17062
-zırh donmuş~
-donmuş bir zırh~
-Buzdan yapılmış bir zırh yerde eriyor.
+zÄ±rh donmuÅŸ~
+donmuÅŸ bir zÄ±rh~
+Buzdan yapÄ±lmÄ±ÅŸ bir zÄ±rh yerde eriyor.
 ~
 ice~
 armor FG AD
@@ -1258,9 +1258,9 @@ The armor is made from interlocking bands of ice, which overlap
 in a scale like fashion. The armor is cold to touch.
 ~
 #17063
-ayazısırığı ayaz ısırığı kılıç dondurucukış kılıcı~
-Kış kılıcı "AyazIsırığı"~
-Buzdan yapılmış uzun, tuhaf bir kılıç burada eriyor.
+ayazÄ±sÄ±rÄ±ÄŸÄ± ayaz Ä±sÄ±rÄ±ÄŸÄ± kÄ±lÄ±Ã§ dondurucukÄ±ÅŸ kÄ±lÄ±cÄ±~
+KÄ±ÅŸ kÄ±lÄ±cÄ± "AyazIsÄ±rÄ±ÄŸÄ±"~
+Buzdan yapÄ±lmÄ±ÅŸ uzun, tuhaf bir kÄ±lÄ±Ã§ burada eriyor.
 ~
 ice~
 weapon DFL AN
@@ -1283,45 +1283,45 @@ run through you as you think of the unbearable cold you would feel as
 this slid through your body.
 ~
 #17064
-çanta altın~
-bir çanta altın~
-Ağır, şişkin bir altın çantası burada duruyor.
+Ã§anta altÄ±n~
+bir Ã§anta altÄ±n~
+AÄŸÄ±r, ÅŸiÅŸkin bir altÄ±n Ã§antasÄ± burada duruyor.
 ~
 leather~
 money 0 A
 50000 0 0 0 0
 0 30 0 P
 #17065
-çanta gümüş~
-bir çanta gümüş~
-Ağır, şişkin bir gümüş çantası burada duruyor.
+Ã§anta gÃ¼mÃ¼ÅŸ~
+bir Ã§anta gÃ¼mÃ¼ÅŸ~
+AÄŸÄ±r, ÅŸiÅŸkin bir gÃ¼mÃ¼ÅŸ Ã§antasÄ± burada duruyor.
 ~
 leather~
 money 0 A
 25000 0 0 0 0
 0 30 0 P
 #17066
-çanta cevher~
-bir cevher çantası~
-Ağır, şişkin bir cevher çantası burada duruyor.
+Ã§anta cevher~
+bir cevher Ã§antasÄ±~
+AÄŸÄ±r, ÅŸiÅŸkin bir cevher Ã§antasÄ± burada duruyor.
 ~
 leather~
 money 0 A
 75000 0 0 0 0
 0 30 0 P
 #17067
-çanta mücevher~
-bir mücevher çantası~
-Ağır, şişkin bir mücevher çantası burada duruyor.
+Ã§anta mÃ¼cevher~
+bir mÃ¼cevher Ã§antasÄ±~
+AÄŸÄ±r, ÅŸiÅŸkin bir mÃ¼cevher Ã§antasÄ± burada duruyor.
 ~
 leather~
 money 0 A
 100000 0 0 0 0
 0 30 0 P
 #17068
-göz kem~
-kem göz~
-Kanlı bir göz burada seğiriyor.
+gÃ¶z kem~
+kem gÃ¶z~
+KanlÄ± bir gÃ¶z burada seÄŸiriyor.
 ~
 unknown~
 wand EG AO
@@ -1329,8 +1329,8 @@ wand EG AO
 40 1 4400 P
 #17069
 harita cehennemin dibi~
-Cehennemin Dibinin bir haritası~
-Yerde katlanmış bir harita var.
+Cehennemin Dibinin bir haritasÄ±~
+Yerde katlanmÄ±ÅŸ bir harita var.
 ~
 leather~
 trash 0 A
@@ -1341,9 +1341,9 @@ map hell's reef~
 >From southpoint, go 4n and 3w. There ye shall find a great treasure.
 ~
 #17070
-şenlik ateşi harlı~
-harlı bir şenlik ateşi~
-Harlı bir şenlik ateşi ışık saçarak burada yanıyor.
+ÅŸenlik ateÅŸi harlÄ±~
+harlÄ± bir ÅŸenlik ateÅŸi~
+HarlÄ± bir ÅŸenlik ateÅŸi Ä±ÅŸÄ±k saÃ§arak burada yanÄ±yor.
 ~
 unknown~
 trash ABQ 0
@@ -1385,7 +1385,7 @@ logs are piled near the winch for future use.
 ~
 S
 #17172
-Ormanın içinde~
+OrmanÄ±n iÃ§inde~
 You are in a dense tropical jungle. Towering trees block out the sun
 with a palm canopy. Around you are stumps and piles of delimbed trees.
 A small path winds into the jungle.
@@ -1407,7 +1407,7 @@ are gone.
 ~
 S
 #17173
-Ormanın içinde~
+OrmanÄ±n iÃ§inde~
 You are in a dense tropical jungle, on a cliff overlooking a wide sea.
 The green ocean crashes on the rocks far below. Around you some of the
 trees have buckets on them. A path leads back into the jungle.
@@ -1429,7 +1429,7 @@ sticky. You think it might make a good pitch for an ocean going vessel.
 ~
 S
 #17174
-Ormanın içinde~
+OrmanÄ±n iÃ§inde~
 You are in a dense tropical jungle at a junction of paths. You squat
 and look at the trail and see the fairly recent prints of a wild boar.
 The heavy humidity of the jungle is making you sweat profusely.
@@ -1449,7 +1449,7 @@ The jungle~
 0 -1 17173
 S
 #17175
-Ormanın içinde~
+OrmanÄ±n iÃ§inde~
 You are following a dirt path though a dense tropical jungle. Around you
 fruit is plentiful. A parrot above you caws as you stop.
 ~
@@ -1473,7 +1473,7 @@ princess *caw*, we have a nice little brig for ya *caw*'
 ~
 S
 #17176
-Ormanın içinde~
+OrmanÄ±n iÃ§inde~
 You are in a dense jungle. The overgrowth is terrible. You hate to
 think about what lives in the thorn thicket to the east. The trail
 stretches north and south.
@@ -1498,7 +1498,7 @@ more than a barricade of thorns, cleverly camouflaged.
 ~
 S
 #17177
-Bir Mağara Ağzı~
+Bir MaÄŸara AÄŸzÄ±~
 You have followed a trail to a mountain. Above you there is
 a mouth of a cave.
 ~
@@ -1518,7 +1518,7 @@ of a hole in the rock above the cave, indicating inhabitation.
 ~
 S
 #17178
-Ormanın içinde~
+OrmanÄ±n iÃ§inde~
 You are on a trail in a dense jungle, in front of a stake with a skull
 attached to it. The path continues along the trail.
 ~
@@ -1538,7 +1538,7 @@ the sloping brow ridge of a monkey.
 ~
 S
 #17179
-Vahşilerin Kampı~
+VahÅŸilerin KampÄ±~
 You have blundered into the camp of several savages. Rude huts and lean-to's
 are erected in a circular clearing. There is a central fire, upon which some
 animal is being roasted.
@@ -1562,7 +1562,7 @@ There is a monkey roasting on the fire.
 ~
 S
 #17180
-Vahşilerin Kampı~
+VahÅŸilerin KampÄ±~
 You have blundered into the camp of several savages. Rude huts and lean-to's
 are erected in a circular clearing. A tree is being hollowed out for a canoe
 with fire and shell axes.
@@ -1582,7 +1582,7 @@ The canoe has a long way to go.
 ~
 S
 #17181
-Vahşilerin Kampı~
+VahÅŸilerin KampÄ±~
 You have blundered into the camp of several savages. Rude huts and lean-to's
 are erected in a circular clearing. Fish is being dried over a smoky pit.
 ~
@@ -1601,7 +1601,7 @@ The fish looks like its tarpon.
 ~
 S
 #17182
-Vahşilerin Kampı~
+VahÅŸilerin KampÄ±~
 You have blundered into the camp of several savages. Rude huts and lean-to's
 are erected in a circular clearing. Women are fashioning baskets here.
 ~
@@ -1620,7 +1620,7 @@ Several fat, toothless, naked women are twisting palm fronds into baskets.
 ~
 S
 #17183
-Mağaranın Eşiği~
+MaÄŸaranÄ±n EÅŸiÄŸi~
 You are at the entryway to a vast cave, crammed to the ceiling with
 miscellaneous cargo boxes. Pallets lie here and there, marking each pirates
 own little area. A trail winds down the mountain, or you can go further
@@ -1649,7 +1649,7 @@ Down the trail~
 0 -1 17177
 S
 #17184
-Mağaranın Eşiği~
+MaÄŸaranÄ±n EÅŸiÄŸi~
 You are at the entryway to a vast cave, crammed to the ceiling with
 miscellaneous cargo boxes. Pallets lie here and there, marking each pirates
 own little area.
@@ -1665,7 +1665,7 @@ The entryway~
 0 -1 17183
 S
 #17185
-Mağaranın Eşiği~
+MaÄŸaranÄ±n EÅŸiÄŸi~
 You are at the entryway to a vast cave, crammed to the ceiling with
 miscellaneous cargo boxes. Pallets lie here and there, marking each pirates
 own little area.
@@ -1681,7 +1681,7 @@ Inside the cave~
 0 -1 17188
 S
 #17186
-Mağaranın İçi~
+MaÄŸaranÄ±n Ä°Ã§i~
 You are inside the pirates cave. Around you the riches of many a raid
 lie piled in heaps. Drunken pirates cavort and sing bawdy songs. Torches
 cast menacing shadows on the ceiling.
@@ -1701,7 +1701,7 @@ The entryway~
 0 -1 17184
 S
 #17187
-Mağaranın İçi~
+MaÄŸaranÄ±n Ä°Ã§i~
 You are inside the pirates cave. Around you the riches of many a raid
 lie piled in heaps. Drunken pirates cavort and sing bawdy songs. A huge
 sunken fire pit roars here.
@@ -1725,7 +1725,7 @@ The entryway~
 0 -1 17183
 S
 #17188
-Mağaranın İçi~
+MaÄŸaranÄ±n Ä°Ã§i~
 You are inside the pirates cave. Around you the riches of many a raid
 lie piled in heaps. Drunken pirates cavort and sing bawdy songs. Torches
 cast menacing shadows on the ceiling.
@@ -1745,7 +1745,7 @@ The entryway~
 0 -1 17185
 S
 #17189
-Mağaranın İçi~
+MaÄŸaranÄ±n Ä°Ã§i~
 You are inside the pirates cave. Around you the riches of many a raid
 lie piled in heaps. Drunken pirates cavort and sing bawdy songs. Torches
 cast menacing shadows on the ceiling.
@@ -1761,7 +1761,7 @@ Inside the cave~
 0 -1 17186
 S
 #17190
-Korsan Lordunun Taht Odası~
+Korsan Lordunun Taht OdasÄ±~
 You stand before the throne of the Pirate Lord. Slave women are chained
 at the feet of the throne to serve the every whim of their lord. The
 throne rests on a beautiful oriental carpet. Behind the throne, iron rungs
@@ -1794,7 +1794,7 @@ As you examine the carpet, you discover a secret trap door!
 ~
 S
 #17191
-Mağaranın İçi~
+MaÄŸaranÄ±n Ä°Ã§i~
 You are inside the pirates cave. Around you the riches of many a raid
 lie piled in heaps. Drunken pirates cavort and sing bawdy songs. Torches
 cast menacing shadows on the ceiling.
@@ -1814,7 +1814,7 @@ D3
 0 -1 17188
 S
 #17192
-Karanlık Hapishanenin İçi~
+KaranlÄ±k Hapishanenin Ä°Ã§i~
 You stand ankle deep in festering refuse. The sludge reeks and stains
 the walls. In the corner an attempt has been made to make a pallet high
 enough to stay out of the sewage.
@@ -1826,7 +1826,7 @@ trapdoor trap door rug oriental carpet~
 1 0 17190
 S
 #17193
-Bir Dağ Doruğu~
+Bir DaÄŸ DoruÄŸu~
 You stand high atop the mountain, overlooking the seas of the pirate
 lords. The wind blows through your hair, cleansing the foul odors you
 have had to endure. Waves break on the rocks around the tropical island.
@@ -1840,7 +1840,7 @@ Down the iron rungs~
 0 -1 17190
 S
 #17194
-Sessiz bir Körfez~
+Sessiz bir KÃ¶rfez~
 You sail on a quiet cove, where the waters are a brilliant turquoise.
 To the south of you the cove enters a dark cave in the looming black
 mountain. The water is so clear, you can see the bottom.
@@ -1851,7 +1851,7 @@ Into the cave~
 ~
 0 -1 17211
 D4
-Girdabın İçerisi~
+GirdabÄ±n Ä°Ã§erisi~
 ~
 0 -1 17271
 E
@@ -1898,7 +1898,7 @@ The beach~
 0 -1 17203
 S
 #17197
-Kara Dağ'a Tırmanış~
+Kara DaÄŸ'a TÄ±rmanÄ±ÅŸ~
 You are climbing on the steep slopes of a black rock mountain. Hot searing
 gas bursts from vents around you. From this vantage you have a commanding
 view of the seas and black sand beach.
@@ -1929,7 +1929,7 @@ ruin.
 ~
 S
 #17198
-Kara Dağ'a Tırmanış~
+Kara DaÄŸ'a TÄ±rmanÄ±ÅŸ~
 You are climbing on the steep slopes of a black rock mountain. Hot searing
 gas bursts from vents around you. To the south of you, you can climb up and
 over the rim of the black mountain. To the north stretches a calm cove.
@@ -1949,7 +1949,7 @@ The mountain~
 0 -1 17197
 S
 #17199
-Kara Dağ'a Tırmanış~
+Kara DaÄŸ'a TÄ±rmanÄ±ÅŸ~
 You are climbing on the steep slopes of a black rock mountain. Hot searing
 gas bursts from vents around you. From this vantage you have a commanding
 view of the red hot lava flows. The lava seems to be flowing steadily from
@@ -1974,7 +1974,7 @@ The mountain~
 0 -1 17198
 S
 #17200
-Lav Akıntılarının içinde bir Yürüyüş~
+Lav AkÄ±ntÄ±larÄ±nÄ±n iÃ§inde bir YÃ¼rÃ¼yÃ¼ÅŸ~
 You are walking the shiny black lava flows that flow from the mountain
 down into the sea, being careful to avoid the gas vents and hot lava.
 There are plenty of exits into the mountain, but none of them look safe.
@@ -1994,7 +1994,7 @@ You look into one of the fissures, and watch two lava worms mating.
 ~
 S
 #17201
-Lav Akıntılarının içinde bir Yürüyüş~
+Lav AkÄ±ntÄ±larÄ±nÄ±n iÃ§inde bir YÃ¼rÃ¼yÃ¼ÅŸ~
 You are walking the shiny black lava flows that flow from the mountain
 down into the sea, being careful to avoid the gas vents and hot lava.
 There are plenty of exits into the mountain, but none of them look safe.
@@ -2012,7 +2012,7 @@ The lava flows~
 0 -1 17200
 S
 #17202
-Lav Akıntılarının içinde bir Yürüyüş~
+Lav AkÄ±ntÄ±larÄ±nÄ±n iÃ§inde bir YÃ¼rÃ¼yÃ¼ÅŸ~
 You are walking the shiny black lava flows that flow from the mountain
 down into the sea, being careful to avoid the gas vents and hot lava.
 There are plenty of exits into the mountain, but none of them look safe.
@@ -2075,7 +2075,7 @@ On the seas surrounding an atoll~
 0 -1 17221
 S
 #17205
-Kara Dağ'a Tırmanış~
+Kara DaÄŸ'a TÄ±rmanÄ±ÅŸ~
 You are climbing on the steep slopes of a black rock mountain. Hot searing
 gas bursts from vents around you. Below you and to the west are the black
 sand beaches. If you climb up to the east, you can go over the rim. You
@@ -2100,7 +2100,7 @@ The beach~
 0 -1 17204
 S
 #17206
-Kara Dağ'a Tırmanış~
+Kara DaÄŸ'a TÄ±rmanÄ±ÅŸ~
 You are climbing on the steep slopes of a black rock mountain. Hot searing
 gas bursts from vents around you. The mountain drops steeply into a churning
 sea below, much too dangerous to descend. Wind whips around the mountain
@@ -2118,7 +2118,7 @@ The mountain~
 0 -1 17207
 S
 #17207
-Kara Dağ'a Tırmanış~
+Kara DaÄŸ'a TÄ±rmanÄ±ÅŸ~
 You are climbing on the steep slopes of a black rock mountain. Hot searing
 gas bursts from vents around you. The mountain drops steeply into a churning
 sea below, much too dangerous to descend. Down and to your north, you can
@@ -2140,7 +2140,7 @@ The mountain~
 0 -1 17206
 S
 #17208
-Kara Dağ'a Tırmanış~
+Kara DaÄŸ'a TÄ±rmanÄ±ÅŸ~
 You are climbing on the steep slopes of a black rock mountain. Hot searing
 gas bursts from vents around you. The mountain drops steeply into a churning
 sea below, much too dangerous to descend. Far below a blowhole spurts over
@@ -2157,7 +2157,7 @@ The mountain~
 0 -1 17207
 S
 #17209
-Kara Dağ'a Tırmanış~
+Kara DaÄŸ'a TÄ±rmanÄ±ÅŸ~
 You are climbing on the steep slopes of a black rock mountain. Hot searing
 gas bursts from vents around you. The mountain drops steeply into a churning
 sea below, much too dangerous to descend. You can climb up to your west
@@ -2191,7 +2191,7 @@ Up the southern path~
 ~
 0 -1 17207
 D4
-Havada Süzülürken~
+Havada SÃ¼zÃ¼lÃ¼rken~
 ~
 0 -1 17241
 D5
@@ -2200,7 +2200,7 @@ hatch~
 1 0 17218
 S
 #17211
-Su Mağarası~
+Su MaÄŸarasÄ±~
 You float on a quiet cove inside a cave. Light from the northern exit
 bounces off the lapping waves and dances along the cavern ceiling. Docked
 are two triremes, showing the scars of many a battle. A stone staircase
@@ -2222,7 +2222,7 @@ better of it, and leave well enough alone.
 ~
 S
 #17212
-Korsan İninin İçi~
+Korsan Ä°ninin Ä°Ã§i~
 You are in the caverns inhabited by the pirates of Fire Island. The walls
 bear torch sconces, which light everything in a flickering orange glow. Warm
 air circulates to you from the south. From below you can hear the sounds of
@@ -2248,7 +2248,7 @@ Down the winding stone staircase~
 0 -1 17211
 S
 #17213
-Yük Oyuğu~
+YÃ¼k OyuÄŸu~
 You stand in the dimly lit cargo cavern, where boxes and crates of various
 goods have been racked and stacked in orderly rows. All of the boxes bear
 the stamp of different owners, never having reached their intended
@@ -2279,7 +2279,7 @@ gate~
 1 17021 17212
 S
 #17215
-Korsan İninin İçi~
+Korsan Ä°ninin Ä°Ã§i~
 You are in the caverns inhabited by the pirates of Fire Island. The walls
 bear torch sconces, which light everything in a flickering orange glow. Warm
 air circulates to you from the south. The natural passage seems to have
@@ -2303,7 +2303,7 @@ painting is titled 'Ellnallhalla by Lalila'
 ~
 S
 #17216
-Korsan İninin İçi~
+Korsan Ä°ninin Ä°Ã§i~
 You are in the caverns inhabited by the pirates of Fire Island. The walls
 bear torch sconces, which light everything in a flickering orange glow. Warm
 air circulates to you from the east. The natural passage seems to have
@@ -2320,7 +2320,7 @@ Caverns~
 0 -1 17217
 S
 #17217
-Korsan İninin İçi~
+Korsan Ä°ninin Ä°Ã§i~
 You are in the caverns inhabited by the pirates of Fire Island. The walls
 bear torch sconces, which light everything in a flickering orange glow. Warm
 air circulates to you from the south. The natural passage seems to have been
@@ -2338,7 +2338,7 @@ Caverns~
 0 -1 17216
 S
 #17218
-Korsan Lordunun Holü~
+Korsan Lordunun HolÃ¼~
 You stand in the hall of the pirate lord. Above on a dias is a desk and
 a chair. Where you are is a table with 9 chairs around it. On the walls
 are charts of the seas, and various mounted fish. To the east is a barracks
@@ -2348,7 +2348,7 @@ scurry when you enter the room.
 ~
 0 8 0
 D0
-Korsan İninin İçi~
+Korsan Ä°ninin Ä°Ã§i~
 ~
 0 -1 17217
 D1
@@ -2378,7 +2378,7 @@ The hall~
 0 -1 17218
 S
 #17220
-Karanlık bir Mağara~
+KaranlÄ±k bir MaÄŸara~
 You stand in a dimly lit dark cave. There is a cot in the corner, and
 a trunk on the floor. The room is very hot, oppressively so. The walls
 bear strange scratches.
@@ -2395,7 +2395,7 @@ of an old growth forest.
 ~
 S
 #17221
-Bir Mercanadasını Çevreleyen Deniz~
+Bir MercanadasÄ±nÄ± Ã‡evreleyen Deniz~
 You have sailed into seas surrounding a rocky atoll. The surf crashes
 on the sharp jagged rocks, preventing a landing.
 ~
@@ -2418,7 +2418,7 @@ houses on stilts.
 ~
 S
 #17222
-Bir Mercanadasını Çevreleyen Deniz~
+Bir MercanadasÄ±nÄ± Ã‡evreleyen Deniz~
 You have sailed into seas surrounding a rocky atoll. The surf crashes
 on the sharp jagged rocks, preventing a landing. Sharks abound in these
 waters.
@@ -2442,7 +2442,7 @@ houses on stilts.
 ~
 S
 #17223
-Bir Mercanadasını Çevreleyen Deniz~
+Bir MercanadasÄ±nÄ± Ã‡evreleyen Deniz~
 You have sailed into seas surrounding a rocky atoll. The surf crashes
 on the sharp jagged rocks, preventing a landing. You think you see the
 glint of gold on the rocks, but when you blink, its gone.
@@ -2466,7 +2466,7 @@ houses on stilts.
 ~
 S
 #17224
-Bir Mercanadasını Çevreleyen Deniz~
+Bir MercanadasÄ±nÄ± Ã‡evreleyen Deniz~
 You have sailed into seas surrounding a rocky atoll. The surf crashes
 on the sharp jagged rocks, preventing a landing. Large single clawed
 crabs cover the rocks.
@@ -2490,7 +2490,7 @@ houses on stilts.
 ~
 S
 #17225
-Bir Mercanadasını Çevreleyen Deniz~
+Bir MercanadasÄ±nÄ± Ã‡evreleyen Deniz~
 You have sailed into seas surrounding a rocky atoll. The surf crashes
 on the sharp jagged rocks, preventing a landing. You trail your toe along
 in the water and feel a westerly current.
@@ -2514,7 +2514,7 @@ houses on stilts.
 ~
 S
 #17226
-Bir Mercanadasını Çevreleyen Deniz~
+Bir MercanadasÄ±nÄ± Ã‡evreleyen Deniz~
 You have sailed into seas surrounding a rocky atoll. The surf crashes
 on the sharp jagged rocks, preventing a landing. There on the rocks is
 what remains of a shattered galley.
@@ -2538,7 +2538,7 @@ houses on stilts.
 ~
 S
 #17227
-Bir Mercanadasını Çevreleyen Deniz~
+Bir MercanadasÄ±nÄ± Ã‡evreleyen Deniz~
 You have sailed into seas surrounding a rocky atoll. The surf crashes
 on the sharp jagged rocks, preventing a landing. You watch the gulls
 peck apart some jelly creature on the rocks.
@@ -2562,7 +2562,7 @@ houses on stilts.
 ~
 S
 #17228
-Bir Mercanadasını Çevreleyen Deniz~
+Bir MercanadasÄ±nÄ± Ã‡evreleyen Deniz~
 You have sailed into seas surrounding a rocky atoll. The surf crashes
 on the sharp jagged rocks, preventing a landing. Here the waves are
 choppy and you taste the salt spray on your lips.
@@ -2586,7 +2586,7 @@ houses on stilts.
 ~
 S
 #17229
-Bir Mercanadasını Çevreleyen Deniz~
+Bir MercanadasÄ±nÄ± Ã‡evreleyen Deniz~
 You have sailed into seas surrounding a rocky atoll. The surf crashes
 on the sharp jagged rocks, preventing a landing. Refuse floats in the
 water, drifting alongside the boat.
@@ -2617,7 +2617,7 @@ thunder reef....'
 ~
 S
 #17230
-Bir Mercanadasını Çevreleyen Deniz~
+Bir MercanadasÄ±nÄ± Ã‡evreleyen Deniz~
 You have sailed into seas surrounding a rocky atoll. The surf crashes
 on the sharp jagged rocks, preventing a landing. You get the feeling you
 have been here before.
@@ -2641,7 +2641,7 @@ houses on stilts.
 ~
 S
 #17231
-Gölcüğün Girişi~
+GÃ¶lcÃ¼ÄŸÃ¼n GiriÅŸi~
 You have sailed into seas surrounding a rocky atoll. The surf crashes
 on the sharp jagged rocks, preventing a landing. The lagoon opens up to
 the south, and a mild current pulls you that way.
@@ -2669,7 +2669,7 @@ houses on stilts.
 ~
 S
 #17232
-Bir Mercanadasını Çevreleyen Deniz~
+Bir MercanadasÄ±nÄ± Ã‡evreleyen Deniz~
 You have sailed into seas surrounding a rocky atoll. The surf crashes
 on the sharp jagged rocks, preventing a landing. What was that sailing
 song anyway?
@@ -2693,7 +2693,7 @@ houses on stilts.
 ~
 S
 #17233
-Bir Mercanadasını Çevreleyen Deniz~
+Bir MercanadasÄ±nÄ± Ã‡evreleyen Deniz~
 You have sailed into seas surrounding a rocky atoll. The surf crashes
 on the sharp jagged rocks, preventing a landing. There, crawling over
 the rotting carcass of a human, is a dis-Z, a rare offensive scavenger.
@@ -2717,7 +2717,7 @@ houses on stilts.
 ~
 S
 #17234
-Bir Mercanadasını Çevreleyen Deniz~
+Bir MercanadasÄ±nÄ± Ã‡evreleyen Deniz~
 You have sailed into seas surrounding a rocky atoll. The surf crashes
 on the sharp jagged rocks, preventing a landing. All of this salt water
 is making you thirsty.
@@ -2741,7 +2741,7 @@ houses on stilts.
 ~
 S
 #17235
-Bir Mercanadasını Çevreleyen Deniz~
+Bir MercanadasÄ±nÄ± Ã‡evreleyen Deniz~
 You have sailed into seas surrounding a rocky atoll. The surf crashes
 on the sharp jagged rocks, preventing a landing. For some reason the
 fish are milling around here.
@@ -2761,7 +2761,7 @@ houses on stilts.
 ~
 S
 #17236
-Sessiz Gölcük~
+Sessiz GÃ¶lcÃ¼k~
 Your boat gently rocks in the quiet lagoon of the atoll. Around you
 are docked the ships of the pirate lords. Each ship is tied to a
 pile sunk deep into the lagoon, and rope bridges connect all into
@@ -2779,7 +2779,7 @@ The shacks on stilts~
 0 -1 17237
 S
 #17237
-Merkez Barakanın İçi~
+Merkez BarakanÄ±n Ä°Ã§i~
 You have climbed a rope bridge and entered the central shack of
 the pirates complex. Below you though the cracks in the flooring
 you can see the waves lapping at the support piles. To the west
@@ -2819,7 +2819,7 @@ The central shack~
 0 -1 17237
 S
 #17239
-Parmaklıklı Barakanın İçi~
+ParmaklÄ±klÄ± BarakanÄ±n Ä°Ã§i~
 You stand in a shack on piles, crammed to the ceiling with cargo from
 many a raid. Chests, crates, bolts of cloth, furs, weapons, plates, and
 a vast array of other items fills this area. Shackles have been affixed
@@ -2832,7 +2832,7 @@ The central shack~
 1 -1 17237
 S
 #17240
-Sırıklar Üzerine Yapılmış Evin İçi~
+SÄ±rÄ±klar Ãœzerine YapÄ±lmÄ±ÅŸ Evin Ä°Ã§i~
 You have entered the house of the pirate lord. On the walls are momentos
 of his various raids. Here a sword. There a skirt. From the ceiling, a flag.
 Hides of many different animals are nailed to the walls and floor. Maps
@@ -2849,7 +2849,7 @@ The flag is that of Antharia.
 ~
 S
 #17241
-Uçan Dağ'ın Aşağısında - Havada süzülürken~
+UÃ§an DaÄŸ'Ä±n AÅŸaÄŸÄ±sÄ±nda - Havada sÃ¼zÃ¼lÃ¼rken~
 You soar in the turbulent air beneath the flying mountain. Wind
 whips and whistles in fierce blasting gusts sending you in all
 directions.
@@ -2881,7 +2881,7 @@ On the water~
 0 -1 6114
 S
 #17242
-Uçan Dağ'ın Aşağısında - Havada süzülürken~
+UÃ§an DaÄŸ'Ä±n AÅŸaÄŸÄ±sÄ±nda - Havada sÃ¼zÃ¼lÃ¼rken~
 You soar in the turbulent air beneath the flying mountain. Wind
 whips and whistles in fierce blasting gusts sending you in all
 directions.
@@ -2913,7 +2913,7 @@ In the air~
 0 -1 17244
 S
 #17243
-Uçan Dağ'ın Aşağısında - Havada süzülürken~
+UÃ§an DaÄŸ'Ä±n AÅŸaÄŸÄ±sÄ±nda - Havada sÃ¼zÃ¼lÃ¼rken~
 You soar in the turbulent air beneath the flying mountain. Wind
 whips and whistles in fierce blasting gusts sending you in all
 directions.
@@ -2945,7 +2945,7 @@ In the air~
 0 -1 17245
 S
 #17244
-Uçan Dağ'ın Aşağısında - Havada süzülürken~
+UÃ§an DaÄŸ'Ä±n AÅŸaÄŸÄ±sÄ±nda - Havada sÃ¼zÃ¼lÃ¼rken~
 You soar in the turbulent air beneath the flying mountain. Wind
 whips and whistles in fierce blasting gusts sending you in all
 directions.
@@ -2977,7 +2977,7 @@ In the air~
 0 -1 17243
 S
 #17245
-Uçan Dağ'ın Aşağısında - Havada süzülürken~
+UÃ§an DaÄŸ'Ä±n AÅŸaÄŸÄ±sÄ±nda - Havada sÃ¼zÃ¼lÃ¼rken~
 You soar in the turbulent air beneath the flying mountain. Wind
 whips and whistles in fierce blasting gusts sending you in all
 directions.
@@ -3009,7 +3009,7 @@ In the air~
 0 -1 17241
 S
 #17246
-Uçan Dağ'ın Aşağısında - Havada süzülürken~
+UÃ§an DaÄŸ'Ä±n AÅŸaÄŸÄ±sÄ±nda - Havada sÃ¼zÃ¼lÃ¼rken~
 You soar in the turbulent air beneath the flying mountain. Wind
 whips and whistles in fierce blasting gusts sending you in all
 directions.
@@ -3041,7 +3041,7 @@ In the air~
 0 -1 17242
 S
 #17247
-Uçan Dağ'ın Aşağısında - Durgun Havada süzülürken~
+UÃ§an DaÄŸ'Ä±n AÅŸaÄŸÄ±sÄ±nda - Durgun Havada sÃ¼zÃ¼lÃ¼rken~
 You soar effortlessly in the calm air beneath the flying mountain.
 Below you through the turbulent winds lies the sea. Here in the
 thick rock of the mountain you sea caves which serve as nests for
@@ -3062,7 +3062,7 @@ In the turbulent air~
 0 -1 17246
 S
 #17248
-Uçan Dağ'ın Aşağısında - Durgun Havada süzülürken~
+UÃ§an DaÄŸ'Ä±n AÅŸaÄŸÄ±sÄ±nda - Durgun Havada sÃ¼zÃ¼lÃ¼rken~
 You soar effortlessly in the calm air beneath the flying mountain.
 Below you through the turbulent winds lies the sea. You notice a
 strange inscription on the rock.
@@ -3095,7 +3095,7 @@ for I know not how long this enchantment will last. - MERLIN'
 ~
 S
 #17249
-Uçan Dağ'ın Aşağısında - Durgun Havada süzülürken~
+UÃ§an DaÄŸ'Ä±n AÅŸaÄŸÄ±sÄ±nda - Durgun Havada sÃ¼zÃ¼lÃ¼rken~
 You soar effortlessly in the calm air beneath the flying mountain.
 Below you through the turbulent winds lies the sea. Here, much to
 your irritation, hangs the dangling end of the rope ladder.
@@ -3115,7 +3115,7 @@ Up the rope ladder~
 0 -1 17251
 S
 #17250
-Uçan Dağ'ın Aşağısında - Durgun Havada süzülürken~
+UÃ§an DaÄŸ'Ä±n AÅŸaÄŸÄ±sÄ±nda - Durgun Havada sÃ¼zÃ¼lÃ¼rken~
 You soar effortlessly in the calm air beneath the flying mountain.
 Below you through the turbulent winds lies the sea. About you, cradled
 in iron chain slings which run up to a massive winch mechanism are
@@ -3132,7 +3132,7 @@ In the calm air~
 0 -1 17247
 S
 #17251
-Uçan Dağ'ın Üzerinde~
+UÃ§an DaÄŸ'Ä±n Ãœzerinde~
 You stand on the firm ground of the flying mountain. You are so high
 that clouds drift across the island like thick fog banks. Far below
 you shines the seas of the Pirate Lords. In the center of the island
@@ -3153,7 +3153,7 @@ D5
 0 -1 17249
 S
 #17252
-Uçan Dağ'ın Üzerinde~
+UÃ§an DaÄŸ'Ä±n Ãœzerinde~
 You stand on the firm ground of the flying mountain. You are so high
 that clouds drift across the island like thick fog banks. To the north
 of you is the granite keep, and south, at the island's edge, is a rope
@@ -3178,7 +3178,7 @@ On the flying island~
 0 -1 17254
 S
 #17253
-Uçan Dağ'ın Üzerinde~
+UÃ§an DaÄŸ'Ä±n Ãœzerinde~
 You stand on the firm ground of the flying mountain. You are so high
 that clouds drift across the island like thick fog banks. Far below
 you shines the seas of the Pirate Lords. In the center of the island
@@ -3196,7 +3196,7 @@ On the flying island~
 0 -1 17252
 S
 #17254
-Uçan Dağ'ın Üzerinde~
+UÃ§an DaÄŸ'Ä±n Ãœzerinde~
 You stand on the firm ground of the flying mountain. You are so high
 that clouds drift across the island like thick fog banks. Far below
 you shines the seas of the Pirate Lords. In the center of the island
@@ -3214,7 +3214,7 @@ On the flying island~
 0 -1 17252
 S
 #17255
-Uçan Dağ'ın Üzerinde~
+UÃ§an DaÄŸ'Ä±n Ãœzerinde~
 You stand on the firm ground of the flying mountain. You are so high
 that clouds drift across the island like thick fog banks. Far below
 you shines the seas of the Pirate Lords. In the center of the island
@@ -3232,7 +3232,7 @@ On the flying island~
 0 -1 17254
 S
 #17256
-Uçan Dağ'ın Üzerinde~
+UÃ§an DaÄŸ'Ä±n Ãœzerinde~
 You stand on the firm ground of the flying mountain. You are so high
 that clouds drift across the island like thick fog banks. Up a wide
 paved ramp stands the looming hold of the 4th Pirate Lord.
@@ -3260,7 +3260,7 @@ Up the ramp to the keep~
 0 -1 17259
 S
 #17257
-Uçan Dağ'ın Üzerinde~
+UÃ§an DaÄŸ'Ä±n Ãœzerinde~
 You stand on the firm ground of the flying mountain. You are so high
 that clouds drift across the island like thick fog banks. Far below
 you shines the seas of the Pirate Lords. In the center of the island
@@ -3274,7 +3274,7 @@ On the flying island~
 0 -1 17256
 S
 #17258
-Uçan Dağ'ın Üzerinde~
+UÃ§an DaÄŸ'Ä±n Ãœzerinde~
 You stand on the firm ground of the flying mountain. You are so high
 that clouds drift across the island like thick fog banks. Far below
 you shines the seas of the Pirate Lords. In the center of the island
@@ -3292,7 +3292,7 @@ On the flying island~
 0 -1 17256
 S
 #17259
-Bir Yerleşimin Kapılarının Önü~
+Bir YerleÅŸimin KapÄ±larÄ±nÄ±n Ã–nÃ¼~
 You stand at the top of a long paved ramp. To the south of you is the
 massive wooden gate to the keep. After examination of the door you can
 open it if you slide a slender object through the gap and lift the
@@ -3302,7 +3302,7 @@ ground next to you.
 0 0 4
 D2
 Inside the keep~
-kapı~
+kapÄ±~
 1 0 17260
 D5
 Down the ramp~
@@ -3315,7 +3315,7 @@ Above you is a second floor.
 ~
 S
 #17260
-Korsan Lordunun Barınağının İçi~
+Korsan Lordunun BarÄ±naÄŸÄ±nÄ±n Ä°Ã§i~
 You are in a long hallway inside the hold. Granite walls rise up around you.
 Torches flicker and gutter in iron holders. Several doors line the hall. Far
 to your south is a massive double door. To your north is the keep entrance.
@@ -3339,7 +3339,7 @@ door~
 1 -1 17262
 S
 #17261
-Barınakta bir Oda~
+BarÄ±nakta bir Oda~
 You are in a sparsely furnished room, obviously occupied by men at arms.
 Low pallets are on the north and south walls. A small fire glows in
 a pit in the room center, and the smoke winds its way upward and out
@@ -3353,7 +3353,7 @@ door~
 1 -1 17260
 S
 #17262
-Barınakta bir Oda~
+BarÄ±nakta bir Oda~
 You are in a sparsely furnished room, obviously occupied by men at arms.
 Low pallets are on the north and south walls. A small fire glows in
 a pit in the room center, and the smoke winds its way upward and out
@@ -3367,7 +3367,7 @@ door~
 1 -1 17260
 S
 #17263
-Korsan Lordunun Barınağının İçi~
+Korsan Lordunun BarÄ±naÄŸÄ±nÄ±n Ä°Ã§i~
 You are in a long hallway inside the hold. Granite walls rise up around you.
 Torches flicker and gutter in iron holders. Several doors line the hall. To
 your south is a massive double door. To your north is the keep entrance.
@@ -3391,7 +3391,7 @@ door~
 1 -1 17265
 S
 #17264
-Barınakta bir Oda~
+BarÄ±nakta bir Oda~
 You are in a sparsely furnished room, obviously occupied by men at arms.
 Low pallets are on the north and south walls. A small fire glows in
 a pit in the room center, and the smoke winds its way upward and out
@@ -3405,7 +3405,7 @@ door~
 1 -1 17263
 S
 #17265
-Barınakta bir Oda~
+BarÄ±nakta bir Oda~
 You are in a sparsely furnished room, obviously occupied by men at arms.
 Low pallets are on the north and south walls. A small fire glows in
 a pit in the room center, and the smoke winds its way upward and out
@@ -3419,7 +3419,7 @@ door~
 1 -1 17263
 S
 #17266
-Korsan Lordunun Barınağının İçi~
+Korsan Lordunun BarÄ±naÄŸÄ±nÄ±n Ä°Ã§i~
 You are in a long hallway inside the hold. Granite walls rise up around you.
 Torches flicker and gutter in iron holders. Several doors line the hall. Far
 to your north is the keep entrance. Immediately south is a large pair of
@@ -3444,7 +3444,7 @@ door~
 1 -1 17268
 S
 #17267
-Barınakta bir Oda~
+BarÄ±nakta bir Oda~
 You are in a sparsely furnished room, obviously occupied by men at arms.
 Low pallets are on the north and south walls. A small fire glows in
 a pit in the room center, and the smoke winds its way upward and out
@@ -3462,7 +3462,7 @@ door~
 1 -1 17266
 S
 #17268
-Barınakta bir Oda~
+BarÄ±nakta bir Oda~
 You are in a sparsely furnished room, obviously occupied by men at arms.
 Low pallets are on the north and south walls. A small fire glows in
 a pit in the room center, and the smoke winds its way upward and out
@@ -3476,7 +3476,7 @@ door~
 1 -1 17266
 S
 #17269
-Korsan Lordunun Geniş Salonu~
+Korsan Lordunun GeniÅŸ Salonu~
 You stand in the vast hall of the 4th Pirate Lord. Tables are grouped
 in the northern section, upon which are heaped the scraps and leftovers
 of a recent meal. Two stone hearths are ablaze on the eastern and western
@@ -3495,7 +3495,7 @@ Up the stairs~
 0 -1 17270
 S
 #17270
-Korsan Lordunun Özel Bölmeleri~
+Korsan Lordunun Ã–zel BÃ¶lmeleri~
 Here, at the top of the stairway, on the entire second floor is the
 private quarters of the Pirate Lord. On the eastern and western walls
 fires blaze. To the south is the canopied bed of the Lord, and here
@@ -3509,7 +3509,7 @@ Down the stairs~
 0 -1 17269
 S
 #17271
-Buz Denizi'nde İlerlerken~
+Buz Denizi'nde Ä°lerlerken~
 You are sailing the sea of ice. The channel is poor at best, with
 ice pressing in on all sides. Far to your east is a huge iceberg.
 The wind whips along unhindered across the flat ice, chilling you
@@ -3530,7 +3530,7 @@ New Thalos~
 0 -1 570
 S
 #17272
-Buz Denizi'nde İlerlerken~
+Buz Denizi'nde Ä°lerlerken~
 You are sailing the sea of ice. The channel is poor at best, with
 ice pressing in on all sides. Large footprints lead off towards a
 snowbank. The wind whips along unhindered across the flat ice,
@@ -3547,7 +3547,7 @@ The sea of ice~
 0 -1 17271
 S
 #17273
-Buz Denizi'nde İlerlerken~
+Buz Denizi'nde Ä°lerlerken~
 You are sailing the sea of ice. The channel is poor at best, with
 ice pressing in on all sides. Far to your south is a huge iceberg.
 The wind whips along unhindered across the flat ice, chilling you
@@ -3564,7 +3564,7 @@ The sea of ice~
 0 -1 17272
 S
 #17274
-Buz Denizi'nde İlerlerken~
+Buz Denizi'nde Ä°lerlerken~
 You are sailing the sea of ice. The channel is poor at best, with
 ice pressing in on all sides. White seals lie in droves on the shore.
 The wind whips along unhindered across the flat ice, chilling you
@@ -3581,7 +3581,7 @@ The sea of ice~
 0 -1 17273
 S
 #17275
-Buz Denizi'nde İlerlerken~
+Buz Denizi'nde Ä°lerlerken~
 You are sailing the sea of ice. The channel is poor at best, with
 ice pressing in on all sides. Far to your west is a huge iceberg.
 The wind whips along unhindered across the flat ice, chilling you
@@ -3598,7 +3598,7 @@ The sea of ice~
 0 -1 17276
 S
 #17276
-Buz Denizi'nde İlerlerken~
+Buz Denizi'nde Ä°lerlerken~
 You are sailing the sea of ice. The channel is poor at best, with
 ice pressing in on all sides. The iceberg looms closer with each day.
 The wind whips along unhindered across the flat ice, chilling you
@@ -3615,7 +3615,7 @@ The sea of ice~
 0 -1 17277
 S
 #17277
-Buz Denizi'nde İlerlerken~
+Buz Denizi'nde Ä°lerlerken~
 You are sailing the sea of ice. Ahead the narrow channel widens next
 to a very large iceberg. Ice shears in sheets from the iceberg to crash
 with a thunderous roar into the frosty sea. You think you can make out
@@ -3632,7 +3632,7 @@ The sea of ice~
 0 -1 17276
 S
 #17278
-Buzdağı'nın İçi~
+BuzdaÄŸÄ±'nÄ±n Ä°Ã§i~
 You have sailed into the heart of the iceberg, out of the frosty wind.
 You feel warmth returning to your bones, and you welcome the quiet
 splendor of the ice interior. Next to you in the cave are several triremes
@@ -3651,7 +3651,7 @@ ice trap door~
 1 -1 17279
 S
 #17279
-Buzlu bir Yokuştan Aşağı Kayarken~
+Buzlu bir YokuÅŸtan AÅŸaÄŸÄ± Kayarken~
 WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds
 downward in a counterclockwise spiral. There is no stopping and no turning
 around.
@@ -3663,7 +3663,7 @@ The icy shoot~
 0 -1 17280
 S
 #17280
-Buzlu bir Yokuştan Aşağı Kayarken~
+Buzlu bir YokuÅŸtan AÅŸaÄŸÄ± Kayarken~
 WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds
 downward in a counterclockwise spiral. There is no stopping and no turning
 around.
@@ -3675,7 +3675,7 @@ The icy shoot~
 0 -1 17281
 S
 #17281
-Buzlu bir Yokuştan Aşağı Kayarken~
+Buzlu bir YokuÅŸtan AÅŸaÄŸÄ± Kayarken~
 WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds
 downward in a counterclockwise spiral. There is no stopping and no turning
 around.
@@ -3687,7 +3687,7 @@ The icy shoot~
 0 -1 17282
 S
 #17282
-Buzlu bir Yokuştan Aşağı Kayarken~
+Buzlu bir YokuÅŸtan AÅŸaÄŸÄ± Kayarken~
 WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds
 downward in a counterclockwise spiral. There is no stopping and no turning
 around.
@@ -3699,7 +3699,7 @@ The icy shoot~
 0 -1 17283
 S
 #17283
-Buzlu bir Yokuştan Aşağı Kayarken~
+Buzlu bir YokuÅŸtan AÅŸaÄŸÄ± Kayarken~
 WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds
 downward in a counterclockwise spiral. There is no stopping and no turning
 around.
@@ -3711,7 +3711,7 @@ The icy shoot~
 0 -1 17284
 S
 #17284
-Buzlu bir Yokuştan Aşağı Kayarken~
+Buzlu bir YokuÅŸtan AÅŸaÄŸÄ± Kayarken~
 WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds
 downward in a counterclockwise spiral. There is no stopping and no turning
 around.
@@ -3723,7 +3723,7 @@ The icy shoot~
 0 -1 17285
 S
 #17285
-Buzlu bir Yokuştan Aşağı Kayarken~
+Buzlu bir YokuÅŸtan AÅŸaÄŸÄ± Kayarken~
 WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds
 downward in a counterclockwise spiral. There is no stopping and no turning
 around.
@@ -3735,7 +3735,7 @@ The icy shoot~
 0 -1 17286
 S
 #17286
-Buzlu bir Yokuştan Aşağı Kayarken~
+Buzlu bir YokuÅŸtan AÅŸaÄŸÄ± Kayarken~
 WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds
 downward in a counterclockwise spiral. There is no stopping and no turning
 around.
@@ -3747,7 +3747,7 @@ The icy shoot~
 0 -1 17287
 S
 #17287
-Buzlu bir Yokuştan Aşağı Kayarken~
+Buzlu bir YokuÅŸtan AÅŸaÄŸÄ± Kayarken~
 WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds
 downward in a counterclockwise spiral. There is no stopping and no turning
 around.
@@ -3759,7 +3759,7 @@ The icy shoot~
 0 -1 17288
 S
 #17288
-Buzlu bir Yokuştan Aşağı Kayarken~
+Buzlu bir YokuÅŸtan AÅŸaÄŸÄ± Kayarken~
 WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds
 downward in a counterclockwise spiral. There is no stopping and no turning
 around.
@@ -3771,7 +3771,7 @@ The icy shoot~
 0 -1 17289
 S
 #17289
-Buzlu bir Yokuştan Aşağı Kayarken~
+Buzlu bir YokuÅŸtan AÅŸaÄŸÄ± Kayarken~
 WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds
 downward in a counterclockwise spiral. There is no stopping and no turning
 around.
@@ -3783,7 +3783,7 @@ The icy shoot~
 0 -1 17290
 S
 #17290
-Büyük Buzul Mağarasının İçi~
+BÃ¼yÃ¼k Buzul MaÄŸarasÄ±nÄ±n Ä°Ã§i~
 You stand in a huge ice cavern, the ceiling is some 80' above you. In the
 center of the cavern, a bonfire roars, making the stalactites and stalagmites
 leap and lurch as if the entire cavern were a demons mouth laughing at you.
@@ -3799,7 +3799,7 @@ In the great ice cavern~
 0 -1 17295
 S
 #17291
-Büyük Buzul Mağarasının İçi~
+BÃ¼yÃ¼k Buzul MaÄŸarasÄ±nÄ±n Ä°Ã§i~
 You stand in a huge ice cavern, the ceiling is some 80' above you. In the
 center of the cavern, a bonfire roars, making the stalactites and stalagmites
 leap and lurch as if the entire cavern were a demons mouth laughing at you.
@@ -3819,7 +3819,7 @@ In the great ice cavern~
 0 -1 17290
 S
 #17292
-Büyük Buzul Mağarasının İçi~
+BÃ¼yÃ¼k Buzul MaÄŸarasÄ±nÄ±n Ä°Ã§i~
 You stand in a huge ice cavern, the ceiling is some 80' above you. In the
 center of the cavern, a bonfire roars, making the stalactites and stalagmites
 leap and lurch as if the entire cavern were a demons mouth laughing at you.
@@ -3835,7 +3835,7 @@ In the great ice cavern~
 0 -1 17291
 S
 #17293
-Büyük Buzul Mağarasının İçi~
+BÃ¼yÃ¼k Buzul MaÄŸarasÄ±nÄ±n Ä°Ã§i~
 You stand in a huge ice cavern, the ceiling is some 80' above you. In the
 center of the cavern, a bonfire roars, making the stalactites and stalagmites
 leap and lurch as if the entire cavern were a demons mouth laughing at you.
@@ -3855,7 +3855,7 @@ In the great ice cavern~
 0 -1 17292
 S
 #17294
-Büyük Buzul Mağarasının İçindeki Şenlik Ateşinin Dibi~
+BÃ¼yÃ¼k Buzul MaÄŸarasÄ±nÄ±n Ä°Ã§indeki Åenlik AteÅŸinin Dibi~
 You stand next to a roaring bonfire in the great ice cavern. Logs some ten
 feet in length are stacked crosswise to a height of 5'. The flames warm and
 light the cavern, and most importantly, your backside. Bedrolls are cast
@@ -3882,7 +3882,7 @@ In the great ice cavern~
 0 -1 17291
 S
 #17295
-Büyük Buzul Mağarasının İçi~
+BÃ¼yÃ¼k Buzul MaÄŸarasÄ±nÄ±n Ä°Ã§i~
 You stand in a huge ice cavern, the ceiling is some 80' above you. In the
 center of the cavern, a bonfire roars, making the stalactites and stalagmites
 leap and lurch as if the entire cavern were a demons mouth laughing at you.
@@ -3902,7 +3902,7 @@ In the great ice cavern~
 0 -1 17290
 S
 #17296
-Büyük Buzul Mağarasının İçi~
+BÃ¼yÃ¼k Buzul MaÄŸarasÄ±nÄ±n Ä°Ã§i~
 You stand in a huge ice cavern, the ceiling is some 80' above you. In the
 center of the cavern, a bonfire roars, making the stalactites and stalagmites
 leap and lurch as if the entire cavern were a demons mouth laughing at you.
@@ -3918,7 +3918,7 @@ In the great ice cavern~
 0 -1 17293
 S
 #17297
-Büyük Buzul Mağarasının İçi~
+BÃ¼yÃ¼k Buzul MaÄŸarasÄ±nÄ±n Ä°Ã§i~
 Here a long wooden table and benches has been placed to serve as the dining
 are for the men. Food is stored in hollowed stalagmites. Two smaller fires
 blaze on either side of the bench.
@@ -3942,7 +3942,7 @@ In the great ice cavern~
 0 -1 17294
 S
 #17298
-Büyük Buzul Mağarasının İçi~
+BÃ¼yÃ¼k Buzul MaÄŸarasÄ±nÄ±n Ä°Ã§i~
 You stand in a huge ice cavern, the ceiling is some 80' above you. In the
 center of the cavern, a bonfire roars, making the stalactites and stalagmites
 leap and lurch as if the entire cavern were a demons mouth laughing at you.

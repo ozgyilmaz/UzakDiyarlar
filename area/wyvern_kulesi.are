@@ -3,7 +3,7 @@ Filename wyvern_kulesi.are~
 Name Wyvern Kulesi~
 Builder Tyrst~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 30
 Minvnum 1600
@@ -16,27 +16,27 @@ END
 
 #NEW_MOBILES
 #1601
-katil kurbağa~
-katil kurbağa~
-Bir katil kurbağa suyun üzerinde yükseliyor.
+katil kurbaÄŸa~
+katil kurbaÄŸa~
+Bir katil kurbaÄŸa suyun Ã¼zerinde yÃ¼kseliyor.
 ~
 The killer frog looks ravenous.
 ~
 human~
 ABFG 0 5
 #1602
-taş gargohol~
-taş gargohol~
-Taştan bir gargohol seni izliyor.
+taÅŸ gargohol~
+taÅŸ gargohol~
+TaÅŸtan bir gargohol seni izliyor.
 ~
 As you look, the figure seems to shift and move ...
 ~
 human~
 ABFGH 0 9
 #1603
-kızgın gargohol~
-kızgın gargohol~
-Kızgın bir gargohol dikkatle seni izliyor.
+kÄ±zgÄ±n gargohol~
+kÄ±zgÄ±n gargohol~
+KÄ±zgÄ±n bir gargohol dikkatle seni izliyor.
 ~
 He looks ready to attack!
 ~
@@ -45,79 +45,79 @@ ACFG 0 10
 #1604
 elit gargohol~
 elit gargohol~
-Bir elit gargohol bu odayı meraklıların gözlerine karşı koruyor.
+Bir elit gargohol bu odayÄ± meraklÄ±larÄ±n gÃ¶zlerine karÅŸÄ± koruyor.
 ~
 He snarls at you and says LEAVE OR DIE!
 ~
 human~
 ABC 0 12
 #1605
-gargohol şaman~
-gargohol şaman~
-Gargohol şaman savaşa hazırlanıyor!
+gargohol ÅŸaman~
+gargohol ÅŸaman~
+Gargohol ÅŸaman savaÅŸa hazÄ±rlanÄ±yor!
 ~
 She says 'I can SEE you! I have been waiting ...'.
 ~
 human~
 ABCGQ DF 13
 #1606
-etçil bitki~
-etçil bitki~
-Büyük bir etçil bitki seni yakalamaya çalışıyor!
+etÃ§il bitki~
+etÃ§il bitki~
+BÃ¼yÃ¼k bir etÃ§il bitki seni yakalamaya Ã§alÄ±ÅŸÄ±yor!
 ~
 The plant looks something like a Venus fly-trap, only MUCH larger.
 ~
 human~
 ABFG 0 9
 #1607
-korkunç ogre~
-korkunç ogre~
-Büyük ve korkunç bir ogre parçaladığı etleri yiyor.
+korkunÃ§ ogre~
+korkunÃ§ ogre~
+BÃ¼yÃ¼k ve korkunÃ§ bir ogre parÃ§aladÄ±ÄŸÄ± etleri yiyor.
 ~
 It thinks that perhaps you would make a better meal.
 ~
 ogre~
 ABCFG 0 10
 #1608
-gölge kara~
-gölge~
-Kara bir gölge odanın içinde hareket ediyor.
+gÃ¶lge kara~
+gÃ¶lge~
+Kara bir gÃ¶lge odanÄ±n iÃ§inde hareket ediyor.
 ~
 The Shadow is vaguely humanoid. Two glowing pinpoints look at you.
 ~
 human~
 ACFG BDF 10
 #1609
-kara savaşçı~
-kara savaşçı~
-Kara bir savaşçı gölgelerin içinde gizleniyor!
+kara savaÅŸÃ§Ä±~
+kara savaÅŸÃ§Ä±~
+Kara bir savaÅŸÃ§Ä± gÃ¶lgelerin iÃ§inde gizleniyor!
 ~
 He glares at you savagely and charges!
 ~
 human~
 ABCFG DF 12
 #1610
-iriyarı minotor~
-iriyarı minotor~
-İriyarı bir minotor seni izliyor!
+iriyarÄ± minotor~
+iriyarÄ± minotor~
+Ä°riyarÄ± bir minotor seni izliyor!
 ~
 This powerful creature wonders whether to kill you or not ...
 ~
 human~
 ACG D 14
 #1612
-vahşi minotor~
-vahşi minotor~
-Kana susamış vahşi bir minotor ganimetlerini sayıyor.
+vahÅŸi minotor~
+vahÅŸi minotor~
+Kana susamÄ±ÅŸ vahÅŸi bir minotor ganimetlerini sayÄ±yor.
 ~
 He looks up at you and screams 'SO! Coming to steal my hoard!'
 ~
 human~
 ABCFG D 15
 #1613
-minotor yüzbaşı~
-yüzbaşı~
-Minotor Yüzbaşısı'nı görüyorsun!
+minotor yÃ¼zbaÅŸÄ±~
+yÃ¼zbaÅŸÄ±~
+Minotor YÃ¼zbaÅŸÄ±sÄ±'nÄ± gÃ¶rÃ¼yorsun!
 ~
 He looks at you, and a sinister grin slowly spreads on his face ...
 ~
@@ -126,16 +126,16 @@ ABCFG D 17
 #1614
 kara puding~
 kara puding~
-Kocaman kara bir puding odanın ortasında hareket ediyor!!
+Kocaman kara bir puding odanÄ±n ortasÄ±nda hareket ediyor!!
 ~
 It is a huge black blob that oozes about the room. Its heading toward YOU!
 ~
 human~
 ACFG 0 15
 #1615
-küçük golem~
-küçük golem~
-Küçük bir golem girişi koruyor.
+kÃ¼Ã§Ã¼k golem~
+kÃ¼Ã§Ã¼k golem~
+KÃ¼Ã§Ã¼k bir golem giriÅŸi koruyor.
 ~
 The golem appears to be made of some kind of clay, enchanted to come to life!
 ~
@@ -144,7 +144,7 @@ ABG D 16
 #1616
 kadim vivern~
 kadim vivern~
-Büyük ve kadim bir vivern varlığına gülüyor...
+BÃ¼yÃ¼k ve kadim bir vivern varlÄ±ÄŸÄ±na gÃ¼lÃ¼yor...
 ~
 It thunders loudly 'I must protect my Master's wealth!'
 ~
@@ -153,25 +153,25 @@ ACFG DF 18
 #1617
 hayalet~
 hayalet~
-Bir hayalet yavaş yavaş maddeleşiyor!
+Bir hayalet yavaÅŸ yavaÅŸ maddeleÅŸiyor!
 ~
 Terror fills your heart as you view this master of the undead.
 ~
 human~
 ACFG BDH 19
 #1702
-avcı~
-avcı~
-Bir avcı elindeki hayvan postlarını sayıyor.
+avcÄ±~
+avcÄ±~
+Bir avcÄ± elindeki hayvan postlarÄ±nÄ± sayÄ±yor.
 ~
 The trapper is clad mostly in the fur of various animals he's caught.
 ~
 human~
 AC 0 6
 #1704
-avcı~
-avcı~
-Taze bir ceset taşıyan avcı dinleniyor.
+avcÄ±~
+avcÄ±~
+Taze bir ceset taÅŸÄ±yan avcÄ± dinleniyor.
 ~
 The hunter is rugged and sturdy from his occupation.
 ~
@@ -180,25 +180,25 @@ AC 0 8
 #1706
 korucu~
 korucu~
-Amansız bir korucu bir masaya yaslanmış dinleniyor.
+AmansÄ±z bir korucu bir masaya yaslanmÄ±ÅŸ dinleniyor.
 ~
 The years of wanderings have left the ranger hardened and strong.
 ~
 human~
 ACG D 12
 #1707
-şef korucu~
-şef korucu~
-Korucuların şefi seni izliyor.
+ÅŸef korucu~
+ÅŸef korucu~
+KorucularÄ±n ÅŸefi seni izliyor.
 ~
 This individual has quite a reputation at the local trading posts!
 ~
 human~
 ABC D 15
 #1708
-korucuların lordu~
-Korucuların Lordu~
-Korucuların Lordu'nun gözleri senin üzerinde.
+korucularÄ±n lordu~
+KorucularÄ±n Lordu~
+KorucularÄ±n Lordu'nun gÃ¶zleri senin Ã¼zerinde.
 ~
 ~
 human~
@@ -206,52 +206,52 @@ ABC D 20
 #1710
 erkek pardus~
 pardus~
-Erkek bir pardus etrafı dolaşıyor.
+Erkek bir pardus etrafÄ± dolaÅŸÄ±yor.
 ~
 The pardus has the upper torso of a man and lower body of a horse.
 ~
 pardus~
 AC 0 7
 #1711
-dişi pardus~
+diÅŸi pardus~
 pardus~
-Dişi bir pardus etrafı dolaşıyor.
+DiÅŸi bir pardus etrafÄ± dolaÅŸÄ±yor.
 ~
 The pardus has the upper torso of a woman and lower body of a horse.
 ~
 pardus~
 AC 0 7
 #1712
-yaşlı pardus~
-yaşlı pardus~
-Yaşlı bir pardus köşede dinleniyor.
+yaÅŸlÄ± pardus~
+yaÅŸlÄ± pardus~
+YaÅŸlÄ± bir pardus kÃ¶ÅŸede dinleniyor.
 ~
 This pardus has lived a full life.
 ~
 pardus~
 AC 0 6
 #1714
-yaşlı pardus~
-yaşlı pardus~
-Yaşlı bir pardus seni izliyor.
+yaÅŸlÄ± pardus~
+yaÅŸlÄ± pardus~
+YaÅŸlÄ± bir pardus seni izliyor.
 ~
 The elders act as counselors and advisors to the chief.
 ~
 pardus~
 ABC B 9
 #1715
-pardus muhafız güçlü~
-muhafız pardus~
-Güçlü bir pardus etrafı gözlüyor.
+pardus muhafÄ±z gÃ¼Ã§lÃ¼~
+muhafÄ±z pardus~
+GÃ¼Ã§lÃ¼ bir pardus etrafÄ± gÃ¶zlÃ¼yor.
 ~
 He appears to be blocking entrance to the next room.
 ~
 pardus~
 AB B 10
 #1716
-şef pardus~
-şef pardus~
-Pardusların şefi dinleniyor.
+ÅŸef pardus~
+ÅŸef pardus~
+ParduslarÄ±n ÅŸefi dinleniyor.
 ~
 He has been the leader of this tribe for many years, and has acquired much
 wisdom.
@@ -259,9 +259,9 @@ wisdom.
 pardus~
 ABC B 12
 #1720
-sürgün canavar~
-sürgün canavar~
-Bir sürgün etrafı izliyor.
+sÃ¼rgÃ¼n canavar~
+sÃ¼rgÃ¼n canavar~
+Bir sÃ¼rgÃ¼n etrafÄ± izliyor.
 ~
 As you watch this strange creature, its position seems to flicker and shift.
 ~
@@ -270,17 +270,17 @@ AH 0 10
 #0
 #OBJECTS
 #1601
-paslı satır~
-paslı satır~
-Paslı bir satır görüyorsun.~
+paslÄ± satÄ±r~
+paslÄ± satÄ±r~
+PaslÄ± bir satÄ±r gÃ¶rÃ¼yorsun.~
 iron~
 weapon 0 AN
 dagger 1 6 chop 0
 1 20 230 P
 #1602
-güzel gürz~
-güzel gürz~
-Güzel bir gürz burada bırakılmış.~
+gÃ¼zel gÃ¼rz~
+gÃ¼zel gÃ¼rz~
+GÃ¼zel bir gÃ¼rz burada bÄ±rakÄ±lmÄ±ÅŸ.~
 iron~
 weapon G AN
 mace 2 6 pound 0
@@ -288,9 +288,9 @@ mace 2 6 pound 0
 A
 18 1
 #1603
-uzun çora hançeri~
-uzun çora hançeri~
-Uzun bir çora hançeri görüyorsun.~
+uzun Ã§ora hanÃ§eri~
+uzun Ã§ora hanÃ§eri~
+Uzun bir Ã§ora hanÃ§eri gÃ¶rÃ¼yorsun.~
 steel~
 weapon AG AN
 dagger 2 5 pierce 0
@@ -298,9 +298,9 @@ dagger 2 5 pierce 0
 A
 18 2
 #1604
-geniş çelik kılıç~
-geniş çelik kılıç~
-Geniş bir çelik kılıç yerde yatıyor.~
+geniÅŸ Ã§elik kÄ±lÄ±Ã§~
+geniÅŸ Ã§elik kÄ±lÄ±Ã§~
+GeniÅŸ bir Ã§elik kÄ±lÄ±Ã§ yerde yatÄ±yor.~
 steel~
 weapon AG AN
 sword 3 6 slash 0
@@ -310,9 +310,9 @@ A
 A
 18 1
 #1605
-geniş çelik kılıç~
-geniş çelik kılıç~
-Geniş bir çelik kılıç yerde yatıyor.~
+geniÅŸ Ã§elik kÄ±lÄ±Ã§~
+geniÅŸ Ã§elik kÄ±lÄ±Ã§~
+GeniÅŸ bir Ã§elik kÄ±lÄ±Ã§ yerde yatÄ±yor.~
 steel~
 weapon AG AN
 sword 3 7 slash 0
@@ -322,9 +322,9 @@ A
 A
 18 2
 #1606
-güç gürzü~
-güç gürzü~
-Güç gürzü yerde dinleniyor.~
+gÃ¼Ã§ gÃ¼rzÃ¼~
+gÃ¼Ã§ gÃ¼rzÃ¼~
+GÃ¼Ã§ gÃ¼rzÃ¼ yerde dinleniyor.~
 oak~
 weapon BG AN
 mace 3 7 blast 0
@@ -334,9 +334,9 @@ A
 A
 18 2
 #1612
-siyah uçurtma kalkanı~
-siyah uçurtma kalkanı~
-Siyah bir uçurtma kalkanı görüyorsun.~
+siyah uÃ§urtma kalkanÄ±~
+siyah uÃ§urtma kalkanÄ±~
+Siyah bir uÃ§urtma kalkanÄ± gÃ¶rÃ¼yorsun.~
 onyx~
 armor AG AJ
 6 6 6 2 0
@@ -344,9 +344,9 @@ armor AG AJ
 A
 20 1
 #1614
-komutan miğferi~
-komutan miğferi~
-Bir komutan miğferi yerde dinleniyor.~
+komutan miÄŸferi~
+komutan miÄŸferi~
+Bir komutan miÄŸferi yerde dinleniyor.~
 steel~
 armor AG AE
 7 7 7 2 0
@@ -359,7 +359,7 @@ This elegant helm is plated in mithril and silver.~
 #1615
 mitril bileklik~
 mitril bileklik~
-Mitrilden yapılmış bir bileklik yerde yatıyor!~
+Mitrilden yapÄ±lmÄ±ÅŸ bir bileklik yerde yatÄ±yor!~
 mithril~
 armor BG AM
 4 6 6 2 0
@@ -369,7 +369,7 @@ A
 #1616
 koyu mavi fular~
 koyu mavi fular~
-Koyu mavi renkte değerli olabilecek bir fular yerde yatıyor.~
+Koyu mavi renkte deÄŸerli olabilecek bir fular yerde yatÄ±yor.~
 cloth~
 clothing AG AC
 0 0 0 0 0
@@ -377,33 +377,33 @@ clothing AG AC
 A
 17 6
 #1621
-koyu kırmızı iksir~
-koyu kırmızı iksir~
-Koyu kırmızı bir iksir görüyorsun.~
+koyu kÄ±rmÄ±zÄ± iksir~
+koyu kÄ±rmÄ±zÄ± iksir~
+Koyu kÄ±rmÄ±zÄ± bir iksir gÃ¶rÃ¼yorsun.~
 glass~
 potion AG AO
 9 'cure blindness' 'cure critical' '' ''
 5 10 320 P
 #1651
-tunç sandık~
-tunç sandık~
-Sağlam bir tunç sandık görüyorsun.~
+tunÃ§ sandÄ±k~
+tunÃ§ sandÄ±k~
+SaÄŸlam bir tunÃ§ sandÄ±k gÃ¶rÃ¼yorsun.~
 bronze~
 container 0 A
 30 AC 0 10 100
 0 100 100 P
 #1652
-fıçı bira~
-fıçı bira~
-Bir fıçı bira görüyorsun. Soğuk soğuk...~
+fÄ±Ã§Ä± bira~
+fÄ±Ã§Ä± bira~
+Bir fÄ±Ã§Ä± bira gÃ¶rÃ¼yorsun. SoÄŸuk soÄŸuk...~
 wood~
 drink 0 A
 150 2 'ale' 0 0
 0 80 10 P
 #1691
-ikiz kule anahtarı kemik~
-ikiz kule anahtarı~
-Kemikten yapılmış bir anahtar görüyorsun.~
+ikiz kule anahtarÄ± kemik~
+ikiz kule anahtarÄ±~
+Kemikten yapÄ±lmÄ±ÅŸ bir anahtar gÃ¶rÃ¼yorsun.~
 oldstyle~
 key 0 A
 1 0 0 0 0
@@ -411,7 +411,7 @@ key 0 A
 #1692
 tuhaf anahtar~
 tuhaf anahtar~
-Çok tuhaf bir anahtar görüyorsun.~
+Ã‡ok tuhaf bir anahtar gÃ¶rÃ¼yorsun.~
 oldstyle~
 key AG AO
 2 0 0 0 0
@@ -422,9 +422,9 @@ E
 strange key~
 This key is of an unusual shape ... must go to an unusual lock!~
 #1701
-kısa yay~
-kısa yay~
-Kısa bir yay burada bırakılmış.~
+kÄ±sa yay~
+kÄ±sa yay~
+KÄ±sa bir yay burada bÄ±rakÄ±lmÄ±ÅŸ.~
 wood~
 weapon 0 AN
 bow 2 4 pierce 0
@@ -436,7 +436,7 @@ It looks like the bows used by rustin hunters.
 #1702
 uzun yay~
 uzun yay~
-Uzun bir yay burada bırakılmış.~
+Uzun bir yay burada bÄ±rakÄ±lmÄ±ÅŸ.~
 wood~
 weapon AG AN
 bow 3 6 pound 0
@@ -444,9 +444,9 @@ bow 3 6 pound 0
 A
 13 5
 #1704
-kadim uzunkılıç~
-kadim uzunkılıç~
-Kadim bir uzunkılıç burada bırakılmış.~
+kadim uzunkÄ±lÄ±Ã§~
+kadim uzunkÄ±lÄ±Ã§~
+Kadim bir uzunkÄ±lÄ±Ã§ burada bÄ±rakÄ±lmÄ±ÅŸ.~
 iron~
 weapon BG AN
 sword 3 8 slash 0
@@ -456,17 +456,17 @@ A
 A
 18 3
 #1711
-kürk kasket~
-kürk kasket~
-Kürk bir kasket burada bırakılmış.~
+kÃ¼rk kasket~
+kÃ¼rk kasket~
+KÃ¼rk bir kasket burada bÄ±rakÄ±lmÄ±ÅŸ.~
 fur~
 armor 0 AE
 2 2 2 0 0
 0 10 168 P
 #1712
-dağ çizmesi~
-bir çift dağ çizmesi~
-Bir çift dağ çizmesi burada bırakılmış.~
+daÄŸ Ã§izmesi~
+bir Ã§ift daÄŸ Ã§izmesi~
+Bir Ã§ift daÄŸ Ã§izmesi burada bÄ±rakÄ±lmÄ±ÅŸ.~
 fur~
 armor G AG
 5 5 5 0 0
@@ -474,9 +474,9 @@ armor G AG
 A
 14 10
 #1713
-tunç yüzük~
-tunç yüzük~
-Tunç bir yüzük görüyorsun.~
+tunÃ§ yÃ¼zÃ¼k~
+tunÃ§ yÃ¼zÃ¼k~
+TunÃ§ bir yÃ¼zÃ¼k gÃ¶rÃ¼yorsun.~
 bronze~
 jewelry G AB
 0 0 0 0 0
@@ -487,7 +487,7 @@ A
 
 #ROOMS
 #1601
-Engebeli Doğu-Batı Yolu~
+Engebeli DoÄŸu-BatÄ± Yolu~
 You are on a very rough and overgrown path heading east-west over rugged
 terrain.  To the east the path passes between low hills.
 ~
@@ -504,7 +504,7 @@ The cross-roads and a trading post lie in this direction.
 0 0 1702
 S
 #1602
-Tepeler Arasında Engebeli Yol~
+Tepeler ArasÄ±nda Engebeli Yol~
 Here the path passes between low hills. The going is very rough, but
 to the east the ground is smoother. In that direction a pair of tower
 looms above the hills.
@@ -522,7 +522,7 @@ The road continues.
 0 0 1601
 S
 #1603
-Açık Alana Giden Yol~
+AÃ§Ä±k Alana Giden Yol~
 You are on a path through an open area. East of here loom two tall towers,
 joined by a barbican and surrounded by a murky moat. West the path passes
 between low hills.
@@ -540,7 +540,7 @@ The road continues.
 0 0 1602
 S
 #1604
-Hendeğin Batısı~
+HendeÄŸin BatÄ±sÄ±~
 You stand on the west side of a moat that encircles two towers, each
 over 50 feet high. You will need a boat to go east across the moat. A
 rugged path heads west, and another one heads north to a cluster of low
@@ -564,7 +564,7 @@ An old ill-kept roads leads away to the west.
 0 0 1603
 S
 #1605
-Hendeğin Kuzeyindeki Yol~
+HendeÄŸin Kuzeyindeki Yol~
 You walk on a faint path heading south toward the west side of the moat,
 and north to three small buildings.
 ~
@@ -581,7 +581,7 @@ The path ends west of the moat.
 0 0 1604
 S
 #1606
-Bina Kümesi~
+Bina KÃ¼mesi~
 You are in the middle of a cluster of small buildings. There is a building
 to the north, east, and west.  A sign over the eastern building says
 'House of Pancakes'.
@@ -609,14 +609,14 @@ There is an entrance to a building here.
 0 0 1608
 S
 #1607
-Gözleme Evi~
+GÃ¶zleme Evi~
 The moment you enter this room, the ceiling descends and crushes you
 into a pancake.  Don't you hate it when that happens?
 ~
 0 BC 0
 S
 #1608
-Eski Depo Odası~
+Eski Depo OdasÄ±~
 You have entered what appears to be an old storeroom. Most of the items
 that were in here appear to have been ruined long ago.
 ~
@@ -627,7 +627,7 @@ D1
 0 0 1606
 S
 #1609
-Boş Oda~
+BoÅŸ Oda~
 This room appears to be completely empty. The only exit seems to be the
 way you came.  There are some scratches around the floor.
 ~
@@ -643,7 +643,7 @@ You see a concealed opening leading down.
 0 0 1610
 S
 #1610
-Minatorun Odası~
+Minatorun OdasÄ±~
 You have entered a secret chamber under the empty room. In this room is
 the worn but cared-for gear and trappings of some large humanoid.
 ~
@@ -654,7 +654,7 @@ D4
 0 0 1609
 S
 #1620
-Batı Hendeği~
+BatÄ± HendeÄŸi~
 You are in the middle of the moat, on the west side of the tower.  There is a
 landing on both sides of the moat.  Deep throated 'ribbids' come from the
 water all around you.
@@ -678,7 +678,7 @@ D3
 0 0 1604
 S
 #1621
-Kuzey Hendeği~
+Kuzey HendeÄŸi~
 You are in the middle of the moat, on the north side of the tower.  There is
 no place to land here.  Deep throated 'ribbids' come from the water all
 around you.
@@ -690,7 +690,7 @@ D2
 0 0 1620
 S
 #1622
-Güney Hendeği~
+GÃ¼ney HendeÄŸi~
 You are in the middle of the moat, on the south side of the tower.  There is
 no place to land here.  Deep throated 'ribbids' come from the water all
 around you.
@@ -702,7 +702,7 @@ D0
 0 0 1620
 S
 #1623
-Kule Girişi~
+Kule GiriÅŸi~
 You are on a foyer on the west side of the structure. The moat is west of
 here. There is also a large door eastward into the structure.  You notice that
 the walls are ornately decorated with very life-like stone gargoyles.
@@ -718,7 +718,7 @@ D3
 0 0 1620
 S
 #1624
-Büyük Hol~
+BÃ¼yÃ¼k Hol~
 You have entered a vast lobby. This lobby appears to have once been very
 ornately furnished, but now everything is decayed and moldering.  A highly
 ornate balcony surrounds the lobby. To the east, below the balcony, is an
@@ -736,7 +736,7 @@ D3
 0 0 1623
 S
 #1625
-Batı Kulesi Zemini~
+BatÄ± Kulesi Zemini~
 You stand in the center of the Western tower's base. Torch brackets occupy
 the four corners of this huge room. Above each torch is a lifelike ornate
 stone gargoyle.  There are doors north and south, and passages east and west.
@@ -760,7 +760,7 @@ D3
 0 0 1624
 S
 #1626
-Küflü Koridor~
+KÃ¼flÃ¼ Koridor~
 You are walking along a musty east-west corridor joining the two towers.
 There are room on each side of the corridor, and openings at each end.
 ~
@@ -806,7 +806,7 @@ D0
 0 0 1625
 S
 #1629
-Yemek Odası~
+Yemek OdasÄ±~
 You have entered a fabulous dining hall.  The wrecked remains of a long table
 dominate the room. A horrible odor pervades the room, like some foul-smelling
 beast has been eating and shitting in here.  There is a serving hatch west and
@@ -830,7 +830,7 @@ D0
 0 0 1626
 S
 #1631
-Doğu Kulesi Zemini~
+DoÄŸu Kulesi Zemini~
 You stand in the center of the Eastern tower's base. Torch brackets occupy the
 four corners of this huge room.  Above each torch is a lifelike ornate stone
 gargoyle.  There are are open doors to the north and south, and passages east
@@ -874,7 +874,7 @@ You notice a grate in the bottom of the fire pit.  Maybe it's an opening ...
 1 -1 1634
 S
 #1633
-Uşakların Bölümü~
+UÅŸaklarÄ±n BÃ¶lÃ¼mÃ¼~
 You are in what once was the servant's quarters, as evidenced by the shabby
 belongings and decor. What little remains is rotting and of little value
 anyway.  The only exit is north.
@@ -886,7 +886,7 @@ D0
 0 0 1631
 S
 #1634
-Büyük Karanlık Mahzen~
+BÃ¼yÃ¼k KaranlÄ±k Mahzen~
 You are in a large, murky cellar. An almost tangible air of horror pervades
 the room.  A thin layer of nitre covers the walls and ceiling.  Rotting
 furniture looms obliquely about the room.
@@ -898,7 +898,7 @@ D4
 1 -1 1632
 S
 #1635
-İlk Merdivende~
+Ä°lk Merdivende~
 You are on a Spiral staircase connecting the first and second levels of
 the eastern tower. You can go up or down.
 ~
@@ -913,7 +913,7 @@ D5
 0 0 1631
 S
 #1636
-Doğu Kulesinin İkinci Katı~
+DoÄŸu Kulesinin Ä°kinci KatÄ±~
 You are in the center of the second level of the Eastern tower. This large
 room appears quite empty, except for the candle abras firmly fixed to the
 walls.  An opening leads westward, and a spiral staircase leads down.
@@ -954,7 +954,7 @@ D3
 0 0 1640
 S
 #1638
-Şaman'ın Odası~
+Åaman'Ä±n OdasÄ±~
 You have entered an elegantly furnished room that looks to be still in use!
 Costly paintings and pieces of furniture are tastefully situated.  On the
 north wall is an altar to Knar, the ghastly patron of Gargoyles.  The only
@@ -967,7 +967,7 @@ D2
 0 0 1637
 S
 #1639
-Kütüphane~
+KÃ¼tÃ¼phane~
 This room appears to have been a library.  Empty book shelves line each wall.
 The only exit is north.
 ~
@@ -978,7 +978,7 @@ D0
 0 0 1637
 S
 #1640
-Batı Kulesinin İkinci Katı~
+BatÄ± Kulesinin Ä°kinci KatÄ±~
 You are in the center of the western tower's second floor.  A large spiral
 staircase of 29 steps connects this level with the third.  There are doors
 to the east and west.  Except for a torch bracket in each corner, the
@@ -1026,7 +1026,7 @@ D5
 0 0 1640
 S
 #1643
-Batı Kulesinin Üçüncü Katı~
+BatÄ± Kulesinin ÃœÃ§Ã¼ncÃ¼ KatÄ±~
 You stand in the center of the western tower's third floor.  This large room
 glows mysteriously with a strange light all its own.  From a door to the east
 comes a strange inky blackness.  A spiral staircase leads down.
@@ -1042,7 +1042,7 @@ D5
 0 0 1642
 S
 #1644
-Çok karanlık!~
+Ã‡ok karanlÄ±k!~
 ~
 0 AD 3
 D0
@@ -1063,7 +1063,7 @@ D3
 1 -1 1643
 S
 #1645
-Zırhçı~
+ZÄ±rhÃ§Ä±~
 In this room, which has somehow evaded the ravages of time, are neatly stored
 racks of common weapons.  They appear to be quite ordinary; however, a chest
 in one corner catches your eye.  The only exit is the way you came in.
@@ -1075,7 +1075,7 @@ D2
 1 -1 1644
 S
 #1646
-Subay Bölümü~
+Subay BÃ¶lÃ¼mÃ¼~
 You have entered a lavish but functional room decked out in a military style.
 Murals on the wall show battle scenes in gargoyles, minotaurs, and huge,
 flying snake-like reptiles with poisonous tails fight humans and dwarves.
@@ -1089,7 +1089,7 @@ D0
 1 -1 1644
 S
 #1647
-Doğu Kulesinin Üçüncü Katı~
+DoÄŸu Kulesinin ÃœÃ§Ã¼ncÃ¼ KatÄ±~
 You are in the center of the Eastern Tower's third floor.  The room you are in
 glows with a mysterious light that has no source.  In the center of the room a
 ladder climbs up to a hatchway in the ceiling.  The hatchway is a strange
@@ -1107,7 +1107,7 @@ The hatchway appears securely fastened.  In it is a strange keyhole.
 1 -1 1648
 S
 #1648
-Doğu Kulesi Tareti~
+DoÄŸu Kulesi Tareti~
 You stand in the turret of the eastern tower.  A huge hole has been
 made in the roof by some enormous beast, letting the daylight (or moonlight)
 in.  There is a hatchway in the floor, and an opening to the west leading out
@@ -1145,7 +1145,7 @@ A mirror-like portal glimmers, allowing entry into the western turret.
 0 0 1650
 S
 #1650
-Batı Kulesi Tareti~
+BatÄ± Kulesi Tareti~
 You are in the turret of the western tower.  You feel very strange here.
 Scattered about this room are a great many coins and valuable articles.
 Yet you can't get rid of a feeling of dread!  A mirror-like portal is in the
@@ -1163,7 +1163,7 @@ A mirror-like portal glimmers in this wall.
 0 0 1651
 S
 #1651
-Diğer Tarafta~
+DiÄŸer Tarafta~
 You are outdoors on a catwalk between the turrets of the Eastern and Western
 towers.  There is no opening into the western tower of any kind.  You have a
 fabulous view of your surroundings, a murky city partially obscured by strange
@@ -1192,7 +1192,7 @@ D1
 0 0 1651
 S
 #1701
-Ana Doğu Yolu~
+Ana DoÄŸu Yolu~
 You are on the old Eastern Road.  The crossroads to the east joins ANOTHER
 northern route to this road, which continues east.  South of the crossroads is
 an old building.  The area around here is lightly timbered.
@@ -1209,7 +1209,7 @@ D3
 0 0 5267
 S
 #1702
-Kıra Doğru Kesişim~
+KÄ±ra DoÄŸru KesiÅŸim~
 You are at a crossroads to the wilderness areas east and north of here,
 and the more civilized areas to the west. The main road is west, an
 older road continues east, and a simple trail heads north.  To the south,
@@ -1238,7 +1238,7 @@ D3
 0 0 1701
 S
 #1703
-Ticaret Bölümü~
+Ticaret BÃ¶lÃ¼mÃ¼~
 You are in a trading post just south of the crossroads, where rangers,
 trappers and hunters from the surrounding area come to buy, sell, and
 barter goods.
@@ -1251,7 +1251,7 @@ The door opens out on the crossroads.
 0 0 1702
 S
 #1704
-Kavşağın Kuzeyindeki Patika~
+KavÅŸaÄŸÄ±n Kuzeyindeki Patika~
 You are on a primitive north-south trail. South of here is a major cross-
 roads and an old building. To the north the trail continues toward a
 deep, dark forest.
@@ -1269,7 +1269,7 @@ A major crossroads and a building lie in this direction.
 0 0 1702
 S
 #1705
-Ormanın Güneyindeki Patika~
+OrmanÄ±n GÃ¼neyindeki Patika~
 You are on a primitive north-south trail.  Just north of here looms the
 entrance to a deep, dark forest. To the south the trail continues.
 ~
@@ -1286,7 +1286,7 @@ The trail continues.
 0 0 1704
 S
 #1706
-Ormanın Girişi~
+OrmanÄ±n GiriÅŸi~
 You are at the entrance to dark forest comprised mostly of huge black oak
 and towering firs.  A trail from the south continues north on into the
 woods at this point.
@@ -1304,7 +1304,7 @@ You see the trail head back on south.
 0 0 1705
 S
 #1707
-Kara Meşe Ormanında Patika~
+Kara MeÅŸe OrmanÄ±nda Patika~
 The trail here passes through groves of closely knit Black Oak. Some of
 these trees are of enormous size.  Rustling and other low noises come
 from the forest on either side of the trail.  The trail continues on north
@@ -1323,7 +1323,7 @@ The edge of the forest is visible in this direction.
 0 0 1706
 S
 #1708
-Kara Ormanda Kesişim~
+Kara Ormanda KesiÅŸim~
 You are in the midst of a deep dark forest of huge oak trees.  There is a
 junction of trails here, with paths leading south, west and east.
 ~
@@ -1345,7 +1345,7 @@ You see the path to the Centaur village.
 0 0 1709
 S
 #1709
-Kentaur Kasabasına Yol~
+Kentaur KasabasÄ±na Yol~
 You are on an east-west path in the forest.  Here the forest is mostly
 towering firs, not quite as dense as the oak groves that can be seen eastward.
 Westward, the trail heads toward a small clearing.
@@ -1363,7 +1363,7 @@ There is a small clearing in this direction.
 0 0 1710
 S
 #1710
-Kentaur Açıklığının Doğu Tarafı~
+Kentaur AÃ§Ä±klÄ±ÄŸÄ±nÄ±n DoÄŸu TarafÄ±~
 You are on the east side of a clearing.  Small primitive huts are scattered
 about the edges of this clearing.  Beyond these on all sides are towering
 fir trees.  A path leads east out of the clearing. The clearing continues to
@@ -1392,7 +1392,7 @@ You see the west side of the clearing.
 0 0 1711
 S
 #1711
-Kentaur Açıklığının Batı Tarafı~
+Kentaur AÃ§Ä±klÄ±ÄŸÄ±nÄ±n BatÄ± TarafÄ±~
 You are on the west side of the clearing in the center of the Centaur village.
 Huts surround the clearing on all sides, and beyond are towering firs.  The
 clearing continues to the east.  To the west is a very large hut.
@@ -1420,7 +1420,7 @@ There is a hut here.
 0 0 1716
 S
 #1712
-Kentaur Kulübesi~
+Kentaur KulÃ¼besi~
 You are inside a smallish hut, the home of a family of Centaurs.  The hut
 is sparsely furnished, mostly the trappings of survival.
 ~
@@ -1432,7 +1432,7 @@ The opening leads out onto the clearing.
 0 0 1710
 S
 #1713
-Kentaur Kulübesi~
+Kentaur KulÃ¼besi~
 You are inside a smallish hut, the home of a family of Centaurs.  The hut
 is sparsely furnished, mostly the trappings of survival.
 ~
@@ -1444,7 +1444,7 @@ The opening leads out onto the clearing.
 0 0 1710
 S
 #1714
-Kentaur Kulübesi~
+Kentaur KulÃ¼besi~
 You are inside a smallish hut, the home of a family of Centaurs.  The hut
 is sparsely furnished, mostly the trappings of survival.
 ~
@@ -1456,7 +1456,7 @@ The opening leads out onto the clearing.
 0 0 1711
 S
 #1715
-Kentaur Kulübesi~
+Kentaur KulÃ¼besi~
 You are inside a smallish hut, the home of a family of Centaurs.  The hut
 is sparsely furnished, mostly the trappings of survival.
 ~
@@ -1468,7 +1468,7 @@ The opening leads out onto the clearing.
 0 0 1711
 S
 #1716
-Büyük Kulübe Girişi~
+BÃ¼yÃ¼k KulÃ¼be GiriÅŸi~
 You are in the entry foyer of a large hut.  A curtain separates this section
 of the hut from the next section to the west.  To the east is an opening out
 onto the clearing.
@@ -1486,7 +1486,7 @@ There is a curtain here separating this section from the next.
 0 0 1717
 S
 #1717
-Büyük Kulübenin Arkası~
+BÃ¼yÃ¼k KulÃ¼benin ArkasÄ±~
 You are in the back of a large hut.  A curtain separates this section from
 the front of the hut to the east.  This room is finely decorated, if
 somewhat primitive.  The decor suggests someone of authority lives here.
@@ -1499,7 +1499,7 @@ There is a curtain here separating this room from the front of the hut.
 0 0 1716
 S
 #1720
-Kara Ormanda Doğu Yolu~
+Kara Ormanda DoÄŸu Yolu~
 You are on an east-west path through extremely old growths of oak.  The path
 is fairly faint here.  Undergrowth closes in so closely that little can
 be seen in any direction.
@@ -1517,7 +1517,7 @@ R 0 1644   0     	* It's too dark to see anything!
 O 0 1652   2 1608	* a barrel of ale
 O 0 1601   2 1627	* a rusty cleaver
 O 0 1651   1 1645	* a bronze chest
-P 1 1603   1 1651  1	*   a long çora dagger
+P 1 1603   1 1651  1	*   a long Ã§ora dagger
 M 0 1601   4 1620  2	* a killer frog
 M 0 1601   4 1620  2	* a killer frog
 M 0 1601   4 1621  2	* a killer frog

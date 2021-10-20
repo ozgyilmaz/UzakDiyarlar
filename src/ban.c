@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -56,13 +56,15 @@
 #include <sys/time.h>
 #endif
 #include <stdio.h>
+#include <wchar.h>
+#include <wctype.h>
 #include <string.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include "merc.h"
 #include "recycle.h"
 
-int unlink(const char *pathname);
+int unlink(const wchar_t *pathname);
 
 BAN_DATA *ban_list;
 
@@ -71,7 +73,7 @@ void save_bans(void)
     BAN_DATA *pban;
     FILE *fp;
     bool found = FALSE;
-    char buf[160];
+    wchar_t buf[160];
 
     fclose( fpReserve );
     if ( ( fp = fopen( BAN_FILE, "w" ) ) == NULL )
@@ -84,9 +86,9 @@ void save_bans(void)
 	if (IS_SET(pban->ban_flags,BAN_PERMANENT))
 	{
 	    found = TRUE;
-	    sprintf( buf, "%-20s %-2d %s\n\r", pban->name, pban->level,print_flags(pban->ban_flags) );
+	    swprintf( buf, MAX_STRING_LENGTH-1, L"%-20s %-2d %s\n\r", pban->name, pban->level,print_flags(pban->ban_flags) );
 	    dump_to_scr( buf );
-	    fprintf(fp,"%-20s %-2d %s\n",pban->name,pban->level,
+	    fwprintf(fp, L"%-20s %-2d %s\n",pban->name,pban->level,
 		print_flags(pban->ban_flags));
 	}
      }
@@ -97,7 +99,7 @@ void save_bans(void)
 	unlink(BAN_FILE);
 
      if ( fpReserve == NULL )
-	bug("ban_save: can't open null file.", 0 );
+	bug( L"ban_save: can't open null file.", 0 );
 }
 
 void load_bans(void)
@@ -133,13 +135,13 @@ void load_bans(void)
     }
 }
 
-bool check_ban(char *site,int type)
+bool check_ban(wchar_t *site,int type)
 {
     BAN_DATA *pban;
-    char host[MAX_STRING_LENGTH];
+    wchar_t host[MAX_STRING_LENGTH];
 
-    strcpy(host,capitalize(site));
-    host[0] = LOWER(host[0]);
+    wcscpy(host,capitalize(site));
+    host[0] = towlower(host[0]);
 
     for ( pban = ban_list; pban != NULL; pban = pban->next )
     {
@@ -148,7 +150,7 @@ bool check_ban(char *site,int type)
 
 	if (IS_SET(pban->ban_flags,BAN_PREFIX)
 	&&  IS_SET(pban->ban_flags,BAN_SUFFIX)
-	&&  strstr(pban->name,host) != NULL)
+	&&  wcsstr(pban->name,host) != NULL)
 	    return TRUE;
 
 	if (IS_SET(pban->ban_flags,BAN_PREFIX)
@@ -164,11 +166,11 @@ bool check_ban(char *site,int type)
 }
 
 
-void ban_site(CHAR_DATA *ch, char *argument, bool fPerm)
+void ban_site(CHAR_DATA *ch, wchar_t *argument, bool fPerm)
 {
-    char buf[MAX_STRING_LENGTH],buf2[MAX_STRING_LENGTH];
-    char arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
-    char *name;
+    wchar_t buf[MAX_STRING_LENGTH],buf2[MAX_STRING_LENGTH];
+    wchar_t arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
+    wchar_t *name;
     BUFFER *buffer;
     BAN_DATA *pban, *prev;
     bool prefix = FALSE,suffix = FALSE;
@@ -181,19 +183,19 @@ void ban_site(CHAR_DATA *ch, char *argument, bool fPerm)
     {
 	if (ban_list == NULL)
 	{
-	    send_to_char("Þu an yasaklý site yok.\n\r",ch);
+	    send_to_char( L"Åžu an yasaklÄ± site yok.\n\r",ch);
 	    return;
   	}
 	buffer = new_buf();
 
-        add_buf(buffer,(char*)"Banned sites  level  type     status\n\r");
+        add_buf(buffer,(wchar_t*)"Banned sites  level  type     status\n\r");
         for (pban = ban_list;pban != NULL;pban = pban->next)
         {
-	    sprintf(buf2,"%s%s%s",
+	    swprintf(buf2, MAX_STRING_LENGTH-1, L"%s%s%s",
 		IS_SET(pban->ban_flags,BAN_PREFIX) ? "*" : "",
 		pban->name,
 		IS_SET(pban->ban_flags,BAN_SUFFIX) ? "*" : "");
-	    sprintf(buf,"%-12s    %-3d  %-7s  %s\n\r",
+	    swprintf( buf, MAX_STRING_LENGTH-1, L"%-12s    %-3d  %-7s  %s\n\r",
 		buf2, pban->level,
 		IS_SET(pban->ban_flags,BAN_NEWBIES) ? "newbies" :
 		IS_SET(pban->ban_flags,BAN_PLAYER)  ? "player" :
@@ -209,17 +211,17 @@ void ban_site(CHAR_DATA *ch, char *argument, bool fPerm)
     }
 
     /* find out what type of ban */
-    if (arg2[0] == '\0' || !str_prefix(arg2,"all"))
+    if (arg2[0] == '\0' || !str_prefix(arg2, L"all"))
 	type = BAN_ALL;
-    else if (!str_prefix(arg2,"newbies"))
+    else if (!str_prefix(arg2, L"newbies"))
 	type = BAN_NEWBIES;
-    else if (!str_prefix(arg2,"player"))
+    else if (!str_prefix(arg2, L"player"))
 	type = BAN_PLAYER;
-    else if (!str_prefix(arg2,"permit"))
+    else if (!str_prefix(arg2, L"permit"))
 	type = BAN_PERMIT;
     else
     {
-	send_to_char("Acceptable ban types are all, newbies, player, and permit.\n\r",
+	send_to_char( L"Acceptable ban types are all, newbies, player, and permit.\n\r",
 	    ch);
 	return;
     }
@@ -232,26 +234,26 @@ void ban_site(CHAR_DATA *ch, char *argument, bool fPerm)
 	name++;
     }
 
-    if (name[strlen(name) - 1] == '*')
+    if (name[wcslen(name) - 1] == '*')
     {
 	suffix = TRUE;
-	name[strlen(name) - 1] = '\0';
+	name[wcslen(name) - 1] = '\0';
     }
 
-    if (strlen(name) == 0)
+    if (wcslen(name) == 0)
     {
-	send_to_char("Bir þeyi yasaklaman gerekiyor.\n\r",ch);
+	send_to_char( L"Bir ÅŸeyi yasaklaman gerekiyor.\n\r",ch);
 	return;
     }
 
     prev = NULL;
     for ( pban = ban_list; pban != NULL; prev = pban, pban = pban->next )
     {
-        if (!str_cmp(name,pban->name))
+        if (!wcscasecmp(name,pban->name))
         {
 	    if (pban->level > get_trust(ch))
 	    {
-            	send_to_char( "Bu yasak daha yüksek seviyeli biri tarafýndan koyulmuþ.\n\r", ch );
+            	send_to_char( L"Bu yasak daha yÃ¼ksek seviyeli biri tarafÄ±ndan koyulmuÅŸ.\n\r", ch );
             	return;
 	    }
 	    else
@@ -282,25 +284,25 @@ void ban_site(CHAR_DATA *ch, char *argument, bool fPerm)
     pban->next  = ban_list;
     ban_list    = pban;
     save_bans();
-    sprintf(buf,"%s has been banned.\n\r",pban->name);
+    swprintf( buf, MAX_STRING_LENGTH-1, L"%s has been banned.\n\r",pban->name);
     send_to_char( buf, ch );
     return;
 }
 
-void do_ban(CHAR_DATA *ch, char *argument)
+void do_ban(CHAR_DATA *ch, wchar_t *argument)
 {
     ban_site(ch,argument,FALSE);
 }
 
-void do_permban(CHAR_DATA *ch, char *argument)
+void do_permban(CHAR_DATA *ch, wchar_t *argument)
 {
     ban_site(ch,argument,TRUE);
 }
 
-void do_allow( CHAR_DATA *ch, char *argument )
+void do_allow( CHAR_DATA *ch, wchar_t *argument )
 {
-    char arg[MAX_INPUT_LENGTH];
-    char buf[MAX_STRING_LENGTH];
+    wchar_t arg[MAX_INPUT_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
     BAN_DATA *prev;
     BAN_DATA *curr;
 
@@ -308,19 +310,18 @@ void do_allow( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' )
     {
-        send_to_char( "Remove which site from the ban list?\n\r", ch );
+        send_to_char( L"Remove which site from the ban list?\n\r", ch );
         return;
     }
 
     prev = NULL;
     for ( curr = ban_list; curr != NULL; prev = curr, curr = curr->next )
     {
-        if ( !str_cmp( arg, curr->name ) )
+        if ( !wcscasecmp( arg, curr->name ) )
         {
 	    if (curr->level > get_trust(ch))
 	    {
-		send_to_char(
-		   "You are not powerful enough to lift that ban.\n\r",ch);
+		send_to_char( L"You are not powerful enough to lift that ban.\n\r",ch);
 		return;
 	    }
             if ( prev == NULL )
@@ -329,13 +330,13 @@ void do_allow( CHAR_DATA *ch, char *argument )
                 prev->next = curr->next;
 
             free_ban(curr);
-	    sprintf(buf,"Ban on %s lifted.\n\r",arg);
+	    swprintf( buf, MAX_STRING_LENGTH-1, L"Ban on %s lifted.\n\r",arg);
             send_to_char( buf, ch );
 	    save_bans();
             return;
         }
     }
 
-    send_to_char( "Bu site yasaklý deðil.\n\r", ch );
+    send_to_char( L"Bu site yasaklÄ± deÄŸil.\n\r", ch );
     return;
 }

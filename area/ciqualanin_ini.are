@@ -1,9 +1,9 @@
 #AREADATA
 Filename ciqualanin_ini.are~
-Name Ciquala'nın İni~
+Name Ciquala'nÄ±n Ä°ni~
 Builder Binky~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 40
 Highlevel 62
 Minvnum 13400
@@ -24,7 +24,7 @@ Further conversion to Rom 2.4 by Jaceks and Chicken's Den Staff~
 #13400
 lich gardiyan~
 Gardiyan Lich~
-Gardiyan Lich gölgelerin içinden fırlayıp saldırıyor!
+Gardiyan Lich gÃ¶lgelerin iÃ§inden fÄ±rlayÄ±p saldÄ±rÄ±yor!
 ~
 The Guardian lich looks like a decaying corpse, with small glowing points of
 light for eyes.
@@ -33,8 +33,8 @@ human~
 ABCF BJQT 43
 #13401
 vampir asistan~
-laboratuvar asistanı vampir~
-Bir laboratuvar asistanı sana doğru dönüp sivri dişlerini gösteriyor!
+laboratuvar asistanÄ± vampir~
+Bir laboratuvar asistanÄ± sana doÄŸru dÃ¶nÃ¼p sivri diÅŸlerini gÃ¶steriyor!
 ~
 This lab assistant was chosen from amongst the undead for both his knowledge
 of magic, and his rather nasty disposition.  He revels in creating loathesome,
@@ -43,9 +43,9 @@ twisted, warped creatures to serve Ciquala.
 human~
 ABCFH DFJ 40
 #13402
-saptırılmış yaratık kabus~
-saptırılmış bir kabus~
-Bir zamanlar bir kabusmuş gibi görünen saptırılmış bir yaratık burada.
+saptÄ±rÄ±lmÄ±ÅŸ yaratÄ±k kabus~
+saptÄ±rÄ±lmÄ±ÅŸ bir kabus~
+Bir zamanlar bir kabusmuÅŸ gibi gÃ¶rÃ¼nen saptÄ±rÄ±lmÄ±ÅŸ bir yaratÄ±k burada.
 ~
 This creature may resemble some kind of serpent, but some parts of it are
 covered with scales, and others with hair.  It's head has 1 large bulbous eye,
@@ -54,9 +54,9 @@ much like that of an insect.  Long talons reach out for you to shred you alive.
 human~
 AFGH DFT 50
 #13403
-itaatkar yaratık~
-itaatkar bir yaratık~
-Muhtemelen hatalı bir deneyin sonucunda ortaya çıkmış itaatkar bir yaratık burada.
+itaatkar yaratÄ±k~
+itaatkar bir yaratÄ±k~
+Muhtemelen hatalÄ± bir deneyin sonucunda ortaya Ã§Ä±kmÄ±ÅŸ itaatkar bir yaratÄ±k burada.
 ~
 The creature would probably not hurt a fly.  Actually, it is unaware of its own
 existence.
@@ -64,9 +64,9 @@ existence.
 human~
 AB HNO 45
 #13404
-siyah krema küfesi~
+siyah krema kÃ¼fesi~
 siyah krema~
-Bir küfe burada duruyor.
+Bir kÃ¼fe burada duruyor.
 ~
 As you examine this crate, a black tarlike substance seeps between the boards
 slowly eating the wood away.  It is a black pudding!
@@ -76,7 +76,7 @@ ABF 0 47
 #13405
 devasa mekanizma~
 devasa bir mekanizma~
-Devasa bir mekanizma yolunu tıkıyor.
+Devasa bir mekanizma yolunu tÄ±kÄ±yor.
 ~
 This gigantic construct is made of a metallic substance that you do not
 recognize.  He stands about 8' tall, brushing the ceiling.
@@ -86,7 +86,7 @@ AB H 59
 #13406
 hortlak gardiyan~
 hortlak gardiyan~
-Hortlak bir gardiyan sana doğru çığlık atıp saldırıyor!
+Hortlak bir gardiyan sana doÄŸru Ã§Ä±ÄŸlÄ±k atÄ±p saldÄ±rÄ±yor!
 ~
 This creature is a hovering dark shape.  It does not seem to have a body so
 to speak.  As it approaches you, a harsh chill makes you shiver.
@@ -94,9 +94,9 @@ to speak.  As it approaches you, a harsh chill makes you shiver.
 human~
 ABF BDT 55
 #13407
-çatı tavandaki tepedeki yukarıdaki pusucu~
+Ã§atÄ± tavandaki tepedeki yukarÄ±daki pusucu~
 tavandaki pusucu~
-Biri tavanda pusu kurmuş sinsice zayıf bir anını kolluyor.
+Biri tavanda pusu kurmuÅŸ sinsice zayÄ±f bir anÄ±nÄ± kolluyor.
 ~
 The ceiling appears rather shiny.  Not like dirt at all.  You suddenly realize
 that it isn't a ceiling, but a LURKER ABOVE!  You had better attack before
@@ -105,9 +105,9 @@ it drops on you!
 human~
 ABFH 0 37
 #13408
-vampir hizmetçi~
-bir vampir hizmetçi~
-Ciquala'nın vampir hizmetçilerinden biri burada, senin kanın için bariz bir açlık çekiyor.
+vampir hizmetÃ§i~
+bir vampir hizmetÃ§i~
+Ciquala'nÄ±n vampir hizmetÃ§ilerinden biri burada, senin kanÄ±n iÃ§in bariz bir aÃ§lÄ±k Ã§ekiyor.
 ~
 This vampire looks very pale and thin.  Ciquala has not been allowing him
 enough time at night to feed properly.  He is VERY happy that you walked in
@@ -116,9 +116,9 @@ on him.
 human~
 ABF BDFH 47
 #13409
-insan mekanizması~
-insan mekanizması~
-İnsan niyetine kullanılan şuursuz bir mekanizma burada duruyor.
+insan mekanizmasÄ±~
+insan mekanizmasÄ±~
+Ä°nsan niyetine kullanÄ±lan ÅŸuursuz bir mekanizma burada duruyor.
 ~
 This mindless lump of flesh used to be human.  It's flesh has been converted
 to a dull grey substance.  The automaton is very strong, and will be a fierce
@@ -127,9 +127,9 @@ opponent.
 human~
 ABF NO 42
 #13410
-insan mekanizması~
-insan mekanizması~
-İnsan niyetine kullanılan şuursuz bir mekanizma burada duruyor.
+insan mekanizmasÄ±~
+insan mekanizmasÄ±~
+Ä°nsan niyetine kullanÄ±lan ÅŸuursuz bir mekanizma burada duruyor.
 ~
 This mindless lump of flesh used to be human.  It's flesh has been converted
 to a dull grey substance.  The automaton is very strong, and will be a fierce
@@ -138,9 +138,9 @@ opponent.
 human~
 AB NO 43
 #13411
-insan mekanizması~
-insan mekanizması~
-İnsan niyetine kullanılan şuursuz bir mekanizma burada duruyor.
+insan mekanizmasÄ±~
+insan mekanizmasÄ±~
+Ä°nsan niyetine kullanÄ±lan ÅŸuursuz bir mekanizma burada duruyor.
 ~
 This mindless lump of flesh used to be human.  It's flesh has been converted
 to a dull grey substance.  The automaton is very strong, and will be a fierce
@@ -149,9 +149,9 @@ opponent.
 human~
 ABF NO 46
 #13412
-insan mekanizması~
-insan mekanizması~
-İnsan niyetine kullanılan şuursuz bir mekanizma burada duruyor.
+insan mekanizmasÄ±~
+insan mekanizmasÄ±~
+Ä°nsan niyetine kullanÄ±lan ÅŸuursuz bir mekanizma burada duruyor.
 ~
 This mindless lump of flesh used to be human.  It's flesh has been converted
 to a dull grey substance.  The automaton is very strong, and will be a fierce
@@ -160,9 +160,9 @@ opponent.
 human~
 ABF NO 49
 #13413
-işkenceci lich~
-işkenceci lich~
-Kapkara bir yaratık burada durmuş, gaddarca sana acı çektirmek için bekliyor.
+iÅŸkenceci lich~
+iÅŸkenceci lich~
+Kapkara bir yaratÄ±k burada durmuÅŸ, gaddarca sana acÄ± Ã§ektirmek iÃ§in bekliyor.
 ~
 You'd better not look to close, he may charm you.
 ~
@@ -170,8 +170,8 @@ human~
 ABF HJ 51
 #13414
 hortlak ejderha~
-Ciquala'nın Hortlak Ejderhası~
-Ciquala'nın hortlak ejderhası burada, taze bir cesedi emmekle meşgul.
+Ciquala'nÄ±n Hortlak EjderhasÄ±~
+Ciquala'nÄ±n hortlak ejderhasÄ± burada, taze bir cesedi emmekle meÅŸgul.
 ~
 This skeletal dragon is an ancient red dragon preserved through arcane magic.
 ~
@@ -180,8 +180,8 @@ ABF DFHJ 60
 #13415
 Ciquala lich~
 Lich Ciquala~
-Güçlü ve şeytani görünen bir lich burada duruyor. İsmi Ciquala, var olan tüm
-hortlakların en ihtiyarı.
+GÃ¼Ã§lÃ¼ ve ÅŸeytani gÃ¶rÃ¼nen bir lich burada duruyor. Ä°smi Ciquala, var olan tÃ¼m
+hortlaklarÄ±n en ihtiyarÄ±.
 ~
 Ciquala still looks majestic after all these thousands of years.  But you can
 see the menace in her eye as she looks at you, and prepares her first spell.
@@ -191,7 +191,7 @@ ABF DFHJT 62
 #13416
 lich~
 Lich~
-Lich senin bu mahzende ne aradığını merak ediyor.
+Lich senin bu mahzende ne aradÄ±ÄŸÄ±nÄ± merak ediyor.
 ~
 The Lich looks like a decaying corpse, with small glowing points of
 light for eyes.
@@ -201,7 +201,7 @@ ABCF BD 47
 #13417
 vampir~
 vampir~
-Vampir açlıktan tam anlamıyla kıvranıyor.
+Vampir aÃ§lÄ±ktan tam anlamÄ±yla kÄ±vranÄ±yor.
 ~
 The vampire looks incredibly strong.  He is wearing musty clothes, and has
 large fangs that seem to grow longer as he looks back at you.
@@ -210,8 +210,8 @@ human~
 ABCF BDT 57
 #13418
 vampir asistan~
-laboratuvar asistanı vampir~
-Bir laboratuvar asistanı sana doğru dönüp sivri dişlerini gösteriyor!
+laboratuvar asistanÄ± vampir~
+Bir laboratuvar asistanÄ± sana doÄŸru dÃ¶nÃ¼p sivri diÅŸlerini gÃ¶steriyor!
 ~
 This lab assistant was chosen from amongst the undead for both his knowledge
 of magic, and his rather nasty disposition.  She revels in creating loathesome,
@@ -224,9 +224,9 @@ ABCFH DFJ 32
 
 #OBJECTS
 #13400
-ciquala'nın kılıcı~
-Ciquala'nın kılıcı~
-Büyük, siyah bir kılıç burada uzanıyor.~
+ciquala'nÄ±n kÄ±lÄ±cÄ±~
+Ciquala'nÄ±n kÄ±lÄ±cÄ±~
+BÃ¼yÃ¼k, siyah bir kÄ±lÄ±Ã§ burada uzanÄ±yor.~
 iron~
 weapon BCHJM AN
 sword 5 13 slice C
@@ -244,9 +244,9 @@ A
 A
 5 2
 #13401
-ciquala'nın cüppesi~
-Ciquala'nın cüppesi~
-Ağır bir siyah kumaş yığını tozların içinde duruyor.~
+ciquala'nÄ±n cÃ¼ppesi~
+Ciquala'nÄ±n cÃ¼ppesi~
+AÄŸÄ±r bir siyah kumaÅŸ yÄ±ÄŸÄ±nÄ± tozlarÄ±n iÃ§inde duruyor.~
 leather~
 armor GHJM AK
 17 17 17 2 0
@@ -258,9 +258,9 @@ A
 A
 24 -10
 #13402
-Ciquala'nın asası~
-ciquala'nın asası~
-Siyah bir asa yerde uzanıyor.~
+Ciquala'nÄ±n asasÄ±~
+ciquala'nÄ±n asasÄ±~
+Siyah bir asa yerde uzanÄ±yor.~
 wood~
 staff GHJM AO
 40 20 20 'cure critical' 0
@@ -272,9 +272,9 @@ A
 A
 4 -2
 #13403
-sandık~
-sandık~
-Bir sandık burada duruyor.~
+sandÄ±k~
+sandÄ±k~
+Bir sandÄ±k burada duruyor.~
 iron~
 furniture 0 A
 2 2000 NO 100 100
@@ -296,9 +296,9 @@ key 0 A
 0 0 0 0 0
 1 0 0 P
 #13406
-anahtar büyük~
-büyük bir anahtar~
-Büyük bir anahtar yerde duruyor.~
+anahtar bÃ¼yÃ¼k~
+bÃ¼yÃ¼k bir anahtar~
+BÃ¼yÃ¼k bir anahtar yerde duruyor.~
 iron~
 key 0 A
 0 0 0 0 0
@@ -306,47 +306,47 @@ key 0 A
 #13407
 mavi iksir~
 mavi iksir~
-Mavi sıvıyla dolu bir şişe burada uzanıyor.~
+Mavi sÄ±vÄ±yla dolu bir ÅŸiÅŸe burada uzanÄ±yor.~
 glass~
 potion H A
 31 'acid blast' 'acute vision' 'detect hidden' 'detect invis'
 20 20 49900 P
 #13408
-zümrüt şişe~
-zümrüt bir şişe~
-Zümrüt bir şişe burada uzanıyor~
+zÃ¼mrÃ¼t ÅŸiÅŸe~
+zÃ¼mrÃ¼t bir ÅŸiÅŸe~
+ZÃ¼mrÃ¼t bir ÅŸiÅŸe burada uzanÄ±yor~
 glass~
 potion 0 A
 25 'heal' 'heal' 'blindness' ''
 20 20 3350 P
 #13410
-şeffaf test tüpü~
-şeffaf bir test tüpü~
-Şeffaf bir test tüpünün içinde ne olduğu belirsiz bir sıvı var.~
+ÅŸeffaf test tÃ¼pÃ¼~
+ÅŸeffaf bir test tÃ¼pÃ¼~
+Åeffaf bir test tÃ¼pÃ¼nÃ¼n iÃ§inde ne olduÄŸu belirsiz bir sÄ±vÄ± var.~
 glass~
 potion H A
 38 'burning hands' 'colour spray' 'protection evil' 'giant strength'
 20 20 3300 P
 #13411
-yeşil şişe~
-yeşil bir şişe~
-Yeşil bir şişe raflardan birine kurulmuş.~
+yeÅŸil ÅŸiÅŸe~
+yeÅŸil bir ÅŸiÅŸe~
+YeÅŸil bir ÅŸiÅŸe raflardan birine kurulmuÅŸ.~
 glass~
 potion 0 A
 28 'create spring' 'energy drain' 'poison' 'armor'
 20 20 2300 P
 #13412
-altınımsı sıvı şişe~
-altınımsı sıvıyla dolu bir şişe~
-Altın renkli sıvıyla dolu bir şişe yerde uzanıyor.~
+altÄ±nÄ±msÄ± sÄ±vÄ± ÅŸiÅŸe~
+altÄ±nÄ±msÄ± sÄ±vÄ±yla dolu bir ÅŸiÅŸe~
+AltÄ±n renkli sÄ±vÄ±yla dolu bir ÅŸiÅŸe yerde uzanÄ±yor.~
 glas~
 potion 0 A
 24 'weaken' 'poison' 'teleport' 'curse'
 20 20 4300 P
 #13413
-sütümsü sıvı şişe~
-sütümsü sıvıyla dolu bir şişe~
-Sütümsü sıvıyla dolu bir şişe raflardan birine kurulmuş.~
+sÃ¼tÃ¼msÃ¼ sÄ±vÄ± ÅŸiÅŸe~
+sÃ¼tÃ¼msÃ¼ sÄ±vÄ±yla dolu bir ÅŸiÅŸe~
+SÃ¼tÃ¼msÃ¼ sÄ±vÄ±yla dolu bir ÅŸiÅŸe raflardan birine kurulmuÅŸ.~
 glas~
 potion 0 A
 25 'heal' 'pass door' 'teleport' 'curse'
@@ -354,15 +354,15 @@ potion 0 A
 #13414
 siyah iksir~
 siyah iksir~
-Siyah bir iksir bir dikişte içilmeyi bekliyor.~
+Siyah bir iksir bir dikiÅŸte iÃ§ilmeyi bekliyor.~
 glass~
 potion 0 A
 25 'shield' 'infravision' 'cause critical' 'protection good'
 20 20 4900 P
 #13415
-sarı beher~
-sarı sıvıyla dolu bir beher~
-Kabarcıklar çıkartan sarı bir sıvıyla dolu beher tezgahın üzerinde duruyor.~
+sarÄ± beher~
+sarÄ± sÄ±vÄ±yla dolu bir beher~
+KabarcÄ±klar Ã§Ä±kartan sarÄ± bir sÄ±vÄ±yla dolu beher tezgahÄ±n Ã¼zerinde duruyor.~
 glass~
 potion 0 A
 22 'harm' 'poison' 'weaken' 'sleep'
@@ -370,7 +370,7 @@ potion 0 A
 #13416
 demir bakire~
 demir bakire~
-Hiç el değmemiş görünen bir demir bakire burada duruyor.  Denemek hoş olabilir..~
+HiÃ§ el deÄŸmemiÅŸ gÃ¶rÃ¼nen bir demir bakire burada duruyor.  Denemek hoÅŸ olabilir..~
 iron~
 armor 0 AD
 20 20 20 5 0
@@ -384,9 +384,9 @@ A
 A
 2 -1
 #13417
-işkencecinin kırbacı~
-işkencecinin kırbacı~
-Kocaman bir kırbaç buraya uzanmış.~
+iÅŸkencecinin kÄ±rbacÄ±~
+iÅŸkencecinin kÄ±rbacÄ±~
+Kocaman bir kÄ±rbaÃ§ buraya uzanmÄ±ÅŸ.~
 iron~
 weapon ABFG AN
 whip 5 10 chop C
@@ -398,57 +398,57 @@ A
 A
 17 -20
 #13418
-ganimet sikkeler altın~
-çok büyük bir altın yığını~
-Çok büyük bir altın yığını heyecanla sahiplenilmeyi bekliyor.~
+ganimet sikkeler altÄ±n~
+Ã§ok bÃ¼yÃ¼k bir altÄ±n yÄ±ÄŸÄ±nÄ±~
+Ã‡ok bÃ¼yÃ¼k bir altÄ±n yÄ±ÄŸÄ±nÄ± heyecanla sahiplenilmeyi bekliyor.~
 gold~
 money 0 A
 10000 0 0 0 0
 0 0 0 P
 #13419
-cevherler küme~
-bir cevher kümesi~
-Yerde bir cevher kümesi var.~
+cevherler kÃ¼me~
+bir cevher kÃ¼mesi~
+Yerde bir cevher kÃ¼mesi var.~
 iron~
 money A A
 20000 0 0 0 0
 0 0 0 P
 #13420
-sandık~
-sandık~
-Bir sandık burada duruyor.~
+sandÄ±k~
+sandÄ±k~
+Bir sandÄ±k burada duruyor.~
 iron~
 furniture 0 A
 2 2000 NO 100 100
 0 0 0 P
 #13421
-sandık~
-sandık~
-Bir sandık burada duruyor.~
+sandÄ±k~
+sandÄ±k~
+Bir sandÄ±k burada duruyor.~
 iron~
 furniture 0 A
 2 2000 NO 100 100
 0 0 0 P
 #13422
-sandık~
-sandık~
-Bir sandık burada duruyor.~
+sandÄ±k~
+sandÄ±k~
+Bir sandÄ±k burada duruyor.~
 iron~
 furniture 0 A
 2 2000 NO 100 100
 0 0 0 P
 #13423
-sandık~
-sandık~
-Bir sandık burada duruyor.~
+sandÄ±k~
+sandÄ±k~
+Bir sandÄ±k burada duruyor.~
 iron~
 furniture 0 A
 2 2000 NO 100 100
 0 0 0 P
 #13424
-köpüren sıvı şişe~
-köpüren bir sıvıyla dolu şişe~
-Köpüren bir sıvıyla dolu şişe burada uzanıyor.~
+kÃ¶pÃ¼ren sÄ±vÄ± ÅŸiÅŸe~
+kÃ¶pÃ¼ren bir sÄ±vÄ±yla dolu ÅŸiÅŸe~
+KÃ¶pÃ¼ren bir sÄ±vÄ±yla dolu ÅŸiÅŸe burada uzanÄ±yor.~
 glass~
 potion 0 A
 24 'word of recall' 'sleep' 'poison' 'cure poison'
@@ -456,7 +456,7 @@ potion 0 A
 #13425
 gri iksir~
 gri iksir~
-Gri bir iksir tezgaha kurulmuş.~
+Gri bir iksir tezgaha kurulmuÅŸ.~
 glass~
 potion 0 A
 23 'energy drain' 'energy drain' 'create food' 'create spring'
@@ -466,7 +466,7 @@ potion 0 A
 
 #ROOMS
 #13400
-Ağaçtaki büyük bir kovuk~
+AÄŸaÃ§taki bÃ¼yÃ¼k bir kovuk~
 You stand in a cramped space inside an old, gnarled tree.  A frigid
 breeze rises from the ground.
      There is a small (Glowing) (Humming) tablet.
@@ -500,7 +500,7 @@ small tablet~
 ~
 S
 #13401
-Karanlığın içine doğru alçalan bir merdiven!~
+KaranlÄ±ÄŸÄ±n iÃ§ine doÄŸru alÃ§alan bir merdiven!~
 You are climbing on a ladder.  Above you is a trapdoor.  Below you
 is only darkness, from which a frigid breeze blows.
 ~
@@ -515,7 +515,7 @@ D5
 0 -1 13402
 S
 #13402
-Karanlığın içine doğru alçalan bir merdiven!~
+KaranlÄ±ÄŸÄ±n iÃ§ine doÄŸru alÃ§alan bir merdiven!~
 You are climbing on a ladder.  Above you the ladder disappears in the
 dark.  Below is only darkness, from which a frigid breeze blows.
 ~
@@ -530,7 +530,7 @@ D5
 0 -1 13403
 S
 #13403
-Yerin derinliklerindeki tozlu bir tünel~
+Yerin derinliklerindeki tozlu bir tÃ¼nel~
 You stand in a tunnel that appears to have been dug out of the dirt.
 You do not understand what is keeping the tunnel walls from caving in.  This
 would probably be a very bad place to use a dispel magic spell!  You do see
@@ -551,7 +551,7 @@ D4
 0 -1 13402
 S
 #13404
-Ortasında büyük bir su birikintisi olan oda~
+OrtasÄ±nda bÃ¼yÃ¼k bir su birikintisi olan oda~
 This room has a large pool of black water in the center.  You see
 many runes and glyphs surrounding it.  The room is lit by torches held in
 sconces.  Each of these items in the room merits more investigation.
@@ -599,7 +599,7 @@ believe you could step into the pool, and appear in Lord British's castle.
 ~
 S
 #13405
-Ciquala'nın Laboratuvarı~
+Ciquala'nÄ±n LaboratuvarÄ±~
 This room is lined with shelves that contain a multitude of jars,
 boxes, vials, chests, tubes, glasses, beakers, and other assorted containers.
 You think that drinking the contents of any might have undesireable effects.
@@ -623,7 +623,7 @@ D3
 0 -1 13404
 S
 #13406
-Malzeme odası~
+Malzeme odasÄ±~
 This supply room keeps many of the items that are too large to fit in
 the laboratory itself.  You see several corpses that are preserved by the
 ever-present cold that you have encountered in every room in this tunnel
@@ -638,7 +638,7 @@ door~
 1 -1 13405
 S
 #13407
-Çalışma Hücresi~
+Ã‡alÄ±ÅŸma HÃ¼cresi~
 This is nothing more than a small room with a very heavy iron door
 closing it off from the laboratory.  This is where Ciquala's assistants keep
 the experiments they are working on.
@@ -650,7 +650,7 @@ celldoor~
 1 13404 13405
 S
 #13408
-Çalışma Hücresi~
+Ã‡alÄ±ÅŸma HÃ¼cresi~
 This is nothing more than a small room with a very heavy iron door
 closing it off from the laboratory.  This is where Ciquala's minions keep
 the experiments they are working on.
@@ -662,7 +662,7 @@ celldoor~
 1 13404 13405
 S
 #13409
-Gardiyan odası~
+Gardiyan odasÄ±~
 The occupants of this room were obviously left here by the Lich to
 keep intruders like you from bothering her, or learning her plans.  There
 are doors to both the east and west.
@@ -678,7 +678,7 @@ door~
 1 -1 13410
 S
 #13410
-Issız görünen bir tünel~
+IssÄ±z gÃ¶rÃ¼nen bir tÃ¼nel~
 This empty tunnel has doors leading in all directions.  The roof of
 the tunnel seems abnormally low and shiny, almost as if it is not dirt.  This
 room is also as cold as all the others were.
@@ -702,7 +702,7 @@ door~
 1 -1 13413
 S
 #13411
-Harita Odası~
+Harita OdasÄ±~
 This room is filled with maps, apparently containing some of Ciquala's
 plans.  You notice many maps of Lord British's castle.  You might be able to
 gain some information on Ciquala's plans, as well as learn your way through
@@ -733,7 +733,7 @@ door~
 1 -1 13410
 S
 #13413
-Zemininde parmaklıklar olan bir tünel~
+Zemininde parmaklÄ±klar olan bir tÃ¼nel~
 You see a grate on the floor.  When you look down it, you see several
 creatures below, humanoid, but you can't make out exactly what they are.
 There are also doors leading all directions but west.
@@ -757,7 +757,7 @@ grate~
 1 -1 13414
 S
 #13414
-Mekanizma Odası~
+Mekanizma OdasÄ±~
 You gasp as you realize that these pasty faced people do not seem to
 have a will of their own.  No doubt the work of the Lich.  If these
 monstrosities are allowed to escape into the world, they will cause no end
@@ -770,7 +770,7 @@ grate~
 1 -1 13413
 S
 #13415
-İşkence Meclisi~
+Ä°ÅŸkence Meclisi~
 This room is fitted with many instruments and tools designed to cause
 pain and fear in anyone who enters.  However, you don't pay as much attention
 to the racks and iron maidens as you would if were not for the lich in the
@@ -783,7 +783,7 @@ door~
 1 -1 13413
 S
 #13416
-Ciquala'nın Taht Odasının Girişi~
+Ciquala'nÄ±n Taht OdasÄ±nÄ±n GiriÅŸi~
 This does not look like any of the other rooms you have been in up till
 now.  The ceiling rises a full 40 feet in the air above you.  The walls are
 covered with murals proclaiming the might and majesty of Ciquala.  She does
@@ -801,7 +801,7 @@ D2
 0 -1 13417
 S
 #13417
-Ciquala'nın Taht Odası~
+Ciquala'nÄ±n Taht OdasÄ±~
 This room is clothed in darkness, and a chill eminates from the foul
 monarch of the undead.  A large tapestry hangs behind her throne.  The
 ceiling rises above you, hidden in the darkness beyond the range your
@@ -819,7 +819,7 @@ tapestry~
 1 13406 13418
 S
 #13418
-Ciquala'nın Ganimet Salonu~
+Ciquala'nÄ±n Ganimet Salonu~
 This room contains enough wealth to fund an army, perhaps a small
 kingdom.  Racks or weapons, and spellbooks, and potions, not to mention large
 piles of coins that cover the floor.  A large paving stone in this room seems
@@ -840,7 +840,7 @@ The paving stone seems to be masking a passage down into a pit below this room.
 ~
 S
 #13419
-Ciquala'nın Gizli Mahzeni~
+Ciquala'nÄ±n Gizli Mahzeni~
 This room contains several crypts where the lichs and vampires rest.
 Unfortunately, they all seem to be out of their crypts right now.
 ~

@@ -1,9 +1,9 @@
 #AREADATA
 Filename buyuk_gerighelm.are~
-Name Büyük Gerighelm~
+Name BÃ¼yÃ¼k Gerighelm~
 Builder Zarchon~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 1
 Highlevel 30
 Minvnum 7500
@@ -16,9 +16,9 @@ END
 
 #NEW_MOBILES
 #7500
-sincap küçük~
-küçük bir sincap~
-Küçük bir sincap burada neşeyle fındık kemiriyor.
+sincap kÃ¼Ã§Ã¼k~
+kÃ¼Ã§Ã¼k bir sincap~
+KÃ¼Ã§Ã¼k bir sincap burada neÅŸeyle fÄ±ndÄ±k kemiriyor.
 ~
 He is a Small squirrel, and he is SOO cute!
 ~
@@ -27,7 +27,7 @@ AG 0 1
 #7501
 ufak sincap~
 ufak bir sincap~
-Ufak bir sincap burada, kayaların arasında kaybettiği fındığını arıyor..
+Ufak bir sincap burada, kayalarÄ±n arasÄ±nda kaybettiÄŸi fÄ±ndÄ±ÄŸÄ±nÄ± arÄ±yor..
 ~
 He is about 2 1/2 inches high, and weighs about 7 ounces.
 He's got sharp teeth though....
@@ -35,9 +35,9 @@ He's got sharp teeth though....
 cat~
 AG 0 1
 #7502
-yılan yeşil küçük~
-küçük yeşil bir yılan~
-Küçük yeşil bir yılan burada, çimlerin arasında sürünüyor.
+yÄ±lan yeÅŸil kÃ¼Ã§Ã¼k~
+kÃ¼Ã§Ã¼k yeÅŸil bir yÄ±lan~
+KÃ¼Ã§Ã¼k yeÅŸil bir yÄ±lan burada, Ã§imlerin arasÄ±nda sÃ¼rÃ¼nÃ¼yor.
 ~
 His scales remind you of green mirrors.  There is something
 pretty about them though.
@@ -45,18 +45,18 @@ pretty about them though.
 snake~
 AG 0 1
 #7503
-kırlangıç kuş küçük~
-bir kırlangıç~
-Burada küçük bir kuş var. Biraz yaklaşınca, bir kırlangıç olduğunu anlıyorsun.
+kÄ±rlangÄ±Ã§ kuÅŸ kÃ¼Ã§Ã¼k~
+bir kÄ±rlangÄ±Ã§~
+Burada kÃ¼Ã§Ã¼k bir kuÅŸ var. Biraz yaklaÅŸÄ±nca, bir kÄ±rlangÄ±Ã§ olduÄŸunu anlÄ±yorsun.
 ~
 It's a swallow, what do you EXPECT to see???
 ~
 song bird~
 AG 0 1
 #7504
-güney kırlangıcı kırlangıç küçük kuş~
-bir Güney Kırlangıcı~
-Bir Güney Kırlangıcı burada....
+gÃ¼ney kÄ±rlangÄ±cÄ± kÄ±rlangÄ±Ã§ kÃ¼Ã§Ã¼k kuÅŸ~
+bir GÃ¼ney KÄ±rlangÄ±cÄ±~
+Bir GÃ¼ney KÄ±rlangÄ±cÄ± burada....
 ~
 An African Swallow is here.... Carrying a cocanut..... :)
 ~
@@ -65,34 +65,34 @@ AG 0 2
 #7505
 rakun kahverengi siyah~
 kahverengi - siyah bir rakun~
-Kahverengi - siyah bir rakun burada, çalıları didik didik ediyor.
+Kahverengi - siyah bir rakun burada, Ã§alÄ±larÄ± didik didik ediyor.
 ~
 He is very clean, must be from all those baths he gives his food...
 ~
 fox~
 AG 0 2
 #7506
-köstebek~
-bir köstebek~
-Bir köstebek burada.  Tabi ki çukur kazıyor..
+kÃ¶stebek~
+bir kÃ¶stebek~
+Bir kÃ¶stebek burada.  Tabi ki Ã§ukur kazÄ±yor..
 ~
 He is doing.. Well... Well, whatever ground-hogs DO, of course!
 ~
 cat~
 AG 0 2
 #7507
-tarla faresi küçük~
+tarla faresi kÃ¼Ã§Ã¼k~
 bir tarla faresi~
-Bir tarla faresi burada. Gerçekten küçücük...
+Bir tarla faresi burada. GerÃ§ekten kÃ¼Ã§Ã¼cÃ¼k...
 ~
 He's small, and it is hard to see him clearly...
 ~
 fox~
 AG 0 1
 #7508
-kanatlı sincap~
-bir kanatlı sincap~
-Bir kanatlı sincap havada süzülüyor.
+kanatlÄ± sincap~
+bir kanatlÄ± sincap~
+Bir kanatlÄ± sincap havada sÃ¼zÃ¼lÃ¼yor.
 ~
 He's small, furry, and brown.  Makes you wish you could step on him-except
 he's flying, and you're not.  We should fix this...
@@ -100,9 +100,9 @@ he's flying, and you're not.  We should fix this...
 song bird~
 AG T 2
 #7509
-gözleri parıldayan aşık~
-gözleri parıldayan bir aşık~
-Gözleri parıldayan bir aşık buradaki parkta gezintiye çıkmış.
+gÃ¶zleri parÄ±ldayan aÅŸÄ±k~
+gÃ¶zleri parÄ±ldayan bir aÅŸÄ±k~
+GÃ¶zleri parÄ±ldayan bir aÅŸÄ±k buradaki parkta gezintiye Ã§Ä±kmÄ±ÅŸ.
 ~
 He is tall, and very handsome.  You feel that the object of his affections
 must be feeling very good.
@@ -110,9 +110,9 @@ must be feeling very good.
 human~
 AG 0 4
 #7510
-gözleri parıldayan aşık~
-gözleri parıldayan bir aşık~
-Gözleri parıldayan bir aşık neşeyle kendi kendine konuşup gülüyor.
+gÃ¶zleri parÄ±ldayan aÅŸÄ±k~
+gÃ¶zleri parÄ±ldayan bir aÅŸÄ±k~
+GÃ¶zleri parÄ±ldayan bir aÅŸÄ±k neÅŸeyle kendi kendine konuÅŸup gÃ¼lÃ¼yor.
 ~
 She is young, beautiful, smart--- Kinda makes you jealous of the guy who
 has nabbed her..
@@ -120,54 +120,54 @@ has nabbed her..
 human~
 AG 0 4
 #7511
-bitkibilimcinin çırağı genç~
-Bitkibilimcinin çıraklarından biri~
-Bitkibilimcinin çıraklarından biri burada.
+bitkibilimcinin Ã§Ä±raÄŸÄ± genÃ§~
+Bitkibilimcinin Ã§Ä±raklarÄ±ndan biri~
+Bitkibilimcinin Ã§Ä±raklarÄ±ndan biri burada.
 ~
 He is collecting herbs for use in his training, and his mentors work.
 ~
 human~
 AG 0 6
 #7512
-su yılanı~
-su yılanı~
-Bir su yılanı burada yüzüyor.
+su yÄ±lanÄ±~
+su yÄ±lanÄ±~
+Bir su yÄ±lanÄ± burada yÃ¼zÃ¼yor.
 ~
 He has green scales,  almost like his cousin in the Park.
 ~
 snake~
 AG 0 6
 #7513
-keskin dişli balık küçük~
-küçük keskin dişli bir balık~
-Küçük bir balık burada özgürce yüzüyor.
+keskin diÅŸli balÄ±k kÃ¼Ã§Ã¼k~
+kÃ¼Ã§Ã¼k keskin diÅŸli bir balÄ±k~
+KÃ¼Ã§Ã¼k bir balÄ±k burada Ã¶zgÃ¼rce yÃ¼zÃ¼yor.
 ~
 He has many small sharp pointy teeth in his mouth.
 ~
 fish~
 AG 0 6
 #7514
-orta boy balık~
-orta boy keskin dişli bir balık~
-Orta boy bir balık burada özgürce yüzüyor.
+orta boy balÄ±k~
+orta boy keskin diÅŸli bir balÄ±k~
+Orta boy bir balÄ±k burada Ã¶zgÃ¼rce yÃ¼zÃ¼yor.
 ~
 He has many medium sharp pointy teeth in his mouth.
 ~
 fish~
 AG 0 7
 #7515
-keskin dişli balık büyük~
-büyük keskin dişli bir balık~
-BÜYÜK, keskin dişli bir balık burada özgürce yüzüyor.
+keskin diÅŸli balÄ±k bÃ¼yÃ¼k~
+bÃ¼yÃ¼k keskin diÅŸli bir balÄ±k~
+BÃœYÃœK, keskin diÅŸli bir balÄ±k burada Ã¶zgÃ¼rce yÃ¼zÃ¼yor.
 ~
 He has MANY, MANY,  sharp pointy teeth of the medium type....
 ~
 fish~
 AG 0 8
 #7516
-altın balığı küçük mutlu~
-bir altın balığı~
-Mutlu bir altın balığı burada, mutlu olmakla meşgul..
+altÄ±n balÄ±ÄŸÄ± kÃ¼Ã§Ã¼k mutlu~
+bir altÄ±n balÄ±ÄŸÄ±~
+Mutlu bir altÄ±n balÄ±ÄŸÄ± burada, mutlu olmakla meÅŸgul..
 ~
 Aw, the little fella must have been dumped here, all alone, to care for
 himself.  You should help him...
@@ -175,18 +175,18 @@ himself.  You should help him...
 fish~
 AG 0 5
 #7517
-süs balığı küçük mutlu~
-bir süs balığı~
-Mutlu bir süs balığı burada, öyle MUTLU ki sorma!
+sÃ¼s balÄ±ÄŸÄ± kÃ¼Ã§Ã¼k mutlu~
+bir sÃ¼s balÄ±ÄŸÄ±~
+Mutlu bir sÃ¼s balÄ±ÄŸÄ± burada, Ã¶yle MUTLU ki sorma!
 ~
 He is almost as cute as the goldfish.  You should help him too.
 ~
 fish~
 AG 0 5
 #7518
-balık körelmiş dişli~
-körelmiş dişli bir balık~
-Körelmiş dişli bir balık burada, bulduğu otları çiğniyor.
+balÄ±k kÃ¶relmiÅŸ diÅŸli~
+kÃ¶relmiÅŸ diÅŸli bir balÄ±k~
+KÃ¶relmiÅŸ diÅŸli bir balÄ±k burada, bulduÄŸu otlarÄ± Ã§iÄŸniyor.
 ~
 This is getting silly, first small fish with pointy teeth, then medium ones,
 and the LARGE ones,  AND NOW!  BLUNTED TEETHED ONES!
@@ -195,45 +195,45 @@ It's enough to make you sick....
 fish~
 AG 0 6
 #7519
-iğrenç umacı~
-bir umacı~
-İĞRENÇ bir umacı burada, kendi çapında entrika planları yapıyor.
+iÄŸrenÃ§ umacÄ±~
+bir umacÄ±~
+Ä°ÄRENÃ‡ bir umacÄ± burada, kendi Ã§apÄ±nda entrika planlarÄ± yapÄ±yor.
 ~
 He looks evil, and mean.  You wonder what he is planning to do down here..
 ~
 human~
 AG 0 9
 #7520
-temizlikçi solucan~
-bir temizlikçi solucan~
-BÜYÜK bir temizlikçi solucan burada!
+temizlikÃ§i solucan~
+bir temizlikÃ§i solucan~
+BÃœYÃœK bir temizlikÃ§i solucan burada!
 ~
 Now you know why these tunnels are so clean.
 ~
 snake~
 96 552 10
 #7521
-vatandaş adam erkek~
-bir Gerighelm vatandaşı~
-Güzel Gerighelm şehrinin vatandaşlarından biri burada, işleriyle meşgul oluyor.
+vatandaÅŸ adam erkek~
+bir Gerighelm vatandaÅŸÄ±~
+GÃ¼zel Gerighelm ÅŸehrinin vatandaÅŸlarÄ±ndan biri burada, iÅŸleriyle meÅŸgul oluyor.
 ~
 The citizen of Gerighelm looks happy, and contented.
 ~
 human~
 AGE 0 6
 #7522
-vatandaş kadın~
-bir Gerighelm vatandaşı~
-Güzel Gerighelm şehrinin vatandaşlarından biri burada, alışveriş pazarlığı yapıyor.
+vatandaÅŸ kadÄ±n~
+bir Gerighelm vatandaÅŸÄ±~
+GÃ¼zel Gerighelm ÅŸehrinin vatandaÅŸlarÄ±ndan biri burada, alÄ±ÅŸveriÅŸ pazarlÄ±ÄŸÄ± yapÄ±yor.
 ~
 She looks very worn from all this haggling.  But she is happy nonetheless.
 ~
 human~
 A G 7
 #7523
-müzisyen ozan~
-bir müzisyen~
-Bir müzisyen burada, güzel bir akşam yemeği hakkında şarkı söylüyor.
+mÃ¼zisyen ozan~
+bir mÃ¼zisyen~
+Bir mÃ¼zisyen burada, gÃ¼zel bir akÅŸam yemeÄŸi hakkÄ±nda ÅŸarkÄ± sÃ¶ylÃ¼yor.
 ~
 His voice is clear and strong.  It makes you want to join in the song
 (and buy him dinner...)
@@ -241,9 +241,9 @@ His voice is clear and strong.  It makes you want to join in the song
 human~
 AG 0 10
 #7524
-kocakarı yaşlı~
-bir kocakarı~
-Yaşlı bir kocakarı burada, çocuklara küfrediyor...
+kocakarÄ± yaÅŸlÄ±~
+bir kocakarÄ±~
+YaÅŸlÄ± bir kocakarÄ± burada, Ã§ocuklara kÃ¼frediyor...
 ~
 She is wrinkled and bent.  She is also loud.....
 ~
@@ -252,7 +252,7 @@ AG 0 11
 #7525
 kel ihtiyar~
 kel bir ihtiyar~
-Kel bir ihtiyar burada, konuşup duruyor.
+Kel bir ihtiyar burada, konuÅŸup duruyor.
 ~
 He is telling everyone in earshot how he defeated the red dragon and then
 stayed to play with the kings wife.....
@@ -260,9 +260,9 @@ stayed to play with the kings wife.....
 human~
 AG 0 13
 #7526
-çocuk küçük erkek~
-küçük bir erkek çocuğu~
-Küçük bir erkek çocuğu burada bilyeleriyle oynuyor.
+Ã§ocuk kÃ¼Ã§Ã¼k erkek~
+kÃ¼Ã§Ã¼k bir erkek Ã§ocuÄŸu~
+KÃ¼Ã§Ã¼k bir erkek Ã§ocuÄŸu burada bilyeleriyle oynuyor.
 ~
 He has a nice bag of marbles.  Some are red, some are blue, some are green
 with a curlycue.....
@@ -270,18 +270,18 @@ with a curlycue.....
 human~
 AG 0 4
 #7527
-çocuk küçük kız~
-küçük bir kız çocuğu~
-Küçük bir kız çocuğu burada oyuncak bebeğiyle konuşuyor.
+Ã§ocuk kÃ¼Ã§Ã¼k kÄ±z~
+kÃ¼Ã§Ã¼k bir kÄ±z Ã§ocuÄŸu~
+KÃ¼Ã§Ã¼k bir kÄ±z Ã§ocuÄŸu burada oyuncak bebeÄŸiyle konuÅŸuyor.
 ~
 She is telling her doll The Facts Of Life....
 ~
 human~
 AG 0 4
 #7528
-çaylak muhafız~
-bir çaylak muhafız~
-Gerighelm'in çaylak muhafızlarından biri burada, cesur ve kontrollü görünmeye çalışıyor.
+Ã§aylak muhafÄ±z~
+bir Ã§aylak muhafÄ±z~
+Gerighelm'in Ã§aylak muhafÄ±zlarÄ±ndan biri burada, cesur ve kontrollÃ¼ gÃ¶rÃ¼nmeye Ã§alÄ±ÅŸÄ±yor.
 ~
 Hmm.  This is the new idea that the duke of Gerighelm has. It keeps youth
 Off The Streets...
@@ -289,45 +289,45 @@ Off The Streets...
 human~
 AGT 0 15
 #7529
-genç kadın~
-genç bir kadın~
-Genç bir kadın burada yoldan geçenlerle flört ediyor.
+genÃ§ kadÄ±n~
+genÃ§ bir kadÄ±n~
+GenÃ§ bir kadÄ±n burada yoldan geÃ§enlerle flÃ¶rt ediyor.
 ~
 She is about 16. And VERY attractive.
 ~
 human~
 AGT 0 14
 #7530
-muhafız şehir muhafızı gerighelm~
-bir Gerighelm şehir muhafızı~
-Bir Gerighelm şehir muhafızı burada, masumları koruyor.
+muhafÄ±z ÅŸehir muhafÄ±zÄ± gerighelm~
+bir Gerighelm ÅŸehir muhafÄ±zÄ±~
+Bir Gerighelm ÅŸehir muhafÄ±zÄ± burada, masumlarÄ± koruyor.
 ~
 He is large and strong.  You are glad that he's a Good Guy....
 ~
 human~
 AGT 0 15
 #7531
-muhafız şehir muhafızı gerighelm~
-bir Gerighelm şehir muhafızı~
-Bir Gerighelm şehir muhafızı burada, masumları koruyor.
+muhafÄ±z ÅŸehir muhafÄ±zÄ± gerighelm~
+bir Gerighelm ÅŸehir muhafÄ±zÄ±~
+Bir Gerighelm ÅŸehir muhafÄ±zÄ± burada, masumlarÄ± koruyor.
 ~
 He is large and strong.  You are glad that he's a Good Guy....
 ~
 human~
 AGT 0 16
 #7532
-muhafız şehir muhafızı gerighelm~
-bir Gerighelm şehir muhafızı~
-Bir Gerighelm şehir muhafızı burada, masumları koruyor.
+muhafÄ±z ÅŸehir muhafÄ±zÄ± gerighelm~
+bir Gerighelm ÅŸehir muhafÄ±zÄ±~
+Bir Gerighelm ÅŸehir muhafÄ±zÄ± burada, masumlarÄ± koruyor.
 ~
 He is large and strong.  You are glad that he's a Good Guy....
 ~
 human~
 AGT 0 17
 #7533
-ale-uzmanı ale uzmanı~
-ale-uzmanı~
-Ale-Uzmanı burada, denediği içkilerin ardından ayılmaya çalışıyor...
+ale-uzmanÄ± ale uzmanÄ±~
+ale-uzmanÄ±~
+Ale-UzmanÄ± burada, denediÄŸi iÃ§kilerin ardÄ±ndan ayÄ±lmaya Ã§alÄ±ÅŸÄ±yor...
 ~
 His job is to inspect the wine, cider, and beer of the town.
 He does his job well.....
@@ -353,108 +353,108 @@ He is worn, and tired.  But he still stays at his job!
 human~
 AGT 0 20
 #7536
-saray muhafızı~
-bir saray muhafızı~
-Bir saray muhafızı burada azametle yükseliyor.
+saray muhafÄ±zÄ±~
+bir saray muhafÄ±zÄ±~
+Bir saray muhafÄ±zÄ± burada azametle yÃ¼kseliyor.
 ~
 He looks happy with life-- As he is in the best position to enjoy it..
 ~
 human~
 AGT 0 20
 #7537
-saray muhafızı~
-bir saray muhafızı~
-Bir saray muhafızı burada azametle yükseliyor.
+saray muhafÄ±zÄ±~
+bir saray muhafÄ±zÄ±~
+Bir saray muhafÄ±zÄ± burada azametle yÃ¼kseliyor.
 ~
 He looks happy with life-- As he is in the best position to enjoy it..
 ~
 human~
 AGT 0 21
 #7538
-aşçı~
-aşçı~
-Aşçı burada yeni yemek tarifleri üzerine düşüncelere dalmış.
+aÅŸÃ§Ä±~
+aÅŸÃ§Ä±~
+AÅŸÃ§Ä± burada yeni yemek tarifleri Ã¼zerine dÃ¼ÅŸÃ¼ncelere dalmÄ±ÅŸ.
 ~
 He looks like one of his creampuffs.  To bad he doesn't know how to diet...
 ~
 human~
 AGT 0 22
 #7539
-saray büyücüsü~
-saray büyücüsü~
-Saray büyücüsü burada büyülerini pratik ediyor.
+saray bÃ¼yÃ¼cÃ¼sÃ¼~
+saray bÃ¼yÃ¼cÃ¼sÃ¼~
+Saray bÃ¼yÃ¼cÃ¼sÃ¼ burada bÃ¼yÃ¼lerini pratik ediyor.
 ~
 He is the standard wizard:  Old, decrepit, exceedingly powerful...
 ~
-çora~
+Ã§ora~
 AGHR B 23
 #7540
 saray rahibi~
 saray rahibi~
-Bu sarayın rahibi burada, Tanrısına aşırı bir adanmışlıkla dua ediyor.
+Bu sarayÄ±n rahibi burada, TanrÄ±sÄ±na aÅŸÄ±rÄ± bir adanmÄ±ÅŸlÄ±kla dua ediyor.
 ~
 He is the standard priest:  Old, fatherly looking, REAL powerful...
 ~
 human~
 ABGR BH 23
 #7550
-baş muhafız~
-baş muhafız~
-Muhafızların başı burada--TANRIM gerçekten DEV GİBİ!
+baÅŸ muhafÄ±z~
+baÅŸ muhafÄ±z~
+MuhafÄ±zlarÄ±n baÅŸÄ± burada--TANRIM gerÃ§ekten DEV GÄ°BÄ°!
 ~
 He's HUGE!!!!
 ~
 human~
 AGT 0 23
 #7551
-saray bahçıvanı~
-saray bahçıvanı~
-Saray bahçıvanı burada soğuk kanlılıkla yabani otları yoluyor.
+saray bahÃ§Ä±vanÄ±~
+saray bahÃ§Ä±vanÄ±~
+Saray bahÃ§Ä±vanÄ± burada soÄŸuk kanlÄ±lÄ±kla yabani otlarÄ± yoluyor.
 ~
 He is grabbing weeds like there is no tomorrow...
 ~
 human~
 AGT 0 23
 #7552
-özel koruma~
-bir özel koruma~
-Bir özel koruma burada Dük'ü koruyor.
+Ã¶zel koruma~
+bir Ã¶zel koruma~
+Bir Ã¶zel koruma burada DÃ¼k'Ã¼ koruyor.
 ~
 He looks like he will give his life for his Duke.
 ~
 human~
 AGT 0 24
 #7553
-özel koruma~
-bir özel koruma~
-Bir özel koruma burada Dük'ünü koruyor.
+Ã¶zel koruma~
+bir Ã¶zel koruma~
+Bir Ã¶zel koruma burada DÃ¼k'Ã¼nÃ¼ koruyor.
 ~
 He looks like he will give his life for his Duke.
 ~
 human~
 AGT 0 25
 #7554
-dük gerighelm~
-Gerighelm Dükü~
-Gerighelm Dükü burada, görkemli topraklarını seyre dalmış.
+dÃ¼k gerighelm~
+Gerighelm DÃ¼kÃ¼~
+Gerighelm DÃ¼kÃ¼ burada, gÃ¶rkemli topraklarÄ±nÄ± seyre dalmÄ±ÅŸ.
 ~
 He looks worn, but happy.
 ~
 human~
 ABGRT 0 30
 #7555
-düşes gerighelm~
-Gerighelm Düşesi~
-Gerighelm Düşesi burada, gece baloları ve benzeri şeyleri düşünüyor.
+dÃ¼ÅŸes gerighelm~
+Gerighelm DÃ¼ÅŸesi~
+Gerighelm DÃ¼ÅŸesi burada, gece balolarÄ± ve benzeri ÅŸeyleri dÃ¼ÅŸÃ¼nÃ¼yor.
 ~
 She is a VERY social person...
 ~
 human~
 ABGR 0 25
 #7590
-hizmetçi~
-bir hizmetçi~
-Dükün hizmetçilerinden biri burada, görevinin hakkını vermeye çalışıyor.
+hizmetÃ§i~
+bir hizmetÃ§i~
+DÃ¼kÃ¼n hizmetÃ§ilerinden biri burada, gÃ¶revinin hakkÄ±nÄ± vermeye Ã§alÄ±ÅŸÄ±yor.
 ~
 He looks at you and says, what are you doing here?
 ~
@@ -463,16 +463,16 @@ AG 0 20
 #7591
 yankesici~
 bir yankesici~
-Bir yankesici burada, gizlenmeye çalışıyor.
+Bir yankesici burada, gizlenmeye Ã§alÄ±ÅŸÄ±yor.
 ~
 Well, COUNT your money!
 ~
 human~
 ACHS PQ 10
 #7592
-fırıncı~
-bir fırıncı~
-Gerighelm'in fırıncısı burada, bir şeyler satmakla meşgul.
+fÄ±rÄ±ncÄ±~
+bir fÄ±rÄ±ncÄ±~
+Gerighelm'in fÄ±rÄ±ncÄ±sÄ± burada, bir ÅŸeyler satmakla meÅŸgul.
 ~
 He looks like a friendly old man who likes to bake.
 ~
@@ -481,7 +481,7 @@ ABV 0 50
 #7593
 demirci vendy~
 demirci Vendy~
-Demirci Vendy burada, bir şeyler satarken örsüne vurmayı da ihmal etmiyor.
+Demirci Vendy burada, bir ÅŸeyler satarken Ã¶rsÃ¼ne vurmayÄ± da ihmal etmiyor.
 ~
 The way she is pounding her anvil makes you want to be on his good side.
 The main reason, is that I doubt the anvil can take much more of her pounding.
@@ -489,27 +489,27 @@ The main reason, is that I doubt the anvil can take much more of her pounding.
 human~
 ABTV 0 50
 #7594
-büyücü~
-büyücü~
-Büyücü burada, bir şeyler satmakla meşgul.
+bÃ¼yÃ¼cÃ¼~
+bÃ¼yÃ¼cÃ¼~
+BÃ¼yÃ¼cÃ¼ burada, bir ÅŸeyler satmakla meÅŸgul.
 ~
 He is a powerful old coot....
 ~
-çora~
+Ã§ora~
 ABV D 50
 #7595
-rehin dükkanı sahibi~
-rehin dükkanı sahibi~
-Rehin dükkanı sahibi bir şeyler alıp satıyor.
+rehin dÃ¼kkanÄ± sahibi~
+rehin dÃ¼kkanÄ± sahibi~
+Rehin dÃ¼kkanÄ± sahibi bir ÅŸeyler alÄ±p satÄ±yor.
 ~
 He looks almost like the pawn...
 ~
 human~
 ABV 0 50
 #7597
-tüccar~
-tüccar~
-Tüccar burada bazı mallarını satıyor.
+tÃ¼ccar~
+tÃ¼ccar~
+TÃ¼ccar burada bazÄ± mallarÄ±nÄ± satÄ±yor.
 ~
 HE'S A MERCHANT!
 ~
@@ -518,25 +518,25 @@ AV 0 40
 #7604
 bitki bilimci bitkibilimci~
 bitkibilimci~
-Bitkibilimci burada şifalı bitkiler satıyor.
+Bitkibilimci burada ÅŸifalÄ± bitkiler satÄ±yor.
 ~
 She looks like she is happy with her lot in life.
 ~
 human~
 ABV 0 30
 #7609
-hayvan satıcısı~
-hayvan satıcısı~
-Hayvan satıcısı burada evcil hayvanları pazarlamakla meşgul.
+hayvan satÄ±cÄ±sÄ±~
+hayvan satÄ±cÄ±sÄ±~
+Hayvan satÄ±cÄ±sÄ± burada evcil hayvanlarÄ± pazarlamakla meÅŸgul.
 ~
 He is covered in his stock..
 ~
 human~
 ABV 0 40
 #7610
-büyücü cadı kocakarı~
-büyücü kocakarı~
-Yaşlı Cadı burada, bir şeyler satmakla meşgul.
+bÃ¼yÃ¼cÃ¼ cadÄ± kocakarÄ±~
+bÃ¼yÃ¼cÃ¼ kocakarÄ±~
+YaÅŸlÄ± CadÄ± burada, bir ÅŸeyler satmakla meÅŸgul.
 ~
 She is old, and ugly- very good witch material...
 ~
@@ -545,16 +545,16 @@ ABV D 40
 #7698
 atmaca~
 bir atmaca~
-Sahibine oldukça sadık görünen bir atmaca burada.
+Sahibine oldukÃ§a sadÄ±k gÃ¶rÃ¼nen bir atmaca burada.
 ~
 The hawk glares at you.
 ~
 song bird~
 AG 0 20
 #7699
-ölüm~
-Ölüm~
-Ölüm burada seni bekliyor.
+Ã¶lÃ¼m~
+Ã–lÃ¼m~
+Ã–lÃ¼m burada seni bekliyor.
 ~
 It is strong, impertubable looking creature. It notice that you look at its,
 and it says: 'Have a nice day'. Hm?... Death is your only way, probably...
@@ -574,9 +574,9 @@ food 0 A
 20 20 0 0 0
 1 1 2 P
 #7501
-elmalı turta~
-bir elmalı turta~
-Bir elmalı turta burada.~
+elmalÄ± turta~
+bir elmalÄ± turta~
+Bir elmalÄ± turta burada.~
 food~
 food 0 A
 40 40 0 0 0
@@ -584,23 +584,23 @@ food 0 A
 #7502
 pancar~
 bir pancar~
-Burada bir pancar yetişmiş.~
+Burada bir pancar yetiÅŸmiÅŸ.~
 food~
 food 0 A
 50 50 0 A 0
 1 4 40 P
 #7503
-havuç~
-bir havuç~
-Bir havuç burada duruyor.~
+havuÃ§~
+bir havuÃ§~
+Bir havuÃ§ burada duruyor.~
 food~
 food 0 A
 20 20 0 0 0
 1 4 10 P
 #7504
-bira şişe~
-bir şişe bira~
-Bir şişe bira burada unutulmuş.~
+bira ÅŸiÅŸe~
+bir ÅŸiÅŸe bira~
+Bir ÅŸiÅŸe bira burada unutulmuÅŸ.~
 glass~
 drink 0 A
 2 2 'beer' 0 0
@@ -614,41 +614,41 @@ drink 0 A
 25 25 'water' 0 0
 0 5 100 P
 #7507
-kuvvetlendirici bitkiler kırmızı demet~
-bir demet kırmızı bitki~
-Bir demet kuvvetlendirici bitki burada yetişmiş.~
+kuvvetlendirici bitkiler kÄ±rmÄ±zÄ± demet~
+bir demet kÄ±rmÄ±zÄ± bitki~
+Bir demet kuvvetlendirici bitki burada yetiÅŸmiÅŸ.~
 food~
 pill 0 A
 2 'giant strength' 'refresh' 'haste' ''
 1 15 855 P
 #7508
-şifalı bitkiler yeşil demet~
-bir demet yeşil bitki~
-Bir demet şifalı bitki burada yetişmiş.~
+ÅŸifalÄ± bitkiler yeÅŸil demet~
+bir demet yeÅŸil bitki~
+Bir demet ÅŸifalÄ± bitki burada yetiÅŸmiÅŸ.~
 food~
 pill 0 A
 1 'cure critical' 'remove curse' 'cure poison' 'cure disease'
 1 20 437 P
 #7509
-tuhaf bitkiler yeşil demet~
-bir bitki kümesi~
-Bir tuhaf bitki kümesi burada yetişmiş.~
+tuhaf bitkiler yeÅŸil demet~
+bir bitki kÃ¼mesi~
+Bir tuhaf bitki kÃ¼mesi burada yetiÅŸmiÅŸ.~
 food~
 pill 0 A
 11 'detect hidden' 'acute vision' 'detect invis' 'poison'
 5 10 494 P
 #7511
-ceset süs balığı cesedi~
-bir süs balığı cesedi~
-Bir süs balığı cesedi burada. Tek yaptığı ölü gibi uzanmak.~
+ceset sÃ¼s balÄ±ÄŸÄ± cesedi~
+bir sÃ¼s balÄ±ÄŸÄ± cesedi~
+Bir sÃ¼s balÄ±ÄŸÄ± cesedi burada. Tek yaptÄ±ÄŸÄ± Ã¶lÃ¼ gibi uzanmak.~
 food~
 food 0 A
 4 4 0 0 0
 1 10 0 P
 #7512
-ceset altın balığı cesedi~
-bir altın balığı cesedi~
-bir altın balığı cesedi burada.  Öleli epey bir süre olmuş..~
+ceset altÄ±n balÄ±ÄŸÄ± cesedi~
+bir altÄ±n balÄ±ÄŸÄ± cesedi~
+bir altÄ±n balÄ±ÄŸÄ± cesedi burada.  Ã–leli epey bir sÃ¼re olmuÅŸ..~
 food~
 food 0 A
 5 5 0 0 0
@@ -689,9 +689,9 @@ On the side it says:
                                 Harp of safety.
 ~
 #7515
-şemsiye~
-bir şemsiye~
-Bir şemsiye burada unutulmuş.~
+ÅŸemsiye~
+bir ÅŸemsiye~
+Bir ÅŸemsiye burada unutulmuÅŸ.~
 wood~
 weapon CK AN
 exotic 3 4 bite 0
@@ -699,15 +699,15 @@ exotic 3 4 bite 0
 #7516
 sopa~
 bir sopa~
-Bir sopa burada tozlanmakla meşgul.~
+Bir sopa burada tozlanmakla meÅŸgul.~
 wood~
 weapon 0 AN
 mace 2 5 pound 0
 4 50 300 P
 #7517
-çanta mermerler~
-bir mermer çantası~
-Bir mermer çantası burada uzanıyor.~
+Ã§anta mermerler~
+bir mermer Ã§antasÄ±~
+Bir mermer Ã§antasÄ± burada uzanÄ±yor.~
 marble~
 container 0 A
 100 0 0 100 100
@@ -727,9 +727,9 @@ trash 0 AO
 0 0 0 0 0
 4 30 150 P
 #7519
-yelek çaylak muhafız~
-çaylak muhafız yeleği~
-Çaylak muhafızlardan birinin yeleği burada unutulmuş.~
+yelek Ã§aylak muhafÄ±z~
+Ã§aylak muhafÄ±z yeleÄŸi~
+Ã‡aylak muhafÄ±zlardan birinin yeleÄŸi burada unutulmuÅŸ.~
 leather~
 armor G AD
 6 6 6 0 1
@@ -742,9 +742,9 @@ On the side it says:
                                 Angel Enterprises Ltd.
 ~
 #7520
-kalkan çaylak muhafız~
-bir çaylak muhafız kalkanı~
-Bir çaylak muhafız kalkanı burada unutulmuş.~
+kalkan Ã§aylak muhafÄ±z~
+bir Ã§aylak muhafÄ±z kalkanÄ±~
+Bir Ã§aylak muhafÄ±z kalkanÄ± burada unutulmuÅŸ.~
 leather~
 armor G AJ
 6 6 6 0 1
@@ -757,33 +757,33 @@ On the side it says:
                                 Angel Enterprises Ltd.
 ~
 #7521
-fener çaylak muhafız~
-bir çaylak muhafız feneri~
-Bir çaylak muhafız feneri burada tozun içinde duruyor.~
+fener Ã§aylak muhafÄ±z~
+bir Ã§aylak muhafÄ±z feneri~
+Bir Ã§aylak muhafÄ±z feneri burada tozun iÃ§inde duruyor.~
 bronze~
 light 0 A
 0 0 -1 0 0
 0 20 10 P
 #7522
-cop çaylak muhafız~
-bir çaylak muhafız copu~
-Bir çaylak muhafız copu burada tozlanmakla meşgul.~
+cop Ã§aylak muhafÄ±z~
+bir Ã§aylak muhafÄ±z copu~
+Bir Ã§aylak muhafÄ±z copu burada tozlanmakla meÅŸgul.~
 iron~
 weapon 0 AN
 exotic 5 4 crush 0
 14 50 2560 P
 #7523
-keskin tırnak~
-keskin bir tırnak~
-Keskin bir tırnak burada tozun içinde duruyor.~
+keskin tÄ±rnak~
+keskin bir tÄ±rnak~
+Keskin bir tÄ±rnak burada tozun iÃ§inde duruyor.~
 iron~
 weapon 0 AN
 exotic 2 7 stab 0
 10 10 901 P
 #7524
-gerighelm muhafız yüzüğü~
-Gerighelm muhafız yüzüğü~
-Bir Gerighelm muhafız yüzüğü burada, unutulmuş bir halde duruyor.~
+gerighelm muhafÄ±z yÃ¼zÃ¼ÄŸÃ¼~
+Gerighelm muhafÄ±z yÃ¼zÃ¼ÄŸÃ¼~
+Bir Gerighelm muhafÄ±z yÃ¼zÃ¼ÄŸÃ¼ burada, unutulmuÅŸ bir halde duruyor.~
 bronze~
 treasure 0 AB
 0 0 0 0 0
@@ -791,57 +791,57 @@ treasure 0 AB
 A
 19 1
 #7525
-miğfer muhafız gerighelm~
-bir Gerighelm muhafız miğferi~
-Bir Gerighelm muhafız miğferi burada.~
+miÄŸfer muhafÄ±z gerighelm~
+bir Gerighelm muhafÄ±z miÄŸferi~
+Bir Gerighelm muhafÄ±z miÄŸferi burada.~
 bronze~
 armor 0 AE
 3 3 3 0 2
 17 20 10 P
 #7526
-kolluklar muhafız gerighelm~
-bir çift Gerighelm muhafız kolluğu~
-Bir takım kolluk burada.~
+kolluklar muhafÄ±z gerighelm~
+bir Ã§ift Gerighelm muhafÄ±z kolluÄŸu~
+Bir takÄ±m kolluk burada.~
 bronze~
 armor 0 AI
 6 6 6 0 2
 17 40 2295 P
 #7527
-bacaklıklar muhafız gerighelm~
-bir çift Gerighelm muhafız bacaklığı~
-Bir takım bacaklık burada.~
+bacaklÄ±klar muhafÄ±z gerighelm~
+bir Ã§ift Gerighelm muhafÄ±z bacaklÄ±ÄŸÄ±~
+Bir takÄ±m bacaklÄ±k burada.~
 bronze~
 armor 0 AF
 6 6 6 0 2
 16 50 2448 P
 #7528
-kalkan muhafız gerighelm~
-bir Gerighelm kalkanı~
-Bir Gerighelm kalkanı burada, gitgide tozun derinliklerine gömülüyor.~
+kalkan muhafÄ±z gerighelm~
+bir Gerighelm kalkanÄ±~
+Bir Gerighelm kalkanÄ± burada, gitgide tozun derinliklerine gÃ¶mÃ¼lÃ¼yor.~
 bronze~
 armor 0 AJ
 6 6 6 0 2
 16 60 2400 P
 #7529
-yelek muhafız gerighelm~
-bir Gerighelm yeleği~
-Bir Gerighelm muhafız yeleği burada.~
+yelek muhafÄ±z gerighelm~
+bir Gerighelm yeleÄŸi~
+Bir Gerighelm muhafÄ±z yeleÄŸi burada.~
 bronze~
 armor 0 AD
 6 6 6 0 2
 16 70 2720 P
 #7530
-pelerin muhafız gerighelm~
-bir Gerighelm muhafız pelerini~
-Bir Gerighelm muhafızının pelerini burada.~
+pelerin muhafÄ±z gerighelm~
+bir Gerighelm muhafÄ±z pelerini~
+Bir Gerighelm muhafÄ±zÄ±nÄ±n pelerini burada.~
 cloth~
 armor 0 AK
 6 6 6 0 2
 16 50 2560 P
 #7531
-parka muhafız gerighelm~
-bir Gerighelm parkası~
-Bir Gerighelm muhafızının parkası burada.~
+parka muhafÄ±z gerighelm~
+bir Gerighelm parkasÄ±~
+Bir Gerighelm muhafÄ±zÄ±nÄ±n parkasÄ± burada.~
 cloth~
 armor G AC
 6 6 6 0 2
@@ -853,65 +853,65 @@ A
 A
 17 -10
 #7532
-eldivenler muhafız gerighelm~
-bir çift Gerighelm eldiveni~
-Bir çift Gerighelm eldiveni burada.~
+eldivenler muhafÄ±z gerighelm~
+bir Ã§ift Gerighelm eldiveni~
+Bir Ã§ift Gerighelm eldiveni burada.~
 bronze~
 armor 0 AH
 6 6 6 0 2
 16 30 2448 P
 #7533
-kuşak muhafız gerighelm~
-bir Gerighelm kuşağı~
-Bir Gerighelm kuşağı burada duruyor.~
+kuÅŸak muhafÄ±z gerighelm~
+bir Gerighelm kuÅŸaÄŸÄ±~
+Bir Gerighelm kuÅŸaÄŸÄ± burada duruyor.~
 bronze~
 armor 0 AL
 6 6 6 0 2
 16 20 2400 P
 #7534
-bileklik muhafız gerighelm~
-bir Gerighelm bilekliği~
-Bir Gerighelm bilekliği burada duruyor.~
+bileklik muhafÄ±z gerighelm~
+bir Gerighelm bilekliÄŸi~
+Bir Gerighelm bilekliÄŸi burada duruyor.~
 bronze~
 armor 0 AM
 6 6 6 0 2
 16 20 2560 P
 #7535
-kılıç muhafız gerighelm~
-bir Gerighelm kılıcı~
-Kenarına Gerighelm'in renkleri işlenmiş bir kılıç burada.~
+kÄ±lÄ±Ã§ muhafÄ±z gerighelm~
+bir Gerighelm kÄ±lÄ±cÄ±~
+KenarÄ±na Gerighelm'in renkleri iÅŸlenmiÅŸ bir kÄ±lÄ±Ã§ burada.~
 bronze~
 weapon 0 AN
 sword 5 4 slash 0
 15 80 2400 P
 #7536
-botlar muhafız gerighelm~
-bir çift Gerighelm botu~
-Bir çift Gerighelm botu burada.~
+botlar muhafÄ±z gerighelm~
+bir Ã§ift Gerighelm botu~
+Bir Ã§ift Gerighelm botu burada.~
 bronze~
 armor 0 AG
 6 6 6 0 2
 16 50 3060 P
 #7537
-miğfer koruyucunun miğferi~
-bir koruyucunun miğferi~
-Gerighelm'in koruyucularından birinin miğferi burada.~
+miÄŸfer koruyucunun miÄŸferi~
+bir koruyucunun miÄŸferi~
+Gerighelm'in koruyucularÄ±ndan birinin miÄŸferi burada.~
 gold~
 armor 0 AE
 6 6 6 0 2
 20 40 3800 P
 #7538
-kılıç koruyucunun kılıcı~
-bir koruyucunun kılıcı~
-Gerighelm'in koruyucularından birinin kılıcı burada.~
+kÄ±lÄ±Ã§ koruyucunun kÄ±lÄ±cÄ±~
+bir koruyucunun kÄ±lÄ±cÄ±~
+Gerighelm'in koruyucularÄ±ndan birinin kÄ±lÄ±cÄ± burada.~
 iron~
 weapon 0 AN
 sword 5 5 slash 0
 20 80 4400 P
 #7539
-yüzük saray muhafızı yüzüğü~
-bir saray muhafızı yüzüğü~
-Parıldayan bir yüzük!~
+yÃ¼zÃ¼k saray muhafÄ±zÄ± yÃ¼zÃ¼ÄŸÃ¼~
+bir saray muhafÄ±zÄ± yÃ¼zÃ¼ÄŸÃ¼~
+ParÄ±ldayan bir yÃ¼zÃ¼k!~
 brass~
 treasure A AB
 0 0 0 0 0
@@ -919,57 +919,57 @@ treasure A AB
 A
 19 1
 #7540
-miğfer saray muhafızı miğferi~
-bir saray muhafızı miğferi~
-Parıldayan bir miğfer!~
+miÄŸfer saray muhafÄ±zÄ± miÄŸferi~
+bir saray muhafÄ±zÄ± miÄŸferi~
+ParÄ±ldayan bir miÄŸfer!~
 steel~
 armor A AE
 7 7 7 0 2
 22 30 3780 P
 #7541
-kolluklar saray muhafızı kolluğu~
-bir çift saray muhafızı kolluğu~
-Parıldayan kolluklar!~
+kolluklar saray muhafÄ±zÄ± kolluÄŸu~
+bir Ã§ift saray muhafÄ±zÄ± kolluÄŸu~
+ParÄ±ldayan kolluklar!~
 steel~
 armor A AI
 7 7 7 0 2
 22 50 5082 P
 #7542
-bacaklıklar saray muhafızı bacaklığı~
-bir çift saray muhafızı bacaklığı~
-Parıldayan bacaklıklar!~
+bacaklÄ±klar saray muhafÄ±zÄ± bacaklÄ±ÄŸÄ±~
+bir Ã§ift saray muhafÄ±zÄ± bacaklÄ±ÄŸÄ±~
+ParÄ±ldayan bacaklÄ±klar!~
 steel~
 armor A AF
 7 7 7 0 2
 22 60 4851 P
 #7543
-kalkan saray muhafızı kalkanı~
-bir saray muhafızı kalkanı~
-Parıldayan bir kalkan!~
+kalkan saray muhafÄ±zÄ± kalkanÄ±~
+bir saray muhafÄ±zÄ± kalkanÄ±~
+ParÄ±ldayan bir kalkan!~
 steel~
 armor A AJ
 7 7 7 0 2
 22 50 5082 P
 #7544
-yelek saray muhafızı yeleği~
-bir saray muhafızı yeleği~
-Parıldayan bir yelek!~
+yelek saray muhafÄ±zÄ± yeleÄŸi~
+bir saray muhafÄ±zÄ± yeleÄŸi~
+ParÄ±ldayan bir yelek!~
 steel~
 armor A AD
 7 7 7 0 2
 22 60 4840 P
 #7545
-pelerin saray muhafızı pelerini~
-bir saray muhafızı pelerini~
-Parıldayan bir pelerin!~
+pelerin saray muhafÄ±zÄ± pelerini~
+bir saray muhafÄ±zÄ± pelerini~
+ParÄ±ldayan bir pelerin!~
 steel~
 armor A AK
 7 7 7 0 2
 22 40 4620 P
 #7546
-parka saray muhafızı parkası~
-bir saray muhafızı parkası~
-Parıldayan bir parka! Ve hatta vızıldayan!!~
+parka saray muhafÄ±zÄ± parkasÄ±~
+bir saray muhafÄ±zÄ± parkasÄ±~
+ParÄ±ldayan bir parka! Ve hatta vÄ±zÄ±ldayan!!~
 steel~
 armor ABG AC
 7 7 7 -1 2
@@ -981,33 +981,33 @@ A
 A
 1 2
 #7547
-eldivenler saray muhafızı eldiveni~
-bir çift saray muhafızı eldiveni~
-Parıldayan bir çift eldiven!~
+eldivenler saray muhafÄ±zÄ± eldiveni~
+bir Ã§ift saray muhafÄ±zÄ± eldiveni~
+ParÄ±ldayan bir Ã§ift eldiven!~
 steel~
 armor A AH
 7 7 7 0 2
 22 40 4400 P
 #7548
-kuşak saray muhafızı kuşağı~
-bir saray muhafızı kuşağı~
-Parıldayan bir kuşak!~
+kuÅŸak saray muhafÄ±zÄ± kuÅŸaÄŸÄ±~
+bir saray muhafÄ±zÄ± kuÅŸaÄŸÄ±~
+ParÄ±ldayan bir kuÅŸak!~
 steel~
 armor A AL
 7 7 7 0 2
 22 60 4620 P
 #7549
-bileklik saray muhafızı bilekliği~
-bir saray muhafızı bilekliği~
-Parıldayan bir bileklik!~
+bileklik saray muhafÄ±zÄ± bilekliÄŸi~
+bir saray muhafÄ±zÄ± bilekliÄŸi~
+ParÄ±ldayan bir bileklik!~
 steel~
 armor A AM
 7 7 7 0 2
 22 30 4410 P
 #7550
-kılıç saray muhafızı kılıcı~
-bir saray muhafızının kılıcı~
-Kenarına pek çok rün işlenmiş bir kılıç burada.~
+kÄ±lÄ±Ã§ saray muhafÄ±zÄ± kÄ±lÄ±cÄ±~
+bir saray muhafÄ±zÄ±nÄ±n kÄ±lÄ±cÄ±~
+KenarÄ±na pek Ã§ok rÃ¼n iÅŸlenmiÅŸ bir kÄ±lÄ±Ã§ burada.~
 steel~
 weapon AB AN
 sword 4 8 slash 0
@@ -1021,25 +1021,25 @@ The runes say:
 What does that mean?
 ~
 #7551
-aşçının şapkası~
-aşçının şapkası~
-Bir şapka burada.~
+aÅŸÃ§Ä±nÄ±n ÅŸapkasÄ±~
+aÅŸÃ§Ä±nÄ±n ÅŸapkasÄ±~
+Bir ÅŸapka burada.~
 cloth~
 clothing H AE
 0 0 0 0 0
 20 10 4200 P
 #7552
-gümüş asa~
-gümüş bir asa~
-Gümüşten yapılmış bir asa burada.~
+gÃ¼mÃ¼ÅŸ asa~
+gÃ¼mÃ¼ÅŸ bir asa~
+GÃ¼mÃ¼ÅŸten yapÄ±lmÄ±ÅŸ bir asa burada.~
 wood~
 staff 0 AO
 40 20 20 'lightning bolt' 0
 20 40 4840 P
 #7553
-hançer deşici~
-deşici hançer~
-Bir hançer burada.~
+hanÃ§er deÅŸici~
+deÅŸici hanÃ§er~
+Bir hanÃ§er burada.~
 silver~
 weapon G AN
 dagger 5 6 stab 0
@@ -1051,7 +1051,7 @@ A
 #7554
 kutsal kelam~
 kutsal bir kelam~
-Kutsal bir kelam burada, havada asılı duruyor.~
+Kutsal bir kelam burada, havada asÄ±lÄ± duruyor.~
 crystal~
 weapon G AN
 exotic 5 6 blast 0
@@ -1063,9 +1063,9 @@ A
 A
 5 -2
 #7555
-gürz~
-bir gürz~
-Bir gürz burada duruyor.~
+gÃ¼rz~
+bir gÃ¼rz~
+Bir gÃ¼rz burada duruyor.~
 wood~
 weapon AG AN
 mace 2 4 pound 0
@@ -1075,9 +1075,9 @@ A
 A
 1 3
 #7556
-kılıç şimşek kılıcı~
-şimşek kılıcı~
-DEVASA bir kılıç burada.~
+kÄ±lÄ±Ã§ ÅŸimÅŸek kÄ±lÄ±cÄ±~
+ÅŸimÅŸek kÄ±lÄ±cÄ±~
+DEVASA bir kÄ±lÄ±Ã§ burada.~
 steel~
 weapon G AN
 sword 5 6 slash 0
@@ -1087,8 +1087,8 @@ A
 A
 19 2
 #7557
-yelek titanların~
-titanların yeleği~
+yelek titanlarÄ±n~
+titanlarÄ±n yeleÄŸi~
 Bir yelek burada.~
 leather~
 armor G AD
@@ -1099,9 +1099,9 @@ A
 A
 1 3
 #7558
-çapa kıyım~
-kıyım çapası~
-Bir kıyım çapası burada.~
+Ã§apa kÄ±yÄ±m~
+kÄ±yÄ±m Ã§apasÄ±~
+Bir kÄ±yÄ±m Ã§apasÄ± burada.~
 wood~
 weapon ABG AN
 exotic 5 6 blast 0
@@ -1109,9 +1109,9 @@ exotic 5 6 blast 0
 A
 18 10
 #7559
-bahçıvan eldivenleri~
-bahçıvan eldivenleri~
-Bir takım eldiven burada.~
+bahÃ§Ä±van eldivenleri~
+bahÃ§Ä±van eldivenleri~
+Bir takÄ±m eldiven burada.~
 cloth~
 armor G AH
 3 3 3 0 1
@@ -1129,9 +1129,9 @@ weapon 0 AN
 sword 5 6 pierce 0
 22 80 6000 P
 #7561
-üniforma~
-üniforma~
-Bir üniforma burada.~
+Ã¼niforma~
+Ã¼niforma~
+Bir Ã¼niforma burada.~
 cloth~
 armor G AD
 8 8 8 0 3
@@ -1149,9 +1149,9 @@ sword 5 6 slash 0
 A
 18 10
 #7563
-çift-elli çift elli kılıç~
-çift-elli bir kılıç~
-Çift elli bir kılıç burada.~
+Ã§ift-elli Ã§ift elli kÄ±lÄ±Ã§~
+Ã§ift-elli bir kÄ±lÄ±Ã§~
+Ã‡ift elli bir kÄ±lÄ±Ã§ burada.~
 steel~
 weapon G AN
 sword 5 7 slash F
@@ -1167,9 +1167,9 @@ A
 A
 19 5
 #7564
-dükün miğferi~
-Dükün Miğferi~
-Bir miğfer burada.~
+dÃ¼kÃ¼n miÄŸferi~
+DÃ¼kÃ¼n MiÄŸferi~
+Bir miÄŸfer burada.~
 steel~
 armor G AE
 9 9 9 0 3
@@ -1177,9 +1177,9 @@ armor G AE
 A
 17 -25
 #7565
-düşesin tacı~
-Düşesin Tacı~
-Bir Taç burada.~
+dÃ¼ÅŸesin tacÄ±~
+DÃ¼ÅŸesin TacÄ±~
+Bir TaÃ§ burada.~
 diamond~
 armor G AE
 7 7 7 0 2
@@ -1189,9 +1189,9 @@ A
 A
 12 100
 #7566
-nikah yüzüğü~
-bir nikah yüzüğü~
-Bir nikah yüzüğü burada.~
+nikah yÃ¼zÃ¼ÄŸÃ¼~
+bir nikah yÃ¼zÃ¼ÄŸÃ¼~
+Bir nikah yÃ¼zÃ¼ÄŸÃ¼ burada.~
 gold~
 armor ABG AB
 7 7 7 0 2
@@ -1201,9 +1201,9 @@ A
 A
 20 4
 #7567
-nikah yüzüğü~
-bir nikah yüzüğü~
-Bir nikah yüzüğü burada.~
+nikah yÃ¼zÃ¼ÄŸÃ¼~
+bir nikah yÃ¼zÃ¼ÄŸÃ¼~
+Bir nikah yÃ¼zÃ¼ÄŸÃ¼ burada.~
 gold~
 armor ABG AB
 8 8 8 0 2
@@ -1213,17 +1213,17 @@ A
 A
 20 4
 #7596
-garip bitkiler yeşil küme~
-bir bitki kümesi~
-Yeşil renkli garip bir bitki kümesi burada yetişmiş.~
+garip bitkiler yeÅŸil kÃ¼me~
+bir bitki kÃ¼mesi~
+YeÅŸil renkli garip bir bitki kÃ¼mesi burada yetiÅŸmiÅŸ.~
 food~
 pill G A
 1 'detect magic' 'fly' 'word of recall' 'pass door'
 1 1 469 P
 #7597
-sihirli şişe havayla dolu~
-Havayla dolu sihirli bir şişe~
-Bir şişe burada tozların içine gömülmüş.~
+sihirli ÅŸiÅŸe havayla dolu~
+Havayla dolu sihirli bir ÅŸiÅŸe~
+Bir ÅŸiÅŸe burada tozlarÄ±n iÃ§ine gÃ¶mÃ¼lmÃ¼ÅŸ.~
 glass~
 boat A A
 0 0 0 0 0
@@ -1235,9 +1235,9 @@ It has written on the side:
 Garunteed to provide fresh breathing air underwater, till it doesn't...
 ~
 #7600
-mermer yeşil~
-yeşil bir mermer~
-Yeşil bir mermer burada, tamamen kimsesiz bırakılmış...~
+mermer yeÅŸil~
+yeÅŸil bir mermer~
+YeÅŸil bir mermer burada, tamamen kimsesiz bÄ±rakÄ±lmÄ±ÅŸ...~
 marble~
 wand A AO
 20 1 1 'fireball' 0
@@ -1245,47 +1245,47 @@ wand A AO
 #7601
 mermer mavi~
 mavi bir mermer~
-Bir mermer burada. Hoş bir mavisi var.~
+Bir mermer burada. HoÅŸ bir mavisi var.~
 marble~
 wand A AO
 20 1 1 'heal' 0
 20 1 2560 P
 #7602
-mermer sarı~
-sarı bir mermer~
-Sarı bir mermer burada.~
+mermer sarÄ±~
+sarÄ± bir mermer~
+SarÄ± bir mermer burada.~
 marble~
 wand A AO
 25 1 1 'gas breath' 0
 20 1 2100 P
 #7650
-kolluklar koruyucunun kolluğu~
-bir koruyucunun kollukları~
-Bir çift kolluk burada tozlanmakla meşgul.~
+kolluklar koruyucunun kolluÄŸu~
+bir koruyucunun kolluklarÄ±~
+Bir Ã§ift kolluk burada tozlanmakla meÅŸgul.~
 gold~
 armor 0 AI
 6 6 6 0 2
 18 60 4000 P
 #7651
-bacaklıklar koruyucunun bacaklığı~
-bir koruyucunun bacaklığı~
-Bir çift bacaklık burada tozlanmakla meşgul.~
+bacaklÄ±klar koruyucunun bacaklÄ±ÄŸÄ±~
+bir koruyucunun bacaklÄ±ÄŸÄ±~
+Bir Ã§ift bacaklÄ±k burada tozlanmakla meÅŸgul.~
 silver~
 armor 0 AF
 6 6 6 0 2
 18 70 4180 P
 #7652
-kalkan koruyucunun kalkanı~
-bir koruyucunun kalkanı~
-Üzerine Gerighelm'in hanedan arması işlenmiş bir kalkan burada.~
+kalkan koruyucunun kalkanÄ±~
+bir koruyucunun kalkanÄ±~
+Ãœzerine Gerighelm'in hanedan armasÄ± iÅŸlenmiÅŸ bir kalkan burada.~
 silver~
 armor 0 AJ
 6 6 6 0 2
 18 80 3610 P
 #7653
-yüzük koruyucunun yüzüğü~
-bir koruyucunun yüzüğü~
-Bir yüzük tozun içinde parıldıyor.~
+yÃ¼zÃ¼k koruyucunun yÃ¼zÃ¼ÄŸÃ¼~
+bir koruyucunun yÃ¼zÃ¼ÄŸÃ¼~
+Bir yÃ¼zÃ¼k tozun iÃ§inde parÄ±ldÄ±yor.~
 gold~
 armor G AB
 0 0 0 0 0
@@ -1293,9 +1293,9 @@ armor G AB
 A
 13 20
 #7654
-yelek koruyucunun yeleği~
-bir koruyucunun yeleği~
-Altın ve gümüşten bir yelek yolun bir kenarında duruyor.~
+yelek koruyucunun yeleÄŸi~
+bir koruyucunun yeleÄŸi~
+AltÄ±n ve gÃ¼mÃ¼ÅŸten bir yelek yolun bir kenarÄ±nda duruyor.~
 silver~
 armor 0 AD
 5 5 5 -1 2
@@ -1303,15 +1303,15 @@ armor 0 AD
 #7655
 pelerin koruyucunun pelerini~
 bir koruyucunun pelerini~
-Bir ağacın dalında pelerin asılı duruyor.~
+Bir aÄŸacÄ±n dalÄ±nda pelerin asÄ±lÄ± duruyor.~
 gold~
 armor 0 AK
 6 6 6 0 2
 18 80 3800 P
 #7656
-parka koruyucunun parkası~
-bir koruyucunun parkası~
-Altın ve gümüşten bir kumaş öbeği burada yerde duruyor.~
+parka koruyucunun parkasÄ±~
+bir koruyucunun parkasÄ±~
+AltÄ±n ve gÃ¼mÃ¼ÅŸten bir kumaÅŸ Ã¶beÄŸi burada yerde duruyor.~
 silver~
 armor 0 AC
 6 6 6 0 2
@@ -1319,47 +1319,47 @@ armor 0 AC
 #7657
 eldivenler koruyucunun eldivenleri~
 bir koruyucunun eldivenleri~
-Bir çift eldiven yolun kenarında duruyor.~
+Bir Ã§ift eldiven yolun kenarÄ±nda duruyor.~
 gold~
 armor 0 AH
 6 6 6 0 2
 18 70 4000 P
 #7658
-kuşak koruyucunun kuşağı~
-bir koruyucunun kuşağı~
-Altın bir kuşak burada duruyor.~
+kuÅŸak koruyucunun kuÅŸaÄŸÄ±~
+bir koruyucunun kuÅŸaÄŸÄ±~
+AltÄ±n bir kuÅŸak burada duruyor.~
 gold~
 armor 0 AL
 6 6 6 0 2
 18 70 3420 P
 #7659
-bileklik koruyucunun bilekliği~
-bir koruyucunun bilekliği~
-Gümüş bir bileklik burada duruyor.~
+bileklik koruyucunun bilekliÄŸi~
+bir koruyucunun bilekliÄŸi~
+GÃ¼mÃ¼ÅŸ bir bileklik burada duruyor.~
 silver~
 armor 0 AM
 6 6 6 0 2
 18 30 3800 P
 #7660
-botlar koruyucunun botları~
-bir koruyucunun botları~
-Bir çift gümüş bot burada.~
+botlar koruyucunun botlarÄ±~
+bir koruyucunun botlarÄ±~
+Bir Ã§ift gÃ¼mÃ¼ÅŸ bot burada.~
 silver~
 armor 0 AG
 6 6 6 0 2
 18 50 3420 P
 #7661
-botlar saray muhafızı~
-bir saray muhafızının botları~
-Bir çift bot burada, parıldıyor!!~
+botlar saray muhafÄ±zÄ±~
+bir saray muhafÄ±zÄ±nÄ±n botlarÄ±~
+Bir Ã§ift bot burada, parÄ±ldÄ±yor!!~
 steel~
 armor A AG
 3 3 3 0 2
 18 50 10 P
 #7699
-tırpan~
-Ölüm'ün Tırpanı~
-Çok tehlikeli görünen kötücül bir tırpan burada.~
+tÄ±rpan~
+Ã–lÃ¼m'Ã¼n TÄ±rpanÄ±~
+Ã‡ok tehlikeli gÃ¶rÃ¼nen kÃ¶tÃ¼cÃ¼l bir tÄ±rpan burada.~
 mithril~
 weapon G AN
 exotic 10 8 smash DE
@@ -1369,7 +1369,7 @@ exotic 10 8 smash DE
 
 #ROOMS
 #7500
-Park Girişi~
+Park GiriÅŸi~
    This is the entrance to a small park. You see that it is full of animals,
 birds, and reptiles.  There are also people here, strolling around in the
 romantic setting.
@@ -1382,7 +1382,7 @@ You see the park.
 0 -1 7501
 S
 #7501
-Parkın içi~
+ParkÄ±n iÃ§i~
     You are standing inside what looks like a park--probably because it is
 one...
 ~
@@ -1580,7 +1580,7 @@ You see the park.
 0 -1 7509
 S
 #7511
-Parkın içindeki patika~
+ParkÄ±n iÃ§indeki patika~
    You are in the Park.  You are on a small worn trail to a building to the
 east.
 ~
@@ -1591,7 +1591,7 @@ You see the park.
 ~
 0 -1 7509
 D1
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 7512
@@ -1602,7 +1602,7 @@ You see the park.
 0 -1 7518
 S
 #7512
-Parkın içindeki patika~
+ParkÄ±n iÃ§indeki patika~
    You are in the Park.  The trail that you are on leads east toward that
 building that your see there.
 ~
@@ -1613,18 +1613,18 @@ You see the park.
 ~
 0 -1 7510
 D1
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 7513
 D3
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 7511
 S
 #7513
-Parkın içindeki patikada yol ayrımı~
+ParkÄ±n iÃ§indeki patikada yol ayrÄ±mÄ±~
    The trail goes east, and south here. There is a building to the east.
 ~
 0 0 3
@@ -1634,24 +1634,24 @@ You see the caretakers house.
 ~
 1 -1 7514
 D2
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 7515
 D3
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 7512
 S
 #7514
-Bekçinin Evi~
+BekÃ§inin Evi~
   You are in the home of the Caretaker of this Park.  You see shiny spades,
 hoes, and watering-cans that the Caretaker must like a lot.
 ~
 0 D 0
 D3
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 1 -1 7513
@@ -1663,12 +1663,12 @@ You wonder what could be at the end of it...
 ~
 0 0 3
 D0
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 7513
 D2
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 7516
@@ -1680,7 +1680,7 @@ wonder where....
 ~
 74 0 3
 D0
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 7515
@@ -1691,13 +1691,13 @@ You see the trail
 0 -1 7517
 S
 #7517
-Patikanın sonu~
+PatikanÄ±n sonu~
    Ah, at last!  The end of the trail!  But um, there really isn't much to
 see...  I'm sorry.
 ~
 74 0 3
 D1
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 7516
@@ -1725,7 +1725,7 @@ You see the park.
 0 -1 7519
 S
 #7519
-Parkın içindeki Bahçenin Girişi~
+ParkÄ±n iÃ§indeki BahÃ§enin GiriÅŸi~
    You are in a large garden now.  It has violets, and other flowers that you
 can't begin to name. (sorry that you slept through that class aren't you?).
 ~
@@ -1742,7 +1742,7 @@ You see the garden.
 0 -1 7520
 S
 #7520
-Bahçe~
+BahÃ§e~
    You are inside the garden now, and you see even MORE flowers!
 ~
 74 0 1
@@ -1758,7 +1758,7 @@ You see the garden.
 0 -1 7521
 S
 #7521
-Bahçe~
+BahÃ§e~
    You are in the garden, there are many lovers here who are (Ahem) 'necking'.
 ~
 74 0 1
@@ -1779,7 +1779,7 @@ You see the garden.
 0 -1 7523
 S
 #7522
-Bahçe~
+BahÃ§e~
    You are in the garden.  This section seems to be devoted to roses.
 ~
 74 0 1
@@ -1790,7 +1790,7 @@ You see the garden.
 0 -1 7521
 S
 #7523
-Bahçe~
+BahÃ§e~
    You are in the section of the garden that is devoted to lilacs.
 ~
 74 0 1
@@ -1801,7 +1801,7 @@ You see the garden.
 0 -1 7521
 S
 #7524
-Kanalizasyonun İçi~
+Kanalizasyonun Ä°Ã§i~
    You are inside the dark, dank sewers of Gerighelm.  There is a faint
 scent of mud in the air.  To the north, there is a wall.....
 ~
@@ -1818,7 +1818,7 @@ You see the entrance to the sewers.
 0 -1 7584
 S
 #7526
-Kanalizasyonun İçi~
+Kanalizasyonun Ä°Ã§i~
    You are in the old sewer system of Gerighelm.  It is dark and hard to see.
 ~
 76 A 2
@@ -1977,7 +1977,7 @@ you see the sewers.
 0 -1 7533
 S
 #7535
-Tünel~
+TÃ¼nel~
    You are going down a tunnel that runs north-south.  To
 the south there is a wet scent.
 ~
@@ -1994,7 +1994,7 @@ You see the tunnel.
 0 -1 7536
 S
 #7536
-Tünel~
+TÃ¼nel~
    You are going down a tunnel that leads north-south.  There is some water
 to the south.
 ~
@@ -2011,7 +2011,7 @@ You see the tunnel.
 0 -1 7537
 S
 #7537
-Islak tünel~
+Islak tÃ¼nel~
    There is some water here, it is up to your waist.  It is calm enough
 to swim or wade though.
 ~
@@ -2028,7 +2028,7 @@ You see the tunnel.
 0 -1 7538
 S
 #7538
-Islak tünel~
+Islak tÃ¼nel~
    The water gets deeper here, it is up to your chin.
 ~
 76 A 6
@@ -2044,7 +2044,7 @@ You see the end of the tunnel.
 0 -1 7539
 S
 #7539
-Islak tünelin sonu~
+Islak tÃ¼nelin sonu~
    The tunnel ends here, with all that water in the tunnel pouring out.
 The water here is rough, it is all you can do to keep your head afloat.
 To the east and west, there a walls in the way of your movement.~
@@ -2111,7 +2111,7 @@ You see the sewers.
 0 -1 7541
 S
 #7543
-Nehir suyunun altında~
+Nehir suyunun altÄ±nda~
    You are swimming underwater in the river.  It looks so different from
 down here.
 ~
@@ -2133,7 +2133,7 @@ grate~
 1 -1 7542
 S
 #7544
-Su altı~
+Su altÄ±~
    You are underwater in the river.  There seems to be a force field
 to the south....
 ~
@@ -2145,7 +2145,7 @@ You see the river.
 0 -1 7543
 S
 #7545
-Su altı~
+Su altÄ±~
    You are underwater in the river.
 ~
 76 0 7
@@ -2161,7 +2161,7 @@ You see the river.
 0 -1 7543
 S
 #7546
-Su altı~
+Su altÄ±~
    You are underwater in the river.
 ~
 76 0 7
@@ -2177,7 +2177,7 @@ You see the river.
 0 -1 7545
 S
 #7547
-Su altı~
+Su altÄ±~
    You are underwater in the river.  The water shallows out to the north.
 To the west there is a ledge that is just above the water, some of it
 is underwater.  As you look closer to the north, you see that there is a
@@ -2196,7 +2196,7 @@ You see the half flooded sewers.
 0 -1 7548
 S
 #7548
-Kanalizasyonun su baskınına uğramış bir bölümü~
+Kanalizasyonun su baskÄ±nÄ±na uÄŸramÄ±ÅŸ bir bÃ¶lÃ¼mÃ¼~
    You are up to your waist in river water.  To the west there are some VERY
 clean sewers...
 ~
@@ -2213,7 +2213,7 @@ You see the clean sewers.
 0 -1 7549
 S
 #7549
-Kanalizasyonun çok temiz bir bölümü~
+Kanalizasyonun Ã§ok temiz bir bÃ¶lÃ¼mÃ¼~
    You are standing at the start of a section of sewers that are VERY
 clean...  There is a sign here.
 ~
@@ -2240,7 +2240,7 @@ Gerighelm Sewer Service.
 ~
 S
 #7550
-Kanalizasyonun çok temiz bir bölümü~
+Kanalizasyonun Ã§ok temiz bir bÃ¶lÃ¼mÃ¼~
     You are in some VERY clean sewers.  You have been wondering what that
 sign meant by 'MAGIC WORMS'.......
 ~
@@ -2257,7 +2257,7 @@ You see the clean sewers.
 0 -1 7551
 S
 #7551
-Kanalizasyonun çok temiz bir bölümü~
+Kanalizasyonun Ã§ok temiz bir bÃ¶lÃ¼mÃ¼~
     You are in the VERY clean sewers.
 ~
 76 A 1
@@ -2273,7 +2273,7 @@ You see the clean sewers.
 0 -1 7552
 S
 #7552
-Kanalizasyonun çok temiz bir bölümü~
+Kanalizasyonun Ã§ok temiz bir bÃ¶lÃ¼mÃ¼~
     You are in the VERY clean sewers.
 ~
 76 A 1
@@ -2294,7 +2294,7 @@ You see the clean sewers.
 0 -1 7553
 S
 #7553
-Kanalizasyonun çok temiz bir bölümü~
+Kanalizasyonun Ã§ok temiz bir bÃ¶lÃ¼mÃ¼~
     You are in the VERY clean sewers.
 ~
 76 A 1
@@ -2310,7 +2310,7 @@ You see the clean sewers.
 0 -1 7552
 S
 #7554
-Kanalizasyonun çok temiz bir bölümü~
+Kanalizasyonun Ã§ok temiz bir bÃ¶lÃ¼mÃ¼~
     You are in some EXTREEMLY clean sewers!  There is a sign here.
 ~
 76 A 1
@@ -2342,7 +2342,7 @@ Gerighelm Sewer Service.
 ~
 S
 #7555
-Kanalizasyonun çok temiz bölümündeki eski kütüphane~
+Kanalizasyonun Ã§ok temiz bÃ¶lÃ¼mÃ¼ndeki eski kÃ¼tÃ¼phane~
     You are in the VERY clean sewers.  There are some benches here, as well
 as some old books that are aged bye time..  You are afraid to touch them,
 unless they may crumble to dust with your touch.  One of the books is open.
@@ -2376,7 +2376,7 @@ The rest is garbled by time.
 ~
 S
 #7556
-Karanlık Ormandaki bir kesişme~
+KaranlÄ±k Ormandaki bir kesiÅŸme~
 You are at a junction in the Dark Forest.
 ~
 0 0 3
@@ -2386,12 +2386,12 @@ You see the dirt path.
 ~
 0 -1 7557
 D4
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6003
 D5
-Patikayı görüyorsun.
+PatikayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 6002
@@ -2494,7 +2494,7 @@ You see the gate of Gerighelm.
 0 -1 7563
 S
 #7563
-Gerighelm Kapıları~
+Gerighelm KapÄ±larÄ±~
     You are standing inside the Gate of Gerighelm.  There is only one,
 because the town is surrounded by mountains.  Of course, there is a lot
 of traffic here.
@@ -2527,7 +2527,7 @@ small tablet~
 ~
 S
 #7564
-Gerighelm'in Batı Yakası Sokağı~
+Gerighelm'in BatÄ± YakasÄ± SokaÄŸÄ±~
     This is the western most street of Gerighelm.  To the east, there is
 a street with a sign proclaiming:  Peter Ave.
 ~
@@ -2549,7 +2549,7 @@ You see West-Street.
 0 -1 7580
 S
 #7565
-Peter Bulvarı~
+Peter BulvarÄ±~
   You are on Peter Ave.  To the south, you can see the park, but the entrance
 to the park is still to the east.
 ~
@@ -2566,7 +2566,7 @@ You see west-street.
 0 -1 7564
 S
 #7566
-Peter Bulvarı~
+Peter BulvarÄ±~
   You are on Peter Ave. The the south, you see the entrance to the park.
 ~
 0 0 1
@@ -2587,7 +2587,7 @@ You see peter ave.
 0 -1 7565
 S
 #7567
-Peter Bulvarı~
+Peter BulvarÄ±~
   You are on Peter ave. The the west, you see the entrance to the park.
 ~
 0 0 1
@@ -2603,7 +2603,7 @@ You see peter ave.
 0 -1 7566
 S
 #7568
-Peter Bulvarı~
+Peter BulvarÄ±~
    You are on Peter Ave.  To the west, you can see the park, but it's entrance
 is not in sight.
 ~
@@ -2647,7 +2647,7 @@ You see merchant way.
 0 -1 7575
 S
 #7570
-İçinde çok miktarda yiyecek bulunan dükkan~
+Ä°Ã§inde Ã§ok miktarda yiyecek bulunan dÃ¼kkan~
    This shop has lots of food in it. Apples, pies, carrots, you name it.
 There is a sign here.
 ~
@@ -2689,7 +2689,7 @@ You see merchant way.
 0 -1 7569
 S
 #7572
-Silah dükkanı~
+Silah dÃ¼kkanÄ±~
   You are in the weapon shop. There are many fine weapons here, but all of
 them are safe and out of your reach.  There is a sign here.
 ~
@@ -2728,7 +2728,7 @@ You see merchant way.
 0 -1 7571
 S
 #7574
-Bitki Dükkanı~
+Bitki DÃ¼kkanÄ±~
     You are inside the Herbalist Shop.  There are many herbs here- Lord knows
 WHAT some of them do... There is a sign here too, on the table.
 ~
@@ -2770,7 +2770,7 @@ You see the merchant way.
 0 -1 7577
 S
 #7576
-Büyü Dükkanı~
+BÃ¼yÃ¼ DÃ¼kkanÄ±~
    You are inside the magic shop.  There are many many many magical things
 of unknown nature.  There is a sign here.
 ~
@@ -2813,7 +2813,7 @@ You see West-Street
 0 -1 7579
 S
 #7578
-Rehin Dükkanı~
+Rehin DÃ¼kkanÄ±~
    You are in the Pawn shop.  Unfourtuatly, there is no pawn here,
 just a hired merchant.
 ~
@@ -2825,7 +2825,7 @@ You see the merchant way.
 0 -1 7577
 S
 #7579
-Batı Yakası Sokağı~
+BatÄ± YakasÄ± SokaÄŸÄ±~
    You are on West-Street.  To the east, the Merchant Way begins.
 ~
 0 0 1
@@ -2846,7 +2846,7 @@ You see West-Street.
 0 -1 7581
 S
 #7580
-Batı Yakası Sokağı~
+BatÄ± YakasÄ± SokaÄŸÄ±~
    You are on the West-Street.  To the north, you approach the North Gate.
 ~
 0 0 1
@@ -2862,7 +2862,7 @@ You see the West-Street.
 0 -1 7579
 S
 #7581
-Batı Yakası Sokağı~
+BatÄ± YakasÄ± SokaÄŸÄ±~
    You are on the West-Street.  To the south, Merchant way begins. As well as
 to the north.
 ~
@@ -2879,7 +2879,7 @@ You see West-Street.
 0 -1 7582
 S
 #7582
-Batı Yakası Sokağı~
+BatÄ± YakasÄ± SokaÄŸÄ±~
     You are on West-Street. To the west, Mable Road begins, and to the east
 Merchant way travels.
 ~
@@ -3001,7 +3001,7 @@ You see Mable road.
 0 -1 7586
 S
 #7588
-Batı Yakası Sokağı~
+BatÄ± YakasÄ± SokaÄŸÄ±~
 You are on the West-Street.  To the south, a path leading out of town begins.
 ~
 0 0 1
@@ -3022,7 +3022,7 @@ You see Mable road.
 0 -1 7587
 S
 #7589
-Batı Yakası Sokağı~
+BatÄ± YakasÄ± SokaÄŸÄ±~
    You are on West-Street.  To the north, there is an intersection of
 Merchant Way, West-street, and  Mable road.  And, to the east, Temple
 Street wends.
@@ -3045,7 +3045,7 @@ You see West-Street.
 0 -1 7588
 S
 #7590
-Tapınak Sokağı~
+TapÄ±nak SokaÄŸÄ±~
   You are on Temple Street.  To the south, there is some construction work
 going on.
 ~
@@ -3067,7 +3067,7 @@ You see West-Street.
 0 -1 7589
 S
 #7591
-İnşaat arazisi~
+Ä°nÅŸaat arazisi~
 You are standing before a large construction site in which men are building a
 new temple.
 Who's it for?
@@ -3080,7 +3080,7 @@ You see Temple Street.
 0 -1 7590
 S
 #7592
-Tapınak Sokağı~
+TapÄ±nak SokaÄŸÄ±~
    You are on Temple Street.  To the south is the Temple to Time.
 ~
 0 0 1
@@ -3101,7 +3101,7 @@ You see Temple Street.
 0 -1 7590
 S
 #7593
-Zaman Tapınağı~
+Zaman TapÄ±naÄŸÄ±~
 You are standing inside the Temple to time. There are many clocks here, to say
 the least.
 ~
@@ -3113,7 +3113,7 @@ You see the Temple Street.
 0 -1 7592
 S
 #7594
-Tapınak Sokağı~
+TapÄ±nak SokaÄŸÄ±~
   You are on Temple street. to the south, you see the cathedral.
 ~
 0 0 1
@@ -3130,7 +3130,7 @@ You see Temple Street.
 0 -1 7592
 S
 #7595
-Ölüm'ün Tapınağı~
+Ã–lÃ¼m'Ã¼n TapÄ±naÄŸÄ±~
 You are standing inside the temple of Death. It's kinda scary in here, how
 about running away hmm?
 ~
@@ -3151,7 +3151,7 @@ It is a coffin.  It's kinda scary, maybe you should just run away now, hmm?
 ~
 S
 #7596
-Tapınak Sokağı~
+TapÄ±nak SokaÄŸÄ±~
   You are standing on Temple street.  To the south a Temple is leaking.
 Blood!
 ~
@@ -3168,7 +3168,7 @@ You see Temple Street.
 0 -1 7594
 S
 #7597
-Savaşa adanmış Tapınak!~
+SavaÅŸa adanmÄ±ÅŸ TapÄ±nak!~
 There is blood dripping all over
 the place.  Some of it has been captured, and is sent streaming into veritable
 RIVERS of blood!  It's very artistic.  The altar contains: Blood, guts, a few
@@ -3202,7 +3202,7 @@ You see the Dump.
 0 -1 7599
 S
 #7599
-Çöplük~
+Ã‡Ã¶plÃ¼k~
   You are at the Dump.
 ~
 0 0 4
@@ -3218,7 +3218,7 @@ You see The dump.
 0 -1 7600
 S
 #7600
-Çöplük~
+Ã‡Ã¶plÃ¼k~
   You are at the Dump.  Need I say more?
 ~
 0 0 4
@@ -3229,7 +3229,7 @@ You see the Dump.
 0 -1 7599
 S
 #7601
-Tüccar Yolu~
+TÃ¼ccar Yolu~
 You are at the beginning of Merchant way.  To the north, there is a shop
 that proclaims itself 'Ye Olde Pet Shope'.  Those look like healthy, handsome
 pets.
@@ -3252,7 +3252,7 @@ You see West-Street.
 0 -1 7582
 S
 #7602
-Köhne Hayvan Dükkanı~
+KÃ¶hne Hayvan DÃ¼kkanÄ±~
     You are standing inside the pet shop.  There are pets EVERYWHERE.
 There are dogs, cats, kittens, puppy's, wolves, you name it.
 ~
@@ -3264,7 +3264,7 @@ You see the merchant way.
 0 -1 7601
 S
 #7603
-Tüccar Yolu~
+TÃ¼ccar Yolu~
    You are on the merchant way.  To the north, there is yet another shop.
 This one is: Greghimles furniture store.
 ~
@@ -3298,7 +3298,7 @@ You see the Merchant way.
 0 -1 7603
 S
 #7605
-Tüccar Yolu~
+TÃ¼ccar Yolu~
 You are on the Merchant way.  To the north, there is yet another store.
 This one is:  Crazy Himshlick's portable fountains.  To the south, you see
 the Barracks.
@@ -3326,7 +3326,7 @@ You see the Merchant way.
 0 -1 7603
 S
 #7606
-Çılgın Himshlick'in portatif çeşmeleri~
+Ã‡Ä±lgÄ±n Himshlick'in portatif Ã§eÅŸmeleri~
 You are inside a ramshakle building, probably just thrown together for this
 guys shop.  You see a sign advertising his 'low prices' and 'low interest
 rates'....
@@ -3339,7 +3339,7 @@ You see the Merchant way.
 0 -1 7605
 S
 #7607
-Tüccar Yolu~
+TÃ¼ccar Yolu~
    You are on the Merchant way.  To the north, there is another shop.
 This one is:  Water bottles and beer.
 ~
@@ -3361,7 +3361,7 @@ You see the Merchant way.
 0 -1 7605
 S
 #7608
-Su şişeleri ve Bira~
+Su ÅŸiÅŸeleri ve Bira~
   You are inside a shop with a small bar.
 ~
 0 D 0
@@ -3372,7 +3372,7 @@ You see the Merchant way.
 0 -1 7607
 S
 #7609
-Tüccar Yolu~
+TÃ¼ccar Yolu~
 You are on the Merchant way.  To the north, there is yet another shop.
 The sign out front reads: potions and wands.  To the east, there is a river,
 but there is a bridge crossing it.
@@ -3395,7 +3395,7 @@ You see the Merchant way.
 0 -1 7607
 S
 #7610
-İksir ve Değnek dükkanı~
+Ä°ksir ve DeÄŸnek dÃ¼kkanÄ±~
    This shop is tended by an old witch.  There are boiling pots and cauldrons
 all over.
 ~
@@ -3407,7 +3407,7 @@ You see the Merchant way.
 0 -1 7609
 S
 #7611
-Nehrin üzerindeki Köprü~
+Nehrin Ã¼zerindeki KÃ¶prÃ¼~
    You are on a bridge over the river.
 ~
 0 0 1
@@ -3423,7 +3423,7 @@ You see the Merchant way.
 0 -1 7609
 S
 #7612
-Tüccar Yolu~
+TÃ¼ccar Yolu~
   You are on Merchant way.  This part of Merchant way is much more crowded.
 the vendors have taken to wandering the streets, selling their stock as they
 go.
@@ -3446,7 +3446,7 @@ You see the bridge over the river.
 0 -1 7611
 S
 #7613
-Kalabalık pazar~
+KalabalÄ±k pazar~
    You wonder if you are going to get out of this crowded market.....
 ~
 0 0 4
@@ -3457,7 +3457,7 @@ You see Merchant way.
 0 -1 7612
 S
 #7614
-Kalabalık pazar~
+KalabalÄ±k pazar~
    You think that you can get away from the crowd!  To the north, there
 is a long path the wends it's way into the distance.
 ~
@@ -3517,7 +3517,7 @@ You see the long path.
 0 -1 7615
 S
 #7617
-Kesişme~
+KesiÅŸme~
 You are at a junction on the long path.  To the east, there is a bunch of
 homes.
 ~
@@ -3539,7 +3539,7 @@ You see the long path.
 0 -1 7616
 S
 #7620
-Kırsal alan~
+KÄ±rsal alan~
    You are surrounded by people as they go about their errands from house to
 house.
 ~
@@ -3556,7 +3556,7 @@ You see the junction.
 0 -1 7617
 S
 #7621
-Kırsal alan~
+KÄ±rsal alan~
    Up ahead, you see a pair of paths, that lead up to the front doors
 of the houses.
 ~
@@ -3637,7 +3637,7 @@ You see the sitting room.
 0 -1 7626
 S
 #7625
-Yemek odası~
+Yemek odasÄ±~
     You are inside the dining room.
 ~
 0 D 0
@@ -3659,7 +3659,7 @@ You see the entrance to the house.
 0 -1 7624
 S
 #7627
-Oturma odası~
+Oturma odasÄ±~
    You are inside the living room in the house.
 ~
 0 D 0
@@ -3670,7 +3670,7 @@ You see the entrance to the house.
 0 -1 7623
 S
 #7628
-Çizim odası~
+Ã‡izim odasÄ±~
    You are inside the drawing room in the house.
 ~
 0 D 0
@@ -3697,7 +3697,7 @@ You see the junction
 0 -1 7617
 S
 #7630
-Patikanın sonu~
+PatikanÄ±n sonu~
      You are at the end of the long path, there is a sign here that says:
 'under construction'  with an arrow pointing north.. To the north, you see
 a building being coded.....
@@ -3710,7 +3710,7 @@ You see the path.
 0 -1 7629
 S
 #7639
-Kalabalık pazar~
+KalabalÄ±k pazar~
  Gods, this place is STUFFED with people!
 ~
 0 0 2
@@ -3721,7 +3721,7 @@ You see the crowded market.
 0 -1 7614
 S
 #7640
-Kalabalık pazar~
+KalabalÄ±k pazar~
    You are in the crowded market.  To the east, there is a bridge over the
 river.
 ~
@@ -3743,7 +3743,7 @@ You see the crowded market.
 0 -1 7614
 S
 #7641
-Kalabalık pazar~
+KalabalÄ±k pazar~
     You are in the crowded market.  The vendors here are getting on your
 nerves. it's always 'Come see my fresh fish!' or 'my jewelry is THE BEST!'
 etc....
@@ -3761,7 +3761,7 @@ You see the crowded market.
 0 -1 7642
 S
 #7642
-Kalabalık pazar~
+KalabalÄ±k pazar~
    You are in the crowded market.  How many people can there BE?! You ask
 yourself.....
 ~
@@ -3778,7 +3778,7 @@ You see the crowded market.
 0 -1 7643
 S
 #7643
-Kalabalık pazar~
+KalabalÄ±k pazar~
     You are in the crowded market.  There are too many people here..
 ~
 0 0 2
@@ -3799,7 +3799,7 @@ You see the crowded market.
 0 -1 7645
 S
 #7644
-Kalabalık pazar~
+KalabalÄ±k pazar~
   You are in the crowded market.  It's just so big...
 ~
 0 0 3
@@ -3810,7 +3810,7 @@ You see the crowded market.
 0 -1 7643
 S
 #7645
-Kalabalık pazar~
+KalabalÄ±k pazar~
    You are in the crowded market.  So many people, it's making you crazy!
 ~
 0 0 3
@@ -3826,7 +3826,7 @@ You see the crowded market.
 0 -1 7643
 S
 #7646
-Kalabalık pazar~
+KalabalÄ±k pazar~
      You are in the crowded market.  You start jabbering mindlessly....
 ~
 0 0 3
@@ -3837,7 +3837,7 @@ You see the crowded market.
 0 -1 7645
 S
 #7647
-Köprünün üzerinde~
+KÃ¶prÃ¼nÃ¼n Ã¼zerinde~
     You are on the bridge over the river.  The water here is beautiful.
 One of the reasons it's beautiful, is because it's made of some kind of magic
 mirror.  And, if thats not enough to convince you that it's beautiful, get
@@ -3992,7 +3992,7 @@ You see the market.
 0 -1 7651
 S
 #7654
-Patikanın üstünde~
+PatikanÄ±n Ã¼stÃ¼nde~
    The path takes you near a large town.  On the west, there is a
 small hole in the wall of the market, that you might crawl through.There is
 a sign here.
@@ -4038,7 +4038,7 @@ You see the path.
 0 -1 7656
 S
 #7656
-Patikanın üstünde~
+PatikanÄ±n Ã¼stÃ¼nde~
    The path leads you to a small gate to a large town.  The gate is unguarded
 and there is a sign here.
 ~
@@ -4194,7 +4194,7 @@ You see the market.
 0 -1 7661
 S
 #7663
-Şövalyelerin Kalesi'ne Giriş~
+ÅÃ¶valyelerin Kalesi'ne GiriÅŸ~
     You are standing beside the entrance to the Knights' castle.
 To the west, the palace stretches on, covered with silks, furs, and gold.
 To the south there is mable road
@@ -4244,7 +4244,7 @@ You see the palace.
 0 -1 7665
 S
 #7665
-Sarayın İçi~
+SarayÄ±n Ä°Ã§i~
    You are inside the palace of Gerighelm.  To the north, you see a room
 that is guarded by an old man.  To the east and west, the palace continues
 it's splendor.
@@ -4267,7 +4267,7 @@ You see the palace.
 0 -1 7668
 S
 #7666
-Hazine odası~
+Hazine odasÄ±~
   You are standing just outside the treasury.  there is a huge iron door
 to the east.  The old man says 'STOP'. He says 'You cannot enter here.'  'Go.'
 ~
@@ -4284,7 +4284,7 @@ You see the palace.
 0 -1 7665
 S
 #7667
-Hazine odasının içi~
+Hazine odasÄ±nÄ±n iÃ§i~
    You see the final defenses of the Treasury.  Three bugbears!!!
 Aside from you certain doom, you see lots of gold, silver, and other such
 valuables...
@@ -4297,7 +4297,7 @@ door huge iron~
 1 -1 7666
 S
 #7668
-Sarayın içi~
+SarayÄ±n iÃ§i~
    You are inside the palace of Gerighelm.  here, the palace opens into
 a large garden.  Complete with birds, chipmunks, and bugs OUCH <stupid fly>
 ~
@@ -4314,7 +4314,7 @@ You see the palace.
 0 -1 7665
 S
 #7669
-Bahçe~
+BahÃ§e~
    You are in the palace garden.  You hope that the Gardener won't catch
 you wandering about like this..
 ~
@@ -4336,7 +4336,7 @@ You see the garden.
 0 -1 7670
 S
 #7670
-Bahçe~
+BahÃ§e~
    Here the garden is blocked by a wall to the north, west, and south.
 But the flowers are still as pretty though.
 ~
@@ -4348,7 +4348,7 @@ You see the garden.
 0 -1 7669
 S
 #7671
-Bahçenin sonu~
+BahÃ§enin sonu~
    You are at the and of the garden.  To the north there is a GRAND hall.
 I wonder whats at the end of it?.
 ~
@@ -4365,7 +4365,7 @@ You see the garden.
 0 -1 7669
 S
 #7672
-Büyük koridor~
+BÃ¼yÃ¼k koridor~
     You are in the great hall of the palace of Gerighelm. To the north, you
 see what may be a throne room. To the east however, there seems to be an altar.
 And to the west, there is some servants quarters.
@@ -4404,7 +4404,7 @@ You see the great hall.
 0 -1 7672
 S
 #7674
-Hizmetçilerin Bölmeleri~
+HizmetÃ§ilerin BÃ¶lmeleri~
    These are the servants quarters.  To the south, there are more of them.
 The quarters themselves are much like quarters indeed.  there are 4 beds to
 a room. and 4 boxes under each bed.  The boxes are locked, and pickproof,
@@ -4423,7 +4423,7 @@ You see the servants quarters.
 0 -1 7675
 S
 #7675
-Hizmetçilerin Bölmeleri~
+HizmetÃ§ilerin BÃ¶lmeleri~
    You are in some servants quarters.  They are much like the last one you
 saw, except there are only 3 beds and boxes.
 ~
@@ -4435,7 +4435,7 @@ You see the servants quarters.
 0 -1 7674
 S
 #7676
-Taht Odası~
+Taht OdasÄ±~
    This is it! The Throne Room!  The Duke and Duchess are sitting in their
 respective thrones, which are carved out of the finest ebony and ivory.
 The furs, gold, and silks are VERY VERY VERY resplendent here.  There is a
@@ -4477,7 +4477,7 @@ door duchesses duchess~
 1 -1 7678
 S
 #7678
-Düşes'in odası~
+DÃ¼ÅŸes'in odasÄ±~
    This is the Duchesses room.  She must come here when she and her husband
 have a spat.  You know this because the room is relatively dusty compared
 with all the other rooms here.
@@ -4490,7 +4490,7 @@ door~
 1 -1 7677
 S
 #7679
-Dük'ün odası~
+DÃ¼k'Ã¼n odasÄ±~
     This room is well used to say the least.  I'd say more, but it's not the
 kinda thing to transmit over phone lines.  But I can tell you this:
 The Duke and his wife have, shall we say, _interesting_ habits >:)
@@ -4533,7 +4533,7 @@ Pet Shop Warehouse~
 0 M 0
 S
 #7699
-Kurban Odası~
+Kurban OdasÄ±~
   Blood, blood, blood, guts, flesh, corpses....
 ~
 0 M 0

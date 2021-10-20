@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -54,6 +54,7 @@
 #include <sys/types.h>
 #endif
 #include <stdio.h>
+#include <wchar.h>
 #include <time.h>
 #include "merc.h"
 #include "magic.h"
@@ -62,113 +63,113 @@
 /* language staff */
 const struct translation_type translation_table[]=
 {
-        {"a",                   "e"},
-        {"A",                   "E"},
-        {"b",                   "c"},
-        {"B",                   "C"},
-        {"c",                   "d"},
-        {"C",                   "D"},
-        {"d",                   "f"},
-        {"D",                   "F"},
-        {"e",                   "i"},
-        {"E",                   "I"},
-        {"f",                   "g"},
-        {"F",                   "G"},
-        {"g",                   "h"},
-        {"G",                   "H"},
-        {"h",                   "j"},
-        {"H",                   "J"},
-        {"i",                   "o"},
-        {"I",                   "O"},
-        {"j",                   "k"},
-        {"J",                   "K"},
-        {"k",                   "l"},
-        {"K",                   "L"},
-        {"l",                   "m"},
-        {"L",                   "M"},
-        {"m",                   "n"},
-        {"M",                   "N"},
-        {"n",                   "p"},
-        {"N",                   "P"},
-        {"o",                   "u"},
-        {"O",                   "U"},
-        {"p",                   "q"},
-        {"P",                   "Q"},
-        {"q",                   "r"},
-        {"Q",                   "R"},
-        {"r",                   "s"},
-        {"R",                   "S"},
-        {"s",                   "t"},
-        {"S",                   "T"},
-        {"t",                   "v"},
-        {"T",                   "V"},
-        {"u",                   "y"},
-        {"U",                   "Y"},
-        {"v",                   "w"},
-        {"V",                   "W"},
-        {"w",                   "x"},
-        {"W",                   "X"},
-        {"x",                   "z"},
-        {"X",                   "Z"},
-        {"y",                   "a"},
-        {"Y",                   "A"},
-        {"z",                   "b"},
-        {"Z",                   "B"},
-        {"",            	"" }
+        { L"a",                   L"e"},
+        { L"A",                   L"E"},
+        { L"b",                   L"c"},
+        { L"B",                   L"C"},
+        { L"c",                   L"d"},
+        { L"C",                   L"D"},
+        { L"d",                   L"f"},
+        { L"D",                   L"F"},
+        { L"e",                   L"i"},
+        { L"E",                   L"I"},
+        { L"f",                   L"g"},
+        { L"F",                   L"G"},
+        { L"g",                   L"h"},
+        { L"G",                   L"H"},
+        { L"h",                   L"j"},
+        { L"H",                   L"J"},
+        { L"i",                   L"o"},
+        { L"I",                   L"O"},
+        { L"j",                   L"k"},
+        { L"J",                   L"K"},
+        { L"k",                   L"l"},
+        { L"K",                   L"L"},
+        { L"l",                   L"m"},
+        { L"L",                   L"M"},
+        { L"m",                   L"n"},
+        { L"M",                   L"N"},
+        { L"n",                   L"p"},
+        { L"N",                   L"P"},
+        { L"o",                   L"u"},
+        { L"O",                   L"U"},
+        { L"p",                   L"q"},
+        { L"P",                   L"Q"},
+        { L"q",                   L"r"},
+        { L"Q",                   L"R"},
+        { L"r",                   L"s"},
+        { L"R",                   L"S"},
+        { L"s",                   L"t"},
+        { L"S",                   L"T"},
+        { L"t",                   L"v"},
+        { L"T",                   L"V"},
+        { L"u",                   L"y"},
+        { L"U",                   L"Y"},
+        { L"v",                   L"w"},
+        { L"V",                   L"W"},
+        { L"w",                   L"x"},
+        { L"W",                   L"X"},
+        { L"x",                   L"z"},
+        { L"X",                   L"Z"},
+        { L"y",                   L"a"},
+        { L"Y",                   L"A"},
+        { L"z",                   L"b"},
+        { L"Z",                   L"B"},
+        { L"",            	L"" }
 };
 
 const   struct  language_type       language_table      [ MAX_LANGUAGE ] =
 {
-  { "ortak",	LANG_COMMON	},
-  { "insan",	LANG_HUMAN	},
-  { "çora",	LANG_CORA	},
-  { "cüce",	LANG_DWARVISH	},
-  { "kuþ",	LANG_BIRD	},
-  { "kedi",	LANG_CAT	},
-  { "asura",	LANG_ASURA	},
-  { "sürüngen",	LANG_SURUNGEN	},
-  { "astral",	LANG_ASTRAL	},
-  { "dev",	LANG_GIANT	},
-  { "ejderha",	LANG_DRAGON	},
-  { "su",	LANG_WATER	},
-  { "su",	LANG_WATER	},
-  { "köpek",	LANG_DOG	},
+  { L"ortak",	LANG_COMMON	},
+  { L"insan",	LANG_HUMAN	},
+  { L"Ã§ora",	LANG_CORA	},
+  { L"cÃ¼ce",	LANG_DWARVISH	},
+  { L"kuÅŸ",	LANG_BIRD	},
+  { L"kedi",	LANG_CAT	},
+  { L"asura",	LANG_ASURA	},
+  { L"sÃ¼rÃ¼ngen",	LANG_SURUNGEN	},
+  { L"astral",	LANG_ASTRAL	},
+  { L"dev",	LANG_GIANT	},
+  { L"ejderha",	LANG_DRAGON	},
+  { L"su",	LANG_WATER	},
+  { L"su",	LANG_WATER	},
+  { L"kÃ¶pek",	LANG_DOG	},
 };
 
 /* item type list */
 const struct item_type		item_table	[]	=
 {
-    {	ITEM_LIGHT,	"light"		},
-    {	ITEM_SCROLL,	"scroll"	},
-    {	ITEM_WAND,	"wand"		},
-    {   ITEM_STAFF,	"staff"		},
-    {   ITEM_WEAPON,	"weapon"	},
-    {   ITEM_TREASURE,	"treasure"	},
-    {   ITEM_ARMOR,	"armor"		},
-    {	ITEM_POTION,	"potion"	},
-    {	ITEM_CLOTHING,	"clothing"	},
-    {   ITEM_FURNITURE,	"furniture"	},
-    {	ITEM_TRASH,	"trash"		},
-    {	ITEM_CONTAINER,	"container"	},
-    {	ITEM_DRINK_CON, "drink"		},
-    {	ITEM_KEY,	"key"		},
-    {	ITEM_FOOD,	"food"		},
-    {	ITEM_MONEY,	"money"		},
-    {	ITEM_BOAT,	"boat"		},
-    {	ITEM_CORPSE_NPC,"npc_corpse"	},
-    {	ITEM_CORPSE_PC,	"pc_corpse"	},
-    {   ITEM_FOUNTAIN,	"fountain"	},
-    {	ITEM_PILL,	"pill"		},
-    {	ITEM_PROTECT,	"protect"	},
-    {	ITEM_MAP,	"map"		},
-    {	ITEM_PORTAL,	"portal"	},
-    {	ITEM_WARP_STONE,"warp_stone"	},
-    {	ITEM_ROOM_KEY,	"room_key"	},
-    {	ITEM_GEM,	"gem"		},
-    {	ITEM_JEWELRY,	"jewelry"	},
-    {   ITEM_JUKEBOX,	"jukebox"	},
-    {   ITEM_TATTOO,	"tattoo"	},
-    {   ITEM_MAYMUNCUK,	"maymuncuk"	},
+    {	ITEM_LIGHT, L"light"		},
+    {	ITEM_SCROLL, L"scroll"	},
+    {	ITEM_WAND, L"wand"		},
+    {   ITEM_STAFF, L"staff"		},
+    {   ITEM_WEAPON, L"weapon"	},
+    {   ITEM_TREASURE, L"treasure"	},
+    {   ITEM_ARMOR, L"armor"		},
+    {	ITEM_POTION, L"potion"	},
+    {	ITEM_CLOTHING, L"clothing"	},
+    {   ITEM_FURNITURE, L"furniture"	},
+    {	ITEM_TRASH, L"trash"		},
+    {	ITEM_CONTAINER, L"container"	},
+    {	ITEM_DRINK_CON, L"drink"		},
+    {	ITEM_KEY, L"key"		},
+    {	ITEM_FOOD, L"food"		},
+    {	ITEM_MONEY, L"money"		},
+    {	ITEM_BOAT, L"boat"		},
+    {	ITEM_CORPSE_NPC, L"npc_corpse"	},
+    {	ITEM_CORPSE_PC, L"pc_corpse"	},
+    {   ITEM_FOUNTAIN, L"fountain"	},
+    {	ITEM_PILL, L"pill"		},
+    {	ITEM_PROTECT, L"protect"	},
+    {	ITEM_MAP, L"map"		},
+    {	ITEM_PORTAL, L"portal"	},
+    {	ITEM_WARP_STONE,L"warp_stone"	},
+    {	ITEM_ROOM_KEY, L"room_key"	},
+    {	ITEM_GEM, L"gem"		},
+    {	ITEM_JEWELRY, L"jewelry"	},
+    {   ITEM_JUKEBOX, L"jukebox"	},
+    {   ITEM_TATTOO, L"tattoo"	},
+    {   ITEM_MAYMUNCUK, L"maymuncuk"	},
     {   0,		NULL		}
 };
 
@@ -176,17 +177,17 @@ const struct item_type		item_table	[]	=
 /* weapon selection table */
 const	struct	weapon_type	weapon_table	[]	=
 {
-   { "sword",	OBJ_VNUM_SCHOOL_SWORD,	WEAPON_SWORD,	&gsn_sword	},
-   { "mace",	OBJ_VNUM_SCHOOL_MACE,	WEAPON_MACE,	&gsn_mace 	},
-   { "dagger",	OBJ_VNUM_SCHOOL_DAGGER,	WEAPON_DAGGER,	&gsn_dagger	},
-   { "axe",	OBJ_VNUM_SCHOOL_AXE,	WEAPON_AXE,	&gsn_axe	},
-   { "staff",	OBJ_VNUM_SCHOOL_STAFF,	WEAPON_SPEAR,	&gsn_spear	},
-   { "flail",	OBJ_VNUM_SCHOOL_FLAIL,	WEAPON_FLAIL,	&gsn_flail	},
-   { "whip",	OBJ_VNUM_SCHOOL_WHIP,	WEAPON_WHIP,	&gsn_whip	},
-   { "polearm",	OBJ_VNUM_SCHOOL_POLEARM,WEAPON_POLEARM,	&gsn_polearm	},
-   { "bow",	OBJ_VNUM_SCHOOL_BOW,	WEAPON_BOW,	&gsn_bow	},
-   { "arrow",	OBJ_VNUM_SCHOOL_POLEARM,WEAPON_ARROW,	&gsn_arrow	},
-   { "lance",	OBJ_VNUM_SCHOOL_LANCE,	WEAPON_LANCE,	&gsn_lance	},
+   { L"sword",	OBJ_VNUM_SCHOOL_SWORD,	WEAPON_SWORD,	&gsn_sword	},
+   { L"mace",	OBJ_VNUM_SCHOOL_MACE,	WEAPON_MACE,	&gsn_mace 	},
+   { L"dagger",	OBJ_VNUM_SCHOOL_DAGGER,	WEAPON_DAGGER,	&gsn_dagger	},
+   { L"axe",	OBJ_VNUM_SCHOOL_AXE,	WEAPON_AXE,	&gsn_axe	},
+   { L"staff",	OBJ_VNUM_SCHOOL_STAFF,	WEAPON_SPEAR,	&gsn_spear	},
+   { L"flail",	OBJ_VNUM_SCHOOL_FLAIL,	WEAPON_FLAIL,	&gsn_flail	},
+   { L"whip",	OBJ_VNUM_SCHOOL_WHIP,	WEAPON_WHIP,	&gsn_whip	},
+   { L"polearm",	OBJ_VNUM_SCHOOL_POLEARM,WEAPON_POLEARM,	&gsn_polearm	},
+   { L"bow",	OBJ_VNUM_SCHOOL_BOW,	WEAPON_BOW,	&gsn_bow	},
+   { L"arrow",	OBJ_VNUM_SCHOOL_POLEARM,WEAPON_ARROW,	&gsn_arrow	},
+   { L"lance",	OBJ_VNUM_SCHOOL_LANCE,	WEAPON_LANCE,	&gsn_lance	},
    { NULL,	0,				0,	NULL		}
 };
 
@@ -195,72 +196,72 @@ const	struct	weapon_type	weapon_table	[]	=
 /* wiznet table and prototype for future flag setting */
 const   struct wiznet_type      wiznet_table    []              =
 {
-   {    "on",           WIZ_ON,         IM },
-   {    "prefix",	WIZ_PREFIX,	IM },
-   {    "ticks",        WIZ_TICKS,      IM },
-   {    "logins",       WIZ_LOGINS,     IM },
-   {    "sites",        WIZ_SITES,      L4 },
-   {    "links",        WIZ_LINKS,      L7 },
-   {	"newbies",	WIZ_NEWBIE,	IM },
-   {	"spam",		WIZ_SPAM,	L5 },
-   {    "deaths",       WIZ_DEATHS,     IM },
-   {    "resets",       WIZ_RESETS,     L4 },
-   {    "mobdeaths",    WIZ_MOBDEATHS,  L4 },
-   {    "flags",	WIZ_FLAGS,	L5 },
-   {	"penalties",	WIZ_PENALTIES,	L5 },
-   {	"saccing",	WIZ_SACCING,	L5 },
-   {	"levels",	WIZ_LEVELS,	IM },
-   {	"load",		WIZ_LOAD,	L2 },
-   {	"restore",	WIZ_RESTORE,	L2 },
-   {	"snoops",	WIZ_SNOOPS,	L2 },
-   {	"switches",	WIZ_SWITCHES,	L2 },
-   {	"secure",	WIZ_SECURE,	L1 },
+   { L"on",           WIZ_ON,         IM },
+   { L"prefix",	WIZ_PREFIX,	IM },
+   { L"ticks",        WIZ_TICKS,      IM },
+   { L"logins",       WIZ_LOGINS,     IM },
+   { L"sites",        WIZ_SITES,      L4 },
+   { L"links",        WIZ_LINKS,      L7 },
+   {	L"newbies",	WIZ_NEWBIE,	IM },
+   {	L"spam",		WIZ_SPAM,	L5 },
+   { L"deaths",       WIZ_DEATHS,     IM },
+   { L"resets",       WIZ_RESETS,     L4 },
+   { L"mobdeaths",    WIZ_MOBDEATHS,  L4 },
+   { L"flags",	WIZ_FLAGS,	L5 },
+   {	L"penalties",	WIZ_PENALTIES,	L5 },
+   {	L"saccing",	WIZ_SACCING,	L5 },
+   {	L"levels",	WIZ_LEVELS,	IM },
+   {	L"load",		WIZ_LOAD,	L2 },
+   {	L"restore",	WIZ_RESTORE,	L2 },
+   {	L"snoops",	WIZ_SNOOPS,	L2 },
+   {	L"switches",	WIZ_SWITCHES,	L2 },
+   {	L"secure",	WIZ_SECURE,	L1 },
    {	NULL,		0,		0  }
 };
 
 /* attack table */
 const 	struct attack_type	attack_table	[]		=
 {
-    { 	"none",		"vuruþ",		-1		},  /*  0 */
-    {	"slice",	"dilme", 	DAM_SLASH	},
-    {   "stab",		"saplama",		DAM_PIERCE	},
-    {	"slash",	"kesici",	DAM_SLASH	},
-    {	"whip",		"kamçý",		DAM_SLASH	},
-    {   "claw",		"pençe",		DAM_SLASH	},  /*  5 */
-    {	"blast",	"patlama",	DAM_BASH	},
-    {   "pound",	"çarpma",	DAM_BASH	},
-    {	"crush",	"ezme",	DAM_BASH	},
-    {   "grep",		"kesici",		DAM_SLASH	},
-    {	"bite",		"ýsýrma",		DAM_PIERCE	},  /* 10 */
-    {   "pierce",	"delici",	DAM_PIERCE	},
-    {   "suction",	"emici",	DAM_BASH	},
-    {	"beating",	"beating",	DAM_BASH	},
-    {   "digestion",	"öðütücü",	DAM_ACID	},
-    {	"charge",	"yüklenme",	DAM_BASH	},  /* 15 */
-    { 	"slap",		"tokat",		DAM_BASH	},
-    {	"punch",	"yumruk",	DAM_BASH	},
-    {	"wrath",	"gazap",	DAM_ENERGY	},
-    {	"magic",	"büyü",	DAM_ENERGY	},
-    {   "divine",	"ilahi güç",	DAM_HOLY	},  /* 20 */
-    {	"cleave",	"yarma",	DAM_SLASH	},
-    {	"scratch",	"týrmalama",	DAM_PIERCE	},
-    {   "peck",		"gaga",		DAM_PIERCE	},
-    {   "peckb",	"gaga",		DAM_BASH	},
-    {   "chop",		"chop",		DAM_SLASH	},  /* 25 */
-    {   "sting",	"sokma",	DAM_PIERCE	},
-    {   "smash",	 "smash",	DAM_BASH	},
-    {   "shbite",	"þok ýsýrýþý",DAM_LIGHTNING	},
-    {	"flbite",	"alev ýsýrýþý", DAM_FIRE	},
-    {	"frbite",	"ayaz ýsýrýþý", DAM_COLD	},  /* 30 */
-    {	"acbite",	"asit ýsýrýþý", 	DAM_ACID	},
-    {	"chomp",	"çiðneme",	DAM_PIERCE	},
-    {  	"drain",	"yaþam emici",	DAM_NEGATIVE	},
-    {   "thrust",	"thrust",	DAM_PIERCE	},
-    {   "slime",	"balçýk",	DAM_ACID	},
-    {	"shock",	"þok",	DAM_LIGHTNING	},
-    {   "thwack",	"thwack",	DAM_BASH	},
-    {   "flame",	"alev",	DAM_FIRE	},
-    {   "chill",	"ayaz",	DAM_COLD	},
+    {	L"none", L"vuruÅŸ",		-1		},  /*  0 */
+    {	L"slice",  L"dilme", 	DAM_SLASH	},
+    { L"stab", L"saplama",		DAM_PIERCE	},
+    {	L"slash",  L"kesici",	DAM_SLASH	},
+    {	L"whip", L"kamÃ§Ä±",		DAM_SLASH	},
+    { L"claw", L"penÃ§e",		DAM_SLASH	},  /*  5 */
+    {	L"blast",  L"patlama",	DAM_BASH	},
+    { L"pound",  L"Ã§arpma",	DAM_BASH	},
+    {	L"crush",  L"ezme",	DAM_BASH	},
+    { L"grep", L"kesici",		DAM_SLASH	},
+    {	L"bite", L"Ä±sÄ±rma",		DAM_PIERCE	},  /* 10 */
+    { L"pierce",  L"delici",	DAM_PIERCE	},
+    { L"suction",  L"emici",	DAM_BASH	},
+    {	L"beating",  L"beating",	DAM_BASH	},
+    { L"digestion",  L"Ã¶ÄŸÃ¼tÃ¼cÃ¼",	DAM_ACID	},
+    {	L"charge",  L"yÃ¼klenme",	DAM_BASH	},  /* 15 */
+    {	L"slap", L"tokat",		DAM_BASH	},
+    {	L"punch",  L"yumruk",	DAM_BASH	},
+    {	L"wrath",  L"gazap",	DAM_ENERGY	},
+    {	L"magic",  L"bÃ¼yÃ¼",	DAM_ENERGY	},
+    { L"divine",  L"ilahi gÃ¼Ã§",	DAM_HOLY	},  /* 20 */
+    {	L"cleave",  L"yarma",	DAM_SLASH	},
+    {	L"scratch",  L"tÄ±rmalama",	DAM_PIERCE	},
+    { L"peck", L"gaga",		DAM_PIERCE	},
+    { L"peckb",  L"gaga",		DAM_BASH	},
+    { L"chop", L"chop",		DAM_SLASH	},  /* 25 */
+    { L"sting",  L"sokma",	DAM_PIERCE	},
+    { L"smash",	 L"smash",	DAM_BASH	},
+    { L"shbite",  L"ÅŸok Ä±sÄ±rÄ±ÅŸÄ±",DAM_LIGHTNING	},
+    {	L"flbite",  L"alev Ä±sÄ±rÄ±ÅŸÄ±", DAM_FIRE	},
+    {	L"frbite",  L"ayaz Ä±sÄ±rÄ±ÅŸÄ±", DAM_COLD	},  /* 30 */
+    {	L"acbite",  L"asit Ä±sÄ±rÄ±ÅŸÄ±", 	DAM_ACID	},
+    {	L"chomp",  L"Ã§iÄŸneme",	DAM_PIERCE	},
+    {  	L"drain",  L"yaÅŸam emici",	DAM_NEGATIVE	},
+    { L"thrust",  L"thrust",	DAM_PIERCE	},
+    { L"slime",  L"balÃ§Ä±k",	DAM_ACID	},
+    {	L"shock",  L"ÅŸok",	DAM_LIGHTNING	},
+    { L"thwack",  L"thwack",	DAM_BASH	},
+    { L"flame",  L"alev",	DAM_FIRE	},
+    { L"chill",  L"ayaz",	DAM_COLD	},
     {   NULL,		NULL,		0		}
 };
 
@@ -268,558 +269,558 @@ const 	struct attack_type	attack_table	[]		=
 const 	struct	race_type	race_table	[]		=
 {
 
-    { {"unique","eþsiz"},	"",	0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0,{ "" }, {0,0,0,0,0,0 } },
+    { { L"unique", L"eÅŸsiz"},	L"",	0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0,{ L"" }, {0,0,0,0,0,0 } },
 
     { /* 1 */
-	{"human","insan"},"Ýnsan",LANG_HUMAN,	TRUE, 		SIZE_MEDIUM, 0,
+	{ L"human", L"insan"},L"Ä°nsan",LANG_HUMAN,	TRUE, 		SIZE_MEDIUM, 0,
 	0,		0, 		0,
 	0, 		0,		0,
-	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "identify", "steal" }, { 20, 21, 20, 21, 21 ,20}
+	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"identify", L"steal" }, { 20, 21, 20, 21, 21 ,20}
     },
 
     { /* 2 */
-	{"çora","çora"},"Çora",LANG_CORA,		TRUE, 		SIZE_MEDIUM, 0,
+	{ L"Ã§ora", L"Ã§ora"},L"Ã‡ora",LANG_CORA,		TRUE, 		SIZE_MEDIUM, 0,
 	0,		AFF_INFRARED|AFF_SNEAK,	0,
 	0,		RES_CHARM,	VULN_IRON,
-	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 500, { "lore" , "camouflage" }, { 20, 23, 20, 22, 18, 20 }
+	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 500, { L"lore" , L"camouflage" }, { 20, 23, 20, 22, 18, 20 }
     },
 
     { /* 3 */
-	{"dwarf","cüce"},"Cüce",LANG_DWARVISH,	TRUE, 		SIZE_MEDIUM, 0,
+	{ L"dwarf", L"cÃ¼ce"},L"CÃ¼ce",LANG_DWARVISH,	TRUE, 		SIZE_MEDIUM, 0,
 	0,		AFF_INFRARED,	0,
 	0,		RES_POISON|RES_DISEASE, VULN_DROWNING,
-	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 250, { "berserk" }, { 21, 20, 21, 18, 23, 20 }
+	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 250, { L"berserk" }, { 21, 20, 21, 18, 23, 20 }
     },
 
     { /* 4 */
-        {"gamayun","gamayun"},"Gamayun",LANG_BIRD,        TRUE, 		SIZE_MEDIUM, 0,
+        { L"gamayun", L"gamayun"},L"Gamayun",LANG_BIRD,        TRUE, 		SIZE_MEDIUM, 0,
         0,              AFF_FLYING,             0,
         0,              0,              0,
-        A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 250, { "" }, { 18, 23, 20, 24, 18 , 20}
+        A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 250, { L"" }, { 18, 23, 20, 24, 18 , 20}
     },
 
     { /* 5  */
-  {"pardus","pardus"},"Pardus",LANG_CAT,	TRUE, 		SIZE_MEDIUM, 0,
+  { L"pardus", L"pardus"},L"Pardus",LANG_CAT,	TRUE, 		SIZE_MEDIUM, 0,
   0,		AFF_INFRARED,	0,
   0,		RES_WOOD|RES_DISEASE,	0,
-  A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 250, {  "ambush", "berserk", "steal" }, { 21, 19, 20, 23, 21, 20}
+  A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 250, { L"ambush", L"berserk", L"steal" }, { 21, 19, 20, 23, 21, 20}
     },
 
     {  /* 6 */
-	{"asura","asura"},"Asura",LANG_ASURA,	TRUE, 		SIZE_LARGE, 0,
+	{ L"asura", L"asura"},L"Asura",LANG_ASURA,	TRUE, 		SIZE_LARGE, 0,
 	0,		AFF_REGENERATION|AFF_INFRARED,	OFF_BERSERK,
  	0,	RES_CHARM|RES_BASH,	VULN_FIRE|VULN_ACID,
-	A|B|H|M|V,		A|B|C|D|E|F|G|H|I|J|K|U|V, 400, { "fast healing","trance" }, { 22, 19, 19, 21, 23, 20}
+	A|B|H|M|V,		A|B|C|D|E|F|G|H|I|J|K|U|V, 400, { L"fast healing", L"trance" }, { 22, 19, 19, 21, 23, 20}
     },
 
         { /* 7 */
-          {"yeg","yeg"},"",LANG_DWARVISH,        FALSE, 		SIZE_MEDIUM, 0,
+          { L"yeg", L"yeg"},L"",LANG_DWARVISH,        FALSE, 		SIZE_MEDIUM, 0,
           0,                AFF_INFRARED,   0,
           0,                RES_MAGIC|RES_POISON|RES_DISEASE, VULN_DROWNING,
-          A|H|M|V,          A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+          A|H|M|V,          A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 8 */
-            {"börü","börü"},"", LANG_DOG,       FALSE, 		SIZE_MEDIUM, 0,
+            { L"bÃ¶rÃ¼", L"bÃ¶rÃ¼"},L"", LANG_DOG,       FALSE, 		SIZE_MEDIUM, 0,
             0,              AFF_INFRARED,   OFF_TAIL,
             0,              RES_LIGHT|RES_COLD,     VULN_FIRE|VULN_DROWNING,
-            A|H|M|V,        A|C|D|E|F|H|J|K|Q|U|V, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+            A|H|M|V,        A|C|D|E|F|H|J|K|Q|U|V, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         {  /* 9 */
-          {"naga","naga"},"",LANG_SURUNGEN,     FALSE, 		SIZE_MEDIUM, 0,
+          { L"naga", L"naga"},L"",LANG_SURUNGEN,     FALSE, 		SIZE_MEDIUM, 0,
           0,                AFF_INFRARED,   0,
           0,                RES_MAGIC|RES_POISON|RES_DISEASE, VULN_BASH,
-          A|H|M|V,          A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+          A|H|M|V,          A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 10 */
-            {"gnome","gnom"},"",LANG_DWARVISH,        FALSE, 		SIZE_MEDIUM, 0,
+            { L"gnome", L"gnom"},L"",LANG_DWARVISH,        FALSE, 		SIZE_MEDIUM, 0,
             0,              AFF_INFRARED,   0,
             0,              RES_POISON,     VULN_BASH,
-            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 11 */
-    	{"githyanki","githyanki"},"",LANG_ASTRAL,	FALSE,  		SIZE_MEDIUM, 0,
+    	{ L"githyanki", L"githyanki"},L"",LANG_ASTRAL,	FALSE,  		SIZE_MEDIUM, 0,
     	0,		AFF_INFRARED,	0,
     	0, 		0,		0,
-    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 12 */
-      {"storm giant","fýrtýna devi"},"",LANG_GIANT,	FALSE, 		SIZE_GIANT, 0,
+      { L"storm giant", L"fÄ±rtÄ±na devi"},L"",LANG_GIANT,	FALSE, 		SIZE_GIANT, 0,
       0,		AFF_FLYING,		0,
       0,		RES_LIGHTNING,	VULN_MENTAL|VULN_COLD|VULN_FIRE,
-      A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+      A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 13 */
-      {"cloud giant","bulut devi"},	"",LANG_GIANT,FALSE, 		SIZE_GIANT, 0,
+      { L"cloud giant", L"bulut devi"},	L"",LANG_GIANT,FALSE, 		SIZE_GIANT, 0,
       0,		AFF_FLYING,		0,
       0,		RES_WEAPON,	VULN_MENTAL|VULN_LIGHTNING,
-      A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+      A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 14 */
-      {"fire giant","ateþ devi"},"",LANG_GIANT,	FALSE, 		SIZE_GIANT, 0,
+      { L"fire giant", L"ateÅŸ devi"},L"",LANG_GIANT,	FALSE, 		SIZE_GIANT, 0,
       0,		0,		0,
       0,		RES_FIRE,	VULN_MENTAL|VULN_LIGHTNING|VULN_COLD,
-      A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+      A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 15 */
-      {"frost giant","buz devi"},"",LANG_GIANT,	FALSE, 		SIZE_GIANT, 0,
+      { L"frost giant", L"buz devi"},L"",LANG_GIANT,	FALSE, 		SIZE_GIANT, 0,
       0,		0,		0,
       0,		RES_COLD,	VULN_MENTAL|VULN_LIGHTNING|VULN_FIRE,
-      A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+      A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 16 */
-            {"black dragon","kara ejderha"},"",LANG_DRAGON, FALSE,  	SIZE_GARGANTUAN, 0,
+            { L"black dragon", L"kara ejderha"},L"",LANG_DRAGON, FALSE,  	SIZE_GARGANTUAN, 0,
     	0, 		AFF_INFRARED|AFF_FLYING,	0,
     	0,		RES_BASH|RES_CHARM|RES_ACID,	VULN_PIERCE,
-            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 17 */
-            {"blue dragon","mavi ejderha"}, "",LANG_DRAGON,	FALSE, 		SIZE_GARGANTUAN, 0,
+            { L"blue dragon", L"mavi ejderha"}, L"",LANG_DRAGON,	FALSE, 		SIZE_GARGANTUAN, 0,
     	0, 		AFF_INFRARED|AFF_FLYING,	0,
     	0,		RES_BASH|RES_CHARM|RES_LIGHTNING,
     	VULN_PIERCE,
-            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 18 */
-            {"green dragon","yeþil ejderha"},"",LANG_DRAGON, FALSE, 		SIZE_GARGANTUAN, 0,
+            { L"green dragon", L"yeÅŸil ejderha"},L"",LANG_DRAGON, FALSE, 		SIZE_GARGANTUAN, 0,
     	0, 		AFF_INFRARED|AFF_FLYING,	0,
     	0,		RES_BASH|RES_CHARM|RES_POISON,	VULN_PIERCE,
-            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 19 */
-            {"red dragon","kýzýl ejderha"},"", LANG_DRAGON,	FALSE, 		SIZE_GARGANTUAN, 0,
+            { L"red dragon", L"kÄ±zÄ±l ejderha"},L"", LANG_DRAGON,	FALSE, 		SIZE_GARGANTUAN, 0,
     	0, 		AFF_INFRARED|AFF_FLYING,	0,
     	0,		RES_BASH|RES_CHARM|RES_FIRE,	VULN_PIERCE,
-            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 20 */
-            {"white dragon","ak ejderha"},"",LANG_DRAGON, FALSE, 		SIZE_GARGANTUAN, 0,
+            { L"white dragon", L"ak ejderha"},L"",LANG_DRAGON, FALSE, 		SIZE_GARGANTUAN, 0,
     	0, 		AFF_INFRARED|AFF_FLYING,	0,
     	0,		RES_BASH|RES_CHARM|RES_COLD,	VULN_PIERCE,
-            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 21 */
-            {"brass dragon","pirinç ejderha"},"",LANG_DRAGON, FALSE, 		SIZE_GARGANTUAN, 0,
+            { L"brass dragon", L"pirinÃ§ ejderha"},L"",LANG_DRAGON, FALSE, 		SIZE_GARGANTUAN, 0,
     	0, 		AFF_INFRARED|AFF_FLYING,	0,
     	0,		RES_BASH|RES_CHARM|RES_FIRE,	VULN_PIERCE,
-            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 22 */
-            {"gold dragon","altýn ejderha"},"",LANG_DRAGON, 	FALSE, 		SIZE_GARGANTUAN, 0,
+            { L"gold dragon", L"altÄ±n ejderha"},L"",LANG_DRAGON, 	FALSE, 		SIZE_GARGANTUAN, 0,
     	0, 		AFF_INFRARED|AFF_FLYING,	0,
     	0,		RES_BASH|RES_CHARM|RES_FIRE|RES_POISON,
     	VULN_PIERCE,
-            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 23 */
-            {"silver dragon","gümüþ ejderha"},"",LANG_DRAGON,FALSE, 		SIZE_GARGANTUAN, 0,
+            { L"silver dragon", L"gÃ¼mÃ¼ÅŸ ejderha"},L"",LANG_DRAGON,FALSE, 		SIZE_GARGANTUAN, 0,
     	0, 		AFF_INFRARED|AFF_FLYING,	0,
     	0,		RES_BASH|RES_CHARM|RES_COLD,	VULN_PIERCE,
-            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 24 */
-            {"bronze dragon","tunç ejderha"},"",LANG_DRAGON,FALSE, 		SIZE_GARGANTUAN, 0,
+            { L"bronze dragon", L"tunÃ§ ejderha"},L"",LANG_DRAGON,FALSE, 		SIZE_GARGANTUAN, 0,
     	0, 		AFF_INFRARED|AFF_FLYING,	0,
     	0,		RES_BASH|RES_CHARM|RES_LIGHTNING,
     	VULN_PIERCE,
-            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 25 */
-            {"copper dragon","bakýr ejderha"},"",LANG_DRAGON,FALSE, 		SIZE_GARGANTUAN, 0,
+            { L"copper dragon", L"bakÄ±r ejderha"},L"",LANG_DRAGON,FALSE, 		SIZE_GARGANTUAN, 0,
     	0, 		AFF_INFRARED|AFF_FLYING,	0,
     	0,		RES_BASH|RES_CHARM|RES_ACID,	VULN_PIERCE,
-            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+            A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 26 */
-    	{"bat","yarasa"},"",LANG_BIRD,		FALSE, 		SIZE_TINY, 0,
+    	{ L"bat", L"yarasa"},L"",LANG_BIRD,		FALSE, 		SIZE_TINY, 0,
     	0,		AFF_FLYING/*|AFF_DARK_VISION*/,	OFF_DODGE|OFF_FAST,
     	0,		0,		VULN_LIGHT,
-    	A|G|V,		A|C|D|E|F|H|J|K|P, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|G|V,		A|C|D|E|F|H|J|K|P, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 27 */
-    	{"bear","ayý"},	"",	LANG_DOG, FALSE, 		SIZE_LARGE, 0,
+    	{ L"bear", L"ayÄ±"},	L"",	LANG_DOG, FALSE, 		SIZE_LARGE, 0,
     	0,		0,		OFF_CRUSH|OFF_DISARM|OFF_BERSERK,
     	0,		RES_BASH|RES_COLD,	0,
-    	A|G|V,		A|B|C|D|E|F|H|J|K|U|V, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|G|V,		A|B|C|D|E|F|H|J|K|U|V, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         {  /* 28 */
-    	{"cat","kedi"},"",LANG_CAT,		FALSE, 		SIZE_SMALL, 0,
+    	{ L"cat", L"kedi"},L"",LANG_CAT,		FALSE, 		SIZE_SMALL, 0,
     	0,		/*AFF_DARK_VISION*/0,	OFF_FAST|OFF_DODGE,
     	0,		0,		0,
-    	A|G|V,		A|C|D|E|F|H|J|K|Q|U|V, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|G|V,		A|C|D|E|F|H|J|K|Q|U|V, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         {  /* 29 */
-    	{"centipede","kýrkayak"},"",LANG_SURUNGEN,	FALSE, 		SIZE_TINY, 0,
+    	{ L"centipede", L"kÄ±rkayak"},L"",LANG_SURUNGEN,	FALSE, 		SIZE_TINY, 0,
     	0,		/*AFF_DARK_VISION*/0,	0,
     	0,		RES_PIERCE|RES_COLD,	VULN_BASH,
-     	A|B|G|O,		A|C|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+     	A|B|G|O,		A|C|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         {  /* 30 */
-    	{"dog","köpek"},"",LANG_DOG,		FALSE, 		SIZE_SMALL, 0,
+    	{ L"dog", L"kÃ¶pek"},L"",LANG_DOG,		FALSE, 		SIZE_SMALL, 0,
     	0,		0,		OFF_FAST,
     	0,		0,		0,
-    	A|G|V,		A|C|D|E|F|H|J|K|U|V, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|G|V,		A|C|D|E|F|H|J|K|U|V, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 31 */
-    	{"doll","kukla"},"",LANG_COMMON,		FALSE, 		SIZE_SMALL, 0,
+    	{ L"doll", L"kukla"},L"",LANG_COMMON,		FALSE, 		SIZE_SMALL, 0,
     	0,		0,		0,
     	IMM_COLD|IMM_POISON|IMM_HOLY|IMM_NEGATIVE|IMM_MENTAL|IMM_DISEASE
     	|IMM_DROWNING,	RES_BASH|RES_LIGHT,
     	VULN_SLASH|VULN_FIRE|VULN_ACID|VULN_LIGHTNING|VULN_ENERGY,
-    	E|J|M|cc,	A|B|C|G|H|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	E|J|M|cc,	A|B|C|G|H|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 32 */
-    	{"fido","enik"},"",LANG_DOG,		FALSE, 		SIZE_SMALL, 0,
+    	{ L"fido", L"enik"},L"",LANG_DOG,		FALSE, 		SIZE_SMALL, 0,
     	0,		0,		OFF_DODGE|ASSIST_RACE,
     	0,		0,			VULN_MAGIC,
-    	A|B|G|V,	A|C|D|E|F|H|J|K|Q|V, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|B|G|V,	A|C|D|E|F|H|J|K|Q|V, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 33 */
-    	{"fox","tilki"},"",LANG_DOG,		FALSE, 		SIZE_SMALL, 0,
+    	{ L"fox", L"tilki"},L"",LANG_DOG,		FALSE, 		SIZE_SMALL, 0,
     	0,		/*AFF_DARK_VISION*/0,	OFF_FAST|OFF_DODGE,
     	0,		0,		0,
-    	A|G|V,		A|C|D|E|F|H|J|K|Q|V, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|G|V,		A|C|D|E|F|H|J|K|Q|V, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 34 */
-    	{"goblin","gulyabani"},"",LANG_CORA,	FALSE, 		SIZE_MEDIUM, 0,
+    	{ L"goblin", L"gulyabani"},L"",LANG_CORA,	FALSE, 		SIZE_MEDIUM, 0,
     	0,		AFF_INFRARED,	0,
     	0,		RES_DISEASE,	VULN_MAGIC,
-    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 35 */
-    	{"hobgoblin","ifrit"},"",LANG_CORA,	FALSE, 		SIZE_MEDIUM, 0,
+    	{ L"hobgoblin", L"ifrit"},L"",LANG_CORA,	FALSE, 		SIZE_MEDIUM, 0,
     	0,		AFF_INFRARED,	0,
     	0,		RES_DISEASE|RES_POISON,	0,
-    	A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K|Y, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K|Y, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         {  /* 36 */
-    	{"kobold","argun"},"",LANG_CORA,	FALSE, 		SIZE_MEDIUM, 0,
+    	{ L"kobold", L"argun"},L"",LANG_CORA,	FALSE, 		SIZE_MEDIUM, 0,
     	0,		AFF_INFRARED,	0,
     	0,		RES_POISON,	VULN_MAGIC,
-    	A|B|H|M|V,	A|B|C|D|E|F|G|H|I|J|K|Q, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|B|H|M|V,	A|B|C|D|E|F|G|H|I|J|K|Q, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         {  /* 37 */
-    	{"lizard","kertenkele"},"",LANG_SURUNGEN,	FALSE, 		SIZE_SMALL, 0,
+    	{ L"lizard", L"kertenkele"},L"",LANG_SURUNGEN,	FALSE, 		SIZE_SMALL, 0,
     	0,		0,		0,
     	0,		RES_POISON,	VULN_COLD,
-    	A|G|X|cc,	A|C|D|E|F|H|K|Q|V, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|G|X|cc,	A|C|D|E|F|H|K|Q|V, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         {  /* 38 */
-    	{"modron","geme"},"",LANG_COMMON,	FALSE, 		SIZE_MEDIUM, 0,
+    	{ L"modron", L"geme"},L"",LANG_COMMON,	FALSE, 		SIZE_MEDIUM, 0,
     	0,		AFF_INFRARED,	ASSIST_RACE|ASSIST_ALIGN,
     	IMM_CHARM|IMM_DISEASE|IMM_MENTAL|IMM_HOLY|IMM_NEGATIVE,
     			RES_FIRE|RES_COLD|RES_ACID,	0,
-    	H,		A|B|C|G|H|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	H,		A|B|C|G|H|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         {  /* 39 */
-    	{"orc","ork"},"",LANG_CORA,		FALSE, 		SIZE_MEDIUM, 0,
+    	{ L"orc", L"ork"},L"",LANG_CORA,		FALSE, 		SIZE_MEDIUM, 0,
     	0,		AFF_INFRARED,	0,
     	0,		RES_DISEASE,	VULN_LIGHT,
-    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         {  /* 40 */
-    	{"pig","domuz"},"",	LANG_DOG,	FALSE, 		SIZE_MEDIUM, 0,
+    	{ L"pig", L"domuz"},L"",	LANG_DOG,	FALSE, 		SIZE_MEDIUM, 0,
     	0,		0,		0,
     	0,		0,		0,
-    	A|G|V,	 	A|C|D|E|F|H|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|G|V,	 	A|C|D|E|F|H|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 41 */
-    	{"rabbit","tavþan"},"",LANG_DOG,	FALSE, 		SIZE_SMALL, 0,
+    	{ L"rabbit", L"tavÅŸan"},L"",LANG_DOG,	FALSE, 		SIZE_SMALL, 0,
     	0,		0,		OFF_DODGE|OFF_FAST,
     	0,		0,		0,
-    	A|G|V,		A|C|D|E|F|H|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|G|V,		A|C|D|E|F|H|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 42 */
-    	{"school monster","okul canavarý"},"",LANG_HUMAN,	FALSE, 		SIZE_MEDIUM, 0,
+    	{ L"school monster", L"okul canavarÄ±"},L"",LANG_HUMAN,	FALSE, 		SIZE_MEDIUM, 0,
     	ACT_NOALIGN,		0,		0,
     	IMM_CHARM|IMM_SUMMON,	0,		VULN_MAGIC,
-    	A|M|V,		A|B|C|D|E|F|H|J|K|Q|U, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|M|V,		A|B|C|D|E|F|H|J|K|Q|U, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         {  /* 43 */
-    	{"snake","yýlan"},"",LANG_SURUNGEN,	FALSE, 		SIZE_SMALL, 0,
+    	{ L"snake", L"yÄ±lan"},L"",LANG_SURUNGEN,	FALSE, 		SIZE_SMALL, 0,
     	0,		0,		0,
     	0,		RES_POISON,	VULN_COLD,
-    	A|G|X|Y|cc,	A|D|E|F|K|L|Q|V|X, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|G|X|Y|cc,	A|D|E|F|K|L|Q|V|X, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         {  /* 44 */
-    	{"song bird","serçe"},"",LANG_BIRD,	FALSE, 		SIZE_TINY, 0,
+    	{ L"song bird", L"serÃ§e"},L"",LANG_BIRD,	FALSE, 		SIZE_TINY, 0,
     	0,		AFF_FLYING,		OFF_FAST|OFF_DODGE,
     	0,		0,		0,
-    	A|G|W,		A|C|D|E|F|H|K|P, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|G|W,		A|C|D|E|F|H|K|P, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         {  /* 45 */
-    	{"water fowl","ördek"},"",LANG_WATER,	FALSE, 		SIZE_SMALL, 0,
+    	{ L"water fowl", L"Ã¶rdek"},L"",LANG_WATER,	FALSE, 		SIZE_SMALL, 0,
     	0,		AFF_SWIM|AFF_FLYING,	0,
     	0,		RES_DROWNING,		0,
-    	A|G|W,		A|C|D|E|F|H|K|P, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|G|W,		A|C|D|E|F|H|K|P, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         {  /* 46 */
-    	{"wolf","kurt"},"",LANG_DOG,		FALSE, 		SIZE_MEDIUM, 0,
+    	{ L"wolf", L"kurt"},L"",LANG_DOG,		FALSE, 		SIZE_MEDIUM, 0,
     	0,		/*AFF_DARK_VISION*/0,	OFF_FAST|OFF_DODGE,
     	0,		0,		0,
-    	A|G|V,		A|C|D|E|F|J|K|Q|V, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|G|V,		A|C|D|E|F|J|K|Q|V, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         {  /* 47 */
-    	{"wyvern","yelbüke"},"",LANG_DRAGON,	FALSE, 		SIZE_HUGE, DETECT_INVIS|DETECT_HIDDEN,
+    	{ L"wyvern", L"yelbÃ¼ke"},L"",LANG_DRAGON,	FALSE, 		SIZE_HUGE, DETECT_INVIS|DETECT_HIDDEN,
     	0,		AFF_FLYING,	OFF_BASH|OFF_FAST|OFF_DODGE,
     	IMM_POISON,	0,	VULN_LIGHT,
-    	A|B|G|Z,		A|C|D|E|F|H|J|K|Q|V|X, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|B|G|Z,		A|C|D|E|F|H|J|K|Q|V|X, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 48 */
-            {"dragon","ejderha"},"", LANG_DRAGON,	FALSE,		SIZE_GARGANTUAN, 0,
+            { L"dragon", L"ejderha"},L"", LANG_DRAGON,	FALSE,		SIZE_GARGANTUAN, 0,
     	0, 		AFF_INFRARED|AFF_FLYING,	0,
     	0,		RES_FIRE|RES_BASH|RES_CHARM,	VULN_PIERCE|VULN_COLD,
-    	A|H|Z,		A|C|D|E|F|G|H|I|J|K|P|Q|U|V|X, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|H|Z,		A|C|D|E|F|G|H|I|J|K|P|Q|U|V|X, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 49 */
-    	{"giant","dev"},"",LANG_GIANT,	FALSE, 		SIZE_GIANT, 0,
+    	{ L"giant", L"dev"},L"",LANG_GIANT,	FALSE, 		SIZE_GIANT, 0,
     	0,		0,		0,
     	0,		RES_FIRE|RES_COLD,	VULN_MENTAL|VULN_LIGHTNING,
-    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 50 */
-    	{"golem","golem"},"",LANG_HUMAN,	FALSE, 		SIZE_LARGE, 0,
+    	{ L"golem", L"golem"},L"",LANG_HUMAN,	FALSE, 		SIZE_LARGE, 0,
     	0,		0,		0,
     	IMM_POISON|IMM_DISEASE,		RES_WEAPON,	VULN_MENTAL|VULN_MAGIC,
-    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 51 */
-    	{"undead","hortlak"},"",LANG_ASTRAL,	FALSE, SIZE_MEDIUM,
+    	{ L"undead", L"hortlak"},L"",LANG_ASTRAL,	FALSE, SIZE_MEDIUM,
     	DETECT_INVIS|DETECT_HIDDEN|DETECT_GOOD|DETECT_EVIL,
     	0,		AFF_PASS_DOOR|AFF_INFRARED,	0,
     	IMM_DROWNING|IMM_DISEASE|IMM_POISON,	RES_NEGATIVE|RES_ENERGY,
     	VULN_SILVER|VULN_HOLY|VULN_LIGHT,
-    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 52 */
-    	{"drow","rayel"},	"",LANG_CORA,	FALSE,		SIZE_MEDIUM, 0,
+    	{ L"drow", L"rayel"},	L"",LANG_CORA,	FALSE,		SIZE_MEDIUM, 0,
     	0,		AFF_INFRARED,	0,
     	0,		RES_CHARM,		VULN_IRON,
-    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 53 */
-    	{"draconian","luu"},"",LANG_DRAGON,	FALSE,		SIZE_LARGE, 0,
+    	{ L"draconian", L"luu"},L"",LANG_DRAGON,	FALSE,		SIZE_LARGE, 0,
     	0,		0,		0,
     	0,		RES_SLASH|RES_POISON,	VULN_COLD,
-    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 54 */
-    	{"sprite","peri"},"",LANG_CORA,	FALSE,		SIZE_SMALL, DETECT_EVIL,
+    	{ L"sprite", L"peri"},L"",LANG_CORA,	FALSE,		SIZE_SMALL, DETECT_EVIL,
     	0,		AFF_FLYING,		G,
     	0,		0,			VULN_COLD|VULN_WEAPON,
-    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /* 55 */
-    	{"aarakocra","kerkes"},"",LANG_BIRD,	FALSE,		SIZE_MEDIUM, 0,
+    	{ L"aarakocra", L"kerkes"},L"",LANG_BIRD,	FALSE,		SIZE_MEDIUM, 0,
     	ACT_SCAVENGER,	AFF_FLYING,	OFF_FAST,
     	0,		0,		0,
-    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K|P, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K|P, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         { /*  56 */
-    	{"beholder","çokgöz"},"",LANG_COMMON,	FALSE,		SIZE_MEDIUM, 0,
+    	{ L"beholder", L"Ã§okgÃ¶z"},L"",LANG_COMMON,	FALSE,		SIZE_MEDIUM, 0,
     	0,		AFF_REGENERATION,		0,
     	0,		RES_MAGIC,		0,
-    	A|H|M|V,	A|E|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|H|M|V,	A|E|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         {  /* 57 */
-    	{"tiger","kaplan"},"",LANG_CAT,	FALSE,		SIZE_MEDIUM, 0,
+    	{ L"tiger", L"kaplan"},L"",LANG_CAT,	FALSE,		SIZE_MEDIUM, 0,
     	0,	/*AFF_DARK_VISION*/0, OFF_FAST|OFF_DODGE,
     	0,		RES_WEAPON,		0,
-    	A|G|V,		A|C|D|E|F|H|J|K|Q|U|V, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|G|V,		A|C|D|E|F|H|J|K|Q|U|V, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         {  /* 58 */
-    	{"lion","aslan"},"",LANG_CAT,		FALSE,		SIZE_MEDIUM, 0,
+    	{ L"lion", L"aslan"},L"",LANG_CAT,		FALSE,		SIZE_MEDIUM, 0,
     	ACT_SENTINEL,	/*AFF_DARK_VISION*/0,	OFF_FAST|OFF_DODGE,
     	0,		RES_WEAPON,		0,
-    	A|G|V,		A|C|D|E|F|H|J|K|Q|U|V, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|G|V,		A|C|D|E|F|H|J|K|Q|U|V, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
         {  /* 59 */
-    	{"death knight","aldacý"},"",LANG_HUMAN,	FALSE,		SIZE_MEDIUM, 0,
+    	{ L"death knight", L"aldacÄ±"},L"",LANG_HUMAN,	FALSE,		SIZE_MEDIUM, 0,
     	ACT_UNDEAD,	0, 	OFF_PARRY|OFF_DISARM,
     	IMM_DISEASE|IMM_POISON|IMM_DROWNING,	RES_FIRE|RES_NEGATIVE,
     	VULN_HOLY,
-    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    	A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
         },
 
 
     { /* 60 */
-    {"dracolich","alavan"}, "",LANG_DRAGON,	FALSE, 		SIZE_LARGE, 0,
+    { L"dracolich", L"alavan"}, L"",LANG_DRAGON,	FALSE, 		SIZE_LARGE, 0,
     0, 		AFF_INFRARED|AFF_FLYING,	0,
     IMM_CHARM|IMM_LIGHTNING|IMM_COLD,	RES_FIRE|RES_BASH,
     VULN_PIERCE|VULN_COLD,
-    A|H|Z,		A|C|D|E|F|G|H|I|J|K|P|Q|U|V|X, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    A|H|Z,		A|C|D|E|F|G|H|I|J|K|P|Q|U|V|X, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
     },
 
     {  /* 61 */
-    {"air elemental","hava uþaðý"},"",LANG_ASTRAL,FALSE,		SIZE_HUGE, 0,
+    { L"air elemental", L"hava uÅŸaÄŸÄ±"},L"",LANG_ASTRAL,FALSE,		SIZE_HUGE, 0,
     0,		0,		OFF_FADE,
     0,		RES_WEAPON|RES_SUMMON,		0,
-    A|H|Z,		A|D, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    A|H|Z,		A|D, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
     },
 
     {  /* 62 */
-    {"earth elemental","toprak uþaðý"},"",LANG_ASTRAL,	FALSE,		SIZE_HUGE, 0,
+    { L"earth elemental", L"toprak uÅŸaÄŸÄ±"},L"",LANG_ASTRAL,	FALSE,		SIZE_HUGE, 0,
     0,		0,	OFF_FADE,
     0,		RES_WEAPON|RES_SUMMON,		0,
-    A|H|Z,		A|D, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    A|H|Z,		A|D, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
     },
 
     {  /* 63 */
-    {"fire elemental","ateþ uþaðý"},"",LANG_ASTRAL,FALSE,		SIZE_HUGE, 0,
+    { L"fire elemental", L"ateÅŸ uÅŸaÄŸÄ±"},L"",LANG_ASTRAL,FALSE,		SIZE_HUGE, 0,
     0,		0,	OFF_FADE,
     IMM_FIRE,		RES_WEAPON,		VULN_COLD,
-    A|H|Z,		A|D, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    A|H|Z,		A|D, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
     },
 
     {  /* 64 */
-    {"water elemental","su uþaðý"},"",LANG_ASTRAL,	FALSE,		SIZE_HUGE, 0,
+    { L"water elemental", L"su uÅŸaÄŸÄ±"},L"",LANG_ASTRAL,	FALSE,		SIZE_HUGE, 0,
     0,		0,	OFF_FADE,
     0,		RES_WEAPON|RES_FIRE|RES_COLD,	0,
-    A|H|Z,		A|D, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    A|H|Z,		A|D, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
     },
 
     {  /* 65 */
-    {"fish","balýk"},	"",LANG_WATER,		FALSE,		SIZE_TINY, 0,
+    { L"fish", L"balÄ±k"},	L"",LANG_WATER,		FALSE,		SIZE_TINY, 0,
     0,		AFF_SWIM,	0,
     0,		0,		VULN_COLD|VULN_FIRE,
-    A|H|Z,		A|D|E|F|J|K|O|X, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    A|H|Z,		A|D|E|F|J|K|O|X, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
     },
 
     {  /* 66 */
-    {"gargoyle","togrýl"},"",LANG_HUMAN,	FALSE,		SIZE_MEDIUM, 0,
+    { L"gargoyle", L"togrÄ±l"},L"",LANG_HUMAN,	FALSE,		SIZE_MEDIUM, 0,
     ACT_AGGRESSIVE,	AFF_FLYING,	OFF_FAST,
     0,		RES_WEAPON,	VULN_COLD|VULN_FIRE,
-    A|G|W,		A|C|D|E|F|H|K|P, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    A|G|W,		A|C|D|E|F|H|K|P, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
     },
 
     {  /* 67 */
-    {"ghost","hayalet"},"",LANG_ASTRAL,	FALSE,		SIZE_MEDIUM, 0,
+    { L"ghost", L"hayalet"},L"",LANG_ASTRAL,	FALSE,		SIZE_MEDIUM, 0,
     ACT_UNDEAD,	AFF_FLYING,	OFF_FADE,
     IMM_DROWNING|IMM_NEGATIVE|IMM_DISEASE|IMM_POISON,
     RES_WEAPON, VULN_HOLY,
-    A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
     },
 
     {  /* 68 */
-    {"ghoul","gul"},"",LANG_HUMAN,	FALSE,		SIZE_MEDIUM, 0,
+    { L"ghoul", L"gul"},L"",LANG_HUMAN,	FALSE,		SIZE_MEDIUM, 0,
     0,		0,		0,
     IMM_DISEASE,	RES_CHARM,	VULN_MAGIC,
-    A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
     },
 
     {  /* 69 */
-    {"gnoll","arböri"},	"",LANG_DWARVISH,FALSE,		SIZE_MEDIUM, DETECT_INVIS|DETECT_HIDDEN,
+    { L"gnoll", L"arbÃ¶ri"},	L"",LANG_DWARVISH,FALSE,		SIZE_MEDIUM, DETECT_INVIS|DETECT_HIDDEN,
     0,		0,		OFF_DISARM,
     0,		0,		0,
-    A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
     },
 
     {  /* 70 */
-    {"harpy","harpi"},"",	LANG_BIRD,FALSE,		SIZE_MEDIUM, DETECT_INVIS|DETECT_HIDDEN,
+    { L"harpy", L"harpi"},L"",	LANG_BIRD,FALSE,		SIZE_MEDIUM, DETECT_INVIS|DETECT_HIDDEN,
     0,		AFF_FLYING,		OFF_DISARM,
     0,		RES_CHARM,		0,
-    A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K|P, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K|P, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
     },
 
     {  /* 71 */
-    {"lamia","lamia"},"",LANG_HUMAN,	FALSE,		SIZE_MEDIUM, 0,
+    { L"lamia", L"lamia"},L"",LANG_HUMAN,	FALSE,		SIZE_MEDIUM, 0,
     ACT_AGGRESSIVE,	0,		OFF_FAST|OFF_DODGE,
     0,		RES_CHARM,		0,
-    A|G|V,		A|B|C|D|E|F|G|H|I|J|K|Q|U, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    A|G|V,		A|B|C|D|E|F|G|H|I|J|K|Q|U, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
     },
 
     {  /* 72 */
-    {"lich","yelviçin"},"",LANG_ASTRAL,	FALSE,		SIZE_MEDIUM, 0,
+    { L"lich", L"yelviÃ§in"},L"",LANG_ASTRAL,	FALSE,		SIZE_MEDIUM, 0,
     0,		0,		OFF_FAST|OFF_DODGE,
     IMM_POISON|IMM_DISEASE|IMM_CHARM|IMM_LIGHTNING|IMM_COLD,
     RES_WEAPON|RES_FIRE,	VULN_HOLY,
-    A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
     },
 
     {  /* 73 */
-    {"minotaur","bogra"},"",LANG_HUMAN,	FALSE,		SIZE_LARGE, 0,
+    { L"minotaur", L"bogra"},L"",LANG_HUMAN,	FALSE,		SIZE_LARGE, 0,
     0,		0,		OFF_CRUSH|OFF_FAST|OFF_BASH,
     0,		0,		0,
-    A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K|W, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K|W, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
     },
 
     {  /* 74 */
-    {"ogre","ogre"},"",LANG_DWARVISH,		FALSE,		SIZE_LARGE, 0,
+    { L"ogre", L"ogre"},L"",LANG_DWARVISH,		FALSE,		SIZE_LARGE, 0,
     0,		AFF_INFRARED,	0,
     0,		RES_DISEASE,	0,
-    A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
     },
 
     {  /* 75 */
-    {"zombie","hortlak"},	"",LANG_ASTRAL,	FALSE,		SIZE_MEDIUM, 0,
+    { L"zombie", L"hortlak"},	L"",LANG_ASTRAL,	FALSE,		SIZE_MEDIUM, 0,
     0,		AFF_SLOW,	0,
     IMM_MAGIC|IMM_POISON|IMM_CHARM,	RES_COLD, VULN_WEAPON,
-    A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    A|H|M|V,	A|B|C|D|E|F|G|H|I|J|K, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
     },
 
     {  /* 76 */
-    {"horse","at"},	"",LANG_DOG,FALSE, 		SIZE_LARGE, 0,
+    { L"horse", L"at"},	L"",LANG_DOG,FALSE, 		SIZE_LARGE, 0,
     0,		0,		OFF_FAST|OFF_DODGE,
     0,		0,		0,
-    A|G|V,		A|C|D|E|F|J|K|Q, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    A|G|V,		A|C|D|E|F|J|K|Q, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
     },
 
     {  /* 77 */
-    {"unique","eþsiz"},"",0,	FALSE,		0, 0,
+    { L"unique", L"eÅŸsiz"},L"",0,	FALSE,		0, 0,
     0,		0,		0,
     0,		0,		0,
-    0,		0, 0, { "" }, {20, 20, 20, 20, 20, 20 }
+    0,		0, 0, { L"" }, {20, 20, 20, 20, 20, 20 }
     },
 
     {
@@ -838,79 +839,79 @@ const	struct	class_type	class_table	[MAX_CLASS]	=
 {
 
     {
-        {"invoker","gan"}, "Gan",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
+        { L"invoker", L"gan"}, L"Gan",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
         { 3018, 0, 0, 0, 0, 0 },  75,  18, 6,  60,  100, TRUE,
         0,{0,3,0,0,0,5},CR_ALL
     },
 
     {
-	{"cleric","ermiþ"}, "Erm",  STAT_WIS,  OBJ_VNUM_SCHOOL_SWORD,
+	{ L"cleric", L"ermiÅŸ"}, L"Erm",  STAT_WIS,  OBJ_VNUM_SCHOOL_SWORD,
 	{ 3003, 9619, 9619, 9619, 9619, 9619},  75,  18, 2,  70, 80, TRUE,
 	100,{1,2,2,0,0,5},CR_ALL
     },
 
     {
-	{"thief","hýrsýz"}, "Hýr",  STAT_DEX,  OBJ_VNUM_SCHOOL_DAGGER,
+	{ L"thief", L"hÄ±rsÄ±z"}, L"HÄ±r",  STAT_DEX,  OBJ_VNUM_SCHOOL_DAGGER,
 	{ 3028, 9639, 9639, 9639, 9639, 9639 },  75,  18,  -4, 100, 50, FALSE,
         0,{0,0,0,3,0,5},CR_ALL
     },
 
     {
-	{"warrior","savaþçý"}, "Sav",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
+	{ L"warrior", L"savaÅŸÃ§Ä±"}, L"Sav",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
 	{ 3022, 9633, 9633, 9633, 9633, 9633 },  75,  18,  -10, 100,50,FALSE,
 	0,{3,0,0,0,1,5},CR_ALL
     },
 
     {
-	{"paladin","adbolar"}, "Adb",   STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
+	{ L"paladin", L"adbolar"}, L"Adb",   STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
 	{ 3063, 0, 0, 0, 0, 0 },  75,  18,  -6,  80, 70, TRUE,
 	400,{2,0,1,0,2,5},CR_GOOD
     },
 
     {
-	{"anti-paladin","kembolar"}, "Kmb",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
+	{ L"anti-paladin", L"kembolar"}, L"Kmb",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
 	{ 3061, 0, 0, 0, 0, 0 },  75,  18,  -6,  80, 70, TRUE,
 	300,{2,1,0,1,1,5},CR_EVIL
     },
 
     {
-	{"ninja","ninja"}, "Nin",  STAT_DEX,  OBJ_VNUM_SCHOOL_DAGGER,
+	{ L"ninja", L"ninja"}, L"Nin",  STAT_DEX,  OBJ_VNUM_SCHOOL_DAGGER,
 	{ 3062, 0, 0, 0, 0, 0 },  75,  18,  -10,  90, 60, FALSE,
 	300,{1,0,0,2,1,5},CR_ALL
     },
 
     {
-	{"ranger","korucu"}, "Krc",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
+	{ L"ranger", L"korucu"}, L"Krc",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
 	{ 6156, 0, 0, 0, 0, 0 },  75,  18,  -8,  90, 60, FALSE,
 	200,{1,0,0,1,1,5},CR_ALL
     },
 
     {
-        {"transmuter","biçimci"}, "Biç",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
+        { L"transmuter", L"biÃ§imci"}, L"BiÃ§",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
         { 3073, 0, 0, 0, 0, 0 },  75,  18, 2,  60,  100, TRUE,
         0,{0,3,0,0,0,5},CR_ALL
     },
 
     {
-        {"samurai","samuray"}, "Sam",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
+        { L"samurai", L"samuray"}, L"Sam",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
         { 3075, 9633, 0, 0, 0, 0 },  75,  18,  -10,  100,60,FALSE,
         500,{1,1,1,0,1,5},CR_ALL
     },
 
    {
-      {  "vampire","vampir"}, "Vam", STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
+      { L"vampire", L"vampir"}, L"Vam", STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
         { 5395, 5396, 0, 0, 0, 0 },  75,  18, -6,  80,  70, TRUE,
         300,{1,2,0,0,0,5},CR_EVIL
         },
 
    {
-        {"necromancer","karakam"}, "Kam",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
+        { L"necromancer", L"karakam"}, L"Kam",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
         { 5393, 5394, 0, 0, 0, 0 },  75,  18, 6,  60,  100, TRUE,
         200,{0,2,1,0,0,5},CR_EVIL
    },
 
    {
-        {"elementalist","ögeci"}, "Öge",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
+        { L"elementalist", L"Ã¶geci"}, L"Ã–ge",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
         { 9618, 0, 0, 0, 0, 0 },  75,  18, 6,  60,  100, TRUE,
         0,{0,3,0,0,0,5},CR_ALL
    }
@@ -923,1642 +924,1642 @@ const	struct	class_type	class_table	[MAX_CLASS]	=
 /*
  * Titles. mage=100
  */
- const char *			title_table	[MAX_CLASS][MAX_LEVEL+1]=
+ const wchar_t *			title_table	[MAX_CLASS][MAX_LEVEL+1]=
  {
      {
-       "Man",
+       L"Man",
 
-       "Büyü Çýraðý"		,
-       "Büyü Öðrencisi"	,
-        "Büyü Asistaný"	,
-        "Büyü Araþtýran"		,
-        "Sihirbaz"	,
+       L"BÃ¼yÃ¼ Ã‡Ä±raÄŸÄ±"		,
+       L"BÃ¼yÃ¼ Ã–ÄŸrencisi"	,
+        L"BÃ¼yÃ¼ AsistanÄ±"	,
+        L"BÃ¼yÃ¼ AraÅŸtÄ±ran"		,
+        L"Sihirbaz"	,
 
-        "Büyü Katibi"	,
-        "Falcý"		,
-        "Arif"		,
-        "Ýlüzyonist"		,
-        "Tövbekar"		,
+        L"BÃ¼yÃ¼ Katibi"	,
+        L"FalcÄ±"		,
+        L"Arif"		,
+        L"Ä°lÃ¼zyonist"		,
+        L"TÃ¶vbekar"		,
 
-       "Duacý"		,
-        "Duacý"		,
-        "Büyü Yapýcý"		,
-        "Büyü Yapýcý"		,
-        "Hokkabaz"		,
+       L"DuacÄ±"		,
+        L"DuacÄ±"		,
+        L"BÃ¼yÃ¼ YapÄ±cÄ±"		,
+        L"BÃ¼yÃ¼ YapÄ±cÄ±"		,
+        L"Hokkabaz"		,
 
-        "Hokkabaz"		,
-        "Büyücü"		,
-        "Büyücü"		,
-        "Oluþturan"     ,
-        "Oluþturan"       ,
+        L"Hokkabaz"		,
+        L"BÃ¼yÃ¼cÃ¼"		,
+        L"BÃ¼yÃ¼cÃ¼"		,
+        L"OluÅŸturan"     ,
+        L"OluÅŸturan"       ,
 
-        "Alim"		,
-        "Alim"		,
-        "Büyü Ustasý"			,
-        "Büyü Ustasý"			,
-        "Büyü Alimi"		,
+        L"Alim"		,
+        L"Alim"		,
+        L"BÃ¼yÃ¼ UstasÄ±"			,
+        L"BÃ¼yÃ¼ UstasÄ±"			,
+        L"BÃ¼yÃ¼ Alimi"		,
 
-        "Büyü Alimi"		,
-        "Savaþçý Arif"		,
-        "Savaþçý Arif"		,
-        "Durendiþ"	,
-        "Durendiþ"	,
+        L"BÃ¼yÃ¼ Alimi"		,
+        L"SavaÅŸÃ§Ä± Arif"		,
+        L"SavaÅŸÃ§Ä± Arif"		,
+        L"DurendiÅŸ"	,
+        L"DurendiÅŸ"	,
 
-        "Kýdemli Büyücü"		,
-        "Kýdemli Büyücü"		,
-        "Büyük Büyücü"		,
-        "Büyük Büyücü"	,
-        "Yüce Büyücü"		,
+        L"KÄ±demli BÃ¼yÃ¼cÃ¼"		,
+        L"KÄ±demli BÃ¼yÃ¼cÃ¼"		,
+        L"BÃ¼yÃ¼k BÃ¼yÃ¼cÃ¼"		,
+        L"BÃ¼yÃ¼k BÃ¼yÃ¼cÃ¼"	,
+        L"YÃ¼ce BÃ¼yÃ¼cÃ¼"		,
 
-        "Yüce Büyücü"	,
-        "Golem Efendisi"		,
-        "Golem Efendisi"	,
-        "Yüce Golem Efendisi"		,
-        "Yüce Golem Efendisi"	,
+        L"YÃ¼ce BÃ¼yÃ¼cÃ¼"	,
+        L"Golem Efendisi"		,
+        L"Golem Efendisi"	,
+        L"YÃ¼ce Golem Efendisi"		,
+        L"YÃ¼ce Golem Efendisi"	,
 
- 	 "Taþ Efendisi"	,
- 	 "Taþ Efendisi"	,
- 	 "Ýksir Ustasý"	,
- 	 "Ýksir Ustasý"	,
- 	 "Parþömen Ustasý"	,
+ 	 L"TaÅŸ Efendisi"	,
+ 	 L"TaÅŸ Efendisi"	,
+ 	 L"Ä°ksir UstasÄ±"	,
+ 	 L"Ä°ksir UstasÄ±"	,
+ 	 L"ParÅŸÃ¶men UstasÄ±"	,
 
- 	 "Parþömen Ustasý"	,
- 	 "Sopa Ustasý"	,
- 	 "Sopa Ustasý"		,
- 	 "Deðnek Ustasý"	,
- 	 "Deðnek Ustasý"		,
+ 	 L"ParÅŸÃ¶men UstasÄ±"	,
+ 	 L"Sopa UstasÄ±"	,
+ 	 L"Sopa UstasÄ±"		,
+ 	 L"DeÄŸnek UstasÄ±"	,
+ 	 L"DeÄŸnek UstasÄ±"		,
 
- 	 "Ýblis Çaðýran"	,
- 	 "Ýblis Çaðýran"		,
- 	 "Yüce Ýblis Çaðýran"	,
- 	 "Yüce Ýblis Çaðýran",
- 	 "Ejderha Efendisi"		,
+ 	 L"Ä°blis Ã‡aÄŸÄ±ran"	,
+ 	 L"Ä°blis Ã‡aÄŸÄ±ran"		,
+ 	 L"YÃ¼ce Ä°blis Ã‡aÄŸÄ±ran"	,
+ 	 L"YÃ¼ce Ä°blis Ã‡aÄŸÄ±ran",
+ 	 L"Ejderha Efendisi"		,
 
- 	 "Ejderha Efendisi"		,
- 	 "Ejderha Efendisi"	,
- 	 "Ejderha Efendisi",
-        "Karýþým Efendisi",
-        "Karýþým Efendisi",
+ 	 L"Ejderha Efendisi"		,
+ 	 L"Ejderha Efendisi"	,
+ 	 L"Ejderha Efendisi",
+        L"KarÄ±ÅŸÄ±m Efendisi",
+        L"KarÄ±ÅŸÄ±m Efendisi",
 
-        "Büyülerin Efendisi",
-        "Büyülerin Efendisi",
-        "Büyüleme Efendisi",
-        "Büyüleme Efendisi",
-        "Çaðrý Ustasý",
+        L"BÃ¼yÃ¼lerin Efendisi",
+        L"BÃ¼yÃ¼lerin Efendisi",
+        L"BÃ¼yÃ¼leme Efendisi",
+        L"BÃ¼yÃ¼leme Efendisi",
+        L"Ã‡aÄŸrÄ± UstasÄ±",
 
-        "Çaðrý Ustasý",
-        "Büyük Kahin",
-        "Büyük Kahin",
-        "Deðiþim Ustasý",
-        "Deðiþim Ustasý",
+        L"Ã‡aÄŸrÄ± UstasÄ±",
+        L"BÃ¼yÃ¼k Kahin",
+        L"BÃ¼yÃ¼k Kahin",
+        L"DeÄŸiÅŸim UstasÄ±",
+        L"DeÄŸiÅŸim UstasÄ±",
 
-        "Fiþek Efendisi",
-        "Fiþek Efendisi",
-        "Ölülerin Efendisi",
-        "Ölülerin Efendisi",
-        "Simyacý",
+        L"FiÅŸek Efendisi",
+        L"FiÅŸek Efendisi",
+        L"Ã–lÃ¼lerin Efendisi",
+        L"Ã–lÃ¼lerin Efendisi",
+        L"SimyacÄ±",
 
-        "Simyacý",
-        "Bað Ustasý",
-        "Bað Ustasý",
-        "Söz Efendisi",
-        "Söz Efendisi",
+        L"SimyacÄ±",
+        L"BaÄŸ UstasÄ±",
+        L"BaÄŸ UstasÄ±",
+        L"SÃ¶z Efendisi",
+        L"SÃ¶z Efendisi",
 
-        "Geçmiþe hükmeden",
-        "Geçmiþe hükmeden",
-        "Bugüne hükmeden",
-        "Bugüne hükmeden",
-        "Geleceðe hükmeden",
+        L"GeÃ§miÅŸe hÃ¼kmeden",
+        L"GeÃ§miÅŸe hÃ¼kmeden",
+        L"BugÃ¼ne hÃ¼kmeden",
+        L"BugÃ¼ne hÃ¼kmeden",
+        L"GeleceÄŸe hÃ¼kmeden",
 
-        "Geleceðe hükmeden",
-        "Baþ Büyücü",
-        "Baþ Büyücü",
-        "Bilinmeyen",
-        "Bilinmeyen",
+        L"GeleceÄŸe hÃ¼kmeden",
+        L"BaÅŸ BÃ¼yÃ¼cÃ¼",
+        L"BaÅŸ BÃ¼yÃ¼cÃ¼",
+        L"Bilinmeyen",
+        L"Bilinmeyen",
 
- 	 "Kahraman"		,
- 	 "Melek"		,
- 	 "Melek"		,
- 	 "Elçi"		,
- 	 "Ölümsüz"		,
- 	"Yüce"		,
- 	"Yüce",
- 	"Yüce",
- 	"Yüce",
- 	 "Tek"	},
-
-     {
- 	  "Man"			 ,
-
- 	"Ýnanan"		 ,
- 	"Yardýmcý"		 ,
- 	"Hizmetli"		 ,
- 	"Çýrak"			 ,
- 	"Misyoner"		 ,
-
- 	"Usta"		 ,
- 	"Diyakoz"		 ,
- 	"Önder"			 ,
- 	"Üstat"		 ,
- 	"Orta Elçi"			 ,
-
- 	"Dindar"			 ,
- 	"Dindar"			 ,
- 	"Yükselen"		 ,
- 	"Yükselen"			 ,
- 	"Din Adamý"		 ,
-
- 	"Din Adamý"			 ,
- 	"Keþiþ"			 ,
- 	"Keþiþ"			 ,
- 	"Ýyileþtiren"			 ,
- 	"Ýyileþtiren"		 ,
-
- 	"Vaiz"		 ,
- 	"Vaiz"		 ,
- 	"Açýklayan"		 ,
- 	"Açýklayan"			 ,
- 	"Duyan"		 ,
-
- 	"Duyan"		 ,
- 	"Gören"	 ,
- 	"Gören" ,
- 	"Bilen"		 ,
- 	"Bilen"		 ,
-
- 	"Bilge"	 ,
- 	"Bilge"		 ,
- 	"Arif"		 ,
- 	"Arif"		 ,
- 	"Arif"	 ,
-
- 	"Arif"		 ,
- 	"Ýblis Katili"		 ,
- 	"Ýblis Katili"			 ,
- 	"Yüce Ýblis Katili"		 ,
- 	"Yüce Ýblis Katili"		 ,
-
- 	"Denizlerin Efendisi"		 ,
- 	"Denizlerin Efendisi"		 ,
- 	"Topraðýn Efendisi" ,
- 	"Topraðýn Efendisi"		 ,
- 	"Havanýn Efendisi"		 ,
-
- 	"Havanýn Efendisi"		 ,
- 	"Lokman Ruhu"	 ,
- 	"Lokman Ruhu"	 ,
- 	"Cennet Bekçisi"	 ,
- 	"Cennet Bekçisi"	 ,
-
- 	"Iþýyan" ,
- 	"Iþýyan" ,
- 	"Kutsal" ,
- 	"Kutsal" ,
- 	"Ýlahi" ,
-
- 	"Ýlahi" ,
- 	"Aziz" ,
- 	"Aziz" ,
- 	"Köklerin Efendisi" ,
- 	"Köklerin Efendisi" ,
-
- 	"Suyun Efendisi" ,
- 	"Suyun Efendisi" ,
- 	"Ateþin Efendisi" ,
- 	"Ateþin Efendisi" ,
- 	"Buzun Efendisi" ,
-
- 	"Buzun Efendisi" ,
- 	"Rüzgarýn Efendisi" ,
- 	"Rüzgarýn Efendisi" ,
- 	"Fýrtýna Efendisi" ,
- 	"Fýrtýna Efendisi" ,
-
- 	"Topraða Hükmeden" ,
- 	"Topraða Hükmeden" ,
- 	"Denize Hükmeden" ,
- 	"Denize Hükmeden" ,
- 	"Zamana Hükmeden" ,
-
- 	"Zamana Hükmeden" ,
- 	"Kutsal Ruh" ,
- 	"Kutsal Ruh" ,
- 	"Kutsal Bilge" ,
- 	"Kutsal Bilge" ,
-
- 	"Ölümsüz Elçisi"		 ,
- 	"Ölümsüz Elçisi"	 ,
- 	"Ölümsüz Elçisi"	 ,
- 	"Ölümsüz Elçisi"	 ,
- 	"Ölümsüz Elçisi"	 ,
-
- 	"Ölümsüz Elçisi"	 ,
- 	"Ölümsüz Elçisi"	 ,
- 	"Ölümsüz Elçisi"	 ,
- 	"Kutsanmýþ Olan" ,
- 	"Kutsanmýþ Olan" ,
-
- 	"Kahraman"		,
- 	 "Melek"		,
- 	 "Melek"		,
- 	 "Elçi"		,
- 	 "Ölümsüz"		,
- 	"Yüce"		,
- 	"Yüce",
- 	"Yüce",
- 	"Yüce",
- 	 "Tek"},
+ 	 L"Kahraman"		,
+ 	 L"Melek"		,
+ 	 L"Melek"		,
+ 	 L"ElÃ§i"		,
+ 	 L"Ã–lÃ¼msÃ¼z"		,
+ 	L"YÃ¼ce"		,
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	 L"Tek"	},
 
      {
- 	  "Man"			 ,
+ 	  L"Man"			 ,
 
- 		  "Çocuk"			 ,
- 		  "Sessiz Adým"		 ,
- 		  "Aþýran"			 ,
- 		  "Yan Kesici"		 ,
- 		  "Süzülen"		 ,
+ 	L"Ä°nanan"		 ,
+ 	L"YardÄ±mcÄ±"		 ,
+ 	L"Hizmetli"		 ,
+ 	L"Ã‡Ä±rak"			 ,
+ 	L"Misyoner"		 ,
 
- 		 "Kýstýran"	 ,
- 		  "Cepçi"	 ,
- 		  "Kapkaççý"	 ,
- 		  "Dolandýrýcý"	 ,
- 		  "Haydut"		 ,
+ 	L"Usta"		 ,
+ 	L"Diyakoz"		 ,
+ 	L"Ã–nder"			 ,
+ 	L"Ãœstat"		 ,
+ 	L"Orta ElÃ§i"			 ,
 
- 		 "Soyguncu" ,
- 		  "Soyguncu" ,
- 		  "Hilebaz"		 ,
- 		  "Hilebaz"	 ,
- 		  "Eþkiya"		 ,
+ 	L"Dindar"			 ,
+ 	L"Dindar"			 ,
+ 	L"YÃ¼kselen"		 ,
+ 	L"YÃ¼kselen"			 ,
+ 	L"Din AdamÄ±"		 ,
 
- 		 "Eþkiya"	 ,
- 		  "Dessas"	 ,
- 		  "Dessas"	 ,
- 		  "Hýrsýz"	 ,
- 		  "Hýrsýz"	 ,
+ 	L"Din AdamÄ±"			 ,
+ 	L"KeÅŸiÅŸ"			 ,
+ 	L"KeÅŸiÅŸ"			 ,
+ 	L"Ä°yileÅŸtiren"			 ,
+ 	L"Ä°yileÅŸtiren"		 ,
 
- 		  "Keskin Býçak" ,
- 		  "Keskin Býçak" ,
- 		  "Hýzlý Býçak"	 ,
- 		  "Hýzlý Býçak"	 ,
- 		  "Katil"		 ,
+ 	L"Vaiz"		 ,
+ 	L"Vaiz"		 ,
+ 	L"AÃ§Ä±klayan"		 ,
+ 	L"AÃ§Ä±klayan"			 ,
+ 	L"Duyan"		 ,
 
- 		  "Katil"			 ,
- 		  "Kanunsuz"		 ,
- 		  "Kanunsuz"		 ,
- 		  "Gýrtlak Kesen"			 ,
- 		  "Gýrtlak Kesen"			 ,
+ 	L"Duyan"		 ,
+ 	L"GÃ¶ren"	 ,
+ 	L"GÃ¶ren" ,
+ 	L"Bilen"		 ,
+ 	L"Bilen"		 ,
 
- 		  "Ýftiracý"	 ,
- 		  "Ýftiracý"	 ,
- 		  "Muhbir"	 ,
- 		  "Muhbir"	 ,
- 		  "Hafiye"	 ,
+ 	L"Bilge"	 ,
+ 	L"Bilge"		 ,
+ 	L"Arif"		 ,
+ 	L"Arif"		 ,
+ 	L"Arif"	 ,
 
- 		  "Hafiye"	 ,
- 		  "Suikastçi" ,
- 		  "Suikastçi" ,
- 		  "Büyük Suikastçi" ,
- 		  "Büyük Suikastçi" ,
+ 	L"Arif"		 ,
+ 	L"Ä°blis Katili"		 ,
+ 	L"Ä°blis Katili"			 ,
+ 	L"YÃ¼ce Ä°blis Katili"		 ,
+ 	L"YÃ¼ce Ä°blis Katili"		 ,
 
- 		 "Görüþ Ustasý"	 ,
- 		  "Görüþ Ustasý"	 ,
- 		  "Duyuþ Ustasý" ,
- 		  "Duyuþ Ustasý" ,
- 		  "Koku Ustasý"	 ,
+ 	L"Denizlerin Efendisi"		 ,
+ 	L"Denizlerin Efendisi"		 ,
+ 	L"TopraÄŸÄ±n Efendisi" ,
+ 	L"TopraÄŸÄ±n Efendisi"		 ,
+ 	L"HavanÄ±n Efendisi"		 ,
 
-    		 "Koku Ustasý"	 ,
- 		  "Tat Ustasý"	,
- 		  "Tat Ustasý"	 ,
- 		  "Temas Ustasý"	 ,
- 		  "Temas Ustasý"	 ,
+ 	L"HavanÄ±n Efendisi"		 ,
+ 	L"Lokman Ruhu"	 ,
+ 	L"Lokman Ruhu"	 ,
+ 	L"Cennet BekÃ§isi"	 ,
+ 	L"Cennet BekÃ§isi"	 ,
 
- 		  "Suçlu"		 ,
- 		  "Suçlu"	 ,
- 		  "Suç Ustasý"	 ,
- 		  "Suç Ustasý" ,
- 		  "Suç Üstadý",
+ 	L"IÅŸÄ±yan" ,
+ 	L"IÅŸÄ±yan" ,
+ 	L"Kutsal" ,
+ 	L"Kutsal" ,
+ 	L"Ä°lahi" ,
 
- 		  "Suç Üstadý"	 ,
- 		  "Suç Efendisi"	 ,
- 		  "Suç Efendisi"		 ,
- 		  "Patron"			 ,
- 		  "Patron"		 ,
+ 	L"Ä°lahi" ,
+ 	L"Aziz" ,
+ 	L"Aziz" ,
+ 	L"KÃ¶klerin Efendisi" ,
+ 	L"KÃ¶klerin Efendisi" ,
 
- 		  "Elebaþý" ,
- 		  "Elebaþý" ,
- 		  "Büyük Patron" ,
- 		  "Büyük Patron" ,
- 		  "Yeraltýnýn Gölgesi" ,
+ 	L"Suyun Efendisi" ,
+ 	L"Suyun Efendisi" ,
+ 	L"AteÅŸin Efendisi" ,
+ 	L"AteÅŸin Efendisi" ,
+ 	L"Buzun Efendisi" ,
 
- 		  "Yeraltýnýn Gölgesi" ,
- 		  "Gölge" ,
- 		  "Gölge" ,
- 		  "Karanlýðýn Sesi" ,
- 		  "Karanlýðýn Sesi" ,
+ 	L"Buzun Efendisi" ,
+ 	L"RÃ¼zgarÄ±n Efendisi" ,
+ 	L"RÃ¼zgarÄ±n Efendisi" ,
+ 	L"FÄ±rtÄ±na Efendisi" ,
+ 	L"FÄ±rtÄ±na Efendisi" ,
 
- 		  "Sessizliðin Efendisi" ,
- 		  "Sessizliðin Efendisi" ,
- 		  "Hile Efendisi" ,
- 		  "Hile Efendisi" ,
- 		  "Býçak Efendisi" ,
+ 	L"TopraÄŸa HÃ¼kmeden" ,
+ 	L"TopraÄŸa HÃ¼kmeden" ,
+ 	L"Denize HÃ¼kmeden" ,
+ 	L"Denize HÃ¼kmeden" ,
+ 	L"Zamana HÃ¼kmeden" ,
 
- 		"Býçak Efendisi" ,
- 		"Zehir Efendisi" ,
- 		"Zehir Efendisi" ,
- 		"Giz Efendisi" ,
- 		"Giz Efendisi" ,
+ 	L"Zamana HÃ¼kmeden" ,
+ 	L"Kutsal Ruh" ,
+ 	L"Kutsal Ruh" ,
+ 	L"Kutsal Bilge" ,
+ 	L"Kutsal Bilge" ,
 
- 	        "Hýrsýz Efendi" ,
- 		"Hýrsýz Efendi" ,
- 		"Suikastçi Efendi" ,
- 		"Suikastçi Efendi" ,
- 		"Görünmeyen" ,
+ 	L"Ã–lÃ¼msÃ¼z ElÃ§isi"		 ,
+ 	L"Ã–lÃ¼msÃ¼z ElÃ§isi"	 ,
+ 	L"Ã–lÃ¼msÃ¼z ElÃ§isi"	 ,
+ 	L"Ã–lÃ¼msÃ¼z ElÃ§isi"	 ,
+ 	L"Ã–lÃ¼msÃ¼z ElÃ§isi"	 ,
 
- 		"Görünmeyen" ,
- 		"Hýrsýzlarýn Efendisi" ,
- 		"Hýrsýzlarýn Efendisi" ,
- 		"Suikastçilerin Efendisi" ,
- 		"Suikastçilerin Efendisi" ,
+ 	L"Ã–lÃ¼msÃ¼z ElÃ§isi"	 ,
+ 	L"Ã–lÃ¼msÃ¼z ElÃ§isi"	 ,
+ 	L"Ã–lÃ¼msÃ¼z ElÃ§isi"	 ,
+ 	L"KutsanmÄ±ÅŸ Olan" ,
+ 	L"KutsanmÄ±ÅŸ Olan" ,
 
- 		"Kahraman"		,
- 	 "Melek"		,
- 	 "Melek"		,
- 	 "Elçi"		,
- 	 "Ölümsüz"		,
- 	"Yüce"		,
- 	"Yüce",
- 	"Yüce",
- 	"Yüce",
- 	 "Tek" },
+ 	L"Kahraman"		,
+ 	 L"Melek"		,
+ 	 L"Melek"		,
+ 	 L"ElÃ§i"		,
+ 	 L"Ã–lÃ¼msÃ¼z"		,
+ 	L"YÃ¼ce"		,
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	 L"Tek"},
 
      {
-           "Man"			 ,
+ 	  L"Man"			 ,
 
- 	  "Acemi"		 ,
- 	  "Çaylak"		 ,
- 	  "Nöbetçi"		 ,
- 	  "Dövüþçü"		 ,
- 	  "Asker"			 ,
+ 		  L"Ã‡ocuk"			 ,
+ 		  L"Sessiz AdÄ±m"		 ,
+ 		  L"AÅŸÄ±ran"			 ,
+ 		  L"Yan Kesici"		 ,
+ 		  L"SÃ¼zÃ¼len"		 ,
 
- 	  "Savaþan"		 ,
- 	  "Kýdemli"			 ,
- 	  "Kýlýç Çeken"		 ,
- 	  "Eskrimci"	 ,
- 	  "Savaþçý"		 ,
+ 		 L"KÄ±stÄ±ran"	 ,
+ 		  L"CepÃ§i"	 ,
+ 		  L"KapkaÃ§Ã§Ä±"	 ,
+ 		  L"DolandÄ±rÄ±cÄ±"	 ,
+ 		  L"Haydut"		 ,
 
- 	  "Kahraman"		 ,
- 	  "Kahraman"		 ,
- 	  "Þanlý"		 ,
- 	  "Þanlý"		 ,
- 	  "Gri Kalkan"		 ,
+ 		 L"Soyguncu" ,
+ 		  L"Soyguncu" ,
+ 		  L"Hilebaz"		 ,
+ 		  L"Hilebaz"	 ,
+ 		  L"EÅŸkiya"		 ,
 
- 	  "Gri Kalkan"				 ,
- 	  "Paralý Asker"					 ,
- 	  "Paralý Asker"						 ,
- 	  "Kýlýç Ustasý"				 ,
- 	  "Kýlýç Ustasý"				 ,
+ 		 L"EÅŸkiya"	 ,
+ 		  L"Dessas"	 ,
+ 		  L"Dessas"	 ,
+ 		  L"HÄ±rsÄ±z"	 ,
+ 		  L"HÄ±rsÄ±z"	 ,
 
- 	  "Teðmen"						 ,
- 	  "Teðmen"					 ,
- 	  "Savunan"				 ,
- 	  "Savunan"					 ,
- 	  "Dragon"					 ,
+ 		  L"Keskin BÄ±Ã§ak" ,
+ 		  L"Keskin BÄ±Ã§ak" ,
+ 		  L"HÄ±zlÄ± BÄ±Ã§ak"	 ,
+ 		  L"HÄ±zlÄ± BÄ±Ã§ak"	 ,
+ 		  L"Katil"		 ,
 
- 	  "Dragon"					 ,
- 	  "Saygýsýz"						 ,
- 	  "Saygýsýz"						 ,
- 	  "Þövalye"					 ,
- 	  "Þövalye"				 ,
+ 		  L"Katil"			 ,
+ 		  L"Kanunsuz"		 ,
+ 		  L"Kanunsuz"		 ,
+ 		  L"GÄ±rtlak Kesen"			 ,
+ 		  L"GÄ±rtlak Kesen"			 ,
 
- 	  "Büyük Þövalye"				 ,
- 	  "Büyük Þövalye"				 ,
- 	  "Efendi Þövalye"					 ,
- 	  "Efendi Þövalye"				 ,
- 	  "Gladyatör"					 ,
+ 		  L"Ä°ftiracÄ±"	 ,
+ 		  L"Ä°ftiracÄ±"	 ,
+ 		  L"Muhbir"	 ,
+ 		  L"Muhbir"	 ,
+ 		  L"Hafiye"	 ,
 
- 	  "Gladyatör"				 ,
- 	  "Efendi Gladyatör"				 ,
- 	  "Efendi Gladyatör"			 ,
- 	  "Ýblis Katleden"					 ,
- 	  "Ýblis Katleden"				 ,
+ 		  L"Hafiye"	 ,
+ 		  L"SuikastÃ§i" ,
+ 		  L"SuikastÃ§i" ,
+ 		  L"BÃ¼yÃ¼k SuikastÃ§i" ,
+ 		  L"BÃ¼yÃ¼k SuikastÃ§i" ,
 
- 	  "Büyük Ýblis Katleden"		 ,
- 	  "Büyük Ýblis Katleden"			 ,
- 	  "Ejder Katili"				 ,
- 	  "Ejder Katili"				 ,
- 	  "Büyük Ejder Katili"		 ,
+ 		 L"GÃ¶rÃ¼ÅŸ UstasÄ±"	 ,
+ 		  L"GÃ¶rÃ¼ÅŸ UstasÄ±"	 ,
+ 		  L"DuyuÅŸ UstasÄ±" ,
+ 		  L"DuyuÅŸ UstasÄ±" ,
+ 		  L"Koku UstasÄ±"	 ,
 
- 	  "Büyük Ejder Katili"		 ,
- 	  "Lord"						 ,
- 	  "Lord"				 ,
- 	  "Efendi"						 ,
- 	  "Efendi"						 ,
+    		 L"Koku UstasÄ±"	 ,
+ 		  L"Tat UstasÄ±"	,
+ 		  L"Tat UstasÄ±"	 ,
+ 		  L"Temas UstasÄ±"	 ,
+ 		  L"Temas UstasÄ±"	 ,
 
- 	  "Baron"			 ,
- 	  "Baron"		 ,
- 	  "Rüzgar Baron"			 ,
- 	  "Rüzgar Baron"				 ,
- 	  "Fýrtýna Baron"			 ,
+ 		  L"SuÃ§lu"		 ,
+ 		  L"SuÃ§lu"	 ,
+ 		  L"SuÃ§ UstasÄ±"	 ,
+ 		  L"SuÃ§ UstasÄ±" ,
+ 		  L"SuÃ§ ÃœstadÄ±",
 
- 	  "Fýrtýna Baron"			 ,
- 	  "Kasýrga Baron"		 ,
- 	  "Kasýrga Baron"		 ,
- 	  "Kudretli Baron"	 ,
- 	  "Kudretli Baron"	 ,
+ 		  L"SuÃ§ ÃœstadÄ±"	 ,
+ 		  L"SuÃ§ Efendisi"	 ,
+ 		  L"SuÃ§ Efendisi"		 ,
+ 		  L"Patron"			 ,
+ 		  L"Patron"		 ,
 
- 	  "Ateþ Baron"   ,
- 	  "Ateþ Baron"   ,
- 	  "Buz Baron"   ,
- 	  "Buz Baron"   ,
- 	  "Þimþek Baron"  ,
+ 		  L"ElebaÅŸÄ±" ,
+ 		  L"ElebaÅŸÄ±" ,
+ 		  L"BÃ¼yÃ¼k Patron" ,
+ 		  L"BÃ¼yÃ¼k Patron" ,
+ 		  L"YeraltÄ±nÄ±n GÃ¶lgesi" ,
 
- 	  "Þimþek Baron"  ,
- 	  "Elementlerin Efendisi"   ,
- 	  "Elementlerin Efendisi"   ,
- 	  "Bakýr Efendi"   ,
- 	  "Bakýr Efendi"  ,
+ 		  L"YeraltÄ±nÄ±n GÃ¶lgesi" ,
+ 		  L"GÃ¶lge" ,
+ 		  L"GÃ¶lge" ,
+ 		  L"KaranlÄ±ÄŸÄ±n Sesi" ,
+ 		  L"KaranlÄ±ÄŸÄ±n Sesi" ,
 
- 	  "Bronz Efendi"  ,
- 	  "Bronz Efendi"   ,
- 	  "Pirinç Efendi"  ,
- 	  "Pirinç Efendi"   ,
- 	  "Demir Efendi"   ,
+ 		  L"SessizliÄŸin Efendisi" ,
+ 		  L"SessizliÄŸin Efendisi" ,
+ 		  L"Hile Efendisi" ,
+ 		  L"Hile Efendisi" ,
+ 		  L"BÄ±Ã§ak Efendisi" ,
 
- 	  "Demir Efendi"   ,
- 	  "Çelik Efendi"  ,
- 	  "Çelik Efendi"   ,
- 	  "Mitril Efendi"   ,
- 	  "Mitril Efendi"  ,
+ 		L"BÄ±Ã§ak Efendisi" ,
+ 		L"Zehir Efendisi" ,
+ 		L"Zehir Efendisi" ,
+ 		L"Giz Efendisi" ,
+ 		L"Giz Efendisi" ,
 
- 	  "Adamantit Efendi"   ,
- 	  "Adamantit Efendi"  ,
- 	  "Yüzbaþý"   ,
- 	  "Yüzbaþý"  ,
- 	  "General"   ,
+ 	        L"HÄ±rsÄ±z Efendi" ,
+ 		L"HÄ±rsÄ±z Efendi" ,
+ 		L"SuikastÃ§i Efendi" ,
+ 		L"SuikastÃ§i Efendi" ,
+ 		L"GÃ¶rÃ¼nmeyen" ,
 
- 	  "General"  ,
- 	  "Kara Mareþali"  ,
- 	  "Kara Mareþali"  ,
- 	  "Savaþ Ustasý"   ,
- 	  "Savaþ Ustasý"  ,
+ 		L"GÃ¶rÃ¼nmeyen" ,
+ 		L"HÄ±rsÄ±zlarÄ±n Efendisi" ,
+ 		L"HÄ±rsÄ±zlarÄ±n Efendisi" ,
+ 		L"SuikastÃ§ilerin Efendisi" ,
+ 		L"SuikastÃ§ilerin Efendisi" ,
 
- 	  "Kahraman"		,
- 	 "Melek"		,
- 	 "Melek"		,
- 	 "Elçi"		,
- 	 "Ölümsüz"		,
- 	"Yüce"		,
- 	"Yüce",
- 	"Yüce",
- 	"Yüce",
- 	 "Tek"     },
+ 		L"Kahraman"		,
+ 	 L"Melek"		,
+ 	 L"Melek"		,
+ 	 L"ElÃ§i"		,
+ 	 L"Ã–lÃ¼msÃ¼z"		,
+ 	L"YÃ¼ce"		,
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	 L"Tek" },
+
+     {
+           L"Man"			 ,
+
+ 	  L"Acemi"		 ,
+ 	  L"Ã‡aylak"		 ,
+ 	  L"NÃ¶betÃ§i"		 ,
+ 	  L"DÃ¶vÃ¼ÅŸÃ§Ã¼"		 ,
+ 	  L"Asker"			 ,
+
+ 	  L"SavaÅŸan"		 ,
+ 	  L"KÄ±demli"			 ,
+ 	  L"KÄ±lÄ±Ã§ Ã‡eken"		 ,
+ 	  L"Eskrimci"	 ,
+ 	  L"SavaÅŸÃ§Ä±" ,
+
+         L"Kahraman"		 ,
+ 	  L"Kahraman"		 ,
+ 	  L"ÅžanlÄ±"		 ,
+ 	  L"ÅžanlÄ±"		 ,
+ 	  L"Gri Kalkan" ,
+
+         L"Gri Kalkan"				 ,
+ 	  L"ParalÄ± Asker"					 ,
+ 	  L"ParalÄ± Asker"						 ,
+ 	  L"KÄ±lÄ±Ã§ UstasÄ±"				 ,
+ 	  L"KÄ±lÄ±Ã§ UstasÄ±"				 ,
+
+ 	  L"TeÄŸmen"						 ,
+ 	  L"TeÄŸmen"					 ,
+ 	  L"Savunan"				 ,
+ 	  L"Savunan"					 ,
+ 	  L"Dragon"					 ,
+
+ 	  L"Dragon"					 ,
+ 	  L"SaygÄ±sÄ±z"						 ,
+ 	  L"SaygÄ±sÄ±z"						 ,
+ 	  L"ÅžÃ¶valye"					 ,
+ 	  L"ÅžÃ¶valye"				 ,
+
+ 	  L"BÃ¼yÃ¼k ÅžÃ¶valye"				 ,
+ 	  L"BÃ¼yÃ¼k ÅžÃ¶valye"				 ,
+ 	  L"Efendi ÅžÃ¶valye"					 ,
+ 	  L"Efendi ÅžÃ¶valye"				 ,
+ 	  L"GladyatÃ¶r"					 ,
+
+ 	  L"GladyatÃ¶r"				 ,
+ 	  L"Efendi GladyatÃ¶r"				 ,
+ 	  L"Efendi GladyatÃ¶r"			 ,
+ 	  L"Ä°blis Katleden"					 ,
+ 	  L"Ä°blis Katleden"				 ,
+
+ 	  L"BÃ¼yÃ¼k Ä°blis Katleden"		 ,
+ 	  L"BÃ¼yÃ¼k Ä°blis Katleden"			 ,
+ 	  L"Ejder Katili"				 ,
+ 	  L"Ejder Katili"				 ,
+ 	  L"BÃ¼yÃ¼k Ejder Katili" ,
+
+         L"BÃ¼yÃ¼k Ejder Katili"		 ,
+ 	  L"Lord"						 ,
+ 	  L"Lord"				 ,
+ 	  L"Efendi"						 ,
+ 	  L"Efendi"						 ,
+
+ 	  L"Baron"			 ,
+ 	  L"Baron"		 ,
+ 	  L"RÃ¼zgar Baron"			 ,
+ 	  L"RÃ¼zgar Baron"				 ,
+ 	  L"FÄ±rtÄ±na Baron"			 ,
+
+ 	  L"FÄ±rtÄ±na Baron"			 ,
+ 	  L"KasÄ±rga Baron"		 ,
+ 	  L"KasÄ±rga Baron"		 ,
+ 	  L"Kudretli Baron"	 ,
+ 	  L"Kudretli Baron"	 ,
+
+ 	  L"AteÅŸ Baron"   ,
+ 	  L"AteÅŸ Baron"   ,
+ 	  L"Buz Baron"   ,
+ 	  L"Buz Baron"   ,
+ 	  L"ÅžimÅŸek Baron"  ,
+
+ 	  L"ÅžimÅŸek Baron"  ,
+ 	  L"Elementlerin Efendisi"   ,
+ 	  L"Elementlerin Efendisi"   ,
+ 	  L"BakÄ±r Efendi"   ,
+ 	  L"BakÄ±r Efendi"  ,
+
+ 	  L"Bronz Efendi"  ,
+ 	  L"Bronz Efendi"   ,
+ 	  L"PirinÃ§ Efendi"  ,
+ 	  L"PirinÃ§ Efendi"   ,
+ 	  L"Demir Efendi"   ,
+
+ 	  L"Demir Efendi"   ,
+ 	  L"Ã‡elik Efendi"  ,
+ 	  L"Ã‡elik Efendi"   ,
+ 	  L"Mitril Efendi"   ,
+ 	  L"Mitril Efendi"  ,
+
+ 	  L"Adamantit Efendi"   ,
+ 	  L"Adamantit Efendi"  ,
+ 	  L"YÃ¼zbaÅŸÄ±"   ,
+ 	  L"YÃ¼zbaÅŸÄ±"  ,
+ 	  L"General"   ,
+
+ 	  L"General"  ,
+ 	  L"Kara MareÅŸali"  ,
+ 	  L"Kara MareÅŸali"  ,
+ 	  L"SavaÅŸ UstasÄ±"   ,
+ 	  L"SavaÅŸ UstasÄ±"  ,
+
+ 	  L"Kahraman"		,
+ 	 L"Melek"		,
+ 	 L"Melek"		,
+ 	 L"ElÃ§i"		,
+ 	 L"Ã–lÃ¼msÃ¼z"		,
+ 	L"YÃ¼ce"		,
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	 L"Tek"     },
 
        {
 
-         "Man"                ,
+         L"Man"                ,
 
-         "Paladin Yamaðý"		  ,
-         "Paladin Çýraðý"			 ,
-         "Kalkan"		   ,
-         "Kalkan"		 ,
-         "Kýlýç"			 ,
+         L"Paladin YamaÄŸÄ±"		  ,
+         L"Paladin Ã‡Ä±raÄŸÄ±"			 ,
+         L"Kalkan"		   ,
+         L"Kalkan"		 ,
+         L"KÄ±lÄ±Ã§"			 ,
 
-         "Yay"			 ,
-         "Taþýyýcý"		  ,
-         "Atlý"			 ,
-         "Bey Adayý"		 ,
-         "Bey"		 ,
+         L"Yay"			 ,
+         L"TaÅŸÄ±yÄ±cÄ±"		  ,
+         L"AtlÄ±"			 ,
+         L"Bey AdayÄ±"		 ,
+         L"Bey"		 ,
 
-         "Piyade Neferi"   ,
-         "Piyade Neferi"  ,
-         "Mýzrak Taþýyan" ,
-         "Mýzrak Taþýyan" ,
-         "Yay Taþýyan"  ,
+         L"Piyade Neferi"   ,
+         L"Piyade Neferi"  ,
+         L"MÄ±zrak TaÅŸÄ±yan" ,
+         L"MÄ±zrak TaÅŸÄ±yan" ,
+         L"Yay TaÅŸÄ±yan"  ,
 
-         "Yay Taþýyan"   ,
-         "Kýlýç Taþýyan"   ,
-         "Kýlýç Taþýyan"  ,
-         "Onurlu"   ,
-         "Onurlu"   ,
+         L"Yay TaÅŸÄ±yan"   ,
+         L"KÄ±lÄ±Ã§ TaÅŸÄ±yan"   ,
+         L"KÄ±lÄ±Ã§ TaÅŸÄ±yan"  ,
+         L"Onurlu"   ,
+         L"Onurlu"   ,
 
-         "Soylu"   ,
-         "Soylu"  ,
-         "Güvenilir"   ,
-         "Güvenilir"   ,
-         "Doðrucu"   ,
+         L"Soylu"   ,
+         L"Soylu"  ,
+         L"GÃ¼venilir"   ,
+         L"GÃ¼venilir"   ,
+         L"DoÄŸrucu"   ,
 
-         "Doðrucu"  ,
-         "Yiðit"  ,
-         "Yiðit"  ,
-         "Paladin"   ,
-         "Paladin"   ,
+         L"DoÄŸrucu"  ,
+         L"YiÄŸit"  ,
+         L"YiÄŸit"  ,
+         L"Paladin"   ,
+         L"Paladin"   ,
 
-         "Görevci"  ,
-         "Görevci"  ,
-         "Saygýn"   ,
-         "Saygýn"  ,
-         "Savunan" ,
+         L"GÃ¶revci"  ,
+         L"GÃ¶revci"  ,
+         L"SaygÄ±n"   ,
+         L"SaygÄ±n"  ,
+         L"Savunan" ,
 
-         "Savunan"  ,
-         "Þanlý Þövalye"  ,
-         "Þanlý Þövalye"   ,
-         "Paladin Þövalye"  ,
-         "Paladin Þövalye"   ,
+         L"Savunan"  ,
+         L"ÅžanlÄ± ÅžÃ¶valye"  ,
+         L"ÅžanlÄ± ÅžÃ¶valye"   ,
+         L"Paladin ÅžÃ¶valye"  ,
+         L"Paladin ÅžÃ¶valye"   ,
 
-         "Arna Adayý"  ,
-         "Arna Adayý"   ,
-         "Dindar Þövalye"   ,
-         "Dindar Þövalye"  ,
-         "Dindar Þövalye"  ,
+         L"Arna AdayÄ±"  ,
+         L"Arna AdayÄ±"   ,
+         L"Dindar ÅžÃ¶valye"   ,
+         L"Dindar ÅžÃ¶valye"  ,
+         L"Dindar ÅžÃ¶valye"  ,
 
-         "Dindar Þövalye"  ,
-         "Dindar Savunma"  ,
-         "Dindar Savunma"   ,
-         "Þövalye Arna"  ,
-         "Þövalye Arna"   ,
+         L"Dindar ÅžÃ¶valye"  ,
+         L"Dindar Savunma"  ,
+         L"Dindar Savunma"   ,
+         L"ÅžÃ¶valye Arna"  ,
+         L"ÅžÃ¶valye Arna"   ,
 
-         "Arna Çýraðý"  ,
-         "Arna Çýraðý"   ,
-         "Arna"   ,
-         "Arna"  ,
-         "Arna Teðmen"  ,
+         L"Arna Ã‡Ä±raÄŸÄ±"  ,
+         L"Arna Ã‡Ä±raÄŸÄ±"   ,
+         L"Arna"   ,
+         L"Arna"  ,
+         L"Arna TeÄŸmen"  ,
 
-         "Arna Teðmen"   ,
-         "Arna Yüzbaþý"  ,
-         "Arna Yüzbaþý"   ,
-         "Arna Albay"   ,
-         "Arna Albay"   ,
+         L"Arna TeÄŸmen"   ,
+         L"Arna YÃ¼zbaÅŸÄ±"  ,
+         L"Arna YÃ¼zbaÅŸÄ±"   ,
+         L"Arna Albay"   ,
+         L"Arna Albay"   ,
 
-         "Arna General"  ,
-         "Arna General"  ,
-         "Arna Kara Mareþali"   ,
-         "Arna Kara Mareþali"   ,
-         "Þifacý Þövalye"  ,
+         L"Arna General"  ,
+         L"Arna General"  ,
+         L"Arna Kara MareÅŸali"   ,
+         L"Arna Kara MareÅŸali"   ,
+         L"ÅžifacÄ± ÅžÃ¶valye"  ,
 
-         "Þifacý Þövalye"   ,
-         "Öc Alan"   ,
-         "Öc Alan"  ,
-         "Öncü"   ,
-         "Öncü"   ,
+         L"ÅžifacÄ± ÅžÃ¶valye"   ,
+         L"Ã–c Alan"   ,
+         L"Ã–c Alan"  ,
+         L"Ã–ncÃ¼"   ,
+         L"Ã–ncÃ¼"   ,
 
-         "Öncü Lideri"  ,
-         "Öncü Lideri"   ,
-         "Öncülerin Lideri"  ,
-         "Öncülerin Lideri"  ,
-         "Arna Lideri"   ,
+         L"Ã–ncÃ¼ Lideri"  ,
+         L"Ã–ncÃ¼ Lideri"   ,
+         L"Ã–ncÃ¼lerin Lideri"  ,
+         L"Ã–ncÃ¼lerin Lideri"  ,
+         L"Arna Lideri"   ,
 
-         "Arna Lideri"  ,
-         "Arnalarýn Lideri"   ,
-         "Arnalarýn Lideri"   ,
-         "Arnalarýn Þanlý Lideri"   ,
-         "Arnalarýn Þanlý Lideri" ,
+         L"Arna Lideri"  ,
+         L"ArnalarÄ±n Lideri"   ,
+         L"ArnalarÄ±n Lideri"   ,
+         L"ArnalarÄ±n ÅžanlÄ± Lideri"   ,
+         L"ArnalarÄ±n ÅžanlÄ± Lideri" ,
 
-         "Arnalarýn Lordu"  ,
-         "Arnalarýn Lordu"  ,
-         "Ýnancýn Çekici"   ,
-         "Ýnancýn Çekici"  ,
-         "Kafirlerin Katili"   ,
+         L"ArnalarÄ±n Lordu"  ,
+         L"ArnalarÄ±n Lordu"  ,
+         L"Ä°nancÄ±n Ã‡ekici"   ,
+         L"Ä°nancÄ±n Ã‡ekici"  ,
+         L"Kafirlerin Katili"   ,
 
-         "Kafirlerin Katili"  ,
-         "Dindar"   ,
-         "Dindar"   ,
-         "Kutsal Þövalye"  ,
-         "Kutsal Þövalye"   ,
+         L"Kafirlerin Katili"  ,
+         L"Dindar"   ,
+         L"Dindar"   ,
+         L"Kutsal ÅžÃ¶valye"  ,
+         L"Kutsal ÅžÃ¶valye"   ,
 
-         "Kahraman"		,
- 	 "Melek"		,
- 	 "Melek"		,
- 	 "Elçi"		,
- 	 "Ölümsüz"		,
- 	"Yüce"		,
- 	"Yüce",
- 	"Yüce",
- 	"Yüce",
- 	 "Tek"
+         L"Kahraman"		,
+ 	 L"Melek"		,
+ 	 L"Melek"		,
+ 	 L"ElÃ§i"		,
+ 	 L"Ã–lÃ¼msÃ¼z"		,
+ 	L"YÃ¼ce"		,
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	 L"Tek"
       },
        {
-         "Man"						 ,
+         L"Man"						 ,
 
-         "Kirli"						 ,
-         "Zorba"			 	 ,
-         "Kaba"   ,
-         "Cani"   ,
-         "Cani"  ,
+         L"Kirli"						 ,
+         L"Zorba"			 	 ,
+         L"Kaba"   ,
+         L"Cani"   ,
+         L"Cani"  ,
 
-         "Yaðmacý"   ,
-         "Yokeden"  ,
-         "Yakan"   ,
-         "Kiralýk Katil"   ,
-         "Kanunsuz"  				 ,
+         L"YaÄŸmacÄ±"   ,
+         L"Yokeden"  ,
+         L"Yakan"   ,
+         L"KiralÄ±k Katil"   ,
+         L"Kanunsuz"  				 ,
 
-         "Paralý Asker"   ,
-         "Paralý Asker"   ,
-         "Kara Kýlýç"  ,
-         "Kara Kýlýç"   ,
-         "Kýzýl Kýlýç"  ,
+         L"ParalÄ± Asker"   ,
+         L"ParalÄ± Asker"   ,
+         L"Kara KÄ±lÄ±Ã§"  ,
+         L"Kara KÄ±lÄ±Ã§"   ,
+         L"KÄ±zÄ±l KÄ±lÄ±Ã§"  ,
 
-         "Kýzýl Kýlýç"   ,
-         "Süzülen" ,
-         "Süzülen"  ,
-         "Gaddar"   ,
-         "Gaddar" ,
+         L"KÄ±zÄ±l KÄ±lÄ±Ã§"   ,
+         L"SÃ¼zÃ¼len" ,
+         L"SÃ¼zÃ¼len"  ,
+         L"Gaddar"   ,
+         L"Gaddar" ,
 
-         "Araklayan"   ,
-         "Araklayan"   ,
-         "Bilinmeyen"  ,
-         "Bilinmeyen"   ,
-         "Nefret Edilen"  ,
+         L"Araklayan"   ,
+         L"Araklayan"   ,
+         L"Bilinmeyen"  ,
+         L"Bilinmeyen"   ,
+         L"Nefret Edilen"  ,
 
-         "Nefret Edilen"   ,
-         "Alçak"   ,
-         "Alçak"  ,
-         "Paladin Düþmaný"   ,
-         "Paladin Düþmaný" ,
+         L"Nefret Edilen"   ,
+         L"AlÃ§ak"   ,
+         L"AlÃ§ak"  ,
+         L"Paladin DÃ¼ÅŸmanÄ±"   ,
+         L"Paladin DÃ¼ÅŸmanÄ±" ,
 
-         "Þeytani Dövüþçü"  ,
-         "Þeytani Dövüþçü"  ,
-         "Haydut Þövalye"  ,
-         "Haydut Þövalye"  ,
-         "Þeytani Savunucu"   ,
+         L"Åžeytani DÃ¶vÃ¼ÅŸÃ§Ã¼"  ,
+         L"Åžeytani DÃ¶vÃ¼ÅŸÃ§Ã¼"  ,
+         L"Haydut ÅžÃ¶valye"  ,
+         L"Haydut ÅžÃ¶valye"  ,
+         L"Åžeytani Savunucu"   ,
 
-         "Þeytani Savunucu"  ,
-         "Kanlý"  ,
-         "Kanlý"   ,
-         "Kara Þövalye"   ,
-         "Kara Þövalye"   ,
+         L"Åžeytani Savunucu"  ,
+         L"KanlÄ±"  ,
+         L"KanlÄ±"   ,
+         L"Kara ÅžÃ¶valye"   ,
+         L"Kara ÅžÃ¶valye"   ,
 
-         "Kýzýl Þövalye"  ,
-         "Kýzýl Þövalye"  ,
-         "Büyük Þövalye"  ,
-         "Büyük Þövalye"   ,
-         "Ýnançsýz Þövalye"   ,
+         L"KÄ±zÄ±l ÅžÃ¶valye"  ,
+         L"KÄ±zÄ±l ÅžÃ¶valye"  ,
+         L"BÃ¼yÃ¼k ÅžÃ¶valye"  ,
+         L"BÃ¼yÃ¼k ÅžÃ¶valye"   ,
+         L"Ä°nanÃ§sÄ±z ÅžÃ¶valye"   ,
 
-         "Ýnançsýz Þövalye"   ,
-         "Acýnýn Þövalyesi"   ,
-         "Acýnýn Þövalyesi"  ,
-         "Lejyon Þövalyesi"   ,
-         "Lejyon Þövalyesi"   ,
+         L"Ä°nanÃ§sÄ±z ÅžÃ¶valye"   ,
+         L"AcÄ±nÄ±n ÅžÃ¶valyesi"   ,
+         L"AcÄ±nÄ±n ÅžÃ¶valyesi"  ,
+         L"Lejyon ÅžÃ¶valyesi"   ,
+         L"Lejyon ÅžÃ¶valyesi"   ,
 
-         "Lejyon Þövalyesi"   ,
-         "Lejyon Þövalyesi"  ,
-         "Lejyon Savunmasý"  ,
-         "Lejyon Savunmasý"  ,
-         "Lejyon Yüzbaþýsý"   ,
+         L"Lejyon ÅžÃ¶valyesi"   ,
+         L"Lejyon ÅžÃ¶valyesi"  ,
+         L"Lejyon SavunmasÄ±"  ,
+         L"Lejyon SavunmasÄ±"  ,
+         L"Lejyon YÃ¼zbaÅŸÄ±sÄ±"   ,
 
-         "Lejyon Yüzbaþýsý"   ,
-         "Lejyon Generali"   ,
-         "Lejyon Generali"   ,
-         "Lejyon Kara Mareþali" ,
-         "Lejyon Kara Mareþali"   ,
+         L"Lejyon YÃ¼zbaÅŸÄ±sÄ±"   ,
+         L"Lejyon Generali"   ,
+         L"Lejyon Generali"   ,
+         L"Lejyon Kara MareÅŸali" ,
+         L"Lejyon Kara MareÅŸali"   ,
 
-         "Kýyamet Þövalyesi"  ,
-         "Kýyamet Þövalyesi" ,
-         "Iþýðý kesen"   ,
-         "Iþýðý Kesen"   ,
-         "Acýnýn Efendisi"   ,
+         L"KÄ±yamet ÅžÃ¶valyesi"  ,
+         L"KÄ±yamet ÅžÃ¶valyesi" ,
+         L"IÅŸÄ±ÄŸÄ± kesen"   ,
+         L"IÅŸÄ±ÄŸÄ± Kesen"   ,
+         L"AcÄ±nÄ±n Efendisi"   ,
 
-         "Acýnýn Efendisi"   ,
-         "Ölü Efendisi"   ,
-         "Ölü Efendisi"   ,
-         "Karanlýk Þövalye"  ,
-         "Karanlýk Þövalye"   ,
+         L"AcÄ±nÄ±n Efendisi"   ,
+         L"Ã–lÃ¼ Efendisi"   ,
+         L"Ã–lÃ¼ Efendisi"   ,
+         L"KaranlÄ±k ÅžÃ¶valye"  ,
+         L"KaranlÄ±k ÅžÃ¶valye"   ,
 
-         "Karanlýk Lord"   ,
-         "Karanlýk Lord"   ,
-         "Karanlýk Kral"   ,
-         "Karanlýk Kral"   ,
-         "Ölüm Habercisi"   ,
+         L"KaranlÄ±k Lord"   ,
+         L"KaranlÄ±k Lord"   ,
+         L"KaranlÄ±k Kral"   ,
+         L"KaranlÄ±k Kral"   ,
+         L"Ã–lÃ¼m Habercisi"   ,
 
-         "Ölüm Habercisi"   ,
-         "Ölüm Yayan"   ,
-         "Ölüm Yayan"   ,
-         "Kýtlýk Getiren"   ,
-         "Kýtlýk Getiren"   ,
+         L"Ã–lÃ¼m Habercisi"   ,
+         L"Ã–lÃ¼m Yayan"   ,
+         L"Ã–lÃ¼m Yayan"   ,
+         L"KÄ±tlÄ±k Getiren"   ,
+         L"KÄ±tlÄ±k Getiren"   ,
 
-         "Ölüm Getiren"   ,
-         "Ölüm Getiren"   ,
-         "Onursuz Ýnançsýz"  ,
-         "Onursuz Ýnançsýz"  ,
-         "Katleden"   ,
+         L"Ã–lÃ¼m Getiren"   ,
+         L"Ã–lÃ¼m Getiren"   ,
+         L"Onursuz Ä°nanÃ§sÄ±z"  ,
+         L"Onursuz Ä°nanÃ§sÄ±z"  ,
+         L"Katleden"   ,
 
-         "Katleden"   ,
-         "Karanlýk Tohum"   ,
-         "Karanlýk Tohum"  ,
-         "Onursuz Þövalye"   ,
-         "Onursuz Þövalye"  ,
+         L"Katleden"   ,
+         L"KaranlÄ±k Tohum"   ,
+         L"KaranlÄ±k Tohum"  ,
+         L"Onursuz ÅžÃ¶valye"   ,
+         L"Onursuz ÅžÃ¶valye"  ,
 
-         "Kahraman"		,
- 	 "Melek"		,
- 	 "Melek"		,
- 	 "Elçi"		,
- 	 "Ölümsüz"		,
- 	"Yüce"		,
- 	"Yüce",
- 	"Yüce",
- 	"Yüce",
- 	 "Tek"	 },
+         L"Kahraman"		,
+ 	 L"Melek"		,
+ 	 L"Melek"		,
+ 	 L"ElÃ§i"		,
+ 	 L"Ã–lÃ¼msÃ¼z"		,
+ 	L"YÃ¼ce"		,
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	 L"Tek"	 },
 
        {
-         "Man"  ,
+         L"Man"  ,
 
-         "Uke"   ,
-         "Tori"   ,
-         "Beyaz Kuþak"  ,
-         "Sarý Kuþak"   ,
-         "Yeþil Kuþak"   ,
+         L"Uke"   ,
+         L"Tori"   ,
+         L"Beyaz KuÅŸak"  ,
+         L"SarÄ± KuÅŸak"   ,
+         L"YeÅŸil KuÅŸak"   ,
 
-         "Kahverengi Üç"   ,
-         "Kahverengi Ýki" ,
-         "Kahverengi Bir"  ,
-         "Siyah Üç"   ,
-         "Siyah Ýki"   ,
+         L"Kahverengi ÃœÃ§"   ,
+         L"Kahverengi Ä°ki" ,
+         L"Kahverengi Bir"  ,
+         L"Siyah ÃœÃ§"   ,
+         L"Siyah Ä°ki"   ,
 
-         "Okuiri"   ,
-         "Okuiri"   ,
-         "Shuto"   ,
-         "Shuto"  ,
-         "Uraken"   ,
+         L"Okuiri"   ,
+         L"Okuiri"   ,
+         L"Shuto"   ,
+         L"Shuto"  ,
+         L"Uraken"   ,
 
-         "Uraken"   ,
-         "Shotei"   ,
-         "Shotei"   ,
-         "Tateken"   ,
-         "Tateken"   ,
+         L"Uraken"   ,
+         L"Shotei"   ,
+         L"Shotei"   ,
+         L"Tateken"   ,
+         L"Tateken"   ,
 
-         "Seiken"   ,
-         "Seiken"   ,
-         "Ude"   ,
-         "Ude"  ,
-         "Empi"  ,
+         L"Seiken"   ,
+         L"Seiken"   ,
+         L"Ude"   ,
+         L"Ude"  ,
+         L"Empi"  ,
 
-         "Empi"   ,
-         "Josokutei"   ,
-         "Josokutei"   ,
-         "Kasokutei"   ,
-         "Kasokutei"  ,
+         L"Empi"   ,
+         L"Josokutei"   ,
+         L"Josokutei"   ,
+         L"Kasokutei"   ,
+         L"Kasokutei"  ,
 
-         "Atemi Waza Ustasý"   ,
-         "Atemi Waza Ustasý"  ,
-         "Kotegaeshi Ustasý"   ,
-         "Kotegaeshi Ustasý"  ,
-         "Kansetsuwaza Ustasý"   ,
+         L"Atemi Waza UstasÄ±"   ,
+         L"Atemi Waza UstasÄ±"  ,
+         L"Kotegaeshi UstasÄ±"   ,
+         L"Kotegaeshi UstasÄ±"  ,
+         L"Kansetsuwaza UstasÄ±"   ,
 
-         "Kansetsuwaza Ustasý"  ,
-         "Taisabaki Ustasý"   ,
-         "Taisabaki Ustasý"  ,
-         "Kyusho Ustasý"   ,
-         "Kyusho Ustasý"  ,
+         L"Kansetsuwaza UstasÄ±"  ,
+         L"Taisabaki UstasÄ±"   ,
+         L"Taisabaki UstasÄ±"  ,
+         L"Kyusho UstasÄ±"   ,
+         L"Kyusho UstasÄ±"  ,
 
-         "Kamae Öðrencisi"  ,
-         "Kamae Öðrencisi"   ,
-         "Kamae Ustasý"  ,
-         "Kamae Ustasý"  ,
-         "Ukemi Ustasý"   ,
+         L"Kamae Ã–ÄŸrencisi"  ,
+         L"Kamae Ã–ÄŸrencisi"   ,
+         L"Kamae UstasÄ±"  ,
+         L"Kamae UstasÄ±"  ,
+         L"Ukemi UstasÄ±"   ,
 
-         "Ukemi Ustasý"  ,
-         "Mokuroku"   ,
-         "Mokuroku"  ,
-         "Ogoshi"  ,
-         "Ogoshi"  ,
+         L"Ukemi UstasÄ±"  ,
+         L"Mokuroku"   ,
+         L"Mokuroku"  ,
+         L"Ogoshi"  ,
+         L"Ogoshi"  ,
 
-         "Ippon Seinage"   ,
-         "Ippon Seinage"  ,
-         "Koshi Garuma"   ,
-         "Koshi Garuma"   ,
-         "Sukuinage"   ,
+         L"Ippon Seinage"   ,
+         L"Ippon Seinage"  ,
+         L"Koshi Garuma"   ,
+         L"Koshi Garuma"   ,
+         L"Sukuinage"   ,
 
-         "Sukuinage"  ,
-         "Osotogari"  ,
-         "Osotogari"   ,
-         "Uki Goshi" ,
-         "Uki Goshi"  ,
+         L"Sukuinage"  ,
+         L"Osotogari"  ,
+         L"Osotogari"   ,
+         L"Uki Goshi" ,
+         L"Uki Goshi"  ,
 
-         "Taiotoshi"   ,
-         "Taiotoshi"   ,
-         "Harai Goshi"   ,
-         "Harai Goshi"   ,
-         "Yama Arashi"   ,
+         L"Taiotoshi"   ,
+         L"Taiotoshi"   ,
+         L"Harai Goshi"   ,
+         L"Harai Goshi"   ,
+         L"Yama Arashi"   ,
 
-         "Yama Arashi"   ,
-         "Nage Waza Ustasý"   ,
-         "Nage Waza Ustasý"   ,
-         "Owazaya Giriþ"  ,
-         "Owazaya Giriþ"   ,
+         L"Yama Arashi"   ,
+         L"Nage Waza UstasÄ±"   ,
+         L"Nage Waza UstasÄ±"   ,
+         L"Owazaya GiriÅŸ"  ,
+         L"Owazaya GiriÅŸ"   ,
 
-         "Owaza Çýraðý" ,
-         "Owaza Çýraðý"   ,
-         "Owaza Öðrencisi"  ,
-         "Owaza Öðrencisi"   ,
-         "Owaza"   ,
+         L"Owaza Ã‡Ä±raÄŸÄ±" ,
+         L"Owaza Ã‡Ä±raÄŸÄ±"   ,
+         L"Owaza Ã–ÄŸrencisi"  ,
+         L"Owaza Ã–ÄŸrencisi"   ,
+         L"Owaza"   ,
 
-         "Owaza"   ,
-         "Owaza Ustasý"  ,
-         "Owaza Ustasý"  ,
-         "Menkyo"  ,
-         "Menkyo"   ,
+         L"Owaza"   ,
+         L"Owaza UstasÄ±"  ,
+         L"Owaza UstasÄ±"  ,
+         L"Menkyo"  ,
+         L"Menkyo"   ,
 
-         "Sensei"   ,
-         "Sensei"  ,
-         "Shinan"   ,
-         "Shinan"   ,
-         "Shihan"   ,
+         L"Sensei"   ,
+         L"Sensei"  ,
+         L"Shinan"   ,
+         L"Shinan"   ,
+         L"Shihan"   ,
 
-         "Shihan"   ,
-         "Kaiden"   ,
-         "Kaiden"   ,
-         "Miyama Ryu Ustasý"  ,
-         "Miyama Ryu Ustasý" ,
+         L"Shihan"   ,
+         L"Kaiden"   ,
+         L"Kaiden"   ,
+         L"Miyama Ryu UstasÄ±"  ,
+         L"Miyama Ryu UstasÄ±" ,
 
-         "Kahraman"		,
- 	 "Melek"		,
- 	 "Melek"		,
- 	 "Elçi"		,
- 	 "Ölümsüz"		,
- 	"Yüce"		,
- 	"Yüce",
- 	"Yüce",
- 	"Yüce",
- 	 "Tek"
+         L"Kahraman"		,
+ 	 L"Melek"		,
+ 	 L"Melek"		,
+ 	 L"ElÃ§i"		,
+ 	 L"Ã–lÃ¼msÃ¼z"		,
+ 	L"YÃ¼ce"		,
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	 L"Tek"
       },
       {
 
-         "Man"	 ,
+         L"Man"	 ,
 
-         "Yavru Kurt"   ,
-         "Yavru Kurt"   ,
-         "Ýzci"   ,
-         "Ýzci"   ,
-         "Korucu"  ,
+         L"Yavru Kurt"   ,
+         L"Yavru Kurt"   ,
+         L"Ä°zci"   ,
+         L"Ä°zci"   ,
+         L"Korucu"  ,
 
-         "Korucu"   ,
-         "Tuzakçý"  ,
-         "Tuzakçý"  ,
-         "Avcý"  ,
-         "Avcý"			 			 ,
+         L"Korucu"   ,
+         L"TuzakÃ§Ä±"  ,
+         L"TuzakÃ§Ä±"  ,
+         L"AvcÄ±"  ,
+         L"AvcÄ±"			 			 ,
 
-         "Ýz Sürücü"   ,
-         "Ýz Sürücü"  ,
-         "Öncü" ,
-         "Öncü"  ,
-         "Yeþil Adam"   ,
+         L"Ä°z SÃ¼rÃ¼cÃ¼"   ,
+         L"Ä°z SÃ¼rÃ¼cÃ¼"  ,
+         L"Ã–ncÃ¼" ,
+         L"Ã–ncÃ¼"  ,
+         L"YeÅŸil Adam"   ,
 
-         "Yeþil Adam"  ,
-         "Okçu"   ,
-         "Okçu"   ,
-         "Aðaç Adam"   ,
-         "Aðaç Adam"  ,
+         L"YeÅŸil Adam"  ,
+         L"OkÃ§u"   ,
+         L"OkÃ§u"   ,
+         L"AÄŸaÃ§ Adam"   ,
+         L"AÄŸaÃ§ Adam"  ,
 
-         "Aðaç Ustasý"  ,
-         "Aðaç Ustasý"  ,
-         "Kolcu Çýrak"  ,
-         "Kolcu Çýrak"  ,
-         "Kolcu Adayý"   ,
+         L"AÄŸaÃ§ UstasÄ±"  ,
+         L"AÄŸaÃ§ UstasÄ±"  ,
+         L"Kolcu Ã‡Ä±rak"  ,
+         L"Kolcu Ã‡Ä±rak"  ,
+         L"Kolcu AdayÄ±"   ,
 
-         "Kolcu Adayý"   ,
-         "Kolcu Kalfasý"   ,
-         "Kolcu Kalfasý"  ,
-         "Kolcu"   ,
-         "Kolcu"   ,
+         L"Kolcu AdayÄ±"   ,
+         L"Kolcu KalfasÄ±"   ,
+         L"Kolcu KalfasÄ±"  ,
+         L"Kolcu"   ,
+         L"Kolcu"   ,
 
-         "Kolcu"  ,
-         "Kolcu"  ,
-         "Kolcu"  ,
-         "Kolcu"   ,
-         "Kolcu"   ,
+         L"Kolcu"  ,
+         L"Kolcu"  ,
+         L"Kolcu"  ,
+         L"Kolcu"   ,
+         L"Kolcu"   ,
 
-         "Kolcu"  ,
-         "Kolcu Yüzbaþý"  ,
-         "Kolcu Yüzbaþý"   ,
-         "Büyük Korucu"  ,
-         "Büyük Korucu"  ,
+         L"Kolcu"  ,
+         L"Kolcu YÃ¼zbaÅŸÄ±"  ,
+         L"Kolcu YÃ¼zbaÅŸÄ±"   ,
+         L"BÃ¼yÃ¼k Korucu"  ,
+         L"BÃ¼yÃ¼k Korucu"  ,
 
-         "Korucu Yüzbaþý" ,
-         "Korucu Yüzbaþý"   ,
-         "Korucu General"   ,
-         "Korucu General"   ,
-         "Korucularýn Efendisi"   ,
+         L"Korucu YÃ¼zbaÅŸÄ±" ,
+         L"Korucu YÃ¼zbaÅŸÄ±"   ,
+         L"Korucu General"   ,
+         L"Korucu General"   ,
+         L"KorucularÄ±n Efendisi"   ,
 
-         "Korucularýn Efendisi"   ,
-         "Ormanýn Þövalyesi"   ,
-         "Ormanýn Þövalyesi" ,
-         "Ormanýn Kýlýcý"  ,
-         "Ormanýn Kýlýcý"   ,
+         L"KorucularÄ±n Efendisi"   ,
+         L"OrmanÄ±n ÅžÃ¶valyesi"   ,
+         L"OrmanÄ±n ÅžÃ¶valyesi" ,
+         L"OrmanÄ±n KÄ±lÄ±cÄ±"  ,
+         L"OrmanÄ±n KÄ±lÄ±cÄ±"   ,
 
-         "Orman Gardý"   ,
-         "Orman Gardý"  ,
-         "Orman Lordu"   ,
-         "Orman Lordu"  ,
-         "Orman Lordu"   ,
+         L"Orman GardÄ±"   ,
+         L"Orman GardÄ±"  ,
+         L"Orman Lordu"   ,
+         L"Orman Lordu"  ,
+         L"Orman Lordu"   ,
 
-         "Orman Lordu"   ,
-         "Orman Baronu"   ,
-         "Orman Baronu"  ,
-         "Ormanlarýn Baronu"  ,
-         "Ormanlarýn Baronu"  ,
+         L"Orman Lordu"   ,
+         L"Orman Baronu"   ,
+         L"Orman Baronu"  ,
+         L"OrmanlarÄ±n Baronu"  ,
+         L"OrmanlarÄ±n Baronu"  ,
 
-         "Avlayan"  ,
-         "Avlayan"  ,
- 	"Sakýnan" ,
- 	"Sakýnan" ,
- 	"Koruyan" ,
+         L"Avlayan"  ,
+         L"Avlayan"  ,
+ 	L"SakÄ±nan" ,
+ 	L"SakÄ±nan" ,
+ 	L"Koruyan" ,
 
- 	"Koruyan",
-         "Kolcu Þövalye"   ,
-         "Kolcu Þövalye" ,
-         "Kolcu Þövalye"   ,
-         "Kolcu Þövalye"  ,
+ 	L"Koruyan",
+         L"Kolcu ÅžÃ¶valye"   ,
+         L"Kolcu ÅžÃ¶valye" ,
+         L"Kolcu ÅžÃ¶valye"   ,
+         L"Kolcu ÅžÃ¶valye"  ,
 
-         "Kolcu Lord"   ,
-         "Kolcu Lord"  ,
-         "Kolcu Lord"  ,
-         "Kolcu Lord"  ,
-         "Kolcu Baron"   ,
+         L"Kolcu Lord"   ,
+         L"Kolcu Lord"  ,
+         L"Kolcu Lord"  ,
+         L"Kolcu Lord"  ,
+         L"Kolcu Baron"   ,
 
-         "Kolcu Baron"  ,
-         "Kolcu Baron"   ,
-         "Kolcu Baron"   ,
- 	"Gezgin" ,
- 	"Gezgin" ,
+         L"Kolcu Baron"  ,
+         L"Kolcu Baron"   ,
+         L"Kolcu Baron"   ,
+ 	L"Gezgin" ,
+ 	L"Gezgin" ,
 
-         "Selvan",
- 	"Selvan" ,
-         "Ormanlarýn Sesi"  ,
-         "Ormanlarýn Sesi"   ,
- 	"Ormanlarýn Sesi"   ,
+         L"Selvan",
+ 	L"Selvan" ,
+         L"OrmanlarÄ±n Sesi"  ,
+         L"OrmanlarÄ±n Sesi"   ,
+ 	L"OrmanlarÄ±n Sesi"   ,
 
-         "Ýzleyen"   ,
-         "Ýzleyen"   ,
- 	"Ýzleyen"
- 	"Ýzleyen"
- 	"Ýzleyen"
+         L"Ä°zleyen"   ,
+         L"Ä°zleyen"   ,
+ 	L"Ä°zleyen"
+ 	L"Ä°zleyen"
+ 	L"Ä°zleyen"
 
-         "Kahraman"		,
- 	 "Melek"		,
- 	 "Melek"		,
- 	 "Elçi"		,
- 	 "Ölümsüz"		,
- 	"Yüce"		,
- 	"Yüce",
- 	"Yüce",
- 	"Yüce",
- 	 "Tek"
+         L"Kahraman"		,
+ 	 L"Melek"		,
+ 	 L"Melek"		,
+ 	 L"ElÃ§i"		,
+ 	 L"Ã–lÃ¼msÃ¼z"		,
+ 	L"YÃ¼ce"		,
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	 L"Tek"
       },
        {
-         "Man" ,
+         L"Man" ,
 
-         "Büyü Çýraðý"		 ,
-         "Büyü Öðrencisi"	 ,
-         "Büyü Asistaný"	 ,
-         "Büyü Araþtýran"		 ,
-         "Sihirbaz"	 ,
+         L"BÃ¼yÃ¼ Ã‡Ä±raÄŸÄ±"		 ,
+         L"BÃ¼yÃ¼ Ã–ÄŸrencisi"	 ,
+         L"BÃ¼yÃ¼ AsistanÄ±"	 ,
+         L"BÃ¼yÃ¼ AraÅŸtÄ±ran"		 ,
+         L"Sihirbaz"	 ,
 
-         "Büyü Katibi"	 ,
-         "Falcý"		 ,
-         "Arif"		 ,
-         "Ýlüzyonist"		 ,
-         "Tövbekar"		 ,
+         L"BÃ¼yÃ¼ Katibi"	 ,
+         L"FalcÄ±"		 ,
+         L"Arif"		 ,
+         L"Ä°lÃ¼zyonist"		 ,
+         L"TÃ¶vbekar"		 ,
 
-         "Duacý"		 ,
-         "Duacý"		 ,
-         "Büyü Yapan"		 ,
-         "Büyü Yapan"		 ,
-         "Hokkabaz"		 ,
+         L"DuacÄ±"		 ,
+         L"DuacÄ±"		 ,
+         L"BÃ¼yÃ¼ Yapan"		 ,
+         L"BÃ¼yÃ¼ Yapan"		 ,
+         L"Hokkabaz"		 ,
 
-         "Hokkabaz" ,
-         "Büyücü"	 ,
-         "Büyücü"	 ,
- 	"Oluþturan" ,
- 	"Oluþturan" ,
+         L"Hokkabaz" ,
+         L"BÃ¼yÃ¼cÃ¼"	 ,
+         L"BÃ¼yÃ¼cÃ¼"	 ,
+ 	L"OluÅŸturan" ,
+ 	L"OluÅŸturan" ,
 
-         "Alim"		 ,
-         "Alim"		 ,
-         "Büyü Ustasý"			 ,
-         "Büyü Ustasý"			 ,
-         "Büyü Alimi"		 ,
+         L"Alim"		 ,
+         L"Alim"		 ,
+         L"BÃ¼yÃ¼ UstasÄ±"			 ,
+         L"BÃ¼yÃ¼ UstasÄ±"			 ,
+         L"BÃ¼yÃ¼ Alimi"		 ,
 
-         "Büyü Alimi"		 ,
-         "Savaþçý Arif"		 ,
-         "Savaþçý Arif"		 ,
-         "Durendiþ"	 ,
-         "Durendiþ"	 ,
+         L"BÃ¼yÃ¼ Alimi"		 ,
+         L"SavaÅŸÃ§Ä± Arif"		 ,
+         L"SavaÅŸÃ§Ä± Arif"		 ,
+         L"DurendiÅŸ"	 ,
+         L"DurendiÅŸ"	 ,
 
-         "Kýdemli Büyücü"		 ,
-         "Kýdemli Büyücü"		 ,
-         "Büyük Büyücü"		 ,
-         "Büyük Büyücü"	 ,
-         "Yüce Büyücü"		 ,
+         L"KÄ±demli BÃ¼yÃ¼cÃ¼"		 ,
+         L"KÄ±demli BÃ¼yÃ¼cÃ¼"		 ,
+         L"BÃ¼yÃ¼k BÃ¼yÃ¼cÃ¼"		 ,
+         L"BÃ¼yÃ¼k BÃ¼yÃ¼cÃ¼"	 ,
+         L"YÃ¼ce BÃ¼yÃ¼cÃ¼"		 ,
 
-         "Yüce Büyücü"	 ,
-         "Golem Efendisi"		 ,
-         "Golem Efendisi"	 ,
-         "Yüce Golem Efendisi"		 ,
-         "Yüce Golem Efendisi"	 ,
+         L"YÃ¼ce BÃ¼yÃ¼cÃ¼"	 ,
+         L"Golem Efendisi"		 ,
+         L"Golem Efendisi"	 ,
+         L"YÃ¼ce Golem Efendisi"		 ,
+         L"YÃ¼ce Golem Efendisi"	 ,
 
- 	  "Taþ Efendisi"	 ,
- 	  "Taþ Efendisi"	 ,
- 	  "Ýksir Ustasý"	 ,
- 	  "Ýksir Ustasý"	 ,
- 	  "Parþömen Ustasý"	 ,
+ 	  L"TaÅŸ Efendisi"	 ,
+ 	  L"TaÅŸ Efendisi"	 ,
+ 	  L"Ä°ksir UstasÄ±"	 ,
+ 	  L"Ä°ksir UstasÄ±"	 ,
+ 	  L"ParÅŸÃ¶men UstasÄ±"	 ,
 
- 	  "Parþömen Ustasý"	 ,
- 	  "Deðnek Ustasý"	 ,
- 	  "Deðnek Ustasý"		 ,
- 	  "Deðnek Ustasý"	 ,
- 	  "Deðnek Ustasý"		 ,
+ 	  L"ParÅŸÃ¶men UstasÄ±"	 ,
+ 	  L"DeÄŸnek UstasÄ±"	 ,
+ 	  L"DeÄŸnek UstasÄ±"		 ,
+ 	  L"DeÄŸnek UstasÄ±"	 ,
+ 	  L"DeÄŸnek UstasÄ±" ,
 
- 	  "Ýblis Çaðýran"	 ,
- 	  "Ýblis Çaðýran"		 ,
- 	  "Yüce Ýblis Çaðýran"	 ,
- 	  "Yüce Ýblis Çaðýran" ,
- 	  "Ejderha Efendisi"		 ,
+         L"Ä°blis Ã‡aÄŸÄ±ran"	 ,
+ 	  L"Ä°blis Ã‡aÄŸÄ±ran"		 ,
+ 	  L"YÃ¼ce Ä°blis Ã‡aÄŸÄ±ran"	 ,
+ 	  L"YÃ¼ce Ä°blis Ã‡aÄŸÄ±ran" ,
+ 	  L"Ejderha Efendisi" ,
 
- 	  "Ejderha Efendisi"		 ,
- 	  "Ejderha Efendisi"	 ,
- 	  "Ejderha Efendisi" ,
-         "Karýþým Efendisi" ,
-         "Karýþým Efendisi" ,
+         L"Ejderha Efendisi"		 ,
+ 	  L"Ejderha Efendisi"	 ,
+ 	  L"Ejderha Efendisi" ,
+         L"KarÄ±ÅŸÄ±m Efendisi" ,
+         L"KarÄ±ÅŸÄ±m Efendisi" ,
 
-         "Büyülerin Efendisi" ,
-         "Büyülerin Efendisi" ,
-         "Büyüleme Efendisi" ,
-         "Büyüleme Efendisi" ,
-         "Çaðrý Ustasý" ,
+         L"BÃ¼yÃ¼lerin Efendisi" ,
+         L"BÃ¼yÃ¼lerin Efendisi" ,
+         L"BÃ¼yÃ¼leme Efendisi" ,
+         L"BÃ¼yÃ¼leme Efendisi" ,
+         L"Ã‡aÄŸrÄ± UstasÄ±" ,
 
-         "Çaðrý Ustasý" ,
-         "Büyük Kahin" ,
-         "Büyük Kahin" ,
-         "Deðiþim Ustasý" ,
-         "Deðiþim Ustasý" ,
+         L"Ã‡aÄŸrÄ± UstasÄ±" ,
+         L"BÃ¼yÃ¼k Kahin" ,
+         L"BÃ¼yÃ¼k Kahin" ,
+         L"DeÄŸiÅŸim UstasÄ±" ,
+         L"DeÄŸiÅŸim UstasÄ±" ,
 
-         "Fiþek Efendisi" ,
-         "Fiþek Efendisi" ,
-         "Ölülerin Efendisi" ,
-         "Ölülerin Efendisi" ,
-         "Simyacý" ,
+         L"FiÅŸek Efendisi" ,
+         L"FiÅŸek Efendisi" ,
+         L"Ã–lÃ¼lerin Efendisi" ,
+         L"Ã–lÃ¼lerin Efendisi" ,
+         L"SimyacÄ±" ,
 
-         "Simyacý" ,
-         "Bað Ustasý" ,
-         "Bað Ustasý" ,
-         "Söz Efendisi" ,
-         "Söz Efendisi" ,
+         L"SimyacÄ±" ,
+         L"BaÄŸ UstasÄ±" ,
+         L"BaÄŸ UstasÄ±" ,
+         L"SÃ¶z Efendisi" ,
+         L"SÃ¶z Efendisi" ,
 
-         "Geçmiþe hükmeden" ,
-         "Geçmiþe hükmeden" ,
-         "Bugüne hükmeden" ,
-         "Bugüne hükmeden" ,
-         "Geleceðe hükmeden" ,
+         L"GeÃ§miÅŸe hÃ¼kmeden" ,
+         L"GeÃ§miÅŸe hÃ¼kmeden" ,
+         L"BugÃ¼ne hÃ¼kmeden" ,
+         L"BugÃ¼ne hÃ¼kmeden" ,
+         L"GeleceÄŸe hÃ¼kmeden" ,
 
-         "Geleceðe hükmeden" ,
-         "Baþ Büyücü" ,
-         "Baþ Büyücü" ,
-         "Bilinmeyen" ,
-         "Bilinmeyen" ,
+         L"GeleceÄŸe hÃ¼kmeden" ,
+         L"BaÅŸ BÃ¼yÃ¼cÃ¼" ,
+         L"BaÅŸ BÃ¼yÃ¼cÃ¼" ,
+         L"Bilinmeyen" ,
+         L"Bilinmeyen" ,
 
- 	  "Kahraman"		,
- 	 "Melek"		,
- 	 "Melek"		,
- 	 "Elçi"		,
- 	 "Ölümsüz"		,
- 	"Yüce"		,
- 	"Yüce",
- 	"Yüce",
- 	"Yüce",
- 	 "Tek"
+ 	  L"Kahraman"		,
+ 	 L"Melek"		,
+ 	 L"Melek"		,
+ 	 L"ElÃ§i"		,
+ 	 L"Ã–lÃ¼msÃ¼z"		,
+ 	L"YÃ¼ce"		,
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	 L"Tek"
       },
       {
 
-           "Man"		 ,
+           L"Man" ,
 
- 	  "Acemi"	 ,
- 	  "Çaylak"	 ,
- 	  "Nöbetçi" ,
- 	  "Dövüþçü" ,
- 	  "Asker"		 ,
+         L"Acemi"	 ,
+ 	  L"Ã‡aylak"	 ,
+ 	  L"NÃ¶betÃ§i" ,
+ 	  L"DÃ¶vÃ¼ÅŸÃ§Ã¼" ,
+ 	  L"Asker" ,
 
- 	  "Savaþan"	 ,
- 	  "Kýdemli"		 ,
- 	  "Kýlýç Çeken"	 ,
- 	  "Eskrimci"	 ,
- 	  "Savaþçý"		 ,
+         L"SavaÅŸan"	 ,
+ 	  L"KÄ±demli"		 ,
+ 	  L"KÄ±lÄ±Ã§ Ã‡eken"	 ,
+ 	  L"Eskrimci"	 ,
+ 	  L"SavaÅŸÃ§Ä±" ,
 
- 	  "Kahraman"	 ,
- 	  "Kahraman"	 ,
- 	  "Þanlý"	 ,
- 	  "Þanlý"	 ,
- 	  "Gri Kalkan"	 ,
+         L"Kahraman"	 ,
+ 	  L"Kahraman"	 ,
+ 	  L"ÅžanlÄ±"	 ,
+ 	  L"ÅžanlÄ±"	 ,
+ 	  L"Gri Kalkan"	 ,
 
- 	  "Gri Kalkan"		 ,
- 	  "Paralý Asker"		 ,
- 	  "Paralý Asker"		 ,
- 	  "Kýlýç Ustasý"	 ,
- 	  "Kýlýç Ustasý"	 ,
+ 	  L"Gri Kalkan"		 ,
+ 	  L"ParalÄ± Asker"		 ,
+ 	  L"ParalÄ± Asker"		 ,
+ 	  L"KÄ±lÄ±Ã§ UstasÄ±"	 ,
+ 	  L"KÄ±lÄ±Ã§ UstasÄ±"	 ,
 
- 	  "Teðmen"		 ,
- 	  "Teðmen"		 ,
- 	  "Savunan"	 ,
- 	  "Savunan"	 ,
- 	  "Dragon"		 ,
+ 	  L"TeÄŸmen"		 ,
+ 	  L"TeÄŸmen"		 ,
+ 	  L"Savunan"	 ,
+ 	  L"Savunan"	 ,
+ 	  L"Dragon" ,
 
- 	  "Dragon"			 ,
- 	  "Saygýsýz"		 ,
- 	  "Saygýsýz"	 ,
- 	  "Þövalye"		 ,
- 	  "Þövalye"	 ,
+         L"Dragon"			 ,
+ 	  L"SaygÄ±sÄ±z"		 ,
+ 	  L"SaygÄ±sÄ±z"	 ,
+ 	  L"ÅžÃ¶valye"		 ,
+ 	  L"ÅžÃ¶valye"	 ,
 
- 	  "Büyük Þövalye"				 ,
- 	  "Büyük Þövalye"				 ,
- 	  "Efendi Þövalye"					 ,
- 	  "Efendi Þövalye"				 ,
- 	  "Gladyatör"					 ,
+ 	  L"BÃ¼yÃ¼k ÅžÃ¶valye"				 ,
+ 	  L"BÃ¼yÃ¼k ÅžÃ¶valye"				 ,
+ 	  L"Efendi ÅžÃ¶valye"					 ,
+ 	  L"Efendi ÅžÃ¶valye"				 ,
+ 	  L"GladyatÃ¶r"					 ,
 
- 	  "Gladyatör"				 ,
- 	  "Efendi Gladyatör"				 ,
- 	  "Efendi Gladyatör"			 ,
- 	  "Ýblis Katleden"					 ,
- 	  "Ýblis Katleden"				 ,
+ 	  L"GladyatÃ¶r"				 ,
+ 	  L"Efendi GladyatÃ¶r"				 ,
+ 	  L"Efendi GladyatÃ¶r"			 ,
+ 	  L"Ä°blis Katleden"					 ,
+ 	  L"Ä°blis Katleden"				 ,
 
- 	  "Büyük Ýblis Katleden"		 ,
- 	  "Büyük Ýblis Katleden"			 ,
- 	  "Ejder Katili"				 ,
- 	  "Ejder Katili"				 ,
- 	  "Büyük Ejder Katili"		 ,
+ 	  L"BÃ¼yÃ¼k Ä°blis Katleden"		 ,
+ 	  L"BÃ¼yÃ¼k Ä°blis Katleden"			 ,
+ 	  L"Ejder Katili"				 ,
+ 	  L"Ejder Katili"				 ,
+ 	  L"BÃ¼yÃ¼k Ejder Katili" ,
 
- 	  "Büyük Ejder Katili"		 ,
- 	  "Lord"						 ,
- 	  "Lord"				 ,
- 	  "Efendi"						 ,
- 	  "Efendi"						 ,
+         L"BÃ¼yÃ¼k Ejder Katili"		 ,
+ 	  L"Lord"						 ,
+ 	  L"Lord"				 ,
+ 	  L"Efendi"						 ,
+ 	  L"Efendi"						 ,
 
- 	  "Baron"			 ,
- 	  "Baron"		 ,
- 	  "Rüzgar Baron"			 ,
- 	  "Rüzgar Baron"				 ,
- 	  "Fýrtýna Baron"			 ,
+ 	  L"Baron"			 ,
+ 	  L"Baron"		 ,
+ 	  L"RÃ¼zgar Baron"			 ,
+ 	  L"RÃ¼zgar Baron"				 ,
+ 	  L"FÄ±rtÄ±na Baron"			 ,
 
- 	  "Fýrtýna Baron"			 ,
- 	  "Kasýrga Baron"		 ,
- 	  "Kasýrga Baron"		 ,
- 	  "Kudretli Baron"  ,
- 	  "Kudretli Baron" ,
+ 	  L"FÄ±rtÄ±na Baron"			 ,
+ 	  L"KasÄ±rga Baron"		 ,
+ 	  L"KasÄ±rga Baron"		 ,
+ 	  L"Kudretli Baron"  ,
+ 	  L"Kudretli Baron" ,
 
- 	  "Ateþ Baron"   ,
- 	  "Ateþ Baron"   ,
- 	  "Buz Baron"   ,
- 	  "Buz Baron"   ,
- 	  "Þimþek Baron"  ,
+ 	  L"AteÅŸ Baron"   ,
+ 	  L"AteÅŸ Baron"   ,
+ 	  L"Buz Baron"   ,
+ 	  L"Buz Baron"   ,
+ 	  L"ÅžimÅŸek Baron"  ,
 
- 	  "Þimþek Baron"  ,
- 	  "Elementlerin Efendisi"   ,
- 	  "Elementlerin Efendisi"   ,
- 	  "Bakýr Efendi"   ,
- 	  "Bakýr Efendi"  ,
+ 	  L"ÅžimÅŸek Baron"  ,
+ 	  L"Elementlerin Efendisi"   ,
+ 	  L"Elementlerin Efendisi"   ,
+ 	  L"BakÄ±r Efendi"   ,
+ 	  L"BakÄ±r Efendi"  ,
 
- 	  "Bronz Efendi"  ,
- 	  "Bronz Efendi"   ,
- 	  "Pirinç Efendi"  ,
- 	  "Pirinç Efendi"   ,
- 	  "Demir Efendi"   ,
+ 	  L"Bronz Efendi"  ,
+ 	  L"Bronz Efendi"   ,
+ 	  L"PirinÃ§ Efendi"  ,
+ 	  L"PirinÃ§ Efendi"   ,
+ 	  L"Demir Efendi"   ,
 
- 	  "Demir Efendi"   ,
- 	  "Çelik Efendi"  ,
- 	  "Çelik Efendi"   ,
- 	  "Mitril Efendi"   ,
- 	  "Mitril Efendi"  ,
+ 	  L"Demir Efendi"   ,
+ 	  L"Ã‡elik Efendi"  ,
+ 	  L"Ã‡elik Efendi"   ,
+ 	  L"Mitril Efendi"   ,
+ 	  L"Mitril Efendi"  ,
 
- 	  "Adamantit Efendi"   ,
- 	  "Adamantit Efendi"  ,
- 	  "Yüzbaþý"   ,
- 	  "Yüzbaþý"  ,
- 	  "General"   ,
+ 	  L"Adamantit Efendi"   ,
+ 	  L"Adamantit Efendi"  ,
+ 	  L"YÃ¼zbaÅŸÄ±"   ,
+ 	  L"YÃ¼zbaÅŸÄ±"  ,
+ 	  L"General"   ,
 
- 	  "General"  ,
- 	  "Kara Mareþali"  ,
- 	  "Kara Mareþali"  ,
- 	  "Savaþ Ustasý"   ,
- 	  "Savaþ Ustasý"  ,
+ 	  L"General"  ,
+ 	  L"Kara MareÅŸali"  ,
+ 	  L"Kara MareÅŸali"  ,
+ 	  L"SavaÅŸ UstasÄ±"   ,
+ 	  L"SavaÅŸ UstasÄ±"  ,
 
- 	  "Kahraman"		,
- 	 "Melek"		,
- 	 "Melek"		,
- 	 "Elçi"		,
- 	 "Ölümsüz"		,
- 	"Yüce"		,
- 	"Yüce",
- 	"Yüce",
- 	"Yüce",
- 	 "Tek"
+ 	  L"Kahraman"		,
+ 	 L"Melek"		,
+ 	 L"Melek"		,
+ 	 L"ElÃ§i"		,
+ 	 L"Ã–lÃ¼msÃ¼z"		,
+ 	L"YÃ¼ce"		,
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	 L"Tek"
       },
        {
-         "Man" ,
+         L"Man" ,
 
-         "Büyü Çýraðý"		 ,
-         "Büyü Öðrencisi"	 ,
-         "Büyü Asistaný"	 ,
-         "Büyü Araþtýran"		 ,
-         "Sihirbaz"	 ,
+         L"BÃ¼yÃ¼ Ã‡Ä±raÄŸÄ±"		 ,
+         L"BÃ¼yÃ¼ Ã–ÄŸrencisi"	 ,
+         L"BÃ¼yÃ¼ AsistanÄ±"	 ,
+         L"BÃ¼yÃ¼ AraÅŸtÄ±ran"		 ,
+         L"Sihirbaz"	 ,
 
-         "Büyü Katibi"	 ,
-         "Falcý"		 ,
-         "Arif"		 ,
-         "Ýlüzyonist"		 ,
-         "Tövbekar"		 ,
+         L"BÃ¼yÃ¼ Katibi"	 ,
+         L"FalcÄ±"		 ,
+         L"Arif"		 ,
+         L"Ä°lÃ¼zyonist"		 ,
+         L"TÃ¶vbekar"		 ,
 
-         "Duacý"		 ,
-         "Duacý"		 ,
-         "Büyü Yapan"		 ,
-         "Büyü Yapan"		 ,
-         "Hokkabaz"		 ,
+         L"DuacÄ±"		 ,
+         L"DuacÄ±"		 ,
+         L"BÃ¼yÃ¼ Yapan"		 ,
+         L"BÃ¼yÃ¼ Yapan"		 ,
+         L"Hokkabaz"		 ,
 
-         "Hokkabaz"		 ,
-         "Büyücü"		 ,
-         "Büyücü"		 ,
- 	"Oluþturan"    ,
- 	"Oluþturan" ,
+         L"Hokkabaz"		 ,
+         L"BÃ¼yÃ¼cÃ¼"		 ,
+         L"BÃ¼yÃ¼cÃ¼"		 ,
+ 	L"OluÅŸturan"    ,
+ 	L"OluÅŸturan" ,
 
-         "Alim"	 ,
-         "Alim"	 ,
-         "Büyü Ustasý"		 ,
-         "Büyü Ustasý"		 ,
-         "Büyü Alimi"	 ,
+         L"Alim"	 ,
+         L"Alim"	 ,
+         L"BÃ¼yÃ¼ UstasÄ±"		 ,
+         L"BÃ¼yÃ¼ UstasÄ±"		 ,
+         L"BÃ¼yÃ¼ Alimi"	 ,
 
-         "Büyü Alimi"		 ,
-         "Savaþçý Arif"		 ,
-         "Savaþçý Arif"		 ,
-         "Durendiþ"	 ,
-         "Durendiþ"	 ,
+         L"BÃ¼yÃ¼ Alimi"		 ,
+         L"SavaÅŸÃ§Ä± Arif"		 ,
+         L"SavaÅŸÃ§Ä± Arif"		 ,
+         L"DurendiÅŸ"	 ,
+         L"DurendiÅŸ"	 ,
 
-         "Kýdemli Büyücü"		 ,
-         "Kýdemli Büyücü"		 ,
-         "Büyük Büyücü"		 ,
-         "Büyük Büyücü"	 ,
-         "Yüce Büyücü"		 ,
+         L"KÄ±demli BÃ¼yÃ¼cÃ¼"		 ,
+         L"KÄ±demli BÃ¼yÃ¼cÃ¼"		 ,
+         L"BÃ¼yÃ¼k BÃ¼yÃ¼cÃ¼"		 ,
+         L"BÃ¼yÃ¼k BÃ¼yÃ¼cÃ¼"	 ,
+         L"YÃ¼ce BÃ¼yÃ¼cÃ¼"		 ,
 
-         "Yüce Büyücü"	 ,
-         "Golem Efendisi"		 ,
-         "Golem Efendisi"	 ,
-         "Yüce Golem Efendisi"		 ,
-         "Yüce Golem Efendisi"	 ,
+         L"YÃ¼ce BÃ¼yÃ¼cÃ¼"	 ,
+         L"Golem Efendisi"		 ,
+         L"Golem Efendisi"	 ,
+         L"YÃ¼ce Golem Efendisi"		 ,
+         L"YÃ¼ce Golem Efendisi"	 ,
 
- 	  "Taþ Efendisi"	 ,
- 	  "Taþ Efendisi"	 ,
- 	  "Ýksir Ustasý"	 ,
- 	  "Ýksir Ustasý"	 ,
- 	  "Parþömen Ustasý"	 ,
+ 	  L"TaÅŸ Efendisi"	 ,
+ 	  L"TaÅŸ Efendisi"	 ,
+ 	  L"Ä°ksir UstasÄ±"	 ,
+ 	  L"Ä°ksir UstasÄ±"	 ,
+ 	  L"ParÅŸÃ¶men UstasÄ±"	 ,
 
- 	  "Parþömen Ustasý"	 ,
- 	  "Deðnek Ustasý"	 ,
- 	  "Deðnek Ustasý"		 ,
- 	  "Deðnek Ustasý"	 ,
- 	  "Deðnek Ustasý"		 ,
+ 	  L"ParÅŸÃ¶men UstasÄ±"	 ,
+ 	  L"DeÄŸnek UstasÄ±"	 ,
+ 	  L"DeÄŸnek UstasÄ±"		 ,
+ 	  L"DeÄŸnek UstasÄ±"	 ,
+ 	  L"DeÄŸnek UstasÄ±" ,
 
- 	  "Ýblis Çaðýran"	 ,
- 	  "Ýblis Çaðýran"		 ,
- 	  "Yüce Ýblis Çaðýran"	 ,
- 	  "Yüce Ýblis Çaðýran" ,
- 	  "Ejderha Efendisi"		 ,
+         L"Ä°blis Ã‡aÄŸÄ±ran"	 ,
+ 	  L"Ä°blis Ã‡aÄŸÄ±ran"		 ,
+ 	  L"YÃ¼ce Ä°blis Ã‡aÄŸÄ±ran"	 ,
+ 	  L"YÃ¼ce Ä°blis Ã‡aÄŸÄ±ran" ,
+ 	  L"Ejderha Efendisi" ,
 
- 	  "Ejderha Efendisi"		 ,
- 	  "Ejderha Efendisi"	 ,
- 	  "Ejderha Efendisi" ,
-         "Karýþým Efendisi" ,
-         "Karýþým Efendisi" ,
+         L"Ejderha Efendisi"		 ,
+ 	  L"Ejderha Efendisi"	 ,
+ 	  L"Ejderha Efendisi" ,
+         L"KarÄ±ÅŸÄ±m Efendisi" ,
+         L"KarÄ±ÅŸÄ±m Efendisi" ,
 
-         "Büyülerin Efendisi" ,
-         "Büyülerin Efendisi" ,
-         "Büyüleme Efendisi" ,
-         "Büyüleme Efendisi" ,
-         "Çaðrý Ustasý" ,
+         L"BÃ¼yÃ¼lerin Efendisi" ,
+         L"BÃ¼yÃ¼lerin Efendisi" ,
+         L"BÃ¼yÃ¼leme Efendisi" ,
+         L"BÃ¼yÃ¼leme Efendisi" ,
+         L"Ã‡aÄŸrÄ± UstasÄ±" ,
 
-         "Çaðrý Ustasý" ,
-         "Büyük Kahin" ,
-         "Büyük Kahin" ,
-         "Deðiþim Ustasý" ,
-         "Deðiþim Ustasý" ,
+         L"Ã‡aÄŸrÄ± UstasÄ±" ,
+         L"BÃ¼yÃ¼k Kahin" ,
+         L"BÃ¼yÃ¼k Kahin" ,
+         L"DeÄŸiÅŸim UstasÄ±" ,
+         L"DeÄŸiÅŸim UstasÄ±" ,
 
-         "Fiþek Efendisi" ,
-         "Fiþek Efendisi" ,
-         "Ölülerin Efendisi" ,
-         "Ölülerin Efendisi" ,
-         "Simyacý" ,
+         L"FiÅŸek Efendisi" ,
+         L"FiÅŸek Efendisi" ,
+         L"Ã–lÃ¼lerin Efendisi" ,
+         L"Ã–lÃ¼lerin Efendisi" ,
+         L"SimyacÄ±" ,
 
-         "Simyacý" ,
-         "Bað Ustasý" ,
-         "Bað Ustasý" ,
-         "Söz Efendisi" ,
-         "Söz Efendisi" ,
+         L"SimyacÄ±" ,
+         L"BaÄŸ UstasÄ±" ,
+         L"BaÄŸ UstasÄ±" ,
+         L"SÃ¶z Efendisi" ,
+         L"SÃ¶z Efendisi" ,
 
-         "Geçmiþe hükmeden" ,
-         "Geçmiþe hükmeden" ,
-         "Bugüne hükmeden" ,
-         "Bugüne hükmeden" ,
-         "Geleceðe hükmeden" ,
+         L"GeÃ§miÅŸe hÃ¼kmeden" ,
+         L"GeÃ§miÅŸe hÃ¼kmeden" ,
+         L"BugÃ¼ne hÃ¼kmeden" ,
+         L"BugÃ¼ne hÃ¼kmeden" ,
+         L"GeleceÄŸe hÃ¼kmeden" ,
 
-         "Geleceðe hükmeden" ,
-         "Baþ Büyücü" ,
-         "Baþ Büyücü" ,
-         "Bilinmeyen" ,
-         "Bilinmeyen" ,
+         L"GeleceÄŸe hÃ¼kmeden" ,
+         L"BaÅŸ BÃ¼yÃ¼cÃ¼" ,
+         L"BaÅŸ BÃ¼yÃ¼cÃ¼" ,
+         L"Bilinmeyen" ,
+         L"Bilinmeyen" ,
 
- 	  "Kahraman"		,
- 	 "Melek"		,
- 	 "Melek"		,
- 	 "Elçi"		,
- 	 "Ölümsüz"		,
- 	"Yüce"		,
- 	"Yüce",
- 	"Yüce",
- 	"Yüce",
- 	 "Tek"
+ 	  L"Kahraman"		,
+ 	 L"Melek"		,
+ 	 L"Melek"		,
+ 	 L"ElÃ§i"		,
+ 	 L"Ã–lÃ¼msÃ¼z"		,
+ 	L"YÃ¼ce"		,
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	 L"Tek"
       },
        {
 
-         "Man" ,
+         L"Man" ,
 
-         "Büyü Çýraðý"		 ,
-         "Büyü Öðrencisi"	 ,
-         "Büyü Asistaný"	 ,
-         "Büyü Araþtýran"		 ,
-         "Sihirbaz"	 ,
+         L"BÃ¼yÃ¼ Ã‡Ä±raÄŸÄ±"		 ,
+         L"BÃ¼yÃ¼ Ã–ÄŸrencisi"	 ,
+         L"BÃ¼yÃ¼ AsistanÄ±"	 ,
+         L"BÃ¼yÃ¼ AraÅŸtÄ±ran"		 ,
+         L"Sihirbaz"	 ,
 
-         "Büyü Katibi"	 ,
-         "Falcý"		 ,
-         "Arif"		 ,
-         "Ýlüzyonist"		 ,
-         "Tövbekar"		 ,
+         L"BÃ¼yÃ¼ Katibi"	 ,
+         L"FalcÄ±"		 ,
+         L"Arif"		 ,
+         L"Ä°lÃ¼zyonist"		 ,
+         L"TÃ¶vbekar"		 ,
 
-         "Duacý"		 ,
-         "Duacý"		 ,
-         "Büyü Yapan"		 ,
-         "Büyü Yapan"		 ,
-         "Hokkabaz"		 ,
+         L"DuacÄ±"		 ,
+         L"DuacÄ±"		 ,
+         L"BÃ¼yÃ¼ Yapan"		 ,
+         L"BÃ¼yÃ¼ Yapan"		 ,
+         L"Hokkabaz"		 ,
 
-         "Hokkabaz" ,
-         "Büyücü"	 ,
-         "Büyücü"	 ,
- 	"Oluþturan" ,
- 	"Oluþturan" ,
+         L"Hokkabaz" ,
+         L"BÃ¼yÃ¼cÃ¼"	 ,
+         L"BÃ¼yÃ¼cÃ¼"	 ,
+ 	L"OluÅŸturan" ,
+ 	L"OluÅŸturan" ,
 
-         "Alim"		 ,
-         "Alim"		 ,
-         "Büyü Ustasý"			 ,
-         "Büyü Ustasý"			 ,
-         "Büyü Alimi"		 ,
+         L"Alim"		 ,
+         L"Alim"		 ,
+         L"BÃ¼yÃ¼ UstasÄ±"			 ,
+         L"BÃ¼yÃ¼ UstasÄ±"			 ,
+         L"BÃ¼yÃ¼ Alimi"		 ,
 
-         "Büyü Alimi"		 ,
-         "Savaþçý Arif"		 ,
-         "Savaþçý Arif"		 ,
-         "Durendiþ"	 ,
-         "Durendiþ"	 ,
+         L"BÃ¼yÃ¼ Alimi"		 ,
+         L"SavaÅŸÃ§Ä± Arif"		 ,
+         L"SavaÅŸÃ§Ä± Arif"		 ,
+         L"DurendiÅŸ"	 ,
+         L"DurendiÅŸ"	 ,
 
-         "Kýdemli Büyücü"		 ,
-         "Kýdemli Büyücü"		 ,
-         "Büyük Büyücü"		 ,
-         "Büyük Büyücü"	 ,
-         "Yüce Büyücü"		 ,
+         L"KÄ±demli BÃ¼yÃ¼cÃ¼"		 ,
+         L"KÄ±demli BÃ¼yÃ¼cÃ¼"		 ,
+         L"BÃ¼yÃ¼k BÃ¼yÃ¼cÃ¼"		 ,
+         L"BÃ¼yÃ¼k BÃ¼yÃ¼cÃ¼"	 ,
+         L"YÃ¼ce BÃ¼yÃ¼cÃ¼"		 ,
 
-         "Yüce Büyücü"	 ,
-         "Golem Efendisi"		 ,
-         "Golem Efendisi"	 ,
-         "Yüce Golem Efendisi"		 ,
-         "Yüce Golem Efendisi"	 ,
+         L"YÃ¼ce BÃ¼yÃ¼cÃ¼"	 ,
+         L"Golem Efendisi"		 ,
+         L"Golem Efendisi"	 ,
+         L"YÃ¼ce Golem Efendisi"		 ,
+         L"YÃ¼ce Golem Efendisi"	 ,
 
- 	  "Taþ Efendisi"	 ,
- 	  "Taþ Efendisi"	 ,
- 	  "Ýksir Ustasý"	 ,
- 	  "Ýksir Ustasý"	 ,
- 	  "Parþömen Ustasý"	 ,
+ 	  L"TaÅŸ Efendisi"	 ,
+ 	  L"TaÅŸ Efendisi"	 ,
+ 	  L"Ä°ksir UstasÄ±"	 ,
+ 	  L"Ä°ksir UstasÄ±"	 ,
+ 	  L"ParÅŸÃ¶men UstasÄ±"	 ,
 
- 	  "Parþömen Ustasý"	 ,
- 	  "Deðnek Ustasý"	 ,
- 	  "Deðnek Ustasý"		 ,
- 	  "Deðnek Ustasý"	 ,
- 	  "Deðnek Ustasý"		 ,
+ 	  L"ParÅŸÃ¶men UstasÄ±"	 ,
+ 	  L"DeÄŸnek UstasÄ±"	 ,
+ 	  L"DeÄŸnek UstasÄ±"		 ,
+ 	  L"DeÄŸnek UstasÄ±"	 ,
+ 	  L"DeÄŸnek UstasÄ±" ,
 
- 	  "Ýblis Çaðýran"	 ,
- 	  "Ýblis Çaðýran"		 ,
- 	  "Yüce Ýblis Çaðýran"	 ,
- 	  "Yüce Ýblis Çaðýran" ,
- 	  "Ejderha Efendisi"		 ,
+         L"Ä°blis Ã‡aÄŸÄ±ran"	 ,
+ 	  L"Ä°blis Ã‡aÄŸÄ±ran"		 ,
+ 	  L"YÃ¼ce Ä°blis Ã‡aÄŸÄ±ran"	 ,
+ 	  L"YÃ¼ce Ä°blis Ã‡aÄŸÄ±ran" ,
+ 	  L"Ejderha Efendisi" ,
 
- 	  "Ejderha Efendisi"		 ,
- 	  "Ejderha Efendisi"	 ,
- 	  "Ejderha Efendisi" ,
-         "Karýþým Efendisi" ,
-         "Karýþým Efendisi" ,
+         L"Ejderha Efendisi"		 ,
+ 	  L"Ejderha Efendisi"	 ,
+ 	  L"Ejderha Efendisi" ,
+         L"KarÄ±ÅŸÄ±m Efendisi" ,
+         L"KarÄ±ÅŸÄ±m Efendisi" ,
 
-         "Büyülerin Efendisi" ,
-         "Büyülerin Efendisi" ,
-         "Büyüleme Efendisi" ,
-         "Büyüleme Efendisi" ,
-         "Çaðrý Ustasý" ,
+         L"BÃ¼yÃ¼lerin Efendisi" ,
+         L"BÃ¼yÃ¼lerin Efendisi" ,
+         L"BÃ¼yÃ¼leme Efendisi" ,
+         L"BÃ¼yÃ¼leme Efendisi" ,
+         L"Ã‡aÄŸrÄ± UstasÄ±" ,
 
-         "Çaðrý Ustasý" ,
-         "Büyük Kahin" ,
-         "Büyük Kahin" ,
-         "Deðiþim Ustasý" ,
-         "Deðiþim Ustasý" ,
+         L"Ã‡aÄŸrÄ± UstasÄ±" ,
+         L"BÃ¼yÃ¼k Kahin" ,
+         L"BÃ¼yÃ¼k Kahin" ,
+         L"DeÄŸiÅŸim UstasÄ±" ,
+         L"DeÄŸiÅŸim UstasÄ±" ,
 
-         "Fiþek Efendisi" ,
-         "Fiþek Efendisi" ,
-         "Ölülerin Efendisi" ,
-         "Ölülerin Efendisi" ,
-         "Simyacý" ,
+         L"FiÅŸek Efendisi" ,
+         L"FiÅŸek Efendisi" ,
+         L"Ã–lÃ¼lerin Efendisi" ,
+         L"Ã–lÃ¼lerin Efendisi" ,
+         L"SimyacÄ±" ,
 
-         "Simyacý" ,
-         "Bað Ustasý" ,
-         "Bað Ustasý" ,
-         "Söz Efendisi" ,
-         "Söz Efendisi" ,
+         L"SimyacÄ±" ,
+         L"BaÄŸ UstasÄ±" ,
+         L"BaÄŸ UstasÄ±" ,
+         L"SÃ¶z Efendisi" ,
+         L"SÃ¶z Efendisi" ,
 
-         "Geçmiþe hükmeden" ,
-         "Geçmiþe hükmeden" ,
-         "Bugüne hükmeden" ,
-         "Bugüne hükmeden" ,
-         "Geleceðe hükmeden" ,
+         L"GeÃ§miÅŸe hÃ¼kmeden" ,
+         L"GeÃ§miÅŸe hÃ¼kmeden" ,
+         L"BugÃ¼ne hÃ¼kmeden" ,
+         L"BugÃ¼ne hÃ¼kmeden" ,
+         L"GeleceÄŸe hÃ¼kmeden" ,
 
-         "Geleceðe hükmeden" ,
-         "Baþ Büyücü" ,
-         "Baþ Büyücü" ,
-         "Bilinmeyen" ,
-         "Bilinmeyen" ,
+         L"GeleceÄŸe hÃ¼kmeden" ,
+         L"BaÅŸ BÃ¼yÃ¼cÃ¼" ,
+         L"BaÅŸ BÃ¼yÃ¼cÃ¼" ,
+         L"Bilinmeyen" ,
+         L"Bilinmeyen" ,
 
- 	  "Kahraman"		,
- 	 "Melek"		,
- 	 "Melek"		,
- 	 "Elçi"		,
- 	 "Ölümsüz"		,
- 	"Yüce"		,
- 	"Yüce",
- 	"Yüce",
- 	"Yüce",
- 	 "Tek"
+ 	  L"Kahraman"		,
+ 	 L"Melek"		,
+ 	 L"Melek"		,
+ 	 L"ElÃ§i"		,
+ 	 L"Ã–lÃ¼msÃ¼z"		,
+ 	L"YÃ¼ce"		,
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	 L"Tek"
       },
       {
 
-         "Man" ,
+         L"Man" ,
 
-         "Büyü Çýraðý"		 ,
-         "Büyü Öðrencisi"	 ,
-         "Büyü Asistaný"	 ,
-         "Büyü Araþtýran"		 ,
-         "Sihirbaz"	 ,
+         L"BÃ¼yÃ¼ Ã‡Ä±raÄŸÄ±"		 ,
+         L"BÃ¼yÃ¼ Ã–ÄŸrencisi"	 ,
+         L"BÃ¼yÃ¼ AsistanÄ±"	 ,
+         L"BÃ¼yÃ¼ AraÅŸtÄ±ran"		 ,
+         L"Sihirbaz"	 ,
 
-         "Büyü Katibi"	 ,
-         "Falcý"		 ,
-         "Arif"		 ,
-         "Ýlüzyonist"		 ,
-         "Tövbekar"		 ,
+         L"BÃ¼yÃ¼ Katibi"	 ,
+         L"FalcÄ±"		 ,
+         L"Arif"		 ,
+         L"Ä°lÃ¼zyonist"		 ,
+         L"TÃ¶vbekar"		 ,
 
-         "Duacý"		 ,
-         "Duacý"		 ,
-         "Büyü Yapan"		 ,
-         "Büyü Yapan"		 ,
-         "Hokkabaz"		 ,
+         L"DuacÄ±"		 ,
+         L"DuacÄ±"		 ,
+         L"BÃ¼yÃ¼ Yapan"		 ,
+         L"BÃ¼yÃ¼ Yapan"		 ,
+         L"Hokkabaz"		 ,
 
-         "Hokkabaz" ,
-         "Büyücü"	 ,
-         "Büyücü"	 ,
- 	"Oluþturan" ,
- 	"Oluþturan" ,
+         L"Hokkabaz" ,
+         L"BÃ¼yÃ¼cÃ¼"	 ,
+         L"BÃ¼yÃ¼cÃ¼"	 ,
+ 	L"OluÅŸturan" ,
+ 	L"OluÅŸturan" ,
 
-         "Alim"		 ,
-         "Alim"		 ,
-         "Büyü Ustasý"			 ,
-         "Büyü Ustasý"			 ,
-         "Büyü Alimi"		 ,
+         L"Alim"		 ,
+         L"Alim"		 ,
+         L"BÃ¼yÃ¼ UstasÄ±"			 ,
+         L"BÃ¼yÃ¼ UstasÄ±"			 ,
+         L"BÃ¼yÃ¼ Alimi"		 ,
 
-         "Büyü Alimi"		 ,
-         "Savaþçý Arif"		 ,
-         "Savaþçý Arif"		 ,
-         "Durendiþ"	 ,
-         "Durendiþ"	 ,
+         L"BÃ¼yÃ¼ Alimi"		 ,
+         L"SavaÅŸÃ§Ä± Arif"		 ,
+         L"SavaÅŸÃ§Ä± Arif"		 ,
+         L"DurendiÅŸ"	 ,
+         L"DurendiÅŸ"	 ,
 
-         "Kýdemli Büyücü"		 ,
-         "Kýdemli Büyücü"		 ,
-         "Büyük Büyücü"		 ,
-         "Büyük Büyücü"	 ,
-         "Yüce Büyücü"		 ,
+         L"KÄ±demli BÃ¼yÃ¼cÃ¼"		 ,
+         L"KÄ±demli BÃ¼yÃ¼cÃ¼"		 ,
+         L"BÃ¼yÃ¼k BÃ¼yÃ¼cÃ¼"		 ,
+         L"BÃ¼yÃ¼k BÃ¼yÃ¼cÃ¼"	 ,
+         L"YÃ¼ce BÃ¼yÃ¼cÃ¼"		 ,
 
-         "Yüce Büyücü"	 ,
-         "Golem Efendisi"		 ,
-         "Golem Efendisi"	 ,
-         "Yüce Golem Efendisi"		 ,
-         "Yüce Golem Efendisi"	 ,
+         L"YÃ¼ce BÃ¼yÃ¼cÃ¼"	 ,
+         L"Golem Efendisi"		 ,
+         L"Golem Efendisi"	 ,
+         L"YÃ¼ce Golem Efendisi"		 ,
+         L"YÃ¼ce Golem Efendisi"	 ,
 
- 	  "Taþ Efendisi"	 ,
- 	  "Taþ Efendisi"	 ,
- 	  "Ýksir Ustasý"	 ,
- 	  "Ýksir Ustasý"	 ,
- 	  "Parþömen Ustasý"	 ,
+ 	  L"TaÅŸ Efendisi"	 ,
+ 	  L"TaÅŸ Efendisi"	 ,
+ 	  L"Ä°ksir UstasÄ±"	 ,
+ 	  L"Ä°ksir UstasÄ±"	 ,
+ 	  L"ParÅŸÃ¶men UstasÄ±"	 ,
 
- 	  "Parþömen Ustasý"	 ,
- 	  "Deðnek Ustasý"	 ,
- 	  "Deðnek Ustasý"		 ,
- 	  "Deðnek Ustasý"	 ,
- 	  "Deðnek Ustasý"		 ,
+ 	  L"ParÅŸÃ¶men UstasÄ±"	 ,
+ 	  L"DeÄŸnek UstasÄ±"	 ,
+ 	  L"DeÄŸnek UstasÄ±"		 ,
+ 	  L"DeÄŸnek UstasÄ±"	 ,
+ 	  L"DeÄŸnek UstasÄ±" ,
 
- 	  "Ýblis Çaðýran"	 ,
- 	  "Ýblis Çaðýran"		 ,
- 	  "Yüce Ýblis Çaðýran"	 ,
- 	  "Yüce Ýblis Çaðýran" ,
- 	  "Ejderha Efendisi"		 ,
+         L"Ä°blis Ã‡aÄŸÄ±ran"	 ,
+ 	  L"Ä°blis Ã‡aÄŸÄ±ran"		 ,
+ 	  L"YÃ¼ce Ä°blis Ã‡aÄŸÄ±ran"	 ,
+ 	  L"YÃ¼ce Ä°blis Ã‡aÄŸÄ±ran" ,
+ 	  L"Ejderha Efendisi" ,
 
- 	  "Ejderha Efendisi"		 ,
- 	  "Ejderha Efendisi"	 ,
- 	  "Ejderha Efendisi" ,
-         "Karýþým Efendisi" ,
-         "Karýþým Efendisi" ,
+         L"Ejderha Efendisi"		 ,
+ 	  L"Ejderha Efendisi"	 ,
+ 	  L"Ejderha Efendisi" ,
+         L"KarÄ±ÅŸÄ±m Efendisi" ,
+         L"KarÄ±ÅŸÄ±m Efendisi" ,
 
-         "Büyülerin Efendisi" ,
-         "Büyülerin Efendisi" ,
-         "Büyüleme Efendisi" ,
-         "Büyüleme Efendisi" ,
-         "Çaðrý Ustasý" ,
+         L"BÃ¼yÃ¼lerin Efendisi" ,
+         L"BÃ¼yÃ¼lerin Efendisi" ,
+         L"BÃ¼yÃ¼leme Efendisi" ,
+         L"BÃ¼yÃ¼leme Efendisi" ,
+         L"Ã‡aÄŸrÄ± UstasÄ±" ,
 
-         "Çaðrý Ustasý" ,
-         "Büyük Kahin" ,
-         "Büyük Kahin" ,
-         "Deðiþim Ustasý" ,
-         "Deðiþim Ustasý" ,
+         L"Ã‡aÄŸrÄ± UstasÄ±" ,
+         L"BÃ¼yÃ¼k Kahin" ,
+         L"BÃ¼yÃ¼k Kahin" ,
+         L"DeÄŸiÅŸim UstasÄ±" ,
+         L"DeÄŸiÅŸim UstasÄ±" ,
 
-         "Fiþek Efendisi" ,
-         "Fiþek Efendisi" ,
-         "Ölülerin Efendisi" ,
-         "Ölülerin Efendisi" ,
-         "Simyacý" ,
+         L"FiÅŸek Efendisi" ,
+         L"FiÅŸek Efendisi" ,
+         L"Ã–lÃ¼lerin Efendisi" ,
+         L"Ã–lÃ¼lerin Efendisi" ,
+         L"SimyacÄ±" ,
 
-         "Simyacý" ,
-         "Bað Ustasý" ,
-         "Bað Ustasý" ,
-         "Söz Efendisi" ,
-         "Söz Efendisi" ,
+         L"SimyacÄ±" ,
+         L"BaÄŸ UstasÄ±" ,
+         L"BaÄŸ UstasÄ±" ,
+         L"SÃ¶z Efendisi" ,
+         L"SÃ¶z Efendisi" ,
 
-         "Geçmiþe hükmeden" ,
-         "Geçmiþe hükmeden" ,
-         "Bugüne hükmeden" ,
-         "Bugüne hükmeden" ,
-         "Geleceðe hükmeden" ,
+         L"GeÃ§miÅŸe hÃ¼kmeden" ,
+         L"GeÃ§miÅŸe hÃ¼kmeden" ,
+         L"BugÃ¼ne hÃ¼kmeden" ,
+         L"BugÃ¼ne hÃ¼kmeden" ,
+         L"GeleceÄŸe hÃ¼kmeden" ,
 
-         "Geleceðe hükmeden" ,
-         "Baþ Büyücü" ,
-         "Baþ Büyücü" ,
-         "Bilinmeyen" ,
-         "Bilinmeyen" ,
+         L"GeleceÄŸe hÃ¼kmeden" ,
+         L"BaÅŸ BÃ¼yÃ¼cÃ¼" ,
+         L"BaÅŸ BÃ¼yÃ¼cÃ¼" ,
+         L"Bilinmeyen" ,
+         L"Bilinmeyen" ,
 
- 	 "Kahraman"		,
- 	 "Melek"		,
- 	 "Melek"		,
- 	 "Elçi"		,
- 	 "Ölümsüz"		,
- 	"Yüce"		,
- 	"Yüce",
- 	"Yüce",
- 	"Yüce",
- 	 "Tek"
+ 	 L"Kahraman"		,
+ 	 L"Melek"		,
+ 	 L"Melek"		,
+ 	 L"ElÃ§i"		,
+ 	 L"Ã–lÃ¼msÃ¼z"		,
+ 	L"YÃ¼ce"		,
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	L"YÃ¼ce",
+ 	 L"Tek"
      }
  ,
    };
 
 const struct color_type color_table[] = /*  Last entry should be NULL   */
 {
-  {"Black", CLR_BLACK},
-  {"Green", CLR_GREEN},
-  {"Brown", CLR_BROWN},
-  {"Yellow", CLR_YELLOW},
-  {"Red", CLR_RED},
-  {"Blue", CLR_BLUE},
-  {"Magenta", CLR_MAGENTA},
-  {"Cyan", CLR_CYAN},
-  {"White", CLR_WHITE},
+  { L"Black", CLR_BLACK},
+  { L"Green", CLR_GREEN},
+  { L"Brown", CLR_BROWN},
+  { L"Yellow", CLR_YELLOW},
+  { L"Red", CLR_RED},
+  { L"Blue", CLR_BLUE},
+  { L"Magenta", CLR_MAGENTA},
+  { L"Cyan", CLR_CYAN},
+  { L"White", CLR_WHITE},
   {NULL, NULL}
 };
 
 /* God's Name, name of religion, tattoo vnum  */
 const struct religion_type religion_table [] =
 {
-  { "", "None", 0 },
-  { "Kamenilik", "Kameniler", OBJ_VNUM_TATTOO_KAME },
-  { "Niryanilik", "Niryaniler", OBJ_VNUM_TATTOO_NIR },
-  { "Nyahilik", "Nyahiler", OBJ_VNUM_TATTOO_NYAH },
-  { "Sintiyanlýk", "Sintiyanlar", OBJ_VNUM_TATTOO_SINT },
+  { L"", L"None", 0 },
+  { L"Kamenilik", L"Kameniler", OBJ_VNUM_TATTOO_KAME },
+  { L"Niryanilik", L"Niryaniler", OBJ_VNUM_TATTOO_NIR },
+  { L"Nyahilik", L"Nyahiler", OBJ_VNUM_TATTOO_NYAH },
+  { L"SintiyanlÄ±k", L"Sintiyanlar", OBJ_VNUM_TATTOO_SINT },
 };
 
 const struct ethos_type ethos_table [] =
 {
-  { "Null" },
-  { "Tüze" },
-  { "Yansýz" },
-  { "Kaos" }
+  { L"Null" },
+  { L"TÃ¼ze" },
+  { L"YansÄ±z" },
+  { L"Kaos" }
 };
 
 /*  altar good neut evil, recall good neut evil, pit good neut evil */
 const struct hometown_type hometown_table [] =
 {
-  { "Selenge", {3070, 3054, 3072}, {3068, 3001, 3071}, {3069,3054,3072} },
-  { "Yeni Thalos", {9605, 9605, 9605}, {9609,9609,9609}, {9609,9609,9609} },
-  { "Titan", {18127,18127,18127},{18126,18126,18126},{18127,18127,18127} },
-  { "Yeni Ofcol", {669, 669, 669},      {698, 698, 698},   {669, 669, 669} },
-  { "Eski Selenge",{5386, 5386,5386}, {5379,5379, 5379}, {5386,5386,5386} },
+  { L"Selenge", {3070, 3054, 3072}, {3068, 3001, 3071}, {3069,3054,3072} },
+  { L"Yeni Thalos", {9605, 9605, 9605}, {9609,9609,9609}, {9609,9609,9609} },
+  { L"Titan", {18127,18127,18127},{18126,18126,18126},{18127,18127,18127} },
+  { L"Yeni Ofcol", {669, 669, 669},      {698, 698, 698},   {669, 669, 669} },
+  { L"Eski Selenge",{5386, 5386,5386}, {5379,5379, 5379}, {5386,5386,5386} },
 };
 
 /*
@@ -2759,49 +2760,49 @@ const	struct	cha_app_type	cha_app		[26]		=
  const	struct	liq_type	liq_table	[]	=
  {
  /*    name			color	proof, full, thirst, food, ssize */
-     { "water","su",			"clear",	{   0, 1, 10, 0, 16 }	},
-     { "beer","bira",			"amber",	{  12, 1,  8, 1, 12 }	},
-     { "red wine","kýrmýzý þarap",		"burgundy",	{  30, 1,  8, 1,  5 }	},
-     { "ale","bira",			"brown",	{  15, 1,  8, 1, 12 }	},
-     { "dark ale","siyah bira",		"dark",		{  16, 1,  8, 1, 12 }	},
+     { L"water", L"su", L"clear",	{   0, 1, 10, 0, 16 }	},
+     { L"beer", L"bira", L"amber",	{  12, 1,  8, 1, 12 }	},
+     { L"red wine", L"kÄ±rmÄ±zÄ± ÅŸarap", L"burgundy",	{  30, 1,  8, 1,  5 }	},
+     { L"ale", L"bira", L"brown",	{  15, 1,  8, 1, 12 }	},
+     { L"dark ale", L"siyah bira", L"dark",		{  16, 1,  8, 1, 12 }	},
 
-     { "whisky","viski",			"golden",	{ 120, 1,  5, 0,  2 }	},
-     { "lemonade","limonata",		"pink",		{   0, 1,  9, 2, 12 }	},
-     { "firebreather","ateþnefesi",		"boiling",	{ 190, 0,  4, 0,  2 }	},
-     { "local specialty","yerel içki",	"clear",	{ 151, 1,  3, 0,  2 }	},
-     { "slime mold juice","balçýk suyu",	"green",	{   0, 2, -8, 1,  2 }	},
+     { L"whisky", L"viski", L"golden",	{ 120, 1,  5, 0,  2 }	},
+     { L"lemonade", L"limonata", L"pink",		{   0, 1,  9, 2, 12 }	},
+     { L"firebreather", L"ateÅŸnefesi", L"boiling",	{ 190, 0,  4, 0,  2 }	},
+     { L"local specialty", L"yerel iÃ§ki",  L"clear",	{ 151, 1,  3, 0,  2 }	},
+     { L"slime mold juice", L"balÃ§Ä±k suyu",  L"green",	{   0, 2, -8, 1,  2 }	},
 
-     { "milk","süt",			"white",	{   0, 2,  9, 3, 12 }	},
-     { "tea","çay",			"tan",		{   0, 1,  8, 0,  6 }	},
-     { "coffee",	"kahve",		"black",	{   0, 1,  8, 0,  6 }	},
-     { "blood","kan",			"red",		{   0, 2, -1, 2,  6 }	},
-     { "salt water","tuzlu su",		"clear",	{   0, 1, -2, 0,  1 }	},
+     { L"milk", L"sÃ¼t", L"white",	{   0, 2,  9, 3, 12 }	},
+     { L"tea", L"Ã§ay", L"tan",		{   0, 1,  8, 0,  6 }	},
+     { L"coffee",  L"kahve", L"black",	{   0, 1,  8, 0,  6 }	},
+     { L"blood", L"kan", L"red",		{   0, 2, -1, 2,  6 }	},
+     { L"salt water", L"tuzlu su", L"clear",	{   0, 1, -2, 0,  1 }	},
 
-     { "coke","kola",			"brown",	{   0, 2,  9, 2, 12 }	},
-     { "root beer","kök birasý",		"brown",	{   0, 2,  9, 2, 12 }   },
-     { "elvish wine","yel þarabý",		"green",	{  35, 2,  8, 1,  5 }   },
-     { "white wine","beyaz þarap",		"golden",	{  28, 1,  8, 1,  5 }   },
-     { "champagne","þampanya",		"golden",	{  32, 1,  8, 1,  5 }   },
+     { L"coke", L"kola", L"brown",	{   0, 2,  9, 2, 12 }	},
+     { L"root beer", L"kÃ¶k birasÄ±", L"brown",	{   0, 2,  9, 2, 12 }   },
+     { L"elvish wine", L"yel ÅŸarabÄ±", L"green",	{  35, 2,  8, 1,  5 }   },
+     { L"white wine", L"beyaz ÅŸarap", L"golden",	{  28, 1,  8, 1,  5 }   },
+     { L"champagne", L"ÅŸampanya", L"golden",	{  32, 1,  8, 1,  5 }   },
 
-     { "mead","bal likörü",			"honey-colored",{  34, 2,  8, 2, 12 }   },
-     { "rose wine","gül þarabý",		"pink",		{  26, 1,  8, 1,  5 }	},
-     { "benedictine wine","kutsal þarap",	"burgundy",	{  40, 1,  8, 1,  5 }   },
-     { "vodka","votka",			"clear",	{ 130, 1,  5, 0,  2 }   },
-     { "cranberry juice","kýzýlcýk suyu",	"red",		{   0, 1,  9, 2, 12 }	},
+     { L"mead", L"bal likÃ¶rÃ¼", L"honey-colored",{  34, 2,  8, 2, 12 }   },
+     { L"rose wine", L"gÃ¼l ÅŸarabÄ±", L"pink",		{  26, 1,  8, 1,  5 }	},
+     { L"benedictine wine", L"kutsal ÅŸarap",  L"burgundy",	{  40, 1,  8, 1,  5 }   },
+     { L"vodka", L"votka", L"clear",	{ 130, 1,  5, 0,  2 }   },
+     { L"cranberry juice", L"kÄ±zÄ±lcÄ±k suyu",  L"red",		{   0, 1,  9, 2, 12 }	},
 
-     { "orange juice","portakal suyu",		"orange",	{   0, 2,  9, 3, 12 }   },
-     { "absinthe","raký",		"clear",	{ 200, 1,  4, 0,  2 }	},
-     { "brandy","brendi",			"golden",	{  80, 1,  5, 0,  4 }	},
-     { "aquavit","kimyon likörü",		"clear",	{ 140, 1,  5, 0,  2 }	},
-     { "schnapps","patates likörü",		"clear",	{  90, 1,  5, 0,  2 }   },
+     { L"orange juice", L"portakal suyu", L"orange",	{   0, 2,  9, 3, 12 }   },
+     { L"absinthe", L"rakÄ±", L"clear",	{ 200, 1,  4, 0,  2 }	},
+     { L"brandy", L"brendi", L"golden",	{  80, 1,  5, 0,  4 }	},
+     { L"aquavit", L"kimyon likÃ¶rÃ¼", L"clear",	{ 140, 1,  5, 0,  2 }	},
+     { L"schnapps", L"patates likÃ¶rÃ¼", L"clear",	{  90, 1,  5, 0,  2 }   },
 
-     { "icewine","buzbað",		"purple",	{  50, 2,  6, 1,  5 }	},
-     { "amontillado","kiraz likörü",		"burgundy",	{  35, 2,  8, 1,  5 }	},
-     { "sherry","þeri",			"red",		{  38, 2,  7, 1,  5 }   },
-     { "framboise","çilek likörü",		"red",		{  50, 1,  7, 1,  5 }   },
-     { "rum","rom",			"amber",	{ 151, 1,  4, 0,  2 }	},
+     { L"icewine", L"buzbaÄŸ", L"purple",	{  50, 2,  6, 1,  5 }	},
+     { L"amontillado", L"kiraz likÃ¶rÃ¼", L"burgundy",	{  35, 2,  8, 1,  5 }	},
+     { L"sherry", L"ÅŸeri", L"red",		{  38, 2,  7, 1,  5 }   },
+     { L"framboise", L"Ã§ilek likÃ¶rÃ¼", L"red",		{  50, 1,  7, 1,  5 }   },
+     { L"rum", L"rom", L"amber",	{ 151, 1,  4, 0,  2 }	},
 
-     { "cordial","þeftali likörü",		"clear",	{ 100, 1,  5, 0,  2 }   },
+     { L"cordial", L"ÅŸeftali likÃ¶rÃ¼", L"clear",	{ 100, 1,  5, 0,  2 }   },
      { NULL,NULL,			NULL,		{   0, 0,  0, 0,  0 }	}
  };
 
@@ -2821,2027 +2822,2027 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
  */
 
     {
-	{"reserved","reserved"},	{100,100,100,100, 100,100,100,100,100 ,100,100,100,100},
+	{ L"reserved", L"reserved"},	{100,100,100,100, 100,100,100,100,100 ,100,100,100,100},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,			TAR_IGNORE,		POS_STANDING,
 	&gsn_reserved,			SLOT( 0),	 0,	 0,
-	"",			"",		"", CABAL_NONE ,
+	L"", L"", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"absorb","soðurma"},	{ 67, 93, 93, 93, 93, 93,93,93,93,93,93,93,93},
+	{ L"absorb", L"soÄŸurma"},	{ 67, 93, 93, 93, 93, 93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_absorb,		TAR_CHAR_SELF,		POS_STANDING,
 	&gsn_absorb,		SLOT(707),	100,	12,
-  "",		"Çevrendeki enerji alaný yokoluyor!",
-	"$p'in çevresindeki enerji alaný yokoluyor.",
+  L"", L"Ã‡evrendeki enerji alanÄ± yokoluyor!",
+	L"$p'in Ã§evresindeki enerji alanÄ± yokoluyor.",
  	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"acetum primus","aketum primus"},	{ 34,93,93,93, 93,93,93,93,93,93,93,93,93},
+	{ L"acetum primus", L"aketum primus"},	{ 34,93,93,93, 93,93,93,93,93,93,93,93,93},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_acetum_primus,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(654),	20,	12,
-	"aketum primus",	"!Aketum Primus!", "", CABAL_NONE ,
+	L"aketum primus",  L"!Aketum Primus!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"accid arrow","asit oku"},		{ 48, 93, 93, 93, 93, 93,93,93,48,93,93,48,48},
+	{ L"accid arrow", L"asit oku"},		{ 48, 93, 93, 93, 93, 93,93,93,48,93,93,48,48},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_acid_arrow,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(644),	20,	12,
-	"asit oku",		"!Asit Oku!", "", CABAL_NONE ,
+	L"asit oku", L"!Asit Oku!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"acid blast","asit patlamasý"},		{ 63, 93, 93, 93, 93,93,93,93,63,93,93,63,63},
+	{ L"acid blast", L"asit patlamasÄ±"},		{ 63, 93, 93, 93, 93,93,93,93,63,93,93,63,63},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_acid_blast,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	&gsn_acid_blast,	SLOT(70),	40,	12,
-	"asit",		"!Asit!", "", CABAL_NONE ,
+	L"asit", L"!Asit!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"acute vision","güçlü görüþ"},         {  93,93,93,93, 93, 93, 93, 7 ,93,93,93,93,93},
+	{ L"acute vision", L"gÃ¼Ã§lÃ¼ gÃ¶rÃ¼ÅŸ"},         {  93,93,93,93, 93, 93, 93, 7 ,93,93,93,93,93},
         { 3,  2,  1,  1, 1, 1, 2, 1, 1, 1,1,1,1},
         spell_acute_vision,        TAR_CHAR_SELF,          POS_STANDING,
         NULL,                    SLOT(514),        10,       0,
-	"",         "Görüþün sönükleþti.", "",	CABAL_NONE ,
+	L"", L"GÃ¶rÃ¼ÅŸÃ¼n sÃ¶nÃ¼kleÅŸti.", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"adamantite golem","adament golem"},{93,93,93,93,93,93,93,93,93,93,93,71,93},
+	{ L"adamantite golem", L"adament golem"},{93,93,93,93,93,93,93,93,93,93,93,71,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_adamantite_golem,	TAR_IGNORE,	POS_STANDING,
 	NULL,		SLOT(665),	500,		30,
-	"",	"Yeni golemler yapmak için yeterli gücü topladýn.","",
+	L"",  L"Yeni golemler yapmak iÃ§in yeterli gÃ¼cÃ¼ topladÄ±n.", L"",
 	CABAL_NONE , 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"aid","ilk yardým"},			{ 93, 53,93, 93,93,93,93,93 ,93,93,93,93,93},
+	{ L"aid", L"ilk yardÄ±m"},			{ 93, 53,93, 93,93,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_aid,        TAR_CHAR_DEFENSIVE,          POS_FIGHTING,
 	NULL,		SLOT(680),	100,		12,
-	"",	"Daha fazla kiþiyi iyileþtirebilirsin.",	"",
+	L"",  L"Daha fazla kiÅŸiyi iyileÅŸtirebilirsin.",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_HEALING
     },
 
     {
-	{"amnesia","amnezi"},         {  93, 93, 93,93,93,93,93,93,93,93,93,93,93 },
+	{ L"amnesia", L"amnezi"},         {  93, 93, 93,93,93,93,93,93,93,93,93,93,93 },
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_amnesia,      TAR_CHAR_OFFENSIVE,       POS_STANDING,
 	NULL,       SLOT(538),        100,       12,
-	"", "!amnesia!", "",	CABAL_NONE , RACE_NONE,ALIGN_NONE, GROUP_NONE
+	L"", L"!amnesia!", L"",	CABAL_NONE , RACE_NONE,ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"animate dead","ölü canlandýrma"},			{ 93, 93, 93, 93,93,93,93,93,93,93,42,38,93 },
+	{ L"animate dead", L"Ã¶lÃ¼ canlandÄ±rma"},			{ 93, 93, 93, 93,93,93,93,93,93,93,42,38,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_animate_dead,	TAR_OBJ_CHAR_OFF,	POS_STANDING,
 	NULL,		SLOT(581),	50,	12,
-	"",	"Yeni ölüleri canlandýrmak için gerekli enerjiyi topladýn.", "", CABAL_NONE ,
+	L"",  L"Yeni Ã¶lÃ¼leri canlandÄ±rmak iÃ§in gerekli enerjiyi topladÄ±n.", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"animate object","nesne canlandýrma"},	{ 70, 93, 93, 93, 93, 93,93,93,93,93,93,93,93},
+	{ L"animate object", L"nesne canlandÄ±rma"},	{ 70, 93, 93, 93, 93, 93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_animate_object,	TAR_OBJ_CHAR_OFF,	POS_STANDING,
 	NULL,		SLOT(709),	50,	12,
-	"",		"Yeni nesneleri canlandýrmak için gerekli enerjiyi topladýn.", "",
+	L"", L"Yeni nesneleri canlandÄ±rmak iÃ§in gerekli enerjiyi topladÄ±n.", L"",
  	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"armor","zýrh"},		{  13,1,93,93, 12,93,13,93 , 93, 10,13,13,13},
+	{ L"armor", L"zÄ±rh"},		{  13,1,93,93, 12,93,13,93 , 93, 10,13,13,13},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_armor,		TAR_CHAR_DEFENSIVE,	POS_STANDING,
 	NULL,			SLOT( 1),	 5,	12,
-	"",			"Zýrhýnýn zayýfladýðýný hissediyorsun.",	"", CABAL_NONE ,
+	L"", L"ZÄ±rhÄ±nÄ±n zayÄ±fladÄ±ÄŸÄ±nÄ± hissediyorsun.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {
-	{"assist","destek"},      {  93, 93, 93, 93,93,93,93,93,93,93,93,43,93},
+	{ L"assist", L"destek"},      {  93, 93, 93, 93,93,93,93,93,93,93,93,43,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_assist,        TAR_CHAR_DEFENSIVE,          POS_FIGHTING,
         NULL,             SLOT(670),        100,       12,
-	"", "Yeniden destek olabilirsin.", "",	CABAL_NONE ,
+	L"", L"Yeniden destek olabilirsin.", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_HEALING
     },
 
     {
-	{"astral walk","yýldýz yürüyüþü"},		{31,93,93,93,93,93,93,93,93,93,93,93,93},
+	{ L"astral walk", L"yÄ±ldÄ±z yÃ¼rÃ¼yÃ¼ÅŸÃ¼"},		{31,93,93,93,93,93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_astral_walk,	TAR_IGNORE,	POS_FIGHTING,
 	NULL,			SLOT(622),	80,	12,
-	"",			"!Astral Walk!",	"",CABAL_NONE ,
+	L"", L"!Astral Walk!",  L"",CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_TRANSPORTATION
     },
 
     {
-	{"attract other","kiþi etkileme"},	{ 93, 93, 93, 93,93,93,93,93,93,93,30,93,93 },
+	{ L"attract other", L"kiÅŸi etkileme"},	{ 93, 93, 93, 93,93,93,93,93,93,93,30,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_attract_other,	TAR_CHAR_OFFENSIVE,	POS_STANDING,
 	NULL,		SLOT(580),	5,	12,
-	"",	"Efendinin seni terkettiðini hissediyorsun.",	"", CABAL_NONE ,
+	L"",  L"Efendinin seni terkettiÄŸini hissediyorsun.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_BEGUILING
     },
 
     {
-	{"bark skin","aðaç deri"},        {  93, 93, 93, 93, 93, 93, 93, 22 ,93,93,93,93,93},
+	{ L"bark skin", L"aÄŸaÃ§ deri"},        {  93, 93, 93, 93, 93, 93, 93, 22 ,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_bark_skin,        TAR_CHAR_SELF,          POS_STANDING,
         NULL,             SLOT(515),        40,       0,
-	"", "Aðaç derin yokoluyor.", "",	CABAL_NONE ,
+	L"", L"AÄŸaÃ§ derin yokoluyor.", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-		{"black death","kara ölüm"},    { 93, 93, 93, 93,93, 64, 93, 93 ,93,93,93,93,93},
+		{ L"black death", L"kara Ã¶lÃ¼m"},    { 93, 93, 93, 93,93, 64, 93, 93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_black_death,	TAR_IGNORE,	POS_STANDING,
 	&gsn_black_death,	SLOT(677),	200,	24,
-	"",		"!black death!",	"",
+	L"", L"!black death!",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_MALADICTIONS
     },
 
     {
-	{"blade barrier","býçak duvarý"},	{93,60,93,93,93,93,93,93,93,93,93,93,93},
+	{ L"blade barrier", L"bÄ±Ã§ak duvarÄ±"},	{93,60,93,93,93,93,93,93,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_blade_barrier,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(679),	40,	12,
-	"býçak duvarý",	"!Blade Barrier!",	"",CABAL_NONE ,
+	L"bÄ±Ã§ak duvarÄ±",  L"!Blade Barrier!",  L"",CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_ATTACK
     },
 
     {
-	{"bless","kutsama"},		{ 93,  10, 93, 93,14,93,93,93,93,12,93,93,93 },
+	{ L"bless", L"kutsama"},		{ 93,  10, 93, 93,14,93,93,93,93,12,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_bless,		TAR_OBJ_CHAR_DEF,	POS_STANDING,
 	&gsn_bless,		SLOT( 3),	 5,	12,
-  "",			"Kutsallýðýný yitiriyorsun.",
-	"$p'in kutsal aylasý yokoluyor.", CABAL_NONE ,
+  L"", L"KutsallÄ±ÄŸÄ±nÄ± yitiriyorsun.",
+	L"$p'in kutsal aylasÄ± yokoluyor.", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_BENEDICTIONS
     },
 
     {
-	{"bless weapon","silah kutsama"},{  93, 55, 93, 93,55,93,93,93,93,93,93,93,93 },
+	{ L"bless weapon", L"silah kutsama"},{  93, 55, 93, 93,55,93,93,93,93,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_bless_weapon,	TAR_OBJ_INV,		POS_STANDING,
 	NULL,			SLOT(637),	100,	24,
-	"",			"!Bless Weapon!",	"", CABAL_NONE ,
+	L"", L"!Bless Weapon!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_ENCHANTMENT
     },
 
     {
-	{"blindness","körlük"},	{  93,  14, 93, 93,93,14,16,93, 20,93,20,19,93},
+	{ L"blindness", L"kÃ¶rlÃ¼k"},	{  93,  14, 93, 93,93,14,16,93, 20,93,20,19,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_blindness,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	&gsn_blindness,		SLOT( 4),	 5,	12,
-	"",			"Yeniden görebiliyorsun.",	"", CABAL_NONE ,
+	L"", L"Yeniden gÃ¶rebiliyorsun.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_MALADICTIONS
     },
 
     {
-	{"bluefire","mavi alev"},	{  93,37,93,93,93,93,93,93,93,93,93,93,93},
+	{ L"bluefire", L"mavi alev"},	{  93,37,93,93,93,93,93,93,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_bluefire,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	&gsn_bluefire,			SLOT(660),	20,	12,
-	"mavi alev",		"!Mavi Alev!",		"", CABAL_NONE ,
+	L"mavi alev", L"!Mavi Alev!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_ATTACK
     },
 
     {
-	{"burning hands","yanan eller"},	{  14,93,93,93, 93, 93, 93, 93 ,14,93,14,14,14},
+	{ L"burning hands", L"yanan eller"},	{  14,93,93,93, 93, 93, 93, 93 ,14,93,14,14,14},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_burning_hands,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	&gsn_burning_hands,	SLOT( 5),	15,	12,
-  "yanan eller",	"!Burning Hands!", 	"", CABAL_NONE ,
+  L"yanan eller",  L"!Burning Hands!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"call lightning","þimþek çaðrýsý"},	{ 93, 44, 93, 93, 41,93,50, 93 , 93,93,93,93,33},
+	{ L"call lightning", L"ÅŸimÅŸek Ã§aÄŸrÄ±sÄ±"},	{ 93, 44, 93, 93, 41,93,50, 93 , 93,93,93,93,33},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_call_lightning,	TAR_IGNORE,		POS_FIGHTING,
 	NULL,			SLOT( 6),	15,	12,
-  "þimþek çaðrýsý",	"!Call Lightning!",	"", CABAL_NONE ,
+  L"ÅŸimÅŸek Ã§aÄŸrÄ±sÄ±",  L"!Call Lightning!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_WEATHER
     },
 
     {
-    {"calm","yatýþtýrma"},	{ 93, 26, 93, 93, 63, 93, 93, 93 ,93,60,93,93,93},
+    { L"calm", L"yatÄ±ÅŸtÄ±rma"},	{ 93, 26, 93, 93, 63, 93, 93, 93 ,93,60,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_calm,		TAR_IGNORE,		POS_FIGHTING,
 	NULL,			SLOT(509),	30,	12,
-  "",			"Sakinliðini yitiriyorsun.",	"", CABAL_NONE ,
+  L"", L"SakinliÄŸini yitiriyorsun.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_BENEDICTIONS
     },
 
     {
-	{"cancellation","iptal"},	{ 24, 26, 93, 93,93,93,93,93 , 28,93,93,28,93},
+	{ L"cancellation", L"iptal"},	{ 24, 26, 93, 93,93,93,93,93 , 28,93,93,28,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_cancellation,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(507),	20,	12,
-	"",			"!cancellation!",	"", CABAL_NONE ,
+	L"", L"!cancellation!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {
-	{"cause critical","kritik zarar"},	{  93,  15, 93, 93,93,93,93,93 ,93,93,93,93,93},
+	{ L"cause critical", L"kritik zarar"},	{  93,  15, 93, 93,93,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1,1, 1,1,1,1},
 	spell_cause_critical,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(63),	20,	12,
-  "kritik zarar",		"!Cause Critical!",	"", CABAL_NONE ,
+  L"kritik zarar", L"!Cause Critical!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_HARMFUL
     },
 
     {
-	{"cause light","hafif zarar"},		{ 93,  2, 93, 93,93,93,93,93,93 ,93,93,93,93},
+	{ L"cause light", L"hafif zarar"},		{ 93,  2, 93, 93,93,93,93,93,93 ,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_cause_light,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(62),	15,	12,
-  "hafif zarar",		"!Cause Light!",	"", CABAL_NONE ,
+  L"hafif zarar", L"!Cause Light!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_HARMFUL
     },
 
     {
-	{"cause serious","ciddi zarar"},	{  93,  8, 93, 93,93,93,93,93, 93 ,93,93,93,93},
+	{ L"cause serious", L"ciddi zarar"},	{  93,  8, 93, 93,93,93,93,93, 93 ,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_cause_serious,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(64),	17,	12,
-  "ciddi zarar",		"!Cause Serious!",	"", CABAL_NONE ,
+  L"ciddi zarar", L"!Cause Serious!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_HARMFUL
     },
 
     {
-	{"caustic font","yakýcý su"},{ 93, 93, 93, 93, 93, 93, 93,93,41,93,93,93,93},
+	{ L"caustic font", L"yakÄ±cÄ± su"},{ 93, 93, 93, 93, 93, 93, 93,93,41,93,93,93,93},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_caustic_font,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(653),	20,	12,
-  "yakýcý su",	"!caustic font!", "", CABAL_NONE ,
+  L"yakÄ±cÄ± su",  L"!caustic font!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"chain lightning","þimþek zinciri"},		{ 33, 93, 93, 93,93,93,93,93, 33 ,93,33,33,33},
+	{ L"chain lightning", L"ÅŸimÅŸek zinciri"},		{ 33, 93, 93, 93,93,93,93,93, 33 ,93,33,33,33},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_chain_lightning,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(500),	25,	12,
-  "þimþek",		"!Chain Lightning!",	"", CABAL_NONE ,
+  L"ÅŸimÅŸek", L"!Chain Lightning!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"charm person","teshir"},		{ 93, 93, 93, 93,93,38,93,93, 93,93,93,93,93 },
+	{ L"charm person", L"teshir"},		{ 93, 93, 93, 93,93,38,93,93, 93,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_charm_person,	TAR_CHAR_OFFENSIVE,	POS_STANDING,
 	&gsn_charm_person,	SLOT( 7),	 5,	12,
-  "",		"Kendine güvenin artýyor.",	"",
+  L"", L"Kendine gÃ¼venin artÄ±yor.",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_BEGUILING
     },
 
     {
-	{"chromatic orb","krom küre"},	{ 93, 93, 93, 93, 93,93,93,93,63,93,93,93,93},
+	{ L"chromatic orb", L"krom kÃ¼re"},	{ 93, 93, 93, 93, 93,93,93,93,63,93,93,93,93},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_chromatic_orb,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(714),	50,	12,
-  "krom küre",		"!Chromatic Orb!", "", CABAL_NONE ,
+  L"krom kÃ¼re", L"!Chromatic Orb!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"control undead","hortlak kontrolü"},      {  93, 93,93,93,93,93,93,93,93,93,93,57,93},
+	{ L"control undead", L"hortlak kontrolÃ¼"},      {  93, 93,93,93,93,93,93,93,93,93,93,57,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_control_undead,   TAR_CHAR_OFFENSIVE,          POS_STANDING,
         NULL,             SLOT(669),        20,       12,
-        "", "Kendine güvenin artýyor.", "",	CABAL_NONE ,
+        L"", L"Kendine gÃ¼venin artÄ±yor.", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"chill touch","ayaz"},		{  5, 93, 93, 93,93,6,93,93 ,5,93,93,7,8 },
+	{ L"chill touch", L"ayaz"},		{  5, 93, 93, 93,93,6,93,93 ,5,93,93,7,8 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_chill_touch,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	&gsn_chill_touch,		SLOT( 8),	15,	12,
-  "ayaz",	"Üþümen azalýyor.",	"", CABAL_NONE ,
+  L"ayaz",  L"ÃœÅŸÃ¼men azalÄ±yor.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"colour spray","renk spreyi"},		{  22, 93, 93, 93,93,93,93,93 , 22,93,25,93,22},
+	{ L"colour spray", L"renk spreyi"},		{  22, 93, 93, 93,93,93,93,93 , 22,93,25,93,22},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_colour_spray,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(10),	15,	12,
-  "renk spreyi",		"!Colour Spray!",	"", CABAL_NONE ,
+  L"renk spreyi", L"!Colour Spray!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"continual light","daimi ýþýk"},		{  11,  5, 93, 93,93,93,93,93 , 11,93,93,93,93},
+	{ L"continual light", L"daimi Ä±ÅŸÄ±k"},		{  11,  5, 93, 93,93,93,93,93 , 11,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_continual_light,	TAR_IGNORE,		POS_STANDING,
 	NULL,			SLOT(57),	 7,	12,
-	"",			"!Continual Light!",	"", CABAL_NONE ,
+	L"", L"!Continual Light!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_CREATION
     },
 
     {
-	{"control weather","hava kontrolü"},	{ 93,21,93,93, 93,93,11,33, 30,93,24,24,20},
+	{ L"control weather", L"hava kontrolÃ¼"},	{ 93,21,93,93, 93,93,11,33, 30,93,24,24,20},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_control_weather,	TAR_IGNORE,		POS_STANDING,
 	NULL,			SLOT(11),	25,	12,
-	"",			"!Control Weather!",	"", CABAL_NONE ,
+	L"", L"!Control Weather!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_WEATHER
     },
 
     {
-	{"corruption","çürüme"},      {  93, 93, 93, 93, 93,93,93,93,93,93,93,63,93},
+	{ L"corruption", L"Ã§Ã¼rÃ¼me"},      {  93, 93, 93, 93, 93,93,93,93,93,93,93,63,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_corruption,    TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
         NULL,             SLOT(671),        20,       12,
-        "çürüme", "Kendini saðlýklý hissediyorsun.", "",CABAL_NONE,
+        L"Ã§Ã¼rÃ¼me", L"Kendini saÄŸlÄ±klÄ± hissediyorsun.", L"",CABAL_NONE,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"create food","mantar"},		{ 15, 8, 93, 93,3,93,93,93 , 93,93,93,12,13},
+	{ L"create food", L"mantar"},		{ 15, 8, 93, 93,3,93,93,93 , 93,93,93,12,13},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_create_food,	TAR_IGNORE,		POS_STANDING,
 	NULL,			SLOT(12),	 5,	12,
-	"",			"!Create Food!",	"", CABAL_NONE ,
+	L"", L"!Create Food!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_CREATION
     },
 
     {
-	{"create rose","gül"},		{ 26, 93, 93, 93, 20, 93, 93, 93,93,93,26,26,26},
+	{ L"create rose", L"gÃ¼l"},		{ 26, 93, 93, 93, 20, 93, 93, 93,93,93,26,26,26},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_create_rose,	TAR_IGNORE,		POS_STANDING,
 	NULL,			SLOT(511),	30, 	12,
-	"",			"!Create Rose!",	"", CABAL_NONE ,
+	L"", L"!Create Rose!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_CREATION
     },
 
     {
-	{"create spring","pýnar"},		{ 24, 27, 93, 93,93,93,93,93 ,93,93,93,31,31},
+	{ L"create spring", L"pÄ±nar"},		{ 24, 27, 93, 93,93,93,93,93 ,93,93,93,31,31},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_create_spring,	TAR_IGNORE,		POS_STANDING,
 	NULL,			SLOT(80),	20,	12,
-	"",			"!Create Spring!",	"", CABAL_NONE ,
+	L"", L"!Create Spring!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_CREATION
     },
 
     {
-	{"create water","su yaratma"},	{ 8,  3, 93, 93,4,93,93,93 ,93,93,93,11,8},
+	{ L"create water", L"su yaratma"},	{ 8,  3, 93, 93,4,93,93,93 ,93,93,93,11,8},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_create_water,	TAR_OBJ_INV,		POS_STANDING,
 	NULL,			SLOT(13),	 5,	12,
-	"",			"!Create Water!",	"", CABAL_NONE ,
+	L"", L"!Create Water!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_CREATION
     },
 
     {
-	{"cure blindness","körlük tedavi"},		{ 93,11,93,93, 7,93,9,13, 93,20,93,93,93},
+	{ L"cure blindness", L"kÃ¶rlÃ¼k tedavi"},		{ 93,11,93,93, 7,93,9,13, 93,20,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_cure_blindness,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(14),	 5,	12,
-	"",			"!Cure Blindness!",	"", CABAL_NONE ,
+	L"", L"!Cure Blindness!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_CURATIVE
     },
 
     {
-	{"cure critical","kritik tedavi"},	{93,  18, 93, 93,18,93,25,93,93,25,93,93,93},
+	{ L"cure critical", L"kritik tedavi"},	{93,  18, 93, 93,18,93,25,93,93,25,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_cure_critical,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
 	&gsn_cure_critical,	SLOT(15),	20,	12,
-	"",			"!Cure Critical!",	"", CABAL_NONE ,
+	L"", L"!Cure Critical!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_HEALING
     },
 
     {
-	{"cure disease","hastalýk tedavi"},		{  93, 19, 93, 93,33,93,93,93 ,93,93,93,93,93},
+	{ L"cure disease", L"hastalÄ±k tedavi"},		{  93, 19, 93, 93,33,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_cure_disease,	TAR_CHAR_DEFENSIVE,	POS_STANDING,
 	NULL,			SLOT(501),	20,	12,
-	"",			"!Cure Disease!",	"", CABAL_NONE ,
+	L"", L"!Cure Disease!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_CURATIVE
     },
 
     {
-	{"cure light","hafif tedavi"},	{ 93,  4, 93, 93,5,11,9,93,93,10,93,93,93},
+	{ L"cure light", L"hafif tedavi"},	{ 93,  4, 93, 93,5,11,9,93,93,10,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_cure_light,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
 	&gsn_cure_light,	SLOT(16),	10,	12,
-	"",			"!Cure Light!",		"", CABAL_NONE ,
+	L"", L"!Cure Light!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_HEALING
     },
 
     {
-	{"poison","zehir"},		{  93,  22, 93,93,93,15,93,93,27,93,93,23,93 },
+	{ L"poison", L"zehir"},		{  93,  22, 93,93,93,15,93,93,27,93,93,23,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_poison,		TAR_OBJ_CHAR_OFF,	POS_FIGHTING,
 	&gsn_poison,		SLOT(33),	10,	12,
-  "zehir",		"Üzerindeki zehir kuruyor.",
-	"$p üzerindeki zehir kuruyor.", CABAL_NONE ,
+  L"zehir", L"Ãœzerindeki zehir kuruyor.",
+	L"$p Ã¼zerindeki zehir kuruyor.", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_MALADICTIONS
     },
 
     {
-	{"cure poison","zehir tedavi"},			{ 93,  23, 93,93,33,93,93,93,93,35,93,93,23 },
+	{ L"cure poison", L"zehir tedavi"},			{ 93,  23, 93,93,33,93,93,93,93,35,93,93,23 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_cure_poison,	TAR_CHAR_DEFENSIVE,	POS_STANDING,
 	&gsn_cure_poison,		SLOT(43),	 5,	12,
-	"",			"!Cure Poison!",	"", CABAL_NONE ,
+	L"", L"!Cure Poison!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_CURATIVE
     },
 
     {
-	{"cure serious","ciddi tedavi"},	{ 93,  10, 93, 93,10,93,18,93,93,18,93,93,93},
+	{ L"cure serious", L"ciddi tedavi"},	{ 93,  10, 93, 93,10,93,18,93,93,18,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_cure_serious,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
 	&gsn_cure_serious,	SLOT(61),	15,	12,
-	"",			"!Cure Serious!",	"", CABAL_NONE ,
+	L"", L"!Cure Serious!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_HEALING
     },
 
     {
-	{"curse","lanet"},		{ 93, 33, 93,93,93,18,93,93,31,93,44,34,93},
+	{ L"curse", L"lanet"},		{ 93, 33, 93,93,93,18,93,93,31,93,44,34,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_curse,		TAR_OBJ_CHAR_OFF,	POS_FIGHTING,
 	&gsn_curse,		SLOT(17),	20,	12,
-  "lanet",		"Üzerindeki lanet çürüyor.",
-	"$p üzerindeki lanet çürüyor.", CABAL_NONE , RACE_NONE,
+  L"lanet", L"Ãœzerindeki lanet Ã§Ã¼rÃ¼yor.",
+	L"$p Ã¼zerindeki lanet Ã§Ã¼rÃ¼yor.", CABAL_NONE , RACE_NONE,
 	ALIGN_NONE, GROUP_MALADICTIONS
     },
 
     {
-	{"cursed lands","lanetli topraklar"},    { 93, 41, 93, 93,93, 93, 93, 93 ,93,93,93,64,93},
+	{ L"cursed lands", L"lanetli topraklar"},    { 93, 41, 93, 93,93, 93, 93, 93 ,93,93,93,64,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_cursed_lands,	TAR_IGNORE,	POS_STANDING,
 	&gsn_cursed_lands,	SLOT(675),	200,	24,
-	"",		"!cursed lands!",	"",
+	L"", L"!cursed lands!",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_MALADICTIONS
     },
 
     {
-	{"deadly venom","ölüm zehri"},   { 93, 93, 93, 93,93, 58, 93, 93 ,93,93,93,93,93},
+	{ L"deadly venom", L"Ã¶lÃ¼m zehri"},   { 93, 93, 93, 93,93, 58, 93, 93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_deadly_venom,	TAR_IGNORE,	POS_STANDING,
 	&gsn_deadly_venom,		SLOT(674),	200,	24,
-	"",		"!deadly venom!",	"",
+	L"", L"!deadly venom!",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_MALADICTIONS
     },
 
     {
-	{"deafen","saðýrlýk"},       {  93,93,93,93,93,42,93,93 ,93,93,93,93,93},
+	{ L"deafen", L"saÄŸÄ±rlÄ±k"},       {  93,93,93,93,93,42,93,93 ,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_deafen,      TAR_CHAR_OFFENSIVE,   POS_FIGHTING,
         &gsn_deafen,       SLOT(570),        40,       12,
-        "saðýrlýk", "Kulaklarýndaki çýnlama sonunda yokoluyor.", "", CABAL_NONE ,
+        L"saÄŸÄ±rlÄ±k", L"KulaklarÄ±ndaki Ã§Ä±nlama sonunda yokoluyor.", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"demonfire","iblis ateþi"},		{  93, 37, 93, 93,93,93,93,93,93,93,93,93,93},
+	{ L"demonfire", L"iblis ateÅŸi"},		{  93, 37, 93, 93,93,93,93,93,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_demonfire,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	&gsn_demonfire,			SLOT(505),	20,	12,
-  "iblis ateþi",		"!Demonfire!",		"", CABAL_NONE ,
+  L"iblis ateÅŸi", L"!Demonfire!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_ATTACK
     },
 
     {
-	{"desert fist","çöl yumruðu"},		{ 93, 58, 93,93,93,93,93,93,93,93,93,93,55 },
+	{ L"desert fist", L"Ã§Ã¶l yumruÄŸu"},		{ 93, 58, 93,93,93,93,93,93,93,93,93,93,55 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_desert_fist, 	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(681),	50,	12,
-  "çöl yumruðu",	"!desert fist!", "", CABAL_NONE ,
+  L"Ã§Ã¶l yumruÄŸu",  L"!desert fist!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE,GROUP_NONE
     },
 
     {
-	{"detect evil","kem saptama"},		{ 12,  11, 93, 93,3,93,93,93 ,12,93,93,93,13},
+	{ L"detect evil", L"kem saptama"},		{ 12,  11, 93, 93,3,93,93,93 ,12,93,93,93,13},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_detect_evil,	TAR_CHAR_SELF,		POS_STANDING,
 	NULL,			SLOT(18),	 5,	12,
-  "",			"Kem saptama sönüyor.",	"", CABAL_NONE ,
+  L"", L"Kem saptama sÃ¶nÃ¼yor.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_DETECTION
     },
 
     {
-	{"detect good","iyi saptama"},         { 12,  11, 93, 93,3,93,93,93 ,12,93,13,13,13},
+	{ L"detect good", L"iyi saptama"},         { 12,  11, 93, 93,3,93,93,93 ,12,93,13,13,13},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_detect_good,      TAR_CHAR_SELF,          POS_STANDING,
         NULL,                   SLOT(513),        5,     12,
-        "",                     "Ýyiyi saptama sönüyor.",	"", CABAL_NONE ,
+        L"", L"Ä°yiyi saptama sÃ¶nÃ¼yor.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_DETECTION
     },
 
     {
-	{"detect hide","saklýyý saptama"},	{ 93, 93, 10, 93, 93, 93, 10, 93 ,93,93,93,93,93},
+	{ L"detect hide", L"saklÄ±yÄ± saptama"},	{ 93, 93, 10, 93, 93, 93, 10, 93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_CHAR_SELF,		POS_STANDING,
 	&gsn_detect_hidden,	SLOT(0),	 5,	12,
-  "",			"Saklýyý saptama sönüyor.",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_DETECTION
+  L"", L"SaklÄ±yÄ± saptama sÃ¶nÃ¼yor.",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_DETECTION
     },
 
     {
-	{"detect invis","görünmezi saptama"},		{  5,  17, 93, 93,23,13,93,93 ,10,93,23,13,8},
+	{ L"detect invis", L"gÃ¶rÃ¼nmezi saptama"},		{  5,  17, 93, 93,23,13,93,93 ,10,93,23,13,8},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_detect_invis,	TAR_CHAR_SELF,		POS_STANDING,
 	NULL,			SLOT(19),	 5,	12,
-  "",			"Görünmezi saptama sönüyor.",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_DETECTION
+  L"", L"GÃ¶rÃ¼nmezi saptama sÃ¶nÃ¼yor.",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_DETECTION
     },
 
     {
-	{"detect magic","büyü saptama"},	{  8,  12, 93, 93,93,93,93,93,6,30,93,15,12},
+	{ L"detect magic", L"bÃ¼yÃ¼ saptama"},	{  8,  12, 93, 93,93,93,93,93,6,30,93,15,12},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_detect_magic,	TAR_CHAR_SELF,		POS_STANDING,
 	NULL,			SLOT(20),	 5,	12,
-  "",			"Büyü saptama sönüyor.",	"", CABAL_NONE ,
+  L"", L"BÃ¼yÃ¼ saptama sÃ¶nÃ¼yor.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_DETECTION
     },
 
     {
-	{"detect poison","zehir saptama"},	{ 35,  39, 93, 93,93,93,93,93,35 ,39,31,21,7},
+	{ L"detect poison", L"zehir saptama"},	{ 35,  39, 93, 93,93,93,93,93,35 ,39,31,21,7},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_detect_poison,	TAR_OBJ_INV,		POS_STANDING,
 	NULL,			SLOT(21),	 5,	12,
-	"",			"!Detect Poison!",	"", CABAL_NONE ,
+	L"", L"!Detect Poison!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_DETECTION
     },
 
     {
-{"detect undead","hortlak saptama"},	{ 93, 93,93, 93,93,93,93,93 ,93,93,93,13,93},
+{ L"detect undead", L"hortlak saptama"},	{ 93, 93,93, 93,93,93,93,93 ,93,93,93,13,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_detect_undead,	TAR_CHAR_SELF,		POS_STANDING,
 	NULL,		SLOT(594),	5,	12,
-  "",		"Hortlak saptama sönüyor.", "",
+  L"", L"Hortlak saptama sÃ¶nÃ¼yor.", L"",
 	CABAL_NONE, 	RACE_NONE, ALIGN_NONE, GROUP_DETECTION
     },
 
     {
-	{"disenchant armor","zýrh alçalt"},	{ 27, 93, 93, 93, 93, 93,93,93,93,93,93,93,93},
+	{ L"disenchant armor", L"zÄ±rh alÃ§alt"},	{ 27, 93, 93, 93, 93, 93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_disenchant_armor,		TAR_OBJ_INV,		POS_STANDING,
 	NULL,			SLOT(705),	50,	24,
-	"",		"!disenchant armor!",	"", 	CABAL_NONE ,
+	L"", L"!disenchant armor!",  L"", 	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"disenchant weapon","silah alçalt"},		{ 34, 93, 93, 93, 93, 93,93,93,93,93,93,93,93},
+	{ L"disenchant weapon", L"silah alÃ§alt"},		{ 34, 93, 93, 93, 93, 93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_disenchant_weapon,	TAR_OBJ_INV,		POS_STANDING,
 	NULL,			SLOT(706),	50,	24,
-	"",		"!disenchant weapon!",	"", 	CABAL_NONE ,
+	L"", L"!disenchant weapon!",  L"", 	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"disintegrate","ufala"},       {  75,93,93,93,93,93,93,93,93,93 ,93,93,93},
+	{ L"disintegrate", L"ufala"},       {  75,93,93,93,93,93,93,93,93,93 ,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_disintegrate,      TAR_CHAR_OFFENSIVE,   POS_STANDING,
         NULL,                    SLOT(574),    100,       18,
-        "ince ýþýk ýþýný", "!disintegrate!", "",	CABAL_NONE ,
+        L"ince Ä±ÅŸÄ±k Ä±ÅŸÄ±nÄ±", L"!disintegrate!", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"arz yutaðý","arz yutaðý"},       {  93,93,93,93,93,93,93,93,93,93 ,93,93,75},
+	{ L"arz yutaÄŸÄ±", L"arz yutaÄŸÄ±"},       {  93,93,93,93,93,93,93,93,93,93 ,93,93,75},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_arz_yutagi,      TAR_CHAR_OFFENSIVE,   POS_STANDING,
         NULL,                    SLOT(574),    100,       18,
-        "arz yutaðý", "!arz yutaðý!", "",	CABAL_NONE ,
+        L"arz yutaÄŸÄ±", L"!arz yutaÄŸÄ±!", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"dismantle","parçala"},	{ 93, 93,93, 93,93,93,93,93 ,93,93,93,93,93},
+	{ L"dismantle", L"parÃ§ala"},	{ 93, 93,93, 93,93,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_CHAR_SELF,		POS_STANDING,
 	NULL,		SLOT(621),	200,	24,
-	"",	"!621!",	"",
+	L"",  L"!621!",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"dispel evil","kem defet"},		{ 93, 27, 93, 93,35,93,93,93,55 ,93,93,93,93},
+	{ L"dispel evil", L"kem defet"},		{ 93, 27, 93, 93,35,93,93,93,55 ,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_dispel_evil,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(22),	15,	12,
-  "kem defet",		"!Dispel Evil!",	"", CABAL_NONE ,
+  L"kem defet", L"!Dispel Evil!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_ATTACK
     },
 
     {
-	{"dispel good","iyilik defet"},          {   93,  27,  93,  93,93,30,93,93,57,93,32,32,93},
+	{ L"dispel good", L"iyilik defet"},          {   93,  27,  93,  93,93,30,93,93,57,93,32,32,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_dispel_good,      TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
         NULL,                   SLOT(512),      15,     12,
-        "iyilik defet",          "!Dispel Good!",	"", CABAL_NONE ,
+        L"iyilik defet",          L"!Dispel Good!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_ATTACK
     },
 
     {
-	{"dispel magic","büyü defet"},	{ 36, 43, 93, 93,93,93,93,93 ,41,93,24,24,93},
+	{ L"dispel magic", L"bÃ¼yÃ¼ defet"},	{ 36, 43, 93, 93,93,93,93,93 ,41,93,24,24,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_dispel_magic,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(59),	15,	12,
-	"",			"!Dispel Magic!",	"", CABAL_NONE ,
+	L"", L"!Dispel Magic!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {
-	{"disruption","nefes kesme"},	{ 93, 93, 93, 93, 93, 93, 93,93,93,93,93,40,93},
+	{ L"disruption", L"nefes kesme"},	{ 93, 93, 93, 93, 93, 93, 93,93,93,93,93,40,93},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_disruption,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(648),	20,	12,
-  "nefes kesme",	"!disruption!", "", CABAL_NONE ,
+  L"nefes kesme",  L"!disruption!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"dragon breath","ejderha nefesi"}, {93,93,93,93,93,93,93,93,93,93,93,93,93},
+	{ L"dragon breath", L"ejderha nefesi"}, {93,93,93,93,93,93,93,93,93,93,93,93,93},
 	{1,1,1,1,1,1,1,1,1, 1,1,1,1},
         spell_dragon_breath,  TAR_CHAR_OFFENSIVE, POS_FIGHTING,
         &gsn_dragon_breath,  SLOT(563),   75,   12,
-        "ejderha nefesi", "!dragon breath!", "",	CABAL_NONE ,
+        L"ejderha nefesi", L"!dragon breath!", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"dragon skin","ejderha derisi"},	{ 10, 10,10, 10,10,10,10,10 ,10,10,10,10,10},
+	{ L"dragon skin", L"ejderha derisi"},	{ 10, 10,10, 10,10,10,10,10 ,10,10,10,10,10},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_dragon_skin,	TAR_CHAR_SELF,		POS_STANDING,
 	NULL,			SLOT(612),	50,	24,
-  "",	"Derin yumuþuyor.",	"",
+  L"",  L"Derin yumuÅŸuyor.",  L"",
 	CABAL_NONE , RACE_TOP, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {
-	{"dragon strength","ejderha gücü"}, {93,93,93,93,93,93,93,93,93,93,93,93,93},
+	{ L"dragon strength", L"ejderha gÃ¼cÃ¼"}, {93,93,93,93,93,93,93,93,93,93,93,93,93},
 	{1,1,1,1,1,1,1,1, 1, 1,1,1,1},
         spell_dragon_strength, TAR_CHAR_SELF, POS_FIGHTING,
         &gsn_dragon_strength, SLOT(562),    75,    12,
-        "", "Ejderha gücünün seni terkettiðini hissediyorsun.", "",	CABAL_NONE ,
+        L"", L"Ejderha gÃ¼cÃ¼nÃ¼n seni terkettiÄŸini hissediyorsun.", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"dragons breath","ejderha nefesi"},	{ 61, 93, 93, 93, 93, 93, 93, 93 ,61,93,93,93,93},
+	{ L"dragons breath", L"ejderha nefesi"},	{ 61, 93, 93, 93, 93, 93, 93, 93 ,61,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_dragons_breath,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(576),	200,	24,
-  "ejderha nefesi",	"Saðlýðýna kavuþuyorsun.",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_DRACONIAN
+  L"ejderha nefesi",  L"SaÄŸlÄ±ÄŸÄ±na kavuÅŸuyorsun.",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_DRACONIAN
     },
 
     {
-	{"drain","kurut"},		{ 31, 93, 93, 93, 93, 93,93,93,93,93,93,93,93},
+	{ L"drain", L"kurut"},		{ 31, 93, 93, 93, 93, 93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_drain,		TAR_OBJ_INV,		POS_STANDING,
 	NULL,			SLOT(704),	5,	12,
-	"",		"!drain!",	"", 	CABAL_NONE ,
+	L"", L"!drain!",  L"", 	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_MALADICTIONS
     },
 
     {
-	{"earthfade","arz soluþu"},		{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,73},
+	{ L"earthfade", L"arz soluÅŸu"},		{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,73},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_earthfade,	TAR_CHAR_OFFENSIVE,		POS_FIGHTING,
 	&gsn_earthfade,			SLOT(702),	100,	12,
-  "",		"Doðal formuna dönüyorsun.",	"",
+  L"", L"DoÄŸal formuna dÃ¶nÃ¼yorsun.",  L"",
  	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"earthmaw","fay"},		{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,67},
+	{ L"earthmaw", L"fay"},		{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,67},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_earthmaw,		TAR_CHAR_OFFENSIVE,		POS_FIGHTING,
 	NULL,			SLOT(703),	30,	12,
-	"earthmaw",		"!earthmaw!",	"", 	CABAL_NONE ,
+	L"earthmaw", L"!earthmaw!",  L"", 	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"earthquake","deprem"},	{ 93,  19, 93, 93,93,93,93,93,93,93,93,93,19 },
+	{ L"earthquake", L"deprem"},	{ 93,  19, 93, 93,93,93,93,93,93,93,93,93,19 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_earthquake,	TAR_IGNORE,		POS_FIGHTING,
 	NULL,			SLOT(23),	15,	12,
-  "deprem",		"!Deprem!",		"", CABAL_NONE ,
+  L"deprem", L"!Deprem!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_ATTACK
     },
 
     {
-	{"elemental sphere","uþak küresi"},	{ 93, 93,93,93, 93,93,93,93 ,93,93,93,93,29},
+	{ L"elemental sphere", L"uÅŸak kÃ¼resi"},	{ 93, 93,93,93, 93,93,93,93 ,93,93,93,93,29},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_elemental_sphere,	TAR_CHAR_DEFENSIVE,	POS_STANDING,
 	NULL,			SLOT(719),	75,	12,
-  "",	"Koruyucu uþak küresi yokoluyor.",	"",
+  L"",  L"Koruyucu uÅŸak kÃ¼resi yokoluyor.",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"enchant armor","zýrh yükselt"},	{  26, 25, 93, 93,93,93,93,93 ,93,93,93,93,93},
+	{ L"enchant armor", L"zÄ±rh yÃ¼kselt"},	{  26, 25, 93, 93,93,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_enchant_armor,	TAR_OBJ_INV,		POS_STANDING,
 	NULL,			SLOT(510),	100,	24,
-	"",			"!Enchant Armor!",	"", CABAL_NONE ,
+	L"", L"!Enchant Armor!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_ENCHANTMENT
     },
 
     {
-	{"enchant weapon","silah yükselt"},{  33, 25, 93, 93,93,93,93,93,17,93,93,93,93 },
+	{ L"enchant weapon", L"silah yÃ¼kselt"},{  33, 25, 93, 93,93,93,93,93,17,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_enchant_weapon,	TAR_OBJ_INV,		POS_STANDING,
 	NULL,			SLOT(24),	100,	24,
-	"",			"!Enchant Weapon!",	"", CABAL_NONE ,
+	L"", L"!Enchant Weapon!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_ENCHANTMENT
     },
 
     {
-	{"energy drain","yaþam kurut"},		{ 38,42,93,93,93,26,93,93,93,93,93,45,93},
+	{ L"energy drain", L"yaÅŸam kurut"},		{ 38,42,93,93,93,26,93,93,93,93,93,45,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_energy_drain,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(25),	35,	12,
-  "yaþam kurut",		"!Energy Drain!",	"", CABAL_NONE ,
+  L"yaÅŸam kurut", L"!Energy Drain!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_MALADICTIONS
     },
 
     {
-	{"enhanced armor","geliþmiþ zýrh"},	{ 48, 33, 93,93,93,93,93,93,93,93,93,93,93},
+	{ L"enhanced armor", L"geliÅŸmiÅŸ zÄ±rh"},	{ 48, 33, 93,93,93,93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1},
 	spell_enhanced_armor, 	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
 	&gsn_enhanced_armor,	SLOT(583),	20,	12,
-  "",	"Korunmasýz hissediyorsun.", "", CABAL_NONE ,
+  L"",  L"KorunmasÄ±z hissediyorsun.", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {
-	{"enlarge","geniþleme"},		{  93,93,93,93, 93,93,93,93, 38,93,93,93,93},
+	{ L"enlarge", L"geniÅŸleme"},		{  93,93,93,93, 93,93,93,93, 38,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_enlarge,		TAR_CHAR_DEFENSIVE,	POS_STANDING,
 	NULL,			SLOT(711),	 50,	12,
-  "",	"Doðal boyutlarýna dönüyorsun.",	"", CABAL_NONE,
+  L"",  L"DoÄŸal boyutlarÄ±na dÃ¶nÃ¼yorsun.",  L"", CABAL_NONE,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"etheral fist","ruhani yumruk"},		{ 93,93,93,93, 93, 50,93,93,93,93,93,93,93},
+	{ L"etheral fist", L"ruhani yumruk"},		{ 93,93,93,93, 93, 50,93,93,93,93,93,93,93},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_etheral_fist,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(645),	20,	12,
-  "ruhani yumruk",		"!Etheral Fist!", "", CABAL_NONE ,
+  L"ruhani yumruk", L"!Etheral Fist!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"faerie fire","cin ateþi"},		{ 11,  6, 93, 93,93,93,8,93 ,15 ,93,93,93,11},
+	{ L"faerie fire", L"cin ateÅŸi"},		{ 11,  6, 93, 93,93,93,8,93 ,15 ,93,93,93,11},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_faerie_fire,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	&gsn_faerie_fire,		SLOT(72),	 5,	12,
-  "cin ateþi",		"Pembe aylandan kurtuluyorsun.",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_WEATHER
+  L"cin ateÅŸi", L"Pembe aylandan kurtuluyorsun.",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_WEATHER
     },
 
     {
-	{"faerie fog","cin sisi"},	{ 24, 31, 93, 93,93,93,93,93 ,27,93,93,93,24},
+	{ L"faerie fog", L"cin sisi"},	{ 24, 31, 93, 93,93,93,93,93 ,27,93,93,93,24},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_faerie_fog,	TAR_IGNORE,		POS_STANDING,
 	NULL,			SLOT(73),	12,	12,
-  "cin sisi",		"!Faerie Fog!",		"", CABAL_NONE ,
+  L"cin sisi", L"!Faerie Fog!", L"", CABAL_NONE ,
 	RACE_NONE,ALIGN_NONE, GROUP_WEATHER
     },
 
     {
-	{"farsight","uzak görüþ"},	{  22, 93, 93, 93,93,93,93,93,22,93,93,93,93 },
+	{ L"farsight", L"uzak gÃ¶rÃ¼ÅŸ"},	{  22, 93, 93, 93,93,93,93,93,22,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_farsight,		TAR_IGNORE,		POS_STANDING,
 	NULL,			SLOT(521),	20,	12,
-  "uzak görüþ",		"!Farsight!",		"", CABAL_NONE ,
+  L"uzak gÃ¶rÃ¼ÅŸ", L"!Farsight!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_DETECTION
     },
 
     {
-	{"fear","korku"},			{   93, 93, 93, 93,93,93,93,93,93 ,93,93,73,93},
+	{ L"fear", L"korku"},			{   93, 93, 93, 93,93,93,93,93,93 ,93,93,73,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_fear,	TAR_CHAR_OFFENSIVE,	POS_STANDING,
 	&gsn_fear,	SLOT(598),	50,	12,
-  "",		"Daha cesur hissediyorsun.",	"", CABAL_NONE ,
+  L"", L"Daha cesur hissediyorsun.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_ILLUSION
     },
 
     {
-	{"fire and ice","ateþ ve buz"},		{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,65},
+	{ L"fire and ice", L"ateÅŸ ve buz"},		{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,65},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_fire_and_ice,	TAR_CHAR_OFFENSIVE,		POS_FIGHTING,
 	NULL,			SLOT(699),	40,	12,
-  "ateþ ve buz",		"!fire and ice!",	"", 	CABAL_NONE ,
+  L"ateÅŸ ve buz", L"!fire and ice!",  L"", 	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"fireball","alev topu"},		{55,93,93,93,93,56,93,93,56,93,93,93,55},
+	{ L"fireball", L"alev topu"},		{55,93,93,93,93,56,93,93,56,93,93,93,55},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_fireball,		TAR_IGNORE,	POS_FIGHTING,
 	NULL,			SLOT(26),	25,	12,
-  "alev topu",		"!Fireball!",		"", CABAL_NONE ,
+  L"alev topu", L"!Fireball!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"fireproof","ateþ geçirmez"},		{ 25, 16, 93, 93, 20, 93,93,93,21,93,93,42,93},
+	{ L"fireproof", L"ateÅŸ geÃ§irmez"},		{ 25, 16, 93, 93, 20, 93,93,93,21,93,93,42,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_fireproof,	TAR_OBJ_INV,		POS_STANDING,
 	NULL,			SLOT(523),	10,	12,
-  "",		"",	"$p üzerindeki koruyucu ayla yokoluyor.", CABAL_NONE ,
+  L"", L"",  L"$p Ã¼zerindeki koruyucu ayla yokoluyor.", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_ENCHANTMENT
     },
 
     {
-	{"firestream","alev akýmý"},	{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,35},
+	{ L"firestream", L"alev akÄ±mÄ±"},	{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,35},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_firestream,	TAR_CHAR_OFFENSIVE,		POS_FIGHTING,
 	NULL,			SLOT(692),	20,	12,
-	"",		"",	"", 	CABAL_NONE ,
+	L"", L"",  L"", 	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"fire shield","alev kalkaný"},			{   93, 93, 93, 93,93,93,93,93,93 ,93,93,93,68},
+	{ L"fire shield", L"alev kalkanÄ±"},			{   93, 93, 93, 93,93,93,93,93,93 ,93,93,93,68},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_fire_shield,	TAR_IGNORE,	POS_STANDING,
 	&gsn_fire_shield,		SLOT(601),	200,	24,
-	"",			"!fire shield!",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
+	L"", L"!fire shield!",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"flamestrike","alev saldýrýsý"},			{93,42,93,93,32,93,93,93,93,93,93,93,93},
+	{ L"flamestrike", L"alev saldÄ±rÄ±sÄ±"},			{93,42,93,93,32,93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_flamestrike,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(65),	20,	12,
-  "alev saldýrýsý",		"!Flamestrike!",		"", CABAL_NONE ,
+  L"alev saldÄ±rÄ±sÄ±", L"!Flamestrike!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_ATTACK
     },
 
     {
-	{"fly","uçma"},				{ 19, 30, 93,93,93,93,93,93,19,93,43,23,21},
+	{ L"fly", L"uÃ§ma"},				{ 19, 30, 93,93,93,93,93,93,19,93,43,23,21},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_fly,		TAR_CHAR_DEFENSIVE,	POS_STANDING,
 	&gsn_fly,			SLOT(56),	10,	18,
-  "",		"Yere iniyorsun.",	"", CABAL_NONE ,
+  L"", L"Yere iniyorsun.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_TRANSPORTATION
     },
 
     {
-	{"floating disc","asýlý disk"},		{ 4, 10, 93, 93, 93, 93, 93, 93 ,4,93,93,93,4},
+	{ L"floating disc", L"asÄ±lÄ± disk"},		{ 4, 10, 93, 93, 93, 93, 93, 93 ,4,93,93,93,4},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_floating_disc,	TAR_IGNORE,		POS_STANDING,
 	NULL,			SLOT(522),	40,	24,
-	"",			"!Floating disc!",	"", CABAL_NONE ,
+	L"", L"!Floating disc!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"forcecage","güç kafesi"},			{ 29, 93,93,93, 93,93,93,93 ,93,93,93,93,93},
+	{ L"forcecage", L"gÃ¼Ã§ kafesi"},			{ 29, 93,93,93, 93,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_forcecage,	TAR_CHAR_DEFENSIVE,	POS_STANDING,
 	NULL,			SLOT(717),	75,	12,
-  "",	"Çevrendeki güç kafesi yokoluyor.",	"",
+  L"",  L"Ã‡evrendeki gÃ¼Ã§ kafesi yokoluyor.",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"frenzy","cinnet"},               {  93, 34, 93, 93,93,93,93,93,93,93,93,93,93 },
+	{ L"frenzy", L"cinnet"},               {  93, 34, 93, 93,93,93,93,93,93,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_frenzy,           TAR_CHAR_DEFENSIVE,     POS_STANDING,
         NULL,                   SLOT(504),      30,     24,
-        "",                     "Cinnetin geçiyor.",	"", CABAL_NONE ,
+        L"", L"Cinnetin geÃ§iyor.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_BENEDICTIONS
     },
 
     {
-	{"frostbolt","ayaz topu"},		{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,42},
+	{ L"frostbolt", L"ayaz topu"},		{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,42},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_frostbolt,	TAR_CHAR_OFFENSIVE,		POS_FIGHTING,
 	NULL,			SLOT(695),	20,	12,
-	"ayaz topu",		"!frostbolt!",	"", 	CABAL_NONE ,
+	L"ayaz topu", L"!frostbolt!",  L"", 	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"fumble","beceriksizlik"},		{ 93,93,93,93, 93,93,93,93 ,36,93,93,93,93},
+	{ L"fumble", L"beceriksizlik"},		{ 93,93,93,93, 93,93,93,93 ,36,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_fumble,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(712), 	25,	18,
-  "",		"Hýzlanýyor ve eski gücüne kavuþuyorsun!",	"",
+  L"", L"HÄ±zlanÄ±yor ve eski gÃ¼cÃ¼ne kavuÅŸuyorsun!",  L"",
 	CABAL_NONE, RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"galvanic whip","enerji kýrbacý"},	{ 28, 93, 93, 93, 93, 93,93,93,93,93,93,93,93},
+	{ L"galvanic whip", L"enerji kÄ±rbacÄ±"},	{ 28, 93, 93, 93, 93, 93,93,93,93,93,93,93,93},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_galvanic_whip,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(655),	20,	12,
-  "enerji kýrbacý",	"!galvanic whip!", "", CABAL_NONE ,
+  L"enerji kÄ±rbacÄ±",  L"!galvanic whip!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"gate","geçit"},			{93,63,93,93,93,93,93,93,27,93,93,93,93},
+	{ L"gate", L"geÃ§it"},			{93,63,93,93,93,93,93,93,27,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_gate,		TAR_IGNORE,		POS_FIGHTING,
 	NULL,			SLOT(83),	80,	12,
-	"",			"!Gate!",		"", CABAL_NONE ,
+	L"", L"!Gate!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_TRANSPORTATION
     },
 
     {
-	{"giant strength","dev gücü"},{  20, 39, 93, 93,93,93,93,93, 30,93,93,28,93},
+	{ L"giant strength", L"dev gÃ¼cÃ¼"},{  20, 39, 93, 93,93,93,93,93, 30,93,93,28,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_giant_strength,	TAR_CHAR_DEFENSIVE,	POS_STANDING,
 	&gsn_giant_strength,		SLOT(39),	20,	12,
-  "",			"Gücün azalýyor.",	"", CABAL_NONE ,
+  L"", L"GÃ¼cÃ¼n azalÄ±yor.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_ENHANCEMENT
     },
 
     {
-	{"grounding","topraklama"},		{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,53},
+	{ L"grounding", L"topraklama"},		{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,53},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_grounding,	TAR_CHAR_SELF,		POS_FIGHTING,
 	NULL,			SLOT(700),	50,	12,
-  "",		"Topraklamaný yitiriyorsun.",	"",
+  L"", L"TopraklamanÄ± yitiriyorsun.",  L"",
  	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"group defense","grup savunma"},	{   93, 35, 93,93,93,93,93,93,93,93,93,93,93},
+	{ L"group defense", L"grup savunma"},	{   93, 35, 93,93,93,93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_group_defense,		TAR_IGNORE,		POS_STANDING,
 	NULL,		SLOT(586),	100,	36,
-  "",			"Korunmasýz hissediyorsun.",	"", CABAL_NONE ,
+  L"", L"KorunmasÄ±z hissediyorsun.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_BENEDICTIONS
     },
 
     {
-	{"group heal","grup þifa"},			{  93,65,93,93,75,93,93,93,93,93,93,93,93},
+	{ L"group heal", L"grup ÅŸifa"},			{  93,65,93,93,75,93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_group_healing,	TAR_CHAR_DEFENSIVE, POS_FIGHTING,
 	NULL,			SLOT(642),	500,	24,
-	"",			"!Group Heal!",		"", CABAL_NONE ,
+	L"", L"!Group Heal!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_HEALING
     },
 
     {
-	{"hallucination","sanrý"},	{   93, 93, 93, 93,93,93,93,93,93,93,93,93,93},
+	{ L"hallucination", L"sanrÄ±"},	{   93, 93, 93, 93,93,93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_hallucination,	TAR_CHAR_SELF,	POS_STANDING,
 	NULL,		SLOT(606),	200,	12,
-  "",			"Büyüye karþý yine savunmasýzsýn.",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_ILLUSION
+  L"", L"BÃ¼yÃ¼ye karÅŸÄ± yine savunmasÄ±zsÄ±n.",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_ILLUSION
     },
 
     {
-	{"hand of undead","hortlak eli"},	{ 93, 93, 93,93,93,93,93,93,93,93,93,44,93},
+	{ L"hand of undead", L"hortlak eli"},	{ 93, 93, 93,93,93,93,93,93,93,93,93,44,93},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_hand_of_undead,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(647),	20,	24,
-  "hortlak eli",	"!hand of undead!", "", CABAL_NONE ,
+  L"hortlak eli",  L"!hand of undead!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"harm","zarar"},			{  93, 26, 93, 93,93,29,93,93,93,93,93,93,93},
+	{ L"harm", L"zarar"},			{  93, 26, 93, 93,93,29,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_harm,		TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(27),	35,	12,
-  "zarar",		"!Harm!",	"", 	CABAL_NONE ,
+  L"zarar", L"!Harm!",  L"", 	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_HARMFUL
     },
 
     {
-	{"haste","hýz"},	{ 24, 93, 93,93,93,93,93,93,24,93,93,93,93},
+	{ L"haste", L"hÄ±z"},	{ 24, 93, 93,93,93,93,93,93,24,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_haste,		TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
 	&gsn_haste,		SLOT(502),	30,	12,
-  "",			"Yavaþladýðýný hissediyorsun.",	"", CABAL_NONE ,
+  L"", L"YavaÅŸladÄ±ÄŸÄ±nÄ± hissediyorsun.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_ENHANCEMENT
     },
 
     {
-	{"heal","þifa"},		{  93, 28, 93, 93,29,93,93,93 ,93 ,93,93,93,93},
+	{ L"heal", L"ÅŸifa"},		{  93, 28, 93, 93,29,93,93,93 ,93 ,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_heal,		TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(28),	50,	12,
-	"",			"!Heal!",		"", CABAL_NONE ,
+	L"", L"!Heal!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_HEALING
     },
 
     {
-	{"healing light","þifa ýþýðý"},    { 93, 41, 93, 93,93, 93, 93, 93 ,93,93,93,93,93},
+	{ L"healing light", L"ÅŸifa Ä±ÅŸÄ±ÄŸÄ±"},    { 93, 41, 93, 93,93, 93, 93, 93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_healing_light,	TAR_IGNORE,	POS_STANDING,
 	NULL,			SLOT(613),	200,	24,
-  "",			"Bir odayý yeniden ýþýðýnla doldurabilirsin.",	"",
+  L"", L"Bir odayÄ± yeniden Ä±ÅŸÄ±ÄŸÄ±nla doldurabilirsin.",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_BENEDICTIONS
     },
 
     {
-	{"heat metal","metali ýsýtma"},		{ 93,26,93,93, 93,93,93,93 ,93,93,93,93,93},
+	{ L"heat metal", L"metali Ä±sÄ±tma"},		{ 93,26,93,93, 93,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_heat_metal,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(516), 	25,	18,
-  "metali ýsýtma",		"!Heat Metal!",		"", CABAL_NONE ,
+  L"metali Ä±sÄ±tma", L"!Heat Metal!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"helical flow","sarmal akým"},		{93,93,93,93,93,93,93,93,93,93,93,93,43},
+	{ L"helical flow", L"sarmal akÄ±m"},		{93,93,93,93,93,93,93,93,93,93,93,93,43},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_helical_flow,		TAR_IGNORE,	POS_FIGHTING,
 	NULL,			SLOT(661),	80,	12,
-	"",			"!Helical Flow!",	"",CABAL_NONE ,
+	L"", L"!Helical Flow!",  L"",CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_TRANSPORTATION
     },
 
     {
-	{"hellfire","cehennem ateþi"},     {  93, 93, 93, 93, 93, 93, 45, 93 ,93,93,93,93,93},
+	{ L"hellfire", L"cehennem ateÅŸi"},     {  93, 93, 93, 93, 93, 93, 45, 93 ,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_hellfire,      TAR_CHAR_OFFENSIVE,          POS_FIGHTING,
         NULL,       SLOT(520),        20,       12,
-        "cehennem ateþi", "!hellfire!", "",	CABAL_NONE ,
+        L"cehennem ateÅŸi", L"!hellfire!", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_ATTACK
     },
 
     {
-	{"holy aura","kutsal ayla"},{ 93, 93,93,93,62,93,93,93 ,93,93,93,93,93},
+	{ L"holy aura", L"kutsal ayla"},{ 93, 93,93,93,62,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_holy_aura,	TAR_CHAR_DEFENSIVE,	POS_STANDING,
 	NULL,		SLOT(617),	75,	12,
-  "",	"Kutsal aylan yokoluyor.",	"",
+  L"",  L"Kutsal aylan yokoluyor.",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"holy fury","kutsal hiddet"},	{ 93, 93,93,93,59,93,93,93 ,93,93,93,93,93},
+	{ L"holy fury", L"kutsal hiddet"},	{ 93, 93,93,93,59,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_holy_fury,	TAR_CHAR_DEFENSIVE,	POS_STANDING,
 	NULL,		SLOT(682),	50,	24,
-  "",	"Artýk daha merhametlisin.",	"",
+  L"",  L"ArtÄ±k daha merhametlisin.",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"holy word","kutsal söz"},		{ 93,48,93,93,38,93,93,93 ,93,93,93,93,93},
+	{ L"holy word", L"kutsal sÃ¶z"},		{ 93,48,93,93,38,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_holy_word,	TAR_IGNORE,	POS_FIGHTING,
 	NULL,			SLOT(506), 	200,	24,
-  "kutsal söz",		"!Holy Word!",		"", CABAL_NONE ,
+  L"kutsal sÃ¶z", L"!Holy Word!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_BENEDICTIONS
     },
 
     {
-	{"hurricane","kasýrga"},	{  93, 93, 93, 93, 93,53,93,93,93,93,93,65,93},
+	{ L"hurricane", L"kasÄ±rga"},	{  93, 93, 93, 93, 93,53,93,93,93,93,93,65,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_hurricane,	TAR_IGNORE,	POS_FIGHTING,
 	NULL,		SLOT(672),	200,	24,
-  "kasýrga",	"!Hurricane!",	"", CABAL_NONE ,
+  L"kasÄ±rga",  L"!Hurricane!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"hydroblast","su patlamasý"},	{  93,93,93,93, 93,93,93,46, 93,93,93,93,93},
+	{ L"hydroblast", L"su patlamasÄ±"},	{  93,93,93,93, 93,93,93,46, 93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_hydroblast,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(684),	50,	12,
-  "su patlamasý",	"!Hydroblast!",	"", CABAL_NONE ,
+  L"su patlamasÄ±",  L"!Hydroblast!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"iceball","buztopu"},        {  93, 93, 93, 93, 93,58,93,93,93,93,93,93,93},
+	{ L"iceball", L"buztopu"},        {  93, 93, 93, 93, 93,58,93,93,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_iceball,     TAR_IGNORE,     POS_FIGHTING,
         NULL,                   SLOT(513),        25,       12,
-        "buztopu",         "!Iceball!", "",	CABAL_NONE ,
+        L"buztopu", L"!Iceball!", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"identify","tanýmlama"},		{ 18, 36, 93, 93,93,93,93,93 ,25,93,93,93,18},
+	{ L"identify", L"tanÄ±mlama"},		{ 18, 36, 93, 93,93,93,93,93 ,25,93,93,93,18},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_identify,		TAR_OBJ_INV,		POS_STANDING,
 	NULL,			SLOT(53),	12,	24,
-	"",			"!Identify!",		"", CABAL_NONE ,
+	L"", L"!Identify!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_DETECTION
     },
 
     {
-	{"improved detect","geliþmiþ saptama"},	{ 40, 93, 93, 93, 93,93,93, 93 ,40,93,93,40,40},
+	{ L"improved detect", L"geliÅŸmiÅŸ saptama"},	{ 40, 93, 93, 93, 93,93,93, 93 ,40,93,93,40,40},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_improved_detection,	TAR_CHAR_SELF,		POS_STANDING,
 	NULL,		SLOT(626),	 20,	12,
-  "",			"Artýk çevrende olup bitenden daha az haberdarsýn.",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_DETECTION
+  L"", L"ArtÄ±k Ã§evrende olup bitenden daha az haberdarsÄ±n.",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_DETECTION
     },
 
     {
-	{"improved invis","geliþmiþ görünmezlik"},	{  43, 93, 93, 93,93,93,93,93,43,93,93,93,43 },
+	{ L"improved invis", L"geliÅŸmiÅŸ gÃ¶rÃ¼nmezlik"},	{  43, 93, 93, 93,93,93,93,93,43,93,93,93,43 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_improved_invis,		TAR_CHAR_DEFENSIVE,	POS_STANDING,
 	&gsn_imp_invis,		SLOT(627),	 20,	12,
-  "",			"Görünmezliðin yitiyor.",
-	"$p görünürleþiyor.", CABAL_NONE , RACE_NONE,ALIGN_NONE, GROUP_ILLUSION
+  L"", L"GÃ¶rÃ¼nmezliÄŸin yitiyor.",
+	L"$p gÃ¶rÃ¼nÃ¼rleÅŸiyor.", CABAL_NONE , RACE_NONE,ALIGN_NONE, GROUP_ILLUSION
     },
 
     {
-	{"infravision","ýsý görüþü"},		{  17,  25, 93, 93,93,93,5,93,18,93,93,21,17},
+	{ L"infravision", L"Ä±sÄ± gÃ¶rÃ¼ÅŸÃ¼"},		{  17,  25, 93, 93,93,93,5,93,18,93,93,21,17},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_infravision,	TAR_CHAR_DEFENSIVE,	POS_STANDING,
 	NULL,			SLOT(77),	 5,	18,
-  "",			"Artýk karanlýkta göremeyeceksin.",	"", CABAL_NONE ,
+  L"", L"ArtÄ±k karanlÄ±kta gÃ¶remeyeceksin.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_ENHANCEMENT
     },
 
     {
-	{"insanity","delilik"},	{ 93, 93,93, 93,93,93,93,93 ,93,93,93,59,93},
+	{ L"insanity", L"delilik"},	{ 93, 93,93, 93,93,93,93,93 ,93,93,93,59,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_insanity,		TAR_CHAR_OFFENSIVE,	POS_STANDING,
 	NULL,		SLOT(616),	100,	24,
-  "",	"Sakinleþtiðini hissediyorsun.",	"",
+  L"",  L"SakinleÅŸtiÄŸini hissediyorsun.",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"inspire","ilham"},		{   93, 49, 93,93,93,93,93,93,93,93,93,93,93},
+	{ L"inspire", L"ilham"},		{   93, 49, 93,93,93,93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_inspire,		TAR_IGNORE,		POS_STANDING,
 	NULL,		SLOT(587),	75,	24,
-  "",			"Ýlhamýn azalýyor.",	"", CABAL_NONE ,
+  L"", L"Ä°lhamÄ±n azalÄ±yor.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_BENEDICTIONS
     },
 
     {
-	{"invisibility","görünmezlik"},		{  10, 93, 93, 93,93,9,93,93,13,93,93,93,10 },
+	{ L"invisibility", L"gÃ¶rÃ¼nmezlik"},		{  10, 93, 93, 93,93,9,93,93,13,93,93,93,10 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_invis,		TAR_OBJ_CHAR_DEF,	POS_STANDING,
 	&gsn_invis,		SLOT(29),	 5,	12,
-	"",			"Artýk görünmez deðilsin.",
-	"$p görünür oluyor.", CABAL_NONE , RACE_NONE,ALIGN_NONE, GROUP_ILLUSION
+	L"", L"ArtÄ±k gÃ¶rÃ¼nmez deÄŸilsin.",
+	L"$p gÃ¶rÃ¼nÃ¼r oluyor.", CABAL_NONE , RACE_NONE,ALIGN_NONE, GROUP_ILLUSION
     },
 
     {
-{"iron body","demir gövde"},	{ 93, 93,93,93, 93,93,93,93 ,29,93,93,93,93},
+{ L"iron body", L"demir gÃ¶vde"},	{ 93, 93,93,93, 93,93,93,93 ,29,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_iron_body,	TAR_CHAR_DEFENSIVE,	POS_STANDING,
 	NULL,			SLOT(718),	75,	12,
-  "",	"Derin yumuþuyor.",	"",
+  L"",  L"Derin yumuÅŸuyor.",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"iron golem","demir golem"},		{93,93,93,93,93,93,93,93,93,93,93,52,93},
+	{ L"iron golem", L"demir golem"},		{93,93,93,93,93,93,93,93,93,93,93,52,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_iron_golem,	TAR_IGNORE,		POS_STANDING,
 	NULL,		SLOT(664),	400,		24,
-  "",	"Yeni golemler yapmak için yeterli gücü topladýn.","",
+  L"",  L"Yeni golemler yapmak iÃ§in yeterli gÃ¼cÃ¼ topladÄ±n.", L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"knock","taktak"},			{   56,93,93,93,93,93,93,93,64,93,93,62,46},
+	{ L"knock", L"taktak"},			{   56,93,93,93,93,93,93,93,64,93,93,62,46},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_knock,	TAR_IGNORE,	POS_STANDING,
 	NULL,		SLOT(603),	20,	24,
-	"",			"!knock!",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
+	L"", L"!knock!",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"know alignment","yönelim saptama"},	{  22,  13,93,93,1,5,93,93,29,93,93,22,93},
+	{ L"know alignment", L"yÃ¶nelim saptama"},	{  22,  13,93,93,1,5,93,93,29,93,93,22,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_know_alignment,	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(58),	 9,	12,
-	"",			"!Know Alignment!",	"", CABAL_NONE ,
+	L"", L"!Know Alignment!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_DETECTION
     },
 
     {
-	{"lesser golem","küçük golem"},		{93,93,93,93,93,93,93,93,93,93,93,25,93},
+	{ L"lesser golem", L"kÃ¼Ã§Ã¼k golem"},		{93,93,93,93,93,93,93,93,93,93,93,25,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_lesser_golem,	TAR_IGNORE,		POS_STANDING,
 	NULL,		SLOT(662),	200,		12,
-  "",	"Yeni golemler yapmak için yeterli gücü topladýn.","",
+  L"",  L"Yeni golemler yapmak iÃ§in yeterli gÃ¼cÃ¼ topladÄ±n.", L"",
 	CABAL_NONE , 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"lethargic mist","uyuþukluk sisi"},   { 52, 93,93,93,93, 62, 93,93,56,93,93,93,93},
+	{ L"lethargic mist", L"uyuÅŸukluk sisi"},   { 52, 93,93,93,93, 62, 93,93,56,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_lethargic_mist,	TAR_IGNORE,	POS_STANDING,
 	&gsn_lethargic_mist,	SLOT(676),	200,	24,
-	"",		"!lethargic mist!",	"",
+	L"", L"!lethargic mist!",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_MALADICTIONS
     },
 
     {
-	{"light arrow", "ýþýk oku"},	{  93, 93, 93, 93,64,93,93,93 ,93,93,93,93,93},
+	{ L"light arrow", L"Ä±ÅŸÄ±k oku"},	{  93, 93, 93, 93,64,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_light_arrow,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(683),	40,	12,
-	"ýþýk oku",	"!light arrow!",	"", CABAL_NONE ,
+	L"Ä±ÅŸÄ±k oku",  L"!light arrow!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"lightning bolt","yýldýrým"},	{  23, 93, 93, 93,93,13,93,93 ,23,93,93,23,23},
+	{ L"lightning bolt", L"yÄ±ldÄ±rÄ±m"},	{  23, 93, 93, 93,93,13,93,93 ,23,93,93,23,23},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_lightning_bolt,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	&gsn_lightning_bolt,		SLOT(30),	15,	12,
-  "yýldýrým",	"!Lightning Bolt!",	"", CABAL_NONE ,
+  L"yÄ±ldÄ±rÄ±m",  L"!Lightning Bolt!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"lightning shield","þimþek kalkaný"},	{ 41, 93,93, 93,93,93,93,93 ,93,93,93,41,93},
+	{ L"lightning shield", L"ÅŸimÅŸek kalkanÄ±"},	{ 41, 93,93, 93,93,93,93,93 ,93,93,93,41,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_lightning_shield,	TAR_IGNORE,	POS_STANDING,
 	NULL,		SLOT(614),	150,	24,
-  "þimþek kalkaný",	"Bir odayý yeniden kalkanlayabilirsin.",	"",
+  L"ÅŸimÅŸek kalkanÄ±",  L"Bir odayÄ± yeniden kalkanlayabilirsin.",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"link","bað"},	{   31, 93, 93, 93,93,93,93,93,33 ,93,93,33,33},
+	{ L"link", L"baÄŸ"},	{   31, 93, 93, 93,93,93,93,93,33 ,93,93,33,33},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_link,		TAR_CHAR_DEFENSIVE,		POS_STANDING,
 	NULL,		SLOT(588),	125,	18,
-	"",			"!link!",	"", CABAL_NONE ,
+	L"", L"!link!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_MEDITATION
     },
 
     {
-	{"lion help","aslan yardýmý"},	{   93, 93, 93, 93,93,93,93,63,93 ,93,93,93,93},
+	{ L"lion help", L"aslan yardÄ±mÄ±"},	{   93, 93, 93, 93,93,93,93,63,93 ,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_lion_help,	TAR_IGNORE,		POS_STANDING,
 	NULL,		SLOT(595),	100,	12,
-  "",	"Yeniden aslan yardýmýna baþvurabilirsin.",	"",
+  L"",  L"Yeniden aslan yardÄ±mÄ±na baÅŸvurabilirsin.",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"locate object","nesne bulma"},	{   30, 30, 93, 93,19,93,14,93,29,93,93,93,31},
+	{ L"locate object", L"nesne bulma"},	{   30, 30, 93, 93,19,93,14,93,29,93,93,93,31},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_locate_object,	TAR_IGNORE,		POS_STANDING,
 	NULL,			SLOT(31),	20,	18,
-	"",			"!Locate Object!",	"", CABAL_NONE ,
+	L"", L"!Locate Object!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_DETECTION
     },
 
     {
-	{"love potion","aþk iksiri"},           { 93, 93, 93,93,93,93,93,93 ,93,93,93,93,93},
+	{ L"love potion", L"aÅŸk iksiri"},           { 93, 93, 93,93,93,93,93,93 ,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_love_potion, TAR_CHAR_SELF,       POS_STANDING,
         &gsn_love_potion,  SLOT(666),        10,       0,
-        "", "Gözlerindeki rüya sönüyor.", "",	CABAL_NONE ,
+        L"", L"GÃ¶zlerindeki rÃ¼ya sÃ¶nÃ¼yor.", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"magic jar","büyülü þiþe"},		{   93, 93, 93, 93,93,93,93,93,93 ,93,93,68,93},
+	{ L"magic jar", L"bÃ¼yÃ¼lÃ¼ ÅŸiÅŸe"},		{   93, 93, 93, 93,93,93,93,93,93 ,93,93,68,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_magic_jar,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(596),	20,	12,
-	"",			"!magic jar!",	"", CABAL_NONE ,
+	L"", L"!magic jar!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_BEGUILING
     },
 
     {
-	{"magic missile","fiþek"},	{ 1, 93, 93, 93,93,1,93,93 ,1,93,93,2,1},
+	{ L"magic missile", L"fiÅŸek"},	{ 1, 93, 93, 93,93,1,93,93 ,1,93,93,2,1},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_magic_missile,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	&gsn_magic_missile,		SLOT(32),	15,	12,
-	"fiþek",	"!Magic Missile!",	"", CABAL_NONE ,
+	L"fiÅŸek",  L"!Magic Missile!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"magic resistance","büyü direnci"},	{   68, 93, 93, 93,93,93,93,93,72 ,93,93,69,71},
+	{ L"magic resistance", L"bÃ¼yÃ¼ direnci"},	{   68, 93, 93, 93,93,93,93,93,72 ,93,93,69,71},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_magic_resistance,	TAR_CHAR_SELF,	POS_STANDING,
 	NULL,		SLOT(605),	200,	24,
-  "",			"Büyüye karþý yeniden savunmasýzsýn.",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
+  L"", L"BÃ¼yÃ¼ye karÅŸÄ± yeniden savunmasÄ±zsÄ±n.",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {
-	{"magnetic trust","manyetizma"},{ 93, 93, 93, 93, 93, 93,93,93,34,93,93,93,34},
+	{ L"magnetic trust", L"manyetizma"},{ 93, 93, 93, 93, 93, 93,93,93,34,93,93,93,34},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_magnetic_trust,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(656),	20,	12,
-  "manyetizma",	"!magnetic trust!", "", CABAL_NONE ,
+  L"manyetizma",  L"!magnetic trust!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"mass healing","toplu þifa"},	{ 93, 54, 93, 93,93,93,93,93,93 ,93,93,93,93},
+	{ L"mass healing", L"toplu ÅŸifa"},	{ 93, 54, 93, 93,93,93,93,93,93 ,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_mass_healing,	TAR_IGNORE,		POS_STANDING,
 	NULL,			SLOT(508),	100,	36,
-	"",			"!Mass Healing!",	"", CABAL_NONE ,
+	L"", L"!Mass Healing!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_HEALING
     },
 
     {
-	{"mass invis","toplu görünmezlik"},		{ 43, 47, 93, 93,93,93,93,93 ,42,93,93,93,46},
+	{ L"mass invis", L"toplu gÃ¶rÃ¼nmezlik"},		{ 43, 47, 93, 93,93,93,93,93 ,42,93,93,93,46},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_mass_invis,	TAR_IGNORE,		POS_STANDING,
 	&gsn_mass_invis,	SLOT(69),	20,	24,
-  "",			"Görünmezliðin yitiyor.",		"", CABAL_NONE ,
+  L"", L"GÃ¶rÃ¼nmezliÄŸin yitiyor.", L"", CABAL_NONE ,
 	RACE_NONE,ALIGN_NONE, GROUP_ILLUSION
     },
 
     {
-	{"mass sanctuary","toplu takdis"},{   93, 62, 93, 93,93,93,93,93,93 ,93,93,93,93},
+	{ L"mass sanctuary", L"toplu takdis"},{   93, 62, 93, 93,93,93,93,93,93 ,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_mass_sanctuary,	TAR_IGNORE,		POS_STANDING,
 	NULL,		SLOT(589),	200,	24,
-  "",			"Beyaz auran yokoluyor.",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
+  L"", L"Beyaz auran yokoluyor.",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {
-	{"master healing","yüksek tedavi"},	{  93,58,93,93,70,93,93,93,93,93,93,93,93},
+	{ L"master healing", L"yÃ¼ksek tedavi"},	{  93,58,93,93,70,93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_master_heal,	TAR_CHAR_DEFENSIVE,POS_FIGHTING,
 	NULL,			SLOT(641),	300,	12,
-	"",			"!Master Heal!",	"",CABAL_NONE ,
+	L"", L"!Master Heal!",  L"",CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_HEALING
     },
 
     {
-	{"meld into stone","taþa dönüþme"},	{ 20, 20,20, 20,20,20,20,20 ,20,20,20,20,20},
+	{ L"meld into stone", L"taÅŸa dÃ¶nÃ¼ÅŸme"},	{ 20, 20,20, 20,20,20,20,20 ,20,20,20,20,20},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_meld_into_stone,	TAR_CHAR_SELF,		POS_STANDING,
 	NULL,			SLOT(584),	12,	18,
-  "",	"Derindeki taþlar kumlaþarak dökülüyor.",	"",
+  L"",  L"Derindeki taÅŸlar kumlaÅŸarak dÃ¶kÃ¼lÃ¼yor.",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {
-	{"mend","onar"},	{   50, 93, 93, 93,93,93,93,93,50 ,93,93,93,50},
+	{ L"mend", L"onar"},	{   50, 93, 93, 93,93,93,93,93,50 ,93,93,93,50},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_mend,		TAR_OBJ_INV,		POS_STANDING,
 	&gsn_mend,		SLOT(590),	150,	24,
-	"",			"!mend!",	"", CABAL_NONE ,
+	L"", L"!mend!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_ENCHANTMENT
     },
 
     {
-	{"mind light","zihin ýþýðý"},	{ 93, 83,93, 93,93,93,93,93 ,93,93,93,93,93},
+	{ L"mind light", L"zihin Ä±ÅŸÄ±ÄŸÄ±"},	{ 93, 83,93, 93,93,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_mind_light,	TAR_IGNORE,		POS_STANDING,
 	NULL,		SLOT(82),	200,	24,
-  "",	"Artýk yeni odalarý hýzlandýrabilirsin.",	"",
+  L"",  L"ArtÄ±k yeni odalarÄ± hÄ±zlandÄ±rabilirsin.",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"mind wrack","zihin yosunu"},{ 93, 93, 93, 93, 93, 27, 93,93,93,93,93,93,93},
+	{ L"mind wrack", L"zihin yosunu"},{ 93, 93, 93, 93, 93, 27, 93,93,93,93,93,93,93},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_mind_wrack,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(650),	20,	12,
-  "zihin yosunu",	"!mind wrack!", "", CABAL_NONE ,
+  L"zihin yosunu",  L"!mind wrack!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"mind wrench","zihin bükümü"},	{ 93, 93, 93, 93, 93, 40, 93,93,93,93,93,93,93},
+	{ L"mind wrench", L"zihin bÃ¼kÃ¼mÃ¼"},	{ 93, 93, 93, 93, 93, 40, 93,93,93,93,93,93,93},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_mind_wrench,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(651),	20,	12,
-  "zihin bükümü",	"!mind wrench!", "", CABAL_NONE ,
+  L"zihin bÃ¼kÃ¼mÃ¼",  L"!mind wrench!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"mist walk","gizemli yürüyüþ"},		{  93,93,93,93,93,93,93,93,93,93,47,47,93},
+	{ L"mist walk", L"gizemli yÃ¼rÃ¼yÃ¼ÅŸ"},		{  93,93,93,93,93,93,93,93,93,93,47,47,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_mist_walk,	TAR_IGNORE,	POS_FIGHTING,
 	NULL,			SLOT(658),	80,	12,
-	"",			"!Mist Walk!",		"", CABAL_NONE ,
+	L"", L"!Mist Walk!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_TRANSPORTATION
     },
 
     {
-	{"mummify","mumyala"},	{ 93, 93, 93, 93,93,93,93,93,93,93,93,44,93 },
+	{ L"mummify", L"mumyala"},	{ 93, 93, 93, 93,93,93,93,93,93,93,93,44,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_mummify,	TAR_OBJ_CHAR_OFF,	POS_STANDING,
 	NULL,		SLOT(715),	50,	12,
-  "",	"Yeni ölülere hayat verebilirsin.", 	"",
+  L"",  L"Yeni Ã¶lÃ¼lere hayat verebilirsin.", L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"mysterious dream","gizemli düþ"}, 	{ 93, 93,93,93,93,35,93,93,49,93,93,27,93},
+	{ L"mysterious dream", L"gizemli dÃ¼ÅŸ"}, 	{ 93, 93,93,93,93,35,93,93,49,93,93,27,93},
 		{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_mysterious_dream,	TAR_IGNORE,	POS_STANDING,
 	&gsn_mysterious_dream,	SLOT(678),	200,	24,
-	"",		"!mysterous dream!",	"",
+	L"", L"!mysterous dream!",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_BEGUILING
     },
 
     {
-	{"nexus","neksus"},     { 93,93,93,93,93,93,93,93 ,60,93,93,93,93},
+	{ L"nexus", L"neksus"},     { 93,93,93,93,93,93,93,93 ,60,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_nexus,            TAR_IGNORE,             POS_STANDING,
         NULL,                   SLOT(520),       150,   36,
-	"",                     "!Nexus!",		"", CABAL_NONE ,
+	L"", L"!Nexus!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_TRANSPORTATION
     },
 
     {
-	{"pass door","saydamlýk"},		{  24, 32, 93, 93,93,93,93,93 ,24,24,93,27,24},
+	{ L"pass door", L"saydamlÄ±k"},		{  24, 32, 93, 93,93,93,93,93 ,24,24,93,27,24},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_pass_door,	TAR_CHAR_SELF,		POS_STANDING,
 	&gsn_pass_door,			SLOT(74),	20,	12,
-  "",			"Cisimleþiyorsun.",	"", CABAL_NONE ,
+  L"", L"CisimleÅŸiyorsun.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_TRANSPORTATION
     },
 
     {
-	{"plague","veba"},		{  93, 93, 93, 93,93,46,93,93,33,93,93,36,93},
+	{ L"plague", L"veba"},		{  93, 93, 93, 93,93,46,93,93,33,93,93,36,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_plague,		TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	&gsn_plague,		SLOT(503),	20,	12,
-  "veba",		"Hastalýðýn çürüyor.",	"", CABAL_NONE ,
+  L"veba", L"HastalÄ±ÄŸÄ±n Ã§Ã¼rÃ¼yor.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_MALADICTIONS
     },
 
     {
-	{"polymorph","binbir þekil"},      { 93, 93, 93, 93,93, 93,93,93,73,93,93,93,93},
+	{ L"polymorph", L"binbir ÅŸekil"},      { 93, 93, 93, 93,93, 93,93,93,73,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_polymorph,	TAR_IGNORE,	POS_STANDING,
 	NULL,			SLOT(639),	250,	24,
-  "",			"Doðal ýrkýna dönüyorsun.","",
+  L"", L"DoÄŸal Ä±rkÄ±na dÃ¶nÃ¼yorsun.", L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_BENEDICTIONS
     },
 
     {
-	{"portal","köprü"},                { 54, 93, 93, 93, 93,93,93,93,40,93,93,43,93},
+	{ L"portal", L"kÃ¶prÃ¼"},                { 54, 93, 93, 93, 93,93,93,93,40,93,93,43,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_portal,           TAR_IGNORE,             POS_STANDING,
         NULL,                   SLOT(519),       100,     24,
-	"",                     "!Portal!",		"", CABAL_NONE ,
+	L"", L"!Portal!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_TRANSPORTATION
     },
 
     {
-	{"protection cold","soðuktan korunma"},{   93, 44, 93, 93, 93,93,93,25, 93,93,93,50,44},
+	{ L"protection cold", L"soÄŸuktan korunma"},{   93, 44, 93, 93, 93,93,93,25, 93,93,93,50,44},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_protection_cold,	TAR_CHAR_SELF,	POS_STANDING,
 	&gsn_protection_cold,		SLOT(600),	5,	12,
-  "",			"Daha az korunmasýz hissediyorsun.",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
+  L"", L"Daha az korunmasÄ±z hissediyorsun.",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {
-	{"protection evil","kemden korunma"},	{ 93,  9, 93, 93,11,93,93,93 ,93,93,93,93,93},
+	{ L"protection evil", L"kemden korunma"},	{ 93,  9, 93, 93,11,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_protection_evil,	TAR_CHAR_SELF,		POS_STANDING,
 	NULL,			SLOT(34), 	5,	12,
-  "",			"Daha az korunmasýz hissediyorsun.",	"", CABAL_NONE ,
+  L"", L"Daha az korunmasÄ±z hissediyorsun.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {
-	{"protection good","iyiden korunma"},{ 93,9,93,93,93,13,93,93,93,93,27,17,93},
+	{ L"protection good", L"iyiden korunma"},{ 93,9,93,93,93,13,93,93,93,93,27,17,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_protection_good,	TAR_CHAR_SELF,		POS_STANDING,
 	NULL,			SLOT(666), 	5,	12,
-  "",			"Daha az korunmasýz hissediyorsun.",	"", CABAL_NONE ,
+  L"", L"Daha az korunmasÄ±z hissediyorsun.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {
-	{"protection heat","sýcaktan korunma"},	{ 93, 39, 93, 93,93,93,93,93, 93,93,93,48,39},
+	{ L"protection heat", L"sÄ±caktan korunma"},	{ 93, 39, 93, 93,93,93,93,93, 93,93,93,48,39},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_protection_heat,	TAR_CHAR_SELF,	POS_STANDING,
 	&gsn_protection_heat,		SLOT(599),	5,	12,
-  "",			"Daha az korunmasýz hissediyorsun.",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
+  L"", L"Daha az korunmasÄ±z hissediyorsun.",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {
-	{"protection negative","negatiften korunma"},{   93, 93,93,93,93,93,93,93,93,93,93,15,93},
+	{ L"protection negative", L"negatiften korunma"},{   93, 93,93,93,93,93,93,93,93,93,93,15,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_protection_negative,	TAR_CHAR_SELF,	POS_STANDING,
 	NULL,		SLOT(636),	20,	12,
-  "",		"Kendi saldýrýlarýna karþý daha az korunmasýz hissediyorsun.",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
+  L"", L"Kendi saldÄ±rÄ±larÄ±na karÅŸÄ± daha az korunmasÄ±z hissediyorsun.",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {
-	{"protective shield","koruma kalkaný"},     { 26,38,93,93, 93,93,93,93 ,26,93,93,18,26},
+	{ L"protective shield", L"koruma kalkanÄ±"},     { 26,38,93,93, 93,93,93,93 ,26,93,93,18,26},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_protective_shield,      TAR_CHAR_SELF,   POS_STANDING,
         &gsn_protective_shield,       SLOT(572),        70,       12,
-        "", "Kalkanýn sönüyor.", "", CABAL_NONE ,
+        L"", L"KalkanÄ±n sÃ¶nÃ¼yor.", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {
-	{"power word kill","ölüm sözcüðü"},		{   93, 93, 93, 93,93,93,93,93,93 ,93,93,78,93},
+	{ L"power word kill", L"Ã¶lÃ¼m sÃ¶zcÃ¼ÄŸÃ¼"},		{   93, 93, 93, 93,93,93,93,93,93 ,93,93,78,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_power_kill,	TAR_CHAR_OFFENSIVE,	POS_STANDING,
 	NULL,		SLOT(604),	200,	18,
-  "ölüm sözcüðü",		"Dayanýklýlýðýn artýyor.",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
+  L"Ã¶lÃ¼m sÃ¶zcÃ¼ÄŸÃ¼", L"DayanÄ±klÄ±lÄ±ÄŸÄ±n artÄ±yor.",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"power word stun","bayýltma sözcüðü"},{ 93, 93,93, 93,93, 62,93,93 ,93,93,93,93,93},
+	{ L"power word stun", L"bayÄ±ltma sÃ¶zcÃ¼ÄŸÃ¼"},{ 93, 93,93, 93,93, 62,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_power_stun,	TAR_CHAR_OFFENSIVE,	POS_STANDING,
 	&gsn_power_stun,		SLOT(625),	200,	24,
-  "",	"Hareket edebilirsin.",	"",
+  L"",  L"Hareket edebilirsin.",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"quantum spike","enerji dikeni"},	{ 41, 93, 93, 93, 93, 93,93,93,93,93,93,93,41},
+	{ L"quantum spike", L"enerji dikeni"},	{ 41, 93, 93, 93, 93, 93,93,93,93,93,93,93,41},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_quantum_spike,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(657),	20,	12,
-  "enerji dikeni",	"!quantum spike!", "", CABAL_NONE ,
+  L"enerji dikeni",  L"!quantum spike!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"ranger staff","korucu asasý"},          {  93, 93, 93, 93, 93, 93, 93, 32 ,93,93,93,93,93},
+	{ L"ranger staff", L"korucu asasÄ±"},          {  93, 93, 93, 93, 93, 93, 93, 32 ,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_ranger_staff,      TAR_IGNORE,          POS_FIGHTING,
         NULL,             SLOT(519),        75,       0,
-	"", "!ranger staff!", "", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
+	L"", L"!ranger staff!", L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"ray of truth","ilahi enerji"},        { 93, 37, 93, 93, 45,93,93,93,93,93,93,93,93},
+	{ L"ray of truth", L"ilahi enerji"},        { 93, 37, 93, 93, 45,93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_ray_of_truth,     TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
         &gsn_ray_of_truth,      SLOT(518),      20,     12,
-        "ilahi enerji",         "!Ray of Truth!",	"", CABAL_NONE ,
+        L"ilahi enerji", L"!Ray of Truth!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_BENEDICTIONS
     },
 
     {
-	{"recharge","þarj"},		{ 29,93,93,93, 93, 93, 93, 93, 29,93,93,93,93},
+	{ L"recharge", L"ÅŸarj"},		{ 29,93,93,93, 93, 93, 93, 93, 29,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_recharge,		TAR_OBJ_INV,		POS_STANDING,
 	NULL,			SLOT(517),	60,	24,
-	"",			"!Recharge!",		"", CABAL_NONE ,
+	L"", L"!Recharge!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_ENCHANTMENT
     },
 
     {
-	{"refresh","yenileme"},		{  93,7, 93,93, 93,93,93,93, 93,93,93,93,93},
+	{ L"refresh", L"yenileme"},		{  93,7, 93,93, 93,93,93,93, 93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_refresh,		TAR_CHAR_DEFENSIVE,	POS_STANDING,
 	NULL,			SLOT(81),	12,	18,
-  "yenileme",		"!Refresh!",		"", CABAL_NONE ,
+  L"yenileme", L"!Refresh!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_HEALING
     },
 
     {
-	{"reincarnation","dirilme"},    {  93, 93, 93, 93, 93,93,93,93,93,93,93,93,93},
+	{ L"reincarnation", L"dirilme"},    {  93, 93, 93, 93, 93,93,93,93,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,        TAR_IGNORE,          POS_STANDING,
         NULL,             SLOT(668),        0,       0,
-	"", "!!", "",	CABAL_NONE ,
+	L"", L"!!", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"remove curse","lanet kaldýr"},	{  93, 32, 93, 93,13,93,93,93,93,93,93,93,93 },
+	{ L"remove curse", L"lanet kaldÄ±r"},	{  93, 32, 93, 93,13,93,93,93,93,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_remove_curse,	TAR_OBJ_CHAR_DEF,	POS_STANDING,
 	&gsn_remove_curse,	SLOT(35),	 5,	12,
-	"",			"!Remove Curse!",	"", CABAL_NONE ,
+	L"", L"!Remove Curse!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_CURATIVE
     },
 
     {
-	{"remove fear","korku kaldýr"},		{ 93, 34, 93,93,41,93,93,93,93,93,93,93,93 },
+	{ L"remove fear", L"korku kaldÄ±r"},		{ 93, 34, 93,93,41,93,93,93,93,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_remove_fear, 	TAR_CHAR_DEFENSIVE,	POS_STANDING,
 	NULL,		SLOT(582),	5,	12,
-	"",	"!Remove Fear!", "", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
+	L"",  L"!Remove Fear!", L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"remove tattoo","dövme kaldýr"},    { 93, 93, 93,93,93,93,93,93,93,93,93,93,93 },
+	{ L"remove tattoo", L"dÃ¶vme kaldÄ±r"},    { 93, 93, 93,93,93,93,93,93,93,93,93,93,93 },
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_remove_tattoo, TAR_CHAR_DEFENSIVE,       POS_STANDING,
         NULL,       SLOT(552),        10,       0,
-	"", 	"!remove tattoo!", 	"",
+	L"", L"!remove tattoo!", L"",
         CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"resilience","esneklik"},	{  93,93, 93, 93,56,93,93,93,93,93,93,93,93},
+	{ L"resilience", L"esneklik"},	{  93,93, 93, 93,56,93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_resilience,	TAR_CHAR_DEFENSIVE, POS_STANDING,
 	NULL,			SLOT( 638),	 50,	12,
-  "",	"Emici saldýrýlara karþý koruman azalýyor.", "",
+  L"",  L"Emici saldÄ±rÄ±lara karÅŸÄ± koruman azalÄ±yor.", L"",
 	CABAL_NONE ,RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {
-	{"restoring light","iyileþtiren ýþýk"},   { 93, 71, 93,93,93,93,93,93,93,93,93,93,93},
+	{ L"restoring light", L"iyileÅŸtiren Ä±ÅŸÄ±k"},   { 93, 71, 93,93,93,93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_restoring_light,	TAR_CHAR_DEFENSIVE,	POS_STANDING,
 	NULL,			SLOT(643),	50,	24,
-	"",			"!restoring light!","",
+	L"", L"!restoring light!", L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_BENEDICTIONS
     },
 
     {
-	{"sanctify lands","kutsal topraklar"},  { 93, 41, 93, 93,53, 93, 93, 93 ,93,93,93,93,93},
+	{ L"sanctify lands", L"kutsal topraklar"},  { 93, 41, 93, 93,53, 93, 93, 93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_sanctify_lands,	TAR_IGNORE,	POS_STANDING,
 	NULL,			SLOT(673),	200,	24,
-	"",		"!sanctify lands!",	"",
+	L"", L"!sanctify lands!",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_BENEDICTIONS
     },
 
     {
-	{"sanctuary","takdis"},			{ 93, 29, 93, 93,27,93,93,93,93,93,93,93,93},
+	{ L"sanctuary", L"takdis"},			{ 93, 29, 93, 93,27,93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_sanctuary,	TAR_CHAR_DEFENSIVE,	POS_STANDING,
 	&gsn_sanctuary,		SLOT(36),	75,	12,
-  "",			"Beyaz auran yokoluyor.",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
+  L"", L"Beyaz auran yokoluyor.",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {
-	{"sand storm","kum fýrtýnasý"},	{ 93, 93, 93, 93,93,93,93,93,93,93,93,93,51 },
+	{ L"sand storm", L"kum fÄ±rtÄ±nasÄ±"},	{ 93, 93, 93, 93,93,93,93,93,93,93,93,93,51 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_sand_storm,	TAR_IGNORE,	POS_FIGHTING,
 	&gsn_sand_storm,		SLOT(577),	200,	24,
-  "kum fýrtýnasý",	"Gözlerindeki kum dökülüyor.","", CABAL_NONE ,
+  L"kum fÄ±rtÄ±nasÄ±",  L"GÃ¶zlerindeki kum dÃ¶kÃ¼lÃ¼yor.", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"scream","çýðlýk"},		{ 52, 93, 93,93,93,93,93,93,48,93,93,93,93 },
+	{ L"scream", L"Ã§Ä±ÄŸlÄ±k"},		{ 52, 93, 93,93,93,93,93,93,48,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_scream,	TAR_IGNORE,	POS_FIGHTING,
 	&gsn_scream,		SLOT(578),	200,	24,
-  "çýðlýk",	"Yeniden duyabiliyorsun.",	"", CABAL_NONE ,
+  L"Ã§Ä±ÄŸlÄ±k",  L"Yeniden duyabiliyorsun.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"severity force","arz kýrýmý"},	{ 93, 45,93,93,93, 93, 93, 93,93,93 ,93,93,41},
+	{ L"severity force", L"arz kÄ±rÄ±mÄ±"},	{ 93, 45,93,93,93, 93, 93, 93,93,93 ,93,93,41},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_severity_force,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(622),	20,	12,
-  "arz kýrýmý",		"!severity force!", "", CABAL_NONE ,
+  L"arz kÄ±rÄ±mÄ±", L"!severity force!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"shield","kalkan"},	{ 20, 35, 93, 93,93,93,19,93,93 ,93,20,20,20},
+	{ L"shield", L"kalkan"},	{ 20, 35, 93, 93,93,93,19,93,93 ,93,20,20,20},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_shield,		TAR_CHAR_DEFENSIVE,	POS_STANDING,
 	&gsn_shield,		SLOT(67),	12,	18,
-  "",	"Güç kalkanýn parlayarak yokoluyor.", 	"",
+  L"",  L"GÃ¼Ã§ kalkanÄ±n parlayarak yokoluyor.", L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {
-	{"shielding","kalkanlama"},		{   93, 93, 93, 93,93,93,93,93,53 ,93,93,53,93},
+	{ L"shielding", L"kalkanlama"},		{   93, 93, 93, 93,93,93,93,93,53 ,93,93,53,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_shielding,	TAR_CHAR_OFFENSIVE,	POS_STANDING,
 	&gsn_shielding,		SLOT(591),	250,	12,
-  "",			"Gerçek Kaynak'tan uzaklaþtýðýný hissediyorsun.",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
+  L"", L"GerÃ§ek Kaynak'tan uzaklaÅŸtÄ±ÄŸÄ±nÄ± hissediyorsun.",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"shocking grasp","þok kavrayýþý"},		{ 8, 93, 93, 93,93,93,93,93 ,9,93,93,93,8},
+	{ L"shocking grasp", L"ÅŸok kavrayÄ±ÅŸÄ±"},		{ 8, 93, 93, 93,93,93,93,93 ,9,93,93,93,8},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_shocking_grasp,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(53),	15,	12,
-  "þok kavrayýþý",	"!Shocking Grasp!",	"", CABAL_NONE ,
+  L"ÅŸok kavrayÄ±ÅŸÄ±",  L"!Shocking Grasp!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"shocking trap","þokçu tuzak"},	{ 37, 93,93, 93,93,93,93,93 ,40,93,93,37,93},
+	{ L"shocking trap", L"ÅŸokÃ§u tuzak"},	{ 37, 93,93, 93,93,93,93,93 ,40,93,93,37,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_shocking_trap,	TAR_IGNORE,	POS_STANDING,
 	NULL,		SLOT(615),	150,	24,
-  "þokçu tuzak",	"Daha fazla odayý þokla doldurabilirsin.","",
+  L"ÅŸokÃ§u tuzak",  L"Daha fazla odayÄ± ÅŸokla doldurabilirsin.", L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"sleep","uyku"},	{ 93, 93, 93, 93,93,25,93,93,39,93,93,39,93 },
+	{ L"sleep", L"uyku"},	{ 93, 93, 93, 93,93,25,93,93,39,93,93,39,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_sleep,		TAR_CHAR_OFFENSIVE,	POS_STANDING,
 	&gsn_sleep,		SLOT(38),	15,	12,
-  "",			"Yorgunluðun geçiyor.",	"", CABAL_NONE ,
+  L"", L"YorgunluÄŸun geÃ§iyor.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_BEGUILING
     },
 
     {
-	{"slow","yavaþlatma"},       { 28,38,93,93, 93, 28, 93, 93 ,23,93,28,29,93},
+	{ L"slow", L"yavaÅŸlatma"},       { 28,38,93,93, 93, 28, 93, 93 ,23,93,28,29,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_slow,             TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
         &gsn_slow,                   SLOT(515),      30,     12,
-        "",                     "Hýzlandýðýný hissediyorsun.",	"", CABAL_NONE ,
+        L"", L"HÄ±zlandÄ±ÄŸÄ±nÄ± hissediyorsun.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_MALADICTIONS
     },
 
     {
-	{"soften","yumuþatma"},		{ 93, 93, 93, 93,93,93,93,93 ,58,93,93,93,93},
+	{ L"soften", L"yumuÅŸatma"},		{ 93, 93, 93, 93,93,93,93,93 ,58,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_soften,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(713),	 75,	12,
-  "yumuþatma",	"Derin sertleþiyor.",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_WEATHER
+  L"yumuÅŸatma",  L"Derin sertleÅŸiyor.",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_WEATHER
     },
 
     {
-	{"solar flight","güneþ uçuþu"},		{93,35,93,93,93,93,93,93,93,93,93,93,93},
+	{ L"solar flight", L"gÃ¼neÅŸ uÃ§uÅŸu"},		{93,35,93,93,93,93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_solar_flight,	TAR_IGNORE,	POS_FIGHTING,
 	NULL,			SLOT(659),	80,	12,
-	"",			"!Solar Flight!",	"",CABAL_NONE ,
+	L"", L"!Solar Flight!",  L"",CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_TRANSPORTATION
     },
 
     {
-	{"sonic resonance","ses direnci"},	{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,28,93},
+	{ L"sonic resonance", L"ses direnci"},	{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,28,93},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_sonic_resonance,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(649),	20,	12,
-  "ses direnci",	"!sonic resonance!", "", CABAL_NONE ,
+  L"ses direnci",  L"!sonic resonance!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"soul bind","ruh baðý"},		{ 93, 93, 93, 93,93,39,93,93, 93,93,93,54,93 },
+	{ L"soul bind", L"ruh baÄŸÄ±"},		{ 93, 93, 93, 93,93,39,93,93, 93,93,93,54,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_soul_bind,	TAR_CHAR_OFFENSIVE,	POS_STANDING,
 	NULL,		SLOT(716),	 5,	12,
-  "",		"Kendine güvenin artýyor.",	"",
+  L"", L"Kendine gÃ¼venin artÄ±yor.",  L"",
 	CABAL_NONE, RACE_NONE, ALIGN_NONE, GROUP_BEGUILING
     },
 
     {
-	{"spectral furor","hayali öfke"},	{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,35,93},
+	{ L"spectral furor", L"hayali Ã¶fke"},	{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,35,93},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_spectral_furor,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(646),	20,	12,
-  "hayali öfke",	"!spectral furor!", "", CABAL_NONE ,
+  L"hayali Ã¶fke",  L"!spectral furor!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"stone golem","taþ golem"},		{93,93,93,93,93,93,93,93,93,93,93,39,93},
+	{ L"stone golem", L"taÅŸ golem"},		{93,93,93,93,93,93,93,93,93,93,93,39,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_stone_golem,	TAR_IGNORE,		POS_STANDING,
 	NULL,		SLOT(663),	300,		18,
-  "",	"Yeni golemler yapmak için yeterli gücü topladýn.","",
+  L"",  L"Yeni golemler yapmak iÃ§in yeterli gÃ¼cÃ¼ topladÄ±n.", L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"stone skin","taþ deri"},	{ 25, 36, 93,93,93,93,35,93,93,93,60,30,25},
+	{ L"stone skin", L"taÅŸ deri"},	{ 25, 36, 93,93,93,93,35,93,93,93,60,30,25},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_stone_skin,	TAR_CHAR_SELF,		POS_STANDING,
 	NULL,			SLOT(66),	12,	18,
-  "",			"Derin yumuþuyor.",	"", CABAL_NONE ,
+  L"", L"Derin yumuÅŸuyor.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {
-	{"suffocate","boðma"},    {  93,93,93,93, 93,93,93,93, 48,93,93,93,93},
+	{ L"suffocate", L"boÄŸma"},    {  93,93,93,93, 93,93,93,93, 48,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_suffocate,    TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
         NULL,             SLOT(714),        50,       12,
-        "boðma",     "Yeniden soluyabilirsin.", "",CABAL_NONE,
+        L"boÄŸma", L"Yeniden soluyabilirsin.", L"",CABAL_NONE,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"sulfurus spray","sülfür spreyi"},	{ 93, 93, 93, 93, 93,93,93,93,28,93,93,93,93},
+	{ L"sulfurus spray", L"sÃ¼lfÃ¼r spreyi"},	{ 93, 93, 93, 93, 93,93,93,93,28,93,93,93,93},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_sulfurus_spray,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(652),	20,	12,
-  "sülfür spreyi",	"!sulfurus spray!", "", CABAL_NONE ,
+  L"sÃ¼lfÃ¼r spreyi",  L"!sulfurus spray!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"summon","çaðrý"},		{  23, 22, 93, 93,51,50,93,93,24,93,93,93,93},
+	{ L"summon", L"Ã§aÄŸrÄ±"},		{  23, 22, 93, 93,51,50,93,93,24,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_summon,		TAR_IGNORE,		POS_STANDING,
 	NULL,			SLOT(40),	50,	12,
-	"",			"!Çaðrý!",		"", CABAL_NONE ,
+	L"", L"!Ã‡aÄŸrÄ±!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_TRANSPORTATION
     },
 
     {
-	{"summon air elemental","hava uþaðý"},  { 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,42},
+	{ L"summon air elemental", L"hava uÅŸaÄŸÄ±"},  { 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,42},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_summon_air_elm,	TAR_IGNORE,		POS_STANDING,
 	NULL,			SLOT(696),	50,	12,
-  "",	"Hava uþaðý çaðýrabilecek gücü kazanýyorsun.",
-	"", 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
+  L"",  L"Hava uÅŸaÄŸÄ± Ã§aÄŸÄ±rabilecek gÃ¼cÃ¼ kazanÄ±yorsun.",
+	L"", 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"summon earth elemental","toprak uþaðý"},{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,38},
+	{ L"summon earth elemental", L"toprak uÅŸaÄŸÄ±"},{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,38},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_summon_earth_elm,	TAR_IGNORE,		POS_STANDING,
 	NULL,			SLOT(693),	50,	12,
-  "",	"Toprak uþaðý çaðýrabilecek gücü kazanýyorsun.",
-	"", 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
+  L"",  L"Toprak uÅŸaÄŸÄ± Ã§aÄŸÄ±rabilecek gÃ¼cÃ¼ kazanÄ±yorsun.",
+	L"", 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"summon fire elemental","ateþ uþaðý"},{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,58},
+	{ L"summon fire elemental", L"ateÅŸ uÅŸaÄŸÄ±"},{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,58},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_summon_fire_elm,	TAR_IGNORE,		POS_STANDING,
 	NULL,			SLOT(697),	50,	12,
-  "",	"Ateþ uþaðý çaðýrabilecek gücü kazanýyorsun.",
-	"", 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
+  L"",  L"AteÅŸ uÅŸaÄŸÄ± Ã§aÄŸÄ±rabilecek gÃ¼cÃ¼ kazanÄ±yorsun.",
+	L"", 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"summon lightning elemental","enerji uþaðý"},{ 93,93,93,93,93, 93,93,93,93,93,93,93,68},
+	{ L"summon lightning elemental", L"enerji uÅŸaÄŸÄ±"},{ 93,93,93,93,93, 93,93,93,93,93,93,93,68},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_summon_light_elm,	TAR_IGNORE,		POS_STANDING,
 	NULL,			SLOT(710),	50,	12,
-  "", "Enerji uþaðý çaðýrabilecek gücü kazanýyorsun.",
-	"", 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
+  L"", L"Enerji uÅŸaÄŸÄ± Ã§aÄŸÄ±rabilecek gÃ¼cÃ¼ kazanÄ±yorsun.",
+	L"", 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"summon water elemental","su uþaðý"},{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,48},
+	{ L"summon water elemental", L"su uÅŸaÄŸÄ±"},{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,48},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_summon_water_elm,	TAR_IGNORE,		POS_STANDING,
 	NULL,			SLOT(698),	50,	12,
-  "",	"Su uþaðý çaðýrabilecek gücü kazanýyorsun.",
-	"", 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
+  L"",  L"Su uÅŸaÄŸÄ± Ã§aÄŸÄ±rabilecek gÃ¼cÃ¼ kazanÄ±yorsun.",
+	L"", 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"summon shadow","gölge çaðrýsý"},{ 93, 93,93,93,93,93,93,93,93,93,93,50,93},
+	{ L"summon shadow", L"gÃ¶lge Ã§aÄŸrÄ±sÄ±"},{ 93, 93,93,93,93,93,93,93,93,93,93,50,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_summon_shadow,	TAR_CHAR_SELF,		POS_STANDING,
 	NULL,		SLOT(620),	200,	24,
-  "",	"Yeni gölgeler çaðýrabilirsin.",	"",
+  L"",  L"Yeni gÃ¶lgeler Ã§aÄŸÄ±rabilirsin.",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"superior heal","yüksek þifa"},{  93, 38, 93,93,43,93,93,93,93,93,93,93,93},
+	{ L"superior heal", L"yÃ¼ksek ÅŸifa"},{  93, 38, 93,93,43,93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_super_heal,	TAR_CHAR_DEFENSIVE,POS_FIGHTING,
 	NULL,			SLOT(640),	100,	12,
-	"",			"!Super Heal!",		"", CABAL_NONE ,
+	L"", L"!Super Heal!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_HEALING
     },
 
     {
-	{"tattoo","dövme"},    { 93, 93, 93,93,93,93,93,93,93,93,93,93,93},
+	{ L"tattoo", L"dÃ¶vme"},    { 93, 93, 93,93,93,93,93,93,93,93,93,93,93},
 	{1,1,1,1,1,1,1,1,1, 1,1,1,1},
         spell_tattoo, TAR_CHAR_DEFENSIVE,       POS_STANDING,
         NULL,       SLOT(551),        10,       0,
-	"", "!tattoo!", "",CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
+	L"", L"!tattoo!", L"",CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"teleport","nakil"},		{  22, 32, 93, 93,93,7,93,93 ,23,93,93,16,16},
+	{ L"teleport", L"nakil"},		{  22, 32, 93, 93,93,7,93,93 ,23,93,93,16,16},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_teleport,		TAR_CHAR_SELF,		POS_FIGHTING,
 	&gsn_teleport,	 		SLOT( 2),	35,	12,
-	"",			"!Teleport!",		"", CABAL_NONE ,
+	L"", L"!Teleport!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_TRANSPORTATION
     },
 
     {
-	{"transfer object","nesne nakli"},	{ 62, 93, 93, 93, 93, 93,93,93,93,93,93,93,93},
+	{ L"transfer object", L"nesne nakli"},	{ 62, 93, 93, 93, 93, 93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_transfer_object,	TAR_IGNORE,		POS_STANDING,
 	NULL,		SLOT(708),	40,	12,
-	"",		"!transfer object!", "",
+	L"", L"!transfer object!", L"",
  	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"tsunami","tsunami"},{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,62},
+	{ L"tsunami", L"tsunami"},{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,62},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_tsunami,		TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,			SLOT(701),	50,	12,
-	"raging tidal wave",	"!tsunami!",	"", 	CABAL_NONE ,
+	L"raging tidal wave",  L"!tsunami!",  L"", 	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"turn","devir"},		{   93, 50, 93, 93,60,93,93,93,93 ,93,93,93,93},
+	{ L"turn", L"devir"},		{   93, 50, 93, 93,60,93,93,93,93 ,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_turn,	TAR_IGNORE,	POS_FIGHTING,
 	NULL,		SLOT(597),	50,	12,
-  "",	"Devir büyüsünü yeniden kullanabilirsin.",	"", CABAL_NONE ,
+  L"",  L"Devir bÃ¼yÃ¼sÃ¼nÃ¼ yeniden kullanabilirsin.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"vampiric blast","yarasa öfkesi"},	{ 93, 93, 93, 93, 93, 93, 93, 93,93,93 ,38,93,93},
+	{ L"vampiric blast", L"yarasa Ã¶fkesi"},	{ 93, 93, 93, 93, 93, 93, 93, 93,93,93 ,38,93,93},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_vam_blast,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(611),	20,	12,
-  "yarasa öfkesi",	"!Vampiric Blast!", "",CABAL_NONE ,
+  L"yarasa Ã¶fkesi",  L"!Vampiric Blast!", L"",CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"ventriloquate","vantrolog"},	{   1, 93, 93, 93,93,93,93,93, 1,93,93,93,3},
+	{ L"ventriloquate", L"vantrolog"},	{   1, 93, 93, 93,93,93,93,93, 1,93,93,93,3},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_ventriloquate,	TAR_IGNORE,		POS_STANDING,
 	NULL,			SLOT(41),	 5,	12,
-	"",			"!Ventriloquate!",	"", CABAL_NONE ,
+	L"", L"!Ventriloquate!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_ILLUSION
     },
 
     {
-	{"web","að"},		{   93, 93, 93, 93,93,93,93,93,69 ,93,93,58,93},
+	{ L"web", L"aÄŸ"},		{   93, 93, 93, 93,93,93,93,93,69 ,93,93,58,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_web,		TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	&gsn_web,		SLOT(592),	50,	12,
-	"",		"Seni saran aðlar eriyor.",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_ATTACK
+	L"", L"Seni saran aÄŸlar eriyor.",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_ATTACK
     },
 
     {
-	{"windwall","rüzgar duvarý"},		{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,47},
+	{ L"windwall", L"rÃ¼zgar duvarÄ±"},		{ 93, 93, 93, 93, 93, 93,93,93,93,93,93,93,47},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_windwall,		TAR_IGNORE,		POS_FIGHTING,
 	NULL,			SLOT(694),	20,	12,
-  "rüzgar duvarý",		"Gözlerin iyileþiyor.",	"",
+  L"rÃ¼zgar duvarÄ±", L"GÃ¶zlerin iyileÅŸiyor.",  L"",
  	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_COMBAT
     },
 
     {
-	{"witch curse","cadý laneti"},	{   93, 93, 93, 93,93,93,93,93,93 ,93,93,93,93},
+	{ L"witch curse", L"cadÄ± laneti"},	{   93, 93, 93, 93,93,93,93,93,93 ,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_witch_curse,	TAR_CHAR_OFFENSIVE,	POS_STANDING,
 	&gsn_witch_curse,		SLOT(602),	150,	24,
-  "",			"Dayanýklýlýðýn artýyor.",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
+  L"", L"DayanÄ±klÄ±lÄ±ÄŸÄ±n artÄ±yor.",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"wrath","gazap"},         { 93, 93, 93,93,34,93,93,93,93,93,93,93,93 },
+	{ L"wrath", L"gazap"},         { 93, 93, 93,93,34,93,93,93,93,93,93,93,93 },
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_wrath, TAR_CHAR_OFFENSIVE,       POS_STANDING,
 	&gsn_wrath,       SLOT(553),        20,       12,
-  "gazap", "Lanet yokoluyor.", "",	CABAL_NONE ,
+  L"gazap", L"Lanet yokoluyor.", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_BENEDICTIONS
     },
 
     {
-	{"weaken","zayýflatma"},	{   93, 24, 93, 93,93,93,93,93 ,19,93,16,29,93},
+	{ L"weaken", L"zayÄ±flatma"},	{   93, 24, 93, 93,93,93,93,93 ,19,93,16,29,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_weaken,		TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	&gsn_weaken,		SLOT(68),	20,	12,
-  "zayýflatma",		"Güçlendiðini hissediyorsun.",	"", CABAL_NONE ,
+  L"zayÄ±flatma", L"GÃ¼Ã§lendiÄŸini hissediyorsun.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_MALADICTIONS
     },
 
     {
-	{"word of recall","anýmsama sözcüðü"},		{ 32, 28, 93, 93,32,93,29,93 ,32,38,10,10,32},
+	{ L"word of recall", L"anÄ±msama sÃ¶zcÃ¼ÄŸÃ¼"},		{ 32, 28, 93, 93,32,93,29,93 ,32,38,10,10,32},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_word_of_recall,	TAR_CHAR_SELF,		POS_RESTING,
 	NULL,			SLOT(42),	 5,	12,
-	"",			"!Word of Recall!",	"", CABAL_NONE ,
+	L"", L"!Word of Recall!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_TRANSPORTATION
     },
 
@@ -4850,110 +4851,110 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
  */
 
     {
-	{"acid breath","asit nefesi"},		{  67, 67, 67, 67,67,67,67,67 ,67,67,67,67,67},
+	{ L"acid breath", L"asit nefesi"},		{  67, 67, 67, 67,67,67,67,67 ,67,67,67,67,67},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_acid_breath,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	&gsn_acid_breath,		SLOT(200),	100,	24,
-  "asit nefesi",	"!Acid Breath!",	"", CABAL_NONE ,
+  L"asit nefesi",  L"!Acid Breath!",  L"", CABAL_NONE ,
 	RACE_TOP, ALIGN_NONE, GROUP_DRACONIAN
     },
 
     {
-	{"desert heat","çöl sýcaðý"},		{ 69, 69, 69, 69,69,69,69,69,69,69,69,69,69 },
+	{ L"desert heat", L"Ã§Ã¶l sÄ±caÄŸÄ±"},		{ 69, 69, 69, 69,69,69,69,69,69,69,69,69,69 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(629),	200,	24,
-  "çöl sýcaðý","Gözlerindeki duman yokoluyor.",	"", CABAL_NONE ,
+  L"Ã§Ã¶l sÄ±caÄŸÄ±", L"GÃ¶zlerindeki duman yokoluyor.",  L"", CABAL_NONE ,
 	RACE_TOP, ALIGN_NONE, GROUP_DRACONIAN
     },
 
     {
-	{"fire breath","ateþ nefesi"},	{ 69, 69, 69, 69,69,69,69,69,69,69,69,69,69 },
+	{ L"fire breath", L"ateÅŸ nefesi"},	{ 69, 69, 69, 69,69,69,69,69,69,69,69,69,69 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_fire_breath,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	&gsn_fire_breath,		SLOT(201),	200,	24,
-  "ateþ nefesi",	"Gözlerindeki duman yokoluyor.",	"", CABAL_NONE ,
+  L"ateÅŸ nefesi",  L"GÃ¶zlerindeki duman yokoluyor.",  L"", CABAL_NONE ,
 	RACE_TOP, ALIGN_NONE, GROUP_DRACONIAN
     },
 
     {
-	{"frost breath","buz nefesi"},			{ 61,61,61,61,61,61,61,61,61,61,61,61,61  },
+	{ L"frost breath", L"buz nefesi"},			{ 61,61,61,61,61,61,61,61,61,61,61,61,61  },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_frost_breath,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	&gsn_frost_breath,		SLOT(202),	125,	24,
-  "buz nefesi",	"!Frost Breath!",	"", CABAL_NONE ,
+  L"buz nefesi",  L"!Frost Breath!",  L"", CABAL_NONE ,
 	RACE_TOP, ALIGN_NONE, GROUP_DRACONIAN
     },
 
     {
-	{"gas breath","gaz nefesi"},		{ 70,70,70,70,70,70,70,70,70,70,70,70,70  },
+	{ L"gas breath", L"gaz nefesi"},		{ 70,70,70,70,70,70,70,70,70,70,70,70,70  },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_gas_breath,	TAR_IGNORE,		POS_FIGHTING,
 	&gsn_gas_breath,	SLOT(203),	175,	24,
-  "gaz nefesi",		"!Gas Breath!",		"", CABAL_NONE ,
+  L"gaz nefesi", L"!Gas Breath!", L"", CABAL_NONE ,
 	RACE_TOP, ALIGN_NONE, GROUP_DRACONIAN
     },
 
     {
-	{"lightning breath","þimþek nefesi"},	{ 64,64,64,64,64,64,64,64,64,64,64,64,64  },
+	{ L"lightning breath", L"ÅŸimÅŸek nefesi"},	{ 64,64,64,64,64,64,64,64,64,64,64,64,64  },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_lightning_breath,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	&gsn_lightning_breath,		SLOT(204),	150,	24,
-  "þimþek nefesi",	"!Lightning Breath!",	"", CABAL_NONE ,
+  L"ÅŸimÅŸek nefesi",  L"!Lightning Breath!",  L"", CABAL_NONE ,
 	RACE_TOP, ALIGN_NONE, GROUP_DRACONIAN
     },
 
     {
-	{"lightning stroke","çelik darbe"},		{ 69, 69, 69, 69,69,69,69,69,69,69,69,69,69 },
+	{ L"lightning stroke", L"Ã§elik darbe"},		{ 69, 69, 69, 69,69,69,69,69,69,69,69,69,69 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(632),	200,	24,
-  "çelik darbe",	"!lightning stroke!",	"", CABAL_NONE ,
+  L"Ã§elik darbe",  L"!lightning stroke!",  L"", CABAL_NONE ,
 	RACE_TOP, ALIGN_NONE, GROUP_DRACONIAN
     },
 
     {
-   {"luck bonus","þans bonusu"},{ 67, 67, 67, 67,67,67,67,67,67,67,67,67,67 },
+   { L"luck bonus", L"ÅŸans bonusu"},{ 67, 67, 67, 67,67,67,67,67,67,67,67,67,67 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_CHAR_DEFENSIVE,	POS_STANDING,
 	NULL,		SLOT( 630),	 20,	12,
-  "",		"Büyüye karþý zýrhýnýn azaldýðýný hissediyorsun.",	"", CABAL_NONE,
+  L"", L"BÃ¼yÃ¼ye karÅŸÄ± zÄ±rhÄ±nÄ±n azaldÄ±ÄŸÄ±nÄ± hissediyorsun.",  L"", CABAL_NONE,
 	RACE_TOP, ALIGN_NONE, GROUP_PROTECTIVE
     },
 
     {
-	{"paralyzation","felç"},	{ 69, 69, 69, 69,69,69,69,69,69,69,69,69,69 },
+	{ L"paralyzation", L"felÃ§"},	{ 69, 69, 69, 69,69,69,69,69,69,69,69,69,69 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_IGNORE,	POS_FIGHTING,
 	NULL,		SLOT(631),	200,	24,
-  "felç",	"Yeniden hareket edebiliyorsun.",	"", CABAL_NONE ,
+  L"felÃ§",  L"Yeniden hareket edebiliyorsun.",  L"", CABAL_NONE ,
 	RACE_TOP, ALIGN_NONE, GROUP_DRACONIAN
     },
 
     {
-	{"repulsion","repulsion"},		{ 65, 65, 65, 65,65,65,65,65,65,65,65,65,65 },
+	{ L"repulsion", L"repulsion"},		{ 65, 65, 65, 65,65,65,65,65,65,65,65,65,65 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(633),	200,	24,
-	"repulsion",	"!repulsion!",	"", CABAL_NONE ,
+	L"repulsion",  L"!repulsion!",  L"", CABAL_NONE ,
 	RACE_TOP, ALIGN_NONE, GROUP_DRACONIAN
     },
 
     {
-	{"sleep gas","uyku gazý"},	{ 67, 67, 67, 67,67,67,67,67,67,67,67,67,67 },
+	{ L"sleep gas", L"uyku gazÄ±"},	{ 67, 67, 67, 67,67,67,67,67,67,67,67,67,67 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_IGNORE,	POS_FIGHTING,
 	NULL,		SLOT(628),	200,	24,
-  "uyku gazý",	"Kendini kurumuþ hissediyorsun.",	"", CABAL_NONE ,
+  L"uyku gazÄ±",  L"Kendini kurumuÅŸ hissediyorsun.",  L"", CABAL_NONE ,
 	RACE_TOP, ALIGN_NONE, GROUP_DRACONIAN
     },
 
     {
-	{"slow gas","slow gas"},{ 69, 69, 69, 69,69,69,69,69,69,69,69,69,69 },
+	{ L"slow gas", L"slow gas"},{ 69, 69, 69, 69,69,69,69,69,69,69,69,69,69 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(634),	200,	24,
-  "slow gas",	"Eski hýzýný kazanýyorsun.",	"", CABAL_NONE ,
+  L"slow gas",  L"Eski hÄ±zÄ±nÄ± kazanÄ±yorsun.",  L"", CABAL_NONE ,
 	RACE_TOP, ALIGN_NONE, GROUP_DRACONIAN
     },
 
@@ -4962,1715 +4963,1715 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
  * Glop/Erkenbrand
  */
     {
-	{"crush","baský"},	{93,93,93,93,93,93,93,93,93,93,93,93,93},
+	{ L"crush", L"baskÄ±"},	{93,93,93,93,93,93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_crush,            	SLOT( 0),       0,      18,
-        "baský",                 "!crush!",		"", CABAL_NONE ,
+        L"baskÄ±", L"!crush!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_FIGHTMASTER
     },
 
     {
-	{"general purpose","genel amaç"},       { 93, 93, 93, 93, 93, 93, 93, 93 ,93,93,93,93,93},
+	{ L"general purpose", L"genel amaÃ§"},       { 93, 93, 93, 93, 93, 93, 93, 93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_general_purpose,  TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
         NULL,                   SLOT(401),      0,      12,
-	"genel amaç", "!General Purpose Ammo!",	"", CABAL_NONE ,
+	L"genel amaÃ§", L"!General Purpose Ammo!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"high explosive","yüksek patlayýcý"},       { 93, 93, 93, 93, 93, 93, 93, 93 ,93,93,93,93,93},
+	{ L"high explosive", L"yÃ¼ksek patlayÄ±cÄ±"},       { 93, 93, 93, 93, 93, 93, 93, 93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_high_explosive,   TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
         NULL,                   SLOT(402),      0,      12,
-        "yüksek patlayýcý",  "!High Explosive Ammo!",	"", CABAL_NONE ,
+        L"yÃ¼ksek patlayÄ±cÄ±",  L"!High Explosive Ammo!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"tail","kuyruk"},		{  53, 53,53, 53,53,53,53,53,53 ,53,53,53,53},
+	{ L"tail", L"kuyruk"},		{  53, 53,53, 53,53,53,53,53,53 ,53,53,53,53},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_tail,            	SLOT( 0),       0,      18,
-        "kuyruk",                 "!Tail!",		"", CABAL_NONE ,
+        L"kuyruk", L"!Tail!", L"", CABAL_NONE ,
 	RACE_TOP, ALIGN_NONE, GROUP_FIGHTMASTER
     },
 
 /* combat and weapons skills */
 
     {
-	{"arrow","ok"},		{ 93, 93,93, 93,93,93,93,93 ,93,93,93,93,93},
+	{ L"arrow", L"ok"},		{ 93, 93,93, 93,93,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_IGNORE,	POS_STANDING,
 	&gsn_arrow,	SLOT(0),	0,	0,
-  "ok",	"!arrow!",	"",
+  L"ok",  L"!arrow!",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_WEAPONSMASTER
     },
 
     {
-	{"axe","balta"},		{  93, 93, 93,  1,93,1,93,1 ,93 ,93,93,93,93},
+	{ L"axe", L"balta"},		{  93, 93, 93,  1,93,1,93,1 ,93 ,93,93,93,93},
 	{ 2, 2, 1, 1,1,1,1,1,1, 1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_axe,            	SLOT( 0),       0,      0,
-	"",                     "!Axe!",		"", CABAL_NONE ,
+	L"", L"!Axe!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_WEAPONSMASTER
     },
 
     {
-	{"bow","yay"},{ 93, 93,93, 44,93,93,93,35 ,93,93,93,93,93},
+	{ L"bow", L"yay"},{ 93, 93,93, 44,93,93,93,35 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_IGNORE,	POS_STANDING,
 	&gsn_bow,		SLOT(0),	0,	12,
-  "yay",		"!bow!",	"",
+  L"yay", L"!bow!",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_WEAPONSMASTER
     },
 
     {
-	{"dagger","hançer"},             { 1,  1,  1,  1,1,1,1,1 ,1 ,1,1,1,1},
+	{ L"dagger", L"hanÃ§er"},             { 1,  1,  1,  1,1,1,1,1 ,1 ,1,1,1,1},
 	{ 2, 2, 1, 1,1,1,1,1,1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_dagger,            SLOT( 0),       0,      0,
-	"",                     "!Dagger!",		"", CABAL_NONE ,
+	L"", L"!Dagger!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_WEAPONSMASTER
     },
 
     {
-	{"flail","döven"},		{ 93,  1, 93,  1,93,1,93,93 ,93,93,93,93,1},
+	{ L"flail", L"dÃ¶ven"},		{ 93,  1, 93,  1,93,1,93,93 ,93,93,93,93,1},
 	{ 2, 2, 1, 1,1,1,1,1,1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_flail,            	SLOT( 0),       0,      0,
-	"",                     "!Flail!",		"", CABAL_NONE ,
+	L"", L"!Flail!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_WEAPONSMASTER
     },
 
     {
-	{"lance","kargý"},	{ 33,33,33,33,33,33,33,33,33,33,33,33,33},
+	{ L"lance", L"kargÄ±"},	{ 33,33,33,33,33,33,33,33,33,33,33,33,33},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_IGNORE,	POS_STANDING,
 	&gsn_lance,	SLOT(0),	0,	0,
-	"lance",	"!lance!",	"",
+	L"lance",  L"!lance!",  L"",
 	CABAL_KNIGHT , RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-	{"mace","topuz"},			{  93,  1,  1,  1,1,1,93,93 ,93 ,1,93,93,93},
+	{ L"mace", L"topuz"},			{  93,  1,  1,  1,1,1,93,93 ,93 ,1,93,93,93},
 	{ 2, 2, 1, 1,1,1,1,1,1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_mace,            	SLOT( 0),       0,      0,
-	"",                     "!Mace!",		"", CABAL_NONE ,
+	L"", L"!Mace!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_WEAPONSMASTER
     },
 
     {
-	{"polearm","teber"},		{ 93, 93, 93,  1,1,1,93,93,93 ,93,93,93,93},
+	{ L"polearm", L"teber"},		{ 93, 93, 93,  1,1,1,93,93,93 ,93,93,93,93},
 	{ 2, 2, 1, 1,1,1,1,1,1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_polearm,           SLOT( 0),       0,      0,
-	"",                     "!Polearm!",		"", CABAL_NONE ,
+	L"", L"!Polearm!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_WEAPONSMASTER
     },
 
     {
-	{"shield block","kalkan bloðu"},		{ 93,17,7,1,1,1,12,10,93 ,10,93,93,93},
+	{ L"shield block", L"kalkan bloÄŸu"},		{ 93,17,7,1,1,1,12,10,93 ,10,93,93,93},
 	{ 2, 1, 1, 1,1,1,1,1,1,1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_FIGHTING,
 	&gsn_shield_block,	SLOT(0),	0,	0,
-	"",			"!Shield!",		"", CABAL_NONE ,
+	L"", L"!Shield!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_DEFENSIVE
     },
 
     {
-	{"spear","mýzrak"},			{  93,  93,  1,  1,93,1,1,1 ,93,1,8,93,93 },
+	{ L"spear", L"mÄ±zrak"},			{  93,  93,  1,  1,93,1,1,1 ,93,1,8,93,93 },
 	{ 2, 2, 1, 1,1,1,1,1,1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_spear,            	SLOT( 0),       0,      12,
-        "mýzrak",                     "!Spear!",		"", CABAL_NONE ,
+        L"mÄ±zrak", L"!Spear!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_WEAPONSMASTER
     },
 
     {
-	{"sword","kýlýç"},		{  93, 1,  1,  1,1,1,1,1,93 ,1,1,93,93},
+	{ L"sword", L"kÄ±lÄ±Ã§"},		{  93, 1,  1,  1,1,1,1,1,93 ,1,1,93,93},
 	{ 2, 2, 1, 1,1,1,1,1,1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_sword,            	SLOT( 0),       0,      0,
-	"",                     "!sword!",		"", CABAL_NONE ,
+	L"", L"!sword!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_WEAPONSMASTER
     },
 
     {
-	{"whip","kýrbaç"},		{  1, 1,  93,  1,93,1,93,1 ,1,93,1,1,1},
+	{ L"whip", L"kÄ±rbaÃ§"},		{  1, 1,  93,  1,93,1,93,1 ,1,93,1,1,1},
 	{ 2, 2, 1, 1,1,1,1,1,1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_whip,            	SLOT( 0),       0,      0,
-	"",                     "!Whip!",	"", CABAL_NONE ,
+	L"", L"!Whip!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_WEAPONSMASTER
     },
 
     {
-	{"second weapon","ikinci silah"},	{  93,93,93,23,48,48,93,23,93,24,93,93,93},
+	{ L"second weapon", L"ikinci silah"},	{  93,93,93,23,48,48,93,23,93,24,93,93,93},
 	{ 2, 2, 1, 1,1,1,1,1,1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_second_weapon,            	SLOT( 0),       0,      0,
-	"",	"!second weapon!",	"",	CABAL_NONE ,
+	L"",  L"!second weapon!",  L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_WEAPONSMASTER
     },
 
     {
-	{"ambush","pusu"},         {  93, 93, 93, 93, 93, 93, 93, 17,93 ,93,93,93,93},
+	{ L"ambush", L"pusu"},         {  93, 93, 93, 93, 93, 93, 93, 17,93 ,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,        TAR_CHAR_OFFENSIVE,          POS_STANDING,
         &gsn_ambush,                    SLOT(0),        0,       12,
-        "pusu", "!Ambush!", "",	CABAL_NONE ,
+        L"pusu", L"!Ambush!", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"area attack","alan saldýrýsý"},      {93, 93, 93, 73,93,93,93,93,93,69,93,93,93},
+	{ L"area attack", L"alan saldÄ±rÄ±sÄ±"},      {93, 93, 93, 73,93,93,93,93,93,69,93,93,93},
 	{1,1,1,1,1,1,1,1,1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_area_attack,     SLOT(0),        0,      0,
-	"",         "!Area Attack!", 	"",	CABAL_NONE,
+	L"", L"!Area Attack!", L"",	CABAL_NONE,
 	RACE_NONE, ALIGN_NONE, GROUP_FIGHTMASTER
     },
 
     {
-	{"assassinate","suikast"},       {  93, 93, 93, 93, 93, 93, 65, 93 ,93,93,93,93,93},
+	{ L"assassinate", L"suikast"},       {  93, 93, 93, 93, 93, 93, 65, 93 ,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,      TAR_IGNORE,          POS_STANDING,
         &gsn_assassinate,       SLOT(0),        0,       18,
-        "suikast", "!assassinate!", "",	CABAL_NONE ,
+        L"suikast", L"!assassinate!", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"backstab","ardýlan"},          {  93, 93,  11, 93,93,93,93,93 ,93,93,93,93,93 },
+	{ L"backstab", L"ardÄ±lan"},          {  93, 93,  11, 93,93,93,93,93 ,93,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_STANDING,
         &gsn_backstab,          SLOT( 0),        0,     12,
-        "ardýlan",             "!Backstab!",		"", CABAL_NONE ,
+        L"ardÄ±lan", L"!Backstab!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"bash","omuz"},		{  93,93,93,1, 6,1,1,10 ,93 ,93,11,93,93},
+	{ L"bash", L"omuz"},		{  93,93,93,1, 6,1,1,10 ,93 ,93,11,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_bash,            	SLOT( 0),       0,      18,
-        "omuz",                 "!Bash!",		"", CABAL_NONE ,
+        L"omuz", L"!Bash!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_FIGHTMASTER
     },
 
     {
-	{"bash door","kapýkýrma"},	{  93, 93, 93,  1,6,1,1,93 ,93,93,11,93,93},
+	{ L"bash door", L"kapÄ±kÄ±rma"},	{  93, 93, 93,  1,6,1,1,93 ,93,93,11,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_bash_door,        	SLOT( 0),       0,      18,
-        "kapýkýrma",                 "!Bash Door!",		"", CABAL_NONE ,
+        L"kapÄ±kÄ±rma", L"!Bash Door!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_FIGHTMASTER
     },
 
     {
-	{"bearcall","ayý çaðýrma"},      {  93, 93, 93, 93, 93, 93, 93, 31,93,93,93,93,93 },
+	{ L"bearcall", L"ayÄ± Ã§aÄŸÄ±rma"},      {  93, 93, 93, 93, 93, 93, 93, 31,93,93,93,93,93 },
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,		TAR_IGNORE,          POS_FIGHTING,
         &gsn_bear_call,		SLOT(518),	50,       0,
-        "", "Yeni ayýlarla baþa çýkabilirsin.", "",	CABAL_NONE ,
+        L"", L"Yeni ayÄ±larla baÅŸa Ã§Ä±kabilirsin.", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"berserk","vahþileþme"},		{ 93, 93, 93, 18,93,93,93,93 ,93,20,93,93,93 },
+	{ L"berserk", L"vahÅŸileÅŸme"},		{ 93, 93, 93, 18,93,93,93,93 ,93,20,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_berserk,        	SLOT( 0),       0,      24,
-        "",                     "Nabzýnýn yavaþladýðýný hissediyorsun.",	"", CABAL_NONE ,
+        L"", L"NabzÄ±nÄ±n yavaÅŸladÄ±ÄŸÄ±nÄ± hissediyorsun.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"blackguard","karagard"},{  93, 93, 93, 93, 93, 93, 93, 93 ,93,93,93,93,93},
+	{ L"blackguard", L"karagard"},{  93, 93, 93, 93, 93, 93, 93, 93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_CHAR_OFFENSIVE,   POS_STANDING,
 	&gsn_blackguard,		SLOT(0),    0,       12,
-  "karagard",		"Karagardýn yokoluyor.","", CABAL_NONE ,
+  L"karagard", L"KaragardÄ±n yokoluyor.", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"blackjack","copla"},	{  93, 93, 30, 93, 93, 93, 93, 93 ,93,93,93,93,93},
+	{ L"blackjack", L"copla"},	{  93, 93, 30, 93, 93, 93, 93, 93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_CHAR_OFFENSIVE,   POS_STANDING,
 	&gsn_blackjack,		SLOT(0),    0,       8,
-  "copla",		"Kafandaki aðrý geçiyor.","", CABAL_NONE ,
+  L"copla", L"Kafandaki aÄŸrÄ± geÃ§iyor.", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"blind fighting","kör dövüþü"},	{   93, 93, 93, 13,32,93,11,43,93 ,23,93,93,93},
+	{ L"blind fighting", L"kÃ¶r dÃ¶vÃ¼ÅŸÃ¼"},	{   93, 93, 93, 13,32,93,11,43,93 ,23,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_blind_fighting,		SLOT(0),	0,	0,
-	"",			"!blind fighting!",	"", CABAL_NONE ,
+	L"", L"!blind fighting!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_FIGHTMASTER
     },
 
     {
-	{"blindness dust","körlük tozu"},       {  93, 93, 93, 93, 93, 93, 28, 93,93,93,93,93,93 },
+	{ L"blindness dust", L"kÃ¶rlÃ¼k tozu"},       {  93, 93, 93, 93, 93, 93, 28, 93,93,93,93,93,93 },
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,   		TAR_IGNORE,             POS_FIGHTING,
         &gsn_blindness_dust,    SLOT(0),        20,       18,
-	"",                     "!blindness dust!", "",	 CABAL_NONE ,
+	L"", L"!blindness dust!", L"",	 CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"blink","zayi"},            {  1, 93,  93, 93,93,93,93,93 ,1,93,93,1,1},
+	{ L"blink", L"zayi"},            {  1, 93,  93, 93,93,93,93,93 ,1,93,93,1,1},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_blink,             SLOT( 0),        0,     0,
-	"",                     "!Blink!",		"", CABAL_NONE ,
+	L"", L"!Blink!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"butcher","kasap"},       {  93, 93, 93, 93, 93, 93, 93, 13 ,93,93,93,93,93},
+	{ L"butcher", L"kasap"},       {  93, 93, 93, 93, 93, 93, 93, 13 ,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,        TAR_IGNORE,          POS_STANDING,
         &gsn_butcher,             SLOT(0),        0,       0,
-	"", "!butcher!", "",	CABAL_NONE ,
+	L"", L"!butcher!", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"caltraps","çivi"},        {  93, 93, 93, 93, 93, 93, 18, 93 ,93,36,93,93,93},
+	{ L"caltraps", L"Ã§ivi"},        {  93, 93, 93, 93, 93, 93, 18, 93 ,93,36,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,      TAR_IGNORE,          POS_FIGHTING,
         &gsn_caltraps,       SLOT(0),        0,       18,
-        "çivi", "Bacaklarýndaki acý sönüyor.", "",	CABAL_NONE ,
+        L"Ã§ivi", L"BacaklarÄ±ndaki acÄ± sÃ¶nÃ¼yor.", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"camouflage","kamuflaj"},       {  93, 93, 93, 93, 93, 93, 93, 4 ,93,93,93,93,93},
+	{ L"camouflage", L"kamuflaj"},       {  93, 93, 93, 93, 93, 93, 93, 4 ,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,        TAR_IGNORE,           POS_STANDING,
         &gsn_camouflage,         SLOT(0),        0,       24,
-	"",         "!Camouflage!", "",	CABAL_NONE ,
+	L"", L"!Camouflage!", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"camouflage move","kamufle hareket"},	{ 93, 93, 93, 93, 93,93,93,23, 93,93,93,93,93},
+	{ L"camouflage move", L"kamufle hareket"},	{ 93, 93, 93, 93, 93,93,93,23, 93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_move_camf,		SLOT(0),	0,	12,
-	"",		"!move camouflaged!",	"", CABAL_NONE ,
+	L"", L"!move camouflaged!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"camp","kamp"},			{  93, 93, 93,  93,93,93,93,48 ,93 ,93,93,93,93},
+	{ L"camp", L"kamp"},			{  93, 93, 93,  93,93,93,93,48 ,93 ,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_STANDING,
         &gsn_camp,            	SLOT( 0),       0,      24,
-        "kamp",          "Yeni kamplar kurabilirsin.","", CABAL_NONE ,
+        L"kamp",          L"Yeni kamplar kurabilirsin.", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"circle","çevrel"},          {  93, 93, 7, 93, 93, 93, 93, 93,93 ,93,93,93,93},
+	{ L"circle", L"Ã§evrel"},          {  93, 93, 7, 93, 93, 93, 93, 93,93 ,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,        TAR_CHAR_OFFENSIVE,          POS_FIGHTING,
         &gsn_circle,             SLOT(0),        0,       18,
-        "çevrel", "!Circle!", "",		CABAL_NONE ,
+        L"Ã§evrel", L"!Circle!", L"",		CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"control animal","hayvan kontrolü"},	{ 93, 93, 93, 93,93,93,93,93,93,93,43,93,93 },
+	{ L"control animal", L"hayvan kontrolÃ¼"},	{ 93, 93, 93, 93,93,93,93,93,93,93,43,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_CHAR_OFFENSIVE,	POS_STANDING,
 	&gsn_control_animal,	SLOT( 0),	 5,	12,
-  "",			"Kendine güvenin artýyor.",	"", CABAL_NONE ,
+  L"", L"Kendine gÃ¼venin artÄ±yor.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_BEGUILING
     },
 
     {
-	{"cleave","yarma"},         {  93, 93, 93, 93, 93, 55, 93, 93 ,93,93,93,93,93},
+	{ L"cleave", L"yarma"},         {  93, 93, 93, 93, 93, 55, 93, 93 ,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,     TAR_CHAR_OFFENSIVE,     POS_STANDING,
         &gsn_cleave,         SLOT(0),        0,       24,
-        "yarma",         "!Cleave!", "",	CABAL_NONE ,
+        L"yarma", L"!Cleave!", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"concentrate","konsantrasyon"},        { 93, 93,93,59,93,93,93,93,93,93,93,93,93},
+	{ L"concentrate", L"konsantrasyon"},        { 93, 93,93,59,93,93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_concentrate,        SLOT( 0),        0,     18,
-        "",      "Yeni dövüþlere konsantre olabilirsin.",	"",CABAL_NONE ,
+        L"", L"Yeni dÃ¶vÃ¼ÅŸlere konsantre olabilirsin.",  L"",CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_FIGHTMASTER
     },
 
     {
-	{"counter","kontra"},     {  93, 93, 93, 28, 35, 93, 93, 93 ,93,28,93,93,93},
+	{ L"counter", L"kontra"},     {  93, 93, 93, 28, 35, 93, 93, 93 ,93,28,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,        TAR_IGNORE,           POS_STANDING,
         &gsn_counter,         SLOT(0),        0,       0,
-	"",         "!Counter!", "",		CABAL_NONE ,
+	L"", L"!Counter!", L"",		CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_FIGHTMASTER
     },
 
     {
-	{"critical strike","kritik vuruþ"},	{   93, 93, 93, 93,93,93,58,93,93 ,62,93,93,93},
+	{ L"critical strike", L"kritik vuruÅŸ"},	{   93, 93, 93, 93,93,93,58,93,93 ,62,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_critical,			SLOT(0),	0,	18,
-	"",			"!critical strike!",	"", CABAL_NONE ,
+	L"", L"!critical strike!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"cross block","çapraz blok"},       {  93,93,93,31,56,56,93,31,93,32,93,93,93},
+	{ L"cross block", L"Ã§apraz blok"},       {  93,93,93,31,56,56,93,31,93,32,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_cross_block,       SLOT( 0),        0,     0,
-	"",                     "!cross block!",	"", CABAL_NONE ,
+	L"", L"!cross block!",  L"", CABAL_NONE ,
 	RACE_NONE,ALIGN_NONE, GROUP_DEFENSIVE
     },
 
     {
-	{"detect hidden","saklýyý saptama"},	{ 93, 93, 93, 93, 93, 93, 93, 93 ,93,93,93,93,93},
+	{ L"detect hidden", L"saklÄ±yÄ± saptama"},	{ 93, 93, 93, 93, 93, 93, 93, 93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_detect_hidden,	TAR_CHAR_SELF,		POS_STANDING,
 	NULL,		SLOT(44),	 5,	12,
-  "",			"Saklýyý saptaman sönüyor.",
-	"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_DETECTION
+  L"", L"SaklÄ±yÄ± saptaman sÃ¶nÃ¼yor.",
+	L"", CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_DETECTION
     },
 
     {
-	{"detect sneak","süzüleni saptama"},		{   93, 93, 93, 93,93,93,93,93,93 ,93,93,93,93},
+	{ L"detect sneak", L"sÃ¼zÃ¼leni saptama"},		{   93, 93, 93, 93,93,93,93,93,93 ,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_CHAR_SELF,		POS_STANDING,
 	&gsn_detect_sneak,		SLOT(0),	20,	18,
-	"",			"!detect sneak!",	"", CABAL_NONE ,
+	L"", L"!detect sneak!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_DETECTION
     },
 
     {
-	{"dirt kicking","toz atma"},	{ 93, 93,  3,  8,93,3,3,5,93 ,93,93,93,93},
+	{ L"dirt kicking", L"toz atma"},	{ 93, 93,  3,  8,93,3,3,5,93 ,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_FIGHTING,
 	&gsn_dirt,		SLOT( 0),	0,	12,
-  "toz atma",		"Gözlerindeki toz dökülüyor.",	"", CABAL_NONE ,
+  L"toz atma", L"GÃ¶zlerindeki toz dÃ¶kÃ¼lÃ¼yor.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"disarm","silahsýzlandýr"},              {  93, 93, 28, 20,20,21,23,21,93,21,93,93,93},
+	{ L"disarm", L"silahsÄ±zlandÄ±r"},              {  93, 93, 28, 20,20,21,23,21,93,21,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_disarm,            SLOT( 0),        0,     18,
-	"",                     "!Disarm!",		"", CABAL_NONE ,
+	L"", L"!Disarm!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_WEAPONSMASTER
     },
 
     {
-	{"dodge","sýyrýlma"},           {  33,93,1,13, 21,21,1,9, 93,15,8,93,27},
+	{ L"dodge", L"sÄ±yrÄ±lma"},           {  33,93,1,13, 21,21,1,9, 93,15,8,93,27},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_dodge,             SLOT( 0),        0,     0,
-	"",                     "!Dodge!",		"", CABAL_NONE ,
+	L"", L"!Dodge!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_DEFENSIVE
     },
 
    {
-	{"dual backstab","çift ardýlan"},       {  93, 93, 38, 93, 93, 93, 93, 93 ,93,93,93,93,93},
+	{ L"dual backstab", L"Ã§ift ardÄ±lan"},       {  93, 93, 38, 93, 93, 93, 93, 93 ,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,             TAR_CHAR_OFFENSIVE,           POS_STANDING,
         &gsn_dual_backstab,       SLOT(0),        0,       0,
-        "çift ardýlan",      "!dual backstab!", "",		CABAL_NONE ,
+        L"Ã§ift ardÄ±lan", L"!dual backstab!", L"",		CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"enchant sword","kýlýç yücelt"},		{ 93, 93, 93, 93,93,93,93,93,93,42,93,93,93 },
+	{ L"enchant sword", L"kÄ±lÄ±Ã§ yÃ¼celt"},		{ 93, 93, 93, 93,93,93,93,93,93,42,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_OBJ_INV,		POS_STANDING,
 	&gsn_enchant_sword,	SLOT(0),	100,	24,
-	"",	"!Enchant sword!",	"", CABAL_NONE , RACE_NONE,
+	L"",  L"!Enchant sword!",  L"", CABAL_NONE , RACE_NONE,
 	ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"endure","dayaným"},          {  93, 93, 93, 93, 93, 93, 20, 93 ,93,93,93,93,93},
+	{ L"endure", L"dayanÄ±m"},          {  93, 93, 93, 93, 93, 93, 20, 93 ,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,        TAR_CHAR_SELF,          POS_FIGHTING,
         &gsn_endure,             SLOT(0),        0,       24,
-        "", "Büyüye karþý dayanýmýn azalýyor.", "",	CABAL_NONE ,
+        L"", L"BÃ¼yÃ¼ye karÅŸÄ± dayanÄ±mÄ±n azalÄ±yor.", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"enhanced damage","yüksek zarar"},      {  93, 33, 25,  3,6,3,16,15 ,93,8,14,93,93},
+	{ L"enhanced damage", L"yÃ¼ksek zarar"},      {  93, 33, 25,  3,6,3,16,15 ,93,8,14,93,93},
 	{ 1,  2,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_enhanced_damage,   SLOT( 0),        0,     0,
-	"",                     "!Enhanced Damage!",	"", CABAL_NONE ,
+	L"", L"!Enhanced Damage!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_FIGHTMASTER
     },
 
     {
-	{"entangle","sarmaþýk"},        {  93,93,93,93,93,93,93,26 ,93,93,93,93,93},
+	{ L"entangle", L"sarmaÅŸÄ±k"},        {  93,93,93,93,93,93,93,26 ,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_entangle,      TAR_CHAR_OFFENSIVE,   POS_FIGHTING,
         &gsn_entangle,       SLOT(568),        40,       12,
-        "sarmaþýk", "Sarmaþýklardan kurtulduðunu hissediyorsun.", "",	CABAL_NONE ,
+        L"sarmaÅŸÄ±k", L"SarmaÅŸÄ±klardan kurtulduÄŸunu hissediyorsun.", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"envenom","sem"},		{ 93, 93, 15, 93, 93, 93, 93, 93,93,93,93,93,93 },
+	{ L"envenom", L"sem"},		{ 93, 93, 15, 93, 93, 93, 93, 93,93,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,	  	POS_RESTING,
 	&gsn_envenom,		SLOT(0),	0,	12,
-	"",			"!Envenom!",		"", CABAL_NONE ,
+	L"", L"!Envenom!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"escape","sývýþ"},		{93,93,45,93,93,93,55,93,93,93,93,93,93},
+	{ L"escape", L"sÄ±vÄ±ÅŸ"},		{93,93,45,93,93,93,55,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_escape,		SLOT( 0),	0,	24,
-	"",	"!escape!","", CABAL_NONE ,
+	L"",  L"!escape!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"explode","patlat"},      {  93, 93, 93, 93, 93, 93, 93, 93 ,93,46,93,93,93},
+	{ L"explode", L"patlat"},      {  93, 93, 93, 93, 93, 93, 93, 93 ,93,46,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,      TAR_CHAR_OFFENSIVE,          POS_FIGHTING,
         &gsn_explode,       SLOT(0),        100,       24,
-        "patlat", "Gözlerindeki duman yokoluyor.", "",	CABAL_NONE ,
+        L"patlat", L"GÃ¶zlerindeki duman yokoluyor.", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-{"ground strike","zemin vuruþu"},	{ 93,93,93,93, 93,93,93,52, 93,93,93,93,93},
+{ L"ground strike", L"zemin vuruÅŸu"},	{ 93,93,93,93, 93,93,93,52, 93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_ground_strike,	SLOT(0),	0,	18,
-	"",			"!ground strike!",	"", CABAL_NONE ,
+	L"", L"!ground strike!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"hand block","el bloðu"},            { 93,93,93,93,93,93,22,93,93,93,93,93,93},
+	{ L"hand block", L"el bloÄŸu"},            { 93,93,93,93,93,93,22,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_hand_block,             SLOT( 0),        0,     0,
-	"",                     "!hand block!",		"", CABAL_NONE ,
+	L"", L"!hand block!", L"", CABAL_NONE ,
 	RACE_NONE,ALIGN_NONE, GROUP_DEFENSIVE
     },
 
     {
-	{"hand to hand","çýplak el"},		{ 45,  30, 18, 9,11,18,3,24,45,12,19,45,35 },
+	{ L"hand to hand", L"Ã§Ä±plak el"},		{ 45,  30, 18, 9,11,18,3,24,45,12,19,45,35 },
 	{ 2,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_FIGHTING,
 	&gsn_hand_to_hand,	SLOT( 0),	0,	0,
-	"",			"!Hand to Hand!",	"", CABAL_NONE ,
+	L"", L"!Hand to Hand!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_FIGHTMASTER
     },
 
     {
-	{"harakiri","harakiri"},	{ 93, 93, 93, 93,93,93,93,93,93,25,93,93,93 },
+	{ L"harakiri", L"harakiri"},	{ 93, 93, 93, 93,93,93,93,93,93,25,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null, 	TAR_IGNORE,	POS_FIGHTING,
 	&gsn_hara_kiri,		SLOT(0),	50,	12,
-  "",	"Yaþamaya yeniden baþladýðýný hissediyorsun.", "", CABAL_NONE ,
+  L"",  L"YaÅŸamaya yeniden baÅŸladÄ±ÄŸÄ±nÄ± hissediyorsun.", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"headguard","kafakoruma"},	{  93, 93, 93, 93, 93, 93, 93, 93 ,93,93,93,93,93},
+	{ L"headguard", L"kafakoruma"},	{  93, 93, 93, 93, 93, 93, 93, 93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_CHAR_OFFENSIVE,   POS_STANDING,
 	&gsn_headguard,		SLOT(0),    0,       12,
-  "kafakoruma",		"Kafakoruman yokoluyor.","", CABAL_NONE ,
+  L"kafakoruma", L"Kafakoruman yokoluyor.", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"herbs","bitki"},       {  93, 93, 93, 93, 93, 93, 93, 18 ,93,93,93,93,93},
+	{ L"herbs", L"bitki"},       {  93, 93, 93, 93, 93, 93, 93, 18 ,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,        TAR_CHAR_DEFENSIVE,          POS_STANDING,
         &gsn_herbs,             SLOT(0),        0,       30,
-        "", "Yine bitkilerle uðraþabilirsin.", "",	CABAL_NONE ,
+        L"", L"Yine bitkilerle uÄŸraÅŸabilirsin.", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"kick","tekme"},           {  93, 12, 14,  5,93,9,1,8 ,93,2,4,93,93},
+	{ L"kick", L"tekme"},           {  93, 12, 14,  5,93,9,1,8 ,93,2,4,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,             TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
         &gsn_kick,              SLOT( 0),        0,     12,
-        "tekme",                 "!Tekme!",		"", CABAL_NONE ,
+        L"tekme", L"!Tekme!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_FIGHTMASTER
     },
 
     {
-	{"lash","kýrbaçla"},			{ 48,48,93,93, 48,93,48,93, 48,93,48,48,48},
+	{ L"lash", L"kÄ±rbaÃ§la"},			{ 48,48,93,93, 48,93,48,93, 48,93,48,48,48},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_lash,            	SLOT( 0),       0,      4,
-        "kýrbaç",                 "!Lash!",		"", CABAL_NONE ,
+        L"kÄ±rbaÃ§", L"!Lash!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_FIGHTMASTER
     },
 
     {
-	{"light resistance","ýþýk direnci"},	{  93,  93, 93, 93,93,93,93,93,93,93,50,93,93},
+	{ L"light resistance", L"Ä±ÅŸÄ±k direnci"},	{  93,  93, 93, 93,93,93,93,93,93,93,50,93,93},
 	{ 1,  1,  2,  2, 1, 1, 1, 1,1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_SLEEPING,
 	&gsn_light_res,		SLOT( 0),	0,	0,
-	"",			"Light Resistance","", CABAL_NONE ,
+	L"", L"Light Resistance", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"lion call","aslan çaðýrma"},	{ 93, 93, 93, 93,93,93,93,55,93,93,93,93,93 },
+	{ L"lion call", L"aslan Ã§aÄŸÄ±rma"},	{ 93, 93, 93, 93,93,93,93,55,93,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null, 	TAR_CHAR_DEFENSIVE,	POS_FIGHTING,
 	&gsn_lion_call,		SLOT(0),	50,	12,
-	"",		"!lion call!", 		"",
+	L"", L"!lion call!", 		L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"make arrow","ok yapma"},		{ 93, 93, 93,93,93,93,93,37,93,93,93,93,93 },
+	{ L"make arrow", L"ok yapma"},		{ 93, 93, 93,93,93,93,93,37,93,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_make_arrow,	SLOT(0),	 50,	24,
-	"",		"!make arrow!",		"", CABAL_NONE ,
+	L"", L"!make arrow!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"make bow","yay yapma"},		{ 93, 93, 93,93,93,93,93,36,93,93,93,93,93 },
+	{ L"make bow", L"yay yapma"},		{ 93, 93, 93,93,93,93,93,36,93,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_make_bow,		SLOT(0),	 200,	24,
-	"",		"!make bow!",		"", CABAL_NONE ,
+	L"", L"!make bow!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"mental attack","zihin saldýrýsý"},{ 93, 93,93, 93,93,93,93,93 ,93,93,93,93,93},
+	{ L"mental attack", L"zihin saldÄ±rÄ±sÄ±"},{ 93, 93,93, 93,93,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_CHAR_SELF,		POS_STANDING,
 	&gsn_mental_attack,		SLOT(0),	200,	24,
-	"",	"!mental attack!",	"",
+	L"",  L"!mental attack!",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"neckguard","boyunkoruma"},	{  93, 93, 93, 93, 93, 93, 93, 93 ,93,93,93,93,93},
+	{ L"neckguard", L"boyunkoruma"},	{  93, 93, 93, 93, 93, 93, 93, 93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_CHAR_OFFENSIVE,   POS_STANDING,
 	&gsn_neckguard,		SLOT(0),    0,       12,
-  "boyun koruma",		"Boyun koruman yokoluyor.","", CABAL_NONE ,
+  L"boyun koruma", L"Boyun koruman yokoluyor.", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"nerve","sinir"},       {  93, 93, 93, 93, 93, 93, 29, 93 ,93,93,93,93,93},
+	{ L"nerve", L"sinir"},       {  93, 93, 93, 93, 93, 93, 29, 93 ,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,        TAR_CHAR_OFFENSIVE,          POS_FIGHTING,
         &gsn_nerve,             SLOT(0),        0,       18,
-        "", "Sinirlerin iyileþiyor.", "",	CABAL_NONE ,
+        L"", L"Sinirlerin iyileÅŸiyor.", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"parry","karþýlama"},              { 93,25,19,1, 3,5,93,3, 23,1,22,93,93},
+	{ L"parry", L"karÅŸÄ±lama"},              { 93,25,19,1, 3,5,93,3, 23,1,22,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_parry,             SLOT( 0),        0,     0,
-	"",                     "!Parry!",		"", CABAL_NONE ,
+	L"", L"!Parry!", L"", CABAL_NONE ,
 	RACE_NONE,ALIGN_NONE, GROUP_DEFENSIVE
     },
 
     {
-	{"perception","algý"},  {  93, 93, 23, 93, 93,93,93,93,93,93,93,93,93},
+	{ L"perception", L"algÄ±"},  {  93, 93, 23, 93, 93,93,93,93,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,        TAR_IGNORE,          POS_STANDING,
         &gsn_perception,             SLOT(0),        0,       0,
-	"", "!perception!", "",	CABAL_NONE ,
+	L"", L"!perception!", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"push","itme"},			{  93, 93, 53,  93,93,93,93,93 ,93 ,93,93,93,93},
+	{ L"push", L"itme"},			{  93, 93, 53,  93,93,93,93,93 ,93 ,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_STANDING,
         &gsn_push,            	SLOT( 0),       0,      18,
-        "itme",          "!push!","", CABAL_NONE ,
+        L"itme",          L"!push!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"rescue","kurtar"},               {  93, 93, 93,  1,1,93,93,93,93,23,93,93,93 },
+	{ L"rescue", L"kurtar"},               {  93, 93, 93,  1,1,93,93,93,93,23,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_rescue,            SLOT( 0),        0,     12,
-	"",                     "!Rescue!",		"", CABAL_NONE ,
+	L"", L"!Rescue!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_DEFENSIVE
     },
 
     {
-	{"sense life","yaþam sezme"},{ 93, 93,93, 93,93,93,93,93 ,93,93,13,93,93},
+	{ L"sense life", L"yaÅŸam sezme"},{ 93, 93,93, 93,93,93,93,93 ,93,93,13,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_CHAR_SELF,		POS_STANDING,
 	&gsn_sense_life,	SLOT(623),	20,	12,
-  "",	"Yaþam sezme gücünü yitiriyorsun.",	"",
+  L"",  L"YaÅŸam sezme gÃ¼cÃ¼nÃ¼ yitiriyorsun.",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"settraps","tuzak"},	{ 93, 93, 59, 93,93,93,93,93,93,93,93,93,93},
+	{ L"settraps", L"tuzak"},	{ 93, 93, 59, 93,93,93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_CHAR_SELF,		POS_STANDING,
 	&gsn_settraps,		SLOT(0),	200,	24,
-  "tuzak",	"Yeni tuzaklar kurabilirsin.",	"",
+  L"tuzak",  L"Yeni tuzaklar kurabilirsin.",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"shield cleave","kalkan yarma"},{ 93, 93, 33, 26, 29, 29, 31, 35, 93, 26, 39, 93, 93},
+	{ L"shield cleave", L"kalkan yarma"},{ 93, 93, 33, 26, 29, 29, 31, 35, 93, 26, 39, 93, 93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_CHAR_SELF,		POS_STANDING,
 	&gsn_shield_cleave,		SLOT(0),	200,	24,
-	"",	"!shield cleave!",	"",
+	L"",  L"!shield cleave!",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"smithing","demirci"},		{   93, 93, 93, 50,93,93,93,93,93 ,93,93,93,93},
+	{ L"smithing", L"demirci"},		{   93, 93, 93, 50,93,93,93,93,93 ,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_smithing,			SLOT(0),	10,	18,
-	"",			"!smithing!",	"", CABAL_NONE ,
+	L"", L"!smithing!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"spell craft","büyü tanýma"},			{ 10,30,93,93, 93,93,93,93, 10,93,93,10,10 },
+	{ L"spell craft", L"bÃ¼yÃ¼ tanÄ±ma"},			{ 10,30,93,93, 93,93,93,93, 10,93,93,10,10 },
 	{ 1,  1,  1,  1, 1, 1, 2, 2, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_FIGHTING,
 	&gsn_spell_craft,	SLOT(0),    0,       0,
-  "büyü tanýma",		"!spell craft!","", CABAL_NONE ,
+  L"bÃ¼yÃ¼ tanÄ±ma", L"!spell craft!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"strangle","bayýltma"},          {  93,  93,  93,  93,93,93,26,93 ,93,93,93,93,93},
+	{ L"strangle", L"bayÄ±ltma"},          {  93,  93,  93,  93,93,93,26,93 ,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,      TAR_CHAR_OFFENSIVE,          POS_STANDING,
         &gsn_strangle,       SLOT(0),        0,       8,
-        "bayýltma", "Boynunu yeniden hareket ettirebiliyorsun.", "",	CABAL_NONE ,
+        L"bayÄ±ltma", L"Boynunu yeniden hareket ettirebiliyorsun.", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"swimming","yüzme"},	{   93, 93, 93, 93,93,93,93,93,93 ,93,93,93,93},
+	{ L"swimming", L"yÃ¼zme"},	{   93, 93, 93, 93,93,93,93,93,93 ,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_swimming,		SLOT(0),	0,	0,
-	"",			"!swimming!",	"", CABAL_NONE ,
+	L"", L"!swimming!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"target","hedef"},                 {  93, 93, 93,  93,93,93,93,93 ,93,40,93,93,93},
+	{ L"target", L"hedef"},                 {  93, 93, 93,  93,93,93,93,93 ,93,40,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,             TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
         &gsn_target,              SLOT( 0),        0,     12,
-        "hedef",                 "!Kick!",		"", CABAL_NONE ,
+        L"hedef", L"!Kick!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"throw","fýrlatma"},        {  93, 93, 93, 93, 93, 93, 25, 93 ,93,37,93,93,93},
+	{ L"throw", L"fÄ±rlatma"},        {  93, 93, 93, 93, 93, 93, 25, 93 ,93,37,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,      TAR_CHAR_OFFENSIVE,       POS_FIGHTING,
         &gsn_throw,       SLOT(0),        0,       18,
-        "fýrlatma", "!throw!", "",	CABAL_NONE , RACE_NONE,ALIGN_NONE, GROUP_NONE
+        L"fÄ±rlatma", L"!throw!", L"",	CABAL_NONE , RACE_NONE,ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"tiger power","kaplan gücü"},		{ 93,93,93,93, 93,93,93,61, 93,93,93,93,93 },
+	{ L"tiger power", L"kaplan gÃ¼cÃ¼"},		{ 93,93,93,93, 93,93,93,61, 93,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null, 	TAR_IGNORE,	POS_FIGHTING,
 	&gsn_tiger_power,	SLOT(0),	0,	12,
-  "",	"Kaplanlarýnýn kaçtýðýný hissediyorsun.", "", CABAL_NONE ,
+  L"",  L"KaplanlarÄ±nÄ±n kaÃ§tÄ±ÄŸÄ±nÄ± hissediyorsun.", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"track","iz"},       {  93, 93, 93,93,93,93,93,39,93,93,93,93,93},
+	{ L"track", L"iz"},       {  93, 93, 93,93,93,93,93,39,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,      TAR_IGNORE,       POS_STANDING,
         &gsn_track,       SLOT(0),        0,       12,
-	"", "!track!", "",CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
+	L"", L"!track!", L"",CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"trip","çelme"},		{  93, 93,  3, 25,93,10,8,93 ,93,20,93,93,93},
+	{ L"trip", L"Ã§elme"},		{  93, 93,  3, 25,93,10,8,93 ,93,20,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_FIGHTING,
 	&gsn_trip,		SLOT( 0),	0,	12,
-  "çelme",			"!Trip!",		"", CABAL_NONE ,
+  L"Ã§elme", L"!Trip!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_FIGHTMASTER
     },
 
     {
-	{"vampire","vampir"},			{ 93, 93, 93, 93,93,93,93,93,93,93,10,93,93 },
+	{ L"vampire", L"vampir"},			{ 93, 93, 93, 93,93,93,93,93,93,93,10,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_IGNORE,		POS_STANDING,
 	&gsn_vampire,		SLOT(0),	100,	12,
-  "",	"Doðallaþýyorsun.",	"", CABAL_NONE ,
+  L"",  L"DoÄŸallaÅŸÄ±yorsun.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"vampiric bite","vampir ýsýrýðý"},          {  93, 93,  93, 93,93,93,93,93 ,93,93,10,93,93 },
+	{ L"vampiric bite", L"vampir Ä±sÄ±rÄ±ÄŸÄ±"},          {  93, 93,  93, 93,93,93,93,93 ,93,93,10,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_STANDING,
         &gsn_vampiric_bite,          SLOT( 0),        0,     12,
-        "vampir ýsýrýðý",             "!vampiric bite!",	"", CABAL_NONE ,
+        L"vampir Ä±sÄ±rÄ±ÄŸÄ±", L"!vampiric bite!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"vampiric touch","vampir temasý"},      {  93,  93,  93,  93,93,93,93,93 ,93,93,15,93,93},
+	{ L"vampiric touch", L"vampir temasÄ±"},      {  93,  93,  93,  93,93,93,93,93 ,93,93,15,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,      TAR_CHAR_OFFENSIVE,          POS_STANDING,
 	&gsn_vampiric_touch,       SLOT(0),        0,       12,
-  "vampir temasý", "Kabuslardan uyanýyorsun.", "",	CABAL_NONE ,
+  L"vampir temasÄ±", L"Kabuslardan uyanÄ±yorsun.", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"vanish","yokol"},        {  93, 93, 93, 93, 93, 93, 18, 93 ,93,93,93,93,93},
+	{ L"vanish", L"yokol"},        {  93, 93, 93, 93, 93, 93, 18, 93 ,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,      TAR_CHAR_SELF,          POS_FIGHTING,
         &gsn_vanish,       SLOT(521),        25,       18,
-	"", "!vanish!", "", 	CABAL_NONE , RACE_NONE,ALIGN_NONE, GROUP_NONE
+	L"", L"!vanish!", L"", 	CABAL_NONE , RACE_NONE,ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"warcry","nara"},       {  93, 93, 93,31,93,93,93,35,93 ,30,93,93,93},
+	{ L"warcry", L"nara"},       {  93, 93, 93,31,93,93,93,35,93 ,30,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,      TAR_IGNORE,       POS_FIGHTING,
         &gsn_warcry,       SLOT(0),        30,       12,
-        "", "Naranýn etkisi yokoluyor.", "",	CABAL_NONE ,
+        L"", L"NaranÄ±n etkisi yokoluyor.", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"weapon cleave","silah yarma"}, { 93, 93, 37, 29, 34, 34, 35, 38, 93, 29, 44, 93, 93},
+	{ L"weapon cleave", L"silah yarma"}, { 93, 93, 37, 29, 34, 34, 35, 38, 93, 29, 44, 93, 93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_CHAR_SELF,		POS_STANDING,
 	&gsn_weapon_cleave,	SLOT(0),	200,	24,
-	"",	"!weapon cleave!",	"",
+	L"",  L"!weapon cleave!",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-       { "second attack", "ikili hamle"},        {  34, 28, 18,  10,13,14,15,13,25,10,12,34,34},
+       { L"second attack", L"ikili hamle"},        {  34, 28, 18,  10,13,14,15,13,25,10,12,34,34},
 	{ 2,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_second_attack,     SLOT( 0),        0,     0,
-	"",                     "!Second Attack!",	"", CABAL_NONE ,
+	L"", L"!Second Attack!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_FIGHTMASTER
     },
 
     {
-	{"secondary attack","ikincil hamle"},	{93,93,93,52, 61,61,93,58 ,93,55,93,93,93},
+	{ L"secondary attack", L"ikincil hamle"},	{93,93,93,52, 61,61,93,58 ,93,55,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_CHAR_SELF,		POS_STANDING,
 	&gsn_secondary_attack,	SLOT(0),	200,	24,
-	"",	"!secondary attack!",	"",
+	L"",  L"!secondary attack!",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"third attack","üçlü hamle"},        { 93, 93,36,19,27,26,26,45,93,20,32,93,93},
+	{ L"third attack", L"Ã¼Ã§lÃ¼ hamle"},        { 93, 93,36,19,27,26,26,45,93,20,32,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_third_attack,      SLOT( 0),        0,     0,
-	"",                     "!Third Attack!",	"", CABAL_NONE ,
+	L"", L"!Third Attack!",  L"", CABAL_NONE ,
 	RACE_NONE,ALIGN_NONE, GROUP_FIGHTMASTER
     },
 
     {
-	{"fourth attack","dörtlü hamle"},       {93,93,93,30, 93,93,48,93, 93,93,93,93,93},
+	{ L"fourth attack", L"dÃ¶rtlÃ¼ hamle"},       {93,93,93,30, 93,93,48,93, 93,93,93,93,93},
 	{1,1,1,1,1,1,1,1,1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_fourth_attack,     SLOT(0),        0,      0,
-	"",                     "!Fourth Attack!", 	"",	CABAL_NONE ,
+	L"", L"!Fourth Attack!", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_FIGHTMASTER
     },
 
     {
-	{"fifth attack","beþli hamle"},         {93, 93, 93, 52, 93, 93, 93,93,93,93,93,93,93},
+	{ L"fifth attack", L"beÅŸli hamle"},         {93, 93, 93, 52, 93, 93, 93,93,93,93,93,93,93},
 	{1,1,1,1,1,1,1,1,1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_fifth_attack,     SLOT(0),        0,      0,
-	"",          "!Fifth Attack!", 	"",	CABAL_NONE,
+	L"",          L"!Fifth Attack!", L"",	CABAL_NONE,
 	RACE_NONE, ALIGN_NONE, GROUP_FIGHTMASTER
     },
 
 /* non-combat skills */
 
     {
-	{"blue arrow","mavi ok"},			{ 93, 93, 93,93,93,93,93,51,93,93,93,93,93 },
+	{ L"blue arrow", L"mavi ok"},			{ 93, 93, 93,93,93,93,93,51,93,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_blue_arrow,	SLOT(0),	 50,	12,
-	"",		"!blue arrow!",	"", CABAL_NONE ,
+	L"", L"!blue arrow!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"fast healing","hýzlý iyileþme"},	{  15, 9, 16,  6,7,7,9,6 ,15 ,3,9,9,9},
+	{ L"fast healing", L"hÄ±zlÄ± iyileÅŸme"},	{  15, 9, 16,  6,7,7,9,6 ,15 ,3,9,9,9},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_SLEEPING,
 	&gsn_fast_healing,	SLOT( 0),	0,	0,
-	"",			"!Fast Healing!",	"", CABAL_NONE ,
+	L"", L"!Fast Healing!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_MEDITATION
     },
 
     {
-	{"green arrow","yeþil ok"},			{ 93, 93, 93,93,93,93,93,40,93,93,93,93,93 },
+	{ L"green arrow", L"yeÅŸil ok"},			{ 93, 93, 93,93,93,93,93,40,93,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_green_arrow,	SLOT(0),	 50,	12,
-	"",		"!green arrow!",	"", CABAL_NONE ,
+	L"", L"!green arrow!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"grip","kavrama"},            { 93, 93, 93,43,93,93,93,93,93,93,93,93,93},
+	{ L"grip", L"kavrama"},            { 93, 93, 93,43,93,93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_grip,            SLOT( 0),        0,     18,
-	"",                     "!Grip!",		"", CABAL_NONE ,
+	L"", L"!Grip!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_WEAPONSMASTER
     },
 
     {
-	{"haggle","pazarlýk"},		{  7, 18,  1, 14,12,8,17,15 ,7 ,19,5,5,5},
+	{ L"haggle", L"pazarlÄ±k"},		{  7, 18,  1, 14,12,8,17,15 ,7 ,19,5,5,5},
 	{ 2,  2,  1,  2, 2, 2, 1, 2, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_RESTING,
 	&gsn_haggle,		SLOT( 0),	0,	0,
-	"",			"!Haggle!",		"", CABAL_NONE ,
+	L"", L"!Haggle!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"hide","saklan"},		{  93, 93,  1,  93,93,93,10,93 ,93,93,93,93,93},
+	{ L"hide", L"saklan"},		{  93, 93,  1,  93,93,93,10,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_RESTING,
 	&gsn_hide,		SLOT( 0),	 0,	18,
-	"",			"!Hide!",		"", CABAL_NONE ,
+	L"", L"!Hide!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"katana","katana"},	{ 93, 93, 93, 93,93,93,93,93,93,72,93,93,93 },
+	{ L"katana", L"katana"},	{ 93, 93, 93, 93,93,93,93,93,93,72,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_OBJ_INV,		POS_STANDING,
 	&gsn_katana,		SLOT(0),	100,	24,
-  "",		"Yeni bir katana yapabilirsin.",	"",
+  L"", L"Yeni bir katana yapabilirsin.",  L"",
 	CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"lay hands","þifalýeller"},		{93,93,93,93,63,93,93,93,93,93,93,93,93},
+	{ L"lay hands", L"ÅŸifalÄ±eller"},		{93,93,93,93,63,93,93,93,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_FIGHTING,
 	&gsn_lay_hands,		SLOT( 0),	0,	12,
-  "",	"Yeniden masum iyileþtirebilirsin.",	"",CABAL_NONE ,
+  L"",  L"Yeniden masum iyileÅŸtirebilirsin.",  L"",CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"lore","irfan"},		{  93,93,13,21,19,20,19,18,93,22,20,93,93},
+	{ L"lore", L"irfan"},		{  93,93,13,21,19,20,19,18,93,22,20,93,93},
 	{ 2,  2,  2,  2, 2, 2, 2, 2, 2, 2,2,2,2},
 	spell_null,		TAR_IGNORE,		POS_RESTING,
 	&gsn_lore,		SLOT( 0),	0,	36,
-	"",			"!Lore!",		"", CABAL_NONE ,
+	L"", L"!Lore!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"mastering pound","vuruþ ustalýðý"},	{ 93,93,93,93,93,93,61,93,93,93,93,93,93},
+	{ L"mastering pound", L"vuruÅŸ ustalÄ±ÄŸÄ±"},	{ 93,93,93,93,93,93,61,93,93,93,93,93,93},
 	{ 2,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_FIGHTING,
 	&gsn_master_hand,	SLOT( 0),	0,	0,
-	"",			"!Master Hand!",	"", CABAL_NONE ,
+	L"", L"!Master Hand!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_FIGHTMASTER
     },
 
     {
-	{"mastering sword","kýlýç ustalýðý"},	{ 93,93,93,93,93,93,93,93,93,61,93,93,93},
+	{ L"mastering sword", L"kÄ±lÄ±Ã§ ustalÄ±ÄŸÄ±"},	{ 93,93,93,93,93,93,93,93,93,61,93,93,93},
 	{ 2, 2, 1, 1,1,1,1,1,1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_FIGHTING,
         &gsn_master_sword,           SLOT( 0),       0,      0,
-	"",                     "!master sword!",	"", CABAL_NONE ,
+	L"", L"!master sword!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_WEAPONSMASTER
     },
 
     {
-	{"meditation","meditasyon"},		{  6,  6, 15, 15,14,15,14,16,6,16,6,6,6},
+	{ L"meditation", L"meditasyon"},		{  6,  6, 15, 15,14,15,14,16,6,16,6,6,6},
 	{ 1,  1,  2,  2, 1, 1, 1, 1,1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_SLEEPING,
 	&gsn_meditation,	SLOT( 0),	0,	0,
-	"",			"Meditation",		"", CABAL_NONE ,
+	L"", L"Meditation", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_MEDITATION
     },
 
     {
-	{"peek","dikiz"},			{  93, 93,  1, 93,93,93,93,93,93 ,93,93,93,93},
+	{ L"peek", L"dikiz"},			{  93, 93,  1, 93,93,93,93,93,93 ,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_peek,		SLOT( 0),	 0,	 0,
-	"",			"!Peek!",		"", CABAL_NONE ,
+	L"", L"!Peek!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"pick lock","maymuncuk"},		{ 93, 93,  17, 93,93,93,34,93,93,93,93,93,93 },
+	{ L"pick lock", L"maymuncuk"},		{ 93, 93,  17, 93,93,93,34,93,93,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_pick_lock,		SLOT( 0),	 0,	12,
-	"",			"!Pick!",		"", CABAL_NONE ,
+	L"", L"!Pick!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"poison smoke","zehir bulutu"},      {  93, 93, 93, 93, 93, 93, 30, 93,93,93,93,93,93 },
+	{ L"poison smoke", L"zehir bulutu"},      {  93, 93, 93, 93, 93, 93, 30, 93,93,93,93,93,93 },
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,     	TAR_IGNORE,            POS_FIGHTING,
         &gsn_poison_smoke,      SLOT(0),        20, 	18,
-	"",                     "!poison smoke!", "",	CABAL_NONE ,
+	L"", L"!poison smoke!", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"quiet movement","sessiz yürüyüþ"},      {  93, 93, 93, 93, 93, 93, 93, 15 ,93,93,10,93,93},
+	{ L"quiet movement", L"sessiz yÃ¼rÃ¼yÃ¼ÅŸ"},      {  93, 93, 93, 93, 93, 93, 93, 15 ,93,93,10,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,        TAR_IGNORE,          POS_STANDING,
         &gsn_quiet_movement,             SLOT(0),        0,       0,
-	"", "!quiet movement!", "",	CABAL_NONE ,
+	L"", L"!quiet movement!", L"",	CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"recall","anýmsa"},{  1,  1,  1,  1,1,1,1,1 ,1,1,1,1,1},
+	{ L"recall", L"anÄ±msa"},{  1,  1,  1,  1,1,1,1,1 ,1,1,1,1,1},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_recall,		SLOT( 0),	0,	24,
-	"",			"!Recall!",		"", CABAL_NONE ,
+	L"", L"!Recall!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"red arrow","kýzýl ok"},		{ 93, 93, 93,93,93,93,93,44,93,93,93,93,93 },
+	{ L"red arrow", L"kÄ±zÄ±l ok"},		{ 93, 93, 93,93,93,93,93,44,93,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_red_arrow,	SLOT(0),	 50,	12,
-	"",		"!red arrow!",	"", CABAL_NONE ,
+	L"", L"!red arrow!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"sneak","süzül"},	{  93, 93, 4, 93, 93, 93, 18, 93 ,93,93,93,93,93},
+	{ L"sneak", L"sÃ¼zÃ¼l"},	{  93, 93, 4, 93, 93, 93, 18, 93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_sneak,		SLOT( 0),	 0,	12,
-  "",			"Artýk süzülmüyorsun.",	"", CABAL_NONE ,
+  L"", L"ArtÄ±k sÃ¼zÃ¼lmÃ¼yorsun.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"steal","arakla"},			{  93, 93, 12, 93, 93, 93, 93, 93,93 ,93,93,93,93},
+	{ L"steal", L"arakla"},			{  93, 93, 12, 93, 93, 93, 93, 93,93 ,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_steal,		SLOT( 0),	 0,	12,
-	"",			"!Steal!",		"", CABAL_NONE ,
+	L"", L"!Steal!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"scrolls","parþömen"},		{  1,  1,  1,  93,93,1,93,1 , 1,6,1,1,1},
+	{ L"scrolls", L"parÅŸÃ¶men"},		{  1,  1,  1,  93,93,1,93,1 , 1,6,1,1,1},
 	{ 1,  1,  2,  2, 2, 2, 2, 2, 2, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_scrolls,		SLOT( 0),	0,	12,
-	"",			"!Scrolls!",		"", CABAL_NONE ,
+	L"", L"!Scrolls!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_WIZARD
     },
 
     {
-	{"staves","týlsýmlar"},		{  1,  1,  93,  93,93,93,1,1 ,1,1,1,1,1},
+	{ L"staves", L"tÄ±lsÄ±mlar"},		{  1,  1,  93,  93,93,93,1,1 ,1,1,1,1,1},
 	{ 1,  1,  2,  2, 2, 2, 2, 2, 2, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_staves,		SLOT( 0),	0,	12,
-	"",			"!Staves!",		"", CABAL_NONE ,
+	L"", L"!Staves!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_WIZARD
     },
 
     {
-	{"tame","uysallaþtýr"},        {  93, 93, 93, 93, 93, 93, 93, 39 ,93,93,93,93,93},
+	{ L"tame", L"uysallaÅŸtÄ±r"},        {  93, 93, 93, 93, 93, 93, 93, 39 ,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,        TAR_CHAR_DEFENSIVE,          POS_FIGHTING,
         &gsn_tame,             SLOT(0),        0,       24,
-	"", "!tame!", "",CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
+	L"", L"!tame!", L"",CABAL_NONE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"trance","trans"},       {  14,15,93,93,93,93,93,93,14 ,93,21,21,21},
+	{ L"trance", L"trans"},       {  14,15,93,93,93,93,93,93,14 ,93,21,21,21},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,      TAR_IGNORE,   POS_SLEEPING,
         &gsn_trance,       SLOT(0),        0,       0,
-	"", "", "",	CABAL_NONE , RACE_NONE,ALIGN_NONE, GROUP_MEDITATION
+	L"", L"", L"",	CABAL_NONE , RACE_NONE,ALIGN_NONE, GROUP_MEDITATION
     },
 
     {
-	{"white arrow","beyaz ok"},			{ 93, 93, 93,93,93,93,93,49,93,93,93,93,93 },
+	{ L"white arrow", L"beyaz ok"},			{ 93, 93, 93,93,93,93,93,49,93,93,93,93,93 },
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_white_arrow,	SLOT(0),	 50,	12,
-	"",		"!white arrow!",	"", CABAL_NONE ,
+	L"", L"!white arrow!",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"wands","deðnekler"},	{  1,  1,  93,  93,93,1,93,93 ,1,5,1,1,1},
+	{ L"wands", L"deÄŸnekler"},	{  1,  1,  93,  93,93,1,93,93 ,1,5,1,1,1},
 	{ 1,  1,  2,  2, 2, 2, 2, 2, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_wands,		SLOT( 0),	0,	12,
-	"",			"!Wands!",		"", CABAL_NONE ,
+	L"", L"!Wands!", L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_WIZARD
     },
 
 /* cabals */
 
     {
-	{"mortal strike","ölümcül atak"},	{ 63,63,63,63,63,63,63,63,63,63,63,63,63},
+	{ L"mortal strike", L"Ã¶lÃ¼mcÃ¼l atak"},	{ 63,63,63,63,63,63,63,63,63,63,63,63,63},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,	TAR_CHAR_SELF,		POS_STANDING,
 	&gsn_mortal_strike,		SLOT(0),	200,	24,
-  "ölümcül atak",	"!mortal strike!",	"",
+  L"Ã¶lÃ¼mcÃ¼l atak",  L"!mortal strike!",  L"",
 	CABAL_BATTLE , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"disgrace","gözden düþür"},{  33, 33, 33, 33, 33,33,33,33,33,33,33,33,33},
+	{ L"disgrace", L"gÃ¶zden dÃ¼ÅŸÃ¼r"},{  33, 33, 33, 33, 33,33,33,33,33,33,33,33,33},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_disgrace,	TAR_CHAR_OFFENSIVE,		POS_STANDING,
 	NULL,		SLOT(619),	200,	12,
-  "",	"Onurunu kazandýðýný hissediyorsun.",	"",
+  L"",  L"Onurunu kazandÄ±ÄŸÄ±nÄ± hissediyorsun.",  L"",
 	CABAL_CHAOS , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"evil spirit","kem ruh"},	{  33, 33, 33, 33, 33,33,33,33,33,33,33,33,33},
+	{ L"evil spirit", L"kem ruh"},	{  33, 33, 33, 33, 33,33,33,33,33,33,33,33,33},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_evil_spirit,	TAR_IGNORE,		POS_STANDING,
 	&gsn_evil_spirit,		SLOT(618),	800,	36,
-  "kem ruh",	"Vücudunla ruhun yeniden bir oluyor.",	"",
+  L"kem ruh",  L"VÃ¼cudunla ruhun yeniden bir oluyor.",  L"",
 	CABAL_INVADER , RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"ruler aura","tüze aurasý"},     {  33, 33, 33, 33, 33,33,33,33,33,33,33,33,33},
+	{ L"ruler aura", L"tÃ¼ze aurasÄ±"},     {  33, 33, 33, 33, 33,33,33,33,33,33,33,33,33},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_ruler_aura,    TAR_CHAR_SELF,          POS_STANDING,
         NULL,             SLOT(667),        20,       12,
-        "", "Tüze auran yokoluyor.", 	"",	CABAL_RULER ,
+        L"", L"TÃ¼ze auran yokoluyor.", L"",	CABAL_RULER ,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-	{"sword of justice","adalet kýlýcý"},	{48,48,48,48, 48,48,48,48,48,48,48,48,48},
+	{ L"sword of justice", L"adalet kÄ±lÄ±cÄ±"},	{48,48,48,48, 48,48,48,48,48,48,48,48,48},
 	{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_sword_of_justice,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
 	NULL,		SLOT(686),	50,	12,
-  "adalet kýlýcý",	"!sword of justice!", "", CABAL_RULER ,
+  L"adalet kÄ±lÄ±cÄ±",  L"!sword of justice!", L"", CABAL_RULER ,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-	{"bandage","sargý"},       {23, 23, 23, 23,23,23,23,23,23,23,23,23,23},
+	{ L"bandage", L"sargÄ±"},       {23, 23, 23, 23,23,23,23,23,23,23,23,23,23},
 	{1,1,1,1,1,1,1,1,1,1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_STANDING,
         &gsn_bandage,     SLOT(0),        0,      0,
-	"",        "Daha az saðlýklý hissediyorsun.", 	"",	CABAL_BATTLE,
+	L"", L"Daha az saÄŸlÄ±klÄ± hissediyorsun.", L"",	CABAL_BATTLE,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-	{"cabal recall","kabal anýmsa"},	{ 10,10,10,10,10,10,10,10,10,10,10,10,10},
+	{ L"cabal recall", L"kabal anÄ±msa"},	{ 10,10,10,10,10,10,10,10,10,10,10,10,10},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_cabal_recall,		SLOT( 0),	0,	24,
-  "",	"Anýmsama için yeniden dua edebilirsin.","", CABAL_BATTLE ,
+  L"",  L"AnÄ±msama iÃ§in yeniden dua edebilirsin.", L"", CABAL_BATTLE ,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-        {"wanted","aranýyor"},                {  1,  1,  1,  1, 1, 1, 1, 1 ,1,1,1,1,1},
+        { L"wanted", L"aranÄ±yor"},                {  1,  1,  1,  1, 1, 1, 1, 1 ,1,1,1,1,1},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_DEAD,
         &gsn_wanted,                   SLOT(0),        0,       0,
-        "",                     "!Wanted!", "",		CABAL_RULER,
+        L"", L"!Wanted!", L"",		CABAL_RULER,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-        {"judge","yargýlama"},               {  1,  1,  1,  1, 1, 1, 1, 1 ,1,1,1,1,1},
+        { L"judge", L"yargÄ±lama"},               {  1,  1,  1,  1, 1, 1, 1, 1 ,1,1,1,1,1},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,             TAR_IGNORE,             POS_DEAD,
         &gsn_judge,              SLOT(0),        0,       0,
-        "",                     "!Judge!", "",		CABAL_RULER,
+        L"", L"!Judge!", L"",		CABAL_RULER,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-        {"bloodthirst","kana susama"},          {  15, 15, 15, 15, 15, 15, 15, 15 ,15,15,15,15,15},
+        { L"bloodthirst", L"kana susama"},          {  15, 15, 15, 15, 15, 15, 15, 15 ,15,15,15,15,15},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,      TAR_CHAR_SELF,       POS_FIGHTING,
         &gsn_bloodthirst,       SLOT(0),        0,       12,
-        "", "Artýk kana susamýyorsun.", "",	CABAL_BATTLE,
+        L"", L"ArtÄ±k kana susamÄ±yorsun.", L"",	CABAL_BATTLE,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-        {"spellbane","büyüyýkýmý"},       { 10,10,10,10,10,10,10,10,10,10,10,10,10 },
+        { L"spellbane", L"bÃ¼yÃ¼yÄ±kÄ±mÄ±"},       { 10,10,10,10,10,10,10,10,10,10,10,10,10 },
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,      TAR_CHAR_SELF,       POS_STANDING,
         &gsn_spellbane,       SLOT(0),        0,       12,
-        "büyüyýkýmý", "Büyüye karþý direncin azalýyor.", "",	CABAL_BATTLE,
+        L"bÃ¼yÃ¼yÄ±kÄ±mÄ±", L"BÃ¼yÃ¼ye karÅŸÄ± direncin azalÄ±yor.", L"",	CABAL_BATTLE,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-        {"resistance","direnç"},      {  12, 12, 12,12,12,12,12,12 ,12,12,12,12,12},
+        { L"resistance", L"direnÃ§"},      {  12, 12, 12,12,12,12,12,12 ,12,12,12,12,12},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,      TAR_CHAR_SELF,       POS_FIGHTING,
         &gsn_resistance,       SLOT(0),        0,       24,
-        "", "Sertliðin yokoluyor.", "",	CABAL_BATTLE,
+        L"", L"SertliÄŸin yokoluyor.", L"",	CABAL_BATTLE,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-       { "deathblow","ölüm rüzgarý"},          {  20,20,20,20,20,20,20,20 ,20,20,20,20,20},
+       { L"deathblow", L"Ã¶lÃ¼m rÃ¼zgarÄ±"},          {  20,20,20,20,20,20,20,20 ,20,20,20,20,20},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,      TAR_IGNORE,       POS_STANDING,
         &gsn_deathblow,       SLOT(0),        0,       0,
-        "", "!deathblow!", "",	CABAL_BATTLE,
+        L"", L"!deathblow!", L"",	CABAL_BATTLE,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-        {"transform", "dönüþüm"},          {  10, 10, 10,10,10,10,10,10 ,10,10,10,10,10},
+        { L"transform", L"dÃ¶nÃ¼ÅŸÃ¼m"},          {  10, 10, 10,10,10,10,10,10 ,10,10,10,10,10},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_transform,      TAR_CHAR_SELF,       POS_STANDING,
         NULL,       SLOT(522),        100,       24,
-        "", "Saðlýðýn azalýyor.", "",	CABAL_SHALAFI,
+        L"", L"SaÄŸlÄ±ÄŸÄ±n azalÄ±yor.", L"",	CABAL_SHALAFI,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-	{"mental knife","zihin býçaðý"},        {  15, 15, 15,93,15,15,15,15,15,15,15,15,15 },
+	{ L"mental knife", L"zihin bÄ±Ã§aÄŸÄ±"},        {  15, 15, 15,93,15,15,15,15,15,15,15,15,15 },
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_mental_knife,      TAR_CHAR_OFFENSIVE,       POS_FIGHTING,
         &gsn_mental_knife,       SLOT(524),        35,       12,
-        "zihin býçaðý", "Zihnindeki acý yokoluyor.", "",CABAL_SHALAFI,
+        L"zihin bÄ±Ã§aÄŸÄ±", L"Zihnindeki acÄ± yokoluyor.", L"",CABAL_SHALAFI,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-	{"demon summon","iblis çaðrýsý"},         {  25, 25, 25,93,25,25,25,25 ,25,25,25,25,25},
+	{ L"demon summon", L"iblis Ã§aÄŸrÄ±sÄ±"},         {  25, 25, 25,93,25,25,25,25 ,25,25,25,25,25},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_demon_summon,      TAR_CHAR_SELF,       POS_FIGHTING,
         &gsn_demon_summon,       SLOT(525),        100,       12,
-        "", "Çaðrý gücünün geri geldiðini hissediyorsun.", "", CABAL_SHALAFI,
+        L"", L"Ã‡aÄŸrÄ± gÃ¼cÃ¼nÃ¼n geri geldiÄŸini hissediyorsun.", L"", CABAL_SHALAFI,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-	{"scourge","ceza kýrbacý"},     {  30, 30, 30,93,30,30,30,30,30,30,30,30,30 },
+	{ L"scourge", L"ceza kÄ±rbacÄ±"},     {  30, 30, 30,93,30,30,30,30,30,30,30,30,30 },
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_scourge,      TAR_IGNORE,       POS_FIGHTING,
         NULL,       SLOT(526),        50,       18,
-        "ceza kýrbacý", "!scourge!", "",CABAL_SHALAFI,
+        L"ceza kÄ±rbacÄ±", L"!scourge!", L"",CABAL_SHALAFI,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-        {"manacles","kelepçe"},        {  20, 20, 20,20,20,20,20,20 ,20,20,20,20,20},
+        { L"manacles", L"kelepÃ§e"},        {  20, 20, 20,20,20,20,20,20 ,20,20,20,20,20},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_manacles,      TAR_CHAR_OFFENSIVE,       POS_FIGHTING,
         NULL,       SLOT(528),        75,       12,
-        "", "Zincirlerin yokoluyor.", "", 	CABAL_RULER,
+        L"", L"Zincirlerin yokoluyor.", L"", 	CABAL_RULER,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-      {"shield of ruler","tüze kalkaný"},        {  10, 10, 10,10,10,10,10,10 ,10,10,10,10,10},
+      { L"shield of ruler", L"tÃ¼ze kalkanÄ±"},        {  10, 10, 10,10,10,10,10,10 ,10,10,10,10,10},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_shield_ruler,      TAR_IGNORE,       POS_FIGHTING,
         NULL,       SLOT(529),        100,       12,
-        "", "!shield!", "",	CABAL_RULER,
+        L"", L"!shield!", L"",	CABAL_RULER,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-      {"guard","savun"},    {  22,22,22,22,22,22,22,22 ,22,22,22,22,22},
+      { L"guard", L"savun"},    {  22,22,22,22,22,22,22,22 ,22,22,22,22,22},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,      TAR_IGNORE,       POS_STANDING,
         &gsn_guard,       SLOT(0),        0,       12,
-        "", "", "",	CABAL_KNIGHT,
+        L"", L"", L"",	CABAL_KNIGHT,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-      {"guard call","muhafýz çaðrýsý"},          {  15, 15, 15,15,15,15,15,15 ,15,15,15,15,15},
+      { L"guard call", L"muhafÄ±z Ã§aÄŸrÄ±sÄ±"},          {  15, 15, 15,15,15,15,15,15 ,15,15,15,15,15},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_guard_call,      TAR_IGNORE,       POS_FIGHTING,
 	&gsn_guard_call,       SLOT(530),        75,       12,
-  "", 	"Yeniden muhafýz çaðýrabilirsin.", 	"",	CABAL_RULER,
+  L"", L"Yeniden muhafÄ±z Ã§aÄŸÄ±rabilirsin.", L"",	CABAL_RULER,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-          {"nightwalker","solucan"},        {  25, 25, 25,25,25,25,25,25 ,25,25,25,25,25},
+          { L"nightwalker", L"solucan"},        {  25, 25, 25,25,25,25,25,25 ,25,25,25,25,25},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_nightwalker,      TAR_IGNORE,       POS_FIGHTING,
 	&gsn_nightwalker,       SLOT(531),        75,       12,
-  "", "Çaðrý gücünün geri geldiðini hissediyorsun.", "",CABAL_INVADER,
+  L"", L"Ã‡aÄŸrÄ± gÃ¼cÃ¼nÃ¼n geri geldiÄŸini hissediyorsun.", L"",CABAL_INVADER,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-          {"eyes of intrigue","entrika"},          {  13, 13, 13,13,13,13,13,13,13,13,13,13,13 },
+          { L"eyes of intrigue", L"entrika"},          {  13, 13, 13,13,13,13,13,13,13,13,13,13,13 },
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_eyes,      TAR_IGNORE,       POS_FIGHTING,
 	NULL,       SLOT(532),        75,       12,
-        "", "!eyes of intrigue!", "",	CABAL_INVADER,
+        L"", L"!eyes of intrigue!", L"",	CABAL_INVADER,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-        {"fade", "soluþ"},       {  20, 20, 20,20,20,20,20,20 ,20,20,20,20,20},
+        { L"fade", L"soluÅŸ"},       {  20, 20, 20,20,20,20,20,20 ,20,20,20,20,20},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,      TAR_IGNORE,       POS_STANDING,
         &gsn_fade,       SLOT(0),        0,       24,
-        "", "!fade!", "",	CABAL_INVADER,
+        L"", L"!fade!", L"",	CABAL_INVADER,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-       { "shadow cloak","gölge pelerini"},        {  10, 10, 10,10,10,10,10,10,10,10,10,10,10 },
+       { L"shadow cloak", L"gÃ¶lge pelerini"},        {  10, 10, 10,10,10,10,10,10,10,10,10,10,10 },
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_shadow_cloak,      TAR_CHAR_DEFENSIVE,       POS_STANDING,
 	NULL,       SLOT(533),        10,       12,
-  "", "Gölgeler seni korumuyor.", "",	CABAL_INVADER,
+  L"", L"GÃ¶lgeler seni korumuyor.", L"",	CABAL_INVADER,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-      {"nightfall", "alacakaranlýk"},     {  16, 16, 16,16,16,16,16,16,16,16,16,16,16 },
+      { L"nightfall", L"alacakaranlÄ±k"},     {  16, 16, 16,16,16,16,16,16,16,16,16,16,16 },
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_nightfall,      TAR_IGNORE,       POS_STANDING,
 	NULL,       	SLOT(534),        50,       12,
-  "", "Iþýklarý kontrol edemiyorsun.", "",	CABAL_INVADER,
+  L"", L"IÅŸÄ±klarÄ± kontrol edemiyorsun.", L"",	CABAL_INVADER,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-        {"aura of chaos","kaos aurasý"},    {  16, 16, 16,16,16,16,16,16,16,16,16,16,16 },
+        { L"aura of chaos", L"kaos aurasÄ±"},    {  16, 16, 16,16,16,16,16,16,16,16,16,16,16 },
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_aura_of_chaos,      TAR_CHAR_DEFENSIVE,       POS_STANDING,
 	NULL,       	SLOT(720),        20,       12,
-  "", "Karmaþa tanrýsý artýk seni korumuyor.", 	"",
+  L"", L"KarmaÅŸa tanrÄ±sÄ± artÄ±k seni korumuyor.", L"",
 	CABAL_CHAOS, RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-       { "garble","afoni"},        {  10, 10, 10,10,10,10,10,10 ,10,10,10,10,10},
+       { L"garble", L"afoni"},        {  10, 10, 10,10,10,10,10,10 ,10,10,10,10,10},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_garble,      TAR_CHAR_DEFENSIVE,       POS_FIGHTING,
 	&gsn_garble,       SLOT(535),        30,       12,
-  "", "Dilin normale dönüyor.", "",	CABAL_CHAOS,
+  L"", L"Dilin normale dÃ¶nÃ¼yor.", L"",	CABAL_CHAOS,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-         { "mirror","ayna"},         { 15, 15, 15,15,15,15,15,15,15,15,15,15,15 },
+         { L"mirror", L"ayna"},         { 15, 15, 15,15,15,15,15,15,15,15,15,15,15 },
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_mirror,      TAR_CHAR_DEFENSIVE,       POS_STANDING,
 	&gsn_mirror,       SLOT(536),        40,       12,
-  "", "Yokolma hissini yaþýyorsun.", "",	CABAL_CHAOS,
+  L"", L"Yokolma hissini yaÅŸÄ±yorsun.", L"",	CABAL_CHAOS,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-	{"confuse","þaþýrtma"},        {  20, 20, 20,20,20,20,20,20 ,20,20,20,20,20},
+	{ L"confuse", L"ÅŸaÅŸÄ±rtma"},        {  20, 20, 20,20,20,20,20,20 ,20,20,20,20,20},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_confuse,      TAR_CHAR_OFFENSIVE,       POS_FIGHTING,
 	&gsn_confuse,       SLOT(537),        20,       12,
-  "", "Þaþkýnlýðýn azalýyor.", "",	CABAL_CHAOS,
+  L"", L"ÅžaÅŸkÄ±nlÄ±ÄŸÄ±n azalÄ±yor.", L"",	CABAL_CHAOS,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-	{"doppelganger","dönüþüm"},        {  25, 25, 25,25,25,25,25,25 ,25,25,25,25,25},
+	{ L"doppelganger", L"dÃ¶nÃ¼ÅŸÃ¼m"},        {  25, 25, 25,25,25,25,25,25 ,25,25,25,25,25},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_doppelganger,      TAR_CHAR_DEFENSIVE,       POS_STANDING,
 	&gsn_doppelganger,       SLOT(527),        75,       12,
-  "", "Doðal formuna döndün.", "",	CABAL_CHAOS,
+  L"", L"DoÄŸal formuna dÃ¶ndÃ¼n.", L"",	CABAL_CHAOS,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-       {   "chaos blade","yataðan"},      {  23, 23, 23,23,23,23,23,23,23,23,23,23,23 },
+       { L"chaos blade", L"yataÄŸan"},      {  23, 23, 23,23,23,23,23,23,23,23,23,23,23 },
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_chaos_blade,      TAR_IGNORE,       POS_STANDING,
         &gsn_chaos_blade,       SLOT(550),        60,       12,
-        "", "!chaos blade!", "",	CABAL_CHAOS,
+        L"", L"!chaos blade!", L"",	CABAL_CHAOS,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
    {
-          {    "stalker","avcý"},    {  93, 93, 93,93,93,93,93,93 ,93,93,93,93,93},
+          { L"stalker", L"avcÄ±"},    {  93, 93, 93,93,93,93,93,93 ,93,93,93,93,93},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_stalker,      TAR_IGNORE,       POS_STANDING,
         &gsn_stalker,       SLOT(554),        100,       12,
-        "", "Yeni bir avcý çaðýrabilirsin.", "",
+        L"", L"Yeni bir avcÄ± Ã§aÄŸÄ±rabilirsin.", L"",
 	CABAL_RULER, 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-           {   "random","rasgele"},          {  28, 28, 28,28,28,28,28,28 ,28,28,28,28,28},
+           { L"random", L"rasgele"},          {  28, 28, 28,28,28,28,28,28 ,28,28,28,28,28},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_randomizer,      TAR_IGNORE,       POS_STANDING,
         &gsn_randomizer,       SLOT(555),        200,       24,
-        "", "Yeniden rasgeleyi kullanabilirsin.", "", CABAL_CHAOS,
+        L"", L"Yeniden rasgeleyi kullanabilirsin.", L"", CABAL_CHAOS,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-	{"tesseract","öte boyut"},          {  29, 29, 29,93,29,29,29,29 ,29,29,29,29,29},
+	{ L"tesseract", L"Ã¶te boyut"},          {  29, 29, 29,93,29,29,29,29 ,29,29,29,29,29},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_tesseract,      TAR_IGNORE,       POS_STANDING,
         &gsn_tesseract,       SLOT(556),        150,       12,
-        "", "!tesseract!", "",	CABAL_SHALAFI,
+        L"", L"!tesseract!", L"",	CABAL_SHALAFI,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-       {   "trophy","andaç"},       {  23, 23, 23,23,23,23,23,23 ,23,23,23,23,23},
+       { L"trophy", L"andaÃ§"},       {  23, 23, 23,23,23,23,23,23 ,23,23,23,23,23},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,      TAR_IGNORE,       POS_STANDING,
         &gsn_trophy,       SLOT(0),        30,       12,
-        "", "Yeni bir andaçýn hayalini kuruyorsun.", "",	CABAL_BATTLE,
+        L"", L"Yeni bir andaÃ§Ä±n hayalini kuruyorsun.", L"",	CABAL_BATTLE,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-         {   "truesight","keskingörüþ"},         {  25, 25, 25,25,25,25,25,25 ,25,25,25,25,25},
+         { L"truesight", L"keskingÃ¶rÃ¼ÅŸ"},         {  25, 25, 25,25,25,25,25,25 ,25,25,25,25,25},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,      TAR_IGNORE,       POS_STANDING,
         &gsn_truesight,       SLOT(0),        50,       12,
-        "", "Gözlerin keskinliðini yitiriyor.", "",	CABAL_BATTLE,
+        L"", L"GÃ¶zlerin keskinliÄŸini yitiriyor.", L"",	CABAL_BATTLE,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-        {  "brew","mayacý"},     {  23, 23, 23,23,23,23,23,23,23 ,23,23,23,23},
+        { L"brew", L"mayacÄ±"},     {  23, 23, 23,23,23,23,23,23,23 ,23,23,23,23},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_brew,      TAR_OBJ_INV,       POS_STANDING,
         &gsn_brew,       SLOT(557),        25,       12,
-        "", "Yeniden mayalamaya baþlayabilirsin.", "",
+        L"", L"Yeniden mayalamaya baÅŸlayabilirsin.", L"",
 	CABAL_SHALAFI,	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-        {  "shadowlife","gölgeyaþam"},         {  30, 30, 30,30,30,30,30,30 ,30,30,30,30,30},
+        { L"shadowlife", L"gÃ¶lgeyaÅŸam"},         {  30, 30, 30,30,30,30,30,30 ,30,30,30,30,30},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_shadowlife,      TAR_CHAR_OFFENSIVE,       POS_STANDING,
         &gsn_shadowlife,       SLOT(558),        80,       12,
-        "", "Kendini daha gölgeli hisssediyorsun.", "",	CABAL_INVADER,
+        L"", L"Kendini daha gÃ¶lgeli hisssediyorsun.", L"",	CABAL_INVADER,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-         {   "ruler badge", "tüze niþaný"},        {  25, 25, 25,25,25,25,25,25 ,25,25,25,25,25},
+         { L"ruler badge", L"tÃ¼ze niÅŸanÄ±"},        {  25, 25, 25,25,25,25,25,25 ,25,25,25,25,25},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_ruler_badge,      TAR_CHAR_SELF,   POS_STANDING,
         &gsn_ruler_badge,       SLOT(560),        50,       12,
-        "", "!tüze niþaný!", "",	CABAL_RULER,
+        L"", L"!tÃ¼ze niÅŸanÄ±!", L"",	CABAL_RULER,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-         {   "remove badge","niþan kaldýr"},        {  28, 28, 28,28,28,28,28,28,28,28,28,28,28 },
+         { L"remove badge", L"niÅŸan kaldÄ±r"},        {  28, 28, 28,28,28,28,28,28,28,28,28,28,28 },
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_remove_badge,      TAR_CHAR_SELF,   POS_STANDING,
         &gsn_remove_badge,       SLOT(561),        100,       12,
-        "", "!remove badge!", "",	CABAL_RULER,
+        L"", L"!remove badge!", L"",	CABAL_RULER,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-      {  "golden aura","altýn ayla"},         {  10,10,10,10,10,10,10,10,10,10,10,10,10 },
+      { L"golden aura", L"altÄ±n ayla"},         {  10,10,10,10,10,10,10,10,10,10,10,10,10 },
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_golden_aura,      TAR_IGNORE,   POS_STANDING,
         NULL,       SLOT(564),        25,       12,
-        "", "Altýn aylanýn yokolduðunu hissediyorsun.", "",	CABAL_KNIGHT,
+        L"", L"AltÄ±n aylanÄ±n yokolduÄŸunu hissediyorsun.", L"",	CABAL_KNIGHT,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-        {  "dragonplate", "ejderha zýrhý"},       {  15,15,15,15,15,15,15,15 ,15,15,15,15,15},
+        { L"dragonplate", L"ejderha zÄ±rhÄ±"},       {  15,15,15,15,15,15,15,15 ,15,15,15,15,15},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_dragonplate,      TAR_IGNORE,   POS_STANDING,
         NULL,       SLOT(565),        60,       12,
-        "", "", "",	CABAL_KNIGHT,
+        L"", L"", L"",	CABAL_KNIGHT,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-     {   "squire","bey"},       {  25, 25, 25,25,25,25,25,25 ,25,25,25,25,25},
+     { L"squire", L"bey"},       {  25, 25, 25,25,25,25,25,25 ,25,25,25,25,25},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_squire,      TAR_IGNORE,   POS_STANDING,
         &gsn_squire,       SLOT(566),        100,       12,
-        "", "Yeni bir beyi düþünmeye baþlýyorsun.", "",	CABAL_KNIGHT,
+        L"", L"Yeni bir beyi dÃ¼ÅŸÃ¼nmeye baÅŸlÄ±yorsun.", L"",	CABAL_KNIGHT,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-     {   "dragonsword", "ejderha kýlýcý"},          {  25,25,25,25,25,25,25,25 ,25,25,25,25,25},
+     { L"dragonsword", L"ejderha kÄ±lÄ±cÄ±"},          {  25,25,25,25,25,25,25,25 ,25,25,25,25,25},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_dragonsword,      TAR_IGNORE,   POS_STANDING,
         &gsn_dragonsword,       SLOT(567),        70,       12,
-	"", "", "",	CABAL_KNIGHT,	RACE_NONE, ALIGN_NONE, GROUP_CABAL
+	L"", L"", L"",	CABAL_KNIGHT,	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-         {   "holy armor", "kutsal zýrh"},         {  10,10,10,10,10,10,10,10,10 ,10,10,10,10},
+         { L"holy armor", L"kutsal zÄ±rh"},         {  10,10,10,10,10,10,10,10,10 ,10,10,10,10},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_holy_armor,      TAR_CHAR_SELF,   POS_RESTING,
         &gsn_knight,       SLOT(569),        20,       12,
-        "", "Zarara karþý daha az korumalýsýn.", "",	CABAL_KNIGHT,
+        L"", L"Zarara karÅŸÄ± daha az korumalÄ±sÄ±n.", L"",	CABAL_KNIGHT,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
 
     {
-      {  "disperse","daðýtma"},       {  20,20,20,20,20,20,20,20,20,20,20,20,20 },
+      { L"disperse", L"daÄŸÄ±tma"},       {  20,20,20,20,20,20,20,20,20,20,20,20,20 },
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_disperse,      TAR_IGNORE,   	POS_FIGHTING,
         &gsn_disperse,       SLOT(573),        100,       24,
-        "", "Yeniden daðýtabilirsin.", "",CABAL_CHAOS,
+        L"", L"Yeniden daÄŸÄ±tabilirsin.", L"",CABAL_CHAOS,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-	{"hunt","avlama"},        {  13, 13, 13,13,13,13,13,13 ,13,13,13,13,13},
+	{ L"hunt", L"avlama"},        {  13, 13, 13,13,13,13,13,13 ,13,13,13,13,13},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,      TAR_IGNORE,       POS_STANDING,
         &gsn_hunt,       SLOT(0),        0,       6,
-	"", 	"!hunt!", 	"",	CABAL_HUNTER,
+	L"", L"!hunt!", L"",	CABAL_HUNTER,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-	{"find object","nesne ara"},	{   25, 25, 25, 25,25,25,25,25,25 ,25,25,25,25},
+	{ L"find object", L"nesne ara"},	{   25, 25, 25, 25,25,25,25,25,25 ,25,25,25,25},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_find_object,	TAR_IGNORE,		POS_STANDING,
 	NULL,			SLOT(585),	20,	18,
-	"",			"!Find Object!",	"", CABAL_HUNTER ,
+	L"", L"!Find Object!",  L"", CABAL_HUNTER ,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-	{"path find","yol bulma"},		{  13,13 ,13,13,13,13,13,13 ,13 ,13,13,13,13},
+	{ L"path find", L"yol bulma"},		{  13,13 ,13,13,13,13,13,13 ,13 ,13,13,13,13},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_SLEEPING,
 	&gsn_path_find,		SLOT( 0),	0,	0,
-	"",			"!endur!",	"", CABAL_HUNTER ,
+	L"", L"!endur!",  L"", CABAL_HUNTER ,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-	{"riding","binicilik"},		{   30, 30, 30, 30,30,30,30,30,30 ,30,30,30,30},
+	{ L"riding", L"binicilik"},		{   30, 30, 30, 30,30,30,30,30,30 ,30,30,30,30},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_STANDING,
 	&gsn_riding,			SLOT(0),	0,	6,
-	"",			"!riding!",	"", CABAL_KNIGHT ,
+	L"", L"!riding!",  L"", CABAL_KNIGHT ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"wolf","kurt"},		{   20, 20,20, 20,20,20,20,20,20 ,20,20,20,20},
+	{ L"wolf", L"kurt"},		{   20, 20,20, 20,20,20,20,20,20 ,20,20,20,20},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_wolf,	TAR_IGNORE,		POS_STANDING,
 	NULL,		SLOT(593),	100,	12,
-  "",	"Daha çok kurdu kontrol edebileceðini hissediyorsun.",	"", CABAL_HUNTER ,
+  L"",  L"Daha Ã§ok kurdu kontrol edebileceÄŸini hissediyorsun.",  L"", CABAL_HUNTER ,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-	{"wolf spirit","kurt ruhu"},	{   28, 28, 28, 28,28,28,28,28,28 ,28,28,28,28},
+	{ L"wolf spirit", L"kurt ruhu"},	{   28, 28, 28, 28,28,28,28,28,28 ,28,28,28,28},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_wolf_spirit,	TAR_CHAR_SELF,		POS_STANDING,
 	NULL,			SLOT(685),	50,	12,
-  "",	"Damarlarýndaki kan tekrar eskisi gibi akmaya baþladý.",	"",
+  L"",  L"DamarlarÄ±ndaki kan tekrar eskisi gibi akmaya baÅŸladÄ±.",  L"",
 	CABAL_HUNTER , RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-	{"armor use","zýrh kullanýmý"},		{ 17,17,17,17,17,17,17,17,17 ,17,17,17,17},
+	{ L"armor use", L"zÄ±rh kullanÄ±mÄ±"},		{ 17,17,17,17,17,17,17,17,17 ,17,17,17,17},
 	{ 2, 1, 1, 1,1,1,1,1,1,1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_FIGHTING,
 	&gsn_armor_use,	SLOT(0),	0,	0,
-	"",			"!Armor Use!",		"", CABAL_HUNTER ,
+	L"", L"!Armor Use!", L"", CABAL_HUNTER ,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-	{"world find","diyar bulma"},	{  53,53 ,53,53,53,53,53,53 ,53 ,53,53,53,53},
+	{ L"world find", L"diyar bulma"},	{  53,53 ,53,53,53,53,53,53 ,53 ,53,53,53,53},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_SLEEPING,
 	&gsn_world_find,	SLOT( 0),	0,	0,
-	"",			"!world find!",	"", CABAL_HUNTER ,
+	L"", L"!world find!",  L"", CABAL_HUNTER ,
 	RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-	{"take revenge","intikam"},{  53,53 ,53,53,53,53,53,53 ,53 ,53,53,53,53},
+	{ L"take revenge", L"intikam"},{  53,53 ,53,53,53,53,53,53 ,53 ,53,53,53,53},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_take_revenge,	TAR_IGNORE,		POS_STANDING,
 	NULL,		SLOT(624),	50,		12,
-	"",	"!take revenge!",	"",
+	L"",  L"!take revenge!",  L"",
 	CABAL_HUNTER , RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-	{"mastering spell","büyü ustalýðý"},	{37,37,37,37,37,37,37,37,37,37,37,37,37},
+	{ L"mastering spell", L"bÃ¼yÃ¼ ustalÄ±ÄŸÄ±"},	{37,37,37,37,37,37,37,37,37,37,37,37,37},
 	{ 1,  1,  1,  1, 1, 1, 2, 2, 1, 1,1,1,1},
 	spell_null,		TAR_IGNORE,		POS_FIGHTING,
 	&gsn_mastering_spell,	SLOT(0),    0,       0,
-  "büyü ustalýðý",		"!mastering spell!","",
+  L"bÃ¼yÃ¼ ustalÄ±ÄŸÄ±", L"!mastering spell!", L"",
 	CABAL_SHALAFI, RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-       { "guard dogs","muhafýz köpekler"},        {  15, 15, 15,15,15,15,15,15 ,15,15,15,15,15},
+       { L"guard dogs", L"muhafÄ±z kÃ¶pekler"},        {  15, 15, 15,15,15,15,15,15 ,15,15,15,15,15},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_guard_dogs,      TAR_IGNORE,       POS_FIGHTING,
 	NULL,       SLOT(687),        100,       12,
-        "", 	"", 	"",
+        L"", L"", L"",
 	CABAL_LIONS, RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-  {  "eyes of tiger","kaplan gözleri"},        {  25, 25, 25,25,25,25,25,25 ,25,25,25,25,25},
+  { L"eyes of tiger", L"kaplan gÃ¶zleri"},        {  25, 25, 25,25,25,25,25,25 ,25,25,25,25,25},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_eyes_of_tiger,      TAR_IGNORE,       POS_FIGHTING,
 	NULL,       SLOT(688),        20,       12,
-        "", 	"", 	"",
+        L"", L"", L"",
 	CABAL_LIONS, RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-    {  "lion shield","aslan kalkaný"},       {  24, 24, 24,24,24,24,24,24 ,24,24,24,24,24},
+    { L"lion shield", L"aslan kalkanÄ±"},       {  24, 24, 24,24,24,24,24,24 ,24,24,24,24,24},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_lion_shield,      TAR_IGNORE,       POS_FIGHTING,
 	NULL,       SLOT(689),        200,       12,
-        "", 	"", 	"",
+        L"", L"", L"",
 	CABAL_LIONS, RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-      {  "evolve lion","aslana dönüþme"},        {  18, 18, 18,18,18,18,18,18 ,18,18,18,18,18},
+      { L"evolve lion", L"aslana dÃ¶nÃ¼ÅŸme"},        {  18, 18, 18,18,18,18,18,18 ,18,18,18,18,18},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_evolve_lion,      TAR_IGNORE,       POS_FIGHTING,
 	NULL,       SLOT(690),        50,       12,
-        "", 	"", 	"",
+        L"", L"", L"",
 	CABAL_LIONS, RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-{   "claw","pençe"},      {  20, 20, 20,20,20,20,20,20 ,20,20,20,20,20},
+{ L"claw", L"penÃ§e"},      {  20, 20, 20,20,20,20,20,20 ,20,20,20,20,20},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_null,      TAR_IGNORE,       POS_FIGHTING,
 	&gsn_claw,       SLOT(0),        50,       24,
-  "pençe", 	"", 	"",
+  L"penÃ§e", L"", L"",
 	CABAL_LIONS, RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
     {
-  {  "prevent","intikam baðý"},   {  35, 35, 35,35,35,35,35,35 ,35,35,35,35,35},
+  { L"prevent", L"intikam baÄŸÄ±"},   {  35, 35, 35,35,35,35,35,35 ,35,35,35,35,35},
         { 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
         spell_prevent,      TAR_IGNORE,       POS_FIGHTING,
 	NULL,       SLOT(691),        75,       12,
-        "", 	"", 	"",
+        L"", L"", L"",
 	CABAL_LIONS, RACE_NONE, ALIGN_NONE, GROUP_CABAL
     },
 
 /* object spells */
 
     {
-	{"terangreal","uyuþturma"},		{ 93,  93, 93, 93,93,93,93,93 ,93,93,93,93,93},
+	{ L"terangreal", L"uyuÅŸturma"},		{ 93,  93, 93, 93,93,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_terangreal,	TAR_CHAR_OFFENSIVE,	POS_STANDING,
 	&gsn_terangreal,	SLOT(607),	 5,	12,
-  "uyuþturma",		"Artýk uyanýksýn.",	"", CABAL_NONE ,
+  L"uyuÅŸturma", L"ArtÄ±k uyanÄ±ksÄ±n.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"kassandra","kasandra"},	{ 93,  93, 93, 93,93,93,93,93 ,93,93,93,93,93},
+	{ L"kassandra", L"kasandra"},	{ 93,  93, 93, 93,93,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_kassandra,	TAR_CHAR_SELF,		POS_STANDING,
 	&gsn_kassandra,	SLOT(608),	 5,	12,
-  "",		"Kendini yine iyileþtirebilirsin.",	"", CABAL_NONE ,
+  L"", L"Kendini yine iyileÅŸtirebilirsin.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"sebat","sebat"},		{ 93,  93, 93, 93,93,93,93,93 ,93,93,93,93,93},
+	{ L"sebat", L"sebat"},		{ 93,  93, 93, 93,93,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_sebat,		TAR_CHAR_SELF,		POS_STANDING,
 	&gsn_sebat,		SLOT(609),	 5,	12,
-  "",			"Kendini yine koruyabilirsin.",	"", CABAL_NONE ,
+  L"", L"Kendini yine koruyabilirsin.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     },
 
     {
-	{"matandra","matandra"},	{ 93,  93, 93, 93,93,93,93,93 ,93,93,93,93,93},
+	{ L"matandra", L"matandra"},	{ 93,  93, 93, 93,93,93,93,93 ,93,93,93,93,93},
 	{ 1,  1,  1,  1, 1, 1, 1, 1, 1, 1,1,1,1},
 	spell_matandra,	TAR_CHAR_OFFENSIVE,	POS_STANDING,
 	&gsn_matandra,		SLOT(610),	 5,	12,
-  "matandra",	"Kasandrayý tekrar kullanabilirsin.",	"", CABAL_NONE ,
+  L"matandra",  L"KasandrayÄ± tekrar kullanabilirsin.",  L"", CABAL_NONE ,
 	RACE_NONE, ALIGN_NONE, GROUP_NONE
     }
 

@@ -1,9 +1,9 @@
 #AREADATA
 Filename mega_sehir.are~
-Name Mega Şehir~
+Name Mega Åehir~
 Builder Glop~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 35
 Minvnum 8000
@@ -16,9 +16,9 @@ END
 
 #NEW_MOBILES
 #8000
-genç~
-genç~
-Bir genç etrafı gözlüyor.
+genÃ§~
+genÃ§~
+Bir genÃ§ etrafÄ± gÃ¶zlÃ¼yor.
 ~
 He is a tall, thin boy.  He is looking for his gang mates.  He and his
 mates have cost city authorities many millions of creds a week in
@@ -29,7 +29,7 @@ AC 0 5
 #8001
 serseri~
 serseri~
-Bir serseri suç işlemeye hazırlanıyor.
+Bir serseri suÃ§ iÅŸlemeye hazÄ±rlanÄ±yor.
 ~
 This punk is from one of the rowdiest, scruffiest, and definitely most
 fashionable of all gangs -- the Grunge Mongers.
@@ -37,9 +37,9 @@ fashionable of all gangs -- the Grunge Mongers.
 human~
 ACG 0 10
 #8002
-sarhoş~
-sarhoş~
-Bir sarhoş etrafta dolaşıyor.
+sarhoÅŸ~
+sarhoÅŸ~
+Bir sarhoÅŸ etrafta dolaÅŸÄ±yor.
 ~
 A sad victim of Future Shock, this man is immensely dangerous and will
 not be stopped by anyone who tries to deter him from revenge upon the
@@ -48,9 +48,9 @@ Justice Department.
 human~
 ABF D 17
 #8003
-şehir savunması~
-şehir savunması~
-Bir şehir savunması dikkatle çevreyi izliyor.
+ÅŸehir savunmasÄ±~
+ÅŸehir savunmasÄ±~
+Bir ÅŸehir savunmasÄ± dikkatle Ã§evreyi izliyor.
 ~
 A member of a local Block's Citi-Def militia, this man is well-armed
 and undersupervised.
@@ -58,18 +58,18 @@ and undersupervised.
 human~
 ACG J 16
 #8004
-hırsız~
-hırsız~
-Bir hırsız içine karışabileceği kalabalık arıyor.
+hÄ±rsÄ±z~
+hÄ±rsÄ±z~
+Bir hÄ±rsÄ±z iÃ§ine karÄ±ÅŸabileceÄŸi kalabalÄ±k arÄ±yor.
 ~
 He blends into the crowd as his hand travels into another citizen's pocket.
 ~
 human~
 ACGHS DF 10
 #8005
-tüccar~
-tüccar~
-Bir tüccar malvarlığını hesaplıyor.
+tÃ¼ccar~
+tÃ¼ccar~
+Bir tÃ¼ccar malvarlÄ±ÄŸÄ±nÄ± hesaplÄ±yor.
 ~
 A practitioner in Mega-City One's largest growth industry, mugging, is
 looking you over for a possible business transaction.
@@ -77,9 +77,9 @@ looking you over for a possible business transaction.
 human~
 ACG 0 14
 #8006
-çaylak yargıç~
-çaylak yargıç~
-Henüz çaylaklık döneminde olan bir yargıç adalet üzerinde kafa patlatıyor.
+Ã§aylak yargÄ±Ã§~
+Ã§aylak yargÄ±Ã§~
+HenÃ¼z Ã§aylaklÄ±k dÃ¶neminde olan bir yargÄ±Ã§ adalet Ã¼zerinde kafa patlatÄ±yor.
 ~
 A member of Mega-City One's Justice Department is here considering what
 crimes you have committed.  Being a rookie he will probably be easier on
@@ -88,9 +88,9 @@ you though.
 human~
 AG DF 20
 #8007
-tüccar hilib~
-Tüccar Hilib~
-Tüccar Hilib neye ihtiyacın olduğunu anlamaya çalışıyor.
+tÃ¼ccar hilib~
+TÃ¼ccar Hilib~
+TÃ¼ccar Hilib neye ihtiyacÄ±n olduÄŸunu anlamaya Ã§alÄ±ÅŸÄ±yor.
 ~
 Wallaby Gleep is a heavy-set man who gives you the impression that he is
 unintelligent and unimaginative, but looks can be deceiving.
@@ -98,9 +98,9 @@ unintelligent and unimaginative, but looks can be deceiving.
 human~
 ABC DFJ 22
 #8008
-tüccar turot~
-Tüccar Turot~
-Tüccar Turot ellerini ovuşturuyor.
+tÃ¼ccar turot~
+TÃ¼ccar Turot~
+TÃ¼ccar Turot ellerini ovuÅŸturuyor.
 ~
 He is a thin angular crook, pretty close to everyone's idea of Ebeneezer
 Scrooge.  Indeed, the only thing guaranteed to bring a spark to his dead
@@ -111,7 +111,7 @@ ABCF DF 25
 #8009
 Erni Ramirez~
 Erni Ramirez~
-Erni Ramirez organizasyonunu yapacağı işleri düşünüyor.
+Erni Ramirez organizasyonunu yapacaÄŸÄ± iÅŸleri dÃ¼ÅŸÃ¼nÃ¼yor.
 ~
 Ramirez is a dour man who knows that he's never going to get a better
 deal out of life.  He is content to run the bite fights for Throt and
@@ -120,9 +120,9 @@ Gleep.
 human~
 ABC 0 19
 #8010
-yargıç ekersel~
-Yargıç Ekersel~
-Yargıç Ekersel tokmağını sallıyor.
+yargÄ±Ã§ ekersel~
+YargÄ±Ã§ Ekersel~
+YargÄ±Ã§ Ekersel tokmaÄŸÄ±nÄ± sallÄ±yor.
 ~
 He is a dedicated, if somewhat pessimistic Judge.  He is the Senior Judge
 of the Downtown Quadrant.
@@ -130,9 +130,9 @@ of the Downtown Quadrant.
 human~
 AG DFH 30
 #8011
-yargıç bedov~
-Yargıç Bedov~
-Yargıç Bedov bir şarkı mırıldanıyor.
+yargÄ±Ã§ bedov~
+YargÄ±Ã§ Bedov~
+YargÄ±Ã§ Bedov bir ÅŸarkÄ± mÄ±rÄ±ldanÄ±yor.
 ~
 Beddows is a clone from the same stock as the ex-Chief Judge McGruder.
 She is fanatically dedicated to her job and has no ambitions other than
@@ -141,9 +141,9 @@ to enforce the LAW.
 human~
 AG DF 25
 #8012
-dövüşçü~
-dövüşçü~
-Bir dövüşçü dişlerini sivriltiyor.
+dÃ¶vÃ¼ÅŸÃ§Ã¼~
+dÃ¶vÃ¼ÅŸÃ§Ã¼~
+Bir dÃ¶vÃ¼ÅŸÃ§Ã¼ diÅŸlerini sivriltiyor.
 ~
 A bite fighter is here with sharpened teeth and a bad attitude.
 ~
@@ -153,9 +153,9 @@ ABF 0 20
 
 #OBJECTS
 #8000
-çelik değnek~
-çelik değnek~
-Çelik bir değnek burada bırakılmış.~
+Ã§elik deÄŸnek~
+Ã§elik deÄŸnek~
+Ã‡elik bir deÄŸnek burada bÄ±rakÄ±lmÄ±ÅŸ.~
 steel~
 wand 0 AO
 20 10 10 'general purpose' 0
@@ -166,9 +166,9 @@ A standard weapon in Mega-City One.  It uses general
 purpose ammunition.
 ~
 #8001
-koruyucu bacaklık~
-bir çift koruyucu bacaklık~
-Bir çift koruyucu bacaklık görüyorsun.~
+koruyucu bacaklÄ±k~
+bir Ã§ift koruyucu bacaklÄ±k~
+Bir Ã§ift koruyucu bacaklÄ±k gÃ¶rÃ¼yorsun.~
 steel~
 armor 0 AF
 4 4 4 0 0
@@ -179,9 +179,9 @@ It is a set of Grak Brothers knee pads.  They are currently
 popular with the juve and punk gangs.
 ~
 #8002
-küflü ekmek~
-küflü ekmek~
-Küflü bir ekmek görüyorsun.~
+kÃ¼flÃ¼ ekmek~
+kÃ¼flÃ¼ ekmek~
+KÃ¼flÃ¼ bir ekmek gÃ¶rÃ¼yorsun.~
 unknown~
 pill 0 A
 20 '' 'cure poison' 'heal' ''
@@ -191,9 +191,9 @@ stooky gland~
 Stooky glands are known for the restorative properties.
 ~
 #8003
-kanun koyucu değnek~
+kanun koyucu deÄŸnek~
 kanun koyucu~
-Bir değnek görüyorsun.~
+Bir deÄŸnek gÃ¶rÃ¼yorsun.~
 steel~
 wand 0 AO
 30 10 10 'high explosive' 0
@@ -204,9 +204,9 @@ The standard weapon for the city's Judges.  It uses general
 high explosive ammunition.
 ~
 #8004
-boncuklu çanta~
-boncuklu çanta~
-Boncuklu bir çanta görüyorsun.~
+boncuklu Ã§anta~
+boncuklu Ã§anta~
+Boncuklu bir Ã§anta gÃ¶rÃ¼yorsun.~
 iron~
 container B 0
 1005 ACD 8005 200 100
@@ -219,7 +219,7 @@ You better find the code box.
 #8005
 demir anahtar~
 demir anahtar~
-Demirden yapılmış bir anahtar görüyorsun.~
+Demirden yapÄ±lmÄ±ÅŸ bir anahtar gÃ¶rÃ¼yorsun.~
 iron~
 key B AO
 0 0 0 0 0
@@ -229,9 +229,9 @@ code box~
 The box looks like some kind of access device.
 ~
 #8006
-tahta saplı gürz~
-tahta saplı gürz~
-Tahta saplı bir gürz görüyorsun.~
+tahta saplÄ± gÃ¼rz~
+tahta saplÄ± gÃ¼rz~
+Tahta saplÄ± bir gÃ¼rz gÃ¶rÃ¼yorsun.~
 wood~
 weapon 0 AN
 mace 4 5 pound F
@@ -244,9 +244,9 @@ This is the same type of bat used by the little spuggers
 to play bashball.
 ~
 #8007
-titreyen hançer~
-titreyen hançer~
-Titreyen bir hançer görüyorsun.~
+titreyen hanÃ§er~
+titreyen hanÃ§er~
+Titreyen bir hanÃ§er gÃ¶rÃ¼yorsun.~
 adamantite~
 weapon ABF AN
 dagger 6 5 slash 0
@@ -265,9 +265,9 @@ Obviously of alien manufacture, this blade enhances fighting
 and survival skills.
 ~
 #8008
-demir saplı asa~
-demir saplı asa~
-Demir saplı bir asa görüyorsun.~
+demir saplÄ± asa~
+demir saplÄ± asa~
+Demir saplÄ± bir asa gÃ¶rÃ¼yorsun.~
 unknown~
 weapon B AN
 exotic 4 5 suction F
@@ -278,9 +278,9 @@ This vacuum looks well built and will last you many years of
 cleaning pleasure.
 ~
 #8009
-bıçak~
-bıçak~
-Bir bıçak yaşamın önemi üzerine düşünüyor...~
+bÄ±Ã§ak~
+bÄ±Ã§ak~
+Bir bÄ±Ã§ak yaÅŸamÄ±n Ã¶nemi Ã¼zerine dÃ¼ÅŸÃ¼nÃ¼yor...~
 steel~
 weapon 0 AN
 dagger 2 4 slice 0
@@ -290,9 +290,9 @@ knife~
 It is a knife. 'Nuff said. (Marvel joke).
 ~
 #8010
-ıslak kırbaç~
-ıslak kırbaç~
-Islatılmış bir kırbaç görüyorsun.~
+Ä±slak kÄ±rbaÃ§~
+Ä±slak kÄ±rbaÃ§~
+IslatÄ±lmÄ±ÅŸ bir kÄ±rbaÃ§ gÃ¶rÃ¼yorsun.~
 iron~
 weapon 0 AN
 whip 1 4 whip 0
@@ -304,9 +304,9 @@ noodle~
 It looks like a noodle freshly made at the Olive Garden.
 ~
 #8011
-yargıç gürzü~
-Yargıç Gürzü~
-Bir yargıç gürzü görüyorsun.~
+yargÄ±Ã§ gÃ¼rzÃ¼~
+YargÄ±Ã§ GÃ¼rzÃ¼~
+Bir yargÄ±Ã§ gÃ¼rzÃ¼ gÃ¶rÃ¼yorsun.~
 wood~
 weapon 0 AN
 mace 3 7 pound 0
@@ -319,9 +319,9 @@ It is a standard Justice Hall issue club.  Many a Perp's
 head has been bashed with this baby.
 ~
 #8012
-mezar anahtarı~
-mezar anahtarı~
-Bir mezar anahtarı görüyorsun.~
+mezar anahtarÄ±~
+mezar anahtarÄ±~
+Bir mezar anahtarÄ± gÃ¶rÃ¼yorsun.~
 iron~
 key B AO
 0 0 0 0 0
@@ -331,9 +331,9 @@ vault key~
 The key looks like it could be useful.
 ~
 #8013
-bakır anahtar~
-bakır anahtar~
-Bakırdan yapılmış bir anahtar görüyorsun.~
+bakÄ±r anahtar~
+bakÄ±r anahtar~
+BakÄ±rdan yapÄ±lmÄ±ÅŸ bir anahtar gÃ¶rÃ¼yorsun.~
 copper~
 key 0 AO
 0 0 0 0 0
@@ -343,9 +343,9 @@ key card~
 It looks like it fits a slot somewhere.
 ~
 #8014
-yargıç gürzü~
-Yargıç Gürzü~
-Bir yargıç gürzü görüyorsun.~
+yargÄ±Ã§ gÃ¼rzÃ¼~
+YargÄ±Ã§ GÃ¼rzÃ¼~
+Bir yargÄ±Ã§ gÃ¼rzÃ¼ gÃ¶rÃ¼yorsun.~
 wood~
 weapon 0 AN
 mace 3 11 pound 0
@@ -358,9 +358,9 @@ It is a head judge Justice Hall issue club.  Many a Perp's
 head has been bashed with this baby.
 ~
 #8015
-şok gürzü~
-şok gürzü~
-Şok edici bir gürz görüyorsun.~
+ÅŸok gÃ¼rzÃ¼~
+ÅŸok gÃ¼rzÃ¼~
+Åok edici bir gÃ¼rz gÃ¶rÃ¼yorsun.~
 steel~
 weapon A AN
 mace 4 5 shock 0
@@ -377,7 +377,7 @@ mace 3 9 pound G
 
 #ROOMS
 #8001
-Küçük Şehrin Girişi~
+KÃ¼Ã§Ã¼k Åehrin GiriÅŸi~
 A road begins here in the glowing sands.  You follow it through a gate
 in a Plasteen wall onto the Megway of Mega-City One.
 ~
@@ -394,7 +394,7 @@ The Megway continues in this direction.
 0 0 8002
 S
 #8002
-Şehir Yolu~
+Åehir Yolu~
 You are on one mile of over 13 and a half billion kilometers of
 roadway in Mega-City One.  The Megway continues north and south.
 ~
@@ -411,7 +411,7 @@ There is an intersection ahead.
 0 0 8003
 S
 #8003
-Kesişim~
+KesiÅŸim~
 The Megway intersects with Junket Way here.  Junket Way is to the east,
 the Megway continues north and south, and the Pustule Palace Cafe is
 to the west.
@@ -439,7 +439,7 @@ The Pustule Palace Cafe is in this direction.
 0 0 8021
 S
 #8004
-Şehir Yolu~
+Åehir Yolu~
 The traffic here is really congested due in part to the over 11 million
 people driving Mo-Pads, the mobile homes which are constantly on the
 move until their owners can find an apartment in one of the City-blocks.
@@ -458,7 +458,7 @@ The Megway continues in this direction.
 0 0 8005
 S
 #8005
-Şehir Yolu~
+Åehir Yolu~
 The Megway continues north and south.  On the off-ramps here you see
 many of the citizens of Mega-City One doing nothing.  You see of
 every hundred citizens, it can be guaranteed that 87 of them will
@@ -489,7 +489,7 @@ A building is in this direction.
 0 0 8022
 S
 #8006
-Şehir Merkezi~
+Åehir Merkezi~
 You are at the Central Plaza of the downtown district.  There are a couple
 of juves Boingging (tm) in the air above you.  Max Jaffa Boulevard goes
 east, the Megway continues north and south, and Bazza's Home for the
@@ -518,7 +518,7 @@ A home for Sarky people is to the west.
 0 0 8023
 S
 #8007
-Kesişim~
+KesiÅŸim~
 Another major intersection which is being negotiated by vehicles that
 are bound to minimum speed limits.  Many Slow Driving offenses are being
 handed out by the Judges.  The Megway goes north and south, a Parkway
@@ -547,7 +547,7 @@ A City Block lies to the west.
 0 0 8024
 S
 #8008
-Şehir Yolu~
+Åehir Yolu~
 As you travel the Megway you notice many citizens participating in their
 favorite hobbies such as spot welding and metalwork, scratch building
 fashion Kneepads, giving blood, or just looking out the window.  The
@@ -566,7 +566,7 @@ The Megway continues in this direction.
 0 0 8009
 S
 #8009
-Şehir Yolu~
+Åehir Yolu~
 The Megway ends here.  To the west is Ziggi Piggi's Home for the
 Semi-Stiff, to the east and south are construction areas, and the
 Megway goes north.
@@ -628,7 +628,7 @@ An intersection is ahead.
 0 0 8005
 S
 #8012
-Şehir Yolu~
+Åehir Yolu~
 Max Jaffa Boulevard continues east and west.
 ~
 0 0 1
@@ -660,7 +660,7 @@ An intersection is ahead.
 0 0 8007
 S
 #8014
-Şantiye Bölgesi~
+Åantiye BÃ¶lgesi~
 A Mega-City One City Block is being constructed at this site.  A
 typical block is from 100 to 1000 stories high with hundreds of
 thousands inhabitants.
@@ -673,7 +673,7 @@ An intersection is ahead.
 0 0 8009
 S
 #8015
-Kesişim~
+KesiÅŸim~
 There is a second-hand kneepad stall is doing a brisk business with a
 group of juves on their way to school.  Junket Way goes west and Threep
 Lane travels south.
@@ -738,7 +738,7 @@ A dark alley is west.
 0 0 8011
 S
 #8018
-Kesişim~
+KesiÅŸim~
 A proprietor of Uncle Sumpty's Ugly Emporium meanders by.  Threep Lane
 continues north and south while Max Jaffa Boulevard goes west.
 ~
@@ -760,7 +760,7 @@ Max Jaffa Blvd continues west
 0 0 8012
 S
 #8019
-Kesişim~
+KesiÅŸim~
 Threep Lane goes north from here while Ed Hilldreth Memorial Parkway goes
 west.
 ~
@@ -782,7 +782,7 @@ Ed Hilldreth continues west.
 0 0 8013
 S
 #8020
-Şantiye Bölgesi~
+Åantiye BÃ¶lgesi~
 Construction is under way for the Black Atlantic Tunnel to connect
 Mega-City One and Brit-Cit One.
 ~
@@ -819,7 +819,7 @@ An intersection lies east.
 0 0 8005
 S
 #8023
-Arnavut Kaldırımı~
+Arnavut KaldÄ±rÄ±mÄ±~
 This is an experimental psychiatric home.  Named after a 20th Century
 vid-critic, the home attempts, by various methods, to readjust the
 socially unacceptable attitudes of the inmates.
@@ -832,7 +832,7 @@ A large plaza lies east.
 0 0 8006
 S
 #8024
-Arnavut Kaldırımı~
+Arnavut KaldÄ±rÄ±mÄ±~
 Opened as a direct rival to the New You Face Parlour chain to offer quick
 and cheap face-changing facilities to the general public.  However,
 since the closure of Sump's Ugly clinics, the craze for face-changing has
@@ -859,7 +859,7 @@ An intersection lies east.
 0 0 8009
 S
 #8026
-Dükkan~
+DÃ¼kkan~
 This place promises to provide everything that the citizens don't need,
 with the utmost discourtesy.  Of course, something as crazy as this was
 bound to succeed.  There is a door to the north with a slot next to it.
@@ -900,7 +900,7 @@ however.
 ~
 S
 #8028
-Yeraltı Mezarı~
+YeraltÄ± MezarÄ±~
 The vault is musty with a slight smell of ozone in the air.
 ~
 0 D 0

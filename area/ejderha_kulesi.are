@@ -3,7 +3,7 @@ Filename ejderha_kulesi.are~
 Name Ejderha Kulesi~
 Builder Wench~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 30
 Minvnum 2200
@@ -18,11 +18,11 @@ END
 #2200
 eskitip yavru ejderha~
 yavru ejderha~
-Yeni doğmuş bir yavru ejderha ağzındaki kemiği çiğniyor.
+Yeni doÄŸmuÅŸ bir yavru ejderha aÄŸzÄ±ndaki kemiÄŸi Ã§iÄŸniyor.
 ~
-Odaya girince yavru ejderhanın sana tısladığını farkediyorsun. Birkaç
-ayak boyunda olduğu halde sivri dişleri onu sevmeye kalkmamak konusunda
-seni uyarıyor.
+Odaya girince yavru ejderhanÄ±n sana tÄ±sladÄ±ÄŸÄ±nÄ± farkediyorsun. BirkaÃ§
+ayak boyunda olduÄŸu halde sivri diÅŸleri onu sevmeye kalkmamak konusunda
+seni uyarÄ±yor.
 ~
 dragon~
 ABG 0 7
@@ -31,49 +31,49 @@ eskitip ejderan~
 Ejderan~
 Ejderan burada duruyor.
 ~
-O hem insanı hem ejderhayı andıran korkunç bir varlık. Kanat açıklığı
-yedi ayak kadar. Odaya girdiğinde kaşlarını çatıyor ve kargısını kaldırıyor.
+O hem insanÄ± hem ejderhayÄ± andÄ±ran korkunÃ§ bir varlÄ±k. Kanat aÃ§Ä±klÄ±ÄŸÄ±
+yedi ayak kadar. Odaya girdiÄŸinde kaÅŸlarÄ±nÄ± Ã§atÄ±yor ve kargÄ±sÄ±nÄ± kaldÄ±rÄ±yor.
 ~
 human~
 ABCF D 13
 #2202
-eskitip türbe lord efendi~
+eskitip tÃ¼rbe lord efendi~
 ejderha efendisi~
-Türbenin lordu burada.
+TÃ¼rbenin lordu burada.
 ~
-Seni görmekten mutlu olduğu söylenemez.
+Seni gÃ¶rmekten mutlu olduÄŸu sÃ¶ylenemez.
 ~
 human~
 ABCF T 27
 #2203
-eskitip büyücü güçlü~
-güçlü büyücü~
-Önündeki kitaplarla çalışan bir büyücü görüyorsun.
+eskitip bÃ¼yÃ¼cÃ¼ gÃ¼Ã§lÃ¼~
+gÃ¼Ã§lÃ¼ bÃ¼yÃ¼cÃ¼~
+Ã–nÃ¼ndeki kitaplarla Ã§alÄ±ÅŸan bir bÃ¼yÃ¼cÃ¼ gÃ¶rÃ¼yorsun.
 ~
-Güçlü görünüşlü bir büyücü burada, büyüler üzerine çalışıyor. Büyücünün
-insan olduğunu farkedince şaşırıyorsun. Buradaki yaratıklar onu kabul
-ettiklerine göre oldukça güçlü olmalı.
+GÃ¼Ã§lÃ¼ gÃ¶rÃ¼nÃ¼ÅŸlÃ¼ bir bÃ¼yÃ¼cÃ¼ burada, bÃ¼yÃ¼ler Ã¼zerine Ã§alÄ±ÅŸÄ±yor. BÃ¼yÃ¼cÃ¼nÃ¼n
+insan olduÄŸunu farkedince ÅŸaÅŸÄ±rÄ±yorsun. Buradaki yaratÄ±klar onu kabul
+ettiklerine gÃ¶re oldukÃ§a gÃ¼Ã§lÃ¼ olmalÄ±.
 ~
 human~
 ABR BDH 22
 #2204
 eskitip tehu ejder~
 kutsal ejderan~
-Kutsal Ejderan burada, derin düşüncelere dalmış.
+Kutsal Ejderan burada, derin dÃ¼ÅŸÃ¼ncelere dalmÄ±ÅŸ.
 ~
-Basit cüppelere sarınmış bir ejder görüyorsun. Boynunda beş başlı ejder
-madalyonu taşıyor.
+Basit cÃ¼ppelere sarÄ±nmÄ±ÅŸ bir ejder gÃ¶rÃ¼yorsun. Boynunda beÅŸ baÅŸlÄ± ejder
+madalyonu taÅŸÄ±yor.
 ~
 human~
 ABCFQ DH 22
 #2205
 eskitip kral ejderan~
 Ejderan Kral~
-Kendi yüceliği üzerine düşünen bir ejderan görüyorsun.
+Kendi yÃ¼celiÄŸi Ã¼zerine dÃ¼ÅŸÃ¼nen bir ejderan gÃ¶rÃ¼yorsun.
 ~
-Ejderanların kralı altın bir tahtta oturuyor. Ufacık bir enerji harcayarak
-senin kafanı kül edebilir. Aslında onun büyük bir güç tarafından kontrol
-edildiğini farkediyorsun.
+EjderanlarÄ±n kralÄ± altÄ±n bir tahtta oturuyor. UfacÄ±k bir enerji harcayarak
+senin kafanÄ± kÃ¼l edebilir. AslÄ±nda onun bÃ¼yÃ¼k bir gÃ¼Ã§ tarafÄ±ndan kontrol
+edildiÄŸini farkediyorsun.
 
 ~
 human~
@@ -83,17 +83,17 @@ eskitip hizmetkar ejderan~
 hizmetkar~
 Bir hizmetkar burada bekliyor.
 ~
-O kralın kadınlarından birisi. Neredeyse çırılçıplak. Bir bıçak çıkarıp
-kendini savunmaya hazırlandığını görünce şaşırıyorsun.
+O kralÄ±n kadÄ±nlarÄ±ndan birisi. Neredeyse Ã§Ä±rÄ±lÃ§Ä±plak. Bir bÄ±Ã§ak Ã§Ä±karÄ±p
+kendini savunmaya hazÄ±rlandÄ±ÄŸÄ±nÄ± gÃ¶rÃ¼nce ÅŸaÅŸÄ±rÄ±yorsun.
 ~
 human~
 AB 0 6
 #2207
 eskitip ejderan koruma~
 koruma~
-Bir koruma görüyorsun, sana ters ters bakıyor.
+Bir koruma gÃ¶rÃ¼yorsun, sana ters ters bakÄ±yor.
 ~
-O kendini kralı korumaya adamış bir ejder. Senin varlığın onu tedirgin
+O kendini kralÄ± korumaya adamÄ±ÅŸ bir ejder. Senin varlÄ±ÄŸÄ±n onu tedirgin
 ediyor.
 ~
 human~
@@ -101,19 +101,19 @@ ABF CDF 18
 #2220
 eskitip tiamat ejder~
 Tiamat~
-Beş başlı bir ejderha sana tıslıyor.
+BeÅŸ baÅŸlÄ± bir ejderha sana tÄ±slÄ±yor.
 ~
-Kulenin efendisi Tiamat'ı görüyorsun. Her an buraya izinsiz girerek
-yaptığın terbiyesizliği ödetebilir.... hem de HAYATINLA!!!
+Kulenin efendisi Tiamat'Ä± gÃ¶rÃ¼yorsun. Her an buraya izinsiz girerek
+yaptÄ±ÄŸÄ±n terbiyesizliÄŸi Ã¶detebilir.... hem de HAYATINLA!!!
 ~
 human~
 ABCF DFTV 52
 #2221
-kızıl ejderha~
-Kızıl Ejderha~
-Kızıl Ejderha burada, senin varlığın üzerine düşünüyor.
+kÄ±zÄ±l ejderha~
+KÄ±zÄ±l Ejderha~
+KÄ±zÄ±l Ejderha burada, senin varlÄ±ÄŸÄ±n Ã¼zerine dÃ¼ÅŸÃ¼nÃ¼yor.
 ~
-Kaçmak için geri döndügünde kalman gerektiğini bildiriyor,
+KaÃ§mak iÃ§in geri dÃ¶ndÃ¼gÃ¼nde kalman gerektiÄŸini bildiriyor,
 hem de SONSUZA KADAR!!!
 ~
 dragon~
@@ -121,10 +121,10 @@ ABCF DF 54
 #2222
 kara ejderha~
 Kara Ejderha~
-Kara Ejderha burada, varlığının önemsizliğine gülüyor.
+Kara Ejderha burada, varlÄ±ÄŸÄ±nÄ±n Ã¶nemsizliÄŸine gÃ¼lÃ¼yor.
 ~
-Silahlarına gülümseyerek bakıyor. Onun tek bir tırnağının boyu iki
-kişinin kaldırmaya gücünün yetmeyeceği kadim kılıçlar büyüklüğünde.
+SilahlarÄ±na gÃ¼lÃ¼mseyerek bakÄ±yor. Onun tek bir tÄ±rnaÄŸÄ±nÄ±n boyu iki
+kiÅŸinin kaldÄ±rmaya gÃ¼cÃ¼nÃ¼n yetmeyeceÄŸi kadim kÄ±lÄ±Ã§lar bÃ¼yÃ¼klÃ¼ÄŸÃ¼nde.
 ~
 dragon~
 ABCF DF 40
@@ -133,71 +133,71 @@ beyaz ejderha~
 Beyaz Ejderha~
 Beyaz Ejderha burada, seni bekliyor.
 ~
-Boyu bir kale yüksekliğinde...
+Boyu bir kale yÃ¼ksekliÄŸinde...
 ~
 dragon~
 ABCF DF 39
 #2225
-yeşil ejderha~
-Kadim Yeşil Ejderha~
-Kadim Yeşil Ejderha burada, sert bakışlarıyla seni izliyor.
+yeÅŸil ejderha~
+Kadim YeÅŸil Ejderha~
+Kadim YeÅŸil Ejderha burada, sert bakÄ±ÅŸlarÄ±yla seni izliyor.
 ~
-Ağzından dumanlar çıkararak sana bebeklerini rahatsız etmenin bedelini
-ödeteceğini söylüyor.
+AÄŸzÄ±ndan dumanlar Ã§Ä±kararak sana bebeklerini rahatsÄ±z etmenin bedelini
+Ã¶deteceÄŸini sÃ¶ylÃ¼yor.
 ~
 dragon~
 ABCF DF 47
 #2226
 eskitip hidra~
 iri hidra~
-Bir hidra burada, kapıyı tutuyor.
+Bir hidra burada, kapÄ±yÄ± tutuyor.
 ~
-Girişi koruyan bir hidra görüyorsun. Seni görmekten memnun olmamış.
+GiriÅŸi koruyan bir hidra gÃ¶rÃ¼yorsun. Seni gÃ¶rmekten memnun olmamÄ±ÅŸ.
 ~
 human~
 ABCF DF 18
 #2227
-eskitip köle insan~
-bir köle~
-Bir köle görüyorsun, ağır bir işte çalışıyor.
+eskitip kÃ¶le insan~
+bir kÃ¶le~
+Bir kÃ¶le gÃ¶rÃ¼yorsun, aÄŸÄ±r bir iÅŸte Ã§alÄ±ÅŸÄ±yor.
 ~
-Bundan yıllar önce gürzra aramaya gelmiş. İşte gürzRA!!!
+Bundan yÄ±llar Ã¶nce gÃ¼rzra aramaya gelmiÅŸ. Ä°ÅŸte gÃ¼rzRA!!!
 ~
 human~
 ABS DF 5
 #2240
 eskitip zombi ejder~
 zombi ejder~
-Zombi ejder burada, bakışları hiçbir şey ifade etmiyor.
+Zombi ejder burada, bakÄ±ÅŸlarÄ± hiÃ§bir ÅŸey ifade etmiyor.
 ~
-Eskiden kabilenin savaşçılarındanmış. Şimdi ise koridoru koruyor.
+Eskiden kabilenin savaÅŸÃ§Ä±larÄ±ndanmÄ±ÅŸ. Åimdi ise koridoru koruyor.
 ~
 human~
 ABCF DF 9
 #2241
 faz ejderha~
 Faz Ejderha~
-Faz Ejderha burada, salonu arşınlıyor.
+Faz Ejderha burada, salonu arÅŸÄ±nlÄ±yor.
 ~
-Bu küçük ejderha hiç de sakin görünmüyor.
+Bu kÃ¼Ã§Ã¼k ejderha hiÃ§ de sakin gÃ¶rÃ¼nmÃ¼yor.
 ~
 dragon~
 ACFGH DF 10
 #2242
 aptal ejder~
 aptal ejder~
-Aptal bir ejder burada, senin taklitini yapıyor.
+Aptal bir ejder burada, senin taklitini yapÄ±yor.
 ~
-Bu bir ejder mi yoksa bir şaklaban mı?
+Bu bir ejder mi yoksa bir ÅŸaklaban mÄ±?
 ~
 human~
 AGHS DF 5
 #2243
-eskitip kraliçe ejder~
-Kraliçe Ejder~
-Bir ejder burada, oldukça önemli birine benziyor.
+eskitip kraliÃ§e ejder~
+KraliÃ§e Ejder~
+Bir ejder burada, oldukÃ§a Ã¶nemli birine benziyor.
 ~
-Kölelerine yapmaları gerekenleri anlatmaktan yorulmuş. Onu yalnız bırakmak
+KÃ¶lelerine yapmalarÄ± gerekenleri anlatmaktan yorulmuÅŸ. Onu yalnÄ±z bÄ±rakmak
 iyi olabilir, ne dersin?
 ~
 human~
@@ -206,17 +206,17 @@ ABC DFH 20
 
 #OBJECTS
 #2200
-çentikli asa~
-çentikli asa~
-Bir çentikli asa burada unutulmuş.~
+Ã§entikli asa~
+Ã§entikli asa~
+Bir Ã§entikli asa burada unutulmuÅŸ.~
 steel~
 weapon 0 AN
 staff 2 7 thrust 0
 10 150 153 P
 #2201
-gümüş kama~
-gümüş kama~
-Bir gümüş kama yerde yatıyor.~
+gÃ¼mÃ¼ÅŸ kama~
+gÃ¼mÃ¼ÅŸ kama~
+Bir gÃ¼mÃ¼ÅŸ kama yerde yatÄ±yor.~
 silver~
 weapon 0 AN
 dagger 4 7 pierce 0
@@ -224,9 +224,9 @@ dagger 4 7 pierce 0
 A
 20 -2
 #2202
-ejderdişi kama~
-ejderdişi kama~
-Ejderha dişinden yapılmış teklikeli bir kama burada unutulmuş.~
+ejderdiÅŸi kama~
+ejderdiÅŸi kama~
+Ejderha diÅŸinden yapÄ±lmÄ±ÅŸ teklikeli bir kama burada unutulmuÅŸ.~
 bone~
 weapon 0 AN
 dagger 5 6 pierce 0
@@ -238,7 +238,7 @@ A
 #2203
 ejder bileklik~
 ejderderisi bileklik~
-Kalın deriden bir bileklik yerde yatıyor.~
+KalÄ±n deriden bir bileklik yerde yatÄ±yor.~
 dragonskin~
 armor 0 AM
 6 6 6 3 0
@@ -246,7 +246,7 @@ armor 0 AM
 #2204
 siyah ipek kemer~
 siyah ipek kemer~
-Kaliteli ipekten dokunmuş bir kemer burada sallanıyor.~
+Kaliteli ipekten dokunmuÅŸ bir kemer burada sallanÄ±yor.~
 silk~
 armor 0 AL
 6 6 6 2 0
@@ -256,7 +256,7 @@ A
 #2210
 beyaz ipek kemer~
 beyaz ipek kemer~
-Kaliteli ipekten dokunmuş bir kemer burada sallanıyor.~
+Kaliteli ipekten dokunmuÅŸ bir kemer burada sallanÄ±yor.~
 silk~
 armor 0 AL
 6 6 6 2 0
@@ -266,15 +266,15 @@ A
 #2211
 platin bileklik~
 platin bileklik~
-Kararmış platinden bir bileklik yere düşürülmüş.~
+KararmÄ±ÅŸ platinden bir bileklik yere dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 platinium~
 armor A AM
 7 7 7 0 0
 20 50 1450 P
 #2220
-kutsal işaret~
-kutsal işaret~
-Altından yapılmış kutsal bir işaret burada duruyor.~
+kutsal iÅŸaret~
+kutsal iÅŸaret~
+AltÄ±ndan yapÄ±lmÄ±ÅŸ kutsal bir iÅŸaret burada duruyor.~
 gold~
 jewelry A ACO
 0 0 0 0 0
@@ -282,9 +282,9 @@ jewelry A ACO
 A
 12 15
 #2221
-kara cüppe~
-kara cüppe~
-Duvardaki kancada bir kara cüppe sallanıyor.~
+kara cÃ¼ppe~
+kara cÃ¼ppe~
+Duvardaki kancada bir kara cÃ¼ppe sallanÄ±yor.~
 leather~
 armor 0 AK
 5 5 5 0 0
@@ -292,9 +292,9 @@ armor 0 AK
 A
 19 2
 #2222
-zümrüt kılıç~
-zümrüt kılıç~
-Bir zümrüt kılıç duvarın dibinde yatıyor.~
+zÃ¼mrÃ¼t kÄ±lÄ±Ã§~
+zÃ¼mrÃ¼t kÄ±lÄ±Ã§~
+Bir zÃ¼mrÃ¼t kÄ±lÄ±Ã§ duvarÄ±n dibinde yatÄ±yor.~
 steel~
 weapon 0 AN
 sword 5 6 slash D
@@ -302,17 +302,17 @@ sword 5 6 slash D
 A
 19 2
 #2223
-taş gürz~
-taş gürz~
-Ağır görünümlü bir taş gürz burada unutulmuş.~
+taÅŸ gÃ¼rz~
+taÅŸ gÃ¼rz~
+AÄŸÄ±r gÃ¶rÃ¼nÃ¼mlÃ¼ bir taÅŸ gÃ¼rz burada unutulmuÅŸ.~
 stone~
 weapon 0 AN
 mace 3 6 crush 0
 18 180 940 P
 #2224
-elmas yüzük~
-elmas yüzük~
-Bir elmas yüzük yerde yatıyor.~
+elmas yÃ¼zÃ¼k~
+elmas yÃ¼zÃ¼k~
+Bir elmas yÃ¼zÃ¼k yerde yatÄ±yor.~
 diamond~
 jewelry 0 AB
 0 0 0 0 0
@@ -322,9 +322,9 @@ A
 A
 18 3
 #2230
-bakır yüzük~
-bakır yüzük~
-Bir bakır yüzük burada unutulmuş.~
+bakÄ±r yÃ¼zÃ¼k~
+bakÄ±r yÃ¼zÃ¼k~
+Bir bakÄ±r yÃ¼zÃ¼k burada unutulmuÅŸ.~
 copper~
 jewelry 0 AB
 0 0 0 0 0
@@ -332,9 +332,9 @@ jewelry 0 AB
 A
 4 2
 #2231
-çelik anahtar~
-çelik anahtar~
-Bir çelik anahtar burada unutulmuş.~
+Ã§elik anahtar~
+Ã§elik anahtar~
+Bir Ã§elik anahtar burada unutulmuÅŸ.~
 steel~
 key 0 A
 0 0 0 0 0
@@ -342,7 +342,7 @@ key 0 A
 #2232
 yakut anahtar~
 yakut anahtar~
-Yakuttan yapılmış bir anahtar burada unutulmuş.~
+Yakuttan yapÄ±lmÄ±ÅŸ bir anahtar burada unutulmuÅŸ.~
 ruby~
 key 0 A
 0 0 0 0 0
@@ -350,7 +350,7 @@ key 0 A
 #2233
 beyaz anahtar~
 beyaz anahtar~
-Bir beyaz anahtar burada unutulmuş.~
+Bir beyaz anahtar burada unutulmuÅŸ.~
 ivory~
 key 0 A
 0 0 0 0 0
@@ -364,9 +364,9 @@ key 0 A
 0 0 0 0 0
 0 10 0 P
 #2237
-taş anahtar~
-taş anahtar~
-Bir taş anahtar burada unutulmuş.~
+taÅŸ anahtar~
+taÅŸ anahtar~
+Bir taÅŸ anahtar burada unutulmuÅŸ.~
 stone~
 key 0 A
 0 0 0 0 0
@@ -388,9 +388,9 @@ key 0 A
 0 0 0 0 0
 0 10 0 P
 #2242
-dişli kalkan~
-dişli kalkan~
-Bir dişli kalkan yerde duruyor.~
+diÅŸli kalkan~
+diÅŸli kalkan~
+Bir diÅŸli kalkan yerde duruyor.~
 steel~
 armor 0 AJ
 8 8 8 3 0
@@ -398,33 +398,33 @@ armor 0 AJ
 A
 5 1
 #2243
-altın değnek~
-altın değnek~
-Burada bir altın değnek düşürülmüş.~
+altÄ±n deÄŸnek~
+altÄ±n deÄŸnek~
+Burada bir altÄ±n deÄŸnek dÃ¼ÅŸÃ¼rÃ¼lmÃ¼ÅŸ.~
 gold~
 wand A AO
 25 10 10 'dispel magic' 0
 14 50 5500 P
 #2244
-gümüş asa~
-gümüş asa~
-Bir gümüş asa burada, sahibini bekliyor.~
+gÃ¼mÃ¼ÅŸ asa~
+gÃ¼mÃ¼ÅŸ asa~
+Bir gÃ¼mÃ¼ÅŸ asa burada, sahibini bekliyor.~
 silver~
 staff AG AO
 25 20 20 'faerie fog' 0
 14 50 11700 P
 #2245
 ejder asa~
-ejder asası~
-Meşe ağacından yapılmış güçlü bir asa burada.~
+ejder asasÄ±~
+MeÅŸe aÄŸacÄ±ndan yapÄ±lmÄ±ÅŸ gÃ¼Ã§lÃ¼ bir asa burada.~
 oak~
 staff AG AO
 25 10 10 'call lightning' 0
 15 50 10200 P
 #2246
-pullu zırh~
-pullu zırh~
-Bir pullu zırh burada unutulmuş.~
+pullu zÄ±rh~
+pullu zÄ±rh~
+Bir pullu zÄ±rh burada unutulmuÅŸ.~
 steel~
 armor A AD
 8 8 8 0 0
@@ -432,7 +432,7 @@ armor A AD
 #2250
 kara asa~
 kara asa~
-Bir asanın soluk dış yüzeyini fark ediyorsun.~
+Bir asanÄ±n soluk dÄ±ÅŸ yÃ¼zeyini fark ediyorsun.~
 onyx~
 staff AJ AO
 30 3 3 'energy drain' 0
@@ -440,7 +440,7 @@ staff AJ AO
 #2251
 kara iksir~
 kara iksir~
-Bir iksirin soluk dış yüzeyini fark ediyorsun.~
+Bir iksirin soluk dÄ±ÅŸ yÃ¼zeyini fark ediyorsun.~
 glass~
 potion 0 A
 30 'blindness' 'harm' '' ''
@@ -454,9 +454,9 @@ potion H A
 30 'cure critical' 'protection evil' '' ''
 7 10 600 P
 #2254
-çivili eldivenler~
-bir çift çivili eldiven~
-Bir çift çivili eldiven burada, yeni sahibini bekliyor.~
+Ã§ivili eldivenler~
+bir Ã§ift Ã§ivili eldiven~
+Bir Ã§ift Ã§ivili eldiven burada, yeni sahibini bekliyor.~
 iron~
 armor AG AH
 4 4 4 0 0
@@ -466,9 +466,9 @@ A
 A
 19 2
 #2260
-altın kılıç~
-altın kılıç~
-Bir altın kılıç burada, yeni sahibini bekliyor.~
+altÄ±n kÄ±lÄ±Ã§~
+altÄ±n kÄ±lÄ±Ã§~
+Bir altÄ±n kÄ±lÄ±Ã§ burada, yeni sahibini bekliyor.~
 gold~
 weapon A AN
 sword 3 5 slash 0
@@ -478,9 +478,9 @@ A
 A
 3 1
 #2261
-elmas broş~
-bir elmas broş~
-Bir elmas broş burada, yeni sahibini bekliyor.~
+elmas broÅŸ~
+bir elmas broÅŸ~
+Bir elmas broÅŸ burada, yeni sahibini bekliyor.~
 diamond~
 jewelry G AC
 0 0 0 0 0
@@ -488,17 +488,17 @@ jewelry G AC
 A
 12 25
 #2270
-rün parşömen~
-rün parşömen~
-Bir rün parşömen burada, okunmayı bekliyor.~
+rÃ¼n parÅŸÃ¶men~
+rÃ¼n parÅŸÃ¶men~
+Bir rÃ¼n parÅŸÃ¶men burada, okunmayÄ± bekliyor.~
 vellum~
 scroll G AO
 30 'armor' 'protection evil' 'shield' ''
 12 10 1960 P
 #2271
 ejderderisi eldiven~
-bir çift ejderderisi eldiven~
-Bir çift ejderderisi eldiven yerde yatıyor.~
+bir Ã§ift ejderderisi eldiven~
+Bir Ã§ift ejderderisi eldiven yerde yatÄ±yor.~
 dragonskin~
 armor 0 AH
 6 6 6 3 0
@@ -506,9 +506,9 @@ armor 0 AH
 A
 2 2
 #2275
-ejder miğferi~
-ejder miğferi~
-Bir ejderhanın kafatasından yapılmış miğfer yerde duruyor.~
+ejder miÄŸferi~
+ejder miÄŸferi~
+Bir ejderhanÄ±n kafatasÄ±ndan yapÄ±lmÄ±ÅŸ miÄŸfer yerde duruyor.~
 dragonskin~
 armor 0 AE
 10 10 10 5 0
@@ -516,9 +516,9 @@ armor 0 AE
 A
 13 15
 #2276
-ejder miğferi~
-ejder miğferi~
-Bir ejderhanın kafatasından yapılmış miğfer yerde duruyor.~
+ejder miÄŸferi~
+ejder miÄŸferi~
+Bir ejderhanÄ±n kafatasÄ±ndan yapÄ±lmÄ±ÅŸ miÄŸfer yerde duruyor.~
 fur~
 armor 0 AK
 6 6 6 1 0
@@ -528,25 +528,25 @@ A
 A
 1 1
 #2280
-pullu ejder bacaklık~
-bir çift pullu ejder bacaklığı~
-Bir çift pullu ejder bacaklığı yerde duruyor.~
+pullu ejder bacaklÄ±k~
+bir Ã§ift pullu ejder bacaklÄ±ÄŸÄ±~
+Bir Ã§ift pullu ejder bacaklÄ±ÄŸÄ± yerde duruyor.~
 dragonskin~
 armor 0 AF
 7 7 7 3 0
 20 150 1590 P
 #2281
 pullu ejder kolluk~
-bir çift pullu ejder kolluğu~
-Bir çift pullu ejder kolluğu yerde yatıyor.~
+bir Ã§ift pullu ejder kolluÄŸu~
+Bir Ã§ift pullu ejder kolluÄŸu yerde yatÄ±yor.~
 dragonskin~
 armor 0 AI
 7 7 7 3 0
 20 120 1590 P
 #2285
-ejderkuyruğu kırbaç~
-ejderkuyruğu kırbacı~
-Bir ejderkuyruğu kırbacı yerde yatıyor.~
+ejderkuyruÄŸu kÄ±rbaÃ§~
+ejderkuyruÄŸu kÄ±rbacÄ±~
+Bir ejderkuyruÄŸu kÄ±rbacÄ± yerde yatÄ±yor.~
 dragonskin~
 weapon BJ AN
 whip 6 5 whip 0
@@ -556,9 +556,9 @@ A
 A
 18 3
 #2286
-bakır topuz~
-bakır topuz~
-Bir bakır topuz yerde yatıyor.~
+bakÄ±r topuz~
+bakÄ±r topuz~
+Bir bakÄ±r topuz yerde yatÄ±yor.~
 copper wood~
 weapon 0 AN
 mace 4 5 crush 0
@@ -566,15 +566,15 @@ mace 4 5 crush 0
 #2287
 kristal kama~
 kristal kama~
-Bir kristal kama yerde yatıyor.~
+Bir kristal kama yerde yatÄ±yor.~
 silver~
 weapon 0 AN
 dagger 2 4 pierce 0
 5 10 360 P
 #2299
-altın anahtar~
-altın anahtar~
-Bir altın anahtar yerde yatıyor.~
+altÄ±n anahtar~
+altÄ±n anahtar~
+Bir altÄ±n anahtar yerde yatÄ±yor.~
 gold~
 key 0 A
 0 0 0 0 0
@@ -583,52 +583,52 @@ key 0 A
 
 #ROOMS
 #2201
-Kule Kapısı~
-Uzun bir kulenin girişindesin. Hava yağmurlu ve periyodik olarak şimşekler
-çakıyor. Koruya geri dönmenin iyi bir fikir olduğunu düşünüyorsun.
+Kule KapÄ±sÄ±~
+Uzun bir kulenin giriÅŸindesin. Hava yaÄŸmurlu ve periyodik olarak ÅŸimÅŸekler
+Ã§akÄ±yor. Koruya geri dÃ¶nmenin iyi bir fikir olduÄŸunu dÃ¼ÅŸÃ¼nÃ¼yorsun.
 ~
 0 A 1
 D0
-Büyük çelik geçidi görüyorsun. Ötesinde ise kulenin antresi uzanıyor.
+BÃ¼yÃ¼k Ã§elik geÃ§idi gÃ¶rÃ¼yorsun. Ã–tesinde ise kulenin antresi uzanÄ±yor.
 ~
-geçit çelik~
+geÃ§it Ã§elik~
 1 2231 2202
 D1
-Gölgeler görüşünü engelliyor.
+GÃ¶lgeler gÃ¶rÃ¼ÅŸÃ¼nÃ¼ engelliyor.
 ~
 ~
 0 0 1304
 E
-geçit~
-Geçit yüksek ve güvenli. Bunu kim diktiyse mahremiyete önem veriyormuş.
+geÃ§it~
+GeÃ§it yÃ¼ksek ve gÃ¼venli. Bunu kim diktiyse mahremiyete Ã¶nem veriyormuÅŸ.
 ~
 S
 #2202
 Antre~
-Burası kulenin girişi. Hol kuzeye merdivenlere doğru ilerliyor. Duvarda
-korku verici bir tablo var. Görünce hemen etrafına bakıyorsun.
+BurasÄ± kulenin giriÅŸi. Hol kuzeye merdivenlere doÄŸru ilerliyor. Duvarda
+korku verici bir tablo var. GÃ¶rÃ¼nce hemen etrafÄ±na bakÄ±yorsun.
 ~
 0 CD 0
 D0
-Uzun koridoru görüyorsun.
+Uzun koridoru gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2203
 D2
-Geçidi görüyorsun.
+GeÃ§idi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2201
 E
 tablo~
-Tablo korkunç bir şekilde ölen bir adamı anlatıyor. Aynı kaderi paylaşmamayı
+Tablo korkunÃ§ bir ÅŸekilde Ã¶len bir adamÄ± anlatÄ±yor. AynÄ± kaderi paylaÅŸmamayÄ±
 diliyorsun.
 ~
 S
 #2203
 Koridor~
-Bu koridor sonsuza kadar ilerleyecekmiş gibi görünüyor. Yine de uzakta bir
-merdiven çarpıyor gözüne.
+Bu koridor sonsuza kadar ilerleyecekmiÅŸ gibi gÃ¶rÃ¼nÃ¼yor. Yine de uzakta bir
+merdiven Ã§arpÄ±yor gÃ¶zÃ¼ne.
 ~
 0 D 0
 D0
@@ -637,14 +637,14 @@ Koridor devam ediyor.
 ~
 0 -1 2204
 D2
-Antreyi görüyorsun.
+Antreyi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2202
 S
 #2204
 Koridor~
-Koridorda ağır adımlarla ilerliyorsun. Doğuda ve batıda kapılar olduğunu
+Koridorda aÄŸÄ±r adÄ±mlarla ilerliyorsun. DoÄŸuda ve batÄ±da kapÄ±lar olduÄŸunu
 farkediyorsun.
 ~
 0 D 0
@@ -654,9 +654,9 @@ Koridor devam ediyor.
 ~
 0 -1 2207
 D1
-Bir kapı görüyorsun. Üzerinde işaret var.
+Bir kapÄ± gÃ¶rÃ¼yorsun. Ãœzerinde iÅŸaret var.
 ~
-kapı~
+kapÄ±~
 1 -1 2205
 D2
 Koridor devam ediyor.
@@ -664,60 +664,60 @@ Koridor devam ediyor.
 ~
 0 -1 2203
 D3
-Meşe kapıyı görüyorsun. Üzerinde bir yazıt var.
+MeÅŸe kapÄ±yÄ± gÃ¶rÃ¼yorsun. Ãœzerinde bir yazÄ±t var.
 ~
-kapı meşe~
+kapÄ± meÅŸe~
 1 -1 2206
 E
-yazıt~
-Yazıt: "DEPO"
+yazÄ±t~
+YazÄ±t: "DEPO"
 ~
 E
-işaret~
-İşaret: "REVİR"
+iÅŸaret~
+Ä°ÅŸaret: "REVÄ°R"
 ~
 
 S
 #2205
-Kreş~
-Sanki buraya bir kasırga vurmuş. Oyuncaklar etrafa dağılmış. Bir grup ejder
-yavrusu bir kemik için kavga ediyorlar.
+KreÅŸ~
+Sanki buraya bir kasÄ±rga vurmuÅŸ. Oyuncaklar etrafa daÄŸÄ±lmÄ±ÅŸ. Bir grup ejder
+yavrusu bir kemik iÃ§in kavga ediyorlar.
 ~
 0 D 1
 D1
-Büyük taş kapıyı görüyorsun.
+BÃ¼yÃ¼k taÅŸ kapÄ±yÄ± gÃ¶rÃ¼yorsun.
 ~
-kapı taş~
+kapÄ± taÅŸ~
 1 2297 2223
 D3
-Koridoru görüyorsun.
+Koridoru gÃ¶rÃ¼yorsun.
 ~
 ~
 1 -1 2204
 S
 #2206
 Depo~
-Odanın her tarafı toz içinde. Uzun süredir buraya kimse girmemiş gibi.
+OdanÄ±n her tarafÄ± toz iÃ§inde. Uzun sÃ¼redir buraya kimse girmemiÅŸ gibi.
 ~
 0 D 1
 D1
-Koridoru Görüyorsun.
+Koridoru GÃ¶rÃ¼yorsun.
 ~
 ~
 1 -1 2204
 D5
-Özel birşey görmüyorsun.
+Ã–zel birÅŸey gÃ¶rmÃ¼yorsun.
 ~
-kapı~
+kapÄ±~
 1 -1 2208
 E
 toz~
-Toza daha yakından bakınca bir kapının izlerini görüyorsun.
+Toza daha yakÄ±ndan bakÄ±nca bir kapÄ±nÄ±n izlerini gÃ¶rÃ¼yorsun.
 ~
 S
 #2207
 Koridorun sonu~
-Nihayet koridorun sonuna erişebildin. Büyük bir merdiven yukarı yöneliyor.
+Nihayet koridorun sonuna eriÅŸebildin. BÃ¼yÃ¼k bir merdiven yukarÄ± yÃ¶neliyor.
 ~
 0 D 0
 D2
@@ -726,7 +726,7 @@ Salon devam ediyor.
 ~
 0 -1 2204
 D4
-İkinci kat
+Ä°kinci kat
 ~
 ~
 0 -1 2210
@@ -739,234 +739,234 @@ The sign reads:
 ~
 S
 #2208
-Koruyucunun Odası~
-Çürük basamakları tırmandıktan sonra kocaman bir hidra ile karşı karşıya
-kaldın. YUKARI ne kadar hızlı tırmanabilirsin?
+Koruyucunun OdasÄ±~
+Ã‡Ã¼rÃ¼k basamaklarÄ± tÄ±rmandÄ±ktan sonra kocaman bir hidra ile karÅŸÄ± karÅŸÄ±ya
+kaldÄ±n. YUKARI ne kadar hÄ±zlÄ± tÄ±rmanabilirsin?
 ~
 0 D 1
 D2
-Gri kapıyı görüyorsun.
+Gri kapÄ±yÄ± gÃ¶rÃ¼yorsun.
 ~
-kapı gri~
+kapÄ± gri~
 1 2234 2209
 D4
-Depo odasını görüyorsun.
+Depo odasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
-kapı~
+kapÄ±~
 1 -1 2206
 S
 #2209
-Hazine Odası~
-Hidrayı geçtin ve artık buradasın. Gördüğün hazine seni şaşkına çeviriyor.
-Artık hem zenginsin hem de bu güvenli yerde dinlenebilirsin. Batı duvarında
-yakutlarla işlenmiş bir kapı var.
+Hazine OdasÄ±~
+HidrayÄ± geÃ§tin ve artÄ±k buradasÄ±n. GÃ¶rdÃ¼ÄŸÃ¼n hazine seni ÅŸaÅŸkÄ±na Ã§eviriyor.
+ArtÄ±k hem zenginsin hem de bu gÃ¼venli yerde dinlenebilirsin. BatÄ± duvarÄ±nda
+yakutlarla iÅŸlenmiÅŸ bir kapÄ± var.
 ~
 0 CD 1
 D0
-Özel birşey görmüyorsun.
+Ã–zel birÅŸey gÃ¶rmÃ¼yorsun.
 ~
-gri kapı~
+gri kapÄ±~
 1 2234 2208
 D3
-Yakut kapıyı görüyorsun.
+Yakut kapÄ±yÄ± gÃ¶rÃ¼yorsun.
 ~
-kapı yakut~
+kapÄ± yakut~
 1 2232 2218
 S
 #2210
-İkinci Kat~
-İkinci kata vardın. Üzerine atılan ve tıslayan birçok ejder adam görüyorsun.
-Burada ne kadar kalacağını merak ediyorum.
+Ä°kinci Kat~
+Ä°kinci kata vardÄ±n. Ãœzerine atÄ±lan ve tÄ±slayan birÃ§ok ejder adam gÃ¶rÃ¼yorsun.
+Burada ne kadar kalacaÄŸÄ±nÄ± merak ediyorum.
 ~
 0 D 1
 D2
-Avluyu görüyorsun.
+Avluyu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 1 2211
 D5
-Birinci katı görüyorsun.
+Birinci katÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2207
 S
 #2211
 Avlu~
-Büyük bir avluya benzeyen yerdesin. Burayı koruyan insanlar seni gördüklerine
-memnun olmadılar...
+BÃ¼yÃ¼k bir avluya benzeyen yerdesin. BurayÄ± koruyan insanlar seni gÃ¶rdÃ¼klerine
+memnun olmadÄ±lar...
 ~
 0 D 1
 D0
-Özel birşey görmüyorsun.
+Ã–zel birÅŸey gÃ¶rmÃ¼yorsun.
 ~
 ~
 0 -1 2210
 D1
-Tahta bir kapı görüyorsun.
+Tahta bir kapÄ± gÃ¶rÃ¼yorsun.
 ~
-kapı tahta~
+kapÄ± tahta~
 1 -1 2212
 D2
-Avluyu görüyorsun.
+Avluyu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2213
 S
 #2212
 Zevk Salonu~
-Bu süslü odaya girince duruyorsun. Burası kralın harem salonu.
+Bu sÃ¼slÃ¼ odaya girince duruyorsun. BurasÄ± kralÄ±n harem salonu.
 ~
 0 D 1
 D3
-Avluyu görüyorsun.
+Avluyu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2211
 S
 #2213
 Avlu~
-Salonda ilerliyorsun. Doğuda ve batıda süslü odalar var.
+Salonda ilerliyorsun. DoÄŸuda ve batÄ±da sÃ¼slÃ¼ odalar var.
 ~
 0 0 1
 D0
-Avluyu görüyorsun.
+Avluyu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2211
 D1
-Siyah kapıyı görüyorsun.
+Siyah kapÄ±yÄ± gÃ¶rÃ¼yorsun.
 ~
-kapı siyah~
+kapÄ± siyah~
 1 2240 2214
 D2
-Avluyu görüyorsun.
+Avluyu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2216
 D3
-Beyaz kapıyı görüyorsun.
+Beyaz kapÄ±yÄ± gÃ¶rÃ¼yorsun.
 ~
-kapı beyaz~
+kapÄ± beyaz~
 1 2233 2215
 S
 #2214
-Kütüphane~
-Kitaplarla dolu büyük bir odadasın. Masada barışçıl bir adam oturmuş
-çalışıyor.
+KÃ¼tÃ¼phane~
+Kitaplarla dolu bÃ¼yÃ¼k bir odadasÄ±n. Masada barÄ±ÅŸÃ§Ä±l bir adam oturmuÅŸ
+Ã§alÄ±ÅŸÄ±yor.
 ~
 0 D 1
 D3
-Avluyu görüyorsun.
+Avluyu gÃ¶rÃ¼yorsun.
 ~
-siyah kapı~
+siyah kapÄ±~
 1 2240 2213
 S
 #2215
 Kutsal Oda~
-Bu oda küçük ejderha biblolarıyla süslenmiş. Biblolar sakin ve düşüncelere
-dalmış.
+Bu oda kÃ¼Ã§Ã¼k ejderha biblolarÄ±yla sÃ¼slenmiÅŸ. Biblolar sakin ve dÃ¼ÅŸÃ¼ncelere
+dalmÄ±ÅŸ.
 ~
 0 D 1
 D1
-Avluyu görüyorsun.
+Avluyu gÃ¶rÃ¼yorsun.
 ~
-beyaz kapı~
+beyaz kapÄ±~
 1 2233 2213
 S
 #2216
 Avlu Sonu~
-Avlunun sonuna geldin. Sandalyede büyük bir ejderha oturuyor. Sen girince
-elleriyle bir hareket yapıyor ve üç korumasının saldırısına uğruyorsun.
+Avlunun sonuna geldin. Sandalyede bÃ¼yÃ¼k bir ejderha oturuyor. Sen girince
+elleriyle bir hareket yapÄ±yor ve Ã¼Ã§ korumasÄ±nÄ±n saldÄ±rÄ±sÄ±na uÄŸruyorsun.
 ~
 0 D 1
 D0
-Avluyu görüyorsun.
+Avluyu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2213
 D1
-Özel odayı görüyorsun.
+Ã–zel odayÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2217
 S
 #2217
-yatak odası~
-Burası ejder kralın kişisel odası. Boş değil.
+yatak odasÄ±~
+BurasÄ± ejder kralÄ±n kiÅŸisel odasÄ±. BoÅŸ deÄŸil.
 ~
 0 D 1
 D3
-Avuluyu görüyorsun.
+Avuluyu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2216
 S
 #2218
-Türbe Girişi~
-Ağır kertenkele kokusuyla dolmuş geniş bir odadasın. Seni neyin beklediğini
+TÃ¼rbe GiriÅŸi~
+AÄŸÄ±r kertenkele kokusuyla dolmuÅŸ geniÅŸ bir odadasÄ±n. Seni neyin beklediÄŸini
 merak ediyorsun.
 ~
 0 D 1
 D1
-Hazine odasını görüyorsun.
+Hazine odasÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
-yakut kapı~
+yakut kapÄ±~
 1 2232 2209
 D3
-Türbeyi görüyorsun.
+TÃ¼rbeyi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2219
 S
 #2219
-Türbe~
-Batıya devam eden geniş bir odadasın. Bir sürü tabut görüyorsun. Açtığında
-birşeylerin artıklarıyla karşılaşacaksın. Ağır bir kertenkele kokusu var.
+TÃ¼rbe~
+BatÄ±ya devam eden geniÅŸ bir odadasÄ±n. Bir sÃ¼rÃ¼ tabut gÃ¶rÃ¼yorsun. AÃ§tÄ±ÄŸÄ±nda
+birÅŸeylerin artÄ±klarÄ±yla karÅŸÄ±laÅŸacaksÄ±n. AÄŸÄ±r bir kertenkele kokusu var.
 ~
 0 D 1
 D1
-Girişi görüyorsun.
+GiriÅŸi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2218
 D3
-Özel birşey görmüyorsun.
+Ã–zel birÅŸey gÃ¶rmÃ¼yorsun.
 ~
 ~
 0 -1 2222
 S
 #2220
-İn~
-Beyaz Ejderha tarafından kullanılan indesin. Sana gülümsüyor. Birine
-saldırmadan önce hep böyle yapar.
+Ä°n~
+Beyaz Ejderha tarafÄ±ndan kullanÄ±lan indesin. Sana gÃ¼lÃ¼msÃ¼yor. Birine
+saldÄ±rmadan Ã¶nce hep bÃ¶yle yapar.
 ~
 0 D 1
 D2
-Mağara Girişi
+MaÄŸara GiriÅŸi
 ~
 ~
 0 0 2235
 S
 #2221
-İn~
-Kara ejderha tarafından kullanılan geniş bir odaya girdin. Senin gelişinle
-buralar şenlenebilir.
+Ä°n~
+Kara ejderha tarafÄ±ndan kullanÄ±lan geniÅŸ bir odaya girdin. Senin geliÅŸinle
+buralar ÅŸenlenebilir.
 ~
 0 D 1
 D0
-Mağara girişi
+MaÄŸara giriÅŸi
 ~
 ~
 0 0 2241
 S
 #2222
-Türbe Sonu~
-Türbenin sonuna geldin. Buralar terkedilmiş. Duvarın önünde duran garip bir
+TÃ¼rbe Sonu~
+TÃ¼rbenin sonuna geldin. Buralar terkedilmiÅŸ. DuvarÄ±n Ã¶nÃ¼nde duran garip bir
 tabut var.
 ~
 0 D 1
 D1
-Türbeyi görüyorsun.
+TÃ¼rbeyi gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2219
@@ -977,14 +977,14 @@ tabut~
 1 0 2232
 E
 tabut~
-Batı duvarının önündeki tabur. Kapalı.
+BatÄ± duvarÄ±nÄ±n Ã¶nÃ¼ndeki tabur. KapalÄ±.
 ~
 S
 #2223
-Büyük Salon Girişi~
-Büyük bir salona girdin. Duvarlarda insanlarla ejderhalar arasındaki büyük
-bir savaşı anlatan duvar halıları var. Görünüşe göre kazanan ejderhalar
-olmuş.
+BÃ¼yÃ¼k Salon GiriÅŸi~
+BÃ¼yÃ¼k bir salona girdin. Duvarlarda insanlarla ejderhalar arasÄ±ndaki bÃ¼yÃ¼k
+bir savaÅŸÄ± anlatan duvar halÄ±larÄ± var. GÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re kazanan ejderhalar
+olmuÅŸ.
 ~
 0 D 1
 D1
@@ -993,23 +993,23 @@ Salon devam ediyor.
 ~
 0 -1 2224
 D3
-Reviri görüyorsun.
+Reviri gÃ¶rÃ¼yorsun.
 ~
-kapı taş~
+kapÄ± taÅŸ~
 1 2297 2205
 S
 #2224
-Büyük Salon~
-Kuzeyde dar bir pasaj görüyorsun, büyük salonsa doğuya devam ediyor.
+BÃ¼yÃ¼k Salon~
+Kuzeyde dar bir pasaj gÃ¶rÃ¼yorsun, bÃ¼yÃ¼k salonsa doÄŸuya devam ediyor.
 ~
 0 D 1
 D0
-Dar pasajı görüyorsun.
+Dar pasajÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2225
 D1
-Salonu görüyorsun.
+Salonu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2229
@@ -1020,21 +1020,21 @@ Bu dar pasaj bir yere gidiyor ama nereye? ? ! !
 ~
 0 D 1
 D0
-Büyük bir in görüyorsun. Teklikeli bir in ! ! !
+BÃ¼yÃ¼k bir in gÃ¶rÃ¼yorsun. Teklikeli bir in ! ! !
 ~
 ~
 0 -1 2226
 D2
-Büyük salonu görüyorsun.
+BÃ¼yÃ¼k salonu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2224
 S
 #2226
-İn~
-Etrafa kemiklerin dağılmış olduğu büyük bir ine girdin. Bu kemiklerin sırrını
-Kızıl Ejderha ile göz göze gelince çözüyorsun. Ne yazık, belki de bu çözdüğün
-son sır olacak. Aşağıda bir kapı var.
+Ä°n~
+Etrafa kemiklerin daÄŸÄ±lmÄ±ÅŸ olduÄŸu bÃ¼yÃ¼k bir ine girdin. Bu kemiklerin sÄ±rrÄ±nÄ±
+KÄ±zÄ±l Ejderha ile gÃ¶z gÃ¶ze gelince Ã§Ã¶zÃ¼yorsun. Ne yazÄ±k, belki de bu Ã§Ã¶zdÃ¼ÄŸÃ¼n
+son sÄ±r olacak. AÅŸaÄŸÄ±da bir kapÄ± var.
 ~
 0 D 1
 D2
@@ -1043,52 +1043,52 @@ Dar Pasaj
 ~
 0 -1 2225
 D5
-Kapıyı görüyorsun.
+KapÄ±yÄ± gÃ¶rÃ¼yorsun.
 ~
-kapı~
+kapÄ±~
 1 -1 2227
 S
 #2227
-Yeraltı Tüneli~
-Bir yeraltı tüneline girdin. Burası oldukça karanlık ve pis. Selenge'da
+YeraltÄ± TÃ¼neli~
+Bir yeraltÄ± tÃ¼neline girdin. BurasÄ± oldukÃ§a karanlÄ±k ve pis. Selenge'da
 bir barda olmak isterdin.
 ~
 0 AD 2
 D0
-Tüneli görüyorsun.
+TÃ¼neli gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2228
 D4
-Kızıl Ejderha'nın inini görüyorsun.
+KÄ±zÄ±l Ejderha'nÄ±n inini gÃ¶rÃ¼yorsun.
 ~
-kapı~
+kapÄ±~
 1 -1 2226
 S
 #2228
-Yeraltı Tüneli~
-Bu tünel ölümcül bir sona gidiyor. Tuzağa düşmekten korkuyorsun.
+YeraltÄ± TÃ¼neli~
+Bu tÃ¼nel Ã¶lÃ¼mcÃ¼l bir sona gidiyor. TuzaÄŸa dÃ¼ÅŸmekten korkuyorsun.
 ~
 0 ACD 2
 D2
-Tüneli görüyorsun.
+TÃ¼neli gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2227
 S
 #2229
-Büyük Salonun Sonu~
-Büyük salonun sonuna geldin. Önünde büyük altın bir kapı görüyorsun. Üzerinde
-güzel ejderha işlemeleri var.
+BÃ¼yÃ¼k Salonun Sonu~
+BÃ¼yÃ¼k salonun sonuna geldin. Ã–nÃ¼nde bÃ¼yÃ¼k altÄ±n bir kapÄ± gÃ¶rÃ¼yorsun. Ãœzerinde
+gÃ¼zel ejderha iÅŸlemeleri var.
 ~
 0 D 1
 D1
-Altın kapıyı görüyorsun.
+AltÄ±n kapÄ±yÄ± gÃ¶rÃ¼yorsun.
 ~
-kapı altın~
+kapÄ± altÄ±n~
 1 2299 2230
 D3
-Salonu görüyorsun.
+Salonu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 2224
@@ -1100,55 +1100,55 @@ Congratulations on making it this far!  Watch out, it gets a little
 S
 #2230
 EJDER ini~
-Dev bir ine girdin. Burada büyük bir şey ya yaşıyor ya da yaşamış. Batıda
-altın bir kapı var.
+Dev bir ine girdin. Burada bÃ¼yÃ¼k bir ÅŸey ya yaÅŸÄ±yor ya da yaÅŸamÄ±ÅŸ. BatÄ±da
+altÄ±n bir kapÄ± var.
 ~
 0 D 2
 D3
-Altın kapıyı görüyorsun.
+AltÄ±n kapÄ±yÄ± gÃ¶rÃ¼yorsun.
 ~
-kapı altın~
+kapÄ± altÄ±n~
 1 2299 2229
 S
 #2231
 Son.....~
-Son hayvan inine eriştin. Burayı beş başlı dev bir ejderha kullanıyor. Birden
-ÇOK CİDDİ problemlerin olduğunu farkediyorsun....
+Son hayvan inine eriÅŸtin. BurayÄ± beÅŸ baÅŸlÄ± dev bir ejderha kullanÄ±yor. Birden
+Ã‡OK CÄ°DDÄ° problemlerin olduÄŸunu farkediyorsun....
 ~
 0 D 2
 D2
-Dağın zirvesini görüyorsun.
+DaÄŸÄ±n zirvesini gÃ¶rÃ¼yorsun.
 ~
 ~
 2 2241 2243
 S
 #2232
 Merdiven~
-Bu şarap mahzenine giden eskimiş bir merdiven. Onyıllardır kullanılmamış
-görünüyor. Uzun bir süredir buraları ilk gören olmanın gururunu yaşıyorsun.
-Yaşayan birşeylerin olmadığını bilmek bir güven duygusu veriyor.
+Bu ÅŸarap mahzenine giden eskimiÅŸ bir merdiven. OnyÄ±llardÄ±r kullanÄ±lmamÄ±ÅŸ
+gÃ¶rÃ¼nÃ¼yor. Uzun bir sÃ¼redir buralarÄ± ilk gÃ¶ren olmanÄ±n gururunu yaÅŸÄ±yorsun.
+YaÅŸayan birÅŸeylerin olmadÄ±ÄŸÄ±nÄ± bilmek bir gÃ¼ven duygusu veriyor.
 ~
 0 D 2
 D1
-Türbe
+TÃ¼rbe
 ~
 ~
 0 0 2222
 D5
-Şarap mahzeni
+Åarap mahzeni
 ~
 ~
 0 0 2233
 S
 #2233
-Şarap Mahzeni~
-Burası Ejder Kulesi'nin eski şarap mahzeni. Raflar boş. Uzun zamandır burada
-yaşayan olmamış. Doğuya doğru tünel devam ediyor ve çocuğum, o taraf çürümüş
+Åarap Mahzeni~
+BurasÄ± Ejder Kulesi'nin eski ÅŸarap mahzeni. Raflar boÅŸ. Uzun zamandÄ±r burada
+yaÅŸayan olmamÄ±ÅŸ. DoÄŸuya doÄŸru tÃ¼nel devam ediyor ve Ã§ocuÄŸum, o taraf Ã§Ã¼rÃ¼mÃ¼ÅŸ
 ceset kokuyor.
 ~
 0 A 2
 D1
-Tünel
+TÃ¼nel
 ~
 ~
 0 0 2234
@@ -1159,34 +1159,34 @@ Merdiven
 0 0 2232
 S
 #2234
-Tünel~
-Bu tünel millerce ilerliyor. Ucunu görmeye çalışıyorsun fakat gözlerin bu
-arayıştan yorgun düşüyor. Kokunun yoğunluğu ikiye katlandı. Tünel doğuya
-devam ediyor. Batıda ise bir şarap mahzeni var.
+TÃ¼nel~
+Bu tÃ¼nel millerce ilerliyor. Ucunu gÃ¶rmeye Ã§alÄ±ÅŸÄ±yorsun fakat gÃ¶zlerin bu
+arayÄ±ÅŸtan yorgun dÃ¼ÅŸÃ¼yor. Kokunun yoÄŸunluÄŸu ikiye katlandÄ±. TÃ¼nel doÄŸuya
+devam ediyor. BatÄ±da ise bir ÅŸarap mahzeni var.
 ~
 0 AI 2
 D0
-Bir mağara girişi
+Bir maÄŸara giriÅŸi
 ~
 ~
 0 0 2235
 D1
-Tünel
+TÃ¼nel
 ~
 ~
 0 0 2236
 D3
-Tünel
+TÃ¼nel
 ~
 ~
 0 0 2233
 S
 #2235
-Bir Mağara Girişi~
-Dev bir mağara girişinin önündesin. Etrafa dağılmış kemikler görüyorsun.
-Kimi insan kemiği, kimi ise ayırt edilemiyor. Buraya gelen ilk gezgin sen
-değilsin anlaşılan. İçerden gelen koku berbat. Kuzeyinde mağara ve içerde
-hareket eden birşeyin sesi geliyor. Tünel güneyde.
+Bir MaÄŸara GiriÅŸi~
+Dev bir maÄŸara giriÅŸinin Ã¶nÃ¼ndesin. Etrafa daÄŸÄ±lmÄ±ÅŸ kemikler gÃ¶rÃ¼yorsun.
+Kimi insan kemiÄŸi, kimi ise ayÄ±rt edilemiyor. Buraya gelen ilk gezgin sen
+deÄŸilsin anlaÅŸÄ±lan. Ä°Ã§erden gelen koku berbat. Kuzeyinde maÄŸara ve iÃ§erde
+hareket eden birÅŸeyin sesi geliyor. TÃ¼nel gÃ¼neyde.
 ~
 0 AI 2
 D0
@@ -1195,77 +1195,77 @@ Hayvan ini
 ~
 0 0 2220
 D2
-Tünel
+TÃ¼nel
 ~
 ~
 0 0 2234
 S
 #2236
-Tünelin Sonu~
-İşte, tünelin sonundasın. Batıda miller boyunca ilerleyen tüneli görüyorsun.
-Üzerinde hafifçe seçebildiğin bir kapı var ki girmeni önermem. Güneyde ise
-bir köprü görüyorsun.
+TÃ¼nelin Sonu~
+Ä°ÅŸte, tÃ¼nelin sonundasÄ±n. BatÄ±da miller boyunca ilerleyen tÃ¼neli gÃ¶rÃ¼yorsun.
+Ãœzerinde hafifÃ§e seÃ§ebildiÄŸin bir kapÄ± var ki girmeni Ã¶nermem. GÃ¼neyde ise
+bir kÃ¶prÃ¼ gÃ¶rÃ¼yorsun.
 ~
 0 AI 2
 D2
-Köprü
+KÃ¶prÃ¼
 ~
 ~
 0 0 2237
 D3
-Tünel
+TÃ¼nel
 ~
 ~
 0 0 2234
 D4
-Kapı
+KapÄ±
 ~
 ~
 0 0 2202
 S
 #2237
-Köprü~
-Eski bir tahta köprüdesin. Sağlam görümüyor, acele etmelisin. Güneyde,
-köprünün diğer tarafında, küçük bir açık alan var.
+KÃ¶prÃ¼~
+Eski bir tahta kÃ¶prÃ¼desin. SaÄŸlam gÃ¶rÃ¼mÃ¼yor, acele etmelisin. GÃ¼neyde,
+kÃ¶prÃ¼nÃ¼n diÄŸer tarafÄ±nda, kÃ¼Ã§Ã¼k bir aÃ§Ä±k alan var.
 ~
 0 AD 2
 D0
-Tünel sonu
+TÃ¼nel sonu
 ~
 ~
 0 0 2236
 D2
-Küçük açık alan
+KÃ¼Ã§Ã¼k aÃ§Ä±k alan
 ~
 ~
 0 0 2238
 S
 #2238
-Küçük Açık Alan~
-Küçük bir açık alandasın. Kuzeyinde eski tahta köprü var. Güneyinde açık
-alanı görüyorsun. Evet, tekrar gün ışığıyla buluştun! Ne güzel bir duygu!
+KÃ¼Ã§Ã¼k AÃ§Ä±k Alan~
+KÃ¼Ã§Ã¼k bir aÃ§Ä±k alandasÄ±n. Kuzeyinde eski tahta kÃ¶prÃ¼ var. GÃ¼neyinde aÃ§Ä±k
+alanÄ± gÃ¶rÃ¼yorsun. Evet, tekrar gÃ¼n Ä±ÅŸÄ±ÄŸÄ±yla buluÅŸtun! Ne gÃ¼zel bir duygu!
 ~
 0 AD 2
 D0
-Köprü
+KÃ¶prÃ¼
 ~
 ~
 0 0 2237
 D2
-Açık Alan
+AÃ§Ä±k Alan
 ~
 ~
 0 0 2239
 S
 #2239
-Açık Alan~
-Açık bir alandasın. Etrafında dağlar var. Açıklığın ortasında bir kuyu
-görüyorsun. Kuyunun önündeyse bir işaret var. Bir patika dağa doğru çıkıyor.
-Kuzeyde küçük bir açık alan var.
+AÃ§Ä±k Alan~
+AÃ§Ä±k bir alandasÄ±n. EtrafÄ±nda daÄŸlar var. AÃ§Ä±klÄ±ÄŸÄ±n ortasÄ±nda bir kuyu
+gÃ¶rÃ¼yorsun. Kuyunun Ã¶nÃ¼ndeyse bir iÅŸaret var. Bir patika daÄŸa doÄŸru Ã§Ä±kÄ±yor.
+Kuzeyde kÃ¼Ã§Ã¼k bir aÃ§Ä±k alan var.
 ~
 0 0 2
 D0
-Küçük açık alan
+KÃ¼Ã§Ã¼k aÃ§Ä±k alan
 ~
 ~
 0 0 2238
@@ -1280,24 +1280,24 @@ Kuyu
 ~
 0 0 2244
 E
-işaret~
-'Bu kuyu dipsizdir. Buraya düşenlerden bir daha haber alınamamıştır. İnan
-aşağı inmek istemezsin. ' -Jai
+iÅŸaret~
+'Bu kuyu dipsizdir. Buraya dÃ¼ÅŸenlerden bir daha haber alÄ±namamÄ±ÅŸtÄ±r. Ä°nan
+aÅŸaÄŸÄ± inmek istemezsin. ' -Jai
 ~
 E
 kuyu~
-Kuyu ÇOK DERİN görünüyor! Sonu yok gibi!
+Kuyu Ã‡OK DERÄ°N gÃ¶rÃ¼nÃ¼yor! Sonu yok gibi!
 ~
 S
 #2240
 Bir Patika~
-Bu patika dağın yamacından yukarı tırmanıyor. Altında açık bir alan var.
-Batıda bir mağara girişi duruyor. Patika yukarı, dağın tepesine doğru devam
+Bu patika daÄŸÄ±n yamacÄ±ndan yukarÄ± tÄ±rmanÄ±yor. AltÄ±nda aÃ§Ä±k bir alan var.
+BatÄ±da bir maÄŸara giriÅŸi duruyor. Patika yukarÄ±, daÄŸÄ±n tepesine doÄŸru devam
 ediyor.
 ~
 0 0 2
 D3
-Mağara girişi
+MaÄŸara giriÅŸi
 ~
 ~
 0 0 2241
@@ -1307,16 +1307,16 @@ Patika devam ediyor.
 ~
 0 0 2242
 D5
-Açık Alan
+AÃ§Ä±k Alan
 ~
 ~
 0 0 2239
 S
 #2241
-Bir mağara girişi~
-Büyük bir mağaranın girişinde duruyorsun. Derin nefes alışların sesi geliyor
-kulağına. Etrafta yatan birkaç iskelet var. Mağara güneyinde kalıyor. Patika
-ise doğuya devam ediyor.
+Bir maÄŸara giriÅŸi~
+BÃ¼yÃ¼k bir maÄŸaranÄ±n giriÅŸinde duruyorsun. Derin nefes alÄ±ÅŸlarÄ±n sesi geliyor
+kulaÄŸÄ±na. Etrafta yatan birkaÃ§ iskelet var. MaÄŸara gÃ¼neyinde kalÄ±yor. Patika
+ise doÄŸuya devam ediyor.
 ~
 0 0 2
 D1
@@ -1332,12 +1332,12 @@ Bir in
 S
 #2242
 Patika devam ediyor~
-Patika yukarı, dağın zirvesine doğru devam ediyor. Patika aynı zamanda
-aşağı da devam ediyor. Başka da birşey görmüyorsun.
+Patika yukarÄ±, daÄŸÄ±n zirvesine doÄŸru devam ediyor. Patika aynÄ± zamanda
+aÅŸaÄŸÄ± da devam ediyor. BaÅŸka da birÅŸey gÃ¶rmÃ¼yorsun.
 ~
 0 0 2
 D4
-Dağın Zirvesi
+DaÄŸÄ±n Zirvesi
 ~
 ~
 0 0 2243
@@ -1348,20 +1348,20 @@ Patika
 0 0 2240
 S
 #2243
-Dağın Zirvesi~
-Dağın zirvesindesin. Burası dünyanın zirvesi gibi. Kuzeyinde büyük platin
-bir kapı var. Kapının ardından gelen güçlü homurtular duyuyorsun. Büyük ve
-aç birşeyin sesleri bunlar. Fakat eğer anahtarın yoksa korkacak birşey yok,
-zaten içeri giremezsin. Anahtarı bulmayı düşünüyorsan, sana yapmamanı
-öneririm. İnsanlar beş kafalı ejderha Taimat'ın buraya Tanrılar tarafından
-hapsedildiğini söylerler. Fakat kim inanır ki böyle eski hikayelere? Eğer
-korktuysan aşağıya inip dağa geri dönebilirsin.
+DaÄŸÄ±n Zirvesi~
+DaÄŸÄ±n zirvesindesin. BurasÄ± dÃ¼nyanÄ±n zirvesi gibi. Kuzeyinde bÃ¼yÃ¼k platin
+bir kapÄ± var. KapÄ±nÄ±n ardÄ±ndan gelen gÃ¼Ã§lÃ¼ homurtular duyuyorsun. BÃ¼yÃ¼k ve
+aÃ§ birÅŸeyin sesleri bunlar. Fakat eÄŸer anahtarÄ±n yoksa korkacak birÅŸey yok,
+zaten iÃ§eri giremezsin. AnahtarÄ± bulmayÄ± dÃ¼ÅŸÃ¼nÃ¼yorsan, sana yapmamanÄ±
+Ã¶neririm. Ä°nsanlar beÅŸ kafalÄ± ejderha Taimat'Ä±n buraya TanrÄ±lar tarafÄ±ndan
+hapsedildiÄŸini sÃ¶ylerler. Fakat kim inanÄ±r ki bÃ¶yle eski hikayelere? EÄŸer
+korktuysan aÅŸaÄŸÄ±ya inip daÄŸa geri dÃ¶nebilirsin.
 ~
 0 0 2
 D0
-Platin Kapı
+Platin KapÄ±
 ~
-kapı platin~
+kapÄ± platin~
 1 2241 2231
 D5
 Patika devam ediyor.
@@ -1369,15 +1369,15 @@ Patika devam ediyor.
 ~
 0 0 2242
 E
-platin kapı~
-Büyük bir platin kapı seni koruyor.
+platin kapÄ±~
+BÃ¼yÃ¼k bir platin kapÄ± seni koruyor.
 ~
 S
 #2244
 Kuyu~
-Yo Hayır ! Seni uyarmıştım ! Dipsiz bir kuyuya düştün. Hayatın gözlerinin
-önünden geçiyor. Oldukça acıklı değil mi? Artık Kahkaha Tanrısı'nı dinlemeyi
-öğrenirsin herhalde...
+Yo HayÄ±r ! Seni uyarmÄ±ÅŸtÄ±m ! Dipsiz bir kuyuya dÃ¼ÅŸtÃ¼n. HayatÄ±n gÃ¶zlerinin
+Ã¶nÃ¼nden geÃ§iyor. OldukÃ§a acÄ±klÄ± deÄŸil mi? ArtÄ±k Kahkaha TanrÄ±sÄ±'nÄ± dinlemeyi
+Ã¶ÄŸrenirsin herhalde...
 ~
 0 BC 0
 S

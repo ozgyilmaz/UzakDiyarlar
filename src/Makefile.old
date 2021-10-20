@@ -2,7 +2,7 @@ CC      = g++
 PROF    = -O -g
 NOCRYPT =
 C_FLAGS = -Wall $(PROF) $(NOCRYPT)
-L_FLAGS =  $(PROF)
+L_FLAGS =  $(PROF) -DUNICODE
 
 O_FILES = act_comm.o act_hera.o act_info.o act_move.o act_obj.o act_wiz.o ban.o \
           comm.o const.o data.c db.o db2.o dilek.o effects.o ek.o ek2.o fight.o flags.o \

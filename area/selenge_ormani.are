@@ -1,9 +1,9 @@
 #AREADATA
 Filename selenge_ormani.are~
-Name Selenge Ormanı~
+Name Selenge OrmanÄ±~
 Builder Jai~
 Translator ~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 5
 Highlevel 15
 Minvnum 9400
@@ -16,55 +16,55 @@ END
 
 #NEW_MOBILES
 #9401
-ziyaretçi~
-ziyaretçi~
-Ormanı gezmeye gelmiş bir ziyaretçi burada.
+ziyaretÃ§i~
+ziyaretÃ§i~
+OrmanÄ± gezmeye gelmiÅŸ bir ziyaretÃ§i burada.
 ~
-Ormanda dolaşmaktan zevk aldığı bakışlarından
+Ormanda dolaÅŸmaktan zevk aldÄ±ÄŸÄ± bakÄ±ÅŸlarÄ±ndan
 belli. Seni farketmedi bile.
 ~
 human~
 ABG 0 8
 
 #9402
-ziyaretçi~
-ziyaretçi~
-Ormanı gezmeye gelmiş bir ziyaretçi burada.
+ziyaretÃ§i~
+ziyaretÃ§i~
+OrmanÄ± gezmeye gelmiÅŸ bir ziyaretÃ§i burada.
 ~
-Ormanda dolaşmaktan zevk aldığı bakışlarından
+Ormanda dolaÅŸmaktan zevk aldÄ±ÄŸÄ± bakÄ±ÅŸlarÄ±ndan
 belli. Seni farketti.
 ~
 human~
 ABGT DVc 8
 
 #9403
-ziyaretçi~
-ziyaretçi~
-Ormanı gezmeye gelmiş bir ziyaretçi burada.
+ziyaretÃ§i~
+ziyaretÃ§i~
+OrmanÄ± gezmeye gelmiÅŸ bir ziyaretÃ§i burada.
 ~
-Ormanda dolaşmaktan zevk aldığı bakışlarından
+Ormanda dolaÅŸmaktan zevk aldÄ±ÄŸÄ± bakÄ±ÅŸlarÄ±ndan
 belli. Seni farketti.
 ~
 human~
 ABGS DVc 8
 
 #9404
-ziyaretçi~
-kaybolmuş ziyaretçi~
-Ormanda yolunu kaybetmiş bir ziyaretçi burada.
+ziyaretÃ§i~
+kaybolmuÅŸ ziyaretÃ§i~
+Ormanda yolunu kaybetmiÅŸ bir ziyaretÃ§i burada.
 ~
-Kaybolmak onu korkutmuş.
+Kaybolmak onu korkutmuÅŸ.
 ~
 human~
 ABGH 0 8
 
 #9405
-bekçi~
-orman bekçisi~
-Ormana bekçilik yapan adam burada.
+bekÃ§i~
+orman bekÃ§isi~
+Ormana bekÃ§ilik yapan adam burada.
 ~
-Bu yaşlı adam ormanın eskilerinden. Kim bilir neler biliyor
-ormanın karanlık yüzü hakkında.
+Bu yaÅŸlÄ± adam ormanÄ±n eskilerinden. Kim bilir neler biliyor
+ormanÄ±n karanlÄ±k yÃ¼zÃ¼ hakkÄ±nda.
 ~
 human~
 AGR CDEFGHc 14
@@ -72,10 +72,10 @@ AGR CDEFGHc 14
 #9406
 sansar~
 sansar~
-Bir sansar hastalıklı gözleriyle sana bakıyor.
+Bir sansar hastalÄ±klÄ± gÃ¶zleriyle sana bakÄ±yor.
 ~
-Bir sansar görüyorsun. Hastalığı gözlerine kadar ilerlemiş.
-Yoksa saldıracak birini mi arıyor?!!
+Bir sansar gÃ¶rÃ¼yorsun. HastalÄ±ÄŸÄ± gÃ¶zlerine kadar ilerlemiÅŸ.
+Yoksa saldÄ±racak birini mi arÄ±yor?!!
 ~
 fido~
 AFGH ZV 6
@@ -83,30 +83,30 @@ AFGH ZV 6
 #9407
 tilki~
 tilki~
-Bir tilki hastalıklı gözleriyle sana bakıyor.
+Bir tilki hastalÄ±klÄ± gÃ¶zleriyle sana bakÄ±yor.
 ~
-Bir tilki görüyorsun. Hastalığı gözlerine kadar ilerlemiş.
-Yoksa saldıracak birini mi arıyor?!!
+Bir tilki gÃ¶rÃ¼yorsun. HastalÄ±ÄŸÄ± gÃ¶zlerine kadar ilerlemiÅŸ.
+Yoksa saldÄ±racak birini mi arÄ±yor?!!
 ~
 fox~
 AFGH ZV 4
 
 #9408
-gölge~
-lanetli gölge~
-Bir gölge SENİ izliyor.
+gÃ¶lge~
+lanetli gÃ¶lge~
+Bir gÃ¶lge SENÄ° izliyor.
 ~
-Simsiyah bir gölge.
+Simsiyah bir gÃ¶lge.
 ~
 human~
 AGT ZV 14
 
 #9409
-sarhoş~
-Sarhoş~
-Sarhoşun biri burada, dans etmeye çalışıyor.
+sarhoÅŸ~
+SarhoÅŸ~
+SarhoÅŸun biri burada, dans etmeye Ã§alÄ±ÅŸÄ±yor.
 ~
-Ormanı meyhane olarak kullananlardan...
+OrmanÄ± meyhane olarak kullananlardan...
 ~
 human~
 ACGH 0 4
@@ -114,38 +114,38 @@ ACGH 0 4
 #9410
 serseri~
 serseri~
-Serserinin biri burada, ağaca birşeyler kazıyor.
+Serserinin biri burada, aÄŸaca birÅŸeyler kazÄ±yor.
 ~
-Seni faketmemiş gibi davranan bu serseriye dikkat
+Seni faketmemiÅŸ gibi davranan bu serseriye dikkat
 etmelisin.
 ~
 drow~
 AGS PV 9
 
 #9411
-sürüngen~
-sürüngen~
-Bir sürüngen görüyorsun, gözlerindeki lanet seni şaşırtıyor.
+sÃ¼rÃ¼ngen~
+sÃ¼rÃ¼ngen~
+Bir sÃ¼rÃ¼ngen gÃ¶rÃ¼yorsun, gÃ¶zlerindeki lanet seni ÅŸaÅŸÄ±rtÄ±yor.
 ~
-O da karanlıktan etkilenenlerden.
+O da karanlÄ±ktan etkilenenlerden.
 ~
 snake~
 ABC 0 4
 
 #9412
-işçi orman~
-orman işçisi~
-Bir orman işçisi burada, elindeki kazmayla çalışıyor.
+iÅŸÃ§i orman~
+orman iÅŸÃ§isi~
+Bir orman iÅŸÃ§isi burada, elindeki kazmayla Ã§alÄ±ÅŸÄ±yor.
 ~
-Oldukça yorgun görünüyor.
+OldukÃ§a yorgun gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 AGHT 0 6
 
 #9413
-işçi orman~
-orman işçisi~
-Bir orman işçisi burada, ağacın dibinde uyuyakalmış.
+iÅŸÃ§i orman~
+orman iÅŸÃ§isi~
+Bir orman iÅŸÃ§isi burada, aÄŸacÄ±n dibinde uyuyakalmÄ±ÅŸ.
 ~
 Horluyor.
 ~
@@ -153,12 +153,12 @@ human~
 ABHT 0 7
 
 #9414
-baykuş~
-baykuş~
-Bir baykuş görüyorsun, dalın üzerinden seni seyrediyor.
+baykuÅŸ~
+baykuÅŸ~
+Bir baykuÅŸ gÃ¶rÃ¼yorsun, dalÄ±n Ã¼zerinden seni seyrediyor.
 ~
-Orman kadar yaşlı olsa gerek. Gözleri buranın hikayesini
-bilirmiş gibi bakıyor.
+Orman kadar yaÅŸlÄ± olsa gerek. GÃ¶zleri buranÄ±n hikayesini
+bilirmiÅŸ gibi bakÄ±yor.
 ~
 song bird~
 AGR DFHTc 38
@@ -166,33 +166,33 @@ AGR DFHTc 38
 
 #OBJECTS
 #9401
-mermer heykelli çeşme~
-mermer heykelli çeşme~
-Heykelli bir mermer çeşme görüyorsun.~
+mermer heykelli Ã§eÅŸme~
+mermer heykelli Ã§eÅŸme~
+Heykelli bir mermer Ã§eÅŸme gÃ¶rÃ¼yorsun.~
 marble~
 fountain 0 0
 100000 100000 'water' 0 0
 0 0 0 G
 E
-çeşme mermer~
-Karanlığın içinde suyu tertemiz bir çeşme.
+Ã§eÅŸme mermer~
+KaranlÄ±ÄŸÄ±n iÃ§inde suyu tertemiz bir Ã§eÅŸme.
 ~
 #9402
-bakır çeşme~
-bir bakır çeşme~
-Büyük bir bakır çeşme görüyorsun.~
+bakÄ±r Ã§eÅŸme~
+bir bakÄ±r Ã§eÅŸme~
+BÃ¼yÃ¼k bir bakÄ±r Ã§eÅŸme gÃ¶rÃ¼yorsun.~
 copper~
 fountain 0 0
 100000 100000 'water' 0 0
 0 0 0 G
 E
-çeşme bakır~
-Selenge Beyi'nin ziyaretçiler için yaptırdığı bir çeşme.
+Ã§eÅŸme bakÄ±r~
+Selenge Beyi'nin ziyaretÃ§iler iÃ§in yaptÄ±rdÄ±ÄŸÄ± bir Ã§eÅŸme.
 ~
 #9403
-çakı~
-bir çakı~
-Bir çakı yerde yeni sahibini bekliyor.~
+Ã§akÄ±~
+bir Ã§akÄ±~
+Bir Ã§akÄ± yerde yeni sahibini bekliyor.~
 iron~
 weapon U AN
 dagger 1 4 pierce 0
@@ -200,13 +200,13 @@ dagger 1 4 pierce 0
 A
 18 1
 E
-çakı~
-Kalitesiz birşeye benziyor.
+Ã§akÄ±~
+Kalitesiz birÅŸeye benziyor.
 ~
 #9404
-gümüş kılıç~
-bir gümüş kılıç~
-Yerde gümüş bir kılıç görüyorsun.~
+gÃ¼mÃ¼ÅŸ kÄ±lÄ±Ã§~
+bir gÃ¼mÃ¼ÅŸ kÄ±lÄ±Ã§~
+Yerde gÃ¼mÃ¼ÅŸ bir kÄ±lÄ±Ã§ gÃ¶rÃ¼yorsun.~
 silver~
 weapon U AN
 sword 1 6 slash 0
@@ -214,13 +214,13 @@ sword 1 6 slash 0
 A
 18 1
 E
-kılıç~
-Kalitesiz birşeye benziyor.
+kÄ±lÄ±Ã§~
+Kalitesiz birÅŸeye benziyor.
 ~
 #9405
-gümüş kama~
-bir gümüş kama~
-Yerde gümüş bir kama görüyorsun.~
+gÃ¼mÃ¼ÅŸ kama~
+bir gÃ¼mÃ¼ÅŸ kama~
+Yerde gÃ¼mÃ¼ÅŸ bir kama gÃ¶rÃ¼yorsun.~
 silver~
 weapon U AN
 dagger 1 4 pierce 0
@@ -229,17 +229,17 @@ A
 18 1
 E
 kama~
-Kalitesiz birşeye benziyor.
+Kalitesiz birÅŸeye benziyor.
 ~
 #0
 
 #ROOMS
 #9400
-Selenge Ormanı~
-Selenge şehrinin batısında kalan ormanın girişindesin.
-Yüksek ağaçlar güneş ışığının bir kısmını emiyorlar. Toprak yağan
-yağmurlarla her zaman yumuşak ve verimli. Ormanın batı bölümünde
-ağaçların arasında geniş aralıklar bulunuyor.
+Selenge OrmanÄ±~
+Selenge ÅŸehrinin batÄ±sÄ±nda kalan ormanÄ±n giriÅŸindesin.
+YÃ¼ksek aÄŸaÃ§lar gÃ¼neÅŸ Ä±ÅŸÄ±ÄŸÄ±nÄ±n bir kÄ±smÄ±nÄ± emiyorlar. Toprak yaÄŸan
+yaÄŸmurlarla her zaman yumuÅŸak ve verimli. OrmanÄ±n batÄ± bÃ¶lÃ¼mÃ¼nde
+aÄŸaÃ§larÄ±n arasÄ±nda geniÅŸ aralÄ±klar bulunuyor.
 ~
 0 0 3
 D1
@@ -252,15 +252,15 @@ D3
 0 0 3047
 S
 #9401
-Selenge Ormanı~
-     Söylendiğine göre ormanın ilk fidanları yaklaşık üç yüzyıl önce
-dikilmiş. Daha sonra gelen efendiler de buranın bakımını hiç ihmal
-etmemişler. Kitaplarda da isminden bahsedilen bir büyücü üç yüzyıl
-önce, orman henüz batıya doğru yayılmamışken, ağaçların daha hızlı
-gelişmeleri için efendisinin isteği üzerine büyüler yapmış ormana.
-Büyülerin ardından ağaçlar hızla büyümüşler. Bunun üzerine de efendi
-ormana büyücünün bir heykelini diktirmiş. Yaşlı büyücü Haman birkaç
-yıl sonra Thalos'a yaptığı gezide hayatını kaybetmiş.
+Selenge OrmanÄ±~
+     SÃ¶ylendiÄŸine gÃ¶re ormanÄ±n ilk fidanlarÄ± yaklaÅŸÄ±k Ã¼Ã§ yÃ¼zyÄ±l Ã¶nce
+dikilmiÅŸ. Daha sonra gelen efendiler de buranÄ±n bakÄ±mÄ±nÄ± hiÃ§ ihmal
+etmemiÅŸler. Kitaplarda da isminden bahsedilen bir bÃ¼yÃ¼cÃ¼ Ã¼Ã§ yÃ¼zyÄ±l
+Ã¶nce, orman henÃ¼z batÄ±ya doÄŸru yayÄ±lmamÄ±ÅŸken, aÄŸaÃ§larÄ±n daha hÄ±zlÄ±
+geliÅŸmeleri iÃ§in efendisinin isteÄŸi Ã¼zerine bÃ¼yÃ¼ler yapmÄ±ÅŸ ormana.
+BÃ¼yÃ¼lerin ardÄ±ndan aÄŸaÃ§lar hÄ±zla bÃ¼yÃ¼mÃ¼ÅŸler. Bunun Ã¼zerine de efendi
+ormana bÃ¼yÃ¼cÃ¼nÃ¼n bir heykelini diktirmiÅŸ. YaÅŸlÄ± bÃ¼yÃ¼cÃ¼ Haman birkaÃ§
+yÄ±l sonra Thalos'a yaptÄ±ÄŸÄ± gezide hayatÄ±nÄ± kaybetmiÅŸ.
 ~
 0 0 3
 D1
@@ -273,11 +273,11 @@ D3
 0 0 9400
 S
 #9402
-Selenge Ormanı~
-     Yıllar geçtikçe, orman batıya doğru genişlerken, ilk zamanlarda
-dikilen ağaçların bulunduğu doğu bölümü karanlık bir düşünceyle
-kavrulur olmuş. Ağaçların da, altında yaşayan hayvanların da renkleri
-kararmaya başlamış. Öyle yavaşmış ki bu değişim hiç kimse fark etmemiş...
+Selenge OrmanÄ±~
+     YÄ±llar geÃ§tikÃ§e, orman batÄ±ya doÄŸru geniÅŸlerken, ilk zamanlarda
+dikilen aÄŸaÃ§larÄ±n bulunduÄŸu doÄŸu bÃ¶lÃ¼mÃ¼ karanlÄ±k bir dÃ¼ÅŸÃ¼nceyle
+kavrulur olmuÅŸ. AÄŸaÃ§larÄ±n da, altÄ±nda yaÅŸayan hayvanlarÄ±n da renkleri
+kararmaya baÅŸlamÄ±ÅŸ. Ã–yle yavaÅŸmÄ±ÅŸ ki bu deÄŸiÅŸim hiÃ§ kimse fark etmemiÅŸ...
 ~
 0 0 3
 D1
@@ -290,13 +290,13 @@ D3
 0 0 9401
 S
 #9403
-Selenge Ormanı~
-Sonra Haman'ın torunları Heran ve Gmeran birden bire kaybolmuşlar.
-Şehrin kapıları kapatılmış ve her yer muhafızlar tarafından didik
-didik aranmış. Hiçbir iz bulunamayınca Miden'nir bölgesinden iki kolcu
-gelmiş. Kolcular çocukların izlerini ormanda bulmuşlar. İzler ormanın
-doğusuna kadar ilerliyor ve sonra yokoluyormuş. Efendi hiddetlenmiş ve
-ormanın doğu bölümünün yokedilmesini emretmiş...
+Selenge OrmanÄ±~
+Sonra Haman'Ä±n torunlarÄ± Heran ve Gmeran birden bire kaybolmuÅŸlar.
+Åehrin kapÄ±larÄ± kapatÄ±lmÄ±ÅŸ ve her yer muhafÄ±zlar tarafÄ±ndan didik
+didik aranmÄ±ÅŸ. HiÃ§bir iz bulunamayÄ±nca Miden'nir bÃ¶lgesinden iki kolcu
+gelmiÅŸ. Kolcular Ã§ocuklarÄ±n izlerini ormanda bulmuÅŸlar. Ä°zler ormanÄ±n
+doÄŸusuna kadar ilerliyor ve sonra yokoluyormuÅŸ. Efendi hiddetlenmiÅŸ ve
+ormanÄ±n doÄŸu bÃ¶lÃ¼mÃ¼nÃ¼n yokedilmesini emretmiÅŸ...
 ~
 0 0 3
 D1
@@ -309,17 +309,17 @@ D3
 0 0 9402
 S
 #9404
-Selenge Ormanı~
-O geniş gövdeli ağaçları yere indirmek hiç de kolay olmamış. Yabani
-otlar temizlenmiş, hayvanlar tek tek öldürülmüş. Yine de bu çabalar
-hiçbir işe yaramamış. Ağaçlar yeniden ve yeniden büyümüşler. Doğu
-bölümü yine vahşi hayvanlarla dolmuş. Selenge'liler tedirginmiş.
-Efendi sandık dolusu altın vererek Thalos'dan iki büyücü getirtmiş.
-Büyücüler üç gün üç gece büyülerle saldırmışlar doğu ormanına. Orman
-acılar içinde bağırmış. Haykırışları tapınağın duvarlarını titretmiş.
-Dördüncü gece efendi ve Thalos'lu iki büyücü yataklarında ölü
-bulunmuşlar. Son dördüne girerken ay, efendinin oğlu Rehazar babasının
-tahtına oturmuş...
+Selenge OrmanÄ±~
+O geniÅŸ gÃ¶vdeli aÄŸaÃ§larÄ± yere indirmek hiÃ§ de kolay olmamÄ±ÅŸ. Yabani
+otlar temizlenmiÅŸ, hayvanlar tek tek Ã¶ldÃ¼rÃ¼lmÃ¼ÅŸ. Yine de bu Ã§abalar
+hiÃ§bir iÅŸe yaramamÄ±ÅŸ. AÄŸaÃ§lar yeniden ve yeniden bÃ¼yÃ¼mÃ¼ÅŸler. DoÄŸu
+bÃ¶lÃ¼mÃ¼ yine vahÅŸi hayvanlarla dolmuÅŸ. Selenge'liler tedirginmiÅŸ.
+Efendi sandÄ±k dolusu altÄ±n vererek Thalos'dan iki bÃ¼yÃ¼cÃ¼ getirtmiÅŸ.
+BÃ¼yÃ¼cÃ¼ler Ã¼Ã§ gÃ¼n Ã¼Ã§ gece bÃ¼yÃ¼lerle saldÄ±rmÄ±ÅŸlar doÄŸu ormanÄ±na. Orman
+acÄ±lar iÃ§inde baÄŸÄ±rmÄ±ÅŸ. HaykÄ±rÄ±ÅŸlarÄ± tapÄ±naÄŸÄ±n duvarlarÄ±nÄ± titretmiÅŸ.
+DÃ¶rdÃ¼ncÃ¼ gece efendi ve Thalos'lu iki bÃ¼yÃ¼cÃ¼ yataklarÄ±nda Ã¶lÃ¼
+bulunmuÅŸlar. Son dÃ¶rdÃ¼ne girerken ay, efendinin oÄŸlu Rehazar babasÄ±nÄ±n
+tahtÄ±na oturmuÅŸ...
 ~
 0 0 3
 D1
@@ -332,10 +332,10 @@ D3
 0 0 9403
 S
 #9405
-Selenge Ormanı~
-Rehazar akıllıca davranıp ormanın kendi haline bırakılmasını emretmiş.
-O günden sonra doğu ormanı -her ne kadar korusa da karanlığını- kimseye
-saldırmamış. İşte böyledir geceleri ağaçları ağlayan Selenge Ormanı'nın
+Selenge OrmanÄ±~
+Rehazar akÄ±llÄ±ca davranÄ±p ormanÄ±n kendi haline bÄ±rakÄ±lmasÄ±nÄ± emretmiÅŸ.
+O gÃ¼nden sonra doÄŸu ormanÄ± -her ne kadar korusa da karanlÄ±ÄŸÄ±nÄ±- kimseye
+saldÄ±rmamÄ±ÅŸ. Ä°ÅŸte bÃ¶yledir geceleri aÄŸaÃ§larÄ± aÄŸlayan Selenge OrmanÄ±'nÄ±n
 hikayesi...
 ~
 0 0 3
@@ -349,12 +349,12 @@ D3
 0 0 9404
 S
 #9406
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Koca bir meşe ağacı doğu yönünü kapatmış.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+Koca bir meÅŸe aÄŸacÄ± doÄŸu yÃ¶nÃ¼nÃ¼ kapatmÄ±ÅŸ.
 ~
 0 0 3
 D0
@@ -371,12 +371,12 @@ D3
 0 0 9405
 S
 #9407
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Batıda orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+BatÄ±da orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -393,12 +393,12 @@ D2
 0 0 9406
 S
 #9408
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Batıda orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+BatÄ±da orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -415,12 +415,12 @@ D2
 0 0 9407
 S
 #9409
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Batıda orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+BatÄ±da orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -437,12 +437,12 @@ D2
 0 0 9408
 S
 #9410
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Batıda orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+BatÄ±da orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -459,12 +459,12 @@ D2
 0 0 9409
 S
 #9411
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Batıda ve kuzeyde orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+BatÄ±da ve kuzeyde orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D1
@@ -477,12 +477,12 @@ D2
 0 0 9410
 S
 #9412
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Batıda orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+BatÄ±da orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -499,12 +499,12 @@ D2
 0 0 9413
 S
 #9413
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Batıda orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+BatÄ±da orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -521,12 +521,12 @@ D2
 0 0 9414
 S
 #9414
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Batıda orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+BatÄ±da orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -543,12 +543,12 @@ D2
 0 0 9415
 S
 #9415
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Batıda orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+BatÄ±da orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -565,12 +565,12 @@ D2
 0 0 9416
 S
 #9416
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Batıda ve güneyde orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+BatÄ±da ve gÃ¼neyde orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -583,12 +583,12 @@ D1
 0 0 9427
 S
 #9417
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Kuzeyde orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+Kuzeyde orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D1
@@ -605,11 +605,11 @@ D3
 0 0 9411
 S
 #9418
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -630,11 +630,11 @@ D3
 0 0 9410
 S
 #9419
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -655,11 +655,11 @@ D3
 0 0 9409
 S
 #9420
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -680,12 +680,12 @@ D3
 0 0 9408
 S
 #9421
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Bir ceviz ağacı doğu yönünü kapatmış.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+Bir ceviz aÄŸacÄ± doÄŸu yÃ¶nÃ¼nÃ¼ kapatmÄ±ÅŸ.
 ~
 0 0 3
 D0
@@ -702,12 +702,12 @@ D3
 0 0 9407
 S
 #9422
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Koca bir meşe ağacı batı yönünü kapatmış.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+Koca bir meÅŸe aÄŸacÄ± batÄ± yÃ¶nÃ¼nÃ¼ kapatmÄ±ÅŸ.
 ~
 0 0 3
 D0
@@ -724,11 +724,11 @@ D2
 0 0 9423
 S
 #9423
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -749,11 +749,11 @@ D3
 0 0 9412
 S
 #9424
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -774,11 +774,11 @@ D3
 0 0 9413
 S
 #9425
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -799,11 +799,11 @@ D3
 0 0 9414
 S
 #9426
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -824,13 +824,13 @@ D3
 0 0 9415
 S
 #9427
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Bir ceviz ağacı doğu yönünü kapatmış ve güneyde orman sınır duvarı
-yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+Bir ceviz aÄŸacÄ± doÄŸu yÃ¶nÃ¼nÃ¼ kapatmÄ±ÅŸ ve gÃ¼neyde orman sÄ±nÄ±r duvarÄ±
+yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -843,13 +843,13 @@ D3
 0 0 9416
 S
 #9428
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Bir ceviz ağacı batı yönünü kapatmış; doğuda, batıda ve güneyde orman
-sınır duvarı yükseliyor..
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+Bir ceviz aÄŸacÄ± batÄ± yÃ¶nÃ¼nÃ¼ kapatmÄ±ÅŸ; doÄŸuda, batÄ±da ve gÃ¼neyde orman
+sÄ±nÄ±r duvarÄ± yÃ¼kseliyor..
 ~
 0 0 3
 D0
@@ -858,11 +858,11 @@ D0
 0 0 9429
 S
 #9429
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -883,11 +883,11 @@ D3
 0 0 9426
 S
 #9430
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -908,12 +908,12 @@ D3
 0 0 9425
 S
 #9431
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Büyük bir ceviz ağacı doğu yönünü kapatmış.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+BÃ¼yÃ¼k bir ceviz aÄŸacÄ± doÄŸu yÃ¶nÃ¼nÃ¼ kapatmÄ±ÅŸ.
 ~
 0 0 3
 D0
@@ -930,12 +930,12 @@ D3
 0 0 9424
 S
 #9432
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Büyük bir ceviz ağacı doğu yönünü kapatmış.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+BÃ¼yÃ¼k bir ceviz aÄŸacÄ± doÄŸu yÃ¶nÃ¼nÃ¼ kapatmÄ±ÅŸ.
 ~
 0 0 3
 D0
@@ -952,11 +952,11 @@ D3
 0 0 9423
 S
 #9433
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -977,12 +977,12 @@ D3
 0 0 9422
 S
 #9434
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Bir ceviz ağacı batı yönünü kapatmış.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+Bir ceviz aÄŸacÄ± batÄ± yÃ¶nÃ¼nÃ¼ kapatmÄ±ÅŸ.
 ~
 0 0 3
 D0
@@ -999,11 +999,11 @@ D2
 0 0 9433
 S
 #9435
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -1024,11 +1024,11 @@ D3
 0 0 9420
 S
 #9436
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor. Bir ceviz ağacına kazınmış yazıyı fark ediyorsun.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor. Bir ceviz aÄŸacÄ±na kazÄ±nmÄ±ÅŸ yazÄ±yÄ± fark ediyorsun.
 ~
 0 0 3
 D0
@@ -1048,16 +1048,16 @@ D3
 ~
 0 0 9419
 E
-yazı~
-Biri aşık olduğu kadının adını ağaca kazımış.
+yazÄ±~
+Biri aÅŸÄ±k olduÄŸu kadÄ±nÄ±n adÄ±nÄ± aÄŸaca kazÄ±mÄ±ÅŸ.
 ~
 S
 #9437
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -1078,11 +1078,11 @@ D3
 0 0 9418
 S
 #9438
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -1103,13 +1103,13 @@ D3
 0 0 9417
 S
 #9439
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Büyük bir ceviz ağacı doğu yönünü kapatmış ve batıda orman sınır
-duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+BÃ¼yÃ¼k bir ceviz aÄŸacÄ± doÄŸu yÃ¶nÃ¼nÃ¼ kapatmÄ±ÅŸ ve batÄ±da orman sÄ±nÄ±r
+duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -1122,12 +1122,12 @@ D2
 0 0 9438
 S
 #9440
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Kuzeyde ve batıda orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+Kuzeyde ve batÄ±da orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D1
@@ -1140,12 +1140,12 @@ D2
 0 0 9439
 S
 #9441
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Kuzeyde ve doğuda orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+Kuzeyde ve doÄŸuda orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D2
@@ -1158,13 +1158,13 @@ D3
 0 0 9440
 S
 #9442
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Büyük bir ceviz ağacı batı yönünü kapatmış ve doğuda orman sınır
-duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+BÃ¼yÃ¼k bir ceviz aÄŸacÄ± batÄ± yÃ¶nÃ¼nÃ¼ kapatmÄ±ÅŸ ve doÄŸuda orman sÄ±nÄ±r
+duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -1177,12 +1177,12 @@ D2
 0 0 9443
 S
 #9443
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Doğuda orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+DoÄŸuda orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -1199,12 +1199,12 @@ D3
 0 0 9438
 S
 #9444
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Doğuda orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+DoÄŸuda orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -1221,11 +1221,11 @@ D3
 0 0 9437
 S
 #9445
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -1246,11 +1246,11 @@ D3
 0 0 9436
 S
 #9446
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -1271,11 +1271,11 @@ D3
 0 0 9435
 S
 #9447
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -1296,11 +1296,11 @@ D3
 0 0 9434
 S
 #9448
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -1321,12 +1321,12 @@ D3
 0 0 9433
 S
 #9449
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Büyük bir ceviz ağacı batı yönünü kapatmış.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+BÃ¼yÃ¼k bir ceviz aÄŸacÄ± batÄ± yÃ¶nÃ¼nÃ¼ kapatmÄ±ÅŸ.
 ~
 0 0 3
 D0
@@ -1343,12 +1343,12 @@ D2
 0 0 9450
 S
 #9450
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Büyük bir ceviz ağacı batı yönünü kapatmış.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+BÃ¼yÃ¼k bir ceviz aÄŸacÄ± batÄ± yÃ¶nÃ¼nÃ¼ kapatmÄ±ÅŸ.
 ~
 0 0 3
 D0
@@ -1365,11 +1365,11 @@ D2
 0 0 9451
 S
 #9451
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -1390,12 +1390,12 @@ D3
 0 0 9430
 S
 #9452
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Güneyde orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+GÃ¼neyde orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -1412,12 +1412,12 @@ D3
 0 0 9429
 S
 #9453
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Kuzeyde orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+Kuzeyde orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D1
@@ -1434,11 +1434,11 @@ D3
 0 0 9445
 S
 #9454
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -1459,11 +1459,11 @@ D3
 0 0 9446
 S
 #9455
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -1484,11 +1484,11 @@ D3
 0 0 9447
 S
 #9456
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -1509,11 +1509,11 @@ D3
 0 0 9448
 S
 #9457
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -1534,11 +1534,11 @@ D3
 0 0 9449
 S
 #9458
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
 ~
 0 0 3
 D0
@@ -1559,12 +1559,12 @@ D3
 0 0 9450
 S
 #9459
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Doğuda orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+DoÄŸuda orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -1581,12 +1581,12 @@ D3
 0 0 9451
 S
 #9460
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Doğuda orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+DoÄŸuda orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -1603,12 +1603,12 @@ D3
 0 0 9452
 S
 #9461
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Doğuda ve batıda orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+DoÄŸuda ve batÄ±da orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -1621,12 +1621,12 @@ D2
 0 0 9462
 S
 #9462
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Doğuda ve batıda orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+DoÄŸuda ve batÄ±da orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -1639,12 +1639,12 @@ D2
 0 0 9463
 S
 #9463
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Huzur dolu bu görüntüye
-kuş sesleri doluyor.
-Doğuda, batıda ve güneyde orman sınır duvarı yükseliyor.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. Huzur dolu bu gÃ¶rÃ¼ntÃ¼ye
+kuÅŸ sesleri doluyor.
+DoÄŸuda, batÄ±da ve gÃ¼neyde orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor.
 ~
 0 0 3
 D0
@@ -1653,14 +1653,14 @@ D0
 0 0 9462
 S
 #9464
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Doğudan gelen garip
-sesler tüylerini diken diken ediyor.
-Kuzeyde orman sınır duvarı yükseliyor, doğuda ise ormanın doğu bölümünü
-batıdan ayıran uzun demir parmaklığı görüyorsun. Birileri demirlerden
-iki tanesini keserek senin de geçebileceğin bir aralık açmışlar.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. DoÄŸudan gelen garip
+sesler tÃ¼ylerini diken diken ediyor.
+Kuzeyde orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor, doÄŸuda ise ormanÄ±n doÄŸu bÃ¶lÃ¼mÃ¼nÃ¼
+batÄ±dan ayÄ±ran uzun demir parmaklÄ±ÄŸÄ± gÃ¶rÃ¼yorsun. Birileri demirlerden
+iki tanesini keserek senin de geÃ§ebileceÄŸin bir aralÄ±k aÃ§mÄ±ÅŸlar.
 ~
 0 0 3
 D1
@@ -1677,13 +1677,13 @@ D3
 0 0 9453
 S
 #9465
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Doğudan gelen garip
-sesler tüylerini diken diken ediyor.
-Doğuda ormanın doğu bölümünü batıdan ayıran uzun demir parmaklığı
-görüyorsun.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. DoÄŸudan gelen garip
+sesler tÃ¼ylerini diken diken ediyor.
+DoÄŸuda ormanÄ±n doÄŸu bÃ¶lÃ¼mÃ¼nÃ¼ batÄ±dan ayÄ±ran uzun demir parmaklÄ±ÄŸÄ±
+gÃ¶rÃ¼yorsun.
 ~
 0 0 3
 D0
@@ -1700,13 +1700,13 @@ D3
 0 0 9454
 S
 #9466
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Doğudan gelen garip
-sesler tüylerini diken diken ediyor.
-Doğuda ormanın doğu bölümünü batıdan ayıran uzun demir parmaklığı
-görüyorsun.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. DoÄŸudan gelen garip
+sesler tÃ¼ylerini diken diken ediyor.
+DoÄŸuda ormanÄ±n doÄŸu bÃ¶lÃ¼mÃ¼nÃ¼ batÄ±dan ayÄ±ran uzun demir parmaklÄ±ÄŸÄ±
+gÃ¶rÃ¼yorsun.
 ~
 0 0 3
 D0
@@ -1719,13 +1719,13 @@ D3
 0 0 9455
 S
 #9467
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Doğudan gelen garip
-sesler tüylerini diken diken ediyor.
-Doğuda ormanın doğu bölümünü batıdan ayıran uzun demir parmaklığı
-görüyorsun.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. DoÄŸudan gelen garip
+sesler tÃ¼ylerini diken diken ediyor.
+DoÄŸuda ormanÄ±n doÄŸu bÃ¶lÃ¼mÃ¼nÃ¼ batÄ±dan ayÄ±ran uzun demir parmaklÄ±ÄŸÄ±
+gÃ¶rÃ¼yorsun.
 ~
 0 0 3
 D2
@@ -1738,13 +1738,13 @@ D3
 0 0 9456
 S
 #9468
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Doğudan gelen garip
-sesler tüylerini diken diken ediyor.
-Doğuda ormanın doğu bölümünü batıdan ayıran uzun demir parmaklığı
-görüyorsun.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. DoÄŸudan gelen garip
+sesler tÃ¼ylerini diken diken ediyor.
+DoÄŸuda ormanÄ±n doÄŸu bÃ¶lÃ¼mÃ¼nÃ¼ batÄ±dan ayÄ±ran uzun demir parmaklÄ±ÄŸÄ±
+gÃ¶rÃ¼yorsun.
 ~
 0 0 3
 D0
@@ -1761,13 +1761,13 @@ D3
 0 0 9457
 S
 #9469
-Ormanın Batı Bölümü~
-Düzenli bir şekilde büyümüş ağaçların arasındasın. Toprak sık yağan
-yağmurlar nedeniyle oldukça yumuşak. Ağaçların tutmayı bıraktığı
-yapraklar yerde eşsiz bir örtü oluşturmuşlar. Doğudan gelen garip
-sesler tüylerini diken diken ediyor.
-Güneyde orman sınır duvarı yükseliyor, doğuda ormanın doğu bölümünü
-batıdan ayıran uzun demir parmaklığı görüyorsun.
+OrmanÄ±n BatÄ± BÃ¶lÃ¼mÃ¼~
+DÃ¼zenli bir ÅŸekilde bÃ¼yÃ¼mÃ¼ÅŸ aÄŸaÃ§larÄ±n arasÄ±ndasÄ±n. Toprak sÄ±k yaÄŸan
+yaÄŸmurlar nedeniyle oldukÃ§a yumuÅŸak. AÄŸaÃ§larÄ±n tutmayÄ± bÄ±raktÄ±ÄŸÄ±
+yapraklar yerde eÅŸsiz bir Ã¶rtÃ¼ oluÅŸturmuÅŸlar. DoÄŸudan gelen garip
+sesler tÃ¼ylerini diken diken ediyor.
+GÃ¼neyde orman sÄ±nÄ±r duvarÄ± yÃ¼kseliyor, doÄŸuda ormanÄ±n doÄŸu bÃ¶lÃ¼mÃ¼nÃ¼
+batÄ±dan ayÄ±ran uzun demir parmaklÄ±ÄŸÄ± gÃ¶rÃ¼yorsun.
 ~
 0 0 3
 D0
@@ -1780,12 +1780,12 @@ D3
 0 0 9458
 S
 #9470
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
-Güneyde ve batıda çürümüş orman sınır duvarını görüyorsun.
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
+GÃ¼neyde ve batÄ±da Ã§Ã¼rÃ¼mÃ¼ÅŸ orman sÄ±nÄ±r duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 NA 3
 D0
@@ -1798,13 +1798,13 @@ D1
 0 0 9485
 S
 #9471
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
-Batıda ormanın doğu bölümünü batıdan ayıran uzun demir parmaklığı
-görüyorsun.
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
+BatÄ±da ormanÄ±n doÄŸu bÃ¶lÃ¼mÃ¼nÃ¼ batÄ±dan ayÄ±ran uzun demir parmaklÄ±ÄŸÄ±
+gÃ¶rÃ¼yorsun.
 ~
 0 NA 3
 D0
@@ -1821,13 +1821,13 @@ D2
 0 0 9470
 S
 #9472
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
-Batıda ormanın doğu bölümünü batıdan ayıran uzun demir parmaklığı
-görüyorsun.
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
+BatÄ±da ormanÄ±n doÄŸu bÃ¶lÃ¼mÃ¼nÃ¼ batÄ±dan ayÄ±ran uzun demir parmaklÄ±ÄŸÄ±
+gÃ¶rÃ¼yorsun.
 ~
 0 NA 3
 D0
@@ -1844,13 +1844,13 @@ D2
 0 0 9471
 S
 #9473
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
-Batıda ormanın doğu bölümünü batıdan ayıran uzun demir parmaklığı
-görüyorsun.
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
+BatÄ±da ormanÄ±n doÄŸu bÃ¶lÃ¼mÃ¼nÃ¼ batÄ±dan ayÄ±ran uzun demir parmaklÄ±ÄŸÄ±
+gÃ¶rÃ¼yorsun.
 ~
 0 NA 3
 D0
@@ -1867,13 +1867,13 @@ D2
 0 0 9472
 S
 #9474
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
-Batıda ormanın doğu bölümünü batıdan ayıran uzun demir parmaklığı
-görüyorsun.
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
+BatÄ±da ormanÄ±n doÄŸu bÃ¶lÃ¼mÃ¼nÃ¼ batÄ±dan ayÄ±ran uzun demir parmaklÄ±ÄŸÄ±
+gÃ¶rÃ¼yorsun.
 ~
 0 NA 3
 D0
@@ -1890,13 +1890,13 @@ D2
 0 0 9473
 S
 #9475
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
-Batıda ormanın doğu bölümünü batıdan ayıran uzun demir parmaklığı
-görüyorsun.
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
+BatÄ±da ormanÄ±n doÄŸu bÃ¶lÃ¼mÃ¼nÃ¼ batÄ±dan ayÄ±ran uzun demir parmaklÄ±ÄŸÄ±
+gÃ¶rÃ¼yorsun.
 ~
 0 NA 3
 D0
@@ -1913,13 +1913,13 @@ D2
 0 0 9474
 S
 #9476
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
-Batıda ormanın doğu bölümünü batıdan ayıran uzun demir parmaklığı
-görüyorsun.
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
+BatÄ±da ormanÄ±n doÄŸu bÃ¶lÃ¼mÃ¼nÃ¼ batÄ±dan ayÄ±ran uzun demir parmaklÄ±ÄŸÄ±
+gÃ¶rÃ¼yorsun.
 ~
 0 NA 3
 D0
@@ -1940,12 +1940,12 @@ D3
 0 0 9464
 S
 #9477
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
-Kuzeyde ve batıda çürümüş orman sınır duvarını görüyorsun.
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
+Kuzeyde ve batÄ±da Ã§Ã¼rÃ¼mÃ¼ÅŸ orman sÄ±nÄ±r duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 NA 3
 D1
@@ -1958,12 +1958,12 @@ D2
 0 0 9476
 S
 #9478
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
-Kuzeyde çürümüş orman sınır duvarını görüyorsun.
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
+Kuzeyde Ã§Ã¼rÃ¼mÃ¼ÅŸ orman sÄ±nÄ±r duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 NA 3
 D2
@@ -1976,11 +1976,11 @@ D3
 0 0 9477
 S
 #9479
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
 ~
 0 NA 3
 D0
@@ -1997,11 +1997,11 @@ D3
 0 0 9476
 S
 #9480
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
 ~
 0 NA 3
 D0
@@ -2018,11 +2018,11 @@ D3
 0 0 9475
 S
 #9481
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
 ~
 0 NA 3
 D0
@@ -2039,11 +2039,11 @@ D3
 0 0 9474
 S
 #9482
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
 ~
 0 NA 3
 D0
@@ -2060,11 +2060,11 @@ D3
 0 0 9473
 S
 #9483
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
 ~
 0 NA 3
 D0
@@ -2085,11 +2085,11 @@ D3
 0 0 9472
 S
 #9484
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
 ~
 0 NA 3
 D0
@@ -2110,12 +2110,12 @@ D3
 0 0 9471
 S
 #9485
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
-Güneyde çürümüş orman sınır duvarını görüyorsun.
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
+GÃ¼neyde Ã§Ã¼rÃ¼mÃ¼ÅŸ orman sÄ±nÄ±r duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 NA 3
 D0
@@ -2132,11 +2132,11 @@ D3
 0 0 9470
 S
 #9486
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
 ~
 0 NA 3
 D1
@@ -2153,15 +2153,15 @@ D3
 0 0 9483
 E
 heykel dev~
-Büyücü Haman'ın heykeli karşında duruyor. Ne kadar da haşmetli.
+BÃ¼yÃ¼cÃ¼ Haman'Ä±n heykeli karÅŸÄ±nda duruyor. Ne kadar da haÅŸmetli.
 ~
 S
 #9487
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
 ~
 0 NA 3
 D0
@@ -2182,12 +2182,12 @@ D3
 0 0 9484
 S
 #9488
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
-Doğuda çürümüş orman sınır duvarını görüyorsun.
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
+DoÄŸuda Ã§Ã¼rÃ¼mÃ¼ÅŸ orman sÄ±nÄ±r duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 NA 3
 D0
@@ -2204,12 +2204,12 @@ D3
 0 0 9485
 S
 #9489
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
-Güneyde, doğuda ve batıda çürümüş orman sınır duvarını görüyorsun.
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
+GÃ¼neyde, doÄŸuda ve batÄ±da Ã§Ã¼rÃ¼mÃ¼ÅŸ orman sÄ±nÄ±r duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 NA 3
 D0
@@ -2218,12 +2218,12 @@ D0
 0 0 9488
 S
 #9490
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
-Doğuda ve güneyde çürümüş orman sınır duvarını görüyorsun.
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
+DoÄŸuda ve gÃ¼neyde Ã§Ã¼rÃ¼mÃ¼ÅŸ orman sÄ±nÄ±r duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 NA 3
 D0
@@ -2236,12 +2236,12 @@ D3
 0 0 9487
 S
 #9491
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
-Doğuda çürümüş orman sınır duvarını görüyorsun.
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
+DoÄŸuda Ã§Ã¼rÃ¼mÃ¼ÅŸ orman sÄ±nÄ±r duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 NA 3
 D0
@@ -2258,12 +2258,12 @@ D3
 0 0 9486
 S
 #9492
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
-Doğuda çürümüş orman sınır duvarını görüyorsun.
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
+DoÄŸuda Ã§Ã¼rÃ¼mÃ¼ÅŸ orman sÄ±nÄ±r duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 NA 3
 D0
@@ -2276,12 +2276,12 @@ D2
 0 0 9491
 S
 #9493
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
-Doğuda çürümüş orman sınır duvarını görüyorsun.
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
+DoÄŸuda Ã§Ã¼rÃ¼mÃ¼ÅŸ orman sÄ±nÄ±r duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 NA 3
 D0
@@ -2294,12 +2294,12 @@ D2
 0 0 9492
 S
 #9494
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
-Doğuda çürümüş orman sınır duvarını görüyorsun.
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
+DoÄŸuda Ã§Ã¼rÃ¼mÃ¼ÅŸ orman sÄ±nÄ±r duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 NA 3
 D0
@@ -2312,12 +2312,12 @@ D2
 0 0 9493
 S
 #9495
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
-Doğuda çürümüş orman sınır duvarını görüyorsun.
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
+DoÄŸuda Ã§Ã¼rÃ¼mÃ¼ÅŸ orman sÄ±nÄ±r duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 NA 3
 D0
@@ -2330,12 +2330,12 @@ D2
 0 0 9494
 S
 #9496
-Ormanın Doğu Bölümü~
-En küçüğünün boyunun batı bölümündekilerden daha uzun olduğu iri
-ağaçlar arasındasın. Güneş çok uzun zamandır ışığını veremiyor bu
-topraklara. Garip sesler duyuyorsun. Ağaçların burada neler görüp
-neler gizlediğini kimse bilmiyor...
-Doğuda ve kuzeyde çürümüş orman sınır duvarını görüyorsun.
+OrmanÄ±n DoÄŸu BÃ¶lÃ¼mÃ¼~
+En kÃ¼Ã§Ã¼ÄŸÃ¼nÃ¼n boyunun batÄ± bÃ¶lÃ¼mÃ¼ndekilerden daha uzun olduÄŸu iri
+aÄŸaÃ§lar arasÄ±ndasÄ±n. GÃ¼neÅŸ Ã§ok uzun zamandÄ±r Ä±ÅŸÄ±ÄŸÄ±nÄ± veremiyor bu
+topraklara. Garip sesler duyuyorsun. AÄŸaÃ§larÄ±n burada neler gÃ¶rÃ¼p
+neler gizlediÄŸini kimse bilmiyor...
+DoÄŸuda ve kuzeyde Ã§Ã¼rÃ¼mÃ¼ÅŸ orman sÄ±nÄ±r duvarÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 0 NA 3
 D2
@@ -2346,45 +2346,45 @@ S
 #0
 
 #RESETS
-M 0 9401   5 9420  1	* ziyaretçi
-M 0 9401   5 9430  1	* ziyaretçi
-M 0 9401   5 9450  1	* ziyaretçi
-M 0 9401   5 9443  1	* ziyaretçi
-M 0 9401   5 9460  1	* ziyaretçi
+M 0 9401   5 9420  1	* ziyaretÃ§i
+M 0 9401   5 9430  1	* ziyaretÃ§i
+M 0 9401   5 9450  1	* ziyaretÃ§i
+M 0 9401   5 9443  1	* ziyaretÃ§i
+M 0 9401   5 9460  1	* ziyaretÃ§i
 
-M 0 9402   1 9464  1	* savaşçı ziyaretçi
-E 1 9404  -1    16	* gümüş kılıç
+M 0 9402   1 9464  1	* savaÅŸÃ§Ä± ziyaretÃ§i
+E 1 9404  -1    16	* gÃ¼mÃ¼ÅŸ kÄ±lÄ±Ã§
 
-M 0 9403   2 9490  1	* hırsız ziyaretçi
-E 1 9405  -1    16	* gümüş hançer
+M 0 9403   2 9490  1	* hÄ±rsÄ±z ziyaretÃ§i
+E 1 9405  -1    16	* gÃ¼mÃ¼ÅŸ hanÃ§er
 
-M 0 9404   1 9494  1	* kaybolmuş ziyaretçi
+M 0 9404   1 9494  1	* kaybolmuÅŸ ziyaretÃ§i
 
-M 0 9405   1 9453  1	* bekçi
+M 0 9405   1 9453  1	* bekÃ§i
 
 M 0 9406   2 9477  1	* sansar
 M 0 9406   2 9485  1	* sansar
 
 M 0 9407   1 9481  2	* tilki
 
-M 0 9408   1 9486  1	* gölge
+M 0 9408   1 9486  1	* gÃ¶lge
 
-M 0 9409   2 9452  1	* sarhoş
-M 0 9409   2 9471  1	* sarhoş
+M 0 9409   2 9452  1	* sarhoÅŸ
+M 0 9409   2 9471  1	* sarhoÅŸ
 
 M 0 9410   1 9422  1	* serseri
-E 1 9403  -1    16	* çakı
+E 1 9403  -1    16	* Ã§akÄ±
 
-M 0 9411   3 9492  3	* sürüngen
+M 0 9411   3 9492  3	* sÃ¼rÃ¼ngen
 
-M 0 9412   1 9464  1	* çalışan işçi
+M 0 9412   1 9464  1	* Ã§alÄ±ÅŸan iÅŸÃ§i
 
-M 0 9413   1 9464  1	* uyuyan işçi
+M 0 9413   1 9464  1	* uyuyan iÅŸÃ§i
 
-M 0 9414   1 9486  1	* baykuş
+M 0 9414   1 9486  1	* baykuÅŸ
 
-O 0 9401   0 9486  1    * Heykel Çeşmesi
-O 0 9402   0 9423  1    * Bakır Çeşme
+O 0 9401   0 9486  1    * Heykel Ã‡eÅŸmesi
+O 0 9402   0 9423  1    * BakÄ±r Ã‡eÅŸme
 
 
 S
@@ -2393,11 +2393,11 @@ S
 0
 
 #SPECIALS
-M 9411 spec_fido	* sürüngen
+M 9411 spec_fido	* sÃ¼rÃ¼ngen
 M 9407 spec_fido	* tilki
 M 9406 spec_fido	* sansar
-M 9411 spec_poison	* sürüngen
-M 9403 spec_thief	* hırsız ziyaretçi
+M 9411 spec_poison	* sÃ¼rÃ¼ngen
+M 9403 spec_thief	* hÄ±rsÄ±z ziyaretÃ§i
 S
 
 #$

@@ -1,9 +1,9 @@
 #AREADATA
 Filename hayvanat.are~
-Name Hayvanat Bahçesi~
+Name Hayvanat BahÃ§esi~
 Builder Anon~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 1
 Highlevel 15
 Minvnum 8200
@@ -16,52 +16,52 @@ END
 
 #NEW_MOBILES
 #8200
-tüccar giles~
+tÃ¼ccar giles~
 giles~
-Giles dükkan sahibi burada oturmuş tezgahta müşterileri bekliyor.
+Giles dÃ¼kkan sahibi burada oturmuÅŸ tezgahta mÃ¼ÅŸterileri bekliyor.
 ~
-Giles zamanının çoğunu burada oturarak Hayvanat Bahçesine gelen
-ziyaretçilere hizmet ederek geçiriyor. Tembel birisi olduğu için başka bir
-iş yapmaya tenezzül etmiyor, hem ayrıca iyide para kazanıyor burada.
+Giles zamanÄ±nÄ±n Ã§oÄŸunu burada oturarak Hayvanat BahÃ§esine gelen
+ziyaretÃ§ilere hizmet ederek geÃ§iriyor. Tembel birisi olduÄŸu iÃ§in baÅŸka bir
+iÅŸ yapmaya tenezzÃ¼l etmiyor, hem ayrÄ±ca iyide para kazanÄ±yor burada.
 ~
 human~
 ABG D 20
 #8201
-hayvanat bahçesi bekçisi~
-hayvanat bahçesi bekçisi~
-Bekçi masanın arkasında oturuyor.
+hayvanat bahÃ§esi bekÃ§isi~
+hayvanat bahÃ§esi bekÃ§isi~
+BekÃ§i masanÄ±n arkasÄ±nda oturuyor.
 ~
-Diyarın en ünlü hayvanat bahçesinin bekçisi karşında. Bütün hayvanların
-idare edilmesinden sadece o sorumlu. Değişik bir saç şekline sahip birisi,
-pahalı kıyafetleri var. Kıyafetlerine bakılarak hayvanlara pek bakmadığı
-izlenimine kapılıyorsun.
+DiyarÄ±n en Ã¼nlÃ¼ hayvanat bahÃ§esinin bekÃ§isi karÅŸÄ±nda. BÃ¼tÃ¼n hayvanlarÄ±n
+idare edilmesinden sadece o sorumlu. DeÄŸiÅŸik bir saÃ§ ÅŸekline sahip birisi,
+pahalÄ± kÄ±yafetleri var. KÄ±yafetlerine bakÄ±larak hayvanlara pek bakmadÄ±ÄŸÄ±
+izlenimine kapÄ±lÄ±yorsun.
 ~
 human~
 AB F 10
 #8202
-dev sülük~
-dev bir sülük~
-Dev bir sülük koluna yapışıyor.
+dev sÃ¼lÃ¼k~
+dev bir sÃ¼lÃ¼k~
+Dev bir sÃ¼lÃ¼k koluna yapÄ±ÅŸÄ±yor.
 ~
-Dev hafif kahverengi siyahımsı bir sülük.
+Dev hafif kahverengi siyahÄ±msÄ± bir sÃ¼lÃ¼k.
 ~
 bear~
 ABEF 0 3
 #8203
 kaplan~
 kaplan~
-Kaplan burada avlanmak için bekliyor.
+Kaplan burada avlanmak iÃ§in bekliyor.
 ~
-Sıradan fakat aç bir kaplan.
+SÄ±radan fakat aÃ§ bir kaplan.
 ~
 cat~
 ABEF J 17
 #8204
 yunus~
 yunus~
-Mutluca yüzen bir yunus burada.
+Mutluca yÃ¼zen bir yunus burada.
 ~
-Çok tatlı.
+Ã‡ok tatlÄ±.
 ~
 water fowl~
 ABCE 0 10
@@ -70,27 +70,27 @@ tek-boynuzlu at~
 tek-boynuzlu at~
 Tek-boynuzlu bir at burada duruyor.
 ~
-Muhteşem.
+MuhteÅŸem.
 ~
 fox~
 AB 0 15
 #8206
 timsah~
 timsah~
-Timsah havuzun hemen üst kısmında süzülerek yüzüyor.
+Timsah havuzun hemen Ã¼st kÄ±smÄ±nda sÃ¼zÃ¼lerek yÃ¼zÃ¼yor.
 ~
-Büyük yeşil deriye sahip bir yaratık, çok büyük ve geniş dişleri var.
-Daha önce doyurulmuş olmasını umut ediyorsun.
+BÃ¼yÃ¼k yeÅŸil deriye sahip bir yaratÄ±k, Ã§ok bÃ¼yÃ¼k ve geniÅŸ diÅŸleri var.
+Daha Ã¶nce doyurulmuÅŸ olmasÄ±nÄ± umut ediyorsun.
 ~
 lizard~
 ABF 0 13
 #8207
-ayı~
-ayı~
-Yaklaştıkça hırıldayan bir ayı.
+ayÄ±~
+ayÄ±~
+YaklaÅŸtÄ±kÃ§a hÄ±rÄ±ldayan bir ayÄ±.
 ~
-Şu ana kadar gördüğün en büyük ayı. Pençeleriyle sana verebileceği
-zararları düşününce kalbin duracak gibi oluyor.
+Åu ana kadar gÃ¶rdÃ¼ÄŸÃ¼n en bÃ¼yÃ¼k ayÄ±. PenÃ§eleriyle sana verebileceÄŸi
+zararlarÄ± dÃ¼ÅŸÃ¼nÃ¼nce kalbin duracak gibi oluyor.
 ~
 bear~
 ABF 0 13
@@ -99,16 +99,16 @@ bebek ejderha~
 bebek ejderha~
 8metrelik boyuyla burada bebek ejderha duruyor.
 ~
-Bebek olmasına rağmen pek bir büyük ejderha karşında duruyor.
+Bebek olmasÄ±na raÄŸmen pek bir bÃ¼yÃ¼k ejderha karÅŸÄ±nda duruyor.
 ~
 dragon~
 AB 0 19
 #8209
 fil~
 fil~
-Sıradan bir fil burada duruyor.
+SÄ±radan bir fil burada duruyor.
 ~
-Büyük kulaklara sahip gri bir fil.
+BÃ¼yÃ¼k kulaklara sahip gri bir fil.
 ~
 dragon~
 AB 0 14
@@ -117,95 +117,95 @@ goril~
 goril~
 Goril burada duruyor.
 ~
-Kıllı geniş bir goril.
+KÄ±llÄ± geniÅŸ bir goril.
 ~
 human~
 ABF 0 15
 #8211
-hayvanat bahçesi asistanı bir kadın~
-hayvanat bahçesi asistanı~
-Hayvanat bahçesi asistanı bir kadın burada yemek hazırlıyor.
+hayvanat bahÃ§esi asistanÄ± bir kadÄ±n~
+hayvanat bahÃ§esi asistanÄ±~
+Hayvanat bahÃ§esi asistanÄ± bir kadÄ±n burada yemek hazÄ±rlÄ±yor.
 ~
-Hayvanat bahçesindeki hayvanları beslemekten sorumlu olan
-bir kadın.
+Hayvanat bahÃ§esindeki hayvanlarÄ± beslemekten sorumlu olan
+bir kadÄ±n.
 ~
 human~
 AB 0 10
 #8230
 domuz~
 domuz~
-Bir domuz burada yuvarlanıyor.
+Bir domuz burada yuvarlanÄ±yor.
 ~
-Bu sıradan küçük pembe bir domuz. Ne fazlası var nede eksiği var.
+Bu sÄ±radan kÃ¼Ã§Ã¼k pembe bir domuz. Ne fazlasÄ± var nede eksiÄŸi var.
 ~
 pig~
 AB 0 3
 #8231
-küçük kuş~
-küçük kuş~
-Küçük bir kuş etrafta uçuyor.
+kÃ¼Ã§Ã¼k kuÅŸ~
+kÃ¼Ã§Ã¼k kuÅŸ~
+KÃ¼Ã§Ã¼k bir kuÅŸ etrafta uÃ§uyor.
 ~
-Gökyüzünde uçarmışçasına kafeste uçan küçük bir kuş.
+GÃ¶kyÃ¼zÃ¼nde uÃ§armÄ±ÅŸÃ§asÄ±na kafeste uÃ§an kÃ¼Ã§Ã¼k bir kuÅŸ.
 ~
 song bird~
 A 0 1
 #8232
-bebek keçi~
-bebek keçi~
-Bebek keçi burada ot yiyor.
+bebek keÃ§i~
+bebek keÃ§i~
+Bebek keÃ§i burada ot yiyor.
 ~
-Tasmalı bir bebek keçi görüyorsun.
+TasmalÄ± bir bebek keÃ§i gÃ¶rÃ¼yorsun.
 ~
 fox~
 ABG 0 2
 #8233
-anne keçi~
-anne keçi~
-Normal bir vücuda sahip ortalama bir keçi.
+anne keÃ§i~
+anne keÃ§i~
+Normal bir vÃ¼cuda sahip ortalama bir keÃ§i.
 ~
-Keçinin geniş daire şeklinde zilleri var. Ona bakarken senin giysilerini
-çiğnemeye başlıyor.
+KeÃ§inin geniÅŸ daire ÅŸeklinde zilleri var. Ona bakarken senin giysilerini
+Ã§iÄŸnemeye baÅŸlÄ±yor.
 ~
 fox~
 ABG 0 3
 #8234
-baba keçi~
-baba keçi~
-Baba keçi burada duruyor.
+baba keÃ§i~
+baba keÃ§i~
+Baba keÃ§i burada duruyor.
 ~
-Baba keçi burada ailesini koruyor. Görünüşe göre boynuzlarıyla sana
+Baba keÃ§i burada ailesini koruyor. GÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re boynuzlarÄ±yla sana
 epeyce bir zarar verebilir.
 ~
 fox~
 ABG 0 4
 #8235
-üzgün görünümlü eşek~
-eşek~
-Üzgün görünümlü bir eşek burada duruyor.
+Ã¼zgÃ¼n gÃ¶rÃ¼nÃ¼mlÃ¼ eÅŸek~
+eÅŸek~
+ÃœzgÃ¼n gÃ¶rÃ¼nÃ¼mlÃ¼ bir eÅŸek burada duruyor.
 ~
-Oldukça üzgün ve çaresiz bir eşek duruyor burada.
+OldukÃ§a Ã¼zgÃ¼n ve Ã§aresiz bir eÅŸek duruyor burada.
 ~
 dog~
 AB 0 5
 #8236
-yaşlı at~
-yaşlı at~
-Yaşlı bir at burada duruyor.
+yaÅŸlÄ± at~
+yaÅŸlÄ± at~
+YaÅŸlÄ± bir at burada duruyor.
 ~
-Bir zamanlat savaş atına benzer bir görüntüsü var atın. Büyük ve kaslı,
-ve muhtemelen emekli olmasına rağmen zarar verebilir durumda.
+Bir zamanlat savaÅŸ atÄ±na benzer bir gÃ¶rÃ¼ntÃ¼sÃ¼ var atÄ±n. BÃ¼yÃ¼k ve kaslÄ±,
+ve muhtemelen emekli olmasÄ±na raÄŸmen zarar verebilir durumda.
 ~
 fox~
 AB 0 6
 #8237
-papağan harvey~
-papağan harvey~
-Harvey, yeşil papağan burada tüneğin üstünde duruyor.
+papaÄŸan harvey~
+papaÄŸan harvey~
+Harvey, yeÅŸil papaÄŸan burada tÃ¼neÄŸin Ã¼stÃ¼nde duruyor.
 ~
-Bu yeşil papağan tüneğin üstünde oturuyor. Senin bütün hareketlerini
-izliyor. Papağanın üstünde, isminin yazılı olduğu küçük bir tabela var.
-Tabelanın üstünde "Harvey konuşan papağan, lütfen parmaklarınıza dikkat
-ediniz." Yazıyor.
+Bu yeÅŸil papaÄŸan tÃ¼neÄŸin Ã¼stÃ¼nde oturuyor. Senin bÃ¼tÃ¼n hareketlerini
+izliyor. PapaÄŸanÄ±n Ã¼stÃ¼nde, isminin yazÄ±lÄ± olduÄŸu kÃ¼Ã§Ã¼k bir tabela var.
+TabelanÄ±n Ã¼stÃ¼nde "Harvey konuÅŸan papaÄŸan, lÃ¼tfen parmaklarÄ±nÄ±za dikkat
+ediniz." YazÄ±yor.
 ~
 song bird~
 AB 0 8
@@ -213,9 +213,9 @@ AB 0 8
 
 #OBJECTS
 #8200
-pirinç küçük anahtar~
-pirinçten yapılmış küçük anahtar~
-pirinçten yapılmış küçük anahtar burada duruyor.~
+pirinÃ§ kÃ¼Ã§Ã¼k anahtar~
+pirinÃ§ten yapÄ±lmÄ±ÅŸ kÃ¼Ã§Ã¼k anahtar~
+pirinÃ§ten yapÄ±lmÄ±ÅŸ kÃ¼Ã§Ã¼k anahtar burada duruyor.~
 brass~
 key 0 A
 0 0 0 0 0
@@ -226,9 +226,9 @@ It is a small, simple brass key with no inscriptions
 or marks of any kind.
 ~
 #8201
-tişört~
-Tişört~
-Üzerinde çeşitli renklerle yazı yazan düz beyaz bir tişört burada duruyor.~
+tiÅŸÃ¶rt~
+TiÅŸÃ¶rt~
+Ãœzerinde Ã§eÅŸitli renklerle yazÄ± yazan dÃ¼z beyaz bir tiÅŸÃ¶rt burada duruyor.~
 satin~
 clothing 0 AK
 0 0 0 0 0
@@ -241,9 +241,9 @@ The writting on the tee-shirt reads
 "I've been to the Midgaard Zoo"
 ~
 #8202
-çinili fincan~
-çinili bir fincan~
-Yerde üzerinde çeşit çeşit renklerle yazı yazılmış çinili bir fincan duruyor.~
+Ã§inili fincan~
+Ã§inili bir fincan~
+Yerde Ã¼zerinde Ã§eÅŸit Ã§eÅŸit renklerle yazÄ± yazÄ±lmÄ±ÅŸ Ã§inili bir fincan duruyor.~
 porcelain~
 drink 0 AO
 3 3 'lemonade' 0 0
@@ -254,9 +254,9 @@ The writting on the mug reads
 "I've been to the Midgaard Zoo"
 ~
 #8203
-su çeşmesi~
-Çeşme~
-Çeşmeden su fışkırıyor.~
+su Ã§eÅŸmesi~
+Ã‡eÅŸme~
+Ã‡eÅŸmeden su fÄ±ÅŸkÄ±rÄ±yor.~
 ~
 fountain 0 0
 0 0 'water' 0 0
@@ -266,16 +266,16 @@ fountain~
 It is very nice.  Made from fine white marble.
 ~
 #8204
-katlanabilir hayvanat bahçesi haritası~
-Katlanabilir bir hayvanat bahçesi haritası~
-Katlanabilir bir hayvanat bahçesi haritası burada duruyor.~
+katlanabilir hayvanat bahÃ§esi haritasÄ±~
+Katlanabilir bir hayvanat bahÃ§esi haritasÄ±~
+Katlanabilir bir hayvanat bahÃ§esi haritasÄ± burada duruyor.~
 paper~
 map 0 AO
 0 0 0 0 0
 1 12 200 P
 E
-harita hayvanat bahçe~
-Selenge Hayvanat Bahçesi
+harita hayvanat bahÃ§e~
+Selenge Hayvanat BahÃ§esi
 
              [ ]
             / |
@@ -295,9 +295,9 @@ Selenge Hayvanat Bahçesi
 
 ~
 #8205
-hayvanat bahçesi hançeri~
-Hayvanat Bahçesine ait hançer~
-Küçük, üzerinde çok renkli bir yazı bulunan demir hançer burada duruyor.~
+hayvanat bahÃ§esi hanÃ§eri~
+Hayvanat BahÃ§esine ait hanÃ§er~
+KÃ¼Ã§Ã¼k, Ã¼zerinde Ã§ok renkli bir yazÄ± bulunan demir hanÃ§er burada duruyor.~
 iron~
 weapon 0 AN
 dagger 3 5 pierce 0
@@ -311,11 +311,11 @@ The writting on the tee-shirt reads
 
 #ROOMS
 #8200
-Hayvanat Bahçesinin Dışı~
-Parkın içindeki bir patikanın sonuna geldin. Selenge Hayvanat Bahçesinin
-kapılarının dışında duruyorsun. Batıda ufak bir göl görüyorsun, doğuda ise
-küçük bir patika bulunmakta. Güneyde ise 2 tane turnike var. Biri hayvanat
-bahçesine diğeride dışına çıkıyor.
+Hayvanat BahÃ§esinin DÄ±ÅŸÄ±~
+ParkÄ±n iÃ§indeki bir patikanÄ±n sonuna geldin. Selenge Hayvanat BahÃ§esinin
+kapÄ±larÄ±nÄ±n dÄ±ÅŸÄ±nda duruyorsun. BatÄ±da ufak bir gÃ¶l gÃ¶rÃ¼yorsun, doÄŸuda ise
+kÃ¼Ã§Ã¼k bir patika bulunmakta. GÃ¼neyde ise 2 tane turnike var. Biri hayvanat
+bahÃ§esine diÄŸeride dÄ±ÅŸÄ±na Ã§Ä±kÄ±yor.
 ~
 0 C 1
 D0
@@ -327,8 +327,8 @@ D5
 ~
 0 -1 3115
 D2
-Turnike yol ayrımlarında oklarla hangi yönün nereye gittiğini anlatmak
-adına kullanılır.
+Turnike yol ayrÄ±mlarÄ±nda oklarla hangi yÃ¶nÃ¼n nereye gittiÄŸini anlatmak
+adÄ±na kullanÄ±lÄ±r.
 ~
 turnike~
 0 -1 8205
@@ -338,12 +338,12 @@ The turnstiles are study and can only be made to turn in one direction.
 ~
 S
 #8201
-Hayvanat Bahçesi Dilek Kuyusu~
-Selenge Hayvanat Bahçesinin hemen girişinde duruyorsun. Dışarıya yönelen
-turnike hemen batıda olmalı fakat turnike yerine küçük bir bina var orada.
-Sen yinede çıkmak için aynı yoldan geri dönmen gerektiğini düşünüyorsun.
-Doğuda ise çocuklar için hazırlanmış oldukça parlak ve renkli Hayvanat
-Bahçesi Çocuk bölümü var, güneyde ise asıl Hayvanat Bahçesi bulunmakta.
+Hayvanat BahÃ§esi Dilek Kuyusu~
+Selenge Hayvanat BahÃ§esinin hemen giriÅŸinde duruyorsun. DÄ±ÅŸarÄ±ya yÃ¶nelen
+turnike hemen batÄ±da olmalÄ± fakat turnike yerine kÃ¼Ã§Ã¼k bir bina var orada.
+Sen yinede Ã§Ä±kmak iÃ§in aynÄ± yoldan geri dÃ¶nmen gerektiÄŸini dÃ¼ÅŸÃ¼nÃ¼yorsun.
+DoÄŸuda ise Ã§ocuklar iÃ§in hazÄ±rlanmÄ±ÅŸ oldukÃ§a parlak ve renkli Hayvanat
+BahÃ§esi Ã‡ocuk bÃ¶lÃ¼mÃ¼ var, gÃ¼neyde ise asÄ±l Hayvanat BahÃ§esi bulunmakta.
 ~
 0 0 1
 D0
@@ -352,81 +352,81 @@ The turnstile looks study and impossible to get through from this side.
 turnstile~
 0 -1 -1
 D1
-Birkaç kulübe ve kümes görüyorsun doğuda.
+BirkaÃ§ kulÃ¼be ve kÃ¼mes gÃ¶rÃ¼yorsun doÄŸuda.
 ~
 ~
 0 -1 8230
 D2
-Küçük bir patika görüyorsun.
+KÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8204
 D3
-Bina şehir dışından gelenler için yapılmış bir hediye dükkanı imiş.
+Bina ÅŸehir dÄ±ÅŸÄ±ndan gelenler iÃ§in yapÄ±lmÄ±ÅŸ bir hediye dÃ¼kkanÄ± imiÅŸ.
 ~
-kapı~
+kapÄ±~
 1 -1 8205
 D5
-Bulanık sudaki parıldayan bozukluklar görüyorsun.
+BulanÄ±k sudaki parÄ±ldayan bozukluklar gÃ¶rÃ¼yorsun.
 ~
-ızgara~
+Ä±zgara~
 1 8200 8203
 S
 #8203
 Dilek Kuyusunun Dibi~
-Dilek kuyusunun dibindesin, pek yüksek olmayan kuyudan rahatlıkla
-tırmanarak geri çıkabilirsin.
+Dilek kuyusunun dibindesin, pek yÃ¼ksek olmayan kuyudan rahatlÄ±kla
+tÄ±rmanarak geri Ã§Ä±kabilirsin.
 ~
 8200 1 6
 D4
-Gökyüzünü görebiliyorsun.
+GÃ¶kyÃ¼zÃ¼nÃ¼ gÃ¶rebiliyorsun.
 ~
-ızgara~
+Ä±zgara~
 1 8200 8201
 S
 #8204
-Hayvanat Bahçesinde Bir Patika~
-Hayvanat Bahçesindeki küçük bir patikadasın. Batıda önemli olduğu
-izlenimine kapıldığın bir bina bulunuyor, güney ve kuzeye doğru devam ediyor
+Hayvanat BahÃ§esinde Bir Patika~
+Hayvanat BahÃ§esindeki kÃ¼Ã§Ã¼k bir patikadasÄ±n. BatÄ±da Ã¶nemli olduÄŸu
+izlenimine kapÄ±ldÄ±ÄŸÄ±n bir bina bulunuyor, gÃ¼ney ve kuzeye doÄŸru devam ediyor
 patika.
 ~
 0 0 1
 D0
-Kuyuyu görüyorsun.
+Kuyuyu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8201
 D2
-Yanyol ve arayolları görüyorsun.
+Yanyol ve arayollarÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8207
 D3
-Kapının hemen üstünde "Hayvanat Bahçesi Bakıcısı" yazısını görüyorsun.
+KapÄ±nÄ±n hemen Ã¼stÃ¼nde "Hayvanat BahÃ§esi BakÄ±cÄ±sÄ±" yazÄ±sÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
-kapı~
+kapÄ±~
 1 -1 8206
 S
 #8205
-Hediye Dükkanı~
-Pek bir özenle hazırlanmış hediyelerin bulunduğu bir dükkandasın.
-Dükkanda hayvanat bahçesiyle ilgili bazı eşyalar satılmakta. Kuzeye
-baktığında bir turnike dışarı dünyaya açılıyor, doğuda ise tekrar Hayvanat
-Bahçesine dönüyor. Tezgahın üstündeki tabela dikkatini çekiyor.
+Hediye DÃ¼kkanÄ±~
+Pek bir Ã¶zenle hazÄ±rlanmÄ±ÅŸ hediyelerin bulunduÄŸu bir dÃ¼kkandasÄ±n.
+DÃ¼kkanda hayvanat bahÃ§esiyle ilgili bazÄ± eÅŸyalar satÄ±lmakta. Kuzeye
+baktÄ±ÄŸÄ±nda bir turnike dÄ±ÅŸarÄ± dÃ¼nyaya aÃ§Ä±lÄ±yor, doÄŸuda ise tekrar Hayvanat
+BahÃ§esine dÃ¶nÃ¼yor. TezgahÄ±n Ã¼stÃ¼ndeki tabela dikkatini Ã§ekiyor.
 ~
 8200 8 0
 D0
-Turnike Hayvanat Bahçesinin dışına çıkıyor.
+Turnike Hayvanat BahÃ§esinin dÄ±ÅŸÄ±na Ã§Ä±kÄ±yor.
 ~
 turnike~
 0 -1 8200
 D1
-Kapı aralığından Hayvanat Bahçesi kuyusunu görüyorsun.
+KapÄ± aralÄ±ÄŸÄ±ndan Hayvanat BahÃ§esi kuyusunu gÃ¶rÃ¼yorsun.
 ~
-kapı~
+kapÄ±~
 1 -1 8201
 E
-işaret tabela~
+iÅŸaret tabela~
 +----------------------+
 |  The Zoo Gift Shop   |
 |                      |
@@ -437,14 +437,14 @@ işaret tabela~
 ~
 S
 #8206
-Hayvanat Bahçesi Bakıcısı'nın Ofisi~
-Hayvanat Bahçesi bakıcısının ofisinde duruyorsun. Geniş bir masa ve
-üzerindeki birsürü kağıtlar odayı meşgul etmekte.
+Hayvanat BahÃ§esi BakÄ±cÄ±sÄ±'nÄ±n Ofisi~
+Hayvanat BahÃ§esi bakÄ±cÄ±sÄ±nÄ±n ofisinde duruyorsun. GeniÅŸ bir masa ve
+Ã¼zerindeki birsÃ¼rÃ¼ kaÄŸÄ±tlar odayÄ± meÅŸgul etmekte.
 ~
 8200 8 0
 D1
 ~
-kapı~
+kapÄ±~
 1 -1 8204
 E
 paper~
@@ -453,412 +453,412 @@ zoo for the last week. Wow! You realise this guy is making a packet.
 ~
 S
 #8207
-Hayvanat Bahçesinde bir Anayol~
-Anayol'un ortasında duruyorsun; güneye, kuzeye, batıya ve doğuya giden
-patikalar görüyorsun.
+Hayvanat BahÃ§esinde bir Anayol~
+Anayol'un ortasÄ±nda duruyorsun; gÃ¼neye, kuzeye, batÄ±ya ve doÄŸuya giden
+patikalar gÃ¶rÃ¼yorsun.
 ~
 0 0 1
 D0
-Küçük bir patika görüyorsun.
+KÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8204
 D1
-Küçük bir patika görüyorsun.
+KÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8208
 D2
-Küçük bir patika görüyorsun.
+KÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8209
 D3
-Küçük bir patika görüyorsun.
+KÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8210
 S
 #8208
-Kafesler arasındaki bir patika~
-Meşhur Selenge Hayvanat Bahçesinde bir patikada duruyorsun. Kuzeyde ve
-güneyde kafesler var. Patika doğuya ve batıya doğru devam ediyor.
+Kafesler arasÄ±ndaki bir patika~
+MeÅŸhur Selenge Hayvanat BahÃ§esinde bir patikada duruyorsun. Kuzeyde ve
+gÃ¼neyde kafesler var. Patika doÄŸuya ve batÄ±ya doÄŸru devam ediyor.
 ~
 0 0 1
 D0
-Goril kafese yaklaştığında senin göğsüne vuruyor, sana meydan
-okurmuşçasına. O kadar akıllı olamazlar ama değil mi?
+Goril kafese yaklaÅŸtÄ±ÄŸÄ±nda senin gÃ¶ÄŸsÃ¼ne vuruyor, sana meydan
+okurmuÅŸÃ§asÄ±na. O kadar akÄ±llÄ± olamazlar ama deÄŸil mi?
 ~
-kapı kafes~
+kapÄ± kafes~
 1 8200 8211
 D1
-Küçük bir kulübe gözüne çarpıyor.
+KÃ¼Ã§Ã¼k bir kulÃ¼be gÃ¶zÃ¼ne Ã§arpÄ±yor.
 ~
 ~
 0 -1 8213
 D2
-Büyük kahverengi bir ayı ayağa kalkıp hırlamaya başlıyor tamda sen
-yaklaşıp ona düzgün bir bakış attığında.
+BÃ¼yÃ¼k kahverengi bir ayÄ± ayaÄŸa kalkÄ±p hÄ±rlamaya baÅŸlÄ±yor tamda sen
+yaklaÅŸÄ±p ona dÃ¼zgÃ¼n bir bakÄ±ÅŸ attÄ±ÄŸÄ±nda.
 ~
-kapı kafes~
+kapÄ± kafes~
 1 8200 8212
 D3
-Anayolu görebiliyorsun.
+Anayolu gÃ¶rebiliyorsun.
 ~
 ~
 0 -1 8207
 S
 #8209
-Kafesler arasındaki bir patika~
-Meşhur Selenge Hayvanat Bahçesinde bir patikada duruyorsun. Batıda ve
-güneyde kafesler var. Patika kuzeye doğru devam ediyor.
+Kafesler arasÄ±ndaki bir patika~
+MeÅŸhur Selenge Hayvanat BahÃ§esinde bir patikada duruyorsun. BatÄ±da ve
+gÃ¼neyde kafesler var. Patika kuzeye doÄŸru devam ediyor.
 ~
 0 0 1
 D0
-Anayolu görebiliyorsun.
+Anayolu gÃ¶rebiliyorsun.
 ~
 ~
 0 -1 8207
 D2
-Kafesin içindeki kaplanı görüyorsun, kaplan kafesin bir ucundan diğer
-ucuna yürüyüyor; sıkılmış olsa gerek.
+Kafesin iÃ§indeki kaplanÄ± gÃ¶rÃ¼yorsun, kaplan kafesin bir ucundan diÄŸer
+ucuna yÃ¼rÃ¼yÃ¼yor; sÄ±kÄ±lmÄ±ÅŸ olsa gerek.
 ~
-kapı kafes~
+kapÄ± kafes~
 1 8200 8214
 D3
-Batıdaki kafeste bir fil sakince duruyor.
+BatÄ±daki kafeste bir fil sakince duruyor.
 ~
-kapı kafes~
+kapÄ± kafes~
 1 8200 8215
 S
 #8210
-Kafesler arasındaki bir patika~
-Meşhur Selenge Hayvanat Bahçesinde bir patikadasın. Kuzeyde ve güneyde
-bazı kafesler var. Kafeslerin içinde havuzlar görüyorsun. Patika doğuya
-doğru geri dönüyor.
+Kafesler arasÄ±ndaki bir patika~
+MeÅŸhur Selenge Hayvanat BahÃ§esinde bir patikadasÄ±n. Kuzeyde ve gÃ¼neyde
+bazÄ± kafesler var. Kafeslerin iÃ§inde havuzlar gÃ¶rÃ¼yorsun. Patika doÄŸuya
+doÄŸru geri dÃ¶nÃ¼yor.
 ~
 0 0 1
 D0
-Sayısız timsah görüyorsun kafesin ardında, hepside havuzda çırpınmaya
-çalışıyor.
+SayÄ±sÄ±z timsah gÃ¶rÃ¼yorsun kafesin ardÄ±nda, hepside havuzda Ã§Ä±rpÄ±nmaya
+Ã§alÄ±ÅŸÄ±yor.
 ~
-kapı kafes~
+kapÄ± kafes~
 1 8200 8216
 D1
-Anayolu görüyorsun.
+Anayolu gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8207
 D2
-Sayısız yunus görebiliyorsun kafesin ardında, birbirleriyle suda oyun
+SayÄ±sÄ±z yunus gÃ¶rebiliyorsun kafesin ardÄ±nda, birbirleriyle suda oyun
 oynuyorlar.
 ~
-kafes kapı~
+kafes kapÄ±~
 1 8200 8217
 S
 #8211
 Goril Kafesi~
-Hayvanat Bahçesin'deki Goril kafesinin içindesin. Kocaman fakat tek
-başına durmuş bir ağaç görüyorsun. Kafesin dış kapısı güneyde.
+Hayvanat BahÃ§esin'deki Goril kafesinin iÃ§indesin. Kocaman fakat tek
+baÅŸÄ±na durmuÅŸ bir aÄŸaÃ§ gÃ¶rÃ¼yorsun. Kafesin dÄ±ÅŸ kapÄ±sÄ± gÃ¼neyde.
 ~
 0 0 1
 D2
-Kafesin hemen dışında küçük bir patika görüyorsun.
+Kafesin hemen dÄ±ÅŸÄ±nda kÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
-kafes kapı~
+kafes kapÄ±~
 1 8200 8208
 S
 #8212
-Ayı Kafesi~
-Hayvanat Bahçesin'deki Ayı kafesinin içindesin. Kafesin bir köşesinde
-birsürü yarısı yenmiş et duruyor. Hadi bunları dün yediyse ve şimdi açsa
-diye düşünüyorsun. Kafesin çıkış kapısı kuzeyde duruyor.
+AyÄ± Kafesi~
+Hayvanat BahÃ§esin'deki AyÄ± kafesinin iÃ§indesin. Kafesin bir kÃ¶ÅŸesinde
+birsÃ¼rÃ¼ yarÄ±sÄ± yenmiÅŸ et duruyor. Hadi bunlarÄ± dÃ¼n yediyse ve ÅŸimdi aÃ§sa
+diye dÃ¼ÅŸÃ¼nÃ¼yorsun. Kafesin Ã§Ä±kÄ±ÅŸ kapÄ±sÄ± kuzeyde duruyor.
 ~
 0 0 1
 D0
-Kafesin dışında küçük bir patika görüyorsun.
+Kafesin dÄ±ÅŸÄ±nda kÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
-kafes kapı~
+kafes kapÄ±~
 1 8200 8208
 S
 #8213
-Patikada bir kıvrım~
-Patika batıdan güneye doğru kıvrılıyor. Küçük bir kulübeye giden kapı
-doğuda duruyor.
+Patikada bir kÄ±vrÄ±m~
+Patika batÄ±dan gÃ¼neye doÄŸru kÄ±vrÄ±lÄ±yor. KÃ¼Ã§Ã¼k bir kulÃ¼beye giden kapÄ±
+doÄŸuda duruyor.
 ~
 0 0 1
 D1
-Kapı oldukça zayıf.
+KapÄ± oldukÃ§a zayÄ±f.
 ~
-kapı~
+kapÄ±~
 1 -1 8219
 D2
-Küçük bir patika görüyorsun.
+KÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8218
 D3
-Küçük bir patika görüyorsun.
+KÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8208
 S
 #8214
 Kaplan Kafesi~
-Hayvanat Bahçesindeki Kaplan kafesindesin. Yerlerde uzun çimenler
-büyüyor. Tahmin etmeye pek gerek yok sanırım neden çimenlerin biçilmediğine.
-Birden kafesin içinde olduğunun farkına varıyorsun. Sen ne yaptın? Belkide
-hemen kuzeydeki kapıya koşup kafesten çıkmalısın.
+Hayvanat BahÃ§esindeki Kaplan kafesindesin. Yerlerde uzun Ã§imenler
+bÃ¼yÃ¼yor. Tahmin etmeye pek gerek yok sanÄ±rÄ±m neden Ã§imenlerin biÃ§ilmediÄŸine.
+Birden kafesin iÃ§inde olduÄŸunun farkÄ±na varÄ±yorsun. Sen ne yaptÄ±n? Belkide
+hemen kuzeydeki kapÄ±ya koÅŸup kafesten Ã§Ä±kmalÄ±sÄ±n.
 ~
 0 0 1
 D0
-Kafesin diğer tarafında küçük bir patika görüyorsun.
+Kafesin diÄŸer tarafÄ±nda kÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
-kapı kafes~
+kapÄ± kafes~
 1 8200 8209
 S
 #8215
 Fil Kafesi~
-Hayvanat Bahçesinin Fil kafesinin içindesin. Zeminin sert ve tozlu
-olduğunu farkediyorsun. Kafesin dışına çıkan kapı doğu tarafında.
+Hayvanat BahÃ§esinin Fil kafesinin iÃ§indesin. Zeminin sert ve tozlu
+olduÄŸunu farkediyorsun. Kafesin dÄ±ÅŸÄ±na Ã§Ä±kan kapÄ± doÄŸu tarafÄ±nda.
 ~
 0 0 1
 D1
-Kafesin dışında küçük bir patika görüyorsun.
+Kafesin dÄ±ÅŸÄ±nda kÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
-kapı kafes~
+kapÄ± kafes~
 1 8200 8209
 S
 #8216
 Timsah Kafesi~
-Hayvanat Bahçesinin Timsah kafesinin içindesin. Kafesin çoğu kısmını bir
-havuz kaplıyor. Kafesin dışına çıkan kapı güney tarafında duruyor.
+Hayvanat BahÃ§esinin Timsah kafesinin iÃ§indesin. Kafesin Ã§oÄŸu kÄ±smÄ±nÄ± bir
+havuz kaplÄ±yor. Kafesin dÄ±ÅŸÄ±na Ã§Ä±kan kapÄ± gÃ¼ney tarafÄ±nda duruyor.
 ~
 0 0 6
 D2
-Kafesin dışında küçük bir patika görüyorsun.
+Kafesin dÄ±ÅŸÄ±nda kÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
-kapı kafes~
+kapÄ± kafes~
 1 8200 8210
 S
 #8217
 Yunus Kafesi~
-Hayvanat Bahçesindeki yunus kafesinin içindesin. Havuzun içinde
-yüzüyorsun. Kafesin dışına çıkan kapı kuzey tarafında.
+Hayvanat BahÃ§esindeki yunus kafesinin iÃ§indesin. Havuzun iÃ§inde
+yÃ¼zÃ¼yorsun. Kafesin dÄ±ÅŸÄ±na Ã§Ä±kan kapÄ± kuzey tarafÄ±nda.
 ~
 0 0 6
 D0
-Kafesin dışında küçük bir patika görüyorsun.
+Kafesin dÄ±ÅŸÄ±nda kÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
-kapı kafes~
+kapÄ± kafes~
 1 8200 8210
 S
 #8218
-Kafeslerin arasında bir patika~
-Meşhur Selenge Hayvanat Bahçesinde bir patikada duruyorsun. Doğuda ve
-güneyde kafesler bulunuyor, patika kuzeye doğru devam ediyor.
+Kafeslerin arasÄ±nda bir patika~
+MeÅŸhur Selenge Hayvanat BahÃ§esinde bir patikada duruyorsun. DoÄŸuda ve
+gÃ¼neyde kafesler bulunuyor, patika kuzeye doÄŸru devam ediyor.
 ~
 0 0 1
 D1
-Kafesin içindeki devasa kertenkeleyi görüyorsun.
+Kafesin iÃ§indeki devasa kertenkeleyi gÃ¶rÃ¼yorsun.
 ~
-kapı kafes~
+kapÄ± kafes~
 1 8200 8220
 D2
-Kafesin diğer tarafında beyaz boynuzlu bir at görüyorsun.
+Kafesin diÄŸer tarafÄ±nda beyaz boynuzlu bir at gÃ¶rÃ¼yorsun.
 ~
-kapı kafes~
+kapÄ± kafes~
 1 8200 8221
 D0
-Kapı aralığından küçük bir patikayı görebiliyorsun.
+KapÄ± aralÄ±ÄŸÄ±ndan kÃ¼Ã§Ã¼k bir patikayÄ± gÃ¶rebiliyorsun.
 ~
 ~
 0 -1 8213
 S
 #8219
 Hayvan yemek deposu~
-Küçük bir kulübede duruyorsun. Hayvanat Bahçesindeki bütün hayvanların
-yemeklerinin burada olduğunu rahatlıkla etrafındaki yemeklerden
-anlayabiliyorsun. Kulübenin dışına çıkan kapı batı yönünde.
+KÃ¼Ã§Ã¼k bir kulÃ¼bede duruyorsun. Hayvanat BahÃ§esindeki bÃ¼tÃ¼n hayvanlarÄ±n
+yemeklerinin burada olduÄŸunu rahatlÄ±kla etrafÄ±ndaki yemeklerden
+anlayabiliyorsun. KulÃ¼benin dÄ±ÅŸÄ±na Ã§Ä±kan kapÄ± batÄ± yÃ¶nÃ¼nde.
 ~
 8200 D 0
 D3
-Kapı oldukça zayıf.
+KapÄ± oldukÃ§a zayÄ±f.
 ~
-kapı~
+kapÄ±~
 1 -1 8213
 S
 #8220
 Bebek Ejderha Kafesi~
-Hayvanat Bahçesindeki bebek ejderhanın kafesinin içinde duruyorsun. Kafes
-neredeyse bomboş bebek dışında. Kafesin çıkış kapısı batıdaki kapıda.
+Hayvanat BahÃ§esindeki bebek ejderhanÄ±n kafesinin iÃ§inde duruyorsun. Kafes
+neredeyse bomboÅŸ bebek dÄ±ÅŸÄ±nda. Kafesin Ã§Ä±kÄ±ÅŸ kapÄ±sÄ± batÄ±daki kapÄ±da.
 ~
 0 0 1
 D3
-Kafesin dışında küçük bir patika görüyorsun.
+Kafesin dÄ±ÅŸÄ±nda kÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
-kapı kafes~
+kapÄ± kafes~
 1 8200 8218
 S
 #8221
-Tek boynuzlu At'ın kafesi~
-Hayvanat Bahçesindeki tek-boynuzlu at'ın kafesinin içindesin. Kafesin
-içerisi oldukça soğuk, kafesin kuzey duvarında çıkış kapısı var.
+Tek boynuzlu At'Ä±n kafesi~
+Hayvanat BahÃ§esindeki tek-boynuzlu at'Ä±n kafesinin iÃ§indesin. Kafesin
+iÃ§erisi oldukÃ§a soÄŸuk, kafesin kuzey duvarÄ±nda Ã§Ä±kÄ±ÅŸ kapÄ±sÄ± var.
 ~
 0 0 1
 D0
-Kafesin dışında küçük bir patika görüyorsun.
+Kafesin dÄ±ÅŸÄ±nda kÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
-kapı kafes~
+kapÄ± kafes~
 1 8200 8218
 S
 #8230
-Küçüklerin Hayvanat Bahçesi~
-Hayvanat Bahçesinin küçükler için yapılmış kısmının girişindesin. Batıda
-Hayvanat Bahçesi kuyusunu görüyorsun, doğuda ise küçük bir patika var.
+KÃ¼Ã§Ã¼klerin Hayvanat BahÃ§esi~
+Hayvanat BahÃ§esinin kÃ¼Ã§Ã¼kler iÃ§in yapÄ±lmÄ±ÅŸ kÄ±smÄ±nÄ±n giriÅŸindesin. BatÄ±da
+Hayvanat BahÃ§esi kuyusunu gÃ¶rÃ¼yorsun, doÄŸuda ise kÃ¼Ã§Ã¼k bir patika var.
 ~
 0 0 1
 D3
-Kuyuyu görebiliyorsun.
+Kuyuyu gÃ¶rebiliyorsun.
 ~
 ~
 0 -1 8201
 D1
-Küçük bir patika görüyorsun.
+KÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8231
 S
 #8231
-Hayvanat Bahçesi Küçükler Bölümünde küçük bir patika~
-Küçükler için yapılmış kısımda bir patikadasın. Kuzey tarafda keçilerin
-bulunduğu bir çit, güney taraftada domuzların bulunduğu bir çit bulunmakta.
-Patika doğuya ve batıdaki girişe doğru devam ediyor.
+Hayvanat BahÃ§esi KÃ¼Ã§Ã¼kler BÃ¶lÃ¼mÃ¼nde kÃ¼Ã§Ã¼k bir patika~
+KÃ¼Ã§Ã¼kler iÃ§in yapÄ±lmÄ±ÅŸ kÄ±sÄ±mda bir patikadasÄ±n. Kuzey tarafda keÃ§ilerin
+bulunduÄŸu bir Ã§it, gÃ¼ney taraftada domuzlarÄ±n bulunduÄŸu bir Ã§it bulunmakta.
+Patika doÄŸuya ve batÄ±daki giriÅŸe doÄŸru devam ediyor.
 ~
 0 0 1
 D0
-Keçi ailesini görebiliyorsun.
+KeÃ§i ailesini gÃ¶rebiliyorsun.
 ~
 ~
 0 -1 8232
 D1
-Küçük bir patika görüyorsun.
+KÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8234
 D2
-Çamurun içine atlayan domuzları görüyorsun.
+Ã‡amurun iÃ§ine atlayan domuzlarÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8233
 D3
-Girişi görebiliyorsun.
+GiriÅŸi gÃ¶rebiliyorsun.
 ~
 ~
 0 -1 8230
 S
 #8232
-Keçi çiti~
-Düşmüş geniş bir ağaç burada duruyor, çocukların gelip keçilerle
-oynamasına olanak sağlıyor. Güneyde küçük bir patika yatıyor.
+KeÃ§i Ã§iti~
+DÃ¼ÅŸmÃ¼ÅŸ geniÅŸ bir aÄŸaÃ§ burada duruyor, Ã§ocuklarÄ±n gelip keÃ§ilerle
+oynamasÄ±na olanak saÄŸlÄ±yor. GÃ¼neyde kÃ¼Ã§Ã¼k bir patika yatÄ±yor.
 ~
 0 0 1
 D2
-Küçük bir patika görüyorsun.
+KÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8231
 S
 #8233
-Domuz Çiti~
-Dizlerine kadar çamurun içinde duruyorsun. Kötü bir koku senin bütün duyu
-organlarını faal duruma düşürmekte. Kuzeye küçük patikaya gidebilirsin.
+Domuz Ã‡iti~
+Dizlerine kadar Ã§amurun iÃ§inde duruyorsun. KÃ¶tÃ¼ bir koku senin bÃ¼tÃ¼n duyu
+organlarÄ±nÄ± faal duruma dÃ¼ÅŸÃ¼rmekte. Kuzeye kÃ¼Ã§Ã¼k patikaya gidebilirsin.
 ~
 0 0 1
 D0
-Küçük bir patika görüyorsun.
+KÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8231
 S
 #8234
-Hayvanat Bahçesinin Küçükler için olan bölümünde bir patika~
-Hayvanat Bahçesinin küçükler için yapılmış kısmında küçük bir
-patikadasın. Kuzeyde büyük kuş kafesleri günde ise ahır görüyorsun. Batıya
-doğru geri dönen bir patika bulunmakta.
+Hayvanat BahÃ§esinin KÃ¼Ã§Ã¼kler iÃ§in olan bÃ¶lÃ¼mÃ¼nde bir patika~
+Hayvanat BahÃ§esinin kÃ¼Ã§Ã¼kler iÃ§in yapÄ±lmÄ±ÅŸ kÄ±smÄ±nda kÃ¼Ã§Ã¼k bir
+patikadasÄ±n. Kuzeyde bÃ¼yÃ¼k kuÅŸ kafesleri gÃ¼nde ise ahÄ±r gÃ¶rÃ¼yorsun. BatÄ±ya
+doÄŸru geri dÃ¶nen bir patika bulunmakta.
 ~
 0 0 1
 D0
-Tahtanın üstünden bir başka tahtanın üstüne uçan kuşlar görüyorsun.
+TahtanÄ±n Ã¼stÃ¼nden bir baÅŸka tahtanÄ±n Ã¼stÃ¼ne uÃ§an kuÅŸlar gÃ¶rÃ¼yorsun.
 ~
-kapı~
+kapÄ±~
 1 -1 8236
 D3
-Küçük bir patika görüyorsun.
+KÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8231
 D2
-Ahırdan bir sürü atın sesi geliyor.
+AhÄ±rdan bir sÃ¼rÃ¼ atÄ±n sesi geliyor.
 ~
-kapı~
+kapÄ±~
 1 -1 8235
 S
 #8235
-Ahır~
-Küçük bir ahırdasın. Bütün zemin samanla örtülmüş durumda, çeşitli at
-ayakları ve bir sürü şey daha duvarlara çivilenmiş duruyor. Ahırın çıkış
-kapısı kuzeyde duruyor.
+AhÄ±r~
+KÃ¼Ã§Ã¼k bir ahÄ±rdasÄ±n. BÃ¼tÃ¼n zemin samanla Ã¶rtÃ¼lmÃ¼ÅŸ durumda, Ã§eÅŸitli at
+ayaklarÄ± ve bir sÃ¼rÃ¼ ÅŸey daha duvarlara Ã§ivilenmiÅŸ duruyor. AhÄ±rÄ±n Ã§Ä±kÄ±ÅŸ
+kapÄ±sÄ± kuzeyde duruyor.
 ~
 0 D 0
 D0
-Kapının çıkışında küçük bir patika birda ötesinde kuş kafesi görüyorsun.
+KapÄ±nÄ±n Ã§Ä±kÄ±ÅŸÄ±nda kÃ¼Ã§Ã¼k bir patika birda Ã¶tesinde kuÅŸ kafesi gÃ¶rÃ¼yorsun.
 ~
-kapı~
+kapÄ±~
 1 -1 8234
 S
 #8236
-Büyük Kuş Kafesi~
-Büyük bir kuş kafesindesin. Kafes kuzeye doğru devam ediyor, güneyde ise
-çıkış kapısı var.
+BÃ¼yÃ¼k KuÅŸ Kafesi~
+BÃ¼yÃ¼k bir kuÅŸ kafesindesin. Kafes kuzeye doÄŸru devam ediyor, gÃ¼neyde ise
+Ã§Ä±kÄ±ÅŸ kapÄ±sÄ± var.
 ~
 0 D 0
 D0
-Kafesin dahada devam ettiğini görüyorsun.
+Kafesin dahada devam ettiÄŸini gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8237
 D2
-Kapının penceresinden küçük bir patika görüyorsun.
+KapÄ±nÄ±n penceresinden kÃ¼Ã§Ã¼k bir patika gÃ¶rÃ¼yorsun.
 ~
-kapı~
+kapÄ±~
 1 -1 8234
 S
 #8237
-Büyük Kuş Kafesi~
-Büyük bir kuş kafesinde duruyorsun. Kafes batıya ve güneye doğru devam
+BÃ¼yÃ¼k KuÅŸ Kafesi~
+BÃ¼yÃ¼k bir kuÅŸ kafesinde duruyorsun. Kafes batÄ±ya ve gÃ¼neye doÄŸru devam
 ediyor.
 ~
 0 D 2
 D2
-Kafesin devamını görüyorsun.
+Kafesin devamÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8236
 D3
-Kafesin devamını görüyorsun.
+Kafesin devamÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8238
 S
 #8238
-Büyük Kuş Kafesi~
-Büyük kuş kafesinin donunda duruyorsun. Kafesin geri kalan kısmı doğuda
+BÃ¼yÃ¼k KuÅŸ Kafesi~
+BÃ¼yÃ¼k kuÅŸ kafesinin donunda duruyorsun. Kafesin geri kalan kÄ±smÄ± doÄŸuda
 duruyor.
 ~
 0 D 0
 D1
-Kafesin devamını görüyorsun.
+Kafesin devamÄ±nÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8237

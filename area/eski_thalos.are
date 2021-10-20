@@ -1,6 +1,6 @@
 #AREADATA
-Filename eski_selenge.are~
-Name Eski Selenge~
+Filename eski_thalos.are~
+Name Eski Thalos~
 Builder Kahn~
 Translator Bilinmiyor~
 Language Yarı Türkçe~
@@ -41,8 +41,8 @@ human~
 ACH 0 4
 #5302
 eskitip vatandaş adam~
-bir Eski Selenge vatandaşı~
-Bir Eski Selenge vatandaşı burada, herkesle sohbet ediyor.
+bir Thalos vatandaşı~
+Bir Thalos vatandaşı burada, herkesle sohbet ediyor.
 ~
 He smiles at you, almost as if he knows you.  He is so friendly, you have no
 choice but to reciprocate.
@@ -52,7 +52,7 @@ AGH 0 5
 #5303
 eskitip muhafız ihtişamlı şehirmuhafızı~
 ihtişamlı bir şehirmuhafızı~
-ihtişamlı bir şehir muhafızı burada, Eski Selenge'nin huzurunu koruyor.
+ihtişamlı bir şehir muhafızı burada, Thalos'un huzurunu koruyor.
 ~
 He is dressed in plate, and he looks quite formidable.  At the moment, though,
 he is just giggling with a kid running about.
@@ -61,8 +61,8 @@ human~
 ACGT H 17
 #5304
 eskitip vatandaş kadın dişi~
-bir Eski Selenge kadın vatandaşı~
-Bir Eski Selenge kadın vatandaşı burada, yeni elbisesini sergiliyor.
+bir Thalos kadın vatandaşı~
+Bir Thalos kadın vatandaşı burada, yeni elbisesini sergiliyor.
 ~
 She is beautiful, dressed in a sundress that sparkles with gems sown in.  She
 smiles at you, and your heart flutters at the thought that you have her
@@ -73,7 +73,7 @@ AGH 0 5
 #5305
 eskitip gordon koruyucu~
 Cesur Gordon~
-Cesur Gordon, Eski Selenge'nin koruyucusu, burada, kimseye değil sana,
+Cesur Gordon, Thalos un koruyucusu, burada, kimseye değil sana,
 şehirdeki tek yabancıya bakıyor.
 ~
 Gordon is dressed in full mithril plate, and he looks indestructible.  He eyes
@@ -85,10 +85,10 @@ AT H 35
 #5306
 eskitip rahip~
 bağnaz rahip~
-Bağnaz bir rahip burada, Eski Selenge'nin yokoluşuna dair kehanetlerde bulunuyor.
+Bağnaz bir rahip burada, Thalos'un yokoluşuna dair kehanetlerde bulunuyor.
 ~
 The priest must have lost his mind.  He keeps saying that one day, evil will
-prevail and take over Eski Selenge and bring the whole city down.  Obviously, no one
+prevail and take over Thalos and bring the whole city down.  Obviously, no one
 listens to this fool.  The priest's right fist is covered in golden silk,
 and he clenches it at you.  Other than that, he is dressed all in black.
 ~
@@ -96,10 +96,10 @@ human~
 ABHQ 0 10
 #5307
 eskitip rahip~
-Eski Selenge rahibi~
-Eski Selenge rahibi sana şehrin zaferlerini anlatıyor.
+Thalos rahibi~
+Thalos rahibi sana şehrin zaferlerini anlatıyor.
 ~
-He stands here gloriously telling of Eski Selenge's history, how it is now referred by
+He stands here gloriously telling of Thalos's history, how it is now referred by
 the world as 'The City of Peace'.  He is very happy to be the high priest here.
 ~
 human~
@@ -116,10 +116,10 @@ golem~
 AB N 30
 #5309
 eskitip belediye başkanı~
-Eski Selenge belediye başkanı~
-Eski Selenge belediye başkanı burada oturmuş, evrak işleriyle uğraşıyor.
+Thalos belediye başkanı~
+Thalos belediye başkanı burada oturmuş, evrak işleriyle uğraşıyor.
 ~
-He looks very busy, but he takes the time to say, 'Hi!  Welcome to Eski Selenge!'
+He looks very busy, but he takes the time to say, 'Hi!  Welcome to Thalos!'
 He looks very proud of his work.
 ~
 human~
@@ -225,7 +225,7 @@ ihtişamlı bir şehir muhafızı~
 ihtişamlı bir şehir muhafızı şehirdeki devriyeleri gözlüyor.
 ~
 He is dressed in plate, and he looks quite formidable.  At the moment,
-he is looking at a map of Eski Selenge aside his fellow co-workers keeping
+he is looking at a map of Thalos aside his fellow co-workers keeping
 track of each city patrol.
 ~
 human~
@@ -307,8 +307,8 @@ human~
 AGHQ DN 10
 #5329
 eskitip müzisyen ozan~
-Eski Selenge'li müzisyen~
-Bir ozan Eski Selenge'nin zaferlerine dair şarkı söylüyor.
+Thalos'lu müzisyen~
+Bir ozan Thalos'un zaferlerine dair şarkı söylüyor.
 ~
 This musical fellow plays a happy song with his fellow comrades.
 ~
@@ -316,10 +316,10 @@ human~
 ABC 0 8
 #5330
 eskitip müzisyen ozan~
-Eski Selenge'li müzisyen~
-Bu ozan Eski Selenge'nin zaferlerine dair şarkı söylerken hoplayıp zıplıyor.
+Thalos'lu müzisyen~
+Bu ozan Thalos'un zaferlerine dair şarkı söylerken hoplayıp zıplıyor.
 ~
-This musical fellow wanders the world singing of the glory of Eski Selenge.
+This musical fellow wanders the world singing of the glory of Thalos.
 ~
 human~
 AC 0 9
@@ -875,7 +875,7 @@ map old~
 
 #ROOMS
 #5300
-Eski Selenge'nin Görkemli Kapısı~
+Thalos'un Görkemli Kapısı~
 You stand in the archway of a gigantic stone archway. The two
 steel gates look indestructible, yet they are elaborate in engravings.  You can
 hear laughter and good cheer from the other side of these gates.  Obviously,
@@ -1176,7 +1176,7 @@ S
 #5312
 Bir Yan Sokak~
 This small side street leads south away from the temple into the
-business section of town. To the east is the famous City Hall of Eski Selenge.
+business section of town. To the east is the famous City Hall of Thalos.
 Well disciplined guards stand at attention, watching over the city hall, but
 you don't see any source of threats in THIS city.  North is a garden path,
 west is a smithy, and this side street continues south.
@@ -1189,7 +1189,7 @@ A small garden path encircles the temple.
 0 0 5306
 D1
 You see what is most definitely city hall.  This building is the most
-elaborate of all the building here in Eski Selenge.
+elaborate of all the building here in Thalos.
 ~
 ~
 1 -1 5332
@@ -1261,7 +1261,7 @@ S
 Başka Bir Görkemli Gözcü Kulesinin Altında~
 You stand at the base of a tall ivy covered watchtower built to
 protect the city from invaders.  You get the feeling of safety here in
-Eski Selenge.
+Thalos.
 ~
 0 0 1
 D0
@@ -1342,7 +1342,7 @@ Lonca Evi~
 You are standing in this city's ONLY guild house.  Tables and chairs
 are set about for the occupants' comfort.  Weapons are stacked neatly on the
 weapons rack.  Each weapon looks polished, sharpened, and oiled.
-Draped along the back wall is the proud banner of Eski Selenge in all its glory.
+Draped along the back wall is the proud banner of Thalos in all its glory.
 ~
 0 D 1
 D1
@@ -1472,7 +1472,7 @@ Outside is a small side street.
 S
 #5327
 Taştan Bir Ev~
-This small house is the dwelling of a humble citizen of Eski Selenge.
+This small house is the dwelling of a humble citizen of Thalos.
 A few rafters stand with thatched straw blowing with the wind gusts
 blowing through the city.
 ~
@@ -1515,8 +1515,8 @@ S
 #5330
 Güneş Tavernası~
 A glorious place, this tavern is second home for many citizens of
-Eski Selenge.  Tables and chairs are set in rows, bottles and glasses filled,
-and a small performance stage teaming with dazzling entertainment. Musical
+Thalos.  Tables and chairs are set in rows, bottles and glasses filled, and
+a small performance stage teaming with dazzling entertainment. Musical
 instruments and personal belongings lie in piles belonging to each member
 of this room.
 ~
@@ -1548,7 +1548,7 @@ D1
 S
 #5332
 Valilik~
-This is the main reception area of Eski Selenge's city hall. The walls have
+This is the main reception area of Thalos' city hall. The walls have
 been painted in pure white and thick lush carpet line the floor wall to wall.
 A side door on the west wall allows you to go out to one of the city's side
 streets.  Hallways lead south and east.
@@ -1593,7 +1593,7 @@ D3
 0 0 5332
 S
 #5334
-Eski Selenge'nin Özel Arazi Ve Avluları~
+Thalos'un Özel Arazi Ve Avluları~
 You stare in awe as the beauty of this place takes you by
 surprise.  Exotic flowers and trees are planted in neat rows and lawn
 benches line the walk ways.  A large marble fountain in the center of the
@@ -1612,7 +1612,7 @@ D3
 S
 #5335
 Küçük Bir Muhafız Evi~
-This is the barracks for Eski Selenge's cityguards.  Guards populate this
+This is the barracks for Thalos' cityguards.  Guards populate this
 shack ready, willing, and able to ward off any trouble.  This small
 shack stands guarding both to the entrance to the city and to the city hall.
 ~
@@ -1625,7 +1625,7 @@ The alley runs by this building.
 S
 #5336
 Etkileyici Bir Ev~
-This house houses the Defender of Eski Selenge.  He represents all that
+This house houses the Defender of Thalos.  He represents all that
 is good and right in this city.  As the most skilled fighting machine,
 he is the commander of the guard.
 ~
@@ -1838,7 +1838,7 @@ The city lies below.
 0 0 5341
 S
 #5350
-Eski Selenge Tapınağı~
+Thalos Tapınağı~
 You stand within one of the most holy places in the realm. This stunning
 domed temple houses the city's worshipers en masse. Long benches line the
 aisles and the altar glistens with the gold and platinum inlay.The walls and
@@ -1957,7 +1957,7 @@ Patikayı görüyorsun.
 ~
 0 0 5357
 D3
-You see Eski Selenge!
+You see Thalos!
 ~
 ~
 0 0 5300
@@ -2241,7 +2241,7 @@ S
 #5370
 İlahi Kayran~
 You are standing in the middle of the sacred glades, where the citizens of
-Eski Selenge come to celebrate the spring, where farmers give thanks for bountiful
+Thalos come to celebrate the spring, where farmers give thanks for bountiful
 harvest in the fall, and where lovers stroll in summer. You feel seasons of
 remembered happiness and joy taking Your sorrows and worries away from You,
 leaving You calm and invigorate, ready for the world. Paths lead into the
@@ -3093,7 +3093,7 @@ E 1 5332  -1   16	*   a two-handed sword
 E 1 5226  12   17	*   an engraved ivory seal
 M 0 5300   1 5350  1	* the baby beholder
 E 1 5243   1   17	*   a clear stone
-M 0 5307   1 5350  1	* the priest of Eski Selenge
+M 0 5307   1 5350  1	* the priest of Thalos
 E 1 5302   8   17	*   a green serpentine staff
 E 1 5223  10    3	*   a dark green cloak
 M 0 5301  20 5300  1	* the pet lamia
@@ -3137,11 +3137,11 @@ E 1 5300  -1    3	*   a lamia collar
 M 0 5301  20 5354  1	* the pet lamia
 E 1 5300  -1    3	*   a lamia collar
 O 0 5306   1 5334	* a large beautiful fountain
-M 0 5330   1 5300  1	* bard of Eski Selenge
+M 0 5330   1 5300  1	* bard of Thalos
 E 1 5311   3   17	*   a silver flute
-M 0 5329   2 5330  2	* bard of Eski Selenge
+M 0 5329   2 5330  2	* bard of Thalos
 E 1 5309   3   17	*   a mandolin
-M 0 5329   2 5330  2	* bard of Eski Selenge
+M 0 5329   2 5330  2	* bard of Thalos
 E 1 5310   3   17	*   a golden harp
 M 0 5316   2 5345  2	* a young scholar
 M 0 5315   1 5337  1	* the librarian
@@ -3181,7 +3181,7 @@ M 0 5314   1 5321  1	* Ben the Smith
 G 1  601  -1     	*   a meat cleaver
 G 1  615  -1     	*   a pitchfork
 M 0 5317   1 5338  1	* an old wizard
-M 0 5309   1 5331  1	* the mayor of Eski Selenge
+M 0 5309   1 5331  1	* the mayor of Thalos
 E 1 5224   9   17	*   an engraved ebony seal
 O 0 5307   1 5331	* the curved desk
 P 1 5304   4 5307  1	*   a scroll of enchantment
@@ -3291,24 +3291,24 @@ E 1 5319  10    5	*   an imperial chest plate
 E 1 5327  10   12	*   an imperial cape
 E 1 5328  10   13	*   an imperial belt
 E 1 5318  -1   16	*   an imperial mace
-M 0 5304   9 5302  1	* a female citizen of Eski Selenge
-M 0 5302   9 5304  1	* a citizen of Eski Selenge
-M 0 5304   9 5307  1	* a female citizen of Eski Selenge
-M 0 5302   9 5308  1	* a citizen of Eski Selenge
-M 0 5304   9 5312  1	* a female citizen of Eski Selenge
-M 0 5302   9 5316  1	* a citizen of Eski Selenge
-M 0 5304   9 5326  1	* a female citizen of Eski Selenge
-M 0 5302   9 5327  1	* a citizen of Eski Selenge
-M 0 5304   9 5330  1	* a female citizen of Eski Selenge
-M 0 5302   9 5330  1	* a citizen of Eski Selenge
-M 0 5304   9 5332  1	* a female citizen of Eski Selenge
-M 0 5302   9 5338  1	* a citizen of Eski Selenge
-M 0 5304   9 5340  1	* a female citizen of Eski Selenge
-M 0 5302   9 5344  1	* a citizen of Eski Selenge
-M 0 5304   9 5344  1	* a female citizen of Eski Selenge
-M 0 5302   9 5350  1	* a citizen of Eski Selenge
-M 0 5304   9 5361  1	* a female citizen of Eski Selenge
-M 0 5302   9 5367  9	* a citizen of Eski Selenge
+M 0 5304   9 5302  1	* a female citizen of Thalos
+M 0 5302   9 5304  1	* a citizen of Thalos
+M 0 5304   9 5307  1	* a female citizen of Thalos
+M 0 5302   9 5308  1	* a citizen of Thalos
+M 0 5304   9 5312  1	* a female citizen of Thalos
+M 0 5302   9 5316  1	* a citizen of Thalos
+M 0 5304   9 5326  1	* a female citizen of Thalos
+M 0 5302   9 5327  1	* a citizen of Thalos
+M 0 5304   9 5330  1	* a female citizen of Thalos
+M 0 5302   9 5330  1	* a citizen of Thalos
+M 0 5304   9 5332  1	* a female citizen of Thalos
+M 0 5302   9 5338  1	* a citizen of Thalos
+M 0 5304   9 5340  1	* a female citizen of Thalos
+M 0 5302   9 5344  1	* a citizen of Thalos
+M 0 5304   9 5344  1	* a female citizen of Thalos
+M 0 5302   9 5350  1	* a citizen of Thalos
+M 0 5304   9 5361  1	* a female citizen of Thalos
+M 0 5302   9 5367  9	* a citizen of Thalos
 R 0 5375   5     	* The Void
 R 0 5376   6     	* The Void
 R 0 5377   6     	* The Void
@@ -3432,7 +3432,7 @@ M 5300 spec_cast_mage      	* the baby beholder
 M 5303 spec_guard          	* an imperial cityguard
 M 5305 spec_guard          	* Gordon the Brave
 M 5306 spec_cast_cleric    	* the fanatic priest
-M 5307 spec_cast_cleric    	* the priest of Eski Selenge
+M 5307 spec_cast_cleric    	* the priest of Thalos
 M 5317 spec_cast_mage      	* an old wizard
 M 5320 spec_guard          	* An imperial cityguard
 M 5321 spec_guard          	* an imperial cityguard

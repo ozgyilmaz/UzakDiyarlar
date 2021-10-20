@@ -1,9 +1,9 @@
 #AREADATA
 Filename beyaz_lotus_tapinagi.are~
-Name Beyaz Lotus Tapınağı~
+Name Beyaz Lotus TapÄ±naÄŸÄ±~
 Builder Strahd~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 1
 Highlevel 50
 Minvnum 10701
@@ -16,9 +16,9 @@ END
 
 #NEW_MOBILES
 #10701
-keşiş temizlikçi~
-keşiş~
-Bir tapınak keşişi burada yolu temizliyor ve parlatıyor.
+keÅŸiÅŸ temizlikÃ§i~
+keÅŸiÅŸ~
+Bir tapÄ±nak keÅŸiÅŸi burada yolu temizliyor ve parlatÄ±yor.
 ~
 He looks to be a student of the temple. He is dressed in a loose brown
 robe. He is diligently cleaning the walkway.
@@ -26,89 +26,89 @@ robe. He is diligently cleaning the walkway.
 human~
 3 0 15
 #10702
-keşiş yaşlı~
-yaşlı keşiş~
-Yaşlı bir keşiş burada dua ediyor.
+keÅŸiÅŸ yaÅŸlÄ±~
+yaÅŸlÄ± keÅŸiÅŸ~
+YaÅŸlÄ± bir keÅŸiÅŸ burada dua ediyor.
 ~
 ~
 human~
 3 0 25
 #10703
-keşiş öğrenci~
-öğrenci~
-Bir tapınak öğrencisi burada kung fu çalışıyor.
+keÅŸiÅŸ Ã¶ÄŸrenci~
+Ã¶ÄŸrenci~
+Bir tapÄ±nak Ã¶ÄŸrencisi burada kung fu Ã§alÄ±ÅŸÄ±yor.
 ~
 ~
 human~
 3 0 5
 #10704
-keşiş gelişkin öğrenci~
-öğrenci~
-Bir tapınak öğrencisi burada kung fu çalışıyor.
+keÅŸiÅŸ geliÅŸkin Ã¶ÄŸrenci~
+Ã¶ÄŸrenci~
+Bir tapÄ±nak Ã¶ÄŸrencisi burada kung fu Ã§alÄ±ÅŸÄ±yor.
 ~
 ~
 human~
 3 0 12
 #10705
-öğretmen keşiş~
-öğretmen~
-Bir tapınak öğretmeni burada öğrencileri eğitiyor.
+Ã¶ÄŸretmen keÅŸiÅŸ~
+Ã¶ÄŸretmen~
+Bir tapÄ±nak Ã¶ÄŸretmeni burada Ã¶ÄŸrencileri eÄŸitiyor.
 ~
 ~
 human~
 3 0 20
 #10706
-muhafız tapınak~
-tapınak muhafızı~
-Bir tapınak muhafızı burada.
+muhafÄ±z tapÄ±nak~
+tapÄ±nak muhafÄ±zÄ±~
+Bir tapÄ±nak muhafÄ±zÄ± burada.
 ~
 ~
 human~
 3 0 30
 #10707
-muhafız beyaz lotus~
-muhafız~
-Bir Beyaz Lotus muhafızı burada duruyor.
+muhafÄ±z beyaz lotus~
+muhafÄ±z~
+Bir Beyaz Lotus muhafÄ±zÄ± burada duruyor.
 ~
 ~
 human~
 3 0 30
 #10708
-mutfak görevlisi~
-mutfak görevlisi~
-Bir mutfak görevlisi burada askerler için yemek yapıyor.
+mutfak gÃ¶revlisi~
+mutfak gÃ¶revlisi~
+Bir mutfak gÃ¶revlisi burada askerler iÃ§in yemek yapÄ±yor.
 ~
 ~
 human~
 3 0 9
 #10709
-mutfak görevlisi~
-mutfak görevlisi~
-Bir mutfak görevlisi burada askerler için yemek yapıyor.
+mutfak gÃ¶revlisi~
+mutfak gÃ¶revlisi~
+Bir mutfak gÃ¶revlisi burada askerler iÃ§in yemek yapÄ±yor.
 ~
 ~
 human~
 3 0 12
 #10710
-asker tapınak kumar~
-tapınak askeri~
-Bir tapınak askeri burada kumar oynuyor.
+asker tapÄ±nak kumar~
+tapÄ±nak askeri~
+Bir tapÄ±nak askeri burada kumar oynuyor.
 ~
 ~
 human~
 3 0 13
 #10711
-asker tapınak tıkınan~
-tapınak askeri~
-Bir tapınak askeri burada pirinç tıkınıyor.
+asker tapÄ±nak tÄ±kÄ±nan~
+tapÄ±nak askeri~
+Bir tapÄ±nak askeri burada pirinÃ§ tÄ±kÄ±nÄ±yor.
 ~
 ~
 human~
 3 0 11
 #10712
-görevli tapınak~
-tapınak görevlisi~
-Bir tapınak görevlisi burada şarap içiyor.
+gÃ¶revli tapÄ±nak~
+tapÄ±nak gÃ¶revlisi~
+Bir tapÄ±nak gÃ¶revlisi burada ÅŸarap iÃ§iyor.
 ~
 ~
 human~
@@ -122,145 +122,145 @@ Bir mahkum burada yere kusuyor.
 human~
 3 0 7
 #10714
-keşiş yakaran~
-yakaran keşiş~
-Bir keşiş burada yakarıyor ve dua ediyor.
+keÅŸiÅŸ yakaran~
+yakaran keÅŸiÅŸ~
+Bir keÅŸiÅŸ burada yakarÄ±yor ve dua ediyor.
 ~
 ~
 human~
 3 0 16
 #10715
-bülbül~
-bülbül~
-Bir bülbül burada neşeli bir şekilde cıvıldıyor.
+bÃ¼lbÃ¼l~
+bÃ¼lbÃ¼l~
+Bir bÃ¼lbÃ¼l burada neÅŸeli bir ÅŸekilde cÄ±vÄ±ldÄ±yor.
 ~
 ~
 human~
 3 0 3
 #10716
-üye zehir klanı~
-Zehir Klanı üyesi~
-Bir Zehir Klanı üyesi acımasızca sana bakıyor.
+Ã¼ye zehir klanÄ±~
+Zehir KlanÄ± Ã¼yesi~
+Bir Zehir KlanÄ± Ã¼yesi acÄ±masÄ±zca sana bakÄ±yor.
 ~
 ~
 human~
 1|2 0 23
 #10717
-küçük kurbağa~
-küçük kurbağa~
-Küçük bir kurbağa burada vraklıyor.
+kÃ¼Ã§Ã¼k kurbaÄŸa~
+kÃ¼Ã§Ã¼k kurbaÄŸa~
+KÃ¼Ã§Ã¼k bir kurbaÄŸa burada vraklÄ±yor.
 ~
 ~
 human~
 1|2 0 14
 #10718
-minik kırkayak~
-minik kırkayak~
-Minik bir kırkayak yerde sürünüyor.
+minik kÄ±rkayak~
+minik kÄ±rkayak~
+Minik bir kÄ±rkayak yerde sÃ¼rÃ¼nÃ¼yor.
 ~
 ~
 human~
 1|2 0 15
 #10719
-gümüş yılan~
-gümüş yılan~
-gümüş bir yılan ayağına doğru süzülüyor.
+gÃ¼mÃ¼ÅŸ yÄ±lan~
+gÃ¼mÃ¼ÅŸ yÄ±lan~
+gÃ¼mÃ¼ÅŸ bir yÄ±lan ayaÄŸÄ±na doÄŸru sÃ¼zÃ¼lÃ¼yor.
 ~
 ~
 human~
 1|2 0 17
 #10720
-küçük yeşil kertenkele~
-küçük yeşil kertenkele~
-küçük bir yeşil kertenkele yakındaki bir ağaca tırmanıyor.
+kÃ¼Ã§Ã¼k yeÅŸil kertenkele~
+kÃ¼Ã§Ã¼k yeÅŸil kertenkele~
+kÃ¼Ã§Ã¼k bir yeÅŸil kertenkele yakÄ±ndaki bir aÄŸaca tÄ±rmanÄ±yor.
 ~
 ~
 human~
 1|2 0 18
 #10721
-küçük kızıl akrep~
-küçük kızıl akrep~
-Küçük bir kızıl akrep yolun karşısına seğirtiyor.
+kÃ¼Ã§Ã¼k kÄ±zÄ±l akrep~
+kÃ¼Ã§Ã¼k kÄ±zÄ±l akrep~
+KÃ¼Ã§Ã¼k bir kÄ±zÄ±l akrep yolun karÅŸÄ±sÄ±na seÄŸirtiyor.
 ~
 ~
 human~
 1|2 0 21
 #10722
-Ma Tang üstad akrep~
+Ma Tang Ã¼stad akrep~
 Ma Tang~
-Ma Tang, Akrep tekniğinin üstadı burada.
+Ma Tang, Akrep tekniÄŸinin Ã¼stadÄ± burada.
 ~
 ~
 human~
 1|2|32 0 35
 #10723
-Lee Ho üstad kurbağa~
+Lee Ho Ã¼stad kurbaÄŸa~
 Lee Ho~
-Lee Ho, Kurbağa tekniğinin üstadı burada.
+Lee Ho, KurbaÄŸa tekniÄŸinin Ã¼stadÄ± burada.
 ~
 ~
 human~
 1|2 128|8192 31
 #10724
-Tang Seung Qwe üstad kırkayak~
+Tang Seung Qwe Ã¼stad kÄ±rkayak~
 Tang Seung Qwe~
-Tang Seung Qwe, Kırkayak tekniğinin üstadı burada.
+Tang Seung Qwe, KÄ±rkayak tekniÄŸinin Ã¼stadÄ± burada.
 ~
 ~
 human~
 1|2|32 0 33
 #10725
-Yeun Sun Ho üstad kertenkele~
+Yeun Sun Ho Ã¼stad kertenkele~
 Yeun Sun Ho~
-Yeun Sun Ho, Kertenkele tekniğinin üstadı burada.
+Yeun Sun Ho, Kertenkele tekniÄŸinin Ã¼stadÄ± burada.
 ~
 ~
 human~
 1|2 0 34
 #10726
-öğretmenin son öğrencisi~
-Öğretmenin son öğrencisi~
-Öğretmenin son öğrencisi burada 5 Ölümcül Zehiri arıyor.
+Ã¶ÄŸretmenin son Ã¶ÄŸrencisi~
+Ã–ÄŸretmenin son Ã¶ÄŸrencisi~
+Ã–ÄŸretmenin son Ã¶ÄŸrencisi burada 5 Ã–lÃ¼mcÃ¼l Zehiri arÄ±yor.
 ~
 ~
 human~
 1|2 0 32
 #10727
-buddha altın aydınlık heykeli~
-Altın Buddha heykeli~
-Aydınlığın Altın Buddha heykeli burada duruyor.
+buddha altÄ±n aydÄ±nlÄ±k heykeli~
+AltÄ±n Buddha heykeli~
+AydÄ±nlÄ±ÄŸÄ±n AltÄ±n Buddha heykeli burada duruyor.
 ~
 ~
 human~
 1|2 0 44
 #10728
-buddha altın bilgelik heykeli~
-Altın Buddha heykeli~
-Bilgeliğin Altın Buddha heykeli burada duruyor.
+buddha altÄ±n bilgelik heykeli~
+AltÄ±n Buddha heykeli~
+BilgeliÄŸin AltÄ±n Buddha heykeli burada duruyor.
 ~
 ~
 human~
 1|2 0 45
 #10729
-buddha altın huzur heykeli~
-Altın Buddha heykeli~
-Huzurun Altın Buddha heykeli burada duruyor.
+buddha altÄ±n huzur heykeli~
+AltÄ±n Buddha heykeli~
+Huzurun AltÄ±n Buddha heykeli burada duruyor.
 ~
 ~
 human~
 1|2 0 46
 #10730
-türbe bakıcısı~
-türbe bakıcısı~
-Bir bakıcı burada türbelerle ilgileniyor.
+tÃ¼rbe bakÄ±cÄ±sÄ±~
+tÃ¼rbe bakÄ±cÄ±sÄ±~
+Bir bakÄ±cÄ± burada tÃ¼rbelerle ilgileniyor.
 ~
 ~
 human~
 1|2 0 37
 #10731
-keşiş ilahi okuyan~
-ilahi okuyan keşiş~
-Bir keşiş burada oturmuş ilahi okuyor.
+keÅŸiÅŸ ilahi okuyan~
+ilahi okuyan keÅŸiÅŸ~
+Bir keÅŸiÅŸ burada oturmuÅŸ ilahi okuyor.
 ~
 ~
 human~
@@ -276,7 +276,7 @@ human~
 #10733
 Wu Tak~
 Wu Tak~
-Wu Tak adında bir misafir keşiş burada.
+Wu Tak adÄ±nda bir misafir keÅŸiÅŸ burada.
 ~
 ~
 human~
@@ -284,303 +284,303 @@ human~
 #10734
 beyaz lotus lideri~
 Beyaz Lotus Lideri~
-Beyaz Lotus Lideri burada meditasyon yapıyor.
+Beyaz Lotus Lideri burada meditasyon yapÄ±yor.
 ~
 ~
 human~
 1|2|32 8|16|32|512 50
 #10735
-özel koruma lider~
-Beyaz Lotus Lideri'nin özel koruması~
-Beyaz Lotus Lideri'nin özel koruması burada.
+Ã¶zel koruma lider~
+Beyaz Lotus Lideri'nin Ã¶zel korumasÄ±~
+Beyaz Lotus Lideri'nin Ã¶zel korumasÄ± burada.
 ~
 ~
 human~
 1|2 8|16|32|512 39
 #10736
-meclis görevlisi~
-meclis görevlisi~
-36 meclisin görevlisi seni buyur etmek için burada.
+meclis gÃ¶revlisi~
+meclis gÃ¶revlisi~
+36 meclisin gÃ¶revlisi seni buyur etmek iÃ§in burada.
 ~
 ~
 human~
 1|2 8|16|32|512 32
 #10737
-öğretmen 1.nci meclis~
-1.nci meclisin öğretmeni~
-1.nci meclisin öğretmeni sabırla bir öğrenci bekliyor.
+Ã¶ÄŸretmen 1.nci meclis~
+1.nci meclisin Ã¶ÄŸretmeni~
+1.nci meclisin Ã¶ÄŸretmeni sabÄ±rla bir Ã¶ÄŸrenci bekliyor.
 ~
 ~
 human~
 1|2 8|16|32|512 32
 #10738
-öğretmen 2.nci meclis~
-2.nci meclisin öğretmeni~
-2.nci meclisin öğretmeni sabırla bir öğrenci bekliyor.
+Ã¶ÄŸretmen 2.nci meclis~
+2.nci meclisin Ã¶ÄŸretmeni~
+2.nci meclisin Ã¶ÄŸretmeni sabÄ±rla bir Ã¶ÄŸrenci bekliyor.
 ~
 ~
 human~
 1|2 8|16|32|512 33
 #10739
-öğretmen kasırga tekmesi~
-kasırga tekmesinin öğretmeni~
-Kasırga tekmesinin öğretmeni burada, seni sınamak için bekliyor.
+Ã¶ÄŸretmen kasÄ±rga tekmesi~
+kasÄ±rga tekmesinin Ã¶ÄŸretmeni~
+KasÄ±rga tekmesinin Ã¶ÄŸretmeni burada, seni sÄ±namak iÃ§in bekliyor.
 ~
 ~
 human~
 1|2 8|16|32|512 34
 #10740
-öğretmen chin kang aya~
-chin kang ayasının öğretmeni~
-Chin kang ayasının öğretmeni burada, seni sınamak için bekliyor.
+Ã¶ÄŸretmen chin kang aya~
+chin kang ayasÄ±nÄ±n Ã¶ÄŸretmeni~
+Chin kang ayasÄ±nÄ±n Ã¶ÄŸretmeni burada, seni sÄ±namak iÃ§in bekliyor.
 ~
 ~
 human~
 1|2 8|16|32|512 35
 #10741
-öğretmen kertenkele stili~
-kertenkele stilinin öğretmeni~
-Kertenkele stilinin öğretmeni duvarın üzerinde duruyor.
+Ã¶ÄŸretmen kertenkele stili~
+kertenkele stilinin Ã¶ÄŸretmeni~
+Kertenkele stilinin Ã¶ÄŸretmeni duvarÄ±n Ã¼zerinde duruyor.
 ~
 ~
 human~
 1|2 8|16|512 36
 #10742
-öğretmen turna stili~
-turna stilinin öğretmeni~
-Turna stilinin öğretmeni burada meditasyon yapıyor.
+Ã¶ÄŸretmen turna stili~
+turna stilinin Ã¶ÄŸretmeni~
+Turna stilinin Ã¶ÄŸretmeni burada meditasyon yapÄ±yor.
 ~
 ~
 human~
 1|2 8|16|512 37
 #10743
-öğretmen ejderha stili~
-ejderha stilinin öğretmeni~
-Ejderha stilinin öğretmeni gelişini bekliyor.
+Ã¶ÄŸretmen ejderha stili~
+ejderha stilinin Ã¶ÄŸretmeni~
+Ejderha stilinin Ã¶ÄŸretmeni geliÅŸini bekliyor.
 ~
 ~
 human~
 1|2|32 8|16|32|512 38
 #10745
-öğretmen kaplan stili~
-kaplan stilinin öğretmeni~
-Kaplan stilinin öğretmeni burada domuz eti kurabiyesi yiyiyor.
+Ã¶ÄŸretmen kaplan stili~
+kaplan stilinin Ã¶ÄŸretmeni~
+Kaplan stilinin Ã¶ÄŸretmeni burada domuz eti kurabiyesi yiyiyor.
 ~
 ~
 human~
 1|2|32 8|16|32|512 39
 #10746
-öğretmen akrep stili~
-akrep stilinin öğretmeni~
-Akrep stilinin öğretmeni burda, seni nasıl öldüreceğine karar veriyor.
+Ã¶ÄŸretmen akrep stili~
+akrep stilinin Ã¶ÄŸretmeni~
+Akrep stilinin Ã¶ÄŸretmeni burda, seni nasÄ±l Ã¶ldÃ¼receÄŸine karar veriyor.
 ~
 ~
 human~
 1|2|32 8|16|32|512 40
 #10747
-öğretmen yılan stili~
-yılan stilinin öğretmeni~
-Yılan stilinin öğretmeni gümüş bir tahtta oturuyor.
+Ã¶ÄŸretmen yÄ±lan stili~
+yÄ±lan stilinin Ã¶ÄŸretmeni~
+YÄ±lan stilinin Ã¶ÄŸretmeni gÃ¼mÃ¼ÅŸ bir tahtta oturuyor.
 ~
 ~
 human~
 1|2 8|16|32|512 41
 #10748
-öğretmen kırkayak stili~
-kırkayak stilinin öğretmeni~
-Kırkayak stilinin öğretmeni burada seni bekliyor.
+Ã¶ÄŸretmen kÄ±rkayak stili~
+kÄ±rkayak stilinin Ã¶ÄŸretmeni~
+KÄ±rkayak stilinin Ã¶ÄŸretmeni burada seni bekliyor.
 ~
 ~
 human~
 1|2|32 8|16|32|512 42
 #10749
-öğretmen kurbağa stili~
-kurbağa stilinin öğretmeni~
-Kurbağa stilinin öğretmeni burada seni bekliyor.
+Ã¶ÄŸretmen kurbaÄŸa stili~
+kurbaÄŸa stilinin Ã¶ÄŸretmeni~
+KurbaÄŸa stilinin Ã¶ÄŸretmeni burada seni bekliyor.
 ~
 ~
 human~
 1|2 8|16|32|128|512 43
 #10750
-öğretmen demir keşiş stili~
-Demir keşiş stilinin öğretmeni~
-Demir keşiş stilinin öğretmeni burada meditasyon yapıyor.
+Ã¶ÄŸretmen demir keÅŸiÅŸ stili~
+Demir keÅŸiÅŸ stilinin Ã¶ÄŸretmeni~
+Demir keÅŸiÅŸ stilinin Ã¶ÄŸretmeni burada meditasyon yapÄ±yor.
 ~
 ~
 human~
 1|2 8|16|32|512 44
 #10751
-öğretmen demir kafa stili~
-Demir kafa stilinin öğretmeni~
-Demir kafa stilinin öğretmeni senin canını bağışlamak için yakarıyor.
+Ã¶ÄŸretmen demir kafa stili~
+Demir kafa stilinin Ã¶ÄŸretmeni~
+Demir kafa stilinin Ã¶ÄŸretmeni senin canÄ±nÄ± baÄŸÄ±ÅŸlamak iÃ§in yakarÄ±yor.
 ~
 ~
 human~
 1|2 8|16|32|512 45
 #10752
-öğretmen atmaca stili~
-atmaca stilinin öğretmeni~
-Atmaca stilinin öğretmeni burada şarap içiyor.
+Ã¶ÄŸretmen atmaca stili~
+atmaca stilinin Ã¶ÄŸretmeni~
+Atmaca stilinin Ã¶ÄŸretmeni burada ÅŸarap iÃ§iyor.
 ~
 ~
 human~
 1|2 8|16|32|512 46
 #10753
-öğretmen titreyen aya stili~
-titreyen aya stilinin öğretmeni~
-Titreyen aya stilinin öğretmeni bir taburede sakince oturuyor.
+Ã¶ÄŸretmen titreyen aya stili~
+titreyen aya stilinin Ã¶ÄŸretmeni~
+Titreyen aya stilinin Ã¶ÄŸretmeni bir taburede sakince oturuyor.
 ~
 ~
 human~
 1|2 8|16|32|512 47
 #10754
-öğretmen baş adım aya stili~
-beş adım ayası stilinin öğretmeni~
-Beş adım ayası stilinin öğretmeni sabırla bekliyor.
+Ã¶ÄŸretmen baÅŸ adÄ±m aya stili~
+beÅŸ adÄ±m ayasÄ± stilinin Ã¶ÄŸretmeni~
+BeÅŸ adÄ±m ayasÄ± stilinin Ã¶ÄŸretmeni sabÄ±rla bekliyor.
 ~
 ~
 human~
 1|2 8|16|32|512 48
 #10755
-keşiş ilahi okuyan şifacı~
-ilahi okuyan keşiş~
-Bir keşiş burada oturmuş ilahi okurken yakarıyor.
+keÅŸiÅŸ ilahi okuyan ÅŸifacÄ±~
+ilahi okuyan keÅŸiÅŸ~
+Bir keÅŸiÅŸ burada oturmuÅŸ ilahi okurken yakarÄ±yor.
 ~
 ~
 human~
 1|2 8|16|32|512 60
 #10756
-öğretmen ağırlıksız boks~
-ağırlıksız boksun öğretmeni~
-Ağırlıksız boksun öğretmeni sana 'Lanet Olsun!' diyor.
+Ã¶ÄŸretmen aÄŸÄ±rlÄ±ksÄ±z boks~
+aÄŸÄ±rlÄ±ksÄ±z boksun Ã¶ÄŸretmeni~
+AÄŸÄ±rlÄ±ksÄ±z boksun Ã¶ÄŸretmeni sana 'Lanet Olsun!' diyor.
 ~
 ~
 human~
 1|2|32 8|16|32|512 49
 #10757
-öğretmen şimşek vuruşu~
-şimşek vuruşu öğretmeni~
-Şimşek vuruşunun öğretmeni burada yere oturmuş.
+Ã¶ÄŸretmen ÅŸimÅŸek vuruÅŸu~
+ÅŸimÅŸek vuruÅŸu Ã¶ÄŸretmeni~
+ÅimÅŸek vuruÅŸunun Ã¶ÄŸretmeni burada yere oturmuÅŸ.
 ~
 ~
 human~
 1|2|32 8|16|32|512 50
 #10758
-öğretmen demir deri~
-demir deri tekniği öğretmeni~
-Demir deri tekniğinin öğretmeni burada yere oturmuş.
+Ã¶ÄŸretmen demir deri~
+demir deri tekniÄŸi Ã¶ÄŸretmeni~
+Demir deri tekniÄŸinin Ã¶ÄŸretmeni burada yere oturmuÅŸ.
 ~
 ~
 human~
 1|2|32 8|16|32|128|512 51
 #10759
-öğretmen çin uzun kılıç~
-çin uzun kılıcının öğretmeni~
-Çin uzun kılıcının öğretmeni burada elmaları kesiyor.
+Ã¶ÄŸretmen Ã§in uzun kÄ±lÄ±Ã§~
+Ã§in uzun kÄ±lÄ±cÄ±nÄ±n Ã¶ÄŸretmeni~
+Ã‡in uzun kÄ±lÄ±cÄ±nÄ±n Ã¶ÄŸretmeni burada elmalarÄ± kesiyor.
 ~
 ~
 human~
 1|2|32 8|16|32|512 52
 #10760
-öğretmen kelebek kılıçları~
-kelebek kılıçlarının öğretmeni~
-Kelebek kılıçlarının öğretmeni burada kılıçlarını bileyliyor.
+Ã¶ÄŸretmen kelebek kÄ±lÄ±Ã§larÄ±~
+kelebek kÄ±lÄ±Ã§larÄ±nÄ±n Ã¶ÄŸretmeni~
+Kelebek kÄ±lÄ±Ã§larÄ±nÄ±n Ã¶ÄŸretmeni burada kÄ±lÄ±Ã§larÄ±nÄ± bileyliyor.
 ~
 ~
 human~
 1|2|32 8|16|32|512 52
 #10761
-öğretmen uzun cirit~
-çin uzun ciritinin öğretmeni~
-Çin uzun ciritinin öğretmeni burada kebap yapıyor.
+Ã¶ÄŸretmen uzun cirit~
+Ã§in uzun ciritinin Ã¶ÄŸretmeni~
+Ã‡in uzun ciritinin Ã¶ÄŸretmeni burada kebap yapÄ±yor.
 ~
 ~
 human~
 1|2|32 8|16|32|512 53
 #10762
-öğretmen ölümcül aya~
-ölümcül ayanın öğretmeni~
-Ölümcül ayanın öğretmeni burada şiir yazıyor.
+Ã¶ÄŸretmen Ã¶lÃ¼mcÃ¼l aya~
+Ã¶lÃ¼mcÃ¼l ayanÄ±n Ã¶ÄŸretmeni~
+Ã–lÃ¼mcÃ¼l ayanÄ±n Ã¶ÄŸretmeni burada ÅŸiir yazÄ±yor.
 ~
 ~
 human~
 1|2 8|16|32|512 54
 #10763
-öğretmen beş darbe~
-beş darbenin öğretmeni~
-Beş darbenin öğretmeni burada matematikle uğraşıyor.
+Ã¶ÄŸretmen beÅŸ darbe~
+beÅŸ darbenin Ã¶ÄŸretmeni~
+BeÅŸ darbenin Ã¶ÄŸretmeni burada matematikle uÄŸraÅŸÄ±yor.
 ~
 ~
 human~
 1|2 8|16|32|512 55
 #10764
-öğretmen öfkeli buddha~
-öfkeli buddha'nın öğretmeni~
-Öfkeli buddha stilinin öğretmeni burada emm... öfkeli...
+Ã¶ÄŸretmen Ã¶fkeli buddha~
+Ã¶fkeli buddha'nÄ±n Ã¶ÄŸretmeni~
+Ã–fkeli buddha stilinin Ã¶ÄŸretmeni burada emm... Ã¶fkeli...
 ~
 ~
 human~
 1|2|32 8|16|32|512 57
 #10766
-birinci üstad~
-Beyaz Lotus Klanının birinci üstadı~
-Beyaz Lotus Klanının birinci üstadı burada huzurlu bir ilahi okuyor.
+birinci Ã¼stad~
+Beyaz Lotus KlanÄ±nÄ±n birinci Ã¼stadÄ±~
+Beyaz Lotus KlanÄ±nÄ±n birinci Ã¼stadÄ± burada huzurlu bir ilahi okuyor.
 ~
 ~
 human~
 1|2|32 8|16|32|512 58
 #10767
-ikinci üstad~
-Beyaz Lotus Klanının ikinci üstadı~
-Beyaz Lotus Klanının ikinci üstadı burada meditasyon yapıyor.
+ikinci Ã¼stad~
+Beyaz Lotus KlanÄ±nÄ±n ikinci Ã¼stadÄ±~
+Beyaz Lotus KlanÄ±nÄ±n ikinci Ã¼stadÄ± burada meditasyon yapÄ±yor.
 ~
 ~
 human~
 1|2|32 8|16|32|512 59
 #10768
-üçüncü üstad~
-Beyaz Lotus Klanının üçüncü üstadı~
-Beyaz Lotus Klanının üçüncü üstadı burada tatlısını yiyiyor.
+Ã¼Ã§Ã¼ncÃ¼ Ã¼stad~
+Beyaz Lotus KlanÄ±nÄ±n Ã¼Ã§Ã¼ncÃ¼ Ã¼stadÄ±~
+Beyaz Lotus KlanÄ±nÄ±n Ã¼Ã§Ã¼ncÃ¼ Ã¼stadÄ± burada tatlÄ±sÄ±nÄ± yiyiyor.
 ~
 ~
 human~
 1|2|32 8|16|32|512 60
 #10769
-dördüncü üstad~
-Beyaz Lotus Klanının dördüncü üstadı~
-Beyaz Lotus Klanının dördüncü üstadı burada, seni sınamaya hazır.
+dÃ¶rdÃ¼ncÃ¼ Ã¼stad~
+Beyaz Lotus KlanÄ±nÄ±n dÃ¶rdÃ¼ncÃ¼ Ã¼stadÄ±~
+Beyaz Lotus KlanÄ±nÄ±n dÃ¶rdÃ¼ncÃ¼ Ã¼stadÄ± burada, seni sÄ±namaya hazÄ±r.
 ~
 ~
 human~
 1|2|32 8|16|32|512 61
 #10770
-beşinci üstad~
-Beyaz Lotus Klanının beşinci üstadı~
-Beyaz Lotus Klanının beşinci üstadı senin ruhun için dua ediyor.
+beÅŸinci Ã¼stad~
+Beyaz Lotus KlanÄ±nÄ±n beÅŸinci Ã¼stadÄ±~
+Beyaz Lotus KlanÄ±nÄ±n beÅŸinci Ã¼stadÄ± senin ruhun iÃ§in dua ediyor.
 ~
 ~
 human~
 1|2|32 8|16|32|512 62
 #10771
-başrahip~
-Başrahip~
-Başrahip sabırla kung funu sınamak için bekliyor.
+baÅŸrahip~
+BaÅŸrahip~
+BaÅŸrahip sabÄ±rla kung funu sÄ±namak iÃ§in bekliyor.
 ~
 ~
 human~
 1|2|32 8|16|32|512 63
 #10772
-yüce başrahip~
-Yüce Başrahip~
-Yüce Başrahip burada yüce başrahiplerin normalde yaptığını yapıyor.
+yÃ¼ce baÅŸrahip~
+YÃ¼ce BaÅŸrahip~
+YÃ¼ce BaÅŸrahip burada yÃ¼ce baÅŸrahiplerin normalde yaptÄ±ÄŸÄ±nÄ± yapÄ±yor.
 ~
 ~
 human~
 1|2|32 8|16|32|512 64
 #10773
-buddha müridi~
-buddha müridi~
-Bir buddha müridi burada ilahiler okurken bir yandan da yakarıyor.
+buddha mÃ¼ridi~
+buddha mÃ¼ridi~
+Bir buddha mÃ¼ridi burada ilahiler okurken bir yandan da yakarÄ±yor.
 ~
 ~
 human~
@@ -588,15 +588,15 @@ human~
 #10774
 Buddha~
 Buddha~
-Buddha'nın kendisi karşında oturuyor!.
+Buddha'nÄ±n kendisi karÅŸÄ±nda oturuyor!.
 ~
 ~
 human~
 1|2|32 8|16|32|512 70
 #10775
-üstad yılan~
+Ã¼stad yÄ±lan~
 Hung Wei Tung~
-Hung Wei Tung, Yılan tekniğinin üstadı burada.
+Hung Wei Tung, YÄ±lan tekniÄŸinin Ã¼stadÄ± burada.
 ~
 ~
 human~
@@ -619,7 +619,7 @@ human~
 #12701
 bez~
 bez~
-Sulu, ıslak bir bez yerde duruyor.~
+Sulu, Ä±slak bir bez yerde duruyor.~
 ~
 5 0 1|8192
 0 1 25 4
@@ -650,9 +650,9 @@ A
 12 5
 
 #12704
-çin pala~
-çin palası~
-Büyük bir çin palası yerde duruyor.~
+Ã§in pala~
+Ã§in palasÄ±~
+BÃ¼yÃ¼k bir Ã§in palasÄ± yerde duruyor.~
 ~
 5 0 1|8192
 0 1 45 3
@@ -660,8 +660,8 @@ Büyük bir çin palası yerde duruyor.~
 
 #12705
 beyaz lotus kalkan~
-beyaz lotus kalkanı~
-Üzerinde beyaz lotus olan, orta boy bir ahşap kalkan burada.~
+beyaz lotus kalkanÄ±~
+Ãœzerinde beyaz lotus olan, orta boy bir ahÅŸap kalkan burada.~
 ~
 9 64 1|512
 10 0 0 0
@@ -670,90 +670,90 @@ A
 22 -5
 
 #12706
-büyük satır~
-büyük satır~
-Çok büyük bir çin satırı yere saplanmış.~
+bÃ¼yÃ¼k satÄ±r~
+bÃ¼yÃ¼k satÄ±r~
+Ã‡ok bÃ¼yÃ¼k bir Ã§in satÄ±rÄ± yere saplanmÄ±ÅŸ.~
 ~
 5 0 1|8192
 0 1 15 1
 2 10000 10000
 
 #12707
-yemek çubuk fildişi~
-bir çift yemek çubuğu~
-Bir çift fildişinden yemek çubuğu, burada yere saplanmış.~
+yemek Ã§ubuk fildiÅŸi~
+bir Ã§ift yemek Ã§ubuÄŸu~
+Bir Ã§ift fildiÅŸinden yemek Ã§ubuÄŸu, burada yere saplanmÄ±ÅŸ.~
 ~
 3 0 1|16384
 9 12 0 0
 1 10000 10000
 
 #12708
-fildişi zar~
-bir çift fildişi zar~
-Bir çift fildişinden zar yerde duruyor.~
+fildiÅŸi zar~
+bir Ã§ift fildiÅŸi zar~
+Bir Ã§ift fildiÅŸinden zar yerde duruyor.~
 ~
 26 64 1|16384
 13 2 2 2
 1 10000 10000
 
 #12709
-deste iskambil kağıt kağıdı~
-bir deste iskambil kağıdı~
-Bir deste iskambil kağıdı yere saçılmış.~
+deste iskambil kaÄŸÄ±t kaÄŸÄ±dÄ±~
+bir deste iskambil kaÄŸÄ±dÄ±~
+Bir deste iskambil kaÄŸÄ±dÄ± yere saÃ§Ä±lmÄ±ÅŸ.~
 ~
 4 64 1|16384
 13 56 0 0
 1 10000 10000
 
 #12710
-çanak pirinç~
-bir çanak pirinç~
-Küçük bir çanak pirinç yerde buhar saçıyor.~
+Ã§anak pirinÃ§~
+bir Ã§anak pirinÃ§~
+KÃ¼Ã§Ã¼k bir Ã§anak pirinÃ§ yerde buhar saÃ§Ä±yor.~
 ~
 19 0 1
 10 0 0 0
 1 10000 10000
 
 #12711
-şarap testi~
-bir testi şarap~
-Kapağında kırmızı bir kağıt olan kilden yapılmış bir testi.~
+ÅŸarap testi~
+bir testi ÅŸarap~
+KapaÄŸÄ±nda kÄ±rmÄ±zÄ± bir kaÄŸÄ±t olan kilden yapÄ±lmÄ±ÅŸ bir testi.~
 ~
 17 0 1
 5 5 2 0
 1 10000 10000
 
 #12712
-yeşil iğrenç kusmuk~
-yeşil bir kusmuk birikintisi~
-küçük, yeşil iğrenç bir kusmuk birikintisi.~
+yeÅŸil iÄŸrenÃ§ kusmuk~
+yeÅŸil bir kusmuk birikintisi~
+kÃ¼Ã§Ã¼k, yeÅŸil iÄŸrenÃ§ bir kusmuk birikintisi.~
 ~
 10 0 1
 3 68 33 0
 1 10000 10000
 
 #12713
-güzel kuştüyü~
-güzel bir kuştüyü~
-güzel renkleri olan bir kuştüyü.~
+gÃ¼zel kuÅŸtÃ¼yÃ¼~
+gÃ¼zel bir kuÅŸtÃ¼yÃ¼~
+gÃ¼zel renkleri olan bir kuÅŸtÃ¼yÃ¼.~
 ~
 3 64 1
 3 56 2 0
 1 10000 10000
 
 #12714
-büyük bıçak~
-büyük bıçak~
-Büyük bir bıçak yerde uzanmış duruyor.~
+bÃ¼yÃ¼k bÄ±Ã§ak~
+bÃ¼yÃ¼k bÄ±Ã§ak~
+BÃ¼yÃ¼k bir bÄ±Ã§ak yerde uzanmÄ±ÅŸ duruyor.~
 ~
 5 0 1|8192
 0 1 46 11
 3 10000 10000
 
 #12715
-zehir klan nişan~
-zehir klanı nişanı~
-Küçük bir rütbe nişanı yerde duruyor.~
+zehir klan niÅŸan~
+zehir klanÄ± niÅŸanÄ±~
+KÃ¼Ã§Ã¼k bir rÃ¼tbe niÅŸanÄ± yerde duruyor.~
 ~
 5 0 1|16384
 0 0 0 7
@@ -766,9 +766,9 @@ A
 1 1
 
 #12716
-akrep tekniği stili kitap kitabı~
+akrep tekniÄŸi stili kitap kitabÄ±~
 akrep stili~
-Kapağında bir akrep sembolü olan küçük bir kitap görüyorsun.~
+KapaÄŸÄ±nda bir akrep sembolÃ¼ olan kÃ¼Ã§Ã¼k bir kitap gÃ¶rÃ¼yorsun.~
 ~
 5 0 1|8192
 0 1 70 8
@@ -781,18 +781,18 @@ A
 13 12
 
 #12717
-kurbağa tekniği stili kitap kitabı~
-kurbağa stili~
-Kapağında bir kurbağa sembolü olan küçük bir kitap görüyorsun.~
+kurbaÄŸa tekniÄŸi stili kitap kitabÄ±~
+kurbaÄŸa stili~
+KapaÄŸÄ±nda bir kurbaÄŸa sembolÃ¼ olan kÃ¼Ã§Ã¼k bir kitap gÃ¶rÃ¼yorsun.~
 ~
 26 0 1
 31 1 36 66
 1 10000 10000
 
 #12718
-kırkayak tekniği stili kitap kitabı~
-kırkayak stili~
-Kapağında bir kırkayak sembolü olan küçük bir kitap görüyorsun.~
+kÄ±rkayak tekniÄŸi stili kitap kitabÄ±~
+kÄ±rkayak stili~
+KapaÄŸÄ±nda bir kÄ±rkayak sembolÃ¼ olan kÃ¼Ã§Ã¼k bir kitap gÃ¶rÃ¼yorsun.~
 ~
 5 0 1|16384
 0 1 66 5
@@ -805,9 +805,9 @@ A
 19 2
 
 #12719
-kertenkele tekniği stili kitap kitabı~
+kertenkele tekniÄŸi stili kitap kitabÄ±~
 kertenkele stili~
-Kapağında bir kertenkele sembolü olan küçük bir kitap görüyorsun.~
+KapaÄŸÄ±nda bir kertenkele sembolÃ¼ olan kÃ¼Ã§Ã¼k bir kitap gÃ¶rÃ¼yorsun.~
 ~
 5 0 1|16384
 0 1 64 5
@@ -822,7 +822,7 @@ A
 #12720
 portakal~
 portakal~
-Mükemmel bir portakal yerde duruyor.~
+MÃ¼kemmel bir portakal yerde duruyor.~
 ~
 26 64 1
 44 81 0 0
@@ -831,16 +831,16 @@ Mükemmel bir portakal yerde duruyor.~
 #12721
 efsunlu tespih~
 efsunlu tespih~
-Küçük bir dizim tespih yerde duruyor.~
+KÃ¼Ã§Ã¼k bir dizim tespih yerde duruyor.~
 ~
 26 64 1
 44 57 0 0
 1 10000 10000
 
 #12722
-demir keşiş teknik kitap~
-demir keşiş tekniği~
-İçinde demir keşiş tekniği yazılı küçük bir kitap görüyorsun.~
+demir keÅŸiÅŸ teknik kitap~
+demir keÅŸiÅŸ tekniÄŸi~
+Ä°Ã§inde demir keÅŸiÅŸ tekniÄŸi yazÄ±lÄ± kÃ¼Ã§Ã¼k bir kitap gÃ¶rÃ¼yorsun.~
 ~
 5 64 1|16384
 0 1 67 5
@@ -853,9 +853,9 @@ A
 20 -5
 
 #12723
-ağırlıksız boks teknik~
-ağırlıksız boks tekniği~
-Yerde küçük bir kung fu eğitim kitabı görüyorsun.~
+aÄŸÄ±rlÄ±ksÄ±z boks teknik~
+aÄŸÄ±rlÄ±ksÄ±z boks tekniÄŸi~
+Yerde kÃ¼Ã§Ã¼k bir kung fu eÄŸitim kitabÄ± gÃ¶rÃ¼yorsun.~
 ~
 5 64 1|8192
 0 1 90 7
@@ -864,9 +864,9 @@ A
 17 -10
 
 #12725
-beyaz çin uzun kılıç~
-beyaz çin uzun kılıcı~
-Beyaz bir çin uzun kılıcı, yere saplanmış parlıyor.~
+beyaz Ã§in uzun kÄ±lÄ±Ã§~
+beyaz Ã§in uzun kÄ±lÄ±cÄ±~
+Beyaz bir Ã§in uzun kÄ±lÄ±cÄ±, yere saplanmÄ±ÅŸ parlÄ±yor.~
 ~
 5 64 1|8192
 0 1 75 1
@@ -874,8 +874,8 @@ Beyaz bir çin uzun kılıcı, yere saplanmış parlıyor.~
 
 #12726
 anahtar meclisler~
-36 meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+36 meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
@@ -883,35 +883,35 @@ Küçük, taştan yapılımış bir anahtar yerde duruyor.~
 
 #12727
 2'nci meclis anahtar~
-2'nci meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+2'nci meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12728
-3'üncü meclis anahtar~
-3'üncü meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+3'Ã¼ncÃ¼ meclis anahtar~
+3'Ã¼ncÃ¼ meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12729
-4'üncü meclis anahtar~
-4'üncü meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+4'Ã¼ncÃ¼ meclis anahtar~
+4'Ã¼ncÃ¼ meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12730
-kasırga tekmesi~
-kasırga tekmesi~
-Kasırga Tekmesi stilinin eğitim kitabı burada.~
+kasÄ±rga tekmesi~
+kasÄ±rga tekmesi~
+KasÄ±rga Tekmesi stilinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 64 7
@@ -919,26 +919,26 @@ Kasırga Tekmesi stilinin eğitim kitabı burada.~
 
 #12731
 5'inci meclis anahtar~
-5'inci meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+5'inci meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12732
-chin kang ayası~
-chin kang ayası~
-Chin kang ayası stilinin eğitim kitabı burada.~
+chin kang ayasÄ±~
+chin kang ayasÄ±~
+Chin kang ayasÄ± stilinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 65 6
 1 10000 10000
 
 #12733
-6'ncı meclis anahtar~
-6'ncı meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+6'ncÄ± meclis anahtar~
+6'ncÄ± meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
@@ -947,7 +947,7 @@ Küçük, taştan yapılımış bir anahtar yerde duruyor.~
 #12734
 kertenkele stili~
 kertenkele stili~
-Kertenkele stilinin eğitim kitabı burada.~
+Kertenkele stilinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 66 12
@@ -955,8 +955,8 @@ Kertenkele stilinin eğitim kitabı burada.~
 
 #12735
 7'nci meclis anahtar~
-7'nci meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+7'nci meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
@@ -965,7 +965,7 @@ Küçük, taştan yapılımış bir anahtar yerde duruyor.~
 #12736
 turna stili~
 turna stili~
-Turna stilinin eğitim kitabı burada.~
+Turna stilinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 67 11
@@ -973,8 +973,8 @@ Turna stilinin eğitim kitabı burada.~
 
 #12737
 8'inci meclis anahtar~
-8'inci meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+8'inci meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
@@ -983,7 +983,7 @@ Küçük, taştan yapılımış bir anahtar yerde duruyor.~
 #12738
 ejderha stili~
 ejderha stili~
-Ejderha stilinin eğitim kitabı burada.~
+Ejderha stilinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 68 10
@@ -991,8 +991,8 @@ Ejderha stilinin eğitim kitabı burada.~
 
 #12739
 9'uncu meclis anahtar~
-9'uncu meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+9'uncu meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
@@ -1001,7 +1001,7 @@ Küçük, taştan yapılımış bir anahtar yerde duruyor.~
 #12740
 kaplan stili~
 kaplan stili~
-Kaplan stilinin eğitim kitabı burada.~
+Kaplan stilinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 69 5
@@ -1009,8 +1009,8 @@ Kaplan stilinin eğitim kitabı burada.~
 
 #12741
 10'uncu meclis anahtar~
-10'uncu meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+10'uncu meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
@@ -1019,7 +1019,7 @@ Küçük, taştan yapılımış bir anahtar yerde duruyor.~
 #12742
 akrep stili~
 akrep stili~
-Akrep stilinin eğitim kitabı burada.~
+Akrep stilinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 70 8
@@ -1027,8 +1027,8 @@ Akrep stilinin eğitim kitabı burada.~
 
 #12743
 11'inci meclis anahtar~
-11'inci meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+11'inci meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
@@ -1036,53 +1036,53 @@ Küçük, taştan yapılımış bir anahtar yerde duruyor.~
 
 #12745
 12'nci meclis anahtar~
-12'nci meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+12'nci meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12746
-yılan stili~
-yılan stili~
-Yılan stilinin eğitim kitabı burada.~
+yÄ±lan stili~
+yÄ±lan stili~
+YÄ±lan stilinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 71 11
 1 10000 10000
 
 #12747
-13'üncü meclis anahtar~
-13'üncü meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+13'Ã¼ncÃ¼ meclis anahtar~
+13'Ã¼ncÃ¼ meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12748
-kırkayak stili~
-kırkayak stili~
-Kırkayak stilinin eğitim kitabı burada.~
+kÄ±rkayak stili~
+kÄ±rkayak stili~
+KÄ±rkayak stilinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 72 4
 1 10000 10000
 
 #12749
-14'üncü meclis anahtar~
-14'üncü meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+14'Ã¼ncÃ¼ meclis anahtar~
+14'Ã¼ncÃ¼ meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12750
-kurbağa stili~
-kurbağa stili~
-Kurbağa stilinin eğitim kitabı burada.~
+kurbaÄŸa stili~
+kurbaÄŸa stili~
+KurbaÄŸa stilinin eÄŸitim kitabÄ± burada.~
 ~
 9 0 1|8
 10 0 0 0
@@ -1096,26 +1096,26 @@ A
 
 #12751
 15'inci meclis anahtar~
-15'inci meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+15'inci meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12752
-demir keşiş stili~
-demir keşiş stili~
-Demir keşiş stilinin eğitim kitabı burada.~
+demir keÅŸiÅŸ stili~
+demir keÅŸiÅŸ stili~
+Demir keÅŸiÅŸ stilinin eÄŸitim kitabÄ± burada.~
 ~
 4 0 1|16384
 44 25 25 36
 1 10000 10000
 
 #12753
-16'ncı meclis anahtar~
-16'ncı meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+16'ncÄ± meclis anahtar~
+16'ncÄ± meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
@@ -1124,7 +1124,7 @@ Küçük, taştan yapılımış bir anahtar yerde duruyor.~
 #12754
 demir kafa stili~
 demir kafa stili~
-Demir kafa stilinin eğitim kitabı burada.~
+Demir kafa stilinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 75 7
@@ -1132,8 +1132,8 @@ Demir kafa stilinin eğitim kitabı burada.~
 
 #12755
 17'nci meclis anahtar~
-17'nci meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+17'nci meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
@@ -1142,7 +1142,7 @@ Küçük, taştan yapılımış bir anahtar yerde duruyor.~
 #12756
 atmaca stili~
 atmaca stili~
-Atmaca stilinin eğitim kitabı burada.~
+Atmaca stilinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 76 5
@@ -1150,8 +1150,8 @@ Atmaca stilinin eğitim kitabı burada.~
 
 #12757
 18'inci meclis anahtar~
-18'inci meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+18'inci meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
@@ -1160,7 +1160,7 @@ Küçük, taştan yapılımış bir anahtar yerde duruyor.~
 #12758
 titreyen aya stili~
 titreyen aya stili~
-Titreyen aya stilinin eğitim kitabı burada.~
+Titreyen aya stilinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 77 6
@@ -1168,8 +1168,8 @@ Titreyen aya stilinin eğitim kitabı burada.~
 
 #12759
 20'nci meclis anahtar~
-20'nci meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+20'nci meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
@@ -1177,8 +1177,8 @@ Küçük, taştan yapılımış bir anahtar yerde duruyor.~
 
 #12760
 21'inci meclis anahtar~
-21'inci meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+21'inci meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
@@ -1186,53 +1186,53 @@ Küçük, taştan yapılımış bir anahtar yerde duruyor.~
 
 #12761
 22'nci meclis anahtar~
-22'nci meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+22'nci meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12762
-ağırlıksız boks~
-ağırlıksız boks~
-Ağırlıksız boks stilinin eğitim kitabı burada.~
+aÄŸÄ±rlÄ±ksÄ±z boks~
+aÄŸÄ±rlÄ±ksÄ±z boks~
+AÄŸÄ±rlÄ±ksÄ±z boks stilinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 79 6
 1 10000 10000
 
 #12763
-23'üncü meclis anahtar~
-23'üncü meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+23'Ã¼ncÃ¼ meclis anahtar~
+23'Ã¼ncÃ¼ meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12764
-şimşek vuruşu~
-şimşek vuruşu~
-Şimşek vuruşu stilinin eğitim kitabı burada.~
+ÅŸimÅŸek vuruÅŸu~
+ÅŸimÅŸek vuruÅŸu~
+ÅimÅŸek vuruÅŸu stilinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 80 6
 1 10000 10000
 
 #12765
-24'üncü meclis anahtar~
-24'üncü meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+24'Ã¼ncÃ¼ meclis anahtar~
+24'Ã¼ncÃ¼ meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12766
-demir deri tekniği~
-demir deri tekniği~
-Demir deri tekniğinin eğitim kitabı burada.~
+demir deri tekniÄŸi~
+demir deri tekniÄŸi~
+Demir deri tekniÄŸinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 81 6
@@ -1242,17 +1242,17 @@ A
 
 #12767
 25'inci meclis anahtar~
-25'inci meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+25'inci meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12768
-çin uzunuzunkılıç uzunkılıcı tekniği~
-çin uzunkılıcı~
-Çin uzunkılıcı tekniğinin eğitim kitabı burada.~
+Ã§in uzunuzunkÄ±lÄ±Ã§ uzunkÄ±lÄ±cÄ± tekniÄŸi~
+Ã§in uzunkÄ±lÄ±cÄ±~
+Ã‡in uzunkÄ±lÄ±cÄ± tekniÄŸinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 82 1
@@ -1260,35 +1260,35 @@ Küçük, taştan yapılımış bir anahtar yerde duruyor.~
 
 #12769
 25'inci meclis anahtar~
-25'inci meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+25'inci meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12770
-çin kelebek kılıç kılıcı tekniği~
-çin kelebek kılıcı~
-Çin kelebek kılıcı tekniğinin eğitim kitabı burada.~
+Ã§in kelebek kÄ±lÄ±Ã§ kÄ±lÄ±cÄ± tekniÄŸi~
+Ã§in kelebek kÄ±lÄ±cÄ±~
+Ã‡in kelebek kÄ±lÄ±cÄ± tekniÄŸinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 83 1
 6 10000 10000
 
 #12771
-26'ncı meclis anahtar~
-26'ncı meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+26'ncÄ± meclis anahtar~
+26'ncÄ± meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12772
-çin uzun mızrak mızrağı tekniği~
-çin uzun mızrağı~
-Çin uzun mızrağı tekniğinin eğitim kitabı burada.~
+Ã§in uzun mÄ±zrak mÄ±zraÄŸÄ± tekniÄŸi~
+Ã§in uzun mÄ±zraÄŸÄ±~
+Ã‡in uzun mÄ±zraÄŸÄ± tekniÄŸinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 84 11
@@ -1296,17 +1296,17 @@ Küçük, taştan yapılımış bir anahtar yerde duruyor.~
 
 #12773
 27'nci meclis anahtar~
-27'nci meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+27'nci meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12774
-ölümcül aya stili~
-ölümcül aya stili~
-Ölümcül aya stilinin eğitim kitabı burada.~
+Ã¶lÃ¼mcÃ¼l aya stili~
+Ã¶lÃ¼mcÃ¼l aya stili~
+Ã–lÃ¼mcÃ¼l aya stilinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 85 6
@@ -1314,17 +1314,17 @@ Küçük, taştan yapılımış bir anahtar yerde duruyor.~
 
 #12775
 28'inci meclis anahtar~
-28'inci meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+28'inci meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12776
-uçan buddha stili~
-uçan buddha stili~
-Uçan buddha stilinin eğitim kitabı burada.~
+uÃ§an buddha stili~
+uÃ§an buddha stili~
+UÃ§an buddha stilinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 86 1
@@ -1332,17 +1332,17 @@ Uçan buddha stilinin eğitim kitabı burada.~
 
 #12777
 29'uncu meclis anahtar~
-29'uncu meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+29'uncu meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12778
-öfkeli buddha stili~
-öfkeli buddha stili~
-Öfkeli buddha stilinin eğitim kitabı burada.~
+Ã¶fkeli buddha stili~
+Ã¶fkeli buddha stili~
+Ã–fkeli buddha stilinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 87 1
@@ -1352,8 +1352,8 @@ A
 
 #12779
 30'uncu meclis anahtar~
-30'uncu meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+30'uncu meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
@@ -1361,8 +1361,8 @@ Küçük, taştan yapılımış bir anahtar yerde duruyor.~
 
 #12780
 31'inci meclis anahtar~
-31'inci meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+31'inci meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
@@ -1370,26 +1370,26 @@ Küçük, taştan yapılımış bir anahtar yerde duruyor.~
 
 #12781
 32'nci meclis anahtar~
-32'nci meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+32'nci meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12782
-33'üncü meclis anahtar~
-33'üncü meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+33'Ã¼ncÃ¼ meclis anahtar~
+33'Ã¼ncÃ¼ meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12783
-34'üncü meclis anahtar~
-34'üncü meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+34'Ã¼ncÃ¼ meclis anahtar~
+34'Ã¼ncÃ¼ meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
@@ -1397,26 +1397,26 @@ Küçük, taştan yapılımış bir anahtar yerde duruyor.~
 
 #12784
 35'inci meclis anahtar~
-35'inci meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+35'inci meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12785
-36'ncı meclis anahtar~
-36'ncı meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+36'ncÄ± meclis anahtar~
+36'ncÄ± meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12786
-kutsal gürz~
-Yüce Başrahibin kutsal gürzü~
-Üzerinde bir gürz olan büyük bir kargı burada duruyor.~
+kutsal gÃ¼rz~
+YÃ¼ce BaÅŸrahibin kutsal gÃ¼rzÃ¼~
+Ãœzerinde bir gÃ¼rz olan bÃ¼yÃ¼k bir kargÄ± burada duruyor.~
 ~
 5 0 1|8192
 0 1 90 0
@@ -1424,8 +1424,8 @@ Yüce Başrahibin kutsal gürzü~
 
 #12787
 buddha eli~
-Buddha'nın Eli~
-Buddha'nın devasa eli üzerinde süzülüyor.~
+Buddha'nÄ±n Eli~
+Buddha'nÄ±n devasa eli Ã¼zerinde sÃ¼zÃ¼lÃ¼yor.~
 ~
 5 1|2|64|256 1|8192
 0 1 100 6
@@ -1440,9 +1440,9 @@ A
 12 100
 
 #12788
-kutsanmış çeşme~
-kutsanmış çeşme~
-Buddha nın parıldayan bir çeşmesi burada sessizce akıyor.~
+kutsanmÄ±ÅŸ Ã§eÅŸme~
+kutsanmÄ±ÅŸ Ã§eÅŸme~
+Buddha nÄ±n parÄ±ldayan bir Ã§eÅŸmesi burada sessizce akÄ±yor.~
 ~
 25 64 0
 0 0 0 0
@@ -1450,53 +1450,53 @@ Buddha nın parıldayan bir çeşmesi burada sessizce akıyor.~
 
 #12789
 19'uncu meclis anahtar~
-19'uncu meclisin anahtarı~
-Küçük, taştan yapılımış bir anahtar yerde duruyor.~
+19'uncu meclisin anahtarÄ±~
+KÃ¼Ã§Ã¼k, taÅŸtan yapÄ±lÄ±mÄ±ÅŸ bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
 1 10000 10000
 
 #12790
-beş adım ayası stili~
-beş adım ayası stili~
-Beş adım ayası stilinin eğitim kitabı burada.~
+beÅŸ adÄ±m ayasÄ± stili~
+beÅŸ adÄ±m ayasÄ± stili~
+BeÅŸ adÄ±m ayasÄ± stilinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|8192
 0 1 78 6
 1 10000 10000
 
 #12791
-pirinç pasta~
-pirinç pastası~
-Mükemmel görünen küçük bir pirinç pastası yerde duruyor.~
+pirinÃ§ pasta~
+pirinÃ§ pastasÄ±~
+MÃ¼kemmel gÃ¶rÃ¼nen kÃ¼Ã§Ã¼k bir pirinÃ§ pastasÄ± yerde duruyor.~
 ~
 26 64 1
 44 28 0 0
 1 10000 10000
 
 #12792
-çin kelebek kılıç kılıcı tekniği hafif~
-çin kelebek kılıcı~
-Çin kelebek kılıcı tekniğinin eğitim kitabı burada.~
+Ã§in kelebek kÄ±lÄ±Ã§ kÄ±lÄ±cÄ± tekniÄŸi hafif~
+Ã§in kelebek kÄ±lÄ±cÄ±~
+Ã‡in kelebek kÄ±lÄ±cÄ± tekniÄŸinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|16384
 0 1 83 1
 5 10000 10000
 
 #12793
-çin uzunuzunkılıç uzunkılıcı tekniği hafif~
-çin uzunkılıcı~
-Çin uzunkılıcı tekniğinin eğitim kitabı burada.~
+Ã§in uzunuzunkÄ±lÄ±Ã§ uzunkÄ±lÄ±cÄ± tekniÄŸi hafif~
+Ã§in uzunkÄ±lÄ±cÄ±~
+Ã‡in uzunkÄ±lÄ±cÄ± tekniÄŸinin eÄŸitim kitabÄ± burada.~
 ~
 5 0 1|16384
 0 1 82 1
 4 10000 10000
 
 #12794
-yüzük beyaz lotus meclis~
-36 meclisin yüzüğü~
-Beyaz Lotus'un 36 meclisinin yüzüğü burada.~
+yÃ¼zÃ¼k beyaz lotus meclis~
+36 meclisin yÃ¼zÃ¼ÄŸÃ¼~
+Beyaz Lotus'un 36 meclisinin yÃ¼zÃ¼ÄŸÃ¼ burada.~
 ~
 9 1|2|64|128|256|4096 1|2
 20 0 0 0
@@ -1533,9 +1533,9 @@ A
 24 -2
 
 #12795
-hücre kapı anahtar hapishane~
-hücre kapı anahtarı~
-Parlak küçük gümüşten bir anahtar yerde duruyor.~
+hÃ¼cre kapÄ± anahtar hapishane~
+hÃ¼cre kapÄ± anahtarÄ±~
+Parlak kÃ¼Ã§Ã¼k gÃ¼mÃ¼ÅŸten bir anahtar yerde duruyor.~
 ~
 18 0 1|16384
 0 0 0 0
@@ -1554,7 +1554,7 @@ Parlak küçük gümüşten bir anahtar yerde duruyor.~
 
 #ROOMS
 #10701
-Tapınak Kapısı~
+TapÄ±nak KapÄ±sÄ±~
 You stand before the grand gateway to the Temple of the White Lotus Clan.
 Twin snow white and golden dragons decorate the black steel gates of the
 entrance.
@@ -1599,7 +1599,7 @@ steps~
 S
 
 #10703
-Taş Basamaklar~
+TaÅŸ Basamaklar~
 Large roughly carved stone steps lead up to the temple. The look like
 quite a climb. More stone gardens and small shrubs like the stone steps.
 From this far below the Temple, it seems to tower over you with its
@@ -1619,7 +1619,7 @@ steps~
 S
 
 #10704
-Taş Basamaklar~
+TaÅŸ Basamaklar~
 Large roughly carved stone steps lead up to the temple. You are about
 half way to the temple. This climb seems almost endless. Small lizards
 occasionally scamper across the stones before you. The wind seems to
@@ -1634,12 +1634,12 @@ steps~
 D2
 You see the Temple of the White Lotus Clan.
 ~
-Tapınak~
+TapÄ±nak~
 0 -1 10705
 S
 
 #10705
-Beyaz Lotus Klanı Tapınağının Önünde~
+Beyaz Lotus KlanÄ± TapÄ±naÄŸÄ±nÄ±n Ã–nÃ¼nde~
 You stand at the top of a steep stone staircase that connects the temple
 to the valley below. The temples wooden structure seem in harmony
 with the bare rock face that it sits on top of. Before you a short wooden
@@ -1663,7 +1663,7 @@ steps~
 S
 
 #10706
-Tapınak Kapıları~
+TapÄ±nak KapÄ±larÄ±~
 Two large red double doors stand before you. The red wood of the doors
 are bound by black iron braces. Twin white and golden dragons adorn
 the doors. Two halves of a white lotus come together as the door closes
@@ -1694,7 +1694,7 @@ You see the wooden deck that leads around the temple.
 S
 
 #10707
-Tapınak Çevresindeki Yürüyüş Yolu~
+TapÄ±nak Ã‡evresindeki YÃ¼rÃ¼yÃ¼ÅŸ Yolu~
 A polished wooden walkway leads around the temple. You pause to lean
 against the railing and admire the view from this mountain top. Far below
 you see Crystalmir lake, glimmering faintly.  To the northwest you see a
@@ -1715,7 +1715,7 @@ walkway~
 S
 
 #10708
-Tapınak Çevresindeki Yürüyüş Yolu~
+TapÄ±nak Ã‡evresindeki YÃ¼rÃ¼yÃ¼ÅŸ Yolu~
 A polished wooden walkway leads around the temple. Pretty pink and white
 flowers grown next to the railing. The temple wall to the south of you is
 decorated with the symbol of the white lotus.
@@ -1735,7 +1735,7 @@ walkway~
 S
 
 #10709
-Tapınak Çevresindeki Yürüyüş Yolu~
+TapÄ±nak Ã‡evresindeki YÃ¼rÃ¼yÃ¼ÅŸ Yolu~
 A polished wooden walkway leads around the temple. North of you is a
 large wooden building. The bustling noise of many people can be heard
 from within.
@@ -1761,7 +1761,7 @@ walkway~
 S
 
 #10710
-Tapınak Çevresindeki Yürüyüş Yolu~
+TapÄ±nak Ã‡evresindeki YÃ¼rÃ¼yÃ¼ÅŸ Yolu~
 A polished wooden walkway leads around the temple. To the North you
 see a large wooden building. As you look over the railing notice that the
 mountain drops sharply away. The shear wall of the mountain seems
@@ -1782,7 +1782,7 @@ walkway~
 S
 
 #10711
-Tapınak Çevresindeki Yürüyüş Yolu~
+TapÄ±nak Ã‡evresindeki YÃ¼rÃ¼yÃ¼ÅŸ Yolu~
 A polished wooden walkway leads around the temple. As you look over the
 railing notice that the mountain drops sharply away. The shear wall of the
 mountain seems to disappear into the mists far below. Screams of fighting
@@ -1803,7 +1803,7 @@ walkway~
 S
 
 #10712
-Tapınak Çevresindeki Yürüyüş Yolu~
+TapÄ±nak Ã‡evresindeki YÃ¼rÃ¼yÃ¼ÅŸ Yolu~
 A polished wooden walkway leads around the temple. As you look over the
 railing notice that the mountain drops sharply away. The shear wall of the
 mountain seems to disappear into the mists far below. Screams of fighting
@@ -1824,7 +1824,7 @@ walkway~
 S
 
 #10713
-Tapınak Çevresindeki Yürüyüş Yolu~
+TapÄ±nak Ã‡evresindeki YÃ¼rÃ¼yÃ¼ÅŸ Yolu~
 A polished wooden walkway leads around the temple. You look out
 across the temple training grounds to south. As you look out across
 the railing you can see the dark forest of Hoan-dor in the distance.
@@ -1844,7 +1844,7 @@ walkway~
 S
 
 #10714
-Tapınak Çevresindeki Yürüyüş Yolu~
+TapÄ±nak Ã‡evresindeki YÃ¼rÃ¼yÃ¼ÅŸ Yolu~
 A polished wooden walkway leads around the temple. You look out
 across the temple training grounds to south.
 The walkway continues to the east and west.
@@ -1863,7 +1863,7 @@ walkway~
 S
 
 #10715
-Tapınak Çevresindeki Yürüyüş Yolu~
+TapÄ±nak Ã‡evresindeki YÃ¼rÃ¼yÃ¼ÅŸ Yolu~
 A polished wooden walkway leads around the temple. You look out
 across the temple training grounds to south. Farther to the east
 are a pair of large red doors and a stairway that leads to the grounds below.
@@ -1883,7 +1883,7 @@ walkway~
 S
 
 #10716
-Tapınak Kapıları~
+TapÄ±nak KapÄ±larÄ±~
 Two large red double doors stand before you. The red wood of the doors
 are bound by black iron braces. Twin white and golden dragons adorn
 the doors. Two halves of a white lotus come together as the door closes
@@ -1915,7 +1915,7 @@ walkway~
 S
 
 #10717
-Tapınak Çevresindeki Yürüyüş Yolu~
+TapÄ±nak Ã‡evresindeki YÃ¼rÃ¼yÃ¼ÅŸ Yolu~
 A polished wooden walkway leads around the temple. As you look out
 across the railing to the south, you can see the temple arena area.
 Further to the west you see a pair of large red doors and a staircase
@@ -1936,7 +1936,7 @@ walkway~
 S
 
 #10718
-Tapınak Çevresindeki Yürüyüş Yolu~
+TapÄ±nak Ã‡evresindeki YÃ¼rÃ¼yÃ¼ÅŸ Yolu~
 A polished wooden walkway leads around the temple. As you look out
 across the railing to the south, you can see the temple arena area.
 Well polished wooden decks lead off to the east and west.
@@ -1955,7 +1955,7 @@ walkway~
 S
 
 #10719
-Tapınak Çevresindeki Yürüyüş Yolu~
+TapÄ±nak Ã‡evresindeki YÃ¼rÃ¼yÃ¼ÅŸ Yolu~
 A polished wooden walkway leads around the temple. As you look out
 across the railing to the south, you can see the temple arena area.
 To the northeast you see a large garden.
@@ -1975,7 +1975,7 @@ walkway~
 S
 
 #10720
-Tapınak Çevresindeki Yürüyüş Yolu~
+TapÄ±nak Ã‡evresindeki YÃ¼rÃ¼yÃ¼ÅŸ Yolu~
 A polished wooden walkway leads around the temple.
 To the northeast you see a large garden. Further to the north you see a
 staircase that descends to the garden below.
@@ -1995,7 +1995,7 @@ walkway~
 S
 
 #10721
-Tapınak Çevresindeki Yürüyüş Yolu~
+TapÄ±nak Ã‡evresindeki YÃ¼rÃ¼yÃ¼ÅŸ Yolu~
 A polished wooden walkway leads around the temple.
 To the northeast you see a large garden. A wooden staircase leads down
 to a stone path to the east.
@@ -2020,7 +2020,7 @@ walkway~
 S
 
 #10722
-Tapınak Çevresindeki Yürüyüş Yolu~
+TapÄ±nak Ã‡evresindeki YÃ¼rÃ¼yÃ¼ÅŸ Yolu~
 A polished wooden walkway leads around the temple.
 To the northeast you see a large garden. Further to the south you see a
 wooden staircase that leads down to the garden below. As you look across
@@ -2042,7 +2042,7 @@ walkway~
 S
 
 #10723
-Tapınak Çevresindeki Yürüyüş Yolu~
+TapÄ±nak Ã‡evresindeki YÃ¼rÃ¼yÃ¼ÅŸ Yolu~
 A polished wooden walkway leads around the temple.
 To the east you see a large garden.
 Well polished wooden decks lead off to the west and south.
@@ -2061,7 +2061,7 @@ walkway~
 S
 
 #10724
-Tapınak Çevresindeki Yürüyüş Yolu~
+TapÄ±nak Ã‡evresindeki YÃ¼rÃ¼yÃ¼ÅŸ Yolu~
 A polished wooden walkway leads around the temple.
 To the north you see a large garden.
 Well polished wooden decks lead off to the east and west.
@@ -2080,7 +2080,7 @@ walkway~
 S
 
 #10725
-Tapınak Çevresindeki Yürüyüş Yolu~
+TapÄ±nak Ã‡evresindeki YÃ¼rÃ¼yÃ¼ÅŸ Yolu~
 A polished wooden walkway leads around the temple.
 To the north you see a large garden. Further to the west you see a pair
 of large red doors and a stone stairway that leads down the mountain.
@@ -2100,7 +2100,7 @@ walkway~
 S
 
 #10726
-Taşlı Patika~
+TaÅŸlÄ± Patika~
 This is a small stone and gravel path that winds though a beautiful rock
 garden. To either side of you are large patches of sculpted sand. To the
 north you see the Temple of the White Lotus Clan. Wooden steps lead
@@ -2328,7 +2328,7 @@ yard~
 S
 
 #10736
-Bambu Köprü~
+Bambu KÃ¶prÃ¼~
 This is a small bamboo bridge that cross a gurgling stream from the pond
 to the north. To the east you can hear the sounds of instructors yelling at
 the students. To the west are the training grounds of the temple.
@@ -2347,7 +2347,7 @@ yard~
 S
 
 #10737
-Eğitim Avlusu~
+EÄŸitim Avlusu~
 This area of the temple is filled with what look like small ponds. It is
 rumored that these 1000 ponds were made to represent the 1000 lakes
 of a mystical training grounds called Jyusenkyo. large bamboo poles
@@ -2378,7 +2378,7 @@ yard~
 S
 
 #10738
-Eğitim Avlusu~
+EÄŸitim Avlusu~
 This area of the temple is filled with what look like small ponds. It is
 rumored that these 1000 ponds were made to represent the 1000 lakes
 of a mystical training grounds called Jyusenkyo. large bamboo poles
@@ -2400,7 +2400,7 @@ yard~
 S
 
 #10739
-Eğitim Avlusu~
+EÄŸitim Avlusu~
 This area of the temple is filled with what look like small ponds. It is
 rumored that these 1000 ponds were made to represent the 1000 lakes
 of a mystical training grounds called Jyusenkyo. large bamboo poles
@@ -2423,7 +2423,7 @@ yard~
 S
 
 #10740
-Eğitim Avlusu~
+EÄŸitim Avlusu~
 This area of the temple is filled with what look like small ponds. It is
 rumored that these 1000 ponds were made to represent the 1000 lakes
 of a mystical training grounds called Jyusenkyo. large bamboo poles
@@ -2451,7 +2451,7 @@ yard~
 S
 
 #10741
-Eğitim Avlusu~
+EÄŸitim Avlusu~
 This area of the temple is filled with what look like small ponds. It is
 rumored that these 1000 ponds were made to represent the 1000 lakes
 of a mystical training grounds called Jyusenkyo. large bamboo poles
@@ -2474,7 +2474,7 @@ yard~
 S
 
 #10742
-Eğitim Avlusu~
+EÄŸitim Avlusu~
 This area of the temple is filled with what look like small ponds. It is
 rumored that these 1000 ponds were made to represent the 1000 lakes
 of a mystical training grounds called Jyusenkyo. large bamboo poles
@@ -2497,7 +2497,7 @@ yard~
 S
 
 #10743
-Bambu Köprü~
+Bambu KÃ¶prÃ¼~
 This is a small bamboo bridge that cross a gurgling stream from the pond
 to the north. To the west you can hear the sounds of instructors yelling at
 the students. To the east is the arena of the temple.
@@ -2736,7 +2736,7 @@ forest~
 S
 
 #10753
-Taşlı Patika~
+TaÅŸlÄ± Patika~
 This is a small stone path that leads to the temple garden. It seems to wind
 around to the south and then back north as it disappears in to some very
 dense vegetation. To the west of you are the wooden steps that lead up to
@@ -2756,7 +2756,7 @@ steps~
 S
 
 #10754
-Peygamberdevesi Patikası~
+Peygamberdevesi PatikasÄ±~
 This is a small stone path that leads to the temple garden. It continues south
 and then winds back to the north before it disappears in to the thick garden
 area. The path is named after the famous Mantis style of the gardener
@@ -2776,7 +2776,7 @@ path~
 S
 
 #10755
-Peygamberdevesi Patikası~
+Peygamberdevesi PatikasÄ±~
 This is a small stone path that leads to the temple garden. It continues east
 and then winds back to the north before it disappears in to the thick garden
 area. Xiang Fung was once a the peaceful gardener of the temple. He was
@@ -2796,7 +2796,7 @@ path~
 S
 
 #10756
-Peygamberdevesi Patikası~
+Peygamberdevesi PatikasÄ±~
 This is a small stone path that leads to the temple garden. The path continues
 to the north and west. To the north you can see the beautiful gardens of
 Xiang Fung.
@@ -2815,7 +2815,7 @@ path~
 S
 
 #10757
-Peygamberdevesi Patikası~
+Peygamberdevesi PatikasÄ±~
 This is a small stone path that leads to the temple garden. The path continues
 to the north and south. To the north you can see the beautiful gardens of
 Xiang Fung.
@@ -2834,7 +2834,7 @@ path~
 S
 
 #10758
-Peygamberdevesi Patikası~
+Peygamberdevesi PatikasÄ±~
 This is a small stone path that leads to the temple garden. This is the
 beginning of the gardens of Xiang Fung. He spent many hours here
 tending to every flower and shrub. The garden here is so dense that
@@ -2855,7 +2855,7 @@ path~
 S
 
 #10759
-Peygamberdevesi Patikası~
+Peygamberdevesi PatikasÄ±~
 This is a small stone path that leads to the temple garden. The garden here
 is so dense that it blocks out the sky. Rays of light break through the
 canopy and light the pathway. Something seems to be wrong here. The
@@ -2878,7 +2878,7 @@ path~
 S
 
 #10760
-Peygamberdevesi Patikası~
+Peygamberdevesi PatikasÄ±~
 This is a small stone path that leads to the temple garden. The garden here
 is so dense that it blocks out the sky. Rays of light break through the
 canopy and light the pathway. All of the flowers and other plants are dead.
@@ -2901,7 +2901,7 @@ path~
 S
 
 #10761
-5 Ölümcül Zehir Bahçesi~
+5 Ã–lÃ¼mcÃ¼l Zehir BahÃ§esi~
 As you enter this part of the garden you see a large clan symbol burned
 into the ground. You recognize it as the symbol of the Poison clan. There
 have been rumors that recently some of the poison clan has taken up
@@ -2922,7 +2922,7 @@ path~
 S
 
 #10762
-Bahçe Yolu~
+BahÃ§e Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 Every couple of feet a dead branch or shrubbery blocks the path. The
 garden is a deadly quiet. The birds no longer sing, and the crickets no
@@ -2944,7 +2944,7 @@ path~
 S
 
 #10763
-Bahçe Yolu~
+BahÃ§e Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 Every couple of feet a dead branch or shrubbery blocks the path. The
 garden is a deadly quiet. The birds no longer sing, and the crickets no
@@ -2967,7 +2967,7 @@ path~
 S
 
 #10764
-Bahçe Yolu~
+BahÃ§e Yolu~
 You come apon a split in the path. Many dead rosebushes almost obscure
 the western path. The putrid smell of rotting vegetation turns your
 stomach.
@@ -2992,7 +2992,7 @@ path~
 S
 
 #10765
-Bahçe Yolu~
+BahÃ§e Yolu~
 This is an obcure path, almost hidden by death rosebushes. The canopy
 seems to be more dense here and the light barely seeps through the
 intertwined branches overhead.
@@ -3012,7 +3012,7 @@ path~
 S
 
 #10766
-Yılanın Eğitim Odası~
+YÄ±lanÄ±n EÄŸitim OdasÄ±~
 This room is filled with many different training devices. The stone walls
 are richly decorated with silver silk curtains and large silver statues
 of a coiled snake. Hung Wei Tung is the second pupil of the poison clan,
@@ -3031,7 +3031,7 @@ path~
 S
 
 #10767
-Bahçe Yolu~
+BahÃ§e Yolu~
 The vegetation here is a little better than that you have seen previously.
 It is still far from the beauty that Xiang Fung brought to the garden.
 Around you stand large green bamboo stalks, and rich beds of flowers.
@@ -3051,7 +3051,7 @@ path~
 S
 
 #10768
-Bahçe Yolu~
+BahÃ§e Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 Every couple of feet a dead branch or shrubbery blocks the path.
 The path continues to the west and south.
@@ -3070,7 +3070,7 @@ path~
 S
 
 #10769
-Bahçe Yolu~
+BahÃ§e Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 Every couple of feet a dead branch or shrubbery blocks the path.
 The path continues to the north and east.
@@ -3089,7 +3089,7 @@ path~
 S
 
 #10770
-Bahçe Yolu~
+BahÃ§e Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 Every couple of feet a dead branch or shrubbery blocks the path.
  ~
@@ -3112,7 +3112,7 @@ path~
 S
 
 #10771
-Kertenkelenin Eğitim Odası~
+Kertenkelenin EÄŸitim OdasÄ±~
 You stand amidst a room filled with all sorts of walls. Many walls of stone,
 wood, and various other materials are propped up around the room. This
 is the training room of the Yeun Sun Ho, the fourth pupil of the Poison
@@ -3129,7 +3129,7 @@ path~
 S
 
 #10772
-Bahçe Yolu~
+BahÃ§e Yolu~
 You are on the north end of the garden path. Through the thick brush to the
 north you see the sharp cliff of the mountain.
 The path continues to the east and west.
@@ -3148,7 +3148,7 @@ path~
 S
 
 #10773
-Akrebin Eğitim Odası~
+Akrebin EÄŸitim OdasÄ±~
 This room is filled with large poles and other training devices. Here Ma
 Tang comes to train. Ma Tang is the third pupil of the Poison Clan and
 expert of the Scorpion technique.
@@ -3173,7 +3173,7 @@ path~
 S
 
 #10774
-Kurbağanın Eğitim Odası~
+KurbaÄŸanÄ±n EÄŸitim OdasÄ±~
 This large stone room is filled with beds of nails and sharp poles. Large
 thick sheets of metal hang about the room. This is the training room of
 Lee Ho, expert of the Toad technique and fifth pupil of the Poison Clan.
@@ -3193,7 +3193,7 @@ path~
 S
 
 #10775
-Kırkayağın Eğitim Odası~
+KÄ±rkayaÄŸÄ±n EÄŸitim OdasÄ±~
 This room is almost devoid of any furniture or equipment. As you look up
 to the ceiling you notice many objects that look as though they can be
 dropped hanging over you. This the training room of the first pupil of
@@ -3214,7 +3214,7 @@ path~
 S
 
 #10776
-Bahçe Yolu~
+BahÃ§e Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 Every couple of feet a dead branch or shrubbery blocks the path.
 The path continues to the north, east and west.
@@ -3238,7 +3238,7 @@ path~
 S
 
 #10777
-Bahçe Yolu~
+BahÃ§e Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 Xiang Fung would be deeply saddened at the state of his garden if he knew.
 The path continues to the south and west.
@@ -3257,7 +3257,7 @@ path~
 S
 
 #10778
-Bahçe Yolu~
+BahÃ§e Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 Multicolored dragonflies and other exotic insects buzz by you.
 The path continues to the north and west.
@@ -3276,7 +3276,7 @@ path~
 S
 
 #10779
-Bahçe Yolu~
+BahÃ§e Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 The path continues to the east and west.
  ~
@@ -3294,7 +3294,7 @@ path~
 S
 
 #10780
-Bahçe Yolu~
+BahÃ§e Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 The garden becomes to dense to pass to the west.
 The path continues to the south and east.
@@ -3313,7 +3313,7 @@ path~
 S
 
 #10781
-Bahçe Yolu~
+BahÃ§e Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 The path continues to the south and north.
  ~
@@ -3331,7 +3331,7 @@ path~
 S
 
 #10782
-Bahçe Yolu~
+BahÃ§e Yolu~
 This small path winds across a shallow pond. White lotus leaves float
 gently on the suface of the water. Dead branches and murky water
 contaminate the once pristine scene.
@@ -3351,7 +3351,7 @@ path~
 S
 
 #10783
-Bahçe Yolu~
+BahÃ§e Yolu~
 This small path winds across a shallow pond. White lotus leaves float
 gently on the suface of the water. Here in the center of the pond the
 water seems to be cleaner as if out of reach of the encroaching poison.
@@ -3371,7 +3371,7 @@ path~
 S
 
 #10784
-Bahçe Yolu~
+BahÃ§e Yolu~
 This small path winds across a shallow pond. White lotus leaves float
 gently on the suface of the water. Here in the center of the pond the
 water seems to be cleaner as if out of reach of the encroaching poison.
@@ -3391,7 +3391,7 @@ path~
 S
 
 #10785
-Bahçe Yolu~
+BahÃ§e Yolu~
 This small path winds across a shallow pond. White lotus leaves float
 gently on the suface of the water. The water is murky and dark as if
 a poison of some sort has contaminated it.
@@ -3411,7 +3411,7 @@ path~
 S
 
 #10786
-Bahçe Yolu~
+BahÃ§e Yolu~
 This is a small garden path. Decaying plants and dry brush clutters lay
 across the path. What once used to be Xiang Fungs paradise, is now
 nothing but overgrown weeds and dead plants.
@@ -3431,7 +3431,7 @@ path~
 S
 
 #10787
-Bahçe Yolu~
+BahÃ§e Yolu~
 You walk on a small dirt path that winds through the now decaying garden.
 Every couple of feet a dead branch or shrubbery blocks the path. The
 garden is a deadly quiet. The birds no longer sing, and the crickets no
@@ -3453,7 +3453,7 @@ path~
 S
 
 #10788
-Ahşap Salon~
+AhÅŸap Salon~
 This is a long wooden hallway covered with the emblems of the White
 Lotus Clan. The smooth wooden floors are well polished and the sounds
 of conversation can be heard farther down the hall. The wooden walkway
@@ -3484,7 +3484,7 @@ cell bars~
 S
 
 #10789
-Hapishane Hücresi~
+Hapishane HÃ¼cresi~
 This is one of the cells used for detaining prisoners of the Clan. It is
 surprisingly clean for a prison cell. The cell is pretty much bare except for
 a small bench against the far wall.
@@ -3499,7 +3499,7 @@ cell bars~
 S
 
 #10790
-Hapishane Hücresi~
+Hapishane HÃ¼cresi~
 This is one of the cells used for detaining prisoners of the Clan. It is
 surprisingly clean for a prison cell. The cell is pretty much bare except for
 a small bench against the far wall.
@@ -3514,7 +3514,7 @@ cell bars~
 S
 
 #10791
-Ahşap Salon~
+AhÅŸap Salon~
 This is a long wooden hallway covered with the emblems of the White
 Lotus Clan. The smooth wooden floors are well polished and the sounds
 of conversation can be heard farther down the hall.
@@ -3546,7 +3546,7 @@ cell bars~
 S
 
 #10792
-Nöbetçi Odası~
+NÃ¶betÃ§i OdasÄ±~
 You stand in the main guard station of the Clan. This very large room is
 littered with various tables and chairs. The guards spend most of their time
 here either gambling or drinking. Very few people have the courage or the
@@ -3562,7 +3562,7 @@ hall~
 S
 
 #10793
-Hapishane Hücresi~
+Hapishane HÃ¼cresi~
 This is one of the cells used for detaining prisoners of the Clan. It is
 surprisingly clean for a prison cell. The cell is pretty much bare except for
 a small bench against the far wall.
@@ -3577,7 +3577,7 @@ cell bars~
 S
 
 #10794
-Ahşap Salon~
+AhÅŸap Salon~
 This is a long wooden hallway covered with the emblems of the White
 Lotus Clan. The smooth wooden floors are well polished and the sounds
 of conversation can be heard from either direction down the hall. The hall
@@ -3623,7 +3623,7 @@ hall~
 S
 
 #10796
-Ahşap Salon~
+AhÅŸap Salon~
 This is a smaller hallway that splits off from the large main one. Small lotus
 leaves are carved into the walls. The wooden floors are also well polished,
 but appear to be less travelled than that of the main hallway.
@@ -3643,7 +3643,7 @@ hall~
 S
 
 #10797
-Ahşap Salon~
+AhÅŸap Salon~
 This is a smaller hallway that splits off from the large main one. Small lotus
 leaves are carved into the walls. The wooden floors are also well polished,
 but appear to be less travelled than that of the main hallway.
@@ -3679,7 +3679,7 @@ hall~
 S
 
 #10799
-Ahşap Salon~
+AhÅŸap Salon~
 You are in a wooden hall. Your footsteps echo lightly on the well polish
 floor. Grand pictures of dragons and temples are carved into the walls.
 Further to the south you see a large wooden door with a dragon head
@@ -3700,7 +3700,7 @@ door wooden~
 S
 
 #10800
-General'in Çalışma Odası~
+General'in Ã‡alÄ±ÅŸma OdasÄ±~
 This is the office of General Chow, head of the militia at the temple.
 He normally sits in his office, drinks wine and laughs alot. Most
 people are smart enough not to cause trouble at the temple. His office
@@ -3716,7 +3716,7 @@ door wooden~
 S
 
 #10801
-Ahşap Salon~
+AhÅŸap Salon~
 You are in a large wooden hall that runs north south. Here there are various
 stories of dragons, wars and temples carved into the polished wooden walls.
 To the north and to the west you hear loud sounds of voices.
@@ -3748,7 +3748,7 @@ room barracks.~
 S
 
 #10802
-Silah Odası~
+Silah OdasÄ±~
 This is a large room filled with weapons for the militia. Many different
 carvings depicting battles atop of the mountain at the temple of the White
 Lotus clan span the walls.
@@ -3763,7 +3763,7 @@ hall~
 S
 
 #10803
-Kışla~
+KÄ±ÅŸla~
 These are the barrack for the temple guard. Many beds and tables fill the
 room. This is where the militia spends most of its time, since few people
 ever are stupid enough to attack the temple and anger the White Lotus
@@ -3779,7 +3779,7 @@ hall~
 S
 
 #10804
-Uzun Ahşap Salonun Sonu~
+Uzun AhÅŸap Salonun Sonu~
 This is the end of a long wooden hallway. As you look to the south you
 see the entrance far down the hall. To the east and west come sounds of
 conversation and gambling.
@@ -3805,7 +3805,7 @@ room~
 S
 
 #10805
-Kışla~
+KÄ±ÅŸla~
 These are the barrack for the temple guard. Many beds and tables fill the
 room. This is where the militia spends most of its time, since few people
 ever are stupid enough to attack the temple and anger the White Lotus
@@ -3821,7 +3821,7 @@ hall~
 S
 
 #10806
-Kışla~
+KÄ±ÅŸla~
 These are the barrack for the temple guard. Many beds and tables fill the
 room. This is where the militia spends most of its time, since few people
 ever are stupid enough to attack the temple and anger the White Lotus
@@ -3837,7 +3837,7 @@ hall~
 S
 
 #10807
-Tapınak Kapılarının İçi~
+TapÄ±nak KapÄ±larÄ±nÄ±n Ä°Ã§i~
 You stand in a grand hallway, decorated with many statues of Buddha.
 Golden dragons climb the wooden columns that reach up to the ceiling
 far above. The large white lotus emblem is embedded into the black
@@ -3891,7 +3891,7 @@ room smoke~
 S
 
 #10809
-Tapınak Kapılarının İçi~
+TapÄ±nak KapÄ±larÄ±nÄ±n Ä°Ã§i~
 You stand in a grand hallway, decorated with many statues of Buddha.
 Golden dragons climb the wooden columns that reach up to the ceiling
 far above. The large white lotus emblem is embedded into the black
@@ -4046,7 +4046,7 @@ steps darkeness~
 S
 
 #10816
-Tapınak~
+TapÄ±nak~
 The temple is filled with incense smoke and the resonant sounds of many
 monks chanting. The chanting seems to almost have a life of its own as it
 can be felt even through the hard granite below you. There are red candles
@@ -4076,7 +4076,7 @@ You can't see much through the haze of incense smoke.
 S
 
 #10817
-Tapınağın Güney Sonu~
+TapÄ±naÄŸÄ±n GÃ¼ney Sonu~
 Around you are many monks chanting and praying. Tall wooden pillars
 disappear in the haze above you. The constant and monotonous tapping of
 a some wooden object rattles your brain and seems to be almost hypnotizing.
@@ -4099,7 +4099,7 @@ You can't see much through the haze of incense smoke.
 S
 
 #10818
-Huzurun Altın Buddhası~
+Huzurun AltÄ±n BuddhasÄ±~
 Before you stands a giant golden statue of a buddha. This is the Buddha
 of Contentment. Many red candles surround the statue's base and all around
 the floor. Many offerings of oranges and rice cakes sit in front of the statue.
@@ -4119,7 +4119,7 @@ You can't see much through the haze of incense smoke.
 S
 
 #10819
-Bilgeliğin Altın Buddhası~
+BilgeliÄŸin AltÄ±n BuddhasÄ±~
 Before you stands a giant golden statue of a buddha. This is the Buddha
 of Wisdom. Many monks come here to pray for enlightenment to a problem
 or a decision. Many red candles surround the statue's base and all around
@@ -4145,7 +4145,7 @@ You can't see much through the haze of incense smoke.
 S
 
 #10820
-Aydınlığın Altın Buddhası~
+AydÄ±nlÄ±ÄŸÄ±n AltÄ±n BuddhasÄ±~
 Before you stands a giant golden statue of a buddha. This is the Buddha
 of Wisdom. The chanting here seems to be the loudest. The constant
 sounding of a gold and the tapping of a hollow wooden ball drowned
@@ -4169,7 +4169,7 @@ You can't see much through the haze of incense smoke.
 S
 
 #10821
-Tapınağın Kuzey Sonu~
+TapÄ±naÄŸÄ±n Kuzey Sonu~
 Around you are many monks chanting and praying. Tall wooden pillars
 disappear in the haze above you. The constant and monotonous tapping of
 a some wooden object rattles your brain and seems to be almost hypnotizing.
@@ -4320,7 +4320,7 @@ You see a hallway.
 S
 
 #10828
-Beyaz Lotus Liderinin Odaları~
+Beyaz Lotus Liderinin OdalarÄ±~
 These are the rooms of the White Lotus Chief. He is often meditating or
 reading. He does not like to be disturbed. This room is furnished with
 the occasional chair or table. Although not poor looking, it isn't furnished
@@ -4352,7 +4352,7 @@ You see the meditation room of the White Lotus Chief.
 S
 
 #10829
-Misafir Odası~
+Misafir OdasÄ±~
 This is where the personal guests of the White Lotus Chief stay. The room
 is nicely done, with bamboo walls and a wooden floor. A luxurious bed
 with silk sheets and pillows stands against the far wall.
@@ -4367,7 +4367,7 @@ You see a hallway.
 S
 
 #10830
-Wei Chin'in Odası~
+Wei Chin'in OdasÄ±~
 This is the room of Wei Chin, the nephew of the White Lotus Chief.
 He is here to serve his uncle and practice his kung fu. His room looks
 very much unlived in. Wei Chin is usually out traveling and looking
@@ -4383,7 +4383,7 @@ You see a hallway.
 S
 
 #10831
-Meditasyon Odası~
+Meditasyon OdasÄ±~
 This room is filled with long scrolls that hang on the walls. The scrolls
 recite many teachings of Buddha. Small incense burners sit in each corner
 of the room. A small knee high table stands in the middle of the room. The
@@ -4416,7 +4416,7 @@ You see a room.
 S
 
 #10832
-Kütüphane~
+KÃ¼tÃ¼phane~
 You stand amidst many rows of shelves. The shelves tower above you and
 are full of texts from many different areas of the world.
 The only exit is to the north.
@@ -4448,7 +4448,7 @@ bookcase~
 S
 
 #10834
-Türbe~
+TÃ¼rbe~
 This is the private shrine of the White Lotus Chief. He spends many hours
 every day here praying and studying. The room is pretty much bare with
 the exception of a large shrine, decorated with golden buddhas and many
@@ -4503,7 +4503,7 @@ D1
 S
 
 #10837
-36 Meclisin Girişi~
+36 Meclisin GiriÅŸi~
 This cold stone room is complete bare except for a door on the east wall.
 This is the entrance to the 36 Chambers of the White Lotus. It is here that
 the higher monks and students come to test their skills. The stairway seems
@@ -4548,7 +4548,7 @@ D1
 S
 
 #10840
-Beyaz Lotus'un 3'üncü Meclisi~
+Beyaz Lotus'un 3'Ã¼ncÃ¼ Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This is
 the chamber of the Whirlwind Kick technique. It is a a more difficult
@@ -4565,7 +4565,7 @@ D1
 S
 
 #10841
-Beyaz Lotus'un 4'üncü Meclisi~
+Beyaz Lotus'un 4'Ã¼ncÃ¼ Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Chin Kang Palm technique.
@@ -4593,7 +4593,7 @@ D1
 S
 
 #10843
-Beyaz Lotus'un 6'ncı Meclisi~
+Beyaz Lotus'un 6'ncÄ± Meclisi~
 This cold stone room is complete bare except for a door on the south wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Northern Crane style.
@@ -4691,7 +4691,7 @@ D2
 S
 
 #10850
-Beyaz Lotus'un 13'üncü Meclisi~
+Beyaz Lotus'un 13'Ã¼ncÃ¼ Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Iron Monk style.
@@ -4705,7 +4705,7 @@ D1
 S
 
 #10851
-Beyaz Lotus'un 14'üncü Meclisi~
+Beyaz Lotus'un 14'Ã¼ncÃ¼ Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Iron head technique.
@@ -4733,7 +4733,7 @@ D1
 S
 
 #10853
-Beyaz Lotus'un 16'ncı Meclisi~
+Beyaz Lotus'un 16'ncÄ± Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Quivering Palm technique.
@@ -4833,7 +4833,7 @@ D3
 S
 
 #10860
-Beyaz Lotus'un 23'üncü Meclisi~
+Beyaz Lotus'un 23'Ã¼ncÃ¼ Meclisi~
 This cold stone room is complete bare except for a door on the west wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Shaolin Butterfly Swords.
@@ -4847,7 +4847,7 @@ D3
 S
 
 #10861
-Beyaz Lotus'un 24'üncü Meclisi~
+Beyaz Lotus'un 24'Ã¼ncÃ¼ Meclisi~
 This cold stone room is complete bare except for a door on the south wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Shaolin Long Spear.
@@ -4875,7 +4875,7 @@ D1
 S
 
 #10863
-Beyaz Lotus'un 26'ncı Meclisi~
+Beyaz Lotus'un 26'ncÄ± Meclisi~
 This cold stone room is complete bare except for a door on the east wall.
 It is here that the higher monks and students come to test their skills. This
 is the chamber of the Flying Buddha.
@@ -4973,7 +4973,7 @@ D3
 S
 
 #10870
-Beyaz Lotus'un 33'üncü Meclisi~
+Beyaz Lotus'un 33'Ã¼ncÃ¼ Meclisi~
 This is the chamber of the Abbot of the White Lotus Clan. If you have reached
 this room you are indeed an excellent fighter. The Abbot comes here
 periodically when there is a student that is proficient enought with their skills.
@@ -4987,7 +4987,7 @@ D3
 S
 
 #10871
-Beyaz Lotus'un 34'üncü Meclisi~
+Beyaz Lotus'un 34'Ã¼ncÃ¼ Meclisi~
 You are indeed and expert! This is the 34th Chamber of the White Lotus
 Clan. Very few people have the stamina or skill to make it here.
 The Grand Abbot of the the Temple awaits you. He is here as the last
@@ -5018,7 +5018,7 @@ D3
 S
 
 #10873
-Beyaz Lotus'un 36'ncı Meclisi~
+Beyaz Lotus'un 36'ncÄ± Meclisi~
 This is the 36th Chamber of the White Lotus Clan. It is the ultimate test of
 one's abilities. If you survive you will surely be blessed by Buddha...
  ~

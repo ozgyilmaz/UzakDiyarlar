@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -56,6 +56,8 @@
 #include <sys/time.h>
 #endif
 #include <stdio.h>
+#include <wchar.h>
+#include <wctype.h>
 #include <string.h>
 #include <stdlib.h>
 #include "merc.h"
@@ -66,9 +68,9 @@ DECLARE_DO_FUN(do_help		);
 DECLARE_DO_FUN(do_say		);
 
 /* used to converter of prac and train */
-void do_gain(CHAR_DATA *ch, char *argument)
+void do_gain(CHAR_DATA *ch, wchar_t *argument)
 {
-    char arg[MAX_INPUT_LENGTH];
+    wchar_t arg[MAX_INPUT_LENGTH];
     CHAR_DATA *trainer;
 
     if (IS_NPC(ch))
@@ -84,7 +86,7 @@ void do_gain(CHAR_DATA *ch, char *argument)
 
     if (trainer == NULL || !can_see(ch,trainer))
     {
-      send_to_char("Burada yapamazsýn.\n\r", ch);
+      send_to_char( L"Burada yapamazsÄ±n.\n\r", ch);
 	return;
     }
 
@@ -92,59 +94,59 @@ void do_gain(CHAR_DATA *ch, char *argument)
 
     if (arg[0] == '\0')
     {
-      do_say(trainer,(char*)"10 pratiði 1 eðitime dönüþtürebilirsin.");
-    	do_say(trainer,(char*)"1 eðitimi 10 pratiðe dönüþtürebilirsin.");
-    	do_say(trainer,(char*)"Þunlarý kullan: 'kazan eðitim','kazan pratik'");
+      do_say(trainer,(wchar_t*)"10 pratiÄŸi 1 eÄŸitime dÃ¶nÃ¼ÅŸtÃ¼rebilirsin.");
+    	do_say(trainer,(wchar_t*)"1 eÄŸitimi 10 pratiÄŸe dÃ¶nÃ¼ÅŸtÃ¼rebilirsin.");
+    	do_say(trainer,(wchar_t*)"ÅžunlarÄ± kullan: 'kazan eÄŸitim','kazan pratik'");
 	return;
     }
 
-    if (!str_prefix(arg,"pratik"))
+    if (!str_prefix(arg, L"pratik"))
     {
 	if (ch->train < 1)
 	{
-    act("$N anlatýyor 'Hazýr deðilsin.'",
+    act( L"$N anlatÄ±yor 'HazÄ±r deÄŸilsin.'",
 		ch,NULL,trainer,TO_CHAR);
 	    return;
 	}
 
-  act("$N eðitimini pratiklere dönüþtürmene yardým ediyor.",
+  act( L"$N eÄŸitimini pratiklere dÃ¶nÃ¼ÅŸtÃ¼rmene yardÄ±m ediyor.",
 		ch,NULL,trainer,TO_CHAR);
 	ch->practice += 10;
 	ch->train -=1 ;
 	return;
     }
 
-    if (!str_prefix(arg,"eðitim"))
+    if (!str_prefix(arg, L"eÄŸitim"))
     {
 	if (ch->practice < 10)
 	{
-    act("$N anlatýyor 'Hazýr deðilsin.'",
+    act( L"$N anlatÄ±yor 'HazÄ±r deÄŸilsin.'",
 		ch,NULL,trainer,TO_CHAR);
 	    return;
 	}
 
-  act("$N pratiklerini eðitime dönüþtürmene yardým ediyor.",
+  act( L"$N pratiklerini eÄŸitime dÃ¶nÃ¼ÅŸtÃ¼rmene yardÄ±m ediyor.",
 		ch,NULL,trainer,TO_CHAR);
 	ch->practice -= 10;
 	ch->train +=1 ;
 	return;
     }
 
-    act("$N anlatýyor 'Anlamadým...'",ch,NULL,trainer,TO_CHAR);
+    act( L"$N anlatÄ±yor 'AnlamadÄ±m...'",ch,NULL,trainer,TO_CHAR);
 
 }
 
 
 /* RT spells and skills show the players spells (or skills) */
 
-void do_spells(CHAR_DATA *ch, char *argument)
+void do_spells(CHAR_DATA *ch, wchar_t *argument)
 {
-    char spell_list[LEVEL_HERO][MAX_STRING_LENGTH];
-    char spell_columns[LEVEL_HERO];
+    wchar_t spell_list[LEVEL_HERO][MAX_STRING_LENGTH];
+    wchar_t spell_columns[LEVEL_HERO];
     int sn,lev,mana;
     bool found = FALSE;
-    char buf[MAX_STRING_LENGTH];
-    char output[4*MAX_STRING_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
+    wchar_t output[4*MAX_STRING_LENGTH];
 
     if (IS_NPC(ch))
       return;
@@ -170,21 +172,21 @@ void do_spells(CHAR_DATA *ch, char *argument)
 	found = TRUE;
 	lev = skill_table[sn].skill_level[ch->iclass];
 	if (ch->level < lev)
-	  sprintf(buf,"%-18s  n/a      ", skill_table[sn].name[1]);
+	  swprintf( buf, MAX_STRING_LENGTH-1, L"%-18s  n/a      ", skill_table[sn].name[1]);
 	else
 	{
 	  mana = UMAX(skill_table[sn].min_mana,
 		      100/(2 + ch->level - lev));
-	  sprintf(buf,"%-18s  %3d mana  ",skill_table[sn].name[1],mana);
+	  swprintf( buf, MAX_STRING_LENGTH-1, L"%-18s  %3d mana  ",skill_table[sn].name[1],mana);
 	}
 
 	if (spell_list[lev][0] == '\0')
-	  sprintf(spell_list[lev],"\n\rSeviye %2d: %s",lev,buf);
+	  swprintf(spell_list[lev],lev-1, L"\n\rSeviye %2d: %s",lev,buf);
         else /* append */
 	{
 	  if ( ++spell_columns[lev] % 2 == 0)
-            strcat(spell_list[lev],"\n\r          ");
-	  strcat(spell_list[lev],buf);
+            wcscat(spell_list[lev],L"\n\r          ");
+	  wcscat(spell_list[lev],buf);
         }
       }
     }
@@ -193,24 +195,24 @@ void do_spells(CHAR_DATA *ch, char *argument)
 
     if (!found)
     {
-      send_to_char("Büyü bilmiyorsun.\n\r",ch);
+      send_to_char( L"BÃ¼yÃ¼ bilmiyorsun.\n\r",ch);
       return;
     }
 
     for (lev = 0; lev < LEVEL_HERO; lev++)
       if (spell_list[lev][0] != '\0')
-        strcat(output,spell_list[lev]);
-    strcat(output,"\n\r");
+        wcscat(output,spell_list[lev]);
+    wcscat(output, L"\n\r");
     page_to_char(output,ch);
 }
 
-void do_skills(CHAR_DATA *ch, char *argument)
+void do_skills(CHAR_DATA *ch, wchar_t *argument)
 {
-    char skill_list[LEVEL_HERO][MAX_STRING_LENGTH];
-    char skill_columns[LEVEL_HERO];
+    wchar_t skill_list[LEVEL_HERO][MAX_STRING_LENGTH];
+    wchar_t skill_columns[LEVEL_HERO];
     int sn,lev;
     bool found = FALSE;
-    char buf[MAX_STRING_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
 
     if (IS_NPC(ch))
       return;
@@ -236,18 +238,18 @@ void do_skills(CHAR_DATA *ch, char *argument)
         found = TRUE;
         lev = skill_table[sn].skill_level[ch->iclass];
         if (ch->level < lev)
-          sprintf(buf,"%-18s n/a      ", skill_table[sn].name[1]);
+          swprintf( buf, MAX_STRING_LENGTH-1, L"%-18s n/a      ", skill_table[sn].name[1]);
         else
-          sprintf(buf,"%-18s %3d%%      ",skill_table[sn].name[1],
+          swprintf( buf, MAX_STRING_LENGTH-1, L"%-18s %3d%%      ",skill_table[sn].name[1],
 					 ch->pcdata->learned[sn]);
 
         if (skill_list[lev][0] == '\0')
-          sprintf(skill_list[lev],"\n\rSeviye %2d: %s",lev,buf);
+          swprintf(skill_list[lev],lev-1, L"\n\rSeviye %2d: %s",lev,buf);
         else /* append */
         {
           if ( ++skill_columns[lev] % 2 == 0)
-            strcat(skill_list[lev],"\n\r          ");
-          strcat(skill_list[lev],buf);
+            wcscat(skill_list[lev], L"\n\r          ");
+          wcscat(skill_list[lev],buf);
         }
       }
     }
@@ -256,14 +258,14 @@ void do_skills(CHAR_DATA *ch, char *argument)
 
     if (!found)
     {
-      send_to_char("Büyü bilmiyorsun.\n\r",ch);
+      send_to_char( L"BÃ¼yÃ¼ bilmiyorsun.\n\r",ch);
       return;
     }
 
     for (lev = 0; lev < LEVEL_HERO; lev++)
       if (skill_list[lev][0] != '\0')
         send_to_char(skill_list[lev],ch);
-    send_to_char("\n\r",ch);
+    send_to_char( L"\n\r",ch);
 }
 
 
@@ -311,7 +313,7 @@ int exp_per_level(CHAR_DATA *ch, int points)
 void check_improve( CHAR_DATA *ch, int sn, bool success, int multiplier )
 {
     int chance;
-    char buf[100];
+    wchar_t buf[100];
 
     if (IS_NPC(ch))
 	return;
@@ -339,7 +341,7 @@ void check_improve( CHAR_DATA *ch, int sn, bool success, int multiplier )
 	chance = URANGE(5,100 - ch->pcdata->learned[sn], 95);
 	if (number_percent() < chance)
 	{
-    sprintf(buf,"$C%s geliþiyor!$c",
+    swprintf( buf, MAX_STRING_LENGTH-1, L"$C%s geliÅŸiyor!$c",
 		    skill_table[sn].name[1]);
 	    act_color(buf,ch,NULL,NULL,TO_CHAR,POS_DEAD, CLR_GREEN);
 	    ch->pcdata->learned[sn]++;
@@ -352,8 +354,7 @@ void check_improve( CHAR_DATA *ch, int sn, bool success, int multiplier )
 	chance = URANGE(5,ch->pcdata->learned[sn]/2,30);
 	if (number_percent() < chance)
 	{
-	    sprintf(buf,
-        "$CHatalarýndan ders alýyorsun ve %s geliþiyor.$c",
+	    swprintf( buf, MAX_STRING_LENGTH-1,L"$CHatalarÄ±ndan ders alÄ±yorsun ve %s geliÅŸiyor.$c",
 		skill_table[sn].name[1]);
 	    act_color(buf,ch,NULL,NULL,TO_CHAR,POS_DEAD,CLR_GREEN);
 	    ch->pcdata->learned[sn] += number_range(1,3);
@@ -382,15 +383,15 @@ void group_add( CHAR_DATA *ch )
 }
 
 
-void do_slist(CHAR_DATA *ch, char *argument)
+void do_slist(CHAR_DATA *ch, wchar_t *argument)
 {
-    char skill_list[LEVEL_HERO][MAX_STRING_LENGTH];
-    char skill_columns[LEVEL_HERO];
+    wchar_t skill_list[LEVEL_HERO][MAX_STRING_LENGTH];
+    wchar_t skill_columns[LEVEL_HERO];
     int sn,lev,iclass;
     bool found = FALSE;
-    char output[4*MAX_STRING_LENGTH];
-    char buf[MAX_STRING_LENGTH];
-    char arg[MAX_INPUT_LENGTH];
+    wchar_t output[4*MAX_STRING_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
+    wchar_t arg[MAX_INPUT_LENGTH];
 
     if (IS_NPC(ch))
       return;
@@ -399,13 +400,13 @@ void do_slist(CHAR_DATA *ch, char *argument)
     argument = one_argument(argument, arg);
     if (arg[0] == '\0')
 	{
-    send_to_char("Yazým: syetenek <sýnýf>.\n\r",ch);
+    send_to_char( L"YazÄ±m: syetenek <sÄ±nÄ±f>.\n\r",ch);
 	 return;
 	}
     iclass = class_lookup(arg);
     if (iclass == -1)
 	{
-    send_to_char("Geçerli bir sýnýf deðil.\n\r",ch);
+    send_to_char( L"GeÃ§erli bir sÄ±nÄ±f deÄŸil.\n\r",ch);
 	 return;
 	}
     /* initilize data */
@@ -427,14 +428,14 @@ void do_slist(CHAR_DATA *ch, char *argument)
       {
         found = TRUE;
         lev = skill_table[sn].skill_level[iclass];
-        sprintf(buf,"%-18s          ",skill_table[sn].name[1]);
+        swprintf( buf, MAX_STRING_LENGTH-1, L"%-18s          ",skill_table[sn].name[1]);
         if (skill_list[lev][0] == '\0')
-          sprintf(skill_list[lev],"\n\rrSeviye %2d: %s",lev,buf);
+          swprintf(skill_list[lev],lev-1, L"\n\rrSeviye %2d: %s",lev,buf);
         else /* append */
         {
           if ( ++skill_columns[lev] % 2 == 0)
-            strcat(skill_list[lev],"\n\r          ");
-          strcat(skill_list[lev],buf);
+            wcscat(skill_list[lev],L"\n\r          ");
+          wcscat(skill_list[lev],buf);
         }
       }
     }
@@ -443,26 +444,26 @@ void do_slist(CHAR_DATA *ch, char *argument)
 
     if (!found)
     {
-      send_to_char("O sýnýfta yetenek yok.\n\r",ch);
+      send_to_char( L"O sÄ±nÄ±fta yetenek yok.\n\r",ch);
       return;
     }
 
     for (lev = 0; lev < LEVEL_HERO; lev++)
       if (skill_list[lev][0] != '\0')
-        strcat(output,skill_list[lev]);
-    strcat(output,"\n\r");
+        wcscat(output,skill_list[lev]);
+    wcscat(output, L"\n\r");
     page_to_char(output,ch);
 }
 
 
 /* returns group number */
-int group_lookup (const char *name)
+int group_lookup (const wchar_t *name)
 {
    int gr;
 
    for ( gr = 0; prac_table[gr].sh_name != NULL; gr++)
    {
-	if (LOWER(name[0]) == LOWER(prac_table[gr].sh_name[0])
+	if (towlower(name[0]) == towlower(prac_table[gr].sh_name[0])
 	&&  !str_prefix( name,prac_table[gr].sh_name))
 	    return gr;
    }
@@ -470,27 +471,27 @@ int group_lookup (const char *name)
    return -1;
 }
 
-void do_glist( CHAR_DATA *ch , char *argument)
+void do_glist( CHAR_DATA *ch , wchar_t *argument)
 {
- char arg[MAX_INPUT_LENGTH];
- char buf[MAX_STRING_LENGTH];
+ wchar_t arg[MAX_INPUT_LENGTH];
+ wchar_t buf[MAX_STRING_LENGTH];
  int group,count;
 
  one_argument(argument,arg);
 
  if (arg[0] == '\0')
   {
-    send_to_char("Yazým : grupliste <grup>\n\r",ch);
+    send_to_char( L"YazÄ±m : grupliste <grup>\n\r",ch);
    return;
   }
 
  if ((group = group_lookup(arg) ) == -1)
   {
-    send_to_char("Geçerli bir grup deðil.\n\r",ch);
+    send_to_char( L"GeÃ§erli bir grup deÄŸil.\n\r",ch);
    return;
   }
 
-  sprintf(buf,"%s grubunu listeliyor :\n\r",prac_table[group].sh_name);
+  swprintf( buf, MAX_STRING_LENGTH-1, L"%s grubunu listeliyor :\n\r",prac_table[group].sh_name);
  send_to_char(buf,ch);
  buf[0] = '\0';
  for(count = 0 ; count < MAX_SKILL; count++)
@@ -501,35 +502,35 @@ void do_glist( CHAR_DATA *ch , char *argument)
      continue;
    if ( buf[0] != '\0')
     {
-     sprintf(buf , "%-18s%-18s\n\r", buf,skill_table[count].name[1]);
+     swprintf( buf, MAX_STRING_LENGTH-1, L"%-18s%-18s\n\r", buf,skill_table[count].name[1]);
      send_to_char(buf,ch);
      buf[0] = '\0';
     }
-   else sprintf(buf, "%-18s",skill_table[count].name[1]);
+   else swprintf( buf, MAX_STRING_LENGTH-1, L"%-18s",skill_table[count].name[1]);
   }
 
 }
 
-void do_slook( CHAR_DATA *ch, char *argument)
+void do_slook( CHAR_DATA *ch, wchar_t *argument)
 {
      int sn;
-     char arg[MAX_INPUT_LENGTH];
-     char buf[MAX_STRING_LENGTH];
+     wchar_t arg[MAX_INPUT_LENGTH];
+     wchar_t buf[MAX_STRING_LENGTH];
 
      one_argument(argument,arg);
      if (arg[0] == '\0')
 	{
-	 send_to_char("Yazým : slook <skill or spell name>.\n\r",ch);
+	 send_to_char( L"YazÄ±m : slook <skill or spell name>.\n\r",ch);
 	 return;
 	}
 
      if ( (sn = skill_lookup(arg)) == -1 )
 	{
-	 send_to_char("Böyle bir büyü veya yetenek yok.\n\r",ch);
+	 send_to_char( L"BÃ¶yle bir bÃ¼yÃ¼ veya yetenek yok.\n\r",ch);
 	 return;
 	}
 
-     sprintf(buf,"Yetenek: %s, Grup: %s.\n\r",
+     swprintf( buf, MAX_STRING_LENGTH-1, L"Yetenek: %s, Grup: %s.\n\r",
 	skill_table[sn].name[1],prac_table[skill_table[sn].group].sh_name);
      send_to_char(buf,ch);
 
@@ -538,10 +539,10 @@ void do_slook( CHAR_DATA *ch, char *argument)
 
 #define PC_PRACTICER	123
 
-void do_learn( CHAR_DATA *ch, char *argument )
+void do_learn( CHAR_DATA *ch, wchar_t *argument )
 {
-    char buf[MAX_STRING_LENGTH];
-    char arg[MAX_INPUT_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
+    wchar_t arg[MAX_INPUT_LENGTH];
     int sn;
     CHAR_DATA *mob;
     int adept;
@@ -551,19 +552,19 @@ void do_learn( CHAR_DATA *ch, char *argument )
 
 	if ( !IS_AWAKE(ch) )
 	{
-    send_to_char("Rüyalarýnda mý?\n\r", ch);
+    send_to_char( L"RÃ¼yalarÄ±nda mÄ±?\n\r", ch);
 	    return;
 	}
 
 	if ( argument[0] == '\0')
 	{
-    send_to_char( "Yazým: öðren <yetenek|büyü> <öðretici>.\n\r", ch );
+    send_to_char( L"YazÄ±m: Ã¶ÄŸren <yetenek|bÃ¼yÃ¼> <Ã¶ÄŸretici>.\n\r", ch );
 	    return;
 	}
 
 	if ( ch->practice <= 0 )
 	{
-    send_to_char("Pratik seansýn yok.\n\r", ch );
+    send_to_char( L"Pratik seansÄ±n yok.\n\r", ch );
 	    return;
 	}
 
@@ -575,13 +576,13 @@ void do_learn( CHAR_DATA *ch, char *argument )
  	|| !RACE_OK(ch,sn) ||
 (skill_table[sn].cabal != ch->cabal && skill_table[sn].cabal != CABAL_NONE) )))
 	{
-    send_to_char( "Bunu pratik edemezsin.\n\r", ch );
+    send_to_char( L"Bunu pratik edemezsin.\n\r", ch );
 	    return;
 	}
 
 	if ( sn == gsn_vampire )
 	{
-    send_to_char( "Bu konuda ancak görevci yardým edebilir.\n\r",ch);
+    send_to_char( L"Bu konuda ancak gÃ¶revci yardÄ±m edebilir.\n\r",ch);
 	 return;
 	}
 
@@ -589,25 +590,25 @@ void do_learn( CHAR_DATA *ch, char *argument )
 
 	if ( (mob = get_char_room(ch,arg) ) == NULL)
 	{
-    send_to_char( "Kahramanýn burada deðil.\n\r", ch );
+    send_to_char( L"KahramanÄ±n burada deÄŸil.\n\r", ch );
 	    return;
 	}
 
 	if ( IS_NPC(mob) || mob->level != HERO )
 	{
-    send_to_char( "Bir kahraman bulmalýsýn, sýradan birini deðil.\n\r",ch);
+    send_to_char( L"Bir kahraman bulmalÄ±sÄ±n, sÄ±radan birini deÄŸil.\n\r",ch);
 	  return;
 	}
 
 	if ( mob->status != PC_PRACTICER )
 	{
-    send_to_char( "Kahramanýn öðretmeye istekli görünmüyor.\n\r",ch);
+    send_to_char( L"KahramanÄ±n Ã¶ÄŸretmeye istekli gÃ¶rÃ¼nmÃ¼yor.\n\r",ch);
 	  return;
 	}
 
 	if (get_skill(mob,sn) < 100)
 	{
-    send_to_char("Kahramanýn bu konuyu öðretebilecek kadar bilmiyor.\n\r",ch);
+    send_to_char( L"KahramanÄ±n bu konuyu Ã¶ÄŸretebilecek kadar bilmiyor.\n\r",ch);
 	  return;
 	}
 
@@ -615,7 +616,7 @@ void do_learn( CHAR_DATA *ch, char *argument )
 
 	if ( ch->pcdata->learned[sn] >= adept )
 	{
-    sprintf( buf, "%s konusunu zaten öðrendin.\n\r",
+    swprintf( buf, MAX_STRING_LENGTH-1, L"%s konusunu zaten Ã¶ÄŸrendin.\n\r",
 		skill_table[sn].name[1] );
 	    send_to_char( buf, ch );
 	}
@@ -627,23 +628,23 @@ void do_learn( CHAR_DATA *ch, char *argument )
 		int_app[get_curr_stat(ch,STAT_INT)].learn /
 	        UMAX(skill_table[sn].rating[ch->iclass],1);
 	    mob->status = 0;
-      act( "$T öðretiyorsun.",
+      act( L"$T Ã¶ÄŸretiyorsun.",
 		    mob, NULL, skill_table[sn].name[1], TO_CHAR );
-	    act( "$n $T öðretiyor.",
+	    act( L"$n $T Ã¶ÄŸretiyor.",
 		    mob, NULL, skill_table[sn].name[1], TO_ROOM );
 	    if ( ch->pcdata->learned[sn] < adept )
 	    {
-        act( "$T öðreniyorsun.",
+        act( L"$T Ã¶ÄŸreniyorsun.",
     		    ch, NULL, skill_table[sn].name[1], TO_CHAR );
-    		act( "$n $T öðreniyor.",
+    		act( L"$n $T Ã¶ÄŸreniyor.",
     		    ch, NULL, skill_table[sn].name[1], TO_ROOM );
 	    }
 	    else
 	    {
 		ch->pcdata->learned[sn] = adept;
-    act( "$T konusunu öðrendin.",
+    act( L"$T konusunu Ã¶ÄŸrendin.",
 		    ch, NULL, skill_table[sn].name[1], TO_CHAR );
-		act( "$n $T konusunu öðrendi.",
+		act( L"$n $T konusunu Ã¶ÄŸrendi.",
 		    ch, NULL, skill_table[sn].name[1], TO_ROOM );
 	    }
 	}
@@ -651,14 +652,14 @@ void do_learn( CHAR_DATA *ch, char *argument )
 }
 
 
-void do_teach( CHAR_DATA *ch, char *argument)
+void do_teach( CHAR_DATA *ch, wchar_t *argument)
 {
  if (IS_NPC(ch) || ch->level != LEVEL_HERO)
   {
-    send_to_char("Bir kahraman olmalýsýn.\n\r",ch);
+    send_to_char( L"Bir kahraman olmalÄ±sÄ±n.\n\r",ch);
 	return;
   }
  ch->status = PC_PRACTICER;
- send_to_char("Artýk %100 olan yeteneklerini gençlere öðretebilirsin.\n\r",ch);
+ send_to_char( L"ArtÄ±k %100 olan yeteneklerini genÃ§lere Ã¶ÄŸretebilirsin.\n\r",ch);
  return;
 }

@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -18,6 +18,7 @@
 #include <sys/time.h>
 #endif
 #include <stdio.h>
+#include <wchar.h>
 #include <string.h>
 #include <stdlib.h>
 #include "merc.h"
@@ -25,42 +26,42 @@
 #include "ek2.h"
 /*
 hassan-da
-ercüment-de
-ýtýr-da
-iyþi-de
+ercÃ¼ment-de
+Ä±tÄ±r-da
+iyÅŸi-de
 bozo-da
-gözö-de
+gÃ¶zÃ¶-de
 kuzu-da
-büdü-de
+bÃ¼dÃ¼-de
 */
 
 const struct sonek_type sonek_table[] =
 {
-	{{(char*)"n",(char*)"ýn" ,(char*)"in"	,(char*)"un" ,(char*)"ün"	}},//f - un
- 	{{(char*)"y",(char*)"ý"	 ,(char*)"i"	,(char*)"u"	 ,(char*)"ü"	}},//g - u
-  {{(char*)"y",(char*)"a"	 ,(char*)"e"	,(char*)"a"	 ,(char*)"e"	}},//h - e
-  {{(char*)""	,(char*)"da" ,(char*)"de"	,(char*)"da" ,(char*)"de"	}},//j - de
-  {{(char*)""	,(char*)"dan",(char*)"den",(char*)"dan",(char*)"den"	}},//k - den
+	{{(wchar_t*)"n",(wchar_t*)"Ä±n" ,(wchar_t*)"in"	,(wchar_t*)"un" ,(wchar_t*)"Ã¼n"	}},//f - un
+ 	{{(wchar_t*)"y",(wchar_t*)"Ä±"	 ,(wchar_t*)"i"	,(wchar_t*)"u"	 ,(wchar_t*)"Ã¼"	}},//g - u
+  {{(wchar_t*)"y",(wchar_t*)"a"	 ,(wchar_t*)"e"	,(wchar_t*)"a"	 ,(wchar_t*)"e"	}},//h - e
+  {{(wchar_t*)""	,(wchar_t*)"da" ,(wchar_t*)"de"	,(wchar_t*)"da" ,(wchar_t*)"de"	}},//j - de
+  {{(wchar_t*)""	,(wchar_t*)"dan",(wchar_t*)"den",(wchar_t*)"dan",(wchar_t*)"den"	}},//k - den
      	{{NULL	,NULL	,NULL	,NULL	,NULL	}}
 };
 
-bool bu_harf_unlu_mu(char harf)
+bool bu_harf_unlu_mu(wchar_t harf)
 {
-	if(harf=='a' || harf=='A' || harf=='e' || harf=='E' || harf=='ý' || harf=='I' || harf=='i' || harf=='Ý' || harf=='o' || harf=='O' || harf=='ö' || harf=='Ö' || harf=='u' || harf=='U' || harf=='ü' || harf=='Ü')
+	if(harf=='a' || harf=='A' || harf=='e' || harf=='E' || harf=='Ä±' || harf=='I' || harf=='i' || harf=='Ä°' || harf=='o' || harf=='O' || harf=='Ã¶' || harf=='Ã–' || harf=='u' || harf=='U' || harf=='Ã¼' || harf=='Ãœ')
 		return TRUE;
 	return FALSE;
 }
 
-bool son_harf_unlu_mu(char *sozcuk)
+bool son_harf_unlu_mu(wchar_t *sozcuk)
 {
-	const 	char 	*str;
+	const 	wchar_t 	*str;
 	// son harfe ilerleyelim...
 	str = sozcuk;
 	while(*str != '\0')
 	{
 		++str;
 	}
-	//son harf þu:
+	//son harf ÅŸu:
 	--str;
 
 	if(bu_harf_unlu_mu(*str))
@@ -68,12 +69,12 @@ bool son_harf_unlu_mu(char *sozcuk)
 	return FALSE;
 }
 
-char son_unlu_harf_hangisi(char *sozcuk)
+wchar_t son_unlu_harf_hangisi(wchar_t *sozcuk)
 {
-	const 	char 	*str;
-	char unlu=0;
+	const 	wchar_t 	*str;
+	wchar_t unlu=0;
 	str=sozcuk;
-	// son harfe ilerleyelim. ilerlerken de son ünlüyü bulalým...
+	// son harfe ilerleyelim. ilerlerken de son Ã¼nlÃ¼yÃ¼ bulalÄ±m...
 	while(*str != '\0')
 	{
 		if(bu_harf_unlu_mu(*str))
@@ -84,10 +85,10 @@ char son_unlu_harf_hangisi(char *sozcuk)
 	return unlu;
 }
 
-char *ek_olustur(char *sozcuk, char tip)
+wchar_t *ek_olustur(wchar_t *sozcuk, wchar_t tip)
 {
-	char buf[MAX_STRING_LENGTH];
-	char *pbuf;
+	wchar_t buf[MAX_STRING_LENGTH];
+	wchar_t *pbuf;
 	int son_unlu,i;
 	if(tip=='f')
 		i=0;
@@ -107,20 +108,20 @@ char *ek_olustur(char *sozcuk, char tip)
 	{
 		switch(son_unlu)
 		{
-			case 'a':case 'ý':
-				sprintf(buf,"%s%s%s",sozcuk,sonek_table[i].ek[0],sonek_table[i].ek[1]);
+			case 'a':case 'Ä±':
+				swprintf( buf, MAX_STRING_LENGTH-1, L"%s%s%s",sozcuk,sonek_table[i].ek[0],sonek_table[i].ek[1]);
 				break;
 			case 'e':case 'i':
-				sprintf(buf,"%s%s%s",sozcuk,sonek_table[i].ek[0],sonek_table[i].ek[2]);
+				swprintf( buf, MAX_STRING_LENGTH-1, L"%s%s%s",sozcuk,sonek_table[i].ek[0],sonek_table[i].ek[2]);
 				break;
 			case 'o':case 'u':
-				sprintf(buf,"%s%s%s",sozcuk,sonek_table[i].ek[0],sonek_table[i].ek[3]);
+				swprintf( buf, MAX_STRING_LENGTH-1, L"%s%s%s",sozcuk,sonek_table[i].ek[0],sonek_table[i].ek[3]);
 				break;
-			case 'ö':case 'ü':
-				sprintf(buf,"%s%s%s",sozcuk,sonek_table[i].ek[0],sonek_table[i].ek[4]);
+			case 'Ã¶':case 'Ã¼':
+				swprintf( buf, MAX_STRING_LENGTH-1, L"%s%s%s",sozcuk,sonek_table[i].ek[0],sonek_table[i].ek[4]);
 				break;
 			default:
-				sprintf(buf,"%s%s%s",sozcuk,sonek_table[i].ek[0],sonek_table[i].ek[1]);
+				swprintf( buf, MAX_STRING_LENGTH-1, L"%s%s%s",sozcuk,sonek_table[i].ek[0],sonek_table[i].ek[1]);
 				break;
 		}
 	}
@@ -128,20 +129,20 @@ char *ek_olustur(char *sozcuk, char tip)
 	{
 		switch(son_unlu)
 		{
-			case 'a':case 'ý':
-				sprintf(buf,"%s%s",sozcuk,sonek_table[i].ek[1]);
+			case 'a':case 'Ä±':
+				swprintf( buf, MAX_STRING_LENGTH-1, L"%s%s",sozcuk,sonek_table[i].ek[1]);
 				break;
 			case 'e':case 'i':
-				sprintf(buf,"%s%s",sozcuk,sonek_table[i].ek[2]);
+				swprintf( buf, MAX_STRING_LENGTH-1, L"%s%s",sozcuk,sonek_table[i].ek[2]);
 				break;
 			case 'o':case 'u':
-				sprintf(buf,"%s%s%s",sozcuk,sonek_table[i].ek[0],sonek_table[i].ek[3]);
+				swprintf( buf, MAX_STRING_LENGTH-1, L"%s%s%s",sozcuk,sonek_table[i].ek[0],sonek_table[i].ek[3]);
 				break;
-			case 'ö':case 'ü':
-				sprintf(buf,"%s%s%s",sozcuk,sonek_table[i].ek[0],sonek_table[i].ek[4]);
+			case 'Ã¶':case 'Ã¼':
+				swprintf( buf, MAX_STRING_LENGTH-1, L"%s%s%s",sozcuk,sonek_table[i].ek[0],sonek_table[i].ek[4]);
 				break;
 			default:
-				sprintf(buf,"%s%s",sozcuk,sonek_table[i].ek[1]);
+				swprintf( buf, MAX_STRING_LENGTH-1, L"%s%s",sozcuk,sonek_table[i].ek[1]);
 				break;
 		}
 	}

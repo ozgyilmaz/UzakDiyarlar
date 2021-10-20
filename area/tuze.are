@@ -1,9 +1,9 @@
 #AREADATA
 Filename tuze.are~
-Name Tüze Konağı~
+Name TÃ¼ze KonaÄŸÄ±~
 Builder Chronos~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 90
 Highlevel 100
 Minvnum 510
@@ -19,46 +19,46 @@ C
 
 #NEW_MOBILES
 #510
-adalet tüze muhafız~
-adaletin kadim muhafızı~
-Tüze konağının ve adaletin kadim muhafızı burada, kutsal olan mekanın
-girişini koruyor.
+adalet tÃ¼ze muhafÄ±z~
+adaletin kadim muhafÄ±zÄ±~
+TÃ¼ze konaÄŸÄ±nÄ±n ve adaletin kadim muhafÄ±zÄ± burada, kutsal olan mekanÄ±n
+giriÅŸini koruyor.
 ~
-Yargıçlara ve ideallerine hizmet etmek için yıllarca eğitilmiş bu adam,
-yenilmesi çok zor bir rakip gibi görünüyor. Yüzünde , geride bıraktığı şeref
-dolu yılların kalıcı izleri var.
+YargÄ±Ã§lara ve ideallerine hizmet etmek iÃ§in yÄ±llarca eÄŸitilmiÅŸ bu adam,
+yenilmesi Ã§ok zor bir rakip gibi gÃ¶rÃ¼nÃ¼yor. YÃ¼zÃ¼nde , geride bÄ±raktÄ±ÄŸÄ± ÅŸeref
+dolu yÄ±llarÄ±n kalÄ±cÄ± izleri var.
 ~
 human~
 ABJKWe DFHJVZc 92
 
 #511
-şifacı kabal tüze rahip ermiş~
-tüze rahibi~
-Tüze kabalının şifacısı ve din adamı burada, neferlerin yüreklerini
+ÅŸifacÄ± kabal tÃ¼ze rahip ermiÅŸ~
+tÃ¼ze rahibi~
+TÃ¼ze kabalÄ±nÄ±n ÅŸifacÄ±sÄ± ve din adamÄ± burada, neferlerin yÃ¼reklerini
 cesaretle dolduruyor.
 ~
-Bu yaşlı ermiş, kutsal mabedinde Cabülka Cabülsa'nın dengesi ve düzeni
-için tanrısına dualar ediyor.
+Bu yaÅŸlÄ± ermiÅŸ, kutsal mabedinde CabÃ¼lka CabÃ¼lsa'nÄ±n dengesi ve dÃ¼zeni
+iÃ§in tanrÄ±sÄ±na dualar ediyor.
 ~
 human~
 ABQVae DFH 90
 #512
-katip yazman tüze~
+katip yazman tÃ¼ze~
 yasa katibi~
-Tüze kabalının katibi burada Yargıçların ağzından çıkacak kanunları
-yazıya dökmek için bekliyor.
+TÃ¼ze kabalÄ±nÄ±n katibi burada YargÄ±Ã§larÄ±n aÄŸzÄ±ndan Ã§Ä±kacak kanunlarÄ±
+yazÄ±ya dÃ¶kmek iÃ§in bekliyor.
 ~
-Orta yaşlı basit görünüşlü bu adam yargıçların cümlelerini dikte etmek
-için elinde kalemiyle bekliyor.
+Orta yaÅŸlÄ± basit gÃ¶rÃ¼nÃ¼ÅŸlÃ¼ bu adam yargÄ±Ã§larÄ±n cÃ¼mlelerini dikte etmek
+iÃ§in elinde kalemiyle bekliyor.
 ~
 human~
 AGY 0 15
 #513
-arpçı ozan sanatçı~
-bir arp sanatçısı~
-Bir arp sanatçısı burada ruhuna huzur veren bir ezgi çalıyor.
+arpÃ§Ä± ozan sanatÃ§Ä±~
+bir arp sanatÃ§Ä±sÄ±~
+Bir arp sanatÃ§Ä±sÄ± burada ruhuna huzur veren bir ezgi Ã§alÄ±yor.
 ~
-Ofcol doğumlu bu genç adam Yargıçlara hizmet etmesi için tutulmuş
+Ofcol doÄŸumlu bu genÃ§ adam YargÄ±Ã§lara hizmet etmesi iÃ§in tutulmuÅŸ
 yetenekli bir ozan.
 ~
 human~
@@ -67,61 +67,61 @@ AG 0 11
 
 #OBJECTS
 #510
-sandık ışıldayan~
-ışıldayan sandık~
-Odanın kuzey duvarındaki bir platformun üzerindeki sandık gün ışığıyla parıldıyor.~
+sandÄ±k Ä±ÅŸÄ±ldayan~
+Ä±ÅŸÄ±ldayan sandÄ±k~
+OdanÄ±n kuzey duvarÄ±ndaki bir platformun Ã¼zerindeki sandÄ±k gÃ¼n Ä±ÅŸÄ±ÄŸÄ±yla parÄ±ldÄ±yor.~
 ivory~
 container ORY P
 10 15 512 15 100
 60 1 20 P
 #511
-tüze kitap yasa~
-Tüze kitabı~
-Tüze neferlerinin yasalarının yazıldığı kitap sarıldığı ipek kumaşın içinde burada duruyor.~
+tÃ¼ze kitap yasa~
+TÃ¼ze kitabÄ±~
+TÃ¼ze neferlerinin yasalarÄ±nÄ±n yazÄ±ldÄ±ÄŸÄ± kitap sarÄ±ldÄ±ÄŸÄ± ipek kumaÅŸÄ±n iÃ§inde burada duruyor.~
 paper~
 treasure O AO
 0 0 0 0 0
 60 1 100000 P
 #512
-parşömen gizli rulo~
-bir parşömen rulosu~
-Rulo halinde bir parşömen burada duruyor.~
+parÅŸÃ¶men gizli rulo~
+bir parÅŸÃ¶men rulosu~
+Rulo halinde bir parÅŸÃ¶men burada duruyor.~
 paper~
 key ORY AO
 0 0 0 0 0
 40 4 0 P
 E
-kağıt~
-Burada birşeyleri açmak için kullanılan gizli kodlar yazıyor.
+kaÄŸÄ±t~
+Burada birÅŸeyleri aÃ§mak iÃ§in kullanÄ±lan gizli kodlar yazÄ±yor.
 ~
 #513
 hamak~
-gümüşi iplikten bir hamak~
-Gümüş ipliklerden örülmüş konforlu bir hamak burada derin bir uyku vadediyor.~
+gÃ¼mÃ¼ÅŸi iplikten bir hamak~
+GÃ¼mÃ¼ÅŸ ipliklerden Ã¶rÃ¼lmÃ¼ÅŸ konforlu bir hamak burada derin bir uyku vadediyor.~
 silk~
 furniture 0 0
 3 1000 BHKN 150 150
 20 400 100000 P
 #514
-heykel büst yargıç~
-Büyücü bir tüze neferinin heykeli~
-Efsuncu bir Yargıcın heykeli elinde asasıyla girişin yanında bekliyor.~
+heykel bÃ¼st yargÄ±Ã§~
+BÃ¼yÃ¼cÃ¼ bir tÃ¼ze neferinin heykeli~
+Efsuncu bir YargÄ±cÄ±n heykeli elinde asasÄ±yla giriÅŸin yanÄ±nda bekliyor.~
 ivory~
 furniture R P
 1 0 0 0 0
 40 60 20000 P
 #515
-heykel büst savaşçı~
-Savaşçı bir tüze neferinin heykeli~
-Savaşçı bir Yargıcın heykeli elinde heybetli kılıcıyla girişin yanında bekliyor.~
+heykel bÃ¼st savaÅŸÃ§Ä±~
+SavaÅŸÃ§Ä± bir tÃ¼ze neferinin heykeli~
+SavaÅŸÃ§Ä± bir YargÄ±cÄ±n heykeli elinde heybetli kÄ±lÄ±cÄ±yla giriÅŸin yanÄ±nda bekliyor.~
 ivory~
 furniture R P
 0 0 0 0 0
 40 40 20000 P
 #516
-kürsü~
-Başyargıcın kürsüsü~
-Holdeki kalabalığa hitap edilmesi için buraya bir kürsü yerleştirilmiş.~
+kÃ¼rsÃ¼~
+BaÅŸyargÄ±cÄ±n kÃ¼rsÃ¼sÃ¼~
+Holdeki kalabalÄ±ÄŸa hitap edilmesi iÃ§in buraya bir kÃ¼rsÃ¼ yerleÅŸtirilmiÅŸ.~
 ivory~
 furniture 0 0
 1 0 0 0 0
@@ -130,15 +130,15 @@ furniture 0 0
 
 #ROOMS
 #510
-Tüze Konağı'nın Kapıları~
-Ayaklarının altında kalan dev sarayın çatısında, beklenmedik derecede
-geniş bir terastasın. Rüzgar burada ayaklarının konumunu tehdit edercesine
-hızlı esiyor. Gri gökyüzünü dolduran yoğun bulutların arasından yükselen dev
-kanat sesleri ve çığlıklar huzursuzluk dağıtıyor. Kuzey yönünde gümüş
-renginde heybetli ahşap bir konak rüzgara karşı duruyor. Konağın dev adamant
-kapıları, önünde bekleyen muhafızla hemen hemen aynı boyda. Konağın üstüne
-yerleşmiş altın terazi yontusu bulutların arasından sızan güneş ışığıyla
-bulunduğun obsidyen terası göz kamaştırıcı hale getiriyor.
+TÃ¼ze KonaÄŸÄ±'nÄ±n KapÄ±larÄ±~
+AyaklarÄ±nÄ±n altÄ±nda kalan dev sarayÄ±n Ã§atÄ±sÄ±nda, beklenmedik derecede
+geniÅŸ bir terastasÄ±n. RÃ¼zgar burada ayaklarÄ±nÄ±n konumunu tehdit edercesine
+hÄ±zlÄ± esiyor. Gri gÃ¶kyÃ¼zÃ¼nÃ¼ dolduran yoÄŸun bulutlarÄ±n arasÄ±ndan yÃ¼kselen dev
+kanat sesleri ve Ã§Ä±ÄŸlÄ±klar huzursuzluk daÄŸÄ±tÄ±yor. Kuzey yÃ¶nÃ¼nde gÃ¼mÃ¼ÅŸ
+renginde heybetli ahÅŸap bir konak rÃ¼zgara karÅŸÄ± duruyor. KonaÄŸÄ±n dev adamant
+kapÄ±larÄ±, Ã¶nÃ¼nde bekleyen muhafÄ±zla hemen hemen aynÄ± boyda. KonaÄŸÄ±n Ã¼stÃ¼ne
+yerleÅŸmiÅŸ altÄ±n terazi yontusu bulutlarÄ±n arasÄ±ndan sÄ±zan gÃ¼neÅŸ Ä±ÅŸÄ±ÄŸÄ±yla
+bulunduÄŸun obsidyen terasÄ± gÃ¶z kamaÅŸtÄ±rÄ±cÄ± hale getiriyor.
 ~
 0 DX 1
 D0
@@ -153,15 +153,15 @@ D2
 1 -1 697
 S
 #511
-Konağın Ön bahçesi~
-Dev kapılardan geçtiğinde, kendini beklenmedik derecede huzurlu bir
-bahçede buluyorsun. Buradaki gökyüzü açık ve tatlı, serin bir meltem güneşin
-sıcak etkisini azaltıyor. Dışarıdaki manzaranın bir göz yanılsaması olması
-kuvvetle mümkün görünüyor. Bahçenin zemini bütünüyle çimlerle örülü ve yer
-yer ejderha şekilleri verilmiş şimşir ağaçları dikkatini dağıtıyor. Gümüş
-konağın ahşap kapıları ardına kadar açık ve içeriden davetkar bir harp sesi
-geliyor. Batıda küçük, gri mermerden yapılmış bir tapınak, doğuda ise
-bahçenin içine kurulmuş hasırdan bir çardak var.
+KonaÄŸÄ±n Ã–n bahÃ§esi~
+Dev kapÄ±lardan geÃ§tiÄŸinde, kendini beklenmedik derecede huzurlu bir
+bahÃ§ede buluyorsun. Buradaki gÃ¶kyÃ¼zÃ¼ aÃ§Ä±k ve tatlÄ±, serin bir meltem gÃ¼neÅŸin
+sÄ±cak etkisini azaltÄ±yor. DÄ±ÅŸarÄ±daki manzaranÄ±n bir gÃ¶z yanÄ±lsamasÄ± olmasÄ±
+kuvvetle mÃ¼mkÃ¼n gÃ¶rÃ¼nÃ¼yor. BahÃ§enin zemini bÃ¼tÃ¼nÃ¼yle Ã§imlerle Ã¶rÃ¼lÃ¼ ve yer
+yer ejderha ÅŸekilleri verilmiÅŸ ÅŸimÅŸir aÄŸaÃ§larÄ± dikkatini daÄŸÄ±tÄ±yor. GÃ¼mÃ¼ÅŸ
+konaÄŸÄ±n ahÅŸap kapÄ±larÄ± ardÄ±na kadar aÃ§Ä±k ve iÃ§eriden davetkar bir harp sesi
+geliyor. BatÄ±da kÃ¼Ã§Ã¼k, gri mermerden yapÄ±lmÄ±ÅŸ bir tapÄ±nak, doÄŸuda ise
+bahÃ§enin iÃ§ine kurulmuÅŸ hasÄ±rdan bir Ã§ardak var.
 ~
 0 DX 3
 D0
@@ -186,17 +186,17 @@ D3
 0 -1 513
 S
 #512
-Tüze Konağı'nın Ana Holü~
-Burası Tüze Neferlerinin kadim ikametgahının giriş holü. Dev salonun
-tavanının yüksekliği başını döndürüyor ve tam karşından yukarı doğru çıkan,
-gümüş ipliklerle işlenmiş halılarla kaplı geniş merdivenler ileride ikiye
-ayrılarak üzerlerindekileri geniş bir asma kata çıkartıyor. Mermer zemin,
-aynı sanatla örülmüş gri ejderha figürleri taşıyan kilimlerle kaplanmış.
-Mekanın havasında tek bir toz tanesi bile olmaması, Yargıçların temizlik ve
-bakım konusundaki hassasiyetlerini ortaya koyuyor. Yeşil ve kırmızı işlemeli
-perdelerin arasındaki geniş pencereler holü gün ışığıyla dolduruyor. Sağında
-ve solundaki odaların kapalı kapılarının ardından kağıt hışırtıları
-dikkatini çekiyor.
+TÃ¼ze KonaÄŸÄ±'nÄ±n Ana HolÃ¼~
+BurasÄ± TÃ¼ze Neferlerinin kadim ikametgahÄ±nÄ±n giriÅŸ holÃ¼. Dev salonun
+tavanÄ±nÄ±n yÃ¼ksekliÄŸi baÅŸÄ±nÄ± dÃ¶ndÃ¼rÃ¼yor ve tam karÅŸÄ±ndan yukarÄ± doÄŸru Ã§Ä±kan,
+gÃ¼mÃ¼ÅŸ ipliklerle iÅŸlenmiÅŸ halÄ±larla kaplÄ± geniÅŸ merdivenler ileride ikiye
+ayrÄ±larak Ã¼zerlerindekileri geniÅŸ bir asma kata Ã§Ä±kartÄ±yor. Mermer zemin,
+aynÄ± sanatla Ã¶rÃ¼lmÃ¼ÅŸ gri ejderha figÃ¼rleri taÅŸÄ±yan kilimlerle kaplanmÄ±ÅŸ.
+MekanÄ±n havasÄ±nda tek bir toz tanesi bile olmamasÄ±, YargÄ±Ã§larÄ±n temizlik ve
+bakÄ±m konusundaki hassasiyetlerini ortaya koyuyor. YeÅŸil ve kÄ±rmÄ±zÄ± iÅŸlemeli
+perdelerin arasÄ±ndaki geniÅŸ pencereler holÃ¼ gÃ¼n Ä±ÅŸÄ±ÄŸÄ±yla dolduruyor. SaÄŸÄ±nda
+ve solundaki odalarÄ±n kapalÄ± kapÄ±larÄ±nÄ±n ardÄ±ndan kaÄŸÄ±t hÄ±ÅŸÄ±rtÄ±larÄ±
+dikkatini Ã§ekiyor.
 ~
 0 DX 0
 D1
@@ -221,13 +221,13 @@ D4
 0 0 517
 S
 #513
-Tüze Tapınağı~
-Yargıçların ibadethanesindesin. Nereden geldiği belli olmayan huzur
-verici bir su şırıltısı tapınağı dolduruyor. Mermer duvarlarda sembolize
-edilmiş kusursuz ejderha figürleri gözlerini tavanın tam ortasındaki terazi
-minyatürüne dikmiş görünüyorlar. Dualarıyla suyun melodisine uyum sağlayan
-din adamı, üzerindeki terazi nakışları ışıkla parlayan cübbesinin içinde
-ritmik hareketlerle seni selamlıyor.
+TÃ¼ze TapÄ±naÄŸÄ±~
+YargÄ±Ã§larÄ±n ibadethanesindesin. Nereden geldiÄŸi belli olmayan huzur
+verici bir su ÅŸÄ±rÄ±ltÄ±sÄ± tapÄ±naÄŸÄ± dolduruyor. Mermer duvarlarda sembolize
+edilmiÅŸ kusursuz ejderha figÃ¼rleri gÃ¶zlerini tavanÄ±n tam ortasÄ±ndaki terazi
+minyatÃ¼rÃ¼ne dikmiÅŸ gÃ¶rÃ¼nÃ¼yorlar. DualarÄ±yla suyun melodisine uyum saÄŸlayan
+din adamÄ±, Ã¼zerindeki terazi nakÄ±ÅŸlarÄ± Ä±ÅŸÄ±kla parlayan cÃ¼bbesinin iÃ§inde
+ritmik hareketlerle seni selamlÄ±yor.
 ~
 0 DX 0
 D1
@@ -237,13 +237,13 @@ D1
 0 -1 511
 S
 #514
-Yargıçların dinlence bölgesi~
-Zorlu koşullarda çalışarak Cabülka Cabülsa'ya hüküm veren Yargıçların boş
-zamanlarını değerlendirmek için geldikleri, bahçenin huzurlu bir köşesine
-kurulmuş bir gölgeliğin altında buluyorsun kendini. Gölgeliğin tepesine
-asılmış tuhaf, hoş kokulu mor bir bitki çardağın içindeki havayı derin derin
-solumaya değer kılıyor. Bu açık hava cennetindeki herşey konak ahalisinin
-konforu için hazırlanmışa benziyor.
+YargÄ±Ã§larÄ±n dinlence bÃ¶lgesi~
+Zorlu koÅŸullarda Ã§alÄ±ÅŸarak CabÃ¼lka CabÃ¼lsa'ya hÃ¼kÃ¼m veren YargÄ±Ã§larÄ±n boÅŸ
+zamanlarÄ±nÄ± deÄŸerlendirmek iÃ§in geldikleri, bahÃ§enin huzurlu bir kÃ¶ÅŸesine
+kurulmuÅŸ bir gÃ¶lgeliÄŸin altÄ±nda buluyorsun kendini. GÃ¶lgeliÄŸin tepesine
+asÄ±lmÄ±ÅŸ tuhaf, hoÅŸ kokulu mor bir bitki Ã§ardaÄŸÄ±n iÃ§indeki havayÄ± derin derin
+solumaya deÄŸer kÄ±lÄ±yor. Bu aÃ§Ä±k hava cennetindeki herÅŸey konak ahalisinin
+konforu iÃ§in hazÄ±rlanmÄ±ÅŸa benziyor.
 ~
 0 DX 3
 D3
@@ -253,12 +253,12 @@ D3
 0 -1 511
 S
 #515
-Katip Odası~
-Burası Yargıçların hükümlerini ve buyruklarını dikte ettirdikleri yer.
-Duvarlardaki asma raflarda dosyalanmış yüzlerce kağıt rulosu ve mürekkep
-hokkaları var. Odayı gün ışığıyla dolduran geniş, açık bir pencereden sızan
-meltem, odanın ortasındaki masanın üzerindeki parşömenleri sana doğru
-uçuruyor.
+Katip OdasÄ±~
+BurasÄ± YargÄ±Ã§larÄ±n hÃ¼kÃ¼mlerini ve buyruklarÄ±nÄ± dikte ettirdikleri yer.
+Duvarlardaki asma raflarda dosyalanmÄ±ÅŸ yÃ¼zlerce kaÄŸÄ±t rulosu ve mÃ¼rekkep
+hokkalarÄ± var. OdayÄ± gÃ¼n Ä±ÅŸÄ±ÄŸÄ±yla dolduran geniÅŸ, aÃ§Ä±k bir pencereden sÄ±zan
+meltem, odanÄ±n ortasÄ±ndaki masanÄ±n Ã¼zerindeki parÅŸÃ¶menleri sana doÄŸru
+uÃ§uruyor.
 ~
 0 D 0
 D1
@@ -268,13 +268,13 @@ D1
 0 0 512
 S
 #516
-Adalet Kütüphanesi~
-4-5 metre yüksekliğinde bir tavana kadar uzanan geniş kitaplıklarla dolu
-kare şeklinde bir kütüphanedesin. Odanın ortasında 2 masa ve 6 sandalye
-duruyor ve masanın üzerinde açık kalmış kalın ciltli kitaplar var. Cabülka
-Cabülsanın tüze dağıtanlarının irfanının kaynağının bu odada olduğu
-fazlasıyla belli. Masanın üstünde açık halde duran geniş bir parşömen
-dikkatini çekiyor.
+Adalet KÃ¼tÃ¼phanesi~
+4-5 metre yÃ¼ksekliÄŸinde bir tavana kadar uzanan geniÅŸ kitaplÄ±klarla dolu
+kare ÅŸeklinde bir kÃ¼tÃ¼phanedesin. OdanÄ±n ortasÄ±nda 2 masa ve 6 sandalye
+duruyor ve masanÄ±n Ã¼zerinde aÃ§Ä±k kalmÄ±ÅŸ kalÄ±n ciltli kitaplar var. CabÃ¼lka
+CabÃ¼lsanÄ±n tÃ¼ze daÄŸÄ±tanlarÄ±nÄ±n irfanÄ±nÄ±n kaynaÄŸÄ±nÄ±n bu odada olduÄŸu
+fazlasÄ±yla belli. MasanÄ±n Ã¼stÃ¼nde aÃ§Ä±k halde duran geniÅŸ bir parÅŸÃ¶men
+dikkatini Ã§ekiyor.
 ~
 0 D 0
 D3
@@ -285,15 +285,15 @@ D3
 S
 #517
 Asma Kat~
-Genişliği 5 metreden fazla olan merdivenlerden yukarı, mermer
-trabzanlarla çevrelenmiş gri tonda dekore edilmiş bir asma kattasın. Buradan
-aşağıdaki geniş hol net bir şekilde görülüyor ve fildişinden yapılmış bir
-kürsü holde bekleyen kalabalığa hitap edecek olanın heybetine heybet katmak
-için trabzanların sonuna yerleştirilmiş. Durduğun yerden yukarı baktığında
-tepedeki camlı kubbe ve arkasındaki dev altın terazi yontusunun parlaklığı
-gözlerini alıyor. Mekanın akustiğindeki kusursuzluğu nefes sesinin tüm
-konağı doldurmasıyla farkediyorsun. Kuzeyindeki kapının iki yanına
-konuşlanmış heykeller geniş işlemeli kemerli girişi koruyormuş izlenimi
+GeniÅŸliÄŸi 5 metreden fazla olan merdivenlerden yukarÄ±, mermer
+trabzanlarla Ã§evrelenmiÅŸ gri tonda dekore edilmiÅŸ bir asma kattasÄ±n. Buradan
+aÅŸaÄŸÄ±daki geniÅŸ hol net bir ÅŸekilde gÃ¶rÃ¼lÃ¼yor ve fildiÅŸinden yapÄ±lmÄ±ÅŸ bir
+kÃ¼rsÃ¼ holde bekleyen kalabalÄ±ÄŸa hitap edecek olanÄ±n heybetine heybet katmak
+iÃ§in trabzanlarÄ±n sonuna yerleÅŸtirilmiÅŸ. DurduÄŸun yerden yukarÄ± baktÄ±ÄŸÄ±nda
+tepedeki camlÄ± kubbe ve arkasÄ±ndaki dev altÄ±n terazi yontusunun parlaklÄ±ÄŸÄ±
+gÃ¶zlerini alÄ±yor. MekanÄ±n akustiÄŸindeki kusursuzluÄŸu nefes sesinin tÃ¼m
+konaÄŸÄ± doldurmasÄ±yla farkediyorsun. Kuzeyindeki kapÄ±nÄ±n iki yanÄ±na
+konuÅŸlanmÄ±ÅŸ heykeller geniÅŸ iÅŸlemeli kemerli giriÅŸi koruyormuÅŸ izlenimi
 veriyorlar.
 ~
 0 D 0
@@ -310,14 +310,14 @@ D5
 S
 #518
 Adalet Mabedi~
-Yargıçların toplantı odasındasın. Odanın tam ortasında altıgen şekilli
-ahşap işlemeli bir masa ve çevresinde 5 adet gri valen ağacından koltuklar
-var. Tam karşında kalan yerde ise bir tahtı andıran geniş ve heybetli bir
-koltuk duruyor. Ahşap duvarlar gümüş ejderha motifleriyle kusursuzca
-dokunmuş kilimlerle kaplı. Şaşalı koltuğun arkasında, üzerine güneş ışığı
-vuran bir sandığın varlığı kalbine heyecan veriyor. Sandığın tepesindeki,
-odayı duvardan duvara kateden taç, metal işlemeli bir yazıyı gözler önüne
-seriyor. "Şan ver adaletin zikrine!"
+YargÄ±Ã§larÄ±n toplantÄ± odasÄ±ndasÄ±n. OdanÄ±n tam ortasÄ±nda altÄ±gen ÅŸekilli
+ahÅŸap iÅŸlemeli bir masa ve Ã§evresinde 5 adet gri valen aÄŸacÄ±ndan koltuklar
+var. Tam karÅŸÄ±nda kalan yerde ise bir tahtÄ± andÄ±ran geniÅŸ ve heybetli bir
+koltuk duruyor. AhÅŸap duvarlar gÃ¼mÃ¼ÅŸ ejderha motifleriyle kusursuzca
+dokunmuÅŸ kilimlerle kaplÄ±. ÅaÅŸalÄ± koltuÄŸun arkasÄ±nda, Ã¼zerine gÃ¼neÅŸ Ä±ÅŸÄ±ÄŸÄ±
+vuran bir sandÄ±ÄŸÄ±n varlÄ±ÄŸÄ± kalbine heyecan veriyor. SandÄ±ÄŸÄ±n tepesindeki,
+odayÄ± duvardan duvara kateden taÃ§, metal iÅŸlemeli bir yazÄ±yÄ± gÃ¶zler Ã¶nÃ¼ne
+seriyor. "Åan ver adaletin zikrine!"
 ~
 0 D 0
 D2

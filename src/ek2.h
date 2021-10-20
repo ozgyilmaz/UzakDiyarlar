@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -12,13 +12,13 @@
  
 struct sonek_type
 {
-	char *ek[5];
+	wchar_t *ek[5];
 };
 
 extern	const	struct	sonek_type	sonek_table[];
 
 
-bool	bu_harf_unlu_mu		args((char harf));
-bool	son_harf_unlu_mu	args((char *sozcuk));
-char	son_unlu_harf_hangisi	args((char *sozcuk));
-char	*ek_olustur		args((char *sozcuk, char tip));
+bool	bu_harf_unlu_mu		args((wchar_t harf));
+bool	son_harf_unlu_mu	args((wchar_t *sozcuk));
+wchar_t	son_unlu_harf_hangisi	args((wchar_t *sozcuk));
+wchar_t	*ek_olustur		args((wchar_t *sozcuk, wchar_t tip));

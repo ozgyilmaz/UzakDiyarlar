@@ -1,14 +1,14 @@
 #AREADATA
 Filename tilsim.are~
-Name Tılsım~
+Name TÄ±lsÄ±m~
 Builder Asena~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 90
 Highlevel 100
 Minvnum 530
 Maxvnum 539
-Path Yüksek Kule'nin Girişinden k 3d 2k y 3b 4g 4d 4k y 4b 4g 4d 4k y 4b 4g 4d 4k y 2b 5g 2y 6k~
+Path YÃ¼ksek Kule'nin GiriÅŸinden k 3d 2k y 3b 4g 4d 4k y 4b 4g 4d 4k y 4b 4g 4d 4k y 2b 5g 2y 6k~
 Yonelim_iyi 10
 Yonelim_yansiz 80
 Yonelim_kem 10
@@ -19,36 +19,36 @@ C
 
 #NEW_MOBILES
 #530
-kethüda tılsım cabal kabal~
-kethüda~
-Büyünün Kethüdası burada duruyor.
+kethÃ¼da tÄ±lsÄ±m cabal kabal~
+kethÃ¼da~
+BÃ¼yÃ¼nÃ¼n KethÃ¼dasÄ± burada duruyor.
 ~
-Hayaletimsi bir figür efendilerine karşı olan herkesi öldürecek büyülü
-efsunu yaymak için burada etrafında süzülüyor. Yaratık tamamen alevlerden ve
-başka büyülü materyallerden yaratılmış.
+Hayaletimsi bir figÃ¼r efendilerine karÅŸÄ± olan herkesi Ã¶ldÃ¼recek bÃ¼yÃ¼lÃ¼
+efsunu yaymak iÃ§in burada etrafÄ±nda sÃ¼zÃ¼lÃ¼yor. YaratÄ±k tamamen alevlerden ve
+baÅŸka bÃ¼yÃ¼lÃ¼ materyallerden yaratÄ±lmÄ±ÅŸ.
 ~
-çora~
+Ã§ora~
 ABJKRVe FHDec 92
 
 #531
-tılsım şifacı cabal kabal~
-şifacı~
-Kadim sanatların şifacısı burada.
+tÄ±lsÄ±m ÅŸifacÄ± cabal kabal~
+ÅŸifacÄ±~
+Kadim sanatlarÄ±n ÅŸifacÄ±sÄ± burada.
 ~
-Yaşlı, bilge rahip eski dostları olan kadim sanatlar ustalarını kutsuyor.
-Çok güzel uzun ak saçlara sahip, yerlere kadar ulaşan beyaz bir elbise
-giymekte. Yüzünde gülümsüyen bir tebessüm var.
+YaÅŸlÄ±, bilge rahip eski dostlarÄ± olan kadim sanatlar ustalarÄ±nÄ± kutsuyor.
+Ã‡ok gÃ¼zel uzun ak saÃ§lara sahip, yerlere kadar ulaÅŸan beyaz bir elbise
+giymekte. YÃ¼zÃ¼nde gÃ¼lÃ¼msÃ¼yen bir tebessÃ¼m var.
 ~
 human~
 ABQVae DFH 90
 #532
-ateşten kırmızı iblis~
-ateşten yaratılmış iblis~
-Alevden yaratılmış kırmızı iblis etrafına kızgınlıkla bakıyor.
+ateÅŸten kÄ±rmÄ±zÄ± iblis~
+ateÅŸten yaratÄ±lmÄ±ÅŸ iblis~
+Alevden yaratÄ±lmÄ±ÅŸ kÄ±rmÄ±zÄ± iblis etrafÄ±na kÄ±zgÄ±nlÄ±kla bakÄ±yor.
 ~
-Alevler içinde duran agresif bir iblis görüyorsun. Çağrıldığı için bayağı
-bir kızgın. Ateşten kırmızı bir cilde sahip, iki kafalı, kırmızı skalalar,
-keskin dişler, 2 kol ve uzun pençelere sahip kaslı bir iblis.
+Alevler iÃ§inde duran agresif bir iblis gÃ¶rÃ¼yorsun. Ã‡aÄŸrÄ±ldÄ±ÄŸÄ± iÃ§in bayaÄŸÄ±
+bir kÄ±zgÄ±n. AteÅŸten kÄ±rmÄ±zÄ± bir cilde sahip, iki kafalÄ±, kÄ±rmÄ±zÄ± skalalar,
+keskin diÅŸler, 2 kol ve uzun penÃ§elere sahip kaslÄ± bir iblis.
 ~
 unique~
 AB JZ 40
@@ -59,18 +59,18 @@ AB JZ 40
 
 #OBJECTS
 #530
-örümcek mimber~
-örümcek şekline bürünmüş mimber~
-Örümcek şekline bürünmüş bir mimber odanın ortasında duruyor.~
+Ã¶rÃ¼mcek mimber~
+Ã¶rÃ¼mcek ÅŸekline bÃ¼rÃ¼nmÃ¼ÅŸ mimber~
+Ã–rÃ¼mcek ÅŸekline bÃ¼rÃ¼nmÃ¼ÅŸ bir mimber odanÄ±n ortasÄ±nda duruyor.~
 ivory~
 container AORY P
 10 15 532 15 100
 60 1 20 P
 
 #531
-küre~
-Büyülü küre~
-Büyülü küre burada.~
+kÃ¼re~
+BÃ¼yÃ¼lÃ¼ kÃ¼re~
+BÃ¼yÃ¼lÃ¼ kÃ¼re burada.~
 ebony~
 staff A A
 0 0 0 0 0
@@ -78,8 +78,8 @@ staff A A
 
 #532
 anahtar~
-örümcek şeklinde anahtar~
-Örümcek şeklindeki anahtar yerde duruyor.~
+Ã¶rÃ¼mcek ÅŸeklinde anahtar~
+Ã–rÃ¼mcek ÅŸeklindeki anahtar yerde duruyor.~
 steel~
 key ORY AO
 0 0 0 0 0
@@ -87,16 +87,16 @@ key ORY AO
 
 #533
 beyaz portal~
-Büyülü Beyaz Portal~
-Etrafına garip gölgeler yayan efsunla örülmüş beyaz bir nesne görüyorsun.~
+BÃ¼yÃ¼lÃ¼ Beyaz Portal~
+EtrafÄ±na garip gÃ¶lgeler yayan efsunla Ã¶rÃ¼lmÃ¼ÅŸ beyaz bir nesne gÃ¶rÃ¼yorsun.~
 energy~
 portal AO 0
 0 0 D 9209 0
 0 0 0 P
 #534
 siyah portal~
-Büyülü Siyah Portal~
-Etrafına garip gölgeler yayan efsunla örülmüş siyah bir nesne görüyorsun.~
+BÃ¼yÃ¼lÃ¼ Siyah Portal~
+EtrafÄ±na garip gÃ¶lgeler yayan efsunla Ã¶rÃ¼lmÃ¼ÅŸ siyah bir nesne gÃ¶rÃ¼yorsun.~
 energy~
 portal AO 0
 0 0 E 0 0
@@ -109,13 +109,13 @@ portal AO 0
 
 #ROOMS
 #530
-Beşinci Kat~
-Kulenin beşinci katı evrenin büyülü gücüyle etrafında vızıldıyor.
-Etrafında diyarın her bir tarafından alınmış, kullanılmış ve taşınmış
-eşyalarına rastlıyorsun. Muhtemelen büyü dünyasının sırlarına ulaşılmak için
-kullanılmış bu eşyalar; taşlar büyü ile uğulduyup, ışık veriyorlar. Önünde
-örümcek şekline bürünmüş bir mimber görüyorsun, ve etrafına yumuşak mor ışık
-saçıyor.
+BeÅŸinci Kat~
+Kulenin beÅŸinci katÄ± evrenin bÃ¼yÃ¼lÃ¼ gÃ¼cÃ¼yle etrafÄ±nda vÄ±zÄ±ldÄ±yor.
+EtrafÄ±nda diyarÄ±n her bir tarafÄ±ndan alÄ±nmÄ±ÅŸ, kullanÄ±lmÄ±ÅŸ ve taÅŸÄ±nmÄ±ÅŸ
+eÅŸyalarÄ±na rastlÄ±yorsun. Muhtemelen bÃ¼yÃ¼ dÃ¼nyasÄ±nÄ±n sÄ±rlarÄ±na ulaÅŸÄ±lmak iÃ§in
+kullanÄ±lmÄ±ÅŸ bu eÅŸyalar; taÅŸlar bÃ¼yÃ¼ ile uÄŸulduyup, Ä±ÅŸÄ±k veriyorlar. Ã–nÃ¼nde
+Ã¶rÃ¼mcek ÅŸekline bÃ¼rÃ¼nmÃ¼ÅŸ bir mimber gÃ¶rÃ¼yorsun, ve etrafÄ±na yumuÅŸak mor Ä±ÅŸÄ±k
+saÃ§Ä±yor.
 ~
 0 DX 0
 D1
@@ -133,12 +133,12 @@ D5
 S
 
 #531
-Dördüncü Kat~
-Dördüncü kat diğerlerinden daha büyük. Etrafında büyüler görmektesin.
-Burada Kadim Sanatlar büyücülerinin yarattığı ve Uzak Diyarlar diyarında
-onlara taraf olmayan kahramanları öldürmekte kullandığı değnekler bulunuyor.
-Çağrılmış kırmızı kızgın iblisler çağrılmalarına sinirli bir şekilde burada
-durmaktadır.
+DÃ¶rdÃ¼ncÃ¼ Kat~
+DÃ¶rdÃ¼ncÃ¼ kat diÄŸerlerinden daha bÃ¼yÃ¼k. EtrafÄ±nda bÃ¼yÃ¼ler gÃ¶rmektesin.
+Burada Kadim Sanatlar bÃ¼yÃ¼cÃ¼lerinin yarattÄ±ÄŸÄ± ve Uzak Diyarlar diyarÄ±nda
+onlara taraf olmayan kahramanlarÄ± Ã¶ldÃ¼rmekte kullandÄ±ÄŸÄ± deÄŸnekler bulunuyor.
+Ã‡aÄŸrÄ±lmÄ±ÅŸ kÄ±rmÄ±zÄ± kÄ±zgÄ±n iblisler Ã§aÄŸrÄ±lmalarÄ±na sinirli bir ÅŸekilde burada
+durmaktadÄ±r.
 ~
 0 DX 0
 D4
@@ -152,11 +152,11 @@ D5
 S
 
 #532
-Üçüncü Kat~
-Birden ortaya çıkan bir sisin içinde buluyorsun kendini. Girdap içinde
-dönen bu sis senin görüş alanını ve zihnini karaltıyor. Birden sonsuzluk ve
-büyünün gücünü merak etmeye başlıyorsun. Yukarılara doğru sisin gittikçe
-inceldiğini görüyorsun.
+ÃœÃ§Ã¼ncÃ¼ Kat~
+Birden ortaya Ã§Ä±kan bir sisin iÃ§inde buluyorsun kendini. Girdap iÃ§inde
+dÃ¶nen bu sis senin gÃ¶rÃ¼ÅŸ alanÄ±nÄ± ve zihnini karaltÄ±yor. Birden sonsuzluk ve
+bÃ¼yÃ¼nÃ¼n gÃ¼cÃ¼nÃ¼ merak etmeye baÅŸlÄ±yorsun. YukarÄ±lara doÄŸru sisin gittikÃ§e
+inceldiÄŸini gÃ¶rÃ¼yorsun.
 ~
 0 DX 0
 D4
@@ -170,11 +170,11 @@ D5
 S
 
 #533
-İkinci Kat~
-Kadim sanatlar kulesinin ikinci katıda ilk katı ile genellikle aynı.
-Kararmış ve yanmış duvarların büyülü bir ateş ile yakıldığını hayal
-ediyorsun. Büyülü küreler üzerinde süzülerek sana ışık sağlıyor. Aşağıya ve
-yukarıya doğru uzanan merdivenleri görüyorsun.
+Ä°kinci Kat~
+Kadim sanatlar kulesinin ikinci katÄ±da ilk katÄ± ile genellikle aynÄ±.
+KararmÄ±ÅŸ ve yanmÄ±ÅŸ duvarlarÄ±n bÃ¼yÃ¼lÃ¼ bir ateÅŸ ile yakÄ±ldÄ±ÄŸÄ±nÄ± hayal
+ediyorsun. BÃ¼yÃ¼lÃ¼ kÃ¼reler Ã¼zerinde sÃ¼zÃ¼lerek sana Ä±ÅŸÄ±k saÄŸlÄ±yor. AÅŸaÄŸÄ±ya ve
+yukarÄ±ya doÄŸru uzanan merdivenleri gÃ¶rÃ¼yorsun.
 ~
 0 DX 0
 D4
@@ -188,10 +188,10 @@ D5
 S
 
 #534
-Kulenin İçi~
-Kadim Sanatların Kulesinin en alt katında duruyorsun. Efsunlu duvarlar
-büyülü ışıldamalarıyla etrafını görebileceğin kadar aydınlatmakta. Belkide
-üst katlarda kulenin ve kadim sanatın sırları yatmaktadır.
+Kulenin Ä°Ã§i~
+Kadim SanatlarÄ±n Kulesinin en alt katÄ±nda duruyorsun. Efsunlu duvarlar
+bÃ¼yÃ¼lÃ¼ Ä±ÅŸÄ±ldamalarÄ±yla etrafÄ±nÄ± gÃ¶rebileceÄŸin kadar aydÄ±nlatmakta. Belkide
+Ã¼st katlarda kulenin ve kadim sanatÄ±n sÄ±rlarÄ± yatmaktadÄ±r.
 ~
 0 DX 0
 D2
@@ -205,11 +205,11 @@ D4
 S
 
 #535
-Kulenin dışı~
-Uçları kuzeye ve güneye uzayan uzun bir yoldasın. Efsunlu duvarlar büyülü
-ışıldamalarıyla etrafını görebileceğin kadar aydınlatmakta. Buna ek olarak
-büyülü küreler üzerinde süzülerek sana ışık sağlıyor. Saf büyü ile
-yaratılmış bu kulenin yapımında bütün diyarın gücünün kullanıldığını
+Kulenin dÄ±ÅŸÄ±~
+UÃ§larÄ± kuzeye ve gÃ¼neye uzayan uzun bir yoldasÄ±n. Efsunlu duvarlar bÃ¼yÃ¼lÃ¼
+Ä±ÅŸÄ±ldamalarÄ±yla etrafÄ±nÄ± gÃ¶rebileceÄŸin kadar aydÄ±nlatmakta. Buna ek olarak
+bÃ¼yÃ¼lÃ¼ kÃ¼reler Ã¼zerinde sÃ¼zÃ¼lerek sana Ä±ÅŸÄ±k saÄŸlÄ±yor. Saf bÃ¼yÃ¼ ile
+yaratÄ±lmÄ±ÅŸ bu kulenin yapÄ±mÄ±nda bÃ¼tÃ¼n diyarÄ±n gÃ¼cÃ¼nÃ¼n kullanÄ±ldÄ±ÄŸÄ±nÄ±
 hissediyorsun.
 ~
 0 DX 0
@@ -224,9 +224,9 @@ D2
 S
 #536
 Gizemli Yol~
-Efsunun gücünü hissetmeye başlıyorsun. Bilinen bütün düzlemlerden büyülü
-varlıklar sana doğru yürüyor. Bu yol etrafındaki herşey gibi efsunla
-yaratılmış ve mükemmel durumda. Önünde Kadim Sanatların Kulesini görüyorsun.
+Efsunun gÃ¼cÃ¼nÃ¼ hissetmeye baÅŸlÄ±yorsun. Bilinen bÃ¼tÃ¼n dÃ¼zlemlerden bÃ¼yÃ¼lÃ¼
+varlÄ±klar sana doÄŸru yÃ¼rÃ¼yor. Bu yol etrafÄ±ndaki herÅŸey gibi efsunla
+yaratÄ±lmÄ±ÅŸ ve mÃ¼kemmel durumda. Ã–nÃ¼nde Kadim SanatlarÄ±n Kulesini gÃ¶rÃ¼yorsun.
 ~
 0 DX 0
 D0
@@ -240,12 +240,12 @@ D2
 S
 #537
 Gizemli Oda~
-Bu oda kulenin üçüncü katına benziyor. Birden ortaya çıkıp etrafını saran
-bir sisin içindesin. Girdap içinde dönen bu sis senin görüş alanını ve
-zihnini karaltıyor. Birden sonsuzluk ve büyünün gücünü merak etmeye
-başlıyorsun. Yukarılara doğru sisin gittikçe inceldiğini görüyorsun. Güçlü
-değnekler yaratmak için bulabileceğin materyalleri barındıran bir portal
-görüyorsun.
+Bu oda kulenin Ã¼Ã§Ã¼ncÃ¼ katÄ±na benziyor. Birden ortaya Ã§Ä±kÄ±p etrafÄ±nÄ± saran
+bir sisin iÃ§indesin. Girdap iÃ§inde dÃ¶nen bu sis senin gÃ¶rÃ¼ÅŸ alanÄ±nÄ± ve
+zihnini karaltÄ±yor. Birden sonsuzluk ve bÃ¼yÃ¼nÃ¼n gÃ¼cÃ¼nÃ¼ merak etmeye
+baÅŸlÄ±yorsun. YukarÄ±lara doÄŸru sisin gittikÃ§e inceldiÄŸini gÃ¶rÃ¼yorsun. GÃ¼Ã§lÃ¼
+deÄŸnekler yaratmak iÃ§in bulabileceÄŸin materyalleri barÄ±ndÄ±ran bir portal
+gÃ¶rÃ¼yorsun.
 ~
 0 DX 0
 D3
@@ -255,12 +255,12 @@ D3
 S
 #538
 Gizemli Oda~
-Bu oda kulenin üçüncü katına benziyor. Birden ortaya çıkıp etrafını saran
-bir sisin içindesin. Girdap içinde dönen bu sis senin görüş alanını ve
-zihnini karaltıyor. Birden sonsuzluk ve büyünün gücünü merak etmeye
-başlıyorsun. Yukarılara doğru sisin gittikçe inceldiğini görüyorsun. Güçlü
-değnekler yaratmak için bulabileceğin materyalleri barındıran bir portal
-görüyorsun.
+Bu oda kulenin Ã¼Ã§Ã¼ncÃ¼ katÄ±na benziyor. Birden ortaya Ã§Ä±kÄ±p etrafÄ±nÄ± saran
+bir sisin iÃ§indesin. Girdap iÃ§inde dÃ¶nen bu sis senin gÃ¶rÃ¼ÅŸ alanÄ±nÄ± ve
+zihnini karaltÄ±yor. Birden sonsuzluk ve bÃ¼yÃ¼nÃ¼n gÃ¼cÃ¼nÃ¼ merak etmeye
+baÅŸlÄ±yorsun. YukarÄ±lara doÄŸru sisin gittikÃ§e inceldiÄŸini gÃ¶rÃ¼yorsun. GÃ¼Ã§lÃ¼
+deÄŸnekler yaratmak iÃ§in bulabileceÄŸin materyalleri barÄ±ndÄ±ran bir portal
+gÃ¶rÃ¼yorsun.
 ~
 0 DX 0
 D1

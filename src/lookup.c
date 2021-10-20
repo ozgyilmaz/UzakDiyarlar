@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -54,17 +54,19 @@
 #include <sys/types.h>
 #endif
 #include <stdio.h>
+#include <wchar.h>
+#include <wctype.h>
 #include <time.h>
 #include "merc.h"
 #include "tables.h"
 
-int flag_lookup (const char *name, const struct flag_type *flag_table)
+int flag_lookup (const wchar_t *name, const struct flag_type *flag_table)
 {
     int flag;
 
     for (flag = 0; flag_table[flag].name != NULL; flag++)
     {
-	if (LOWER(name[0]) == LOWER(flag_table[flag].name[0])
+	if (towlower(name[0]) == towlower(flag_table[flag].name[0])
 	&&  !str_prefix(name,flag_table[flag].name))
 	    return flag_table[flag].bit;
     }
@@ -73,13 +75,13 @@ int flag_lookup (const char *name, const struct flag_type *flag_table)
 }
 
 
-int position_lookup (const char *name)
+int position_lookup (const wchar_t *name)
 {
    int pos;
 
    for (pos = 0; position_table[pos].name != NULL; pos++)
    {
-	if (LOWER(name[0]) == LOWER(position_table[pos].name[0])
+	if (towlower(name[0]) == towlower(position_table[pos].name[0])
 	&&  !str_prefix(name,position_table[pos].name))
 	    return pos;
    }
@@ -87,13 +89,13 @@ int position_lookup (const char *name)
    return -1;
 }
 
-int sex_lookup (const char *name)
+int sex_lookup (const wchar_t *name)
 {
    int sex;
 
    for (sex = 0; sex_table[sex].name != NULL; sex++)
    {
-	if (LOWER(name[0]) == LOWER(sex_table[sex].name[0])
+	if (towlower(name[0]) == towlower(sex_table[sex].name[0])
 	&&  !str_prefix(name,sex_table[sex].name))
 	    return sex;
    }
@@ -101,13 +103,13 @@ int sex_lookup (const char *name)
    return -1;
 }
 
-int size_lookup (const char *name)
+int size_lookup (const wchar_t *name)
 {
    int size;
 
    for ( size = 0; size_table[size].name != NULL; size++)
    {
-        if (LOWER(name[0]) == LOWER(size_table[size].name[0])
+        if (towlower(name[0]) == towlower(size_table[size].name[0])
         &&  !str_prefix( name,size_table[size].name))
             return size;
    }
@@ -115,16 +117,16 @@ int size_lookup (const char *name)
    return 0;
 }
 
-int lang_lookup (const char *name)
+int lang_lookup (const wchar_t *name)
 {
    int lang;
 
-   if (LOWER(name[0]) == 'a' && (!str_prefix(name,"analisan")) )
+   if (towlower(name[0]) == 'a' && (!str_prefix(name,L"analisan")) )
     return MAX_LANGUAGE;
 
    for (lang = 0; lang < MAX_LANGUAGE; lang++)
    {
-	if (LOWER(name[0]) == LOWER(language_table[lang].name[0])
+	if (towlower(name[0]) == towlower(language_table[lang].name[0])
 	&&  !str_prefix(name,language_table[lang].name))
 	    return lang;
    }

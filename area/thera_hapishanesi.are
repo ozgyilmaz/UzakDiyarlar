@@ -3,7 +3,7 @@ Filename thera_hapishanesi.are~
 Name Thera Hapishanesi~
 Builder RM~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 80
 Highlevel 130
 Minvnum 15000
@@ -17,68 +17,68 @@ END
 #NEW_MOBILES
 
 #15000
-baş gardiyan~
-Hücre gardiyanlarının başı~
-Hapisanedeki gardiyanların başı burada.
+baÅŸ gardiyan~
+HÃ¼cre gardiyanlarÄ±nÄ±n baÅŸÄ±~
+Hapisanedeki gardiyanlarÄ±n baÅŸÄ± burada.
 ~
-Bu adam yıllardır burada. Hapishanesini zarardan koruyor. Kötü
-büyücüden tek etkilenmeyen kişi o. O güçlü ve bilge.
+Bu adam yÄ±llardÄ±r burada. Hapishanesini zarardan koruyor. KÃ¶tÃ¼
+bÃ¼yÃ¼cÃ¼den tek etkilenmeyen kiÅŸi o. O gÃ¼Ã§lÃ¼ ve bilge.
 ~
 human~
 ABWe  DFHJVZ 130
 #15003
-hücre gardiyan~
-Hücrenin gardiyanı~
-Hapisanenin gardiyanı burada.
+hÃ¼cre gardiyan~
+HÃ¼crenin gardiyanÄ±~
+Hapisanenin gardiyanÄ± burada.
 ~
-Omzunda gardiyanların işaretini taşıyan, işini yapan, güçlü
+Omzunda gardiyanlarÄ±n iÅŸaretini taÅŸÄ±yan, iÅŸini yapan, gÃ¼Ã§lÃ¼
 bir gardiyan.
 ~
 human~
 ABWe  DFHJVZ 95
 #15001
-hücre temizlikçi~
-Hapishane temizlikçisi~
-Hapishane temizlikçilerinden biri burada.
+hÃ¼cre temizlikÃ§i~
+Hapishane temizlikÃ§isi~
+Hapishane temizlikÃ§ilerinden biri burada.
 ~
-Öyle acıklı ağlıyor ve şarkı söylüyor ama sen hiçbir şey anlayamıyorsun.
-Neden aynı zamanda hep şarkı söyleyip hem de ağlıyor? Birden anlıyorsun,
-şarkı söylemek : şimdi öleceksin!
+Ã–yle acÄ±klÄ± aÄŸlÄ±yor ve ÅŸarkÄ± sÃ¶ylÃ¼yor ama sen hiÃ§bir ÅŸey anlayamÄ±yorsun.
+Neden aynÄ± zamanda hep ÅŸarkÄ± sÃ¶yleyip hem de aÄŸlÄ±yor? Birden anlÄ±yorsun,
+ÅŸarkÄ± sÃ¶ylemek : ÅŸimdi Ã¶leceksin!
 ~
 human~
 ACGT  DFJZ 80
 #15002
-suçlu~
-Suçlu~
-Bir suçlu burada dinleniyor.
+suÃ§lu~
+SuÃ§lu~
+Bir suÃ§lu burada dinleniyor.
 ~
-Suçlunun sıkılmış gözleri var, zombi gibi! Diğer yaratıklara hiç
-benzemiyor. Aniden birinin fısıldadığını farediyorsun:
-"nasıl isterseniz efendim".
+SuÃ§lunun sÄ±kÄ±lmÄ±ÅŸ gÃ¶zleri var, zombi gibi! DiÄŸer yaratÄ±klara hiÃ§
+benzemiyor. Aniden birinin fÄ±sÄ±ldadÄ±ÄŸÄ±nÄ± farediyorsun:
+"nasÄ±l isterseniz efendim".
 ~
 human~
 ACGT  DFJZ 88
 #15009
-eski büyücü Kwal~
-Eski büyücü Kwal~
-Eski büyücü Kwal planları üzerinde çalışıyor.
+eski bÃ¼yÃ¼cÃ¼ Kwal~
+Eski bÃ¼yÃ¼cÃ¼ Kwal~
+Eski bÃ¼yÃ¼cÃ¼ Kwal planlarÄ± Ã¼zerinde Ã§alÄ±ÅŸÄ±yor.
 ~
-Kadının gözlerine bakınca korkuyu görüyorsun. Fakat bu onun korkusu
-değil. Bu senin korkun, sonun geliyor, gözlerini yakaladı, ruhunu
-çağırıyor! Gözlerinde şimdi de nefret ve kızgınlığın gölgeleri
-oynaşıyor. Anlaşılan onu rahatsız ettin. Birden bağırıyor:
-"Hepiniz bunu ödeyeceksiniz!!"
+KadÄ±nÄ±n gÃ¶zlerine bakÄ±nca korkuyu gÃ¶rÃ¼yorsun. Fakat bu onun korkusu
+deÄŸil. Bu senin korkun, sonun geliyor, gÃ¶zlerini yakaladÄ±, ruhunu
+Ã§aÄŸÄ±rÄ±yor! GÃ¶zlerinde ÅŸimdi de nefret ve kÄ±zgÄ±nlÄ±ÄŸÄ±n gÃ¶lgeleri
+oynaÅŸÄ±yor. AnlaÅŸÄ±lan onu rahatsÄ±z ettin. Birden baÄŸÄ±rÄ±yor:
+"Hepiniz bunu Ã¶deyeceksiniz!!"
 ~
-çora~
+Ã§ora~
 ABWeCFGT DFHJVZ 109
 #15010
-uyandırılmış şeytan~
-Bir uyandırılmış şeytan~
-Bir uyandırılmış şeytan birşeyleri arar gibi.
+uyandÄ±rÄ±lmÄ±ÅŸ ÅŸeytan~
+Bir uyandÄ±rÄ±lmÄ±ÅŸ ÅŸeytan~
+Bir uyandÄ±rÄ±lmÄ±ÅŸ ÅŸeytan birÅŸeyleri arar gibi.
 ~
-Çok sinirli!
+Ã‡ok sinirli!
 ~
-çora~
+Ã§ora~
 ABWeCFGT DFHJVZ 109
 
 #0
@@ -88,30 +88,30 @@ ABWeCFGT DFHJVZ 109
 #OBJECTS
 
 #15002
-paslı çeşme~
-bir çeşme~
-Küçük bir paslı çeşme burada.~
+paslÄ± Ã§eÅŸme~
+bir Ã§eÅŸme~
+KÃ¼Ã§Ã¼k bir paslÄ± Ã§eÅŸme burada.~
 ~
 fountain 0 0
 0 0 'water' 0 0
 0 0 0 G
 E
-çeşme paslı~
-Güzel görünmese de suyu içilebilir.
+Ã§eÅŸme paslÄ±~
+GÃ¼zel gÃ¶rÃ¼nmese de suyu iÃ§ilebilir.
 ~
 #15001
 kirli somun~
-bir büyük, kirli somun~
-Bir büyük, kirli somun yerde duruyor.~
+bir bÃ¼yÃ¼k, kirli somun~
+Bir bÃ¼yÃ¼k, kirli somun yerde duruyor.~
 food~
 food 0 A
 20 40 0 0 0
 0 20 22 P
 
 #15005
-gardiyan yüzük~
-parlak bir gardiyan yüzüğü~
-Yerde parlak bir yüzük görüyorsun.
+gardiyan yÃ¼zÃ¼k~
+parlak bir gardiyan yÃ¼zÃ¼ÄŸÃ¼~
+Yerde parlak bir yÃ¼zÃ¼k gÃ¶rÃ¼yorsun.
 ~
 gold~
 armor BEGH AB
@@ -138,9 +138,9 @@ A
 
 
 #15006
-suçlu tasma~
-bir suçlu tasması~
-Yerde güzel bir tasma duruyor.
+suÃ§lu tasma~
+bir suÃ§lu tasmasÄ±~
+Yerde gÃ¼zel bir tasma duruyor.
 ~
 gold~
 armor BEGH AC
@@ -164,9 +164,9 @@ A
 23 -2
 
 #15007
-ışık hale~
-bir ışık halesi~
-Mistik bir ışık halesi burada.
+Ä±ÅŸÄ±k hale~
+bir Ä±ÅŸÄ±k halesi~
+Mistik bir Ä±ÅŸÄ±k halesi burada.
 ~
 light~
 armor BEGH AQ
@@ -192,8 +192,8 @@ A
 
 #15008
 hotsuma ruh kalkan~
-Hotsuma'nın ruh kalkanı~
-Kaybolmuş bir ruhun parlayan kalkanı burada.
+Hotsuma'nÄ±n ruh kalkanÄ±~
+KaybolmuÅŸ bir ruhun parlayan kalkanÄ± burada.
 ~
 gold~
 armor BEGH AJ
@@ -208,9 +208,9 @@ A
 
 
 #15003
-rathaen yılan asa~
-Rathaen'in yılanlı asası~
-Kayıp bir ruha ait yaşayan bir asa burada, hareket ediyor.
+rathaen yÄ±lan asa~
+Rathaen'in yÄ±lanlÄ± asasÄ±~
+KayÄ±p bir ruha ait yaÅŸayan bir asa burada, hareket ediyor.
 ~
 wood~
 staff BEGH AO
@@ -235,8 +235,8 @@ A
 
 #15010
 eski asa~
-eskilerin asası~
-Eskilerin asası burada.
+eskilerin asasÄ±~
+Eskilerin asasÄ± burada.
 ~
 wood~
 staff BEGH AO
@@ -254,7 +254,7 @@ A
 #15011
 koruma pelerin~
 Kutsal Koruma pelerini~
-Bir pelerin inanılmaz güzelliğiyle yerde duruyor.~
+Bir pelerin inanÄ±lmaz gÃ¼zelliÄŸiyle yerde duruyor.~
 leather~
 armor ACY AC
 39 39 39 37 30
@@ -272,10 +272,10 @@ A
 
 #ROOMS
 #15001
-Hücre No:001~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:001~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 DN 0
@@ -285,19 +285,19 @@ Uzun koridor.
 ~
 0 -1 15021
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:001               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:001               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15002
-Hücre No:002~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:002~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 DN 0
@@ -308,19 +308,19 @@ Uzun koridor.
 0 -1 15022
 
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:002               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:002               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15003
-Hücre No:003~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:003~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 DN 0
@@ -331,19 +331,19 @@ Uzun koridor.
 0 -1 15023
 
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:003               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:003               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15004
-Hücre No:004~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:004~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 DN 0
@@ -354,19 +354,19 @@ Uzun koridor.
 0 -1 15024
 
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:004               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:004               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15005
-Hücre No:005~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:005~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 DN 0
@@ -377,19 +377,19 @@ Uzun koridor.
 0 -1 15025
 
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:005               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:005               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15006
-Hücre No:006~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:006~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 DN 0
@@ -400,19 +400,19 @@ Uzun koridor.
 0 -1 15026
 
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:006               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:006               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15007
-Hücre No:007~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:007~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 DN 0
@@ -423,19 +423,19 @@ Uzun koridor.
 0 -1 15027
 
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:007               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:007               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15008
-Hücre No:008~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:008~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 DN 0
@@ -446,19 +446,19 @@ Uzun koridor.
 0 -1 15028
 
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:008               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:008               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15009
-Hücre No:009~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:009~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 DN 0
@@ -469,19 +469,19 @@ Uzun koridor.
 0 -1 15029
 
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:009               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:009               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15010
-Hücre No:010~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:010~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 DN 0
@@ -492,19 +492,19 @@ Uzun koridor.
 0 -1 15030
 
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:010               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:010               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15011
-Hücre No:011~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:011~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 DN 0
@@ -515,19 +515,19 @@ Uzun koridor.
 0 -1 15031
 
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:011               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:011               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15012
-Hücre No:012~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:012~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 DN 0
@@ -538,19 +538,19 @@ Uzun koridor.
 0 -1 15032
 
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:012               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:012               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15013
-Hücre No:013~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:013~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 DN 0
@@ -561,19 +561,19 @@ Uzun koridor.
 0 -1 15033
 
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:013               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:013               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15014
-Hücre No:014~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:014~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 DN 0
@@ -584,19 +584,19 @@ Uzun koridor.
 0 -1 15034
 
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:014               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:014               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15015
-Hücre No:015~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:015~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 DN 0
@@ -607,19 +607,19 @@ Uzun koridor.
 0 -1 15035
 
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:015               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:015               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15016
-Hücre No:016~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:016~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 DN 0
@@ -630,19 +630,19 @@ Uzun koridor.
 0 -1 15036
 
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:016               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:016               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15017
-Hücre No:017~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:017~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 DN 0
@@ -653,19 +653,19 @@ Uzun koridor.
 0 -1 15037
 
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:017               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:017               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15018
-Hücre No:018~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:018~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 DN 0
@@ -676,37 +676,37 @@ Uzun koridor.
 0 -1 15038
 
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:018               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:018               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15019
-Hücre No:019~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:019~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 0 9
 
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:019               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:019               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15020
-Hücre No:020~
-Burası kirli ve dağınık bir hücre. Oldukça küçük. Havada ağır bir
-koku var. Köşede tuvaleti ve çeşmeyi görüyorsun. Buradan çıkış yok,
-duvarlar kapalı. Duvarlara bakınca için kararıyor.Duvarda küçük
+HÃ¼cre No:020~
+BurasÄ± kirli ve daÄŸÄ±nÄ±k bir hÃ¼cre. OldukÃ§a kÃ¼Ã§Ã¼k. Havada aÄŸÄ±r bir
+koku var. KÃ¶ÅŸede tuvaleti ve Ã§eÅŸmeyi gÃ¶rÃ¼yorsun. Buradan Ã§Ä±kÄ±ÅŸ yok,
+duvarlar kapalÄ±. Duvarlara bakÄ±nca iÃ§in kararÄ±yor.Duvarda kÃ¼Ã§Ã¼k
 bir tablet var.
 ~
 0 J 3
@@ -717,35 +717,35 @@ Uzun koridor.
 0 -1 15040
 
 E
-küçük tablet~
+kÃ¼Ã§Ã¼k tablet~
 ++++++++++++++++++++++++++++++++++++++++++
-+             Hücre No:020               +
-+            Gürültü  Yapma              +
++             HÃ¼cre No:020               +
++            GÃ¼rÃ¼ltÃ¼  Yapma              +
 ++++++++++++++++++++++++++++++++++++++++++
 ~
 S
 
 #15021
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 001 nolu hücre girişi var.
-Koridor doğuya devam ediyor.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 001 nolu hÃ¼cre giriÅŸi var.
+Koridor doÄŸuya devam ediyor.
 ~
 0 DN 0
 
 D0
-Kuzey 001 nolu hücre.
+Kuzey 001 nolu hÃ¼cre.
 ~
 ~
 0 -1 15001
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15022
 
 D3
-Batıda hapishanenin girişi var.
+BatÄ±da hapishanenin giriÅŸi var.
 ~
 ~
 0 -1 15000
@@ -755,25 +755,25 @@ S
 
 #15022
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 002 nolu hücre girişi var.
-Koridor doğuya devam ediyor.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 002 nolu hÃ¼cre giriÅŸi var.
+Koridor doÄŸuya devam ediyor.
 ~
 0 DN 0
 
 D0
-Kuzey 002 nolu hücre.
+Kuzey 002 nolu hÃ¼cre.
 ~
 ~
 0 -1 15002
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15023
 
 D3
-Batıda uzun koridor var.
+BatÄ±da uzun koridor var.
 ~
 ~
 0 -1 15021
@@ -783,25 +783,25 @@ S
 
 #15023
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 003 nolu hücre girişi var.
-Koridor doğuya devam ediyor.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 003 nolu hÃ¼cre giriÅŸi var.
+Koridor doÄŸuya devam ediyor.
 ~
 0 DN 0
 
 D0
-Kuzey 003 nolu hücre.
+Kuzey 003 nolu hÃ¼cre.
 ~
 ~
 0 -1 15003
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15024
 
 D3
-Batıda uzun koridor var.
+BatÄ±da uzun koridor var.
 ~
 ~
 0 -1 15022
@@ -811,25 +811,25 @@ S
 
 #15024
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 004 nolu hücre girişi var.
-Koridor doğuya devam ediyor.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 004 nolu hÃ¼cre giriÅŸi var.
+Koridor doÄŸuya devam ediyor.
 ~
 0 DNV 0
 
 D0
-Kuzey 004 nolu hücre.
+Kuzey 004 nolu hÃ¼cre.
 ~
 ~
 0 -1 15004
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15025
 
 D3
-Batıda uzun koridor var.
+BatÄ±da uzun koridor var.
 ~
 ~
 0 -1 15023
@@ -839,25 +839,25 @@ S
 
 #15025
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 005 nolu hücre girişi var.
-Koridor doğuya devam ediyor.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 005 nolu hÃ¼cre giriÅŸi var.
+Koridor doÄŸuya devam ediyor.
 ~
 0 DNV 0
 
 D0
-Kuzey 005 nolu hücre.
+Kuzey 005 nolu hÃ¼cre.
 ~
 ~
 0 -1 15005
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15026
 
 D3
-Batıda uzun koridor var.
+BatÄ±da uzun koridor var.
 ~
 ~
 0 -1 15024
@@ -867,25 +867,25 @@ S
 
 #15026
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 006 nolu hücre girişi var.
-Koridor doğuya devam ediyor.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 006 nolu hÃ¼cre giriÅŸi var.
+Koridor doÄŸuya devam ediyor.
 ~
 0 DNV 0
 
 D0
-Kuzey 006 nolu hücre.
+Kuzey 006 nolu hÃ¼cre.
 ~
 ~
 0 -1 15006
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15027
 
 D3
-Batıda uzun koridor var.
+BatÄ±da uzun koridor var.
 ~
 ~
 0 -1 15025
@@ -895,25 +895,25 @@ S
 
 #15027
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 007 nolu hücre girişi var.
-Koridor doğuya devam ediyor.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 007 nolu hÃ¼cre giriÅŸi var.
+Koridor doÄŸuya devam ediyor.
 ~
 0 DNV 0
 
 D0
-Kuzey 007 nolu hücre.
+Kuzey 007 nolu hÃ¼cre.
 ~
 ~
 0 -1 15007
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15028
 
 D3
-Batıda uzun koridor var.
+BatÄ±da uzun koridor var.
 ~
 ~
 0 -1 15026
@@ -923,25 +923,25 @@ S
 
 #15028
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 008 nolu hücre girişi var.
-Koridor doğuya devam ediyor.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 008 nolu hÃ¼cre giriÅŸi var.
+Koridor doÄŸuya devam ediyor.
 ~
 0 DNV 0
 
 D0
-Kuzey 008 nolu hücre.
+Kuzey 008 nolu hÃ¼cre.
 ~
 ~
 0 -1 15008
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15029
 
 D3
-Batıda uzun koridor var.
+BatÄ±da uzun koridor var.
 ~
 ~
 0 -1 15027
@@ -951,25 +951,25 @@ S
 
 #15029
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 009 nolu hücre girişi var.
-Koridor doğuya devam ediyor.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 009 nolu hÃ¼cre giriÅŸi var.
+Koridor doÄŸuya devam ediyor.
 ~
 0 DNV 0
 
 D0
-Kuzey 009 nolu hücre.
+Kuzey 009 nolu hÃ¼cre.
 ~
 ~
 0 -1 15009
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15030
 
 D3
-Batıda uzun koridor var.
+BatÄ±da uzun koridor var.
 ~
 ~
 0 -1 15028
@@ -979,25 +979,25 @@ S
 
 #15030
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 010 nolu hücre girişi var.
-Koridor doğuya devam ediyor.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 010 nolu hÃ¼cre giriÅŸi var.
+Koridor doÄŸuya devam ediyor.
 ~
 0 DNV 0
 
 D0
-Kuzey 010 nolu hücre.
+Kuzey 010 nolu hÃ¼cre.
 ~
 ~
 0 -1 15010
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15031
 
 D3
-Batıda uzun koridor var.
+BatÄ±da uzun koridor var.
 ~
 ~
 0 -1 15029
@@ -1007,25 +1007,25 @@ S
 
 #15031
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 011 nolu hücre girişi var.
-Koridor doğuya devam ediyor.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 011 nolu hÃ¼cre giriÅŸi var.
+Koridor doÄŸuya devam ediyor.
 ~
 0 DNV 0
 
 D0
-Kuzey 011 nolu hücre.
+Kuzey 011 nolu hÃ¼cre.
 ~
 ~
 0 -1 15011
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15032
 
 D3
-Batıda uzun koridor var.
+BatÄ±da uzun koridor var.
 ~
 ~
 0 -1 15030
@@ -1035,25 +1035,25 @@ S
 
 #15032
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 012 nolu hücre girişi var.
-Koridor doğuya devam ediyor.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 012 nolu hÃ¼cre giriÅŸi var.
+Koridor doÄŸuya devam ediyor.
 ~
 0 DNV 0
 
 D0
-Kuzey 012 nolu hücre.
+Kuzey 012 nolu hÃ¼cre.
 ~
 ~
 0 -1 15012
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15033
 
 D3
-Batıda uzun koridor var.
+BatÄ±da uzun koridor var.
 ~
 ~
 0 -1 15031
@@ -1063,25 +1063,25 @@ S
 
 #15033
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 013 nolu hücre girişi var.
-Koridor doğuya devam ediyor.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 013 nolu hÃ¼cre giriÅŸi var.
+Koridor doÄŸuya devam ediyor.
 ~
 0 DNV 0
 
 D0
-Kuzey 013 nolu hücre.
+Kuzey 013 nolu hÃ¼cre.
 ~
 ~
 0 -1 15013
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15034
 
 D3
-Batıda uzun koridor var.
+BatÄ±da uzun koridor var.
 ~
 ~
 0 -1 15032
@@ -1091,25 +1091,25 @@ S
 
 #15034
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 014 nolu hücre girişi var.
-Koridor doğuya devam ediyor.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 014 nolu hÃ¼cre giriÅŸi var.
+Koridor doÄŸuya devam ediyor.
 ~
 0 DNV 0
 
 D0
-Kuzey 014 nolu hücre.
+Kuzey 014 nolu hÃ¼cre.
 ~
 ~
 0 -1 15014
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15035
 
 D3
-Batıda uzun koridor var.
+BatÄ±da uzun koridor var.
 ~
 ~
 0 -1 15033
@@ -1119,25 +1119,25 @@ S
 
 #15035
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 015 nolu hücre girişi var.
-Koridor doğuya devam ediyor.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 015 nolu hÃ¼cre giriÅŸi var.
+Koridor doÄŸuya devam ediyor.
 ~
 0 DNV 0
 
 D0
-Kuzey 015 nolu hücre.
+Kuzey 015 nolu hÃ¼cre.
 ~
 ~
 0 -1 15015
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15036
 
 D3
-Batıda uzun koridor var.
+BatÄ±da uzun koridor var.
 ~
 ~
 0 -1 15034
@@ -1147,30 +1147,30 @@ S
 
 #15036
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 016 nolu hücre girişi var.
-Koridor doğuya devam ediyor.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 016 nolu hÃ¼cre giriÅŸi var.
+Koridor doÄŸuya devam ediyor.
 ~
 0 DNV 0
 
 D0
-Kuzey 016 nolu hücre.
+Kuzey 016 nolu hÃ¼cre.
 ~
 ~
 0 -1 15016
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15037
 
 D3
-Batıda uzun koridor var.
+BatÄ±da uzun koridor var.
 ~
 ~
 0 -1 15035
 D2
-Güneyde eski kanalizasyon sistemi var.
+GÃ¼neyde eski kanalizasyon sistemi var.
 ~
 ~
 0 -1 20000
@@ -1179,25 +1179,25 @@ S
 
 #15037
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 017 nolu hücre girişi var.
-Koridor doğuya devam ediyor.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 017 nolu hÃ¼cre giriÅŸi var.
+Koridor doÄŸuya devam ediyor.
 ~
 0 DNV 0
 
 D0
-Kuzey 017 nolu hücre.
+Kuzey 017 nolu hÃ¼cre.
 ~
 ~
 0 -1 15017
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15038
 
 D3
-Batıda uzun koridor var.
+BatÄ±da uzun koridor var.
 ~
 ~
 0 -1 15036
@@ -1207,25 +1207,25 @@ S
 
 #15038
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 018 nolu hücre girişi var.
-Koridor doğuya devam ediyor.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 018 nolu hÃ¼cre giriÅŸi var.
+Koridor doÄŸuya devam ediyor.
 ~
 0 DNV 0
 
 D0
-Kuzey 018 nolu hücre.
+Kuzey 018 nolu hÃ¼cre.
 ~
 ~
 0 -1 15018
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15039
 
 D3
-Batıda uzun koridor var.
+BatÄ±da uzun koridor var.
 ~
 ~
 0 -1 15037
@@ -1235,25 +1235,25 @@ S
 
 #15039
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 019 nolu hücre girişi var.
-Koridor doğuya devam ediyor.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 019 nolu hÃ¼cre giriÅŸi var.
+Koridor doÄŸuya devam ediyor.
 ~
 0 0 3
 
 D0
-Kuzey 019 nolu hücre.
+Kuzey 019 nolu hÃ¼cre.
 ~
 ~
 0 -1 15019
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15040
 
 D3
-Batıda uzun koridor var.
+BatÄ±da uzun koridor var.
 ~
 ~
 0 -1 15038
@@ -1263,19 +1263,19 @@ S
 
 #15040
 Uzun Koridor~
-Bu uzun ve karanlık bir koridor. Kuzeyde 020 nolu hücre girişi var.
+Bu uzun ve karanlÄ±k bir koridor. Kuzeyde 020 nolu hÃ¼cre giriÅŸi var.
 Koridor birden bitiyor.
 ~
 0 DN 3
 
 D0
-Kuzey 020 nolu hücre.
+Kuzey 020 nolu hÃ¼cre.
 ~
 ~
 0 -1 15020
 
 D3
-Batıda uzun koridor var.
+BatÄ±da uzun koridor var.
 ~
 ~
 0 -1 15039
@@ -1283,15 +1283,15 @@ Batıda uzun koridor var.
 S
 
 #15000
-Hapishane Girişi~
-Duvarlarında kan olan karanlık bir odadasın, ve buradan kaçış yok.
-Burada azılı katiller ve canavarlar yatar. Yöneticiler hepsine
-GEREKTİĞİ gibi davranır.
+Hapishane GiriÅŸi~
+DuvarlarÄ±nda kan olan karanlÄ±k bir odadasÄ±n, ve buradan kaÃ§Ä±ÅŸ yok.
+Burada azÄ±lÄ± katiller ve canavarlar yatar. YÃ¶neticiler hepsine
+GEREKTÄ°ÄÄ° gibi davranÄ±r.
 ~
 0 0 1
 
 D1
-Doğuda uzun koridor var.
+DoÄŸuda uzun koridor var.
 ~
 ~
 0 -1 15021
@@ -1310,13 +1310,13 @@ S
 
 #15099
 Hapishane yolu~
-Hapishane yolunda yürüyorsun. Adımlarına dikkat et, bir yanlışın
-senin sonun hazırlayabilir. Aklına bir hikaye geliyor.
+Hapishane yolunda yÃ¼rÃ¼yorsun. AdÄ±mlarÄ±na dikkat et, bir yanlÄ±ÅŸÄ±n
+senin sonun hazÄ±rlayabilir. AklÄ±na bir hikaye geliyor.
 ~
 0 0 1
 
 D0
-Tam olarak göremiyorsun.
+Tam olarak gÃ¶remiyorsun.
 ~
 ~
 0 -1 8019
@@ -1328,7 +1328,7 @@ Hapishane yolu.
 0 -1 15098
 
 D3
-Tam olarak göremiyorsun.
+Tam olarak gÃ¶remiyorsun.
 ~
 ~
 0 -1 8019
@@ -1338,14 +1338,14 @@ S
 
 #15098
 Hapishane yolu~
-Hapishane yolunda yürüyorsun. Adımlarına dikkat et, bir yanlışın
-senin sonun hazırlayabilir. Thera'nın eski zamanlarında Kwal isimli
-güçlü bir büyücü yaşarmış.
+Hapishane yolunda yÃ¼rÃ¼yorsun. AdÄ±mlarÄ±na dikkat et, bir yanlÄ±ÅŸÄ±n
+senin sonun hazÄ±rlayabilir. Thera'nÄ±n eski zamanlarÄ±nda Kwal isimli
+gÃ¼Ã§lÃ¼ bir bÃ¼yÃ¼cÃ¼ yaÅŸarmÄ±ÅŸ.
 ~
 0 0 1
 
 D1
-Tam olarak göremiyorsun.
+Tam olarak gÃ¶remiyorsun.
 ~
 ~
 0 -1 5028
@@ -1367,14 +1367,14 @@ S
 
 #15097
 Hapishane yolu~
-Hapishane yolunda yürüyorsun. Adımlarına dikkat et, bir yanlışın
-senin sonun hazırlayabilir. Yakalanıp bu hapishaneye kapatıldığında
-herkes artık sorunların bittiğini düşünmüş.
+Hapishane yolunda yÃ¼rÃ¼yorsun. AdÄ±mlarÄ±na dikkat et, bir yanlÄ±ÅŸÄ±n
+senin sonun hazÄ±rlayabilir. YakalanÄ±p bu hapishaneye kapatÄ±ldÄ±ÄŸÄ±nda
+herkes artÄ±k sorunlarÄ±n bittiÄŸini dÃ¼ÅŸÃ¼nmÃ¼ÅŸ.
 ~
 0 0 1
 
 D1
-Tam olarak göremiyorsun.
+Tam olarak gÃ¶remiyorsun.
 ~
 ~
 0 -1 5067
@@ -1396,9 +1396,9 @@ S
 
 #15096
 Hapishane yolu~
-Hapishane yolunda yürüyorsun. Adımlarına dikkat et, bir yanlışın
-senin sonun hazırlayabilir. Fakat o yeri ve göğü yokedebilecek
-gücü çoktan ele geçirmiş.
+Hapishane yolunda yÃ¼rÃ¼yorsun. AdÄ±mlarÄ±na dikkat et, bir yanlÄ±ÅŸÄ±n
+senin sonun hazÄ±rlayabilir. Fakat o yeri ve gÃ¶ÄŸÃ¼ yokedebilecek
+gÃ¼cÃ¼ Ã§oktan ele geÃ§irmiÅŸ.
 ~
 0 0 1
 
@@ -1415,7 +1415,7 @@ Hapishane yolu.
 0 -1 15095
 
 D5
-Tam olarak göremiyorsun.
+Tam olarak gÃ¶remiyorsun.
 ~
 ~
 0 -1 5001
@@ -1426,14 +1426,14 @@ S
 
 #15095
 Hapishane yolu~
-Hapishane yolunda yürüyorsun. Adımlarına dikkat et, bir yanlışın
-senin sonun hazırlayabilir. O bu hapishaneyi ve içindekileri
-lanetledikten sonra tanrılar onu terketmiş.
+Hapishane yolunda yÃ¼rÃ¼yorsun. AdÄ±mlarÄ±na dikkat et, bir yanlÄ±ÅŸÄ±n
+senin sonun hazÄ±rlayabilir. O bu hapishaneyi ve iÃ§indekileri
+lanetledikten sonra tanrÄ±lar onu terketmiÅŸ.
 ~
 0 0 1
 
 D0
-Tam olarak göremiyorsun.
+Tam olarak gÃ¶remiyorsun.
 ~
 ~
 0 -1 15099
@@ -1455,9 +1455,9 @@ S
 
 #15094
 Hapishane yolu~
-Hapishane yolunda yürüyorsun. Adımlarına dikkat et, bir yanlışın
-senin sonun hazırlayabilir. Hikayeye göre o ruhların gerçekliğine
-bir yol bulmuş ve şeytani ölümsüzlerin yardımını almış.
+Hapishane yolunda yÃ¼rÃ¼yorsun. AdÄ±mlarÄ±na dikkat et, bir yanlÄ±ÅŸÄ±n
+senin sonun hazÄ±rlayabilir. Hikayeye gÃ¶re o ruhlarÄ±n gerÃ§ekliÄŸine
+bir yol bulmuÅŸ ve ÅŸeytani Ã¶lÃ¼msÃ¼zlerin yardÄ±mÄ±nÄ± almÄ±ÅŸ.
 ~
 0 0 1
 
@@ -1468,7 +1468,7 @@ Hapishane yolu.
 0 -1 15095
 
 D0
-Tam olarak göremiyorsun.
+Tam olarak gÃ¶remiyorsun.
 ~
 ~
 0 -1 15098
@@ -1484,8 +1484,8 @@ S
 
 #15093
 Hapishane yolu~
-Hapishane yolunda yürüyorsun. Adımlarına dikkat et, bir yanlışın
-senin sonun hazırlayabilir.
+Hapishane yolunda yÃ¼rÃ¼yorsun. AdÄ±mlarÄ±na dikkat et, bir yanlÄ±ÅŸÄ±n
+senin sonun hazÄ±rlayabilir.
 ~
 0 0 1
 
@@ -1496,7 +1496,7 @@ Hapishane yolu.
 0 -1 15094
 
 D1
-Tam olarak göremiyorsun.
+Tam olarak gÃ¶remiyorsun.
 ~
 ~
 0 -1 15091
@@ -1512,8 +1512,8 @@ S
 
 #15092
 Hapishane yolu~
-Hapishane yolunda yürüyorsun. Adımlarına dikkat et, bir yanlışın
-senin sonun hazırlayabilir.
+Hapishane yolunda yÃ¼rÃ¼yorsun. AdÄ±mlarÄ±na dikkat et, bir yanlÄ±ÅŸÄ±n
+senin sonun hazÄ±rlayabilir.
 ~
 0 0 1
 
@@ -1524,7 +1524,7 @@ Hapishane yolu.
 0 -1 15093
 
 D2
-Tam olarak göremiyorsun.
+Tam olarak gÃ¶remiyorsun.
 ~
 ~
 0 -1 3049
@@ -1540,8 +1540,8 @@ S
 
 #15091
 Hapishane yolu~
-Hapishane yolunda yürüyorsun. Adımlarına dikkat et, bir yanlışın
-senin sonun hazırlayabilir.
+Hapishane yolunda yÃ¼rÃ¼yorsun. AdÄ±mlarÄ±na dikkat et, bir yanlÄ±ÅŸÄ±n
+senin sonun hazÄ±rlayabilir.
 ~
 0 0 1
 
@@ -1552,7 +1552,7 @@ Hapishane yolu.
 0 -1 15092
 
 D1
-Tam olarak göremiyorsun.
+Tam olarak gÃ¶remiyorsun.
 ~
 ~
 0 -1 5205
@@ -1568,13 +1568,13 @@ S
 
 #15090
 Hapishane yolu~
-Hapishane yolunda yürüyorsun. Adımlarına dikkat et, bir yanlışın
-senin sonun hazırlayabilir.
+Hapishane yolunda yÃ¼rÃ¼yorsun. AdÄ±mlarÄ±na dikkat et, bir yanlÄ±ÅŸÄ±n
+senin sonun hazÄ±rlayabilir.
 ~
 0 0 1
 
 D0
-Uzun koridorun girişi.
+Uzun koridorun giriÅŸi.
 ~
 ~
 0 -1 15000

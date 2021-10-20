@@ -3,7 +3,7 @@ Filename yggdrasil.are~
 Name Yggdrasil~
 Builder Glop~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 30
 Highlevel 45
 Minvnum 2900
@@ -27,7 +27,7 @@ AG D 16
 #2901
 planetar~
 bir planetar~
-Bir planetar burada efendilerinin çıkarlarını koruyor.
+Bir planetar burada efendilerinin Ã§Ä±karlarÄ±nÄ± koruyor.
 ~
 Humanoid in appearance, the planetar has wings and is
 hairless.  He is on a mission from his deity.
@@ -35,9 +35,9 @@ hairless.  He is on a mission from his deity.
 human~
 ABG BCDH 30
 #2902
-şedu~
-bir Şedu~
-Bir Şedu burada kötülükle savaşıyor.
+ÅŸedu~
+bir Åedu~
+Bir Åedu burada kÃ¶tÃ¼lÃ¼kle savaÅŸÄ±yor.
 ~
 Half man, half beast.  The Shedu is out looking for evil anywhere it may be
 and it will hunt down until death is the result.
@@ -45,9 +45,9 @@ and it will hunt down until death is the result.
 human~
 AG F 25
 #2903
-dreç şeytan~
-bir dreç~
-Bir dreç burada salyalarını üzerine akıtıyor.
+dreÃ§ ÅŸeytan~
+bir dreÃ§~
+Bir dreÃ§ burada salyalarÄ±nÄ± Ã¼zerine akÄ±tÄ±yor.
 ~
 A pathetic, slobbering thing.  The dretch is constantly picked on by its more
 powerful, demon brothers.
@@ -55,9 +55,9 @@ powerful, demon brothers.
 bear~
 ABGH DF 10
 #2904
-şasme uçan şeytan~
-bir şasme~
-Bir şasme çevrede uçuyor.
+ÅŸasme uÃ§an ÅŸeytan~
+bir ÅŸasme~
+Bir ÅŸasme Ã§evrede uÃ§uyor.
 ~
 The chasme or fly demon is half-human and half-fly.  They dont like anyone,
 not even other demons.
@@ -67,7 +67,7 @@ ACG DF 20
 #2905
 babau abanoz~
 bir babau~
-Bir babau burada durmuş yiyecek arıyor.
+Bir babau burada durmuÅŸ yiyecek arÄ±yor.
 ~
 The babau or one-horned horror is a demon of considerable fright. He appears
 a skeleton with a black leather jumpsuit on.  He is constantly searching
@@ -76,7 +76,7 @@ for flesh to eat.
 human~
 AG H 15
 #2906
-yagnoiblis şeytan~
+yagnoiblis ÅŸeytan~
 bir yagnoiblis~
 Bir yagnoiblis burada devasa kolunu esnetiyor.
 ~
@@ -86,9 +86,9 @@ arm it can wield huge weapons.  He is not in a good mood right now.
 human~
 ACG DEF 25
 #2907
-kostchtchie şeytan kost~
+kostchtchie ÅŸeytan kost~
 Kostchtchie~
-Kostchtchie burada, kötü yolunda ilerlemek için güç topluyor.
+Kostchtchie burada, kÃ¶tÃ¼ yolunda ilerlemek iÃ§in gÃ¼Ã§ topluyor.
 ~
 Kostchtchie a powerful demon lord is here.  Obviously derived from giant stock,
 he is very powerful.  And he does not like to be interrupted.
@@ -96,9 +96,9 @@ he is very powerful.  And he does not like to be interrupted.
 human~
 ABEFG DFH 40
 #2908
-nabassu şeytan~
+nabassu ÅŸeytan~
 bir nabassu~
-Bir nabassu burada statüsünü yükseltmeye çabalıyor.
+Bir nabassu burada statÃ¼sÃ¼nÃ¼ yÃ¼kseltmeye Ã§abalÄ±yor.
 ~
 A tall, thin demon, the nabassu are very bat-like in appearance.
 He seems to have an intense interest in you.
@@ -107,8 +107,8 @@ human~
 ACG D 15
 #2909
 ejderha bulut~
-bir bulut ejderhası~
-Bir bulut ejderhası burada, rahatsız edilmak istemiyor.
+bir bulut ejderhasÄ±~
+Bir bulut ejderhasÄ± burada, rahatsÄ±z edilmak istemiyor.
 ~
 This dragon is as large as a red dragon, but does not like to get involved
 in the struggle between good and evil.  It wants to be left alone.
@@ -116,9 +116,9 @@ in the struggle between good and evil.  It wants to be left alone.
 dragon~
 ABG DFH 35
 #2910
-güneş tayfı~
-bir güneş tayfı~
-Bir güneş tayfı burada kötülüğe karşı savaşını planlıyor.
+gÃ¼neÅŸ tayfÄ±~
+bir gÃ¼neÅŸ tayfÄ±~
+Bir gÃ¼neÅŸ tayfÄ± burada kÃ¶tÃ¼lÃ¼ÄŸe karÅŸÄ± savaÅŸÄ±nÄ± planlÄ±yor.
 ~
 A beautiful being, the solar is totally dedicated to the continuation
 of the good beings.
@@ -128,7 +128,7 @@ ABG CDFH 47
 #2911
 vemic~
 vemic~
-Bir vemic burada avlanıyor.
+Bir vemic burada avlanÄ±yor.
 ~
 Part man, part lion, and part horse; the wemic is a creature
 not to be taken lightly.
@@ -138,7 +138,7 @@ AC F 10
 #2912
 buz devi~
 bir buz devi~
-Bir buz devi burada hazine arıyor.
+Bir buz devi burada hazine arÄ±yor.
 ~
 Large members of the giant family, the frost giants are ravenous collectors
 of treasure.  They dont like to share this treasure with anyone.
@@ -148,7 +148,7 @@ ABFG DF 25
 #2913
 gorgimera~
 bir gorgimera~
-Bir gorgimera burada kanatlarını esnetiyor.
+Bir gorgimera burada kanatlarÄ±nÄ± esnetiyor.
 ~
 This three-headed monster is waiting to rip the head off of its latest victim
 to add to its collection.  Watch out for that breath attack.
@@ -158,7 +158,7 @@ ABFG D 20
 #2914
 ratatosk~
 Ratatosk~
-Ratatosk burada tanrıların mesajlarını ulaştırıyor.
+Ratatosk burada tanrÄ±larÄ±n mesajlarÄ±nÄ± ulaÅŸtÄ±rÄ±yor.
 ~
 You see a giant squirrel carrying greetings and tidings from the various
 deities residing in these realms.  He does not want to be delayed in his task.
@@ -170,25 +170,25 @@ ACG CDFH 35
 #OBJECTS
 
 #2900
-kargı cüsse ezen~
-bir cüsse ezen~
-Bir cüsse ezen kargı burada duruyor.~
+kargÄ± cÃ¼sse ezen~
+bir cÃ¼sse ezen~
+Bir cÃ¼sse ezen kargÄ± burada duruyor.~
 steel~
 weapon 0 AN
 polearm 5 6 cleave 0
 23 270 6334 G
 #2901
-çekiç demir~
-soğuk demirden bir çekiç~
-Nikel ve gümüş işlemeli demir bir çekiç burada duruyor.~
+Ã§ekiÃ§ demir~
+soÄŸuk demirden bir Ã§ekiÃ§~
+Nikel ve gÃ¼mÃ¼ÅŸ iÅŸlemeli demir bir Ã§ekiÃ§ burada duruyor.~
 iron~
 weapon EJ AN
 mace 5 9 pound 0
 38 250 16400 G
 #2902
-piç kılıcı~
-kutsal piç kılıcı~
-Güzel bir kılıç yerde duruyor.~
+piÃ§ kÄ±lÄ±cÄ±~
+kutsal piÃ§ kÄ±lÄ±cÄ±~
+GÃ¼zel bir kÄ±lÄ±Ã§ yerde duruyor.~
 steel~
 weapon AGIK AN
 sword 5 7 pierce 0
@@ -212,15 +212,15 @@ wand G AO
 #2904
 buzlu cam asa~
 buzlu cam asa~
-Buzlu camdan yapılmış bir asa burada duruyor.~
+Buzlu camdan yapÄ±lmÄ±ÅŸ bir asa burada duruyor.~
 glass~
 staff F AO
 40 8 8 'sleep' 0
 23 60 7580 G
 #2905
 kristal kolluk~
-bir çift kristall koluk~
-Kristalden yapılış bir çift kolluk burada duruyor.~
+bir Ã§ift kristall koluk~
+Kristalden yapÄ±lÄ±ÅŸ bir Ã§ift kolluk burada duruyor.~
 quartz~
 armor AFK AI
 13 13 13 2 2
@@ -230,33 +230,33 @@ A
 A
 20 2
 #2906
-parlayan yeşil iksir~
-parlayan yeşil iksir~
-Yeşil bir iksir parıldayarak titreşiyor.~
+parlayan yeÅŸil iksir~
+parlayan yeÅŸil iksir~
+YeÅŸil bir iksir parÄ±ldayarak titreÅŸiyor.~
 energy~
 potion AG AO
 10 'detect invis' 'detect magic' 'detect poison' 'detect evil'
 23 10 4580 G
 #2907
-kağıt üçgen~
-kağıt bir üçgen~
-Üçgen şeklinde bir parça kağıt burada duruyor.~
+kaÄŸÄ±t Ã¼Ã§gen~
+kaÄŸÄ±t bir Ã¼Ã§gen~
+ÃœÃ§gen ÅŸeklinde bir parÃ§a kaÄŸÄ±t burada duruyor.~
 paper~
 scroll F A
 50 'armor' 'bless' 'fly' 'stone skin'
 22 12 6700 G
 #2908
-holipant dişi~
-bir holipant dişi~
-Bir holipant dişi burada duruyor.~
+holipant diÅŸi~
+bir holipant diÅŸi~
+Bir holipant diÅŸi burada duruyor.~
 bone~
 wand AGK AO
 19 3 3 'haste' 0
 14 10 2160 G
 #2909
-kolan dökme demir~
-dökme bir demir kolan~
-Dökme bir demir kolan burada duruyor.~
+kolan dÃ¶kme demir~
+dÃ¶kme bir demir kolan~
+DÃ¶kme bir demir kolan burada duruyor.~
 iron~
 armor BG AL
 9 9 9 1 3
@@ -266,7 +266,7 @@ A
 #2910
 parlayan pembe iksir~
 parlayan pembe bir iksir~
-Pembe bir iksir parıldayarak titreşiyor.~
+Pembe bir iksir parÄ±ldayarak titreÅŸiyor.~
 energy~
 potion AG A
 10 'detect invis' 'detect magic' 'detect poison' 'detect good'
@@ -275,7 +275,7 @@ potion AG A
 
 #ROOMS
 #2900
-Yggdrasil Girişi~
+Yggdrasil GiriÅŸi~
 This is the entrance to Yggdrasil, the World Ash.  Through
 this tree are conduits to many other planes of existence.
      There is a small (Glowing) (Huming) tablet.
@@ -307,7 +307,7 @@ small tablet~
 ~
 S
 #2901
-Yggdrasil'in Gövdesi~
+Yggdrasil'in GÃ¶vdesi~
 You are traveling in Yggdrasil, the World Ash.  Who knows
 what other travelers you may encounter.
 ~
@@ -324,7 +324,7 @@ The entrance to the tree is below.
 0 -1 2900
 S
 #2902
-Yggrasil'in Aşağı Gövdesi~
+Yggrasil'in AÅŸaÄŸÄ± GÃ¶vdesi~
 You are in the lower reaches of Yggdrasil.  The tree top cannot be seen.
 Lesser astral travelers can be seen moving about.
 ~
@@ -385,7 +385,7 @@ The way down the trunk of Yggdrasil lies this way.
 0 -1 2918
 S
 #2905
-Yggdrasil'in Alt Dallarından Biri~
+Yggdrasil'in Alt DallarÄ±ndan Biri~
 You are on a limb on the lower level of Yggdrasil.
 ~
 0 0 3
@@ -396,7 +396,7 @@ The main trunk is in this direction.
 0 -1 2902
 S
 #2906
-Yggdrasil'in Alt Dallarından Biri~
+Yggdrasil'in Alt DallarÄ±ndan Biri~
 You are on a limb on the lower level of Yggdrasil.
 ~
 0 0 3
@@ -407,7 +407,7 @@ The main trunk is in this direction.
 0 -1 2902
 S
 #2907
-Yggdrasil'in Kökleri~
+Yggdrasil'in KÃ¶kleri~
 You are under the ground among the roots of Yggdrasil.  You
 sense a greater preponderance of evil in this area.  Your
 fellow travelers also tend to be of the evil persuasion.
@@ -445,7 +445,7 @@ The deepest part of the tree is down here.
 0 -1 2912
 S
 #2908
-Yggdrasil'in Kökleri~
+Yggdrasil'in KÃ¶kleri~
 You are in the roots of the great tree.  Many odd creatures
 can be seen and felt wandering in the area.
 ~
@@ -457,7 +457,7 @@ The roots continue in this direction.
 0 -1 2907
 S
 #2909
-Yggdrasil'in Kökleri~
+Yggdrasil'in KÃ¶kleri~
 You are in the roots of the great tree.  Many odd creatures
 can be seen and felt wandering in the area.
 ~
@@ -469,7 +469,7 @@ The roots continue in this direction.
 0 -1 2907
 S
 #2910
-Yggdrasil'in Kökleri~
+Yggdrasil'in KÃ¶kleri~
 You are in the roots of the great tree.  Many odd creatures
 can be seen and felt wandering in the area.
 ~
@@ -481,7 +481,7 @@ The roots continue in this direction.
 0 -1 2907
 S
 #2911
-Yggdrasil'in Alt Dallarından Biri~
+Yggdrasil'in Alt DallarÄ±ndan Biri~
 You are on a limb on the lower level of Yggdrasil.
 ~
 0 0 3
@@ -492,7 +492,7 @@ The main trunk is in this direction.
 0 -1 2902
 S
 #2912
-Yggdrasil'in En Derin Kökleri~
+Yggdrasil'in En Derin KÃ¶kleri~
 You are at the tree's deepest point.  Looking down from here
 you can almost see the foul and evil realms of the followers
 of evil.  You can faintly hear the screams of their tortured
@@ -506,7 +506,7 @@ You see the roots of the tree continue in this direction.
 0 -1 2907
 S
 #2913
-Yggdrasil'in Orta Dallarından Biri~
+Yggdrasil'in Orta DallarÄ±ndan Biri~
 You are on a limb on the middle level of Yggdrasil.
 ~
 0 0 3
@@ -517,7 +517,7 @@ The main trunk is in this direction.
 0 -1 2917
 S
 #2914
-Yggdrasil'in Orta Dallarından Biri~
+Yggdrasil'in Orta DallarÄ±ndan Biri~
 You are on a limb on the middle level of Yggdrasil.
 ~
 0 0 3
@@ -528,7 +528,7 @@ The main trunk is in this direction.
 0 -1 2917
 S
 #2915
-Yggdrasil'in Orta Dallarından Biri~
+Yggdrasil'in Orta DallarÄ±ndan Biri~
 You are on a limb on the middle level of Yggdrasil.
 ~
 0 0 3
@@ -539,7 +539,7 @@ The main trunk is in this direction.
 0 -1 2917
 S
 #2916
-Yggdrasil'in Orta Dallarından Biri~
+Yggdrasil'in Orta DallarÄ±ndan Biri~
 You are on a limb on the middle level of Yggdrasil.
 ~
 0 0 3
@@ -550,7 +550,7 @@ The main trunk is in this direction.
 0 -1 2917
 S
 #2917
-Yggdrasil'in Orta Gövdesi~
+Yggdrasil'in Orta GÃ¶vdesi~
 You are in the middle parts of Yggdrasil.  The tree top still cannot be seen.
 Many travelers are passing you in fulfillment of their quests.
 ~
@@ -587,7 +587,7 @@ The way down the tree is this way.
 0 -1 2902
 S
 #2918
-Yggrasil'in Yukarı Gövdesi~
+Yggrasil'in YukarÄ± GÃ¶vdesi~
 You are in the topmost section of Yggdrasil.  The tree top is just above you.
 Great power can be sensed in this area. There is also goodness here.
 ~
@@ -624,7 +624,7 @@ The way down the tree is this way.
 0 -1 2917
 S
 #2919
-Yggdrasil'in Yukarı Dallarından Biri~
+Yggdrasil'in YukarÄ± DallarÄ±ndan Biri~
 You are on a limb on the upper level of Yggdrasil.
 ~
 0 0 3
@@ -635,7 +635,7 @@ The main trunk is in this direction.
 0 -1 2918
 S
 #2920
-Yggdrasil'in Yukarı Dallarından Biri~
+Yggdrasil'in YukarÄ± DallarÄ±ndan Biri~
 You are on a limb on the upper level of Yggdrasil.
 ~
 0 0 3
@@ -646,7 +646,7 @@ The main trunk is in this direction.
 0 -1 2918
 S
 #2921
-Yggdrasil'in Yukarı Dallarından Biri~
+Yggdrasil'in YukarÄ± DallarÄ±ndan Biri~
 You are on a limb on the upper level of Yggdrasil.
 ~
 0 0 3
@@ -657,7 +657,7 @@ The main trunk is in this direction.
 0 -1 2918
 S
 #2922
-Yggdrasil'in Yukarı Dallarından Biri~
+Yggdrasil'in YukarÄ± DallarÄ±ndan Biri~
 You are on a limb on the upper level of Yggdrasil.
 ~
 0 0 3
@@ -668,7 +668,7 @@ The main trunk is in this direction.
 0 -1 2918
 S
 #2923
-Yggdrasil'in Kökleri~
+Yggdrasil'in KÃ¶kleri~
 You are in the roots of the great tree.  Many odd creatures
 can be seen and felt wandering in the area.
 ~

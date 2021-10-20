@@ -3,7 +3,7 @@ Filename ejderha_helezonu.are~
 Name Ejderha Helezonu~
 Builder Anon~
 Translator Bilinmiyor~
-Language Yarı Türkçe~
+Language YarÄ± TÃ¼rkÃ§e~
 Lowlevel 30
 Highlevel 65
 Minvnum 2400
@@ -16,9 +16,9 @@ END
 
 #NEW_MOBILES
 #2400
-bakır ejderha~
-The bakır ejderha~
-Zaman'ın Bakır Ejderhası önünde duruyor.
+bakÄ±r ejderha~
+The bakÄ±r ejderha~
+Zaman'Ä±n BakÄ±r EjderhasÄ± Ã¶nÃ¼nde duruyor.
 ~
 A majestic Dragon stands before you in all its glory.  The gleam from its
 copper scales seems to stop time.  The Dragon does not seem happy that you are
@@ -29,7 +29,7 @@ ABFGHTZ DFHZ 40
 #2401
 beyaz ejderha~
 The beyaz ejderha~
-Buz'un Beyaz Ejderhası önünde duruyor.
+Buz'un Beyaz EjderhasÄ± Ã¶nÃ¼nde duruyor.
 ~
 A intimidating Dragon stands before you.  The icy glare blinds you long enough
 for the Ice Dragon to devour you.
@@ -39,12 +39,12 @@ ABFGHT DFHZ 40
 #2402
 Peri~
 bir peri~
-Bir Peri havada spiraller çiziyor.
+Bir Peri havada spiraller Ã§iziyor.
 ~
 This winged creature is the epitome of mischief. He loves to pick on travelers,
 and guess what....   It's your turn :).
 ~
-çora~
+Ã§ora~
 AFGH 0 36
 #2414
 Peri~
@@ -54,12 +54,12 @@ A small Pixie flits about the room.
 This winged creature is the epitome of mischief. He loves to pick on travelers,
 and guess what....   It's your turn :).
 ~
-çora~
+Ã§ora~
 AFGH 0 33
 #2403
 zaman ejderha ruh~
-Yaşamın Ejderha Ruhu~
-Transparan bir Ejderhanın Ruhu seni umursamayaz gözlerle kesiyor.
+YaÅŸamÄ±n Ejderha Ruhu~
+Transparan bir EjderhanÄ±n Ruhu seni umursamayaz gÃ¶zlerle kesiyor.
 ~
 The Spirit of the Time Dragon guards the hoard gathered by the copper dragons
 who have stood sentinel over this spot. The Spirit lunges for your SOUL!!!!!!!
@@ -68,8 +68,8 @@ dragon~
 ABFGT DFHU 55
 #2404
 buz ejderha ruh~
-Buz Ejderhasının Ruhu~
-Parıldayan bir Ejderha Ruhu tüm görkemiyle önünde duruyor.
+Buz EjderhasÄ±nÄ±n Ruhu~
+ParÄ±ldayan bir Ejderha Ruhu tÃ¼m gÃ¶rkemiyle Ã¶nÃ¼nde duruyor.
 ~
 The Spirit of the Ice Dragon Stands over the hoard of the previous white dragon
 guardians. The Spirit attempts to leech you life blood from your body.
@@ -78,30 +78,30 @@ dragon~
 ABFGT DFHU 55
 #2405
 peri kral~
-Peri Kralı~
+Peri KralÄ±~
 The Pixie King looks at you with a merry glint in his eyes and nods.
 ~
 The Pixe King is slightly bigger than other pixies.  He is really cool.
 The King loves to frolic and play, especially with new friends.
 He asks you "Will you be my friend?".
 ~
-çora~
+Ã§ora~
 ABFG DF 48
 #2406
-kapı bekçi kapıbekçisi~
-Kapıbekçisi~
-Kapıbekçisi sana dik dik bakıyor.
+kapÄ± bekÃ§i kapÄ±bekÃ§isi~
+KapÄ±bekÃ§isi~
+KapÄ±bekÃ§isi sana dik dik bakÄ±yor.
 ~
 The GateKeeper is a grim staunch figure.  He looks as if he has been
 carrying a large burden for some time.  You feel sorry for him, but
 he does have the anahtar that you need to continue on through the cave.
 ~
-çora~
+Ã§ora~
 ABFGT DF 45
 #2407
 sonsuzluk ejderha~
-Sonsuzluğun ejderhası~
-Sonsuzluğun Ejderhası önünde duruyor.
+SonsuzluÄŸun ejderhasÄ±~
+SonsuzluÄŸun EjderhasÄ± Ã¶nÃ¼nde duruyor.
 ~
 The Eternity Dragon is by far the largest dragon you have ever seen or heard
 of. Its body easily stretching 300 feet from nose to tail.  This entire cavern,
@@ -113,53 +113,53 @@ dragon~
 AT BDFHU 65
 
 #2408
-peri muhafız~
-Bir Peri Muhafız~
-Bir Peri Muhafız burda, kralı için ölmeye hazır bekliyor.
+peri muhafÄ±z~
+Bir Peri MuhafÄ±z~
+Bir Peri MuhafÄ±z burda, kralÄ± iÃ§in Ã¶lmeye hazÄ±r bekliyor.
 ~
 The Pixie Guard doesn't really do much to inspire fear in your heart, but you
 suppose that if pressed, he could fight quite visciously compared to most
 Pixies.
 ~
-çora~
+Ã§ora~
 ABGMT 0 39
 #2409
-büyücü usta peri~
-Bir Usta Peri Büyücüsü~
-Bir Peri Büyücüsü, Kralının emirlerini bekliyor.
+bÃ¼yÃ¼cÃ¼ usta peri~
+Bir Usta Peri BÃ¼yÃ¼cÃ¼sÃ¼~
+Bir Peri BÃ¼yÃ¼cÃ¼sÃ¼, KralÄ±nÄ±n emirlerini bekliyor.
 ~
 The Master Pixie Mage does not look like any of the other Pixies you have
 encountered.  His glow has taken on a pale green color, and he is staring
 at you maliciously.  The asa he carries seems familiar, but you are not
 sure from where you remember it.
 ~
-çora~
+Ã§ora~
 ACGHR DH 58
 #2410
-bir peri muhafız~
-Bir Peri Muhafız~
-Bir Peri Muhafız, Kralı için ölmeye hazır.
+bir peri muhafÄ±z~
+Bir Peri MuhafÄ±z~
+Bir Peri MuhafÄ±z, KralÄ± iÃ§in Ã¶lmeye hazÄ±r.
 ~
 The Pixie Guard doesn't really do much to inspire fear in your heart, but you
 suppose that if pressed, she could fight quite visciously compared to most
 Pixies.
 ~
-çora~
+Ã§ora~
 ABGMT 0 39
 #2411
 Peri~
 Bir Peri~
-Bir Peri havada spiraller çiziyor.
+Bir Peri havada spiraller Ã§iziyor.
 ~
 This winged creature is the epitome of mischief. He loves to pick on
 travelers, and guess what.... It's your turn :).
 ~
-çora~
+Ã§ora~
 AHS DEPQZ 36
 #2412
-bekçi koruyucu~
+bekÃ§i koruyucu~
 Bir Koruyucu~
-Koruyucu, Ejderhaların önderinin kapısını kolluyor.
+Koruyucu, EjderhalarÄ±n Ã¶nderinin kapÄ±sÄ±nÄ± kolluyor.
 ~
     He is a well-trained guard. He was trained with the knights of Anatolia
 for many years and in working for three years in midgaard he retired. And
@@ -170,7 +170,7 @@ AHS DEHPZ 91
 #2413
 Fireflash~
 Fireflash~
-Ejderhaların Lideri burada, dinleniyor.
+EjderhalarÄ±n Lideri burada, dinleniyor.
 ~
 	He is , the old dragon, resting and getting off tired of years.
 ~
@@ -182,9 +182,9 @@ AHS DEPZ 91
 #OBJECTS
 
 #2400
-kılıc~
-bir minik kılıc~
-A petite kılıc of dragons lies here on the ground, you almost didn't see it.~
+kÄ±lÄ±c~
+bir minik kÄ±lÄ±c~
+A petite kÄ±lÄ±c of dragons lies here on the ground, you almost didn't see it.~
 steel~
 weapon AGL AN
 sword 4 8 slice 0
@@ -195,13 +195,13 @@ A
 14 30
 E
 peri~
-This elegant kılıc appears to have served its previous owner very well, but
+This elegant kÄ±lÄ±c appears to have served its previous owner very well, but
 you aren't sure how well a silah this small would serve you.
 ~
 #2401
-Beyaz Ejderha Toynak Anahtarı~
-Küçük bir anahtar, bir ejderha toynağına benziyor~
-Küçük bir Ejderha Toynağı burada, kaybedilmiş.~
+Beyaz Ejderha Toynak AnahtarÄ±~
+KÃ¼Ã§Ã¼k bir anahtar, bir ejderha toynaÄŸÄ±na benziyor~
+KÃ¼Ã§Ã¼k bir Ejderha ToynaÄŸÄ± burada, kaybedilmiÅŸ.~
 steel~
 key M AO
 0 0 0 0 0
@@ -212,47 +212,47 @@ This anahtar appears to have been fashioned from the claw of a dragon.  You are
 glad you weren't the locksmith assigned to getting the materials.
 ~
 #2402
-kapı anahtar~
-bir kapı anahtarı~
-Bir kapı anahtarı burada unutulmuş.~
+kapÄ± anahtar~
+bir kapÄ± anahtarÄ±~
+Bir kapÄ± anahtarÄ± burada unutulmuÅŸ.~
 steel~
 key M AO
 0 0 0 0 0
 0 10 0 G
 E
-anahtar kapı~
+anahtar kapÄ±~
 This is a small nondescript anahtar, with nothing special about it.
-tunç~
+tunÃ§~
 #2403
-kapı bekçi anahtar~
-Kapıbekçisinin anahtarı~
-Büyük bronz bir anahtar, tozla kaplı, yerde duruyor.~
+kapÄ± bekÃ§i anahtar~
+KapÄ±bekÃ§isinin anahtarÄ±~
+BÃ¼yÃ¼k bronz bir anahtar, tozla kaplÄ±, yerde duruyor.~
 silver~
 key M AO
 0 0 0 0 0
 25 10 0 G
 E
-kapı bekçi anahtar~
+kapÄ± bekÃ§i anahtar~
 This is the anahtar to the gate.  It belongs to the gatekeeper, and he is probably
 looking for it.
 ~
 #2404
-Bakır Ejderha Toynak Anahtarı~
-Küçük bir anahtar, bir ejderha toynağına benziyor~
-Küçük bir Bakır Toynağı burada, kaybedilmiş.~
+BakÄ±r Ejderha Toynak AnahtarÄ±~
+KÃ¼Ã§Ã¼k bir anahtar, bir ejderha toynaÄŸÄ±na benziyor~
+KÃ¼Ã§Ã¼k bir BakÄ±r ToynaÄŸÄ± burada, kaybedilmiÅŸ.~
 bone~
 key M AO
 0 0 0 0 0
 19 10 0 G
 E
-bakır ejderha toynak anahtar~
+bakÄ±r ejderha toynak anahtar~
 This anahtar appears to have been fashioned from a dragon's claw.  It is quite
 large.
 ~
 #2405
-Peri Kral anahtarı~
-çok küçük bir anahtar~
-Peri Kral'ın yatak odasının anahtarı burada, neredeyse farkedilmesi imkansız.~
+Peri Kral anahtarÄ±~
+Ã§ok kÃ¼Ã§Ã¼k bir anahtar~
+Peri Kral'Ä±n yatak odasÄ±nÄ±n anahtarÄ± burada, neredeyse farkedilmesi imkansÄ±z.~
 steel~
 key M AO
 0 0 0 0 0
@@ -262,9 +262,9 @@ peri kral anahtar~
 This is a very small anahtar, you cannot imagine what door this would go to.
 ~
 #2406
-Beyaz Ejderha Zırhı~
-Bir Beyaz ejderha zırhı~
-Yerde beyaz bir zırh yatıyor, çevresine soğuk aurasını yayıyor.~
+Beyaz Ejderha ZÄ±rhÄ±~
+Bir Beyaz ejderha zÄ±rhÄ±~
+Yerde beyaz bir zÄ±rh yatÄ±yor, Ã§evresine soÄŸuk aurasÄ±nÄ± yayÄ±yor.~
 silver~
 armor AGI AC
 18 18 18 9 0
@@ -276,14 +276,14 @@ A
 A
 24 -10
 E
-beyaz ejderha zırhı~
+beyaz ejderha zÄ±rhÄ±~
 This pendant appears to be very ancient.  It is solid white, with a blue
 diamond set in the center.  You feel chilled whenever it touches open flesh.
 ~
 #2407
-Bakır Ejderha Zırhı~
-bir bakır ehderha zırhı~
-Yerde bakır bir zırh duruyor, ona yaklaşırken, sanki zaman çok yavaş geçiyor.~
+BakÄ±r Ejderha ZÄ±rhÄ±~
+bir bakÄ±r ehderha zÄ±rhÄ±~
+Yerde bakÄ±r bir zÄ±rh duruyor, ona yaklaÅŸÄ±rken, sanki zaman Ã§ok yavaÅŸ geÃ§iyor.~
 bone~
 armor AGI AC
 18 18 18 9 0
@@ -295,14 +295,14 @@ A
 A
 24 -10
 E
-bakır ejderha zırh~
+bakÄ±r ejderha zÄ±rh~
 The pendant you now own appears to be very new, in fact it looks freshly
 forged. It is solid copper, white a streak of gold shaped like an hourglass
 in the center.  When you look back up, hours have passed.
 ~
 #2408
-Peri kanatları~
-bir çift peri kanadı~
+Peri kanatlarÄ±~
+bir Ã§ift peri kanadÄ±~
 A pair of translucent wings lie upon the ground, their is an eerie glow about
 them.~
 fire~
@@ -316,13 +316,13 @@ A
 A
 12 100
 E
-Peri kanatları~
+Peri kanatlarÄ±~
 Just what they are called.  You feel sorry for the pixie who used to own these.
 ~
 #2409
-Sonsuzluk Zırhı~
-sonsuzluk zırhı~
-Küçük bir zırh burada, onu senin adını söyleyene kadar, farketmedin bile..~
+Sonsuzluk ZÄ±rhÄ±~
+sonsuzluk zÄ±rhÄ±~
+KÃ¼Ã§Ã¼k bir zÄ±rh burada, onu senin adÄ±nÄ± sÃ¶yleyene kadar, farketmedin bile..~
 energy~
 armor AGIF AC
 20 20 20 9 0
@@ -330,14 +330,14 @@ armor AGIF AC
 F
 A 17 -60 U
 E
-sonsuzluk zırhı~
+sonsuzluk zÄ±rhÄ±~
 As you stare at the pendant, you begin to feel as if you are being sucked in.
 It is all you can do to look away.
 ~
 #2410
-beyaz ejderha göğüs zırhı~
-beyaz ejderha motifli göğüz zırhı~
-Işıldayan bir ejderha motifli zırh burada duruyor.~
+beyaz ejderha gÃ¶ÄŸÃ¼s zÄ±rhÄ±~
+beyaz ejderha motifli gÃ¶ÄŸÃ¼z zÄ±rhÄ±~
+IÅŸÄ±ldayan bir ejderha motifli zÄ±rh burada duruyor.~
 steel~
 armor GJ AD
 16 16 16 7 0
@@ -347,14 +347,14 @@ A
 A
 9 5
 E
-beyaz ejderha göğüs zırhı~
+beyaz ejderha gÃ¶ÄŸÃ¼s zÄ±rhÄ±~
 This is a very quickly strewn together breast plate.  It looks like it was
 fashioned from the breast of a real dragon, minutes after it was slain.
 ~
 #2411
-bakır ejderha göğüs zırhı~
-bir bakır ejderha göğüs zırhıe~
-Bir Bakır ejderha motifli göğüs zırhı burada duruyor, neredeyse yepyeni.~
+bakÄ±r ejderha gÃ¶ÄŸÃ¼s zÄ±rhÄ±~
+bir bakÄ±r ejderha gÃ¶ÄŸÃ¼s zÄ±rhÄ±e~
+Bir BakÄ±r ejderha motifli gÃ¶ÄŸÃ¼s zÄ±rhÄ± burada duruyor, neredeyse yepyeni.~
 bone~
 armor GK AD
 18 18 18 8 0
@@ -373,7 +373,7 @@ made from the breast of a real dragon, minutes after it was slain.
 #2412
 ceset~
 bir ceset~
-Bir ceset yerde duruyor, tanınmayacak duruma gelmiş.~
+Bir ceset yerde duruyor, tanÄ±nmayacak duruma gelmiÅŸ.~
 meat~
 furniture 0 0
 0 0 0 0 0
@@ -393,9 +393,9 @@ weapon 0 AN
 exotic 1 1 pierce 0
 1 1 1 G
 #2414
-Peri sopası~
-bir Peri sopası~
-Bir Peri sopası yerde duruyor.~
+Peri sopasÄ±~
+bir Peri sopasÄ±~
+Bir Peri sopasÄ± yerde duruyor.~
 crystal~
 weapon AL AN
 mace 5 7 pound D
@@ -405,13 +405,13 @@ A
 A
 19 3
 E
-peri sopası~
+peri sopasÄ±~
 This is a Pixie Stick.  While you may be used to eating these "sugar sticks",
 the Pixies use them, quite well, as silahs.~
 #2415
-Peri göğüs zırhı~
-Bir Peri göğüs zırhı~
-Yerde küçük bir metal parçası var, zırha benziyor.~
+Peri gÃ¶ÄŸÃ¼s zÄ±rhÄ±~
+Bir Peri gÃ¶ÄŸÃ¼s zÄ±rhÄ±~
+Yerde kÃ¼Ã§Ã¼k bir metal parÃ§asÄ± var, zÄ±rha benziyor.~
 steel~
 armor A AD
 15 15 15 7 0
@@ -421,13 +421,13 @@ A
 A
 17 -7
 E
-zırh peri göğüs~
-This is a piece of Pixie zırh.  It looks very well crafted, but has an odd
+zÄ±rh peri gÃ¶ÄŸÃ¼s~
+This is a piece of Pixie zÄ±rh.  It looks very well crafted, but has an odd
 aura about it.~
 #2416
-peri bacaklık~
-Bir çift Peri bacaklığı~
-Bir çift küçük metalik bacaklık burada duruyor.~
+peri bacaklÄ±k~
+Bir Ã§ift Peri bacaklÄ±ÄŸÄ±~
+Bir Ã§ift kÃ¼Ã§Ã¼k metalik bacaklÄ±k burada duruyor.~
 steel~
 armor AG AF
 15 15 15 7 0
@@ -441,9 +441,9 @@ peri bacak~
 These are VERY small pants....although they do seem fairly stretchy.....
 ~
 #2417
-peri kollukları~
-bir çift Peri kolluğu~
-Bir çift minik metalik kolluk buarada duruyor.~
+peri kolluklarÄ±~
+bir Ã§ift Peri kolluÄŸu~
+Bir Ã§ift minik metalik kolluk buarada duruyor.~
 steel~
 armor AG AI
 16 16 16 7 0
@@ -461,7 +461,7 @@ FREAKING SMURF!!!!~
 #2418
 bir demet ejderha alevi~
 bir demet ejderha alevi~
-Burada hoş bir alev var.~
+Burada hoÅŸ bir alev var.~
 fire~
 light AL A
 0 0 -1 0 0
@@ -471,13 +471,13 @@ A
 A
 18 3
 E
-alev ateş ejderha~
+alev ateÅŸ ejderha~
 You aren't quite sure how it is, but the DragonFyre is existing without its
 dragon.~
 #2419
-miğfer ejderha~
-Bir beyaz ejderha miğferi~
-Beyaz bir ejderha miğferi burada duruyor.~
+miÄŸfer ejderha~
+Bir beyaz ejderha miÄŸferi~
+Beyaz bir ejderha miÄŸferi burada duruyor.~
 steel~
 armor AGJ AE
 16 16 16 8 0
@@ -489,13 +489,13 @@ A
 A
 4 2
 E
-miğfer ejderha~
+miÄŸfer ejderha~
 This helm appears to have been created from the scales of a freshly dead dragon.
 The plume is made from the mane of said dragon.~
 #2420
-miğfer ejderha~
-bir bakır ejderha miğferi~
-Bir bakır ejderha miğferi burada duruyor.~
+miÄŸfer ejderha~
+bir bakÄ±r ejderha miÄŸferi~
+Bir bakÄ±r ejderha miÄŸferi burada duruyor.~
 bone~
 armor AGK AE
 16 16 16 9 0
@@ -507,15 +507,15 @@ A
 A
 4 2
 E
-miğfer ejderha~
+miÄŸfer ejderha~
 This helm appears to be made from the scales of a recently dead dragon.
 The plume appears to be made from the plume of said dragon.  It has a
 copper sheen to it.
 ~
 #2421
 asa magius~
-Magius'un asası burada duruyor~
-Güzelce biçimlendirilmiş bir tahta burada, narince titriyor.~
+Magius'un asasÄ± burada duruyor~
+GÃ¼zelce biÃ§imlendirilmiÅŸ bir tahta burada, narince titriyor.~
 wood~
 weapon ABCGFHM AN
 staff 5 11 pound D
@@ -535,9 +535,9 @@ power to the one who owns it, it is also rumored to completely destroy
 the person physically.
 ~
 #2422
-hançer~
-bir Peri hançeri~
-Minik bir Peri hançeri yerde duruyor, neredeyse görünmez.~
+hanÃ§er~
+bir Peri hanÃ§eri~
+Minik bir Peri hanÃ§eri yerde duruyor, neredeyse gÃ¶rÃ¼nmez.~
 steel~
 weapon AGL AN
 dagger 4 8 stab 0
@@ -547,17 +547,17 @@ A
 A
 14 20
 #2423
-elmas değerlitaş~
-büyük bir elmas~
-Büyük bir elmas ışığı yakalıyor ve yansıtıyor.~
+elmas deÄŸerlitaÅŸ~
+bÃ¼yÃ¼k bir elmas~
+BÃ¼yÃ¼k bir elmas Ä±ÅŸÄ±ÄŸÄ± yakalÄ±yor ve yansÄ±tÄ±yor.~
 gem~
 gem W AO
 0 0 0 0 0
 0 1 25000 P
 #2424
-kırmızı yakut değerlitaş~
-Kırmızı bir yakut~
-Güzel bir kan kırmızısı yakut burada duruyor.~
+kÄ±rmÄ±zÄ± yakut deÄŸerlitaÅŸ~
+KÄ±rmÄ±zÄ± bir yakut~
+GÃ¼zel bir kan kÄ±rmÄ±zÄ±sÄ± yakut burada duruyor.~
 gem~
 gem W AO
 0 0 0 0 0
@@ -565,7 +565,7 @@ gem W AO
 #2425
 Alevli kuartz gem~
 bir alevli kuartz~
-Büyük bir alevli kuartz parçası yerde duruyor.~
+BÃ¼yÃ¼k bir alevli kuartz parÃ§asÄ± yerde duruyor.~
 gem~
 gem AW AO
 0 0 0 0 0
@@ -579,17 +579,17 @@ treasure AW AO
 0 0 0 0 0
 0 500 12000 P
 #2427
-parça uranyum~
-bir parça uranyum~
-Bir parça uranyum buarada.~
+parÃ§a uranyum~
+bir parÃ§a uranyum~
+Bir parÃ§a uranyum buarada.~
 gem~
 gem AW AO
 0 0 0 0 0
 0 1 300 P
 #2428
-parça toryum~
-bir parça toryum~
-Bir parça toryum buarada.~
+parÃ§a toryum~
+bir parÃ§a toryum~
+Bir parÃ§a toryum buarada.~
 gem~
 gem AW AO
 0 0 0 0 0
@@ -611,9 +611,9 @@ gem AW AO
 0 0 0 0 0
 0 1 5000 P
 #2431
-kızıl kurdele~
-kızıl kurdele~
-Bir kızıl kurdele burada, çok sıcak.~
+kÄ±zÄ±l kurdele~
+kÄ±zÄ±l kurdele~
+Bir kÄ±zÄ±l kurdele burada, Ã§ok sÄ±cak.~
 fire~
 armor AG AQ
 18 18 18 7 0
@@ -621,9 +621,9 @@ armor AG AQ
 A
 17 -30
 #2432
-sihirli tavşan ayağı~
-sihirli tavşan ayağı~
-Sihirli Tavşan ayağı havada süzülüyor.~
+sihirli tavÅŸan ayaÄŸÄ±~
+sihirli tavÅŸan ayaÄŸÄ±~
+Sihirli TavÅŸan ayaÄŸÄ± havada sÃ¼zÃ¼lÃ¼yor.~
 meat~
 armor AG AQ
 11 11 11 5 0
@@ -632,16 +632,16 @@ A
 17 -20
 #2433
 peri kalkan~
-Bir Peri kalkanı~
+Bir Peri kalkanÄ±~
 Very small shield lies here on the ground.~
 steel~
 armor A AJ
 10 10 10 6 0
 30 30 981 G
 #2434
-Eski ejderha bekçi anahtar~
-küçük bir beyaz parmak~
-küçük beyaz bir parmak burada, kaybolmuş.~
+Eski ejderha bekÃ§i anahtar~
+kÃ¼Ã§Ã¼k bir beyaz parmak~
+kÃ¼Ã§Ã¼k beyaz bir parmak burada, kaybolmuÅŸ.~
 steel~
 key M AO
 0 0 0 0 0
@@ -649,7 +649,7 @@ key M AO
 #2435
 anahtar~
 eski bir damga~
-Küçük, eski, bir hazinenin damgası burada..~
+KÃ¼Ã§Ã¼k, eski, bir hazinenin damgasÄ± burada..~
 stone~
 key 0 A
 30 0 0 0 0
@@ -657,7 +657,7 @@ key 0 A
 #2436
 kutu~
 kutu~
-Eski bir değersiz kutu burada.~
+Eski bir deÄŸersiz kutu burada.~
 wood~
 container 0 0
 100 ACD 2435 100 100
@@ -665,7 +665,7 @@ container 0 0
 #2437
 sayfa sayfalar~
 bir sayfa~
-Eski bir kitabın bir sayfası burada duruyor.~
+Eski bir kitabÄ±n bir sayfasÄ± burada duruyor.~
 paper~
 map 0 A
 1 0 0 0 0
@@ -681,8 +681,8 @@ eastern rug used by Turkish woman.
 ~
 #2438
 xxx~
-Eski, üzerine 'xxx' kazınmış bir anahtar~
-Eski hazinelerin, küçük bir anahtarı burada.~
+Eski, Ã¼zerine 'xxx' kazÄ±nmÄ±ÅŸ bir anahtar~
+Eski hazinelerin, kÃ¼Ã§Ã¼k bir anahtarÄ± burada.~
 stone~
 key 0 A
 30 0 0 0 0
@@ -691,7 +691,7 @@ key 0 A
 
 #ROOMS
 #2400
-Sık ormanların içinde, Eski bir patika üstünde~
+SÄ±k ormanlarÄ±n iÃ§inde, Eski bir patika Ã¼stÃ¼nde~
 This path appears to be very old, and well travelled. It amazes you that you
 have never noticed it was here before.  That is until you look back and
 realize that the clay road is completely invisible to you from here.  To the
@@ -701,7 +701,7 @@ through is now impassible.  You are here whether you like it or not....
 ~
 0 C 3
 D1
-Sık ormanların içinde, Eski bir patika üstünde
+SÄ±k ormanlarÄ±n iÃ§inde, Eski bir patika Ã¼stÃ¼nde
 ~
 ~
 0 0 2401
@@ -722,7 +722,7 @@ tablet small~
 ~
 S
 #2401
-Sık ormanların içinde, Eski bir patika üstünde~
+SÄ±k ormanlarÄ±n iÃ§inde, Eski bir patika Ã¼stÃ¼nde~
 The path is becoming more and more difficult to traverse now, as the trees seem
 to reach out to strangle you.  You feel like you are utterly alone, and, if not
 for the mountain you can now see in the distance, would probably just recall to
@@ -730,18 +730,18 @@ Midgaard.  But then again, who ever said that adventuring was easy?
 ~
 0 0 3
 D1
-Eski Patikanın Bitişi
+Eski PatikanÄ±n BitiÅŸi
 ~
 ~
 0 0 2402
 D3
-Sık ormanların içinde, Eski bir patika üstünde
+SÄ±k ormanlarÄ±n iÃ§inde, Eski bir patika Ã¼stÃ¼nde
 ~
 ~
 0 0 2400
 S
 #2402
-Eski Patikanın Bitişi~
+Eski PatikanÄ±n BitiÅŸi~
 You finally burst free from the grasp of the wood, only to find yourself at
 the foot of a path.  The path leads north, to the mountain which has, until
 now been your only beacon.  Now that you can better see the ominous mountain
@@ -749,18 +749,18 @@ looming before you,  you begin to rethink the idea of recalling to Midgaard.
 ~
 0 0 3
 D0
-Dağ patikası
+DaÄŸ patikasÄ±
 ~
 ~
 0 0 2403
 D3
-Sık ormanların içinde, Eski bir patika üstünde
+SÄ±k ormanlarÄ±n iÃ§inde, Eski bir patika Ã¼stÃ¼nde
 ~
 ~
 0 0 2401
 S
 #2403
-Dağ patikası~
+DaÄŸ patikasÄ±~
 You are on a small nondescript path leading northward to the mountain.
 The closer you get to the mountain, the worse you feel about the whole thing.
 You begin to remember hearing old stories about a hidden mountain, which
@@ -768,18 +768,18 @@ was, for some unknown reason, named DragonSpyre.
 ~
 0 0 3
 D0
-Dağ patikası
+DaÄŸ patikasÄ±
 ~
 ~
 0 0 2404
 D2
-Eski Patikanın Bitişi
+Eski PatikanÄ±n BitiÅŸi
 ~
 ~
 0 0 2402
 S
 #2404
-Dağ patikası~
+DaÄŸ patikasÄ±~
 You are on a small nondescript path leading northward to the mountain.
 The closer you get to the mountain, the worse you feel about the whole thing.
 The deep stench of dragon is wafting through the air now, and you are starting
@@ -788,37 +788,37 @@ back while you still have that option.
 ~
 0 0 3
 D0
-Dağın tabanında
+DaÄŸÄ±n tabanÄ±nda
 ~
 ~
 0 0 2405
 D2
-Dağ patikası
+DaÄŸ patikasÄ±
 ~
 ~
 0 0 2403
 S
 #2405
-Dağın tabanında~
+DaÄŸÄ±n tabanÄ±nda~
 You have reached the foot of the great mountain.  Here, the dragon stench
 is almost strong enough to disable you.  The only way you are able to stand it
 is by ripping of a piece of cloth, and covering your mouth and nose with it as
-you walk.  Far above you, you see what must be the Mağara Girişi.
+you walk.  Far above you, you see what must be the MaÄŸara GiriÅŸi.
 ~
 0 0 3
 D2
-Dağ patikası
+DaÄŸ patikasÄ±
 ~
 ~
 0 0 2404
 D4
-Dağa tırmanış
+DaÄŸa tÄ±rmanÄ±ÅŸ
 ~
 ~
 0 0 2406
 S
 #2406
-Dağa tırmanış~
+DaÄŸa tÄ±rmanÄ±ÅŸ~
 Now that you have something to somthing to concentrate upon, scaling the
 mountain, you are actually able to think more clearly.  You have encountered
 dragons before, and vanquished them, why should these be any different.
@@ -827,18 +827,18 @@ level of the cliff, it does little to ease your fear.
 ~
 0 0 5
 D4
-Dağa tırmanış
+DaÄŸa tÄ±rmanÄ±ÅŸ
 ~
 ~
 0 0 2407
 D5
-Dağ tabanında
+DaÄŸ tabanÄ±nda
 ~
 ~
 0 0 2405
 S
 #2407
-Dağa tırmanış~
+DaÄŸa tÄ±rmanÄ±ÅŸ~
 You are now close enough to the entrance to hear the sounds from within.
 The first thing you are aware of is that the mountain itself seems to breathe.
 In and out goes its breath, constantly in and out.  You suddenly hear footsteps
@@ -847,18 +847,18 @@ moments to realize that the sound was your heart beating.
 ~
 0 0 5
 D4
-Dapda bşr kayalıkta
+Dapda bÅŸr kayalÄ±kta
 ~
 ~
 0 0 2408
 D5
-Dağa tırmanış
+DaÄŸa tÄ±rmanÄ±ÅŸ
 ~
 ~
 0 0 2406
 S
 #2408
-Dağda bir kayalıkda~
+DaÄŸda bir kayalÄ±kda~
 You have reached a small ledge about one fourth of the way up the mountain.
 To the east is the entrance to what seems to be a small cave.  The only hint
 as to the size of the cave are the screams that are echoing from within it,
@@ -866,18 +866,18 @@ which seem to last an eternity.
 ~
 0 0 5
 D1
-Mağara Girişi
+MaÄŸara GiriÅŸi
 ~
 ~
 0 0 2409
 D5
-Dağa tırmanış
+DaÄŸa tÄ±rmanÄ±ÅŸ
 ~
 ~
 0 0 2407
 S
 #2409
-Mağara Girişi~
+MaÄŸara GiriÅŸi~
 Once inside the cave you feel completely lost to the outside world.  All
 around you are horrific sounds of death and fear.  The walls are all stained
 with many differing shades of red or brown, with a few frost particles
@@ -891,7 +891,7 @@ Walking through DragonSpyre
 ~
 0 0 2410
 D3
-Dağda bir kayalıkta
+DaÄŸda bir kayalÄ±kta
 ~
 ~
 0 0 2408
@@ -910,7 +910,7 @@ Walking through DragonSpyre
 ~
 0 0 2411
 D3
-Mağara Girişi
+MaÄŸara GiriÅŸi
 ~
 ~
 0 0 2409
@@ -2752,16 +2752,16 @@ E 1 2406 30 3          * a white dragon scale pendant
 G 1 2430 -1            * a blue pearl
 *
 M 0 2402 30 2412 1   * pixie
-E 1 2400 30 16         * a very tiny kılıc
+E 1 2400 30 16         * a very tiny kÄ±lÄ±c
 G 1 2428 -1            * piece of neutronium
 M 0 2402 30 2416 1   * pixie
-E 1 2400 30 16         * a very tiny kılıc
+E 1 2400 30 16         * a very tiny kÄ±lÄ±c
 M 0 2402 30 2416 1   * pixie
-E 1 2400 30 16         * a very tiny kılıc
+E 1 2400 30 16         * a very tiny kÄ±lÄ±c
 M 0 2402 30 2420 1   * pixie
-E 1 2400 30 16         * a very tiny kılıc
+E 1 2400 30 16         * a very tiny kÄ±lÄ±c
 M 0 2402 30 2420 1   * pixie
-E 1 2400 30 16         * a very tiny kılıc
+E 1 2400 30 16         * a very tiny kÄ±lÄ±c
 M 0 2414 12 2410 1   * pixie
 M 0 2414 12 2412 1   * pixie
 M 0 2414 12 2415 1   * pixie
@@ -2775,31 +2775,31 @@ M 0 2414 12 2425 6   * pixie
 M 0 2414 12 2427 1   * pixie
 M 0 2414 12 2429 1   * pixie
 M 0 2402 30 2420 1   * pixie
-E 1 2400 30 16         * a very tiny kılıc
+E 1 2400 30 16         * a very tiny kÄ±lÄ±c
 G 1 2428 -1            * piece of neutronium
 M 0 2402 30 2424 1   * pixie
-E 1 2400 30 16         * a very tiny kılıc
+E 1 2400 30 16         * a very tiny kÄ±lÄ±c
 G 1 2428 -1            * piece of neutronium
 M 0 2402 30 2428 1   * pixie
-E 1 2400 30 16         * a very tiny kılıc
+E 1 2400 30 16         * a very tiny kÄ±lÄ±c
 G 1 2428 -1            * piece of neutronium
 M 0 2402 30 2434 1   * pixie
-E 1 2400 30 16         * a very tiny kılıc
+E 1 2400 30 16         * a very tiny kÄ±lÄ±c
 G 1 2428 -1            * piece of neutronium
 M 0 2402 30 2438 1   * pixie
-E 1 2400 30 16         * a very tiny kılıc
+E 1 2400 30 16         * a very tiny kÄ±lÄ±c
 G 1 2428 -1            * piece of neutronium
 M 0 2402 30 2440 1   * pixie
-E 1 2400 30 16         * a very tiny kılıc
+E 1 2400 30 16         * a very tiny kÄ±lÄ±c
 G 1 2428 -1            * piece of neutronium
 M 0 2402 30 2450 1   * pixie
-E 1 2400 30 16         * a very tiny kılıc
+E 1 2400 30 16         * a very tiny kÄ±lÄ±c
 G 1 2428 -1            * piece of neutronium
 M 0 2402 30 2460 1   * pixie
-E 1 2400 30 16         * a very tiny kılıc
+E 1 2400 30 16         * a very tiny kÄ±lÄ±c
 G 1 2428 -1            * piece of neutronium
 M 0 2402 30 2470 1   * pixie
-E 1 2400 30 16         * a very tiny kılıc
+E 1 2400 30 16         * a very tiny kÄ±lÄ±c
 G 1 2428 -1            * piece of neutronium
 *
 M 0 2403 1 2478 1     * time dragon
@@ -2854,34 +2854,34 @@ E 1 2433 30 11          * a Pixie shield
 E 1 2432 30 18          * a rabbit's foot
 *
 M 0 2411 11 2414 1    * pixie (hidden one)
-E 1 2422 30 16          * a pixie hançer
+E 1 2422 30 16          * a pixie hanÃ§er
 G 1 2427 -1             * piece of duranium
 M 0 2411 11 2418 1    * pixie (hidden one)
-E 1 2422 30 16          * a pixie hançer
+E 1 2422 30 16          * a pixie hanÃ§er
 G 1 2427 -1             * piece of duranium
 M 0 2411 11 2422 1    * pixie (hidden one)
-E 1 2422 30 16          * a pixie hançer
+E 1 2422 30 16          * a pixie hanÃ§er
 G 1 2427 -1             * piece of duranium
 M 0 2411 11 2426 1    * pixie (hidden one)
-E 1 2422 30 16          * a pixie hançer
+E 1 2422 30 16          * a pixie hanÃ§er
 G 1 2427 -1             * piece of duranium
 M 0 2411 11 2430 1    * pixie (hidden one)
-E 1 2422 30 16          * a pixie hançer
+E 1 2422 30 16          * a pixie hanÃ§er
 G 1 2427 -1             * piece of duranium
 M 0 2411 11 2436 1    * pixie (hidden one)
-E 1 2422 30 16          * a pixie hançer
+E 1 2422 30 16          * a pixie hanÃ§er
 G 1 2427 -1             * piece of duranium
 M 0 2411 11 2444 1    * pixie (hidden one)
-E 1 2422 30 16          * a pixie hançer
+E 1 2422 30 16          * a pixie hanÃ§er
 G 1 2427 -1             * piece of duranium
 M 0 2411 11 2455 1    * pixie (hidden one)
-E 1 2422 30 16          * a pixie hançer
+E 1 2422 30 16          * a pixie hanÃ§er
 G 1 2427 -1             * piece of duranium
 M 0 2411 11 2465 1    * pixie (hidden one)
-E 1 2422 30 16          * a pixie hançer
+E 1 2422 30 16          * a pixie hanÃ§er
 G 1 2427 -1             * piece of duranium
 M 0 2411 11 2480 1    * pixie (hidden one)
-E 1 2422 30 16          * a pixie hançer
+E 1 2422 30 16          * a pixie hanÃ§er
 G 1 2427 -1             * piece of duranium
 *
 O 0 2412 4 2413 1     * corpse

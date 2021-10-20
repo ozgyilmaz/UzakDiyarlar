@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -54,6 +54,7 @@
 #include <sys/types.h>
 #endif
 #include <stdio.h>
+#include <wchar.h>
 #include <string.h>
 #include <time.h>
 #include <math.h>
@@ -92,8 +93,6 @@ void	weather_update	args( ( void ) );
 void	char_update	args( ( void ) );
 void	obj_update	args( ( void ) );
 void	aggr_update	args( ( void ) );
-void	msdp_update	args( ( void ) );
-void	gmcp_update	args( ( void ) );
 int	potion_cure_level	args( ( OBJ_DATA *potion ) );
 int	potion_arm_level	args( ( OBJ_DATA *potion ) );
 bool	potion_cure_blind	args( ( OBJ_DATA *potion ) );
@@ -122,25 +121,25 @@ extern int max_on_so_far;
  */
 void advance_level( CHAR_DATA *ch )
 {
-    char buf[MAX_STRING_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
     int add_hp;
     int add_mana;
     int add_move;
     int add_prac;
 
     if (IS_NPC(ch) )  {
-       bug( "Advance_level: a mob to advance!", 0);
+       bug( L"Advance_level: a mob to advance!", 0);
        return;
     }
 
     ch->pcdata->last_level =
 	( ch->played + (int) (current_time - ch->logon) ) / 3600;
 
-    if ( strstr( ch->pcdata->title,
+    if ( wcsstr( ch->pcdata->title,
 	title_table[ch->iclass][ch->level-1])
 	|| CANT_CHANGE_TITLE(ch) )
     {
-      sprintf( buf, ", %s",
+      swprintf( buf, MAX_STRING_LENGTH-1, L", %s",
 	title_table [ch->iclass] [ch->level]  );
       set_title( ch, buf );
     }
@@ -177,7 +176,7 @@ void advance_level( CHAR_DATA *ch )
     ch->pcdata->perm_move	+= add_move;
 
 
-    printf_to_char( ch, "{GKazancýn: %d/%d yp, %d/%d mana, %d/%d hp %d/%d pratik.{x\n\r" ,add_hp,		ch->max_hit,
+    printf_to_char(ch,L"{GKazancÄ±n: %d/%d yp, %d/%d mana, %d/%d hp %d/%d pratik.{x\n\r" ,add_hp,		ch->max_hit,
   	add_mana,	ch->max_mana,add_move,	ch->max_move,add_prac,	ch->practice);
     return;
 }
@@ -186,13 +185,13 @@ void advance_level( CHAR_DATA *ch )
 
 void gain_exp( CHAR_DATA *ch, int gain )
 {
-    char buf[MAX_STRING_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
 
     if ( IS_NPC(ch) || ch->level >= LEVEL_HERO )
 	return;
     if ( IS_SET(ch->act,PLR_NO_EXP))
 	{
-    send_to_char( "Ruhun olmadan tecrübe kazanamazsýn.\n\r", ch );
+    send_to_char( L"Ruhun olmadan tecrÃ¼be kazanamazsÄ±n.\n\r", ch );
 	 return;
 	}
 
@@ -206,7 +205,7 @@ void gain_exp( CHAR_DATA *ch, int gain )
     while ( ch->level < LEVEL_HERO &&
            exp_to_level(ch,ch->pcdata->points) <= 0)
     {
-      printf_to_char(ch , "{GSeviyen yükseldi!!{x  " );
+      printf_to_char(ch, L"{GSeviyen yÃ¼kseldi!!{x  " );
 	ch->level += 1;
 
 	/* added for samurais by chronos */
@@ -218,11 +217,11 @@ void gain_exp( CHAR_DATA *ch, int gain )
 
         if (ch->level == 90)
           {
-            sprintf(log_buf, "%s seviye 90 oldu.", ch->name);
+            swprintf( log_buf, (2*MAX_INPUT_LENGTH)-1, L"%s seviye 90 oldu.", ch->name);
             log_string(log_buf);
           }
 
-	sprintf(buf,"$N seviye %d oldu!",ch->level);
+	swprintf( buf, MAX_STRING_LENGTH-1, L"$N seviye %d oldu!",ch->level);
 	wiznet(buf,ch,NULL,WIZ_LEVELS,0,0);
 	advance_level( ch );
 	save_char_obj(ch);
@@ -483,26 +482,26 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
 	switch ( iCond )
 	{
 	case COND_HUNGER:
-  send_to_char("Karnýn aç.\n\r",  ch );
+  send_to_char( L"KarnÄ±n aÃ§.\n\r",  ch );
 	    break;
 
 	case COND_THIRST:
-  send_to_char("Susadýn.\n\r", ch );
+  send_to_char( L"SusadÄ±n.\n\r", ch );
 	    break;
 
 	case COND_DRUNK:
 	    if ( condition != 0 )
-      send_to_char( "Sarhoþsun.\n\r", ch );
+      send_to_char( L"SarhoÅŸsun.\n\r", ch );
 	    break;
 
 	case COND_BLOODLUST:
 	    if ( condition != 0 )
-      send_to_char( "Kana susadýn.\n\r", ch );
+      send_to_char( L"Kana susadÄ±n.\n\r", ch );
 	    break;
 
 	case COND_DESIRE:
 	    if ( condition != 0 )
-      send_to_char("Yurdunu özledin.\n\r", ch );
+      send_to_char( L"Yurdunu Ã¶zledin.\n\r", ch );
 	    break;
 	}
     }
@@ -512,8 +511,8 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
 	switch ( iCond )
 	{
 	case COND_HUNGER:
-  send_to_char( "Açlýktan ölüyorsun!\n\r",  ch );
-  act( "$n açlýktan ölüyor!",  ch, NULL, NULL, TO_ROOM );
+  send_to_char( L"AÃ§lÄ±ktan Ã¶lÃ¼yorsun!\n\r",  ch );
+  act( L"$n aÃ§lÄ±ktan Ã¶lÃ¼yor!",  ch, NULL, NULL, TO_ROOM );
 	    damage_hunger = ch->max_hit * number_range(2, 4) / 100;
 	    if (!damage_hunger) damage_hunger = 1;
 	    damage( ch, ch, damage_hunger, TYPE_HUNGER, DAM_HUNGER, TRUE );
@@ -522,8 +521,8 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
 	    break;
 
 	case COND_THIRST:
-  send_to_char("Susuzluktan ölüyorsun!\n\r", ch );
-  act( "$n susuzluktan ölüyor!", ch, NULL, NULL, TO_ROOM );
+  send_to_char( L"Susuzluktan Ã¶lÃ¼yorsun!\n\r", ch );
+  act( L"$n susuzluktan Ã¶lÃ¼yor!", ch, NULL, NULL, TO_ROOM );
 	    damage_hunger = ch->max_hit * number_range(2, 4) / 100;
 	    if (!damage_hunger) damage_hunger = 1;
 	    damage( ch, ch, damage_hunger, TYPE_HUNGER, DAM_THIRST, TRUE );
@@ -533,11 +532,11 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
 
 	case COND_BLOODLUST:
 	    fdone = 0;
-      send_to_char("Kana olan açlýðýn seni öldürüyor!\n\r",ch );
-	    act("Kana olan açlýðý $m öldürüyor!", ch,NULL,NULL,TO_ROOM );
+      send_to_char( L"Kana olan aÃ§lÄ±ÄŸÄ±n seni Ã¶ldÃ¼rÃ¼yor!\n\r",ch );
+	    act( L"Kana olan aÃ§lÄ±ÄŸÄ± $m Ã¶ldÃ¼rÃ¼yor!", ch,NULL,NULL,TO_ROOM );
 	    if (ch->in_room && ch->in_room->people && !ch->fighting)
 	    {
-		if (!IS_AWAKE(ch)) do_stand(ch,(char*)"");
+		if (!IS_AWAKE(ch)) do_stand(ch,(wchar_t*)"");
                 for ( vch = ch->in_room->people;
                		vch != NULL && ch->fighting == NULL; vch = vch_next)
                 {
@@ -545,7 +544,7 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
                   if ( ch != vch && can_see(ch,vch) &&
                         !is_safe_nomessage(ch,vch) )
                    {
-                     do_yell(ch,(char*)"KAN! Kana ihtiyacým var!");
+                     do_yell(ch,(wchar_t*)"KAN! Kana ihtiyacÄ±m var!");
                     do_murder(ch,vch->name);
 		    fdone = 1;
 		    break;
@@ -561,8 +560,8 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
 	    break;
 
 	case COND_DESIRE:
-  send_to_char( "Eve dönmek istiyorsun!\n\r", ch );
-  act("$n memleket özlemiyle yanýp tutuþuyor!", ch, NULL, NULL, TO_ROOM );
+  send_to_char( L"Eve dÃ¶nmek istiyorsun!\n\r", ch );
+  act( L"$n memleket Ã¶zlemiyle yanÄ±p tutuÅŸuyor!", ch, NULL, NULL, TO_ROOM );
 	    if (ch->position >= POS_STANDING)
 		move_char(ch,number_door(),FALSE);
 	    break;
@@ -602,7 +601,7 @@ void mobile_update( void )
 	   ch->hit = UMIN( ch->hit + ch->level / 10, ch->max_hit );
 	 if (ch->cabal == CABAL_BATTLE && is_affected(ch, gsn_bandage))
 	   ch->hit = UMIN( ch->hit + ch->level / 10, ch->max_hit );
-	 if (ch->hit != ch->max_hit) send_to_char("",ch);
+	 if (ch->hit != ch->max_hit) send_to_char( L"",ch);
 	}
 
 	if ( IS_AFFECTED(ch, AFF_CORRUPTION ) && ch->in_room != NULL )
@@ -610,14 +609,14 @@ void mobile_update( void )
 	 ch->hit -=  ch->level / 10;
 	 if (ch->hit < 1)
          {
-	    int sn = skill_lookup("corruption");
+	    int sn = skill_lookup( L"corruption");
 
 	    if (sn < 0) sn = gsn_witch_curse;
 	    ch->hit = 1;
 	    damage(ch,ch,16,sn,DAM_NONE,FALSE);
 	    continue;
 	 }
-	 else send_to_char("",ch);
+	 else send_to_char( L"",ch);
 	}
 
 	if ( CAN_DETECT(ch, ADET_SUFFOCATE ) && ch->in_room != NULL )
@@ -625,7 +624,7 @@ void mobile_update( void )
 	 ch->hit -=  ch->level / 5;
 	 if (ch->hit < 1)
          {
-	    int sn = skill_lookup("suffocate");
+	    int sn = skill_lookup( L"suffocate");
 
 	    if (sn < 0) sn = gsn_witch_curse;
 	    ch->hit = 1;
@@ -634,7 +633,7 @@ void mobile_update( void )
 	 }
 	 else {
 		if (number_percent() < 30) {
-      send_to_char("Nefes alamýyorsun!",ch);
+      send_to_char( L"Nefes alamÄ±yorsun!",ch);
 		}
 	 }
 	}
@@ -784,7 +783,7 @@ void mobile_update( void )
 	    {
 		obj_from_room( obj_best );
 		obj_to_char( obj_best, ch );
-    act( "$n $p alýyor.", ch, obj_best, NULL, TO_ROOM );
+    act( L"$n $p alÄ±yor.", ch, obj_best, NULL, TO_ROOM );
 		if (IS_SET(obj_best->progtypes,OPROG_GET))
 		   (obj_best->pIndexData->oprogs->get_prog) (obj_best,ch);
 	    }
@@ -820,13 +819,13 @@ int i;
   cl = 0;
   for (i=1;i<5;i++)
   {
-    if ( skill_lookup("cure critical") == potion->value[i] )
+    if ( skill_lookup( L"cure critical") == potion->value[i] )
       cl += 3;
-    if ( skill_lookup("cure light") == potion->value[i])
+    if ( skill_lookup( L"cure light") == potion->value[i])
       cl += 1;
-    if ( skill_lookup("cure serious") == potion->value[i] )
+    if ( skill_lookup( L"cure serious") == potion->value[i] )
       cl += 2;
-    if ( skill_lookup("heal") == potion->value[i])
+    if ( skill_lookup( L"heal") == potion->value[i])
       cl += 4;
   }
   return(cl);
@@ -838,15 +837,15 @@ int i;
   al = 0;
   for (i=1;i<5;i++)
   {
-    if ( skill_lookup("armor") == potion->value[i] )
+    if ( skill_lookup( L"armor") == potion->value[i] )
       al += 1;
-    if ( skill_lookup("shield") == potion->value[i])
+    if ( skill_lookup( L"shield") == potion->value[i])
       al += 1;
-    if ( skill_lookup("stone skin") == potion->value[i] )
+    if ( skill_lookup( L"stone skin") == potion->value[i] )
       al += 2;
-    if ( skill_lookup("sanctuary") == potion->value[i])
+    if ( skill_lookup( L"sanctuary") == potion->value[i])
       al += 4;
-    if ( skill_lookup("protection") == potion->value[i])
+    if ( skill_lookup( L"protection") == potion->value[i])
       al += 3;
   }
   return(al);
@@ -857,7 +856,7 @@ bool potion_cure_blind( OBJ_DATA *potion )
 int i;
   for (i=0;i<5;i++)
   {
-    if (skill_lookup("cure blindness") == potion->value[i])
+    if (skill_lookup( L"cure blindness") == potion->value[i])
       return(TRUE);
   }
   return(FALSE);
@@ -867,7 +866,7 @@ bool potion_cure_poison( OBJ_DATA *potion )
 int i;
   for (i=0;i<5;i++)
   {
-    if (skill_lookup("cure poison") == potion->value[i] )
+    if (skill_lookup( L"cure poison") == potion->value[i] )
       return(TRUE);
   }
   return(FALSE);
@@ -877,7 +876,7 @@ bool potion_cure_disease( OBJ_DATA *potion )
 int i;
   for (i=0;i<5;i++)
   {
-    if (skill_lookup("cure disease") == potion->value[i] )
+    if (skill_lookup( L"cure disease") == potion->value[i] )
       return(TRUE);
   }
   return(FALSE);
@@ -889,17 +888,18 @@ void game_time_update( void )
 milat: sunucu alindiktan sonra oyunun ilk acildigi gun
 22 agustos 2019 00:00:01
 */
+	fwprintf( stderr, L"game_time_update :: 1\n" );
 	long milat 			= 1566421201;
-	long bir_oyun_saati	= 5 * 60; /* 300 gerçek saniye , 5 gerçek dakika */
-	long bir_oyun_gunu	= 24 * bir_oyun_saati; /* 120 gerçek dakika , 2 gerçek saat*/
-	long bir_oyun_ayi	= 10 * bir_oyun_gunu; /* 20 gerçek saat */
-	long bir_oyun_yili	= 12 * bir_oyun_ayi; /* 240 gerçek saat, 10 gerçek gün */
+	long bir_oyun_saati	= 5 * 60; /* 300 gerÃ§ek saniye , 5 gerÃ§ek dakika */
+	long bir_oyun_gunu	= 24 * bir_oyun_saati; /* 120 gerÃ§ek dakika , 2 gerÃ§ek saat*/
+	long bir_oyun_ayi	= 10 * bir_oyun_gunu; /* 20 gerÃ§ek saat */
+	long bir_oyun_yili	= 12 * bir_oyun_ayi; /* 240 gerÃ§ek saat, 10 gerÃ§ek gÃ¼n */
 
 	long x , eski_gun;
-	char buf[ MAX_STRING_LENGTH ];
+	wchar_t buf[ MAX_STRING_LENGTH ];
 
 	eski_gun = time_info.day;
-
+	fwprintf( stderr, L"game_time_update :: 2\n" );
 	x = (long)(current_time - milat);
 	time_info.year = ceil( (float)x / (float)bir_oyun_yili );
 
@@ -911,22 +911,26 @@ milat: sunucu alindiktan sonra oyunun ilk acildigi gun
 
 	x = x % bir_oyun_gunu;
 	time_info.hour = x / bir_oyun_saati;
-
+	fwprintf( stderr, L"game_time_update :: 3\n" );
 	if( eski_gun != time_info.day )
 	{
-		sprintf( buf,"Oyun tarihi: %ld/%ld/%ld Saat: %ld",time_info.day,time_info.month,time_info.year,time_info.hour);
+		fwprintf( stderr, L"game_time_update :: 4-%d\n",MAX_STRING_LENGTH );
+		swprintf( buf, MAX_STRING_LENGTH-1, L"Oyun tarihi: %ld/%ld/%ld Saat: %ld",time_info.day,time_info.month,time_info.year,time_info.hour);
+		fwprintf( stderr, L"game_time_update :: 5\n" );
 		log_string( buf );
+		fwprintf( stderr, L"game_time_update :: 6\n" );
 	}
+	fwprintf( stderr, L"game_time_update :: 7\n" );
 }
 
-void game_time_to_string( time_t gameTime , char *buf )
+void game_time_to_string( time_t gameTime , wchar_t *buf )
 {
-	/* varsayýlan deðerler */
+	/* varsayÄ±lan deÄŸerler */
 	long milat 			= 1566421201;
-	long bir_oyun_saati	= 5 * 60; /* 300 gerçek saniye , 5 gerçek dakika */
-	long bir_oyun_gunu	= 24 * bir_oyun_saati; /* 120 gerçek dakika , 2 gerçek saat*/
-	long bir_oyun_ayi	= 10 * bir_oyun_gunu; /* 20 gerçek saat */
-	long bir_oyun_yili	= 12 * bir_oyun_ayi; /* 240 gerçek saat, 10 gerçek gün */
+	long bir_oyun_saati	= 5 * 60; /* 300 gerÃ§ek saniye , 5 gerÃ§ek dakika */
+	long bir_oyun_gunu	= 24 * bir_oyun_saati; /* 120 gerÃ§ek dakika , 2 gerÃ§ek saat*/
+	long bir_oyun_ayi	= 10 * bir_oyun_gunu; /* 20 gerÃ§ek saat */
+	long bir_oyun_yili	= 12 * bir_oyun_ayi; /* 240 gerÃ§ek saat, 10 gerÃ§ek gÃ¼n */
 
 	long yil , ay , gun , x;
 
@@ -939,17 +943,17 @@ void game_time_to_string( time_t gameTime , char *buf )
 	x = x % bir_oyun_ayi;
 	gun = ceil( (float)x / (float)bir_oyun_gunu );
 
-	sprintf( buf, "%ld/%ld/%ld",gun,ay,yil);
+	swprintf( buf, MAX_STRING_LENGTH-1, L"%ld/%ld/%ld",gun,ay,yil);
 }
 
 int game_time_to_year( time_t gameTime )
 {
-	/* varsayýlan deðerler */
+	/* varsayÄ±lan deÄŸerler */
 	long milat 			= 1566421201;
-	long bir_oyun_saati	= 5 * 60; /* 300 gerçek saniye , 5 gerçek dakika */
-	long bir_oyun_gunu	= 24 * bir_oyun_saati; /* 120 gerçek dakika , 2 gerçek saat*/
-	long bir_oyun_ayi	= 10 * bir_oyun_gunu; /* 20 gerçek saat */
-	long bir_oyun_yili	= 12 * bir_oyun_ayi; /* 240 gerçek saat, 10 gerçek gün */
+	long bir_oyun_saati	= 5 * 60; /* 300 gerÃ§ek saniye , 5 gerÃ§ek dakika */
+	long bir_oyun_gunu	= 24 * bir_oyun_saati; /* 120 gerÃ§ek dakika , 2 gerÃ§ek saat*/
+	long bir_oyun_ayi	= 10 * bir_oyun_gunu; /* 20 gerÃ§ek saat */
+	long bir_oyun_yili	= 12 * bir_oyun_ayi; /* 240 gerÃ§ek saat, 10 gerÃ§ek gÃ¼n */
 
 	long yil , x;
 
@@ -976,7 +980,7 @@ int age_to_num( int age )
  */
  void weather_update( void )
  {
-     char buf[MAX_STRING_LENGTH];
+     wchar_t buf[MAX_STRING_LENGTH];
      DESCRIPTOR_DATA *d;
      int diff;
 
@@ -988,22 +992,22 @@ int age_to_num( int age )
      {
      case  5:
  	weather_info.sunlight = SUN_LIGHT;
- 	strcat( buf, "Gün baþladý.\n\r" );
+ 	wcscat(buf, L"GÃ¼n baÅŸladÄ±.\n\r" );
  	break;
 
      case  6:
  	weather_info.sunlight = SUN_RISE;
- 	strcat( buf, "Güneþ doðudan yükseliyor.\n\r" );
+ 	wcscat(buf, L"GÃ¼neÅŸ doÄŸudan yÃ¼kseliyor.\n\r" );
  	break;
 
      case 19:
  	weather_info.sunlight = SUN_SET;
- 	strcat( buf, "Güneþ batýda yavaþça kayboluyor.\n\r" );
+ 	wcscat(buf, L"GÃ¼neÅŸ batÄ±da yavaÅŸÃ§a kayboluyor.\n\r" );
  	break;
 
      case 20:
  	weather_info.sunlight = SUN_DARK;
- 	strcat( buf, "Gece baþladý.\n\r" );
+ 	wcscat(buf, L"Gece baÅŸladÄ±.\n\r" );
  	break;
      }
 
@@ -1026,7 +1030,7 @@ int age_to_num( int age )
      switch ( weather_info.sky )
      {
      default:
- 	bug( "Weather_update: bad sky %d.", weather_info.sky );
+ 	bug( L"Weather_update: bad sky %d.", weather_info.sky );
  	weather_info.sky = SKY_CLOUDLESS;
  	break;
 
@@ -1034,7 +1038,7 @@ int age_to_num( int age )
  	if ( weather_info.mmhg <  990
  	|| ( weather_info.mmhg < 1010 && number_range(0,3) == 0 ) )
  	{
- 	    strcat( buf, "Gökyüzü bulutlanýyor.\n\r" );
+ 	    wcscat(buf, L"GÃ¶kyÃ¼zÃ¼ bulutlanÄ±yor.\n\r" );
  	    weather_info.sky = SKY_CLOUDY;
  	}
  	break;
@@ -1043,13 +1047,13 @@ int age_to_num( int age )
  	if ( weather_info.mmhg <  970
  	|| ( weather_info.mmhg <  990 && number_range(0,3) == 0 ) )
  	{
- 	    strcat( buf, "Yaðmur baþladý.\n\r" );
+ 	    wcscat(buf, L"YaÄŸmur baÅŸladÄ±.\n\r" );
  	    weather_info.sky = SKY_RAINING;
  	}
 
  	if ( weather_info.mmhg > 1030 && number_range(0,3) == 0 )
  	{
- 	    strcat( buf, "Bulutlar daðýlýyor.\n\r" );
+ 	    wcscat(buf, L"Bulutlar daÄŸÄ±lÄ±yor.\n\r" );
  	    weather_info.sky = SKY_CLOUDLESS;
  	}
  	break;
@@ -1057,14 +1061,14 @@ int age_to_num( int age )
      case SKY_RAINING:
  	if ( weather_info.mmhg <  970 && number_range(0,3) == 0 )
  	{
- 	    strcat( buf, "Gökyüzünde þimþekler çakýyor.\n\r" );
+ 	    wcscat(buf, L"GÃ¶kyÃ¼zÃ¼nde ÅŸimÅŸekler Ã§akÄ±yor.\n\r" );
  	    weather_info.sky = SKY_LIGHTNING;
  	}
 
  	if ( weather_info.mmhg > 1030
  	|| ( weather_info.mmhg > 1010 && number_range(0,3) == 0 ) )
  	{
- 	    strcat( buf, "Yaðmur dindi.\n\r" );
+ 	    wcscat(buf, L"YaÄŸmur dindi.\n\r" );
  	    weather_info.sky = SKY_CLOUDY;
  	}
  	break;
@@ -1073,7 +1077,7 @@ int age_to_num( int age )
  	if ( weather_info.mmhg > 1010
  	|| ( weather_info.mmhg >  990 && number_range(0,3) == 0 ) )
  	{
- 	    strcat( buf, "Þimþekler durdu.\n\r" );
+ 	    wcscat(buf, L"ÅžimÅŸekler durdu.\n\r" );
  	    weather_info.sky = SKY_RAINING;
  	    break;
  	}
@@ -1145,8 +1149,8 @@ void char_update( void )
     {
       REMOVE_BIT(ch->act,PLR_GHOST);
       ch->pcdata->ghost_mode_counter = 0;
-      printf_to_char(ch,"Ete kemiðe büründüðünü hissediyorsun. Arkaný kollamaya baþlasan iyi olur!\n\r");
-      act ("$n ete kemiðe bürünüyor!",ch,NULL,NULL,TO_ROOM);
+      printf_to_char(ch,L"Ete kemiÄŸe bÃ¼rÃ¼ndÃ¼ÄŸÃ¼nÃ¼ hissediyorsun. ArkanÄ± kollamaya baÅŸlasan iyi olur!\n\r");
+      act ( L"$n ete kemiÄŸe bÃ¼rÃ¼nÃ¼yor!",ch,NULL,NULL,TO_ROOM);
       while ( ch->affected )
         affect_remove( ch, ch->affected );
       ch->affected_by	= 0;
@@ -1155,11 +1159,11 @@ void char_update( void )
 
   }
 
-  if (!IS_NPC(ch) && (strlen(ch->description)<350) && (ch->level >= KIDEMLI_OYUNCU_SEVIYESI))
+  if (!IS_NPC(ch) && (wcslen(ch->description)<350) && (ch->level >= KIDEMLI_OYUNCU_SEVIYESI))
   {
     SET_BIT(ch->act, PLR_NO_DESCRIPTION);
   }
-  if (!IS_NPC(ch) && (strlen(ch->description)>=350) && (IS_SET(ch->act, PLR_NO_DESCRIPTION)))
+  if (!IS_NPC(ch) && (wcslen(ch->description)>=350) && (IS_SET(ch->act, PLR_NO_DESCRIPTION)))
     REMOVE_BIT(ch->act, PLR_NO_DESCRIPTION);
 
 	/* reset hunters path find */
@@ -1178,7 +1182,7 @@ void char_update( void )
 
 	if (!IS_NPC(ch) && ch->cabal == CABAL_BATTLE)
 	{
-	 if (!is_affected(ch,gsn_spellbane)) do_spellbane(ch,(char*)"");
+	 if (!is_affected(ch,gsn_spellbane)) do_spellbane(ch,(wchar_t*)"");
 	}
 
         /* Remove caltraps effect after fight off */
@@ -1189,23 +1193,23 @@ void char_update( void )
         if (IS_VAMPIRE(ch) &&
 	    (weather_info.sunlight == SUN_LIGHT ||
 		weather_info.sunlight == SUN_RISE) )
-          do_human(ch,(char*)"");
+          do_human(ch,(wchar_t*)"");
 
         /* Reset sneak for vampire */
         if ( !(ch->fighting) && !IS_AFFECTED(ch,AFF_SNEAK) &&
             IS_VAMPIRE(ch) && !MOUNTED(ch))
 	{
-    send_to_char("Süzülmeye baþladýn.\n\r",ch);
+    send_to_char( L"SÃ¼zÃ¼lmeye baÅŸladÄ±n.\n\r",ch);
 	  SET_BIT(ch->affected_by ,AFF_SNEAK);
 	}
 
         if ( !(ch->fighting) && !IS_AFFECTED(ch,AFF_SNEAK) &&
             (race_table[RACE(ch)].aff & AFF_SNEAK) && !MOUNTED(ch) )
-            send_to_char("Süzülmeye baþladýn.\n\r",ch);
+            send_to_char( L"SÃ¼zÃ¼lmeye baÅŸladÄ±n.\n\r",ch);
 
         if ( !(ch->fighting) && !IS_AFFECTED(ch,AFF_HIDE) &&
             (race_table[RACE(ch)].aff & AFF_HIDE) && !MOUNTED(ch) )
-            send_to_char("Gölgelerin içine giriyorsun.\n\r",ch);
+            send_to_char( L"GÃ¶lgelerin iÃ§ine giriyorsun.\n\r",ch);
 
         SET_BIT(ch->affected_by, race_table[RACE(ch)].aff );
 
@@ -1230,7 +1234,7 @@ void char_update( void )
 			back_home( ch );
 		else
 		{
-      act("$n evine gitti.",ch,NULL,NULL,TO_ROOM);
+      act( L"$n evine gitti.",ch,NULL,NULL,TO_ROOM);
             	 extract_char(ch,TRUE);
 		}
             	continue;
@@ -1267,12 +1271,12 @@ void char_update( void )
 		{
 		    unequip_char(ch, obj);
 		    if (get_light_char(ch) == NULL) --ch->in_room->light;
-        act("$p sönüyor.", ch, obj, NULL, TO_ROOM );
-		    act( "$p titreyerek sönüyor.", ch, obj, NULL, TO_CHAR );
+        act( L"$p sÃ¶nÃ¼yor.", ch, obj, NULL, TO_ROOM );
+		    act( L"$p titreyerek sÃ¶nÃ¼yor.", ch, obj, NULL, TO_CHAR );
 		    extract_obj( obj );
 		}
 	 	else if ( obj->value[2] <= 5 && ch->in_room != NULL)
-    act("$p titriyor.",ch,obj,NULL,TO_CHAR);
+    act( L"$p titriyor.",ch,obj,NULL,TO_CHAR);
 	    }
 
 	    if (IS_IMMORTAL(ch))
@@ -1285,9 +1289,9 @@ void char_update( void )
 		    ch->was_in_room = ch->in_room;
 		    if ( ch->fighting != NULL )
 			stop_fighting( ch, TRUE );
-      act( "$n hiçliðe sürükleniyor.",
+      act( L"$n hiÃ§liÄŸe sÃ¼rÃ¼kleniyor.",
 			ch, NULL, NULL, TO_ROOM );
-      send_to_char("Hiçliðe sürükleniyorsun.\n\r", ch );
+      send_to_char( L"HiÃ§liÄŸe sÃ¼rÃ¼kleniyorsun.\n\r", ch );
 		    if (ch->level > 1  )
 		        save_char_obj( ch );
 		    if ( ch->level < 10 )  {
@@ -1330,7 +1334,7 @@ void char_update( void )
 		    if ( paf->type > 0 && skill_table[paf->type].msg_off )
 		    {
 			send_to_char( skill_table[paf->type].msg_off, ch );
-			send_to_char( "\n\r", ch );
+			send_to_char( L"\n\r", ch );
 		    }
 		}
 
@@ -1339,7 +1343,7 @@ void char_update( void )
 			AFFECT_DATA neck_af;
 
 			REMOVE_BIT(ch->affected_by, AFF_SLEEP);
-			do_wake(ch, (char*)"");
+			do_wake(ch, (wchar_t*)"");
 			neck_af.type = gsn_neckguard;
 			neck_af.where = TO_AFFECTS;
 			neck_af.level = ch->level;
@@ -1354,7 +1358,7 @@ void char_update( void )
 			AFFECT_DATA head_af;
 
 			REMOVE_BIT(ch->affected_by, AFF_SLEEP);
-			do_wake(ch,(char*) "");
+			do_wake(ch,(wchar_t*) "");
 			head_af.type = gsn_headguard;
 			head_af.where = TO_AFFECTS;
 			head_af.level = ch->level;
@@ -1369,7 +1373,7 @@ void char_update( void )
 			AFFECT_DATA b_af;
 
 			REMOVE_BIT(ch->affected_by, AFF_SLEEP);
-			do_wake(ch, (char*)"");
+			do_wake(ch, (wchar_t*)"");
 			b_af.type = gsn_blackguard;
 			b_af.where = TO_AFFECTS;
 			b_af.level = ch->level;
@@ -1397,8 +1401,8 @@ void char_update( void )
 	  if (ch->in_room == NULL)
 		continue;
 
-    act("$s üzerindeki cadý laneti ona yaþamýnýn emildiðini hissettiriyor.\n\r",ch,NULL,NULL,TO_ROOM);
-	  send_to_char("Cadý laneti yaþamýnýn emildiðini hissettiriyor.\n\r",ch);
+    act( L"$s Ã¼zerindeki cadÄ± laneti ona yaÅŸamÄ±nÄ±n emildiÄŸini hissettiriyor.\n\r",ch,NULL,NULL,TO_ROOM);
+	  send_to_char( L"CadÄ± laneti yaÅŸamÄ±nÄ±n emildiÄŸini hissettiriyor.\n\r",ch);
 
 	  for( af = ch->affected; af!= NULL; af = af->next)
 	  {
@@ -1451,8 +1455,8 @@ void char_update( void )
 	    if (ch->in_room == NULL)
 		 continue;
 
-     act("$n veba derisini yaktýkça acý içinde kývranýyor.",ch,NULL,NULL,TO_ROOM);
-     send_to_char("Veba derini yaktýkça acý içinde kývranýyorsun.\n\r",ch);
+     act( L"$n veba derisini yaktÄ±kÃ§a acÄ± iÃ§inde kÄ±vranÄ±yor.",ch,NULL,NULL,TO_ROOM);
+     send_to_char( L"Veba derini yaktÄ±kÃ§a acÄ± iÃ§inde kÄ±vranÄ±yorsun.\n\r",ch);
             for ( af = ch->affected; af != NULL; af = af->next )
             {
             	if (af->type == gsn_plague)
@@ -1482,8 +1486,8 @@ void char_update( void )
 		&&  !IS_IMMORTAL(vch)
             	&&  !IS_AFFECTED(vch,AFF_PLAGUE) && number_range(0,3) == 0)
             	{
-                send_to_char("Ateþinin yükseldiðini hissediyorsun.\n\r",vch);
-                act("$n hastalýktan titriyor.",vch,NULL,NULL,TO_ROOM);
+                send_to_char( L"AteÅŸinin yÃ¼kseldiÄŸini hissediyorsun.\n\r",vch);
+                act( L"$n hastalÄ±ktan titriyor.",vch,NULL,NULL,TO_ROOM);
             	    affect_join(vch,&plague);
             	}
             }
@@ -1505,8 +1509,8 @@ void char_update( void )
 
 	    if (poison != NULL)
 	    {
-        act( "$n acý çekiyor ve titriyor.", ch, NULL, NULL, TO_ROOM );
-        send_to_char("Acý çekiyor ve titriyorsun.\n\r", ch );
+        act( L"$n acÄ± Ã§ekiyor ve titriyor.", ch, NULL, NULL, TO_ROOM );
+        send_to_char( L"AcÄ± Ã§ekiyor ve titriyorsun.\n\r", ch );
 	        damage(ch,ch,poison->level/10 + 1,gsn_poison,
 		    DAM_POISON,TRUE);
 	    }
@@ -1536,7 +1540,7 @@ void char_update( void )
 	    if ( !IS_NPC(ch) )
               save_char_obj(ch);
             if ( ch == ch_quit || ch->timer > 20 )
-              do_quit(ch, (char*)"");
+              do_quit(ch, (wchar_t*)"");
           }
     }
 
@@ -1556,7 +1560,7 @@ bool fChar;
     {
  	obj_next = obj->next;
 
-	if ( obj == NULL ) {dump_to_scr((char*)"NULL OBJ encounter!\n\r");break;}
+	if ( obj == NULL ) {dump_to_scr((wchar_t*)"NULL OBJ encounter!\n\r");break;}
 
 	if ( obj->in_room == NULL )
 	  continue;
@@ -1576,8 +1580,8 @@ bool fChar;
 	  if (obj->item_type == ITEM_DRINK_CON)  {
 	     obj->value[1] = URANGE( 1, obj->value[1]+8 , obj->value[0] );
 	     if ( fChar )  {
-         act( "$p suda baloncuklar oluþturuyor.", ch, obj, NULL, TO_CHAR);
-	       act( "$p suda baloncuklar oluþturuyor.", ch, obj, NULL, TO_ROOM);
+         act( L"$p suda baloncuklar oluÅŸturuyor.", ch, obj, NULL, TO_CHAR);
+	       act( L"$p suda baloncuklar oluÅŸturuyor.", ch, obj, NULL, TO_ROOM);
 	     }
 	     obj->water_float = obj->value[0]-obj->value[1];
 	     obj->value[2] = 0;
@@ -1587,12 +1591,12 @@ bool fChar;
 		  (obj->item_type == ITEM_CORPSE_PC)  ||
 		  (obj->item_type == ITEM_CONTAINER)) &&
 		  fChar )  {
-        act( "$p ardýnda baloncuklar býrakarak batýyor.", ch, obj, NULL, TO_CHAR );
-        act( "$p ardýnda baloncuklar býrakarak batýyor.", ch, obj, NULL, TO_ROOM );
+        act( L"$p ardÄ±nda baloncuklar bÄ±rakarak batÄ±yor.", ch, obj, NULL, TO_CHAR );
+        act( L"$p ardÄ±nda baloncuklar bÄ±rakarak batÄ±yor.", ch, obj, NULL, TO_ROOM );
 	    }
   	    else if ( fChar ) {
-          act(  "$p suda batýyor.", ch, obj, NULL, TO_CHAR );
-  	      act( "$p suda batýyor.", ch, obj, NULL, TO_ROOM );
+          act( L"$p suda batÄ±yor.", ch, obj, NULL, TO_CHAR );
+  	      act( L"$p suda batÄ±yor.", ch, obj, NULL, TO_ROOM );
 	    }
 	    extract_obj( obj );
 	    continue;
@@ -1620,7 +1624,7 @@ void obj_update( void )
     for ( obj = object_list; obj != NULL; obj = obj_next )
     {
 	CHAR_DATA *rch;
-	const char *message;
+	const wchar_t *message;
 
 	obj_next = obj->next;
 
@@ -1676,14 +1680,14 @@ void obj_update( void )
                  t_obj->carried_by->in_room->area->nplayer > 0) )
               (obj->pIndexData->oprogs->area_prog) (obj);
 
-        if ( check_material( obj, (char*)"ice" ) )
+        if ( check_material( obj, (wchar_t*)"ice" ) )
           {
 	   if ( obj->carried_by != NULL )
              {
 	      if ( obj->carried_by->in_room->sector_type == SECT_DESERT )
 	      if ( number_percent() < 40 )
               {
-                act( "$p aþýrý sýcaktan eriyor.", obj->carried_by, obj, NULL, TO_CHAR );
+                act( L"$p aÅŸÄ±rÄ± sÄ±caktan eriyor.", obj->carried_by, obj, NULL, TO_CHAR );
 		extract_obj( obj );
 		continue;
 	      }
@@ -1693,20 +1697,20 @@ void obj_update( void )
 	      if ( number_percent() < 50 )  {
 		if ( obj->in_room->people != NULL )
                 {
-                  act(  "$p aþýrý sýcaktan eriyor.", obj->in_room->people, obj, NULL, TO_ROOM );
-            		  act("$p aþýrý sýcaktan eriyor.", obj->in_room->people, obj, NULL, TO_CHAR );
+                  act( L"$p aÅŸÄ±rÄ± sÄ±caktan eriyor.", obj->in_room->people, obj, NULL, TO_ROOM );
+            		  act( L"$p aÅŸÄ±rÄ± sÄ±caktan eriyor.", obj->in_room->people, obj, NULL, TO_CHAR );
 	        }
 		extract_obj( obj );
 		continue;
 	      }
 	}
 
-        if ( !check_material( obj, (char*)"glass" ) && obj->item_type==ITEM_POTION)  {
+        if ( !check_material( obj, (wchar_t*)"glass" ) && obj->item_type==ITEM_POTION)  {
 	  if ( obj->carried_by != NULL )  {
 	    if ( obj->carried_by->in_room->sector_type == SECT_DESERT &&
 		 !IS_NPC(obj->carried_by) )
 	      if ( number_percent() < 20 )  {
-          act( "$p buharlaþýyor.", obj->carried_by, obj, NULL, TO_CHAR );
+          act( L"$p buharlaÅŸÄ±yor.", obj->carried_by, obj, NULL, TO_CHAR );
 		extract_obj( obj );
 		continue;
 	      }
@@ -1717,8 +1721,8 @@ void obj_update( void )
                {
 		if ( obj->in_room->people != NULL )
                 {
-                  act( "$p aþýrý sýcaktan buharlaþýyor.", obj->in_room->people, obj, NULL, TO_ROOM );
-            		  act( "$p aþýrý sýcaktan buharlaþýyor.", obj->in_room->people, obj, NULL, TO_CHAR );
+                  act( L"$p aÅŸÄ±rÄ± sÄ±caktan buharlaÅŸÄ±yor.", obj->in_room->people, obj, NULL, TO_ROOM );
+            		  act( L"$p aÅŸÄ±rÄ± sÄ±caktan buharlaÅŸÄ±yor.", obj->in_room->people, obj, NULL, TO_CHAR );
 	        }
 	        extract_obj( obj );
 	        continue;
@@ -1730,21 +1734,21 @@ void obj_update( void )
 
 	switch ( obj->item_type )
 	{
-    default:              message = "$p ufalanýyor.";break;
-  	case ITEM_FOUNTAIN:   message = "$p kuruyor.";break;
-  	case ITEM_CORPSE_NPC: message = "$p çürüyor.";break;
-  	case ITEM_CORPSE_PC:  message = "$p çürüyor.";break;
-  	case ITEM_FOOD:       message = "$p bozuluyor.";break;
-  	case ITEM_POTION:     message = "$p beklemekten buharlaþýyor.";break;
-  	case ITEM_PORTAL:     message = "$p kayboluyor.";break;
+    default:              message = L"$p ufalanÄ±yor.";break;
+  	case ITEM_FOUNTAIN:   message = L"$p kuruyor.";break;
+  	case ITEM_CORPSE_NPC: message = L"$p Ã§Ã¼rÃ¼yor.";break;
+  	case ITEM_CORPSE_PC:  message = L"$p Ã§Ã¼rÃ¼yor.";break;
+  	case ITEM_FOOD:       message = L"$p bozuluyor.";break;
+  	case ITEM_POTION:     message = L"$p beklemekten buharlaÅŸÄ±yor.";break;
+  	case ITEM_PORTAL:     message = L"$p kayboluyor.";break;
 	case ITEM_CONTAINER:
 	    if (CAN_WEAR(obj,ITEM_WEAR_FLOAT))
 		if (obj->contains)
-    message ="$p içindekileri etrafa saçarak yokoluyor.";
+    message = L"$p iÃ§indekileri etrafa saÃ§arak yokoluyor.";
 		else
-    message = "$p titriyor ve yokoluyor.";
+    message = L"$p titriyor ve yokoluyor.";
 	    else
-      message = "$p ufalanýyor.";
+      message = L"$p ufalanÄ±yor.";
 	    break;
 	}
 
@@ -1850,13 +1854,13 @@ void aggr_update( void )
     CHAR_DATA *vch;
     CHAR_DATA *vch_next;
     CHAR_DATA *victim;
-    char buf[MAX_STRING_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
 
     for ( wch = char_list; wch != NULL; wch = wch_next )
     {
 	if (!IS_VALID(wch))
 	{
-	  bug("Aggr_update: Invalid char.",0);
+	  bug( L"Aggr_update: Invalid char.",0);
 	  break;
 	}
 
@@ -1872,7 +1876,7 @@ void aggr_update( void )
               if ( wch != vch && can_see(wch,vch) &&
                   !is_safe_nomessage(wch,vch) )
                 {
-                  act_color("$CDAHA FAZLA KAN! DAHA FAZLA KAAN!!!$c",
+                  act_color( L"$CDAHA FAZLA KAN! DAHA FAZLA KAAN!!!$c",
                             wch,NULL,NULL,TO_CHAR,POS_RESTING,CLR_RED);
                   do_murder(wch,vch->name);
                 }
@@ -1928,7 +1932,7 @@ void aggr_update( void )
           /* Mad mob attacks! */
           if ( ch->last_fought == wch )
 	   {
-       sprintf(buf,"%s! Öleceksin!",
+       swprintf( buf, MAX_STRING_LENGTH-1, L"%s! Ã–leceksin!",
                     (is_affected(wch,gsn_doppelganger) &&
                      !IS_SET(ch->act,PLR_HOLYLIGHT))?
                     PERS(wch->doppel,ch) : PERS(wch,ch));
@@ -1998,7 +2002,6 @@ void update_handler( void )
     static  int     pulse_mobile;
     static  int     pulse_violence;
     static  int     pulse_point;
-    static  int     pulse_msdp;
     static  int	    pulse_music;
     static  int	    pulse_water_float;
     static  int	    pulse_raffect;
@@ -2008,7 +2011,7 @@ void update_handler( void )
 
     if ( --pulse_area     <= 0 )
     {
-	wiznet("BOLGE & ODA YENILEME!",NULL,NULL,WIZ_TICKS,0,0);
+	wiznet( L"BOLGE & ODA YENILEME!",NULL,NULL,WIZ_TICKS,0,0);
 	pulse_area	= PULSE_AREA;
 	area_update	( );
 	room_update	( );
@@ -2051,15 +2054,9 @@ void update_handler( void )
 	track_update( );
     }
 
-    if ( --pulse_msdp <= 0 )
-    {
-        pulse_msdp      = PULSE_PER_SECOND;
-        msdp_update();
-    }
-
     if ( --pulse_point    <= 0 )
     {
-	wiznet("KARAKTER YENILEME!",NULL,NULL,WIZ_TICKS,0,0);
+	wiznet( L"KARAKTER YENILEME!",NULL,NULL,WIZ_TICKS,0,0);
 	pulse_point     = PULSE_TICK;
 	weather_update	( );
 	char_update	( );
@@ -2079,8 +2076,6 @@ void update_handler( void )
 	}
 
     }
-
-    gmcp_update();
 
     aggr_update( );
     auction_update( );
@@ -2120,8 +2115,8 @@ void light_update( void )
 	}
 
 	if (dam_light == 1)
-  send_to_char("Odadaki ýþýktan rahatsýz oluyorsun.\n\r",ch);
-else send_to_char("Güneþ ýþýðýndan rahatsýz oluyorsun.\n\r",ch);
+  send_to_char( L"Odadaki Ä±ÅŸÄ±ktan rahatsÄ±z oluyorsun.\n\r",ch);
+else send_to_char( L"GÃ¼neÅŸ Ä±ÅŸÄ±ÄŸÄ±ndan rahatsÄ±z oluyorsun.\n\r",ch);
 
 	dam_light = ( ch->max_hit * 4 )/ 100;
 	if (!dam_light) dam_light = 1;
@@ -2174,7 +2169,7 @@ void room_update( void )
 		    if ( paf->type > 0 && skill_table[paf->type].msg_off )
 		    {
 			act( skill_table[paf->type].msg_off, ch );
-			send_to_char( "\n\r", ch );
+			send_to_char( L"\n\r", ch );
 		    }
 */
 		}
@@ -2231,8 +2226,8 @@ void room_affect_update( void )
 		&&  !is_safe_rspell(af->level,vch)
             	&&  !IS_AFFECTED(vch,AFF_PLAGUE) && number_range(0,7) == 0)
             	{
-                send_to_char("Ateþinin çýktýðýný hissediyorsun.\n\r",vch);
-                act("$n hasta görünüyor.",vch,NULL,NULL,TO_ROOM);
+                send_to_char( L"AteÅŸinin Ã§Ä±ktÄ±ÄŸÄ±nÄ± hissediyorsun.\n\r",vch);
+                act( L"$n hasta gÃ¶rÃ¼nÃ¼yor.",vch,NULL,NULL,TO_ROOM);
             	    affect_join(vch,&plague);
             	}
             }
@@ -2274,8 +2269,8 @@ void room_affect_update( void )
 		&&  !is_safe_rspell(af->level,vch)
             	&&  !IS_AFFECTED(vch,AFF_POISON) && number_range(0,7) == 0)
             	{
-                send_to_char("Kendini hasta hissediyorsun.\n\r",vch);
-                act("$n çok hasta görünüyor.",vch,NULL,NULL,TO_ROOM);
+                send_to_char( L"Kendini hasta hissediyorsun.\n\r",vch);
+                act( L"$n Ã§ok hasta gÃ¶rÃ¼nÃ¼yor.",vch,NULL,NULL,TO_ROOM);
             	    affect_join(vch,&paf);
             	}
             }
@@ -2317,8 +2312,8 @@ void room_affect_update( void )
 		&&  !is_safe_rspell(af->level,vch)
             	&&  !IS_AFFECTED(vch,AFF_SLOW) && number_range(0,7) == 0)
             	{
-                send_to_char("Acelesiz hareket etmeye baþlýyorsun.\n\r",vch);
-                act("$s hareketlerindeki telaþ kayboluyor.",vch,NULL,NULL,TO_ROOM);
+                send_to_char( L"Acelesiz hareket etmeye baÅŸlÄ±yorsun.\n\r",vch);
+                act( L"$s hareketlerindeki telaÅŸ kayboluyor.",vch,NULL,NULL,TO_ROOM);
             	    affect_join(vch,&paf);
             	}
             }
@@ -2363,8 +2358,8 @@ void room_affect_update( void )
             	{
 		  if (IS_AWAKE(vch))
 		   {
-         send_to_char("Uykun geliyor.......zzzzzz.\n\r",vch);
-         act("$n uykuya dalýyor.",vch,NULL,NULL,TO_ROOM);
+         send_to_char( L"Uykun geliyor.......zzzzzz.\n\r",vch);
+         act( L"$n uykuya dalÄ±yor.",vch,NULL,NULL,TO_ROOM);
 		    vch->position = POS_SLEEPING;
 		   }
           	  affect_join(vch,&paf);
@@ -2409,8 +2404,8 @@ void room_affect_update( void )
 		&&  !is_safe_rspell(af->level,vch)
             	&&  !is_affected(vch,gsn_evil_spirit) && number_range(0,7) == 0)
             	{
-                send_to_char("Kendini bu kadar kötü hissetmemiþtin.\n\r",vch);
-                act("$s üstüne þerrin gölgesi düþüyor.",vch,NULL,NULL,TO_ROOM);
+                send_to_char( L"Kendini bu kadar kÃ¶tÃ¼ hissetmemiÅŸtin.\n\r",vch);
+                act( L"$s Ã¼stÃ¼ne ÅŸerrin gÃ¶lgesi dÃ¼ÅŸÃ¼yor.",vch,NULL,NULL,TO_ROOM);
             	    affect_join(vch,&paf);
             	}
             }
@@ -2453,8 +2448,8 @@ void room_affect_update( void )
 		&&  !is_safe_rspell(af->level,vch)
             	&&  !IS_AFFECTED(vch,AFF_) && number_range(0,7) == 0)
             	{
-            	    send_to_char("You feel hot and feverish.\n\r",vch);
-            	    act("$n shivers and looks very ill.",vch,NULL,NULL,TO_ROOM);
+            	    send_to_char( L"You feel hot and feverish.\n\r",vch);
+            	    act( L"$n shivers and looks very ill.",vch,NULL,NULL,TO_ROOM);
             	    affect_join(vch,&paf);
             	}
             }
@@ -2469,7 +2464,7 @@ void room_affect_update( void )
 
 void check_reboot( void )
 {
- char buf[MAX_STRING_LENGTH];
+ wchar_t buf[MAX_STRING_LENGTH];
  DESCRIPTOR_DATA *d;
  int t;
 
@@ -2496,7 +2491,7 @@ void check_reboot( void )
   case 5:
   case 10:
   case 15:
-  sprintf(buf,"\007***** %i DAKÝKA SONRA UD YENÝDEN BAÞLATILACAK *****\007\n\r",reboot_counter);
+  swprintf( buf, MAX_STRING_LENGTH-1, L"\007***** %i DAKÄ°KA SONRA UD YENÄ°DEN BAÅžLATILACAK *****\007\n\r",reboot_counter);
     for (d = descriptor_list; d != NULL; d = d->next)
 	  write_to_buffer(d,buf,0);
   default:
@@ -2509,7 +2504,7 @@ void track_update( void )
 {
     CHAR_DATA *ch, *ch_next;
     CHAR_DATA *vch,*vch_next;
-    char buf[MAX_STRING_LENGTH];
+    wchar_t buf[MAX_STRING_LENGTH];
 
     for ( ch = char_list; ch != NULL; ch = ch_next )
     {
@@ -2537,7 +2532,7 @@ void track_update( void )
 	     if ( !IS_IMMORTAL(vch) && can_see(ch,vch) &&
 		!is_safe_nomessage(ch,vch)  && is_name(vch->name,ch->in_mind) )
 	     {
-         sprintf(buf,"Ýþte yine karþýlaþtýk %s!",vch->name);
+         swprintf( buf, MAX_STRING_LENGTH-1, L"Ä°ÅŸte yine karÅŸÄ±laÅŸtÄ±k %s!",vch->name);
 	      do_yell(ch,buf);
 	      do_murder(ch,vch->name);
 	      break; /* one fight at a time */
@@ -2563,299 +2558,3 @@ void cevrimici_oyuncu_sayisi( void )
 	return;
 }
 
-/***************************************************************************
- * File: update.c
- *
- * Add a new msdp_update() function.
- ***************************************************************************/
-
-void msdp_update( void )
-{
-    DESCRIPTOR_DATA *d;
-    int PlayerCount = 0;
-
-    for ( d = descriptor_list; d != NULL; d = d->next )
-    {
-	if ( d->character && d->connected == CON_PLAYING && !IS_NPC(d->character) )
-        {
-            char buf[MAX_STRING_LENGTH];
-            CHAR_DATA *pOpponent = d->character->fighting;
-            ROOM_INDEX_DATA *pRoom = d->character->in_room;
-            AFFECT_DATA *paf;
-
-            ++PlayerCount;
-
-            MSDPSetString( d, eMSDP_CHARACTER_NAME, d->character->name );
-            MSDPSetNumber( d, eMSDP_ALIGNMENT, d->character->alignment );
-            MSDPSetNumber( d, eMSDP_EXPERIENCE, d->character->exp );
-            MSDPSetNumber( d, eMSDP_EXPERIENCE_MAX, exp_per_level(d->character,
-               d->character->pcdata->points)  );
-            MSDPSetNumber( d, eMSDP_EXPERIENCE_TNL, ((d->character->level + 1) *
-               exp_per_level(d->character, d->character->pcdata->points) -
-               d->character->exp ) );
-
-            MSDPSetNumber( d, eMSDP_HEALTH, d->character->hit );
-            MSDPSetNumber( d, eMSDP_HEALTH_MAX, d->character->max_hit );
-            MSDPSetNumber( d, eMSDP_LEVEL, d->character->level );
-/*
-            MSDPSetNumber( d, eMSDP_RACE, TBD );
-            MSDPSetNumber( d, eMSDP_CLASS, TBD );
-*/
-            MSDPSetNumber( d, eMSDP_MANA, d->character->mana );
-            MSDPSetNumber( d, eMSDP_MANA_MAX, d->character->max_mana );
-            MSDPSetNumber( d, eMSDP_WIMPY, d->character->wimpy );
-            MSDPSetNumber( d, eMSDP_PRACTICE, d->character->practice );
-            MSDPSetNumber( d, eMSDP_MONEY, d->character->silver );
-            MSDPSetNumber( d, eMSDP_MOVEMENT, d->character->move );
-            MSDPSetNumber( d, eMSDP_MOVEMENT_MAX, d->character->max_move );
-            MSDPSetNumber( d, eMSDP_HITROLL, GET_HITROLL(d->character) );
-            MSDPSetNumber( d, eMSDP_DAMROLL, GET_DAMROLL(d->character) );
-            MSDPSetNumber( d, eMSDP_AC, GET_AC(d->character,AC_BASH) );
-            MSDPSetNumber( d, eMSDP_STR, get_curr_stat(d->character,STAT_STR) );
-            MSDPSetNumber( d, eMSDP_INT, get_curr_stat(d->character,STAT_INT) );
-            MSDPSetNumber( d, eMSDP_WIS, get_curr_stat(d->character,STAT_WIS) );
-            MSDPSetNumber( d, eMSDP_DEX, get_curr_stat(d->character,STAT_DEX) );
-            MSDPSetNumber( d, eMSDP_CON, get_curr_stat(d->character,STAT_CON) );
-            MSDPSetNumber( d, eMSDP_STR_PERM, d->character->perm_stat[STAT_STR] );
-            MSDPSetNumber( d, eMSDP_INT_PERM, d->character->perm_stat[STAT_INT] );
-            MSDPSetNumber( d, eMSDP_WIS_PERM, d->character->perm_stat[STAT_WIS] );
-            MSDPSetNumber( d, eMSDP_DEX_PERM, d->character->perm_stat[STAT_DEX] );
-            MSDPSetNumber( d, eMSDP_CON_PERM, d->character->perm_stat[STAT_CON] );
-
-            /* This would be better moved elsewhere */
-            if ( pOpponent != NULL )
-            {
-                int hit_points = (pOpponent->hit * 100) / pOpponent->max_hit;
-                MSDPSetNumber( d, eMSDP_OPPONENT_HEALTH, hit_points );
-                MSDPSetNumber( d, eMSDP_OPPONENT_HEALTH_MAX, 100 );
-                MSDPSetNumber( d, eMSDP_OPPONENT_LEVEL, pOpponent->level );
-                MSDPSetString( d, eMSDP_OPPONENT_NAME, pOpponent->name );
-            }
-            else /* Clear the values */
-            {
-                MSDPSetNumber( d, eMSDP_OPPONENT_HEALTH, 0 );
-                MSDPSetNumber( d, eMSDP_OPPONENT_LEVEL, 0 );
-                MSDPSetString( d, eMSDP_OPPONENT_NAME, "" );
-            }
-
-            /* Only update room stuff if they've changed room */
-            if ( pRoom && pRoom->vnum != d->pProtocol->pVariables[eMSDP_ROOM_VNUM]->ValueInt )
-            {
-                int i; /* Loop counter */
-                buf[0] = '\0';
-
-                for ( i = DIR_NORTH; i < MAX_DIR; ++i )
-                {
-                    if ( pRoom->exit[i] != NULL )
-                    {
-                        const char MsdpVar[] = { (char)MSDP_VAR, '\0' };
-                        const char MsdpVal[] = { (char)MSDP_VAL, '\0' };
-                        extern const char * dir_name[];
-
-                        strcat( buf, MsdpVar );
-                        strcat( buf, dir_name[i] );
-                        strcat( buf, MsdpVal );
-
-                        if ( IS_SET(pRoom->exit[i]->exit_info, EX_CLOSED) )
-                            strcat( buf, "C" );
-                        else /* The exit is open */
-                            strcat( buf, "O" );
-                    }
-                }
-
-                if ( pRoom->area != NULL )
-                    MSDPSetString( d, eMSDP_AREA_NAME, pRoom->area->name );
-
-                MSDPSetString( d, eMSDP_ROOM_NAME, pRoom->name );
-                MSDPSetTable( d, eMSDP_ROOM_EXITS, buf );
-                MSDPSetNumber( d, eMSDP_ROOM_VNUM, pRoom->vnum );
-            }
-/*
-            MSDPSetNumber( d, eMSDP_WORLD_TIME, d->character-> );
-*/
-
-            buf[0] = '\0';
-            for ( paf = d->character->affected; paf; paf = paf->next )
-            {
-                char skill_buf[MAX_STRING_LENGTH];
-                sprintf( skill_buf, "%c%s%c%d",
-                    (char)MSDP_VAR, (char*)skill_table[paf->type].name,
-                    (char)MSDP_VAL, paf->duration );
-                strcat( buf, skill_buf );
-            }
-            MSDPSetTable( d, eMSDP_AFFECTS, buf );
-
-            MSDPUpdate( d );
-        }
-    }
-
-    /* Ideally this should be called once at startup, and again whenever
-     * someone leaves or joins the mud.  But this works, and it keeps the
-     * snippet simple.  Optimise as you see fit.
-     */
-    MSSPSetPlayers( PlayerCount );
-}
-
-/***************************************************************************
- * GMCP ADDON
- * File: update.c
- *
- * Add a new gmcp_update() function.
- ***************************************************************************/
-void gmcp_update( void )
-{
-	DESCRIPTOR_DATA *d;
-
-	for ( d = descriptor_list; d != NULL; d = d->next )
-	{
-		if ( d->character && d->connected == CON_PLAYING && !IS_NPC(d->character) )
-        {
-            char buf[MAX_STRING_LENGTH];
-			char buf2[MAX_STRING_LENGTH];
-			ROOM_INDEX_DATA *room = d->character->in_room;
-			CHAR_DATA *enemy = d->character->fighting;
-			AFFECT_DATA *paf;
-
-			UpdateGMCPString( d, GMCP_NAME, d->character->name );
-			UpdateGMCPString( d, GMCP_RACE, (const char*)race_table[d->character->race].name[1] );
-			UpdateGMCPString( d, GMCP_CLASS, (const char*)class_table[d->character->iclass].name[1] );
-
-			UpdateGMCPNumber( d, GMCP_HP, d->character->hit );
-			UpdateGMCPNumber( d, GMCP_MANA, d->character->mana );
-			UpdateGMCPNumber( d, GMCP_MOVE, d->character->move );
-			UpdateGMCPNumber( d, GMCP_MAX_HP, d->character->max_hit );
-			UpdateGMCPNumber( d, GMCP_MAX_MANA, d->character->max_mana );
-			UpdateGMCPNumber( d, GMCP_MAX_MOVE, d->character->max_move );
-
-			UpdateGMCPNumber( d, GMCP_STR, get_curr_stat( d->character, STAT_STR ) );
-			UpdateGMCPNumber( d, GMCP_INT, get_curr_stat( d->character, STAT_INT ) );
-			UpdateGMCPNumber( d, GMCP_WIS, get_curr_stat( d->character, STAT_WIS ) );
-			UpdateGMCPNumber( d, GMCP_DEX, get_curr_stat( d->character, STAT_DEX ) );
-			UpdateGMCPNumber( d, GMCP_CON, get_curr_stat( d->character, STAT_CON ) );
-			UpdateGMCPNumber( d, GMCP_HITROLL, GET_HITROLL( d->character ) );
-			UpdateGMCPNumber( d, GMCP_DAMROLL, GET_DAMROLL( d->character ) );
-			UpdateGMCPNumber( d, GMCP_WIMPY, d->character->wimpy );
-
-			UpdateGMCPNumber( d, GMCP_AC_PIERCE, GET_AC( d->character, AC_PIERCE ) );
-			UpdateGMCPNumber( d, GMCP_AC_BASH, GET_AC( d->character, AC_BASH ) );
-			UpdateGMCPNumber( d, GMCP_AC_SLASH, GET_AC( d->character, AC_SLASH ) );
-			UpdateGMCPNumber( d, GMCP_AC_EXOTIC, GET_AC( d->character, AC_EXOTIC ) );
-
-			UpdateGMCPNumber( d, GMCP_ALIGNMENT, d->character->alignment );
-			UpdateGMCPNumber( d, GMCP_XP, d->character->exp );
-			UpdateGMCPNumber( d, GMCP_XP_MAX, exp_per_level( d->character, d->character->pcdata->points) );
-			UpdateGMCPNumber( d, GMCP_XP_TNL, ( ( d->character->level + 1 ) * exp_per_level( d->character, d->character->pcdata->points ) - d->character->exp ) );
-			UpdateGMCPNumber( d, GMCP_PRACTICE, d->character->practice );
-			UpdateGMCPNumber( d, GMCP_MONEY, d->character->silver );
-
-			sprintf( buf, "%d", room->vnum );
-
-			if ( room && strcmp( buf, d->pProtocol->GMCPVariable[GMCP_ROOM_VNUM] ) )
-			{
-				static const char *exit[] = { "n", "e", "s", "w", "u", "d" };
-				int i;
-				UpdateGMCPString( d, GMCP_AREA, d->character->in_room->area->name );
-				UpdateGMCPString( d, GMCP_ROOM_NAME, d->character->in_room->name );
-				UpdateGMCPNumber( d, GMCP_ROOM_VNUM, d->character->in_room->vnum );
-
-				buf[0] = '\0';
-				buf2[0] = '\0';
-
-				for ( i = DIR_NORTH; i <= DIR_DOWN; i++ )
-				{
-					if ( !room->exit[i] )
-						continue;
-
-					if ( buf[0] == '\0' )
-					{
-						#ifndef COLOR_CODE_FIX
-						sprintf( buf, "\"%s\": \"%d\"", exit[i], room->exit[i]->u1.to_room->vnum );
-						#else
-						sprintf( buf, "\"%s\": \"%d\"", exit[i], room->exit[i]->u1.to_room->vnum );
-						#endif
-					}
-					else
-					{
-						sprintf( buf2, ", \"%s\": \"%d\"", exit[i], room->exit[i]->u1.to_room->vnum );
-						strcat( buf, buf2 );
-					}
-				}
-
-				UpdateGMCPString( d, GMCP_ROOM_EXITS, buf );
-			}
-
-			if ( enemy )
-			{
-				CHAR_DATA *ch;
-				buf[0] = '\0';
-				buf2[0] = '\0';
-
-				for ( ch = room->people; ch; ch = ch->next_in_room )
-				{
-					/* Don't check current ch as this will double up enemies. */
-					if ( ch == d->character )
-						continue;
-
-					if ( enemy == ch->fighting || ch->fighting == d->character )
-					{
-						#ifndef COLOR_CODE_FIX
-						if ( buf[0] == '\0' ) sprintf( buf, "[ { \"name\": \"%s\", \"level\": \"%d\", \"hp\": \"%d\", \"maxhp\": \"%d\" }", enemy->name, enemy->level, enemy->hit, enemy->max_hit );
-						else
-						{
-							sprintf( buf2, ", { \"name\": \"%s\", \"level\": \"%d\", \"hp\": \"%d\", \"maxhp\": \"%d\" }", enemy->name, enemy->level, enemy->hit, enemy->max_hit );
-							strcat( buf, buf2 );
-						}
-						#else
-						if ( buf[0] == '\0' ) sprintf( buf, "[ {{ \"name\": \"%s\", \"level\": \"%d\", \"hp\": \"%d\", \"maxhp\": \"%d\" }", enemy->name, enemy->level, enemy->hit, enemy->max_hit );
-						else
-						{
-							sprintf( buf2, ", {{ \"name\": \"%s\", \"level\": \"%d\", \"hp\": \"%d\", \"maxhp\": \"%d\" }", enemy->name, enemy->level, enemy->hit, enemy->max_hit );
-							strcat( buf, buf2 );
-						}
-						#endif
-					}
-				}
-
-				strcat( buf, " ]" );
-				UpdateGMCPString( d, GMCP_ENEMY, buf );
-			}
-			else
-			{
-				UpdateGMCPString( d, GMCP_ENEMY, "" );
-			}
-
-			buf[0] = '\0';
-			buf2[0] = '\0';
-
-			for ( paf = d->character->affected; paf; paf = paf->next )
-			{
-				#ifndef COLOR_CODE_FIX
-				if ( buf[0] == '\0' ) sprintf( buf, "[ { \"name\": \"%s\", \"duration\": \"%d\" }", (char*)skill_table[paf->type].name, paf->duration );
-				else
-				{
-					sprintf( buf2, ", { \"name\": \"%s\", \"duration\": \"%d\" }", (char*)skill_table[paf->type].name, paf->duration );
-					strcat( buf, buf2 );
-				}
-				#else
-				if ( buf[0] == '\0' ) sprintf( buf, "[ {{ \"name\": \"%s\", \"duration\": \"%d\" }", (char*)skill_table[paf->type].name, paf->duration );
-				else
-				{
-					sprintf( buf2, ", {{ \"name\": \"%s\", \"duration\": \"%d\" }", (char*)skill_table[paf->type].name, paf->duration );
-					strcat( buf, buf2 );
-				}
-				#endif
-            }
-
-			if ( buf[0] == '\0' )
-				sprintf( buf, "[]" );
-			else
-				strcat( buf, " ]" );
-
-			UpdateGMCPString( d, GMCP_AFFECT, buf );
-		}
-
-		SendUpdatedGMCP( d );
-	}
-
-	return;
-}

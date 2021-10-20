@@ -1,9 +1,9 @@
 #AREADATA
 Filename bataklik.are~
-Name Bataklık~
+Name BataklÄ±k~
 Builder Generic~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 15
 Highlevel 25
 Minvnum 8300
@@ -17,161 +17,161 @@ END
 #NEW_MOBILES
 #8301
 asura~
-bataklık asurası~
-Bir bataklık asurası sana saldırıyor.
+bataklÄ±k asurasÄ±~
+Bir bataklÄ±k asurasÄ± sana saldÄ±rÄ±yor.
 ~
-Bu büyük yaratık altı ayak boyunda. Sana doğru iki kara pençesini
-kaldırmış gelirken alaylı bir şekilde gülümsüyor.
+Bu bÃ¼yÃ¼k yaratÄ±k altÄ± ayak boyunda. Sana doÄŸru iki kara penÃ§esini
+kaldÄ±rmÄ±ÅŸ gelirken alaylÄ± bir ÅŸekilde gÃ¼lÃ¼msÃ¼yor.
 ~
 asura~
 ABCFG FJc 16
 #8302
 asura~
-yeşil asura~
-Yeşil bir asura seni yakalamaya çalışıyor.
+yeÅŸil asura~
+YeÅŸil bir asura seni yakalamaya Ã§alÄ±ÅŸÄ±yor.
 ~
-Bu büyük asura üzerinde bir kule gibi yükseliyor. Ustalıkla kullandığı bir
-mızrağa sahip.
+Bu bÃ¼yÃ¼k asura Ã¼zerinde bir kule gibi yÃ¼kseliyor. UstalÄ±kla kullandÄ±ÄŸÄ± bir
+mÄ±zraÄŸa sahip.
 ~
 asura~
 ACFG FJc 14
 #8303
 ogre~
 ogre~
-Bir ogre burada, suratına vurmak için hazırlanıyor.
+Bir ogre burada, suratÄ±na vurmak iÃ§in hazÄ±rlanÄ±yor.
 ~
-Bu kötü yaratık sizi parçalara ayırabilecek kadar güçlü.
+Bu kÃ¶tÃ¼ yaratÄ±k sizi parÃ§alara ayÄ±rabilecek kadar gÃ¼Ã§lÃ¼.
 ~
 human~
 ACFG 0 20
 #8304
-yaratık~
-bataklık yaratığı~
-Bataklık yaratığı burada geziniyor. Acıkmış.
+yaratÄ±k~
+bataklÄ±k yaratÄ±ÄŸÄ±~
+BataklÄ±k yaratÄ±ÄŸÄ± burada geziniyor. AcÄ±kmÄ±ÅŸ.
 ~
-Bataklık yaratığı seni un ufak edebilecek yumruklara sahip.
+BataklÄ±k yaratÄ±ÄŸÄ± seni un ufak edebilecek yumruklara sahip.
 ~
 human~
 ACFG 0 24
 #8305
 gnol~
 gnol~
-Burada bir gnole benzer yaratık görüyorsun.
+Burada bir gnole benzer yaratÄ±k gÃ¶rÃ¼yorsun.
 ~
-Gnol gelişinle sevinmişe benziyor.
+Gnol geliÅŸinle sevinmiÅŸe benziyor.
 ~
 human~
 ACG DF 30
 #8306
-canavar büyük~
+canavar bÃ¼yÃ¼k~
 canavar~
-Büyük ve kıllı bir canavar gözlerindeki vahşetle sana doğru ilerliyor.
+BÃ¼yÃ¼k ve kÄ±llÄ± bir canavar gÃ¶zlerindeki vahÅŸetle sana doÄŸru ilerliyor.
 ~
-Bu canavar yirmi ayak uzunluğunda görünüyor ve büyük, yeşil pençelere
+Bu canavar yirmi ayak uzunluÄŸunda gÃ¶rÃ¼nÃ¼yor ve bÃ¼yÃ¼k, yeÅŸil penÃ§elere
 sahip.
 ~
 human~
 ACFG DF 21
 #8307
-canavar küçük~
+canavar kÃ¼Ã§Ã¼k~
 canavar~
-Küçük bir canavar seni görünce korkuyla siniyor.
+KÃ¼Ã§Ã¼k bir canavar seni gÃ¶rÃ¼nce korkuyla siniyor.
 ~
-Bu küçük canavar senin ufak bir kılıç hareketinle ölecek gibi görünüyor.
+Bu kÃ¼Ã§Ã¼k canavar senin ufak bir kÄ±lÄ±Ã§ hareketinle Ã¶lecek gibi gÃ¶rÃ¼nÃ¼yor.
 ~
 human~
 ACGH P 3
 #8308
-ışık perisi~
-ışık perisi~
-Bir ışık perisinin kıpırtısını duyuyorsun. Oldukça hoş...
+Ä±ÅŸÄ±k perisi~
+Ä±ÅŸÄ±k perisi~
+Bir Ä±ÅŸÄ±k perisinin kÄ±pÄ±rtÄ±sÄ±nÄ± duyuyorsun. OldukÃ§a hoÅŸ...
 ~
-Bu minik garip yaratık gözle takip edilecek gibi değil. Sadece havada
-dönen ışık topunu ve bir çift parlak gözü görebiliyorsun.
+Bu minik garip yaratÄ±k gÃ¶zle takip edilecek gibi deÄŸil. Sadece havada
+dÃ¶nen Ä±ÅŸÄ±k topunu ve bir Ã§ift parlak gÃ¶zÃ¼ gÃ¶rebiliyorsun.
 ~
 human~
 ACGH P 10
 #8309
-anakonda yılan~
-anakonda yılanı~
-Bir anakonda burada, sana bakarak 'işte bir yemek daha' diyor.
+anakonda yÄ±lan~
+anakonda yÄ±lanÄ±~
+Bir anakonda burada, sana bakarak 'iÅŸte bir yemek daha' diyor.
 ~
-On metre boyundaki bu canavarsı yılan oldukça aç görünüyor.
+On metre boyundaki bu canavarsÄ± yÄ±lan oldukÃ§a aÃ§ gÃ¶rÃ¼nÃ¼yor.
 ~
 snake~
 ACFGH PQ 16
 #8310
-piton yılan~
-piton yılanı~
-Bir piton yılanı burada, yediklerini sindiriyor.
+piton yÄ±lan~
+piton yÄ±lanÄ±~
+Bir piton yÄ±lanÄ± burada, yediklerini sindiriyor.
 ~
-Gördüğün en büyük piton...
+GÃ¶rdÃ¼ÄŸÃ¼n en bÃ¼yÃ¼k piton...
 ~
 snake~
 ACFGH PQ 11
 #8312
-cadı~
-bataklık Cadısı~
-Bataklık Cadısı burada...
+cadÄ±~
+bataklÄ±k CadÄ±sÄ±~
+BataklÄ±k CadÄ±sÄ± burada...
 ~
-Çirkin ve huzursuz... Aman dikkat...
+Ã‡irkin ve huzursuz... Aman dikkat...
 ~
 human~
 ACGS DF 9
 #8313
-ölüm yaratık~
-Ölüm Yaratığı~
-Bir yaratık burada duruyor. Kaybolmuşa benziyor.
+Ã¶lÃ¼m yaratÄ±k~
+Ã–lÃ¼m YaratÄ±ÄŸÄ±~
+Bir yaratÄ±k burada duruyor. KaybolmuÅŸa benziyor.
 ~
-Bu kara görüntünün uzunluğu 13 ayak kadar. Bataklığın loş ışığında
-tırpanının ucu ışıldıyor.
+Bu kara gÃ¶rÃ¼ntÃ¼nÃ¼n uzunluÄŸu 13 ayak kadar. BataklÄ±ÄŸÄ±n loÅŸ Ä±ÅŸÄ±ÄŸÄ±nda
+tÄ±rpanÄ±nÄ±n ucu Ä±ÅŸÄ±ldÄ±yor.
 ~
 human~
 ACG DF 20
 #8314
-kurt bataklık~
-bataklık kurtu~
-Bir bataklık kurtu koku takip ediyor.
+kurt bataklÄ±k~
+bataklÄ±k kurtu~
+Bir bataklÄ±k kurtu koku takip ediyor.
 ~
-Bu kurt semiz. Büyük ihtimalle senin gibi bataklığa yabancı olanları
+Bu kurt semiz. BÃ¼yÃ¼k ihtimalle senin gibi bataklÄ±ÄŸa yabancÄ± olanlarÄ±
 yiyerek besleniyor.
 ~
 wolf~
 ACFG Z 8
 #8318
-çamur yığını~
-çamur yığını~
-Bir çamur yığını sürünerek üzerine geliyor.
+Ã§amur yÄ±ÄŸÄ±nÄ±~
+Ã§amur yÄ±ÄŸÄ±nÄ±~
+Bir Ã§amur yÄ±ÄŸÄ±nÄ± sÃ¼rÃ¼nerek Ã¼zerine geliyor.
 ~
-Bu tuhaf çamur birikintisi sizi çok büyük bir dehşetle dolduruyor.
+Bu tuhaf Ã§amur birikintisi sizi Ã§ok bÃ¼yÃ¼k bir dehÅŸetle dolduruyor.
 ~
 human~
 ACG Q 13
 #8319
-ork şaman~
-ork Şamanı~
-Cübbeli ve asalı bir ork Şaman önünde duruyor.
+ork ÅŸaman~
+ork ÅamanÄ±~
+CÃ¼bbeli ve asalÄ± bir ork Åaman Ã¶nÃ¼nde duruyor.
 ~
-Bu yaşlı orkun saçlarında kemiklerden yapılmış bir taç görüyorsun.
-Suratına ve ellerine garip semboller var.
+Bu yaÅŸlÄ± orkun saÃ§larÄ±nda kemiklerden yapÄ±lmÄ±ÅŸ bir taÃ§ gÃ¶rÃ¼yorsun.
+SuratÄ±na ve ellerine garip semboller var.
 ~
 human~
 ABCDFGQ DF 12
 #8320
 dev~
-a bataklık dev~
-Bir bataklık devi ilerinizde duruyor.
+a bataklÄ±k dev~
+Bir bataklÄ±k devi ilerinizde duruyor.
 ~
-Bu dev yaratık yeşil çürük dişlere ve BÜYÜK bir sopaya sahip.
+Bu dev yaratÄ±k yeÅŸil Ã§Ã¼rÃ¼k diÅŸlere ve BÃœYÃœK bir sopaya sahip.
 ~
 giant~
 ABCDFG DF 15
 #8321
-togrıl~
-togrıl~
-Büyük bir togrıl yanınızda duruyor, sana köpek dişlerini gösteriyor.
+togrÄ±l~
+togrÄ±l~
+BÃ¼yÃ¼k bir togrÄ±l yanÄ±nÄ±zda duruyor, sana kÃ¶pek diÅŸlerini gÃ¶steriyor.
 ~
-Bu ürpertici yaratık seni bir yiyecek gibi kullanacağa benziyor.
+Bu Ã¼rpertici yaratÄ±k seni bir yiyecek gibi kullanacaÄŸa benziyor.
 ~
 human~
 ABCDFG DF 12
@@ -181,7 +181,7 @@ ABCDFG DF 12
 
 #OBJECTS
 #8301
-asa uzun çift-elli~
+asa uzun Ã§ift-elli~
 uzun asa~
 Garip bir asa yerde duruyor.~
 oldstyle~
@@ -193,9 +193,9 @@ A
 A
 19 3
 #8302
-boynuzlu miğfer~
-boynuzlu miğfer~
-Kötü görünüşlü bir boynuzlu miğfer burada duruyor.~
+boynuzlu miÄŸfer~
+boynuzlu miÄŸfer~
+KÃ¶tÃ¼ gÃ¶rÃ¼nÃ¼ÅŸlÃ¼ bir boynuzlu miÄŸfer burada duruyor.~
 oldstyle~
 armor J AE
 6 6 5 2 0
@@ -206,12 +206,12 @@ A
 19 1
 E
 boynuz~
-Bu boynuzlar çok sert bir taştan yapılmış.
+Bu boynuzlar Ã§ok sert bir taÅŸtan yapÄ±lmÄ±ÅŸ.
 ~
 #8303
-zincir zırh~
-zincirli zırhı~
-Eski bir zincir zırhı burada duruyor.~
+zincir zÄ±rh~
+zincirli zÄ±rhÄ±~
+Eski bir zincir zÄ±rhÄ± burada duruyor.~
 oldstyle~
 armor J AD
 5 8 7 0 0
@@ -219,7 +219,7 @@ armor J AD
 #8306
 teber~
 teber~
-Kötü görünümlü bir teber gölgelerin içinde duruyor.~
+KÃ¶tÃ¼ gÃ¶rÃ¼nÃ¼mlÃ¼ bir teber gÃ¶lgelerin iÃ§inde duruyor.~
 oldstyle~
 weapon HJ AN
 polearm 4 4 slice F
@@ -229,21 +229,21 @@ A
 A
 18 3
 #8307
-yeşil iksir~
-isli yeşil iksir~
-İsli bir yeşil iksir çamurun içinde duruyor.~
+yeÅŸil iksir~
+isli yeÅŸil iksir~
+Ä°sli bir yeÅŸil iksir Ã§amurun iÃ§inde duruyor.~
 oldstyle~
 potion AB A
 43 'cure critical' '' '' ''
 5 10 690 P
 E
 iksir~
-Çok iğrenç görünüyor ve hiç de iyi kokmuyor.
+Ã‡ok iÄŸrenÃ§ gÃ¶rÃ¼nÃ¼yor ve hiÃ§ de iyi kokmuyor.
 ~
 #8308
-paslı kılıç~
-paslı kılıç~
-Büyük bir paslı kılıç yerde yatıyor.~
+paslÄ± kÄ±lÄ±Ã§~
+paslÄ± kÄ±lÄ±Ã§~
+BÃ¼yÃ¼k bir paslÄ± kÄ±lÄ±Ã§ yerde yatÄ±yor.~
 iron~
 weapon 0 AN
 sword 4 7 cleave F
@@ -252,30 +252,30 @@ sword 4 7 cleave F
 
 #ROOMS
 #8301
-Çamurlu yol~
-Yolun bu bölümü oldukça çamurlu. Çamurun giderek artmasından yolun
-bataklıkla birleşeceğini tahmin ediyorsun. Etrafta hasarlı mağaralar var.
+Ã‡amurlu yol~
+Yolun bu bÃ¶lÃ¼mÃ¼ oldukÃ§a Ã§amurlu. Ã‡amurun giderek artmasÄ±ndan yolun
+bataklÄ±kla birleÅŸeceÄŸini tahmin ediyorsun. Etrafta hasarlÄ± maÄŸaralar var.
 ~
 0 0 2
 D0
-Yol bu tarafta daha kuru görünüyor.
+Yol bu tarafta daha kuru gÃ¶rÃ¼nÃ¼yor.
 ~
 ~
 0 -1 6125
 D2
-Güneye doğru bataklığa giden bir yol.
+GÃ¼neye doÄŸru bataklÄ±ÄŸa giden bir yol.
 ~
 ~
 0 -1 8302
 E
-bataklık~
-İğrenç kokusu ve böcekleriyle bir bataklık görüyorsun.
+bataklÄ±k~
+Ä°ÄŸrenÃ§ kokusu ve bÃ¶cekleriyle bir bataklÄ±k gÃ¶rÃ¼yorsun.
 ~
 S
 #8302
-Bataklığın ucu~
-Çamurlar ve bataklık bitkileri üzerine yapışıyor. Siyah bulutlar
-gökyüzünü kapatmış. Yol gittikçe kararıyor ve kötüleşiyor. Garip çığlıklar
+BataklÄ±ÄŸÄ±n ucu~
+Ã‡amurlar ve bataklÄ±k bitkileri Ã¼zerine yapÄ±ÅŸÄ±yor. Siyah bulutlar
+gÃ¶kyÃ¼zÃ¼nÃ¼ kapatmÄ±ÅŸ. Yol gittikÃ§e kararÄ±yor ve kÃ¶tÃ¼leÅŸiyor. Garip Ã§Ä±ÄŸlÄ±klar
 duyuyorsun.
 ~
 0 0 5
@@ -284,7 +284,7 @@ D0
 ~
 0 -1 8301
 D1
-Ormanı görüyorsun.
+OrmanÄ± gÃ¶rÃ¼yorsun.
 ~
 ~
 0 -1 8303
@@ -295,97 +295,97 @@ Bir tepe.
 0 -1 8304
 S
 #8303
-Bataklık Ormanı~
-Bu bölgeye orman denilemez ama bataklığın içinde yetişmiş birçok ağaç
-var. Suda sürüklenen bir insan cesedi ile ufak parçalar fark ediyorsun. Yine
-bir çığlık! ! !
+BataklÄ±k OrmanÄ±~
+Bu bÃ¶lgeye orman denilemez ama bataklÄ±ÄŸÄ±n iÃ§inde yetiÅŸmiÅŸ birÃ§ok aÄŸaÃ§
+var. Suda sÃ¼rÃ¼klenen bir insan cesedi ile ufak parÃ§alar fark ediyorsun. Yine
+bir Ã§Ä±ÄŸlÄ±k! ! !
 ~
 0 A 5
 D1
-Sızıntı...
+SÄ±zÄ±ntÄ±...
 ~
 ~
 0 -1 8305
 D3
-Bataklığın ucu.
+BataklÄ±ÄŸÄ±n ucu.
 ~
 ~
 0 -1 8302
 E
-parçalar~
-Parçalanmış kol ve bacaklar....
+parÃ§alar~
+ParÃ§alanmÄ±ÅŸ kol ve bacaklar....
 ~
 E
 ceset~
-Parçalanmış bir ceset. Üzerinde büyük bir canavarın pençe izi var.
+ParÃ§alanmÄ±ÅŸ bir ceset. Ãœzerinde bÃ¼yÃ¼k bir canavarÄ±n penÃ§e izi var.
 ~
 S
 #8304
-Bir Tepe Üzeri~
-Bataklığın kuzey batı kenarında, bir tepenin zirvesinde duruyorsun.
-Çevrenizde koyu renkte giysiler var. Rüzgarın sesi yükselerek saldırıyor.
+Bir Tepe Ãœzeri~
+BataklÄ±ÄŸÄ±n kuzey batÄ± kenarÄ±nda, bir tepenin zirvesinde duruyorsun.
+Ã‡evrenizde koyu renkte giysiler var. RÃ¼zgarÄ±n sesi yÃ¼kselerek saldÄ±rÄ±yor.
 ~
 0 A 4
 D0
-Bataklığın ucu.
+BataklÄ±ÄŸÄ±n ucu.
 ~
 ~
 0 -1 8302
 D1
-Karanlık bir havuz.
+KaranlÄ±k bir havuz.
 ~
 ~
 0 -1 8309
 D2
-Bataklıktan Geçen Yol.
+BataklÄ±ktan GeÃ§en Yol.
 ~
 ~
 0 -1 8310
 S
 #8305
-Dışarı Sızan Bataklık~
-Dışarıya sızan bataklık içindesin. Tırmalayışıyla kulaklarını rahatsız
-eden sese inlemeler karışıyor. Üzerinden geçen birkaç kanatlı canavar
-görüyorsun. Bu diyarın sahiplerinin çok yakında seninle boş midelerini
-dolduracaklarını hissediyorsun.
+DÄ±ÅŸarÄ± SÄ±zan BataklÄ±k~
+DÄ±ÅŸarÄ±ya sÄ±zan bataklÄ±k iÃ§indesin. TÄ±rmalayÄ±ÅŸÄ±yla kulaklarÄ±nÄ± rahatsÄ±z
+eden sese inlemeler karÄ±ÅŸÄ±yor. Ãœzerinden geÃ§en birkaÃ§ kanatlÄ± canavar
+gÃ¶rÃ¼yorsun. Bu diyarÄ±n sahiplerinin Ã§ok yakÄ±nda seninle boÅŸ midelerini
+dolduracaklarÄ±nÄ± hissediyorsun.
 ~
 0 A 5
 D1
-Korkunç canavarlar.
+KorkunÃ§ canavarlar.
 ~
 ~
 0 -1 8306
 D3
-Bataklık bölgesi.
+BataklÄ±k bÃ¶lgesi.
 ~
 ~
 0 -1 8303
 E
 canavarlar~
-Tepende uçan bir iblis.
+Tepende uÃ§an bir iblis.
 ~
 S
 #8306
-Dışarı Sızan Bataklık~
-Yer oldukça yumuşak. Ayakların sızan pis su ile sırılsıklam. Böyle pis ve
-durgun sularda bol bol sülük bulunacağını unutmayarak ayaklarını kontrol
+DÄ±ÅŸarÄ± SÄ±zan BataklÄ±k~
+Yer oldukÃ§a yumuÅŸak. AyaklarÄ±n sÄ±zan pis su ile sÄ±rÄ±lsÄ±klam. BÃ¶yle pis ve
+durgun sularda bol bol sÃ¼lÃ¼k bulunacaÄŸÄ±nÄ± unutmayarak ayaklarÄ±nÄ± kontrol
 edersen iyi olur.
 ~
 0 A 5
 D3
-Kolayca kaldırabileceğin bir ağaç kolu.
+Kolayca kaldÄ±rabileceÄŸin bir aÄŸaÃ§ kolu.
 ~
 limb~
 1 -1 8305
 E
 kol~
-Bir geçişi engelliyor gibi...
+Bir geÃ§iÅŸi engelliyor gibi...
 ~
 S
 #8307
-Bir İn~
-Korkunç bataklık yaratığı buranın efendiliğini yapıyor. Cesetler çürük et
-yığınlarıyla beraber buraya atılmış.
+Bir Ä°n~
+KorkunÃ§ bataklÄ±k yaratÄ±ÄŸÄ± buranÄ±n efendiliÄŸini yapÄ±yor. Cesetler Ã§Ã¼rÃ¼k et
+yÄ±ÄŸÄ±nlarÄ±yla beraber buraya atÄ±lmÄ±ÅŸ.
 ~
 0 A 6
 D3
@@ -395,13 +395,13 @@ Kum havuzu.
 0 -1 8308
 E
 cesetler~
-Üzerlerinde not var: "Tapınağı unutun,orası sizin gibilere göre değil..."
+Ãœzerlerinde not var: "TapÄ±naÄŸÄ± unutun,orasÄ± sizin gibilere gÃ¶re deÄŸil..."
 ~
 S
 #8308
 Kum Havuzu~
-Geniş bir kum havuzunda duruyorsun. Dans eden ışıklar etrafında uçuyor ve
-biri sizi havuza doğru dürtüyor.
+GeniÅŸ bir kum havuzunda duruyorsun. Dans eden Ä±ÅŸÄ±klar etrafÄ±nda uÃ§uyor ve
+biri sizi havuza doÄŸru dÃ¼rtÃ¼yor.
 ~
 0 A 6
 D1
@@ -410,7 +410,7 @@ Bir in.
 ~
 0 -1 8307
 D2
-Kararmış bataklık.
+KararmÄ±ÅŸ bataklÄ±k.
 ~
 ~
 0 -1 8314
@@ -421,17 +421,17 @@ Kara bir havuz.
 0 -1 8309
 E
 kum~
-Ölümcül görünüyor.
+Ã–lÃ¼mcÃ¼l gÃ¶rÃ¼nÃ¼yor.
 ~
 E
-ışık~
-Bir hikayede ışık perileri ilgili birşeyler okumuştun...
+Ä±ÅŸÄ±k~
+Bir hikayede Ä±ÅŸÄ±k perileri ilgili birÅŸeyler okumuÅŸtun...
 ~
 S
 #8309
 Kara bir havuz.~
-Geniş kara bir havuzun önünde duruyorsunuz. Su kaynıyor ama ısıyla değil,
-hareketle kaynıyor. O yaşıyor! Gıcırtılı bir ses havada titreşiyor. Kalbin
+GeniÅŸ kara bir havuzun Ã¶nÃ¼nde duruyorsunuz. Su kaynÄ±yor ama Ä±sÄ±yla deÄŸil,
+hareketle kaynÄ±yor. O yaÅŸÄ±yor! GÄ±cÄ±rtÄ±lÄ± bir ses havada titreÅŸiyor. Kalbin
 korkuyla dolduruyor.
 ~
 0 A 6
@@ -441,7 +441,7 @@ Kum havuzu.
 ~
 0 -1 8308
 D2
-Karanlık bulutlar.
+KaranlÄ±k bulutlar.
 ~
 ~
 0 -1 8311
@@ -452,14 +452,14 @@ Bir tepe.
 0 -1 8304
 E
 havuz~
-CANLI görünüyor...
+CANLI gÃ¶rÃ¼nÃ¼yor...
 ~
 S
 #8310
-Bataklıktan Geçen Yol.~
-Kuzeyde kara bulutlarla örülmüş bir tepe duruyor ve güneyde bitki örtüsü
-yayılıyor. Kötü şeyler sezerken güney doğu yönünde uçan bir canavar
-görüyorsun. İlerde bataklığın içine gömülmüş dev bir kale var.
+BataklÄ±ktan GeÃ§en Yol.~
+Kuzeyde kara bulutlarla Ã¶rÃ¼lmÃ¼ÅŸ bir tepe duruyor ve gÃ¼neyde bitki Ã¶rtÃ¼sÃ¼
+yayÄ±lÄ±yor. KÃ¶tÃ¼ ÅŸeyler sezerken gÃ¼ney doÄŸu yÃ¶nÃ¼nde uÃ§an bir canavar
+gÃ¶rÃ¼yorsun. Ä°lerde bataklÄ±ÄŸÄ±n iÃ§ine gÃ¶mÃ¼lmÃ¼ÅŸ dev bir kale var.
 ~
 0 A 6
 D0
@@ -474,12 +474,12 @@ Cehennem bitkileri.
 0 -1 8312
 E
 cehennem bitki~
-Canlı ve duygusallar.
+CanlÄ± ve duygusallar.
 ~
 E
 kale~
-Yirmi metre yüksekliğinde duvarları var. Kuzey tarafındaki kulenin bir
-penceresinden mavi, büyülü bir ışık yayılıyor.
+Yirmi metre yÃ¼ksekliÄŸinde duvarlarÄ± var. Kuzey tarafÄ±ndaki kulenin bir
+penceresinden mavi, bÃ¼yÃ¼lÃ¼ bir Ä±ÅŸÄ±k yayÄ±lÄ±yor.
 ~
 E
 canavar~
@@ -487,12 +487,12 @@ Tuhu lanetli bir iblis olsa gerek.
 ~
 E
 bulutlar~
-Şeytani görünüyorlar.
+Åeytani gÃ¶rÃ¼nÃ¼yorlar.
 ~
 S
 #8311
-Karanlığın bulutu.~
-Karanlık buluta girdiğinizde korku vücudunuzu el geçiriyor.
+KaranlÄ±ÄŸÄ±n bulutu.~
+KaranlÄ±k buluta girdiÄŸinizde korku vÃ¼cudunuzu el geÃ§iriyor.
 ~
 0 A 6
 D0
@@ -501,46 +501,46 @@ Kara bir havuz.
 ~
 0 -1 8309
 D2
-Anıt.
+AnÄ±t.
 ~
 ~
 0 -1 8313
 S
 #8312
 Cehennem Bitkileri~
-Daha önce görmediğin türden bitkilerin yanında duruyorsun. Garip otların
-karışımları, kötü kokan meyve ağaçları ve hastalıklı eğrelti otları etrasını
-sarmış.
+Daha Ã¶nce gÃ¶rmediÄŸin tÃ¼rden bitkilerin yanÄ±nda duruyorsun. Garip otlarÄ±n
+karÄ±ÅŸÄ±mlarÄ±, kÃ¶tÃ¼ kokan meyve aÄŸaÃ§larÄ± ve hastalÄ±klÄ± eÄŸrelti otlarÄ± etrasÄ±nÄ±
+sarmÄ±ÅŸ.
 ~
 0 A 6
 D0
-Karanlık yol.
+KaranlÄ±k yol.
 ~
 ~
 0 -1 8310
 D1
-Anıt.
+AnÄ±t.
 ~
 ~
 0 -1 8313
 E
 bitkiler cehennem~
-Acıkmışlar! ! !
+AcÄ±kmÄ±ÅŸlar! ! !
 ~
 S
 #8313
-Anıtın Yanı~
-Gökyüzüne yükselen bir anıtın yanındasın. Anıtın siyah mermeri etrafa
-karanlık yayıyor, yayılan karanlık bulutların da renklerini değiştiriyor.
+AnÄ±tÄ±n YanÄ±~
+GÃ¶kyÃ¼zÃ¼ne yÃ¼kselen bir anÄ±tÄ±n yanÄ±ndasÄ±n. AnÄ±tÄ±n siyah mermeri etrafa
+karanlÄ±k yayÄ±yor, yayÄ±lan karanlÄ±k bulutlarÄ±n da renklerini deÄŸiÅŸtiriyor.
 ~
 0 A 5
 D0
-Karanlık bulutlar.
+KaranlÄ±k bulutlar.
 ~
 ~
 0 -1 8311
 D1
-Kararmış bataklık.
+KararmÄ±ÅŸ bataklÄ±k.
 ~
 ~
 0 -1 8314
@@ -550,15 +550,15 @@ Cehennem bitkileri.
 ~
 0 -1 8312
 E
-anıt~
-Bataklığın içinde kara taşlar üzerinde yükselen bir anıt.
+anÄ±t~
+BataklÄ±ÄŸÄ±n iÃ§inde kara taÅŸlar Ã¼zerinde yÃ¼kselen bir anÄ±t.
 ~
 S
 #8314
-Kararmış Bataklık~
-Kararmış bir bataklık seni çevirdi. Batıda bataklığın ortasında yükselen
-kara bir anıt var, Kuzey yönünde ise kumdan bir havuz var. Çok uzaktan gelen
-hırlamalar duyuyorsun.
+KararmÄ±ÅŸ BataklÄ±k~
+KararmÄ±ÅŸ bir bataklÄ±k seni Ã§evirdi. BatÄ±da bataklÄ±ÄŸÄ±n ortasÄ±nda yÃ¼kselen
+kara bir anÄ±t var, Kuzey yÃ¶nÃ¼nde ise kumdan bir havuz var. Ã‡ok uzaktan gelen
+hÄ±rlamalar duyuyorsun.
 ~
 0 A 5
 D0
@@ -567,90 +567,90 @@ Kum havuzu.
 ~
 0 -1 8308
 D1
-Bataklık küçük bir göle dönüşüyor.
+BataklÄ±k kÃ¼Ã§Ã¼k bir gÃ¶le dÃ¶nÃ¼ÅŸÃ¼yor.
 ~
 ~
 0 -1 8315
 D3
-Anıt.
+AnÄ±t.
 ~
 ~
 0 -1 8313
 E
-anıt~
+anÄ±t~
 This is a huge obsidian stone block stuck in the marsh.
 ~
 S
 #8315
-Gölün Kuzey Yanı~
-Bu kaynayan gölün üzerinde gezinmenin hiç de hoş bir tecrübe olmadığını
-düşünüyorsun. Salının arka kısmına garip yaratıklar çarpıyorlar. Suyun
-üzerinden parlayan gözler görüyorsun. Gölün güney kısmı bu yerin
-vahşiliğiyle karşılaştırıldığında oldukça sakin ve huzur vericiydi.
+GÃ¶lÃ¼n Kuzey YanÄ±~
+Bu kaynayan gÃ¶lÃ¼n Ã¼zerinde gezinmenin hiÃ§ de hoÅŸ bir tecrÃ¼be olmadÄ±ÄŸÄ±nÄ±
+dÃ¼ÅŸÃ¼nÃ¼yorsun. SalÄ±nÄ±n arka kÄ±smÄ±na garip yaratÄ±klar Ã§arpÄ±yorlar. Suyun
+Ã¼zerinden parlayan gÃ¶zler gÃ¶rÃ¼yorsun. GÃ¶lÃ¼n gÃ¼ney kÄ±smÄ± bu yerin
+vahÅŸiliÄŸiyle karÅŸÄ±laÅŸtÄ±rÄ±ldÄ±ÄŸÄ±nda oldukÃ§a sakin ve huzur vericiydi.
 ~
 0 A 7
 D2
-Gölün güneyi.
+GÃ¶lÃ¼n gÃ¼neyi.
 ~
 ~
 0 -1 8316
 D3
-Kararmış bataklık.
+KararmÄ±ÅŸ bataklÄ±k.
 ~
 ~
 0 -1 8314
 S
 #8316
-Gölün Güney Yanı~
-Mavi kristal su üzerindesin. Kendini oldukça rahat hissediyorsun. Yalnız
-olmadığını fark ettiğinde hissettiğin bütün rahatlık yok oluyor.
+GÃ¶lÃ¼n GÃ¼ney YanÄ±~
+Mavi kristal su Ã¼zerindesin. Kendini oldukÃ§a rahat hissediyorsun. YalnÄ±z
+olmadÄ±ÄŸÄ±nÄ± fark ettiÄŸinde hissettiÄŸin bÃ¼tÃ¼n rahatlÄ±k yok oluyor.
 ~
 0 A 7
 D0
-Gölün kuzeyi.
+GÃ¶lÃ¼n kuzeyi.
 ~
 ~
 0 -1 8315
 D3
-Salını bırakabileceğin bir kumsal.
+SalÄ±nÄ± bÄ±rakabileceÄŸin bir kumsal.
 ~
 ~
 0 -1 8317
 E
 kuzey~
-Sert akan su ve vahşi canlılar nedeniyle kuzeye dedvam eden yol
-oldukça zorlu görünüyor.
+Sert akan su ve vahÅŸi canlÄ±lar nedeniyle kuzeye dedvam eden yol
+oldukÃ§a zorlu gÃ¶rÃ¼nÃ¼yor.
 ~
 S
 #8317
 Kumsal~
-Kumlu bir kıyıdasın. Batıda bir kale var. Siperlerde yürüyen figürler
-görüyorsun.
+Kumlu bir kÄ±yÄ±dasÄ±n. BatÄ±da bir kale var. Siperlerde yÃ¼rÃ¼yen figÃ¼rler
+gÃ¶rÃ¼yorsun.
 ~
 0 A 5
 D1
-Gölün güneyi.
+GÃ¶lÃ¼n gÃ¼neyi.
 ~
 ~
 0 -1 8316
 D3
-Büyük kapılar.
+BÃ¼yÃ¼k kapÄ±lar.
 ~
 ~
 0 -1 8318
 E
 kale~
-Siyah taşlardan yapılmış, iyi korunan bir kale.
+Siyah taÅŸlardan yapÄ±lmÄ±ÅŸ, iyi korunan bir kale.
 ~
 S
 #8318
-Geniş Kapıların Önü~
-Kalenin girişinin önünde duruyorsunuz. Köprü yukarıda, kapılar kapalı ve
-parmaklıklar aşağıda. Oldukça tehlikeli görünüyor.
+GeniÅŸ KapÄ±larÄ±n Ã–nÃ¼~
+Kalenin giriÅŸinin Ã¶nÃ¼nde duruyorsunuz. KÃ¶prÃ¼ yukarÄ±da, kapÄ±lar kapalÄ± ve
+parmaklÄ±klar aÅŸaÄŸÄ±da. OldukÃ§a tehlikeli gÃ¶rÃ¼nÃ¼yor.
 ~
 0 A 3
 D1
-Bataklık kumsalı.
+BataklÄ±k kumsalÄ±.
 ~
 ~
 0 -1 8317

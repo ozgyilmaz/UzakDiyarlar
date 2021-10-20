@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aÃ§Ä±k kaynak TÃ¼rkÃ§e Mud projesidir.                        *
+ * Oyun geliÅŸtirmesi Jai ve Maru tarafÄ±ndan yÃ¶netilmektedir.               *
+ * UnutulmamasÄ± gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -18,6 +18,7 @@
  #include <ctype.h>
  #include <stdlib.h>
  #include <stdio.h>
+ #include <wchar.h>
  #include <string.h>
  #include <time.h>
  #include "merc.h"
@@ -132,7 +133,7 @@
      switch ( paf->location )
      {
      default:
- 	bug( "Affect_modify_room: unknown location %d.", paf->location );
+ 	bug( L"Affect_modify_room: unknown location %d.", paf->location );
  	return;
 
      case APPLY_ROOM_NONE:					break;
@@ -211,7 +212,7 @@ void affect_check_room(ROOM_INDEX_DATA *room,int where,int vector)
 
      if ( room->affected == NULL )
      {
- 	bug( "Affect_remove_room: no affect.", 0 );
+ 	bug( L"Affect_remove_room: no affect.", 0 );
  	return;
      }
 
@@ -238,7 +239,7 @@ void affect_check_room(ROOM_INDEX_DATA *room,int where,int vector)
 
  	if ( prev == NULL )
  	{
- 	    bug( "Affect_remove_room: cannot find paf.", 0 );
+ 	    bug( L"Affect_remove_room: cannot find paf.", 0 );
  	    return;
  	}
      }
@@ -263,7 +264,7 @@ void affect_check_room(ROOM_INDEX_DATA *room,int where,int vector)
  	  }
  	 if ( prev == NULL )
  	  {
- 	    bug( "Affect_remove_room: cannot find room.", 0 );
+ 	    bug( L"Affect_remove_room: cannot find room.", 0 );
  	    return;
  	  }
          }
@@ -341,37 +342,37 @@ void affect_check_room(ROOM_INDEX_DATA *room,int where,int vector)
  /*
   * Return ascii name of an raffect location.
   */
- char *raffect_loc_name( int location )
+ wchar_t *raffect_loc_name( int location )
  {
      switch ( location )
      {
-     case APPLY_ROOM_NONE:	return (char*)"none";
-     case APPLY_ROOM_HEAL:	return (char*)"heal rate";
-     case APPLY_ROOM_MANA:	return (char*)"mana rate";
+     case APPLY_ROOM_NONE:	return (wchar_t*)"none";
+     case APPLY_ROOM_HEAL:	return (wchar_t*)"heal rate";
+     case APPLY_ROOM_MANA:	return (wchar_t*)"mana rate";
      }
 
-     bug( "Affect_location_name: unknown location %d.", location );
-     return (char*)"(unknown)";
+     bug( L"Affect_location_name: unknown location %d.", location );
+     return (wchar_t*)"(unknown)";
  }
 
 
  /*
   * Return ascii name of an affect bit vector.
   */
- char *raffect_bit_name( int vector )
+ wchar_t *raffect_bit_name( int vector )
  {
-     static char buf[512];
+     static wchar_t buf[512];
 
      buf[0] = '\0';
-     if ( vector & AFF_ROOM_SHOCKING  ) strcat( buf, " shocking"        );
-     if ( vector & AFF_ROOM_L_SHIELD  ) strcat( buf, " lightning_shield");
-     if ( vector & AFF_ROOM_THIEF_TRAP) strcat( buf, " thief_trap"      );
-     if ( vector & AFF_ROOM_CURSE     ) strcat( buf, " curse"           );
-     if ( vector & AFF_ROOM_POISON    ) strcat( buf, " poison"          );
-     if ( vector & AFF_ROOM_PLAGUE    ) strcat( buf, " plague"          );
-     if ( vector & AFF_ROOM_SLEEP     ) strcat( buf, " sleep"           );
-     if ( vector & AFF_ROOM_SLOW      ) strcat( buf, " slow"            );
-     return (char *)(( buf[0] != '\0' ) ? buf+1 : "none");
+     if ( vector & AFF_ROOM_SHOCKING  ) wcscat(buf, L" shocking"        );
+     if ( vector & AFF_ROOM_L_SHIELD  ) wcscat(buf, L" lightning_shield");
+     if ( vector & AFF_ROOM_THIEF_TRAP) wcscat(buf, L" thief_trap"      );
+     if ( vector & AFF_ROOM_CURSE     ) wcscat(buf, L" curse"           );
+     if ( vector & AFF_ROOM_POISON    ) wcscat(buf, L" poison"          );
+     if ( vector & AFF_ROOM_PLAGUE    ) wcscat(buf, L" plague"          );
+     if ( vector & AFF_ROOM_SLEEP     ) wcscat(buf, L" sleep"           );
+     if ( vector & AFF_ROOM_SLOW      ) wcscat(buf, L" slow"            );
+     return (wchar_t *)(( buf[0] != '\0' ) ? buf+1 : L"none");
  }
 
 
@@ -407,8 +408,8 @@ void affect_check_room(ROOM_INDEX_DATA *room,int where,int vector)
  {
    if (is_safe_rspell_nom(level,victim))
      {
-       act("Tanrýlar $m koruyor.",victim,NULL,NULL,TO_CHAR);
-       act("Tanrýlar $m odanýn büyüsünden koruyor.",victim,NULL,NULL,TO_ROOM);
+       act( L"TanrÄ±lar $m koruyor.",victim,NULL,NULL,TO_CHAR);
+       act( L"TanrÄ±lar $m odanÄ±n bÃ¼yÃ¼sÃ¼nden koruyor.",victim,NULL,NULL,TO_ROOM);
        return TRUE;
      }
    else return FALSE;
@@ -424,8 +425,8 @@ void affect_check_room(ROOM_INDEX_DATA *room,int where,int vector)
       int sn;
       CHAR_DATA *vch;
 
-      if ( (sn = skill_lookup("lightning shield")) == -1 )
- 	{ bug("Bad sn for lightning shield",0); return; }
+      if ( (sn = skill_lookup( L"lightning shield")) == -1 )
+ 	{ bug( L"Bad sn for lightning shield",0); return; }
 
       for (vch=room->people;vch;vch=vch->next_in_room)
  	{
@@ -434,33 +435,33 @@ void affect_check_room(ROOM_INDEX_DATA *room,int where,int vector)
 
      if ( !vch )
  	{
- 	 bug("Owner of lightning shield left the room.",0);
+ 	 bug( L"Owner of lightning shield left the room.",0);
  	 free_string(room->owner);
- 	 room->owner = str_dup("");
+ 	 room->owner = str_dup( L"");
  	 affect_strip_room( room,sn);
  	}
       else
       {
-        send_to_char("Odadaki koruma kalkaný seni engelliyor.\n\r",ch);
-        act("$N odaya girdi.",vch,NULL,ch,TO_CHAR);
-       do_wake(vch,(char*)"");
+        send_to_char( L"Odadaki koruma kalkanÄ± seni engelliyor.\n\r",ch);
+        act( L"$N odaya girdi.",vch,NULL,ch,TO_CHAR);
+       do_wake(vch,(wchar_t*)"");
 
        if ( (paf = affect_find(room->affected,sn)) == NULL )
- 	 { bug("Bad paf for lightning shield",0); return; }
+ 	 { bug( L"Bad paf for lightning shield",0); return; }
 
        if (!is_safe_rspell(paf->level,ch))
  	{
 
           if (CAN_DETECT(ch, ADET_GROUNDING))
           {
-            send_to_char("Enerji düþmanlarýnda yitip gidiyor.\n\r",ch);
-            act("Bir yýldýrým $S düþmanlarýnda yitip gidiyor.\n\r",ch, NULL, ch, TO_ROOM);
+            send_to_char( L"Enerji dÃ¼ÅŸmanlarÄ±nda yitip gidiyor.\n\r",ch);
+            act( L"Bir yÄ±ldÄ±rÄ±m $S dÃ¼ÅŸmanlarÄ±nda yitip gidiyor.\n\r",ch, NULL, ch, TO_ROOM);
           }
  	 else
  	 {
  	   damage( vch,ch,dice(paf->level,4)+12,sn,DAM_LIGHTNING, TRUE);
  	   free_string(room->owner);
- 	   room->owner = str_dup("");
+ 	   room->owner = str_dup( L"");
  	   affect_remove_room( room , paf);
  	 }
  	}
@@ -471,13 +472,13 @@ void affect_check_room(ROOM_INDEX_DATA *room,int where,int vector)
    {
       int sn;
 
-      if ( (sn = skill_lookup("shocking trap")) == -1 )
- 	{ bug("Bad sn for shocking shield",0); return; }
+      if ( (sn = skill_lookup( L"shocking trap")) == -1 )
+ 	{ bug( L"Bad sn for shocking shield",0); return; }
 
-   send_to_char("Odadaki þok dalgalarý seni þokluyor.\n\r",ch);
+   send_to_char( L"Odadaki ÅŸok dalgalarÄ± seni ÅŸokluyor.\n\r",ch);
 
       if ( (paf = affect_find(room->affected,sn)) == NULL )
- 	 { bug("Bad paf for shocking shield",0); return; }
+ 	 { bug( L"Bad paf for shocking shield",0); return; }
 
       if (!is_safe_rspell(paf->level,ch))
  	{
@@ -489,10 +490,10 @@ void affect_check_room(ROOM_INDEX_DATA *room,int where,int vector)
 
    if ( IS_ROOM_AFFECTED( room, AFF_ROOM_THIEF_TRAP) )
    {
-     send_to_char("Birisi tarafýndan kurulmuþ tuzak seni engelliyor.\n\r",ch);
+     send_to_char( L"Birisi tarafÄ±ndan kurulmuÅŸ tuzak seni engelliyor.\n\r",ch);
 
       if ( (paf = affect_find(room->affected,gsn_settraps)) == NULL )
- 	 { bug("Bad paf for settraps",0); return; }
+ 	 { bug( L"Bad paf for settraps",0); return; }
 
       if (!is_safe_rspell(paf->level,ch))
  	{
@@ -504,7 +505,7 @@ void affect_check_room(ROOM_INDEX_DATA *room,int where,int vector)
 
    if ( IS_ROOM_AFFECTED( room, AFF_ROOM_SLOW)
  	|| IS_ROOM_AFFECTED( room, AFF_ROOM_SLEEP) )
-   send_ch_color("$CHavayý dolduran gizemi hissediyorsun.$c\n\r",ch,POS_SLEEPING,CLR_YELLOW);
+   send_ch_color(L"$CHavayÄ± dolduran gizemi hissediyorsun.$c\n\r",ch,POS_SLEEPING,CLR_YELLOW);
 
    return;
   }
@@ -515,12 +516,12 @@ void raffect_back_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
    {
     int sn;
 
-     if ( (sn = skill_lookup("lightning shield")) == -1 )
- 	{ bug("Bad sn for lightning shield",0); return; }
+     if ( (sn = skill_lookup( L"lightning shield")) == -1 )
+ 	{ bug( L"Bad sn for lightning shield",0); return; }
      if (is_room_owner(ch,room))
  	{
  	 free_string(room->owner);
- 	 room->owner = str_dup("");
+ 	 room->owner = str_dup( L"");
  	 affect_strip_room( room,sn);
  	}
     }
@@ -531,30 +532,30 @@ void raffect_back_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
  /*
   * Return ascii name of an affect bit vector.
   */
- char *flag_room_name( int vector )
+ wchar_t *flag_room_name( int vector )
  {
-     static char buf[512];
+     static wchar_t buf[512];
 
      buf[0] = '\0';
-     if ( vector & ROOM_DARK         ) strcat( buf, " dark"         );
-     if ( vector & ROOM_NO_MOB        ) strcat( buf, " nomob"        );
-     if ( vector & ROOM_INDOORS      ) strcat( buf, " indoors"      );
-     if ( vector & ROOM_PRIVATE      ) strcat( buf, " private"      );
-     if ( vector & ROOM_SAFE         ) strcat( buf, " safe"         );
-     if ( vector & ROOM_SOLITARY     ) strcat( buf, " solitary"     );
-     if ( vector & ROOM_PET_SHOP     ) strcat( buf, " petshop"      );
-     if ( vector & ROOM_NO_RECALL    ) strcat( buf, " norecall"     );
-     if ( vector & ROOM_IMP_ONLY     ) strcat( buf, " imp_only"     );
-     if ( vector & ROOM_GODS_ONLY    ) strcat( buf, " god_only"     );
-     if ( vector & ROOM_HEROES_ONLY  ) strcat( buf, " heroes"       );
-     if ( vector & ROOM_NEWBIES_ONLY ) strcat( buf, " newbies"      );
-     if ( vector & ROOM_LAW          ) strcat( buf, " law"          );
-     if ( vector & ROOM_NOWHERE      ) strcat( buf, " nowhere"      );
-     if ( vector & ROOM_BANK         ) strcat( buf, " bank"         );
-     if ( vector & ROOM_NO_MAGIC     ) strcat( buf, " nomagic"      );
-     if ( vector & ROOM_NOSUMMON     ) strcat( buf, " nosummon"     );
-     if ( vector & ROOM_REGISTRY     ) strcat( buf, " registry"     );
-     return (char *)(( buf[0] != '\0' ) ? buf+1 : "none");
+     if ( vector & ROOM_DARK         ) wcscat(buf, L" dark"         );
+     if ( vector & ROOM_NO_MOB        ) wcscat(buf, L" nomob"        );
+     if ( vector & ROOM_INDOORS      ) wcscat(buf, L" indoors"      );
+     if ( vector & ROOM_PRIVATE      ) wcscat(buf, L" private"      );
+     if ( vector & ROOM_SAFE         ) wcscat(buf, L" safe"         );
+     if ( vector & ROOM_SOLITARY     ) wcscat(buf, L" solitary"     );
+     if ( vector & ROOM_PET_SHOP     ) wcscat(buf, L" petshop"      );
+     if ( vector & ROOM_NO_RECALL    ) wcscat(buf, L" norecall"     );
+     if ( vector & ROOM_IMP_ONLY     ) wcscat(buf, L" imp_only"     );
+     if ( vector & ROOM_GODS_ONLY    ) wcscat(buf, L" god_only"     );
+     if ( vector & ROOM_HEROES_ONLY  ) wcscat(buf, L" heroes"       );
+     if ( vector & ROOM_NEWBIES_ONLY ) wcscat(buf, L" newbies"      );
+     if ( vector & ROOM_LAW          ) wcscat(buf, L" law"          );
+     if ( vector & ROOM_NOWHERE      ) wcscat(buf, L" nowhere"      );
+     if ( vector & ROOM_BANK         ) wcscat(buf, L" bank"         );
+     if ( vector & ROOM_NO_MAGIC     ) wcscat(buf, L" nomagic"      );
+     if ( vector & ROOM_NOSUMMON     ) wcscat(buf, L" nosummon"     );
+     if ( vector & ROOM_REGISTRY     ) wcscat(buf, L" registry"     );
+     return (wchar_t *)(( buf[0] != '\0' ) ? buf+1 : L"none");
  }
 
  bool room_dark( ROOM_INDEX_DATA *pRoomIndex )
@@ -608,9 +609,9 @@ void raffect_back_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
  /*
   * Find a char in the room.
   */
- CHAR_DATA *get_char_room( CHAR_DATA *ch, char *argument )
+ CHAR_DATA *get_char_room( CHAR_DATA *ch, wchar_t *argument )
  {
-     char arg[MAX_INPUT_LENGTH];
+     wchar_t arg[MAX_INPUT_LENGTH];
      CHAR_DATA *rch;
      int number;
      int count;
@@ -619,9 +620,9 @@ void raffect_back_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
      number = number_argument( argument, arg );
      count  = 0;
      ugly   = 0;
-     if ( !str_cmp( arg, "self" ) || !str_cmp( arg, "kendimi" ) || !str_cmp( arg, "bana" ) )
+     if ( !wcscasecmp( arg, L"self" ) || !wcscasecmp( arg, L"kendimi" ) || !wcscasecmp( arg, L"bana" ) )
  	   return ch;
-     if ( !str_cmp( arg, "ugly" ) || !str_cmp( arg, "çirkin" ) )
+     if ( !wcscasecmp( arg, L"ugly" ) || !wcscasecmp( arg, L"Ã§irkin" ) )
  	   ugly = 1;
 
      for ( rch = ch->in_room->people; rch != NULL; rch = rch->next_in_room )
@@ -650,7 +651,7 @@ void raffect_back_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
   * Find a char in the room.
   * Chronos uses in act_move.c
   */
- CHAR_DATA *get_char_room2( CHAR_DATA *ch, ROOM_INDEX_DATA *room, char *argument, int *number )
+ CHAR_DATA *get_char_room2( CHAR_DATA *ch, ROOM_INDEX_DATA *room, wchar_t *argument, int *number )
  {
      CHAR_DATA *rch;
      int count;
@@ -660,7 +661,7 @@ void raffect_back_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
      count  = 0;
      ugly   = 0;
 
-     if ( !str_cmp( argument, "ugly" ) )
+     if ( !wcscasecmp( argument, L"ugly" ) )
  	ugly = 1;
 
      for ( rch = room->people; rch != NULL; rch = rch->next_in_room )
@@ -694,7 +695,7 @@ void raffect_back_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
 
      if ( ( in_room = obj->in_room ) == NULL )
      {
- 	bug( "obj_from_room: NULL.", 0 );
+ 	bug( L"obj_from_room: NULL.", 0 );
  	return;
      }
 
@@ -721,7 +722,7 @@ void raffect_back_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
 
  	if ( prev == NULL )
  	{
- 	    bug( "Obj_from_room: obj not found.", 0 );
+ 	    bug( L"Obj_from_room: obj not found.", 0 );
  	    return;
  	}
      }
@@ -771,9 +772,9 @@ void raffect_back_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
  	  obj->timer = -1;
  	  if (pRoomIndex->people)
  	  {
-       act("$p saydamlýðýný yitirerek katýlaþýyor.",
+       act( L"$p saydamlÄ±ÄŸÄ±nÄ± yitirerek katÄ±laÅŸÄ±yor.",
  		pRoomIndex->people, obj, NULL, TO_CHAR);
- 	    act("$p saydamlýðýný yitirerek katýlaþýyor.",
+ 	    act( L"$p saydamlÄ±ÄŸÄ±nÄ± yitirerek katÄ±laÅŸÄ±yor.",
  		pRoomIndex->people, obj, NULL, TO_ROOM);
  	  }
          }
@@ -793,7 +794,7 @@ void raffect_back_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
      {
  	ROOM_INDEX_DATA *room;
 
- 	bug( "Char_to_room: NULL.", 0 );
+ 	bug( L"Char_to_room: NULL.", 0 );
 
  	if ((room = get_room_index(ROOM_VNUM_TEMPLE)) != NULL)
  	    char_to_room(ch,room);
@@ -856,8 +857,8 @@ void raffect_back_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
  	    &&  !IS_IMMORTAL(vch) &&
              	!IS_AFFECTED(vch,AFF_PLAGUE) && number_range(0,63) == 0)
              {
-               send_to_char("Ateþinin yükseldiðini hissediyorsun.\n\r",vch);
-             	act("$n çok hasta görünüyor.",vch,NULL,NULL,TO_ROOM);
+               send_to_char( L"AteÅŸinin yÃ¼kseldiÄŸini hissediyorsun.\n\r",vch);
+             	act( L"$n Ã§ok hasta gÃ¶rÃ¼nÃ¼yor.",vch,NULL,NULL,TO_ROOM);
              	affect_join(vch,&plague);
              }
          }
@@ -867,7 +868,7 @@ void raffect_back_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
      if ( ch->in_room->affected_by )
  	{
  	 if (IS_IMMORTAL(ch))
- 		do_raffects(ch,(char*)"");
+ 		do_raffects(ch,(wchar_t*)"");
  	 else raffect_to_char( ch->in_room, ch);
  	}
 
@@ -884,7 +885,7 @@ void raffect_back_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
 
      if ( ch->in_room == NULL )
      {
- 	bug( "Char_from_room: NULL.", 0 );
+ 	bug( L"Char_from_room: NULL.", 0 );
  	return;
      }
 
@@ -917,7 +918,7 @@ void raffect_back_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
  	}
 
  	if ( prev == NULL )
- 	    bug( "Char_from_room: ch not found.", 0 );
+ 	    bug( L"Char_from_room: ch not found.", 0 );
      }
 
      ch->in_room      = NULL;
@@ -948,7 +949,7 @@ void raffect_back_char( ROOM_INDEX_DATA *room, CHAR_DATA *ch)
   * Else use the oldest one.
   */
 
- void room_record(char *name,ROOM_INDEX_DATA *room,sh_int door)
+ void room_record(wchar_t *name,ROOM_INDEX_DATA *room,sh_int door)
  {
    ROOM_HISTORY_DATA *rh;
    int i=0;

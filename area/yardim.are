@@ -22,8 +22,8 @@
 [1;37;40m      ) () (       [0;37;40m                Russ Taylor              [1;37;40m        ) () (
 [1;37;40m      ( :: )       [0;37;40m                                         [1;37;40m        ( :: )
 [1;37;40m      | :: |       [0;37;40m          ANATOLIA 3.0 (1997-1999)       [1;37;40m        | :: |
-[1;37;40m      | )( |       [0;37;40m       Serdar BULUT, İbrahim CANPUNAR    [1;37;40m        | )( |
-[1;37;40m      | || |       [0;37;40m       Murat BİÇER, Devrim Barış ACAR    [1;37;40m        | || |
+[1;37;40m      | )( |       [0;37;40m       Serdar BULUT, Ä°brahim CANPUNAR    [1;37;40m        | )( |
+[1;37;40m      | || |       [0;37;40m       Murat BÄ°Ã‡ER, Devrim BarÄ±ÅŸ ACAR    [1;37;40m        | || |
 [1;37;40m      | || |       [0;37;40m                                         [1;37;40m        | || |
 [1;37;40m      | || |       [0;37;40m               Uzak Diyarlar             [1;37;40m        | || |
 [1;37;40m      | || |       [0;37;40m     Jai, Kame, Maru, Nir, Nyah ve Sint  [1;37;40m        | || |
@@ -32,216 +32,216 @@
 [1;37;40m       \  /        [0;37;40m                                         [1;37;40m         \  /
 [1;37;40m        \/         [0;37;40m                                         [1;37;40m          \/[0;37;40m
 
-Hangi isimle anılmak istersin? ~
+Hangi isimle anÄ±lmak istersin? ~
 
 -1 motd~
 * Uzak Diyarlar oyuncu katline izin veren bir rol kesme oyunudur.
-* Kuralları bilmekle yükümlüsünüz.
-* Oyunla ilgili bilgi edinmek için 'yardım' komutunu kullanın
+* KurallarÄ± bilmekle yÃ¼kÃ¼mlÃ¼sÃ¼nÃ¼z.
+* Oyunla ilgili bilgi edinmek iÃ§in 'yardÄ±m' komutunu kullanÄ±n
   veya www.uzakdiyarlar.net adresini ziyaret edin.
 
-[Devam etmek için ENTER]
+[Devam etmek iÃ§in ENTER]
 ~
 
 92 imotd~
-Merhaba Ölümsüz!
+Merhaba Ã–lÃ¼msÃ¼z!
 
-* Bu oyunun idaresi için gerekli şeylerden en önemlisi kuralları
+* Bu oyunun idaresi iÃ§in gerekli ÅŸeylerden en Ã¶nemlisi kurallarÄ±
 bilmektir.
-* Ölümsüzlerin kendi oyuncu karakterlerini kayırması yanlıştır.
+* Ã–lÃ¼msÃ¼zlerin kendi oyuncu karakterlerini kayÄ±rmasÄ± yanlÄ±ÅŸtÄ±r.
 
-[Devam etmek için ENTER]
+[Devam etmek iÃ§in ENTER]
 ~
 
 0 !~
-Kullanım: !
+KullanÄ±m: !
 
-Son komutun tekrarlanmasını sağlar.
+Son komutun tekrarlanmasÄ±nÄ± saÄŸlar.
 ~
 
 -1 isim~
 
-1- Karakterler için şu tarz isimler kabul edilir:
-   a)  Modern ya da antik tarzda özgün isimler. örnek:(Takasi, Mirtuan)
-   b)  Uygun olabilecek bileşik isimler. örnek:(Uzunbacak, Susamuru)
+1- Karakterler iÃ§in ÅŸu tarz isimler kabul edilir:
+   a)  Modern ya da antik tarzda Ã¶zgÃ¼n isimler. Ã¶rnek:(Takasi, Mirtuan)
+   b)  Uygun olabilecek bileÅŸik isimler. Ã¶rnek:(Uzunbacak, Susamuru)
 
-2- Karakterler için şu tarz isimler kabul edilemez:
-   a)  Hakaret ve seksüel anlam içerenler.
-   b)  Mitolojiden, edebiyattan alınmış isimler. örnek:(Zeus,Shakespeare)
-   c)  Hayvan tür veya çeşitlerine ait isimler. örnek:(At, Ayı, Köpek)
-   d)  Rasgele türetilmiş saçma isimler. örnek:(Asdfg, Qwdldkf)
-   e)  Ünvan ve rütbe anlamına gelen isimler. örnek:(Lord,Sör,General)
-   f)  Bilimsel terminoloji. örnek:(İspat,Mantık,Watt)
-   g)  Nesne isimleri. örnek:(Fular,Değnek,Kılıç)
+2- Karakterler iÃ§in ÅŸu tarz isimler kabul edilemez:
+   a)  Hakaret ve seksÃ¼el anlam iÃ§erenler.
+   b)  Mitolojiden, edebiyattan alÄ±nmÄ±ÅŸ isimler. Ã¶rnek:(Zeus,Shakespeare)
+   c)  Hayvan tÃ¼r veya Ã§eÅŸitlerine ait isimler. Ã¶rnek:(At, AyÄ±, KÃ¶pek)
+   d)  Rasgele tÃ¼retilmiÅŸ saÃ§ma isimler. Ã¶rnek:(Asdfg, Qwdldkf)
+   e)  Ãœnvan ve rÃ¼tbe anlamÄ±na gelen isimler. Ã¶rnek:(Lord,SÃ¶r,General)
+   f)  Bilimsel terminoloji. Ã¶rnek:(Ä°spat,MantÄ±k,Watt)
+   g)  Nesne isimleri. Ã¶rnek:(Fular,DeÄŸnek,KÄ±lÄ±Ã§)
 
-Seçtiğiniz ismin yukarıda belirtilen kıstasların dışında kalmalıdır.~
+SeÃ§tiÄŸiniz ismin yukarÄ±da belirtilen kÄ±staslarÄ±n dÄ±ÅŸÄ±nda kalmalÄ±dÄ±r.~
 
 94 DUYURU~
 Syntax: duyuru  <mesaj>
 
-Tüm oyunculara duyuru yapılmasını sağlar.
+TÃ¼m oyunculara duyuru yapÄ±lmasÄ±nÄ± saÄŸlar.
 ~
 
--1 ırklar~
+-1 Ä±rklar~
 
-IRK       KISALTMA     İYİ      KÖTÜ     TP    BİLGİ
+IRK       KISALTMA     Ä°YÄ°      KÃ–TÃœ     TP    BÄ°LGÄ°
 -----      -------   -------  --------  -----  -------------------
-İnsan       İnsan    Zek,Çev   Güç,Bil    0    "tanımla", "arakla"
-Çora        Çora     Zek,Çev   Güç,Bün   500   "irfan", "kamuflaj"
-Cüce        Cüce     Bil,Bün     Çev     250   "vahşileşme"
-Gamayun     Gamay    Zek,Çev   Güç,Bün   250   uçabilen canlılar
-Pardus      Pard       Çev       Güç     250   "vahşileşme" ,"pusu", "arakla"
-Asura       Asur     Güç,Bün   Zek,Çev   400   "trans", "hızlı iyileşme"
+Ä°nsan       Ä°nsan    Zek,Ã‡ev   GÃ¼Ã§,Bil    0    "tanÄ±mla", "arakla"
+Ã‡ora        Ã‡ora     Zek,Ã‡ev   GÃ¼Ã§,BÃ¼n   500   "irfan", "kamuflaj"
+CÃ¼ce        CÃ¼ce     Bil,BÃ¼n     Ã‡ev     250   "vahÅŸileÅŸme"
+Gamayun     Gamay    Zek,Ã‡ev   GÃ¼Ã§,BÃ¼n   250   uÃ§abilen canlÄ±lar
+Pardus      Pard       Ã‡ev       GÃ¼Ã§     250   "vahÅŸileÅŸme" ,"pusu", "arakla"
+Asura       Asur     GÃ¼Ã§,BÃ¼n   Zek,Ã‡ev   400   "trans", "hÄ±zlÄ± iyileÅŸme"
 
-Irkınız ne olsun? Bilgi için "yardım" komutunu kullanabilirsiniz.
-Örneğin: yardım cüce
+IrkÄ±nÄ±z ne olsun? Bilgi iÃ§in "yardÄ±m" komutunu kullanabilirsiniz.
+Ã–rneÄŸin: yardÄ±m cÃ¼ce
 ~
 
 -1 insan~
 
-Uzak Diyarların en kalabalık ırkıdır. İnsan ırkını diğer ırklardan ayıran
-en önemli özellik her türlü ortama kolaylıkla uyum sağlayabilmeleridir.
-Bu nedenle bütün sınıflar için uygun olan tek ırktır. Ayrıca etik olarak da
-tahmin edilebilir bir ırk değildir. İçlerinde ezileni koruyan, merhameti bol
-olanı da vardır, şeytanı bile imrendirecek kadar zalim olanı da.
+Uzak DiyarlarÄ±n en kalabalÄ±k Ä±rkÄ±dÄ±r. Ä°nsan Ä±rkÄ±nÄ± diÄŸer Ä±rklardan ayÄ±ran
+en Ã¶nemli Ã¶zellik her tÃ¼rlÃ¼ ortama kolaylÄ±kla uyum saÄŸlayabilmeleridir.
+Bu nedenle bÃ¼tÃ¼n sÄ±nÄ±flar iÃ§in uygun olan tek Ä±rktÄ±r. AyrÄ±ca etik olarak da
+tahmin edilebilir bir Ä±rk deÄŸildir. Ä°Ã§lerinde ezileni koruyan, merhameti bol
+olanÄ± da vardÄ±r, ÅŸeytanÄ± bile imrendirecek kadar zalim olanÄ± da.
 
-Güç, zeka, bilgelik, çeviklik, bünye, karizma bakımından ortalama değerlere
-sahip bir ırktır.
-
-~
-
--1 cüce~
-
-Cüceler Uzak Diyarların kısa boylu ama güçlü, uzun sakallarıyla meşhur
-ırklarındandır. Pek zeki bir ırk olmasa da uzun yaşam süreleri, onların
-diyardaki bir çok ırka göre daha bilge bir ırk olmasını sağlamıştır. Çeviklik
-bakımından zayıf ve sessiz hareket etme konusunda başarız oldukları için bazı
-sınıflar için pek uygun değildirler. Fakat hemen hemen hepsi güçlü ve alt
-etmesi zor savaşçılardır. Genel olarak mağaralarda ve dağlarda yaşamayı
-tercih ederler. Ama içlerinde şehirde yaşamayı ya da yaban hayatı sürmeyi
-tercih edenleri de vardır. Taş ve maden işçiliğinde oldukça maharetlidirler.
-Fakat yüzme konusunda da bir o kadar beceriksizdirler. Büyüye, zehire ve
-hastalıklara karşı dirençleri oldukça yüksektir. Yer altında yaşamaları ve
-değerli madenlere olan düşkünlükleri onları Yeg ırkına karşı doğal bir düşman
-haline getirmiştir. Yeglerden daha çok nefret ettikleri hiçbir varlık yoktur
-diyarda ve bazı söylentilere göre kadim lisanlarında yeglerle ilgili yüze
-yakın hakaret ve küfür mevcuttur.
+GÃ¼Ã§, zeka, bilgelik, Ã§eviklik, bÃ¼nye, karizma bakÄ±mÄ±ndan ortalama deÄŸerlere
+sahip bir Ä±rktÄ±r.
 
 ~
 
--1 çora~
+-1 cÃ¼ce~
 
-Uzak Diyarların gözle görülmeyen, ateşten yaratılmış varlıklarıdır.
-Niyetleri önceden kestirilemez. İçlerinde merhamet dolu olanları da vardır,
-diyara korku salanları da... Doğuştan gelişmiş görünmezliğe sahiptirler.
-Varlıkları ateşten olduğu için ateşe karşı hiçbir ırkın olmadığı kadar
-dayanıklıdırlar. Sessiz hareket kabiliyetleri ve çeviklikleri sayesinde
-bazı sınıflar için çok daha uygunlardır. Karanlık kuytu yerler, ormanlar,
-su kenarları gibi şehrin kalabalığından uzak doğanın sınırında yerlerde
-yaşamayı severler. Ama içlerinde nüfusun çoğunlukta olduğu şehirlerde
-yaşamayı tercih edenleri de vardır.
+CÃ¼celer Uzak DiyarlarÄ±n kÄ±sa boylu ama gÃ¼Ã§lÃ¼, uzun sakallarÄ±yla meÅŸhur
+Ä±rklarÄ±ndandÄ±r. Pek zeki bir Ä±rk olmasa da uzun yaÅŸam sÃ¼releri, onlarÄ±n
+diyardaki bir Ã§ok Ä±rka gÃ¶re daha bilge bir Ä±rk olmasÄ±nÄ± saÄŸlamÄ±ÅŸtÄ±r. Ã‡eviklik
+bakÄ±mÄ±ndan zayÄ±f ve sessiz hareket etme konusunda baÅŸarÄ±z olduklarÄ± iÃ§in bazÄ±
+sÄ±nÄ±flar iÃ§in pek uygun deÄŸildirler. Fakat hemen hemen hepsi gÃ¼Ã§lÃ¼ ve alt
+etmesi zor savaÅŸÃ§Ä±lardÄ±r. Genel olarak maÄŸaralarda ve daÄŸlarda yaÅŸamayÄ±
+tercih ederler. Ama iÃ§lerinde ÅŸehirde yaÅŸamayÄ± ya da yaban hayatÄ± sÃ¼rmeyi
+tercih edenleri de vardÄ±r. TaÅŸ ve maden iÅŸÃ§iliÄŸinde oldukÃ§a maharetlidirler.
+Fakat yÃ¼zme konusunda da bir o kadar beceriksizdirler. BÃ¼yÃ¼ye, zehire ve
+hastalÄ±klara karÅŸÄ± direnÃ§leri oldukÃ§a yÃ¼ksektir. Yer altÄ±nda yaÅŸamalarÄ± ve
+deÄŸerli madenlere olan dÃ¼ÅŸkÃ¼nlÃ¼kleri onlarÄ± Yeg Ä±rkÄ±na karÅŸÄ± doÄŸal bir dÃ¼ÅŸman
+haline getirmiÅŸtir. Yeglerden daha Ã§ok nefret ettikleri hiÃ§bir varlÄ±k yoktur
+diyarda ve bazÄ± sÃ¶ylentilere gÃ¶re kadim lisanlarÄ±nda yeglerle ilgili yÃ¼ze
+yakÄ±n hakaret ve kÃ¼fÃ¼r mevcuttur.
+
+~
+
+-1 Ã§ora~
+
+Uzak DiyarlarÄ±n gÃ¶zle gÃ¶rÃ¼lmeyen, ateÅŸten yaratÄ±lmÄ±ÅŸ varlÄ±klarÄ±dÄ±r.
+Niyetleri Ã¶nceden kestirilemez. Ä°Ã§lerinde merhamet dolu olanlarÄ± da vardÄ±r,
+diyara korku salanlarÄ± da... DoÄŸuÅŸtan geliÅŸmiÅŸ gÃ¶rÃ¼nmezliÄŸe sahiptirler.
+VarlÄ±klarÄ± ateÅŸten olduÄŸu iÃ§in ateÅŸe karÅŸÄ± hiÃ§bir Ä±rkÄ±n olmadÄ±ÄŸÄ± kadar
+dayanÄ±klÄ±dÄ±rlar. Sessiz hareket kabiliyetleri ve Ã§eviklikleri sayesinde
+bazÄ± sÄ±nÄ±flar iÃ§in Ã§ok daha uygunlardÄ±r. KaranlÄ±k kuytu yerler, ormanlar,
+su kenarlarÄ± gibi ÅŸehrin kalabalÄ±ÄŸÄ±ndan uzak doÄŸanÄ±n sÄ±nÄ±rÄ±nda yerlerde
+yaÅŸamayÄ± severler. Ama iÃ§lerinde nÃ¼fusun Ã§oÄŸunlukta olduÄŸu ÅŸehirlerde
+yaÅŸamayÄ± tercih edenleri de vardÄ±r.
 
 ~
 
 -1 yeg~
 
-Uzak Diyarların habis ruhlu ırklarındandır. Yer altının karanlık
-dehlizlerini mesken edinen, yer üstündekilere korku salan, zulüm
-etmekten fazlasıyla haz alan, kısa boylu, güçlü varlıklardır. Gün
-ışığından mümkün olduğunca uzak dururlar.Geceleri av olarak seçtikleri
-masumlara sinsi tuzaklar kurarlar. Bazen sırf eğlence için bazen de
-açlıklarını gidermek için öldürürler.
-Kadim lisanda Yeg, aç gözlü, doymak bilmeyen ruh demektir ve kadimler
-bu ismi boşa vermemiştir. Değerli madenlere ve öldürmeye karşı doymak
-bilmeyen bir istekleri vardır. Yer altında olmaları ve değerli
-madenlere karşı olan düşkünlükleri onları cüce ırkına karşı doğal bir
-düşman haline getirmiştir. Tadını çok sevdikleri için, özellikle
-cücelerin bebeklerini kaçırdıklarına dair söylentiler vardır.
+Uzak DiyarlarÄ±n habis ruhlu Ä±rklarÄ±ndandÄ±r. Yer altÄ±nÄ±n karanlÄ±k
+dehlizlerini mesken edinen, yer Ã¼stÃ¼ndekilere korku salan, zulÃ¼m
+etmekten fazlasÄ±yla haz alan, kÄ±sa boylu, gÃ¼Ã§lÃ¼ varlÄ±klardÄ±r. GÃ¼n
+Ä±ÅŸÄ±ÄŸÄ±ndan mÃ¼mkÃ¼n olduÄŸunca uzak dururlar.Geceleri av olarak seÃ§tikleri
+masumlara sinsi tuzaklar kurarlar. Bazen sÄ±rf eÄŸlence iÃ§in bazen de
+aÃ§lÄ±klarÄ±nÄ± gidermek iÃ§in Ã¶ldÃ¼rÃ¼rler.
+Kadim lisanda Yeg, aÃ§ gÃ¶zlÃ¼, doymak bilmeyen ruh demektir ve kadimler
+bu ismi boÅŸa vermemiÅŸtir. DeÄŸerli madenlere ve Ã¶ldÃ¼rmeye karÅŸÄ± doymak
+bilmeyen bir istekleri vardÄ±r. Yer altÄ±nda olmalarÄ± ve deÄŸerli
+madenlere karÅŸÄ± olan dÃ¼ÅŸkÃ¼nlÃ¼kleri onlarÄ± cÃ¼ce Ä±rkÄ±na karÅŸÄ± doÄŸal bir
+dÃ¼ÅŸman haline getirmiÅŸtir. TadÄ±nÄ± Ã§ok sevdikleri iÃ§in, Ã¶zellikle
+cÃ¼celerin bebeklerini kaÃ§Ä±rdÄ±klarÄ±na dair sÃ¶ylentiler vardÄ±r.
 
 ~
 
 -1  asura~
 
-Asura Hint ve Budist mitlerindeki genellikle negatif eğilimler taşıyan,
-devasa yapıda ve dünyevi zevklere, özellikle de pahalı şeylere düşkün
-güçlü varlıklara verilen isimdir. Iran bölgesinde Ahura adını
-almışlardır.
+Asura Hint ve Budist mitlerindeki genellikle negatif eÄŸilimler taÅŸÄ±yan,
+devasa yapÄ±da ve dÃ¼nyevi zevklere, Ã¶zellikle de pahalÄ± ÅŸeylere dÃ¼ÅŸkÃ¼n
+gÃ¼Ã§lÃ¼ varlÄ±klara verilen isimdir. Iran bÃ¶lgesinde Ahura adÄ±nÄ±
+almÄ±ÅŸlardÄ±r.
 
-Asuralar kimi zaman tanrılarla savaşır kimi zaman da karışıklığa neden
-olurlar, boynuzlu ve uzun kuyruklu, iri dişleri ağızlarından taşan
-yaratıklar olarak tasvir edilirler, efendi veya tanrı/yarıtanrı olarak
-kabul edildikleri olmuşsa da en çok tanınan görüş yeraltında hüküm
-sürdükleri ve yıkıcı oldukları yönündedir. Yine de savaş disiplinleri ve
-zekaları nedeniyle takdir edilirler, İblis vb. sözcükler bu ırk için
-yetersiz kalır. Bir Asura'nın saygısı ancak onunla savaşarak kazanılabilir
-çünkü savaşmayan kişi köleleri olmayı kabul etmiş demektir.
+Asuralar kimi zaman tanrÄ±larla savaÅŸÄ±r kimi zaman da karÄ±ÅŸÄ±klÄ±ÄŸa neden
+olurlar, boynuzlu ve uzun kuyruklu, iri diÅŸleri aÄŸÄ±zlarÄ±ndan taÅŸan
+yaratÄ±klar olarak tasvir edilirler, efendi veya tanrÄ±/yarÄ±tanrÄ± olarak
+kabul edildikleri olmuÅŸsa da en Ã§ok tanÄ±nan gÃ¶rÃ¼ÅŸ yeraltÄ±nda hÃ¼kÃ¼m
+sÃ¼rdÃ¼kleri ve yÄ±kÄ±cÄ± olduklarÄ± yÃ¶nÃ¼ndedir. Yine de savaÅŸ disiplinleri ve
+zekalarÄ± nedeniyle takdir edilirler, Ä°blis vb. sÃ¶zcÃ¼kler bu Ä±rk iÃ§in
+yetersiz kalÄ±r. Bir Asura'nÄ±n saygÄ±sÄ± ancak onunla savaÅŸarak kazanÄ±labilir
+Ã§Ã¼nkÃ¼ savaÅŸmayan kiÅŸi kÃ¶leleri olmayÄ± kabul etmiÅŸ demektir.
 
-Bir Asura'nın arkadaşlığı riskli, düşmanlığı ise mutlaka ölümcüldür.
-Tabi ki bazı tanrısal güçlere sahip değilseniz.
+Bir Asura'nÄ±n arkadaÅŸlÄ±ÄŸÄ± riskli, dÃ¼ÅŸmanlÄ±ÄŸÄ± ise mutlaka Ã¶lÃ¼mcÃ¼ldÃ¼r.
+Tabi ki bazÄ± tanrÄ±sal gÃ¼Ã§lere sahip deÄŸilseniz.
 
 ~
 
--1 sınıflar~
+-1 sÄ±nÄ±flar~
 
-Aşağıda sınıf listesi verilmiştir. Daha fazla bilgi için uzakdiyarlar.net
+AÅŸaÄŸÄ±da sÄ±nÄ±f listesi verilmiÅŸtir. Daha fazla bilgi iÃ§in uzakdiyarlar.net
 adresini ziyaret ediniz.
 
 SINIF       KISALTMA  GEREKEN   TP
 -----       --------  -------  -----
-Ermiş         Erm      BİL  	 0
-Hırsız        Hır      ÇEV       0
-Savaşçı       Sav      GÜÇ       0
-Korucu        Krc      GÜÇ      200
-Ninja         Nin      ÇEV      300
-Kembolar      KmB      GÜÇ      300
-Adbolar       AdB      GÜÇ      400
-Samuray       Sam      GÜÇ      500
+ErmiÅŸ         Erm      BÄ°L  	 0
+HÄ±rsÄ±z        HÄ±r      Ã‡EV       0
+SavaÅŸÃ§Ä±       Sav      GÃœÃ‡       0
+Korucu        Krc      GÃœÃ‡      200
+Ninja         Nin      Ã‡EV      300
+Kembolar      KmB      GÃœÃ‡      300
+Adbolar       AdB      GÃœÃ‡      400
+Samuray       Sam      GÃœÃ‡      500
 Vampir        Vam      ZEK      300
 Gan           Gan      ZEK       0
-Biçimci       Biç      ZEK       0
-Ögeci         Öge      ZEK       0
+BiÃ§imci       BiÃ§      ZEK       0
+Ã–geci         Ã–ge      ZEK       0
 Karakam       Kam      ZEK      200
 
-Bilgi için "yardım" komutunu kullanabilirsiniz.
-Örneğin: yardım ermiş
+Bilgi iÃ§in "yardÄ±m" komutunu kullanabilirsiniz.
+Ã–rneÄŸin: yardÄ±m ermiÅŸ
 ~
 
 -1 memleket~
 
-Aşağıdaki şehirlerden birini memleketin olarak seçmelisin. Memleketin,
-anımsama komutunu/büyüsünü kullandığında karakterinin gideceği yerdir.
-Ayrıca karakterinin cesedi çürüdüğünde içindekiler memleketindeki mimberin
-içinde belirir.
+AÅŸaÄŸÄ±daki ÅŸehirlerden birini memleketin olarak seÃ§melisin. Memleketin,
+anÄ±msama komutunu/bÃ¼yÃ¼sÃ¼nÃ¼ kullandÄ±ÄŸÄ±nda karakterinin gideceÄŸi yerdir.
+AyrÄ±ca karakterinin cesedi Ã§Ã¼rÃ¼dÃ¼ÄŸÃ¼nde iÃ§indekiler memleketindeki mimberin
+iÃ§inde belirir.
 
 ~
 
 0 'yeni oyuncu'~
 .
-İşte bir başka ölümlü!
+Ä°ÅŸte bir baÅŸka Ã¶lÃ¼mlÃ¼!
 
-Sana şunu söyleyebilirim ki, öncelikle mud okulunu bitirmelisin. Bu hem
-puan hem de deneyim kazanmanı sağlayacaktır. Sakın pratik odasında bir
-silah yeteneğini pratik etmeyi unutma.
+Sana ÅŸunu sÃ¶yleyebilirim ki, Ã¶ncelikle mud okulunu bitirmelisin. Bu hem
+puan hem de deneyim kazanmanÄ± saÄŸlayacaktÄ±r. SakÄ±n pratik odasÄ±nda bir
+silah yeteneÄŸini pratik etmeyi unutma.
 
-Ayrıca 'ekipman' ve 'envanter' komutları sana giydiğin ve taşıdığın
-eşyalar hakkında bilgi verir. Sanırım 'yetenekler' ve 'büyüler' komutlarının
-ne işe yaradığını söylememe gerek yok.
+AyrÄ±ca 'ekipman' ve 'envanter' komutlarÄ± sana giydiÄŸin ve taÅŸÄ±dÄ±ÄŸÄ±n
+eÅŸyalar hakkÄ±nda bilgi verir. SanÄ±rÄ±m 'yetenekler' ve 'bÃ¼yÃ¼ler' komutlarÄ±nÄ±n
+ne iÅŸe yaradÄ±ÄŸÄ±nÄ± sÃ¶ylememe gerek yok.
 
-Elbette 'yardım' komutunu da unutmamak lazım.
+Elbette 'yardÄ±m' komutunu da unutmamak lazÄ±m.
 
-Neyse, bunların seni uzun süre hayatta tutacağını düşünmüyorum. Sen en
-iyisi fazla bir beklenti içine girme. Ölüme ve acıya hazır ol.
+Neyse, bunlarÄ±n seni uzun sÃ¼re hayatta tutacaÄŸÄ±nÄ± dÃ¼ÅŸÃ¼nmÃ¼yorum. Sen en
+iyisi fazla bir beklenti iÃ§ine girme. Ã–lÃ¼me ve acÄ±ya hazÄ±r ol.
 ~
 
 0 genel~
 .
-Uzak Diyarlar karakter katli ve rol yapma gerektiren bir muddır. Seviyeniz
-10'u geçtikten sonra başka karakterlerin "Katledilebilir" listesine girmeye
-başlarsınız. Karakter katli ile ilgili daha fazla bilgiyi uzakdiyarlar.net
+Uzak Diyarlar karakter katli ve rol yapma gerektiren bir muddÄ±r. Seviyeniz
+10'u geÃ§tikten sonra baÅŸka karakterlerin "Katledilebilir" listesine girmeye
+baÅŸlarsÄ±nÄ±z. Karakter katli ile ilgili daha fazla bilgiyi uzakdiyarlar.net
 adresinde bulabilirsiniz.
-Uzak Diyarlar'da rol yapmak bir tiyatro oyununda rol almaktan farklıdır.
-Burada rol yapmak aslında yalnızca burada yaşadığınızı hissetmektir. Rol
-yapmakla ilgili ayrıntılı bilgiyi uzakdiyarlar.net adresinde bulabilirsiniz.
+Uzak Diyarlar'da rol yapmak bir tiyatro oyununda rol almaktan farklÄ±dÄ±r.
+Burada rol yapmak aslÄ±nda yalnÄ±zca burada yaÅŸadÄ±ÄŸÄ±nÄ±zÄ± hissetmektir. Rol
+yapmakla ilgili ayrÄ±ntÄ±lÄ± bilgiyi uzakdiyarlar.net adresinde bulabilirsiniz.
 
 ~
 
@@ -249,368 +249,368 @@ yapmakla ilgili ayrıntılı bilgiyi uzakdiyarlar.net adresinde bulabilirsiniz.
 .
 KANAL KULLANIM KURALLARI
 
-1- DUA kanalı "hal hatır sormak" ve "sohbet etmek" için kullanılamaz.
-	Örnekler:
-	XXXX yakarıyor: 'Hatta mısınız?'
-	XXXX yakarıyor: 'Armageddon'da çok güzel bi ekipman varmış, nasıl
+1- DUA kanalÄ± "hal hatÄ±r sormak" ve "sohbet etmek" iÃ§in kullanÄ±lamaz.
+	Ã–rnekler:
+	XXXX yakarÄ±yor: 'Hatta mÄ±sÄ±nÄ±z?'
+	XXXX yakarÄ±yor: 'Armageddon'da Ã§ok gÃ¼zel bi ekipman varmÄ±ÅŸ, nasÄ±l
 	bulurum?'
-	XXXX yakarıyor: 'Ya bu şanssızlıklar da hep beni bulur...'
-	XXXX yakarıyor: 'Kırk saattir niye cevap vermiyorsunuz?'
+	XXXX yakarÄ±yor: 'Ya bu ÅŸanssÄ±zlÄ±klar da hep beni bulur...'
+	XXXX yakarÄ±yor: 'KÄ±rk saattir niye cevap vermiyorsunuz?'
 
-2- DUA kanalından cevabı bilinen, yahut kaynaklar (site, oyuncular vb.)
-   kullanılarak öğrenilebilecek sorular sorulamaz.
+2- DUA kanalÄ±ndan cevabÄ± bilinen, yahut kaynaklar (site, oyuncular vb.)
+   kullanÄ±larak Ã¶ÄŸrenilebilecek sorular sorulamaz.
 
-3- Ölümsüzler DUA ile gelen mesajları yanıtlamak zorunluluğu taşımazlar.
+3- Ã–lÃ¼msÃ¼zler DUA ile gelen mesajlarÄ± yanÄ±tlamak zorunluluÄŸu taÅŸÄ±mazlar.
 
-4- ANLAT kanalı RK kanalıdır. Bu kanal üzerinden RK dışı dialog kurulamaz.
+4- ANLAT kanalÄ± RK kanalÄ±dÄ±r. Bu kanal Ã¼zerinden RK dÄ±ÅŸÄ± dialog kurulamaz.
 
-5- SÖYLE kanalı RK kanalıdır. Bu kanal üzerinden RK dışı dialog kurulamaz.
+5- SÃ–YLE kanalÄ± RK kanalÄ±dÄ±r. Bu kanal Ã¼zerinden RK dÄ±ÅŸÄ± dialog kurulamaz.
 
-6- BAĞIR kanalı RK kanalıdır. Bu kanal üzerinden RK dışı dialog kurulamaz.
+6- BAÄIR kanalÄ± RK kanalÄ±dÄ±r. Bu kanal Ã¼zerinden RK dÄ±ÅŸÄ± dialog kurulamaz.
 
-7- DUYGU (EMOTE) kanalı RK kanalıdır. Bu kanal üzerinden RK dışı anlatım
-   yapılamaz.
+7- DUYGU (EMOTE) kanalÄ± RK kanalÄ±dÄ±r. Bu kanal Ã¼zerinden RK dÄ±ÅŸÄ± anlatÄ±m
+   yapÄ±lamaz.
 
-8- GANLAT (Grup Anlat) kanalı RK içi ve RK dışı konuşmaların yapılabileceği
-   bir kanaldır.
+8- GANLAT (Grup Anlat) kanalÄ± RK iÃ§i ve RK dÄ±ÅŸÄ± konuÅŸmalarÄ±n yapÄ±labileceÄŸi
+   bir kanaldÄ±r.
 
-9- KK (Kabal Konuş) kanalı RK içi ve RK dışı konuşmaların yapılabileceği
-   bir kanaldır.
+9- KK (Kabal KonuÅŸ) kanalÄ± RK iÃ§i ve RK dÄ±ÅŸÄ± konuÅŸmalarÄ±n yapÄ±labileceÄŸi
+   bir kanaldÄ±r.
 
-10- KD (Karakter Dışı) kanalı RK harici konuşmalar içindir. Oyuncular KD
-   kanalı kullanılarak yapılan RK dialoglarını ciddiye almak zorunda
-   değildirler.
+10- KD (Karakter DÄ±ÅŸÄ±) kanalÄ± RK harici konuÅŸmalar iÃ§indir. Oyuncular KD
+   kanalÄ± kullanÄ±larak yapÄ±lan RK dialoglarÄ±nÄ± ciddiye almak zorunda
+   deÄŸildirler.
 
-11- Adı geçen kanalların hiçbiri argo, küfür vb. unsurlar barındıramaz.
+11- AdÄ± geÃ§en kanallarÄ±n hiÃ§biri argo, kÃ¼fÃ¼r vb. unsurlar barÄ±ndÄ±ramaz.
 
 
 KABAL KURALLARI
 
-1- Kabalların mülkiyeti ölümsüzlere aittir.
+1- KaballarÄ±n mÃ¼lkiyeti Ã¶lÃ¼msÃ¼zlere aittir.
 
-2- Kabal liderlerini ölümsüzler seçer.
+2- Kabal liderlerini Ã¶lÃ¼msÃ¼zler seÃ§er.
 
-3- Kabal liderleri RK yapan kişilerden seçilir ve bu tutumlarını devam
+3- Kabal liderleri RK yapan kiÅŸilerden seÃ§ilir ve bu tutumlarÄ±nÄ± devam
    ettirmeleri beklenir.
 
-4- Kabal liderleri 'kabal felsefesi' ve 'kabal sorumluluğu' konularında
-   gerçek birer lider gibi davranmak zorundadırlar.
+4- Kabal liderleri 'kabal felsefesi' ve 'kabal sorumluluÄŸu' konularÄ±nda
+   gerÃ§ek birer lider gibi davranmak zorundadÄ±rlar.
 
-5- Kabal liderleri üyelerin davranışlarından birinci derecede sorumludurlar.
+5- Kabal liderleri Ã¼yelerin davranÄ±ÅŸlarÄ±ndan birinci derecede sorumludurlar.
 
-6- Kabal liderleri üyelerinin üzerinde tüm yaptırımlara sahiptirler.
+6- Kabal liderleri Ã¼yelerinin Ã¼zerinde tÃ¼m yaptÄ±rÄ±mlara sahiptirler.
 
-7- Kabal üyelerini kabal liderleri seçer. Bu konuda ölümsüzlere herhangi
-   bir istek yöneltilemez.
+7- Kabal Ã¼yelerini kabal liderleri seÃ§er. Bu konuda Ã¶lÃ¼msÃ¼zlere herhangi
+   bir istek yÃ¶neltilemez.
 
-8- Kabal üyeleri RK yapan kişilerden seçilir ve bu tutumlarını devam
+8- Kabal Ã¼yeleri RK yapan kiÅŸilerden seÃ§ilir ve bu tutumlarÄ±nÄ± devam
    ettirmeleri beklenir.
 
-9- Kabal lider ve üyelerinin tavırları ölümsüzler nezdinde "kabal tavrı"
-   olarak değerlendirilir. Kabal tavırlarından kaynaklanan yaptırımlar
-   tüm kabalı bağlayabilir.
+9- Kabal lider ve Ã¼yelerinin tavÄ±rlarÄ± Ã¶lÃ¼msÃ¼zler nezdinde "kabal tavrÄ±"
+   olarak deÄŸerlendirilir. Kabal tavÄ±rlarÄ±ndan kaynaklanan yaptÄ±rÄ±mlar
+   tÃ¼m kabalÄ± baÄŸlayabilir.
 
-10- Kaballarından atılan ya da ayrılan karakterler, Yeniyaşam hakkı kazanmış
-    olsalar bile hiçbir surette herhangi bir kabala giremezler.
+10- KaballarÄ±ndan atÄ±lan ya da ayrÄ±lan karakterler, YeniyaÅŸam hakkÄ± kazanmÄ±ÅŸ
+    olsalar bile hiÃ§bir surette herhangi bir kabala giremezler.
 
-11- Yeniyaşam hakkını kullanmış kabal üyeleri, yeni yaşamlarında herhangi
-    başka bir kabalın üyesi olamazlar.
+11- YeniyaÅŸam hakkÄ±nÄ± kullanmÄ±ÅŸ kabal Ã¼yeleri, yeni yaÅŸamlarÄ±nda herhangi
+    baÅŸka bir kabalÄ±n Ã¼yesi olamazlar.
 
-12- Bir oyuncunun yalnızca bir karakteri, herhangi bir kabalın üyesi veya
+12- Bir oyuncunun yalnÄ±zca bir karakteri, herhangi bir kabalÄ±n Ã¼yesi veya
     lideri olabilir.
 
 
 RK KURALLARI
 
-1- Uzak Diyarlar'da yapılan RK'ler, başka oyun sistemleri, edebi metinleri
-   ve kurgu dünyaları baz alamazlar.
+1- Uzak Diyarlar'da yapÄ±lan RK'ler, baÅŸka oyun sistemleri, edebi metinleri
+   ve kurgu dÃ¼nyalarÄ± baz alamazlar.
 
-2- Uzak Diyarlar'da oyuncu karakterleri kişiliklerine (etik ve yönelim)
-   aykırı tavırlar sergileyemezler.
+2- Uzak Diyarlar'da oyuncu karakterleri kiÅŸiliklerine (etik ve yÃ¶nelim)
+   aykÄ±rÄ± tavÄ±rlar sergileyemezler.
 
-3- Aksi belirtilmediği müddetçe ölümsüzlerle girilen diyalogların tümünde
-   RK yapılmak zorunluluğu vardır.
+3- Aksi belirtilmediÄŸi mÃ¼ddetÃ§e Ã¶lÃ¼msÃ¼zlerle girilen diyaloglarÄ±n tÃ¼mÃ¼nde
+   RK yapÄ±lmak zorunluluÄŸu vardÄ±r.
 
-4- Uzak Diyarlar'da yapılan RK'ler argo, küfür vb. unsurlar barındıramazlar.
+4- Uzak Diyarlar'da yapÄ±lan RK'ler argo, kÃ¼fÃ¼r vb. unsurlar barÄ±ndÄ±ramazlar.
 
 OK KURALLARI
 
-1- OK ölümlüler arası bir konudur. Bu hususta ölümsüzlerin getirdiği bir
-   kısıtlama mevcut değildir.
+1- OK Ã¶lÃ¼mlÃ¼ler arasÄ± bir konudur. Bu hususta Ã¶lÃ¼msÃ¼zlerin getirdiÄŸi bir
+   kÄ±sÄ±tlama mevcut deÄŸildir.
 
-2- Bir oyuncuyu ard arda öldürmek ölümsüzlerce hoş karşılanmayabilir.
+2- Bir oyuncuyu ard arda Ã¶ldÃ¼rmek Ã¶lÃ¼msÃ¼zlerce hoÅŸ karÅŸÄ±lanmayabilir.
 
-3- Kabal baskınları yapabilmek için, basılacak kabala mensup mutlaka en az
-   bir kişi oyunda bulunmalı ve bu kişi, baskını yapan karakterin
-   OK aralığında olmalıdır.
-
-
-KARAKTER İSİM KURALLARI
-
-1- Karakterler için şu tarz isimler kabul edilir:
-   a)  Modern ya da antik tarzda özgün isimler. örnek:(Takasi, Mirtuan)
-   b)  Uygun olabilecek bileşik isimler. örnek:(Uzunbacak, Susamuru)
-
-2- Karakterler için şu tarz isimler kabul edilemez:
-   a)  Hakaret ve seksüel anlam içerenler.
-   b)  Mitolojiden, edebiyattan alınmış isimler. örnek:(Zeus,Shakespeare)
-   c)  Hayvan tür veya çeşitlerine ait isimler. örnek:(At, Ayı, Köpek)
-   d)  Rasgele türetilmiş saçma isimler. örnek:(Asdfg, Qwdldkf)
-   e)  Ünvan ve rütbe anlamına gelen isimler. örnek:(Lord,Sör,General)
-   f)  Bilimsel terminoloji. örnek:(İspat,Mantık,Watt)
-   g)  Nesne isimleri. örnek:(Fular,Değnek,Kılıç)
+3- Kabal baskÄ±nlarÄ± yapabilmek iÃ§in, basÄ±lacak kabala mensup mutlaka en az
+   bir kiÅŸi oyunda bulunmalÄ± ve bu kiÅŸi, baskÄ±nÄ± yapan karakterin
+   OK aralÄ±ÄŸÄ±nda olmalÄ±dÄ±r.
 
 
-BAĞLANTI KURALLARI
+KARAKTER Ä°SÄ°M KURALLARI
+
+1- Karakterler iÃ§in ÅŸu tarz isimler kabul edilir:
+   a)  Modern ya da antik tarzda Ã¶zgÃ¼n isimler. Ã¶rnek:(Takasi, Mirtuan)
+   b)  Uygun olabilecek bileÅŸik isimler. Ã¶rnek:(Uzunbacak, Susamuru)
+
+2- Karakterler iÃ§in ÅŸu tarz isimler kabul edilemez:
+   a)  Hakaret ve seksÃ¼el anlam iÃ§erenler.
+   b)  Mitolojiden, edebiyattan alÄ±nmÄ±ÅŸ isimler. Ã¶rnek:(Zeus,Shakespeare)
+   c)  Hayvan tÃ¼r veya Ã§eÅŸitlerine ait isimler. Ã¶rnek:(At, AyÄ±, KÃ¶pek)
+   d)  Rasgele tÃ¼retilmiÅŸ saÃ§ma isimler. Ã¶rnek:(Asdfg, Qwdldkf)
+   e)  Ãœnvan ve rÃ¼tbe anlamÄ±na gelen isimler. Ã¶rnek:(Lord,SÃ¶r,General)
+   f)  Bilimsel terminoloji. Ã¶rnek:(Ä°spat,MantÄ±k,Watt)
+   g)  Nesne isimleri. Ã¶rnek:(Fular,DeÄŸnek,KÄ±lÄ±Ã§)
+
+
+BAÄLANTI KURALLARI
 
 1- Bir oyuncu birden fazla karakterin sahibi olabilir. Fakat birden fazla
-   karakteri aynı anda oyun içinde bulunamaz.
+   karakteri aynÄ± anda oyun iÃ§inde bulunamaz.
 
-2- Bir oyuncu karakter(ler)inin şifrelerini bir başkasıyla paylaşamaz.
+2- Bir oyuncu karakter(ler)inin ÅŸifrelerini bir baÅŸkasÄ±yla paylaÅŸamaz.
 
-3- Bir oyuncu karakterleri arasında (her ne yöntemle olursa olsun) ekipman,
-   para vb. şeyleri paylaştıramaz, diğer karakterine görev, tecrübe puanı,
-   yaşam puanı vb. konularında yardımda bulunamaz.
+3- Bir oyuncu karakterleri arasÄ±nda (her ne yÃ¶ntemle olursa olsun) ekipman,
+   para vb. ÅŸeyleri paylaÅŸtÄ±ramaz, diÄŸer karakterine gÃ¶rev, tecrÃ¼be puanÄ±,
+   yaÅŸam puanÄ± vb. konularÄ±nda yardÄ±mda bulunamaz.
 
-4- Bir oyuncu bir başka oyuncunun 3.maddede belirtilen fiilleri
-   gerçekleştirmesine (herhangi bir şekilde) yardımcı olamaz.
+4- Bir oyuncu bir baÅŸka oyuncunun 3.maddede belirtilen fiilleri
+   gerÃ§ekleÅŸtirmesine (herhangi bir ÅŸekilde) yardÄ±mcÄ± olamaz.
 
 
 GENEL KURALLAR
 
-1- Oyun içinde ortaya çıkan hatalar (herhangi birine) fayda sağlayıcı
-   şekilde kullanılamaz.
+1- Oyun iÃ§inde ortaya Ã§Ä±kan hatalar (herhangi birine) fayda saÄŸlayÄ±cÄ±
+   ÅŸekilde kullanÄ±lamaz.
 
-2- Tespit edilen hatalar ölümsüzlere bildirilmek zorundadır.
+2- Tespit edilen hatalar Ã¶lÃ¼msÃ¼zlere bildirilmek zorundadÄ±r.
 
-3- Oyun içinde cinsel, sınıfsal, dinsel taciz kabul edilemez.
+3- Oyun iÃ§inde cinsel, sÄ±nÄ±fsal, dinsel taciz kabul edilemez.
 
-4- Oyun içinde yer alan bazı sosyal komutlarının kullanımı tarafların
-   hoşgörüsünü gerektirir. Bu komutlar rahatsızlık yaratacak şekilde
-   kullanılamaz.
+4- Oyun iÃ§inde yer alan bazÄ± sosyal komutlarÄ±nÄ±n kullanÄ±mÄ± taraflarÄ±n
+   hoÅŸgÃ¶rÃ¼sÃ¼nÃ¼ gerektirir. Bu komutlar rahatsÄ±zlÄ±k yaratacak ÅŸekilde
+   kullanÄ±lamaz.
 
-5- Ölümsüzler kurallar üzerinde diledikleri değişikliği yapma hakkına
-   sahiptirler. Bu değişiklikler oyunculara haber verilmeksizin
-   yapılabilir.
+5- Ã–lÃ¼msÃ¼zler kurallar Ã¼zerinde diledikleri deÄŸiÅŸikliÄŸi yapma hakkÄ±na
+   sahiptirler. Bu deÄŸiÅŸiklikler oyunculara haber verilmeksizin
+   yapÄ±labilir.
 
-6- Kural ihlallerine ilişkin yaptırımlar konusunda yorum ve karar hakkı
-   yalnızca ölümsüzlere aittir.
+6- Kural ihlallerine iliÅŸkin yaptÄ±rÄ±mlar konusunda yorum ve karar hakkÄ±
+   yalnÄ±zca Ã¶lÃ¼msÃ¼zlere aittir.
 
-7- Kural ihlallerine ilişkin hiçbir karar gelecekte alınacak kararlara
-   emsal teşkil etmez.
+7- Kural ihlallerine iliÅŸkin hiÃ§bir karar gelecekte alÄ±nacak kararlara
+   emsal teÅŸkil etmez.
 
 8- Uzak Diyarlar Mud'da karakter sahibi her oyuncu yukarda belirtilen
-   kuralların hepsini kabul etmiş sayılır.
+   kurallarÄ±n hepsini kabul etmiÅŸ sayÄ±lÄ±r.
 ~
 
 -1 nitelik~
-Uzak Diyarlar'da şu an için 6 karakter niteliği vardır. Bunlar,
-Güç, Zeka, Bilgelik, Çeviklik, Bünye ve Karizma. Her niteliğin
-karaktere sağladığı avantajlar vardır. Niteliklerle ilgili ayrıntılı
+Uzak Diyarlar'da ÅŸu an iÃ§in 6 karakter niteliÄŸi vardÄ±r. Bunlar,
+GÃ¼Ã§, Zeka, Bilgelik, Ã‡eviklik, BÃ¼nye ve Karizma. Her niteliÄŸin
+karaktere saÄŸladÄ±ÄŸÄ± avantajlar vardÄ±r. Niteliklerle ilgili ayrÄ±ntÄ±lÄ±
 bilgiyi uzakdiyarlar.net adresinde bulabilirsiniz.
 ~
 
-0 kuzey güney doğu batı aşağı yukarı~
-Yazım: kuzey
-Yazım: güney
-Yazım: doğu
-Yazım: batı
-Yazım: yukarı
-Yazım: aşağı
+0 kuzey gÃ¼ney doÄŸu batÄ± aÅŸaÄŸÄ± yukarÄ±~
+YazÄ±m: kuzey
+YazÄ±m: gÃ¼ney
+YazÄ±m: doÄŸu
+YazÄ±m: batÄ±
+YazÄ±m: yukarÄ±
+YazÄ±m: aÅŸaÄŸÄ±
 
-Belirtilen yönde yürümek için kullanılır.
+Belirtilen yÃ¶nde yÃ¼rÃ¼mek iÃ§in kullanÄ±lÄ±r.
 ~
 
 0 kurban~
-Yazım-1: kurban {Reşya_adı{c
-Odada bulunan "kurban edilebilir" bir eşyayı tanrılara kurban etmek için
-kullanılır. Karşılığında akçe alınır.
+YazÄ±m-1: kurban {ReÅŸya_adÄ±{c
+Odada bulunan "kurban edilebilir" bir eÅŸyayÄ± tanrÄ±lara kurban etmek iÃ§in
+kullanÄ±lÄ±r. KarÅŸÄ±lÄ±ÄŸÄ±nda akÃ§e alÄ±nÄ±r.
 
-Yazım-2: kurban tümü
-Odada bulunan TÜM "kurban edilebilir" eşyaları kurban etmek için
-kullanılır. Karşılığında eşya sayısına bağlı olarak akçe alınır.
+YazÄ±m-2: kurban tÃ¼mÃ¼
+Odada bulunan TÃœM "kurban edilebilir" eÅŸyalarÄ± kurban etmek iÃ§in
+kullanÄ±lÄ±r. KarÅŸÄ±lÄ±ÄŸÄ±nda eÅŸya sayÄ±sÄ±na baÄŸlÄ± olarak akÃ§e alÄ±nÄ±r.
 ~
 
 0 al~
-Yerde duran bir şeyi almak için kullanılır.
+Yerde duran bir ÅŸeyi almak iÃ§in kullanÄ±lÄ±r.
 
-Kullanım-1: al eşya
-Örnek:
-al zırh
+KullanÄ±m-1: al eÅŸya
+Ã–rnek:
+al zÄ±rh
 al ceset
 al fener
 
-Kullanım-2: al tümü
-Yerde duran tüm eşyaları almak için kullanılır.
+KullanÄ±m-2: al tÃ¼mÃ¼
+Yerde duran tÃ¼m eÅŸyalarÄ± almak iÃ§in kullanÄ±lÄ±r.
 ~
 
-0 satınal~
-Dükkanlardan bir şeyi satın almak için kullanılır.
+0 satÄ±nal~
+DÃ¼kkanlardan bir ÅŸeyi satÄ±n almak iÃ§in kullanÄ±lÄ±r.
 
-Kullanım-1: alış şey
+KullanÄ±m-1: alÄ±ÅŸ ÅŸey
 
-Örnek:
-satınal turta
-satınal bira
-satınal fener
+Ã–rnek:
+satÄ±nal turta
+satÄ±nal bira
+satÄ±nal fener
 ~
 
-0 anımsa~
-Tapınağa dönüş için kullanılır.
+0 anÄ±msa~
+TapÄ±naÄŸa dÃ¶nÃ¼ÅŸ iÃ§in kullanÄ±lÄ±r.
 
-Kullanım-1: anımsa
+KullanÄ±m-1: anÄ±msa
 
 Notlar:
-1- Seviyesi 10'un üzerinde olanlar kullanamaz.
-2- Her kullanımda hareket puanı ciddi ölçüde azalır.
+1- Seviyesi 10'un Ã¼zerinde olanlar kullanamaz.
+2- Her kullanÄ±mda hareket puanÄ± ciddi Ã¶lÃ§Ã¼de azalÄ±r.
 ~
 
 0 anlat~
-Belirli bir kişiye oyun dışı konularda mesaj göndermek için kullanılır.
+Belirli bir kiÅŸiye oyun dÄ±ÅŸÄ± konularda mesaj gÃ¶ndermek iÃ§in kullanÄ±lÄ±r.
 
-Kullanım-1: anlat <kişi> <mesaj>
+KullanÄ±m-1: anlat <kiÅŸi> <mesaj>
 
-Örnek: anlat jai selam
+Ã–rnek: anlat jai selam
 
-Özellikleri:
+Ã–zellikleri:
 1- Mesaj belirli bir hedef karaktere gider.
-2- Mesajın içeriği oyun dışıdır.
+2- MesajÄ±n iÃ§eriÄŸi oyun dÄ±ÅŸÄ±dÄ±r.
 ~
 
-0 ayrıl~
-Oyundan çıkmak için kullanılır.
+0 ayrÄ±l~
+Oyundan Ã§Ä±kmak iÃ§in kullanÄ±lÄ±r.
 
-Kullanım-1: ayrıl
+KullanÄ±m-1: ayrÄ±l
 
 
 Notlar:
-1- Oyuncular karakterlerini oyundan bu şekilde çıkarmalıdırlar. Aksi takdirde
-karakterleri oyun için asılı kalır ve ölebilir.
-2- Bu komutla çıkartılan karakterler otomatik olarak kaydedilir.
+1- Oyuncular karakterlerini oyundan bu ÅŸekilde Ã§Ä±karmalÄ±dÄ±rlar. Aksi takdirde
+karakterleri oyun iÃ§in asÄ±lÄ± kalÄ±r ve Ã¶lebilir.
+2- Bu komutla Ã§Ä±kartÄ±lan karakterler otomatik olarak kaydedilir.
 ~
 
-0 bağır~
-Oyun içi mesaj göndermek için kullanılır. Mesaj tüm diyara iletilir.
+0 baÄŸÄ±r~
+Oyun iÃ§i mesaj gÃ¶ndermek iÃ§in kullanÄ±lÄ±r. Mesaj tÃ¼m diyara iletilir.
 
-Kullanım-1: bağır mesaj
-Örnek: bağır dağılın lan!
+KullanÄ±m-1: baÄŸÄ±r mesaj
+Ã–rnek: baÄŸÄ±r daÄŸÄ±lÄ±n lan!
 ~
 
 0 bakiye~
-Banka olan odalarda, hesabınızdaki paranın miktarını öğrenmek için kullanılır.
+Banka olan odalarda, hesabÄ±nÄ±zdaki paranÄ±n miktarÄ±nÄ± Ã¶ÄŸrenmek iÃ§in kullanÄ±lÄ±r.
 
-Kullanım-1: bakiye
+KullanÄ±m-1: bakiye
 ~
 
 0 beden~
 
-Bedeni küçük ya da büyük gelen ekipmanların para karşılığında size uygun hale
-getirilmesi için kullanılır. Bu işi kimi demirciler yapar. Selenge'deki Yegin
+Bedeni kÃ¼Ã§Ã¼k ya da bÃ¼yÃ¼k gelen ekipmanlarÄ±n para karÅŸÄ±lÄ±ÄŸÄ±nda size uygun hale
+getirilmesi iÃ§in kullanÄ±lÄ±r. Bu iÅŸi kimi demirciler yapar. Selenge'deki Yegin
 ve Rugal bunlardan ikisidir.
 
-Kullanım-1:
-beden eşya_adı
+KullanÄ±m-1:
+beden eÅŸya_adÄ±
 
 ~
 
 
-0 bırak~
+0 bÄ±rak~
 
-Envanterde duran bir eşyayı yere bırakmak için kullanılır.
+Envanterde duran bir eÅŸyayÄ± yere bÄ±rakmak iÃ§in kullanÄ±lÄ±r.
 
-Kullanım-1: bırak eşya
-Örnek:
-bırak zırh
-bırak fener
+KullanÄ±m-1: bÄ±rak eÅŸya
+Ã–rnek:
+bÄ±rak zÄ±rh
+bÄ±rak fener
 
-Kullanım-2: bırak tümü
-Envanterdeki tüm eşyaları yere bırakmak için kullanılır.
-
-~
-
-0 bölgeler~
-
-Oyundaki bölgelerin listesini ve hangi seviye aralığına hitap ettiğini görmek
-için kullanılır.
-
-Kullanım-1: bölgeler
+KullanÄ±m-2: bÄ±rak tÃ¼mÃ¼
+Envanterdeki tÃ¼m eÅŸyalarÄ± yere bÄ±rakmak iÃ§in kullanÄ±lÄ±r.
 
 ~
 
-0 büyüler~
+0 bÃ¶lgeler~
 
-büyüler komutu girildiğinde; karakterinizin sahip olduğu lvlde kullanabileceği
-sahip olduğunuz büyülerin listesi ekranıza gelir.
+Oyundaki bÃ¶lgelerin listesini ve hangi seviye aralÄ±ÄŸÄ±na hitap ettiÄŸini gÃ¶rmek
+iÃ§in kullanÄ±lÄ±r.
 
-Kullanım: büyüler (tümü)
-
-büyüler tümü komutunu girdiğinizde sahip olduğunuz tüm büyülerin listesi
-ekranınıza gelir.
+KullanÄ±m-1: bÃ¶lgeler
 
 ~
 
-0 çıkışlar~
+0 bÃ¼yÃ¼ler~
 
-İçinde bulunduğunuz odanın çıkışlarını gösterir. Kapalı çıkışlar (kapı gibi)
-görünmez. Kapalı çıkışları bulmanın en kolay yolu o yöne yürümektir.
+bÃ¼yÃ¼ler komutu girildiÄŸinde; karakterinizin sahip olduÄŸu lvlde kullanabileceÄŸi
+sahip olduÄŸunuz bÃ¼yÃ¼lerin listesi ekranÄ±za gelir.
 
-Kullanım:
-çıkışlar
+KullanÄ±m: bÃ¼yÃ¼ler (tÃ¼mÃ¼)
+
+bÃ¼yÃ¼ler tÃ¼mÃ¼ komutunu girdiÄŸinizde sahip olduÄŸunuz tÃ¼m bÃ¼yÃ¼lerin listesi
+ekranÄ±nÄ±za gelir.
+
+~
+
+0 Ã§Ä±kÄ±ÅŸlar~
+
+Ä°Ã§inde bulunduÄŸunuz odanÄ±n Ã§Ä±kÄ±ÅŸlarÄ±nÄ± gÃ¶sterir. KapalÄ± Ã§Ä±kÄ±ÅŸlar (kapÄ± gibi)
+gÃ¶rÃ¼nmez. KapalÄ± Ã§Ä±kÄ±ÅŸlarÄ± bulmanÄ±n en kolay yolu o yÃ¶ne yÃ¼rÃ¼mektir.
+
+KullanÄ±m:
+Ã§Ä±kÄ±ÅŸlar
 
 ~
 
 0 duygu~
 
-Rol Kesme açısından önemli bir komuttur. Bir durumu, hareketi olmuş gibi
-gösterir, olaya renk katar.
+Rol Kesme aÃ§Ä±sÄ±ndan Ã¶nemli bir komuttur. Bir durumu, hareketi olmuÅŸ gibi
+gÃ¶sterir, olaya renk katar.
 
-Kullanım-1: duygu mesaj
-Örnek:
-duygu birayı üzerine döküyor.
-Odadakilerin ekranında çıkacak mesaj:
-Jai birayı üzerine döküyor.
+KullanÄ±m-1: duygu mesaj
+Ã–rnek:
+duygu birayÄ± Ã¼zerine dÃ¶kÃ¼yor.
+Odadakilerin ekranÄ±nda Ã§Ä±kacak mesaj:
+Jai birayÄ± Ã¼zerine dÃ¶kÃ¼yor.
 
 ~
 
 0 ekipman~
 
-Üzerinize giydiğiniz ekipmanları listeler. Kimi gizli ekipmanlar (mesela
-görünmez ekipmanlar) sizin o ekipmanları görme yeteneğiniz yoksa görünmez.
+Ãœzerinize giydiÄŸiniz ekipmanlarÄ± listeler. Kimi gizli ekipmanlar (mesela
+gÃ¶rÃ¼nmez ekipmanlar) sizin o ekipmanlarÄ± gÃ¶rme yeteneÄŸiniz yoksa gÃ¶rÃ¼nmez.
 
-Kullanım:
+KullanÄ±m:
 ekipman
 
 ~
 
 0 envanter~
 
-Karaterinizin taşıdığı eşyalar görmenizi sağlar. Kimi gizli eşyalar (mesela
-görünmez eşyalar) sizin o ekipmanları görme yeteneğiniz yoksa görünmez.
+Karaterinizin taÅŸÄ±dÄ±ÄŸÄ± eÅŸyalar gÃ¶rmenizi saÄŸlar. Kimi gizli eÅŸyalar (mesela
+gÃ¶rÃ¼nmez eÅŸyalar) sizin o ekipmanlarÄ± gÃ¶rme yeteneÄŸiniz yoksa gÃ¶rÃ¼nmez.
 
-Kullanım:
+KullanÄ±m:
 envanter
 
 ~
 
 0 ganlat~
 
-Gruptakilere mesaj göndermek için kullanılır. Oyun içi veya oyun dışı mesaj
-göndermek kişinin tercihidir.
+Gruptakilere mesaj gÃ¶ndermek iÃ§in kullanÄ±lÄ±r. Oyun iÃ§i veya oyun dÄ±ÅŸÄ± mesaj
+gÃ¶ndermek kiÅŸinin tercihidir.
 
-Kullanım-1: ganlat mesaj
+KullanÄ±m-1: ganlat mesaj
 
-Örnek: ganlat selam
+Ã–rnek: ganlat selam
 
 ~
 
 0 giy~
 
-Bir eşyayı (veya elinizdeki tüm eşyaları) giymek için kullanılır.
+Bir eÅŸyayÄ± (veya elinizdeki tÃ¼m eÅŸyalarÄ±) giymek iÃ§in kullanÄ±lÄ±r.
 
-Kullanım-1: giy eşya
-Örnek: giy zırh
+KullanÄ±m-1: giy eÅŸya
+Ã–rnek: giy zÄ±rh
 
-Kullanım-2: giy tümü
+KullanÄ±m-2: giy tÃ¼mÃ¼
 
 
 Notlar:
@@ -618,272 +618,272 @@ Notlar:
 
 ~
 
-0 görün~
+0 gÃ¶rÃ¼n~
 
-Karakteriniz üzerindeki "Görünmezlik, İleri görünmezlik, kamuflaj, saklanma,
-süzülme" etkilerinin kaybolmasını sağlar. Kısaca görünür olursunuz.
+Karakteriniz Ã¼zerindeki "GÃ¶rÃ¼nmezlik, Ä°leri gÃ¶rÃ¼nmezlik, kamuflaj, saklanma,
+sÃ¼zÃ¼lme" etkilerinin kaybolmasÄ±nÄ± saÄŸlar. KÄ±saca gÃ¶rÃ¼nÃ¼r olursunuz.
 
-Kullanım:
-görün
-
-~
-
-0 görev~
-
-Görev işlemlerini yapmayı sağlayan komut.
-
-Kullanım şekilleri:
-
-görev
-Tek başına kullanıldığında şu çıktıyı verir:
-GÖREV komutları: PUAN BİLGİ ZAMAN İSTE BİTTİ İPTAL LİSTE ALIŞ SİGORTA.
-daha fazla bilgi için yardım görev.
-
-görev puan
-Görev puanınızı bildirir. Puanınızı skor tablosundan da öğrenebilirsiniz.
-
-görev bilgi
-Göreviniz hakkında bilgi verir.
-
-görev zaman
-Görevinizin bitmesine ne kadar kaldığını öğrenebilirsiniz.
-
-görev iste
-Bu kombinasyon görev almak için kullanılır ve ancak bir görevciyle aynı odada
-olduğunuzda işlevlidir.
-
-görev bitti
-Bu kombinasyon görevciye görevinizin bittiğini haber vermek için kullanılır
-ve ancak bir görevciyle aynı odada olduğunuzda işlevlidir.
-
-görev iptal
-Bu kombinasyon aldığınız görevi iptal etmek için kullanılır ve ancak bir
-görevciyle aynı odada olduğunuzda işlevlidir.
-Görev iptal etmenin bedeli 3 görev puanıdır.
-
-görev liste
-Bu kombinasyon görev puanı karşılığında alınabilecek eşyaların listesini
-verir ve ancak bir görevciyle aynı odada olduğunuzda işlevlidir.
-
-görev alış <göreveşyası>
-Bu kombinasyon görev puanı karşılığında görev eşyası almak için kullanılır
-ve ancak bir görevciyle aynı odada olduğunuzda işlevlidir.
-Örnek:
-görev alış tunçkemer
-
-görev sigorta <göreveşyası>
-Bu kombinasyon sigortadan yararlanarak kaybolan görev eşyasını geri almak için
-kullanılır ve ancak bir görevciyle aynı odada olduğunuzda işlevlidir.
-Örnek:
-görev sigorta tunçkemer
+KullanÄ±m:
+gÃ¶rÃ¼n
 
 ~
 
-0 günce~
+0 gÃ¶rev~
 
-Karakterinizin parası ve tecrübe puanı hakkında kısa bir sunum yapar.
+GÃ¶rev iÅŸlemlerini yapmayÄ± saÄŸlayan komut.
 
-Kullanımı-1: günce
+KullanÄ±m ÅŸekilleri:
 
-Örnek: günce
-13 altının, 82 akçen ve 18488 Tecrübe Puanın var (seviye atlamaya 412).
+gÃ¶rev
+Tek baÅŸÄ±na kullanÄ±ldÄ±ÄŸÄ±nda ÅŸu Ã§Ä±ktÄ±yÄ± verir:
+GÃ–REV komutlarÄ±: PUAN BÄ°LGÄ° ZAMAN Ä°STE BÄ°TTÄ° Ä°PTAL LÄ°STE ALIÅ SÄ°GORTA.
+daha fazla bilgi iÃ§in yardÄ±m gÃ¶rev.
+
+gÃ¶rev puan
+GÃ¶rev puanÄ±nÄ±zÄ± bildirir. PuanÄ±nÄ±zÄ± skor tablosundan da Ã¶ÄŸrenebilirsiniz.
+
+gÃ¶rev bilgi
+GÃ¶reviniz hakkÄ±nda bilgi verir.
+
+gÃ¶rev zaman
+GÃ¶revinizin bitmesine ne kadar kaldÄ±ÄŸÄ±nÄ± Ã¶ÄŸrenebilirsiniz.
+
+gÃ¶rev iste
+Bu kombinasyon gÃ¶rev almak iÃ§in kullanÄ±lÄ±r ve ancak bir gÃ¶revciyle aynÄ± odada
+olduÄŸunuzda iÅŸlevlidir.
+
+gÃ¶rev bitti
+Bu kombinasyon gÃ¶revciye gÃ¶revinizin bittiÄŸini haber vermek iÃ§in kullanÄ±lÄ±r
+ve ancak bir gÃ¶revciyle aynÄ± odada olduÄŸunuzda iÅŸlevlidir.
+
+gÃ¶rev iptal
+Bu kombinasyon aldÄ±ÄŸÄ±nÄ±z gÃ¶revi iptal etmek iÃ§in kullanÄ±lÄ±r ve ancak bir
+gÃ¶revciyle aynÄ± odada olduÄŸunuzda iÅŸlevlidir.
+GÃ¶rev iptal etmenin bedeli 3 gÃ¶rev puanÄ±dÄ±r.
+
+gÃ¶rev liste
+Bu kombinasyon gÃ¶rev puanÄ± karÅŸÄ±lÄ±ÄŸÄ±nda alÄ±nabilecek eÅŸyalarÄ±n listesini
+verir ve ancak bir gÃ¶revciyle aynÄ± odada olduÄŸunuzda iÅŸlevlidir.
+
+gÃ¶rev alÄ±ÅŸ <gÃ¶reveÅŸyasÄ±>
+Bu kombinasyon gÃ¶rev puanÄ± karÅŸÄ±lÄ±ÄŸÄ±nda gÃ¶rev eÅŸyasÄ± almak iÃ§in kullanÄ±lÄ±r
+ve ancak bir gÃ¶revciyle aynÄ± odada olduÄŸunuzda iÅŸlevlidir.
+Ã–rnek:
+gÃ¶rev alÄ±ÅŸ tunÃ§kemer
+
+gÃ¶rev sigorta <gÃ¶reveÅŸyasÄ±>
+Bu kombinasyon sigortadan yararlanarak kaybolan gÃ¶rev eÅŸyasÄ±nÄ± geri almak iÃ§in
+kullanÄ±lÄ±r ve ancak bir gÃ¶revciyle aynÄ± odada olduÄŸunuzda iÅŸlevlidir.
+Ã–rnek:
+gÃ¶rev sigorta tunÃ§kemer
 
 ~
 
-0 görün~
+0 gÃ¼nce~
 
-Karakteriniz "Görünmezlik, İleri görünmezlik, kamuflaj, saklanma vs gibi"
-komutların etkisi altındayken, yazdığınız takdirde görünür olacaktır.
-Not: Görün yazdığınız zaman süzülme etkinizde geçmektedir.
+Karakterinizin parasÄ± ve tecrÃ¼be puanÄ± hakkÄ±nda kÄ±sa bir sunum yapar.
+
+KullanÄ±mÄ±-1: gÃ¼nce
+
+Ã–rnek: gÃ¼nce
+13 altÄ±nÄ±n, 82 akÃ§en ve 18488 TecrÃ¼be PuanÄ±n var (seviye atlamaya 412).
 
 ~
 
-0 haykır~
+0 gÃ¶rÃ¼n~
 
-Oyun içi mesaj göndermek için kullanılır. Mesaj tüm bölgeye iletilir.
+Karakteriniz "GÃ¶rÃ¼nmezlik, Ä°leri gÃ¶rÃ¼nmezlik, kamuflaj, saklanma vs gibi"
+komutlarÄ±n etkisi altÄ±ndayken, yazdÄ±ÄŸÄ±nÄ±z takdirde gÃ¶rÃ¼nÃ¼r olacaktÄ±r.
+Not: GÃ¶rÃ¼n yazdÄ±ÄŸÄ±nÄ±z zaman sÃ¼zÃ¼lme etkinizde geÃ§mektedir.
 
-Kullanım-1: haykır mesaj
-Örnek: haykır dağılın lan!
+~
+
+0 haykÄ±r~
+
+Oyun iÃ§i mesaj gÃ¶ndermek iÃ§in kullanÄ±lÄ±r. Mesaj tÃ¼m bÃ¶lgeye iletilir.
+
+KullanÄ±m-1: haykÄ±r mesaj
+Ã–rnek: haykÄ±r daÄŸÄ±lÄ±n lan!
 
 ~
 
 0 havadurumu~
 
-Oyun dünyasında ki havadurumunu görmek için kullanılır. RK için önemli bir
-faktördür. Kapalı alanlarda (bina vb.) çalışmaz.
+Oyun dÃ¼nyasÄ±nda ki havadurumunu gÃ¶rmek iÃ§in kullanÄ±lÄ±r. RK iÃ§in Ã¶nemli bir
+faktÃ¶rdÃ¼r. KapalÄ± alanlarda (bina vb.) Ã§alÄ±ÅŸmaz.
 
-Kullanım-1: havadurumu
+KullanÄ±m-1: havadurumu
 
-Örnek: havadurumu
-Bulutlu ve ılık güney meltemi esiyor.
+Ã–rnek: havadurumu
+Bulutlu ve Ä±lÄ±k gÃ¼ney meltemi esiyor.
 
 ~
 
 0 hata~
 
-Oyundaki hataları ölümsüzlere iletmek için kullanılır. DİKKAT: Bu komut dua
-komutu ile karıştırmayınız. Lütfen sadece hataları rapor etmek için kullanın.
+Oyundaki hatalarÄ± Ã¶lÃ¼msÃ¼zlere iletmek iÃ§in kullanÄ±lÄ±r. DÄ°KKAT: Bu komut dua
+komutu ile karÄ±ÅŸtÄ±rmayÄ±nÄ±z. LÃ¼tfen sadece hatalarÄ± rapor etmek iÃ§in kullanÄ±n.
 
-Kullanım-1: hata mesaj
-Örnek: hata xxxx adlı oda çıkmaz oda.
-Hatalı kullanım: hata çıkmaz odaya girdim yardım edin.
+KullanÄ±m-1: hata mesaj
+Ã–rnek: hata xxxx adlÄ± oda Ã§Ä±kmaz oda.
+HatalÄ± kullanÄ±m: hata Ã§Ä±kmaz odaya girdim yardÄ±m edin.
 
 ~
 
-0 iç~
+0 iÃ§~
 
-Komut Adı: iç
+Komut AdÄ±: iÃ§
 
-Örnek:
-iç çeşme
-iç matara
+Ã–rnek:
+iÃ§ Ã§eÅŸme
+iÃ§ matara
 
-Karakteriniz susadığı zaman, su içmenizi sağlayacak olan komuttur.
-Tıkanmadığınız sürece her koşul altında su içebilirsiniz.
-(Uyurken su içmek gibi bir cinliği yapmayacağınızı varsayıyorum)
+Karakteriniz susadÄ±ÄŸÄ± zaman, su iÃ§menizi saÄŸlayacak olan komuttur.
+TÄ±kanmadÄ±ÄŸÄ±nÄ±z sÃ¼rece her koÅŸul altÄ±nda su iÃ§ebilirsiniz.
+(Uyurken su iÃ§mek gibi bir cinliÄŸi yapmayacaÄŸÄ±nÄ±zÄ± varsayÄ±yorum)
 
 ~
 
 0 intihar~
 
-Komut Adı: intihar
+Komut AdÄ±: intihar
 
-Karakteri silmek için kullanılır. İşlemin gerçekleşmesi için komutun tekrar
-edilmesi gerekir. Geri dönüşü yoktur.
+Karakteri silmek iÃ§in kullanÄ±lÄ±r. Ä°ÅŸlemin gerÃ§ekleÅŸmesi iÃ§in komutun tekrar
+edilmesi gerekir. Geri dÃ¶nÃ¼ÅŸÃ¼ yoktur.
 
 ~
 
-0 iyileştir~
+0 iyileÅŸtir~
 
-Şifacıdan belli bi ücret karşılığında büyü satın almak için kullanılır.
+ÅifacÄ±dan belli bi Ã¼cret karÅŸÄ±lÄ±ÄŸÄ±nda bÃ¼yÃ¼ satÄ±n almak iÃ§in kullanÄ±lÄ±r.
 
-Kullanım-1: iyileştir ( tüm büyüleri listeler )
-Kullanım-2: iyileştir <tip>
+KullanÄ±m-1: iyileÅŸtir ( tÃ¼m bÃ¼yÃ¼leri listeler )
+KullanÄ±m-2: iyileÅŸtir <tip>
 
 ~
 
 92 kabal~
 
-Oyuncuyu bir kabala almak için kullanılır.
+Oyuncuyu bir kabala almak iÃ§in kullanÄ±lÄ±r.
 
-Kullanım:
-kabal <oyuncu_adı> <kabal_adı>
+KullanÄ±m:
+kabal <oyuncu_adÄ±> <kabal_adÄ±>
 
 Kaballar:
-hiç
+hiÃ§
 kanun
 kaos
-tılsım
-öfke
+tÄ±lsÄ±m
+Ã¶fke
 
 ~
 
 0 kalk~
 
-Bu komut, ayakta olmadığınız durumlarda ayağa kalkmanızı sağlar.
+Bu komut, ayakta olmadÄ±ÄŸÄ±nÄ±z durumlarda ayaÄŸa kalkmanÄ±zÄ± saÄŸlar.
 
-Kullanım:
+KullanÄ±m:
 kalk
 
 Durumlar:
 1- Uyurken, dinlenirken, otururken
-2- Yere düştüğünüzde
+2- Yere dÃ¼ÅŸtÃ¼ÄŸÃ¼nÃ¼zde
 
 ~
 
 0 kanal~
 
-kanal komutu girildiği zaman karşınıza aşağıdaki durum göstergeci belirecektir;
+kanal komutu girildiÄŸi zaman karÅŸÄ±nÄ±za aÅŸaÄŸÄ±daki durum gÃ¶stergeci belirecektir;
 
 kanal       durumu
 ------------------
-kd          AÇIK
-bağır         AÇIK
-anlat           AÇIK
+kd          AÃ‡IK
+baÄŸÄ±r         AÃ‡IK
+anlat           AÃ‡IK
 sessiz modu     KAPALI
-Suflörün: Yp:%h/%H Mp:%m/%M Hp:%v/%V <%d>->
+SuflÃ¶rÃ¼n: Yp:%h/%H Mp:%m/%M Hp:%v/%V <%d>->
 
-burada kd, karakter dışı kanalını, bağır; bulunduğunuz şehirdeki bağırılarak
-konuşulanları gösteren kanalı, anlat; ise birinin size özel mesaj gönderdiği
-kanalı belirtmektedir.
-yanlarındaki açık|kapalı göstergeci de kanalın kullanıma açık yada kapalı
-olduğunu belirtir. bir kanalı kapatmak için sadece kanal adı girilip
-enterlenmesi yeterlidir. örneğin: kd kanalımız şu an açık olsun, kd yazıp
-enter'a bastığımızda kd kanalı kullanıma kapanacaktır.
+burada kd, karakter dÄ±ÅŸÄ± kanalÄ±nÄ±, baÄŸÄ±r; bulunduÄŸunuz ÅŸehirdeki baÄŸÄ±rÄ±larak
+konuÅŸulanlarÄ± gÃ¶steren kanalÄ±, anlat; ise birinin size Ã¶zel mesaj gÃ¶nderdiÄŸi
+kanalÄ± belirtmektedir.
+yanlarÄ±ndaki aÃ§Ä±k|kapalÄ± gÃ¶stergeci de kanalÄ±n kullanÄ±ma aÃ§Ä±k yada kapalÄ±
+olduÄŸunu belirtir. bir kanalÄ± kapatmak iÃ§in sadece kanal adÄ± girilip
+enterlenmesi yeterlidir. Ã¶rneÄŸin: kd kanalÄ±mÄ±z ÅŸu an aÃ§Ä±k olsun, kd yazÄ±p
+enter'a bastÄ±ÄŸÄ±mÄ±zda kd kanalÄ± kullanÄ±ma kapanacaktÄ±r.
 
-sessiz modu, tüm bu kanalların birden kapatılıp/açılmasını sağlar. sessiz
-modu açıldığında, yalnız söylenenleri ve duyguları algılamanız diğer
-kanallarda konuşulanları görmemeniz sağlanır.
+sessiz modu, tÃ¼m bu kanallarÄ±n birden kapatÄ±lÄ±p/aÃ§Ä±lmasÄ±nÄ± saÄŸlar. sessiz
+modu aÃ§Ä±ldÄ±ÄŸÄ±nda, yalnÄ±z sÃ¶ylenenleri ve duygularÄ± algÄ±lamanÄ±z diÄŸer
+kanallarda konuÅŸulanlarÄ± gÃ¶rmemeniz saÄŸlanÄ±r.
 
-süflor ise ekranınızda görülen, yaşam puanı, mana puanı ve hareket puanınızın
-nasıl görüleceğini belirtir.
+sÃ¼flor ise ekranÄ±nÄ±zda gÃ¶rÃ¼len, yaÅŸam puanÄ±, mana puanÄ± ve hareket puanÄ±nÄ±zÄ±n
+nasÄ±l gÃ¶rÃ¼leceÄŸini belirtir.
 
 ~
 
 0 kazan~
 
-Bu komut şunları yapar:
-1- Karakterinize yeni büyü ve yetenek grupları eklemenizi sağlar.
-2- Pratiklerinizi eğitime dönüştürmenizi sağlar.
-3- (sanırım) Seviyeye kalan TP'nizi 2 eğitim karşılığı 1'e indirir.
+Bu komut ÅŸunlarÄ± yapar:
+1- Karakterinize yeni bÃ¼yÃ¼ ve yetenek gruplarÄ± eklemenizi saÄŸlar.
+2- Pratiklerinizi eÄŸitime dÃ¶nÃ¼ÅŸtÃ¼rmenizi saÄŸlar.
+3- (sanÄ±rÄ±m) Seviyeye kalan TP'nizi 2 eÄŸitim karÅŸÄ±lÄ±ÄŸÄ± 1'e indirir.
 
-Kullanım:
+KullanÄ±m:
 kazan liste
-kazan eğitim
+kazan eÄŸitim
 kazan puan
 
 ~
 
 0 kd~
 
-Oyun dışı konularda konuşmak için kullanılır.
+Oyun dÄ±ÅŸÄ± konularda konuÅŸmak iÃ§in kullanÄ±lÄ±r.
 
-Kullanım-1: kd
-Kanalın açılıp kapatılmasını sağlar. Kanal kapalıyken bu kanaldan gönderilen
-mesajları göremezsiniz.
+KullanÄ±m-1: kd
+KanalÄ±n aÃ§Ä±lÄ±p kapatÄ±lmasÄ±nÄ± saÄŸlar. Kanal kapalÄ±yken bu kanaldan gÃ¶nderilen
+mesajlarÄ± gÃ¶remezsiniz.
 
-Kullanım-2: kd mesaj
-Mesajın iletilmesini sağlar.
+KullanÄ±m-2: kd mesaj
+MesajÄ±n iletilmesini saÄŸlar.
 
-Bu kanalın özellikleri:
-1- Gönderilen mesaj tüm diyar sakinlerine iletilir.
-2- Mesajın içeriği oyun dışıdır.
+Bu kanalÄ±n Ã¶zellikleri:
+1- GÃ¶nderilen mesaj tÃ¼m diyar sakinlerine iletilir.
+2- MesajÄ±n iÃ§eriÄŸi oyun dÄ±ÅŸÄ±dÄ±r.
 
 ~
 
 0 kim~
 
-Oyunda o anda (görülebilen) kimlerin olduğunu gösterir.
+Oyunda o anda (gÃ¶rÃ¼lebilen) kimlerin olduÄŸunu gÃ¶sterir.
 
-Kullanım-1: kim
-Kullanım-2: kim <seviye-aralığı>
-Kullanım-3: kim <sınıf veya ırk>
-Kullanım-4: kim <aşiret adı>
-Kullanım-5: kim <seviye-aralığı> <sınıf veya ırk> <aşiret adı>
+KullanÄ±m-1: kim
+KullanÄ±m-2: kim <seviye-aralÄ±ÄŸÄ±>
+KullanÄ±m-3: kim <sÄ±nÄ±f veya Ä±rk>
+KullanÄ±m-4: kim <aÅŸiret adÄ±>
+KullanÄ±m-5: kim <seviye-aralÄ±ÄŸÄ±> <sÄ±nÄ±f veya Ä±rk> <aÅŸiret adÄ±>
 
 
-kim komutu yukarıdaki argüman(lar)la kullanılabilir. Örneğin;
+kim komutu yukarÄ±daki argÃ¼man(lar)la kullanÄ±labilir. Ã–rneÄŸin;
 
-kim 10            10. seviye ve yukarısını listeler.
-kim 15 20         10. ve 20. seviye arasını listeler.
-kim savaşçı       savaşçıları listeler.
-kim savaşçı 1 5   1 ve 5. seviye arasındaki savaşçıları listeler.
-kim çora savaşçı  çora savaşçıları listeler
+kim 10            10. seviye ve yukarÄ±sÄ±nÄ± listeler.
+kim 15 20         10. ve 20. seviye arasÄ±nÄ± listeler.
+kim savaÅŸÃ§Ä±       savaÅŸÃ§Ä±larÄ± listeler.
+kim savaÅŸÃ§Ä± 1 5   1 ve 5. seviye arasÄ±ndaki savaÅŸÃ§Ä±larÄ± listeler.
+kim Ã§ora savaÅŸÃ§Ä±  Ã§ora savaÅŸÃ§Ä±larÄ± listeler
 
 ~
 
 0 kitap~
 
-Kitapçılardan kitap almak için öncelikle hangi kitaba ihtiyacınız olduğunu
-bilmeniz gerekiyor. Bunu öğrenmenin en kolay yolu {Gpratik{c yazmak.
-Çıkan listede "xxx. düzey kitap okunmalı" yazısını gördüğünüz konularda
-kitap alabilirsiniz. Örneğin listede şu çıkıyorsa:
+KitapÃ§Ä±lardan kitap almak iÃ§in Ã¶ncelikle hangi kitaba ihtiyacÄ±nÄ±z olduÄŸunu
+bilmeniz gerekiyor. Bunu Ã¶ÄŸrenmenin en kolay yolu {Gpratik{c yazmak.
+Ã‡Ä±kan listede "xxx. dÃ¼zey kitap okunmalÄ±" yazÄ±sÄ±nÄ± gÃ¶rdÃ¼ÄŸÃ¼nÃ¼z konularda
+kitap alabilirsiniz. Ã–rneÄŸin listede ÅŸu Ã§Ä±kÄ±yorsa:
 
-{G[0] ikili hamle        (Birinci düzey kitap okunmalı...){c
+{G[0] ikili hamle        (Birinci dÃ¼zey kitap okunmalÄ±...){c
 
-Bu konuda kitap satın almak için:
+Bu konuda kitap satÄ±n almak iÃ§in:
 
-{Gsöyle ikili hamle{c
+{GsÃ¶yle ikili hamle{c
 
 yazmak yeterli.
 
@@ -891,298 +891,298 @@ yazmak yeterli.
 
 0 kurban~
 
-Yerde duran eşyaları tanrılara kurban etmek için kullanılır.
+Yerde duran eÅŸyalarÄ± tanrÄ±lara kurban etmek iÃ§in kullanÄ±lÄ±r.
 
-Kullanım-1: kurban eşya
-Örnek: kurban zırh
+KullanÄ±m-1: kurban eÅŸya
+Ã–rnek: kurban zÄ±rh
 
-Kullanım-2: kurban tümü
-Bu kullanımda yerde duran tüm eşyalar kurban edilir.
+KullanÄ±m-2: kurban tÃ¼mÃ¼
+Bu kullanÄ±mda yerde duran tÃ¼m eÅŸyalar kurban edilir.
 
 Notlar:
-Kurban işleminin ardından tanrılar bir miktar akçe verir.
+Kurban iÅŸleminin ardÄ±ndan tanrÄ±lar bir miktar akÃ§e verir.
 
 ~
 
 0 liste~
 
-Dükkanlarda, barlarda satılanların listesini görmek için kullanılır.
+DÃ¼kkanlarda, barlarda satÄ±lanlarÄ±n listesini gÃ¶rmek iÃ§in kullanÄ±lÄ±r.
 
-Kullanım-1: liste
+KullanÄ±m-1: liste
 
 ~
 
 0 nerede~
 
-nerede komutu girildiğinde, bulunduğunuz bölgede hangi odada olduğunuz ve eğer
-sizden başka, (görülebilir ve saklı olmayan) diğer oyuncular varsa, hangi
-odalarda olduklarını gösterir.
+nerede komutu girildiÄŸinde, bulunduÄŸunuz bÃ¶lgede hangi odada olduÄŸunuz ve eÄŸer
+sizden baÅŸka, (gÃ¶rÃ¼lebilir ve saklÄ± olmayan) diÄŸer oyuncular varsa, hangi
+odalarda olduklarÄ±nÄ± gÃ¶sterir.
 
-ayrıca; nerede mob_adı şeklinde kullanılarak mobun hangi odada olduğunu
-görmenizi sağlar.
+ayrÄ±ca; nerede mob_adÄ± ÅŸeklinde kullanÄ±larak mobun hangi odada olduÄŸunu
+gÃ¶rmenizi saÄŸlar.
 
 ~
 
 0 oku~
 
-Elinizdeki parşömen üzerindeki gücü etkin hale getirmenizi sağlar.
+Elinizdeki parÅŸÃ¶men Ã¼zerindeki gÃ¼cÃ¼ etkin hale getirmenizi saÄŸlar.
 
-Kullanım-1: oku parşömen_adı
+KullanÄ±m-1: oku parÅŸÃ¶men_adÄ±
 
-Örneğin, elinizde bir anımsama parşömeni varsa:
-oku anımsa
+Ã–rneÄŸin, elinizde bir anÄ±msama parÅŸÃ¶meni varsa:
+oku anÄ±msa
 
 ~
 
--1 özet~
+-1 Ã¶zet~
 
 TEMEL HAREKET KOMUTLARI:
-kuzey, güney, doğu, batı, yukarı, aşağı
+kuzey, gÃ¼ney, doÄŸu, batÄ±, yukarÄ±, aÅŸaÄŸÄ±
 
-TEMEL EŞYA KOMUTLARI
-al, koy, bırak, ver, kurban, giy, oku, yudumla, savur, kilitle, aç, kapat,
-maymuncuk, envanter, ekipman, bak, kıyasla, ye, iç, doldur, liste, alış,
-satış, değer ...
+TEMEL EÅYA KOMUTLARI
+al, koy, bÄ±rak, ver, kurban, giy, oku, yudumla, savur, kilitle, aÃ§, kapat,
+maymuncuk, envanter, ekipman, bak, kÄ±yasla, ye, iÃ§, doldur, liste, alÄ±ÅŸ,
+satÄ±ÅŸ, deÄŸer ...
 
-TEMEL BİLGİ / İLETİŞİM KOMUTLARI
+TEMEL BÄ°LGÄ° / Ä°LETÄ°ÅÄ°M KOMUTLARI
 
-yardım, komutlar, bölgeler, rapor, skor, zaman, havadurumu, parola,
-kd, söyle, anlat, cevapla, bağır, haykır, ganlat, duygu, dua
+yardÄ±m, komutlar, bÃ¶lgeler, rapor, skor, zaman, havadurumu, parola,
+kd, sÃ¶yle, anlat, cevapla, baÄŸÄ±r, haykÄ±r, ganlat, duygu, dua
 
-TEMEL DÖVÜŞ KOMUTLARI
-öldür, kaç, kurtar, silahsızlandır, ardılan, büyü
+TEMEL DÃ–VÃœÅ KOMUTLARI
+Ã¶ldÃ¼r, kaÃ§, kurtar, silahsÄ±zlandÄ±r, ardÄ±lan, bÃ¼yÃ¼
 
-DİĞER ÖNEMLİ KOMUTLAR
-kaydet ayrıl pratik eğitim
+DÄ°ÄER Ã–NEMLÄ° KOMUTLAR
+kaydet ayrÄ±l pratik eÄŸitim
 
-Daha fazla yardım için {Gyardım başlık{c yazın...
-
-~
-
-0 paraçek~
-
-Banka olan odalarda hesabınızdan para çekmek için kullanılır.
-
-Kullanım: paraçek miktar altın
-Örnek: paraçek 10 altın
+Daha fazla yardÄ±m iÃ§in {GyardÄ±m baÅŸlÄ±k{c yazÄ±n...
 
 ~
 
-0 parayatır~
+0 paraÃ§ek~
 
-Banka olan odalarda hesabınıza para yatırmak için kullanılır.
+Banka olan odalarda hesabÄ±nÄ±zdan para Ã§ekmek iÃ§in kullanÄ±lÄ±r.
 
-Kullanım: parayatır miktar altın
-Örnek: parayatır 10 altın
+KullanÄ±m: paraÃ§ek miktar altÄ±n
+Ã–rnek: paraÃ§ek 10 altÄ±n
+
+~
+
+0 parayatÄ±r~
+
+Banka olan odalarda hesabÄ±nÄ±za para yatÄ±rmak iÃ§in kullanÄ±lÄ±r.
+
+KullanÄ±m: parayatÄ±r miktar altÄ±n
+Ã–rnek: parayatÄ±r 10 altÄ±n
 
 ~
 
 0 parola~
 
-Parola değiştirmek için kullanılır.
+Parola deÄŸiÅŸtirmek iÃ§in kullanÄ±lÄ±r.
 
-Kullanım-1: parola <eski_parola> <yeni_parola>
+KullanÄ±m-1: parola <eski_parola> <yeni_parola>
 
-Diyelim ki eski parolamız deneme
-Bu parolayı 4444 ile değiştirmek istiyoruz:
+Diyelim ki eski parolamÄ±z deneme
+Bu parolayÄ± 4444 ile deÄŸiÅŸtirmek istiyoruz:
 
 parola deneme 4444
 
-yazdık mı tamamdır...
+yazdÄ±k mÄ± tamamdÄ±r...
 
 ~
 
 0 saklan~
 
-Gölgelerin içine gizlenmeyi sağlar. Bir hırsız yeteneğidir.
+GÃ¶lgelerin iÃ§ine gizlenmeyi saÄŸlar. Bir hÄ±rsÄ±z yeteneÄŸidir.
 
-Kullanım: saklan
+KullanÄ±m: saklan
 
 Notlar:
-Komutu kullanınca alacağınız tek mesaj "Saklanmayı deniyorsun." olur. Yapıp
-yapamadığınızı bilemezsiniz.
+Komutu kullanÄ±nca alacaÄŸÄ±nÄ±z tek mesaj "SaklanmayÄ± deniyorsun." olur. YapÄ±p
+yapamadÄ±ÄŸÄ±nÄ±zÄ± bilemezsiniz.
 
 ~
 
 0 sat~
 
-Bir eşyayı dükkanlara satmak için kullanılır.
+Bir eÅŸyayÄ± dÃ¼kkanlara satmak iÃ§in kullanÄ±lÄ±r.
 
-Kullanım-1: sat eşya
-Örnek: sat zırh
+KullanÄ±m-1: sat eÅŸya
+Ã–rnek: sat zÄ±rh
 
 ~
 
 0 sosyal~
 
-komut girildiğinde aşağıdaki liste karşınıza gelir.
+komut girildiÄŸinde aÅŸaÄŸÄ±daki liste karÅŸÄ±nÄ±za gelir.
 
-gülümse     kahkaha     ağla        şarkı       tokat       elsalla
-esne        zıpla       elöp        kafaat      bekle       volta
+gÃ¼lÃ¼mse     kahkaha     aÄŸla        ÅŸarkÄ±       tokat       elsalla
+esne        zÄ±pla       elÃ¶p        kafaat      bekle       volta
 
-şimdilik bununla sınırlı olup ileride daha çok sosyal komutu eklenecektir.
-Komutlar sosyal hareketler sergilemenizi sağlar.
+ÅŸimdilik bununla sÄ±nÄ±rlÄ± olup ileride daha Ã§ok sosyal komutu eklenecektir.
+Komutlar sosyal hareketler sergilemenizi saÄŸlar.
 
-örneğin volta komutu girildiğinde,
-Beklemekten sıkıldın. Volta atıyorsun.
-Yazısı ekrana yansır. Aynı zamanda bu yazı odada bulunan diğer oyunculara da
-gideceğinden o anki ruh halinizi yansıtmanızı da sağlamış olur.
-
-~
-
-0 söyle~
-
-Sizinle aynı odada bulunanlara oyun içi mesaj göndermek için kullanılır. Yani
-bu bir RK (rol kesme) kanalıdır.
-
-Kullanım-1: söyle mesaj
-
-Örnek: söyle selam
-
-
-Özellikleri:
-1- Mesajın içeriği rol kesme amaçlı olmalıdır.
+Ã¶rneÄŸin volta komutu girildiÄŸinde,
+Beklemekten sÄ±kÄ±ldÄ±n. Volta atÄ±yorsun.
+YazÄ±sÄ± ekrana yansÄ±r. AynÄ± zamanda bu yazÄ± odada bulunan diÄŸer oyunculara da
+gideceÄŸinden o anki ruh halinizi yansÄ±tmanÄ±zÄ± da saÄŸlamÄ±ÅŸ olur.
 
 ~
 
-0 suflör~
+0 sÃ¶yle~
 
-Oyun ekranında yaşam puanının, mananın yazılı olduğu, her satırda tekrar tekrar
-görünen şeye suflör denir.
+Sizinle aynÄ± odada bulunanlara oyun iÃ§i mesaj gÃ¶ndermek iÃ§in kullanÄ±lÄ±r. Yani
+bu bir RK (rol kesme) kanalÄ±dÄ±r.
 
-Suflör komutu suflör satırının kontrolünde kullanılır.
+KullanÄ±m-1: sÃ¶yle mesaj
 
-Kullanım-1:
-suflör
-Boş kullanımda suflör kapatılır veya açılır.
+Ã–rnek: sÃ¶yle selam
 
-Kullanım-2:
-suflör tümü
+
+Ã–zellikleri:
+1- MesajÄ±n iÃ§eriÄŸi rol kesme amaÃ§lÄ± olmalÄ±dÄ±r.
+
+~
+
+0 suflÃ¶r~
+
+Oyun ekranÄ±nda yaÅŸam puanÄ±nÄ±n, mananÄ±n yazÄ±lÄ± olduÄŸu, her satÄ±rda tekrar tekrar
+gÃ¶rÃ¼nen ÅŸeye suflÃ¶r denir.
+
+SuflÃ¶r komutu suflÃ¶r satÄ±rÄ±nÄ±n kontrolÃ¼nde kullanÄ±lÄ±r.
+
+KullanÄ±m-1:
+suflÃ¶r
+BoÅŸ kullanÄ±mda suflÃ¶r kapatÄ±lÄ±r veya aÃ§Ä±lÄ±r.
+
+KullanÄ±m-2:
+suflÃ¶r tÃ¼mÃ¼
 Yp:xx/XX Mp:xx/XX Hp:xx/XX <X>->
-Şeklindeki temel suflörü kullanıma sokar. "x" ve "X"li yerlere sayısal bilgiler
+Åeklindeki temel suflÃ¶rÃ¼ kullanÄ±ma sokar. "x" ve "X"li yerlere sayÄ±sal bilgiler
 gelmektedir.
 
 ~
 
-0 süzül~
+0 sÃ¼zÃ¼l~
 
-Sessiz hareket etmeyi sağlar. Bir hırsız yeteneğidir.
+Sessiz hareket etmeyi saÄŸlar. Bir hÄ±rsÄ±z yeteneÄŸidir.
 
-Kullanım: süzül
+KullanÄ±m: sÃ¼zÃ¼l
 
 Notlar:
-1- Komutu kullanınca alacağınız tek mesaj "Süzülmeyi deniyorsun." olur. Yapıp
-yapamadığınızı bilemezsiniz.
-2- Süzülen bir karakteri onunla aynı odada olanların görüp göremeyeceği belli
-olmaz. Sessizce odaya girmiş bir hırsız odanın kuytu bir köşesine geçip kendini
-unutturmuş olabilir. Şans...
+1- Komutu kullanÄ±nca alacaÄŸÄ±nÄ±z tek mesaj "SÃ¼zÃ¼lmeyi deniyorsun." olur. YapÄ±p
+yapamadÄ±ÄŸÄ±nÄ±zÄ± bilemezsiniz.
+2- SÃ¼zÃ¼len bir karakteri onunla aynÄ± odada olanlarÄ±n gÃ¶rÃ¼p gÃ¶remeyeceÄŸi belli
+olmaz. Sessizce odaya girmiÅŸ bir hÄ±rsÄ±z odanÄ±n kuytu bir kÃ¶ÅŸesine geÃ§ip kendini
+unutturmuÅŸ olabilir. Åans...
 
 ~
 
-0 tanım~
+0 tanÄ±m~
 
-Bu komut sayesinde oyuncular karakterlerine bir dış görünüm tanımı yazarlar.
-Dikkat edin, bir DIŞ GÖRÜNÜM tanımı diyorum.
+Bu komut sayesinde oyuncular karakterlerine bir dÄ±ÅŸ gÃ¶rÃ¼nÃ¼m tanÄ±mÄ± yazarlar.
+Dikkat edin, bir DIÅ GÃ–RÃœNÃœM tanÄ±mÄ± diyorum.
 
-Kullanımı:
-tanım
-tanım + <satır>
-tanım - <satır>
+KullanÄ±mÄ±:
+tanÄ±m
+tanÄ±m + <satÄ±r>
+tanÄ±m - <satÄ±r>
 
-tanım o anki tanımınızı gösterir.
-tanım + ile tanımın sonuna yeni satır eklenir.
-tanım - ile en alt satır çıkartılır.
+tanÄ±m o anki tanÄ±mÄ±nÄ±zÄ± gÃ¶sterir.
+tanÄ±m + ile tanÄ±mÄ±n sonuna yeni satÄ±r eklenir.
+tanÄ±m - ile en alt satÄ±r Ã§Ä±kartÄ±lÄ±r.
 
-Örnek:
-tanım + Oldukça kısa boylu bir cüce görüyorsun.
-tanım + Saçı sakalı birbirine karışmış...
+Ã–rnek:
+tanÄ±m + OldukÃ§a kÄ±sa boylu bir cÃ¼ce gÃ¶rÃ¼yorsun.
+tanÄ±m + SaÃ§Ä± sakalÄ± birbirine karÄ±ÅŸmÄ±ÅŸ...
 
-Karakter tanımlarının en az 10 satır olması ve aşağıdaki kurallara uyması
+Karakter tanÄ±mlarÄ±nÄ±n en az 10 satÄ±r olmasÄ± ve aÅŸaÄŸÄ±daki kurallara uymasÄ±
 gerekir:
-1- Tanımda "bakınca korkuyorsun" gibi cümleler kurulup karşıdakine zorla
-bir şeyler hissettirilemez.
+1- TanÄ±mda "bakÄ±nca korkuyorsun" gibi cÃ¼mleler kurulup karÅŸÄ±dakine zorla
+bir ÅŸeyler hissettirilemez.
 
 ~
 
 0 tara~
 
-Bulunduğunuz yerin komşu odalarını taramanızı sağlar.
-İki şekilde kullanılabilir.
+BulunduÄŸunuz yerin komÅŸu odalarÄ±nÄ± taramanÄ±zÄ± saÄŸlar.
+Ä°ki ÅŸekilde kullanÄ±labilir.
 1- parametresiz
-2- yön parametreli
+2- yÃ¶n parametreli
 
-PARAMETRESİZ KULLANIM:
+PARAMETRESÄ°Z KULLANIM:
 tara
-Çevrenizdeki odaları bir birim derinlikte taramanızı sağlar.
+Ã‡evrenizdeki odalarÄ± bir birim derinlikte taramanÄ±zÄ± saÄŸlar.
 
-PARAMETRELİ KULLANIM:
-tara <yön>
-örnek: tara kuzey
-Belirttiğiniz yönü bir birimden fazla derinlikte taramanızı sağlar.
+PARAMETRELÄ° KULLANIM:
+tara <yÃ¶n>
+Ã¶rnek: tara kuzey
+BelirttiÄŸiniz yÃ¶nÃ¼ bir birimden fazla derinlikte taramanÄ±zÄ± saÄŸlar.
 
 ~
 
 0 tart~
 
-Seviyenize göre rakibinizin zorluk seviyesini gösterir.
+Seviyenize gÃ¶re rakibinizin zorluk seviyesini gÃ¶sterir.
 
-Kullanım: tart mob_adı
+KullanÄ±m: tart mob_adÄ±
 
-Örnek1: tart hassan
-İntihar günahtır.
-Örnek2: tart canavar
-Tam dişine göre!
+Ã–rnek1: tart hassan
+Ä°ntihar gÃ¼nahtÄ±r.
+Ã–rnek2: tart canavar
+Tam diÅŸine gÃ¶re!
 
 ~
 
 0 uyu~
 
-Karakterinizin uyku pozisyonuna geçmesini sağlar.
+Karakterinizin uyku pozisyonuna geÃ§mesini saÄŸlar.
 
-Kullanım:
+KullanÄ±m:
 uyu
 
-1- Uyku pozisyonunda iyileşme hızı en fazladır.
-2- Uyku pozisyonunda çevrede olanlardan haberdar olunamaz.
-3- Uyku pozisyonundan çıkmak için kalk komutu kullanılabilir.
+1- Uyku pozisyonunda iyileÅŸme hÄ±zÄ± en fazladÄ±r.
+2- Uyku pozisyonunda Ã§evrede olanlardan haberdar olunamaz.
+3- Uyku pozisyonundan Ã§Ä±kmak iÃ§in kalk komutu kullanÄ±labilir.
 
 ~
 
 0 yudumla~
 
-İksirleri içmek için kullanılır.
+Ä°ksirleri iÃ§mek iÃ§in kullanÄ±lÄ±r.
 
-Kullanım-1: yudumla <iksir_adı>
-Örnek: yudumla takdis
+KullanÄ±m-1: yudumla <iksir_adÄ±>
+Ã–rnek: yudumla takdis
 
 ~
 
 0 zar~
 
-Kumarhanede mekancıyla zar atmanızı sağlar. En az 5 altınla oynanır.
+Kumarhanede mekancÄ±yla zar atmanÄ±zÄ± saÄŸlar. En az 5 altÄ±nla oynanÄ±r.
 
-Kullanım:
-zar liste ( Zar tiplerini görmeyi sağlar )
-zar <zar_tipi> <yatırılan_altın>
+KullanÄ±m:
+zar liste ( Zar tiplerini gÃ¶rmeyi saÄŸlar )
+zar <zar_tipi> <yatÄ±rÄ±lan_altÄ±n>
 
-Örnek: zar altı 100
+Ã–rnek: zar altÄ± 100
 
-( Sansar hanınım doğu tarafında hizmette bir kumarhane var )
+( Sansar hanÄ±nÄ±m doÄŸu tarafÄ±nda hizmette bir kumarhane var )
 
 ~
 
 0 zaman~
 
-Oyun dünyasındaki ve gerçek dünyada ki zamanı görmeye yarar. RK için önemli bir
-faktördür.
+Oyun dÃ¼nyasÄ±ndaki ve gerÃ§ek dÃ¼nyada ki zamanÄ± gÃ¶rmeye yarar. RK iÃ§in Ã¶nemli bir
+faktÃ¶rdÃ¼r.
 
-Kullanım-1: zaman
+KullanÄ±m-1: zaman
 
-Örnek: zaman
-Saat 1 am, the Sun günü, 27th the Month of the Frost Giant.
-UD açılış saati: Sun Jan 14 21:11:24 2007
+Ã–rnek: zaman
+Saat 1 am, the Sun gÃ¼nÃ¼, 27th the Month of the Frost Giant.
+UD aÃ§Ä±lÄ±ÅŸ saati: Sun Jan 14 21:11:24 2007
 
-Sistem zamanı: Mon Jan 15 00:30:01 2007
+Sistem zamanÄ±: Mon Jan 15 00:30:01 2007
 .
 
 ~

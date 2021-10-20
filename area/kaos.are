@@ -1,9 +1,9 @@
 #AREADATA
 Filename kaos.are~
-Name Kaos Çemberi~
+Name Kaos Ã‡emberi~
 Builder Asena~
 Translator Bilinmiyor~
-Language Türkçe~
+Language TÃ¼rkÃ§e~
 Lowlevel 90
 Highlevel 100
 Minvnum 550
@@ -19,22 +19,22 @@ C
 
 #NEW_MOBILES
 #550
-şifacı usta kabal kaos~
-Şifacı~
-Şifacı ustayı görüyorsun.
+ÅŸifacÄ± usta kabal kaos~
+ÅifacÄ±~
+ÅifacÄ± ustayÄ± gÃ¶rÃ¼yorsun.
 ~
-Yaşlı, bilge bir tehu yoldaşlarını kaosla kutsuyor. Onun inancına göre
-güç uzun bir yaşamda gizlidir.
+YaÅŸlÄ±, bilge bir tehu yoldaÅŸlarÄ±nÄ± kaosla kutsuyor. Onun inancÄ±na gÃ¶re
+gÃ¼Ã§ uzun bir yaÅŸamda gizlidir.
 ~
 human~
 ABQVae DFH 90
 
 #551
-kaosun bekçisi ivan~
-Kaosun bekçisi İvan~
-Kaosun bekçisi İvan girişi koruyor.
+kaosun bekÃ§isi ivan~
+Kaosun bekÃ§isi Ä°van~
+Kaosun bekÃ§isi Ä°van giriÅŸi koruyor.
 ~
-Kara zırhı içinde çelik bir duvar gibi Kaos Halkası'nı koruyor.
+Kara zÄ±rhÄ± iÃ§inde Ã§elik bir duvar gibi Kaos HalkasÄ±'nÄ± koruyor.
 ~
 human~
 ABKWe DFHJVZc 93
@@ -44,7 +44,7 @@ ABKWe DFHJVZc 93
 #550
 siyah mermer anahtar~
 siyah mermer anahtar~
-Siyah mermer bir anahtar şekil değiştiriyor.~
+Siyah mermer bir anahtar ÅŸekil deÄŸiÅŸtiriyor.~
 marble~
 key ORY AO
 0 0 0 0 0
@@ -52,23 +52,23 @@ key ORY AO
 #551
 mimber~
 mimber~
-Altın bir mimber odanın göbeğinde nefes alıyor.~
+AltÄ±n bir mimber odanÄ±n gÃ¶beÄŸinde nefes alÄ±yor.~
 gold~
 container ORY P
 10 15 550 15 100
 60 1 20 P
 #552
-kaos taşı~
-kaos taşı~
-Kaos taşını görüyorsun.~
+kaos taÅŸÄ±~
+kaos taÅŸÄ±~
+Kaos taÅŸÄ±nÄ± gÃ¶rÃ¼yorsun.~
 gold~
 treasure O AO
 0 0 0 0 0
 60 1 100000 P
 #553
-kaos hançeri~
-Kaos hançeri~
-Altından yapılmış parlak bir hançer görüyorsun.~
+kaos hanÃ§eri~
+Kaos hanÃ§eri~
+AltÄ±ndan yapÄ±lmÄ±ÅŸ parlak bir hanÃ§er gÃ¶rÃ¼yorsun.~
 gold~
 weapon TWAIP AN
 dagger 6 6 pierce D
@@ -77,9 +77,9 @@ dagger 6 6 pierce D
 
 #ROOMS
 #550
-Giriş~
-Kaos Cenneti'ne hoşgeldiniz. Burada ne kural ne de kanun vardır. Burada
-Kaos yoldaşları bağları koparılamayan kardeşlikle birbirlerine bağlanır.
+GiriÅŸ~
+Kaos Cenneti'ne hoÅŸgeldiniz. Burada ne kural ne de kanun vardÄ±r. Burada
+Kaos yoldaÅŸlarÄ± baÄŸlarÄ± koparÄ±lamayan kardeÅŸlikle birbirlerine baÄŸlanÄ±r.
 ~
 0 DX 0
 D0
@@ -94,7 +94,7 @@ S
 
 #551
 Kadim Koridor~
-Kaos Halkası'nın uzun koridorundasın. Parlak, ağaç bir zeminde duruyorsun.
+Kaos HalkasÄ±'nÄ±n uzun koridorundasÄ±n. Parlak, aÄŸaÃ§ bir zeminde duruyorsun.
 ~
 0 DX 0
 D0
@@ -115,9 +115,9 @@ D3
 0 -1 553
 S
 #552
-Kışla Alanı~
-Yüzlerce yıldır kazanılmış zaferlerin kutlandığı alandasın. Rutubetli
-havayı hissediyorsun.
+KÄ±ÅŸla AlanÄ±~
+YÃ¼zlerce yÄ±ldÄ±r kazanÄ±lmÄ±ÅŸ zaferlerin kutlandÄ±ÄŸÄ± alandasÄ±n. Rutubetli
+havayÄ± hissediyorsun.
 ~
 0 DX 0
 D3
@@ -126,9 +126,9 @@ D3
 0 -1 551
 S
 #553
-Depo Odası~
-Kaos efendilerinin silahlarını, zırhlarını ve eşyalarını depoladığı
-odadasın.
+Depo OdasÄ±~
+Kaos efendilerinin silahlarÄ±nÄ±, zÄ±rhlarÄ±nÄ± ve eÅŸyalarÄ±nÄ± depoladÄ±ÄŸÄ±
+odadasÄ±n.
 ~
 0 DX 0
 D1
@@ -138,11 +138,11 @@ D1
 S
 #554
 Kaos Mimberi~
-Kaos'u hissediyorsun. Kuralsızlığın getirdiği özgürlüğü görüyorsun.
-Geçmişte yaşamış yoldaşların duvarlara sinmiş ruhlarının verdiği
-güvenle doluyorsun. Ve o tek kuralı hatırlıyorsun:
+Kaos'u hissediyorsun. KuralsÄ±zlÄ±ÄŸÄ±n getirdiÄŸi Ã¶zgÃ¼rlÃ¼ÄŸÃ¼ gÃ¶rÃ¼yorsun.
+GeÃ§miÅŸte yaÅŸamÄ±ÅŸ yoldaÅŸlarÄ±n duvarlara sinmiÅŸ ruhlarÄ±nÄ±n verdiÄŸi
+gÃ¼venle doluyorsun. Ve o tek kuralÄ± hatÄ±rlÄ±yorsun:
 
-          "Ne kadar uzun yaşarsan o kadar güçlü olursun!"
+          "Ne kadar uzun yaÅŸarsan o kadar gÃ¼Ã§lÃ¼ olursun!"
 ~
 0 DX 0
 D2
