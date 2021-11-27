@@ -61,6 +61,7 @@
 #include <sys/time.h>
 #include <sys/resource.h>
 #include <sys/dir.h>
+#include <mysql/mysql.h>
 #endif
 
 #include "merc.h"
@@ -99,6 +100,9 @@ HELP_DATA *		help_last;
 
 SHOP_DATA *		shop_first;
 SHOP_DATA *		shop_last;
+
+AREA_DATA *		area_first;
+AREA_DATA *		area_last;
 
 char			bug_buf		[2*MAX_INPUT_LENGTH];
 CHAR_DATA *		char_list;
@@ -373,6 +377,7 @@ sh_int  		gsn_recall;
 sh_int  		gsn_detect_hidden;
 sh_int  gsn_pass_door;
 
+ini_t * config;
 
 
 /*
@@ -383,12 +388,15 @@ OBJ_INDEX_DATA *	obj_index_hash		[MAX_KEY_HASH];
 ROOM_INDEX_DATA *	room_index_hash		[MAX_KEY_HASH];
 char *			string_hash		[MAX_KEY_HASH];
 
-AREA_DATA *		area_first;
-AREA_DATA *		area_last;
-
 char *			string_space;
 char *			top_string;
 char			str_empty	[1];
+
+int   db_run;
+char * db_server;
+char * db_name;
+char * db_user;
+char * db_password;
 
 int			top_affect;
 int			top_area;
@@ -490,6 +498,38 @@ void boot_db( void )
         init_random_number_generator( );
     }
 
+    /*
+     * init ini file
+    */
+    config = ini_load("../uzakdiyarlar.ini");
+    db_run = atoi(ini_get(config, "database", "db_run"));
+    if (db_run == 1 || db_run == 2) {
+        db_server = (char*)ini_get(config, "database", "db_server");
+        if(!db_server)
+        {
+            bugf( "'No valid 'db_server'.\n\r" );
+            exit( 1 );
+        }
+        db_name = (char*)ini_get(config, "database", "db_name");
+        if(!db_name)
+        {
+            bugf( "No valid 'db_name'.\n\r" );
+            exit( 1 );
+        }
+        db_user = (char*)ini_get(config, "database", "db_user");
+        if(!db_user)
+        {
+            bugf( "No valid 'db_user'.\n\r" );
+            exit( 1 );
+        }
+        db_password = (char*)ini_get(config, "database", "db_password");
+        if(!db_password)
+        {
+            bugf( "No valid 'db_password'.\n\r" );
+            exit( 1 );
+        }
+    }
+
     ikikat_tp = 0;
     ikikat_gp = 0;
 
@@ -561,8 +601,15 @@ void boot_db( void )
     /*
      * Read in all the area files.
      */
+    if (db_run == 0 || db_run == 1)
     {
 	FILE *fpList;
+
+    if(db_run == 1)
+    {
+        bugf("'db_run' is not set. Application will run with *.are files.\n\r");
+        bugf("db tables will be filled with freshly read data.\n\r");
+    }
 
 	if ( ( fpList = fopen( AREA_LIST, "r" ) ) == NULL )
 	{
@@ -630,8 +677,30 @@ void boot_db( void )
 	}
 	fclose( fpList );
 	Serarea = NULL;
-    }
+    }// End of reading area files.
 
+    // Dont read area files but read the database.
+    else if (db_run == 2)
+    {
+        bugf("Mud will run with data served by database.\n\r");
+        /*mysql_read_help();
+        mysql_read_social();
+        mysql_read_area();
+        mysql_read_room();
+        mysql_read_room_exit();
+        mysql_read_room_extra_description();
+        mysql_read_mobile();
+        mysql_read_object();
+        mysql_read_object_extra_description();
+        mysql_read_object_affect_data();
+        mysql_read_reset();
+        mysql_read_shop();*/
+    }
+    else
+    {
+        bugf("No valid value for 'db_run'. Exiting.\n\r");
+        exit( 1 );
+    }
     {
       fix_exits( );
       load_limited_objects();
@@ -705,6 +774,10 @@ void load_areadata( FILE *fp )
 			case 'E':
 				if ( !str_cmp( word, "END" ) )
 				{
+                    if (db_run == 1)
+                    {
+                        mysql_write_areadata( pArea );
+                    }
 					return;
 				}
 			break;
@@ -776,6 +849,7 @@ void load_helps( FILE *fp )
 	help_last	= pHelp;
 	pHelp->next	= NULL;
 	top_help++;
+    mysql_write_help( pHelp );
     }
 
     return;
@@ -922,6 +996,11 @@ void load_old_obj( FILE *fp )
 	    pObjIndex->value[3] = slot_lookup( pObjIndex->value[3] );
 	    break;
 	}
+
+    if (atoi(ini_get(config, "database", "db_run"))== 1)
+    {
+        mysql_write_object( pObjIndex , area_last );
+    }
 
 	iHash			= vnum % MAX_KEY_HASH;
 	pObjIndex->next		= obj_index_hash[iHash];
@@ -3277,7 +3356,11 @@ int number_range( int from, int to )
 
   fark = to - from;
 
-  if( fark == 0 )
+  /*
+   * FROM'un TO'dan buyuk oldugu durumlar
+   * icin.
+   */
+  if( fark <= 0 )
   {
     return from;
   }
@@ -3839,5 +3922,226 @@ void load_resetmsg( FILE *fp )
 void load_aflag( FILE *fp )
 {
     Serarea->area_flag	= fread_flag(fp);
+    return;
+}
+
+/*************************************************
+*                                                *
+*                Mysql functions                 *
+*                                                *
+**************************************************/
+
+/***************************************************************************
+ DB connection
+***************************************************************************/
+MYSQL *DB_CONNECT()
+{
+    MYSQL *hnd;
+
+    if ( (hnd = mysql_init(NULL)) == NULL )
+    {
+        bugf("Couldn't init mysql.\n\r");
+        return NULL;
+    }
+
+    mysql_options(hnd, MYSQL_SET_CHARSET_NAME, "latin5");
+
+    if ( mysql_real_connect(hnd,db_server,db_user,db_password,db_name,0,NULL,0) == NULL )
+    {
+        bugf("Couldn't connect mysql database %s on %s with %s.\n\r", db_name, db_server, db_user);
+        return NULL;
+    }
+
+
+    if (!mysql_set_character_set(hnd, "latin5-turkish-ci"))
+    {
+        bugf("New client character set: %s\n\r", mysql_character_set_name(hnd));
+    }
+    return hnd;
+}
+
+/***************************************************************************
+ Adding escape character in front of single quote characters
+***************************************************************************/
+void mysql_escape_string(char *query, char *escaped)
+{
+    char 	*point_orig, *point_escaped;
+    if(!query)
+    {
+        return;
+    }
+    point_escaped = escaped;
+    for(point_orig=query;*point_orig;point_orig++)
+    {
+        if( *point_orig == '\'' )
+        {
+            *point_escaped = '\\';
+            point_escaped++;
+        }
+        if( *point_orig == '%' )
+        {
+            *point_escaped = '\%';
+            point_escaped++;
+        }
+        *point_escaped = *point_orig;
+        point_escaped++;
+    }
+    return;
+}
+
+/***************************************************************************
+ Where the WRITE queries are executed.
+***************************************************************************/
+void mysql_execute_query(char *query, int i)
+{
+    MYSQL *hnd;
+    int result;
+
+    hnd = DB_CONNECT();
+
+    if( hnd == NULL )
+        return;
+
+    result = mysql_real_query( hnd , query , strlen( query ) );
+
+    if(result != 0 )
+    {
+        bugf("mysql_real_query() error(%d): %s\n\r",result,query);
+    }
+
+    mysql_close( hnd );
+}
+
+/***************************************************************************
+ A sample logging with MySQL. Used in do_say() for now.
+***************************************************************************/
+void mysql_log_communication( char *channel , CHAR_DATA *ch, CHAR_DATA *victim , int room_vnum , char *data )
+{
+    char datetime[100];
+    char query[ MAX_STRING_LENGTH ];
+
+    strftime(datetime, sizeof(datetime), "%Y-%m-%d %X", localtime(&current_time));
+
+    sprintf( query , "INSERT INTO `pc_communication` VALUES( NULL , '%s' , '%s' , '%s' ,'%s' , '%d' , '%s' )" , \
+  (char*)datetime , channel , (ch!=NULL)?ch->name:(char*)"" , (victim!=NULL)?victim->name:(char*)"",room_vnum , data );
+
+    mysql_execute_query(query,0);
+
+    return;
+}
+
+/***************************************************************************
+ Writing #AREADATA info in DB.
+***************************************************************************/
+void mysql_write_areadata( AREA_DATA *pArea )
+{
+    char query[ MAX_STRING_LENGTH ];
+    char arg1[MAX_STRING_LENGTH];
+    char arg2[MAX_STRING_LENGTH];
+    char arg3[MAX_STRING_LENGTH];
+    char arg4[MAX_STRING_LENGTH];
+    char arg5[MAX_STRING_LENGTH];
+    char arg6[MAX_STRING_LENGTH];
+    char arg7[MAX_STRING_LENGTH];
+
+    memset(arg1,0,sizeof(arg1));
+    memset(arg2,0,sizeof(arg2));
+    memset(arg3,0,sizeof(arg3));
+    memset(arg4,0,sizeof(arg3));
+    memset(arg5,0,sizeof(arg3));
+    memset(arg6,0,sizeof(arg3));
+    memset(arg7,0,sizeof(arg3));
+
+    mysql_escape_string(pArea->file_name,arg1);
+    mysql_escape_string(pArea->name,arg2);
+    mysql_escape_string(pArea->writer,arg3);
+    //mysql_escape_string(pArea->resetmsg,arg4);
+    mysql_escape_string(pArea->language,arg5);
+    mysql_escape_string(pArea->translator,arg6);
+    mysql_escape_string(pArea->path,arg7);
+
+    sprintf( query , "INSERT INTO `mud_area` (id,filename,name,builder,translator,language,low_level,high_level,min_vnum,max_vnum,path,align_good,align_neutral,align_evil) VALUES( NULL , '%s' , '%s' , '%s' , '%s' , '%s' ,'%d' , '%d' , '%d' , '%d' , '%s' , '%d' , '%d' , '%d' )" , arg1 , arg2 , arg3 , arg6, arg5 , pArea->low_range ,pArea->high_range , pArea->min_vnum , pArea->max_vnum, arg7, pArea->yonelim_iyi, pArea->yonelim_yansiz, pArea->yonelim_kem );
+
+    mysql_execute_query(query,0);
+
+    return;
+}
+
+/***************************************************************************
+ Writing #AREADATA info in DB.
+***************************************************************************/
+void mysql_write_help( HELP_DATA *pHelp )
+{
+    char query[ 5 * MAX_STRING_LENGTH ];
+    char arg1[5*MAX_STRING_LENGTH];
+    char arg2[5*MAX_STRING_LENGTH];
+
+    memset(arg1,0,sizeof(arg1));
+    memset(arg2,0,sizeof(arg2));
+
+    mysql_escape_string(pHelp->keyword,arg1);
+    mysql_escape_string(pHelp->text,arg2);
+
+    sprintf( query , "INSERT INTO `mud_help` (id,level,keyword,text) VALUES( NULL , '%d' , '%s' , '%s')" , pHelp->level, arg1 , arg2 );
+
+    //bugf(query);
+    mysql_execute_query(query,0);
+
+    return;
+}
+
+/***************************************************************************
+ Writing #MOBILES info in DB.
+***************************************************************************/
+void mysql_write_mobile( MOB_INDEX_DATA *pMobIndex, AREA_DATA *pArea )
+{
+    char query[ MAX_STRING_LENGTH ];
+    char arg1[MAX_STRING_LENGTH];
+    char arg2[MAX_STRING_LENGTH];
+    char arg3[MAX_STRING_LENGTH];
+    char arg4[MAX_STRING_LENGTH];
+
+    memset(arg1,0,sizeof(arg1));
+    memset(arg2,0,sizeof(arg2));
+    memset(arg3,0,sizeof(arg3));
+    memset(arg4,0,sizeof(arg4));
+
+    mysql_escape_string(pMobIndex->player_name,arg1);
+    mysql_escape_string(pMobIndex->short_descr,arg2);
+    mysql_escape_string(pMobIndex->long_descr,arg3);
+    mysql_escape_string(pMobIndex->description,arg4);
+
+    sprintf( query , "INSERT INTO `mud_mobile` (id,vnum,area_filename,player_name,short_descr,long_descr,description,race,act,affected_by,level) VALUES( NULL , '%d' , '%s' , '%s' , '%s' , '%s' ,'%s' , '%d' , '%ld' , '%ld' , '%d' )" , pMobIndex->vnum, pArea->file_name, arg1 , arg2 , arg3 , arg4 , pMobIndex->race, pMobIndex->act, pMobIndex->affected_by, pMobIndex->level );
+
+    mysql_execute_query(query,0);
+
+    return;
+}
+
+/***************************************************************************
+ Writing #OBJECTS info in DB.
+***************************************************************************/
+void mysql_write_object( OBJ_INDEX_DATA *pObjIndex , AREA_DATA *pArea )
+{
+    char query[ MAX_STRING_LENGTH ];
+    char arg1[MAX_STRING_LENGTH];
+    char arg2[MAX_STRING_LENGTH];
+    char arg3[MAX_STRING_LENGTH];
+    char arg4[MAX_STRING_LENGTH];
+
+    memset(arg1,0,sizeof(arg1));
+    memset(arg2,0,sizeof(arg2));
+    memset(arg3,0,sizeof(arg3));
+    memset(arg4,0,sizeof(arg4));
+
+    mysql_escape_string(pObjIndex->name,arg1);
+    mysql_escape_string(pObjIndex->short_descr,arg2);
+    mysql_escape_string(pObjIndex->description,arg3);
+    mysql_escape_string(pObjIndex->material,arg4);
+
+    sprintf( query , "INSERT INTO `mud_object` (id,vnum,area_filename,name,short_descr,description,material,item_type,extra_flags,wear_flags,level,condition,weight,cost,limit,value0,value1,value2,value3,value4) VALUES( NULL , '%d' , '%s' , '%s' , '%s' , '%s' ,'%s' , '%d' , '%d' , '%d' , '%d' , '%d' , '%d' , '%d' , '%d' , '%d' , '%d' , '%d' , '%d' , '%d' )" , pObjIndex->vnum, pArea->file_name, arg1 , arg2 , arg3 , arg4 , pObjIndex->item_type, pObjIndex->extra_flags, pObjIndex->wear_flags, pObjIndex->level, pObjIndex->condition, pObjIndex->weight, pObjIndex->cost, -1, pObjIndex->value[0], pObjIndex->value[1], pObjIndex->value[2], pObjIndex->value[4] );
+
+    mysql_execute_query(query,0);
+
     return;
 }

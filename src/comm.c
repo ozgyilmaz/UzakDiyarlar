@@ -1,8 +1,8 @@
 /***************************************************************************
  *                                                                         *
- * Uzak Diyarlar açýk kaynak Türkçe Mud projesidir.                        *
- * Oyun geliþtirmesi Jai ve Maru tarafýndan yönetilmektedir.               *
- * Unutulmamasý gerekenler: Nir, Kame, Nyah, Sint                          *
+ * Uzak Diyarlar aï¿½ï¿½k kaynak Tï¿½rkï¿½e Mud projesidir.                        *
+ * Oyun geliï¿½tirmesi Jai ve Maru tarafï¿½ndan yï¿½netilmektedir.               *
+ * Unutulmamasï¿½ gerekenler: Nir, Kame, Nyah, Sint                          *
  *                                                                         *
  * Github  : https://github.com/yelbuke/UzakDiyarlar                       *
  * Web     : http://www.uzakdiyarlar.net                                   *
@@ -207,7 +207,11 @@ int	listen		args( ( int s, int backlog ) );
 */
 
 int	close		args( ( int fd ) );
-int	gettimeofday	args( ( struct timeval *tp, struct timezone *tzp ) );
+/*
+ * Ubuntu20 ve Centos8 icin bunun kapali kalmasi gerekiyor.
+ * Sistem library'lerindeki tanimla cakisiyor.
+ */
+//int	gettimeofday	args( ( struct timeval *tp, struct timezone *tzp ) );
 int	read		args( ( int fd, char *buf, int nbyte ) );
 int	select		args( ( int width, fd_set *readfds, fd_set *writefds,
 			    fd_set *exceptfds, struct timeval *timeout ) );
@@ -436,7 +440,7 @@ int main( int argc, char **argv )
 	}
 	else if ( ( port = atoi( argv[1] ) ) <= 1024 )
 	{
-		fprintf( stderr, "Port 1024'ün üzerinde olmalý.\n" );
+		fprintf( stderr, "Port 1024'ï¿½n ï¿½zerinde olmalï¿½.\n" );
 	    exit( 1 );
 	}
     }
@@ -447,7 +451,7 @@ int main( int argc, char **argv )
 
 #if defined(macintosh) || defined(MSDOS)
     boot_db( );
-    log_string( "UD kullanýma hazýr." );
+    log_string( "UD kullanï¿½ma hazï¿½r." );
     game_loop_mac_msdos( );
 #endif
 
@@ -456,7 +460,7 @@ int main( int argc, char **argv )
 #if defined(unix)
     control = init_socket( port );
     boot_db( );
-		sprintf( log_buf, "UD %d portunda kullanýma hazýr.", port );
+		sprintf( log_buf, "UD %d portunda kullanï¿½ma hazï¿½r.", port );
     log_string( log_buf );
     game_loop_unix( control );
     close (control);
@@ -467,7 +471,7 @@ int main( int argc, char **argv )
     /*
      * That's all, folks.
      */
-		 log_string( "Oyun normal þekilde sonlandý." );
+		 log_string( "Oyun normal ï¿½ekilde sonlandï¿½." );
     exit( 0 );
     return 0;
 }
@@ -1003,7 +1007,7 @@ void init_descriptor( int control )
     if ( check_ban(dnew->host,BAN_ALL))
     {
 	write_to_descriptor( desc,
-	    (char*)"Sitenizden yapýlan baðlantýlar engellenmiþtir.\n\r", 0 );
+	    (char*)"Sitenizden yapï¿½lan baï¿½lantï¿½lar engellenmiï¿½tir.\n\r", 0 );
 	close( desc );
 	free_descriptor(dnew);
 	return;
@@ -1043,7 +1047,7 @@ void close_socket( DESCRIPTOR_DATA *dclose )
     if ( dclose->snoop_by != NULL )
     {
 	write_to_buffer( dclose->snoop_by,
-		"Kurbanýn oyundan ayrýldý.\n\r", 0 );
+		"Kurbanï¿½n oyundan ayrï¿½ldï¿½.\n\r", 0 );
     }
 
     {
@@ -1058,7 +1062,7 @@ void close_socket( DESCRIPTOR_DATA *dclose )
 
     if ( ( ch = dclose->character ) != NULL )
     {
-			sprintf( log_buf, "Baðlantý kapatýlýyor: %s.", ch->name );
+			sprintf( log_buf, "Baï¿½lantï¿½ kapatï¿½lï¿½yor: %s.", ch->name );
 	log_string( log_buf );
 
 	if (ch->pet &&
@@ -1072,8 +1076,8 @@ void close_socket( DESCRIPTOR_DATA *dclose )
 	if ( dclose->connected == CON_PLAYING )
 	{
 	    if (!IS_IMMORTAL(ch))
-	       act( "$n baðlantýsýný kaybetti.", ch, NULL, NULL, TO_ROOM );
-				 wiznet("$N baðlantýsýný kaybetti.",ch,NULL,WIZ_LINKS,0,0);
+	       act( "$n baï¿½lantï¿½sï¿½nï¿½ kaybetti.", ch, NULL, NULL, TO_ROOM );
+				 wiznet("$N baï¿½lantï¿½sï¿½nï¿½ kaybetti.",ch,NULL,WIZ_LINKS,0,0);
 	    ch->desc = NULL;
 	}
 	else
@@ -1131,7 +1135,7 @@ bool read_from_descriptor( DESCRIPTOR_DATA *d )
 	sprintf( log_buf, "%s input overflow!", d->host );
 	log_string( log_buf );
 	write_to_descriptor( d->descriptor,
-	    (char*)"\n\r*** BUNA BÝR SON VER!!! ***\n\r", 0 );
+	    (char*)"\n\r*** BUNA Bï¿½R SON VER!!! ***\n\r", 0 );
 	return FALSE;
     }
 
@@ -1221,7 +1225,7 @@ void read_from_buffer( DESCRIPTOR_DATA *d )
     {
 	if ( k >= MAX_INPUT_LENGTH - 2 )
 	{
-	    write_to_descriptor( d->descriptor, (char*)"Satýr çok uzun.\n\r", 0 );
+	    write_to_descriptor( d->descriptor, (char*)"Satï¿½r ï¿½ok uzun.\n\r", 0 );
 
 	    /* skip the rest of the line */
 	    for ( ; d->inbuf[i] != '\0'; i++ )
@@ -1237,11 +1241,11 @@ void read_from_buffer( DESCRIPTOR_DATA *d )
 	if ( d->inbuf[i] == '\b' && k > 0 )
 	    --k;
 			else if (( isascii(d->inbuf[i]) && isprint(d->inbuf[i]) )
-     ||d->inbuf[i]=='ý' ||d->inbuf[i]=='ð'
-     || d->inbuf[i]=='ü' || d->inbuf[i]=='þ'|| d->inbuf[i]=='ö'
-     ||d->inbuf[i]=='ç' ||d->inbuf[i]=='Ý' ||d->inbuf[i]=='Ð'
-     ||d->inbuf[i]=='Ü'||d->inbuf[i]=='Þ'||d->inbuf[i]=='Ö'
-      ||d->inbuf[i]=='Ç')
+     ||d->inbuf[i]=='ï¿½' ||d->inbuf[i]=='ï¿½'
+     || d->inbuf[i]=='ï¿½' || d->inbuf[i]=='ï¿½'|| d->inbuf[i]=='ï¿½'
+     ||d->inbuf[i]=='ï¿½' ||d->inbuf[i]=='ï¿½' ||d->inbuf[i]=='ï¿½'
+     ||d->inbuf[i]=='ï¿½'||d->inbuf[i]=='ï¿½'||d->inbuf[i]=='ï¿½'
+      ||d->inbuf[i]=='ï¿½')
 	    d->incomm[k++] = d->inbuf[i];
     }
 
@@ -1280,7 +1284,7 @@ void read_from_buffer( DESCRIPTOR_DATA *d )
 		d->repeat = 0;
 
 		write_to_descriptor( d->descriptor,
-		    (char*)"\n\r*** BUNA BÝR SON VER!!! ***\n\r", 0 );
+		    (char*)"\n\r*** BUNA Bï¿½R SON VER!!! ***\n\r", 0 );
 /*		strcpy( d->incomm, "quit" );	*/
 		close_socket( d );
 		return;
@@ -1327,7 +1331,7 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
 		 if ( d->pProtocol->WriteOOB ) /* <-- Add this, and the ";" and "else" */
          ; /* The last sent data was OOB, so do NOT draw the prompt */
      else if (!merc_down && d->showstr_point)
-	write_to_buffer(d,"\r[Devam etmek için ENTER]\n\r",0);
+	write_to_buffer(d,"\r[Devam etmek iï¿½in ENTER]\n\r",0);
     else if (fPrompt && !merc_down && d->connected == CON_PLAYING)
     {
    	CHAR_DATA *ch;
@@ -1348,21 +1352,21 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
                 percent = -1;
 
 								if (percent >= 100)
-		                sprintf(wound,"mükemmel durumda.");
+		                sprintf(wound,"mï¿½kemmel durumda.");
 		            else if (percent >= 90)
-		                sprintf(wound,"birkaç çiziði var.");
+		                sprintf(wound,"birkaï¿½ ï¿½iziï¿½i var.");
 		            else if (percent >= 75)
-		                sprintf(wound,"birkaç kesiði var.");
+		                sprintf(wound,"birkaï¿½ kesiï¿½i var.");
 		            else if (percent >= 50)
-		                sprintf(wound,"kanayan yaralarla kaplý.");
+		                sprintf(wound,"kanayan yaralarla kaplï¿½.");
 		            else if (percent >= 30)
 		                sprintf(wound,"kan kaybediyor.");
 		            else if (percent >= 15)
-		                sprintf(wound,"acý içinde baðýrýyor.");
+		                sprintf(wound,"acï¿½ iï¿½inde baï¿½ï¿½rï¿½yor.");
 		            else if (percent >= 0)
-		                sprintf(wound,"acýyla sürünüyor.");
+		                sprintf(wound,"acï¿½yla sï¿½rï¿½nï¿½yor.");
 		            else
-		                sprintf(wound,"ölmek üzere.");
+		                sprintf(wound,"ï¿½lmek ï¿½zere.");
 
 
             sprintf(buf,"%s %s \n\r",
@@ -1688,7 +1692,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	argument[0] = UPPER(argument[0]);
 	if ( !check_parse_name( argument ) )
 	{
-		write_to_buffer( d, "Kurallara uygun olmayan isim, baþka bir tane deneyin.\n\rÝsim: ", 0 );
+		write_to_buffer( d, "Kurallara uygun olmayan isim, baï¿½ka bir tane deneyin.\n\rï¿½sim: ", 0 );
 	    return;
 	}
 
@@ -1700,7 +1704,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	{
           if ( check_ban(d->host,BAN_PLAYER))
             {
-							write_to_buffer( d,"Sitenizden oyuncu giriþi engellenmiþtir.\n\r",0);
+							write_to_buffer( d,"Sitenizden oyuncu giriï¿½i engellenmiï¿½tir.\n\r",0);
 	     close_socket( d );
 	     return;
             }
@@ -1709,7 +1713,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 #ifdef NO_PLAYING_TWICE
          if(search_sockets(d))
 	        {
-						write_to_buffer(d, "Çift karakterle oynamak yasak.\n\r", 0);
+						write_to_buffer(d, "ï¿½ift karakterle oynamak yasak.\n\r", 0);
 	          close_socket(d);
 	          return;
 		}
@@ -1722,7 +1726,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	{
 	    sprintf( log_buf, "Denying access to %s@%s.", argument, d->host );
 	    log_string( log_buf );
-			write_to_buffer( d, "Eriþiminiz engellendi.\n\r", 0 );
+			write_to_buffer( d, "Eriï¿½iminiz engellendi.\n\r", 0 );
 	    close_socket( d );
 	    return;
 	}
@@ -1779,7 +1783,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    /* New player */
  	    if (newlock)
 	    {
-				write_to_buffer( d, "Yeni karakter giriþi kapalýdýr.\n\r", 0 );
+				write_to_buffer( d, "Yeni karakter giriï¿½i kapalï¿½dï¿½r.\n\r", 0 );
                 close_socket( d );
                 return;
             }
@@ -1787,7 +1791,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
             if (check_ban(d->host,BAN_NEWBIES))
             {
                 write_to_buffer(d,
-									"Sitenizden yeni karakter yaratýlamamaktadýr.\n\r",0);
+									"Sitenizden yeni karakter yaratï¿½lamamaktadï¿½r.\n\r",0);
                 close_socket(d);
                 return;
             }
@@ -1795,7 +1799,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
             if (check_name_connected(d,argument))
             {
                 write_to_buffer(d,
-									"Bu karakter oyunda, baþka bir tane deneyin.\n\rÝsim: ",0);
+									"Bu karakter oyunda, baï¿½ka bir tane deneyin.\n\rï¿½sim: ",0);
 		free_char( d->character );
 		d->character = NULL;
 		d->connected = CON_GET_NAME;
@@ -1803,7 +1807,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
             }
 
  	    do_help(ch,(char*)"isim");
-			sprintf( buf, "\n\rDoðru anladým mý, %s (E/H)? ", argument );
+			sprintf( buf, "\n\rDoï¿½ru anladï¿½m mï¿½, %s (E/H)? ", argument );
 			write_to_buffer( d, buf, 0 );
 	    d->connected = CON_CONFIRM_NEW_NAME;
 	    return;
@@ -1826,7 +1830,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	      return;
 	    }
 
-	    write_to_buffer( d, "Yanlýþ þifre.\n\r", 0 );
+	    write_to_buffer( d, "Yanlï¿½ï¿½ ï¿½ifre.\n\r", 0 );
 	    sprintf(buf, "Wrong password by %s@%s", ch->name, d->host);
 	    log_string(buf);
 	    if (ch->endur == 2)
@@ -1835,7 +1839,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 		}
 	    else
 		{
- 	    	 write_to_buffer( d, "Þifre: ", 0 );
+ 	    	 write_to_buffer( d, "ï¿½ifre: ", 0 );
 				 ProtocolNoEcho( d, true );
 	    	 d->connected = CON_GET_OLD_PASSWORD;
 		 ch->endur++;
@@ -1928,15 +1932,15 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    else
 		do_help(ch,argument);
             write_to_buffer(d,
-							"Sýnýfýnýz nedir (bilgi için: www.uzakdiyarlar.net)? ",0);
+							"Sï¿½nï¿½fï¿½nï¿½z nedir (bilgi iï¿½in: www.uzakdiyarlar.net)? ",0);
 	    return;
 	}
 
 	if ( iClass == -1 )
 	{
 	    write_to_buffer( d,
-				"Bu bir sýnýf deðil.\n\r"
-				"Sýnýfýnýz NEDÝR (Gan/Biçimci/Ögeci)? ", 0 );
+				"Bu bir sï¿½nï¿½f deï¿½il.\n\r"
+				"Sï¿½nï¿½fï¿½nï¿½z NEDï¿½R (Gan/Biï¿½imci/ï¿½geci)? ", 0 );
 	    return;
 	}
 
@@ -1945,7 +1949,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 		&& iClass != CLASS_ELEMENTALIST )
 	{
 	    write_to_buffer(d,
-				"Bu sýnýf yasaklý.\n\rBaþka bir tane seçin:",0);
+				"Bu sï¿½nï¿½f yasaklï¿½.\n\rBaï¿½ka bir tane seï¿½in:",0);
 	    return;
 	}
 
@@ -1953,9 +1957,9 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	ch->pcdata->points = class_table[iClass].points
 		+ class_table[ORG_RACE(ch)].points;
-	sprintf(buf, "Artýk sýnýfýn %s.\n\r", class_table[iClass].name[1]);
+	sprintf(buf, "Artï¿½k sï¿½nï¿½fï¿½n %s.\n\r", class_table[iClass].name[1]);
 	write_to_buffer(d, buf, 0 );
-	write_to_buffer( d, "[Devam etmek için ENTER]\n\r",0);
+	write_to_buffer( d, "[Devam etmek iï¿½in ENTER]\n\r",0);
 	d->connected = CON_READ_MOTD;
 	break;
 
@@ -1978,7 +1982,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    }
 	    if (check_reconnect(d,ch->name,TRUE))
 	    	return;
-				write_to_buffer(d,"Tekrar baðlanýlamadý.\n\rÝsim: ",0);
+				write_to_buffer(d,"Tekrar baï¿½lanï¿½lamadï¿½.\n\rï¿½sim: ",0);
             if ( d->character != NULL )
             {
                 free_char( d->character );
@@ -1988,7 +1992,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    break;
 
 			case 'h' : case 'H':
-	    write_to_buffer(d,"Ýsim: ",0);
+	    write_to_buffer(d,"ï¿½sim: ",0);
             if ( d->character != NULL )
             {
                 free_char( d->character );
@@ -1998,7 +2002,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    break;
 
 	default:
-	write_to_buffer(d,"Lütfen cevap verin (E-H). ",0);
+	write_to_buffer(d,"Lï¿½tfen cevap verin (E-H). ",0);
 	    break;
 	}
 	break;
@@ -2008,7 +2012,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	{
 		case 'e': case 'E':
 		ProtocolNoEcho( d, true );
-	sprintf( buf, "\n\rTeþekkürler.\n\r%s karakteri için bir þifre girin: ",
+	sprintf( buf, "\n\rTeï¿½ekkï¿½rler.\n\r%s karakteri iï¿½in bir ï¿½ifre girin: ",
 		ch->name );
 	    write_to_buffer( d, buf, 0 );
 	    d->connected = CON_GET_NEW_PASSWORD;
@@ -2022,7 +2026,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    break;
 
 	default:
-	    write_to_buffer( d, "Cevabýn nedir ( E - H )? ", 0 );
+	    write_to_buffer( d, "Cevabï¿½n nedir ( E - H )? ", 0 );
 	    break;
 	}
 	break;
@@ -2035,7 +2039,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	if ( strlen(argument) < 5 )
 	{
 	    write_to_buffer( d,
-				"Þifre en az 5 karakter uzunluðunda olmalýdýr.\n\rÞifre: ",
+				"ï¿½ifre en az 5 karakter uzunluï¿½unda olmalï¿½dï¿½r.\n\rï¿½ifre: ",
 		0 );
 	    return;
 	}
@@ -2046,7 +2050,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    if ( *p == '~' )
 	    {
 		write_to_buffer( d,
-			"Girdiðiniz þifre kabul edilebilir deðil.\n\rLütfen iþlemi tekrarlayýn.\n\rÞifre: ",
+			"Girdiï¿½iniz ï¿½ifre kabul edilebilir deï¿½il.\n\rLï¿½tfen iï¿½lemi tekrarlayï¿½n.\n\rï¿½ifre: ",
 		    0 );
 		return;
 	    }
@@ -2054,7 +2058,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	free_string( ch->pcdata->pwd );
 	ch->pcdata->pwd	= str_dup( pwdnew );
-	write_to_buffer( d, "Lütfen þifreyi tekrar girin: ", 0 );
+	write_to_buffer( d, "Lï¿½tfen ï¿½ifreyi tekrar girin: ", 0 );
 	d->connected = CON_CONFIRM_NEW_PASSWORD;
 	break;
 
@@ -2065,7 +2069,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	if ( strcmp( crypt( argument, ch->pcdata->pwd ), ch->pcdata->pwd ) )
 	{
-		write_to_buffer( d, "\n\rGirilen þifreler eþleþmiyor.\n\rLütfen iþlemi tekrarlayýn.\n\rÞifre: ",
+		write_to_buffer( d, "\n\rGirilen ï¿½ifreler eï¿½leï¿½miyor.\n\rLï¿½tfen iï¿½lemi tekrarlayï¿½n.\n\rï¿½ifre: ",
 		0 );
 	    d->connected = CON_GET_NEW_PASSWORD;
 	    return;
@@ -2073,11 +2077,11 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	ProtocolNoEcho( d, false );
 	sprintf(buf,
-"Uzak Diyarlar Mud %d farklý ýrka ev sahipliði yapar. Irklarýn özeti:",
+"Uzak Diyarlar Mud %d farklï¿½ ï¿½rka ev sahipliï¿½i yapar. Irklarï¿½n ï¿½zeti:",
 			MAX_PC_RACE - 1);
 	write_to_buffer( d, buf, 0);
 	write_to_buffer( d, "\n\r", 0);
-	do_help(ch,(char*)"ýrklar");
+	do_help(ch,(char*)"ï¿½rklar");
 	d->connected = CON_GET_NEW_RACE;
 	break;
 
@@ -2085,31 +2089,31 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	SET_BIT( ch->act, PLR_CANREMORT );
 	SET_BIT( ch->act, PLR_REMORTED );
 	sprintf(buf,
-"Bildiðin gibi Uzak Diyarlar Mud'da %d farklý ýrk bulunmaktadýr:",
+"Bildiï¿½in gibi Uzak Diyarlar Mud'da %d farklï¿½ ï¿½rk bulunmaktadï¿½r:",
 			MAX_PC_RACE - 1);
 	write_to_buffer( d, buf, 0);
 	write_to_buffer( d, "\n\r", 0);
-	do_help(ch,(char*)"ýrklar");
+	do_help(ch,(char*)"ï¿½rklar");
 	d->connected = CON_GET_NEW_RACE;
 	break;
 
     case CON_GET_NEW_RACE:
 	one_argument(argument,arg);
 
-	if (!str_cmp(arg,"yardým"))
+	if (!str_cmp(arg,"yardï¿½m"))
 	{
 	    argument = one_argument(argument,arg);
 	    if (argument[0] == '\0')
 	      {
-			write_to_buffer( d, "Aþaðýda ýrk listesi verilmiþtir. Lütfen seçiniz:\n\n\r", 0);
-            	do_help(ch,(char*)"ýrklar");
+			write_to_buffer( d, "Aï¿½aï¿½ï¿½da ï¿½rk listesi verilmiï¿½tir. Lï¿½tfen seï¿½iniz:\n\n\r", 0);
+            	do_help(ch,(char*)"ï¿½rklar");
 		break;
 	      }
 	    else
 	      {
 		do_help(ch,argument);
                 write_to_buffer(d,
-									"Irkýnýz nedir? (bilgi: www.uzakdiyarlar.net) ",0);
+									"Irkï¿½nï¿½z nedir? (bilgi: www.uzakdiyarlar.net) ",0);
 	      }
 	    break;
   	}
@@ -2118,8 +2122,8 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	if (race == 0 || !race_table[race].pc_race)
 	{
-		write_to_buffer(d,"\n\rGeçerli bir ýrk seçmedin.\n\r",0);
-					write_to_buffer(d,"Aþaðýdakilerden birini seçebilirsin:\n\r  ",0);
+		write_to_buffer(d,"\n\rGeï¿½erli bir ï¿½rk seï¿½medin.\n\r",0);
+					write_to_buffer(d,"Aï¿½aï¿½ï¿½dakilerden birini seï¿½ebilirsin:\n\r  ",0);
             for ( race = 1; race_table[race].name[0] != NULL; race++ )
             {
             	if (!race_table[race].pc_race)
@@ -2132,7 +2136,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
             }
             write_to_buffer(d,"\n\r",0);
             write_to_buffer(d,
-							"Irkýnýz nedir? (bilgi: www.uzakdiyarlar.net) ",0);
+							"Irkï¿½nï¿½z nedir? (bilgi: www.uzakdiyarlar.net) ",0);
 	    break;
 	}
 
@@ -2168,7 +2172,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	ch->pcdata->familya[race] = 75;
 
-	write_to_buffer( d, "\n\rIrk seçimi tamam.\n\rPeki karakterin cinsiyeti ne olsun ( E - K )? ", 0 );
+	write_to_buffer( d, "\n\rIrk seï¿½imi tamam.\n\rPeki karakterin cinsiyeti ne olsun ( E - K )? ", 0 );
         d->connected = CON_GET_NEW_SEX;
         break;
 
@@ -2183,13 +2187,13 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 			    ch->pcdata->true_sex = SEX_FEMALE;
 			    break;
 	default:
-	write_to_buffer( d, "Seçimin geçerli bir cinsiyet deðil.\n\rKarakterin cinsiyeti ne olsun ( E - K )? ", 0 );
+	write_to_buffer( d, "Seï¿½imin geï¿½erli bir cinsiyet deï¿½il.\n\rKarakterin cinsiyeti ne olsun ( E - K )? ", 0 );
 	    return;
 	}
 
-	do_help(ch,(char*)"sýnýflar");
+	do_help(ch,(char*)"sï¿½nï¿½flar");
 
-	strcpy( buf, "Bir sýnýf seçin:\n\r[ " );
+	strcpy( buf, "Bir sï¿½nï¿½f seï¿½in:\n\r[ " );
 	for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
 	{
 	  strcat( buf, class_table[iClass].name[1] );
@@ -2198,7 +2202,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	strcat( buf, "]\n\r " );
 	write_to_buffer( d, buf, 0 );
             write_to_buffer(d,
-		"Sýnýfýn ne olsun (bilgi: www.uzakdiyarlar.net)? ",0);
+		"Sï¿½nï¿½fï¿½n ne olsun (bilgi: www.uzakdiyarlar.net)? ",0);
         d->connected = CON_GET_NEW_CLASS;
         break;
 
@@ -2206,28 +2210,28 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	iClass = class_lookup(argument);
 	argument = one_argument(argument,arg);
 
-	if (!str_cmp(arg,"yardým"))
+	if (!str_cmp(arg,"yardï¿½m"))
 	  {
 	    if (argument[0] == '\0')
-		do_help(ch,(char*)"sýnýflar");
+		do_help(ch,(char*)"sï¿½nï¿½flar");
 	    else
 		do_help(ch,argument);
             write_to_buffer(d,
-		"Sýnýfýn ne olsun (bilgi: www.uzakdiyarlar.net)? ",0);
+		"Sï¿½nï¿½fï¿½n ne olsun (bilgi: www.uzakdiyarlar.net)? ",0);
 	    return;
 	  }
 
 	if ( iClass == -1 )
 	{
 	    write_to_buffer( d,
-				"\n\rBu bir sýnýf deðil.\n\rKarakterinin sýnýfý ne olsun? ", 0 );
+				"\n\rBu bir sï¿½nï¿½f deï¿½il.\n\rKarakterinin sï¿½nï¿½fï¿½ ne olsun? ", 0 );
 	    return;
 	}
 
         ch->iclass = iClass;
 
 	ch->pcdata->points += class_table[iClass].points;
-	sprintf(buf, "Tebrikler! Karakterin %s sýnýfýndan.\n\r", class_table[iClass].name[1]);
+	sprintf(buf, "Tebrikler! Karakterin %s sï¿½nï¿½fï¿½ndan.\n\r", class_table[iClass].name[1]);
 	write_to_buffer(d, buf, 0 );
 
 	for (i=0; i < MAX_STATS; i++)
@@ -2238,12 +2242,12 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	ch->perm_stat[STAT_CHA] = 15;
 
 	write_to_buffer( d, "\n\r", 2 );
-	write_to_buffer( d, "Sýra geldi karakterin için yönelim seçmeye. Yönelim, basit\n\r",0);
-	write_to_buffer( d, "bir ifadeyle karakterin topluma ve doðaya karþý davranýþ\n\r",0);
-	write_to_buffer( d, "biçimini belirler. Ayrýntýlý bilgiye siteden ulaþabilirsin.\n\r\n\r",0);
-	write_to_buffer( d, "Üç çeþit yönelim vardýr:\n\r",0);
-	write_to_buffer( d, "iyi, yansýz ve kem\n\r\n\r",0);
-	write_to_buffer( d, "Karakterinin yöneliminin ne olmasýný istiyorsun ( i - y - k )? ",0);
+	write_to_buffer( d, "Sï¿½ra geldi karakterin iï¿½in yï¿½nelim seï¿½meye. Yï¿½nelim, basit\n\r",0);
+	write_to_buffer( d, "bir ifadeyle karakterin topluma ve doï¿½aya karï¿½ï¿½ davranï¿½ï¿½\n\r",0);
+	write_to_buffer( d, "biï¿½imini belirler. Ayrï¿½ntï¿½lï¿½ bilgiye siteden ulaï¿½abilirsin.\n\r\n\r",0);
+	write_to_buffer( d, "ï¿½ï¿½ ï¿½eï¿½it yï¿½nelim vardï¿½r:\n\r",0);
+	write_to_buffer( d, "iyi, yansï¿½z ve kem\n\r\n\r",0);
+	write_to_buffer( d, "Karakterinin yï¿½neliminin ne olmasï¿½nï¿½ istiyorsun ( i - y - k )? ",0);
 	d->connected = CON_GET_ALIGNMENT;
 	break;
 
@@ -2251,24 +2255,24 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
       case CON_GET_ALIGNMENT:
 	switch( argument[0])
 	  {
-	  case 'i' : case 'Ý' :
+	  case 'i' : case 'ï¿½' :
 		ch->alignment = 1000;
-		write_to_buffer(d, "Karakterinin yönelimi 'iyi'.\n\r",0);
+		write_to_buffer(d, "Karakterinin yï¿½nelimi 'iyi'.\n\r",0);
 		break;
 	  case 'y' : case 'Y' :
 		ch->alignment = 0;
-		write_to_buffer(d, "Karakterinin yönelimi 'yansýz'.\n\r",0);
+		write_to_buffer(d, "Karakterinin yï¿½nelimi 'yansï¿½z'.\n\r",0);
 		break;
 	  case 'k' : case 'K' :
 		ch->alignment = -1000;
-		write_to_buffer(d, "Karakterinin yönelimi 'kem'.\n\r",0);
+		write_to_buffer(d, "Karakterinin yï¿½nelimi 'kem'.\n\r",0);
 		break;
 	  default:
-		write_to_buffer(d,"Geçerli bir yönelim deðil.\n\r",0);
-		write_to_buffer(d,"Karakterinin yöneliminin ne olmasýný istiyorsun ( i - y - k )? ",0);
+		write_to_buffer(d,"Geï¿½erli bir yï¿½nelim deï¿½il.\n\r",0);
+		write_to_buffer(d,"Karakterinin yï¿½neliminin ne olmasï¿½nï¿½ istiyorsun ( i - y - k )? ",0);
 	    return;
 	  }
-          write_to_buffer( d, "\n\r[Devam etmek için ENTER]\n\r",0);
+          write_to_buffer( d, "\n\r[Devam etmek iï¿½in ENTER]\n\r",0);
           ch->endur = 100;
 					ch->hometown = 0;
           d->connected = CON_GET_ETHOS;
@@ -2280,26 +2284,26 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	  switch(argument[0])
           {
 	   case 'T': case 't':
-	 	sprintf(buf,"\n\rArtýk felsefen tüze-%s.\n\r",
-		   IS_GOOD(ch) ? "iyi" : IS_EVIL(ch) ? "kem" : "yansýz");
+	 	sprintf(buf,"\n\rArtï¿½k felsefen tï¿½ze-%s.\n\r",
+		   IS_GOOD(ch) ? "iyi" : IS_EVIL(ch) ? "kem" : "yansï¿½z");
 	        write_to_buffer(d, buf, 0);
 		ch->ethos = 1;
 		break;
 	   case 'Y': case 'y':
-	 	sprintf(buf,"\n\rArtýk felsefen yansýz-%s.\n\r",
-		IS_GOOD(ch) ? "iyi" : IS_EVIL(ch) ? "kem" : "yansýz");
+	 	sprintf(buf,"\n\rArtï¿½k felsefen yansï¿½z-%s.\n\r",
+		IS_GOOD(ch) ? "iyi" : IS_EVIL(ch) ? "kem" : "yansï¿½z");
 	        write_to_buffer(d, buf, 0);
 		ch->ethos = 2;
 		break;
 	   case 'K': case 'k':
-	 	sprintf(buf,"\n\rArtýk felsefen kaos-%s.\n\r",
-		IS_GOOD(ch) ? "iyi" : IS_EVIL(ch) ? "kem" : "yansýz");
+	 	sprintf(buf,"\n\rArtï¿½k felsefen kaos-%s.\n\r",
+		IS_GOOD(ch) ? "iyi" : IS_EVIL(ch) ? "kem" : "yansï¿½z");
 	        write_to_buffer(d, buf, 0);
 		ch->ethos = 3;
 		break;
 	   default:
-	    write_to_buffer(d, "\n\rGeçerli bir etik seçmedin.\n\r", 0);
-	    write_to_buffer(d, "Etiðin ne olsun, (T/Y/K) (bilgi: www.uzakdiyarlar.net)?",0);
+	    write_to_buffer(d, "\n\rGeï¿½erli bir etik seï¿½medin.\n\r", 0);
+	    write_to_buffer(d, "Etiï¿½in ne olsun, (T/Y/K) (bilgi: www.uzakdiyarlar.net)?",0);
 	    return;
 	   }
          }
@@ -2308,19 +2312,19 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	  ch->endur = 0;
 	  if (!ethos_check(ch))
 	   {
-				 write_to_buffer( d, "Sýra geldi karakterin için etik seçmeye. Etik, basit\n\r",0);
-				 write_to_buffer( d, "bir ifadeyle karakterin kanunlara karþý davranýþ\n\r",0);
-				 write_to_buffer( d, "biçimini belirler. Ayrýntýlý bilgiye siteden ulaþabilirsin.\n\r\n\r",0);
-				 write_to_buffer( d, "Üç çeþit etik vardýr:\n\r",0);
-				 write_to_buffer( d, "Tüze: kanunlarýn toplum yaþamý için vazgeçilmez olduðuna inanýr.\n\r",0);
-				 write_to_buffer( d, "Yansýz: kanunlarýn varlýðý veya yokluðuyla ilgilenmez.\n\r",0);
-				 write_to_buffer( d, "Kaos: kanunlarýn özgürlüðün ve iradenin önünde engel olduðuna inanýr.\n\r\n\r",0);
-				 write_to_buffer( d, "Karakterinin etiðinin ne olmasýný istiyorsun ( t - y - k )? ",0);
+				 write_to_buffer( d, "Sï¿½ra geldi karakterin iï¿½in etik seï¿½meye. Etik, basit\n\r",0);
+				 write_to_buffer( d, "bir ifadeyle karakterin kanunlara karï¿½ï¿½ davranï¿½ï¿½\n\r",0);
+				 write_to_buffer( d, "biï¿½imini belirler. Ayrï¿½ntï¿½lï¿½ bilgiye siteden ulaï¿½abilirsin.\n\r\n\r",0);
+				 write_to_buffer( d, "ï¿½ï¿½ ï¿½eï¿½it etik vardï¿½r:\n\r",0);
+				 write_to_buffer( d, "Tï¿½ze: kanunlarï¿½n toplum yaï¿½amï¿½ iï¿½in vazgeï¿½ilmez olduï¿½una inanï¿½r.\n\r",0);
+				 write_to_buffer( d, "Yansï¿½z: kanunlarï¿½n varlï¿½ï¿½ï¿½ veya yokluï¿½uyla ilgilenmez.\n\r",0);
+				 write_to_buffer( d, "Kaos: kanunlarï¿½n ï¿½zgï¿½rlï¿½ï¿½ï¿½n ve iradenin ï¿½nï¿½nde engel olduï¿½una inanï¿½r.\n\r\n\r",0);
+				 write_to_buffer( d, "Karakterinin etiï¿½inin ne olmasï¿½nï¿½ istiyorsun ( t - y - k )? ",0);
 	    d->connected = CON_GET_ETHOS;
 	    return;
 	   }
 	 }
-         write_to_buffer( d, "\n\r[Devam etmek için ENTER]\n\r",0);
+         write_to_buffer( d, "\n\r[Devam etmek iï¿½in ENTER]\n\r",0);
          d->connected = CON_CREATE_DONE;
          break;
 
@@ -2331,7 +2335,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
         ch->pcdata->learned[gsn_recall] = 75;
         write_to_buffer( d, "\n\r", 2 );
 	do_help(ch,(char*)"genel");
-	write_to_buffer( d, "[Devam etmek için ENTER]\n\r",0);
+	write_to_buffer( d, "[Devam etmek iï¿½in ENTER]\n\r",0);
         d->connected = CON_READ_NEWBIE;
         return;
 	break;
@@ -2351,18 +2355,18 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
     case CON_READ_MOTD:
 	write_to_buffer( d,
-    "\n\rUzak Diyarlar'a hoþgeldin. Ölümün tadýný çýkar!!...\n\r",
+    "\n\rUzak Diyarlar'a hoï¿½geldin. ï¿½lï¿½mï¿½n tadï¿½nï¿½ ï¿½ï¿½kar!!...\n\r",
 	    0 );
 	ch->next	= char_list;
 	char_list	= ch;
 	d->connected	= CON_PLAYING;
 	if( ikikat_tp > 0 )
 	{
-			printf_to_char( ch , "\n\r{CÝki kat TP kazanma etkinliði etkin. Kalan süre %d dakika.{x\n\r\n\r" , ikikat_tp );
+			printf_to_char( ch , "\n\r{Cï¿½ki kat TP kazanma etkinliï¿½i etkin. Kalan sï¿½re %d dakika.{x\n\r\n\r" , ikikat_tp );
 	}
 	if( ikikat_gp > 0 )
 	{
-			printf_to_char( ch , "\n\r{CÝki kat GP kazanma etkinliði etkin. Kalan süre %d dakika.{x\n\r\n\r" , ikikat_gp );
+			printf_to_char( ch , "\n\r{Cï¿½ki kat GP kazanma etkinliï¿½i etkin. Kalan sï¿½re %d dakika.{x\n\r\n\r" , ikikat_gp );
 	}
 	ud_data_write();
 
@@ -2440,11 +2444,11 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    do_outfit(ch,(char*)"");
 			if( ikikat_tp > 0 )
 			{
-					printf_to_char( ch , "\n\r{CÝki kat TP kazanma etkinliði etkin. Kalan süre %d dakika.{x\n\r\n\r" , ikikat_tp );
+					printf_to_char( ch , "\n\r{Cï¿½ki kat TP kazanma etkinliï¿½i etkin. Kalan sï¿½re %d dakika.{x\n\r\n\r" , ikikat_tp );
 			}
 			if( ikikat_gp > 0 )
 			{
-					printf_to_char( ch , "\n\r{CÝki kat GP kazanma etkinliði etkin. Kalan süre %d dakika.{x\n\r\n\r" , ikikat_gp );
+					printf_to_char( ch , "\n\r{Cï¿½ki kat GP kazanma etkinliï¿½i etkin. Kalan sï¿½re %d dakika.{x\n\r\n\r" , ikikat_gp );
 			}
 	}
 	else if ( ch->in_room != NULL )
@@ -2474,9 +2478,9 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	reset_char(ch);
 	if  (!IS_IMMORTAL(ch))
-		act( "$n mud'a giriþ yaptý.", ch, NULL,NULL, TO_ROOM );
+		act( "$n mud'a giriï¿½ yaptï¿½.", ch, NULL,NULL, TO_ROOM );
 	MXPSendTag( d, "<VERSION>" );
-	wiznet("$N gerçekliðe giriþ yaptý.",ch,NULL,WIZ_LOGINS,0,0);
+	wiznet("$N gerï¿½ekliï¿½e giriï¿½ yaptï¿½.",ch,NULL,WIZ_LOGINS,0,0);
 
 	if ( ch->exp < (exp_per_level(ch,ch->pcdata->points) * ch->level ) )
 	{
@@ -2514,7 +2518,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	if (ch->silver > 10000 && !IS_IMMORTAL(ch))
 	{
-	    sprintf(buf,"Baþkanýn açacaðý yeni bar için %ld akçe vergi ödemeniz gerekiyor.\n\r",
+	    sprintf(buf,"Baï¿½kanï¿½n aï¿½acaï¿½ï¿½ yeni bar iï¿½in %ld akï¿½e vergi ï¿½demeniz gerekiyor.\n\r",
 		(ch->silver - 10000) / 2);
 	    send_to_char(buf,ch);
 	    ch->silver -= (ch->silver - 10000) / 2;
@@ -2523,7 +2527,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	if (ch->pcdata->bank_s > 100000 && !IS_IMMORTAL(ch))
 	{
-		sprintf(buf,"Ne yazýk ki sultanýn savaþ giderleri için %ld akçe vergi ödemeniz gerekiyor.\n\r",
+		sprintf(buf,"Ne yazï¿½k ki sultanï¿½n savaï¿½ giderleri iï¿½in %ld akï¿½e vergi ï¿½demeniz gerekiyor.\n\r",
 		(ch->pcdata->bank_s - 100000) / 10 );
 	    send_to_char(buf,ch);
 	    ch->pcdata->bank_s -= (ch->pcdata->bank_s - 100000) / 10;
@@ -2533,12 +2537,12 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	if (ch->pet != NULL)
 	{
 	    char_to_room(ch->pet,ch->in_room);
-	    act("$n mud'a giriþ yaptý.",ch->pet,NULL,NULL,TO_ROOM);
+	    act("$n mud'a giriï¿½ yaptï¿½.",ch->pet,NULL,NULL,TO_ROOM);
 	}
 
 	if (ch->pcdata->confirm_delete)
 	{
-	  send_to_char("Karakterine bir miktar bonus oynama zamaný verildi.\n\r",ch);
+	  send_to_char("Karakterine bir miktar bonus oynama zamanï¿½ verildi.\n\r",ch);
 	  ch->pcdata->confirm_delete = FALSE;
 	}
 
@@ -2557,7 +2561,7 @@ bool check_parse_name( char *name )
      * Reserved words.
      */
     if ( is_name( name,
-	(char*)"tümü oto immortal ölümsüz self someone something the you demise balance circle loner honor") )
+	(char*)"tï¿½mï¿½ oto immortal ï¿½lï¿½msï¿½z self someone something the you demise balance circle loner honor") )
 	return FALSE;
 
     /*
@@ -2665,15 +2669,15 @@ bool check_reconnect( DESCRIPTOR_DATA *d, char *name, bool fConn )
 		ch->desc	 = d;
 		ch->timer	 = 0;
 		send_to_char(
-		    "Tekrar baðlanýyor. Kaçýrdýðýn konuþmalar için 'tekrarla' diyebilirsin.\n\r", ch );
+		    "Tekrar baï¿½lanï¿½yor. Kaï¿½ï¿½rdï¿½ï¿½ï¿½n konuï¿½malar iï¿½in 'tekrarla' diyebilirsin.\n\r", ch );
 		if (!IS_IMMORTAL(ch))
-		    act( "$n yeniden baðlandý.", ch, NULL, NULL, TO_ROOM );
+		    act( "$n yeniden baï¿½landï¿½.", ch, NULL, NULL, TO_ROOM );
 		if ((obj = get_light_char(ch)) != NULL)
 		    --ch->in_room->light;
 
 		sprintf( log_buf, "%s@%s reconnected.", ch->name, d->host );
 		log_string( log_buf );
-		wiznet("$N baðlantýsýný yeniledi.",
+		wiznet("$N baï¿½lantï¿½sï¿½nï¿½ yeniledi.",
 		    ch,NULL,WIZ_LINKS,0,0);
 		d->connected = CON_PLAYING;
 		MXPSendTag( d, "<VERSION>" );
@@ -2704,7 +2708,7 @@ bool check_playing( DESCRIPTOR_DATA *d, char *name )
 	         ? dold->original->name : dold->character->name ) )
 	{
 		write_to_buffer( d, "Bu karakter zaten oyunda.\n\r",0);
-		write_to_buffer( d, "Yine de baðlanmak istiyor musunuz (E/H)?",0);
+		write_to_buffer( d, "Yine de baï¿½lanmak istiyor musunuz (E/H)?",0);
 	    d->connected = CON_BREAK_CONNECT;
 	    return TRUE;
 	}
@@ -2728,7 +2732,7 @@ void stop_idling( CHAR_DATA *ch )
     char_from_room( ch );
     char_to_room( ch, ch->was_in_room );
     ch->was_in_room	= NULL;
-    act( "$n hiçlikten döndü.", ch, NULL, NULL, TO_ROOM );
+    act( "$n hiï¿½likten dï¿½ndï¿½.", ch, NULL, NULL, TO_ROOM );
     return;
 }
 
@@ -3057,7 +3061,7 @@ void act_color( const char *format1, CHAR_DATA *ch, const void *arg1,
                 		case 'T': i = (char *) arg2;                            break;
 				case 'W': i = dir_name[atoi((const char *)arg2)];                  break;
 
-/* Türkçe ek kodu burada baþlýyor.
+/* Tï¿½rkï¿½e ek kodu burada baï¿½lï¿½yor.
 
 s : birisinin
 m : birisini
@@ -3095,19 +3099,19 @@ z : birisinden					*/
                 case 'p':
                     i = can_see_obj( to, obj1 )
                             ? obj1->short_descr
-                            : "birþey";
+                            : "birï¿½ey";
                     break;
 
                 case 'P':
                     i = can_see_obj( to, obj2 )
                             ? obj2->short_descr
-                            : "birþey";
+                            : "birï¿½ey";
                     break;
 
                 case 'd':
                     if ( arg2 == NULL || ((char *) arg2)[0] == '\0' )
                     {
-                        i = "kapý";
+                        i = "kapï¿½";
                     }
                     else
                     {
@@ -3217,11 +3221,11 @@ char *get_stat_alias( CHAR_DATA *ch, int where )
 	istat = get_curr_stat( ch , where );
 
 	if      ( istat >  22 ) stat = (char*)"[1;37;32mHarika [0;37;37m";
-	else if ( istat >= 20 ) stat = (char*)"[0;37;32mGüzel  [0;37;37m";
-	else if ( istat >= 18 ) stat = (char*)"[0;37;37mÝyi    [0;37;37m";
-	else if ( istat >= 14 ) stat = (char*)"[1;37;31mZayýf  [0;37;37m";
-	else if ( istat >= 10 ) stat = (char*)"[0;37;31mKötü   [0;37;37m";
-	else                    stat = (char*)"[0;37;31mÜmitsiz[0;37;37m";
+	else if ( istat >= 20 ) stat = (char*)"[0;37;32mGï¿½zel  [0;37;37m";
+	else if ( istat >= 18 ) stat = (char*)"[0;37;37mï¿½yi    [0;37;37m";
+	else if ( istat >= 14 ) stat = (char*)"[1;37;31mZayï¿½f  [0;37;37m";
+	else if ( istat >= 10 ) stat = (char*)"[0;37;31mKï¿½tï¿½   [0;37;37m";
+	else                    stat = (char*)"[0;37;31mï¿½mitsiz[0;37;37m";
 
 	return((char*)stat);
 
@@ -3234,7 +3238,7 @@ int ethos_check(CHAR_DATA *ch)
   if ( ch->iclass == 4 )
     {
      ch->ethos = 1;
-     write_to_buffer( d, "Etiðin Tüze.\n\r", 0 );
+     write_to_buffer( d, "Etiï¿½in Tï¿½ze.\n\r", 0 );
      return 1;
     }
   return 0;

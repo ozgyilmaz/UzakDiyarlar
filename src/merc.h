@@ -48,6 +48,9 @@
 *	ROM license, in the file Rom24/doc/rom.license			   *
 ***************************************************************************/
 #include "protocol.h"
+#include <mysql/mysql.h>
+#include "ini.h"
+#include "color.h"
 /*
  * Accommodate old non-Ansi compilers.
  */
@@ -211,20 +214,11 @@ typedef void OPROG_FUN_AREA args((OBJ_DATA *obj));
 #define PAGELEN			   22
 
 /* ANSI Colors */
-#define CLR_BLACK "\033[30m"
-#define CLR_GREEN "\033[32m"
 #define CLR_GREEN_BOLD "\033[32;1m"
-#define CLR_BROWN "\033[33m"
-#define CLR_YELLOW "\033[33;1m"
-#define CLR_RED "\033[31m"
 #define CLR_RED_BOLD "\033[31;1m"
-#define CLR_BLUE "\033[34m"
 #define CLR_BLUE_BOLD "\033[34;1m"
-#define CLR_MAGENTA "\033[35m"
 #define CLR_MAGENTA_BOLD "\033[35;1m"
-#define CLR_CYAN "\033[36m"
 #define CLR_CYAN_BOLD "\033[36;1m"
-#define CLR_WHITE "\033[37;1m"
 #define CLR_WHITE_BOLD "\033[37;0m"
 
 #define CLR_BLINK "\033[5m"
@@ -2885,6 +2879,9 @@ extern   const sh_int  rev_dir        [];
 extern		HELP_DATA	  *	help_first;
 extern		SHOP_DATA	  *	shop_first;
 
+extern		AREA_DATA *		area_first;
+extern		AREA_DATA *		area_last;
+
 extern		CHAR_DATA	  *	char_list;
 extern		DESCRIPTOR_DATA   *	descriptor_list;
 extern		OBJ_DATA	  *	object_list;
@@ -2909,6 +2906,7 @@ extern		int			max_oldies;
 extern		int			iNumPlayers;
 extern		int     ikikat_tp;
 extern		int     ikikat_gp;
+extern		ini_t * config;
 
 /*
  * OS-dependent declarations.
@@ -3173,6 +3171,45 @@ void	append_file	args( ( CHAR_DATA *ch, char *file, char *str ) );
 void	bug		args( ( const char *str, int param ) );
 void	log_string	args( ( const char *str ) );
 void	tail_chain	args( ( void ) );
+void mysql_log_communication	args( ( char *channel , CHAR_DATA *ch, CHAR_DATA *victim , int room_vnum , char *data ) );
+void mysql_write_areadata args(( AREA_DATA *pArea ));
+void mysql_write_room args(( ROOM_INDEX_DATA *pRoomIndex ));
+void mysql_write_exit args(( EXIT_DATA *pexit, int room_vnum, int door ));
+void mysql_write_room_extra_description args(( EXTRA_DESCR_DATA *ed, int room_vnum ));
+void mysql_write_object_extra_description args(( EXTRA_DESCR_DATA *ed, int object_vnum ));
+void mysql_write_help args(( HELP_DATA *pHelp ));
+void mysql_write_social args(( char *name, char *char_no_arg, char *others_no_arg, char *char_found, char *others_found, char *vict_found, char *char_not_found, char *char_auto, char *others_auto ));
+void mysql_write_shop args(( SHOP_DATA *pShop ));
+void mysql_write_reset args(( RESET_DATA *pReset ));
+void mysql_write_mobile args(( MOB_INDEX_DATA *pMobIndex, AREA_DATA *pArea ));
+void mysql_write_object_affect_data args(( AFFECT_DATA *paf, int object_vnum ));
+void mysql_write_object args(( OBJ_INDEX_DATA *pObjIndex, AREA_DATA *pArea ));
+void mysql_write_mobile_special args(( MOB_INDEX_DATA *pMobIndex, char *name ));
+void mysql_read_area args(( void ));
+void mysql_load_area args((MYSQL_ROW row));
+void mysql_read_help args(( void ));
+void mysql_load_help args((MYSQL_ROW row));
+void mysql_read_social args(( void ));
+void mysql_load_social args((MYSQL_ROW row));
+void mysql_read_room args(( void ));
+void mysql_load_room args((MYSQL_ROW row));
+void mysql_read_room_exit args(( void ));
+void mysql_load_room_exit args((MYSQL_ROW row));
+void mysql_read_room_extra_description args(( void ));
+void mysql_load_room_extra_description args((MYSQL_ROW row));
+void mysql_read_mobile args(( void ));
+void mysql_load_mobile args((MYSQL_ROW row));
+void mysql_read_object args(( void ));
+void mysql_load_object args((MYSQL_ROW row));
+void mysql_read_object_extra_description args(( void ));
+void mysql_load_object_extra_description args((MYSQL_ROW row));
+void mysql_read_object_affect_data args(( void ));
+void mysql_load_object_affect_data args((MYSQL_ROW row));
+void mysql_read_reset args(( void ));
+void mysql_load_reset args((MYSQL_ROW row));
+void mysql_read_shop args(( void ));
+void mysql_load_shop args((MYSQL_ROW row));
+AREA_DATA* area_lookup args(( char *name ));
 
 /* effect.c */
 void	acid_effect	args( (void *vo, int level, int dam, int target) );
@@ -3354,6 +3391,27 @@ char *	one_argument	args( ( char *argument, char *arg_first ) );
 /* interp-alias.c */
 void 	substitute_alias args( (DESCRIPTOR_DATA *d, char *input) );
 
+/* ini.c */
+/**
+ * Copyright (c) 2016 rxi
+ *
+ * This library is free software; you can redistribute it and/or modify it
+ * under the terms of the MIT license. See `ini.c` for details.
+ */
+
+#ifndef INI_H
+#define INI_H
+
+#define INI_VERSION "0.1.1"
+
+typedef struct ini_t ini_t;
+
+ini_t*      ini_load(const char *filename);
+void        ini_free(ini_t *ini);
+const char* ini_get(ini_t *ini, const char *section, const char *key);
+int         ini_sget(ini_t *ini, const char *section, const char *key, const char *scanfmt, void *dst);
+
+#endif
 
 /* magic.c */
 int	find_spell args( ( CHAR_DATA *ch, const char *name) );

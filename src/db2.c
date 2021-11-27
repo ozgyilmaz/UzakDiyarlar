@@ -318,6 +318,11 @@ void load_new_mobiles( FILE *fp )
 	pMobIndex->mprogs			= NULL;
 	pMobIndex->progtypes		= 0;
 
+        if (atoi(ini_get(config, "database", "db_run"))== 1)
+        {
+            mysql_write_mobile( pMobIndex , area_last );
+        }
+
         iHash                   = vnum % MAX_KEY_HASH;
         pMobIndex->next         = mob_index_hash[iHash];
         mob_index_hash[iHash]   = pMobIndex;
@@ -521,6 +526,11 @@ void load_objects( FILE *fp )
                 ungetc( letter, fp );
                 break;
             }
+        }
+
+        if (atoi(ini_get(config, "database", "db_run"))== 1)
+        {
+            mysql_write_object( pObjIndex , area_last );
         }
 
         iHash                   = vnum % MAX_KEY_HASH;
