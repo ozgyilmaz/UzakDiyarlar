@@ -2717,8 +2717,8 @@ void gmcp_update( void )
 			AFFECT_DATA *paf;
 
 			UpdateGMCPString( d, GMCP_NAME, d->character->name );
-			UpdateGMCPString( d, GMCP_RACE, (const char*)race_table[d->character->race].name );
-			UpdateGMCPString( d, GMCP_CLASS, (const char*)class_table[d->character->iclass].name );
+			UpdateGMCPString( d, GMCP_RACE, (const char*)race_table[d->character->race].name[1] );
+			UpdateGMCPString( d, GMCP_CLASS, (const char*)class_table[d->character->iclass].name[1] );
 
 			UpdateGMCPNumber( d, GMCP_HP, d->character->hit );
 			UpdateGMCPNumber( d, GMCP_MANA, d->character->mana );

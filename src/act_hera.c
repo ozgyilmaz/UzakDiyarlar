@@ -2056,8 +2056,8 @@ int parsebet (const int currentbet, const char *argument)
 
 void auction_update (void)
 {
-    char buf[MAX_STRING_LENGTH];
-    char bufc[MAX_STRING_LENGTH];
+    char buf[MAX_STRING_LENGTH - 20];
+    char bufc[MAX_STRING_LENGTH - 10];
 
     if (auction->item != NULL)
         if (--auction->pulse <= 0) /* decrease pulse */
@@ -2099,11 +2099,11 @@ void auction_update (void)
             else /* not sold */
             {
               sprintf (buf, "%s teklif gelmediði için mezattan çekildi.",auction->item->short_descr);
-		sprintf(bufc,"%s%s%s",CLR_CYAN,buf,CLR_WHITE_BOLD);
-                talk_auction(bufc);
-                sprintf (buf, "Mezatçý satýlmayan eþyayý depoya kaldýrýyor.");
-		sprintf(bufc,"%s%s%s",CLR_RED,buf,CLR_WHITE_BOLD);
-                talk_auction(bufc);
+			  sprintf(bufc,"%s%s%s",CLR_CYAN,buf,CLR_WHITE_BOLD);
+              talk_auction(bufc);
+              sprintf (buf, "Mezatçý satýlmayan eþyayý depoya kaldýrýyor.");
+			  sprintf(bufc,"%s%s%s",CLR_RED,buf,CLR_WHITE_BOLD);
+              talk_auction(bufc);
                 extract_obj(auction->item);
                 auction->item = NULL; /* clear auction */
 
@@ -2118,8 +2118,8 @@ void do_auction (CHAR_DATA *ch, char *argument)
 {
     OBJ_DATA *obj;
     char arg1[MAX_INPUT_LENGTH];
-    char buf[MAX_STRING_LENGTH];
-    char bufc[MAX_STRING_LENGTH];
+    char buf[MAX_STRING_LENGTH - 20];
+    char bufc[MAX_STRING_LENGTH - 10];
     char betbuf[MAX_STRING_LENGTH];
     int i;
 

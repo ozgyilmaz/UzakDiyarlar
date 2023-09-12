@@ -109,3 +109,6 @@ Uzak Diyarlar 2.1b2
 - gizemli yürüyüşteki kurban seviyesi değiştirildi.
 - ufala ile görev bitirme etkinleştirildi.
 - çıkışsız odalara görev verilmeyecek.
+
+UTF8 Branch
+- Kodun ISO8859-9'dan UTF-8'e adaptasyonu için bir miktar çalışma yapıldı. Kod derlenebilir hale geldi. Çalışma sırasında bölge dosyalarından bazı karakterleri okurken sıkıntı oluyor. Henüz çalışır durumda değil.

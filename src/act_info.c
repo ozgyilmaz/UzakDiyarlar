@@ -550,7 +550,10 @@ void show_char_to_char_0( CHAR_DATA *victim, CHAR_DATA *ch )
     sprintf(message," burada, %s'i sürüyor.",PERS(MOUNTED(victim),ch));
 	  strcat(buf, message);
 	}
-  else  strcat( buf, " burada." );
+  else 
+	  {
+		  strcat( buf, " burada." );
+	  }
 	break;
     case POS_FIGHTING:
     strcat( buf, " burada, " );
@@ -1184,7 +1187,6 @@ void do_show(CHAR_DATA *ch, char *argument)
 
 void do_prompt(CHAR_DATA *ch, char *argument)
 {
-  char buf[MAX_STRING_LENGTH];
 
   if ( argument[0] == '\0' )
   {
@@ -1201,28 +1203,12 @@ void do_prompt(CHAR_DATA *ch, char *argument)
     return;
   }
 
-  if( !strcmp( argument, "tümü" ) )
+  if(argument[0]!='\0')
   {
-    strcpy( buf, "Yp:%h/%H Mp:%m/%M Hp:%v/%V <%o>->{x ");
-  }
-  else
-  {
-    if ( strlen(argument) > 50 )
-    {
-      argument[50] = '\0';
-    }
-    strcpy( buf, argument );
-    smash_tilde( buf );
-    if (str_suffix("%c",buf))
-    {
-      strcat(buf," ");
-    }
+     printf_to_char(ch,"Bu komutla argüman kullanýlmaz.\n\r");
+     return;
   }
 
-  free_string( ch->prompt );
-  ch->prompt = str_dup( buf );
-  printf_to_char(ch,"Suflör %s olarak ayarlandý.\n\r",ch->prompt );
-  send_to_char(buf,ch);
   return;
 }
 
@@ -1747,7 +1733,7 @@ void do_exits( CHAR_DATA *ch, char *argument )
   if (fAuto)
   {
     sprintf(buf,CLR_CYAN);
-    strcat(buf,"[Çýkýþlar:");
+    strcat(buf,"[");
   }
   else if (IS_IMMORTAL(ch))
   {
@@ -1820,7 +1806,7 @@ void do_exits( CHAR_DATA *ch, char *argument )
 
     if ( fAuto )
 	{
-	  strcat( buf, "]\n\r" );
+	  strcat( buf, " ]\n\r" );
 	  strcat( buf, CLR_WHITE_BOLD);
   }
     send_to_char( buf, ch );
@@ -2043,7 +2029,7 @@ char *	const	month_name	[] =
 void do_time( CHAR_DATA *ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
-    char buf2[MAX_STRING_LENGTH];
+    char buf2[MAX_STRING_LENGTH - 20];
 
 	printf_to_char( ch , "Yýl  : %d\n\r", time_info.year );
 	printf_to_char( ch , "Ay   : %s (%d. ay)\n\r", month_name[time_info.month-1] , time_info.month );
@@ -2069,7 +2055,9 @@ void do_time( CHAR_DATA *ch, char *argument )
 		printf_to_char(ch,"\n\r\n\r");
     }
     if ( !IS_IMMORTAL( ch ) )
+	{
       return;
+  }
     sprintf(buf2, "%s", (char *) ctime( &boot_time ));
     sprintf(buf,"UD Mud %s tarihinde baþlatýldý.\n\rSistem zamaný, %s.\n\r",
 	buf2, (char *) ctime( &current_time ) );
@@ -4464,10 +4452,14 @@ void do_demand( CHAR_DATA *ch, char *argument)
 
 
   if (IS_SET(obj->progtypes,OPROG_GIVE))
+  {
     (obj->pIndexData->oprogs->give_prog) (obj,ch,victim);
+	}
 
   if (IS_SET(victim->progtypes,MPROG_GIVE))
+  {
     (victim->pIndexData->mprogs->give_prog) (victim,ch,obj);
+}
 
     send_to_char( "Gücün arzýn ürpermesine neden oluyor.\n\r",ch);
 
