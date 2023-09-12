@@ -60,7 +60,7 @@
 #include "merc.h"
 #include "magic.h"
 #include "recycle.h"
-
+extern void weather_update(void);  // External declaration
 /* command procedures needed */
 DECLARE_DO_FUN(do_look		);
 DECLARE_DO_FUN(do_yell		);
@@ -1903,18 +1903,44 @@ void spell_continual_light(int sn,int level,CHAR_DATA *ch,void *vo,int target)
 
 
 
-void spell_control_weather(int sn,int level,CHAR_DATA *ch,void *vo,int target)
+void spell_control_weather(int sn, int level, CHAR_DATA *ch, void *vo, int target)
 {
+    char feedback[MAX_STRING_LENGTH];
+
     if ( !str_cmp( target_name, "iyi" ) )
-	weather_info.change += dice( level / 3, 4 );
+    {
+        weather_info.change += dice( level / 3, 4 );
+        if (weather_info.sky > SKY_CLOUDLESS)
+        {
+            weather_info.sky--;
+            strcpy(feedback, "Bulutlari azad ediyor ve gökyüzünün açilisini izliyorsun.\n\r");
+        }
+        else
+        {
+            strcpy(feedback, "Daha güzel bir gökyüzü hayal edemiyorsun.\n\r");
+        }
+    }
     else if ( !str_cmp( target_name, "kötü" ) )
-	weather_info.change -= dice( level / 3, 4 );
-    else  {
-      send_to_char ("ÝYÝ mi olsun, KÖTÜ mü?\n\r", ch );
-	return;
+    {
+        weather_info.change -= dice( level / 3, 4 );
+        if (weather_info.sky < SKY_LIGHTNING)
+        {
+            weather_info.sky++;
+            strcpy(feedback, "Basinin üzerinde kara bulutlar toplaniyor. Havanin kötülestigini gözlemliyorsun.\n\r");
+        }
+        else
+        {
+            strcpy(feedback, "Korkunç bir hava, daha kötü yaparsan gökyüzü yarilirmis gibi duruyor.\n\r");
+        }
+    }
+    else  
+    {
+        send_to_char("IYI mi olsun, KÖTÜ mü?\n\r", ch);
+        return;
     }
 
-    send_to_char( "Tamam.\n\r", ch );
+    weather_update();  // Update the weather immediately
+    send_to_char(feedback, ch);  // Send the feedback to the player
     return;
 }
 
