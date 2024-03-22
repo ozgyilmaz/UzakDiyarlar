@@ -2393,6 +2393,7 @@ void do_shutdown( CHAR_DATA *ch, char *argument )
     if (ch->invis_level < LEVEL_HERO)
     	do_duyuru( ch, buf );
     reboot_uzakdiyarlar(FALSE);
+    cleanup_memory();
     return;
 }
 
@@ -5547,6 +5548,7 @@ void do_reboot( CHAR_DATA *ch, char *argument )
      return;
     }
 
+    cleanup_memory();
  do_reboot(ch,(char*)"");
 }
 

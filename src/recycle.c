@@ -613,3 +613,31 @@ char *buf_string(BUFFER *buffer)
 {
     return buffer->string;
 }
+void cleanup_memory(void) {
+    BAN_DATA* ban, * ban_next;
+    DESCRIPTOR_DATA* d, * d_next;
+    OBJ_DATA* obj, * obj_next;
+
+    // Free remaining banned data
+    for (ban = ban_free; ban != NULL; ban = ban_next) {
+        ban_next = ban->next;
+        free_ban(ban);
+    }
+    ban_free = NULL; // Ensure list is empty
+
+    // Free remaining descriptors
+    for (d = descriptor_free; d != NULL; d = d_next) {
+        d_next = d->next;
+        free_descriptor(d);
+    }
+    descriptor_free = NULL; // Ensure list is empty
+
+    // Free remaining objects
+    for (obj = obj_free; obj != NULL; obj = obj_next) {
+        obj_next = obj->next;
+        free_obj(obj);
+    }
+    obj_free = NULL; // Ensure list is empty
+
+    // ... Add cleanup for other free lists if needed ...
+}
