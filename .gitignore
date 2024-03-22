@@ -5,3 +5,6 @@ data/.DS_Store
 .DS_Store
 *.o
 uzakdiyarlar
+/.vs/slnx.sqlite
+/.gitignore
+/.gitignore
