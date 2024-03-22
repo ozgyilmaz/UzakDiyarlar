@@ -2392,8 +2392,8 @@ void do_shutdown( CHAR_DATA *ch, char *argument )
     strcat( buf, "\n\r" );
     if (ch->invis_level < LEVEL_HERO)
     	do_duyuru( ch, buf );
-    reboot_uzakdiyarlar(FALSE);
     cleanup_memory();
+    reboot_uzakdiyarlar(FALSE);
     return;
 }
 
