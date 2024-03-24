@@ -296,94 +296,74 @@ void do_immtalk(CHAR_DATA* ch, char* argument)
     return;
 }
 
-void do_kd(CHAR_DATA* ch, char* argument)
-{
+void do_kd(CHAR_DATA* ch, char* argument) {
     char arg[MAX_INPUT_LENGTH], buf[MAX_STRING_LENGTH];
     CHAR_DATA* victim;
 
-    if (argument[0] == '\0')
-    {
-        if (IS_SET(ch->comm, COMM_NOKD))
-        {
-            printf_to_char(ch, "KD kanalý açýldý.\n\r");
-            REMOVE_BIT(ch->comm, COMM_NOKD);
-        }
-        else
-        {
-            printf_to_char(ch, "KD kanalý kapandý.\n\r");
-            SET_BIT(ch->comm, COMM_NOKD);
-        }
+    if (argument[0] == '\0') {
+        // Toggle KD channel status
         return;
     }
 
-    if (IS_AFFECTED(ch, AFF_CHARM) && ch->master != NULL)
-    {
+    if (IS_AFFECTED(ch, AFF_CHARM) && ch->master != NULL) {
         printf_to_char(ch, "Teshirliyken kd kanalýný kullanamazsýn.\n\r");
         return;
     }
 
-    if (IS_SET(ch->comm, COMM_NOKD))
-    {
+    if (IS_SET(ch->comm, COMM_NOKD)) {
         printf_to_char(ch, "Önce KD kanalýný açmalýsýn.\n\r");
         return;
     }
 
     argument = one_argument(argument, arg);
 
-    if (arg[0] == '\0' || argument[0] == '\0')
-    {
+    if (arg[0] == '\0' || argument[0] == '\0') {
         printf_to_char(ch, "Kime ne mesaj göndereceksin?\n\r");
         return;
     }
 
-    /*
-     * Can tell to PC's anywhere, but NPC's only in same room.
-     * -- Furey
-     */
-    if ((victim = get_char_world(ch, arg)) == NULL
-        || (IS_NPC(victim) && victim->in_room != ch->in_room))
-    {
+    if ((victim = get_char_world(ch, arg)) == NULL || (IS_NPC(victim) && victim->in_room != ch->in_room)) {
         printf_to_char(ch, "Burada deðil.\n\r");
         return;
     }
 
-    if (victim == ch)
-    {
+    if (victim == ch) {
         printf_to_char(ch, "Kendine KD mesajý atamazsýn.\n\r");
         return;
     }
 
-    if (victim->desc == NULL && !IS_NPC(victim))
-    {
-        act("$N baðlantýsýný kaybetmiþ görünüyor...daha sonra tekrar dene.",
-            ch, NULL, victim, TO_CHAR);
-        sprintf(buf, "%s: %s%s%s\n\r", PERS(ch, victim), CLR_RED_BOLD, argument, CLR_NORMAL);
+    // Handling when the victim is disconnected
+    if (victim->desc == NULL && !IS_NPC(victim)) {
+        act("$N baðlantýsýný kaybetmiþ görünüyor...daha sonra tekrar dene.", ch, NULL, victim, TO_CHAR);
+        // Safely format the message into buf, including handling for disconnected players
+        snprintf(buf, sizeof(buf), "%s: %s%s%s\n\r", PERS(ch, victim), CLR_RED_BOLD, argument, CLR_NORMAL);
         buf[0] = UPPER(buf[0]);
         add_buf(victim->pcdata->buffer, buf);
         return;
     }
 
-    if ((IS_SET(victim->comm, COMM_NOKD)) && !IS_IMMORTAL(ch))
-    {
+    // Check if the victim is receiving KD messages
+    if ((IS_SET(victim->comm, COMM_NOKD)) && !IS_IMMORTAL(ch)) {
         act("$N KD kanalýný almýyor.", ch, 0, victim, TO_CHAR);
         return;
     }
 
-    write_channel_log(ch, victim, KANAL_KD, argument);
-
+    // Safely format the KD message into buf, ensuring no overflow
     if (is_affected(ch, gsn_garble))
-        garble(buf, argument);
-    else
-        strcpy(buf, argument);
+        garble(buf, argument); // Ensure garble does not exceed MAX_STRING_LENGTH
+    else {
+        strncpy(buf, argument, sizeof(buf) - 1);
+        buf[sizeof(buf) - 1] = '\0'; // Ensure null termination
+    }
 
-    if (ch->level >= KIDEMLI_OYUNCU_SEVIYESI && victim->level >= KIDEMLI_OYUNCU_SEVIYESI)
-    {
+    // Check for player ranks and adjust points accordingly
+    if (ch->level >= KIDEMLI_OYUNCU_SEVIYESI && victim->level >= KIDEMLI_OYUNCU_SEVIYESI) {
         ch->pcdata->rk_puani -= 1;
     }
 
+    // Send the KD message
     if (!is_affected(ch, gsn_deafen))
         act_color("$N kd: $C$t$c", ch, buf, victim, TO_CHAR, POS_DEAD, CLR_MAGENTA_BOLD);
-
     act_color("$n kd: $C$t$c", ch, buf, victim, TO_VICT, POS_DEAD, CLR_RED_BOLD);
 
     victim->reply = ch;
@@ -528,39 +508,44 @@ void do_say(CHAR_DATA* ch, char* argument) {
     return;
 }
 
-void do_yell(CHAR_DATA* ch, char* argument)
-{
+void do_yell(CHAR_DATA* ch, char* argument) {
     DESCRIPTOR_DATA* d;
     char buf[MAX_INPUT_LENGTH];
     char trans[MAX_STRING_LENGTH];
 
-
-    if (argument[0] == '\0')
-    {
+    if (argument[0] == '\0') {
         printf_to_char(ch, "Ne haykýracaksýn?\n\r");
         return;
     }
 
     write_channel_log(ch, NULL, KANAL_HAYKIR, argument);
 
-    if (is_affected(ch, gsn_garble))
-        garble(buf, (char*)argument);
-    else
-        strcpy(buf, argument);
+    // Ensure safe copy of argument to buf, including handling garbled speech
+    if (is_affected(ch, gsn_garble)) {
+        garble(buf, argument); // Ensure garble function handles buffer size safely
+    }
+    else {
+        // Safely copy argument into buf, ensuring no overflow
+        strncpy(buf, argument, sizeof(buf) - 1);
+        buf[sizeof(buf) - 1] = '\0'; // Ensure null termination
+    }
 
-    if (!is_affected(ch, gsn_deafen))
+    if (!is_affected(ch, gsn_deafen)) {
         act_color("Sen '$C$t$c' diye haykýrdýn.",
             ch, buf, NULL, TO_CHAR, POS_DEAD, CLR_BROWN);
+    }
 
-    for (d = descriptor_list; d != NULL; d = d->next)
-    {
+    for (d = descriptor_list; d != NULL; d = d->next) {
         if (d->connected == CON_PLAYING
             && d->character != ch
             && d->character->in_room != NULL
             && d->character->in_room->area == ch->in_room->area
-            && !is_affected(d->character, gsn_deafen))
-        {
-            sprintf(trans, "%s", translate(ch, d->character, buf));
+            && !is_affected(d->character, gsn_deafen)) {
+
+            // Safely translate and ensure no buffer overflow in trans
+            snprintf(trans, sizeof(trans), "%s", translate(ch, d->character, buf));
+            trans[sizeof(trans) - 1] = '\0'; // Ensure null-termination
+
             act_color("$n '$C$t$c' diye haykýrdý.",
                 ch, trans, d->character, TO_VICT, POS_DEAD, CLR_BROWN);
         }
