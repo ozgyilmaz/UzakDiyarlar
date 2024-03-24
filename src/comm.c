@@ -401,8 +401,8 @@ int main( int argc, char **argv )
     /*
      * Init time.
      */
-    gettimeofday( &now_time, NULL );
-    boot_time = current_time = (time_t) now_time.tv_sec;
+	gettimeofday(&now_time, (void*)NULL);
+	boot_time = current_time = (time_t) now_time.tv_sec;
 
     /*
      * Macintosh console initialization.
@@ -545,7 +545,7 @@ void game_loop_mac_msdos( void )
     struct timeval now_time;
     static DESCRIPTOR_DATA dcon;
 
-    gettimeofday( &last_time, NULL );
+    gettimeofday( &last_time, (void*)NULL );
     current_time = (time_t) last_time.tv_sec;
 
     /*
@@ -684,7 +684,7 @@ void game_loop_mac_msdos( void )
 #endif
 	    }
 
-	    gettimeofday( &now_time, NULL );
+	    gettimeofday( &now_time, (void*)NULL );
 	    delta = ( now_time.tv_sec  - last_time.tv_sec  ) * 1000 * 1000
 		  + ( now_time.tv_usec - last_time.tv_usec );
 	    if ( delta >= 1000000 / PULSE_PER_SCD )
@@ -732,7 +732,7 @@ void game_loop_unix( int control )
     struct timeval last_time;
 
     signal( SIGPIPE, SIG_IGN );
-    gettimeofday( &last_time, NULL );
+    gettimeofday( &last_time, (void*)NULL );
     current_time = (time_t) last_time.tv_sec;
 
     /* Main loop */
@@ -886,7 +886,7 @@ void game_loop_unix( int control )
 	    long secDelta;
 	    long usecDelta;
 
-	    gettimeofday( &now_time, NULL );
+	    gettimeofday( &now_time, (void*)NULL );
 	    usecDelta	= ((int) last_time.tv_usec) - ((int) now_time.tv_usec)
 			+ 1000000 / PULSE_PER_SCD;
 	    secDelta	= ((int) last_time.tv_sec ) - ((int) now_time.tv_sec );
@@ -916,7 +916,7 @@ void game_loop_unix( int control )
 	    }
 	}
 
-	gettimeofday( &last_time, NULL );
+	gettimeofday( &last_time, (void*)NULL );
 	current_time = (time_t) last_time.tv_sec;
     }
 
@@ -2836,7 +2836,7 @@ void send_ch_color( const char *format, CHAR_DATA *ch, int min, ... )
     *point++ = '\r';
 
       /* fix for color prefix and capitalization */
-    if (buf[0] == '')
+	if (buf[0] == '\0')
 	  {
 	    for(n = 1;buf[n] != 'm';n++) ;
 	    buf[n+1] = UPPER(buf[n+1]);
@@ -3126,7 +3126,7 @@ z : birisinden					*/
 			*point++ = '\r';
 			*point	 = '\0';
 			/* fix for color prefix and capitalization */
-			if (buf[0] == '')
+			if (buf[0] == '\0')
 			{
 				for(n = 1;buf[n] != 'm';n++) ;
 				buf[n+1] = UPPER(buf[n+1]);

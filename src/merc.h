@@ -2915,6 +2915,17 @@ extern		int     ikikat_gp;
  * These are all very standard library functions,
  *   but some systems have incomplete or non-ansi header files.
  */
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+    char* crypt(const char* __key, const char* __salt) noexcept; // Assuming __THROW translates to noexcept
+
+#ifdef __cplusplus
+}
+#endif
+
+
 #if	defined(_AIX)
 char *	crypt		args( ( const char *key, const char *salt ) );
 #endif
@@ -2930,7 +2941,7 @@ char *	crypt		args( ( const char *key, const char *salt ) );
 #endif
 
 #if	defined(linux)
-char *	crypt		args( ( const char *key, const char *salt ) );
+char* crypt(const char* __key, const char* __salt) noexcept;
 #endif
 
 #if	defined(macintosh)
@@ -3344,6 +3355,8 @@ void	char_from_room	args( ( CHAR_DATA *ch ) );
 void	char_to_room	args( ( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex ) );
 void    room_record     args( ( char *name, ROOM_INDEX_DATA *room,sh_int door) );
 
+/* recycle.c*/
+void cleanup_memory(void);
 
 /* interp.c */
 void	interpret	args( ( CHAR_DATA *ch, char *argument, bool is_order ) );
