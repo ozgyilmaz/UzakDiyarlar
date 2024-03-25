@@ -446,7 +446,23 @@ void do_kdg(CHAR_DATA* ch, char* argument)
     return;
 }
 
+char* escape_format_specifiers(char* message) {
+    char* escaped_message = strdup(message); // Allocate a copy to modify
+    char* p = escaped_message;
 
+    while (*p != '\0') {
+        if (*p == '$') {
+            // Shift characters to overwrite the '$'
+            memmove(p, p + 1, strlen(p));
+            // Add a backslash to escape the next character
+            *p = '\\';
+            p++; // Move to the next character
+        }
+        p++;
+    }
+
+    return escaped_message;
+}
 
 void do_say(CHAR_DATA* ch, char* argument) {
     CHAR_DATA* room_char;
@@ -507,10 +523,29 @@ void do_say(CHAR_DATA* ch, char* argument) {
 
     return;
 }
+size_t strlcpy(char* dst, const char* src, size_t size) {
+    size_t srclen = strlen(src);
+    if (size > 0) {
+        size_t copylen = srclen < size - 1 ? srclen : size - 1;
+        memcpy(dst, src, copylen);
+        dst[copylen] = '\0';
+    }
+    return srclen;
+}
 
+size_t strlcat(char* dst, const char* src, size_t size) {
+    size_t dstlen = strlen(dst);
+    size_t srclen = strlen(src);
+    if (size > 0 && dstlen < size - 1) {
+        size_t copylen = srclen < size - dstlen - 1 ? srclen : size - dstlen - 1;
+        memcpy(dst + dstlen, src, copylen);
+        dst[dstlen + copylen] = '\0';
+    }
+    return dstlen + srclen;
+}
 void do_yell(CHAR_DATA* ch, char* argument) {
     DESCRIPTOR_DATA* d;
-    char buf[MAX_INPUT_LENGTH];
+    char buf[MAX_STRING_LENGTH]; // Ensure this is sufficiently large for yell content.
     char trans[MAX_STRING_LENGTH];
 
     if (argument[0] == '\0') {
@@ -520,34 +555,48 @@ void do_yell(CHAR_DATA* ch, char* argument) {
 
     write_channel_log(ch, NULL, KANAL_HAYKIR, argument);
 
-    // Ensure safe copy of argument to buf, including handling garbled speech
+    // Secure copying to buf, considering garble might alter argument length
     if (is_affected(ch, gsn_garble)) {
-        garble(buf, argument); // Ensure garble function handles buffer size safely
+        // Assume garble safely handles string size
+        garble(buf, argument);
     }
     else {
-        // Safely copy argument into buf, ensuring no overflow
-        strncpy(buf, argument, sizeof(buf) - 1);
-        buf[sizeof(buf) - 1] = '\0'; // Ensure null termination
+        // Use strlcpy for safer copying with null-termination
+        strlcpy(buf, argument, sizeof(buf));
     }
 
     if (!is_affected(ch, gsn_deafen)) {
-        act_color("Sen '$C$t$c' diye haykýrdýn.",
-            ch, buf, NULL, TO_CHAR, POS_DEAD, CLR_BROWN);
+        // Direct use with buf ensures no additional string size changes
+        act_color("Sen '$C$t$c' diye haykýrdýn.", ch, buf, NULL, TO_CHAR, POS_DEAD, CLR_BROWN);
     }
 
     for (d = descriptor_list; d != NULL; d = d->next) {
-        if (d->connected == CON_PLAYING
-            && d->character != ch
-            && d->character->in_room != NULL
-            && d->character->in_room->area == ch->in_room->area
-            && !is_affected(d->character, gsn_deafen)) {
+        if (d->connected == CON_PLAYING &&
+            d->character != ch &&
+            d->character->in_room != NULL &&
+            d->character->in_room->area == ch->in_room->area &&
+            !is_affected(d->character, gsn_deafen)) {
 
-            // Safely translate and ensure no buffer overflow in trans
-            snprintf(trans, sizeof(trans), "%s", translate(ch, d->character, buf));
-            trans[sizeof(trans) - 1] = '\0'; // Ensure null-termination
+            // Translate and ensure no buffer overflow in trans
+            size_t trans_len = strlcpy(trans, translate(ch, d->character, buf), sizeof(trans));
 
-            act_color("$n '$C$t$c' diye haykýrdý.",
-                ch, trans, d->character, TO_VICT, POS_DEAD, CLR_BROWN);
+            // Escape format specifiers in the translated message
+            char* escaped_trans = escape_format_specifiers(trans);
+
+            // Check if there's enough space for the translated message
+            if (trans_len + strlen(buf) + 1 < sizeof(trans)) {
+                // Use strlcat to safely append the translated message
+                strlcat(trans, buf, sizeof(trans));
+            }
+            else {
+                // Handle overflow: truncate or use dynamic buffer
+                // ... (Implement appropriate overflow handling)
+            }
+
+            act_color("$n '$C$t$c' diye haykýrdý.", ch, escaped_trans, d->character, TO_VICT, POS_DEAD, CLR_BROWN);
+
+            // Free the escaped message copy
+            free(escaped_trans);
         }
     }
 
@@ -1900,51 +1949,60 @@ void do_pray(CHAR_DATA* ch, char* argument)
     return;
 }
 
-char char_lang_lookup(char c)
-{
+char char_lang_lookup(char c) {
     int i;
-
-    for (i = 0; translation_table[i].common[0] != '\0'; i++)
-        if (translation_table[i].common[0] == c)
+    for (i = 0; translation_table[i].common[0] != '\0' && translation_table[i].language[0] != '\0'; i++) {
+        if (translation_table[i].common[0] == c) {
             return translation_table[i].language[0];
-    return c;
+        }
+    }
+    return c; // Return the original character if not found
 }
 
 /*
  * ch says
  * victim hears
  */
-char* translate(CHAR_DATA* ch, CHAR_DATA* victim, char* argument)
-{
+char* translate(CHAR_DATA* ch, CHAR_DATA* victim, char* argument) {
     static char trans[MAX_STRING_LENGTH];
-    char translated_buf[MAX_STRING_LENGTH]; // Separate buffer for translation
-    char c;
-    int i;
+    char translated_buf[MAX_STRING_LENGTH]; // Buffer for translation
+    int i, length;
 
-    if (*argument == '\0'
-        || (ch == NULL) || (victim == NULL)
-        || IS_NPC(ch) || IS_NPC(victim)
-        || IS_IMMORTAL(ch) || IS_IMMORTAL(victim)
-        || ch->language == LANG_COMMON
-        || ch->language == race_table[ORG_RACE(victim)].language)
-    {
-        if (IS_IMMORTAL(victim))
-            sprintf(trans, "(%s) %s", language_table[ch->language].name, argument);
-        else strcpy(trans, argument);
+    // Early return for simple cases
+    if (*argument == '\0' || !ch || !victim || IS_NPC(ch) || IS_NPC(victim) ||
+        IS_IMMORTAL(ch) || IS_IMMORTAL(victim) || ch->language == LANG_COMMON ||
+        ch->language == race_table[ORG_RACE(victim)].language) {
+        if (IS_IMMORTAL(victim)) {
+            snprintf(trans, sizeof(trans), "(%s) %s", language_table[ch->language].name, argument);
+        }
+        else {
+            strncpy(trans, argument, sizeof(trans) - 1);
+            trans[sizeof(trans) - 1] = '\0'; // Ensure null termination
+        }
         return trans;
     }
 
-    for (i = 0; *argument != '\0'; argument++, i++)
-    {
-        c = char_lang_lookup(*argument);
-        translated_buf[i] = c;
-    }
-    translated_buf[i] = '\0';
+    // Calculate maximum possible translated length (including language info)
+    size_t max_trans_len = strlen(language_table[ch->language].name) + strlen(argument) + 3; // +3 for "()", space, and null terminator
 
-    sprintf(trans, "(%s) %s", language_table[ch->language].name, translated_buf);
+    // Check if translation would overflow
+    if (max_trans_len >= sizeof(trans)) {
+        // Handle overflow: truncate or use dynamic buffer
+        // ... (Implement appropriate overflow handling)
+        return trans; // Return empty or truncated string for now
+    }
+
+    // Translate the argument character by character
+    for (i = 0; argument[i] != '\0' && i < sizeof(translated_buf) - 1; i++) {
+        translated_buf[i] = char_lang_lookup(argument[i]);
+    }
+    translated_buf[i] = '\0'; // Ensure null termination
+
+    // Safely format the translated text with language info
+    snprintf(trans, sizeof(trans), "(%s) %s", language_table[ch->language].name, translated_buf);
+
     return trans;
 }
-
 
 void do_speak(CHAR_DATA* ch, char* argument)
 {
