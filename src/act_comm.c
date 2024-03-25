@@ -198,18 +198,29 @@ void do_channels(CHAR_DATA* ch, char* argument)
 
 }
 
-void garble(char* garbled, char* speech)
-{
+void garble(char* garbled, const char* speech) {
     int i;
 
-    for (i = 0; speech[i] != (char)NULL; i++) {
-        if (speech[i] >= 'a' && speech[i] <= 'z')
-            garbled[i] = 'a' + number_range(0, 25);
-        else if (speech[i] >= 'A' && speech[i] <= 'Z')
-            garbled[i] = 'A' + number_range(0, 25);
-        else garbled[i] = speech[i];
+    // Ensure garbled buffer is large enough to hold the garbled speech
+    if (strlen(speech) >= MAX_STRING_LENGTH) {
+        // Handle overflow: truncate or use dynamic buffer
+        // ... (Implement appropriate overflow handling)
+        return; // Return for now to avoid potential overflow
     }
-    garbled[i] = '\0';
+
+    for (i = 0; speech[i] != '\0' && i < MAX_STRING_LENGTH - 1; i++) {
+        if (speech[i] >= 'a' && speech[i] <= 'z') {
+            garbled[i] = 'a' + number_range(0, 25);
+        }
+        else if (speech[i] >= 'A' && speech[i] <= 'Z') {
+            garbled[i] = 'A' + number_range(0, 25);
+        }
+        else {
+            garbled[i] = speech[i];
+        }
+    }
+
+    garbled[i] = '\0'; // Ensure null termination
 }
 
 
@@ -349,11 +360,15 @@ void do_kd(CHAR_DATA* ch, char* argument) {
     }
 
     // Safely format the KD message into buf, ensuring no overflow
-    if (is_affected(ch, gsn_garble))
+    if (is_affected(ch, gsn_garble)) {
         garble(buf, argument); // Ensure garble does not exceed MAX_STRING_LENGTH
+    }
     else {
-        strncpy(buf, argument, sizeof(buf) - 1);
-        buf[sizeof(buf) - 1] = '\0'; // Ensure null termination
+        int result = snprintf(buf, sizeof(buf), "%s", argument);
+        if (result >= sizeof(buf)) {
+            // Handle overflow: truncate or use dynamic buffer
+            // ... (Implement appropriate overflow handling)
+        }
     }
 
     // Check for player ranks and adjust points accordingly
@@ -446,24 +461,6 @@ void do_kdg(CHAR_DATA* ch, char* argument)
     return;
 }
 
-char* escape_format_specifiers(char* message) {
-    char* escaped_message = strdup(message); // Allocate a copy to modify
-    char* p = escaped_message;
-
-    while (*p != '\0') {
-        if (*p == '$') {
-            // Shift characters to overwrite the '$'
-            memmove(p, p + 1, strlen(p));
-            // Add a backslash to escape the next character
-            *p = '\\';
-            p++; // Move to the next character
-        }
-        p++;
-    }
-
-    return escaped_message;
-}
-
 void do_say(CHAR_DATA* ch, char* argument) {
     CHAR_DATA* room_char;
     OBJ_DATA* char_obj;
@@ -543,10 +540,30 @@ size_t strlcat(char* dst, const char* src, size_t size) {
     }
     return dstlen + srclen;
 }
+
+
+// Function to escape format specifiers in a message
+char* escape_format_specifiers(char* message) {
+    char* escaped_message = strdup(message); // Allocate a copy to modify
+    char* p = escaped_message;
+
+    while (*p != '\0') {
+        if (*p == '$') {
+            // Shift characters to overwrite the '$'
+            memmove(p, p + 1, strlen(p));
+            // Add a backslash to escape the next character
+            *p = '\\';
+            p++; // Move to the next character
+        }
+        p++;
+    }
+
+    return escaped_message;
+}
+
 void do_yell(CHAR_DATA* ch, char* argument) {
     DESCRIPTOR_DATA* d;
     char buf[MAX_STRING_LENGTH]; // Ensure this is sufficiently large for yell content.
-    char trans[MAX_STRING_LENGTH];
 
     if (argument[0] == '\0') {
         printf_to_char(ch, "Ne haykýracaksýn?\n\r");
@@ -577,26 +594,26 @@ void do_yell(CHAR_DATA* ch, char* argument) {
             d->character->in_room->area == ch->in_room->area &&
             !is_affected(d->character, gsn_deafen)) {
 
-            // Translate and ensure no buffer overflow in trans
-            size_t trans_len = strlcpy(trans, translate(ch, d->character, buf), sizeof(trans));
+            // Calculate maximum possible translated length (including language info)
+            size_t max_trans_len = strlen(language_table[ch->language].name) + strlen(buf) + 3; // +3 for "()", space, and null terminator
 
-            // Escape format specifiers in the translated message
+            // Dynamically allocate trans buffer
+            char* trans = (char*)malloc(max_trans_len);
+            if (trans == NULL) {
+                // Handle allocation failure
+                bug("do_yell: Failed to allocate memory for trans buffer.", 0);
+                continue; // Skip to the next recipient
+            }
+
+            // Translate and escape format specifiers
+            snprintf(trans, max_trans_len, "%s", translate(ch, d->character, buf));
             char* escaped_trans = escape_format_specifiers(trans);
-
-            // Check if there's enough space for the translated message
-            if (trans_len + strlen(buf) + 1 < sizeof(trans)) {
-                // Use strlcat to safely append the translated message
-                strlcat(trans, buf, sizeof(trans));
-            }
-            else {
-                // Handle overflow: truncate or use dynamic buffer
-                // ... (Implement appropriate overflow handling)
-            }
 
             act_color("$n '$C$t$c' diye haykýrdý.", ch, escaped_trans, d->character, TO_VICT, POS_DEAD, CLR_BROWN);
 
-            // Free the escaped message copy
+            // Free the escaped message copy and the dynamically allocated trans buffer
             free(escaped_trans);
+            free(trans);
         }
     }
 
@@ -1999,8 +2016,11 @@ char* translate(CHAR_DATA* ch, CHAR_DATA* victim, char* argument) {
     translated_buf[i] = '\0'; // Ensure null termination
 
     // Safely format the translated text with language info
-    snprintf(trans, sizeof(trans), "(%s) %s", language_table[ch->language].name, translated_buf);
-
+    int result = snprintf(trans, sizeof(trans), "(%s) %s", language_table[ch->language].name, translated_buf);
+    if (result >= sizeof(trans)) {
+        // Handle overflow: truncate or use dynamic buffer
+       // ... (Implement appropriate overflow handling)
+    }
     return trans;
 }
 
