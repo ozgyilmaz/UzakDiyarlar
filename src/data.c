@@ -65,54 +65,50 @@ void ud_data_read(void)
 	return;
 }
 
-void write_channel_log(CHAR_DATA *ch, CHAR_DATA *vc, int kanal, char *argument)
-{
+void write_channel_log(CHAR_DATA* ch, CHAR_DATA* vc, int kanal, char* argument) {
+    if (argument[0] == '\0' || IS_NPC(ch)) {
+        return;
+    }
 
-	if ( argument[0] == '\0' )
-		return;
+    FILE* data;
+    char filename[MAX_STRING_LENGTH];
+    char buf[1024]; // Increased buffer size for safe operation
+    char bug_message[MAX_STRING_LENGTH]; // For formatting messages for bug()
+    time_t t = time(NULL);
+    struct tm tm = *localtime(&t);
 
-	if(IS_NPC(ch))
-		return;
+    if (kanal < 0 || kanal > 6) {
+        snprintf(bug_message, sizeof(bug_message), "write_channel_log: invalid channel %d", kanal);
+        bug(bug_message, 0);
+        return;
+    }
 
-	FILE *data;
-	char filename[MAX_STRING_LENGTH];
-	char buf[100];
-	time_t t = time(NULL);
-	struct tm tm = *localtime(&t);
+    // Construct filename based on channel
+    snprintf(filename, sizeof(filename), "../log/kanal/%s_%d_%02d_%02d",
+        (kanal == KANAL_SOYLE) ? "soyle" :
+        (kanal == KANAL_KD) ? "kd" :
+        (kanal == KANAL_ACEMI) ? "acemi" :
+        (kanal == KANAL_HAYKIR) ? "haykir" :
+        (kanal == KANAL_IMM) ? "imm" :
+        (kanal == KANAL_GSOYLE) ? "gsoyle" : "duygu",
+        tm.tm_year + 1900, tm.tm_mon + 1, tm.tm_mday);
 
-	if( kanal<0 || kanal>6 )
-	{
-		sprintf( buf, "write_channel_log: hatali kanal %d", kanal );
-		bug(buf,0);
-		return;
-	}
+    data = fopen(filename, "a");
+    if (!data) {
+        snprintf(bug_message, sizeof(bug_message), "write_channel_log: unable to open file %s", filename);
+        bug(bug_message, 0);
+        return;
+    }
 
-	switch(kanal)
-	{
-		case KANAL_SOYLE:
-			sprintf(filename, "../log/kanal/soyle_%d_%02d_%02d",tm.tm_year + 1900,tm.tm_mon + 1,tm.tm_mday);break;
-		case KANAL_KD:
-			sprintf(filename, "../log/kanal/kd_%d_%02d_%02d",tm.tm_year + 1900,tm.tm_mon + 1,tm.tm_mday);break;
-		case KANAL_ACEMI:
-			sprintf(filename, "../log/kanal/acemi_%d_%02d_%02d",tm.tm_year + 1900,tm.tm_mon + 1,tm.tm_mday);break;
-		case KANAL_HAYKIR:
-			sprintf(filename, "../log/kanal/haykir_%d_%02d_%02d",tm.tm_year + 1900,tm.tm_mon + 1,tm.tm_mday);break;
-		case KANAL_IMM:
-			sprintf(filename, "../log/kanal/imm_%d_%02d_%02d",tm.tm_year + 1900,tm.tm_mon + 1,tm.tm_mday);break;
-		case KANAL_GSOYLE:
-			sprintf(filename, "../log/kanal/gsoyle_%d_%02d_%02d",tm.tm_year + 1900,tm.tm_mon + 1,tm.tm_mday);break;
-		case KANAL_DUYGU:
-			sprintf(filename, "../log/kanal/duygu_%d_%02d_%02d",tm.tm_year + 1900,tm.tm_mon + 1,tm.tm_mday);break;
-	}
+    // Use snprintf to avoid buffer overflow and safely format the log message
+    snprintf(buf, sizeof(buf), "%02d/%02d/%02d %02d:%02d:%02d, Oda:%6d, Char: %10s, Victim: %10s, Log: %s\n",
+        tm.tm_year + 1900, tm.tm_mon + 1, tm.tm_mday,
+        tm.tm_hour, tm.tm_min, tm.tm_sec,
+        ch->in_room ? ch->in_room->vnum : 0, // Added null check for ch->in_room
+        ch->name,
+        (vc != NULL) ? vc->name : "None",
+        argument);
 
-	if (vc == NULL)
-	{
-
-	}
-
-	data=fopen(filename,"a");
-	sprintf(buf,"%02d/%02d/%02d %02d:%02d:%02d, Oda:%6d, Char: %10s, Victim: %10s, Log: %s\n",tm.tm_year + 1900,tm.tm_mon + 1,tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec,ch->in_room->vnum,ch->name,(vc != NULL)?vc->name:"None",argument);
-	fprintf(data,buf);
-	fclose(data);
-	return;
+    fputs(buf, data);
+    fclose(data);
 }

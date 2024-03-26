@@ -1622,9 +1622,9 @@ The ball of light will last indefinitely. It may also be used on an object
 to give it an enchanted glow.
 ~
 
-0 'CONTROL WEATHER'~
-Syntax: cast 'control weather' better
-Syntax: cast 'control weather' worse
+0 'hava kontrolü'~
+Syntax: büyü 'hava kontrolü' iyi
+Syntax: büyü 'hava kontrolü' kötü	
 
 This spell makes the weather either better or worse.
 ~

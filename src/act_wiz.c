@@ -2392,6 +2392,7 @@ void do_shutdown( CHAR_DATA *ch, char *argument )
     strcat( buf, "\n\r" );
     if (ch->invis_level < LEVEL_HERO)
     	do_duyuru( ch, buf );
+    cleanup_memory();
     reboot_uzakdiyarlar(FALSE);
     return;
 }
@@ -2510,72 +2511,75 @@ void do_snoop( CHAR_DATA *ch, char *argument )
 
 
 
-void do_switch( CHAR_DATA *ch, char *argument )
-{
+void do_switch(CHAR_DATA* ch, char* argument) {
     char arg[MAX_INPUT_LENGTH], buf[MAX_STRING_LENGTH];
-    CHAR_DATA *victim;
+    CHAR_DATA* victim;
 
-    one_argument( argument, arg );
+    one_argument(argument, arg);
 
-    if ( arg[0] == '\0' )
-    {
-	send_to_char( "Switch into whom?\n\r", ch );
-	return;
+    if (arg[0] == '\0') {
+        send_to_char("Switch into whom?\n\r", ch);
+        return;
     }
 
-    if ( ch->desc == NULL )
-	return;
-
-    if ( ch->desc->original != NULL )
-    {
-	send_to_char( "You are already switched.\n\r", ch );
-	return;
+    if (ch->desc == NULL) {
+        return;
     }
 
-    if ( ( victim = get_char_world( ch, arg ) ) == NULL )
-    {
-	send_to_char( "They aren't here.\n\r", ch );
-	return;
+    if (ch->desc->original != NULL) {
+        send_to_char("You are already switched.\n\r", ch);
+        return;
     }
 
-    if ( victim == ch )
-    {
-	send_to_char( "Ok.\n\r", ch );
-	return;
+    if ((victim = get_char_world(ch, arg)) == NULL) {
+        send_to_char("They aren't here.\n\r", ch);
+        return;
     }
 
-    if (!IS_NPC(victim))
-    {
-	send_to_char("You can only switch into mobiles.\n\r",ch);
-	return;
+    if (victim == ch) {
+        send_to_char("Ok.\n\r", ch);
+        return;
     }
 
-    if (!is_room_owner(ch,victim->in_room) && ch->in_room != victim->in_room
-    &&  room_is_private(victim->in_room) && !IS_TRUSTED(ch,IMPLEMENTOR))
-    {
-	send_to_char("That character is in a private room.\n\r",ch);
-	return;
+    if (!IS_NPC(victim)) {
+        send_to_char("You can only switch into mobiles.\n\r", ch);
+        return;
     }
 
-    if ( victim->desc != NULL )
-    {
-	send_to_char( "Character in use.\n\r", ch );
-	return;
+    if (!is_room_owner(ch, victim->in_room) && ch->in_room != victim->in_room &&
+        room_is_private(victim->in_room) && !IS_TRUSTED(ch, IMPLEMENTOR)) {
+        send_to_char("That character is in a private room.\n\r", ch);
+        return;
     }
 
-    sprintf(buf,"$N switches into %s",victim->short_descr);
-    wiznet(buf,ch,NULL,WIZ_SWITCHES,WIZ_SECURE,get_trust(ch));
+    if (victim->desc != NULL) {
+        send_to_char("Character in use.\n\r", ch);
+        return;
+    }
+
+    sprintf(buf, "$N switches into %s", victim->short_descr);
+    wiznet(buf, ch, NULL, WIZ_SWITCHES, WIZ_SECURE, get_trust(ch));
 
     ch->desc->character = victim;
-    ch->desc->original  = ch;
-    victim->desc        = ch->desc;
-    ch->desc            = NULL;
-    /* change communications to match */
-    if (ch->prompt != NULL)
-        victim->prompt = str_dup(ch->prompt);
-    victim->comm = ch->comm;
-    victim->lines = ch->lines;
-    send_to_char( "Ok.\n\r", victim );
+    ch->desc->original = ch;
+    victim->desc = ch->desc;
+    ch->desc = NULL;
+
+    // Check if the target NPC is charmed
+    if (IS_AFFECTED(victim, AFF_CHARM)) {
+        // If charmed, avoid copying communication flags and prompt
+        send_to_char("Ok.\n\r", victim); // Send basic confirmation
+    }
+    else {
+        // If not charmed, proceed with normal switch logic
+        if (ch->prompt != NULL) {
+            victim->prompt = str_dup(ch->prompt);
+        }
+        victim->comm = ch->comm;
+        victim->lines = ch->lines;
+        send_to_char("Ok.\n\r", victim);
+    }
+
     return;
 }
 
@@ -5547,6 +5551,7 @@ void do_reboot( CHAR_DATA *ch, char *argument )
      return;
     }
 
+    cleanup_memory();
  do_reboot(ch,(char*)"");
 }
 
